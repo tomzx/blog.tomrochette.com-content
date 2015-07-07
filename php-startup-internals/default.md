@@ -1,12 +1,11 @@
-/*
- title: PHP Startup Internals
- Author: tomzx
- Template: post
- Permalink: /php-startup-internals/
- Date: 2015-03-01T09:00:00-05:00
- Categories: Programming
- Tags: php, startup, internals
-*/
+---
+title: PHP Startup Internals
+date: 2015-03-01T09:00:00-05:00
+Author: tomzx
+Permalink: /php-startup-internals/
+Categories: Programming
+Tags: php, startup, internals
+---
 
 * PHP
 * MySQL

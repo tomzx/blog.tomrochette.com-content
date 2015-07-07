@@ -1,11 +1,12 @@
-/*
- title: K2 new slider option: killing your chances of getting spidered?
- Author: tomzx
- Template: post
- Permalink: /k2-new-slider-option-killing-your-chances-of-getting-spidered/
- Date: 2006-05-25T06:16:50-05:00
- Categories: Sites
-*/
+---
+title: K2 new slider option: killing your chances of getting spidered?
+Date: 2006-05-25T06:16:50-05:00
+Author: tomzx
+Template: post
+Permalink: /k2-new-slider-option-killing-your-chances-of-getting-spidered/
+Categories: Sites
+---
+
 Well, it took me some time until I realise that this cool slider bar option as something negative about it: it hides contains from search engines spiders.
 
 Using AJAX coding, the only one who can trigger the request to the server are the users, a bot wouldn't be able to read any content except the one that's appearing on the front page.

@@ -2,7 +2,9 @@
 title: Artificial General Intelligence
 ---
 
-# Artificial General Intelligence
+# Artificial General Intelligence 
+
+[TOC]
 
 To limit the dangers of AI, contain them in a physical body (which can be destroyed).
 By extension, this means that human should be able to extend their reach through externalization, that is, provide APIs (function library) of their thought process so that others may query that process.
@@ -18,7 +20,6 @@ Develop tools to help me develop faster
 Develop a system that can improve itself using genetic mutation
 
 -----
-
 
 Memory is the construction of a finite?/nondeterministic? state machine
 Thought is the process of going through the state machine
@@ -127,7 +128,6 @@ The main issue at this point for them will be to figure out how to integrate thi
 
 They'll want to improve the software they've just obtained. Through static analysis they will be able to determine the exact logic that was used and potentially refactor it using more appropriate instruction and data structures. This means that AGI will become masters of program perfection.
 
-
 -----
 
 # Study of graph architectures
@@ -172,7 +172,6 @@ for instance, reading "word" would trigger all words with the letter "w", then "
 * Will it reproduce an already tried genome?
 * Is transitivity (a node going to a node then to another node, making the middle node useless) removed?
 
-
 Genetic evolution is biased toward remembering good neural network while forgetting neural network connections to avoid
 
 ## Things to improve
@@ -211,7 +210,6 @@ Genetic evolution is biased toward remembering good neural network while forgett
 * Rightmost
 * Distance traveled
 * Score
-
 
 -->> Compare the advantages of learning from the parts you have difficulties with vs always from the start
 * Explore more of the map rapidly

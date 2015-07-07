@@ -1,9 +1,10 @@
-/*
- title: Tools of the trade
- Author: tomzx
- Template: page
- Permalink: /tools-of-the-trade/
-*/
+---
+title: Tools of the trade
+Author: tomzx
+Template: page
+Permalink: /tools-of-the-trade/
+---
+
 <span style="color: #333333; font-family: Georgia, 'Times New Roman', 'Bitstream Charter', Times, serif;"><span style="line-height: 19px;">PHP</span></span>
 
 *   [laravel 4.*][1]

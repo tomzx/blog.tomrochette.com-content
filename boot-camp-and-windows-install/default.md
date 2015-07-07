@@ -1,11 +1,12 @@
-/*
- title: Boot Camp and Windows install
- Author: tomzx
- Template: post
- Permalink: /boot-camp-and-windows-install/
- Date: 2007-11-12T01:30:14-05:00
- Categories: Computers
-*/
+---
+title: Boot Camp and Windows install
+date: 2007-11-12T01:30:14-05:00
+Author: tomzx
+Template: post
+Permalink: /boot-camp-and-windows-install/
+Categories: Computers
+---
+
 If you're having a hard time getting Boot Camp to correctly install Windows and you're getting either a "disk error" or "hal.dll missing" error, here's how to actually fix it.
 
 First, you'll have to restore your disk to a full Mac OS X partition.

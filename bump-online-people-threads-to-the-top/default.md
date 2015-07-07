@@ -1,11 +1,12 @@
-/*
- title: Bump online people threads to the top
- Author: tomzx
- Template: post
- Permalink: /bump-online-people-threads-to-the-top/
- Date: 2006-05-09T03:54:43-05:00
- Categories: Sites
-*/
+---
+title: Bump online people threads to the top
+date: 2006-05-09T03:54:43-05:00
+Author: tomzx
+Template: post
+Permalink: /bump-online-people-threads-to-the-top/
+Categories: Sites
+---
+
 Have you ever been on a forum waiting for people to reply to your threads? Do you find it frustrating to have to bump your own threads so you can get the response you're looking for? If yes, then you might want to look at this concept idea:
 
 When you are online, varying from 5-10 of your "latest" post would be bumped to the top automatically as your are online. This would increase the chances of getting a reply to your messages. As well all know though, forums are being browsed by thousand of people so bumping all those threads all at once would be useless & cpu consuming that's why instead of bumping all of our threads, we would be able to bump 5 chosen thread each time we are online.

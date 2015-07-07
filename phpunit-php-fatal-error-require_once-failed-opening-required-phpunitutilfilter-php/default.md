@@ -1,12 +1,13 @@
-/*
- title: PHPUnit - PHP Fatal error: require_once(): Failed opening required 'PHPUnit/Util/Filter.php'
- Author: tomzx
- Template: post
- Permalink: /phpunit-php-fatal-error-require_once-failed-opening-required-phpunitutilfilter-php/
- Date: 2011-11-26T00:14:53-05:00
- Categories: Programming
- Tags: php, phpunit
-*/
+---
+title: PHPUnit - PHP Fatal error: require_once(): Failed opening required 'PHPUnit/Util/Filter.php'
+date: 2011-11-26T00:14:53-05:00
+Author: tomzx
+Template: post
+Permalink: /phpunit-php-fatal-error-require_once-failed-opening-required-phpunitutilfilter-php/
+Categories: Programming
+Tags: php, phpunit
+---
+
 A friend of mine was trying to install PHPUnit on his mac (OS X Lion), but unfortunately, he got stuck during the process.
 
 At some point, he was faced with this error being displayed. We both looked at the problem and first made sure that said file existed. It was the case, weird...

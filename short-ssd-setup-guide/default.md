@@ -1,12 +1,13 @@
-/*
- title: Short SSD setup guide
- Author: tomzx
- Template: post
- Permalink: /short-ssd-setup-guide/
- Date: 2013-01-05T08:12:09-05:00
- Categories: Computers
- Tags: ssd
-*/
+---
+title: Short SSD setup guide
+date: 2013-01-05T08:12:09-05:00
+Author: tomzx
+Template: post
+Permalink: /short-ssd-setup-guide/
+Categories: Computers
+Tags: ssd
+---
+
 Backup everything. First rename, then remove when you confirmed it worked. Better safe than sorry.
 
 <pre><code class="bash">REM Set the new root location

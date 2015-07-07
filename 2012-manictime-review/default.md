@@ -1,12 +1,12 @@
-/*
- title: 2012 ManicTime review
- Author: tomzx
- Template: post
- Permalink: /2012-manictime-review/
- Date: 2013-01-05T08:12:11-05:00
- Categories: General
- Tags: productivity, time management
-*/
+---
+title: 2012 ManicTime review
+date: 2013-01-05T08:12:11-05:00
+Author: tomzx
+Permalink: /2012-manictime-review/
+Categories: General
+Tags: productivity, time management
+---
+
 As 2012 ended, I wanted to take a look back at this year and review my computer usage/consumption in order to reduce time wasting activity. That time should be channeled into more meaningful activities like learning a new language, improving my current skills, practicing piano and more.
 
 The following data has been collected from August 11, 2012 to December 31, 2012. There is about 14 days which do not have any data (application was closed).

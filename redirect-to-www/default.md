@@ -1,11 +1,12 @@
-/*
- title: Redirect to www
- Author: tomzx
- Template: post
- Permalink: /redirect-to-www/
- Date: 2006-06-04T06:28:16-05:00
- Categories: Sites
-*/
+---
+title: Redirect to www
+date: 2006-06-04T06:28:16-05:00
+Author: tomzx
+Template: post
+Permalink: /redirect-to-www/
+Categories: Sites
+---
+
 <pre><code class="apache">Options +FollowSymLinks
 RewriteEngine on
 RewriteCond %{HTTP_HOST} ^your-domain-here\.com

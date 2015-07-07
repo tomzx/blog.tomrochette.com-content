@@ -1,11 +1,12 @@
-/*
- title: Shared network computers not showing up in Leopard
- Author: tomzx
- Template: post
- Permalink: /shared-network-computers-not-showing-up-in-leopard/
- Date: 2008-01-12T01:02:48-05:00
- Categories: Computers
-*/
+---
+title: Shared network computers not showing up in Leopard
+date: 2008-01-12T01:02:48-05:00
+Author: tomzx
+Template: post
+Permalink: /shared-network-computers-not-showing-up-in-leopard/
+Categories: Computers
+---
+
 Since I've upgraded to Leopard, I couldn't connect to my Windows network anymore. Browsing through various websites looking for answers, I tried pretty much all of them with no success. Not until I found [this page][1]. Is explanation is pretty simple and indeed makes my shared network show up once again!
 
 Here's the explanation and instructions on how to fix it:

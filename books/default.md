@@ -1,9 +1,10 @@
-/*
- title: Books
- Author: tomzx
- Template: page
- Permalink: /books/
-*/
+---
+title: Books
+Author: tomzx
+Template: page
+Permalink: /books/
+---
+
 You can check an up-to-date list of all the books I've read, am currently reading or plan on reading at the following address: <http://www.goodreads.com/user/show/7202045>
 
 <div id="gr_grid_widget_1395460599">

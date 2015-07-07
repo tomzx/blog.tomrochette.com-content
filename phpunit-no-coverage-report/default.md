@@ -1,12 +1,13 @@
-/*
- title: PHPUnit - No coverage report
- Author: tomzx
- Template: post
- Permalink: /phpunit-no-coverage-report/
- Date: 2012-08-05T02:20:34-05:00
- Categories: Programming
- Tags: code coverage, php, phpunit
-*/
+---
+title: PHPUnit - No coverage report
+date: 2012-08-05T02:20:34-05:00
+Author: tomzx
+Template: post
+Permalink: /phpunit-no-coverage-report/
+Categories: Programming
+Tags: code coverage, php, phpunit
+---
+
 I was trying to get PHPUnit to give me some coverage report for a project I had not worked on for a long time. I had received a github pull request from someone and I wanted to see what the coverage was on the project to see if the submitter had done a good job of covering his code, but I couldn't get PHPUnit to generate a report that contained any data. All I would get was a couple of empty directory folders pages, which was useless.
 
 I had code coverage work on another project in the same environment I was in, so I was pretty sure that my problem had to do either with how I had setup PHPUnit for that particular project, or that something else was interfering with the report generation.
