@@ -2,10 +2,11 @@
 title: Munin, mysql and semaphore: how to deal with the &#8220;identifier removed&#8221; error
 date: 2013-10-02T22:14:13-05:00
 Author: tomzx
-Template: post
 Permalink: /munin-mysql-and-semaphore-how-to-deal-with-the-identifier-removed-error/
-Categories: Programming
-Tags: identifier removed, ipcrm, ipcs, munin, mysql, semaphore
+taxonomy:
+    type: post
+    category: Programming
+    tag: [identifier removed, ipcrm, ipcs, munin, mysql, semaphore]
 ---
 
 The following depicts how I &#8220;solved&#8221; a problem I recently had regarding munin, its mysql plugins and the shared memory cache library used by the plugins (written in perl and using IPC::ShareLite).

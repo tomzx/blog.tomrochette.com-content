@@ -2,10 +2,11 @@
 title: Software developer
 date: 2009-04-26T22:53:36-05:00
 Author: tomzx
-Template: post
 Permalink: /software-developer/
-Categories: Computers, Philosophy
-Tags: joke
+taxonomy:
+    type: post
+    category: Computers, Philosophy
+    tag: joke
 ---
 
 > A man is flying in a hot air balloon and realizes he is lost. He reduces height and spots a man down below. He lowers the balloon further and shouts: "Excuse me, can you tell me where I am?"

@@ -1,6 +1,5 @@
 ---
-title: test
-slug: about
+title: About
 ---
 
 # About

@@ -2,9 +2,10 @@
 title: RICHTX32.ocx registration fix
 date: 2006-06-05T18:34:49-05:00
 Author: tomzx
-Template: post
 Permalink: /richtx32ocx-registration-fix/
-Categories: Computers
+taxonomy:
+    type: post
+    category: Computers
 ---
 
 > "richtx32.ocx" is not an executable file and no registration helper is registered for this file type.

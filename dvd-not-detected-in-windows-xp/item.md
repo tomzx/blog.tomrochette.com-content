@@ -2,9 +2,10 @@
 title: DVD not detected in Windows XP
 date: 2006-11-29T23:59:05-05:00
 Author: tomzx
-Template: post
 Permalink: /dvd-not-detected-in-windows-xp/
-Categories: Computers
+taxonomy:
+    type: post
+    category: Computers
 ---
 
 If you're having trouble with your DVD not being detected in Windows XP while being detected in the BIOS, this is THE solution you've been looking for.

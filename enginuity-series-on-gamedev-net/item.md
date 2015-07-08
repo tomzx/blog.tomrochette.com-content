@@ -2,10 +2,11 @@
 title: Enginuity series on GameDev.net
 date: 2011-04-25T04:01:00-05:00
 Author: tomzx
-Template: post
 Permalink: /enginuity-series-on-gamedev-net/
-Categories: Programming
-Tags: enginuity, game development
+taxonomy:
+    type: post
+    category: Programming
+    tag: [enginuity, game development]
 ---
 
 I've just stumbled upon a series of articles from Richard Fine that were written in 2003 which describes the basics of a game engine he calls Enginuity. It lays the foundations to basic memory management, logging, kernel and tasks management and much more. An extremely interesting read. Sadly, you can read in the articles that this was projected to be a series of more than 8 articles, but it seems it stopped at the fifth article. If anyone knows where to find the rest (if it exists), I'd be grateful!

@@ -2,10 +2,12 @@
 title: PHPUnit not outputting coverage-html
 date: 2011-10-25T01:31:45-05:00
 Author: tomzx
-Template: post
+
 Permalink: /phpunit-not-outputting-coverage-html/
-Categories: Programming
-Tags: code coverage, php, phpunit
+taxonomy:
+    type: post
+    category: Programming
+    tag: [code coverage, php, phpunit]
 ---
 
 I've been using PHPUnit recently to test a Kohana application I'm developing as my last semester project for my bachelor's degree.

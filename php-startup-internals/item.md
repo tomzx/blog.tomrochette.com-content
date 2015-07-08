@@ -3,8 +3,9 @@ title: PHP Startup Internals
 date: 2015-03-01T09:00:00-05:00
 Author: tomzx
 Permalink: /php-startup-internals/
-Categories: Programming
-Tags: php, startup, internals
+taxonomy:
+    category: Programming
+    tag: [php, startup, internals]
 ---
 
 * PHP
@@ -78,22 +79,22 @@ I'll now go into more details as to what each does.
 1. Pull the latest revision from the repository
 2. Download and update composer (if required)
 3. Install dependencies
-	1. bower install
-	2. npm install
-	3. composer install
+    1. bower install
+    2. npm install
+    3. composer install
 4. Build assets to validate they compile
-	1. Compile LESS into CSS
-	2. Concatenate and minify JS
+    1. Compile LESS into CSS
+    2. Concatenate and minify JS
 5. Prepare the application environment
-	1. Migrate database
-	2. Seed database
+    1. Migrate database
+    2. Seed database
 6. Run continuous integration tools to assert code quality
-	1. phpunit
-	2. phploc
-	3. pdepend
-	4. phpmd
-	5. phpcs
-	6. phpcpd
+    1. phpunit
+    2. phploc
+    3. pdepend
+    4. phpmd
+    5. phpcs
+    6. phpcpd
 
 An iterative cycle here should take less than 5 minutes (and a maximum of 30 minutes). The goal is to quickly know after pushing changes to your repository that nothing is broken.
 
@@ -106,15 +107,15 @@ For this to work, you simply need to make a symbolic link from the jenkins proje
 1. Pull the latest revision from the repository
 2. Download and update composer (if required)
 3. Install dependencies
-	1. bower install
-	2. npm install
-	3. composer install
+    1. bower install
+    2. npm install
+    3. composer install
 4. Build/Prepare website
-	1. Compile LESS into CSS
-	2. Concatenate and minify JS
+    1. Compile LESS into CSS
+    2. Concatenate and minify JS
 5. Prepare the application environment
-	1. Migrate database
-	2. Seed database
+    1. Migrate database
+    2. Seed database
 
 An iterative cycle here should take less than 5 minutes. Anything that takes longer than that would be suspicious.
 

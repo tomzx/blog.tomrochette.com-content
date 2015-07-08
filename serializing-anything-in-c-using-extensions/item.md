@@ -2,10 +2,11 @@
 title: Serializing "anything" in C# using extensions
 date: 2011-06-05T04:22:07-05:00
 Author: tomzx
-Template: post
 Permalink: /serializing-anything-in-c-using-extensions/
-Categories: Programming
-Tags: c#, extensions, serialization
+taxonomy:
+    type: post
+    category: Programming
+    tag: [c#, extensions, serialization]
 ---
 
 I was recently interested in getting C# objects to serialize into XML so that I could save and load a configuration out of a file. Sadly, C# support for XML and serialization is far from the best stuff I've seen in programming. But anyway, here's what this post is about: using DataContract with a bit of extension magic to get anything to be serializable into XML!

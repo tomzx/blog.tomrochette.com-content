@@ -2,9 +2,10 @@
 title: K2 new slider option: killing your chances of getting spidered?
 Date: 2006-05-25T06:16:50-05:00
 Author: tomzx
-Template: post
 Permalink: /k2-new-slider-option-killing-your-chances-of-getting-spidered/
-Categories: Sites
+taxonomy:
+    type: post
+    category: Sites
 ---
 
 Well, it took me some time until I realise that this cool slider bar option as something negative about it: it hides contains from search engines spiders.
