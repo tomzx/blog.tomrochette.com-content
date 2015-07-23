@@ -33,8 +33,9 @@
 
 ## Uncategorized
 
-- The Essential Turing
-- Universal Artificial Intelligence - Sequential Decisions Based on Algorithmic Probability
-- The CTMU?
-- Shane Legg: Machine Super Intelligence
-- Manna
+- [The Essential Turing](http://www.amazon.com/The-Essential-Turing-Philosophy-Intelligence/dp/0198250800)
+- [Universal Artificial Intelligence - Sequential Decisions Based on Algorithmic Probability](http://www.hutter1.net/ai/uaibook.htm)
+- [Christopher Michael Langan - The Cognitive-Theoretic Model of the Universe:
+A New Kind of Reality Theory](http://www.megafoundation.org/CTMU/Articles/Langan_CTMU_092902.pdf)
+- [Shane Legg - Machine Super Intelligence](http://www.vetta.org/documents/Machine_Super_Intelligence.pdf)
+- [Manna](http://marshallbrain.com/manna1.htm)
