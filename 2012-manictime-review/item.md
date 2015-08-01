@@ -1,7 +1,6 @@
 ---
 title: 2012 ManicTime review
 date: 2013-01-05T08:12:11-05:00
-publish_date: 2013-01-05T08:12:11-05:00
 Author: tomzx
 Permalink: /2012-manictime-review/
 taxonomy:
