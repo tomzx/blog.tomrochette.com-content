@@ -10,24 +10,40 @@ taxonomy:
 
 [TOC]
 
+* Computation/Processing
+* Memory
+	* Storage
+		* Compression
+	* Retrieval
+
+# Questions
+
+* How can AGI/intelligence emerge out of randomness?
+* How can we say that an (new) experience B is the same as an already experienced experience B?
+* How hard is it for an AI to learn programming languages? Assembly, C, C++, etc.
+
+-----
+
 To limit the dangers of AI, contain them in a physical body (which can be destroyed).
 By extension, this means that human should be able to extend their reach through externalization, that is, provide APIs (function library) of their thought process so that others may query that process.
 
 -----
 
 Concepts are basically numbers
+Everything can be represented by a number (basically the concept of primary key -> set of data)
 We learn to associate images, sounds, experiences (samples) with a specific concept (number)
 
 -----
 
-Develop tools to help me develop faster
-Develop a system that can improve itself using genetic mutation
-
------
+# Memory/thinking as a state machine
 
 Memory is the construction of a finite?/nondeterministic? state machine
 Thought is the process of going through the state machine
 Memory can reconfigure itself based on input
+
+- Reconfigure itself how?
+- How often does it reconfigure itself?
+
 In a sense, a state machine with probabilistic paths resembles a neural network
 In order to process ideas quickly, the state machine must have a central node with a immense breadth so that it will easily trigger the appropriate path based on the current input. Once the input is processed, the state returns to this central node which awaits further input. This main process is basically consciousness.
 
@@ -36,25 +52,13 @@ In order to process ideas quickly, the state machine must have a central node wi
 DNA is the software of life. If that is true, who wrote the code?
 One may extrapolate that the bigbang is similar to the generation of random code and that everything that follows is simply random permutation/mutation of the randomness that ended up into something that is coherent. Like a well programmed neural network, with enough time, randomness will start to generate patterns.
 
------
-
-If the big bang is true, then we are a simulation. Every thought, action, atom current property is defined in a table at time t = x.
-
------
-
-How can AGI/intelligence emerge out of randomness?
-
------
-AGI philosophy
-
-Is it strange to have made something that hates you?
-- Ava, Ex Machina
-
------
-
 DNA: Transfer/evolution of genetic software
 
 We are an gigantic assembly of billions of cell-sized machines. Each and every cell contains its own copy of the program (DNA) which is itself about 3 billion nucleotides. As there are 4 valid nucleotides/bases, (2^2)^(3*10^9) possible combinations.
+
+-----
+
+If the big bang is true, then we are a simulation. Every thought, action, atom current property is defined in a table at time t = x.
 
 -----
 
@@ -68,17 +72,11 @@ We are an gigantic assembly of billions of cell-sized machines. Each and every c
 <tomzx> although I don't think that gets us very far
 </pre>
 
-=> how can we say that an (new) experience B is the same as an already experienced experience B?
-
 -----
 
 A super-intelligent AI decides that the best use of matter/energy in its vicinity is to nano-engineer the raw materials necessary for its mind to expand. It sends out quadrillions of self-replicating probes in a spherical region, programmed to reduce all matter they encounter into the "smart" matter which the AI can use as its brain. 2500 years later, give or take, there is a massive 5000 light year sphere of "empty" space. It's actually all cognitive matter.
 
-=> is this the reduction to a turing machine? space is basically just information encoded
-
------
-
-How hard is it for an AI to learn programming languages? Assembly, C, C++, etc.
+=> is this the reduction to a Turing machine? space is basically just information encoded
 
 -----
 
@@ -135,41 +133,18 @@ They'll want to improve the software they've just obtained. Through static analy
 
 -----
 
-# Study of graph architectures
-## Properties of interest
-* Stability
+Reading a word is basically triggering letter by letter a sub neural network multiple times until the appropriate word is triggered
 
-## Architectures
-### Layered
-* Easy to do forward/backward propagation
-
-### Fully connected
-*  
-
-### Random
-
------
-
-# Perfect storage medium
-## Properties
-* Prevent duplication of data (compression)
-* Fast/Instant retrieval (lookup)
-* Fast/Instant storage (hashing)
+for instance, reading "word" would trigger all words with the letter "w", then "wo", then "wor" and finally "word". As the same sub neural network gets activated multiple times, its residual activation keeps increasing as more and more letters of the word are read.
 
 -----
 
 # Things it should do
 
 * Improve algorithms
+	* Learn which data structure is the most appropriate for a problem
+		* Inspect code and be able to figure out if the current data structure is the best one for its current use
 * Improve data structures
-
------
-
-Reading a word is basically triggering letter by letter a sub neural network multiple times until the appropriate word is triggered
-
-for instance, reading "word" would trigger all words with the letter "w", then "wo", then "wor" and finally "word". As the same sub neural network gets activated multiple times, its residual activation keeps increasing as more and more letters of the word are read.
-
------
 
 # Important properties
 * Signal filtering (ignore non-essential data to reduce the domain size)
@@ -181,40 +156,7 @@ How to encode in a neural network avoidance patterns? It's easy to encode in the
 
 -----
 
-Learn which data structure is the most appropriate for a problem
-* Inspect code and be able to figure out if the current data structure is the best one for its current use
-
------
-
 How to grow a mind
 
 * Universal data structure framework
 * Universal language for representing all these form of structure -> using graphs
-
------
-
-# De/construction of the mind
-
-All senses are comparable to data streams.
-
-- Packet of data
-- Each packet contains a body of information/data
-- Additional headers/structure facilitate the transport of data (think [OSI model](https://en.wikipedia.org/wiki/OSI_model))
-
-If we see the mind as a black box, we can say that there are 5 data streams, one per sense. For my particular interest, I will only concentrate on sight and hearing. Hopefully the method is generic enough that the sense itself does not matter.
-
-The mind black box has to be able to memorize things. It must also have the ability to recognize previously "observed" stream of data (recognize that it already heard a specific sound or seen a particular object). To regonize, it has to be able to map multiple experiences to a single identity.
-
-One can think of the black box as composed of many smaller black boxes. Each sub-black box would deal with its own channel. It would have its own dedicated storage area and format/structure.
-
-One can also think that the black box is monolithic, that is, there is no specialized units. Instead of  dedicated and specialized storage, you only have a general purpose storage medium.
-
-When one experiences a data stream, there are many things that appears to correlate to that event. For one, events have a spatio-temporal proximity relation between one another.
-
------
-
-How is "experience" stored and retrieved in a non-expensive manner?
-
-* Lossy compression?
-* Store unique/vivid characteristics
-	* How does one determine what constitutes a unique characteristic?
