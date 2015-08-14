@@ -1,8 +1,12 @@
 ---
 title: Artificial General Intelligence
+date: 2015-01-01T13:30:14-05:00
+taxonomy:
+    type: post
+    category: [artificial general intelligence]
 ---
 
-# Artificial General Intelligence 
+# Artificial General Intelligence
 
 [TOC]
 
@@ -41,9 +45,10 @@ If the big bang is true, then we are a simulation. Every thought, action, atom c
 How can AGI/intelligence emerge out of randomness?
 
 -----
-Agi philosophy
+AGI philosophy
 
-is it strange to have made something that hates you
+Is it strange to have made something that hates you?
+- Ava, Ex Machina
 
 -----
 
@@ -166,60 +171,6 @@ for instance, reading "word" would trigger all words with the letter "w", then "
 
 -----
 
-# Mari/o
-
-## Question
-* Will it reproduce an already tried genome?
-* Is transitivity (a node going to a node then to another node, making the middle node useless) removed?
-
-Genetic evolution is biased toward remembering good neural network while forgetting neural network connections to avoid
-
-## Things to improve
-* Reduce the number of attempts that are "stupid"
-* Prevent saving a state which is too close to the end
-
-## Things to try
-* Use a quadtree approach to learning (1 -> 4 -> 16 squares and so on)
-* Add generators (sin/cos/square/triangle)
-* Implement save state system
-* Make it learn
-    * to use the least amount of keys
-    * to have the simplest neural network
-* Attempt to learn patterns from the neural network (generate/reuse neural network components)
-* Synthesize the improvements from all the species of the current generation into the next one
-* Like learning an instrument, you need to focus on the parts you have difficulties with. Using the save/load state system, it would save/load states in 5s parts and attempt to improve its best for that part.
-* Give an immense penalty to neural network that ends up with a death
-* Run the same ~5s segment over 5 generations, then move onto the next 5s segment
-    * Divide and conquer approach: 5s, 5s -> 10s (test the first 2 segments together)
-* Learn from examples: provide him with a couple of "dumb" but okay examples to learn from
-* Compare every generation best neural network against each other from the start/randomly
-* Fitness aware online agent (knows it's losing fitness by not moving)
-
-## Things to add (for review purposes)
-* Load a specific test (generation/specie/genome)
-* Record training time (compare how much time is spent using "from start" vs "from checkpoints")
-    * I have some doubt that the "from start" method takes a lot more time but doing so learns more quickly (in the sense of less generations/species), but X minutes of training for both may end up giving one a clear advantage over the other
-
-## Difficult points in level 1
-* First enemy
-* Bullet + enemy
-* High wall
-* Slope pipe + enemy
-
-## Metrics to measure
-* Rightmost
-* Distance traveled
-* Score
-
--->> Compare the advantages of learning from the parts you have difficulties with vs always from the start
-* Explore more of the map rapidly
-* Even if you are the most retarded, if you have a position advantage, you'll get a +1000 fitness bonus. This means that the real most fit individual will have to be extremely good to compete against your unfair advantage.
-
-13x13 inputs
-8 outputs
-
-Am I giving fitness to unfit species simply because they are lucky enough to load a state with an initial higher fitness? Yes and no. Yes, compare to other species under the same generation they are provided with an advantage, but if they end up not providing any benefits over the long run they will be removed from the pool.
-
 # Important properties
 * Signal filtering (ignore non-essential data to reduce the domain size)
 * Abstraction/simplification/class generation. Learn to group similar stimuli so that you do not have to learn about each of them individually.
@@ -239,3 +190,31 @@ How to grow a mind
 
 * Universal data structure framework
 * Universal language for representing all these form of structure -> using graphs
+
+-----
+
+# De/construction of the mind
+
+All senses are comparable to data streams.
+
+- Packet of data
+- Each packet contains a body of information/data
+- Additional headers/structure facilitate the transport of data (think [OSI model](https://en.wikipedia.org/wiki/OSI_model))
+
+If we see the mind as a black box, we can say that there are 5 data streams, one per sense. For my particular interest, I will only concentrate on sight and hearing. Hopefully the method is generic enough that the sense itself does not matter.
+
+The mind black box has to be able to memorize things. It must also have the ability to recognize previously "observed" stream of data (recognize that it already heard a specific sound or seen a particular object). To regonize, it has to be able to map multiple experiences to a single identity.
+
+One can think of the black box as composed of many smaller black boxes. Each sub-black box would deal with its own channel. It would have its own dedicated storage area and format/structure.
+
+One can also think that the black box is monolithic, that is, there is no specialized units. Instead of  dedicated and specialized storage, you only have a general purpose storage medium.
+
+When one experiences a data stream, there are many things that appears to correlate to that event. For one, events have a spatio-temporal proximity relation between one another.
+
+-----
+
+How is "experience" stored and retrieved in a non-expensive manner?
+
+* Lossy compression?
+* Store unique/vivid characteristics
+	* How does one determine what constitutes a unique characteristic?
