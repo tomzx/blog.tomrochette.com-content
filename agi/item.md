@@ -74,56 +74,7 @@ A super-intelligent AI decides that the best use of matter/energy in its vicinit
 
 -----
 
-# Artificial General Intelligence
-
-The simplest form of initial AGI software would have to be one that rewrite itself.
-
-At the lowest level, computers are governed by a set of instructions, such as ADD, SUB, MUL, DIV, AND, OR, MOV, JMP and other similar instructions.
-
-If we go even a level lower, we can refer to Turing machines, thus the elementary operations are moving left, moving right, reading from the current square on the tape (memory) and writing to the current square.
-
-[A tape for data input/output, a head to read the data, a state register to store working information and and instruction table/program (describes how input data produces output data).]
-
-Thus, the program would have to update itself during execution. However, merely updating the list/sequence of instructions of the program is not a display of intelligence.
-
-The difficulty at this level of abstraction though is that nothing will appear intelligent. Moving left/right while reading and writing symbols on a square cannot display anything that would be qualified as intelligent.
-
-Turing described a couple of instructions that are what I would consider low level intelligence.
-
-First, moving itself is to some degree intelligence. Without movement, change cannot occur (although writing is also a change). *Left/Right movement is equivalent to moving from state A to state B (or to state C) in a state machine.*
-
-Second, reading and writing is the second form of intelligence. Reading allows the agent to learn from the world while writing allows it to communicate with the world.
-
-In itself, this basic machine can do two things:
-
-* I/O with a target
-* Change target
-
----
-
-The list of instruction then become a set of steps the machine will walk through. Those steps ...
-
----
-
 I believe intelligence emerges from complexity. By stacking simple concepts onto one another, intelligence appears.
-
------
-
-Humans learn from imitation. It takes us approximately 1 year to learn to talk. Before that, we learn to make noises, cry to attention, stand up to reach things and so on. Some of those behaviors are guided by imitating other human beings around us.
-
-In the beginning, most of our training is related to motor abilities: how to pick blocks, crawl to our favorite toys, learn to make noise, to speak.
-
-Once this first phase is completed (we've learned their basics and can improve on them), the second aspect we learn to improve is reasoning. Why does this block fit in this hole and not this other hole? Why does this happen when I do that?
-
------
-
-If we base ourselves on the fact that machines will use imitation as their first form of learning tool, they will most likely start by integrating existing code into their software.
-
-They'll look through the internet for code they can integrate within themselves. For instance, they'll go onto github and take every piece of code available.
-
-The main issue at this point for them will be to figure out how to integrate this code within their own. They'll also have to figure out what are appropriate inputs/outputs.
-
-They'll want to improve the software they've just obtained. Through static analysis they will be able to determine the exact logic that was used and potentially refactor it using more appropriate instruction and data structures. This means that AGI will become masters of program perfection.
 
 -----
 
