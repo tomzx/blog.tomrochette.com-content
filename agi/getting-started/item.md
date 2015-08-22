@@ -1,11 +1,13 @@
 # Requirements
 
 - Computer Science knowledge
+    + Algorithms
+    + Data structures
     + Turing machines
     + Databases
-    + Data structures
-    + Algorithms
 - Mathematics
+    + Functions
+    + Set theory
     + Logic
     + Statistics
     + Proofs
