@@ -1,4 +1,4 @@
-# Artificial General Intelligence Through Turing Machines
+# AGI Through Turing Machines
 
 The simplest form of initial AGI software would have to be one that rewrite itself.
 
