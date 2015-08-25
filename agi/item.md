@@ -10,12 +10,6 @@ taxonomy:
 
 [TOC]
 
-* Computation/Processing
-* Memory
-	* Storage
-		* Compression
-	* Retrieval
-
 -----
 
 To limit the dangers of AI, contain them in a physical body (which can be destroyed).
@@ -40,15 +34,6 @@ Memory can reconfigure itself based on input
 
 In a sense, a state machine with probabilistic paths resembles a neural network
 In order to process ideas quickly, the state machine must have a central node with a immense breadth so that it will easily trigger the appropriate path based on the current input. Once the input is processed, the state returns to this central node which awaits further input. This main process is basically consciousness.
-
------
-
-DNA is the software of life. If that is true, who wrote the code?
-One may extrapolate that the bigbang is similar to the generation of random code and that everything that follows is simply random permutation/mutation of the randomness that ended up into something that is coherent. Like a well programmed neural network, with enough time, randomness will start to generate patterns.
-
-DNA: Transfer/evolution of genetic software
-
-We are an gigantic assembly of billions of cell-sized machines. Each and every cell contains its own copy of the program (DNA) which is itself about 3 billion nucleotides. As there are 4 valid nucleotides/bases, (2^2)^(3*10^9) possible combinations.
 
 -----
 
@@ -84,17 +69,6 @@ for instance, reading "word" would trigger all words with the letter "w", then "
 
 -----
 
-# Things it should do
-
-* Improve algorithms
-	* Learn which data structure is the most appropriate for a problem
-		* Inspect code and be able to figure out if the current data structure is the best one for its current use
-* Improve data structures
-
-# Important properties
-* Signal filtering (ignore non-essential data to reduce the domain size)
-* Abstraction/simplification/class generation. Learn to group similar stimuli so that you do not have to learn about each of them individually.
-
 -->> Try to map the problem of learning mario to a function optimization problem
 
 How to encode in a neural network avoidance patterns? It's easy to encode in the network what we want it to do, but not what not to do.
@@ -105,3 +79,7 @@ How to grow a mind
 
 * Universal data structure framework
 * Universal language for representing all these form of structure -> using graphs
+
+-----
+
+Unsupervised classification learning
