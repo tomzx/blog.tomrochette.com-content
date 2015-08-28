@@ -1,5 +1,11 @@
 # Imitation-based agents
 
+## Learned in this study
+
+## Things to explore
+
+# Overview
+
 Humans learn from imitation. It takes us approximately 1 year to learn to talk. Before that, we learn to make noises, cry to attention, stand up to reach things and so on. Some of those behaviors are guided by imitating other human beings around us.
 
 In the beginning, most of our training is related to motor abilities: how to pick blocks, crawl to our favorite toys, learn to make noise, to speak.

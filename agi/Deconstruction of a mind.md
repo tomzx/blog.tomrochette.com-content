@@ -1,5 +1,11 @@
 # De/construction of the mind
 
+## Learned in this study
+
+## Things to explore
+
+# Overview
+
 All senses are comparable to data streams.
 
 - Packet of data

@@ -1,4 +1,11 @@
-# Study of graph architectures
+# Graph architectures
+
+## Learned in this study
+
+## Things to explore
+
+# Overview
+
 ## Properties of interest
 * Stability
 

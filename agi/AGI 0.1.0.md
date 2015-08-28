@@ -1,5 +1,11 @@
 # AGI 0.1.0
 
+## Learned in this study
+
+## Things to explore
+
+# Overview
+
 ## Arrival of new data
 
 1. The data is taken as a single unit. An **Identifier** is produced to uniquely identify it.

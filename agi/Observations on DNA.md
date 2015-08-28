@@ -1,5 +1,11 @@
 # Observations on DNA
 
+## Learned in this study
+
+## Things to explore
+
+# Overview
+
 DNA is the software of life. If that is true, who wrote the code?
 One may extrapolate that the bigbang is similar to the generation of random code and that everything that follows is simply random permutation/mutation of the randomness that ended up into something that is coherent. Like a well programmed neural network, with enough time, randomness will start to generate patterns.
 

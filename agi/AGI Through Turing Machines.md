@@ -1,5 +1,11 @@
 # AGI Through Turing Machines
 
+## Learned in this study
+
+## Things to explore
+
+# Overview
+
 The simplest form of initial AGI software would have to be one that rewrite itself.
 
 At the lowest level, computers are governed by a set of instructions, such as ADD, SUB, MUL, DIV, AND, OR, MOV, JMP and other similar instructions.
@@ -26,3 +32,5 @@ In itself, this basic machine can do two things:
 ---
 
 The list of instruction then become a set of steps the machine will walk through. Those steps ...
+
+![](assets/images/Self_improving_machine.png)

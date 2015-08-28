@@ -24,7 +24,6 @@ Processing <-> CPU/Processor
 3. AGI does nothing.
 	1. Environment does not change.
 
-
 ## Proactive behaviors
 
 * Internally generates desires.
