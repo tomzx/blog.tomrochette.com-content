@@ -27,7 +27,7 @@
 - Search algorithms
 	- String
 	- Graph/Tree
-- Genetic algorithmther
+- Genetic algorithm
 
 # 2015-09-08 (21:19 - 21:29)
 - Feature vector
