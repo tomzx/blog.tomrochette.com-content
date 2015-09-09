@@ -28,3 +28,37 @@
 	- String
 	- Graph/Tree
 - Genetic algorithmther
+
+# 2015-09-08 (21:19 - 21:29)
+- Feature vector
+- HMM (Hidden Markov Model)
+- MCMC (Markov Chain Monte Carlo)
+- Incompleteness theorem
+- Completeness theorem
+- Syntax
+- Semantics
+- Compiler
+- Parse tree
+- Context
+- RNN (Recurrent Neural Networks)
+- DBN (Deep Boltzman Machines)
+- Gradient descent
+- Optimization
+- Alpha-beta pruning
+- Minimax
+- Backtracking
+- Space/time bounded algorithms
+- Self-referential
+- Entropy
+- Shannon theory of information
+- Boolean algebra
+- SAT solvers
+- Predicate logic
+- Liar's paradox
+- Number theory
+- K nearest neighbors
+- Clustering
+- Association learning
+- Offline/Online learning
+- Roko's basilisk
+- OpenCog
