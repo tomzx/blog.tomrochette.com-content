@@ -62,3 +62,28 @@
 - Offline/Online learning
 - Roko's basilisk
 - OpenCog
+
+# 2015-09-09 (22:56 - 23:06)
+- Hill climbing
+- Episodic vs sequential
+- Model of the world/environment
+- Problem + goal definition
+- Intelligence
+- Reasoning
+- Planning
+- Abstraction
+- Natural language processing
+- P ?= NP
+- Complexity theory (space and time)
+- Database
+- Hashing
+- Information organization
+- Compression
+- Architecture
+- Storage
+- Processing
+- Algorithms
+- Data structures
+- Recursion
+- Symbolic reasoning
+- First/second order logic
