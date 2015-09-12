@@ -87,3 +87,40 @@
 - Recursion
 - Symbolic reasoning
 - First/second order logic
+
+# 2015-09-12 (19:49 - 19:59)
+- Prim's algorithm
+- Kruskal's algorithm
+- Shortest path
+- A*
+- SMA*
+- RBS
+- Greedy algorithms
+- Lazy algorithms
+- Horn form
+- Topology
+- Manifolds
+- Linear, quadratic, polynomial functions
+- Linear vs non-linear functions
+- Convex functions
+- Integrals & derivatives
+- Generalization
+- Observation
+- Education
+- Training
+- Reinforcement learning
+- Knowledge base
+- Computable vs non-computable
+- Relations
+- Injective, surjective, bijective, reflexive, transitive
+- Axon
+- Dendrites
+- Potential
+- Neurotransmitters
+- Brain
+- Nervous system
+- Comprehension
+- Understanding
+- Curiosity
+- Formal systems
+- Proofs
