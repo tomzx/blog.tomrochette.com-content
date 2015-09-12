@@ -2,9 +2,9 @@
 
 ## Notation
 
-A = {1, 2, 3}
-{x | x = 1 or x = 2 or x = 3}
-{x | P(x)} (where P is a predicate)
+- A = {1, 2, 3}
+- {x | x = 1 or x = 2 or x = 3}
+- {x | P(x)} (where P is a predicate)
 
 ## Tests
 
@@ -41,7 +41,7 @@ A = {1, 2, 3}
 - Injective
 - Bijective
 - Composition
-- - Cartesian product
+	- Cartesian product
 - Membership
 - Identity
 - Domain
@@ -60,4 +60,6 @@ A = {1, 2, 3}
 
 # Sources
 - https://en.wikibooks.org/wiki/Set_Theory/Relations
+- https://en.wikibooks.org/wiki/Set_Theory/Sets
 - https://en.wikipedia.org/wiki/Set_theory
+- https://en.wikipedia.org/wiki/Set-builder_notation
