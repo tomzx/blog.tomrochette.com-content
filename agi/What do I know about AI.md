@@ -93,8 +93,8 @@
 - Kruskal's algorithm
 - Shortest path
 - A*
-- SMA*
-- RBS
+- Simplified memory-bounded A* (SMA*)
+- Recursive best first search (RBFS)
 - Greedy algorithms
 - Lazy algorithms
 - Horn form
@@ -124,3 +124,42 @@
 - Curiosity
 - Formal systems
 - Proofs
+
+# 2015-09-13 (18:55 - 19:05)
+- Agent
+- Sensors
+- Functions
+- Logic
+- Hypothesis
+- Experiment
+- Knowledge
+- Short & Long term memory
+- Introspection
+- Inspection
+- Reverse-engineering
+- Organization
+- Layers
+- Boosting
+- k-means
+- Classification
+- Sum of squared errors (SSE)
+- Dimensionality reduction
+- Kernel functions
+- Grammar
+- Abstract syntax tree (AST)
+- AIXI
+- Solomonoff induction
+- Expert system
+- Languages
+	- Regular
+	- Context-free
+	- Context-sensitive
+	- Recursively enumerable
+- Support vector machines (SVM)
+- Game theory
+- Decision theory
+- Anomaly detection
+- Training data
+- Mealy machine
+- Moore machine
+- Grammar induction 
