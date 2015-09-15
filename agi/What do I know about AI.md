@@ -162,4 +162,27 @@
 - Training data
 - Mealy machine
 - Moore machine
-- Grammar induction 
+- Grammar induction
+
+# 2015-09-14 (23:04 - 23:14)
+- Theorem
+- Axiom
+- Conjecture
+- Self-organization
+- Swarm intelligence
+- Occam's razor
+- Inference
+- Pattern
+- Pattern recognition
+- Isomorphism
+- Probability distribution
+- Production
+- Production system
+- Approximation
+- Underfitting/overfitting
+- Feedforward neural network
+- Backpropagation
+- Heuristics
+- Decision tree
+- Tests
+- Statistical analysis
