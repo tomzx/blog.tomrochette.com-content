@@ -11,6 +11,27 @@
 
 # Overview
 
+The goal of this study is to look into the various ways to construct a network of bots that will interact with users.
+
+The main goal is to attempt to create a framework on which developers may offer useful services to their users.
+
+Similar to [IFTTT](https://ifttt.com/).
+
+# Requirements
+
+* Bots should be able to
+	* communicate with one another
+	* synchronize their data with one another (distributed database)
+	* find one another (bot discovery/DHT)
+* A user should be able to 
+	* use a bot locally (without internet connection) and yet get useful results
+	* send information to the bot
+	* query the bot for information
+	* interact with the bot through various ways (irc, email, slack, web, cli, etc.)
+* Only authenticated users may use a bot
+
+# Query processing
+
 1. A user issues a query
 
 	A query is minimally a string:
