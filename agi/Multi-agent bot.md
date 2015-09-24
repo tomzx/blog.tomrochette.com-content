@@ -5,6 +5,7 @@
 ## Things to explore
 
 * Better input query format
+	* Key/value vs options/arguments
 * How dispatcher determines to which agent to dispatch a message
 * What response format should be sent back to the dispatcher? To the user?
 * What should the user receive as a response?
@@ -48,8 +49,9 @@ Similar to [IFTTT](https://ifttt.com/).
 		my query --age =<36 --name =Tom
 		weather --city=Montreal
 		roll --min=1 --max=6
-
-	**Note**: The current format is not able to support complex query such as SQL would. It would be worth looking into alternative format (or whether this is too much responsibility).
+		--query="age =< 36 AND name = 'Tom'"
+		how are you?
+		what day is it?
 
 3. The dispatcher receives the query and dispatches it to any agent that can handle it
 	1. The dispatching can either be 
@@ -59,3 +61,40 @@ Similar to [IFTTT](https://ifttt.com/).
 4. All agents **must** reply to the dispatcher, either with an empty response or with a response. The format of the response should be defined by the agent itself (think micro-services).
 
 5. The dispatcher sends back the set of responses to the user.
+
+	In some contexts it makes sense to display all the results to the user. However, in some contexts, it does not, for instance when interacting with the bot over irc, we expect to receive a single answer.
+
+	Thus, it would make the most sense to first notify the user that many options are available to him and that he may choose before proceeding.
+
+	In some other cases, we may prefer the bot to act as humans would during a discussion, that is, to start multiple threads of discussion. The user would then be free to engage in the threads he is interested to pursue.
+
+# Naive architecture
+
+Here I will try to detail an initial architecture by looking at the various components that would be required to make this system work. At first, one will probably recognize the classical flow of an http request/response.
+
+* An `adapter`
+	* IRC
+	* Slack
+	* Email
+	* Web (HTTP)
+		* API
+		* Website with front-end
+	* Command line interface
+
+	The goal of the adapter is to provide the user with a point of entry to communicate with the bot infrastructure.
+
+* A `query processor`
+
+	The goal of the query processor is to receive a user *command* and convert it into a format that the bot will be able to work with. This generally means converting unformatted commands into keys/values dictionaries (consumable by most web APIs) and/or a CLI arguments/options string.
+
+* A `dispatcher` service
+
+	The goal of the dispatcher is to know about other bots/dispatchers so that he may relay a user query to them and await their response on behalf of the user.
+
+* A `controller`
+
+	The goal of the controller is to act upon a request. If it has to fetch data online or in a database, it may do so. Once the data is acquired, its general next step will be to format/transform it for user consumption.
+
+* A `response formatter/transformer`
+
+	The goal of the response formatter/transformer is to process a response coming from another bot that may not be readily digestible (think of an API resultset for instance).
