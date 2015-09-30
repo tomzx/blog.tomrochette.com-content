@@ -17,12 +17,6 @@ By extension, this means that human should be able to extend their reach through
 
 -----
 
-Concepts are basically numbers
-Everything can be represented by a number (basically the concept of primary key -> set of data)
-We learn to associate images, sounds, experiences (samples) with a specific concept (number)
-
------
-
 # Memory/thinking as a state machine
 
 Memory is the construction of a finite?/nondeterministic? state machine
@@ -38,6 +32,12 @@ In order to process ideas quickly, the state machine must have a central node wi
 -----
 
 If the big bang is true, then we are a simulation. Every thought, action, atom current property is defined in a table at time t = x.
+
+-----
+
+Concepts are basically numbers
+Everything can be represented by a number (basically the concept of primary key -> set of data)
+We learn to associate images, sounds, experiences (samples) with a specific concept (number)
 
 -----
 

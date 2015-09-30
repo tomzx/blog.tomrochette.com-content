@@ -12,16 +12,11 @@
 
 * Starts and maintains multiple conversation threads
 * Knows many facts about the world
-
-* Does not attempt to deceive its interlocutor
-
------
+* Does not attempt to deceive its interlocutor (make it think it is something that it is not)
 
 # Corpus construction
 
 * Set of letters -> allow to discover anagrams
-
------
 
 # Construction of sentences
 
@@ -47,6 +42,5 @@ Is it possible, simply by looking at enough examples, without supervision, to de
 # Topics of interest
 * https://en.wikipedia.org/wiki/Is-a
 * https://en.wikipedia.org/wiki/Part_of_speech
-
 
 [^is-a]: https://en.wikipedia.org/wiki/Is-a

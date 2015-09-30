@@ -7,6 +7,11 @@
 * What are the issues with writing a program generator
 * What are the tools that we currently have to solve those issues
 * Look at theoretical implications of program generation (probabilities)
+* Define the problem and the goal
+* There are infinite programs that can be built, what does that mean?
+    * What does it means if you consider those programs can help improve the existing program?
+    * Is there such a thing as a *single* "perfect" program?
+* Isomorphisms of programs considered/identified as integers
 
 # Overview
 
@@ -30,12 +35,14 @@ When we write programs, we can think of the all the code concatenated together a
 
 We can think about each program as being part of a tree where the root is the empty program. From that program can spawn (127 + 1) - 32 programs (we assume the range characters used in the program are from ASCII 32 to 127).
 
+Each level n of the tree represent the strings of length n. So, the root as level = 0 has a length of 0, and a string at level 10 has a length of 10.
+
 # Improving the naive program generator
 
 What we can do to greatly reduce the search space is to teach the program generator a little bit:
 
 * Give it a grammar of the language it is using. There is no point in generating code that "should" not compile (it can be useful if what you're doing is verifying that the grammar is properly implemented).
-* Promote function reuse. Once some functionality has been programmed, there's no point in writing that bit of code again. This means that we can remove all of the nodes in the tree of strings
+* Promote function reuse. Once some functionality has been programmed, there's no point in writing that bit of code again. This means that we can remove/ignore all of the nodes in the program tree that have this string place somewhere else or is there more than once.
 * TODO
 
 # Some problems that remain
@@ -51,3 +58,4 @@ However, even given these *tools*, the program generator still can spend an imme
 
 * https://en.wikipedia.org/wiki/Recursive_self-improvement
 * http://wiki.lesswrong.com/wiki/Seed_AI
+* http://mattmahoney.net/rsi.pdf

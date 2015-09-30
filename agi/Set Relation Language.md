@@ -8,6 +8,8 @@
 
 ## Tests
 
+Results in a boolean value.
+
 - x memberOf A
 - x containedIn A
 - x includedIn A
@@ -19,7 +21,13 @@
 - B supersetOf A, B >= A
 - B properSupersetOf A, B > A
 
+## Queries
+
+- cardinality(A), card(A), |A| -> int
+
 ## Operations/Transformations
+
+Results in a Set.
 
 - A union B, A + B, A | B, A u B
 - A intersection B, A & B, A i B
@@ -28,6 +36,15 @@
 - A cartesianProduct B, A cartesian B, A x B, A * B, A cp B
 - power A, p A, A**, A^, A^n
 
+## Tests on relations
+
+Results in a boolean value.
+
+Consider f a function that maps items from set A to set B.
+
+- surjective(f), sur(f)
+- injective(f), inj(f)
+- bijective(f), bij(f)
 
 ## Uncategorized
 

@@ -1,9 +1,5 @@
 # Practical AGI
 
-Long term storage <-> Hard drive
-Short term storage <-> Memory
-Processing <-> CPU/Processor
-
 ## Reactive behaviors
 
 1. Deconstructs incoming stimuli.
