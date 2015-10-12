@@ -1,8 +1,15 @@
+---
+template: article
+taxonomy:
+    type: article
+    category: [artificial general intelligence]
+---
+
 # Chatbot
 
 ## Learned in this study
 
-* A machine can generate sentences that are gramatically and syntatically correct, but devoided of any semantical sense
+* A machine can generate sentences that are grammatically and syntactically correct, but devoided of any semantical sense
 
 ## Things to explore
 
