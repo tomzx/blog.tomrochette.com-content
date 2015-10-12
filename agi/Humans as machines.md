@@ -5,18 +5,18 @@
 ## Things to explore
 
 * Compare humans to current computer architecture
-    * OS
-    * Architecture
-    * Motherboard
-    * Memory/Persistence
-    * Processor
-    * Video card
-    * Audio card
-    * Input/Output
-	    * Internet
-	    * Mouse/Keyboard
-    * Power supply
-    * Casing
+	* OS
+	* Architecture
+	* Motherboard
+	* Memory/Persistence
+	* Processor
+	* Video card
+	* Audio card
+	* Input/Output
+		* Internet
+		* Mouse/Keyboard
+	* Power supply
+	* Casing
 * Software
 	* Programs
 	* Grammar

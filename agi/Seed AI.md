@@ -59,3 +59,4 @@ However, even given these *tools*, the program generator still can spend an imme
 * https://en.wikipedia.org/wiki/Recursive_self-improvement
 * http://wiki.lesswrong.com/wiki/Seed_AI
 * http://mattmahoney.net/rsi.pdf
+* Turing, Alan. *Intelligent Machinery*. London: National Physical Laboratory, 1948. Ed. B. Jack Copeland. The Essential Turing. Oxford: Clarendon Press, 2004. 430

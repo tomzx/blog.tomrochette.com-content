@@ -82,9 +82,9 @@ There are also some things that he has written that have been said but not been 
 * Incorporation of old routines into new ones
 
 ## 12. Discipline and initiative
-* * For  an untrained infant mind to become intelligent, it must acquire both discipline and initiative. **What is it about discipline and initiative that makes those two particularly important?**
+* For  an untrained infant mind to become intelligent, it must acquire both discipline and initiative. **What is it about discipline and initiative that makes those two particularly important?**
 Turing writes "So far we have been considering only discipline". **Is he referring to the punish/reward cycles or the fact that machines are mechanical?**
-* * He then writes "To convert a brain or machine into a universal machine is the extremest form of discipline"
+* He then writes "To convert a brain or machine into a universal machine is the extremest form of discipline"
 Initiative is "that which is required in addition" to discipline
 * Two methods to attempt to copy initiative in man in machines
 * Direct method
