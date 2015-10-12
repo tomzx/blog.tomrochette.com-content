@@ -6,6 +6,7 @@ Permalink: /richtx32ocx-registration-fix/
 taxonomy:
     type: post
     category: Computers
+    tag: [windows, dll]
 ---
 
 > "richtx32.ocx" is not an executable file and no registration helper is registered for this file type.

@@ -6,6 +6,7 @@ Permalink: /shared-network-computers-not-showing-up-in-leopard/
 taxonomy:
     type: post
     category: Computers
+    tag: [network, mac os x, leopard]
 ---
 
 Since I've upgraded to Leopard, I couldn't connect to my Windows network anymore. Browsing through various websites looking for answers, I tried pretty much all of them with no success. Not until I found [this page][1]. Is explanation is pretty simple and indeed makes my shared network show up once again!

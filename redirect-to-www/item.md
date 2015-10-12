@@ -6,6 +6,7 @@ Permalink: /redirect-to-www/
 taxonomy:
     type: post
     category: Sites
+    tag: [apache, .htaccess, rewriterule]
 ---
 
 <pre><code class="apache">Options +FollowSymLinks
