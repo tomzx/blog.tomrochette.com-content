@@ -14,7 +14,7 @@ Turing starts his paper by presenting five *reasons* as to why people have a har
 1. Unwillingness to accept that something could rival human intelligence
 2. Building such a machine would be going against God (or playing God)
 3. The inability to see past the *basic* capability of machines
-4. Gödel incompleteness theorem pointing at the fact that some queries may end up with the machine unable to ever answer (see also the [Entscheidungsproblem](https://en.wikipedia.org/wiki/Entscheidungsproblem))
+4. Gödel incompleteness theorem pointing at the fact that some queries may end up with the machine unable to ever answer (see also the [Entscheidungsproblem][Entscheidungsproblem])
 5. The intelligence displayed by the machine is nothing more than the intelligence of its creator
 
 After touching on the validity of some of those reasons, Turing presents two categories of machinery:
@@ -77,15 +77,15 @@ There are also some things that he has written that have been said but not been 
 * Pain cancels the tentative entries
 * Pleasure makes them permanent
 * A system with a random sequence, a situation (state?), an alternative, a visible action, a stream of reward/punishment and one/multiple streams of data, called sense lines
-* Turing mentions that he'd like to do more research on organized machines as well as "try out organising methods that would be more nearly analogous to our ‘methods of education'."
+* Turing mentions that he'd like to do more research on organized machines as well as "try out organising methods that would be more nearly analogous to our 'methods of education'."
 * Investigate the result of "methods of education" by the mean of testing them out on machines and breaking in from time to time to observe the results that have been produced so far
 * Incorporation of old routines into new ones
 
 ## 12. Discipline and initiative
 * For  an untrained infant mind to become intelligent, it must acquire both discipline and initiative. **What is it about discipline and initiative that makes those two particularly important?**
-Turing writes "So far we have been considering only discipline". **Is he referring to the punish/reward cycles or the fact that machines are mechanical?**
+* Turing writes "So far we have been considering only discipline". **Is he referring to the punish/reward cycles or the fact that machines are mechanical?**
 * He then writes "To convert a brain or machine into a universal machine is the extremest form of discipline"
-Initiative is "that which is required in addition" to discipline
+* Initiative is "that which is required in addition" to discipline
 * Two methods to attempt to copy initiative in man in machines
 * Direct method
 * Attempt to program "the machine to do every kind of job that could be done, as a matter of principle, whether it were economical to do it by machine or not."
@@ -103,4 +103,6 @@ Initiative is "that which is required in addition" to discipline
 # Sources
 
 * Turing, Alan. *Intelligent Machinery*. London: National Physical Laboratory, 1948. Ed. B. Jack Copeland. The Essential Turing. Oxford: Clarendon Press, 2004. 411-432
-* "Entscheidungsproblem." [https://en.wikipedia.org/wiki/Entscheidungsproblem](https://en.wikipedia.org/wiki/Entscheidungsproblem). Web. 2015/10/09
+* "Entscheidungsproblem." [https://en.wikipedia.org/wiki/Entscheidungsproblem][Entscheidungsproblem]. Web. 2015/10/09
+
+[Entscheidungsproblem]: https://en.wikipedia.org/wiki/Entscheidungsproblem
