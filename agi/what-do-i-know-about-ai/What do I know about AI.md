@@ -1,5 +1,9 @@
 # What do I know about AI
 
+## Context
+
+The goal of this activity is to write down all the keywords and concepts that I can relate to AI. It can help you figure out the things you are working around a lot and help you figure out where you might be lacking some knowledge.
+
 # 2015-09-07 (12:51 - 13:01)
 - Supervised vs unsupervised
 - Feature learning
