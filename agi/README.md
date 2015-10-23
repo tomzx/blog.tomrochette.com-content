@@ -18,3 +18,73 @@ I try to explore the following topics:
 Feel free to leave me comments, questions and feedback through github issues!
 
 Tom
+
+# Index
+
+## Arts
+
+* [Books](books)
+* [Movies](movies)
+* [Quotes](quotes)
+
+## Exploratory activities
+
+* [Entropy](entropy)
+* [Graph architectures](graph-architectures)
+* [Imitation based agents](imitation-based-agents)
+* [Intelligence](intelligence)
+* [Mario](mario)
+* [Mathematics based AGI](mathematics-based-agi)
+* [Natural language processing](natural-language-processing)
+* [Reality model](reality-model)
+* [Requirements and properties](requirements-and-properties)
+* [What do I know about AI](what-do-i-know-about-ai)
+
+## Biology inspired exploration
+
+* [Cognition](cognition)
+* [Deconstruction of a mind](deconstruction-of-a-mind)
+* [Human development](human-development)
+* [Humans as machines](humans-as-machines)
+* [Observations on DNA](observations-on-dna)
+
+## Computer/Software/Computer Science inspired exploration
+
+* [A procedure for writing programs](a-procedure-for-writing-programs)
+* [Agi through turing machines](agi-through-turing-machines)
+* [Perfect storage medium](perfect-storage-medium)
+* [Playing with data](playing-with-data)
+* [Seed AI](seed-ai)
+* [Self modifying code](self-modifying-code)
+* [Set relation language](set-relation-language)
+* [Storage data structure](storage-data-structure)
+
+### Bots and swarms
+
+* [Chatbot](chatbot)
+* [Multi agent bot](multi-agent-bot)
+
+## Structured learning
+
+* [Glossary](glossary)
+* [Getting started](getting-started)
+* [Current approaches](current-approaches)
+* [Papers](papers)
+* [Researchers](researchers)
+* [Topics](topics)
+
+## My approach
+
+* [AGI 0.1.0](agi-0.1.0)
+* [Practical AGI](practical-agi)
+
+## Personal experience
+
+* [Structuring an AGI research](structuring-an-agi-research)
+* [My path to AGI](my-path-to-agi)
+* [My suggested path to AGI](my-suggested-path-to-agi)
+
+## Self-reflective / Open questions
+
+* [Questions](questions)
+* [Open questions](open-questions)
