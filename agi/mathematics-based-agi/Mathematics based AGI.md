@@ -6,6 +6,8 @@
 
 # Overview
 
+# Functions
+
 As human beings in relatively well educated societies, we're taught early on about mathematics. We're taught about numbers and how they relate to one another, how to manipulate them, transform them and use them to solve complex problems.
 
 One of the fundamental tools we're presented is `functions`. Functions allows us to transform a set of values (called `domain`) into a second set of values (called `image`).
@@ -31,6 +33,8 @@ One can consider a function as two different things:
 
 1. A transformation of inputs into outputs
 2. A sequence of transformations applied on the initial output, where the output are assigned to internal variables and possibly transformed by other functions within the initial function (functions calling functions)
+
+# Integer-based reasoning
 
 ## Notes
 

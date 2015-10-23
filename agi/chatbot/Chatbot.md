@@ -1,10 +1,3 @@
----
-template: article
-taxonomy:
-    type: article
-    category: [artificial general intelligence]
----
-
 # Chatbot
 
 ## Learned in this study

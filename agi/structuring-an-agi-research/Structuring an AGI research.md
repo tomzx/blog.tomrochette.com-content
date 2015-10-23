@@ -1,3 +1,11 @@
+# Structuring an AGI research
+
+## Learned in this study
+
+## Things to explore
+
+# Overview
+
 A complete AGI work normally includes
 
 - a theory of intelligence,

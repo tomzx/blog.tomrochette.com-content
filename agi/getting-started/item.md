@@ -41,3 +41,7 @@
 A New Kind of Reality Theory](http://www.megafoundation.org/CTMU/Articles/Langan_CTMU_092902.pdf)
 - [Shane Legg - Machine Super Intelligence](http://www.vetta.org/documents/Machine_Super_Intelligence.pdf)
 - [Manna](http://marshallbrain.com/manna1.htm)
+
+## AGI researcher suggested
+- https://sites.google.com/site/narswang/home/agi-introduction/agi-education
+- http://wp.goertzel.org/agi-curriculum/
