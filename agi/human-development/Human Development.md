@@ -50,6 +50,7 @@ Thus, a system that wants to rapidly learn must be able to quickly identify what
 
 Each and every person has its own signature. However, it is not uncommon for many people to share a similar signature (have their *aura* sensed as a single identity).
 
+# Sources
 
 [^1]: https://en.wikipedia.org/wiki/Embryo
 [^2]: https://en.wikipedia.org/wiki/Human_brain_development_timeline

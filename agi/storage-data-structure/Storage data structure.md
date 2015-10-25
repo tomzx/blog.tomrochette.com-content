@@ -16,7 +16,7 @@ Due to current hardware limitations, it is currently important to separate data 
 
 * **Short term / volatile storage** which concerns itself with speed and efficiency of data retrieval.
 * **Long term / persistent storage** which concerns itself with compression and conversion to short term / volatile storage.
-* 
+
 ## Short term / Volatile storage (STS)
 
 ## Long term / Persistent storage (LTS)

@@ -38,7 +38,9 @@ Tom
 * [Entropy](entropy)
 * [Graph architectures](graph-architectures)
 * [Imitation based agents](imitation-based-agents)
-* [Intelligence](intelligence)
+* Intelligence
+	* [Definitions](intelligence/definitions)
+	* [Tests](intelligence/tests)
 * [Mario](mario)
 * [Mathematics based AGI](mathematics-based-agi)
 * [Natural language processing](natural-language-processing)
@@ -57,7 +59,7 @@ Tom
 ## Computer/Software/Computer Science inspired exploration
 
 * [A procedure for writing programs](a-procedure-for-writing-programs)
-* [Agi through turing machines](agi-through-turing-machines)
+* [AGI through turing machines](agi-through-turing-machines)
 * [Perfect storage medium](perfect-storage-medium)
 * [Playing with data](playing-with-data)
 * [Seed AI](seed-ai)

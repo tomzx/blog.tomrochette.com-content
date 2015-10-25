@@ -1,12 +1,10 @@
 ---
-title: AGI 0.1.0
-created: 2015-08-13
+title: Cognition
+created: 2015-08-27
 taxonomy:
   category: [artificial general intelligence]
   status: in progress
 ---
-
-# Cognition
 
 ## Learned in this study
 

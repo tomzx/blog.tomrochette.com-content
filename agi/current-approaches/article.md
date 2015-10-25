@@ -21,7 +21,7 @@ https://code.google.com/p/genifer/
 ## Gödel machine (2003 - now)
 http://people.idsia.ch/~juergen/goedelmachine.html
 
-## NuPIC
+## NuPIC (2013 - now)
 http://numenta.org/
 https://github.com/numenta/nupic
 
@@ -29,5 +29,5 @@ https://github.com/numenta/nupic
 http://opencog.org/
 https://github.com/opencog/opencog
 
-## OpenNARS
+## OpenNARS (2014 - now)
 https://github.com/opennars/opennars

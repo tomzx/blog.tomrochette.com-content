@@ -6,5 +6,5 @@ taxonomy:
   status: in progress
 ---
 
-Is it strange to have made something that hates you?
-- Ava, Ex Machina
+> Is it strange to have made something that hates you?
+> \- Ava, Ex Machina

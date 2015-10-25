@@ -46,3 +46,5 @@ The list of instruction then become a set of steps the machine will walk through
 # See also
 
 * [Seed AI](../seed-ai)
+
+# Sources
