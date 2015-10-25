@@ -1,4 +1,10 @@
-# Glossary
+---
+title: Glossary
+created: 2015-07-19
+taxonomy:
+  category: [artificial general intelligence]
+  status: in progress
+---
 
 - Artificial: Made or produced by human beings rather than occurring naturally, typically as a copy of something natural.
 - Formal system: Governed by a formal syntax. Establishes a convention that translates 1:1 between expression and transformation.

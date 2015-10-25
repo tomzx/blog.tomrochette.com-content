@@ -1,4 +1,10 @@
-# What do I know about AI
+---
+title: What do I know about AI
+created: 2015-09-07
+taxonomy:
+  category: [artificial general intelligence]
+  status: in progress
+---
 
 ## Context
 

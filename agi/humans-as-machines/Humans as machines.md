@@ -1,4 +1,10 @@
-# Human as machines
+---
+title: Human as machines
+created: 2015-09-05
+taxonomy:
+  category: [artificial general intelligence]
+  status: in progress
+---
 
 ## Learned in this study
 

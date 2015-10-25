@@ -1,4 +1,10 @@
-# Observations on DNA
+---
+title: Observations on DNA
+created: 2015-08-24
+taxonomy:
+  category: [artificial general intelligence]
+  status: in progress
+---
 
 ## Learned in this study
 

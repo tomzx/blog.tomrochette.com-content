@@ -1,4 +1,10 @@
-# Imitation-based agents
+---
+title: Imitation-based agents
+created: 2015-08-16
+taxonomy:
+  category: [artificial general intelligence]
+  status: in progress
+---
 
 ## Learned in this study
 

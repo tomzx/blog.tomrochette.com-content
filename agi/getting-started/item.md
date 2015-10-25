@@ -1,21 +1,29 @@
+---
+title: Getting Started
+created: 2015-07-19
+taxonomy:
+  category: [artificial general intelligence]
+  status: in progress
+---
+
 # Requirements
 
 - Computer Science knowledge
-    + Algorithms
-    + Data structures
-    + Turing machines
-    + Databases
+	+ Algorithms
+	+ Data structures
+	+ Turing machines
+	+ Databases
 - Mathematics
-    + Functions
-    + Set theory
-    + Logic
-    + Statistics
-    + Proofs
-    + Formal systems
-    + Discrete mathematics
-    + Signal processing
-    + Topology
-    + Optimization
+	+ Functions
+	+ Set theory
+	+ Logic
+	+ Statistics
+	+ Proofs
+	+ Formal systems
+	+ Discrete mathematics
+	+ Signal processing
+	+ Topology
+	+ Optimization
 - Programming experience
 - Philosophy (foundations)
 - A desire to learn

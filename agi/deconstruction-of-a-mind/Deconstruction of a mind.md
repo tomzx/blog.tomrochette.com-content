@@ -1,4 +1,10 @@
-# De/construction of the mind
+---
+title: De/construction of the mind
+created: 2015-08-13
+taxonomy:
+  category: [artificial general intelligence]
+  status: in progress
+---
 
 ## Learned in this study
 

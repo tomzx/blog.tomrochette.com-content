@@ -1,4 +1,10 @@
-# Set Relation Language
+---
+title: Set Relation Language
+created: 2015-09-06
+taxonomy:
+  category: [artificial general intelligence]
+  status: in progress
+---
 
 ## Notation
 

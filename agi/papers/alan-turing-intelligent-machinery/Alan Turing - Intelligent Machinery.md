@@ -1,4 +1,10 @@
-# Alan Turing - Intelligent Machinery (1948)
+---
+title: Alan Turing - Intelligent Machinery (1948)
+created: 2015-10-08
+taxonomy:
+  category: [artificial general intelligence]
+  status: in progress
+---
 
 ## Learned in this study
 

@@ -1,4 +1,10 @@
-# Artificial General Intelligence
+---
+title: Artificial General Intelligence
+created: 2015-09-03
+taxonomy:
+  category: [artificial general intelligence]
+  status: in progress
+---
 
 The articles contained within this repositories are mostly works in progress. I try to explore various topics that interest me and think through them at various points in time.
 

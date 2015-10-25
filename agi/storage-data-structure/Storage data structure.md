@@ -1,4 +1,10 @@
-# Storage data structure
+---
+title: Storage data structure
+created: 2015-09-05
+taxonomy:
+  category: [artificial general intelligence]
+  status: in progress
+---
 
 ## Learned in this study
 

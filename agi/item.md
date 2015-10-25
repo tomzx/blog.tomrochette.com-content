@@ -1,9 +1,9 @@
 ---
 title: Artificial General Intelligence
-date: 2015-01-01T13:30:14-05:00
+created: 2015-07-04
 taxonomy:
-    type: post
     category: [artificial general intelligence]
+    status: in progress
 ---
 
 # Artificial General Intelligence

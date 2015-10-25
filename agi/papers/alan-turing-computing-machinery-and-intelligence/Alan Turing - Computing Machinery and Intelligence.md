@@ -1,4 +1,10 @@
-# Alan Turing - Computing Machinery and Intelligence (1950)
+---
+title: Alan Turing - Computing Machinery and Intelligence (1950)
+created: 2015-10-18
+taxonomy:
+  category: [artificial general intelligence]
+  status: in progress
+---
 
 ## Learned in this study
 

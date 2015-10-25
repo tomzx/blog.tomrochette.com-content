@@ -1,4 +1,10 @@
-# Chatbot
+---
+title: Chatbot
+created: 2015-08-26
+taxonomy:
+  status: in progress
+  tag: [ai, chatbot]
+---
 
 ## Learned in this study
 

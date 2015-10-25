@@ -1,4 +1,10 @@
-# Current approaches
+---
+title: Current approaches
+created: 2015-10-22
+taxonomy:
+  category: [artificial general intelligence]
+  status: in progress
+---
 
 ## Learned in this study
 

@@ -1,4 +1,10 @@
-# AGI Through Turing Machines
+---
+title: AGI Through Turing Machines
+created: 2015-08-16
+taxonomy:
+  category: [artificial general intelligence]
+  status: in progress
+---
 
 ## Learned in this study
 

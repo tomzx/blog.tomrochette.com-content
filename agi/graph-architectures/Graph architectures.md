@@ -1,4 +1,10 @@
-# Graph architectures
+---
+title: Graph architectures
+created: 2015-08-13
+taxonomy:
+  category: [artificial general intelligence]
+  status: in progress
+---
 
 ## Learned in this study
 

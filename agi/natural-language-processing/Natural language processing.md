@@ -1,4 +1,10 @@
-# Natural language processing
+---
+title: Natural language processing
+created: 2015-09-05
+taxonomy:
+  category: [artificial general intelligence]
+  status: in progress
+---
 
 ## Learned in this study
 

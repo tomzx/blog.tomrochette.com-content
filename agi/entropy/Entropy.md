@@ -1,4 +1,10 @@
-# Entropy
+---
+title: Entropy
+created: 2015-08-27
+taxonomy:
+  category: [artificial general intelligence]
+  status: in progress
+---
 
 ## Learned in this study
 

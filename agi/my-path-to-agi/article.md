@@ -1,4 +1,10 @@
-# My path to AGI
+---
+title: My path to AGI
+created: 2015-10-22
+taxonomy:
+  category: [artificial general intelligence]
+  status: in progress
+---
 
 ## Learned in this study
 

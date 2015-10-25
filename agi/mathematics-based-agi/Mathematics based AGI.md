@@ -1,4 +1,10 @@
-# Mathematics based AGI
+---
+title: Mathematics based AGI
+created: 2015-08-21
+taxonomy:
+  category: [artificial general intelligence]
+  status: in progress
+---
 
 ## Learned in this study
 

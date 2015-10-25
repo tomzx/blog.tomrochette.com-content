@@ -1,4 +1,10 @@
-# Seed AI
+---
+title: Seed AI
+created: 2015-09-26
+taxonomy:
+  category: [artificial general intelligence]
+  status: in progress
+---
 
 ## Learned in this study
 

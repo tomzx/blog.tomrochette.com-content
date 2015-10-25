@@ -1,4 +1,10 @@
-# Template
+---
+title: Template
+created: 2015-01-01
+taxonomy:
+  category: [artificial general intelligence]
+  status: in progress
+---
 
 ## Context
 

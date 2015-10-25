@@ -1,4 +1,10 @@
-# Practical AGI
+---
+title: Practical AGI
+created: 2015-08-17
+taxonomy:
+  category: [artificial general intelligence]
+  status: in progress
+---
 
 ## Reactive behaviors
 

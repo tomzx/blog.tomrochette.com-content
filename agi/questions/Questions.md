@@ -1,3 +1,11 @@
+---
+title: Questions
+created: 2015-09-05
+taxonomy:
+  category: [artificial general intelligence]
+  status: in progress
+---
+
 * What is AGI, accurately specified?
 * Is it possible to build the AGI as specified?
 * If AGI is possible, what is the most plausible way to achieve it?

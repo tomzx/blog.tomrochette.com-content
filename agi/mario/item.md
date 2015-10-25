@@ -1,4 +1,10 @@
-# Mari/o
+---
+title: Mari/o
+created: 2013-08-13
+taxonomy:
+  tag: [ai]
+  status: in progress
+---
 
 ## Context
 
