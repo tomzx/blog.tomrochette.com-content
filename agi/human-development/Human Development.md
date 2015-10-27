@@ -28,11 +28,25 @@ At some point during that process, the embryo/fetus begins to process informatio
 
 Information processing is most likely a process that gradually increases.
 
-In the beginning it might appear as a single light flickering in the dark, switching from its on/off state. As more and more units develop, the flickering keeps occurring but in bigger and bigger volumes. As a single unit, the embryo/fetus is dependent on its mother to provide it with energy. This probably also means that from that moment forward, the brain would attempt to use the least energy it needs to spend.
+In the beginning it might appear similar to a single light flickering in the dark, toggling from the on state to the off state. As more and more units develop, the flickering keeps occurring but in bigger and bigger volumes. As a single unit, the embryo/fetus is dependent on its mother to provide it with energy. This probably also means that from that moment forward, the brain would attempt to use the least energy it needs to spend.
 
 **Milestones** Opening its eyes
 
 ## Baby
+
+### Language acquisition
+
+In the first few months (1 to 4 months) following its birth, a baby's language is primarily focused around making voewel-like noises (cooes) and/or babbles[^3]. It will also attempt to vocalize.
+
+>Infants first begin vocalizing by crying, followed by cooing and then vocal play. These first forms of sound production are the easiest for children to use.
+
+>When reaching an age of 6 months, infants are finally able to control the opening and closing of the vocal tract, and upon obtaining this ability, infants begin to distinguish between the different sounds of vowels and consonants. This period is known as the beginning of the canonical stage. During the canonical stage, the babbling involves reduplicated sounds containing alternations of vowels and consonants (e.g.; baba or bobo).
+
+>By the time an infant reaches 8–9 months, they display productions of more advanced sounds known as variegated babbling. Variegated babbling differs greatly from reduplicated babbling. This stage includes more complex combinations of consonant and vowel syllables (e.g.; babadoobe).
+
+>By 9–10 months of age, infant babbling begins to resemble the native language of a child. The final stage is known as conversational babbling, or the "jargon stage" (usually occurring by about ten months of age). The jargon stage is defined as "pre-linguistic vocalizations in which infants use adult-like stress and intonation". The general structure of the syllables that they are producing is very closely related to the sounds of their native language and this form of babbling significantly predicts the form of early words.
+
+>Infants continue to use intonation patterns and timing that matches the characteristics of their language. Most babbling consists of a small number of sounds, which suggests the child is preparing the basic sounds necessary to speak the language to which he is exposed.[^5]
 
 **Milestones**
 * Walking
@@ -46,7 +60,9 @@ To understand a color, for instance *red*, you need to associate various observa
 
 Thus, a system that wants to rapidly learn must be able to quickly identify what remains constant from what changes.
 
------
+---
+
+---
 
 Each and every person has its own signature. However, it is not uncommon for many people to share a similar signature (have their *aura* sensed as a single identity).
 
@@ -54,3 +70,7 @@ Each and every person has its own signature. However, it is not uncommon for man
 
 [^1]: https://en.wikipedia.org/wiki/Embryo
 [^2]: https://en.wikipedia.org/wiki/Human_brain_development_timeline
+[^3]: https://en.wikipedia.org/wiki/Child_development_stages
+[^4]: https://en.wikipedia.org/wiki/Language_acquisition
+[^5]: https://en.wikipedia.org/wiki/Babbling
+[^6]: https://en.wikipedia.org/wiki/Critical_period
