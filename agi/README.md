@@ -1,6 +1,8 @@
 ---
 title: Artificial General Intelligence
 created: 2015-09-03
+visible: true
+menu: AGI
 taxonomy:
   category: [artificial general intelligence]
   status: in progress
