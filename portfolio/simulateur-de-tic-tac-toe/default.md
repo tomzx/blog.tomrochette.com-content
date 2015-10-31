@@ -9,7 +9,7 @@ Le simulateur de TicTacToe est un système très simple développé en microC. I
 
 **Snippet**
 
-<pre><code class="cpp">for(;;) {
+<pre><code class="language-cpp line-numbers">for(;;) {
     OSMboxPend(mailboxJoueurs[numero-1], &messageLu, 0);
     // Réfléchir durant une periode de temps
     OSTimeDly((rand() % 2*MAX_TICKS) + MAX_TICKS);

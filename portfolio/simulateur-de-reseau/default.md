@@ -9,7 +9,7 @@ Le simulateur de réseau émule un système de communication faisant usage de s�
 
 **Snippet**
 
-<pre><code class="cpp">// Attendre le mutex de cet ordinateur
+<pre><code class="language-cpp line-numbers">// Attendre le mutex de cet ordinateur
 sem_wait(&mutexOrdinateurs[ordi-&gt;mId-1]);
 	
 // Si terminé, simplement activer le prochain ordi

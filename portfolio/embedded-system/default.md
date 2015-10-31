@@ -28,7 +28,7 @@ This robot was using the following sensors/outputs to accomplish those tasks:
 
 **Snippet**
 
-<pre><code class="cpp">/*!
+<pre><code class="language-cpp line-numbers">/*!
  * \brief La classe principale qui se charge des différents périphériques.
  */
 class Robot{

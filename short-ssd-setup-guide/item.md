@@ -11,7 +11,7 @@ taxonomy:
 
 Backup everything. First rename, then remove when you confirmed it worked. Better safe than sorry.
 
-<pre><code class="bash">REM Set the new root location
+<pre><code class="language-bash line-numbers">REM Set the new root location
 REM Ex. NEW_ROOT=D:
 REM     NEW_ROOT=D:\Data
 REM     NEW_ROOT=D:\MyStuff\MyComputer

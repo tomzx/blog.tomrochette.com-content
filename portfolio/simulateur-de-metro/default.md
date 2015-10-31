@@ -10,7 +10,7 @@ La simulation doit gérer le déplacement de l'ensemble des trains afin qu'il n'
 
 **Snippet**
 
-<pre><code class="cpp">void gererInterruption(int sig)
+<pre><code class="language-cpp line-numbers">void gererInterruption(int sig)
 {
 	int status;
 	// On envoi un SIGINT à chaque mini-contrôleur

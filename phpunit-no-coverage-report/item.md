@@ -30,7 +30,7 @@ For code coverage to be included in your report, you have to add a filter, be it
 
 So I quickly added a filter such as
 
-<pre><code class="xml">&lt;filter&gt;
+<pre><code class="language-markup line-numbers">&lt;filter&gt;
 	&lt;whitelist&gt;
 		&lt;directory&gt;../&lt;/directory&gt;
 	&lt;/whitelist&gt;

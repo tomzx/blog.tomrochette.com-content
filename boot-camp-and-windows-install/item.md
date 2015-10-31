@@ -16,7 +16,7 @@ Then, you'll reformat it to be a Mac OS X partition and a Windows partition (usi
 
 This is now the important step. You must write over the partition. So load up the Terminal and enter
 
-<pre><code class="bash">sudo dd if=/dev/zero of=/dev/rdisk0s3 bs=1m count=100</code></pre>
+<pre><code class="language-bash line-numbers">sudo dd if=/dev/zero of=/dev/rdisk0s3 bs=1m count=100</code></pre>
 
 Where rdisk0s3 is the disk where the Windows Partition is. To know the name of your Windows partition, you can go to the Disk Utility (Applications-Utilies) and look for a partition under your hard drive.
 

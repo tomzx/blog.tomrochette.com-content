@@ -9,7 +9,7 @@ Il s'agit d'un système complet de panneau de contrôle pour hébergement. Il pe
 
 **Snippet**
 
-<pre><code class="php">public function addModules($name)
+<pre><code class="language-php line-numbers">public function addModules($name)
 {
 	$module = new $name();
 	if ($module-&gt;getStatus() === 'ON') {
