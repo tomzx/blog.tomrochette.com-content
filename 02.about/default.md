@@ -1,8 +1,7 @@
 ---
 title: About
+Template: page
 ---
-
-# About
 
 Hi,
 
