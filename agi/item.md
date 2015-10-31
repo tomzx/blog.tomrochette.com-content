@@ -2,7 +2,7 @@
 title: Artificial General Intelligence
 created: 2015-07-04
 taxonomy:
-    category: [artificial general intelligence]
+    category: [Artificial General Intelligence]
     status: in progress
 ---
 

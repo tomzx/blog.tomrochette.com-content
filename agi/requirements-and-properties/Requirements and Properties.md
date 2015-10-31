@@ -2,7 +2,7 @@
 title: Requirements and Properties
 created: 2015-08-24
 taxonomy:
-  category: [artificial general intelligence]
+  category: [Artificial General Intelligence]
   status: in progress
 ---
 

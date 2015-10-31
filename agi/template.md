@@ -2,7 +2,7 @@
 title: Template
 created: 2015-01-01
 taxonomy:
-  category: [artificial general intelligence]
+  category: [Artificial General Intelligence]
   status: in progress
 ---
 

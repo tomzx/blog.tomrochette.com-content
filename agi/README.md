@@ -4,7 +4,7 @@ created: 2015-09-03
 visible: true
 menu: AGI
 taxonomy:
-  category: [artificial general intelligence]
+  category: [Artificial General Intelligence]
   status: in progress
 ---
 

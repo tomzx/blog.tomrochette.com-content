@@ -2,7 +2,7 @@
 title: Current approaches
 created: 2015-10-22
 taxonomy:
-  category: [artificial general intelligence]
+  category: [Artificial General Intelligence]
   status: in progress
 ---
 

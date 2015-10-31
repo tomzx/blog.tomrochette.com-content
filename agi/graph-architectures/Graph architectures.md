@@ -2,7 +2,7 @@
 title: Graph architectures
 created: 2015-08-13
 taxonomy:
-  category: [artificial general intelligence]
+  category: [Artificial General Intelligence]
   status: in progress
 ---
 

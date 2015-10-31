@@ -5,7 +5,7 @@ Author: tomzx
 Permalink: /software-developer/
 taxonomy:
     type: post
-    category: Computers, Philosophy
+    category: [Computers, Philosophy]
     tag: joke
 ---
 

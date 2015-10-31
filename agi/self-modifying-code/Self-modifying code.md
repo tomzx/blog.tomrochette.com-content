@@ -2,7 +2,7 @@
 title: Self-modifying code
 created: 2015-08-27
 taxonomy:
-  category: [artificial general intelligence]
+  category: [Artificial General Intelligence]
   status: in progress
 ---
 
