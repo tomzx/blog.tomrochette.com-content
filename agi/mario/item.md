@@ -78,6 +78,5 @@ Am I giving fitness to unfit species simply because they are lucky enough to loa
 # Sources
 
 * [Demo video](https://www.youtube.com/watch?v=qv6UVOQ0F44)
-* Related paper: [Evolving Neural Networks through
-Augmenting Topologies](http://nn.cs.utexas.edu/downloads/papers/stanley.ec02.pdf)
+* Related paper: [Evolving Neural Networks through Augmenting Topologies](http://nn.cs.utexas.edu/downloads/papers/stanley.ec02.pdf)
 * [Original source code](http://pastebin.com/ZZmSNaHX)
