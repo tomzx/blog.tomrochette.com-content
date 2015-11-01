@@ -16,6 +16,7 @@ taxonomy:
     * How does one determine what constitutes a unique characteristic?
 * It is often suggested that strong emotions facilitate remember, why is that?
 * The black box concept is only explored as a mean of storage, but not processing. What happen when it is used for that purpose?
+* I believe intelligence emerges from complexity. By stacking simple concepts onto one another, intelligence appears.
 
 # Overview
 

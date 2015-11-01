@@ -42,6 +42,7 @@ Genetic evolution is biased toward remembering good neural network while forgett
 * Learn from examples: provide him with a couple of "dumb" but okay examples to learn from
 * Compare every generation best neural network against each other from the start/randomly
 * Fitness aware online agent (knows it's losing fitness by not moving)
+* Try to map the problem of learning mario to a function optimization problem
 
 ## Things to add (for review purposes)
 

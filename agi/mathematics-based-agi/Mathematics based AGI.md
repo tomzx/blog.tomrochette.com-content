@@ -42,6 +42,10 @@ One can consider a function as two different things:
 
 # Integer-based reasoning
 
+Concepts are basically numbers
+Everything can be represented by a number (basically the concept of primary key -> set of data)
+We learn to associate images, sounds, experiences (samples) with a specific concept (number)
+
 ## Notes
 
 Much of machine learning is geared toward fitting a given function as closely as possible without under/over-fitting the function in question.

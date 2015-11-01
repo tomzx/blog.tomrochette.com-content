@@ -43,11 +43,15 @@ Tom
 * Intelligence
 	* [Definitions](intelligence/definitions)
 	* [Tests](intelligence/tests)
+* [Learning](learning)
 * [Mario](mario)
 * [Mathematics based AGI](mathematics-based-agi)
 * [Natural language processing](natural-language-processing)
+* [Patterns](patterns)
+* [Problem resolution approaches](problem-resolution-approaches)
 * [Reality model](reality-model)
 * [Requirements and properties](requirements-and-properties)
+* [The dangers of a super AGI](the-dangers-of-a-super-agi)
 * [What do I know about AI](what-do-i-know-about-ai)
 
 ## Biology inspired exploration
@@ -62,11 +66,14 @@ Tom
 
 * [A procedure for writing programs](a-procedure-for-writing-programs)
 * [AGI through turing machines](agi-through-turing-machines)
+* [Databases](databases)
+* [Patterns](patterns)
 * [Perfect storage medium](perfect-storage-medium)
 * [Playing with data](playing-with-data)
 * [Seed AI](seed-ai)
 * [Self modifying code](self-modifying-code)
 * [Set relation language](set-relation-language)
+* [State machines](state-machines)
 * [Storage data structure](storage-data-structure)
 
 ### Bots and swarms
