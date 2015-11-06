@@ -5,6 +5,7 @@ taxonomy:
   category: [Artificial General Intelligence]
   status: in progress
 ---
+## Context
 
 ## Learned in this study
 
@@ -24,3 +25,25 @@ Some natural languages are not able to express certain concepts at all while oth
 Reading a word is basically triggering letter by letter a sub neural network multiple times until the appropriate word is triggered
 
 For instance, reading "word" would trigger all words with the letter "w", then "wo", then "wor" and finally "word". As the same sub neural network gets activated multiple times, its residual activation keeps increasing as more and more letters of the word are read.
+
+# Requirements
+
+- Linguistics
+    - Grammar
+        - Syntax
+    - Semantics
+
+# Suggested readings
+
+## Automatic summarization
+
+- https://en.wikipedia.org/wiki/Automatic_summarization
+
+## Uncategorized
+
+- https://en.wikipedia.org/wiki/Category:Formal_languages
+- https://en.wikipedia.org/wiki/Context-sensitive_grammar
+
+# See also
+
+# Sources
