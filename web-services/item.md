@@ -3,7 +3,7 @@ title: Web services
 created: 2015-11-02
 taxonomy:
   category: [Programming]
-  tag: [api]
+  tag: [api, web services]
   status: draft
 ---
 
@@ -122,7 +122,7 @@ The following depicts what the process of using `service A` from our previous cl
 
 A client wants to create a new instance of a service we offer. Once he has decided on the modules he wants with his service, the following occurs:
 
-1. The `Service provider` sends a request to the `Service configurator` to let it know of a service configuration change, in this case, the creation of a new service instance.
+1. The `Service provider` sends a request to the `Service configurator` to let it know of a service configuration change, in this case, the creation of a new `Service instance`.
 2. The `Service configurator` creates a new database instance as well as a user for that instance. At this point, the database is empty.
 
 Now we have a instance settings stored in the `Service configuration database`, which can be requested through the `Service configurator` API. 
@@ -131,7 +131,7 @@ Now we have a instance settings stored in the `Service configuration database`, 
 
 A database instance has been generated for the client, however it is empty and needs to be configured. The client goes onto his instance and fills in a small setup page (create an admin user, decide the system language, etc.).
 
-1. Upon submitting the form on the service instance, the `Service` queues a job to have the instance migrated and seeded.
+1. Upon submitting the form on the `Service instance`, the `Service` queues a job to have the instance migrated and seeded.
 2. A `worker` picks up the job, connects to the appropriate database. It runs the appropriate migration scripts as well as the initial seeder script.
 
 Our client now has his service available for use.
@@ -206,7 +206,7 @@ Database migrations require `Service instances` to be temporarily disabled durin
 
 Adding a new `service instance` is very easy. Let's consider that we are given a new server which has no other service on it. Each service should declare a unique vhost, where each service uses a different port number. So if we have two services `A` and `B`, we may use port 1000 for service `A` and 1001 for service `B`.
 
-Once the service instance has the service configured, it informs the `Load balancer` it is available for use.
+Once the `Service instance` has the service configured, it informs the `Load balancer` it is available for use.
 
 # Responsibilities
 
@@ -240,7 +240,7 @@ Once the service instance has the service configured, it informs the `Load balan
 
 * Execute any long running background job
 
-## Load balanacer
+## Load balancer
 
 * Receive requests and redirect the request to an appropriate `Service instance` based on the `HOST` of the request
 
@@ -248,7 +248,4 @@ Once the service instance has the service configured, it informs the `Load balan
 
 # Sources
 
-* https://www.digitalocean.com/community/tutorials/
-* 
-* 
-* how-to-use-haproxy-to-set-up-http-load-balancing-on-an-ubuntu-vps
+* https://www.digitalocean.com/community/tutorials/how-to-use-haproxy-to-set-up-http-load-balancing-on-an-ubuntu-vps
