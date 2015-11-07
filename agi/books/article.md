@@ -17,4 +17,4 @@ The following lists books that I have read and that I suggest to people that are
 | Naive Set Theory | [Amazon](http://www.amazon.com/Naive-Set-Theory-Paul-Halmos/dp/1781394660) |
 | The Annotated Turing | [Amazon](http://www.amazon.com/Annotated-Turing-Through-Historic-Computability/dp/0470229055) |
 | The Essential Turing | [Amazon](http://www.amazon.com/Essential-Turing-Philosophy-Artificial-Intelligence/dp/0198250800) |
-| The Society of Mind | [Amazon](http://www.amazon.com/The-Society-Mind-Marvin-Minsky/dp/0671657135) |
+| [The Society of Mind](the-society-of-mind) | [Amazon](http://www.amazon.com/The-Society-Mind-Marvin-Minsky/dp/0671657135) |
