@@ -1,11 +1,11 @@
 ---
 title: PHP Startup Internals
-date: 2015-03-01T09:00:00-05:00
-Author: tomzx
-Permalink: /php-startup-internals/
+created: 2015-03-01T09:00:00-05:00
 taxonomy:
+    type: post
     category: Programming
     tag: [php, startup, internals]
+    status: draft
 ---
 
 * PHP
