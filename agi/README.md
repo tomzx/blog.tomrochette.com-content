@@ -52,6 +52,7 @@ Tom
 * [Reality model](reality-model)
 * [Requirements and properties](requirements-and-properties)
 * [The dangers of a super AGI](the-dangers-of-a-super-agi)
+* [Understanding games](understanding-games)
 * [What do I know about AI](what-do-i-know-about-ai)
 
 ## Biology inspired exploration
@@ -65,7 +66,7 @@ Tom
 ## Computer/Software/Computer Science inspired exploration
 
 * [A procedure for writing programs](a-procedure-for-writing-programs)
-* [AGI through turing machines](agi-through-turing-machines)
+* [AGI through Turing machines](agi-through-turing-machines)
 * [Databases](databases)
 * [Patterns](patterns)
 * [Perfect storage medium](perfect-storage-medium)
