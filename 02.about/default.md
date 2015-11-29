@@ -1,6 +1,8 @@
 ---
 title: About
-Template: page
+created: 2015-07-04
+taxonomy:
+    status: finished
 ---
 
 Hi,
