@@ -82,6 +82,7 @@ Tom
 
 * [Chatbot](chatbot)
 * [Multi agent bot](multi-agent-bot)
+* [Wikibot](wikibot)
 
 ## Structured learning
 
