@@ -72,6 +72,9 @@ Shane Legg
 ### Gödel, Escher, Bach: an Eternal Golden Braid (2015-09 - ?)
 Douglas R. Hofstadter
 
+### The Society of Mind (2015-11 - ?)
+Marvin Minsky
+
 ## In the reading queue
 
 ### Design for a brain
