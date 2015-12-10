@@ -14,6 +14,19 @@ taxonomy:
 
 # Overview
 
+# Properties
+
+* Predefined schema (structured)
+	* All rows have the exact same format (homogeneity)
+* Data is tightly packed together (locality)
+* Easy to go at a particular data index since all rows are the same lenght (uniformity)
+* System of index based either on hashing (unique keys) or B-trees (regular indexes) to speed up search
+* System of foreign keys to ensure referential integrity (relate to data in a different structure)
+* Data can be inserted/updated/deleted/selected
+* Database normalization principles aim at reducing the amount of redundant data in order to prevent data desynchronization issues (data being different in 2 tables while they should be the same) as well as reducing values to their most atomical concept
+
+# Notes
+
 <pre>
 <tomzx> well, my understanding of turing so far is that you can represent pretty much anything as a number
 <tomzx> except those non-computable numbers
