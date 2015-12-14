@@ -95,7 +95,7 @@ Tom
 
 ## My approach
 
-* [AGI 0.1.0](agi-0.1.0)
+* [My approach to AGI](my-approach-to-agi)
 * [Practical AGI](practical-agi)
 
 ## Personal experience
