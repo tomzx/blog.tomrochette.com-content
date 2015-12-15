@@ -19,21 +19,21 @@ taxonomy:
 # Overview
 
 $$
-V_1 = Vocabulary\ of\ user\ 1 \\
-|V_1| = Cadinality\ of\ the\ vocabulary\ of\ entity\ 1
+Vocabulary\ of\ user\ 1 = V_1 \\
+Cadinality\ of\ the\ vocabulary\ of\ entity\ 1 = |V_1|
 $$
 
 $$
-V_2 = Vocabulary\ of\ user\ 2 \\
-|V_1| = Cadinality\ of\ the\ vocabulary\ of\ entity\ 2 \\
+Vocabulary\ of\ user\ 2 = V_2 \\
+Cadinality\ of\ the\ vocabulary\ of\ entity\ 2 = |V_1|
 $$
 
 $$
-V_1 \cap V_2 = Common\ vocabulary \\
-V_1 \cup V_2 = Shared\ vocabulary \\
-V_1 - V_2 = Vocabulary\ only\ in\ V_1 \\
-V_2 - V_1 = Vocabulary\ only\ in\ V_2 \\
-(V_1 \cup V_2) - (V_1 \cap V_2) = (V_1 - V_2) \cup (V_2 - V_1) = Uncommon\ vocabulary
+Common\ vocabulary = V_1 \cap V_2 \\
+Shared\ vocabulary = V_1 \cup V_2 \\
+Vocabulary\ only\ in\ V_1 = V_1 - V_2 \\
+Vocabulary\ only\ in\ V_2 = V_2 - V_1 \\
+Uncommon\ vocabulary = (V_1 \cup V_2) - (V_1 \cap V_2) = (V_1 - V_2) \cup (V_2 - V_1)
 $$
 
 $$
