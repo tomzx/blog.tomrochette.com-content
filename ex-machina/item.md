@@ -1,1 +1,0 @@
-what if the person that welcomes you is actually an ai?
