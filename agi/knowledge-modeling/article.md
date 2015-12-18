@@ -19,13 +19,13 @@ taxonomy:
 # Overview
 
 $$
-Vocabulary\ of\ user\ 1 = V_1 \\
-Cadinality\ of\ the\ vocabulary\ of\ entity\ 1 = |V_1|
+Vocabulary\ of\ entity\ 1 = V_1 \\
+Cardinality\ of\ the\ vocabulary\ of\ entity\ 1 = |V_1|
 $$
 
 $$
-Vocabulary\ of\ user\ 2 = V_2 \\
-Cadinality\ of\ the\ vocabulary\ of\ entity\ 2 = |V_1|
+Vocabulary\ of\ entity\ 2 = V_2 \\
+Cardinality\ of\ the\ vocabulary\ of\ entity\ 2 = |V_1|
 $$
 
 $$
