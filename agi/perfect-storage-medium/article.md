@@ -22,7 +22,27 @@ The perfect storage medium is an important aspect of building an agent capable o
 
 # Overview
 
-## Properties
+# References
+
+File systems and databases already implement various methods which may interest us. Thus, it is appropriate to look into existing tools to find how specific problems have been solved.
+
+* Databases
+	* RDBMS
+		* Unique identifier per schema
+		* Foreign key relations
+	* NoSQL
+		* Graph based
+		* Document based
+			* UUID to uniquely identify documents and prevent collisions
+* Filesystem
+	* Hierarchical data structure
+* Compression algorithms
+	* Lossless
+		* Compress repeating patterns using dictionaries
+	* Lossy
+		* Compress by removing data that has the least impact on the final result
+
+# Properties
 * Prevent duplication of data (compression)
 * Fast/Instant retrieval (lookup)
 * Fast/Instant storage (hashing)
