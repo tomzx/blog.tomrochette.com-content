@@ -29,18 +29,19 @@ Results in a boolean value.
 
 ## Queries
 
-- cardinality(A), card(A), |A| -> int
+- cardinality(A), card(A), |A| -> int (set is seen as a collection of elements)
+- subsetCardinality(A), sscard(A) -> int (set is seen as a collection of elements AND sets)
 
 ## Operations/Transformations
 
 Results in a Set.
 
-- A union B, A + B, A | B, A u B
-- A intersection B, A & B, A i B
-- A difference B, A - B, A \ B, A d B
-- A symmetricDifference B, A xor B, A ^ B, A sd B
-- A cartesianProduct B, A cartesian B, A x B, A * B, A cp B
-- power A, p A, A**, A^, A^n
+- A union B, union(A, B), A + B, A | B, A u B
+- A intersection B, intersection(A, B), A & B, A i B
+- A difference B, difference(A, B), A - B, A \ B, A d B
+- A symmetricDifference B, symmetricDifference(A, B) A xor B, A ^ B, A sd B
+- A cartesianProduct B, cartesianProduct(A, B), A cartesian B, A x B, A * B, A cp B
+- power A, power(A), p A, A**, A^, A^n
 
 ## Tests on relations
 
@@ -79,7 +80,7 @@ Consider f a function that maps items from set A to set B.
 - x Relation y
 	- Tom isA human
 	- Tom knows programming
-	- Tom knows agi? (how do we determine the NOT operation based on relations alone?)
+	- Tom knows agi? (how do we determine the NOT operation based on relations alone? if there's no relation, then it implies the NOT operator)
 
 # Sources
 - https://en.wikibooks.org/wiki/Set_Theory/Relations
