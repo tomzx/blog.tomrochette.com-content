@@ -6,7 +6,21 @@ taxonomy:
   status: in progress
 ---
 
-## Reactive behaviors
+## Context
+
+An AGI, like a human being, can be focused to work on pretty much anything. This is both a good and a bad thing, in the sense that you can have it work on very complex topics that will improve our understanding of the world, but at the same time it can be tasked to do terrible things, which are completely opposite to that first objective.
+
+Thus, it is important to determine what are the aspects that make an AGI pratical and working toward *appropriate* goals vs one that is simply executing code with no definite purpose.
+
+## Learned in this study
+
+## Things to explore
+
+# Overview
+
+The goal of this study is to attempt to discover what are the critical components of an AGI that would make it useful to humans in our everyday life.
+
+# Reactive behaviors
 
 1. Deconstructs incoming stimuli.
 2. Matches the stimuli with already perceived stimuli patterns.
@@ -15,9 +29,9 @@ taxonomy:
 3. Executes the selected response.
 	1. Records the result of the response on the environment (other agents).
 
-### Examples
+## Examples
 
-#### High volume audio
+### High volume audio
 
 1. Audio amplitude is obtained.
 2. High amplitude audio stimuli are queried in the KB.
@@ -26,7 +40,7 @@ taxonomy:
 3. AGI does nothing.
 	1. Environment does not change.
 
-## Proactive behaviors
+# Proactive behaviors
 
 * Internally generates desires.
 * Determines goals and objectives to fulfill those desires.
@@ -36,4 +50,8 @@ taxonomy:
 * Evaluate if the taken steps have brought the it closer of further from its initially defined target.
 * Re-adjusts its plan as necessary.
 
-### Examples
+## Examples
+
+# See also
+
+# Sources
