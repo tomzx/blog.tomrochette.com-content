@@ -6,6 +6,8 @@ taxonomy:
   status: in progress
 ---
 
+## Context
+
 ## Learned in this study
 
 ## Things to explore
@@ -15,12 +17,13 @@ taxonomy:
 * How dispatcher determines to which agent to dispatch a message
 * What response format should be sent back to the dispatcher? To the user?
 * What should the user receive as a response?
+* Should query processing be asynchronous or synchronous?
 
 # Overview
 
 The goal of this study is to look into the various ways to construct a network of bots that will interact with users.
 
-The main goal is to attempt to create a framework on which developers may offer useful services to their users.
+A secondary goal is to attempt to create a framework on which developers may offer useful services to their users.
 
 Similar to [IFTTT](https://ifttt.com/).
 
@@ -34,7 +37,7 @@ Similar to [IFTTT](https://ifttt.com/).
 	* use a bot locally (without internet connection) and yet get useful results
 	* send information to the bot
 	* query the bot for information
-	* interact with the bot through various ways (irc, email, slack, web, cli, etc.)
+	* interact with the bot through various interfaces (irc, email, slack, web, cli, etc.)
 * Only authenticated users may use a bot
 
 # Query processing
@@ -42,11 +45,11 @@ Similar to [IFTTT](https://ifttt.com/).
 1. A user issues a query
 
 	A query is minimally a string:
-	
+
 		my query
-	
+
 	However, a query can be very complex as well
-	
+
 		age =< 36
 		name = Tom
 
@@ -65,6 +68,10 @@ Similar to [IFTTT](https://ifttt.com/).
 		2. have agents inform the dispatcher what they'd like to be notified about (*this would require a protocol*)
 
 4. All agents **must** reply to the dispatcher, either with an empty response or with a response. The format of the response should be defined by the agent itself (think micro-services).
+
+	An alternative to this specification is that request would have a maximum timeout. If any other agent is unable to reply within the specified timeframe, its reply will be ignored.
+
+	Another possible alternative would be to accept all replies until a second query is formulated. However this would mean that doing multiple queries would either be prohibited or some sort of protocol would have to be defined to do multiple queries at once.
 
 5. The dispatcher sends back the set of responses to the user.
 
