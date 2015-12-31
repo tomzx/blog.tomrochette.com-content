@@ -73,6 +73,7 @@ Then, how is it used?
 
 # Sources
 
+* Minsky, Marvin Lee. The Society of Mind. New York: Simon and Schuster, 1986.
 * http://www.amazon.com/The-Society-Mind-Marvin-Minsky/dp/0671657135
 
 [^connectionism]: https://en.wikipedia.org/wiki/Connectionism
