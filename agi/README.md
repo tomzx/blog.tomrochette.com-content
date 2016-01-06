@@ -47,6 +47,7 @@ Tom
 * [Learning](learning)
 * [Mario](mario)
 * [Mathematics based AGI](mathematics-based-agi)
+* [Natural language](natural-language)
 * [Natural language processing](natural-language-processing)
 * [Patterns](patterns)
 * [Problem resolution approaches](problem-resolution-approaches)
