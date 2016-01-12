@@ -8,9 +8,9 @@ taxonomy:
 
 ## Context
 
-A seed AI is an initial computer program that is able to recursively self-improve. This means that once it is started, one of its main goals will be to improve its existing code into a better one and then switch to this newer implementation in order to benefit from the changes its made to it.
+A seed AI is an initial computer program that is able to recursively self-improve. This means that once it is started, one of its main goals will be to improve its existing code into a better one and then switch to this newer implementation in order to benefit from the changes it has made to it.
 
-Seed AI is interesting because it would mean writing a very bad version of it initially which would get improved by the algorithm itself. Furthermore, it would also mean that you might be able to give it external programs and it would proprose improvements to it.
+Seed AI is interesting because it would mean writing a very bad version of it initially which would get improved by the algorithm itself. Furthermore, it would also mean that you might be able to give it external programs and it may propose improvements to it.
 
 In other words, a seed AI is one that would learn and understand how program works, what their purpose is and what meaningful improvements can be made.
 
@@ -18,8 +18,8 @@ In other words, a seed AI is one that would learn and understand how program wor
 
 ## Things to explore
 
-* What are the issues with writing a program generator
-* What are the tools that we currently have to solve those issues
+* What are the issues with writing a program generator?
+* What are the tools that we currently have to solve those issues?
 * Look at theoretical implications of program generation (probabilities)
 * Define the problem and the goal
 * There are infinite programs that can be built, what does that mean?
@@ -33,25 +33,35 @@ In other words, a seed AI is one that would learn and understand how program wor
 
 The goal of this study is to look into the constraints and requirements that goes into building what is called a *Seed AI*, that is, a program that is able to improve itself.
 
-The goal of building such a program is to then allow it to run free and hope that it will be able to rapidly (hopefully at an exponential rate). With such rapid rate of improvement, it should be able to catch up with our intelligence rapidly and once it has surpassed us, *hopefully* help us improve our understanding of the world and answer questions we haven't been able to answer ourselves yet.
+The goal of building such a program is to then allow it to run free and hope that it will be able to rapidly (hopefully at an exponential rate) improve itself. With such rapid rate of improvement, it should be able to catch up with our intelligence rapidly (assuming intelligence is only a manifestation of the emergence of knowledge) and once it has surpassed us, *hopefully* help us improve our understanding of the world and answer questions we haven't been able to answer ourselves yet.
 
-# Naive program generator
+We will obviously neglect discussing about means to control this seed AI as well as any negative consequences related to building such an AI. Those are extremely important topics, however they are not the focus of this article.
 
-A 10 character long program in the range of ASCII 32 - 127 will have approximately ((127 + 1) - 32)^10 = 6.6 x 10^19 (that's 66 quintillion) possible permutations.
-
-To put 66 quintillion in perspective, let say we can test approximately 10^4 programs per second (ignoring the fact that the longer the programs get, the longer the compiler will take to *process* the program). We're left with about 2.1 x 10^8 years of computation to do. Obviously we could use various methods to improve our odds of getting there faster by using parallelism (using multiple cores, multiple processors).
-
-However, a very little percentage of those 66 quintillion permutations will be valid code. Thus, it is obvious that generating all those permutations is a naive way to generate valid programs.
-
-Furthermore, to truly understand the issue here, we're talking about generating *only* the set of all valid strings of length 10, which is terribly small. Increase the length by one and you now have ((127 + 1) - 32)^11 - ((127 + 1) - 32)^(11 - 1) = 6.3 x 10^21 (6 sextillion) of programs of length 11 to check. Thus, building any *real* program that can get into the millions of line of code, with an average of 10 characters per line, you're going to be waiting for a while to get that program.3
+Let us first start by designing a naive program generator, with the hope we can build something simple enough that it can run on its own and evolve.
 
 # The program tree
 
 When we write programs, we can think of the all the code concatenated together as a single string. That string is the program.
 
-We can think about each program as being part of a tree where the root is the empty program. From that program can spawn (127 + 1) - 32 programs (we assume the range characters used in the program are from ASCII 32 to 127).
+We can think about each program as being part of a tree where the root is the empty program. From that program can spawn (127 + 1) - 32 = 96 programs (we assume the range characters used in the program are from ASCII 32 to 127).
 
-Each level n of the tree represent the strings of length n. So, the root as level = 0 has a length of 0, and a string at level 10 has a length of 10.
+Each level **n** of the tree represent the strings of length **n**. The root of the tree has level **n** = 0 and thus has a length of 0 while a string at level **n** = 10 has a length of 10.
+
+# Naive program generator
+
+A 10 character long program in the range of ASCII 32 - 127 will have approximately $((127 + 1) - 32)^{10} = 6.6 \times 10^{19}$ (that's 66 quintillion) possible permutations.
+
+To put 66 quintillion in perspective, let say we can test approximately 10^4 programs per second (ignoring the fact that the longer the programs get, the longer the compiler will take to *process* the program, but in the case of a 10 character program, it's neglectable). We're left with about $2.1 \times 10^8$ years of computation to do ($\frac{6.6 \times 10^{19} programs}{10^4 \frac{programs}{s} \times 365 \frac{day}{year} \times 24 \frac{h}{day} \times 60 \frac{m}{h} \times 60 \frac{s}{m}}$). Obviously we could use various methods to improve our odds of getting there faster, for instance by using parallelism (using multiple cores, multiple processors, multiple computers).
+
+However, testing those 66 quintillion programs seems like a big waste of time, power and resources. Only a certain percentage of those 66 quintillion permutations are valid code. Thus, it is obvious that generating all those permutations is a naive way to generate *potentially* valid programs.
+
+Furthermore, to truly understand the issue here, we're talking about generating *only* the set of all valid strings of length 10, which is terribly small. Increase the length by one and you now have $((127 + 1) - 32)^{11} - ((127 + 1) - 32)^{(11 - 1)} = 6.3 \times 10^{21}$ (6 sextillion) of programs of length 11 to check (note that we excluded all programs of length 10 or less). Thus, building any *real* program that can get into the millions of lines of code and with an average of 10 characters per line, will require you to be wait for a while.
+
+One interesting problem here is that very small programs can be valid. For instance `0;` is a valid program. For that matter, any number should be a valid program in C (in our little 10 character program, we can generate $10^9$ programs based only on numbers: 9 numbers from 0-9 and a semi-colon (;) to terminate, considering all programs are wrapped within the obligatory `void main() { code here }`). This means we can basically generate many programs that basically do nothing other than creating giant numbers. Furthermore, there's also a ton of programs that will do arithmetic but never print out anything. Or print a ton of garbage/random. Maybe it is something we want... But often it's not.
+
+From this little analysis, we can deduce a few *rules*:
+* A program should *produce* something, in other word generate some sort of output (doing arithmetic without returning anything amounts to running NOPs). This can be rephrased by saying that any program that is dead code should not be considered valuable.
+* If it does not produce an output, then it should alter its input. In doing so, the altered input IS the output of the program.
 
 # Improving the naive program generator
 
