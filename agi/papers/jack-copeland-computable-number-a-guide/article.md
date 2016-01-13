@@ -93,10 +93,72 @@ taxonomy:
 * By definition, no finite sequence is a computable sequence
 * Modern writers usually define "computable" in such a way that every finite sequence is a computable sequence (since each of them can be computed)
 * Not every infinite sequence of binary digits is a computable sequence (through the diagonal argument)
-* The diagonal argument
+* The diagonal argument basically states that the set of real numbers cannot be mapped to the set of integers (in other words, there are more real numbers than there are integers)
+
+## 10. Computable and Uncomputable Numbers
+* B: the sequence of binary digits printed by a given computing machine
+* 0.B: the number computed by the machine
+* Circular machines always compute rational numbers
+* Circle-free machines may compute an irrational number (pi for example)
+* A number computed by a circle-free machine is said to be a *computable number*
+* $\pi$ and $e$ are computable
+* Not all real numbers are computable
+	* If S is an infinite binary sequence that is uncomputable, then 0.S is an uncomputable number
+
+## 11. The Satisfactoriness Problem
+* A standard description is said to be satisfactory if the machine it describes is circle-free.
+* A number is satisfactory if it is a description number of a circle-free machine.
+* A number is unsatisfactory if either it is a description number of a circular machine or it is not a description number at all.
+* The satisfactoriness problem is to decide for any arbitrarily selected standard description or equivalent description number, whether or not it is satisfactory. This decision must be made in a finite number of steps.
+* It is not possible to produce a computing machine **H** such that **H** can compute the successive digits of the diagonal sequence (the sequence of circle-free machines descriptions).
+* What happens when **H** encounters a number that describes **H** itself (called the description number **K**)?
+	* **H** must check if **K** is a description number
+	* **H** must test if **K** is satisfactory
+	* Since **H** is supposed to calculate the endless binary sequence $\beta'$, **H** must be circle-free
+	* **H** must say that **K** is satisfactory
+	* At some point, **H** will have simulated itself through **K** which will have then to simulate **H** itself once again (thus recursively simulating itself forever)
+* The result of this is that no computing machine can solve the satisfactoriness problem
+
+## 12. The Printing and Halting Problems
+### The printing problem
+Determine whether a standard description or equivalent description number will ever print a certain symbol ('0' for example).
+
+Turing proves that if the printing problem were solvable by some computing machine, then the satisfactoriness problem would be too. Therefore neither is.
+
+### The halting problem
+Determine whether a standard description or equivalent description number will eventually halt, i.e. stop moving (being done with computation).
+
+Also known as the halting theorem.
+
+## 13. The Church-Turing Thesis
+* The universal Turing machine can perform any calculation that any human computer can carry out
+* Any systematic method can be carried out by the universal Turing machine
+* Anything that can be made completely precise can be programmed for a universal digital computer
+	* This is false, as the printing, halting and satisfactoriness problems are completely precise but cannot be programmed for a universal computing machine
+* Any number, or binary sequence, that can be computed by the universal Turing machine can be calculated by means of a systematic method
+
+### Systematic methods
+* The method can, in practice or in principle, be carried out by a human computer working with paper and pencil
+* The method can be given to the human computer in the form of a finite number of instructions
+* The method demands neither insight nor ingenuity on the part of the human being carrying it out
+* The method will definitely work if carried out without error
+* The method produces the desired result in a finite number of steps; or, if the desired computable function fx.
+* Church's thesis: Every function of positive result is some infinite sequence of symbols, then the method produces each individual symbol in the sequence in some finite number of steps
+
+### Church's contribution
+* To each computable sequence S corresponds a computable function fx.
+* Church's thesis: Every function of positive integers whose values can be calculated by a systematic method is lambda-definable.
+
+## 14. The Entscheidungsproblem
+* Find an effective method by which, given any expression Q in the notation of the system, it can be determined whether or not Q is provable in the system.
+* A formal system can simply be defined to be any mechanical procedure for producing formulas, called provable formulas
+* Turing and Church both showed that no consistent formal system of arithmetic is decidable
+
+* No Turing machine can perform the task in question$\rightarrow$There is no systematic method for performing the task
+* There is a systematic method for performing the task$\rightarrow$A Turing machine can perform a task in question (by transposition)
 
 # See also
 
 # Sources
 
-* Turing, Alan, and B. Jack Copeland. The Essential Turing Seminal Writings in Computing, Logic, Philosophy, Artificial Intelligence, and Artificial Life, plus the Secrets of Enigma. Oxford: Clarendon Press ;, 2004.
+* Turing, Alan, and B. Jack Copeland. The Essential Turing Seminal Writings in Computing, Logic, Philosophy, Artificial Intelligence, and Artificial Life, plus the Secrets of Enigma. Oxford: Clarendon Press; 2004.
