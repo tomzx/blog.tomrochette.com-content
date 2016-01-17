@@ -14,7 +14,34 @@ We use natural language on a daily basis, either to communicate with others or t
 
 ## Things to explore
 
+* Generate simplified version of complex texts (use X most common words instead of the least frequently used words)
+	* What are the tools available to do such a thing? Synonyms/Antonyms/Definitions?
+
 # Overview
+
+# Structure of a "generic" natural language
+
+- Characters
+	- Words
+		- Sentences
+			- Paragraphs
+				- Sections
+					- Documents
+						- Corpus 
+
+At the root of every natural language is a set of graphemes (also known as glyphs, signs or characters). Once you are past the graphemes, everything is about relations:
+
+- words are constructed by assembling a sequence of characters
+- sentences are constructed by assembling a sequence of words
+- and so on.
+
+We rarely think of characters themselves when the language uses the latin alphabet. However languages making use of the chinese characters (chinese, japanese, korean and vietnamese[^3]), the characters are associated to some idea (may it be an action/verb or an object). Thus, we will generate reflect on words and their relations with one another. But thinking this way is wrong. We do not think about the words themselves, but their overall field of activation (all the images and experiences we've had about the word/concept).
+
+A machine can however be taught to associate a symbol with anything (as symbols are simply placeholders).
+
+# Problem reduction
+
+In order for computers to process spoken language, it needs to be able to process audio and convert it into text. Once that is done, it is then a problem of understanding natural language in a textual form. However, in recent natural language processor, it is not rare for the process to be intertwined. This allows the algorithm to suggest which words were heard based on grammar rules as well as other rules the algorithm might have learned (for instance through statistical analysis).
 
 # User oriented
 
@@ -28,6 +55,7 @@ We use natural language on a daily basis, either to communicate with others or t
 	* Sentence length
 	* Syllable count
 	* Number of punctuation used per sentence
+	* Word frequency spectrogram (0 if word is not known, 1 if it is)
 * Usage frequency
 * Evolution of vocabulary (history of word usage)
 	* First/Last time a word was used
@@ -41,7 +69,7 @@ We use natural language on a daily basis, either to communicate with others or t
 * Percentage of words used (against the number of active words in a language)
 * Vocabulary based on the time of the day
 
-Words vs Sentences
+## Words vs Sentences
 
 # Between 2 or more users
 
@@ -97,10 +125,30 @@ double fog = 0.4 * ( (double)wordCount / sentenceCount + (100.0 * complexCount) 
 ## SMOG index
 double smog = Math.sqrt( complexCount * 30.0 / sentenceCount ) + 3.0;
 
+# English language
+
+The Second Edition of the Oxford English Dictionary contains entries for 171,476 words in current use as well as 47,156 obsolete words[^1].
+
+The average active vocabulary of an adult English speaker is of around 20,000 words, with a passive vocabulary of around 40,000[^2].
+
+It is said that a vocabulary of just 3000 words provides coverage for around 95% of common texts[^2].
+
 # See also
 
 # Sources
 
+## Graphemes
+* https://en.wikipedia.org/wiki/Writing_system
+* https://en.wikipedia.org/wiki/Grapheme
+* https://en.wikipedia.org/wiki/Character_(symbol)
+* https://en.wikipedia.org/wiki/Latin_script
+
+## Text analysis
 * http://textalyser.net/index.php?lang=en
 * http://www.online-utility.org/text/analyzer.jsp
 * http://www.editcentral.com/gwt1/EditCentral.html
+* Free word frequency list http://www.wordfrequency.info/sample.asp
+
+[^1]: http://www.oxforddictionaries.com/words/how-many-words-are-there-in-the-english-language
+[^2]: http://www.lingholic.com/how-many-words-do-i-need-to-know-the-955-rule-in-language-learning-part-2/
+[^3]: https://en.wikipedia.org/wiki/Chinese_characters
