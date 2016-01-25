@@ -3,7 +3,7 @@ title: The Society of Mind
 created: 2015-11-15
 taxonomy:
   category: [Artificial General Intelligence]
-  status: draft
+  status: in progress
 ---
 
 ## Context
@@ -63,13 +63,18 @@ Marvin Minsky's *The Society of Mind* is the epitome of connectionism[^connectio
 **Using Knowledge.** The most efficient way to solve a problem is to already know how to solve it. Then one can avoid search entirely.
 
 ## 8.1 K-lines: A Theory of Memory
-How is knowledge represented?
-How is it stored?
-How is it retrieved?
-Then, how is it used?
+* How is knowledge represented?
+* How is it stored?
+* How is it retrieved?
+* Then, how is it used?
+
+## 17.6 Prerequisites for Growth
+* One reason a skill may grow in steps is that it needs "prerequisites"
+	* Some processes cannot be learned until certain other processes become available
+* Many of Piaget's theories were based on his suspicion that certain concepts had prerequisites
 
 ## 17.8 Attachment-Images
-The Oedipus complex: rejecting one of the two parent models in order to simplify value-model learning.
+* **The Oedipus complex:** rejecting one of the two parent models in order to simplify value-model learning.
 
 ## 17.9 Different Spans of Memories
 * Parent-to-child and child-to-parents bonds based on certain types of memory
@@ -107,6 +112,42 @@ The Oedipus complex: rejecting one of the two parent models in order to simplify
 **Self-Repair:** Be able to repair a faulty section if needed.
 **Distributed Processes:** Distribute the function over many area, such that if a portition is destroyed, not all of it is destroyed.
 **Accumulation:** Work is based on previous experience, such that if newer experience is lost, we can still proceed from older experience.
+
+## 19.1 The Roots of Intention
+* Words are like notes, alone they're not much, but together they form sentences, and thus meaning
+* Where do intentions come from? What do they emerge from?
+
+## 19.3 Wordes and Ideas
+* Polynemes are similar to neural networks which are encapsulated in their own little black box
+	* Such black box might be called "Color", "Shape", "Smell", "Taste", etc.
+	* When a signal is received by the black box, it will configure itself to output a specific signal ("Color" -> "red", "Shape" => "round", etc.)
+* Isonomes are short-term memory controls for other agencies
+
+## 19.4 Objects and Properties
+* A property is something that does not change capriciously (often)
+* The most useful sets of properties those whose members do not interact too much (orthogonal)
+
+## 19.5 Polynemes
+* Each agency must learn its own specific and appropriate response. Each agency must have its private dictionary or memory bank to tell it how to respond to every polyneme (Chinese room?) 
+
+## 19.6 Recognizers
+* The simplest way to recognize something is to verify that it has certain properties
+* Often times it is not possible to verify that all properties are present, thus we might use a system that "looks for evidence" (x out of y properties to become active)
+	* This system has many issues (identifying objects improperly, unable to attain identification threshold, etc.)
+	* One also has to verify their dimensions and relationships
+
+## 19.7 Weighing evidence
+* Recognizers start to look **a lot** like neural networks (inputs + weights + output)
+* Introduction of the perceptron
+* Perceptrons are unable to take into account enough of the relations among various features
+
+## 19.9 Recognizing Thoughts
+* Within the brain, various forms of inputs can lead to the same "final signal", in other words the same thought generated from seeing an apple or being told "thing about an apple"
+
+## 19.10 Closing the Ring
+* If enough recognition-agent are aroused to trigger a polyneme, that polyneme may in turn activate related sensors/K-lines in other agencies.
+	* In other words, if you start with enough clues to arouse one of your apple-nemes, it will automatically aourse memories of the other properties and qualities of apples and create a more complete impression, "simulus", or hallucination of the experience of seeing, feeling, and even of eating an apple.
+* This could be called *reminding*
 
 # See also
 
