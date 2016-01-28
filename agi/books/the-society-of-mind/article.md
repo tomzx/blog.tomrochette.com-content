@@ -146,8 +146,25 @@ Marvin Minsky's *The Society of Mind* is the epitome of connectionism[^connectio
 
 ## 19.10 Closing the Ring
 * If enough recognition-agent are aroused to trigger a polyneme, that polyneme may in turn activate related sensors/K-lines in other agencies.
-	* In other words, if you start with enough clues to arouse one of your apple-nemes, it will automatically aourse memories of the other properties and qualities of apples and create a more complete impression, "simulus", or hallucination of the experience of seeing, feeling, and even of eating an apple.
+	* In other words, if you start with enough clues to arouse one of your apple-nemes, it will automatically arouse memories of the other properties and qualities of apples and create a more complete impression, "simulus", or hallucination of the experience of seeing, feeling, and even of eating an apple.
 * This could be called *reminding*
+
+## 20.4 Locking-in and Weeding-out
+* To use the power of language, one must acquire many different ways to understand
+
+## 20.8 Connection lines
+* Bus-like arrangement between transmitting-agents and receiving-agents
+* Transmitting-agents excite n wires on the bus
+* Receiving-agents are and-gates and will only activate upon the right combination of activations (1 wire per required wire signal)
+* The disadvantage of a bus-like design is that it can transmit only one signal at a time
+
+## 21.3 Trans-frames
+* Conceptual dependencies:
+	* P-Trans: act on location (move, go)
+	* M-Trans: represents mental acts (tell)
+	* A-Trans: represents a transfer (give, take)
+* https://en.wikipedia.org/wiki/Conceptual_dependency_theory
+* Similar to the concept of transitivity
 
 # See also
 
