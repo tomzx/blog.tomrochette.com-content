@@ -88,6 +88,16 @@ $$
 	$$E^c\ or\ E'$$
 	$$E^c = E' = \{x \in \Omega\ |\ (x \not\in E)\}$$
 
+# Families
+* $dom(I)$: index
+* $I$: index set
+* $ran(I)$: indexed set
+* function: family
+* value of the function $x$ at an index $i$: term of the family, denoted $x_i$
+
+# Composite functions
+If $f$ is a function from $X$ to $Y$ and $g$ is a function from $Y$ to $Z$, then every element in the range of $f$ belongs to the domain of $g$, and, consequently, $g(f(x))$ makes sense for each $x$ in $X$. The function $h$ from $X$ to $Z$, defined by $h(x) = g(f(x))$ is called the *composite* of the functions $f$ and $g$; it is denoted by $g \circ f$.
+
 # Notes
 
 ## Comprehension description of a set of values with multiples

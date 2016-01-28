@@ -58,6 +58,10 @@ taxonomy:
 * (p27) transitive if $x R y$ and $y R z$ imply $x R z$
 * (p28) equivalence relation if it is reflexive, symmetric and transitive
 * (p28) A partition of $X$ is a disjoint collection $\mathcal{C}$ of non-empty subsets of $X$ whose union is $X$
+* (p45) A family $\{x_i\}$ whose index set is either a natural number or else the set of all naturals numbers is called a sequence
+* (p 47) No natural number is a subset of any of its elements
+* (p 47) Every element of a natural number is a subset of it
+* (p 48) **Recursion theorem:** If $a$ is an element of a set $X$, and if $f$ is a function from $X$ into $X$, then there exists a function $u$ from $\omega$ into $X$ such that $u(0) = a$ and such that $u(n^+) = f(u(n))$ for all $n$ in $\omega$.
 
 # Axioms
 
@@ -75,6 +79,16 @@ For every collection of sets there exists a set that contains all the elements t
 
 ## Axiom of powers
 For each set there exists a collection of sets that contains among its elements all the subsets of the given set.
+
+## Axiom of infinity
+There exists a set containing 0 and containing the successor of each of its elements.
+
+## Peano axioms
+1. $0 \in \omega$
+2. $if\ n \in \omega,\ then\ n^+ \in \omega$
+3. $if\ S \subset \omega, if\ 0 \in \omega,\ and\ if\ n^+ \in S\ whenever\ n \in S,\ then S = \omega$
+4. $n^+\ \not= 0\ for\ all\ n\ in\ \omega$
+5. $if\ n\ and\ m\ are\ in\ \omega,\ and\ if\ n^+ = m^+,\ then\ n = m$
 
 # Operators
 $\wedge$: and
