@@ -166,6 +166,55 @@ Marvin Minsky's *The Society of Mind* is the epitome of connectionism[^connectio
 * https://en.wikipedia.org/wiki/Conceptual_dependency_theory
 * Similar to the concept of transitivity
 
+## 21.7 Generalizing with Pronomes
+* Example of Trans-script
+	* Activate apple-neme, Look-for, and Move
+		* Then activate Grasp
+	* Activate pail-neme, Look-for, and Move
+		* Then activate Ungrasp
+* Separation of concern through the creation of two types of scripts:
+	* a pronome-assignment script
+		* Assign the apple-neme to the Origin pronome
+		* Assign the pail-neme to the Destination pronome
+	* an action script
+		* Activate Origin. Then turn on Look-for, Move, and Grasp
+		* Activate Destination. Then turn on Look-for, Move, and Ungrasp
+
+## 21.8 Attention
+* It is difficult to keep track of multiple things at once
+* Forced to focus on a few while losing track of all the rest
+
+## 22.1 Pronomes and Polynmes
+* A pronome is a short-term memory
+* Pronomes are temporary K-lines
+* A polyneme is a long-term memory
+* Polynemes are permenant K-lines
+
+## 22.2 Isonomes
+* An isonome has a similar, built-in effect on each of its recipients
+	* It thus applies the same idea to many different things at once
+* A polyneme has different, learned effects on each of its recipients
+	*  It thus connects the same thing to many different ideas
+
+## 22.3 De-specializing
+* The process of learning to build process scripts with isonomes
+
+## 22.4 Learning and Teaching
+* The power of what we learn depends on how we represent it in our minds
+* We should be less concerned about teaching how to acquire particular skills and more concerned with learning how to learn
+
+## 22.6 Expression
+* Why do we *thing-ify" our thoughts?
+	* It enables us to reapply the wonderful machines our brains contain for understanding worldly things
+	* It helps us organize our expeditions in the mental world, much as we find our ways through space
+
+## 22.7 Causes and Clauses
+* Things: What we represent the scene with
+* Differences: When we discern a change or just compare two different things, we represent this as a difference thing. In languages, these often correspond to verbs.
+* Causes: Source of the action, change or difference. In languages, causes often take the forms of things.
+* Clauses: Whatever structures we conceived are dealt with like single things. In languages, this corresponds to treating an entire phrase as though it were a single word.
+* Our brains want us to represent dependencies
+
 # See also
 
 # Sources
