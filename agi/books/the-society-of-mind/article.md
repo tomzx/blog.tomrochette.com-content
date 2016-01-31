@@ -204,7 +204,7 @@ Marvin Minsky's *The Society of Mind* is the epitome of connectionism[^connectio
 * We should be less concerned about teaching how to acquire particular skills and more concerned with learning how to learn
 
 ## 22.6 Expression
-* Why do we *thing-ify" our thoughts?
+* Why do we "thing-ify" our thoughts?
 	* It enables us to reapply the wonderful machines our brains contain for understanding worldly things
 	* It helps us organize our expeditions in the mental world, much as we find our ways through space
 
@@ -214,6 +214,41 @@ Marvin Minsky's *The Society of Mind* is the epitome of connectionism[^connectio
 * Causes: Source of the action, change or difference. In languages, causes often take the forms of things.
 * Clauses: Whatever structures we conceived are dealt with like single things. In languages, this corresponds to treating an entire phrase as though it were a single word.
 * Our brains want us to represent dependencies
+
+## 23.1 A World of Differences
+* It is generally useless to do anything that has no discernable effect
+* To ask if something is significant is similar to asking "What difference does it make?"
+* Several kinds of thinking:
+	* Predicting
+	* Expecting
+	* Explaining
+	* Wanting
+	* Escaping, attacking and defending
+	* Abstracting
+
+## 23.2 Differences and Duplicates
+**The Duplication Problem:** The states of two different agencies cannot be compared unless those agencies themselves are virtually identical.
+
+## 23.3 Time Blinking
+* Any agent that is sensitive to changes in time can also be used to detect differences. For whenever we expose such an agent, first to a situation A and then to a situation B, any output from that agent will signify some difference between A and B.
+* Two descriptions can be compared simply by presenting them to the same agency at different times
+* Similar to a system where you do an initial setup (initial difference from scratch) and then only the differences are *sent* (like in video games, you don't send all units position at every frame, you only send their delta IF they moved)
+* Time blinking has some limitations:
+	* It cannot directly recognize relations among more than two things at a time
+
+## 23.5 Foreign Accents
+* Most human languages use less than a hundred phonemes
+* One or more of the genetically controlled mechanisms that brings on sexual maturity also acts to reduce the capacities of these particular agencies (that reproduce accents) to learn to recognize and make new sounds
+* Hypothesis: The onset of the childbearing age is the biological moment when a person's social role changes from learner to teacher. The "evolutionary purpose" of suppressing speech-sound learning may simply serve to prevent the parent from learning the child's speech - thus making the child learn the adult's speech instead
+
+## 24.1 The Speed of Thought
+* Each perceptual experience activates some structure that we'll call frames - structures we've acquired in the course of previous experience.
+
+## 24.2 Frames of Mind
+* Default assumptions fill our frames to represent what's typical
+
+## 24.4 Default Assumptions
+* Unless we make assumptions, the world would simply make no sense
 
 # See also
 
