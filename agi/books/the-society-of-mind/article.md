@@ -250,6 +250,39 @@ Marvin Minsky's *The Society of Mind* is the epitome of connectionism[^connectio
 ## 24.4 Default Assumptions
 * Unless we make assumptions, the world would simply make no sense
 
+## 24.8 How Picture-frames Work
+* Each time you look in a different direction, your vision-system will describe what you see - and the corresponding K-line will record what you see when you look in that direction
+* If this same frame is activated at some later date, we should perceive the same scene through "simulus"
+* Through this simulus and the perception of the actual scene, it should be possible to determine the differences between the two
+
+## 24.9 Recognizers and Memorizers
+* A recognizer is the opposite of a K-line
+	* A K-line arouses a certain state of mind
+	* A recognizer recognizes when a certain state of mind occurs
+
+## 25.1 One Frame at a Time?
+* Our vision-systems are born equipped, on each of several different levels, with some sort of "locking-in" machinery that at every moment permits each "part," at each level, to be assigned to one and only one "whole" at the next level.
+
+## 25.2 Frame-Arrays
+* **Frame-Arrays** When we move, our vision-systems switch among a family of different frames that all use the same terminals.
+
+## 25.3 The Stationary World
+* We can see because we're seeing all the time and keeping contact with the world
+* Our higher-level agents don't "see" the outputs of the sensors in our eyes at all
+* They (the high-level agents) "watch" the states of middle-level agencies that don't change state so frequently
+* When we move, we record the distortion applied to whatever we are looking at while a direction-neme is active (to indicate the direction of movement)
+
+## 25.4 The Sense of Continuity
+* We perceive continuity because that is how we model it internally
+* Conciousness comes not from ceaseless change of state, but from having enough stability to discern significant changes in our surroundings
+
+## 26.1 Understanding Words
+* How do we bring together scattered knowledge quickly?
+	* Some words activate a frame in the reader's mind
+	* Attached to that frame are certain memories of various concerns
+	* Each concern is represented by a frame whose terminals are already attached, as default assignments, the most usual solutions to that particular kind of problem
+	* Such knowledge comes from previous experience
+
 # See also
 
 # Sources
