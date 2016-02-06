@@ -283,6 +283,35 @@ Marvin Minsky's *The Society of Mind* is the epitome of connectionism[^connectio
 	* Each concern is represented by a frame whose terminals are already attached, as default assignments, the most usual solutions to that particular kind of problem
 	* Such knowledge comes from previous experience
 
+## 26.5 Story-Frames
+* To listen well, a child must acquire potent forms of self-control
+* It is also the responsibility of the storyteller to fix the focus of the listener's mind
+
+## 26.6 Sentence and Nonsense
+* Part of what a sentence means depends upon its separate words, and part depends on how those words are arranged
+* A word-string seems "grammatical" if all its words fit quickly and easily into frames that connect suitably to one another
+
+## 26.7 Frames for Nouns
+* The way we think must have a strong and universal influence on how we speak - if only through its influence on the sorts of things we'll want to say
+
+## 26.8 Frames for Verbs
+* Multistage theory where we initially fill the terminals of word-string frames with nemes for words and later on we learn to fill those terminals with other filled-in language-frames
+
+## 26.9 Language and Vision
+* Points to the fact that vision predates language
+* Language-agencies would have evolved from variants of genes that first evolved in shaping the architecture of our vision-systems
+
+## 26.10 Learning Language
+* A word can only serve to indicate that someone else may have a valuable idea - that is, some useful structure to be built inside the mind. Each new word only plants a seed: to make it grow, a listener's mind must find a way to build inside itself some structure that appears to work like the one in the mind from which it was "learned".
+
+## 27.2 Suppressors
+* We can imagine two poles of self-improvement
+	* We can try to stretch the range of the ideas we generate: this leads to more ideas, but also to more mistakes
+	* We can try to learn not to repeat mistakes we've made before
+* **Suppressor-agents** waits until you get a certain "bad idea." Then they prevent you from taking the corresponding action, and make you wait until you think of some alternative. If a suppresor could speak, it would say, "Stop thinking that!"
+* **Censor-agents** need not to wait until a certain bad idea occurs; instead, they intercept the states of mind that usually precede that thought. If a censor could speak, it would say, "Don't even begin to think that!"
+* It's easier to study what someone does - instead of what someone doesn't do
+
 # See also
 
 # Sources
