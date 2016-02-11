@@ -312,6 +312,25 @@ Marvin Minsky's *The Society of Mind* is the epitome of connectionism[^connectio
 * **Censor-agents** need not to wait until a certain bad idea occurs; instead, they intercept the states of mind that usually precede that thought. If a censor could speak, it would say, "Don't even begin to think that!"
 * It's easier to study what someone does - instead of what someone doesn't do
 
+## 27.5 Jokes
+* Freud suggested that children construct censors in response to prohibitions by their parents or peers. This explains why so many jokes involve taboos concerning cruelty, sexuality, and other subjects that human communities typically link to guilt, disgust, or shame.
+
+## 27.6 Humor and Censorship
+* When we learn in a serious context, the result is to change connections among ordinary agents. But when we learn in a humorous context, the principal result is to change the connections that involve our censors and suppressors.
+* Scolding tends to produce suppressors, but laughing tends to produce censors
+* Suppressors merely need to learn which mental states are desirable
+* Censors must remember and learn which mental states were undesirable
+
+## 28.2 Magnitude and Marketplace
+* We turn to using quantities when we can't compare the qualities of things
+
+## 28.3 Quantity and Quality
+* Whenever we turn to measurements, we forfeit some uses of intellect. Currencies and magnitudes help us make comparisons only by concealing the differences among what they purport to represent
+* Any substance or quantity whose availability is limited can be made to serve as a currency.
+
+## 28.4 Mind Over Matter
+* A person's ability to persist in circumstances we hadn't thought were tolerable need not indicate anything supernatural. (...) It is merely a matter of finding ways to rearrange our priorities.
+
 # See also
 
 # Sources
