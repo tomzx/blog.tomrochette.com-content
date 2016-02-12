@@ -12,6 +12,8 @@ taxonomy:
 
 ## Things to explore
 
+* 28.8 What are the boundaries of the mind?
+
 # Overview
 
 Marvin Minsky's *The Society of Mind* is the epitome of connectionism[^connectionism].
@@ -330,6 +332,32 @@ Marvin Minsky's *The Society of Mind* is the epitome of connectionism[^connectio
 
 ## 28.4 Mind Over Matter
 * A person's ability to persist in circumstances we hadn't thought were tolerable need not indicate anything supernatural. (...) It is merely a matter of finding ways to rearrange our priorities.
+
+## 28.7 Individual Identities
+* At what point replacing parts of someone's identity makes them a completely different person? If we were to replace every cell in your brain by a new one, would it still be your brain?
+* Modifying or replacing the physical parts of a brain will not affect the mind it embodies, unless this alters the successions of states in that brain.
+
+## 28.8 Overlapping Minds
+* Like members of a family, the different minds (in your brain) can work together to help each other, each still having its own mental experiences that the others never know about.
+
+## 29.1 The Reals of Thought
+* We need to be able to describe things at many levels of detail.
+
+## 29.2 Several Thougts at Once
+* How can many different thoughts proceed at the same time without interfering with one another? The processes use agents that do not compete (are orthogonal to one another)
+
+## 29.3 Paranomes
+* Many of our higher level conceptual-frames are really parallel arrays of analogous frames, each active in a different realm.
+* **Paranomes:** Pronomes operating in several different realms at once (in parallel)
+
+## 30.1 Knowing
+* The meaning of "knowing" depends on who is saying it. After all, no one knows everything about everything.
+
+## 30.2 Knowing and Believing
+* We classify our thoughts into different types:
+	* facts: "the red object is on the table"
+	* opinions: "I think the red block is on the table"
+	* beliefs: "I believe that the red block is on the table"
 
 # See also
 
