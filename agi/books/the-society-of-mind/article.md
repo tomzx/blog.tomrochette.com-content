@@ -359,6 +359,17 @@ Marvin Minsky's *The Society of Mind* is the epitome of connectionism[^connectio
 	* opinions: "I think the red block is on the table"
 	* beliefs: "I believe that the red block is on the table"
 
+## 30.3 Mental Models
+* Does a book know what is written inside it? Clearly no. Does a book contain knowledge? Clearly, yes. But how could anything contain knowledge, yet not know it?
+* Possessing knowledge amounts to saying that some observer could employ that person or machine to answer certain kinds of questions.
+* A person or machine *contains* a model of knowledge itself. It is not perfect, but it allows us to query it and generate answers.
+
+## Appendix
+
+### 2 The Genesis of Mental Realms
+
+* In their first few days, human infants learn to distinguish people by their odors; then, over the next few weeks, they learn to recognize individuals by sound of voice; only after several months do they start to reliably distinguish the sights of faces. Most likely we learn to make each of these distinctions by several different methods, and it is probably no accident that these abilities develop in a sequence that corresponds to their increasing complexity.
+
 # See also
 
 # Sources
