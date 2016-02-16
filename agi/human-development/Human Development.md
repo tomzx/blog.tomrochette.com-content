@@ -15,6 +15,8 @@ taxonomy:
 ## Things to explore
 
 * Parallel between a program's evolution an a human evolution
+* Vision and speech development
+* Cell divisions in the brain (how is the brain formed?)
 
 # Progression/Evolution of the agent - environment interactions
 
@@ -52,6 +54,8 @@ In the first few months (1 to 4 months) following its birth, a baby's language i
 * Walking
 * Speaking
 
+> In their first few days, human infants learn to distinguish people by their odors; then, over the next few weeks, they learn to recognize individuals by sound of voice; only after several months do they start to reliably distinguish the sights of faces. Most likely we learn to make each of these distinctions by several different methods, and it is probably no accident that these abilities develop in a sequence that corresponds to their increasing complexity. [^7]
+
 # Understanding concepts/symbols
 
 Understanding comes from the observation of a sequence of inputs. Those inputs are then correlated to one another such that if you (...TBC...)
@@ -61,6 +65,10 @@ To understand a color, for instance *red*, you need to associate various observa
 Thus, a system that wants to rapidly learn must be able to quickly identify what remains constant from what changes.
 
 ---
+
+# Vision
+
+It's been said *(citation needed)* that when a child is born, he is unable to see (or at least his vision is far from the one he'll later acquire in life). Thus, for a while he has to get used to the signals that come to its eyes. As its brain starts to process the information, it builds up a processing architecture that may remind some of a neural network.
 
 ---
 
@@ -74,3 +82,4 @@ Each and every person has its own signature. However, it is not uncommon for man
 [^4]: https://en.wikipedia.org/wiki/Language_acquisition
 [^5]: https://en.wikipedia.org/wiki/Babbling
 [^6]: https://en.wikipedia.org/wiki/Critical_period
+[^7]: Minsky, Marvin Lee. The Society of Mind (New York: Simon and Schuster, 1986), 312.
