@@ -10,6 +10,8 @@ taxonomy:
 
 ## Things to explore
 
+* Consider getting an optimal AGI as an optimization in itself (gradient descent)
+
 # Overview
 
 # Functions

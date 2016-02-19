@@ -9,7 +9,7 @@ taxonomy:
 ## Context
 
 During the month of June 2015, a AI based on [NEAT](https://en.wikipedia.org/wiki/Neuroevolution_of_augmenting_topologies
-) (written in LUA and executed on the BizHawk emulator) was demonstrated on [youtube](https://www.youtube.com/watch?v=qv6UVOQ0F44) playing Super Mario World. At around the same time, some other developers used the same algorithm to attempt to learn to play Super Mario Kart.
+) (written in LUA and executed on the [BizHawk emulator](https://github.com/TASVideos/BizHawk)) was demonstrated on [youtube](https://www.youtube.com/watch?v=qv6UVOQ0F44) playing Super Mario World. At around the same time, some other developers used the same algorithm to attempt to learn to play Super Mario Kart.
 
 ## Learned in this study
 
@@ -17,8 +17,13 @@ During the month of June 2015, a AI based on [NEAT](https://en.wikipedia.org/wik
 
 * Will it reproduce an already tried genome?
 * Is transitivity (a node going to a node then to another node, making the middle node useless) removed?
+* Genetic evolution is biased toward remembering good neural network while forgetting neural network connections to avoid
 
-Genetic evolution is biased toward remembering good neural network while forgetting neural network connections to avoid
+# Overview
+
+What this algorithm does is attempt to construct a state machine based on the environment state (as input). In other word, provided an X by Y grid with Z possible values for each cell, tell me what output should be emitted.
+
+In this game, the use of a neural network with weights does not make sense. Given an environment state, many valid actions can be taken, but at the same time many invalid actions should be avoided at all cost. Obviously, this leads us to say that one can generate a dictionary of all the possible environment state and its appropriate output. However, doing so will likely mean generate a huge amount of data for something that might be generalizable.
 
 ## Things to improve
 
@@ -63,7 +68,9 @@ Genetic evolution is biased toward remembering good neural network while forgett
 * Distance traveled
 * Score
 
--->> Compare the advantages of learning from the parts you have difficulties with vs always from the start
+* Compare the advantages of learning from the parts you have difficulties with vs always from the start
+    * Always starting from the beginning makes it appear like it is always "improving" since it's basically going through stuff it knows while starting "from a checkpoint" is constantly under learning pressure (will reject any neural network that cannot successfully complete the task)
+        * That is a good thing if we want to find the perfect (or good enough) algorithms, but if there's a point at which all algorithms will fail, we might discard more efficient algorithms because they end with a lower score since they've crossed less distance
 * Explore more of the map rapidly
 * Even if you are the most retarded, if you have a position advantage, you'll get a +1000 fitness bonus. This means that the real most fit individual will have to be extremely good to compete against your unfair advantage.
 

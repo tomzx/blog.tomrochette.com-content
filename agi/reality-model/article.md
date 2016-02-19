@@ -10,6 +10,8 @@ taxonomy:
 
 ## Things to explore
 
+* How to determine if my actions truly have consequences (think of an AI controlling an actuator, is it really in control of it?)
+
 # Overview
 
 Builds a model of what it thinks the world is

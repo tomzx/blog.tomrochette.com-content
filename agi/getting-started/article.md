@@ -39,6 +39,8 @@ taxonomy:
 
 ## Essentials
 
+* [Artificial Intelligence: A Modern Approach](../books/artificial-intelligence-a-modern-approach)
+
 ## Advanced
 
 ## Uncategorized
