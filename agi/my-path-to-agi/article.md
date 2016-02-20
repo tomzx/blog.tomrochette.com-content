@@ -47,6 +47,7 @@ Alan M. Turing, B. Jack Copeland
 * Computing Machinery and Intelligence (2015-10)
 * Can Digital Computer Think? (2015-10)
 * Solvable and Unsolvable Problems (2015-10)
+* Systems of Logic Based on Ordinals (2016-01 - ?)
 
 ### The First Level of Super Mario Bros. is Easy with Lexicographic Orderings and Time Travel (2015-06)
 Tom Murphy VII
@@ -72,8 +73,15 @@ Shane Legg
 ### Gödel, Escher, Bach: an Eternal Golden Braid (2015-09 - ?)
 Douglas R. Hofstadter
 
-### The Society of Mind (2015-11 - ?)
+### The Society of Mind (2015-11 - 2016-02)
 Marvin Minsky
+
+## 2016
+
+* Tensorflow 2016-01
+
+### Artificial General Intelligence (2015-02 - ?)
+Ben Goertzel, Cassio Pennachin
 
 ## In the reading queue
 
