@@ -166,6 +166,22 @@ taxonomy:
 	* a memory that systematically stores both questions and knowledge, and provides a working place for inferences
 	* a control mechanism that is responsible for choosing premises and inference rules for each step of inference
 * Complete self-modifying is an illusion. As flexible as the human is, it cannot modify its own "law of thought"
+* Many arguments proposed against logical AI, symbolic AI or AI as a whole are against pure-axiomatic systems
+
+## 2.1 Experience-Grounded Semantics
+* Truth value becomes a function of the amount of available evidence, therefore inevitably becomes changeable and subjective, though not arbitrary.
+* The truth value of a statement indicates the degree to which the statement is confirmed by past experience
+
+## 2.2 Inheritance Statement
+* Binary truth is not enough
+* The system needs to know the amount of positive and negative evidence (a measure of uncertainty)
+* $raven \rightarrow bird$ is an inheritance statement with raven as subject term and bird as predicate term
+* The subject is a specialization of the predicate and the predicate is a generalization of the subject
+* $S \rightarrow P$, (subject -> predicate)
+* $w^+, w^-, w$ is the amount of positive, negative and total evidence
+* $w^+ = |S^E \cap P^E| + |P^I \cap S^I|$
+* $w^- = |S^E - P^E| + |P^I - S^I|$
+* $w = w^+ + w^- = |S^E| + |P^I|$
 
 # See also
 
