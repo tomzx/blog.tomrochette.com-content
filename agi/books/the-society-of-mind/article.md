@@ -31,6 +31,9 @@ Marvin Minsky's *The Society of Mind* is the epitome of connectionism[^connectio
 * They follow instructions
 * They don't start things by themselves (do we start things ourselves or if that simply the result of interacting with others?)
 * Subconscious -> competing processes that are running in the background
+* Learning is the process of replacing existing software
+* To understand how something works, it helps to know how it can fail
+* Detect and eliminate/externalize loops (prevent repetitiveness)
 
 ## 7.6 Reinforcement and Reward
 * Reward the few moments before success. Works only for short solutions.

@@ -68,7 +68,7 @@ p68: Since we know that large store memory is not an active organ/component, we'
 p72: Short codes: A system of instructions which makes one machine imitate the behavior of another.
 
 p80: Instead of the precise systems of markers where the position—and presence or absence—of every marker counts decisively in determining the meaning of the message, we have here a system of notations in which the meaning is conveyed by the statistical properties of the message.
-Favors logics over arithmetics.
+Favors logic over arithmetic.
 
 # See also
 
