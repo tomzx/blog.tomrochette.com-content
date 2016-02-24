@@ -183,6 +183,53 @@ taxonomy:
 * $w^- = |S^E - P^E| + |P^I - S^I|$
 * $w = w^+ + w^- = |S^E| + |P^I|$
 
+## 2.4 Syllogistic Inference Rules
+* 4 basic inference rules
+	* Deduction
+	* Induction
+	* Abduction
+	* Revision
+
+## 2.5 Controlled Concurrency in Dynamic Memory
+* Uses "bags" as data structure for resource allocation
+	* A bag can contain certain type of items with a constant capacity, and maintains a priority distribution among the items
+* There are 3 major operations defined on bags:
+	* Put an item into the bag, if the bag is full, remove an item with the lowest priority
+	* Take an item out of the bag by key (unique identifier)
+	* Take an item out of the bag by priority
+* Knowledge and tasks are organized into concepts
+* A term T has a corresponding concept $C_T$, which contains all the knowledge and tasks in which T is the subject term or predicate term
+* The memory of NARS can be roughly seen as a bag of concepts
+* NARS runs by repeatly carrying out the following working cycle:
+	* Take a concept from the memory by priority
+	* Take a task from the task bag of the concept by priority
+	* Take a piece of knowledge from the knowledge bag of the concept by priority
+	* According to the combination of the task and the knowledge, call the applicable inference rules on them to derive new tasks and new knowledge
+	* Adjust the priority of the involved task, knowledge and concept according to how they behave in this inference step, then put them back into the corresponding bags
+	* Put he new (input or derived) tasks and knowledge into the corresponding bags. If certain new knowledge provides the best solution so far for a user-assigned task, report a solution
+* The priority value of each item reflects the amount of resources the system plans to spend on it in the near future
+	* Long-term factor: Higher priority to more important items, evaluated according to past experience.
+	* Short-term factor: Higher priority to more relevant items, evaluated according to the current context. (this works in the same way as having related ideas being activated when thinking of something, such as red, juicy, tasty when thinking of an apple)
+
+## 3.1 Reasonable Solutions
+* NARS cannot guarantee that the solutions it generates for tasks are correct, nor optimum
+* The solution should however be reasonable in the sense that they are the best summaries of the past experience, given the current resource supply
+
+## 3.2 Unified Uncertainty Processing
+* Uncertainty comes from the insufficiency of knowledge and resources
+* As a result, the evaluation of uncertainty is changeable and context-dependent
+* No concept has a clear-cut boundary. Whether a concept is an instance of another is a matter of degree. Therefore, all concepts in NARS are "fuzzy"
+* The membership evaluations are revisable. The priority distribution among the relations from a concept to other concepts also changes from time to time. Therefore, what a concept actually means to the system is variable
+* However, the meaning of a concept is not arbitrary or random, but relatively stable, bounded by the system's experience
+
+## 3.3 NARS as a Parallel and Distributed Network
+* In NARS, information is not only stored distributively and with duplications, but also processed through multiple pathways
+* The generating of a specific solution is the emergent result of lots of local events, not only caused by the events in its derivation path, but also by the activity of other tasks that adjust the memory structure and compete for the resources
+
+## 3.4 Resources Competition
+* NARS uses a flexible method to decide how much time to spend on a task, influenced by both the system and the user
+* The user can attach an initial priority value to a task, but the allocation also depends on the current situtation of the system, as well as on how well the task processing goes
+
 # See also
 
 # Sources
