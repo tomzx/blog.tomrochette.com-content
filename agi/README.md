@@ -50,6 +50,7 @@ Tom
 * [Natural language](natural-language)
 * [Natural language processing](natural-language-processing)
 * [Patterns](patterns)
+* [PHP Brain](php-brain)
 * [Problem resolution approaches](problem-resolution-approaches)
 * [Reality model](reality-model)
 * [Requirements and properties](requirements-and-properties)
