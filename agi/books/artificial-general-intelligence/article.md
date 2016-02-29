@@ -230,6 +230,70 @@ taxonomy:
 * NARS uses a flexible method to decide how much time to spend on a task, influenced by both the system and the user
 * The user can attach an initial priority value to a task, but the allocation also depends on the current situtation of the system, as well as on how well the task processing goes
 
+## 3.6 Autonomy and Creativity
+* The system's behavior depends to a certain extent on its own tasks, which are actually more or less dependent of the original processes, even though historically derived from them
+* In extreme form, the derived tasks may become so strong that they even prevent the input tasks from being fulfilled
+* This can lead to creative and original behaviors, because the system is pursuing goals that are not directly assigned by its environment or its innateness
+
+# The Novamente Artificial Intelligence Engine
+
+## 1.2 Novamente for Knowledge Management and Data Analysis
+* Novamente may be used in two complementary ways to work with unstructured text:
+	* "Information retrieval" oriented, wherein a text is taken as a series of characters or a series of words, and analyzed statistically
+	* Natural language processing (NLP) oriented, wherein an attempt is made to parse the sentences in the texts and extract their meanings into semantic-relationship form
+* To interact with human users, the Novamente design supports a variety of different modalities, including coventional search-engine and NLP queries, web forms queries, dynamic visualization and automated report generation
+
+## 2 Enabling Software Technologies
+* Make use of an hybrid of NLP and formal languages (such as first-order logic) where one would specify the relations and constraints in his given queries
+* Two categories of enabling technologies
+	* Distributed software architecture
+	* Database integration
+
+## 2.2 Database Integration and Knowledge Integration
+* 4 strategies to deal with databases
+	* Federation: Create a common GUI for separate DBs
+	* Amalgamation: Create formal mappings between the schema of different DBs
+	* Schema translation: Create a new RDB combining information from multiple DBs
+	* Knowledge integration: Create a translator mapping DB contents into a "universal formal knowledge representation"
+
+## 3.1 What Is General Intelligence?
+* Novamente's goal is to create a nonhuman digital intelligent system - one that will complement human intelligence by carrying out data analysis and management tasks far beyond the capability of the human mind; and one that will cooperate with humans in a way that brings out the best aspects of both the human and the digital flavors of general intelligence
+* General Intelligence is the ability to achieve complex goals in complex environments
+* A system is fully generally intelligence for complexity N if it can achieve any goal of complexity N in any environment of complexity N
+
+## 3.2 The Integrative Approach to AGI
+* 3 basic approaches to AGI are possible:
+	* Close emulation of the human brain in software
+	* Conception of a novel AGI architecture, highly distinct from the brain and also from narrow AI programs
+	* An integrative approach, synthesizing narrow AI algorithms and structures in a unique overall framework, perhaps guided to some extent by understanding of the human brain
+* Roughly 2/3 of the Novamente design is based on existing narrow AI approaches
+
+## 3.3 Experiential Interative Learning and Adaptive Self-modification
+* Software and mathematics alone, no matter how advanced, cannot create an AGI
+* Intelligence most naturally emerges through situated and social experience
+* Human brains learn to think through being taught, and through diverse social interactions
+* For a software system to demonstrate AGI, it must demonstrate:
+	* A coherent autonomy as an independent, self-perceiving, self-controlling system
+	* The ability to modify and improve itself based on its own observations and analyses of its own performance
+	* The ability to richly interact with, and learn from, other minds (such as human minds)
+
+## 4 The Psynet Model of Mind
+* The psynet model is based on what Ray Kurzweil calls a "patternist" philosophy
+* A mind is neither a physical system, nor completely separate from the physical
+* A mind is something associated with the set of patterns in a physical system
+* A pattern in an entity is considered as an abstract computer program that is smaller than the entity, and can rapidly compute the entity
+* One particular general goal is posited as critical to the goal system of any intelligent system: the creation and recognition of new patterns
+* Patterns dynamics
+	* Association: Patterns, when given attention, spread some of this attention to other patterns that they have previously been associated with in some way
+	* Differential attention allocation: Patterns that have been valuable for goal achievement  are given more attention, and are encouraged to participate in giving rise to new patterns
+	* Pattern creation: Patterns that have been valuable for goal achievement are mutated to yield new patterns, and are combined with each other to yield new patterns
+	* Relationship reification: Habitual patterns in the system that are found valuable for goal achievement, are explicitly reinforced and made more habitual
+* Pattern networks
+	* Hierarchical network: Patterns are habitually in relations of control over other patterns that represent more specialized aspects of themselves
+	* Heterarchical network: The system retains a memory of which patterns have previously been associated with each other in any way
+	* Dual network: Hierarchical and heterarchical structures are combined, the dynamics of the two structures working together harmoniously
+	* "Self" structure: A portion of the network of patterns forms into an approximate (fractal) image of the overall network of patterns
+
 # See also
 
 # Sources
