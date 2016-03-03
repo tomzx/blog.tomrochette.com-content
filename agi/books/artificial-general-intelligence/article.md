@@ -228,7 +228,7 @@ taxonomy:
 
 ## 3.4 Resources Competition
 * NARS uses a flexible method to decide how much time to spend on a task, influenced by both the system and the user
-* The user can attach an initial priority value to a task, but the allocation also depends on the current situtation of the system, as well as on how well the task processing goes
+* The user can attach an initial priority value to a task, but the allocation also depends on the current situation of the system, as well as on how well the task processing goes
 
 ## 3.6 Autonomy and Creativity
 * The system's behavior depends to a certain extent on its own tasks, which are actually more or less dependent of the original processes, even though historically derived from them
@@ -293,6 +293,66 @@ taxonomy:
 	* Heterarchical network: The system retains a memory of which patterns have previously been associated with each other in any way
 	* Dual network: Hierarchical and heterarchical structures are combined, the dynamics of the two structures working together harmoniously
 	* "Self" structure: A portion of the network of patterns forms into an approximate (fractal) image of the overall network of patterns
+* 3 systems built on the psynet model
+	* 1994: Antimagicians: An experimental psy-net inspired program in the pure self-organizing-systems vein, with very few built-in structures and an intention for the structures and dynamics of mind to emerge via experience. The anticipated emergence was not observed, and a more engineering-oriented approach was attempted.
+	* 1996-2001: The Webmind AI Engine: A large-scale Java software system that derived its software design from the psynet model in a very direct way. Parts of Webmind were successfully used in the domain of financial prediction and information retrieval. A great amount of useful prototyping was done. Directly mapping the psynet model's construct to object-oriented software structures leads to serious problems with computational efficiency.
+	* 2001-2009/now: Novamente: An entirely different approach, embodying a highly flexible, computationally efficient AGI framework, which could be used to implement a variety of AI systems. The framework includes 3 main aspects: the DINI architecture, the philosophy of tightly-coupled integrative AI, and the Novamente "Mind OS" architecture.
+
+## 5 The Novamente AGI Design
+* The Novamente AI Engine is a large-scale, object-oriented, multithreaded software system
+* Written in C++ with a few externally-facing components written in Java
+* Development primarily on Linux
+* A Novamente system is a collection of analytical clusters, most of them tightly-integrated, some of them more simple and specialized
+* Integrate a number of narrow AI approaches
+* Here are some majors aspects of the Novamente design:
+	* Nodes: May symbolize entities in the external world, embody simple executable processes, symbolize abstract concepts or serve as components in relationship-webs signifying complex concepts or procedures
+	* Links: May point to nodes or links. Embody various types of relationships between concepts, percepts or actions. The network of links is a web of relationships.
+	* MindAgents: A software object embodying a dynamical process such as importance updating, concept creation, or first-order logical inference. Acts directly on individual Atoms, but is intended to induce and guide system-wide dynamical patterns.
+	* Mind OS: Enables diverse MindAgents to act efficiently on large populations of Nodes and Links distributed across multiple machines.
+	* Maps: Declarative or procedural knowledge, as a pattern distributed across many Nodes and Links.
+	* Units: A collection of Nodes, Links and MindAgents, living on a cluster of machines, collectively devoted to carrying out a particular function.
+
+## 5.1 An Integrative Knowledge Representation
+* Knowledge is represented in Novemente on two levels:
+	* Atoms: Software objects that come into two species: Nodes or Links.
+	* Maps: A set of Atoms that tend to be activated together, or tend to be activated according to a certain pattern.
+
+## 5.2 The Mind OS
+* Similar to an operating system:
+	* Determines the task that should be executed (MindAgents)
+	* Manage the duration of the MindAgent execution
+* Communication with a Mind OS can be done through:
+	* A shell interface
+	* XML
+	* A Java/J2EE middleware layer
+	* (designed but not implemented) A functional-logical programming language called Sasha
+	* (designed but not implemented) A knowledge encoding language called NQL (Novamente Query Language)
+* Mind OS does
+	* Multi-threading
+	* Plugging/Scheduling of heterogeneous agents
+	* Distributed knowledge with local proxies and caches
+	* Transaction control
+	* Communication with external software agents through XML and scripts
+	* Task and query processing through ticketing system
+	* Adaptive parameter control
+	* Dynamic, adaptive load balancing
+
+## 5.3 Atom Types
+* Data structures and dynamics have been chosen based mainly on the following criteria:
+	* Demonstrated power in narrow AI applications
+	* Mutual coherence as an integrative AGI framework
+	* Propensity for embodying the dynamics and structures posited by the Psynet Model of Mind
+* Different types of nodes
+	* Perceptual: Perceived items (word, character, number, pixel)
+	* Procedure: Small programs called "schema"
+	* Concept: Categories of perceptual or action or conceptual nodes, or portions of maps representing such categories
+	* Psyche: Goal and feeling nodes which play a special role in overall system control, in terms of monitoring system health, and orienting overall system behavior
+* Different types of links
+	* Logical: Symmetric or asymmetric logical relationships among nodes or among links
+	* Member: Denotes fuzzy set membership
+	* Associative: Denotes generic relatedness, including Hebbian learning and relationships derived from natural language or databases
+	* Action-Concept: Conceptual record of the actions taken
+	* List and ConcatList: Internally created or externally observed lists
 
 # See also
 
