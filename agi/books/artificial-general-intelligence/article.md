@@ -14,6 +14,7 @@ taxonomy:
 
 * Gödel machines
 * The Psynet model
+* Dynamical systems theory
 
 # Overview
 
@@ -353,6 +354,49 @@ taxonomy:
 	* Associative: Denotes generic relatedness, including Hebbian learning and relationships derived from natural language or databases
 	* Action-Concept: Conceptual record of the actions taken
 	* List and ConcatList: Internally created or externally observed lists
+
+## 5.4 Novamente Maps
+* Some Atoms gain meaning only via their coordinated activity involving other Atoms, i.e. their involvement in "maps"
+* MaximizeSatisfaction GoalNode is the center of Novamente's motivational system
+* Different types of maps found in Novamente
+	* Concept map
+	* Percept map
+	* Schema map
+	* Predicate map
+	* Memory map
+	* Concept-percept map
+	* Concept-schema map
+	* Percept-concept-schema map
+	* Event map
+	* Feeling map
+	* Goal map
+
+## 5.5 Mind Agents
+* Responsible of updating the Atoms in the system
+* There are "system maintenance" MindAgents which do things like collecting system statistics, cache Atoms to disk periodically, update caches related to distributed processing, handle queues of queries from users and other machines in the same analytic cluster or other Novamente analytic clusters
+* Here is a list of different types of MindAgents
+	* First-order inference: Acts on first-order logical links, producing new logical links from old links using the formulas of Probabilistic Term Logic
+	* Logical link mining: Creates logical links out of nonlogical links
+	* Evolutionary predicate learning: Creates PredicateNodes containing predicates that predict membership in ConceptNodes
+	* Clustering
+	* Importance updating: Updates Atom importance variables and other related quantities using probabilistic inference
+	* Concept formation: Creates speculative, potentially interesting new ConceptNodes
+	* Evolutionary optimization: Used for schema and predicate learning and overall optimization of system parameters
+* Here is a list of planned Novamente MindAgents
+	* High-order inference
+	* Logical unification
+	* Predicate/Schema formation
+	* Hebbian association formation
+	* Evolutionary schema learning
+	* Schema execution
+	* Map encapsulation
+	* Map expansion
+	* Homeostatic parameter adaptation
+
+## 5.6 Map Dynamics
+* A map is a set of Atoms that act as a whole
+* Maps may relate to other maps, just like Atoms may relate to each other
+* Relationships between maps do not take the form of individual links; they take the form of bundles of links joining Atoms inside on map to the Atoms inside another (no link between maps but links between Atoms inside of each maps)
 
 # See also
 
