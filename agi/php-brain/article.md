@@ -109,7 +109,7 @@ If you recall our initial in-memory approach, we used a simple dictionary approa
 To reproduce the same behavior has we had in memory, we'll create the following keys:
 
 * stream: A list of all the words we've seen in order
-* stream.$word: A list per word we can use to lookup all the index at which the word can be found in the `stream` list
+* stream.\$word: A list per word we can use to lookup all the index at which the word can be found in the `stream` list
 
 If we reuse the same ideas of the naïve in-memory implementation, but apply it to a key-value datastore such as Redis, we get the following results:
 
@@ -231,6 +231,133 @@ Most of the work done in the "thinking" phase is what we will consider as intern
 
 One thing that seems appropriate is having some form of priority queue (most likely some form of heap) that mediates what is the most important thing to be thinking about/working on.
 
+If we base ourselves on how the brain work, we can extrapolate that all it does it process signal patterns. In the case of the brain, the signal pattern is neuron activation.
+
+Similarly to a neural network, the composition of a complex signal comes from the composition of simpler signals. For instance, in the diagram below, if 1, 2, 3 and 4 are activated, then it will activate 5 and 6, which will then activate 7.
+
+```mermaid
+graph LR
+	1 --> 5
+	2 --> 5
+	3 --> 6
+	4 --> 6
+	5 --> 7
+	6 --> 7
+```
+
+If we replace numbers with concepts, we may end up with something like red (1), round(2), medium-sized (3), bouncy (4), red and round (5), medium-sized, bouncy (6), a red, medium-sized, bouncy ball (7).
+
+```mermaid
+graph LR
+	1[red] --> 5
+	2[round] --> 5
+	3[medium-sized] --> 6
+	4[bouncy] --> 6
+	5[red and round] --> 7[red, medium-sized bouncy ball]
+	6[medium-sized, bouncy] --> 7
+```
+
+In this example we are already at a quite high level. Lower levels would have things such as shape, size, texture, color and so forth. When we generalize a concept, such as bouncy ball, it is done through the unification of many examples of bouncy balls, such that when we perceive only a subset of signals, it is enough to trigger the bouncy ball concept.
+
+It is simpler to think of signals in terms of number only. For instance, if we are to feed the system with a text, we could feed it the whole document, a list of paragraphs, a list of sentences, a list of words or a list of characters. However, those are different things and cannot really be compared to one another. However, if we decided to feed any of those or any combination of those items, and that the system simply assigned a number to each instance, then, through some oracle, it could be possible for the system to say "I've already seen this signal, it's #857278476856". Given a signal such as the sentence "This is a sentence" with ID = 1 and the words "This" (2), "is" (3) "a" (3), "sentence" (4), a small network can be composed:
+
+```mermaid
+graph BT
+	1[1 This is a sentence]
+	2[2 This is a] --> 1
+	3[3 is a sentence] --> 1
+	4[4 This is] --> 2
+	5[5 is a] --> 2
+	5 --> 3
+	6[6 a sentence] --> 3
+	7[7 This] --> 4
+	8[8 is] --> 4
+	8 --> 5
+	9[9 a] --> 5
+	9 --> 6
+	10[10 sentence] --> 6
+```
+
+A 4 word sentence can be broken down into 10 nodes. Nodes 7, 8, 9 and 10 are all valid words, while 2, 3, 4, 5, 6 are valid part of sentences. Finally, 1 is a complete sentence.
+
+Were we to feed the system the ID 4 (this is) and 9 (a), what could happen is that 
+1. nodes 7 (this) and 8 (is) are activated by  node 4 (this is) since they compose it
+2. nodes 8 (is) and 9 (a) are active, which  activates node 5 (is a)
+3. nodes 4 (this is) and 5 (is a) are active, which activates node 2 (this is a)
+
+During this process, surrounding nodes may be half activated (not completely). We'll call this pre-activation (in preparation of being activated). In the previous example, 6 (a sentence), 3 (is a sentence) and 1 (this is a sentence) would be pre-activated by the activation of 4 (this is) and 9 (a).
+
+If we go further, we could have paragraphs, sections, chapters, documents being identified above (we could say that "This is a sentence" is a sentence that belongs to the document "PHP Brain"). The same can be done below the graph, where characters, and then strokes, could be stored.
+
+```mermaid
+graph BT
+	1[1 This is a sentence]
+	2[2 This is a] --> 1
+	3[3 is a sentence] --> 1
+	4[4 This is] --> 2
+	5[5 is a] --> 2
+	5 --> 3
+	6[6 a sentence] --> 3
+	7[7 This] --> 4
+	8[8 is] --> 4
+	8 --> 5
+	9[9 a] --> 5
+	9 --> 6
+	10[10 sentence] --> 6
+	11[11 T] --> 7
+	12[12 h] --> 7
+	13[13 i] --> 7
+	13 --> 8
+	14[14 s] --> 7
+	14 --> 8
+	14 --> 10
+	15[15 a] --> 9
+	16[16 e] --> 10
+	17[17 n] --> 10
+	18[18 t] --> 10
+	19[19 c] --> 10
+```
+
+A node an link/network architecture is very common for AGI. It is probably the currently best known way to represents concepts and their relations in a common vocabulary. Furthermore, links can have different types (association, dependency, generalization, instantiation, etc.) which makes it perfect for modeling knowledge. However, in order to keep things simple, we could accept to use only one type of relation, the "relates" relationship. We don't really care about the type of relation between the nodes, only that there's something that relate one to the other (such as having smelled something when a particular word was uttered).
+
+If we get rid of the attached concepts and only keep the numbers, we can see the structure of a concept.
+
+```mermaid
+graph BT
+	1
+	2 --> 1
+	3 --> 1
+	4 --> 2
+	5 --> 2
+	5 --> 3
+	6 --> 3
+	7 --> 4
+	8 --> 4
+	8 --> 5
+	9 --> 5
+	9 --> 6
+	10 --> 6
+	11 --> 7
+	12 --> 7
+	13 --> 7
+	13 --> 8
+	14 --> 7
+	14 --> 8
+	14 --> 10
+	15 --> 9
+	16 --> 10
+	17 --> 10
+	18 --> 10
+	19 --> 10
+```
+
+ If we wanted to optimize "storage" of such structure, we could for example record the structure and assign it a number. Given the same type of graph traversal algorithm for all structures (pre-order, in-order, post-order), we could recreate this graph many times with different concepts in place of these numbers.
+
+| graph id | cell 1 | cell 2 | ... | cell n |
+
+*(rambling)*
+It probably is of interest to think about concepts such as locality when planning about how data should be structured. It would make sense for related concepts to be close to one another. Given that computer memory is linear, this means that we can only have linear proximity (data before and data after a given index). Given how much memory may be read during a single quantum of reading, we could also say that the number of memory cells represents the number of dimensions in which we can have a 1-distance relation with the given item of interest. For example, if we can read up to 1024 32-bits words at once, then we would be able to have 1024 items with a 1-distance of the item of interest. Obviously, we can have an infinite amount of 1-distance items if we give ourselves enough time to fetch those.
+
 ## Output/Act
 
 It is safe to consider that we, much like computers, may be acting in a sequential fashion even though we appear to be doing various actions in parallel. In computer terms, we call it multi-tasking.
@@ -244,6 +371,10 @@ One other example of this ability to control body functions through a single tas
 Are the input/process/output tasks done in a sequential or parallel manner? If done in a sequential manner, we need to manage how long the task may execute
 * Internal vs external interruptions
 
+# Notes
+* How are feedback loops implemented? If the brain sends some signal to the arm, how can it tell if the sent signal did what was expected?
+* How can a stimuli be mapped to a brain activation? Considering the brain action map will most likely change over time, how can we track a concept? Do we need to provide it as input and record what the activation state looks like?
+* Composition, inheritance, instantiation, generalization, dependency, association, aggregation
 
 # See also
 
@@ -254,6 +385,10 @@ Are the input/process/output tasks done in a sequential or parallel manner? If d
 * https://en.wikipedia.org/wiki/Brain
 * https://en.wikipedia.org/wiki/Sensory_system
 * https://en.wikipedia.org/wiki/Multisensory_integration
+
+## Brain vision
+* https://www.youtube.com/watch?v=ETIp8kZPoBw
+* https://www.youtube.com/watch?v=TbDFrbXiz2s
 
 ## String search
 * http://www.dmi.unict.it/~faro/smart/index.php
