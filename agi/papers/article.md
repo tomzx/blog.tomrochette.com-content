@@ -16,6 +16,7 @@ The following lists papers I've read and reviewed or made notes for.
 # Google DeepMind
 
 * [Playing Atari with Deep Reinforcement Learning (2013)](playing-atari-with-deep-reinforcement-learning)
+* [Mastering the Game of Go with Deep Neural Networks and Tree Search (2016)](mastering-the-game-of-go-with-deep-neural-networks-and-tree-search)
 
 # Jack Copeland
 
