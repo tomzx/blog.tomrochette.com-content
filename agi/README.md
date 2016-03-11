@@ -71,6 +71,7 @@ Tom
 * [A procedure for writing programs](a-procedure-for-writing-programs)
 * [AGI through Turing machines](agi-through-turing-machines)
 * [Databases](databases)
+* [Formal AGI](formal-agi)
 * [Patterns](patterns)
 * [Perfect storage medium](perfect-storage-medium)
 * [Playing with data](playing-with-data)
