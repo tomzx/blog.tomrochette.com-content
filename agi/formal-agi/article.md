@@ -33,6 +33,30 @@ This question has a couple of interesting challenges:
 
 * How can we automatically develop an intuition for an appropriate evaluation function?
 
+# Evaluation functions
+Previously we touched on the fact that during exploration, you will need to be able to evaluate if you're moving in the right direction or not (figuratively speaking).
+
+Here, we look at a couple of generic evaluation functions which may have guided non-organic components to turn into organic components and then evolve into living organism and finally into the humans being that we are nowadays.
+
+It is very likely that the evaluation function, like us, has evolved over time, but it means that it was also built on previous generations of evaluation functions, keeping some traits and evolving others.
+
+* Random
+	* Anything can be rewarded/punished, thus no possible convergence
+* Reward on repetition
+	* Should stay stuck on a local minima based on the length of the repetition string
+* Reward for repetition of previous behavior of previous agents
+	* The reward would always be increasing, rewarding reptition of behavior
+	* Not necessarily rewarding "good"/"goal" behavior, just rewarding repetition
+* Reward conservation of energy/accumulation of energy (energy maximization)
+	* Will do nothing except if forced to reduce/stop energy consumption
+* Reward spending of energy (energy minimization)
+	* How should energy expenditure be directed?
+	* Reward steps when agent does not have any energy -> Concept of energy/consumable/budget
+	* In order to prevent the agent from doing nothing in order to save its energy, not spending energy would still imply some energy being spent anyway (force the agent to act and not stay idle)
+* Transition to society/social-based competition
+	* Reward being better than other agents using a commonly agreed metric
+* Multi-level system of rewards, similar to Maslow pyramid (basic needs being more critical than high-level/intellectual needs)
+
 # See also
 
 # Sources
