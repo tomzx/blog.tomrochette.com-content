@@ -91,3 +91,4 @@ taxonomy:
 # See also
 
 # Sources
+* [arXiv:cs/0302012](http://arxiv.org/abs/cs/0302012) [cs.AI]
