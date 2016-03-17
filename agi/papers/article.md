@@ -33,7 +33,7 @@ The following lists papers I've read and reviewed or made notes for.
 # Jürgen Schmidhuber
 
 * [The New AI: General & Sound & Relevant for Physics](jurgen-schmidhuber-the-new-ai-general-sound-relevant-for-physics)
-* [Gödel Machines: Fully Self-Referential Optimal Universal Self-improvers](jurgen-schmidhuber-fully-self-referential-optimal-universal-self-improvers)
+* [Gödel Machines: Fully Self-Referential Optimal Universal Self-improvers](jurgen-schmidhuber-godel-machines-fully-self-referential-optimal-universal-self-improvers)
 
 # Keith Hoyes
 
