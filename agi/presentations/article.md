@@ -8,8 +8,10 @@ taxonomy:
 
 The following lists presentations that I have watched and that I suggest to people that are interested in learning more about AGI.
 
-**Note:** The presentations are sorted by their title in alphabetical order.
-
+# Demis Hassabis - DeepMind
 * [General Learning Algorithms](general-learning-algorithms)
-* [Principles Of Hierarchical Temporal Memory - Foundations Of Machine Intelligence](principles-of-hierarchical-temporal-memory)
 * [Systems Neuroscience and AGI](systems-neuroscience-and-agi)
+* [The Future of Artificial Intelligence](the-future-of-artificial-intelligence)
+
+# Jeff Hawkins - Numenta
+* [Principles Of Hierarchical Temporal Memory - Foundations Of Machine Intelligence](principles-of-hierarchical-temporal-memory)
