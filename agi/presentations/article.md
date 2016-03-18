@@ -11,3 +11,4 @@ The following lists presentations that I have watched and that I suggest to peop
 **Note:** The presentations are sorted by their title in alphabetical order.
 
 * [Principles Of Hierarchical Temporal Memory - Foundations Of Machine Intelligence](principles-of-hierarchical-temporal-memory)
+* [Systems Neuroscience and AGI](systems-neuroscience-and-agi)
