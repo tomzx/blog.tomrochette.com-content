@@ -8,7 +8,7 @@ taxonomy:
 
 ## Context
 
-This is a summary of the notes I've taken while listening to the presentation by Demis Hassabis available at https://www.youtube.com/watch?v=08Cl7ii6viY. It builds on the presentation [Systems Neuroscience and AGI](systems-neuroscience-and-agi) but can be watched on its own.
+This is a summary of the notes I've taken while listening to the presentation by Demis Hassabis available at https://www.youtube.com/watch?v=08Cl7ii6viY. It builds on the presentation [Systems Neuroscience and AGI](systems-neuroscience-and-agi) but can be watched on its own. This presentation covers most of the content in the presentation https://www.youtube.com/watch?v=rbsqaJwpu6A as well.
 
 ## Learned in this study
 
@@ -59,3 +59,4 @@ This is a summary of the notes I've taken while listening to the presentation by
 
 # Sources
 * https://www.youtube.com/watch?v=08Cl7ii6viY
+* https://www.youtube.com/watch?v=rbsqaJwpu6A (covered by this presentation)
