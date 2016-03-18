@@ -8,7 +8,7 @@ taxonomy:
 
 ## Context
 
-This is a summary of the notes I've taken while listening to the presentation by Demis Hassabis available at https://www.youtube.com/watch?v=08Cl7ii6viY. It builds on the presentation [Systems Neuroscience and AGI](systems-neuroscience-and-agi) but can be watched on its own. This presentation covers most of the content in the presentation https://www.youtube.com/watch?v=rbsqaJwpu6A as well.
+This is a summary of the notes I've taken while listening to the presentation by Demis Hassabis available at https://www.youtube.com/watch?v=08Cl7ii6viY. It builds on the presentation [Systems Neuroscience and AGI](systems-neuroscience-and-agi) but can be watched on its own. This presentation covers most of the content in the presentation [The Theory of Everything](https://www.youtube.com/watch?v=rbsqaJwpu6A) amd [How Deep Learning Can Give Birth to General Artificial Intelligence](https://www.youtube.com/watch?v=8DRlNkhXsIk) as well.
 
 ## Learned in this study
 
@@ -58,5 +58,6 @@ This is a summary of the notes I've taken while listening to the presentation by
 * https://en.wikipedia.org/wiki/Temporal_difference_learning
 
 # Sources
-* https://www.youtube.com/watch?v=08Cl7ii6viY
-* https://www.youtube.com/watch?v=rbsqaJwpu6A (covered by this presentation)
+* [General Learning Algorithms](https://www.youtube.com/watch?v=08Cl7ii6viY)
+* [The Theory of Everything](https://www.youtube.com/watch?v=rbsqaJwpu6A) (covered by this presentation)
+* [How Deep Learning Can Give Birth to General Artificial Intelligence](https://www.youtube.com/watch?v=8DRlNkhXsIk) (covered by this presentation)
