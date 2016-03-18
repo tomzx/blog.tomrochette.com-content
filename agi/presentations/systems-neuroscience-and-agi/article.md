@@ -134,3 +134,4 @@ This article contains most of the content of the slides of the presentation by D
 * Algorithmic Intelligence Quotient:  http://arxiv.org/pdf/1109.5951.pdf
 
 # Sources
+* https://www.youtube.com/watch?v=IjG_Fx3D0o0
