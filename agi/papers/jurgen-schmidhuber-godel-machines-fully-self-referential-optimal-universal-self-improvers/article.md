@@ -97,6 +97,31 @@ $$u(s, Env) = E_\mu\left[\sum_{\tau=time}^{T}r(\tau)\middle|s, Env\right]$$
 		* $z$ is the bitstring $s_{m:n}(t_1)$ 
 	* **check()** verifies whether the goal of the proof search has been reached.
 
+## 4 Global Optimality Theorem
+* Given any formalizable utility function $u$, and assuming consistency of the underlying formal system $\mathcal{A}$, any self-change of $p$ obtained through execution of some program switchprog identified through the proof of a target theorem is globally optimal in the following sense: the utility of starting the execution of the present switchprog is higher than the utility of waiting for the proof searcher to produce an alternative switchprog later
+
+# 5 Bias-Optimal Proof Search (BIOPS)
+(taken from [The New AI: General & Sound & Relevant for Physics](../jurgen-schmidhuber-the-new-ai-general-sound-relevant-for-physics))
+* **Bias-optimal searchers:** Given is a problem class $\mathcal{R}$, a search space $\mathcal{C}$ of solution candidates (where any problem $r \in \mathcal{R}$ should have a solution in $\mathcal{C}$), a task dependent bias in form of conditional probability distribution $P(q|r)$ on the candidates $q \in \mathcal{C}$, and a predefined procedure that creates and tests any given $q$ on any $r \in \mathcal{R}$ within time $t(q, r)$ (typically unknown in advance).
+	* A searcher is n-bias-optimal ($n \ge 1$) if for any maximal total search $T_{max} > 0$ it is guaranteed to solve any problem $r \in \mathcal{R}$ if it has a solution $p \in \mathcal{C}$ satisfying $t(p, r) \le \frac{P(p|r)T_{max}}{n}$. It is bias-optimal if n = 1.
+* In phase ($i = 1, 2, 3, ...$) DO: FOR all self-delimiting proof techniques $w \in \mathcal{L}$ satisfying $P(w) \ge 2^{-i}$ DO:
+	* Run $w$ until halt or error (such as division by zero) or $2^iP(w)$ steps consumed
+	* Undo effects of $w$ on $s^p$
+
+## 6.3 Probabilistic Gödel Machine Hardware
+* So far we have focused on an example deterministic machine
+* It is possible to extend this to computers whose actions are computed in probabilistic fashion
+* The expecatation calculus used for probabilistic aspects of the environment simple has to be extended to the hardware itself, and the mechanism for verifying proofs has to take into account that there is no such thing as a certain theorem - at best there are formal statements which are true with such and such probability
+
+## 6.4 More Relations to Previous Work on Less General Self-improving Machines
+* Gödel Machine vs Success-Story Algorithm and Other Metalearners
+	* A learner's modifiable components are called its policy
+	* An algorithm that modifies the policy is a learning algorithm
+	* If the learning algorithm has modifiable components represented as part of the policy, then we speak of a self-modifying policy (SMP)
+	* SMP can modify the way they modify themselves
+	* During the learner's life-time, SSA uses backtracking to undo those SMP-generated SMP-modifications that have no been empirically observed to trigger lifelong reward accelerations
+	* SMP-modification that survive SSA represent a lifelong success history
+
 # See also
 * [The New AI: General & Sound & Relevant for Physics](../jurgen-schmidhuber-the-new-ai-general-sound-relevant-for-physics)
 * [Blum's speedup theorem](https://en.wikipedia.org/wiki/Blum%27s_speedup_theorem)
