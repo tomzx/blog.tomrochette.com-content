@@ -16,6 +16,9 @@ We use natural language on a daily basis, either to communicate with others or t
 
 * Generate simplified version of complex texts (use X most common words instead of the least frequently used words)
 	* What are the tools available to do such a thing? Synonyms/Antonyms/Definitions?
+* Natural language as a problem is nothing other than the question of transferring knowledge between encodings
+* Compression through function composition
+	* One can create a new sequence of values simply by applying a function over the generative function.
 
 # Overview
 
@@ -43,6 +46,10 @@ A machine can however be taught to associate a symbol with anything (as symbols 
 
 In order for computers to process spoken language, it needs to be able to process audio and convert it into text. Once that is done, it is then a problem of understanding natural language in a textual form. However, in recent natural language processor, it is not rare for the process to be intertwined. This allows the algorithm to suggest which words were heard based on grammar rules as well as other rules the algorithm might have learned (for instance through statistical analysis).
 
+# Processing and retrieval
+
+How does one store as much information while using as little space as possible? What about being able to receive a stream of information and being able to tell, bit by bit, whether this sequence has already been observed in the past? The former sounds like compression while the latter sounds like string search.
+
 # User oriented
 
 * Vocabulary
@@ -52,7 +59,8 @@ In order for computers to process spoken language, it needs to be able to proces
 	* Type of words
 * Distribution
 	* Word length
-	* Sentence length
+	* Word frequency (most frequent count to least frequent)
+	* Sentence length (words, characters)
 	* Syllable count
 	* Number of punctuation used per sentence
 	* Word frequency spectrogram (0 if word is not known, 1 if it is)
@@ -68,6 +76,7 @@ In order for computers to process spoken language, it needs to be able to proces
 * Number of languages learned/used
 * Percentage of words used (against the number of active words in a language)
 * Vocabulary based on the time of the day
+* bigram, trigram, four-gram
 
 ## Words vs Sentences
 
@@ -137,6 +146,10 @@ It is said that a vocabulary of just 3000 words provides coverage for around 95%
 
 # Sources
 
+[^1]: http://www.oxforddictionaries.com/words/how-many-words-are-there-in-the-english-language
+[^2]: http://www.lingholic.com/how-many-words-do-i-need-to-know-the-955-rule-in-language-learning-part-2/
+[^3]: https://en.wikipedia.org/wiki/Chinese_characters
+
 ## Graphemes
 * https://en.wikipedia.org/wiki/Writing_system
 * https://en.wikipedia.org/wiki/Grapheme
@@ -148,7 +161,4 @@ It is said that a vocabulary of just 3000 words provides coverage for around 95%
 * http://www.online-utility.org/text/analyzer.jsp
 * http://www.editcentral.com/gwt1/EditCentral.html
 * Free word frequency list http://www.wordfrequency.info/sample.asp
-
-[^1]: http://www.oxforddictionaries.com/words/how-many-words-are-there-in-the-english-language
-[^2]: http://www.lingholic.com/how-many-words-do-i-need-to-know-the-955-rule-in-language-learning-part-2/
-[^3]: https://en.wikipedia.org/wiki/Chinese_characters
+* http://voyant-tools.org/
