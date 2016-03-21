@@ -26,8 +26,13 @@ In other words, a seed AI is one that would learn and understand how program wor
     * What does it means if you consider those programs can help improve the existing program?
     * Is there such a thing as a *single* "perfect" program?
 * Isomorphisms of programs considered/identified as integers
+* What kind of analysis can be done in order to reduce/discover isomorphic programs?
 * Are sleep() calls put into code *always* candidate for optimisation?
 * What is the impact of rand() in testing for algorithmic improvement?
+* DNA is code, and it most likely didn't start the length it is now.
+	* In order to lenghten, smaller parts could have merged together (working programs merged/concatenated to one another)
+	* https://en.wikipedia.org/wiki/Origin_of_replication (What are the origin of DNA?)
+* Generating programs amount to generating graphs, what does that imply?
 
 # Overview
 
@@ -58,6 +63,8 @@ However, testing those 66 quintillion programs seems like a big waste of time, p
 Furthermore, to truly understand the issue here, we're talking about generating *only* the set of all valid strings of length 10, which is terribly small. Increase the length by one and you now have $((127 + 1) - 32)^{11} - ((127 + 1) - 32)^{(11 - 1)} = 6.3 \times 10^{21}$ (6 sextillion) of programs of length 11 to check (note that we excluded all programs of length 10 or less). Thus, building any *real* program that can get into the millions of lines of code and with an average of 10 characters per line, will require you to be wait for a while.
 
 One interesting problem here is that very small programs can be valid. For instance `0;` is a valid program. For that matter, any number should be a valid program in C (in our little 10 character program, we can generate $10^9$ programs based only on numbers: 9 numbers from 0-9 and a semi-colon (;) to terminate, considering all programs are wrapped within the obligatory `void main() { code here }`). This means we can basically generate many programs that basically do nothing other than creating giant numbers. Furthermore, there's also a ton of programs that will do arithmetic but never print out anything. Or print a ton of garbage/random. Maybe it is something we want... But often it's not.
+
+It's also important to notice that a certain space of the program tree will represent equivalent code, just using different variable names. The same can be said about variable definition being permutated without any effect, or calculation order being permutated without having any effect. **What kind of analysis can be done in order to reduce/discover isomorphic programs?**
 
 From this little analysis, we can deduce a few *rules*:
 * A program should *produce* something, in other word generate some sort of output (doing arithmetic without returning anything amounts to running NOPs). This can be rephrased by saying that any program that is dead code should not be considered valuable.
@@ -108,3 +115,7 @@ It is important to be able to make the difference between the API and its intern
 * http://wiki.lesswrong.com/wiki/Seed_AI
 * http://mattmahoney.net/rsi.pdf
 * Turing, Alan. *Intelligent Machinery*. London: National Physical Laboratory, 1948. Ed. B. Jack Copeland. The Essential Turing. Oxford: Clarendon Press, 2004. 430
+
+## Seed AIs
+
+* https://en.wikipedia.org/wiki/Eurisko
