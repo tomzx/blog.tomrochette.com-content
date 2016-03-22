@@ -3,7 +3,8 @@ title: Fitness trackers
 created: 2015-11-07
 taxonomy:
     type: post
-    category: [health]
+    category: General
+    tag: [health]
     status: draft
 ---
 
@@ -32,6 +33,7 @@ I've also bought an RS300X in order to test a *live* heart rate tracker.
 - UI/UX is pretty straightforward.
 
 ## Cons
+- The bracelet broke about 3 months after I purchased it. Fitbit support was excellent though and I received a replacement bracelet within 2 days.
 - Website errored out when I tried to create an application (preventing people from creating apps?)
 - Cannot get fine grained data.
 - Heart rate day availability is very odd. Seems to lag out and may display only in chunks.
@@ -44,6 +46,7 @@ I've also bought an RS300X in order to test a *live* heart rate tracker.
 - None at the moment.
 
 ## Cons
+- The bracelet broke about 4 months after I purchased it.
 - Cannot get fine grained data.
 - Doesn't do real time heart rate tracking.
 - Heart rate day availability is very odd. Seems to lag out and may display only in chunks.

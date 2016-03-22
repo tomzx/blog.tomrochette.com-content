@@ -1,5 +1,5 @@
 ---
-title: PHPUnit - PHP Fatal error: require_once(): Failed opening required 'PHPUnit/Util/Filter.php'
+title: "PHPUnit - PHP Fatal error: require_once(): Failed opening required 'PHPUnit/Util/Filter.php'"
 date: 2011-11-26T00:14:53-05:00
 Author: tomzx
 Permalink: /phpunit-php-fatal-error-require_once-failed-opening-required-phpunitutilfilter-php/
