@@ -3,7 +3,7 @@ title: Peter Voss - Essentials of General Intelligence: The Direct Path to Artif
 created: 2016-03-03
 taxonomy:
   category: [Artificial General Intelligence]
-  status: in progress
+  status: finished
 ---
 
 ## Context

@@ -3,7 +3,7 @@ title: Playing Atari with Deep Reinforcement Learning
 created: 2016-03-09
 taxonomy:
   category: [Artificial General Intelligence]
-  status: in progress
+  status: finished
 ---
 
 ## Context

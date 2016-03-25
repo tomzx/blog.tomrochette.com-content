@@ -3,7 +3,7 @@ title: Hugo de Garis - Artificial Brains
 created: 2016-03-05
 taxonomy:
   category: [Artificial General Intelligence]
-  status: in progress
+  status: finished
 ---
 
 ## Context

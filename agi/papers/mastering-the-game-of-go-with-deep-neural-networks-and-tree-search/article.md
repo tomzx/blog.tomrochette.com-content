@@ -3,7 +3,7 @@ title: Mastering the Game of Go with Deep Neural Networks and Tree Search
 created: 2016-03-09
 taxonomy:
   category: [Artificial General Intelligence]
-  status: in progress
+  status: finished
 ---
 
 ## Context
