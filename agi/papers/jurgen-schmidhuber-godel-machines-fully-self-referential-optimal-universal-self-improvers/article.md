@@ -3,7 +3,7 @@ title: Jürgen Schmidhuber - Gödel Machines: Fully Self-Referential Optimal Uni
 created: 2016-03-17
 taxonomy:
   category: [Artificial General Intelligence]
-  status: in progress
+  status: finished
 ---
 
 ## Context
@@ -121,6 +121,21 @@ $$u(s, Env) = E_\mu\left[\sum_{\tau=time}^{T}r(\tau)\middle|s, Env\right]$$
 	* SMP can modify the way they modify themselves
 	* During the learner's life-time, SSA uses backtracking to undo those SMP-generated SMP-modifications that have no been empirically observed to trigger lifelong reward accelerations
 	* SMP-modification that survive SSA represent a lifelong success history
+* Gödel Machine vs OOPS and OOPS-RL
+	* OOPS is a bias-optimal way of searching for a program that solves each problem in an ordered sequence of problems of a reasonably general type, continually organizing and managing and reusing earlier acquired knowledge
+	* OOPS-like methods are not directly applicable to general lifelong RL tasks such as those for which AIXI was designed
+	* General RL task are hard
+	* The evaluation of the value of some behavior can consume the learner's entire life
+	* The Gödel machine tries to greatly cut testing time, replacing naive time-consuming tests by much faster proofs of predictable test outcomes whenever it is possible
+	* The Gödel machine may use OOPS as a bias-optimal proof-searching submodule
+	* Gödel machine are more general than plain OOPS
+* Gödel Machine vs AIXI
+	* AIXI is computationally intractable
+	* The self-referential aspects of the Gödel machine relieves us of much of the burden of careful algorithm design required by AIXI(t, l) and HSearch
+
+## 6.5 Are Humans Probabilistic Gödel Machines?
+* We don't know
+* We think they better be
 
 # See also
 * [The New AI: General & Sound & Relevant for Physics](../jurgen-schmidhuber-the-new-ai-general-sound-relevant-for-physics)
