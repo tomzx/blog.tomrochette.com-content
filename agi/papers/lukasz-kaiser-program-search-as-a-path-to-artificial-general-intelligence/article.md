@@ -36,6 +36,7 @@ taxonomy:
 		1. Set length to 1
 		2. Enumerate all k-tuples $m_1, ..., m_k$ of Turing machines shorter than length and all proofs shorter than length and check if there is any proof among these that proves $\varphi(m_1, ..., m_k)$
 		3. If the correct machines and proof were found, return them, else increase length by one and return to 2
+	* This algorithm is denoted as $PSP_0$
 
 ## 2.1 Program Search in the Standard AI Model
 * To be able to construct well-acting agents we have to assume something about the environment, or, at least, something about its probabilistic behaviour
@@ -58,6 +59,64 @@ taxonomy:
 	* Since we assumed that there is a provably optimal agent, this agent and the proof of its optimality have some length
 	* When max size exceeds this length, the variable actor will be set to the optimal program. Therefore, the agent will start to behave optimally after detecting the correct environment and the necessary proof
 
+## 2.2 Self-improving Program Search
+* We do not intend to search for any program in particular, but to learn efficient procedures to search for programs of interest
+* Initialize $P = PSP_0$
+* Initialize history to an empty sequence
+* Divide available resources into two parts and run two processes simultaneously
+* Whenever a new instance of a program search problem is received, append it to history
+* Main process
+	* Receives the problem instance, uses $P$ to solve it and returns the solution
+* Improvement process
+	1. Append the formula that describes the problem of creating a program search algorithm more efficient than $P$ with respect to $\mu$ of the history
+	2. Use $P$ to find a more efficient program search algorithm as defined by the above formula (?)
+	3. Update $P$ to a new, more efficient version
+	4. Repeat, starting from (1) with new P and perhaps an extended history
+* If we do not want this algorithm to fall in cycles thinking that some program search algorithm $P_1$ is better than $P_2$ and later, when history changes, deciding the other way, we have to assume that the definition of efficiency will be monotonic in some way
+* If we are not able to make such assumptions, it could be useful to separate the history of instances received from outside from the self-improvement instances, and use two separate program search algorithms, one for solving the problems and the second to improve program search
+* Fact 3: Let a program search algorithm $Q$ (our goal, the efficient algorithm) be given and assume that the efficiency relation is such that there is only a bounded number of algorithms that are provably more efficient than $PSP_0$ and less efficient than $Q$, with respect to any possible histories. Then, for any sequence of received instances, the presented algorithm will after some number of steps substitute $Q$ for its internal variable $P$ and therefore become at least as efficient as $Q$
+
+## 2.3 Discussion of Efficiency Definitions
+* After gaining experience on a class of instances in the past, we will normally say that an algorithm is efficient if it solves the instances from this class and other similar instances fast
+* Two instances are similar if one can be transformed into the other using a few simple transformations, for example by changing some parameters or shifting them in some way
+* We can define the level of similarity between two instances as the number of transformations that have to be applied to get from one instance to the other
+	* For practical reasons we could assume that if this number is greater than some constant, then the instances are not similar at all
+* We can say that one program search algorithm is more efficient than another with respect to a history if it is faster on all instances in the history and on all similar instances
+* An alternative definition: The weight of an algorithm $A$ with respect to history $H$ is
+$$w(A, H) = \Sigma_{\{i\ similar\ to\ some \ j\ \in\ H\}}time(A, i) \cdot 2^{similarity(i, H)}$$
+	* $similarity(i, H)$: the smallest level of similarity between $i$ and any instance from $H$
+	* $time(A, i)$: the time it takes $A$ to solve $i$
+
+## 3 Convenient Model of Computation
+* To construct a model, we will concentrate only on two basic operations used in programming, namely the possibility to define and apply functions and the possibility to create compound data types
+* Therefore, in our model we will operate on objects that represent some data, e.g. 1, 2, [T, F], and on functions like +, $\cdot$, and
+* To define functions in this model, we write rules telling how one term should change to another, e.g. T and F $\rightarrow$ F
+* In such rules we can use variables, for example, we can write $x + 0 \rightarrow x$
+* To avoid terms which do not mean anything, we'll introduce types, such that, for example, 1 will have type int and + will have type int, int $\rightarrow$ int so we will not be allowed to apply it to the boolean value T
+* The model we present is known as term rewriting with polymorphic types
+* To define the model, we need the following classes, where arity is always a function that assigns a natural number to each element of the considered set:
+	* the infinite enumerate set of type variables, denoted $\alpha, \beta, \gamma$
+	* the finite set $\Gamma$ of type names with arity, denoted $T, R, S$
+	* the infinite enumerable set $V$ of term variables with arity, denoted $x, y, z$
+	* the finite set $\Theta$ of constructor names with arity, denoted $A, B, C$
+	* the finite set $\Sigma$ of function names with arity, denoted $f, g, h$
+* Types: The set of types is defined inductively as the smallest set $\mathcal{G}$ such that
+	* each type variable $\alpha \in \mathcal{G}$
+	* if $T \in \Gamma$ with arity $n$ and $R_1, ..., R_n \in \Gamma$ then $T(R_1, ..., R_n)$
+	* for any number $n$ and types $T_1, ..., T_n \in \mathcal{G}$ and result type $R \in  \mathcal{G}$ the functional type $(T_1, ..., T_n \rightarrow R) \in \mathcal{G}$
+* For example:
+	* $\Gamma = \{booleans, lists, pairs\}$
+		* where booleans has arity 0, lists has arity 1 and pairs has arity 2
+	* The example type $E$ of pairs consisting of a boolean value and a list of any other type can be represented as
+$$E = pairs(booleans, lists(\alpha)) \in \mathcal{G}$$
+* The set $TVar(T)$ of type variables occurring in a type $T$ is also defined inductively by $TVar(\alpha) = \{\alpha\}$, $TVar(T(R_1, ..., R_n)) = TVar(R_1) \cup ... \cup TVar(R_n)$ and $TVar(T_1, ..., T_n \rightarrow R) = TVar(T_1) \cup ... \cup TVar(T_n) \cup TVar(R)$ so $TVar(E) = \{\alpha\}$
+* The usual intuition behind types is to view them as labeled trees, therefore we introduce the notion of positions in types
+* The set $\Lambda$ of positions is the set of sequences of positive natural numbers
+* By $\lambda \in \Lambda$ we will denote the empty sequence or the top (root) position in the type
+* For a given type $T$ and a position $p$ we either say that $p$ does not exist in $T$, or define the type at position $p$ in $T$ (denoted by $T|_p$) in the following inductive way
+	* $\lambda$ exists in each type and $T|_\lambda = T$
+	* $p = (n, q)$ exists in $S = T(R_1, ..., R_m)$ if $m \ge n$ and $q$ exists in $R_n$ and in such case $S|_p = R_n|_q$
+	* $p = (n, q)$ exists in $S = T_1, ..., T_m \rightarrow R$ if either $m \ge n$ and $q$ exists in $T_n$ and in such case $S|_p = T_n|_q$, or $m + 1 = n$ and $q$ exists in $R$ and then $S|_p = R_q$
 # See also
 
 # Sources
