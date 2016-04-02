@@ -66,3 +66,6 @@ The following lists papers I've read and reviewed or made notes for.
 # Vladimir Red'ko
 
 * [The Natural Way to Artificial Intelligence](vladimir-redko-the-natural-way-to-artificial-intelligence)
+
+# Unsorted
+* [An evaluation of methods for prioritizing software requirements](an-evaluation-of-methods-for-prioritizing-software-requirements)
