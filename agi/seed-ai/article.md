@@ -78,6 +78,24 @@ What we can do to greatly reduce the search space is to teach the program genera
 * Promote function reuse. Once some functionality has been programmed, there's no point in writing that bit of code again. This means that we can remove/ignore all of the nodes in the program tree that have this string place somewhere else or is there more than once.
 * TODO
 
+# Reducing the search scope
+
+In an attempt to reduce the volume of valid, but isomorphic programs, we will spend a bit of time studying what make different programs (or functions) isomorphic (different at the high level language but the same from a low level perspective).
+
+We'll assume we're using a high level language with typing.
+
+```cpp
+function x(A a, B b) = function y(B b, A a)
+```
+
+Two functions which have the exact same internal logic but different parameters order are isomorphic. In order to reduce the amount of functions generated with the same internal logic but different signature, we'll establish the following rule:
+
+**Parameter ordering rule:** Each parameter shall be ordered by their lexicographical ordering (that is (a, b) <= (a', b') if and only if a < a' or (a = a' and b <= b')).
+
+For a number $x$ of different parameters there is at most $x!$ signatures permutations. Using the **Parameter ordering rule**, we can limit it to 1.
+
+If there are $x$ types in the system, for a function with $y$ parameters we have at most $y^x$ permutations. Following the **Parameter ordering rule**, we can limit it to $\binom{y+(x-1)}{x-1}$.
+
 # Some problems that remain
 
 However, even given these *tools*, the program generator still can spend an immense amount of time generating useless programs:
