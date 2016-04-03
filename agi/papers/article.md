@@ -14,6 +14,9 @@ The following lists papers I've read and reviewed or made notes for.
 * [Intelligent Machinery (1948)](alan-turing-intelligent-machinery)
 * [Computing Machinery and Intelligence (1950)](alan-turing-computing-machinery-and-intelligence)
 
+## Alex Graves
+* [Neural Turing Machines (2014)](alex-graves-neural-turing-machines)
+
 ## Eliezer Yudkowsky
 
 * [Levels of Organization in General Intelligence](eliezer-yudkowsky-levels-of-organization-in-general-intelligence)
@@ -70,7 +73,7 @@ The following lists papers I've read and reviewed or made notes for.
 
 # Prioritization
 ## Joachim Karlsson
-* [An evaluation of methods for prioritizing software requirements](an-evaluation-of-methods-for-prioritizing-software-requirements)
+* [An evaluation of methods for prioritizing software requirements (1997)](an-evaluation-of-methods-for-prioritizing-software-requirements)
 
 ## Viggo Ahl
-[An experimental comparison of five prioritization methods](viggo-ahl-an-experimental-comparison-of-five-prioritization-methods)
+[An experimental comparison of five prioritization methods (2005)](viggo-ahl-an-experimental-comparison-of-five-prioritization-methods)
