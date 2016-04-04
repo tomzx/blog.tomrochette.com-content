@@ -1,5 +1,5 @@
 ---
-title: Łukasz Kaiser - Program Search as a Path to Artificial General Intelligence
+title: Łukasz Kaiser - Program Search as a Path to Artificial General Intelligence (2007)
 created: 2016-03-25
 taxonomy:
   category: [Artificial General Intelligence]
@@ -117,6 +117,7 @@ $$E = pairs(booleans, lists(\alpha)) \in \mathcal{G}$$
 	* $\lambda$ exists in each type and $T|_\lambda = T$
 	* $p = (n, q)$ exists in $S = T(R_1, ..., R_m)$ if $m \ge n$ and $q$ exists in $R_n$ and in such case $S|_p = R_n|_q$
 	* $p = (n, q)$ exists in $S = T_1, ..., T_m \rightarrow R$ if either $m \ge n$ and $q$ exists in $T_n$ and in such case $S|_p = T_n|_q$, or $m + 1 = n$ and $q$ exists in $R$ and then $S|_p = R_q$
+
 # See also
 
 # Sources

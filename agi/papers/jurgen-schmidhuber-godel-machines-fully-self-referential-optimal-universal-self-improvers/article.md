@@ -143,3 +143,4 @@ $$u(s, Env) = E_\mu\left[\sum_{\tau=time}^{T}r(\tau)\middle|s, Env\right]$$
 
 # Sources
 * [arXiv:cs/0309048](http://arxiv.org/abs/cs/0309048) [cs.LO]
+* DOI: [10.1007/978-3-540-68677-4_7](https://dx.doi.org/10.1007/978-3-540-68677-4_7)

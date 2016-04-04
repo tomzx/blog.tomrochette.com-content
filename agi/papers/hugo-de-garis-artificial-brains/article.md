@@ -1,5 +1,5 @@
 ---
-title: Hugo de Garis - Artificial Brains
+title: Hugo de Garis - Artificial Brains (2007)
 created: 2016-03-05
 taxonomy:
   category: [Artificial General Intelligence]
@@ -60,3 +60,4 @@ taxonomy:
 # See also
 
 # Sources
+* DOI: [10.1007/978-3-540-68677-4_5](https://dx.doi.org/10.1007/978-3-540-68677-4_5)

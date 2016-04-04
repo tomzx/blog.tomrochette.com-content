@@ -1,5 +1,5 @@
 ---
-title: Contemporary Approaches to Artificial General Intelligence
+title: Contemporary Approaches to Artificial General Intelligence (2007)
 created: 2016-02-17
 taxonomy:
   category: [Artificial General Intelligence]
@@ -116,3 +116,4 @@ taxonomy:
 # See also
 
 # Sources
+* DOI: [10.1007/978-3-540-68677-4_1](https://dx.doi.org/10.1007/978-3-540-68677-4_1)
