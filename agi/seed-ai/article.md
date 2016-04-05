@@ -33,6 +33,7 @@ In other words, a seed AI is one that would learn and understand how program wor
 	* In order to lenghten, smaller parts could have merged together (working programs merged/concatenated to one another)
 	* https://en.wikipedia.org/wiki/Origin_of_replication (What are the origin of DNA?)
 * Generating programs amount to generating graphs, what does that imply?
+* Learn "valuable" programs from a training set (SL), then use MCTS + Q-Learning (policy network + value network) to determine the direction in which newer programs should be searched (RL)
 
 # Overview
 
@@ -94,7 +95,9 @@ Two functions which have the exact same internal logic but different parameters 
 
 For a number $x$ of different parameters there is at most $x!$ signatures permutations. Using the **Parameter ordering rule**, we can limit it to 1.
 
-If there are $x$ types in the system, for a function with $y$ parameters we have at most $y^x$ permutations. Following the **Parameter ordering rule**, we can limit it to $\binom{y+(x-1)}{x-1}$.
+If there are $x$ types in the system, for a function with $y$ parameters we have at most $y^x$ permutations. Following the **Parameter ordering rule**, we can limit it to $\binom{y+(x-1)}{x-1}$. For example, a system with 3 types and a function with 3 parameters will have $\binom{3+(3-1)}{3-1} = \binom{5}{3} = 10$ potential function signatures and not $3^3 = 27$.
+
+Another thing we may do in order to limit the amount of generatable functions is to add artificial constraints such as "functions shall not have more than 10 statements" or "functions shall not have more than 3 levels of indentations" or "functions shall contain at most 1 level of indirection" (law of demeter). Using design guidelines and best practices, it may be possible to shape and reduce down the number of "acceptable" functions within our programs.
 
 # Some problems that remain
 
