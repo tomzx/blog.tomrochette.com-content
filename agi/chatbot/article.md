@@ -106,6 +106,32 @@ graph TD;
     5 --> 6[Done]
 ```
 
+## IBM Watson Dialog Service
+
+Request
+* A client id
+* A conversation id
+* An input string
+
+Response
+* A client id
+* A conversation id
+* An input string
+* An html formatted response
+
+The replies that are generated contains "actionables". It appears that dialogs are oriented around specific domains and thus it will generate responses that may have data specifically formatted for the purpose of the application.
+
+**Source**
+* https://new-console.ng.bluemix.net/catalog/services/dialog/
+
+## Microsoft Bot Framework
+
+Microsoft Bot Framework works in the same fashion as IBM Watson Dialog Service: the develop defines the actionables, in other words, what will make the bot progress in state, and the user requests are simply processed in order to attempt to extract information about the action the user wants to take.
+
+**Source**
+* https://dev.botframework.com/
+* http://docs.botframework.com/sdkreference/csharp/forms.html
+
 # Use an existing dictionary
 
 * https://github.com/first20hours/google-10000-english
