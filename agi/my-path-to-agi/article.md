@@ -108,6 +108,27 @@ The problem at this point though was that the brain would now build its own netw
 ### Artificial General Intelligence (2016-02 - ?)
 Ben Goertzel, Cassio Pennachin
 
+### The Logic of Intelligence (2016-02)
+Pei Wang
+
+### The Novamente Artificial Intelligence Engine (2016-02)
+Ben Goertzel
+
+### Artificial Brains (2016-03)
+Hugo de Garis
+
+### Playing Atari with Deep Reinforcement Learning (2016-03)
+Volodymyr Mnih, Koray Kavukcuoglu, David Silver, Alex Graves, Ioannis Antonoglou, Daan Wierstra, Martin Riedmiller
+
+### Mastering the Game of Go with Deep Neural Networks and Tree Search (2016-03)
+David Silver, Aja Huang, Chris J. Maddison, Arthur Guez, Laurent Sifre, George van den Driessche, Julian Schrittwieser, Ioannis Antonoglou, Veda Panneershelvam, Marc Lanctot, Sander Dieleman, Dominik Grewe, John Nham, Nal Kalchbrenner, Ilya Sutskever, Timothy Lillicrap, Madeleine Leach, Koray Kavukcuoglu, Thore Graepel & Demis Hassabis
+
+### The OpenNARS implementation of the Non-Axiomatic Reasoning System (2016-03)
+Patrick Hammer, Tony Lofthouse, Pei Wang
+
+### Neural Turing Machines (2016-04)
+Alex Graves, Greg Wayne, Ivo Danihelka
+
 ## In the reading queue
 
 ### Design for a brain
@@ -118,9 +139,6 @@ David A. Huffman
 
 ### Introduction to mathematical logic
 Elliott Mendelson
-
-### Neural Turing Machines
-Alex Graves, Greg Wayne, Ivo Danihelka
 
 ### Artificial general intelligence through recursive data compression and grounded reasoning: a position paper
 Arthur Franz
