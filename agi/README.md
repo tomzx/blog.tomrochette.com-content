@@ -60,6 +60,7 @@ Tom
 
 ## Biology inspired exploration
 
+* [Abiogenesis](abiogenesis)
 * [Cognition](cognition)
 * [Deconstruction of a mind](deconstruction-of-a-mind)
 * [Human development](human-development)
