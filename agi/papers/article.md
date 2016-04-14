@@ -17,6 +17,9 @@ The following lists papers I've read and reviewed or made notes for.
 ## Alex Graves
 * [Neural Turing Machines (2014)](alex-graves-neural-turing-machines)
 
+## Breden Lake
+* [Building Machines That Learn and Think Like People (2016)](breden-lake-building-machines-that-learn-and-think-like-people)
+
 ## Eliezer Yudkowsky
 
 * [Levels of Organization in General Intelligence (2007)](eliezer-yudkowsky-levels-of-organization-in-general-intelligence)
