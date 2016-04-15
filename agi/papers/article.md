@@ -20,6 +20,9 @@ The following lists papers I've read and reviewed or made notes for.
 ## Breden Lake
 * [Building Machines That Learn and Think Like People (2016)](breden-lake-building-machines-that-learn-and-think-like-people)
 
+## Douglas B. Lenat
+[EURISKO: A Program That Learns New Heuristics and Domain Concepts (1982)](douglas-lenat-eurisko-a-program-that-learns-new-heuristics-and-domain-concepts)
+
 ## Eliezer Yudkowsky
 
 * [Levels of Organization in General Intelligence (2007)](eliezer-yudkowsky-levels-of-organization-in-general-intelligence)
