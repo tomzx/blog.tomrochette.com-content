@@ -80,7 +80,9 @@ Marvin Minsky
 
 * Tensorflow 2016-01
 
-### [PHP-Brain](../php-brain) (2016-02 - ?)
+### PHP-Brain) (2016-02 - ?)
+See [PHP-Brain](../php-brain)
+
 For about two weeks, I spent my time trying to find ways to do efficient string matching and document learning. The reason I wanted to do this was to attempt to learn language through examples. Provided with enough (hopefully valid) documents, it would be possible to assess if a given sentence is valid by matching it with previously seen sentences. It would also allow me to feed it a bunch of my chatlogs so that it may learn my vocabulary behavior and potentially predict what I would type next (basically autocompletion).
 
 With a program that could do not much more than receive texts and match them against previously seen documents, I wanted to figure out a way to match generic data instead of words/sentences.
@@ -114,8 +116,20 @@ Pei Wang
 ### The Novamente Artificial Intelligence Engine (2016-02)
 Ben Goertzel
 
+### Essentials of General Intelligence: The Direct Path to Artificial General Intelligence (2016-03)
+Peter Voss
+
 ### Artificial Brains (2016-03)
 Hugo de Garis
+
+### The OpenNARS implementation of the Non-Axiomatic Reasoning System (2016-03)
+Patrick Hammer, Tony Lofthouse, Pei Wang
+
+### The New AI: General & Sound & Relevant for Physics (2016-03)
+Jürgen Schmidhuber
+
+### Gödel Machines: Fully Self-Referential Optimal Universal Self-improvers (2016-03)
+Jürgen Schmidhuber
 
 ### Playing Atari with Deep Reinforcement Learning (2016-03)
 Volodymyr Mnih, Koray Kavukcuoglu, David Silver, Alex Graves, Ioannis Antonoglou, Daan Wierstra, Martin Riedmiller
@@ -123,11 +137,19 @@ Volodymyr Mnih, Koray Kavukcuoglu, David Silver, Alex Graves, Ioannis Antonoglou
 ### Mastering the Game of Go with Deep Neural Networks and Tree Search (2016-03)
 David Silver, Aja Huang, Chris J. Maddison, Arthur Guez, Laurent Sifre, George van den Driessche, Julian Schrittwieser, Ioannis Antonoglou, Veda Panneershelvam, Marc Lanctot, Sander Dieleman, Dominik Grewe, John Nham, Nal Kalchbrenner, Ilya Sutskever, Timothy Lillicrap, Madeleine Leach, Koray Kavukcuoglu, Thore Graepel & Demis Hassabis
 
-### The OpenNARS implementation of the Non-Axiomatic Reasoning System (2016-03)
-Patrick Hammer, Tony Lofthouse, Pei Wang
+### Program Search as a Path to Artificial General Intelligence (2016-03)
+Łukasz Kaiser
+
+### The Natural Way to Artificial Intelligence (2016-04)
+Vladimir G. Red'ko
 
 ### Neural Turing Machines (2016-04)
 Alex Graves, Greg Wayne, Ivo Danihelka
+
+### 3D Simulation: the Key to A.I. (2016-04)
+Keith A. Hoyes
+
+### Cognitive Science - An Introduction to the Science of the Mind (2016-04 - ?)
 
 ## In the reading queue
 
