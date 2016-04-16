@@ -11,6 +11,7 @@ taxonomy:
 ## Learned in this study
 
 ## Things to explore
+* Decomposition of concepts (extracting the components/concepts in a grid of pixels and reason based on these and not the pixels)
 
 # Overview
 
@@ -61,6 +62,42 @@ taxonomy:
 * The differences between the human and machine learning curves suggest that they (the machines) may be learning different kinds of knowledge, using different learning mechanisms, or both
 * We speculate that people do this by inferring a general schema to describe the goals of the game and the object types and their interactions, using the kinds of intuitive theories, model-building abilities and model-based planning mechanisms we describe (I think that machine learning and human learning is simply very different because they start from scratch and we already have an immense amount of knowledge to build on top of)
 * The DQN (deep Q neural network) is also rather inflexible to changes in its inputs and goals: changing the color or appearance of objects or changing the goals of the network would have devastating consequences on performance if the network is not retrained
+
+## 4 Core ingredients of human intelligence
+
+## 4.1 Developmental start-up software
+
+## 4.1.1 Intuitive physics
+* At the age of 2 months and possibly earlier, human infants expect inanimate objects to follow principles of persistence, continuity, cohesion and solidity
+* Young infants believe objects should move along smooth paths, not wink in and out of existence, not inter-penetrate and not act at a distance
+* At around 6 months, infants have already developed different expectations for rigid bodies, soft bodies and liquids
+* By their first birthday, infants have gone through several transitions of comprehending basic physical concepts such as intertia, support, containment and collisions
+
+## 4.1.2 Intuitive psychology
+* Pre-verbal infants distinguish animate agents from inanimate objects
+* The presence of eyes, motion initiated from rest and biological motion are cues that are often sufficient but not necessary for the detection of agency
+* Infants also expect agents to act contingently and reciprocally, to have goals, and to take efficient actinos toward those goals subject to constraints
+* At around three months of age, infants begin to discriminate anti-social agents that hurt or hinder others from neutral agents and they later distinguish between anti-social, neutral, and pro-social agents
+* It seems to us that any full formal account of intuitive psychological reasoning needs to include representations of agency, goals, efficiency, and reciprocal relations
+* Intuitive psychology provides a basis for efficient learning from others, especially in teaching settings with the goal of communicating knowledge efficiently
+* Whether or not there is an explicit goal to teach, intuitive psychology let us infer the beliefs, desires, and intentions of the teacher
+
+## 4.2 Learning as rapid model building
+* Many of the most impressive examples of human learning are better characterized as rapid model building than gradual improvements in pattern recognition
+* It is important to mention that there are many classes of concepts that people learn more slowly
+* Concepts that are learned in school are usually far more challenging and more difficult to acquire, including mathematical functions, logarithms, derivatives, integrals, atoms, electrons, gravity, DNA, evolution, etc.
+* There are domains that machines are more apt learners than people, such as combing through financial or weather data
+* But for the vast majority of cognitively natural concepts - the types of things that children learn as the meanings of words - people are still far better learners than machines
+* The richness and flexibility of model building suggest it is a better metaphor than learning as pattern recognition
+* Furthermore, the human capacity for one-shot learning suggests that these models are built upon rich domain knowledge rather than starting from a blank slate
+
+## 4.2.1 Compositionality
+* Compositionality is the classic idea that new representations can be constructed through the combination of primitive elements
+
+## 4.2.2 Causality
+* Causality is about using knowledge of how real world processes produce perceptual observations
+* "Analysis-by-synthesis" theories of perception maintain that sensory data can be more richly represented by modeling the process that generated it
+* Not all causal processes present tractable learning problems, and in most cases it is crucial to find the right level of causal description
 
 # See also
 
