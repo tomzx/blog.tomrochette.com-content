@@ -28,6 +28,27 @@ taxonomy:
 	* Syntactic analysis
 	* Semantic analysis
 	* Integrating the information acquired with the information the system already possesses
+* (p34) We can identify distinct components for each of these jobs - the syntactic system, the semantic system, and the cognitive-deductive system
+* (p34) What makes this possible for these systems to call upon each other is that their different forms of knowledge are all represented in a similar way: they are all represented in terms of procedures
+* (p47) Marr distinguishes three different levels for analyzing cognitive systems
+	* The top level is the computational level (computational theory)
+		* to translate a general description of the cognitive system into a specific account of the particular information-processing problem that the system is configured to solve
+		* to identify the constraints that hold upon any solution to that information-processing task
+	* The middle level down is the algorithmic level (representation and algorithm)
+		* tells us how the cognitive system actually solves the specific information-processing task identified at the computational level
+		* tells us how the input information is transformed into the output information
+	* The bottom level is the implementational level (hardware implementation)
+		* find a physical realization for the algorithm - that is to say, to identify physical structures that will realize the representational states over which the algorithm is defined and to find mechanisms at the neural level that can properly be described as computing the algorithm in question
+* (p49) Marr drew two conclusions about how the visual system functions from Warrington's neuropsychological observations
+	* Information about the shape of an object must be processed separately from information about what the object is for and what it is called
+	* The visual system can deliver a specification of the shape of an object even when that object is not in any sense recognized
+* (p50) Marr's theory of vision uses 3 different types of representations
+	* primal sketch: distribution of light intensity across the retinal image, basic geometry of the field of view
+	* 2.5D sketch: depth and orientation of visible surfaces from the viewer's perspective
+	* 3D sketch: viewer-independent representation
+* (p53) What are the starting-points for the information processing that will yield as its output an accurate representation of the layout of surfaces in the distal environment?
+	* The visual system needs to start with discontinuities in light intensity, because these are  a good guide to boundaries between objects and other physically relevant properties
+	* Representational primitives: zero-crossings (registers of sudden changes in light intensity), blobs, edges, segments, and boundaries
 
 # See also
 
