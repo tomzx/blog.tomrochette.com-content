@@ -14,6 +14,10 @@ taxonomy:
 
 # Overview
 
+* EURISKO makes use of IsA/Examples/AllIsA (generalization and reciprocal relations)
+
+# Notes
+
 * Automated Mathematician (AM) was an automatic programming system, whose primitive actions were modifications to pieces of LISP code, code which represented the characteristic functions of various math concepts
 
 ## 1 Design Decisions in Constructing the EURISKO Program
@@ -117,6 +121,52 @@ taxonomy:
 * EURISKO currently employs the following strategy to deal with this problem
 	* Each unit knows which slots are criterial, i.e., define it
 	* Each such criterial slot s knows the way in which it makes sense to do matching
+
+### EURISKO always has the initiative; the user can request but never demand
+* When the user types in some message indicating that he wishes to define or modify a concept, that request is placed as a very (but not infinitely-) high priority task on the agenda
+
+### Modelling the user enables the creation of a good first impression
+* Creating a good "first impression" is important
+* EURISKO solves this problem by building up and using models of its users
+* When a user logs in, the program attempts to quickly guess as much as possible his profession, his interests, his notations
+* When a few things are observed, EURISKO can tentatively assign (as defaults, as it were) all the other known co-ocurring "symptoms"
+* To support expectation-filtering by user models, a massive data base must exist, dealing with people in general, broken into groups, and even some data about specific known individual users
+
+## 2 Results of EURISKO Applied to Naval Fleet Design
+* In AM, there was always the possibility that while each heuristic seemed intuitively obvious and general, its true nature was merely an encoding of some of known mathematics, and that was in fact why it appealed to our intuition (that our intuition has been shaped to reflect a rough image of mathematics that exists already)
+* We strongly believed this not to be the case however
+* EURISKO has been a good test of the hypothesis that a large but general set of judgmental rules for manipulating concepts (and for discovering new rules) can be found and operationalized
+* Any program claiming to be a "discovery program" should aspire to two goals:
+	* use the same methods to discover concepts, conjectures, and heuristics in several domains
+	* make at least a few genuinely new (to mankind) useful discoveries
+* EURISKO designed a fleet of ships suitable for entry in the 1981 and 1982
+* Each participant has a budget of a trillion "credits" (roughly equal to dollars) to spend in designing and building a fleet of futuristic ships
+* There are over one hundred pages of rules which detail various costs, constraints, and tradeoffs, but basically there are two levels of variability in the design process:
+	* Design an individual ship: worry about tradeoffs between types of weapons carried, amount of armor on the hull, agility of the vessel, groupings of weapons into batteries, amount of fuel carried, which systems will have backups, etc.
+	* After designing many distinct kinds of individual ships, group them together into a fleet. The fleet must meet several design constraints (e.g., some ships in the fleet, having a total fuel tonnage of at least 10% of the total fleet fuel tonnage, must be capable of refueling and processing fuel), and in addition must function as a coherent unit
+* To handle this task, 146 units were added, by hand, to EURISKO
+* A couple of slots of interest:
+	* MyWorth: The value of the concept to EURISKO - i.e., how compact it's been, how little CPU time it's wasted, how many interesting analogies were built using it, how many of the structural modifications to it were fruitful, etc.
+	* MyInitialWorth: The value of MyWorth at the time it was created
+	* Worth: How useful it the concept to the goal (e.g., EnergyGun Worth specifies how useful energy guns are to have on ships)
+* What happened to lower the MyWorth of EnergyGun?
+	* At one time, it was selected as a candidate for modification
+	* EURISKO spent some time trying to analogize between it and other types of weapons, and nothing much came out of that
+	* As a result, its MyWorth was dropped from 500 to 400
+	* Through many tens of simulations, it became clear that one could buy enough armor plating to make a ship invulnerable to attacks by these types of weapons, and from then on almost all ships were so armored
+	* Thus, any ships having energy weapons were at a serious disadvantage, and gradually - as they lost - the Worth of EnergyGun declined
+* The slot called "Rarity" reflects the fact that, during a recent run, EURISKO examined nine objects, known to be weapons, to see if they were energy guns; one of them was
+* This is the kind of bookkeeping record which heuristic rules might want to access; e.g., rules which say "If C is a specialization of G, and (empirically) very few G's turn out to be C's, then ..."
+* Many of EURISKO's slots have inverses
+* Of the 146 added concepts, two represented new types of activities: playing a game, and running a simulation
+* Managing a simulation caused us to augment EURISKO with three new heuristics; these check for termination, try to project the ultimate outcome of the simulation, and check for infinite loops during simulation
+* How did we get EURISKO to play the game?
+* The unit Games is a topic, and as such can have an agenda
+* One of the new units, PlayTravellerFleetBattle, had no examples, so a general heuristic added a new task to the Games agenda:
+	* Find examples of PlayTravellerFleetBattle
+* The Games topic was selected as the current topic (by pointing to it with a cursor, though it could have been selected indirectly by supplying a user model that claimed the user is very interested in games)
+* Once Games was the chosen topic, there were only a few tasks with high priority
+* The first one EURISKO ran defined the difference between Games and TwoPersonGames, and made a note that sometime EURISKO should look into defining some of those NonTwoPersonGames 
 
 # See also
 
