@@ -150,6 +150,16 @@ Alex Graves, Greg Wayne, Ivo Danihelka
 Keith A. Hoyes
 
 ### Cognitive Science - An Introduction to the Science of the Mind (2016-04 - ?)
+José Luis Bermúdez
+
+### Building Machines That Learn and Think Like People (2016-04 - ?)
+Breden Lake
+
+### EURISKO: A Program That Learns New Heuristics and Domain Concepts (2016-04 - ?)
+Douglas Lenat
+
+### A Mathematical Theory of Communication (2016-04 - ?)
+Claude Shannon
 
 ## In the reading queue
 
