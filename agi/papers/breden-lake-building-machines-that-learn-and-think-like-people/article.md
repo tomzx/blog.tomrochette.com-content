@@ -12,6 +12,7 @@ taxonomy:
 
 ## Things to explore
 * Decomposition of concepts (extracting the components/concepts in a grid of pixels and reason based on these and not the pixels)
+* How can decomposition be done? Where to start and where to stop? How can components be identified? Is it necessary that the components be labeled by a human and the machine trained to recognized instead of the machine generating components and the human giving them labels?
 
 # Overview
 
@@ -98,6 +99,34 @@ taxonomy:
 * Causality is about using knowledge of how real world processes produce perceptual observations
 * "Analysis-by-synthesis" theories of perception maintain that sensory data can be more richly represented by modeling the process that generated it
 * Not all causal processes present tractable learning problems, and in most cases it is crucial to find the right level of causal description
+
+## 4.2.3 Learning-to-learn
+* Transfer learning, multi-task learning or representation learning refer to ways that learning a new task can be accelerated through previous or parallel learning of other related tasks
+* Bayesian Program Learning (BPL) transfers readily to new concepts because it learns about object parts, sub-parts, and relations, capturing learning about what each concept is like and what concepts are like in general
+* It is crucial that learning-to-learn occurs at multiple levels of the hierarchical generative process
+* Further transfer occurs by learning about the typical levels of variability within a typical generative model
+* Human players can transfer what they have learned in playing other video games because they immediately parse the game environment into objects, types of objects, and causal relations between them
+* To produce machines that learn like humans and as fast as humans do, we might also have to build machines that learn what humans learn
+* We believe that adopting a more compositional, causal forms of knowledge representation helps both humans and machines get the most from learning-to-learn
+* We want to emphasize more generally that we believe all of the core ingredients for learning rich models articulated in this section - compositionality, causality, and learning-to-learn - can be incorporated into deep learning systems, and that these ideas will only benefit from being integrated together
+
+## 4.3 Thinking Fast
+
+## 4.3.1 Approximate inference in structured models
+* Computing a probability distribution over an entire space of programs is usually intractable, and often even finding a single high-probability program poses an intractable search problem
+* It has been proposed that humans can approximate Bayesian inference using Monte Carlo methods, which stochastically sample the space of possible hypotheses and evaluate these samples according to their consistency with the data and prior knowledge
+* For domains where program or theory learning happens quickly, it is possible that people employ inductive biases not only to evaluate hypotheses, but also to guide hypothesis selection
+
+## 4.3.2 Model-based and model-free reinforcement learning
+* There is substantial evidence that the brain uses model-free learning algorithms in simple associative learning or discrimination learn tasks
+* Considerable evidence suggests that the brain also has a model-based learning system, responsible for building a "cognitive map" of the environment and using it to plan action sequences for more complex tasks
+* Model-based planning is an essential ingredient of human intelligence, enabling flexible adaptation to new tasks and goals; it is where all of the rich model-building abilities earn their value as guides to action
+* We conjecture that a competent player can easily shift behavior (toward a new goal) appropriately, with little or no additional learning, and it is hard to imagine a way of doing that other than having a model-based planning approach in which the environment model can be modularly combined with arbitrary new reward functions and then deployed immediately for planning
+
+# 5 Responses to common questions
+* Comparing the learning speeds of humans and neural networks on specific tasks is not meaningful, because humans have extensive prior experience
+* Biological plausibility suggests theories of intelligence should start with neural networks
+* Language is essential for human intelligence. Why is it not more prominent here?
 
 # See also
 
