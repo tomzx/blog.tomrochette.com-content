@@ -11,6 +11,7 @@ taxonomy:
 ## Learned in this study
 
 ## Things to explore
+* What is the hierarchy of components that composes an AGI?
 
 # Overview
 
@@ -59,6 +60,24 @@ taxonomy:
 		* If a programmer is creating cognitive content, it should at least be the kind of content that the AI could have created on its own; it should be content in a form that the AI's cognitive subsystems can manipulate
 	* Isolation means that if a concept, or a piece of knowledge, is handed to the AI on a silver platter, the AI may be isolated from the things that the AI would have needed to learn first in order to acquire that knowledge naturally, in the course of building up successive layers of understanding to handle problems of increasing complexity
 
+## 2.2 Levels of Organization in Deliberation
+* 5 distinct layers of organization
+	1. Source code and data structures (human equivalent is neurons and neural circuitry)
+	2. Sensory modalities
+	3. Concepts (aka categories or symbols)
+	4. Thoughts
+	5. Deliberation (explanation, prediction, planning, design, discovery and other activities used to solve knowledge problems in the pursuit of real-world goals)
+
+## 2.3 The Code Level
+* Composed of functions, classes, modules, packages; data types, datastructures, data repositories
+* Trying to create general AI means solving the programming problem of creating a mind that solves problems
+* Good programming tools help with AI development but do not help with AI
+* Writing a great deal of exploratory code means that the IDEs with refactoring support and version control are important, and that modular code is even more important than it is usually
+* Human cognition may be massively parallel on the lower levels, but the overall flow of cognition is still serial
+* We know it is possible to evolve a general intelligence that runs on a hundred trillion synapses with characteristic limiting speeds of approximately 200 spikes per second
+* It seems likely that the brain uses a massively parallel algorithm at one point or another of its operation; memory association is simply a plausible candidate
+* The human brain is massively parallel because massive parallelism is the only way to do anything in 200 clock ticks
+* Instead of trying to reimplement the cognitive process of association as it developed in humans, we might instead ask: What would this cognitive subsystem look like, if it had evolved on hardware instead of wetware?
 
 # See also
 
