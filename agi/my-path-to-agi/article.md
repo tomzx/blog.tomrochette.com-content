@@ -155,7 +155,7 @@ José Luis Bermúdez
 ### Building Machines That Learn and Think Like People (2016-04 - ?)
 Breden Lake
 
-### EURISKO: A Program That Learns New Heuristics and Domain Concepts (2016-04 - ?)
+### EURISKO: A Program That Learns New Heuristics and Domain Concepts (2016-04)
 Douglas Lenat
 
 ### A Mathematical Theory of Communication (2016-04 - ?)
