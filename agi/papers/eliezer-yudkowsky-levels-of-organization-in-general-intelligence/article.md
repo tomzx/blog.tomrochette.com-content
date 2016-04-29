@@ -15,6 +15,8 @@ taxonomy:
 
 # Overview
 
+* The most important skill an AI develop can have is knowing what not to program
+
 ## Mistakes in AI
 * Implementing a process too close to the token level - trying to implement a high-level process without implementing the underlying layers of organization
 * The failure to distinguish between things that can be hardwired and things that must be learned
@@ -78,6 +80,49 @@ taxonomy:
 * It seems likely that the brain uses a massively parallel algorithm at one point or another of its operation; memory association is simply a plausible candidate
 * The human brain is massively parallel because massive parallelism is the only way to do anything in 200 clock ticks
 * Instead of trying to reimplement the cognitive process of association as it developed in humans, we might instead ask: What would this cognitive subsystem look like, if it had evolved on hardware instead of wetware?
+* Smooth fitness landscapes are a useful, necessary, and fundamental outcome of evolution
+* Smooth fitness landscapes imply, among other things, that a small perturbation in the program code (genetic noise), in the input (environmental noise), or in the state of the executing program (processor noise), is likely to produce at most a small degradation in output quality
+* In most human-written code, a small perturbation of any kind usually causes a crash
+* Human-written programs start out as high-level goals which are translated, by an extended serial thought process, into code
+* There are important features that are also supported by biological neural network - that are "natural" to neural substrate. These features probably include:
+	* Optimizing for recurring problems
+	* Completion of partial patterns
+	* Similarity recognition (detection of static pattern repetition)
+	* Recurrence recognition (detection of temporal repetition)
+	* Clustering detection, cluster identification, and sorting into identified clusters
+	* Training for pattern recognition and pattern completion
+	* Massive parallelism
+* Contemporary hardware has better support for:
+	* Reflectivity and execution traces
+	* Lossless serialization (storage and retrieval) and lossless pattern transformations
+	* Very-high-precision quantitative calculations
+	* Low-level algorithms which involve extended iteration, deep recursion, and complex branching
+	* Massive serialism, the ability to execute hundreds of millions of sequential steps per second
+* Programming is not all the work of AI, perhaps not even most of the work of AI; much of the effort needed to construct an intelligence will go into prodding the AI into forming certain concepts, undergoing certain experiences, discovering certain beliefs, and learning various high-level skills
+* The most important skill an AI develop can have is knowing what not to program
+
+## 2.4 The Modality Level
+
+## The Evolutionary Design of Modalities in Humans
+* Visual preprocessing begins in the first layer of the retina, which converts the raw intensities into center-surround gradients, a representation that forms the basis of all further visual processing
+* After several layers of retinal processing, the final retinal layer is composed of a wide variety of ganglion types that include directionally selective motion detectors, slow-moving edge detectors, fast movement detectors, uniformity detectors, and substractive color channels
+* Information streams to area V1, the primary visual cortex, which begins featuer extraction for information about motion, orientation, color and depth
+* From primary visual cortex the information stream continues, making its way to the higher visual areas, V2 through V6
+* Beyond the visual cortex, the information stream continues to temporal areas (object recognition) and parietal areas (spatial processing)
+* The general lesson learned from the human visual modality is that modalities are not microtheories, that modalities are not flat representations of the pixel level, and that modalities are functionally characterized by successive layers of successively more elaborate feature structure
+* In modalities, each additional layer of feature detectors makes use of the information provided by the first layer of feature detectors
+* Evolution is a good teacher but a poor role model
+* Evolution, in constructing a system incrementally, tends to construct linear sequences or ascending layers of smooth operations
+
+## The Human Design of Modalities in AI
+* Should humanlike 3D vision be one of the first modalities attempted?
+* For an AI's initial learning experiences, Yudkowsky would advocate placing the AI in complex virtual environments, where the virtual environments are internal to the computer but external to the AI
+* Shifting to microworlds does require that experience in the microworlds reproduce functionally relevant aspects of experience in real life, including unpredictability, uncertainty, real-time process control, holonic (part-whole) organization, et cetera
+* Three possible modalities that come to mind as reasonable for a very primitive and early-stage AI, in ascending order of implementational difficulty, would be:
+	1. A modality for Newtonian billiard balls
+	2. A modality for a 100x100 "Go" board
+	3. A modality for some type of interpreted code (a metaphorical "codic cortex")
+* Yudkowsky recommends eliminating environmental reconstruction as a complexity source in early AI development
 
 # See also
 
