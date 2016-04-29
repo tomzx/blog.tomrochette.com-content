@@ -3,7 +3,7 @@ title: EURISKO: A Program That Learns New Heuristics and Domain Concepts (1982)
 created: 2016-04-15
 taxonomy:
   category: [Artificial General Intelligence]
-  status: in progress
+  status: finished
 ---
 
 ## Context
@@ -11,10 +11,15 @@ taxonomy:
 ## Learned in this study
 
 ## Things to explore
+* How are functions/programs represented within EURISKO?
 
 # Overview
 
 * EURISKO makes use of IsA/Examples/AllIsA (generalization and reciprocal relations)
+
+## Limitations of EURISKO
+* EURISKO requires a good amount of bootstrapping code/configuration
+* Algorithms used within slots are not open/available for editing by EURISKO
 
 # Notes
 
@@ -80,7 +85,7 @@ taxonomy:
 * Selecting a task is done as follows
 	* The top task's reasons are evaluated carefully, and its rating is updated
 	* If, after reevaluation, the top task's rating falls below that of task number 2, we merge it back into the agenda, and repeat this step
-	* Some task will stay at the top of the agenda and elected for execution
+	* Some task will stay at the top of the agenda and be elected for execution
 
 ### Executing a task: dynamically assembling a rule interpreter
 * The first activity is to locate a set of potentially relevant heuristic rules, rules whose execution may (help to) satisfy the chosen task
@@ -166,7 +171,73 @@ taxonomy:
 	* Find examples of PlayTravellerFleetBattle
 * The Games topic was selected as the current topic (by pointing to it with a cursor, though it could have been selected indirectly by supplying a user model that claimed the user is very interested in games)
 * Once Games was the chosen topic, there were only a few tasks with high priority
-* The first one EURISKO ran defined the difference between Games and TwoPersonGames, and made a note that sometime EURISKO should look into defining some of those NonTwoPersonGames 
+* The first one EURISKO ran defined the difference between Games and TwoPersonGames, and made a note that sometime EURISKO should look into defining some of those NonTwoPersonGames
+* To win the TCS, EURISKO used many "mutation" operators (genetic programming?)
+	* To keep a mutation, it had to beat its predecessors (ancestors)
+* What EURISKO found were not fundamental rules for fleet and ship design; rather, it uncovered anomalies, fortuitous interactions among rules, unrealistic loopholes that hadn't been forseen by the designers of the TCS simulation system
+* This notion of a large, unexplored search space, not necessarily well-matched to our everyday common-sense intuitions appears to characterize those domains for which automated discovery (of both concepts and heuristics) is currently most viable
+
+## 3 Results of EURISKO Applied to Other Tasks
+## 3.1 EURISKO applied to elementary mathematics
+* The first domain we added concepts about was mathematics, specifically the same starting collection of finite set theory concepts AM began with
+* Fifty heuristics were added, which subsumed most of AM's old set of 243
+* EURISKO duplicated many of the results of AM: finding elementary set theory theorems, extreme properties of set operations, and defining useful new objects and operations about 50% of the time
+* The other 50% of its time was spent about half in generating awful concepts, and half in attempting to produce new heuristics and types of slots
+* About 200 math concepts were present in the system, to work in set theory and number theory
+* After about 500 hours of running, another thousand concepts had been considered, and 200 of them had proven interesting (empirically, in the program's judgment, and later confirmed by human inspection)
+* Of these new concepts, 11 were valuable, specific new heuristics, and 7 were useful new types of slots
+* Of the 7 new slots types, four were slots that only heuristics could possess
+	* IfConstant
+	* IfIdentity
+	* IfUnchanged
+	* ThenConjecture
+* The three If slots were needed because of the high frequency with which new functions turned out to be closely related to
+	* a constant function
+	* the identity function
+	* the same function they were synthesized from
+
+## 3.2 EURISKO applied to LISP programming
+* 200 of the most common INTERLISP functions have been represented as units within EURISKO
+* A very general heuristic EURISKO possessed said: "If f can often be used in place of g, and f uses less resources, then replace g by f wherever possible"
+* An interesting LISP heuristic was found: "Sometimes 'AND' means 'do in sequence', and sometimes it means 'doable simultaneously', and only the latter case is likely to yield good results if you're considering generalizing a piece of code by removing conjuncts
+* Large programs are carefully engineered artifacts, complex constructs with thousands of pieces in a kind of unstable equilibrium
+* Any sort of random perturbation is likely to produce an error rather than a novel mutant
+* EURISKO had successes in automatic programming only when it modified functions which had been coded as units. Why was this?
+	* It's easier to modify small programs than large, opaque lump of LISP code about which nothing is known
+
+## 3.3 EURISKO applied to other tasks
+### Evolution
+* The simulation of organisms competing, followed by the most fit ones reproducing mutated offspring for the next simulated generation
+* There is no doubt that the simulated evolution progressed almost not at all when mutation was random, and quite rapidly when mutation was under control of a body of heuristic rules
+
+### Games
+* Several general Games concepts were added to the knowledge base: material, position, tactic, two-person game, fairness, player, opponent, etc.
+* A few heuristics were inserted, as very general stategies: simultaneous action, feint, pin, trap
+* These heuristics were derived using Chess and Bridge (by a system builder) and were successfully applied to Go
+* One area of current research is getting EURISKO to discover new games; that is, make up a set of rules, simulate the game, and evaluate it according to various criteria
+
+### Heuretics
+* The study of heuristics
+* In operational terms, EURISKO spent time forming and testing heuristics about learning new heuristics
+* One of the first heuristics that EURISKO synthesized (H59) would put its own name down as one of the discoverers of a new conjecture
+* This required the implementation of a small "meta-level" of protected code that the rest of the system could not modify
+* A heuristic arose which said that all machine-synthesized heuristics were terrible and should be eliminated
+* EURISKO chose this very heuristic as one of the first to eliminate, and the problem solved itself
+
+### Representation
+* EURISKO's task is quite constrained, actually: look for useful new slots which are specific to the various domains you are working in
+* This type of activity - formulating new domain-specific slots - happened rarely, but we believe it to be one of the most important long-range activities EURISKO can do
+
+## 4 Conclusions about Mechanizing the Process of Discovery
+* The domain should be as little explored as possible
+* There must be a way to simulate - or directly carry out - experiments
+* The "search space" should be too immense for other methods to work
+* There should be many objects, operators, kinds of objects, and kinds of operators. They should be related hierarchically and in other ways
+* The task domain must be rich in heuristic structure
+* There must be ways to generate, to prune, and to evaluate
+* The "language" one uses to represent the concepts must be a natural one, given the set of objects and operators
+	* Even though the discovery of new heuristics is important, the presence (and maintenance) of an appropriate representation for knowledge is even more necessary
+* Criteria which make a domain suitable for AM-like exploration (discovery of new concepts and conjectures) are - taken to extremes - the same criteria which make a domain suitable for EURISKO-like exploration (discovery of new heuristics)
 
 # See also
 
