@@ -3,7 +3,7 @@ title: Alex Graves - Neural Turing Machines (2014)
 created: 2016-04-02
 taxonomy:
   category: [Artificial General Intelligence]
-  status: in progress
+  status: finished
 ---
 
 ## Context
