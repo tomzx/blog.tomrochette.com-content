@@ -21,7 +21,7 @@ The following lists papers I've read and reviewed or made notes for.
 * [Building Machines That Learn and Think Like People (2016)](breden-lake-building-machines-that-learn-and-think-like-people)
 
 ## Douglas B. Lenat
-[EURISKO: A Program That Learns New Heuristics and Domain Concepts (1982)](douglas-lenat-eurisko-a-program-that-learns-new-heuristics-and-domain-concepts)
+* [EURISKO: A Program That Learns New Heuristics and Domain Concepts (1982)](douglas-lenat-eurisko-a-program-that-learns-new-heuristics-and-domain-concepts)
 
 ## Eliezer Yudkowsky
 
@@ -82,4 +82,4 @@ The following lists papers I've read and reviewed or made notes for.
 * [An evaluation of methods for prioritizing software requirements (1997)](an-evaluation-of-methods-for-prioritizing-software-requirements)
 
 ## Viggo Ahl
-[An experimental comparison of five prioritization methods (2005)](viggo-ahl-an-experimental-comparison-of-five-prioritization-methods)
+* [An experimental comparison of five prioritization methods (2005)](viggo-ahl-an-experimental-comparison-of-five-prioritization-methods)
