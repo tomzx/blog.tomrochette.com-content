@@ -80,7 +80,7 @@ Marvin Minsky
 
 * Tensorflow 2016-01
 
-### PHP-Brain) (2016-02 - ?)
+### PHP-Brain (2016-02 - ?)
 See [PHP-Brain](../php-brain)
 
 For about two weeks, I spent my time trying to find ways to do efficient string matching and document learning. The reason I wanted to do this was to attempt to learn language through examples. Provided with enough (hopefully valid) documents, it would be possible to assess if a given sentence is valid by matching it with previously seen sentences. It would also allow me to feed it a bunch of my chatlogs so that it may learn my vocabulary behavior and potentially predict what I would type next (basically autocompletion).
