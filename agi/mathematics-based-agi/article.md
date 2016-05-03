@@ -48,6 +48,24 @@ Concepts are basically numbers
 Everything can be represented by a number (basically the concept of primary key -> set of data)
 We learn to associate images, sounds, experiences (samples) with a specific concept (number)
 
+# Logic/Rule-based AGI
+Conjecture: An AGI can be built from the composition of millions of rules (if-then constructs)
+* How to efficiently pick the appropriate rules to execute?
+Context
+* How to pick the appropriate context?
+Rules that define the presence of a context
+* How are rules composed?
+Small programs which can evaluate things at time t
+* How are rules generated?
+Trial and error (random) then guided by previous successes
+* How to evaluate success/failure?
+Observe others successful at the task and derive one or many metrics/evaluation functions
+* How do you find appropriate examples of success?
+Either the task we want to improve came from observing others (thus we were provided with initial examples) or we want to learn about the rules of a specific domain (which are to be determined)
+
+## Structures for efficient selection of rules
+Rules are decomposed into their parts, each part is a key in a dictionary such that when a part is triggered, its corresponding rules are fetched and readied to be intersected with the next triggered part
+
 ## Notes
 
 Much of machine learning is geared toward fitting a given function as closely as possible without under/over-fitting the function in question.
