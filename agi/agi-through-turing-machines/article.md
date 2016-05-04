@@ -6,6 +6,12 @@ taxonomy:
   status: in progress
 ---
 
+## Context
+
+It is conjectured that the human mind can be completely reproduced by a computer and an appropriate program. What this means is that by using simple I/O to interact with the world as well as control structures (if/then and loops), we should be able to reproduce (but not necessarily replicate, that is copy the exact activity that occurs within the brain) what goes on in our mind.
+
+Turing machines represent the foundation of how computers (automata) work. It is thus highly relevant to learn how Turing machines are described and how they work so that we may be able to understand potential limitations to this approach (if there are any) or any algorithm-based approaches.
+
 ## Learned in this study
 
 ## Things to explore
@@ -66,6 +72,8 @@ The list of instruction then become a set of steps the machine will walk through
 
 # Sources
 
+[^1]: https://en.wikipedia.org/wiki/Turing_machine
+
 * https://en.wikipedia.org/wiki/Automata_theory
 
-[^1]: https://en.wikipedia.org/wiki/Turing_machine
+
