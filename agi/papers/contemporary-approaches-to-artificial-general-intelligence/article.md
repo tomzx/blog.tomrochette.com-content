@@ -3,7 +3,7 @@ title: Contemporary Approaches to Artificial General Intelligence (2007)
 created: 2016-02-17
 taxonomy:
   category: [Artificial General Intelligence]
-  status: in progress
+  status: finished
 ---
 
 ## Context

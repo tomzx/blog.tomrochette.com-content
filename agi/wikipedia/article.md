@@ -1,6 +1,6 @@
 ---
 title: Wikipedia
-created: 2015-01-29
+created: 2016-01-29
 taxonomy:
   category: [Artificial General Intelligence]
   status: in progress
@@ -29,6 +29,8 @@ The goal of this article is to find means for people to track their knowledge th
 In order to determine what one should track, one has to ask himself what is the end purpose.
 
 In our case, we want to be able to establish user profiles, that is, to characterize a visitor by the page he's visited.
+
+Furthermore, one of the purpose of establishing a profile is to be able to tell its user what has already been explored.
 
 Here's a non-exhaustive list of attributes we might be interested to track in order to establish such profile:
 
@@ -92,3 +94,6 @@ With all this information in hand, it is now time to design an application that 
 
 ## Wikipedia toolkits
 * https://github.com/Wikidata/Wikidata-Toolkit
+
+## Mindmap
+* https://github.com/kennethkufluk/js-mindmap

@@ -1,6 +1,6 @@
 ---
 title: Machine learning frameworks
-created: 2015-02-04
+created: 2016-02-04
 taxonomy:
   category: [Artificial General Intelligence]
   status: in progress
@@ -183,5 +183,6 @@ taxonomy:
 
 * https://github.com/josephmisiti/awesome-machine-learning
 * http://docs.chainer.org/en/stable/comparison.html
+* https://github.com/szilard/benchm-ml
 * https://github.com/szilard/survey-ml-tools
 * http://scikit-learn.org/ml-benchmarks/
