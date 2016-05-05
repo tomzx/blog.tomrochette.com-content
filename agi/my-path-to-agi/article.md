@@ -81,7 +81,7 @@ Marvin Minsky
 * Tensorflow 2016-01
 
 ### PHP-Brain (2016-02 - ?)
-See [PHP-Brain](../php-brain)
+See [PHP-Brain](../prototypes/php-brain)
 
 For about two weeks, I spent my time trying to find ways to do efficient string matching and document learning. The reason I wanted to do this was to attempt to learn language through examples. Provided with enough (hopefully valid) documents, it would be possible to assess if a given sentence is valid by matching it with previously seen sentences. It would also allow me to feed it a bunch of my chatlogs so that it may learn my vocabulary behavior and potentially predict what I would type next (basically autocompletion).
 
@@ -98,6 +98,7 @@ I began by designing a model-based brain, in other words, something that would l
 After playing with the idea for a while, I came across an issue: what should I do when a task may take several seconds, even maybe minutes or hours? It doesn't make sense to stop processing everything else until said task is complete. That is not a real time approach. Thus, it meant we'd have to implement some sort of system to do task preemption. PHP being a single threaded language, this would prove to be more complicated than I wanted to deal with. Thus, I decided to move to a language that would support multithreading, C#.
 
 ### Sharp-Brain (2016-03 - ?)
+See [Sharp-Brain](../prototypes/php-brain)
 
 The first thing I did when moving to C# was to build a complete body in an object oriented fashion. Body, head, brain, eyes, ears, nerves and so on. The head had eyes, which were attached to their own optic nerve, which would then connect to the brain. The brain was connected to a set of nerves, such as the optic nerve, which could be used either to receive or transmit data/signal.
 

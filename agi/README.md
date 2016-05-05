@@ -50,13 +50,16 @@ Tom
 * [Natural language](natural-language)
 * [Natural language processing](natural-language-processing)
 * [Patterns](patterns)
-* [PHP Brain](php-brain)
 * [Problem resolution approaches](problem-resolution-approaches)
 * [Reality model](reality-model)
 * [Requirements and properties](requirements-and-properties)
 * [The dangers of a super AGI](the-dangers-of-a-super-agi)
 * [Understanding games](understanding-games)
 * [What do I know about AI](what-do-i-know-about-ai)
+
+### Prototypes (in order of start date)
+* [PHP-Brain](prototypes/php-brain)
+* [Sharp-Brain](prototypes/php-brain)
 
 ## Biology inspired exploration
 

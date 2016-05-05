@@ -1,5 +1,5 @@
 ---
-title: PHP Brain
+title: PHP-Brain
 created: 2016-02-24
 taxonomy:
   category: [Artificial General Intelligence]
@@ -376,6 +376,8 @@ Are the input/process/output tasks done in a sequential or parallel manner? If d
 * How can a stimuli be mapped to a brain activation? Considering the brain action map will most likely change over time, how can we track a concept? Do we need to provide it as input and record what the activation state looks like?
 * Composition, inheritance, instantiation, generalization, dependency, association, aggregation
 
+# Post-mortem
+
 # See also
 
 # Sources
@@ -385,6 +387,7 @@ Are the input/process/output tasks done in a sequential or parallel manner? If d
 * https://en.wikipedia.org/wiki/Brain
 * https://en.wikipedia.org/wiki/Sensory_system
 * https://en.wikipedia.org/wiki/Multisensory_integration
+* https://www.newscientist.com/article/2078821-facebooks-ai-is-learning-by-reading-loads-of-childrens-books/
 
 ## Brain vision
 * https://www.youtube.com/watch?v=ETIp8kZPoBw
@@ -393,3 +396,6 @@ Are the input/process/output tasks done in a sequential or parallel manner? If d
 ## String search
 * http://www.dmi.unict.it/~faro/smart/index.php
 * http://www-igm.univ-mlv.fr/~lecroq/string/
+
+## OOPS and Gödel machine
+* [The New AI: General & Sound & Relevant for Physics](http://arxiv.org/pdf/cs/0302012v2.pdf)
