@@ -29,7 +29,7 @@ taxonomy:
 # Analysis of graphs as programs
 For this study, we will analyze simple control structures (programs) in order to identify increase order of complexity. To simplify the study, we'll assume that these structures will run on a single thread (in other words, no parallel processing will be done). Do note that some of the graphs below may make sense if executed in a parallel environment: each disjoint graph may be executed by a single thread.
 
-# 1 node, 0 edge
+## 1 node, 0 edge
 Statement
 ```mermaid
 graph TD
@@ -37,7 +37,7 @@ graph TD
 1
 ```
 
-# 1 node, 1 edge
+## 1 node, 1 edge
 While-true loop
 Program never terminates
 ```mermaid
@@ -46,7 +46,7 @@ graph TD
 1 --> 1
 ```
 
-# 2 nodes, 0 edge
+## 2 nodes, 0 edge
 Not valid (could be considered valid in a parallel architecture as long as *statement 1* and *statement 2* are independent)
 ```mermaid
 graph TD
@@ -54,7 +54,7 @@ graph TD
 2["statement 2"]
 ```
 
-# 2 nodes, 1 edge
+## 2 nodes, 1 edge
 Sequential statements
 ```mermaid
 graph TD
@@ -79,7 +79,7 @@ graph TD
 2-->2
 ```
 
-# 2 nodes, 2 edges
+## 2 nodes, 2 edges
 While-true loop - Statement
 Program never terminates
 Statement 1 is never executed
@@ -119,3 +119,34 @@ graph TD
 1-->1
 2-->2
 ```
+
+## 2 nodes, 3 edges
+```mermaid
+graph TD
+1["statement 1"]
+2["statement 2"]
+1-->1
+1-->2
+2-->1
+```
+
+```mermaid
+graph TD
+1["statement 1"]
+2["statement 2"]
+1-->2
+2-->1
+2-->2
+```
+
+Sequential double while-true loop
+Program never terminates
+```mermaid
+graph TD
+1["statement 1"]
+2["statement 2"]
+1-->1
+1-->2
+2-->2
+```
+
