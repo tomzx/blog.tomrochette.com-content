@@ -123,6 +123,9 @@ taxonomy:
 	2. A modality for a 100x100 "Go" board
 	3. A modality for some type of interpreted code (a metaphorical "codic cortex")
 * Yudkowsky recommends eliminating environmental reconstruction as a complexity source in early AI development
+* Sensory modalities are about invariants and not just regularities
+* When considering which features to extract, the question I would ask is not "What regularities are found in code?" but rather "What feature structure is needed for the AI to perceive two identical algorithms with slightly different implementations as 'the same piece of code'?" Or more concretely: "What features does this modality need to extract to perceive the recursive algorithm for the Fibonacci sequence and the iterative algorithm for the Fibonacci sequence as 'the same piece of code'?"
+* The modality level is about invariants rather than regularities and identities rather than categories
 
 # See also
 
