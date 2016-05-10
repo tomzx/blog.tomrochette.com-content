@@ -162,6 +162,16 @@ Douglas Lenat
 ### A Mathematical Theory of Communication (2016-04 - ?)
 Claude Shannon
 
+### Why AM and Eurisko Appear to Work (2016-05)
+Douglas Lenat
+
+### Discovery Systems: From AM to CYRANO (2016-05)
+Ken Haase
+
+### AM: A Case Study in AI Methodology (2016-05)
+G.D. Ritchie
+F.K. Hanna
+
 ## In the reading queue
 
 ### Design for a brain
