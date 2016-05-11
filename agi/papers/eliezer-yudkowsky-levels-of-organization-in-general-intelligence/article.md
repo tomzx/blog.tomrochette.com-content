@@ -9,6 +9,7 @@ taxonomy:
 ## Context
 
 ## Learned in this study
+* Concept creation is limited by our capacity to create feature kernels (we can cluster "red", but we can't cluster hue or saturation, or can we with enough training?)
 
 ## Things to explore
 * What is the hierarchy of components that composes an AGI?
@@ -20,6 +21,8 @@ taxonomy:
 ## Mistakes in AI
 * Implementing a process too close to the token level - trying to implement a high-level process without implementing the underlying layers of organization
 * The failure to distinguish between things that can be hardwired and things that must be learned
+
+# Notes
 
 ## 1 Foundations of General Intelligence
 * What is intelligence? A brain with a hundred billion neurons and a hundred trillion synapses; a brain in which the cerebral cortex alone is organized into 52 cytoarchitecturally distinct areas per hemisphere
@@ -126,6 +129,21 @@ taxonomy:
 * Sensory modalities are about invariants and not just regularities
 * When considering which features to extract, the question I would ask is not "What regularities are found in code?" but rather "What feature structure is needed for the AI to perceive two identical algorithms with slightly different implementations as 'the same piece of code'?" Or more concretely: "What features does this modality need to extract to perceive the recursive algorithm for the Fibonacci sequence and the iterative algorithm for the Fibonacci sequence as 'the same piece of code'?"
 * The modality level is about invariants rather than regularities and identities rather than categories
+
+## 2.5 The Concept Level
+* Concept refers to the mental stuffs underlying the words that we combine into sentences; concepts are the combinatorial building blocks of thoughts and mental imagery
+* A "concept kernel" is the pseudo-sensory pattern produced by abstracting from sensory experience
+* A programmer seeking a good representation for concept kernels must find a representation that simultaneously fulfills these requirements:
+	* The kernel representation can be satisfied by and imposed on referents in a sensory modality
+	* The kernel representation or concept representation contains the internal structure needed for faceted concept combination
+	* It is computationally tractable to abstract new kernel representations using sensory experience as raw material
+
+### The Substance of Concepts
+* One of the meanings of "abstraction" is "removal"
+* To create a concept is to generalize
+* To generalize is to lose information
+* Yudkowsky suspect that concepts do not have independent procedures for satisfaction and imposition; Yudkowsky also suspects that neither satisfaction nor imposition are the product of reinforcement learning on a fully general procedure. Rather, Yudkowsky suspects that a concept kernel consists of a pattern in a representational related to (but not identical with) the representation of sensory imagery, that this pattern is produced by transforming the experiences from which the concept is abstracted, and that this pattern interacts with the modality to implement both concept satisfaction and concept imposition
+* Even though an underlying "rule" is computationally very simple, it may be unlikely that a human will create a concept that directly incorporates the rule; it may even be impossible for a human to abstract a kernel that performs this simple computation (think of a a set of all colors with the same hue or saturation)
 
 # See also
 
