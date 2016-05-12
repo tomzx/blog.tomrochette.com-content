@@ -145,6 +145,29 @@ taxonomy:
 * Yudkowsky suspect that concepts do not have independent procedures for satisfaction and imposition; Yudkowsky also suspects that neither satisfaction nor imposition are the product of reinforcement learning on a fully general procedure. Rather, Yudkowsky suspects that a concept kernel consists of a pattern in a representational related to (but not identical with) the representation of sensory imagery, that this pattern is produced by transforming the experiences from which the concept is abstracted, and that this pattern interacts with the modality to implement both concept satisfaction and concept imposition
 * Even though an underlying "rule" is computationally very simple, it may be unlikely that a human will create a concept that directly incorporates the rule; it may even be impossible for a human to abstract a kernel that performs this simple computation (think of a a set of all colors with the same hue or saturation)
 
+### Stages in Concept Processes
+* Concept formation is a multi-stage process
+* After the creation of the concept and concept kernel(s), it would then be possible for the AI to notice concept-concept relations, such as supercategory and subcategory relations
+* After a concept has been formed, the new concept must be integrated into the system
+* Yudkowsky conjectures that matching imagery against large concept sets will be one of the most computationally intensive subprocesses in AI, perhaps the most expensive subprocess
+
+### Complex Concepts and the Structure of "Five"
+* The most important reason for decomposability is that concepts with organized internal structures are more mutable
+* A concept with internal structure or procedural structure, created by the AI's own thought processes in response to experience, is mutable by the AI's thought processes in response to further experience
+
+### Experiential Pathways to Complex Concepts
+* The full path to fiveness would probably involve:
+	* Learning physical continuity
+	* Learning unique correspondence
+	* Learning complete mapping
+	* Complete mapping using the unique-correspondence relation, also known as one-to-one mapping
+	* With one-to-one mapping, it is possible for the AI to notice that all the answers on a challenge task are related to a common prototype
+* A deliberative intelligence must build up complex concepts from simple concepts, in the same way that evolution builds high-level feature detectors above low-level feature detectors, or builds organs using tissues, or builds thoughts over concepts or modalities
+
+### Microtasks
+* Forming a complex concept requires an incremental path to that complex concept - a series of building-block concepts and precursor concepts so that the final step is a leap of manageable size
+* Under the microtask developmental model, this would be implemented by a series of microtasks of ascending difficulty and complexity, in order to coax the AI into forming the precursor concepts leading up to the formation of complex concepts and abstract concepts
+
 # See also
 
 # Sources
