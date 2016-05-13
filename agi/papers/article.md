@@ -73,6 +73,9 @@ The following lists papers I've read and reviewed or made notes for.
 
 * [Essentials of General Intelligence: The Direct Path to Artificial General Intelligence (2007)](peter-voss-essentials-of-general-intelligence-the-direct-path-to-artificial-general-intelligence)
 
+## RAND Corporation
+[Report on a General-Problem Solving Program (1959)](report-on-a-general-problem-solving-program)
+
 ## Vladimir Red'ko
 
 * [The Natural Way to Artificial Intelligence (2007)](vladimir-redko-the-natural-way-to-artificial-intelligence)
