@@ -21,6 +21,16 @@ taxonomy:
 * EURISKO requires a good amount of bootstrapping code/configuration
 * Algorithms used within slots are not open/available for editing by EURISKO
 
+# Quotes
+
+> My take on the Eurisko project is that it was a brilliant and early effort to adapt evolutionary algorithms to a complex, adaptive ecosystem in the form of software. I say complex, adaptive because the agenda mechanism implemented feedback and decay; there was a threshold below which Eurisko would leave one agenda and start messing on another, but any task from any agenda could just as easily place rewards back to any agenda, meaning the entire system was dynamic.
+
+> Like AM, Eurisko was about messing with slots in frames. AM was written in Lisp, which turned out to be problematic in the sense that claims made for AM's performance were difficult to assess; Lenat did a post-doc with Herbert Simon, from which RLL -- a representation language language was hatched to isolate Eurisko from Lisp; a kind of early DSL for discovery systems, perhaps.
+
+Jack Park (2015-02-20)
+
+Source: https://www.quora.com/Has-Douglas-Lenats-EURISKO-research-ever-been-reproduced
+
 # Notes
 
 * Automated Mathematician (AM) was an automatic programming system, whose primitive actions were modifications to pieces of LISP code, code which represented the characteristic functions of various math concepts
@@ -240,5 +250,10 @@ taxonomy:
 * Criteria which make a domain suitable for AM-like exploration (discovery of new concepts and conjectures) are - taken to extremes - the same criteria which make a domain suitable for EURISKO-like exploration (discovery of new heuristics)
 
 # See also
+*[AM: An artificial intelligence approach to discovery in mathematics as heuristic search](http://www.dtic.mil/dtic/tr/fulltext/u2/a155378.pdf)
+* [From AM to CYRANO]( https://dspace.mit.edu/bitstream/handle/1721.1/41178/AI_WP_293.pdf)
+
 
 # Sources
+* http://www.cs.northwestern.edu/~mek802/papers/not-mine/Lenat_EURISKO.pdf
+* http://aliciapatterson.org/stories/eurisko-computer-mind-its-own
