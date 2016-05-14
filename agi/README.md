@@ -44,6 +44,7 @@ Tom
 * Intelligence
 	* [Definitions](intelligence/definitions)
 	* [Tests](intelligence/tests)
+* [Knowledge transfer](knowledge-transfer)
 * [Learning](learning)
 * [Mario](mario)
 * [Mathematics based AGI](mathematics-based-agi)
