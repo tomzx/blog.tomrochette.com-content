@@ -106,7 +106,7 @@ taxonomy:
 
 ## 2.4 The Modality Level
 
-## The Evolutionary Design of Modalities in Humans
+### The Evolutionary Design of Modalities in Humans
 * Visual preprocessing begins in the first layer of the retina, which converts the raw intensities into center-surround gradients, a representation that forms the basis of all further visual processing
 * After several layers of retinal processing, the final retinal layer is composed of a wide variety of ganglion types that include directionally selective motion detectors, slow-moving edge detectors, fast movement detectors, uniformity detectors, and substractive color channels
 * Information streams to area V1, the primary visual cortex, which begins featuer extraction for information about motion, orientation, color and depth
@@ -117,7 +117,7 @@ taxonomy:
 * Evolution is a good teacher but a poor role model
 * Evolution, in constructing a system incrementally, tends to construct linear sequences or ascending layers of smooth operations
 
-## The Human Design of Modalities in AI
+### The Human Design of Modalities in AI
 * Should humanlike 3D vision be one of the first modalities attempted?
 * For an AI's initial learning experiences, Yudkowsky would advocate placing the AI in complex virtual environments, where the virtual environments are internal to the computer but external to the AI
 * Shifting to microworlds does require that experience in the microworlds reproduce functionally relevant aspects of experience in real life, including unpredictability, uncertainty, real-time process control, holonic (part-whole) organization, et cetera
@@ -167,6 +167,19 @@ taxonomy:
 ### Microtasks
 * Forming a complex concept requires an incremental path to that complex concept - a series of building-block concepts and precursor concepts so that the final step is a leap of manageable size
 * Under the microtask developmental model, this would be implemented by a series of microtasks of ascending difficulty and complexity, in order to coax the AI into forming the precursor concepts leading up to the formation of complex concepts and abstract concepts
+
+### Interactions on the Concept Level
+* To summarize some of the complexity bound up in concept-concept interactions:
+	* Concepts are associated with other concepts. Activating a concept can "prime" a nearby concept, where "priming" is usually experimentally measured in terms of decreased reaction time
+	* Nearby concepts may sometimes "slip" under cognitive pressures
+	* Concepts, in their role as categories, share territory
+	* Concepts, in their role as categories, have supercategory and subcategory relationships
+	* Concepts possess transformation relations (a -> b, 1 -> 2)
+	* Concepts act as verbs, adjectives, and adverbs as well as nouns
+	* Concepts, in their role as symbols with auditory, visual, or gestural tags, play a fundamental role in both human communication and internal human conceptualization
+
+## 2.6 The Thought Level
+* Thoughts are structures of combinatorial concepts that alter imagery within the workspace of sensory modalities
 
 # See also
 
