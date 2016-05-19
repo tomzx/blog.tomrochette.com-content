@@ -180,6 +180,18 @@ taxonomy:
 
 ## 2.6 The Thought Level
 * Thoughts are structures of combinatorial concepts that alter imagery within the workspace of sensory modalities
+* Modalities are wired; concepts are learned; thoughts are invented
+
+### Mental Imagery
+* Abstract reasoning is a means by which inductively acquired generalizations can be used in deductive reasoning
+* Confidence is a percept that sums up a network of reliances on uncertainty sources
+* An AI might best begin with separate percepts for "humanlike" confidence and "arithmetical" confidence
+
+### The Origin of Thoughts
+* Thoughts are the cognitive events that change mental imagery
+* Where do thoughts come from?
+	* First, the production of suggested thoughts
+	* Second, the selection of thoughts that appear "useful" or "possibly useful" or "important" or otherwise interesting
 
 # See also
 
