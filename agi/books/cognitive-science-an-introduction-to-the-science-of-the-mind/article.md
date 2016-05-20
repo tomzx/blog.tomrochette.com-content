@@ -49,6 +49,31 @@ taxonomy:
 * (p53) What are the starting-points for the information processing that will yield as its output an accurate representation of the layout of surfaces in the distal environment?
 	* The visual system needs to start with discontinuities in light intensity, because these are  a good guide to boundaries between objects and other physically relevant properties
 	* Representational primitives: zero-crossings (registers of sudden changes in light intensity), blobs, edges, segments, and boundaries
+* (p62) Anatomists distinguish three different parts of the mammalian brain
+	* the forebrain
+	* the midbrain
+	* the hindbrain
+* (p129) The more informationally encapsulated an information system is, the less significant the frame problem will be
+* (p130) In what format does a particular cognitive system carry information?
+* (p130) How does that cognitive system transform information?
+* (p132) How is the mind organized so that it can function as an information processor?
+* (p142) Newell and Simon's characterization of physical symbol systems
+	* Symbols are physical patterns
+	* These symbols can be combined to form complex symbol structures
+	* The physical symbol system contains processes for manipulating complex symbol structures
+	* The processes for generating and transforming complex symbol structures can themselves be represented by symbols and symbol structures within the system
+* (p148) Means-end analysis
+	1. Evaluate the difference between the current state and the goal state
+	2. Identify a transformation that reduces the difference between current state and goal state
+	3. Check that the transformation in (2) can be applied to the current state
+		* If it can, then apply it and go back to step (1)
+		* If it can't then return to step (2)
+* (p149) The trick in writing the GPS program, is building into it search strategies and sub-routines that will ensure that it reaches the goal state as efficiently as possible
+* (p155) Fodor's computer model of the mind
+	1. Causation through content is ultimately a matter of causal interactions between physical states
+	2. These physical states have the structure of sentences and their sentence-like structure determines how they are made up and how they interact with each other
+	3. Causal transitions between sentences in the language of thought respect the rational relations between the contents of those sentences in the language of thought
+* (p164) (In reply to Searle Chinese room argument) Using an English dictionary to look up words up is not entirely straightforward, and what Searle is envisaging is more complex by many orders of difficulty. The person inside the room needs to be able to discriminate between different Chinese symbols - which is no easy matter, as anyone who has tried to learn Chinese well knows. They will also need to be able to find their way around the instruction manual (which at the very least requires knowing how the symbols are ordered) and then use it to output the correct symbols. The person inside the room is certainly displaying and exercising a number of sophisticated skills
 
 # See also
 
