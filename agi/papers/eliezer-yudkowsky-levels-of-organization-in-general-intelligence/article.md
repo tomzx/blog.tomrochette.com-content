@@ -193,6 +193,25 @@ taxonomy:
 	* First, the production of suggested thoughts
 	* Second, the selection of thoughts that appear "useful" or "possibly useful" or "important" or otherwise interesting
 
+### Beliefs
+* Beliefs are learned, specific, stored, and recurrent
+* Beliefs are acquired through two major sources, induction and deduction, respectively referring to generalization over experience, and reasoning from previous beliefs
+* The strongest beliefs hve both inductive and deductive support: deductive conclusions with experiential confirmation, or inductive generalizations with causal explanations
+* Concepts are either useful or not useful, but beliefs are either true or false
+
+### Coevolution of Thoughts and Language: Origins of the Internal Narrative
+* The key difficulty in language - the step that is awkward for other species - is not the ability to associate signals; primates (and rats, for that matter) can readily associate a perceptual signal with a required action or a state of the world. The awkward step is for a signal to evoke a category as abstract imagery, apart from immediate sensory referents, which can bind to a referent later encountered
+* A de novo mind design could disentangle intelligence from language
+
+## 2.7 The Deliberation Level
+### From Thoughts to Deliberation
+* In humans, higher levels of organization are generally more accessible to introspection
+* In humans concepts are smoothly flexible and expressive because they arise from modalities; thoughts are smoothly flexible and expressive because they arise from concepts
+
+### The Dimensions of Intelligence
+* Yudkowski would say beliefs are useful because they are true, not "true" because they are useful
+* But usefulness is a stronger and more reliable test of truth; it is harder to cheat
+
 # See also
 
 # Sources
