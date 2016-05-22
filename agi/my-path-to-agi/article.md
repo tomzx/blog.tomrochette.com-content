@@ -172,6 +172,15 @@ Ken Haase
 G.D. Ritchie
 F.K. Hanna
 
+### Report on a General Problem-Solving Program (2016-05)
+Allen Newell
+John Clifford Shaw
+Herbert A. Simon
+
+### The Logic Theory Machine: A Complex Information Processing System (2016-05)
+Allen Newell
+Herbert A. Simon
+
 ## In the reading queue
 
 ### Design for a brain
