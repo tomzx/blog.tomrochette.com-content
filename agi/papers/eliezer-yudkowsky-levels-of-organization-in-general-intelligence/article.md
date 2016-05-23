@@ -211,6 +211,31 @@ taxonomy:
 ### The Dimensions of Intelligence
 * Yudkowski would say beliefs are useful because they are true, not "true" because they are useful
 * But usefulness is a stronger and more reliable test of truth; it is harder to cheat
+* 4 successively stronger grades of binding between a model and reality:
+	* A sensory binding: when there is a mapping between cognitive content in the model and characteristics of external reality
+	* A predictive binding: when a model can be used to correctly predict future events
+	* A decisive binding: when the model can predict the effects of several possible actions on reality, and choose whichever action yields the best result under some goal system
+	* A manipulative binding: when the AI can describe a desirable future with subjunctive imagery, and invent a sequence of actions which leads to that future
+* 3 successive grades of variable complexity:
+	* A discrete variable: selected from a bounded set which is computationally small
+	* A quantitative variable: selected from the set of real numbers, or from a computationally large set which approximates a smoothly varying scalar quantity
+	* A patterned variable: composed of a finite number of quantitative or discrete elements
+
+### Goals
+* Individual organisms are best regarded as adaptation-executers rather than fitness-maximizers
+
+### Activities of Intelligence: Explanation, Prediction, Discovery, Design
+* Explanation fills holes in knowledge about the past
+* Prediction fills holes in knowledge about the future
+* Discovery fills holes in knowledge about the present
+* Design fills gaps in the mental model of a tool
+* Planning fills gaps in a model of future strategies and actions
+* Explanation, prediction, discovery, and design may be employed in the pursuit of a specific real-world goal, or as an independent pursuit in the anticipation of the resulting knowledge being useful in future goals - "curiosity"
+* What all the activities have in common is that they involve reasoning about a complex, holonic model of causes and effects
+* This gives us the three elements of DGI:
+	* The what of intelligence
+	* The why of intelligence
+	* The how of intelligence
 
 # See also
 
