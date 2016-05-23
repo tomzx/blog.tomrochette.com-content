@@ -23,6 +23,9 @@ The following lists papers I've read and reviewed or made notes for.
 ## Douglas B. Lenat
 * [EURISKO: A Program That Learns New Heuristics and Domain Concepts (1982)](douglas-lenat-eurisko-a-program-that-learns-new-heuristics-and-domain-concepts)
 
+## Douglas Hofstadter
+* [The Copycat Project: A Model of Mental Fluidity and Analogy-Making](the-copycat-project-a-model-of-mental-fluidity-and-analogy-making)
+
 ## Eliezer Yudkowsky
 
 * [Levels of Organization in General Intelligence (2007)](eliezer-yudkowsky-levels-of-organization-in-general-intelligence)
@@ -74,7 +77,7 @@ The following lists papers I've read and reviewed or made notes for.
 * [Essentials of General Intelligence: The Direct Path to Artificial General Intelligence (2007)](peter-voss-essentials-of-general-intelligence-the-direct-path-to-artificial-general-intelligence)
 
 ## RAND Corporation
-[Report on a General-Problem Solving Program (1959)](report-on-a-general-problem-solving-program)
+* [Report on a General-Problem Solving Program (1959)](report-on-a-general-problem-solving-program)
 
 ## Vladimir Red'ko
 
