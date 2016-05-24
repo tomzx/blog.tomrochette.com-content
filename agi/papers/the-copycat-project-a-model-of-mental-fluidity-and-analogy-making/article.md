@@ -47,6 +47,36 @@ taxonomy:
 * This is a number intended to capture the generality and abstractness of the concept
 * Assignment of conceptual depths amount to an a priori ranking of "best-bet" concepts
 
+### Activation flow and variable link-lengths
+* Some details about the Slipnet's dynamical properties:
+	* there are a variety of link types, and for each given type, all links of that type share the same label
+	* each label is itself a concept in the network
+	* every link constantly adjusts its length according to the activation level of its label, with high activation giving rise to short links, low activation to long ones
+
+### Concepts as diffuse, overlapping clouds
+* Although it is tempting to equate a concept with a pointlike node, a concept is better identified with this probabilistic "cloud" or halo centered on a node and extending outwards from it with increasing difuseness
+* Note that whereas the Slipnet changes over the course of a single run of Copycat, it does not retain changes from run to run, or create new permanent concepts
+* The program starts out in the same initial state on every run
+* Although the Slipnet responds sensitively to events in the Workspace by constantly changing both its "shape" and the activations of its nodes, its fundamental topology remains invariant
+
+## The Workspace - Copycat's locus of perceptual activity
+* At the start of a run, the Workspace is a collection of unconnected raw data representing the situation with which the program is faced
+
+### The constant fight for probabilistic attention
+* The probability that an object will attract a prospective codelet's attention is determined by the object's salience, which is a function of both the object's importance and its unhappiness
+
+## The Coderack - source of emergent pressures in Copycat
+* All acts of describing, scanning, bonding, grouping, bridge-building, destruction, so forth in the Workspace are carried out by small, simple agents called codelets
+* There are two types of codelets: scout codelets and effector codelets
+	* A scout merely looks at a potential action and tries to estimate its promise
+	* An effector actually creates (or destroys) some structure in the Workspace
+* Each codelet, when created, is placed in the Coderack, which is a pool of codelets waiting to run, and is assigned an urgency value - a number that determines its probability of being selected from that pool as the next codelet to run
+* Bottom-up codelets (or "noticers") look around in an unfocused manner, open to what they find, whereas top-down codelets (or "seekers") are on the lookout for a particular kind of phenomenon, such as success relations or sameness groups
+
+### Pressures determine the speeds of rival processes
+* Any run starts with a standard initial population of bottom-up codelets (with preset urgencies) on the Coderack
+* At each time step, one codelet is chosen to run and is removed from the current population on the Coderack
+
 # See also
 
 # Sources
