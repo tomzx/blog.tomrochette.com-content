@@ -74,6 +74,13 @@ taxonomy:
 	2. These physical states have the structure of sentences and their sentence-like structure determines how they are made up and how they interact with each other
 	3. Causal transitions between sentences in the language of thought respect the rational relations between the contents of those sentences in the language of thought
 * (p164) (In reply to Searle Chinese room argument) Using an English dictionary to look up words up is not entirely straightforward, and what Searle is envisaging is more complex by many orders of difficulty. The person inside the room needs to be able to discriminate between different Chinese symbols - which is no easy matter, as anyone who has tried to learn Chinese well knows. They will also need to be able to find their way around the instruction manual (which at the very least requires knowing how the symbols are ordered) and then use it to output the correct symbols. The person inside the room is certainly displaying and exercising a number of sophisticated skills
+* (p199) SHAKEY's five level of functionality
+	1. Robot vehicle and connections to user programs: To navigate and interact physically with a realistic environment
+	2. Low-level actions (LLAs): To give the basic physical capabilities of the robot
+	3. Intermediate-level actions (ILAs): Packages of LLAs
+	4. STRIPS: A planning mechanism constructing MACROPS (sequences of ILAs) to carry out specific tasks
+	5. PLANEX: Executive program that calls up and monitors individual MACROPS
+* SHAKEY's software packages are built around this basic idea that complex behaviors are hierarchically organized
 
 # See also
 
