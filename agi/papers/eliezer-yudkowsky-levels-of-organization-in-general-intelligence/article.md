@@ -3,7 +3,7 @@ title: Eliezer Yudkowsky - Levels of Organization in General Intelligence (2007)
 created: 2016-04-14
 taxonomy:
   category: [Artificial General Intelligence]
-  status: in progress
+  status: finished
 ---
 
 ## Context
@@ -274,7 +274,29 @@ taxonomy:
 
 ## 3.2 Recursive Self-enhancement
 * If computational subsystems give rise to cognitive talents, and cognitive talents plus acquired expertise give rise to domain competencies, then self-improvement is a means by which domain competencies can wrap around and improve computational subsystems
+* Recursive self-improvement is a consequence of seed AI, not a cheap way to achieve AI
+* Epochs for holonic understanding and holonic programming:
+	* First epoch: The AI can transform code in ways that do not affect the algorithm implemented ("Understanding" on the order of an optimizing compiler; i.e. not "understanding" in any real sense)
+	* Second epoch: The AI can transform algorithms in ways that fit simple abstract beliefs about the design purposes of code. That is, the Ai would understand what a stack implemented as a linked list and a stack implemented as an array have in common
+	* Third epoch: The AI can draw a holonic line from simple internal metrics of cognitive usefulness (how fast a concept is cued, the usefulness of the concept returned) to specific algorithms. Consequently the AI would have the theoretical capability to invent and test new algorithms. This does not mean the AI would have the ability to invent good algorithms or better algorithms, just that invention in this domain would be theoretically possible
+	* Fourth epoch: The AI has a concept of "intelligence" as the final product of a continuous holonic supersystem. The AI can draw a continuous line from its abstract understanding of intelligence to its introspective understanding of cognition to its understanding of source code and stored data. The AI would be able to invent an algorithm or cognitive process that contributes to the intelligence in a novel way and integrate that process into the system
+* Epochs for sparse, continuous, and recursive self-improvement:
+	* First epoch: The AI has a limited set of rigid routines which it applies uniformly. Once all visible opportunities are exhausted, the routines are used up. This essentially analogous to the externally driven improvement of an optimizing compiler. An optimizing compiler may make a large number of improvements, but they are not self-improvements, and they are not design improvements. An optimizing compiler tweaks assembly language but leaves the program constant
+	* Second epoch: The cognitive processes which create improvements have characteristic complexity on the order of a classical search tree, rather than on the order of an optimizing compiler. Sufficient investments of computing power can sometimes yield extra improvements, but it is essentially an exponential investement for a linear improvement, and no matter how much computing power is invested, the total kind of improvements conceivable are limited
+	* Third epoch: Cognitive complexity in the AI's domain competency for programming is high enough that at any given point there is a large number of visible possibilities for complex improvements, albeit perhaps minor improvements. The AI usually does not exhaust all visible opportunities before the programmers improve the AI enough to make new improvements visible. However, it is only programmer-driven improvements in intelligence which are powerful enough to open new volumes of the design space.
+	* Fourth epoch: Self-improvements sometimes result in genuine improvements to "smartness,", "creativity," or "holonic understanding," enough to open up a new volume of the design space and make new possible improvements visible
+* Epochs for relative human-driven and AI-driven improvement:
+	* First epoch: The AI can make optimizations at most on the order of an optimizing compiler, and cannot make design improvements or increase functional complexity. The combination of AI and programmer is not noticeably more effective than a programmer armed with an ordinary optimizing compiler
+	* Second epoch: The AI can understand a small handful of components and make improvements to them, but the total amount of AI-driven improvement is small by comparison with programmer-driven development. Sufficiently major programmer improvements do very occasionally trigger secondary improvements. The total amount of work done by the AI on its own subsystems serves only as a measurement of progress and does not significantly accelerate work on AI programming
+	* Third epoch: AI-driven improvement is significant, but development is "strongly" programmer-dominated in the sense that overall systemic progress is driven almost entirely by the creativity of the programmers. The AI may have taken over some significant portion of the work from the programmers. The AI's domain competencies for programming may play a critical role in the AI's continued functioning
+	* Fourth epoch: AI-driven improvement is significant, but development is "weakly" programmer-dominated. AI-driven improvements and programmer-driven improvements are of roughly the same kind, but the programmers are beter at it. Alternatively, the programmers have more subjective time in which to make improvements, due to the number of programmers or the slowness of the AI
+* Epochs for overall intelligence:
+	* Tool-level AI: The AI's behaviors are immediately and directly specified by the programmers, or the AI "learns" in a single domain using prespecified learning algorithms
+	* Prehuman AI: The AI's intelligence is not a significant subset of human intelligence. Nonetheless, the AI is a cognitive supersystem, with some subsystems we would recognize, and at least some mind-like behaviors.
+	* Infrahuman AI: The AI's intelligence is, overall, of the same basic character as human intelligence, but substantially inferior. The Ai may excel in a few domains where it possesses new sensory modalities or other brainware advantages not available to humans.
 
 # See also
 
 # Sources
+* [Levels of Organization in General Intelligence
+](https://intelligence.org/files/LOGI.pdf)
