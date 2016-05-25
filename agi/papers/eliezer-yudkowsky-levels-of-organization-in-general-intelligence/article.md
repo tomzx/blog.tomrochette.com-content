@@ -237,6 +237,44 @@ taxonomy:
 	* The why of intelligence
 	* The how of intelligence
 
+### General Intelligence
+* Not only is it impossible to duplicate general intelligence through the sum of (specialized) subsystems, Yudkowsky suspect it is impossible to achieve humanlike performance in most single contexts using specialized AI
+
+### Self
+* The degrees of binding between a model and reality are sensory, predictive, decisive, and manipulative
+* An intelligent mind navigates a universe with four major classes of variables:
+	* random factors
+	* variables with hidden values
+	* the actions of other agents
+	* the actions of the self
+
+## 3 Seed AI
+* There is a fundamental rift between evolutionary design and deliberative design
+* Mutations are atomic; recombinations are random; changes are made on the genotype's lowest level of organization (flipping genetic bits); the grain size of the component tested is the whole organism; and the goodness metric operates solely through induction on historically encountered cases, without deductive reasoning about which contextual factors may later change
+* Evolution simply cannot handle simultaneous dependencies, unless individual changes can be deployed incrementally, or multiple phenotypical effects occur as the consequence of a single genetic change
+* For humans, planning coordinated changes is routine; for evolution, impossible
+* Until a stably functioning cognitive supersystem is achieved, only the nondeliberative intelligence exhibited by pieces of the system will be available
+* When the AI is "young" it is likely to be limited to understanding simple elements of a system, or small organizations of elements, and only where clear-cut goal contexts exist (probably programmer-explained)
+* A seed AI is an AI designed for self-understanding, self-modification, and recursive self-improvement
+* The consequences of seed AI (such as true recursive self-improvement) only show up after the AI has achieved significant holonic understanding and general intelligence
+
+## 3.1 Advantages of Minds-in-General
+* Humans definitely possess the following advantages, relative to current AIs:
+	* We are smart, flexible, generally intelligent organisms with an enormous base of evolved complexity, years of real-world experience, and $10^{14}$ parallelized synapses, and current AIs are not
+* Humans probably possess the following advantages, relative to intelligences developed by humans on forseeable extensions of current hardware:
+	* Considering each synaptic signal as roughly equivalent to a floating-point operation, the raw computational power of a human is enormously in excess of any current supercomputer or clustered computing system
+	* Human neural hardware - the wetware layer - offers built-in support for operations such as pattern recognition, pattern completion, optimization for recurring problems, etc.; this support was added from below, taking advantage of microbiological features of neurons, and could be enormously expensive to simulate computationally to the same degree of ubiquity
+	* With respect to the holonically simpler levels of the system, the total amount of "design pressure" exerted by evolution over time is probably considerably in excess of the design pressure that a resonably-sized programming team could expect to personally exert
+	* Humans have an extended history as intelligences; we are proven software
+* Current computer programs definitely possess these mutually synergetic advantages relative to humans:
+	* Computer programs can perform highly repetitive tasks without boredom
+	* Computer programs can execute complex extended tasks without making that class of human errors caused by distraction or short-term memory overflow in abstract deliberation
+	* Computer hardware can perform extended sequences of simple steps at much greater serial speeds than human abstract deliberation or even human 200 Hz neurons
+	* Computer programs are fully configurable by the general intelligences called humans (Evolution, the designer of humans, cannot invoke general intelligence)
+
+## 3.2 Recursive Self-enhancement
+* If computational subsystems give rise to cognitive talents, and cognitive talents plus acquired expertise give rise to domain competencies, then self-improvement is a means by which domain competencies can wrap around and improve computational subsystems
+
 # See also
 
 # Sources
