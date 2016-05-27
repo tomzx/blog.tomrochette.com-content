@@ -63,13 +63,13 @@ However, testing those 66 quintillion programs seems like a big waste of time, p
 
 Furthermore, to truly understand the issue here, we're talking about generating *only* the set of all valid strings of length 10, which is terribly small. Increase the length by one and you now have $((127 + 1) - 32)^{11} - ((127 + 1) - 32)^{(11 - 1)} = 6.3 \times 10^{21}$ (6 sextillion) of programs of length 11 to check (note that we excluded all programs of length 10 or less). Thus, building any *real* program that can get into the millions of lines of code and with an average of 10 characters per line, will require you to be wait for a while.
 
-One interesting problem here is that very small programs can be valid. For instance `0;` is a valid program. For that matter, any number should be a valid program in C (in our little 10 character program, we can generate $10^9$ programs based only on numbers: 9 numbers from 0-9 and a semi-colon (;) to terminate, considering all programs are wrapped within the obligatory `void main() { code here }`). This means we can basically generate many programs that basically do nothing other than creating giant numbers. Furthermore, there's also a ton of programs that will do arithmetic but never print out anything. Or print a ton of garbage/random. Maybe it is something we want... But often it's not.
+One interesting problem here is that very small programs can be valid. For instance `0;` is a valid program. For that matter, any number should be a valid program in C (in our little 10 character program, we can generate $10^9$ programs based only on numbers: 9 numbers from 0-9 and a semi-colon (;) to terminate, considering all programs are wrapped within the obligatory `void main() { code here }`). This means we can basically generate many programs that basically do nothing other than creating giant numbers. Furthermore, there's also a ton of programs that will do arithmetic but never print out anything. Or print a ton of garbage/random. Maybe it is something we want... But often it's not (and is generally stripped by compilers during optimization).
 
 It's also important to notice that a certain space of the program tree will represent equivalent code, just using different variable names. The same can be said about variable definition being permutated without any effect, or calculation order being permutated without having any effect. **What kind of analysis can be done in order to reduce/discover isomorphic programs?**
 
 From this little analysis, we can deduce a few *rules*:
-* A program should *produce* something, in other word generate some sort of output (doing arithmetic without returning anything amounts to running NOPs). This can be rephrased by saying that any program that is dead code should not be considered valuable.
-* If it does not produce an output, then it should alter its input. In doing so, the altered input IS the output of the program.
+* A program should *produce* something, in other word generate some sort of output (doing arithmetic without returning anything amounts to running NOPs). This can be rephrased by saying that any program that is completely composed of dead code should not be considered valuable.
+* If it does not produce an output, then it should alter its input. In doing so, the altered input IS the output of the program. In object-oriented languages, this is often what will happen.
 
 # Improving the naive program generator
 
@@ -91,11 +91,19 @@ function x(A a, B b) = function y(B b, A a)
 
 Two functions which have the exact same internal logic but different parameters order are isomorphic. In order to reduce the amount of functions generated with the same internal logic but different signature, we'll establish the following rule:
 
-**Parameter ordering rule:** Each parameter shall be ordered by their lexicographical ordering (that is (a, b) <= (a', b') if and only if a < a' or (a = a' and b <= b')).
+**Parameter ordering rule:** Each parameter shall be ordered by their lexicographical ordering (that is (a, b) <= (a', b') if and only if a < a' or (a = a' and b <= b')). Parameters of the same type are considered to be indifferentiable (their order does not matter, and thus there can only be 1).
 
 For a number $x$ of different parameters there is at most $x!$ signatures permutations. Using the **Parameter ordering rule**, we can limit it to 1.
 
-If there are $x$ types in the system, for a function with $y$ parameters we have at most $y^x$ permutations. Following the **Parameter ordering rule**, we can limit it to $\binom{y+(x-1)}{x-1}$. For example, a system with 3 types and a function with 3 parameters will have $\binom{3+(3-1)}{3-1} = \binom{5}{3} = 10$ potential function signatures and not $3^3 = 27$.
+If there are $x$ types in the system, for a function with $y$ parameters we have at most $y^x$ permutations. Following the **Parameter ordering rule**, we can limit it to $\binom{y+(x-1)}{x-1}$. For example, a system with 3 types and a function with 3 parameters will have $\binom{3+(3-1)}{3-1} = \binom{5}{2} = 10$ potential function signatures and not $3^3 = 27$.
+
+| # of parameters | Combinations | Valid signatures | Potential signatures |
+|-|-|-|-|
+| 1 | $\binom{x}{x-1}$ | $x$ | $1^x = 1$ |
+| 2 | $\binom{x+1}{x-1}$ | $\frac{x(x+1)}{2}$ | $2^x$ |
+| 3 | $\binom{x+2}{x-1}$ | $\frac{x(x+1)(x+2)}{6}$ | $3^x$ |
+| 4 | $\binom{x+3}{x-1}$ | $\frac{x(x+1)(x+2)(x+3)}{24}$ | $4^x$ |
+| y | $\binom{y+(x-1)}{x-1}$ | $\frac{(y+(x-1))!}{(x-1)!y!}$ | $y^x$ |
 
 Another thing we may do in order to limit the amount of generatable functions is to add artificial constraints such as "functions shall not have more than 10 statements" or "functions shall not have more than 3 levels of indentations" or "functions shall contain at most 1 level of indirection" (law of demeter). Using design guidelines and best practices, it may be possible to shape and reduce down the number of "acceptable" functions within our programs.
 
@@ -112,7 +120,7 @@ However, even given these *tools*, the program generator still can spend an imme
 
 When we think of programs and algorithms quality, we generally think of them in terms of complexity of time and space. Thus, in order to look for improvements in an algorithm (a unit of a program), the seed AI would have to execute said algorithm with various test cases in order to see the impact it has both on time and space. This would be considered the empirical approach to testing algorithms for improvement.
 
-Another approach, known as theoretical approach, consists of analyzing the algorithm in terms of the operation it accomplishes (such as for/foreach/while loops). This approach is very interesting as it does not require the seed AI to test many cases in order to establish if a change was an improvement or not (this is akin to doing white box testing).
+Another approach, known as theoretical approach, consists of analyzing the algorithm in terms of the operation it accomplishes (such as for/foreach/while loops and recursion ([master theorem](https://en.wikipedia.org/wiki/Master_theorem))). This approach is very interesting as it does not require the seed AI to test many cases in order to establish if a change was an improvement or not (this is akin to doing white box testing).
 
 Finally, there is an hybrid approach, which combines the previous two approaches. If you are only able to analyze the algorithm with some degree of confidence, then it is possible to validate if your estimates are correct by running various test cases against the algorithm. If your estimates are correct, then you can proceed to work on something else, otherwise you may have to review your analysis.
 
@@ -129,6 +137,17 @@ Assuming an already correct algorithm (one that is devoid of any incorrect behav
 This list is however constraining. A simple example of that constraint is asking a seed AI to optimize an algorithm such as quicksort. If it is already divided into its main parts, picking a pivot, separating values on each side of the pivot, recursively sorting, then it may not be possible to optimize any part separately. However, it may be possible to optimize the algorithm as a whole.
 
 It is important to be able to make the difference between the API and its internal, since the goal of optimizing a program is generally to rewrite the internals, however they might have been assembled, into a new structure that is more optimized for the task.
+
+# Various starting case studies
+## Optimize and improve existing code
+
+## Generate a function which fulfills a given specification (pre/post-conditions)
+
+## Build an application constructively
+If we were to iteratively generate every program from the empty string to programs such as `return 133;`, many of these valid (returning a value) programs would return either a number (signed/unsigned, integer/float/double) or a string. If we were to assign a unique identifier to each of these unique functions, we'd have millions of these simply returning numbers. However, most of us know that these functions could be summarized into something like `int a3231(int number) { return number; }`. Thus our program would need to be able to generalize such concepts or pay the cost of storing billions of intrinsic values like these in functions.
+
+# Heuristics
+* Prefer lookup/hashing over search/predicate testing
 
 # Sources
 
