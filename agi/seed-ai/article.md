@@ -43,7 +43,25 @@ The goal of building such a program is to then allow it to run free and hope tha
 
 We will obviously neglect discussing about means to control this seed AI as well as any negative consequences related to building such an AI. Those are extremely important topics, however they are not the focus of this article.
 
+For most of the article we'll consider that the seed AI will start from scratch and build up its own language. We thus will assume that the lowest language available to it is the assembly language of the hardware architecture it is deployed on (most likely x86-64).
+
 Let us first start by designing a naive program generator, with the hope we can build something simple enough that it can run on its own and evolve.
+
+# Understanding the "core" language
+The original 8086/8088 instruction set had around 100 instructions[^1]. Given this set, the seed AI has two options on how to proceed:
+* naively generate program by concatenating instructions
+* test each instruction and attempt to reason about the inputs and the outputs (registers and flags)
+In all cases, we (as the seed AI programmer) will have no choice but to write some sort of bootstrap program.
+
+Naively generating programs is easy. But it is also terribly inefficient.
+
+Writing a boostrap program that will be able to provide the seed AI with the capability to reason about its instructions and their impact is probably close to providing the seed AI with intelligence to begin with.
+
+Based on these two results, is it still a possible or viable solution to look into seed AI? Maybe.
+
+Here we tried to bootstrap the seed AI from scratch, and it appears to give us too much difficulty before we can reach any meaningful value. What we can do to improve our chances is to look into providing the seed AI with a bigger bootstrap program. For example, by providing it with a standard library for example, it will be possible for it to copy and mutate existing bits of code.
+
+Another option is to move the core language of the seed AI to a high-level language such that it may not have to worry about low-level constructs (such as `MOV`, `JMP` and such) but higher levels one (function declaration, function calls and such). This idea could be applied at any programming language level, which means it could be possible to bootstrap the seed AI in any given language.
 
 # The program tree
 
@@ -173,12 +191,70 @@ If we were to iteratively generate every program from the empty string to progra
 	* Properly define classes collaborators
 	* Reduce coupling
 
+# Functions of a seed AI
+We will assume that our seed AI "evolves" through immutability, that is, once a function is generated, it is never modified. If we want a function with similar code but a little different, then this function's code is duplicated and changes are applied to it. Finally, functions may be removed if a generalized instance is available (e.g. multiplication by addition (3x5 = 5+5+5) being replaced by multiplication (3x5 = 15))
+
+The following is a list of functions we expect to find in a seed AI for it to be able to evolve.
+
+* Generate code (requires the capability to generate syntatically valid statements and expressions)
+* Copy (existing) code
+* Modify (existing) code (by copying and generating code)
+* Execute code
+* Remove code
+* Generalize code (requires the capability to recognize that different code generate the same results, and that code can be removed)
+* Simulate code (using an internal model of the language)
+
+Below is a graphical representation of what a typical new programmer will go through as he learns to program. You can think of all the steps as applying to the code (copying code, executing code, removing code, etc.).
+
+```mermaid
+graph TD;
+	1[Generate]
+	2[Copy]
+	3[Modify]
+	4[Execute]
+	5[Remove]
+	6[Generalize]
+	7[Model]
+	8[Simulate]
+	9[Samples]
+	
+	2-->4
+	4-->5
+	5-->1
+	7-->8
+	4-->9
+	9-->7
+	
+	2-->3
+	5-->3
+	1-->3
+	3-->6
+	4-->6
+	8-->6
+```
+
+# Holonic (program) language
+As the seed AI begin life, it will have to use the very lowest language available to it. As its ability to build more and more complex elements increases, so will its language evolve. Similarly to programming languages, the seed AI will most likely go from an assembly level of code to a more high level language such as C or C++, then possibly move on to more dynamic languages such as Python, Ruby or PHP to finally build higher and higher languages which can more succintly express ideas using lower level constructs.
+
+Given that many programming languages already exist, it would be valuable, both to us and the seed AI, that the seed AI be able to use these languages. For us, it is beneficial in the sense that it would allow us to use the seed AI to potentially produce code. For the seed AI, it would mean that existing code could be analyzed in order to extract meaningful new functionality. Furthermore, it's generally more effective to copy existing designs than start from scratch.
+
+## Binary code (1GL)
+## Machine code (1GL)
+## Assembly language (2GL)
+## Middle/High level languages (3GL)
+## Scripting/Interpreted languages (4GL)
+## Constraint-based languages
+## Natural languages (?GL)
+
 # Sources
+
+[^1]: https://en.wikipedia.org/wiki/X86_instruction_listings#Original_8086.2F8088_instructions
 
 * https://en.wikipedia.org/wiki/Recursive_self-improvement
 * http://wiki.lesswrong.com/wiki/Seed_AI
 * http://mattmahoney.net/rsi.pdf
 * Turing, Alan. *Intelligent Machinery*. London: National Physical Laboratory, 1948. Ed. B. Jack Copeland. The Essential Turing. Oxford: Clarendon Press, 2004. 430
+* https://en.wikipedia.org/wiki/Programming_language_generations
 
 ## Seed AIs
 
