@@ -144,10 +144,34 @@ It is important to be able to make the difference between the API and its intern
 ## Generate a function which fulfills a given specification (pre/post-conditions)
 
 ## Build an application constructively
-If we were to iteratively generate every program from the empty string to programs such as `return 133;`, many of these valid (returning a value) programs would return either a number (signed/unsigned, integer/float/double) or a string. If we were to assign a unique identifier to each of these unique functions, we'd have millions of these simply returning numbers. However, most of us know that these functions could be summarized into something like `int a3231(int number) { return number; }`. Thus our program would need to be able to generalize such concepts or pay the cost of storing billions of intrinsic values like these in functions.
+If we were to iteratively generate every program from the empty string to programs such as `return 133;`, many of these valid (returning a value) programs would return either a number (signed/unsigned, integer/float/double) or a string. If we were to assign a unique identifier to each of these unique functions, we'd have millions of these simply returning numbers. However, most of us know that these functions could be generalized into something like `int a3231(int number) { return number; }` (however such function is so simple it is basically a value pass-through). Thus our seed AI would need to be able to generalize such concepts or pay the cost of storing billions of intrinsic values like these in functions.
+
+# Capabilities of a seed AI
+* Generalize/Refactor similar function
+* Understand what data structures are iterated over and what is being done over this data
 
 # Heuristics
 * Prefer lookup/hashing over search/predicate testing
+
+# What do programmers do to improve code?
+(tentatively sorted from easiest to automate to hardest)
+
+* Detect and fix defects
+	* Invalid syntax
+	* Incorrect logic
+	* Use of proper types
+* Remove dead code
+* Define and follow code style standard
+* Use more appropriate data structures for the given use cases
+* Reduce code complexity
+	* Law of Demeter
+	* Limit on functions/methods line count
+	* Cyclomatic complexity
+* Create test cases to ensure code stability during changes
+* Refactor improper architecture
+	* Properly define classes responsabilities
+	* Properly define classes collaborators
+	* Reduce coupling
 
 # Sources
 
