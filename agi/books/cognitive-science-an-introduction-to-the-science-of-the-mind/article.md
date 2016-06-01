@@ -81,6 +81,17 @@ taxonomy:
 	4. STRIPS: A planning mechanism constructing MACROPS (sequences of ILAs) to carry out specific tasks
 	5. PLANEX: Executive program that calls up and monitors individual MACROPS
 * SHAKEY's software packages are built around this basic idea that complex behaviors are hierarchically organized
+* (p236) The backpropagation algorithm is not very biologically plausible. There is no evidence that error is propagated backwards in the brain. And nature rarely provides feedback as detailed as the algorithm requires
+* (p236) However, there are other learning algorithms. Competitive networks using Hebbian learning do not require explicit feedback, and there is evidence for local learning in the brain
+* (p243) Fodor thinks of the process of acquiring a language as a lengthy process of mastering the appropriate rules, starting with the simplest rules governing the meaning of everyday words, moving on to the simpler syntatic rules governing the formation of sentences, and then finally arriving at the complex rules such as those allowing sentences to be embedded within further sentences and the complex transformational rules discussed by Chomsky and other theoretical linguists
+* (p245) Fodor argues that learning a language has to involve learning truth rules
+* (p245) Learning a public language such as English, even if it is your first language, requires you to formulate, test, and revise hypotheses about the truth rules governing individual words. These hypotheses have to be formulated in some language. A truth rule is, after all, just a sentence. But which language are truth rules formulated in?
+* (p245) Fodor thinks that it cannot be the language being learnt. You cannot use the language that you are learning to learn that language
+* (p245) It can only be the language of thought
+* (p247) There are robust data indicating that children go through three principal stages in learning how to use the past tense in English
+* (p247) In the first stage you language learners employ a small number of very common words in the past tense. Most of these verbs aer irregular and the standard assumption is that children learn these past tenses by rote
+* (p247) In the second stage children use a much greater number of verbs in the past tense, some of which are irregular but most of which employ the regular past tense ending of "-ed" added to the root of the verb. [...] Surprisingly, children at this stage take a step backwards. They make mistakes on the apst tense of the irregular verbs that they had previously given correctly. These errors are known as over-regularization errors
+* (p247) In the third stage children cease to make these over-regularization errors and regain their earlier performance on the common irregular verbs while at the same time improving their command of regular verbs
 
 # See also
 
