@@ -55,7 +55,7 @@ Tom Murphy VII
 ### Naive set theory (2015-08 - ?)
 Paul R. Halmos
 
-### A Mathematical Theory of Communication (2015-08 - ?)
+### A Mathematical Theory of Communication (2015-08 - 2016-05)
 Claude E. Shannon
 
 ### A Model for Recursively Self Improving Programs (2015-09)
@@ -159,9 +159,6 @@ Breden Lake
 ### EURISKO: A Program That Learns New Heuristics and Domain Concepts (2016-04)
 Douglas Lenat
 
-### A Mathematical Theory of Communication (2016-04 - ?)
-Claude Shannon
-
 ### Why AM and Eurisko Appear to Work (2016-05)
 Douglas Lenat
 
@@ -180,6 +177,13 @@ Herbert A. Simon
 ### The Logic Theory Machine: A Complex Information Processing System (2016-05)
 Allen Newell
 Herbert A. Simon
+
+### The Copycat Project: A Model of Mental Fluidity and Analogy-Making (2016-05 - ?)
+Douglas Hofstadter
+Melanie Mitchell
+
+### Minds, Machines and Gödel (2016-05)
+J.R. Lucas
 
 ## In the reading queue
 
