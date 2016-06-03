@@ -77,6 +77,34 @@ taxonomy:
 * Any run starts with a standard initial population of bottom-up codelets (with preset urgencies) on the Coderack
 * At each time step, one codelet is chosen to run and is removed from the current population on the Coderack
 
+### The shifting population of the Coderack
+* Replenishment of the Coderack takes place constantly, and this happens in three ways:
+	* Bottom-up codelets are continually being added to the Coderack
+	* Codelets that run can, among other things, add one or more follow-up codelets to the Coderack before being removed
+	* Active nodes in the Slipnet can add top-down codelets
+* There is a feedback loop between perceptual activity and conceptual activity, with observations in the Workspace serving to activate concepts, and activated concepts in return biasing the directions in which perceptual processing tends to explore
+
+## The Emergence of Fluidity in the Copycat Architecture
+### Commingling pressures - the crux of fluidity
+* Although some large-scale actions tend to look planned in advance, that appearance is illusory; patterns in the processing are all emergent
+
+### Time-evolving biases
+* At the very start of a run, the Coderack contains exclusively bottom-up similarity-scanners, which represent no situation-specific pressures
+* As these early codelets run, the Workspace starts to fill up with bonds and small groups and, in response to these discoveries, certain nodes in the Slipnet are activated
+* In this way, situation-specific pressures are generated and cause top-down codelets to be spawned by concepts in the Slipnet
+* As processing takes place and perceptual discoveries of all sorts are made, the system loses this naïve, open-minded quality, as indeed it ought to, and usually ends up being "closed-minded" - that is, strongly biased towards the pursuit of some initially unsuspected avenue
+
+### Temperature as a regulator of open-mindedness
+* The more informed the system is, the more important it is that top-level decisions not be capriciously made
+* There is a variable that monitors the stage of processing, and helps to convert the system from its initial largely bottom-up, open-minded mode to a largely top-down, closed-minded one
+* This variable is given the name temperature
+* What controls the temperature is the degree of perceived order in the Workspace
+* Note that although the overall trend is for temperature to wind up low at the end of a run, a monotonic drop in temperature is not typical; often, the system's temperature goes up and down many times during a run, reflecting the system's uncertain advances and retreats as it builds and destroys structures in its attempts to home in on the best way to look at a situation
+* What the temperature itself controls is the degree of randomness used in decision-making
+* Note that the notion of temperature in Copycat differs from that in simulated annealing
+* In simulated annealing, temperature is used exclusively as a top-down randomness-controlling factor, its value falling monotonically according to a predetermined, rigid "annealing schedule"
+* By contrast, in Copycat, the value of the temperature reflects the current quality of the system's understanding, so that temperature acts as a feedback mechanism that determines the degree of randomness used by the system
+
 # See also
 
 # Sources
