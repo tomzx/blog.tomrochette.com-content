@@ -92,6 +92,16 @@ taxonomy:
 * (p247) In the first stage you language learners employ a small number of very common words in the past tense. Most of these verbs aer irregular and the standard assumption is that children learn these past tenses by rote
 * (p247) In the second stage children use a much greater number of verbs in the past tense, some of which are irregular but most of which employ the regular past tense ending of "-ed" added to the root of the verb. [...] Surprisingly, children at this stage take a step backwards. They make mistakes on the apst tense of the irregular verbs that they had previously given correctly. These errors are known as over-regularization errors
 * (p247) In the third stage children cease to make these over-regularization errors and regain their earlier performance on the common irregular verbs while at the same time improving their command of regular verbs
+* (p254) According to James, neonates inhabit a universe radically unlike our own, composed solely of sensations, with no sense of differentiation between self and objects or between self and other, and in which the infant is capable only of reflex actions. It takes a long time for this primitive form of existence to become the familiar world of people and objects and for reflexes to be replaced by proper motor behavior
+* (p254) Researchers have developed techniques for exploring the expectations that infants have about how objects will behave. It is now widely held that even very young infants inhabit a highly structured and orderly perceptual universe. The most famous technique in this area is called the dishabituation paradigm
+* (p255) The basic idea behind the dishabituation paradigm is that infants look longer at events that they find surprising
+* (p256) Baillargeon's drawbridge experiments, together with other experiments using the same paradigm, have been taken to show that even very young infants have the beginnings of what is sometimes called folk physics (or naïve physics) - that is to say, an understanding of some of the basic principles governing how physical objects behave and how they interact
+* (p257) Elizabeth Spelke four principles:
+	* Principle of cohesion: surfaces belong to a single individual if and only if they are in contact
+	* Principle of contact: only surfaces that are in contact can move together
+	* Continuity constraint: an object cannot be present and then suddenly absent (peekaboo)
+	* Solidity constraint: it is impossible for more than one object to be in a single place at one time
+* (p262) According to the neural networks approach to object permanence, the expectations that infants have about how objects will behave reflect the persistence of patterns of neural activation - patterns that vary in strength as a function of the number of neurons firing, the strength and number of the connections between them, and the relations between their individual firing rates
 
 # See also
 
