@@ -102,6 +102,28 @@ taxonomy:
 	* Continuity constraint: an object cannot be present and then suddenly absent (peekaboo)
 	* Solidity constraint: it is impossible for more than one object to be in a single place at one time
 * (p262) According to the neural networks approach to object permanence, the expectations that infants have about how objects will behave reflect the persistence of patterns of neural activation - patterns that vary in strength as a function of the number of neurons firing, the strength and number of the connections between them, and the relations between their individual firing rates
+* (p271) Fodor and Pylyshyn's argument against neural networks being a serious competitor of the physical symbol system hypothesis (aka Fodor-Pylyshyn dilemma)
+	1. Either artificial neural networks contain representations with separable and
+	recombinable components, or they do not.
+	2. If they do contain such representations, then they are simply implementations of
+	physical symbol systems.
+	3. If they do not contain such representations, then they cannot plausibly be described as
+	algorithmic information processors.
+	4. Either way, therefore, artificial neural networks are not serious competitors to the
+	physical symbol system hypothesis.
+* (p281) An agent is a system that perceives its environment through sensory systems of some type and acts upon that environment through effector systems
+* (p286) Horizontal faculty psychology: Domain-general
+* (p286) Vertical faculty psychology: Domain-specific
+* (p287) Domain-specific faculties are informationally encapsulated, they can only call upon a very limited range of information
+* (p287) Each vertical cognitive faculty has its own database of information relevant to the task it is performing, and it can use only information in this database (Fodor call these cognitive faculties cognitive modules)
+* (p288) Modular processes have the following four characteristics:
+	* Domain-specificity: Modules are highly specialized mechanisms that carry out very specific and circumscribed information-processing tasks
+	* Informational encapsulation: Modular processing remains unaffected by what is going on elsewhere in the mind. Modular systems cannot be "infiltrated" by background knowledge and expectations, or by information in the databases associated with different modules
+	* Mandatory application: Cognitive modules respond automatically to stimuli of the appropriate kind, rather than being under any executive control. It is evidence that certain types of visual processing are modular that we cannot help but perceive visual illusions, even when we know them to be illusions
+	* Speed: Modular processing transforms input (e.g. patterns of intensity values picked up by photoreceptors in the retina) into output (e.g. representations of three-dimensional objects) quickly and efficiently
+* (p289) Two further features that sometimes characterize modular processes:
+	* Fixed neural architecture
+	* Specific breakdown patterns
 
 # See also
 
