@@ -117,7 +117,7 @@ The lowest level of "indivisible" knowledge. Anything that can be thought of men
 
 Each concept is presented as a node in a graph. At this layer, the graph is simply a set of vertices without any edges, also known as a [null graph](https://en.wikipedia.org/wiki/Null_graph).
 
-In a textual format, we can think of the concepts as a list with one concept per line. Similarly named concepts may take multiple lines (i.e. mouse as an animal and as a computer device), although it is suggested to use terms as descriptive as possible (computer mouse vs mouse).
+In a textual format, we can think of the concepts as a list with one concept per line. Similarly named concepts may take multiple lines (e.g. mouse as an animal and as a computer device), although it is suggested to use terms as descriptive as possible (computer mouse vs mouse).
 
 #### Example
 Jack
@@ -172,6 +172,21 @@ Father John Jack
 Son Jack John
 
 #### Capabilities
+
+# What is the fastest way to transfer information from the brain into text (or any app data format)?
+If we are to consider not only existing, but "possible" in the future options, here is what could be done, ordered from the fastest (hypothetical) to slowest (concrete).
+
+Quantum entanglement of every electron of the brain with a computer memory. Using this method, the computer would be able to access the memory as if it was its own, without any latency.
+
+[Matrix-like headjack](http://matrix.wikia.com/wiki/Headjack). Similar to ethernet cables, a brain could be connected to one or many computers through a communication link.
+
+Similar to the headjack, modalities input could be recorded and sent to a computer. In this sense, the computer would have "unprocessed" signal available, but no information about what the brain decided to do with the signal.
+
+Though identification/telepathy. Using an electroencephalogram to record brain activity, it may be possible to associate thoughts with words, effectively making it possible to convert our internal dialog into an external dialog. Hardware/softwared-aided telepathy would be the process of extracting the dialog in one's mind through the EEG, sending it to another person for which the signal would be translated/converted into electromagnetic signal that this person can recognize as the original message.
+
+Say aloud what you want to transfer to a computer and use speech recognition software. The speed of the transfer depends on the quality of the speech recognition software, namely its ability to properly identify the spoken words based on sound and semantics. Furthermore, a speech recognition software that is able to process accelerated speech will improve information transfer speed.
+
+Type down every bit of information you want to transfer into a computer software (custom software or text editor). The speed of the transfer highly depends on the UI of the software.
 
 # See also
 
