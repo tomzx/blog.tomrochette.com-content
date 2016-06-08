@@ -21,6 +21,23 @@ taxonomy:
 
 Learning is lossy encoding (similar to lossy compression).
 
+# Learning rate
+
+In the machine learning world, the more examples you have, the better your algorithm becomes at properly predicting the outcome based on its training data. We correlate this improvement in prediction skills with saying that the machine appears to be "more intelligent". If we were to make a parallel with human learning, would it be appropriate to extrapolate that in order to become more intelligent, one has to learn more examples? Is intelligence the accumulation of examples with the purpose of building a general association-trigger system (you see something that looks like an example of something you've seen in the past and it triggers related memories)?
+
+# How would you optimize learning about 100+ topics on wikipedia?
+Relevant information could be extracted and used to create SRS (space repetition system) cards. These cards would be reviewed based on the SRS itself.
+
+The list of topics/articles could be inserted in a software that would build a relation graph between all those topics/articles. Various metrics could be extracted from the articles (article first/last edit dates, size of article, number of incoming/outgoing links, number of editors, article quality, etc.) in an attempt to sort the articles by some "relevancy" order.
+
+Plan the order in which you are going to read the articles. By using the previously mentioned tool, the relation graph could give you an idea of the order you should read the articles. It is generally easier to read about a topic in chronological order as it will explain how understanding has developed over time.
+
+The content of articles could be extracted. With enough advanced NLP tools it would be possible to order the claims/facts such that one claim can induce the next, making it easier to read a collection of articles.
+
+Track what you read. This can be done either by writing down the articles you've read or using the watchlist feature of wikipedia. If you are writing down which articles you've read, I suggest it is written in a computer document so that you can verify if you've already read the article. Furthermore, I'd write down the date at the time the article was read so that if you want to read the article again later on, you can look at only the changes that were applied since then. However, I strongly recommend simply using wikipedia's watchlist system which does this (it does not track when the article was added to the watchlist though).
+
+While reading an article, write down related topics. New knowledge is better remembered when it is well integrated within our graph of knowledge.
+
 # See also
 
 # Sources
