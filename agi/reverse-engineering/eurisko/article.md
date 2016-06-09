@@ -15,6 +15,7 @@ taxonomy:
 	* If it can be stored in files, then we can put it under version control
 * One current limitation is that algorithms and definitions are "hardcoded" in the sense that they are provided to EURISKO and not manipulated by EURISKO itself. Given that we may have thousands or more concepts, and that concepts may have tens to hundreds or thousands of slots which generally contain such algorithms/definitions, writing code for each of them will be time consuming while it could be done by the AGI itself
 * Can heuristics specialize/generalize (that is, move from one concept to another in a hierarchy chain)?
+* Concepts can be see as classes in OOP, where generalizations and specializations are basically the supertypes and subtypes
 
 ## Nice to have
 * Definition editor
@@ -96,6 +97,33 @@ taxonomy:
 * Each slot should describe what it means to have a value stored on itself
 	* type
 	* constraints (length, min/max, regex, etc.)
+
+# Slots/Facets
+* Name: What shall we call C when communicating with the user?
+* Generalizations: Which other concepts have less restrictive definitions than C?
+* Specializations: Which concepts satisfy C's definition plus some additional constraints?
+* Examples: What are some things that satisfy C's definition?
+* IsA: Which concepts' definitions does C itself satify?
+* InDomainOf: Which operations can be performed on C's?
+* InRangeOf: Which operations result in values which are C's?
+* Views: How can we view some other kind of entity as if it were a C?
+* Intuitions: What is an abstract, analogic representation for C? **(removed)**
+* Analogies: Are there similar (though formally unrelated) concepts?
+* Conjectures: What are some potential theorems involving C?
+* Definitions: How can we tell if x is an example of C?
+* Algorithms: How can we execute the operation C on a given argument?
+* Domain/Range: What kinds of arguments can operation C be executed on? What kinds of values will it return?
+* Worth: How valuable is C? (overall, aesthetic, utility, etc.)
+* Interestingness: What features make a C especially interesting?
+
+## Subfacets
+Contains heuristics for dealing with that facet of C
+* FillIn: How can entries on this facet be filled in? These heuristics get called on when the current task is "Fill in facet F of concept X", where X is a C
+* Check: How can potential entries on this facet be checked and patched up?
+* Suggest: If we get bogged down, what are some new tasks (related to this facet) that we might consider?
+
+# Heuristics
+* If a concept is composed of many components, then get rid of a component and create a new concept out of it (generalization/abstraction)
 
 # See also
 
