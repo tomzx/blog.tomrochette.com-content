@@ -23,6 +23,16 @@ taxonomy:
 
 # Overview
 
+## High level overview
+* EURISKO uses an agenda-based approaches where different task are part of a list and where priorities change over time
+* The regular workflow is as follow:
+	1. Pick the highest priority task in the agenda
+	2. Work on the task (this may generate new tasks)
+	3. Evaluate how "valuable" working on this task was (using evaluation criteria)
+	4. Return to step 1.
+
+## Notes
+
 * GET/PUT functions to retrieve/update data
 * Calls to GET should specify the reason behind the call (Existence, Length, Some, Up-to-date) and how much resources can be spent (Time, Cells, Queries)
 * Data has slots (attributes/fields/properties)
