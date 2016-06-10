@@ -162,6 +162,9 @@ Douglas Lenat
 ### Why AM and Eurisko Appear to Work (2016-05)
 Douglas Lenat
 
+### AM: An Artificial Intelligence Approach to Discovery in Mathematics as Heuristic Search (2016-05 - 2016-06)
+Douglas Lenat
+
 ### Discovery Systems: From AM to CYRANO (2016-05)
 Ken Haase
 
@@ -184,6 +187,12 @@ Melanie Mitchell
 
 ### Minds, Machines and Gödel (2016-05)
 J.R. Lucas
+
+### Approaches to Automatic Programming (2016-06)
+Alan Biermann
+
+### Duplicated Code Refactoring Advisor (DCRA) (2016-06)
+Francesco Zanoni
 
 ## In the reading queue
 
