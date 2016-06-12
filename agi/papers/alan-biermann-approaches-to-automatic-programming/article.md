@@ -12,6 +12,8 @@ taxonomy:
 
 ## Things to explore
 * Is building a set of inductive/constructive examples more likely to properly induce a program synthesizer toward the appropriate program?
+* What is the maximal size of a function such an could generate?
+* How complex are the functions that can be generated? Can it handle recursive functions? 
 
 # Overview
 
@@ -60,6 +62,23 @@ taxonomy:
 	* Find a program that executes each required sequence of operations $S_i$ when given its associated input $X_i$
 * The discovery of acceptable sequences $S_i$ can involve an astronomical amount of enumeration
 * There may be many sequences $S_i$ that convert $X_i$ to $Y_i$ and a method must be found for discovering which sequence to use for each $i$.
+
+## 3.6 Discussion
+* Program construction processes have been speeded up sufficiently through the use of enumeration pruning, limiting assumptions on the class of programs being synthesized, and user-specified example calculations so that programs of practical size can be created automatically
+* The approach (described) has the following advantages:
+	* The user has no need to learn traditional language syntax
+	* The user has direct visual contact with his data structures and can manipulate them in an extremely natural manner with his hands
+* Major disadvantages of the approach are:
+	* The display terminals are not large enough to display easily large or multidimensional data structures
+	* The correctness of automatically generated programs is not always easy to determine
+* The "trace" of the computation can be efficiently constructed for large classes of functions from the structures of the input and output lists
+* Furthermore, the programs can be built from the traces almost algorithmically with little or no searching
+
+## 4 Synthesis from Formal Input-Output Specifications
+## 4.1 Introduction
+* Rather than giving examples of the desired program behavior, it may be preferable to specify precisely the required input-output characteristics and have the program automatically generate from these
+
+## 4.2 Synthesizing Branching and Looping Structures
 
 # See also
 
