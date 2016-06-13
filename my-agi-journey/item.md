@@ -2,9 +2,9 @@
 title: My AGI journey
 created: 2015-11-13
 taxonomy:
-	type: post
-	tag: [ai]
-	status: draft
+    type: post
+    tag: [ai]
+    status: draft
 ---
 
 Over the next year (and hopefully years), I plan on working on AI, but more particularly what is known as AGI, Artificial General Intelligence.
@@ -16,8 +16,8 @@ Since I am the kind of person that enjoys to overly plan, I've been thinking abo
 ## Beginning of the day
 
 * Video log
-	* What I'll be doing today
-	* What might be blocking me or will be difficult and how I plan to tackle that
+	* What will I be doing today?
+	* What might be blocking me or will be difficult and how do I plan to tackle that?
 
 ## During the day
 
@@ -26,8 +26,14 @@ Since I am the kind of person that enjoys to overly plan, I've been thinking abo
 ## End of the day
 
 * Video log
-	* What I have done during the day
-	* What I didn't do
+	* What have I done during the day?
+	* What are the key takeaway of the day?
+	* What didn't I do?
+
+# While reading books/papers
+* Take notes (of interesting sections)
+* Write down thoughts
+* Write down questions related to what is being read (for further exploration)
 
 # After each *mini* project
 
@@ -36,3 +42,7 @@ I plan on working on multiple mini projects in order to ensure diversity as well
 * Post mortem
 	* What went wrong
 	* What went right
+
+# Living process
+
+I will be experimenting with this process in the next few weeks and will iterate on it as I see fit. I will thus be updating this post as changes occurs and I think of better ways to do my work.
