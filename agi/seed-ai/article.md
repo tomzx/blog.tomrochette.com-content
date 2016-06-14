@@ -34,6 +34,7 @@ In other words, a seed AI is one that would learn and understand how program wor
 	* https://en.wikipedia.org/wiki/Origin_of_replication (What are the origin of DNA?)
 * Generating programs amount to generating graphs, what does that imply?
 * Learn "valuable" programs from a training set (SL), then use MCTS + Q-Learning (policy network + value network) to determine the direction in which newer programs should be searched (RL)
+* Considering a seed AI will eventually create any function, what are the consequences of that?
 
 # Overview
 
@@ -104,10 +105,10 @@ In an attempt to reduce the volume of valid, but isomorphic programs, we will sp
 We'll assume we're using a high level language with typing.
 
 ```cpp
-function x(A a, B b) = function y(B b, A a)
+C x(A a, B b) = C y(B b, A a)
 ```
 
-Two functions which have the exact same internal logic but different parameters order are isomorphic. In order to reduce the amount of functions generated with the same internal logic but different signature, we'll establish the following rule:
+Two functions which have the exact same internal logic and return type but different parameters order are isomorphic. Furthermore, many functions which do not have the same syntax can have the same semantic (different code, same result). In order to reduce the amount of functions generated with the same internal logic but different signature, we'll establish the following rule:
 
 **Parameter ordering rule:** Each parameter shall be ordered by their lexicographical ordering (that is (a, b) <= (a', b') if and only if a < a' or (a = a' and b <= b')). Parameters of the same type are considered to be indifferentiable (their order does not matter, and thus there can only be 1).
 
@@ -124,6 +125,112 @@ If there are $x$ types in the system, for a function with $y$ parameters we have
 | y | $\binom{y+(x-1)}{x-1}$ | $\frac{(y+(x-1))!}{(x-1)!y!}$ | $y^x$ |
 
 Another thing we may do in order to limit the amount of generatable functions is to add artificial constraints such as "functions shall not have more than 10 statements" or "functions shall not have more than 3 levels of indentations" or "functions shall contain at most 1 level of indirection" (law of demeter). Using design guidelines and best practices, it may be possible to shape and reduce down the number of "acceptable" functions within our programs.
+
+# Constructing functions
+Let's assume that all that is available to us to write a new function is a list of existing functions.
+
+First we want look at parameterless functions.
+
+```cpp
+SomeType myFunction() {
+	// ...
+}
+```
+
+A parameterless function can do three of the following things:
+* Return data (an intrinsic value or some structure/object)
+* Call other parameterless functions
+* Call other functions with parameters by instantiating the required arguments internally through a call to other parameterless functions
+
+## Return data (Instantiator)
+```cpp
+struct SomeType {
+	int a;
+	double b;
+};
+
+// Instantiator
+SomeType myFunction() {
+	SomeType c;
+	c.a = 3;
+	c.b = 3.1415;
+	return c;
+}
+```
+
+* It can return consumable data
+* It can instantiate static data
+
+## Call other parameterless functions (Delegator)
+
+```cpp
+// Instantiator
+SomeType myOtherFunction() {
+	// ...
+}
+
+// Delegator
+SomeType myFunction() {
+	return myOtherFunction();
+}
+```
+
+Overall, the "functions" of such a function are:
+* Encapsulating functions ($f() = g()$)
+* Encapsulating sequence of functions ($f() = g(),h(),i()$)
+* Function composition/Chaining functions calls ($f = g \circ h \circ i = g(h(i()))$)
+* Recursive function calls ($f = f^n$)
+
+## Call other functions with parameters
+
+```cpp
+// Instantiator
+int myIntFunction() {
+	return 3;
+}
+
+// Instantiator/Mutator
+SomeType myOtherFunction(int x) {
+	// ...
+}
+
+// Delegator/Chainer
+SomeType myFunction() {
+	int x = myIntFunction();
+	return myOtherFunction(x);
+}
+```
+
+Here we observe that calling functions with parameters only amounts to calling the appropriate instantiator and passing the result to the function expecting an argument.
+
+We can consider the following program
+
+```cpp
+SomeType myOtherFunction(int x) {
+	// ...
+}
+
+SomeType myFunction() {
+	return myOtherFunction(3);
+}
+```
+
+to be convertible into
+
+```cpp
+int myIntFunction() {
+	return 3;
+}
+
+SomeType myOtherFunction(int x) {
+	// ...
+}
+
+SomeType myFunction() {
+	int x = myIntFunction();
+	return myOtherFunction(x);
+}
+```
 
 # Some problems that remain
 
@@ -190,6 +297,7 @@ If we were to iteratively generate every program from the empty string to progra
 	* Properly define classes responsabilities
 	* Properly define classes collaborators
 	* Reduce coupling
+* Write code in terms of pre/post-conditions and return as soon as possible
 
 # Functions of a seed AI
 We will assume that our seed AI "evolves" through immutability, that is, once a function is generated, it is never modified. If we want a function with similar code but a little different, then this function's code is duplicated and changes are applied to it. Finally, functions may be removed if a generalized instance is available (e.g. multiplication by addition (3x5 = 5+5+5) being replaced by multiplication (3x5 = 15))
@@ -217,14 +325,14 @@ graph TD;
 	7[Model]
 	8[Simulate]
 	9[Samples]
-	
+
 	2-->4
 	4-->5
 	5-->1
 	7-->8
 	4-->9
 	9-->7
-	
+
 	2-->3
 	5-->3
 	1-->3
@@ -255,6 +363,7 @@ Given that many programming languages already exist, it would be valuable, both 
 * http://mattmahoney.net/rsi.pdf
 * Turing, Alan. *Intelligent Machinery*. London: National Physical Laboratory, 1948. Ed. B. Jack Copeland. The Essential Turing. Oxford: Clarendon Press, 2004. 430
 * https://en.wikipedia.org/wiki/Programming_language_generations
+* Lenat, Douglas B. [AM: An Artificial Intelligence Approach to Discovery in Mathematics as Heuristic Search](http://www.dtic.mil/dtic/tr/fulltext/u2/a155378.pdf). Stanford: Computer Science Dept., Stanford University, 1976.
 
 ## Seed AIs
 
