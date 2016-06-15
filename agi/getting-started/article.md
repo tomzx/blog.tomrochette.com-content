@@ -55,3 +55,4 @@ A New Kind of Reality Theory](http://www.megafoundation.org/CTMU/Articles/Langan
 ## AGI researcher suggested
 - https://sites.google.com/site/narswang/home/agi-introduction/agi-education
 - http://wp.goertzel.org/agi-curriculum/
+- http://www.hutter1.net/ai/introref.htm
