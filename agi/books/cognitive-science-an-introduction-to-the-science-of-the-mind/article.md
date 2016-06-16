@@ -136,7 +136,7 @@ taxonomy:
 * (p298) It is a sad fact that organisms tend to learn by getting things wrong. Learning requires feedback and negative feedback is often easier to come by than positive feedback. But how do we know when we have got things wrong, and so be able to work out that we need to try something different? In some cases there are obvious error signals - pain, hunger, for example.
 * (p298) Domain-general cognitive mechanisms could not have been selected by natural selection because they would have made too many mistakes - whatever criteria of success and failure they had built into them would have worked in some cases, but failed in many more
 * (p303) Fodor's argument against the massive modularity thesis: Modular systems take only a limited range of inputs, how is input filtering implemented? Filtering needs a broader range of inputs than the module for which it is doing the filtering. But, on the other hand, since the filtering process is modular, it must have a limited range of inputs. The process repeats itself until we eventually arrive at a pool of potential inputs that includes everything. The filtering here involves processing so domain-general that it cannot be described as modular at all
-* (p306) The ACT-R/PM architecture: two layers: a perceptual-motor layer and a cognitive layer	
+* (p306) The ACT-R/PM architecture: two layers: a perceptual-motor layer and a cognitive layer
 	* The modules within each layer are generally able to communicate directly with each other
 	* Communication between modules on different layers, on the other hand, only takes place via a number of buffers
 * (p307) The cognition layer is built upon a basic distinction between two types of knowledge - declarative (knowledge-that) and procedural (knowledge-how)
@@ -147,6 +147,19 @@ taxonomy:
 	* Procedural knowledge is represented in terms of production rules. Production rules are also known as Condition-Action Rules
 * (p308) What makes ACT-R/PM a hybrid architecture is that this symbolic, modular architecture is run on a subsymbolic base
 * (p308) The process of selection (of which production rule to execute) takes place subsymbolically. The job of selecting which production rule is to be active at a given moment is performed by the pattern-matching module. This module controls which production rule gains access to the buffer. It does this by working out which production rule has the highest utility at the moment of selection
+* (p309) The utility of a particular production rule is determined by two things. The first is how likely the system is to achieve its current goal if the production rule is activated. The second is the cost of activating the production rule (this idea is similar to Schmidhuber Gödel machine that will only replace their executing program if its expected utility is higher than the currently running program and replacing it)
+* (p309) There are two basic components determining a chunk's overall activation level.
+	* The first component has to do with how useful the chunk has been in the past
+	* The second component has to do with how relevant the chunk is to the current situation and context
+* (p311) Two lessons learned from ACT-R/PM
+	* Thinking properly about the modular organization of the mind requires thinking about how the different modules might execute their information-processing tasks
+	* Different parts of a mental architecture might exploit different models of information processing. Some tasks lend themselves to a symbolic approach. Others to a subsymbolic approach
+* (p315) How do the individual cognitive sub-systems work?
+* (p315) How are the individual sub-systems connected up with each other?
+* (p319) Brodmann's basic insight was that different regions in the cerebral cortex can be distinguished in terms of the types of cell that they contain and how densely those cells occur
+* (p319) By using the Nissl stain to examine the distribution of different types of neuron across the cerebral cortex, Brodmann identified over fifty different cortical regions
+* (p319) Principle of segregation: The idea that the cerebral cortex is divided into segregated areas with distinct neuronal populations
+* (p321) Tract tracing: Injecting a chemical that works as a marker into a particular brain region. Typical markers are radioactive amni acids or chemicals such as horseradish peroxidase (HRP)
 
 # See also
 
