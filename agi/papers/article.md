@@ -19,6 +19,9 @@ The following lists papers I've read and reviewed or made notes for.
 ## Alex Graves
 * [Neural Turing Machines (2014)](alex-graves-neural-turing-machines)
 
+## Allen Newell
+* [The heuristic of George Polya and its relation to artificial intelligence (1981)](allen-newell-the-heuristic-of-george-polya-and-its-relation-to-artificial-intelligence)
+
 ## Breden Lake
 * [Building Machines That Learn and Think Like People (2016)](breden-lake-building-machines-that-learn-and-think-like-people)
 
