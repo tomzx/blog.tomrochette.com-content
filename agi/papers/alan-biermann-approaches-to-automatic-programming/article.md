@@ -1,6 +1,6 @@
 ---
 title: Alan W. Biermann - Approaches to Automatic Programming
-created: 2016-01-01
+created: 2016-06-03
 taxonomy:
   category: [Artificial General Intelligence]
   status: in progress
@@ -13,7 +13,7 @@ taxonomy:
 ## Things to explore
 * Is building a set of inductive/constructive examples more likely to properly induce a program synthesizer toward the appropriate program?
 * What is the maximal size of a function such an could generate?
-* How complex are the functions that can be generated? Can it handle recursive functions? 
+* How complex are the functions that can be generated? Can it handle recursive functions?
 
 # Overview
 
@@ -78,7 +78,37 @@ taxonomy:
 ## 4.1 Introduction
 * Rather than giving examples of the desired program behavior, it may be preferable to specify precisely the required input-output characteristics and have the program automatically generate from these
 
-## 4.2 Synthesizing Branching and Looping Structures
+## 4.3 Problem Reduction Methods
+* P{A}Q means that if assertions P are true and program A is executed to halt, then Q will be true
+* The program synthesis problem then can be stated: Given input specification I and output specification G, find A such that I{A}G
+* A typical reduction step would be to divide A into two segments A1 and A2 and attempt to construct A1 and A2 separately
+* A set of intermediate specification Q are determined and the two problems I{A1}Q and Q{A2}G are attacked separately
+* The Buchanan and Luckham approach assumes that the system has a large amount of programming knowledge in the form of inference rules. The system also needs domain specific information, called frame information
+
+## 5 Translation of Natural Language Commands
+## 5.2 Syntatic Analysis
+* Systemic grammars hierarchically decompose utterances into three basic classes:
+	* clauses
+	* groups
+	* words
+* Each sentence is broken down into one or more clauses, clauses are primarily made up of groups, and groups are primarily composed of words
+* There are four types of groups:
+	* noun
+	* verb
+	* preposition
+	* adjective
+
+## 6 Heuristic Knowledge-Based Algorithm Synthesis
+## 6.1 Introduction
+* A program synthesis is said to be sound if the program produced is guaranteed to meet the specifications input to the system
+* A system is said to be complete if it is capable of producing every possible program over the domain of interest (usually the partial recursive functions)
+* It is desired that the system should have
+	* programming knowledge such as how to declare data structures, build loops and branches, and so forth
+	* problem domain knowledge such as what are the significant variables and how are they related
+	* debugging knowledge such as how to discover and remove the cause of a discrepancy between program performance and specification
+	* knowledge of the user such as what information to expect from him, what information to send him, and how to converse with him in his own language
+* A heursitic program will be defined as a program whose input-output characteristics are not easily specified (except perhaps by paraphrasing the program itself)
+* While the program synthesizer using heuristics might produce false starts, try various ideas, modify partial solutions, and erase and begin again, it is hoped that it can slowly converge to a reasonable solution, particularly if it can work continuously in an interaction with a human being
 
 # See also
 
