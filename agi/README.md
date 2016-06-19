@@ -38,6 +38,7 @@ Tom
 
 ## Exploratory activities
 
+* [Build an AGI using Polya's method](build-an-agi-using-polya-method)
 * [Entropy](entropy)
 * [Graph architectures](graph-architectures)
 * [Imitation based agents](imitation-based-agents)
