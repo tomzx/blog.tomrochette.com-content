@@ -9,6 +9,7 @@ taxonomy:
 ## Context
 
 ## Learned in this study
+* When discussing with someone else, we slowly construct a context as the discussion goes on. When a discussion thread finishes, this context slowly fades away to give place to the construction of a new context.
 
 ## Things to explore
 * Is building a set of inductive/constructive examples more likely to properly induce a program synthesizer toward the appropriate program?
@@ -109,6 +110,41 @@ taxonomy:
 	* knowledge of the user such as what information to expect from him, what information to send him, and how to converse with him in his own language
 * A heursitic program will be defined as a program whose input-output characteristics are not easily specified (except perhaps by paraphrasing the program itself)
 * While the program synthesizer using heuristics might produce false starts, try various ideas, modify partial solutions, and erase and begin again, it is hoped that it can slowly converge to a reasonable solution, particularly if it can work continuously in an interaction with a human being
+
+## 6.2 The Major Phases of Processing
+* Balzer has described the automatic programming process as being divided into four major phases:
+	* problem acquisition when the system interacts with the user to build a model of the problem domain and the problem to be solved
+	* process transformation when the problem-relevant portions of the model are sifted out to obtain an efficient representation for problem solution
+	* model verification when testing and debugging are done to check whether the abstracted model is correct
+	* automatic coding when the program is actually generated
+
+## 6.3 Actors, Beings, Frames, and Others
+* Two kinds of modularity:
+	* Modules of knowledge
+	* Modules of programming
+* Modules of knowledge should have a body of information that can be referred to (arrays have dimensions, they may have a type, a declaration may be required in the program, arrays are sometimes initialized at the beginning of a program, they are scanned using nested FOR loops, etc.)
+* Modules of knowledge must necessarily have default values (things that are automatically assumed to be true)
+* Programming modules composed of relatively independent entities, which activate themselves and which send and receive information without prompting
+* The control structure of traditional large program with its well-defined hierarchy of subroutines is being abandoned and being replaced by a kind of democracy of routines
+* Each routine has knowledge about what it can do, what it needs to know, when it can function, how much work it may have to do, what other routines may be able to help it, and other things *(this sounds a lot like OOP, but it is not)*
+* Lenat speaks of a "community of experts," and if a problem is made available to them, each one comes forth to contribute knowledge and help if he is able
+* Instead of an individual routine receiving x and sending back a value f(x), the whole group of routines might receive the request: Does anyone know anything about "adding"?
+* Several routines might respond
+* The request may have to be followed with more information until one routine sees its own applicability and takes control
+* The attractions of this type of programming are many. It enables the programmer to delay decisions about the control structure until knowledge modules are being constructed and to base control decisions on the contents of these individual modules *(I see this as being able to choose between various sorting algorithms, it's interesting, but you generally have a preference over which one you want to use)*
+* It makes it possible to design individual modules without as much concern for their effect on the rest of the system *(that is already the case when you write a couple of functions that are never called... I believe the idea here is more about planning for the future, than writing code for current needs)*
+* The problem with such code, of course, is that upon being given a task to do, the group of routines may be contented to sit there and send messages back and forth without ever making any progress
+
+## 6.4 On the Development of Knowledge about Knowledge
+* The study of knowledge:
+	* how it is represented
+	* how it is acquired
+	* manipulated
+	* accessed
+	* how it is used to create programs
+* The most important problem to be addressed is the representation problem: How is knowledge to be represented?
+	* Facts could be stored in the machine in terms of tables, property lists, semantic nets, formal logic axioms, executable programs, and many other forms
+* How is knowledge about knowledge to be obtained? The answer from the artificial intelligence community seems to be unanimous: One should study examples
 
 # See also
 
