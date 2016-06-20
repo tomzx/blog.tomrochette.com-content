@@ -160,6 +160,12 @@ taxonomy:
 * (p319) By using the Nissl stain to examine the distribution of different types of neuron across the cerebral cortex, Brodmann identified over fifty different cortical regions
 * (p319) Principle of segregation: The idea that the cerebral cortex is divided into segregated areas with distinct neuronal populations
 * (p321) Tract tracing: Injecting a chemical that works as a marker into a particular brain region. Typical markers are radioactive amni acids or chemicals such as horseradish peroxidase (HRP)
+* (p325) Principle of integration: The idea that cognitive functioning involves the coordinated activity of networks of different brain areas, with different types of task recruiting different networks of brain areas
+* (p327) The reason that EEGs (electroencephalography) are so useful for studying ERPs (event-related potentials) is that EEGs have a very fine temporal resolution
+* (p328) Magnetoencephalography (MEG) measures the same electrical currents that are measured by EEGs, however they are measured through the magnetic fields that they produce. This allows a finer spatial resolution than possible with EEGs. It is also much less susceptible to distortion due to the skull than EEG. However, it brings with it all sorts of technical issues, such has requiring to be carried in a room specifically constructed to block all alien magnetic influences, including the earth's magnetic field
+* (p329) Both PET and fMRI have high spatial resolution and relatively poor temporal resolution
+* (p331) Broadbent thinks of attention as occurring at the early stages of perceptual processing. His model is what is known as an early selection model
+* (p331) The locus of selection problem is the problem of determining whether attention is an early selection phenomenon or a late selection phenomenon
 
 # See also
 
