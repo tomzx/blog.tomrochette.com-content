@@ -194,6 +194,9 @@ Alan Biermann
 ### Duplicated Code Refactoring Advisor (DCRA) (2016-06)
 Francesco Zanoni
 
+### The heuristic of George Polya and its relation to artificial intelligence (2016-06)
+Allen Newell
+
 ## In the reading queue
 
 ### Design for a brain
