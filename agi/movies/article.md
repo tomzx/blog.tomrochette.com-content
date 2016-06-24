@@ -20,3 +20,4 @@ The following lists movies that I have seen and that I suggest to people that ar
 | Prometheus | [IMDB](http://www.imdb.com/title/tt1446714/) |
 | The Terminator | [IMDB](http://www.imdb.com/title/tt0088247/) |
 | Transcendence | [IMDB](http://www.imdb.com/title/tt2209764/) |
+| Uncanny | [IMDB](http://www.imdb.com/title/tt2321502/) |
