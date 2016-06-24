@@ -87,7 +87,6 @@ Tom
 * [Seed AI](seed-ai)
 * [Set relation language](set-relation-language)
 * [State machines](state-machines)
-* [Storage data structure](storage-data-structure)
 
 ### Bots and swarms
 
