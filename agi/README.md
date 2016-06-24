@@ -39,6 +39,7 @@ Tom
 ## Exploratory activities
 
 * [Build an AGI using Polya's method](build-an-agi-using-polya-method)
+* [Decision trees](https://github.com/tomzx/decision-trees)
 * [Entropy](entropy)
 * [Graph architectures](graph-architectures)
 * [Imitation based agents](imitation-based-agents)
@@ -61,6 +62,7 @@ Tom
 * [What do I know about AI](what-do-i-know-about-ai)
 
 ### Prototypes (in order of start date)
+
 * [PHP-Brain](prototypes/php-brain)
 * [Sharp-Brain](prototypes/php-brain)
 
@@ -101,9 +103,10 @@ Tom
 
 ## Structured learning
 
-* [Glossary](glossary)
-* [Getting started](getting-started)
+* [AGI Concept Map](https://github.com/tomzx/agi-concept-map)
 * [Current approaches](current-approaches)
+* [Getting started](getting-started)
+* [Glossary](glossary)
 * [Papers](papers)
 * [Researchers](researchers)
 * [Topics](topics)
@@ -115,11 +118,11 @@ Tom
 
 ## Personal experience
 
-* [Structuring an AGI research](structuring-an-agi-research)
 * [My path to AGI](my-path-to-agi)
 * [My suggested path to AGI](my-suggested-path-to-agi)
+* [Structuring an AGI research](structuring-an-agi-research)
 
 ## Self-reflective / Open questions
 
-* [Questions](questions)
 * [Open questions](open-questions)
+* [Questions](questions)
