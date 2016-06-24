@@ -54,6 +54,7 @@ Tom
 * [Patterns](patterns)
 * [Problem resolution approaches](problem-resolution-approaches)
 * [Reality model](reality-model)
+* [Resources limited agents](resources-limited-agents)
 * [Requirements and properties](requirements-and-properties)
 * [The dangers of a super AGI](the-dangers-of-a-super-agi)
 * [Understanding games](understanding-games)
