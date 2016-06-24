@@ -6,10 +6,6 @@ taxonomy:
   status: in progress
 ---
 
-## Learned in this study
-
-## Things to explore
-
 # Preface
 
 This article is a way for me to share what I think is a better to go through the content I've gone through in order to learn AGI, which you can read at [my path to AGI](../my-path-to-agi).
@@ -21,6 +17,7 @@ If you have comments and suggestions, feel free to let me know through the comme
 * [Discrete Mathematics and Its Applications](https://www.amazon.ca/Discrete-Mathematics-Applications-Kenneth-Rosen/dp/0073383090/)
 
 ## Logic
+* I have no book recommendation at this moment
 
 ## Set theory
 * [Naive Set Theory](https://www.amazon.com/Naive-Set-Theory-Paul-Halmos/dp/1781394660)
@@ -43,5 +40,3 @@ If you have comments and suggestions, feel free to let me know through the comme
 * [Gödel Machines: Fully Self-Referential Optimal Universal Self-improvers](http://arxiv.org/abs/cs/0309048)
 * [Universal Artificial Intelligence](https://www.amazon.com/Universal-Artificial-Intelligence-Algorithmic-Probability/dp/3540221395)
 * [The Essential Turing](http://www.amazon.com/Essential-Turing-Philosophy-Artificial-Intelligence/dp/0198250800) (*On Computable Numbers, with an Application to the Entscheidungsproblem* and *Systems of Logic Based on Ordinals*)
-
-# Overview
