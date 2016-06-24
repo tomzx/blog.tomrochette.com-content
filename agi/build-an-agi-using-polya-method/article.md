@@ -23,7 +23,7 @@ Polya's How to Solve It[^1] is considered by many a reference on how to teach ma
 * AGI: artificial general intelligence
 	* Artificial: As opposed to natural, that came from nature
 	* General: as opposed to specific or specialized, capable of being/doing many things
-	* Intelligence:
+	* Intelligence: (this is a list of attempts, not all of them are good, some are in fact pretty terrible, but the idea here is to explore the definition of intelligence as it is most likely the most important part of the problem)
 		* the ability to accomplish goals in a given environment
 		* the ability of an agent to adapt itself to an environment in order to accomplish goals
 		* the ability of things to make use of energy in a constructive manner (build upon the past)
@@ -40,6 +40,9 @@ Polya's How to Solve It[^1] is considered by many a reference on how to teach ma
 		* the ability to process inputs into meaningful outputs (the more varied the inputs you can process, the more intelligent you are)
 		* the ability to resolve problems
 		* the ability to make efficient use of a limited amount of resources(energy/time) toward objectives
+		* the ability to abstract/generalize from examples in an efficient manner and to apply its knowledge to newer situations through analogy
+		* the ability to process information as efficiently as possible while making use of it in the most effective manner (determined by the environment)
+		* the ability to judge and evaluate the pertinence of information
 
 ## What are you asked to find out show?
 * That AGI is possible
@@ -60,6 +63,40 @@ Polya's How to Solve It[^1] is considered by many a reference on how to teach ma
 
 ## Is there enough information to enable you to find a solution?
 No, maybe, we know that biology is able to produce natural general intelligence through humans, assuming that everything that goes inside the brain can be liken to signals transmission and processing, it should be possible run a  brain in vat that is considered intelligent.
+
+# Devise a plan
+* Construct a definition of intelligence that contains all the appropriate ingredients
+	* Determine what those ingredients are
+
+## Intelligence
+*TODO: evaluate what can I'd essential and what can be derived*
+* Constructed on experience
+* Non random
+* Is evaluable (can be ordered in one of many domains)
+* The ability to evaluate the value of its own ideas (to build its own evaluation functions)
+* The ability to do mathematical induction reasoning (causality)
+
+* The ability to set goals
+* The ability to evaluate the potential of a set of goals to determine the most promising ones
+
+### At the cell level
+* Survive
+	* Obtain energy
+	* Use energy
+	* Get rid of waste
+* Execute their task
+* Execute a set of instructions (DNA)
+* This is probably too low level as animals also have cells and aren't considered “particularly” intelligent
+
+### Questions
+* Is it only based on the ability to apply prior knowledge or the fact that this prior knowledge is already available in its knowledge based and is properly used, or is it the ability to derive this knowledge (aka some can and some will never be able to)?
+	* People can learn anything that someone else had been able to learn
+	* What matter is prior knowledge as well as how much time out will require to learn
+	* Thus, someone is more intelligent than someone else at a point t in time simply because the knowledge required to answer a problem is already available to them while our may not be for others
+	* Instantaneous intelligence vs intelligence (similar to instantaneous speed vs speed)
+		* There might also be the concept of position, speed and acceleration for intelligence
+* Is intelligence about learning?
+* What is adaptability about?
 
 # See also
 
