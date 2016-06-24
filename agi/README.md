@@ -85,7 +85,6 @@ Tom
 * [Perfect storage medium](perfect-storage-medium)
 * [Playing with data](playing-with-data)
 * [Seed AI](seed-ai)
-* [Self modifying code](self-modifying-code)
 * [Set relation language](set-relation-language)
 * [State machines](state-machines)
 * [Storage data structure](storage-data-structure)
