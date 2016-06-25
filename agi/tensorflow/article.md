@@ -8,6 +8,8 @@ taxonomy:
 
 ## Context
 
+Tensorflow has rapidly grown in popularity due to the fact that is developed/supported by Google. As more and more developers move to the platform, it becomes essential to learn how it works and have a general idea of the various concepts it makes use of. This is a short article about some of these concepts.
+
 ## Learned in this study
 
 ## Things to explore
@@ -82,4 +84,5 @@ taxonomy:
 
 # Sources
 
+* https://www.tensorflow.org/
 * https://medium.com/jim-fleming/loading-tensorflow-graphs-via-host-languages-be10fd81876f
