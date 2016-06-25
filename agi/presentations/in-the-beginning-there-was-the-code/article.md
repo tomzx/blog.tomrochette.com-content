@@ -13,7 +13,7 @@ taxonomy:
 ## Things to explore
 
 # Overview
-* All the universe is computed by a short computer program (suggested by Korad Zuse in 1977)
+* All the universe is computed by a short computer program (suggested by Konrad Zuse in 1977)
 * To a man with a hammer, everything looks like a nail, to a man with a computer, everything looks like a computation
 * How to compute all possible universes?
 	* Systematically enumerate all programs through a program
