@@ -3,12 +3,14 @@ title: What do I know about AI
 created: 2015-09-07
 taxonomy:
   category: [Artificial General Intelligence]
-  status: in progress
+  status: finished
 ---
 
 ## Context
 
 The goal of this activity is to write down all the keywords and concepts that I can relate to AI. It can help you figure out the things you are working around a lot and help you figure out where you might be lacking some knowledge.
+
+If possible, I'd suggest you use a software such as [yEd](https://www.yworks.com/products/yed) and instead of building a list like the one below, that you build a knowledge graph, such as my [AGI Concept Map](https://github.com/tomzx/agi-concept-map). This will allow you to both think about the concepts you know, as well as their relations with other concepts you know about.
 
 # 2015-09-07 (12:51 - 13:01)
 - Supervised vs unsupervised
@@ -196,3 +198,6 @@ The goal of this activity is to write down all the keywords and concepts that I 
 - Decision tree
 - Tests
 - Statistical analysis
+
+# See also
+* [AGI Concept Map](https://github.com/tomzx/agi-concept-map)
