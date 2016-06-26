@@ -184,6 +184,23 @@ taxonomy:
 	* The first component is a way of marking the fact that a primary representation has been decoupled and is now being used for pretend play
 	* The second is a way of representing the relation between agents and decoupled representations
 * (p358) Leslie proposes that the first of these is achieved by a form of quotation device (Sarah said: "The world is flat.")
+* (p363) False belief test: Test whether a child is able to understand that others may hold different beliefs than their own and that these beliefs may be incorrect/different than their own
+* (p364) Baron-Cohen et al.: "Our results strongly support the hypothesis that autistic children as a group fail to employ a theory of mind. We wish to explain this failure as an inability to represent mental states. As a result of this the autistic subjects are unable to impute beliefs to others and are thus at a grave disadvantage when having to predict the behavior of other people."
+* (p366) Pretend play emerges during the second year of life. But children do not typically pass the false belief test until they are nearly 4. There is a very clear sense, therefore, in which the BELIEVES operation must be much harder to acquire than the PRETENDS operation
+* (p367) Onishi and Baillargeon used a violation of expectations paradigm that measured looking time. They hypothesized that the length of time that the infants looked at each of the scenarios would be a guide to their implicit understanding of false belief. They predicted the infants would look significantly longer when the actor did not behave as expected. The robust effect that they discovered is that infants looked significantly longer when the actor searched in the yellow box (unexpected) than when the actor searched in the green box (expected). So, they conclude, infants have an understanding of false belief much earlier than suggested by the traditional false belief task
+* (p368) The Onishi and Baillargeon experiments identify an implicit understanding of false belief, whereas the standard false belief tasks are testing for an explicit understanding of false belief
+* (p370) Baron-Cohen model of the mindreading system:
+	* 0-9 months
+		* Intentionality detector (ID): Allows the infant to distinguish the animate, goal-driven entities from the other objects it encounters
+		* The emotion detector (TED): Allows infant to understand not just that agents make movements towards particular goals, but also why those movements are being made and what sort of movements they are
+		* Eye direction detector (EDD): Help the infant identify the goals of the mouvement (A good way to find out the apparent goal of a purposeful movement is to check where the agent is looking - since agents tend to keep their eyes on the target)
+	* 9-14 months
+		* Shared attention mechanism (SAM): Joint visual attention between the infant and an agent
+	* 14 months
+		* The empathy system (TESS)
+	* 18-48 months
+		* Theory of mind mechanism (TOMM)
+
 
 # See also
 
