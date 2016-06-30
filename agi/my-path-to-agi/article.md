@@ -48,6 +48,10 @@ Alan M. Turing, B. Jack Copeland
 * Can Digital Computer Think? (2015-10)
 * Solvable and Unsolvable Problems (2015-10)
 * Systems of Logic Based on Ordinals (2016-01 - ?)
+* Can Automatic Calculating Machines Be Said to Think?
+* Lecture on the Automated Computing Engine
+* The Chemical Basis of Morphogenesis
+* Chess
 
 ### The First Level of Super Mario Bros. is Easy with Lexicographic Orderings and Time Travel (2015-06)
 Tom Murphy VII
@@ -196,6 +200,15 @@ Francesco Zanoni
 
 ### The heuristic of George Polya and its relation to artificial intelligence (2016-06)
 Allen Newell
+
+### A Concise Introduction to Logic (2016-06 - ?)
+Patrick J. Hurley
+
+### Machine Learning (2016-06 - ?)
+Peter Flach
+
+### On Intelligence (2016-06 - ?)
+Jeff Hawkins
 
 ## In the reading queue
 
