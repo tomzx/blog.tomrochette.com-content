@@ -3,7 +3,7 @@ title: Alan W. Biermann - Approaches to Automatic Programming
 created: 2016-06-03
 taxonomy:
   category: [Artificial General Intelligence]
-  status: in progress
+  status: finished
 ---
 
 ## Context
@@ -144,7 +144,26 @@ taxonomy:
 	* how it is used to create programs
 * The most important problem to be addressed is the representation problem: How is knowledge to be represented?
 	* Facts could be stored in the machine in terms of tables, property lists, semantic nets, formal logic axioms, executable programs, and many other forms
+* One might ask how much knowledge is required to do a particular task
+	* The required amount of knowledge could be measured in terms of numbers of facts or perhaps number of beings
+* Another recent interest is the study of approximate knowledge and its use and modification
+* Sussman has his system propose a program to solve a problem, even though the program may not be at all correct. Then his system modifies the first approximation until it converges on a solution
 * How is knowledge about knowledge to be obtained? The answer from the artificial intelligence community seems to be unanimous: One should study examples
+* One should look sequentially at how several similar programs might be produced, how a class of related programs might be produced, and eventually how the synthesis capability might be extended to other classes of programs (produce solution specific programs, then indicate what may be generalized)
+
+## 6.5 Summary
+* The goals of the designers of these systems are ambitious:
+	* to build in a natural language understanding and generation ability
+	* to incorporate a model-building function and non-trivial problem solving abilities
+	* to include learning and inductive abilities
+
+## 7 Comments
+* An examination of the literature seems to indicate that there are exactly three basic processes that a system can use in obtaining the desired program:
+	* The system can be directly given the program or information from which the program can be directly built. Thus the program might be typed in by the user in a language that can be directly converted to the target program, or the target program may already exist in a library
+	* The system may have to enumerate from the set of all possible programs, from the set of all possible proofs, or from some other space until an acceptable answer is found
+	* The system may be able to build the desired program by modifying and combining known programs
+* Research in automatic programming involves a study of the languages of the human mind, the languages of machines, and the process of translating between the two
+* This author views the main task in automatic programming to be the discovery of the nature of these languages and the clever implementation of the three given processes to do the translation
 
 # See also
 
