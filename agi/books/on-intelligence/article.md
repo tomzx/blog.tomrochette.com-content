@@ -49,6 +49,22 @@ taxonomy:
 * Hawkins proposes the brain uses circuits similar to auto-associative memory
 * We don't have machine that think, we have machines that do
 * Intelligence is something that is happening in your head. Behavior is an optional ingredient
+* According to functionalism, being intelligent or having a mind is purely a property of organization and has nothing to do with what you're organized out of
+* By this principle, an artificial system that used the same functional architecture as an intelligent, living brain should be likewise intelligent - and not just contrivedly so, but actually, truly intelligent
+* Some philosophers of mind have taken a shine to the metaphor of the "cognitive wheel," that is, an AI solution to some problem that although entirely different from how the brain does it is just as good
+* To succeed (have intelligent machines), we will need to crib heavily from nature's engine of intelligence, the neocortex. We have to extract intelligence from within the brain
+
+## 3 The Human Brain
+* Being human and being intelligent are separate matters. An intelligent machine need not have sexual urges, hunger, a pulse, muscles, emotions, or a humanlike body
+* The neocortex is about 2 millimeters thick and has six layers
+* Stretched flat, the human neocortical sheet is roughly the size of a large dinner napkin
+* Human are smarter because our cortex, relative to body size, covers a larger area, not because our layers are thicker or contain some special class of "smart" cells
+* Some anatomists have estimated that the typical human neocortex contains around thirty billion neurons (30,000,000,000), but no one would be surprised if the figure was significantly higer or lower
+* Each of these regions (of the cortex) is semi-independent and seems to be specialized for certain aspects of perception or thought. Physically they are arranged in an irregular patchwork quilt, which varies only a little from person to person. Rarely are the functions cleanly delineated. Functionally they are arranged in a branching hierarchy
+* The lowest of the functional regions, the primary sensory areas, are where sensory information first arrives in the cortex
+* V1 (the primary visual area) is concerned with low-level visual features such as tiny edge-segments, small-scale components of motion, binocular disparity (for stereo-vision), and basic color and constrast information
+* Eventually, sensory information passes into "association areas," which is the name sometimes used for the regions of the cortex that receive inputs from more than one sense
+* It is thanks to association regions that your are able to be aware that the sight of a fly crawling up your arm and the tickling sensation you feel there share the same cause
 
 # See also
 
