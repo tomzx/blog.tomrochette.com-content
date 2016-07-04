@@ -80,6 +80,9 @@ Douglas R. Hofstadter
 ### The Society of Mind (2015-11 - 2016-02)
 Marvin Minsky
 
+### The Computer and the Brain (2015-12)
+John von Neumann
+
 ## 2016
 
 * Tensorflow 2016-01
@@ -203,6 +206,10 @@ Allen Newell
 
 ### A Concise Introduction to Logic (2016-06 - ?)
 Patrick J. Hurley
+
+### A Hypothetical Dialogue Exhibiting a Knowledge Base For a Program-Understanding System (2016-06 - 2016-07)
+Cordell Green
+David Barstow
 
 ### Machine Learning (2016-06 - ?)
 Peter Flach
