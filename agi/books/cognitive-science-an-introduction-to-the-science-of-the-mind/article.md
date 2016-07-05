@@ -200,7 +200,18 @@ taxonomy:
 		* The empathy system (TESS)
 	* 18-48 months
 		* Theory of mind mechanism (TOMM)
-
+* (p372) For normal social development it is not enough simply to be able to identify other people's emotional states and moods. The developing child needs to learn to respond appropriately to those emotional states and moods. This is where empathy comes in
+* (p372) Psychopaths have profound social problems, but these problems are very different from those suffered by autistic people. Psychopaths are typically very good at working out what is going on in other people's head. The problem is that they tend not to care about what they find there - and in fact they use their understanding to manipulate other people in ways that a normal person would find unacceptable
+* (p374) Leslie and his collaborators have a subtle solution to the problem of explaining the long time lag between when they think that the capacity for metarepresentation first emerges (during the second year) and when children generally pass the false belief test (towards the end of the fouth year)
+	* Leslie thinks that there are two very different abilities here
+		* The first is the ability to attribute true beliefs to someone else
+		* The second is the ability to attribute false beliefs
+	* The default setting of the theory of mind mechanism is to attribute true beliefs
+	* Success on the false belief task only comes when young children learn to "switch off," or inhibit, the default setting
+	* According to Leslie, this requires the development of a new mechanism. He calls this mechanism the selection processor
+* (p377) Perner's thinking about mindreading is very much informed by influential theories in philosophy about the nature of belief and other mental states that philosophers collectively label propositional attitudes
+* (p377) Belief is called a propositional attitude because it involves a thinker taking an attitude (the attitude of belief) towards a proposition
+* (p378) The child is certainly representing another person as being in a psychological state. But they can do that without engaging in metarepresentation. Since the content of the psychological state tracks what the child considers to be the state of the world, the child does not need to deploy any resources over and above the resources that she herself uses to make sense of the world directly
 
 # See also
 
