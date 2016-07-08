@@ -212,6 +212,24 @@ taxonomy:
 * (p377) Perner's thinking about mindreading is very much informed by influential theories in philosophy about the nature of belief and other mental states that philosophers collectively label propositional attitudes
 * (p377) Belief is called a propositional attitude because it involves a thinker taking an attitude (the attitude of belief) towards a proposition
 * (p378) The child is certainly representing another person as being in a psychological state. But they can do that without engaging in metarepresentation. Since the content of the psychological state tracks what the child considers to be the state of the world, the child does not need to deploy any resources over and above the resources that she herself uses to make sense of the world directly
+* (p381) According to simulation theory, the core of the mind-reading system does indeed exploit a specialized cognitive system, but this cognitive system is not actually dedicated to information processing about beliefs, desires, and other propositional attitudes
+* (p381) [The idea of simulation theory is] that we explain and predict the behavior of other agents by projecting ourselves into the situation of the person whose behavior is to be explained/predicted and then using our own mind as a model of theirs
+* (p382) According to standard simulationism, the process od simulation has to start with the mindreader explicitly (although not necessarily consciously) attributing beliefs and desires to the person being simulated
+* (p382) For Goldman we identify other people's beliefs and desires by analogy with our own beliefs and desires. We know which beliefs we tend to form in response to particular situations. And so we assume that others will form the same beliefs, unless we have specific evidence to the contrary
+* (p383) Standard simulationists are typically committed to the following two basic principles:
+	* We understand the psychological states of others by analogy with our own psychological states
+	* We have a special self-monitoring mechanism for keeping track of our own psychological states
+* (p384) The intuitive idea behind radical simulationism is that, instead of coming explicitly to the view that the person whose behavior I am trying to predict has a certain belief (say, the belief that p), what I need to do is imagine how the world would appear from her point of view
+* (p384) For radical simulationist, children who fail the false belief test lack imaginative capacities
+* (p390) One of the basic claims of simulation theorists is that mindreading is carried out by what they call co-opted mechanisms. These are information-processing systems that normally serve another function and that are then recruited to help make sense of the social world
+* (p391) Paired deficits: problems with experiencing the relevant emotion and in identifying it in others
+* (p391) There is evidence of paired deficits for several different emotional states
+	* Fear: Amygdala
+	* Anger: Dopamine levels
+	* Disgust: Insula
+* (p392) Mirror neurons were first discovered in macaque monkeys by an Italian research group led by Giacomo Riozzolatti in the mid-1990s. Rizzolatti and his colleagues were recording the responses of neurons that showed selective activation when the monkey made certain hand movements when they noticed completely by chance that the same neurons fired when the monkey saw an experimenter making the same movement
+* (p392) The mirror neuron system could serve as a neural substrate both for TED (the emotion detector system) and TESS (the empathy system)
+* (p392) The mirror neuron system is part of what makes imitation possible
 
 # See also
 
