@@ -14,6 +14,7 @@ taxonomy:
 * How to avoid the program synthesizer from building a simple lookup table?
 	* Is there times when a lookup table is the most appropriate solution?
 * What makes it that some functions are just simpler to write than to provide examples for (or require many more examples than it would take to just implement it)? For instance, a function that receives two boolean and does a specific logic function such as AND/OR/XOR, how many examples would be required to figure out the appropriate function used? In the case of 2 boolean values, you'd need 4 examples.
+* Task vs operation
 
 # Overview
 * The programmer provides pre-conditions and post-conditions
@@ -64,26 +65,106 @@ taxonomy:
 * Identification of thrown exceptions that are not catched
 * Partial function testing: select a portion of code and fake data will be generated to test it
 
-# Low level tasks
-* Define function name
-* Determine input
+# Programming tasks
+In the list that follows, you will be able to observe various properties of the tasks required to write a program. Amongst them are:
+	* Tasks related to generation
+		* create blocks
+		* variables
+		* parameters definition
+		* return definition
+		* expressions
+	* Tasks related specifically to programming
+		* namespacing
+		* code location
+		* method modifiers
+		* dependencies
+		* function vs method
+
+## Task list
+### Mathematical foundations
+Programming is at its core the task of passing values to functions/evaluating statements and receiving results.
+
+* Generate function/method name
+* Assign function/method name
+* Determine inputs
 * Determine parameters name
-* Determine parameters type
+* Determine parameters type (for typed languages)
+* Assign parameters type (for typed languages)
 * Determine output
-* Determine return type
+* Determine return type (for typed languages)
+* Assign return type (for typed languages)
+* Determine logic/sequence of statements to execute within the function/method/block (one of the most difficult tasks, if not the most)
+* Generate variable name
+* Assign variable name
+* Declare variable type (for typed languages)
+* Initialize variable
+* Generate expression
+* Assign expression to variable
+* Call function/method
+* Assign function/method call arguments
+
+### Programming language specific
+There are many tasks that are specifically related to the fact that we're using a language which has been designed with some grammatical constraints. As such, we must respect them. Programming languages also allow us to better structure our work so that it is easier to work with (through code separation in multiple files and namespace for instance).
+
+* Create block boilerplate ({ ... } or indentation (for python))
+* Move block to proper location (e.g. in a class definition block)
+* Determine code location/filename
+* Generate namespace name
+* Declare namespace
+* Determine function/method namespace
+* Determine modifiers (public/protected/private/static/abstract/final/virtual/override) (class/method)
+* Determine if it should be written as a function or a class method
+* Determine the appropriate class in which a method should be added
+* Comment parts of code to express intent/reasoning/decision choices
+* Determine dependencies (include/require/use/import)
+* Import dependencies
+
 * Determine encapsulation
-* Determine collaborators
-* Determine responsibilities
-* Determine logic within function/block
+* Determine function/method/class collaborators
+* Determine function/method/class responsibilities
+* Determine (temporal) coupling
+
 * Respect syntax
 * Respect formatting rules
 * Respect naming conventions
 * Respect code style
-* Determine code location/filename
-* Determine namespace
-* Determine (temporal) coupling
-* Determine if it should be written as a function or a class method
-* Determine the appropriate class in which a method should be added
+
+### Block specific
+* If
+	* Create block (if (...) { ... })
+		* Determine predicate
+		* Evaluate block pre-conditions based on predicate
+	* Create elseif block (elseif (...) { ... })
+		* Determine predicate
+		* Evaluate block pre-conditions (based on if/elseif predicates)
+	* Create else block (else { ... })
+		* Evaluate block pre-conditions (based on if/elseif predicates)
+* Foreach
+* While
+* Switch
+
+## Generalized tasks
+From the list of tasks we've established so far, we can try to create a list of generalized tasks (operations that do the same thing under different contexts).
+
+* Generate names (for functions/methods/classes/namespaces/variables)
+* Type inference/manipulation
+* Block localization (function/method/class)
+
+## Task list execution
+The execution of tasks as described earlier is most likely done through a while loop, in which the task to execute at any moment appears to be selected at random, such that the code would look something like
+
+```
+while (programming) {
+	switch (rand() % numberOfTasks) {
+		// break; have been removed to better present the idea
+		case 0: // task A
+		case 1: // task B
+		case 2: // task C
+	}
+}
+```
+
+There's also likely to be some sort of evaluative loop that is assessing the code observed for things that will need to be done. In some sense, the internals of the programming loop is more likely to resemble a markov decision process, where certain tasks are very likely to be executed just after a given task was executed (e.g. initializing a variable after it has been declared).
 
 # See also
 
