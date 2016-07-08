@@ -9,6 +9,7 @@ taxonomy:
 ## Learned in this study
 
 ## Things to explore
+* Extract citations automatically based on what is said in a text
 
 # Overview
 
@@ -44,8 +45,36 @@ Define the problems and questions you are trying to solve.
 * Report/Publish
 * Discuss topic with colleagues
 
+---
+
+* Good research should be novel:
+	* Describe state-of-the-art (SoA)
+	* Describe state-of-the-pratice (SoP)
+	* Describe how your work is different from them
+* Good research should be relevant:
+	* Consider what problems we face today or are likely to face within some time span
+	* Consider what other researchers and practitioners problems are and what they consider important
+* Good research should present generalities/principles
+* Good research is often systematic and structured
+	* Systematic: You have a clear idea of what to do and that this will clearly "cover" the most likely relevant aspects
+	* Structured: There is good "logic" and "flow" in what you are trying to do and how you describe it
+* Good research claims something and validate those claims
+
+* Focus on a part of your subject area that is limited so that you can go deep in 40-150 papers
+* Create a taxonomy of the papers you find
+
+# "Automated" research
+* Define a topic of interest
+* Find papers related to the topic
+* Create a graph of paper citation (which paper cites which paper)
+	* This graph will be used to determine which papers are foundation and which papers are extensions
+	* The more a paper is referenced, the more likely is it worth reading
+* Extract writing style (tf-idf, most frequent words, sentence/paragraph/section length) as well as various features (number of charts, tables, figures, etc.)
+* Compile a list of references based on the papers extracted above
+
 # Sources
 
 [^1]: https://sites.google.com/site/narswang/home/agi-introduction#TOC-Representative-AGI-Projects
 
 * http://www.umiacs.umd.edu/~knkim/HowToPhd.htm
+* http://www.robertfeldt.net/advice/feldt_guide_to_starting_a_phd.pdf
