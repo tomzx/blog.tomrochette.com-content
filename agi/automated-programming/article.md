@@ -11,15 +11,14 @@ taxonomy:
 ## Learned in this study
 
 ## Things to explore
-* How to avoid the synthesizer from building a simple lookup table?
+* How to avoid the program synthesizer from building a simple lookup table?
+	* Is there times when a lookup table is the most appropriate solution?
 * What makes it that some functions are just simpler to write than to provide examples for (or require many more examples than it would take to just implement it)? For instance, a function that receives two boolean and does a specific logic function such as AND/OR/XOR, how many examples would be required to figure out the appropriate function used? In the case of 2 boolean values, you'd need 4 examples.
 
 # Overview
-
 * The programmer provides pre-conditions and post-conditions
 * The programmer provides input parameters and output with types
 * The programmer provides a set of examples (inputs and outputs) for the automatic function synthesis to work through
-* Define types in/out
 * Give examples (may not be straightforward for objects)
 * Use some sort of natural language/declarative (user-oriented) language to control oriented/procedural languages (use of conditionals)
 * Provide examples in order of complexity
@@ -29,6 +28,7 @@ taxonomy:
 * Once said function has been discovered, the synthesizer may work with the user in order to improve the current solution
 	* *What are some of the improvement that can be expected to be made?*
 * Given a set of existing functions (with both input/output types) and their computed "operation complexity" (basically the amount of operations that are executed at the language level, i.e. (x^2+y^2)^0.5 => 4, 3 exponentiation, 1 addition), try the functions in ascending order of operation complexity
+* Truth table based construction of conditionals: You provide a list of variables to depend on and then construct a mapping between these variables and a block of code to be executed
 
 # Keyword-based code identification
 * File identification: List all the files containing the given set of keywords
@@ -63,6 +63,27 @@ taxonomy:
 * Language edge cases assertions such as accepting null as a valid argument for a typed signature in Java or that objects are passed by reference in java
 * Identification of thrown exceptions that are not catched
 * Partial function testing: select a portion of code and fake data will be generated to test it
+
+# Low level tasks
+* Define function name
+* Determine input
+* Determine parameters name
+* Determine parameters type
+* Determine output
+* Determine return type
+* Determine encapsulation
+* Determine collaborators
+* Determine responsibilities
+* Determine logic within function/block
+* Respect syntax
+* Respect formatting rules
+* Respect naming conventions
+* Respect code style
+* Determine code location/filename
+* Determine namespace
+* Determine (temporal) coupling
+* Determine if it should be written as a function or a class method
+* Determine the appropriate class in which a method should be added
 
 # See also
 
