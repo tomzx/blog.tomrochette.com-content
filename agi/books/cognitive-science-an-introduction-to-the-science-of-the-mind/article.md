@@ -230,6 +230,15 @@ taxonomy:
 * (p392) Mirror neurons were first discovered in macaque monkeys by an Italian research group led by Giacomo Riozzolatti in the mid-1990s. Rizzolatti and his colleagues were recording the responses of neurons that showed selective activation when the monkey made certain hand movements when they noticed completely by chance that the same neurons fired when the monkey saw an experimenter making the same movement
 * (p392) The mirror neuron system could serve as a neural substrate both for TED (the emotion detector system) and TESS (the empathy system)
 * (p392) The mirror neuron system is part of what makes imitation possible
+* (p405) A dynamical system is any system that evolves over time in a law-governed way
+* (p405) One of the basic theoretical ideas in dynamical systems modeling is the idea of a state space. A state space has as many different dimensions as it has quantities that vary independently of each other - as many different dimensions as there are degrees of freedom in the system
+* (p407) Van Gelder's basic point is that cognitive scientists are essentially engaged in reverse engineering the mind. Cognitive scientists have tended to tackle this reverse engineering problem in a particular way - by assuming that the mind is an information-processing machine. But what Van Gelder tries to show is that this approach is neither the only way nor the best way.
+* (p409) Four very important features of the Watt governor:
+	* Dynamical system
+	* Time-sensitivity
+	* Coupling
+	* Attractor dynamics
+*  (p412) Dynamic system theorists think not only that the mind is a dynamical system, but also that when we look at the relation between the organism and the environment what we see is a coupled system
 
 # See also
 
