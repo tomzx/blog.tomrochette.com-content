@@ -53,6 +53,7 @@ taxonomy:
 * Determine where the data is in the required state (points of insertion)
 * Determine what should be the final state of the data after being processed (post-conditions)
 * Create the necessary functions to obtain data that cannot currently be obtained
+* Decompose the required feature in a set of operations that will need to be accomplished
 * Construct a collection of sequences of function calls that will accomplish the required feature
 
 # Feature development
@@ -140,6 +141,7 @@ There are many tasks that are specifically related to the fact that we're using 
 	* Create else block (else { ... })
 		* Evaluate block pre-conditions (based on if/elseif predicates)
 * Foreach
+* For
 * While
 * Switch
 
@@ -166,8 +168,15 @@ while (programming) {
 
 There's also likely to be some sort of evaluative loop that is assessing the code observed for things that will need to be done. In some sense, the internals of the programming loop is more likely to resemble a markov decision process, where certain tasks are very likely to be executed just after a given task was executed (e.g. initializing a variable after it has been declared).
 
+# Observation on the programming tasks
+* Some tasks are incredibly easy to solve if you leave them in complete freedom. For instance, if no constraint is applied for variable naming, then any string is valid as any other, as long as they do not overlap with existing variables. However, if you introduce naming conventions, or the more difficult task of assign a "proper" name to a variable, the difficulty of the task increases tremendously.
+* Some tasks can only be defined using a high level description. One example of this is the translation of high level requirements into functional logic. This basically entails the search of one solution out of the solution space which fulfills the X different criteria at most (and not more).
+* Programming cannot be self-contained. Programming is valuable only when it is associated with the modeling of something that is external to it; modeling the world. A program generator can create an infinite amount of programs, but they will all be meaningless as meaning is only attached to code by the programmer.
+
 # See also
 
 # Sources
 * https://en.wikipedia.org/wiki/Automatic_programming
 * [Approaches to Automatic Programming](http://www.sciencedirect.com/science/article/pii/S0065245808605197)
+* Green, Cordell, and David R. Barstow. [A Hypothetical Dialogue Exhibiting a Knowledge Base for a Program-understanding System](http://i.stanford.edu/pub/cstr/reports/cs/tr/75/476/CS-TR-75-476.pdf). Stanford, CA: Stanford University, 1975.
+* Newell, Allen. [Report on a General Problem-solving Program](https://www.u-picardie.fr/~furst/docs/Newell_Simon_General_Problem_Solving_1959.pdf). Santa Monica, CA: Rand, 1959.
