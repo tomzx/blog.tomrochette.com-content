@@ -87,6 +87,27 @@ taxonomy:
 * A causal inference is an argument that proceeds from knowledge of a cause to a claim about an effect, or, conversely, from knowledge of an effect to a claim about a cause
 * There is a tradition extending back to the time of Aristotle that holds that inductive arguments are those that proceed from the particular to the general, while deductive arguments are those that proceed from the general to the particular
 
+## 1.4 Validity, Truth, Soundness, Strength, Cogency
+* The evaluation of any argument involves answering two distinct questions:
+	* Do the premises support the conclusion?
+	* Are all the premises true?
+
+## Deductive Arguments
+* A valid deductive argument is an argument in which it is impossible for the conclusion to be false given that the premises are true
+* An invalid deductive argument is a deductive argument in which it is possible for the conclusion to be false given that the premises are true
+* Validity is something that is determined by the relationship between premises and conclusion. The question is not whether the premises and conclusion are true or false, but whether the premises support the conclusion
+* Any deductive argument having actually true premises and an actually false conclusion is invalid
+* A sound argument is a deductive argument that is valid and has all true premises
+* An unsound argument is a deductive argument that is invalid, has one or more false premises, or both
+
+## Inductive Arguments
+* A strong inductive argument is an inductive argument in which it is improbable that the conclusion be false given that the premises are true
+* A weak inductive argument is an argument in which the conclusion does not follow probably from the premises, even though it is claimed to
+* When we speak of the premises being true, we mean "true" in a complete sense. The premises must not exclude or overlook some crucial piece of evidence that undermines the stated premises and requires a different conclusion. This proviso is otherwise called the total evidence requirement
+* To be considered strong, an inductive argument must have a conclusion that is more probable than improbable. In other words, given that the premises are true, the likelihood that the conclusion is true must be more than 50 percent, and as the probability increases, the argument becomes stronger
+* A cogent argument is an inductive argument that is strong and has all true premises. Also, the premises must be true in the sense of meeting the total evidence requirement
+* An uncogent argument is an inductive argument that is weak, has one or more false premises, fails to meet the total evidence requirement, or any combination of these
+
 # See also
 
 # Sources
