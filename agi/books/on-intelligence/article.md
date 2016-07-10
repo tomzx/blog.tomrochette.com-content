@@ -65,6 +65,21 @@ taxonomy:
 * V1 (the primary visual area) is concerned with low-level visual features such as tiny edge-segments, small-scale components of motion, binocular disparity (for stereo-vision), and basic color and constrast information
 * Eventually, sensory information passes into "association areas," which is the name sometimes used for the regions of the cortex that receive inputs from more than one sense
 * It is thanks to association regions that your are able to be aware that the sight of a fly crawling up your arm and the tickling sensation you feel there share the same cause
+* Pyramidal neurons comprises 8 out of every 10 neuron cells of the neocortex
+* Mountcastle suggests that since (all the brain) regions all look the same, perhaps they are actually performing the same basic operation. He proposed that the cortex uses the same computational tool to accomplish everything it does
+* Mountcastle argues that the reason one region of cortex looks slightly different from another is because of what it is connected to, and not because its basic function is different. He concludes that there is a common function, a common algorithm, that is performed by all cortical regions
+* The human brain has an incredible capacity to learn and adapt to thousands of environments that didn't exist until very recently. This argues for an extremely flexible system, not one with a thousand solutions for a thousand problems
+* Apparently no area of cortex is content to represent nothing. The visual cortex, not receiving information from the eyes like it is "supposed" to, casts around for other input patterns to sift through - in this case, from other cortical regions
+* Visual information from the outside world is sent to your brain via a million fibers in your optic nerve. After a brief transit through the thalamus, they arrive at the primary visual cortex
+* Sounds are carried via the thirty thousand fibers of your auditory nerve. They pass through some older parts of your brain and then arrive at your primary auditory cortex
+* Your spinal cord carries information about touch and internal sensations to your brain via another million fibers. They are received by your primary somatosensory cortex
+* In vision, the sense organ is your retina. An image enters your pupil, gets inverted by your lens, hits your retina, and creates a spatial pattern. This pattern gets relayed to your brain
+* About three times every second, your eyes make a sudden movement called a saccade. They fixate on one point, and then suddenly jump to another point. Every time your eyes move, the image on your retina changes. This means that the patterns carried into your brain are also changing completely with each saccade
+* Sounds are converted into action potentials through a coiled-up organ in each ear called the cochlea. High-frequency tones cause vibrations in the cochlea's stiff base. Low-frequency tones cause vibrations in the cochlea's floppier and wider outer portion. Mid-frequency tones vibrate intermediate segments. Each site on the cochlea is studded with neurons that fire as they are shaken
+* Vision is more like three senses - motion, color and luminance (black-and-white constrast)
+* Touch has pressure, temperature, pain, and vibration
+* We also have an entire system of sensors that tell us about our joint angles and bodily position. It is called the proprioceptive system
+* We also have the vestibular system in the inner ear, which gives us our sense of balance
 
 # See also
 
