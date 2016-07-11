@@ -239,6 +239,20 @@ taxonomy:
 	* Coupling
 	* Attractor dynamics
 *  (p412) Dynamic system theorists think not only that the mind is a dynamical system, but also that when we look at the relation between the organism and the environment what we see is a coupled system
+* (p420) The dynamical systems approach adds a powerful tool to the cognitive scientist's toolkit, but it is unlikely ever to be the only tool
+* (p421) The principal objection that situated cognition theorists make to traditional cognitive science is that it has never really come to terms with the real problems and challenges in understanding cognition
+* (p422) The basic complaint is that SHRDLU only works because its artificial micro-world environment has been stripped of all complexity and challenge
+* (p423) For situated cognition theorists, SHAKEY is not really a situated agent, even though it propels itself around a physical environment. The point for them is that the real work has already been done in writing SHAKEY's program. SHAKEY's world is already defined for it in terms of a small number of basic concepts
+* (p423) SHAKEY already has the building blocks for the solution. But working out what the building blocks are is perhaps the most difficult part of real-world problem-solving
+* (p425) One of the basic design principles stressed by situated cognition scientists is that there are direct links between perception and action
+* (p427) Webb's robot crickets nicely illustrate one of the basic themes of biorobotics and situated cognition. Input sensors are directly linked to output effectors via clever engineering solutions that make complicated information processing unnecessary
+* (p427) Morphological computation is a research program for designing robots in which as much computation as possible is done for free
+* (p430) Subsumption architectures are organized very differently from modular architectures. Their basic components are activity-producing sub-systems. Subsumption architectures are made up of layers. The layers are autonomous and work in parallel. The higher layers subsume the lower layers, but they do not replace or override them
+* (p430) This makes it easier to design creatures with subsumption architectures. The different layers can be grafted on one by one. Each layer can be exhaustively debugged before another layer is added. And the fact that the layers are autonomous means that there is much less chance that adding a higher layer will introduce unsuspected problems into the lower layers
+* (p434) We can identify three basic features of subsumption architectures, as developed by Brooks and other AI researchers:
+	* Incremental design
+	* Semi-autonomous sub-systems
+	* Direction perception-action links
 
 # See also
 
