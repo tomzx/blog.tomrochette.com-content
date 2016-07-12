@@ -217,6 +217,12 @@ Peter Flach
 ### On Intelligence (2016-06 - ?)
 Jeff Hawkins
 
+### Universal Value Function Approximators (2016-06 - 2016-07)
+Tom Schaul
+Dan Horgan
+Karol Gregor
+David Silver
+
 ## In the reading queue
 
 ### Design for a brain
