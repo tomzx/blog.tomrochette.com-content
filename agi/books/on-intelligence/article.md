@@ -80,6 +80,26 @@ taxonomy:
 * Touch has pressure, temperature, pain, and vibration
 * We also have an entire system of sensors that tell us about our joint angles and bodily position. It is called the proprioceptive system
 * We also have the vestibular system in the inner ear, which gives us our sense of balance
+* Your cortex doesn't really know or sense the world directly. The only thing the cortex knows is the pattern streaming in on the input axons
+
+## 4 Memory
+* A neuron collects inputs from its synapses, and combines these inputs together to decide when to output a spike to other neurons. A typical neuron can do this and reset itself in about five milliseconds, or around two hundred times per second
+* The one hundred-step rule: In half a second, the information entering your brain can only traverse a chain one hundred neurons long. That is, the brain "computes" solutions to problems like this in one hundred steps or fewer, regardless of how many total neurons might be involved (comparison computer instructions with neurons "instructions", which is a faulty comparison)
+* How can a brain perform difficult tasks in one hundred steps that the largest parallel computer imaginable can't solve in a million or a billion steps? The answer is the brain doesn't "compute" the answers to problems; it retrieves the answers from memory
+* The entire cortex is a memory system. It isn't a computer at all
+* There are four attributes of neocortical memory that are fundamentally different from computer memory:
+	* The neocortex stores sequences of patterns
+	* The neocortex recalls patterns auto-associatively
+	* The neocortex stores patterns in an invariant form
+	* The neocortex stores patterns in a hierarchy
+* You can only recall memory the same way you learned it (in the same sequence)
+* Texture can only be perceived through pattern sequences across the pressure-and vibration-sensing neurons in your skin (differences?)
+* An auto-associative memory system is one that can recall complete patterns when given only partial or distorted inputs
+* How can we perceive something as being the same or constant when the input patterns representing it are novel and changing?
+* We use the term invariant representation to refer to the brain's internal representation (the same neuron cells are triggered while in presence of the same high level concept (e.g. a face))
+* Memories are stored in a form that captures the essence of relationships, not the details of the moment
+* When you see, feel, or hear something, the cortex takes the detailed, highly specific input and converts it to an invariant form. It is the invariant form that is stored in memory, and it is the invariant form of each new input pattern that it gets compared to
+* The way you understand the world is by finding invariant structure in the constantly changing stream of input
 
 # See also
 
