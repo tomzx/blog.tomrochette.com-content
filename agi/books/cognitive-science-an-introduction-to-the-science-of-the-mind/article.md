@@ -253,6 +253,16 @@ taxonomy:
 	* Incremental design
 	* Semi-autonomous sub-systems
 	* Direction perception-action links
+* (p434) The problem is that subsumption architectures don't seem to have any decision-making processes built into them. Conflict resolution is purely mechanical
+* (p435) SSS:
+	* Servo-based layer that controls the robot's effectors and processes raw sensory data
+	* Subsumption layer that reacts to processed sensory input by configuring the servo-based layer
+	* Symbolic layer that maintains complex maps of the environment and is capable of formulating plans; the symbolic layer configures the subsumption layer
+* (p436) Behavior-based architectures incorporate some of the basic design features of subsumption architectures. But they have two additional features that separate them from subsumption architectures
+	* Distributed representations
+	* Real-time functioning
+* (p436) Behavior (as defined by Mataric) is a control law that satisfies a set of constraints to achieve and maintain a particular goal
+* (p450) Priming experiments. Subjects are exposed very briefly to some stimulus - an image on a screen, perhaps, or a sound. The time of exposure is short enough that the subjects do not consciously register the stimulus. Nonetheless, the exposure to the stimulus affects their performance on subsequent tasks
 
 # See also
 
