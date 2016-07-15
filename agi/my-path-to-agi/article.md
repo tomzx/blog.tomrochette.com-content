@@ -223,6 +223,10 @@ Dan Horgan
 Karol Gregor
 David Silver
 
+## The Programmer's Apprentice: A Research Overview (2016-07)
+Charles Rich
+Richard C. Waters
+
 ## In the reading queue
 
 ### Design for a brain
