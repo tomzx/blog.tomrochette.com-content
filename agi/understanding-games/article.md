@@ -45,12 +45,16 @@ If we look at the game from a reward/punishment point of view, we would reward t
 
 By providing the AGI with a couple of do/do not, it is possible for us to let it learn on its own through reinforcement learning.
 
-In my article [Mari/o](../mario), I write on the topic of [Neuroevolution of augmenting topologies](https://en.wikipedia.org/wiki/Neuroevolution_of_augmenting_topologies). NEAT is a genetic algorithm which goal is to generate and improve artificial neural networks in order to best respond to some selection criteria (generally a single evaluation metric).
+In my article [Mari/o](../mario), I write on the topic of Neuroevolution of augmenting topologies[^1]. NEAT is a genetic algorithm which goal is to generate and improve artificial neural networks in order to best respond to some selection criteria (generally a single evaluation metric).
 
 The algorithm works similarly to how a reinforcement algorithm would work, in the sense that it will promote genes/neural networks which better suit the goal given to it. In this particular exercise, the only reward that was given was based on how far Mario had move to the right (toward the end of the level goal).
 
-The game was basically replaced by a 13x13 grid where there exist 2 types of blocks: white to represent the ground and black to represent enemies or sprites. Thus, the NEAT algorithm was learning to play a dumbed down version of the game
+The game was basically replaced by a 13x13 grid where there exist 2 types of blocks: white to represent the ground and black to represent enemies or sprites. Thus, the NEAT algorithm was learning to play a dumbed down version of the game. And yet, it took it many hours to get to the point it would be able to complete the level without dying, but its performance were still average at best.
+
+On the surface, the NEAT algorithm appears to learn, however I'd suggest that it is far from that. Instead, what it is doing is trying numerous cases that are part of the search space, supposedly attempting to find a balance between the fitness of evolved solutions and their diversity[^1] which should lead to a better action model for the same number of attempts compared to a random action agent.
 
 # Action/Adventure
 
 # See also
+
+[^1]: https://en.wikipedia.org/wiki/Neuroevolution_of_augmenting_topologies
