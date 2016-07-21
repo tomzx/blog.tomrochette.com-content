@@ -72,6 +72,7 @@ Tom
 * [Deconstruction of a mind](deconstruction-of-a-mind)
 * [Human development](human-development)
 * [Humans as machines](humans-as-machines)
+* [Neuroscience concept map](https://github.com/tomzx/neuroscience-concept-map)
 * [Observations on DNA](observations-on-dna)
 
 ## Computer/Software/Computer Science inspired exploration
@@ -80,6 +81,7 @@ Tom
 * [AGI through Turing machines](agi-through-turing-machines)
 * [Databases](databases)
 * [Formal AGI](formal-agi)
+* [Machine learning concept map](https://github.com/tomzx/machine-learning-concept-map)
 * [Patterns](patterns)
 * [Perfect storage medium](perfect-storage-medium)
 * [Playing with data](playing-with-data)
@@ -101,7 +103,7 @@ Tom
 
 ## Structured learning
 
-* [AGI Concept Map](https://github.com/tomzx/agi-concept-map)
+* [AGI concept map](https://github.com/tomzx/agi-concept-map)
 * [Current approaches](current-approaches)
 * [Getting started](getting-started)
 * [Glossary](glossary)
