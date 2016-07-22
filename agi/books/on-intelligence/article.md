@@ -14,6 +14,19 @@ taxonomy:
 
 # Overview
 
+## One hundred-step rule exercise
+Hawkins suggests that the brain is able to recognize a cat in a picture in less than half a second. He names this the one hundred-step rule, meaning processing an image to determine the presence or absence of a cat can go through neural network of 100 neurons deep (each neuron takes about 5ms to fire and reset, thus a chain of 100 neurons can be fired in 500ms).
+
+Here we do a little bit of thinking about the network itself. If it was a single input neuron connected to all of the neurons in the brain, then in a single step, all neurons would have been reached. However this design is highly unlikely as it would require every single neuron to be connected to that input neuron.
+
+Then we think of the brain as a tree structure. With 100 levels, it is very likely for the brain to be fully covered. However a tree structure implies that there would be no consolidation of information. Neurons would be fired, but at no point would a neuron say "yeap, that's a cat alright". It would be more like "I saw a paw", "I saw some ears", "I saw a tail", but nothing aggregating all of these indices.
+
+TBC
+
+## AGI model
+* System that integrates and differentiate inputs
+* The differences are what trigger/attract attention
+
 # Notes
 ## Preface
 * The biggest mistake is the belief that intelligence is defined by intelligent behavior
@@ -100,6 +113,14 @@ taxonomy:
 * Memories are stored in a form that captures the essence of relationships, not the details of the moment
 * When you see, feel, or hear something, the cortex takes the detailed, highly specific input and converts it to an invariant form. It is the invariant form that is stored in memory, and it is the invariant form of each new input pattern that it gets compared to
 * The way you understand the world is by finding invariant structure in the constantly changing stream of input
+
+## 5 A New Framework of Intelligence
+* To notice that something is different, some neurons in my brain that weren't active before would have to become active. [...] When I look around the room, my brain is using memories to form predictions about what it expects to experience before I experience it. [...] But when some visual pattern comes in that I had not memorized in that context, a prediction is violated. And my attention is drawn to the error
+* Prediction is not just one of the things your brain does. It is the primary function of the neocortex, and the foundation of intelligence
+* The important point is that higher intelligence is not a diffent kind of process from perceptual intelligence
+* Intelligence is measured by the capacity to remember and predict patterns in the world, including language, mathematics, physical properties of objects, and social situations
+* Behavior came first, then intelligence
+* Here then is the core of my argument on how to understand the neocortex, and why memory and prediction are the keys to unlocking the mystery of intelligence. We start with the reptilian brain with no cortex. Evolution discovers that if it tacks on a memory system (the neocortex) to the sensory path of the primitive brain, the animal gains an ability to predict the future. [...] By comparing the actual sensory input with recalled memory, the animal not only understands where it is but can see into the future.
 
 # See also
 
