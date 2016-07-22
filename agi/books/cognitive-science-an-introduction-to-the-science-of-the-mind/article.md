@@ -263,6 +263,19 @@ taxonomy:
 	* Real-time functioning
 * (p436) Behavior (as defined by Mataric) is a control law that satisfies a set of constraints to achieve and maintain a particular goal
 * (p450) Priming experiments. Subjects are exposed very briefly to some stimulus - an image on a screen, perhaps, or a sound. The time of exposure is short enough that the subjects do not consciously register the stimulus. Nonetheless, the exposure to the stimulus affects their performance on subsequent tasks
+* (p458) The neuropsychologists David Milner and Melvyn Goodale have developed a sophisticated theory of vision that is built around this idea that one of the roles of consciousness is to permit voluntary and deliberate action
+* (p460) Conscious awareness is restricted to the ventral pathway while the dorsal stream governs the visual control of movement non-consciously
+* (p463) The retention of information is very impaired in the absence of consciousness
+* (p463) Greenwald, Draine, and Abrams experiment suggests another hypothesis about the function of conscious awareness - namely, that consciousness allows information to be explicitly retained and maintained. According to this hypothesis, information that is picked up non-consciously can indeed be deployed in relatively sophisticated tasks, but it can be used only within a very limited time horizon. Conscious information, in constrast, is more transferable and flexible
+* (p464) Two related ideas emerged about the function of consciousness
+	* Conscious awareness seems extremely important for planning and initiating action (as opposed to the online control of behavior, which can be carried out through non-conscious information processing)
+	* Concious information persists longer than non-conscious information
+* (p464) Phenomenal consciousness (P-consciousness): P-consciousness is experience... We have P-conscious states when we see, hear, smell, taste, and have pains. P-conscious properties include the experiential properties of sensations, feelings, and perceptions, but I would also include thoughts, wants, and emotions
+* (p464) Access consciousness (A-consciousness): A state is A-conscious if it is poised for direct control of thought and action. To add more detail, a representation is A-conscious if it is poised for free use in reasoning and for direct "rational" control of action and speech
+* (p470) Dehaene and Naccache global workspace theory focuses on three different things that they believe consciousness makes possible. These are:
+	* the intentional control of action
+	* durable and explicit information maintenance
+	* the ability to plan new tasks through combining mental operations in novel ways
 
 # See also
 
