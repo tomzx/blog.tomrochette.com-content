@@ -121,6 +121,24 @@ TBC
 * Intelligence is measured by the capacity to remember and predict patterns in the world, including language, mathematics, physical properties of objects, and social situations
 * Behavior came first, then intelligence
 * Here then is the core of my argument on how to understand the neocortex, and why memory and prediction are the keys to unlocking the mystery of intelligence. We start with the reptilian brain with no cortex. Evolution discovers that if it tacks on a memory system (the neocortex) to the sensory path of the primitive brain, the animal gains an ability to predict the future. [...] By comparing the actual sensory input with recalled memory, the animal not only understands where it is but can see into the future.
+* Intelligence and understanding started as a memory system that fed predictions into the sensory stream
+* To know something means that you can make predictions about it
+* The cortex has evolved in two directions. First it got larger and more sophisticated in the types of memories it could store. Second, it started interacting with the motor system of the old brain
+* Prediction, not behavior, is the proof of intelligence
+
+## 6 How the Cortex Works
+* Using the "top-down" approach, you start with the image of what the solved puzzle should look like, and use this to decide which pieces to ignore and which pieces to search for
+* The other approach is "bottom-up", where you focus on the individual pieces themselves. You study them for unusual features and look for close matches with other puzzle pieces
+* If you don't have a picture of the puzzle's solution, the bottom-up method is sometimes the only way to proceed
+* To make predictions, your cortex needs a way to memorize and store knowledge about sequences of events
+* To make predictions of novel events, the cortex must form invariant representations
+
+### Invariant Representations
+* Each V1 neuron has a so-called receptive field that is highly specific to a minute part of your total field of vision
+* Each V1 cell is also tuned for specific kinds of input patterns. For instance, a particular cell might fire vigorously when it sees a line or an edge slanted at thirty degrees within its receptive field
+* In the course of spanning four cortical stages from retina to IT, cells have changed from being rapidly changing, spatially specific, tiny-feature recognition cells, to being constantly firing, spatially nonspecific, object recognition cells
+* There are many, if not more feedback connections in visual cortex as there are feedforward connections
+* With hearing and touch you can't recognize an object with a momentary input. Therefore the neural activity corresponding to the mental perception of objects, such as spoken words, must last longer in time than the individual input patterns
 
 # See also
 
