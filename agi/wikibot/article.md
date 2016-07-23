@@ -33,17 +33,15 @@ A bot must have various low level functions such as
 
 ## Wiki markup vs HTML
 
-Wikipedia articles are written in Wiki markup, which is a custom language which is then translated into HTML.
+Wikipedia articles are written in [Wiki markup](https://en.wikipedia.org/wiki/Help:Wiki_markup), which is a custom language which is then translated into HTML.
 
-When a bot fetches the content of a Wikipedia article, it is fetching the Wiki markup text. This means that a bot would have to be able to manipulate this language and not HTML, which may be an issue as it is more likely to find libraries to read/manipulate HTML than there are to do the same on Wiki markup.
-
-https://en.wikipedia.org/wiki/Help:Wiki_markup
+When a bot fetches the content of a Wikipedia article, it is fetching the Wiki markup text. This means that a bot would have to be able to manipulate this language and not HTML, which may be an issue as it is more difficult to find libraries to read/manipulate Wiki markup than HTML.
 
 # Analysis of existing bots
 
 ## Apibot
 
-Apibot has a really interesting approach to the problem. They use what they call an **assembly line**, which is basically the [pipeline design pattern](https://www.cise.ufl.edu/research/ParallelPatterns/PatternLanguage/AlgorithmStructure/Pipeline.htm).
+Apibot has a really interesting approach to the problem of processing wikipedia articles. They use what they call an **assembly line**, which is basically the [pipeline design pattern](https://www.cise.ufl.edu/research/ParallelPatterns/PatternLanguage/AlgorithmStructure/Pipeline.htm).
 
 > Every assembly line object belongs to one of the following types:
 > Feeders - supply data to the assembly line
@@ -118,7 +116,6 @@ Then you build an assembly line by creating instances of the objects listed abov
                                   | writer - write to a .CSV  |
                                   +---------------------------+
 ```
-
 
 # See also
 
