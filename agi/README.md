@@ -106,7 +106,6 @@ Tom
 * [AGI concept map](https://github.com/tomzx/agi-concept-map)
 * [Current approaches](current-approaches)
 * [Getting started](getting-started)
-* [Glossary](glossary)
 * [Papers](papers)
 * [Researchers](researchers)
 * [Topics](topics)
