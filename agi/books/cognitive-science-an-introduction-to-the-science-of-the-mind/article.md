@@ -276,6 +276,9 @@ taxonomy:
 	* the intentional control of action
 	* durable and explicit information maintenance
 	* the ability to plan new tasks through combining mental operations in novel ways
+* (p471) Dehaene and Naccache consider these three hypothesized functions of consciousness within a framework set by two basic theoretical postulates about mental architecture and the large-scale organization of the mind
+* (p471) The first theoretical postulate is a version of the modularity theory. Consciousness is restricted to information within the global workspace
+* (p471) The second theoretical postulate has to do with how information becomes available to the global workspace. Attention is the key mechanism here. It functions as a gate-keeper, allowing the results of modular information processing to enter the global workspace
 
 # See also
 
