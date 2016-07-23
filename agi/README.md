@@ -108,7 +108,6 @@ Tom
 * [Getting started](getting-started)
 * [Papers](papers)
 * [Researchers](researchers)
-* [Topics](topics)
 
 ## My approach
 
