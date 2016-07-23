@@ -227,6 +227,10 @@ David Silver
 Charles Rich
 Richard C. Waters
 
+## Towards a Programming Apprentice (2016-07)
+Carl E. Hewitt
+Brian Smith
+
 ## In the reading queue
 
 ### Design for a brain
