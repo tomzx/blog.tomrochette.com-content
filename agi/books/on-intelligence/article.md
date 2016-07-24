@@ -11,6 +11,8 @@ taxonomy:
 ## Learned in this study
 
 ## Things to explore
+* Is there any research/proof that cortical regions learn and store sequences of pattern? How does that work at the neuron level?
+* It is claimed that neuron? cells remain active for a relative long duration of a sequence, what is considered "active"? Is it the firing of the neuron on its axon?
 
 # Overview
 
@@ -26,6 +28,9 @@ TBC
 ## AGI model
 * System that integrates and differentiate inputs
 * The differences are what trigger/attract attention
+
+## Some critique
+* The books mentions "experiments show that", yet no sources are given
 
 # Notes
 ## Preface
@@ -139,6 +144,25 @@ TBC
 * In the course of spanning four cortical stages from retina to IT, cells have changed from being rapidly changing, spatially specific, tiny-feature recognition cells, to being constantly firing, spatially nonspecific, object recognition cells
 * There are many, if not more feedback connections in visual cortex as there are feedforward connections
 * With hearing and touch you can't recognize an object with a momentary input. Therefore the neural activity corresponding to the mental perception of objects, such as spoken words, must last longer in time than the individual input patterns
+
+### Integrating the Senses
+* Information flows up and down sensory hierarchies to form predictions and create a unified sensory experience
+* We interpret downward-flowing patterns as predictions. In the motor cortex we interpret them as motor commands
+
+## A New View of V1
+* If all cortical regions perform the same function, why should IT be special?
+* Experiments clearly show that nonadjacent patches of V1 are not directly connected; the left side of V1 can't know directly what the right side is seeing
+* Subregions or clusters of V1 are physically disconnected but do the same thing
+* Experiments show that all higher regions of cortex receive converging inputs from two or more sensory regions below themselves
+* The job of any cortical region is to find out how its inputs are related, to memorize the sequence of correlations between them, and to use this memory to predict how the inputs will behave in the future
+* Invariant representations are formed in every cortical region
+
+## A Model of the World
+* One of the most important concepts in this book is that the cortex's hierarchical structure stores a model of the hierarchical structure of the real world. The real world's nested structure is mirrored by the nested structure of your cortex
+* You can only experience a subset of the world at any moment in time
+* A sequence is a set of patterns that generally accompany each other but not always in a fixed order. What is important is that patterns of a sequence follow one another in time even if not in a fixed order
+* The fact that certain input patterns repeat time and again is what lets a cortical region know that those experiences are caused by a real object in the world
+* "Whenever I see any of these events, I will refer to them by a common name. It is this group name, not the individual patterns, that I will pass on to higher regions of the cortex" - Cortical region
 
 # See also
 
