@@ -1,5 +1,5 @@
 ---
-title: The Society of Mind
+title: Marvin Minsky - The Society of Mind
 created: 2015-11-15
 taxonomy:
   category: [Artificial General Intelligence]
@@ -133,7 +133,7 @@ Marvin Minsky's *The Society of Mind* is the epitome of connectionism[^connectio
 * The most useful sets of properties those whose members do not interact too much (orthogonal)
 
 ## 19.5 Polynemes
-* Each agency must learn its own specific and appropriate response. Each agency must have its private dictionary or memory bank to tell it how to respond to every polyneme (Chinese room?) 
+* Each agency must learn its own specific and appropriate response. Each agency must have its private dictionary or memory bank to tell it how to respond to every polyneme (Chinese room?)
 
 ## 19.6 Recognizers
 * The simplest way to recognize something is to verify that it has certain properties
