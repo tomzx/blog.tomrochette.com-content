@@ -1,5 +1,5 @@
 ---
-title: Gödel, Escher, Bach: An Eternal Golden Braid
+title: Douglas Hofstadter - Gödel, Escher, Bach: An Eternal Golden Braid
 created: 2015-12-13
 taxonomy:
   category: [Artificial General Intelligence]
