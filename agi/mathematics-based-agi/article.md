@@ -6,6 +6,8 @@ taxonomy:
   status: in progress
 ---
 
+## Context
+
 ## Learned in this study
 
 ## Things to explore
@@ -69,3 +71,15 @@ Rules are decomposed into their parts, each part is a key in a dictionary such t
 ## Notes
 
 Much of machine learning is geared toward fitting a given function as closely as possible without under/over-fitting the function in question.
+
+## Reasoning on AGI
+Given that programs are part of the integer space (with length in the same space), one can be certain that a program within this infinite space will be considered an AGI. It is highly likely that many such programs exists. In fact, if one such program exist, an infinity of its variants will exist as well (longer programs containing this "seed AI").
+
+If we accept this as a fact, then the obvious next question is "what is the length of this shortest seed AGI?" The answer is likely to be platform specific. For instance, our DNA is believed to be the equivalent to nature's AGI program. DNA is itself about 3 billion nucleotides. As there are 4 valid nucleotides/bases, there are $(2^2)^{(3 \times 10^9)}$ possible combinations/programs, a single program being approximately 6 Gbits or 750 MBytes. What those 750 MB of data allow us to do is to construct a huge variety of cells/protein that end up having lives of their own.
+
+If we take this amount of information as a basis to determine the size of a potential AGI, we have to ask ourselves if what we "really" need is a subset of this information, or all if it is needed. In the former case, then we can hope to reduce our search space possibly considerable, in the latter, it means that we at least have an upper bound for something that should produce human-like intelligence levels.
+
+# See also
+* [Observations on DNA](observations-on-dna)
+
+# Sources
