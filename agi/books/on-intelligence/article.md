@@ -149,7 +149,7 @@ TBC
 * Information flows up and down sensory hierarchies to form predictions and create a unified sensory experience
 * We interpret downward-flowing patterns as predictions. In the motor cortex we interpret them as motor commands
 
-## A New View of V1
+### A New View of V1
 * If all cortical regions perform the same function, why should IT be special?
 * Experiments clearly show that nonadjacent patches of V1 are not directly connected; the left side of V1 can't know directly what the right side is seeing
 * Subregions or clusters of V1 are physically disconnected but do the same thing
@@ -157,12 +157,57 @@ TBC
 * The job of any cortical region is to find out how its inputs are related, to memorize the sequence of correlations between them, and to use this memory to predict how the inputs will behave in the future
 * Invariant representations are formed in every cortical region
 
-## A Model of the World
+### A Model of the World
 * One of the most important concepts in this book is that the cortex's hierarchical structure stores a model of the hierarchical structure of the real world. The real world's nested structure is mirrored by the nested structure of your cortex
 * You can only experience a subset of the world at any moment in time
 * A sequence is a set of patterns that generally accompany each other but not always in a fixed order. What is important is that patterns of a sequence follow one another in time even if not in a fixed order
 * The fact that certain input patterns repeat time and again is what lets a cortical region know that those experiences are caused by a real object in the world
 * "Whenever I see any of these events, I will refer to them by a common name. It is this group name, not the individual patterns, that I will pass on to higher regions of the cortex" - Cortical region
+
+### Sequences of Sequences
+* By collapsing predictable sequences into "named objects" at each region in our hierarchy, we achieve more and more stability the higher we go. This creates invariant representations (named objects do not need to have a "name", but to be uniquely identified though an integer for instance)
+* A hierarchy of nested sequences allows the sharing and reuse of lower-level objects
+* The way you memorize sequences and represent them by name as information goes up and down your cortical hierarchy may remind you of the hierarchy of military command
+* Recognizing any sequence would be impossible if you have not first classifing each item
+* Classification and sequence formation are both necessary to create invariant representations, and each region of the cortex does them
+* Context of known sequences can be used to resolve ambiguity
+* An invariant representation in any region of the cortex can be turned into a detailed prediction of how it will appear on your senses by propagating the pattern down the hierarchy
+
+### What a Region of Cortex Looks Like
+* (top) Layer 1 is the most distinct of the six layers. It has very few cells, consisting primarily of a mat of axons running parallel to the cortical surface
+* Layer 2 and 3 look similar. They contain many tightly packed pyramidal cells
+* Layer 4 has a type of star-shaped cell
+* Layer 5 has regular pyramidal cells as well as a class of extra-big pyramid-shaped cells
+* (bottom) Layer 6 also has several types of unique neurons
+* Information flows horizontally in layer 1 and vertically in layers 2 through 6
+* On close inspect, we see that at least 90 percent of the synapses on cells within each column come from places outside the column itself
+* Upward flow
+	* Converging inputs from lower regions always arrive at layer 4 - the main input layer. In passing, they also form a connection in layer 6
+	* Layer 4 cells then send projections up to cells in layers 2 and 3 within their column
+	* When a column projects information up, many layer 2 and layer 3 cells send axons to the input layer of that next higher region
+* Downward flow
+	* Layer 6 cells are the downward-projecting output cells from a cortical column and project to layer 1 in the regions hierarchically below
+	* In layer 1, the axon spreads over long distances in the lower cortical region
+	* Information flowing down the hierarchy from one column has the potential to activate many columns in the regions below it
+	* Cells in layers 2, 3, and 5 have dendrites in layer 1, so these cells can be excited by the feedback running all across layer 1
+	* The axons coming from layers 2 and 3 cells form synapses in layer 5 as they leave the cortex and are believed to excite cells in layers 5 and 6
+* The thalamus is essential to normal living; a damaged thalamus leads to a persistent vegetative state
+
+### How a Region of Cortex Works: The Details
+* How does a region of cortex classify its inputs?
+* How does it learn sequences of patterns?
+* How does it form a constant pattern or "name" for a sequence?
+* How does it make specific predictions?
+* Let's assume that the columns in a region of cortex are like buckets
+* Each column represent the label of a bucket
+* The layer 4 cells in every column receive input fibers from several regions below it and will fire if they have the right combination of inputs
+* When a layer 4 cell fires, it is "voting" that the input fits its label
+* How does our cortical region store the sequence of classified patterns?
+* Before learning, the column can only become active if driven by a layer 4 cell
+* After learning, the column can become partially active via memory
+* Layer 2 cells are used to "name" patterns, while Layer 3b cells represent unexpected patterns
+* As a column learns, its layer 3b cell becomes quiet while its layer 2 cell is consistently active
+* Layer 3a cell inhibits layer 3b cell from firing if it observes the expected input
 
 # See also
 
