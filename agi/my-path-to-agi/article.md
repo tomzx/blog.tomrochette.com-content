@@ -231,6 +231,9 @@ Richard C. Waters
 Carl E. Hewitt
 Brian Smith
 
+## Artificial Intelligence -- a personal view (2016-07)
+David Marr
+
 ## In the reading queue
 
 ### Design for a brain
