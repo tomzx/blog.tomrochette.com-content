@@ -208,6 +208,22 @@ TBC
 * Layer 2 cells are used to "name" patterns, while Layer 3b cells represent unexpected patterns
 * As a column learns, its layer 3b cell becomes quiet while its layer 2 cell is consistently active
 * Layer 3a cell inhibits layer 3b cell from firing if it observes the expected input
+* The method of combining partial prediction with partial input resolves ambiguous input, it fills in missing pieces of information, and it decides between alternative views
+
+### Flowing Up and Flowing Down
+* Unexpected patterns are automatically passed to the next higher cortical region
+* If recognition does not occur, an unexpected pattern will keep propagating up the cortical hierarchy until some higher region can interpret it as part of its normal sequence of events
+
+### Can Feedback Really Do That?
+* As a general rule, information flowing up the cortical hierarchy is transferred via synapses close to cell bodies. Information going up the hierarchy is therefore more certain to pass from region to region
+* Feedback flowing down the cortical hierarchy does so via synapses far from the cell body
+* Massive feedback and massive numbers of synapses exist for a reason. Using this insight, we can say that a typical neuron has the ability to learn hundreds of precise coincidences on feedback fibers as they make synapses on thin dendrites
+
+### How the Cortex Learns
+* When two neurons fire at the same time, the synapses between them get strengthened
+* The two basic components of learning are forming the classificatinos of patterns and building sequences
+* The basics of forming sequences is to group patterns together that are part of the same object
+* During the early years of your life, your memories of the world first form in higher regions of cortex, but as you learn they are re-formed in lower and lower parts of the cortical hierarchy
 
 # See also
 
