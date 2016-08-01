@@ -225,6 +225,43 @@ TBC
 * The basics of forming sequences is to group patterns together that are part of the same object
 * During the early years of your life, your memories of the world first form in higher regions of cortex, but as you learn they are re-formed in lower and lower parts of the cortical hierarchy
 
+### The Hippocampus: on Top of it All
+* With a very broad brush, we can say that the basal ganglia were the primitive motor system, the cerebellum learned precise timing relationships of events, and the hippocampus stored memories of specific events and places
+* If you lose both halves of the hippocampus, you lose the ability to form most new memories
+* The connection between the hippocampus and the neocortex suggest that the hippocampus is the top region of the neocortex, not a separate structure
+* It is the unexplained and unanticipated remainders, the new stuff, that enter the hippocampus and are stored there
+* This information won't be stored forever. Either it will be transferred down into the cortex below or it will eventually be lost
+* We could say the more you know, the less you remember (the more you have experienced in the past, the less likely you are to remember a particular event)
+
+### An Alternate Path Up the Hierarchy
+* Hawkins speculates that the alternative pathway through the thalamus is the mechanism by which we attend to details that normally we wouldn't notice
+* Biologists have shown that the alternate pathway can be turned on in one of two ways
+	* One is by a signal from the higher region of the cortex itself
+	* The second method is a large, unexpected signal from below
+
+### Closing Thoughts
+* There is a lesson here about the neocortex. It isn't made of superfast components and the rules under which it operates are not that complex. However, it does have a hierarchical structure that contains billions of neurons and trillions of synapses
+
+## 7 Consciousness and Creativity
+### Are Animals Intelligent?
+* Everything I have written so far about the neocortex and how it works depends on a very basic premise - that the world has structure and is therefore predictable
+* All behavior is a means of exploiting the structure of the world for the benefit of reproduction
+
+### What's Different About Human Intelligence?
+* Our neocortex is larger
+* We have language
+* Intelligence could be traced over three epochs, each using memory and prediction
+	* The first would be when species used DNA as the medium for memory
+	* The second epoch began when nature invented modifiable nervous systems that could quickly form memories
+	* The third and final epoch is unique to humans. It begins with the invention of language and the expansion of our large neocortex
+
+### What Is Creativity?
+* Creativity can be defined simply as making predictions by analogy, something that occurs everywhere in the cortex and something you do continually while awake
+
+### Are Some People More Creative Than Others?
+* An expert is someone who through practice and repeated exposure can recognize patterns that are more subtle than can be recognized by a nonexpert
+* Ultimately there is a physical limit to what we can learn constrained by the size of our cortex
+
 # See also
 
 # Sources
