@@ -79,35 +79,37 @@ If we accept this as a fact, then the obvious next question is "what is the leng
 
 If we take this amount of information as a basis to determine the size of a potential AGI, we have to ask ourselves if what we "really" need is a subset of this information, or all if it is needed. In the former case, then we can hope to reduce our search space possibly considerable, in the latter, it means that we at least have an upper bound for something that should produce human-like intelligence levels.
 
-This "upper bound" or threshold has a couple of interesting properties. Let's consider the smallest AGI being a program of length $l$. This means that for all programs $p$ smaller than $l$, in other words $L(p) < l$ (where $L(p)$ is the length of program $p$), the probability that we execute a program $p_{AGI}$ that is AGI is $P(\mathrm{p\ exhibits\ AGI}|L(p) < l) = 0$, in other word we will at best observe sub-AGI intelligence but not AGI itself.
+This "upper bound" or threshold has a couple of interesting properties. Let's consider the smallest AGI being a program of length $l$. This means that for all programs $p$ smaller than $l$, in other words $|p| < l$ (where $|p|$ is the length of program $p$), the probability that we execute a program $p_{AGI}$ that is AGI is $P(\mathrm{p\ exhibits\ AGI}||p| < l) = 0$, in other word we will at best observe sub-AGI intelligence but not AGI itself.
 
-On the other hand, for any program larger or equal to $l$, we may assume that it is sufficient for a program $p$ to contain the program $p_{AGI}$ somewhere in its string definition. In other terms, if this program $p$ contains the substring (from index $a$ to $b$) $p_{a,b}$ that is the AGI program $p_{AGI}$, in other words $p_{a,b} = p_{AGI}$, then  $P(\mathrm{p\ exhibits\ AGI}|L(p_{a,b}) \ge l)) =\ ?$.
+On the other hand, for any program larger or equal to $l$, we may assume that it is sufficient for a program $p$ to contain the program $p_{AGI}$ somewhere in its string definition. In other terms, if this program $p$ contains the substring (from index $a$ to $b$) $p_{a,b}$ that is the AGI program $p_{AGI}$, in other words $p_{a,b} = p_{AGI}$, then  $P(\mathrm{p\ exhibits\ AGI}||p_{a,b}| \ge l) =\ ?$.
 
 What is the probability of finding an AGI program?
 * function of AGI length
-* Alphabet $A$ of $s$ symbols
-* $l = L(p_{AGI})$ length of the smallest AGI
-* how many programs of length $L(p)$? $s^{L(p)}$ 
-* $s^{L(p_{a,b})}$ number of programs of length $L(p_{a,b})$
-* $P(\mathrm{p\ exhibits\ AGI}|L(p_{a,b}) = l)) = \frac{1}{s^{L(p_{a,b})}} = \frac{1}{s^{L(p_{AGI})}} =  \frac{1}{s^l}$
-* $p_{x,y}$ contains $p_{a,b} = p_{AGI}$, thus $L(p_{x,y}) \ge L(p_{AGI})$
-* for a program $p_{x,y}$ one symbol longer than $p_{a,b}$ 
+* Alphabet $\Sigma$ of $s$ symbols
+* $l = |p_{AGI}|$ length of the smallest AGI
+* how many programs of length $|p|$? $s^{|p|}$
+* $s^{|p_{a,b}|}$ number of programs of length $|p_{a,b}|$
+* $P(\mathrm{p\ exhibits\ AGI}||p_{a,b}| = l) = \frac{1}{s^{|p_{a,b}|}} = \frac{1}{s^{|p_{AGI}|}} =  \frac{1}{s^l}$
+* $p_{x,y}$ contains $p_{a,b} = p_{AGI}$, thus $|p_{x,y}| \ge |p_{AGI}|$
+* for a program $p_{x,y}$ one symbol longer than $p_{a,b}$
 	* $s$ programs with prefix $p_{a,b}$
 	* $s$ programs with suffix $p_{a,b}$ (same as prefix)
-	* when the length difference $d$ increases, then we have permutations (where X is any symbol of the alphabet):
-		* length 2 XX_, X_X, _XX => $3s^2$
-		* length 3 XXX_, XX_X, X_XX, _XXX => $4s^3$
-		* length n => $(n+1)s^n$
-* $L_{p \to AGI} = L(p_{x,y}) - L(p_{AGI})$ the length difference between a program $p_{x,y}$ longer than $p_{AGI}$
-* for $s > 1$ and $l = L(p_{AGI}) > 1$, (something is not right with this equation as the probability can go over 1 if $L(p_{x,y}) >s^{L(p_{AGI})}$)
+* when the length difference $d = |p_{x,y}| - |p_{a,b}|$ increases, then we have permutations (where X is any symbol of the alphabet):
+	* length 2 XX_, X_X, _XX => $3s^2$
+	* length 3 XXX_, XX_X, X_XX, _XXX => $4s^3$
+	* length n => $(n+1)s^n$
+* $L_{p \to AGI} = |p_{x,y}| - |p_{AGI}|$ the length difference between a program $p_{x,y}$ longer than $p_{AGI}$
+* for $s > 1$ and $l = |p_{AGI}| > 1$, (something is not right with this equation as the probability can go over 1 if $|p_{x,y}| - |p_{AGI}| + 1 >s^{|p_{AGI}|}$)
 $$\begin{split}
-P(\mathrm{p\ exhibits\ AGI}|L(p_{x,y}) > l)) &= (L_{p \to AGI} + 1) \times \frac{s^{L_{p \to AGI}}}{s^{L(p_{x,y})}} \\
-&= [L(p_{x,y}) - L(p_{AGI}) + 1] \times \frac{s^{L(p_{x,y}) - L(p_{AGI})}}{s^{L(p_{x,y})}} \\
-&= [L(p_{x,y}) - L(p_{AGI}) + 1] \times \frac{s^{L(p_{x,y})} \times s^{-L(p_{AGI})}}{s^{L(p_{x,y})}}  \\
-&= \frac{L(p_{x,y}) - L(p_{AGI}) + 1}{s^{L(p_{AGI})}} \\
+P(\mathrm{p\ exhibits\ AGI}||p_{x,y}| > l) &= (L_{p \to AGI} + 1) \times \frac{s^{L_{p \to AGI}}}{s^{|p_{x,y}|}} \\
+&= [|p_{x,y}| - |p_{AGI}| + 1] \times \frac{s^{|p_{x,y}| - |p_{AGI}|}}{s^{|p_{x,y}|}} \\
+&= [|p_{x,y}| - |p_{AGI}| + 1] \times \frac{s^{|p_{x,y}|} \times s^{-|p_{AGI}|}}{s^{|p_{x,y}|}}  \\
+&= \frac{|p_{x,y}| - |p_{AGI}| + 1}{s^{|p_{AGI}|}} \\
 \end{split}$$
 
-Thus, the larger the smallest AGI program is, the more difficult it is to find it in the solution space. Another obvious conclusion is that as the program $p$ length tends to infinity, the probability it contains the AGI program increases to almost 100% certainty, $P(\mathrm{p\ exhibits\ AGI}|\lim_{(y-x) \rightarrow \infty}L(p_{x,y})) \approx 1$.
+A couple conclusions:
+* The larger the smallest AGI program is, the more difficult it is to find it in the solution space
+* As the program $p$ length tends to infinity, the probability it contains the AGI program increases to almost 100% certainty, $P(\mathrm{p\ exhibits\ AGI}|\lim_{(y-x) \rightarrow \infty}|p_{x,y}|) \approx 1$
 
 # See also
 * [Observations on DNA](observations-on-dna)
