@@ -151,6 +151,33 @@ With that dictionary built, we order it from the least frequent token to the mos
 
 At this point we're ready to proceed with the "critical" part of the algorithm, the string matching.
 
+```php
+$vocabulary = ['word' => [1, 2, 3, 5, 7]]; // dictionary of known words from corpus listing all their starting
+
+// Build token count dictionary
+$tokenCounts = array_flip($tokens);
+foreach ($tokenCounts as $token => $count) {
+    if ( ! isset($vocabulary[$token])) {
+        return [];
+    } else {
+        $tokenCounts[$token] = count($vocabulary[$token]);
+    }
+}
+
+// Sort from least frequent to most frequent token
+asort($tokenCounts);
+
+// Build token index dictionary
+$tokenIndexes = [];
+foreach ($tokens as $index => $token) {
+    if (isset($tokenIndexes[$token])) {
+        continue;
+    }
+
+    $tokenIndexes[$token] = $index;
+}
+```
+
 What we will be doing is iterate through the dictionary of token => count, which is sorted from least frequent token to most frequent token. We'll fetch the list of indexes of the given token.
 
 In the first part of the loop, we'll be building what we'll call our matching indexes, that is, the indexes that have the potential to be valid results for our query. Since our current token is at some position X within the query, we'll have to calculate its offset from the start of the query string. Thus, if the token is at position X and this same token is known at index Y and Z, then Y-X and Z-X are potential matching indexes.
@@ -158,6 +185,36 @@ In the first part of the loop, we'll be building what we'll call our matching in
 All subsequent iterations of the loop will consist is obtaining the token offset from the start of the query string and then attempting to find these indexes with the list of indexes of the given token. As we progress further down the list of token, less and less matching indexes will respond to the previous criteria.
 
 At the end of the loop, we are left only with  matching indexes.
+
+```php
+$vocabulary = ['word' => [1, 2, 3, 5, 7]]; // as shown earlier
+$firstToken = key($tokenCounts);
+$matchingIndexes = [];
+foreach ($tokenCounts as $token => $count) {
+    $indexes = $vocabulary[$token];
+
+    if ($token === $firstToken) {
+        // Compute the starting index
+        $delta = -$tokenIndexes[$token];
+
+        foreach ($indexes as $index) {
+            $matchingIndexes[] = $index + $delta;
+        }
+    } else {
+        $delta = $tokenIndexes[$token];
+
+        foreach ($matchingIndexes as $index => $matchingIndex) {
+            if ( ! in_array($matchingIndex + $delta, $indexes)) {
+                unset($matchingIndexes[$index]);
+            }
+        }
+
+        if (empty($matchingIndexes)) {
+            return [];
+        }
+    }
+}
+```
 
 # Serial vs parallel
 
@@ -199,7 +256,7 @@ However, a deadline system does not make much sense when we attempt to relate it
 
 "Interruption" can come from two places: within or outside of the process. In other words, it can be expected or unexpected. When it's expected, it means that we are asking ourselves from time to time "should I switch to something else", which would delegate this question to another process. When we don't expect it, it means that something else is forcing us out of what we are currently doing, similar to how an operating system would evict a running process when its quantum is completed. In the expected case, it means that we're somewhat okay with the idea of being evicted while in the unexpected case, we might be in the middle of something. In order for both cases to work out to be similar, it would mean that we are storing some form of state on a regular basis, such that if we're interrupted, we may lose a bit of computation, but we can still restore our state and proceed.
 
-When we think, it isn't rare that we'll interrupt our thinking in order to think of something else. When we are done with this second thinking phase, we'll generally try to revert back to our initial thinking phase. However, since we are not consistent machines like computers, we do not push our thinking contexts onto stacks. Therefore, the reconstruction of our first thinking process context requires us to possibly start from scratch or to reconstruct it from partial details. 
+When we think, it isn't rare that we'll interrupt our thinking in order to think of something else. When we are done with this second thinking phase, we'll generally try to revert back to our initial thinking phase. However, since we are not consistent machines like computers, we do not push our thinking contexts onto stacks. Therefore, the reconstruction of our first thinking process context requires us to possibly start from scratch or to reconstruct it from partial details.
 
 ## Input/Sense
 
@@ -280,7 +337,7 @@ graph BT
 
 A 4 word sentence can be broken down into 10 nodes. Nodes 7, 8, 9 and 10 are all valid words, while 2, 3, 4, 5, 6 are valid part of sentences. Finally, 1 is a complete sentence.
 
-Were we to feed the system the ID 4 (this is) and 9 (a), what could happen is that 
+Were we to feed the system the ID 4 (this is) and 9 (a), what could happen is that
 1. nodes 7 (this) and 8 (is) are activated by  node 4 (this is) since they compose it
 2. nodes 8 (is) and 9 (a) are active, which  activates node 5 (is a)
 3. nodes 4 (this is) and 5 (is a) are active, which activates node 2 (this is a)
