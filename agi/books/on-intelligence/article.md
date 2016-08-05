@@ -13,6 +13,7 @@ taxonomy:
 ## Things to explore
 * Is there any research/proof that cortical regions learn and store sequences of pattern? How does that work at the neuron level?
 * It is claimed that neuron? cells remain active for a relative long duration of a sequence, what is considered "active"? Is it the firing of the neuron on its axon?
+* Is there any pratical/theoretical limit to the size of an intelligent memory system?
 
 # Overview
 
@@ -261,6 +262,45 @@ TBC
 ### Are Some People More Creative Than Others?
 * An expert is someone who through practice and repeated exposure can recognize patterns that are more subtle than can be recognized by a nonexpert
 * Ultimately there is a physical limit to what we can learn constrained by the size of our cortex
+
+### Can You Train Yourself to Be More Creative?
+* First, you need to assume up front that there is an answer to what you are trying to solve
+* Second, you need to let your mind wander
+* If you are stuck on a problem, the memory-prediction model suggests that you should find different ways to look at it to increase the likelihood of seeing an analogy with a past experience
+
+### What is Consciousness?
+* Hawkins believes consciousness is simply what it feels to have a neocortex
+* Consciousness can be broken down into two major categories:
+	* One is similar to self-awareness - the everyday notion of being conscious
+		* This meaning of consciousness is not absolute. It can be changed after the fact by memory erasure
+	* The second is qualia - the idea that feelings associated with sensation are somehow independent of sensory input
+* If the cortex is the same everywhere, if it works with the same processes, if it is just dealing with patterns, if no sound or light enters the brain, just patterns, then why does vision seem so different from hearing?
+	* Although hearing, touch and vision work under similar principles in the neocortex, they are handled differently below the cortex
+	* The structure of inputs - differences in the patterns themselves - dictates how you experience qualitative aspects of the information
+		* The optic nerve has a million fibers and carries quite a bit of spatial information
+		* The auditory nerve has only thirty thousand fibers and carries more temporal information
+* The brain is in a quiet and dark box
+* It knows about the world only via patterns on the sensory nerve fibers
+* The cortex has no ability to model the brain itself because there are no senses in the brain
+
+## 8 The Future of Intelligence
+### Can We Build Intelligent Machines?
+* Here is the recipe for building intelligent machines.
+	* Start with a set of senses to extract patterns from the world
+	* Attach to these senses a hierarchical memory system that works on the same principles as the cortex
+	* Train the memory system much as we teach children
+	* Once our intelligent machine has created a model of its world, it can then see analogies to past experiences, make predictions of future events, propose solutions to new problems, and make this knowledge available to us
+* What makes an intelligent machine intelligent is that it can understand and interact with its world via a hierarchical memory model and can think about its world in a way analogous to how you and I think about our world
+* Intelligence is measured by the predictive ability of a hierarchical memory, not by humanlike behavior
+
+* The largest technical challenge we will face when building intelligent machines is creating the memory
+* To build intelligent machines, we will need to construct large memory systems that are hierarchically organized and that work like the cortex
+* We will confront challenges with capacity and connectivity
+* Let's say the cortex has 32 trillion synapses
+* If we represented each synapse using only two bits (giving us four possible values per synapse) and each byte has eight bits (so one byte could represent four synapses), then we would need roughly 8 trillion bytes of memory
+* A hard drive on a personal computer today has 100 billion bytes (~100 GB), so we would need about eighty of today's hard drives to have the same amount of memory as a human cortex
+* An individual cell in the cortex may connect to five or ten thousand other cells. This kind of massively parallel wiring is difficult or impossible to implement using traditional silicon manufacturing techniques
+* Electrical wires send signals much more quickly than the axons of a neuron. A single wire on a chip can be shared, and therefore used for many different connections, whereas in the brain each axon belongs to just one neuron
 
 # See also
 
