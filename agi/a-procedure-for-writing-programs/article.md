@@ -6,15 +6,15 @@ taxonomy:
   status: in progress
 ---
 
+## Context
+
 ## Learned in this study
 
 ## Things to explore
-
 * What are the steps one goes through when writing a program/algorithm to solve a specific problem?
 
 # Overview
-
-When I want to write a program, may it be small or big, I generally approach it in a top down fashion. This means I first go over the high level concepts that I will need to make it work. Then I go into each concepts and break them down until I get to the implementation details.
+When I want to write a program, may it be small or big, I generally approach it in a top down fashion. This means I first go over the high level concepts that I will need to make my program work. Then I drill down into each concept and break it down until I get to the implementation details.
 
 Here's a list of the many things that are considered while writing a program:
 
@@ -27,7 +27,7 @@ Here's a list of the many things that are considered while writing a program:
 	* Time (how fast should it return a result)
 	* Space (how much space should it use to do its task)
 
-Here's a few questions I will ask myself before starting to write some code:
+Here's a few questions I will ask myself before writing any code:
 
 * Is this functionality already available in the existing codebase?
 * Is there a library that already does this (either in the project or online)? partially or completely?
@@ -50,9 +50,14 @@ graph TD;
 	102 --Yes--> 103[Implement it]
 ```
 
-Most of the time a single straightfoward solution will fit the bill for all the given requirements and implementation will be the next step. However, it happens from time to time that one will have multiple solutions available and will have to determine the pros/cons of each solution in order to make the best choice for the given situation. In any case, one will want to:
+Most of the time a single straightfoward solution will fit the bill for all the given requirements and implementation will be the next step. However, it happens from time to time that multiple solutions valid and you will have to determine the pros/cons of each solution in order to make the best choice for the given situation. In any case, one will want to:
 
 * Reduce risk
 * Maximize flexibility
 * Minimize coupling
 * Plan for the solution to be potentially replaced by another one
+
+# See also
+* [Automated programming](automated-programming)
+
+# Sources
