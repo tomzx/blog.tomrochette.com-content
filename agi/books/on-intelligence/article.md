@@ -3,7 +3,7 @@ title: Jeff Hawkins - On Intelligence (2004)
 created: 2016-06-30
 taxonomy:
   category: [Artificial General Intelligence]
-  status: in progress
+  status: finished
 ---
 
 ## Context
@@ -301,6 +301,22 @@ TBC
 * A hard drive on a personal computer today has 100 billion bytes (~100 GB), so we would need about eighty of today's hard drives to have the same amount of memory as a human cortex
 * An individual cell in the cortex may connect to five or ten thousand other cells. This kind of massively parallel wiring is difficult or impossible to implement using traditional silicon manufacturing techniques
 * Electrical wires send signals much more quickly than the axons of a neuron. A single wire on a chip can be shared, and therefore used for many different connections, whereas in the brain each axon belongs to just one neuron
+
+### Sensory Systems
+* Our inability to tackle the issue (of protein folding) may be related, primarily, to a mismatch between the human senses and the physical phenomena we want to understand
+
+## Testable Predictions
+* Prediction 1: We should find cells in all areas of cortex, including primary sensory cortex, that show enhanced activity in anticipation of a sensory event, as opposed to in reaction to a sensory event
+* Prediction 2: The more spatially specific a prediction can be, the closer to primary sensory cortex we should find cells that become active in anticipation of an event
+* Prediction 3: Cells that exhibit enhanced activity in anticipation of sensory input should be preferentially located in cortical layer 2, 3, and 6 and the prediction should stop moving down the hierarchy in layers 2 and 3.
+* Prediction 4: One class of cells in layers 2 and 3 should preferentially receive input from layer 6 cells in higher cortical regions
+* Prediction 5: A set of "name" cells described in prediction 4 should remain active during learned sequences
+* Prediction 6: Another class of cells in layers 2 or 3 (different from the name cells referred to in predictions 4 and 5) should be active in response to an unanticipated input, but should be inactive in response to an anticipated input
+* Prediction 7: Related to prediction 6, unanticipated events should propagate up the hierarchy. The more novel the event the higher the unanticipated input should flow. Completely novel events should reach the hippocampus
+* Prediction 8: Sudden understanding should result in a precise cascading of predictive activity that flows down the cortical hierarchy
+* Prediction 9: The memory-prediction framework requires that pyramidal neurons can detect precise coincidences of synaptic input on thin dendrites
+Prediction 10: Representation move down the hierarchy with training
+Prediction 11: Invariant representations should be found in all cortical areas
 
 # See also
 
