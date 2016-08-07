@@ -3,7 +3,7 @@ title: John von Neumann - The Computer and the Brain
 created: 2015-12-31
 taxonomy:
   category: [Artificial General Intelligence]
-  status: in progress
+  status: finished
 ---
 
 ## Context

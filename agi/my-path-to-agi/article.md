@@ -157,7 +157,7 @@ Alex Graves, Greg Wayne, Ivo Danihelka
 ### 3D Simulation: the Key to A.I. (2016-04)
 Keith A. Hoyes
 
-### Cognitive Science - An Introduction to the Science of the Mind (2016-04 - ?)
+### Cognitive Science - An Introduction to the Science of the Mind (2016-04 - 2016-07)
 José Luis Bermúdez
 
 ### Building Machines That Learn and Think Like People (2016-04 - ?)
@@ -214,7 +214,7 @@ David Barstow
 ### Machine Learning (2016-06 - ?)
 Peter Flach
 
-### On Intelligence (2016-06 - ?)
+### On Intelligence (2016-06 - 2016-08)
 Jeff Hawkins
 
 ### Universal Value Function Approximators (2016-06 - 2016-07)
