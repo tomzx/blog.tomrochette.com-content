@@ -15,6 +15,8 @@ taxonomy:
 	* Is there times when a lookup table is the most appropriate solution?
 * What makes it that some functions are just simpler to write than to provide examples for (or require many more examples than it would take to just implement it)? For instance, a function that receives two boolean and does a specific logic function such as AND/OR/XOR, how many examples would be required to figure out the appropriate function used? In the case of 2 boolean values, you'd need 4 examples.
 * Task vs operation
+* Debugging/troubleshooting automation
+* How can the program synthesizer recognize that a data structure may need to be the composition of various other data structures?
 
 # Overview
 * The programmer provides pre-conditions and post-conditions
@@ -30,6 +32,11 @@ taxonomy:
 	* *What are some of the improvement that can be expected to be made?*
 * Given a set of existing functions (with both input/output types) and their computed "operation complexity" (basically the amount of operations that are executed at the language level, i.e. (x^2+y^2)^0.5 => 4, 3 exponentiation, 1 addition), try the functions in ascending order of operation complexity
 * Truth table based construction of conditionals: You provide a list of variables to depend on and then construct a mapping between these variables and a block of code to be executed
+
+# General problems
+* How can the program synthesizer create a completely new function? What if this new function needs a set of other functions as well? Should it generate a single huge function and then refactor it into multiple functions or do that straight away?
+* How can the program synthesizer determine the functions it needs to use to solve a specific case?
+* How can we turn informal specification into a program?
 
 # Keyword-based code identification
 * File identification: List all the files containing the given set of keywords
@@ -173,10 +180,67 @@ There's also likely to be some sort of evaluative loop that is assessing the cod
 * Some tasks can only be defined using a high level description. One example of this is the translation of high level requirements into functional logic. This basically entails the search of one solution out of the solution space which fulfills the X different criteria at most (and not more).
 * Programming cannot be self-contained. Programming is valuable only when it is associated with the modeling of something that is external to it; modeling the world. A program generator can create an infinite amount of programs, but they will all be meaningless as meaning is only attached to code by the programmer.
 
+# Data structure selection
+By observing the properties that can vary in the most common data structure, it is possible to devise a generic decision tree which would allow a program to determine the most appropriate data structure to use given a set of operations that will be applied to the data being manipulated. This list below is by no mean exhaustive but only gives an idea of the process that would go on during data structure selection.
+
+* What is the most common operation on the data structure?
+	* Read/Access
+	* Write/Modification
+* Determine how data is accessed (impacts time complexity)
+	* Is it sequential?
+	* Is it random?
+	* Is it mostly at the beginning or the end?
+	* Is it mostly in the middle?
+	* Is it for specific keys?
+* Determine space constraint (impacts space complexity)
+	* Limited
+	* Unlimited (or at least as much as available)
+
+* Array
+* Vector
+* String
+* List
+	* Singly linked list
+	* Doubly linked list
+	* Circular linked list
+* Queue
+* Deque
+* Stack
+* Set
+* Map/Dictionary
+* Multiset
+* Multimap
+* Priority Queue
+* Graph
+* Tree
+	* Binary tree
+	* Binary search tree
+	* Heap
+	* Red-black tree
+	* AVL
+	* B-tree
+	* Splay tree
+	* Quadtree/Octree
+	* Trie
+	* Minimum spanning tree
+* Matrix
+
+# Ideas for programming assistants
+* Define two procedures (Hewitt75):
+	* One to implement the desired transformation
+	* One to check if the transformation has in fact been accomplished
+* If the programming assistant can aid expert programmers in demonstrating that two rather different implementations produce equivalent behavior, then we can be much more confident that the system will behave in a useful way (Hewitt75)
+
 # See also
+* Program induction
 
 # Sources
 * https://en.wikipedia.org/wiki/Automatic_programming
 * [Approaches to Automatic Programming](http://www.sciencedirect.com/science/article/pii/S0065245808605197)
 * Green, Cordell, and David R. Barstow. [A Hypothetical Dialogue Exhibiting a Knowledge Base for a Program-understanding System](http://i.stanford.edu/pub/cstr/reports/cs/tr/75/476/CS-TR-75-476.pdf). Stanford, CA: Stanford University, 1975.
+* Hewitt, Carl E., and Brian Smith. "Towards a programming apprentice." IEEE Transactions on Software Engineering 1 (1975): 26-45.
 * Newell, Allen. [Report on a General Problem-solving Program](https://www.u-picardie.fr/~furst/docs/Newell_Simon_General_Problem_Solving_1959.pdf). Santa Monica, CA: Rand, 1959.
+* Rich, Charles, and Richard C. Waters. "The Programmer's Apprentice: A research overview." Computer 21.11 (1988): 10-25.
+* Inductive programming - http://www.inductive-programming.org/
+* Program transformation - http://www.program-transformation.org/
+* Universal Data Structure - https://groups.google.com/forum/#!topic/magic-list/LhDuHtyas9Q
