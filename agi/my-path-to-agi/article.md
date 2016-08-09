@@ -204,6 +204,11 @@ Francesco Zanoni
 ### The heuristic of George Polya and its relation to artificial intelligence (2016-06)
 Allen Newell
 
+### Neuroscience: Exploring the Brain (2016-06 - ?)
+Mark F. Bear
+Barry W. Connors
+Michael A. Paradiso
+
 ### A Concise Introduction to Logic (2016-06 - ?)
 Patrick J. Hurley
 
@@ -223,16 +228,24 @@ Dan Horgan
 Karol Gregor
 David Silver
 
-## The Programmer's Apprentice: A Research Overview (2016-07)
+### The Programmer's Apprentice: A Research Overview (2016-07)
 Charles Rich
 Richard C. Waters
 
-## Towards a Programming Apprentice (2016-07)
+### Towards a Programming Apprentice (2016-07)
 Carl E. Hewitt
 Brian Smith
 
-## Artificial Intelligence -- a personal view (2016-07)
+### Artificial Intelligence -- a personal view (2016-07)
 David Marr
+
+### Introduction to Automata Theory, Languages, and Computation (2016-08 - ?)
+ John E. Hopcroft
+ Rajeev Motwani
+ Jeffrey D. Ullman
+
+### Theory of self-reproducing automata (2016-08 - ?)
+John von Neumann
 
 ## In the reading queue
 
