@@ -21,3 +21,4 @@ The following lists books that I have read and that I suggest to people that are
 | [The Computer and the Brain](the-computer-and-the-brain) | [Amazon](https://www.amazon.com/Computer-Silliman-Memorial-Lectures-Series/dp/0300181116) |
 | [The Essential Turing](the-essential-turing) | [Amazon](https://www.amazon.com/Essential-Turing-Philosophy-Artificial-Intelligence/dp/0198250800) |
 | [The Society of Mind](the-society-of-mind) | [Amazon](https://www.amazon.com/The-Society-Mind-Marvin-Minsky/dp/0671657135) |
+| [Theory of self-reproducing automata](theory-of-self-reproducing-automata) | [Amazon](https://www.amazon.com/Theory-Self-reproducing-Automata-John-Neumann/dp/0252727339) | 
