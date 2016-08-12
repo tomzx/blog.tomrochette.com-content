@@ -108,6 +108,27 @@ taxonomy:
 * A cogent argument is an inductive argument that is strong and has all true premises. Also, the premises must be true in the sense of meeting the total evidence requirement
 * An uncogent argument is an inductive argument that is weak, has one or more false premises, fails to meet the total evidence requirement, or any combination of these
 
+## 1.5 Argument Forms: Proving Invalidity
+* Can basically be summarized as "if the arguments are not transitive, then the conclusion cannot be true"
+
+## Counterexample Method
+* It consists of isolating the form of an argument and then constructing a substitution instance having true premises and a false conclusion. This proves the form invalid, which in turn proves the argument invalid
+* The counterexample method can be used to prove the invalidity of any invalid argument, but it cannot prove the validity of any valid argument
+
+## 1.6 Extended Arguments
+* A set of components to diagram an argument:
+	* Vertical pattern
+	* Horizontal pattern
+	* Conjoint premises
+	* Multiple conclusions
+
+## 2.1 Varieties of Meaning
+* Two linguistic functions are particularly important:
+	* To convey information
+	* To express or evoke feelings
+* Terminology that conveys information is said to have cognitive meaning, and terminology that expresses or evokes feelings is said to have emotional meaning
+* A value claim is a claim that something is good, bad, right, wrong, better, worse, more important, less important than some other thing
+
 # See also
 
 # Sources
