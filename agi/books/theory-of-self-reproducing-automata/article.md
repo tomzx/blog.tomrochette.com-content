@@ -16,6 +16,7 @@ taxonomy:
 * The idea that communication between different systems is done through the translation of their respective language into the target's language (for example, from the sender's central nervous system language to the sender's language (English) to the receiver's language (English) and finally into the receiver's language central nervous system language)
 	* Is the sender's CNS language different from his english language?
 * The idea that digital computers are used to perform computations of exceedingly great logical depth (while it would be the opposite for natural automata) seems to imply that we should look for ANN architectures that are more parallel and less deep
+* When faced with a very difficult problem, it is difficult to even define what the difficulties are
 
 # Notes
 * (p14) A problem of any considerable complexity is composed of many subproblems, and flow diagrams and subroutines can be prepared for these in advance
@@ -34,6 +35,14 @@ Thus logics and mathematics in the central nervous system, when viewed as langua
 * (p22) Von Neumann calculated the thermodynamical minimum of energy that must be dissipated by a computing element and concluded that in theory computing elements could be of the order of $10^10$ times more efficient in the use of energy than neurons
 * (p23) Von Neumann thought that below a certain level, complexity is degenerative, and self-reproduction is impossible. He suggested that, generally speaking, in the case of simple automata a symbolic description of the behavior of an automaton is simpler than the automaton itself, but that in the case of exceedingly complex automata the automaton is simpler than a symbolic description of its behavior
 * (p24) Pulses circulating in neuron cycles, the change of neural thresholds with use, the organization of the nervous system, and the coding of the genes together constitute such a (memory) hierarchy (similar to a digital computer memory hierarchy)
+* (p25) Von Neumann thought that automata mathematics should be closer to the continuous (mathematics) and should draw heavily on analysis. He thought that the specific problems of automata theory require this, and he felt that there is a general advantage in an analytical as opposed to a combinatorial approach in mathematics
+* (p26) Von Neumann wanted a probabilistic logic which would handle component malfunction as an essential and integral part of automata operation
+* (p28) Von Neumann found an analog of thermodynamic degeneration in the theory of self-reproducing automata: below a certain minimum level, complexity and degree of organization are degenerative, but above that level they are not degenerative and may even increase.
+* (p28) The efficiency of a computer depends on the proper balance of its different parts with respect to speed and size
+* (p28) Von Neumann thought that the mathematics of automata theory should start with mathematical logic and move toward analysis, probability theory, and thermodynamics
+* (p32) Of all automata of high complexity, computing machines are the ones which we have the best chance of understanding. In the case of computing machines the complications can be very high, and yet they pertain to an object which is primarily mathematical and which we understand better than we understand most natural objects
+* (p38) The reason for using a fast computing machine is not that you want to produce a lot of information. After all, the mere fact that you want some information means that you somehow imagine that you can absorb it, and, therefore, wherever there may be bottlenecks in the automatic arrangement which produces and processes this information, there is a worse bottleneck at the human intellect into which the information ultimately seeps
+* (p39) All these automata really consist of two important parts: the general switching part (an active part which affects the logical operations the automaton is supposed to perform), and the memory (which stores information, chiefly intermediate results which are needed for a while and are then discarded and replaced by others)
 
 # See also
 
