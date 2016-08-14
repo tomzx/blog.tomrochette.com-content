@@ -160,7 +160,7 @@ Keith A. Hoyes
 ### Cognitive Science - An Introduction to the Science of the Mind (2016-04 - 2016-07)
 José Luis Bermúdez
 
-### Building Machines That Learn and Think Like People (2016-04 - ?)
+### Building Machines That Learn and Think Like People (2016-04 - 2016-08)
 Breden Lake
 
 ### EURISKO: A Program That Learns New Heuristics and Domain Concepts (2016-04)

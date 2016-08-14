@@ -3,7 +3,7 @@ title: Building Machines That Learn and Think Like People (2016)
 created: 2016-04-09
 taxonomy:
   category: [Artificial General Intelligence]
-  status: in progress
+  status: finished
 ---
 
 ## Context
@@ -125,8 +125,13 @@ taxonomy:
 
 # 5 Responses to common questions
 * Comparing the learning speeds of humans and neural networks on specific tasks is not meaningful, because humans have extensive prior experience
+	* Successful learning-to-learn - or at least, human-level transfer learning - is enabled by having models with the right representational structure, including the other building blocks (discussed in this paper)
+	* There are a set of core cognitive ingredients for human-like learning and thought. Deep learning models could incorporate these ingredients through some combination of additional structure and perhaps additional learning mechanisms, but for the most part have yet to do so
 * Biological plausibility suggests theories of intelligence should start with neural networks
 * Language is essential for human intelligence. Why is it not more prominent here?
+
+# 6 Looking forward
+* We believe that deep learning and other learning paradigms can move closer to human-like learning and thought if they incorporate psychological ingredients including those outlined in this paper
 
 # See also
 
