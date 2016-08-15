@@ -65,7 +65,7 @@ Tom
 ### Prototypes (in order of start date)
 
 * [PHP-Brain](prototypes/php-brain)
-* [Sharp-Brain](prototypes/php-brain)
+* [Sharp-Brain](prototypes/sharp-brain)
 
 ## Biology inspired exploration
 
@@ -84,7 +84,6 @@ Tom
 * [Databases](databases)
 * [Formal AGI](formal-agi)
 * [Machine learning concept map](https://github.com/tomzx/machine-learning-concept-map)
-* [Patterns](patterns)
 * [Perfect storage medium](perfect-storage-medium)
 * [Playing with data](playing-with-data)
 * [Seed AI](seed-ai)
