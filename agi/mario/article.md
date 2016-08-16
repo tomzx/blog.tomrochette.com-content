@@ -48,10 +48,12 @@ In this game, the use of a neural network with weights does not make sense. Give
 * Compare every generation best neural network against each other from the start/randomly
 * Fitness aware online agent (knows it's losing fitness by not moving)
 * Try to map the problem of learning mario to a function optimization problem
+* Attempt to detect difficult parts within a map so that the AI may learn from it
+	* For instance, no network that runs into a hole should be allowed to reproduce, thus given a starting point where the AI is in front of a hole, it will have to learn very soon how to jump over it. Due to how gene reproduction works, it should make certain behaviors such as "jump when you are close to a whole" have very strong and clear responses
 
 ## Things to add (for review purposes)
 
-* Load a specific test (generation/specie/genome)
+* Load a specific test (generation/species/genome)
 * Record training time (compare how much time is spent using "from start" vs "from checkpoints")
     * I have some doubt that the "from start" method takes a lot more time but doing so learns more quickly (in the sense of less generations/species), but X minutes of training for both may end up giving one a clear advantage over the other
 
