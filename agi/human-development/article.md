@@ -17,6 +17,7 @@ taxonomy:
 * Parallel between a program's evolution an a human evolution
 * Vision and speech development
 * Cell divisions in the brain (how is the brain formed?)
+* What if the human genome is a particular cellular automata that generate more "chaos" than other variants, which would explain why we only have ~23000 genes[^8] [^10]?
 
 # Progression/Evolution of the agent - environment interactions
 
@@ -51,10 +52,13 @@ In the first few months (1 to 4 months) following its birth, a baby's language i
 >Infants continue to use intonation patterns and timing that matches the characteristics of their language. Most babbling consists of a small number of sounds, which suggests the child is preparing the basic sounds necessary to speak the language to which he is exposed.[^5]
 
 **Milestones**
+* Crawling
+* Eating by ourselves
 * Walking
+	* Most normal infants start learning to walk towards the end of their first year – at around 11 months[^9].
 * Speaking
 
-> In their first few days, human infants learn to distinguish people by their odors; then, over the next few weeks, they learn to recognize individuals by sound of voice; only after several months do they start to reliably distinguish the sights of faces. Most likely we learn to make each of these distinctions by several different methods, and it is probably no accident that these abilities develop in a sequence that corresponds to their increasing complexity. [^7]
+>In their first few days, human infants learn to distinguish people by their odors; then, over the next few weeks, they learn to recognize individuals by sound of voice; only after several months do they start to reliably distinguish the sights of faces. Most likely we learn to make each of these distinctions by several different methods, and it is probably no accident that these abilities develop in a sequence that corresponds to their increasing complexity. [^7]
 
 # Understanding concepts/symbols
 
@@ -63,8 +67,6 @@ Understanding comes from the observation of a sequence of inputs. Those inputs a
 To understand a color, for instance *red*, you need to associate various observations with the symbol inside your head. Red cars, red books, red stop signs, red blocks, etc. After a while the concept emerges from all the different observations. In the same way that a child gets asked by its parent "what color is this?" while pointing at various objects, the child learns both to recognize specific colors as well as understand that colors is an abstract concept that contains many instances.
 
 Thus, a system that wants to rapidly learn must be able to quickly identify what remains constant from what changes.
-
----
 
 # Vision
 
@@ -83,3 +85,6 @@ Each and every person has its own signature. However, it is not uncommon for man
 [^5]: https://en.wikipedia.org/wiki/Babbling
 [^6]: https://en.wikipedia.org/wiki/Critical_period
 [^7]: Minsky, Marvin Lee. The Society of Mind (New York: Simon and Schuster, 1986), 312.
+[^8]: Evolution - What Darwin Never Knew - NOVA PBS Documentary - https://www.youtube.com/watch?v=AYBRbCLI4zU
+[^9]: Bermúdez, José Luis. Cognitive Science: An Introduction to the Science of the Mind. Cambridge: Cambridge University Press, 2010.
+[^10]: https://en.wikipedia.org/wiki/Human_genome
