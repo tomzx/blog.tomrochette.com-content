@@ -247,6 +247,9 @@ David Marr
 ### Theory of self-reproducing automata (2016-08 - ?)
 John von Neumann
 
+### From Seed AI to Technological Singularity via Recursively Self-Improving Software (2016-08)
+Roman V. Yampolskiy
+
 ## In the reading queue
 
 ### Design for a brain

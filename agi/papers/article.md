@@ -73,6 +73,9 @@ The following lists papers I've read and reviewed or made notes for.
 ## RAND Corporation
 * [Report on a General-Problem Solving Program (1959)](report-on-a-general-problem-solving-program)
 
+## Roman V. Yampolskiy
+* [From Seed AI to Technological Singularity via Recursively Self-Improving Software (2015)](roman-yampolskiy-from-seed-ai-to-technological-singularity-via-recursively-self-improving-software)
+
 ## Vladimir Red'ko
 * [The Natural Way to Artificial Intelligence (2007)](vladimir-redko-the-natural-way-to-artificial-intelligence)
 
