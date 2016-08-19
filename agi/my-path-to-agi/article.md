@@ -250,6 +250,9 @@ John von Neumann
 ### From Seed AI to Technological Singularity via Recursively Self-Improving Software (2016-08)
 Roman V. Yampolskiy
 
+### Self-improving AI: an Analysis (2016-08)
+John Storrs Hall
+
 ## In the reading queue
 
 ### Design for a brain

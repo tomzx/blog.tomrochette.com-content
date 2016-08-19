@@ -44,6 +44,9 @@ The following lists papers I've read and reviewed or made notes for.
 ## Jack Copeland
 * [Computable Number: A Guide (2004)](jack-copeland-computable-number-a-guide)
 
+## John Storrs Hall
+* [Self-improving AI: an Analysis (2007)](john-storrs-hall-self-improving-ai-an-analysis)
+
 ## Jürgen Schmidhuber
 * [The New AI: General & Sound & Relevant for Physics (2007)](jurgen-schmidhuber-the-new-ai-general-sound-relevant-for-physics)
 * [Gödel Machines: Fully Self-Referential Optimal Universal Self-improvers (2007)](jurgen-schmidhuber-godel-machines-fully-self-referential-optimal-universal-self-improvers)
