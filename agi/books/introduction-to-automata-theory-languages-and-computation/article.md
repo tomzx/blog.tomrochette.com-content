@@ -35,6 +35,20 @@ taxonomy:
 	* $|xy| \leq n$
 	* For all $k \geq 0$, the string $xy^kz$ is also in $L$
 * (p129) Every string longer than the number of states must cause a state to repeat
+* (p139) The reversal of a string $a_1a_2...a_n$ is the string written backwards, that is, $a_na_{n-1}...a_1$. We use $w^R$ for the reversal of string $w$
+* (p139) The reversal of a language $L$, written $L^R$, is the language consisting of the reversals of all its strings
+* (p140) A string homomorphism is a function on strings that works by substituting a particular string for each symbol
+* (p150) Fundamental questions about languages:
+	* Is the language described empty?
+	* Is a particular string $w$ in the described language?
+	* Do two descriptions of a language actually describe the same language? (This question is often called "equivalence" of languages)
+* (p151) Converting either an NFA or epsilon-NFA into a DFA can require exponential time in the number of states of the NFA, $O(n^32^n)$
+	* Computing the epsilon-closure of $n$ states takes $O(n^3)$
+	* The dominant cost of subset construction is, in principle, the number of states of the DFA, which can be $2^n$
+		* For each state, we can compute the transitions in $O(n^3)$ time by consulting the epsilon-closure information and the NFA's transition table for each of the input symbols
+* (p152) DFA-to-NFA conversion takes $O(n)$ time on an n-state DFA
+* (p152) Automaton-to-Regular-Expression conversion, $O(n^34^n)$ for DFA, $O(8^n4^{2^n})$ for NFA (doubly exponential)
+* (p152) Regular-Expression-to-Automaton conversion, $O(n)$ to build an epsilon-NFA, $O(n^3)$ to convert the epsilon-NFA to an ordinary NFA
 
 # See also
 
