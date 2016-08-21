@@ -222,6 +222,9 @@ Peter Flach
 ### On Intelligence (2016-06 - 2016-08)
 Jeff Hawkins
 
+### Programs with common sense (2016-06)
+John McCarthy
+
 ### Universal Value Function Approximators (2016-06 - 2016-07)
 Tom Schaul
 Dan Horgan
@@ -253,19 +256,8 @@ Roman V. Yampolskiy
 ### Self-improving AI: an Analysis (2016-08)
 John Storrs Hall
 
-## In the reading queue
+### Engineering Utopia (2016-08)
+John Storrs Hall
 
-### Design for a brain
-William Ross Ashby
-
-### A Method for the Construction of Minimum-Redundancy Codes
-David A. Huffman
-
-### Introduction to mathematical logic
-Elliott Mendelson
-
-### Artificial general intelligence through recursive data compression and grounded reasoning: a position paper
-Arthur Franz
-
-### Hierarchical Temporal Memory
-Numenta
+### Toward a Standard Metric of Machine Intelligence (2016-08)
+Richard Yonck
