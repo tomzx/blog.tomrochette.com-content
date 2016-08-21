@@ -128,6 +128,97 @@ taxonomy:
 	* To express or evoke feelings
 * Terminology that conveys information is said to have cognitive meaning, and terminology that expresses or evokes feelings is said to have emotional meaning
 * A value claim is a claim that something is good, bad, right, wrong, better, worse, more important, less important than some other thing
+* Two defects of cognitive meaning
+	* Vagueness
+	* Ambiguity
+* A vague expression is one that allows for borderline cases in which it is impossible to tell if the expression applies or does not apply
+* An ambiguous expression is one that can be interpreted as having more than one clearly distinct meaning in a given context
+* The difference between ambiguity and vaguesness is that vague terminology allows for a relatively continuous range of interpretations, whereas ambiguous terminology allows for multiple discrete interpretations
+* Disputes that arise over the meaning of language are called verbal disputes
+* In dealing with disputes, the first question is whether the dispute is factual, verbal, or some combination of the two
+	* If the dispute is verbal, then the second question to be answered is whether the dispute concerns ambiguity or vagueness
+
+## 2.2 The Intension and Extension of Terms
+* The basic units of any ordinary language are words
+* A term is any word or arrangement of words that may serve as the subject of a statement (proper names, common names, descriptive phrases)
+* The intensional meaning, or intension, consists of the qualities or attributes that the term connotes, and the extensional meaning, or extension, consists of the members of the class that the term denotes
+	* Intensional meaning: cats are furry, have four legs, move in a certain way, emit certain sounds
+	* Extensional meaning: all the cats in the universe
+* Intension <-> sense, Extension <-> reference
+* The conventional connotation of a term includes the attributes that the term commonly calls forth in the minds of competent speakers of the language
+* Empty extension: denote the empty (or "null") class, the class that has no members
+* Intension determines extension
+
+## 2.3 Definitions and Their Purposes
+* Definition: a group of words that assigns a meaning to some word or group of words
+* Every definition consists of two parts: a definiendum and the definiens
+	* The definiendum is the word or group of words that is supposed to be defined
+	* The definiens is the word or group of words that does the defining
+
+### Stipulative Definitions
+* A stipulative definition assigns a meaning to a word for the first time
+
+### Lexical Definitions
+* Used to report the meaning that a word already has in a language
+* Have the further purpose of eliminating the ambiguity that would otherwise arise if one of these meanings were to be confused with another
+
+### Precising Definitions
+* Reduce the vagueness of a word
+
+### Theoretical Definitions
+* Assign a meaning to a word by suggesting a theory that gives a certain characterization to the entities that the term denotes
+
+### Persuasive Definitions
+* To engender a favorable or unfavorable attitude toward what is denoted by the definiendum. This purpose is accomplished by assigning an emotionally charged or value-laden meaning to a word while making it appear that the word really has (or ought to have) that meaning in the language in which it is used
+
+## 2.4 Definitional Techniques
+### Extensional (Denotative) Definitions
+* An extensional (denotative) definition is one that assigns a meaning to a term by indicating the members of the class that the definiendum denotes
+* There are at least three ways of indicating the members of a class:
+	* pointing to them (demonstrative or ostensive definitions)
+	* naming them individually (enumerative definitions)
+	* naming them in groups (definitions by subclass)
+* The principle that intension determines extension, whereas the converse is not true, underlies the fact that all extensional definitions suffer serious deficiencies (how are the properties used as intension determined?)
+* Extensions can suggest intensions, but they cannot determine them
+
+### Intensional (Connotative) Definitions
+* An intensional definition is one that assigns a meaning to a word by indicating the qualities or attributes that the word connotes
+* There are at least four kinds of intensional definitions:
+	* synonymous definition: the definiens is a single word that connotes the same attributes as the definiendum
+	* etymological definition: assigns a meaning to a word by disclosing the word's ancestry in both its own language and other languages
+	* operational definition: assigns a meaning to a word by specifying certain experimental procedures that determine whether or not the word applies to a certain thing
+	* definition by genus and difference: assigns a meaning to a term by identifying a genus term and one or more difference words that, when combined, convey the meaning of the term being defined
+* In logic, genus simply means a relatively larger class, and species means a relatively smaller subclass of the genus
+
+## 2.5 Criteria for Lexical Definitions
+* A lexical definition should ...
+	* Rule 1: ... conform to the standards of proper grammar
+	* Rule 2: ... convey the essential meaning of the word being defined
+	* Rule 3: ... be neither too broad nor too narrow
+	* Rule 4: ... avoid circularity
+	* Rule 5: ... not be negative when it can be affirmative
+	* Rule 6: ... avoid figurative, obscure, vague, or ambiguous language
+	* Rule 7: ... avoid affective terminology
+	* Rule 8: ... indicate the context to which the definiens pertains
+
+## 3 Informal Fallacies
+## 3.1 Fallacies in General
+* A fallacy is a defect in an argument that arises from either a mistake in reasoning or the creation of an illusion that makes a bad argument appear good
+* non sequitur ("it does not follow")
+* Fallacies are usually divided into two groups: formal and informal
+* A formal fallacy is one that may be identified merely by examining the form or structure of an argument. They are found only in deductive arguments that have identifiable forms (categorical syllogisms, disjunctive syllogisms, hypothetical syllogisms)
+* Informal fallacies are those that can be detected only by examining the content of the argument
+
+## 3.2 Fallacies of Relevance
+* The connection between premises and conclusion is emotional
+* Appeal to force: Whenever an arguer poses a conclusion to another person and tells that person either implicitly or explicitly that some harm will come to him or her if he or she does not accept the conclusion
+* Appeal to pity: When an arguer attempts to support a conclusion by merely evoking pity from the reader or listener
+* Appeal to the people:
+	* Direct approach: When an arguer, addressing a large group of people, excites the emotions and enthusiasm of the crowd to win acceptance for his or her conclusion
+		* Appeal to fear: When an arguer trumps up a fear of something in the mind of the crowd and then uses that fear as a premise for some conclusion
+	* Indirect approach: The arguer aims his or her appeal not at the crowd as a whole but at one or more individual separately, focusing on some aspect of those individuals' relationship to the crowd
+		* Bandwagon argument: Everybody believes such-and-such or does such-and-such; therefore, you should believe or do such-and-such, too
+		* Appeal to vanity: Involves linking the love, admiration, or approval of the crowd with some famous figure who is loved, admired, or approved of
 
 # See also
 
