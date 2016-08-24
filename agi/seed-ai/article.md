@@ -15,6 +15,8 @@ Seed AI is interesting because it would mean writing a very bad version of it in
 In other words, a seed AI is one that would learn and understand how program works, what their purpose is and what meaningful improvements can be made.
 
 ## Learned in this study
+* A program is a dictionary of functions
+	* Like dictionary's definitions, functions are defined in terms of other functions
 
 ## Things to explore
 
@@ -35,16 +37,20 @@ In other words, a seed AI is one that would learn and understand how program wor
 * Generating programs amount to generating graphs, what does that imply?
 * Learn "valuable" programs from a training set (SL), then use MCTS + Q-Learning (policy network + value network) to determine the direction in which newer programs should be searched (RL)
 * Considering a seed AI will eventually create any function, what are the consequences of that?
+* Programs are nothing more than a single huge integer (represented by the program binary executable)
+* Data structure optimization through code analysis (how is this data used and could another structure be more efficient for that same purpose?)
+* Self-improvement vs improvement vs learning
+* What kind of analysis can be done in order to reduce/discover isomorphic programs?
+* A seed AI is considered to be the minimal program that will produce a chain of self-improvements. This in turn means that the program will likely increase in length as its complexity increases. Furthermore, this also means that it will go through a series of implementations, some of which will contain the original seed ai code, and some which may not. What I'm trying to get at is that this "bootstrapped" seed AI will have many "appearances/forms", which means that we can look for seed AI at various stages in its evolution, hopefully finding any of which we can use to get the process going
 
 # Overview
-
 The goal of this study is to look into the constraints and requirements that goes into building what is called a *Seed AI*, that is, a program that is able to improve itself.
 
 The goal of building such a program is to then allow it to run free and hope that it will be able to rapidly (hopefully at an exponential rate) improve itself. With such rapid rate of improvement, it should be able to catch up with our intelligence rapidly (assuming intelligence is only a manifestation of the emergence of knowledge) and once it has surpassed us, *hopefully* help us improve our understanding of the world and answer questions we haven't been able to answer ourselves yet.
 
 We will obviously neglect discussing about means to control this seed AI as well as any negative consequences related to building such an AI. Those are extremely important topics, however they are not the focus of this article.
 
-For most of the article we'll consider that the seed AI will start from scratch and build up its own language. We thus will assume that the lowest language available to it is the assembly language of the hardware architecture it is deployed on (most likely x86-64).
+For most of the article we'll consider that the seed AI will start from scratch and build up its own language. We thus will assume that the lowest language available to it is the assembly language of the hardware architecture it is deployed on (most likely x86-64). It seems obvious that at some point in time the seed AI will have to consider the hardware architecture it is running on such that it may improve it further.
 
 Let us first start by designing a naive program generator, with the hope we can build something simple enough that it can run on its own and evolve.
 
@@ -56,24 +62,22 @@ In all cases, we (as the seed AI programmer) will have no choice but to write so
 
 Naively generating programs is easy. But it is also terribly inefficient.
 
-Writing a boostrap program that will be able to provide the seed AI with the capability to reason about its instructions and their impact is probably close to providing the seed AI with intelligence to begin with.
+Writing a bootstrap program that will be able to provide the seed AI with the capability to reason about its instructions and their impact is probably close to providing the seed AI with intelligence to begin with.
 
 Based on these two results, is it still a possible or viable solution to look into seed AI? Maybe.
 
-Here we tried to bootstrap the seed AI from scratch, and it appears to give us too much difficulty before we can reach any meaningful value. What we can do to improve our chances is to look into providing the seed AI with a bigger bootstrap program. For example, by providing it with a standard library for example, it will be possible for it to copy and mutate existing bits of code.
+By trying to bootstrap the seed AI from scratch, we're faced with the issue that brute forcing our way in will take probably way too long to be of any value. What we can do to improve our chances is to look into providing the seed AI with a bigger bootstrap program. For example, by providing it with a standard library, it will be possible for it to copy and mutate existing bits of code. The hope here is that once we reach a critical point, the seed AI will start to behave more intelligently and gain speed.
 
-Another option is to move the core language of the seed AI to a high-level language such that it may not have to worry about low-level constructs (such as `MOV`, `JMP` and such) but higher levels one (function declaration, function calls and such). This idea could be applied at any programming language level, which means it could be possible to bootstrap the seed AI in any given language.
+Another option is to move the core language of the seed AI to a high-level language such that it may not have to worry about low-level constructs (such as `MOV`, `JMP` and such) but higher levels one (function declaration, function calls and such). This idea could be applied at any programming language level, which means it could be possible to bootstrap the seed AI in any given language. Much like our current programming language paradigms, it is likely the seed AI will make use of various levels of abstraction while evolving, starting with rudimentary concepts such as adding, substracting, dividing, copying, etc. to abstract concepts such as sorting, rendering shaders, sending data packets, etc.
 
 # The program tree
-
 When we write programs, we can think of the all the code concatenated together as a single string. That string is the program.
 
-We can think about each program as being part of a tree where the root is the empty program. From that program can spawn (127 + 1) - 32 = 96 programs (we assume the range characters used in the program are from ASCII 32 to 127).
+We can think about each program as being part of a tree where the root is the empty program. From that program can spawn (127 + 1) - 32 = 96 programs (we assume the characters range is used in programs are from ASCII 32 to 127).
 
 Each level **n** of the tree represent the strings of length **n**. The root of the tree has level **n** = 0 and thus has a length of 0 while a string at level **n** = 10 has a length of 10.
 
 # Naive program generator
-
 A 10 character long program in the range of ASCII 32 - 127 will have approximately $((127 + 1) - 32)^{10} = 6.6 \times 10^{19}$ (that's 66 quintillion) possible permutations.
 
 To put 66 quintillion in perspective, let say we can test approximately 10^4 programs per second (ignoring the fact that the longer the programs get, the longer the compiler will take to *process* the program, but in the case of a 10 character program, it's neglectable). We're left with about $2.1 \times 10^8$ years of computation to do ($\frac{6.6 \times 10^{19} programs}{10^4 \frac{programs}{s} \times 365 \frac{day}{year} \times 24 \frac{h}{day} \times 60 \frac{m}{h} \times 60 \frac{s}{m}}$). Obviously we could use various methods to improve our odds of getting there faster, for instance by using parallelism (using multiple cores, multiple processors, multiple computers).
@@ -84,22 +88,19 @@ Furthermore, to truly understand the issue here, we're talking about generating 
 
 One interesting problem here is that very small programs can be valid. For instance `0;` is a valid program. For that matter, any number should be a valid program in C (in our little 10 character program, we can generate $10^9$ programs based only on numbers: 9 numbers from 0-9 and a semi-colon (;) to terminate, considering all programs are wrapped within the obligatory `void main() { code here }`). This means we can basically generate many programs that basically do nothing other than creating giant numbers. Furthermore, there's also a ton of programs that will do arithmetic but never print out anything. Or print a ton of garbage/random. Maybe it is something we want... But often it's not (and is generally stripped by compilers during optimization).
 
-It's also important to notice that a certain space of the program tree will represent equivalent code, just using different variable names. The same can be said about variable definition being permutated without any effect, or calculation order being permutated without having any effect. **What kind of analysis can be done in order to reduce/discover isomorphic programs?**
+It's also important to notice that a certain space of the program tree will represent equivalent code, just using different variable names. The same can be said about variable definition being permutated without any effect, or calculation order being permutated without having any effect.
 
 From this little analysis, we can deduce a few *rules*:
 * A program should *produce* something, in other word generate some sort of output (doing arithmetic without returning anything amounts to running NOPs). This can be rephrased by saying that any program that is completely composed of dead code should not be considered valuable.
-* If it does not produce an output, then it should alter its input. In doing so, the altered input IS the output of the program. In object-oriented languages, this is often what will happen.
+* If it does not produce an output, then it should alter its input. In doing so, the altered input IS the output of the program. In object-oriented languages, this is often what will happen (objects being altered internally).
 
 # Improving the naive program generator
-
 What we can do to greatly reduce the search space is to teach the program generator a little bit:
-
-* Give it a grammar of the language it is using. There is no point in generating code that "should" not compile (it can be useful if what you're doing is verifying that the grammar is properly implemented).
+* Give it a grammar of the language it is using. There is no point in generating code that will not compile (it can be useful if what you're doing is verifying that the grammar is properly implemented).
 * Promote function reuse. Once some functionality has been programmed, there's no point in writing that bit of code again. This means that we can remove/ignore all of the nodes in the program tree that have this string place somewhere else or is there more than once.
-* TODO
+* ...
 
 # Reducing the search scope
-
 In an attempt to reduce the volume of valid, but isomorphic programs, we will spend a bit of time studying what make different programs (or functions) isomorphic (different at the high level language but the same from a low level perspective).
 
 We'll assume we're using a high level language with typing.
@@ -110,7 +111,7 @@ C x(A a, B b) = C y(B b, A a)
 
 Two functions which have the exact same internal logic and return type but different parameters order are isomorphic. Furthermore, many functions which do not have the same syntax can have the same semantic (different code, same result). In order to reduce the amount of functions generated with the same internal logic but different signature, we'll establish the following rule:
 
-**Parameter ordering rule:** Each parameter shall be ordered by their lexicographical ordering (that is (a, b) <= (a', b') if and only if a < a' or (a = a' and b <= b')). Parameters of the same type are considered to be indifferentiable (their order does not matter, and thus there can only be 1).
+**Parameter ordering rule:** Parameters shall be ordered by the lexicographical ordering (that is (a, b) <= (a', b') if and only if a < a' or (a = a' and b <= b')) of their type. Parameters of the same type are considered to be indifferentiable (their order does not matter, and thus there can only be 1).
 
 For a number $x$ of different parameters there is at most $x!$ signatures permutations. Using the **Parameter ordering rule**, we can limit it to 1.
 
@@ -126,123 +127,16 @@ If there are $x$ types in the system, for a function with $y$ parameters we have
 
 Another thing we may do in order to limit the amount of generatable functions is to add artificial constraints such as "functions shall not have more than 10 statements" or "functions shall not have more than 3 levels of indentations" or "functions shall contain at most 1 level of indirection" (law of demeter). Using design guidelines and best practices, it may be possible to shape and reduce down the number of "acceptable" functions within our programs.
 
-# Constructing functions
-Let's assume that all that is available to us to write a new function is a list of existing functions.
-
-First we want look at parameterless functions.
-
-```cpp
-SomeType myFunction() {
-	// ...
-}
-```
-
-A parameterless function can do three of the following things:
-* Return data (an intrinsic value or some structure/object)
-* Call other parameterless functions
-* Call other functions with parameters by instantiating the required arguments internally through a call to other parameterless functions
-
-## Return data (Instantiator)
-```cpp
-struct SomeType {
-	int a;
-	double b;
-};
-
-// Instantiator
-SomeType myFunction() {
-	SomeType c;
-	c.a = 3;
-	c.b = 3.1415;
-	return c;
-}
-```
-
-* It can return consumable data
-* It can instantiate static data
-
-## Call other parameterless functions (Delegator)
-
-```cpp
-// Instantiator
-SomeType myOtherFunction() {
-	// ...
-}
-
-// Delegator
-SomeType myFunction() {
-	return myOtherFunction();
-}
-```
-
-Overall, the "functions" of such a function are:
-* Encapsulating functions ($f() = g()$)
-* Encapsulating sequence of functions ($f() = g(),h(),i()$)
-* Function composition/Chaining functions calls ($f = g \circ h \circ i = g(h(i()))$)
-* Recursive function calls ($f = f^n$)
-
-## Call other functions with parameters
-
-```cpp
-// Instantiator
-int myIntFunction() {
-	return 3;
-}
-
-// Instantiator/Mutator
-SomeType myOtherFunction(int x) {
-	// ...
-}
-
-// Delegator/Chainer
-SomeType myFunction() {
-	int x = myIntFunction();
-	return myOtherFunction(x);
-}
-```
-
-Here we observe that calling functions with parameters only amounts to calling the appropriate instantiator and passing the result to the function expecting an argument.
-
-We can consider the following program
-
-```cpp
-SomeType myOtherFunction(int x) {
-	// ...
-}
-
-SomeType myFunction() {
-	return myOtherFunction(3);
-}
-```
-
-to be convertible into
-
-```cpp
-int myIntFunction() {
-	return 3;
-}
-
-SomeType myOtherFunction(int x) {
-	// ...
-}
-
-SomeType myFunction() {
-	int x = myIntFunction();
-	return myOtherFunction(x);
-}
-```
+Sequential operations that may be executed in any order without affecting the determinism of the function should be considered as a single function.
 
 # Some problems that remain
-
 However, even given these *tools*, the program generator still can spend an immense amount of time generating useless programs:
-
 * It can generate infinitely long *valid* text strings.
 * It can generate infinitely long *valid* expressions.
 * It can generate an infinitely long *valid* sequence of function calls that do not produce any valuable result.
 * and so on...
 
 # Testing programs for improvement
-
 When we think of programs and algorithms quality, we generally think of them in terms of complexity of time and space. Thus, in order to look for improvements in an algorithm (a unit of a program), the seed AI would have to execute said algorithm with various test cases in order to see the impact it has both on time and space. This would be considered the empirical approach to testing algorithms for improvement.
 
 Another approach, known as theoretical approach, consists of analyzing the algorithm in terms of the operation it accomplishes (such as for/foreach/while loops and recursion ([master theorem](https://en.wikipedia.org/wiki/Master_theorem))). This approach is very interesting as it does not require the seed AI to test many cases in order to establish if a change was an improvement or not (this is akin to doing white box testing).
@@ -250,7 +144,6 @@ Another approach, known as theoretical approach, consists of analyzing the algor
 Finally, there is an hybrid approach, which combines the previous two approaches. If you are only able to analyze the algorithm with some degree of confidence, then it is possible to validate if your estimates are correct by running various test cases against the algorithm. If your estimates are correct, then you can proceed to work on something else, otherwise you may have to review your analysis.
 
 ## Criteria for *properly* testing programs for improvement
-
 Assuming an already correct algorithm (one that is devoid of any incorrect behavior), the seed AI...
 
 * Must test that the change does not modify the output for the same input (if any)
@@ -273,7 +166,13 @@ If we were to iteratively generate every program from the empty string to progra
 
 # Capabilities of a seed AI
 * Generalize/Refactor similar function
+* Reuse existing code
+	* Can recognize that a sequence of instruction already exists and can promote it to a function so it can be reused
+		* Convert sequences of instructions into functions
 * Understand what data structures are iterated over and what is being done over this data
+* Manipulate language/grammar
+	* Use language reasoning tools (abstract syntax tree)
+*
 
 # Heuristics
 * Prefer lookup/hashing over search/predicate testing
@@ -341,30 +240,35 @@ graph TD;
 	8-->6
 ```
 
-# Holonic (program) language
-As the seed AI begin life, it will have to use the very lowest language available to it. As its ability to build more and more complex elements increases, so will its language evolve. Similarly to programming languages, the seed AI will most likely go from an assembly level of code to a more high level language such as C or C++, then possibly move on to more dynamic languages such as Python, Ruby or PHP to finally build higher and higher languages which can more succintly express ideas using lower level constructs.
+# A second observation (months later)
+The simplest seed AI that exist is simply a natural number *generator*. It probably does not qualify as seed AI in itself, but it has the fundamental functionality we are looking for: it generates programs. In its simplest form, a program is called a binary, which is a base 2 representation of a number. The simplest program that is a number generator starts with the number 0, and it loops infinitely, incrementing this number by 1 each iteration. During each iteration, this number is written to a file, effectively generating a binary/executable.
 
-Given that many programming languages already exist, it would be valuable, both to us and the seed AI, that the seed AI be able to use these languages. For us, it is beneficial in the sense that it would allow us to use the seed AI to potentially produce code. For the seed AI, it would mean that existing code could be analyzed in order to extract meaningful new functionality. Furthermore, it's generally more effective to copy existing designs than start from scratch.
+Obviously such generator will generate an infinite amount of programs, many which will turn out to produce invalid outputs or even crash! Furthermore, we are generating so many programs, yet we are not doing anything with them. Thus we need a second program to do something with these programs. This second program is simple, its task is only to run all the programs produced by the generator. We'll call this program the *executor*. The executor will simply start the program, determine if it crashes, and if it does, it will delete it from the disk. Thus, every program that does not crash will be considered as a seed AI candidate.
 
-## Binary code (1GL)
-## Machine code (1GL)
-## Assembly language (2GL)
-## Middle/High level languages (3GL)
-## Scripting/Interpreted languages (4GL)
-## Constraint-based languages
-## Natural languages (?GL)
+At this point we can already see various issues with this approach:
+* The generator is building an immense amount of programs that are simply invalid (which should not get to the executor)
+	* This decision was made in order to keep the generator simple. An intermediate step between the generator and the executor could be to verify the binary, and eliminate any that are invalid.
+* The executor is unable to execute programs that require input(s)
+	* It technically can execute them, but any program that is expecting inputs and crash upon not receiving them will be thrown away (which is a good thing).
+* The executor cannot decide if a program that is in a loop will ever terminate (known as the halting problem)
+	* At this point, this is not really an issue. The executor can consider that after X seconds, if the program is still alive, then it can be kept for further processing.
+* There is no way for the executor to tell if a program is better than any other
+	* This will be our biggest challenge going forward. It is basically the task of determining through some means if a program is more valuable than another one (often known as an utility function). The fact that we are already removing invalid programs is an example of an evaluation done by the utility function.
+
+# See also
+* [Constructing functions](../constructing-functions)
+* [Holonic program language](../holonic-program-language)
 
 # Sources
-
 [^1]: https://en.wikipedia.org/wiki/X86_instruction_listings#Original_8086.2F8088_instructions
 
+* https://en.wikipedia.org/wiki/Programming_language_generations
 * https://en.wikipedia.org/wiki/Recursive_self-improvement
+* https://en.wikipedia.org/wiki/Self-modifying_code
 * http://wiki.lesswrong.com/wiki/Seed_AI
 * http://mattmahoney.net/rsi.pdf
-* Turing, Alan. *Intelligent Machinery*. London: National Physical Laboratory, 1948. Ed. B. Jack Copeland. The Essential Turing. Oxford: Clarendon Press, 2004. 430
-* https://en.wikipedia.org/wiki/Programming_language_generations
 * Lenat, Douglas B. [AM: An Artificial Intelligence Approach to Discovery in Mathematics as Heuristic Search](http://www.dtic.mil/dtic/tr/fulltext/u2/a155378.pdf). Stanford: Computer Science Dept., Stanford University, 1976.
+* Turing, Alan. *Intelligent Machinery*. London: National Physical Laboratory, 1948. Ed. B. Jack Copeland. The Essential Turing. Oxford: Clarendon Press, 2004. 430
 
 ## Seed AIs
-
 * https://en.wikipedia.org/wiki/Eurisko
