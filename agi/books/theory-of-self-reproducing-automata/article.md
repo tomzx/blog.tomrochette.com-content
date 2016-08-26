@@ -12,6 +12,7 @@ taxonomy:
 
 ## Things to explore
 * Higher class type implies it can describe a subset of the lower class type? For example, a program description (higher level) describing potential programs (lower level)
+* For mutations to be probabilistically non-lethal, this means that most of the DNA code is likely to be a mutation chain that has expanded, while the basic mechanisms of self-reproduction are most likely minimal and left untouched
 
 # Overview
 * The idea that communication between different systems is done through the translation of their respective language into the target's language (for example, from the sender's central nervous system language to the sender's language (English) to the receiver's language (English) and finally into the receiver's language central nervous system language)
@@ -79,6 +80,35 @@ Thus logics and mathematics in the central nervous system, when viewed as langua
 * (p75) Draw up a list of unambiguously defined elementary parts. Imagine that there is a pratically unlimited supply of these parts floating around in a large container. One can then imagine an automaton functioninig in the following manner: It also is floating around in this medium; it essential activity is to pick up parts and put them together, or, if aggregates of parts are found, to them them apart
 * (p77) I will introduce as elementary units neurons, a "muscle," entities which make and cut fixed contacts, and entities which supply energy
 * (p77) What principles are involved in organizing these elementary parts into functioning organisms, what are the traits of such organisms, and what are the essential quantitative characteristics of such organisms?
+* (p78) An object is of the highest degree of complexity if it can do very difficult and involved things
+* (p78) Living organisms are very complicated aggregations of elementary parts, and by any reasonable theory of probability or thermodynamics highly improbably. That they should occur in the world at all is a miracle of the first magnitude; the only thing which removes, or mitigates, this miracle is that they reproduce themselves
+* (p79) These organisms have the ability to produce something more complicated than themselves
+* (p79) An automaton A, which can make an automaton B, must contain a complete description of B and also rules on how to behave while effecting the synthesis
+* (p79) Complication, or productive potentiality in organization, is degenerative, that an organization which synthesizes something is necessarily more complicated, of a higher order, than the organization it synthesizes
+* (p79) Complication is degenerative below a certain minimum level
+* (p80) There is a minimum number of parts below which complication is degenerative, in the sense that if one automaton makes another the second is less complex than the first, but above which it is possible for an automaton to construct other automata of equal or higher complexity
+* (p80) Von Neumann estimated this threshold to be in the millions of simple parts required to be over the minimum threshold
+* (p81) Eight kinds of parts:
+	1. A stimulus organ (p or q)
+	2. A coincidence organ (p and q)
+	3. An inhibitory organ (p and not-q)
+	4. A stimuli producer
+	5. A rigid member (can connect to other rigid members as well as to parts which are not rigid members)
+	6. A fusing organ (when stimulated, welds or solders two parts together)
+	7. A cutting organ (when stimulated, unsolders a connection)
+	8. A muscle (used to produce motion)
+* (p82) The construction automaton contains in its memory a description of the automaton to be constructed. Operating under the direction of this description, it picks up the parts it needs and assembles them into the desired automaton. To do this, it must contain a device which catches and identifies the parts that come in contact with it
+* (p84) There is reason to suspect that our predilection for linear codes, which have a simple, almost temporal sequence, is chiefly a literary habit, corresponding to our not particularly high level of combinatorial cleverness, and that a very efficient language would probably depart from linearity
+* (p85) The juxtaposition of two copies of the same thing is in no sense of higher order than the thing itself
+* (p85) The general constructive automaton A has a certain creative ability, the ability to go from a description of an object to the object
+* (p86) The general copying automaton B has the creative ability to go from an object to two copies of it
+* (p86) Neither A nor B are self-reproductive
+* (p86) The control automaton C is far from having any kind of creative or reproductive ability. All it can do is stimulate two other organs so that they act in certain ways, tie certain things together, and cut these things loose from the original system
+* (p86) Yet the combination of the three automata A, B and C is auto-reproductive. Thus you may break a self-reproductive system into parts whose functioning is necessary for the whole system to be self-reproductive, but which are not themselves self-reproductive
+* (p86) Let X be A + B + C + D, where D is any automaton. Then $(A+B+C) + \phi(A+B+C+D)$ produces $(A+B+C+D) + \phi(A+B+C+D)$. In other words, our constructing automaton is now of such a nature that in its normal operation it produces another object D as well as making a copy of itself
+* (p86) The system (A + B + C + D) can undergo processes similar to the process of mutation
+* (p86) If any element is changed at random in one of the automata A, B, or C, the system will usually not completely reproduce itself
+* (p86) If there is a change in the description $\phi(A+B+C+D)$, the system will produce, not itself, but a modification of itself. Whether the next generation can produce anything or not depends on where the change is. If the change is in A, B, or C, the next generation will be sterile. If the change occurs in D, the system with the mutation is exactly like the original system, except that D has been replaced by D'. This system can reproduce itself, but its by-product will be D' rather than D. This is the normal pattern of an inheritable mutation
 
 # See also
 
