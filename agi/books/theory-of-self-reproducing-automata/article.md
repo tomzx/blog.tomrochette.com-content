@@ -1,5 +1,5 @@
 ---
-title: John von Neumann - Theory of self-reproducing automata (1966)
+title: John von Neumann, Arthur W. Burks - Theory of self-reproducing automata (1966)
 created: 2016-08-06
 taxonomy:
   category: [Artificial General Intelligence]
@@ -109,6 +109,24 @@ Thus logics and mathematics in the central nervous system, when viewed as langua
 * (p86) The system (A + B + C + D) can undergo processes similar to the process of mutation
 * (p86) If any element is changed at random in one of the automata A, B, or C, the system will usually not completely reproduce itself
 * (p86) If there is a change in the description $\phi(A+B+C+D)$, the system will produce, not itself, but a modification of itself. Whether the next generation can produce anything or not depends on where the change is. If the change is in A, B, or C, the next generation will be sterile. If the change occurs in D, the system with the mutation is exactly like the original system, except that D has been replaced by D'. This system can reproduce itself, but its by-product will be D' rather than D. This is the normal pattern of an inheritable mutation
+
+## The Theory of Automata: Construction, Reproduction, Homogeneity
+* (p92) Logical universality: When is a class of automata logically universal, i.e., able to perform all those logical operations that are at all performable with finite (but arbitrarily extensive) means?
+* (p92) Constructability: Can an automaton be constructed, i.e., assembled and built from appropriately defined "raw materials," by another automaton?
+* (p92) Construction-universality: Can any automaton be construction-universal, i.e., be able to construct every other automaton?
+* (p92) Self-reproduction: Can any automaton construct other automata that are exactly like it? Can it be made, in addition, to perform further tasks, e.g., also construct certain other, prescribed automata?
+* (p92) Evolution: Can the construction of automata by automata progress from simpler types to increasingly complicated types? Assuming some suitable definition of "efficiency," can this evolution go from less efficient to more efficient automata
+* (p93) Von Neumann considered five models of self-reproduction:
+	* The kinematic model: Deals with the geometric-kinematic problems of movement, contact, positioning, fusing, and cutting, but ignores problems of force and energy.
+		* Logical (switch) and memory (delay) elements: store and process information
+		* Girders: provide structural rigidity
+		* Sensing elements: sense objects in the environment
+		* Kinematic (muscle-like) elements: move objects around
+		* Joining (welding) and cutting elements: connect and disconnect elements
+	* The cellular model: Self-reproduction takes place in an indefinitely large space which is divided into cells, each cell containing the same finite automaton. Each cell of the infinite structure of the cellular model contains a 29-state automaton
+	* The excitation-threshold-fatigue model: The neuron has a designated threshold and a designated refractory period. The refractory period is divided into two parts, an absolute refractory period and a relative refractory period. If a neuron is not fatigued, it becomes excited whenever the number of active inputs equals or exceeds its threshold. The neuron cannot be excited during the relative refractory period; it can be excited during the relative refractory period, but only if the number of active inputs equals or exceeds a threshold which is higher than the normal threshold
+	* The continuous model: The cellular model of self-reproduction is developed first, it is then reduced to the excitation-threshold-fatigue model, and finally, this model is described by non-linear partial differential equations
+	* The probabilistic model: Automata in which the transitions between states are probabilistic rather than deterministic
 
 # See also
 
