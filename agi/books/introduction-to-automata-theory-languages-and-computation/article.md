@@ -90,7 +90,26 @@ $\require{extpfeil}\Newextarrow{\xRightarrow}{5,5}{0x21D2}$
 		* A string of zero or more terminals and variables. This string, called the body of the production, represents one way to form strings in the language of the variable of the head
 * (p175) Recursive inference: Use the rules from body to head
 * (p175) Derivation: Use the rules from head to body
-* (p177) In order to restrict the number of choices we have in deriving a string, it is often useful to require that at each step we replace the leftmost variable by one of its production bodies. Such a derivation is called a leftmost derivation, and we indicate that a derivation is leftmost by using the relations $\xRightarrow[lm]{*}$
+* (p177) In order to restrict the number of choices we have in deriving a string, it is often useful to require that at each step we replace the leftmost variable by one of its production bodies. Such a derivation is called a leftmost derivation, and we indicate that a derivation is leftmost by using the relations $\xRightarrow[lm]{}$ and $\xRightarrow[lm]{*}$
+* (p177) Similarly, it is possible to require that at each step the rightmost variable is replaced by one of its bodies. If so, we call the derivation rightmost and use the symbols $\xRightarrow[rm]{}$ and $\xRightarrow[rm]{*}$
+* (p183) The parse trees for G = (V, T, P, S) are trees with the following conditions:
+	* Each interior node is labeled by a variable in V
+	* Each leaf is labeled by either a variable, a terminal, or $\epsilon$. However, if the leaf is labeled $\epsilon$, then it must be the only child of its parent
+	* If an interior node is labeled A, and its children are labeled $X_1, X_2, ..., X_k$ respectively, from the left, then $A \rightarrow X_1X_2...X_k$ is a production in P.
+* (p185) The concatenation of the leaves of any parse tree, taken from them left, is called the yield of the tree
+* (p208) A CFG G = (V, T, P, S) is ambiguous if there is at least one string w in T* for which we can find two different parse trees, each with root labeled S and yield w. If each string has at most one parse tree in the grammar, then the grammar is unambiguous
+* (p209) There is no algorithm that can tell us whether a CFG is ambiguous
+* (p210) A factor is an expression that cannot be broken apart by any adjacent operator
+
+## Chapter 6 - Pushdown Automata
+* (p225) The pushdown automaton is essentially an epsilon-NFA with the addition of a stack
+* (p225) We define two different versions of the pushdown automaton:
+	* One that accepts by entering an accepting state
+	* One that accepts by emptying its stack, regardless of the state it is in
+* (p230) Instantaneous description of a PDA (q, w, $\gamma$)
+	* q is the state
+	* w is the remaining input
+	* $\gamma$ is the stack contents
 
 # See also
 
