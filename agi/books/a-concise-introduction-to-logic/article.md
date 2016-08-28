@@ -219,6 +219,55 @@ taxonomy:
 	* Indirect approach: The arguer aims his or her appeal not at the crowd as a whole but at one or more individual separately, focusing on some aspect of those individuals' relationship to the crowd
 		* Bandwagon argument: Everybody believes such-and-such or does such-and-such; therefore, you should believe or do such-and-such, too
 		* Appeal to vanity: Involves linking the love, admiration, or approval of the crowd with some famous figure who is loved, admired, or approved of
+		* Appeal to snobbery: The arguer appeals to a smaller group of the crowd that is supposed to be superior in some way. If the listener wants to be part of this group, then he or she will do a certain thing, think in a certain way, or buy a certain product
+		* Appeal to tradition: When an arguer cites the fact that something has become a tradition as grounds for some conclusion
+* Argument against the person (argumentum ad hominem): Involves two arguers. One of them advances a certain argument, and the other then responds by directing his or her attention not to the first person's argument but to the first person himself
+	* 3 forms:
+		* Ad hominem abusive: The second person responsd to the first person's argument by verbally abusing the first person
+		* Ad hominem circumstantial: The respondent attempts to discredit the opponent's argument by alluding to certain circumstances that affect the opponent
+		* Tu quoque: The second arguer attempts to make the first appear to be hypocritical or arguing in bad faith
+* Accident: When a general rule is applied to a specific case it was not intended to cover
+* Straw man: When an arguer distorts an opponent's argument for the purpose of more easily attacking it, demolishes the distorted argument, and then concludes that the opponent's real argument has been demolished
+* Missing the point (ignoratio elenchi): When the premises of an argument support one particular conclusion, but then a different conclusion, often vaguely related to the correct conclusion, is drawn
+* Red herring: When the arguer diverts the attention of the reader or listener by changing the subject to a different but sometimes subtly related one. He or she then finishes by either drawing a conclusion about this different issue or by merely presuming that some conclusion has been established
+
+## 3.3 Fallacies of Weak Induction
+* The fallacies of weak induction occur because the connection between premises and conclusion is not strong enough to support the conclusion
+* Appeal to unqualified authority (argumentum ad verecundiaum): When the cited authority or witness lacks credibility
+	* In deciding whether a person is a qualified authority, one should keep two important points in mind. First, the person might be an authority in more than one field. Second, there are some areas in which pratically no one can be considered an authority
+* Appeal to ignorance (argumentum ad ignorantiam): When the premises of an argument state that nothing has been proved one way or the other about something, and the conclusion makes a definite assertion about that thing
+	* Two important exceptions:
+		* If qualified researchers investigate a certain phenomenon within their range of expertise and fail to turn up any evidence that the phenomenon exists, this fruitless search by itself constitutes positive evidence about the question
+		* In the United States and a few other countries, a person is presumed innocent until proven guilty
+* Hasty generalization (converse accident): When there is a reasonable likelihood that the sample is not representative of the group
+* False cause: Whenever the link between premises and conclusion depends on some imagined causal connection that probably does not exist
+	Post hoc ergo propter hoc ("after this, therefore on account of this"): Presupposes that just because one event precedes another event, the first event causes the second
+	Non causa pro causa ("not the cause for the cause"): When what is taken to be the cause of something is not really the cause at all and the mistake is based on something other than mere temporal succession
+	Oversimplified cause: When a multitude of causes is responsible for a certain effect but the arguer selects just one of these causes and represents it as if it were the sole cause
+	Gambler's fallacy: Whenever the conclusion of an argument depends on the supposition that independent events in a game of chance are causally related
+* Slippery slope: When the conclusion of an argument rests on an alleged chain reaction and there is not sufficient reason to think that the chain reaction will actually take place
+* Weak analogy: An argument in which the conclusion depends on the existence of an analogy, or similarity, between two things or situations. The fallacy of weak analogy is committed when the analogy is not strong enough to support the conclusion that is drawn
+
+## 3.4 Fallacies of Presumption, Ambiguity, and Illicit Transference
+* Begging the question (petitio principii): Whenever the arguer creates the illusion that inadequate premises provide adequate support for the conclusion by leaving out a possibly false (shaky) key premise, by restating a possibly false premise as the conclusion, or by reasoning in a circle
+* Complex question: When two (or more) questions are asked in the guise of a single question and a single answer is then given to both of them
+* False dichotomy: When a disjunctive premise presents two unlikely alternatives as if they were the only ones available, and the arguer then eliminates the undesirable alternative, leaving the desirable one as the conclusion
+* Suppressed evidence: When an inductive argument ignore important piece of evidence that outweighs the presented evidence and entails a very different conclusion
+* Equivocation: When the conclusion of an argument depends on the fact that a word or phrase is used, either explicitly or implicitly, in two different senses in the argument
+* Amphiboly: When the arguer misinterprets an ambiguous statement and then draws a conclusion based on this faulty interpretation
+	* Amphiboly differs from equivocation in two important ways:
+		* Equivocation is always traced to an ambiguity in the meaning of a word or phrase, whereas amphiboly involves a syntatical ambiguity in a statement
+		* Amphiboly usually involves a mistake made by the arguer in interpreting an ambiguous statement made by someone else, whereas the ambiguity in equivocation is typically the arguer's own creation
+* Composition: When the conclusion of an argument depends on the erroneous transference of an attribute from the parts of something onto the whole
+	* To distinguish composition from hasty generalization, the following procedure should be followed:
+		* Examine the conclusion of the argument
+			* If the conclusion is a general statement, the fallacy committed is hasty generalization
+			* If the conclusion is a class statement, the fallacy is composition
+* Division: When the conclusion of an argument depends on the erroneous transference of an attribute from a whole (or a class) onto its parts (or members)
+	* If the premises contain a general statement, the fallacy committed is accident
+	* If the premises contain a class statement, the fallacy is division
+
+## 3.5 Fallacies in Ordinary Language
 
 # See also
 
