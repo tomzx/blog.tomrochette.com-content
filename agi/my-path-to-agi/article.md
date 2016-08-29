@@ -261,3 +261,13 @@ John Storrs Hall
 
 ### Toward a Standard Metric of Machine Intelligence (2016-08)
 Richard Yonck
+
+### From the Phenomenology to the Mechanisms of Consciousness: Integrated Information Theory 3.0 (2016-08)
+Masafumi Oizumi
+Larissa Albantakis
+Giulio Tononi
+
+### Automatic Learning of Context-Free Grammar (2016-08)
+Tai-Hung Chen
+Chun-Han Tseng
+Chia-Ping Chen
