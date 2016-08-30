@@ -63,38 +63,13 @@ Define the problems and questions you are trying to solve.
 * Focus on a part of your subject area that is limited so that you can go deep in 40-150 papers
 * Create a taxonomy of the papers you find
 
-# "Automated" research
-* The user defines a topic of interest (ex. artificial general intelligence)
-* Automatically
-	* Find papers related to the topic and download them
-		* Find relevant sources of papers in the domain (arxiv, nature, science, acm, springer, google scholar, etc.)
-	* Create a graph of paper references (which paper references which paper)
-		* This graph will be used to determine which papers are foundation and which papers are extensions
-		* The more a paper is referenced, the more likely is it worth reading
-			* Use some algorithms, maybe similar to Google Page Rank to determine the "quality" of the paper
-		* References are extracted from the papers themselves (or by using a reference engine)
-		* References are cross-referenced
-	* Extract writing style (tf-idf, most frequent words, sentence/paragraph/section length) as well as various features (number of charts, tables, figures, etc.)
-	* Compile a list of references based on the papers extracted above
-	* Compile a list of the more prominent writers in the field/topic
-	* Create summaries of the different presented ideas with links to the related articles
-
-## Questions
-* How do you limit the depth of related papers?
-	* Limit on the number of references per paper
-	* Hardcoded/Defined limit
-	* Limit on year range
+# See also
+* [Automated research](../automated-research)
 
 # Sources
-
 [^1]: https://sites.google.com/site/narswang/home/agi-introduction#TOC-Representative-AGI-Projects
 
 * http://www.umiacs.umd.edu/~knkim/HowToPhd.htm
 * http://www.robertfeldt.net/advice/feldt_guide_to_starting_a_phd.pdf
-* [SCIgen - An Automatic CS Paper Generator](https://pdos.csail.mit.edu/archive/scigen/)
 
 ## Automated research
-* http://www.cs.cornell.edu/cdlrg/reference%20linking/extraction.pdf
-* https://github.com/CrossRef/pdfextract - Crashes on Windows
-* https://github.com/metachris/pdfx - Does not extract text reference (only URL/DOI/arxiv)
-* http://pythonhosted.org/refextract/ - Not compatible with Python 3.5 (unicode regex)
