@@ -268,6 +268,24 @@ taxonomy:
 	* If the premises contain a class statement, the fallacy is division
 
 ## 3.5 Fallacies in Ordinary Language
+### Avoiding Fallacies
+* We can identify three factors that lead to most of the informal mistakes in reasoning
+	* Intent. Many fallacies are committed intentionally. The arguer may know full well that his or her reasoning is defective but goes ahead with it anyway because of some benefit for himself or herself or some other person
+	* Careless mental posture combined with an emotional disposition favoring or opposing some person or thing
+	* The influence of what we might call the "worldview" of the arguer
+
+## 4 Categorical Propositions
+## 4.1 The Components of Categorical Propositions
+* A proposition that relates two classes, or categories, is called a categorical proposition
+* The classes in question are denoted respectively by the subject term and the predicate term
+* The proposition asserts that either all or part of the class denoted by the subject term is included in or excluded from the class denoted by the predicate term
+* Standard-form categorical proposition
+	* All S are P
+	* No S are P
+	* Some S are P
+	* Some S are not P
+* "All S are not P" is not a standard form. This form is ambiguous and can be rendered as either "No S are P" or "Some S are P"
+* There are exactly three forms of quantifiers ("all", "no", "some") and two forms of copulas ("are" and "are not")
 
 # See also
 
