@@ -127,7 +127,18 @@ Thus logics and mathematics in the central nervous system, when viewed as langua
 	* The excitation-threshold-fatigue model: The neuron has a designated threshold and a designated refractory period. The refractory period is divided into two parts, an absolute refractory period and a relative refractory period. If a neuron is not fatigued, it becomes excited whenever the number of active inputs equals or exceeds its threshold. The neuron cannot be excited during the relative refractory period; it can be excited during the relative refractory period, but only if the number of active inputs equals or exceeds a threshold which is higher than the normal threshold
 	* The continuous model: The cellular model of self-reproduction is developed first, it is then reduced to the excitation-threshold-fatigue model, and finally, this model is described by non-linear partial differential equations
 	* The probabilistic model: Automata in which the transitions between states are probabilistic rather than deterministic
+* (p106) Von Neumann chose an infinite 2-dimensional array of square cells. Each cell is occupied by the same 29-state finite automaton, and each such automaton is connected to its four immediate neighbords in exactly the same way
+* (p107) The 29 states each cell is capable of assuming falls into three categories:
+	* unexcitable (1)
+	* excitable (20)
+		* 4 confluent states $C_{\epsilon\epsilon'}$, where $\epsilon$ and $\epsilon'$ range over 0 and 1, 0 symbolize quiescence, 1 symbolizes excitation
+		* 8 ordinary transmission states $T_{0\alpha\epsilon}$, where $\alpha = 0, 1, 2, 3$ and $\epsilon = 0, 1$ as before
+		* 8 special transmission states $T_{1\alpha\epsilon}$
+	* sensitized (8)
+* (p110) Ordinary stimuli are to be used for logical operations, taking the species of the neurons that are involved as fixed; that is, ordinary stimuli are to be used for the control and utilization of already satifactorily organized sub-assemblies
+* (p110) Special stimuli are to be used for growth operations, involving the introduction of excitability, together with a new determination of the neuronic species, into previously unexcitable, or otherwise different areas
 
 # See also
 
 # Sources
+* Neumann, John von, and Arthur W. Burks. "Theory of self-reproducing automata." (1966).
