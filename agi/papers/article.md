@@ -31,6 +31,9 @@ The following lists papers I've read and reviewed or made notes for.
 ## Douglas Hofstadter
 * [The Copycat Project: A Model of Mental Fluidity and Analogy-Making](the-copycat-project-a-model-of-mental-fluidity-and-analogy-making)
 
+## E. Mark Gold
+* [Language Identification in the Limit (1967)](e-mark-gold-language-identification-in-the-limit)
+
 ## Eliezer Yudkowsky
 * [Levels of Organization in General Intelligence (2007)](eliezer-yudkowsky-levels-of-organization-in-general-intelligence)
 
