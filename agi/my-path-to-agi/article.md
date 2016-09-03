@@ -271,3 +271,12 @@ Giulio Tononi
 Tai-Hung Chen
 Chun-Han Tseng
 Chia-Ping Chen
+
+### TensorFlow for Machine Intelligence (2016-09 - ?)
+Sam Abrahams
+Danijar Hafner
+Erik Erwitt
+Ariel Scarpinelli
+
+### Language Identification in the Limit (2016-09)
+E. Mark Gold
