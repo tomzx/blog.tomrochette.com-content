@@ -280,3 +280,9 @@ Ariel Scarpinelli
 
 ### Language Identification in the Limit (2016-09)
 E. Mark Gold
+
+### How to Invent Functions (2016-09)
+J. Roland Olsson
+
+### Can Intelligence Explode? (2016-09 - ?)
+Marcus Hutter
