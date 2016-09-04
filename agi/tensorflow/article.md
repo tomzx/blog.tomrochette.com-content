@@ -31,6 +31,8 @@ Tensorflow has rapidly grown in popularity due to the fact that is developed/sup
 	`session.close()`
 
 # Tensors
+A tensor is simply a multidimensional array of data. A scalar is a 0-D tensor, a vector is a 1-D tensor, a matrix is a 2-D tensor and anything over 3-D is called an n-D tensor.
+
 **Rank:** The number of dimensions of a tensor.
 
 | Rank | Math entity | Example |
@@ -79,6 +81,30 @@ Tensorflow has rapidly grown in popularity due to the fact that is developed/sup
 * Temporarily replaces the output of an operation with a tensor value (act as a placeholder)
 * The feed data is provided as an argument to a `session.run()` call
 	`sess.run([output], feed_dict={input1:[7.], input2:[2.]})`
+
+# Operations/Functions of interest
+## CNN
+* tf.nn.conv2d(input, kernel, strides, padding): apply a convolution using kernel
+* tf.nn.relu(input): rectifier linear unit, every negative value is set to 0, and positive values are kept the same
+* tf.sigmoid(input): returns a value in the range [0.0, 1.0]
+* tf.tanh(input): returns a value in the range [-1.0, 1.0]
+* tf.nn.dropout(input, keep_prob): set the output to 0.0 based on a given probability. The output is multiplied by 1/keep_prob in order to keep the expected sum unchanged
+* tf.nn.max_pool(input, kernel, strides, padding): take the maximum value found within a certain kernel size
+* tf.nn.avg_pool(input, kernel, strides, padding): averages out all the values at each depth found within a kernel size
+* tf.nn.local_response_normalization
+
+## RNN
+* tf.nn.rnn_cell.BasicRNNCell(num_neurons): declares a recurrent neural network cell
+* tf.nn.dynamic_rnn(network, input): simulate the given RNN
+* tf.nn.rnn_cell.LSTMCell(num_neurons): declares a long short-term memory neural network cell
+* tf.nn.rnn_cell.GRUCell(num_neurons): declares a gated recurrent unit cell
+
+# CNN
+* Apply the convolution operator to a 2d matrix using a given kernel/filter
+* Used mostly to process high density matrices where the data surrounding a value is generally highly correlated with it
+
+# RNN
+* Used to process sequential inputs (speech recognition, speech synthesis, connected handwriting recognition, time-series forecast, image caption generation, end-to-end translation)
 
 # See also
 
