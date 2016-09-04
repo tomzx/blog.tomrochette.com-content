@@ -137,8 +137,37 @@ Thus logics and mathematics in the central nervous system, when viewed as langua
 	* sensitized (8)
 * (p110) Ordinary stimuli are to be used for logical operations, taking the species of the neurons that are involved as fixed; that is, ordinary stimuli are to be used for the control and utilization of already satifactorily organized sub-assemblies
 * (p110) Special stimuli are to be used for growth operations, involving the introduction of excitability, together with a new determination of the neuronic species, into previously unexcitable, or otherwise different areas
+* (p116) Given a complete description of a secondary automaton, the first automaton can construct this second automaton
+	* $\epsilon$: 0 if $x_1 \ge 0$, else 1
+	* $\eta$: 0 if $y_1 \ge 0$, else 1
+	* $|x_1|$: initial x coordinate of the bounding box containing the automaton
+	* $|y_1|$: initial y coordinate of the bounding box containing the automaton
+	* $\alpha$: length of the x side
+	* $\beta$: length of the y side
+	* $\lambda_{ij}$: cell state at coordinate i, j
+* (p121) One cannot copy an existing automaton directly because by "testing" the state of each cell, the automaton runs into the trouble of potentially activating said cell, and thus possibly trigger a chain reaction to neighbor cells. This is why a description is used to create copies of automata instead of the automata themselves
+* (p125) Two methods of obtaining a description of itself (or an automaton):
+	* passive: the self-reproducing automaton contains within itself a passive description of itself and reads this description in such a way that the description cannot interfere with the automaton's operations
+	* active: the self-reproducing automaton examines itself and thereby constructs a description of itself
+* (p126) Von Neumann suggests that this second method would probably lead to paradoxes of the Richard type, and for this reason he adopts the first method
+* (p128) While the secondary is being constructed, it must remain in its quasi-quiescent initial state until its construction is completed. At this point, the primary will deliver a single stimulus at the appropriate point of the secondary, which will transfer it i nto its normal mode of activity
+* (p128) What does the primary do after it has completed the secondary and given it the starting stimulus?
+	* Single-action: The simplest arrangement would be to let it return to a quasi-quiescent state which is identical with its original state
+	* Sequential: An alternative possibility is to finish with the quasi-quiescent state, plus activity in a suitable terminal organ which imparts the starting stimulus again
+* (p134) States are needed to express the properly logical or neuronal functions
+* (p135) Since a line (of cells) must be able to pass a (neural) stimulus, each one of its cells must possess, for this purpose alone, a quiescent and an excited state. We call these the transmission states of the cell and designate them by the symbol T, with an index $\epsilon$ = 0, 1 (quiescent, excited)
+* (p135) The transmission (of a stimulus) must be a directed process, since the lines were directed to connect definite points. Hence we must set up certain limitations. We may stipulate that a cell in a transmission state accepts a stimulus only from one, definite direction, its input direction. That is, an excited transmission cell brings an immediate neighbor into the excited transmission state only if the former lies in the latter's input direction. Alternatively, we may also stipulate that a cell in a transmission state emits a stimulus only in one, definite direction, its output direction. Finally, we may make both stipulation together
+	* After trying various models along these lines, it appears most convenient to stipulate a definite output direction
+	* In order to avoid certain uncontrolled, and hence undesirable, return-stimulation phenomena, it seems desirable, while not prescribing any particular input direction, to specify that the output direction is insensitive to inputs
+* (p136) The + neuron (OR) can implemented by simply using a transmission cell. It will accept input on its four side, except the output side and output to its output side if any input side is excited
+* (p136) The $\cdot$ neuron (AND) uses confluent states (C). Confluent states are are defined as cells for which 1, 2 or 3 of its immediate neighbors are transmission cells with their output directions pointing at it
+* (p138) The - neuron (NOT) must be ordinarily excited but it must be made quiescent by an input stimulation
+* (p139) The split allows an output to branch into multiple inputs. Using the confluent states with 1 input, you can have up to 3 possible ouputs
+* (p139) The purpose of the special class of excited states is to induce growth, i.e., to transfer cells from unexcitable to excitable states, and within the latter category also to determine the state's species
+* (p140) It is desirable not only to be able to effect transfers from the unexcitable state U into the excitable states (T and C), but also to have this process reversible, that is, to be able to effect transfers from the excitable states into U
 
 # See also
 
 # Sources
 * Neumann, John von, and Arthur W. Burks. "Theory of self-reproducing automata." (1966).
+* [Richard's paradox](https://en.wikipedia.org/wiki/Richard%27s_paradox)
