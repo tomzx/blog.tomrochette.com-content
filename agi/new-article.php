@@ -1,8 +1,13 @@
 <?php
 
+if (count($argv) !== 2) {
+	echo 'php '.$argv[0].' title'.PHP_EOL;
+	exit;
+}
+
 // Get paper title
 $title = $argv[1];
-$folder = preg_replace('/[ -\.:]+/', '-', strtolower($title));
+$folder = preg_replace('/[ -.:!?]+/', '-', strtolower($title));
 $folderPath = $folder;
 $articlePath = $folderPath.'/article.md';
 
