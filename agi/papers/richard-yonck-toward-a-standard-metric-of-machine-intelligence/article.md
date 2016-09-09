@@ -3,7 +3,7 @@ title: Richard Yonck - Toward a Standard Metric of Machine Intelligence (2012)
 created: 2016-08-20
 taxonomy:
   category: [Artificial General Intelligence]
-  status: in progress
+  status: finished
 ---
 
 ## Context
@@ -27,6 +27,7 @@ We would like to have two things:
 	* C-test: A series of abduction and prediction problems, similar to those in standard IQ tests. Questions are based on Kolmogorov complexity. Formatted and presented as a series of increasing complexity
 	* Text compression
 	* Universal Intelligence Test: The agent is challenged in a fully interactive environment using reinforcement learning methods, its actions generating observations and rewards. This agent works to maximize its reward
+* Use a vector-based system where each intelligence factor is assigned a dimension
 
 # See also
 
