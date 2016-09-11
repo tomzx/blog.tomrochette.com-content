@@ -286,6 +286,34 @@ taxonomy:
 	* Some S are not P
 * "All S are not P" is not a standard form. This form is ambiguous and can be rendered as either "No S are P" or "Some S are P"
 * There are exactly three forms of quantifiers ("all", "no", "some") and two forms of copulas ("are" and "are not")
+* The quality of a categorical proposition is either affirmative or negative
+* The quantity of a categorical proposition is either universal or particular
+* Categorical propositions have commonly been designated by letter names corresponding to the first four vowels of the Roman alphabet:
+	* A: universal affirmative
+	* E: universal negative
+	* I: particular affirmative
+	* O: particular negative
+* A term is said to be distributed if the proposition makes an assertion about every member of the class denoted by the term
+	* A: the subject term is distributed
+	* E: Both terms are distributed
+	* I: No term is distributed
+	* O: The predicated is distributed
+
+## 4.2 Venn Diagrams and the Modern Square of Opposition
+* Aristotle held that universal propositions about existing things have existential import
+* According to the theory developed by George Boole, no universal propositions have existential import
+* For both, the word "some" implies existence
+* From a boolean standpoint:
+	* All S are P = No members of S are outside P
+	* No S are P = No members of S are inside P
+	* Some S are P = At least one S exist that is a P
+	* Some S are not P = at least one S exist that is not a P
+* A and O make assertions that are the exact opposite of each other
+* E and I make assertions that are the exact opposite of each other
+* This relationship of mutually contradictory pairs of propositions is represented in a diagram called the modern square of opposition
+* Propositions are said to be vacuously true, because their truth value results solely from the fact that the subject class is empty, or void of members
+* Arguments that have only one premise are called immediate inferences
+* Arguments that are valid from the Boolean standpoint are said to be unconditionally valid because they are valid regardless of whether their terms refer to existing things
 
 # See also
 
