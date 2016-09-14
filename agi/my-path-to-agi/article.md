@@ -272,7 +272,7 @@ Tai-Hung Chen
 Chun-Han Tseng
 Chia-Ping Chen
 
-### TensorFlow for Machine Intelligence (2016-09 - ?)
+### TensorFlow for Machine Intelligence (2016-09)
 Sam Abrahams
 Danijar Hafner
 Erik Erwitt
@@ -284,5 +284,8 @@ E. Mark Gold
 ### How to Invent Functions (2016-09)
 J. Roland Olsson
 
-### Can Intelligence Explode? (2016-09 - ?)
+### Can Intelligence Explode? (2016-09)
+Marcus Hutter
+
+### A Complete Theory of Everything (will be subjective) (2016-09 - ?)
 Marcus Hutter

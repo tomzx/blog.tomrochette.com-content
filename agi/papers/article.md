@@ -64,6 +64,7 @@ The following lists papers I've read and reviewed or made notes for.
 * [Program Search as a Path to Artificial General Intelligence (2007)](lukasz-kaiser-program-search-as-a-path-to-artificial-general-intelligence)
 
 ## Marcus Hutter
+* [A Complete Theory of Everything (will be subjective) (2010)](marcus-hutter-a-complete-theory-of-everything-will-be-subjective)
 * [Can Intelligence Explode? (2012)](marcus-hutter-can-intelligence-explode)
 * [Universal Algorithmic Intelligence: A Mathematical Top→Down Approach (2007)](marcus-hutter-universal-algorithmic-intelligence-a-mathematical-top-down-approach)
 
