@@ -11,7 +11,8 @@ $author = $argv[1];
 $title = $argv[2];
 // Get paper year
 $year = $argv[3];
-$folder = preg_replace('/[ -.:!?]+/', '-', strtolower($author.' '.$title));
+$folder = preg_replace('/[ -.:!?()\[\]]+/', '-', strtolower($author.' '.$title));
+$folder = trim($folder, '-');
 $folderPath = 'papers/'.$folder;
 $articlePath = $folderPath.'/article.md';
 

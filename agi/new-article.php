@@ -7,7 +7,8 @@ if (count($argv) !== 2) {
 
 // Get paper title
 $title = $argv[1];
-$folder = preg_replace('/[ -.:!?]+/', '-', strtolower($title));
+$folder = preg_replace('/[ -.:!?()\[\]]+/', '-', strtolower($author.' '.$title));
+$folder = trim($folder, '-');
 $folderPath = $folder;
 $articlePath = $folderPath.'/article.md';
 
