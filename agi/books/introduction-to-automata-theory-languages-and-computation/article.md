@@ -111,6 +111,18 @@ $\require{extpfeil}\Newextarrow{\xRightarrow}{5,5}{0x21D2}$
 	* w is the remaining input
 	* $\gamma$ is the stack contents
 
+## Chapter 8 - Introduction to Turing Machines
+* (p316) Proving formally that there is no program to do a stated task is quite tricky
+* (p318) We know there are infinitely fewer programs than there are problems
+* (p318) If a problem as an algorithm that always tells correctly whether an instance of the problem has answer "yes" or "no," then the problem is said to be "decidable". Otherwise, the problem is "undecidable"
+* (p321) Suppose that we know problem $P_1$ is undecidable, and $P_2$ is a new problem that we would like to prove is undecidable as well
+* (p322) In order to make a proof that problem $P_2$ is undecidable, we have to invent a construction that converts instances of $P_1$ to instances of $P_2$ that have the same answer
+* (p322) Any string in the language $P_1$ is converted to some string in the language $P_2$, and any string over the alphabet of $P_1$ that is not in the language of $P_1$ is converted to a string that is not in the language $P_2$
+* (p322) Once we have this construction, we can solve $P_1$ as follows:
+	* Given an instance of $P_1$, that is, given a string $w$ that may or may not be in the language $P_1$, apply the construction algorithm to produce a string $x$
+	* Test whether $x$ is in $P_2$, and give the same answer about $w$ and $P_1$
+
+
 # See also
 
 # Sources
