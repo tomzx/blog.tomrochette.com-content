@@ -70,6 +70,27 @@ u^1_3
 u^{00}_2
 ...$$
 
+* Define a bijection $i = \langle q, k \rangle$ between a (program, location) pair $(q, k)$ and the natural number $i \in \mathbb{N}$, and define $\breve{u_i} := u^q_k$. We can then construct an explicit program $\breve{q}$ for UTM that computes $\breve{u}_{1:\infty} = u^q_{1:\infty} = UTM(\breve{q})$
+* One may define the best CToE (of an observer with experience $o^{true}_{1:t}$) as
+
+$$
+UCTOE := \underset{q,s}{\arg\min} \left\{Length(q) + Length(s) : o^{sq}_{1:t} = o^{true}_{1:t}\right\}
+$$
+
+* where $o^{sq}_{1:\infty} = UTM(s, UTM(q))$
+
+## 7 Extensions
+* Partial theories: Let $o^{true}_{1:t}$ be the complete observation, and $(q, s)$ be some theory explaning only some observations but not all. The other bits in $o^{qs}_{1:t}$ are undefined. We can augment $q$ with a (huge) table $b$ of all bits for which $o^{qs}_{i} = o^{true}_{i}$. Together, $(q, b, s)$ allows to reconstruct $o^{true}_{1:t}$ exactly. Hence, for two different theories, the one with smaller length should be selected
+
+$$
+Length(q) + Length(b) + Length(s)
+$$
+
+* Some proponents of pluralism and some opponents of reductionism argue that we need multiple theories on multiple scales for different (overlapping) application domains. They argue that a ToE is not desirable and/or not possible.
+* Consider two Theories (T1 and T2) with (proclaimed) applications domain A1 and A2, respectively
+	* If predictions of T1 and T2 coincide on their intersection $A1 \cap A2$ (or if A1 and A2 are disjoint), we can trivially "unify" T1 and T2 to one theory T by taking their union. Of course, this does not result in any simplification, i.e. if $Length(T) = Length(T1) + Length (T2)$, we gain nothing. But since nearly all modern theories have some common basis, e.g. use natural or real numbers, a formal unification of the generating programs nearly always leads to $Length(q) < Length(q_1) + Length(q_2)$
+	* The interesting case is when T1 and T2 lead to different forecasts on $A1 \cap A2$. For instance, particle versus wave theory with the atomic world at their intersection, unified by quantum theory. Then we need a reconciliation of T1 and T2, that is, a single theory T for $A1 \cup A2$. Ockham's razor tells us to choose a simple (elegant) unification. This rules out naive/ugly/complex solutions like developing a third theory for $A1 \cap A2$ or attributing parts of $A1 \cap A2$ to T1 or T2 as one sees fit, or averaging the prediction of T1 and T2. Of course T must be consistent with the observations
+
 # See also
 
 # Sources
