@@ -165,6 +165,18 @@ Thus logics and mathematics in the central nervous system, when viewed as langua
 * (p139) The split allows an output to branch into multiple inputs. Using the confluent states with 1 input, you can have up to 3 possible ouputs
 * (p139) The purpose of the special class of excited states is to induce growth, i.e., to transfer cells from unexcitable to excitable states, and within the latter category also to determine the state's species
 * (p140) It is desirable not only to be able to effect transfers from the unexcitable state U into the excitable states (T and C), but also to have this process reversible, that is, to be able to effect transfers from the excitable states into U
+* (p157) We have free timing when the emission of a certain stimuli (at a specified point and in a certain order) is provided for, but the time intervals or delays from one such emission to the next are not prescribed
+* (p157) We have rigid timing when the delays of the above pattern are numerically specified
+* (p159) Pulser: This organ has an input a and an output b. Upon a stimulus at a it will emit a prescribed sequence $i^1 \cdots i^n$ at b. This pulser has the symbol ${\bf P}(\overline{i^1 \cdots i^n})$. The sequence $i^1 \cdots i^n$ which can be described at will, is its characteristic; n is its order
+* (p163) Periodic pulser: This organ has two inputs $a_+$, $a_-$, and an output b. Upon a stimulus at $a_+$, it will begin to emit a prescribed, periodically repeated sequence, say $\overline{\overline{i^1 \cdots i^n}}$ at b. upon a stimulus at $a_-$ this emission at b will be stopped. This period pulser has the symbol ${\bf PP}(\overline{\overline{i^1 \cdots i^n}})$. The sequence $\overline{\overline{i^1 \cdots i^n}}$ which can be described at will, is its characteristic; n is its order
+* (p163) The simplest periodic repeat is a (closed) cycle of transmission states. The shortest cycle of this kind has a period of 4. Clearly, any (such) cycle must have an even period; hence the general cycle has the period 2l, l = 2, 3, ....
+* (p164) An output b must be issued from this repeater. Hence, at least one of its cells must be able to stimulate in two directions; i.e. it must be a C (AND neuron with confluent states)
+	* The C raises the length of the period to 2l + 1
+	* If an even period is wanted, a second C must be inserted
+* (p165) To stop the periodic repeater, we want to convert any cell part of the cycle into a U
+	* However, if we want to restore the periodic repeater, we will have to restore this cell to its original state
+	* Thus, it is simpler to convert a C than a T (which has a direction)
+* (p166) To restore the U to a C, we need a 5 consecutive pulse ${\bf P}(\overline{11111})$
 
 # See also
 
