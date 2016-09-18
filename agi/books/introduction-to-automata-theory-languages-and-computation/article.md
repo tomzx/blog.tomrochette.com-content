@@ -121,7 +121,11 @@ $\require{extpfeil}\Newextarrow{\xRightarrow}{5,5}{0x21D2}$
 * (p322) Once we have this construction, we can solve $P_1$ as follows:
 	* Given an instance of $P_1$, that is, given a string $w$ that may or may not be in the language $P_1$, apply the construction algorithm to produce a string $x$
 	* Test whether $x$ is in $P_2$, and give the same answer about $w$ and $P_1$
-
+* (p325) Using the Turing machine notation, we shall prove undecidable certain problems that appear unrelated to programming
+* (Formal description of a Turing machine skipped)
+* (p334) There is another notion of "acceptance" that is commonly used for Turing machines: acceptance by halting. We say that a TM halts if it enters a state q, scanning a tape symbol X, and there is no move in this situation; i.e., $\delta(q, X)$ is undefined
+	* We assume that a TM always halts when it is in an accepting state
+* (p341) As with programs in general, it helps to think of Turing machines as built from a collection of interacting components, or "subroutines"
 
 # See also
 
