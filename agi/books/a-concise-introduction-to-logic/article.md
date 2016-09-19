@@ -315,6 +315,47 @@ taxonomy:
 * Arguments that have only one premise are called immediate inferences
 * Arguments that are valid from the Boolean standpoint are said to be unconditionally valid because they are valid regardless of whether their terms refer to existing things
 
+## 4.4 Conversion, Obversion, and Contraposition
+### Conversion
+* A conversion consists of switching the subject term with the predicate term
+* E.g. No F are H -> No H are F
+* Two statements are said to be logically equivalent statements when they necessarily have the same truth value
+* Converting an E or I statement gives a new statement that always has the same truth value (and the same meaning) as the given statement
+* Converted an A or O statement gives a new statement whose truth value is logically undetermined in relation to the given statement
+* The fallacy of illicit conversion: Converting an A or O statement and assuming they are logically equivalent statements
+
+### Obversion
+* Obversion requires two steps:
+	* Changing the quality
+	* Replacing the predicate with its term complement
+* E.g. No S are P -> All S are non-P
+* The term complement is the word or group of words that denotes the class complement
+* Obversion of all type of statements (A, E, I, O) are logically equivalent to their original statement
+
+### Contraposition
+* Contraposition requires two steps:
+	* Switching the subject and predicate terms
+	* Replacing the subject and predicate terms with their term complements
+* E.g. All G are A -> All non-A are non-G
+* Contrapositive of A and O statements are logically equivalent to their original statement
+* Contrapositive of E and I statements are logically undetermined in relation to the given statement
+* The fallacy of illicit contraposition: Assuming that the contraposition of an E or I statement is logically equivalent to the given statement
+
+## 4.5 The Traditional Square of Opposition
+* The traditional square of opposition is an arrangement of lines that illustrates logically necessary relations among the four kinds of categorical propositions
+* Contradictory: opposite truth value
+* Contrary: at least one is false (not both true)
+* Subcontrary: at least one is true (not both false)
+* Subalternation: truth flows downward, falsity flows upward
+* Contrary relation: If a certain A proposition is given as true, the corresponding E proposition is false, and if an E proposition is given as true, the corresponding A proposition is false. But if an A proposition is given as false, the corresponding E proposition could be either true or false. Similarly, if an E proposition is given as false, the corresponding A proposition has logically undetermined truth value
+* Subcontrary relation: If a certain I proposition is given as false, the corresponding O proposition is true, and if an O proposition is given as false, the corresponding I proposition is true. But if either an I or O proposition is given as true, then the corresponding proposition could be either true or false
+* Subalternation relation: If an A proposition is given as true, the corresponding I proposition is true also, and if an I proposition is given as false, the corresponding A proposition is false. But if an A proposition is given as false, this truth value cannot be transmitted downward, so the corresponding I proposition will have logically undetermined truth value. Conversely, if an I proposition is given as true, this truth value cannot be transmitted upward, so the corresponding A proposition will have logically undetermined truth value. Analogous reasoning prevails for the subalternation relation between the E and O propositions
+* Inferences that depends on an incorrect application of the (contrary, subcontrary, subalternation) relation commit the formal fallacy of illicit (contrary, subcontrary, subalternation)
+* What happens when the Aristotelian standpoint is adopted but the propositions are about things that do not exist? The answer is that under these conditions the traditional square gives exactly the same results as the modern square
+	* Inferences that are based on a correct application of the contradictory relation are valid, but inferences that are based on an otherwise correct application of the other three relations are invalid and commit the existential fallacy
+* Conditionally valid applies to an argument after the Aristotelian standpoint has been adopted and we are not certain if the subject term of the premise denotes actually existing things
+
+
 # See also
 
 # Sources
