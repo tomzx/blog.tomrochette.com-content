@@ -126,6 +126,21 @@ $\require{extpfeil}\Newextarrow{\xRightarrow}{5,5}{0x21D2}$
 * (p334) There is another notion of "acceptance" that is commonly used for Turing machines: acceptance by halting. We say that a TM halts if it enters a state q, scanning a tape symbol X, and there is no move in this situation; i.e., $\delta(q, X)$ is undefined
 	* We assume that a TM always halts when it is in an accepting state
 * (p341) As with programs in general, it helps to think of Turing machines as built from a collection of interacting components, or "subroutines"
+* (p345) Every language accepted by a multitape TM is recursively enumerable
+* (p346) The running time of TM $M$ on input $w$ is the number of steps that $M$ makes before halting
+	* If $M$ doesn't halt on $w$, then the running time of $M$ is infinite
+* (p346) The time complexity of TM $M$ is the function $T(n)$ that is the maximum, over all inputs $w$ of length $n$, of the running time of $M$ on $w$
+* (p347) The difference between polynomial time and higher growth rates in running time is really the divide between what we can solve by computer and what is in practice not solvable
+* (p348) A nondeterministic Turing machine (NTM) accepts no languages not accepted by a deterministic TM (or DTM)
+* (p348) If $M_N$ is a nondeterministic Turing machine, then there is a deterministic Turing machine $M_D$ such that $L(M_N) = L(M_D)$
+* (p353) A TM with a semi-infinite tape (there are no cells to the left of the initial head position) can simulate one whose tape is infinite in both directions
+	* Simply construct a tape with 2 tracks, one representing the positive positions, the second one, the negative positions
+* (p355) If we give a PDA two stacks, then it can accept any language that a TM can accept
+* (p359) A two-counter machine is enough to simulate a Turing machine and therefore to accept every recursively enumerable language
+* (p369) If a computer:
+	* Has only instructions that increase the maximum word length by at most 1, and
+	* Has only instructions that a multitape TM can perform on words of length $k$ in $O(k^2)$ steps or less
+	* then the Turing machine can simulate $n$ steps of the computer in $O(n^3)$ of its own steps
 
 # See also
 
