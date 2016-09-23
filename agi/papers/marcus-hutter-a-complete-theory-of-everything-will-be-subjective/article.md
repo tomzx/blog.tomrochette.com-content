@@ -3,7 +3,7 @@ title: Marcus Hutter - A Complete Theory of Everything (will be subjective) (201
 created: 2016-09-10
 taxonomy:
   category: [Artificial General Intelligence]
-  status: in progress
+  status: finished
 ---
 
 ## Context
@@ -90,6 +90,17 @@ $$
 * Consider two Theories (T1 and T2) with (proclaimed) applications domain A1 and A2, respectively
 	* If predictions of T1 and T2 coincide on their intersection $A1 \cap A2$ (or if A1 and A2 are disjoint), we can trivially "unify" T1 and T2 to one theory T by taking their union. Of course, this does not result in any simplification, i.e. if $Length(T) = Length(T1) + Length (T2)$, we gain nothing. But since nearly all modern theories have some common basis, e.g. use natural or real numbers, a formal unification of the generating programs nearly always leads to $Length(q) < Length(q_1) + Length(q_2)$
 	* The interesting case is when T1 and T2 lead to different forecasts on $A1 \cap A2$. For instance, particle versus wave theory with the atomic world at their intersection, unified by quantum theory. Then we need a reconciliation of T1 and T2, that is, a single theory T for $A1 \cup A2$. Ockham's razor tells us to choose a simple (elegant) unification. This rules out naive/ugly/complex solutions like developing a third theory for $A1 \cap A2$ or attributing parts of $A1 \cap A2$ to T1 or T2 as one sees fit, or averaging the prediction of T1 and T2. Of course T must be consistent with the observations
+* One problem with pluralism: which principle should one use in a concrete situation?
+
+# 8 Justification of Ockham's Razor
+* Ockham's razor could be regarded as correct if among all considered theories, the one selected by Ockham's razor is the one that most likely leads to correct predictions
+* $Q_L := \{ q: \mathrm{Length}(q) \le L \mathrm{\ and\ UTM}(q) = u^{true}_{1:t}* \}$
+	* $*$ is any continuation of $u^{true}_{1:t}$
+* $|Q_L| \approx 2^{L-l}$
+	* $Q_L$ is the set of all consistent universes (which is non-empty for large $L$)
+	* $L$ is a given length limit
+	* $l$ is the length of the shortest description of these consistent universes
+* We are most likely in a universe that is (equivalent to) the simplest universe consistent with our past observations
 
 # See also
 
