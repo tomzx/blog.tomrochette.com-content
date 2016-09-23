@@ -355,6 +355,11 @@ taxonomy:
 	* Inferences that are based on a correct application of the contradictory relation are valid, but inferences that are based on an otherwise correct application of the other three relations are invalid and commit the existential fallacy
 * Conditionally valid applies to an argument after the Aristotelian standpoint has been adopted and we are not certain if the subject term of the premise denotes actually existing things
 
+## 4.6 Venn Diagrams and the Traditional Standpoint
+* The steps involved in testing an immediate inference from the Aristotelian standpoint
+	* Reduce the inference to its form and test it from the Boolean standpoint. If the form is valid, proceed no further. The inference is valid from both standpoints
+	* If the inference form is invalid from the Boolean standpoint and has a particular conclusion, then adopt the Aristotelian standpoint and look to see if the left-hand premise circle is partly shaded. If it is, enter a circled X in the unshaded part and retest the form
+	* If the inference form is conditionally valid, determine if the circled X represents something that exists. If it does, the condition is fulfilled, and the inference is valid from the Aristotelian standpoint. If it does not, the inference is invalid, and it commits the existential fallacy from the Aristotelian standpoint
 
 # See also
 
