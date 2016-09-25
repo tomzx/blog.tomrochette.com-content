@@ -142,6 +142,25 @@ $\require{extpfeil}\Newextarrow{\xRightarrow}{5,5}{0x21D2}$
 	* Has only instructions that a multitape TM can perform on words of length $k$ in $O(k^2)$ steps or less
 	* then the Turing machine can simulate $n$ steps of the computer in $O(n^3)$ of its own steps
 
+## Chapter 9 - Undecidability
+* (p377) Does this Turing machine accept (the code for) itself as input?
+	* Cannot be solved by a computer
+* (p377) We divide problems that can be solved by a Turing machine into two classes:
+	* Those that have an algorithm (i.e., a Turing machine that halts whether or not it accepts its input)
+	* Those that are only solved by Turing machines that may run forever on inputs they do not accept
+* (p378) Our long-range goal is to prove undecidable the language consisting of pairs (M, w) such that:
+	* M is a Turing machine with alphabet {0, 1}
+	* w is a string of 0's and 1's
+	* M accepts input w
+* If this problem with inputs restricted to the binary alphabet is undecidable, then surely the more general problem, where TM's may have any alphabet, is undecidable
+* (p382) $L_d$ (the diagonalization language) is not a recursively enumerable language. That is, there is no Turing machine that accepts $L_d$
+* (p383) We call a language L recursive if L = L(M) for some Turing machine M such that:
+	* If w is in L, then M accepts (and therefore halts)
+	* If w is not in L, then M eventually halts, although it never enters an accepting state
+* (p383) If we think of the language L as a "problem," then problem L is called decidable if it is a recursive language, and it is called undecidable if it is not a recursive language
+* (p386) If L is a recursive language, so is the complement of L (every language that L accepts should be rejected by its complement, and every language that L rejects should be accepted by its complement)
+* (p386) If both a language L and its complement are recursively enumerable, then L is recursive
+
 # See also
 
 # Sources
