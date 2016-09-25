@@ -361,6 +361,26 @@ taxonomy:
 	* If the inference form is invalid from the Boolean standpoint and has a particular conclusion, then adopt the Aristotelian standpoint and look to see if the left-hand premise circle is partly shaded. If it is, enter a circled X in the unshaded part and retest the form
 	* If the inference form is conditionally valid, determine if the circled X represents something that exists. If it does, the condition is fulfilled, and the inference is valid from the Aristotelian standpoint. If it does not, the inference is invalid, and it commits the existential fallacy from the Aristotelian standpoint
 
+## 5 Categorical Syllogisms
+## 5.1 Standard Form, Mood, and Figure
+* A syllogism is a deductive argument consisting of two premises and one conclusion
+* The major term is the predicate of the conclusion
+* The minor term is the subject of the conclusion
+* The middle term is the one that occurs once in each premise and does not occur in the conclusion
+* The major premise is the one that contains the major term
+* The minor premise is the one that contains the minor term
+* A standard-form categorical syllogism is one that meets the following four conditions:
+	1. All three statements are standard-form categorical propositions
+	2. The two occurrences of each term are identical
+	3. Each term is used in the same sense throughout the argument
+	4. The major premise is listed first, the minor premise second, and the conclusion last
+* A categorical syllogism is a deductive argument consisting of three categorical propositions that is capable of being translated into standard form
+* The mood of a categorical syllogism consists of the letter names of the proposition that make it up (major A, minor O, conclusion E -> AOE)
+* The figure of a categorical syllogism is determined by the location of the two occurrences of the middle term in the premises (position of the middle terms: 1 \\, 2 X|, 3 |X, 4 /)
+
+## 5.2 Venn Diagrams
+* The critical term is the term in a categorical syllogism which, when it denotes at least one existing thing, guarantees that the subject of the conclusion denotes at least one existing thing
+
 # See also
 
 # Sources
