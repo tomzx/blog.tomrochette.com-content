@@ -177,6 +177,12 @@ Thus logics and mathematics in the central nervous system, when viewed as langua
 	* However, if we want to restore the periodic repeater, we will have to restore this cell to its original state
 	* Thus, it is simpler to convert a C than a T (which has a direction)
 * (p166) To restore the U to a C, we need a 5 consecutive pulse ${\bf P}(\overline{11111})$
+* (p175) A decoding organ will output a single stimulus at output b if a sequence of bits containing the characteristic of the organ is fed at input a (${\bf D}(\overline{1001})$ will accept $\overline{1001}$, or $\overline{1111}$, but not $\overline{0100}$ or $\overline{0001}$)
+* (p175) A decoding organ is to be distinguished from a "recognizing" device which produces an output for some particular sequence and no other ((X & Y) == Y vs X == Y, X being the input and Y being the characteristic/mask)
+* (p176) Top row confluence states are used to detect coincidence, while bottom row confluence states are used to introduce delay between paths of odd amounts
+* (p176) Decoding: This organ has an input a and an output b. The ideal form would be one which, upon the arrival of a prescribed sequence, say $\overline{i^1 \cdots i^n}$, at a, and only then, will emit a single stimulus at b. However, for our specific applications of this organ a simpler requirement will do, and this is the one that we are going to use.
+	* Let a sequence, e.g. $\overline{i^1 \cdots i^n}$, be prescribed. Upon arrival of any sequence $\overline{j^1 \cdots j^n}$ at a, which contains all the stimuli of $\overline{i^1 \cdots i^n}$, and only then, it will emit a single stimulus at b
+* (p176) This decoding organ has the symbol ${\bf D}(\overline{i^1 \cdots i^n})$. The sequence $\overline{i^1 \cdots i^n}$, which can be prescribed at will, is its characteristic, and n is its order
 
 # See also
 
