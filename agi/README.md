@@ -89,6 +89,7 @@ Tom
 * [Seed AI](seed-ai)
 * [Set relation language](set-relation-language)
 * [State machines](state-machines)
+* [Static analysis](static-analysis)
 
 ### Bots and swarms
 
