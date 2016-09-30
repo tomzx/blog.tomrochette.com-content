@@ -297,7 +297,7 @@ taxonomy:
 	* A: the subject term is distributed
 	* E: Both terms are distributed
 	* I: No term is distributed
-	* O: The predicated is distributed
+	* O: The predicate is distributed
 
 ## 4.2 Venn Diagrams and the Modern Square of Opposition
 * Aristotle held that universal propositions about existing things have existential import
@@ -380,6 +380,25 @@ taxonomy:
 
 ## 5.2 Venn Diagrams
 * The critical term is the term in a categorical syllogism which, when it denotes at least one existing thing, guarantees that the subject of the conclusion denotes at least one existing thing
+* Apply the universal premise first, then the particular premise
+
+## 5.3 Rules and Fallacies
+### Boolean Standpoint
+* Rule 1: The middle term must be distributed at least once
+	* Fallacy: Undistributed middle
+* Rule 2: If a term is distributed in the conclusion, then it must be distributed in a premise
+	* Fallacy: Illicit major; illicit minor
+* Rule 3: Two Negative premises are not allowed
+	* Fallacy: Exclusive premises
+* Rule 4: A negative premise requires a negative conclusion, and a negative conclusion requires a negative premise
+	* Fallacy: Drawing an affirmative conclusion from a negative premise or drawing a negative conclusion from affirmative premises
+* It turns out that no valid syllogism can have two particular premises
+* Rule 5: If both premises are universal, the conclusion cannot be particular
+	* Fallacy: Existential fallacy
+
+### Aristotelian Standpoint
+* Any categorical syllogism that breaks one of the first four rules is invalid from the Aristotelian standpoint
+* The critical term is the one that is superfluously distributed. In other words, it is the term that, in the premises, is distributed in more occurrences than is necessary for the syllogism to obey the first two rules
 
 # See also
 
