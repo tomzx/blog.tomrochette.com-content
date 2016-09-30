@@ -183,6 +183,8 @@ Thus logics and mathematics in the central nervous system, when viewed as langua
 * (p176) Decoding: This organ has an input a and an output b. The ideal form would be one which, upon the arrival of a prescribed sequence, say $\overline{i^1 \cdots i^n}$, at a, and only then, will emit a single stimulus at b. However, for our specific applications of this organ a simpler requirement will do, and this is the one that we are going to use.
 	* Let a sequence, e.g. $\overline{i^1 \cdots i^n}$, be prescribed. Upon arrival of any sequence $\overline{j^1 \cdots j^n}$ at a, which contains all the stimuli of $\overline{i^1 \cdots i^n}$, and only then, it will emit a single stimulus at b
 * (p176) This decoding organ has the symbol ${\bf D}(\overline{i^1 \cdots i^n})$. The sequence $\overline{i^1 \cdots i^n}$, which can be prescribed at will, is its characteristic, and n is its order
+* (p191) The coded channel performs a function which is necessitated by the peculiar narrowness of 2-dimensional space
+* (p192) A multiple line-crossing organ that would be universally useful may be described as follows. It is a rectangular area A, on whose periphery there are various inputs and outputs. Every input is designated by a symbol $a_{\nu}$, $\nu = 1, \cdots, n$; every output is designated by a symbol $b_{\nu}$, $\nu = 1, \cdots, n$. There may be several $a_{\nu}$ with the same $\nu$, and there may be several $a_{\nu}$ with the same $\nu$. The order in which all of these $a_{\nu}$ and $b_{\nu}$ are arranged around the periphery of A may be prescribed in any manner whatsoever. It is desired that upon stimulation of an $a_{\nu}$ all the $b_{\nu}$'s (with the same $\nu$) should respond, with appropriate (and not necessarily equal) delays
 
 # See also
 
