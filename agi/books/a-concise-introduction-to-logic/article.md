@@ -16,7 +16,7 @@ taxonomy:
 
 # Notes
 
-# 1 Basic Concepts
+## 1 Basic Concepts
 ## 1.1 Arguments, Premises, and Conclusions
 * An argument is a group of statements, one or more of which (the premises) are claimed to provide support for, or reasons to believe, one of the others (the conclusion)
 * Questions, proposals, suggestions, commands and exclamations cannot be true/false (and so are not usually classified as statements)
@@ -92,7 +92,7 @@ taxonomy:
 	* Do the premises support the conclusion?
 	* Are all the premises true?
 
-## Deductive Arguments
+### Deductive Arguments
 * A valid deductive argument is an argument in which it is impossible for the conclusion to be false given that the premises are true
 * An invalid deductive argument is a deductive argument in which it is possible for the conclusion to be false given that the premises are true
 * Validity is something that is determined by the relationship between premises and conclusion. The question is not whether the premises and conclusion are true or false, but whether the premises support the conclusion
@@ -100,7 +100,7 @@ taxonomy:
 * A sound argument is a deductive argument that is valid and has all true premises
 * An unsound argument is a deductive argument that is invalid, has one or more false premises, or both
 
-## Inductive Arguments
+### Inductive Arguments
 * A strong inductive argument is an inductive argument in which it is improbable that the conclusion be false given that the premises are true
 * A weak inductive argument is an argument in which the conclusion does not follow probably from the premises, even though it is claimed to
 * When we speak of the premises being true, we mean "true" in a complete sense. The premises must not exclude or overlook some crucial piece of evidence that undermines the stated premises and requires a different conclusion. This proviso is otherwise called the total evidence requirement
@@ -111,7 +111,7 @@ taxonomy:
 ## 1.5 Argument Forms: Proving Invalidity
 * Can basically be summarized as "if the arguments are not transitive, then the conclusion cannot be true"
 
-## Counterexample Method
+### Counterexample Method
 * It consists of isolating the form of an argument and then constructing a substitution instance having true premises and a false conclusion. This proves the form invalid, which in turn proves the argument invalid
 * The counterexample method can be used to prove the invalidity of any invalid argument, but it cannot prove the validity of any valid argument
 
@@ -122,6 +122,7 @@ taxonomy:
 	* Conjoint premises
 	* Multiple conclusions
 
+## 2 Language: Meaning and Definition
 ## 2.1 Varieties of Meaning
 * Two linguistic functions are particularly important:
 	* To convey information
