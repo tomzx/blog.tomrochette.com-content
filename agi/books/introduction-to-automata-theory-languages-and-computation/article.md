@@ -160,6 +160,12 @@ $\require{extpfeil}\Newextarrow{\xRightarrow}{5,5}{0x21D2}$
 * (p383) If we think of the language L as a "problem," then problem L is called decidable if it is a recursive language, and it is called undecidable if it is not a recursive language
 * (p386) If L is a recursive language, so is the complement of L (every language that L accepts should be rejected by its complement, and every language that L rejects should be accepted by its complement)
 * (p386) If both a language L and its complement are recursively enumerable, then L is recursive
+* (p397) Our intuition tells us that a problem and its complement are really the same problem. To solve one, we can use an algorithm for the other, and at the last step, complement the output: say "yes" instead of "no," and vice-versa. That instinct is exactly right, as long as the problem and its complement are recursive.
+* (p397) All nontrivial properties of the RE languages are undecidable, in the sense that it is impossible to recognize by a Turing machine those binary strings that are codes for a TM whose language has the property.
+* (p397) A *property* of the RE languages is simply a set of RE languages
+* (p397) A property is *trivial* if it is either empty, or is all RE languages. Otherwise it is *nontrivial*
+* (p399) Rice's theorem does not imply that everything about a TM is undecidable. For instance, questions that ask about the states of the TM, rather than about the language it accepts, could be decidable
+* (p401) An instance of Post's Correspondence Problem (PCP) consists of two lists of strings over some alphabet $\Sigma$; the two lists must be of equal length. We generally refer to the A and B lists, and write $A = w_1, w_2, ..., w_k$ and $B = x_1, x_2, ..., x_k$, for some integer k. For each i, the pair $(w_i, x_i)$ is said to be a corresponding pair. We say this instance of PCP has a solution, if there is a sequence of one or more integer $i_1, i_2, ..., i_m$ that, when interpreted as indexes for strings in the A and B lists, yield the same string. That is, $w_{i_1} w_{i_2} \cdots w_{i_m} = x_{i_1} x_{i_2} \cdots x_{i_m}$. We say the sequence $i_1, i_2, ..., i_m$ is a solution to this instance of PCP
 
 # See also
 
