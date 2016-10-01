@@ -166,6 +166,57 @@ $\require{extpfeil}\Newextarrow{\xRightarrow}{5,5}{0x21D2}$
 * (p397) A property is *trivial* if it is either empty, or is all RE languages. Otherwise it is *nontrivial*
 * (p399) Rice's theorem does not imply that everything about a TM is undecidable. For instance, questions that ask about the states of the TM, rather than about the language it accepts, could be decidable
 * (p401) An instance of Post's Correspondence Problem (PCP) consists of two lists of strings over some alphabet $\Sigma$; the two lists must be of equal length. We generally refer to the A and B lists, and write $A = w_1, w_2, ..., w_k$ and $B = x_1, x_2, ..., x_k$, for some integer k. For each i, the pair $(w_i, x_i)$ is said to be a corresponding pair. We say this instance of PCP has a solution, if there is a sequence of one or more integer $i_1, i_2, ..., i_m$ that, when interpreted as indexes for strings in the A and B lists, yield the same string. That is, $w_{i_1} w_{i_2} \cdots w_{i_m} = x_{i_1} x_{i_2} \cdots x_{i_m}$. We say the sequence $i_1, i_2, ..., i_m$ is a solution to this instance of PCP
+* (p407) Rules:
+	1. The first pair is
+
+	| List A | List B |
+	|--------|--------|
+	| $\#$   | $\#q_0w\#$ |
+
+	where $w$ is the initial input
+
+	2. Add tape symbols and the separator # to both list
+
+	| List A | List B |
+	|--------|--------|
+	| X | X |
+	| Y | Y |
+	| $\#$ | $\#$ |
+
+	3. For each non-terminating transition, create an entry in the list. When the tape is moved to the left, we have to consider all terminal symbols that may lie on the left.
+
+	| List A | List B | |
+	|--------|--------|-|
+	| qX | Yp | if $\delta(q, X) = (p, Y, R)$ |
+	| XqX | pXZ | if $\delta(q, X) = (p, Z, L)$ |
+	| XqY | pXZ | if $\delta(q, Y) = (p, Z, L)$ |
+	| q# | Yp# | if $\delta(q, B) = (p, Y, R)$ |
+	| Xq# | pXY# | if $\delta(q, B) = (p, Y, L)$ |
+	| Yq# | pYY# | if $\delta(q, B) = (p, Y, L)$ |
+
+	4. Complete the partial solution. For all tape symbols
+
+	| List A | List B |
+	|--------|--------|
+	| XqX | q |
+	| XqY | q |
+	| YqX | q |
+	| YqY | q|
+	| Xq | q |
+	| Yq | q |
+	| qX | q |
+	| qY | q |
+
+	5. Once the final state has consumed all tape symbols, it stands alone as the last ID on the B string
+
+	| List A | List B |
+	|--------|--------|
+	| q## | # |
+
+* (p411) Post's Correspondence Problem is undecidable
+* (p415) It is undecidable whether a context-free grammar is ambiguous
+* (p419) The languages accepted by Turing machines are called recursively enumerable (RE), and the subset of RE languages that are accepted by a TM that always halts are called recursive
+* (p419) The recursive languages are closed under complementation, and if a language and its complement are both RE, then both languages are actually recursive. Thus, the complement of an RE-but-not-recursive language can never be RE.
 
 # See also
 
