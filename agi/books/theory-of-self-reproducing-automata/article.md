@@ -185,6 +185,22 @@ Thus logics and mathematics in the central nervous system, when viewed as langua
 * (p176) This decoding organ has the symbol ${\bf D}(\overline{i^1 \cdots i^n})$. The sequence $\overline{i^1 \cdots i^n}$, which can be prescribed at will, is its characteristic, and n is its order
 * (p191) The coded channel performs a function which is necessitated by the peculiar narrowness of 2-dimensional space
 * (p192) A multiple line-crossing organ that would be universally useful may be described as follows. It is a rectangular area A, on whose periphery there are various inputs and outputs. Every input is designated by a symbol $a_{\nu}$, $\nu = 1, \cdots, n$; every output is designated by a symbol $b_{\nu}$, $\nu = 1, \cdots, n$. There may be several $a_{\nu}$ with the same $\nu$, and there may be several $a_{\nu}$ with the same $\nu$. The order in which all of these $a_{\nu}$ and $b_{\nu}$ are arranged around the periphery of A may be prescribed in any manner whatsoever. It is desired that upon stimulation of an $a_{\nu}$ all the $b_{\nu}$'s (with the same $\nu$) should respond, with appropriate (and not necessarily equal) delays
+* (p193) The obvious way to achieve this (signal crossing) is by coding and decoding
+
+## Design of a tape and its control
+* (p201) The following units are involved in the tape and its control
+	* A linear array $\bf L$ for storing information: "zero" is represented in cell $x_n$ by state $\bf U$ and "one" is represented by state $\downarrow 0$
+	* A connecting loop $\bf C_1$ for reading an arbitrary cell $x_n$
+	* A timing loop $\bf C_2$, used in modifying the length of the connecting loop $\bf C_1$
+	* A memory control $\bf MC$, used to control the operations of $\bf L$, $\bf C_1$ and $\bf C_2$
+	* The constructing unit $\bf CU$, which controls $\bf MC$
+* (p201) The constructing unit $\bf CU$ sends a pulse to the memory control $\bf MC$ signifying that cell $x_n$ is to be read. This pulse causes the sequence $\overline{10101}$ to enter the connecting loop $\bf C_1$. The sequence $\overline{10101}$ then enters cell $x_n$ with the following effect:
+	* if $x_n$ is in state $\bf U$ the sequence $\overline{1010}$ changes it into state $\downarrow 0$ and $\overline{1}$ returns to $\bf MC$
+	* if $x_n$ is in state $\downarrow 0$ the whole sequence $\overline{10101}$ returns to $\bf MC$
+* (p201) A $\overline{1}$ vs $\overline{10101}$ discriminator $\Psi$ detects the output and informs the constructing unit $\bf CU$ whether $x_n$ stored a "zero" or a "one." In either case cell $x_n$ is left in state $\downarrow 0$
+* (p201) The constructing unit $\bf CU$ then tells the memory control $\bf MC$ whether the loop $\bf C_1$ is to be lengthened so as to pass through cell $x_{n+1}$ or shortened so as to pass through cell $x_{n-1}$, and whether cell $x_n$ is to be left in state $\bf U$ ("zero") or $\downarrow 0$ ("one"). Loop $\bf C_1$ is used to time the lengthening (or shortening) of loop $\bf C_2$. Then loop $\bf C_2$ is used to time the lengthening (or shortening) of loop $\bf C_1$. The new bit of information is written in cell $x_n$ while loop $\bf C_1$ is being lengthened (or shortened). At the end of the whole process the memory control $\bf MC$ sends a finish signal to the constructing unit $\bf CU$
+* (p202) The primary purpose of $\bf CU$ is to carry out the construction of a secondary automaton whose description is stored in $\bf L$
+* (p203) In order to make the external memory $\bf L$ useful, it is necessary to construct the means for "exploring" L. This "exploration" includes reading $\bf L$ at any prescribed place, and also altering it in any desired way at any prescribed place
 
 # See also
 
