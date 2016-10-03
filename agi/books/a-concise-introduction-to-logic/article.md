@@ -401,6 +401,28 @@ taxonomy:
 * Any categorical syllogism that breaks one of the first four rules is invalid from the Aristotelian standpoint
 * The critical term is the one that is superfluously distributed. In other words, it is the term that, in the premises, is distributed in more occurrences than is necessary for the syllogism to obey the first two rules
 
+## 5.6 Ethymemes
+* An enthymeme is an argument that is expressible as a categorical syllogism but that is missing a premise or a conclusion
+* Any enthymeme that contains an indicator word is missing a premise
+
+## 5.7 Sorites
+* A sorites is a chain of categorical syllogisms in which the intermediate conclusions have been left out
+* The rule in evaluating a sorites is based on the idea that a chain is only as strong as its weakest link. If any of the component syllogisms in a sorites is invalid, the entire sorites is invalid
+* A standard-form sorites is one in which each of the component propositions is in standard form, each term occurs twice, the predicate of the conclusion is in the first premise, and each successive premise has a term in common with the preceding one
+* Two techniques for testing a sorites for validity
+	* Technique 1
+		* Put the sorites into standard form
+		* Introduce the intermediate conclusions
+		* Test each component syllogism for validity
+	* Technique 2
+		* Each of the middle terms must be distributed at least once
+		* If a term is distributed in the conclusion, then it must be distributed in a premise
+		* Two negative premises are not allowed
+		* A negative premise requires a negative conclusion, and a negative conclusion requires a negative premise
+		* If all the premises are universal, the conclusion cannot be particular
+* Any sorites having more than one negative premise is invalid, and any sorites having a negative premise and an affirmative conclusion is invalid
+* As with syllogisms, any sorites having more than one particular premise is invalid
+
 # See also
 
 # Sources
