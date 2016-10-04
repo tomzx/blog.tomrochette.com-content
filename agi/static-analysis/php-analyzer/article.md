@@ -30,11 +30,11 @@ This analysis is based on [the legacy branch of PHP Analyzer, commit 896beb2d70]
 	* The analysis consist of running each pass over all the given files
 
 # Bootstrap
-The collection of files to be parsed and analyzer is obtained by filtering a given directory.
+The collection of files to be parsed and analyzed is obtained by filtering a given directory.
 
-Upon a PHP file being read, it is parsed/traversed and preprocessed (types are fully qualified and normalizes nodes according to PHP Analyzer).
+Upon a PHP file being read, it is parsed/traversed and preprocessed (types namespace are fully qualified and nodes are normalized according to PHP Analyzer).
 
-Normalizing is actually encapsulating PHP-Parser nodes that have statements within a `BlockNode` (simply an array wrapper) as well as injecting the imported classes in the namespace node. Both of these could probably have been done in a initializing pass.
+Normalizing encapsulates PHP-Parser nodes that have statements within a `BlockNode` (simply an array wrapper) as well as injecting the imported classes in the namespace node. Both of these could probably have been done in a initializing pass.
 
 Finally, a second traversal is done in order to connect nodes together (set their parent and siblings (previous/next)).
 
