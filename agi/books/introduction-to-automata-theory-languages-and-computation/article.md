@@ -218,6 +218,23 @@ $\require{extpfeil}\Newextarrow{\xRightarrow}{5,5}{0x21D2}$
 * (p419) The languages accepted by Turing machines are called recursively enumerable (RE), and the subset of RE languages that are accepted by a TM that always halts are called recursive
 * (p419) The recursive languages are closed under complementation, and if a language and its complement are both RE, then both languages are actually recursive. Thus, the complement of an RE-but-not-recursive language can never be RE.
 
+## Chapter 10 - Intractable problems
+* (p425) Experience has shown that the dividing line between problems that can be solved in polynomial time and those that require exponential time or more is quite fundamental. Practical problems requiring polynomial time are almost always solvable in an amount of time that we can tolerate, while those that require exponential time generally cannot be solved except for small instances
+* (p426) $\mathcal{P}$ problems solvable in polynomial time by deterministic TMs
+* (p426) $\mathcal{NP}$ problems solvable in polynomial time by nondeterministic TMs
+* (p426) A Turing machine M is said to be of time complexity T(n) if whenever M is given an input w of length n, M halts after making at most T(n) moves, regardless of whether or not M accepts
+* (p431) We say a language L is in the class $\mathcal{NP}$ if there is a nondeterministic TM M and a polynomial time complexity T(n) such that L = L(M),and when M is given an input of length n, there are no sequences of more than T(n) moves of M
+* (p433) Our principal metholody for proving that a problem $P_2$ cannot be solved in polynomial time (i.e., $P_2$ is not in $\mathcal{P}$) is the reduction of a problem $P_1$, which is known not to be in $\mathcal{P}$, to $P_2$
+* (p434) In the theory of intractability we shall use polynomial-time reductions only. A reduction from $P_1$ to $P_2$ is polynomial-time if it takes time that is some polynomial in the length of the $P_1$ instance. Note that as a consequence, the $P_2$ instance will be of length that is polynomial in the length of the $P_1$ instance
+* (p434) Let L be a language (problem). We say L is NP-complete if the following statements are true about L:
+	* L is in $\mathcal{NP}$
+	* For every language L' in $\mathcal{NP}$ there is a polynomial-time reduction of L' to L
+* (p434) Since it appears that $\mathcal{P} \not= \mathcal{NP}$, and in particular, all NP-complete problems are in $\mathcal{NP} - \mathcal{P}$, we generally view a proof of NP-completeness for a problem as a proof that the problem is not in $\mathcal{P}$
+* (p434) If $P_1$ is NP-complete, $P_2$ is in $\mathcal{NP}$, and there is a polynomial-time reduction of $P_1$ to $P_2$, then $P_2$ is NP-complete
+* (p435) If some NP-complete problem P is in $\mathcal{P}$, then $\mathcal{P} = \mathcal{NP}$
+* (p439) The satisfiability problem is: Given a boolean expression, is it satisfiable (can be it true)?
+* (p440) (Cook's Theorem) SAT is NP-complete
+
 # See also
 
 # Sources
