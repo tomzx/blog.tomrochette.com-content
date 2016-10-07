@@ -201,6 +201,14 @@ Thus logics and mathematics in the central nervous system, when viewed as langua
 * (p201) The constructing unit $\bf CU$ then tells the memory control $\bf MC$ whether the loop $\bf C_1$ is to be lengthened so as to pass through cell $x_{n+1}$ or shortened so as to pass through cell $x_{n-1}$, and whether cell $x_n$ is to be left in state $\bf U$ ("zero") or $\downarrow 0$ ("one"). Loop $\bf C_1$ is used to time the lengthening (or shortening) of loop $\bf C_2$. Then loop $\bf C_2$ is used to time the lengthening (or shortening) of loop $\bf C_1$. The new bit of information is written in cell $x_n$ while loop $\bf C_1$ is being lengthened (or shortened). At the end of the whole process the memory control $\bf MC$ sends a finish signal to the constructing unit $\bf CU$
 * (p202) The primary purpose of $\bf CU$ is to carry out the construction of a secondary automaton whose description is stored in $\bf L$
 * (p203) In order to make the external memory $\bf L$ useful, it is necessary to construct the means for "exploring" L. This "exploration" includes reading $\bf L$ at any prescribed place, and also altering it in any desired way at any prescribed place
+* (p208) The linear array $\bf L$ is a linear sequence of cells $x_n, n = 0, 1, 2, \dots$. We assume it to be horizontal, extending, and numbered, from left to right. We assume furthermore that $\bf MC$ lies to the left of $\bf L$
+* (p208) The obvious way for reading cell $x_n$ consists of having a line of ordinary transmission states leading to it from $\bf MC$, and then back from it to $\bf MC$
+* (p208) Cell $x_n$ can be "read" by sending a stimulus into the $\bf C_1$ loop at its entry $v_1$, and observing what emerges at its exist $w_1$
+* (p224) Altering $x_n$ in $\bf L$ (this procedure is done when lengthening or shortening $\bf L$, but here we describe the basic idea)
+	* Modify the upper line from  $0 \atop \rightarrow$ into $1 \atop \rightarrow$ until n-1 is reached
+	* Modify the cell above n into $\downarrow 1$
+	* Toggle the $x_n$ cell
+	* Convert back the top row cells from $\downarrow 1$ to $\downarrow 0$ and $1 \atop \rightarrow$ to $0 \atop \rightarrow$
 
 # See also
 
