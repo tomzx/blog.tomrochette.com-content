@@ -209,6 +209,12 @@ Thus logics and mathematics in the central nervous system, when viewed as langua
 	* Modify the cell above n into $\downarrow 1$
 	* Toggle the $x_n$ cell
 	* Convert back the top row cells from $\downarrow 1$ to $\downarrow 0$ and $1 \atop \rightarrow$ to $0 \atop \rightarrow$
+* (p226) The most important part of $\bf MC$ are the read-write-erase unit $\bf RWE$ and its control $\bf RWEC$
+* (p227) The $\bf RWEC$ contains 16 control units $\bf CO$; each $\bf CO$ contains a $\bf PP(\overline{\overline{1}})$ which is active while that $\bf CO$ is in control. The $\bf RWEC$ also contains four $\bf PP(\overline{\overline{1}})$ which are used to store the bit which is to be written in cell $x_n$
+* (p228) The basic operation of reading, writing, and lengthening (or shortening) the loops $\bf C_1$ and $\bf C_2$ is carried out in two stages. First, $\bf CU$ sends a signal to $\bf MC$ telling it to read; $\bf MC$ then reads cells $x_n$ and sends the result to $\bf CU$. Second, $\bf CU$ sends signals to $\bf MC$ telling it what to write in cell $x_n$ and whether to lengthen or shorten the loops $\bf C_1$ and $\bf C_2$; $\bf MC$ then executes these instructions and sends a completion signal to $\bf CU$
+* (p266) A Turing machine has two main parts: a tape unit with an indefinite memory capacity, and a finite automaton which can interact with this tape unit
+* (p266) A constructing automaton has two corresponding parts: a tape unit $\bf MC + L$ and a constructing unit $\bf CU$ which directs the construction of a secondary automaton on the basis of the information stored in $\bf L$. Thus $\bf CU$ is a finite automaton which interacts with the tape unit and also performs the function of construction
+* (p270) Any abitrary Turing machine can be embedded as an initially quiescent automaton, and a fortiori a universal Turing machine can be embedded as an initially quiescent automaton
 
 # See also
 
