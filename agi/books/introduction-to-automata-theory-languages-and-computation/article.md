@@ -234,6 +234,20 @@ $\require{extpfeil}\Newextarrow{\xRightarrow}{5,5}{0x21D2}$
 * (p435) If some NP-complete problem P is in $\mathcal{P}$, then $\mathcal{P} = \mathcal{NP}$
 * (p439) The satisfiability problem is: Given a boolean expression, is it satisfiable (can be it true)?
 * (p440) (Cook's Theorem) SAT is NP-complete
+* (p447) 3SAT is still a problem about satisfiability of boolean expressions, but these expressions have a very regular form: they are the AND of "clauses," each of which is the OR of exactly three variables or negated variables
+* (p448) A boolean expression is said to be in conjunctive normal form or CNF, if it is the AND of clauses
+* (p448) An expression is said to be in k-conjunctive normal form (k-CNF) if it is the product of clauses, each of which is the sum of exactly k distinct literals
+	* Ex. (x + y)(y + z) => 2-CNF
+	* (x + y + z)(a + b + c) => 3-CNF
+* (p450) Every boolean expression E is equivalent to an expression F in which the only negations occur in literals; i.e., they apply directly to variables. Moreover, the length of F is linear in the number of symbols of E, and F can be constructed from E in polynomial time
+* (p451) CSAT is NP-complete
+* (p457) 3SAT is NP-complete
+* (p458) When we discover a problem to be NP-complete, it tells us that there is little chance an efficient algorithm can be developed to solve it
+* (p459) As we introduce new NP-complete problems, we shall use a stylized form of definition, as follows:
+	* The name of the problem, and usually an abbreviation
+	* The input to the problem: what is represented, and how
+	* The output desired: under what circumstances should the output be "yes"?
+	* The problem from which a reduction is made to prove the problem NP-complete
 
 # See also
 
