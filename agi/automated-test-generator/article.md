@@ -11,6 +11,9 @@ taxonomy:
 ## Learned in this study
 
 ## Things to explore
+* How to reflect on laravel-like proxy classes which can be mocked on demand?
+* How do you represent knowledge such as $a === $b, or is_null($x) => true if $x is null
+	* Is a lookup table good enough?
 
 # Overview
 * Specify extended class (defaults to \PHPUnit_Framework_TestCase)
@@ -37,27 +40,117 @@ taxonomy:
 
 * Phpstorm call a script on file save (generate test file for saved file)
 
-## Cases
-### Block
+# Analysis
+## Blocks
+### Code
 ```php
 {
 
 }
 ```
 
+### Notes
 * Depending on the language, the block should indicate that variables initialized within the block are scoped to this block, in other words, when we reach the end of the block, the variable is not available anymore
 	* However, in languages like php, a variable is considered live until the end of the function, or if `unset()` was called with the variable as an argument
 
-### Conditions
+## Conditions
+### Code
 ```php
 if ($a === $b && $c === $d) {
 
 }
 ```
 
+### Notes
 * Conditions can first be seen as true/false cases, which may hide more complex boolean logic
 
-### Function
+## Sequential conditions
+### Code
+```php
+if ($a) {
+
+}
+if ($b) {
+
+}
+```
+
+### Statements
+| a | b |
+|---|---|
+| T | T |
+
+### Branches
+| a | b |
+|---|---|
+| T | T |
+| F | F |
+
+### Path
+| a | b |
+|---|---|
+| F | F |
+| F | T |
+| T | F |
+| T | T |
+
+## Nested conditions
+### Code
+```php
+if ($a) {
+	if ($b) {
+
+	}
+}
+```
+
+### Statements
+| a | b |
+|---|---|
+| T | T |
+
+### Branches
+| a | b |
+|---|---|
+| T | T |
+| F | x |
+
+As soon as `$a` is false, the value of `$b` does not matter.
+
+### Path
+| a | b |
+|---|---|
+| F | x |
+| T | F |
+| T | T |
+
+As soon as `$a` is false, the value of `$b` does not matter.
+
+## Loops
+### Code
+```php
+for ($i = 0; $i < 100; ++$i) {
+
+}
+
+while (--$i) {
+
+}
+
+do {
+
+} while (--$i);
+
+foreach ($a as $b) {
+
+}
+```
+
+### Notes
+* Loops present a condition, and thus present the same challenges (sequential loops and nested loops)
+
+## Functions
+### Code
 ```php
 function a() {
 	b();
@@ -72,7 +165,36 @@ function c() {
 }
 ```
 
+### Notes
 *
+
+# My testing process
+* Select a class to create tests for
+* Create a setUp method which will instantiate the class with the appropriate dependencies as mocks
+* Enumerate all public methods
+* Determinate all "manipulation" methods, that is, methods which can be used to alter the internal state of the object (generally setters)
+* For each public method, inspect the internal working
+	* For each condition in the execution of a public method, create 2 tests, one when it is true and one when it is false
+	* When a mock function is called, expect (test) the given argument
+
+## MVCSR architecture
+## Model
+* Mostly getter/setter logic
+* Test default values (track changes)
+
+## Controller
+* Services dependencies are injected during the `setUp()`
+* Should test the type of the returned data (view vs JSON)
+* Should check the JSON top-level keys if an object is returned
+
+## View
+Not tested.
+
+## Service
+* Services and repositories dependencies are injected during the `setUp()`
+
+## Repository
+Not tested.
 
 # Things to implement
 * Control flow analysis
@@ -85,7 +207,7 @@ function c() {
 	* Backward analysis
 		* Live variables analysis
 		* Very busy expressions
-* Abtract interpretation
+* Abstract interpretation
 * Variable reachability
 * Call graph analysis
 * Type safety check
@@ -93,6 +215,19 @@ function c() {
 * Security analysi
 * Traces (show what variables look like given a specific case)
 * Construct database (function, interface, class, trait, method, property, constant, variable)
+* Array logic (implement reverse functions, some methods being very complicated to implement, such as the reverse to map/reduce)
+* String logic (implement reverse functions)
+
+## Very difficult
+* Array logic
+* String logic
+
+# Coverage level
+* $C_0$ Statement
+* Segment
+* $C_1$ Branch
+* $C_{1p}$ Multiple condition
+* $C_\infty$ Path
 
 # To consider
 * Exception handling
@@ -111,7 +246,27 @@ function c() {
 * Create a truth table using all the expressions in the condition
 * Build a data flow graph
 * Find the flow of instructions using/assigning to variables in the condition from the function entry point to the condition
+	* This may be quite difficult for objects as we may most likely need to find where we can inject values to set the class properties
 * Use a SAT solver
+
+## Cover all statements/branch/paths
+* Find all conditions (that are expression driven, not based on constants)
+* Depending on the level of coverage you want, generate appropriate condition values (true/false)
+	* It may happen that some cases are impossible (dead code)
+* In the simplest cases, the variables used in conditions are the parameters of the function and they are not modified in the path from the function entry point to the condition
+* In more complicated cases, the variable gets modified in the path from the function entry point to the condition. It is then necessary to build the inverse function, such that given a truth value, we are given the parameter value to use
+
+### Alternative
+* Replace variable with expression
+
+# Development iterations
+* No loop support (only if/elseif/else, make sure that loops evaluate to false)
+	* List all conditions
+	* Trace all conditions
+* Switch support
+* Loop support (while/do/for)
+	*
+* Iterator support (foreach)
 
 # Dependencies
 * [PHPUnit](https://github.com/sebastianbergmann/phpunit)
@@ -119,6 +274,8 @@ function c() {
 * [nikic/PHP-Parser](https://github.com/nikic/PHP-Parser)
 
 # See also
+* [Automated programming](../automated-programming)
+* [Automated refactoring](../automated-refactoring)
 
 # Sources
 * http://cseweb.ucsd.edu/classes/sp00/cse231/report/node13.html
