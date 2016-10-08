@@ -423,6 +423,28 @@ taxonomy:
 * Any sorites having more than one negative premise is invalid, and any sorites having a negative premise and an affirmative conclusion is invalid
 * As with syllogisms, any sorites having more than one particular premise is invalid
 
+## Chapter 6 - Propositional Logic
+## 6.1 Symbols and Translation
+* Five logical operators:
+	* ~: negation (not, it is not the case that)
+	* $\bullet$/$\wedge$: conjunction (and, also, moreover)
+	* $\vee$: disjunction (or, unless)
+	* $\supset$: implication (if ... then ..., only if)
+	* $\equiv$: equivalence (if and only if)
+* The main operator is the operator that has as its scope everything else in the statement
+* Event A is said to be a sufficient condition for event B whenever the occurrence of A is all that is required for the occurrence of B
+* Event A is said to be a necessary condition for B whenever B cannot occur without the occurrence of A
+* Sufficient $\supset$ Necessary
+* A well-formed formula is a syntactically correct arrangement of symbols
+* Statements cannot be combined without an operator occurring between them
+* A tilde cannot immediately follow a statement, but it can immediately precede any statement (except when it immediately follows a statement)
+* A dot, wedge, horseshoe, or triple bar must go immediately between statements
+* Parentheses, brackets, and braces must be inserted to prevent ambiguity
+
+## 6.2 Truth Functions
+* A truth function is any compound proposition whose truth value is completely determined by the truth values of its components
+* A statement form is an arrangement of statement variables and operators such that the uniform substitution of statements in place of the variables results in a statement
+
 # See also
 
 # Sources
