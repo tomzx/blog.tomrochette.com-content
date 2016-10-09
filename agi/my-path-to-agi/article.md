@@ -195,6 +195,12 @@ Melanie Mitchell
 ### Minds, Machines and Gödel (2016-05)
 J.R. Lucas
 
+### Automated programming (2016-06 - ?)
+Began research related to automated programming. The main goal is to determine what is doable at the moment (based on current knowledge of the field).
+
+### Automated refactoring (2016-06 - ?)
+Began research related to automated refactoring. The main goal is to determine a list of refactoring tools that can be developed to simplify the job of refactoring of programmers.
+
 ### Approaches to Automatic Programming (2016-06)
 Alan Biermann
 
@@ -241,6 +247,9 @@ Brian Smith
 
 ### Artificial Intelligence -- a personal view (2016-07)
 David Marr
+
+### Automated research (2016-08 - ?)
+Began research related to automated research. The main goal is to determine a basic research flow and automate most of the process (researching papers, establishing important papers, determine a reading order, create a wordcloud of the most important terms, define which papers cite which papers, etc.).
 
 ### Introduction to Automata Theory, Languages, and Computation (2016-08 - ?)
  John E. Hopcroft
@@ -289,3 +298,9 @@ Marcus Hutter
 
 ### A Complete Theory of Everything (will be subjective) (2016-09 - ?)
 Marcus Hutter
+
+### Automated test generator (2016-09 - ?)
+Began research related to automated test generator. The main goal of this project is to use the knowledge I've acquired thinking about automated programming and refactoring and attempt to apply it to test generation. One of the goals is to develop a tool which will automate most of the process of testing PHP OOP code, specifically MVC-oriented websites using frameworks such as Laravel or Symfony.
+
+### Static analysis (2016-09 - ?)
+My research into static analysis is related to my research on automated programming, automated refactoring and automated test generator. The main goal is to produce a piece of software that will be able to reason as a programmer would reason about a program in his head.
