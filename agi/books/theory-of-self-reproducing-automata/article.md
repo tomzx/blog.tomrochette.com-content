@@ -3,7 +3,7 @@ title: John von Neumann, Arthur W. Burks - Theory of self-reproducing automata (
 created: 2016-08-06
 taxonomy:
   category: [Artificial General Intelligence]
-  status: in progress
+  status: finished
 ---
 
 ## Context
@@ -215,6 +215,25 @@ Thus logics and mathematics in the central nervous system, when viewed as langua
 * (p266) A Turing machine has two main parts: a tape unit with an indefinite memory capacity, and a finite automaton which can interact with this tape unit
 * (p266) A constructing automaton has two corresponding parts: a tape unit $\bf MC + L$ and a constructing unit $\bf CU$ which directs the construction of a secondary automaton on the basis of the information stored in $\bf L$. Thus $\bf CU$ is a finite automaton which interacts with the tape unit and also performs the function of construction
 * (p270) Any abitrary Turing machine can be embedded as an initially quiescent automaton, and a fortiori a universal Turing machine can be embedded as an initially quiescent automaton
+* (p271) Von Neumann's universal constructing automaton consists of a constructing unit $\bf CU$ combined with a tape unit $\bf MC + L$. He calls this the "primary automaton," and he calls the initially quiescent automaton to be constructed the "secondary automaton"
+* (p272) The primary automaton operates on the (possibly remote) secondary area by means of a "constructing arm" or information path which extends from the primary automaton to the secondary area.
+	* The constructing unit $\bf CU$ first builds the constructing arm out to the secondary area.
+	* Then $\bf CU$ sends signals down the arm which construct the secondary automaton and provide its starting stimulus
+	* Finally, $\bf CU$ withdraws the constructing arm
+* (p275) Five operations for the constructing arm:
+	* Horizontal advance
+	* Vertical advance
+	* Horizontal retreat with $\gamma-\delta$
+	* Vertical retreat with $\gamma-\delta$
+	* Injection of the starting stimulus
+* (p279) At this point I should like to speculate on von Neumann's thoughts concerning his design for a self-reproducing automaton at the time he stopped working on the manuscript. His design had turned out to be much more complex than he had anticipated. After developing his two-path construction procedure, he must have realized that it could be used on $\bf L$, and that this would greatly simplify the design of $\bf MC$ and of the whole machine. Realizing this, he would have wanted to redesign is self-reproducing automaton along new lines
+* (p280) The information concerning the location and size of the secondary automaton, as well as a complete description of the secondary automaton, is stored on the linear array $\bf L$.
+	* First comes a period.
+	* Then come the location and size parameters $\x_1$, $y_1$, $\alpha$, and $\beta$, each followed by a comma
+	* Next comes the sequence of $\lambda_{i, j}$'s describing the secondary automaton cell by cell, for $i = 0, \cdots, \alpha - 1$ and $j = 0, \cdots, \beta - 1$
+	* The sequence of $\lambda_{i, j}$'s is terminated by a period, which also marks the end of the information on the tape
+* (p290) If part of the secondary automaton were active during construction, it could interfere with the construction process. Von Neumann solved this problem by stipulating that the initial state of the secondary automaton is to be composed entirely of quiescent states. After the secondary automaton has been completed, it may be rendered active by a starting stimulus injected into its periphery
+* (p291) The class of automata constructible by the universal constructing automaton is a proper subclass of the automata which can be specified as part of an initial cell assignment of von Neumann's cellular structure
 
 # See also
 
