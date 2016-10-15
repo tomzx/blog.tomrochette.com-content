@@ -248,6 +248,26 @@ $\require{extpfeil}\Newextarrow{\xRightarrow}{5,5}{0x21D2}$
 	* The input to the problem: what is represented, and how
 	* The output desired: under what circumstances should the output be "yes"?
 	* The problem from which a reduction is made to prove the problem NP-complete
+* (p478) NP-Complete problems:
+	* SAT, CSAT, 3SAT
+	* Independent set
+	* Node cover
+	* Directed and undirected versions of the Hamilton circuit problem
+	* Traveling-salesman problem
+
+## Chapter 11 - Additional Classes of Problems
+* co-$\mathcal{NP}$: The class of complements of $\mathcal{NP}$ languages
+* $\mathcal{PS}$: All the problems that can be solved by a Turing machine using an amount of tape that is polynomial in the length of its input and is allowed to use an exponential amount of time, as long as they stay within a limited region of the tape
+* $\mathcal{RP}$: Languages that have an algorithm that runs in polynomial time, using some "coin flipping" or (in practice) a random-number generator. The algorithm either confirms membership of the input in the language, or says "I don't know". Moreover, if the input is in the language, then there is some probability greater than 0 that the algorithm will report success, so repeated application of the algorithm will, with probability approaching 1, confirm membership
+* $\mathcal{ZPP}$ (zero-error, probabilistic polynomial): Algorithms for languages in this class either say "yes" the input is in the language, or "no" it is not. The expected running time of the algorithm is polynomial. However, there might be runs of the algorithm that take more time than would be allowed by any polynomial bound
+* (p488) $\mathcal{P} \subseteq \mathcal{PS}$, $\mathcal{NP} \subseteq \mathcal{NPS}$, $\mathcal{PS} = \mathcal{NPS}$, $\mathcal{P} \subseteq \mathcal{NP} \subseteq \mathcal{PS}$
+* (p492) We define a problem P to be complete for $\mathcal{PS}$ (PS-complete) if:
+	* P is in $\mathcal{PS}$
+	* All languages L in $\mathcal{PS}$ are polynomial-time reducible to P
+* (p492) Suppose P is a PS-complete problem. Then:
+	* If P is in $\mathcal{P}$, then $\mathcal{P} = \mathcal{PS}$
+	* If P is in $\mathcal{NP}$m then $\mathcal{NP} = \mathcal{PS}$
+* (p493) A quantified boolean formula is a boolean expression with the addition of the operators $\forall$ ("for all") and $\exists$ ("there exists")
 
 # See also
 
