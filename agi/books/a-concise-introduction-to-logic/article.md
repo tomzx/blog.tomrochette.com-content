@@ -445,6 +445,20 @@ taxonomy:
 * A truth function is any compound proposition whose truth value is completely determined by the truth values of its components
 * A statement form is an arrangement of statement variables and operators such that the uniform substitution of statements in place of the variables results in a statement
 
+## 6.3 Truth Tables for Propositions
+* A compound statement is said to be logically true or tautologous statement if it is true regardless of the truth values of its components
+* It is said to be logically false of self-contradictory statement if it is false regardless of the truth values of its components
+* It is said to be a contingent statement if its truth value varies depending on the truth values of its components
+* Two propositions are said to be logically equivalent statements if they have the same truth value on each line under their main operators, and they are contradictory statements if they have opposite truth values on each line under their main operators
+* Two (or more) propositions are consistent statements if there is at least one line on which both (or all) of them turn out to be true, and they are inconsistent statements if there is no line on which both (or all) of them turtn out to be true
+
+## 6.4 Truth Tables for Arguments
+* A valid argument is one in which it is not possible for the premises to be true and the conclusion false
+* The conditional statement having the conjunction of an argument's premises as its antecedent and the conclusion as its consequent is called the argument's corresponding conditional
+
+## 6.5 Indirect Truth Tables
+* To construct an indirect truth table for an argument, we begin by assuming that the argument is invalid. If no contradiction is obtained in the process, this means that it is indeed possible for the premises to be true and the conclusion false, as originally assumed, so the argument is therefore invalid. If, however, the attempt to make the premises true and the conclusion false necessarily leads to a contradiction, it is not possible for the premises to be true and the conclusion false, in which case the argument is valid
+
 # See also
 
 # Sources
