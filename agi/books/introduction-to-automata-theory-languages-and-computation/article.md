@@ -3,7 +3,7 @@ title: Introduction to Automata Theory, Languages, and Computation - 2006
 created: 2016-07-30
 taxonomy:
   category: [Artificial General Intelligence]
-  status: in progress
+  status: finished
 ---
 $\require{extpfeil}\Newextarrow{\xRightarrow}{5,5}{0x21D2}$
 
@@ -258,7 +258,7 @@ $\require{extpfeil}\Newextarrow{\xRightarrow}{5,5}{0x21D2}$
 ## Chapter 11 - Additional Classes of Problems
 * co-$\mathcal{NP}$: The class of complements of $\mathcal{NP}$ languages
 * $\mathcal{PS}$: All the problems that can be solved by a Turing machine using an amount of tape that is polynomial in the length of its input and is allowed to use an exponential amount of time, as long as they stay within a limited region of the tape
-* $\mathcal{RP}$: Languages that have an algorithm that runs in polynomial time, using some "coin flipping" or (in practice) a random-number generator. The algorithm either confirms membership of the input in the language, or says "I don't know". Moreover, if the input is in the language, then there is some probability greater than 0 that the algorithm will report success, so repeated application of the algorithm will, with probability approaching 1, confirm membership
+* $\mathcal{RP}$ (random polynomial): Languages that have an algorithm that runs in polynomial time, using some "coin flipping" or (in practice) a random-number generator. The algorithm either confirms membership of the input in the language, or says "I don't know". Moreover, if the input is in the language, then there is some probability greater than 0 that the algorithm will report success, so repeated application of the algorithm will, with probability approaching 1, confirm membership
 * $\mathcal{ZPP}$ (zero-error, probabilistic polynomial): Algorithms for languages in this class either say "yes" the input is in the language, or "no" it is not. The expected running time of the algorithm is polynomial. However, there might be runs of the algorithm that take more time than would be allowed by any polynomial bound
 * (p488) $\mathcal{P} \subseteq \mathcal{PS}$, $\mathcal{NP} \subseteq \mathcal{NPS}$, $\mathcal{PS} = \mathcal{NPS}$, $\mathcal{P} \subseteq \mathcal{NP} \subseteq \mathcal{PS}$
 * (p492) We define a problem P to be complete for $\mathcal{PS}$ (PS-complete) if:
@@ -268,6 +268,19 @@ $\require{extpfeil}\Newextarrow{\xRightarrow}{5,5}{0x21D2}$
 	* If P is in $\mathcal{P}$, then $\mathcal{P} = \mathcal{PS}$
 	* If P is in $\mathcal{NP}$m then $\mathcal{NP} = \mathcal{PS}$
 * (p493) A quantified boolean formula is a boolean expression with the addition of the operators $\forall$ ("for all") and $\exists$ ("there exists")
+* (p496) The quanfied boolean formula problem: Given a QBF with no free variables, does it have the value 1?
+* (p497) QBF is in $\mathcal{PS}$
+* (p498) The problem QBF is PS-complete
+* (p506) To be in $\mathcal{RP}$, a language L must be accepted by a randomized TM M in the following sense:
+	* If w is not in L, then the probability that M accepts w is 0
+	* If w is in L, then the probability that M accepts w is at least 1/2
+	* There is a polynomial T(n) such that if input w is of length n, then all runs of M, regardless of the contents of the random tape, halt after at most T(n) steps
+	* Monte Carlo Turing machines
+* (p510) The definition of class $\mathcal{ZPP}$ is almost the same as the definition of $\mathcal{P}$, except that $\mathcal{ZPP}$ allows the behavior of the TM to involve randomness, and the expected running time, rather than the worst case running time is measured
+	* Las-Vegas Turing machines
+* (p510) $\mathcal{ZPP} = \mathcal{RP} \cap \mathrm{co-}\mathcal{RP}$
+* (p511) $\mathcal{P} \subseteq \mathcal{ZPP}$
+* (p511) $\mathcal{RP} \subseteq \mathcal{NP}$
 
 # See also
 
