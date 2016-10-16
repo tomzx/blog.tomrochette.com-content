@@ -458,6 +458,91 @@ taxonomy:
 
 ## 6.5 Indirect Truth Tables
 * To construct an indirect truth table for an argument, we begin by assuming that the argument is invalid. If no contradiction is obtained in the process, this means that it is indeed possible for the premises to be true and the conclusion false, as originally assumed, so the argument is therefore invalid. If, however, the attempt to make the premises true and the conclusion false necessarily leads to a contradiction, it is not possible for the premises to be true and the conclusion false, in which case the argument is valid
+* Testing statements for consistency: If we can find a case where the statements are all true and there is no contradiction, then the statements are consistent
+
+## 6.6 Argument Forms and Fallacies
+* An argument form is an arrangement of statement variables and operators such that the uniform substitution of statements in place of the variables results in an argument. The resulting argument is said to be a substitution instance of its related argument form
+
+### Disjunctive syllogism
+$$
+\frac{
+p \vee q \\
+\neg p
+}
+{q}
+$$
+
+### Pure hypothetical syllogism
+$$
+\frac{
+p \supset q \\
+q \supset r
+}
+{p \supset r}
+$$
+
+### Modus ponens (asserting mode)
+$$
+\frac{
+p \supset q \\
+p
+}
+{q}
+$$
+
+### Modus tollens (denying mode)
+$$
+\frac{
+p \supset q \\
+\neg q
+}
+{\neg p}
+$$
+
+### Affirming the consequent (invalid)
+$$
+\frac{
+p \supset q \\
+q
+}
+{p}
+$$
+
+### Denying the antecedant (invalid)
+$$
+\frac{
+p \supset q \\
+\neg p
+}
+{\neg q}
+$$
+
+### Constructive dilemma
+$$
+\frac{
+(p \supset q) \wedge (r \supset s) \\
+p \vee r
+}
+{q \vee s}
+$$
+
+### Destructive dilemma
+$$
+\frac{
+(p \supset q) \wedge (r \supset s) \\
+\neg q \vee \neg s
+}
+{\neg p \vee \neg r}
+$$
+
+### Refuting Constructive and Destructive Dilemmas
+* Since both forms are valid, the only direct mode of defense available to the opponent is to prove the dilemma unsound. This can be done by proving at least one of the premises false
+* If the conjunctive premise (otherwise called the "horns of the dilemma") is proven false, the opponent is said to have "grasped the dilemma by the horns". This is done by proving either one of the conditional statements false
+* If the disjunctive premise is proven false, the opponent is said to have "escaped between the horns of the dilemma". The strategy involves finding a third alternative that excludes the two that are given in the disjunctive premise
+* The strategy to be followed in refuting a dilemma is therefore this:
+	* Examine the disjunctive premise. If this premise is a tautology, attempt to grasp the dilemma by the horns by attacking one or the other of the conditional statements in the conjunctive premise
+	* If the disjunctive premise is not a tautology, then either escape between the horns by, perhaps, finding a third alternative, or grasp by the horns, whichever is easier
+* A third, indirect strategy for refuting a dilemma involves constructing a counter-dilemma. This is typically done by changing either the antecedants or the consequents of the conjunctive premise while leaving the disjunctive premise as it is, so as to obtain a different conclusion
 
 # See also
 
