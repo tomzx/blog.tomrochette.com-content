@@ -75,6 +75,9 @@ The following lists papers I've read and reviewed or made notes for.
 ## Open NARS
 * [The OpenNARS implementation of the Non-Axiomatic Reasoning System (2016)](the-opennars-implementation-of-the-non-axiomatic-reasoning-system)
 
+## Patrice Godefroid
+* [Automating Software Testing Using Program Analysis (2008)](patrice-godefroid-automating-software-testing-using-program-analysis)
+
 ## Pei Wang
 * [The Logic of Intelligence (2007)](pei-wang-the-logic-of-intelligence)
 

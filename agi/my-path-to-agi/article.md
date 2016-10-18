@@ -304,3 +304,6 @@ Began research related to automated test generator. The main goal of this projec
 
 ### Static analysis (2016-09 - ?)
 My research into static analysis is related to my research on automated programming, automated refactoring and automated test generator. The main goal is to produce a piece of software that will be able to reason as a programmer would reason about a program in his head.
+
+### Automating Software Testing Using Program Analysis (2016-10)
+Patrice Godefroid
