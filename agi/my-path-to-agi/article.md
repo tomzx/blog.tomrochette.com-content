@@ -251,12 +251,12 @@ David Marr
 ### Automated research (2016-08 - ?)
 Began research related to automated research. The main goal is to determine a basic research flow and automate most of the process (researching papers, establishing important papers, determine a reading order, create a wordcloud of the most important terms, define which papers cite which papers, etc.).
 
-### Introduction to Automata Theory, Languages, and Computation (2016-08 - ?)
+### Introduction to Automata Theory, Languages, and Computation (2016-08 - 2016-10)
  John E. Hopcroft
  Rajeev Motwani
  Jeffrey D. Ullman
 
-### Theory of self-reproducing automata (2016-08 - ?)
+### Theory of self-reproducing automata (2016-08 - 2016-10)
 John von Neumann
 
 ### From Seed AI to Technological Singularity via Recursively Self-Improving Software (2016-08)
