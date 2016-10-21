@@ -81,6 +81,11 @@ Tom
 
 * [A procedure for writing programs](a-procedure-for-writing-programs)
 * [AGI through Turing machines](agi-through-turing-machines)
+* [Automated programming](automated-programming)
+* [Automated refactoring](automated-refactoring)
+* [Automated research](automated-research)
+* [Automated test generator](automated-test-generator)
+* [Automatic template extraction](automatic-template-extraction)
 * [Databases](databases)
 * [Formal AGI](formal-agi)
 * [Machine learning concept map](https://github.com/tomzx/machine-learning-concept-map)
