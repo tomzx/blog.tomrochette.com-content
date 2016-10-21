@@ -97,6 +97,7 @@ One step further after having built a reference list is to build a reference gra
 By extracting authors from papers and their references, it is possible for us to build a list of researchers in a given domain, which can prove to be a useful tool if one wants to find resources that may be useful in their own research.
 
 ## Author reference graph generator
+As with the reference graph, the author reference graph is a visual representation that helps the researcher observe which author refers to which other authors. This can be an important tool to discover when there's only cross-referencing or very little external referencing in someone's work.
 
 # Features extraction
 In order to extract meaningful features out of scientific articles, we need to determine the features we are interested in. To do so, we inspect a small amount (~10/50) of articles and extract the elements we want to construct a database with.
