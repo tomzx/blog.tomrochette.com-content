@@ -307,3 +307,6 @@ My research into static analysis is related to my research on automated programm
 
 ### Automating Software Testing Using Program Analysis (2016-10)
 Patrice Godefroid
+
+### Software Testing: A Craftsman's Approach (2016-10 - ?)
+Paul Jorgensen
