@@ -27,17 +27,13 @@ Currently, such process is generally defined but certainly not globally accepted
 * How should information be fed into the system?
 	* Support only arxiv?
 
-# Known
-> The class of languages will be considered learnable with respect to the specified method of information presentation if there is an algorithm that the learner can use to make his guesses, the algorithm having the following property: Given any language of the class, there is some finite time after which the guesses will all be the same and they will be correct.[^1]
-
-Given there is a maximum amount of different reference formats, smaller than the number of all valid permutations of the different token types supported, it is thus possible to inductively build a grammar that will allow us to extract the information within the reference correctly, every time.
-
 # Overview
 In this article we explore the idea of automating scientifical research. We attempt to cover the various research phases such as papers retrieval, assessment of the domain, determination of the core papers and authors in the field, construction of a bibliography and more.
 
 The purpose of the automation process is to reduce the effort required for an individual to get into a (new) research field. The true endgoal would be to provide topics and receive new, genuine papers on the provided topic generated automatically by the computer through the agglomeration, analysis and synthesis of existing research.
 
-# General research procedure
+# Research procedure
+## General approach
 * The user defines a topic of interest (ex. artificial general intelligence)
 * Automatically
 	* Find papers related to the topic and download them
@@ -53,9 +49,54 @@ The purpose of the automation process is to reduce the effort required for an in
 	* Compile a list of the more prominent writers in the field/topic
 	* Create summaries of the different presented ideas with links to the related articles
 
-# Alternative approach
+## Alternative approach
 * Provide one or many papers which have been of interest to you
-	* Go through the general research procedure
+	* Go through the general approach
+
+# Components
+Here we attempt to list the necessary components that will be used during the research procedure.
+
+## Paper searcher
+Use various search engines in order to retrieve relevant papers. This has the obvious shortcoming that the quality of the papers retrieve is directly related with the quality of the search engines used.
+
+## File downloader
+Download papers of interest for further processing.
+
+## Text extractor
+As PDF is not a structured format, we need to extract the text content and attempt to build a logical view of it. At this point we only have a set of strings, which we will need to structure.
+
+## Paper extractor
+Using the text extracted previously, we run a program with various heuristics that will attempt to extract and structure the content of a paper.
+
+If papers were to follow a structured format convention, the text extractor and paper extractor would most likely be unnecessary components, except to process old papers that did not respect such convention.
+
+## Paper evaluator
+We attempt to evaluate the quality of a paper. This is based on various metrics such as:
+
+* Author "prestige" (number of referenced articles, number of references)
+* Number of references in the paper
+* Number of papers referencing this paper
+* etc.
+
+## Text summarizer
+In order to simplify the task of the human researcher, we attempt to build a summary of the paper (generally provided as the abstract).
+
+## Reference extractor
+An important component of papers are their references. They provide us with a list of manually and humanly assessed papers that are relevant to the currently analyzed paper.
+
+## Indexer
+As we process papers, we want to make sure not to reprocess already processed papers. This is the job of the indexer. Furthermore, it allows us to slowly build up an index/bibliography.
+
+## Reference list generator
+With numerous papers processed, we can now construct a list of all references that were extracted.
+
+## Reference graph generator
+One step further after having built a reference list is to build a reference graph. A reference graph is a visual representation of the papers refering to other papers.
+
+## Author list generator
+By extracting authors from papers and their references, it is possible for us to build a list of researchers in a given domain, which can prove to be a useful tool if one wants to find resources that may be useful in their own research.
+
+## Author reference graph generator
 
 # Features extraction
 In order to extract meaningful features out of scientific articles, we need to determine the features we are interested in. To do so, we inspect a small amount (~10/50) of articles and extract the elements we want to construct a database with.
@@ -96,8 +137,8 @@ In order to extract meaningful features out of scientific articles, we need to d
 	* To
 * Conference
 
-# Feature extraction procedures
-## Extraction of references from PDF documents
+## Feature extraction procedures
+### Extraction of references from PDF documents
 * Create a training set with labels
 * Build a tree of the different combinations based on the training data
 * Find a way to hierarchically express these combinations
@@ -123,6 +164,11 @@ Run the regex on the whole reference for each type of segment to extract, then a
 ## Solutions
 * Reformat the test data according to our format
 * Make test code generalize data
+
+# Known
+> The class of languages will be considered learnable with respect to the specified method of information presentation if there is an algorithm that the learner can use to make his guesses, the algorithm having the following property: Given any language of the class, there is some finite time after which the guesses will all be the same and they will be correct.[^1]
+
+Given there is a maximum amount of different reference formats, smaller than the number of all valid permutations of the different token types supported, it is thus possible to inductively build a grammar that will allow us to extract the information within the reference correctly, every time.
 
 # See also
 
