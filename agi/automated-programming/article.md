@@ -7,6 +7,7 @@ taxonomy:
 ---
 
 ## Context
+Automated programming has been a goal for computer scientist since the inception of the field. Being able to generate code either by providing examples of inputs/outputs or specification description is not without its share of difficulties. In this article, we explore the process of programming, with the objective of discovering what can be automated and how, and what causes serious difficulties.
 
 ## Learned in this study
 
@@ -17,6 +18,10 @@ taxonomy:
 * Task vs operation
 * Debugging/troubleshooting automation
 * How can the program synthesizer recognize that a data structure may need to be the composition of various other data structures?
+* Provide the program synthesizer with all the required functions, it just needs to "put the plumbing together" (call the functions in the right order and with the right parameters)
+	* What are the implications of such constraint?
+* Learn how to code from looking at commit comments and code changes
+* English description to function parts
 
 # Overview
 * The programmer provides pre-conditions and post-conditions
@@ -25,7 +30,7 @@ taxonomy:
 * Give examples (may not be straightforward for objects)
 * Use some sort of natural language/declarative (user-oriented) language to control oriented/procedural languages (use of conditionals)
 * Provide examples in order of complexity
-* The synthesizer is basically trying to build a proof for your examples, so it has to know the operation it can do and their impact on the state (see SHAKEY)
+* The synthesizer is basically trying to build a proof for your examples, so it has to know the operation it can do and their impact on the state (see [SHAKEY](https://en.wikipedia.org/wiki/Shakey_the_robot))
 * Many approaches are possible, namely forward search, backward search, bidirectional search
 * As there are many way to accomplish the same function, the first goal of the synthesizer should be to rapidly offer a working function to the user
 * Once said function has been discovered, the synthesizer may work with the user in order to improve the current solution
@@ -37,12 +42,13 @@ taxonomy:
 * How can the program synthesizer create a completely new function? What if this new function needs a set of other functions as well? Should it generate a single huge function and then refactor it into multiple functions or do that straight away?
 * How can the program synthesizer determine the functions it needs to use to solve a specific case?
 * How can we turn informal specification into a program?
+* What should happen if, given a set of existing functions, the synthesizer cannot build the requested function?
 
 # Keyword-based code identification
 * File identification: List all the files containing the given set of keywords
 * Evaluation of complexity based on the reach of these files (this implies that smaller, highly cohesive files are preferred as they reduce the reach)
 * Compile the list of terms (functions, classes) visible at this point
-* The program constructs a dictionary of synonyms, which he'll be able to reuse in the future when looking up for a given keyword
+* The program constructs a dictionary of synonyms, which it will be able to reuse in the future when looking up for a given keyword
 
 # Feature decomposition
 * Components identification
@@ -62,6 +68,7 @@ taxonomy:
 * Create the necessary functions to obtain data that cannot currently be obtained
 * Decompose the required feature in a set of operations that will need to be accomplished
 * Construct a collection of sequences of function calls that will accomplish the required feature
+* Assess if changes can be done to existing functions (do we want this change to apply to existing functionality or be a new case?)
 
 # Feature development
 * Determine the functions that will require a signature change
@@ -69,28 +76,30 @@ taxonomy:
 
 # Useful tools during development
 * Analyze existing code and generate/execute edge cases for the programmers to review
-* Language edge cases assertions such as accepting null as a valid argument for a typed signature in Java or that objects are passed by reference in java
+* Language edge cases assertions such as accepting null as a valid argument for a typed signature (in Java) or that objects are passed by reference (in Java)
 * Identification of thrown exceptions that are not catched
 * Partial function testing: select a portion of code and fake data will be generated to test it
 
 # Programming tasks
 In the list that follows, you will be able to observe various properties of the tasks required to write a program. Amongst them are:
-	* Tasks related to generation
-		* create blocks
-		* variables
-		* parameters definition
-		* return definition
-		* expressions
-	* Tasks related specifically to programming
-		* namespacing
-		* code location
-		* method modifiers
-		* dependencies
-		* function vs method
+
+* Tasks related to generation
+	* create blocks
+	* variables
+	* parameters definition
+	* return definition
+	* statements
+	* expressions
+* Tasks related specifically to programming
+	* namespacing
+	* code location
+	* method modifiers
+	* dependencies
+	* function vs method
 
 ## Task list
 ### Mathematical foundations
-Programming is at its core the task of passing values to functions/evaluating statements and receiving results.
+Programming is at its core the task of passing values to functions, evaluating statements and receiving results.
 
 * Generate function/method name
 * Assign function/method name
@@ -102,6 +111,9 @@ Programming is at its core the task of passing values to functions/evaluating st
 * Determine return type (for typed languages)
 * Assign return type (for typed languages)
 * Determine logic/sequence of statements to execute within the function/method/block (one of the most difficult tasks, if not the most)
+* Determine pre-conditions
+* Determine post-conditions
+* Determine invariants
 * Generate variable name
 * Assign variable name
 * Declare variable type (for typed languages)
@@ -142,15 +154,28 @@ There are many tasks that are specifically related to the fact that we're using 
 	* Create block (if (...) { ... })
 		* Determine predicate
 		* Evaluate block pre-conditions based on predicate
-	* Create elseif block (elseif (...) { ... })
+	* Create elseif block(s) (elseif (...) { ... })
 		* Determine predicate
 		* Evaluate block pre-conditions (based on if/elseif predicates)
 	* Create else block (else { ... })
 		* Evaluate block pre-conditions (based on if/elseif predicates)
 * Foreach
+	* Create block (foreach (...) { ... })
+		* Determine iterator
+		* Determine item name
 * For
+	* Create block (for (...) { ... })
+		* Determine initial conditions
+		* Determine predicate
+		* Determine afterthought (what to do at the end of an iteration)
 * While
+	* Create block (while (...) { ... })
+		* Determine predicate
 * Switch
+	* Create block (switch (...) { ... })
+		* Determine expression to evaluate
+	* Create case block (case ...: { ... })
+		* Determine predicate
 
 ## Generalized tasks
 From the list of tasks we've established so far, we can try to create a list of generalized tasks (operations that do the same thing under different contexts).
