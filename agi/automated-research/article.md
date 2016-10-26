@@ -143,8 +143,14 @@ In order to extract meaningful features out of scientific articles, we need to d
 * Create a training set with labels
 * Build a tree of the different combinations based on the training data
 * Find a way to hierarchically express these combinations
+* Run the regex on the whole reference for each type of segment to extract, then attempt to construct a reference by making sure that segments do not overlap (see https://github.com/tensorflow/models/tree/master/syntaxnet transition-based dependency parser for a similar idea)
 
-Run the regex on the whole reference for each type of segment to extract, then attempt to construct a reference by making sure that segments do not overlap
+#### Difficulties
+* Many different reference format
+* Format is unstructured
+* Syntactic rules not necessarily respected
+* Extraction appears to be easy to a human due to the use of existing knowledge to differentiate between names segments and title segments
+	* The ability for a human to infer potential extraction rules such as "format A or format B or format C" simply by induction on multiple examples and using existing knowledge
 
 # Variables
 ## Reference
