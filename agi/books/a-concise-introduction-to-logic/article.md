@@ -543,6 +543,22 @@ $$
 	* Examine the disjunctive premise. If this premise is a tautology, attempt to grasp the dilemma by the horns by attacking one or the other of the conditional statements in the conjunctive premise
 	* If the disjunctive premise is not a tautology, then either escape between the horns by, perhaps, finding a third alternative, or grasp by the horns, whichever is easier
 * A third, indirect strategy for refuting a dilemma involves constructing a counter-dilemma. This is typically done by changing either the antecedants or the consequents of the conjunctive premise while leaving the disjunctive premise as it is, so as to obtain a different conclusion
+* We will say that an argument has an invalid form if it is a substitution instance of that form and it is not a substitution instance of any valid form
+
+## 7 Natural Deduction in Propositional Logic
+## 7.1 Rules of Implication I
+* Eight rules of inference called rules of implication
+	* Modus ponens
+	* Modus tollens
+	* Pure hypothetical syllogism
+	* Disjunctive syllogism
+* To construct a proof, start by finding the conclusion we want to prove. Then, work your way back, that is, find premises which will lead to the desired conclusion until all the required inference steps and premises have been proven
+* Strategies for applying the first four rules of inference
+	* Strategy 1: Always begin by attempting to "find" the conclusion in the premises. If the conclusion is not present in its entirety in the premises, look at the main operator of the conclusion. This will provide a clue as to how the conclusion should be derived
+	* Strategy 2: If the conclusion contains a letter that appears in the consequent of a conditional statement in the premises, consider obtaining that letter via modus ponens
+	* Strategy 3: If the conclusion contains a negated letter and the letter appears in the antecedant of a conditional statement in the premises, consider obtaining the negated letter via modus tollens
+	* Strategy 4: If the conclusion is a conditional statement, consider obtaining it via pure hypothetical syllogism
+	* Strategy 5: If the conclusion contains a letter that appears in a disjunctive statement in the premises, consider obtaining that letter via disjunctive syllogism
 
 # See also
 
