@@ -84,6 +84,43 @@ taxonomy:
 * The rationale behind boundary value testing is that errors tend to occur near the extreme values of an input variable
 * The single fault assumption: Failures are only rarely the result of the simultaneous occurrence of two (or more) faults
 
+## 6 Equivalence Class Testing
+* Two problems occur with robust forms
+	* The specification does not define what the expected output for an invalid input should be
+	* Strongly typed languages eliminate the need for the consideration of invalid inputs
+
+## 6.1 Equivalence Classes
+* The idea of equivalence class testing is to identify test cases by using one element from each equivalence class. If the equivalence classes are chosen wisely, this greatly reduces the potential redundancy among test cases
+
+## 6.3.1 Weak Normal Equivalence Class Testing
+* Weak normal equivalence class testing is accomplished by using one variable from each equivalence class (interval) in a test case
+* What can we learn from a weak normal equivalence class test case that fails, that is, one for which the expected and actual outputs are inconsistent?
+	* There could be a problem with $x_1$, or a problem with $x_2$, or maybe an interaction between the two
+
+## 6.3.2 Strong Normal Equivalence Class Testing
+* Strong normal equivalence class testing is based on the multiple fault assumption, so we need test cases from each element of the Cartesian product of the equivalence classes
+
+## 6.3.3 Weak Robust Equivalence Class Testing
+* The process of weak robust equivalence class testing is a simple extension of that for weak normal equivalence class testing - pick test cases such that each equivalence class is represented
+
+## 6.3.4 Strong Robust Equivalence Class Testing
+* We obtain test cases from each element of the Cartesian product of all the equivalence classes, both valid and invalid
+
+## 7 Decision Table-Based Testing
+## 7.1 Decision Tables
+* Decision tables in which all the conditions are binary are called Limited Entry Decision Tables (LETDs)
+* If conditions are allowed to have several values, the resulting tables are called Extended Entry Decision Tables (EEDTs)
+
+## 7.7 Guidelines and Observations
+* The decision table technique is indicated for applications characterized by any of the following:
+	* Prominent if-then-else logic
+	* Logical relationships among input variables
+	* Calculations involving subsets of the input variables
+	* Cause-and-effect relationships between inputs and outputs
+	* High cyclomatic complexity
+* Decision tables do not scale up very well. There are several way to deal with this - use extended entry decision tables, algebraically simplify tables, "factor" large tables into smaller ones, and look for repeating patterns of condition entries
+
 # See also
 
 # Sources
+* Jorgensen, Paul C. Software Testing: A Craftsman’s Approach. CRC press, 2016.
