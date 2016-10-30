@@ -2,7 +2,8 @@
 title: Viggo Ahl - An experimental comparison of five prioritization methods (2005)
 created: 2016-04-02
 taxonomy:
-  category: [Artificial General Intelligence, prioritization]
+  category: [Artificial General Intelligence]
+  tag: [prioritization]
   status: finished
 ---
 
