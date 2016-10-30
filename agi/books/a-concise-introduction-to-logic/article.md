@@ -463,7 +463,7 @@ taxonomy:
 ## 6.6 Argument Forms and Fallacies
 * An argument form is an arrangement of statement variables and operators such that the uniform substitution of statements in place of the variables results in an argument. The resulting argument is said to be a substitution instance of its related argument form
 
-### Disjunctive syllogism
+### Disjunctive syllogism (DS)
 $$
 \frac{
 p \vee q \\
@@ -472,7 +472,7 @@ p \vee q \\
 {q}
 $$
 
-### Pure hypothetical syllogism
+### Pure hypothetical syllogism (HS)
 $$
 \frac{
 p \supset q \\
@@ -481,7 +481,7 @@ q \supset r
 {p \supset r}
 $$
 
-### Modus ponens (asserting mode)
+### Modus ponens (asserting mode) (MP)
 $$
 \frac{
 p \supset q \\
@@ -490,7 +490,7 @@ p
 {q}
 $$
 
-### Modus tollens (denying mode)
+### Modus tollens (denying mode) (MT)
 $$
 \frac{
 p \supset q \\
@@ -517,7 +517,7 @@ p \supset q \\
 {\neg q}
 $$
 
-### Constructive dilemma
+### Constructive dilemma (CD)
 $$
 \frac{
 (p \supset q) \wedge (r \supset s) \\
@@ -526,7 +526,7 @@ p \vee r
 {q \vee s}
 $$
 
-### Destructive dilemma
+### Destructive dilemma (DD)
 $$
 \frac{
 (p \supset q) \wedge (r \supset s) \\
@@ -560,6 +560,36 @@ $$
 	* Strategy 4: If the conclusion is a conditional statement, consider obtaining it via pure hypothetical syllogism
 	* Strategy 5: If the conclusion contains a letter that appears in a disjunctive statement in the premises, consider obtaining that letter via disjunctive syllogism
 
+## 7.2 Rules of Implication II
+* Constructive dilemma
+* Simplification (Simp)
+* Conjunction (Conj)
+* Addition (Add)
+* Strategies for applying the last four rules of implication:
+	* Strategy 6: If the conclusion contains a letter that appears in a conjunctive statement in the premises, consider obtaining that letter via simplification
+	* Strategy 7: If the conclusion is a conjunctive statement, consider obtaining it via conjunction by first obtaining the individual conjuncts
+	* Strategy 8: If the conclusion is a disjunctive statement, consider obtaining it via constructive dilemma or addition
+	* Strategy 9: If the conclusion contains a letter not found in the premises, addition must be used to introduce that letter
+	* Strategy 10: Conjunction can be used to set up constructive dilemma
+
+## 7.3 Rules of Replacement I
+* Double colon is used to designate logical equivalence
+* Axiom of replacement: Asserts that within the context of a proof, logically equivalent expressions may replace each other
+* The first five rules of replacement:
+	* De Morgan's rule (DM)
+	* Commutativity (Com)
+	* Associativity (Assoc)
+	* Distribution (Dist)
+	* Double negation (DN)
+* Strategies for applying the first five rules of replacement:
+	* Strategy 11: Conjunction can be used to set up De Morgan's rule
+	* Strategy 12: Constructive dilemma can be used to set up De Morgan's rule
+	* Strategy 13: Addition can be used to set up De Morgan's rule
+	* Strategy 14: Distribution can be used in two ways to set up disjunctive syllogism (distribute the term and "merge" the common term)
+	* Strategy 15: Distribution can be used in two ways to set up simplification
+	* Strategy 16: If inspection of the premises does not reveal how the conclusion should be derived, consider using the rules of replacement to deconstruct the conclusion
+
 # See also
 
-# Sources
+# References
+* Hurley, Patrick. A concise introduction to logic. Nelson Education, 2014.
