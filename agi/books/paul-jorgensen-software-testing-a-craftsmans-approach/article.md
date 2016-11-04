@@ -120,6 +120,53 @@ taxonomy:
 	* High cyclomatic complexity
 * Decision tables do not scale up very well. There are several way to deal with this - use extended entry decision tables, algebraically simplify tables, "factor" large tables into smaller ones, and look for repeating patterns of condition entries
 
+## 8 Path Testing
+## 8.2 DD-Paths
+* A DD-path is a sequence of nodes in a program graph such that
+	* Case 1: It consists of a single node with indeg = 0 (single sink)
+	* Case 2: It consists of a single node with outdeg = 0 (single source)
+	* Case 3: It consists of a single node with indeg >= 2 or outdeg >= 2
+	* Case 4: It consists of a single node with indeg = 1 and outdeg 1
+	* Case 5: It is a maximal chain of length >= 1
+
+## 8.3 Program Graph-Based Coverage Metrics
+* Given a set of test cases for a program, they constitute node coverage if, when executed on the program, every node in the program graph is traversed
+* Given a set of test cases for a program, they constitute edge coverage if, when executed on the program, every edge in the program graph is traversed
+* Given a set of test cases for a program, they constitute chain coverage if, when executed on the program, every chain of length greater or equal to 2 in the program graph is traversed
+* Given a set of test cases for a program, they constitute path coverage if, when executed on the program, every path from the source node to the sink node in the program graph is traversed
+
+## 8.3.3.5 Modified Condition Decision Coverage
+* MCDC requires
+	1. Every statement must be executed at least once
+	2. Every program entry point and exit point must be invoked at least once
+	3. All possible outcomes of every control statement are taken at least once
+	4. Every nonconstant Boolean expression has been evaluated to both true and false outcomes
+	5. Every nonconstant condition in a Boolean expression has been evaluated to both true and false outcomes
+	6. Every nonconstant condition in a Boolean expression has been shown to independently affect the outcomes (of the expression)
+* 1 and 2 translate to node coverage
+* 3 and 4 translate to edge coverage
+* Unique-Cause MCDC (requires) a unique cause (toggle a single condition and change the expression result) for all possible (uncoupled) conditions
+* Unique-Cause + Masking MCDC (requires) a unique cause (toggle a single condition and change the expression result) for all possible (uncoupled) conditions. In the case of strongly coupled conditions, masking (is allowed) for that condition only, i.e., all other (uncoupled) conditions will remain fixed
+* Masking MCDC allows masking for all conditions, coupled and uncoupled (toggle a single condition and change the expression result) for all possible (uncoupled) conditions. In the case of strongly coupled conditions, masking (is allowed) for that condition only (i.e., all other (uncoupled) conditions will remain fixed)
+
+## 8.4.1 McCabe's Basis Path Method
+* The cyclomatic number of a strongly connected graph is the number of linearly independent circuits in the graph
+* We can force this to begin to look like a vector space by defining notions of addition and scalar multiplication: path addition is simply one path followed by another path, and multiplication corresponds to repetitions of a path
+* We can check the independence of paths by examining the path/edges traversed incidence matrix. The edges that appear in exactly one path must be independent
+* A path is independent if it cannot be expressed in terms of the other paths without introducing unwanted edges
+* The baseline method
+	* Select a baseline path, which should correspond to some "normal case" program execution (it is advised to choose a path with as many decision nodes as possible)
+	* The baseline path is retraced, and in turn each decision is "flipped". When a node of outdegree >= 2 is reached, a different edge must be taken
+
+## 9 Data Flow Testing
+## 9.1 Define/Use Testing
+* Node $n \in G(P)$ is a defining node of the variable $v \in V$, written as DEF(v, n), if and only if the value of variable $v$ is defined as the statement fragment corresponding to node $n$
+* Node $n \in G(P)$ is a usage node of the variable $v \in V$, written as USE(v, n), if and only if the value of the variable $v$ is used as the statement fragment correspond to node n
+* A usage node USE(v, n) is a predicate use (denoted as P-use) if and only if the statement $n$ is a predicate statement; otherwise, USE(v, n) is a computation use (denoted C-use)
+	* The nodes corresponding to predicate uses always have an outdegree >= 2, and nodes corresponding to computation uses always have an outdegree <= 1
+* A definition/use path with respect to a variable v (denoted du-path) is a path in PATHS(P) such that, for some $v \in V$, there are define and usage nodes DEF(v, m) and USE(v, n) such that $m$ and $n$ are the initial and final nodes of the path
+* A definition-clear path with respect to a variable v (denoted dc-path) is a definition/use path in PATHS(P) with initial and final nodes DEF(v, m) and USE(v, n) such that no other node in the path is a defining node of $v$
+
 # See also
 
 # Sources
