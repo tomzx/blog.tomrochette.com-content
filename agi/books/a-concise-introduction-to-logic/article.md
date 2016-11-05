@@ -589,6 +589,38 @@ $$
 	* Strategy 15: Distribution can be used in two ways to set up simplification
 	* Strategy 16: If inspection of the premises does not reveal how the conclusion should be derived, consider using the rules of replacement to deconstruct the conclusion
 
+## 7.4 Rules of Replacement II
+* The remaining five rules of replacement:
+	* Transposition (Trans)
+	* Material implication (Impl)
+	* Material equivalence (Equiv)
+	* Exportation (Exp)
+	* Tautology (Taut)
+* Strategies for applying the last five rules of replacement:
+	* Strategy 17: Material implication can be used to set up hypothetical syllogism
+	* Strategy 18: Exportation can be used to set up modus ponens
+	* Strategy 19: Exportation can be used to set up modus tollens
+	* Strategy 20: Addition can be used to set up material implication
+	* Strategy 21: Transposition can be used to set up hypothetical syllogism
+	* Strategy 22: Transposition can be used to set up constructive dilemma
+	* Strategy 23: Constructive dilemma can be used to set up tautology
+	* Strategy 24: Material implication can be used to set up tautology
+	* Strategy 25: Material implication can be used to set up distribution
+
+## 7.5 Conditional Proof
+* Conditional proof is a method for deriving a conditional statement (either the conclusion or some intermediate line) that offers the usual advantage of being both shorter and simpler to use than the direct method
+* After a conditional proof sequence has been discharged, no line in the sequence may be used as a justification for a subsequent line in the proof
+* A conditional sequence can be used within the scope of another to derive a desired statement
+* Every conditional proof must be discharged
+
+## 7.6 Indirect Proof
+* Indirect proof consists of assuming the negation of the statement to be obtained, using this assumption to derive a contradiction, and then concluding that the original assumption is false
+* One should consider indirect proof whenever a line ina proof appears difficult to obtain
+* A conditional sequence may be constructed within the scope of an indirect sequence, and, conversely, an indirect sequence may be constructed within the scope of either a conditional sequence or another indirect sequence
+
+## 7.7 Proving Logical Truths
+* Any argument having a tautology for its conclusion is valid regardless of what its premises are
+
 # See also
 
 # References
