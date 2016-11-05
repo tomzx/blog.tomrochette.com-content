@@ -167,6 +167,33 @@ taxonomy:
 * A definition/use path with respect to a variable v (denoted du-path) is a path in PATHS(P) such that, for some $v \in V$, there are define and usage nodes DEF(v, m) and USE(v, n) such that $m$ and $n$ are the initial and final nodes of the path
 * A definition-clear path with respect to a variable v (denoted dc-path) is a definition/use path in PATHS(P) with initial and final nodes DEF(v, m) and USE(v, n) such that no other node in the path is a defining node of $v$
 
+## 9.1.7 Define/Use Test Coverage Metrics
+* T is a set of paths in the program graph G(P) of a program P, with the set V of variables
+* The set T satisfies the All-Defs criterion for the program P if and only if for every variable $v \in V$, T contains definition-clear paths from every defining node of $v$ to a use of $v$
+* The set T satisfies the All-Uses criterion for the program P if and only if for every variable $v \in V$, T contains definition-clear paths from every defining node of $v$ to every use of $v$, and to the successor node of each USE(v, n)
+* The set T satisfies the All-P-Uses/Some C-Uses criterion for the program P if and only if for every variable $v \in V$, T contains definition-clear paths from every defining node of $v$ to every predicate use of $v$; and if a definition of $v$ has no P-uses, a definition-clear path leads to at least one computation use
+* The set T satisfies the All-C-Uses/Some P-Uses criterion for the program P if and only if for every variable $v \in V$, T contains definition-clear paths from every defining node of $v$ to every computation use of $v$; and if a definition of $v$ has no C-uses, a definition-clear path leads to at least one predicate use
+* The set T satisfies the All-DU-paths criterion for the program P if and only if for every variable $v \in V$, T contains definition-clear paths from every defining node of $v$ to every use of $v$ and to the successor node of each USE(v, n), and that these paths are either single loop traversals or they are cycle free
+
+![Rapps-Weyuker data flow coverage metrics](assets/images/rapps-weyuker dataflow coverage metrics.png)
+
+## 9.2 Slice-Based Testing
+* A program slice is a set of program statements that contributes to, or affects the value of, a variable at some point in a program
+* Given a program P and a set V of variables in P, a slice on the variable set V at statement n, written S(V, n), is the set of all statements fragments in P that contribute to the values of variables in V at node n
+* Backward slices refer to statement fragments that contribute to the value of v at statement n
+* Forward slices refer to all the program statements that are affected by the value of v and statement n
+* In a backward slice S(v, n), statement n is nicely understood as a Use node of the variable v, that is, Use(v, n)
+* Given a program P and a program graph G(P) in which statements and statement fragments are numbered, and a set V of variables in P, the static, backward slice on the variable set V at statement fragment n, written S(V, n), is the set of node numbers of all statement fragments in P that contribute to the values of variables in V at statement fragment n
+* Five form of USE:
+	* P-use: used in a predicate (decision)
+	* C-use: used in computation
+	* O-use: used for output
+	* L-use: used for location (pointers, subscripts)
+	* I-use: used for iteration (internal counters, loop indices)
+* Two forms of definition nodes:
+	* I-def: defined by input
+	* A-def: defined by assignment
+
 # See also
 
 # Sources
