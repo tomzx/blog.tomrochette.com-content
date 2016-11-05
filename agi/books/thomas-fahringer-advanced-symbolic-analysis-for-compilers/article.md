@@ -45,11 +45,25 @@ A := A - B
 * As A and B are assigned, we assign them a symbolic value where $\triangledown_1$ and $\triangledown_2$ denote the input values of the read statement
 	* $A = \triangledown_1$
 	* $B = \triangledown_2$
-* We propagate symbolic value of A and B
+* We propagate symbolic value of A and B (after line 2)
 	* $A = \triangledown_1 + \triangledown_2$
 	* $B = \triangledown_2$
+* At line 4
+	* $A = (\triangledown_1 + \triangledown_2) - \triangledown_1$
+	* $B = (\triangledown_1 + \triangledown_2) - ((\triangledown_1 + \triangledown_2) - \triangledown_1)$
+
+## 2.3 Constributions
+## 2.3.1 Symbolic Analysis Framework
+* Program contexts include three components: variable values, assumptions about and constraints between variables values, and path condition
+
+## 3 Symbolic Analysis of Programs
+## 3.1 Introduction
+* A program context c is defined by a triple [s, t, p] that includes a state s, a state condition t and a path condition p
+* State S: Described by a set of variable/value pairs $v_i=e_i$ where $v_i$ is a program (scalar or array) variable and $e_i$ is a symbolic expression describing the value of $v_i$
+* State condition t: Assumptions about variable values are described by a state condition t. Additional constraints on variable values such as those implied by loops (recurrences), variable declaration and user assertions (specifying relationships between variable values) are also added to the state condition
+* Path condition p: Describes the condition under which control flow reaches a given program statement
 
 # See also
 
-# Sources
+# References
 * Fahringer, Thomas, and Bernhard Scholz. Advanced symbolic analysis for compilers: new techniques and algorithms for symbolic program analysis and optimization. Vol. 2628. Springer, 2003.
