@@ -194,6 +194,30 @@ taxonomy:
 	* I-def: defined by input
 	* A-def: defined by assignment
 
+## 10 Retrospective on Unit Testing
+* Low to high semantic content
+	* Code-based testing
+		* Path testing
+		* Data flow testing
+		* Slice testing
+	* Spec-based testing
+		* Boundary value testing
+		* Equivalence class testing
+		* Decision table testing
+
+## 10.3 Evaluating Test Methods
+* We can use the notion of program execution paths, which provide a good formulation of test effectiveness
+* When a particular path is traversed more than once, we might question the redundancy
+* We assume that a specification-based testing technique M generates m test cases, and that these test cases are tracked with respect to a code-based metric S that identifies s elements in the unit under test. When the m test cases are executed, they traverse n of the s structural elements
+* The coverage of a methodology M with respect to a metric S is the ratio of n to s. We denote it as C(M, S)
+	* Deals with gaps
+	* When this value is less than 1, there are gaps in the coverage with respect to the metric
+	* When C(M, S) = 1, algebra forces R(M, S) = NR(M, S)
+* The redundancy of a methodology M with respect to a metric S is the ratio of m to s. We denote it as R(M, S)
+	* The bigger the value, the greater the redundancy
+* The net redundancy of a methodology M with respect to a metric S is the ratio of m to n. We denote it as NR(M, S)
+	* The things actually traversed, not to the total space of things to be traversed
+
 # See also
 
 # Sources
