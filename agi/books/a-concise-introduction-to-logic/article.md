@@ -621,6 +621,35 @@ $$
 ## 7.7 Proving Logical Truths
 * Any argument having a tautology for its conclusion is valid regardless of what its premises are
 
+## 8 Predicate Logic
+## 8.1 Symbols and Translation
+* In categorical syllogisms, the fundamental components are terms
+* In propositional logic, the fundamental components are statements
+* Predicate logic combines syllogistic logic and propositional logic
+* The fundamental component in predicate logic is the predicate
+* A statement function is the expression that remains when a quantifier is removed from a statement
+* Universal quantifier
+
+| Statement form | Symbolic translation | Verbal meaning |
+|-|-|-|
+| All S are P. | $(x)(Sx \supset Px)$ | For any x, if x is an S, then x is a P. |
+| No S are P. | $(x)(Sx \supset \neg Px)$ | For any x, if x is an S, then x is not a P. |
+
+* Existential quantifier
+
+| Statement form | Symbolic translation | Verbal meaning |
+|-|-|-|
+| Some S are P. | $(\exists x)(Sx \bullet Px)$ | There exists an x such that x is an S and x is a P. |
+| Some S are not P. | $(\exists x)(Sx \bullet \neg Px)$ | There exists an x such that x is an S and x is not a P. |
+
+## 8.2 Using the Rules of Inference
+* Instantiation is an operation that consists in deleting a quantifier and replacing every variable bound by that quantifier with the same instatial letter
+* We cannot perform universal generalization when the instantial letter is a constant
+* Generalization in the inclusive sense is an operation that consists in
+	* introducing a quantifier immediately prior to a statement, a statement function or another quantifier
+	* replacing one or more occurrences of a certain instantial letter in the statement or statement function with the same variable that appears in the quantifier
+* For universal generalization, all occurrences of the instantial letter must be replaced with the variable in the quantifier, and for existential generalization, at least one of the instantial letters must be replaced with the variable in the quantifier
+
 # See also
 
 # References
