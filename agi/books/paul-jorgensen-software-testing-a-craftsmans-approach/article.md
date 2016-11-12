@@ -218,6 +218,49 @@ taxonomy:
 * The net redundancy of a methodology M with respect to a metric S is the ratio of m to n. We denote it as NR(M, S)
 	* The things actually traversed, not to the total space of things to be traversed
 
+## 10.5 Guidelines
+* Testing for faults that are not likely to be present is pointless
+* The attributes that are most helpful in choosing specification-based testing methods are
+	* Whether the variables represent physical or logical quantities
+	* Whether dependencies exist among the variables
+	* Whether single or multiple faults are assumed
+	* Whether exception handling is prominent
+* If the variables refer to physical quantities, boundary value testing and equivalence class testing are indicated
+* If the variables are independent, boundary value testing and equivalence class testing are indicated
+* If the variables are dependent, decision table testing is indicated
+* If the single-fault assumption is warranted, boundary value analysis and robustness testing are indicated
+* If the multiple-fault assumption is warranted, worst-case testing, robust worst-case testing, and decision table testing are indicated
+* If the program contains significant exception handling, robustness testing and decision table testing are indicated
+* If the variables refer to logical quantities, equivalence class testing and decision table testing are indicated
+
+## 11 Life Cycle-Based Testing
+## 11.2 Testing in Iterative Life Cycles
+* Functional decomposition can only be well done when the system is completely understood, and it promotes analysis to the near exclusion of synthesis
+* Composition, on the other hand, is closer to the way people work: start with something known and understood, then add to it gradually, and maybe remove undesired portions
+
+## 11.2.1 Waterfall Spin-Offs
+* System testing is split into two steps - regression and progression testing
+* The goal of regression testing is to ensure that things that worked correctly in the previous build still work with the newly added code
+* Progression testing assumes that regression testing was successful and that the new functionality can be tested
+
+## 12 Model-Based Testing
+## 12.1 Testing Based on Models
+* The essence of MBT is this sequence of steps:
+	* Model the system
+	* Identify threads of system behavior in the model
+	* Transform these threads into test cases
+	* Execute the tests cases (on the actual system) and record the results
+	* Revise the model(s) as needed and repeat the process
+
+## 12.2 Appropriate Models
+## 12.2.1 Peterson's Lattice
+* Given an application, good practice dictates choosing a model that is both necessary and sufficient - neither too weak nor too strong.
+	*If a model is too weak, important aspects of the application will not be modeled, and hence not tested
+	* If a model is too strong, the extra effort to develop the model may be unnecessary
+
+## 12.2.3 Modeling Issues
+* There are two fundamental types of requirements specification models: those that describe structure (what a system is) and those that describe behavior (what a system does)
+
 # See also
 
 # Sources
