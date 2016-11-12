@@ -467,7 +467,7 @@ taxonomy:
 $$
 \frac{
 p \vee q \\
-\neg p
+\sim p
 }
 {q}
 $$
@@ -494,9 +494,9 @@ $$
 $$
 \frac{
 p \supset q \\
-\neg q
+\sim q
 }
-{\neg p}
+{\sim p}
 $$
 
 ### Affirming the consequent (invalid)
@@ -512,9 +512,9 @@ $$
 $$
 \frac{
 p \supset q \\
-\neg p
+\sim p
 }
-{\neg q}
+{\sim q}
 $$
 
 ### Constructive dilemma (CD)
@@ -530,9 +530,9 @@ $$
 $$
 \frac{
 (p \supset q) \wedge (r \supset s) \\
-\neg q \vee \neg s
+\sim q \vee \sim s
 }
-{\neg p \vee \neg r}
+{\sim p \vee \sim r}
 $$
 
 ### Refuting Constructive and Destructive Dilemmas
@@ -633,14 +633,14 @@ $$
 | Statement form | Symbolic translation | Verbal meaning |
 |-|-|-|
 | All S are P. | $(x)(Sx \supset Px)$ | For any x, if x is an S, then x is a P. |
-| No S are P. | $(x)(Sx \supset \neg Px)$ | For any x, if x is an S, then x is not a P. |
+| No S are P. | $(x)(Sx \supset \sim Px)$ | For any x, if x is an S, then x is not a P. |
 
 * Existential quantifier
 
 | Statement form | Symbolic translation | Verbal meaning |
 |-|-|-|
 | Some S are P. | $(\exists x)(Sx \bullet Px)$ | There exists an x such that x is an S and x is a P. |
-| Some S are not P. | $(\exists x)(Sx \bullet \neg Px)$ | There exists an x such that x is an S and x is not a P. |
+| Some S are not P. | $(\exists x)(Sx \bullet \sim Px)$ | There exists an x such that x is an S and x is not a P. |
 
 ## 8.2 Using the Rules of Inference
 * Instantiation is an operation that consists in deleting a quantifier and replacing every variable bound by that quantifier with the same instatial letter
@@ -649,6 +649,20 @@ $$
 	* introducing a quantifier immediately prior to a statement, a statement function or another quantifier
 	* replacing one or more occurrences of a certain instantial letter in the statement or statement function with the same variable that appears in the quantifier
 * For universal generalization, all occurrences of the instantial letter must be replaced with the variable in the quantifier, and for existential generalization, at least one of the instantial letters must be replaced with the variable in the quantifier
+* The name introduced by existential instantiation must be a new name that has not occurred in any previous line, including the line adjacent to the last premise that indicates the conclusion to be derived
+
+## 8.3 Quantifier Negation Rule
+$$
+\begin{split}
+(x)\mathscr{F}x & :: & \sim(\exists x)\sim\mathscr{F}x \\
+\sim(x)\mathscr{F}x & :: & (\exists x)\sim\mathscr{F}x \\
+(\exists x)\mathscr{F}x & :: & \sim(x)\sim\mathscr{F}x \\
+\sim(\exists x)\mathscr{F}x & :: & (x)\sim\mathscr{F}x
+\end{split}
+$$
+
+## 8.4 Conditional and Indirect Proof
+* Universal generalization must not be used within the scope of an indented sequence if the instantial variable is free in the first line of that sequence
 
 # See also
 
