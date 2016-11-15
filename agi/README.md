@@ -35,6 +35,7 @@ Tom
 * [Books](books)
 * [Movies](movies)
 * [Presentations](presentations)
+* [Stories](stories)
 * [Quotes](quotes)
 
 ## Exploratory activities
