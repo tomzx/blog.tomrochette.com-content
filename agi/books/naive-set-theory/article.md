@@ -13,7 +13,6 @@ taxonomy:
 ## Things to explore
 
 # Overview
-
 * (p1) Sets have elements or members
 * (p1) Sets may be elements of sets
 * (p2) If $A$ and $B$ are sets and if every element of $A$ is an element of $B$, $A$ is a subset of $B$ or $B$ includes $A$
@@ -91,14 +90,15 @@ There exists a set containing 0 and containing the successor of each of its elem
 5. $if\ n\ and\ m\ are\ in\ \omega,\ and\ if\ n^+ = m^+,\ then\ n = m$
 
 # Operators
-$\wedge$: and
-$\vee$: or (either or both)
-$\neg$: not
-$\Rightarrow$: if-then (implies)
-$\iff$: if and only if
-$\exists$: for some (there exists)
-$\forall$: for all
+* $\wedge$: and
+* $\vee$: or (either or both)
+* $\neg$: not
+* $\Rightarrow$: if-then (implies)
+* $\iff$: if and only if
+* $\exists$: for some (there exists)
+* $\forall$: for all
 
 # See also
 
-# Sources
+# References
+* Halmos, Paul Richard. Naive set theory. Springer Science & Business Media, 1960.
