@@ -15,7 +15,7 @@ taxonomy:
 # Overview
 
 # Notes
-## Chapter 1 - A Perspective on Testing
+## 1 - A Perspective on Testing
 * Error: Mistake, bug
 * Fault: result of an error
 	* Fault of comission: we enter something into a representation that is incorrect
@@ -39,7 +39,7 @@ taxonomy:
 * White-box testing at the unit level
 * Black-box testing at the system (integration) level
 
-# Chapter 4 - Graph Theory for Testers
+# 4 - Graph Theory for Testers
 ## 4.1.6 Condensation Graphs
 * Given a graph G = (V, E), its condensation graph is formed by replacing each component by a condensing node
 * The condensation graph of a given graph is unique
@@ -261,7 +261,55 @@ taxonomy:
 ## 12.2.3 Modeling Issues
 * There are two fundamental types of requirements specification models: those that describe structure (what a system is) and those that describe behavior (what a system does)
 
+## 13 Integration Testing
+* Craftspersons are recognized by two essential characteristics:
+	* they have a deep knowledge of the tools of their trade
+	* they have a similar knowledge of the medium in which they work so that they understand their tools in terms of how they work with the medium
+
+## 13.1 Decomposition-Based Integration
+* The goal of decomposition-based integration is to test the interfaces among separately tested units
+
+## 13.1.1 Top-Down Integration
+* Begins with the main program (the root of the tree)
+* Any lower-level unit that is called by the main program appears as a "stub," where stubs are pieces of throwaway code that emulate a called unit
+* The "theory" of top-down integration is that, as stubs are replaced one at a time, if there is a problem, it must be with the interface to the most recently replaced stub
+* The problem is that functional decomposition is deceptive
+	* Because it is derived from the lexicographical inclusion required by most compilers, the process generates impossible interfaces
+
+## 13.1.2 Bottom-Up Integration
+* A "mirror image" to the top-down order, with the difference that stubs are replaced by drivers modules that emulate units at the next level up in the tree
+
+## 13.1.3 Sandwich Integration
+* A combination of top-down and bottom-up integration
+* There will be less stub and driver development effort, but this will be offset to some extent by the added difficulty of fault isolation that is a consequence of big bang integration
+
+## 13.2 Call Graph-Based Integration
+## 13.2.1 Pairwise Integration
+* The idea behind pairwise integration is to eliminate the stub/driver development effort. Instead of developing stubs and/or drivers, why not use the actual code?
+* We restrict a session to only a pair of units in the call graph
+* Pairwise integration results in an increased number of integration sessions when a node (unit) is used by two or more other units
+* The main advantage of pairwise integration is the high degree of fault isolation
+	* If a test fails, the fault must be in one of the two units
+* The biggest drawback is that, for units involved on several pairs, a fix that works in one pair may not work in another pair
+
+## 13.2.2 Neighborhood Integration
+* The neighborhood of a node in a graph is the set of nodes that are one edge away from the given node
+* Neighboorhoods = nodes - sink nodes
+* Neighborhood integration usually yields a reduction in the number of integration test sessions, and it reduces stub and driver development
+
+## 13.3 Path-Based Integration
+## 13.3.1 New and Extended Concepts
+* A source node in a program is a statement fragment at which program execution begins or resumes.
+* A sink node in a program is a statement fragment at which program execution terminates
+* A module execution path is a sequence of statements that begins with a source node and ends with a sink node, with no intervening sink nodes
+* A message is a programming language mechanism by which one unit transfers control to another unit, and acquires a response from the other unit
+* An MM-path is an interleaved sequence of module execution paths and messages
+* Given a set of units, their MM-path graph is the directed graph in which nodes are module execution paths and edges correspond to messages and returns from one unit to another
+* A program path is a sequence of DD-paths, and an MM-path is a sequence of module execution paths
+
+## 14 System Testing
+
 # See also
 
-# Sources
+# References
 * Jorgensen, Paul C. Software Testing: A Craftsman’s Approach. CRC press, 2016.
