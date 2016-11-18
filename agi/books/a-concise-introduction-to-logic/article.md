@@ -654,15 +654,66 @@ $$
 ## 8.3 Quantifier Negation Rule
 $$
 \begin{split}
-(x)\mathscr{F}x & :: & \sim(\exists x)\sim\mathscr{F}x \\
-\sim(x)\mathscr{F}x & :: & (\exists x)\sim\mathscr{F}x \\
-(\exists x)\mathscr{F}x & :: & \sim(x)\sim\mathscr{F}x \\
-\sim(\exists x)\mathscr{F}x & :: & (x)\sim\mathscr{F}x
+(x)\mathscr{F}x\ & \bf{::} &\ \sim(\exists x)\sim\mathscr{F}x \\
+\sim(x)\mathscr{F}x\ & \bf{::} &\ (\exists x)\sim\mathscr{F}x \\
+(\exists x)\mathscr{F}x\ & \bf{::} &\ \sim(x)\sim\mathscr{F}x \\
+\sim(\exists x)\mathscr{F}x\ & \bf{::} &\ (x)\sim\mathscr{F}x
 \end{split}
 $$
 
 ## 8.4 Conditional and Indirect Proof
 * Universal generalization must not be used within the scope of an indented sequence if the instantial variable is free in the first line of that sequence
+
+## 8.5 Proving Invalidity
+### Counterexample Method
+* Consists in finding a substitution instance of a given invalid argument form (or, equally well, a given invalid symbolized argument) that has true premises and a false conclusion
+* The counterexample method is effective with most fairly simple invalid arguments in predicate logic. Since its application depends on the ingenuity of the user, however, it is not particularly well suited for complex arguments. For those, the finite universe method is probably a better choice
+
+### Finite Universe Method
+* It depends on the idea that a valid argument remains valid no matter how things in the actual universe might be altered
+* If we are given a valid argument, then that argument remains valid if it should happen that the universe is contracted so that it contains only a single member
+* If it should turn out that an argument has true premises and false conclusion in a universe consisting of only one or a few members, then that argument has been proved invalid
+* $\bf{\stackrel{c}{::}}$ Asserts that the expressions on either side of it necessarily have the same truth value given a universe of a designated size
+	* c for conditional
+
+$$
+\begin{split}
+(x)Px\ & \bf{\stackrel{c}{::}} &\ Pa \\
+(\exists x)Px\ & \bf{\stackrel{c}{::}} &\ Pa
+\end{split}
+$$
+
+* For more than one thing in the universe
+
+$$
+\begin{split}
+(x)Px\ & \bf{\stackrel{c}{::}} &\ Pa \wedge Pb \wedge ... \wedge Pn &\ \bf{::}\ &\ \bigwedge_{i=a}^n Pi \\
+(\exists x)Px\ & \bf{\stackrel{c}{::}} &\ Pa \vee Pb \vee ... \vee Pn &\ \bf{::}\ &\ \bigvee_{i=a}^n Pi
+\end{split}
+$$
+
+* For more complex statements
+
+$$
+\begin{split}
+(x)(Px \supset Qx)\ &\ \bf{\stackrel{c}{::}}\ &\ [(Pa \supset Qa) \wedge (Pb \supset Qb) \wedge (Pc \supset Qc)] \\
+(\exists x)(Px \wedge Qx)\ &\ \bf{\stackrel{c}{::}}\ &\ [(Pa \wedge Qa) \vee (Pb \wedge Qb) \vee (Pc \wedge Qc)]
+\end{split}
+$$
+
+* The method for proving an argument invalid consists in translating the premises and conclusion into singular statements and then testing the result with an indirect truth table
+	* First a universe of one is tried. If it is possible for the premises to be true and the conclusion to be false in this universe, the argument is immediately identified as invalid. If, on the other hand, a contradiction results from this assumption, a universe of two is tried. If, in this second universe it is possible for the premises to be true and the conclusion false, the argument is invalid. If not, a universe of three is tried, and so on
+* A theorem was proved to the effect that an argument that does not fail in a universe of $2^n$ members, where $n$ designates the number of different predicates, is valid
+
+## 8.6 Relational Predicates and Overlapping Quantifiers
+* Monadic predicates (one-place predicates): Used to assign an attribute to individual things
+* A relational predicate (or relation) is a predicate that is used to establish a connection between or among individuals
+
+### Translating Relational Statements
+* Relations are symbolized like other predicates except that two lowercase letters representing the two related individuals, are written to the immediate right of the uppercase letter representing the relation
+* The order in which the lowercase letters are listen often makes a difference
+* When two quantifiers of the same sort appear adjacent to each other, the order in which they are listed is not significant
+* When different quantifiers appear adjacent to each other, the order does make a difference
 
 # See also
 
