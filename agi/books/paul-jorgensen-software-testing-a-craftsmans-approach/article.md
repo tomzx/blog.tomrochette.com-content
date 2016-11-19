@@ -308,6 +308,77 @@ taxonomy:
 * A program path is a sequence of DD-paths, and an MM-path is a sequence of module execution paths
 
 ## 14 System Testing
+* The goal is not to find faults but to demonstrate correct behavior
+
+## 14.1 Threads
+* A scenario of normal usage
+* A system-level test case
+* A stimulus/response pair
+* Behavior that results from a sequence of system-level inputs
+* An interleaved sequence of port input and ouput events
+* A sequence of transitions in a state machine description of the system
+* An interleaved sequence of object messages and method executions
+* A sequence of machine instructions
+* A sequence of source instructions
+* A sequence of MM-paths
+* A sequence of ASFs
+
+## 14.1.2 Thread Definitions
+* An Atomic System Function (ASF) is an action that is observable at the system level in terms of port input and output events
+* In an event-driven system, ASFs are separated by points of event quiescence; these occur when a system is (nearly) idle, waiting for a port input event to trigger further processing
+* Given a system defined in terms of ASFs, the ASF graph of the system is the directed graph in which nodes are ASFs and edges represent sequential flow
+* A source is an Atomic System Function that appears as a source node in the ASF graph of a system; similarly, a sink ASF is an Atomic System Function that appears as a sink node in the ASF graph
+* A system thread is a path from a source ASF to a sink ASF in the ASF graph of a system
+
+## 14.2 Basis Concepts for Requirements Specification
+## 14.2.1 Data
+* The focus is on the information used and created by the system
+* We describe data in terms of variables, data structures, fields, records, data stores, and files
+
+## 14.2.2 Actions
+* Actions have inputs and outputs, and these can be either data or port events
+* Synonyms: transform, data transform, control transform, process, activity, task, method, and service
+
+## 14.2.3 Devices
+* These are the sources and destinations of system-level inputs and outputs
+
+## 14.2.4 Events
+* An event is a system-level input (or output) that occurs on a port device
+* Events are like actions in the sense that they are the translation point between real-world physical events and internal logical manifestations of these
+
+## 14.2.5 Threads
+* A sequence of actions
+
+## 14.2.6 Relationships among Basis Concepts
+* An action can occur in several threads, and a a thread is composed of several actions
+
+## 14.4 Use Case-Based Threads
+## 14.4.1 Levels of Use Cases
+* High level
+* Essential
+* Expanded essential
+* Real
+
+## 14.4.4 Converting Use Cases to Event-Driver Petri Nets
+* At a minimum, a well-formed use case should conform to these requirements
+	* The event sequence cannot begin with an output event. This could just be considered as a precondition
+	* The event sequence cannot end with an input event. This could be considered as a postcondition
+	* Preconditions must be both necessary and sufficient to the use case. There are no superfluous preconditions, and every precondition must be used or needed by the use case. Similarly for postconditions
+	* There must be at least one precondition and at least one postcondition
+
+## 14.6 How Many Use Cases?
+## 14.6.1 Incidence with Input Events
+* Customer/user and developers identify port-level input events
+* Use cases provoke the recognition of port inputs events, and they, in turn, suggest additional use cases
+
+## 14.6.2 Incidence with Output Events
+* Similar to Incidence with Input Events, but with outputs
+
+## 14.6.3 Incidence with All Ports Events
+* The combination of both Incidence with Input and Output Events
+
+## 14.6.4 Incidence with Classes
+* Develop an incidence matrix showing which classes are needed to support which use cases
 
 # See also
 
