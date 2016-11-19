@@ -714,6 +714,30 @@ $$
 * The order in which the lowercase letters are listen often makes a difference
 * When two quantifiers of the same sort appear adjacent to each other, the order in which they are listed is not significant
 * When different quantifiers appear adjacent to each other, the order does make a difference
+* Universal quantifiers go with implications and existential quantifiers go with conjunctions
+* Every variable must be bound by some quantifier
+
+## 8.7 Identity
+### Simple Identity Statements
+* In simple identity statements, the identity symbol controls only the letters to its immediate left and right
+
+### Numerical Statements
+* There are three types of numerical statements:
+	* those that assert a property of at most n items
+	* those that assert a property of at least n items
+	* those that assert a property of exactly n items
+* To translate "at most n" is to say that, if there are n + 1 items that have the stated property, then at least one of them is identical to at least one of the "others"
+* To translate "at least" statements we need to use existential quantifiers
+* The number of quantifiers must be equal to the number of items asserted
+* To ensure that there are at least two distinct items, we must conjoin the assertion that x and y are not identical
+* A statement about exactly n items can be seen to be the conjunction of a statement about at least n items and a statement about at most n items
+
+# Definite Descriptions
+* Definite descriptions are like names in that they identify only one thing, but unlike names they do so by describing a situation or relationship that only that one thing satisfies
+* A statement that incorporates a definite description asserts three things:
+	* an item of a certain sort exists
+	* there is only one such item
+	* that item has the attribute assigned to it by the statement
 
 # See also
 
