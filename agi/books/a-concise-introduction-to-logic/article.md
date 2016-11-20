@@ -739,6 +739,30 @@ $$
 	* there is only one such item
 	* that item has the attribute assigned to it by the statement
 
+## 9 Analogy and Legal and Moral Reasoning
+## 9.1 Analogical Reasoning
+* Analogical reasoning is reasoning that depends on a comparison of instances
+* If the instances are sufficiently similar, the decision reached in the end is usually a good one; but if they are not sufficiently similar, the decision may not be good
+* Analogical arguments are closely related to generalizations
+* In any argument from analogy, the items that are compared are called analogues
+	* Primary analogue: An analogue mentioned in the premise
+	* Secondary analgoue: An analogue mentioned in the conclusion
+* Principles that are useful for evaluating most arguments from analogy:
+	* The relevance of the similarities shared by the primary and secondary analogues: The more relevant the similarities between primary and secondary analogues, the stronger the argument
+	* The number of similarities: The greater the number of similarities between primary and secondary analogues, the stronger the argument
+	* The nature and degree of disanalogy: Differences between primary and secondary analogues are disanalogies, which can either strenghten or weaken the argument
+	* The number of primary analogues: The greater the number of similar primary analogues, the stronger the argument; dissimilar primary analogues are counteranalogies, which weaken the argument
+	* The diversity among the primary analogues: The more diverse the primary analogues, the stronger the argument
+	* The specificity of the conclusion: The more specific the conclusion, the weaker the argument
+
+## 9.2 Legal Reasoning
+* An essential feature of the English system is its dependence on precedent
+	* According to the requirement of precedent, similar cases must be decided similarly
+* Many of the arguments that occur in law are arguments from analogy
+* Analogical arguments that occur in law differ from the farily simple analogies in at least two important ways:
+	* Modes of similarity between cases are often the result of highly creative thinking by lawyers and judges, and the relevance of these similarities to the proposed conclusion is nearly always debatable
+	* Primary analogues in law do not all have equal weight
+
 # See also
 
 # References
