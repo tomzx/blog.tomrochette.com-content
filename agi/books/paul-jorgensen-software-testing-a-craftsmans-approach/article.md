@@ -380,6 +380,57 @@ taxonomy:
 ## 14.6.4 Incidence with Classes
 * Develop an incidence matrix showing which classes are needed to support which use cases
 
+## 14.8 Supplemental Approaches to System Testing
+## 14.8.1 Operational Profiles
+* Zipf's law (applied to system testing): For a system with many threads, 80% of the execution traverses only 20% of the threads
+* The distribution of faults in a system is only indirectly related to the reliability of the system
+* The simplest view of system reliability is the probability that no failure occurs during a specific time interval
+* The idea of operational profiles is to determine the execution frequencies of various threads and to use this information to select threads for system testing
+
+## 14.8.2 Risk-Based Testing
+* Risk-based testing is a refinement of operational profiles
+* Risk = cost * (probability of occurrence)
+* Steps to risk-based testing
+	* Group the system into risk categories
+		* Four risk categories suggested
+			* Catastrophic
+			* Damaging
+			* Hindering
+			* Annoying
+	* Assess cost weighting
+		* Logarithmic weighting is suggested
+			* 1 for low cost of failure
+			* 3 for medium
+			* 10 for high
+
+
+## 15 Object-Oriented Testing
+* One of the original hopes for object-oriented software was that objects could be reused without modification or additional testing. This was based on the assumption that well-conceived objects encapsulate functions and data "that belong together," and once such objects are developed and tested, they become reusable components
+
+## 15.1 Issues in Testing Object-Oriented Software
+## 15.1.1 Units for Object-Oriented Testing
+* A unit is the smallest software component that can be compiled and executed
+* A unit is a software component that would never be assigned to more than one designer to develop
+
+## 15.1.2 Implications of Composition and Encapsulation
+* The main implication of composition is that, even presuming very good unit-level testing, the real burden is at the integration testing level
+* Good encapsulation results in classes that can more easily be composed (and thus reused) and tested
+
+## 15.1.3 Implications of Inheritance
+* If a given class inherits attributes and/or operations from super classes, the stand-alone compilation criterion of a unit is sacrificed
+	* Binder suggests "flattened classes" as an answer. A flattened class is an original class expanded to include all the attributes and operations it inherits
+
+## 15.1.4 Implications of Polymorphism
+* Considering classes as units implies that any issues of polymorphism will be covered by the class/unit testing
+* The redundancy of testing polymorphic operations sacrifices hoped-for economies
+
+## 15.1.5 Levels of Object-Oriented Testing
+* Four levels
+	* Operation/method (unit testing)
+	* Class (intraclass)
+	* Integration (interclass)
+	* System
+
 # See also
 
 # References
