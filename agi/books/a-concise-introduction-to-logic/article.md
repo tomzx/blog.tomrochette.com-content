@@ -763,6 +763,60 @@ $$
 	* Modes of similarity between cases are often the result of highly creative thinking by lawyers and judges, and the relevance of these similarities to the proposed conclusion is nearly always debatable
 	* Primary analogues in law do not all have equal weight
 
+## 10 Causality and Mill's Methods
+## 10.1 "Cause" and Necessary and Sufficient Conditions
+* The word "cause" can have one of three different meanings:
+	* Sufficient condition
+	* Necessary condition
+	* Sufficient and necessary condition
+* If we are trying to prevent a certain phenomenon from happening, we usually search for a cause that is a necessary condition, and if we are trying to produce a certain phenomenon, we usually search for a cause that is a sufficient condition
+* An important point is that whenever an event occurs, at least one sufficient condition is present and all the necessary conditions are present
+* The conjunction of the necessary conditions is the sufficient condition that actually produces the event
+* A is a sufficient condition for B: A's occurrence requires B's occurrence
+* A is a necessary condition for B: B's occurrence requires A's occurrence
+* A is not a sufficient condition for B: A is present when B is absent
+* A is not a necessary condition for B: A is absent when B is present
+
+## 10.2 Mill's Five Methods
+* Five methods for identifying causal connections between events
+	* Method of agreement
+	* Method of difference
+	* Joint method of agreement and difference
+	* Method of residues
+	* Method of concomitant variation
+
+### Method of Agreement
+* Consists in a systematic effort to find a single factor that is common to several occurrences for the purpose of identifying that factor as the cause of a phenomenon present in the occurrences
+* A condition is not necessary for the occurrence of a phenomenon if that condition is absent when the phenomenon is present
+* The strength of the argument depends on the nonoccurrence of other possibilities
+* A conclusion reached by the method of agreement has limited generality. It applies directly only to those occurrences listed, and only indirectly, through a second inductive inference, to others
+
+### Method of Difference
+* Consists in a systematic effort to identify a single factor that is present in an occurrence in which the phenomenon in question is present, and absent from an occurrence in which the phenomenon is absent
+* The method is confined to investigating exactly two occurrences, and it identifies a cause in the sense of a sufficient condition
+* The conclusion yielded by the method of difference is only probable, however, even for the one occurrence to which it directly applies
+
+### Joint Method of Agreement and Difference
+* Consists of a systematic effort to identify a single condition that is present in two or more occurrences in which the phenomenon in question is present and that is absent from two or more occurrences in which the phenomenon is absent
+	* In addition, the condition must never be present when the phenomenon is absent nor absent when the phenomenon is present
+* When any of these methods is used as a basis for subsequent inductive generalization, the strength of the conclusion is proportional to the number of occurrences that are included
+
+### Method of Residues
+* Consists of separating from a group of causally connected conditions and phenomena those strands of causal connection that are already known, leaving the required causal connection as the "residue"
+
+### Method of Concomitant Variation
+* Identifies a causal connection between two conditions by matching variations in one condition with variations in another
+* The existence of a mere correlation between two phenomena is never sufficient to identify a causal connection
+* The method of concomitant variation is useful when it is impossible for a condition to be either wholly present or wholly absent, as was required for the use of the first three of Mill's methods
+
+## 10.3 Mill's Methods and Science
+* The method of difference is virtually identical to the method of controlled experiment
+* A controlled experiment is one that involves two groups of subjects: an experimental group and a control group
+	* The experimental group includes the subjects that receive a certain treatment
+	* The control group includes the subjects that do not receive the treatment but are otherwise subjected to the same conditions as the experimental group
+* The purpose of the method of difference is to determine whether a preselected condition is the cause of a phenomenon
+* The purpose of the joint method is to determine which condition, among a selected class of conditions, is a cause of a phenomenon
+
 # See also
 
 # References
