@@ -431,6 +431,66 @@ taxonomy:
 	* Integration (interclass)
 	* System
 
+## 16 Software Complexity
+* Most discussions of software complexity focus on two main models - cyclomatic (or decisional) complexity, and textual complexity as measured by the Halstead metrics
+
+## 16.1 Unit-Level Complexity
+## 16.1.1 Cyclomatic Complexity
+## 16.1.1.2 Node Outdegrees and Cyclomatic Complexity
+* The reduced outdegree of a node n in a directed graph is one less than the outdegree of n
+	* reducedOut(n) = outDeg(n) - 1
+* Theorem: Given a directed graph G of n nodes, the cyclomatic complexity V(G) of G is given by the sum of the reduced outdegrees of the nodes of G plus 1
+
+$$
+V(G) = 1 + \sum_{i=1}^n \textrm{reducedOut}(i)
+$$
+
+## 16.1.2 Computational Complexity
+## 16.1.2.1 Halstead's Metrics
+* The number of distinct operators, $n_1$
+* The number of distinct operands, $n_2$
+* The total number of operators, $N_1$
+* The total number of operands, $N_2$
+* Program length $N = N_1 + N_2$
+* Program vocabulary $n = n_1 + n_2$
+* Program volume $V = N\log_2(n)$
+* Program difficulty $D = (n_1N_2)/2n_2$
+
+## 16.4 Object-Oriented Complexity
+## 16.4.1 WMC - Weighted Methods per Class
+* Counts the number of methods in a class and weights them by their cyclomatic complexity
+* This metric is a good predictor of implementation and testing effort
+
+## 16.4.2 DIT - Depth of Inheritance Tree
+* Large values of the DIT metric imply good reuse
+* It also increases testing difficulty
+* Current guidelines recommend a limit of DIT = 3
+
+## 16.4.3 NOC - Number of Child Classes
+
+## 16.4.4 CBO - Coupling between Classes
+* Coupling is increased when one unit refers to variables in another unit
+
+## 16.4.5 RFC - Response for Class
+* The length of the message sequence that results from an initial message
+
+## 16.4.6 LCOM - Lack of Cohesion of Methods
+* The number of methods that use a given instance variable in the class, and is computed for each instance variable
+
+## 17 Model-Based Testing for Systems of Systems
+## 17.1 Characteristics of Systems of Systems
+* Initial definition
+	* A "super system"
+	* A collection of cooperating systems
+	* A collection of autonomous systems
+	* A set of components systems
+* Maier begins his distinction by noting two fundamental differences: systems of systems are either directed or collaborative
+* More specific attributes
+	* They are built from components that are (or can be) independent systems
+	* They have managerial/administrative independence
+	* They are usually developed in an evolutionary way
+	* They exhibit emergent (as opposed to preplanned) behaviors
+
 # See also
 
 # References
