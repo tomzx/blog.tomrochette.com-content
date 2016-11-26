@@ -3,7 +3,7 @@ title: Paul Jorgensen - Software Testing: A Craftsman's Approach (2008)
 created: 2016-10-20
 taxonomy:
   category: [Artificial General Intelligence]
-  status: in progress
+  status: finished
 ---
 
 ## Context
@@ -490,6 +490,94 @@ $$
 	* They have managerial/administrative independence
 	* They are usually developed in an evolutionary way
 	* They exhibit emergent (as opposed to preplanned) behaviors
+* Maier's definition
+	* A directed system of systems is designed, built, and managed for a specific purpose
+	* A collaborative system of systems has limited centralized management and control
+	* A virtual system of systems has no centralized management and control
+* Two essential requirements that a potential system of systems must satisfy:
+	* The constituent systems must be stand-alone systems in their own right
+	* Each constituent has administrative independence from the other constituents
+
+## 18 Exploratory Testing
+## 18.1 Exploratory Testing Explored
+* Five essential characteristics of exploratory testing:
+	* It is interative
+	* It involves concurrent cognition and execution
+	* It is highly creative
+	* It intends to produce results quickly
+	* It reduces the traditional emphasis on formal test documents
+* A professor giving an oral examination to a student
+	* The first similarity is that the professor clearly has extensive domain knowledge
+	* Second, the professor wishes to explore the extent to which the student has mastered the subject matter
+	* The third, and most instructive, similarity is that, when the student shows a weakness, the professor asks follow-up questions to explore the extent of the weakness; thus, knowledge gained from the answer to one question provokes a related question
+	* This pattern is called adaptive testing
+
+## 21 Evaluating Test Cases
+* How can a set of test cases be tested? One answer has been around for more than 30 years - mutation testing
+	* A more recent addition, "fuzzing," is closer to random testing
+
+### 21.1 Mutation Testing
+* Mutation testing begins with a unit and a set of test cases for that unit, such that all the test cases pass when executed. Then a small change is made to the original unit, and the test cases are run on the mutant. If all the test cases pass, we know that the mutant was undetected. At this point tehre are two possibilities - either the small change resulted in a logically equivalent program, or the set of test cases was incapable of detecting the change
+* This raises one of the problems of mutation testing - identification of equivalent mutants
+
+## 21.1.1 Formalizing Program Mutation
+* A mutant P' of a program P is the result of making a change to the source code of the original program P
+* Given a program P, a mutant P', a set of test cases T such that every $t \in T$ passes for P, the mutant P' is killed if at least one test case $t \in T$ fails
+* Given a program P, a mutant P', a set of test cases T such that every $t \in T$ passes for both P and P', the mutant P' is considered to be a live mutant
+* Suppose a program P, and a set M of mutations of P, and a set of test cases T results in x killed mutants out of y total mutants in M. Then, the ratio x/y is the mutation score of P with respect to M
+	* Higher values of mutation score increase the confidence in the utility of the original test set T
+
+## 21.2 Fuzzing
+* "Fuzzers" are programs that present random strings of characters as inputs to both command line and interactive applications
+* The random strings are an advantage in that they can reveal situations a tester would never think of
+
+## 22 Software Technical Reviews
+## 22.2 Roles in a Review
+## 22.2.1 Producer
+* This is the person who created the work product being examined
+* At the end of all types of technical reviews, the producer will be the person who resolves the action items identified during the review meeting
+
+## 22.2.2 Review Leader
+* Review leaders are responsible for the overall success of the review
+* They have the following duties:
+	* Schedule the actual review meeting
+	* Ensure that all membersof the review team have the appropriate review materials
+	* Conduct the actual review meeting
+	* Write the review report
+* A poorly run business meeting:
+	* Participants see them as a waste of time
+	* The wrong peoplea re at the meeting
+	* There is no agenda, or if there is, it is not followed
+	* There is no prior preparation
+	* No issues are identified
+	* The discussion is easily side-tracked
+	* Time is spent fixing problems rather than just identifying them
+
+## 22.2.3 Recorder
+* The recorder takes notes during the review meeting
+
+## 22.2.4 Reviewer
+* The individual reviewers are responsible for objectively reviewing the work product
+* The reviewers identify issues and assign a severity level to each item
+* Before the review meeting, each reviewer submits a review ballot that contains the following information:
+	* Reviewer name
+	* Review preparation time
+	* A list of issues with severity
+	* An overall review disposition recommendation (OK as is, accept with minor rework, major rework with a new review needed)
+
+## 22.3 Types of Reviews
+* There are three fundamental types of software reviews
+	* Walkthroughs
+	* Technical inspections
+	* Audits
+* Reasons to conduct a review:
+	* Communication among developers
+	* Training, especially for new personnel, or for personnel recently added to the project
+	* Management progress reporting
+	* Defect discovery
+	* Performance evaluation (of the work product producer)
+	* Team morale
+	* Customer (re)assurance
 
 # See also
 
