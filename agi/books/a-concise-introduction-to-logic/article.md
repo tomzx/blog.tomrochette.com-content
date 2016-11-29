@@ -1,5 +1,5 @@
 ---
-title: Patrick J. Hurley - A Concise Introduction to Logic
+title: Patrick J. Hurley - A Concise Introduction to Logic - 2014
 created: 2016-06-18
 taxonomy:
   category: [Artificial General Intelligence]
@@ -816,6 +816,104 @@ $$
 	* The control group includes the subjects that do not receive the treatment but are otherwise subjected to the same conditions as the experimental group
 * The purpose of the method of difference is to determine whether a preselected condition is the cause of a phenomenon
 * The purpose of the joint method is to determine which condition, among a selected class of conditions, is a cause of a phenomenon
+
+## 11 Probability
+## 11.1 Theories of Probability
+* Three distinct theories about probability:
+	* The classical theory
+	* The relative frequency theory
+	* The subjectivist theory
+* According to the classical theory, the probability of an event A is given by the formula $P(A) = \frac{f}{n}$, where $f$ is the number of favorable outcomes and $n$ is the number of possible outcomes
+* Two assumptions are involved in computing probabilities and betting odds according to the classical theory:
+	* All possible outcomes are taken into account
+	* All possible outcomes are equally probable (principle of indifference)
+* The relative frequency theory depends on actual observations of the frequency with which certain events happen
+* The probability of an event A is given by the formula $P(A) = \frac{f_o}{n_o}$, where $f_o$ is the number of observed favorable outcomes and $n_o$ is the total number of observed outcomes
+* The subjectivist theory of probability rests on the degrees of belief that people have about the occurrence of some event or the truth of some proposition
+
+## 11.2 The Probability Calculus
+* Two preliminary rules of the probability calculus:
+	* The probability of an event that must necessarily happen is taken to be 1
+	* The probability of an event that necessarily cannot happen is taken to be 0
+
+### Restricted Conjunction Rule
+* Used to compute the probability of two events occurring together when the events are independent of each other
+* Two events are said to be independent when the occurrence of one has no effect on the probability of the other one occurring
+
+$$P(A\ \mathrm{and}\ B) = P(A) \times P(B)$$
+
+### General Conjunction Rule
+* Used to compute the probability of two events occurring together whether or not the events are independent
+* When the events are independent, the general conjunction rule reduces to the restricted conjunction rule
+
+$$P(A\ \mathrm{and}\ B) = P(A) \times P(B \mathrm{given}\ A)$$
+
+### Restricted Disjunction Rule
+* Used to compute the probability of either two events occurring when the events are mutually exclusive
+
+$$P(A\ \mathrm{or}\ B) = P(A) + P(B)$$
+
+### General Disjunction Rule
+* Used to compute the probability of either of two events whether or not they are mutually exclusive
+
+$$P(A\ \mathrm{or}\ B) = P(A) + P(B) - P(A\ \mathrm{and}\ B)$$
+
+* If the events are independent, $P(A\ \mathrm{and}\ B)$ is computed using the restricted conjunction rule, and the geenral disjunction formula reduces to
+
+$$P(A\ \mathrm{or}\ B) = P(A) + P(B) - [P(A) \times P(B)]$$
+
+### Negation Rule
+* Useful for computing the probability of an event when the probability of the event not happening is either known or easily computed
+
+$$P(A) = 1 - P(not-A)$$
+
+### Bayes's Theorem
+* Useful for evaluating the conditional probability of two or more mutually exclusive and jointly exhaustive events
+* The conditional probability of an event is the probability of that event happening given that another event has already happened, and it is expressed P(A given B)
+
+$$P(A_1\ \mathrm{given}\ B) = \frac{P(A_1) \times P(B\ \mathrm{given}\ A_1)}{[P(A_1) \times P(B\ \mathrm{given}\ A_1)] + [P(A_2) \times P(B\ \mathrm{given}\ A_2)]}$$
+
+## 12 Statistical Reasoning
+## 12.1 Evaluating Statistics
+* Five areas that are frequent sources of ambiguity and deception
+	* Problems in sampling
+	* The meaning of "average"
+	* The importance of dispersion in a sample
+	* The use of graphs and pictograms
+	* The use of percentages for the purpose of comparison
+
+## 12.2 Samples
+* Samples that are not representative are said to be biased samples
+* Different considerations enter into determining whether a sample is biased. These considerations include
+	* whether the sample is randomly selected
+	* the size of the sample
+	* psychological factors
+* A random sample is one in which every member of the population has an equal chance of being selected
+* The larger the sample, th emore closely it replicates the population
+* The sampling error is the difference between the relative frequency with which some characteristic occurs in the sample and the relative frequency with which the same characteristic occurs in the population
+* If a much lower confidence level should be selected, and if this fact is not disclosed, then the results of a poll could be deceptive - even if the margin of error is stated. The reason for this is that the margin of error would be combined with a low likelihood that it covered any actual discrepancy between the sample and the population
+* Psychological factors can also have a bearing on whether the sample is representative
+* If the people composing the sample think that they will gain or lose something by the kind of answer they give, their involvement will likely affect the outcome
+* Another source of psychological influence is the personal interaction between the surveyor and the respondent
+* To prevent this kind of interaction from affecting the outcome, scientific studies are often conducted under "double-blind" conditions in which neither of the surveyor nor the respondent know what the "right" answer is
+* If either the organization conducting the study or the people composing the sample have something to gain by the kind of answer that is given, the results of the survey should be regarded as suspect
+
+## 12.3 The Meaning of "Average"
+* In statistics the word "average" is used in three different senses: mean, median, and mode
+* The mean value of a set of data is the arithmetical average
+	* It is computed by dividing the sum of the individual values by the number of values in the set
+* The median of a set of data is the middle point when the data are arranged in ascending order
+* The mode is the value that occurs with the greatest frequency
+
+## 12.4 Dispersion
+* Refers to how spread out the data are in regard to numerical value
+* Three important measures of dispersion are range, variance, and standard deviation
+* Range: the difference between the largest and the smallest values
+* Variance or standard deviation: measures how every data point varies or deviates from the mean
+
+## 12.5 Graphs and Pictograms
+* If a graph is to represent an actual situation, it is essential that both the vertical and horizontal axes be scaled
+* A pictogram is a diagram that compares two situations through drawings that differ either in size or in the number of entities depicted
 
 # See also
 
