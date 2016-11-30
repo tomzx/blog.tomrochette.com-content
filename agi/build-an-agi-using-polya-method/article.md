@@ -13,6 +13,7 @@ Polya's How to Solve It[^1] is considered by many a reference on how to teach ma
 ## Learned in this study
 
 ## Things to explore
+* Is intelligence innate or acquired? If it is acquired, how much of it has to do with our genes and with our education?
 
 # Overview
 
@@ -43,6 +44,7 @@ Polya's How to Solve It[^1] is considered by many a reference on how to teach ma
 		* the ability to abstract/generalize from examples in an efficient manner and to apply its knowledge to newer situations through analogy
 		* the ability to process information as efficiently as possible while making use of it in the most effective manner (determined by the environment)
 		* the ability to judge and evaluate the pertinence of information
+		* the ability to make links or establish relations between things
 
 ## What are you asked to find out show?
 * That AGI is possible
@@ -69,13 +71,12 @@ No, maybe, we know that biology is able to produce natural general intelligence 
 	* Determine what those ingredients are
 
 ## Intelligence
-*TODO: evaluate what can I'd essential and what can be derived*
+*TODO: evaluate what is essential and what can be derived*
 * Constructed on experience
 * Non random
 * Is evaluable (can be ordered in one of many domains)
 * The ability to evaluate the value of its own ideas (to build its own evaluation functions)
 * The ability to do mathematical induction reasoning (causality)
-
 * The ability to set goals
 * The ability to evaluate the potential of a set of goals to determine the most promising ones
 
@@ -96,9 +97,13 @@ No, maybe, we know that biology is able to produce natural general intelligence 
 	* Instantaneous intelligence vs intelligence (similar to instantaneous speed vs speed)
 		* There might also be the concept of position, speed and acceleration for intelligence
 * Is intelligence about learning?
+	* According to keyword density of all the definitions in [^2], intelligence would have to do with the ability/capability to learn and form knowledge in some environment
 * What is adaptability about?
 
 # See also
 
-# Sources
+# References
 [^1]: https://en.wikipedia.org/wiki/How_to_Solve_It
+[^2]: http://arxiv.org/abs/0706.3639
+
+* http://dendwrite.blogspot.ca/2016/06/on-intelligence-and-intelligent-design.html
