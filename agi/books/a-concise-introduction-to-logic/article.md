@@ -941,6 +941,46 @@ $$P(A_1\ \mathrm{given}\ B) = \frac{P(A_1) \times P(B\ \mathrm{given}\ A_1)}{[P(
 * How does the hypothetical reasoning that occurs in science differ from other modes of hypothetical reasoning?
 	* Scientific tests always involve the measurement of something, and the results of that measurement are nearly always expressed in the language of mathematics
 
+## 13.3 The Proof of Hypotheses
+* Empirical hypotheses concern the production of some thing or the occurrence of some event that can be observed
+* Theoretical hypotheses concern how something should be conceptualized
+* Empirical hypotheses are for all practical purposes proved when the thing or event hypothesized is observed
+* Theoretical hypotheses are never proved but are only confirmed to varying degrees
+	* The greater the number of implications that are found to be correct, the more certain we can be of the hypothesis
+* If an implication is found to be incorrect, a theoretical hypothesis can be disproved
+
+## 13.4 The Tentative Acceptance of Hypotheses
+* Adequacy is the extent to which a hypothesis fits the facts it is intended to unify or explain
+	* If one hypothesis accounts for a set of data with greater accuracy than another, then that hypothesis is more adequate than the other
+	* Does the hypothesis fits the facts?
+* Internal coherence is the extent to which the component ideas of a hypothesis are rationally interconnected
+	* Are the components ideas interconnected?
+* External consistency occurs when a hypothesis does not disagree with other, well-confirmed hypotheses
+	* Are there conflicts with other hypotheses?
+* Fruitfulness is the extent to which a hypothesis suggests new ideas for future analysis and confirmation
+	* Are new ideas suggested for future analysis?
+
+## 14 Science and Superstition
+## 14.1 Distinguishing Between Science and Superstition
+* Both science and superstition involve hypotheses
+* The distinction between science and superstition also involves psychological and volitional elements
+
+## 14.2 Evidentiary Support
+* Do books count as evidence? If books are credible reports of measurements expressed mathematically, then they can be accepted as conveyance of evidence
+* A kind of evidence that is considered unreliable is anecdotal evidence
+* One of the key features of scientific evidence gathering is that an experiment be replicable under controlled conditions
+	* Replicability helps ensure that the outcome of the experiment did not result from anything peculiar to one certain experimenter operating at a single place and time
+	* The controlled conditions are designed to eliminate the influence of extraneous factors
+* A defect found in superstitious hypotheses is that they are often framed so vaguely that it is virtually impossible to provide any kind of unequivocal confirmation
+* The hypotheses of science are often framed in the language of mathematics, or they can at least be translated into some mathematical expression
+* Closely related to the problem of vagueness is the breadth with which a hypothesis is framed. If a hypothesis is framed so broadly and comprehensively that even condictory evidence serves to confirm it, then the hypothesis is not really confirmed by anything
+* Any genuinely scientific hypothesis must be framed narrowly enough so that it forbids certain things from happening
+	* The hypothesis must be falsifiable
+* The problem with ad hoc modifications is that their purpose is to shore up a failure of evidentiary support in the original hypothesis
+	* As more and more modifications are added, the hypothesis becomes self-supporting; it becomes a mere description of the phenomenon it is supposed to explain
+* Another problem with ad hoc modifications is that they result in hypotheses that are so complicated that applying them becomes difficult
+* One of the surest ways to know that our hypotheses are supported by evidence is that they lead to predictions that turn out to be true
+
 # See also
 
 # References
