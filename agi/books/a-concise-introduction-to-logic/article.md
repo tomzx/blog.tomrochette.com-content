@@ -914,6 +914,32 @@ $$P(A_1\ \mathrm{given}\ B) = \frac{P(A_1) \times P(B\ \mathrm{given}\ A_1)}{[P(
 ## 12.5 Graphs and Pictograms
 * If a graph is to represent an actual situation, it is essential that both the vertical and horizontal axes be scaled
 * A pictogram is a diagram that compares two situations through drawings that differ either in size or in the number of entities depicted
+* Failure to scale the axes
+* Chopping off the bottom of the graph
+* Altering the scale of the axes
+
+## 12.6 Percentages
+* The problem stems from the fact that a different base is used for the two percentages
+* The fallacy committed by such arguments is a variety of equivocation
+* A different kind of fallacy occurs when a person attempts to add percentages as if they were cardinal numbers
+* The fallacy committed by such arguments would probably be best classified as a case of missing the point
+
+## 13 Hypothetical/Scientific Reasoning
+## 13.1 The Hypothetical Method
+* An explanation is a kind of expression that purports to shed light on some event
+* Hypothesis: an informed conjecture
+* Hypothetical reasoning: the reasoning process you use to produce an hypothesis, draw an implication, and test the implication
+* The hypothetical method involves four basic stages:
+	* Occurrence of a problem
+	* Formulating a hypothesis
+	* Drawing implications from the hypothesis
+	* Testing the implications
+* The additional points about hypotheses:
+	* A hypothesis is not derived from the evidence to which it pertains but rather is added to the evidence
+	* A hypothesis directs the search for evidence
+	* Concluding that a hypothesis is proven true by the discovery that one of its implications is true amounts to committing the fallacy of affirming the consequent
+* How does the hypothetical reasoning that occurs in science differ from other modes of hypothetical reasoning?
+	* Scientific tests always involve the measurement of something, and the results of that measurement are nearly always expressed in the language of mathematics
 
 # See also
 
