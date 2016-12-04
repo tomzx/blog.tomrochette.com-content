@@ -210,12 +210,12 @@ Francesco Zanoni
 ### The heuristic of George Polya and its relation to artificial intelligence (2016-06)
 Allen Newell
 
-### Neuroscience: Exploring the Brain (2016-06 - ?)
+### Neuroscience: Exploring the Brain (2016-06 - 2016-11)
 Mark F. Bear
 Barry W. Connors
 Michael A. Paradiso
 
-### A Concise Introduction to Logic (2016-06 - ?)
+### A Concise Introduction to Logic (2016-06 - 2016-12)
 Patrick J. Hurley
 
 ### A Hypothetical Dialogue Exhibiting a Knowledge Base For a Program-Understanding System (2016-06 - 2016-07)
@@ -296,7 +296,7 @@ J. Roland Olsson
 ### Can Intelligence Explode? (2016-09)
 Marcus Hutter
 
-### A Complete Theory of Everything (will be subjective) (2016-09 - ?)
+### A Complete Theory of Everything (will be subjective) (2016-09)
 Marcus Hutter
 
 ### Automated test generator (2016-09 - ?)
@@ -308,5 +308,11 @@ My research into static analysis is related to my research on automated programm
 ### Automating Software Testing Using Program Analysis (2016-10)
 Patrice Godefroid
 
-### Software Testing: A Craftsman's Approach (2016-10 - ?)
+### Software Testing: A Craftsman's Approach (2016-10 - 2016-11)
 Paul Jorgensen
+
+### Advanced Symbolic Analysis for Compilers (2016-10 - 2016-11)
+Thomas Fahringer
+
+### Principles of Program Analysis (2016-10 - ?)
+Flemming Nielson
