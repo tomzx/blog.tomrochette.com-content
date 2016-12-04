@@ -3,7 +3,7 @@ title: Patrick J. Hurley - A Concise Introduction to Logic - 2014
 created: 2016-06-18
 taxonomy:
   category: [Artificial General Intelligence]
-  status: in progress
+  status: finished
 ---
 
 ## Context
@@ -980,6 +980,18 @@ $$P(A_1\ \mathrm{given}\ B) = \frac{P(A_1) \times P(B\ \mathrm{given}\ A_1)}{[P(
 	* As more and more modifications are added, the hypothesis becomes self-supporting; it becomes a mere description of the phenomenon it is supposed to explain
 * Another problem with ad hoc modifications is that they result in hypotheses that are so complicated that applying them becomes difficult
 * One of the surest ways to know that our hypotheses are supported by evidence is that they lead to predictions that turn out to be true
+
+## 14.3 Objectivity
+* Our beliefs about the world are objective to the extent that they are unaffected by conditions peculiar to the experiencing subject
+* The chief emotions that give rise to superstitious beliefs are fear and anxiety, and they are often reinforced by a disposition to fantasy and mental laziness
+* In the natural sciences, much if not most observation occurs through instruments. The results are then recorded on relatively permanent media such as photographic film, or digital storage devices
+* In the social sciences, techniques such as double-blind sampling and statistical analysis of data insulate the observer from the outcome of the experiment
+
+## 14.4 Integrity
+* Our efforts to understand the world in which we live have integrity to the extent that they involve honesty in gathering and presenting evidence and honest, logical thinking in responding to theoretical problems that develop along the way
+* Most forms of superstition involve elements of dishonesty in gathering evidence or a failure of logic in responding to theoretical problems
+* The most severe lack of integrity arises when the evidence is faked
+* Any absence of a causal connection is a defect in coherence, because it signals the lack of a connection between ideas functioning in a hypothesis
 
 # See also
 
