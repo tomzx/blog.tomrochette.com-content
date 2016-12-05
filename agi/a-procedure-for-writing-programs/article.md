@@ -58,6 +58,6 @@ Most of the time a single straightfoward solution will fit the bill for all the 
 * Plan for the solution to be potentially replaced by another one
 
 # See also
-* [Automated programming](automated-programming)
+* [Automated programming](../automated-programming)
 
-# Sources
+# References
