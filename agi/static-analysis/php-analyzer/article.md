@@ -82,7 +82,11 @@ The "must" cases are the linear cases, in other words, any sequence of code (no 
 * [MustBeReachingDef Analysis](#mustbereachingdef-analysis)
 
 ### ReturnTypeScanningPass
-Scans only functions and methods in order to determine the type of returned values. If no return is explicitly defined, returns null. Constructs a union of all type potential types that could be returned by the analyzed function/method.
+Scans only functions and methods in order to determine the type of returned values. If no return is explicitly defined, returns null. Constructs a union of all potential types that could be returned by the analyzed function/method.
+
+#### Prerequisites
+* [TypeInferencePass](#type-inference-pass)
+* [VariableReachabilityPass](#variable-reachability-pass)
 
 #### Uses
 * [Type registry](#type-registry)
@@ -299,6 +303,6 @@ Used to verify that a given function, with the given arguments, is properly call
 # See also
 * [Static analysis](../)
 
-# Sources
+# References
 * [PHP Analyzer](https://github.com/scrutinizer-ci/php-analyzer/tree/legacy)
 * [Scrutinizer-ci documentation on PHP Analyzer](https://scrutinizer-ci.com/docs/tools/php/php-analyzer/)
