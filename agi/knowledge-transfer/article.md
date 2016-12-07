@@ -11,9 +11,10 @@ taxonomy:
 ## Learned in this study
 
 ## Things to explore
+* How can one be aware of information without processing it?
+	* If a human has a virtual assistant (another human or an AGI), how can they share information in the most efficient manner?
 
 # Overview
-
 ** How can one transfer the models in his brain/mind in an efficient, low time-active (using as little brain cycles as possible) manner?**
 * Type down everything that is in one's mind in a document
 * Say aloud everything that is in one's mind and record it in audio documents so that programs may be executed on the content to extract and generate models
@@ -25,7 +26,6 @@ taxonomy:
 	* Gradual replacement
 
 # Notes on building a graph only using pairs
-
 The premise of this section is that at a high level, the brain stores concepts and relations between them. One simple model of such structure is the pair, where two concepts are related to one another through an anonymous relation.
 
 Here we explore how we could efficiently build a graph composed of such concepts and relations and what operations it is possible to apply on such graph.
@@ -66,6 +66,8 @@ Here we explore how we could efficiently build a graph composed of such concepts
 * Is the graph view the most appropriate to view and edit this type of information? Would a text visualization be as appropriate?
 	* The most appropriate? At this point in time, it seems appropriate, however being the **most** appropriate, I am unsure
 	* A text visualization may be as appropriate when visualizing first degree concepts, but as soon as we increase the depth of the visualization, it becomes less and less valuable/easy to understand
+	* When editing first degree concepts, the main concept is "the title", while all of its relations are "bullet points"
+		* Reciprocally, if you were to click on any of the related concepts, you would be brought to that concept list of relations, which would contain the concept you came from
 * Is there any value in suggesting elements related to an element that was just added?
 	* In general, the answer would be no: when defining a new concept as part of a hierarchy, if it is properly placed, then it should be mutually exclusive with its siblings and be transitively related to the abstractions of the concept it was attached to
 	* However a concept such as a person may relate to other people and so, by linking a person to another, it is likely that they share similar friends, parents, siblings, coworkers, etc.
@@ -129,6 +131,10 @@ Summer
 #### Capabilities
 * Answer queries such as: "Do I know about Jack/School/Car/Sun/Summer?"
 
+#### Process
+* Scan documents and recognize entities
+* Build a list of said entities
+
 ### L1: (Anonymous) Relations
 At this layer we represent relations between concepts. These relations are however anonymous, in the sense that they contain no information other than the fact that two concepts are related.
 
@@ -149,6 +155,10 @@ We can see in this example that what can be considered relations (such as father
 
 #### Capabilities
 * Answer queries such as: "Is *Jack* related to *John*?" (Yes), "Is *Jack* related to the concept of *Man* or *Woman*?" (Yes, Man), "Is *John* a *Father*?" (No), "Is *Jack* related to something that is a *Teenager*?" (Yes), "What concepts are related to *Jack* and *Teenager* and *Son*?" (John)
+
+#### Process
+* Using the results from L1, attempt to build a relation graph between entities
+	* This process may be akin to the TSP, where instead of finding the optimal path through cities, we're trying to find the optimal relation set between entities
 
 ### L2: (Named) Relations
 ? Should relations be undirected(reciprocal) at this level or directed(unidirectional)?
@@ -173,6 +183,9 @@ Son Jack John
 
 #### Capabilities
 
+#### Process
+* From the results obtained through L1, we refine each and every relation by giving them a name
+
 # What is the fastest way to transfer information from the brain into text (or any app data format)?
 If we are to consider not only existing, but "possible" in the future options, here is what could be done, ordered from the fastest (hypothetical) to slowest (concrete).
 
@@ -190,4 +203,4 @@ Type down every bit of information you want to transfer into a computer software
 
 # See also
 
-# Sources
+# References
