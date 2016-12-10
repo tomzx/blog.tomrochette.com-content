@@ -48,6 +48,7 @@ As a software project matures, its low level functions should require to be chan
 * Computation/algorithm/implementation extraction
 * Notify programmer when modifying code that has clones
 * Check variable safety (against injection)
+* Notify programmer of operations that need to be done due to a change initied by him (e.g., function renaming, new function parameter, different return type, etc.)
 
 * Abstraction level assignment
 
@@ -56,16 +57,21 @@ As a software project matures, its low level functions should require to be chan
 
 ## Rule-based refactoring
 * Law of Demeter
-* Limit on functions/methods line count
-* Cyclomatic complexity
-* Limit on the parameter count of functions/methods
+* Maximum functions/methods line count
+* Maximum cyclomatic complexity
+* Maximum parameter count of functions/methods
 * Creation of classes for complex return types (prevent returning tuples or arrays)
 
-# See also
-* Clone detection
+## Extract method
+* Extract loop content (processing on a single item)
+* Extract conditions block (logic specific to a state)
 
-# Sources
+# See also
+* [Clone detection](../clone-detection)
+
+# References
 * https://www.jetbrains.com/resharper/features/code_refactoring.html.
 * https://en.wikipedia.org/wiki/Code_refactoring
 * http://autorefactor.org/
 * http://refactoring.com/
+* Zanoni, Francesco [Duplicated Code Refactoring Advisor (DCRA): a tool aimed at suggesting the best refactoring techniques of Java code clones](https://www.yumpu.com/en/document/view/37147031/6-duplicated-code-refactoring-advisor-dcra-essere)
