@@ -177,9 +177,59 @@ In order to extract meaningful features out of scientific articles, we need to d
 
 Given there is a maximum amount of different reference formats, smaller than the number of all valid permutations of the different token types supported, it is thus possible to inductively build a grammar that will allow us to extract the information within the reference correctly, every time.
 
+# Not classified
+* Paper/Not paper classifier
+* File hash (vs content hash)
+* Paper clustering
+* Display top X papers
+* Author publications per year
+* Author publication period
+* Author references per year
+* Paper keywords
+* Author keywords
+* Paper PR
+* Author PR
+* Recognize that two papers are the same but different iterations
+* Automatically collect new papers by authors/topics/based on a pool of papers
+* Rank papers by personal valuation
+* User the rank to determine the most interesting papers to share with the user
+* Paper summarization
+
+Growing the pool of papers
+* Extract authors
+* Extract keywords
+* Extract period
+* Extract establishment
+* Extract email domain name
+* Extract emails
+* Record from what combination of information a new paper was found from, where it was found, when, etc.
+
+Use case
+* Drop a bunch of papers in a web page
+* Papers are analyzed
+* Topics are suggested or given by the user
+* User ID asked to rank the papers
+* Papers are grouped by research project
+
+Agent keeps searching search engines regularly for updates
+* Google
+* Arxiv
+* Reddit
+
+What are the phases of a research?
+* Topic selection
+* Information collection
+* Elicitation of questions
+* Hypothesis
+* Experimentation/prototyping/development
+* Data collection
+* Paper writing
+* Formatting
+* Peer review
+
 # See also
 
-# Sources
+# References
 [^1]: Gold, E. Mark. "Language identification in the limit." Information and control 10.5 (1967): 447-474.
 
 * [SCIgen - An Automatic CS Paper Generator](https://pdos.csail.mit.edu/archive/scigen/)
