@@ -32,7 +32,6 @@ taxonomy:
 	4. Return to step 1.
 
 ## Notes
-
 * GET/PUT functions to retrieve/update data
 * Calls to GET should specify the reason behind the call (Existence, Length, Some, Up-to-date) and how much resources can be spent (Time, Cells, Queries)
 * Data has slots (attributes/fields/properties)
@@ -137,4 +136,4 @@ Contains heuristics for dealing with that facet of C
 
 # See also
 
-# Sources
+# References

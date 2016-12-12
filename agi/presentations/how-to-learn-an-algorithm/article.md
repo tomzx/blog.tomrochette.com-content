@@ -36,5 +36,5 @@ taxonomy:
 
 # See also
 
-# Sources
+# References
 * [How to Learn an Algorithm](https://www.youtube.com/watch?v=mF5-tr7qAF4)

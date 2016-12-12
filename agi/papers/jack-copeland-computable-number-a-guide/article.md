@@ -159,6 +159,6 @@ Also known as the halting theorem.
 
 # See also
 
-# Sources
+# References
 
 * Turing, Alan, and B. Jack Copeland. The Essential Turing Seminal Writings in Computing, Logic, Philosophy, Artificial Intelligence, and Artificial Life, plus the Secrets of Enigma. Oxford: Clarendon Press; 2004.

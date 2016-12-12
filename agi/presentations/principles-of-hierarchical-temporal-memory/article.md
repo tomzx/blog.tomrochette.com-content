@@ -198,7 +198,7 @@ graph LR;
 
 # See also
 
-# Sources
+# References
 
 * Video: https://www.youtube.com/watch?v=6ufPpZDmPKA
 * Slides: http://www.slideshare.net/numenta/2014-10-17-numenta-workshop

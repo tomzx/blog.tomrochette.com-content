@@ -96,4 +96,4 @@ Both devices seem to measure approximately the same amount of sleep. However the
 
 # See also
 
-# Sources
+# References

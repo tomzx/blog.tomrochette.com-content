@@ -22,7 +22,7 @@ Each article being uniquely identified by a URL, which allows us to *hopefully* 
 
 # Overview
 
-The goal of this article is to find means for people to track their knowledge through wikipedia as the source of common knowledge. As more and more people use a system in which this *knowledge* of knowledge is shared, it should be possible to develop tools such as "related pages" (a pool of page users that have visited a certain page also visited), "stereotypical users" (a *user* that is interested in AGI will look into these articles) and more based on users profiles. 
+The goal of this article is to find means for people to track their knowledge through wikipedia as the source of common knowledge. As more and more people use a system in which this *knowledge* of knowledge is shared, it should be possible to develop tools such as "related pages" (a pool of page users that have visited a certain page also visited), "stereotypical users" (a *user* that is interested in AGI will look into these articles) and more based on users profiles.
 
 # What should we track?
 
@@ -61,7 +61,7 @@ The *See also* section of articles contains a list of vetted related articles th
 
 ## Categories
 
-As the definition of *[categories](https://en.wikipedia.org/wiki/Help:Category)* of Wikipedia states very well: 
+As the definition of *[categories](https://en.wikipedia.org/wiki/Help:Category)* of Wikipedia states very well:
 
 > **Categories** are intended to group together pages on similar subjects.
 
@@ -79,7 +79,7 @@ With all this information in hand, it is now time to design an application that 
 
 # See also
 
-# Sources
+# References
 
 ## Wikipedia API endpoints
 * https://www.mediawiki.org/wiki/API:Categories

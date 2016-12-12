@@ -119,7 +119,7 @@ Then you build an assembly line by creating instances of the objects listed abov
 
 # See also
 
-# Sources
+# References
 
 ## PHP Bot libraries
 

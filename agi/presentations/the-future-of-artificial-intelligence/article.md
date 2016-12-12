@@ -70,5 +70,5 @@ If you've already seen Hamis Hassabis presentation [General Learning Algorithms]
 # See also
 * [General Learning Algorithms](general-learning-algorithms) (some of the content of this presentation is already covered in this other presentation)
 
-# Sources
+# References
 * [The Future of Artificial Intelligence](https://www.youtube.com/watch?v=4fjmnOQuqao)

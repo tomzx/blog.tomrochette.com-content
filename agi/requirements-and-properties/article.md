@@ -21,7 +21,7 @@ taxonomy:
 # Things it should do
 
 * Improve algorithms
-	- Receive an existing algorithm and be able to determine its purpose. With that in mind, optimize the algorithm so it is maximally efficient in both time and space.
+	* Receive an existing algorithm and be able to determine its purpose. With that in mind, optimize the algorithm so it is maximally efficient in both time and space
 	* Learn which data structure is the most appropriate for a problem
 		* Inspect code and be able to figure out if the current data structure is the best one for its current use
 * Improve data structures

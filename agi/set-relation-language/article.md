@@ -82,7 +82,7 @@ Consider f a function that maps items from set A to set B.
 	- Tom knows programming
 	- Tom knows agi? (how do we determine the NOT operation based on relations alone? if there's no relation, then it implies the NOT operator)
 
-# Sources
+# References
 - https://en.wikibooks.org/wiki/Set_Theory/Relations
 - https://en.wikibooks.org/wiki/Set_Theory/Sets
 - https://en.wikipedia.org/wiki/Set_theory

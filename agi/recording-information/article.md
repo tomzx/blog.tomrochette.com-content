@@ -48,7 +48,9 @@ Source: National Highway Institute
 
 # See also
 
-# Sources
+* [Senses](../senses)
+
+# References
 
 [^1]: http://www.dartmouth.edu/~acskills/docs/study_actively.doc
 [^2]: https://www.nhi.fhwa.dot.gov/downloads/freebies/172/PR%20Pre-course%20Reading%20Assignment.pdf

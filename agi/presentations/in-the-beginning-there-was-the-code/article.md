@@ -26,5 +26,5 @@ taxonomy:
 
 # See also
 
-# Sources
+# References
 * [In the beginning there was the code](https://www.youtube.com/watch?v=T1Ogwa76yQo)

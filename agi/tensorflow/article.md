@@ -1,5 +1,5 @@
 ---
-title: Tensorflow
+title: TensorFlow
 created: 2016-01-27
 taxonomy:
   category: [Artificial General Intelligence]
@@ -8,7 +8,7 @@ taxonomy:
 
 ## Context
 
-Tensorflow has rapidly grown in popularity due to the fact that is developed/supported by Google. As more and more developers move to the platform, it becomes essential to learn how it works and have a general idea of the various concepts it makes use of. This is a short article about some of these concepts.
+TensorFlow has rapidly grown in popularity due to the fact that is developed/supported by Google. As more and more developers move to the platform, it becomes essential to learn how it works and have a general idea of the various concepts it makes use of. This is a short article about some of these concepts.
 
 ## Learned in this study
 
@@ -100,15 +100,14 @@ A tensor is simply a multidimensional array of data. A scalar is a 0-D tensor, a
 * tf.nn.rnn_cell.GRUCell(num_neurons): declares a gated recurrent unit cell
 
 # CNN
-* Apply the convolution operator to a 2d matrix using a given kernel/filter
 * Used mostly to process high density matrices where the data surrounding a value is generally highly correlated with it
+* Apply the convolution operator to a 2d matrix using a given kernel/filter
 
 # RNN
 * Used to process sequential inputs (speech recognition, speech synthesis, connected handwriting recognition, time-series forecast, image caption generation, end-to-end translation)
 
 # See also
 
-# Sources
-
+# References
 * https://www.tensorflow.org/
 * https://medium.com/jim-fleming/loading-tensorflow-graphs-via-host-languages-be10fd81876f

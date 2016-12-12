@@ -7,7 +7,6 @@ taxonomy:
 ---
 
 ## Context
-
 This article contains most of the content of the slides of the presentation by Demis Hassabis available at https://www.youtube.com/watch?v=IjG_Fx3D0o0.
 
 ## Learned in this study
@@ -68,7 +67,7 @@ This article contains most of the content of the slides of the presentation by D
 	* Use the latest state-of-the-art algorithms
 * Where we don't know how to build a component
 	* Continue to push pure machine learning approaches hard
-	* In parallel, also look to systems neuroscience for solutions 
+	* In parallel, also look to systems neuroscience for solutions
 
 ## Systems neuroscience procedure
 * Extract the principles behind an algorithm the brain uses
@@ -109,7 +108,7 @@ This article contains most of the content of the slides of the presentation by D
 
 ## Interim milestones
 * Build knowledge on top of existing knowledge
-* Abstract classification: classification of empty/full containers 
+* Abstract classification: classification of empty/full containers
 * Discovery of higher-order structures (eg. 123456789101112131...) What is the next number? Statistics is not enough
 * Algorithms that can build sophisticated models of the environment (eg. play any card game just by observing a raw perceptual stream)
 * Transfer learning: learning a response in one perceptual context, abstracting a rule, and applying it correctly in a new context
@@ -133,5 +132,5 @@ This article contains most of the content of the slides of the presentation by D
 * Marr's tree levels of analysis:  https://en.wikipedia.org/wiki/David_Marr_(neuroscientist)
 * Algorithmic Intelligence Quotient:  http://arxiv.org/pdf/1109.5951.pdf
 
-# Sources
+# References
 * https://www.youtube.com/watch?v=IjG_Fx3D0o0

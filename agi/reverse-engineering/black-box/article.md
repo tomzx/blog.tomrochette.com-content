@@ -46,7 +46,7 @@ def ANALYSIS(program):
 ## Numbers
 * Is it always positive/negative/zero?
 * Is it always incrementing/decrementing?
-* Is it always the same number/set of numbers? 
+* Is it always the same number/set of numbers?
 * Are the numbers within a given range?
 * Can the produced numbers be approximated using linear functions? Lagrange polynomial?
 * Are the numbers always integers or reals?
@@ -76,7 +76,7 @@ def ANALYSIS(program):
 * Test uppercase/lowercase/random-case
 
 # TBD
-A programmer starts by defining its requirements. Then he writes a piece of code that fulfills these requirements. This code is then parsed, compiled and executed by the computer.
+A programmer starts by defining a feature's requirements. Then he writes a piece of code that fulfills these requirements. This code is then parsed, compiled and executed by the computer.
 
 During this process, the variable names used by the programmer are stripped out and converted into placeholders.
 
@@ -99,7 +99,7 @@ sum(3, sum(4, 6));
 
 # See also
 
-# Sources
+# References
 *  https://en.wikipedia.org/wiki/Reverse_engineering
 * https://en.wikipedia.org/wiki/Black-box_testing
 *  https://en.wikipedia.org/wiki/Static_single_assignment_form

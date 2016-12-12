@@ -79,9 +79,9 @@ An initial procedure for processing visual signal would have to be implemented. 
 
 Various web service endpoint can be added to control the brain internal state, such as resetting is task queue, flushing the nerves queues, saving and restoring a brain state, etc.
 
-This prototype did not attempt to think of ways it would be possible to interact with the agent in order to provide it with tasks. It assumed that given an environment with inputs (webcam that would stream video and audio), something interesting might happen. With some additional work it would be able to output actions to act in the environment it was provided, namely transmit some output signals. The brain would thus be connected to some output organs (such as a video/audio output or a text output) and would be able to produce output in order to interact with that environment. It would also have as a task to understand what is the result its output signals so that it may reuse them appropriately in the future (for example, how to generate a specific sequence of sounds as to create the speech "I am hungry"). 
+This prototype did not attempt to think of ways it would be possible to interact with the agent in order to provide it with tasks. It assumed that given an environment with inputs (webcam that would stream video and audio), something interesting might happen. With some additional work it would be able to output actions to act in the environment it was provided, namely transmit some output signals. The brain would thus be connected to some output organs (such as a video/audio output or a text output) and would be able to produce output in order to interact with that environment. It would also have as a task to understand what is the result its output signals so that it may reuse them appropriately in the future (for example, how to generate a specific sequence of sounds as to create the speech "I am hungry").
 
 # See also
 
-# Sources
+# References
 [^1]: https://en.wikipedia.org/wiki/David_Marr_(neuroscientist)#Stages_of_vision

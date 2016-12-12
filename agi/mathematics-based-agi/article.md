@@ -11,13 +11,11 @@ taxonomy:
 ## Learned in this study
 
 ## Things to explore
-
 * Consider getting an optimal AGI as an optimization in itself (gradient descent)
 
 # Overview
 
 # Functions
-
 As human beings in relatively well educated societies, we're taught early on about mathematics. We're taught about numbers and how they relate to one another, how to manipulate them, transform them and use them to solve complex problems.
 
 One of the fundamental tools we're presented is `functions`. Functions allows us to transform a set of values (called `domain`) into a second set of values (called `image`).
@@ -45,7 +43,6 @@ One can consider a function as two different things:
 2. A sequence of transformations applied on the initial output, where the output are assigned to internal variables and possibly transformed by other functions within the initial function (functions calling functions)
 
 # Integer-based reasoning
-
 Concepts are basically numbers
 Everything can be represented by a number (basically the concept of primary key -> set of data)
 We learn to associate images, sounds, experiences (samples) with a specific concept (number)
@@ -69,7 +66,6 @@ Either the task we want to improve came from observing others (thus we were prov
 Rules are decomposed into their parts, each part is a key in a dictionary such that when a part is triggered, its corresponding rules are fetched and readied to be intersected with the next triggered part
 
 ## Notes
-
 Much of machine learning is geared toward fitting a given function as closely as possible without under/over-fitting the function in question.
 
 ## Reasoning on AGI
@@ -114,4 +110,4 @@ A couple conclusions:
 # See also
 * [Observations on DNA](observations-on-dna)
 
-# Sources
+# References

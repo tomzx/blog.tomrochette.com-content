@@ -36,7 +36,9 @@ taxonomy:
 # Difficulties of code refactoring
 * Lot of code is SQL queries
 
+# Refactoring to MVC
+
 # See also
 * [Automated refactoring](../../agi/automated-refactoring)
 
-# Sources
+# References

@@ -7,7 +7,6 @@ taxonomy:
 ---
 
 ## Context
-
 A seed AI is an initial computer program that is able to recursively self-improve. This means that once it is started, one of its main goals will be to improve its existing code into a better one and then switch to this newer implementation in order to benefit from the changes it has made to it.
 
 Seed AI is interesting because it would mean writing a very bad version of it initially which would get improved by the algorithm itself. Furthermore, it would also mean that you might be able to give it external programs and it may propose improvements to it.
@@ -19,7 +18,6 @@ In other words, a seed AI is one that would learn and understand how program wor
 	* Like dictionary's definitions, functions are defined in terms of other functions
 
 ## Things to explore
-
 * What are the issues with writing a program generator?
 * What are the tools that we currently have to solve those issues?
 * Look at theoretical implications of program generation (probabilities)
@@ -42,6 +40,8 @@ In other words, a seed AI is one that would learn and understand how program wor
 * Self-improvement vs improvement vs learning
 * What kind of analysis can be done in order to reduce/discover isomorphic programs?
 * A seed AI is considered to be the minimal program that will produce a chain of self-improvements. This in turn means that the program will likely increase in length as its complexity increases. Furthermore, this also means that it will go through a series of implementations, some of which will contain the original seed ai code, and some which may not. What I'm trying to get at is that this "bootstrapped" seed AI will have many "appearances/forms", which means that we can look for seed AI at various stages in its evolution, hopefully finding any of which we can use to get the process going
+* Can we use AST analysis to determine the number of potential programs of breadth b and depth d?
+* What are the statistics on the number of parameters per function? (how many of arity 0, 1, 2, ...?)
 
 # Overview
 The goal of this study is to look into the constraints and requirements that goes into building what is called a *Seed AI*, that is, a program that is able to improve itself.
@@ -259,7 +259,7 @@ At this point we can already see various issues with this approach:
 * [Constructing functions](../constructing-functions)
 * [Holonic program language](../holonic-program-language)
 
-# Sources
+# References
 [^1]: https://en.wikipedia.org/wiki/X86_instruction_listings#Original_8086.2F8088_instructions
 
 * https://en.wikipedia.org/wiki/Programming_language_generations
@@ -267,7 +267,7 @@ At this point we can already see various issues with this approach:
 * https://en.wikipedia.org/wiki/Self-modifying_code
 * http://wiki.lesswrong.com/wiki/Seed_AI
 * http://mattmahoney.net/rsi.pdf
-* Lenat, Douglas B. [AM: An Artificial Intelligence Approach to Discovery in Mathematics as Heuristic Search](http://www.dtic.mil/dtic/tr/fulltext/u2/a155378.pdf). Stanford: Computer Science Dept., Stanford University, 1976.
+* Lenat, Douglas B. [*AM: An Artificial Intelligence Approach to Discovery in Mathematics as Heuristic Search*](http://www.dtic.mil/dtic/tr/fulltext/u2/a155378.pdf). Stanford: Computer Science Dept., Stanford University, 1976.
 * Turing, Alan. *Intelligent Machinery*. London: National Physical Laboratory, 1948. Ed. B. Jack Copeland. The Essential Turing. Oxford: Clarendon Press, 2004. 430
 
 ## Seed AIs

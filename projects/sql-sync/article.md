@@ -103,13 +103,13 @@ One of the biggest challenges with synchronizing removal of rows is that there i
 It is possible to query SQL and ask for the non-consecutive blocks of IDs using a query such as the following one:
 
 ```sql
-select l.id lValue, c.id cValue, r.id rValue 
-  from 
-  test l 
+select l.id lValue, c.id cValue, r.id rValue
+  from
+  test l
   right join test c on l.id=c.id-1
   left  join test r on r.id=c.id+1
 where 1=1
-  and c.id > 0 
+  and c.id > 0
   and (l.id is null or r.id is null)
 order by c.id asc;
 ```
@@ -231,7 +231,7 @@ This proves to be an immense challenge if we aren't ready to update our tables s
 
 # See also
 
-# Sources
+# References
 
 * Microsoft Sync Framework: https://msdn.microsoft.com/en-us/sync
 * MySQL replication: http://dev.mysql.com/doc/refman/5.7/en/replication.html

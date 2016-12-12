@@ -112,5 +112,5 @@ taxonomy:
 
 # See also
 
-# Sources
+# References
 * http://www.wohlin.eu/ist98-1.pdf

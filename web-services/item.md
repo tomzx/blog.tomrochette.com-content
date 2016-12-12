@@ -125,7 +125,7 @@ A client wants to create a new instance of a service we offer. Once he has decid
 1. The `Service provider` sends a request to the `Service configurator` to let it know of a service configuration change, in this case, the creation of a new `Service instance`.
 2. The `Service configurator` creates a new database instance as well as a user for that instance. At this point, the database is empty.
 
-Now we have a instance settings stored in the `Service configuration database`, which can be requested through the `Service configurator` API. 
+Now we have a instance settings stored in the `Service configuration database`, which can be requested through the `Service configurator` API.
 
 ## Service instance setup
 
@@ -246,6 +246,6 @@ Once the `Service instance` has the service configured, it informs the `Load bal
 
 # See also
 
-# Sources
+# References
 
 * https://www.digitalocean.com/community/tutorials/how-to-use-haproxy-to-set-up-http-load-balancing-on-an-ubuntu-vps

@@ -48,8 +48,8 @@ Define the problems and questions you are trying to solve.
 ---
 
 * Good research should be novel:
-	* Describe state-of-the-art (SoA)
-	* Describe state-of-the-pratice (SoP)
+	* Describe state-of-the-art (SotA)
+	* Describe state-of-the-pratice (SotP)
 	* Describe how your work is different from them
 * Good research should be relevant:
 	* Consider what problems we face today or are likely to face within some time span
@@ -66,7 +66,7 @@ Define the problems and questions you are trying to solve.
 # See also
 * [Automated research](../automated-research)
 
-# Sources
+# References
 [^1]: https://sites.google.com/site/narswang/home/agi-introduction#TOC-Representative-AGI-Projects
 
 * http://www.umiacs.umd.edu/~knkim/HowToPhd.htm

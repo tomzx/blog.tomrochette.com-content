@@ -31,4 +31,4 @@ We would like to have two things:
 
 # See also
 
-# Sources
+# References

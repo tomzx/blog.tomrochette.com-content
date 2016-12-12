@@ -11,18 +11,15 @@ taxonomy:
 ## Learned in this study
 
 ## Things to explore
-
 * Splay tree memory access
 * Write about learning and information idempotence
 * How should deadlines be enforced? This sounds like an OS problem
 * DNA as initial source code for body construction, what about source code for mental processes?
 
 # Overview
-
 The goal of this article is to detail my process of developing an initial implementation of a "brain" in PHP. As a  initial version, I want to lay down the tools that will help me build such thing so that it may be decomposed into libraries of reusable components.
 
 # Components
-
 * Stopwatch/Time monitoring
 * Memory monitoring
 * Tokenizer
@@ -31,11 +28,9 @@ The goal of this article is to detail my process of developing an initial implem
 * Cache layers
 
 # Construction
-
 The first step in order to be able to do anything is to be able to store information. In our case, we will use wikipedia articles as a source of information.
 
 ## Naïve in-memory implementation
-
 A naïve first implementation will simply store the article tokens in a huge array we'll call a `stream`. When we add tokens, we also build up a dictionary or word lookup table, which allows us to return the index of a given word in the `stream`. Doing so allows us to quickly retrieve (dictionary lookup should be O(1)) whether we've already seen a word previously or not at the cost of memory.
 
 This simple construct allows us to store and retrieve strings relatively rapidly. However, as its knowledge base increases in size, it becomes more and more memory hungry (increases linearly with how much data we insert) and slower to test if a particular query string has been seen (a simplistic layered token filtering algorithm will perform badly on frequent/common words).
@@ -56,9 +51,7 @@ Using an implementation of the previously mentioned strategy yields the followin
 Thus, on average it takes ~210ms to process a query of length varying from 0 to 100 words with a standard deviation of ~175ms.
 
 ## Upgrading to a database
-
 ### The relational database approach
-
 The next obvious step is to move from an in-memory data store to a database such as MySQL. Doing so allows us to make use of more efficient means of data storage and retrieval.
 
 In order to store our articles, we have a couple of ways to structure the information:
@@ -103,7 +96,6 @@ The biggest issue with such a design is that querying for sentences become very 
 This allows us to tell the query that `W2.order =  W1.order + 1` (that the order of the word 2 `W2` must be one more than the order of word 1 `W1`). However all of this is very cumbersome to work with (although it could definitely be hidden from developers/users once a query generator is built to create such requests).
 
 ### The key-value database approach
-
 If you recall our initial in-memory approach, we used a simple dictionary approach to store and retrieve information. In other words, we used a key-value storage approach, for which key-value databases such as Redis have been built.
 
 To reproduce the same behavior has we had in memory, we'll create the following keys:
@@ -132,7 +124,6 @@ If we play with the cutoff parameter and decrease it to 100 (from 1000), perform
 | 0.000000 | 0.006155 | 0.052003 | 0.008185 |
 
 ## Back to the in-memory implementation
-
 With a little bit of thinking, it is possible to improve our performances tremendously. Before we go into the details of those improvements, lets first look into what kind of improvement we're talking about:
 
 | Min (s) | Mean (s) | Max (s) | StdDev (s) |
@@ -152,7 +143,8 @@ With that dictionary built, we order it from the least frequent token to the mos
 At this point we're ready to proceed with the "critical" part of the algorithm, the string matching.
 
 ```php
-$vocabulary = ['word' => [1, 2, 3, 5, 7]]; // dictionary of known words from corpus listing all their starting
+// dictionary of known words from corpus listing all their starting indexes
+$vocabulary = ['word' => [1, 2, 3, 5, 7]];
 
 // Build token count dictionary
 $tokenCounts = array_flip($tokens);
@@ -217,13 +209,10 @@ foreach ($tokenCounts as $token => $count) {
 ```
 
 # Serial vs parallel
-
 So far we've been exploring various ways to store information in a sequential fashion, document by document. This obviously simplifies reflecting about the whole system because we do not have to consider concurrent interations. But this also means that we are limited to doing things in a sequential manner which is more likely going to be a bottleneck further down the road.
 
 # A little program
-
 ## Run
-
 From the point of view of a human body:
 ```php
 sense();
@@ -259,7 +248,6 @@ However, a deadline system does not make much sense when we attempt to relate it
 When we think, it isn't rare that we'll interrupt our thinking in order to think of something else. When we are done with this second thinking phase, we'll generally try to revert back to our initial thinking phase. However, since we are not consistent machines like computers, we do not push our thinking contexts onto stacks. Therefore, the reconstruction of our first thinking process context requires us to possibly start from scratch or to reconstruct it from partial details.
 
 ## Input/Sense
-
 ```php
 autonomic();
 somatic();
@@ -276,7 +264,6 @@ Every sense is different, but at the end of it, everything is a neurotransmitter
 When we are in a crowded location, it is not possible for us to listen to every discussion occurring around us. However, it is still possible for us to focus on particular voices. In the same sense, it is possible for us not to be listening at all to someone that is talking to us when we are the only two people in the room. The sound may be "interpreted" by the ears and received by the brain, but no processing is done on it and thus it is never actively considered.
 
 ## Process/Think
-
 ```php
 $process = stream_priorities.pop();
 $process();
@@ -416,7 +403,6 @@ graph BT
 It probably is of interest to think about concepts such as locality when planning about how data should be structured. It would make sense for related concepts to be close to one another. Given that computer memory is linear, this means that we can only have linear proximity (data before and data after a given index). Given how much memory may be read during a single quantum of reading, we could also say that the number of memory cells represents the number of dimensions in which we can have a 1-distance relation with the given item of interest. For example, if we can read up to 1024 32-bits words at once, then we would be able to have 1024 items with a 1-distance of the item of interest. Obviously, we can have an infinite amount of 1-distance items if we give ourselves enough time to fetch those.
 
 ## Output/Act
-
 It is safe to consider that we, much like computers, may be acting in a sequential fashion even though we appear to be doing various actions in parallel. In computer terms, we call it multi-tasking.
 
 One important thing to notice is that it rarely appears that we are conflicted between doing various actions on the same body member. For instance, it is rare that our arm will stay frozen in place if we're trying to catch a ball due to the fact that we're trying to catch the ball and also scratch our nose. What this means is that a "task" will generally have precedence/privilege over other tasks when attempting to do something that requires other body parts.
@@ -437,7 +423,7 @@ Are the input/process/output tasks done in a sequential or parallel manner? If d
 
 # See also
 
-# Sources
+# References
 * http://c2.com/cgi/wiki?HumanSourceCode
 * http://c2.com/cgi/wiki?RefactoringTheHumanBody
 * http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2826883/
