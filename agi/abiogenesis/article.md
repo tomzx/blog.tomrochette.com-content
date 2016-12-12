@@ -34,7 +34,7 @@ Bernal coined the term biopoiesis in 1949 to refer to the origin of life. In 196
 # See also
 * https://en.wikipedia.org/wiki/Neural_development
 
-# Sources
+# References
 [^1]: Programming of Life: https://www.youtube.com/watch?v=00vBqYDBW5s
 [^2]: Programming of Life 2: EARTH https://www.youtube.com/watch?v=WPkBEYsG6EQ
 [^3]: https://en.wikipedia.org/wiki/Abiogenesis

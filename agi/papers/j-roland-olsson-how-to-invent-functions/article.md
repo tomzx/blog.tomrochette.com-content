@@ -27,5 +27,5 @@ taxonomy:
 
 # See also
 
-# Sources
+# References
 * Olsson, J. Roland. "How to invent functions." European Conference on Genetic Programming. Springer Berlin Heidelberg, 1999.

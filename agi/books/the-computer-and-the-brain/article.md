@@ -1,5 +1,5 @@
 ---
-title: John von Neumann - The Computer and the Brain
+title: John von Neumann - The Computer and the Brain - 1958
 created: 2015-12-31
 taxonomy:
   category: [Artificial General Intelligence]
@@ -52,5 +52,5 @@ Favors logic over arithmetic.
 
 # See also
 
-# Sources
+# References
 * Neumann, John. The Computer & the Brain. 3rd ed. New Haven: Yale University Press, 2012.

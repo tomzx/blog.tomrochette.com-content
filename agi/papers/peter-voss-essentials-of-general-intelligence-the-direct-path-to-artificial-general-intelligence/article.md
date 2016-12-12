@@ -149,6 +149,6 @@ taxonomy:
 
 # See also
 
-# Sources
+# References
 * DOI: [10.1007/978-3-540-68677-4_4](https://dx.doi.org/10.1007/978-3-540-68677-4_4)
 * http://www.kurzweilai.net/essentials-of-general-intelligence-the-direct-path-to-agi

@@ -133,5 +133,5 @@ $T, B, P_1, ..., P_n \vdash (C1, ..., C_n)$
 
 # See also
 
-# Sources
+# References
 * [Paper: The OpenNARS implementation of the Non-Axiomatic Reasoning System (4th Draft for Comment)](https://groups.google.com/forum/#!topic/open-nars/k7oGlT0UnqI)

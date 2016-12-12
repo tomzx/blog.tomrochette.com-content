@@ -1,5 +1,5 @@
 ---
-title: Marvin Minsky - The Society of Mind
+title: Marvin Minsky - The Society of Mind - 1986
 created: 2015-11-15
 taxonomy:
   category: [Artificial General Intelligence]
@@ -11,17 +11,14 @@ taxonomy:
 ## Learned in this study
 
 ## Things to explore
-
 * 28.8 What are the boundaries of the mind?
 
 # Overview
-
 Marvin Minsky's *The Society of Mind* is the epitome of connectionism[^connectionism].
 
 # Thoughts
 
 ## Unsorted
-
 * Tasks are executed by low-level, specialized cognitive functions
 * The brain is organized hierarchically, where more abstract processes are at the top and low-level functions are at the bottom. In between are *functionalities* that become more and more complex and abstract as they go to the top of the hierarchy
 * Higher level functions manage low level functions to ensure they are doing their work properly as well as going in the right direction (doing the *right* thing)
@@ -56,7 +53,6 @@ Marvin Minsky's *The Society of Mind* is the epitome of connectionism[^connectio
 * Tags = fragments of ideas
 
 # Notes
-
 ## 7.3 The Puzzle Principle
 **Puzzle Principle:** We can program a computer to solve anyt problem by trial and error, without knowing how to solve it in advance, provided only that we have a way to recognize the problem is solved.
 
@@ -368,15 +364,12 @@ Marvin Minsky's *The Society of Mind* is the epitome of connectionism[^connectio
 * A person or machine *contains* a model of knowledge itself. It is not perfect, but it allows us to query it and generate answers.
 
 ## Appendix
-
 ### 2 The Genesis of Mental Realms
-
 * In their first few days, human infants learn to distinguish people by their odors; then, over the next few weeks, they learn to recognize individuals by sound of voice; only after several months do they start to reliably distinguish the sights of faces. Most likely we learn to make each of these distinctions by several different methods, and it is probably no accident that these abilities develop in a sequence that corresponds to their increasing complexity.
 
 # See also
 
-# Sources
-
+# References
 * Minsky, Marvin Lee. The Society of Mind. New York: Simon and Schuster, 1986.
 * http://www.amazon.com/The-Society-Mind-Marvin-Minsky/dp/0671657135
 

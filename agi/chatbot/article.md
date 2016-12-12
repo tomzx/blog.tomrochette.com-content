@@ -133,7 +133,7 @@ Microsoft Bot Framework works in the same fashion as IBM Watson Dialog Service: 
 # Topics of interest
 * https://en.wikipedia.org/wiki/Is-a
 
-# Sources
+# References
 ## Grammar
 * https://en.wikipedia.org/wiki/English_grammar
 * https://en.wikipedia.org/wiki/Grammar_checker

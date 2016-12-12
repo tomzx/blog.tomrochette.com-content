@@ -1,5 +1,5 @@
 ---
-title: Paul Jorgensen - Software Testing: A Craftsman's Approach (2008)
+title: Paul Jorgensen - Software Testing: A Craftsman's Approach - 2008
 created: 2016-10-20
 taxonomy:
   category: [Artificial General Intelligence]

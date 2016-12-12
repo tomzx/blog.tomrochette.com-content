@@ -32,11 +32,13 @@ Some properties:
 * A large amount of DNA is shared with other animals[^2], which could imply that we either developed shared code base (evolved from similar ancestors) or that we ended up developing similar code bases independently
 * The 5' and 3' section of the mARN could be compared to the preambule and epilogue of functions in assembly, they serve to indicate the beginning and ends of block of information/instructions
 * If DNA is a string, then it most likely has a grammar (and its own language)
+* Must follow some syntactic rules or else it is incorrect (see protein folding)
+* Evolution is nature's nondeterministic way to test out DNA machines, some survive, others don't
 
 # See also
 * [Theory of self-reproducing automata](../books/theory-of-self-reproducing-automata)
 
-# Sources
+# References
 [^1]: https://en.wikipedia.org/wiki/Human_genetic_variation
 [^2]: http://education.seattlepi.com/animals-share-human-dna-sequences-6693.html
 

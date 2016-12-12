@@ -25,7 +25,7 @@ Compression is the process of encoding information using fewer bits than the ori
 
 # See also
 
-# Sources
+# References
 [^1]: https://en.wikipedia.org/wiki/Compression
 
 * https://en.wikipedia.org/wiki/Compression

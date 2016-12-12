@@ -1,5 +1,5 @@
 ---
-title: John von Neumann, Arthur W. Burks - Theory of self-reproducing automata (1966)
+title: John von Neumann, Arthur W. Burks - Theory of self-reproducing automata - 1966
 created: 2016-08-06
 taxonomy:
   category: [Artificial General Intelligence]
@@ -237,6 +237,6 @@ Thus logics and mathematics in the central nervous system, when viewed as langua
 
 # See also
 
-# Sources
+# References
 * Neumann, John von, and Arthur W. Burks. "Theory of self-reproducing automata." (1966).
 * [Richard's paradox](https://en.wikipedia.org/wiki/Richard%27s_paradox)

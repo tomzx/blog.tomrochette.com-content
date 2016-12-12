@@ -41,6 +41,6 @@ Answer 1: the suitcase
 
 See http://commonsensereasoning.org/winograd.html
 
-# Sources
+# References
 * https://en.wikipedia.org/wiki/Artificial_general_intelligence
 * https://en.wikipedia.org/wiki/Category:Intelligence_tests

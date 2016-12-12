@@ -32,5 +32,5 @@ taxonomy:
 
 # See also
 
-# Sources
+# References
 * Gold, E. Mark. "Language identification in the limit." Information and control 10.5 (1967): 447-474.

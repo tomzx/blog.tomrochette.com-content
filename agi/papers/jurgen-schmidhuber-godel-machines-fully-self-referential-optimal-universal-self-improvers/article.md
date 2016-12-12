@@ -94,7 +94,7 @@ $$u(s, Env) = E_\mu\left[\sum_{\tau=time}^{T}r(\tau)\middle|s, Env\right]$$
 	* **set-switchprog(m, n)** replaces switchprog by $s^p_{m:n}$, provided that $s^p_{m:n}$ is a non-empty substring of $s^p$
 	* **state2theorem(m, n)** takes two integer arguments and tries to transform the current content of $s_{m:n}$ into a theorem of the form $s_{m:n}(t_1) = z$ where
 		* $t_1$ is a time measured by checking time shortly after state2theorem was invoked
-		* $z$ is the bitstring $s_{m:n}(t_1)$ 
+		* $z$ is the bitstring $s_{m:n}(t_1)$
 	* **check()** verifies whether the goal of the proof search has been reached.
 
 ## 4 Global Optimality Theorem
@@ -141,6 +141,6 @@ $$u(s, Env) = E_\mu\left[\sum_{\tau=time}^{T}r(\tau)\middle|s, Env\right]$$
 * [The New AI: General & Sound & Relevant for Physics](../jurgen-schmidhuber-the-new-ai-general-sound-relevant-for-physics)
 * [Blum's speedup theorem](https://en.wikipedia.org/wiki/Blum%27s_speedup_theorem)
 
-# Sources
+# References
 * [arXiv:cs/0309048](http://arxiv.org/abs/cs/0309048) [cs.LO]
 * DOI: [10.1007/978-3-540-68677-4_7](https://dx.doi.org/10.1007/978-3-540-68677-4_7)

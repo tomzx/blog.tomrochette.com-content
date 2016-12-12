@@ -37,6 +37,6 @@ taxonomy:
 
 * [An evaluation of methods for prioritizing software requirements](../an-evaluation-of-methods-for-prioritizing-software-requirements)
 
-# Sources
+# References
 
 * http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.103.3674&rep=rep1&type=pdf

@@ -259,13 +259,16 @@ Not tested.
 ### Alternative
 * Replace variable with expression
 
+## Build a truth table of all expressions in the function
+* Extract all conditions
+* Convert each condition expression into a single variable
+
 # Development iterations
 * No loop support (only if/elseif/else, make sure that loops evaluate to false)
 	* List all conditions
 	* Trace all conditions
 * Switch support
 * Loop support (while/do/for)
-	*
 * Iterator support (foreach)
 
 # Dependencies
@@ -277,8 +280,11 @@ Not tested.
 * [Automated programming](../automated-programming)
 * [Automated refactoring](../automated-refactoring)
 
-# Sources
+# References
 * http://cseweb.ucsd.edu/classes/sp00/cse231/report/node13.html
 * https://www.youtube.com/watch?v=8eZ8YWVl-2s
 * https://www.youtube.com/watch?v=rKlHvAw1z50
 * https://speakerdeck.com/schmittjoh/improving-code-quality-continuously
+* http://www.pexforfun.com/Documentation.aspx#HowDoesPexWork
+* https://www.microsoft.com/en-us/research/project/pex-and-moles-isolation-and-white-box-unit-testing-for-net/#publications
+* https://en.wikipedia.org/wiki/Decision-to-decision_path

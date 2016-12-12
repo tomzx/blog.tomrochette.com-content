@@ -34,10 +34,10 @@ For instance, reading "word" would trigger all words with the letter "w", then "
 
 # Requirements
 
-- Linguistics
-    - Grammar
-        - Syntax
-    - Semantics
+* Linguistics
+	* Grammar
+		* Syntax
+	* Semantics
 
 # History of approaches
 * Hand/hard coding of large sets of rules (if/then)
@@ -52,7 +52,7 @@ For instance, reading "word" would trigger all words with the letter "w", then "
 
 # See also
 
-# Sources
+# References
 
 ## General
 * https://en.wikipedia.org/wiki/Natural_language_processing

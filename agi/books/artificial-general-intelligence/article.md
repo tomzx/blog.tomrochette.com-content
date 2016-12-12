@@ -1,5 +1,5 @@
 ---
-title: Artificial General Intelligence
+title: Artificial General Intelligence - 2009
 created: 2016-02-17
 taxonomy:
   category: [Artificial General Intelligence]
@@ -20,7 +20,6 @@ taxonomy:
 # Overview
 
 # Notes
-
 * [Contemporary Approaches to Artificial General Intelligence](../../papers/contemporary-approaches-to-artificial-general-intelligence)
 * [The Logic of Intelligence](../../papers/pei-wang-the-logic-of-intelligence)
 * [The Novamente Artificial Intelligence Engine](../../papers/the-novamente-artificial-intelligence-engine)
@@ -36,6 +35,5 @@ taxonomy:
 
 # See also
 
-# Sources
-
+# References
 * Goertzel, Ben, and Cassio Pennachin. Artificial General Intelligence. Berlin: Springer, 2007.

@@ -254,6 +254,6 @@ Source: https://www.quora.com/Has-Douglas-Lenats-EURISKO-research-ever-been-repr
 * [From AM to CYRANO]( https://dspace.mit.edu/bitstream/handle/1721.1/41178/AI_WP_293.pdf)
 
 
-# Sources
+# References
 * http://www.cs.northwestern.edu/~mek802/papers/not-mine/Lenat_EURISKO.pdf
 * http://aliciapatterson.org/stories/eurisko-computer-mind-its-own

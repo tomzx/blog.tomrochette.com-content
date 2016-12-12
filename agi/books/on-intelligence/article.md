@@ -1,5 +1,5 @@
 ---
-title: Jeff Hawkins - On Intelligence (2004)
+title: Jeff Hawkins - On Intelligence - 2004
 created: 2016-06-30
 taxonomy:
   category: [Artificial General Intelligence]
@@ -315,10 +315,10 @@ TBC
 * Prediction 7: Related to prediction 6, unanticipated events should propagate up the hierarchy. The more novel the event the higher the unanticipated input should flow. Completely novel events should reach the hippocampus
 * Prediction 8: Sudden understanding should result in a precise cascading of predictive activity that flows down the cortical hierarchy
 * Prediction 9: The memory-prediction framework requires that pyramidal neurons can detect precise coincidences of synaptic input on thin dendrites
-Prediction 10: Representation move down the hierarchy with training
-Prediction 11: Invariant representations should be found in all cortical areas
+* Prediction 10: Representation move down the hierarchy with training
+* Prediction 11: Invariant representations should be found in all cortical areas
 
 # See also
 
-# Sources
+# References
 * https://www.amazon.com/Intelligence-Jeff-Hawkins/dp/0805078533

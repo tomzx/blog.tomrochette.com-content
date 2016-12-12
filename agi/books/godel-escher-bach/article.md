@@ -1,5 +1,5 @@
 ---
-title: Douglas Hofstadter - Gödel, Escher, Bach: An Eternal Golden Braid
+title: Douglas Hofstadter - Gödel, Escher, Bach: An Eternal Golden Braid - 1979
 created: 2015-12-13
 taxonomy:
   category: [Artificial General Intelligence]
@@ -38,6 +38,6 @@ taxonomy:
 
 # See also
 
-# Sources
+# References
 
 * Hofstadter, Douglas R. Gödel, Escher, Bach: An Eternal Golden Braid. New York: Basic Books, 1979.

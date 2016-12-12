@@ -90,6 +90,6 @@ taxonomy:
 
 # See also
 
-# Sources
+# References
 * [arXiv:cs/0302012](http://arxiv.org/abs/cs/0302012) [cs.AI]
 * DOI: [10.1007/978-3-540-68677-4_6](https://dx.doi.org/10.1007/978-3-540-68677-4_6)

@@ -65,5 +65,5 @@ int obscure(int x, int y) {
 
 # See also
 
-# Sources
+# References
 * Godefroid, Patrice, et al. "[Automating software testing using program analysis](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/ieeesw2008.pdf)." IEEE software 25.5 (2008): 30-37.

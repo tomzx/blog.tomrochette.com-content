@@ -15,6 +15,8 @@ taxonomy:
 * Grammar induction
 * Compression
 * Diff/match/patch
+* Fragment extraction, then wildcard pattern generation
+* Lexer-like that will replace a whole sequence if it is already in the grammar instead of doing character by character replacement like sequitur
 
 # Overview
 * Extract textual templates from any language (basically tries to find repetitions/patterns)
@@ -106,10 +108,11 @@ if (<x>)
 * From [^1]
 	* p1: no pair of adjacent symbols appears more than once in the grammar;
 	* p2: every rule is used more than once.
+* How can we prefer `public function <>(<>) {<>}` over `} public function <>(<>) {`?
 
 # See also
 
-# Sources
+# References
 
 * http://www.sequitur.info/
 * [Identifying Hierarchical Structure in Sequences: A linear-time algorithm](http://www.jair.org/media/374/live-374-1630-jair.pdf)

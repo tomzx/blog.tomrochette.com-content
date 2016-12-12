@@ -118,4 +118,4 @@ SomeType myFunction() {
 
 # See also
 
-# Sources
+# References

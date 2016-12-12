@@ -9,12 +9,10 @@ taxonomy:
 ## Learned in this study
 
 ## Things to explore
-
 * *two categories*, is that the appropriate way to say that?
 * Verify that my definitions of discrete/continuous and controlling/active are correspond with the examples given by Turing
 
 # Overview
-
 Turing starts his paper by presenting five *reasons* as to why people have a hard time accepting that machinery could show intelligent behavior:
 
 1. Unwillingness to accept that something could rival human intelligence
@@ -28,13 +26,11 @@ After touching on the validity of some of those reasons, Turing presents two cat
  * Controlling vs active
 
 ## Discrete vs continuous
-
 A *discrete* machine has a finite number of possible states. Thus, the machine jumps from one state to the other.
 
 A *continuous* machine on the other hand is more fluid, not being in any particular/exact state at any moment.
 
 ## Controlling vs active
-
 A *controlling* machine is one that deals only with information. It computes/decides/communicates with the rest of the environment but does not do any physical action itself.
 
 An *active* machine produces a definite physical effect.
@@ -42,7 +38,6 @@ An *active* machine produces a definite physical effect.
 (To be continued)
 
 # Notes
-
 The following is a series of notes I've taken while I was reading Turing's paper. They are what I identified as the main points he was making throughout the paper.
 
 There are also some things that he has written that have been said but not been detailed, as if they were left to the reader to see for himself. In these instances, I've left myself a question in bold so that I may explore those questions at a later time.
@@ -106,8 +101,7 @@ There are also some things that he has written that have been said but not been 
 ## 13. Intelligence as an emotion concept
 * "The extent to which we regard something as behaving in an intelligent manner is determined as much by our own state of mind and training as by the properties of the object under consideration. If we are able to explain and predict its behaviour or if there seems to be little underlying plan, we have little temptation to imagine intelligence. With the same object therefore it is possible that one man would consider it as intelligent and another would not; the second man would have found out the rules of its behaviour."
 
-# Sources
-
+# References
 * Turing, Alan. *Intelligent Machinery*. London: National Physical Laboratory, 1948. Ed. B. Jack Copeland. The Essential Turing. Oxford: Clarendon Press, 2004. 411-432
 * "Entscheidungsproblem." [https://en.wikipedia.org/wiki/Entscheidungsproblem][Entscheidungsproblem]. Web. 2015/10/09
 

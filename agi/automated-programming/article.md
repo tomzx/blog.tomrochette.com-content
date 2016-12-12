@@ -259,7 +259,7 @@ By observing the properties that can vary in the most common data structure, it 
 # See also
 * Program induction
 
-# Sources
+# References
 * https://en.wikipedia.org/wiki/Automatic_programming
 * [Approaches to Automatic Programming](http://www.sciencedirect.com/science/article/pii/S0065245808605197)
 * Green, Cordell, and David R. Barstow. [A Hypothetical Dialogue Exhibiting a Knowledge Base for a Program-understanding System](http://i.stanford.edu/pub/cstr/reports/cs/tr/75/476/CS-TR-75-476.pdf). Stanford, CA: Stanford University, 1975.

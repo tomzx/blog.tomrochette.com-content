@@ -52,5 +52,5 @@ taxonomy:
 # See also
 * [The Future of Artificial Intelligence](../../presentations/the-future-of-artificial-intelligence): A presentation by Demis Hassabis which covers some of the content covered in this paper
 
-# Sources
+# References
 * https://vk.com/doc-44016343_437229031?dl=56ce06e325d42fbc72

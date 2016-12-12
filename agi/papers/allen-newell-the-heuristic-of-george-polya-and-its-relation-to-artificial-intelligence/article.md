@@ -108,4 +108,4 @@ taxonomy:
 # See also
 * [How to Solve It](../../books/how-to-solve-it)
 
-# Sources
+# References

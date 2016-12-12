@@ -167,5 +167,5 @@ taxonomy:
 
 # See also
 
-# Sources
+# References
 * [doi:10.1016/S0065-2458(08)60519-7](http://www.sciencedirect.com/science/article/pii/S0065245808605197)

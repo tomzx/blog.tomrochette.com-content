@@ -57,7 +57,7 @@ This is a summary of the notes I've taken while listening to the presentation by
 * [Systems Neuroscience and AGI](systems-neuroscience-and-agi)
 * https://en.wikipedia.org/wiki/Temporal_difference_learning
 
-# Sources
+# References
 * [General Learning Algorithms](https://www.youtube.com/watch?v=08Cl7ii6viY)
 * [The Theory of Everything](https://www.youtube.com/watch?v=rbsqaJwpu6A) (covered by this presentation)
 * [How Deep Learning Can Give Birth to General Artificial Intelligence](https://www.youtube.com/watch?v=8DRlNkhXsIk) (covered by this presentation)

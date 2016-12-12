@@ -1,5 +1,5 @@
 ---
-title: Paul R. Halmos - Naive Set Theory (1960)
+title: Paul R. Halmos - Naive Set Theory - 1960
 created: 2016-01-14
 taxonomy:
   category: [Artificial General Intelligence]
@@ -85,7 +85,7 @@ There exists a set containing 0 and containing the successor of each of its elem
 ## Peano axioms
 1. $0 \in \omega$
 2. $if\ n \in \omega,\ then\ n^+ \in \omega$
-3. $if\ S \subset \omega, if\ 0 \in \omega,\ and\ if\ n^+ \in S\ whenever\ n \in S,\ then S = \omega$
+3. $if\ S \subset \omega, if\ 0 \in \omega,\ and\ if\ n^+ \in S\ whenever\ n \in S,\ then\ S = \omega$
 4. $n^+\ \not= 0\ for\ all\ n\ in\ \omega$
 5. $if\ n\ and\ m\ are\ in\ \omega,\ and\ if\ n^+ = m^+,\ then\ n = m$
 

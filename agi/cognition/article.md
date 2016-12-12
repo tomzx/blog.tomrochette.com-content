@@ -12,10 +12,6 @@ taxonomy:
 
 # Overview
 
-* How can one be aware of information without processing it?
-	* If a human has a virtual assistant (another human or an AGI), how can they share information in the most efficient manner?
-
-
 # Paradigms
 
 ## Cognitivism (Fodor / Chomsky)
@@ -24,6 +20,5 @@ taxonomy:
 
 ## Dynamic systems (Varela / Thompson)
 
-# Sources
-
+# References
 * http://www.upopmontreal.com/wp-content/uploads/2011/11/II_COURS_4-22-nov-2011-v2.pdf

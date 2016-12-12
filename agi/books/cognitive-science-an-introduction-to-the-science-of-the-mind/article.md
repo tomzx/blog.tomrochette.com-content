@@ -1,5 +1,5 @@
 ---
-title: Cognitive Science: An Introduction to the Science of the Mind
+title: Cognitive Science: An Introduction to the Science of the Mind - 2010
 created: 2016-04-14
 taxonomy:
   category: [Artificial General Intelligence, Cognitive Science]
@@ -282,5 +282,5 @@ taxonomy:
 
 # See also
 
-# Sources
+# References
 * Bermúdez, José Luis. Cognitive Science: An Introduction to the Science of the Mind. Cambridge: Cambridge University Press, 2010.

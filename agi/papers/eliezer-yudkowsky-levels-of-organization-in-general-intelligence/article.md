@@ -297,6 +297,6 @@ taxonomy:
 
 # See also
 
-# Sources
+# References
 * [Levels of Organization in General Intelligence
 ](https://intelligence.org/files/LOGI.pdf)

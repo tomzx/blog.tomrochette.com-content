@@ -104,6 +104,6 @@ $$
 
 # See also
 
-# Sources
+# References
 * Hutter, Marcus. "A complete theory of everything (will be subjective)." Algorithms 3.4 (2010): 329-350.
 * http://arxiv.org/abs/0912.5434

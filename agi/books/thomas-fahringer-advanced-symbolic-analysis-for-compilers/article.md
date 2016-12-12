@@ -1,5 +1,5 @@
 ---
-title: Thomas Fahringer - Advanced Symbolic Analysis for Compilers (2003)
+title: Thomas Fahringer - Advanced Symbolic Analysis for Compilers - 2003
 created: 2016-10-27
 taxonomy:
   category: [Artificial General Intelligence]

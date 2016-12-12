@@ -85,6 +85,6 @@ taxonomy:
 * "Intelligent behaviour presumably consists in a departure from the completely disciplined behaviour involved in computation, but a rather slight one, which does not give rise to random behaviour, or to pointless repetitive loops."
 * "How could one keep track of the different genetical combinations that had been tried, so as to avoid trying them again?"
 
-# Sources
+# References
 
 * Turing, Alan. *Computing Machinery and Intelligence*. Mind, volume 59, issue 236, 1950. 433-460. Ed. B. Jack Copeland. The Essential Turing. Oxford: Clarendon Press, 2004. 441-464

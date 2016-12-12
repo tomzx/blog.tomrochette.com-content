@@ -33,7 +33,7 @@ Similar to [IFTTT](https://ifttt.com/).
 	* communicate with one another
 	* synchronize their data with one another (distributed database)
 	* find one another (bot discovery/DHT)
-* A user should be able to 
+* A user should be able to
 	* use a bot locally (without internet connection) and yet get useful results
 	* send information to the bot
 	* query the bot for information
@@ -63,7 +63,7 @@ Similar to [IFTTT](https://ifttt.com/).
 		what day is it?
 
 3. The dispatcher receives the query and dispatches it to any agent that can handle it
-	1. The dispatching can either be 
+	1. The dispatching can either be
 		1. to send the received query to all agents
 		2. have agents inform the dispatcher what they'd like to be notified about (*this would require a protocol*)
 

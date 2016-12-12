@@ -52,5 +52,5 @@ taxonomy:
 
 # See also
 
-# Sources
+# References
 * [arXiv:1410.5401v2](http://arxiv.org/abs/1410.5401v2) [cs.NE]

@@ -62,5 +62,8 @@ K. Warwick [^1]
 > ... the essential, domain-independent skills necessary for acquiring a wide range of domain-specific knowledge – the ability to learn anything. Achieving this with ‘artificial general intelligence’ (AGI) requires a highly adaptive, general-purpose system that can autonomously acquire an extremely wide range of specific knowledge and skills and can improve its own cognitive ability through self-directed learning.
 P. Voss [^1]
 
-# Sources
+# References
 [^1]: http://arxiv.org/pdf/0706.3639.pdf
+
+* http://arxiv.org/abs/0706.3639
+* [Marcus Hutter - What is Intelligence? AIXI & Induction](https://www.youtube.com/watch?v=F2bQ5TSB-cE)

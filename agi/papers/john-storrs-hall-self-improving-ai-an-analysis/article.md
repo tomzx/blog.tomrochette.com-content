@@ -65,4 +65,4 @@ taxonomy:
 
 # See also
 
-# Sources
+# References

@@ -135,5 +135,5 @@ taxonomy:
 
 # See also
 
-# Sources
+# References
 * [arXiv:1604.00289v1](https://arxiv.org/abs/1604.00289v1) [cs.AI]

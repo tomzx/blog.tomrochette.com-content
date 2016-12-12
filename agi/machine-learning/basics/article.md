@@ -94,4 +94,4 @@ To avoid overfitting, the number of parameters estimated from the data must be c
 
 # See also
 
-# Sources
+# References

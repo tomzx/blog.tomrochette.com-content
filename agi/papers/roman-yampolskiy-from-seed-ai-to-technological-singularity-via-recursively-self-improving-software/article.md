@@ -65,6 +65,6 @@ taxonomy:
 
 # See also
 
-# Sources
+# References
 * [From Seed AI to Technological Singularity via Recursively Self-Improving Software](http://arxiv.org/abs/1502.06512)
 * [The Singularity: A Philosophical Analysis](http://consc.net/papers/singularity.pdf)

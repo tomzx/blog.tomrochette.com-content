@@ -76,7 +76,7 @@ It's been said *(citation needed)* that when a child is born, he is unable to se
 
 Each and every person has its own signature. However, it is not uncommon for many people to share a similar signature (have their *aura* sensed as a single identity).
 
-# Sources
+# References
 
 [^1]: https://en.wikipedia.org/wiki/Embryo
 [^2]: https://en.wikipedia.org/wiki/Human_brain_development_timeline

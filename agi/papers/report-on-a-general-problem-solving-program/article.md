@@ -41,7 +41,7 @@ taxonomy:
 	* The principle of subgoal reduction: Make progress by substituting for the achievement of a goal the achievement of a set of easier goals
 
 ## Planning as a Problem-Solving Technique
-* This planning method consists in 
+* This planning method consists in
 	* abstracting by omitting details of the original objects and operators
 	* forming the corresponding problem in the abstract task environment
 	* when the abstract problem has been solved, using its solution to provide a plan for solving the original problem
@@ -49,5 +49,5 @@ taxonomy:
 
 # See also
 
-# Sources
+# References
 * https://www.u-picardie.fr/~furst/docs/Newell_Simon_General_Problem_Solving_1959.pdf

@@ -1,9 +1,9 @@
 ---
-title: Flemming Nielson - Principles of Program Analysis (1999)
+title: Flemming Nielson - Principles of Program Analysis - 1999
 created: 2016-10-27
 taxonomy:
   category: [Artificial General Intelligence]
-  status: in progress
+  status: finished
 ---
 
 ## Context
@@ -89,7 +89,8 @@ taxonomy:
 * One application of ud- and du-chains is for Dead Code Elimination
 * Another application is in Code Motion (moving code around)
 
-## 2.3 Monotone Frameworks
+## 2.6 Shape Analysis
+* Shape Analysis will allow us to statically detect errors like deferencing a nil-pointer
 
 # See also
 

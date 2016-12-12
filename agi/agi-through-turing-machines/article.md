@@ -7,7 +7,6 @@ taxonomy:
 ---
 
 ## Context
-
 It is conjectured that the human mind can be completely reproduced by a computer and an appropriate program. What this means is that by using simple I/O to interact with the world as well as control structures (if/then and loops), we should be able to reproduce (but not necessarily replicate, that is copy the exact activity that occurs within the brain) what goes on in our mind.
 
 Turing machines represent the foundation of how computers (automata) work. It is thus highly relevant to learn how Turing machines are described and how they work so that we may be able to understand potential limitations to this approach (if there are any) or any algorithm-based approaches.
@@ -15,9 +14,9 @@ Turing machines represent the foundation of how computers (automata) work. It is
 ## Learned in this study
 
 ## Things to explore
+* "However, merely updating the list/sequence of instructions of the program is not a display of intelligence." yet "First, moving itself is to some degree intelligence."
 
 # Overview
-
 The simplest form of initial AGI software would have to be one that rewrite itself.
 
 At the lowest level, computers are governed by a set of instructions, such as `ADD`, `SUB`, `MUL`, `DIV`, `AND`, `OR`, `MOV`, `JMP` and other similar instructions.
@@ -45,7 +44,6 @@ In itself, this basic machine can do three things:
 * Update its internal state (within a finite state space)
 
 # Isomorphism of a Turing machine and a state machine
-
 Turing machines can be "simplified" (or more appropriately, restricted) into state machines. As stated by the definition of a Turing machine, a program is given, which indicates to the machine what it should do if it sees a particular symbol while reading the tape. This is equivalent to stating the state machine states and transitions conditions.
 
 Now, when a Turing machine moves its reading head (or moves the tape), there is no real state machine equivalent. The purpose of the moving head is to read a new sequential transition condition. In other words, the action of moving left or right isn't very important, what is more important is what will end up being read, which will influence the transition the state machine will take. In doing so, it may write to the block it just read, but again, that is not important in the context of the state machine.
@@ -67,13 +65,10 @@ The list of instruction then become a set of steps the machine will walk through
 ![](images/Self_improving_machine.png)
 
 # See also
-
 * [Seed AI](../seed-ai)
 
-# Sources
-
+# References
 [^1]: https://en.wikipedia.org/wiki/Turing_machine
 
 * https://en.wikipedia.org/wiki/Automata_theory
-
 

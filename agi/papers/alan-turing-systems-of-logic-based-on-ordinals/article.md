@@ -45,4 +45,4 @@ In the same manner as was demonstrated that no Turing machine can decide if a gi
 
 # See also
 
-# Sources
+# References

@@ -58,5 +58,5 @@ taxonomy:
 # See also
 * [Mari/o](../../mario): Conceptual use of the replay system
 
-# Sources
+# References
 * http://arxiv.org/abs/1312.5602

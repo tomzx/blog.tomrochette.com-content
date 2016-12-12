@@ -17,36 +17,29 @@ taxonomy:
 	* How would a group of individuals go about learning to do X?
 
 # Overview
-
 There are many different routes one might want to look into.
 
 ## Mathematical and formal approach
-
 We look into mathematical models and formal approaches such as AIXI/OOPS/Gödel machines where what we are doing is searching for programs using a proof searcher and a program runner. This approach thus requires the implementation of a proof searcher as well as some system that can execute the programs that have been found. The AGI will also need some form of reward stream or evaluation function which will allow it to determine if a newer program is superior to the current running program. This reward stream has the purpose of guiding the AGI toward a given goal and as such, the AGI will optimize itself to get to that goal as fast as possible. The difficulty of this approach is figuring out how to reward the AGI properly so that it does significant work or in other words, determine an appropriate reward evaluation function.
 
 ### What is missing?
-
 * The seed proof searcher
 * The evaluation function
 
 ## Tasks system approach
-
-This approach is to build some sort of task runner system, where perception is one of many tasks the system has to deal with. Other tasks are internal decisions, evaluations, priorization, etc. In this approach, we have to implement most of the internals of the AGI. The nice thing about this approach is that we can program it in such a way that we may inspect and understand it, however it also means that it will most likely be limited to how it was designed and will make it difficult to evolve on its own.
+This approach is to build some sort of task runner system, where perception is one of many tasks the system has to deal with. Other tasks are internal decisions, evaluations, prioritization, etc. In this approach, we have to implement most of the internals of the AGI. The nice thing about this approach is that we can program it in such a way that we may inspect and understand it, however it also means that it will most likely be limited to how it was designed and will make it difficult to evolve on its own.
 
 ### What is missing?
-
 * The necessary functions
 * The code for all these functions
 * How to hook everything together
 
 ## Neural network approach
-
 An approach similar to the task system approach could be to use many specialized neural networks together in order to accomplish specific tasks. Each neural network would be trained for a single purpose and a general neural network would be tasked with determining which specialized neural network should process the task at hand.
 
 Using an approach similar to the one presented by AlphaGo, this AGI would use a policy network and a value network in order to drive its decisions. The policy network would be used to evaluate the potential actions based on previous experiences (and their probabilities) while the value network would help the policy network decide toward which direction it should go.
 
 ### What is missing?
-
 * How to feed the network
 * How to train the network
 * What is the architecture of the network(s)?
@@ -61,8 +54,7 @@ But the information provided by the "growth" code may not be useful in itself to
 The interesting aspect of this approach is that it uses us, as human, as a proof that it is possible to produce such machine. Given the proper nutritive medium and the embryo, a host can birth a child that will be able to accomplish goals and have a life of its own.
 
 ### What is missing?
-
-* 
+* TBC
 
 ## (Hardware) Brain replication approach
 Similarly to the software brain replication approach, the hardware brain approach is based on the idea of reproducing the same processing architecture of the nervous system of the human body.
@@ -83,4 +75,4 @@ In this particular approach, the issues are numerous (some of them ethically dis
 
 # See also
 
-# Sources
+# References

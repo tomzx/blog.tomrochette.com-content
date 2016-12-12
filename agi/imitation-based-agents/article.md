@@ -6,12 +6,15 @@ taxonomy:
   status: in progress
 ---
 
+## Context
+
 ## Learned in this study
 
 ## Things to explore
 
 * Desire to imitate
 * Learn how to imitate/repeat, understand what are the critical points to reproduce
+* RL-based interaction between the AGI and its human counterpart, where the goal of the AGI is to imitate as well as possible its counterpart
 
 # Overview
 
@@ -32,3 +35,7 @@ The main issue at this point for them will be to figure out how to integrate thi
 They'll want to improve the software they've just obtained. Through static analysis they will be able to determine the exact logic that was used and potentially refactor it using more appropriate instruction and data structures. This means that AGI will become masters of program perfection.
 
 Much like a software programmer, they'll have to be able to assess the quality of the software they integrate to themselves. One way to do that would be to have an objective metric that can determine whether or not the addition of a set of instructions improves or deteriorates the machine's expected value over an amount of simulation.
+
+# See also
+
+# References

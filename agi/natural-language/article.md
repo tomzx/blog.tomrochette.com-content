@@ -7,13 +7,11 @@ taxonomy:
 ---
 
 ## Context
-
 We use natural language on a daily basis, either to communicate with others or to communite with ourself in the future by leaving us notes. Similarly to fitness trackers, it can be possible to track the "health" of our language and how it evolves over time. Learning about our own language learning history can be as interesting as history itself.
 
 ## Learned in this study
 
 ## Things to explore
-
 * Generate simplified version of complex texts (use X most common words instead of the least frequently used words)
 	* What are the tools available to do such a thing? Synonyms/Antonyms/Definitions?
 * Natural language as a problem is nothing other than the question of transferring knowledge between encodings
@@ -23,14 +21,13 @@ We use natural language on a daily basis, either to communicate with others or t
 # Overview
 
 # Structure of a "generic" natural language
-
 - Characters
 	- Words
 		- Sentences
 			- Paragraphs
 				- Sections
 					- Documents
-						- Corpus 
+						- Corpus
 
 At the root of every natural language is a set of graphemes (also known as glyphs, signs or characters). Once you are past the graphemes, everything is about relations:
 
@@ -43,15 +40,12 @@ We rarely think of characters themselves when the language uses the latin alphab
 A machine can however be taught to associate a symbol with anything (as symbols are simply placeholders).
 
 # Problem reduction
-
 In order for computers to process spoken language, it needs to be able to process audio and convert it into text. Once that is done, it is then a problem of understanding natural language in a textual form. However, in recent natural language processor, it is not rare for the process to be intertwined. This allows the algorithm to suggest which words were heard based on grammar rules as well as other rules the algorithm might have learned (for instance through statistical analysis).
 
 # Processing and retrieval
-
 How does one store as much information while using as little space as possible? What about being able to receive a stream of information and being able to tell, bit by bit, whether this sequence has already been observed in the past? The former sounds like compression while the latter sounds like string search.
 
 # User oriented
-
 * Vocabulary
 	* Shortest/Longest word/sentences (characters/syllables)
 * Categories
@@ -81,23 +75,21 @@ How does one store as much information while using as little space as possible? 
 ## Words vs Sentences
 
 # Between 2 or more users
-
 * Common vocabulary
 * Shared vocabulary
 * Unique vocabulary
+* Distance metric (how close are two users to being the same based on vocabulary?)
 
 # Context specific
-
 ## IRC/Chat oriented
-
 * Most active channels
 * Most active users
 * Most active user per channel
 * Activity distribution throughout the day (per channel)
 * Vocabulary analysis
- * Per channel
- * Per user
- * Words distribution (top 100)
+	* Per channel
+	* Per user
+	* Words distribution (top 100)
 * Most common initiator of conversation
 * Conversation killer
 * Who interacts/talk with who the most
@@ -109,7 +101,6 @@ How does one store as much information while using as little space as possible? 
 * Distribution of sentence length
 
 # Algorithms for computing readability
-
 wordCount is the number of words in the text.
 sentenceCount is the number of sentences in the text.
 syllableCount is the number of syllables in the text.
@@ -135,7 +126,6 @@ double fog = 0.4 * ( (double)wordCount / sentenceCount + (100.0 * complexCount) 
 double smog = Math.sqrt( complexCount * 30.0 / sentenceCount ) + 3.0;
 
 # English language
-
 The Second Edition of the Oxford English Dictionary contains entries for 171,476 words in current use as well as 47,156 obsolete words[^1].
 
 The average active vocabulary of an adult English speaker is of around 20,000 words, with a passive vocabulary of around 40,000[^2].
@@ -144,8 +134,7 @@ It is said that a vocabulary of just 3000 words provides coverage for around 95%
 
 # See also
 
-# Sources
-
+# References
 [^1]: http://www.oxforddictionaries.com/words/how-many-words-are-there-in-the-english-language
 [^2]: http://www.lingholic.com/how-many-words-do-i-need-to-know-the-955-rule-in-language-learning-part-2/
 [^3]: https://en.wikipedia.org/wiki/Chinese_characters

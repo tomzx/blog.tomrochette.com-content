@@ -115,5 +115,5 @@ taxonomy:
 
 # See also
 
-# Sources
+# References
 * DOI: [10.1007/978-3-540-68677-4_1](https://dx.doi.org/10.1007/978-3-540-68677-4_1)

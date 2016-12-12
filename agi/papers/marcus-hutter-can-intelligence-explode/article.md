@@ -96,6 +96,6 @@ taxonomy:
 
 # See also
 
-# Sources
+# References
 * Hutter, Marcus. "Can intelligence explode?." Journal of Consciousness Studies 19.1-2 (2012): 143-166.
 * https://arxiv.org/abs/1202.6177

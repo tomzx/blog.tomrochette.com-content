@@ -13,7 +13,6 @@ taxonomy:
 ## Things to explore
 
 # Overview
-
 **Add-one smoothing** Assign a count of 1 to unseen n-grams
 **BLAS** Basic Linear Algebra Subprograms
 **Epsilon-greedy strategy/policy** An action in a set of actions A is selected at random with probability $\epsilon$  while we may pick the action that gives the maximum amount of reward with probability $1 - \epsilon$
@@ -24,4 +23,4 @@ taxonomy:
 
 # See also
 
-# Sources
+# References

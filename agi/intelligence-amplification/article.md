@@ -28,4 +28,4 @@ Keeping information up to date means that you need to know it exists and that yo
 
 # See also
 
-# Sources
+# References

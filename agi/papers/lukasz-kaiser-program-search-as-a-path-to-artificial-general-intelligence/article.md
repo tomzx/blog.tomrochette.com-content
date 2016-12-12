@@ -120,4 +120,4 @@ $$E = pairs(booleans, lists(\alpha)) \in \mathcal{G}$$
 
 # See also
 
-# Sources
+# References

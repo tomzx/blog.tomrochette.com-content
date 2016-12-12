@@ -19,7 +19,7 @@ If your goal is to get as much compression as possible and you are okay with los
 ![](images/Binary_entropy_plot.svg)
 
 $$
-\Eta(X) = -\sum_{i} {\mathrm{P}(x_i) \log_b \mathrm{P}(x_i)}
+Η(X) = -\sum_{i} {\mathrm{P}(x_i) \log_b \mathrm{P}(x_i)}
 $$
 
 
@@ -28,6 +28,6 @@ $$
 * What happens as the volume of binary information grows?
 * Is it always possible to compress binary data past a certain amount of data? Even if this data is at its peak entropy?
 
-## Sources
+## References
 
 1. https://en.wikipedia.org/wiki/Entropy_(information_theory)

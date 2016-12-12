@@ -105,6 +105,9 @@ taxonomy:
 * In simulated annealing, temperature is used exclusively as a top-down randomness-controlling factor, its value falling monotonically according to a predetermined, rigid "annealing schedule"
 * By contrast, in Copycat, the value of the temperature reflects the current quality of the system's understanding, so that temperature acts as a feedback mechanism that determines the degree of randomness used by the system
 
+## The Intimate Relation between Randomness and Fluidity
+TBC
+
 # See also
 
-# Sources
+# References
