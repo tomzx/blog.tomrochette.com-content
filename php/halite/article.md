@@ -11,6 +11,8 @@ taxonomy:
 ## Learned in this study
 
 ## Things to explore
+* Based on the different heuristics defined, how can we design a program that will attempt to exploit these heuristics and find the best balance between each of them?
+	* Is it possible to design a program such that we write a bunch of heuristics as procedures and let it optimize itself?
 
 # Overview
 
@@ -83,6 +85,23 @@ taxonomy:
 * Test against various variants of the agent
 	* Run against the same agents multiple time in order to establish stable metrics
 * Train and tweak parameters
+
+# Understanding how to improve
+* Relax the constraints
+* Change the constraints
+	* With the opponents removed, how would you collect the most territory as fast as possible?
+* Optimize for strength, production, territory (pick one)
+* With only one piece moving per turn, how would you optimize strength, production, territory (pick one)?
+
+# Heuristics
+* Move the biggest producers as little as possible (as moving incurs a frame of production penalty)
+* Attack the highest production sites as soon as possible
+* At equal strength, prefer attacking a site with more production
+* At equal production, prefer attacking a site with less strength
+* At equal production/strength ratio, TBD?
+* It is worth attacking a site if attacking such site makes it possible to reach a given total strength faster than by not attacking
+	* For instance, considering you have 2 sites which you could attack and which have different strength/production values, there's an order in which it makes sense to attack each site in order to minimize the amount of frames required to acquire both
+* When approaching the end of the game, trade strength for territory (as the winner is based on final territory size)
 
 # See also
 
