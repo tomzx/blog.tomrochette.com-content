@@ -30,7 +30,7 @@ Here's a list of the many things that are considered while writing a program:
 Here's a few questions I will ask myself before writing any code:
 
 * Is this functionality already available in the existing codebase?
-* Is there a library that already does this (either in the project or online)? partially or completely?
+* Is there a library that already does this (either in the project or available online)? Does it cover the required functionality partially or completely?
 * Is there an implementation already available online? Can I produce a better implementation?
 * Do I know how to implement this?
 * What can I safely extrapolate this new feature will need to be able to do in the future? Can I account for any of it in my current design?
@@ -50,12 +50,18 @@ graph TD;
 	102 --Yes--> 103[Implement it]
 ```
 
-Most of the time a single straightfoward solution will fit the bill for all the given requirements and implementation will be the next step. However, it happens from time to time that multiple solutions valid and you will have to determine the pros/cons of each solution in order to make the best choice for the given situation. In any case, one will want to:
+Most of the time a single straightfoward solution will fit the bill for all the given requirements and implementation will be the next step. However, it happens from time to time that multiple solutions are valid and you will have to determine the pros/cons of each solution in order to make the best decision for the given situation. In any case, one will want to:
 
 * Reduce risk
 * Maximize flexibility
 * Minimize coupling
 * Plan for the solution to be potentially replaced by another one
+
+Once a solution has been picked out, it's time to establish the construction order. Here, there are two approaches: top-down or bottom-up.
+
+Top-down consists in preparing the high-level structures and slowly drilling down into the implementations details (similar to how I approached the program analysis). Generally, I'll outline the various things that will be done in pseudo-code or comments within the functions, then create the function call and the function definition. Repeat this until you reach the low-level implementation. At this point, I have not defined the parameters of any of the functions, simply the function call flow. Then it is time to think about what will go from one function call to another. Finally, when all of this is done, it is time to go into implementing the "empty" functions with actual low-level logic as all the high-level logic/communication has been established previously.
+
+Bottom-up consists in writing down the low-level features that you will need. This can generally done if you already have a good idea of the different components you'll need to construct your overall program. I think of this approach as one you'd generally use if you know how to do certain things already but no library is available on hand.
 
 # See also
 * [Automated programming](../automated-programming)
