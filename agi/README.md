@@ -49,6 +49,7 @@ Tom
 	* [Definitions](intelligence/definitions)
 	* [Tests](intelligence/tests)
 * [Isomorphism](isomorphism)
+* [Knowledge base](knowledge-base)
 * [Knowledge transfer](knowledge-transfer)
 * [Learning](learning)
 * [Mario](mario)
