@@ -250,8 +250,8 @@ Source: https://www.quora.com/Has-Douglas-Lenats-EURISKO-research-ever-been-repr
 * Criteria which make a domain suitable for AM-like exploration (discovery of new concepts and conjectures) are - taken to extremes - the same criteria which make a domain suitable for EURISKO-like exploration (discovery of new heuristics)
 
 # See also
-*[AM: An artificial intelligence approach to discovery in mathematics as heuristic search](http://www.dtic.mil/dtic/tr/fulltext/u2/a155378.pdf)
-* [From AM to CYRANO]( https://dspace.mit.edu/bitstream/handle/1721.1/41178/AI_WP_293.pdf)
+* [AM: An artificial intelligence approach to discovery in mathematics as heuristic search](http://www.dtic.mil/dtic/tr/fulltext/u2/a155378.pdf)
+* [From AM to CYRANO](https://dspace.mit.edu/bitstream/handle/1721.1/41178/AI_WP_293.pdf)
 
 
 # References
