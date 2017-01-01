@@ -9,7 +9,7 @@ taxonomy:
     tag: [certificates, git, tortoisegit]
 ---
 
-For some odd reason it seems that the system designed into [TortoiseGit][1] doesn&#8217;t allow the user to interact with git when it requires user interaction. For instance, accepting self-signed certificated is not possible, which gives you the known [Issue 318][2].
+For some odd reason it seems that the system designed into [TortoiseGit](https://code.google.com/p/tortoisegit/) doesn't allow the user to interact with git when it requires user interaction. For instance, accepting self-signed certificated is not possible, which gives you the known [issue 318](https://gitlab.com/tortoisegit/tortoisegit/issues/318).
 
 As of TortoiseGit 1.8.5.0, it is still not possible to accept certificates through the GUI. But it is possible to get your git repository to work with TortoiseGit (and work with the required certificate).
 
@@ -27,8 +27,4 @@ mklink /D %USERPROFILE%\.subversion "C:\Program Files (x86)\Git\.subversion"
 
 which will make `%USERPROFILE%\.subversion` point to your `C:\Program Files (x86)\Git\.subversion` folder. This has the benefit that any future certificate will work both for msysgit and TortoiseGit.
 
-Thanks to [Mexx&#8217; C# Corner][3] for pointing out the solution.
-
- [1]: https://code.google.com/p/tortoisegit/
- [2]: http://code.google.com/p/tortoisegit/issues/detail?id=318
- [3]: http://blog.malook.de/2010/10/tortoisegit-as-frontend-to-https-svn.html
+Thanks to [Mexx&#8217; C# Corner](http://blog.malook.de/2010/10/tortoisegit-as-frontend-to-https-svn.html) for pointing out the solution.
