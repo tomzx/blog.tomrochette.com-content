@@ -42,6 +42,9 @@ In a textual format, we can think of the concepts as a list with one concept per
 
 ### Example
 Jack
+John
+Father
+Son
 School
 Car
 Sun
@@ -73,15 +76,19 @@ John Son
 We can see in this example that what can be considered relations (such as father/son) are considered as concepts and are associated to other concepts (Jack and John).
 
 ### Capabilities
-* Answer queries such as: "Is *Jack* related to *John*?" (Yes), "Is *Jack* related to the concept of *Man* or *Woman*?" (Yes, Man), "Is *John* a *Father*?" (No), "Is *Jack* related to something that is a *Teenager*?" (Yes), "What concepts are related to *Jack* and *Teenager* and *Son*?" (John)
+* Answer queries such as: "Is *Jack* related to *John*?" (Yes), "Is *Jack* related to (the concept) of *Man* or *Woman*?" (Yes, Man), "Is *John* a *Father*?" (No), "Is *Jack* related to something that is a *Teenager*?" (Yes), "What concepts are related to *Jack* and *Teenager* and *Son*?" (John)
+* Query language using the previous examples (note that the order of the arguments does not matter)
+	* (Jack, John)? (John, Jack)?
+	* (Jack, Man) or (Jack, Woman)? (Man, Jack) or (Woman, Jack)?
+	* (John, Father)? (Father, John)?
+	* (John, (Teenager, ?))? (John, (?, Teenager))? (John, x) & (Teenager, x)?
+	* (?, [Jack & Teenager & Son])? (?, Jack) & (?, Teenager) & (?, Son)?
 
 ### Process
 * Using the results from L1, attempt to build a relation graph between entities
 	* This process may be akin to the TSP, where instead of finding the optimal path through cities, we're trying to find the optimal relation set between entities
 
-## L2: (Named) Relations
-? Should relations be undirected(reciprocal) at this level or directed(unidirectional)?
-
+## L2: Types/(Named) Relations
 At this layer relations now have a name that can identify them. For instance, John - Brother - Jack indicates that John and Jack are brothers.
 
 In a textual format, the concepts and their relation is represented as a triplet. However, if you are familiar with databases, relations can be seen as a table with two columns, one for each concept, and for which the table name represents the relation between the two concepts.
@@ -100,6 +107,11 @@ OlderBrother John Jack
 Father John Jack
 Son Jack John
 
+### Questions
+* Should relations be undirected(reciprocal) at this level or directed(unidirectional)?
+* Should this level already have the ability to create higher level relations (3..n)?
+* Should this level specify domain(input)/range(output) constraints?
+
 ### Capabilities
 
 ### Process
@@ -109,3 +121,5 @@ Son Jack John
 * [Knowledge transfer](../knowledge-transfer)
 
 # References
+* https://en.wikipedia.org/wiki/Relational_model
+* https://en.wikipedia.org/wiki/Binary_relation
