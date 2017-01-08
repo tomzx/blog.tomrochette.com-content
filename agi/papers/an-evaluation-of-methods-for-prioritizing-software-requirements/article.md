@@ -113,4 +113,4 @@ taxonomy:
 # See also
 
 # References
-* http://www.wohlin.eu/ist98-1.pdf
+* Karlsson, Joachim, Claes Wohlin, and Björn Regnell. "[An evaluation of methods for prioritizing software requirements.](http://www.wohlin.eu/ist98-1.pdf)" Information and Software Technology 39.14 (1998): 939-947.
