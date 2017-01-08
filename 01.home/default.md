@@ -17,7 +17,7 @@ content:
     pagination: true
 
 feed:
-    description: Sample Blog Description
+    description: What's up with my life
     limit: 10
 
 pagination: true
