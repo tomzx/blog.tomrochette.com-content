@@ -314,5 +314,5 @@ Paul Jorgensen
 ### Advanced Symbolic Analysis for Compilers (2016-10 - 2016-11)
 Thomas Fahringer
 
-### Principles of Program Analysis (2016-10 - ?)
+### Principles of Program Analysis (2016-10 - 2016-12)
 Flemming Nielson
