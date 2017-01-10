@@ -24,7 +24,7 @@ Here we do a little bit of thinking about the network itself. If it was a single
 
 Then we think of the brain as a tree structure. With 100 levels, it is very likely for the brain to be fully covered. However a tree structure implies that there would be no consolidation of information. Neurons would be fired, but at no point would a neuron say "yeap, that's a cat alright". It would be more like "I saw a paw", "I saw some ears", "I saw a tail", but nothing aggregating all of these indices.
 
-TBC
+<tbc></tbc>
 
 ## AGI model
 * System that integrates and differentiate inputs

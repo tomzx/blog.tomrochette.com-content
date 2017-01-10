@@ -54,7 +54,7 @@ But the information provided by the "growth" code may not be useful in itself to
 The interesting aspect of this approach is that it uses us, as human, as a proof that it is possible to produce such machine. Given the proper nutritive medium and the embryo, a host can birth a child that will be able to accomplish goals and have a life of its own.
 
 ### What is missing?
-* TBC
+<tbc></tbc>
 
 ## (Hardware) Brain replication approach
 Similarly to the software brain replication approach, the hardware brain approach is based on the idea of reproducing the same processing architecture of the nervous system of the human body.

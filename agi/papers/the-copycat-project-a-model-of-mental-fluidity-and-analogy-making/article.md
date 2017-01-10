@@ -106,7 +106,7 @@ taxonomy:
 * By contrast, in Copycat, the value of the temperature reflects the current quality of the system's understanding, so that temperature acts as a feedback mechanism that determines the degree of randomness used by the system
 
 ## The Intimate Relation between Randomness and Fluidity
-TBC
+<tbc></tbc>
 
 # See also
 
