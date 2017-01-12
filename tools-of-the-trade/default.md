@@ -6,7 +6,7 @@ taxonomy:
 ---
 
 # PHP
-* [laravel 4.*/5.*](http://laravel.com/)
+* [laravel 4.\*/5.\*](http://laravel.com/)
 * [composer](http://getcomposer.org/)
     * [fzaninotto/faker](https://packagist.org/packages/fzaninotto/faker)
     * [mockery/mockery](https://packagist.org/packages/fzaninotto/faker)
@@ -17,7 +17,7 @@ taxonomy:
 * [bootstrap 3](http://getbootstrap.com/)
 
 # Javascript
-* [jquery 1.11/2.1](http://jquery.com/)
+* [jquery](http://jquery.com/)
 * [lo-dash](http://lodash.com/) / [Underscore.js](http://underscorejs.org/)
 * [URI.js](http://medialize.github.io/URI.js/)
 * [angular.js](http://angularjs.org/)
