@@ -24,12 +24,22 @@ taxonomy:
 * Speech: 100-125 wpm, slide presentations - 150-160 wpm, audiobooks [^5]
 
 # Input
-
 * Listening: 100-125 wpm, slide presentations - 150-160 wpm, audiobooks [^5]
 * Reading: 228±30 wpm (in English) [^5]
 
-# Retention
+# Space requirements
+| Medium | Per minute | Per day | Per year | Description |
+|--------|------------|---------|----------|-------------|
+| Text | 1 KB | 1.5 MB | 512 MB | At the same rate the average human can read, 230 words per minute or around 1000 characters per minute |
+| Audio (voice only) | 60-480 KB | 84-675 MB | 30-241 GB | 300-3400 Hz, 8-64 kbps |
+| Audio (audible) | 1-3 MB | 1-4 GB | 505-1261 GB | 20-20000 Hz, up to 40 kHz, 128-320 kbps  |
+| Video | 23-45 MB | 32-65 GB | 12-24 TB | 1080p@30fps, 3-6 Mbps |
+| Taste | ? | ? | ? | - |
+| Smell | ? | ? | ? | - |
+| Heat | ? | ? | ? | - |
+| Pressure | ? | ? | ? | - |
 
+# Retention
 > You remember approximately 30 percent of what you see.
 > You remember approximately 50 percent of what you hear and see together.
 > You remember approximately 70 percent of what you say (if you think as you are saying it).
@@ -47,11 +57,9 @@ Source: National Highway Institute
 ![The Learning Pyramid](assets/images/Learning-Pyramid.jpg) [^3]
 
 # See also
-
 * [Senses](../senses)
 
 # References
-
 [^1]: http://www.dartmouth.edu/~acskills/docs/study_actively.doc
 [^2]: https://www.nhi.fhwa.dot.gov/downloads/freebies/172/PR%20Pre-course%20Reading%20Assignment.pdf
 [^3]: http://thepeakperformancecenter.com/educational-learning/learning/principles-of-learning/learning-pyramid/
