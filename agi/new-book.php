@@ -23,7 +23,7 @@ mkdir($folderPath);
 // Copy template.md to article.md
 copy('template.md', $articlePath);
 // Update the article title and date
-$articleTitle = $author.' - '.$title.' ('.$year.')';
+$articleTitle = $author.' - '.$title.' - '.$year;
 $content = file_get_contents($articlePath);
 $content = str_replace('Template', $articleTitle, $content);
 $content = str_replace('2016-01-01', date('Y-m-d'), $content);
