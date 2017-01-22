@@ -34,20 +34,28 @@ taxonomy:
 * **Empty set:** A set which contains no element (written as $\varnothing$ or $\{\}$).
 * **Universal/Referential set:** Reference set that allows construction of other sets in a specific context. Written $\Omega$ or $U$.
 * **Extension description:** When the elements of a set are enumerated.
-	$$E = \{2, 4, 6, 8, 10\}$$
+$$
+E = \{2, 4, 6, 8, 10\}
+$$
 * **Comprehension description:** When the elements of a set are specified by their properties.
-	$$E = \{2n\ |\ n \in \mathbb{N}, 1 \le n \le 5\}$$
+$$
+E = \{2n\ |\ n \in \mathbb{N}, 1 \le n \le 5\}
+$$
 * **Disjoints sets:** Two sets are *disjoint* if their intersection is empty.
 * **Partition:** $n$ sets form a *partition* of a set $E$ if they are disjoint to one another and their union is $E$.
-	$$
-	\begin{cases}
-		F_1 \cup F_2 \cup\ ...\ \cup F_n& =& E \\
-		F_i \cap F_j = \varnothing& if& i \ne j
-	\end{cases}
-	$$
+$$
+\begin{cases}
+	F_1 \cup F_2 \cup\ ...\ \cup F_n& =& E \\
+	F_i \cap F_j = \varnothing& if& i \ne j
+\end{cases}
+$$
 * **Cartesian product:** The set of all couples (a, b) that can be generated from the elements $a$ of $A$ and the elements $b$ of $B$.
-	$$A \times B = \{(a, b)\ |\ a \in A, b \in B\}$$
-	$$A_1 \times A_2 \times\ ...\ \times A_n = \{(a_1, a_2, ..., a_n)\ |\ a_i \in A_i\}$$
+$$
+A \times B = \{(a, b)\ |\ a \in A, b \in B\}
+$$
+$$
+A_1 \times A_2 \times\ ...\ \times A_n = \{(a_1, a_2, ..., a_n)\ |\ a_i \in A_i\}
+$$
 
 # Properties of power sets
 * If $E_1 = \varnothing$, then $\mathcal{P}(E_1) = \{\varnothing\}$
@@ -75,17 +83,33 @@ $$
 
 # Operations on sets
 * **Difference:** The elements of $E$ that are not in $F$.
-	$$E \setminus F$$
-	$$E \setminus F = \{x \in \Omega\ |\ (x \in E) \wedge (x \not\in F)\}$$
+$$
+E \setminus F
+$$
+$$
+E \setminus F = \{x \in \Omega\ |\ (x \in E) \wedge (x \not\in F)\}
+$$
 * **Intersection:** The elements that are common to $E$ and $F$.
-	$$E \cap F$$
-	$$E \cap F = \{x \in \Omega\ |\ (x \in E) \wedge (x \in F)\}$$
+$$
+E \cap F
+$$
+$$
+E \cap F = \{x \in \Omega\ |\ (x \in E) \wedge (x \in F)\}
+$$
 * **Union:** The elements that are either or both $E$ and $F$.
-	$$E \cup F$$
-	$$E \cup F = \{x \in \Omega\ |\ (x \in E) \vee (x \in F)\}$$
+$$
+E \cup F
+$$
+$$
+E \cup F = \{x \in \Omega\ |\ (x \in E) \vee (x \in F)\}
+$$
 * **Complement:** The elements that are not in $E$.
-	$$E^c\ or\ E'$$
-	$$E^c = E' = \{x \in \Omega\ |\ (x \not\in E)\}$$
+$$
+E^c\ or\ E'
+$$
+$$
+E^c = E' = \{x \in \Omega\ |\ (x \not\in E)\}
+$$
 
 # Families
 * $dom(I)$: index
@@ -101,7 +125,9 @@ If $f$ is a function from $X$ to $Y$ and $g$ is a function from $Y$ to $Z$, then
 ## Comprehension description of a set of values with multiples
 To describe a set where the values are multiple of a value y, we say
 
-$$E = \{yx\ |\ x \in \mathbb{N}\}$$
+$$
+E = \{yx\ |\ x \in \mathbb{N}\}
+$$
 
 ## Elements of a power set
 Let $E = \{1, 2\}$,
