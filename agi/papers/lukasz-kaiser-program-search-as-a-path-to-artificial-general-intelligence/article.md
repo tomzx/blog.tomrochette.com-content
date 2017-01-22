@@ -83,7 +83,9 @@ taxonomy:
 	* For practical reasons we could assume that if this number is greater than some constant, then the instances are not similar at all
 * We can say that one program search algorithm is more efficient than another with respect to a history if it is faster on all instances in the history and on all similar instances
 * An alternative definition: The weight of an algorithm $A$ with respect to history $H$ is
-$$w(A, H) = \Sigma_{\{i\ similar\ to\ some \ j\ \in\ H\}}time(A, i) \cdot 2^{similarity(i, H)}$$
+$$
+w(A, H) = \Sigma_{\{i\ similar\ to\ some \ j\ \in\ H\}}time(A, i) \cdot 2^{similarity(i, H)}
+$$
 	* $similarity(i, H)$: the smallest level of similarity between $i$ and any instance from $H$
 	* $time(A, i)$: the time it takes $A$ to solve $i$
 
@@ -108,7 +110,9 @@ $$w(A, H) = \Sigma_{\{i\ similar\ to\ some \ j\ \in\ H\}}time(A, i) \cdot 2^{sim
 	* $\Gamma = \{booleans, lists, pairs\}$
 		* where booleans has arity 0, lists has arity 1 and pairs has arity 2
 	* The example type $E$ of pairs consisting of a boolean value and a list of any other type can be represented as
-$$E = pairs(booleans, lists(\alpha)) \in \mathcal{G}$$
+$$
+E = pairs(booleans, lists(\alpha)) \in \mathcal{G}
+$$
 * The set $TVar(T)$ of type variables occurring in a type $T$ is also defined inductively by $TVar(\alpha) = \{\alpha\}$, $TVar(T(R_1, ..., R_n)) = TVar(R_1) \cup ... \cup TVar(R_n)$ and $TVar(T_1, ..., T_n \rightarrow R) = TVar(T_1) \cup ... \cup TVar(T_n) \cup TVar(R)$ so $TVar(E) = \{\alpha\}$
 * The usual intuition behind types is to view them as labeled trees, therefore we introduce the notion of positions in types
 * The set $\Lambda$ of positions is the set of sequences of positive natural numbers
