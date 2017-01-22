@@ -48,7 +48,9 @@ taxonomy:
 * At any given time $t (1 \le t \le T)$, the goal is to maximize future success or utility
 * $u(s, Env) : \mathcal{S} \times \mathcal{E} \rightarrow \mathcal{R}$, where $\mathcal{R}$ is the set of real numbers
 
-$$u(s, Env) = E_\mu\left[\sum_{\tau=time}^{T}r(\tau)\middle|s, Env\right]$$
+$$
+u(s, Env) = E_\mu\left[\sum_{\tau=time}^{T}r(\tau)\middle|s, Env\right]
+$$
 
 * $r(t)$: a real-valued reward input (encoded within $s(t)$) at time $t$
 * $E_\mu(\cdot\ |\ \cdot)$: the conditional expectation operator with respect to some possibly unknown distribution $\mu$ from a set $M$ of possible distributions ($M$ reflects whatever is known about the possibly probabilistic reactions of the environment)
