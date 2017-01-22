@@ -53,7 +53,8 @@ taxonomy:
 * The universal ToE generates all computable universes. The generated multiverse can be depicted as an infinite matrix in which each row corresponds to one universe (and the column represent the observation at time t)
 * The standard way to linearize an infinite matrix is to dovetail in diagonal serpentines through the matrix
 
-$$\breve{u}_{1:\infty} :=
+$$
+\breve{u}_{1:\infty} :=
 u^\epsilon_1
 u^0_1
 u^\epsilon_2
@@ -68,7 +69,8 @@ u^\epsilon_5
 u^0_4
 u^1_3
 u^{00}_2
-...$$
+...
+$$
 
 * Define a bijection $i = \langle q, k \rangle$ between a (program, location) pair $(q, k)$ and the natural number $i \in \mathbb{N}$, and define $\breve{u_i} := u^q_k$. We can then construct an explicit program $\breve{q}$ for UTM that computes $\breve{u}_{1:\infty} = u^q_{1:\infty} = UTM(\breve{q})$
 * One may define the best CToE (of an observer with experience $o^{true}_{1:t}$) as
