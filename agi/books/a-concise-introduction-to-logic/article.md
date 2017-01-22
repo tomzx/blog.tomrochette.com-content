@@ -840,38 +840,52 @@ $$
 * Used to compute the probability of two events occurring together when the events are independent of each other
 * Two events are said to be independent when the occurrence of one has no effect on the probability of the other one occurring
 
-$$P(A\ \mathrm{and}\ B) = P(A) \times P(B)$$
+$$
+P(A\ \mathrm{and}\ B) = P(A) \times P(B)
+$$
 
 ### General Conjunction Rule
 * Used to compute the probability of two events occurring together whether or not the events are independent
 * When the events are independent, the general conjunction rule reduces to the restricted conjunction rule
 
-$$P(A\ \mathrm{and}\ B) = P(A) \times P(B \mathrm{given}\ A)$$
+$$
+P(A\ \mathrm{and}\ B) = P(A) \times P(B \mathrm{given}\ A)
+$$
 
 ### Restricted Disjunction Rule
 * Used to compute the probability of either two events occurring when the events are mutually exclusive
 
-$$P(A\ \mathrm{or}\ B) = P(A) + P(B)$$
+$$
+P(A\ \mathrm{or}\ B) = P(A) + P(B)
+$$
 
 ### General Disjunction Rule
 * Used to compute the probability of either of two events whether or not they are mutually exclusive
 
-$$P(A\ \mathrm{or}\ B) = P(A) + P(B) - P(A\ \mathrm{and}\ B)$$
+$$
+P(A\ \mathrm{or}\ B) = P(A) + P(B) - P(A\ \mathrm{and}\ B)
+$$
 
 * If the events are independent, $P(A\ \mathrm{and}\ B)$ is computed using the restricted conjunction rule, and the geenral disjunction formula reduces to
 
-$$P(A\ \mathrm{or}\ B) = P(A) + P(B) - [P(A) \times P(B)]$$
+$$
+P(A\ \mathrm{or}\ B) = P(A) + P(B) - [P(A) \times P(B)]
+$$
 
 ### Negation Rule
 * Useful for computing the probability of an event when the probability of the event not happening is either known or easily computed
 
-$$P(A) = 1 - P(not-A)$$
+$$
+P(A) = 1 - P(not-A)
+$$
 
 ### Bayes's Theorem
 * Useful for evaluating the conditional probability of two or more mutually exclusive and jointly exhaustive events
 * The conditional probability of an event is the probability of that event happening given that another event has already happened, and it is expressed P(A given B)
 
-$$P(A_1\ \mathrm{given}\ B) = \frac{P(A_1) \times P(B\ \mathrm{given}\ A_1)}{[P(A_1) \times P(B\ \mathrm{given}\ A_1)] + [P(A_2) \times P(B\ \mathrm{given}\ A_2)]}$$
+$$
+P(A_1\ \mathrm{given}\ B) = \frac{P(A_1) \times P(B\ \mathrm{given}\ A_1)}{[P(A_1) \times P(B\ \mathrm{given}\ A_1)] + [P(A_2) \times P(B\ \mathrm{given}\ A_2)]}
+$$
 
 ## 12 Statistical Reasoning
 ## 12.1 Evaluating Statistics
