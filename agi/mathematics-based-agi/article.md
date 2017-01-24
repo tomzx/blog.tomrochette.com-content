@@ -120,12 +120,14 @@ What is the probability of finding an AGI program? To answer this question, we g
 	* length n => $(n+1)s^n$
 * $L_{p \to AGI} = |p_{x,y}| - |p_{AGI}|$ the length difference between a program $p_{x,y}$ longer than $p_{AGI}$
 * for $s > 1$ and $l = |p_{AGI}| > 1$, (something is not right with this equation as the probability can go over 1 if $|p_{x,y}| - |p_{AGI}| + 1 >s^{|p_{AGI}|}$)
-$$\begin{split}
+$$
+\begin{split}
 P(\mathrm{p\ exhibits\ AGI} \mid |p_{x,y}| > l \wedge p_{AGI}) &= (L_{p \to AGI} + 1) \times \frac{s^{L_{p \to AGI}}}{s^{|p_{x,y}|}} \\
 &= [|p_{x,y}| - |p_{AGI}| + 1] \times \frac{s^{|p_{x,y}| - |p_{AGI}|}}{s^{|p_{x,y}|}} \\
 &= [|p_{x,y}| - |p_{AGI}| + 1] \times \frac{s^{|p_{x,y}|} \times s^{-|p_{AGI}|}}{s^{|p_{x,y}|}}  \\
 &= \frac{|p_{x,y}| - |p_{AGI}| + 1}{s^{|p_{AGI}|}} \\
-\end{split}$$
+\end{split}
+$$
 
 A couple conclusions:
 
