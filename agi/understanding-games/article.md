@@ -7,7 +7,6 @@ taxonomy:
 ---
 
 ## Context
-
 Games are complex, self-contained environment from which an AGI can learn. Games most often have a user interface and a set of rules, which are generally easily understood by their players. However, is it possible for simple vision algorithms (and maybe more) to understand and extract the mechanics of a game?
 
 I'd like to explore 7 types of games:
@@ -26,17 +25,21 @@ I'd like to explore 7 types of games:
 # Overview
 
 # Real Time Strategy
+<tbc></tbc>
 
 # First Person Shooter
+<tbc></tbc>
 
 # Simulation/Sandbox
+<tbc></tbc>
 
 # (MMO)RPG
+<tbc></tbc>
 
 # MOBA
+<tbc></tbc>
 
 # Platformers
-
 Platformers are an interesting genre because they can easily be seen as a path through a level that needs to be optimized. If we take a game such as Super Mario Bros., we only have obw real constraint: we must finish the level before the given 300 seconds (5 minutes). Using this single constraint though makes it hard to give it a purpose to our AGI. Thus, we need to add a couple more constraints/goals.
 
 In order to make the levels more challenging, other constraints such as not dying to enemies of falling into holes are part of the game.
@@ -54,7 +57,7 @@ The game was basically replaced by a 13x13 grid where there exist 2 types of blo
 On the surface, the NEAT algorithm appears to learn, however I'd suggest that it is far from that. Instead, what it is doing is trying numerous cases that are part of the search space, supposedly attempting to find a balance between the fitness of evolved solutions and their diversity[^1] which should lead to a better action model for the same number of attempts compared to a random action agent.
 
 # Action/Adventure
+<tbc></tbc>
 
 # See also
-
 [^1]: https://en.wikipedia.org/wiki/Neuroevolution_of_augmenting_topologies
