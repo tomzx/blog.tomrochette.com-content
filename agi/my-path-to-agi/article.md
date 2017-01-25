@@ -320,5 +320,5 @@ Flemming Nielson
 ### Foundations of Semantic Web Technologies (2017-01 - ?)
 Pascal Hitzler
 
-### Programming the Semantic Web (2017-01 - ?)
+### Programming the Semantic Web (2017-01)
 Toby Segaran
