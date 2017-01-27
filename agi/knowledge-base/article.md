@@ -33,12 +33,16 @@ taxonomy:
 # Complexity layers
 ? There's some resemblance with relational databases and database normalization, is there an isomorphic relation between the complexity layers and those two?
 
-## L0: Concepts
+## L0: Concepts/Entities
 The lowest level of "indivisible" knowledge. Anything that can be thought of mentally: people names, locations, sizes, colors, images, videos, audios, topics, etc.
 
 Each concept is presented as a node in a graph. At this layer, the graph is simply a set of vertices without any edges, also known as a [null graph](https://en.wikipedia.org/wiki/Null_graph).
 
 In a textual format, we can think of the concepts as a list with one concept per line. Similarly named concepts may take multiple lines (e.g. mouse as an animal and as a computer device), although it is suggested to use terms as descriptive as possible (computer mouse vs mouse).
+
+At this level we also accept higher-level constructs such as images (vector of pixels), sounds (vector of amplitudes/frequencies, and videos (vector of images and sounds)).
+
+As the concepts may not be easily identified, once they are inserted into the system they are given a unique textual identifier through which we can refer to instead.
 
 ### Example
 Jack
@@ -49,6 +53,10 @@ School
 Car
 Sun
 Summer
+<sound of waterfall>
+<sound of water crashing against the beach>
+<video of firework>
+<image of a cat>
 
 ### Capabilities
 * Answer queries such as: "Do I know about Jack/School/Car/Sun/Summer?"
