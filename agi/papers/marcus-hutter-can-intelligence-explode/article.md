@@ -11,7 +11,7 @@ taxonomy:
 ## Learned in this study
 
 ## Things to explore
-* Intelligence is humans increases over time by the fact we can teach, and thus have young humans know earlier than we did. Does it mean that we will be limited by how fast teaching can happen?
+* Intelligence in humans increases over time by the fact we can teach, and thus have young humans know earlier than we did. Does it mean that we will be limited by how fast teaching can happen?
 * It might be impossible to detect superintelligence on others planets due to the fact that increased intelligence => compressed information => indistinguishable from random noise
 	* On the other hand, compressed information can be decompressed, thus it might be possible to attempt to decompress noise streams
 
