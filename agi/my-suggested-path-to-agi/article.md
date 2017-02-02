@@ -17,7 +17,7 @@ If you have comments and suggestions, feel free to let me know through the comme
 * [Discrete Mathematics and Its Applications](https://www.amazon.ca/Discrete-Mathematics-Applications-Kenneth-Rosen/dp/0073383090/)
 
 ## Logic
-* I have no book recommendation at this moment
+* [A Concise Introduction to Logic](https://www.amazon.com/Concise-Introduction-Logic-Book-Only/dp/0840034164)
 
 ## Set theory
 * [Naive Set Theory](https://www.amazon.com/Naive-Set-Theory-Paul-Halmos/dp/1781394660)
@@ -27,12 +27,19 @@ If you have comments and suggestions, feel free to let me know through the comme
 * [Artificial Intelligence: A Modern Approach](http://www.amazon.com/Artificial-Intelligence-Modern-Approach-Edition/dp/0136042597)
 * [The Society of Mind](http://www.amazon.com/The-Society-Mind-Marvin-Minsky/dp/0671657135)
 * [The Essential Turing](http://www.amazon.com/Essential-Turing-Philosophy-Artificial-Intelligence/dp/0198250800) (everything except *On Computable Numbers, with an Application to the Entscheidungsproblem* and *Systems of Logic Based on Ordinals*)
+* [Cognitive Science: An Introduction to the Science of the Mind](https://www.amazon.com/Cognitive-Science-Introduction-Mind/dp/0521708370)
+* [How to Solve It: A New Aspect of Mathematical Method](https://www.amazon.com/How-Solve-Aspect-Mathematical-Method/dp/069111966X)
 * [A Collection of Definitions of Intelligence](http://arxiv.org/abs/0706.3639)
+* [On Intelligence](https://www.amazon.com/Intelligence-Jeff-Hawkins/dp/0805078533)
 * [Essentials of General Intelligence: The Direct Path to Artificial General Intelligence](https://www.amazon.ca/Artificial-General-Intelligence-Ben-Goertzel/dp/354023733X)
 * [Artificial Brains](https://www.amazon.ca/Artificial-General-Intelligence-Ben-Goertzel/dp/354023733X)
 
 ## Intermediate
 * [The Logic of Intelligence](http://cis-linux1.temple.edu/~pwang/Publication/logic_intelligence.pdf)
+* [AM: An Artificial Intelligence Approach to Discovery in Mathematics as Heuristic Search](http://www.dtic.mil/dtic/tr/fulltext/u2/a155378.pdf)
+* [From Seed AI to Technological Singularity via Recursively Self-Improving Software](https://arxiv.org/abs/1502.06512)
+* [A Complete Theory of Everything (will be subjective)](https://arxiv.org/abs/0912.5434)
+* Self-improving AI: an Analysis
 
 ## Advanced
 * [Machine Super Intelligence](http://www.vetta.org/documents/Machine_Super_Intelligence.pdf)
@@ -40,3 +47,6 @@ If you have comments and suggestions, feel free to let me know through the comme
 * [Gödel Machines: Fully Self-Referential Optimal Universal Self-improvers](http://arxiv.org/abs/cs/0309048)
 * [Universal Artificial Intelligence](https://www.amazon.com/Universal-Artificial-Intelligence-Algorithmic-Probability/dp/3540221395)
 * [The Essential Turing](http://www.amazon.com/Essential-Turing-Philosophy-Artificial-Intelligence/dp/0198250800) (*On Computable Numbers, with an Application to the Entscheidungsproblem* and *Systems of Logic Based on Ordinals*)
+* [Neuroscience: Exploring the Brain](https://www.amazon.com/Neuroscience-Exploring-Mark-Bear-PhD/dp/0781760038)
+* [Introduction to Automata Theory, Languages, and Computation](https://www.amazon.com/Introduction-Automata-Theory-Languages-Computation/dp/0321455363)
+* [Language Identification in the Limit](http://web.mit.edu/~6.863/www/spring2009/readings/gold67limit.pdf)
