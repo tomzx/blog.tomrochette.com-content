@@ -207,6 +207,9 @@ Alan Biermann
 ### Duplicated Code Refactoring Advisor (DCRA) (2016-06)
 Francesco Zanoni
 
+### How to Solve It: A New Aspect of Mathematical Method (2016-06 - ?)
+George Pólya
+
 ### The heuristic of George Polya and its relation to artificial intelligence (2016-06)
 Allen Newell
 
