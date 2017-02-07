@@ -34,8 +34,11 @@ Volodymyr Mnih, Koray Kavukcuoglu, David Silver, Alex Graves, Ioannis Antonoglou
 ### Genifer – an artificial general intelligence (2014-03 - ?)
 YKY
 
-### How to Create a Mind: The Secret of Human Thought Revealed
+### How to Create a Mind: The Secret of Human Thought Revealed (2014-03)
 Ray Kurzweil
+
+### Coursera - Machine Learning (2014-03)
+Andrew Ng
 
 ## 2015
 
@@ -325,3 +328,6 @@ Pascal Hitzler
 
 ### Programming the Semantic Web (2017-01)
 Toby Segaran
+
+### Deep Learning (2017-02 - ?)
+Ian Goodfellow
