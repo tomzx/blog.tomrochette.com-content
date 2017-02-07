@@ -14,6 +14,11 @@ $articlePath = $folderPath.'/article.md';
 
 // Confirm
 
+if (file_exists($folderPath)) {
+	echo 'Article already exist. Stopping.'.PHP_EOL;
+	exit(-1);
+}
+
 // Generate folder
 mkdir($folderPath);
 // Copy template.md to article.md
@@ -21,6 +26,6 @@ copy('template.md', $articlePath);
 // Update the article title and date
 $content = file_get_contents($articlePath);
 $content = str_replace('Template', $title, $content);
-$content = str_replace('2016-01-01', date('Y-m-d'), $content);
+$content = str_replace('YYYY-MM-DD', date('Y-m-d'), $content);
 file_put_contents($articlePath, $content);
 echo 'Created '.$articlePath.PHP_EOL;

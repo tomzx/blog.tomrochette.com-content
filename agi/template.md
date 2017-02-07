@@ -1,6 +1,6 @@
 ---
 title: Template
-created: 2017-01-01
+created: YYYY-MM-DD
 taxonomy:
   category: [Artificial General Intelligence]
   status: in progress
