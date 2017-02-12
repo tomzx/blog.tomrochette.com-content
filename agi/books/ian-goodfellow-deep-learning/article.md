@@ -55,6 +55,82 @@ taxonomy:
 * One of the main insights of connectionism is that animals become intelligent when their neurons work together
 * Unless new technologies allow faster scaling, artificial neural networks will not have the same number of neurons as the human brain until at least 2050s
 
+# 2 Linear Algebra
+~
+
+# 3 Probability and Information Theory
+* There are three possible sources of uncertainty:
+	* Inherent stochasticity in the system being modeled
+	* Incomplete observability
+	* Incomplete modeling
+* The expectation or expected value of some function f(x) with respect to a probability distribution P(x) is the average or mean value that f takes on when x is drawn from P. For discrete variables this can be computed with a summation
+$$
+\mathbb{E}_{\text{x} \sim P}[f(x)] = \sum_x P(x)f(x)
+$$
+* For continuous variables, it is computed with an integral
+$$
+\mathbb{E}_{\text{x} \sim p}[f(x)] = \int p(x)f(x)\,dx
+$$
+
+## Information theory
+* The basic intuition behind information theory is that learning that an unlikely event has occurred is more informative than learning that a likely event has occurred
+* The self-information of an event $\text{x} = x$ is
+$$
+I(x) = -\log P(x)
+$$
+* We can quantify the amount of uncertainty in an entire probability distribution using the Shannon entropy:
+$$
+H(\text{x}) = \mathbb{E}_{\text{x} \sim P}[I(x)] = - \mathbb{E}_{\text{x} \sim P}[\log P(x)]
+$$
+
+# 4 Numerical Computation
+* Ascending an objective function of *discrete* parameters is called hill climbing
+* A Lipschitz continuous function is a function f whose rate of change is bounded by a Lipschitz constant $\mathcal{L}$
+$$
+\forall \textbf{x}, \forall \textbf{y}, |f(\textbf{x}) - f(\textbf{y})| \le \mathcal{L}||\textbf{x}-\textbf{y}||_2
+$$
+* This property is useful because it allows us to quantify our assumption that a small change in the input made by an algorithm such as gradient descent will have a small change in the output
+
+# 5 Machine Learning Basics
+* A computer is said to learn from experience E with respect to some class of tasks T and performance measure P, if its performance at tasks in T, as measured by P, improves with experience E
+* The process of learning itself is not the task
+* Learning is our means of attaining the ability to perform the task
+* Machine learning tasks are usually described in terms of how the machine learning system should process an example
+* An example is a collection of features that have been quantitatively measured from some object or event that we want the machine learning system to process
+* Common machine learning tasks:
+	* Classification
+	* Classification with missing inputs
+	* Regression
+	* Transcription
+	* Machine translation
+	* Structured output
+	* Anomaly detection
+	* Synthesis and sampling
+	* Imputation of missing values
+	* Denoising
+	* Density estimation or probability mass function estimation
+* Unsupervised learning involves observing several examples of a random vector $\textbf{x}$, and attempting to implicitly or explicitly learn the probability distribution $p(\textbf{x})$, or some interesting properties of that distribution, while supervised learning involves observing several examples of a random vector $\textbf{x}$ and an associated value or vector $\textbf{y}$, and learning to predict $\textbf{y}$ from $\textbf{x}$, usually by estimating $p(\textbf{y}\ |\ \textbf{x})$
+* The ability to perform well on previously unobserved inputs is called generalization
+* What separates machine learning from optimization is that we want the generalization error, also called the test error, to be low as well as the training error
+* The generalization error is defined as the expected value of the error on a new input
+* The i.i.d. assumptions
+	* The example in each dataset are independent from each other
+	* The training and test sets are identically distributed, that is, drawn from the same probability distribution
+* Two central challenges in machine learning: underfitting and overfitting
+	* Underfitting occurs when the model is not able to obtain a sufficiently low error value on the training set
+	* Overfitting occurs when the gap between the training error and the test error is too large
+* We can control whether a model is more likely to overfit or underfit by altering its capacity
+* A model capacity is its ability to fit a wide variety of functions
+* One way to control the capacity of a learning algorithm is by choosing its hypothesis space, the set of functions that the learning algorithm is allowed to select as being the solution
+* Expected generalization error can never increase as the number of training examples increases
+* (The no free lunch theorem) means that the goal of machine learning research is not to seek a universal learning algorithm or the absolute best learning algorithm. Instead, our goal is to understand what kinds of distributions are relevant to the "real world" that an AI agent experiences, and what kinds of machine learning algorithms perform well on data drawn from the kinds of data generating distributions we care about
+* Regularization is any modification we make to a learning algorithm that is intended to reduce its generalization error but not its training error
+* Training set:
+	* 80% training examples
+	* 20% validation examples (to optimize hyperparameters)
+* k-fold cross-validation: a partition of the dataset is formed by spliting it into k non-overlapping subsets. The test error may then be estimated by taking the average test error across k trials
+* We often estimate the generalization error by computing the sample mean of the error on the test set
+
 # See also
 
 # References
