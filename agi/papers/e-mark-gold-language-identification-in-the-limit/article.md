@@ -33,4 +33,5 @@ taxonomy:
 # See also
 
 # References
-* Gold, E. Mark. "Language identification in the limit." Information and control 10.5 (1967): 447-474.
+* Gold, E. Mark. "[Language identification in the limit.](http://web.mit.edu/~6.863/www/spring2009/readings/gold67limit.pdf)" Information and control 10.5 (1967): 447-474.
+* https://en.wikipedia.org/wiki/Language_identification_in_the_limit
