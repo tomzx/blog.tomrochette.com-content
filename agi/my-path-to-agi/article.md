@@ -331,3 +331,6 @@ Toby Segaran
 
 ### Deep Learning (2017-02 - ?)
 Ian Goodfellow
+
+### Reinforcement Learning (2017-02 - ?)
+David Silver
