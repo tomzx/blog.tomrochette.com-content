@@ -6,6 +6,8 @@ taxonomy:
   status: in progress
 ---
 
+$\usepackage{amsmath}$
+
 ## Context
 
 ## Learned in this study
@@ -130,6 +132,14 @@ $$
 	* 20% validation examples (to optimize hyperparameters)
 * k-fold cross-validation: a partition of the dataset is formed by spliting it into k non-overlapping subsets. The test error may then be estimated by taking the average test error across k trials
 * We often estimate the generalization error by computing the sample mean of the error on the test set
+* Bias and variance measure two different sources of error in an estimator
+	* Bias measures the expected deviation from the true value of the function or parameter
+	* Variance provides a measure of the deviation from the expected estimator value that any particular sampling of the data is likely to cause
+* Under appropriate conditions, the maximum likelihood estimator has the property of consistency, meaning that as the number of training examples approaches infinity, the maximum likelihood estimate of a parameter converges to the true value of the parameter. These conditions are:
+	* The true distribution $p_{data}$ must lie within the model family $p_{model}(\cdot; \boldsymbol{\theta})$. Otherwise, no estimator can recover $p_{data}$
+	* The true distribution $p_{data}$ must correspond to exactly one value of $\boldsymbol{\theta}$. Otherwise, maximum likelihood can recover the correct $p_{data}$, but will not be able to determine which value of $\boldsymbol{\theta}$ was used by the data generating process
+* Consistent estimators can differ in their statistic efficiency, meaning that one consistent estimator may obtain lower generalization error for a fixed number of samples m, or equivalently, may require fewer examples to obtain a fixed level of generalization error
+* When the number of examples is small enough to yield overfitting behavior, regularization strategies such as weight decay may be used to obtain a biased version of maximum likelihood that has less variance when training data is limited
 
 # See also
 
