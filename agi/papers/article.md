@@ -68,6 +68,9 @@ The following lists papers I've read and reviewed or made notes for.
 * [Can Intelligence Explode? (2012)](marcus-hutter-can-intelligence-explode)
 * [Universal Algorithmic Intelligence: A Mathematical Top→Down Approach (2007)](marcus-hutter-universal-algorithmic-intelligence-a-mathematical-top-down-approach)
 
+## Marek Rosa
+* [A Framework for Searching for General Artificial Intelligence (2016)](marek-rosa-a-framework-for-searching-for-general-artificial-intelligence)
+
 ## Novamente
 * [Contemporary Approaches to Artificial General Intelligence (2007)](contemporary-approaches-to-artificial-general-intelligence)
 * [The Novamente Artificial Intelligence Engine (2007)](the-novamente-artificial-intelligence-engine)
