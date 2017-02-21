@@ -334,3 +334,6 @@ Ian Goodfellow
 
 ### Reinforcement Learning (2017-02 - ?)
 David Silver
+
+### A Framework for Searching for General Artificial Intelligence (2017-02)
+Marek Rosa
