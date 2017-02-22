@@ -57,10 +57,10 @@ $\usepackage{amsmath}$
 * One of the main insights of connectionism is that animals become intelligent when their neurons work together
 * Unless new technologies allow faster scaling, artificial neural networks will not have the same number of neurons as the human brain until at least 2050s
 
-# 2 Linear Algebra
+## 2 Linear Algebra
 ~
 
-# 3 Probability and Information Theory
+## 3 Probability and Information Theory
 * There are three possible sources of uncertainty:
 	* Inherent stochasticity in the system being modeled
 	* Incomplete observability
@@ -74,7 +74,7 @@ $$
 \mathbb{E}_{\text{x} \sim p}[f(x)] = \int p(x)f(x)\,dx
 $$
 
-## Information theory
+### Information theory
 * The basic intuition behind information theory is that learning that an unlikely event has occurred is more informative than learning that a likely event has occurred
 * The self-information of an event $\text{x} = x$ is
 $$
@@ -85,15 +85,15 @@ $$
 H(\text{x}) = \mathbb{E}_{\text{x} \sim P}[I(x)] = - \mathbb{E}_{\text{x} \sim P}[\log P(x)]
 $$
 
-# 4 Numerical Computation
+## 4 Numerical Computation
 * Ascending an objective function of *discrete* parameters is called hill climbing
 * A Lipschitz continuous function is a function f whose rate of change is bounded by a Lipschitz constant $\mathcal{L}$
 $$
-\forall \textbf{x}, \forall \textbf{y}, |f(\textbf{x}) - f(\textbf{y})| \le \mathcal{L}||\textbf{x}-\textbf{y}||_2
+\forall \boldsymbol{x}, \forall \boldsymbol{y}, |f(\boldsymbol{x}) - f(\boldsymbol{y})| \le \mathcal{L}||\boldsymbol{x}-\boldsymbol{y}||_2
 $$
 * This property is useful because it allows us to quantify our assumption that a small change in the input made by an algorithm such as gradient descent will have a small change in the output
 
-# 5 Machine Learning Basics
+## 5 Machine Learning Basics
 * A computer is said to learn from experience E with respect to some class of tasks T and performance measure P, if its performance at tasks in T, as measured by P, improves with experience E
 * The process of learning itself is not the task
 * Learning is our means of attaining the ability to perform the task
@@ -135,11 +135,49 @@ $$
 * Bias and variance measure two different sources of error in an estimator
 	* Bias measures the expected deviation from the true value of the function or parameter
 	* Variance provides a measure of the deviation from the expected estimator value that any particular sampling of the data is likely to cause
+
+### 5.5.2 Properties of Maximum Likelihood
 * Under appropriate conditions, the maximum likelihood estimator has the property of consistency, meaning that as the number of training examples approaches infinity, the maximum likelihood estimate of a parameter converges to the true value of the parameter. These conditions are:
 	* The true distribution $p_{data}$ must lie within the model family $p_{model}(\cdot; \boldsymbol{\theta})$. Otherwise, no estimator can recover $p_{data}$
 	* The true distribution $p_{data}$ must correspond to exactly one value of $\boldsymbol{\theta}$. Otherwise, maximum likelihood can recover the correct $p_{data}$, but will not be able to determine which value of $\boldsymbol{\theta}$ was used by the data generating process
 * Consistent estimators can differ in their statistic efficiency, meaning that one consistent estimator may obtain lower generalization error for a fixed number of samples m, or equivalently, may require fewer examples to obtain a fixed level of generalization error
 * When the number of examples is small enough to yield overfitting behavior, regularization strategies such as weight decay may be used to obtain a biased version of maximum likelihood that has less variance when training data is limited
+
+### 5.7.2 Support Vector Machines
+* Support Vector Machines (SVM) is similar to logistic regression in that it is driven by a linear function $\boldsymbol{w^\top x} + b$
+* One key innovation associated with SVM is the kernel trick
+	* The kernel trick consists of observing that many machine learning algorithms can be written exclusively in terms of dot products between examples
+* The kernel-based function is exactly equivalent to preprocessing the data by applying $\phi(\boldsymbol{x})$ to all inputs, then learning a linear model in the new transformed space
+* The kernel trick is powerful for two reasons:
+	* It allows us to learn models that are nonlinear as a function of $\boldsymbol{x}$ using convex optimization techniques that are guaranteed to converge efficiently
+	* The kernel function k often admits an implementation that is significantly more computationally efficient than naively constructing two $\phi(\boldsymbol{x})$ vectors and explicitly taking their dot products
+* The most commonly used kernel is the Gaussian kernel, also known as the radial basis function (RBF) kernel
+* A major drawback to kernel machines is that the cost of evaluating the decision function is linear in the number of training examples, because the i-th example contributes a term to the decision function
+	* SVM are able to mitigate this by learning an $\boldsymbol{\alpha}$ vector that contains mostly zeros
+
+### 5.7.3 Other Simple Supervised Learning Algorithms
+* k-nearest neighbors is a family of techniques that can be used for classification or regression
+* One weakness of k-nearest neighbors is that it cannot learn that one feature is more discriminative than another
+* Decision trees as they are typically used, with axis-aligned splits and constant outputs within each node, struggle to solve some problems that are easy even for logistic regression (e.g., a two class problem where $x_2 > x_1$, the decision boundary is not axis-aligned and the decision tree will thus need to approximate the decision boundary with many nodes, implementing a step function that constantly walks back and forth across the true decision function with axis-aligned steps)
+
+### 5.8 Unsupervised Learning Algorithms
+* There are multiple ways of defining a simpler representation
+	* Lower dimensional representations: attempt to compress as much information about x as possible in a smaller representation
+	* Sparse representations: embed the dataset into a representation whose entries are mostly zeroes for most inputs
+	* Independent representations: attempt to disentangle the sources of variation underlying the data distribution such that the dimensions of the representation are statistically independent
+
+### 5.8.1 Principal Components Analysis
+* PCA learns a representation that has lower dimensionality than the original input
+* It also learns a representation whose elements have no linear correlation with each other
+* The k-means algorithm works by initializing k different centroids to different values, then alternating between two different steps until convergence
+	* In one step, each training example is assigned to cluster i, where i is the index of the nearest centroid $\boldsymbol{\mu}^{(i)}$
+	* In the other step, each centroid $\boldsymbol{\mu}^{(i)}$ is updated to the mean of all training examples $\boldsymbol{x}^{(j)}$ assigned to cluster i
+* Clustering may end up generating different clusters because of the feature that are used to create the clusters (red cars/trucks vs gray cars/trucks, red/gray cars vs red/gray trucks)
+
+### 5.8.2 k-means Clustering
+* The k-means clustering algorithm divides the training set into k different clusters of examples that are near each other
+
+### 5.9 Stochastic Gradient Descent
 
 # See also
 
