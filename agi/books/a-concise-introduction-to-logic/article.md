@@ -849,7 +849,7 @@ $$
 * When the events are independent, the general conjunction rule reduces to the restricted conjunction rule
 
 $$
-P(A\ \mathrm{and}\ B) = P(A) \times P(B \mathrm{given}\ A)
+P(A\ \mathrm{and}\ B) = P(A) \times P(B\ \mathrm{given}\ A)
 $$
 
 ### Restricted Disjunction Rule
