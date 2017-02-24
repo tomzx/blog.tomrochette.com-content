@@ -1,6 +1,6 @@
 ---
 title: Machine learning basics
-created: 2016-01-01
+created: 2016-05-16
 taxonomy:
   category: [Artificial General Intelligence]
   status: in progress
