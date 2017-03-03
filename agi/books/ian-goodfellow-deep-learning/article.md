@@ -211,6 +211,27 @@ $$
 ### 6.2 Gradient-Based Learning
 * For feedforward neural networks, it is important to initialize all weights to small random values. The biases may be initialized to zero or to small positive values
 
+### 6.2.1.1 Learning Conditional Distributions with Maximum Likelihood
+* Most modern neural networks are trained using maximum likelihood
+
+### 6.2.2 Output Units
+* The choice of cost function is tightly coupled with the choice of output unit
+
+### 6.2.2.3 Softmax Units for Multinoulli Output Distributions
+* Objective functions that do not use a log to undo the exp of the softmax fail to learn when the argument to the exp becomes very negative, causing the gradient to vanish
+* In particular, squared error is a poor loss function for softmax units, and can fail to train the model to change its output, even when the model makes highly confident incorrect predictions
+* From a neuroscientific point of view, it is interesting to think of the softmax as a way to create a form of competition between the units that participate in it: the softmax outputs always sum to 1 so an increase in the value of one unit necessarily corresponds to a decrease in the value of others
+* Softmax => soft argmax
+
+### 6.3 Hidden Units
+### 6.3.1 Rectified Linear Units and Their Generalizations
+* $g(z) = max\{0, z\}$
+* One drawback to rectified linear units is that they cannot learn via gradient-based methods on examples for which their activation is zero
+* Three generalizations of rectified linear units are based on using a non-zero slope $\alpha_i$ when $z_i < 0$: $h_i = g(\boldsymbol{z}, \boldsymbol{\alpha})_i = \text{max}(0, z_i) + \alpha_i \text{min}(0, z_i)$
+	* Absolute value rectification, $\alpha_i = -1$
+	* Leaky ReLU, $\alpha_i \approx 0.01$
+	* Parametric ReLU (PReLU), $\alpha_i$ as a learnable parameter
+
 # See also
 
 # References
