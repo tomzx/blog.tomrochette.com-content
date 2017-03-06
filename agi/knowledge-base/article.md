@@ -125,9 +125,26 @@ Son Jack John
 ### Process
 * From the results obtained through L1, we refine each and every relation by giving them a name
 
+### Ontology construction
+(Based on http://cgi.csc.liv.ac.uk/~frank/teaching/comp08/lecture12.pdf)
+
+* Enumerate terms
+* Define classes
+* Organize the concepts
+	* Add abstractions where needed
+	* Identify relations
+	* Identify definable things
+* Self-standing things vs modifiers
+	* Self-standing things can exist on their own (people, animals, houses)
+	* Modifiers "modify" other things (wild/domestic, male/female)
+* Arrange concepts/properties into hierarchies
+* Identify the domain and range constraints for properties
+
 # See also
 * [Knowledge transfer](../knowledge-transfer)
 
 # References
 * https://en.wikipedia.org/wiki/Relational_model
 * https://en.wikipedia.org/wiki/Binary_relation
+* http://www.slideshare.net/jamietaylor/freebase-schema
+* http://cgi.csc.liv.ac.uk/~frank/teaching/comp08/lecture12.pdf
