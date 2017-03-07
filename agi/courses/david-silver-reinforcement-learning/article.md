@@ -11,6 +11,7 @@ taxonomy:
 ## Learned in this study
 
 ## Things to explore
+* Is it possible to determine the contribution of individual contributors to a project using something like the eligibility traces?
 
 # Overview
 
@@ -177,6 +178,21 @@ $$
 	* With probability $1 - \epsilon$, choose the greedy action
 	* With probability $\epsilon$, choose an action at random
 * For any $\epsilon$-greedy policy $\pi$, the $\epsilon$-greedy policy $\pi'$ with respect to $q_\pi$ is an improvement, $v_{\pi'} \ge v_\pi(s)$
+* Greedy in the Limit with Infinite Exploration (GLIE)
+	* All state-action pairs are explored infinitely many times,
+$$
+\lim_{k \rightarrow \infty} N_k(s, a) = \infty
+$$
+	* The policy converges on a greedy policy,
+$$
+\lim_{k \rightarrow \infty} \pi_k(a\ |\ s) = \boldsymbol{1}(a = \operatorname*{arg\,max}_{a' \in \mathcal{A}} Q_k(s, a'))
+$$
+* For example, $\epsilon$-greedy is GLIE if $\epsilon$ reduces to zero at $\epsilon_k = \frac{1}{k}$
+* SARSA
+$$
+Q(S, A) \leftarrow Q(S, A) + \alpha(R + \gamma Q(S', A') - Q(S, A))
+$$
+* Monte-Carlo learning is a really bad idea off-policy, it does not work because over many steps, your target policy and your behavior policy never match enough to be useful
 
 # See also
 
