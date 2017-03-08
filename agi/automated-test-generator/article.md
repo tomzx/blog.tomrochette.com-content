@@ -16,7 +16,7 @@ taxonomy:
 	* Is a lookup table good enough?
 
 # Overview
-* Specify extended class (defaults to \PHPUnit_Framework_TestCase)
+* Specify extended class (defaults to \\PHPUnit_Framework_TestCase)
 * Setup mock dependencies with Mockery
 	* Use reflection to discover classes to mock
 * Expand function calls graphs (replace calls with corresponding tree)
@@ -166,7 +166,7 @@ function c() {
 ```
 
 ### Notes
-*
+* <tbc></tbc>
 
 # My testing process
 * Select a class to create tests for
