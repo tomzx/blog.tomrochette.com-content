@@ -1,5 +1,4 @@
----
-title: Ian Goodfellow - Deep Learning - 2016
+--- title: Ian Goodfellow - Deep Learning - 2016
 created: 2017-01-01
 taxonomy:
   category: [Artificial General Intelligence]
@@ -231,6 +230,32 @@ $$
 	* Absolute value rectification, $\alpha_i = -1$
 	* Leaky ReLU, $\alpha_i \approx 0.01$
 	* Parametric ReLU (PReLU), $\alpha_i$ as a learnable parameter
+* With large enough k, a maxout unit can learn to approximate any convex function with arbitrary fidelity
+* Maxout units typically need more regularization than rectified linear units
+* Maxout units can work well without regularization if the training set is large and the number of pieces per unit is kept low
+* ReLU and all of these generalizations of them are based on the principle that models are easier to optimize if their behavior is closer to linear
+
+### 6.3.2 Logistic Sigmoid and Hyperbolic Tangent
+* The widespread saturation of sigmoidal units can make gradient-based learning very difficult. For this reason, their use as hidden units in feedforward networks is now discouraged
+* The use of sigmoidal units as output units is compatible with the use of gradient-based learning when an appropriate cost function can undo the saturation of the sigmoid in the output layer
+* When a sigmoidal activation function must be used, the hyperbolic tagent activation function typically performs better than the logistic sigmoid
+
+### 6.4 Architecture Design
+* The word architecture refers to the overall structure of the network: how many units it should have and how these units should be connected to each other
+* Most neural networks are organized into groups of units called layers
+* Most neural network architectures arrange these layers in a chain structure, with each layer being a function of the layer that preceded it
+* The main considerations are to choose the depth of the network and the width of each layer
+
+### 6.4.1 Universal Approximation Properties and Depth
+* The universal approximation theorem states that a feedforward network with a linear output layer and at least one hidden layer with any "squashing" activation function can approximate any Borel measurable function from one finite-dimensional space to another with any desired non-zero amount, provided that the network is given enough hidden units
+* Borel measurability: any continous function on a closed and bounded subset of $\mathbb{R}^n$ is Borel measurable
+* The universal approximation theorem means that regardless of what function we are trying to learn, we know that a large MLP will be able to represent that function
+	* However, we are not guaranteed that the training algorithm will be able to learn that function
+* Learning can fail for two reasons:
+	* The optimization algorithm used for training may not be able to find the value of the parameters that corresponds to the desired function
+	* The training algorithm might choose the wrong function due to overfitting
+
+### 6.5 Back-Propagation and Other Differentiation Algorithms
 
 # See also
 
