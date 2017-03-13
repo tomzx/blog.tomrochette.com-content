@@ -256,6 +256,49 @@ $$
 	* The training algorithm might choose the wrong function due to overfitting
 
 ### 6.5 Back-Propagation and Other Differentiation Algorithms
+### 6.5.10 Higher-Order Derivatives
+* Krylov methods are a set of iterative techniques for performing various operations like approximately inverting a matrix or finding approximations to its eigenvectors or eigenvalues, without using any operation other than matrix-vector products
+
+### 6.6 Historical Notes
+* 17th century: Chain rule (Leibniz, L'Hôpital)
+* 19th century: Gradient descent as a technique for iteratively approximating the solution to optimization problems (Cauchy)
+* 1940s: Machine learning models such as the perceptron
+* Most of the improvement in neural network performance from 1986 to 2015 can be attributed to two factors:
+	* Larger datasets have reduced the degree to which statistical generalization is a challenge for neural networks
+	* Neural networks have become much larger, due to more powerful computers, and better software infrastructure
+* A small number of algorithmic changes have improved the performance of neural networks noticeably
+	* The replacement of mean squared error with the cross-entropy family of loss functions
+	* The replacement of the sigmoid hidden units with piecewise linear hidden units, such as the rectified linear units
+
+## 7 Regularization for Deep Learning
+* Many strategies used in machine learning are explicitly designed to reduce the test error, possibly at the expense of increased training error
+	* These strategies are known collectively as regularization
+* Regularization of an estimator works by trading increased bias for reduced variance
+
+### 7.1 Parameter Norm Penalties
+$$
+\tilde{J}(\boldsymbol{\theta}; \boldsymbol{X}, \boldsymbol{y}) = J(\boldsymbol{\theta}; \boldsymbol{X}, \boldsymbol{y}) + \alpha \Omega(\boldsymbol{\theta})
+$$
+* We want to decrease both the original objective J on the training data and some measure of the size of the parameters $\boldsymbol{\theta}$
+* For neural networks, we typically choose to use a parameter norm penalty $\Omega$ that penalizes only the weights of the affine transformation at each layer and leaves the biases unregularized
+
+### 7.4 Dataset Augmentation
+* The best way to make a machine learning model generalize better is to train it on more data
+* Injecting noise in the input to a neural network can be seen as a form of data augmentation
+
+### 7.7 Multi-Task Learning
+* A very common form of multi-task learning is one where different supervised tasks (predicting $\textbf{y}^{(i)}$ given $\textbf{x}$) share the same input $\textbf{x}$, as well as some intermediate-level representation $\boldsymbol{h}^{(shared)}$ capturing a common pool of factors. The model can generally be divided into two kinds of parts and associated parameters:
+	* Task-specific parameters
+	* Generic parameters, shared across all the tasks
+
+### 7.8 Early Stopping
+* Every time the error on the validation set improves, we store a copy of the model parameters
+* When the training algorithm terminates, we return these parameters, rather than the latest parameters
+* The algorithm terminates when no parameters have improved over the best recorded validation error for some pre-specified number of iterations
+* Early stopping has the advantage over weight decay that early stopping automatically determines the correct amount of regularization while weight decay requires many training experiments with different values of its hyperparameter
+
+### 7.9 Parameter Tying and Parameter Sharing
+* While a parameter norm penalty is one way to regularize parameters to be close to one another, the more popular way is to use constraints: to force sets of parameters to be equal
 
 # See also
 
