@@ -194,6 +194,31 @@ Q(S, A) \leftarrow Q(S, A) + \alpha(R + \gamma Q(S', A') - Q(S, A))
 $$
 * Monte-Carlo learning is a really bad idea off-policy, it does not work because over many steps, your target policy and your behavior policy never match enough to be useful
 
+# Lecture 6 - Value Function Approximation
+* DQN uses experience replay and fixed Q-targets
+	* Take action $a_t$ according to $\epsilon$-greedy policy
+	* Store transition $(s_t, a_t, r_{t+1}, s_{t+1})$ in replay memory $\mathcal{D}$
+	* Sample random mini-batch of transition (s, a, r, s') from $\mathcal{D}$
+	* Compute Q-learning targets with respect to fixed parameters $w^-$
+	* Optimize MSE between Q-network and Q-learning targets
+$$
+\mathcal{L}_i(w_i) = \mathbb{E}_{s, a, r, s' \sim \mathcal{D}_i} \left[\left(r + \gamma \operatorname*{max}_{a'} Q(s', a'; w_i^-) - Q(s, a; w_i)\right)^2\right]
+$$
+
+# Lecture 7 - Policy Gradient
+* Advantage of policy-based RL
+	* Better convergence properties
+	* Effective in high-dimensional or continuous action spaces
+	* Can learn stochastic policies
+* Disadvantages
+	* Typically converge to a local rather than global optimum
+	* Evaluating a policy is typically inefficient and high variance
+* Whenever state aliasing occurs a stochastic policy can do better than a deterministic policy
+* For any differentiable policy $\pi_\theta(s, a)$, for any of the policy objective functions $J = J_1$, $J_{avR}$, or $\frac{1}{1-\gamma}J_{aaV}$, the policy gradient is
+$$
+\underbrace{\nabla_\theta J(\theta)}_{policy\ gradient} = \underbrace{\mathbb{E_{\pi_\theta}}[\underbrace{\nabla_\theta \log \pi_\theta(s, a)}_{score\ function}\underbrace{Q^{\pi_\theta}(s, a)}_{action-value\ function}]}_{expectation\ under\ policy\ \pi_\theta}
+$$
+
 # See also
 
 # References
