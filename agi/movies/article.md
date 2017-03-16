@@ -18,6 +18,8 @@ The following lists movies that I have seen and that I suggest to people that ar
 | Her | [IMDB](http://www.imdb.com/title/tt1798709/) |
 | I, Robot | [IMDB](http://www.imdb.com/title/tt0343818/) |
 | Prometheus | [IMDB](http://www.imdb.com/title/tt1446714/) |
+| Short Circuit | [IMDB](http://www.imdb.com/title/tt0091949/) |
+| The Machine | [IMDB](http://www.imdb.com/title/tt2317225/) |
 | The Terminator | [IMDB](http://www.imdb.com/title/tt0088247/) |
 | Transcendence | [IMDB](http://www.imdb.com/title/tt2209764/) |
 | Uncanny | [IMDB](http://www.imdb.com/title/tt2321502/) |
