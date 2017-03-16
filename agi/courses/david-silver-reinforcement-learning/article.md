@@ -218,6 +218,26 @@ $$
 $$
 \underbrace{\nabla_\theta J(\theta)}_{policy\ gradient} = \underbrace{\mathbb{E_{\pi_\theta}}[\underbrace{\nabla_\theta \log \pi_\theta(s, a)}_{score\ function}\underbrace{Q^{\pi_\theta}(s, a)}_{action-value\ function}]}_{expectation\ under\ policy\ \pi_\theta}
 $$
+* Monte-Carlo Policy Gradient methods are slow because they require many iterations to get to a final solution
+* Actor-Critic algorithm:
+	* Critic: Updates action-value function parameters $w$
+	* Actor: Updates policy parameter $\theta$, in the direction suggested by the critic
+$$
+\underbrace{\nabla_\theta J(\theta)}_{policy\ gradient} = \underbrace{\mathbb{E_{\pi_\theta}}[\underbrace{\nabla_\theta \log \pi_\theta(s, a)}_{score\ function}\underbrace{Q_{w}(s, a)}_{action-value\ approximator}]}_{expectation\ under\ policy\ \pi_\theta}
+$$
+* Reduce variance using a baseline
+	* A baseline function B(s) is substracted from the policy gradient
+	* The goal is to normalize the reward
+	* A good baseline is the state value function $B(s) = V^{\pi_\theta}(s)$
+	* The advantage function $A^{\pi_\theta}(s, a)$
+$$
+A^{\pi_\theta}(s, a) = Q^{\pi_\theta}(s, a) - V^{\pi_\theta}(s) \\
+\underbrace{\nabla_\theta J(\theta)}_{policy\ gradient} = \underbrace{\mathbb{E_{\pi_\theta}}[\underbrace{\nabla_\theta \log \pi_\theta(s, a)}_{score\ function}\underbrace{A^{\pi_\theta}(s, a)}_{advantage\ function}]}_{expectation\ under\ policy\ \pi_\theta}
+$$
+* The TD error $\delta_{\pi_\theta}$ is an unbiased estimate of the advantage function
+$$
+\mathbb{E_{\pi_\theta}}[\delta_{\pi_\theta}\ |\ s, a] = A^{\pi_\theta}(s, a)
+$$
 
 # See also
 
