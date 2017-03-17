@@ -300,6 +300,25 @@ $$
 ### 7.9 Parameter Tying and Parameter Sharing
 * While a parameter norm penalty is one way to regularize parameters to be close to one another, the more popular way is to use constraints: to force sets of parameters to be equal
 
+### 7.11 Bagging and Other Ensemble Methods
+* Bagging (short for bootstrap aggregating) is a technique for reducing generalization error by combining several models
+* The idea is to train several different models separately, then have all of the models vote on the output for test examples
+* This is a general strategy in machine learning called model averaging
+* Techniques employing this strategy are known as ensemble methods
+
+### 7.12 Dropout
+* Dropout trains the ensemble consisting of all sub-networks that can be formed by removing non-output units from an underlying base network
+* One advantage of dropout is that it is very computationally cheap
+* Another advantage of dropout is that it does not significantly limit tyhe type of model or training procedure that can be used
+* Dropout is less effective with very little labeled training examples (<5000)
+* One of the key insights of dropout is that training a network with stochastic behavior and making predictions by averaging over multiple stochastic decisions implements a form of bagging with parameter sharing
+* Each hidden unit must be able to perform well regardless of which other hidden units are in the model
+
+### 7.13 Adversarial Training
+* Training on adverserially perturbed examples from the training set (taking examples, modifying them slightly such that the current network will return a different label than the expected one)
+* The primary causes of these adversarial examples is excessive linearity
+* Adversarial training discourages highly sensitive locally linear behavior by encouraging the network to be locally constant in the neighborhood of the training data
+
 # See also
 
 # References
