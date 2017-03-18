@@ -319,6 +319,35 @@ $$
 * The primary causes of these adversarial examples is excessive linearity
 * Adversarial training discourages highly sensitive locally linear behavior by encouraging the network to be locally constant in the neighborhood of the training data
 
+## 8 Optimization for Training Deep Models
+### 8.1 How Learning Differs from Pure Optimization
+### 8.1.3 Batch and Minibatch Algorithms
+* Optimization algorithms that use the entire training set are called batch or deterministic gradient methods
+* Optimization algorithms that use only a single example at a time are sometimes called stochastic or sometimes online methods
+
+### 8.2 Challenges in Neural Network Optimization
+### 8.2.1 Ill-Conditioning
+* Very small steps increase the cost function
+
+### 8.2.2 Local Minima
+* The model identifiability problem: A model is said to be identifiable if a sufficiently large training set can rule out all but one setting of the model's parameter
+* Local minima can be problematic if they have high cost in comparison to the global minimum
+* A test that can rule out local minima as the problem is to plot the norm of the gradient over time. If the norm of the gradient does not shrink to insignificant size, the problem is neither local minima nor any other kind of critical point
+
+### 8.2.3 Plateaus, Saddles and Other Flat Regions
+* We can think of a saddle point as being a local minimum along one cross-section of the cost function and a local maximum along another cross-section
+* For a function $f: \mathbb{R}^n \rightarrow \mathbb{R}$, the expected ratio of the number of saddle points to local minima grows exponentially with $n$
+
+### 8.2.4 Cliffs and Exploding Gradients
+* The cliff can be dangerous whether we approach it from above or below, but fortunately its most serious consequences can be avoided using the gradient clipping heuristic
+* The basic idea is that the gradient does not specify the optimal step size, but only the optimal direction within an infinitesimal region
+* Cliff structures are most common in the cost functions for recurrent neural networks, because such models involve a multiplication of many factors, with one factor for each time step
+
+### 8.2.5 Long-Term Dependencies
+* The vanishing and exploding gradient problem refers to the fact that gradients through computational graph that contains a path that consists of repeatedly multiplying by a matrix $W$ are also scaled according to $diag(\lambda)^t$
+* Vanishing gradients make it difficult to know which direction the parameters should move to improve the cost function
+* Exploding gradients can make learning unstable
+
 # See also
 
 # References
