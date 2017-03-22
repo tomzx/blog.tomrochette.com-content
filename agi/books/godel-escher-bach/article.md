@@ -39,5 +39,4 @@ taxonomy:
 # See also
 
 # References
-
-* Hofstadter, Douglas R. Gödel, Escher, Bach: An Eternal Golden Braid. New York: Basic Books, 1979.
+* Hofstadter, Douglas R. Gödel, Escher, Bach: An Eternal Golden Braid. New York: Basic Books, 1979.

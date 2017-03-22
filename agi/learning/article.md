@@ -21,7 +21,7 @@ taxonomy:
 Learning is lossy encoding (similar to lossy compression).
 
 # Learning rate
-In the machine learning world, the more examples you have, the better your algorithm becomes at properly predicting the outcome based on its training data. We correlate this improvement in prediction skills with saying that the machine appears to be "more intelligent". If we were to make a parallel with human learning, would it be appropriate to extrapolate that in order to become more intelligent, one has to learn more examples? Is intelligence the accumulation of examples with the purpose of building a general association-trigger system (you see something that looks like an example of something you've seen in the past and it triggers related memories)? According to Pólya's *How to Solve It*[^1] method for solving mathematical problems, one of the important steps to problem resolution is the ability to relate a current problem to previously exposed problems that may help us to solve the problem at hand.
+In the machine learning world, the more examples you have, the better your algorithm becomes at properly predicting the outcome based on its training data. We correlate this improvement in prediction skills with saying that the machine appears to be "more intelligent". If we were to make a parallel with human learning, would it be appropriate to extrapolate that in order to become more intelligent, one has to learn more examples? Is intelligence the accumulation of examples with the purpose of building a general association-trigger system (you see something that looks like an example of something you've seen in the past and it triggers related memories)? According to Pólya's *How to Solve It*[^1] method for solving mathematical problems, one of the important steps to problem resolution is the ability to relate a current problem to previously exposed problems that may help us to solve the problem at hand.
 
 # How would you optimize learning about 100+ topics on wikipedia?
 Relevant information could be extracted and used to create SRS (space repetition system) cards. These cards would be reviewed based on the SRS itself.
@@ -43,4 +43,4 @@ While reading an article, write down related topics. New knowledge is better rem
 # See also
 
 # References
-[^1]: Pólya, George. How to Solve It: A New Aspect of Mathematical Method.
+[^1]: Pólya, George. How to Solve It: A New Aspect of Mathematical Method.

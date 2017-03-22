@@ -27,7 +27,7 @@ taxonomy:
 * [Artificial Brains](../../papers/hugo-de-garis-artificial-brains)
 * [The New AI: General & Sound & Relevant for Physics](../../papers/jurgen-schmidhuber-the-new-ai-general-sound-relevant-for-physics)
 * [Gödel Machines: Fully Self-Referential Optimal Universal Self-improvers](../../papers/jurgen-schmidhuber-godel-machines-fully-self-referential-optimal-universal-self-improvers)
-* [Universal Algorithmic Intelligence: A Mathematical Top→Down Approach](../../papers/marcus-hutter-universal-algorithmic-intelligence-a-mathematical-top-down-approach)
+* [Universal Algorithmic Intelligence: A Mathematical Top-Down Approach](../../papers/marcus-hutter-universal-algorithmic-intelligence-a-mathematical-top-down-approach)
 * [Program Search as a Path to Artificial General Intelligence](../../papers/lukasz-kaiser-program-search-as-a-path-to-artificial-general-intelligence)
 * [The Natural Way to Artificial Intelligence](../../papers/vladimir-redko-the-natural-way-to-artificial-intelligence)
 * [3D Simulation: the Key to A.I.](../../papers/keith-hoyes-3d-simulation-the-key-to-ai)

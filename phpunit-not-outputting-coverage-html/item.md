@@ -18,7 +18,7 @@ I started diagnosing the problem, being on Windows, I thought it could be due to
 
 I decided to go back a week or two in my SVN revisions, have it generate code coverage and get to the point were code coverage generation would fail. Took around 2 SVN "update to" to get to that point. After that, I tried updating the tests, but the new tests were using new features. So I updated the code first, then started updating the test files one by one. After a couple of files, I hit an interesting message:
 
-> ErrorException [ 1 ]: Allowed memory size of 134217728 bytes exhausted (tried to allocate 543278 bytes) ~ C:\php\pear\Text\Template.php [ 134 ]
+> ErrorException [ 1 ]: Allowed memory size of 134217728 bytes exhausted (tried to allocate 543278 bytes) ~ C:\\php\\pear\\Text\\Template.php [ 134 ]
 
 I never had that message show up before, which is kind of strange. I would have expected PHP to tell me that same message everytime it tried to generate the documentation but couldn't...
 

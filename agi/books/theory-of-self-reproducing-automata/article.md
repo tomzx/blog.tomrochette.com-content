@@ -229,7 +229,7 @@ Thus logics and mathematics in the central nervous system, when viewed as langua
 * (p279) At this point I should like to speculate on von Neumann's thoughts concerning his design for a self-reproducing automaton at the time he stopped working on the manuscript. His design had turned out to be much more complex than he had anticipated. After developing his two-path construction procedure, he must have realized that it could be used on $\bf L$, and that this would greatly simplify the design of $\bf MC$ and of the whole machine. Realizing this, he would have wanted to redesign is self-reproducing automaton along new lines
 * (p280) The information concerning the location and size of the secondary automaton, as well as a complete description of the secondary automaton, is stored on the linear array $\bf L$.
 	* First comes a period.
-	* Then come the location and size parameters $\x_1$, $y_1$, $\alpha$, and $\beta$, each followed by a comma
+	* Then come the location and size parameters $x_1$, $y_1$, $\alpha$, and $\beta$, each followed by a comma
 	* Next comes the sequence of $\lambda_{i, j}$'s describing the secondary automaton cell by cell, for $i = 0, \cdots, \alpha - 1$ and $j = 0, \cdots, \beta - 1$
 	* The sequence of $\lambda_{i, j}$'s is terminated by a period, which also marks the end of the information on the tape
 * (p290) If part of the secondary automaton were active during construction, it could interfere with the construction process. Von Neumann solved this problem by stipulating that the initial state of the secondary automaton is to be composed entirely of quiescent states. After the secondary automaton has been completed, it may be rendered active by a starting stimulus injected into its periphery

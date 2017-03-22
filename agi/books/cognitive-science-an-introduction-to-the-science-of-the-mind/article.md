@@ -283,4 +283,5 @@ taxonomy:
 # See also
 
 # References
-* Bermúdez, José Luis. Cognitive Science: An Introduction to the Science of the Mind. Cambridge: Cambridge University Press, 2010.
+* Bermúdez, José Luis. Cognitive Science: An Introduction to the Science of the Mind. Cambridge: Cambridge University Press, 2010.
+* https://www.amazon.com/Cognitive-Science-Introduction-Mind/dp/0521708370

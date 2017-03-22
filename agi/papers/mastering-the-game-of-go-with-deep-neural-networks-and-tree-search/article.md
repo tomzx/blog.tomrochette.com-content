@@ -27,7 +27,7 @@ taxonomy:
 * The policy network is trained to maximize the likelihood of choosing the human move $a$ when in state $s$
 * The SL policy network is 13 layers
 * It was trained using 30 million positions from the KGS Go Server
-* The "fast" policy, $p_\pi$, was also trained in a similar fashion, it is less accurate but much faster (takes 2μs to select an action vs 3ms for the SL policy network)
+* The "fast" policy, $p_\pi$, was also trained in a similar fashion, it is less accurate but much faster (takes 2$\mu$s to select an action vs 3ms for the SL policy network)
 
 # 4 Searching with Policy and Value Networks
 * To efficiently combine MCTS (monte carlo tree search) with deep neural network, AlphaGo uses an asynchronous multi-threaded search that executes simulation on CPUs, and computes policy and value networks in parallel on GPUs
