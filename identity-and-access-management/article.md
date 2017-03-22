@@ -24,6 +24,8 @@ A group is a list of users to which are assigned policies (permissions).
 
 A useful feature they also provide is the *Access Advisor*, which allows administrators to observe when certain policies are being used and by which users.
 
+To keep things simple, groups cannot be nested into other groups.
+
 ## Users
 Users represent an entity that has access to the AWS platform. They may access AWS either programmatically and/or through the console to administer the account.
 
@@ -39,6 +41,8 @@ A policy is a set of rules that determines the permissions given to a user, grou
 
 The policy document is a JSON formatted object which contains a version and a list of statements. Each statement has an effect (Allow/Deny), a list of actions and a list of resources to which it applies.
 
+You can learn more about [AWS policies evaluation logic](http://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_evaluation-logic.html). Their [IAM Policy Reference](http://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies.html) might also prove useful in understanding the various bits that compose the policy document.
+
 ### Actions
 Within AWS, each service has a unique lowercase identifier[^1]. Within each of these services, a list of actions exists, which can be granted (or denied) to an identity. Examples of actions are:
 * `*`: Allowed to use all actions under all services
@@ -51,6 +55,7 @@ Resources represent entities within their given service. For example, `arn:aws:s
 Format : `arn:$partition:$service:$region:$account-id:$resource`[^2]
 
 # See also
+* [Policy evaluator](https://github.com/tomzx/policy-evaluator)
 
 # References
 [^1]: http://docs.aws.amazon.com/general/latest/gr/aws-arns-and-namespaces.html#genref-aws-service-namespaces
