@@ -239,6 +239,31 @@ $$
 \mathbb{E_{\pi_\theta}}[\delta_{\pi_\theta}\ |\ s, a] = A^{\pi_\theta}(s, a)
 $$
 
+# Lecture 8 - Integrating Learning and Planning
+* Model-Based RL
+	* Advantages
+		* Can efficiently learn model by supervised learning methods
+		* Can reason about model uncertainty
+	* Disadvantages
+		* Two sources of approximation error (the model and the value function)
+* Model-based RL is only as good as the estimated model
+* Model-Free RL
+	* No model
+	* Learn value function (and/or policy) from real experience
+* Model-Based RL (using Sample-Based Planning)
+	* Learn a  model from real experience
+	* Plan value function (and/or policy) from simulated experience
+* Dyna
+	* Learn a model from real experience
+	* Learn and plan value function (and/or policy) from real and simulated experience
+* Monte-Carlo Tree Search explores and expands the most promising parts of the tree while ignoring the parts of the search tree which are useless or providing bad results
+* Advantages of Monte-Carlo Tree Search
+	* Highly selective best-first search
+	* Evaluates states dynamically
+	* Uses sampling to break the curse of dimensionality
+	* Works for "black-box" models (only requires samples)
+	* Computationally efficient, anytime, parallelizable
+
 # See also
 
 # References
