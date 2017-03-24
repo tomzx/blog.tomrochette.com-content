@@ -264,6 +264,42 @@ $$
 	* Works for "black-box" models (only requires samples)
 	* Computationally efficient, anytime, parallelizable
 
+# Lecture 9 - Exploration and Exploitation
+* Three approaches to exploration
+	* Random exploration
+	* Optimist in the face of uncertainty
+	* Information state space
+* Two exploration spaces
+	* State-action
+	* Parameter
+* Multi-armed bandit
+	* A tuple $\langle \mathcal{A}, \mathcal{R} \rangle$
+	* $\mathcal{A}$ is a known set of actions
+	* $\mathcal{R}^a(r) = \mathbb{P}[R = r\ |\ A = a]$ is an unknown probability distribution over rewards
+	* At each step t the agent selects an action $A_t \in \mathcal{A}$
+	* The environment generates a reward $R_t \sim \mathcal{R}^{A_t}$
+	* The goal is to maximize cumulative reward $\sum_{\tau = 1}^t R_\tau$
+* The action value is the mean reward for action a
+$$
+q(a) = \mathbb{E}[R|A = a]
+$$
+* The optimal value $v_*$
+$$
+v_* = q(a^*) = \max_{a \in \mathcal{A}} q(a)
+$$
+* The regret is the opportunity loss for one step
+$$
+I_t = \mathbb{E}[v_* - q(A_t)]
+$$
+* The total regret is the total opportunity loss
+$$
+L_t = \mathbb{E}\left[\sum_{\tau = 1}^t v_* - q(A_\tau)\right]
+$$
+* The asymptotic total regret is at least logarithmic in the number of steps
+$$
+\lim_{t \rightarrow \infty} L_t \ge \log t \sum_{a|\Delta_a > 0} \frac{\Delta_a}{\text{KL}(\mathcal{R}^a || \mathcal{R}^{a^*})}
+$$
+
 # See also
 
 # References
