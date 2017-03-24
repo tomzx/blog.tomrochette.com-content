@@ -37,17 +37,17 @@ $\usepackage{amsmath}$
 * Networks with greater depth can execute more instructions in sequence
 * According to this view of deep learning, not all the information in a layer's activations necessarily encodes factors of variation that explain the input. The representation also stores state information that helps to execute a program that can make sense of the input
 * Three waves of development of deep learning
-	* 1940-1960 Cybernetics
-	* 1980-1990 Connectionism
-	* 2006-now Deep learning
+ * 1940-1960 Cybernetics
+ * 1980-1990 Connectionism
+ * 2006-now Deep learning
 * The neural perspective on deep learning is motivated by two main ideas:
-	* The brain provides a proof by example that intelligent behavior is possible, and a conceptually straightforward path to building intelligence is to reverse engineer the computational principles behind the brain and duplicate its functionality
-	* It would be deeply interesting to understand the brain and the principles that underlie human intelligence, so machine learning models that shed light on these basic scientific questions are useful apart from their ability to solve engineering applications
+ * The brain provides a proof by example that intelligent behavior is possible, and a conceptually straightforward path to building intelligence is to reverse engineer the computational principles behind the brain and duplicate its functionality
+ * It would be deeply interesting to understand the brain and the principles that underlie human intelligence, so machine learning models that shed light on these basic scientific questions are useful apart from their ability to solve engineering applications
 * Neuroscience has given us a reason to hope that a single deep learning algorithm can solve many different tasks
 * We are able to draw some rough guidelines from neuroscience
-	* The basic idea of having many computational units that become intelligent only via their interactions with each other is inspired by the brain
-	* Greater neural realism has not yet led to an improvement in machine learning performance
-	* We do not yet know enough about biological learning for neuroscience to offer much guidance for the learning algorithms we use to train neural network architectures
+ * The basic idea of having many computational units that become intelligent only via their interactions with each other is inspired by the brain
+ * Greater neural realism has not yet led to an improvement in machine learning performance
+ * We do not yet know enough about biological learning for neuroscience to offer much guidance for the learning algorithms we use to train neural network architectures
 * One should not view deep learning as an attempt to simulate the brain
 * The central idea in connectionism is that a large number of simple computational units can achieve intelligent behavior when networked together
 * Distributed representation: Each input to a system should be represented by many features, and each feature should be involved in the representation of many possible inputs
@@ -61,9 +61,9 @@ $\usepackage{amsmath}$
 
 ## 3 Probability and Information Theory
 * There are three possible sources of uncertainty:
-	* Inherent stochasticity in the system being modeled
-	* Incomplete observability
-	* Incomplete modeling
+ * Inherent stochasticity in the system being modeled
+ * Incomplete observability
+ * Incomplete modeling
 * The expectation or expected value of some function f(x) with respect to a probability distribution P(x) is the average or mean value that f takes on when x is drawn from P. For discrete variables this can be computed with a summation
 $$
 \mathbb{E}_{\text{x} \sim P}[f(x)] = \sum_x P(x)f(x)
@@ -99,27 +99,27 @@ $$
 * Machine learning tasks are usually described in terms of how the machine learning system should process an example
 * An example is a collection of features that have been quantitatively measured from some object or event that we want the machine learning system to process
 * Common machine learning tasks:
-	* Classification
-	* Classification with missing inputs
-	* Regression
-	* Transcription
-	* Machine translation
-	* Structured output
-	* Anomaly detection
-	* Synthesis and sampling
-	* Imputation of missing values
-	* Denoising
-	* Density estimation or probability mass function estimation
+ * Classification
+ * Classification with missing inputs
+ * Regression
+ * Transcription
+ * Machine translation
+ * Structured output
+ * Anomaly detection
+ * Synthesis and sampling
+ * Imputation of missing values
+ * Denoising
+ * Density estimation or probability mass function estimation
 * Unsupervised learning involves observing several examples of a random vector $\textbf{x}$, and attempting to implicitly or explicitly learn the probability distribution $p(\textbf{x})$, or some interesting properties of that distribution, while supervised learning involves observing several examples of a random vector $\textbf{x}$ and an associated value or vector $\textbf{y}$, and learning to predict $\textbf{y}$ from $\textbf{x}$, usually by estimating $p(\textbf{y}\ |\ \textbf{x})$
 * The ability to perform well on previously unobserved inputs is called generalization
 * What separates machine learning from optimization is that we want the generalization error, also called the test error, to be low as well as the training error
 * The generalization error is defined as the expected value of the error on a new input
 * The i.i.d. assumptions
-	* The example in each dataset are independent from each other
-	* The training and test sets are identically distributed, that is, drawn from the same probability distribution
+ * The example in each dataset are independent from each other
+ * The training and test sets are identically distributed, that is, drawn from the same probability distribution
 * Two central challenges in machine learning: underfitting and overfitting
-	* Underfitting occurs when the model is not able to obtain a sufficiently low error value on the training set
-	* Overfitting occurs when the gap between the training error and the test error is too large
+ * Underfitting occurs when the model is not able to obtain a sufficiently low error value on the training set
+ * Overfitting occurs when the gap between the training error and the test error is too large
 * We can control whether a model is more likely to overfit or underfit by altering its capacity
 * A model capacity is its ability to fit a wide variety of functions
 * One way to control the capacity of a learning algorithm is by choosing its hypothesis space, the set of functions that the learning algorithm is allowed to select as being the solution
@@ -127,32 +127,32 @@ $$
 * (The no free lunch theorem) means that the goal of machine learning research is not to seek a universal learning algorithm or the absolute best learning algorithm. Instead, our goal is to understand what kinds of distributions are relevant to the "real world" that an AI agent experiences, and what kinds of machine learning algorithms perform well on data drawn from the kinds of data generating distributions we care about
 * Regularization is any modification we make to a learning algorithm that is intended to reduce its generalization error but not its training error
 * Training set:
-	* 80% training examples
-	* 20% validation examples (to optimize hyperparameters)
+ * 80% training examples
+ * 20% validation examples (to optimize hyperparameters)
 * k-fold cross-validation: a partition of the dataset is formed by spliting it into k non-overlapping subsets. The test error may then be estimated by taking the average test error across k trials
 * We often estimate the generalization error by computing the sample mean of the error on the test set
 * Bias and variance measure two different sources of error in an estimator
-	* Bias measures the expected deviation from the true value of the function or parameter
-	* Variance provides a measure of the deviation from the expected estimator value that any particular sampling of the data is likely to cause
+ * Bias measures the expected deviation from the true value of the function or parameter
+ * Variance provides a measure of the deviation from the expected estimator value that any particular sampling of the data is likely to cause
 
 ### 5.5.2 Properties of Maximum Likelihood
 * Under appropriate conditions, the maximum likelihood estimator has the property of consistency, meaning that as the number of training examples approaches infinity, the maximum likelihood estimate of a parameter converges to the true value of the parameter. These conditions are:
-	* The true distribution $p_{data}$ must lie within the model family $p_{model}(\cdot; \boldsymbol{\theta})$. Otherwise, no estimator can recover $p_{data}$
-	* The true distribution $p_{data}$ must correspond to exactly one value of $\boldsymbol{\theta}$. Otherwise, maximum likelihood can recover the correct $p_{data}$, but will not be able to determine which value of $\boldsymbol{\theta}$ was used by the data generating process
+ * The true distribution $p_{data}$ must lie within the model family $p_{model}(\cdot; \boldsymbol{\theta})$. Otherwise, no estimator can recover $p_{data}$
+ * The true distribution $p_{data}$ must correspond to exactly one value of $\boldsymbol{\theta}$. Otherwise, maximum likelihood can recover the correct $p_{data}$, but will not be able to determine which value of $\boldsymbol{\theta}$ was used by the data generating process
 * Consistent estimators can differ in their statistic efficiency, meaning that one consistent estimator may obtain lower generalization error for a fixed number of samples m, or equivalently, may require fewer examples to obtain a fixed level of generalization error
 * When the number of examples is small enough to yield overfitting behavior, regularization strategies such as weight decay may be used to obtain a biased version of maximum likelihood that has less variance when training data is limited
 
 ### 5.7.2 Support Vector Machines
 * Support Vector Machines (SVM) is similar to logistic regression in that it is driven by a linear function $\boldsymbol{w^\top x} + b$
 * One key innovation associated with SVM is the kernel trick
-	* The kernel trick consists of observing that many machine learning algorithms can be written exclusively in terms of dot products between examples
+ * The kernel trick consists of observing that many machine learning algorithms can be written exclusively in terms of dot products between examples
 * The kernel-based function is exactly equivalent to preprocessing the data by applying $\phi(\boldsymbol{x})$ to all inputs, then learning a linear model in the new transformed space
 * The kernel trick is powerful for two reasons:
-	* It allows us to learn models that are nonlinear as a function of $\boldsymbol{x}$ using convex optimization techniques that are guaranteed to converge efficiently
-	* The kernel function k often admits an implementation that is significantly more computationally efficient than naively constructing two $\phi(\boldsymbol{x})$ vectors and explicitly taking their dot products
+ * It allows us to learn models that are nonlinear as a function of $\boldsymbol{x}$ using convex optimization techniques that are guaranteed to converge efficiently
+ * The kernel function k often admits an implementation that is significantly more computationally efficient than naively constructing two $\phi(\boldsymbol{x})$ vectors and explicitly taking their dot products
 * The most commonly used kernel is the Gaussian kernel, also known as the radial basis function (RBF) kernel
 * A major drawback to kernel machines is that the cost of evaluating the decision function is linear in the number of training examples, because the i-th example contributes a term to the decision function
-	* SVM are able to mitigate this by learning an $\boldsymbol{\alpha}$ vector that contains mostly zeros
+ * SVM are able to mitigate this by learning an $\boldsymbol{\alpha}$ vector that contains mostly zeros
 
 ### 5.7.3 Other Simple Supervised Learning Algorithms
 * k-nearest neighbors is a family of techniques that can be used for classification or regression
@@ -161,16 +161,16 @@ $$
 
 ### 5.8 Unsupervised Learning Algorithms
 * There are multiple ways of defining a simpler representation
-	* Lower dimensional representations: attempt to compress as much information about x as possible in a smaller representation
-	* Sparse representations: embed the dataset into a representation whose entries are mostly zeroes for most inputs
-	* Independent representations: attempt to disentangle the sources of variation underlying the data distribution such that the dimensions of the representation are statistically independent
+ * Lower dimensional representations: attempt to compress as much information about x as possible in a smaller representation
+ * Sparse representations: embed the dataset into a representation whose entries are mostly zeroes for most inputs
+ * Independent representations: attempt to disentangle the sources of variation underlying the data distribution such that the dimensions of the representation are statistically independent
 
 ### 5.8.1 Principal Components Analysis
 * PCA learns a representation that has lower dimensionality than the original input
 * It also learns a representation whose elements have no linear correlation with each other
 * The k-means algorithm works by initializing k different centroids to different values, then alternating between two different steps until convergence
-	* In one step, each training example is assigned to cluster i, where i is the index of the nearest centroid $\boldsymbol{\mu}^{(i)}$
-	* In the other step, each centroid $\boldsymbol{\mu}^{(i)}$ is updated to the mean of all training examples $\boldsymbol{x}^{(j)}$ assigned to cluster i
+ * In one step, each training example is assigned to cluster i, where i is the index of the nearest centroid $\boldsymbol{\mu}^{(i)}$
+ * In the other step, each centroid $\boldsymbol{\mu}^{(i)}$ is updated to the mean of all training examples $\boldsymbol{x}^{(j)}$ assigned to cluster i
 * Clustering may end up generating different clusters because of the feature that are used to create the clusters (red cars/trucks vs gray cars/trucks, red/gray cars vs red/gray trucks)
 
 ### 5.8.2 k-means Clustering
@@ -181,10 +181,10 @@ $$
 
 ### 5.10 Building a Machine Learning Algorithm
 * Nearly all deep learning algorithms can be described as a particular instance of a fairly simple recipe:
-	* a specification of a dataset
-	* a cost function
-	* an optimization procedure
-	* a model
+ * a specification of a dataset
+ * a cost function
+ * an optimization procedure
+ * a model
 
 ### 5.11 Challenges Motivating Deep Learning
 ### 5.11.2 Local Constancy and Smoothness Regularization
@@ -193,18 +193,18 @@ $$
 ### 5.11.3 Manifold Learning
 * Manifold learning algorithms assume that most of $\mathbb{R}^n$ consists of invalid inputs, and that interesting inputs occur only along a collection of manifolds containing a small subset of points, which interesting variations in the output of the learned function occurring only along directions that lie on the manifold, or with interesting variations happening only when we move from one manifold to another
 * Observations in favor of the manifold hypothesis
-	* The probability distribution over images, text strings, and sounds that occur in real life is highly concentrated
-	* We can imagine neighborhoods and transformations of the manifold
+ * The probability distribution over images, text strings, and sounds that occur in real life is highly concentrated
+ * We can imagine neighborhoods and transformations of the manifold
 
 ## 6 Deep Feedforward Networks
 * It is best to think of feedforward networks as function approximation machines that are designed to achieve statistical generalization
 * The general principle of improving models by learning features extends beyond the feedforward networks. It is a recurring theme of deep learning that applies to all kinds of models
 * Multiple decisions
-	* Activation functions
-	* Network architecture
-		* How many layers?
-		* How the layers should be connected?
-		* How many units should be in each layer?
+ * Activation functions
+ * Network architecture
+  * How many layers?
+  * How the layers should be connected?
+  * How many units should be in each layer?
 * In modern neural networks, the default recommendation is to use the rectified linear unit (ReLU) defined by the activation function g(z) = max{0, z}
 
 ### 6.2 Gradient-Based Learning
@@ -227,9 +227,9 @@ $$
 * $g(z) = max\{0, z\}$
 * One drawback to rectified linear units is that they cannot learn via gradient-based methods on examples for which their activation is zero
 * Three generalizations of rectified linear units are based on using a non-zero slope $\alpha_i$ when $z_i < 0$: $h_i = g(\boldsymbol{z}, \boldsymbol{\alpha})_i = \text{max}(0, z_i) + \alpha_i \text{min}(0, z_i)$
-	* Absolute value rectification, $\alpha_i = -1$
-	* Leaky ReLU, $\alpha_i \approx 0.01$
-	* Parametric ReLU (PReLU), $\alpha_i$ as a learnable parameter
+ * Absolute value rectification, $\alpha_i = -1$
+ * Leaky ReLU, $\alpha_i \approx 0.01$
+ * Parametric ReLU (PReLU), $\alpha_i$ as a learnable parameter
 * With large enough k, a maxout unit can learn to approximate any convex function with arbitrary fidelity
 * Maxout units typically need more regularization than rectified linear units
 * Maxout units can work well without regularization if the training set is large and the number of pieces per unit is kept low
@@ -250,10 +250,10 @@ $$
 * The universal approximation theorem states that a feedforward network with a linear output layer and at least one hidden layer with any "squashing" activation function can approximate any Borel measurable function from one finite-dimensional space to another with any desired non-zero amount, provided that the network is given enough hidden units
 * Borel measurability: any continous function on a closed and bounded subset of $\mathbb{R}^n$ is Borel measurable
 * The universal approximation theorem means that regardless of what function we are trying to learn, we know that a large MLP will be able to represent that function
-	* However, we are not guaranteed that the training algorithm will be able to learn that function
+ * However, we are not guaranteed that the training algorithm will be able to learn that function
 * Learning can fail for two reasons:
-	* The optimization algorithm used for training may not be able to find the value of the parameters that corresponds to the desired function
-	* The training algorithm might choose the wrong function due to overfitting
+ * The optimization algorithm used for training may not be able to find the value of the parameters that corresponds to the desired function
+ * The training algorithm might choose the wrong function due to overfitting
 
 ### 6.5 Back-Propagation and Other Differentiation Algorithms
 ### 6.5.10 Higher-Order Derivatives
@@ -264,15 +264,15 @@ $$
 * 19th century: Gradient descent as a technique for iteratively approximating the solution to optimization problems (Cauchy)
 * 1940s: Machine learning models such as the perceptron
 * Most of the improvement in neural network performance from 1986 to 2015 can be attributed to two factors:
-	* Larger datasets have reduced the degree to which statistical generalization is a challenge for neural networks
-	* Neural networks have become much larger, due to more powerful computers, and better software infrastructure
+ * Larger datasets have reduced the degree to which statistical generalization is a challenge for neural networks
+ * Neural networks have become much larger, due to more powerful computers, and better software infrastructure
 * A small number of algorithmic changes have improved the performance of neural networks noticeably
-	* The replacement of mean squared error with the cross-entropy family of loss functions
-	* The replacement of the sigmoid hidden units with piecewise linear hidden units, such as the rectified linear units
+ * The replacement of mean squared error with the cross-entropy family of loss functions
+ * The replacement of the sigmoid hidden units with piecewise linear hidden units, such as the rectified linear units
 
 ## 7 Regularization for Deep Learning
 * Many strategies used in machine learning are explicitly designed to reduce the test error, possibly at the expense of increased training error
-	* These strategies are known collectively as regularization
+ * These strategies are known collectively as regularization
 * Regularization of an estimator works by trading increased bias for reduced variance
 
 ### 7.1 Parameter Norm Penalties
@@ -288,8 +288,8 @@ $$
 
 ### 7.7 Multi-Task Learning
 * A very common form of multi-task learning is one where different supervised tasks (predicting $\textbf{y}^{(i)}$ given $\textbf{x}$) share the same input $\textbf{x}$, as well as some intermediate-level representation $\boldsymbol{h}^{(shared)}$ capturing a common pool of factors. The model can generally be divided into two kinds of parts and associated parameters:
-	* Task-specific parameters
-	* Generic parameters, shared across all the tasks
+ * Task-specific parameters
+ * Generic parameters, shared across all the tasks
 
 ### 7.8 Early Stopping
 * Every time the error on the validation set improves, we store a copy of the model parameters
@@ -347,6 +347,53 @@ $$
 * The vanishing and exploding gradient problem refers to the fact that gradients through computational graph that contains a path that consists of repeatedly multiplying by a matrix $W$ are also scaled according to $diag(\lambda)^t$
 * Vanishing gradients make it difficult to know which direction the parameters should move to improve the cost function
 * Exploding gradients can make learning unstable
+
+### 8.3 Basic Algorithms
+### 8.3.1 Stochastic Gradient Descent
+* $\epsilon_0$: Initial learning rate
+* $\tau$: the number of iterations until $\epsilon_\tau$ is reached
+* $\epsilon_\tau$: final learning rate (generally about 1% of $\epsilon_0$)
+* Typically, the optimal initial learning rate, in terms of total training time and the final cost value, is higher than the learning rate that yields the best performance after the first 100 iterations or so
+* The most important property of SGD is that computation time per update does not grow when the number of training examples becomes very large
+
+### 8.3.2 Momentum
+* The method of momentum is designed to accelerate learning, especially in the face of high curvature, small but consistent gradients, or noisy gradients
+* The momentum algorithm accumulates an exponentially decaying moving average of past gradients and continues to move in their direction
+* Momentum aims primarily to solve two problems:
+	* Poor conditioning of the Hessian matrix
+	* Variance in the stochastic gradient
+
+### 8.3.3 Nesterov Momentum
+* A variant of the moment algorithm
+* The difference is where the gradient is evaluated
+	* Nesterov: the gradient is evaluated after the current velocity is applied
+
+### 8.4 Parameter Initialization Strategies
+* Training algorithms for deep learning models are usually iterative in nature and thus require the user to specify some initial point from which to begin the iterations
+* The initial parameters need to "break symmetry" between different units
+	* If two hidden units have the same initial parameters, then a deterministic learning algorithm applied to a deterministic cost and model will constantly update both of these units in the same way
+
+### 8.5 Algorithms with Adaptive Learning Rates
+* The learning rate is reliably one of the hyperparameters that is the most difficult to set because it has significant impact on model performance
+* The delta-bar-delta algorithm is an early heuristic approach to adapting individual learning rates for model parameters during training
+	* The approach is based on a simple idea:
+		* If the partial derivative of the loss, with respect to a given model parameter, remains the same sign, then the learning rate should increase
+		* If the partial derivative with respect to that parameter changes sign, then the learning rate should decrease
+
+### 8.5.1 AdaGrad
+* Adapts the learning rates of all model parameters by scaling them inversely proportional to the square root of the sum of all their historical values
+* Empirically it has been found that the accumulation of squared gradients from the beginning of training can result in premature and excessive decrease in the effective learning rate
+
+### 8.5.2 RMSProp
+* Modifies AdaGrad to perform better in the non-convex setting by changing the gradient accumulation into an exponentially weighted moving average
+* Empirically, RMSProp has been shown to be an effective and practical optimization algorithm for deep neural networks
+
+### 8.5.3 Adam
+* The name "Adam" derives from the phrase "adaptive moments"
+* It is perhaps best seen as a variant on the combination of RMSProp and momentum with a few important distinctions:
+	* Momentum is incorporated directly as an estimate of the first order moment (with exponential weighting) of the gradient
+	* Adam includes bias corrections to the estimates of both the first-order moments (the mometum term) and the (uncentered) second-order moments to account for their initialization at the origin
+* Adam is generally regarded as being fairly robust to the choice of hyperparameters, though the learning rate sometimes needs to be changed from the suggested default
 
 # See also
 
