@@ -395,6 +395,41 @@ $$
 	* Adam includes bias corrections to the estimates of both the first-order moments (the mometum term) and the (uncentered) second-order moments to account for their initialization at the origin
 * Adam is generally regarded as being fairly robust to the choice of hyperparameters, though the learning rate sometimes needs to be changed from the suggested default
 
+### 8.7 Optimization Strategies and Meta-Algorithms
+### 8.7.1 Batch Normalization
+* Normalize (substract the mean and divide by the standard deviation) every entry of a matrix $\boldsymbol{H}$ which is a minibatch of activations of the layer to normalize
+* In order to maintain the expressive power of the (neural) network, it is common to replace the batch of hidden unit actions $\boldsymbol{H}$ with $\boldsymbol{\gamma H'} + \boldsymbol{\beta}$ rather than the simply normalized $\boldsymbol{H'}
+	* It's easier to learn $\boldsymbol{\gamma}$ and $\boldsymbol{\beta}$ than the complicated interaction between the parameters in the layers below $\boldsymbol{H}$
+
+### 8.7.2 Cordinate Descent
+* We optimize one coordinate at a time
+* Block coordinate descent: Minimizing with respect to a subset of the variables simultaneously
+* Coordinate descent is not a very good strategy when the value of one variable strongly influences the optimal value of another variable
+
+### 8.7.3 Polyak Averaging
+* Consists of averaging together several points in the trajectory through parameter space visited by an optimization algorithm
+* The basic idea is that the optimization algorithm may leap back and forth across a valley several times without ever visiting a point near the bottom of the valley. The average of all of the locations on either side should be close to the bottom of the valley though
+
+### 8.7.4 Supervised Pretraining
+* Strategies that involve training simple models on simple tasks before confronting the challenge of training the desired model to perform the desired task are collectively known as pretraining
+
+### 8.7.5 Designing Models to Aid Optimization
+* To improve optimization, the best strategy is not always to improve the optimization algorithm
+* Most of the advances in neural network learning over the past 30 years (1986-2016) have been obtained by changing the model family rather than changing the optimization procedure
+* Modern neural nets have been designed so that their local gradient information corresponds reasonably well to moving toward a distant solution
+
+### 8.7.6 Continuation Methods and Curriculum Learning
+* Many of the challenges in optimization arise from the global structure of the cost function and cannot be resolved merely by making better estimates of local update directions
+* The predominant strategy for overcoming this problem is to attempt to initialize the parameters in a region that is connected to the solution by a short path through parameter space that local descent can discover
+* Continuation methods are a family of strategies that can make optimization easier by choosing initial points to ensure that local optimization spends most of its time in well-behaved regions of space
+* The idea behind continuation methods is to construct a series of objective functions over the same parameters
+* To solve complex cost functions, continuation methods would construct easier cost functions by "blurring" the original cost functions
+* This blurring preserves enough information about the location of a global minimum that we can find the global minimum by solving progressively less blurred versions of the problem
+* This approach can break down in three different ways
+	* It might successfully define a series of cost functions where the first is convex and the optimum tracks from one function to the next arriving at the global minimum, but it might require so many incremental cost functions that the cost of the entire procedure remains high
+	* The function might not become convex, no matter how much it is blurred
+	* The function may become convex as a result of blurring, but the minimum of this blurred function may track to a local rather than a global minimum of the original cost function
+
 # See also
 
 # References
