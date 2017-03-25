@@ -41,6 +41,7 @@ Tom
 ## Exploratory activities
 
 * [Build an AGI using Polya's method](build-an-agi-using-polya-method)
+* [Competitions](competitions)
 * [Decision trees](https://github.com/tomzx/decision-trees)
 * [Entropy](entropy)
 * [Graph architectures](graph-architectures)
