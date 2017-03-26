@@ -16,52 +16,52 @@ taxonomy:
 # Problem formalization
 
 * At each time step $t$
-  * The agent receives an input $i \in [0, 255]$
-  * In response, the agent emits an action $a \in [0, 255]$
-  * The environment emits a reward $r \in \{-1, 0, 1\}$
+	* The agent receives an input $i \in [0, 255]$
+	* In response, the agent emits an action $a \in [0, 255]$
+	* The environment emits a reward $r \in \{-1, 0, 1\}$
 
 * During a task $T$, the agent is expected to produce a sequence of actions $A$ in response to a sequence of inputs $I$
 $$
 A_{i:j}^* = T_{i:j}(I_{i:j})
 $$
-* $ A_{i:j}^*$ the expected/correct actions from time $i$ to time $j$
+* $A_{i:j}^*$ the expected/correct actions from time $i$ to time $j$
 * $I_{i:j}$ the inputs from time $i$ to time $j$
 * $T_{i:j}$ the task currently under execution by the environment from time $i$ to time $j$
 * The reward $R_j$ at time step $t = j$ is based on the action $A_j$, thus indirectly by $T$ and $I$
 $$
-R_j = 
+R_j =
 \begin{cases}
 -1 & \text{if } A_j \not= A_j^* \\
 0 & ? \\
 1 & \text{if } A_j = A_j^*
 \end{cases}
 $$
-* $R_j​$ the reward at time $j​$
+* $R_j$ the reward at time $j$
 * $A_{j}$ the action taken by the agent at time $j$
-* $ A_j^*$ the expected/correct action at time $j$
+* $A_j^*$ the expected/correct action at time $j$
 * Since we want to maximize $R$ over the agent lifetime, we would like to know what action $A_j$ to take at time step $t = j$ to ensure a non-negative reward
-  * The action $A_j$ we want to take is $A_j^*$
-  * To determine $A_j^*$, we need to compute $T_j(I_j)$
-  * We do not know $T_j$, thus cannot compute $A_j^*$
-  * Thus we would like to know what $T_j$ is, so that we may then compute $A_j^*$
-  * We can try to construct $T_j(I_j)$ by providing an $A_j$ and observing the reward
+	* The action $A_j$ we want to take is $A_j^*$
+	* To determine $A_j^*$, we need to compute $T_j(I_j)$
+	* We do not know $T_j$, thus cannot compute $A_j^*$
+	* Thus we would like to know what $T_j$ is, so that we may then compute $A_j^*$
+	* We can try to construct $T_j(I_j)$ by providing an $A_j$ and observing the reward
 * Given an attempt $A_j$ in response to input $I_j$,
-  $$
-  \begin{cases}
-  T_j(I_j) = A_j = A_j^* & \text{if } R_j \ge 0 \\
-  T_j(I_j) \not= A_j & \text{otherwise}
-  \end{cases}
-  $$
+$$
+\begin{cases}
+T_j(I_j) = A_j = A_j^* & \text{if } R_j \ge 0 \\
+T_j(I_j) \not= A_j & \text{otherwise}
+\end{cases}
+$$
 * We can conclude that if the reward at $R_j$ was non-negative, then the appropriate action $A_j$ was taken
 * Otherwise, it means that the action $A_j$ taken was wrong
 * In the simplest cases, the reward $R_j$ is based on the current input $I_j$ and action $A_j$, where $A_j = I_j$ (instant reward, no memory)
 * In more complicated cases, the reward $R_j$ is based on the current input $I_j$ and action $A_j$ as well as some prior knowledge $K$, which is a function that maps $I$ to $A$, $A = K(I)$ for the current task $T$ (instant reward, memory required)
 * ... (delayed reward, no memory)
-* In more difficult cases, the reward $R_j$ is based on the sequence of inputs  $I_{i:j}$ and actions $A_{i:j}$ as well as some prior knowledge $K$, which is a function that maps $I$ to $A$,  $A = K(I)$ for the current task $T$ (delayed reward, memory required)
+* In more difficult cases, the reward $R_j$ is based on the sequence of inputs $I_{i:j}$ and actions $A_{i:j}$ as well as some prior knowledge $K$, which is a function that maps $I$ to $A$, $A = K(I)$ for the current task $T$ (delayed reward, memory required)
 * The prior knowledge $K$ is a function that reproduces the behavior expected by the task $T$ (in other words, we would like $K = T$)
-  * Given a vector $I$, $K$ is expected to produce the vector $A^*$, as $T$ would, in which case a positive reward $r$ at time $t$ will be emitted
+	* Given a vector $I$, $K$ is expected to produce the vector $A^*$, as $T$ would, in which case a positive reward $r$ at time $t$ will be emitted
 $$
-K_{i:j}(I_{i:j}) =  T_{i:j}(I_{i:j}) = A_{i:j}^*
+K_{i:j}(I_{i:j}) = T_{i:j}(I_{i:j}) = A_{i:j}^*
 $$
 * $K$ does not need to be equal $T$ over its whole domain, however it needs to be for the interval $i, j$ evaluated
 * At time $j$, we would like to know if a positive reward is going to be emitted
@@ -79,12 +79,12 @@ $$
 # Problems
 
 * When have we switched task?/Can we determine the iteration at which a new task began?
-  * When we were getting many sequential positive rewards and suddenly we do not anymore
-  * When rewards are negative
-  * When what used to work (give reward) does not work (give reward) anymore
-  * In more advanced tasks, there is enough structure to know when the task instance has changed
+	* When we were getting many sequential positive rewards and suddenly we do not anymore
+	* When rewards are negative
+	* When what used to work (give reward) does not work (give reward) anymore
+	* In more advanced tasks, there is enough structure to know when the task instance has changed
 * When should we drop all knowledge we think we've acquired since we moved onto a new task?
-  * As soon as we're confident enough we're working on a new task
+	* As soon as we're confident enough we're working on a new task
 * Is it possible to determine how much previous knowledge we can keep if we discovered we have switched task?
 * How can we design a curriculum for which we have to punish as little as possible?
 * Can we determine if a given task is easier than another task? Is the Kolmogorov complexity a good metric that can be used as a way to order these?
@@ -111,7 +111,7 @@ $$
 * Print any of the previous input symbols (of the current task).
 * Generate any action in response to any input.
 * Return no action (space/silence) to any input.
-* Generate anything you know how to generate: Babies are not known to be able to speak right out of the womb. Thus, it makes little sense to expect a machine to do the same. However, babies are able to express themselves through some minimalistic communication methods, which they will improve over time. In a similar fashion, the agent may only be able to express itself through a binary signal, which it would have to learn how to concatenate  0/1 to produce the appropriate byte signal.
+* Generate anything you know how to generate: Babies are not known to be able to speak right out of the womb. Thus, it makes little sense to expect a machine to do the same. However, babies are able to express themselves through some minimalistic communication methods, which they will improve over time. In a similar fashion, the agent may only be able to express itself through a binary signal, which it would have to learn how to concatenate 0/1 to produce the appropriate byte signal.
 * Copy with n-iterations delay.
 * Simple Caesar cipher (special case of "Learning a mapping between symbols from input to Output: 1 to 1").
 * The goal here would be to induce the complete relation out of a few examples.
@@ -130,7 +130,7 @@ The following tasks purpose are to introduce complexity in the agent decisions.
 
 This section describes other types of ways an agent could learn.
 
-* Multiple stream association: Instead of being given a single byte stream, the agent observes 2..n  byte streams and must discover the association between the streams (if any).
+* Multiple stream association: Instead of being given a single byte stream, the agent observes 2..n byte streams and must discover the association between the streams (if any).
 * Microtasks attached with an external agent: Different agents have different ways to reward for a given task, some may punish (negatively reward) you for a specific task while another agent may reward you.
 * Offer an initial set of input-reward on which the agent can bootstrap itself (learning by examples).
 * Have the agent initiate the interaction with the environment, the environment deciding whether or not to reward the agent.
@@ -140,7 +140,7 @@ This section describes other types of ways an agent could learn.
 * Naive byte map.
 * A solver per difficulty/problem step, with a solver selector that select the solver that has the currently highest reward streak to determine the next action to take based on input (works up to Micro5Sub1Task).
 * A similar system, but instead of writing the solvers myself, I used the learners provided in the test_micro_tasks file.
-  * These learner are expected to learn only a single instance, which means they break as soon as a new instance would be given to them. Furthermore, some of the learners have been written knowing the problem subset of byte allowed, which means that it breaks for the general case.
+	* These learner are expected to learn only a single instance, which means they break as soon as a new instance would be given to them. Furthermore, some of the learners have been written knowing the problem subset of byte allowed, which means that it breaks for the general case.
 * A solver per difficulty/problem step, with a solver selector that select the action that is the most suggested.
 
 # Current WIP approach
@@ -157,11 +157,11 @@ This section describes other types of ways an agent could learn.
 # Questions
 
 * Given two agents, which one is better as an indicator of success:
-* a lifetime reward (positive and negative)
-  * Indicates whether it has been more right than it has been wrong
-* a lifetime positive reward (positive only)
-    * Indicates only the number of times it was right
-    * Does not consider mistakes
+	* a lifetime reward (positive and negative)
+		* Indicates whether it has been more right than it has been wrong
+	* a lifetime positive reward (positive only)
+		* Indicates only the number of times it was right
+		* Does not consider mistakes
 
 # TODO
 
@@ -187,14 +187,14 @@ This section describes other types of ways an agent could learn.
 * Recognize/Categorize similar types of tasks by observing the input/output/reward streams
 * Adaptive attention span, which increases the length of the memory buffer allocated to tasks as we progress toward more difficult tasks
 * How do you get an agent that is more advanced to recognize earlier tasks?
-   * Observe positive/negative rewards (and their associated input/ouput chains)
-   * Hypothesize what the current task is
-       * Implies that the agent knows how many different tasks there are and what those tasks are
-           * Might be open to unsupervised learning/clustering?
+	* Observe positive/negative rewards (and their associated input/ouput chains)
+	* Hypothesize what the current task is
+		* Implies that the agent knows how many different tasks there are and what those tasks are
+			* Might be open to unsupervised learning/clustering?
 * How do you recognize you are dealing with "commandX" vs "c" "o" "m" "m" "a" ... (a particular sequence vs a random sequence)?
 * How do you detect (input) and construct (output) structure?
 * Track the sequences of symbols and their count
-   * Variable length buffer and the count for each time they were seen
+	* Variable length buffer and the count for each time they were seen
 
 | Length | States                         |
 | ------ | ------------------------------ |
