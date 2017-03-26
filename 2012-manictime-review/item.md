@@ -1,6 +1,6 @@
 ---
 title: 2012 ManicTime review
-date: 2013-01-05T08:12:11-05:00
+created: 2013-01-05T08:12:11-05:00
 Author: tomzx
 Permalink: /2012-manictime-review/
 taxonomy:
@@ -26,107 +26,107 @@ The following top 10 items accounts for 876.18h out of the 966.21h of active usa
     <td>
       <strong>Application</strong>
     </td>
-    
+
     <td>
       <strong>Hours</strong>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       Google Chrome
     </td>
-    
+
     <td>
       457.76
     </td>
   </tr>
-  
+
   <tr>
     <td>
       Remote Desktop Connection
     </td>
-    
+
     <td>
       179.11
     </td>
   </tr>
-  
+
   <tr>
     <td>
       League of Legends (TM) Client
     </td>
-    
+
     <td>
       72.69
     </td>
   </tr>
-  
+
   <tr>
     <td>
       VLC media player
     </td>
-    
+
     <td>
       62.9
     </td>
   </tr>
-  
+
   <tr>
     <td>
       HexChat
     </td>
-    
+
     <td>
       35.81
     </td>
   </tr>
-  
+
   <tr>
     <td>
       Free Alarm Clock
     </td>
-    
+
     <td>
       15.02
     </td>
   </tr>
-  
+
   <tr>
     <td>
       mRemote
     </td>
-    
+
     <td>
       14.9
     </td>
   </tr>
-  
+
   <tr>
     <td>
       Sublime Text 2
     </td>
-    
+
     <td>
       14.56
     </td>
   </tr>
-  
+
   <tr>
     <td>
       Windows Explorer
     </td>
-    
+
     <td>
       12.13
     </td>
   </tr>
-  
+
   <tr>
     <td>
       Torchlight II
     </td>
-    
+
     <td>
       11.3
     </td>
@@ -147,107 +147,107 @@ On first sight we can see that I spend a lot of time browsing the web. I do vari
     <td>
       <strong>Website</strong>
     </td>
-    
+
     <td>
       <strong>Hours</strong>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       www.reddit.com
     </td>
-    
+
     <td>
       165.53
     </td>
   </tr>
-  
+
   <tr>
     <td>
       www.jolteon.net
     </td>
-    
+
     <td>
       19.33
     </td>
   </tr>
-  
+
   <tr>
     <td>
       www.youtube.com
     </td>
-    
+
     <td>
       17.51
     </td>
   </tr>
-  
+
   <tr>
     <td>
       docs.google.com
     </td>
-    
+
     <td>
       12.79
     </td>
   </tr>
-  
+
   <tr>
     <td>
       -confidential-
     </td>
-    
+
     <td>
       12.66
     </td>
   </tr>
-  
+
   <tr>
     <td>
       www.twitch.tv
     </td>
-    
+
     <td>
       9.34
     </td>
   </tr>
-  
+
   <tr>
     <td>
       www.google.ca
     </td>
-    
+
     <td>
       8.18
     </td>
   </tr>
-  
+
   <tr>
     <td>
       en.wikipedia.org
     </td>
-    
+
     <td>
       4.92
     </td>
   </tr>
-  
+
   <tr>
     <td>
       www.facebook.com
     </td>
-    
+
     <td>
       4.81
     </td>
   </tr>
-  
+
   <tr>
     <td>
       mail.google.com
     </td>
-    
+
     <td>
       4.08
     </td>
@@ -261,15 +261,15 @@ On first sight we can see that I spend a lot of time browsing the web. I do vari
 
 This covers 259.15h out of 457.76h (56.6%) spent in **Chrome**. This means that I have a long-tail (a list of many different websites which I visit for a brief period) of 198.61h. The major time consumer here is www.reddit.com, which accounts for 36.2% of my time browsing. Even though reddit is a news/media website (useful for staying up to date with world events, not sure I do that...), it also contains a lot of content which I would categorize as time wasters: funny pictures, pictures of cats, videos as well as discussions about topics of interests (computer science, software engineer, robotics, electronics, etc.). I spent about 1.3h/day during the 128 days for which I collected data, which I find to be quite a lot.
 
-As for the other sites, here's a couple of notes:  
-**www.jolteon.net:** This is a bug tracker I use to track new features/bugs where I work. It serves as a personal system for me to track these issues. I use it frequently to update task statuses as well as enter anything that I may have forgotten to add during the day. I also like to review it frequently to remind myself of what is left to work on (and let my mind figure that out while I sleep)  
-**www.youtube.com:** I often get on youtube because of reddit. I enjoy watching documentaries which last from 30-45 minutes on average.  
-**docs.google.com:** I've spent some time writing documents in Google Docs simply because it allowed me to share them with others so they could review my work.  
-**-confidential-:** This is a website I use to manage "things" for work. I generally go there every day and it takes me from 5-15 minutes on average.  
-**www.twitch.tv:** Watching streamers of Starcraft 2 and LoL for a while.  
-**www.google.ca:** Looks like I spend a lot of time searching...  
-**en.wikipedia.org:** Whenever I don't know something about a subject of interest, wiki is a good source (generally...)  
-**www.facebook.com:** Checking that everyone I know is still alive  
+As for the other sites, here's a couple of notes:
+**www.jolteon.net:** This is a bug tracker I use to track new features/bugs where I work. It serves as a personal system for me to track these issues. I use it frequently to update task statuses as well as enter anything that I may have forgotten to add during the day. I also like to review it frequently to remind myself of what is left to work on (and let my mind figure that out while I sleep)
+**www.youtube.com:** I often get on youtube because of reddit. I enjoy watching documentaries which last from 30-45 minutes on average.
+**docs.google.com:** I've spent some time writing documents in Google Docs simply because it allowed me to share them with others so they could review my work.
+**-confidential-:** This is a website I use to manage "things" for work. I generally go there every day and it takes me from 5-15 minutes on average.
+**www.twitch.tv:** Watching streamers of Starcraft 2 and LoL for a while.
+**www.google.ca:** Looks like I spend a lot of time searching...
+**en.wikipedia.org:** Whenever I don't know something about a subject of interest, wiki is a good source (generally...)
+**www.facebook.com:** Checking that everyone I know is still alive
 **mail.google.com:** Because I like spam
 
 ### Back to the apps

@@ -11,7 +11,7 @@ content:
         @taxonomy:
             type: post
     order:
-        by: date
+        by: header.created
         dir: desc
     limit: 5
     pagination: true

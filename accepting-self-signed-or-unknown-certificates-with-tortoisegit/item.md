@@ -1,6 +1,6 @@
 ---
 title: Accepting self-signed (or unknown) certificates with TortoiseGit
-date: 2013-09-18T03:16:44-05:00
+created: 2013-09-18T03:16:44-05:00
 Author: tomzx
 Permalink: /accepting-self-signed-or-unknown-certificates-with-tortoisegit/
 taxonomy:

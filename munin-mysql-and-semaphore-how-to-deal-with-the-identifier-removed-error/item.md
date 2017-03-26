@@ -1,6 +1,6 @@
 ---
 title: "Munin, mysql and semaphore: how to deal with the \"identifier removed\" error"
-date: 2013-10-02T22:14:13-05:00
+created: 2013-10-02T22:14:13-05:00
 Author: tomzx
 Permalink: /munin-mysql-and-semaphore-how-to-deal-with-the-identifier-removed-error/
 taxonomy:
@@ -14,32 +14,32 @@ The following depicts how I &#8220;solved&#8221; a problem I recently had regard
 First off, let&#8217;s begin with a description of the problem. I posted the following on [serverfault.com][1] in hope I&#8217;d get help from someone more experienced than I am.
 
 > I&#8217;ve recently setup a munin-node on a CentOS server. All was working fine until I tried to add the apache plugin (which works fine).
-> 
+>
 > For some odd reason, the mysql plugins for munin that used to work ceased to work&#8230; I&#8217;m now getting a weird error whenever I&#8217;m running the plugin with `munin-run`. For instance
-> 
+>
 > `munin-run mysql_files_tables`
-> 
+>
 > returns me
-> 
+>
 > <pre><code class="language-bash line-numbers">IPC::ShareLite store() error: Identifier removed at /usr/lib/perl5/vendor_perl/5.8.8/Cache/SharedMemoryBackend.pm line 156
 </code></pre>
-> 
+>
 > but sometimes it will also return
-> 
+>
 > <pre><code class="language-bash line-numbers">table_open_cache.value 64
 Open_files.value 58
 Open_tables.value 64
 Opened_tables.value 19341
 </code></pre>
-> 
+>
 > but after a while it will revert to the previous error.
-> 
+>
 > I do not have any knowledge about the IPC or the ShareLite library so I don&#8217;t really know were to start looking. Since it is a module related to shared memory, I tried tracking down shared memory segments with `ipcs` without much success.
-> 
+>
 > I haven&#8217;t yet rebooted the machine as it is used for many projects (I&#8217;d obviously like to be able to diagnose the problem without requiring a restart if it was possible).
-> 
+>
 > Has anyone faced this problem? (a quick search on google didn&#8217;t present any relevant help)
-> 
+>
 > Thanks for the help!
 
 Obviously, one can see quickly that this is a quite specific question that not many may have actually encountered. Thus, I didn&#8217;t expect to receive much help out of it (and I didn&#8217;t).
@@ -86,8 +86,8 @@ What you can see in the first output above is pretty interesting. The semop call
 
 <pre><code class="language-cpp line-numbers">int semop(int semid, struct sembuf *sops, unsigned nsops);</code></pre>
 
-where  
-**semid:** semaphore id  
+where
+**semid:** semaphore id
 **sops:** pointer to a sembuf struct
 
 <pre><code class="language-cpp line-numbers">struct sembuf {

@@ -1,6 +1,6 @@
 ---
 title: Short SSD setup guide
-date: 2013-01-05T08:12:09-05:00
+created: 2013-01-05T08:12:09-05:00
 Author: tomzx
 Permalink: /short-ssd-setup-guide/
 taxonomy:

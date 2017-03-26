@@ -1,6 +1,6 @@
 ---
 title: "K2 new slider option: killing your chances of getting spidered?"
-date: 2006-05-25T06:16:50-05:00
+created: 2006-05-25T06:16:50-05:00
 Author: tomzx
 Permalink: /k2-new-slider-option-killing-your-chances-of-getting-spidered/
 taxonomy:

@@ -1,6 +1,6 @@
 ---
 title: Redirect to www
-date: 2006-06-04T06:28:16-05:00
+created: 2006-06-04T06:28:16-05:00
 Author: tomzx
 Permalink: /redirect-to-www/
 taxonomy:

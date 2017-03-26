@@ -1,6 +1,6 @@
 ---
 title: RICHTX32.ocx registration fix
-date: 2006-06-05T18:34:49-05:00
+created: 2006-06-05T18:34:49-05:00
 Author: tomzx
 Permalink: /richtx32ocx-registration-fix/
 taxonomy:

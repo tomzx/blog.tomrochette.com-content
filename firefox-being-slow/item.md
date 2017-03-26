@@ -1,6 +1,6 @@
 ---
 title: Firefox being slow?
-date: 2006-12-26T11:47:15-05:00
+created: 2006-12-26T11:47:15-05:00
 Author: tomzx
 Permalink: /firefox-being-slow/
 taxonomy:

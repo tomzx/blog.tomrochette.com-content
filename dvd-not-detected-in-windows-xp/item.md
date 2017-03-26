@@ -1,6 +1,6 @@
 ---
 title: DVD not detected in Windows XP
-date: 2006-11-29T23:59:05-05:00
+created: 2006-11-29T23:59:05-05:00
 Author: tomzx
 Permalink: /dvd-not-detected-in-windows-xp/
 taxonomy:

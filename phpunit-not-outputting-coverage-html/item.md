@@ -1,6 +1,6 @@
 ---
 title: PHPUnit not outputting coverage-html
-date: 2011-10-25T01:31:45-05:00
+created: 2011-10-25T01:31:45-05:00
 Author: tomzx
 
 Permalink: /phpunit-not-outputting-coverage-html/

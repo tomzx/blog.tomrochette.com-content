@@ -1,6 +1,6 @@
 ---
 title: Enginuity series on GameDev.net
-date: 2011-04-25T04:01:00-05:00
+created: 2011-04-25T04:01:00-05:00
 Author: tomzx
 Permalink: /enginuity-series-on-gamedev-net/
 taxonomy:

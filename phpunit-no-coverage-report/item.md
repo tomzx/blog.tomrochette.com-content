@@ -1,6 +1,6 @@
 ---
 title: PHPUnit - No coverage report
-date: 2012-08-05T02:20:34-05:00
+created: 2012-08-05T02:20:34-05:00
 Author: tomzx
 Permalink: /phpunit-no-coverage-report/
 taxonomy:
