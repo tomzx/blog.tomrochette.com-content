@@ -299,6 +299,29 @@ $$
 $$
 \lim_{t \rightarrow \infty} L_t \ge \log t \sum_{a|\Delta_a > 0} \frac{\Delta_a}{\text{KL}(\mathcal{R}^a || \mathcal{R}^{a^*})}
 $$
+* Hoeffding's inequality: Let $X_1, \dots, X_t$ be i.i.d. random variables in [0, 1], and let $\overline{X}_t = \frac{1}{\tau} \sum_{\tau = 1}^t X_\tau$ be the sample mean. Then
+$$
+\mathbb{P[}\mathbb{E}[X] > \overline{X}_t + u] \le e^{-2tu^2}
+$$
+* The UCB1 algorithm
+$$
+A_t = \operatorname*{arg\,max}_{a \in \mathcal{A}} \left[Q_t(a) + \sqrt{\frac{2 \log t}{N_t(a)}}\right]
+$$
+* Probability matching selects action a according to probability that a is the optimal action
+* Probability matching is optimistic in the face of uncertainty
+* Thompson sampling is a sample-based probability matching
+$$
+\pi(a) = \mathbb{E}\left[\boldsymbol{1}(Q(a) = \max_{a'} Q(a'))\ |\ R_1, \dots, R_{t-1}\right]
+$$
+* Contextual bandit
+	* A tuple $\langle \mathcal{A}, \mathcal{S}, \mathcal{R} \rangle$
+	* $\mathcal{A}$ is a known set of actions
+	* $\mathcal{R}_s^a(r) = \mathbb{P}[R = r\ |\ S = s, A = a]$ is an unknown probability distribution over rewards
+	* At each step t
+		* The environment generates a state $S_t \sim \mathcal{S}$
+		* The agent selects an action $A_t \in \mathcal{A}$
+		* The environment generates a reward $R_t \sim \mathcal{R}_{S_t}^{A_t}$
+	* The goal is to maximize cumulative reward $\sum_{\tau = 1}^t R_\tau$
 
 # See also
 
