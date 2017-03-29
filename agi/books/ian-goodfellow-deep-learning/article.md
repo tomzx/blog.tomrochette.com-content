@@ -430,6 +430,45 @@ $$
 	* The function might not become convex, no matter how much it is blurred
 	* The function may become convex as a result of blurring, but the minimum of this blurred function may track to a local rather than a global minimum of the original cost function
 
+## 9 Convolutional Networks
+* Convolutional networks are a specialized kind of neural networks for processing data that has a known, grid-like topology
+* Employs a mathematical operation called convolution
+	* Convolution is a specialized kind of linear operation
+
+### 9.1 The Convolution Operation
+* Continuous convolution
+$$
+s(t) = \int x(a)w(t - a)\,da \\
+s(t) = (x * w)(t)
+$$
+* x is often referred as the input and w as the kernel
+* The output is sometimes referred to as the feature map
+* Discrete convolution
+$$
+s(t) = (x * w)(t) = \sum_{a = -\infty}^{\infty} x(a)w(t - a)
+$$
+* Cross-correlation is also known as convolution in many machine learnin libraries
+
+### 9.2 Motivation
+* Convolution leverages three important ideas that can help improve a machine learning system
+	* Sparse interactions: Not every output unit interacts with every input unit
+	* Parameter sharing: The same parameter is used by more than one function in a model
+	* Equivariant representations: If the input changes, the output changes in the same way
+
+### 9.3 Pooling
+* A typical layer of a convolutional network consists of three stages:
+	* The layer performs several convolutions in parallel to produce a set of linear activations
+	* Each linear activation is run through a nonlinear activation function, such as the rectified linear activation function (also known as the detector stage)
+	* A pooling function is used to modify the output of the layer further
+* Replaces the output of the net at a certain location with a summary statistic of the nearby outputs
+* Pooling helps to make the representation become approximately invariant to small translations of the input
+* For many tasks, pooling is essential for handling inputs of varying size
+
+### 9.4 Convolution and Pooling as an Infinitely Strong Prior
+* An infinitely strong prior places zero probability on some parameters and says that these parameter values are completely forbidden, regardless of how much support the data gives to those values
+* We can think of the use of convolution as introducing an infinitely strong prior probability distribution over the parameters (weights) of a layer
+* Convolution and pooling can cause underfitting
+
 # See also
 
 # References
