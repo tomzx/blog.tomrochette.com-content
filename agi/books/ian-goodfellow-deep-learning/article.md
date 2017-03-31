@@ -469,6 +469,31 @@ $$
 * We can think of the use of convolution as introducing an infinitely strong prior probability distribution over the parameters (weights) of a layer
 * Convolution and pooling can cause underfitting
 
+### 9.5 Variants of the Basic Convolution Function
+Unshared convolution: similar operation to discrete convolution with a small kernel, but without sharing parameters across locations
+* Tiled convolution: a compromise between a convolutional layer and a locally connected layer
+
+### 9.7 Data Types
+* Convolution for processing variable sized inputs only makes sense for inputs that have variable size because they contain varying amounts of observations of the same kind
+* Convolution does not make sense if the input has variable size because it can optionally include different kind of observations
+
+### 9.9 Random or Unsupervised Features
+* Typically, the most expensive part of convolutional network training is learning the features
+* One way to reduce the cost of convolutional network training is to use features that are not trained in a supervised fashion
+* Three strategies for obtaining convolutional kernels without supervised training:
+	* Initialize them randomly
+	* Design them by hand
+	* Learn the kernels with an unsupervised criterion (e.g., k-means clustering)
+
+## 10 Sequence Modeling: Recurrent and Recursive Nets
+* Recurrent neural networks are a family of neural networks for processing sequential data
+* Parameter sharing makes it possible to extend and apply the model to examples of different forms (different length) and generalize across them
+* Each member of the output is a function of the previous members of the output
+* Each member of the output is produced using the same update rule applied to the previous outputs
+
+### 10.1 Unfolding Computational Graphs
+* Unfolding is the application of a recurrent function to itself in order to obtain a new function that does not involve recurrence
+
 # See also
 
 # References
