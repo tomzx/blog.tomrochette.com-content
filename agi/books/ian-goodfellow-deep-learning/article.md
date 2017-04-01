@@ -493,6 +493,35 @@ Unshared convolution: similar operation to discrete convolution with a small ker
 
 ### 10.1 Unfolding Computational Graphs
 * Unfolding is the application of a recurrent function to itself in order to obtain a new function that does not involve recurrence
+* Unfolding introduces two major advantages:
+	* Regardless of sequence length, the learned model always has the same input size, because it is specified in terms of transition from one state to another state, rather than specified in terms of variable-length history of states
+	* It is possible to use the same transition function f with the same parameters at every time step
+
+### 10.2 Recurrent Neural Networks
+* Important design patterns for recurrent neural networks:
+	* Recurrent networks that produce an output at each time step and have recurrent connections between units
+	* Recurrent networks that produce an output at each time step and have recurrent connections only from the output at one time step to the hidden units at the next time step
+	* Recurrent networks with recurrent connections between hidden units, that read an entire sequence and then produce a single output
+
+### 10.2.1 Teacher Forcing and Networks with Output Recurrence
+* The advantage of eliminating hidden-to-hidden recurrence is that all the time steps are decoupled for any loss function based on comparing the prediction at time t to the training target at time t
+	* Training can thus be parallelized, with the gradient for each step t computed in isolation
+* Models that have recurrent connections from their outputs leading back into the model may be trained with teacher forcing
+* Teacher forcing is a procedure in which during training the model receives the ground truth output $\boldsymbol{y}^{(t)}$ as input at time t+1
+
+### 10.2.2 Computing the Gradient in a Recurrent Neural Network
+* To compute the gradient through a recurrent neural network, simply apply the generalized back-propagation algorithm to the unrolled computational graph
+
+### 10.2.3 Recurrent Networks as Directed Graphical Models
+* It is difficult to predict missing values in the middle of a sequence
+* The price recurrent networks pay for their reduced number of parameters is that optimizing the parameters may be difficult
+* It relies on the assumption that the same parameters can be used for different time steps
+* The assumption is that the conditional probability distribution over the variables at time t+1 given the variables at time t is stationary
+
+### 10.3 Bidirectional RNNs
+* In many application we want to output a prediction $\boldsymbol{y}^{(t)}$ which may depend on the whole input sequence
+* Bidirectional RNNs combine an RNN that moves forward through time beginning from the start of the sequence with another RNN that moves backward through time beginning from the end of the sequence
+* Compared to a convolutional network, RNNs applied to images are typically more expensive but allow for long-range lateral interactions between features in the same feature map
 
 # See also
 
