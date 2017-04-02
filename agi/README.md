@@ -88,6 +88,7 @@ Tom
 * [Automated research](automated-research)
 * [Automated test generator](automated-test-generator)
 * [Automatic template extraction](automatic-template-extraction)
+* [Constructing functions](constructing-functions)
 * [Databases](databases)
 * [Formal AGI](formal-agi)
 * [Perfect storage medium](perfect-storage-medium)
