@@ -257,6 +257,7 @@ By observing the properties that can vary in the most common data structure, it 
 * If the programming assistant can aid expert programmers in demonstrating that two rather different implementations produce equivalent behavior, then we can be much more confident that the system will behave in a useful way (Hewitt75)
 
 # See also
+* [Automated refactoring](../automated-refactoring)
 * Program induction
 
 # References
@@ -266,6 +267,7 @@ By observing the properties that can vary in the most common data structure, it 
 * Hewitt, Carl E., and Brian Smith. "Towards a programming apprentice." IEEE Transactions on Software Engineering 1 (1975): 26-45.
 * Newell, Allen. [Report on a General Problem-solving Program](https://www.u-picardie.fr/~furst/docs/Newell_Simon_General_Problem_Solving_1959.pdf). Santa Monica, CA: Rand, 1959.
 * Rich, Charles, and Richard C. Waters. "The Programmer's Apprentice: A research overview." Computer 21.11 (1988): 10-25.
+* Data structure chooser - http://ds.shlegeris.com/
 * Inductive programming - http://www.inductive-programming.org/
 * Program transformation - http://www.program-transformation.org/
 * Universal Data Structure - https://groups.google.com/forum/#!topic/magic-list/LhDuHtyas9Q
