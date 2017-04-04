@@ -9,7 +9,7 @@ taxonomy:
 ## Context
 A seed AI is an initial computer program that is able to recursively self-improve. This means that once it is started, one of its main goals will be to improve its existing code into a better one and then switch to this newer implementation in order to benefit from the changes it has made to it.
 
-Seed AI is interesting because it would mean writing a very bad version of it initially which would get improved by the algorithm itself. Furthermore, it would also mean that you might be able to give it external programs and it may propose improvements to it.
+Seed AI is interesting because it would mean writing a very bad version of it initially which would get improved by the algorithm itself. Furthermore, it would also mean that you might be able to give it external programs and it may propose improvements to them.
 
 In other words, a seed AI is one that would learn and understand how program works, what their purpose is and what meaningful improvements can be made.
 
@@ -172,31 +172,9 @@ If we were to iteratively generate every program from the empty string to progra
 * Understand what data structures are iterated over and what is being done over this data
 * Manipulate language/grammar
 	* Use language reasoning tools (abstract syntax tree)
-*
 
 # Heuristics
 * Prefer lookup/hashing over search/predicate testing
-
-# What do programmers do to improve code?
-(tentatively sorted from easiest to automate to hardest)
-
-* Detect and fix defects
-	* Invalid syntax
-	* Incorrect logic
-	* Use of proper types
-* Remove dead code
-* Define and follow code style standard
-* Use more appropriate data structures for the given use cases
-* Reduce code complexity
-	* Law of Demeter
-	* Limit on functions/methods line count
-	* Cyclomatic complexity
-* Create test cases to ensure code stability during changes
-* Refactor improper architecture
-	* Properly define classes responsabilities
-	* Properly define classes collaborators
-	* Reduce coupling
-* Write code in terms of pre/post-conditions and return as soon as possible
 
 # Functions of a seed AI
 We will assume that our seed AI "evolves" through immutability, that is, once a function is generated, it is never modified. If we want a function with similar code but a little different, then this function's code is duplicated and changes are applied to it. Finally, functions may be removed if a generalized instance is available (e.g. multiplication by addition (3x5 = 5+5+5) being replaced by multiplication (3x5 = 15))
@@ -256,6 +234,8 @@ At this point we can already see various issues with this approach:
 	* This will be our biggest challenge going forward. It is basically the task of determining through some means if a program is more valuable than another one (often known as an utility function). The fact that we are already removing invalid programs is an example of an evaluation done by the utility function.
 
 # See also
+* [Automated programming](../automated-programming)
+* [Automated refactoring](../automated-refactoring)
 * [Constructing functions](../constructing-functions)
 * [Holonic program language](../holonic-program-language)
 
@@ -270,5 +250,5 @@ At this point we can already see various issues with this approach:
 * Lenat, Douglas B. [*AM: An Artificial Intelligence Approach to Discovery in Mathematics as Heuristic Search*](http://www.dtic.mil/dtic/tr/fulltext/u2/a155378.pdf). Stanford: Computer Science Dept., Stanford University, 1976.
 * Turing, Alan. *Intelligent Machinery*. London: National Physical Laboratory, 1948. Ed. B. Jack Copeland. The Essential Turing. Oxford: Clarendon Press, 2004. 430
 
-## Seed AIs
-* https://en.wikipedia.org/wiki/Eurisko
+## Inductive programming systems
+* The FLIP System - http://users.dsic.upv.es/~flip/flip/

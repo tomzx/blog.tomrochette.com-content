@@ -22,6 +22,27 @@ Another goal of refactoring is to promote code reuse and abstraction.
 
 As a software project matures, its low level functions should require to be changed rarely while higher level features relying on those lower level functions change more often. This would be similar to assembly language changing very rarely compared to higher level languages.
 
+# What do programmers do to improve code?
+(tentatively sorted from easiest to automate to hardest)
+
+* Detect and fix defects
+	* Invalid syntax
+	* Incorrect logic
+	* Use of proper types
+* Remove dead code
+* Define and follow code style standard
+* Use more appropriate data structures for the given use cases
+* Reduce code complexity
+	* Law of Demeter
+	* Limit on functions/methods line count
+	* Cyclomatic complexity
+* Create test cases to ensure code stability during changes
+* Refactor improper architecture
+	* Properly define classes responsabilities
+	* Properly define classes collaborators
+	* Reduce coupling
+* Write code in terms of pre/post-conditions and return as soon as possible
+
 ## Standard operations
 * Remove deprecated code
 * Update code relying on deprecated/obsolete APIs
@@ -48,7 +69,7 @@ As a software project matures, its low level functions should require to be chan
 * Computation/algorithm/implementation extraction
 * Notify programmer when modifying code that has clones
 * Check variable safety (against injection)
-* Notify programmer of operations that need to be done due to a change initied by him (e.g., function renaming, new function parameter, different return type, etc.)
+* Notify programmer of operations that need to be done due to a change initiated by him (e.g., function renaming, new function parameter, different return type, etc.)
 
 * Abstraction level assignment
 
@@ -70,7 +91,7 @@ As a software project matures, its low level functions should require to be chan
 * [Clone detection](../clone-detection)
 
 # References
-* https://www.jetbrains.com/resharper/features/code_refactoring.html.
+* https://www.jetbrains.com/resharper/features/code_refactoring.html
 * https://en.wikipedia.org/wiki/Code_refactoring
 * http://autorefactor.org/
 * http://refactoring.com/
