@@ -332,7 +332,7 @@ Toby Segaran
 ### Deep Learning (2017-02 - ?)
 Ian Goodfellow
 
-### Reinforcement Learning (2017-02 - ?)
+### Reinforcement Learning (2017-02 - 2017-03)
 David Silver
 
 ### A Framework for Searching for General Artificial Intelligence (2017-02)
