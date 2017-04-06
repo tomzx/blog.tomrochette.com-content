@@ -7,12 +7,16 @@ taxonomy:
 ---
 
 # Preface
-
 This article is a way for me to share what I think is a better to go through the content I've gone through in order to learn AGI, which you can read at [my path to AGI](../my-path-to-agi).
 
 If you have comments and suggestions, feel free to let me know through the comments!
 
 # Prerequisites
+In this section, I list all the topics that generally serves as foundation for more advanced topics. It is not necessary to go through all of the prerequisites, but it will definitely improve your odds of understanding more complex theories down the road. Furthermore, they will provide you with useful tools and abstractions.
+
+## Linear algebra
+No book suggestion yet.
+
 ## Discrete mathematics
 * [Discrete Mathematics and Its Applications](https://www.amazon.ca/Discrete-Mathematics-Applications-Kenneth-Rosen/dp/0073383090/)
 
@@ -21,6 +25,24 @@ If you have comments and suggestions, feel free to let me know through the comme
 
 ## Set theory
 * [Naive Set Theory](https://www.amazon.com/Naive-Set-Theory-Paul-Halmos/dp/1781394660)
+
+## Calculus
+### Differential
+No book suggestion yet.
+
+### Integral
+No book suggestion yet.
+
+### Vector
+No book suggestion yet.
+
+### Multivariable
+No book suggestion yet.
+
+## Programming
+No book suggestion yet.
+
+As most scientific programming is done in Python nowadays (2015-2017), it is highly suggested to get familiar with the language.
 
 # Reading list
 ## Introduction
@@ -38,8 +60,9 @@ If you have comments and suggestions, feel free to let me know through the comme
 * [The Logic of Intelligence](http://cis-linux1.temple.edu/~pwang/Publication/logic_intelligence.pdf)
 * [AM: An Artificial Intelligence Approach to Discovery in Mathematics as Heuristic Search](http://www.dtic.mil/dtic/tr/fulltext/u2/a155378.pdf)
 * [From Seed AI to Technological Singularity via Recursively Self-Improving Software](https://arxiv.org/abs/1502.06512)
+* [Can Intelligence Explode?](https://arxiv.org/abs/1202.6177)
 * [A Complete Theory of Everything (will be subjective)](https://arxiv.org/abs/0912.5434)
-* Self-improving AI: an Analysis
+* [Self-improving AI: an Analysis](https://link.springer.com/article/10.1007/s11023-007-9065-3)
 
 ## Advanced
 * [Machine Super Intelligence](http://www.vetta.org/documents/Machine_Super_Intelligence.pdf)
@@ -50,3 +73,8 @@ If you have comments and suggestions, feel free to let me know through the comme
 * [Neuroscience: Exploring the Brain](https://www.amazon.com/Neuroscience-Exploring-Mark-Bear-PhD/dp/0781760038)
 * [Introduction to Automata Theory, Languages, and Computation](https://www.amazon.com/Introduction-Automata-Theory-Languages-Computation/dp/0321455363)
 * [Language Identification in the Limit](http://web.mit.edu/~6.863/www/spring2009/readings/gold67limit.pdf)
+* [Reinforcement Learning](http://www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching.html)
+* [Deep Learning](https://www.amazon.com/Deep-Learning-Adaptive-Computation-Machine/dp/0262035618)
+* [Theory of self-reproducing automata](https://archive.org/details/theoryofselfrepr00vonn_0)
+* [Neural Turing Machines](http://arxiv.org/abs/1410.5401v2)
+* [A Mathematical Theory of Communication](https://dx.doi.org/10.1002%2Fj.1538-7305.1948.tb00917.x)
