@@ -239,4 +239,5 @@ Thus logics and mathematics in the central nervous system, when viewed as langua
 
 # References
 * Neumann, John von, and Arthur W. Burks. "Theory of self-reproducing automata." (1966).
+* https://archive.org/details/theoryofselfrepr00vonn_0
 * [Richard's paradox](https://en.wikipedia.org/wiki/Richard%27s_paradox)
