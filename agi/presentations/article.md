@@ -16,6 +16,6 @@ The following lists presentations that I have watched and that I suggest to peop
 # Jeff Hawkins - Numenta
 * [Principles Of Hierarchical Temporal Memory - Foundations Of Machine Intelligence](principles-of-hierarchical-temporal-memory)
 
-# Jürgen Schmidhuber
+# Jürgen Schmidhuber - IDSIA
 * [How to Learn an Algorithm](how-to-learn-an-algorithm)
 * [In the beginning there was the code](in-the-beginning-there-was-the-code)
