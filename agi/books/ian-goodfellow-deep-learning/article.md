@@ -1,4 +1,5 @@
---- title: Ian Goodfellow - Deep Learning - 2016
+---
+title: Ian Goodfellow - Deep Learning - 2016
 created: 2017-01-01
 taxonomy:
   category: [Artificial General Intelligence]
