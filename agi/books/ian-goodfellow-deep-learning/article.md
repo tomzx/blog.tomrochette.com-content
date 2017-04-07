@@ -130,7 +130,7 @@ $$
 * Training set:
  * 80% training examples
  * 20% validation examples (to optimize hyperparameters)
-* k-fold cross-validation: a partition of the dataset is formed by spliting it into k non-overlapping subsets. The test error may then be estimated by taking the average test error across k trials
+* k-fold cross-validation: a partition of the dataset is formed by splitting it into k non-overlapping subsets. The test error may then be estimated by taking the average test error across k trials
 * We often estimate the generalization error by computing the sample mean of the error on the test set
 * Bias and variance measure two different sources of error in an estimator
  * Bias measures the expected deviation from the true value of the function or parameter
@@ -239,7 +239,7 @@ $$
 ### 6.3.2 Logistic Sigmoid and Hyperbolic Tangent
 * The widespread saturation of sigmoidal units can make gradient-based learning very difficult. For this reason, their use as hidden units in feedforward networks is now discouraged
 * The use of sigmoidal units as output units is compatible with the use of gradient-based learning when an appropriate cost function can undo the saturation of the sigmoid in the output layer
-* When a sigmoidal activation function must be used, the hyperbolic tagent activation function typically performs better than the logistic sigmoid
+* When a sigmoidal activation function must be used, the hyperbolic tangent activation function typically performs better than the logistic sigmoid
 
 ### 6.4 Architecture Design
 * The word architecture refers to the overall structure of the network: how many units it should have and how these units should be connected to each other
@@ -316,7 +316,7 @@ $$
 * Each hidden unit must be able to perform well regardless of which other hidden units are in the model
 
 ### 7.13 Adversarial Training
-* Training on adverserially perturbed examples from the training set (taking examples, modifying them slightly such that the current network will return a different label than the expected one)
+* Training on adversarially perturbed examples from the training set (taking examples, modifying them slightly such that the current network will return a different label than the expected one)
 * The primary causes of these adversarial examples is excessive linearity
 * Adversarial training discourages highly sensitive locally linear behavior by encouraging the network to be locally constant in the neighborhood of the training data
 
@@ -393,12 +393,12 @@ $$
 * The name "Adam" derives from the phrase "adaptive moments"
 * It is perhaps best seen as a variant on the combination of RMSProp and momentum with a few important distinctions:
 	* Momentum is incorporated directly as an estimate of the first order moment (with exponential weighting) of the gradient
-	* Adam includes bias corrections to the estimates of both the first-order moments (the mometum term) and the (uncentered) second-order moments to account for their initialization at the origin
+	* Adam includes bias corrections to the estimates of both the first-order moments (the momentum term) and the (uncentered) second-order moments to account for their initialization at the origin
 * Adam is generally regarded as being fairly robust to the choice of hyperparameters, though the learning rate sometimes needs to be changed from the suggested default
 
 ### 8.7 Optimization Strategies and Meta-Algorithms
 ### 8.7.1 Batch Normalization
-* Normalize (substract the mean and divide by the standard deviation) every entry of a matrix $\boldsymbol{H}$ which is a minibatch of activations of the layer to normalize
+* Normalize (subtract the mean and divide by the standard deviation) every entry of a matrix $\boldsymbol{H}$ which is a minibatch of activations of the layer to normalize
 * In order to maintain the expressive power of the (neural) network, it is common to replace the batch of hidden unit actions $\boldsymbol{H}$ with $\boldsymbol{\gamma H'} + \boldsymbol{\beta}$ rather than the simply normalized $\boldsymbol{H'}
 	* It's easier to learn $\boldsymbol{\gamma}$ and $\boldsymbol{\beta}$ than the complicated interaction between the parameters in the layers below $\boldsymbol{H}$
 
@@ -448,7 +448,7 @@ $$
 $$
 s(t) = (x * w)(t) = \sum_{a = -\infty}^{\infty} x(a)w(t - a)
 $$
-* Cross-correlation is also known as convolution in many machine learnin libraries
+* Cross-correlation is also known as convolution in many machine learning libraries
 
 ### 9.2 Motivation
 * Convolution leverages three important ideas that can help improve a machine learning system
@@ -523,6 +523,104 @@ Unshared convolution: similar operation to discrete convolution with a small ker
 * In many application we want to output a prediction $\boldsymbol{y}^{(t)}$ which may depend on the whole input sequence
 * Bidirectional RNNs combine an RNN that moves forward through time beginning from the start of the sequence with another RNN that moves backward through time beginning from the end of the sequence
 * Compared to a convolutional network, RNNs applied to images are typically more expensive but allow for long-range lateral interactions between features in the same feature map
+
+### 10.4 Encoder-Decoder Sequence-to-Sequence Architecture
+* We often call the input to the RNN the "context"
+* An encoder or reader or input RNN processes the input sequence
+* The encoder emits the context C, usually a simple function of its final hidden state
+* A decoder or writer or output RNN is conditioned on that fixed-length vector to generate the output sequence
+* There is no constraint that the encoder must have the same size of hidden layer as the decoder
+* One clear limitation of this architecture is when the context C output by the encoder RNN has a dimension that is too small to properly summarize a long sequence
+
+### 10.6 Recursive Neural Networks
+* Represent a generalization of recurrent networks with a different kind of computational graph, which is structured as a deep tree, rather than the chain-like structure of RNNs
+* One clear advantage of recursive nets over recurrent nets is that for a sequence of the same length $\tau$, the depth can be drastically reduced from $\tau$ to $O(\log \tau)$
+
+### 10.7 The Challenge of Long-Term Dependencies
+* The basic problem is that gradients propagated over many stages tend to either vanish or explode
+* The difficulty with long-term dependencies arises from the exponentially smaller weights given to long-term interactions compared to short-term ones
+* In order to store memories in a way that is robust to small perturbations, the RNN must enter a region of parameter space where gradients vanish
+* The problem of learning long-term dependencies remains one of the main challenges in deep learning
+
+### 10.10 The Long Short-Term Memory and Other Gated RNNs
+* Based on the idea of creating paths through time that have derivatives that neither vanish nor explode
+
+#### 10.10.1 LSTM
+* Composed of an input, an input gate, a forget gate, an output gate and a state (the LSTM "cell")
+
+#### 10.10.2 Other Gates RNNs
+* The main difference with the LSTM is that a single gating unit simultaneously controls the forgetting factor and the decision to update the state unit
+* A crucial ingredient is the forget gate
+* Adding a bias of 1 to the LSTM forget gate makes the LSTM as strong as the best of the explored architectural variants
+
+### 10.12 Explicit Memory
+* Neural networks excel at storing implicit knowledge. However, they struggle to memory facts
+* Memory networks include a set of memory cells that can be accessed via an addressing mechanism
+* Memory networks originally required a supervision signal instructing them how to use their memory cell
+* The neural Turing machine is able to learn to read from and to write arbitrary content to memory cells without explicit supervision about which actions to undertake, and allowed end-to-end training without this supervision signal, via the use of a content-based soft attention mechanism
+* Each memory cell can be thought of as an extension of the memory cells in LSTMs or GRUs. The difference is that the network outputs an internal state that chooses which cell to read from or write to, just as memory accesses in a digital computer read from or write to a specific address
+* It is difficult to optimize functions that produce exact, integer addresses. To alleviate this problem, NTMs actually read to or write from many memory cells simultaneously
+	* To read, they take a weighted average of many cells
+	* To write, they modify multiple cells by different amounts
+* There are two reason to increase the size of the memory cell:
+	* We have increased the cost of accessing a memory cell (accessing implies reading a number of cells)
+	* Vector-valued memory cells allow for content-based addressing, where the weight used to read or to write from a cell is a function of that cell
+
+## 11 Practical Methodology
+* Determine your goals - what error metric to use, and your target value for this error metric
+* Establish a working end-to-end pipeline as soon as possible, including the estimation of the appropriate performance metrics
+* Instrument the system well to determine bottlenecks in performance. Diagnose which components are performing worse than expected and whether it is due to overfitting, underfitting, or a defect in the data or software
+* Repeatedly make incremental changes such as gathering new data, adjusting hyperparameters, or changing algorithms, based on specific findings from your instrumentation
+
+### 11.1 Performance Metrics
+* The Bayes error defines the minimum error rate that you can hope to achieve, even if you have infinite training data and can recover the true probability distribution. This is because your input features may not contain complete information about the output variable, or because the system might be intrinsically stochastic
+* Precision: the fraction of detections reported by the model that were correct
+* Recall: the fraction of true events that were detected
+* PR curve: precision on the y-axis and recall on the x-axis
+* F-score (precision p, recall r)
+$$
+F = \frac{2pr}{p+r}
+$$
+* Coverage: the fraction of examples for which the machine learning system is able to produce a response
+
+### 11.2 Default Baseline Models
+* First, choose the general category of model based on the structure of your data
+* A reasonable choice of optimization algorithm is SGD with momentum with a decaying learning rate
+	* Popular decay schemes include decaying linearly until reaching a fixed minimum learning rate, decaying exponentially, or decreasing the learning rate by a factor of 2-10 each time validation error plateaus
+* Another very reasonable alternative is Adam
+* Batch normalization can have a dramatic effect on optimization performance, especially for convolutional networks and networks with sigmoidal nonlinearities
+* Unless your training data set contains tens of millions of examples or more, you should include some mild forms of regularization from the start
+* Early stopping should be used almost universally
+* Dropout is an excellent regularizer that is easy to implement and compatible with many models and training algorithms
+* Batch normalization also sometimes reduces generalization error and allows dropout to be omitted, due to the noise in the estimate of the statistics used to normalize each variable
+
+### 11.3 Determining Whether to Gather More Data
+* It is often much better to gather more data than to improve the learning algorithm
+* First, determine whether the performance on the training set is acceptable
+	* If performance on the training set is poor, the learning algorithm is not using the training data that is already available, so there is no reason to gather more data
+	* Try increasing the size of the model by adding more layers or adding more hidden units to each layer
+	* Try improving the learning rate of the algorithm, for example by tuning the learning rate hyperparameters
+	* If large models and carefully tuned optimization algorithms do not work well, then the problem might be the quality of the training data
+		* The data may be too noisy or may not include the right inputs needed to predict the desired outputs
+* Then measure the performance on a test set
+	* If the performance on the test set is also acceptable, then there is nothing left to be done
+	* If test set performance is much worse than training set performance, then gathering more data is one of the most effective solutions
+	* A simple alternative to gathering more data is to reduce the size of the model or improve regularization, by adjusting hyperparameters such as weight decay coefficients, or by adding regularization strategies such as dropout
+	* When deciding whether to gather more data, it is also necessary to decide how much to gather. It is helpful to plot curves showing the relationship between training set size and generalization error. By extrapolating such curves, one can predict how much additional training data would be needed to achieve a certain level of performance
+	* If gathering much more data is not feasible, the only other way to improve generalization error is to improve the learning algorithm itself
+
+### 11.4 Selecting Hyperparameters
+* There are two basic approaches to choosing hyperparameters:
+	* Choosing them manually: requires understanding what the hyperparameters do and how machine learning models achieve good generalization
+	* Choosing them automatically: greatly reduce the need to understand these ideas, but they are often much more computationally costly
+
+#### 11.4.1 Manual Hyperparameter Tuning
+* The goal of manual hyperparameter search is usually to find the lowest generalization error subject to some runtime and memory budget
+* The primary goal of manual hyperparameter search is to adjust the effective capacity of the model to match the complexity of the task
+* Effective complexity is constrained by three factors:
+	* the representational capacity of the model
+	* the ability of the learning algorithm to successfully minimize the cost function used to train the model
+	* the degree to which the cost function and training procedure regularize the model
 
 # See also
 
