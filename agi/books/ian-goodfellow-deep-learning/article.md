@@ -621,6 +621,49 @@ $$
 	* the representational capacity of the model
 	* the ability of the learning algorithm to successfully minimize the cost function used to train the model
 	* the degree to which the cost function and training procedure regularize the model
+* The generalization error typically follows a U-shaped curve when plotted as a function of one of the hyperparameters
+* Low capacity, high generalization error because training error is high -> underfitting
+* High capacity, high generalization error because the gap between trainig and test error is high -> overfitting
+* Somewhere in the middle lies the optimal model capacity, which achieves the lowest possible generalization error
+* Not every hyperparameter will be able to explore the entire U-shaped curve
+	* Some are discrete, some are binary (thus only a few points along the curve are visited)
+* The learning rate is perhaps the most important hyperparameter
+* If your error on the training set is higher than your target error rate, you have no choice but to increase capacity
+* If your error on the test set is higher than your target error rate, you can take two kind of actions
+	* The goal is to reduce to gap between training error and test error without increasing training error faster than the gap decreases
+	* To reduce the gap, change regularization hyperparameters to reduce effective model capacity, such as by adding dropout or weight decay
+
+#### 11.4.2 Automatic Hyperparameter Optimization Algorithms
+* We are trying to find a value of the hyperparameters that optimizes an objective function, such as validation error, sometimes under constraints (such as a budget for training time, memory or recognition time)
+* Hyperparameter otpimization algorithms often have their own hyperparameters, such as the range of values that should be explored for each of the learning algorithm's hyperparameters
+
+#### 11.4.3 Grid Search
+* The grid search algorithm trains a model for every joint specification of hyperparameter values in the Cartesian product of the set of values for each individual hyperparameter
+* The experiment that yield the best validation set error is then chosen as having found the best hyperparameters
+* The obvious problem with grid search is that its computational cost grows exponentially with the number of hyperparameters
+	* If there are m hyperparameters, each taking at most n values, then the number of training and evaluation trials required grows as $O(n^m)$
+
+#### 11.4.4 Random Search
+* More convenient to use and converges much faster to good values of the hyperparameters (than grid search)
+* First we define a marginal distribution for each hyperparameter, then sample based on the given distribution
+* A random search can be exponentially more efficient than a grid search, when there are several hyperparameters that do not strongly affect the performance measure
+
+#### 11.4.5 Model-Based Hyperparameter Optimization
+* We can build a model of the validation set error, then propose new hyperparameter guesses by performing optimization within this model
+* Contemporary approaches to hyperparameter optimization include Spearmint, TPE and SMAC
+
+### 11.5 Debugging Strategies
+* We do not know a priori what the intended behavior of the algorithm is
+* Most machine learning models have multiple parts that are each adaptive
+* Most debugging strategies for neural nets are designed to get around one or both of these two difficulties
+	* Either we design a case that is so simple that the correct behavior actually can be predicted, or we design a test that exercises one part of the neural network implementation in isolation
+* Some important debugging tests:
+	* Visualize the model in action
+	* Visualize the worst mistakes
+	* Reasoning about software using train and test error
+	* Fit a tiny dataset
+	* Compare back-propagated derivatives to numerical derivatives
+	* Monitor histograms of activations and gradient
 
 # See also
 
