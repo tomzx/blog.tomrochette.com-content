@@ -146,7 +146,7 @@ Jürgen Schmidhuber
 Volodymyr Mnih, Koray Kavukcuoglu, David Silver, Alex Graves, Ioannis Antonoglou, Daan Wierstra, Martin Riedmiller
 
 ### Mastering the Game of Go with Deep Neural Networks and Tree Search (2016-03)
-David Silver, Aja Huang, Chris J. Maddison, Arthur Guez, Laurent Sifre, George van den Driessche, Julian Schrittwieser, Ioannis Antonoglou, Veda Panneershelvam, Marc Lanctot, Sander Dieleman, Dominik Grewe, John Nham, Nal Kalchbrenner, Ilya Sutskever, Timothy Lillicrap, Madeleine Leach, Koray Kavukcuoglu, Thore Graepel & Demis Hassabis
+David Silver, Aja Huang, Chris J. Maddison, Arthur Guez, Laurent Sifre, George van den Driessche, Julian Schrittwieser, Ioannis Antonoglou, Veda Panneershelvam, Marc Lanctot, Sander Dieleman, Dominik Grewe, John Nham, Nal Kalchbrenner, Ilya Sutskever, Timothy Lillicrap, Madeleine Leach, Koray Kavukcuoglu, Thore Graepel, Demis Hassabis
 
 ### Program Search as a Path to Artificial General Intelligence (2016-03)
 Łukasz Kaiser
@@ -179,21 +179,16 @@ Douglas Lenat
 Ken Haase
 
 ### AM: A Case Study in AI Methodology (2016-05)
-G.D. Ritchie
-F.K. Hanna
+G.D. Ritchie, F.K. Hanna
 
 ### Report on a General Problem-Solving Program (2016-05)
-Allen Newell
-John Clifford Shaw
-Herbert A. Simon
+Allen Newell, John Clifford Shaw, Herbert A. Simon
 
 ### The Logic Theory Machine: A Complex Information Processing System (2016-05)
-Allen Newell
-Herbert A. Simon
+Allen Newell, Herbert A. Simon
 
 ### The Copycat Project: A Model of Mental Fluidity and Analogy-Making (2016-05 - ?)
-Douglas Hofstadter
-Melanie Mitchell
+Douglas Hofstadter, Melanie Mitchell
 
 ### Minds, Machines and Gödel (2016-05)
 J.R. Lucas
@@ -217,16 +212,13 @@ George Pólya
 Allen Newell
 
 ### Neuroscience: Exploring the Brain (2016-06 - 2016-11)
-Mark F. Bear
-Barry W. Connors
-Michael A. Paradiso
+Mark F. Bear, Barry W. Connors, Michael A. Paradiso
 
 ### A Concise Introduction to Logic (2016-06 - 2016-12)
 Patrick J. Hurley
 
 ### A Hypothetical Dialogue Exhibiting a Knowledge Base For a Program-Understanding System (2016-06 - 2016-07)
-Cordell Green
-David Barstow
+Cordell Green, David Barstow
 
 ### Machine Learning (2016-06 - ?)
 Peter Flach
@@ -238,18 +230,13 @@ Jeff Hawkins
 John McCarthy
 
 ### Universal Value Function Approximators (2016-06 - 2016-07)
-Tom Schaul
-Dan Horgan
-Karol Gregor
-David Silver
+Tom Schaul, Dan Horgan, Karol Gregor, David Silver
 
 ### The Programmer's Apprentice: A Research Overview (2016-07)
-Charles Rich
-Richard C. Waters
+Charles Rich, Richard C. Waters
 
 ### Towards a Programming Apprentice (2016-07)
-Carl E. Hewitt
-Brian Smith
+Carl E. Hewitt, Brian Smith
 
 ### Artificial Intelligence -- a personal view (2016-07)
 David Marr
@@ -258,9 +245,7 @@ David Marr
 Began research related to automated research. The main goal is to determine a basic research flow and automate most of the process (researching papers, establishing important papers, determine a reading order, create a wordcloud of the most important terms, define which papers cite which papers, etc.).
 
 ### Introduction to Automata Theory, Languages, and Computation (2016-08 - 2016-10)
- John E. Hopcroft
- Rajeev Motwani
- Jeffrey D. Ullman
+ John E. Hopcroft, Rajeev Motwani, Jeffrey D. Ullman
 
 ### Theory of self-reproducing automata (2016-08 - 2016-10)
 John von Neumann
@@ -278,20 +263,13 @@ John Storrs Hall
 Richard Yonck
 
 ### From the Phenomenology to the Mechanisms of Consciousness: Integrated Information Theory 3.0 (2016-08)
-Masafumi Oizumi
-Larissa Albantakis
-Giulio Tononi
+Masafumi Oizumi, Larissa Albantakis, Giulio Tononi
 
 ### Automatic Learning of Context-Free Grammar (2016-08)
-Tai-Hung Chen
-Chun-Han Tseng
-Chia-Ping Chen
+Tai-Hung Chen, Chun-Han Tseng, Chia-Ping Chen
 
 ### TensorFlow for Machine Intelligence (2016-09)
-Sam Abrahams
-Danijar Hafner
-Erik Erwitt
-Ariel Scarpinelli
+Sam Abrahams, Danijar Hafner, Erik Erwitt, Ariel Scarpinelli
 
 ### Language Identification in the Limit (2016-09)
 E. Mark Gold
@@ -334,3 +312,12 @@ David Silver
 
 ### A Framework for Searching for General Artificial Intelligence (2017-02)
 Marek Rosa
+
+### Curriculum Learning (2017-04)
+Yoshua Bengio, Jérôme Louradour, Ronan Collobert, Jason Weston
+
+### A Postulate on the Brain's Basic Wiring Logic (2017-04)
+Joe Z. Tsien
+
+### A Postulate on the Brain's Basic Wiring Logic (2017-04)
+Joe Tsien
