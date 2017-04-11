@@ -48,3 +48,9 @@ $authorText = $author;
 $content = PHP_EOL.PHP_EOL.$articleText.PHP_EOL.$authorText;
 file_put_contents('my-path-to-agi/article.md', $content, FILE_APPEND);
 echo 'Updated my-path-to-agi/article.md'.PHP_EOL;
+
+// Go to Google scholar to get appropriate reference
+$escapedTitle = urlencode($title);
+$url = 'https://scholar.google.ca/scholar?hl=en&q='.$escapedTitle;
+$url = str_replace('&', '^&', $url);
+passthru('start '.$url);
