@@ -15,16 +15,22 @@ I had code coverage work on another project in the same environment I was in, so
 
 I tried a couple of things, starting by calling phpunit from the command line using different arguments:
 
-*   --coverage-html report test\symbol_test.php
-*   Would generate some report with data in it, good!
+```shell
+--coverage-html report test\symbol_test.php
+```
+Would generate some report with data in it, good!
 
-*   -c test\phpunit.xml (logging set in phpunit.xml)
-*   Would generate an empty report, not good...
+```shell
+-c test\phpunit.xml (logging set in phpunit.xml)
+```
+Would generate an empty report, not good...
 
-*   --coverage-html report -c test\phpunit.xml
-*   Would generate an empty report, not good...
+```shell
+--coverage-html report -c test\phpunit.xml
+```
+Would generate an empty report, not good...
 
-So at that point I saw that it was working correctly and that something was definitely wrong with my phpunit.xml configuration file. I went back to the [phpunit.de][1] manual, specifically on the configuration page, and tried to figure out my problem.
+So at that point I saw that it was working correctly and that something was definitely wrong with my phpunit.xml configuration file. I went back to the [phpunit.de](https://phpunit.de/manual/current/en/code-coverage-analysis.html#code-coverage-analysis.whitelisting-files) manual, specifically on the configuration page, and tried to figure out my problem.
 
 For code coverage to be included in your report, you have to add a filter, be it a blacklist or a whitelist, but you have to have a filter.
 
@@ -38,5 +44,3 @@ So I quickly added a filter such as
 </code></pre>
 
 which would whitelist everything that is in the project (my project root is one level above test). Ran **phpunit ** in the test folder and I finally got a report with data!
-
- [1]: http://www.phpunit.de/manual/current/en/appendixes.configuration.html#appendixes.configuration.blacklist-whitelist
