@@ -3,7 +3,7 @@ title: Yoshua Bengio - Curriculum Learning (2009)
 created: 2017-04-08
 taxonomy:
   category: [Artificial General Intelligence]
-  status: in progress
+  status: finished
 ---
 
 ## Context
@@ -11,6 +11,9 @@ taxonomy:
 ## Learned in this study
 
 ## Things to explore
+* Is it possible during training to determine that an example/sample is more "complicated" than others and to automatically partition samples in in some ordered complexity order?
+* During training they added batches of 5000 words, would training have been more fluid (and resulted in even better results) if words were added one at a time?
+* Is clustering (and other unsupervised approaches) a weak form of curriculum learning, where by grouping "similar" examples, it makes it easier to learn about them?
 
 # Overview
 
@@ -56,6 +59,18 @@ taxonomy:
 * The curriculum consists of a two-step schedule
 	* Perform gradient descent on the BasicShapes training set, until "switch epoch" is reached
 	* Then perform gradient descent on the GeomShapes training set
+
+## 6. Experiments on language modeling
+* A score is computed for the next word in a correct English sentence
+* Collobert and Weston optimized the log-likelihood of the next word
+* The ranking approach does not require computing the score over all the vocabulary words during training
+* It is enough to sample a negative example
+
+## 7. Discussion and Future Work
+* The way we have defined curriculum strategies leaves a lot to be defined by the teacher
+* It would be nice to understand general principles that make some curriculum strategies work better than others
+* To reap the advantages of a curriculum strategy while minimizing the amount of human (teacher) effort involved, it is natural to consider a form of active selection of examples similar to what humans (and in particular children) do
+* At any point during the "education" of a learner, some examples can be considered "too easy" (not helping much to improve the current model), while some examples can be considered "too difficult" (no small change in the model would allow to capture these examples)
 
 # See also
 
