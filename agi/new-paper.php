@@ -15,6 +15,7 @@ $folder = preg_replace('/[ -.:!?()\[\]]+/', '-', strtolower($author.' '.$title))
 $folder = trim($folder, '-');
 $folderPath = 'papers/'.$folder;
 $articlePath = $folderPath.'/article.md';
+$bibliographyPath = $folderPath.'/article.bib';
 
 // Confirm
 
@@ -27,6 +28,7 @@ if (file_exists($folderPath)) {
 mkdir($folderPath);
 // Copy template.md to article.md
 copy('template.md', $articlePath);
+touch($bibliographyPath);
 // Update the article title and date
 $articleTitle = $author.' - '.$title.' ('.$year.')';
 $content = file_get_contents($articlePath);
