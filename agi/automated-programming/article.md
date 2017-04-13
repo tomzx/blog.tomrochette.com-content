@@ -7,9 +7,13 @@ taxonomy:
 ---
 
 ## Context
-Automated programming has been a goal for computer scientist since the inception of the field. Being able to generate code either by providing examples of inputs/outputs or specification description is not without its share of difficulties. In this article, we explore the process of programming, with the objective of discovering what can be automated and how, and what causes serious difficulties.
+Automated programming has been a goal for computer scientists since the inception of the field. Being able to generate code either by providing examples of inputs/outputs or a specification description is not without its share of difficulties. In this article, we explore the process of programming, with the objective of discovering what can be automated and how, and what causes serious difficulties.
 
 ## Learned in this study
+* Communication is difficult
+* Understanding is difficult
+* A part of the job of the programmer is to construct a model of the software of the client so that it can understand how a requirement/change fits into this model
+* A programmer needs to know how many systems works: the programming language, the file system, the database
 
 ## Things to explore
 * How to avoid the program synthesizer from building a simple lookup table?
@@ -22,14 +26,18 @@ Automated programming has been a goal for computer scientist since the inception
 	* What are the implications of such constraint?
 * Learn how to code from looking at commit comments and code changes
 * English description to function parts
+* Programming requires communication: the client explaining what it needs the system to do to the programmer, the programmer converting these requirements into a high level language code, the code being converted into computer instructions.
+	* Where does automated programming comes in?
+* The basic strategy of a beginner programmer is generally to copy and paste code. Is it possible to reproduce and use this behavior effectively in an automated manner?
+* What is the difference between writing a program from scratch and modifying an existing program?
 
 # Overview
-* The programmer provides pre-conditions and post-conditions
+* The programmer provides preconditions and postconditions
 * The programmer provides input parameters and output with types
 * The programmer provides a set of examples (inputs and outputs) for the automatic function synthesis to work through
-* Give examples (may not be straightforward for objects)
-* Use some sort of natural language/declarative (user-oriented) language to control oriented/procedural languages (use of conditionals)
+* Give examples of input/output combinations (may not be straightforward for objects)
 * Provide examples in order of complexity
+* Use some sort of natural language/declarative (user-oriented) language to control oriented/procedural languages (use of conditionals)
 * The synthesizer is basically trying to build a proof for your examples, so it has to know the operation it can do and their impact on the state (see [SHAKEY](https://en.wikipedia.org/wiki/Shakey_the_robot))
 * Many approaches are possible, namely forward search, backward search, bidirectional search
 * As there are many way to accomplish the same function, the first goal of the synthesizer should be to rapidly offer a working function to the user
@@ -62,9 +70,9 @@ Automated programming has been a goal for computer scientist since the inception
 * Determine what is missing and will need to be added (creative part)
 * Determine which functions will be required
 * Determine which data will be required
-* Determine the state in which you expect the data (pre-conditions)
+* Determine the state in which you expect the data (preconditions)
 * Determine where the data is in the required state (points of insertion)
-* Determine what should be the final state of the data after being processed (post-conditions)
+* Determine what should be the final state of the data after being processed (postconditions)
 * Create the necessary functions to obtain data that cannot currently be obtained
 * Decompose the required feature in a set of operations that will need to be accomplished
 * Construct a collection of sequences of function calls that will accomplish the required feature
@@ -77,7 +85,7 @@ Automated programming has been a goal for computer scientist since the inception
 # Useful tools during development
 * Analyze existing code and generate/execute edge cases for the programmers to review
 * Language edge cases assertions such as accepting null as a valid argument for a typed signature (in Java) or that objects are passed by reference (in Java)
-* Identification of thrown exceptions that are not catched
+* Identification of thrown exceptions that are not caught
 * Partial function testing: select a portion of code and fake data will be generated to test it
 
 # Programming tasks
@@ -111,8 +119,8 @@ Programming is at its core the task of passing values to functions, evaluating s
 * Determine return type (for typed languages)
 * Assign return type (for typed languages)
 * Determine logic/sequence of statements to execute within the function/method/block (one of the most difficult tasks, if not the most)
-* Determine pre-conditions
-* Determine post-conditions
+* Determine preconditions
+* Determine postconditions
 * Determine invariants
 * Generate variable name
 * Assign variable name
@@ -153,12 +161,12 @@ There are many tasks that are specifically related to the fact that we're using 
 * If
 	* Create block (if (...) { ... })
 		* Determine predicate
-		* Evaluate block pre-conditions based on predicate
+		* Evaluate block preconditions based on predicate
 	* Create elseif block(s) (elseif (...) { ... })
 		* Determine predicate
-		* Evaluate block pre-conditions (based on if/elseif predicates)
+		* Evaluate block preconditions (based on if/elseif predicates)
 	* Create else block (else { ... })
-		* Evaluate block pre-conditions (based on if/elseif predicates)
+		* Evaluate block preconditions (based on if/elseif predicates)
 * Foreach
 	* Create block (foreach (...) { ... })
 		* Determine iterator
@@ -198,7 +206,15 @@ while (programming) {
 }
 ```
 
-There's also likely to be some sort of evaluative loop that is assessing the code observed for things that will need to be done. In some sense, the internals of the programming loop is more likely to resemble a markov decision process, where certain tasks are very likely to be executed just after a given task was executed (e.g. initializing a variable after it has been declared).
+There's also likely to be some sort of evaluative loop that is assessing the code observed for things that will need to be done. In some sense, the internals of the programming loop is more likely to resemble a Markov decision process, where certain tasks are very likely to be executed just after a given task was executed (e.g. initializing a variable after it has been declared).
+
+### Task stack
+
+There is some aspect of programming that makes it look like a programmer is processing tasks from a call stack. For instance, initially his call/task stack will be empty. The first thing he will have to do is either to examine the code for things to do or improve, or look at an existing list of tasks.
+
+When the programmer has found at least one task to work on (his stack not being empty anymore), he can then start working on this task. A complex task, which may have 1 or many sub-tasks, will then be destructured into its more simpler tasks, which are stacked on the "work" stack from last task to first task, such that the top of the stack (and thus the next elected task) will be the first sub-task of the task that was initially started.
+
+As the programmer progresses through a task assignment, he may encounter things that he did not expect: a missing function, the unexpected behavior of an existing function, the task is ill-defined or missing information, etc. This may cause the programmer to either drop the initial task completely from his task stack, or to stack on a new task which purpose is to resolve the current task issue.
 
 # Observation on the programming tasks
 * Some tasks are incredibly easy to solve if you leave them in complete freedom. For instance, if no constraint is applied for variable naming, then any string is valid as any other, as long as they do not overlap with existing variables. However, if you introduce naming conventions, or the more difficult task of assign a "proper" name to a variable, the difficulty of the task increases tremendously.
@@ -221,40 +237,11 @@ By observing the properties that can vary in the most common data structure, it 
 	* Limited
 	* Unlimited (or at least as much as available)
 
-* Array
-* Vector
-* String
-* List
-	* Singly linked list
-	* Doubly linked list
-	* Circular linked list
-* Queue
-* Deque
-* Stack
-* Set
-* Map/Dictionary
-* Multiset
-* Multimap
-* Priority Queue
-* Graph
-* Tree
-	* Binary tree
-	* Binary search tree
-	* Heap
-	* Red-black tree
-	* AVL
-	* B-tree
-	* Splay tree
-	* Quadtree/Octree
-	* Trie
-	* Minimum spanning tree
-* Matrix
-
 # Ideas for programming assistants
-* Define two procedures (Hewitt75):
+* Define two procedures [@hewitt1975towards]:
 	* One to implement the desired transformation
 	* One to check if the transformation has in fact been accomplished
-* If the programming assistant can aid expert programmers in demonstrating that two rather different implementations produce equivalent behavior, then we can be much more confident that the system will behave in a useful way (Hewitt75)
+* If the programming assistant can aid expert programmers in demonstrating that two rather different implementations produce equivalent behavior, then we can be much more confident that the system will behave in a useful way
 
 # See also
 * [Automated refactoring](../automated-refactoring)
