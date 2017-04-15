@@ -3,7 +3,7 @@ title: Lion Kimbro - How to Make a Complete Map of Every Thought - 2003
 created: 2017-04-13
 taxonomy:
   category: [Artificial General Intelligence]
-  status: in progress
+  status: finished
 ---
 
 ## Context
@@ -65,6 +65,26 @@ taxonomy:
 ## 4 Extra-Subject Architecture
 * The Grand Subject Map of Contents is a map of all of your subjects
 * The Grand Subject Registry is a list of all your subjects
+* Start with general content in the beginning, then extract subjects as you discover differences/orthogonality
+* At some point when you are happy with the content of a subject and you think it has reached its "fullness", it is time to write a book about it
+	* Doing so creates strong foundations on which to further progress
+* The goal of book writing is to integrate your thoughts not only within your mind, but between you and other people as well
+* Was it useful for Indians to invent bows and arrows, when people across the globe had guns? I think it was useful for them. Because, locally, within their sphere, it was better than anything they had before.
+
+## 5 Theory of Notebooks
+* Repeated thinking is when we think the same thoughts, over and over again, without really getting anywhere
+* Loss progress is when we have solved a situation before, but we go back and return to it
+* If we kept records and mapped our thoughts, we could keep a map in mind, and identify our position on the map and the transitions to solved states
+* Michael Ende wrote that we learn things and forget them, learn things and forget them. His idea was that these build layers in our mind that, though we can’t see them, are still there, and support us.
+	* Similar to the idea of On Intelligence where idea start at a low level and are (re-)constructed at higher levels where they serve as new foundations for future layers
+* If you are habitually throwing out good ideas, over time, it seems to me, your mind stops giving you solutions.
+* Information is little pieces of idea that you have
+* Knowledge is the integration of ideas, patterns and relationships amongst the information you collect
+* Wisdom is knowledge that has been integrated with your life (doing something with the knowledge you have)
+
+## 6 The Question of Computers
+* It is so easy to alt-tab and write down your thoughts
+* The problem is that you can't make diagrams and stuff, and there's no way to map (in text format that is)
 
 # See also
 
