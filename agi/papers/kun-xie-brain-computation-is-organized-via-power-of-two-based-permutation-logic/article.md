@@ -3,7 +3,7 @@ title: Kun Xie - Brain Computation Is Organized via Power-of-Two-Based Permutati
 created: 2017-04-13
 taxonomy:
   category: [Artificial General Intelligence]
-  status: in progress
+  status: finished
 ---
 
 ## Context
@@ -48,6 +48,16 @@ taxonomy:
 * Over time, when the random connectivity strategy may no longer be sufficient and efficient to ensure the desired outcome, evolution exerts its selection force to develop nonrandom organization to execute this power-of-two-based permutation logic to efficiently deal with environments in which animals lived
 * One this cortical FCM was in place, evolution can seamlessly implement this power-of-two-based permutation logic via expanding its surface size horizontally. This is supported by the examination of 30 different animal species showing that cortical surface area varied by a factor larger than 10000, whereas the thickness of the cortical layers varied only by a factor of 10
 * Our results suggest that specific memory and generalized knowledge are generated via a coherent cell-assembly logic and should emerge simultaneously
+
+## The Power-of-Two-Based Permutation Logic Helps Explain Many Results in the Literature
+* There is a general agreement that information processing in the brain is hierarchical - that is, simple features in the primary sensory cortex are somehow transformed into complex features in the next-stage cortex, and so on and so forth
+
+## Power-of-Two-Based Logic and its Constraints on Biological Brains
+* The power-of-two-based permutation logic imposes biological boundary on the computational limitation of circuits
+* For example, due to the exponential growth in input numbers i, the cost (in terms of cell resources) can quickly become prohibitive
+* In order to cover all possible patterns for processing 40 distinct perceptual inputs, a single FCM would require over a trillion neurons ($10^12$)
+* Every neurons in the human brain ($8.6 \times 10^10$ neurons) would be inadequate to afford this exponential coverage
+* The best and necessary solution is to employ modular approaches, or a divide-and-conquer strategy, to segregate or stream information inputs through distinct sensory domains or pathways
 
 # See also
 
