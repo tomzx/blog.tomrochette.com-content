@@ -665,6 +665,96 @@ $$
 	* Compare back-propagated derivatives to numerical derivatives
 	* Monitor histograms of activations and gradient
 
+## 12 Applications
+### 12.1 Large-Scale Deep Learning
+* A large population of neurons or features acting together can exhibit intelligent behavior
+* One of the key factors responsible for the improvement in neural network's accuracy and the improvement of the complexity of tasks they can solve between the 1980s and today is the dramatic increase in the size of the networks we use
+
+#### 12.1.3 Large-Scale Distributed Implementations
+* Asynchronous stochastic gradient descent
+	* Several processor cores share the memory representing the parameters
+	* Each core reads parameters without a lock, then computes a gradient, then increments the parameters without a lock
+* Distributed asynchronous gradient descent remains the primary strategy for training large deep networks and is used by most major deep learning groups in industry
+
+#### 12.1.4 Model Compression
+* A key strategy for reducing the cost of inference is model compression
+* The basic idea of model compression is to replace the original, expensive model with a smaller model that requires less memory and runtime to store and evaluate
+* Model compression is applicable when the size of the original model is driven primarily by a need to prevent overfitting
+* We can generate a training set containing infinitely many examples, simply by applying f to randomly sampled points $\boldsymbol{x}$
+* We train the new, smaller, model to match $f(boldsymbol{x})$ on these points. In order to most efficiently use the capacity of the new, small model, it is best to sample the new $\boldsymbol{x}$ points from a distribution resembling the actual test inputs that will be supplied to the model later
+
+#### 12.1.5 Dynamic Structure
+* One strategy for accelerating data processing systems in general is to build systems that have dynamic structure in the graph describing the computation needed to be process an input
+* Data processing systems can dynamically determine which subset of many neural networks should be run on a given input
+* This form of dynamic structure inside neural networks is sometimes called conditional computation
+* A venerable strategy for accelerating inference in a classifier is to use a cascade of classifiers
+* A simple way to accomplish the union of deep learning and dynamic structure is to train a decision tree in which each node uses a neural network to make the splitting decision
+* One can use a neural network, called the gater to select which one out of several expert networks will be used to compute the output, given the current input
+* The first version of this idea is called the mixture of experts
+* One major obstacle to using dynamically structured systems is the decreased degree of parallelism that results from the system following different code branches for different inputs
+
+### 12.2 Computer Vision
+#### 12.2.1 Preprocessing
+* Formatting images to have the same scale is the only kind of preprocessing that is strictly necessary
+* Many computer vision architectures require images of a standard size, so images must be cropped or scaled to fit that size
+
+#### 12.2.1.1 Contrast Normalization
+* One of the most obvious source of variation that can be safely removed from many tasks is the amount of contrast in the image
+* Contrast refers to the magnitude of the difference between the bright and the dark pixels in an image
+* Global contrast normalization (GCN) aims to prevent images from having varying amounts of contrast by subtracting the mean from each image, then rescaling it so that the standard deviation across its pixels is equal to some constant s
+* Local contrast normalization ensures that the contrast is normalized across each small window, rather than over the image as a whole
+* One modifies each pixel by subtracting a mean of nearby pixels and dividing by a standard deviation of nearby pixels
+
+#### 12.3 Speech Recognition
+* The task of speech recognition is to map an acoustic signal containing a spoken natural language utterance into the corresponding sequence of words intended by the speaker
+
+#### 12.4 Natural Language Processing
+#### 12.4.1 n-grams
+* An n-gram is a sequence of n tokens
+* Models based on n-grams define the conditional probability of the n-th token given the preceding n - 1 tokens
+* A fundamental limitation of maximum likelihood for n-gram models is that $P_n$ as estimated from training set counts is very likely to be zero in many cases
+* Two catastrophic outcomes
+	* $P_{n-1}$ is zero, the ratio is undefined
+	* $P_{n-1}$ is non-zero but $P_n$ is zero, the test log-likelihood is $-\infty$
+* To avoid such catastrophic outcomes, most n-gram models employ some form of smoothing
+	* One basic technique consists of adding non-zero probability mass to  all the possible next symbol values
+	* Another idea is to form a mixture model containing higher-order and lower-order n-gram models, with the higher-order models providing more capacity and the lower-order models being more likely to avoid counts of zero
+* One way to view a classical n-gram model is that it is performing nearest-neighbor lookup
+* Class-based language models introduce the notion of word categories and then share statistical strength between words that are in the same category
+
+#### 12.4.2 Neural Language Models
+* A class of language model designed to overcome the curse of dimensionality problem for modeling natural language sequences by using a distributed representation of words
+* These word representations are sometimes called word embeddings
+* We view the raw symbols as points in a space of dimension equal to the vocabulary size. The word representations embed those points in a feature space of lower dimension
+* In the original space, every word is represented by a one-hot vector, so every pair of words is at Euclidean distance $\sqrt(2)$ from each other
+* In the embedding space, words that frequently appear in similar contexts are close to each other
+
+#### 12.4.3 High-Dimensional Outputs
+* Vocabulary size being generally verge large, computing a softmax to determine the probability distribution of each word is very expensive (high computational cost to multiply)
+
+#### 12.4.3.1 Use of a Short List
+* Initially dealt with the high computational cost by limiting the vocabulary size to 10000 or 20000 words
+* The vocabulary $\mathbb{V}$ is split into two lists: a shortlist $\mathbb{L}$ of most frequent words and a tail $\mathbb{T} = \mathbb{V} \setminus \mathbb{L}$ of more rare words
+* A disadvantage of the short list approach is that the potential generalization advantage of the neural language models is limited to the most frequent words, where, arguably, it is the least useful
+
+#### 12.4.3.2 Hierarchical Softmax
+* One can think of this hierarchy as building categories of words, then categories of categories of words, etc.
+* The probability of choosing a word is given by the product of the probabilities of choosing the branch leading to that word at every node on a path from the root of the tree to the leaf containing the word
+* An important advantage of the hierarchical softmax is that it brings computational benefits both at training time and at test time, if at test time we want to compute the probability of specific words
+* Another important operation is selecting the most likely word in a given context. Unfortunately the tree structure does not provide an efficient and exact solution to this problem
+* A disadvantage is that in practice the hierarchical softmax tends to give worse test results than sampling-based methods
+
+#### 12.4.3.3 Important Sampling
+* Instead of sampling from the model, one can sample from another distribution, called the proposal distribution, and use appropriate weights to correct for the bias introduced by sampling from the wrong distribution
+
+#### 12.4.4 Combining Neural Language Models with n-grams
+* If we use hash tables or trees to access the count (of an n-gram), the computation used for n-grams is almost independent of capacity
+* In comparison, doubling a neural network's number of parameters typically also roughly doubles its computation time
+* One easy way to add capacity is to combine both approaches in an ensemble consisting of a neural language model and an n-gram language model
+
+#### 12.4.5 Neural Machine Translation
+* The task of reading a sentence in one natural language and emitting a sentence with the equivalent meaning in another language
+
 # See also
 
 # References
