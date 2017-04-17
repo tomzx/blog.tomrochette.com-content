@@ -755,6 +755,61 @@ $$
 #### 12.4.5 Neural Machine Translation
 * The task of reading a sentence in one natural language and emitting a sentence with the equivalent meaning in another language
 
+#### 12.4.5.1 Using an Attention Mechanism and Aligning Pieces of Data
+* We can think of an attention-based system as having three components:
+	* A process that "reads" raw data (such as source words in a source sentence), and converts them into distributed representations, with one feature vector associated with each word position
+	* A list of feature vectors storing the output of the reader. This can be understood as a "memory" containing a sequence of facts, which can be retrieved later, not necessarily in the same order, without having to visit all of them
+	* A process that "exploits" the content of the memory to sequentially perform a task, at each time step having the ability to put attention on the content of one memory element (or a few, with a different weight)
+
+### 12.5 Other Applications
+#### 12.5.1 Recommender Systems
+* Two major types of applications: online advertising and item recommendations
+* Both rely on predicting the association between a user and an item, either to predict the probability of some action or the expected gain if an ad is shown or a recommendation is made regarding that product to that user
+* Often, this association problem is handled like a supervised learning problem: given some information about the item and about the user, predict the proxy of interest
+* This often ends up being either a regression problem or a probabilistic classification problem
+* Early work on recommender systems relied on minimal information as inputs for these predictions: the user ID and the item ID
+* There is a basic limitation of collaborative filtering systems: when a new item or a new user is introduced, its lack of rating history means that there is no way to evaluate its similarity with other items or users, or the degree of association between, say, that new user and existing items. This is called the problem of cold-start recommendations
+* A general way of solving the cold-start recommendation problem is to introduce extra information about the individual user and items
+* Systems that use such information are called content-based recommender systems
+
+#### 12.5.1.1 Exploration Versus Exploitation
+* Many recommendation problems are most accurately described theoretically as contextual bandits
+* The term contextual bandits refers to the case where the action is taken in the context of some input variable that can inform the decision (e.g., the user identity)
+
+#### 12.5.2 Knowledge Representation, Reasoning and Question Answering
+#### 12.5.2.1 Knowledge, Relations and Question Answering
+* In mathematics, a binary relation is a set of ordered pairs of objects
+* In the context of AI, we think of a relation as a sentence in a syntactically simple and highly structured language
+	* (subject, verb, object)
+* We can define an attribute, a concept analogous to a relation, but taking only one argument
+	* (subject, attribute)
+* Early work used vectors for entities and matrices for relations, with the idea that a relation acts like an operator on entities
+* Alternatively, relations can be considered as any other entity, allowing us to make statements about relations, but more flexibility is put in the machinery that combines them in order to model their joint distribution
+* A practical short-term application of such models is link prediction: predicting missing arcs in the knowledge graph
+* Knowledge of relations combined with a reasoning process and understanding of natural language could allow us to build a general question answering system
+* A general question answering system must be able to process input information and remember important facts, organized in a way that enables it to retrieve and reason about them later
+
+## 13 Linear Factor Models
+* A linear factor model is defined by the use of a stochastic, linear decoder function that generates $\boldsymbol{x}$ by adding noise to a linear transformation of $\boldsymbol{h}$
+* These models are interesting because they allow us to discover explanatory factors that have a simple joint distribution
+* First, we sample the explanatory factors $\boldsymbol{h}$ from a distribution
+* Next we sample the real valued observable variables given these factors
+$$
+$\boldsymbol{x}$ = $\boldsymbol{Wh}$ + $\boldsymbol{b}$ + noise
+$$
+
+### 13.1 Probabilistic PCA and Factor Analysis
+* Principal PCA, factor analysis and other linear factor models are special cases and only differ in the choices made for the noise distribution and the model's prior over latent variable $\boldsymbol{h}$ before observing $\boldsymbol{x}$
+* In factor analysis, the latent variable prior is just the unit variance Gaussian
+$$
+$\boldsymbol{\text{h}} \sim \mathcal{N}(\boldsymbol{h};\boldsymbol{0}, \boldsymbol{I})$
+$$
+* The role of the latent variables is to capture the dependencies between the different observed variables
+
+### 13.2 Independent Compnent Analysis (ICA)
+* It is an approach to modeling linear factors that seeks to separate an observed signal into many underlying signals that are scaled and added together to form the observed data
+* These signals are intended to be fully independent, rather than merely decorrelated from each other
+
 # See also
 
 # References
