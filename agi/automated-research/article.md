@@ -27,10 +27,13 @@ Currently, such process is generally defined but certainly not globally accepted
 * How should information be fed into the system?
 	* Support only arxiv?
 
-# Overview
-In this article we explore the idea of automating scientifical research. We attempt to cover the various research phases such as papers retrieval, assessment of the domain, determination of the core papers and authors in the field, construction of a bibliography and more.
+## Observations
+* If a reference is referred to often because it is large in size and can appeal to a wide variety of interest, does not necessarily make it valuable for your current purpose
 
-The purpose of the automation process is to reduce the effort required for an individual to get into a (new) research field. The true endgoal would be to provide topics and receive new, genuine papers on the provided topic generated automatically by the computer through the agglomeration, analysis and synthesis of existing research.
+# Overview
+In this article we explore the idea of automating scientific research. We attempt to cover the various research phases such as papers retrieval, assessment of the domain, determination of the core papers and authors in the field, construction of a bibliography and more.
+
+The purpose of the automation process is to reduce the effort required for an individual to get into a (new) research field. The true end goal would be to provide topics and receive new, genuine papers on the provided topic generated automatically by the computer through the agglomeration, analysis and synthesis of existing research.
 
 # Research procedure
 ## General approach
@@ -45,6 +48,7 @@ The purpose of the automation process is to reduce the effort required for an in
 		* References are extracted from the papers themselves (or by using a reference engine)
 		* References are cross-referenced
 	* Extract writing style (tf-idf, most frequent words, sentence/paragraph/section length) as well as various features (number of charts, tables, figures, etc.)
+	* Extract paper format (abstract, number of figures, types, tables, graphs, etc.)
 	* Compile a list of references based on the papers extracted above
 	* Compile a list of the more prominent writers in the field/topic
 	* Create summaries of the different presented ideas with links to the related articles
@@ -91,7 +95,7 @@ As we process papers, we want to make sure not to reprocess already processed pa
 With numerous papers processed, we can now construct a list of all references that were extracted.
 
 ## Reference graph generator
-One step further after having built a reference list is to build a reference graph. A reference graph is a visual representation of the papers refering to other papers.
+One step further after having built a reference list is to build a reference graph. A reference graph is a visual representation of the papers referring to other papers.
 
 ## Author list generator
 By extracting authors from papers and their references, it is possible for us to build a list of researchers in a given domain, which can prove to be a useful tool if one wants to find resources that may be useful in their own research.
@@ -192,8 +196,9 @@ Given there is a maximum amount of different reference formats, smaller than the
 * Recognize that two papers are the same but different iterations
 * Automatically collect new papers by authors/topics/based on a pool of papers
 * Rank papers by personal valuation
-* User the rank to determine the most interesting papers to share with the user
+* Use the rank to determine the most interesting papers to share with the user
 * Paper summarization
+* Rank papers by citation count, papers that are the most cited should provide the most value/utility to the reader (they are more broadly useful, like money)
 
 Growing the pool of papers
 * Extract authors
@@ -254,6 +259,8 @@ What are the phases of a research?
 * http://academic.research.microsoft.com/VisualExplorer
 * Councill, Isaac G., C. Lee Giles, and Min-Yen Kan. "[ParsCit: an Open-source CRF Reference String Parsing Package](http://svn.tribler.org/abc/branches/leo/p2p-search/lib/parscit-080917/doc/lrec08/lrec08.pdf)." LREC. Vol. 8. 2008.
 * Teufel, Simone, and Min-Yen Kan. [Robust argumentative zoning for sensemaking in scholarly documents](http://people.cs.pitt.edu/~litman/courses/nus062615/readings/TeufelKan.pdf). Springer Berlin Heidelberg, 2011.
+* http://allenai.org/semantic-scholar/citeomatic/?hootPostID=4cce060995ac4d34282766d010cb7f35
+* [Hamming, "You and Your Research" (June 6, 1995)](https://www.youtube.com/watch?v=a1zDuOPkMSw)
 
 ## Labeled training data
 * https://github.com/knmnyn/ParsCit/tree/master/doc
