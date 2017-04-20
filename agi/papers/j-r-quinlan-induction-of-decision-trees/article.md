@@ -3,7 +3,7 @@ title: J.R. Quinlan - Induction of Decision Trees (1986)
 created: 2017-04-13
 taxonomy:
   category: [Artificial General Intelligence]
-  status: in progress
+  status: finished
 ---
 
 ## Context
@@ -58,6 +58,31 @@ taxonomy:
 * Unless the proportion of class P objects in each of the $C_i$ is exactly the same as the proportion of class P objects in C itself, branching on attribute A will give an apparent information gain
 * It will therefore appear that testing attribute A is a sensible step, even though the values of A are random and so cannot help to classify the objects in C
 * Using the chi-square test for stochastic independence has been found to be a successful method to screen out irrelevant attributes
+
+## 6. Unknown attribute values
+* What should be done when the set of information for the training set is incomplete?
+* One way around the problem attempts to fill in an unknown value by utilizing information provided by context
+	* Use Bayesian formalism to determine the probability that the object has value $A_i$ of A by examining the values of A in C as a function of their class
+	* Use a decision-tree approach to determine the unknown values of an attribute
+	* Use the most common value (naive)
+* Treating "unknown" as a separate value is not a solution to the problem (could appear to give higher information gain)
+
+## 7. The selection criterion
+* Bratko's group encountered a medical induction problem in which the attribute selected by the gain criterion was judged by specialists to be less relevant than other attributes. This situation was also noted on other tasks, prompting Kononenko et al. to suggest that the gain criterion tends to favor attributes with many values
+* ASSISTANT solves this problem by requiring that all tests have only two outcomes
+	* Either the value is in a subset S of the values of the attribute A, or it is not
+* The side-effects of this solution are
+	* It can lead to decision trees that are even more unintelligible to human experts than is ordinarily the case, with unrelated attribute values being grouped together and with multiple tests on the same attribute
+	* The subset criterion can require a large increase in computation
+		* There are $2^{v-1} - 1$ different ways of specifying the distinguished subsets of attribute values
+* When all attributes are binary, the gain ratio criterion has been found to give considerably smaller decision trees
+* When the task includes attributes with large numbers of values, the subset criterion gives smaller decision trees that also have better predictive performance, but can require much more computation
+* When these many-valued attributes are augmented by redundant attributes which contain the same information at a lower level of detail, the gain ratio gives decision trees with the greatest predictive accuracy
+
+## 8. Conclusion
+* While decision trees are fast to execute and can be very accurate, they leave much to be desired as representations of knowledge
+* Experts who are shown such trees for classification tasks in their own domain often can identify little familiar material
+* Work by Shapiro (1983) offers a possible solution to this problem. In his approach, called Structured Induction, a rule-formation task is tackled in the same style as structured programming. The task is solved in terms of a collection of notational super-attributes, after which the subtasks of inducing classification rules to find the values of the super-attributes are approached in the same top-down fashion
 
 # See also
 
