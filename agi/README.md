@@ -104,12 +104,6 @@ Tom
 * [Multi agent bot](multi-agent-bot)
 * [Wikibot](wikibot)
 
-## Machine learning
-
-* [Machine learning frameworks](machine-learning-frameworks)
-* [Machine learning terminology](machine-learning-terminology)
-* [Tensorflow](tensorflow)
-
 ## Structured learning
 
 * [Current approaches](current-approaches)
