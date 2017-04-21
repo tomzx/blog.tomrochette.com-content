@@ -1,5 +1,5 @@
 ---
-title: 2017-01-19
+title: "2017-01-19"
 created: 2017-01-19
 taxonomy:
   category: [Machine Learning]
@@ -12,12 +12,14 @@ taxonomy:
 * Undersampling and oversampling
 
 ## Things to explore
+* F2 score
+* ROC/AUC
+* SMOTE
 
 # Problems faced
 * Working with np.array, dictionaries, lists, sets in order to uniquely identify array rows and index them
 
 # Overview
-
 Based on questions from http://machinelearningmastery.com/tactics-to-combat-imbalanced-classes-in-your-machine-learning-dataset/.
 
 1) Can You Collect More Data?
@@ -54,3 +56,4 @@ They suggest decomposing the larger class into smaller number of other classes, 
 * http://stackoverflow.com/questions/35049379/training-on-imbalanced-data-using-tensorflow
 * https://www.reddit.com/r/MachineLearning/comments/12evgi/classification_when_80_of_my_training_set_is_of/
 * http://machinelearningmastery.com/tactics-to-combat-imbalanced-classes-in-your-machine-learning-dataset/
+* http://contrib.scikit-learn.org/imbalanced-learn/generated/imblearn.over_sampling.SMOTE.html

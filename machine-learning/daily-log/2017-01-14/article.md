@@ -1,5 +1,5 @@
 ---
-title: 2017-01-14
+title: "2017-01-14"
 created: 2017-01-14
 taxonomy:
   category: [Machine Learning]
