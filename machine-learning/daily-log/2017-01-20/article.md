@@ -9,7 +9,7 @@ taxonomy:
 ## Context
 
 ## Learned in this study
-* Using jupyter for data exploration3
+* Using jupyter for data exploration
 * Use various tools from the sklearn library
 * It's useful to have a small utility library that will copy your train.py script such that you have an history of what your script was like at every run. This way if you need to backtrack to your "best" results, you can look at your tensorflow results, find the timestamp of the execution, and then find the related train.py script.
 
@@ -26,7 +26,7 @@ Since I was able to make much progress in the last few days, I decided to take a
 
 I followed the introductory tutorial available @ http://machinelearningmastery.com/machine-learning-in-python-step-by-step/. It allowed me to learn a few neat tricks that makes it possible for me to rapidly inspect the data (`head`/`tail`/`describe`/`plot(kind="box")`/`hist` on a dataset, `groupby(...).size()` to get an idea of classes distribution).
 
-Through the tutorial, I was lead to try various models: logistic regression, linear discrimnant analysis, k neighbors classifier, decision tree classifier, Gaussian naïve bayes and support vector clustering.
+Through the tutorial, I was lead to try various models: logistic regression, linear discriminant analysis, k neighbors classifier, decision tree classifier, Gaussian naïve Bayes and support vector clustering.
 
 Model: Cross-validation mean (std deviation)
 LR: 0.466854 (0.006114)
@@ -36,7 +36,7 @@ CART: 0.794611 (0.005026)
 NB: 0.165576 (0.005248)
 SVM: No result (did not complete)
 
-I was glad to see that decision tree classifiers was able to get 79%, compared to the ~40% I could get at best with my dense NN.
+I was glad to see that the decision tree classifier was able to get 79%, compared to the ~40% I could get at best with my dense NN.
 
 # See also
 
