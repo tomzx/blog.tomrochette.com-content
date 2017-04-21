@@ -7,6 +7,7 @@ taxonomy:
 ---
 
 $\usepackage{amsmath}$
+$\newcommand{\vector}{\boldsymbol}$
 
 ## Context
 
@@ -89,7 +90,7 @@ $$
 * Ascending an objective function of *discrete* parameters is called hill climbing
 * A Lipschitz continuous function is a function f whose rate of change is bounded by a Lipschitz constant $\mathcal{L}$
 $$
-\forall \boldsymbol{x}, \forall \boldsymbol{y}, |f(\boldsymbol{x}) - f(\boldsymbol{y})| \le \mathcal{L}||\boldsymbol{x}-\boldsymbol{y}||_2
+\forall \vector{x}, \forall \vector{y}, |f(\vector{x}) - f(\vector{y})| \le \mathcal{L}||\vector{x}-\vector{y}||_2
 $$
 * This property is useful because it allows us to quantify our assumption that a small change in the input made by an algorithm such as gradient descent will have a small change in the output
 
@@ -138,22 +139,22 @@ $$
 
 ### 5.5.2 Properties of Maximum Likelihood
 * Under appropriate conditions, the maximum likelihood estimator has the property of consistency, meaning that as the number of training examples approaches infinity, the maximum likelihood estimate of a parameter converges to the true value of the parameter. These conditions are:
- * The true distribution $p_{data}$ must lie within the model family $p_{model}(\cdot; \boldsymbol{\theta})$. Otherwise, no estimator can recover $p_{data}$
- * The true distribution $p_{data}$ must correspond to exactly one value of $\boldsymbol{\theta}$. Otherwise, maximum likelihood can recover the correct $p_{data}$, but will not be able to determine which value of $\boldsymbol{\theta}$ was used by the data generating process
+ * The true distribution $p_{data}$ must lie within the model family $p_{model}(\cdot; \vector{\theta})$. Otherwise, no estimator can recover $p_{data}$
+ * The true distribution $p_{data}$ must correspond to exactly one value of $\vector{\theta}$. Otherwise, maximum likelihood can recover the correct $p_{data}$, but will not be able to determine which value of $\vector{\theta}$ was used by the data generating process
 * Consistent estimators can differ in their statistic efficiency, meaning that one consistent estimator may obtain lower generalization error for a fixed number of samples m, or equivalently, may require fewer examples to obtain a fixed level of generalization error
 * When the number of examples is small enough to yield overfitting behavior, regularization strategies such as weight decay may be used to obtain a biased version of maximum likelihood that has less variance when training data is limited
 
 ### 5.7.2 Support Vector Machines
-* Support Vector Machines (SVM) is similar to logistic regression in that it is driven by a linear function $\boldsymbol{w^\top x} + b$
+* Support Vector Machines (SVM) is similar to logistic regression in that it is driven by a linear function $\vector{w^\top x} + b$
 * One key innovation associated with SVM is the kernel trick
  * The kernel trick consists of observing that many machine learning algorithms can be written exclusively in terms of dot products between examples
-* The kernel-based function is exactly equivalent to preprocessing the data by applying $\phi(\boldsymbol{x})$ to all inputs, then learning a linear model in the new transformed space
+* The kernel-based function is exactly equivalent to preprocessing the data by applying $\phi(\vector{x})$ to all inputs, then learning a linear model in the new transformed space
 * The kernel trick is powerful for two reasons:
- * It allows us to learn models that are nonlinear as a function of $\boldsymbol{x}$ using convex optimization techniques that are guaranteed to converge efficiently
- * The kernel function k often admits an implementation that is significantly more computationally efficient than naively constructing two $\phi(\boldsymbol{x})$ vectors and explicitly taking their dot products
+ * It allows us to learn models that are nonlinear as a function of $\vector{x}$ using convex optimization techniques that are guaranteed to converge efficiently
+ * The kernel function k often admits an implementation that is significantly more computationally efficient than naively constructing two $\phi(\vector{x})$ vectors and explicitly taking their dot products
 * The most commonly used kernel is the Gaussian kernel, also known as the radial basis function (RBF) kernel
 * A major drawback to kernel machines is that the cost of evaluating the decision function is linear in the number of training examples, because the i-th example contributes a term to the decision function
- * SVM are able to mitigate this by learning an $\boldsymbol{\alpha}$ vector that contains mostly zeros
+ * SVM are able to mitigate this by learning an $\vector{\alpha}$ vector that contains mostly zeros
 
 ### 5.7.3 Other Simple Supervised Learning Algorithms
 * k-nearest neighbors is a family of techniques that can be used for classification or regression
@@ -170,8 +171,8 @@ $$
 * PCA learns a representation that has lower dimensionality than the original input
 * It also learns a representation whose elements have no linear correlation with each other
 * The k-means algorithm works by initializing k different centroids to different values, then alternating between two different steps until convergence
- * In one step, each training example is assigned to cluster i, where i is the index of the nearest centroid $\boldsymbol{\mu}^{(i)}$
- * In the other step, each centroid $\boldsymbol{\mu}^{(i)}$ is updated to the mean of all training examples $\boldsymbol{x}^{(j)}$ assigned to cluster i
+ * In one step, each training example is assigned to cluster i, where i is the index of the nearest centroid $\vector{\mu}^{(i)}$
+ * In the other step, each centroid $\vector{\mu}^{(i)}$ is updated to the mean of all training examples $\vector{x}^{(j)}$ assigned to cluster i
 * Clustering may end up generating different clusters because of the feature that are used to create the clusters (red cars/trucks vs gray cars/trucks, red/gray cars vs red/gray trucks)
 
 ### 5.8.2 k-means Clustering
@@ -227,7 +228,7 @@ $$
 ### 6.3.1 Rectified Linear Units and Their Generalizations
 * $g(z) = max\{0, z\}$
 * One drawback to rectified linear units is that they cannot learn via gradient-based methods on examples for which their activation is zero
-* Three generalizations of rectified linear units are based on using a non-zero slope $\alpha_i$ when $z_i < 0$: $h_i = g(\boldsymbol{z}, \boldsymbol{\alpha})_i = \text{max}(0, z_i) + \alpha_i \text{min}(0, z_i)$
+* Three generalizations of rectified linear units are based on using a non-zero slope $\alpha_i$ when $z_i < 0$: $h_i = g(\vector{z}, \vector{\alpha})_i = \text{max}(0, z_i) + \alpha_i \text{min}(0, z_i)$
  * Absolute value rectification, $\alpha_i = -1$
  * Leaky ReLU, $\alpha_i \approx 0.01$
  * Parametric ReLU (PReLU), $\alpha_i$ as a learnable parameter
@@ -278,9 +279,9 @@ $$
 
 ### 7.1 Parameter Norm Penalties
 $$
-\tilde{J}(\boldsymbol{\theta}; \boldsymbol{X}, \boldsymbol{y}) = J(\boldsymbol{\theta}; \boldsymbol{X}, \boldsymbol{y}) + \alpha \Omega(\boldsymbol{\theta})
+\tilde{J}(\vector{\theta}; \vector{X}, \vector{y}) = J(\vector{\theta}; \vector{X}, \vector{y}) + \alpha \Omega(\vector{\theta})
 $$
-* We want to decrease both the original objective J on the training data and some measure of the size of the parameters $\boldsymbol{\theta}$
+* We want to decrease both the original objective J on the training data and some measure of the size of the parameters $\vector{\theta}$
 * For neural networks, we typically choose to use a parameter norm penalty $\Omega$ that penalizes only the weights of the affine transformation at each layer and leaves the biases unregularized
 
 ### 7.4 Dataset Augmentation
@@ -288,7 +289,7 @@ $$
 * Injecting noise in the input to a neural network can be seen as a form of data augmentation
 
 ### 7.7 Multi-Task Learning
-* A very common form of multi-task learning is one where different supervised tasks (predicting $\textbf{y}^{(i)}$ given $\textbf{x}$) share the same input $\textbf{x}$, as well as some intermediate-level representation $\boldsymbol{h}^{(shared)}$ capturing a common pool of factors. The model can generally be divided into two kinds of parts and associated parameters:
+* A very common form of multi-task learning is one where different supervised tasks (predicting $\textbf{y}^{(i)}$ given $\textbf{x}$) share the same input $\textbf{x}$, as well as some intermediate-level representation $\vector{h}^{(shared)}$ capturing a common pool of factors. The model can generally be divided into two kinds of parts and associated parameters:
  * Task-specific parameters
  * Generic parameters, shared across all the tasks
 
@@ -310,7 +311,7 @@ $$
 ### 7.12 Dropout
 * Dropout trains the ensemble consisting of all sub-networks that can be formed by removing non-output units from an underlying base network
 * One advantage of dropout is that it is very computationally cheap
-* Another advantage of dropout is that it does not significantly limit tyhe type of model or training procedure that can be used
+* Another advantage of dropout is that it does not significantly limit the type of model or training procedure that can be used
 * Dropout is less effective with very little labeled training examples (<5000)
 * One of the key insights of dropout is that training a network with stochastic behavior and making predictions by averaging over multiple stochastic decisions implements a form of bagging with parameter sharing
 * Each hidden unit must be able to perform well regardless of which other hidden units are in the model
@@ -398,9 +399,9 @@ $$
 
 ### 8.7 Optimization Strategies and Meta-Algorithms
 ### 8.7.1 Batch Normalization
-* Normalize (subtract the mean and divide by the standard deviation) every entry of a matrix $\boldsymbol{H}$ which is a minibatch of activations of the layer to normalize
-* In order to maintain the expressive power of the (neural) network, it is common to replace the batch of hidden unit actions $\boldsymbol{H}$ with $\boldsymbol{\gamma H'} + \boldsymbol{\beta}$ rather than the simply normalized $\boldsymbol{H'}
-	* It's easier to learn $\boldsymbol{\gamma}$ and $\boldsymbol{\beta}$ than the complicated interaction between the parameters in the layers below $\boldsymbol{H}$
+* Normalize (subtract the mean and divide by the standard deviation) every entry of a matrix $\vector{H}$ which is a minibatch of activations of the layer to normalize
+* In order to maintain the expressive power of the (neural) network, it is common to replace the batch of hidden unit actions $\vector{H}$ with $\vector{\gamma H'} + \vector{\beta}$ rather than the simply normalized $\vector{H'}
+	* It's easier to learn $\vector{\gamma}$ and $\vector{\beta}$ than the complicated interaction between the parameters in the layers below $\vector{H}$
 
 ### 8.7.2 Cordinate Descent
 * We optimize one coordinate at a time
@@ -508,7 +509,7 @@ Unshared convolution: similar operation to discrete convolution with a small ker
 * The advantage of eliminating hidden-to-hidden recurrence is that all the time steps are decoupled for any loss function based on comparing the prediction at time t to the training target at time t
 	* Training can thus be parallelized, with the gradient for each step t computed in isolation
 * Models that have recurrent connections from their outputs leading back into the model may be trained with teacher forcing
-* Teacher forcing is a procedure in which during training the model receives the ground truth output $\boldsymbol{y}^{(t)}$ as input at time t+1
+* Teacher forcing is a procedure in which during training the model receives the ground truth output $\vector{y}^{(t)}$ as input at time t+1
 
 ### 10.2.2 Computing the Gradient in a Recurrent Neural Network
 * To compute the gradient through a recurrent neural network, simply apply the generalized back-propagation algorithm to the unrolled computational graph
@@ -520,7 +521,7 @@ Unshared convolution: similar operation to discrete convolution with a small ker
 * The assumption is that the conditional probability distribution over the variables at time t+1 given the variables at time t is stationary
 
 ### 10.3 Bidirectional RNNs
-* In many application we want to output a prediction $\boldsymbol{y}^{(t)}$ which may depend on the whole input sequence
+* In many application we want to output a prediction $\vector{y}^{(t)}$ which may depend on the whole input sequence
 * Bidirectional RNNs combine an RNN that moves forward through time beginning from the start of the sequence with another RNN that moves backward through time beginning from the end of the sequence
 * Compared to a convolutional network, RNNs applied to images are typically more expensive but allow for long-range lateral interactions between features in the same feature map
 
@@ -680,8 +681,8 @@ $$
 * A key strategy for reducing the cost of inference is model compression
 * The basic idea of model compression is to replace the original, expensive model with a smaller model that requires less memory and runtime to store and evaluate
 * Model compression is applicable when the size of the original model is driven primarily by a need to prevent overfitting
-* We can generate a training set containing infinitely many examples, simply by applying f to randomly sampled points $\boldsymbol{x}$
-* We train the new, smaller, model to match $f(boldsymbol{x})$ on these points. In order to most efficiently use the capacity of the new, small model, it is best to sample the new $\boldsymbol{x}$ points from a distribution resembling the actual test inputs that will be supplied to the model later
+* We can generate a training set containing infinitely many examples, simply by applying f to randomly sampled points $\vector{x}$
+* We train the new, smaller, model to match $f(\vector{x})$ on these points. In order to most efficiently use the capacity of the new, small model, it is best to sample the new $\vector{x}$ points from a distribution resembling the actual test inputs that will be supplied to the model later
 
 #### 12.1.5 Dynamic Structure
 * One strategy for accelerating data processing systems in general is to build systems that have dynamic structure in the graph describing the computation needed to be process an input
@@ -790,25 +791,64 @@ $$
 * A general question answering system must be able to process input information and remember important facts, organized in a way that enables it to retrieve and reason about them later
 
 ## 13 Linear Factor Models
-* A linear factor model is defined by the use of a stochastic, linear decoder function that generates $\boldsymbol{x}$ by adding noise to a linear transformation of $\boldsymbol{h}$
+* A linear factor model is defined by the use of a stochastic, linear decoder function that generates $\vector{x}$ by adding noise to a linear transformation of $\vector{h}$
 * These models are interesting because they allow us to discover explanatory factors that have a simple joint distribution
-* First, we sample the explanatory factors $\boldsymbol{h}$ from a distribution
+* First, we sample the explanatory factors $\vector{h}$ from a distribution
 * Next we sample the real valued observable variables given these factors
 $$
-$\boldsymbol{x}$ = $\boldsymbol{Wh}$ + $\boldsymbol{b}$ + noise
+$\vector{x}$ = $\vector{Wh}$ + $\vector{b}$ + noise
 $$
 
 ### 13.1 Probabilistic PCA and Factor Analysis
-* Principal PCA, factor analysis and other linear factor models are special cases and only differ in the choices made for the noise distribution and the model's prior over latent variable $\boldsymbol{h}$ before observing $\boldsymbol{x}$
+* Principal PCA, factor analysis and other linear factor models are special cases and only differ in the choices made for the noise distribution and the model's prior over latent variable $\vector{h}$ before observing $\vector{x}$
 * In factor analysis, the latent variable prior is just the unit variance Gaussian
 $$
-$\boldsymbol{\text{h}} \sim \mathcal{N}(\boldsymbol{h};\boldsymbol{0}, \boldsymbol{I})$
+$\vector{\text{h}} \sim \mathcal{N}(\vector{h};\vector{0}, \vector{I})$
 $$
 * The role of the latent variables is to capture the dependencies between the different observed variables
 
 ### 13.2 Independent Compnent Analysis (ICA)
 * It is an approach to modeling linear factors that seeks to separate an observed signal into many underlying signals that are scaled and added together to form the observed data
 * These signals are intended to be fully independent, rather than merely decorrelated from each other
+
+### 13.3 Slow Feature Analysis
+* Slow Feature Analysis (SFA) is a linear factor model that uses information from time signals to learn invariant features
+* The slowness principle: The important characteristics of scenes change very slowly compared to the individual measurements that make up a description of a scene
+* SFA seems to be a reasonably biologically plausible model
+* A major advantage of SFA is that it is possible to theoretically predict which features SFA will learn
+
+### 13.4 Sparse Coding
+* Training sparse coding with maximum likelihood is intractable
+* The training alternates between encoding the data and training the decoder to better reconstruct the data given the encoding
+
+## 14 Autoencoders
+* An autoencoder is a neural network that is trained to attempt to copy its input to its output
+* Internally, it has a hidden layer $\vector{h}$ that describes a code used to represent the input
+* The network may be viewed as consisting of two parts
+	* An encoder function $\vector{h} = f(\vector{x})$
+	* A decoder that produces a reconstruction $\vector{r} = g(\vector{h})$
+* Autoencoders are designed to be unable to learn to copy perfectly
+* Autoencoders may be thought of as being a special case of feedforward networks, and may be trained with all the same techniques, typically minibatch gradient descent following gradients computed by back-propagation
+* Autoencoders may also be trained using recirculation, a learning algorithm based on comparing the activations of the network on the original input to the activation on the reconstructed input
+* Recirculation is regarded as more biologically plausible than back-propagation, but is rarely used for machine learning applications
+
+### 14.1 Undercomplete Autoencoders
+* We hope that training the autoencoder to perform the input copying task will result in $\vector{h}$ taking on useful properties
+* One way to obtain useful features from the autoencoder is to constrain $\vector{h}$ to have smaller dimension than $\vector{x}$
+* An autoencoder whose code dimension is less than the input dimension is called undercomplete
+
+### 14.2 Regularized Autoencoders
+* Rather than limiting the model capacity by keeping the encoder and decoder shallow and the code size small, regularized autoencoders use a loss function that encourages the model to have other properties besides the ability to copy its input to its output
+* These other properties include
+	* Sparsity of the representation
+	* Smallness of the derivative of the representation
+	* Robustness to noise or to missing inputs
+* A regularized autoencoder can be nonlinear and overcomplete but still learn something useful about the data distribution even if the model capacity is great enough to learn a trivial identity function
+* Nearly any generative model with latent variables and equipped with an inference procedure (for computing latent representations given input) may be viewed as a particular form of autoencoder
+
+### 14.2.1 Sparse Autoencoders
+* A sparse autoencoder is simply an autoencoder whose training criterion involves a sparsity penalty $\omega(\vector{h})$ on the code layer $\vector{h}$, in addition to the reconstruction error
+* Sparse autoencoders are typically used to learn features for another task such as classification
 
 # See also
 
