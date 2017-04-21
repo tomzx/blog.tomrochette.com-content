@@ -796,14 +796,14 @@ $$
 * First, we sample the explanatory factors $\vector{h}$ from a distribution
 * Next we sample the real valued observable variables given these factors
 $$
-$\vector{x}$ = $\vector{Wh}$ + $\vector{b}$ + noise
+\vector{x} = \vector{Wh} + \vector{b} + noise
 $$
 
 ### 13.1 Probabilistic PCA and Factor Analysis
 * Principal PCA, factor analysis and other linear factor models are special cases and only differ in the choices made for the noise distribution and the model's prior over latent variable $\vector{h}$ before observing $\vector{x}$
 * In factor analysis, the latent variable prior is just the unit variance Gaussian
 $$
-$\vector{\text{h}} \sim \mathcal{N}(\vector{h};\vector{0}, \vector{I})$
+\vector{\text{h}} \sim \mathcal{N}(\vector{h};\vector{0}, \vector{I})
 $$
 * The role of the latent variables is to capture the dependencies between the different observed variables
 
@@ -847,7 +847,7 @@ $$
 * Nearly any generative model with latent variables and equipped with an inference procedure (for computing latent representations given input) may be viewed as a particular form of autoencoder
 
 ### 14.2.1 Sparse Autoencoders
-* A sparse autoencoder is simply an autoencoder whose training criterion involves a sparsity penalty $\omega(\vector{h})$ on the code layer $\vector{h}$, in addition to the reconstruction error
+* A sparse autoencoder is simply an autoencoder whose training criterion involves a sparsity penalty $\Omega(\vector{h})$ on the code layer $\vector{h}$, in addition to the reconstruction error
 * Sparse autoencoders are typically used to learn features for another task such as classification
 
 # See also
