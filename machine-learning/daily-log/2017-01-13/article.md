@@ -10,7 +10,7 @@ taxonomy:
 
 ## Learned in this study
 * Use of Keras
-* Use of basic numpy functions (`np.asarray`, `np.zeroes`, `)
+* Use of basic numpy functions (`np.asarray`, `np.zeroes`, `np.argmax`)
 * Use of pandas `pandas.period_range`
 * Use of peewee to read from MySQL
 * How to create a on-hot vector from a list/set of labels
