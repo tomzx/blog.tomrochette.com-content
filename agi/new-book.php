@@ -11,7 +11,7 @@ $author = $argv[1];
 $title = $argv[2];
 // Get book year
 $year = $argv[3];
-$folder = preg_replace('/[ -.:!?()\[\]]+/', '-', strtolower($author.' '.$title));
+$folder = preg_replace('/[ -.:!?()\[\]\\/]+/', '-', strtolower($author.' '.$title));
 $folder = trim($folder, '-');
 $folderPath = 'books/'.$folder;
 $articlePath = $folderPath.'/article.md';
