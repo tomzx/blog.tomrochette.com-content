@@ -44,11 +44,23 @@ The following lists papers I've read and reviewed or made notes for.
 ## Hugo de Garis
 * [Artificial Brains (2007)](hugo-de-garis-artificial-brains)
 
+## Ian Goodfellow
+* [Generative Adversarial Nets (2014)](ian-goodfellow-generative-adversarial-nets)
+
 ## J. Roland Olsson
 * [How to Invent Functions (1999)](j-roland-olsson-how-to-invent-functions)
 
+## J. R. Quinlan
+* [Induction of Decision Trees (1986)](j-r-quinlan-induction-of-decision-trees)
+
 ## Jack Copeland
 * [Computable Number: A Guide (2004)](jack-copeland-computable-number-a-guide)
+
+## Jacob Devlin
+* [RobustFill: Neural Program Learning under Noisy I/O (2017)](jacob-devlin-robustfill-neural-program-learning-under-noisy-i-o)
+
+## Joe Tsien
+* [A Postulate on the Brain's Basic Wiring Logic (2015)](joe-tsien-a-postulate-on-the-brain-s-basic-wiring-logic)
 
 ## John Storrs Hall
 * [Self-improving AI: an Analysis (2007)](john-storrs-hall-self-improving-ai-an-analysis)
@@ -59,6 +71,9 @@ The following lists papers I've read and reviewed or made notes for.
 
 ## Keith Hoyes
 * [3D Simulation: the Key to A.I. (2007)](keith-hoyes-3d-simulation-the-key-to-ai)
+
+## Kun Xie
+* [Brain Computation Is Organized via Power-of-Two-Based Permutation Logic (2016)](kun-xie-brain-computation-is-organized-via-power-of-two-based-permutation-logic)
 
 ## Łukasz Kaiser
 * [Program Search as a Path to Artificial General Intelligence (2007)](lukasz-kaiser-program-search-as-a-path-to-artificial-general-intelligence)
@@ -95,6 +110,9 @@ The following lists papers I've read and reviewed or made notes for.
 
 ## Vladimir Red'ko
 * [The Natural Way to Artificial Intelligence (2007)](vladimir-redko-the-natural-way-to-artificial-intelligence)
+
+## Yoshua Bengio
+* [Curriculum Learning (2009)](yoshua-bengio-curriculum-learning)
 
 # Prioritization
 ## Joachim Karlsson
