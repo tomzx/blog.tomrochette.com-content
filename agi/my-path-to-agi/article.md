@@ -290,28 +290,28 @@ Began research related to automated test generator. The main goal of this projec
 My research into static analysis is related to my research on automated programming, automated refactoring and automated test generator. The main goal is to produce a piece of software that will be able to reason as a programmer would reason about a program in his head.
 
 ### Automating Software Testing Using Program Analysis (2016-10)
-Patrice Godefroid
+Patrice Godefroid, Peli de Halleux, Aditya Nori, Sriram Rajamani, Wolfram Schulte, Nikolai Tillmann, Michael Y. Levin
 
 ### Software Testing: A Craftsman's Approach (2016-10 - 2016-11)
 Paul Jorgensen
 
 ### Advanced Symbolic Analysis for Compilers (2016-10 - 2016-11)
-Thomas Fahringer
+Thomas Fahringer, Bernhard Scholz
 
 ### Principles of Program Analysis (2016-10 - 2016-12)
-Flemming Nielson
+Flemming Nielson, Hanne R. Nielson, Chris Hankin
 
 ### Programming the Semantic Web (2017-01)
-Toby Segaran
+Toby Segaran, Colin Evans, Jamie Taylor
 
 ### Deep Learning (2017-02 - ?)
-Ian Goodfellow
+Ian Goodfellow, Yoshua Bengio, Aaron Courville
 
 ### Reinforcement Learning (2017-02 - 2017-03)
 David Silver
 
 ### A Framework for Searching for General Artificial Intelligence (2017-02)
-Marek Rosa
+Marek Rosa, Jan Feyereisl, The GoodAI Collective
 
 ### Curriculum Learning (2017-04)
 Yoshua Bengio, Jérôme Louradour, Ronan Collobert, Jason Weston
@@ -319,5 +319,17 @@ Yoshua Bengio, Jérôme Louradour, Ronan Collobert, Jason Weston
 ### A Postulate on the Brain's Basic Wiring Logic (2017-04)
 Joe Z. Tsien
 
-### A Postulate on the Brain's Basic Wiring Logic (2017-04)
-Joe Tsien
+### Brain Computation Is Organized via Power-of-Two-Based Permutation Logic (2017-04)
+Kun Xie, Grace E. Fox, Jun Liu, Cheng Lyu, Jason C. Lee, Hui Kuang, Stephanie Jacobs, Meng Li, Tianming Liu, Sen Song, Joe Z. Tsien
+
+### How to Make a Complete Map of Every Thought (2017-04)
+Lion Kimbro
+
+### Induction of Decision Trees (2017-04)
+J.R. Quinlan
+
+### RobustFill: Neural Program Learning under Noisy I/O (2017-04 - ?)
+Jacob Devlin, Jonathan Uesato, Surya Bhupatiraju, Rishabh Singh, Abdel-rahman Mohamed, Pushmeet Kohli
+
+### Generative Adversarial Nets (2017-04)
+Ian J. Goodfellow, Jean Pouget-Abadie, Mehdi Mirza, Bing Xu, David Warde-Farley, Sherjil Ozair, Aaron Courville, Yoshua Bengio
