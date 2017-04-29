@@ -893,6 +893,37 @@ $$
 * A parametric encoder is trained to predict the output of iterative inference
 * The model consists of an encoder $f(\vector{x})$ and a decoder $g(\vector{h})$ that are both parametric
 
+## 15 Representation Learning
+* Many information processing tasks can be very easy or very difficult depending on how the information is presented
+* A good representation is one that makes a subsequent learning task easier
+
+### 15.1 Greedy Layer-Wise Unsupervised Pretraining
+* Relies on a single-layer representation learning algorithm such as an RBM, a single-layer autoencoder, a sparse coding model, or another model that learns latent representations
+* Each layer is pretrained using unsupervised learning, taking the output of the previous layer and producing as output a new presentation of the data, whose distribution is hopefully simpler
+* It is a greedy algorithm, meaning that it optimizes each piece of the solution independently, one piece at a time, rather than jointly optimizing all pieces
+* It is called layer-wise because these independent pieces are the layers of the network
+* It is called unsupervised because each layer is trained with an unsupervised representation learning algorithm
+
+#### 15.1.1 When and Why Does Unsupervised Pretraining Work?
+* Unsupervised pretraining combines two different ideas
+	* It makes use of the idea that the choice of initial parameters for a deep neural network can have a significant regularizing effect on the model
+	* It makes use of the more general idea that learning about the input distribution can help to learn about the mapping from inputs to outputs
+* Unsupervised pretraining is likely to be most useful when the function to be learned is extremely complicated
+* Neural networks that receive unsupervised pretraining consistently halt in the same region of function space, while neural networks without pretraining consistently halt in another region
+* Compared to other forms of unsupervised learning, unsupervised pretraining has the disadvantage that it operates with two separate training phases
+* Unsupervised pretraining does not offer a clear way to adjust the strength of the regularization arising from the unsupervised stage
+* Another disadvantage of having two separate training phases is that each phase has its own hyperparameters
+* The performance of the second phase usually cannot be predicted during the first phase, so there is a long delay between proposing hyperparameters for the first phase and being able to update them using feedback from the second phase
+* Today, unsupervised pretraining has been largely abandoned, except in the field of natural language processing, where the natural representation of words as one-hot vectors conveys no similarity information and where very large unlabeled sets are available
+* In that case, the advantage of pretraining is that one can pretrain once on a huge unlabeled set, learn a good representation, and then use this representation or fine-tune it for a supervised task for which the training set contains substantially fewer examples
+
+### 15.2 Transfer Learning and Domain Adaptation
+* Transfer learning and domain adaptation refer to the situation where what has been learned in one setting is exploited to improve generalization in another setting
+* In transfer learning, the learner must perform two or more different tasks, but we assume that many of the factors that explain the variations in $P_1$ are relevant to the variations that need to be captured for learning $P_2$
+* In domain adaptation, the task (and the optimal input-to-output mapping) remains the same between each setting, but the input distribution is slightly different
+* A related problem is that of concept drift, which we can view as a form of transfer learning due to gradual changes in the data distribution over time
+* Both concept drift and transfer learning can be viewed as particular forms of multi-task learning
+
 # See also
 
 # References
