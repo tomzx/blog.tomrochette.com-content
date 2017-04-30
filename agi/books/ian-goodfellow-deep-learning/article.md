@@ -923,6 +923,26 @@ $$
 * In domain adaptation, the task (and the optimal input-to-output mapping) remains the same between each setting, but the input distribution is slightly different
 * A related problem is that of concept drift, which we can view as a form of transfer learning due to gradual changes in the data distribution over time
 * Both concept drift and transfer learning can be viewed as particular forms of multi-task learning
+* The core idea of representation learning is that the same representation may be useful in two different settings
+* Two extreme forms of transfer learning are one-shot learning and zero-shot learning (zero-data learning)
+	* Only one labeled example of the transfer task is given for one-shot learning, while no labeled examples are given at all for the zero-shot learning task
+* One-shot learning is possible because the representation learns to cleanly separate the underlying classes
+* Zero-shot learning is similar to reading a large collection of text and then solve object recognition problem. It may be possible to recognize a specific object class even without having seen an image of that object, if the text describes the object well enough
+
+### 15.3 Semi-Supervised Disentangling of Causal Factors
+* An important question about representation learning is "what makes one representation better than another?"
+* One hypothesis is that an ideal representation is one in which the features within the representation correspond to the underlying causes of the observed data, with separate features or directions in feature space corresponding to different causes, so that the representation disentangles the causes from one another
+* In other approaches to representation learning, we have often been concerned with a representation that is easy to model - for example, one whose entries are sparse, or independent from each other
+
+### 15.4 Distributed Representation
+* Distributed representations of concepts - representations composed of many elements that can be set separately from each other
+* Distributed representations are powerful because they can use $n$ features with $k$ values to describe $k^n$ different concepts
+* An important related concept that distinguishes a distributed representation from a symbolic one is that generalization arises due to shared attributes between different concepts
+* Some traditional non-distributed learning algorithms generalize only due to the smoothness assumption, which states that if $u \approx v$, then the target function $f$ to be learned has the property that $f(u) \approx f(v)$, in general
+* This assumption is clearly very useful, but it suffers from the curse of dimensionality: in order to learn a target function that increases and decreases many times in many different regions, we may need a number of examples that is at least as alrge as the number of distinguishable regions
+
+### 15.5 Exponential Gains from Depth
+* It has been proven in many different settings that organizing computation through the composition of many nonlinearities and a hierarchy of reused features can give an exponential boost to statistical efficiency, on top of the exponential boost given by using a distributed representation
 
 # See also
 
