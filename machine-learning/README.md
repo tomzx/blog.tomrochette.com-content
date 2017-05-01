@@ -14,6 +14,7 @@ Tom
 
 # Articles
 * [Basics](basics)
+* [Concept map](https://github.com/tomzx/machine-learning-concept-map)
 * [Frameworks](frameworks)
 * [Tensorflow](tensorflow)
 * [Terminology](terminology)
