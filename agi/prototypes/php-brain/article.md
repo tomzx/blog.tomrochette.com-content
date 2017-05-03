@@ -15,6 +15,8 @@ taxonomy:
 * Write about learning and information idempotence
 * How should deadlines be enforced? This sounds like an OS problem
 * DNA as initial source code for body construction, what about source code for mental processes?
+* How are feedback loops implemented? If the brain sends some signal to the arm, how can it tell if the sent signal did what was expected?
+* How can a stimuli be mapped to a brain activation? Considering the brain action map will most likely change over time, how can we track a concept? Do we need to provide it as input and record what the activation state looks like?
 
 # Overview
 The goal of this article is to detail my process of developing an initial implementation of a "brain" in PHP. As a  initial version, I want to lay down the tools that will help me build such thing so that it may be decomposed into libraries of reusable components.
@@ -28,7 +30,7 @@ The goal of this article is to detail my process of developing an initial implem
 * Cache layers
 
 # Construction
-The first step in order to be able to do anything is to be able to store information. In our case, we will use wikipedia articles as a source of information.
+The first step in order to be able to do anything is to be able to store information. In our case, we will use Wikipedia articles as a source of information.
 
 ## Naïve in-memory implementation
 A naïve first implementation will simply store the article tokens in a huge array we'll call a `stream`. When we add tokens, we also build up a dictionary or word lookup table, which allows us to return the index of a given word in the `stream`. Doing so allows us to quickly retrieve (dictionary lookup should be O(1)) whether we've already seen a word previously or not at the cost of memory.
@@ -40,7 +42,7 @@ With this simple "study" of document insertion and retrieval, we can observe two
 * Given a specific amount of memory space for storage and temporary computation, the process should stay within these boundaries at the price of losing existing information.
 * Querying for a string should be done in constant time. Given a deadline, the result should either be a result or a failure to find the answer. Common knowledge should be more readily accessible than less frequently used knowledge. In the latter case, it is acceptable to spend more time retrieving said information (similar to how splay tree would optimize their tree).
 
-In order to have a common knowledge base during the rest of our tests, we will build on a small subset of articles from wikipedia. The list can be found [here](assets/txt/articles.txt). It consists of about 200 articles with varying amount of content.
+In order to have a common knowledge base during the rest of our tests, we will build on a small subset of articles from Wikipedia. The list can be found [here](assets/txt/articles.txt). It consists of about 200 articles with varying amount of content.
 
 Using an implementation of the previously mentioned strategy yields the following results:
 
@@ -48,7 +50,7 @@ Using an implementation of the previously mentioned strategy yields the followin
 |---------|----------|---------|------------|
 | 0.001000 | 0.208460 | 0.737043 | 0.173586 |
 
-Thus, on average it takes ~210ms to process a query of length varying from 0 to 100 words with a standard deviation of ~175ms.
+Thus, on average it takes ~210 ms to process a query of length varying from 0 to 100 words with a standard deviation of ~175 ms.
 
 ## Upgrading to a database
 ### The relational database approach
@@ -130,7 +132,7 @@ With a little bit of thinking, it is possible to improve our performances tremen
 |---------|----------|---------|------------|
 | 0.000000 | 0.001622 | 0.020001 | 0.001414 |
 
-You read that right, that is about 2ms on average per query, with a standard deviation of 1.5ms. That is a 100x improvement on our original naïve implementation. What is even more interesting is that the maximum of 20ms is due to PHP garbage collection. If we use `gc_disable();`, we can get the maximum value at around 5ms instead of 20ms. This, at the same time, lowers the standard deviation down to approximately 1ms.
+You read that right, that is about 2 ms on average per query, with a standard deviation of 1.5 ms. That is a 100x improvement on our original naïve implementation. What is even more interesting is that the maximum of 20 ms is due to PHP garbage collection. If we use `gc_disable();`, we can get the maximum value at around 5 ms instead of 20 ms. This, at the same time, lowers the standard deviation down to approximately 1 ms.
 
 The way we get to these results is straightforward. First, try to return as soon as possible. In other words, try to figure out as early as possible if you're going to be unable to find any results before proceeding onto more costly operations. For instance, the first thing we want to do is to iterate through the list of unique tokens of the query. You will have noticed the word `unique`. Yes, there is no point in checking if a given token is known more than once. That is our first optimisation.
 
@@ -209,7 +211,7 @@ foreach ($tokenCounts as $token => $count) {
 ```
 
 # Serial vs parallel
-So far we've been exploring various ways to store information in a sequential fashion, document by document. This obviously simplifies reflecting about the whole system because we do not have to consider concurrent interations. But this also means that we are limited to doing things in a sequential manner which is more likely going to be a bottleneck further down the road.
+So far we've been exploring various ways to store information in a sequential fashion, document by document. This obviously simplifies reflecting about the whole system because we do not have to consider concurrent interactions. But this also means that we are limited to doing things in a sequential manner which is more likely going to be a bottleneck further down the road.
 
 # A little program
 ## Run
@@ -231,15 +233,15 @@ output(process(input()));
 
 In a high level overview, the brain has only one process, which is the conscious stream. Input and output are comparable to events in the sense that we are more interested in the differences/changes that occur than the bare signal itself.
 
-It is however critical to understand and accept that without any input/environment, the brain has no purpose. In a sense, the sole purpose of the brain is to process/perceive the signal it receives from the environment. We could compare this to the idea of a function without any parameter. This type of function can do a lot, but it generally means that its output (if any) will not be based on anything within the environment (let say here that we do not allow it to ask for things like environment variables nor the time or any files in the filesystem, as all of these are considered as interacting with the environment). This parameterless function could although output an infinite and irregular string from which any environment could be described if taken at the appropriate starting index. But this is too theoretical and does not help us a lot.
+It is however critical to understand and accept that without any input/environment, the brain has no purpose. In a sense, the sole purpose of the brain is to process/perceive the signal it receives from the environment. We could compare this to the idea of a function without any parameter. This type of function can do a lot, but it generally means that its output (if any) will not be based on anything within the environment (let say here that we do not allow it to ask for things like environment variables nor the time or any files in the file system, as all of these are considered as interacting with the environment). This parameterless function could although output an infinite and irregular string from which any environment could be described if taken at the appropriate starting index. But this is too theoretical and does not help us a lot.
 
 The more common type of function is the one that has at least one parameter, and thus receives information from the environment. Again, we can establish a similar parallel with programming in the sense that one can pass an argument that will not be changed to a function while in other cases the given argument will be modified by the function (immutable vs mutable).
 
-If we decide to go with a sequential approach, where one senses, then think and finally act, we observe an important limitation. If we do not limit the amount of time given to each step, we may end up missing inputs from the environment, our thinking might be out of sync with the environment, or out actions may be irrelevant at the given moment. We may give ourselves two levels of deadline: first, a step by step deadline, that is, 5ms to formulate an input, 20ms to think and 5ms to produce an output, and second, a high level deadline, such as 30ms per iteration cycle. What this means is that if the input and output process steps take less than 10ms, we can give their inactive time to the thinking process, so that it may end up taking from 20ms to 30ms of the iteration cycle. We may also decide that the thinking step may take up to its deadline duration and then it is forced to go through another iteration cycle.
+If we decide to go with a sequential approach, where one senses, then think and finally act, we observe an important limitation. If we do not limit the amount of time given to each step, we may end up missing inputs from the environment, our thinking might be out of sync with the environment, or out actions may be irrelevant at the given moment. We may give ourselves two levels of deadline: first, a step by step deadline, that is, 5 ms to formulate an input, 20 ms to think and 5 ms to produce an output, and second, a high level deadline, such as 30 ms per iteration cycle. What this means is that if the input and output process steps take less than 10 ms, we can give their inactive time to the thinking process, so that it may end up taking from 20 ms to 30 ms of the iteration cycle. We may also decide that the thinking step may take up to its deadline duration and then it is forced to go through another iteration cycle.
 
 Another approach is to treat sensing, thinking and acting as three parallel processes. In the same fashion as parallel programming, each process may communicate with the other two through some shared memory means. In this particular case, instead of having the steps being executed sequentially, they may be interlaced. In a system where these three processes can be executed simultaneously instead of sharing time on a single processor, this means that we have more instantaneous action/reaction.
 
-In the sequential case there is however an additional complexity, which is that we'll want to allocate an iteration deadline as well as a "global" deadline. You can think of a global deadline as thinking about some idea until a point X in time. However, because we are trying to do parallelism in a sequential manner, it means that this thinking will be executed in chunks (for instance, in chunk of 20ms).
+In the sequential case there is however an additional complexity, which is that we'll want to allocate an iteration deadline as well as a "global" deadline. You can think of a global deadline as thinking about some idea until a point X in time. However, because we are trying to do parallelism in a sequential manner, it means that this thinking will be executed in chunks (for instance, in chunk of 20 ms).
 
 However, a deadline system does not make much sense when we attempt to relate it to how our brain works. Instead, the brain appears to be driven by some form of attention competition. In a single process application, this does not make sense since the process is given all the attention of the processor. Thus, this means that either we have to be assessing the state of various processes on a regular basis, or like a deadline would work, the attention given to a process decreases with time until it reaches a point where we might look into figuring out which process should be the next one to be elected as running.
 
@@ -415,8 +417,6 @@ Are the input/process/output tasks done in a sequential or parallel manner? If d
 * Internal vs external interruptions
 
 # Notes
-* How are feedback loops implemented? If the brain sends some signal to the arm, how can it tell if the sent signal did what was expected?
-* How can a stimuli be mapped to a brain activation? Considering the brain action map will most likely change over time, how can we track a concept? Do we need to provide it as input and record what the activation state looks like?
 * Composition, inheritance, instantiation, generalization, dependency, association, aggregation
 
 # Post-mortem
