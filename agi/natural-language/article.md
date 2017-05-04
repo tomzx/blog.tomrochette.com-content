@@ -7,7 +7,7 @@ taxonomy:
 ---
 
 ## Context
-We use natural language on a daily basis, either to communicate with others or to communite with ourself in the future by leaving us notes. Similarly to fitness trackers, it can be possible to track the "health" of our language and how it evolves over time. Learning about our own language learning history can be as interesting as history itself.
+We use natural language on a daily basis, either to communicate with others or to communicate with ourself in the future by leaving us notes. Similarly to fitness trackers, it can be possible to track the "health" of our language and how it evolves over time. Learning about our own language learning history can be as interesting as history itself.
 
 ## Learned in this study
 
@@ -71,6 +71,8 @@ How does one store as much information while using as little space as possible? 
 * Percentage of words used (against the number of active words in a language)
 * Vocabulary based on the time of the day
 * bigram, trigram, four-gram
+* Characters
+	* Characters frequency
 
 ## Words vs Sentences
 
@@ -79,11 +81,13 @@ How does one store as much information while using as little space as possible? 
 * Shared vocabulary
 * Unique vocabulary
 * Distance metric (how close are two users to being the same based on vocabulary?)
+	* X-dimensional vocabulary embedding
+	* Euclidean distance, where each dimension is 0 if the user does not know the word and 1 if he does, such that the Euclidean distance for a vocabulary of 1 word is either 0 or 1, 2 words is 0, 1 or 2, etc.
 
 # Context specific
 ## IRC/Chat oriented
-* Most active channels
-* Most active users
+* Most active channels (most users, most messages)
+* Most active users (globally, per channel)
 * Most active user per channel
 * Activity distribution throughout the day (per channel)
 * Vocabulary analysis
@@ -99,6 +103,7 @@ How does one store as much information while using as little space as possible? 
 * Link database (collect all url linked in chat)
 * User time of arrival/departure (per channel)
 * Distribution of sentence length
+* User count distribution throughout the day
 
 # Algorithms for computing readability
 wordCount is the number of words in the text.
@@ -132,12 +137,17 @@ The average active vocabulary of an adult English speaker is of around 20,000 wo
 
 It is said that a vocabulary of just 3000 words provides coverage for around 95% of common texts[^2].
 
+# Other
+* Zipf's law states that given some corpus of natural language utterances, the frequency of any word is inversely proportional to its rank in the frequency table.
+
 # See also
 
 # References
 [^1]: http://www.oxforddictionaries.com/words/how-many-words-are-there-in-the-english-language
 [^2]: http://www.lingholic.com/how-many-words-do-i-need-to-know-the-955-rule-in-language-learning-part-2/
 [^3]: https://en.wikipedia.org/wiki/Chinese_characters
+
+* https://en.wikipedia.org/wiki/Zipf's_law
 
 ## Graphemes
 * https://en.wikipedia.org/wiki/Writing_system
