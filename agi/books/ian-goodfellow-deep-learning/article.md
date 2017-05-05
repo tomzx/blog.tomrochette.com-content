@@ -944,6 +944,34 @@ $$
 ### 15.5 Exponential Gains from Depth
 * It has been proven in many different settings that organizing computation through the composition of many nonlinearities and a hierarchy of reused features can give an exponential boost to statistical efficiency, on top of the exponential boost given by using a distributed representation
 
+## 16 Structured Probabilistic Models for Deep Learning
+* A structured probabilistic model is a way of describing a probability distribution, using a graph to describe which random variables in the probability distribution interact with each other directly
+* Because the structure of the model is defined by a graph, these models are often also referred to as graphical models
+
+### 16.1 The Challenge of Unstructured Modeling
+* Tasks of probabilistic models
+	* Density estimation
+	* Denoising
+	* Missing value imputation
+	* Sampling
+* Structured probabilistic models provide a formal framework for modeling only direct interactions between random variables. This allows the models to have significantly fewer parameters and therefore be estimated reliably from less data
+
+### 16.2 Using Graphs to Describe Model Structure
+* Structured probabilistic models use graphs to represent interactions between random variables
+	* Each node represents a random variable
+	* Each edge represents a direct interaction
+* There are two categories of graphical models:
+	* Models based on directed acyclic graphs
+	* Models based on undirected graphs
+
+#### 16.2.1 Directed Models
+* Also known as the belief network or Bayesian network
+* The direction of the arrow indicates which variable's probability distribution is defined in terms of the other's
+* So long as each variable has few parents in the graph, the distribution can be represented with very few parameters
+
+#### 16.2.2 Undirected Models
+* Also known as Markov random fields (MRFs) or Markov networks
+
 # See also
 
 # References
