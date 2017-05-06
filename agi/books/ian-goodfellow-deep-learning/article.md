@@ -972,6 +972,43 @@ $$
 #### 16.2.2 Undirected Models
 * Also known as Markov random fields (MRFs) or Markov networks
 
+### 16.3 Sampling from Graphical Models
+* One advantage of directed graphical models is that a simple and efficient procedure called ancestral sampling can produce a sample from the joint distribution represented by the model
+* The basic idea is to sort the variables $x_i$ in the graph into a topological ordering, so that for all $i$ and $j$, $j$ is greater than $i$ if $x_i$ is a parent of $x_j$. The variables can then be sampled in this order
+* One drawback from ancestral sampling is that it only applies to directed graphical models
+* Another drawback is that it does not support every conditional sampling operation
+* The conceptually simplest approach (to sampling undirected graphical models) is Gibbs sampling
+* Suppose we have a graphical model over an n-dimensional vector of random variables $\vector{x}$. We iteratively visit each variable $x_i$ and draw a sample conditioned on all of the other variables, from $p(x_i\ |\ x_{-i})$. Unfortunately, after we have made one pass through the graphical model and sampled all $n$ variables, we still do not have a fair sample from $p(\vector{x})$. Instead, we must repeat the process and resample all $n$ variables using the updated values of their neighbors
+
+### 16.4 Advantages of Structured Modeling
+* They allow us to dramatically reduce the cost of representing probability distribution as well as learning and inference
+* Sampling is also accelerated in the case of directed models
+* The primary mechanism that allows all of these operations to use less runtime and memory is choosing not to model certain interactions
+
+### 16.7 The Deep Learning Approach to Structured Probabilistic Models
+#### 16.7.1 Example: The Restricted Boltzmann Machine
+* Also known as harmonium
+* The RBM is not itself a deep model
+* It has a single layer of latent variables that may be used to learn a representation for the input
+* The canonical RBM is an energy-based model with binary visible and hidden units
+* Its energy function is (where $\vector{b}$, $\vector{c}$, and $\vector{W}$ are unconstrained, real-valued, learnable parameters)
+$$
+E(\vector{v}, \vector{h}) = -\vector{b}^\top\vector{v} - \vector{c}^\top\vector{h} - \vector{v}^\top\vector{W}\vector{h}
+$$
+
+## 17 Monte Carlo Methods
+* Randomized algorithms fall into two rough categories: Las Vegas algorithms and Monte Carlo algorithms
+* Las Vegas algorithms always return precisely the correct answer (or report that they failed)
+* These algorithms consume a random amount of resources, usually memory or time
+* Monte Carlo algorithms return answers with a random amount of error. The amount of error can typically be reduced by expending more resources
+* For any fixed computational budget, a Monte Carlo algorithm can provide an approximate answer
+
+### 17.1 Sampling and Monte Carlo Methods
+#### 17.1.1 Why Sampling?
+* Sampling provides a flexible way to approximate many sums and integrals at reduced cost
+* Sometimes we use this to provide a significant speedup to a costly but tractable sum
+* In other cases, our learning algorithm requires us to approximate an intractable sum or integral
+
 # See also
 
 # References
