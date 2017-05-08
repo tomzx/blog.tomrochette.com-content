@@ -1009,6 +1009,29 @@ $$
 * Sometimes we use this to provide a significant speedup to a costly but tractable sum
 * In other cases, our learning algorithm requires us to approximate an intractable sum or integral
 
+### 17.3 Markov Chain Monte Carlo Methods
+* The core idea of a Markov chain is to have a state $\vector{x}$ that begins as an arbitrary value. Over time, we randomly update $\vector{x}$ repeatedly. Eventually $\vector{x}$ becomes (very nearly) a fair sample from $p(\vector{x})$
+
+## 19 Approximate Inference
+* Intractable inference problems in deep learning usually arise from interactions between latent variables in a structured graphical model
+
+### 19.1 Inference as Optimization
+* Many approaches to confronting the problem of difficult inference make use of the observation that exact inference can be described as an optimization problem
+
+## 20 Deep Generative Models
+### 20.1 Boltzmann Machines
+* We define the Boltzmann machine over a d-dimensional binary random vector $\vector{x} \in \{0, 1\}^d$
+* The Boltzmann machine is an energy-based model, meaning we define the joint probability distribution using an energy function
+$$
+P(\vector{x}) = \frac{\exp(-E(\vector{x}))}{Z}
+$$
+* where $E(\vector{x})$ is the energy function and $Z$ is the partition function that ensures that $\sum_\vector{x} P(\vector{x}) = 1$
+* The energy function of the Boltzmann machine is given by
+$$
+E(\vector{x}) = -\vector{x}^\top\vector{U}\vector{x} - \vector{b}^\top\vector{x}
+$$
+* where $\vector{U}$ is the "weight" matrix of model parameters and $\vector{b}$ is the vector of bias parameters
+
 # See also
 
 # References
