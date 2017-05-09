@@ -14,6 +14,9 @@ taxonomy:
 
 # Overview
 * The discriminative model acts as a custom optimization function/objective
+* In the Turing test context, the generative model can be seen as the machine which tries to emulate a human being as well as possible while the discriminative model is the human that has to determine whether it is discussing with a machine or another human
+* The discriminator can be seen as an expert while the generative model as the student
+* The generative model is trained on the worst case inputs, which are really hard for the model
 
 # Notes
 * A generative model G and a discriminative model D that estimates the probability that a sample came from the training data rather than G
@@ -40,3 +43,4 @@ taxonomy:
 
 # References
 * Goodfellow, Ian, et al. "[Generative adversarial nets.](http://papers.nips.cc/paper/5423-generative-adversarial-nets.pdf)" Advances in neural information processing systems. 2014.
+* [NIPS 2016 Workshop on Adversarial Training - Ian Goodfellow - Introduction to GANs](https://www.youtube.com/watch?v=RvgYvHyT15E)
