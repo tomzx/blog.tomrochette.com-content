@@ -16,3 +16,6 @@ The following lists stories that I have read and that I suggest to people that a
 
 # Greg Egan
 * [Crystal Nights](http://ttapress.com/553/crystal-nights-by-greg-egan/)
+
+# Ted Chiang
+* [The Lifecycle of Software Objects](https://subterraneanpress.com/magazine/fall_2010/fiction_the_lifecycle_of_software_objects_by_ted_chiang)
