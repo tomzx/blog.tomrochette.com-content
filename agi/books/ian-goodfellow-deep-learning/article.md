@@ -1031,6 +1031,31 @@ $$
 E(\vector{x}) = -\vector{x}^\top\vector{U}\vector{x} - \vector{b}^\top\vector{x}
 $$
 * where $\vector{U}$ is the "weight" matrix of model parameters and $\vector{b}$ is the vector of bias parameters
+* A Boltzmann machine with hidden units is no longer limited to modeling linear relationships between variables
+* The Boltzmann machine becomes a universal approximator of probability mass functions over discrete variables
+
+### 20.2 Restricted Boltzmann Machines
+* RBMs are undirected probabilistic graphical models containing a layer of observable variables and a single layer of latent variables
+
+### 20.3 Deep Belief Networks
+* Deep belief networks are generative models with several layers of latent variables
+* The latent variables are typically binary, while the visible units may be binary or real
+* There are no intralayer connections
+* Usually, every unit in each layer is connected to every unit in each neighboring layer
+* The connections between the top two layers are undirected
+* The connections between all other layers are directed, with the arrows pointed toward the layer that is closest to the data
+* To train a deep belief network, one begins by training an RBM to maximize $\mathbb{E}_{\vector{v} \sim p_{data}} \log p(\vector{v})$ using contrastive divergence or stochastic maximum likelihood
+* Next, a second RBM is trained to approximately maximize
+$$
+\mathbb{E}_{\vector{v} \sim p_{data}}\mathbb{E}_{\vector{h}^{(1)} \sim p^{(1)}(h^{(1)}\ |\ \vector{v})}\log p^{(2)}(\vector{h}^{(1)})
+$$
+* where $p^{(1)}$ is the probability distribution represented by the first RBM and p^{(2)} is the probability distribution represented by the second RBM
+* In other words, the second RBM is trained to model the distribution defined by sampling the hidden units of the first RBM, when the first RBM is driven by the data
+
+### 20.4 Deep Boltzmann Machines
+* Unlike the deep belief network (DBN), it is an entirely undirected model
+* Unlike the RBM, the DBM has several layers of latent variables
+* Like the RBM, within each layer, each of the variables are mutually independent, conditioned on the variables in the neighboring layers
 
 # See also
 
