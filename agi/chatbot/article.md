@@ -25,9 +25,9 @@ taxonomy:
 # Sequence of language learning
 * Store all sentences heard and repeat them word for word
 	* Nothing new is ever said
-* Build a markov chain of all heard sentences and generate sentences
-	* Nothing new is ever said as markov chains are simply the encoding of the probability a "path sentence" being heard
-	* Generated sentences can however be novel depending on the rules used to construct the markov chain (for instance, using bigrams/trigrams/n-grams). If we build the markov chain based on whole sentences, then we fall back to the previous case and nothing new is ever said (every sentence is a repetition of an heard sentence)
+* Build a Markov chain of all heard sentences and generate sentences
+	* Nothing new is ever said as Markov chains are simply the encoding of the probability a "path sentence" being heard
+	* Generated sentences can however be novel depending on the rules used to construct the Markov chain (for instance, using bigrams/trigrams/n-grams). If we build the Markov chain based on whole sentences, then we fall back to the previous case and nothing new is ever said (every sentence is a repetition of an heard sentence)
 * Teach it valid grammar and vocabulary for a language
 	* Can generate a lot of grammatically valid sentences but devoided of any meaning
 * Infer/build a grammar/vocabulary based on experience
