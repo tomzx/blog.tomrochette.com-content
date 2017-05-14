@@ -3,7 +3,7 @@ title: Ian Goodfellow - Deep Learning - 2016
 created: 2017-01-01
 taxonomy:
   category: [Artificial General Intelligence]
-  status: in progress
+  status: finished
 ---
 
 $\usepackage{amsmath}$
@@ -807,7 +807,7 @@ $$
 $$
 * The role of the latent variables is to capture the dependencies between the different observed variables
 
-### 13.2 Independent Compnent Analysis (ICA)
+### 13.2 Independent Component Analysis (ICA)
 * It is an approach to modeling linear factors that seeks to separate an observed signal into many underlying signals that are scaled and added together to form the observed data
 * These signals are intended to be fully independent, rather than merely decorrelated from each other
 
@@ -1056,6 +1056,35 @@ $$
 * Unlike the deep belief network (DBN), it is an entirely undirected model
 * Unlike the RBM, the DBM has several layers of latent variables
 * Like the RBM, within each layer, each of the variables are mutually independent, conditioned on the variables in the neighboring layers
+
+### 20.10 Directed Generative Nets
+#### 20.10.1 Sigmoid Belief Nets
+* Sigmoid belief networks are a simple form of directed graphical model with a specific kind of conditional probability distribution
+* The most common structure of sigmoid belief network is one that is divided into many layers, with ancestral sampling proceeding through a series of many hidden layers then ultimately generating the visible layer. This structure is very similar to the deep belief network, except that the units at the beginning of the sampling process are independent from each other, rather than sampled from a restricted Boltzmann machine
+
+#### 20.10.2 Differentiable Generator Nets
+* The model transforms samples of latent variable $\vector{z}$ to samples $\vector{x}$ or to distributions over samples $\vector{x}$ using a differentiable function $g(\vector{z};\vector{\theta}^{(g)})$ which is typically represented by a neural network
+* This model class includes
+	* variational autoencoders, which pair the generator net with an inference net
+	* generative adversarial networks, which pair the generator network with a discriminator network
+	* techniques that train generator networks in isolation
+* Generator networks are essentially just parameterized computational procedures for generating samples, where the architecture provides the family of possible distributions to sample from and the parameters select a distribution from within that family
+* The two approaches to formulating generator nets - emitting the parameters of a conditional distribution versus directly emitting samples - have complementary strengths and weaknesses. When the generator net defines a conditional distribution over $\vector{x}$, it is capable of generating discrete data as well as continuous data. When the generator net provides samples directly, it is capable of generating only continuous data. The advantage to direct sampling is that we are no longer forced to use conditional distributions whose form can be easily written down and algebraically manipulated by a human designer
+
+#### 20.10.3 Variational Autoencoders
+* One very nice property of the variational autoencoder is that simultaneously training a parametric encoder in combination with the generator network forces the model to learn a predictable coordinate system that the encoder can capture
+
+#### 20.10.4 Generative Adversarial Networks
+* The generator network directly produces samples $\vector{x} = g(\vector{z}; \vector{\theta}^{(g)})$
+* Its adversary, the discriminator network, attempts to distinguish between samples drawn from the training data and samples drawn from the generator
+* The discriminator emits a probability value given by $d(\vector{x}; \vector{\theta}^{(d)})$, indicating the probability that $\vector{x}$ is a real training example rather than a fake sample drawn from the model
+
+#### 20.10.6 Convolutional Generative Networks
+* Convolutional networks for recognition tasks have information flow from the image to some summarization layer at the top of the network, often a class label
+* As this image flows upward through the network, information is discarded as the representation of the image becomes more invariant to nuisance transformations
+* In a generator network, the opposite is true. Rich details must be added as the representation of the image to be generated propagates through the network
+* The primary mechanism for discarding information in a convolutional recognition network is the pooling layer. The generator network seems to need to add information. We cannot put the inverse of a pooling layer into the generator network because most pooling functions are not invertible
+* A simpler operation is to merely increase the spatial size of the representation
 
 # See also
 
