@@ -29,9 +29,7 @@ Feel free to leave me comments, questions and feedback through [github issues](h
 Tom
 
 # Index
-
 ## Indexes
-
 * [Books](books)
 * [Movies](movies)
 * [Presentations](presentations)
@@ -39,7 +37,6 @@ Tom
 * [Quotes](quotes)
 
 ## Exploratory activities
-
 * [Build an AGI using Polya's method](build-an-agi-using-polya-method)
 * [Competitions](competitions)
 * [Decision trees](https://github.com/tomzx/decision-trees)
@@ -58,6 +55,7 @@ Tom
 * [Natural language](natural-language)
 * [Natural language processing](natural-language-processing)
 * [Problem resolution approaches](problem-resolution-approaches)
+* [Process assistant](process-assistant)
 * [Reality model](reality-model)
 * [Resources limited agents](resources-limited-agents)
 * [Requirements and properties](requirements-and-properties)
@@ -66,12 +64,10 @@ Tom
 * [What do I know about AI](what-do-i-know-about-ai)
 
 ### Prototypes (in order of start date)
-
 * [PHP-Brain](prototypes/php-brain)
 * [Sharp-Brain](prototypes/sharp-brain)
 
 ## Biology inspired exploration
-
 * [Abiogenesis](abiogenesis)
 * [Cognition](cognition)
 * [Deconstruction of a mind](deconstruction-of-a-mind)
@@ -80,7 +76,6 @@ Tom
 * [Observations on DNA](observations-on-dna)
 
 ## Computer/Software/Computer Science inspired exploration
-
 * [A procedure for writing programs](a-procedure-for-writing-programs)
 * [AGI through Turing machines](agi-through-turing-machines)
 * [Automated programming](automated-programming)
@@ -99,13 +94,11 @@ Tom
 * [Static analysis](static-analysis)
 
 ### Bots and swarms
-
 * [Chatbot](chatbot)
 * [Multi agent bot](multi-agent-bot)
 * [Wikibot](wikibot)
 
 ## Structured learning
-
 * [Current approaches](current-approaches)
 * [Getting started](getting-started)
 * [Papers](papers)
@@ -119,17 +112,14 @@ Tom
 * [Neuroscience concept map](https://github.com/tomzx/neuroscience-concept-map)
 
 ## My approach
-
 * [My approach to AGI](my-approach-to-agi)
 * [Practical AGI](practical-agi)
 
 ## Personal experience
-
 * [My path to AGI](my-path-to-agi)
 * [My suggested path to AGI](my-suggested-path-to-agi)
 * [Structuring an AGI research](structuring-an-agi-research)
 
 ## Self-reflective / Open questions
-
 * [Open questions](open-questions)
 * [Questions](questions)
