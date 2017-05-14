@@ -69,7 +69,6 @@ Tom
 
 ## Biology inspired exploration
 * [Abiogenesis](abiogenesis)
-* [Cognition](cognition)
 * [Deconstruction of a mind](deconstruction-of-a-mind)
 * [Human development](human-development)
 * [Humans as machines](humans-as-machines)
@@ -119,7 +118,3 @@ Tom
 * [My path to AGI](my-path-to-agi)
 * [My suggested path to AGI](my-suggested-path-to-agi)
 * [Structuring an AGI research](structuring-an-agi-research)
-
-## Self-reflective / Open questions
-* [Open questions](open-questions)
-* [Questions](questions)
