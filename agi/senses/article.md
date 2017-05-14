@@ -12,6 +12,7 @@ taxonomy:
 
 ## Things to explore
 * When did the senses appear? For what purpose?
+* Is it more tiring to listen to someone from one hear than from both (stereo vs mono)?
 
 # Overview
 Considering the finite architecture of the brain, we can postulate a few things:
@@ -32,7 +33,7 @@ Considering the finite architecture of the brain, we can postulate a few things:
 
 ---
 
-> 7 MP for the fovea region + 1 MP for the rest of the field of view[^2](citation needed)
+> 7 MP for the fovea region + 1 MP for the rest of the field of view[^2] (citation needed)
 
 ---
 

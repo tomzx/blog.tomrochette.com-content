@@ -134,5 +134,13 @@ A couple conclusions:
 * The larger the smallest AGI program is, the more difficult it is to find it in the solution space
 * As the program $p$ length tends to infinity, the probability it contains the AGI program increases to almost 100% certainty, $P(\mathrm{p\ exhibits\ AGI}|\lim_{(y-x) \rightarrow \infty}|p_{x,y}|) \approx 1$
 
+### Applications
+* Given that we established there are $(2^2)^{(3 \times 10^9)}$ potentials programs of the same length as the human genome that also appears to generate variants of similar programs, namely different individuals with varying capabilities, and that we estimate there have been about 108 billion individuals that lived so far (assuming they all had unique DNA)
+
+$\frac{(2^2)^{(3 \times 10^9)}}{108 \times 10^9} = \frac{4^{3 \times 10^9}}{108 \times 10^9} = \frac{9.6357 \times 10^{1806179973}}{108 \times 10^9}$
+
 # See also
-* [Observations on DNA](observations-on-dna)
+* [Observations on DNA](../observations-on-dna)
+
+# References
+[^1]: http://www.prb.org/Publications/Articles/2002/HowManyPeopleHaveEverLivedonEarth.aspx

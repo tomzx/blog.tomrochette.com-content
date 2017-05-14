@@ -53,6 +53,7 @@ taxonomy:
 * Repetitive computation
 
 # See also
+* [Senses](../senses)
 
 # References
 [^1]: http://mattmahoney.net/agi2.html

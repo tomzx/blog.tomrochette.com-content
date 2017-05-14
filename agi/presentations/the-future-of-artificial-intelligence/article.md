@@ -8,7 +8,7 @@ taxonomy:
 
 ## Context
 
-If you've already seen Hamis Hassabis presentation [General Learning Algorithms](general-learning-algorithms), you may skip to 27:25 since most of the content he covers is already covered in this other presentation. This content will not be covered here, so please refer to the other presentation article.
+If you've already seen Hamis Hassabis presentation [General Learning Algorithms](../general-learning-algorithms), you may skip to 27:25 since most of the content he covers is already covered in this other presentation. This content will not be covered here, so please refer to the other presentation article.
 
 ## Learned in this study
 
@@ -68,7 +68,7 @@ If you've already seen Hamis Hassabis presentation [General Learning Algorithms]
 * In March 2016: No estimate against the October 2015 version. Lee Sedol can beat Fan Hui about 97% of the time
 
 # See also
-* [General Learning Algorithms](general-learning-algorithms) (some of the content of this presentation is already covered in this other presentation)
+* [General Learning Algorithms](../general-learning-algorithms) (some of the content of this presentation is already covered in this other presentation)
 
 # References
 * [The Future of Artificial Intelligence](https://www.youtube.com/watch?v=4fjmnOQuqao)
