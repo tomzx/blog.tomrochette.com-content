@@ -38,12 +38,12 @@ taxonomy:
 
 # 4.1 Preprocessing and Model Architecture
 * Preprocessing done to reduce the input dimensionality
-	* 128 color palettre converted to gray-scale representation
+	* 128 color palette converted to gray-scale representation
 	* Frames are down-sampled from 210 x 160 pixels to 110 x 84 pixels
 	* The final input is obtained by cropping a 84 x 84 pixels region that roughly captures the playing area
 		* This cropping is done in order to use the GPU implementation of 2D convolutions which expects square inputs
 * The input to the neural network is a 84 x 84 x 4 image (84 x 84 pixels x 4 last frames)
-* The first hidden layer convolves 168 x 8 filters with stide 4 and applies a rectifier nonlinearity
+* The first hidden layer convolves 168 x 8 filters with stride 4 and applies a rectifier nonlinearity
 * The second hidden layer convolves 324 x 4 filters with stride 2, again followed by a rectifier nonlinearity
 * The final hidden layer is fully-connected and consists of 256 rectifier units
 * The output layer is a fully-connected linear layer with a single output for each valid action
