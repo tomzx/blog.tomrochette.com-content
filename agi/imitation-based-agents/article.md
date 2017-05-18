@@ -18,7 +18,7 @@ taxonomy:
 
 # Overview
 
-Humans learn from imitation. It takes us approximately 1 year to learn to talk. Before that, we learn to make noises, cry to attention, stand up to reach things and so on. Some of those behaviors are guided by imitating other human beings around us.
+Humans learn from imitation. It takes us approximately 1 year to learn to talk. Before that, we learn to make noises, cry for attention, stand up to reach things and so on. Some of those behaviors are guided by imitating other human beings around us.
 
 In the beginning, most of our training is related to motor abilities: how to pick blocks, crawl to our favorite toys, learn to make noise, to speak.
 
@@ -32,9 +32,9 @@ They'll look through the internet for code they can integrate within themselves.
 
 The main issue at this point for them will be to figure out how to integrate this code within their own. They'll also have to figure out what are appropriate inputs/outputs.
 
-They'll want to improve the software they've just obtained. Through static analysis they will be able to determine the exact logic that was used and potentially refactor it using more appropriate instruction and data structures. This means that AGI will become masters of program perfection.
+They'll want to improve the software they've just obtained. Through static analysis they will be able to determine the exact logic that was used and potentially refactor it using more appropriate instructions and data structures. This means that AGI will become masters of program perfection.
 
-Much like a software programmer, they'll have to be able to assess the quality of the software they integrate to themselves. One way to do that would be to have an objective metric that can determine whether or not the addition of a set of instructions improves or deteriorates the machine's expected value over an amount of simulation.
+Much like a software programmer, they'll have to be able to assess the quality of the software they integrate to themselves. One way to do that would be to have an objective metric that can determine whether or not the addition of a set of instructions improves or deteriorates the machine's expected value over an amount of simulations.
 
 # See also
 
