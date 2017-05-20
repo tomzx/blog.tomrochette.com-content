@@ -93,7 +93,7 @@ No, maybe, we know that biology is able to produce natural general intelligence 
 * Is it only based on the ability to apply prior knowledge or the fact that this prior knowledge is already available in its knowledge based and is properly used, or is it the ability to derive this knowledge (aka some can and some will never be able to)?
 	* People can learn anything that someone else had been able to learn
 	* What matter is prior knowledge as well as how much time out will require to learn
-	* Thus, someone is more intelligent than someone else at a point t in time simply because the knowledge required to answer a problem is already available to them while our may not be for others
+	* Thus, someone is more intelligent than someone else at a point t in time simply because the knowledge required to answer a problem is already available to them while it may not be for others
 	* Instantaneous intelligence vs intelligence (similar to instantaneous speed vs speed)
 		* There might also be the concept of position, speed and acceleration for intelligence
 * Is intelligence about learning?
