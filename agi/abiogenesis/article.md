@@ -7,7 +7,7 @@ taxonomy:
 ---
 
 ## Context
-It is interesting to ponder on how we, as human, have arised from non-living matter such as organic compounds. One of the reasons it is of interest is that it may teach us lessons that may apply to how intelligence arised from non-intelligent being or how something of one type can transform into something of another type.
+It is interesting to ponder on how we, as human, have arisen from non-living matter such as organic compounds. One of the reasons it is of interest is that it may teach us lessons that may apply to how intelligence arose from non-intelligent being or how something of one type can transform into something of another type.
 
 ## Learned in this study
 * Intelligence as a tree of life
