@@ -17,11 +17,11 @@ Turing machines represent the foundation of how computers (automata) work. It is
 * "However, merely updating the list/sequence of instructions of the program is not a display of intelligence." yet "First, moving itself is to some degree intelligence."
 
 # Overview
-The simplest form of initial AGI software would have to be one that rewrite itself.
+The simplest form of initial AGI software would have to be one that rewrites itself.
 
 At the lowest level, computers are governed by a set of instructions, such as `ADD`, `SUB`, `MUL`, `DIV`, `AND`, `OR`, `MOV`, `JMP` and other similar instructions.
 
-If we even go a level lower, we can refer to Turing machines, for which the elementary operations are moving left, moving right, reading from the current square on the tape (memory) and writing to the current square. Another important part of a Turing machine is its state, which relates to its instruction table/program, that is to say "if you are in state X, and you see Y on the tape, do Z and put yourself into state A".
+If we go a level lower, we can refer to Turing machines, for which the elementary operations are moving left, moving right, reading from the current square on the tape (memory) and writing to the current square. Another important part of a Turing machine is its state, which relates to its instruction table/program, that is to say "if you are in state X, and you see Y on the tape, do Z and put yourself into state A".
 
 [A tape for data input/output, a head to read the data, a state register to store working information and and instruction table/program (describes how input data produces output data).]
 
@@ -48,9 +48,9 @@ Turing machines can be "simplified" (or more appropriately, restricted) into sta
 
 Now, when a Turing machine moves its reading head (or moves the tape), there is no real state machine equivalent. The purpose of the moving head is to read a new sequential transition condition. In other words, the action of moving left or right isn't very important, what is more important is what will end up being read, which will influence the transition the state machine will take. In doing so, it may write to the block it just read, but again, that is not important in the context of the state machine.
 
-Similarly to Turing machines, it is easy to see that a state machine may enter a loop and possibly never come out of it (the halting problem). Given the state machine diagram, one may be able to assess that certain starting point and transitions will result in the state machine reaching a terminal state (the program terminates).
+Similarly to Turing machines, it is easy to see that a state machine may enter a loop and possibly never come out of it (the halting problem). Given the state machine diagram, one may be able to assess that certain starting point and transitions will result in the state machine reaching a terminal state (the program terminates), for instance in any state machine diagram that is acyclic (does not contain any cycle).
 
-In a Turing machine, we are given an instruction table, or program. Such instruction table containsa list of 5-tuples definition the current state, the scanned symbol, the symbol to print, how to move the tape and the next state of the machine.
+In a Turing machine, we are given an instruction table, or program. Such instruction table contains a list of 5-tuples definition the current state, the scanned symbol, the symbol to print, how to move the tape and the next state of the machine.
 
 In the case of the state machine, we have a current state, the scanned input and the next state of the machine. Certain state machine called [transducers](https://en.wikipedia.org/wiki/Finite_state_transducer) will generate an output based on the given input and/or state. In a sense, we can liken this "ability" of the machine to the ability of Turing machines to move the tape and to write to it. In other words, we can say that the state machine should move some tape left/right based on the input/state as well as to write on that tape some information. Again, moving a tape within the context of a state machine is irrelevant in the sense that was we are interested in is the stream of input token and its impact on the state of the state machine and the output actions.
 
@@ -58,7 +58,7 @@ The important difference between a Turing machine and a state machine is how it 
 
 ---
 
-The list of instruction then become a set of steps the machine will walk through. Those steps ...
+The list of instruction then become a set of steps the machine will walk through. Those steps <tbc></tbc>
 
 ---
 
