@@ -13,6 +13,8 @@ taxonomy:
 ## Things to explore
 * How can one be aware of information without processing it?
 	* If a human has a virtual assistant (another human or an AGI), how can they share information in the most efficient manner?
+* Knowledge harvesting
+	* What are the proper/most efficient means of harvesting information from a person or yourself?
 
 # Overview
 **How can one transfer the models in his brain/mind in an efficient, low time-active (using as little brain cycles as possible) manner?**
@@ -24,6 +26,7 @@ taxonomy:
 * Mind uploading: Scan the whole neural substrate/brain and reproduce it in a digital format
 	* Copy-and-transfer
 	* Gradual replacement
+* An interactive system that is able to determine stereotypes based on as few questions as possible (similar to the 20 questions game)
 
 # Notes on building a graph only using pairs
 The premise of this section is that at a high level, the brain stores concepts and relations between them. One simple model of such structure is the pair, where two concepts are related to one another through an anonymous relation.
@@ -39,6 +42,8 @@ Here we explore how we could efficiently build a graph composed of such concepts
 	* Allocate a uuid?
 * How to prevent duplicate entry of information (information already present)
 	* Build a management system with autocompletion?
+* How can you detect duplicate entries?
+	* A duplicate entry should have the same identifier (not unique identifier) as another identifier, and would likely have the same relations (or one of the identifier being related to a larger set of relations than the other)
 * How to reduce the amount of information that needs to be repeated
 	* Use templates?
 	* Use discovery in order to attempt to discover the most optimal relation structure?
@@ -104,13 +109,13 @@ Here we explore how we could efficiently build a graph composed of such concepts
 # What is the fastest way to transfer information from the brain into text (or any app data format)?
 If we are to consider not only existing, but "possible" in the future options, here is what could be done, ordered from the fastest (hypothetical) to slowest (concrete).
 
-Quantum entanglement of every electron of the brain with a computer memory. Using this method, the computer would be able to access the memory as if it was its own, without any latency.
+Quantum entanglement of every electron of the brain with a computer memory. Using this method, the computer would be able to access the memory as if it was its own, without any latency (other than accessing its own memory).
 
-[Matrix-like headjack](http://matrix.wikia.com/wiki/Headjack). Similar to ethernet cables, a brain could be connected to one or many computers through a communication link.
+[Matrix-like headjack](http://matrix.wikia.com/wiki/Headjack). Similar to ethernet cables, a brain could be connected to one or many computers through a communication link. It is considered a possibility given that the spinal cord acts in a similar way (a single pathway for all signals coming from the every part of the body down the neck).
 
 Similar to the headjack, modalities input could be recorded and sent to a computer. In this sense, the computer would have "unprocessed" signal available, but no information about what the brain decided to do with the signal.
 
-Though identification/telepathy. Using an electroencephalogram to record brain activity, it may be possible to associate thoughts with words, effectively making it possible to convert our internal dialog into an external dialog. Hardware/softwared-aided telepathy would be the process of extracting the dialog in one's mind through the EEG, sending it to another person for which the signal would be translated/converted into electromagnetic signal that this person can recognize as the original message.
+Though identification/telepathy. Using an electroencephalogram to record brain activity, it may be possible to associate thoughts with words, effectively making it possible to convert our internal dialog into an external dialog. Hardware/software-aided telepathy would be the process of extracting the dialog in one's mind through the EEG, sending it to another person for which the signal would be translated/converted into electromagnetic signal that this person can recognize as the original message. A potential way to get this method going would be to capture the messages as they would be about to leave the brain and go to activate the various muscles required for speech. Given a sound model of the person's voice, this information could be transmitted to the recipient where it would be processed as an audio signal, as if that person was hearing the other person if they were face to face.
 
 Say aloud what you want to transfer to a computer and use speech recognition software. The speed of the transfer depends on the quality of the speech recognition software, namely its ability to properly identify the spoken words based on sound and semantics. Furthermore, a speech recognition software that is able to process accelerated speech will improve information transfer speed.
 
