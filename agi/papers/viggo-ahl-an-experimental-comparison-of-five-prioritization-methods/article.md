@@ -3,7 +3,6 @@ title: Viggo Ahl - An experimental comparison of five prioritization methods (20
 created: 2016-04-02
 taxonomy:
   category: [Artificial General Intelligence]
-  tag: [prioritization]
   status: finished
 ---
 
@@ -34,7 +33,6 @@ taxonomy:
 * It takes $n$ time to prioritize $n$ requirements, but because a ratio scale is used, it takes more time per decision than PG
 
 # See also
-
 * [An evaluation of methods for prioritizing software requirements](../an-evaluation-of-methods-for-prioritizing-software-requirements)
 
 # References

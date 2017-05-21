@@ -2,8 +2,8 @@
 title: Chatbot
 created: 2015-08-26
 taxonomy:
+  category: [Artificial General Intelligence]
   status: in progress
-  tag: [ai, chatbot]
 ---
 
 ## Learned in this study
