@@ -2,7 +2,7 @@
 title: Handwriting recognition
 created: 2016-01-01
 taxonomy:
-  category: [Artificial General Intelligence]
+  category: [Machine Learning]
   status: in progress
 ---
 
@@ -141,6 +141,9 @@ Test set size is 25% of the training set size (thus 20% of the total data set si
   </tr>
 </table>
 
+# Improvement of results
+* To evaluate what should be improved/worked on, note that a sequential pipeline is the most affected by its earlier components, and thus the accumulation of errors early on will propagate to the further layers
+
 # Papers summaries
 ## End-to-end scene text recognition
 ### Character detection
@@ -171,6 +174,7 @@ Test set size is 25% of the training set size (thus 20% of the total data set si
 * http://rrc.cvc.uab.es/?ch=10&com=introduction
 * Non-maximum suppression - http://www.pyimagesearch.com/2015/02/16/faster-non-maximum-suppression-python/
 * https://www.youtube.com/watch?v=nlMjSWnvglU
+* http://blog.leanote.com/post/wjgaas@126.com/OCR-List
 
 ## Data sets
 * http://www.fki.inf.unibe.ch/databases/iam-handwriting-database
