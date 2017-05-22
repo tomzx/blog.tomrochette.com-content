@@ -7,7 +7,6 @@ taxonomy:
 ---
 
 ## Context
-
 Polya's How to Solve It[^1] is considered by many a reference on how to teach mathematical problem resolution to students. It is however also an interesting and invaluable tool that can be used to solve any problem in general. In this study, we attempt to apply his method to the problem "Build an AGI".
 
 ## Learned in this study
@@ -18,12 +17,11 @@ Polya's How to Solve It[^1] is considered by many a reference on how to teach ma
 # Overview
 
 # Understand the problem
-
 ## Do you understand all the words used in starting the problem?
 * Build: use tools and materials in order to construct something
 * AGI: artificial general intelligence
-	* Artificial: As opposed to natural, that came from nature
-	* General: as opposed to specific or specialized, capable of being/doing many things
+	* Artificial: Human made, as opposed to natural, that came from nature
+	* General: As opposed to specific or specialized, capable of being/doing many things
 	* Intelligence: (this is a list of attempts, not all of them are good, some are in fact pretty terrible, but the idea here is to explore the definition of intelligence as it is most likely the most important part of the problem)
 		* the ability to accomplish goals in a given environment
 		* the ability of an agent to adapt itself to an environment in order to accomplish goals
@@ -32,16 +30,16 @@ Polya's How to Solve It[^1] is considered by many a reference on how to teach ma
 		* the ability to extract patterns in the environment and make effective use of them in an internal model of this environment
 		* the ability for an agent to expand his ideology in other agents
 		* the ability of an agent to make the most out of as little energy as possible
-		* the ability to predict the future ands make the most efficient user if that knowledge
+		* the ability to predict the future and make the most efficient use of that knowledge
 		* the ability to make use of experience and context in a novel situation
 		* the ability to build models and use these models
-		* the ability to build Turing machines and simulate these machines (mentally)
+		* the ability to build Turing machines and simulate these machines (internally)
 		* the ability to be self-directed
 		* the ability to accomplish things (the more things you can accomplish, the more intelligent you are)
 		* the ability to process inputs into meaningful outputs (the more varied the inputs you can process, the more intelligent you are)
 		* the ability to resolve problems
 		* the ability to make efficient use of a limited amount of resources(energy/time) toward objectives
-		* the ability to abstract/generalize from examples in an efficient manner and to apply its knowledge to newer situations through analogy
+		* the ability to abstract/generalize from examples in an efficient manner and to apply this knowledge to newer situations through analogy
 		* the ability to process information as efficiently as possible while making use of it in the most effective manner (determined by the environment)
 		* the ability to judge and evaluate the pertinence of information
 		* the ability to make links or establish relations between things
@@ -64,7 +62,7 @@ Polya's How to Solve It[^1] is considered by many a reference on how to teach ma
 * Input/process/output diagram
 
 ## Is there enough information to enable you to find a solution?
-No, maybe, we know that biology is able to produce natural general intelligence through humans, assuming that everything that goes inside the brain can be liken to signals transmission and processing, it should be possible run a  brain in vat that is considered intelligent.
+No, maybe, we know that biology is able to produce natural general intelligence through humans, assuming that everything that goes inside the brain can be liken to signals transmission and processing, it should be possible run a brain in vat that is considered intelligent.
 
 # Devise a plan
 * Construct a definition of intelligence that contains all the appropriate ingredients
@@ -87,12 +85,12 @@ No, maybe, we know that biology is able to produce natural general intelligence 
 	* Get rid of waste
 * Execute their task
 * Execute a set of instructions (DNA)
-* This is probably too low level as animals also have cells and aren't considered “particularly” intelligent
+* This is probably too low level as animals also have cells and aren't considered "particularly" intelligent
 
 ### Questions
-* Is it only based on the ability to apply prior knowledge or the fact that this prior knowledge is already available in its knowledge based and is properly used, or is it the ability to derive this knowledge (aka some can and some will never be able to)?
-	* People can learn anything that someone else had been able to learn
-	* What matter is prior knowledge as well as how much time out will require to learn
+* Is intelligence only based on the ability to apply prior knowledge or the fact that this prior knowledge is already available in its knowledge base and is properly used, or is intelligence the ability to derive this knowledge (aka some can and some will never be able to)?
+	* Anyone can learn anything that someone else has been able to learn
+	* What matter is prior knowledge as well as how much time it will require to learn
 	* Thus, someone is more intelligent than someone else at a point t in time simply because the knowledge required to answer a problem is already available to them while it may not be for others
 	* Instantaneous intelligence vs intelligence (similar to instantaneous speed vs speed)
 		* There might also be the concept of position, speed and acceleration for intelligence
