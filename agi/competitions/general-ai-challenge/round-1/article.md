@@ -6,6 +6,12 @@ taxonomy:
   status: in progress
 ---
 
+## Context
+
+## Learned in this study
+
+## Things to explore
+* One of the problem of this challenge is to answer the question "which task am I trying to accomplish at this time step?". This is an interesting question because, given a generic event loop program with a "fixed" timestep, we'd like to know which task we should execute within this iteration (should we observe, process observations, compute a step of solution resolution, enact a specific policy, etc.)
 
 # Gradual learning
 
@@ -76,6 +82,26 @@ $$
 * In the optimal scenario, the agent knows when a task has begun and when it will end, as well as what the task is
 * In a non-optimal scenario, the agent is expected to make as few errors as possible while it determines the new task being executed
 
+## Alternative formalization
+* A task $T$ is a program that, given an input $I$, generates an output $A$
+* A task $T$ is a program that, given an input $I$ and $A$, generates a reward $R$
+* Given all valid programs $P$, a task $T$ can be completed by a given subset $P_T$ of programs
+* The requirements are that for all inputs $I$ of the task $T$, a program of the subset $P_T$ must produce the expected output $A^*$
+	* This means that for all other inputs $I_{rest} = I_U \setminus I$, the program $p \in P_T$ may have any behavior it wants (even an infinite loop)
+	* This is because the program $p$ is expected to run only for the specified inputs $I$
+* Given that all programs $P$ run in parallel, we expect that for the duration $d$ of a task $T$, the programs in $P_T$ will perform optimally, which is to say that the sum of the rewards over $d$ is maximal
+$$
+\forall P_T \subset P \\
+p(I_i) = T(I_i) \\
+\sum_{i=1}^d T(I_i) \\
+\sum_{i=1}^d R(T, I_i)
+$$
+* It can be seen that the task $T$ is an example of a program $p$ that is part of the subset $P_T$
+* There exist other classes of programs in $P$ that are suboptimal
+	* $P_{T_{sub}}$ the class of programs that will have a sum of the reward between 1 and the maximum reward - 1
+	* the class of programs that will have a reward of 0
+	* the class of programs that will have a negative reward
+
 # Problems
 
 * When have we switched task?/Can we determine the iteration at which a new task began?
@@ -90,7 +116,7 @@ $$
 * Can we determine if a given task is easier than another task? Is the Kolmogorov complexity a good metric that can be used as a way to order these?
 
 # Systems/Functions
-
+(Here, task may be replaced with program)
 * Task detector/classifier: Which task appears to be under execution?
 * Task switch detector: Have we switched onto a new task?
 * Task executor: Execute the task that is thought to be under way.
@@ -153,6 +179,7 @@ This section describes other types of ways an agent could learn.
 # Ideas
 
 * A system that can copy/move/duplicate/multiply/map symbols
+* NTM where one part is dedicated to determining which function/task to use, and an LSTM to process the sequence and use the selected function
 
 # Questions
 
@@ -214,4 +241,5 @@ This section describes other types of ways an agent could learn.
 
 # References
 
+* https://mirror.general-ai-challenge.org/challenge_first_round_specifications.pdf
 * http://wiki.opencog.org/w/CogPrime_Overview#Measuring_Incremental_Progress_Toward_Human-Level_AGI
