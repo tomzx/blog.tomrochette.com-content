@@ -16,9 +16,6 @@ The following lists papers I've read and reviewed or made notes for.
 ## Alan W. Biermann
 * [Approaches to Automatic Programming (1985)](alan-biermann-approaches-to-automatic-programming)
 
-## Alex Graves
-* [Neural Turing Machines (2014)](alex-graves-neural-turing-machines)
-
 ## Allen Newell
 * [The heuristic of George Polya and its relation to artificial intelligence (1981)](allen-newell-the-heuristic-of-george-polya-and-its-relation-to-artificial-intelligence)
 
@@ -37,27 +34,14 @@ The following lists papers I've read and reviewed or made notes for.
 ## Eliezer Yudkowsky
 * [Levels of Organization in General Intelligence (2007)](eliezer-yudkowsky-levels-of-organization-in-general-intelligence)
 
-## Google DeepMind
-* [Playing Atari with Deep Reinforcement Learning (2013)](playing-atari-with-deep-reinforcement-learning)
-* [Mastering the Game of Go with Deep Neural Networks and Tree Search (2016)](mastering-the-game-of-go-with-deep-neural-networks-and-tree-search)
-
 ## Hugo de Garis
 * [Artificial Brains (2007)](hugo-de-garis-artificial-brains)
-
-## Ian Goodfellow
-* [Generative Adversarial Nets (2014)](ian-goodfellow-generative-adversarial-nets)
 
 ## J. Roland Olsson
 * [How to Invent Functions (1999)](j-roland-olsson-how-to-invent-functions)
 
-## J. R. Quinlan
-* [Induction of Decision Trees (1986)](j-r-quinlan-induction-of-decision-trees)
-
 ## Jack Copeland
 * [Computable Number: A Guide (2004)](jack-copeland-computable-number-a-guide)
-
-## Jacob Devlin
-* [RobustFill: Neural Program Learning under Noisy I/O (2017)](jacob-devlin-robustfill-neural-program-learning-under-noisy-i-o)
 
 ## Joe Tsien
 * [A Postulate on the Brain's Basic Wiring Logic (2015)](joe-tsien-a-postulate-on-the-brain-s-basic-wiring-logic)
@@ -110,9 +94,6 @@ The following lists papers I've read and reviewed or made notes for.
 
 ## Vladimir Red'ko
 * [The Natural Way to Artificial Intelligence (2007)](vladimir-redko-the-natural-way-to-artificial-intelligence)
-
-## Yoshua Bengio
-* [Curriculum Learning (2009)](yoshua-bengio-curriculum-learning)
 
 # Prioritization
 ## Joachim Karlsson
