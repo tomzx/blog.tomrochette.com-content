@@ -14,6 +14,8 @@ taxonomy:
 * Every person is a knowledge base. They decide how they want to encode what they experience and how often they need to retrieve that experience (the more it is used, the shorter it should be, similar to how compression works)
     * All humans share the same brain architecture, which means that we most likely encode sensory inputs in the same way, but using different neurons
 * How should knowledge be structured in order for it to be easily queryable/retrievable when asking various questions?
+* Like a "real" person, remembers by activating on all the provided words and searching for related memories (ala find feature of text search)
+* How can we say that an (new) experience E is the same as an already experienced experience E?
 
 # Overview
 
@@ -53,10 +55,10 @@ School
 Car
 Sun
 Summer
-<sound of waterfall>
-<sound of water crashing against the beach>
-<video of firework>
-<image of a cat>
+*sound of waterfall*
+*sound of water crashing against the beach*
+*video of firework*
+*image of a cat*
 
 ### Capabilities
 * Answer queries such as: "Do I know about Jack/School/Car/Sun/Summer?"
