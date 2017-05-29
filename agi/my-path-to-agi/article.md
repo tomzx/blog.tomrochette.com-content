@@ -301,10 +301,12 @@ Thomas Fahringer, Bernhard Scholz
 ### Principles of Program Analysis (2016-10 - 2016-12)
 Flemming Nielson, Hanne R. Nielson, Chris Hankin
 
+## 2017
+
 ### Programming the Semantic Web (2017-01)
 Toby Segaran, Colin Evans, Jamie Taylor
 
-### Deep Learning (2017-02 - ?)
+### Deep Learning (2017-02 - 2017-05)
 Ian Goodfellow, Yoshua Bengio, Aaron Courville
 
 ### Reinforcement Learning (2017-02 - 2017-03)
@@ -328,8 +330,47 @@ Lion Kimbro
 ### Induction of Decision Trees (2017-04)
 J.R. Quinlan
 
-### RobustFill: Neural Program Learning under Noisy I/O (2017-04 - ?)
+### Handwriting recognition (2017-04 - ?)
+Began experimenting with the problem of handwriting recognition. The main goal is to be able to feed a page through a camera/webcam/scanner and have its text content extracted.
+
+### Traitement automatique des langues (2017-04)
+Hugo Larochelle
+
+### RobustFill: Neural Program Learning under Noisy I/O (2017-04)
 Jacob Devlin, Jonathan Uesato, Surya Bhupatiraju, Rishabh Singh, Abdel-rahman Mohamed, Pushmeet Kohli
 
 ### Generative Adversarial Nets (2017-04)
 Ian J. Goodfellow, Jean Pouget-Abadie, Mehdi Mirza, Bing Xu, David Warde-Farley, Sherjil Ozair, Aaron Courville, Yoshua Bengio
+
+### Offline Handwriting Recognition with Multidimensional Recurrent Neural Networks (2017-04)
+Alex Graves, Jürgen Schmidhuber
+
+### Auto-Encoding Variational Bayes (2017-04)
+Diederik P. Kingma, Max Welling
+
+### Tacotron: Towards End-To-End Speech Synthesis (2017-05)
+Yuxuan Wang, RJ Skerry-Ryan, Daisy Stanton, Yonghui Wu, Ron J. Weiss, Navdeep Jaitly, Zongheng Yang, Ying Xiao, Zhifeng Chen, Samy Bengio, Quoc Le, Yannis Agiomyrgiannakis, Rob Clark, Rif A. Saurous
+
+### DeepZip: Lossless Compression using Recurrent Networks (2017-05)
+Kedar Tatwawadi
+
+### Scan, Attend and Read: End-to-End Handwritten Paragraph Recognition with MDLSTM Attention (2017-05)
+Théodore Bluche, Jérôme Louradour, Ronaldo Messina
+
+### Neural machine translation by jointly learning to align and translate (2017-05)
+Dzmitry Bahdanau, Kyunghyun Cho, Yoshua Bengio
+
+### Deepcoder: Learning to Write Programs (2017-05)
+Matej Balog, Alexander L. Gaunt, Marc Brockschmidt, Sebastian Nowozin, Daniel Tarlow
+
+### Neural Architecture Search With Reinforcement Learning (2017-05)
+Barret Zoph, Quoc V. Le
+
+### SMARTPASTE: Learning to Adapt Source Code (2017-05)
+Miltiadis Allamanis, Marc Brockschmidt
+
+### Third-Person Imitation Learning (2017-05)
+Bradly C. Stadie, Pieter Abbeel, Ilya Sutskever
+
+### Elements of Information Theory (2017-05 - ?)
+Thomas Cover
