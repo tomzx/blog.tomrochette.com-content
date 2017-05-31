@@ -30,6 +30,11 @@ Automated programming has been a goal for computer scientists since the inceptio
 	* Where does automated programming comes in?
 * The basic strategy of a beginner programmer is generally to copy and paste code. Is it possible to reproduce and use this behavior effectively in an automated manner?
 * What is the difference between writing a program from scratch and modifying an existing program?
+* How hard is it for an AI to learn programming languages? Assembly, C, C++, etc.
+* Is it possible to construct a neural network where function calls are replaced/identified by numbers (somefunction() = 3, otherfunction() = 13)?
+	* Can we use tools from NN-NLP to build programs?
+* Use an ontology of algorithm to determine which ones should be used within a function
+	* Use the vocabulary associated with each type of algorithm to identify actions (sort the items by ..., group the items by ..., find the shortest path between ...)
 
 # Overview
 * The programmer provides preconditions and postconditions
@@ -147,6 +152,9 @@ There are many tasks that are specifically related to the fact that we're using 
 * Determine dependencies (include/require/use/import)
 * Import dependencies
 
+* Iterate over a collection (loops)
+* Order a collection (sorting)
+
 * Determine encapsulation
 * Determine function/method/class collaborators
 * Determine function/method/class responsibilities
@@ -184,6 +192,10 @@ There are many tasks that are specifically related to the fact that we're using 
 		* Determine expression to evaluate
 	* Create case block (case ...: { ... })
 		* Determine predicate
+* Function/Method
+	* Create block (function X(...) { ... })
+		* Determine identifier/name
+		* Determine parameters
 
 ## Generalized tasks
 From the list of tasks we've established so far, we can try to create a list of generalized tasks (operations that do the same thing under different contexts).
@@ -209,17 +221,18 @@ while (programming) {
 There's also likely to be some sort of evaluative loop that is assessing the code observed for things that will need to be done. In some sense, the internals of the programming loop is more likely to resemble a Markov decision process, where certain tasks are very likely to be executed just after a given task was executed (e.g. initializing a variable after it has been declared).
 
 ### Task stack
-
 There is some aspect of programming that makes it look like a programmer is processing tasks from a call stack. For instance, initially his call/task stack will be empty. The first thing he will have to do is either to examine the code for things to do or improve, or look at an existing list of tasks.
 
-When the programmer has found at least one task to work on (his stack not being empty anymore), he can then start working on this task. A complex task, which may have 1 or many sub-tasks, will then be destructured into its more simpler tasks, which are stacked on the "work" stack from last task to first task, such that the top of the stack (and thus the next elected task) will be the first sub-task of the task that was initially started.
+When the programmer has found at least one task to work on (his stack not being empty anymore), he can then start working on this task. A complex task, which may have one or many sub-tasks, will then be decomposed into its more simpler tasks, which are stacked on the "work" stack from last task to first task, such that the top of the stack (and thus the next elected task) will be the first sub-task of the task that was initially started.
 
-As the programmer progresses through a task assignment, he may encounter things that he did not expect: a missing function, the unexpected behavior of an existing function, the task is ill-defined or missing information, etc. This may cause the programmer to either drop the initial task completely from his task stack, or to stack on a new task which purpose is to resolve the current task issue.
+As the programmer progresses through a task assignment, he may encounter things that he did not expect: a missing function, the unexpected behavior of an existing function, the task being ill-defined or missing information, etc. This may cause the programmer to either drop the initial task completely from his task stack, or to stack on a new task which purpose is to resolve the current task issue.
+
+In the ideal case, task decomposition and sub-task stacking occurs in a very natural way. In a less ideal way, a task is frequently interrupted by unexpected new tasks, which, instead of advancing the main task, add to the current workload of the programmer.
 
 # Observation on the programming tasks
-* Some tasks are incredibly easy to solve if you leave them in complete freedom. For instance, if no constraint is applied for variable naming, then any string is valid as any other, as long as they do not overlap with existing variables. However, if you introduce naming conventions, or the more difficult task of assign a "proper" name to a variable, the difficulty of the task increases tremendously.
+* Some tasks are incredibly easy to solve if you have complete freedom. For instance, if no constraint is applied for variable naming, then any string is valid as any other, as long as they do not overlap with existing variables. However, if you introduce naming conventions, or the more difficult task of assign a "proper" name to a variable, the difficulty of the task increases tremendously.
 * Some tasks can only be defined using a high level description. One example of this is the translation of high level requirements into functional logic. This basically entails the search of one solution out of the solution space which fulfills the X different criteria at most (and not more).
-* Programming cannot be self-contained. Programming is valuable only when it is associated with the modeling of something that is external to it; modeling the world. A program generator can create an infinite amount of programs, but they will all be meaningless as meaning is only attached to code by the programmer.
+* Programming cannot be self-contained. Programming is valuable only when it is associated with the modeling of something that is external to it; modeling the world. A program generator can create an infinite amount of programs, but they will all be meaningless as meaning is only attached to code by the programmer and its users.
 
 # Data structure selection
 By observing the properties that can vary in the most common data structure, it is possible to devise a generic decision tree which would allow a program to determine the most appropriate data structure to use given a set of operations that will be applied to the data being manipulated. This list below is by no mean exhaustive but only gives an idea of the process that would go on during data structure selection.
@@ -243,9 +256,25 @@ By observing the properties that can vary in the most common data structure, it 
 	* One to check if the transformation has in fact been accomplished
 * If the programming assistant can aid expert programmers in demonstrating that two rather different implementations produce equivalent behavior, then we can be much more confident that the system will behave in a useful way
 
+# Automated Programming Seen as a Reinforcement Learning Problem
+* The actions are to select which functions to call and which arguments to give these functions
+	* More generally, the actions are to determine which grammatical construct to use
+* The states are the different programs (complete/working or partial/non-working)
+	* The state space can then been seen as transition between partial programs and complete programs, which can then become partial again as a new function (with missing parameters) are added
+* The reward signal is difficult to determine
+	* Partial programs could be given either a negative reward or a zero reward
+	* A positive reward is obviously given for the programs that do what we expect of them (given input-output examples)
+	* Programs which are complete but do not accomplish what we expect of them are better than partial programs because they compile, however their value in solving the problem we want to solve is questionable
+		* Based on RL, any of the states which are used to get from the initial state to an end of epoch state would have their value policy updated accordingly
+* To simplify the search space, we assume that a program is constructed sequentially, which lets us avoid all the partial programs where we start by defining all the functions that will be called without defining their arguments
+	* It would however be valuable to determine if this space could help reaching a solution faster/more efficiently
+
 # See also
 * [Automated refactoring](../automated-refactoring)
 * Program induction
+
+## Papers
+* [DeepCoder: Learning to Write Programs](../../machine-learning/papers/matej-balog-deepcoder-learning-to-write-programs)
 
 # References
 * https://en.wikipedia.org/wiki/Automatic_programming
