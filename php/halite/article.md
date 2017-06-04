@@ -1,6 +1,6 @@
 ---
 title: Halite
-created: 2016-01-01
+created: 2016-11-24
 taxonomy:
   category: [Artificial General Intelligence, PHP]
   status: in progress
@@ -102,6 +102,7 @@ taxonomy:
 * It is worth attacking a site if attacking such site makes it possible to reach a given total strength faster than by not attacking
 	* For instance, considering you have 2 sites which you could attack and which have different strength/production values, there's an order in which it makes sense to attack each site in order to minimize the amount of frames required to acquire both
 * When approaching the end of the game, trade strength for territory (as the winner is based on final territory size)
+* Sometimes it's best to wait for an opponent to "waste"/use his strength on a valuable piece of territory to then acquire it at a lower strength cost
 
 # See also
 

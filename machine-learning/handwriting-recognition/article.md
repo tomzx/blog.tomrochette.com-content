@@ -1,6 +1,6 @@
 ---
 title: Handwriting recognition
-created: 2016-01-01
+created: 2016-06-24
 taxonomy:
   category: [Machine Learning]
   status: in progress
@@ -43,6 +43,11 @@ Handwriting recognition has been one of the first task to interest machine learn
 	* Vertical scan to find blank rows => line separator
 * Letter extraction
 	* Horizontal scan to find blank columns => character separator
+
+# Human-based approach
+* A memory model that is used to remember where we are currently looking at (either through landmarks or some form of (x, y) coordinates)
+* A reading (attention) model that knows how to scan pages (depending on the language)
+* A character recognition model
 
 # Method
 DNN: 2 layers of dense 512 units with relu activation, with a dropout layer of ratio 0.2, softmax activation on the output layer, optimizing categorical cross-entropy
@@ -175,6 +180,7 @@ Test set size is 25% of the training set size (thus 20% of the total data set si
 * Non-maximum suppression - http://www.pyimagesearch.com/2015/02/16/faster-non-maximum-suppression-python/
 * https://www.youtube.com/watch?v=nlMjSWnvglU
 * http://blog.leanote.com/post/wjgaas@126.com/OCR-List
+* http://www.tbluche.com/scan_attend_read.html
 
 ## Data sets
 * http://www.fki.inf.unibe.ch/databases/iam-handwriting-database
