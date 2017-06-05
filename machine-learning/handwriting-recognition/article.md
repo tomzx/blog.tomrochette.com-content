@@ -169,6 +169,9 @@ Test set size is 25% of the training set size (thus 20% of the total data set si
 * Larochelle, Hugo, and Geoffrey E. Hinton. "Learning to combine foveal glimpses with a third-order Boltzmann machine." Advances in neural information processing systems. 2010.
 * Neumann, Lukáš, and Jiří Matas. "Real-time scene text localization and recognition." Computer Vision and Pattern Recognition (CVPR), 2012 IEEE Conference on. IEEE, 2012.
 * Wang, Kai, Boris Babenko, and Serge Belongie. "End-to-end scene text recognition." Computer Vision (ICCV), 2011 IEEE International Conference on. IEEE, 2011.
+* Bluche, Théodore, Jérôme Louradour, and Ronaldo Messina. "Scan, attend and read: End-to-end handwritten paragraph recognition with mdlstm attention." arXiv preprint arXiv:1604.03286 (2016).
+* Lucas, Simon M., et al. "ICDAR 2003 robust reading competitions." Document Analysis and Recognition, 2003. Proceedings. Seventh International Conference on. IEEE, 2003.
+* Karatzas, Dimosthenis, et al. "ICDAR 2013 robust reading competition." Document Analysis and Recognition (ICDAR), 2013 12th International Conference on. IEEE, 2013.
 * https://en.wikipedia.org/wiki/Handwriting_recognition
 * https://en.wikipedia.org/wiki/Handwriting_movement_analysis
 * https://en.wikipedia.org/wiki/Intelligent_character_recognition
