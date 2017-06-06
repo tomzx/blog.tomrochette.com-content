@@ -19,9 +19,6 @@ The following lists papers I've read and reviewed or made notes for.
 ## Bradly Stadie
 * [Third-Person Imitation Learning (2017)](bradly-stadie-third-person-imitation-learning)
 
-## Breden Lake
-* [Building Machines That Learn and Think Like People (2016)](breden-lake-building-machines-that-learn-and-think-like-people)
-
 ## Dzmitry Bahdanau
 * [Neural Machine Translation by Jointly Learning to Align and Translate (2015)](dzmitry-bahdanau-neural-machine-translation-by-jointly-learning-to-align-and-translate)
 
@@ -38,17 +35,18 @@ The following lists papers I've read and reviewed or made notes for.
 ## Jacob Devlin
 * [RobustFill: Neural Program Learning under Noisy I/O (2017)](jacob-devlin-robustfill-neural-program-learning-under-noisy-i-o)
 
-## Kedar Tatwawadi
-* [DeepZip: Lossless Compression using Recurrent (2017)](kedar-tatwawadi-deepzip-lossless-compression-using-recurrent)
-
 ## Matej Balog
 * [DeepCoder: Learning to Write Programs (2016)](matej-balog-deepcoder-learning-to-write-programs)
 
 ## Miltiadis Allamanis
 * [SmartPaste: Learning to Adapt Source Code (2017)](miltiadis-allamanis-smartpaste-learning-to-adapt-source-code)
 
+## Sercan Arik
+* [Deep Voice: Real-time Neural Text-to-Speech (2017)](sercan-arik-deep-voice-real-time-neural-text-to-speech)
+* [Deep Voice 2: Multi-Speaker Neural Text-to-Speech (2017)](sercan-arik-deep-voice-2-multi-speaker-neural-text-to-speech)
+
 ## Théodore Bluche
-* [Scan, Attend and Read: End-to-End Handwritten Paragraph Recognition with MDLSTM Attention (2016)](thedore-bluche-scan-attend-and-read-end-to-end-handwritten-paragraph-recognition-with-mdlstm-attention)
+* [Scan, Attend and Read: End-to-End Handwritten Paragraph Recognition with MDLSTM Attention (2016)](theodore-bluche-scan-attend-and-read-end-to-end-handwritten-paragraph-recognition-with-mdlstm-attention)
 
 ## Yoshua Bengio
 * [Curriculum Learning (2009)](yoshua-bengio-curriculum-learning)
