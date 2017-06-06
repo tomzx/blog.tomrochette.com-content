@@ -56,7 +56,7 @@ taxonomy:
 * k = 4 was used for all games except Space Invaders (due to the beams not being visible on those frames)
 
 # See also
-* [Mari/o](../../mario): Conceptual use of the replay system
+* [Mari/o](../../../agi/mario): Conceptual use of the replay system
 
 # References
 * http://arxiv.org/abs/1312.5602
