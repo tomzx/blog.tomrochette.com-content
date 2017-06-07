@@ -113,7 +113,7 @@ $$
 ## 6.3 Probabilistic Gödel Machine Hardware
 * So far we have focused on an example deterministic machine
 * It is possible to extend this to computers whose actions are computed in probabilistic fashion
-* The expecatation calculus used for probabilistic aspects of the environment simple has to be extended to the hardware itself, and the mechanism for verifying proofs has to take into account that there is no such thing as a certain theorem - at best there are formal statements which are true with such and such probability
+* The expectation calculus used for probabilistic aspects of the environment simple has to be extended to the hardware itself, and the mechanism for verifying proofs has to take into account that there is no such thing as a certain theorem - at best there are formal statements which are true with such and such probability
 
 ## 6.4 More Relations to Previous Work on Less General Self-improving Machines
 * Gödel Machine vs Success-Story Algorithm and Other Metalearners
