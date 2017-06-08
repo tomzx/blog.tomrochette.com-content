@@ -16,6 +16,8 @@ taxonomy:
 	* Incapability of jumping from one state to another without going through the transitive states?
 * By learning enough examples, the brain is able to reconfigure itself in order to be more efficient and by the same means generalizes certain concepts, thus increasing its understanding
 * Hierarchy of abilities (sounds, words, sentences, ideas)
+* Is there a maximum amount of information in the universe?
+	* Is it possible to be "done" with learning all the facts in the universe?
 
 # Overview
 Learning is lossy encoding (similar to lossy compression).
@@ -39,6 +41,29 @@ While reading an article, write down related topics. New knowledge is better rem
 # Learning from example
 * NN is often "blamed" for requiring a lot of data
 * How long does it take for a child unfamiliar with some experience such as what a dog/cat is before they can recognize one? Can a child that has never seen the real animal (only has seen them in children books) extrapolate and recognize one when they see one for the first time?
+
+# Learning according to reinforcement learning
+* Greedy policy
+* Some form of exploration to prevent being blind to better alternatives
+
+# Learning from books and videos
+## Objectives
+* Determine and extract important information
+
+## Books
+* Read a chapter
+* Write a short summary of what was discussed in the chapter
+
+## Videos
+* View the video
+* Write a short summary of what was discussed in the video
+
+# How do I learn?
+* Read theory
+* Observe examples
+* Experiment
+* Write questions and answer them
+* Organize my understanding
 
 # See also
 
