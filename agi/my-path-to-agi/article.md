@@ -374,3 +374,12 @@ Bradly C. Stadie, Pieter Abbeel, Ilya Sutskever
 
 ### Elements of Information Theory (2017-05 - ?)
 Thomas Cover
+
+### Deep Voice: Real-time Neural Text-to-Speech (2017-06)
+Sercan O. Arik, Mike Chrzanowski, Adam Coates, Gregory Diamos, Andrew Gibiansky, Yongguo Kang, Xian Li, John Miller, Andrew Ng, Jonathan Raiman, Shubho Sengupta, Mohammad Shoeybi
+
+### Deep Voice 2: Multi-Speaker Neural Text-to-Speech (2017-06)
+Sercan Arik, Gregory Diamos, Andrew Gibiansky, John Miller, Kainan Peng, Wei Ping, Jonathan Raiman, Yanqi Zhou
+
+### SophoLab; experimental computational philosophy (2017-06 - ?)
+Vicent Wiegel
