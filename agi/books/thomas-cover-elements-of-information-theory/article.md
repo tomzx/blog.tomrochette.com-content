@@ -185,6 +185,56 @@ H(X|Y) \le H(X)
 $$
 with equality if and only if $X$ and $Y$ are independent
 
+### 2.8 Data-Processing Inequality
+* The data processing inequality can be used to show that no clever manipulation of the data can improve the inferences that can be made from the data
+* Random variables $X$, $Y$, $Z$ are said to form a Markov chain in that order (denoted $X \rightarrow Y \rightarrow Z$) if the conditional distribution of $Z$ depends only on $Y$ and is conditionally independent of $X$. Specifically, $X$, $Y$, $Z$ form a Markov chain $X \rightarrow Y \rightarrow Z$ if the joint probability mass function can be written as
+$$
+p(x, y, z) = p(x)p(y|x)p(z|y)
+$$
+* Some simple consequences are as follows:
+	* $X \rightarrow Y \rightarrow Z$ if and only if $X$ and $Z$ are conditionally independent given $Y$
+	* $X \rightarrow Y \rightarrow Z$ implies that $Z \rightarrow Y \rightarrow X$
+	* If $Z = f(Y)$, then $X \rightarrow Y \rightarrow Z$
+* If $X \rightarrow Y \rightarrow Z$, then $I(X; Y) \ge I(X; Z)$
+* If $Z = g(Y)$, we have $I(X; Y) \ge I(X; g(Y))$
+	* Thus functions of the data Y cannot increase the information about X
+
+### 2.9 Sufficient Statistics
+* A function $T(X)$ is said to be a sufficient statistic relative to the family $\{f_\theta(x)\}$ if $X$ is independent of $\theta$ given $T(X)$ for any distribution on $\theta$
+* A statistic $T(X)$ is a minimal sufficient statistic relative to $\{f_\theta(x)\}$ if it is a function of every other sufficient statistic $U$
+	* A minimal sufficient statistic maximally compresses the information about $\theta$ in the sample
+	* Other sufficient statistics may contain additional irrelevant information
+
+### 2.10 Fano's Inequality
+* Let $P_e = \text{Pr}\{\hat{X}(Y) \ne X\}$. Then
+$$
+H(P_e) + P_e \log |\mathcal{X}| \ge H(X|Y)
+$$
+* If $X$ and $X'$ are independent and identically distributed, then
+$$
+\text{Pr}(X = X') \ge 2^{-H(X)}
+$$
+
+## Chapter 3 - Asymptotic Equipartition Property
+-
+
+## Chapter 4 - Entropy Rates of a Stochastic Process
+* A stochastic process is said to be stationary if the joint distribution of any subset of the sequence of random variables is invariant with respect to shifts in the time index; that is
+$$
+\text{Pr}\{X_1 = x_1, X_2 = x_2, \dots, X_n = x_n\} = \text{Pr}\{X_{1+l} = x_1, X_{2+l} = x_2, \dots X_{n+l} = x_n\}
+$$
+for every $n$ and every shift $l$ and for all $x_1, x_2, \dots, x_n \in \mathcal{X}$
+* A discrete stochastic process $X_1, X_2, \dots$ is said to be a Markov chain or a Markov process if for $n = 1, 2, \dots$
+$$
+\text{Pr}(X_{n+1} = x_{n+1} | X_n = x_n, X_{n-1} = x_{n-1}, \dots, X_1 = x_1) = \text{Pr}(X_{n+1} = x_{n+1} | X_n = x_n)
+$$
+for all $x_1, x_2, \dots, x_n, x_{n+1} \in \mathcal{X}$
+* The Markov chain is said to be time invariant if the conditional probability $p(x_{n+1}|x_n)$ does not depend on $n$; that is, for $n = 1, 2, \dots$
+$$
+\text{Pr}\{X_{n+1} = b | X_n = a\} = \text{Pr}\{X_2 = b | X_1 = a\}
+$$
+for all $a, b \in \mathcal{X}$
+
 # See also
 
 # References
