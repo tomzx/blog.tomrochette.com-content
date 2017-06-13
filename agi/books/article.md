@@ -17,6 +17,7 @@ The following lists books that I have read and that I suggest to people that are
 | [Artificial General Intelligence](artificial-general-intelligence) | [Amazon](https://www.amazon.ca/Artificial-General-Intelligence-Ben-Goertzel/dp/354023733X) |
 | [Cognitive Science: An Introduction to the Science of the Mind](cognitive-science-an-introduction-to-the-science-of-the-mind) | [Amazon](https://www.amazon.com/Cognitive-Science-Introduction-Mind/dp/1107653355) |
 | [Deep Learning](ian-goodfellow-deep-learning) | [Amazon](https://www.amazon.com/Deep-Learning-Adaptive-Computation-Machine/dp/0262035618) |
+| [Elements of Information Theory](thomas-cover-elements-of-information-theory) | [Amazon](https://www.amazon.com/Elements-Information-Theory-Telecommunications-Processing/dp/0471241954) |
 | [Gödel, Escher, Bach](godel-escher-bach) | [Amazon](https://www.amazon.com/G%C3%B6del-Escher-Bach-Eternal-D-R-Hofstadter/dp/B003UT2E02) |
 | [Introduction to Automata Theory, Languages, and Computation](introduction-to-automata-theory-languages-and-computation) | [Amazon](https://www.amazon.com/Introduction-Automata-Theory-Languages-Computation/dp/0321455363) |
 | [Naive Set Theory](naive-set-theory) | [Amazon](https://www.amazon.com/Naive-Set-Theory-Paul-Halmos/dp/1781394660) |
