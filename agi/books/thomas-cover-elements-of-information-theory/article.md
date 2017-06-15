@@ -219,6 +219,7 @@ $$
 -
 
 ## Chapter 4 - Entropy Rates of a Stochastic Process
+### 4.1 Markov Chains
 * A stochastic process is said to be stationary if the joint distribution of any subset of the sequence of random variables is invariant with respect to shifts in the time index; that is
 $$
 \text{Pr}\{X_1 = x_1, X_2 = x_2, \dots, X_n = x_n\} = \text{Pr}\{X_{1+l} = x_1, X_{2+l} = x_2, \dots X_{n+l} = x_n\}
@@ -234,6 +235,48 @@ $$
 \text{Pr}\{X_{n+1} = b | X_n = a\} = \text{Pr}\{X_2 = b | X_1 = a\}
 $$
 for all $a, b \in \mathcal{X}$
+
+### 4.2 Entropy Rate
+* The entropy of a stochastic process $\{X_i\}$ is defined by
+$$
+H(\mathcal{X}) = \lim_{n \rightarrow \infty} \frac{1}{n} H(X_1, X_2, \dots, X_n)
+$$
+when the limit exists
+$$
+H'(\mathcal{X}) = \lim_{n \rightarrow \infty} H(X_n | X_{n-1}, X_{n-2}, \dots, X_1)
+$$
+* For a stationary stochastic process, the limits exists and are equal:
+$$
+H(\mathcal{X}) = H'(\mathcal{X})
+$$
+$H'(\mathcal{X})$ is the conditional entropy on the last random variable given the past
+
+### 4.3 Example: Entropy Rate of a Random Walk on a Weighted Graph
+* It is easy to see that a stationary random walk on a graph is time-reversible; that is, the probability of any sequence of states is the same forward or backward
+$$
+\text{Pr}(X_1 = x_1, X_2 = x_2, \dots, X_n = x_n) = \text{Pr}(X_n = x_1, X_{n-1} = x_2, \dots, X_1 = x_n)
+$$
+* Any time-reversible Markov chain can be represented as a random walk on an undirected weighted graph
+
+## Chapter 5 - Data Compression
+### 5.1 Examples of Codes
+* A source code $C$ for a random variable $X$ is a mapping from $\mathcal{X}$, the range of $X$, to $\mathcal{D}^*$, the set of finite-length strings of symbols from a $D$-ary alphabet. Let $C(x)$ denote the codeword corresponding to $x$ and let $l(x)$ denote the length of $C(x)$
+* The expected length $L(C)$ of a source code $C(x)$ for a random variable $X$ with probability mass function $p(x)$ is given by
+$$
+L(C) = \sum_{x \in \mathcal{X}} p(x)l(x)
+$$
+* A code is said to be nonsingular if every element of the range of $X$ maps into a different string in $\mathcal{D}^*$; that is
+$$
+x \ne x' \Rightarrow C(x) \ne C(x')
+$$
+* The extension $C^*$ of a code $C$ is the mapping from finite-length strings of $\mathcal{X}$ to finite-length strings of $\mathcal{D}$, defined by
+$$
+C(x_1x_2x\cdots x_n) = C(x_1)C(x_2)\cdots C(x_n)
+$$
+where $C(x_1)C(x_2)\cdots C(x_n)$ indicates concatenation of the corresponding codewords
+* A code is called uniquely decodable if its extension is non-singular
+* A code is called a prefix code or an instantaneous code if no codeword is a prefix of any other codeword
+	* An instantaneous code is a self-punctuating code
 
 # See also
 
