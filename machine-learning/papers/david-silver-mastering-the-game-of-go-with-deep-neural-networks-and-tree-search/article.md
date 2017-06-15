@@ -1,5 +1,5 @@
 ---
-title: Mastering the Game of Go with Deep Neural Networks and Tree Search
+title: David Silver - Mastering the Game of Go with Deep Neural Networks and Tree Search (2016)
 created: 2016-03-09
 taxonomy:
   category: [Artificial General Intelligence]
@@ -53,4 +53,5 @@ taxonomy:
 * [The Future of Artificial Intelligence](../../../agi/presentations/the-future-of-artificial-intelligence): A presentation by Demis Hassabis which covers some of the content covered in this paper
 
 # References
+* Silver, David, et al. "Mastering the game of Go with deep neural networks and tree search." Nature 529.7587 (2016): 484-489.
 * https://vk.com/doc-44016343_437229031?dl=56ce06e325d42fbc72

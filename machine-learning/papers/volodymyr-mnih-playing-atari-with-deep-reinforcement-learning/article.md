@@ -1,5 +1,5 @@
 ---
-title: Playing Atari with Deep Reinforcement Learning
+title: Volodymyr Mnih - Playing Atari with Deep Reinforcement Learning (2013)
 created: 2016-03-09
 taxonomy:
   category: [Machine Learning]
@@ -59,4 +59,5 @@ taxonomy:
 * [Mari/o](../../../agi/mario): Conceptual use of the replay system
 
 # References
+* Mnih, Volodymyr, et al. "Playing atari with deep reinforcement learning." arXiv preprint arXiv:1312.5602 (2013).
 * http://arxiv.org/abs/1312.5602
