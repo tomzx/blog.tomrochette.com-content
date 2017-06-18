@@ -278,6 +278,52 @@ where $C(x_1)C(x_2)\cdots C(x_n)$ indicates concatenation of the corresponding c
 * A code is called a prefix code or an instantaneous code if no codeword is a prefix of any other codeword
 	* An instantaneous code is a self-punctuating code
 
+### 5.2 Kraft Inequality
+* For any instantaneous code (prefix code) over an alphabet of size D, the codeword lengths $l_1, l_2, \dots, l_m$ must satisfy the inequality
+$$
+\sum_i D^{-l_i} \le 1
+$$
+Conversely, given a set of codeword lengths that satisfy this inequality, there exists an instantaneous code with these word lengths
+* (Extended Kraft Inequality) For any countably infinite set of codewords that form a prefix code, the codeword lengths satisfy the extended Kraft inequality
+$$
+\sum_{i=1}^\infty D^{-l_i} \le 1
+$$
+Conversely, given any $l_1, l_2, \dots$ satisfying the extended Kraft inequality, we can construct a prefix code with these codeword lengths
+
+### 5.3 Optimal Codes
+* The expected length L of any instantaneous D-ary code for a random variable X si greater than or equal to the entropy $H_D(X)$; that is
+$$
+L \ge H_D(X)
+$$
+with equality if and only if $D^{-l_i} = p_i$
+* A probability distribution is called $D$-adic if each of the probabilities is equal to $D^{-n}$ for some $n$, thus we have equality in the (previous) theorem if and only if the distribution of $X$ is $D$-adic
+
+### 5.4 Bounds on the Optimal Code Length
+* Let $l_1^*, l_2^*, \dots, l_m^*$ be optimal codeword lengths for a source distribution $p$ and a $D$-ary alphabet, and let $L^*$ be the associated expected length of an optimal code ($L^* = \sum p_i l_i^*$). Then
+$$
+H_D(X) \le L^* < H_D(X) + 1
+$$
+* The minimum expected codeword length per symbol satisfies
+$$
+\frac{H(X_1, X_2, \dots, X_n)}{n} \le L_n^* < \frac{H(X_1, X_2, \dots, X_n)}{n} + \frac{1}{n}
+$$
+Moreover, if X_1, X_2, \dots, X_n is a stationary stochastic process,
+$$
+L_n^* \rightarrow H(\mathcal{X})
+$$
+where $H(\mathcal{X})$ is the entropy rate of the process
+* (Wrong code) The expected length under $p(x)$ of the code assignment $l(x) = \lceil \log \frac{1}{q(x)} \rceil$ satifies
+$$
+H(p) + D(p || q) \le E_pl(X) < H(p) + D(p || q) + 1
+$$
+
+### 5.5 Kraft Inequality for Uniquely Decodable Codes
+* (McMillan) The codeword lengths of any uniquely decodable $D$-ary code must satisfy the Kraft inequality
+$$
+\sum D^{-l_i} \le 1
+$$
+Conversely, given a set of codeword lengths that satisfy this inequality, it is possible to construct a uniquely decodable code with these codeword lengths
+
 # See also
 
 # References
