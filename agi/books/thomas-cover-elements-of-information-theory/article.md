@@ -324,6 +324,13 @@ $$
 $$
 Conversely, given a set of codeword lengths that satisfy this inequality, it is possible to construct a uniquely decodable code with these codeword lengths
 
+### 5.8 Optimality of Huffman Codes
+* It is important to remember that there are many optimal codes: inverting all the bits or exchanging two codewords of the same length will give another optimal code
+* For any distribution, there exists an optimal instantaneous code (with minimum expected length) that satisfies the following properties
+	* The length are ordered inversely with the probabilities (i.e., if $p_j > p_k$, then $l_j \le l_k$)
+	* The two longest codewords have the same length
+	* Two of the longest codewords differ only in the last bit and correspond to the two least likely symbols
+
 # See also
 
 # References
