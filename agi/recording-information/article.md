@@ -9,22 +9,22 @@ taxonomy:
 ## Context
 
 ## Learned in this study
+* Information is not the same as data. The same information can be expressed (coded) using more or less data
 
 ## Things to explore
-
 * Which channel has the best retention rate?
 * What is the rate of image creation within the mind?
 
 # Overview
 
 # Output
-
 * Handwriting: 30 wpm [^5]
+* Sign: About half the rate of speech, thus 50-62 wpm [^6]
 * Typing: 50-80 wpm [^5] [^4]
-* Speech: 100-125 wpm, slide presentations - 150-160 wpm, audiobooks [^5]
+* Speech: 100-125 wpm for slide presentations, 150-160 wpm for audiobooks [^5]
 
 # Input
-* Listening: 100-125 wpm, slide presentations - 150-160 wpm, audiobooks [^5]
+* Listening: 100-125 wpm for slide presentations, 150-160 wpm for audiobooks [^5]
 * Reading: 228±30 wpm (in English) [^5]
 
 # Space requirements
@@ -65,5 +65,6 @@ Source: National Highway Institute
 [^3]: http://thepeakperformancecenter.com/educational-learning/learning/principles-of-learning/learning-pyramid/
 [^4]: http://typefastnow.com/average-typing-speed
 [^5]: https://en.wikipedia.org/wiki/Words_per_minute
+[^6]: http://lcn.salk.edu/publications/SOL/SOL%20-%208%20Rate%20of%20Speech%20and%20Sign.pdf
 
 * https://en.wikipedia.org/wiki/Forgetting_curve
