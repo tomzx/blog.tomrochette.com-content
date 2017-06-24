@@ -312,7 +312,7 @@ $$
 L_n^* \rightarrow H(\mathcal{X})
 $$
 where $H(\mathcal{X})$ is the entropy rate of the process
-* (Wrong code) The expected length under $p(x)$ of the code assignment $l(x) = \lceil \log \frac{1}{q(x)} \rceil$ satifies
+* (Wrong code) The expected length under $p(x)$ of the code assignment $l(x) = \left\lceil \log \frac{1}{q(x)} \right\rceil$ satifies
 $$
 H(p) + D(p || q) \le E_pl(X) < H(p) + D(p || q) + 1
 $$
@@ -330,6 +330,29 @@ Conversely, given a set of codeword lengths that satisfy this inequality, it is 
 	* The length are ordered inversely with the probabilities (i.e., if $p_j > p_k$, then $l_j \le l_k$)
 	* The two longest codewords have the same length
 	* Two of the longest codewords differ only in the last bit and correspond to the two least likely symbols
+* Shannon code
+$$
+l_i = \left\lceil \log_D \frac{1}{p_i} \right\rceil
+$$
+$$
+H_D(X) \le L < H_D(X) + 1
+$$
+* Huffmann code
+$$
+L^* = \min_{\sum D^{-l_i} \le 1} \sum p_il_i
+$$
+$$
+H_D(X) \le L^* < H_D(X) + 1
+$$
+* Wrong code: $X \sym p(x), l(x) = \left\lceil \log \frac{1}{q(x)} \right\rceil, L = \sum p(x)l(x)
+$$
+H(p) + D(p||q) \le L < H(p) + D(p||q) + 1
+$$
+
+## Chapter 6 - Gambling and Data Compression
+### 6.4 The Entropy of English
+* The entropy of the zeroth-order model is log 27 = 4.76 bits (27 => 26 letters + space)
+* The first-order model gives an estimate of the entropy of 4.03 bits per letter, while the fourth-order model gives an estimate of 2.8 bits per letter
 
 # See also
 
