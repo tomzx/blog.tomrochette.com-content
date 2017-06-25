@@ -339,7 +339,7 @@ H_D(X) \le L < H_D(X) + 1
 $$
 * Huffmann code
 $$
-L^* = \min_{\sum D^{-l_i} \le 1} \sum p_il_i
+L^* = \min_{\sum D^{-l_i} \le 1} \sum p_i l_i
 $$
 $$
 H_D(X) \le L^* < H_D(X) + 1
@@ -353,6 +353,68 @@ $$
 ### 6.4 The Entropy of English
 * The entropy of the zeroth-order model is log 27 = 4.76 bits (27 => 26 letters + space)
 * The first-order model gives an estimate of the entropy of 4.03 bits per letter, while the fourth-order model gives an estimate of 2.8 bits per letter
+
+* Doubling rate
+$$
+W(\textbf{b}, \textbf{p}) = E(\log S(X)) = \sum_{k=1}^m p_k \log b_k o_k
+$$
+* Optimal doubling rate
+$$
+W^*(\textbf{p}) = \max_{\textbf{b}} W(\textbf{b}, \textbf{p})
+$$
+* Proportional gambling is log-optimal
+$$
+W^*(\textbf{p}) = \max_{\textbf{b}} W(\textbf{b}, \textbf{p}) = \sum p_i \log o_i - H(\textbf{p})
+$$
+is achieved by $\textbf{b}^* = \textbf{p}$
+* Growth rate: Wealth grows as $S_n \doteq 2^{nW^*(\textbf{p})}$
+* Conservation law: For uniform fair odds,
+$$
+H(\textbf{p}) + W^*(\textbf{p}) = \log m
+$$
+* Side information: In a horse race $X$, the increase $\Delta W$ in doubling rate due to side information $Y$ is
+$$
+\Delta W = I(X; Y)
+$$
+
+## Chapter 7 - Channel Capacity
+* We define a discrete channel to be a system consisting of an input alphabet $\mathcal{X}$ and output alphabet $\mathcal{Y}$ and a probability transition matrix $p(y|x)$ that expresses the probability of observing the output symbol $y$ given that we send the symbol $x$
+* The channel is said to be memoryless if the probability distribution of the output depends only on the input at that time and is conditionally independent of previous channel inputs or outputs
+* We define "information" channel capacity of a discrete memoryless channel as
+$$
+C = \max_{p(x)} I(X; Y)
+$$
+
+### 7.2 Symmetric Channels
+* A channel is said to be symmetric if the rows of the channel transition matrix $p(y|x)$ are permutations of each other and the columns are permutations of each other
+* A channel is said to be weakly symmetric if every row of the transition matrix $p(\cdot|x)$ is a permutation of every other row and all the column sums $\sum_x p(y|x)$ are equal
+* For a weakly symmetric channel,
+$$
+C = \log|\mathcal{Y}| - H(\text{row of the transition matrix})
+$$
+and this is achieved by a uniform distribution on the input alphabet
+
+### 7.3 Properties of Channel Capacity
+* $C \ge 0$ since $I(X; Y) \ge 0$
+* $C \le \log|\mathcal{X}|$ since $C = \max I(X; Y) \le \max H(X) = \log|\mathcal{X}|$
+* $C \le \log|\mathcal{Y}|$ for the same reason
+* $I(X; Y)$ is a continuous function of $p(x)$
+* $I(X; Y)$ is a concave function of $p(x)$
+
+### 7.5 Definitions
+* A discrete channel, denoted by $(\mathcal{X}, p(y|x), \mathcal{Y})$, consists of two finite sets $\mathcal{X}$ and $\mathcal{Y}$ and a collection of probability mass functions $(y|x)$, one for each $x \in \mathcal{X}$, such that for every $x$ and $y$, $p(y|x) \ge 0$, and for every $x$, $\sum_y p(y|x) = 1$, with the interpretation that $X$ is the input and $Y$ is the output of the channel
+* The n-th extension of the discrete memoryless channel (DMC) is the channel $(\mathcal{X}^n, p(y^n|x^n), \mathcal{Y}^n)$ where
+$$
+p(y_k|x^k, y^{k-1}) = p(y_k|x_k), k = 1, 2, \dots, n
+$$
+* An $(M, n)$ code for the channel $(\mathcal{X}, p(y|x), \mathcal{Y})$ consists of the following:
+	* An index set $\{1, 2, \dots, M\}$
+	* An encoding function $X^n$: $\{1, 2, \dots, M\} \rightarrow \mathcal{X}$, yielding codewords $x^n(1), x^n(2), \dots, x^n(M)$. The set of codewords is called the codebook
+	* A decoding function
+$$
+g: \mathcal{Y}^n \rightarrow \{1, 2, \dots, M\}
+$$
+which is a deterministic rule that assigns a guess to each possible received vector
 
 # See also
 
