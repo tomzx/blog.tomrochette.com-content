@@ -3,7 +3,7 @@ title: Alex Graves - Automated Curriculum Learning for Neural Networks (2017)
 created: 2017-06-23
 taxonomy:
   category: [Machine Learning]
-  status: in progress
+  status: finished
 ---
 
 ## Context
@@ -60,6 +60,9 @@ $$
 ### 3.2. Complexity-driven Progress
 * According to the Minimum Description Length (MDL) principle, increase in the model complexity by a certain amount is only worthwhile if it compresses the data by a greater amount
 	* We would therefore expect the complexity to increase most in response to the training examples from which the network is best able to generalize
+
+## 5. Conclusion
+* We note that uniformly sampling from all tasks is a surprisingly strong benchmark. We speculate that this is because learning is dominated by gradients from the tasks on which the network is making fastest progress, inducing a kind of implicit curriculum, albeit with the inefficiency of unnecessary samples
 
 # See also
 
