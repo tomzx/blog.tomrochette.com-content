@@ -16,6 +16,8 @@ If you are interested in a more digestible path through the same content I've ex
 
 If you have comments and suggestions, feel free to let me know through the comments!
 
+Note: The dates in parenthesis indicate when I started and finished reading a given book/paper, not their publication date.
+
 # Overview
 
 ## 2014
@@ -381,5 +383,32 @@ Sercan O. Arik, Mike Chrzanowski, Adam Coates, Gregory Diamos, Andrew Gibiansky,
 ### Deep Voice 2: Multi-Speaker Neural Text-to-Speech (2017-06)
 Sercan Arik, Gregory Diamos, Andrew Gibiansky, John Miller, Kainan Peng, Wei Ping, Jonathan Raiman, Yanqi Zhou
 
+### Toward an Architecture for Never-Ending Language Learning (2017-06)
+Andrew Carlson, Justin Betteridge, Bryan Kisiel, Burr Settles, Estevam R. Hruschka, Tom M. Mitchell
+
+### Human-level control through deep reinforcement learning (2017-06)
+Volodymyr Mnih, Koray Kavukcuoglu, David Silver, Andrei A. Rusu, Joel Veness, Marc G. Bellemare, Alex Graves, Martin A. Riedmiller, Andreas Fidjeland, Georg Ostrovski, Stig Petersen, Charles Beattie, Amir Sadik, Ioannis Antonoglou, Helen King, Dharshan Kumaran, Daan Wierstra, Shane Legg, Demis Hassabis
+
 ### SophoLab; experimental computational philosophy (2017-06 - ?)
 Vicent Wiegel
+
+### Multi-Dimensional Recurrent Neural Networks (2017-06)
+Alex Graves, Santiago Fernandez, Juergen Schmidhuber
+
+### Grid Long Short-Term Memory (2017-06)
+Nal Kalchbrenner, Ivo Danihelka, Alex Graves
+
+### One Model To Learn Them All (2017-06)
+Lukasz Kaiser, Aidan N. Gomez, Noam Shazeer, Ashish Vaswani, Niki Parmar, Llion Jones, Jakob Uszkoreit
+
+### Schema Networks: Zero-shot Transfer with a Generative Causal Model of Intuitive Physics (2017-06)
+Ken Kansky, Tom Silver, David A. Mély, Mohamed Eldawy, Miguel Lázaro-Gredilla, Xinghua Lou, Nimrod Dorfman, Szymon Sidor, Scott Phoenix, Dileep George
+
+### The Predictron: End-To-End Learning and Planning (2017-06)
+David Silver, Hado van Hasselt, Matteo Hessel, Tom Schaul, Arthur Guez, Tim Harley, Gabriel Dulac-Arnold, David Reichert, Neil Rabinowitz, André Barreto, Thomas Degris
+
+### Automated Curriculum Learning for Neural Networks (2017-06)
+Alex Graves, Marc G. Bellemare, Jacob Menick, Rémi Munos, Koray Kavukcuoglu
+
+### The Strategic Student Approach for Life-Long Exploration and Learning (2017-06)
+Manuel Lopes, Pierre-Yves Oudeyer
