@@ -11,7 +11,7 @@ A seed AI is an initial computer program that is able to recursively self-improv
 
 Seed AI is interesting because it would mean writing a very bad version of it initially which would get improved by the algorithm itself. Furthermore, it would also mean that you might be able to give it external programs and it may propose improvements to them.
 
-In other words, a seed AI is one that would learn and understand how program works, what their purpose is and what meaningful improvements can be made.
+In other words, a seed AI is one that would learn and understand how programs work, what their purpose is and what meaningful improvements can be made.
 
 ## Learned in this study
 * A program is a dictionary of functions
@@ -27,7 +27,7 @@ In other words, a seed AI is one that would learn and understand how program wor
     * Is there such a thing as a *single* "perfect" program?
 * Isomorphisms of programs considered/identified as integers
 * What kind of analysis can be done in order to reduce/discover isomorphic programs?
-* Are sleep() calls put into code *always* candidate for optimisation?
+* Are sleep() calls put into code *always* candidates for optimization?
 * What is the impact of rand() in testing for algorithmic improvement?
 * DNA is code, and it most likely didn't start the length it is now.
 	* In order to lengthen, smaller parts could have merged together (working programs merged/concatenated to one another)
@@ -39,24 +39,25 @@ In other words, a seed AI is one that would learn and understand how program wor
 * Data structure optimization through code analysis (how is this data used and could another structure be more efficient for that same purpose?)
 * Self-improvement vs improvement vs learning
 * What kind of analysis can be done in order to reduce/discover isomorphic programs?
-* A seed AI is considered to be the minimal program that will produce a chain of self-improvements. This in turn means that the program will likely increase in length as its complexity increases. Furthermore, this also means that it will go through a series of implementations, some of which will contain the original seed AI code, and some which may not. What I'm trying to get at is that this "bootstrapped" seed AI will have many "appearances/forms", which means that we can look for seed AI at various stages in its evolution, hopefully finding any of which we can use to get the process going
+* A seed AI is considered to be the minimal program that will produce a chain of self-improvements. This, in turn, means that the program will likely increase in length as its complexity increases. Furthermore, this also means that it will go through a series of implementations, some of which will contain the original seed AI code and some which may not. What I'm trying to get at is that this "bootstrapped" seed AI will have many "appearances/forms", which means that we can look for seed AI at various stages in its evolution, hopefully finding any of which we can use to get the process going
 * Can we use AST analysis to determine the number of potential programs of breadth b and depth d?
-* What are the statistics on the number of parameters per function? (how many of arity 0, 1, 2, ...?)
+* What is the statistics on the number of parameters per function? (how many of arity 0, 1, 2, ...?)
+* How can you, starting with a list of programs, create new (and valuable) programs?
 
 # Overview
-The goal of this study is to look into the constraints and requirements that goes into building what is called a *Seed AI*, that is, a program that is able to improve itself.
+The goal of this study is to look into the constraints and requirements that go into building what is called a *Seed AI*, that is, a program that is able to improve itself.
 
-The goal of building such a program is to then allow it to run free and hope that it will be able to rapidly (hopefully at an exponential rate) improve itself. With such rapid rate of improvement, it should be able to catch up with our intelligence rapidly (assuming intelligence is only a manifestation of the emergence of knowledge) and once it has surpassed us, *hopefully* help us improve our understanding of the world and answer questions we haven't been able to answer ourselves yet.
+The goal of building such a program is to then allow it to run free and hope that it will be able to rapidly (hopefully at an exponential rate) improve itself. With such rapid rate of improvement, it should be able to catch up with our intelligence rapidly (assuming intelligence is only a manifestation of the emergence of knowledge) and once it has surpassed us, *hopefully*, help us improve our understanding of the world and answer questions we haven't been able to answer ourselves yet.
 
-We will obviously neglect discussing about means to control this seed AI as well as any negative consequences related to building such an AI. Those are extremely important topics, however they are not the focus of this article.
+We will obviously neglect to discuss about means to control this seed AI as well as any negative consequences related to building such an AI. Those are extremely important topics, however, they are not the focus of this article.
 
-For most of the article we'll consider that the seed AI will start from scratch and build up its own language. We thus will assume that the lowest language available to it is the assembly language of the hardware architecture it is deployed on (most likely x86-64). It seems obvious that at some point in time the seed AI will have to consider the hardware architecture it is running on such that it may improve it further.
+For most of the article, we'll consider that the seed AI will start from scratch and build up its own language. We thus will assume that the lowest language available to it is the assembly language of the hardware architecture it is deployed on (most likely x86-64). It seems obvious that at some point in time the seed AI will have to consider the hardware architecture it is running on such that it may improve it further.
 
 Let us first start by designing a naive program generator, with the hope we can build something simple enough that it can run on its own and evolve.
 
 # Understanding the "core" language
 The original 8086/8088 instruction set had around 100 instructions[^1]. Given this set, the seed AI has two options on how to proceed:
-* naively generate program by concatenating instructions
+* naively generate programs by concatenating instructions
 * test each instruction and attempt to reason about the inputs and the outputs (registers and flags)
 In all cases, we (as the seed AI programmer) will have no choice but to write some sort of bootstrap program.
 
@@ -78,13 +79,13 @@ We can think about each program as being part of a tree where the root is the em
 Each level **n** of the tree represent the strings of length **n**. The root of the tree has level **n** = 0 and thus has a length of 0 while a string at level **n** = 10 has a length of 10.
 
 # Naive program generator
-A 10 character long program in the range of ASCII 32 - 127 will have approximately $((127 + 1) - 32)^{10} = 6.6 \times 10^{19}$ (that's 66 quintillion) possible permutations.
+A 10 character long program in the range of ASCII 32 - 127 will have approximately $((127 + 1) - 32)^{10} = 6.6 \times 10^{19}$ (that's 66 quintillions) possible permutations.
 
-To put 66 quintillion in perspective, let say we can test approximately 10^4 programs per second (ignoring the fact that the longer the programs get, the longer the compiler will take to *process* the program, but in the case of a 10 character program, it's negligible). We're left with about $2.1 \times 10^8$ years of computation to do ($\frac{6.6 \times 10^{19} programs}{10^4 \frac{programs}{s} \times 365 \frac{day}{year} \times 24 \frac{h}{day} \times 60 \frac{m}{h} \times 60 \frac{s}{m}}$). Obviously we could use various methods to improve our odds of getting there faster, for instance by using parallelism (using multiple cores, multiple processors, multiple computers).
+To put 66 quintillions in perspective, let say we can test approximately 10^4 programs per second (ignoring the fact that the longer the programs get, the longer the compiler will take to *process* the program, but in the case of a 10 character program, it's negligible). We're left with about $2.1 \times 10^8$ years of computation to do ($\frac{6.6 \times 10^{19} programs}{10^4 \frac{programs}{s} \times 365 \frac{day}{year} \times 24 \frac{h}{day} \times 60 \frac{m}{h} \times 60 \frac{s}{m}}$). Obviously we could use various methods to improve our odds of getting there faster, for instance by using parallelism (using multiple cores, multiple processors, multiple computers).
 
-However, testing those 66 quintillion programs seems like a big waste of time, power and resources. Only a certain percentage of those 66 quintillion permutations are valid code. Thus, it is obvious that generating all those permutations is a naive way to generate *potentially* valid programs.
+However, testing those 66 quintillion programs seems like a big waste of time, power, and resources. Only a certain percentage of those 66 quintillion permutations are valid code. Thus, it is obvious that generating all those permutations is a naive way to generate *potentially* valid programs.
 
-Furthermore, to truly understand the issue here, we're talking about generating *only* the set of all valid strings of length 10, which is terribly small. Increase the length by one and you now have $((127 + 1) - 32)^{11} - ((127 + 1) - 32)^{(11 - 1)} = 6.3 \times 10^{21}$ (6 sextillion) of programs of length 11 to check (note that we excluded all programs of length 10 or less). Thus, building any *real* program that can get into the millions of lines of code and with an average of 10 characters per line, will require you to be wait for a while.
+Furthermore, to truly understand the issue here, we're talking about generating *only* the set of all valid strings of length 10, which is terribly small. Increase the length by one and you now have $((127 + 1) - 32)^{11} - ((127 + 1) - 32)^{(11 - 1)} = 6.3 \times 10^{21}$ (6 sextillion) of programs of length 11 to check (note that we excluded all programs of length 10 or less). Thus, building any *real* program that can get into the millions of lines of code and with an average of 10 characters per line, will require you to wait for a while.
 
 One interesting problem here is that very small programs can be valid. For instance `0;` is a valid program. For that matter, any number should be a valid program in C (in our little 10 character program, we can generate $10^9$ programs based only on numbers: 9 numbers from 0-9 and a semi-colon (;) to terminate, considering all programs are wrapped within the obligatory `void main() { code here }`). This means we can basically generate many programs that basically do nothing other than creating giant numbers. Furthermore, there's also a ton of programs that will do arithmetic but never print out anything, or print a ton of garbage/random. Maybe it is something we want... But often it's not (and such code is generally stripped by compilers during optimization).
 
@@ -101,19 +102,19 @@ What we can do to greatly reduce the search space is to teach the program genera
 * <tbc></tbc>
 
 # Reducing the search scope
-In an attempt to reduce the volume of valid, but isomorphic programs, we will spend a bit of time studying what make different programs (or functions) isomorphic (different at the high level language but the same from a conceptual perspective).
+In an attempt to reduce the volume of valid, but isomorphic programs, we will spend a bit of time studying what make different programs (or functions) isomorphic (different at the high-level language but the same from a conceptual perspective).
 
-We'll assume we're using a high level language with typing such as C++/Java/PHP.
+We'll assume we're using a high-level language with typing such as C++/Java/PHP.
 
 ```cpp
 C x(A a, B b) = C y(B b, A a)
 ```
 
-Two functions which have the exact same internal logic and return type but different parameters order are isomorphic. Furthermore, many functions which do not have the same syntax can have the same semantic (different code, same result). In order to reduce the amount of functions generated with the same internal logic but different signature, we'll establish the following rule:
+Two functions which have the exact same internal logic and return type but different parameters order are isomorphic. Furthermore, many functions which do not have the same syntax can have the same semantic (different code, same result). In order to reduce the number of functions generated with the same internal logic but different signature, we'll establish the following rule:
 
 **Parameter ordering rule:** Parameters shall be ordered by the lexicographical ordering (that is (a, b) <= (a', b') if and only if a < a' or (a = a' and b <= b')) of their type. Parameters of the same type are considered to be indifferentiable (their order does not matter, and thus there can only be 1).
 
-For a number $x$ of different parameters there is at most $x!$ signature permutations. Using the **Parameter ordering rule**, we can limit it to 1.
+For a number $x$ of different parameters, there is at most $x!$ signature permutations. Using the **Parameter ordering rule**, we can limit it to 1.
 
 If there are $x$ types in the system, for a function with $y$ parameters we have at most $y^x$ signature permutations. Following the **Parameter ordering rule**, we can limit it to $\binom{y+(x-1)}{x-1}$. For example, a system with 3 types and a function with 3 parameters will have $\binom{3+(3-1)}{3-1} = \binom{5}{2} = 10$ potential function signatures and not $3^3 = 27$.
 
@@ -125,7 +126,7 @@ If there are $x$ types in the system, for a function with $y$ parameters we have
 | 4 | $\binom{x+3}{x-1}$ | $\frac{x(x+1)(x+2)(x+3)}{24}$ | $4^x$ |
 | y | $\binom{y+(x-1)}{x-1}$ | $\frac{(y+(x-1))!}{(x-1)!y!}$ | $y^x$ |
 
-Another thing we may do in order to limit the amount of generatable functions is to add artificial constraints such as "functions shall not have more than 10 statements" or "functions shall not have more than 3 levels of indentations" or "functions shall contain at most 1 level of indirection" (law of Demeter). Using design guidelines and best practices, it may be possible to shape and reduce down the number of "acceptable" functions within our programs.
+Another thing we may do in order to limit the number of generatable functions is to add artificial constraints such as "functions shall not have more than 10 statements" or "functions shall not have more than 3 levels of indentations" or "functions shall contain at most 1 level of indirection" (Law of Demeter). Using design guidelines and best practices, it may be possible to shape and reduce down the number of "acceptable" functions within our programs.
 
 Sequential operations that may be executed in any order without affecting the determinism of the function should be considered as a single function.
 
@@ -139,9 +140,9 @@ However, even given these *tools*, the program generator still can spend an imme
 # Testing programs for improvement
 When we think of programs and algorithms quality, we generally think of them in terms of complexity of time and space. Thus, in order to look for improvements in an algorithm (a unit of a program), the seed AI would have to execute said algorithm with various test cases in order to see the impact it has both on time and space. This would be considered the empirical approach to testing algorithms for improvement.
 
-Another approach, known as theoretical approach, consists of analyzing the algorithm in terms of the operation it accomplishes (such as for/foreach/while loops and recursion ([master theorem](https://en.wikipedia.org/wiki/Master_theorem))). This approach is very interesting as it does not require the seed AI to test many cases in order to establish if a modification is an improvement or not (this is akin to doing white box testing).
+Another approach, known as the theoretical approach, consists of analyzing the algorithm in terms of the operation it accomplishes (such as for/foreach/while loops and recursion ([master theorem](https://en.wikipedia.org/wiki/Master_theorem))). This approach is very interesting as it does not require the seed AI to test many cases in order to establish if a modification is an improvement or not (this is akin to doing white box testing).
 
-Finally, there is an hybrid approach, which combines the previous two approaches. If you are only able to analyze the algorithm with some degree of confidence, then it is possible to validate if your estimates are correct by running various test cases against the algorithm. If your estimates are correct, then you can proceed to work on something else, otherwise you may have to review your analysis.
+Finally, there is a hybrid approach, which combines the previous two approaches. If you are only able to analyze the algorithm with some degree of confidence, then it is possible to validate if your estimates are correct by running various test cases against the algorithm. If your estimates are correct, then you can proceed to work on something else, otherwise, you may have to review your analysis.
 
 ## Criteria for *properly* testing programs for improvement
 Assuming an already correct algorithm (one that is devoid of any incorrect behavior), the seed AI...
@@ -219,19 +220,19 @@ graph TD;
 ```
 
 # A second observation (months later)
-The simplest seed AI that exist is simply a natural number *generator*. It probably does not qualify as seed AI in itself, but it has the fundamental functionality we are looking for: it generates programs. In its simplest form, a program is called a binary, which is a base 2 representation of a number. The simplest program that is a number generator starts with the number 0, and it loops infinitely, incrementing this number by 1 each iteration. During each iteration, this number is written to a file, effectively generating a binary/executable.
+The simplest seed AI that exists is simply a natural number *generator*. It probably does not qualify as seed AI in itself, but it has the fundamental functionality we are looking for: it generates programs. In its simplest form, a program is called a binary, which is a base 2 representation of a number. The simplest program that is a number generator starts with the number 0, and it loops infinitely, incrementing this number by 1 each iteration. During each iteration, this number is written to a file, effectively generating a binary/executable.
 
-Obviously such generator will generate an infinite amount of programs, many which will turn out to produce invalid outputs or even crash! Furthermore, we are generating so many programs, yet we are not doing anything with them. Thus we need a second program to do something with these programs. This second program is simple, its task is only to run all the programs produced by the generator. We'll call this program the *executor*. The executor will simply start the program, determine if it crashes, and if it does, it will delete it from the disk. Thus, every program that does not crash will be considered as a seed AI candidate.
+Obviously, such generator will generate an infinite amount of programs, many which will turn out to produce invalid outputs or even crash! Furthermore, we are generating so many programs, yet we are not doing anything with them. Thus we need a second program to do something with these programs. This second program is simple, its task is only to run all the programs produced by the generator. We'll call this program the *executor*. The executor will simply start the program, determine if it crashes, and if it does, it will delete it from the disk. Thus, every program that does not crash will be considered as a seed AI candidate.
 
 At this point we can already see various issues with this approach:
 * The generator is building an immense amount of programs that are simply invalid (which should not get to the executor)
-	* This decision was made in order to keep the generator simple. An intermediate step between the generator and the executor could be to verify the binary, and eliminate any that are invalid.
+	* This decision was made in order to keep the generator simple. An intermediate step between the generator and the executor could be to verify the binary and eliminate any that are invalid.
 * The executor is unable to execute programs that require input(s)
 	* It technically can execute them, but any program that is expecting inputs and crash upon not receiving them will be thrown away (which is a good thing).
 * The executor cannot decide if a program that is in a loop will ever terminate (known as the halting problem)
 	* At this point, this is not really an issue. The executor can consider that after X seconds, if the program is still alive, then it can be kept for further processing.
 * There is no way for the executor to tell if a program is better than any other
-	* This will be our biggest challenge going forward. It is basically the task of determining through some means if a program is more valuable than another one (often known as an utility function). The fact that we are already removing invalid programs is an example of an evaluation done by the utility function.
+	* This will be our biggest challenge going forward. It is basically the task of determining through some means if a program is more valuable than another one (often known as a utility function). The fact that we are already removing invalid programs is an example of an evaluation done by the utility function.
 
 # See also
 * [Automated programming](../automated-programming)
