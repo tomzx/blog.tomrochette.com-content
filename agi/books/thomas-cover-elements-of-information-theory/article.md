@@ -1,4 +1,4 @@
----
+à---
 title: Thomas Cover - Elements of Information Theory - 2006
 created: 2017-05-26
 taxonomy:
@@ -415,6 +415,45 @@ $$
 g: \mathcal{Y}^n \rightarrow \{1, 2, \dots, M\}
 $$
 which is a deterministic rule that assigns a guess to each possible received vector
+* The rate $R$ of an $(M, n)$ code is
+$$
+R = \frac{\log M}{n} \text{bits per transmission}
+$$
+* A rate $R$ is said to be achievable if there exists a sequence of $(\left\lceil 2^{nR} \right\rceil, n)$ codes such that the maximal probability of error $\lambda^{(n)}$ tends to 0 as $n \rightarrow \infty$
+* The capacity of a channel is the supremum of all achievable rates
+
+### 7.6 Jointly Typical Sequences
+* The set $A_\epsilon^{(n)}$ of jointly typical sequences $\{x^n, y^n\}$ with respect to the distribution $p(x, y)$ is the set of $n$-sequences with empirical entropies $\epsilon$-close to the true entropies
+$$
+A_\epsilon^{(n)} = \left\{(x^n, y^n) \in \mathcal{X}^n \times \mathcal{Y}^n : \\
+\left|\frac{1}{n}\log p(x^n) - H(x)\right| < \epsilon, \\
+\left|\frac{1}{n}\log p(y^n) - H(Y)\right| < \epsilon, \\
+\left|\frac{1}{n}\log p(x^n, y^n) - H(X, Y)\right| < \epsilon\right\} \\
+$$
+where
+$$
+p(x^n, y^n) = \prod_{i=1}^n p(x_i, y_i)
+$$
+
+### 7.7 Channel Coding Theorem
+* Channel coding theorem: For a discrete memoryless channel, all rates below capacity $C$ are achievable. Specifically, for every rate $R < C$, there exists a sequence of $(2^{nR}, n)$ codes with maximum probability of error $\lambda^{(n)} \rightarrow 0$.
+	* Conversely, any sequences of $(2^{nR}, n)$ codes with $\lambda^{(n)} \rightarrow 0$ must have $R \le C$
+
+### 7.9 Fano's Inequality and the Converse to the Coding Theorem
+* Strong converse: for rates above capacity, the probability of error goes exponentially to 1
+* At rates below capacity $P_e^{(n)} \rightarrow 0$ exponentially, and at rates above capacity $P_e^{(n)} \rightarrow 1$ exponentially
+
+### 7.10 Equality in the Converse to the Channel Coding Theorem
+* A capacity-achieving zero-error code has distinct codewords and the distribution of the $Y_i$'s must be i.i.d. with
+$$
+p^*(y) = \sum_x p*(x)p(y|x)
+$$
+the distribution on $Y$ induced by the optimum distribution on $X$
+
+### 7.11 Hamming Codes
+* The object of coding is to introduce redundancy so that even if some of the information is lost or corrupted, it will still be possible to recover the message at the receiver
+* Obvious coding scheme: repeat information (0 -> 00000, 1 -> 11111), 3 bits out of 5 implies the predicted bit
+* Parity check code: With a block of $n-1$ information bits, we choose the $n$th bit so that the parity of the entire block is 0 (the number of 1's in the block is even)
 
 # See also
 
