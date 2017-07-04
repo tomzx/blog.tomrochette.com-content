@@ -3,7 +3,7 @@ title: Manuel Lopes - The Strategic Student Approach for Life-Long Exploration a
 created: 2017-06-24
 taxonomy:
   category: [Machine Learning]
-  status: in progress
+  status: finished
 ---
 
 ## Context
@@ -65,6 +65,14 @@ s.t. \sum_i n_i = N & , & n_i \ge 0
 \end{align*}
 $$
 * Heuristic of learning progress: At each time instant the student chooses the task where the expected progress is maximum, in other words, the task whose learning curve has a higher derivative (as long as learning is done under a smooth learning curve)
+
+## 3. SSP: A Solution
+* A simple greedy algorithm will provide a solution that is close to optimal for the case of submodular functions thus solving the combinatorial aspect of the problem
+* Two main difficulties we have:
+	* The case of non-submodular functions
+	* The score function needs to be estimated empirically
+* Both problems require a stochastic approach to either assure that early low learning progress is not due to ill behaved score functions and to balance between exploration, to estimate the progress, and exploitation, to select the topic with higher learning progress
+* To have an initial solution to the SSP we can rely on the EXP4 algorithm
 
 # See also
 
