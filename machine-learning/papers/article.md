@@ -10,6 +10,8 @@ The following lists papers I've read and reviewed or made notes for.
 
 # Artificial General Intelligence
 ## Alex Graves
+* [Automated Curriculum Learning for Neural Networks (2017)](alex-graves-automated-curriculum-learning-for-neural-networks)
+* [Multi-Dimensional Recurrent Neural Networks (2007)](alex-graves-multi-dimensional-recurrent-neural-networks)
 * [Neural Turing Machines (2014)](alex-graves-neural-turing-machines)
 * [Offline Handwriting Recognition with Multidimensional Recurrent Neural Networks (2009)](alex-graves-offline-handwriting-recognition-with-multidimensional-recurrent-neural-networks)
 
@@ -24,6 +26,7 @@ The following lists papers I've read and reviewed or made notes for.
 
 ## David Silver
 * [Mastering the Game of Go with Deep Neural Networks and Tree Search (2016)](david-silver-mastering-the-game-of-go-with-deep-neural-networks-and-tree-search)
+* [The Predictron: End-To-End Learning and Planning (2017)](david-silver-the-predictron-end-to-end-learning-and-planning)
 
 ## Dzmitry Bahdanau
 * [Neural Machine Translation by Jointly Learning to Align and Translate (2015)](dzmitry-bahdanau-neural-machine-translation-by-jointly-learning-to-align-and-translate)
@@ -37,11 +40,29 @@ The following lists papers I've read and reviewed or made notes for.
 ## Jacob Devlin
 * [RobustFill: Neural Program Learning under Noisy I/O (2017)](jacob-devlin-robustfill-neural-program-learning-under-noisy-i-o)
 
+## Ken Kansky
+* [Schema Networks: Zero-shot Transfer with a Generative Causal Model of Intuitive Physics (2017)](ken-kansky-schema-networks-zero-shot-transfer-with-a-generative-causal-model-of-intuitive-physics)
+
+## Łukasz Kaiser
+* [One Model To Learn Them All (2017)](lukasz-kaiser-one-model-to-learn-them-all)
+
+## Manuel Lopes
+* [The Strategic Student Approach for Life-Long Exploration and Learning (2012)](manuel-lopes-the-strategic-student-approach-for-life-long-exploration-and-learning)
+
 ## Matej Balog
 * [DeepCoder: Learning to Write Programs (2016)](matej-balog-deepcoder-learning-to-write-programs)
 
+## Max Jaderberg
+* [Reading Text in the Wild with Convolutional Neural Networks (2014)](max-jaderberg-reading-text-in-the-wild-with-convolutional-neural-networks)
+
 ## Miltiadis Allamanis
 * [SmartPaste: Learning to Adapt Source Code (2017)](miltiadis-allamanis-smartpaste-learning-to-adapt-source-code)
+
+## Nal Kalchbrenner
+* [Grid Long Short-Term Memory (2015)](nal-kalchbrenner-grid-long-short-term-memory)
+
+## Ralf Herbrich
+* [Learning and Generalization: Theoretical Bounds (2001)](ralf-herbrich-learning-and-generalization-theoretical-bounds)
 
 ## Sercan Arik
 * [Deep Voice: Real-time Neural Text-to-Speech (2017)](sercan-arik-deep-voice-real-time-neural-text-to-speech)
