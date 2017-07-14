@@ -3,7 +3,7 @@ title: Cristian Bucila - Model Compression (2006)
 created: 2017-07-07
 taxonomy:
   category: [Machine Learning]
-  status: in progress
+  status: finished
 ---
 
 ## Context
@@ -14,6 +14,7 @@ taxonomy:
 * When is it not possible to compress an ensemble model?
 * Is there a concept of lossy vs lossless compression of models?
 * Why wasn't MUNGE compared against SMOTE, given it existed in the literature at that point (2002)?
+* In most cases covered by the experiment, a complex NN/ensemble can be compressed to a single layer of hidden units, however, can this also apply to problems where we would use CNN/RNN?
 
 # Overview
 * Replace an ensemble by a simpler neural network (let a NN replicate the decisions a larger model would take)
@@ -56,6 +57,11 @@ taxonomy:
 * On average, once the pseudo training set contains 100k or more data, the mimic neural nets perform considerably better than the best individual models in the ensemble libraries, and nearly as well as the target ensemble itself
 * This is remarkable given that the mimic neural nets are 100-100000 times smaller than the ensembles, and 100 to 10000 times faster to execute
 * It suggests that much smaller high performing models are possible if we only knew how to train them on the original training data
+* Interestingly, ADULT is the only data set that has high-arity nominal attributes. The three attributes with the highest arity have 14, 16, 41 unique values. To train a neural net on ADULT, these attributes must first be converted to 14, 16, and 41 distinct binary attributes. The ADULT problem has only 14 attributes to begin with, yet these three attributes alone expand to 71 sparsely coded binary inputs. It is possible that neural nets are not well suited for this kind of problem, and may prevent the mimic neural net from learning the ensemble target function
+	* An alternative possibility is that the MUNGE procedure is not effective at generating pseudo data for this kind of problem
+
+## 4. Discussion
+* The expense of model compression is justified only when high performing models must be used in applications with limited storage or computation power, in applications where predictions are needed in real time, or where there will be very many test cases
 
 # See also
 
