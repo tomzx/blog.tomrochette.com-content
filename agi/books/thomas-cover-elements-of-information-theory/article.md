@@ -1,4 +1,4 @@
-à---
+---
 title: Thomas Cover - Elements of Information Theory - 2006
 created: 2017-05-26
 taxonomy:
@@ -454,6 +454,85 @@ the distribution on $Y$ induced by the optimum distribution on $X$
 * The object of coding is to introduce redundancy so that even if some of the information is lost or corrupted, it will still be possible to recover the message at the receiver
 * Obvious coding scheme: repeat information (0 -> 00000, 1 -> 11111), 3 bits out of 5 implies the predicted bit
 * Parity check code: With a block of $n-1$ information bits, we choose the $n$th bit so that the parity of the entire block is 0 (the number of 1's in the block is even)
+
+### 7.12 Feedback Capacity
+* Can we do better with feedback? The surprising answer is no
+* The capacity with feedback, $C_{FB}$, of a discrete memoryless channel is the supremum of all rates achievable by feedback codes
+$$
+C_{FB} = C = \max_{p(x)} I(X; Y)
+$$
+* Feedback can help enormously in simplifying encoding and decoding
+* However, it cannot increase the capacity of the channel
+
+### 7.13 Source-Channel Separation Theorem
+* We can consider the design of a communication system as a combination of two parts, source coding and channel coding
+* We can design source codes for the most efficient representation of the data
+* We can, separately and independently, design channel codes appropriate for the channel
+* The combination will be as effective as anything we could design by considering both problems together
+* The common representation for all kinds of data uses a binary alphabet
+* We have a source $V$ that generates symbols from an alphabet $\mathcal{V}$
+	* We will not make any assumptions about the kind of stochastic process produced by $V$ other than it is from a finite alphabet that satisfies the AEP
+* We want to send the sequence of symbols $V^n = V_1, V_2, \dots, V_n$ over the channel so that the receiver can reconstruct the sequence
+* To do this, we map the sequence onto a codeword $X^n(V^n)$ and send the codeword over the channel
+* The receiver looks at his received sequence $Y^n$ and makes an estimate $\hat{V^n}$ of the sequence $V^n$ that was sent
+* The receiver makes an error if $V^n \ne \hat{V^n}$
+* We define the probability of error as
+$$
+\text{Pr}(V^n \ne \hat{V^n}) = \sum_{y^n} \sum_{v^n} p(v^n)p(y^n|x^n(v^n))I(g(y^n) \ne v^n))
+$$
+where $I$ is the indicator function and $g(y^n)$ is the decoding function
+* (Source-channel coding theorem) If $V_1, V_2, \dots, V^n$ is a finite alphabet stochastic process that satisfies the AEP and $H(\mathcal{V}) < C$, there exists a source-channel code with probability of error $\text{Pr}(\hat{V^n} \ne V^n) \rightarrow 0$. Conversely, for any stationary stochastic process, if $H(\mathcal{V}) > C$, the probability of error is bounded away from zero, and it is not possible to send the process over the channel with arbitrarily low probability of error
+
+## Chapter 8 - Differential Entropy
+### 8.1 Definitions
+* The differential entropy $h(X)$ of a continuous random variable $X$ with density $f(x)$ is defined as
+$$
+h(X) = - \int_S f(x)\log f(x)\ dx
+$$
+where $S$ is the support set of the random variable
+
+## Chapter 13 - Universal Source Coding
+* For many practical situations, the probability distribution underlying the source may be unknown
+* All we know is a class of distributions
+* One possible approach is to wait until we have seen all the data, estimate the distribution from the data, use this distribution to construct the best code, and then go back to the beginning and compress the data using this code
+* There are many situations in which it is not feasible to make two passes over the data, and it is desirable to have a one-pass (or online) algorithm to compress the data that "learns" the probability distribution of the data and uses it to compress the incoming symbols
+* In yet other cases, there is no probability distribution underlying the data - all we are given is an individual sequence of outcomes
+* How well can we compress a sequence? If we do not put any restriction on the class of algorithms, we get a meaningless answer - there always exists a function that compresses a particular sequence to one bit while leaving other sequences uncompressed
+* The ultimate answer for compressibility for an individual sequence is the Kolmogorov complexity of the sequence
+* Let's consider the problem of source coding as a game in which the coder chooses a code that attempts to minimize the average length of the representation and nature chooses a distribution on the source sequence
+* We show that this game has a value that is related to the capacity of a channel with rows of its transition matrix that are the possible distributions on the source sequence
+
+### 13.2 Universal Coding for Binary Sequences
+* We first describe an offline algorithm to describe the sequence; we count the number of 1's in the sequence, and after we have seen the entire sequence, we send a two-stage description of the sequence.
+	* The first stage is a count of the number of 1's in the sequence
+	* The second stage is the index of this sequence among all sequences that have $k$ 1's
+* We now describe a different approach using a mixture distribution that achieves the same result on the fly. We choose the coding distribution $q(x_1, x_2, \dots, x_n) = 2^{-l(x_1, x_2, \dots, x_n)}$ to be a uniform mixture of all $\text{Bernoulli}(\theta)$ distributions on $x_1, x_2, \dots, x_n$
+* This mixture distribution yields a nice expression for the conditional probability of the next symbol given the previous symbols of $x_1, x_2, \dots, x_n$. Let $k_i$ be the number of 1's in the first $i$ symbols of $x_1, x_2, \dots, x_n$
+$$
+q(x_{i+1} = 1 | x^i) = \frac{k_i + 1}{i + 2}
+$$
+
+### 13.3 Arithmetic Coding
+* In arithmetic coding, instead of using a sequence of bits to represent a symbol, we represent it by a subinterval of the unit interval
+* The code for a sequence of symbols is an interval whose length decreases as we add more symbols to the sequence
+
+### 13.4 Lempel-Ziv Coding
+* The key idea of the Lempel-Ziv algorithm is to parse the string into phrases and to replace phrases by pointers to where the same string has occurred in the past
+
+#### 13.4.1 Sliding Window Lempel-Ziv Algorithm
+* The algorithm described in the 1977 paper encodes a string by finding the longest match anywhere within a window of past symbols and represents the string by a pointer to the location of the match within the window and the length of the match
+* We assume that we have a string $x_1, x_2, \dots$ to be compressed from a finite alphabet
+* A parsing $S$ of a string $x_1 x_2 \dots sx_n$ is a division of the string into phrases, separated by commas
+* Let $W$ be the length of the window
+* The algorithm can be described as follows:
+	* Assume that we have compressed the string until time $i - 1$
+	* TO find the next phrase, find the largest $k$ such that for some $j$, $i - 1 - W \le j \le i - 1$, the string of length $k$ starting at $x_j$ is equal to the string (of length $k$) starting at $x_i$
+	* The next phrase is then of length $k$ and is represented by the pair $(P, L)$, where $P$ is the location of the beginning of the match and $L$ is the length of the match
+	* If a match is not found in the window, the next character is sent uncompressed
+	* To distinguish between these two cases, a flag bit is needed, and hence the phrase are of two types:
+		* $(F, P, L)$
+		* $(F, C)$
+		where $C$ represents an uncompressed character
 
 # See also
 
