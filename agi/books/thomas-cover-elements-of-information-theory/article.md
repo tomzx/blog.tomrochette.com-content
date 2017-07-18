@@ -55,7 +55,7 @@ $$
 
 ## Chapter 2 - Entropy, Relative Entropy and Mutual Information
 ### 2.1 Entropy
-* Let $X$ be a discrete random variable with alphabet $\mathcal{X}$ and probability mass function $p(x) = \text{Pr}\{X = x\}, x \in \mathcal{X}$
+* Let $X$ be a discrete random variable with alphabet $\mathcal{X}$ and probability mass function $p(x) = \Pr\{X = x\}, x \in \mathcal{X}$
 * The entropy $H(X)$ of a discrete random variable $X$ is defined by
 $$
 H(X) = - \sum_{x \in \mathcal{X}} p(x) \log p(x)
@@ -206,13 +206,13 @@ $$
 	* Other sufficient statistics may contain additional irrelevant information
 
 ### 2.10 Fano's Inequality
-* Let $P_e = \text{Pr}\{\hat{X}(Y) \ne X\}$. Then
+* Let $P_e = \Pr\{\hat{X}(Y) \ne X\}$. Then
 $$
 H(P_e) + P_e \log |\mathcal{X}| \ge H(X|Y)
 $$
 * If $X$ and $X'$ are independent and identically distributed, then
 $$
-\text{Pr}(X = X') \ge 2^{-H(X)}
+\Pr(X = X') \ge 2^{-H(X)}
 $$
 
 ## Chapter 3 - Asymptotic Equipartition Property
@@ -222,17 +222,17 @@ $$
 ### 4.1 Markov Chains
 * A stochastic process is said to be stationary if the joint distribution of any subset of the sequence of random variables is invariant with respect to shifts in the time index; that is
 $$
-\text{Pr}\{X_1 = x_1, X_2 = x_2, \dots, X_n = x_n\} = \text{Pr}\{X_{1+l} = x_1, X_{2+l} = x_2, \dots X_{n+l} = x_n\}
+\Pr\{X_1 = x_1, X_2 = x_2, \dots, X_n = x_n\} = \Pr\{X_{1+l} = x_1, X_{2+l} = x_2, \dots X_{n+l} = x_n\}
 $$
 for every $n$ and every shift $l$ and for all $x_1, x_2, \dots, x_n \in \mathcal{X}$
 * A discrete stochastic process $X_1, X_2, \dots$ is said to be a Markov chain or a Markov process if for $n = 1, 2, \dots$
 $$
-\text{Pr}(X_{n+1} = x_{n+1} | X_n = x_n, X_{n-1} = x_{n-1}, \dots, X_1 = x_1) = \text{Pr}(X_{n+1} = x_{n+1} | X_n = x_n)
+\Pr(X_{n+1} = x_{n+1} | X_n = x_n, X_{n-1} = x_{n-1}, \dots, X_1 = x_1) = \Pr(X_{n+1} = x_{n+1} | X_n = x_n)
 $$
 for all $x_1, x_2, \dots, x_n, x_{n+1} \in \mathcal{X}$
 * The Markov chain is said to be time invariant if the conditional probability $p(x_{n+1}|x_n)$ does not depend on $n$; that is, for $n = 1, 2, \dots$
 $$
-\text{Pr}\{X_{n+1} = b | X_n = a\} = \text{Pr}\{X_2 = b | X_1 = a\}
+\Pr\{X_{n+1} = b | X_n = a\} = \Pr\{X_2 = b | X_1 = a\}
 $$
 for all $a, b \in \mathcal{X}$
 
@@ -254,7 +254,7 @@ $H'(\mathcal{X})$ is the conditional entropy on the last random variable given t
 ### 4.3 Example: Entropy Rate of a Random Walk on a Weighted Graph
 * It is easy to see that a stationary random walk on a graph is time-reversible; that is, the probability of any sequence of states is the same forward or backward
 $$
-\text{Pr}(X_1 = x_1, X_2 = x_2, \dots, X_n = x_n) = \text{Pr}(X_n = x_1, X_{n-1} = x_2, \dots, X_1 = x_n)
+\Pr(X_1 = x_1, X_2 = x_2, \dots, X_n = x_n) = \Pr(X_n = x_1, X_{n-1} = x_2, \dots, X_1 = x_n)
 $$
 * Any time-reversible Markov chain can be represented as a random walk on an undirected weighted graph
 
@@ -478,10 +478,10 @@ $$
 * The receiver makes an error if $V^n \ne \hat{V^n}$
 * We define the probability of error as
 $$
-\text{Pr}(V^n \ne \hat{V^n}) = \sum_{y^n} \sum_{v^n} p(v^n)p(y^n|x^n(v^n))I(g(y^n) \ne v^n))
+\Pr(V^n \ne \hat{V^n}) = \sum_{y^n} \sum_{v^n} p(v^n)p(y^n|x^n(v^n))I(g(y^n) \ne v^n))
 $$
 where $I$ is the indicator function and $g(y^n)$ is the decoding function
-* (Source-channel coding theorem) If $V_1, V_2, \dots, V^n$ is a finite alphabet stochastic process that satisfies the AEP and $H(\mathcal{V}) < C$, there exists a source-channel code with probability of error $\text{Pr}(\hat{V^n} \ne V^n) \rightarrow 0$. Conversely, for any stationary stochastic process, if $H(\mathcal{V}) > C$, the probability of error is bounded away from zero, and it is not possible to send the process over the channel with arbitrarily low probability of error
+* (Source-channel coding theorem) If $V_1, V_2, \dots, V^n$ is a finite alphabet stochastic process that satisfies the AEP and $H(\mathcal{V}) < C$, there exists a source-channel code with probability of error $\Pr(\hat{V^n} \ne V^n) \rightarrow 0$. Conversely, for any stationary stochastic process, if $H(\mathcal{V}) > C$, the probability of error is bounded away from zero, and it is not possible to send the process over the channel with arbitrarily low probability of error
 
 ## Chapter 8 - Differential Entropy
 ### 8.1 Definitions
@@ -533,6 +533,70 @@ $$
 		* $(F, P, L)$
 		* $(F, C)$
 		where $C$ represents an uncompressed character
+
+#### 13.4.2 Tree-Structured Lempel-Ziv Algorithms
+* Parses a string into phrases, where each phrase is the shortest phrase not seen earlier
+* This algorithm can be viewed as building a dictionary in the form of a tree, where the nodes correspond to phrases seen so far
+
+## Chapter 14 - Kolmogorov Complexity
+* Kolmogorov defined the algorithmic (descriptive) complexity of an object to be the length of the shortest binary computer program that describes the object
+* The definition of complexity is essentially computer independent
+* The expected length of the shortest binary computer description of a random variable is approximately equal to its entropy
+
+### 14.2 Kolomogorov Complexity: Definitions and Examples
+* Let $x$ be a finite-length binary string and let $\mathcal{U}$ be a universal computer
+* Let $l(x)$ denote the length of the string $x$
+* Let $\mathcal{U}$ denote the output of the computer $\mathcal{U}$ when presented with a program $p$
+* We define the Kolmogorov (or algorithmic) complexity of a string $x$ as the minimal description length of $x$
+* The Kolmogorov complexity $K_{\mathcal{U}}(x)$ of a string $x$ with respect to a universal computer $\mathcal{U}$ is defined as
+$$
+K_{\mathcal{U}}(x) = \min_{p:\ \mathcal{U}(p) = x} l(p)
+$$
+the minimum length over all programs that print $x$ and halt
+* The conditional Kolmogorov complexity knowing $l(x)$ is
+$$
+K_{\mathcal{U}}(x|l(x)) = \min_{p:\ \mathcal{U}(p, l(x)) = x} l(p)
+$$
+* If $\mathcal{U}$ is a universal computer, for any other computer $\mathcal{A}$ there exists a constant $c_\mathcal{A}$ such that
+$$
+K_{\mathcal{U}}(x) \le K_{\mathcal{A}}(x) + c_{\mathcal{A}}
+$$
+for all strings $x \in \{0, 1\}^*$, and the constant $c_{\mathcal{A}}$ does not depend on $x$
+* The number of strings $x$ with complexity $K(x) < k$ satisfies
+$$
+|\{x \in \{0, 1\}^*: K(x) < k\}| < 2^k
+$$
+
+### 14.3 Kolmogorov Complexity and Entropy
+* For any computer $\mathcal{U}$,
+$$
+\sum_{p:\ \mathcal{U}(p)\ \text{halts}} 2^{-l(p)} \le 1
+$$
+
+### 14.5 Algorithmically Random and Incompressible
+* Let $X_1, X_2, \dots, X_n$ be drawn according to a Bernolli $(\frac{1}{2})$ process. Then
+$$
+P(K(X_1 X_2 \dots X_n | n) < n - k) < 2^{-k}
+$$
+* A sequence $x_1, x_2, \dots, x_n$ is said to be algorithmically random if
+$$
+K(x_1 x_2 \dots x_n | n) \ge n
+$$
+* We call an infinite string $x$ incompressible if
+$$
+\lim_{n \rightarrow \infty} \frac{K(x_1 x_2 \dots x_n | n)}{n} = 1
+$$
+* If a string $x_1 x_2 \dots$ is incompressible, it satisfies the law of large numbers in the sense that
+$$
+\frac{1}{n}\sum_{i=1}^n x_i \rightarrow \frac{1}{2}
+$$
+
+### 14.6 Universal Probability
+* The universal probability of a string $x$ is
+$$
+P_{\mathcal{U}}(x) = \sum_{p:\ \mathcal{U}(p) = x} 2^{-l(p)} = \Pr(\mathcal{U}(p) = x)
+$$
+(the probability that a program randomly drawn as a sequence of fair coin flips will print out the string $x$)
 
 # See also
 
