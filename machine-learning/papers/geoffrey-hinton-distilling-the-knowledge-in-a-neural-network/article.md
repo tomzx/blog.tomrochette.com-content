@@ -3,7 +3,7 @@ title: Geoffrey Hinton - Distilling the Knowledge in a Neural Network (2015)
 created: 2017-07-07
 taxonomy:
   category: [Machine Learning]
-  status: in progress
+  status: finished
 ---
 
 ## Context
@@ -35,6 +35,11 @@ taxonomy:
 * In the simplest form of distillation, knowledge is transferred to the distilled model by training it on a transfer set and using a soft target distribution for each case in the transfer set that is produced by using the cumbersome model with a high temperature in its softmax
 	* The same high temperature is used when training the distilled model, but after it has been trained it uses a temperature of 1
 
+# 7 Relationship to Mixtures of Experts
+* It is much easier to parallelize the training of multiple specialists
+* We first train a generalist model and then use the confusion matrix to define the subsets that the specialists are trained on
+* Once these subsets have been defined the specialists can be trained entirely independently
+* At test time we can use the predictions from the generalist model to decide which specialists are relevant and only these specialists need to be run
 
 # See also
 
