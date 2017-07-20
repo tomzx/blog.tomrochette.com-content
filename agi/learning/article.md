@@ -18,6 +18,7 @@ taxonomy:
 * Hierarchy of abilities (sounds, words, sentences, ideas)
 * Is there a maximum amount of information in the universe?
 	* Is it possible to be "done" with learning all the facts in the universe?
+* How can one discover the most appropriate order in which to learn unknown and new knowledge?
 
 # Overview
 Learning is lossy encoding (similar to lossy compression).
@@ -64,6 +65,33 @@ While reading an article, write down related topics. New knowledge is better rem
 * Experiment
 * Write questions and answer them
 * Organize my understanding
+
+# Unsorted
+* Learning to talk is not necessarily about associating visual cues with auditory cues as apparently babies born blind can still learn to speak and listen
+* How do we learn to differentiate background noise from what we are actively trying to listen to?
+* Capacity of position location based on sound only? Similar to how the ear can determine location due to the small delay that occurs when reaching the ear canal (external structure)
+* Difference between recognition and recollection
+
+# Instructional theory
+* Core ideas for the post-industrial paradigm of instruction
+	* Learner centered vs teacher centered
+	* Learning by doing vs teacher presenting
+	* Attainment based vs time based progress
+	* Customized vs standardized
+	* Criterion referenced vs norm referenced
+	* Collaborative vs individual
+	* Enjoyable vs unpleasant
+
+Source: https://en.wikipedia.org/wiki/Instructional_theory
+
+# First Principles of Instruction
+* Task/Problem-centered - Students learn more when the instruction is centered on relevant real-world tasks or problems, including a series of tasks or problems that progress from simple to complex
+* Activation - Students learn more when they are directed to recall prior knowledge
+* Demonstration - Students learn more when new knowledge is demonstrated to them in the context of real-world tasks or problems
+* Application - Students learn more when they perform real-world tasks or solve real-world problems and receive feedback
+* Integration - Students learn more when they are encouraged to integrate their knowledge into their life through reflection, discussion, debate, and/or presentation of new knowledge
+
+Source: https://en.wikipedia.org/wiki/First_Principles_of_Instruction
 
 # See also
 
