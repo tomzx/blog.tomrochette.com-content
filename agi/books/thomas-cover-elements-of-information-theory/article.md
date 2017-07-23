@@ -3,7 +3,7 @@ title: Thomas Cover - Elements of Information Theory - 2006
 created: 2017-05-26
 taxonomy:
   category: [Artificial General Intelligence]
-  status: in progress
+  status: finished
 ---
 
 ## Context
@@ -562,7 +562,19 @@ $$
 K_{\mathcal{U}}(x) \le K_{\mathcal{A}}(x) + c_{\mathcal{A}}
 $$
 for all strings $x \in \{0, 1\}^*$, and the constant $c_{\mathcal{A}}$ does not depend on $x$
-* The number of strings $x$ with complexity $K(x) < k$ satisfies
+* Conditional complexity is less than the length of the sequence
+$$
+K(x|l(x)) \le l(x) + c
+$$
+* Conditional complexity is less than the length of the sequence
+$$
+K(x|l(x)) \le l(x) + c
+$$
+* Upper bound on Kolmogorov complexity
+$$
+K(x) \le K(x|l(x)) + 2 \log l(x) + c
+$$
+* Lower bound on Kolmogorov complexity. The number of strings $x$ with complexity $K(x) < k$ satisfies
 $$
 |\{x \in \{0, 1\}^*: K(x) < k\}| < 2^k
 $$
@@ -594,9 +606,100 @@ $$
 ### 14.6 Universal Probability
 * The universal probability of a string $x$ is
 $$
-P_{\mathcal{U}}(x) = \sum_{p:\ \mathcal{U}(p) = x} 2^{-l(p)} = \Pr(\mathcal{U}(p) = x)
+P_{\mathcal{U}}(x) = \sum_{p:\ \mathcal{U}(p) = x} 2^{-l(p)} = \Pr(\mathcal{U}(p) = x)c
 $$
 (the probability that a program randomly drawn as a sequence of fair coin flips will print out the string $x$)
+
+### 14.7 The Halting Problem and the Noncomputability of Kolmogorov Complexity
+* One of the consequences of the nonexistence of an algorithm for the halting problem is the noncomputability of Kolmogorov complexity
+* The only way to find the shortest program in general is to try all short programs and see which of them can do the job
+	* However, at any time some of the short programs may not have halted and there is no effective (finite mechanical) way to tell whether or not they will halt and what they will print out
+* The noncomputability of Kolmogorov complexity is an example of the Berry paradox
+	* The berry paradox asks for the shortest number not nameable in under 10 words
+* The shortest program is not computable, although as more and more programs are shown to produce the string, the estimates from above of the Kolmogorov complexity converge to the true Kolmogorov complexity
+
+### 14.8 $\Omega$
+$$
+\Omega = \sum_{p:\ \mathcal{U}(p)\ \text{halts}} 2^{-l(p)}
+$$
+* Let $\Omega_n = .\omega_1 \omega_2 \cdots \omega_n$ denote the first $n$ bits of $\Omega$. The properties of $\Omega$ are as follows:
+	* $\Omega$ is noncomputable. There is no effective (finite, mechanical) way to check whether arbitrary programs halt, so there is no effective way to compute $\Omega$
+	* $\Omega$ is a "philosopher's stone". Knowing $\Omega$ to an accuracy of $n$ bits will enable us to decide the truth of any provable or finitely refutable mathematical theorem that can be written in less than $n$ bits
+	* $\Omega$ is algorithmically random
+* $\Omega$ cannot be compressed by more than a constant; that is, there exists a constant $c$ such that
+$$
+K(\omega_1 \omega_2 \cdots \omega_n) \ge n - c \qquad \text{for all n}
+$$
+
+### 14.9 Universal Gambling
+* Suppose that a gambler is asked to gamble sequentially on sequences $x \in \{0, 1\}^*$
+* He is given fair odds (2-for-1)
+* Let the wealth $S(x)$ associated with betting scheme $b(x)$, $\sum b(x) = 1$, be given by
+$$
+S(x) = 2^{l(x)} b(x)
+$$
+* Suppose that the gambler bets $b(x) = 2^{-K(x)}$ on a string $x$. This betting strategy can be called universal gambling. We note that the sum of the bets
+$$
+\sum b(x) = \sum 2^{-K(x)} \ge 2^{-K(x)} = \sum_{p:\ p\ \text{halts}} 2^{-l(p)} = \Omega \le 1
+$$
+* The logarithm of the wealth a gambler achieves on a sequence using universal gambling plus the complexity of the sequence is no smaller than the length of the sequence, or
+$$
+\log S(x) + K(x) \ge l(x)
+$$
+
+### 14.12 Kolmogorov Sufficient Statistic
+* Suppose that we are given a sample sequence from a $Bernoulli(\theta)$ process. What are the regularities or deviations from randomness in this sequence?
+* The Kolmogorov structure function $K_k(x^n | n)$ of a binary string $x \in \{0, 1\}^n$ is defined as
+$$
+K_k(x^n | n) = \min_{
+\begin{gather}
+	p: l(p) \le k \\
+	\mathcal{U}(p, n) = S \\
+	x^n \in S \subseteq \{0, 1\}^n
+\end{gather}
+} \log |S|
+$$
+* The set $S$ is the smallest set that can be described with no more than $k$ bits and which includes $x^n$
+* By $\mathcal{U}(p, n) = S$, we mean that running the program $p$ with data $n$ on the universal computer $\mathcal{U}$ will print out the indicator function of the set $S$
+* A statistic $T$ is said to be sufficient for a parameter $\theta$ if the distribution of the sample given the sufficient statistic is independent of the parameter; that is
+$$
+\theta \rightarrow T(X) \rightarrow X
+$$
+
+### 14.13 Minimum Description Length Principle
+* Let $X_1, X_2, \dots, X_n$ be drawn i.i.d. according to probability mass function $p(x)$. We assume that we do not know $p(x)$, but know that $p(x) \in \mathcal{P}$, a class of probability mass functions
+* Minimum description length (MDL) principle: Given data and a choice of models, choose the model such that the description of the model plus the conditional description of the data is as short as possible
+* Find $p(x) \in \mathcal{P}$ that minimizes
+$$
+L_p(X_1, X_2, \dots, X_n) = K(p) + \log \frac{1}{p(X_1, X_2, \dots, X_n)}
+$$
+* This is the length of a two-stage description of the data, where we first describe the distribution $p$ and then, given the distribution, construct the Shannon code and describe the data using $\log \frac{1}{p(X_1, X_2, \dots, X_n)}$ bits
+
+## Chapter 16 - Information Theory and Portfolio Theory
+### 16.1 The Stock Market: Some Definitions
+* A stock market is represented as a vector of stocks $\boldsymbol{X} = (X_1, X_2, \dots, X_m)$, $X_i \ge 0$, $i = 1, 2, \dots, m$ where $m$ is the number of stocks and the price relative $X_i$ is the ratio of the price at the end of the day to the price at the beginning of the day
+* Typically, $X_i$ is near 1
+* Let $\boldsymbol{X} \sim F(\boldsymbol{x})$ is the joint distribution of the vector of price relatives
+* A portfolio $\boldsymbol{b} = (b_1, b_2, \dots, b_m)$, $b_i \ge 0$, $\sum b_i = 1$, is an allocation of wealth across the stocks
+	* $b_i$ is the fraction of one's wealth invested in stock $i$
+* If one uses a portfolio $\boldsymbol{b}$ and the stock vector is $\boldsymbol{X}$, the wealth relative (ratio of wealth at the end of the day to the wealth at the beginning of the day) is $S = \boldsymbol{b}^t\boldsymbol{X} = \sum_{i=1}^m b_iX_i$
+* The standard theory of stock market investment is based on consideration of the first and second moments of $S$
+	* The objective is to maximize the expected value of $S$ subject to a constraint on the variance
+* The growth rate of a stock market portfolio $\boldsymbol{b}$ with respect to a stock distribution $F(\boldsymbol{x})$ is defined as
+$$
+W(\boldsymbol{b}, F) = \int \log \boldsymbol{b}^t \boldsymbol{x}\ dF(\boldsymbol{x}) = E(\log \boldsymbol{b}^t \boldsymbol{X})
+$$
+* The optimal growth rate $W^*(F)$ is defined as
+$$
+W^*(F) = \max_b W(\boldsymbol{b}, F)
+$$
+* A portfolio $\boldsymbol{b}^*$ that achieves the maximum of $W(\boldsymbol{b}, F)$ is called a log-optimal portfolio or growth optimal portfolio
+
+### 16.7 Universal Portfolios
+#### 16.7.1 Finite-Horizon Universal Portfolios
+* Consider the case of two stocks and a single day. Let the stock vector for the day be $\boldsymbol{x} = (x_1, x_2)$. If $x_1 > x_2$, the best portfolio is one that puts all its money on stock 1, and if $x_2 > x_1$, the best portfolio puts all its money on stock 2
+* Our opponent can choose the stock market sequence after we have chosen our portfolio to make us do as badly as possible relative to the best portfolio
+* Given our portfolio, the opponent can ensure that we do as badly as possible by making the stock on which we have put more weight equal to 0 and the other stock equal to 1. Our best strategy is therefore to put equal weight on both stocks, and with this, we will achieve a growth factor at least equal to half the growth factor of the best stock, and hence we will achieve at least half the gain of the best constantly rebalanced portfolio
 
 # See also
 
