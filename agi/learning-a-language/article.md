@@ -73,8 +73,48 @@ taxonomy:
 		* Confirms understanding by using correct language
 		* Uses words the learner knows
 
+# Fluent Forever
+* Spelling and sound: learn how to hear, produce and spell the sounds of your target language (1-3 weeks)
+* Learn 625 basic words: learn a set of extremely common, simple words using pictures, not translations (1-2 months)
+* Learn the grammar and abstract words of your language (2-3 months)
+* The language game (3 months +)
+	* Learn the top 1000 words, then specialize in the words that are useful to you
+
+Source: https://tim.blog/2014/07/16/how-to-learn-any-language-in-record-time-and-never-forget-it/
+
+# My suggested learning steps
+* Pronouns
+* Basic verbs (be, have, want, need, like, think, know, understand, go, get, say)
+
+# Personal observation
+* Learn a lot of vocabulary
+* Make sure to hear the words, as it's easier to learn/associate from speech than from reading (at least for me)
+* At some point, you start to want to generate sentences in the target language, but you notice that you do not know some of the words you'd like to say, which prompts you to look them up
+* Spaced repetition is the best way to track your progress as well as to make you recall words
+
+# Things to do
+* Speak to yourself in the target language
+* Watch people talk
+* Watch videos from the target country/language using https://www.youtube.com/feed/trending
+* Use websites you use everyday in the target language
+
+# Conjectures
+* Language learning begins with a "silent period", where the language learner practice listening and understanding
+
+# Dealing with difficult to remember words
+* Associate the word with other words
+* Create crazy story using the word
+* Use the word frequently (10 minutes after you've learned it, then 1h, 1d, 1w, etc.)
+
 # See also
 
 # References
 * https://en.wikibooks.org/wiki/Chinese_(Mandarin)
 * https://www.youtube.com/watch?v=d0yGdNEWdn0
+* https://www.tefl.net/elt/articles/teacher-technique/7-tricks-to-help-remember-new-words/
+* https://en.wikipedia.org/wiki/Common_European_Framework_of_Reference_for_Languages#Common_reference_levels
+
+## Exchange websites
+* https://www.conversationexchange.com/
+* https://www.hellolingo.com/
+* https://www.italki.com/
