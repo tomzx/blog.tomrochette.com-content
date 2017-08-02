@@ -56,6 +56,33 @@ Source: National Highway Institute
 
 ![The Learning Pyramid](assets/images/Learning-Pyramid.jpg) [^3]
 
+## Retention by medium
+| Medium |
+|--------|
+| Text |
+| Audio (voice only) |
+| Audio (audible) |
+| Video |
+| Taste |
+| Smell |
+| Heat |
+| Pressure |
+
+* I am not aware of any research which evaluates memory retention based on the medium through which the information was transmitted, however it would be interesting to have results on this question
+
+## Accuracy of recall
+* For some form of memory, it is possible to evaluate with various methods the accuracy of the recall
+	* For instance, for text, we could evaluate the number of numbers or words correctly remembered. We could also ask a person to read a given amount of text and to summarize it, which would be another form of recall (hearing to speech)
+	* In the same manner, an experimented could say a list of numbers or words and ask the person to recall those words (hearing to speech)
+	* We can show a picture and ask the subject to redraw the picture (image to speech)
+* Some other forms of memory are much harder to evaluate because we have less vocabulary to describe them, more specifically
+	* We can show a picture and ask the subject to describe the picture (image to motor commands)
+* In all cases it is important to attempt to dissociate recalling from the part where execution happens (telling the experimenter about the memory either through spoken words, written words, drawings or motor commands for instance)
+
+## Recognition vs recollection
+* You can recognize something, yet not recall it (recognize parts of a whole)
+* When studying a subject through a book, it's easy to recognize sections you've read through, however it is much more difficult to recall what the section contains, word for word
+
 # See also
 * [Senses](../senses)
 
@@ -68,3 +95,4 @@ Source: National Highway Institute
 [^6]: http://lcn.salk.edu/publications/SOL/SOL%20-%208%20Rate%20of%20Speech%20and%20Sign.pdf
 
 * https://en.wikipedia.org/wiki/Forgetting_curve
+* https://www.youtube.com/watch?v=IlU-zDU6aQ0
