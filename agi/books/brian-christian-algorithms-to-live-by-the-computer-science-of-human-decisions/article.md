@@ -12,6 +12,7 @@ taxonomy:
 
 ## Things to explore
 * Optimal stopping
+* Given that exploration can lead to better results than our current best option, it seems rational to try and determine the likelihood of finding better alternative and to use that to guide further exploration (vs exploitation)
 
 # Overview
 
@@ -46,6 +47,19 @@ taxonomy:
 * An Upper Confidence Bound algorithm doesn't care which arm has performed the best so far; instead, it chooses the arm that could reasonably perform best in the future
 * Upper Confidence Bound algorithms implement a principle that has been dubbed "optimism in the face of uncertainty"
 	* By focusing on the best that an option could be, given the evidence obtained so far, these algorithms give a boost to possibilities we know less about
+
+### Explore...
+* Our intuitions about rationality are too often informed by exploitation rather than exploration
+* Over a lifetime, you're going to make a lot of decisions. It's actually rational to emphasize exploration - the new rather than the best, the exciting rather than the safe, the random rather than the considered - for many of those choices, particularly earlier in life
+
+### ... And Exploit
+* The elderly have few social relationships by choice
+	* The result of lifelong selection processes by which people strategically and adaptively cultivate their social networks to maximize social and emotional gains and minimize social and emotional risks
+* These differences in social preference are not about age as such - they're about where people perceive themselves to be on the interval relevant to their decision
+* What an explorer trades off for knowledge is pleasure
+
+## 3 Sorting
+### Making Order
 
 # See also
 
