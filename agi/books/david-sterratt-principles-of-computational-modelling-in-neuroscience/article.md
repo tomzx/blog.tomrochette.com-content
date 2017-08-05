@@ -40,6 +40,28 @@ taxonomy:
 * Typically, there is greater concentration of extracellular sodium ($Na^+$) than intracellular sodium, and conversely for potassium ($K$)
 * The bulk of the membrane is composed of the 5 nm thick lipid bilayer
 
+## Chapter 3 - The Hodgkin-Huxley model of the action potential
+### 3.1 The action potential
+* Action potentials are characterised by a sharp increase in the membrane potential (depolarisation of the membrane) followed by a somewhat less sharp decrease toward the resting potential (repolarisation)
+* The main difference between the propagation of action potentials and passive propagation of signals is that action potentials are regenerative, so their magnitude does not decay during propagation
+
+### 3.3 Simulated action potentials
+#### 3.3.1 Space clamped action potentials
+* During the absolute refractory period after an action potential, it is impossible to generate a new action potential by injecting current
+* Thereafter, during the relative refractory period, the threshold is higher than when the membrane is at rest, and action potentials initiated in this period have a lower peak voltage
+* It should be harder to generate an action potential during this period for two reasons
+	* The inactivation of the sodium conductance means that any increase in $m$ due to increasing voltage will not increase the sodium conductance as much as it would when $h$ is at its higher resting value
+	* The prolonged activation of the potassium conductance means that any inward sodium current has to counteract a more considerable outward potassium current than in the resting state
+
+### 3.5 Building models using the Hodgkin-Huxley formalism
+#### 3.5.1 Model approximations
+* Each channel type is permeable to only one type of ion
+	* Implicit in the HH model is the notion that channels are selective for only one type of ion
+* The independence principle
+	* It is assumed that each type of current does not depend on the concentration of other types of ion
+* The linear instantaneous I-V characteristic
+	* All the ionic currents that flow through open gates have a linear, quasi-ohmic dependence on the membrane potential
+
 # See also
 
 # References
