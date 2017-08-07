@@ -13,6 +13,7 @@ taxonomy:
 ## Things to explore
 * Optimal stopping
 * Given that exploration can lead to better results than our current best option, it seems rational to try and determine the likelihood of finding better alternative and to use that to guide further exploration (vs exploitation)
+* Is Google search results LRU-based?
 
 # Overview
 
@@ -59,7 +60,49 @@ taxonomy:
 * What an explorer trades off for knowledge is pleasure
 
 ## 3 Sorting
-### Making Order
+### Blood Sort: Pecking Orders and Dominance Hierarchies
+* Displacement happens when an animal uses its knowledge of the hierarchy to determine that a particular confrontation simply isn't worth it
+* Dominance hierarchies are ultimately information hierarchies
+
+## 4 Caching
+* What to do when cache is full?
+
+### Eviction and Clairvoyance
+* The goal of cache management is to minimize the number of times you can't find what you're looking for in the cache and must go to the slower main memory to find it; these are known as "page faults" or "cache misses"
+* The optimal cache eviction policy - essentially by definition - is, when the cache is full, to evict whichever item we'll need again the longest from now
+* Bélády compared Random Eviction, FIFO, and variants of LRU in a number of scenarios and found that LRU consistently performed the closest to clairvoyance
+* The LRU principle is effective because of something computer scientists call "temporal locality": if a program has called for a particular piece of information once, it's likely to do so again in the near future
+* The nearest thing to clairvoyance is to assume that history repeats itself - backwards
+
+### Filing and Piling
+* If you always put an item back (you just used) at the very front of the list, then the total amount of time you spend searching will never be more than twice as long as if you'd known the future
+
+### The Forgetting Curve
+* A natural way to think about forgetting is that our minds simply run out of space
+* The key idea behind Anderson's new account of human memory is that the problem might be not one of storage, but of organization
+* According to his theory, the mind has essentially infinite capacity for memories, but we have only a finite amount of time in which to search for them
+* The key to a good human memory becomes the same as the key to a good computer cache: predicting which items are most likely to be wanted in the future
+* Reality has a statistical structure that mimics the Ebbinghaus (Forgetting) curve
+* Many people hold the bias that human memory is anything but optimal. They point to the many frustrating failures of memory. However, these criticisms fail to appreciate the task before human memory, which is to try and manage a huge stockpile of memories. In any system responsible for managing a vast data base there must be failures of retrieval. It is just too expensive to maintain access to an unbounded number of items
+
+## 5 Scheduling
+### Handling Deadlines
+* In the case of single-machine scheduling, however, if we are going to do all the tasks assigned, then all schedules will take equally long to complete; the order is irrelevant
+* First lesson in single-machine scheduling: make your goals explicit
+* If you are concerned with minimizing maximum lateness, then the best strategy is to start with the task due soonest and work your way toward the task due last. This strategy is known as Earliest Due Date
+* Moore's Algorithm says that we start out just like with Earliest Due Date - by scheduling out our produce in order of spoilage date, earliest first, one item at a time. However, as soon as it looks like we won't get to eating the next item in time, we pause, look back over the meals we've already planned, and throw out the biggest item (that is, the one that would take the most days to consume)
+* Moore's algorithm minimizes the number of items you'll need to throw away
+
+### Getting Things Done
+* Minimizing the sum of completion times leads to a very simple optimal algorithm called Shortest Processing Time: always do the quickest (shortest) task you can
+* Only prioritize a task that takes twice as long if it's twice as important
+
+### Picking Our Problems
+* Putting off work on a major project by attending instead to various trivial matters can likewise be seen as "the hastening of subgoal completion" - which is another way of saying that procrastinators are acting (optimally!) to reduce as quickly as possible the number of outstanding tasks on their minds
+* Staying focused not just on getting things done but on getting weighty things done sounds like a surefire cure for procrastination. But as it turns out, even that is not enough
+
+### Priority Inversion and Precedence Constraints
+* Sometimes that which matters most cannot be done until that which matters least is finished, so there's no choice but to treat that unimportant thing as being every bit as important as whatever it's blocking
 
 # See also
 
