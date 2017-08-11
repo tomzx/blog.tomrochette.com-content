@@ -104,6 +104,33 @@ taxonomy:
 ### Priority Inversion and Precedence Constraints
 * Sometimes that which matters most cannot be done until that which matters least is finished, so there's no choice but to treat that unimportant thing as being every bit as important as whatever it's blocking
 
+### Drop Everything: Preemption and Uncertainty
+* The weighted version of Shortest Processing Time is a pretty good candidate for best general-purpose scheduling strategy in the face of uncertainty
+	* Each time a new piece of work comes in, divide its important by the amount of time it will take to complete. If that figure is higher than for the task you're currently doing, switch to the new one; otherwise stick with the current task
+
+### Preemption Isn't Free: The Context Switch
+* A friend of ours who writes software says that the normal workweek isn't well suited to his workflow, since for him sixteen-hour days are more than twice as productive as eight-hour days
+* Brian, for his part, thinks of writing as a kind of blacksmithing, where it takes a while just to heat up the metal before it's malleable. He finds it somewhat useless to block out anything less than ninety minutes for writing, as nothing much happens in the first half hour except loading a giant block of "Now, where was I?" into his head
+* The more you take on, the more overhead there is. At its nightmarish extreme, this turns into a phenomenon called thrashing
+
+### Thrashing
+* If a task requires keeping track of so many things that they won't all fit into memory, then you might well end up spending more time swapping information in and out of memory than doing the actual work
+* Computer scientists now use the term "trashing" to refer to pretty much any situation where the system grinds to a halt because it's entirely preoccupied with metawork
+* The easiest thing to do is simply to get more memory: enough RAM, for instance, to fit the working sets of all the running programs into memory at once and reduce the time taken by a context switch
+* Another way to avert trashing before it starts is to learn that art of saying no
+* In cases where there's clearly no way to work any harder you can work ... dumber
+	* Instead of answering the most important emails first - which requires an assessment of the whole picture that may take longer than the work itself - maybe you should sidestep that quadratic-time quicksand by just answering the emails in random order, or in whatever order they happen to appear on-screen
+
+### Interrupt Coalescing
+* The moral is that you should try to stay on a single task as long as possible without decreasing your responsiveness below the minimum acceptable limit
+* Decide how responsive you need to be - and then, if you want to get things done, be no more responsive than that
+* If you find yourself doing a lot of context switching because you're tackling a heterogeneous collection of short tasks, you can also employ another idea from computer science: "interrupt coalescing"
+	* Wait until some fixed interval and check everything, instead of context-switching to handle separate, uncoordinated interrupts from their various subcomponents
+
+## 6 Bayes's Rule
+### The Copernican Principle
+* Unless we know better we can expect to have shown up precisely halfway into the duration of any given phenomenon. And if we assume that we're arriving precisely halfway into something's duration, the best guess we can make for how long it will last into the future becomes obvious: exactly as long as it's lasted already (known as the Copernican Principle)
+
 # See also
 
 # References
