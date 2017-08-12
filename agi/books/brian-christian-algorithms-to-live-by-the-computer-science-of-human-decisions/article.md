@@ -130,6 +130,20 @@ taxonomy:
 ## 6 Bayes's Rule
 ### The Copernican Principle
 * Unless we know better we can expect to have shown up precisely halfway into the duration of any given phenomenon. And if we assume that we're arriving precisely halfway into something's duration, the best guess we can make for how long it will last into the future becomes obvious: exactly as long as it's lasted already (known as the Copernican Principle)
+	* This is basically because we assume either a standard or gaussian distribution, and being at the 50% (mass) point is the likeliest of all
+
+### ... and Their Prediction Rules
+* For any power-law distribution, Bayes's Rule indicates that the appropriate prediction strategy is a Multiplicative Rule
+	* Multiply the quantity observed so far by some constant factor. For an uninformative prior, that constant factor happens to be 2, hence the Copernican prediction; in other power-law cases, the multiplier will depend on the exact distribution you're working with
+* When we apply Bayes's Rule with a normal distribution as a prior, on the other hand, we obtain a very different kind of guidance. Instead of a multiplicative rule, we get an Average Rule
+	* Use the distribution's "natural" average - its single specific scale - as your guide
+* Between those two extremes, there's actually a third category of things in life: those that are neither more nor less likely to end just because they've gone on for a while
+* The Erlang distribution gives us a third kind of prediction rule, the Additive Rule
+	* Always predict that things will go on just a constant amount longer
+
+### Small Data and the Mind
+* Small data is big data in disguise
+* The reason we can often make good predictions from a small number of observations - or just a single one - is that our priors are so rich
 
 # See also
 
