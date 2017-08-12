@@ -62,6 +62,45 @@ taxonomy:
 * The linear instantaneous I-V characteristic
 	* All the ionic currents that flow through open gates have a linear, quasi-ohmic dependence on the membrane potential
 
+## Chapter 4 - Compartmental models
+### 4.2 Constructing a multi-compartmental model
+* The general approach is to represent quasi-isopotential sections of neurite (small pieces of dendrite, axon or soma) by simple geometric objects, such as spheres or cylinders, which we term compartments
+
+#### 4.2.1 Mapping morphology
+* There may not necessarily be a one-to-one correspondence between the representation of morphology with simple geometric shapes and the final electrical circuit. A single long dendrite may be represented adequately by a single cylinder, but to model the voltage variations along the dendrite it should be represented by multiple compartments
+
+#### 4.2.2 Compartment size
+* In compartment modelling, the choice of compartment size is an important parameter in the model
+* It is assumed that each compartment is effectively isopotential
+* Using a small compartment size reduces the error but increases the number of compartments needed to represent the morphology, and consequently the overall computation for simulations
+* A general and often quoted rule of thumb is to make the compartment size no longer than 10% of the length constant $\lambda$
+* An alternative rule of thumb is to make the compartment size no more than 10% of $\lambda_f$, where $f$ is chosen to be high enough that the transmembrane current is largely capacitive
+
+### 4.3 Using real neuron morphology
+##### 4.3.1 Morphological errors
+* Many fixation procedures lead to shrinkage or distortion of the slice and, consequently, the reconstructed neuron
+* Shrinkage factors can have a serious impact on the overall surface area of the cell
+* It is possible to quantify the amount of shrinkage and apply these correction factors to the final data. This can be done by measuring the overall slice shrinkage and assuming that cells shrink in a uniformly similar manner
+
+##### 4.3.3 Simplifying the morphology
+* Passive dendrites are equivalent electrically to a singly cylinder, provided that they obey the following rules:
+	* Specific membrane resistance ($R_m$) and specific axial resistance ($R_a$) must be the same in all branches
+	* All terminal branches must end with the same boundary conditions
+	* The end of each terminal branch must be the same total electrotonic distance from the origin at the base of the tree
+	* For every parent branch, the relationship between the parent branch diameter ($d_1$) and its two child branches diameters ($d_2$ and $d_3$) is given by (known as the '3/2' diameter rule)
+$$
+d_1^{3/2} = d_2^{3/2} + d_3^{3/2}
+$$
+
+### 4.6 Adding active channels
+#### 4.6.1 Ion channel distributions
+* One of the immediate consequences of adding active channels is the explosion in the number of parameters in the model and a significant increase in the number of degrees of freedom
+* One approach to reducing the number of degrees of freedom is to parameterise channel densities throughout a dendrite in terms of distribution functions
+* The simplest of these would be a uniform distribution where a single maximum conductance density parameter is used in all compartments of the tree
+* Linear distributions, where the conductance density changes with a linear gradient as a function of distance from the soma, is an example of a slightly more complex distribution function
+
+## Chapter 5 - Models of active ion channels
+
 # See also
 
 # References
