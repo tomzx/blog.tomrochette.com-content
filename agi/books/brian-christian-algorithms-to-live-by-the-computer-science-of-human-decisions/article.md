@@ -145,6 +145,29 @@ taxonomy:
 * Small data is big data in disguise
 * The reason we can often make good predictions from a small number of observations - or just a single one - is that our priors are so rich
 
+## 7 Overfitting
+### How to Combat Overfitting: Penalizing Complexity
+* If you can't explain it simply, you don't understand it well enough
+* Introduce an additional term to your calculations that penalizes more complex solutions. If we introduce a complexity penalty, then more complex models need to do not merely a better job but a significantly better job of explaining the data to justify their greater complexity
+	* Computer scientists refer to this principle - using constraints that penalize models for their complexity - as Regularization
+* LIving organisms get a certain push toward simplicity almost automatically, thanks to the constraints of time, memory, energy, and attention. The burden of metabolism, for instance, acts as a brake on the complexity of organisms, introducing a caloric penalty for overly elaborate machinery
+* Neuroscientists have suggested that brains try to minimize the number of neurons that are firing at any given moment
+* Language forms yet another natural Lasso: complexity is punished by the labor of speaking at greater length and the taxing of our listener's attention span
+
+### The Upside of Heuristics
+* The study of heuristics shows that less information, computation, and time can in fact improve accuracy
+
+### The Weight of History
+* Giving yourself time to decide about something does not necessarily mean that you'll make a better decision. But it does guarantee that you'll end up considering more factors, more hypotheticals, more pros and cons, and thus risk overfitting
+
+### When to Think Less
+* If you have all the facts, they're free of error and uncertainty, and you can directly assess whatever is important to you, then don't stop early. Think long and hard: the complexity and effort are appropriate
+
+## 8 Relaxation
+### Defining Difficulty
+* An algorithm should be considered "efficient" if it runs in what's called "polynomial time" - that is, $O(n^n)$, $O(n^3)$, or in fact n to the power of any number at all
+* A problem, in turn, is considered "tractable" if we know how to solve it using an efficient algorithm
+
 # See also
 
 # References
