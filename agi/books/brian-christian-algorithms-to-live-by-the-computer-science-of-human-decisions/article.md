@@ -167,6 +167,41 @@ taxonomy:
 ### Defining Difficulty
 * An algorithm should be considered "efficient" if it runs in what's called "polynomial time" - that is, $O(n^n)$, $O(n^3)$, or in fact n to the power of any number at all
 * A problem, in turn, is considered "tractable" if we know how to solve it using an efficient algorithm
+* A problem we don't know how to solve in polynomial time, on the other hand, is considered "intractable"
+
+### Just Relax
+* One of the simplex forms of relaxation in computer science is known as Constraint Relaxation
+	* In this technique, researchers remove some of the problem's constraints and set about solving the problem they wish they had
+	* Then, after they've made a certain amount of headway, they try to add the constraint back in
+* If you can't solve the problem in front of you, solve an easier version of it - and then see if that solution offers you a starting point, or a beacon, in the full-blown problem
+
+### Uncountably Many Shades of Gray: Continuous Relaxation
+* Turn a discrete problem into a continuous one (where instead of using integers you use reals)
+
+### Just a Speeding Ticket: Lagrangian Relaxation
+* The idea behind Lagrangian Relaxation is simple
+	* An optimization problem has two parts
+		* The rules
+		* The scorekeeping
+	* In Lagragian Relaxation, we take some of the problem's constraints and bake them into the scoring system instead
+
+### Learning to Relax
+* Relaxation offer us a number of advantages
+	* They offer a bound on the quality of the true solution (as the unconstrained solution set will contain the constrained solution as an (possibly) unoptimal solution)
+	* Relaxations are designed so that they can indeed be reconciled with reality - and this gives us bounds on the solution from the other direction
+
+## 9 Randomness
+### When to Leave It to Chance
+* There is a deep message in the fact that on certain problems, randomized approaches can outperform even the best deterministic ones
+* Merely knowing that randomness can be helpful isn't good enough. You need to know when to rely on chance, in what way, and to what extent
+* When we want to know something about a complex quantity, we can estimate its value by sampling from it
+
+### In Praise of Sampling
+* The polynomial identity test shows that sometimes our effort is better spent checking random values - sampling from the two expressions we want to know about - than trying to untangle their inner workings
+* Given a pair of nondescript gadgets and asked whether they are two different devices or two copies of the same one, most of us would start pushing random buttons rather than crack open the cases to examine the wiring
+* Rawls offered a way of approaching this set of questions that he called the "veil of ignorance."
+	* Imagine, he said, that you were about to be born, but didn't know as whom: male or female, rich or poor, urban or rural, sick or healthy. And before learning your status, you had to choose what kind of society you'd live in. What would you want?
+* When it comes to handling a qualitatively unmanageable problem, something so thorny and complicated that can be digested whole, sampling offers one of the simplest, and also the best, ways of cutting through the difficulties
 
 # See also
 
