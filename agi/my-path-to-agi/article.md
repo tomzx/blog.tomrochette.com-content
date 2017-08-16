@@ -222,7 +222,7 @@ Patrick J. Hurley
 ### A Hypothetical Dialogue Exhibiting a Knowledge Base For a Program-Understanding System (2016-06 - 2016-07)
 Cordell Green, David Barstow
 
-### Machine Learning (2016-06 - ?)
+### Machine Learning (2016-06 - (2016-09))
 Peter Flach
 
 ### On Intelligence (2016-06 - 2016-08)
@@ -374,8 +374,8 @@ Miltiadis Allamanis, Marc Brockschmidt
 ### Third-Person Imitation Learning (2017-05)
 Bradly C. Stadie, Pieter Abbeel, Ilya Sutskever
 
-### Elements of Information Theory (2017-05 - ?)
-Thomas Cover
+### Elements of Information Theory (2017-05 - (2017-07))
+Thomas M. Cover, Joy A. Thomas
 
 ### Deep Voice: Real-time Neural Text-to-Speech (2017-06)
 Sercan O. Arik, Mike Chrzanowski, Adam Coates, Gregory Diamos, Andrew Gibiansky, Yongguo Kang, Xian Li, John Miller, Andrew Ng, Jonathan Raiman, Shubho Sengupta, Mohammad Shoeybi
@@ -389,7 +389,7 @@ Andrew Carlson, Justin Betteridge, Bryan Kisiel, Burr Settles, Estevam R. Hrusch
 ### Human-level control through deep reinforcement learning (2017-06)
 Volodymyr Mnih, Koray Kavukcuoglu, David Silver, Andrei A. Rusu, Joel Veness, Marc G. Bellemare, Alex Graves, Martin A. Riedmiller, Andreas Fidjeland, Georg Ostrovski, Stig Petersen, Charles Beattie, Amir Sadik, Ioannis Antonoglou, Helen King, Dharshan Kumaran, Daan Wierstra, Shane Legg, Demis Hassabis
 
-### SophoLab; experimental computational philosophy (2017-06 - ?)
+### SophoLab; experimental computational philosophy (2017-06 - (2017-07))
 Vicent Wiegel
 
 ### Multi-Dimensional Recurrent Neural Networks (2017-06)
@@ -412,3 +412,15 @@ Alex Graves, Marc G. Bellemare, Jacob Menick, Rémi Munos, Koray Kavukcuoglu
 
 ### The Strategic Student Approach for Life-Long Exploration and Learning (2017-06)
 Manuel Lopes, Pierre-Yves Oudeyer
+
+### The Master Algorithm: How the Quest for the Ultimate Learning Machine Will Remake Our World (2017-07 - 2017-08)
+Pedro Domingos
+
+### Algorithms to Live By: The Computer Science of Human Decisions (2017-07 - ?)
+Brian Christian, Tom Griffiths
+
+### Principles of Computational Modelling in Neuroscience (2017-07 - (2017-08))
+David Sterratt, Bruce Graham, Andrew Gillies, David Willshaw
+
+### How to Build a Brain: A Neural Architecture for Biological Cognition (2017-08 - ?)
+Chris Eliasmith
