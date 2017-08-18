@@ -11,6 +11,8 @@ taxonomy:
 ## Learned in this study
 
 ## Things to explore
+*  Given a dendrogram at various stages of development (times $t_n$), can a RNN model accurate learn how to reproduce such process?
+* Is there data available online on neurite development in the form of dendrograms?
 
 # Overview
 
@@ -99,7 +101,72 @@ $$
 * The simplest of these would be a uniform distribution where a single maximum conductance density parameter is used in all compartments of the tree
 * Linear distributions, where the conductance density changes with a linear gradient as a function of distance from the soma, is an example of a slightly more complex distribution function
 
-## Chapter 5 - Models of active ion channels
+## Chapter 10 - The development of the nervous system
+### 10.1 The scope of developmental computational neuroscience
+#### 10.1.1 Background
+* The development of the nervous system occurs after a complex series of developmental steps, many of which are common to the development of very different multicellular organisms
+* Stages of development
+	* Cell division
+	* Gastrulation
+	* Neurulation
+	* Development of the nervous system
+* Typical research problems investigated
+	* The development of neural morphology
+	* How nerve cells know where to go
+	* The development of patterns of nerve connections
+	* Features
+
+### 10.2 Development of nerve cell morphology
+#### 10.2.1 Development of morphology
+* The cell's morphological development can be characterised into a number of stages:
+	* neurite initiation
+	* neurite differentiation and elongation
+	* neurite (axon and dendrites) elaboration
+		* elongation and branching
+		* axon pathfinding
+		* dendrite space filling
+* To formulate a model of neurite development, the first question to ask is: which particular aspects of neurite morphology do we seek to reproduce in our model?
+
+#### 10.2.3 Modelling cell growth
+* Models of development seek to capture how neuritic morphology evolves with time. Such growth algorithms may still be statistical, but now need to specify how the distributions of the fundamental parameters change over time
+* Basic models describe the elongation rate and branching rate of neurite segments, and how these rates may change with time and tree growth
+* Two approaches have been followed
+	* Formulate the simplest possible description of the elongation and branching rates that generates trees with realistic morphology
+	* Describe branching and elongation rates as functions of identifiable biophysical parameters
+* The BESTL algorithm
+	* Aims to reproduce the branching structure and segment lengths of dendrites
+	* Does not consider diameters
+	* Only terminal segments are assumed to lengthen and branch, with branching events resulting in bifurcations
+	* Segment branching and elongation are handled as independent processes specified by a branching rate and an elongation rate
+	* The branching rate of each terminal segment $j$ is
+$$
+p^j(t) = D(t)C(t)2^{-S\gamma_j}n(t)^{-E}
+$$
+where
+$$
+C(t) = \frac{n(t)}{\sum_{j=1}^{n(t)} 2^{-S\gamma_j}}
+$$
+* $D(t)$ is the basic branching rate at time $t$
+* $C(t)$ is a normalising factor
+* $n(t)$ is the number of terminal segments
+* $\gamma_j$ is the centrifugal order of terminal segment $j$
+* $S$ is a constant determining the dependence of branching on centrifugal order
+* $E$ is a constant determining the dependence of branching on the number of terminals
+* Elongation is handled independently of branching. Following a branching event, the algorithm proceeds by giving each daughter branch an initial, short length and an elongation rate, both drawn from gamma distributions
+* Elongation may continue after branching has ceased, with developmental time being divided into an initial branching phase followed by an elongation-only phase
+* Elongation rates in the latter phase may be different from the branching phase
+
+#### 10.2.4 Biophysical models of cell growth
+* A basic example of this approach considers the production and transportation of the protein tubulin along a growing neurite
+* Free tubulin has concentration $c(x, t)$ at a point $x$ along the neurite at time $t$
+* Tubulin molecules move by active transport $a$ and diffusion $D$, and degrade with rate $g$
+* In the cell body ($x = 0$) synthesis of tubulin occurs at a fixed rate $\epsilon_0 c_0$
+* At the distal end of the neurite ($x = l$) assembly of tubulin onto microtubules occurs at rate $\epsilon_l c$, and spontaneously disassembly with rate $\zeta_l$
+* Three growth modes are evident in this model
+	* Growth to long lengths is determined by active transport of tubulin to the growth tip
+	* Growth to short lengths is dominated by diffusion
+	* Moderate lengths are achieved by a balance of active transport and diffusion
+* An alternative model assumes that, rather than determining the elongation rate, the tubulin concentration at a neurite tip determines the branching rate $p(t)$ of the terminal
 
 # See also
 
