@@ -38,3 +38,4 @@ taxonomy:
 # See also
 
 # References
+* Eliasmith, Chris. How to build a brain: A neural architecture for biological cognition. Oxford University Press, 2013.
