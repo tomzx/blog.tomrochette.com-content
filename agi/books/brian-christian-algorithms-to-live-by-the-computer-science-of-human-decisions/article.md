@@ -203,6 +203,21 @@ taxonomy:
 	* Imagine, he said, that you were about to be born, but didn't know as whom: male or female, rich or poor, urban or rural, sick or healthy. And before learning your status, you had to choose what kind of society you'd live in. What would you want?
 * When it comes to handling a qualitatively unmanageable problem, something so thorny and complicated that can be digested whole, sampling offers one of the simplest, and also the best, ways of cutting through the difficulties
 
+### The Three-Part Tradeoff
+* Time and space are at the root of the most familiar tradeoffs in computer science
+* There is a third dimension: error probability
+
+### Out of the Local Maximum
+* Instead of turning to full-bore randomness when you're stuck, use a little bit of randomness every time you make a decision
+* This is called the Metropolis Algorithm
+
+### Creativity
+* William James viewed randomness as the heart of creativity. And he believed it was magnified in the most creative people
+* When it comes to stimulating creativity, a common technique is introducing a random element, such as a word that people have to form associations with
+* Even if you're in the habit of sometimes acting on bad ideas, you should always act on good ones
+* Your likelihood of following a bad idea should be inversely proportional to how bad an idea it is
+* You should front-load randomness, rapidly cooling out of a totally random state, using ever less and less randomness as time goes on, lingering longest as you approach freezing
+
 # See also
 
 # References
