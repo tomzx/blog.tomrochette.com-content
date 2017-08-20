@@ -218,6 +218,36 @@ taxonomy:
 * Your likelihood of following a bad idea should be inversely proportional to how bad an idea it is
 * You should front-load randomness, rapidly cooling out of a totally random state, using ever less and less randomness as time goes on, lingering longest as you approach freezing
 
+## 10 Networking
+### Acknowledgment
+* How exactly should we handle a person - or a computer - that's unreliable?
+* The first question is how long a period of nonresponsiveness we should take to constitute a breakdown
+* Once we do recognize a breakdown, what should we do about it?
+
+### Exponential Backoff: The Algorithm of Forgiveness
+* Retry at an exponential rate (1, 2, 4, 8, 16, ...) instead of simply giving up
+
+### Flow Control and Congestion Avoidance
+* Additive Increase, Multiplicative Decrease: Increase by one for each successful round and decrease by half the current rate in case of an unsuccessful round
+* It may be that human communications themselves mirror the very protocols that transmit them: every text message or email reply encourages yet another, while every unreturned message stanches the flow
+* Every public servant should be demoted to the immediately lower rank, because they were advanced until they became incompetent
+	* José Ortega y Gasset
+* One can imagine a corporation in which, annually, every employee is always either promoted a single step up the or chart or sent part of the way back down
+
+### Backchannels: Flow Control in Linguistics
+* Both the person who has the turn and his partner are simultaneously engaged in both speaking and listening. This is because of the existence of the back channel, over which the person who has the turn receives short messages such as "yes", and "uh-huh" without relinquishing the turn
+* What happens when something listening to a personal story gets distracted: the story falls apart
+	* A poor listener destroys the tale
+* It is worthwhile to acknowledge someone while they are speaking
+
+### Bufferbloat: It's the Latency, Stupid
+* A buffer is essentially a queue whose function is to smooth out bursts
+
+### Better Never than Late
+* Take your most basic problem as a single person … someone likes you, you don’t like them back. At one point, that used to be kind of an awkward situation. You had to have a conversation, it was weird. Now what do you do? Someone likes you, you don’t like them back? You just pretend to be busy … forever.
+* The problem isn't that we're always connected; we're not. The problem is that we're always buffered
+* We used to reject; now we defer
+
 # See also
 
 # References
