@@ -168,6 +168,52 @@ $$
 	* Moderate lengths are achieved by a balance of active transport and diffusion
 * An alternative model assumes that, rather than determining the elongation rate, the tubulin concentration at a neurite tip determines the branching rate $p(t)$ of the terminal
 
+### 10.4 Development of nerve cell patterning
+#### 10.4.1 Development of pattern in morphogenesis
+* The basic requirements for the generation of spatial pattern through reaction-diffusion are that there must be
+	* at least two different morphogens
+	* different rates of diffusion for the different morphogens
+	* specific interactions between the morphogens
+
+#### 10.4.2 Development of pattern within a set of nerve cells
+* In the mammalian system, perhaps the most remarkable is the 3D arrangements of nerve cells of six different types and their processes in the mammalian cerebellum
+
+### 10.5 Development of patterns of ocular dominance
+* The patterns of connectivity between sets of cells are a property of the connections themselves rather than the cells
+
+### 10.6 Development of connections between nerve and muscle
+* In vertebrate skeletal muscle, each muscle fiber is innervated along its length at a single region, the endplate
+* In adult muscle, each endplate receives innervation from a single motor neuron
+* One basic question is how the transformation from superinnervation to single innervation of individual muscle fibres takes place
+* In the absence of any definitive answer, in most models the physical nature of this property is left unspecified; it is assumed that a scalar quantity, often called the synaptic strength, is assigned to each synapse
+	* Synaptic strengths vary over time in a manner prescribed in the model
+	* Synapses reaching a constant positive value are deemed to have been stabilised and those reaching zero strength to have been withdrawn
+
+#### 10.6.1 Competition for a single presynaptic resource
+* Willshaw was the first to explore the idea mathematically that in the development of neuromuscular connections, axons compete with each other so as to maintain their synaptic strengths, the interactions being mediated through competition between the terminals at each endplate
+* He assumed that each synapse emits into its endplate region an amount of a substance that degrades all synapses at that endplate
+* In addition, all synapses are being strengthened continuously, thereby counterbalancing the degradation in such a way that the total synaptic strength of all the synapses of each motor neuron is kept constant
+
+#### 10.6.2 Competition for a single postsynaptic resource
+* In this model, axons compete at the endplate directly for the finite amount of resource assigned to each muscle fibre
+
+#### 10.6.3 Competition for presynaptic and postsynaptic resources
+Bennett and Robinson took a more biophysical approach by proposing a set of reactions for the production of what they called stabilising factor, which plays the same role as synaptic strength
+* They suggested that there is a reversible binding between the presynaptic factor, A, originating in the motor neuron, and the postsynaptic factor, B, originating in the muscle fibre, to form the stabilising factor, C
+* The supply of both A and B is assumed to be limited; as more and more C is formed, a and B are used up
+* Since there are two constraints on this system, concerning the amounts of A and B available, Rasmussen and Willshaw called this the Dual Constraint model (DCM)
+
+### 10.7 Development of retinotopic maps
+* In all vertebrates, the axons from the retinal ganglion cells grow out to form the optic nerve
+* In non-mammalian vertebrates the main target structure of the retinal ganglion cell axons in the optic nerve is the optic tectum; in mammals the homologous target is the superior colliculus
+* The projection of axonal terminals on their target is in the form of a 2D map of the visual field, and hence the retina, onto the optic tectum or superior colliculus, in a fixed orientation
+
+#### 10.7.1 Which data to model?
+* A systematic way of developing the ideal model is to establish the set of phenomena for which it is to account. The most important of these are:
+	* Normal map: the development of an ordered 2D retinotopic map in a prespecified orientation
+	* Connectivity plasticity: retinal axons can make connections with cells other than the ones that they would have contacted if part of a normal map
+	* Maps formed in compound eyes: A set of studies on the properties of the experimentally induced compound eye projection
+
 # See also
 
 # References
