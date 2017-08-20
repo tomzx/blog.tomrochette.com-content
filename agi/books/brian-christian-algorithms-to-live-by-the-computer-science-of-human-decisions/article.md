@@ -248,6 +248,13 @@ taxonomy:
 * The problem isn't that we're always connected; we're not. The problem is that we're always buffered
 * We used to reject; now we defer
 
+## 11 Game Theory
+### Reaching Equilibrium
+* The mathematician John Nash proved in 1951 that every two-player game has at least one equilibrium
+
+### Dominant Strategies, for Better or Worse
+* The price of anarchy measures the gap between cooperation (a centrally designed or coordinated solution) and competition (where each participant is independently trying to maximize the outcome for themselves)
+
 # See also
 
 # References
