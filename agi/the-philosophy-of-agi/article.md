@@ -18,11 +18,11 @@ Part of the reason I write this, is to understand how an AGI goes through the pr
 
 # Opinions
 ## Forming and changing opinion
-* Opinions should be volatile, that is, it should be subject to change over time, but exist and be relied on at any given time
+* Opinions should be volatile, that is, it should be subject to change over time, but exist and be relied on at any given time to form composite opinions (opinions based on prior opinions)
 * The idea of volatility is that an AGI agent needs to be able to take decisions and proceed further into its thinking
 * If at some point arguments are brought up that goes against what the agent believes in, these arguments should be evaluated against the existing framework that has been built
 * When evaluating a position on a topic, it is important to consider the veracity of the facts presented
-* It is also important to evaluate how often this opinion and its related facts would have useful to us compared to our existing position
+* It is also important to evaluate how often an opinion and its related facts have been useful to us compared to our existing position
 
 ## Opinions as Reinforcement Learning Problems
 * In reinforcement learning, our objective is to maximize total reward
@@ -37,6 +37,14 @@ Part of the reason I write this, is to understand how an AGI goes through the pr
 	* One could say that the meaning of life in this case would be to discover and ascend this reward ladder
 * Most human beings agree on a set of "values" which are important to a "good" life: happiness, health, comfort
 	* See Maslow's hierarchy of needs
+
+# Unsorted
+* One knows as much as there is to learn through (supervised) learning
+* Observe as many examples as you can in order to produce the most accurate model
+
+* Why is it that it is so difficult for us to abandon the way we do things so that we may do them in a radically different way?
+	* Is it because our current way has proven itself to work for so long that there's no reason to believe that the other way would be even more successful? Or that it's not worth trading what was acquired to learn something new that, in the end, will only be a trade-off (moving from one local minima to another)?
+	* Or is it based on the argument presented in "On Intelligence"/"The Society of Mind", where we build upon previous experiences like an onion, and so abandoning these previous experiences would require a lot of work?
 
 # See also
 
