@@ -18,18 +18,30 @@ The following lists papers I've read and reviewed or made notes for.
 ## Andrew Carlson
 * [Toward an Architecture for Never-Ending Language Learning (2010)](andrew-carlson-toward-an-architecture-for-never-ending-language-learning)
 
+## Ashish Vaswani
+* [Attention Is All You Need (2017)](ashish-vaswani-attention-is-all-you-need)
+
 ## Barret Zoph
 * [Neural Architecture Search with Reinforcement Learning (2016)](barret-zoph-neural-architecture-search-with-reinforcement-learning)
 
 ## Bradly Stadie
 * [Third-Person Imitation Learning (2017)](bradly-stadie-third-person-imitation-learning)
 
+## Cristian Bucila
+* [Model Compression (2006)](cristian-bucila-model-compression)
+
 ## David Silver
 * [Mastering the Game of Go with Deep Neural Networks and Tree Search (2016)](david-silver-mastering-the-game-of-go-with-deep-neural-networks-and-tree-search)
 * [The Predictron: End-To-End Learning and Planning (2017)](david-silver-the-predictron-end-to-end-learning-and-planning)
 
+## Demis Hassabis
+* [Neuroscience-Inspired Artificial Intelligence (2017)](demis-hassabis-neuroscience-inspired-artificial-intelligence)
+
 ## Dzmitry Bahdanau
 * [Neural Machine Translation by Jointly Learning to Align and Translate (2015)](dzmitry-bahdanau-neural-machine-translation-by-jointly-learning-to-align-and-translate)
+
+## Eric Laukien
+* [Feynman Machine: The Universal Dynamical Systems Computer (2016)](eric-laukien-feynman-machine-the-universal-dynamical-systems-computer)
 
 ## Ian Goodfellow
 * [Generative Adversarial Nets (2014)](ian-goodfellow-generative-adversarial-nets)
@@ -40,8 +52,14 @@ The following lists papers I've read and reviewed or made notes for.
 ## Jacob Devlin
 * [RobustFill: Neural Program Learning under Noisy I/O (2017)](jacob-devlin-robustfill-neural-program-learning-under-noisy-i-o)
 
+## Kelvin Xu
+* [Show, Attend and Tell: Neural Image Caption Generation with Visual Attention (2015)](kelvin-xu-show-attend-and-tell-neural-image-caption-generation-with-visual-attention)
+
 ## Ken Kansky
 * [Schema Networks: Zero-shot Transfer with a Generative Causal Model of Intuitive Physics (2017)](ken-kansky-schema-networks-zero-shot-transfer-with-a-generative-causal-model-of-intuitive-physics)
+
+## Geoffrey Hinton
+* [Distilling the Knowledge in a Neural Network (2015)](geoffrey-hinton-distilling-the-knowledge-in-a-neural-network)
 
 ## Łukasz Kaiser
 * [One Model To Learn Them All (2017)](lukasz-kaiser-one-model-to-learn-them-all)
@@ -61,6 +79,9 @@ The following lists papers I've read and reviewed or made notes for.
 ## Nal Kalchbrenner
 * [Grid Long Short-Term Memory (2015)](nal-kalchbrenner-grid-long-short-term-memory)
 
+## Paul Christiano
+* [Deep Reinforcement Learning from Human Preferences (2017)](paul-christiano-deep-reinforcement-learning-from-human-preferences)
+
 ## Ralf Herbrich
 * [Learning and Generalization: Theoretical Bounds (2001)](ralf-herbrich-learning-and-generalization-theoretical-bounds)
 
@@ -70,6 +91,9 @@ The following lists papers I've read and reviewed or made notes for.
 
 ## Théodore Bluche
 * [Scan, Attend and Read: End-to-End Handwritten Paragraph Recognition with MDLSTM Attention (2016)](theodore-bluche-scan-attend-and-read-end-to-end-handwritten-paragraph-recognition-with-mdlstm-attention)
+
+## Tomas Mikolov
+* [Efficient Estimation of Word Representations in Vector Space (2013)](tomas-mikolov-efficient-estimation-of-word-representations-in-vector-space)
 
 ## Volodymyr Mnih
 * [Human-level control through deep reinforcement learning (2015)](volodymyr-mnih-human-level-control-through-deep-reinforcement-learning)
