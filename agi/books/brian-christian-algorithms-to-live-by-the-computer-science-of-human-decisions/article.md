@@ -3,7 +3,7 @@ title: Brian Christian - Algorithms to Live By: The Computer Science of Human De
 created: 2017-07-27
 taxonomy:
   category: [Artificial General Intelligence]
-  status: in progress
+  status: finished
 ---
 
 ## Context
@@ -254,6 +254,42 @@ taxonomy:
 
 ### Dominant Strategies, for Better or Worse
 * The price of anarchy measures the gap between cooperation (a centrally designed or coordinated solution) and competition (where each participant is independently trying to maximize the outcome for themselves)
+
+### Mechanism Design by Evolution
+* Because feelings are involuntary, they enable contracts that need no outside enforcement
+* Love is like organized crime. It changes the structure of the marriage game so that the equilibrium becomes the outcome that works best for everybody
+* Being able to fall involuntarily in love makes you, in turn, a more attractive partner to have. Your capacity for heartbreak, for sleeping with the emotional fishes, is the very quality that makes you such a trusty accomplice
+
+### Information Cascades: The Tragic Rationality of Bubbles
+* Part of the reason why it's a good idea to pay attention to the behavior of others is that in doing so, you get to add their information about the world to your own
+* On the other hand, learning from others doesn't always seem particularly rational
+* Sealed-bid first-price auction: Each participant write down their bid in secret, and the one whose bid is the highest wins the item for whatever price they wrote down
+* Dutch auction: Gradually lower an item's price until someone is willing to buy it
+* English auction: Bidders alternate raising the price until all but one of them drop out
+* Something very important happens once somebody decides to follow blindly his predecessors independently of his own information signal, and that is that his action becomes uninformative to all later decision makes. Now the public pool of information is no longer growing. That welfare benefit of having public information... has ceased
+* Investors are said to fall into two broad camps:
+	* Fundamental: trade on what they perceive as the underlying value of a company
+	* Technical: trade on the fluctuations of the market
+* Be wary of cases where public information seems to exceed private information, where you know more about what people are doing than why they're doing it, where you're more concerned with your judgements fitting the consensus than fitting the facts
+* When you're mostly looking to others to set a course, they may well be looking right back at you to do the same
+* Remember that actions are not beliefs; cascades get caused in part when we misinterpret what others think based on what they do
+* We should remember from the prisoner's dilemma that sometimes a game can have irredeemably lousy rules
+
+### To Thine Own Self Compute
+* Vickrey auction: A sealed bid auction process. Every participant simply writes down a single number in secret, and the highest bidder wins. The winner ends up paying the bid of the second-place bidder
+* Roger Myerson proved that any game that requires strategically masking the truth can be transformed into a game that requires nothing but simple honesty
+
+## Conclusion
+### Computational Kindness
+* Three simple pieces of wisdom:
+	* There are cases where computer scientists and mathematicians have identified good algorithmic approaches that can simply be transferred over to human problems
+	* Knowing that you are using an optimal algorithm should be a relief even if you don't get the results you were looking for
+	* We can draw a clear line between problem that admit straightforward solutions and problems that don't
+* If we have control over which situations we confront, we should choose the ones that are tractable
+* In the case of interviews, it seems that people preferred receiving a constrained problem, even if the constraints were plucked out of thin air, than a wide-open one
+* Computation is bad: the underlying directive of any good algorithm is to minimize the labor of thought
+* You can try to reduce, rather than maximize, the number of options that you give other people
+* In the hard cases, the best algorithms are all about doing what makes the most sense in the least amount of time, which by no means involves giving careful consideration to every factor and pursuing every computation to the end
 
 # See also
 
