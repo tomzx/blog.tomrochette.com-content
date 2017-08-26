@@ -213,6 +213,23 @@ Bennett and Robinson took a more biophysical approach by proposing a set of reac
 	* Normal map: the development of an ordered 2D retinotopic map in a prespecified orientation
 	* Connectivity plasticity: retinal axons can make connections with cells other than the ones that they would have contacted if part of a normal map
 	* Maps formed in compound eyes: A set of studies on the properties of the experimentally induced compound eye projection
+	* Abnormal connectivity in genetically modified mice: Kockout of eprinAs and Knockin of EphAs has impact on the resulting retinal projections
+
+### 10.7.2 Introduction to models for retinotopic map formation
+* The main classes of theories
+	* Fibre ordering: that axons are guided to their target due to the ordering of nerve fibres within the pathway
+	* Timing: that during neurogenesis the earliest fibres reaching their target make contact with the earliest differentiating cells
+	* Chemoaffinity: that there are biochemical labels amongst the retinal axons and their target cells that enable fibres and cells with matching labels to make connections
+	* Neural activity: that the patterns of electrical activity in neurons encode information enabling the appropriate contacts to be made
+	* Competition: that one of the signals guiding an axon to its targets arises from interactions with other axons
+* The principal assumptions
+	* Most models are intended to apply once retinal axons have reached their target region, the optic tectum or the superior colliculus, where they are to make specific connections to form the ordered map
+	* The details of the 3D world in which axons have to find their targets are usually not represented in the model
+	* Some models are of connections forming between two 1D structures; some are of 2D structures interconnecting
+	* The number of cells in the two structures which are to interconnect are chosen to be large enough that a mapping of some precision can develop and are usually much smaller than in the real neural system
+	* The degree of connectivity between each retinal ganglion cell and each target cell is expressed in terms of some physical attribute of the contact between them, which is referred to as the synaptic strength of the connection
+	* The more detailed models are made up of a set of rules, usually expressed as a set of differential equations, for how each retinal axon develops contacts with a single cell or a set of target cells
+	* Most models contain elements of three basic mechanisms, which we refer to as mechanisms of chemoaffinity, activity-based interactions and competition
 
 # See also
 
