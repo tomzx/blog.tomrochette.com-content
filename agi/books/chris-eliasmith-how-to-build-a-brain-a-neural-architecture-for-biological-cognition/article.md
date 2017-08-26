@@ -69,6 +69,32 @@ taxonomy:
 * The relation between a semantic pointer and what it points to can be usefully thought of as a kind of compression
 * Any characterization of a cognitive system has to provide some explanation for how relevant information is propagated through time, and how the system can adapt using its past experience
 
+## 2. An Introduction to Brain Building
+### 2.2 A Framework for Building a Brain
+* The following three principles form the core of the Neural Engineering Framework(NEF)
+	* Neural representations are defined by the combination of nonlinear encoding (exemplified by neuron tuning curves and neural spiking) and weighted linear decoding (over population of neurons and over time)
+	* Transformations of neural representations are functions of the variables represented by neural populations. Transformations are determined using an alternately weighted linear decoding
+	* Neural dynamics are characterized by considering neural representations as state variables of dynamic systems. Thus, the dynamics of neurobiological systems can be analyzed using control (or dynamic systems) theory
+* It seems that neurons tend to encode approximately two to seven bits of information per spike
+* It is reasonable to begin with the hypothesis that "higher-level" properties are inferred on the basis of representations of properties more like those that physicists talk about
+	* In other words, the encoding of "edible" depend, in some complex way, on encodings of "lower-level" physical properties like wavelength, velocity, and so forth
+* One crucial aspect of the NEF principle of representation is that it can be used to characterize arbitrarily complex representations
+* A second crucial aspect of this principle is that it distinguishes the mathematical object being represented from the neurons that are representing it
+	* I refer to the former as the "state space" and the latter as the "neuron space"
+* A third crucial aspect of this principle is that it embraces the heterogeneity of neural representation
+
+#### 2.2.2 Transformation
+* A transformational decoder is a kind of biased decoding. That is, in determining a transformation, we extract information other than what the population is taken to represent
+* In general, we can characterize non-linear functions of multiple scalars or vectors as linear decoding of some higher-dimensional representation in a population of neurons
+
+### 2.3 Levels
+* Some have suggested that because the reduction of one science to another has failed, the sciences must be independent
+* Consequently, Fodor has argued that to understand cognitive systems, which lie in the domain of psychology, appeal to lower-level sciences is largely useless
+* Levels should be taken as pragmatically identified sets of descriptions that share assumptions
+* Most systems composed of parts have parts that interact
+* If the parts of a system are organized in such a way that their interaction results in some regular phenomena, then they are called "mechanisms"
+* Mechanisms are often analyzed by decomposing them into their simpler parts, which may also be mechanisms
+
 # See also
 
 # References
