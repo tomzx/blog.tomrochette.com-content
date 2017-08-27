@@ -75,3 +75,4 @@ $$
 # See also
 
 # References
+* Kaiser, Lukasz, et al. "One Model To Learn Them All." arXiv preprint arXiv:1706.05137 (2017).
