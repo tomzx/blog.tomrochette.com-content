@@ -14,7 +14,7 @@ In the following document, I try to explain to the best of my knowledge various 
 #### Rational versus non-rational reasoning
 [2] Rational reasoning is when something can be explained by a sequence of finite explanations based on logic, one leading to the other, similar to a proof.
 
- [2] Non-rational reasoning is when something is explained through means such as probabilities.
+[2] Non-rational reasoning is when something is explained through means such as probabilities.
 
 ### Nature of agents
 #### Autonomous versus semi-autonomous
@@ -87,3 +87,106 @@ In the following document, I try to explain to the best of my knowledge various 
 
 #### Monte-Carlo tree search
 [2] Monte-Carlo tree search is the exploration of the search tree by randomly exploring the search tree most promising actions. Instead of constructing the whole tree (which may not be possible), the algorithm explores the most promising branches by simulating a possible traversal (from root to leaf). Given the result of this simulation, it is recorded as part of the branch being simulated, such that we have an idea of the potential (in term of probabilities) of each branches.
+
+## Reasoning Under Uncertainty
+### Random variables and probability distributions
+#### Axioms of probability
+[1] 3 axioms (with sample space $\Omega$,  event space $F$ and probably measure $P$), also known as Kolmogorov axioms
+* The probability of an event is a non-negative real number:
+$$
+P(E) \in \mathbb{R}, P(E) \ge 0 \qquad \forall E \in F
+$$
+where $F$ is the event space
+* The probability that at least one of the elementary events in the entire space will occur is 1
+$$
+P(\Omega) = 1
+$$
+* Any countable sequence of disjoint sets (mutually exclusive events) $E_1, E_2, \dots$ satifies
+$$
+P\left(\bigcup_{i=1}^\infty E_i\right) = \sum_{i=1}^\infty P(E_i)
+$$
+
+#### Bayes' Rule
+$$
+P(A|B) = \frac{P(B|A)P(A)}{P(B)}
+$$
+where $A$ and $B$ are events and $P(B) \ne 0$.
+
+## Agents
+### Definitions of agents
+[3] An agent is an entity that interacts with an environment and possibly other agents. In artificial intelligence, an agent can be categorized under 4 different types:
+* Reflex based
+* Model based
+* Goal based
+* Utility based
+
+## Advanced Machine Learning
+### Definition and examples of broad variety of machine learning tasks
+[2]
+* Classification
+* Regression
+* Reinforcement learning
+
+* Handwriting recognition
+* Speech recognition
+* Speech generation
+* Object recognition
+* Automated driving
+* Recommender systems
+
+### Supervised learning
+#### Learning neural networks
+[2] Learning in neural networks is generally done through backpropagation and the use of gradients. First, an example is fed to the network, which computes its prediction. Given the correct answer (label), the network then computes the error given a loss function. This error is then backpropagated through the various layers of the network in order to update the weight of each layer according to their impact/weight on the error.
+
+### Ensembles
+[1] Ensembles are based on the principle that you can take a group of different models and average their result to obtain an overall better result (the idea of synergy).
+
+### Nearest-neighbor algorithms
+[2] k-nearest neighbor is a supervised learning algorithm that trains a model to do samples classification. Once the model is trained, new samples are matched with the most similar samples that have been seen in the trained model. The new sample will be given the same class as the one most of its neighbors have.
+
+### Unsupervised learning and clustering
+#### K-means
+[1] k-means is a clustering algorithm which takes a set of samples and will attempt to construct k groups given the features of these samples.
+
+### Reinforcement learning
+#### Markov decision processes
+[1] A Markov decision process is a tuple $\langle\mathcal{S}, \mathcal{A}, \mathcal{P}, \mathcal{R}, \gamma\rangle$ where
+* $\mathcal{S}$: a finite set of states
+* $\mathcal{A}$: a finite set of actions
+* $\mathcal{P}$: a transition probability matrix, the probability of transitioning from $s$ to $s'$ through action $a$
+* $\mathcal{R}$: a reward function, the immediate reward given for transitioning from $s$ to $s'$ through action $a$
+* $\gamma$: a discount factor
+* A policy $\pi$ is a distribution over actions given states
+$$
+\pi(a\ |\ s) = \mathbb{P}[A_t = a\ |\ S_t = s]
+$$
+* The state-value function $v_\pi(s)$ is the expected return starting from state $s$ and following policy $\pi$
+$$
+v_\pi(s) = \mathbb{E}_\pi[G_t\ |\ S_t = s]
+$$
+* The action-value function $q_\pi(s, a)$ is the expected return starting from state $s$ and following action $a$
+$$
+q_\pi(s, a) = \mathbb{E}_\pi[G_t\ |\ S_t = s, A_t = a]
+$$
+
+## Perception and Computer Vision
+### Computer vision
+#### Image acquisition, representation, processing and properties
+[3] Image acquisition is generally done through a device (e.g., a web camera) that converts light into a electrical/digital signal.
+
+Such signal is converted into a 2D tensor where you have the (x, y) coordinate associated with an (r, g, b) color, which represents a single pixel. It is also possible to represent the color in other spaces such as BGR, HSV/HSL or YPbPr.
+
+Processing of image is generally done through the use of filters or specific operations on the tensor representation of the image (such as extracting the min/average/max values, normalizing).
+
+#### Motion analysis
+[2] To do motion analysis, one tries to build a vector field, which attempts to map an initial pixel location (on a previous frame) with its new position on a new frame. A simple analysis will compute the difference between the initial and following images and indicate all pixels where the intensity/color has changed. This does not indicate how the pixels have moved, but that they have changed, indicating movement (or change in lighting intensity or other factors such as noise capture, etc.).
+
+A more complex analysis will attempt to map the initial pixel location with its new location. is to minimize the amount of pixels that have changed as well as the distance the pixels will have moved.
+
+### Audio and speech recognition
+[1] Audio recognition goal is to recognize specific audio segments or similar sounding audio segments, given that they may be distorted due to the capturing device or due to the presence of noise during capture. Recognition is generally an attempt at producing a fingerprint of the signal and searching through a database of known signal for a match.
+
+Speech recognition is a complex domain in which one attempts to automate the extraction of text from audio data.
+
+### Modularity in recognition
+[2] Recognition is generally composed of multiple steps, which can be composed as a pipeline of modules. For instance, in speech recognition, one will first want to process the audio signal in order to extract a noise profile which will then be removed from the original signal in an attempt to reduce said noise. The signal may then be normalized so that quiet and loud sounds are both at the same volume. The system may then attempt to segment the audio signal into words, which will then be send for recognition in isolation. Afterward, another module may receive suggestions for each of the processed word and attempt to construct a grammatically correct sentence.
