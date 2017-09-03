@@ -94,6 +94,37 @@ is also efficiently computable.
 ## 7 PAC-Learning and the Problem of Induction
 * In this theory, we consider an idealized "learner," who is presented with points $x_1, \dots, x_m$ drawn randomly from some large set $\mathcal{S}$, together with the "classifications" $f(x_1), \dots, f(x_m)$ of those points
 * The learner's goal is to infer the function $f$, well enough to be able to predict $f(x)$ for most future points $x \in \mathcal{S}$
+* For simplicity, we often assume that $\mathcal{S}$ is a set of binary strings, and that the function $f$ maps each $x \in \mathcal{S}$ to a single bit, $f(x) \in \{0, 1\}$
+* The important assumptions are the following:
+	* Each of the sample points $x_1, \dots, x_m$ is drawn independently from some (possibly-unknown) "sample distribution" $\mathcal{D}$ over $\mathcal{S}$. Furthermore, the future points $x$ on which the learner will need to predict $f(x)$ are drawn from the same distribution
+	* The function $f$ belongs to a known "hypothesis class" $\mathcal{H}$. This $\mathcal{H}$ represents "the set of possibilities" the learner is willing to entertain" (and is typically much smaller than the set of all $2^{|\mathcal{S}|}$ possible functions from $\mathcal{S}$ to $\{0, 1\}$)
+* Theorem 2 (Valiant) Consider a finite hypothesis class $\mathcal{H}$, a Boolean function $f : \mathcal{S} \rightarrow \{0, 1\} \in \mathcal{H}$, and a sample distribution $\mathcal{D}$ over $\mathcal{S}$, as well as an error rate $\epsilon > 0$ and a failure probability $\delta > 0$ that the learner is willing to tolerate. Call a hypothesis $h : \mathcal{S} \rightarrow \{0, 1\}$ "good" if
+$$
+\Pr_{x \sim \mathcal{D}} [h(x) = f(x)] \ge 1 - \epsilon
+$$
+* Also, call sample points $x_1, \dots, x_m$ "reliable" if any hypothesis $h \in \mathcal{H}$ that satisfies $h(x_i) = f(x_i)$ for all $i \in \{1, \dots, m\}$ is good. Then
+$$
+m = \frac{1}{\epsilon}\ln\frac{\mathcal{H}}{\delta}
+$$
+* samples points $x_1, \dots, x_m$ drawn independently from $\mathcal{D}$ will be reliable with probability at least $1 - \delta$
+* In other words, if, by some unspecified means, the learner manages to find any hypothesis $h \in \mathcal{H}$ that makes correct predictions on all its past data points $x_1, \dots, x_m$, then provided $m$ is large enough (and as it happens, $m$ doesn't need to be very large), the learner can be statistically confident that $h$ will also make the correct predictions on most future points
+
+### 7.1 Drawbacks of the Basic PAC Model
+* The first drawback is that the Theorem 2 works only for finite hypothesis classes
+* One could solve this problem by simply discretizing the parameters, but then the number of hypothesis would depend on how fine the discretization was
+* Fortunately, we can avoid such difficulties by realizing that the learner only cares about the "differences" between two hypothesis insofar as they lead to different predictions
+	* This leads to the fundamental notion of VC-dimension
+* Definition 3 (VC-dimension) A hypothesis class $\mathcal{H}$ shatters the sample points ${x_1, \dots, x_k} \subseteq \mathcal{S}$ if for all $2^k$ possible settings of $h(x_1), \dots, h(x_k)$, there exists a hypothesis $h \in \mathcal{H}$ compatible with those settings. Then $VCdim(\mathcal{H})$, the VC-dimension of $\mathcal{H}$, is the largest $k$ for which there exists a subset ${x_1, \dots, x_k} \subseteq \mathcal{S}$ that $\mathcal{H}$ shatters (or if no finite maximum exists, then $VCdim(\mathcal{H}) = \infty$)
+* Theorem 4 (Blumer et al.) For some universal constant $K > 0$, the bound on $m$ in Theorem 2 can be replaced by
+$$
+m = \frac{K\ VCdim(\mathcal{H})}{\epsilon}\ln\frac{\mathcal{H}}{\delta\epsilon}
+$$
+* with the theorem now holding for any hypothesis class $\mathcal{H}$, finite or infinite
+* In some sense, Theorem 4 is telling us that finite VC-dimension is a necessary and sufficient condition for scientific induction to be possible
+* The second drawback of Theorem 2 is that it gives us no clues about how to find a hypothesis $h \in \mathcal{H}$ consistent with the sample data. All it says is that, if we find such an $h$, then $h$ will probably be close to the truth
+* Learning and cryptography are "dual" problems: a learner wants to find patterns in data, while a cryptographer wants to generate data whose patterns are hard to find
+* The third drawback of Theorem 2 is the assumption that the distribution $\mathcal{D}$ from which the learner is tested is the same as the distribution from which the sample points were drawn
+* The goal of science is not merely to summarize observations, and thereby let us make predictions about similar observations. Rather, the goal is to discover explanations with "reach," meaning the ability to predict what would happen in novel or hypothetical situations
 
 # See also
 
