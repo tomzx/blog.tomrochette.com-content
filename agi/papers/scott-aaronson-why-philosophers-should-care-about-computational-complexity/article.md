@@ -126,6 +126,52 @@ $$
 * The third drawback of Theorem 2 is the assumption that the distribution $\mathcal{D}$ from which the learner is tested is the same as the distribution from which the sample points were drawn
 * The goal of science is not merely to summarize observations, and thereby let us make predictions about similar observations. Rather, the goal is to discover explanations with "reach," meaning the ability to predict what would happen in novel or hypothetical situations
 
+### 7.2 Computational Complexity, Bleen, and Grue
+* When we talk about the simplicity or complexity of hypotheses, we should distinguish two issues:
+	* The asymptotic scaling of the hypothesis size, as the "size" $n$ of our learning problem goes to infinity
+	* The constant-factor overheads
+
+## 8 Quantum Computing
+* Does quantum computing have any implications for philosophy - and specifically, for the interpretation of quantum mechanics?
+* A scalable quantum computer would test quantum mechanics in an extremely novel regime
+* The "regime" quantum computers would test is characterized not by an energy scale or a temperature, but by computational complexity
+* One of the most striking facts about quantum mechanics is that, to represent the state of $n$ entangled particles, one needs a vector of size exponential in $n$
+
+### 8.1 Quantum Computing and the Many-World Interpretation
+* Two possible responses to Detsch's challenge:
+	* Deny that, if Shor's algorithm works as predicted, that can only be explained by postulating "vast computational resources"
+		* Complexity theorists have not yet ruled out the possibility of a fast classical factoring algorithm
+	* Even if we agree that Shor's algorithm demonstrates the reality of vast computational resources in Nature, it is not obvious that we should think of those resources as "parallel universes"
+		* Why not simply say that there is one universe, and that it is quantum-mechanical?
+
+## 9 New Computational Notions of Proof
+* Since the time of Euclid, there have been two main notions of mathematical proof:
+	* A "proof" is a verbal explanation that induces a sense of certainty (and ideally, understanding) about the statement to be proved, in any human mathematician willing and able to follow it
+	* A "proof" is a finite sequence of symbols encoding syntactic deductions in some formal system, which start with axioms and end with the statement to be proved
+* Theoretical computer science deals regularly with a third notion of proof:
+	* A "proof" is any computational process or protocol (real or imagined) that can terminate in a certain way if and only if the statement to be proved is true
+
+### 9.1 Zero-Knowledge Proofs
+* Given two graphs $G$ and $h$, each with $n \approx 10000$ vertices, suppose that an all-powerful but untrustworthy wizard Merlin wishes to convince a skeptical kind Arthur that $G$ and $H$ are not isomorphic
+* It is not proven that, if $G$ and $H$ are non-isomorphic, there is always a differentiating property that Arthur can verify in time polynomial in $n$
+* There is something Merlin can do instead: he can let Arthur challenge him
+	* Arthur, send me a new graph $K$, which you obtained either by randomly permuting the vertices of $G$, or randomly permuting the vertices of $H$. Then I guarantee that I will tell you, without fail, whether $K \cong G$ or $K \cong H$
+* This protocol has at least four features that merit reflection by anyone interested in the nature of mathematical proofs
+	* The protocol is probabilistic
+	* The protocol is interactive
+	* If Merlin had the power to "peer into Arthur's study" and directly observe whether Arthur started with $G$ or $H$, then clearly he could answer every challenge correctly even if $G \cong H$
+	* It is zero-knowledge
+
+### 9.2 Other New Notions
+* Multi-prover interactive proofs
+* Probabilistically checkable proofs
+* Quantum proofs
+* Computationally-sound proofs and arguments
+
+## 10 Complexity, Space, and Time
+* Complexity theorists believe that space is more powerful than time
+* In complexity theory, the difference between space and time manifests itself in the straightforward fact that you can reuse the same memory cells over and over, but you can't reuse the same moments of time
+
 # See also
 
 # References
