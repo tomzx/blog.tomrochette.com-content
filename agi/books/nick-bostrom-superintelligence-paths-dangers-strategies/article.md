@@ -66,6 +66,26 @@ taxonomy:
 * The aim is not to create a brain simulation so detailed and accurate that one could use it to predict exactly what would have happened in the original brain if it had been subjected to a particular sequence of stimuli. Instead, the aim is to capture enough of the computationally functional properties of the brain to enable the resultant emulation to perform intellectual work
 * Knowing merely which neurons are connected with which is not enough. TO create a brain emulation one would also need to know which synapses are excitatory and which are inhibitory; the strength of the connections; and various dynamical properties of the axons, synapses, and dendritic trees
 
+### Biological cognition
+* A third path to greater-than-current-human intelligence is to enhance the function of biological brains
+* In principle, this could be achieved without technology, through selective breeding
+* It seems implausible, on both neurological and evolutionary grounds, that one could by introducing some chemical into the brain of a healthy person spark a dramatic rise in intelligence
+* Manipulation of genetics will provide a more powerful set of tools than psychopharmacology
+* The problem with sequential selection, of course, is that it takes longer. If each generational step takes twenty or thirty years, then even just five successful generations would push us well into the twenty-second century
+* One intervention that becomes possible when human genomes can be synthesized is genetic "spell-checking" of an embryo
+* Each of us currently carries a mutational load, with perhaps hundreds of mutations that reduce the efficiency of various cellular processes
+* With gene synthesis we could take the genome of an embryo and construct a version of that genome free from the genetic noise of accumulated mutations
+* Three conclusions
+	* at least weak forms of superintelligence are achievable by means of biotechnological enhancements
+	* the feasibility of cognitively enhanced humans adds to the plausibility that advanced forms of machine intelligence are feasible
+	* when we consider scenarios stretching significantly into the second half of this century and beyond, we must take into account the probable emergence of a generation of genetically enhanced populations, with the magnitude of enhancement escalating rapidly over subsequent decades
+
+### Brain-computer interfaces
+* Although the possibility of direct connections between humans brains and computers has been demonstrated, it seems unlikely that such interfaces will be widely used as enhancements any time soon
+* To begin with, there are significant risks of medical complications -  infections, electrode displacement, hemorrhage, and cognitive decline - when implanting electrodes in the brain
+* The second reason to doubt superintelligence will be achieved through cyborgization is that enhancement is likely to be far more difficult than therapy
+* Even if there were an easy way of pumping more information into our brains, the extra data inflow would do little to increase the rate at which we think and learn unless all the neural machinery necessary for making sense of the data were similarly upgraded
+
 # See also
 
 # References
