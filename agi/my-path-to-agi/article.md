@@ -416,7 +416,7 @@ Manuel Lopes, Pierre-Yves Oudeyer
 ### The Master Algorithm: How the Quest for the Ultimate Learning Machine Will Remake Our World (2017-07 - 2017-08)
 Pedro Domingos
 
-### Algorithms to Live By: The Computer Science of Human Decisions (2017-07 - ?)
+### Algorithms to Live By: The Computer Science of Human Decisions (2017-07 - 2017-08)
 Brian Christian, Tom Griffiths
 
 ### Principles of Computational Modelling in Neuroscience (2017-07 - (2017-08))
@@ -424,3 +424,15 @@ David Sterratt, Bruce Graham, Andrew Gillies, David Willshaw
 
 ### How to Build a Brain: A Neural Architecture for Biological Cognition (2017-08 - ?)
 Chris Eliasmith
+
+### Why Philosophers Should Care About Computational Complexity (2017-08 - ?)
+Scott Aaronson
+
+### Superintelligence: Paths, Dangers, Strategies (2017-08 - ?)
+Nick Bostrom
+
+### The Brain: The Story of You (2017-08 - ?)
+David Eagleman
+
+### Is the theory of everything merely the ultimate ensemble theory? (2017-09 - ?)
+Max Tegmark
