@@ -3,7 +3,7 @@ title: Scott Aaronson - Why Philosophers Should Care About Computational Complex
 created: 2017-08-24
 taxonomy:
   category: [Artificial General Intelligence]
-  status: in progress
+  status: finished
 ---
 
 ## Context
@@ -171,6 +171,25 @@ $$
 ## 10 Complexity, Space, and Time
 * Complexity theorists believe that space is more powerful than time
 * In complexity theory, the difference between space and time manifests itself in the straightforward fact that you can reuse the same memory cells over and over, but you can't reuse the same moments of time
+
+### 10.2 The Evolutionary Principle
+* Evolutionary Principle: Knowledge requires a causal process to bring it into existence
+* NP Hardness Assumption: There is no physical means to solve NP-complete problems in polynomial time
+
+## 11 Economics
+* Computational complexity theory can contribute to debates about the foundations of economics by showing that, even in the idealized situation of rational agents who all have perfect information about the state of the world, it will often be computationally intractable for those agents to act in accordance with classical economics
+
+## 12 Conclusions
+* Can we say anything general about when a computational complexity perspective is helpful in philosophy, and when it isn't?
+	* Computational complexity tends to be helpful when we want to know whether a particular fact does any explanatory work
+	* Other "philosophical applications" of complexity theory come from the Evolutionary Principle and the NP Hardness Assumption
+	* Computational complexity tends to be unhelpful when we only want to know whether a particular fact "determines" another fact, and don't care about the length of the inferential chain
+
+### 12.1 Criticisms of Complexity Theory
+* Complexity theory only makes asymptotic statements
+* Many of (what we would like to be) complexity theory's basic principles, such as P != NP, are currently unproved mathematical conjectures, and will probably remain that way for a long time
+* Complexity theory focuses on only a limited type of computer - the serial, deterministic Turing machine - and fails to incorporate the "messier" computational phenomena found in nature
+* Complexity theory studies only the worst-case behavior of algorithms, and does not address whether that behavior is representative, or whether it merely reflects a few "pathological" inputs
 
 # See also
 
