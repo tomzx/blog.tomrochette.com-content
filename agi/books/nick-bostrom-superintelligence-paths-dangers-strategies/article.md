@@ -16,6 +16,8 @@ taxonomy:
 * Bostrom uses the term "make the detonation survivable", which reminds me of the development of the atomic bomb. How different would intelligence explosion be from the development of the atomic bomb?
 * Given infinite computing power, how would one be able to detect/recognize intelligent behavior from programs (out of all the randomly generated programs)?
 * Is it possible to define some sort of "unit of intellectual work"?
+* Should we expect generalists+specialists collective systems to outperform generalists only (monolithic) systems?
+* What type of invention, similar to the print press, electricity or the Internet would lead to an intellectual revolution?
 
 # Overview
 
@@ -85,6 +87,44 @@ taxonomy:
 * To begin with, there are significant risks of medical complications -  infections, electrode displacement, hemorrhage, and cognitive decline - when implanting electrodes in the brain
 * The second reason to doubt superintelligence will be achieved through cyborgization is that enhancement is likely to be far more difficult than therapy
 * Even if there were an easy way of pumping more information into our brains, the extra data inflow would do little to increase the rate at which we think and learn unless all the neural machinery necessary for making sense of the data were similarly upgraded
+* Keeping our machines outside of our bodies also makes upgrading easier
+* The rate-limiting step in human intelligence is not how fast raw data can be fed into the brain but rather how quickly the brain can extract meaning and make sense of the data
+* Perhaps it will be suggested that we transmit meanings directly, rather than package them into sensory data that must be decoded by the recipient. There are two problems with this
+	* Brains, by contrast to the kinds of program we typically run on our computers, do not use standardized data storage and representation formats. Rather, each brain develops its own idiosyncratic representations of higher-level content
+	* Creating the required interface (to read/write from billions of individually addressable neurons) is probably an AI-complete problem
+* One hope for the cyborg route is that the brain, if permanently implanted with a device connecting it to some external resource, would over time learn an effective mapping between its own internal cognitive states and the inputs it receives from, or the outputs accepted by, the device
+	* Then the implant itself would not need to be intelligent; rather, the brain would intelligently adapt to the interface, much as the brain of an infant gradually learns to interpret the signals arriving from receptors in its eyes and ears
+
+### Networks and organizations
+* The idea here is not that this would enhance the intellectual capacity of individuals enough to make them superintelligent, but rather that some system composed of individuals thus networked and organized might attain a form of superintelligence
+* In general terms, a system's collective intelligence is limited by the abilities of its member minds, the overheads in communicating relevant information between them, and the various distortions and inefficiencies that pervade human organizations
+* If communication overheads are reduced (including not only equipment costs but also response latencies, time and attention burdens, and other factors), then larger and more densely connected organizations become feasible
+* Could the Internet become something more than just the backbone of a loosely integrated collective superintelligence - something more like a virtual skull housing an emerging unified super-intellect
+
+## Chapter 3 - Forms of superintelligence
+* We use the term "superintelligence" to refer to intellects that greatly outperform the best current human minds across many very general cognitive domains
+* We will differentiate between three forms:
+	* speed superintelligence
+	* collective superintelligence
+	* quality superintelligence
+
+### Speed superintelligence
+* A speed superintelligence is an intellect that is just like a human mind but faster
+* Speed superintelligence: A system that can do all that a human intellect can do, but much faster
+* An emulation operating at a speed of ten thousand times that of a biological brain would be able to read a book in a few seconds and write a PhD thesis in a afternoon. With a speedup factor of a million, an emulation could accomplish an entire millenium of intellectual work in one working day
+* Suppose your mind ran at 10000x
+	* Because of this apparent time dilation of the material world, a speed superintelligence would prefer to work with digital objects
+	* Alternatively, it could interact with the physical environment by means of nanoscale manipulators, since limbs at such small scales could operate faster than macroscopic appendages
+* The speed of light becomes an increasingly important constraint as minds get faster, since faster minds face greater opportunity costs in the use of their time for traveling or communicating over long distances
+
+### Collective superintelligence
+* Collective superintelligence: A system composed of a large number of smaller intellects such that the system's overall performance across many very general domains vastly outstrips that of any current cognitive system
+* Collective intelligence excels at solving problems that can be readily broken into parts such that solutions to sub-problems can be pursued in parallel and verified independently
+* A system's collective intelligence could be enhanced by expanding the number or the quality of its constituent intellects, or by improving the quality of their organization
+* The definition does not even imply that the more collectively intelligent society is wiser
+* We can think of wisdom as the ability to get the important things approximately right
+* We should recognize that there can exist instrumentally powerful information processing systems - intelligent systems - that are neither inherently good nor reliably wise
+* A collective superintelligence could, after gaining sufficiently in integration, become a "quality superintelligence"
 
 # See also
 
