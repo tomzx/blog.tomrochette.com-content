@@ -126,6 +126,43 @@ taxonomy:
 * We should recognize that there can exist instrumentally powerful information processing systems - intelligent systems - that are neither inherently good nor reliably wise
 * A collective superintelligence could, after gaining sufficiently in integration, become a "quality superintelligence"
 
+### Quality superintelligence
+* Quality superintelligence: A system that is at least as fast as a human mind and vastly qualitatively smarter
+* We can expand the range of our reference points by considering nonhuman animals, which have intelligence of lower quality
+* Nonhuman animals lack complex structured language; they are capable of no or only rudimentary tool use and tool construction; they are severely restricted in their ability to make long-term plans; and they have very limited abstract reasoning ability
+* The concept of quality superintelligence: it is intelligence of quality at least as superior to that of human intelligence as the quality of human intelligence is superior to that of elephants', dolphins', or chimpanzees'
+* A second way to illustrate the concept of quality superintelligence is by noting the domain-specific cognitive deficits that can afflict individual humans, particularly deficits that are not caused by general dementia or other conditions associated with wholesale destruction of the brain's neurocomputational resources
+* Such examples show that normal human adults have a raneg of remarkable cognitive talents that are not simply a function of possessing a sufficient amount of general neural processing power or even a sufficient amount of general intelligence: specialized neural circuitry is also needed
+
+### Direct and indirect reach
+* We might say that speed superintelligence excels at tasks requiring the rapid execution of a long series of steps that must be performed sequentially while collective superintelligence excels at tasks admitting of analytic decomposition into parallelizable sub-tasks and tasks demanding the combination of many different perspectives and skill sets
+* In some domains, quantity is a poor substitute for quality
+* If we widen our purview to include superintelligent minds, we must countenance a likelihood of there being intellectual problems solvable only by superintelligence and intractiable to any ever-so-large collective of non-augmented humans
+* We cannot clearly see what all these problems are, but we can characterize them in general terms. They would tend to be problems involving multiple complex interdependencies that do not permit of independently verifiable solution steps: problems that therefore cannot be in piecemeal fashion, and that might require qualitatively new kinds of understanding or new representational frameworks that are too deep or too complicated for the current edition of mortals to discover or use effectively
+
+### Sources of advantage for digital intelligence
+* Hardware advantages
+	* Speed of computational elements
+	* Internal communication speed
+	* Number of computational elements
+	* Storage capacity
+	* Reliability, lifespan, sensors, etc.
+* Software advantages
+	* Editability
+	* Duplicability
+	* Goal coordination
+	* Memory sharing
+	* New modules, modalities, and algorithms
+
+## Chapter 4 - The kinetics of an intelligence explosion
+### Timing and speed of the takeoff
+* If and when such machine is developed, how long will it be from then until a machine becomes radically superintelligent?
+* We can distinguish three classes of transition scenarios, based on their steepness
+	* Slow: A slow takeoff is one that occurs over some long temporal interval, such as decades or centuries
+	* Fast: A fast takeoff occurs over some short temporal interval, such as minutes, hours, or days
+	* Moderate: A moderate takeoff is one that occurs over some intermediary temporal interval, such as months or years
+* We can conceive the rate of increase in a system's intelligence as a (monotonically increasing) function of two variables: the amount of "optimization power" , or quality-weighted design effort, that is being applied to increase the system's intelligence, and the responsiveness of the system to the application of a given amount of such optimization power
+
 # See also
 
 # References
