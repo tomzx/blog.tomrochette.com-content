@@ -20,6 +20,7 @@ taxonomy:
 	* It should be a self-consistent theory encompassing quantum field theory and general relativity as special cases
 	* It should have predictive power so as to be falsifiable in Popper's sense
 * It is far from clear which of our experimental results we should expect it to predict with certainty and which it should predict only in a statistical sense
+* What would a mathematical language describing thoughts look like (operators and elements)?
 
 ### A. A classification of TOEs
 * Two categories of TOEs depending on their answer to the following question: Is the physical world purely mathematical, or is mathematics merely a useful tool that approximately describes certain aspects of the physical world?
@@ -79,6 +80,16 @@ taxonomy:
 	* $[[x \vee y] \mapsto [y \vee x]]$
 	* $[[x \mapsto y] \mapsto [[z \vee x] \mapsto [z \vee y]]]$
 * The symbol "$\mapsto$" appearing here is not part of the formal system. The string "$x \mapsto y$" is merely a convenient abbreviation for "$[\sim x] \vee y$"
+
+## III. How to Make Physical Predictions From the Theory
+### D. Which structures contain SASs?
+* We picture a self-aware substructure as something capable of some form of logical thought
+* We take the property of being "self-aware" as implicitly defined: a substructure is self-aware if it thinks that it is self-aware
+* To perceive itself as thinking (having a series of thoughts in some logical succession), it appears as though a SAS must subjectively perceive some form of time, either continuous (as we do) or discrete (as our digital computers)
+* As necessary conditions for containing a SAS, we will require that a mathematical structure exhibit a certain minimum of merely three qualities:
+	* Complexity
+	* Predictability
+	* Stability
 
 # See also
 
