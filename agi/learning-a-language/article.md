@@ -16,6 +16,9 @@ taxonomy:
 * What makes it easy to add new knowledge to existing one? Is learning random words an appropriate approach, or is there some constructive method, such as learning pronouns, then learning sentence structure, then a few critical verbs, and so on?
 * Is it possible to learn a language without linking utterances to things or existing internal concepts?
 * What are the stages of language learning as an adult and is there some duration between stages as in children development?
+* Why is it that when we're babies we can learn a language from nothing, but when we're adult we have difficulty learning a new language "only by experiencing it"?
+	* Is it because our neural network is "empty" of any weights/biases, thus it makes it easier to learn something?
+		* What is it exactly that we learn? It can't be classification until we're old enough to associate reward/punishment with its corresponding value, thus making it possible to classify how a word is written/said
 
 # Overview
 * This/That
@@ -82,15 +85,26 @@ taxonomy:
 
 Source: https://tim.blog/2014/07/16/how-to-learn-any-language-in-record-time-and-never-forget-it/
 
+# Speaking Japanese Fluently in 6 Months
+* Master the essentials: learn 1000 words and the core grammar.
+* Master conversation fillers: Er... because... they're very... um... useful.
+* Real life Japanese people: practice with native speakers in conversation (1h/week for 6 months).
+* Master every situation: Think and problem solve in Japanese at all times.
+* Get excited about synonyms: Don't allow yourself to become stuck. Move on.
+* Forget your native language: Either speak Japanese or say nothing at all.
+Source: https://www.youtube.com/watch?v=_IOZbJ7PCPk
+
 # My suggested learning steps
 * Pronouns
 * Basic verbs (be, have, want, need, like, think, know, understand, go, get, say)
+* Get a language parent/tutor
 
 # Personal observation
 * Learn a lot of vocabulary
 * Make sure to hear the words, as it's easier to learn/associate from speech than from reading (at least for me)
 * At some point, you start to want to generate sentences in the target language, but you notice that you do not know some of the words you'd like to say, which prompts you to look them up
 * Spaced repetition is the best way to track your progress as well as to make you recall words
+* When generating sentences, stay within the limits of the vocabulary you know. When you discover words you don't know, write them down so that you can add them to your spaced repetition software (always favor tracked memorization over ad-hoc learning)
 
 # Things to do
 * Speak to yourself in the target language
