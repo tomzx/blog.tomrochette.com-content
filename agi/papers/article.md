@@ -70,6 +70,9 @@ The following lists papers I've read and reviewed or made notes for.
 ## Marek Rosa
 * [A Framework for Searching for General Artificial Intelligence (2016)](marek-rosa-a-framework-for-searching-for-general-artificial-intelligence)
 
+## Max Tegmark
+* [Is "the theory of everything" merely the ultimate ensemble theory? (1998)](max-tegmark-is-the-theory-of-everything-merely-the-ultimate-ensemble-theory)
+
 ## Novamente
 * [Contemporary Approaches to Artificial General Intelligence (2007)](contemporary-approaches-to-artificial-general-intelligence)
 * [The Novamente Artificial Intelligence Engine (2007)](the-novamente-artificial-intelligence-engine)
@@ -91,6 +94,9 @@ The following lists papers I've read and reviewed or made notes for.
 
 ## Roman V. Yampolskiy
 * [From Seed AI to Technological Singularity via Recursively Self-Improving Software (2015)](roman-yampolskiy-from-seed-ai-to-technological-singularity-via-recursively-self-improving-software)
+
+## Scott Aaronson
+* [Why Philosophers Should Care About Computational Complexity (2011)](scott-aaronson-why-philosophers-should-care-about-computational-complexity)
 
 ## Vladimir Red'ko
 * [The Natural Way to Artificial Intelligence (2007)](vladimir-redko-the-natural-way-to-artificial-intelligence)
