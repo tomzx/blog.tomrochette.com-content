@@ -19,6 +19,8 @@ taxonomy:
 * How difficult would it be for human beings to actually be able to speak with animals given that their language should be a lot simpler than ours?
 * What information stays where and for how long? How does it disintegrate?
 * What experiments can one do in order to learn more about the brain?
+* Is a brain architecture where trains of thought are constructed an interesting idea?
+	* How are trains of thought actually constructed? Aren't trains of thought simply logical reasoning that is made by the conscious mind?
 
 # Overview
 
@@ -44,20 +46,20 @@ This can be seen as competition between various internal needs and wants. The st
 # What is the purpose?
 
 # What are the approach with the most chances of success?
-Learn from existing systems
-	Learn about neurobiology
-	Understanding how the brain works
-	Learn about child development
-		Specifically we're interested to determine what are innate and what are acquired skills and abilities. For skills that are innate, it means that the information is included as part of the DNA
-	Learn about genetics
-		* Specifically what we believe is included as part of DNA or even more specifically what are the cognitive abilities that are included as part of DNA
+## Learn from existing systems
+Learn about neurobiology
+Understanding how the brain works
+Learn about child development
+	Specifically we're interested to determine what are innate and what are acquired skills and abilities. For skills that are innate, it means that the information is included as part of the DNA
+Learn about genetics
+	* Specifically what we believe is included as part of DNA or even more specifically what are the cognitive abilities that are included as part of DNA
 
-Learn from mathematical/computational models
-	Learn about machine learning
-		Understanding problems through machine learning
-	Learn about computation and complexity theory
+## Learn from mathematical/computational models
+Learn about machine learning
+	Understanding problems through machine learning
+Learn about computation and complexity theory
 
-# Composition of human intelligence
+# Intelligence based on neural systems
 So far we know one interesting fact which is that there are a lot of other animals which also have all the components of the brain that we have however they are not considered to be as intelligent as human beings
 It does not appear to be the amount of neurons that you have in your central nervous system that determines whether or not you have human intelligence level which seems to disprove the idea of the emergence if intelligence by the sheer fact that you have a specific number of neurons (elephants are known to have over 257 billion neurons in their whole nervous system, vs 86 billion neurons for humans, and long-finned pilot whale are known to have 37.2 billion neurons in their cerebral cortex, vs 21 billion neurons for humans)
 However it's very important to note that we're generally at the top of the hierarchy in terms of the number of total neurons in the body or in the cerebral cortex
@@ -66,7 +68,7 @@ In terms of number of synapses, the whole human body has about 1.5*10^14 synapse
 It's important to note that there's about a thousand fold difference in the number of synapses between humans and cats however there's only a tenfold difference in number of synapses
 => Might have to do with our prefrontal cortex
 
-If we look at household animals such as the dog and the cat they appear to have some level of intelligence regarding their own “will” regarding where they are and where they want to be
+If we look at household animals such as the dog and the cat they appear to have some level of intelligence regarding their own "will" regarding where they are and where they want to be
 However it's questionable as to whether all of this is mechanical and it's just complexion of that it appears to be will and not just automation
 Just one could ask himself how to differentiate between automatic behavior and decisional behavior if such separation is actually possible
 
@@ -78,6 +80,18 @@ Is complexity any good indicator of intelligence or is it something coating for 
 How much compression can you assume is part of DNA? In other words, say we have about one kilobyte of information, how big can we expect this to decompress to given that it is likely that the compression dictionary is very close to the same for all human beings (8 billions+ instances of it) (it is defined by protein folding and physically possible molecules or polymers, assemblages, etc.)
 
 Mathematics seems to be the appropriate foundation for a system, as it can scale from really simple problems such as finding the value of x to complex ones with enormous tensors.
+
+# Sensory modalities
+Hearing/tasting/touching/seeing/smelling
+Possibly easier to start from speech recognition (lower dimension)
+Hearing is 3d (location of the source) + 2d (time and energy amplitude)
+Smell is the unique recognition of chemical particles in a certain ratio
+Taste is similar to smell
+Touching is a 3d signal (source) as well as a type and intensity (which may be conveyed through the volume of neurons signaling the same message)
+Vision is a 4d signal, that is, a 2d image (x, y) with light intensity/frequency, and time
+
+Is sensory modality the first step?
+If there are no senses/inputs, then there is nothing to do
 
 # Roadmap
 
