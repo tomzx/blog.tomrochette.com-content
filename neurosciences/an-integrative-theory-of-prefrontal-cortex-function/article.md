@@ -3,7 +3,7 @@ title: Earl Miller - An Integrative Theory of Prefrontal Cortex Function (2001)
 created: 2017-08-26
 taxonomy:
   category: [Neurosciences]
-  status: in progress
+  status: finished
 ---
 
 ## Context
@@ -84,6 +84,19 @@ taxonomy:
 * Thus, midbrain DA neurons seem to be coding "prediction error," the degree to which a reward, or a cue associated with reward, is surprising
 * The aim of the cognitive system is not only to predict reward but to pursue the actions that will ensure its procurement
 * The prediction error signal could help mediate this learning by selectively strengthening not only connections among neurons that provide information about the prediction of reward, but also their connections with representations in the PFC that guide the behavior needed to achieve it
+
+## A Guided Activation Theory of PFC Function
+### A Simple Model of PFC Function
+* Most neural network models that address the function of the PFC simulate it as the activation of a set of "rule" units whose activation leads to the production of a response other than the one most strongly associated with a given input
+
+### Guided Activation as a Mechanism of Cognitive Control
+* The PFC is modulatory rather than transmissive. That is, the pathway from input to output does not "run through" the PFC. Instead, the PFC guides activity flow along task-relevant pathways in more posterior and/or subcortical areas
+* This distinction between modulation vs transmission is consistent with the classic pattern of neuropsychological deficits associated with frontal lobe damage. The components of a complex behavior are usually left intact, but the subject is not able to coordinate them in a task-appropriate way
+
+### Updating of PFC Representations
+* The mechanisms responsible for updating representations within the PFC must be able to satisfy two conflicting demands:
+	* They must be responsive to relevant changes in the environment (adaptive)
+	* They must be resistant to updating by irrelevant changes (robus)
 
 # See also
 
