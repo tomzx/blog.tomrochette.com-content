@@ -13,7 +13,7 @@ taxonomy:
 ## Things to explore
 * Is there any research/proof that cortical regions learn and store sequences of pattern? How does that work at the neuron level?
 * It is claimed that neuron? cells remain active for a relative long duration of a sequence, what is considered "active"? Is it the firing of the neuron on its axon?
-* Is there any pratical/theoretical limit to the size of an intelligent memory system?
+* Is there any practical/theoretical limit to the size of an intelligent memory system?
 
 # Overview
 
@@ -22,7 +22,7 @@ Hawkins suggests that the brain is able to recognize a cat in a picture in less 
 
 Here we do a little bit of thinking about the network itself. If it was a single input neuron connected to all of the neurons in the brain, then in a single step, all neurons would have been reached. However this design is highly unlikely as it would require every single neuron to be connected to that input neuron.
 
-Then we think of the brain as a tree structure. With 100 levels, it is very likely for the brain to be fully covered. However a tree structure implies that there would be no consolidation of information. Neurons would be fired, but at no point would a neuron say "yeap, that's a cat alright". It would be more like "I saw a paw", "I saw some ears", "I saw a tail", but nothing aggregating all of these indices.
+Then we think of the brain as a tree structure. With 100 levels, it is very likely for the brain to be fully covered. However, if the signal goes from the root to the leaves, then the tree structure implies that there would be no consolidation of information. Neurons would be fired, but at no point would a neuron say "yeap, that's a cat alright". It would be more like "I saw a paw", "I saw some ears", "I saw a tail", but nothing aggregating all of these indices. If, on the other hand we let the signal to flow from leaves to the root, and also consider that the signal may terminate at any internal node and act as "conscious" output, then this architecture becomes a lot more interesting.
 
 <tbc></tbc>
 
@@ -83,7 +83,7 @@ Then we think of the brain as a tree structure. With 100 levels, it is very like
 * The lowest of the functional regions, the primary sensory areas, are where sensory information first arrives in the cortex
 * V1 (the primary visual area) is concerned with low-level visual features such as tiny edge-segments, small-scale components of motion, binocular disparity (for stereo-vision), and basic color and constrast information
 * Eventually, sensory information passes into "association areas," which is the name sometimes used for the regions of the cortex that receive inputs from more than one sense
-* It is thanks to association regions that your are able to be aware that the sight of a fly crawling up your arm and the tickling sensation you feel there share the same cause
+* It is thanks to association regions that you are able to be aware that the sight of a fly crawling up your arm and the tickling sensation you feel there share the same cause
 * Pyramidal neurons comprises 8 out of every 10 neuron cells of the neocortex
 * Mountcastle suggests that since (all the brain) regions all look the same, perhaps they are actually performing the same basic operation. He proposed that the cortex uses the same computational tool to accomplish everything it does
 * Mountcastle argues that the reason one region of cortex looks slightly different from another is because of what it is connected to, and not because its basic function is different. He concludes that there is a common function, a common algorithm, that is performed by all cortical regions
@@ -95,7 +95,7 @@ Then we think of the brain as a tree structure. With 100 levels, it is very like
 * In vision, the sense organ is your retina. An image enters your pupil, gets inverted by your lens, hits your retina, and creates a spatial pattern. This pattern gets relayed to your brain
 * About three times every second, your eyes make a sudden movement called a saccade. They fixate on one point, and then suddenly jump to another point. Every time your eyes move, the image on your retina changes. This means that the patterns carried into your brain are also changing completely with each saccade
 * Sounds are converted into action potentials through a coiled-up organ in each ear called the cochlea. High-frequency tones cause vibrations in the cochlea's stiff base. Low-frequency tones cause vibrations in the cochlea's floppier and wider outer portion. Mid-frequency tones vibrate intermediate segments. Each site on the cochlea is studded with neurons that fire as they are shaken
-* Vision is more like three senses - motion, color and luminance (black-and-white constrast)
+* Vision is more like three senses - motion, color and luminance (black-and-white contrast)
 * Touch has pressure, temperature, pain, and vibration
 * We also have an entire system of sensors that tell us about our joint angles and bodily position. It is called the proprioceptive system
 * We also have the vestibular system in the inner ear, which gives us our sense of balance
@@ -123,7 +123,7 @@ Then we think of the brain as a tree structure. With 100 levels, it is very like
 ## 5 A New Framework of Intelligence
 * To notice that something is different, some neurons in my brain that weren't active before would have to become active. [...] When I look around the room, my brain is using memories to form predictions about what it expects to experience before I experience it. [...] But when some visual pattern comes in that I had not memorized in that context, a prediction is violated. And my attention is drawn to the error
 * Prediction is not just one of the things your brain does. It is the primary function of the neocortex, and the foundation of intelligence
-* The important point is that higher intelligence is not a diffent kind of process from perceptual intelligence
+* The important point is that higher intelligence is not a different kind of process from perceptual intelligence
 * Intelligence is measured by the capacity to remember and predict patterns in the world, including language, mathematics, physical properties of objects, and social situations
 * Behavior came first, then intelligence
 * Here then is the core of my argument on how to understand the neocortex, and why memory and prediction are the keys to unlocking the mystery of intelligence. We start with the reptilian brain with no cortex. Evolution discovers that if it tacks on a memory system (the neocortex) to the sensory path of the primitive brain, the animal gains an ability to predict the future. [...] By comparing the actual sensory input with recalled memory, the animal not only understands where it is but can see into the future.
@@ -169,7 +169,7 @@ Then we think of the brain as a tree structure. With 100 levels, it is very like
 * By collapsing predictable sequences into "named objects" at each region in our hierarchy, we achieve more and more stability the higher we go. This creates invariant representations (named objects do not need to have a "name", but to be uniquely identified though an integer for instance)
 * A hierarchy of nested sequences allows the sharing and reuse of lower-level objects
 * The way you memorize sequences and represent them by name as information goes up and down your cortical hierarchy may remind you of the hierarchy of military command
-* Recognizing any sequence would be impossible if you have not first classifing each item
+* Recognizing any sequence would be impossible if you have not first classifying each item
 * Classification and sequence formation are both necessary to create invariant representations, and each region of the cortex does them
 * Context of known sequences can be used to resolve ambiguity
 * An invariant representation in any region of the cortex can be turned into a detailed prediction of how it will appear on your senses by propagating the pattern down the hierarchy
@@ -222,7 +222,7 @@ Then we think of the brain as a tree structure. With 100 levels, it is very like
 
 ### How the Cortex Learns
 * When two neurons fire at the same time, the synapses between them get strengthened
-* The two basic components of learning are forming the classificatinos of patterns and building sequences
+* The two basic components of learning are forming the classifications of patterns and building sequences
 * The basics of forming sequences is to group patterns together that are part of the same object
 * During the early years of your life, your memories of the world first form in higher regions of cortex, but as you learn they are re-formed in lower and lower parts of the cortical hierarchy
 
