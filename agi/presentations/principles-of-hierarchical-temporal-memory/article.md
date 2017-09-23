@@ -15,13 +15,11 @@ taxonomy:
 # Overview
 
 ## Why will machines intelligence be based on cortical principles?
-
 * The cortex uses a common learning algorithm
 * The cortical algorithm is incredibly adaptable
 * It has a network effects: hardware and software efforts will focus on the most universal/generic solution
 
 # Cortical facts
-
 Sensory systems:
 * Retina
 * Cochlear
@@ -40,26 +38,22 @@ It is organized as a hierarchy.
 Within a level of the hierarchy are cellular layers.
 Within those layers there's an organisation called mini-columns.
 At the *end* are neurons.
-Learning is about modifying synapatic weights, but also about degenesis/neogenesis of synaptic connections.
+Learning is about modifying synaptic weights, but also about degenesis/neogenesis of synaptic connections.
 
 # Cortical theory (HTM)
-
 ## Overview
-
 1. Hierarchy of identical regions
 2. Each region learns sequences (time-based patterns)
 3. Stability increases going up the hierarchy if input is predictable
 4. Sequences unfold going down
 
 ## Questions
-
 * What does a region do?
 * What do the cellular layers do?
 * How do neurons implement this?
 * How does this work in hierarchy?
 
 ## Cellular layers
-
 1-6 layers, 2 to 3 layers of feed forward (2-3-4) and 2 layers of feedback (5-6)
 Each layer is implementing a type (variation) of a common sequence memory algorithm
 Layers 2-3-4 are doing inference
@@ -77,9 +71,7 @@ if it is unable to predict, it passes through the change to L3
 L3: Learns high-order sequences
 
 ## The neuron
-
 ### Biological neuron
-
 10% of the synapses are close to the cell body
 Feedfoward input
 Added linearly
@@ -92,7 +84,6 @@ They are non-linear
 Dendritic action potentials depolarize soma
 
 ### HTM neuron
-
 Feedforward
 Linear summation
 Binary activation
@@ -103,17 +94,14 @@ Threshold coincidence detectors
 Puts the cell in a predicted state
 
 ### Biological synapses
-
 Learning is mostly formation of new synapses
 Synapses are low fidelity
 
 ### HTM synapses
-
 Scalar permanence
 Binary weight
 
 ## Sparse distributed representations (SDRs)
-
 Called *The language of intelligence*
 
 Many bits (thousands)
@@ -122,7 +110,6 @@ Each bit has semantic meaning
 Learned
 
 ## SDR properties
-
 1. Similarity
 	shared bits = semantic similarity
 2. Store and compare
@@ -137,7 +124,6 @@ A cell activates from dozens of feedforward patterns
 It predicts its activity in hundreds of contexts
 
 ## Learning transitions
-
 1. Feedforward activation
 2. Inhibition which generates sparse cell activation
 3. Formation of connections with nearby cells which were previously active cells (give them the ability to predict future activity)
@@ -149,17 +135,14 @@ It cannot learn A-B-C-D vs X-B-C-Y
 Mini-columns turn this into a high-order sequence memory
 
 ## Forming high-order representations
-
 If there is no prediction, all cells within a column become active
 If there is a prediction, only the predicted cells will become active (the other will be inhibited)
 
 ## HTM temporal memory (aka cellular layer)
-
 Converts input to sparse activation of columns
 Recognizes and recalls high-order sequences
 
 ### Desirable traits
-
 * Continuous learning
 * High capacity
 * Local learning rules
@@ -170,7 +153,6 @@ Recognizes and recalls high-order sequences
 # Research roadmap
 
 ## Applications using HTM high-order inference
-
 ```mermaid
 graph LR;
 	0[Data]
@@ -180,7 +162,6 @@ graph LR;
 ```
 
 # Thoughts on machine intelligence
-
 * Cortical (HTM)
 * ANNs (deep learning)
 * AI (Watson)
@@ -199,6 +180,5 @@ graph LR;
 # See also
 
 # References
-
 * Video: https://www.youtube.com/watch?v=6ufPpZDmPKA
 * Slides: http://www.slideshare.net/numenta/2014-10-17-numenta-workshop
