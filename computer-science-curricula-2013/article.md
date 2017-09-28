@@ -106,11 +106,19 @@ $$
 P\left(\bigcup_{i=1}^\infty E_i\right) = \sum_{i=1}^\infty P(E_i)
 $$
 
+#### Probabilistic inference
+[1] Given a set of variables (and their associated probabilities), determine the probability distribution of a query variable, that is, a variable which can be expressed as the combination of the given set of variables.
+
 #### Bayes' Rule
+[2]
 $$
 P(A|B) = \frac{P(B|A)P(A)}{P(B)}
 $$
 where $A$ and $B$ are events and $P(B) \ne 0$.
+
+## Conditional Independence
+[1]
+Given three events, A, B and C, with B and C being conditioned on A, B and C being conditionally independent means that given A occurs, if B occurs, we cannot tell anything about C and vice-versa.
 
 ## Agents
 ### Definitions of agents
@@ -120,13 +128,35 @@ where $A$ and $B$ are events and $P(B) \ne 0$.
 * Goal based
 * Utility based
 
+## Natural Language Processing
+### Deterministic and stochastic grammars
+[3] Deterministic grammars are grammars where the production rules have a probability of 1. Stochastic grammars are grammars where the probability of a given production rule may or may not be 1. What this means is that there may be various production rules for the same input tokens, but that each will have its own probability of being "used".
+
+### N-grams and HMMs
+[4] N-grams are tuples composed of n elements. The elements might be either characters, words, or sentences. For instance, in the sentence "The quick brown fox jumps over the lazy dog", examples of character n-grams may be: (2-gram) th, he, e ,  q, qu, ui, ck, (3-gram) the, he ,  qu, qui, uic, ick; examples of words n-grams may be: (2-gram) the quick, quick brown, brown fox, (3-gram) the quick brown, quick brown fox, brown fox jumps.
+
+[2] Through the use of n-grams, it is possible to construct a transition graph. If we count the number of cases where we transition from one n-gram state to another n-gram state, we can define a transition probability vector for all the subsequent n-gram state of a given n-gram state. We've effectively built an HMM.
+
+### Smoothing and backoff
+[3] Smoothing is a simple technique where we assume that, even if we haven't seen any examples through a corpus, that at least 1 such example exists anyway.
+
+[1] Backoff models are based on the idea that if not enough examples have been found in a corpus, we may rely on a less "constraining" conditional probability. For example, if we have an n-gram model and there aren't enough samples for the n-gram conditional probability, we might backoff to the (n-1)-gram probability.
+
+### Information retrieval
+#### Precision and recall
+[4] Precision is the number of relevant documents amongst the number of proposed/returned documents.
+
+[4] Recall is the number of relevant documents amongst the number of relevant documents in the corpus. One can trivially achieve 100% recall by simply returning all documents.
+
 ## Advanced Machine Learning
 ### Definition and examples of broad variety of machine learning tasks
 [2]
+Generic
 * Classification
 * Regression
 * Reinforcement learning
 
+Specific
 * Handwriting recognition
 * Speech recognition
 * Speech generation
