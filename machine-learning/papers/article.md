@@ -76,6 +76,9 @@ The following lists papers I've read and reviewed or made notes for.
 ## Miltiadis Allamanis
 * [SmartPaste: Learning to Adapt Source Code (2017)](miltiadis-allamanis-smartpaste-learning-to-adapt-source-code)
 
+## Misha Denil
+* [Programmable Agents (2017)](misha-denil-programmable-agents)
+
 ## Nal Kalchbrenner
 * [Grid Long Short-Term Memory (2015)](nal-kalchbrenner-grid-long-short-term-memory)
 
@@ -101,6 +104,7 @@ The following lists papers I've read and reviewed or made notes for.
 
 ## Yoshua Bengio
 * [Curriculum Learning (2009)](yoshua-bengio-curriculum-learning)
+* [The Consciousness Prior (2017)](yoshua-bengio-the-consciousness-prior)
 
 ## Yuxuan Wang
 * [Tacotron: Towards End-to-End Speech Synthesis (2017)](yuxuan-wang-tacotron-towards-end-to-end-speech-synthesis)
