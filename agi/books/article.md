@@ -25,6 +25,7 @@ The following lists books that I have read and that I suggest to people that are
 | Neuroscience: Exploring the Brain | [Amazon](https://www.amazon.com/Neuroscience-Exploring-Mark-F-Bear/dp/0781778174) |
 | [On Intelligence](jeff-hawkins-on-intelligence) | [Amazon](https://www.amazon.com/Intelligence-Jeff-Hawkins/dp/0805078533) |
 | [Principles of Computational Modelling in Neuroscience](david-sterratt-principles-of-computational-modelling-in-neuroscience) | [Amazon](https://www.amazon.com/Principles-Computational-Modelling-Neuroscience-Sterratt/dp/0521877954) |
+| [Superintelligence: Paths, Dangers, Strategies (2014)](nick-bostrom-superintelligence-paths-dangers-strategies) | [Amazon](https://www.amazon.com/Superintelligence-Dangers-Strategies-Nick-Bostrom/dp/1501227742) |
 | The Annotated Turing | [Amazon](https://www.amazon.com/Annotated-Turing-Through-Historic-Computability/dp/0470229055) |
 | [The Computer and the Brain](the-computer-and-the-brain) | [Amazon](https://www.amazon.com/Computer-Silliman-Memorial-Lectures-Series/dp/0300181116) |
 | [The Essential Turing](the-essential-turing) | [Amazon](https://www.amazon.com/Essential-Turing-Philosophy-Artificial-Intelligence/dp/0198250800) |
