@@ -177,6 +177,37 @@ $$
 * A system's intellectual problem-solving capacity can be enhanced not only by making the system cleverer but also by expanding what the system knows
 * In order to tap the full potential of fast content accumulation, however, a system needs to have a correspondingly large memory capacity. There is little point in reading an entire library if you have forgotten all about the aardvark by the time you get to the abalone
 
+### Optimization power and explosivity
+* Two phases
+	* The first phase begins with the onset of the takeoff, when the system reaches the human baseline for individual intelligence. Most of the optimization power applied to the system still comes from outside the system, either from the work of programmers or engineers
+	* A second phase will begin if at some point the system has acquired so much capability that most of the optimization power exerted on it comes from the system itself
+
+## Chapter 5 - Decisive strategic advantage
+* If the takeoff is fast then it is unlikely that two independent projects would be taking off concurrently: almost certainly, the first project would have completed its takeoff before any other project would have started its own
+* If the takeoff is slow then there could plausibly be multiple projects undergoing takeoffs concurrently, so that although the projects would by the end of the transition have gained enormously in capability, there would be no time at which any project was far enough ahead of the others to give it an overwhelming lead
+* If a project did obtain a decisive strategic advantage, would it use it to suppress competitors and form a singleton (a world order in which there is at the global level a single decision-making agency)?
+
+### Will the frontrunner get a decisive strategic advantage?
+* One factor influencing the width of the gap between frontrunner and followers is the rate of diffusion of whatever it is that gives the leader a competitive advantage
+	* A frontrunner might find it difficult to gain and maintain a large lead if followers can easily copy the frontrunner's ideas and innovations
+* The mere demonstration of the feasibility of an invention can also encourage others to develop it independently
+
+### How large will the successful project be?
+* The likelihood of the final breakthrough being made by a small project increases if most previous progress in the field has been published in the open literature or made available as open source software
+
+#### Monitoring
+* Projects designed from the outset to be secret could be more difficult to detect. An ordinary software development project could serve as a front
+
+#### International collaboration
+* A country that believed it could achieve a breakthrough unilaterally might be tempted to do it alone rather than subordinate its efforts to a joint project. A country might refrain from joining an international collaboration from fear that other participants might siphon off collaboratively generated insights and use them to accelerate a covert national project
+
+### From decisive strategic advantage to singleton
+* Many factors might dissuade a human organization with a decisive strategic advantage from creating a singleton. These include non-aggregative or bounded utility functions, non-maximizing decision rules, confusion and uncertainty, coordination problems, and various costs associated with a takeover
+* Human individuals and human organizations typically have preferences over resources that are not well represented by an "unbounded aggregative utility function." A human will typically not wager all her capital for a fifty-fifty chance of doubling it
+* Humans and human-run organizations may also operate with decision processes that do not seek to maximize expected utility
+
+## Chapter 6 - Cognitive superpowers
+
 # See also
 
 # References
