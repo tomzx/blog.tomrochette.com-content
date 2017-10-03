@@ -38,7 +38,7 @@ As a software project matures, its low level functions should require to be chan
 	* Cyclomatic complexity
 * Create test cases to ensure code stability during changes
 * Refactor improper architecture
-	* Properly define classes responsabilities
+	* Properly define classes responsibilities
 	* Properly define classes collaborators
 	* Reduce coupling
 * Write code in terms of pre/post-conditions and return as soon as possible
@@ -59,8 +59,8 @@ As a software project matures, its low level functions should require to be chan
 * Pyramid logic to precondition testing
 * Extraction of repetitive conditions
 * Restructuring of a function into multiple functions (convert a 100 lines function into 20x 5 liners)
-	* The difficulty here is to give significative name to the newly created functions
-* Abstract existing code through parameter instantiation (pass a parameter instead of using a hardcoded value)
+	* The difficulty here is to give significant name to the newly created functions
+* Abstract existing code through parameter instantiation (pass a parameter instead of using a hard-coded value)
 * Condition rewriting: Inverse the existing condition
 * Extraction of valid points of entry
 	* All files are executed to test if they compute anything (executable code or  only function declaration/library?)

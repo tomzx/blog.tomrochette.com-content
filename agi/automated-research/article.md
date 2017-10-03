@@ -22,7 +22,7 @@ Currently, such process is generally defined but certainly not globally accepted
 ## Questions
 * How do you limit the depth of related papers?
 	* Limit on the number of references per paper
-	* Hardcoded/Defined limit
+	* Hard-coded/Defined limit
 	* Limit on year range
 * How should information be fed into the system?
 	* Support only arxiv?

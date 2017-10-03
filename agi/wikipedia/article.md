@@ -40,7 +40,7 @@ Here's a non-exhaustive list of attributes we might be interested to track in or
 
 Given this information for each user, it is possible to construct a tensor where the dimensions are $user \times user \times \boldsymbol{page}$, in other words, a matrix where each cell is a vector of all Wikipedia pages, and where there is a 0 if both users have not seen the page, and a 1 if they both have. The page vector may be flattened into a single number that represents the number of pages both users have seen in total, thus providing us with a matrix that indicates the total number of articles seen by user pairs.
 
-Constructed this way, if an existing user has read all of Wikipedia (user A), and a new user has seen a single page (user B), then their shared cell will have a total value of 1. Furthermore, as the new user sees new pages, the more this value increases. If we were to compute a value between 0 and 1 using the number of pages seen by both users as numerator and the the number of unique pages seen by user A and user B as the denominator, then this number would slowly increase to 1.
+Constructed this way, if an existing user has read all of Wikipedia (user A), and a new user has seen a single page (user B), then their shared cell will have a total value of 1. Furthermore, as the new user sees new pages, the more this value increases. If we were to compute a value between 0 and 1 using the number of pages seen by both users as the numerator and the number of unique pages seen by user A and user B as the denominator, then this number would slowly increase to 1.
 
 In another case, where an existing user has seen a given set of Wikipedia pages and a new user begins browsing Wikipedia, this number will only grow as long as they see similar pages. When user A or B browses to a page neither have seen, this value decreases. If user A has seen page X, and then user B also navigates to this page, then this value increases.
 
@@ -58,7 +58,7 @@ Within the content of an article, there will often be terms which are themselves
 
 A definition is generally based on other definitions which are themselves based on other definitions and so on.
 
-As such, we can determine that internal links in the content of articles are reciprocal relations between the two articles. Another way to determine the relation between two articles is to verify if both link to one another.
+As such, we can determine that internal links in the content of articles are reciprocal relations between the two articles. Another way to determine the relationship between two articles is to verify if both link to one another.
 
 There are many types of relations and reasons that could explain these relations:
 * A topic created another topic (parent-child, predecessor-successor)
@@ -66,7 +66,7 @@ There are many types of relations and reasons that could explain these relations
 * A topic can be divided into sub-topics
 
 ## See also
-The *See also* section of articles contains a list of vetted related articles that may interest the reader of the current article. As such, it may have no relation with the current article other than being of similar domain.
+The *See also* section of articles contains a list of vetted related articles that may interest the reader of the current article. As such, it may have no relation to the current article other than being of a similar domain.
 
 ## Categories
 As the definition of *[categories](https://en.Wikipedia.org/wiki/Help:Category)* of Wikipedia states very well:

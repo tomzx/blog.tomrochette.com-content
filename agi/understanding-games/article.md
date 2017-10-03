@@ -25,7 +25,7 @@ I'd like to explore 7 types of games:
 # Overview
 
 # In General
-Games most likeliest neural network architectures would be CNN for vision of the game pixels image with RNN for audio cues (if any is available). One of the core goal of the network is to simplify what is perceived so that later on stages deal with more abstract concepts and not pixels. We would also like for the neural network to have the ability to understand locality, that is, things that move together (or do not move) are generally part of the same thing.
+Games most likeliest neural network architectures would be CNN for vision of the game pixels image with RNN for audio cues (if any is available). One of the core goals of the network is to simplify what is perceived so that later on stages deal with more abstract concepts and not pixels. We would also like for the neural network to have the ability to understand locality, that is, things that move together (or do not move) are generally part of the same thing.
 
 In most games the human player will have to develop a strategy. In order to do so, he will have to understand the mechanics of the game (formulate a model).
 
@@ -46,7 +46,7 @@ In this type of game, the player controls a single hero and plays with multiple 
 
 Decision is an important ability in this type of game as the enemy will punish you when you make mistakes. Punishment takes the form of lost gold, lost health or the loss of life (and gameplay time). The players are rewarded for killing NPC as well as enemy heroes.
 
-Most games of this genre separate a game in three phases: laning, midgame and endgame. Laning is about warming up your mechanics. Midgame is about attempting to destabilize the enemy team. Endgame is about team fights and pushing for objectives in order to win the game.
+Most games of this genre separate a game in three phases: laning, midgame, and endgame. Laning is about warming up your mechanics. Midgame is about attempting to destabilize the enemy team. Endgame is about team fights and pushing for objectives in order to win the game.
 
 # Platformers
 Platformers are an interesting genre because they can easily be seen as a path through a level that needs to be optimized. If we take a game such as Super Mario Bros., we only have one real constraint: we must finish the level before the given 300 seconds (5 minutes). Using this single constraint though makes it hard for our AGI to learn as there is no clear gradient from the initial state to the final state (you would have to wait 5 minutes for an episode to complete and have the agent negatively rewarded). Thus, we need to add a couple more constraints/goals.
@@ -59,7 +59,7 @@ By providing the AGI with a couple of do/do not, it is possible for us to let it
 
 In my article [Mari/o](../mario), I write on the topic of Neuroevolution of augmenting topologies[^1]. NEAT is a genetic algorithm which goal is to generate and improve artificial neural networks in order to best respond to some selection criteria (generally a single evaluation metric).
 
-The algorithm works similarly to how a reinforcement algorithm would work, in the sense that it will promote genes/neural networks which better suit the goal given to it. In this particular exercise, the only reward that was given was based on how far Mario had move to the right (toward the end of the level goal).
+The algorithm works similarly to how a reinforcement algorithm would work, in the sense that it will promote genes/neural networks which better suit the goal given to it. In this particular exercise, the only reward that was given was based on how far Mario had moved to the right (toward the end of the level goal).
 
 The game was basically replaced by a 13x13 grid where there exist 2 types of blocks: white to represent the ground and black to represent enemies or sprites. Thus, the NEAT algorithm was learning to play a dumbed down version of the game. And yet, it took it many hours to get to the point it would be able to complete the level without dying and its performance was still average at best.
 
@@ -67,7 +67,7 @@ On the surface, the NEAT algorithm appears to learn, however I'd suggest that it
 
 One of the major issues with this approach is that it does not "learn" to infer that something is bad. For instance, if a neural network is configured such that if it sees a hole in front of him and that the action should be to walk directly into that hole, and that the agent is punished for that event, it should attempt to propagate this information backward, for instance by putting more emphasis on recently occurred decisions such as "walk right if hole in front" being a negative/bad decision.
 
-Platformer games most likeliest neural network architectures would be CNN for vision of the game pixels image with RNN for audio cues (if any is available). For games like Mario Bros, it seems logical to want to abstract the moving sprites to their rectangle equivalent in order to reduce computational complexity. In the same way, it is likely that most of the texture in the game is irrelevant, which would prompt the development of a system in which elements can either be present or absent (a wall vs clouds).
+Platformer games likeliest neural network architectures would be CNN for vision of the game pixels image with RNN for audio cues (if any is available). For games like Mario Bros, it seems logical to want to abstract the moving sprites to their rectangle equivalent in order to reduce computational complexity. In the same way, it is likely that most of the texture in the game is irrelevant, which would prompt the development of a system in which elements can either be present or absent (a wall vs clouds).
 
 # Action/Adventure
 <tbc></tbc>

@@ -18,7 +18,7 @@ taxonomy:
 List tasks
 Associate tasks with other tasks and tasks hierarchies
 Assign a priority
-A task may be related to the accomplishment on many tasks
+A task may be related to the accomplishment of many tasks
 Each time a task is executed, evaluate the value of the task in regard to some global evaluation function
 * Pleasure
 * Drain
@@ -52,7 +52,7 @@ Example
 		* Reading about intelligence
 
 Observations
-* Some things may not be rewarding/valuable at one point in time while our may be later on (due to the inability to understand or to use the task)
+* Some things may not be rewarding/valuable at one point in time while it may be later on (due to the inability to understand or to use the task)
 
 How should a work session be assessed?
 * Should it be a 1 to 10 score?
@@ -79,7 +79,7 @@ Prioritization methods
 * Hybrid/multi methods
 * Consensus
 * Average with some statistical measure (standard deviation)
-* Prioritization threshold (only the top x priorities defined, each item compared against the bottom of the stack)
+* Prioritization threshold (only the top x priorities defined, each item compared to the bottom of the stack)
 * Push by x in the task, then progressively more as the task doesn't get executed
 
 Task properties
