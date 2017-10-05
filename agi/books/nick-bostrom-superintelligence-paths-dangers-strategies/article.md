@@ -207,6 +207,20 @@ $$
 * Humans and human-run organizations may also operate with decision processes that do not seek to maximize expected utility
 
 ## Chapter 6 - Cognitive superpowers
+### Functionalities and superpowers
+* The most essential characteristic of a seed AI, aside from being easy to improve (having low recalcitrance), is being good at exerting optimization power to amplify a system's intelligence
+
+### An AI takeover scenario
+* How could a superintelligence achieve the goal of world domination?
+	* Pre-criticality phase
+	* Recursive self-improvement phase
+	* Covert preparation phase
+	* Overt implementation phase
+
+### Power over nature and agents
+* An agent's ability to shape humanity's future depends not only on the absolute magnitude of the agent's own faculties and resources, but also on the relative magnitude of its capabilities compared with those of other agents with conflicting goals
+* In a situation where there are no competing agents, the absolute capability level of a superintelligence, so long as it exceeds a certain minimal threshold, does not matter much, because a system starting out with some sufficient set of capabilities could plot a course of development that will let it acquire any capabilities it initially lacks
+* The wise-singleton sustainability threshold: A capability set exceeds the wise-singleton threshold if and only if a patient and existential risk-savvy system with that capability set would, if it faced no intelligent opposition or competition, be able to colonize and re-engineer a large part of the accessible universe
 
 # See also
 
