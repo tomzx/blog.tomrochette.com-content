@@ -8,13 +8,52 @@ taxonomy:
 
 In the following document, I try to explain to the best of my knowledge various topics that are presented in the [Computer Science Curricula 2013](https://github.com/tomzx/computer-science-curricula-2013). I attempt to rate my understanding of the topic on a scale of 1 to 5, where 1 is "no understanding" and 5 is "perfect understanding". This value is displayed in bracket in front of each statement I make.
 
+# Algorithms and Complexity
+## Fundamental Data Structures and Algorithms
+### Graphs and graph algorithms
+#### Shortest-path algorithms (Dijkstra's and Floyd's algorithms)
+[3] In a weighted (directed or undirected) graph, Dijkstra's algorithm initializes all nodes with an infinite value and the starting node with a value of 0 for the initial node. Mark all nodes (except the starting node) as unvisited. For all the adjacent nodes, compute their distance to the current node and replace their distance if it is smaller than the existing marked distance. Once all the adjacent nodes for the current node have been visited, proceed to mark the node as visited. If we have reached the target node, we're done. Otherwise, pick the node with the smallest distance as current node. and continue the process of visiting adjacent nodes.
+
+[?] Floyd's algorithm <tbc></tbc>
+
 # Intelligent Systems
 ## Fundamental Issues
 ### What is intelligent behavior?
+#### The Turing test
+[4] The Turing test is a simple test which purpose is to attempt to establish whether an agent can pass as a human being when tested by another agent (generally a human being).
+
+A tester is put in front of a computer in which he can communicate with the agent/person at the other end. This agent may be a human being, or a computer program that attempts to pass as a human being. If the tester is unable to tell whether the agent at the other end of the communication channel is human or machine, then this agent has passed the Turing test (and based on this test, can be considered to have human-like communication properties).
+
 #### Rational versus non-rational reasoning
 [2] Rational reasoning is when something can be explained by a sequence of finite explanations based on logic, one leading to the other, similar to a proof.
 
 [2] Non-rational reasoning is when something is explained through means such as probabilities.
+
+### Problem characteristics
+#### Fully versus partially observable
+[4] Fully observable means that the agent can see the whole state of the environment.
+
+[4] Partially observable means that the agent can only see a part of the state, the state may be noisy or inaccurate due to the agent's sensors.
+
+#### Single versus multi-agent
+[4] In the single agent case, the agent is evaluating itself only against the environment.
+
+[4] In the multi-agent case, the agent has to consider the actions of other agents on itself and modify its behavior accordingly.
+
+#### Deterministic versus stochastic
+[4] An environment may be deterministic, which means that given a known state and action, the agent can determine the final state after the action has been executed.
+
+[4] On the other hand, a stochastic environment is one in which given a known state, the action that is taken may be randomly selected, or the result of a selected action may result in a random final state.
+
+#### Static versus dynamic
+[4] When the agent is thinking, it may consider that the environment isn't changing. In other words, thinking is done atomically.
+
+[4] When the agent is thinking, the environment is changing. This means that the agent may make a decision that isn't the best given the time it took to compute it.
+
+#### Discrete versus continuous
+[4] A problem may be composed of discrete steps, which means that only certain values on a continuous axis are possible. In other words, there is a finite precision to the values a state can take.
+
+[3] A problem may be described using continuous values, meaning that there is an infinitesimal distance between two points.
 
 ### Nature of agents
 #### Autonomous versus semi-autonomous
@@ -128,6 +167,9 @@ Given three events, A, B and C, with B and C being conditioned on A, B and C bei
 * Goal based
 * Utility based
 
+### Learning agents
+[3] Learning agents are agents that have a learning/optimization algorithm as their core algorithm. Given training data (a labeled dataset), those agents will attempt to increase their probability of picking the right label given some input data.
+
 ## Natural Language Processing
 ### Deterministic and stochastic grammars
 [3] Deterministic grammars are grammars where the production rules have a probability of 1. Stochastic grammars are grammars where the probability of a given production rule may or may not be 1. What this means is that there may be various production rules for the same input tokens, but that each will have its own probability of being "used".
@@ -179,6 +221,9 @@ Specific
 [1] k-means is a clustering algorithm which takes a set of samples and will attempt to construct k groups given the features of these samples.
 
 ### Reinforcement learning
+#### Exploration vs. exploitation trade-off
+[3] In reinforcement learning, given infinite time, one will want to explore all potential states in order to discover the path with the highest reward. However, reinforcement learning often occurs in environments in which there is a limited amount of time to test different possibilities. In this case, it often makes more sense to prefer paths that will have proven to be valuable over those that are less valuable, which is what is called exploitation.
+
 #### Markov decision processes
 [1] A Markov decision process is a tuple $\langle\mathcal{S}, \mathcal{A}, \mathcal{P}, \mathcal{R}, \gamma\rangle$ where
 * $\mathcal{S}$: a finite set of states
@@ -220,3 +265,7 @@ Speech recognition is a complex domain in which one attempts to automate the ext
 
 ### Modularity in recognition
 [2] Recognition is generally composed of multiple steps, which can be composed as a pipeline of modules. For instance, in speech recognition, one will first want to process the audio signal in order to extract a noise profile which will then be removed from the original signal in an attempt to reduce said noise. The signal may then be normalized so that quiet and loud sounds are both at the same volume. The system may then attempt to segment the audio signal into words, which will then be send for recognition in isolation. Afterward, another module may receive suggestions for each of the processed word and attempt to construct a grammatically correct sentence.
+
+## Networking and Communications
+### Routing and Forwarding
+#### Routing versus forwarding
