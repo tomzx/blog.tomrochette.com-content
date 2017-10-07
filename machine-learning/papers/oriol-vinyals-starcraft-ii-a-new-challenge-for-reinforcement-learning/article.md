@@ -3,7 +3,7 @@ title: Oriol Vinyals - Starcraft II: A New Challenge for Reinforcement Learning 
 created: 2017-10-05
 taxonomy:
   category: [Machine Learning]
-  status: in progress
+  status: finished
 ---
 
 ## Context
@@ -13,6 +13,11 @@ taxonomy:
 ## Things to explore
 
 # Overview
+* A new reinforcement learning environment has been built for Starcraft 2
+	* A SC2 API and a Python interface to make it easier to develop agents
+* Some basic agents have been developed which can solve mini-games
+	* Mini-games can be seen as some form of curriculum learning of the whole game (learning certain behaviors such as mining, attacking, moving the camera and units, etc.)
+* Those basic agents are still not very good at playing the complete game in a 1v1 setting
 
 # Notes
 ## 1 Introduction
@@ -50,8 +55,6 @@ taxonomy:
 
 ### 3.3 Actions
 * An action $a$ is represented as a composition of a function identifier $a^0$ and a sequence of arguments which that function identifier requires: $a^1, a^2, \dots, a^L$
-
-## 4 Reinforcement Learning: Baseline Agents
 
 # See also
 
