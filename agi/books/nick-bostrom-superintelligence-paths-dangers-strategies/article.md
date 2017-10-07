@@ -222,6 +222,48 @@ $$
 * In a situation where there are no competing agents, the absolute capability level of a superintelligence, so long as it exceeds a certain minimal threshold, does not matter much, because a system starting out with some sufficient set of capabilities could plot a course of development that will let it acquire any capabilities it initially lacks
 * The wise-singleton sustainability threshold: A capability set exceeds the wise-singleton threshold if and only if a patient and existential risk-savvy system with that capability set would, if it faced no intelligent opposition or competition, be able to colonize and re-engineer a large part of the accessible universe
 
+## Chapter 7 - The superintelligent will
+* Intelligence and final goals are independent variables: any level of intelligence could be combined with any final goal
+
+### The relation between intelligence and motivation
+* Intelligence and motivation are in a sense orthogonal: we can think of them as two axes spanning a graph in which each point represents a logically possible artificial agent
+* The orthogonality thesis: Intelligence and final goals are orthogonal: more or less any level of intelligence could in principle be combined with more or less any final goal
+* There are at least three directions from which we can approach the problem of predicting superintelligent motivation:
+	* Predictability through design
+	* Predictability through inheritance
+	* Predictability through convergent instrumental reasons
+
+### Instrumental convergence
+* There are likely some instrumental goals likely to be pursued by almost any intelligent agent, because there are some objectives that are useful intermediaries to the achievement of almost any final goal
+* The instrumental convergence thesis: Several instruments values can be identified which are convergent in the sense that their attainment would increase the chances of the agent's goal being realized for a wide range of final goals and a wide range of situations, implying that these instrumental values are likely to be pursued by a broad spectrum of situated intelligent agents
+
+### Goal-content integrity
+* If an agent retains its present goals into the future, then its present goals will be more likely to be achieved by its future self
+* There are situations in which an agent can best fulfill its final goals by intentionally changing them. Such situations can arise when any of the following factors is significant:
+	* Social signaling
+	* Social preferences
+	* Preferences concerning own goal content
+	* Storage costs
+
+### Cognitive enhancement
+* Improvements in rationality and intelligence will tend to improve an agent's decision-making, rendering the agent more likely to achieve its final goals
+* One would therefore expect cognitive enhancement to emerge as an instrumental goal for a wide variety of intelligent agents
+* For similar reasons, agents will tend to instrumentally value many kinds of information
+* An agent that has access to reliable expert advice may have little need for its own intelligence and knowledge
+* If intelligence and knowledge come at a cost, such as time and effort expended in acquisition, or increased storage or processing requirements, then the agent might prefer less knowledge and less intelligence
+
+### Technological perfection
+* A software agent might place an instrumental value on more efficient algorithms that enable its mental functions to run faster on given hardware
+
+### Resource acquisition
+* Human beings tend to seek to acquire resources sufficient to meet their basic need
+* But people usually seek to acquire resources far beyond this minimum level
+* A great deal of resource accumulation is motivated by social concerns - gaining status, mates, friends, and influence, through wealth accumulation and conspicuous consumption
+
+## Chapter 8 - Is the default outcome doom?
+### Existential catastrophe as the default outcome of an intelligence explosion?
+* Absent of a special effort, the first superintelligence may have a random or reductionist final goal
+
 # See also
 
 # References
