@@ -263,6 +263,34 @@ $$
 ## Chapter 8 - Is the default outcome doom?
 ### Existential catastrophe as the default outcome of an intelligence explosion?
 * Absent of a special effort, the first superintelligence may have a random or reductionist final goal
+* The treacherous turn: While weak, an AI behaves cooperatively (increasingly so, as it gets smarter). When the AI gets sufficiently strong - without warning or provocation - it strikes, forms a singleton, and begins directly to optimize the world according to the criteria implied by its final values
+* An AI might calculate that if it is terminated, the programmers who built it will develop a new and somewhat different architecture, but one that will be given a similar utility function. In this case, the original AI may be indifferent to its own demise, knowing that its goals will continue to be pursued in the future
+
+### Malignant failure modes
+* There are ways of failing that we might term "malignant" in that they involve an existential catastrophe
+* One feature of a malignant failure is that it eliminates the opportunity to try again
+* Another feature of malignant failure is that it presupposes a great deal of success: only a project that got a great number of things right could succeed in building a machine intelligence powerful enough to pose a risk of malignant failure
+
+#### Perverse instantiation
+* A superintelligence discovering some way of satisfying the criteria of its final goal that violates the intentions of the programmers who defined the goal
+
+#### Infrastructure profusion
+* The phenomenon where an agent transforms large parts of the reachable universe into infrastructure in the service of some goal, with the side effect of preventing the realization of humanity's axiological potential
+* Unless the AI's motivation system is of a special kind, or there are additional elements in its final goal that penalize strategies that have excessively wide-ranging impacts on the world, there is no reason for the AI to cease activity upon achieving its goal. On the contrary: if the AI is a sensible Bayesian agent, it would never assign exactly zero probability to the hypothesis that it has not yet achieved its goal
+* The claim here is that there is no possible way to avoid this failure mode
+* Might we avoid this malignant outcome if instead of a maximizing agent we build a satisficing agent, one that simply seeks to achieve an outcome that is "good enough" according to some criterion, rather than an outcome that is as good as possible?
+
+#### Mind crime
+* In mind crime, the side effect is not external to the AI; rather, it concerns what happens within the AI itself (or within the computational processes it generates)
+* A machine superintelligence could create internal processes that have moral status
+	* One can imagine scenarios in which an AI creates trillions of such conscious simulations, perhaps in order to improve its understanding of human psychology and sociology. These simulations might be placed in simulated environments and subjected to various stimuli, and their reactions studied. Once their informational usefulness has been exhausted, they might be destroyed
+
+## Chapter 9 - The control problem
+### Two agency problems
+* Could we engineer the initial conditions of an intelligence explosion so as to achieve a specific desired outcome, or at least to ensure that the result lies somewhere in the class of broadly acceptable outcomes?
+	* How can the sponsor of a project that aims to develop superintelligence ensure that the project, if successful, produces a superintelligence that would realize the sponsor's goal?
+* The first principal-agent problem: Whenever some human entity ("the principal") appoints another ("the agent") to act in the former's interest (Human vs Human, Sponsor -> Developer)
+* The second principal-agent problem (the control problem): In this case, the agent is not a human agent operating on behalf of a human principal. Instead, the agent is the superintelligent system (Human vs Superintelligence, Project -> System)
 
 # See also
 
