@@ -64,6 +64,9 @@ The following lists papers I've read and reviewed or made notes for.
 ## Łukasz Kaiser
 * [One Model To Learn Them All (2017)](lukasz-kaiser-one-model-to-learn-them-all)
 
+## Jakob Foerster
+* [Learning with Opponent-Learning Awareness (2017)](jakob-foerster-learning-with-opponent-learning-awareness)
+
 ## Manuel Lopes
 * [The Strategic Student Approach for Life-Long Exploration and Learning (2012)](manuel-lopes-the-strategic-student-approach-for-life-long-exploration-and-learning)
 
@@ -81,6 +84,9 @@ The following lists papers I've read and reviewed or made notes for.
 
 ## Nal Kalchbrenner
 * [Grid Long Short-Term Memory (2015)](nal-kalchbrenner-grid-long-short-term-memory)
+
+## Oriol Vinyals
+* [Starcraft II: A New Challenge for Reinforcement Learning (2017)](oriol-vinyals-starcraft-ii-a-new-challenge-for-reinforcement-learning)
 
 ## Paul Christiano
 * [Deep Reinforcement Learning from Human Preferences (2017)](paul-christiano-deep-reinforcement-learning-from-human-preferences)
