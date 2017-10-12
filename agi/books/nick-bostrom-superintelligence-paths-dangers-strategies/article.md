@@ -18,6 +18,7 @@ taxonomy:
 * Is it possible to define some sort of "unit of intellectual work"?
 * Should we expect generalists+specialists collective systems to outperform generalists only (monolithic) systems?
 * What type of invention, similar to the print press, electricity or the Internet would lead to an intellectual revolution?
+* Given that there is an infinity of possible ways for a superintelligence creator to prevent the superintelligence from gaining decisive strategic advantage and due to Bayesian formalism, should we assume that an agent should never attempt to gain decisive strategic advantage? (this sounds like some form of dilemma/paradox)
 
 # Overview
 
@@ -291,6 +292,42 @@ $$
 	* How can the sponsor of a project that aims to develop superintelligence ensure that the project, if successful, produces a superintelligence that would realize the sponsor's goal?
 * The first principal-agent problem: Whenever some human entity ("the principal") appoints another ("the agent") to act in the former's interest (Human vs Human, Sponsor -> Developer)
 * The second principal-agent problem (the control problem): In this case, the agent is not a human agent operating on behalf of a human principal. Instead, the agent is the superintelligent system (Human vs Superintelligence, Project -> System)
+
+### Capability control methods
+* Capability control methods seek to prevent undesirable outcomes by limiting what the superintelligence can do
+
+#### Boxing methods
+* Physical containment aims to confine the system to a "box," i.e. to prevent the system from interacting with the external world otherwise than via specific restricted output channels
+* For extra security, the system should be placed in a metal mesh to prevent it from transmitting radio signals, which might otherwise offer a means of manipulating electronic objects such as radio receivers in the environment
+* Physical containment has several advantages
+	* It is easy to implement
+	* It can be applied to many machine intelligence architectures, even ones that were not initially designed with safety as an objective
+	* It can be used in combination with most other control methods
+	* It seems unlikely to go wrong by backfiring: while it might fail to ensure safety, it is unlikely to cause a catastrophe that would not otherwise have occurred
+* The main disadvantage with physical confinement is that it reduces the functionality of the superintelligence
+* Another concern is that it might encourage a false sense of security, though this is avoidable if we regard physical confinement as icing on the cake rather than the main substance of our precautions
+* Informational containment aims to restrict what information is allowed to exit the box
+* An obvious informational containment method is to bar the system from accessing communications networks
+* The limiting case of the boxing approach would be a system kept in complete physical and informational isolation
+* Even if achievable, however, such a system would be rather useless since it would have no effect on the external world
+* It might perhaps be thought that some scientific purpose could be served by creating a superintelligence and keeping it in isolation: by studying a self-contained model system, one could learn about its internal dynamics and its behavior patterns
+	* But this would be an error. As soon as the system is observed, it ceases to be informationally isolated
+* An AI anticipating that it might be observed could strategically adopt behaviors designed to influence the hypothesized observers
+
+#### Incentive methods
+* Incentive methods involve placing an agent in an environment where it finds instrumental reasons to act in ways that promote the principal's interests
+* It presupposes a balance of power: legal or economic sanctions cannot restrain an agent that has a decisive strategic advantage
+* By relying on social integration to solve the control problem, the principal risks sacrificing a large portion of his potential influence
+* A better alternative might be to combine the incentive method with the use of motivation selection to give the AI a final goal that makes it easier to control
+* A problem with the incentive scheme is that it presupposes that we can tell whether the outcomes produced by the AI are in our interest
+
+#### Stunting
+* Limit the system's intellectual faculties or its access to information
+* Even without any designated knowledge base at all, a sufficiently superior mind might be able to learn much by simply introspecting on the workings of its own psyche - the design choices reflected in its source code, the physical characteristics of its circuitry
+
+#### Tripwires
+* A tripwire is a mechanism that performs diagnostic tests on the system (possibly without its knowledge) and effects a shutdown if it detects signs of dangerous activity
+* Tripwires differ from incentive methods in that they do not rely on the system being aware of the consequences of engaging in forbidden activities
 
 # See also
 
