@@ -329,6 +329,49 @@ $$
 * A tripwire is a mechanism that performs diagnostic tests on the system (possibly without its knowledge) and effects a shutdown if it detects signs of dangerous activity
 * Tripwires differ from incentive methods in that they do not rely on the system being aware of the consequences of engaging in forbidden activities
 
+### Motivation selection methods
+* Motivation selection methods seek to prevent undesirable outcomes by shaping what the superintelligence wants to do
+* Motivation selection can involve explicitly formulating a goal or set of rules to be followed (direct specification) or setting up the system so that it can discover an appropriate set of values for itself by reference to some implicitly or indirectly formulated criterion (indirect normativity)
+* One option in motivation selection is to try to build the system so that it would have modest, non-ambitious goals (domesticity)
+* An alternative to creating a motivation system from scratch is to select an agent that already has an acceptable motivation system and then augment that agent's cognitive powers to make it superintelligent, while ensuring that the motivation system does not get corrupted in the process (augmentation)
+
+#### Direct specification
+* The approach comes in two versions, rule-based and consequentialist
+* Involves trying to explicitly define a set of rules or values that will cause even a free-roaming superintelligent AI to act safely and beneficially
+* Difficulties in determining which rules or values we would wish the AI to be guided by and the difficulties in expressing those rules or values in computer-readable code
+* The traditional illustration of the direct rule-based approach is the "three laws of robotics"
+	* A robot may not injure a human being or, through inaction, allow a human being to come to harm
+	* A robot must obey any order given to it by human beings, except where such orders would conflict with the First Law
+	* A robot must protect its own existence as long as such protection does not conflict with the First or Second Law
+* Everything is vague to a degree you do not realize till you have tried to make it precise -Bertrand Russell
+
+#### Domesticity
+* One could try to design an AI such that it would function as a question-answering device
+
+#### Indirect normativity
+* The basic idea is that rather than specifying a concrete normative standard directly, we specify a process for deriving a standard. We then build the system so that it is motivated to carry out this process and to adopt whatever standard the process arrives at
+* Indirect normativity is a very important approach to motivation selection. Its promise lies in the fact that it could let us offload to the superintelligence much of the difficult cognitive work required to carry out a direct specification of an appropriate final goal
+
+#### Augmentation
+* The idea is that rather than attempting to design a motivation system de novo, we start with a system that already has an acceptable motivation system, and enhance its cognitive faculties to make it superintelligent
+* The attractiveness of augmentation may increase in proportion to our despair at the other approaches to the control problem
+
+## Chapter 10 - Oracles, genies, sovereigns, tools
+### Oracles
+* An oracle is a question-answering system
+* It might accept questions in a natural language and present its answers as text
+* Even an untrustworthy oracle could be useful
+	* We could ask an oracle questions of a type for which it is difficult to find the answer but easy to verify whether a given answer is correct
+	* If it is expensive to verify answers, we can randomly select a subset of the oracle's answers for verification. If they are all correct, we can assign a high probability to most of the other answers also being correct
+
+### Genies and sovereigns
+* A genie is a command-executing system: it receives a high-level command, carries it out, then pauses to await the next command
+* A sovereign is a system that has an open-ended mandate to operate in the world in pursuit of broad and possibly very long-range objectives
+* The ideal genie would be a super-butler rather than an autistic savant
+* One option would be to try to build a genie such that it would automatically present the user with a prediction about salient aspects of the likely outcomes of a proposed command, asking for confirmation before proceeding
+* The difference between oracles, genies and sovereigns comes down to alternative approaches to the control problem
+* Safety order: sovereigns < genies < oracles
+
 # See also
 
 # References
