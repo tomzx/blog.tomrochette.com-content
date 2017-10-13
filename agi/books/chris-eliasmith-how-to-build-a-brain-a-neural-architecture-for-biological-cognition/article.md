@@ -95,6 +95,31 @@ taxonomy:
 * If the parts of a system are organized in such a way that their interaction results in some regular phenomena, then they are called "mechanisms"
 * Mechanisms are often analyzed by decomposing them into their simpler parts, which may also be mechanisms
 
+## 3. Biological Cognition: Semantics
+* Perhaps the most compelling feature of biological cognitive systems is that they can perform many different tasks, without being "reprogrammed"
+* Four distinct aspects of cognition: semantics, syntax, control, and memory and learning
+* Semantic pointers are a means of relating more general neural representations to those central to cognition
+
+### 3.1 The Semantic Pointer Hypothesis
+* Higher-level cognitive functions in biological systems are made possible by semantic pointers. Semantic pointers are neural representations that carry partial semantic content and are composable into the representational structures necessary to support complex cognition
+* Traditionally, a classical cognitive system is characterized as a symbol processing system that relies on syntax to respect the semantics of the symbols and combinations of symbols found in the system
+* In more connectionist approaches, semantics has been the focus, where the vector space defined by the activity of the nodes in the network was often though as a "semantic space" that related the meaning of different firing patterns
+* In the SPA, syntax is inspired by proponents of the symbolic approach who claim that there are syntactically structured representations in the head, and semantics is inspired by connectionists who claim that vector space can be used to capture important features of semantics
+* It is natural to begin with the claim that semantic pointers are well described by vectors in a high-dimensional space
+* The hypothesis suggests that the brain manipulates compact, address-like representations to take advantage of the significant efficiency and flexibility afforded by such representations
+* The "semantic" in "semantic pointer" refers to the fact that the representations that play the role of a pointer contain semantic information themselves. That is, the relationship between a semantic pointer and the more sophisticated data structure to which it points is not arbitrary. Specifically, the semantic information that is contained in a semantic pointer is usefully thought of as a compressed version of the information contained in a more complex representation
+
+### 3.3 Semantics: An Overview
+* Dual-Coding Theory: perceptual and verbal information are processed in distinct channels
+	* Linguistic processing is done using a symbolic code, and perceptual processing is done using an anolog code, which retains the perceptual features of a stimulus
+
+### 3.4 Shallow Semantics
+* Semantic pointers are lossy compressions
+
+### 3.5 Deep Semantics for Perception
+* Because the real world is extremely complex, the ideal statistical model will also be enormously complex (as it is the probability of all possible data at all times). As a result, the brain probably approximates this distribution by constructing what is called a parameterized model. Such a model identifies a small number of parameters that capture the overall shape of the ideal model
+* The higher layer of this network (an deep neural network for MNIST) represents a 50-dimensional space. Semantic pointers in this 50D space carry information about the presented digits. Clearly, however, this representation does not contain all of the information available in early visual areas. Rather, it is a summary that can be used to perform an object recognition task
+
 # See also
 
 # References
