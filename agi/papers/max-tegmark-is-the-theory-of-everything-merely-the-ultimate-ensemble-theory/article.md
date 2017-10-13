@@ -3,7 +3,7 @@ title: Max Tegmark - Is "the theory of everything" merely the ultimate ensemble 
 created: 2017-09-01
 taxonomy:
   category: [Artificial General Intelligence]
-  status: in progress
+  status: finished
 ---
 
 ## Context
@@ -11,6 +11,7 @@ taxonomy:
 ## Learned in this study
 
 ## Things to explore
+* What would a universe with more than one time dimension be like?
 
 # Overview
 
@@ -90,6 +91,20 @@ taxonomy:
 	* Complexity
 	* Predictability
 	* Stability
+* By predictability we mean that the SAS should be able to use its thinking capacity to make certain inferences about its future perceptions
+* By stability we mean that a SAS should exist long enough (according to its own subjective time) to be able to make the above-mentioned predictions, so this is strictly speaking just a weaker version of the predictability requirement
+
+## IV. Our "Local Island"
+### B. Different discrete parameters
+1. Different number of spatial dimensions
+* For n > 3, neither classical atoms nor planetary obits can be stable
+* When n > 3, the two-body problem no longer has any stable orbits as solutions
+* There is a less dramatic way in which n = 3 appears advantageous (although perhaps not necessary) for SASs. Many authors have drawn attention to the fact that the wave equation admits sharp and distortion-free signal propagation only when n = 3
+* What about n < 3? It has been argued that organisms would face insurmountable topological problems if n = 2: for instance, two nerves cannot cross. Another problem, emphasized by Wheeler, is the well-known fact that there is no gravitational force in general relativity with n < 3
+* It appears likely that all except the 3+1 dimensional space-time dimensionality are devoid of SASs, for the following reasons:
+	* More or less than 1 time dimension: insufficient predictability
+	* More than 3 space dimensions: insufficient stability
+	* Less than 3 space dimensions: insufficient complexity
 
 # See also
 
