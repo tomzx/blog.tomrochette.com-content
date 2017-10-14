@@ -58,6 +58,27 @@ taxonomy:
 ## 1 Cybernetics and the New Complexity of Machines
 * The living organism: a heat engine, burning glucose or glycogen or starch, fat, and proteins into carbon dioxide, water and urea
 * The organism's body is very far from a conservative system, and that its component parts work in an environment where the available power is much less limited than we have taken it to be
+* Whereas for Shannon information measures uncertainty, or entropy, for Wiener it measures a gain in certainty; information, therefore, he considered to be a measure of negative entropy, or "negentropy"
+
+### Conceptualizing the New Machine
+* Ashby's approach to machines: a machine is that which behaves in a machinelike way, namely, that its internal state, and the state of its surroundings, defines uniquely the next it will go to
+
+### Von Neumann's Self-Reproducing Automata
+* How can the differences that underlie the logic of organization in biological as opposed to artificial entities be used to build more reliable machines? More specifically, how can unreliable components be organized to become highly reliable for a machine or automaton as a whole? What are the conditions that would enable simple automata - understood as information-processing machines that exhibit self-regulation in interaction with the environment - to produce more complex automata?
+* When we talk mathematics, we may be discussing a secondary language, built on the primary language truly used by the nervous system
+* For simple automata, it is easier to describe the behavior itself than exactly how this behavior is produced or effectuated
+* Above a certain threshold of complexity the description of the structure would be simpler than a description of the behavior
+* First, the logic of automata would have to be continuous rather than discrete, analytical rather than combinatorial
+* Second, it would have to be a "probabilistic logic which would handle component malfunction as an essential and integral part of automata operation"
+* Third, it would most likely have to draw on the resources of thermodynamics and information theory
+* By his own calculations, the neurons in the brain are some 5,000 times slower than the vacuum tubes used as switching devices in the first electronic calculators, yet they are far more reliable. This is simply because they are far more numerous, and their connections more complicated
+* This flexibility (having a high degree of error tolerance), von Neumann speculates, probably requires an "ability of the automaton to watch itself and reorganize itself"
+* Turning to the problem of error, von Neumann introduces the idea of "multiplexing," that is, of carrying a single message simultaneously on multiple lines, and demonstrates statistically that by using large bundles of lines any degree of reliability for a circuit can be insured
+
+### Ross Ashby's Homeostat
+* When changes in the environment occur, an organism must adapt itself to the new conditions in order to survive
+* In Ashby's approach, the environment - designated as E - is also a transducer, or operator, in the sense that "it converts whatever action comes from the organism into some effect that goes back to the organism"
+* The brain of the organism must therefore act as an inverse operator $E^{-1}$ capable of reacting in such a way that the environmental disturbance is followed by an action that returns the organism to the proper values of its own variables
 
 # See also
 
