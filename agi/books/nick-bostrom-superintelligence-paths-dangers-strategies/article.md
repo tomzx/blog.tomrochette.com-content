@@ -371,6 +371,35 @@ $$
 * One option would be to try to build a genie such that it would automatically present the user with a prediction about salient aspects of the likely outcomes of a proposed command, asking for confirmation before proceeding
 * The difference between oracles, genies and sovereigns comes down to alternative approaches to the control problem
 * Safety order: sovereigns < genies < oracles
+* There are risks involved in designing a superintelligence to have a final goal that does not fully match the outcome that we ultimately seek to attain
+
+### Tool-AIs
+* Why build a superintelligence that has a will of its own?
+* Instead of creating an AI that has beliefs and desires and that acts like an artificial person, we should aim to build regular software that simply does what it is programmed to do
+* It is not straightforward to do if the product being created is a powerful general intelligence
+* It might be thought that by expanding the range of tasks done by ordinary software, one could eliminate the need for artificial general intelligence. But the range and diversity of tasks that a general intelligence could profitably perform in a modern economy is enormous
+* Especially relevant for our purposes is the task of software development itself
+	* There would be enormous practical advantages to being able to automate this
+* The classical way of writing software requires the programmer to understand the task to be performed in sufficient detail to formulate an explicit solution process consisting of a sequence of mathematically well-defined steps expressible in code
+	* This approach works for solving well-understood tasks, and is to credit for most software that is currently in use
+	* It falls short, however, when nobody knows precisely how to solve all of the tasks that need to be accomplished
+* There are (at least) two places where trouble could then arise
+	* First, the superintelligence search process might find a solution that is not just unexpected but radically unintended
+	* Second, in the course of the software's operation. If the methods that the software uses to search for a solution are sufficiently sophisticated, they may include provisions for managing the search process itself in an intelligent manner
+
+## Chapter 11 - Multipolar scenarios
+* In singleton scenarios, what happens post-transition depends almost entirely on the values of the singleton
+
+### Of horses and men
+#### Wages and unemployment
+* Market wages fall
+* The only place where humans would remain competitive may be where customers have a basic preference for work done by humans
+
+#### Capital and welfare
+* The income share received by labor would dwindle to practically nil
+* The factor share of capital would become nearly 100% of total world product
+* It follows that the total income from capital would increase enormously
+
 
 # See also
 
