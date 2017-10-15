@@ -1,5 +1,5 @@
 ---
-title: Automated Test Generator
+title: Automated test generator
 created: 2016-09-09
 taxonomy:
   category: [Artificial General Intelligence]
@@ -12,7 +12,7 @@ taxonomy:
 
 ## Things to explore
 * How to reflect on laravel-like proxy classes which can be mocked on demand?
-* How do you represent knowledge such as $a === $b, or is_null($x) => true if $x is null
+* How do you represent knowledge such as \$a === \$b, or is_null(\$x) => true if \$x is null
 	* Is a lookup table good enough?
 
 # Overview
@@ -75,18 +75,18 @@ if ($b) {
 }
 ```
 
-### Statements
+### Statements coverage
 | a | b |
 |---|---|
 | T | T |
 
-### Branches
+### Branches coverage
 | a | b |
 |---|---|
 | T | T |
 | F | F |
 
-### Path
+### Path coverage
 | a | b |
 |---|---|
 | F | F |
@@ -104,12 +104,12 @@ if ($a) {
 }
 ```
 
-### Statements
+### Statements coverage
 | a | b |
 |---|---|
 | T | T |
 
-### Branches
+### Branches coverage
 | a | b |
 |---|---|
 | T | T |
@@ -117,7 +117,7 @@ if ($a) {
 
 As soon as `$a` is false, the value of `$b` does not matter.
 
-### Path
+### Path coverage
 | a | b |
 |---|---|
 | F | x |
@@ -147,30 +147,32 @@ foreach ($a as $b) {
 ```
 
 ### Notes
-* Loops present a condition, and thus present the same challenges (sequential loops and nested loops)
+* Loops present a condition, and thus present the same challenges as conditions (sequential loops and nested loops)
 
 ## Functions
 ### Code
 ```php
 function a() {
-	b();
-}
-
-function b() {
 	a();
 }
 
-function c() {
+function b() {
 	c();
+}
+
+function c() {
+	b();
 }
 ```
 
 ### Notes
+* Functions can call themselves (recursion)
+* Functions can call other functions, which may in turn call back the calling function ("distant" recursion)
 * <tbc></tbc>
 
 # My testing process
 * Select a class to create tests for
-* Create a setUp method which will instantiate the class with the appropriate dependencies as mocks
+* Create a `setUp` method which will instantiate the class with the appropriate dependencies as mocks
 * Enumerate all public methods
 * Determinate all "manipulation" methods, that is, methods which can be used to alter the internal state of the object (generally setters)
 * For each public method, inspect the internal working
@@ -183,7 +185,7 @@ function c() {
 * Test default values (track changes)
 
 ## Controller
-* Services dependencies are injected during the `setUp()`
+* Services dependencies are injected during the `setUp()` method
 * Should test the type of the returned data (view vs JSON)
 * Should check the JSON top-level keys if an object is returned
 
@@ -191,7 +193,7 @@ function c() {
 Not tested.
 
 ## Service
-* Services and repositories dependencies are injected during the `setUp()`
+* Services and repositories dependencies are injected during the `setUp()` method
 
 ## Repository
 Not tested.
@@ -212,7 +214,7 @@ Not tested.
 * Call graph analysis
 * Type safety check
 * Dead assignments/unused code
-* Security analysi
+* Security analysis
 * Traces (show what variables look like given a specific case)
 * Construct database (function, interface, class, trait, method, property, constant, variable)
 * Array logic (implement reverse functions, some methods being very complicated to implement, such as the reverse to map/reduce)
@@ -288,3 +290,4 @@ Not tested.
 * http://www.pexforfun.com/Documentation.aspx#HowDoesPexWork
 * https://www.microsoft.com/en-us/research/project/pex-and-moles-isolation-and-white-box-unit-testing-for-net/#publications
 * https://en.wikipedia.org/wiki/Decision-to-decision_path
+* http://pythoscope.org/
