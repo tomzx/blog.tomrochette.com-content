@@ -12,9 +12,11 @@ An important aspect of the job of a programmer is to convert clients requirement
 ## Learned in this study
 
 ## Things to explore
+* Is there a way to write requirements such that it is some kind of formal language?
+	* There's already the "MUST/SHOULD/COULD/WON'T" (MoSCoW method) which indicates requirements priority
 
 # Overview
-* Verify similar to the ability of generating test cases for functions (automated testing)
+* Verify if this is similar to the ability of generating test cases for functions (automated testing)
 
 # Steps
 * The client determines he has new needs that the software should be fulfilling
@@ -22,11 +24,13 @@ An important aspect of the job of a programmer is to convert clients requirement
 * New features are evaluated against existing requirements in order to determine if existing functionality will be reused, require to be modified, or written from scratch
 * The time to develop a feature is roughly estimated in order to assess the price tag of each feature (X hours = Y $, generally evaluated at Z $/hour)
 * The features are ordered by priority and/or ROI
-* Dependencies between features are established*
+* Dependencies between features are established
 * A development plan is prepared
 
 # Communication and requirements gathering
 We cannot free ourselves from (programming) languages if our goal is to communicate needs between individuals. Even if we make an AGI that understands natural language, we still will have to communicate with it, and this communication will be imperfect and require filling in the blanks and reducing the ambiguity of the requirements. Communicating requirements and implementing them is thus a trade-off between the two. It requires the implementer to have prior domain experience/knowledge of what has been built so that new information conveyed by the user can relate to this prior work. This implies that the implementer needs to have the ability to form a model of what it has built so it can reuse that information when gathering new requirements.
+
+We can see the definition of a requirement as starting with a tensor of infinite dimension, and as more and more of the behavior of this requirement is defined, the dimension of the tensor is lowered until it becomes a concrete tensor.
 
 This also implies that there are two types of activities: modifying existing functionalities to add to or modify their behavior and adding new functionality from scratch. In the latter case, this means that the implementer will have to be able to infer data structures given a problem specification.
 
@@ -72,6 +76,25 @@ User: That is not what I asked!
 * What is the most frequent task?
 * What is the easiest/most difficult task to execute?
 * How much data will the system manage?
+
+# Prototype language
+* MUST/SHOULD/COULD/WON'T
+* Specify the affected actor
+
+## Examples
+The system \<PRIORITY> \<ACTION> \<ACTOR> \<TARGET> \<CONDITION> \<WHEN>
+
+PRIORITY := MUST|SHOULD|COULD|WON'T
+ACTION := text (identifies the procedure that should be executed)
+ACTOR := text (uniquely identify the actor it applies to)
+CONDITION := IF \<CONDITION_DESCRIPTION>
+CONDITION_DESCRIPTION := text (specify the conditions that must be respected)
+WHEN := text (specify when it occurs, either periodically, or due to some condition)
+
+The system \<MUST> \<export>
+
+## Alternative
+As \<who> \<when> \<where>, I \<what> because \<why>
 
 ---
 
@@ -135,3 +158,4 @@ Source: http://blog.learningtree.com/the-right-questions-to-ask-in-requirements-
 # References
 * https://openai.com/requests-for-research/#description2code
 * https://github.com/Avmb/code-docstring-corpus
+* https://en.wikipedia.org/wiki/User_story
