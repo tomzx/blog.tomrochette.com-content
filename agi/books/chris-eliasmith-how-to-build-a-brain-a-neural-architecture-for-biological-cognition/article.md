@@ -111,7 +111,7 @@ taxonomy:
 
 ### 3.3 Semantics: An Overview
 * Dual-Coding Theory: perceptual and verbal information are processed in distinct channels
-	* Linguistic processing is done using a symbolic code, and perceptual processing is done using an anolog code, which retains the perceptual features of a stimulus
+	* Linguistic processing is done using a symbolic code, and perceptual processing is done using an analog code, which retains the perceptual features of a stimulus
 
 ### 3.4 Shallow Semantics
 * Semantic pointers are lossy compressions
@@ -119,6 +119,24 @@ taxonomy:
 ### 3.5 Deep Semantics for Perception
 * Because the real world is extremely complex, the ideal statistical model will also be enormously complex (as it is the probability of all possible data at all times). As a result, the brain probably approximates this distribution by constructing what is called a parameterized model. Such a model identifies a small number of parameters that capture the overall shape of the ideal model
 * The higher layer of this network (an deep neural network for MNIST) represents a 50-dimensional space. Semantic pointers in this 50D space carry information about the presented digits. Clearly, however, this representation does not contain all of the information available in early visual areas. Rather, it is a summary that can be used to perform an object recognition task
+* I would argue that capturing deep semantics and relating them to high-level representations solves the symbol grounding problem - if we can show how those high-level representations can function like symbols
+
+### 3.6 Deep Semantics for Action
+* The motor system does not need to classify presented stimuli at all; rather, it needs to direct a nonlinear, high dimensional system towards a desired state
+* We might notice that perceptual systems often need to map from a high-dimensional, ambiguous state to a much smaller set of states, whereas motor systems often need to map from a small set of states to a high-dimensional, ambiguous state
+* Central computational features are shared by perception and motor control: both need to map low- to high-dimensional states; both need to deal with complexity and nonlinearity; both need to deal with uncertainty and ambiguity; and both need to share information between the past and the future
+* We can think of lower levels in the motor hierarchy as having models of the higher levels. Lower levels can then use such models to determine an appropriate control signal to affect the behavior specified by the higher level
+* There is no such thing as static movement. So, time is unavoidable. Embracing this observation actually renders the connection between perceptual and motor hierarchies even deeper - higher levels in both hierarchies must model the statistics and the dynamics of the levels below them
+* There are now two main features of the motor system that mirror the perceptual system:
+	* the (dynamical) model constructs representations of the domain that capture the statistical relationships that sufficiently describe the domain's structure
+	* such representations are "compressed" representations as we move up the hierarchy
+
+### 3.7 The Semantics of Perception and Action
+* For the motor hierarchy, the forward direction (down the hierarchy) allows for the control of a sophisticated body using simple commands, as well as the generation of deep semantics
+* The reverse direction allows online adaptation of the motor command to various perturbations
+* Both directions will allow the system to learn appropriate representations
+* It is a mistake to think of biological systems as processing perceptual information and then processing motor information. Rather, both are processed concurrently, and inform one another "all the way up" their respective hierarchies. Consequently, it is more appropriate to think of the semantics of items at the top of both hierarchies as having concurrent perceptual and motor semantics
+* It is much more appropriate to conceive of the entire perception/action system as being a series of nested controllers, rather than a feed-in and feed-out hierarchy
 
 # See also
 
