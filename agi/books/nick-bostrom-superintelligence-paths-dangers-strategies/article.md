@@ -400,6 +400,25 @@ $$
 * The factor share of capital would become nearly 100% of total world product
 * It follows that the total income from capital would increase enormously
 
+### Life in an algorithmic economy
+* *Most of this section seem to have a very anthropomorphic viewpoint*
+#### Would maximally efficient work be fun?
+* Conveying the impression to other members of the social group of being in flourishing condition - in good health, in good standing with one's peers, and in confident expectation of continued good fortune - may have boosted an individual's popularity
+* A bias toward cheerfulness could thus have been selected for, with the result that human neurochemistry is now biased toward positive affect compared to what would have been maximally efficient according to simpler materialistic criteria
+
+#### Unconscious outsourcers?
+* Perhaps a more advanced motivation system would be based on an explicit representation of a utility function or some other architecture that has no exact functional analogs to pleasure and pain
+* It is conceivable that optimal efficiency would be attained by grouping capabilities in aggregates that roughly match the cognitive architecture of a human mind
+
+#### Evolution is not necessary up
+* Many of the other examples of humanistic may have evolved as hard-to-fake signals of qualities that are difficult to observe directly, such as bodily or mental resilience, social status, quality of allies, ability and willingness to prevail in a fight, or possession of resources
+
+### Post-transition formation of a singleton?
+#### Superorganisms and scale economies
+* Carl Shulman has argued that in a population of emulations, selection pressures would favor the emergence of "superorganisms," groups of emulations ready to sacrifice themselves for the good of their clan
+* The essential property of a superorganism is not that it consists of copies of a single progenitor but that all the individual agents within it are fully committed to a common goal
+	* The ability to create a superorganism can thus be viewed as requiring a partial solution to the control problem
+* One area in which superorganisms (or other digital agents with partially selected motivations) might excel is coercion
 
 # See also
 
