@@ -79,6 +79,27 @@ taxonomy:
 * When changes in the environment occur, an organism must adapt itself to the new conditions in order to survive
 * In Ashby's approach, the environment - designated as E - is also a transducer, or operator, in the sense that "it converts whatever action comes from the organism into some effect that goes back to the organism"
 * The brain of the organism must therefore act as an inverse operator $E^{-1}$ capable of reacting in such a way that the environmental disturbance is followed by an action that returns the organism to the proper values of its own variables
+* Ashby explains that the homeostat "is really a machine within a machine"
+	* This is necessary because it must deal with two kinds of variables
+		* The continuously fluctuating type: the machine responds with small corrective movements
+		* When it is unable to restore itself, it changes from one set of feedbacks, which it has found to be unstable, to another set
+* The fact that the machine's capacity to model a particular natural process does not exhaust its interest
+* With no evident or agreed upon understanding of how the process of learning works and what it entails, the group is not yet equipped to assess the machine's value in these terms
+* Viewed in terms of what it does, the homeostat is simply a machine that adapts to changing environmental conditions by repeatedly changing and testing its own design until it reaches a state of equilibrium
+
+### Grey Walter's Tortoises
+* It is not so much the "multiplicity of units [that] is ... responsible for the elaboration of cerebral functions as the richness of their interconnections
+* Extreme plasticity cannot be gained without some loss of stability
+* The more learning circuits or paths of association, the more unstable the system as a whole
+* Connecting simple elements in multiple ways generates complexity
+* In Grey Walter's model of the brain agency is fully embodied in a material set of parts and connections
+
+### Self-Organizing Machines
+* A system that spontaneously - that is, without external guidance or control - moves from a random, or less unorganized, state to one that exhibits a more orderly pattern of behavior
+* Doubts arise from the apparent contradiction: how can the system be both "a strictly determinate physico-chemical system and ... undergo 'self-induced' internal reorganizations resulting in changes of behavior"
+* The system or machine will have to contain two distinct organizations, "each of which is absolute (i.e., completely determined) if considered by itself". What connects them is a single step-function of time with two values
+	* During a first period of time the system has one organization, and during a second it has another
+	* It is no longer a Newtonian machine but "lives" in Bergsonian time
 
 # See also
 
