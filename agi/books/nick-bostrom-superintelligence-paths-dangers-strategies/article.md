@@ -420,6 +420,30 @@ $$
 	* The ability to create a superorganism can thus be viewed as requiring a partial solution to the control problem
 * One area in which superorganisms (or other digital agents with partially selected motivations) might excel is coercion
 
+## Chapter 12 - Acquiring values
+### The value-loading problem
+* A motivation system cannot be specified as a comprehensive lookup table. It must instead be expressed more abstractly, as a formula or rule that allows the agent to decide what to do in any given situation
+* One formal way of specifying such decision rule is via a utility function
+* A utility function assigns value to each outcome one might obtain, or more generally to each "possible world."
+* Given a utility function, one can define an agent that maximizes expected utility. Such an agent selects at each time the action that has the highest expected utility
+* Identifying and codifying our own final goals is difficult because human goal representations are complex
+* How could a programmer transfer this complexity into a utility function?
+	* One approach would be to try to directly code a complete representation of whatever goal we have that we want the Ai to pursue; in other words, to write an explicit utility function. This approach might work if we had extraordinarily simple goals
+
+### Evolutionary selection
+* Evolution has produced an organism with human values at least once
+* Evolution can be viewed as a particular class of search algorithms that involve the alternation of two steps, one expanding a population of solution candidates by generating new candidates according to some relatively simple stochastic rule (such as random mutation or sexual recombination), the other contracting the population by pruning candidates that score poorly when tested by an evaluation function
+
+### Reinforcement learning
+* Reinforcement learning is an area of machine learning that studies techniques whereby agents can learn to maximize some notion of cumulative reward
+
+### Associative value accretion
+* How do we ourselves manage to acquire our values?
+* We begin life with some relatively simple starting preferences (e.g., an aversion to noxious stimuli) together with a set of dispositions to acquire additional preferences in response to various possible experiences
+* Both the simple starting preferences and the dispositions are innate, having been shaped by natural and sexual selection over evolutionary timescales
+* DNA contains instructions for building a brain, which, when placed in a typical human environment, will over the course of several years develop a world model that includes concepts of persons and of well-being. Once formed, these concepts can be used to represent certain meaningful values
+* Instead of specifying complex values directly, could we specify some mechanism that leads to the acquisition of those values when the AI interacts with a suitable environment?
+
 # See also
 
 # References
