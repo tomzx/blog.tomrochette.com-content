@@ -100,6 +100,28 @@ taxonomy:
 * The system or machine will have to contain two distinct organizations, "each of which is absolute (i.e., completely determined) if considered by itself". What connects them is a single step-function of time with two values
 	* During a first period of time the system has one organization, and during a second it has another
 	* It is no longer a Newtonian machine but "lives" in Bergsonian time
+* Two meanings of the term "self-organizing system":
+	* A system can be said to be self-organizing if it encompasses parts that are separate and independent and that then join
+	* The system is changing from a bad organization to a good one
+* A system would be self-organizing if it takes a flat, even distribution of states into a peaked, non-uniform one
+	* In other words, the entropy of a self-organizing system would have to decrease
+* How the boundary between the system and the environment is to be defined and located?
+	* At any instant of time as being the envelope of that region in space which shows the desired increase in order
+* How should order be measured?
+	* Use Claude Shannon's definition of "redundancy" in a communication system $R = 1 - H/H_m$
+		* $R$ is the measure of redundancy and $H/H_m$ the ratio of the entropy $H$ of an information source to its maximum value $H_m$
+* Schrödinger remarks that there are two mechanisms that produce order:
+	* a statistical mechanism producing "order from disorder"
+	* a less familiar mechanism that produces "order from order"
+
+### The Last Cyberneticist
+* While it is true that a random or meaningless concatenation of symbols still contains a measurable amount of information, information acquires its status and value as information only because there is an assumed correlation between a message composed from a set of discrete symbols and physical events and processes in the world (i.e., the symbols in themselves are not meaningless)
+* In Braitenberg's presentation two basic ideas come into play
+	* The first is what he calls "the law of uphill analysis and downhill invention"
+		* Essentially this means that building vehicles that work and do things - especially things that are unplanned - is usually easier than analyzing from external observation the internal structures that make this behavior possible
+		* This is because, as Braitenberg explains, induction is slow and requires a search for solutions
+		* Above a certain number of active elements and cross-connections in his vehicle's brain, its behavior becomes unpredictable to a human observer, even though that behavior is completely determined
+	* Mimicking of the process of reproduction, copy errors, and selection we recognize as Darwinian evolution
 
 # See also
 
