@@ -123,6 +123,15 @@ taxonomy:
 		* Above a certain number of active elements and cross-connections in his vehicle's brain, its behavior becomes unpredictable to a human observer, even though that behavior is completely determined
 	* Mimicking of the process of reproduction, copy errors, and selection we recognize as Darwinian evolution
 
+## 2 The In-Mixing of Machines: Cybernetics and Psychoanalysis
+### Machines and the Symbolic Order
+* Lacan asserts in his lecture "Psychoanalysis and Cybernetics," cybernetics was a new kind of "conjectural science" that for the first time made it possible to understand the autonomy of symbolic processes
+* "The machine is much freer than the animal," which is really a "jammed machine," where "certain parameters are no longer capable of variation"
+* "It is inasmuch as, compared to the animal, we are machines, that is to say something decomposed, that we possess greater freedom, in the sense in which freedom means the multiplicity of possible choices"
+* Turing proposed that if the problem can be expressed as an algorithm, or a precise set of formal instructions for arriving at the specified solution, then it can be computed mechanically by a machine
+* Three differential orders, or registers, of experience that Lacan calls the symbolic, the imaginary, and the real
+* Lacan associates the ego with the imaginary order
+
 # See also
 
 # References
