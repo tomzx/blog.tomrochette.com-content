@@ -444,6 +444,34 @@ $$
 * DNA contains instructions for building a brain, which, when placed in a typical human environment, will over the course of several years develop a world model that includes concepts of persons and of well-being. Once formed, these concepts can be used to represent certain meaningful values
 * Instead of specifying complex values directly, could we specify some mechanism that leads to the acquisition of those values when the AI interacts with a suitable environment?
 
+### Motivational scaffolding
+* Involves giving the seed AI an interim goal system, with relatively simple final goals that we can represent by means of explicit coding or some other feasible method. Once the AI has developed more sophisticated representational faculties, we replace this interim scaffold goal system with one that has different final goals
+* One could also try to use motivation selection methods to induce a more collaborative relationship between the seed AI and the programmer team
+* One could even imagine endowing the seed AI with the sole final goal of replacing itself with a different final goal, one which may have been only implicitly or indirectly specified by the programmers
+* The motivational scaffold approach is not without downsides. One is that it carries the risk that the AI could become too powerful while it is still running on its interim goal system
+* Another downside is that installing the ultimately intended goals in a human-level AI is not necessarily that much easier than doing so in a more primitive AI
+
+### Value learning
+* Involves using the AI's intelligence to learn the values we want it to pursue
+* We must provide a criterion for the AI that at least implicitly picks out some suitable set of values
+* Learning does not change the goal. It changes only the AI's beliefs about the goal
+* One outstanding issue is how to endow the AI with a goal such as "Maximize the realization of the values described in the envelope"
+	* To do this, it is necessary to identify the place where the values are described
+* What we might call the "Hail Mary" approach is based on the hope that elsewhere in the universe there exists (or will come to exist) civilizations that successfully manage the intelligence explosion, and that they end up with values that significantly overlap with our own
+* Another idea for how to solve the value-loading problem has recently been proposed by Paul Christiano
+	* Suppose we could obtain (a) a mathematically precise specification of a particular human brain and (b) a mathematically well-specified virtual environment that contains an idealized computer with an arbitrarily large amount of memory and CPU power
+	* Given (a) and (b), we could define a utility function U as the output the human brain would produce after interacting with this environment
+	* U could serve as the value criterion for a value learning Ai, which could use various heuristics for assigning probabilities to hypotheses about what U implies
+	* Christiano observes that in order to obtain a mathematically well-specified value criterion, we do not need a pratically useful computational model of a mind, a model we could run. We just need a (possibly implicit and hopelessly complicated) mathematical definition - and this may be much easier to attain
+
+### Emulation modulation
+* One could argue that whole brain emulation research is less likely to involve moral violations than artificial intelligence research, on the grounds that we are more likely to recognize when an emulation mind qualifies for moral status than we are to recognize when a completely alien or synthetic mind does so
+
+### Institution design
+* Some intelligent systems consist of intelligent parts that are themselves capable of agency
+* The motivations of such composite systems depend not only on the motivations of their constituent subagents but also on how those subagents are organized
+* Human-level subagents have the ability to strategize and might thus choose to conceal certain goals while their behavior was being monitored
+
 # See also
 
 # References
