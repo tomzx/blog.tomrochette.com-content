@@ -17,7 +17,10 @@ taxonomy:
 * To understand intelligence as a phenomenon must include an understanding of learning (J.R. Quinlan Induction of decision trees)
 * How can AGI/intelligence emerge out of randomness? Can it emerge out of randomness (or is that too improbable/operationally impossible)?
 * What is intelligence? Is it measurable?
+	* Should intelligence be measured against time? (in other words, faster = better)
 * Can intelligence be measured indirectly through tests such as nearest neighbor of faces?
+* How can we recognize a superintelligence?
+* Intelligence is the ability to best fit a probability distribution, the closer you are to the true distribution, the more intelligent you appear/are
 
 # Overview
 
@@ -25,17 +28,32 @@ taxonomy:
 ## Relative to your own
 ### Below
 * Recognition of errors made in the past
+* Cannot resolve problems one can
+* Solves problem more slowly
 
 ### In the same range
 * Problem resolution in which there is trade-off between the solutions (no real winner)
+* Similar efficiency in problem resolution
 
 ### Over
 * Recognition of more effective solutions to similarly faced problems
+* Ability to resolve problems one cannot resolve himself
+* Solve problems faster
 
 # Measuring intelligence
 * Factors of interest in the formula
 	* Memory
 	* Speed
+
+# Indicators of human intelligence
+* Tries to improve the intelligence of others
+* Listening instead of talking
+	* Absorb as much information as possible
+	* Do not show what they might not know
+* Know about a wide variety of topics
+* Have hidden abilities that may only be used when necessary
+* Do not attempt to make others look stupid
+* Do not dwell on things when they go wrong, as they can always be corrected
 
 # Quotes
 
@@ -79,3 +97,8 @@ Neurons also communicate through some form temporal signaling. Neurons may spike
 
 # References
 * http://journal.frontiersin.org/article/10.3389/fnana.2011.00029/full
+
+# Comparing relative intelligence
+* http://www.lifehack.org/articles/communication/10-signs-someone-smarter-than-you.html
+* http://www.lifespan.com/7-signs-someone-smarter/
+* https://www.quora.com/How-can-you-tell-whether-someone-is-smarter-than-you
