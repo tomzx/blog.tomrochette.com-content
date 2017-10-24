@@ -32,6 +32,10 @@ In the beginning it might appear similar to a single light flickering in the dar
 
 ## Baby
 ### Language acquisition
+Research shows that the unborn child is capable of hearing by about the fourth month of gestation, but the auditory apparatus is not fully formed until about the sixth month. At birth, hearing is the most developed of the senses, so it is of prime importance to the baby in exploring its world. [^14]
+
+The human fetus has some basic hearing capacity from the age of about 18 weeks. This ability matures and develops over the next few weeks, with low-frequency sounds outside the mother's body being heard better than those of high frequency. From birth up to four months, the baby starts to respond to loud or sudden sounds, beginning to localize them by turning the head. From three to six months, the baby begins to recognize and also make sounds. Between six and 12 months, he or she begins to babble, recognizes basic words like "mommy," and starts to recognize voices. The baby begins to form words from the age of about one year. Each child reaches these milestones in hearing and speech development at different times, but very slow development may indicate some problem with the hearing apparatus. [^14]
+
 In the first few months (1 to 4 months) following its birth, a baby's language is primarily focused around making voewel-like noises (cooes) and/or babbles[^3]. It will also attempt to vocalize.
 
 >Infants first begin vocalizing by crying, followed by cooing and then vocal play. These first forms of sound production are the easiest for children to use.
@@ -78,3 +82,7 @@ Each and every person has its own signature. However, it is not uncommon for man
 [^8]: Evolution - What Darwin Never Knew - NOVA PBS Documentary - https://www.youtube.com/watch?v=AYBRbCLI4zU
 [^9]: Bermúdez, José Luis. Cognitive Science: An Introduction to the Science of the Mind. Cambridge: Cambridge University Press, 2010.
 [^10]: https://en.wikipedia.org/wiki/Human_genome
+[^11]: http://www.child-encyclopedia.com/language-development-and-literacy/according-experts/language-development-early-age-learning
+[^12]: http://www.asha.org/public/speech/development/01/
+[^13]: https://en.wikipedia.org/wiki/Language_development
+[^14]: Carter, Rita. The human brain book. Penguin, 2014.
