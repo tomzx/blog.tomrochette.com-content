@@ -11,16 +11,17 @@ taxonomy:
 ## Learned in this study
 
 ## Things to explore
-* Describe someone's position on various topic through a questionnaire, which in turn positions them in a multidimensional space (where each dimension is effectively the value given to a question in the questionnaire)
+* Describe someone's position on various topics through a questionnaire, which in turn positions them in a multidimensional space (where each dimension is effectively the value given to a question in the questionnaire)
 
 # Overview
 Part of the reason I write this, is to understand how an AGI goes through the process of thinking about anything, and by doing so, is able to come up with a "superior" answer or position on any given topic. It is my hope that by doing so, it will put to light some practices that can be applied to human beings as well.
 
 # Opinions
 ## Forming and changing opinion
-* Opinions should be volatile, that is, it should be subject to change over time, but exist and be relied on at any given time to form composite opinions (opinions based on prior opinions)
+* Opinions should be volatile, that is, they should be subject to change over time, but exist and be relied on at any given time to form composite opinions (opinions based on prior opinions)
 * The idea of volatility is that an AGI agent needs to be able to take decisions and proceed further into its thinking
 * If at some point arguments are brought up that goes against what the agent believes in, these arguments should be evaluated against the existing framework that has been built
+	* In the case the arguments that have been brought up are considered valid (or more valid than the existing framework in place), the affected scaffold of reasoning should be marked as "risky" or "to be re-evaluated", which would prompt the agent to determine the quality of these prior decisions against the new information
 * When evaluating a position on a topic, it is important to consider the veracity of the facts presented
 * It is also important to evaluate how often an opinion and its related facts have been useful to us compared to our existing position
 
@@ -35,7 +36,7 @@ Part of the reason I write this, is to understand how an AGI goes through the pr
 		* It is important to note that it is hard for human beings to evaluate another state without being biased by its current state. Doing so would require the ability to ignore/forget all of their existing preconceptions/decisions
 * Similarly to reinforcement learning, given a metric (function) to determine whether a position is better than another position, it would be possible to order the states from lowest to highest total reward
 	* One could say that the meaning of life in this case would be to discover and ascend this reward ladder
-* Most human beings agree on a set of "values" which are important to a "good" life: happiness, health, comfort
+* Most human beings agree on a set of "values" which are important to a "good" life: happiness, health, comfort, thus it would seem appropriate to try and encode these values within the state evaluation metric
 	* See Maslow's hierarchy of needs
 
 # Unsorted
@@ -45,6 +46,7 @@ Part of the reason I write this, is to understand how an AGI goes through the pr
 * Why is it that it is so difficult for us to abandon the way we do things so that we may do them in a radically different way?
 	* Is it because our current way has proven itself to work for so long that there's no reason to believe that the other way would be even more successful? Or that it's not worth trading what was acquired to learn something new that, in the end, will only be a trade-off (moving from one local minima to another)?
 	* Or is it based on the argument presented in "On Intelligence"/"The Society of Mind", where we build upon previous experiences like an onion, and so abandoning these previous experiences would require a lot of work?
+	* It would seem that the brain is averse to change, for instance when trying to implement new habits, and thus radically changing opinion on something would require this change to propagate through the existing relations that exists within the brain
 
 # See also
 
