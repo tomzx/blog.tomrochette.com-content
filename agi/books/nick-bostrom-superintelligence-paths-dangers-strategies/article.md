@@ -19,6 +19,7 @@ taxonomy:
 * Should we expect generalists+specialists collective systems to outperform generalists only (monolithic) systems?
 * What type of invention, similar to the print press, electricity or the Internet would lead to an intellectual revolution?
 * Given that there is an infinity of possible ways for a superintelligence creator to prevent the superintelligence from gaining decisive strategic advantage and due to Bayesian formalism, should we assume that an agent should never attempt to gain decisive strategic advantage? (this sounds like some form of dilemma/paradox)
+* Is CEV prone to the same issues the bitcoin blockchain has, namely that if decisions are made when 50%+ agree on something, then it is the "final" decision?
 
 # Overview
 
@@ -471,6 +472,31 @@ $$
 * Some intelligent systems consist of intelligent parts that are themselves capable of agency
 * The motivations of such composite systems depend not only on the motivations of their constituent subagents but also on how those subagents are organized
 * Human-level subagents have the ability to strategize and might thus choose to conceal certain goals while their behavior was being monitored
+
+## Chapter 13 - Choosing the criteria for choosing
+### The need for indirect normativity
+* Suppose that we had solved the control problem so that we were able to load any value we chose into the motivation system of a superintelligence, making it pursue that value as its final goal. Which value should we install?
+* To select a final value based on our current convictions, in a way that locks it in forever and precludes any possibility of further ethical progress, would be to risk an existential moral calamity
+* Instead of making a guess based on our own current understanding, we would delegate some of the cognitive work required for value selection to the superintelligence
+
+### Coherent extrapolated volition
+* Our coherent extrapolated volition is our wish if we knew more, thought faster, were more the people we wished we were, had grown up farther together; where the extrapolation converges rather than diverges, where our wishes cohere rather than interfere; extrapolated as we wish that extrapolated, interpreted as we wish that interpreted
+
+#### Rationales for CEV
+* Encapsulate moral growth
+* Avoid hijacking the destiny of humankind
+* Avoid creating a motive for modern-day humans to fight over the initial dynamics
+* Keep humankind ultimately in charge of its own destiny
+
+### Morality models
+* Instead of implementing humanity's coherent extrapolated volition, one could try to build an AI with the goal of doing what is morally right, relying on the AI's superior cognitive capacities to figure out just which actions fit that description
+* Moral rightness (MR) appears to have several advantages over CEV
+	* MR would do away with various free parameters in CEV
+	* It would seem to eliminate the possibility of a moral failure resulting from the use of an extrapolation base that is too narrow or too wide
+	* MR would orient the AI toward morally right action even if our coherent extrapolated volitions happen to wish for the AI to take actions that are morally odious
+* MR would also appear to have some disadvantages
+	* It relies on the notion of "morally right," a notoriously difficult concept
+	* A more fundamental issue with MR is that even if it can be implemented, it might not give us what we want or what we would choose if we were brighter and better informed
 
 # See also
 
