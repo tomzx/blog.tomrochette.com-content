@@ -31,14 +31,26 @@ taxonomy:
 * Is one of my learning methods/techniques weak?
 * How can I prevent myself from making errors?
 	* Simulate alternatives, define a time limit for simulations (budget)
+* Is learning about input and output?
+	* Can learning occur without any transformation happening?
 
 # Overview
 Learning is lossy encoding (similar to lossy compression).
+
+# What is learning?
+* The process of reducing the distance between the behavior of an agent in reaction to a stimuli and what the optimal behavior is (supervised learning since we have examples of "optimal" (or at least better than random) behavior)
+* The process of discovery where the agent is trying to accomplish some goal while minimizing/maximizing some set of metrics (for instance energy, speed, duration, power consumption, etc.)
+* The process of understanding something and being able to recall this information when needed (for instance, discovering De Morgan's laws and then making use of them when solving logical problems)
+<tbc></tbc>
+
+# What are the methods to learn?
+<tbc></tbc>
 
 # Objectives
 * Increase the rate of learning
 	* Minimize inefficient learning
 		* Learning what is already learned
+	* Minimize mistakes
 * Increase retention and recall rates
 * Spend as little time as possible refreshing/preserving old memories
 
@@ -46,7 +58,7 @@ Learning is lossy encoding (similar to lossy compression).
 In the machine learning world, the more examples you have, the better your algorithm becomes at properly predicting the outcome based on its training data. We correlate this improvement in prediction skills with saying that the machine appears to be "more intelligent". If we were to make a parallel with human learning, would it be appropriate to extrapolate that in order to become more intelligent, one has to learn more examples? Is intelligence the accumulation of examples with the purpose of building a general association-trigger system (you see something that looks like an example of something you've seen in the past and it triggers related memories)? According to Pólya's *How to Solve It*[^1] method for solving mathematical problems, one of the important steps to problem resolution is the ability to relate a current problem to previously exposed problems that may help us to solve the problem at hand.
 
 # Learning from example
-* NN is often "blamed" for requiring a lot of data
+* Neural networks are often "blamed" for requiring a lot of data
 * How long does it take for a child unfamiliar with some experience such as what a dog/cat is before they can recognize one?
 	* Can a child that has never seen the real animal (only has seen them in children books) extrapolate and recognize one when they see one for the first time?
 
@@ -61,10 +73,12 @@ In the machine learning world, the more examples you have, the better your algor
 ## Books
 * Read a chapter
 * Write a short summary of what was discussed in the chapter
+* Requires the ability to use language
 
 ## Videos
 * View the video
 * Write a short summary of what was discussed in the video
+* Can require the ability to use language
 
 # Types of things to learn
 * Facts
@@ -80,16 +94,16 @@ In the machine learning world, the more examples you have, the better your algor
 * Organize my understanding
 
 # Applications
-## How would you optimize learning about 100+ topics on wikipedia?
+## How would you optimize learning about 100+ topics on Wikipedia?
 Relevant information could be extracted and used to create SRS (space repetition system) cards. These cards would be reviewed based on the SRS itself.
 
-The list of topics/articles could be inserted in a software that would build a relation graph between all those topics/articles. Various metrics could be extracted from the articles (article first/last edit dates, size of article, number of incoming/outgoing links, number of editors, article quality, etc.) in an attempt to sort the articles by some "relevancy" order.
+The list of topics/articles could be inserted in a software that would build a relation graph between all those topics/articles. Various metrics could be extracted from the articles (article first/last edit dates, size of article, number of incoming/outgoing links, number of editors, article quality, etc.) in an attempt to sort the articles by some "relevancy" order (think Google Page Rank).
 
-Plan the order in which you are going to read the articles. By using the previously mentioned tool, the relation graph could give you an idea of the order you should read the articles. It is generally easier to read about a topic in chronological order as it will explain how understanding has developed over time.
+Plan the order in which you are going to read the articles. By using the previously mentioned tool, the relation graph could give you an idea of the order you should read the articles. It is generally easier to read about topics in chronological order (from oldest topic to newest topic) as it will explain how understanding has developed over time.
 
 The content of articles could be extracted. With enough advanced NLP tools it would be possible to order the claims/facts such that one claim can induce the next, making it easier to read a collection of articles.
 
-Track what you read. This can be done either by writing down the articles you've read or using the watchlist feature of wikipedia. If you are writing down which articles you've read, I suggest it is written in a computer document so that you can verify if you've already read the article. Furthermore, I'd write down the date at the time the article was read so that if you want to read the article again later on, you can look at only the changes that were applied since then. However, I strongly recommend simply using wikipedia's watchlist system which does this (it does not track when the article was added to the watchlist though).
+Track what you read. This can be done either by writing down the articles you've read or using the watchlist feature of Wikipedia. If you are writing down which articles you've read, I suggest it is written in a computer document so that you can verify if you've already read the article. Furthermore, I'd write down the date at the time the article was read so that if you want to read the article again later on, you can look at only the changes that were applied since then. However, I strongly recommend simply using Wikipedia's watchlist system which does this (it does not track when the article was added to the watchlist though).
 
 While reading an article, write down related topics. New knowledge is better remembered when it is well integrated within our graph of knowledge.
 
@@ -103,7 +117,7 @@ While reading an article, write down related topics. New knowledge is better rem
 	* Collaborative vs individual
 	* Enjoyable vs unpleasant
 
-Source: https://en.wikipedia.org/wiki/Instructional_theory
+Source: https://en.Wikipedia.org/wiki/Instructional_theory
 
 # First Principles of Instruction
 * Task/Problem-centered - Students learn more when the instruction is centered on relevant real-world tasks or problems, including a series of tasks or problems that progress from simple to complex
@@ -112,7 +126,7 @@ Source: https://en.wikipedia.org/wiki/Instructional_theory
 * Application - Students learn more when they perform real-world tasks or solve real-world problems and receive feedback
 * Integration - Students learn more when they are encouraged to integrate their knowledge into their life through reflection, discussion, debate, and/or presentation of new knowledge
 
-Source: https://en.wikipedia.org/wiki/First_Principles_of_Instruction
+Source: https://en.Wikipedia.org/wiki/First_Principles_of_Instruction
 
 # Unsorted
 * Learning to talk is not necessarily about associating visual cues with auditory cues as apparently babies born blind can still learn to speak and listen
@@ -123,7 +137,8 @@ Source: https://en.wikipedia.org/wiki/First_Principles_of_Instruction
 * The ability to assign a score to a performance/agent function in order to pick the best
 * Recognize areas of variability which are potential locations for optimization
 * Determine the areas where you are the furthest from doing properly, these should be where you can make the most gains (this requires a distance metric)
-
+* It's important to track the amount of information one is able to absorb, as well as how much is retained over different periods of time
+* It is interesting to understand what one is able to understand rapidly and remember for extended periods of time without requiring constant memory maintenance
 
 # See also
 * [The Strategic Student Approach for Life-Long Exploration and Learning](../../machine-learning/papers/manuel-lopes-the-strategic-student-approach-for-life-long-exploration-and-learning)
