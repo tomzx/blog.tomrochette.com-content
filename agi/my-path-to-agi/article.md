@@ -425,14 +425,20 @@ David Sterratt, Bruce Graham, Andrew Gillies, David Willshaw
 ### How to Build a Brain: A Neural Architecture for Biological Cognition (2017-08 - ?)
 Chris Eliasmith
 
-### Why Philosophers Should Care About Computational Complexity (2017-08 - ?)
+### Why Philosophers Should Care About Computational Complexity (2017-08 - 2017-09)
 Scott Aaronson
 
 ### Superintelligence: Paths, Dangers, Strategies (2017-08 - ?)
 Nick Bostrom
 
-### The Brain: The Story of You (2017-08 - ?)
+### The Brain: The Story of You (2017-08 - 2017-09)
 David Eagleman
 
-### Is the theory of everything merely the ultimate ensemble theory? (2017-09 - ?)
+### Is the theory of everything merely the ultimate ensemble theory? (2017-09)
 Max Tegmark
+
+### The Allure of Machinic Life: Cybernetics, Artificial Life, and the New AI (2017-10 - ?)
+John Johnston
+
+### Developmental Biology (2017-10 - ?)
+Scott Gilbert
