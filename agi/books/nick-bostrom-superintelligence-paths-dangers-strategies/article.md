@@ -498,6 +498,39 @@ $$
 	* It relies on the notion of "morally right," a notoriously difficult concept
 	* A more fundamental issue with MR is that even if it can be implemented, it might not give us what we want or what we would choose if we were brighter and better informed
 
+#### Do What I Mean
+* If we knew how to code "Do What I Mean" in a general and powerful way, we might as well use that as a standalone goal
+
+#### Component list
+* Goal content
+	* What objective should the AI pursue?
+	* How should a description of this objective be interpreted?
+	* Should the objective include giving special rewards to those who contributed to the project's success?
+* Decision theory
+	* Should the AI use causal decision theory, evidential decision theory, updateless decision theory, or something else?
+* Epistemology
+	* What should the AI's prior probability function be, and what other explicit or implicit assumptions about the world should it make?
+	* What theory of anthropics should it use?
+* Ratification
+	* Should the AI's plans be subjected to human review before being put into effect?
+	* If so, what is the protocol for that review process?
+
+#### Getting close enough
+* In general, it seems wise to aim at minimizing the risk of catastrophic error rather than at maximizing the chance of every detail being fully optimized
+* Two reasons
+	* Humanity's cosmic endowment is astronomically large
+	* There is a hope that if we but get the initial conditions for the intelligence explosion approximately right, then the resulting superintelligence may eventually home in on, and precisely hit, our ultimate objectives
+* It is not necessary for us to create a highly optimized design. Rather, our focus should be on creating a highly reliable design, one that can be trusted to retain enough sanity to recognize its own failings. An imperfect superintelligence, whose fundamentals are sound, would gradually repair itself; and having done so, it would exert as much beneficial optimization power on the world as if it had been perfect from the outset
+
+## Chapter 14 - The strategic picture
+### Science and technology strategy
+#### Differential technological development
+* Technological completion conjecture: If scientific and technological development efforts do not effectively cease, then all important basic capabilities that could be obtained through some possible technology will be obtained
+* The principle of differential technological development: Retard the development of dangerous and harmful technologies, especially ones that raise the level of existential risk; and accelerate the development of beneficial technologies, especially those that reduce the existential risks posed by nature or by other technologies
+
+#### Preferred order of arrival
+* What matters is that we get superintelligence before other dangerous technologies, such as advanced nanotechnology
+
 # See also
 
 # References
