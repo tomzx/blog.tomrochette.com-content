@@ -48,8 +48,34 @@ taxonomy:
 * The gametes and their precursor cells are collectively called germ cells (the formation of a new generation)
 * All other cells of the body are called somatic cells (the individual body)
 
-### A Frog's Life
+#### Metamorphosis and gametogenesis
+* The most important things to remember about meiosis are:
+	* The chromosomes replicate prior to cell division, so that each gene is represented four times
+	* The replicated chromosomes (each called a chromatid) are held together by their kinetochores (centromeres), and the four homologous chromatids pair together
+	* The first meiotic division separates the chromatid pairs from one another
+	* The second meiotic division splits the kinetochore such that each chromatid becomes a chromosome
+	* The result is four germ cells, each with a haploid nucleus
 
+### "How Are You?"
+#### The four principles of Karl Ernst von Baer
+* von Baer's laws
+	* The general features of a large group of animals appear earlier in development than do the specialized features of a smaller group
+	* Less general characters develop from the more general, until finally the most specialized appear
+	* The embryo of a given species, instead of passing through the adult stages of lower animals, departs more and more from them
+	* Therefore, the early embryo of a higher animal is never like a lower animal, but only like its early embryo
+
+### Keeping Track of Moving Cells: Fate Maps and Cell Lineages
+* One of the most important conclusions of developmental anatomists is that embryonic cells do not remain in one place, nor do they keep the same shape
+* Two major types of cells in the embryo:
+	* Epithelial cells, which are tightly connected to one another in sheets or tubes
+	* Mesenchymal cells, which are unconnected to one another and operate as independent units
+* Morphogenesis is brought about through a limited repertoire of variations in cellular processes within these two types of arragenements
+	* Direction and number of cell divisions
+	* Cell shape changes
+	* Cell movement
+	* Cell growth
+	* Cell death
+	* Changes in the composition of the cell membrane or secreted products
 
 # See also
 
