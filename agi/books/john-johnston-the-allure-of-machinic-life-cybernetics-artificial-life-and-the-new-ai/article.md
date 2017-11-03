@@ -132,6 +132,24 @@ taxonomy:
 * Three differential orders, or registers, of experience that Lacan calls the symbolic, the imaginary, and the real
 * Lacan associates the ego with the imaginary order
 
+## 3 Machinic Philosophy: Assemblages, Information, Chaotic Flow
+* Dynamic systems are systems whose state changes as a function of time; their behavior is usually described by differential equations that can be solved by analytic methods
+* Nonlinear dynamical systems, on the other hand, have exponential or other functions that make them intractable, or nearly so; parts of these systems interact in ways that produce disproportionate and strange effects
+* Two strands of chaos science:
+	* The emergence of order out of chaos
+	* The application of nonlinear mathematics to diverse phenomena like weather prediction and turbulent flow, population growth, and the rise and fall of market prices
+
+### Biological Assemblages
+* While all physical processes are determined by the laws of physics, once an element is introduced that has the capacity to direct, alter, or constrain these processes, the laws of physics alone are no longer adequate to account for the outcome
+* On the one hand, what is unique about every specific form of biological organization is symbolically encoded in its genetic information
+* On the other hand, while this genetic information "spells out" the organism's identity, it is not fully given in the organism's DNA
+* Some four billion years ago a molecule that could copy itself emerged by accident from a primeval chemical soup. This was the first replicator, and soon the soup would have been filled with identical replicating molecules, each producing more copies of itself
+* Copying errors would inevitably have led to variations and then competition among the variant replicators for the necessary building blocks
+* The replicators that survived were the ones that built survival machines for themselves to live in, and over time these survival machines only got bigger and more elaborate
+* The genetic code is the collective assemblage of enunciation; the physical body, its machinic assemblage
+
+### The Machinic Phylum
+
 # See also
 
 # References
