@@ -20,6 +20,7 @@ taxonomy:
 * What type of invention, similar to the print press, electricity or the Internet would lead to an intellectual revolution?
 * Given that there is an infinity of possible ways for a superintelligence creator to prevent the superintelligence from gaining decisive strategic advantage and due to Bayesian formalism, should we assume that an agent should never attempt to gain decisive strategic advantage? (this sounds like some form of dilemma/paradox)
 * Is CEV prone to the same issues the bitcoin blockchain has, namely that if decisions are made when 50%+ agree on something, then it is the "final" decision?
+* Most of the "risks" appear to be existential risks, that is, the disappearance of the human race. Is it a bad thing, and if so, why?
 
 # Overview
 
@@ -530,6 +531,57 @@ $$
 
 #### Preferred order of arrival
 * What matters is that we get superintelligence before other dangerous technologies, such as advanced nanotechnology
+
+#### Rates of change and cognitive enhancement
+* An increase in either the mean or the upper range of human intellectual ability would likely accelerate technological progress across the board, including progress toward various forms of machine intelligence, progress on the control problem, and progress on a wide swath of other technical and economical objectives
+* Consider the limiting case of a "universal accelerator," an imaginary intervention that accelerates literally everything
+	* The action of such a universal accelerator would correspond merely to an arbitrary rescaling of the time metric, producing no qualitative change in observed outcomes
+* Macro-structural development accelerator: A lever that accelerates the rate at which macro-structural features of the human condition develop, while leaving unchanged the rate at which micro-level human affairs unfold
+* Two kinds of existential risk:
+	* State risks: associated being in a certain state, and the total amount of state risk to which a system is exposed is a direct function of how long the system remains in that state
+	* Step risks: a discrete risk associated with some necessary or desirable transition. Once the transcription is completed, the risk vanishes
+* We can then say the following regarding a hypothetical macro-structural development accelerator:
+	* We should favor acceleration - provided we think we have a realistic prospect of making it through to a post-transition era in which any further existential risks are greatly reduced
+	* If it were known that there is some step ahead destined to cause an existential catastrophe, then we ought to reduce the rate of macro-structural development in order to give more generations a chance to exist before the curtain is rung down
+
+#### Technology couplings
+* Refers to a condition in which two technologies have a predictable timing relationship, such that developing one of the technologies has a robust tendency to lead to the development of the other, either as a necessary precursor or as an obvious and irresistible application or subsequent step
+* It is not good accelerating the development of a desirable technology Y if the only way of getting Y is by developing an extremely undesirable precursor technology X, or if getting Y would immediately produce an extremely undesirable related technology Z
+
+### Pathways and enablers
+#### Effects of hardware progress
+* Faster computers make it easier to create machine intelligence
+* Hardware can to some extent substitute for software; thus, better hardware reduces the minimum skill required to code a seed AI
+* Fast computers might also encourage the use of approaches that rely more heavily on brute-force techniques and less on techniques that require deep understanding to use
+* Rapid hardware progress increases the likelihood of a fast takeoff
+* It seems difficult to have much leverage on the rate of hardware advancement
+
+#### Should whole brain emulation research be promoted?
+* There are at least three putative advantages of whole brain emulation
+	* Its performance characteristics would be better understood than those of AI
+	* It would inherit human motives
+	* It would result in a slower takeoff
+* On balance, it looks like the risk of the AI transition would be reduced if WBE comes before AI. However, when we combine the residual risk in the AI transition with the risk of an antecedent WBE transition, it becomes very unclear how the total existential risk along the WBE-first path stacks up against the risk along the AI-first path
+
+### Collaboration
+#### The race dynamic and its perils
+* A race dynamic exists when one project fears being overtaken by another
+* The race dynamic could spur projects to move faster toward superintelligence while reducing investment in solving the control problem
+
+#### On the benefits of collaboration
+* It reduces the haste in developing machine intelligence
+* It allows for greater investment in safety
+* It avoids violent conflicts
+* It facilitates the sharing of ideas about how to solve the control problem
+* It tends to produce outcomes in which the fruits of a successfully controlled intelligence explosion get distributed more equitably
+* In general, greater post-transition collaboration appears desirable
+	* It would reduce the risk of dystopian dynamics in which economic competition and a rapidly expanding population lead to a Malthusian condition, or in which evolutionary selection erodes human values and selects for non-eudaemonic forms, or in which rival powers suffer each other coordination failures such as wars and technology races
+
+#### Working together
+* The ideal form of collaboration for the present may therefore be one that does not initially require specific formalized agreements and that does not expedite advances in machine intelligence
+* The common good principle: Superintelligence should be developed only for the benefit of all of humanity and in the service of widely shared ethical ideals
+
+## Chapter 15 - Crunch time
 
 # See also
 
