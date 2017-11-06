@@ -41,12 +41,15 @@ Learning is lossy encoding (similar to lossy compression).
 * The process of reducing the distance between the behavior of an agent in reaction to a stimuli and what the optimal behavior is (supervised learning since we have examples of "optimal" (or at least better than random) behavior)
 * The process of discovery where the agent is trying to accomplish some goal while minimizing/maximizing some set of metrics (for instance energy, speed, duration, power consumption, etc.)
 * The process of understanding something and being able to recall this information when needed (for instance, discovering De Morgan's laws and then making use of them when solving logical problems)
+* The acquisition of knowledge or skills through experience, study, or by being taught[^2]
+* How agents ought to take actions in an environment so as to maximize some notion of cumulative reward[^3]
 <tbc></tbc>
 
 # What are the methods to learn?
 <tbc></tbc>
 
 # Objectives
+* Minimize the amount of time spent learning
 * Increase the rate of learning
 	* Minimize inefficient learning
 		* Learning what is already learned
@@ -58,13 +61,14 @@ Learning is lossy encoding (similar to lossy compression).
 In the machine learning world, the more examples you have, the better your algorithm becomes at properly predicting the outcome based on its training data. We correlate this improvement in prediction skills with saying that the machine appears to be "more intelligent". If we were to make a parallel with human learning, would it be appropriate to extrapolate that in order to become more intelligent, one has to learn more examples? Is intelligence the accumulation of examples with the purpose of building a general association-trigger system (you see something that looks like an example of something you've seen in the past and it triggers related memories)? According to Pólya's *How to Solve It*[^1] method for solving mathematical problems, one of the important steps to problem resolution is the ability to relate a current problem to previously exposed problems that may help us to solve the problem at hand.
 
 # Learning from example
-* Neural networks are often "blamed" for requiring a lot of data
+* Neural networks are often "blamed" for requiring a lot of data while human beings appear to learn (and extrapolate) from very few examples
 * How long does it take for a child unfamiliar with some experience such as what a dog/cat is before they can recognize one?
 	* Can a child that has never seen the real animal (only has seen them in children books) extrapolate and recognize one when they see one for the first time?
 
 # Learning according to reinforcement learning
 * Greedy policy
 * Some form of exploration to prevent being blind to better alternatives
+* An objective/goal must be defined, otherwise learning is done aimlessly
 
 # Learning from different mediums
 ## Objectives
@@ -92,6 +96,18 @@ In the machine learning world, the more examples you have, the better your algor
 * Experiment
 * Generate questions and answer them
 * Organize my understanding
+* Teach others to discover flaws in my own understanding
+
+# Ways to learn
+* Segment problems into subproblems and tackle them individually (divide and conquer)
+* Start from where you are and slowly work toward your objective ("forward kinetics")
+* Start from your objective and slowly work toward where you are ("reverse kinetics")
+
+# Pólya's method
+* Understand the problem
+* Obtain a plan
+* Carry out the plan
+* Look back at the solution
 
 # Applications
 ## How would you optimize learning about 100+ topics on Wikipedia?
@@ -140,11 +156,21 @@ Source: https://en.Wikipedia.org/wiki/First_Principles_of_Instruction
 * It's important to track the amount of information one is able to absorb, as well as how much is retained over different periods of time
 * It is interesting to understand what one is able to understand rapidly and remember for extended periods of time without requiring constant memory maintenance
 
+# Scratchpad
+* Learning is about being practical (making use of the knowledge that was acquired)
+	* Either to predict or to suggest
+* Based on prior experience, suggest what output to produce
+* Construction of a mapping function between inputs and outputs, however complex it needs to be
+* If I were to read about learning, what would my goal be?
+	* Spend less time on learning (in other words, learn faster, more efficiently) so more time can be spent on producing value
+
 # See also
 * [The Strategic Student Approach for Life-Long Exploration and Learning](../../machine-learning/papers/manuel-lopes-the-strategic-student-approach-for-life-long-exploration-and-learning)
 
 # References
 [^1]: Pólya, George. How to Solve It: A New Aspect of Mathematical Method.
+[^2]: https://en.oxforddictionaries.com/definition/learning
+[^3]: https://en.wikipedia.org/wiki/Reinforcement_learning
 
 * https://deepmind.com/blog/alphago-zero-learning-scratch/
 
