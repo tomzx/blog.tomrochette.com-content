@@ -27,11 +27,15 @@ The following lists papers I've read and reviewed or made notes for.
 ## Bradly Stadie
 * [Third-Person Imitation Learning (2017)](bradly-stadie-third-person-imitation-learning)
 
+## Carlos Florensa
+* [Reverse Curriculum Generation for Reinforcement Learning (2017)](carlos-florensa-reverse-curriculum-generation-for-reinforcement-learning)
+
 ## Cristian Bucila
 * [Model Compression (2006)](cristian-bucila-model-compression)
 
 ## David Silver
 * [Mastering the Game of Go with Deep Neural Networks and Tree Search (2016)](david-silver-mastering-the-game-of-go-with-deep-neural-networks-and-tree-search)
+* [Mastering the game of Go without human knowledge (2017)](david-silver-mastering-the-game-of-go-without-human-knowledge)
 * [The Predictron: End-To-End Learning and Planning (2017)](david-silver-the-predictron-end-to-end-learning-and-planning)
 
 ## Demis Hassabis
@@ -73,6 +77,9 @@ The following lists papers I've read and reviewed or made notes for.
 ## Matej Balog
 * [DeepCoder: Learning to Write Programs (2016)](matej-balog-deepcoder-learning-to-write-programs)
 
+## Matteo Hessel
+* [Rainbow: Combining Improvements in Deep Reinforcement Learning (2017)](matteo-hessel-rainbow-combining-improvements-in-deep-reinforcement-learning)
+
 ## Max Jaderberg
 * [Reading Text in the Wild with Convolutional Neural Networks (2014)](max-jaderberg-reading-text-in-the-wild-with-convolutional-neural-networks)
 
@@ -100,6 +107,9 @@ The following lists papers I've read and reviewed or made notes for.
 
 ## Théodore Bluche
 * [Scan, Attend and Read: End-to-End Handwritten Paragraph Recognition with MDLSTM Attention (2016)](theodore-bluche-scan-attend-and-read-end-to-end-handwritten-paragraph-recognition-with-mdlstm-attention)
+
+## Thomas Anthony
+* [Thinking Fast and Slow with Deep Learning and Tree Search (2017)](thomas-anthony-thinking-fast-and-slow-with-deep-learning-and-tree-search)
 
 ## Tomas Mikolov
 * [Efficient Estimation of Word Representations in Vector Space (2013)](tomas-mikolov-efficient-estimation-of-word-representations-in-vector-space)
