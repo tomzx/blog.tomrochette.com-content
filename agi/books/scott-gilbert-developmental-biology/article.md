@@ -69,13 +69,38 @@ taxonomy:
 * Two major types of cells in the embryo:
 	* Epithelial cells, which are tightly connected to one another in sheets or tubes
 	* Mesenchymal cells, which are unconnected to one another and operate as independent units
-* Morphogenesis is brought about through a limited repertoire of variations in cellular processes within these two types of arragenements
+* Morphogenesis is brought about through a limited repertoire of variations in cellular processes within these two types of arrangements
 	* Direction and number of cell divisions
 	* Cell shape changes
 	* Cell movement
 	* Cell growth
 	* Cell death
 	* Changes in the composition of the cell membrane or secreted products
+
+#### Fate maps
+* Given such a dynamic situation, one of the most important programs of descriptive biology became the tracing of cell lineages: following individual cells to see what those cells become
+
+#### Dye marking
+* Vital dyes stain cells but do not kill them
+* One problem with vital dyes is that as they become more diluted with each cell division, they become difficult to detect
+	* One way around this is to use fluorescent dyes that are so intense that once injected into individual cells, they can still be detected in the progeny of these cells many divisions later
+
+#### Transgenic DNA chimeras
+* In most animals, it is difficult to meld a chimera from two species. One way of circumventing this problem is to transplant cells from a genetically modified organism. In such technique, the genetic modification can then be traced only to those cells that express it
+	* One version is to infect the cells of an embryo with a virus whose genes have been altered such that they express the gene for a fluorescently active protein such as GFP (green fluorescent protein)
+
+### Evolutionary Embryology
+* Darwin argued that adaptations that depart from the "type" and allow an organism to survive in its particular environment develop late in the embryo
+
+#### Embryonic homologies
+* One of the most important distinctions made by evolutionary embryologists was the difference between analogy and homology
+* Both terms refer to the structures that appear to be similar
+* Homologous structures are those organs whose underlying similarity arises from their being derived from a common ancestral structure
+* Analogous structures are those whose similarity comes from their performing similar function rather than their arising from a common ancestor
+
+### Disruptions and teratogens
+* Abnormalities caused by exogenous agents (certain chemicals or viruses, radiation, or hyperthermia) are called disruptions
+* The agents responsible for these disruptions are called teratogens, and the study of how environmental agents disrupt normal development is called teratology
 
 # See also
 
