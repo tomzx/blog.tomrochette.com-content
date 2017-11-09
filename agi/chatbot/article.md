@@ -6,13 +6,20 @@ taxonomy:
   status: in progress
 ---
 
+## Context
+Based on the Turing Test, it seems that one important aspect of having human intelligence is the ability to communicate with humans. As such, one goal might be to produce an agent that is able to hold a meaningful conversation with another human being, making it believe it is actually interacting with another human being.
+
 ## Learned in this study
-* A machine can generate sentences that are grammatically and syntactically correct, but devoided of any semantical sense
+* A machine can generate sentences that are grammatically and syntactically correct, but void of any semantical sense
 
 ## Things to explore
-* How can a machine learn simply from text (no other input sensors/reward feed)
+* How can a machine learn to exchange simply from text (no other input sensors/reward feed)?
 * Attempt to reproduce the internal chatter we all have in our mind
-* How do we tell when the subject of a conversation has changed such that we may forget our current mental context? Is it related to common sense (things being too far apart -> different subject)?
+* How do we tell when the subject of a conversation has changed such that we may forget our current mental context?
+	* Is it related to common sense (things being too far apart -> different subject)?
+* Can a chatbot learn to talk with others without ever having a physical experience?
+
+# Overview
 
 # Objectives
 * Starts and maintains multiple conversation threads (with different people and about different topics)
@@ -29,7 +36,7 @@ taxonomy:
 	* Nothing new is ever said as Markov chains are simply the encoding of the probability a "path sentence" being heard
 	* Generated sentences can however be novel depending on the rules used to construct the Markov chain (for instance, using bigrams/trigrams/n-grams). If we build the Markov chain based on whole sentences, then we fall back to the previous case and nothing new is ever said (every sentence is a repetition of an heard sentence)
 * Teach it valid grammar and vocabulary for a language
-	* Can generate a lot of grammatically valid sentences but devoided of any meaning
+	* Can generate a lot of grammatically valid sentences but void of any meaning
 * Infer/build a grammar/vocabulary based on experience
 	* Limited to what has been seen (which is fine)
 	* Can be taught or can learn incorrect grammar/vocabulary
@@ -48,8 +55,8 @@ graph TD;
 
 # Problems
 * Simply repeating what they've heard
-* Creating grammatically valid sentences devoided of any meaning
-* What is said has no relation to what is being discussed (no context)
+* Creating grammatically valid sentences void of any meaning
+* What is said has no relation to what is being discussed (not considering the context)
 
 # *Things* it needs to be able to do
 * Construct grammatically valid sentences
