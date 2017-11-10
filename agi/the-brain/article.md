@@ -17,6 +17,8 @@ taxonomy:
 * Is the brain architecture such that it adapted to the format of its various sensory inputs or is it generic enough that it will "adapt" to any input format (2x2 grid vs scrambled input)
 	* It can adapt to changes (such as replacing left/right vision) but it might not be flexible enough to deal with too much variability (i.e., the scrambled input case)
 * Is the brain able to process signal in a manner similar to an FFT? Such that images and sounds can be compared in the frequency domain for variations/changes
+* How are the various neural signals able to stay synchronized with one another (such as the signals from the eyes or ears)?
+* What is the likeliest next iteration in our senses? The ability to interact with a computer interface?
 
 # Overview
 
@@ -24,6 +26,17 @@ taxonomy:
 * Many billions of neurons, $86 \times 10^9$ neurons[^2]
 * Approximately $150 \times 10^12$ synapses[^4]
 * The maximum firing rate of a neuron is between 250-1000 Hz (maximum based on the absolute refractory rate, which is about 1 ms), with an average of 0.1-2 Hz[^3].
+	* It takes between 400 and 550 ms to process speech and comprehend it consciously[^6], which means at best 550 neuron layers deep
+		* Sound registered (50-150 ms)
+		* Emotional tone registered (150-200 ms)
+		* Structure of word stream analyzed and meaning of words extracted (250-350 ms)
+		* Meaning consciously comprehended (400-550 ms)
+	* It takes about 350 ms to produce speech[^7]
+		* Concepts to words (-250 ms)
+		* Words to phonology (-200 ms)
+		* Phonology to syllables (-150 ms)
+		* Articulation (-100 ms)
+		* Fine control of articulation (100 ms)
 * A neuron fires around 0.16 times per second[^3]. In other words, 16% of your brain is active at any time (on average). Thus $86 \times 10^9 \times \frac{16}{100} = 1.37 \times 10^{10}$ neurons are firing at any particular second.
 	* The cortex would generate $2.7 \times 10^9$ spikes per second[^5]
 * Small integrative unit that can represent any function
@@ -65,6 +78,8 @@ taxonomy:
 [^3]: http://aiimpacts.org/rate-of-neuron-firing/
 [^4]: https://en.wikipedia.org/wiki/List_of_animals_by_number_of_neurons
 [^5]: http://aiimpacts.org/metabolic-estimates-of-rate-of-cortical-firing/
+[^6]: The human brain book, p148
+[^7]: The human brain book, p149
 
 * https://en.wikipedia.org/wiki/List_of_animals_by_number_of_neurons
 * https://en.wikipedia.org/wiki/Neural_coding
