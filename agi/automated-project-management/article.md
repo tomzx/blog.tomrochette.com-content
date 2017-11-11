@@ -16,16 +16,22 @@ taxonomy:
 * Time tracking
 	* Establish deadlines
 	* Communicate deadlines to the appropriate parties
+	* Verify deadlines can/will be respected
 	* Determine time allocated to a task
 * Progress reporting
 	* Development life cycle
+* Ensure that all features/bugs/tasks are tracked
+* Ensure that tasks are well defined and consumable
 * Performance analysis
 * Accounting
 * Communicate/Synchronize with the clients
+	* Determine changes in requirements
+	* Negotiate timeline/deadlines/budget/features
 * Communicate/Synchronize with external parties/providers
+* Communicate/Synchronize with manager(s)
+* Communicate/Synchronize with employee(s)
 * Obtain answers to questions developers have about the features they are working on
 * Create, update, assign, and link issues for every element of development that needs to be tracked
-* Establish risks
 
 # See also
 
