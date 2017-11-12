@@ -17,6 +17,7 @@ The following lists books that I have read and that I suggest to people that are
 | [Artificial General Intelligence](artificial-general-intelligence) | [Amazon](https://www.amazon.com/Artificial-General-Intelligence-Ben-Goertzel/dp/354023733X) |
 | [Cognitive Science: An Introduction to the Science of the Mind](cognitive-science-an-introduction-to-the-science-of-the-mind) | [Amazon](https://www.amazon.com/Cognitive-Science-Introduction-Mind/dp/1107653355) |
 | [Deep Learning](ian-goodfellow-deep-learning) | [Amazon](https://www.amazon.com/Deep-Learning-Adaptive-Computation-Machine/dp/0262035618) |
+| [Developmental Biology](scott-gilbert-developmental-biology) | [Amazon](https://www.amazon.ca/Developmental-Biology-Scott-F-Gilbert/dp/1605354708) |
 | [Elements of Information Theory](thomas-cover-elements-of-information-theory) | [Amazon](https://www.amazon.com/Elements-Information-Theory-Telecommunications-Processing/dp/0471241954) |
 | [Gödel, Escher, Bach](godel-escher-bach) | [Amazon](https://www.amazon.com/G%C3%B6del-Escher-Bach-Eternal-D-R-Hofstadter/dp/B003UT2E02) |
 | [How to Build a Brain: A Neural Architecture for Biological Cognition](chris-eliasmith-how-to-build-a-brain-a-neural-architecture-for-biological-cognition) | [Amazon](https://www.amazon.com/How-Build-Brain-Architecture-Biological/dp/0190262125) |
@@ -26,6 +27,7 @@ The following lists books that I have read and that I suggest to people that are
 | [On Intelligence](jeff-hawkins-on-intelligence) | [Amazon](https://www.amazon.com/Intelligence-Jeff-Hawkins/dp/0805078533) |
 | [Principles of Computational Modelling in Neuroscience](david-sterratt-principles-of-computational-modelling-in-neuroscience) | [Amazon](https://www.amazon.com/Principles-Computational-Modelling-Neuroscience-Sterratt/dp/0521877954) |
 | [Superintelligence: Paths, Dangers, Strategies (2014)](nick-bostrom-superintelligence-paths-dangers-strategies) | [Amazon](https://www.amazon.com/Superintelligence-Dangers-Strategies-Nick-Bostrom/dp/1501227742) |
+| [The Allure of Machinic Life: Cybernetics, Artificial Life, and the New AI](john-johnston-the-allure-of-machinic-life-cybernetics-artificial-life-and-the-new-ai) | [Amazon](https://www.amazon.ca/Allure-Machinic-Life-Cybernetics-Artificial/dp/0262515024) |
 | The Annotated Turing | [Amazon](https://www.amazon.com/Annotated-Turing-Through-Historic-Computability/dp/0470229055) |
 | [The Computer and the Brain](the-computer-and-the-brain) | [Amazon](https://www.amazon.com/Computer-Silliman-Memorial-Lectures-Series/dp/0300181116) |
 | [The Essential Turing](the-essential-turing) | [Amazon](https://www.amazon.com/Essential-Turing-Philosophy-Artificial-Intelligence/dp/0198250800) |
