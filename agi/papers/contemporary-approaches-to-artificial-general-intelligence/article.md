@@ -14,6 +14,7 @@ taxonomy:
 
 # Overview
 
+# Notes
 ## 1.1 Some Historical AGI-Related Projects
 * AI may be divided in broad categories:
 	* symbolic
@@ -63,7 +64,7 @@ taxonomy:
 	* A real-time system: Tasks can arrive at anytime and are attached to deadlines
 	* An amplitive system: Can retrieve available knowledge and derive sound conclusions from it, but also make refutable hypotheses and guesses based on it when no certain conclusion can be drawn
 	* An open system: No restriction is imposed on the relationship between old and new knowledge
-	* A self-organized system: Can accomodate itself to new knowledge and adjust its memory structure and mechanism to improve its time and space efficiency, under the assumption that future situations will be similar to past situations
+	* A self-organized system: Can accommodate itself to new knowledge and adjust its memory structure and mechanism to improve its time and space efficiency, under the assumption that future situations will be similar to past situations
 * Efficient intelligence is the ability to achieve intelligence using severely limited resources
 
 ## 3 The Abstract Theory of General Intelligence
@@ -96,13 +97,13 @@ taxonomy:
 * An important distinction is whether a system gains its knowledge experientially or via being given expert rule type propositions
 
 ## 5 Emulating the Human Brain
-* Two key computational properties of neural structures (see [wikipedia](https://en.wikipedia.org/wiki/Stephen_Grossberg#New_computational_paradigms)):
+* Two key computational properties of neural structures (see [Wikipedia](https://en.wikipedia.org/wiki/Stephen_Grossberg#New_computational_paradigms)):
 	* Complementary computing: Allows different processing streams in the brain to compute complimentary properties.
 	* Laminar computing: The organization of the cerebral cortex in layers, with interactions going bottom-up, top-down, and sideways. Contributes to learning, development and attention control.
 
 ## 6 Emulating the Human Mind
 * There is more focus on emulating the mind than there is to emulate the brain
-* Yudkowsky's deliberative general intelligence (DGI), cposed of 5 levels of functional organization
+* Yudkowsky's deliberative general intelligence (DGI), composed of 5 levels of functional organization
 	* Code: The underlying source code of the AI system.
 	* Sensory modalities: The five senses (smell, sight, sound, touch, taste). Information processing and feature extraction.
 	* Concepts: Categories or symbols abstracted from a system's experience. Recognition and reification of similarity within a group of experiences.
@@ -116,4 +117,5 @@ taxonomy:
 # See also
 
 # References
+* Pennachin, Cassio, and Ben Goertzel. "Contemporary approaches to artificial general intelligence." Artificial general intelligence. Springer Berlin Heidelberg, 2007. 1-30.
 * DOI: [10.1007/978-3-540-68677-4_1](https://dx.doi.org/10.1007/978-3-540-68677-4_1)
