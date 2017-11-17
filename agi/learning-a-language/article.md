@@ -26,6 +26,39 @@ taxonomy:
 * Objects in the home
 * Pronouns
 * Verbs
+* By topics
+* By word frequency
+
+# Topics
+* Pronouns
+* Verbs
+* Question words
+* Adjectives
+* Numbers
+* Time
+* Days of week
+* Months
+* Home
+* Clothing
+* Body
+* Color
+* Nouns
+* Location
+* People/Relationship
+* Food
+* Beverage
+* Directions
+* Transportation
+* Animals
+* Job
+* Countries
+* Electronics
+* Nature
+* Materials
+* Math/measurements
+* Seasons
+* Society
+* Art
 
 # Parallels to learning a new programming language
 * Recognize similar structures
@@ -82,7 +115,6 @@ taxonomy:
 * Learn the grammar and abstract words of your language (2-3 months)
 * The language game (3 months +)
 	* Learn the top 1000 words, then specialize in the words that are useful to you
-
 Source: https://tim.blog/2014/07/16/how-to-learn-any-language-in-record-time-and-never-forget-it/
 
 # Speaking Japanese Fluently in 6 Months
@@ -105,6 +137,7 @@ Source: https://www.youtube.com/watch?v=_IOZbJ7PCPk
 * At some point, you start to want to generate sentences in the target language, but you notice that you do not know some of the words you'd like to say, which prompts you to look them up
 * Spaced repetition is the best way to track your progress as well as to make you recall words
 * When generating sentences, stay within the limits of the vocabulary you know. When you discover words you don't know, write them down so that you can add them to your spaced repetition software (always favor tracked memorization over ad-hoc learning)
+* It's possible to infer words simply from intention/context (for instance, someone shopping for a hat may ask for a mirror)
 
 # Things to do
 * Speak to yourself in the target language
@@ -127,6 +160,7 @@ Source: https://www.youtube.com/watch?v=_IOZbJ7PCPk
 * https://www.youtube.com/watch?v=d0yGdNEWdn0
 * https://www.tefl.net/elt/articles/teacher-technique/7-tricks-to-help-remember-new-words/
 * https://en.wikipedia.org/wiki/Common_European_Framework_of_Reference_for_Languages#Common_reference_levels
+* https://www.fluentin3months.com/hours-to-learn-a-language/
 
 ## Exchange websites
 * https://www.conversationexchange.com/
