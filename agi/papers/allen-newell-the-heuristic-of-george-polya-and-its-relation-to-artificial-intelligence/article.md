@@ -1,5 +1,5 @@
 ---
-title: Allen Newell - The heuristic of George Polya and its relation to artificial intelligence (1981)
+title: Allen Newell - The heuristic of George Pólya and its relation to artificial intelligence (1981)
 created: 2016-06-15
 taxonomy:
   category: [Artificial General Intelligence]
@@ -13,8 +13,7 @@ taxonomy:
 ## Things to explore
 
 # Overview
-
-* Polya 6 volumes work
+* Pólya 6 volumes work
 	1. How to Solve It
 	2. Mathematics and Plausible Reasoning (2 volumes)
 	3. Induction and Analogy in Mathematics
@@ -22,9 +21,7 @@ taxonomy:
 	5. Mathematical Discovery (2 volumes)
 
 # Notes
-
-## 2 Polya's Heuristic
-
+## 2 Pólya's Heuristic
 * A set of heuristics for problem-solving, cast in the form of brief questions (What is the unknown?) and commands (Draw a figure!), within a frame of four problem solving stages:
 	* Understand the problem
 	* Obtain a plan
@@ -36,7 +33,7 @@ taxonomy:
 * AI declares thereby for a general theory of problem solving, applicable to humans, computers, animals or Martians
 * Differences exist between different types of problem solvers
 * These differences arise from specific features in the architecture - different tradeoffs in speed, memory and accessing, which induce different styles of problem solving, different choices of methods, etc.
-* 3 characteristics that loom largest in Polya's treatment
+* 3 characteristics that loom largest in Pólya's treatment
 	* Attention must be focused: Problem solving happens when the human attends to various aspects of a problem
 	* Memory must be tickled: Contact must be made with what the problem solver already knows
 	* Problem solvers must be motivated
@@ -68,7 +65,7 @@ taxonomy:
 
 ## 2.6 Heuristics
 * Heuristics are rules of thumb and bits of knowledge, useful (though not guaranteed) for making various selections and evaluations
-* A few examples of separate heuristics that do occur in Polya's work:
+* A few examples of separate heuristics that do occur in Pólya's work:
 	* Work in letters not numbers
 	* Treat symmetric elements symmetrically
 	* If you can't construct a figure, construct one geometrically similar
@@ -77,7 +74,7 @@ taxonomy:
 	* Two proofs are better than one
 	* Good problems, like mushrooms, grow in clusters
 	* Do not believe anything, but doubt only what is worth doubting
-	* Teachers should ask questions that are simple, general, unobstrusive and from a short list
+	* Teachers should ask questions that are simple, general, unobtrusive and from a short list
 	* An idea which can be used only once is a trick. If one can use it more than once it becomes a method
 
 ## 3.5 Thesis: Future Orientation is still Beyond AI
@@ -98,7 +95,7 @@ taxonomy:
 * A great communality exists in these problem spaces: They are all object-centered
 
 ## 4.2 Finding an Auxiliary Problem
-* Polya's view is clearly that auxiliary problems are to be found in the problem solver's prior experience, i.e., in his long term memory
+* Pólya's view is clearly that auxiliary problems are to be found in the problem solver's prior experience, i.e., in his long term memory
 
 ## 4.3.1 The independence of using from finding
 * Thesis (second reformulation): AI cannot handle auxiliary problems, because AI does not yet know how to handle wild subproblems
