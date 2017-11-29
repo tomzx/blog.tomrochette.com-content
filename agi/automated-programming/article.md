@@ -7,13 +7,13 @@ taxonomy:
 ---
 
 ## Context
-Automated programming has been a goal for computer scientists since the inception of the field. Being able to generate code either by providing examples of inputs/outputs or a specification description is not without its share of difficulties. In this article, we explore the process of programming, with the objective of discovering what can be automated and how, and what causes serious difficulties.
+Automated programming has been a goal for computer scientists since the inception of the field. Being able to generate code either by providing examples of inputs/outputs or a specification description is not without its share of difficulties. In this article, we explore the process of programming, with the objective of discovering what can be automated and how, and what causes serious challenges.
 
 ## Learned in this study
 * Communication is difficult
 * Understanding is difficult
 * A part of the job of the programmer is to construct a model of the software of the client so that it can understand how a requirement/change fits into this model
-* A programmer needs to know how many systems works: the programming language, the file system, the database
+* A programmer needs to know how many systems works: the programming language, third-party libraries, the file system, the database, the network, external APIs
 
 ## Things to explore
 * How to avoid the program synthesizer from building a simple lookup table?
@@ -35,8 +35,11 @@ Automated programming has been a goal for computer scientists since the inceptio
 	* Can we use tools from NN-NLP to build programs?
 * Use an ontology of algorithm to determine which ones should be used within a function
 	* Use the vocabulary associated with each type of algorithm to identify actions (sort the items by ..., group the items by ..., find the shortest path between ...)
+* Any program is going to be composed of (at most) loops, conditions, expressions and statements
 
 # Overview
+We can think of automated programming as the ability to convert some form of specification which uses vague terms into an extremely specific, programming language constrained, description of the specification. This requires a lot of prior experience in order to understand the purpose and intent of each and every requirement. In other words, part of the task of automated programming is the ability to translate, given experience and context, a set of requirements (a specification) into a program.
+
 * The programmer provides preconditions and postconditions
 * The programmer provides input parameters and output with types
 * The programmer provides a set of examples (inputs and outputs) for the automatic function synthesis to work through
@@ -256,7 +259,7 @@ By observing the properties that can vary in the most common data structure, it 
 	* One to check if the transformation has in fact been accomplished
 * If the programming assistant can aid expert programmers in demonstrating that two rather different implementations produce equivalent behavior, then we can be much more confident that the system will behave in a useful way
 
-# Automated Programming Seen as a Reinforcement Learning Problem
+# Automated programming seen as a reinforcement learning problem
 * The actions are to select which functions to call and which arguments to give these functions
 	* More generally, the actions are to determine which grammatical construct to use
 * The states are the different programs (complete/working or partial/non-working)
@@ -268,6 +271,12 @@ By observing the properties that can vary in the most common data structure, it 
 		* Based on RL, any of the states which are used to get from the initial state to an end of epoch state would have their value policy updated accordingly
 * To simplify the search space, we assume that a program is constructed sequentially, which lets us avoid all the partial programs where we start by defining all the functions that will be called without defining their arguments
 	* It would however be valuable to determine if this space could help reaching a solution faster/more efficiently
+
+# Function rewriting/optimization
+* Given a single function entry point
+	* Find all function calls recursively
+	* Merge all low level logic (no function call) into a single function
+	* Restructure the code
 
 # See also
 * [Automated refactoring](../automated-refactoring)
