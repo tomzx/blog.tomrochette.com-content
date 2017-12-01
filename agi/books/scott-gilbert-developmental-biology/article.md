@@ -11,6 +11,7 @@ taxonomy:
 ## Learned in this study
 
 ## Things to explore
+* The reason that cells do different things with the DNA is that they are similar to the disk and disk player of Godel, Escher, Bach, in the sense that the cell is itself a program that can consume the DNA (data), but is only interested in specific parts of it
 
 # Overview
 
@@ -101,6 +102,34 @@ taxonomy:
 ### Disruptions and teratogens
 * Abnormalities caused by exogenous agents (certain chemicals or viruses, radiation, or hyperthermia) are called disruptions
 * The agents responsible for these disruptions are called teratogens, and the study of how environmental agents disrupt normal development is called teratology
+
+## Chapter 2 - Developmental Genetics
+* How can nuclear genes direct development when these genes are the same in every cell type?
+* Three postulates of differential gene expression
+	* Every cell nucleus contains the complete genome established in the fertilized egg. In molecular term, the DNAs of all differentiated cells are identical
+	* The unused genes in differentiated cells are neither destroyed nor mutated, but retain the potential for being expressed
+	* Only a small percentage of the genome is expressed in each cell, and a portion of the RNA synthesized in each cell is specific for that cell type
+* Gene expression can be regulated at several levels such that different cell types synthesize different sets of proteins
+	* Differential gene transcription
+	* Selective nuclear RNA processing
+	* Selective messenger RNA translation
+	* Differential protein modification
+
+### Differential Gene Transcription
+* One of the fundamental differences distinguishing most eukaryotic genes from prokaryotic genes is that eukaryotic genes are contained within a complex of DNA and protein called chromatin
+* The nucleosome is the basic unit of chromatin structure
+	* It is composed of an octamer of histone proteins
+
+#### Anatomy of the gene: Active and repressed chromatin
+* It is generally thought that the "default" condition of chromatin is a repressed state, and that tissue-specific genes become activated by local interruption of this repression
+* The histones are critical because they are responsible for maintaining the repression of gene expression
+* Repression and activation are controlled to a large extent by modifying the tails of histones H3 and H4 with two small organic groups: methyl and acetyl residues
+
+#### Anatomy of the gene: Exons and introns
+* The second difference between prokaryotic and eukaryotic genes is that eukaryotic genes are not co-linear with their peptide products. Rather, the single nucleic acid strand of eukaryotic mRNA comes from noncontiguous regions on the chromosome
+
+#### Anatomy of the gene: Promoters and enhancers
+* Promoters are the sites where RNA polymerase binds to the DNA to initiate transcription
 
 # See also
 
