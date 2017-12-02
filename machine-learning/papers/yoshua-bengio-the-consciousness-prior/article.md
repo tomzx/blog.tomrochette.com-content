@@ -49,3 +49,4 @@ $$
 # See also
 
 # References
+* Bengio, Yoshua. "The Consciousness Prior." arXiv preprint arXiv:1709.08568 (2017).
