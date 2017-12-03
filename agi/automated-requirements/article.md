@@ -96,6 +96,23 @@ The system \<MUST> \<export>
 ## Alternative
 As \<who> \<when> \<where>, I \<what> because \<why>
 
+## Gherkin
+```
+ 1: Feature: Some terse yet descriptive text of what is desired
+ 2:   Textual description of the business value of this feature
+ 3:   Business rules that govern the scope of the feature
+ 4:   Any additional information that will make the feature easier to understand
+ 5:
+ 6:   Scenario: Some determinable business situation
+ 7:     Given some precondition
+ 8:       And some other precondition
+ 9:     When some action by the actor
+10:       And some other action
+11:       And yet another action
+12:     Then some testable outcome is achieved
+13:       And something else we can check happens too
+```
+
 ---
 
 Desired Future state
@@ -159,3 +176,4 @@ Source: http://blog.learningtree.com/the-right-questions-to-ask-in-requirements-
 * https://openai.com/requests-for-research/#description2code
 * https://github.com/Avmb/code-docstring-corpus
 * https://en.wikipedia.org/wiki/User_story
+* https://dev.to/tra/will-programming-be-automated-a-slack-chat
