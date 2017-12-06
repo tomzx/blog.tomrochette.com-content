@@ -34,6 +34,7 @@ The following lists papers I've read and reviewed or made notes for.
 * [Model Compression (2006)](cristian-bucila-model-compression)
 
 ## David Silver
+* [Mastering Chess and Shogi by Self-Play with a General Reinforcement Learning Algorithm (2017)](david-silver-mastering-chess-and-shogi-by-self-play-with-a-general-reinforcement-learning-algorithm)
 * [Mastering the Game of Go with Deep Neural Networks and Tree Search (2016)](david-silver-mastering-the-game-of-go-with-deep-neural-networks-and-tree-search)
 * [Mastering the game of Go without human knowledge (2017)](david-silver-mastering-the-game-of-go-without-human-knowledge)
 * [The Predictron: End-To-End Learning and Planning (2017)](david-silver-the-predictron-end-to-end-learning-and-planning)
@@ -117,6 +118,9 @@ The following lists papers I've read and reviewed or made notes for.
 ## Volodymyr Mnih
 * [Human-level control through deep reinforcement learning (2015)](volodymyr-mnih-human-level-control-through-deep-reinforcement-learning)
 * [Playing Atari with Deep Reinforcement Learning (2013)](volodymr-mnih-playing-atari-with-deep-reinforcement-learning)
+
+## Wei Ping
+* [Deep Voice 3: 2000-Speaker Neural Text-to-Speech (2017)](wei-ping-deep-voice-3-2000-speaker-neural-text-to-speech)
 
 ## Yoshua Bengio
 * [Curriculum Learning (2009)](yoshua-bengio-curriculum-learning)
