@@ -1,15 +1,12 @@
-/*
- title: Simulateur de métro
- Author: tomzx
- Template: page
- Permalink: /portfolio/simulateur-de-metro/
-*/
+---
+title: Simulateur de métro
+---
+
 **Description**  
 Le simulateur de métro est un système faisant la gestion des trains d'un métro fictif. Il est composé de 3 composantes distinctes communiquant entre elles: Un contrôleur principal, des mini-contrôleurs et des trains. Le contrôleur gère l'ensemble des mini-contrôleurs, alors que chaque mini-contrôleur se charge des trains sur sa voie. Conséquemment, les trains ne se chargent de personne, ils ne font que recevoir des messages d'un des mini-contrôleurs, leur supérieur direct.  
 La simulation doit gérer le déplacement de l'ensemble des trains afin qu'il n'y ait pas de problèmes (collisions). De plus, on simule des pannes qui ont pour objectif d'arrêter les trains sur une voie spécifique (gérée par un mini-contrôleur).
 
 **Snippet**
-
 <pre><code class="language-cpp line-numbers">void gererInterruption(int sig)
 {
 	int status;

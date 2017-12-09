@@ -1,9 +1,7 @@
-/*
- title: Émulateur de Game Boy
- Author: tomzx
- Template: page
- Permalink: /portfolio/emulateur-de-game-boy/
-*/
+---
+title: Émulateur de Game Boy
+---
+
 **Description**  
 Cet émulateur réplique la majorité des instructions du [Game Boy][1] de première génération. De plus, un ensemble de fonctionnalités ont été ajoutées afin de permettre à un développeur de débugger certaines parties de son jeu s'il désirait le tester sur son ordinateur.
 

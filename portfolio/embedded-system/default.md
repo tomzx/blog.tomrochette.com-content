@@ -1,9 +1,7 @@
-/*
- title: Embedded system
- Author: tomzx
- Template: page
- Permalink: /portfolio/embedded-system/
-*/
+---
+title: Embedded system
+---
+
 **Description**  
 The goal of this embedded system, which was mounted on a 2 wheels, 2 ball-bearing base, was to accomplish a series of tasks. More specifically:
 
@@ -27,7 +25,6 @@ This robot was using the following sensors/outputs to accomplish those tasks:
 </u>
 
 **Snippet**
-
 <pre><code class="language-cpp line-numbers">/*!
  * \brief La classe principale qui se charge des différents périphériques.
  */

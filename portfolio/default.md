@@ -1,9 +1,6 @@
-/*
- title: Portfolio
- Author: tomzx
- Template: page
- Permalink: /portfolio/
-*/
+---
+title: Portfolio
+---
 Cette page présente une partie des programmes sur lesquels j'ai travaillé au cours des années. On y retrouve une variété de langages tel que C, C++, PHP, MySQL, Ruby, Python, Perl, etc.
 
 Cette liste n'est bien sûr pas exhaustive, mais a pour but d'être employé comme référence pour tout employeur désirant évaluer rapidement mes connaissances dans le domaine de la programmation.
@@ -38,4 +35,4 @@ Cette liste n'est bien sûr pas exhaustive, mais a pour but d'être employé com
  [3]: apache-loggersplitter
  [4]: apache-hit-tracker
  [5]: emulateur-de-game-boy
- [6]: gestionnaire-d’espace-web-pour-hebergeur
+ [6]: gestionnaire-d-espace-web-pour-hebergeur
