@@ -66,6 +66,15 @@ The following lists papers I've read and reviewed or made notes for.
 ## Geoffrey Hinton
 * [Distilling the Knowledge in a Neural Network (2015)](geoffrey-hinton-distilling-the-knowledge-in-a-neural-network)
 
+## Greg Linden
+* [Amazon.com Recommendations - Item-to-Item Collaborative Filtering (2003)](greg-linden-amazon-com-recommendations-item-to-item-collaborative-filtering)
+
+## Leo Breiman
+* [Bagging Predictors (1996)](leo-breiman-bagging-predictors)
+
+## Levente Kocsis
+* [Bandit based Monte-Carlo Planning (2006)](levente-kocsis-bandit-based-monte-carlo-planning)
+
 ## Łukasz Kaiser
 * [One Model To Learn Them All (2017)](lukasz-kaiser-one-model-to-learn-them-all)
 
@@ -102,6 +111,9 @@ The following lists papers I've read and reviewed or made notes for.
 ## Ralf Herbrich
 * [Learning and Generalization: Theoretical Bounds (2001)](ralf-herbrich-learning-and-generalization-theoretical-bounds)
 
+## Ronen Brafman
+* [R-max – A General Polynomial Time Algorithm for Near-Optimal Reinforcement Learning (2002)](ronen-brafman-r-max-a-general-polynomial-time-algorithm-for-near-optimal-reinforcement-learning)
+
 ## Sercan Arik
 * [Deep Voice: Real-time Neural Text-to-Speech (2017)](sercan-arik-deep-voice-real-time-neural-text-to-speech)
 * [Deep Voice 2: Multi-Speaker Neural Text-to-Speech (2017)](sercan-arik-deep-voice-2-multi-speaker-neural-text-to-speech)
@@ -128,3 +140,4 @@ The following lists papers I've read and reviewed or made notes for.
 
 ## Yuxuan Wang
 * [Tacotron: Towards End-to-End Speech Synthesis (2017)](yuxuan-wang-tacotron-towards-end-to-end-speech-synthesis)
+
