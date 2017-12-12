@@ -442,3 +442,18 @@ John Johnston
 
 ### Developmental Biology (2017-10 - ?)
 Scott Gilbert
+
+### Rainbow: Combining Improvements in Deep Reinforcement Learning (2017-11)
+Matteo Hessel, Joseph Modayil, Hado van Hasselt, Tom Schaul, Georg Ostrovski, Will Dabney, Daniel Horgan, Bilal Piot, Mohammad Gheshlaghi Azar, David Silver
+
+### Reverse Curriculum Generation for Reinforcement Learning (2017-11)
+Carlos Florensa, David Held, Markus Wulfmeier, Pieter Abbeel
+
+### The Consciousness Prior (2017-12)
+Yoshua Bengio
+
+### Deep Voice 3: 2000-Speaker Neural Text-to-Speech (2017-12)
+Wei Ping, Kainan Peng, Andrew Gibiansky, Sercan Ömer Arik, Ajay Kannan, Sharan Narang, Jonathan Raiman, John Miller
+
+### Mastering Chess and Shogi by Self-Play with a General Reinforcement Learning Algorithm (2017-12)
+David Silver, Thomas Hubert, Julian Schrittwieser, Ioannis Antonoglou, Matthew Lai, Arthur Guez, Marc Lanctot, Laurent Sifre, Dharshan Kumaran, Thore Graepel, Timothy Lillicrap, Karen Simonyan, Demis Hassabis
