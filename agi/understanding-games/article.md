@@ -30,7 +30,44 @@ Games most likeliest neural network architectures would be CNN for vision of the
 In most games the human player will have to develop a strategy. In order to do so, he will have to understand the mechanics of the game (formulate a model).
 
 # Real Time Strategy
-<tbc></tbc>
+Real time strategy (RTS) games requires the player to make numerous decisions per minutes. In most cases, the player is in control of numerous units which they may control directly. In most cases, once a command has been given to a unit, the game takes over and accomplish a number of things, such as path finding, fog of war updating, assigning which units to attack or which patch of resources to mine and where to return the mined resources, etc.
+
+RTS games are generally discussed at two levels: macro and micro. Macromanagement is generally about high-level decisions such as strategy and tactic, while micromanagement is about minute control of each unit on the field. A good player will excel in both types of management.
+
+In a 1v1 scenario, each player's goal is to acquire as much information as possible about their adversary in order to make the most informed decisions: when it's safe to gather resources, when an attack is coming, what kind of units the enemy player is acquiring, etc. In most games, units types have strengths and weaknesses, so it is crucial to understand and harness those when making decisions. Selecting the wrong type of units to counter an incoming attack could result in the loss of a game for the player making this mistake.
+
+Information acquisition is critical if a player wants to be proactive in his approach to the game. Being reactive will generally lead to poor results compared to a proactive approach.
+
+## What's important
+* Acquiring resources
+* Know what the enemy is doing
+* Counter what the enemy is doing
+* Using the enemy weaknesses against him
+* Attacking/Targeting the right enemy units (priority, weakness)
+
+## Things an AGI needs to do
+* Select units
+* Decide what order to give
+    * Gathering
+    * Moving
+    * Attacking
+    * Stopping
+    * Building
+* Issue orders
+    * Define location
+* Move the camera
+* Compute and evaluate its current state
+* Determine available actions (given the UI)
+
+## Data structures
+* List of units and buildings
+* Image/Matrix representation of the location of buildings
+* Regions of interest
+    * Resources
+    * Base location
+    * Buildings locations
+    * Enemy location
+    * Armies locations
 
 # First Person Shooter
 <tbc></tbc>
