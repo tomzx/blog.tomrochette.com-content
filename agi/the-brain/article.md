@@ -37,37 +37,48 @@ taxonomy:
 		* Phonology to syllables (-150 ms)
 		* Articulation (-100 ms)
 		* Fine control of articulation (100 ms)
-* A neuron fires around 0.16 times per second[^3]. In other words, 16% of your brain is active at any time (on average). Thus $86 \times 10^9 \times \frac{16}{100} = 1.37 \times 10^{10}$ neurons are firing at any particular second.
+* A neuron fires around 0.16 times per second[^3]. In other words, 16% of your brain is active at any time (on average). Thus $8.6 \times 10^{10} \times \frac{16}{100} = 1.37 \times 10^{10}$ neurons are firing at any particular second.
 	* The cortex would generate $2.7 \times 10^9$ spikes per second[^5]
 * Small integrative unit that can represent any function
 * Synchronous activation increases the propensity of neurons to fire again together
 * 6 layers of different neurons types within the cortex
-* Numerous Brodmann regions with apparently some specialized functions (occipital lobe: vision; temporal lobe: auditory stimuli processing, memory, speech; parietal lobe: movement, orientation, recognition, perception of stimuli; frontal lobe: reasoning, planning, parts of speech, movement, emotions, and problem solving)
+* Numerous Brodmann regions with apparently some specialized functions
+	* occipital lobe: vision
+	* temporal lobe: auditory stimuli processing, memory, speech
+	* parietal lobe: movement, orientation, recognition, perception of stimuli
+	* frontal lobe: reasoning, planning, parts of speech, movement, emotions, and problem solving
 * The capability for the brain to adapt from certain parts being damaged or removed
 * Some damage cannot be recovered
 * Some of the brain architecture is incomplete at birth and will complete during the early years of development (which may last up to 10 years for humans)
 * The selectivity of overdeveloped neurites is converted into a choice in the same way observing an electron collapses the wave function
 
 # Replicating the brain[^1]
-* The human brain contains approximately $10^11$ neurons and $10^15$ synapses
-* An equivalent artificial neural network would require about $10^15$ bytes of memory and $10^17$ operations per second
+* The human brain contains approximately $10^{11}$ neurons and $10^{15}$ synapses
+* An equivalent artificial neural network would require about $10^{15}$ bytes of memory and $10^{17}$ operations per second
 * We learn at a rate of 2 bits per second and have a long term memory capacity of $10^9$ bits
 * We communicate information at the same rate, 2 bits per second
 
 # As a neural network
-* If all neurons were linked to one another as a binary tree (1 parent, 2 children), then the depth of the tree would be approximately 34-35 neurons
+* If all neurons are linked to one another as a binary tree (1 parent, 2 children), then the depth of the tree would be approximately 34-35 neurons
 
 # Good/Average/Bad
 ## Good
 * Association
+* Recognition
 
 ## Average
 * Computing small mathematical operations
 
 ## Bad
-* Computing complex numbers
+* Computing complex/large numbers
 * Rapid and precise computation
 * Repetitive computation
+
+# Unsorted
+* Brain construction
+	* Sequential, produces the 6 layers that are part of the cortex
+	* Appears to imply that the construction process follows a specific construction schedule/plan/program
+	* Neurons are created, then located, then converted to a given type, then associated with neighboring cells
 
 # See also
 * [Senses](../senses)
