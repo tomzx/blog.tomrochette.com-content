@@ -7,6 +7,7 @@ taxonomy:
 ---
 
 ## Context
+As human beings with shifting goals and priorities, the list of task we need to accomplish appears to always be growing. Given no explicit strategy to deal with these tasks, one may jump from one task to another without really making any apparent progress toward any one goal. The purpose of this article is to think about what it means to manage tasks and how should one deal with such problem (which tasks to complete and in what order) in order to be as effective as possible.
 
 ## Learned in this study
 
@@ -15,10 +16,12 @@ taxonomy:
 * Should a decay function be applied to the metric used to order tasks? It is not useful if all tasks decay linearly (as the order will be preserved)
 
 # Overview
+Define goals
 List tasks
 Associate tasks with other tasks and tasks hierarchies
-Assign a priority
-A task may be related to the accomplishment of many tasks
+* Define dependencies/orders of execution
+* A task may be related to the accomplishment of many tasks
+Assign a priority to each task
 Each time a task is executed, evaluate the value of the task in regard to some global evaluation function
 * Pleasure
 * Drain
@@ -31,7 +34,7 @@ Each time a task is executed, evaluate the value of the task in regard to some g
 * Expected timespan before the next reward
 * Expected duration
 * Required effort
-A metric should provide guidance as to whether or not continue to do this task in the future
+A metric should provide guidance as to whether or not one should continue to do this task in the future
 A metric should provide guidance as to which task should be accomplished next
 
 Tasks grouped/tagged by action
@@ -80,7 +83,7 @@ Prioritization methods
 * Consensus
 * Average with some statistical measure (standard deviation)
 * Prioritization threshold (only the top x priorities defined, each item compared to the bottom of the stack)
-* Push by x in the task, then progressively more as the task doesn't get executed
+* Delay by a given duration, stored in the task, then progressively more whenever the task doesn't get executed
 
 Task properties
 * Name
@@ -88,12 +91,13 @@ Task properties
 * Start/End date
 * Contexts
 * Tags
-* Deadline
+* Deadline (soft/hard)
 * Dependencies (tasks/people/context/resources)
 * Estimated effort
-* State(active/completed/cancelled)
+* State (active/completed/cancelled)
 * Start/End time of execution period
 * Evaluation of the execution period (score/would redo/not do)
+* Previous execution periods
 * Notes
 
 Operations
@@ -101,6 +105,12 @@ Operations
 * Delay
 * Kill
 * Split
+
+Main loop
+* Get a task from the task priority queue
+* Execute the task for the specified quantum
+* Evaluate the progress of the task
+* Evaluate the quality of the work that was done during the quantum
 
 # See also
 
