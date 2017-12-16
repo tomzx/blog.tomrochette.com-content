@@ -27,4 +27,4 @@ When I started learning about AGI, I decided I would explore various venues and 
 Along the road, AGI research has challenged many of my beliefs as well as how I see life. For those two reasons alone, I'm grateful I have been able to dedicate some of my time on it.
 
 # See Also
-* [My path to AGI](agi/my-path-to-agi)
+* [My path to AGI](../agi/my-path-to-agi)
