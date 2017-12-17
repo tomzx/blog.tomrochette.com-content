@@ -46,6 +46,25 @@ Let an ultraintelligent machine be defined as a machine that can far surpass all
 * Let's define life very broadly, simply as a process that can retain its complexity and replicate
 	* What's replicated isn't matter but information
 * We can think of life as a self-replicating information-processing system whose information (software) determines both its behavior and the blueprints for its hardware
+* The three stages of life:
+	* biological evolution: evolves its hardware and software
+	* cultural evolution: evolves its hardware, designs much of its software
+	* technological evolution: designs its hardware and software
+* The fact that most of our human software is added after birth (through learning) is useful, since our ultimate intelligence isn't limited by how much information can be transmitted to us at conception via our DNA
+* The synaptic connections that link the neurons in my brain can store about a hundred thousand times more information than the DNA that I was born with
+* Your synapses store all your knowledge and skills as roughly 100 terabytes' worth of information, while your DNA stores merely about a gigabyte, barely enough to store a single movie download
+
+### Controversies
+* Three distinct schools of thought
+	* Digital utopians
+	* Techno-skeptics
+	* Members of the beneficial-AI movement
+* Most controversies surroundinig strong artificial intelligence (that can match humans on any cognitive task) center around two questions:
+	* When (if ever) will it happen?
+	* Will it be a good thing for humanity?
+
+### Misconceptions
+* The real worry isn't malevolence, but competence. A superintelligent AI is by definition very good at attaining its goals, whatever they may be, so we need to ensure that its goals are aligned with ours
 
 # See also
 
