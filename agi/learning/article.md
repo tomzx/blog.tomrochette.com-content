@@ -22,7 +22,7 @@ taxonomy:
 		* If one "is" the universe, yes
 * How can one discover the most appropriate order in which to learn unknown and new knowledge?
 	* Learn from others
-	* Randomly sample
+	* Randomly sample (trial and error)
 * How do we learn to differentiate background noise from what we are actively trying to listen to?
 * At what level of abstraction should we be thinking about learning?
 * Is it more worthwhile to know a lot of skills at the 80% mark or master a few at the 90%+ mark, considering that to get from 80% to 90% requires a major time investment compared to 0 to 80%?
@@ -56,6 +56,9 @@ Learning is lossy encoding (similar to lossy compression).
 	* Minimize mistakes
 * Increase retention and recall rates
 * Spend as little time as possible refreshing/preserving old memories
+
+# Parameters
+* Curriculum
 
 # Learning rate
 In the machine learning world, the more examples you have, the better your algorithm becomes at properly predicting the outcome based on its training data. We correlate this improvement in prediction skills with saying that the machine appears to be "more intelligent". If we were to make a parallel with human learning, would it be appropriate to extrapolate that in order to become more intelligent, one has to learn more examples? Is intelligence the accumulation of examples with the purpose of building a general association-trigger system (you see something that looks like an example of something you've seen in the past and it triggers related memories)? According to Pólya's *How to Solve It*[^1] method for solving mathematical problems, one of the important steps to problem resolution is the ability to relate a current problem to previously exposed problems that may help us to solve the problem at hand.
@@ -143,6 +146,17 @@ Source: https://en.Wikipedia.org/wiki/Instructional_theory
 * Integration - Students learn more when they are encouraged to integrate their knowledge into their life through reflection, discussion, debate, and/or presentation of new knowledge
 
 Source: https://en.Wikipedia.org/wiki/First_Principles_of_Instruction
+
+# Andragogy
+* Adults must want to learn
+* Adults will learn only what they feel they need to learn
+* Adults learn by doing
+* Adults learning focuses on problem solving
+* Experience affects adult learning
+* Adults learn best in an informal situation
+* Adults want guidance and consideration as equal partners in the process
+
+Source: https://en.wikipedia.org/wiki/Andragogy
 
 # Unsorted
 * Learning to talk is not necessarily about associating visual cues with auditory cues as apparently babies born blind can still learn to speak and listen
