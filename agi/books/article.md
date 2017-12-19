@@ -22,6 +22,7 @@ The following lists books that I have read and that I suggest to people that are
 | [Gödel, Escher, Bach](godel-escher-bach) | [Amazon](https://www.amazon.com/G%C3%B6del-Escher-Bach-Eternal-D-R-Hofstadter/dp/B003UT2E02) |
 | [How to Build a Brain: A Neural Architecture for Biological Cognition](chris-eliasmith-how-to-build-a-brain-a-neural-architecture-for-biological-cognition) | [Amazon](https://www.amazon.com/How-Build-Brain-Architecture-Biological/dp/0190262125) |
 | [Introduction to Automata Theory, Languages, and Computation](introduction-to-automata-theory-languages-and-computation) | [Amazon](https://www.amazon.com/Introduction-Automata-Theory-Languages-Computation/dp/0321455363) |
+|  [Life 3.0: Being Human in the Age of Artificial Intelligence](max-tegmark-life-3-0-being-human-in-the-age-of-artificial-intelligence) | [Amazon](https://www.amazon.com/Life-3-0-Being-Artificial-Intelligence/dp/1101946598) |
 | [Naive Set Theory](naive-set-theory) | [Amazon](https://www.amazon.com/Naive-Set-Theory-Paul-Halmos/dp/1781394660) |
 | Neuroscience: Exploring the Brain | [Amazon](https://www.amazon.com/Neuroscience-Exploring-Mark-F-Bear/dp/0781778174) |
 | [On Intelligence](jeff-hawkins-on-intelligence) | [Amazon](https://www.amazon.com/Intelligence-Jeff-Hawkins/dp/0805078533) |
