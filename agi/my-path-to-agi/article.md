@@ -428,7 +428,7 @@ Chris Eliasmith
 ### Why Philosophers Should Care About Computational Complexity (2017-08 - 2017-09)
 Scott Aaronson
 
-### Superintelligence: Paths, Dangers, Strategies (2017-08 - ?)
+### Superintelligence: Paths, Dangers, Strategies (2017-08 - 2017-11)
 Nick Bostrom
 
 ### The Brain: The Story of You (2017-08 - 2017-09)
@@ -457,3 +457,12 @@ Wei Ping, Kainan Peng, Andrew Gibiansky, Sercan Ömer Arik, Ajay Kannan, Sharan 
 
 ### Mastering Chess and Shogi by Self-Play with a General Reinforcement Learning Algorithm (2017-12)
 David Silver, Thomas Hubert, Julian Schrittwieser, Ioannis Antonoglou, Matthew Lai, Arthur Guez, Marc Lanctot, Laurent Sifre, Dharshan Kumaran, Thore Graepel, Timothy Lillicrap, Karen Simonyan, Demis Hassabis
+
+### Bandit Based Monte-Carlo Planning (2017-12)
+Levente Kocsis, Csaba Szepesvári
+
+### R-MAX - A General Polynomial Time Algorithm for Near-Optimal Reinforcement Learning (2017-12)
+Ronen I. Brafman, Moshe Tennenholtz
+
+### Life 3.0: Being Human in the Age of Artificial Intelligence (2017-12 - ?)
+Max Tegmark
