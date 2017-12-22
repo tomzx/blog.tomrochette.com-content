@@ -38,7 +38,7 @@ taxonomy:
 * Data is mostly key/value
 * Data types are basic types (int, float, double, string, character, boolean, date, date-time) or abstract types (set, bag, list)
 
-* The control stucture is part of the data
+* The control structure is part of the data
 * The concept of agenda is used to track topics of interest
 * New agendas are generated when existing agendas are too big and agendas are merge together when they become too small
 * Space and time bounds are computed for the heuristic that will be executed
@@ -112,7 +112,7 @@ taxonomy:
 * Generalizations: Which other concepts have less restrictive definitions than C?
 * Specializations: Which concepts satisfy C's definition plus some additional constraints?
 * Examples: What are some things that satisfy C's definition?
-* IsA: Which concepts' definitions does C itself satify?
+* IsA: Which concepts' definitions does C itself satisfy?
 * InDomainOf: Which operations can be performed on C's?
 * InRangeOf: Which operations result in values which are C's?
 * Views: How can we view some other kind of entity as if it were a C?
