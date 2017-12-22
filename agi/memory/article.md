@@ -48,6 +48,25 @@ taxonomy:
 * How many people can I remember?
 * How many concepts can I remember?
 
+## Processing duration by medium
+| Medium | Duration |
+|--------|----------|
+| Text | ? |
+| Audio (voice only) | ? |
+| Audio (audible) | ? |
+| Vision | ? |
+| Taste | ? |
+| Smell | ? |
+| Heat | ? |
+| Pressure | ? |
+
+* How long do we keep what was perceived by the retina in memory? (how many frames?)
+* How long do we keep what was perceived by the cochlea in memory?
+
+* We should expect to be limited by the maximal rate of neuron firing, but is it possible to communicate information faster?
+
+Part of the brain continues to process images for longer than 13 milliseconds to respond positively after a sequence of rapid-fire pictures [^1]
+
 # Unsorted
 * We have the ability to access our memory at will
 * The memory seems to be accessible in many ways and indexed through different means
@@ -60,6 +79,8 @@ taxonomy:
 # See also
 
 # References
+[^1]: http://www.dailymail.co.uk/sciencetech/article-2542583/Scientists-record-fastest-time-human-image-takes-just-13-milliseconds.html
+
 * https://en.wikipedia.org/wiki/Memory
 * https://en.wikipedia.org/wiki/Implicit_memory
 * https://en.wikipedia.org/wiki/Procedural_memory
