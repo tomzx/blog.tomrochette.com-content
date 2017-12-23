@@ -7,14 +7,16 @@ taxonomy:
 ---
 
 ## Context
+At one point in time, we expect AGI to be able to write programs. How we will get there, we do not know yet. However, since we are already able to write programs for ourselves and others, we might ask ourselves what are the steps we go through when we write a program. If the steps identified are easily automated, then it might provide us with a foundation for programs which can write programs.
 
 ## Learned in this study
 
 ## Things to explore
 * What are the steps one goes through when writing a program/algorithm to solve a specific problem?
+* How are important entities identified?
 
 # Overview
-When I want to write a program, may it be small or big, I generally approach it in a top down fashion. This means I first go over the high level concepts that I will need to make my program work. Then I drill down into each concept and break it down until I get to the implementation details.
+When I want to write a program, may it be small or big, I generally approach it in a top-down fashion. This means I first go over the high level concepts that I will need to make my program work. Then I drill down into each concept and break it down until I get to the implementation details.
 
 Here's a list of the many things that are considered while writing a program:
 
@@ -50,7 +52,7 @@ graph TD;
 	102 --Yes--> 103[Implement it]
 ```
 
-Most of the time a single straightfoward solution will fit the bill for all the given requirements and implementation will be the next step. However, it happens from time to time that multiple solutions are valid and you will have to determine the pros/cons of each solution in order to make the best decision for the given situation. In any case, one will want to:
+Most of the time a single straightforward solution will fit the bill for all the given requirements and implementation will be the next step. However, it happens from time to time that multiple solutions are valid and you will have to determine the pros/cons of each solution in order to make the best decision for the given situation. In any case, one will want to:
 
 * Reduce risk
 * Maximize flexibility
