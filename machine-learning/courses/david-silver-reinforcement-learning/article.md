@@ -12,6 +12,9 @@ taxonomy:
 
 ## Things to explore
 * Is it possible to determine the contribution of individual contributors to a project using something like the eligibility traces?
+* Can a reinforcement learning agent learn without experimenting with the world?
+	* It seems possible if it has access to a model (simulator) of the environment it would act in
+* Reinforcement learning is a good tool to attempt to solve a problem with a large search space, however when presented with an existing state and different types of problems (e.g., given the state space of software programs, find program X), it is not the proper framework/tool to use... So what should be used here?
 
 # Overview
 
