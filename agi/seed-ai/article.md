@@ -45,6 +45,15 @@ In other words, a seed AI is a program that would learn and understand how progr
 	* Parent-children relations
 		* A certain amount of behavior is shared with the parents, but a certain amount of it is changed due to mutation
 	* Programs with similar behavior(s)
+* How will it learn what functions do?
+* What are the first things a baby learns to do?
+* What are the mechanisms of learning already in place at birth?
+* If learning had already started in the womb, then when did this start occurring?
+* What are the necessary components to learning?
+* Is the current problem with ANN is that we don't know what the architecture is? (And that the neuron model is correct/good enough)
+* What can explain why we can remember at most 7 things?
+* Is it possible to give it some kind of scaffolding such as functions signatures with no implementations or pieces of existing software?
+* Should it learn a single programming language or many of them at once?
 
 # Overview
 The goal of this study is to look into the constraints and requirements that go into building what is called a *Seed AI*, that is, a program that is able to improve itself.
