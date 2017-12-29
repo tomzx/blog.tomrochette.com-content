@@ -30,6 +30,7 @@ taxonomy:
 * By word frequency
 
 # Topics
+The following list is an attempt at ordering the topics from most important to least important. The importance may be altered if a specific topic domain is more important to you.
 * Pronouns
 * Verbs
 * Question words
@@ -153,6 +154,24 @@ Source: https://www.youtube.com/watch?v=_IOZbJ7PCPk
 * Create crazy story using the word
 * Use the word frequently (10 minutes after you've learned it, then 1h, 1d, 1w, etc.)
 
+# Track your progress
+If you are the kind of person who might get discouraged because they don't seem to make any progress, it is strongly advised to keep track of your progress so that you can have an objective way to evaluate it instead of "feeling you're not making any progress".
+
+Every 10/25/50h of time spent learning, you should record yourself speaking a few sentences in your target language. This will allow you to assess your progress, as well as give you a trace you can look back on and laugh about.
+
+## To track
+* Vocabulary progression (how many words can be recognized and/or generated on request)
+* Listening/Spoken word recognition progression (be able to tell the English word)
+* Speaking/Spoken word generation progression (be able to say the word given its English one)
+* Reading/Character recognition progression (be able to tell the English word)
+* Writing/Character writing progression (be able to write the word given its English equivalent or its target language one)
+* Listening/Sentence comprehension (be able to understand sentences meaning at a normal pace)
+* Speaking/Sentence generation (be able to construct sentences with appropriate grammar, vocabulary and syntax)
+* Speaking/Pronunciation (use the proper tone for words)
+
+# Notes
+* It takes from 1000-2200h to become fluent enough to have acceptable conversations (and understand others)
+
 # See also
 
 # References
@@ -166,3 +185,6 @@ Source: https://www.youtube.com/watch?v=_IOZbJ7PCPk
 * https://www.conversationexchange.com/
 * https://www.hellolingo.com/
 * https://www.italki.com/
+
+## Exchange mobile applications
+* https://www.tandem.net/
