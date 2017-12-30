@@ -2,7 +2,7 @@
 title: Machine learning frameworks
 created: 2016-02-04
 taxonomy:
-  category: [Artificial General Intelligence]
+  category: [Machine Learning]
   status: in progress
 ---
 

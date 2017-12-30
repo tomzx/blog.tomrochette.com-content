@@ -2,7 +2,7 @@
 title: Machine learning basics
 created: 2016-05-16
 taxonomy:
-  category: [Artificial General Intelligence]
+  category: [Machine Learning]
   status: in progress
 ---
 

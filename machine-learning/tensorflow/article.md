@@ -2,7 +2,7 @@
 title: TensorFlow
 created: 2016-01-27
 taxonomy:
-  category: [Artificial General Intelligence]
+  category: [Machine Learning]
   status: in progress
 ---
 
