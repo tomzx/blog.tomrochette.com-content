@@ -13,6 +13,8 @@ taxonomy:
 ## Things to explore
 * When did the senses appear? For what purpose?
 * Is it more tiring to listen to someone from one hear than from both (stereo vs mono)?
+* We may be perceptually bounded by our sense organs (eyes accepting only a range of light frequencies, ears only accepting a range of sound frequencies) but the cortex could potentially support processing a wider range of information
+* What would happen if someone plugged optic fiber (artificial) in someone optic fiber/nerve (natural)?
 
 # Overview
 Considering the finite architecture of the brain, we can postulate a few things:
@@ -22,7 +24,6 @@ Considering the finite architecture of the brain, we can postulate a few things:
 	* At some point in the processing pipeline the visual image we perceive has to emerge/aggregate
 
 # Sight
-
 > The eye is not a single frame snapshot camera. It is more like a video stream. The eye moves rapidly in small angular amounts and continually updates the image in one's brain to "paint" the detail. We also have two eyes, and our brains combine the signals to increase the resolution further. We also typically move our eyes around the scene to gather more information. Because of these factors, the eye plus brain assembles a higher resolution image than possible with the number of photoreceptors in the retina. So the megapixel equivalent numbers below refer to the spatial detail in an image that would be required to show what the human eye could see when you view a scene.
 >
 > Based on the above data for the resolution of the human eye, let's try a "small" example first. Consider a view in front of you that is 90 degrees by 90 degrees, like looking through an open window at a scene. The number of pixels would be
