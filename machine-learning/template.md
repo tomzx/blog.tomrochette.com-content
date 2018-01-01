@@ -14,6 +14,8 @@ taxonomy:
 
 # Overview
 
+# Notes
+
 # See also
 
 # References
