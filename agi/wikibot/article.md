@@ -25,6 +25,12 @@ taxonomy:
 A bot must have various low level functions such as
 * fetching (read) the content of an article
 * submitting (write) the content of article
+* improve the content
+    * add references
+    * add relevant information
+    * prune dead links
+    * remove advertisement/vandalism
+    * normalize content
 
 # Difficulties to overcome
 ## Wiki markup vs HTML
