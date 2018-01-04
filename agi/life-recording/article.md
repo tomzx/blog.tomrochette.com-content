@@ -68,6 +68,10 @@ taxonomy:
 * When I had a given illness, how long it lasted and what I might have used to treat it
 * The ability to subjectively evaluate whether I do certain activities too much compared to a given figure I give myself
 
+# How I process and centralize data
+* I try to keep the data in text format as much as possible (using YAML for formatted/structured data)
+* A module per input source is written, which obtains the data from the data source and converts the relevant information/data into bits of information that can be used by the generalized system
+
 # See also
 
 # References
