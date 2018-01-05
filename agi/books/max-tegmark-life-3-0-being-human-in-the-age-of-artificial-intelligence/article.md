@@ -59,12 +59,41 @@ Let an ultraintelligent machine be defined as a machine that can far surpass all
 	* Digital utopians
 	* Techno-skeptics
 	* Members of the beneficial-AI movement
-* Most controversies surroundinig strong artificial intelligence (that can match humans on any cognitive task) center around two questions:
+* Most controversies surrounding strong artificial intelligence (that can match humans on any cognitive task) center around two questions:
 	* When (if ever) will it happen?
 	* Will it be a good thing for humanity?
 
 ### Misconceptions
 * The real worry isn't malevolence, but competence. A superintelligent AI is by definition very good at attaining its goals, whatever they may be, so we need to ensure that its goals are aligned with ours
+
+## Chapter 2 - Matter Turns Intelligent
+### What Is Intelligence?
+* Intelligence = the ability to accomplish complex goals
+* It makes no sense to quantify intelligence of humans, non-human animals or machines by a single number such as an IQ
+* We can say that a third program is more intelligent than both of the others if it's at least as good as them at accomplishing all goals, and strictly better at at least one
+* To classify different intelligences into a taxonomy, another crucial distinction is that between narrow and broad intelligence
+* AGI: the ability to accomplish any goal at least as well as humans
+* Intelligent behavior is inexorably linked to goal attainment
+* The fact that low-level sensorimotor tasks seem easy despite requiring enormous computational resources is known as Moravec's paradox, and is explained by the fact that our brain makes such tasks feel easy by dedicating massive amounts of customized hardware to them - more than a quarter of our brain
+
+### What Is Memory?
+* The reason that memory is so stable is that it requires more energy than random disturbances are likely to provide to modify it
+* The energy of a complicated physical system can depend on all sorts of mechanical, chemical, electrical and magnetic properties, and as long as it takes energy to change the system away from the state you want it to remember, this state will be stable
+* Information can take on a life of its own, independent of its physical substrate
+* Our brains store much more information than our genes: in the ballpark of 10 gigabytes electrically (specifying which of your 100 billion neurons are firing at any one time) and 100 terabytes chemically/biologically (specifying how strongly different neurons are linked by synapses)
+* Whereas you retrieve memories from a computer or hard drive by specifying where it's stored, you retrieve memories from your brain by specifying something about what is stored
+	* Such memory systems are called auto-associative, since they recall by association rather than by address
+* It was proved that you can squeeze in as many as 138 different memories for every thousand neurons without causing major confusion
+
+### What Is Computation?
+* A computation is a transformation of one memory state into another
+* How can a clump of seemingly dumb matter computer a complicated function?
+	* It must exhibit complex dynamics so that its future state depends in some complicated way on the present state
+	* We want the system to have the property that if we put it in a state that encodes the input information, let it evolve according to the laws of physics for some amount of time, and then interpret the resulting final state as the output information, then the output is the desired function of the input
+* The fact that exactly the same computation can be performed on any universal computer means that computation is substrate-independent in the same way that information is: it can take on a life of its own, independent of its physical substrate
+* Substrate independence doesn't mean that a substrate is unnecessary, but taht most of its details don't matter
+* The substrate-independent phenomenon takes on a life of its own, independent of its substrate
+* It's often only the substrate-independent aspect that we're interested in
 
 # See also
 
