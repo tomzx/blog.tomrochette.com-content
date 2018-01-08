@@ -91,9 +91,20 @@ Let an ultraintelligent machine be defined as a machine that can far surpass all
 	* It must exhibit complex dynamics so that its future state depends in some complicated way on the present state
 	* We want the system to have the property that if we put it in a state that encodes the input information, let it evolve according to the laws of physics for some amount of time, and then interpret the resulting final state as the output information, then the output is the desired function of the input
 * The fact that exactly the same computation can be performed on any universal computer means that computation is substrate-independent in the same way that information is: it can take on a life of its own, independent of its physical substrate
-* Substrate independence doesn't mean that a substrate is unnecessary, but taht most of its details don't matter
+* Substrate independence doesn't mean that a substrate is unnecessary, but that most of its details don't matter
 * The substrate-independent phenomenon takes on a life of its own, independent of its substrate
 * It's often only the substrate-independent aspect that we're interested in
+
+### What Is Learning?
+* For matter to learn, it must rearrange itself to get better and better at computing the desired function - simply by obeying the laws of physics
+* Network of interconnected neurons can learn in an analogous way: if you repeatedly put it into certain states, it will gradually learn these states and return to them from any nearby state
+* Neural networks are universal in the sense that they can compute any function arbitrarily accurately, by simply adjusting those synapse strength numbers accordingly
+* The question of why neural networks work so well can't be answered with mathematics alone, because part of the answer lies in physics
+* The simple task of multiplying $n$ numbers requires a whopping $2^n$ neurons for network with only one layer, but takes only about $4n$ neurons in a deep network
+
+## Chapter 3 - The Near Future: Breakthroughs, Bugs, Laws, Weapons and Jobs
+* As technology keeps improving, will the rise of AI eventually eclipse also those abilities that provide my current sense of self-worth and value on the job market? (or in general)
+* How will near-term AI progress change what it means to be human?
 
 # See also
 
