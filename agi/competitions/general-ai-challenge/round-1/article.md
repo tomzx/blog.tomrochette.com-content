@@ -13,14 +13,19 @@ taxonomy:
 ## Things to explore
 * One of the problem of this challenge is to answer the question "which task am I trying to accomplish at this time step?". This is an interesting question because, given a generic event loop program with a "fixed" timestep, we'd like to know which task we should execute within this iteration (should we observe, process observations, compute a step of solution resolution, enact a specific policy, etc.)
 
-# Gradual learning
+# Approach
+* Use a set of solvers
+* Each solver tracks its success history
+* The solver with the longest sequential reward is selected as the current solver to output an action
+	* This could be replaced with the best overall reward over a specified time period
+	* When the reward is 0 from all solvers or the reward is the same for a set of solvers, randomly pick one
 
+# Gradual learning
 * Sequence learning
 * Reinforcement learning based (using a reward signal)
 * Different tasks, no signal as to the type of task to solve or whether the task has changed
 
 # Problem formalization
-
 * At each time step $t$
 	* The agent receives an input $i \in [0, 255]$
 	* In response, the agent emits an action $a \in [0, 255]$
@@ -103,7 +108,6 @@ $$
 	* the class of programs that will have a negative reward
 
 # Problems
-
 * When have we switched task?/Can we determine the iteration at which a new task began?
 	* When we were getting many sequential positive rewards and suddenly we do not anymore
 	* When rewards are negative
@@ -123,17 +127,14 @@ $$
 * Task encoder: Encode the knowledge required to accomplish the task.
 
 ## Functions
-
 * Set internal memory: Used to remember previous input and/or input/output that led to a reward.
 * Unset internal memory: Used to forget about a previously set memory block as the task may have changed since and the information within the memory block is now irrelevant/incorrect.
 * Copy a memory block: Used to copy a memory block within the working memory workspace. The copied memory block can then be manipulated if required.
 
 # Comments on microtasks
-
 * I think it would make more sense if the microtask 2.4 - Learning to copy input to output was the first task of the agent. The idea is that initially an agent does not know anything. The next thing it should be able to do is mimic the environment, namely, copy it exactly. All the tasks prior to this task assume that the agent knows the other valid symbols that can be inputted/outputted, while a simply copy agent would only need to know about what it has seen so far.
 
 # Additional microtasks
-
 * Print any of the previous input symbols (of the current task).
 * Generate any action in response to any input.
 * Return no action (space/silence) to any input.
@@ -153,7 +154,6 @@ The following tasks purpose are to introduce complexity in the agent decisions.
 **Note:** I need a way to determine in what order these tasks should be accomplished in relations to the other tasks.
 
 # Other types of microtasks
-
 This section describes other types of ways an agent could learn.
 
 * Multiple stream association: Instead of being given a single byte stream, the agent observes 2..n byte streams and must discover the association between the streams (if any).
@@ -162,7 +162,6 @@ This section describes other types of ways an agent could learn.
 * Have the agent initiate the interaction with the environment, the environment deciding whether or not to reward the agent.
 
 # Things that have been tried
-
 * Naive byte map.
 * A solver per difficulty/problem step, with a solver selector that select the solver that has the currently highest reward streak to determine the next action to take based on input (works up to Micro5Sub1Task).
 * A similar system, but instead of writing the solvers myself, I used the learners provided in the test_micro_tasks file.
@@ -170,19 +169,16 @@ This section describes other types of ways an agent could learn.
 * A solver per difficulty/problem step, with a solver selector that select the action that is the most suggested.
 
 # Current WIP approach
-
 * Provide the agent with a fixed-size memory of the input/output/reward stream so that it may reason using it.
 * Process input as a stream of tokens, similar to how a parser would process a bit/stream of code.
 * Similar to how a computer works, an action (operation) would have operands.
 * At some point you start to need a callstack and the ability to stack function calls.
 
 # Ideas
-
 * A system that can copy/move/duplicate/multiply/map symbols
 * NTM where one part is dedicated to determining which function/task to use, and an LSTM to process the sequence and use the selected function
 
 # Questions
-
 * Given two agents, which one is better as an indicator of success:
 	* a lifetime reward (positive and negative)
 		* Indicates whether it has been more right than it has been wrong
@@ -191,21 +187,17 @@ This section describes other types of ways an agent could learn.
 		* Does not consider mistakes
 
 # TODO
-
 * Observe the input samples presented
 * Learn from the mistakes of others (most solvers are only learning the good behavior, but not the bad ones)
 * Extract a list of features based on the different micro tasks and build a neural network using this feature vector
 
 # Observations/Notes
-
 * In a multi-agent system, it is only when the system takes the action of the agent that this agent may be directly punished/rewarded. If its action is not taken, but the other action ends up being rewarded, it does not necessarily mean that the agent action would have been wrong (we cannot conclude anything).
-
 
 * Gradual learning does not mean that we can't learn orthogonal tasks (or that we have to learn by composition over previous tasks all the time). Learning new things without having to reuse existing knowledge makes it generally easier to grasp the new concept, which can then be merged with existing concepts.
 * To accomplish a task, you need to have the basic components to get to the solution. If we were to map this to the linear algebra domain, we'd say that the the basic components are basis vectors, for which a task is the composition of a sequence of basis vectors and where a solution is a point in space. Thus, the through the composition of basis vectors it is possible (or not) to get to a solution. Furthermore, like in linear algebra, if you do not have the necessary basis vectors (components) to reach all point in the space, it may be impossible to reach certain solutions.
 
 ## Transcribed notes
-
 * Sequence of inputs, parts of a more complex input
 * Hierarchical recognition of more complex constructs
 * Construction of complex token detection and association with a task
@@ -236,10 +228,19 @@ This section describes other types of ways an agent could learn.
 * How can you reconstruct the task set only given the input/output/reward stream?
 
 # Similar problems
-
 * Predicting the stock market (when are we moving to a different trend/problem? Based on the current trend/problem, what is the appropriate action?)
 
-# References
+# Ideas based on Andreas Ipp solution to the General AI Challenge: Round 1
+Source: https://mirror.general-ai-challenge.org/data/andreasipp_whitepaper.pdf
 
+* Code is DNA
+* A genetic algorithm generates alternative code in order to accomplish a given task
+* The biggest problem is the size of programs that needs to be generated (in his paper, he lists a 152 bytes long program, and he has 42 ops)
+
+* How many operations are part of DNA? (a sequence of nucleotide forms a op, like a sequence of bits forms an op)
+* How can the genetic algorithm decompose a complex task into subtasks it can learn and create the appropriate modules to solve
+
+# References
 * https://mirror.general-ai-challenge.org/challenge_first_round_specifications.pdf
+* https://mirror.general-ai-challenge.org/data/gradual_round_evaluation.pdf
 * http://wiki.opencog.org/w/CogPrime_Overview#Measuring_Incremental_Progress_Toward_Human-Level_AGI
