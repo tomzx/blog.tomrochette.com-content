@@ -106,6 +106,15 @@ Let an ultraintelligent machine be defined as a machine that can far surpass all
 * As technology keeps improving, will the rise of AI eventually eclipse also those abilities that provide my current sense of self-worth and value on the job market? (or in general)
 * How will near-term AI progress change what it means to be human?
 
+### Bugs vs. Robust AI
+* As technology grows more powerful, we should rely less on the trial-and-error approach, to safety engineering
+	* We should become more proactive than reactive
+* Four mains areas of technical AI-safety research
+	* Verification: Ensuring that software fully satisfies all the expected requirements (Did I build the system right?)
+	* Validation: (Did I build the right system?)
+	* Security: Directed at deliberate malfeasance
+	* Control: Ability for a human operator to monitor the system and change its behavior if necessary
+
 # See also
 
 # References
