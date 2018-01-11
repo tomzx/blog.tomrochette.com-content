@@ -11,6 +11,7 @@ taxonomy:
 ## Learned in this study
 
 ## Things to explore
+* Alternative stories based on the prelude
 
 # Overview
 
@@ -114,6 +115,19 @@ Let an ultraintelligent machine be defined as a machine that can far surpass all
 	* Validation: (Did I build the right system?)
 	* Security: Directed at deliberate malfeasance
 	* Control: Ability for a human operator to monitor the system and change its behavior if necessary
+
+### Jobs and Wages
+* Digital technology drives inequality in three different ways
+	* By replacing old jobs with ones requiring more skills
+	* Since the year 2000, an even-larger share of corporate income has gone to those who own the companies as opposed to those who work there - and that as long as automation continues, we should expect those who own the machines to take a growing fraction of the pie
+	* It often benefits superstars over everyone else
+
+### Human-Level Intelligence?
+* How many FLOPS are needed to simulate a brain?
+	* In the ballpark of a hundred petaFLOPS ($10^{17}$)
+* How many FLOPS are needed for human intelligence?
+* How many FLOPS can a human brain perform?
+* Hans Moravec figured that replicating a retina's computations on a conventional computer requires about a billion FLOPS and that the whole brain does about ten thousand times more computation than a retina (based on comparing volumes and numbers of neurons), so that the computational capacity of the brain is around $10^{13}$ FLOPS
 
 # See also
 
