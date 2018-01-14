@@ -12,6 +12,7 @@ taxonomy:
 
 ## Things to explore
 * Alternative stories based on the prelude
+* Given a jailboxed AGI that produces "media", if an external agent can collect this media which contains, in any hidden way, enough data for the jailboxed AGI to escape, it might be possible for the jailboxed AGI to transmit this media without anyone noticing (think of steganography for instance)
 
 # Overview
 
@@ -128,6 +129,27 @@ Let an ultraintelligent machine be defined as a machine that can far surpass all
 * How many FLOPS are needed for human intelligence?
 * How many FLOPS can a human brain perform?
 * Hans Moravec figured that replicating a retina's computations on a conventional computer requires about a billion FLOPS and that the whole brain does about ten thousand times more computation than a retina (based on comparing volumes and numbers of neurons), so that the computational capacity of the brain is around $10^{13}$ FLOPS
+
+## Chapter 4 - Intelligence Explosion?
+### Prometheus Takes Over the World
+#### Why to Break Out
+* Our DNA gave us the goal of sex because it "wants" to be reproduced, but now that we humans have understood the situation, many of us choose to use birth control, thus staying loyal to the goal itself rather than to its creator or the principle that motivated the goal
+
+#### How to Break Out
+* What these strategies have in common is that your intellectually inferior jailers haven't anticipated or guarded against them
+
+#### Postbreakout Takeout
+* Prometheus caused problems for certain people not because it was necessarily evil or conscious, but because it was competent and didn't fully share their goals
+* Despite all the media hype about a robot uprising, Prometheus wasn't a robot - rather, its power came from its intelligence
+
+#### Game Theory and Power Hierarchies
+* Nash equilibrium: a situation where any party would be worse off if they altered their strategy
+* To prevent cheaters from ruining the successful collaboration of a large group, it may be in everyone's interest to relinquish some power to a higher level in the hierarchy that can punish cheaters
+
+#### Cyborgs and Uploads
+* Long life loses much of its point if we are fated to spend it staring stupidly at ultra-intelligent machines as they try to describe their ever more spectacular discoveries in baby-talk that we can understand
+	* Hans Moravec, Mind Children, 1988
+* Evolution optimizes strongly for energy efficiency because of limited food supply, not for ease of construction or understanding by human engineers
 
 # See also
 
