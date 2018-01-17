@@ -16,6 +16,22 @@ taxonomy:
 
 # Overview
 
+# Questions of chapter 5
+1. Do you want there to be superintelligence?
+Yes.
+2. Do you want humans to still exist, be replaced, cyborgized and/or uploaded/simulated?
+Do not care.
+3. Do you want humans or machines in control?
+See 2.
+4. Do you want AIs to be conscious or not?
+Define conscious.
+5. Do you want to maximize positive experiences, minimize suffering or leave this to sort itself out?
+Minimize suffering.
+6. Do you want life spreading into the cosmos?
+Do not care.
+7. Do you want a civilization striving toward a greater purpose that you sympathize with, or are you OK with future life forms that appear content even if you view their goals as pointlessly banal?
+Difficult to say.
+
 # Notes
 ## Prelude
 ### The Tale of the Omega Team
@@ -150,6 +166,30 @@ Let an ultraintelligent machine be defined as a machine that can far surpass all
 * Long life loses much of its point if we are fated to spend it staring stupidly at ultra-intelligent machines as they try to describe their ever more spectacular discoveries in baby-talk that we can understand
 	* Hans Moravec, Mind Children, 1988
 * Evolution optimizes strongly for energy efficiency because of limited food supply, not for ease of construction or understanding by human engineers
+
+### What Will Actually Happen?
+* The hardware and electricity costs of running the AI are crucial, since we won't get an intelligence explosion until the cost of doing human-level work drops below human-level hourly wages
+* If we don't know what we want, we're unlikely to get it
+
+## Chapter 5 - Aftermath: The Next 10,000 Years
+### Libertarian Utopia
+#### Why This May Never Happen
+* Why should the power balance between multiple superintelligences remain stable for millenia, rather than the AIs merging or the smartest one taking over?
+* Why should the machines choose to respect human property rights and keep humans around, given that they don't need humans for anything and can do all human work better and cheaper themselves?
+
+### Benevolent Dictator
+#### The Sector System
+* The AI enforces two tiers of rules: universal and local
+	* Universal rules apply in all sectors
+	* Individual sectors have additional local rules on top of this, encoding certain moral values
+
+#### Downsides
+* There's no real point in humans trying to do science or figuring other things out, because the AI already has
+* There's no real point in humans trying to create something to improve their lives, because they'll readily get it from the AI if they simply ask
+
+### Egalitarian Utopia
+#### Life Without Property
+* In this spirit (of open-source software), all intellectual property rights are abolished: there are no patents, copyrights, or trademarked designs - people simply share their good ideas, and everyone is free to use them
 
 # See also
 
