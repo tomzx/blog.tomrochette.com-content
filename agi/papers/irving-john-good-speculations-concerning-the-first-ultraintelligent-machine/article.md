@@ -3,7 +3,7 @@ title: Irving John Good - Speculations concerning the first ultraintelligent mac
 created: 2018-01-12
 taxonomy:
   category: [Artificial General Intelligence]
-  status: in progress
+  status: finished
 ---
 
 ## Context
@@ -82,6 +82,21 @@ taxonomy:
 * Since we are assuming that the duration of a cell assembly is about half a second, following Hebb, it is to be expected that the period of this simple harmonic motion will also be about half a second. This would explain the delta rhythm which occurs during sleep
 	* Apparently, very rhythmic assemblies do not correspond to conscious thought
 * In order to explain the alpha rhythm, of about five cycles per second, when the eyes are closed and the visual imagination is inactive, along similar lines, we could assume that "visual assemblies" have a duration of only about a fifth of a second
+* In the design of an ultraintelligent machine based on an artificial neural net, one of the most vital problems is how to ensure that the mechanism by which an assembly representing a clump of assemblies tend to be formed (the idea of abstraction or generalization) will be effective
+	* It seems to be necessary to assume that, when an assembly is active, it causes a little activity in all the assemblies with which it is closely associated, although only one at most of these assemblies will be the next to fire
+* It is possible that one of the functions of sleep is to give the brain an opportunity of consolidating the waking experiences by means of unconscious botryological calculations, especially those leading to improved judgments of probabilities
+* Human memory levels
+	* Immediate recall (about 0.5 second) Concepts currently in consciousness, embodied in the currently active assembly
+	* Very short-term memory or attention span (0.5 to 10 seconds) Embodied in the currently active subassemblies, largely the residues of recently active assemblies. The span might be extended up to several minutes, with embodiment in subsubassemblies, etc.
+	* Short-term (from about 10 seconds or 10 minutes to about one day) Embodied in primed neurons
+	* Medium-term (about one day to about one month, below the age of 30, or about one week above the age of 50) Assemblies are neither partly active nor partly primed, but present only by virtue of their patterns of synaptic strengths, and with little degradation
+	* Long-term (about one month to a hundred years) As in medium-term but with more degradation of pattern and loss of detail
+* Let us make the following provisional and artificial assumptions
+	* The probability, in a new brain, that a pair of neurons is connected is the same for every pair of neurons
+	* Each neuron has $\mu$ inhibitory synapses on it, and vastly more excitatory ones
+	* A single "pulsed" inhibitory synapse dominates any number of pulsed excitatory ones, during a summation interval
+	* An assembly occupies a proportion $\alpha$ of the cortex and the active subassemblies not in this assembly occupy a proportion $\beta - \alpha$, making a total activity equal to $\beta$
+	* A random neuron has probability $(1 - \beta)^\mu$ of escaping inhibition
 
 # See also
 
