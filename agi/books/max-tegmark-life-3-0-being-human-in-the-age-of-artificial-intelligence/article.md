@@ -13,6 +13,7 @@ taxonomy:
 ## Things to explore
 * Alternative stories based on the prelude
 * Given a jailboxed AGI that produces "media", if an external agent can collect this media which contains, in any hidden way, enough data for the jailboxed AGI to escape, it might be possible for the jailboxed AGI to transmit this media without anyone noticing (think of steganography for instance)
+* Is a Dyson sphere effectively the same as making use of the energy within the core of a planet?
 
 # Overview
 
@@ -202,6 +203,22 @@ Let an ultraintelligent machine be defined as a machine that can far surpass all
 ### Descendants
 #### Downsides
 * It's generally hard for two entities thinking at dramatically different speeds and with extremely disparate capabilities to have meaningful communication as equals
+
+* If a thing is not diminished by being shared with others, it is not rightly owned if it is only owned and not shared
+	* Saint Augustine
+
+## Chapter 6 - Our Cosmic Endowment: The Next Billion Years and Beyond
+* There is reason to suspect that ambition is a rather generic trait of advanced life
+* Almost regardless of what it's trying to maximize, be it intelligence, longevity, knowledge or interesting experiences, it will need resources. It therefore has an incentive to push its technology to the ultimate limits, to make the most of the resources it has. After this, the only way to further improve is to acquire more resources, by expanding into ever-larger regions of the cosmos
+* If we're interested in the extent to which our cosmos can ultimately come alive, we should study the limits of ambition that are imposed by the laws of physics
+
+### Making the Most of Your Resources
+* Future life that's reached the technological limit needs mainly one fundamental resource: so-called baryonic matter, meaning anything made up of atoms or their constituents
+
+#### Evaporating Black Holes
+* A black hole act like a hot object - the smaller, the hotter - that gives off heat radiation known as Hawking radiation
+* This means that the black hole gradually loses energy and evaporates away. In other words, whatever matter you dump into the black hole will eventually come back out again as heat radiation, so by the time the black hole has completely evaporated, you've converted your matter to radiation with nearly 100% efficiency
+* A problem with using black hole evaporation as a power source is that, unless the black hole is much smaller than an atom in size, it's an excruciatingly slow process that takes longer than the present age of our Universe and radiates less energy than a candle
 
 # See also
 
