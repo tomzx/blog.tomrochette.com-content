@@ -191,6 +191,18 @@ Let an ultraintelligent machine be defined as a machine that can far surpass all
 #### Life Without Property
 * In this spirit (of open-source software), all intellectual property rights are abolished: there are no patents, copyrights, or trademarked designs - people simply share their good ideas, and everyone is free to use them
 
+### Enslaved God
+#### Would This Be Good or Bad for Humanity?
+* There are at least four dimensions wherein the optimal balance must be struck
+	* Centralization: There's a trade-off between efficiency and stability: a single leader can be very efficient, but power corrupts and succession is risky
+	* Inner threats: One must guard both against growing power centralization (group collusion, perhaps even a single leader taking over) and against growing decentralization (into excessive bureaucracy and fragmentation)
+	* Outer threats: If the leadership structure is too open, this enables outside forces (including the AI) to change its values, but if it's too impervious, it will fail to learn and adapt to change
+	* Goal stability: Too much goal drift can transform utopia into dystopia, but too little goal drift can cause failure to adapt to the evolving technological environment
+
+### Descendants
+#### Downsides
+* It's generally hard for two entities thinking at dramatically different speeds and with extremely disparate capabilities to have meaningful communication as equals
+
 # See also
 
 # References
