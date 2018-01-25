@@ -220,6 +220,31 @@ Let an ultraintelligent machine be defined as a machine that can far surpass all
 * This means that the black hole gradually loses energy and evaporates away. In other words, whatever matter you dump into the black hole will eventually come back out again as heat radiation, so by the time the black hole has completely evaporated, you've converted your matter to radiation with nearly 100% efficiency
 * A problem with using black hole evaporation as a power source is that, unless the black hole is much smaller than an atom in size, it's an excruciatingly slow process that takes longer than the present age of our Universe and radiates less energy than a candle
 
+#### Other Resources
+* Gravity rearranged hydrogen into stars which rearranged the hydrogen into heavier atoms, after which gravity rearranged such atoms into our planet where chemical and biological processes rearranged them into life
+
+### Gaining Resources Through Cosmic Settlement
+* What upper limits do the laws of physics place on the amount of matter that life can ultimately make use of?
+
+#### How Far Can You Go?
+* Even if there are infinitely many galaxies, it appears that we can see and reach only a finite number of them: we can see about 200 billion galaxies and settle in at most ten billion
+* About 98% of our Universe is "see but not touch"
+
+#### How Fast Can You Go?
+* The two key problems are that conventional rockets spend most of their fuel simply to accelerate the fuel they carry with them, and that today's rocket fuel is hopelessly inefficient
+* If there's an intelligence explosion, the key question isn't if intergalactic settlement is possible, but simply how fast it can proceed
+* Two separate types of probes: seed probes and expanders
+	* The seed probes would slow down, land and seed their destination with life
+	* The expanders would never stop: they'd scoop up matter in flight, perhaps using some improved variant of the ramjet technology, and use this matter both as fuel and as raw material out of which they'd build expanders and copies of themselves
+
+#### How Long Can You Last?
+* Five main suspects for our upcoming cosmic apocalypse, or cosmocalypse
+	* The Big Chill: Our universe keeps expanding forever, diluting our cosmos into a cold, dark and ultimately dead place
+	* The Big Crunch
+	* The Big Rip
+	* The Big Snap
+	* Death Bubbles
+
 # See also
 
 # References
