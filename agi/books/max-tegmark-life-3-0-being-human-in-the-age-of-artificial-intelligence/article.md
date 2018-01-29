@@ -240,10 +240,74 @@ Let an ultraintelligent machine be defined as a machine that can far surpass all
 #### How Long Can You Last?
 * Five main suspects for our upcoming cosmic apocalypse, or cosmocalypse
 	* The Big Chill: Our universe keeps expanding forever, diluting our cosmos into a cold, dark and ultimately dead place
-	* The Big Crunch
-	* The Big Rip
+	* The Big Crunch: The cosmic expansion is eventually reversed and everything comes crashing back together in a cataclysmic collapse akin to a backward Big Bang
+	* The Big Rip: Where our galaxies, planets and even atoms get torn apart in a grand finale a finite time from now
 	* The Big Snap
 	* Death Bubbles
+
+#### How Much Can You Compute?
+* The cost of computation drops when you compute slowly, so you'll ultimately get more done if you slow things down as much as possible
+* Future superintelligence may prefer to burn through its energy supplies relatively quickly, to turn them into computations before running into problems such as cosmic horizons and proton decay
+
+### Cosmic Hierarchies
+#### Thought Hierarchies
+* For an intelligent information-processing system, going big is a mixed blessing involving an interesting trade-off
+	* Going bigger lets it contain more particles, which enable more complex thoughts
+	* It slows down the rate at which it can have truly global thoughts, since it now takes longer for all the relevant information to propagate to all its parts
+* If life engulfs our cosmos, what form will it choose: simple and fast, or complex and slow?
+* Organisms that are large, complex and slow often mitigate their sluggishness by containing smaller modules that are simple and fast
+* Because internal communication is slow and costly, computations will be done as locally as possible
+
+#### Control Hierarchies
+* If superintelligence one day expands to cosmic scales, what will its power hierarchy be like?
+	* Will it be freewheeling and decentralized or highly authoritarian?
+	* Will cooperation be based mainly on mutual benefit or on coercion and threats?
+
+#### Controlling with the Carrot
+* If superintelligence develops technology that can readily rearrange elementary particles into any form of matter whatsoever, then it will eliminate most of the incentives for long-distance trade
+* In a cosmos teeming with superintelligence, almost the only commodity worth shipping long distances will be information
+	* The only exception might be matter to be used for cosmic engineering projects - for example, to counteract the aforementioned destructive tendency of dark energy to tear civilizations apart
+
+#### Controlling with the Stick
+* A superintelligent hub could use the analogous strategy of deploying a network of loyal guards throughout its cosmic empire
+
+#### When Civilizations Clash
+* What happens if life evolves independently in more than one place and two expanding civilizations meet?
+* If the distance between neighboring space-settling civilizations is much larger than dark energy lets them expand, then they'll never come into contact with each other or even find out about each other's existence
+* It's plausible that long before two superintelligent civilizations encounter one another, their technologies will plateau at the same level, limited merely by the laws of physics
+	* This makes it seem unlikely that one superintelligence could easily conquer the other even if it wanted to
+	* Moreover, if their goals have evolved to be relatively aligned, then they may have little reason to desire conquest or war
+* Information is very different from the resources that humans usually fight over, in that you can simultaneously give it away and keep it
+* An ambitious civilization can encounter three kinds of regions:
+	* Uninhabited ones
+	* Life bubbles
+	* Death bubbles
+
+#### Are We Alone?
+* This assumption that we're not alone in our Universe is not only dangerous but also probably false
+* For our nearest neighbor civilization to be within our Universe, whose radius is about $10^{26}$ meters, the number of zeroes can't exceed 26, and the probability of the number of zeroes falling in the narrow range between 22 and 26 is rather small
+* Although dinosaurs ruled Earth for over 100 million years, a thousand times longer than we modern humans have been around, evolution didn't seem to inevitably push them toward higher intelligence and inventing telescopes or computers
+
+## Chapter 7 - Goals
+### Physics: The Origin of Goals
+* The ultimate roots of goal-oriented behavior can be found in the laws of physics themselves, and manifest themselves even in simple processes that don't involve life
+* Out of all ways that nature could choose to do something, it prefers the optimal way, which typically boils down to minimizing or maximizing some quantity
+* There are two mathematically equivalent ways of describing each physical law:
+	* As the past causing the future
+	* Nature optimizing something
+
+### Biology: The Evolution of Goals
+* At some point, a particular arrangement of particles got so good at copying itself that it could do so almost indefinitely by extracting energy and raw materials from its environment. We call such a particle arrangement life
+* Whereas earlier, the particles seemed as though they were trying to increase average messiness in various ways, these newly ubiquitous self-copying patterns seemed to have a different goal: not dissipation but replication
+* Since the most efficient copiers outcompete and dominate the others, before long any random life form you look at will be highly optimized for the goal of replication
+
+### Friendly AI: Aligning Goals
+* The real risk with AGI isn't malice but competence
+* Three tough subproblems
+	* Making AI learn our goals
+	* Making AI adopt our goals
+	* Making AI retain our goals
+* A key idea underlying inverse reinforcement learning is that we make decisions all the time, and that every decision we make reveals something about our goals
 
 # See also
 
