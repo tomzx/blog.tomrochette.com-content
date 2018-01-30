@@ -14,6 +14,10 @@ taxonomy:
 * Alternative stories based on the prelude
 * Given a jailboxed AGI that produces "media", if an external agent can collect this media which contains, in any hidden way, enough data for the jailboxed AGI to escape, it might be possible for the jailboxed AGI to transmit this media without anyone noticing (think of steganography for instance)
 * Is a Dyson sphere effectively the same as making use of the energy within the core of a planet?
+* If we can make our lives infinite, what impact would this have
+	* on progress?
+	* on change?
+* What should we do if all paths to super intelligence/SAGI leads to the destruction of the human race? Should we still proceed?
 
 # Overview
 
@@ -308,6 +312,21 @@ Let an ultraintelligent machine be defined as a machine that can far surpass all
 	* Making AI adopt our goals
 	* Making AI retain our goals
 * A key idea underlying inverse reinforcement learning is that we make decisions all the time, and that every decision we make reveals something about our goals
+There may be hints that the propensity to change goals in response to new experiences and insights increases rather than decreases with intelligence
+* There's tension between world-modeling and goal retention
+	* With increasing intelligence may come not merely a quantitative improvement in the ability to attain the same old goals, but a qualitatively different understanding of the nature of reality that reveals the old goals to be misguided, meaningless or even undefined
+* In its attempt to better model the world, the AI may naturally, just as we humans have done, attempt also to model and understand how it itself works - in other words, to self-reflect
+
+### Ethics: Choosing Goals
+* Four principles of ethics
+	* Utilitarianism: Positive conscious experiences should be maximized and suffering should be minimized
+	* Diversity: A diverse set of positive experiences is better than many repetitions of the same experience, even if the latter has been identified as the most positive experience possible
+	* Autonomy: Conscious entities/societies should have the freedom to pursue their own goals unless this conflicts with an overriding principle
+	* Legacy: Compatibility with scenarios that most humans today would view as happy, incompatibility with scenarios that essentially all humans today would view as terrible
+* Given how ethical views have evolved since the Middle Ages regarding slavery, women's rights, etc., would we really want people from 1,500 years ago to have a lot of influence over how today's world is run?
+* Might there be a goal system or ethical framework that almost all entities converge to as they get ever more intelligent?
+* It's likely that any superintelligent AIs will have subgoals including efficient hardware, efficient software, truth-seeking and curiosity, simply because these subgoals help them accomplish whatever their ultimate goal are
+* Orthogonality thesis: the ultimate goals of a system can be independent of its intelligence
 
 # See also
 
