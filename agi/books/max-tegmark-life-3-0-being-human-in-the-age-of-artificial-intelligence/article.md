@@ -3,7 +3,7 @@ title: Max Tegmark - Life 3.0: Being Human in the Age of Artificial Intelligence
 created: 2017-12-15
 taxonomy:
   category: [Artificial General Intelligence]
-  status: in progress
+  status: finished
 ---
 
 ## Context
@@ -327,6 +327,50 @@ There may be hints that the propensity to change goals in response to new experi
 * Might there be a goal system or ethical framework that almost all entities converge to as they get ever more intelligent?
 * It's likely that any superintelligent AIs will have subgoals including efficient hardware, efficient software, truth-seeking and curiosity, simply because these subgoals help them accomplish whatever their ultimate goal are
 * Orthogonality thesis: the ultimate goals of a system can be independent of its intelligence
+
+## Chapter 8 - Consciousness
+### What Is Consciousness?
+* Consciousness = subjective experience
+
+### What's the Problem?
+* How does the brain process information? How does intelligence work?
+* What physical properties distinguish conscious & unconscious systems?
+* How do physical properties determine qualia?
+* Why is anything conscious?
+
+### Experimental Clues About Consciousness
+#### What Behaviors Are Conscious?
+* Psychologists have long known that you can unconsciously perform a wide range of other tasks and behaviors as well, from blink reflexes to breathing, reaching, grabbing and keeping your balance. Typically, you're consciously aware of what you did, but not how you did it
+* On the other hand, behaviors that involve unfamiliar situations, self-control, complicated logical rules, abstract reasoning or manipulation of language tend to be conscious. They're known as behavioral correlates of consciousness, and they're closely linked to the effortful, slow and controlled way of thinking that psychologists call "System 2"
+* Evidence suggests that of the roughly $10^7$ bits of information that enter our brain each second from our sensory organs, we can be aware of only a tiny fraction, with estimates ranging from 10 to 50 bits
+
+#### When Is Consciousness?
+* It takes about a quarter of a second from when light enters your eye from a complex object until you consciously perceive seeing it as what it is
+
+### Theories of Consciousness
+#### Anchoring Consciousness in Physics
+* I think that consciousness is a physical phenomenon that feels non-physical because it's like waves and computations: it has properties independent of its specific physical substrate
+* Four necessary conditions for consciousness
+	* Information principle: A conscious system has substantial information-storage capacity
+	* Dynamics principle: A conscious system has substantial information-processing capacity
+	* Independence principle: A conscious system has substantial independence from the rest of the world
+	* Integration principle: A conscious system cannot consist of nearly independent parts
+
+### Controversies of Consciousness
+* Imagine using future technology to build a direct communication link between two human brains, and gradually increasing the capacity of this link until communication is as efficient between the brains as it is within them. Would there come a moment when the two individual consciousness suddenly disappear and get replaced by a single unified one as IIT predicts, or would the transition be gradual so that the individual consciousnesses coexisted in some form even as a joint experience began to emerge?
+
+### How Might AI Consciousness Feel?
+* Although the conscious information processing in our brains appears to be merely the tip of an otherwise unconscious iceberg, we should expect the situation to be even more extreme for large future AIs: if they have a single consciousness, then it's likely to be unaware of almost all the information processing taking place within it
+
+## Epilogue - The Tale of the FLI Team
+### FLI Is Born
+* First we humans discovered how to replicate some natural processes with machines, making our own wind and lightning, and our own mechanical horsepower
+* Gradually, we started realizing that our bodies were also machines
+* Then the discovery of nerve cells started blurring the borderline between body and mind
+* Then we started building machines that could outperform not only our muscles, but our minds as well
+
+### Mindful Optimism
+* The expectation that good things will happen if you plan carefully and work hard for them
 
 # See also
 
