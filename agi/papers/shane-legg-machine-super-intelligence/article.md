@@ -3,7 +3,7 @@ title: Shane Legg - Machine Super Intelligence (2008)
 created: 2018-01-04
 taxonomy:
   category: [Artificial General Intelligence]
-  status: in progress
+  status: finished
 ---
 
 ## Context
@@ -201,7 +201,18 @@ $$
 ## 5. Limit of Computational Agents
 * If you can accurately predict what is coming next you do not need to use much information to encode what the data actually is, and vice versa
 
+## 7. Discussion
+### 7.2. How could intelligent machines be developed?
+#### Brain simulation
+* The first point to note is that building a working simulation of something does not require understanding everything about how the system works
+	* What is required is that the basic units which comprise the system can be faithfully reproduced and connected together
+* Another important point is that much of the brain's complexity is not relevant. A significant part of the human brain is a jumble of different subsystems that take care of basic instinctive things like breathing, heart beat, blood pressure, reproduction, hunger, thirst, rhythms such as sleeping and body temperature, fight of flight response and so on
+* The key, it seems, lies in understanding the neocortex, and its interaction with two smaller structures, namely, the thalamus and the hippocampus
+* Essentially the whole neocortex has the same six layer structure
+* What this suggests is that the same information processing mechanism is being applied across the neocortex, and that the variations in function across different regions are actually adaptations to the information passing through each region
+
 # See also
+* [General AI Challenge - Round 1](../../competitions/general-ai-challenge/round-1)
 
 # References
 * Legg, Shane. Machine super intelligence. Diss. Università della Svizzera italiana, 2008.
