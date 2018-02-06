@@ -240,6 +240,9 @@ Source: https://mirror.general-ai-challenge.org/data/andreasipp_whitepaper.pdf
 * How many operations are part of DNA? (a sequence of nucleotide forms a op, like a sequence of bits forms an op)
 * How can the genetic algorithm decompose a complex task into subtasks it can learn and create the appropriate modules to solve
 
+# See also
+* [Machine Super Intelligence](../../../papers/shane-legg-machine-super-intelligence)
+
 # References
 * https://mirror.general-ai-challenge.org/challenge_first_round_specifications.pdf
 * https://mirror.general-ai-challenge.org/data/gradual_round_evaluation.pdf
