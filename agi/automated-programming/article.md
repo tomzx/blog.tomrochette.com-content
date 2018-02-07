@@ -36,6 +36,11 @@ Automated programming has been a goal for computer scientists since the inceptio
 * Use an ontology of algorithm to determine which ones should be used within a function
 	* Use the vocabulary associated with each type of algorithm to identify actions (sort the items by ..., group the items by ..., find the shortest path between ...)
 * Any program is going to be composed of (at most) loops, conditions, expressions and statements
+* Say you have a thousand (and more) projects source code in a given language, and you want to extract common programming constructs (similar code but with different variable names or function names, or slightly different statements), how would you go about doing that in an efficient way?
+* Extract the most common programming construct by looking at a lot of code
+* Use something like CharRNN, but instead of applying it to characters, apply it to programming language tokens
+* The learned model can be used to predict the next token type to be used
+	* The next token type is likely to be inferable from the grammar alone
 
 # Overview
 We can think of automated programming as the ability to convert some form of specification which uses vague terms into an extremely specific, programming language constrained, description of the specification. This requires a lot of prior experience in order to understand the purpose and intent of each and every requirement. In other words, part of the task of automated programming is the ability to translate, given experience and context, a set of requirements (a specification) into a program.
@@ -50,6 +55,7 @@ We can think of automated programming as the ability to convert some form of spe
 * Many approaches are possible, namely forward search, backward search, bidirectional search
 * As there are many way to accomplish the same function, the first goal of the synthesizer should be to rapidly offer a working function to the user
 * Once said function has been discovered, the synthesizer may work with the user in order to improve the current solution
+	* Decide on the memory/computation tradeoff within the solution
 	* *What are some of the improvement that can be expected to be made?*
 * Given a set of existing functions (with both input/output types) and their computed "operation complexity" (basically the amount of operations that are executed at the language level, i.e. (x^2+y^2)^0.5 => 4, 3 exponentiation, 1 addition), try the functions in ascending order of operation complexity
 * Truth table based construction of conditionals: You provide a list of variables to depend on and then construct a mapping between these variables and a block of code to be executed
@@ -263,13 +269,15 @@ By observing the properties that can vary in the most common data structure, it 
 * The actions are to select which functions to call and which arguments to give these functions
 	* More generally, the actions are to determine which grammatical construct to use
 * The states are the different programs (complete/working or partial/non-working)
-	* The state space can then been seen as transition between partial programs and complete programs, which can then become partial again as a new function (with missing parameters) are added
+	* The state space can then be seen as transitions between partial programs and complete programs, which can then become partial again as a new function (with missing parameters) is added
 * The reward signal is difficult to determine
 	* Partial programs could be given either a negative reward or a zero reward
 	* A positive reward is obviously given for the programs that do what we expect of them (given input-output examples)
 	* Programs which are complete but do not accomplish what we expect of them are better than partial programs because they compile, however their value in solving the problem we want to solve is questionable
 		* Based on RL, any of the states which are used to get from the initial state to an end of epoch state would have their value policy updated accordingly
-* To simplify the search space, we assume that a program is constructed sequentially, which lets us avoid all the partial programs where we start by defining all the functions that will be called without defining their arguments
+	* Do we want the reward signal to be different for each program we want? If so, then it basically means the reward signal "is" the program
+		* It would make more sense to have a reward signal which is based on the number of correct instances of a problem it can solve
+* To simplify the search space, we assume that a program is constructed sequentially <tbc>(what did I mean by that?)</tbc>, which lets us avoid all the partial programs where we start by defining all the functions that will be called without defining their arguments
 	* It would however be valuable to determine if this space could help reaching a solution faster/more efficiently
 
 # Function rewriting/optimization
