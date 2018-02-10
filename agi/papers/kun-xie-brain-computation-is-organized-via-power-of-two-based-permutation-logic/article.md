@@ -55,8 +55,8 @@ taxonomy:
 ## Power-of-Two-Based Logic and its Constraints on Biological Brains
 * The power-of-two-based permutation logic imposes biological boundary on the computational limitation of circuits
 * For example, due to the exponential growth in input numbers i, the cost (in terms of cell resources) can quickly become prohibitive
-* In order to cover all possible patterns for processing 40 distinct perceptual inputs, a single FCM would require over a trillion neurons ($10^12$)
-* Every neurons in the human brain ($8.6 \times 10^10$ neurons) would be inadequate to afford this exponential coverage
+* In order to cover all possible patterns for processing 40 distinct perceptual inputs, a single FCM would require over a trillion neurons ($10^{12}$)
+* Every neurons in the human brain ($8.6 \times 10^{10}$ neurons) would be inadequate to afford this exponential coverage
 * The best and necessary solution is to employ modular approaches, or a divide-and-conquer strategy, to segregate or stream information inputs through distinct sensory domains or pathways
 
 # See also
