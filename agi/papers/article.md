@@ -34,8 +34,14 @@ The following lists papers I've read and reviewed or made notes for.
 ## Eliezer Yudkowsky
 * [Levels of Organization in General Intelligence (2007)](eliezer-yudkowsky-levels-of-organization-in-general-intelligence)
 
+## Hans Moravec
+* [When will computer hardware match the human brain? (1998)](hans-moravec-when-will-computer-hardware-match-the-human-brain)
+
 ## Hugo de Garis
 * [Artificial Brains (2007)](hugo-de-garis-artificial-brains)
+
+## Irving John Good
+* [Speculations concerning the first ultraintelligent machine (1966)](irving-john-good-speculations-concerning-the-first-ultraintelligent-machine)
 
 ## J. Roland Olsson
 * [How to Invent Functions (1999)](j-roland-olsson-how-to-invent-functions)
@@ -65,7 +71,6 @@ The following lists papers I've read and reviewed or made notes for.
 ## Marcus Hutter
 * [A Complete Theory of Everything (will be subjective) (2010)](marcus-hutter-a-complete-theory-of-everything-will-be-subjective)
 * [Can Intelligence Explode? (2012)](marcus-hutter-can-intelligence-explode)
-* [Universal Algorithmic Intelligence: A Mathematical Top-Down Approach (2007)](marcus-hutter-universal-algorithmic-intelligence-a-mathematical-top-down-approach)
 
 ## Marek Rosa
 * [A Framework for Searching for General Artificial Intelligence (2016)](marek-rosa-a-framework-for-searching-for-general-artificial-intelligence)
@@ -97,6 +102,9 @@ The following lists papers I've read and reviewed or made notes for.
 
 ## Scott Aaronson
 * [Why Philosophers Should Care About Computational Complexity (2011)](scott-aaronson-why-philosophers-should-care-about-computational-complexity)
+
+## Shane Legg
+* [Machine Super Intelligence (2008)](shane-legg-machine-super-intelligence)
 
 ## Vladimir Red'ko
 * [The Natural Way to Artificial Intelligence (2007)](vladimir-redko-the-natural-way-to-artificial-intelligence)

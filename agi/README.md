@@ -72,7 +72,6 @@ Tom
 * [Deconstruction of a mind](deconstruction-of-a-mind)
 * [Human development](human-development)
 * [Humans as machines](humans-as-machines)
-* [Observations on DNA](observations-on-dna)
 
 ## Computer/Software/Computer Science inspired exploration
 * [A procedure for writing programs](a-procedure-for-writing-programs)
