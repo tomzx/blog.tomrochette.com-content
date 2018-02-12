@@ -286,6 +286,28 @@ By observing the properties that can vary in the most common data structure, it 
 	* Merge all low level logic (no function call) into a single function
 	* Restructure the code
 
+# 2018-02-08
+* Discover all existing classes, methods and functions
+* Construct dependency graphs between classes, methods and functions
+* Build flow graphs
+
+* Follow the programmer through a programming assignment
+	* Define the task to accomplish
+		* Different flows depending on whether a task is a bug or a feature
+	* Identify the existing features that will help in accomplishing the given task
+
+* Bug
+	* Reproduce the issue locally
+	* Identify the source of the problem
+	* Suggest a fix
+
+* Feature
+	* Define the missing functionalities
+	* Implement the functionalities
+		* Identify existing functionalities that may be reused
+
+* "I need something that lets me add X"
+
 # See also
 * [Automated refactoring](../automated-refactoring)
 * Program induction
