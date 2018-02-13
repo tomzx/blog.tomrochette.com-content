@@ -466,3 +466,9 @@ Ronen I. Brafman, Moshe Tennenholtz
 
 ### Life 3.0: Being Human in the Age of Artificial Intelligence (2017-12 - ?)
 Max Tegmark
+
+### Speculations concerning the first ultraintelligent machine (2018-01)
+Irving John Good
+
+### When will computer hardware match the human brain? (2018-02)
+Hans Moravec
