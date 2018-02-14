@@ -76,7 +76,7 @@ Marcus Hutter
 ### A Collection of Definitions of Intelligence (2015-09)
 Shane Legg
 
-### Machine Super Intelligence (2015-09 - ?)
+### Machine Super Intelligence (2015-09 - 2018-02)
 Shane Legg
 
 ### Gödel, Escher, Bach: an Eternal Golden Braid (2015-09 - ?)
@@ -464,7 +464,7 @@ Levente Kocsis, Csaba Szepesvári
 ### R-MAX - A General Polynomial Time Algorithm for Near-Optimal Reinforcement Learning (2017-12)
 Ronen I. Brafman, Moshe Tennenholtz
 
-### Life 3.0: Being Human in the Age of Artificial Intelligence (2017-12 - ?)
+### Life 3.0: Being Human in the Age of Artificial Intelligence (2017-12 - 2018-02)
 Max Tegmark
 
 ### Speculations concerning the first ultraintelligent machine (2018-01)
