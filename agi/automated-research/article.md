@@ -7,7 +7,7 @@ taxonomy:
 ---
 
 ## Context
-Scientific research is a method through which state of the art (SotA) techniques, tools and methologies are developed and shared with the scientific community. It consists of numerous steps through which an individual goes in order to familiarize himself with the current SotA.
+Scientific research is a method through which state of the art (SotA) techniques, tools and methodologies are developed and shared with the scientific community. It consists of numerous steps through which an individual goes in order to familiarize himself with the current SotA.
 
 Currently, such process is generally defined but certainly not globally accepted. Furthermore, and this is the part we are interested in here, most of the process could be automated.
 
@@ -28,7 +28,7 @@ Currently, such process is generally defined but certainly not globally accepted
 	* Support only arxiv?
 
 ## Observations
-* If a reference is referred to often because it is large in size and can appeal to a wide variety of interest, does not necessarily make it valuable for your current purpose
+* If a reference is referred to often because it is large in size and can appeal to a wide variety of interest, it does not necessarily make it valuable for your current purpose
 
 # Overview
 In this article we explore the idea of automating scientific research. We attempt to cover the various research phases such as papers retrieval, assessment of the domain, determination of the core papers and authors in the field, construction of a bibliography and more.
@@ -61,7 +61,7 @@ The purpose of the automation process is to reduce the effort required for an in
 Here we attempt to list the necessary components that will be used during the research procedure.
 
 ## Paper searcher
-Use various search engines in order to retrieve relevant papers. This has the obvious shortcoming that the quality of the papers retrieve is directly related with the quality of the search engines used.
+Use various search engines in order to retrieve relevant papers. This has the obvious shortcoming that the quality of the papers retrieved is directly related with the quality of the search engines used.
 
 ## File downloader
 Download papers of interest for further processing.
@@ -75,7 +75,7 @@ Using the text extracted previously, we run a program with various heuristics th
 If papers were to follow a structured format convention, the text extractor and paper extractor would most likely be unnecessary components, except to process old papers that did not respect such convention.
 
 ## Paper evaluator
-We attempt to evaluate the quality of a paper. This is based on various metrics such as:
+We attempt to evaluate the quality of a paper (a metric akin to a page rank). This is based on various metrics such as:
 
 * Author "prestige" (number of referenced articles, number of references)
 * Number of references in the paper
@@ -95,13 +95,13 @@ As we process papers, we want to make sure not to reprocess already processed pa
 With numerous papers processed, we can now construct a list of all references that were extracted.
 
 ## Reference graph generator
-One step further after having built a reference list is to build a reference graph. A reference graph is a visual representation of the papers referring to other papers.
+One step further after having built a reference list is to build a reference graph. A reference graph is a representation of the papers referring to other papers.
 
 ## Author list generator
 By extracting authors from papers and their references, it is possible for us to build a list of researchers in a given domain, which can prove to be a useful tool if one wants to find resources that may be useful in their own research.
 
 ## Author reference graph generator
-As with the reference graph, the author reference graph is a visual representation that helps the researcher observe which author refers to which other authors. This can be an important tool to discover when there's only cross-referencing or very little external referencing in someone's work.
+As with the reference graph, the author reference graph is a representation that helps the researcher observe which author refers to which other authors. This can be an important tool to discover when there's only cross-referencing or very little external referencing in someone's work.
 
 # Features extraction
 In order to extract meaningful features out of scientific articles, we need to determine the features we are interested in. To do so, we inspect a small amount (~10/50) of articles and extract the elements we want to construct a database with.
@@ -231,6 +231,8 @@ What are the phases of a research?
 * Paper writing
 * Formatting
 * Peer review
+
+* What we want from such a system is for it to answer to our questions. If we want to know how to do X, then it should know how to do it, as well as to list all the dependent knowledge you will need in order to understand/make use of the answer provided. As such, it will need to have a good model of your own knowledge
 
 # See also
 
