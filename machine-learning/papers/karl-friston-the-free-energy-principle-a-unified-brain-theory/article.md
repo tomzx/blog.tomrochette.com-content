@@ -3,7 +3,7 @@ title: Karl Friston - The free-energy principle: a unified brain theory? (2010)
 created: 2018-02-16
 taxonomy:
   category: [Machine Learning]
-  status: in progress
+  status: finished
 ---
 
 ## Context
@@ -41,7 +41,8 @@ taxonomy:
 ## The cell assembly and correlation theory
 * The cell assembly theory posits that groups of interconnected neurons are formed through a strengthening of synaptic connections that depends on correlated pre- and postsynaptic activity; that is, "cells that fire together wire together"
 
-## Biased competition and attention
+## Optimal control theory and game theory
+* Value is central to theories of brain function that are based on reinforcement learning and optimum control. The basic notion that underpins these treatments is that the brain optimizes value, which is expected reward or utility (or its complement - expected loss or cost)
 
 # See also
 
