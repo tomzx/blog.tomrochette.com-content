@@ -232,6 +232,54 @@ taxonomy:
 * The availability heuristic, like other heuristics of judgment, substitutes one question for another: you wish to estimate the size of a category or the frequency of an event, but you report an impression of the ease with which instances come to mind
 
 ### The Psychology of Availability
+* How will people's impressions of the frequency of a category be affected by a requirement to list a specified number of instances?
+* Self-ratings were dominated by the ease with which examples had come to mind. The experience of fluent retrieval of instances trumped the number retrieved
+* When people are instructed to frown while doing a task, they actually try harder and experience greater cognitive strain
+* Judgments are no longer influenced by ease of retrieval when the experience of fluency is given a spurious explanation by the presence of curved or straight text boxes, by the background color of the screen, or by other irrelevant factors that the experimenters dreamed up
+* Among the basic features of System 1 is its ability to set expectations and to be surprised when these expectations are violated
+* System 2 can reset the expectations of System 1 on the fly, so that an event that would normally be surprising is now almost normal
+
+## Availability, Emotion, and Risk
+### Availability and Affect
+* Our expectations about the frequency of events are distorted by the prevalence and emotional intensity of the messages to which we are exposed
+* People often form opinions and make choices that directly express their feelings and their basic tendency to approach or avoid, often without knowing that they are doing so
+* Damasio and his colleagues have observed that people who do not display the appropriate emotions before they decide, sometimes because of brain damage, also have an impaired ability to make good decisions
+
+### The Public and the Experts
+* A picture of Mr. and Ms. Citizen that is far from flattering: guided by emotion rather than by reason, easily swayed by trivial details, and inadequately sensitive to differences between low and negligibly low probabilities
+* Experts show many of the same biases as the rest of us in attenuated form, but often their judgments and preferences about risks diverge from those of other people
+* Experts often measure risks by the number of lives (or life-years) lost, while the public draws finer distinctions, for example between "good deaths" and "bad deaths", or between random accidental fatalities and deaths that occur in the course of voluntary activities such as skiing
+
+### The Sins of Representativeness
+* Judging probability by representativeness has important virtues: the intuitive impressions that it produces are often more accurate than chance guesses would be
+* One sin of representativeness is an excessive willingness to predict the occurrence of unlikely (low base-rate) events
+* When an incorrect intuitive judgment is made, System 1 and System 2 should both be indicted. System 1 suggested the incorrect intuition, and System 2 endorsed it and expressed it in a judgment
+* There are two possible reasons for the failure of System 2: ignorance or laziness
+* The second sin of representativeness is insensitivity to the quality of evidence
+* There is one thing you can do when you have doubts about the quality of the evidence: let your judgments of probability stay close to the base rate
+
+### How to Discipline Intuition
+* There are two ideas to keep in mind about Bayesian reasoning and how we tend to mess it up
+	* Base rates matter, even in the presence of evidence about the case at hand
+	* Intuitive impressions of the diagnosticity of evidence are often exaggerated
+* The essential keys to disciplined Bayesian reasoning can be simply summarized
+	* Anchor your judgment of the probability of an outcome on a plausible base rate
+	* Question the diagnosticity of your evidence
+
+## Linda: Less Is More
+* When you specify a possible event in greater detail you can only lower its probability
+* Conjunction fallacy: when people judge a conjunction of two events to be more probable than one of the events in a direct comparison
+
+### Less Is More, Sometimes Even in Joint Evaluation
+* A question phrased as "how many?" makes you think of individuals, but the same question phrased as "what percentage?" does not
+* If you visit a courtroom you will observe that lawyers apply two styles of criticism:
+	* to demolish a case they raise doubts about the strongest arguments that favor it
+	* to discredit a witness, they focus on the weakest part of the testimony
+
+## Causes Trump Statistics
+### Causal Stereotypes
+* Statistical base rates are generally underweighted, and sometimes neglected altogether, when specific information about the case at hand is available
+* Causal base rates are treated as information about individual case and are easily combined with other case-specific information
 
 # See also
 
