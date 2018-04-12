@@ -39,12 +39,14 @@ The following list is an attempt at ordering the topics from most important to l
 * Time
 * Days of week
 * Months
+* Math/measurements
 * Home
 * Clothing
 * Body
 * Color
 * Nouns
 * Location
+* Materials
 * People/Relationship
 * Food
 * Beverage
@@ -55,8 +57,6 @@ The following list is an attempt at ordering the topics from most important to l
 * Countries
 * Electronics
 * Nature
-* Materials
-* Math/measurements
 * Seasons
 * Society
 * Art
@@ -180,6 +180,7 @@ Every 10/25/50h of time spent learning, you should record yourself speaking a fe
 * https://www.tefl.net/elt/articles/teacher-technique/7-tricks-to-help-remember-new-words/
 * https://en.wikipedia.org/wiki/Common_European_Framework_of_Reference_for_Languages#Common_reference_levels
 * https://www.fluentin3months.com/hours-to-learn-a-language/
+* https://lifehacker.com/5903288/i-learned-to-speak-four-languages-in-a-few-years-heres-how
 
 ## Exchange websites
 * https://www.conversationexchange.com/
