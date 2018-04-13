@@ -281,6 +281,26 @@ taxonomy:
 * Statistical base rates are generally underweighted, and sometimes neglected altogether, when specific information about the case at hand is available
 * Causal base rates are treated as information about individual case and are easily combined with other case-specific information
 
+### Can Psychology be Taught
+* Nisbett and Borgida found that when they presented their students with a surprising statistical fact, the students managed to learn nothing at all. But when the students were surprised by individual cases - two nice people who had not helped - they immediately made the generalization and inferred that helping is more difficult than they had thought
+	* Subjects' unwillingness to deduce the particular from the general was matched only by their willingness to infer the general from the particular
+
+## Regression to the Mean
+* Rewards for improved performance work better than punishment of mistakes
+* We tend to be nice to other people when they please us and nasty when they do not, we are statistically punished for being nice and rewarded for being nasty
+
+### A Defense of Extreme Predictions?
+* If you expect your predictions to be of modest validity, you will never guess an outcome that is either rare or far from the mean
+
+## The Illusion of Understanding
+* The explanatory stories that people find compelling are simple; are concrete rather than abstract; assign a larger role to talent, stupidity, and intentions than to luck; and focus on a few striking events that happened rather than on the countless events that failed to happen
+
+## The Illusion of Validity
+* For some of our most important beliefs we have no evidence at all, except that people we love and trust hold these beliefs
+
+## The Illusions of Pundits
+* The person who acquires more knowledge develops an enhanced illusion of her skill and becomes unrealistically overconfident
+
 # See also
 
 # References
