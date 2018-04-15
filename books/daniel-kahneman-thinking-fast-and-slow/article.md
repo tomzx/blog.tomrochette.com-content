@@ -301,6 +301,22 @@ taxonomy:
 ## The Illusions of Pundits
 * The person who acquires more knowledge develops an enhanced illusion of her skill and becomes unrealistically overconfident
 
+## Intuitions vs Formulas
+* There are few circumstances under which it is a good idea to substitute judgment for a formula
+* To maximize predictive accuracy, final decisions should be left to formulas, especially in low-validity environments
+
+### Intuition as Recognition
+* Recognition-primed decision
+	* A tentative plan comes to mind by an automatic function of associative memory (System 1)
+	* A tentative plan is mentally simulated to check if it will work (System 2)
+
+### The Environment of Skill
+* The confidence that people have in their intuitions is not a reliable guide to their validity. In other words, do not trust anyone - including yourself - to tell you how much you should trust their judgment
+* When both these conditions are satisfied, intuitions are likely to be skilled
+	* an environment that is sufficiently regular to be predictable
+	* an opportunity to learn these regularities through prolonged practice
+
+
 # See also
 
 # References
