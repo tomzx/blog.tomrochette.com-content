@@ -76,9 +76,6 @@ Marcus Hutter
 ### A Collection of Definitions of Intelligence (2015-09)
 Shane Legg
 
-### Machine Super Intelligence (2015-09 - 2018-02)
-Shane Legg
-
 ### Gödel, Escher, Bach: an Eternal Golden Braid (2015-09 - ?)
 Douglas R. Hofstadter
 
@@ -413,11 +410,23 @@ Alex Graves, Marc G. Bellemare, Jacob Menick, Rémi Munos, Koray Kavukcuoglu
 ### The Strategic Student Approach for Life-Long Exploration and Learning (2017-06)
 Manuel Lopes, Pierre-Yves Oudeyer
 
+### Attention Is All You Need (2017-07)
+Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Lukasz Kaiser, Illia
+
+### Show, Attend and Tell: Neural Image Caption Generation with Visual Attention (2017-07)
+Kelvin Xu, Jimmy Ba, Ryan Kiros, Kyunghyun Cho, Aaron C. Courville, Ruslan Salakhutdinov, Richard S. Zemel, Yoshua Bengio
+
+### Deep Reinforcement Learning from Human Preferences (2017-07)
+Paul F. Christiano, Jan Leike, Tom Brown, Miljan Martic, Shane Legg, Dario Amodei
+
 ### The Master Algorithm: How the Quest for the Ultimate Learning Machine Will Remake Our World (2017-07 - 2017-08)
 Pedro Domingos
 
 ### Algorithms to Live By: The Computer Science of Human Decisions (2017-07 - 2017-08)
 Brian Christian, Tom Griffiths
+
+### Programmable Agents (2017-08)
+Misha Denil, Sergio Gomez Colmenarejo, Serkan Cabi, David Saxton, Nando de Freitas
 
 ### Principles of Computational Modelling in Neuroscience (2017-07 - (2017-08))
 David Sterratt, Bruce Graham, Andrew Gillies, David Willshaw
@@ -434,6 +443,15 @@ Nick Bostrom
 ### The Brain: The Story of You (2017-08 - 2017-09)
 David Eagleman
 
+### The Consciousness Prior (2017-09)
+Yoshua Bengio
+
+### Learning with Opponent-Learning Awareness (2017-09)
+Jakob N. Foerster, Richard Y. Chen, Maruan Al-Shedivat, Shimon Whiteson, Pieter Abbeel, Igor Mordatch
+
+### StarCraft II: A New Challenge for Reinforcement Learning (2017-09)
+Oriol Vinyals, Timo Ewalds, Sergey Bartunov, Petko Georgiev, Alexander Sasha Vezhnevets, Michelle Yeo, Alireza Makhzani, Heinrich Küttler, John Agapiou, Julian Schrittwieser, John Quan, Stephen Gaffney, Stig Petersen, Karen Simonyan, Tom Schaul, Hado van Hasselt, David Silver, Timothy P. Lillicrap, Kevin Calderone, Paul Keet, Anthony Brunasso, David Lawrence, Anders Ekermo, Jacob Repp, Rodney Tsing
+
 ### Is the theory of everything merely the ultimate ensemble theory? (2017-09)
 Max Tegmark
 
@@ -442,6 +460,12 @@ John Johnston
 
 ### Developmental Biology (2017-10 - ?)
 Scott Gilbert
+
+### Mastering the game of Go without human knowledge (2017-10)
+David Silver, Julian Schrittwieser, Karen Simonyan, Ioannis Antonoglou, Aja Huang, Arthur Guez, Thomas Hubert, Lucas R Baker, Matthew Lai, Adrian Bolton, Yutian Chen, Timothy P. Lillicrap, Fan Xin Hui, Laurent Sifre, George van den Driessche, Thore Graepel, Demis Hassabis
+
+### Fast and Slow with Deep Learning and Tree Search (2017-10)
+Thomas Anthony, Zheng Tian, David Barber
 
 ### Rainbow: Combining Improvements in Deep Reinforcement Learning (2017-11)
 Matteo Hessel, Joseph Modayil, Hado van Hasselt, Tom Schaul, Georg Ostrovski, Will Dabney, Daniel Horgan, Bilal Piot, Mohammad Gheshlaghi Azar, David Silver
@@ -467,8 +491,34 @@ Ronen I. Brafman, Moshe Tennenholtz
 ### Life 3.0: Being Human in the Age of Artificial Intelligence (2017-12 - 2018-02)
 Max Tegmark
 
+## 2018
+
 ### Speculations concerning the first ultraintelligent machine (2018-01)
 Irving John Good
 
+### A Decision-Theoretic Generalization of On-Line Learning and an Application to Boosting (2018-01)
+Yoav Freund, Robert E. Schapire
+
+### A Trainable Spaced Repetition Model for Language Learning (2018-02)
+Burr Settles, Brendan Meeder
+
 ### When will computer hardware match the human brain? (2018-02)
 Hans Moravec
+
+### Machine Super Intelligence (2015-09 - 2018-02)
+Shane Legg
+
+### The free-energy principle: a unified brain theory? (2018-02)
+Karl Friston
+
+### Precise Condition Synthesis for Program Repair (2018-02)
+Yingfei Xiong, Jie Wang, Runfa Yan, Jiachen Zhang, Shi Han, Gang Huang, Lu Zhang
+
+### Intrinsically Motivated Learning of Hierarchical Collections of Skills (2018-02)
+Satinder P. Singh, Andrew G. Barto, Nuttapong Chentanez
+
+### History Driven Program Repair (2018-02)
+Xuan-Bach D. Le, David Lo, Claire Le Goues
+
+### Machine Theory of Mind (2018-02)
+Neil C. Rabinowitz, Frank Perbet, H. Francis Song, Chiyuan Zhang, S. M. Ali Eslami, Matthew M Botvinick
