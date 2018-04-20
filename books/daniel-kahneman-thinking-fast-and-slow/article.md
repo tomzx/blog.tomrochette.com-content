@@ -315,7 +315,70 @@ taxonomy:
 * When both these conditions are satisfied, intuitions are likely to be skilled
 	* an environment that is sufficiently regular to be predictable
 	* an opportunity to learn these regularities through prolonged practice
+* It is wrong to blame anyone for failing to forecast accurately in an unpredictable world
 
+### Feedback and Practice
+* Short-term anticipation and long-term forecasting are different tasks
+
+### Evaluating Validity
+* It is possible to distinguish intuitions that are likely to be bogus
+	* If the environment is sufficiently regular and if the judge has had a chance to learn its regularities, the associative machinery will recognize situations and generate quick and accurate predictions and decisions
+* When evaluating expert intuition you should always consider whether there was an adequate opportunity to learn the cues, even in a regular environment
+
+## The Outside View
+* The proper way to elicit information from a group is not by starting with a public discussion but by confidentially collecting each person's judgment
+
+### Drawn to the Inside View
+* There are many ways for any plan to fail, and although most of them are too improbable to be anticipated, the likelihood that something will go wrong in a big project is high
+* If the reference class is properly chosen, the outside view will give an indication of where the ballpark is, and it may suggest that the inside-view forecasts are not even close to it
+* People who have information about an individual case rarely feel the need to know the statistics of the class to which the case belongs
+
+### The Planning Fallacy
+* The authors of unrealistic plans are often driven by the desire to get the plan approved - whether by their superiors or by a client - supported by the knowledge that projects are rarely abandoned unfinished merely because of overruns in costs or completion time. In such cases, the responsibility for avoiding the planning fallacy lies with the decision makers who approve the plan. If they do not recognize the need for an outside view, they commit a planning fallacy
+
+### Mitigating the Planning Fallacy
+* The prevalent tendency to underweight or ignore distributional information is perhaps the major source of error in forecasting. Planners should therefore make every effort to frame the forecasting problem so as to facilitate utilizing all the distributional information that is available
+* The forecasting method
+	* Identify an appropriate reference class
+	* Obtain the statistics of the reference class. Use the statistics to generate a baseline prediction
+	* Use specific information about the case to adjust the baseline prediction, if there are particular reasons to expect the optimistic bias to be more or less pronounced in this project than in others of the same type
+
+### Decisions and Errors
+* When forecasting the outcomes of risky projects, executives too easily fall victim to the planning fallacy. In its grip, they make decisions based on delusional optimism rather than on a rational weighting of gains, losses, and probabilities. They overestimate benefits and underestimate costs
+
+## The Engine of Capitalism
+### Optimists
+* The people who have the greatest influence on the lives of others are likely to be optimistic and overconfident, and to take more risks than they realize
+
+### Entrepreneurial Delusions
+* One of the benefits of an optimistic temperament is that it encourages persistence in the face of obstacles
+* The financial benefits of self-employment are mediocre: given the same qualifications, people achieve higher average returns by selling their skills to employers than by setting out on their own
+* Psychologists have confirmed that most people genuinely believe that they are superior to most others on most desirable traits - they are willing to bet small amounts of money on these beliefs in the laboratory
+
+### Overconfidence
+* Inadequate appreciation of the uncertainty of the environment inevitably leads economic agents to take risks they should avoid
+* An unbiased appreciation of uncertainty is a cornerstone of rationality - but it is not what people and organizations want
+* The main benefit of optimism is resilience in the face of setbacks
+
+### The Premortem: A Partial Remedy
+* When the organization has almost come to an important decision but has not formally commited itself, Klein proposes gathering for a brief session a group of individuals who are knowledgeable about the decision. The premise of the session is a short speech: "Imagine that we are a year into the future. We implemented the plan as it now exists. The outcome was a disaster. Please take 5 to 10 minutes to write a brief history of that disaster."
+* The premortem has two main advantages:
+	* it overcomes the groupthink that affects many teams once a decision appears to have been made
+	* it unleashes the imagination of knowledgeable individuals in a much-needed direction
+
+## Choices
+### Bernoulli's Error
+* We normally speak of changes of income in terms of percentages
+* Prior to Bernoulli, mathematicians had assumed that gambles are assessed by their expected value: a weighted average of the possible outcomes, where each outcome is weighted by its probability
+* Bernoulli observed that most people dislike risk, and if they are offered a choice between a gamble and an amount equal to its expected value they will pick the sure thing
+	* In fact a risk-averse decision maker will choose a sure thing that is less than expected value, in effect paying a premium to avoid the uncertainty
+* Because Bernoulli's model lacks the idea of a reference point, expected utility theory does not represent the obvious fact that a good outcome for one is bad for another
+* Theory-induced blindness: once you have accepted a theory and used it as a tool in your thinking, it is extraordinarily difficult to notice its flaws
+
+### Prospect Theory
+* Your attitude to risk would not be different if your net worth were higher or lower by a few thousand dollars
+* You also know that your attitude to gains and losses are not derived from your evaluation of your wealth
+* You just like winning and dislike losing - and you almost certainly dislike losing more than you like winning
 
 # See also
 
