@@ -379,6 +379,29 @@ taxonomy:
 * Your attitude to risk would not be different if your net worth were higher or lower by a few thousand dollars
 * You also know that your attitude to gains and losses are not derived from your evaluation of your wealth
 * You just like winning and dislike losing - and you almost certainly dislike losing more than you like winning
+* Organisms that treat threats as more urgent than opportunities have a better chance to survive and reproduce
+
+### Loss Aversion
+* In mixed gambles, where both a gain and a loss are possible, loss aversion causes extremely risk-averse choices
+* In bad choices, where a suer loss is compared to a larger loss that is merely probable, diminishing sensitivity causes risk seeking
+
+### Blind Spots of Prospect Theory
+* The problem is that regret theories make few striking predictions that would distinguish them from prospect theory, which has the advantage of being simpler
+
+## The Endowment Effect
+* Tastes are not fixed; they vary with the reference point
+* The disadvantages of a change loom larger than its advantages, inducing a bias that favors the status quo
+
+### The Endowment Effect
+* Owning a good appears to increase its value
+* What distinguishes market transactions from reluctance to sell certain items?
+	* Certain things are held "for exchange" while other are held "for use"
+* Selling goods that one would normally use activates regions of the brain that are associated with disgust and pain
+* Buying also activates these areas, but only when the prices are perceived as too high - when you feel that a seller is taking money that exceeds the exchange value
+* Brain recordings indicates that buying at especially low prices is a pleasurable event
+* Participants displayed an endowment effect only if they had physical possession of the good for a while before the possibility of trading it was mentioned
+
+## Bad Events
 
 # See also
 
