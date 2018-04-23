@@ -14,6 +14,8 @@ All jobs contain a large amount of repetitive work. This repetitive work may be 
 ## Things to explore
 * Design and improve your processes
 * Work through tasks using a process, where you record what you do, so that you may leave the task and come back to it later and have information about its last state
+	* What prevents people from methodically recording what they do? Is it mostly because it is time consuming and of little value, or because it's too difficult to do properly?
+		* A part of the problem seems to be that interlacing recording with doing the actual steps may create a mental burden on the person, creating the effect of working on two tasks in parallel instead of only on the task at hand
 * Are there any DAG to programming language converter?
 * How do you determine the beginning/end of a workflow (subroutine boundaries)?
 * What is the easiest format to share this sort of information with others?
@@ -29,6 +31,7 @@ The most common tool used to make a process explicit is the directed acyclic gra
 * Can be visually inspected
 * Can be shared with others to gather feedback
 * Can be automated
+	* Notifications to users for manual steps
 * Can be stored and retrieved later (allowing you to forget about it and rapidly get back to it)
 
 # Steps
@@ -51,3 +54,5 @@ The most common tool used to make a process explicit is the directed acyclic gra
 # See also
 
 # References
+* https://www.process.st/
+* https://www.pipefy.com/
