@@ -402,6 +402,27 @@ taxonomy:
 * Participants displayed an endowment effect only if they had physical possession of the good for a while before the possibility of trading it was mentioned
 
 ## Bad Events
+### Negativity Dominance
+* The negativity trumps the positive in many ways, and loss aversion is one of many manifestations
+* Bad emotions, bad parents, and bad feedback have more impact than good ones, and bad information is processed more thoroughly than good. The self is more motivated to avoid bad self-definitions than to pursue good ones. Bad impressions and bad stereotypes are quicker to form and more resistant to disconfirmation than good ones
+* The long-term success of a relationship depends far more on avoiding the negative than on seeking the positive
+* Gottman estimated that a stable relationship requires that good interactions outnumber bad interactions by at least 5 to 1
+* The boundary between good and bad is a reference point that changes over time and depends on the immediate circumstances
+
+### Goals are Reference Points
+* We are driven more strongly to avoid losses than to achieve gains
+
+## The Fourfold Pattern
+### Changing Chances
+* The possibility effect causes highly unlikely outcomes to be weighted disproportionately more than they "deserve"
+* The certainty effect causes outcomes that are almost certain to be given less weight than their probability justifies
+* The decision weights that people assign to outcomes are not identical to the probabilities of these outcomes, contrary to the expectation principle
+	* Improbable outcomes are overweighted (possibility effect)
+	* Outcomes that are almost certain are underweighted relative to actual certainty (certainty effect)
+
+### The Fourfold Pattern
+* People attach values to gains and losses rather than to wealth
+* The decision weights that they assign to outcomes are different from probabilities
 
 # See also
 
