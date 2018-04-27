@@ -423,6 +423,20 @@ taxonomy:
 ### The Fourfold Pattern
 * People attach values to gains and losses rather than to wealth
 * The decision weights that they assign to outcomes are different from probabilities
+* Because defeat is so difficult to accept, the losing side in wars often fights long past the point at which the victory of the other side is certain, and only a matter of time
+
+## Rare Events
+### Overestimation and Overweighting
+* The successful execution of a plan is specific and easy to imagine when one tries to forecast the outcome of a project
+* In contrast, the alternative of failure is diffuse, because there are innumerable ways for things to go wrong
+
+### Vivid Outcomes
+* Adding irrelevant but vivid details to a monetary outcome disrupts calculation
+* Cognitive ease contributes to the certainty effect: when you hold a vivid image of an event, the possibility of its not occurring is also represented vividly, and overweighted
+
+### Decisions from Global Impressions
+* The result of many experiments suggest that rare events are not overweighted when we make decisions such as choosing a restaurant or tying down the boiler to reduce earthquake damage
+* Obsessive concerns, vivid images, concrete representations, and explicit reminders all contribute to overweighting
 
 # See also
 
