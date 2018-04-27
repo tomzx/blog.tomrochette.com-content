@@ -15,6 +15,9 @@ The following lists papers I've read and reviewed or made notes for.
 * [Neural Turing Machines (2014)](alex-graves-neural-turing-machines)
 * [Offline Handwriting Recognition with Multidimensional Recurrent Neural Networks (2009)](alex-graves-offline-handwriting-recognition-with-multidimensional-recurrent-neural-networks)
 
+## Andrew Barto
+* [Intrinsically Motivated Learning of Hierarchical Collections of Skills (2004)](andrew-barto-intrinsically-motivated-learning-of-hierarchical-collections-of-skills)
+
 ## Andrew Carlson
 * [Toward an Architecture for Never-Ending Language Learning (2010)](andrew-carlson-toward-an-architecture-for-never-ending-language-learning)
 
@@ -26,6 +29,9 @@ The following lists papers I've read and reviewed or made notes for.
 
 ## Bradly Stadie
 * [Third-Person Imitation Learning (2017)](bradly-stadie-third-person-imitation-learning)
+
+## Burr Settles
+* [A Trainable Spaced Repetition Model for Language Learning (2016)](burr-settles-a-trainable-spaced-repetition-model-for-language-learning)
 
 ## Carlos Florensa
 * [Reverse Curriculum Generation for Reinforcement Learning (2017)](carlos-florensa-reverse-curriculum-generation-for-reinforcement-learning)
@@ -57,11 +63,17 @@ The following lists papers I've read and reviewed or made notes for.
 ## Jacob Devlin
 * [RobustFill: Neural Program Learning under Noisy I/O (2017)](jacob-devlin-robustfill-neural-program-learning-under-noisy-i-o)
 
+## Karl Friston
+* [The free-energy principle: a unified brain theory? (2010)](karl-friston-the-free-energy-principle-a-unified-brain-theory)
+
 ## Kelvin Xu
 * [Show, Attend and Tell: Neural Image Caption Generation with Visual Attention (2015)](kelvin-xu-show-attend-and-tell-neural-image-caption-generation-with-visual-attention)
 
 ## Ken Kansky
 * [Schema Networks: Zero-shot Transfer with a Generative Causal Model of Intuitive Physics (2017)](ken-kansky-schema-networks-zero-shot-transfer-with-a-generative-causal-model-of-intuitive-physics)
+
+## Kieran Milan
+* [The Forget-me-not Process (2016)](kieran-milan-the-forget-me-not-process)
 
 ## Geoffrey Hinton
 * [Distilling the Knowledge in a Neural Network (2015)](geoffrey-hinton-distilling-the-knowledge-in-a-neural-network)
@@ -102,6 +114,9 @@ The following lists papers I've read and reviewed or made notes for.
 ## Nal Kalchbrenner
 * [Grid Long Short-Term Memory (2015)](nal-kalchbrenner-grid-long-short-term-memory)
 
+## Neil Rabinowitz
+* [Machine Theory of Mind (2018)](neil-rabinowitz-machine-theory-of-mind)
+
 ## Oriol Vinyals
 * [Starcraft II: A New Challenge for Reinforcement Learning (2017)](oriol-vinyals-starcraft-ii-a-new-challenge-for-reinforcement-learning)
 
@@ -129,10 +144,19 @@ The following lists papers I've read and reviewed or made notes for.
 
 ## Volodymyr Mnih
 * [Human-level control through deep reinforcement learning (2015)](volodymyr-mnih-human-level-control-through-deep-reinforcement-learning)
-* [Playing Atari with Deep Reinforcement Learning (2013)](volodymr-mnih-playing-atari-with-deep-reinforcement-learning)
+* [Playing Atari with Deep Reinforcement Learning (2013)](volodymyr-mnih-playing-atari-with-deep-reinforcement-learning)
 
 ## Wei Ping
 * [Deep Voice 3: 2000-Speaker Neural Text-to-Speech (2017)](wei-ping-deep-voice-3-2000-speaker-neural-text-to-speech)
+
+## Xuan-Bach Le
+* [History Driven Program Repair (2016)](xuan-bach-le-history-driven-program-repair)
+
+## Yingfei Xiong
+* [Precise Condition Synthesis for Program Repair (2017)](yingfei-xiong-precise-condition-synthesis-for-program-repair)
+
+## Yoav Freund
+* [A Decision-Theoretic Generalization of On-Line Learning and an Application to Boosting (1995)](yoav-freund-a-decision-theoretic-generalization-of-on-line-learning-and-an-application-to-boosting)
 
 ## Yoshua Bengio
 * [Curriculum Learning (2009)](yoshua-bengio-curriculum-learning)
@@ -140,4 +164,3 @@ The following lists papers I've read and reviewed or made notes for.
 
 ## Yuxuan Wang
 * [Tacotron: Towards End-to-End Speech Synthesis (2017)](yuxuan-wang-tacotron-towards-end-to-end-speech-synthesis)
-
