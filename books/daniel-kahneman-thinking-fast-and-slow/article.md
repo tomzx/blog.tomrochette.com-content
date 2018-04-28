@@ -438,6 +438,38 @@ taxonomy:
 * The result of many experiments suggest that rare events are not overweighted when we make decisions such as choosing a restaurant or tying down the boiler to reduce earthquake damage
 * Obsessive concerns, vivid images, concrete representations, and explicit reminders all contribute to overweighting
 
+## Risk Policies
+### Broad or Narrow?
+* Narrow framing: a sequence of two simple decisions, considered separately
+* Broad framing: a single comprehensive decision, with four options
+* Humans are by nature narrow framers
+* Because we are susceptible to WYSIATI and averse to mental effort, we tend to make decisions as problems arise, even when we are specifically instructed to consider them jointly
+
+### Samuelson's Problem
+* Under some very specific conditions, a utility maximizer who rejects a single gamble should also reject the offer of many
+
+### Risk Policies
+* Decision makers who are prone to narrow framing construct a preference every time they face a risky choice. They would do better by having a risk policy that they routinely apply whenever a relevant problem arises
+* A risk policy is a broad frame
+* The outside view is a broad frame for thinking about plans
+* A risk policy is a broad frame that embeds a particular risky choice in a set of similar choices
+* The outside view and the risk policy are remedies against two distinct biases that affect many decisions: the exaggerated optimism of the planning fallacy and the exaggerated caution induced by loss aversion
+
+## Keeping score
+* We refuse to cut losses when doing so would admit failure, we are biased against actions that could lead to regret, and we draw an illusory but sharp distinction between omission and commission
+
+### Mental Accounts
+* A rational decision maker is interested only in the future consequences of current investments
+
+### Regret
+* Regret is not the same as blame
+* People expect to have stronger emotional reactions (including regret) to an outcome that is produced by an action that than to the same outcome when it is produced by inaction
+* Consumers who are reminded that they may feel regret as a result of their choices show an increased preference for conventional options, favoring brand names over generics
+
+### Responsibility
+* Losses are weighted about twice as much as gains in several contexts
+* The loss-aversion coefficient is much higher in some situations. In particular, you may be more loss averse for aspects of your life that are more important than money, such as health. Furthermore, your reluctance to "sell" important endowments increases dramatically when doing so might make you responsible for an awful outcome
+
 # See also
 
 # References
