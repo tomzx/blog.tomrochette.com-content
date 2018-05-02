@@ -29,7 +29,7 @@ One way to do so is through experience acquisition, that is, by trying things ou
 
 We're also curious about how to determine quickly which of all of our dictionaries is the most appropriate for a data stream (as we certainly would like to avoid processing the data stream using dictionaries while generating output garbage). In this case there might be a few ways to prevent or reduce the amount of "garbage" data generated.
 
-One solution is to produce the stream of output for each dictionary and evaluate each stream after a time t. The purpose of the evaluation is to determine if the generated output stream is noise or it is producing something that can be part of a whole. For instance, if one dictionary is producing formulas but the produced formula so far is already malformed, we can say it is highly unlikely that this is the appropriate dictionary. On the other hand, if the dictionary is building an encrypted string, then it is close to impossible to evaluate if said string is part of a whole or not.
+One solution is to produce the stream of output for each dictionary and evaluate each stream after a time $t$. The purpose of the evaluation is to determine if the generated output stream is noise or it is producing something that can be part of a whole. For instance, if one dictionary is producing formulas but the produced formula so far is already malformed, we can say it is highly unlikely that this is the appropriate dictionary. On the other hand, if the dictionary is building an encrypted string, then it is close to impossible to evaluate if said string is part of a whole or not.
 
 <tbc></tbc>
 
