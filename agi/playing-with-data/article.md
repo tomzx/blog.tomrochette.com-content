@@ -45,7 +45,7 @@ One interesting aspect of data is how it is interpreted. The same bits of data c
 
 For example, let's imagine two programs that read the same source of data. The first program reads unsigned 32 bits numbers and sums them. The result is the sum of all the data it has seen.
 
-A second program reads in the same fashion, 32 bits words, and adds them to one another. The exception is that in this program, numbers are considered signed instead of unsigned. If certain numbers are negative, then the output of both programs will be different. However, if all numbers were positive, then both programs will behave the same.
+A second program reads in the same fashion, 32 bits words, and adds them to one another. The exception is that in this program, numbers are considered signed instead of unsigned. If certain numbers are negative, then the output of both programs will be different. However, if all numbers were positive, then both programs will behave the same, up to the point where the program using signed numbers will overflow and thus produce a negative value.
 
 A data stencil is a definition of how a program may read a blob of data. The data file may have a header with information and a body of content, it may contain fixed or variable length symbols, etc.
 
