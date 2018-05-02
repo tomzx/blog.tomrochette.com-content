@@ -291,3 +291,4 @@ Not tested.
 * https://www.microsoft.com/en-us/research/project/pex-and-moles-isolation-and-white-box-unit-testing-for-net/#publications
 * https://en.wikipedia.org/wiki/Decision-to-decision_path
 * http://pythoscope.org/
+* https://github.com/kassko/unit-tests-generator
