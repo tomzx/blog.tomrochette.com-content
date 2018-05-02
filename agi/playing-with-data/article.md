@@ -43,7 +43,7 @@ As such, the purpose of the symbol pipeline is to convert a data stream from one
 
 One interesting aspect of data is how it is interpreted. The same bits of data can be understood differently depending on how the reader processes them (which translation space is used).
 
-For example, here are two programs that read the same source of data. The first program reads unsigned 32 bits numbers and sums them. The result is the sum of all the data it has seen.
+For example, let's imagine two programs that read the same source of data. The first program reads unsigned 32 bits numbers and sums them. The result is the sum of all the data it has seen.
 
 A second program reads in the same fashion, 32 bits words, and adds them to one another. The exception is that in this program, numbers are considered signed instead of unsigned. If certain numbers are negative, then the output of both programs will be different. However, if all numbers were positive, then both programs will behave the same.
 
