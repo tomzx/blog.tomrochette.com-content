@@ -53,4 +53,4 @@ Our goal here is to be able to find that stencil when looking at data. For insta
 
 If I give it an image or a video, the same should apply.
 
-A more appropriate name for data stencils would be "a common format". As long as the representation space is shared by both parties, we are able to understand each other.
+A more appropriate name for data stencils would be "a common format". As long as the representation space is shared by both parties (sender and receiver, writer and reader, encrypter and decrypter), we are able to understand each other.
