@@ -33,8 +33,6 @@ One solution is to produce the stream of output for each dictionary and evaluate
 
 This idea implies that we already have enough knowledge about the syntax (structure) and semantics of the dictionary's language that we can assert whether something is valid or not. It is even possible to do that? <tbc></tbc>
 
-<tbc></tbc>
-
 ### Symbols pipelines
 
 The idea of symbols pipeline is that a data stream can be converted into various outputs. For instance, an image can be converted into various image formats, it can be converted into an ASCII art text, a textual description, a single number, etc.
