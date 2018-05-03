@@ -29,6 +29,7 @@ taxonomy:
 
 ## 3. Never-Ending Learning
 * We define a never-ending learning agent to be a system that, like humans, learns many types of knowledge, from years of diverse and primarily self-supervised experience, using previously learned knowledge to improve subsequent learning, with sufficient self-reflection to avoid plateaus in performance as it learns
+* The never-ending learning problem faced by the agent consists of a collection of learning tasks, and constraints that couple their solutions
 
 # See also
 
