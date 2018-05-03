@@ -38,6 +38,7 @@ taxonomy:
 $$
 f_i^* \equiv \arg\max_{f \in F_i} P_i(f)
 $$
+where $F_i$ is the set of all possible functions from $X_i$ to $Y_i$
 
 # See also
 
