@@ -31,8 +31,13 @@ taxonomy:
 * We define a never-ending learning agent to be a system that, like humans, learns many types of knowledge, from years of diverse and primarily self-supervised experience, using previously learned knowledge to improve subsequent learning, with sufficient self-reflection to avoid plateaus in performance as it learns
 * The never-ending learning problem faced by the agent consists of a collection of learning tasks, and constraints that couple their solutions
 * We define a never-ending learning problem $\mathcal{L}$ to be an ordered pair consisting of
-* a set $L = \{L_i\}$ of learning tasks, where the $i$th learning task $L_i = \langle T_i, P_i, E_i \rangle$ is to improve the agent's performance, as measured by performance metric $P_i$, on a given performance task $T_i$, through a given type of experience $E_i$
-* a set of coupling constraints $C = \{\langle \phi_k, V_k \rangle\}$ among the solutions to these learning tasks, where $\phi_k$ is a real-valued function over two or more learning tasks, specifying the degree of satisfaction of the constraint, and $V_k$ is a vector of indices over learning tasks, specifying the arguments to $\phi_k$
+	* a set $L = \{L_i\}$ of learning tasks, where the $i$th learning task $L_i = \langle T_i, P_i, E_i \rangle$ is to improve the agent's performance, as measured by performance metric $P_i$, on a given performance task $T_i$, through a given type of experience $E_i$
+	* a set of coupling constraints $C = \{\langle \phi_k, V_k \rangle\}$ among the solutions to these learning tasks, where $\phi_k$ is a real-valued function over two or more learning tasks, specifying the degree of satisfaction of the constraint, and $V_k$ is a vector of indices over learning tasks, specifying the arguments to $\phi_k$
+* Each performance task $T_i$ is a pair $T_i = \langle X_i, Y_i \rangle$ defining the domain and range of a function to be learned $f_i^*: X_i \rightarrow Y_i$
+* The performance metric $P_i: f \rightarrow \mathbb{R}$ defines the optimal learned function $f_i^*$ for the $i$th learning task:
+$$
+f_i^* \equiv \arg\max_{f \in F_i} P_i(f)
+$$
 
 # See also
 
