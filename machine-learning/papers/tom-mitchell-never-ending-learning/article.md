@@ -21,6 +21,11 @@ taxonomy:
 
 ## Introduction
 * Humans learn cumulatively: as they learn one thing this new knowledge helps them to more effectively learn the next, and if they revise their beliefs about the first then this change refines the second
+* The thesis of our research is that we will never truly understand machine or human learning until we can build computer programs that, like people
+	* learn many different types of knowledge of functions
+	* from years of diverse, mostly self-supervised experience
+	* in a staged curricular fashion, where previously learned knowledge enables learning further types of knowledge,
+	* where self-reflection and the ability to formulate new representations and new learning tasks enable the learner to avoid stagnation and performance plateaus
 
 # See also
 
