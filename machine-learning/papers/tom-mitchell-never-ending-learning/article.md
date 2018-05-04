@@ -43,6 +43,10 @@ f_i^* \equiv \arg\max_{f \in F_i} P_i(f)
 $$
 where $F_i$ is the set of all possible functions from $X_i$ to $Y_i$
 
+## 6. NELL's Learning Methosd and Architecture
+### 6.4 Self-Reflection and Self-Evaluation
+* Under what conditions can unlabeled data be used to estimate accuracy of learned functions
+
 # See also
 
 # References
