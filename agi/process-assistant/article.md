@@ -33,6 +33,7 @@ The most common tool used to make a process explicit is the directed acyclic gra
 # Purposes/Benefits
 * Can be (visually) inspected
 * Can be shared with others to gather feedback
+* Can be compared with others' own process
 * Can be automated
 	* Steps can be automatically executed
 	* Decisions can be executed without any user intervention (increases the perceived productivity of the user)
