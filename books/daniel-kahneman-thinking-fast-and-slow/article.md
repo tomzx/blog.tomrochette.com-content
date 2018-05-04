@@ -480,6 +480,11 @@ taxonomy:
 ### Experience and Memory
 * Pea-end rule: The global retrospective rating was well predicted by the average of the level of pain reported at the worst moment of the experience and at its end
 * Duration neglect: The duration of the procedure had no effect whatsoever on the ratings of total pain
+* What we learn from the past is to maximize the qualities of our future memories, not necessarily of our future experience
+
+### Biology vs. Rationality
+* Tastes and decisions are shaped by memories, and the memories can be wrong
+* We have strong preferences about the duration of our experiences of pain and pleasure. We want pain to be brief and pleasure to last. But our memory, a function of System 1, has evolved to represent the most intense moment of an episode of pain or pleasure (the peak) and the feelings when the episode was at its end
 
 # See also
 
