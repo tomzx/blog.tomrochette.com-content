@@ -26,19 +26,19 @@ All jobs contain a large amount of repetitive work. This repetitive work may be 
 * Processes are non-linear by nature, in that we try to make them into a sequence but there are always numerous elements that will interrupt a process in progress
 
 # Overview
-One of the biggest challenges of making procedures explicit is taking the time to do so. Doing so is a meta exercise that very few find of interest. Furthermore, this exercise is complicated by the fact that many activities are guided by some form of preemption (interrupting a task being carried out), which may make them harder to write down.
+One of the biggest challenges of making procedures explicit is taking the time to do so. Doing so is a meta exercise that very few people find of interest. Furthermore, this exercise is complicated by the fact that many activities are guided by some form of preemption (interrupting a task being carried out), which may make them harder to write down.
 
 The most common tool used to make a process explicit is the directed acyclic graph. In it, each task/action is a node and each directed arrow indicates from which task to which task one may proceed.
 
 # Purposes/Benefits
 * Can be (visually) inspected
-* Can be shared with others to gather feedback
-* Can be compared with others' own process
+* Can be shared and compared with others to gather feedback
+* Can be stored and retrieved later (allowing you to forget about it and rapidly get back to it)
+	* Can be followed by an individual that knows how to do the steps but not necessarily in what order
 * Can be automated
 	* Steps can be automatically executed
 	* Decisions can be executed without any user intervention (increases the perceived productivity of the user)
 	* Notifications to users for manual steps
-* Can be stored and retrieved later (allowing you to forget about it and rapidly get back to it)
 
 # Steps
 * Create a new process
