@@ -486,6 +486,10 @@ taxonomy:
 * Tastes and decisions are shaped by memories, and the memories can be wrong
 * We have strong preferences about the duration of our experiences of pain and pleasure. We want pain to be brief and pleasure to last. But our memory, a function of System 1, has evolved to represent the most intense moment of an episode of pain or pleasure (the peak) and the feelings when the episode was at its end
 
+## Life as a Story
+* A story is about significant events and memorable moments, not about time passing
+* In intuitive evaluation of entire lives as well as brief episodes, peaks and ends matter but duration does not
+
 # See also
 
 # References
