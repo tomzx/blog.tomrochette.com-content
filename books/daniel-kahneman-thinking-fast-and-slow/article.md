@@ -476,6 +476,11 @@ taxonomy:
 ### Good Frames
 * Broader frames and inclusive accounts generally lead to more rational decisions
 
+## Two Selves
+### Experience and Memory
+* Pea-end rule: The global retrospective rating was well predicted by the average of the level of pain reported at the worst moment of the experience and at its end
+* Duration neglect: The duration of the procedure had no effect whatsoever on the ratings of total pain
+
 # See also
 
 # References
