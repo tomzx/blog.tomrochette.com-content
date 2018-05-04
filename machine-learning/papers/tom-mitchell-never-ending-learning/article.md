@@ -11,6 +11,9 @@ taxonomy:
 ## Learned in this study
 
 ## Things to explore
+* Given that the problem that NELL seems to be tackling has some resemblance to playing Go, is it possible to employ the same techniques used by AlphaGo/Zero?
+	* Is there a way to convert their problem into a problem that would benefit from doing some kind of
+* Devise a metric which allows the agent to focus on where it needs the most improvement (deliberate pratice/training)
 
 # Overview
 
