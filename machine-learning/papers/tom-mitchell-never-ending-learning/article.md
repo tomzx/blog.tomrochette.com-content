@@ -3,7 +3,7 @@ title: Tom Mitchell - Never-ending learning (2018)
 created: 2018-05-03
 taxonomy:
   category: [Machine Learning]
-  status: in progress
+  status: finished
 ---
 
 ## Context
@@ -13,7 +13,8 @@ taxonomy:
 ## Things to explore
 * Given that the problem that NELL seems to be tackling has some resemblance to playing Go, is it possible to employ the same techniques used by AlphaGo/Zero?
 	* Is there a way to convert their problem into a problem that would benefit from doing some kind of
-* Devise a metric which allows the agent to focus on where it needs the most improvement (deliberate pratice/training)
+* Devise a metric which allows the agent to focus on where it needs the most improvement (deliberate practice/training)
+* A key open research question is how the learning agent might itself evolve a useful curriculum of learning tasks
 
 # Overview
 
@@ -47,6 +48,17 @@ where $F_i$ is the set of all possible functions from $X_i$ to $Y_i$
 ### 6.4 Self-Reflection and Self-Evaluation
 * Under what conditions can unlabeled data be used to estimate accuracy of learned functions?
 	* We have found that there are conditions under which the observed consistency among different learned functions applied to unlabeled data can be used to derive high precise estimates of accuracies of these functions, and that these methods work well for accuracy estimation in NELL
+
+## 8. Discussion
+* Four useful design features that have led to the successes it has had - design features we recommend for any never-ending system:
+	* To achieve successful semi-supervised learning, couple the training of many different learning tasks
+	* Allow the agent to learn additional coupling constraints
+	* Learn new representations that cover relevant phenomena beyond the initial representation
+	* Organize the set of learning tasks into an easy-to-increasingly-difficult curriculum
+* Additional areas for research into never-ending learning agents:
+	* Self reflection and an explicit agenda of learning subgoals
+	* Pervasive plasticity
+	* Representation and learning
 
 # See also
 
