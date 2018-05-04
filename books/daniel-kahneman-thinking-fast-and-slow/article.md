@@ -469,6 +469,12 @@ taxonomy:
 ### Responsibility
 * Losses are weighted about twice as much as gains in several contexts
 * The loss-aversion coefficient is much higher in some situations. In particular, you may be more loss averse for aspects of your life that are more important than money, such as health. Furthermore, your reluctance to "sell" important endowments increases dramatically when doing so might make you responsible for an awful outcome
+* Is it reasonable to let your choices be influenced by the anticipation of regret?
+* Daniel Gilbert and his colleagues provocatively claim that people generally anticipate more regret than they will actually experience, because they underestimate the efficacy of the psychological defenses they will deploy - which they label the "psychological immune system". Their recommendation is that you should not put too much weight on regret; even if you have some, it will hurt less than you now think
+
+## Frames and Reality
+### Good Frames
+* Broader frames and inclusive accounts generally lead to more rational decisions
 
 # See also
 
