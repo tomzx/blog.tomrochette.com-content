@@ -63,5 +63,9 @@ The most common tool used to make a process explicit is the directed graph. In i
 # See also
 
 # References
+* http://www.bpmn.org/
 * https://www.process.st/
 * https://www.pipefy.com/
+* https://kissflow.com/
+* https://www.flokzu.com/
+* https://missions.ai/
