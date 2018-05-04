@@ -16,7 +16,7 @@ All jobs contain a large amount of repetitive work. This repetitive work may be 
 * Work through tasks using a process, where you record what you do, so that you may leave the task and come back to it later and have information about its last state
 	* What prevents people from methodically recording what they do? Is it mostly because it is time consuming and of little value, or because it's too difficult to do properly?
 		* A part of the problem seems to be that interlacing recording with doing the actual steps may create a mental burden on the person, creating the effect of working on two tasks in parallel instead of only on the task at hand
-* Are there any DAG to programming language converter?
+* Are there any graph to programming language converter?
 * How do you determine the beginning/end of a workflow (subroutine boundaries)?
 * What is the easiest format to share this sort of information with others?
 	* It has to be easy to compare such that others with their own processes may compare them against yours
@@ -28,7 +28,7 @@ All jobs contain a large amount of repetitive work. This repetitive work may be 
 # Overview
 One of the biggest challenges of making procedures explicit is taking the time to do so. Doing so is a meta exercise that very few people find of interest. Furthermore, this exercise is complicated by the fact that many activities are guided by some form of preemption (interrupting a task being carried out), which may make them harder to write down.
 
-The most common tool used to make a process explicit is the directed acyclic graph. In it, each task/action is a node and each directed arrow indicates from which task to which task one may proceed.
+The most common tool used to make a process explicit is the directed graph. In it, each task/action is a node and each directed arrow indicates from which task to which task one may proceed. It is possible for the graph to have cycles, which indicates a set of steps that may require to be executed multiple times before the condition to exit the loop is triggered.
 
 # Purposes/Benefits
 * Can be (visually) inspected
@@ -44,6 +44,7 @@ The most common tool used to make a process explicit is the directed acyclic gra
 * Create a new process
 * Write down as many steps you do implicitly
 * Link steps to one another
+* Simulate the process in your head to verify if you forgot any step
 * Follow the process
 * Revise as needed
 * Extract reusable processes into their own process graph
@@ -51,6 +52,8 @@ The most common tool used to make a process explicit is the directed acyclic gra
 # Tools
 * Workflow/Flow chart
 	* Track the most popular paths
+	* Track the duration of each step
+	* Track the frequency of each step
 * Checklist
 	* Track the most used items
 
