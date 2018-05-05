@@ -509,7 +509,11 @@ taxonomy:
 ### The Focusing Illusion
 * Nothing in life is as important as you think it is when you are thinking about it
 * Over time, with few exceptions, attention is withdrawn from a new situation as it becomes more familiar
+* Pain and noise are biologically set to be signals that attract attention, and depression involves a self-reinforcing cycle of miserable thoughts
+* The mistake that people make in the focusing illusion involves attention to selected moments and neglect of what happens at other times
+* The mind is good with stories, but it does not appear to be well designed for the processing of time
 
+## Conclusions
 
 # See also
 
