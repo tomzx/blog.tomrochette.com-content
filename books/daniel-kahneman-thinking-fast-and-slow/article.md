@@ -497,6 +497,12 @@ taxonomy:
 * Our emotional state is largely determined by what we attend to, and we are normally focused on our current activity and immediate environment
 * The feelings associated with different activities suggest that another way to improve experience is to switch time from passive leisure, such as TV watching, to more active forms of leisure, including socializing and exercise
 * It is only a slight exaggeration to say that happiness is the experience of spending time with people you love and who love you
+* The Cantril Self-Anchoring Striving Scale
+	* Please imagine a ladder with steps numbered from zero at the bottom to ten at the top. The top of the ladder represents the best possible life for you and the bottom of the ladder represents the worst possible life for you. On which step of the ladder would you say you personally feel you stand at this time?
+
+
+## Thinking About Life
+* The response to well-being questions should be taken with a grain of salt (because they are biased by your current mood)
 
 # See also
 
