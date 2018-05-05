@@ -514,6 +514,8 @@ taxonomy:
 * The mind is good with stories, but it does not appear to be well designed for the processing of time
 
 ## Conclusions
+* The investment of attention improves performance in numerous activities
+* The acquisition of skills requires a regular environment, an adequate opportunity to practice, and rapid and unequivocal feedback about the correctness of thoughts and actions
 
 # See also
 
