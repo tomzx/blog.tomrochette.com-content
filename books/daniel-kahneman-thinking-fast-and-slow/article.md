@@ -495,6 +495,7 @@ taxonomy:
 * The percentage of time that an individual spends in an unpleasant state is called the U-index. For example, an individual who spent for 4 hours of a 16-hour waking day in an unpleasant state would have a U-index of 25%
 * An individual's mood at any moment depends on her temperament and overall happiness, but emotional well-being also fluctuates considerably over the day and the week
 * Our emotional state is largely determined by what we attend to, and we are normally focused on our current activity and immediate environment
+* The feelings associated with different activities suggest that another way to improve experience
 
 # See also
 
