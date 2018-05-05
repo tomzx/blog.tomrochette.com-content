@@ -3,7 +3,7 @@ title: Daniel Kahneman - Thinking, Fast and Slow - 2011
 created: 2018-02-08
 taxonomy:
   category: [Psychology]
-  status: in progress
+  status: finished
 ---
 
 ## Context
@@ -516,6 +516,11 @@ taxonomy:
 ## Conclusions
 * The investment of attention improves performance in numerous activities
 * The acquisition of skills requires a regular environment, an adequate opportunity to practice, and rapid and unequivocal feedback about the correctness of thoughts and actions
+* In everyday speech, we call people reasonable if it is possible to reason with them, if their beliefs are generally in tune with reality, and if their preferences are in line with their interests and their values
+* The word rational conveys and image of greater deliberation, more calculation, and less warmth, but in common language a rational person is certainly reasonable. For economists and decision theorists, (rational) has a different meaning. The only test of rationality is not whether a person's beliefs and preferences are reasonable, but whether they are internally consistent
+	* Rationality is logical coherence - reasonable or not
+* System 1 is not readily educable
+* The way to block errors that originate in System 1 is simple in principle: recognize the signs that you are in a cognitive minefield, slow down, and ask for reinforcement from System 2
 
 # See also
 
