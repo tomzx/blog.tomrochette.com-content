@@ -500,9 +500,16 @@ taxonomy:
 * The Cantril Self-Anchoring Striving Scale
 	* Please imagine a ladder with steps numbered from zero at the bottom to ten at the top. The top of the ladder represents the best possible life for you and the bottom of the ladder represents the worst possible life for you. On which step of the ladder would you say you personally feel you stand at this time?
 
-
 ## Thinking About Life
 * The response to well-being questions should be taken with a grain of salt (because they are biased by your current mood)
+* The score that you quickly assign to your life is determined by a small sample of highly available ideas, not by careful weighting of the domains of your life
+* One reason for the low correlation between individuals' circumstances and their satisfaction with life is that both experienced happiness and life satisfaction are largely determined by the genetics of temperament
+* One recipe for a dissatisfied adulthood is setting goals that are especially difficult to attain
+
+### The Focusing Illusion
+* Nothing in life is as important as you think it is when you are thinking about it
+* Over time, with few exceptions, attention is withdrawn from a new situation as it becomes more familiar
+
 
 # See also
 
