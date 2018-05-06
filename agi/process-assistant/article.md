@@ -48,6 +48,7 @@ The most common tool used to make a process explicit is the directed graph. In i
 * Follow the process
 * Revise as needed
 * Extract reusable processes into their own process graph
+* Indicate process triggers (what starts a process? an event? a scheduled event? the completion of another process?)
 
 # Tools
 * Workflow/Flow chart
@@ -56,6 +57,10 @@ The most common tool used to make a process explicit is the directed graph. In i
 	* Track the frequency of each step
 * Checklist
 	* Track the most used items
+
+## Languages
+* BPMN - Business Process Model and Notation
+* UML Activity diagram (actors/roles, artifacts, actions)
 
 # Notes
 * Processes should be archived as they change. This allows you to observe which processes change often, and which parts change the most
