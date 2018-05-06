@@ -9,7 +9,7 @@ taxonomy:
 ## Context
 An AGI, like a human being, can be focused to work on pretty much anything. This is both a good and a bad thing, in the sense that you can have it work on very complex topics that will improve our understanding of the world, but at the same time it can be tasked to do terrible things, which are completely opposite to that first objective.
 
-Thus, it is important to determine what are the aspects that make an AGI pratical and working toward *appropriate* goals vs one that is simply executing code with no definite purpose.
+Thus, it is important to determine what are the aspects that make an AGI practical and working toward *appropriate* goals vs one that is simply executing code with no definite purpose.
 
 ## Learned in this study
 
