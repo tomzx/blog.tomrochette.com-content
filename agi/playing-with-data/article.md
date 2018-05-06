@@ -9,14 +9,12 @@ taxonomy:
 ## Learned in this study
 
 ## Things to explore
-
 * Symbols
 * Data stencils
 
 # Overview
 
 ## Symbols
-
 Information does not exist without structure. Information cannot exist without consistency. If I write a word and the strokes of the letters vary too much, making it impossible to relate two instances of the same word, then it is not possible to use experience to relate to priors.
 
 Without defining the atomic units we are working with, one cannot extract value from a data stream.
@@ -34,13 +32,11 @@ One solution is to produce the stream of output for each dictionary and evaluate
 This idea implies that we already have enough knowledge about the syntax (structure) and semantics of the dictionary's language that we can assert whether something is valid or not. It is even possible to do that? <tbc></tbc>
 
 ### Symbols pipelines
-
 The idea of symbols pipeline is that a data stream can be converted into various outputs. For instance, an image can be converted into various image formats, it can be converted into an ASCII art text, a textual description, a single number, etc.
 
 As such, the purpose of the symbol pipeline is to convert a data stream from one representation to another.
 
 ## Data stencils
-
 One interesting aspect of data is how it is interpreted. The same bits of data can be understood differently depending on how the reader processes them (which translation space is used).
 
 For example, let's imagine two programs that read the same source of data. The first program reads unsigned 32 bits numbers and sums them. The result is the sum of all the data it has seen.
