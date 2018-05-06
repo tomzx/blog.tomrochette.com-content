@@ -49,6 +49,7 @@ The most common tool used to make a process explicit is the directed graph. In i
 * Revise as needed
 * Extract reusable processes into their own process graph
 * Indicate process triggers (what starts a process? an event? a scheduled event? the completion of another process?)
+* Define pre-conditions (things necessary for the process to start)
 
 # Tools
 * Workflow/Flow chart
@@ -75,3 +76,7 @@ The most common tool used to make a process explicit is the directed graph. In i
 * https://kissflow.com/
 * https://www.flokzu.com/
 * https://missions.ai/
+
+## Issue tracker
+* https://www.atlassian.com/software/jira
+* https://www.redmine.org/
