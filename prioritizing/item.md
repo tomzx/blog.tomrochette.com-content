@@ -40,3 +40,4 @@ Not Urgent/Not Important
 * Karlsson, Joachim, Stefan Olsson, and Kevin Ryan. "Improved practical support for large-scale requirements prioritising." Requirements Engineering 2.1 (1997): 51-60.
 * Ahl, Viggo. "An experimental comparison of five prioritization methods: investigating ease of use, accuracy and scalability." (2005).
 * Gill, Nasib Singh. "A Comparison among Various Techniques to Prioritize the Requirements." International Journal of Computer Science and Management Studies (IJCSMS) www. ijcsms. com 1.12: 601-607.
+* http://www.gwern.net/Resorter
