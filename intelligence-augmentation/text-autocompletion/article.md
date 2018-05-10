@@ -1,8 +1,8 @@
 ---
-title: Template
-created: YYYY-MM-DD
+title: Text autocompletion
+created: 2018-05-10
 taxonomy:
-  category: [Artificial General Intelligence]
+  category: [Intelligence Augmentation]
   status: in progress
 ---
 
@@ -15,6 +15,7 @@ taxonomy:
 # Overview
 
 # Notes
+* Words  which require you to type them almost completely, such as "used" because "use" is more likely, do not benefit from autocompletion
 
 # See also
 
