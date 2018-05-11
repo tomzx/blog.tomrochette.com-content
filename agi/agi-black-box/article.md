@@ -16,8 +16,15 @@ The ultimate goal of a simple AGI program is to be able to receive a set of inpu
 # Overview
 
 # Supported problems
+* X to C (constant) mapping
+	* (a, b, c, ..., z) -> alphabet
+	* (0, 1, 2, ..., 1000) -> number
+* X to X mapping (identity)
+	* a -> a, b -> b, c - c, ..., z -> z
+	* 0 -> 0, 1 -> 1, 2 -> 2, ..., 1000 -> 1000
 * X to Y mapping
 * Delayed X to Y mapping (the Y value should be produced with a delay t in the output sequence)
+* X to Y mapping where the mapping changes over time
 
 # Requirements
 * The user must define inputs and outputs that are to be learned in order to reduce the problems' space
