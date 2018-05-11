@@ -23,6 +23,7 @@ taxonomy:
 
 ## Tests
 * Given all my current articles, if I build a dictionary out of it where the keys are the words and the values are the associated count (number of instances in the corpus), and I use the current algorithm I have (a trie search which favors the most frequent first), I obtain about 15-17% of saved keystrokes on this same corpus. On an [AGI article](https://en.wikipedia.org/wiki/Artificial_general_intelligence) (in source form), I obtain a lower 6%
+* Using [Google 10k words](https://github.com/first20hours/google-10000-english/blob/master/google-10000-english.txt), I get approximately 6% on this same AGI article
 
 # See also
 
