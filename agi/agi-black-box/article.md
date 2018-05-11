@@ -58,7 +58,7 @@ In an optimal case, the agent would be able to discover whether a simpler mathem
 
 In order to learn the mapping, the agent must receive sufficiently enough examples to build a complete lookup table of the inputs that it will expect to receive over its lifetime. This implies that the more complex/large the lookup table has to be, the more memory the agent needs to have in order to appear accurate. It can exchange memory at the cost of making more mistakes.
 
-An agent for this simple use case has many strategies it can deploy when receiving unseen inputs. It can randomly pick any output value it knows. It can pick the most (or least) common output value. It can use retention policies such as LRU, MRU, MFU, FIFO, LIFO, etc.
+An agent for this simple use case has many strategies it can deploy when receiving unseen inputs. It can randomly pick any output value it knows. It can pick the most (or least) common output value. It can use retention policies (similar to cache policies) such as LRU, MRU, MFU, FIFO, LIFO, etc.
 
 # Data structure case
 In the case of the data structure inputs/outputs, then the problem becomes highly complex. Each field in itself becomes a problem that needs to be solved on its own as well as together with the other fields.
