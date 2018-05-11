@@ -139,6 +139,10 @@ The following lists papers I've read and reviewed or made notes for.
 ## Thomas Anthony
 * [Thinking Fast and Slow with Deep Learning and Tree Search (2017)](thomas-anthony-thinking-fast-and-slow-with-deep-learning-and-tree-search)
 
+## Tom Mitchell
+* [Never-ending learning (2018)](tom-mitchell-never-ending-learning)
+
+
 ## Tomas Mikolov
 * [Efficient Estimation of Word Representations in Vector Space (2013)](tomas-mikolov-efficient-estimation-of-word-representations-in-vector-space)
 
