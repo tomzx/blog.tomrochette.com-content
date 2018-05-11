@@ -11,6 +11,7 @@ taxonomy:
 ## Learned in this study
 
 ## Things to explore
+* Autocompletion based on more than word boundaries
 
 # Overview
 
@@ -19,6 +20,9 @@ taxonomy:
 	* In other words, this means that a word list, ordered by most frequent to least frequent based on a document corpus, should drop all the words for which there is an edit distance of 1 with an word with lower index in the list
 * Words for which the autocompletion can be done either by 1 keystroke or pressing enter should be configurable by the user (either they don't want to see them, or they want them so they can type or autocomplete)
 * All the one letter words should be removed from the dictionary as they cannot benefit from autocompletion
+
+## Tests
+* Given all my current articles, if I build a dictionary out of it where the keys are the words and the values are the associated count (number of instances in the corpus), and I use the current algorithm I have (a trie search which favors the most frequent first), I obtain about 15-17% of saved keystrokes on this same corpus. On an [AGI article](https://en.wikipedia.org/wiki/Artificial_general_intelligence) (in source form), I obtain a lower 6%
 
 # See also
 
