@@ -12,6 +12,9 @@ The ultimate goal of a simple AGI program is to be able to receive a set of inpu
 ## Learned in this study
 
 ## Things to explore
+* How do you recognize that a problem is time dependent?
+* Should every type of input/output be converted into a generic format such as a number or a tensor?
+	* Given the brain functions "only" on electrical current signals, then it should be possible
 
 # Overview
 
@@ -40,9 +43,12 @@ The ultimate goal of a simple AGI program is to be able to receive a set of inpu
 # Requirements
 * The user must define inputs and outputs that are to be learned in order to reduce the problems' space
 * In some cases, the black box agent should be able to generate optimal solutions given constraints
+* The black box should be told the degree of freedom it has to update itself
+	* In some cases we want the black box function to be very rigid
 
 # What the black box can do?
 * Record every input/output pair that goes through it
+*
 
 # See also
 
