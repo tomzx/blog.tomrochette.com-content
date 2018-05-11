@@ -142,7 +142,6 @@ The following lists papers I've read and reviewed or made notes for.
 ## Tom Mitchell
 * [Never-ending learning (2018)](tom-mitchell-never-ending-learning)
 
-
 ## Tomas Mikolov
 * [Efficient Estimation of Word Representations in Vector Space (2013)](tomas-mikolov-efficient-estimation-of-word-representations-in-vector-space)
 
