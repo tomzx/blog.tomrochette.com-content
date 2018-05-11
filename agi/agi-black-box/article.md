@@ -45,6 +45,7 @@ The ultimate goal of a simple AGI program is to be able to receive a set of inpu
 * In some cases, the black box agent should be able to generate optimal solutions given constraints
 * The black box should be told the degree of freedom it has to update itself
 	* In some cases we want the black box function to be very rigid
+* It should be able to generate simulated inputs and generate outputs, then verify whether its computed output is accurate
 
 # What the black box can do?
 * Record every input/output pair that goes through it
