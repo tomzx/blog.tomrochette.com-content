@@ -20,7 +20,7 @@ The ultimate goal of a simple AGI program is to be able to receive a set of inpu
 	* (a, b, c, ..., z) -> alphabet
 	* (0, 1, 2, ..., 1000) -> number
 * X to X mapping (identity)
-	* a -> a, b -> b, c - c, ..., z -> z
+	* a -> a, b -> b, c -> c, ..., z -> z
 	* 0 -> 0, 1 -> 1, 2 -> 2, ..., 1000 -> 1000
 * X to Y mapping
 	* 0 -> a, 1 -> b, 2 -> c, ..., 26 -> z
@@ -30,9 +30,19 @@ The ultimate goal of a simple AGI program is to be able to receive a set of inpu
 * X to Y mapping where the mapping changes over time
 	* 0 -> 5, 10 -> 25, 0 -> 10, 10 -> 30, 0 -> 12, 10 -> 23
 
+# Types of inputs/outputs
+* Numbers: integer, float
+* Strings
+* Lists
+* Tensors
+* Complex data structure
+
 # Requirements
 * The user must define inputs and outputs that are to be learned in order to reduce the problems' space
 * In some cases, the black box agent should be able to generate optimal solutions given constraints
+
+# What the black box can do?
+* Record every input/output pair that goes through it
 
 # See also
 
