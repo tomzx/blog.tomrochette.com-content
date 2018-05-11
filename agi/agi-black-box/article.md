@@ -49,7 +49,12 @@ The ultimate goal of a simple AGI program is to be able to receive a set of inpu
 
 # What the black box can do?
 * Record every input/output pair that goes through it
-*
+
+# Example case
+Given a set of numbers mapping to another set of numbers (e.g., 1 -> 13, 23 -> 14, 36 -> 67, ...), we want the agent to learn as efficiently as possible this mapping.
+
+The best solution for this is to maintain a map of input -> output, and simply output the known output when a know input is received. This is known as the lookup table.
+In an optimal case, the agent would be able to discover whether a simpler mathematical formulate appears to generate the output and would replace its lookup table with this function, hence saving a lot of memory at the expense of doing a bit of calculation.
 
 # See also
 
