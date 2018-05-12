@@ -32,6 +32,10 @@ taxonomy:
 ### 3.1 Training a Copy of ONE on New Control Tasks Without a Teacher
 * One of ONE's goals is to maximize $CR(t_\tau)$
 * Copies of successive instances of ONE are trained in a series of trials through a black box optimization method
+	* Incremental neuroevolution
+	* Hierarchical neuroevolution
+	* Hierarchical policy gradient algorithms
+	* Asymptotically optimal ways of algorithm transfer learning
 
 # See also
 
