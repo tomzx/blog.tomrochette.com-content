@@ -58,6 +58,7 @@ taxonomy:
 
 ### 3.13 Gaining Efficiency by Tracking Which Weight Are Used for Which Tasks
 * To avoid forgetting previous skills, instead of replaying all previous traces of still relevant trials, one can also implement ONE as a self-modularizing, computation cost-minimizing, winner-take-all RNN. Then we can keep track of which weights of ONE are used for which tasks
+* To test whether ONE has forgotten something in the wake of recent modifications of some of its weights, only input-output traces in the union of affected tasks have to be re-tested
 
 # See also
 
