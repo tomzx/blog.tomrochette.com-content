@@ -29,6 +29,9 @@ taxonomy:
 ## 3 More Formally: ONE and its Self-Acquired Data
 * Cumulative reward $CR(t) = \sum_{\tau=1}^t R(\tau)$
 
+### 3.1 Training a Copy of ONE on New Control Tasks Without a Teacher
+* One of ONE's goals is to maximize $CR(t_\tau)$
+
 # See also
 
 # References
