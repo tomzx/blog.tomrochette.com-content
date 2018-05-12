@@ -15,6 +15,7 @@ taxonomy:
 * How to be more careful when writing new code
 * How to spend less time debugging
 * Is writing a working solution better than thinking about a better alternative solution to develop straight away?
+* How to recognize where to look for the source of a problem/bug?
 
 # Overview
 
