@@ -12,6 +12,7 @@ taxonomy:
 
 ## Things to explore
 * Autocompletion based on more than word boundaries
+* Is it possible to speed up the autocompletion process to make it more useful than being able to type rapidly?
 
 # Overview
 
