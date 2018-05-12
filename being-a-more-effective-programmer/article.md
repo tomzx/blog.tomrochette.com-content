@@ -27,6 +27,7 @@ taxonomy:
 * Run the program step by step using the debugger and think about the (desired) state at each point
 * Make explicit (write/explain) the important parts of the algorithms
 * Go through code you have issue writing yourself with someone else to see how they reason about it
+* Deliberately practice the aspects of programming you have difficulty with
 
 # See also
 
