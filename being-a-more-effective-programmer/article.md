@@ -21,6 +21,8 @@ taxonomy:
 * Write test cases
 * Execute your test cases often
 * Take a step back from time to time to observe your existing solution
+* Understand the requirements of your problems
+* Understand the time and space complexity requirements
 
 # See also
 
