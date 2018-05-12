@@ -60,6 +60,11 @@ taxonomy:
 * To avoid forgetting previous skills, instead of replaying all previous traces of still relevant trials, one can also implement ONE as a self-modularizing, computation cost-minimizing, winner-take-all RNN. Then we can keep track of which weights of ONE are used for which tasks
 * To test whether ONE has forgotten something in the wake of recent modifications of some of its weights, only input-output traces in the union of affected tasks have to be re-tested
 
+### 3.14 Ordering Tasks Automatically
+* The PowerPlay framework offers a general solution to the automatic task ordering problem
+	* Given is a set of tasks, which may actually be the set of all tasks with computable task descriptions, or a more limited set of tasks, some of them possibly given by a user
+		* In unsupervised mode, one PowerPlay variant systematically searches the space of possible pairs of new tasks and modifications of the current problem solver, until it finds a more powerful problem solver that solves all previously learned tasks plus the new one, while the unmodified predecessor does not. The greedy search of typical PowerPlay variants uses time-optimal program search to order candidate pairs of tasks and solver modifications by their conditional computational (time and space) complexity, given the stored experience so far
+
 # See also
 
 # References
