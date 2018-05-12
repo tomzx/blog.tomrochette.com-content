@@ -40,6 +40,10 @@ taxonomy:
 * Verify your progress in small iterations to prevent writing a lot and then having to make it all work
 * Identify the variables that you need through an iterative process
 * Write in comments the alternative options you have
+* Sometimes you will discover that what you took for granted is not necessarily correct (such as template code provided to you that does not accomplish what it states it does)
+
+### When a function is not working as expected
+* Check the problem definition
 
 # See also
 
