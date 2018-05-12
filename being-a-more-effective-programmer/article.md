@@ -31,3 +31,4 @@ taxonomy:
 # See also
 
 # References
+* http://programmer.97things.oreilly.com/wiki/index.php/Coding_with_Reason
