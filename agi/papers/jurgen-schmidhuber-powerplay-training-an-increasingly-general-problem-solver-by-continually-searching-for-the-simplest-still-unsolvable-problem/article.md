@@ -15,8 +15,10 @@ taxonomy:
 * Given an unconstrained task invention space, how can the PowerPlay agent deal with contradicting (task, solution) combination?
 	* Basically, can an agent learn "non-functions?"
 * Given that the brain has limited capacity/resources, should we expect it to be unable to learn how to solve new tasks without forgetting?
+* It seems that a problem solver that can grow, unlike a pre-wired, unmodifiable topology feedforward NN, is going to be more flexible after the FNN has been saturated (can solve its maximum amount of tasks)
 
 # Overview
+* The agent receives as part of its input a task identifier or query that lets it decide what it is trying to solve
 
 # Notes
 ## 1. Introduction
