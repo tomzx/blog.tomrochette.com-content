@@ -25,6 +25,7 @@ taxonomy:
 * Given all my current articles, if I build a dictionary out of it where the keys are the words and the values are the associated count (number of instances in the corpus), and I use the current algorithm I have (a trie search which favors the most frequent first), I obtain about 15-17% of saved keystrokes on this same corpus. On an [AGI article](https://en.wikipedia.org/wiki/Artificial_general_intelligence) (in source form), I obtain a lower 6%
 * Using [Google 10k words](https://github.com/first20hours/google-10000-english/blob/master/google-10000-english.txt), I get approximately 6% on this same AGI article
 	* If I run this dictionary over my own set of articles, then I would obtain about 8% (whereas with my own dictionary I have 15-17%)
+	* Tested on a random [wikipedia article](https://en.wikipedia.org/wiki/Cypriot_National_Guard), both my own dictionary and Goole 10k word perform at approximately 4% saved keystrokes, which is rather interesting, given that my own vocabulary (and word frequencies) come from a much smaller corpus, yet both result in approximately the same keystrokes savings
 
 # See also
 
