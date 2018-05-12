@@ -40,6 +40,12 @@ taxonomy:
 * The problem solver's initial program is called $s_0$
 * There is a set of possible task descriptions $\mathcal{T} \subset B^*$ ($B^*$ is the set of finite sequences or bitstrings over the binary alphabet)
 
+## 3. Task Invention, Solver Modification, Correctness Demo
+* Three main jobs
+	* Task invention
+	* Solver modification
+	* Correctness demonstration
+
 # See also
 
 # References
