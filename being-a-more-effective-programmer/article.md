@@ -14,6 +14,7 @@ taxonomy:
 * How to more efficiently develop complex algorithms
 * How to be more careful when writing new code
 * How to spend less time debugging
+* Is writing a working solution better than thinking about a better alternative solution to develop straight away?
 
 # Overview
 
