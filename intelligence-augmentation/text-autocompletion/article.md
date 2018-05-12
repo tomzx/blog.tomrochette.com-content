@@ -28,6 +28,9 @@ taxonomy:
 	* Tested on a random [wikipedia article](https://en.wikipedia.org/wiki/Cypriot_National_Guard), both my own dictionary and Goole 10k word perform at approximately 4% saved keystrokes, which is rather interesting, given that my own vocabulary (and word frequencies) come from a much smaller corpus, yet both result in approximately the same keystrokes savings
 * In my test data (my own articles), there are numerous elements which have high gain because they are extremely long and easy to recognize early on (such as urls)
 
+## Observations
+* One of the downside of using autocompletion is that, unlike when you type, you need to look at the autocompletion window and actively attempt to make decisions, which is likely to strongly reduce the time saving we are looking for
+
 # See also
 
 # References
