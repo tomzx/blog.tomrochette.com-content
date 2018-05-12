@@ -23,6 +23,8 @@ taxonomy:
 * Take a step back from time to time to observe your existing solution
 * Understand the requirements of your problems
 * Understand the time and space complexity requirements
+* Simulate program execution
+* Run the program step by step using the debugger and think about the (desired) state at each point
 
 # See also
 
