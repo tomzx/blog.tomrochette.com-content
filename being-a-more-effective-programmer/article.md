@@ -31,6 +31,7 @@ taxonomy:
 * Pseudo-code your solution, then implement it
 * Go through code you have issue writing yourself with someone else to see how they reason about it
 * Deliberately practice the aspects of programming you have difficulty with
+	* Practice going through code challenges not for the purpose of solving the problem, but observing how you solve the problem and where you could improve
 * Break the problem into parts and solve the parts
 * Do not optimize for speed, optimize for readability/understandability/transparency
 
