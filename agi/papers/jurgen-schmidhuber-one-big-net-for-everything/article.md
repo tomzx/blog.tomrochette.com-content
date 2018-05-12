@@ -57,7 +57,7 @@ taxonomy:
 * Weights with high variance, however, may get high learning rates, and thus participate easily in the learning of new skills
 
 ### 3.13 Gaining Efficiency by Tracking Which Weight Are Used for Which Tasks
-* To avoid forgetting previous skills, instead of replaying all previous traces of still relevant trials, one can also implement ONE as a self-modularizing, computation cost-minimizing, winner-take-all RNN
+* To avoid forgetting previous skills, instead of replaying all previous traces of still relevant trials, one can also implement ONE as a self-modularizing, computation cost-minimizing, winner-take-all RNN. Then we can keep track of which weights of ONE are used for which tasks
 
 # See also
 
