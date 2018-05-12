@@ -45,6 +45,10 @@ taxonomy:
 
 ### 3.6 Store Behavioral Traces
 * To be able to retrain ONE on all observations ever made, we should store ONE's entire, growing, lifelong sensory-motor interaction history including all inputs and goals and actions and reward signals observed during all successful and failed trials, including what initially looks like noise but later may turn out to be regular
+* Even human brains may have enough storage capacity to store 100 years of sensory input at a reasonable resolution
+
+### 3.8 Learning Goal Input-Dependence Through Compression
+* The non-trivial pattern recognition required to recognize commands such as "go to the north-east corner of the maze" will require a substantial subnetwork of ONE and many weights. We cannot expect neuroevolution to learn such speech recognition within reasonable time. However, a copy of ONE may rather easily learn by neuroevolution to always go to the north-east corner of the maze, ignoring speech inputs. In the consolidation phase, ONE then may rather easily learn the speech command-dependence of this behavior through gradient-based learning, without having to interact with the environment again
 
 # See also
 
