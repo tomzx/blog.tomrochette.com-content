@@ -25,7 +25,7 @@ taxonomy:
 * Understand the time and space complexity requirements
 * Simulate program execution
 * Run the program step by step using the debugger and think about the (desired) state at each point
-* Make explicit (write/explain) the important parts of the algorithms
+* Make explicit (write/explain) the important parts/steps of the algorithms
 * Go through code you have issue writing yourself with someone else to see how they reason about it
 * Deliberately practice the aspects of programming you have difficulty with
 * Break the problem into parts and solve the parts
