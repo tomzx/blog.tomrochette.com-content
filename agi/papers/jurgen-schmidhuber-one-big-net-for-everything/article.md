@@ -43,6 +43,9 @@ taxonomy:
 * ONE may further profit from unsupervised learning that compressed the observed data into a compact representation that may make subsequent learning of externally posed tasks easier
 * Another goal of ONE can be to compress ONE's entire growing interaction history of all failed and successful trials
 
+### 3.6 Store Behavioral Traces
+* To be able to retrain ONE on all observations ever made, we should store ONE's entire, growing, lifelong sensory-motor interaction history including all inputs and goals and actions and reward signals observed during all successful and failed trials, including what initially looks like noise but later may turn out to be regular
+
 # See also
 
 # References
