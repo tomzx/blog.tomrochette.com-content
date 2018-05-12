@@ -29,7 +29,7 @@ taxonomy:
 		* the new task cannot be solved by the old problem solver
 		* The new task can be solved by the new problem solver (some modification of the old one)
 		* The new solver can still solve the known set of previously learned tasks
-* Smart search orders candidate pairs of the type (task, solver) by computational complexity, using concepts of optimal universal search
+* Smart search orders candidate pairs of the type (task, solver) by computational complexity, using concepts of optimal universal search, with a bias toward pairs that can be described by few additional bits of information and that can be validated quickly
 
 # See also
 
