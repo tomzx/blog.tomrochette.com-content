@@ -12,6 +12,8 @@ taxonomy:
 
 ## Things to explore
 * Given a single neural network architecture, it might be possible to store different weight values that would represent different views of the environment (this would be akin to a person's consciousness?)
+* Is there any research/experiments on the impact of freezing parts of a network if the weights have little variance when training on a new task?
+	* This article seems to imply (through 3.12) that weights with low variance between tasks can indicate that they are well tuned for the tasks they accomplish (thus solving some sort of sub-problem within the set of tasks)
 
 # Overview
 
