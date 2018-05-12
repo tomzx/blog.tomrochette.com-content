@@ -13,6 +13,7 @@ taxonomy:
 ## Things to explore
 * Given a single task and an agent which is internally composed of millions (or more) of small solver modules, with some modules producing the right solution while others producing invalid solutions, how should the agent pick the solution to use (or indirectly, the appropriate module to use)?
 * Given an unconstrained task invention space, how can the PowerPlay agent deal with contradicting (task, solution) combination?
+	* Basically, can an agent learn "non-functions?"
 
 # Overview
 
@@ -32,6 +33,9 @@ taxonomy:
 		* The new task can be solved by the new problem solver (some modification of the old one)
 		* The new solver can still solve the known set of previously learned tasks
 * Smart search orders candidate pairs of the type (task, solver) by computational complexity, using concepts of optimal universal search, with a bias toward pairs that can be described by few additional bits of information and that can be validated quickly
+
+## 2. Notation and Algorithmic Framework PowerPlay (Variant I)
+* The computational architecture of the problem solver may be a deterministic universal computer, or a more limited device such as a finite state automaton or a feedforward neural network
 
 # See also
 
