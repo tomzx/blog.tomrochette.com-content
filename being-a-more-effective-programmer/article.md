@@ -20,7 +20,7 @@ taxonomy:
 # Notes
 * Write test cases
 * Execute your test cases often
-* Take a step back from time to time to observe your existing solution
+* Take a step back from time to time to observe your existing solution and attempt to determine if it is too complex for what it is trying to solve
 * Understand the requirements of your problems
 * Understand the time and space complexity requirements
 * Simulate program execution
