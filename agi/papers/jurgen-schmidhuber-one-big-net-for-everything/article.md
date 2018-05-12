@@ -1,5 +1,5 @@
 ---
-title: Jurgen Schmidhuber - One Big Net For Everything (2018)
+title: Jürgen Schmidhuber - One Big Net For Everything (2018)
 created: 2018-05-11
 taxonomy:
   category: [Artificial General Intelligence]
