@@ -36,6 +36,9 @@ taxonomy:
 
 ## 2. Notation and Algorithmic Framework PowerPlay (Variant I)
 * The computational architecture of the problem solver may be a deterministic universal computer, or a more limited device such as a finite state automaton or a feedforward neural network
+	* All such problem solvers can be uniquely encoded or implemented on universal computers, such as universal Turing Machines
+* The problem solver's initial program is called $s_0$
+* There is a set of possible task descriptions $\mathcal{T} \subset B^*$ ($B^*$ is the set of finite sequences or bitstrings over the binary alphabet)
 
 # See also
 
