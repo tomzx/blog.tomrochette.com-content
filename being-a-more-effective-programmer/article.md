@@ -28,7 +28,7 @@ taxonomy:
 * Make explicit (write/explain) the important parts of the algorithms
 * Go through code you have issue writing yourself with someone else to see how they reason about it
 * Deliberately practice the aspects of programming you have difficulty with
-* Break the problem into parts
+* Break the problem into parts and solve the parts
 
 # See also
 
