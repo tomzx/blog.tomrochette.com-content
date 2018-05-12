@@ -37,3 +37,4 @@ taxonomy:
 # References
 * http://programmer.97things.oreilly.com/wiki/index.php/Coding_with_Reason
 * http://programmer.97things.oreilly.com/wiki/index.php/Do_Lots_of_Deliberate_Practice
+* https://softwareengineering.stackexchange.com/questions/65705/how-to-code-faster-without-sacrificing-quality
