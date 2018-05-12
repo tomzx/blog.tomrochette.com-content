@@ -35,6 +35,12 @@ taxonomy:
 * Break the problem into parts and solve the parts
 * Do not optimize for speed, optimize for readability/understandability/transparency
 
+## 2018-05-12
+* Start with the simplest cases you want to support, then proceed to more and more difficult cases
+* Verify your progress in small iterations to prevent writing a lot and then having to make it all work
+* Identify the variables that you need through an iterative process
+* Write in comments the alternative options you have
+
 # See also
 
 # References
