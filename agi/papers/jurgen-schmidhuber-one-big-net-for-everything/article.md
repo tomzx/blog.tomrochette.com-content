@@ -20,6 +20,8 @@ taxonomy:
 * Without a teacher, reward-maximizing programs of an RNN must be learned through repeated trial and error, e.g., through artificial evolution or reinforcement learning through policy gradients
 * The search space can often be reduced dramatically by evolving compact encodings of RNNs
 
+## 2 One Big RNN For Everything: Basic Ideas and Related Work
+
 # See also
 
 # References
