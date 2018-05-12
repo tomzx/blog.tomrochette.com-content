@@ -56,6 +56,9 @@ taxonomy:
 * As a heuristic, we may track the variance of each weight's value at the ends of all trials. Frequently used weights with low variance can be suspected to be important for many tasks, and may get small or zero learning rates, thus making them even more stable, such that the system does not easily forget them during the learning of new tasks
 * Weights with high variance, however, may get high learning rates, and thus participate easily in the learning of new skills
 
+### 3.13 Gaining Efficiency by Tracking Which Weight Are Used for Which Tasks
+* To avoid forgetting previous skills, instead of replaying all previous traces of still relevant trials, one can also implement ONE as a self-modularizing, computation cost-minimizing, winner-take-all RNN
+
 # See also
 
 # References
