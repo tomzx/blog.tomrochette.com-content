@@ -25,6 +25,7 @@ taxonomy:
 * Understand the time and space complexity requirements
 * Simulate program execution
 * Run the program step by step using the debugger and think about the (desired) state at each point
+* Make explicit (write/explain) the important parts of the algorithms
 
 # See also
 
