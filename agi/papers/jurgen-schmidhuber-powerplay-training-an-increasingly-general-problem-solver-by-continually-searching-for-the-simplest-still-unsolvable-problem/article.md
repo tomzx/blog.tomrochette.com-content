@@ -11,6 +11,7 @@ taxonomy:
 ## Learned in this study
 
 ## Things to explore
+* Given a single task and an agent which is internally composed of millions (or more) of small solver modules, with some modules producing the right solution while others producing invalid solutions, how should the agent pick the solution to use (or indirectly, the appropriate module to use)?
 
 # Overview
 
