@@ -41,6 +41,7 @@ taxonomy:
 
 ### 3.2 Unsupervised ONE Learning to Predict/Compress Observations
 * ONE may further profit from unsupervised learning that compressed the observed data into a compact representation that may make subsequent learning of externally posed tasks easier
+* Another goal of ONE can be to compress ONE's entire growing interaction history of all failed and successful trials
 
 # See also
 
