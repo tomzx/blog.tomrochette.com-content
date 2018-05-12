@@ -26,6 +26,9 @@ taxonomy:
 	* by black box optimization/reinforcement learning/artificial evolution without a teacher
 	* gradient descent-based supervised or unsupervised learning
 
+## 3 More Formally: ONE and its Self-Acquired Data
+* Cumulative reward $CR(t) = \sum_{\tau}^t R(\tau)$
+
 # See also
 
 # References
