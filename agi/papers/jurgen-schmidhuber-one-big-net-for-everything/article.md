@@ -21,6 +21,9 @@ taxonomy:
 * The search space can often be reduced dramatically by evolving compact encodings of RNNs
 
 ## 2 One Big RNN For Everything: Basic Ideas and Related Work
+* ONE or copies thereof or parts thereof are trained in various ways, in particular
+	* by black box optimization/reinforcement learning/artificial evolution without a teacher
+	* gradient descent-based supervised or unsupervised learning
 
 # See also
 
