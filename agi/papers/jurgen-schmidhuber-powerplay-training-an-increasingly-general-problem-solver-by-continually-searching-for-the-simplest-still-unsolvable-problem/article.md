@@ -15,6 +15,8 @@ taxonomy:
 # Overview
 
 # Notes
+## 1. Introduction
+* Given a realistic piece of computational hardware with specific resource limitations, how can one devise software for it that will solve all, or at least many, of the a priori unknown tasks that are in principle easily solvable on this architecture?
 
 # See also
 
