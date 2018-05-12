@@ -31,6 +31,7 @@ taxonomy:
 * Go through code you have issue writing yourself with someone else to see how they reason about it
 * Deliberately practice the aspects of programming you have difficulty with
 * Break the problem into parts and solve the parts
+* Do not optimize for speed, optimize for readability/understandability/transparency
 
 # See also
 
@@ -38,3 +39,4 @@ taxonomy:
 * http://programmer.97things.oreilly.com/wiki/index.php/Coding_with_Reason
 * http://programmer.97things.oreilly.com/wiki/index.php/Do_Lots_of_Deliberate_Practice
 * https://softwareengineering.stackexchange.com/questions/65705/how-to-code-faster-without-sacrificing-quality
+* https://www.quora.com/How-do-I-train-myself-to-code-faster-and-with-fewer-bugs
