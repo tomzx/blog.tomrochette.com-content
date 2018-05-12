@@ -37,6 +37,7 @@ taxonomy:
 	* Hierarchical policy gradient algorithms
 	* Asymptotically optimal ways of algorithm transfer learning
 * Given a new task and a ONE trained on several previous tasks, such hierarchical/incremental methods may create a copy of the current ONE, freeze its current weights, then enlarge the copy of ONE by adding a few new units and connections which are trained until the new task is satisfactorily solved
+	* This process can reduce the size of the search space for new task, while giving the new weights the opportunity to learn to somehow use certain frozen parts of ONE's copy as subroutines
 
 # See also
 
