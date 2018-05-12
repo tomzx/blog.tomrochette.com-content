@@ -50,6 +50,10 @@ taxonomy:
 ### 3.8 Learning Goal Input-Dependence Through Compression
 * The non-trivial pattern recognition required to recognize commands such as "go to the north-east corner of the maze" will require a substantial subnetwork of ONE and many weights. We cannot expect neuroevolution to learn such speech recognition within reasonable time. However, a copy of ONE may rather easily learn by neuroevolution to always go to the north-east corner of the maze, ignoring speech inputs. In the consolidation phase, ONE then may rather easily learn the speech command-dependence of this behavior through gradient-based learning, without having to interact with the environment again
 
+### 3.12 Heuristics: Gaining Efficiency by Tracking Weight Variance
+* As a heuristic, we may track the variance of each weight's value at the ends of all trials. Frequently used weights with low variance can be suspected to be important for many tasks, and may get small or zero learning rates, thus making them even more stable, such that the system does not easily forget them during the learning of new tasks
+* Weights with high variance, however, may get high learning rates, and thus participate easily in the learning of new skills
+
 # See also
 
 # References
