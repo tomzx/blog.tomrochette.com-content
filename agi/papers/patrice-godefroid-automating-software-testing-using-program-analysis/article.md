@@ -36,14 +36,14 @@ taxonomy:
 	* using a constraint solver to infer variants of the previous input to steer the program's next execution toward an alternative program branch
 * This process is repeated until a specific program statement is reached
 
-```
+<pre><code class="language-cpp line-numbers">
 int obscure(int x, int y) {
 	if (x == hash(y)) {
 		return -1;
 	}
 	return 0;
 }
-```
+</code></pre>
 
 * To solve the x == hash(y) problem, we can execute hash(y) with a given value and then assign x to this value
 

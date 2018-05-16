@@ -97,7 +97,7 @@ The system \<MUST> \<export>
 As \<who> \<when> \<where>, I \<what> because \<why>
 
 ## Gherkin
-```
+<pre><code class="language-gherkin line-numbers">
  1: Feature: Some terse yet descriptive text of what is desired
  2:   Textual description of the business value of this feature
  3:   Business rules that govern the scope of the feature
@@ -111,7 +111,8 @@ As \<who> \<when> \<where>, I \<what> because \<why>
 11:       And yet another action
 12:     Then some testable outcome is achieved
 13:       And something else we can check happens too
-```
+</code></pre>
+
 
 ---
 

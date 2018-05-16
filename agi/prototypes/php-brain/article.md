@@ -144,7 +144,7 @@ With that dictionary built, we order it from the least frequent token to the mos
 
 At this point we're ready to proceed with the "critical" part of the algorithm, the string matching.
 
-```php
+<pre><code class="language-php line-numbers">
 // dictionary of known words from corpus listing all their starting indexes
 $vocabulary = ['word' => [1, 2, 3, 5, 7]];
 
@@ -170,7 +170,7 @@ foreach ($tokens as $index => $token) {
 
     $tokenIndexes[$token] = $index;
 }
-```
+</code></pre>
 
 What we will be doing is iterate through the dictionary of token => count, which is sorted from least frequent token to most frequent token. We'll fetch the list of indexes of the given token.
 
@@ -180,7 +180,7 @@ All subsequent iterations of the loop will consist is obtaining the token offset
 
 At the end of the loop, we are left only with  matching indexes.
 
-```php
+<pre><code class="language-php line-numbers">
 $vocabulary = ['word' => [1, 2, 3, 5, 7]]; // as shown earlier
 $firstToken = key($tokenCounts);
 $matchingIndexes = [];
@@ -208,7 +208,7 @@ foreach ($tokenCounts as $token => $count) {
         }
     }
 }
-```
+</code></pre>
 
 # Serial vs parallel
 So far we've been exploring various ways to store information in a sequential fashion, document by document. This obviously simplifies reflecting about the whole system because we do not have to consider concurrent interactions. But this also means that we are limited to doing things in a sequential manner which is more likely going to be a bottleneck further down the road.
@@ -216,20 +216,20 @@ So far we've been exploring various ways to store information in a sequential fa
 # A little program
 ## Run
 From the point of view of a human body:
-```php
+<pre><code class="language-php line-numbers">
 sense();
 think();
 act();
-```
+</code></pre>
 
 From the point of view of a machine/function:
-```php
+<pre><code class="language-php line-numbers">
 input();
 process();
 output();
 // or
 output(process(input()));
-```
+</code></pre>
 
 In a high level overview, the brain has only one process, which is the conscious stream. Input and output are comparable to events in the sense that we are more interested in the differences/changes that occur than the bare signal itself.
 
@@ -250,10 +250,10 @@ However, a deadline system does not make much sense when we attempt to relate it
 When we think, it isn't rare that we'll interrupt our thinking in order to think of something else. When we are done with this second thinking phase, we'll generally try to revert back to our initial thinking phase. However, since we are not consistent machines like computers, we do not push our thinking contexts onto stacks. Therefore, the reconstruction of our first thinking process context requires us to possibly start from scratch or to reconstruct it from partial details.
 
 ## Input/Sense
-```php
+<pre><code class="language-php line-numbers">
 autonomic();
 somatic();
-```
+</code></pre>
 
 There are two parts to sensing, first there's autonomous sensing and then there's non-autonomous/manual sensing. For instance, there's a lot of sensing that happens on the skin but is never really "transmitted" up to the brain (the information is not important enough). Similarly to the nervous system, there are two types of systems: the somatic and the autonomic/enteric systems. The somatic system mediates voluntary movement. The autonomic/enteric systems manage involuntary functions.
 
@@ -266,10 +266,10 @@ Every sense is different, but at the end of it, everything is a neurotransmitter
 When we are in a crowded location, it is not possible for us to listen to every discussion occurring around us. However, it is still possible for us to focus on particular voices. In the same sense, it is possible for us not to be listening at all to someone that is talking to us when we are the only two people in the room. The sound may be "interpreted" by the ears and received by the brain, but no processing is done on it and thus it is never actively considered.
 
 ## Process/Think
-```php
+<pre><code class="language-php line-numbers">
 $process = stream_priorities.pop();
 $process();
-```
+</code></pre>
 
 May not start from input nor end up generating any output.
 
@@ -281,7 +281,7 @@ If we base ourselves on how the brain work, we can extrapolate that all it does 
 
 Similarly to a neural network, the composition of a complex signal comes from the composition of simpler signals. For instance, in the diagram below, if 1, 2, 3 and 4 are activated, then it will activate 5 and 6, which will then activate 7.
 
-```mermaid
+<pre><code class="language-mermaid line-numbers">
 graph LR
 	1 --> 5
 	2 --> 5
@@ -289,11 +289,11 @@ graph LR
 	4 --> 6
 	5 --> 7
 	6 --> 7
-```
+</code></pre>
 
 If we replace numbers with concepts, we may end up with something like red (1), round(2), medium-sized (3), bouncy (4), red and round (5), medium-sized, bouncy (6), a red, medium-sized, bouncy ball (7).
 
-```mermaid
+<pre><code class="language-mermaid line-numbers">
 graph LR
 	1[red] --> 5
 	2[round] --> 5
@@ -301,13 +301,13 @@ graph LR
 	4[bouncy] --> 6
 	5[red and round] --> 7[red, medium-sized bouncy ball]
 	6[medium-sized, bouncy] --> 7
-```
+</code></pre>
 
 In this example we are already at a quite high level. Lower levels would have things such as shape, size, texture, color and so forth. When we generalize a concept, such as bouncy ball, it is done through the unification of many examples of bouncy balls, such that when we perceive only a subset of signals, it is enough to trigger the bouncy ball concept.
 
 It is simpler to think of signals in terms of number only. For instance, if we are to feed the system with a text, we could feed it the whole document, a list of paragraphs, a list of sentences, a list of words or a list of characters. However, those are different things and cannot really be compared to one another. However, if we decided to feed any of those or any combination of those items, and that the system simply assigned a number to each instance, then, through some oracle, it could be possible for the system to say "I've already seen this signal, it's #857278476856". Given a signal such as the sentence "This is a sentence" with ID = 1 and the words "This" (2), "is" (3) "a" (3), "sentence" (4), a small network can be composed:
 
-```mermaid
+<pre><code class="language-mermaid line-numbers">
 graph BT
 	1[1 This is a sentence]
 	2[2 This is a] --> 1
@@ -322,7 +322,7 @@ graph BT
 	9[9 a] --> 5
 	9 --> 6
 	10[10 sentence] --> 6
-```
+</code></pre>
 
 A 4 word sentence can be broken down into 10 nodes. Nodes 7, 8, 9 and 10 are all valid words, while 2, 3, 4, 5, 6 are valid part of sentences. Finally, 1 is a complete sentence.
 
@@ -335,7 +335,7 @@ During this process, surrounding nodes may be half activated (not completely). W
 
 If we go further, we could have paragraphs, sections, chapters, documents being identified above (we could say that "This is a sentence" is a sentence that belongs to the document "PHP Brain"). The same can be done below the graph, where characters, and then strokes, could be stored.
 
-```mermaid
+<pre><code class="language-mermaid line-numbers">
 graph BT
 	1[1 This is a sentence]
 	2[2 This is a] --> 1
@@ -362,13 +362,13 @@ graph BT
 	17[17 n] --> 10
 	18[18 t] --> 10
 	19[19 c] --> 10
-```
+</code></pre>
 
 A node an link/network architecture is very common for AGI. It is probably the currently best known way to represents concepts and their relations in a common vocabulary. Furthermore, links can have different types (association, dependency, generalization, instantiation, etc.) which makes it perfect for modeling knowledge. However, in order to keep things simple, we could accept to use only one type of relation, the "relates" relationship. We don't really care about the type of relation between the nodes, only that there's something that relate one to the other (such as having smelled something when a particular word was uttered).
 
 If we get rid of the attached concepts and only keep the numbers, we can see the structure of a concept.
 
-```mermaid
+<pre><code class="language-mermaid line-numbers">
 graph BT
 	1
 	2 --> 1
@@ -395,7 +395,7 @@ graph BT
 	17 --> 10
 	18 --> 10
 	19 --> 10
-```
+</code></pre>
 
  If we wanted to optimize "storage" of such structure, we could for example record the structure and assign it a number. Given the same type of graph traversal algorithm for all structures (pre-order, in-order, post-order), we could recreate this graph many times with different concepts in place of these numbers.
 

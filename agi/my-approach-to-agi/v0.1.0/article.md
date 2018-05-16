@@ -23,7 +23,7 @@ Feel free to drop me a comment or any questions down below (at the end of the ar
 
 # Layers
 
-```mermaid
+<pre><code class="language-mermaid line-numbers">
 graph TD;
     0[Start]
     0 --> 1[Main loop]
@@ -33,7 +33,7 @@ graph TD;
     4 --> 5[End loop]
     5 --> 1
     5 --> 6[Done]
-```
+</code></pre>
 
 # Pre-requisites
 
@@ -127,7 +127,7 @@ However the robot may also be virtual. In this case, a stream of data could be s
 
 In short, what this means is that as long as the input contains enough information for the AGI to process, then it is part of the AGI task to figure out what it contains. However, once the format has been established, then newer information can now use this structure to build upon.
 
-Another question that comes out of this discussion is "what is the impact of having a single input channel instead of many?" As the visual and auditory systems are separate in humans, we are to wonder what is the purpose of the separate channels. Is it simply because some information simply cannot be processed through the given modalities? One cannot hear through his eyes nor see through its ears. Thus the different modalities we've acquired are potentially adaptation to different form of data that we could not process with our sensory modalities at the time.
+Another question that comes out of this discussion is "what is the impact of having a single input channel instead of many?" As the visual and auditory systems are separate in humans, we are to wonder what is the purpose of the separate channels. Is it simply because some information simply cannot be processed through the given modalities? One cannot hear through his eyes nor see through its ears. Thus the different modalities we've acquired are potentially adaptation to different form of data that we could not process with our sensory modalities at the time. A simple explanation as to why it is this way is that having multiple "streams" multiplexed into one adds additional burden to the processing of information, namely demultiplexing the inputs. It is far simpler and cleaner architecturally speaking to have highly cohesive data going into a function than it is having the function deal with an unrelated structure to extract the information it wants to process.
 
 Another interesting bit of information is that all signals within the brain are transmitted through neurons and thus have to be converted into a chemical/electrical signal at some point. What this means is that whatever the input format is, it will have to be converted in a 0/1 equivalent.
 

@@ -57,7 +57,7 @@ When the client is configured, it will call the server to inform it it wants to 
 
 The following sequence diagram represents the communication between a client and a server in the case that there are only inserts being done on the server data and the client wants to sync this data locally.
 
-```mermaid
+<pre><code class="language-mermaid line-numbers">
 sequenceDiagram
 	Client->>Server: Init
 	Server-->>Client: OK
@@ -68,13 +68,13 @@ sequenceDiagram
 	Server->>Client: Table A, done
 	Server->>Client: Table B, done
 	Client->>Server: Close
-```
+</code></pre>
 
 This simple case sadly does not cover updates nor deletes.
 
 In order to support updates, we need to have an `updated_at` column that is updated when the data itself is updated.
 
-```mermaid
+<pre><code class="language-mermaid line-numbers">
 sequenceDiagram
 	Client->>Server: Init
 	Server-->>Client: OK
@@ -87,7 +87,7 @@ sequenceDiagram
 	Server->>Client: Table B, Update ID = [123, 234]
 	Server->>Client: Table B, done
 	Client->>Server: Close
-```
+</code></pre>
 
 If the table also supports `deleted_at`, then it should work in the same fashion as with `updated_at`. Here, we could have a setting to determine whether `updated_at` would be updated on a `deleted_at`, and if it is not, then it means that we have to do a separate set of operations for delete operations. The simplest case is to "force" the users to update their `updated_at` field when they set one of their rows `deleted_at` attribute (so that they both match).
 
@@ -102,7 +102,7 @@ One of the biggest challenges with synchronizing removal of rows is that there i
 
 It is possible to query SQL and ask for the non-consecutive blocks of IDs using a query such as the following one:
 
-```sql
+<pre><code class="language-sql line-numbers">
 select l.id lValue, c.id cValue, r.id rValue
   from
   test l
@@ -112,7 +112,7 @@ where 1=1
   and c.id > 0
   and (l.id is null or r.id is null)
 order by c.id asc;
-```
+</code></pre>
 
 **Source:** http://stackoverflow.com/questions/4340793/how-to-find-gaps-in-sequential-numbering-in-mysql
 
@@ -143,14 +143,14 @@ The query will return us with:
 
 An alternative query could be
 
-```sql
+<pre><code class="language-sql line-numbers">
 select l.id + 1 as start, min(fr.id) - 1 as stop
 from test as l
     left outer join test as r on l.id = r.id - 1
     left outer join test as fr on l.id < fr.id
 where r.id is null and fr.id is not null
 group by l.id, r.id;
-```
+</code></pre>
 
 **Source:** http://www.xaprb.com/blog/2005/12/06/find-missing-numbers-in-a-sequence-with-sql/
 
@@ -158,7 +158,7 @@ But such query does not return us missing IDs from 1 to X, it only returns us wi
 
 Given we can receive a list of from-to of deleted rows, we should be able to fully update our client.
 
-```mermaid
+<pre><code class="language-mermaid line-numbers">
 sequenceDiagram
     Client->>Server: Init
     Server-->>Client: OK
@@ -173,7 +173,7 @@ sequenceDiagram
     Server->>Client: Table B, Update ID = [123, 234]
     Server->>Client: Table B, done
     Client->>Server: Close
-```
+</code></pre>
 
 One of the downside of this method is that the server will have to compute and send over the list of deleted rows on every request. We could compute the list of missing rows on the client and send it to the server so that they may not be sent back, but it is putting more burden on the client than we probably might want.
 

@@ -17,11 +17,11 @@ Let's assume that all that is available to us to write a new function is a list 
 
 First we want look at parameterless functions.
 
-```cpp
+<pre><code class="language-cpp line-numbers">
 SomeType myFunction() {
 	// ...
 }
-```
+</code></pre>
 
 A parameterless function can do three of the following things:
 * Return data (an intrinsic value or some structure/object)
@@ -29,7 +29,7 @@ A parameterless function can do three of the following things:
 * Call other functions with parameters by instantiating the required arguments internally through a call to other parameterless functions
 
 ## Return data (Instantiator)
-```cpp
+<pre><code class="language-cpp line-numbers">
 struct SomeType {
 	int a;
 	double b;
@@ -42,13 +42,13 @@ SomeType myFunction() {
 	c.b = 3.1415;
 	return c;
 }
-```
+</code></pre>
 
 * It can return consumable data
 * It can instantiate static data
 
 ## Call other parameterless functions (Delegator)
-```cpp
+<pre><code class="language-cpp line-numbers">
 // Instantiator
 SomeType myOtherFunction() {
 	// ...
@@ -58,16 +58,17 @@ SomeType myOtherFunction() {
 SomeType myFunction() {
 	return myOtherFunction();
 }
-```
+</code></pre>
 
 Overall, the "functions" of such a function are:
 * Encapsulating functions ($f() = g()$)
 * Encapsulating sequence of functions ($f() = g(),h(),i()$)
 * Function composition/Chaining functions calls ($f = g \circ h \circ i = g(h(i()))$)
-* Recursive function calls ($f = f^n$)
+<!-- TODO: This is not the proper way to write that a given function calls itself n times -->
+* Recursive function calls ($f = f^n$, $f = \circ^n f$ ,$f = \underbrace{f \circ f \circ \dots \circ f}_{n}$)
 
 ## Call other functions with parameters
-```cpp
+<pre><code class="language-cpp line-numbers">
 // Instantiator
 int myIntFunction() {
 	return 3;
@@ -83,13 +84,13 @@ SomeType myFunction() {
 	int x = myIntFunction();
 	return myOtherFunction(x);
 }
-```
+</code></pre>
 
 Here we observe that calling functions with parameters only amounts to calling the appropriate instantiator and passing the result to the function expecting an argument.
 
 We can consider the following program
 
-```cpp
+<pre><code class="language-cpp line-numbers">
 SomeType myOtherFunction(int x) {
 	// ...
 }
@@ -97,11 +98,11 @@ SomeType myOtherFunction(int x) {
 SomeType myFunction() {
 	return myOtherFunction(3);
 }
-```
+</code></pre>
 
 to be convertible into
 
-```cpp
+<pre><code class="language-cpp line-numbers">
 int myIntFunction() {
 	return 3;
 }
@@ -114,7 +115,7 @@ SomeType myFunction() {
 	int x = myIntFunction();
 	return myOtherFunction(x);
 }
-```
+</code></pre>
 
 # See also
 

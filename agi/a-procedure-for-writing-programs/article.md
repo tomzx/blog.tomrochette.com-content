@@ -37,7 +37,7 @@ Here's a few questions I will ask myself before writing any code:
 * Do I know how to implement this?
 * What can I safely extrapolate this new feature will need to be able to do in the future? Can I account for any of it in my current design?
 
-```mermaid
+<pre><code class="language-mermaid line-numbers">
 graph TD;
 	0[Is this functionality already available in the existing codebase?]
 	0 --Yes--> 100[Use it]
@@ -50,7 +50,7 @@ graph TD;
 	2 --Yes--> 102[Can I produce a better implementation?]
 	102 --No--> 104[Use existing implementation]
 	102 --Yes--> 103[Implement it]
-```
+</code></pre>
 
 Most of the time a single straightforward solution will fit the bill for all the given requirements and implementation will be the next step. However, it happens from time to time that multiple solutions are valid and you will have to determine the pros/cons of each solution in order to make the best decision for the given situation. In any case, one will want to:
 

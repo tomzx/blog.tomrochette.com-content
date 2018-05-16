@@ -2,11 +2,12 @@
 title: Gestionnaire d’espace web pour hébergeur
 ---
 
-**Description**  
+**Description**
 Il s'agit d'un système complet de panneau de contrôle pour hébergement. Il permet entre autre de modifier les préférences de l'utilisateur, de modifier ses configurations de bases de données, de modifier les accès à ses fichiers via FTP et beaucoup plus. L'architecture modulaire de l'application permet de facilement ajouter de nouvelles options au panneau de contrôle.
 
 **Snippet**
-<pre><code class="language-php line-numbers">public function addModules($name)
+<pre><code class="language-php line-numbers">
+public function addModules($name)
 {
 	$module = new $name();
 	if ($module-&gt;getStatus() === 'ON') {

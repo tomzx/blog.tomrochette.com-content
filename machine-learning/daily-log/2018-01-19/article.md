@@ -18,15 +18,15 @@ taxonomy:
 * How do simple neural networks work?
 	* The square of the difference between the output and the target is computed
 
-	```squared_error = tf.square(output - target)```
+	<pre><code class="language-python line-numbers">squared_error = tf.square(output - target)</code></pre>
 
 	* Then this value is reduced to a single value we call the loss
 
-	```loss = tf.reduce_mean(squared_error)```
+	<pre><code class="language-python line-numbers">loss = tf.reduce_mean(squared_error)</code></pre>
 
 	* Our objective is to minimize this loss as much as possible with the use of an optimizer
 
-	```objective = optimizer.minimize(loss)```
+	<pre><code class="language-python line-numbers">objective = optimizer.minimize(loss)</code></pre>
 
 * Dense layers
 	* Dense layers are tensors of weights $\mathbf{W}$ which are multiplied against the input $\mathbf{x}$ of the layer, to which a bias $\mathbf{B}$ is added
@@ -47,7 +47,7 @@ taxonomy:
 	* Now, how does one decide which values of $W$ and $B$ are the best for a given training set?
 		* Let's initialize $W = 0$ and $B = 0$
 		* If for each example in our training set, we compute the resulting $y$, we can tell how our current values of $W$ and $B$ together are close or far from the value that can best approximate the function represented by the training examples.
-		
+
 		$$
 		\begin{split}
 		3 = W\times6 + B \\
@@ -55,7 +55,7 @@ taxonomy:
 		\end{split}
 		$$
 
-		
+
 		$$
 		\begin{split}
 		3 =^? 0\times6 + 0 = 0 \\
@@ -64,7 +64,7 @@ taxonomy:
 		$$
 
 		* From this, we can see that there is an error of 3 in the first training set example, but no error in the second. Given a linear function and two training examples, the best function is one that goes through the two examples, namely $(6, 3)$ and $(7, 3)$. In such a simple case, the equation is
-		
+
 		$$
 		\begin{split}
 		W = \frac{y_2 - y_1}{x_2 - x_1} \\

@@ -2,7 +2,7 @@
 title: Embedded system
 ---
 
-**Description**  
+**Description**
 The goal of this embedded system, which was mounted on a 2 wheels, 2 ball-bearing base, was to accomplish a series of tasks. More specifically:
 
 *   Navigate a grid based map, following black duct tape assembled in a grid fashion
@@ -25,7 +25,8 @@ This robot was using the following sensors/outputs to accomplish those tasks:
 </u>
 
 **Snippet**
-<pre><code class="language-cpp line-numbers">/*!
+<pre><code class="language-cpp line-numbers">
+/*!
  * \brief La classe principale qui se charge des différents périphériques.
  */
 class Robot{
@@ -34,14 +35,14 @@ public:
     static Robot* instance_;
     //! État du reset
     static bool reset;
-    
+
     //! Constructeur
     Robot();
     //! Obtenir l'instance du robot
     static Robot* getInstance();
     //! Destructeur
     ~Robot();
-    
+
     //! Initier le robot
     void init();
     //! Réinitialiser le robot (soft reset)
@@ -53,7 +54,7 @@ public:
 
     //! Se charge d'effectuer la bonne interruption
     void doInterrupt();
-    
+
     // Péripheriques
     Infrared infrared;
     Lcd lcd;
@@ -63,27 +64,27 @@ public:
     Motor motor;
     Sonar sonar;
     Sound sound;
-    
+
     // Outils
     QueenTracker queenTracker;
     LineTracker lineTracker;
-    
+
     // Epreuves
     EviterMur eviterMur;
     EviterPoteau eviterPoteau;
     ArcManquant arcManquant;
     VitesseAngulaire vitesseAngulaire;
     CalculerReine calculerReine;
-    
+
     // Le robot a termine?
     bool termine;
 private:
     // Etat actuel du robot
     uint8_t mEtat;
-    
+
     // Compteur temporaire pour changer x et y
     uint8_t tmpCounter;
-    
+
     // Timer a time out pour definir les coordonnees au debut
     uint8_t timeOut;
 };

@@ -93,7 +93,7 @@ To avoid overfitting, the number of parameters estimated from the data must be c
 * Feed data into network
 
 # Drawing a rectangle over an image
-```python
+<pre><code class="language-python line-numbers">
 import matplotlib.pyplot as plt
 from matplotlib import patches
 from scipy import ndimage
@@ -111,7 +111,7 @@ for patch in p:
     ax.add_patch(patch)
 ax.imshow(image)
 plt.show()
-```
+</code></pre>
 
 # See also
 

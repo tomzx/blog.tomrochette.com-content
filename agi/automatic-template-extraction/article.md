@@ -14,6 +14,7 @@ taxonomy:
 * To extract patterns, group them by starting character, then test how many have the same following character
 * Grammar induction
 * Compression
+	* Compression can be a tool for automatic template extraction, however we would most likely want to priority semantics of the extracted template over better compression
 * Diff/match/patch
 * Fragment extraction, then wildcard pattern generation
 * Lexer-like that will replace a whole sequence if it is already in the grammar instead of doing character by character replacement like sequitur
@@ -27,7 +28,7 @@ taxonomy:
 # Example
 <...> is a placeholder (can be replaced/is variable)
 
-```php
+<pre><code class="language-php line-numbers">
 public function getClassification()
 {
 	return $this->classification;
@@ -39,9 +40,9 @@ public function setClassification($classification)
 
 	return $this;
 }
-```
+</code></pre>
 
-```php
+<pre><code class="language-php line-numbers">
 public function get<x>()
 {
 	return $this-><y>;
@@ -54,35 +55,35 @@ public function set<x>(<y>)
 
 	return $this;
 }
-```
+</code></pre>
 
-```php
+<pre><code class="language-php line-numbers">
 class SomeClass extends Model {
 	protected $table = 'some_table';
 
 	protected $fillable = ['field_1', 'field_2'];
 }
-```
+</code></pre>
 
-```php
+<pre><code class="language-php line-numbers">
 class <x> extends Model {
 	protected $table = '<y>';
 
 	protected $fillable = [<z>];
 }
-```
+</code></pre>
 
 ## If extraction
-```php
+<pre><code class="language-php line-numbers">
 if ($someCondition) {
 	// Do something
 }
-```
+</code></pre>
 
-```php
+<pre><code class="language-php line-numbers">
 if (<x>)
 	<y>
-```
+</code></pre>
 
 # Prototype ideas/pseudo-code
 * Create a dictionary of all seen characters
@@ -109,10 +110,14 @@ if (<x>)
 	* p1: no pair of adjacent symbols appears more than once in the grammar;
 	* p2: every rule is used more than once.
 * How can we prefer `public function <>(<>) {<>}` over `} public function <>(<>) {`?
+	* If we refer to an explicit grammar, we can give more weight to the first one because it is likely a construct/production in the grammar, while the second one is the concatenation of two productions
 
 # See also
 
 # References
-
 * http://www.sequitur.info/
 * [Identifying Hierarchical Structure in Sequences: A linear-time algorithm](http://www.jair.org/media/374/live-374-1630-jair.pdf)
+* https://en.wikipedia.org/wiki/Three-address_code
+* https://en.wikipedia.org/wiki/Optimizing_compiler
+* https://en.wikipedia.org/wiki/Intermediate_representation
+* https://en.wikipedia.org/wiki/Abstract_syntax_tree

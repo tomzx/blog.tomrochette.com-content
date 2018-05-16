@@ -15,19 +15,19 @@ I had code coverage work on another project in the same environment I was in, so
 
 I tried a couple of things, starting by calling phpunit from the command line using different arguments:
 
-```shell
+<pre><code class="language-shell line-numbers">
 --coverage-html report test\symbol_test.php
-```
+</code></pre>
 Would generate some report with data in it, good!
 
-```shell
+<pre><code class="language-shell line-numbers">
 -c test\phpunit.xml (logging set in phpunit.xml)
-```
+</code></pre>
 Would generate an empty report, not good...
 
-```shell
+<pre><code class="language-shell line-numbers">
 --coverage-html report -c test\phpunit.xml
-```
+</code></pre>
 Would generate an empty report, not good...
 
 So at that point I saw that it was working correctly and that something was definitely wrong with my phpunit.xml configuration file. I went back to the [phpunit.de](https://phpunit.de/manual/current/en/code-coverage-analysis.html#code-coverage-analysis.whitelisting-files) manual, specifically on the configuration page, and tried to figure out my problem.
@@ -36,7 +36,8 @@ For code coverage to be included in your report, you have to add a filter, be it
 
 So I quickly added a filter such as
 
-<pre><code class="language-markup line-numbers">&lt;filter&gt;
+<pre><code class="language-markup line-numbers">
+&lt;filter&gt;
 	&lt;whitelist&gt;
 		&lt;directory&gt;../&lt;/directory&gt;
 	&lt;/whitelist&gt;

@@ -21,7 +21,8 @@ What you will want to do next is go to `C:\Program Files (x86)\Git\.subversion` 
 
 Another, and possibly better solution, is to create a symbolic link so that those 2 folders are in fact a single one. For instance, you could do something such as
 
-<pre><code class="language-bash line-numbers">move %USERPROFILE%\.subversion %USERPROFILE%\.subversion_backup
+<pre><code class="language-bash line-numbers">
+move %USERPROFILE%\.subversion %USERPROFILE%\.subversion_backup
 mklink /D %USERPROFILE%\.subversion "C:\Program Files (x86)\Git\.subversion"
 </code></pre>
 

@@ -43,11 +43,12 @@ taxonomy:
 # Analysis
 ## Blocks
 ### Code
-```php
+<pre><code class="language-php line-numbers">
 {
 
 }
-```
+</code></pre>
+
 
 ### Notes
 * Depending on the language, the block should indicate that variables initialized within the block are scoped to this block, in other words, when we reach the end of the block, the variable is not available anymore
@@ -55,25 +56,25 @@ taxonomy:
 
 ## Conditions
 ### Code
-```php
+<pre><code class="language-php line-numbers">
 if ($a === $b && $c === $d) {
 
 }
-```
+</code></pre>
 
 ### Notes
 * Conditions can first be seen as true/false cases, which may hide more complex boolean logic
 
 ## Sequential conditions
 ### Code
-```php
+<pre><code class="language-php line-numbers">
 if ($a) {
 
 }
 if ($b) {
 
 }
-```
+</code></pre>
 
 ### Statements coverage
 | a | b |
@@ -96,13 +97,13 @@ if ($b) {
 
 ## Nested conditions
 ### Code
-```php
+<pre><code class="language-php line-numbers">
 if ($a) {
 	if ($b) {
 
 	}
 }
-```
+</code></pre>
 
 ### Statements coverage
 | a | b |
@@ -128,7 +129,7 @@ As soon as `$a` is false, the value of `$b` does not matter.
 
 ## Loops
 ### Code
-```php
+<pre><code class="language-php line-numbers">
 for ($i = 0; $i < 100; ++$i) {
 
 }
@@ -144,14 +145,14 @@ do {
 foreach ($a as $b) {
 
 }
-```
+</code></pre>
 
 ### Notes
 * Loops present a condition, and thus present the same challenges as conditions (sequential loops and nested loops)
 
 ## Functions
 ### Code
-```php
+<pre><code class="language-php line-numbers">
 function a() {
 	a();
 }
@@ -163,7 +164,7 @@ function b() {
 function c() {
 	b();
 }
-```
+</code></pre>
 
 ### Notes
 * Functions can call themselves (recursion)

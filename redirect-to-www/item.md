@@ -9,7 +9,8 @@ taxonomy:
     tag: [apache, .htaccess, rewriterule]
 ---
 
-<pre><code class="language-apache line-numbers">Options +FollowSymLinks
+<pre><code class="language-apache line-numbers">
+Options +FollowSymLinks
 RewriteEngine on
 RewriteCond %{HTTP_HOST} ^your-domain-here\.com
 RewriteRule ^(.*)$ http://www.your-domain-here.com/$1 [R=permanent,L]

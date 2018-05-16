@@ -12,7 +12,7 @@ taxonomy:
 
 ## Things to explore
 
-* How does embedding work?
+* How are embeddings computed?
 
 # Problems faced
 
@@ -69,7 +69,7 @@ To train darkflow, you have to do the following
 2. Create and configure your custom network architecture `cfg/network.cfg` (you can copy `yolo.cfg` or `yolo-tiny.cfg`)
 3. Prepare a set of annotations files (which will be in the annotations folder) in the Pascal VOC XML format, which has this minimal format
 
-```xml
+<pre><code class="language-xml line-numbers">
 <?xml version="1.0" ?>
 <annotation>
     <filename></filename>
@@ -87,7 +87,7 @@ To train darkflow, you have to do the following
         </bndbox>
     </object>
 </annotation>
-```
+</code></pre>
 
 Where
 

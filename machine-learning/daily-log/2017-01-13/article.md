@@ -27,15 +27,15 @@ Today I worked on what I consider a simple beginner's problem. The goal is to pr
 
 I formatted my input data in the following way:
 
-```
+<pre><code class="language-python line-numbers">
 [year, month, day, hour, minute, weekday]
-```
+</code></pre>
 
 such that, for an entry for 2017-01-13 12:30, I would have the following input vector
 
-```python
+<pre><code class="language-python line-numbers">
 [2017, 1, 13, 12, 30, 5]
-```
+</code></pre>
 
 My desired output is a label such as "Project X". However, since I deal with numbers here, the labels have been converted to numerical identifiers such as "6". Then, since I want to train my neural network to learn about categories because the labels are not representing linear values, I convert these labels into `one hot` vectors.
 
@@ -49,12 +49,12 @@ Since my data comes from a MySQL database, I do not convert the text into a nume
 
 I then built an extremely simple neural network using Keras.
 
-```python
+<pre><code class="language-python line-numbers">
 model = Sequential([
     Dense(output_dimension, input_dim=input_dimension),
     Dense(output_dimension, activation="softmax")
 ])
-```
+</code></pre>
 
 where the input_dimension is 6 and the output dimension is based on the maximum project id retrieved from the database.
 
@@ -70,12 +70,12 @@ In order to improve my results, I tried various things:
 
 The best I was able to get on that day was about 44.7% validation accuracy, which was at least twice better than what I had originally started with.
 
-```python
+<pre><code class="language-python line-numbers">
 model = Sequential([
     Dense(output_dimension, input_dim=input_dimension, activation="sigmoid"),
     Dense(output_dimension, activation="softmax")
 ])
-```
+</code></pre>
 
 # See also
 

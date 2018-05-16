@@ -216,7 +216,7 @@ From the list of tasks we've established so far, we can try to create a list of 
 ## Task list execution
 The execution of tasks as described earlier is most likely done through a while loop, in which the task to execute at any moment appears to be selected at random, such that the code would look something like
 
-```
+<pre><code class="language-php line-numbers">
 while (programming) {
 	switch (rand() % numberOfTasks) {
 		// break; have been removed to better present the idea
@@ -225,7 +225,8 @@ while (programming) {
 		case 2: // task C
 	}
 }
-```
+</code></pre>
+
 
 There's also likely to be some sort of evaluative loop that is assessing the code observed for things that will need to be done. In some sense, the internals of the programming loop is more likely to resemble a Markov decision process, where certain tasks are very likely to be executed just after a given task was executed (e.g. initializing a variable after it has been declared).
 
