@@ -32,6 +32,10 @@ taxonomy:
 # See also
 
 # References
+## Note taking
+* https://news.ycombinator.com/item?id=15736102
+* https://joplin.cozic.net/
+
 ## Programmer journal
 * https://peterlyons.com/leveling-up#your-work-journal
 * https://news.ycombinator.com/item?id=15768123
