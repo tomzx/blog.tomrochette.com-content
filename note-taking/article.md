@@ -24,6 +24,7 @@ taxonomy:
 * Promote interesting ideas into a journal file (from buffer to journal)
 
 > I found the success rate of finding something there vs google was quite low and things quickly became obsolete
+>  If I re-google something vs read a note i wrote down 3 years ago i might hit an article teaching me a new better way to do something instead of being stuck in my old bubble.
 > Source: https://news.ycombinator.com/item?id=15476305
 
 # See also
