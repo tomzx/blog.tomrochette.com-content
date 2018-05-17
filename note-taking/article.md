@@ -11,6 +11,8 @@ taxonomy:
 ## Learned in this study
 
 ## Things to explore
+* What is the read vs write of notes?
+* What should be an ideal read/write ratio?
 
 # Overview
 
