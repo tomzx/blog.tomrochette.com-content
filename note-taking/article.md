@@ -23,6 +23,9 @@ taxonomy:
 * Write short-lived ideas and thoughts in a buffer file
 * Promote interesting ideas into a journal file (from buffer to journal)
 
+> I found the success rate of finding something there vs google was quite low and things quickly became obsolete
+> Source: https://news.ycombinator.com/item?id=15476305
+
 # See also
 
 # References
