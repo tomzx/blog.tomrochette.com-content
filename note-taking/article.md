@@ -16,11 +16,6 @@ taxonomy:
 
 # Notes
 
-# See also
-
-# References
-
-
 * date/time
 * tags
 
@@ -28,4 +23,10 @@ taxonomy:
 * Write short-lived ideas and thoughts in a buffer file
 * Promote interesting ideas into a journal file (from buffer to journal)
 
-https://peterlyons.com/leveling-up#your-work-journal
+# See also
+
+# References
+## Programmer journal
+* https://peterlyons.com/leveling-up#your-work-journal
+* https://news.ycombinator.com/item?id=15768123
+* https://gist.github.com/sent-hil/3444793
