@@ -53,3 +53,4 @@ taxonomy:
 * http://programmer.97things.oreilly.com/wiki/index.php/Do_Lots_of_Deliberate_Practice
 * https://softwareengineering.stackexchange.com/questions/65705/how-to-code-faster-without-sacrificing-quality
 * https://www.quora.com/How-do-I-train-myself-to-code-faster-and-with-fewer-bugs
+* https://news.ycombinator.com/item?id=9242245
