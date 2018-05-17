@@ -48,3 +48,6 @@ taxonomy:
 ## Software
 * https://boostnote.io/
 * https://notes.sciter.com/
+
+## Other
+8 https://www.flickr.com/photos/hawkexpress/sets/72157594200490122/
