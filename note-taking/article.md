@@ -40,3 +40,7 @@ taxonomy:
 * https://news.ycombinator.com/item?id=14822560
 * https://news.ycombinator.com/item?id=15473702
 * http://www.webpages.uidaho.edu/mindworks/Capstone%20Design/Project%20Guides/Logbook_Handout.pdf
+
+## Software
+* https://boostnote.io/
+* https://notes.sciter.com/
