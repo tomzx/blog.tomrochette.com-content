@@ -30,3 +30,5 @@ taxonomy:
 * https://peterlyons.com/leveling-up#your-work-journal
 * https://news.ycombinator.com/item?id=15768123
 * https://gist.github.com/sent-hil/3444793
+* https://routley.io/tech/2017/11/23/logbook.html
+* https://news.ycombinator.com/item?id=15473702
