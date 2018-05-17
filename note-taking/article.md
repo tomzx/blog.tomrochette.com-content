@@ -37,5 +37,6 @@ taxonomy:
 * https://news.ycombinator.com/item?id=15768123
 * https://gist.github.com/sent-hil/3444793
 * https://routley.io/tech/2017/11/23/logbook.html
+* https://news.ycombinator.com/item?id=14822560
 * https://news.ycombinator.com/item?id=15473702
 * http://www.webpages.uidaho.edu/mindworks/Capstone%20Design/Project%20Guides/Logbook_Handout.pdf
