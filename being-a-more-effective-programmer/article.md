@@ -47,6 +47,9 @@ taxonomy:
 * Write comments about the alternative options you have
 * You must be willing to accept that some of your assumption may be wrong: Sometimes you will discover that what you took for granted is not necessarily correct (such as template code provided to you that does not accomplish what it states it does)
 
+## 2018-05-18
+* Record yourself solving a problem then take some time to analyze and determine the steps of the problem you were trying to solve. Determine how long you would expect each step to take and where there is potential for improvement
+
 ### When a function is not working as expected
 * Check the problem definition
 
