@@ -36,6 +36,10 @@ taxonomy:
 * Break the problem into parts and solve the parts
 * Do not optimize for speed, optimize for readability/understandability/transparency
 
+## Basic things
+* Use a consistent style
+* Spend time learning the language features available functions/classes
+
 ## 2018-05-12
 * Start with the simplest cases you want to support, then proceed to more and more difficult cases
 * Verify your progress in small iterations to prevent writing a lot and then having to make it all work
