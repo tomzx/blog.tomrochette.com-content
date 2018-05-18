@@ -33,6 +33,7 @@ taxonomy:
 * Easy and fast to insert new content
 * Easy to structure and associate content
 * Portable/Non-proprietary format (most of what you will want to store is text or images anyway)
+* Version controlled
 
 # See also
 
