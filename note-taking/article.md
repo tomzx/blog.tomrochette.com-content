@@ -32,6 +32,7 @@ taxonomy:
 # Requirements of software
 * Easy and fast to insert new content
 * Easy to structure and associate content
+* Portable/Non-proprietary format
 
 # See also
 
