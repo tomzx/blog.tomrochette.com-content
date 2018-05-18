@@ -62,3 +62,6 @@ taxonomy:
 * https://www.quora.com/How-do-I-train-myself-to-code-faster-and-with-fewer-bugs
 * https://news.ycombinator.com/item?id=9242245
 * https://news.ycombinator.com/item?id=14708350
+
+## Productivity
+* https://www.lesswrong.com/posts/JTHe5oGvdj6T73o4o/how-i-am-productive
