@@ -24,3 +24,5 @@ Task 7
 </code></pre>
 
 Conceptually, you would want to always complete a stack of operations before moving to a new task. However, it is highly common in programming that a programmer will start going down such stack while working on code and then will not end up climbing back the stack, effectively not completing all he started working on.
+
+This format thus allows a programmer (or anyone working on tasks that can spawn other tasks) to better track what they were doing and what they did and did not complete.
