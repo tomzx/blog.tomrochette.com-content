@@ -22,3 +22,5 @@ Task 3 11:00-...
 		Task 6 11:20
 Task 7
 </code></pre>
+
+Conceptually, you would want to always complete a stack of operation before moving to a new task. However, it is highly common in programming that one will start going down such stack while working on code and then will not end up climbing back the stack.
