@@ -32,7 +32,7 @@ taxonomy:
 # Requirements of software
 * Easy and fast to insert new content
 * Easy to structure and associate content
-* Portable/Non-proprietary format
+* Portable/Non-proprietary format (most of what you will want to store is text or images anyway)
 
 # See also
 
