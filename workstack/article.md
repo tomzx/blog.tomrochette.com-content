@@ -16,9 +16,9 @@ An example of this note taking format is as follow.
 <pre><code class="language-text line-numbers">
 Task 1 10:00-10:30
 Task 2 10:35-10:50
-Task 3 11:00
+Task 3 11:00-...
 	Task 4 11:05-11:15
-	Task 5 11:17-
+	Task 5 11:17-...
 		Task 6 11:20
 Task 7
 </code></pre>
