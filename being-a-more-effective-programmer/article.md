@@ -40,8 +40,8 @@ taxonomy:
 * Start with the simplest cases you want to support, then proceed to more and more difficult cases
 * Verify your progress in small iterations to prevent writing a lot and then having to make it all work
 * Identify the variables that you need through an iterative process
-* Write in comments the alternative options you have
-* Sometimes you will discover that what you took for granted is not necessarily correct (such as template code provided to you that does not accomplish what it states it does)
+* Write comments about the alternative options you have
+* You must be willing to accept that some of your assumption may be wrong: Sometimes you will discover that what you took for granted is not necessarily correct (such as template code provided to you that does not accomplish what it states it does)
 
 ### When a function is not working as expected
 * Check the problem definition
