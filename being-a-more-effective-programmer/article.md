@@ -49,6 +49,7 @@ taxonomy:
 
 ## 2018-05-18
 * Record yourself solving a problem then take some time to analyze and determine the steps of the problem you were trying to solve. Determine how long you would expect each step to take and where there is potential for improvement
+* Design a process for designing, implementing and debugging programs and follow it, changing it as needed
 
 ### When a function is not working as expected
 * Check the problem definition
