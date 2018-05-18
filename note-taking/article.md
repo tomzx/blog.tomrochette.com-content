@@ -29,6 +29,10 @@ taxonomy:
 >  If I re-google something vs read a note i wrote down 3 years ago i might hit an article teaching me a new better way to do something instead of being stuck in my old bubble.
 > Source: https://news.ycombinator.com/item?id=15476305
 
+# Requirements of software
+* Easy and fast to insert new content
+* Easy to structure and associate content
+
 # See also
 
 # References
