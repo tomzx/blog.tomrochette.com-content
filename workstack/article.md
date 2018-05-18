@@ -13,7 +13,7 @@ The workstack is a way to record notes about what you work on. As you work on so
 
 An example of this note taking format is as follow.
 
-```
+<pre><code>
 Task 1 10:00-10:30
 Task 2 10:35-10:50
 Task 3 11:00
@@ -21,4 +21,4 @@ Task 3 11:00
 	Task 5 11:17-
 		Task 6 11:20
 Task 7
-```
+</code></pre>
