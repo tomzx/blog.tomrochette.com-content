@@ -23,6 +23,8 @@ Task 3 11:00-...
 Task 7
 </code></pre>
 
+In this case, the person started working on tasks 1 and 2, then began working on task 3. As he began his work, he noticed that something else was necessary, which spawned task 4. As he completed task 4, he returned to task 3, but noticed that something else also had to be done, which effectively spawned task 5. During task 5, something else also interrupted him, which forced him to work on task 6.
+
 Conceptually, you would want to always complete a stack of operations before moving to a new task. However, it is highly common in programming that a programmer will start going down such stack while working on code and then will not end up climbing back the stack, effectively not completing all he started working on.
 
 This format thus allows a programmer (or anyone working on tasks that can spawn other tasks) to better track what they were doing and what they did and did not complete.
