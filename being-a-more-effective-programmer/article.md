@@ -23,7 +23,11 @@ Programmers that like their craft want to improve as much as they can. However i
 * Minimize the time spent developing a feature
 * Minimize the time spent debugging an issue
 
-# Notes
+# Basics
+* Use a consistent style
+* Spend time learning the language features available functions/classes
+
+# General
 * Understand the problem
 * Understand the requirements of your problems
 * Understand the time and space complexity requirements
@@ -39,10 +43,6 @@ Programmers that like their craft want to improve as much as they can. However i
 	* Practice going through code challenges not for the purpose of solving the problem, but observing how you solve the problem and where you could improve
 * Break the problem into parts and solve the parts
 * Do not optimize for speed, optimize for readability/understandability/transparency
-
-## Basic things
-* Use a consistent style
-* Spend time learning the language features available functions/classes
 
 # Effective code writing
 * <tbc></tbc>
