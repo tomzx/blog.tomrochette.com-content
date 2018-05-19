@@ -61,6 +61,9 @@ taxonomy:
 	* The compression tends to improve generalization performance, according to the principles of Occam's Razor and Minimum Description Length and Minimum Message Length
 * On the other hand, the system also continually tries to invent new tasks that break the generalization capabilities of the present solver
 
+## 8. Words of Caution
+* Unlike, say, traditional virus programs, PowerPlay-based systems will continually change in a way hard to predict, incessantly inventing and solving novel, self-generated tasks, only driven by a desire to increase their general problem-solving capacity, perhaps a bit like many humans seek to increase their power once their basic needs are satisfied
+
 # See also
 
 # References
