@@ -55,6 +55,12 @@ taxonomy:
 ### 4.1. Implementation Based on Optimal Ordered Problem Solver OOPS
 * The big difference to previous implementations of OOPS is that PowerPlay has the additional freedom to define its own tasks
 
+## 7. Discussion
+### 7.6 Opposing Forces: Improving Generalization Through Compression, Breaking Generalization Through Novelty
+* Two opposing forces are at work in PowerPlay. On the one hand, the system continually tries to improve previously learned skills, by speeding them up, and by compressing the used parameters of the problem solver, reducing its effective size.
+	* The compression tends to improve generalization performance, according to the principles of Occam's Razor and Minimum Description Length and Minimum Message Length
+* On the other hand, the system also continually tries to invent new tasks that break the generalization capabilities of the present solver
+
 # See also
 
 # References
