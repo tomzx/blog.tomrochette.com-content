@@ -17,6 +17,7 @@ taxonomy:
 * Given that the brain has limited capacity/resources, should we expect it to be unable to learn how to solve new tasks without forgetting?
 * It seems that a problem solver that can grow, unlike a pre-wired, unmodifiable topology feedforward NN, is going to be more flexible after the FNN has been saturated (can solve its maximum amount of tasks)
 	* If we allow the FNN to "call" other subnetwork FFNs with similar topology, can we conjecture that this makes it as powerful as a program that can have infinite length, or will there be limitations in what it is capable of solving?
+* How can a system generate meaningful tasks? It seems to me that the biggest issue is that the system will generate "random" tasks that are of no benefit and that only add a burden to the construction of a more complex agent
 
 # Overview
 * The agent receives as part of its input a task identifier or query that lets it decide what it is trying to solve
@@ -49,6 +50,10 @@ taxonomy:
 	* Task invention
 	* Solver modification
 	* Correctness demonstration
+
+## 4. Implementations of PowerPlay
+### 4.1. Implementation Based on Optimal Ordered Problem Solver OOPS
+* The big difference to previous implementations of OOPS is that PowerPlay has the additional freedom to define its own tasks
 
 # See also
 
