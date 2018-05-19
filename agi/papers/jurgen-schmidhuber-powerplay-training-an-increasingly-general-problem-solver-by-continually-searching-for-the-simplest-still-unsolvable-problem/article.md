@@ -3,7 +3,7 @@ title: Jürgen Schmidhuber - PowerPlay: training an increasingly general problem
 created: 2018-05-12
 taxonomy:
   category: [Artificial General Intelligence]
-  status: in progress
+  status: finished
 ---
 
 ## Context
