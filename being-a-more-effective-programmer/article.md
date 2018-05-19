@@ -28,30 +28,33 @@ Programmers that like their craft want to improve as much as they can. However i
 * Spend time learning the language features available functions/classes
 
 # General
-* Understand the problem
-* Understand the requirements of your problems
-* Understand the time and space complexity requirements
-* Write test cases
-* Execute your test cases often
-* Take a step back from time to time to observe your existing solution and attempt to determine if it is too complex for what it is trying to solve
-* Simulate program execution
-* Run the program step by step using the debugger and think about the (desired) state at each point
-* Make explicit (write/explain) the important parts/steps of the algorithms
-* Pseudo-code your solution, then implement it
 * Go through code you have issue writing yourself with someone else to see how they reason about it
 * Deliberately practice the aspects of programming you have difficulty with
 	* Practice going through code challenges not for the purpose of solving the problem, but observing how you solve the problem and where you could improve
-* Break the problem into parts and solve the parts
 * Do not optimize for speed, optimize for readability/understandability/transparency
 
 # Effective code writing
-* <tbc></tbc>
+## Before
+* Understand the problem
+* Understand the requirements of your problems
+* Understand the time and space complexity requirements
+*
+## During
+* Write test cases
+* Execute your test cases often
+* Make explicit (write/explain) the important parts/steps of the algorithms
+* Pseudo-code your solution, then implement it
+* Break the problem into parts and solve the parts
+* Take a step back from time to time to observe your existing solution and attempt to determine if it is too complex for what it is trying to solve
+* Simulate program execution
 
 # Effective debugging
+* Check the problem definition
+* Run the program step by step using the debugger and think about the (desired) state at each point
 * <tbc></tbc>
 
 # Effective issue fixing
-* Check the problem definition
+* First, understand the reported issue
 * <tbc></tbc>
 
 ## 2018-05-12
