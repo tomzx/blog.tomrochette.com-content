@@ -19,6 +19,11 @@ taxonomy:
 
 # Overview
 
+# Objectives
+* Minimize the time spent understanding requirements
+* Minimize the time spent developing a feature
+* Minimize the time spent debugging an issue
+
 # Notes
 * Write test cases
 * Execute your test cases often
