@@ -17,6 +17,8 @@ Programmers that like their craft want to improve as much as they can. However i
 * How to spend less time debugging
 * Is writing a working solution better than thinking about a better alternative solution to develop straight away?
 * How to recognize where to look for the source of a problem/bug?
+* How can you make reusing your own code more easy?
+	* How can you find code you wrote before rapidly?
 
 # Objectives
 * Minimize the time spent understanding requirements
@@ -24,7 +26,7 @@ Programmers that like their craft want to improve as much as they can. However i
 * Minimize the time spent debugging an issue
 
 # Basics
-* Use a consistent style
+* Use a consistent code style
 * Spend time learning the language features available functions/classes
 
 # General
@@ -38,7 +40,7 @@ Programmers that like their craft want to improve as much as they can. However i
 * Understand the problem
 * Understand the requirements of your problems
 * Understand the time and space complexity requirements
-*
+
 ## During
 * Write test cases
 * Execute your test cases often
@@ -77,6 +79,7 @@ Programmers that like their craft want to improve as much as they can. However i
 * https://www.quora.com/How-do-I-train-myself-to-code-faster-and-with-fewer-bugs
 * https://news.ycombinator.com/item?id=9242245
 * https://news.ycombinator.com/item?id=14708350
+* http://arnklint.com/technology/become-efficient-programmer.html
 
 ## Productivity
 * https://www.lesswrong.com/posts/JTHe5oGvdj6T73o4o/how-i-am-productive
