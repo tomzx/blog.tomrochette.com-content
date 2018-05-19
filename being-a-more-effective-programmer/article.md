@@ -7,6 +7,7 @@ taxonomy:
 ---
 
 ## Context
+Programmers that like their craft want to improve as much as they can. However it becomes difficult to determine how one can improve given the variety of paths possible. This article tries to examine what are considered best practices and ways to be as efficient as possible in your work.
 
 ## Learned in this study
 
@@ -17,20 +18,18 @@ taxonomy:
 * Is writing a working solution better than thinking about a better alternative solution to develop straight away?
 * How to recognize where to look for the source of a problem/bug?
 
-# Overview
-
 # Objectives
 * Minimize the time spent understanding requirements
 * Minimize the time spent developing a feature
 * Minimize the time spent debugging an issue
 
 # Notes
-* Write test cases
-* Execute your test cases often
-* Take a step back from time to time to observe your existing solution and attempt to determine if it is too complex for what it is trying to solve
 * Understand the problem
 * Understand the requirements of your problems
 * Understand the time and space complexity requirements
+* Write test cases
+* Execute your test cases often
+* Take a step back from time to time to observe your existing solution and attempt to determine if it is too complex for what it is trying to solve
 * Simulate program execution
 * Run the program step by step using the debugger and think about the (desired) state at each point
 * Make explicit (write/explain) the important parts/steps of the algorithms
@@ -45,6 +44,16 @@ taxonomy:
 * Use a consistent style
 * Spend time learning the language features available functions/classes
 
+# Effective code writing
+* <tbc></tbc>
+
+# Effective debugging
+* <tbc></tbc>
+
+# Effective issue fixing
+* Check the problem definition
+* <tbc></tbc>
+
 ## 2018-05-12
 * Start with the simplest cases you want to support, then proceed to more and more difficult cases
 * Verify your progress in small iterations to prevent writing a lot and then having to make it all work
@@ -55,9 +64,6 @@ taxonomy:
 ## 2018-05-18
 * Record yourself solving a problem then take some time to analyze and determine the steps of the problem you were trying to solve. Determine how long you would expect each step to take and where there is potential for improvement
 * Design a process for designing, implementing and debugging programs and follow it, changing it as needed
-
-### When a function is not working as expected
-* Check the problem definition
 
 # See also
 
