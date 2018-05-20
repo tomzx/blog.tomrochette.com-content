@@ -92,3 +92,5 @@ If you think any of the descriptions below are wrong, feel free to let me know t
 * https://developers.google.com/machine-learning/glossary/
 * http://www.wildml.com/deep-learning-glossary/
 * http://www-anw.cs.umass.edu/rlr/terms.html
+* https://machinelearning.wtf/
+* https://deeplearning4j.org/glossary
