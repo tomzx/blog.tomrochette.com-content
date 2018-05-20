@@ -94,3 +94,4 @@ If you think any of the descriptions below are wrong, feel free to let me know t
 * http://www-anw.cs.umass.edu/rlr/terms.html
 * https://machinelearning.wtf/
 * https://deeplearning4j.org/glossary
+* https://yanndubs.github.io/machine-learning-glossary/
