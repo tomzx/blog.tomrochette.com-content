@@ -95,3 +95,4 @@ If you think any of the descriptions below are wrong, feel free to let me know t
 * https://machinelearning.wtf/
 * https://deeplearning4j.org/glossary
 * https://yanndubs.github.io/machine-learning-glossary/
+* https://www.analyticsvidhya.com/glossary-of-common-statistics-and-machine-learning-terms/
