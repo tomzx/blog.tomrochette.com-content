@@ -314,6 +314,11 @@ David Silver
 ### A Framework for Searching for General Artificial Intelligence (2017-02)
 Marek Rosa, Jan Feyereisl, The GoodAI Collective
 
+### Knowledge base (2017-02)
+I wrote a polymer/javascript-based application which dealt with triples in order to manage knowledge. Everything is considered to be a node and nodes can be associated to one another through anonymous
+
+### Voice detection (2017-02)
+
 ### Curriculum Learning (2017-04)
 Yoshua Bengio, Jérôme Louradour, Ronan Collobert, Jason Weston
 
@@ -522,3 +527,9 @@ Xuan-Bach D. Le, David Lo, Claire Le Goues
 
 ### Machine Theory of Mind (2018-02)
 Neil C. Rabinowitz, Frank Perbet, H. Francis Song, Chiyuan Zhang, S. M. Ali Eslami, Matthew M Botvinick
+
+### One Big Net For Everything (2018-05 - ?)
+Jurgen Schmidhuber
+
+### PowerPlay: training an increasingly general problem solver by continually searching for the simplest still unsolvable problem (2018-05 - ?)
+Jurgen Schmidhuber
