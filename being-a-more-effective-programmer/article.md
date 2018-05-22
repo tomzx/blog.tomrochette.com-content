@@ -70,6 +70,9 @@ Programmers that like their craft want to improve as much as they can. However i
 * Record yourself solving a problem then take some time to analyze and determine the steps of the problem you were trying to solve. Determine how long you would expect each step to take and where there is potential for improvement
 * Design a process for designing, implementing and debugging programs and follow it, changing it as needed
 
+## 2018-05-21
+* Define case for empty values as inputs
+
 # See also
 
 # References
