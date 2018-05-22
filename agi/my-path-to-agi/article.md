@@ -315,7 +315,9 @@ David Silver
 Marek Rosa, Jan Feyereisl, The GoodAI Collective
 
 ### Knowledge base (2017-02)
-I wrote a polymer/javascript-based application which dealt with triples in order to manage knowledge. Everything is considered to be a node and nodes can be associated to one another through anonymous
+I wrote a polymer/javascript-based application which dealt with triples in order to manage knowledge. Everything is considered to be a node and nodes can be associated to one another through anonymous.
+
+See [Knowledge base](../knowledge-base)
 
 ### Voice detection (2017-02)
 
