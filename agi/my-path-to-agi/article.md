@@ -317,9 +317,7 @@ Marek Rosa, Jan Feyereisl, The GoodAI Collective
 ### Knowledge base (2017-02)
 I wrote a polymer/javascript-based application which dealt with triples in order to manage knowledge. Everything is considered to be a node and nodes can be associated to one another through anonymous.
 
-See [Knowledge base](../knowledge-base)
-
-### Voice detection (2017-02)
+See [Knowledge base](../knowledge-base).
 
 ### Curriculum Learning (2017-04)
 Yoshua Bengio, Jérôme Louradour, Ronan Collobert, Jason Weston
@@ -505,6 +503,9 @@ Irving John Good
 
 ### A Decision-Theoretic Generalization of On-Line Learning and an Application to Boosting (2018-01)
 Yoav Freund, Robert E. Schapire
+
+### Voice detection (2017-09 - 2018-01)
+I have recorded a ton of audio of myself while I use my computer at home. I wanted to be able to find the slices of time where I speak and say something intelligible in order to extract those regions and then potentially send them to a service such as Google Voice to have it converted into text.
 
 ### A Trainable Spaced Repetition Model for Language Learning (2018-02)
 Burr Settles, Brendan Meeder
