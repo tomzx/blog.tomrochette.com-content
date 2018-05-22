@@ -85,6 +85,7 @@ Programmers that like their craft want to improve as much as they can. However i
 * http://arnklint.com/technology/become-efficient-programmer.html
 * https://softwareengineering.stackexchange.com/questions/44177/what-is-the-single-most-effective-thing-you-did-to-improve-your-programming-skil
 * https://medium.freecodecamp.org/how-to-think-like-a-programmer-lessons-in-problem-solving-d1d8bf1de7d2
+* [7 Steps to Solve Algorithm Problems](https://youtu.be/GKgAVjJxh9w)
 
 ## Productivity
 * https://www.lesswrong.com/posts/JTHe5oGvdj6T73o4o/how-i-am-productive
