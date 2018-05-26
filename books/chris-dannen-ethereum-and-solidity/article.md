@@ -24,7 +24,7 @@ taxonomy:
 * The innovation represented by the word blockchain is the specific ability of this network database to reconcile the order of transactions, even when a few nodes on the network receive transactions in various order
 * What is widely called a blockchain is really the combination of three technologies
 	* Peer-to-peer networking
-	* Asymmetric cryptography
+	* Asymmetric cryptography: In Bitcoin and Ethereum, asymmetric cryptography is used to create a set of credentials for your account, to ensure that only you can transfer your tokens
 	* Cryptographic hashing
 
 # See also
