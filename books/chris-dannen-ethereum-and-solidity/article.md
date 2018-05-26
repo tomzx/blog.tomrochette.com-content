@@ -12,6 +12,11 @@ taxonomy:
 
 ## Things to explore
 * Having every transactions stored on every node of the network seems like a huge waste of space
+* Is the cost of using the Ethereum network based on the number of instructions of your contract? In other words, how much CPU time you need to execute it
+* How does the network decide which node will execute a smart contract?
+	* How do you prevent duplicate execution?
+	* Are all nodes supposed to execute the smart contract?
+* The ability to have decade-old smart contracts still execute seems to rely on the programming language used to describe the smart contract... How can we guarantee said language will still exist in a few decades?
 
 # Overview
 * Ethereum could be considered as an OSI layer (encapsulating higher levels)
@@ -53,6 +58,9 @@ taxonomy:
 
 ### Where's the Data
 * How transactions are recorded in Ethereum: it's all stored on every node of the network
+
+### Deciding Where You Fit In
+* The Ethereum network is a fully redundant distributed database, with copies on every node. That means you can trust your application to fire off a call when a certain condition is met, even if that condition happens decades into the future - and even if the nodes have all changed
 
 # See also
 
