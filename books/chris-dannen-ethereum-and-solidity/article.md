@@ -13,6 +13,7 @@ taxonomy:
 ## Things to explore
 
 # Overview
+* Ethereum could be considered as an OSI layer (encapsulating higher levels)
 
 # Notes
 ## Chapter 1 - Bridging the Blockchain Knowledge Gap
@@ -45,6 +46,9 @@ taxonomy:
 
 #### Back to the Good Old Days
 * The Ethereum network functions as one large computer which executes programs in lockstep; it is a machine which is "virtualized" by a network of other machines
+
+### What Smart Contracts (Really) Do
+* Smart contract: some business logic that runs on the network, semi-autonomously moving value and enforcing payment agreements between parties
 
 # See also
 
