@@ -63,8 +63,8 @@ As a software project matures, its low level functions should require to be chan
 * Abstract existing code through parameter instantiation (pass a parameter instead of using a hard-coded value)
 * Condition rewriting: Inverse the existing condition
 * Extraction of valid points of entry
-	* All files are executed to test if they compute anything (executable code or  only function declaration/library?)
-	* Files that may execute code may not have the necessary deep dependencies available, which may make it possible to determine they are not a valid point  of entry
+	* All files are executed to test if they compute anything (executable code or only function declaration/library?)
+	* Files that may execute code may not have the necessary deep dependencies available, which may make it possible to determine they are not a valid point of entry
 	* Dependency extraction may make it possible to determine the most likely call points
 * Computation/algorithm/implementation extraction
 * Notify programmer when modifying code that has clones
@@ -74,7 +74,7 @@ As a software project matures, its low level functions should require to be chan
 * Abstraction level assignment
 
 ## High level
-* Code restructuration (namespacing/directory structure/file location)
+* Code restructuring (namespacing/directory structure/file location)
 
 ## Rule-based refactoring
 * Law of Demeter
