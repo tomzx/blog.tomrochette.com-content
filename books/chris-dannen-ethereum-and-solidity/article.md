@@ -26,6 +26,12 @@ taxonomy:
 	* Peer-to-peer networking
 	* Asymmetric cryptography: In Bitcoin and Ethereum, asymmetric cryptography is used to create a set of credentials for your account, to ensure that only you can transfer your tokens
 	* Cryptographic hashing
+* Adam Back released Hashcash in 2002, which pioneered the use of mining to send transactions
+* Satoshi Nakamoto added distributed consensus to this innovation with the creation of Bitcoin in 2009
+
+### Ethereum Assumes Many Chains
+* Ethereum was built with the assumption that copycats are a foregone conclusion, and that there may be many blockchains, and thus there should be a set of protocols in place by which they can communicate
+*
 
 # See also
 
