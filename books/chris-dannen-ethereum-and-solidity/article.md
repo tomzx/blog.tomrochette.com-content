@@ -43,6 +43,9 @@ taxonomy:
 #### Cryptoeconomics and Security
 * What makes systems like Ethereum and Bitcoin so secure is that they are not based on any hack-proof technology but rather rely on powerful financial incentives and disincentives to keep malefactors at bay
 
+#### Back to the Good Old Days
+* The Ethereum network functions as one large computer which executes programs in lockstep; it is a machine which is "virtualized" by a network of other machines
+
 # See also
 
 # References
