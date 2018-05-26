@@ -62,6 +62,13 @@ taxonomy:
 ### Deciding Where You Fit In
 * The Ethereum network is a fully redundant distributed database, with copies on every node. That means you can trust your application to fire off a call when a certain condition is met, even if that condition happens decades into the future - and even if the nodes have all changed
 
+### What You Can Build Today
+#### The Promise of Decentralized Databases
+* Like all databases, a blockchain has a schema: rules define, constrain, and enforce relationships between entities
+* In all databases, shared read/write access creates enormous complexity
+
+## Chapter 2 - The Mist Browser
+
 # See also
 
 # References
