@@ -68,6 +68,9 @@ taxonomy:
 * In all databases, shared read/write access creates enormous complexity
 
 ## Chapter 2 - The Mist Browser
+* Two types of client applications: wallets and full nodes
+	* Wallet: A lightweight node that connects to a blockchain to perform basic functions, such as sending and receiving cryptocurrency
+	* Full node: Command-line interface that can perform the full gamut of operations allowed by the network
 
 # See also
 
