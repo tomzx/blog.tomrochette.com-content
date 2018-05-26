@@ -36,6 +36,12 @@ taxonomy:
 #### Gresham's Law
 * In an economy, "bad" money drives out "good." In other words, people save and hoard currencies they expect to appreciate in value, while spending currencies they expect to depreciate in value
 
+#### The Path to Better Money
+* Ether can be used to pay to run programs on Ethereum's network
+* Ether can be considered a commodity
+
+#### Cryptoeconomics and Security
+* What makes systems like Ethereum and Bitcoin so secure is that they are not based on any hack-proof technology but rather rely on powerful financial incentives and disincentives to keep malefactors at bay
 
 # See also
 
