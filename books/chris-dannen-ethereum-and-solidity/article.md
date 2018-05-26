@@ -11,6 +11,7 @@ taxonomy:
 ## Learned in this study
 
 ## Things to explore
+* Having every transactions stored on every node of the network seems like a huge waste of space
 
 # Overview
 * Ethereum could be considered as an OSI layer (encapsulating higher levels)
@@ -49,6 +50,9 @@ taxonomy:
 
 ### What Smart Contracts (Really) Do
 * Smart contract: some business logic that runs on the network, semi-autonomously moving value and enforcing payment agreements between parties
+
+### Where's the Data
+* How transactions are recorded in Ethereum: it's all stored on every node of the network
 
 # See also
 
