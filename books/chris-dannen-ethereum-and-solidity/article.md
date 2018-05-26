@@ -5,3 +5,19 @@ taxonomy:
   category: [Technology]
   status: draft
 ---
+
+## Context
+
+## Learned in this study
+
+## Things to explore
+
+# Overview
+
+# Notes
+## Chapter 1 - Bridging the Blockchain Knowledge Gap
+* In Ethereum, smart contracts are written in the programming language Solidity
+
+# See also
+
+# References
