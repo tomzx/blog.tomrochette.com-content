@@ -3,5 +3,5 @@ title: Chris Dannen - Introducing Ethereum and Solidity: Foundations of Cryptocu
 created: 2018-05-26
 taxonomy:
   category: [Technology]
-  status: finished
+  status: draft
 ---
