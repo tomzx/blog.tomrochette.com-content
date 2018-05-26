@@ -29,9 +29,13 @@ taxonomy:
 * Adam Back released Hashcash in 2002, which pioneered the use of mining to send transactions
 * Satoshi Nakamoto added distributed consensus to this innovation with the creation of Bitcoin in 2009
 
-### Ethereum Assumes Many Chains
+#### Ethereum Assumes Many Chains
 * Ethereum was built with the assumption that copycats are a foregone conclusion, and that there may be many blockchains, and thus there should be a set of protocols in place by which they can communicate
-*
+
+### Ether as a Currency and Commodity
+#### Gresham's Law
+* In an economy, "bad" money drives out "good." In other words, people save and hoard currencies they expect to appreciate in value, while spending currencies they expect to depreciate in value
+
 
 # See also
 
