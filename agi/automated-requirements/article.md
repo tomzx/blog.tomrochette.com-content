@@ -22,7 +22,7 @@ An important aspect of the job of a programmer is to convert clients requirement
 * The client determines he has new needs that the software should be fulfilling
 * The client and the software development representatives discuss about the requested features
 * New features are evaluated against existing requirements in order to determine if existing functionality will be reused, require to be modified, or written from scratch
-* The time to develop a feature is roughly estimated in order to assess the price tag of each feature (X hours = Y $, generally evaluated at Z $/hour)
+* The time to develop a feature is roughly estimated in order to assess the price tag of each feature (X hours = Y \$, generally evaluated at Z $/hour)
 * The features are ordered by priority and/or ROI
 * Dependencies between features are established
 * A development plan is prepared
