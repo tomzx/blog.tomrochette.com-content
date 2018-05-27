@@ -54,7 +54,7 @@ class AnotherClass {
 	* This leads us to go read the class `WindowsManager` in `src/vs/code/electron-main/windows.ts`. Once again, this file is pretty large, so we want to skim it to see what it contains (functions, classes, properties, methods)
 * There are a few large classes in `src/vs/code/electron-main/windows.ts` that I'd want to extract to make the file smaller and simpler (less cognitive load). However, the issue is that those classes are not declared as exported, and thus are only available in the local file. It would be possible to move these classes to other files and import them, but by doing so it would also "communicate" that others can use it, which is what having the classes as not exported prevents, at the cost of making single files larger and harder to comprehend
 * We know that the constructor is first called, then from `CodeApplication::openFirstWindow`, we see that `WindowsManager::ready` and `WindowsManager::open` are both called.
-	* In the constructor we instantiate the `Dialogs` class (takes care of open/save dialog windows) and the `WorkspacesManager` class (takes care of workspace management, such as open/close/save)
+	* In the constructor we instantiate the `Dialogs` class (takes care of open/save dialog windows) and the `WorkspacesManager` class (takes care of workspace management, such as open/save)
 
 ## Notes
 * If you start VS Code using the debug feature, you will not be able to open the Chrome DevTools (at this moment, 2018-05-26) because only 1 process is allowed to attach to the Chrome DevTools instance, and that process is the VS Code editor that started the debugged VS Code instance
