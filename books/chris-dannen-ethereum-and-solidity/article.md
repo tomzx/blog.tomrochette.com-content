@@ -74,7 +74,7 @@ taxonomy:
 
 ### Wallets as a Computing Metaphor
 #### Your Address is What?
-* An account is a data object: an entry in the blockchain ledger, indexed by its address, containing data about the state of that account, such as its blance
+* An account is a data object: an entry in the blockchain ledger, indexed by its address, containing data about the state of that account, such as its balance
 * An address is a public key belonging to a particular user
 
 # See also
