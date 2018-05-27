@@ -72,6 +72,11 @@ taxonomy:
 	* Wallet: A lightweight node that connects to a blockchain to perform basic functions, such as sending and receiving cryptocurrency
 	* Full node: Command-line interface that can perform the full gamut of operations allowed by the network
 
+### Wallets as a Computing Metaphor
+#### Your Address is What?
+* An account is a data object: an entry in the blockchain ledger, indexed by its address, containing data about the state of that account, such as its blance
+* An address is a public key belonging to a particular user
+
 # See also
 
 # References
