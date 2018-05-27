@@ -48,6 +48,8 @@ class AnotherClass {
 </code></pre>
 * Upon its creation, the `CodeApplication` class will register various event listeners on the electron app object
 * If we remember, in `src/vs/code/electron-main/main`, after the `CodeApplication` object is instantiated, we call `startup()` on it. So, we want to take a look at what that method does
+* Without knowing too much about the VS Code source, it appears that we are instantiating an IPC server (inter-process communication) and then the shared process
+* After that is done, we initialize some more services in `CodeApplication::initServices`, such as the update service (which I guess takes care of checking for VS Code updates) and the telemetry (data about VS Code feature usage)
 
 ## Notes
 * If you start VS Code using the debug feature, you will not be able to open the Chrome DevTools (at this moment, 2018-05-26) because only 1 process is allowed to attach to the Chrome DevTools instance, and that process is the VS Code editor that started the debugged VS Code instance
