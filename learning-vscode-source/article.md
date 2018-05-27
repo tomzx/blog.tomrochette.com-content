@@ -29,7 +29,24 @@ taxonomy:
 * As the file is quite large, we start by skimming through it, looking at the available methods on the `CodeApplication` class as well as its properties
 * Looking at the constructor, we can see that a lot of objects are given to it. We also observe the use of the @... syntax (those are decorators)
 	* In this case (and for most constructors), this is how VS Code does service (dependencies) injection
-* One will also notice that most, if not all parameters have a visibility assigned to it. What this does is that it will create an associated property in the class as well as assigning the parameter value to this property in the constructor
+* One will also notice that most, if not all parameters have a visibility assigned to it. What this does is that it will create an associated property in the class as well as assigning the parameter value to this property in the constructor. Thus, instead of writing
+<pre><code class="language-typescript line-numbers">
+class AnotherClass {
+	private someClass: SomeClass;
+
+	constructor(someClass: SomeClass) {
+		this.someClass = someClass;
+	}
+}
+</code></pre>
+you simply write
+<pre><code class="language-typescript line-numbers">
+class AnotherClass {
+	constructor(private someClass: SomeClass) {
+	}
+}
+</code></pre>
+
 
 ## Notes
 * If you start VS Code using the debug feature, you will not be able to open the Chrome DevTools (at this moment, 2018-05-26) because only 1 process is allowed to attach to the Chrome DevTools instance, and that process is the VS Code editor that started the debugged VS Code instance
