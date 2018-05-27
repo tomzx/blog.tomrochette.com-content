@@ -24,6 +24,8 @@ taxonomy:
 * Once again, we quickly look around `src/vs/code/electron-main/main` and find that the main logic is at the bottom of the file
 * First the command line arguments are parsed
 * Then services are bootstrapped/instantiated
+* Finally the CodeApplication is started up
+* This leads us to look into `src/vs/code/electron-main/app.ts`
 
 ## Notes
 * If you start VS Code using the debug feature, you will not be able to open the Chrome DevTools (at this moment, 2018-05-26) because only 1 process is allowed to attach to the Chrome DevTools instance, and that process is the VS Code editor that started the debugged VS Code instance
