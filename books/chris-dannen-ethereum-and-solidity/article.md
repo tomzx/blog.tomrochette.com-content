@@ -87,6 +87,7 @@ taxonomy:
 
 #### Transactions Change State
 * A transaction in Ethereum refers to a piece of data bearing a cryptographic signature, which goes in the blockchain, and is thus recorded on every node in the network
+* Every transaction triggers a message to accomplish this state change, but messages are also sent by EVM code
 
 # See also
 
