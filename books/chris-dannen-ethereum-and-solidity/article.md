@@ -96,6 +96,7 @@ taxonomy:
 * The EVM requires a tiny fee to process the transaction
 * By forcing users to pay for transactions on the EVM, the likelihood of wasteful never-ending programs being executed is theoretically reduced
 * These costs are priced in a unit called gas
+	* You can think of gas as a metric indicating the number of steps the EVM will have to take to complete the instructions in the transaction
 
 # See also
 
