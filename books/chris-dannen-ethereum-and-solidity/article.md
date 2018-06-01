@@ -101,6 +101,13 @@ taxonomy:
 * Whether or not a transaction executes is determined by the amount of gas the sender is willing to pay. If the total number of steps exceeds the gas budgeted for a transaction, all steps are rolled back, and no part of the transaction is executed. If a user sends a transaction with too low a transaction fee, it will be processed only after some time, or not at all
 
 ## Chapter 3 - The EVM
+* The EVM is a single, global 256-bit "computer" in which all transactions are local on each node of the network, and executed in relative synchrony
+
+### What are Virtual Machines, Exactly?
+* A virtual machine is an emulation of a computer system by another computer system
+
+### What the EVM Does
+* The EVM can run arbitrary computer programs written in the Solidity language
 
 # See also
 
