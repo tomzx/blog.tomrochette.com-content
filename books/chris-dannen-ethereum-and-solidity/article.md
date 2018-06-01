@@ -81,6 +81,10 @@ taxonomy:
 ### Breaking with Banking History
 * No individual has the power to create more ether
 
+### Working with Messages and Transactions
+* Transactions are used to refer to state changes in the distributed database
+* Messages are data objects passed back and forth across the network between smart contracts, and do not necessarily result in any changes being made on the chain
+
 # See also
 
 # References
