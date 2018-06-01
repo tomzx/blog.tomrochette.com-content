@@ -100,6 +100,8 @@ taxonomy:
 	* You can think of gas as a metric indicating the number of steps the EVM will have to take to complete the instructions in the transaction
 * Whether or not a transaction executes is determined by the amount of gas the sender is willing to pay. If the total number of steps exceeds the gas budgeted for a transaction, all steps are rolled back, and no part of the transaction is executed. If a user sends a transaction with too low a transaction fee, it will be processed only after some time, or not at all
 
+## Chapter 3 - The EVM
+
 # See also
 
 # References
