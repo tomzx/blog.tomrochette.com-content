@@ -17,6 +17,7 @@ taxonomy:
 	* How do you prevent duplicate execution?
 	* Are all nodes supposed to execute the smart contract?
 * The ability to have decade-old smart contracts still execute seems to rely on the programming language used to describe the smart contract... How can we guarantee said language will still exist in a few decades?
+* Where is ether coming from?
 
 # Overview
 * Ethereum could be considered as an OSI layer (encapsulating higher levels)
@@ -76,6 +77,9 @@ taxonomy:
 #### Your Address is What?
 * An account is a data object: an entry in the blockchain ledger, indexed by its address, containing data about the state of that account, such as its balance
 * An address is a public key belonging to a particular user
+
+### Breaking with Banking History
+* No individual has the power to create more ether
 
 # See also
 
