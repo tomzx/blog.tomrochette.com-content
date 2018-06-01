@@ -85,9 +85,17 @@ taxonomy:
 * Transactions are used to refer to state changes in the distributed database
 * Messages are data objects passed back and forth across the network between smart contracts, and do not necessarily result in any changes being made on the chain
 
-#### Transactions Change State
+### Transactions Change State
 * A transaction in Ethereum refers to a piece of data bearing a cryptographic signature, which goes in the blockchain, and is thus recorded on every node in the network
 * Every transaction triggers a message to accomplish this state change, but messages are also sent by EVM code
+
+### So, What Is a Blockchain?
+* A block is a unit of time that encompasses a certain number of transactions
+
+### Paying for Transactions
+* The EVM requires a tiny fee to process the transaction
+* By forcing users to pay for transactions on the EVM, the likelihood of wasteful never-ending programs being executed is theoretically reduced
+* These costs are priced in a unit called gas
 
 # See also
 
