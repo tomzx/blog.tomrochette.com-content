@@ -85,6 +85,9 @@ taxonomy:
 * Transactions are used to refer to state changes in the distributed database
 * Messages are data objects passed back and forth across the network between smart contracts, and do not necessarily result in any changes being made on the chain
 
+#### Transactions Change State
+* A transaction in Ethereum refers to a piece of data bearing a cryptographic signature, which goes in the blockchain, and is thus recorded on every node in the network
+
 # See also
 
 # References
