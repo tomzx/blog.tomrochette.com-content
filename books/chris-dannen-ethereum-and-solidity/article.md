@@ -159,6 +159,7 @@ taxonomy:
 
 #### Characteristics of Messages
 * A chunk of data sent by a contract to another contract (never to or from a human)
+* Messages are virtual objects that are never serialized and exist only in the EVM
 
 # See also
 
