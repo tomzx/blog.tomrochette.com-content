@@ -168,6 +168,8 @@ taxonomy:
 	* A STARTGAS value limiting the amount of gas the message can use
 
 ## Chapter 4 - Solidity Programming
+### Primer
+* In general, a computing environment is an infinite loop that repeatedly carries out whatever operation is current in the system's program counter
 
 # See also
 
