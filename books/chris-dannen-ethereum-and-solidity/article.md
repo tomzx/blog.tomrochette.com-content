@@ -153,13 +153,19 @@ taxonomy:
 * A recipient address; specifying no recipient is the method for uploading new smart contracts
 * A signature identifying the sender
 * A value field showing the amount being sent
-	* An optional data field, for a message (if this is being sent to a contract address)
+* An optional data field, for a message (if this is being sent to a contract address)
 * A STARTGAS value
 * A GASPRICE value
 
 #### Characteristics of Messages
 * A chunk of data sent by a contract to another contract (never to or from a human)
 * Messages are virtual objects that are never serialized and exist only in the EVM
+* A message contains the following
+	* The sender address of the message
+	* The recipient address of the message
+	* The value field (indicating how much ether, if any, is being sent)
+	* An optional data field (containing input data for the contract)
+	* A STARTGAS value limiting the amount of gas the message can use
 
 # See also
 
