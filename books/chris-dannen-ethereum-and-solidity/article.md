@@ -172,6 +172,10 @@ taxonomy:
 * In general, a computing environment is an infinite loop that repeatedly carries out whatever operation is current in the system's program counter
 * The program counter iterates one by one until the end of that particular program is reached
 * The machine exists the execution loop only if it encounters (throw) an error, or hits an instruction designating the machine to STOP or RETURN a result or value
+* Three types of space in which to store data
+	* The stack
+	* Dynamic memory
+	* Key/value store
 
 # See also
 
