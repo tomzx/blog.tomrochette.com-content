@@ -174,7 +174,7 @@ taxonomy:
 * The machine exists the execution loop only if it encounters (throw) an error, or hits an instruction designating the machine to STOP or RETURN a result or value
 * Three types of space in which to store data
 	* The stack
-	* Dynamic memory
+	* Dynamic memory (heap)
 	* Key/value store
 
 # See also
