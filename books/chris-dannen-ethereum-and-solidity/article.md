@@ -148,6 +148,18 @@ taxonomy:
 * Have no owner after being released to the EVM
 * A key/value database contained in each account, where keys and avlues are both 32-byte strings
 
+### Transactions and Messages
+#### Characteristics of Transactions
+* A recipient address; specifying no recipient is the method for uploading new smart contracts
+* A signature identifying the sender
+* A value field showing the amount being sent
+	* An optional data field, for a message (if this is being sent to a contract address)
+* A STARTGAS value
+* A GASPRICE value
+
+#### Characteristics of Messages
+* A chunk of data sent by a contract to another contract (never to or from a human)
+
 # See also
 
 # References
