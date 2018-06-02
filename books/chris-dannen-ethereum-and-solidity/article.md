@@ -117,6 +117,9 @@ taxonomy:
 * In Bitcoin, a block is 10 minutes
 * In Ethereum, block time is not a function of the issuance schedule of ether. Instead, block time is a variable that is kept as low as possible, for the sake of speedy transaction confirmation
 
+### Renting Time on the EVM
+* For every instruction the EVM executes, there must be a cost associated, to ensure the system isn't jammed up by useless spam contracts
+
 # See also
 
 # References
