@@ -120,6 +120,10 @@ taxonomy:
 ### Renting Time on the EVM
 * For every instruction the EVM executes, there must be a cost associated, to ensure the system isn't jammed up by useless spam contracts
 
+#### Why Is Gas So Important?
+* Gas cost ensure that computation time on the network is appropriately priced
+* Fees in the EVM are based on the amount of work being done, not on the size of the transaction
+
 # See also
 
 # References
