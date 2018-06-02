@@ -127,6 +127,9 @@ taxonomy:
 ### Working with Gas
 #### How Gas Relates to Scaling the System
 * There is no way to jam up the EVM without paying a lot, in the form of transactions fees, to do it
+* Scaling is handled in a de facto way through the gas fee system
+* Miners are free to choose the transactions that pay the highest fee rates, and can also choose the block gas limit collectively
+* The gas limit determines how much computation can happen (and how much storage can be allocated) per block
 
 # See also
 
