@@ -167,6 +167,8 @@ taxonomy:
 	* An optional data field (containing input data for the contract)
 	* A STARTGAS value limiting the amount of gas the message can use
 
+## Chapter 4 - Solidity Programming
+
 # See also
 
 # References
