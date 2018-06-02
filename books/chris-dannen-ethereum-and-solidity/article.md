@@ -113,7 +113,7 @@ taxonomy:
 * Transactions and state changes in the Ethereum network are segmented into blocks, and then hashed
 * Each block is verified and validated before the next canonical block can be placed on "top" of it
 
-### Understanding Block Time
+#### Understanding Block Time
 * In Bitcoin, a block is 10 minutes
 * In Ethereum, block time is not a function of the issuance schedule of ether. Instead, block time is a variable that is kept as low as possible, for the sake of speedy transaction confirmation
 
