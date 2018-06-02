@@ -124,6 +124,10 @@ taxonomy:
 * Gas cost ensure that computation time on the network is appropriately priced
 * Fees in the EVM are based on the amount of work being done, not on the size of the transaction
 
+### Working with Gas
+#### How Gas Relates to Scaling the System
+* There is no way to jam up the EVM without paying a lot, in the form of transactions fees, to do it
+
 # See also
 
 # References
