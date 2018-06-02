@@ -131,6 +131,23 @@ taxonomy:
 * Miners are free to choose the transactions that pay the highest fee rates, and can also choose the block gas limit collectively
 * The gas limit determines how much computation can happen (and how much storage can be allocated) per block
 
+### Accounts, Transactions, and Messages
+#### Externally Owned Accounts
+* Contains a balance of ether
+* Capable of sending transactions
+* Controlled by the account's private keys
+* Has no code associated with it
+* A key/value database contained in each account, where keys and values are both 32-byte strings
+
+#### Contract Accounts
+* Have an ether balance
+* Hold some contract code in memory
+* Can be triggered by humans (sending a transaction) or other contracts sending a message
+* When executed, can perform complex operations
+* Have their own persistent state and can call other contracts
+* Have no owner after being released to the EVM
+* A key/value database contained in each account, where keys and avlues are both 32-byte strings
+
 # See also
 
 # References
