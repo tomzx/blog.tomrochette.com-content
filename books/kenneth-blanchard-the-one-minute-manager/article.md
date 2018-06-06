@@ -28,6 +28,10 @@ taxonomy:
 ## The First Secret: One Minute Goals
 * Once told what needs to be done, each goal is recorded on no more than a single page
 * One of your goals for the future is for you to identify and solve your own problems
+* Tell me what your problem is, but put it in behavioral terms (observable, measurable terms)
+* Describe what you would like to be happening in behavioral terms
+* If you can't tell what you'd like to be happening, you don't have a problem yet. You're just complaining
+	* A problem only exists if there is a difference between what is actually happening and what you desire to be happening
 
 # See also
 
