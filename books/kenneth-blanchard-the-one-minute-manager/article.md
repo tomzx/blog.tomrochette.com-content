@@ -14,6 +14,10 @@ taxonomy:
 
 # Overview
 
+# Quotes
+* People who feel good about themselves produce good results
+* Help people reach their full potential, catch them doing something right
+
 # Notes
 ## The Search
 * Effective managers manage themselves and the people they work with so that both the organization and the people profit from their presence
@@ -42,6 +46,11 @@ taxonomy:
 * Read and re-read each goal, which requires only a minute or so each time you do it
 * Take a minute every once in a while out of your day to look at your performance
 * See whether or not your behavior matches your goal
+
+## The Second Secret: One Minute Praisings
+* It is a lot easier to do things well if you get crystal-clear feedback on how you do things
+* Let others know in no uncertain terms when they are doing well, and when they are doing poorly
+* Help people reach their full potential, catch them doing something right
 
 # See also
 
