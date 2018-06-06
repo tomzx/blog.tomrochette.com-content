@@ -262,7 +262,7 @@ graph TD;
 # A second observation (months later)
 The simplest seed AI that exists is simply a natural number *generator*. It probably does not qualify as seed AI in itself, but it has the fundamental functionality we are looking for: it generates programs. In its simplest form, a program is called a binary, which is a base 2 representation of a number. The simplest program that is a number generator starts with the number 0, and it loops infinitely, incrementing this number by 1 each iteration. During each iteration, this number is written to a file, effectively generating a binary/executable.
 
-Obviously, such generator will generate an infinite amount of programs, many which will turn out to produce invalid outputs or even crash! Furthermore, we are generating so many programs, yet we are not doing anything with them. Thus we need a second program to do something with these programs. This second program is simple, its task is only to run all the programs produced by the generator. We'll call this program the *executor*. The executor will simply start the program, determine if it crashes (within a certain number of instructions), and if it does, it will delete it from the disk. Thus, every program that does not crash will be considered as a seed AI candidate.
+Obviously, such generator will generate an infinite amount of programs, many which will turn out to produce invalid outputs or even crash! Furthermore, we are generating so many programs, yet we are not doing anything with them. Thus, we need a second program to do something with these programs. This second program is simple, its task is only to run all the programs produced by the generator. We'll call this program the *executor*. The executor will simply start the program, determine if it crashes (within a certain number of instructions), and if it does, it will delete it from the disk. Thus, every program that does not crash will be considered as a seed AI candidate.
 
 At this point we can already see various issues with this approach:
 * The generator is building an immense amount of programs that are simply invalid (which should not get to the executor)
@@ -279,7 +279,7 @@ If we consider the idea of Turing and von Neumann that we require a certain amou
 Such challenge could thus be used to represent different barriers intelligent beings had to pass through: from simple assemblage of molecules to living organisms, from living organisms to intelligent organisms. Here we can ask ourselves whether one can have intelligence without the "living" part.
 
 # Komolgorov complexity
-Based on the Kolmogorov complexity, if we can find a "larger" program that accomplishes a given program description, it "might" be possible that a shorter one exists, however it might not be provable due to the halting problem which states that there are programs for which we cannot tell whether or not it will halt.
+Based on the Kolmogorov complexity, if we can find a "larger" program that accomplishes a given program description, it "might" be possible that a shorter one exists, however it might not be provable due to the halting problem which states that there are programs for which we cannot tell whether it will halt.
 
 Given that machine learning is about a small amount of code learning from huge amounts of data, it might be that a program such as a "human" is also of similar format, that is, short and concise but requiring huge amounts of data to tune its weights/data store.
 
