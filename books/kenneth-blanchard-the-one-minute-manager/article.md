@@ -25,6 +25,10 @@ taxonomy:
 	* Quality is simply giving people the product or service they really want and need
 * Do not make decisions for others
 
+## The First Secret: One Minute Goals
+* Once told what needs to be done, each goal is recorded on no more than a single page
+* One of your goals for the future is for you to identify and solve your own problems
+
 # See also
 
 # References
