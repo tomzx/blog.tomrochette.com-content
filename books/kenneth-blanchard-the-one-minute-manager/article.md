@@ -51,6 +51,7 @@ taxonomy:
 * It is a lot easier to do things well if you get crystal-clear feedback on how you do things
 * Let others know in no uncertain terms when they are doing well, and when they are doing poorly
 * Help people reach their full potential, catch them doing something right
+* Put the accent on the positive
 
 # See also
 
