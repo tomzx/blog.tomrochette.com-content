@@ -35,6 +35,14 @@ taxonomy:
 * Talk about what may have caused the discrepancy between the actual and the desired
 * You're good... Remember that next time you have a problem
 
+## One Minute Goals: Summary
+* Agree on your goals
+* See what good behavior looks like
+* Write out each of your goals on a single sheet of paper using less than 250 words
+* Read and re-read each goal, which requires only a minute or so each time you do it
+* Take a minute every once in a while out of your day to look at your performance
+* See whether or not your behavior matches your goal
+
 # See also
 
 # References
