@@ -23,7 +23,7 @@ In other words, a seed AI is a program that would learn and understand how progr
 * Look at theoretical implications of program generation (probabilities)
 * Define the problem and the goal
 * There are infinite programs that can be built, what does that mean?
-	* What does it means if you consider those programs can help improve the existing program?
+	* What does it mean if you consider those programs can help improve the existing program?
 	* Is there such a thing as a *single* "perfect" program?
 * Isomorphisms of programs considered/identified as integers
 * What kind of analysis can be done in order to reduce/discover isomorphic programs?
