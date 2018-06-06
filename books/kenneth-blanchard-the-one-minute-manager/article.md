@@ -21,6 +21,7 @@ taxonomy:
 ## The One Minute Manager
 * People who feel good about themselves produce good results
 	* Helping people to feel good about themselves is a key to getting more done
+* Productivity is more than just the quantity of work done. It is also the quality
 
 # See also
 
