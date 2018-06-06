@@ -23,6 +23,7 @@ taxonomy:
 	* Helping people to feel good about themselves is a key to getting more done
 * Productivity is more than just the quantity of work done. It is also the quality
 	* Quality is simply giving people the product or service they really want and need
+* Do not make decisions for others
 
 # See also
 
