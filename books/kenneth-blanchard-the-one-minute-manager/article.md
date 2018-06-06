@@ -52,6 +52,18 @@ taxonomy:
 * Let others know in no uncertain terms when they are doing well, and when they are doing poorly
 * Help people reach their full potential, catch them doing something right
 * Put the accent on the positive
+* Give praise as soon as something right is done
+* Specify why
+* Do it consistently
+
+## One Minute Praisings: Summary
+* Tell people up front that you are going to let them know how they are doing
+* Praise people immediately
+* Tell people what they did right - be specific
+* Tell people how good you feel about what they did right, and how it helps the organization and the other people who work there
+* Stop for a moment of silence to let them "feel" how good you feel
+* Encourage them to do more of the same
+* Shake hands or touch people in a way that makes it clear that you support their success in the organization
 
 # See also
 
