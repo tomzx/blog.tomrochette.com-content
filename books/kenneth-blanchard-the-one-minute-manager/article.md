@@ -33,6 +33,7 @@ taxonomy:
 * If you can't tell what you'd like to be happening, you don't have a problem yet. You're just complaining
 	* A problem only exists if there is a difference between what is actually happening and what you desire to be happening
 * Talk about what may have caused the discrepancy between the actual and the desired
+* You're good... Remember that next time you have a problem
 
 # See also
 
