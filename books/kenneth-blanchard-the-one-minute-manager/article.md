@@ -20,6 +20,7 @@ taxonomy:
 * The best minute I spend is the one I invest in people
 * Everyone is a potential winner, some people are disguised as losers, don't let their appearances fool you
 * Take a minute: Look at your goals, look at your performance, see if your behavior matches your goals
+* We are not just our behavior, we are the person managing our behavior
 
 # Notes
 ## The Search
@@ -116,6 +117,8 @@ taxonomy:
 	* Telling people what they did wrong
 	* Telling people how you feel about it
 	* Reminding people that they are valuable and worthwhile
+* We are not just our behavior, we are the person managing our behavior
+* There is a very simple rule about touching: When you touch, don't take. Touch the people you manage only when you are giving them something - reassurance, support, encouragement, whatever
 
 # See also
 
