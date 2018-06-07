@@ -112,6 +112,10 @@ taxonomy:
 * Never attack a person's worth or value as a person
 * Reprimand the behavior only
 * If you are first tough on the behavior, and then supportive of the person, it works
+* Three basic ingredients
+	* Telling people what they did wrong
+	* Telling people how you feel about it
+	* Reminding people that they are valuable and worthwhile
 
 # See also
 
