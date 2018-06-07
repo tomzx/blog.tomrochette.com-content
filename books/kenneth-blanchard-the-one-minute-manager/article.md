@@ -2,8 +2,8 @@
 title: Kenneth Blanchard - The One Minute Manager - 2003
 created: 2018-06-05
 taxonomy:
-  category: []
-  status: in progress
+  category: [Management]
+  status: finished
 ---
 
 ## Context
