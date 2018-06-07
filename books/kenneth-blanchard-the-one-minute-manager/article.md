@@ -104,6 +104,7 @@ taxonomy:
 
 ## Why One Minute Praisings Work
 * By setting up a series of goal, we are establishing goals that can be achieved
+* The key to training someone to do a new task is, in the beginning, to catch them doing something approximately right until they can eventually learn to do it exactly right
 
 # See also
 
