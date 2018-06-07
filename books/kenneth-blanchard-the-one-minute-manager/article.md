@@ -108,6 +108,7 @@ taxonomy:
 * The most important thing in training somebody to become a winner is to catch them doing something right - in the beginning approximately right and gradually moving them towards the desired behavior
 
 ## Why One Minute Reprimands Work
+* Unless discipline occurs as close to the misbehavior as possible, it tends not to be as helpful in influencing future behavior
 
 # See also
 
