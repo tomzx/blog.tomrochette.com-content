@@ -109,6 +109,9 @@ taxonomy:
 
 ## Why One Minute Reprimands Work
 * Unless discipline occurs as close to the misbehavior as possible, it tends not to be as helpful in influencing future behavior
+* Never attack a person's worth or value as a person
+* Reprimand the behavior only
+* If you are first tough on the behavior, and then supportive of the person, it works
 
 # See also
 
