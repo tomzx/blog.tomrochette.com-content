@@ -19,6 +19,7 @@ taxonomy:
 * Help people reach their full potential, catch them doing something right
 * The best minute I spend is the one I invest in people
 * Everyone is a potential winner, some people are disguised as losers, don't let their appearances fool you
+* Take a minute: Look at your goals, look at your performance, see if your behavior matches your goals
 
 # Notes
 ## The Search
@@ -99,6 +100,7 @@ taxonomy:
 	* You pray
 * Why is it important to have each goal written down on a single sheet of paper?
 	* So people can review their goals frequently and then check their performance against those goals
+* Take a minute: Look at your goals, look at your performance, see if your behavior matches your goals
 
 # See also
 
