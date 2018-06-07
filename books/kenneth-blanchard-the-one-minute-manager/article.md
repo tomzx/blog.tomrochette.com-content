@@ -102,6 +102,9 @@ taxonomy:
 	* So people can review their goals frequently and then check their performance against those goals
 * Take a minute: Look at your goals, look at your performance, see if your behavior matches your goals
 
+## Why One Minute Praisings Work
+* By setting up a series of goal, we are establishing goals that can be achieved
+
 # See also
 
 # References
