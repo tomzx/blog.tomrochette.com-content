@@ -17,6 +17,7 @@ taxonomy:
 # Quotes
 * People who feel good about themselves produce good results
 * Help people reach their full potential, catch them doing something right
+* The best minute I spend is the one I invest in people
 
 # Notes
 ## The Search
@@ -83,6 +84,8 @@ taxonomy:
 
 ## The One Minute Manager Explains
 * The more you understand why it works, the more apt you are to use it
+* The best minute I spend is the one I invest in people
+* Most companies spend more time and money on maintaining their buildings and equipment than they do maintaining and developing people
 
 # See also
 
