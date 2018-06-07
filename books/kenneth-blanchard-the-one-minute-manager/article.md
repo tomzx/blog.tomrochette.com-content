@@ -81,6 +81,9 @@ taxonomy:
 	* Reaffirm that you think well of them but not of their performance in this situation
 	* Realize that when the reprimand is over, it's over
 
+## The One Minute Manager Explains
+* The more you understand why it works, the more apt you are to use it
+
 # See also
 
 # References
