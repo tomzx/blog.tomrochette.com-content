@@ -65,6 +65,22 @@ taxonomy:
 * Encourage them to do more of the same
 * Shake hands or touch people in a way that makes it clear that you support their success in the organization
 
+## The Third Secret: One Minute Reprimands
+* As soon as the mistake is known, go see the person. Confirm the facts. Tell precisely what was done wrong (the behavior). Share how you feel about it
+
+## One Minute Reprimands: Summary
+* Tell people beforehand that you are going to let them know how they are doing and in no uncertain terms
+* The first half of the reprimand
+	* Reprimand people immediately
+	* Tell people what they did wrong - be specific
+	* Tell people how you feel about what they did wrong - and in no uncertain terms
+	* Stop for a few seconds of uncomfortable silence to let them feel how you feel
+* The second half of the reprimand
+	* Shake hands, or touch them in a way that lets them know you are honestly on their side
+	* Remind them how much you value them
+	* Reaffirm that you think well of them but not of their performance in this situation
+	* Realize that when the reprimand is over, it's over
+
 # See also
 
 # References
