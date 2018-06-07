@@ -18,6 +18,7 @@ taxonomy:
 * People who feel good about themselves produce good results
 * Help people reach their full potential, catch them doing something right
 * The best minute I spend is the one I invest in people
+* Everyone is a potential winner, some people are disguised as losers, don't let their appearances fool you
 
 # Notes
 ## The Search
@@ -86,6 +87,18 @@ taxonomy:
 * The more you understand why it works, the more apt you are to use it
 * The best minute I spend is the one I invest in people
 * Most companies spend more time and money on maintaining their buildings and equipment than they do maintaining and developing people
+
+## Why One Minute Goals Work
+* I've seen a lot of unmotivated people at work... But I've never seen an unmotivated person after work. Everyone seems to be motivated to do something
+* Most manager know what they want their people to do. They just don't bother to tell their people in a way they would understand. They assume they should know. Never assume anything when it comes to goal setting
+* The number one motivator of people is feedback on results
+* Everyone is a potential winner, some people are disguised as losers, don't let their appearances fool you
+* You have three choices as a manager
+	* You can hire winners (hard to find and cost money)
+	* You can hire someone with the potential to be a winner. Then you systematically train that person to become a winner
+	* You pray
+* Why is it important to have each goal written down on a single sheet of paper?
+	* So people can review their goals frequently and then check their performance against those goals
 
 # See also
 
