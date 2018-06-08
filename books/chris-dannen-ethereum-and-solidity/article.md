@@ -178,6 +178,8 @@ taxonomy:
 	* Key/value store
 
 ## Chapter 5 - Smart Contracts and Tokens
+### Assets Backed by Anything
+* In financial parlance, an asset is a valuable resource that you expect will produce a benefit or value in the future
 
 # See also
 
