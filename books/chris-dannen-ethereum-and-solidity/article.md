@@ -189,6 +189,7 @@ taxonomy:
 ### Defining Mining
 * The  proof-of-work algorithm for the Ethereum protocol is Ethash
 	* Also known as Ethereum's consensus algorithm or consensus engine
+* The block that is selected as canonical is the one with the greatest amount of proof of work behind it
 
 # See also
 
