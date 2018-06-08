@@ -181,6 +181,10 @@ taxonomy:
 ### Assets Backed by Anything
 * In financial parlance, an asset is a valuable resource that you expect will produce a benefit or value in the future
 
+### Money, Tokens, Reputation... So What?
+* Longevity is an asset's killer feature: the longer an asset will grow in value, and the more impossible to counterfeit it, the more desirable it is
+
+
 # See also
 
 # References
