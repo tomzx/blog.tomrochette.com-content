@@ -207,7 +207,8 @@ taxonomy:
 	* A memory-hard algorithm that can't be brute-forced with custom application-specific integrated circuit (ASIC)
 	* Key to this algorithm memory-hardness is its reliance on a directed acyclic graph (DAG) file, which is essentially a 1 GB dataset created anew every 125 hours, or 30k blocks. This period of 30k blocks is also known as an epoch
 
-### Uncle Rules and Rewards
+### How Ethereum Uses Stale Blocks
+#### Uncle Rules and Rewards
 * In Ethereum's implementation of GHOST, uncles that are validated along with a block receive 7/8 of the static block reward, or 4.375 ether
 * A maximum of two uncles are allowed per block
 * These two places are won on a first-come, first served basis
