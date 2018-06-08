@@ -19,6 +19,7 @@ taxonomy:
 * The ability to have decade-old smart contracts still execute seems to rely on the programming language used to describe the smart contract... How can we guarantee said language will still exist in a few decades?
 * Where is ether coming from?
 * It seems wasteful to execute contracts which have too low transaction fee, but is it possible to determine a contract cost in order to avoid this execution?
+* Given the Ethereum blockchain contains the contracts it can execute, it seems its biggest weakness/attack vector point would be to spam it with a ton of extremely large EVM program so that the blockchain becomes too big to store on a computer (requires too much storage space)
 
 # Overview
 * Ethereum could be considered as an OSI layer (encapsulating higher levels)
