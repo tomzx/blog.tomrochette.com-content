@@ -186,6 +186,9 @@ taxonomy:
 * Longevity is an asset's killer feature: the longer an asset will grow in value, and the more impossible to counterfeit it, the more desirable it is
 
 ## Chapter 6 - Mining Ether
+### Defining Mining
+* The  proof-of-work algorithm for the Ethereum protocol is Ethash
+	* Also known as Ethereum's consensus algorithm or consensus engine
 
 # See also
 
