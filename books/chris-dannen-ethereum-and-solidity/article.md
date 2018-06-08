@@ -190,6 +190,14 @@ taxonomy:
 * The  proof-of-work algorithm for the Ethereum protocol is Ethash
 	* Also known as Ethereum's consensus algorithm or consensus engine
 * The block that is selected as canonical is the one with the greatest amount of proof of work behind it
+* Hashpower is the amount of computation a miner can apply to the network
+
+### Factors Required for Block Validation
+* Four pieces of data
+	* Hash of the transaction ledger for this block
+	* Root hash of the entire blockchain
+	* Block number since the chain started
+	* Difficulty of this block
 
 # See also
 
