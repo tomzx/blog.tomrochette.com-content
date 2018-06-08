@@ -204,6 +204,15 @@ taxonomy:
 * In Ethereum, uncle blocks are required to bolster the winning block
 	* As uncles lag more, it becomes harder for the network to find a true block, being that valid uncles are a requirement
 * Ethash: The Ethereum protocol's defense against mining hardware optimization
+	* A memory-hard algorithm that can't be brute-forced with custom application-specific integrated circuit (ASIC)
+	* Key to this algorithm memory-hardness is its reliance on a directed acyclic graph (DAG) file, which is essentially a 1 GB dataset created anew every 125 hours, or 30k blocks. This period of 30k blocks is also known as an epoch
+
+### Uncle Rules and Rewards
+* In Ethereum's implementation of GHOST, uncles that are validated along with a block receive 7/8 of the static block reward, or 4.375 ether
+* A maximum of two uncles are allowed per block
+* These two places are won on a first-come, first served basis
+* No transactions fees are collected or paid out for uncle blocks, because users are paying these costs once already in the valid block, which actually executes their commands
+* In order to be worthy of a reward, an uncle block must have an ancestor in common with the true block within the last seven generations
 
 # See also
 
