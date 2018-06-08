@@ -177,6 +177,8 @@ taxonomy:
 	* Dynamic memory (heap)
 	* Key/value store
 
+## Chapter 5 - Smart Contracts and Tokens
+
 # See also
 
 # References
