@@ -192,12 +192,18 @@ taxonomy:
 * The block that is selected as canonical is the one with the greatest amount of proof of work behind it
 * Hashpower is the amount of computation a miner can apply to the network
 
-### Factors Required for Block Validation
+### Difficulty, Self-Regulation, and the Race for Profit
+#### Factors Required for Block Validation
 * Four pieces of data
 	* Hash of the transaction ledger for this block
 	* Root hash of the entire blockchain
 	* Block number since the chain started
 	* Difficulty of this block
+
+### How Proof of Work Helps Regulate Block Time
+* In Ethereum, uncle blocks are required to bolster the winning block
+	* As uncles lag more, it becomes harder for the network to find a true block, being that valid uncles are a requirement
+* Ethash: The Ethereum protocol's defense against mining hardware optimization
 
 # See also
 
