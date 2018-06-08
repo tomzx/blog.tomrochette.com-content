@@ -185,7 +185,9 @@ taxonomy:
 ### Money, Tokens, Reputation... So What?
 * Longevity is an asset's killer feature: the longer an asset will grow in value, and the more impossible to counterfeit it, the more desirable it is
 
+## Chapter 6 - Mining Ether
 
 # See also
 
 # References
+* https://dev.to/5chdn/the-ethereum-blockchain-size-will-not-exceed-1tb-anytime-soon-58a
