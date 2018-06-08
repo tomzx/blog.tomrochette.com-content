@@ -20,6 +20,7 @@ taxonomy:
 * Where is ether coming from?
 * It seems wasteful to execute contracts which have too low transaction fee, but is it possible to determine a contract cost in order to avoid this execution?
 * Given the Ethereum blockchain contains the contracts it can execute, it seems its biggest weakness/attack vector point would be to spam it with a ton of extremely large EVM program so that the blockchain becomes too big to store on a computer (requires too much storage space)
+* What makes it possible to prevent many "clients" from all agreeing on some random PoW?
 
 # Overview
 * Ethereum could be considered as an OSI layer (encapsulating higher levels)
@@ -214,6 +215,9 @@ taxonomy:
 * These two places are won on a first-come, first served basis
 * No transactions fees are collected or paid out for uncle blocks, because users are paying these costs once already in the valid block, which actually executes their commands
 * In order to be worthy of a reward, an uncle block must have an ancestor in common with the true block within the last seven generations
+
+### The Difficulty Bomb
+* One reason why cryptocurrencies have value in the marketplace is that they are limited in issuance
 
 # See also
 
