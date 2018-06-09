@@ -21,6 +21,7 @@ taxonomy:
 * It seems wasteful to execute contracts which have too low transaction fee, but is it possible to determine a contract cost in order to avoid this execution?
 * Given the Ethereum blockchain contains the contracts it can execute, it seems its biggest weakness/attack vector point would be to spam it with a ton of extremely large EVM program so that the blockchain becomes too big to store on a computer (requires too much storage space)
 * What makes it possible to prevent many "clients" from all agreeing on some random PoW?
+* Is it possible to develop a mechanism to make mining attractive even to solo miners?
 
 # Overview
 * Ethereum could be considered as an OSI layer (encapsulating higher levels)
@@ -234,6 +235,10 @@ taxonomy:
 	* Transaction tree
 	* Receipts tree (data showing the outcome of each transaction)
 	* State tree
+
+### Forking
+* A fork occurs when two valid blocks point to the same parent, but some of the miners see one, and the rest see the other
+* Anyone with more than 50 percent of the hashpower can engender a "hostile" deliberate fork
 
 # See also
 
