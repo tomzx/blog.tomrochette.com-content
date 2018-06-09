@@ -245,6 +245,18 @@ taxonomy:
 #### New Technologies Create New Economies
 * The emerging field of cryptoeconomics is the study of economic activity conducted across network protocols in an adversarial environment
 
+#### Rules of the Game
+* Beware of centralization
+* Most people are rational
+* Large networks have people who churn in and out
+* Censorship is not possible
+* Nodes can talk freely
+* Debt and negative reputation claims are unenforceable
+
+#### Hashing
+* Hashing is more secure than encryption, at least in the sense that there exists no private key that can "reverse" a hash back into its original, readable form
+* If a machine doesn't need to know the content of a dataset, it should be given the hash of the dataset instead
+
 # See also
 
 # References
