@@ -240,7 +240,7 @@ taxonomy:
 * A fork occurs when two valid blocks point to the same parent, but some of the miners see one, and the rest see the other
 * Anyone with more than 50 percent of the hashpower can engender a "hostile" deliberate fork
 
-## Cryptoeconomics Survey
+## Chapter 7 - Cryptoeconomics Survey
 ### How We Got Here
 #### New Technologies Create New Economies
 * The emerging field of cryptoeconomics is the study of economic activity conducted across network protocols in an adversarial environment
@@ -256,6 +256,13 @@ taxonomy:
 #### Hashing
 * Hashing is more secure than encryption, at least in the sense that there exists no private key that can "reverse" a hash back into its original, readable form
 * If a machine doesn't need to know the content of a dataset, it should be given the hash of the dataset instead
+
+## Chapter 8 - Dapp Deployment
+### Web 3 Is Here (Almost)
+* Web 3 is very much a vision that centers on the Ethereum protocol in particular. It is generally considered to have three components
+	* Peer-to-peer identity and messaging system
+	* Shared state (a blockchain)
+	* Decentralized file storage
 
 # See also
 
