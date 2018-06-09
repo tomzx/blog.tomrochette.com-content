@@ -219,6 +219,22 @@ taxonomy:
 ### The Difficulty Bomb
 * One reason why cryptocurrencies have value in the marketplace is that they are limited in issuance
 
+### How Ethereum and Bitcoin Use Trees
+#### Merkle-Patricia Trees
+* In Bitcoin, the block header is an 80-byte chunk of data that includes the Merkle root as well as five other things
+	* A hash of the previous block header
+	* A timestamp
+	* A mining difficulty value
+	* A proof of work nonce
+	* A root hash for the Merkle tree containing the transactions for that block
+* From the perspective of the EVM, one limitation of the Merkle tree is that although it can prove or disprove the inclusion of transactions in the root hash, it can't prove or query the current state of the network, such as a given user's account holdings
+
+#### Contents of an Ethereum Block Header
+* Every block in Ethereum contains not just one Merkle tree, but three trees for three kinds of objects
+	* Transaction tree
+	* Receipts tree (data showing the outcome of each transaction)
+	* State tree
+
 # See also
 
 # References
