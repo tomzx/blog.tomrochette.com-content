@@ -14,6 +14,8 @@ taxonomy:
 * How to reflect on laravel-like proxy classes which can be mocked on demand?
 * How do you represent knowledge such as \$a === \$b, or is_null(\$x) => true if \$x is null
 	* Is a lookup table good enough?
+* How to deal with callable/callback functions passed as arguments?
+* How to deal with callbacks in the code? Some executes right away, while some is delayed
 
 # Overview
 * Specify extended class (defaults to \\PHPUnit_Framework_TestCase)
