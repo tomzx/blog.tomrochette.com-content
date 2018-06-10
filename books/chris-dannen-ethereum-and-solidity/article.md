@@ -264,6 +264,10 @@ taxonomy:
 	* Shared state (a blockchain)
 	* Decentralized file storage
 
+## Chapter 9 - Creating Private Chains
+### Private and Permissioned Chains
+* A private chain is just a cloud database achieved by way of the peer-to-peer Ethereum protocol: it's a silo that you control and that you can grant access to
+
 # See also
 
 # References
