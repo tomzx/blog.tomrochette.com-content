@@ -275,8 +275,6 @@ taxonomy:
 	* Custom network ID (a number)
 	* A directory where the network ID file is stored
 
-## Chapter 10 - Use Cases
-
 # See also
 
 # References
