@@ -267,6 +267,13 @@ taxonomy:
 ## Chapter 9 - Creating Private Chains
 ### Private and Permissioned Chains
 * A private chain is just a cloud database achieved by way of the peer-to-peer Ethereum protocol: it's a silo that you control and that you can grant access to
+* This should be contrasted with a permissioned blockchain, which like an enterprise software application has defined roles with permissions that can be set by a central administrator
+
+### Setting Up a Local Private Chain
+* You need only three things to create a private chain
+	* Custom genesis JSON file
+	* Custom network ID (a number)
+	* A directory where the network ID file is stored
 
 # See also
 
