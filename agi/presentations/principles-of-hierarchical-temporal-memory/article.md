@@ -153,13 +153,13 @@ Recognizes and recalls high-order sequences
 # Research roadmap
 
 ## Applications using HTM high-order inference
-<pre><code class="language-mermaid line-numbers">
+```mermaid
 graph LR;
 	0[Data]
 	0 --> 1[Encoder]
 	1 --SDR--> 2[HTM high-order sequence memory]
 	2 --> 3[Predictions<br/>Anomalies]
-</code></pre>
+```
 
 # Thoughts on machine intelligence
 * Cortical (HTM)
