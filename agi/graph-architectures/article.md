@@ -33,121 +33,121 @@ For this study, we will analyze simple control structures (programs) in order to
 
 ## 1 node, 0 edge
 Statement
-<pre><code class="language-mermaid line-numbers">
+```mermaid
 graph TD
 1["statement 1"]
 1
-</code></pre>
+```
 
 ## 1 node, 1 edge
 While-true loop
 Program never terminates
-<pre><code class="language-mermaid line-numbers">
+```mermaid
 graph TD
 1["while (true) {}"]
 1 --> 1
-</code></pre>
+```
 
 ## 2 nodes, 0 edge
 Not valid (could be considered valid in a parallel architecture as long as *statement 1* and *statement 2* are independent)
-<pre><code class="language-mermaid line-numbers">
+```mermaid
 graph TD
 1["statement 1"]
 2["statement 2"]
-</code></pre>
+```
 
 ## 2 nodes, 1 edge
 Sequential statements
-<pre><code class="language-mermaid line-numbers">
+```mermaid
 graph TD
 1["statement 1"]
 2["statement 2"]
 1-->2
-</code></pre>
+```
 
 Not valid
-<pre><code class="language-mermaid line-numbers">
+```mermaid
 graph TD
 1["while (true) {}"]
 2["statement 2"]
 1-->1
-</code></pre>
+```
 
 Not valid
-<pre><code class="language-mermaid line-numbers">
+```mermaid
 graph TD
 1["statement 1"]
 2["while (true) {}"]
 2-->2
-</code></pre>
+```
 
 ## 2 nodes, 2 edges
 While-true loop - Statement
 Program never terminates
 Statement 1 is never executed
-<pre><code class="language-mermaid line-numbers">
+```mermaid
 graph TD
 1["while (true) {}"]
 2["statement 1"]
 1-->1
 1-->2
-</code></pre>
+```
 
 Statement - while-true loop
 Program never terminates
-<pre><code class="language-mermaid line-numbers">
+```mermaid
 graph TD
 1["statement 1"]
 2["while (true) {}"]
 1-->2
 2-->2
-</code></pre>
+```
 
 Do-while-true
 Program never terminates
-<pre><code class="language-mermaid line-numbers">
+```mermaid
 graph TD
 1["do { statement 1 }"]
 2["while (true);"]
 1-->2
 2-->1
-</code></pre>
+```
 
 Not valid
-<pre><code class="language-mermaid line-numbers">
+```mermaid
 graph TD
 1["statement 1"]
 2["statement 2"]
 1-->1
 2-->2
-</code></pre>
+```
 
 ## 2 nodes, 3 edges
-<pre><code class="language-mermaid line-numbers">
+```mermaid
 graph TD
 1["statement 1"]
 2["statement 2"]
 1-->1
 1-->2
 2-->1
-</code></pre>
+```
 
-<pre><code class="language-mermaid line-numbers">
+```mermaid
 graph TD
 1["statement 1"]
 2["statement 2"]
 1-->2
 2-->1
 2-->2
-</code></pre>
+```
 
 Sequential double while-true loop
 Program never terminates
-<pre><code class="language-mermaid line-numbers">
+```mermaid
 graph TD
 1["statement 1"]
 2["statement 2"]
 1-->1
 1-->2
 2-->2
-</code></pre>
+```
