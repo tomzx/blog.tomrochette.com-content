@@ -23,7 +23,7 @@ Feel free to drop me a comment or any questions down below (at the end of the ar
 
 # Layers
 
-<pre><code class="language-mermaid line-numbers">
+```mermaid
 graph TD;
     0[Start]
     0 --> 1[Main loop]
@@ -33,7 +33,7 @@ graph TD;
     4 --> 5[End loop]
     5 --> 1
     5 --> 6[Done]
-</code></pre>
+```
 
 # Pre-requisites
 
