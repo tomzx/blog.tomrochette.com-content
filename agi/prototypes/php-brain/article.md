@@ -281,7 +281,7 @@ If we base ourselves on how the brain work, we can extrapolate that all it does 
 
 Similarly to a neural network, the composition of a complex signal comes from the composition of simpler signals. For instance, in the diagram below, if 1, 2, 3 and 4 are activated, then it will activate 5 and 6, which will then activate 7.
 
-<pre><code class="language-mermaid line-numbers">
+```mermaid
 graph LR
 	1 --> 5
 	2 --> 5
@@ -293,7 +293,7 @@ graph LR
 
 If we replace numbers with concepts, we may end up with something like red (1), round(2), medium-sized (3), bouncy (4), red and round (5), medium-sized, bouncy (6), a red, medium-sized, bouncy ball (7).
 
-<pre><code class="language-mermaid line-numbers">
+```mermaid
 graph LR
 	1[red] --> 5
 	2[round] --> 5
@@ -307,7 +307,7 @@ In this example we are already at a quite high level. Lower levels would have th
 
 It is simpler to think of signals in terms of number only. For instance, if we are to feed the system with a text, we could feed it the whole document, a list of paragraphs, a list of sentences, a list of words or a list of characters. However, those are different things and cannot really be compared to one another. However, if we decided to feed any of those or any combination of those items, and that the system simply assigned a number to each instance, then, through some oracle, it could be possible for the system to say "I've already seen this signal, it's #857278476856". Given a signal such as the sentence "This is a sentence" with ID = 1 and the words "This" (2), "is" (3) "a" (3), "sentence" (4), a small network can be composed:
 
-<pre><code class="language-mermaid line-numbers">
+```mermaid
 graph BT
 	1[1 This is a sentence]
 	2[2 This is a] --> 1
@@ -335,7 +335,7 @@ During this process, surrounding nodes may be half activated (not completely). W
 
 If we go further, we could have paragraphs, sections, chapters, documents being identified above (we could say that "This is a sentence" is a sentence that belongs to the document "PHP Brain"). The same can be done below the graph, where characters, and then strokes, could be stored.
 
-<pre><code class="language-mermaid line-numbers">
+```mermaid
 graph BT
 	1[1 This is a sentence]
 	2[2 This is a] --> 1
@@ -368,7 +368,7 @@ A node an link/network architecture is very common for AGI. It is probably the c
 
 If we get rid of the attached concepts and only keep the numbers, we can see the structure of a concept.
 
-<pre><code class="language-mermaid line-numbers">
+```mermaid
 graph BT
 	1
 	2 --> 1
