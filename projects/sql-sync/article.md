@@ -57,7 +57,7 @@ When the client is configured, it will call the server to inform it it wants to 
 
 The following sequence diagram represents the communication between a client and a server in the case that there are only inserts being done on the server data and the client wants to sync this data locally.
 
-<pre><code class="language-mermaid line-numbers">
+```mermaid
 sequenceDiagram
 	Client->>Server: Init
 	Server-->>Client: OK
@@ -68,13 +68,13 @@ sequenceDiagram
 	Server->>Client: Table A, done
 	Server->>Client: Table B, done
 	Client->>Server: Close
-</code></pre>
+```
 
 This simple case sadly does not cover updates nor deletes.
 
 In order to support updates, we need to have an `updated_at` column that is updated when the data itself is updated.
 
-<pre><code class="language-mermaid line-numbers">
+```mermaid
 sequenceDiagram
 	Client->>Server: Init
 	Server-->>Client: OK
@@ -87,7 +87,7 @@ sequenceDiagram
 	Server->>Client: Table B, Update ID = [123, 234]
 	Server->>Client: Table B, done
 	Client->>Server: Close
-</code></pre>
+```
 
 If the table also supports `deleted_at`, then it should work in the same fashion as with `updated_at`. Here, we could have a setting to determine whether `updated_at` would be updated on a `deleted_at`, and if it is not, then it means that we have to do a separate set of operations for delete operations. The simplest case is to "force" the users to update their `updated_at` field when they set one of their rows `deleted_at` attribute (so that they both match).
 
@@ -158,7 +158,7 @@ But such query does not return us missing IDs from 1 to X, it only returns us wi
 
 Given we can receive a list of from-to of deleted rows, we should be able to fully update our client.
 
-<pre><code class="language-mermaid line-numbers">
+```mermaid
 sequenceDiagram
     Client->>Server: Init
     Server-->>Client: OK
@@ -173,7 +173,7 @@ sequenceDiagram
     Server->>Client: Table B, Update ID = [123, 234]
     Server->>Client: Table B, done
     Client->>Server: Close
-</code></pre>
+```
 
 One of the downside of this method is that the server will have to compute and send over the list of deleted rows on every request. We could compute the list of missing rows on the client and send it to the server so that they may not be sent back, but it is putting more burden on the client than we probably might want.
 
