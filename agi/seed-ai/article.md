@@ -232,7 +232,7 @@ The following is a list of functions we expect to find in a seed AI for it to be
 # Learning to program
 Below is a graphical representation of what a typical new programmer will go through as he learns to program. You can think of all the steps as applying to the code (copying code, executing code, removing code, etc.).
 
-<pre><code class="language-mermaid line-numbers">
+```mermaid
 graph TD;
 	1[Generate]
 	2[Copy]
@@ -257,7 +257,7 @@ graph TD;
 	3-->6
 	4-->6
 	8-->6
-</code></pre>
+```
 
 # A second observation (months later)
 The simplest seed AI that exists is simply a natural number *generator*. It probably does not qualify as seed AI in itself, but it has the fundamental functionality we are looking for: it generates programs. In its simplest form, a program is called a binary, which is a base 2 representation of a number. The simplest program that is a number generator starts with the number 0, and it loops infinitely, incrementing this number by 1 each iteration. During each iteration, this number is written to a file, effectively generating a binary/executable.
