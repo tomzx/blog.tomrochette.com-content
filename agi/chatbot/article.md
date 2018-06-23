@@ -45,14 +45,13 @@ Based on the Turing Test, it seems that one important aspect of having human int
 	* Builds upon other strategies to generate sentences as this is more related to generating concept-related sentences
 
 ## The constructive nature of language
-<pre><code class="language-mermaid line-numbers">
+```mermaid
 graph TD;
 	0[Nothing]
 	0 --> 1[Vocabulary]
 	1 --> 2[Sentences/Grammar]
 	2 --> 3[Context sensitivity]
-</code></pre>
-
+```
 
 # Problems
 * Simply repeating what they've heard
