@@ -92,7 +92,7 @@ Reward feed: If the bot says something to someone and that person replies with t
 # Internal dialog loop
 Each and everyone of us has an internal voice we talk to ourselves with. In this same fashion, the internal dialog loop of a chatbot keeps thinking to itself what to discuss next as well as listening to whomever is currently talking.
 
-<pre><code class="language-mermaid line-numbers">
+```mermaid
 graph TD;
     0[Start]
     0 --> 1[Main loop]
@@ -102,7 +102,7 @@ graph TD;
     4 --> 5[End loop]
     5 --> 1
     5 --> 6[Done]
-</code></pre>
+```
 
 <!-- Doesn't say much of value -->
 The general process is that while you are in a dialog (to simplify things), your interlocutor will be speaking. During that time, you are processing what is being said (parse words, construct images, etc.) as well as activating a network of related memories within your brain (words, ideas, images, etc.). As things are said, different things will go through your mind, but soon enough you'll have something to convey to your interlocutor. Depending on the type of conversation, you may have assessed the validity/cogency of his argument, and you will want either to clarify or argue against what was said.
