@@ -17,11 +17,11 @@ content:
     pagination: true
 
 feed:
-    description: What's up with my life
+    description: An open book into a software engineer's mind.
     limit: 10
 
 pagination: true
 ---
 
 # tomrochette.com
-## What's up with my life
+## An open book into a software engineer's mind.
