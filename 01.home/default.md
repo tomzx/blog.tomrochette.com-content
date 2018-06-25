@@ -22,6 +22,3 @@ feed:
 
 pagination: true
 ---
-
-# tomrochette.com
-## What's up with my life
