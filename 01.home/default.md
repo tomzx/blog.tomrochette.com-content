@@ -1,6 +1,6 @@
 ---
 template: blog
-body_classes: header-image fullwidth
+body_classes: fullwidth
 
 sitemap:
     changefreq: monthly
