@@ -78,3 +78,4 @@ taxonomy:
 * https://ccmit.mit.edu/problem-solving/
 * https://www.saylor.org/site/wp-content/uploads/2011/05/Problem-solving-from-an-evolutionary-perspective.pdf
 * http://www.scholastic.com/browse/article.jsp?id=3746479
+* http://sproutsdevelopment.com/resources/problem-solving/
