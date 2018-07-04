@@ -35,6 +35,7 @@ The following list is an attempt at ordering the topics from most important to l
 * Verbs
 * Question words
 * Adjectives
+* Conjunctions
 * Numbers
 * Time
 * Days of week
