@@ -60,3 +60,6 @@ class AnotherClass {
 
 ## Notes
 * If you start VS Code using the debug feature, you will not be able to open the Chrome DevTools (at this moment, 2018-05-26) because only 1 process is allowed to attach to the Chrome DevTools instance, and that process is the VS Code editor that started the debugged VS Code instance
+
+# 2018-07-08
+Today I want to find out how VS Code restores a windows sessions when you start it. Apparently, if you run it as `code .`, it will not restore the same set of windows than if you called it simply with `code`.
