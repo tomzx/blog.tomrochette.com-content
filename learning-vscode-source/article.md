@@ -63,3 +63,7 @@ class AnotherClass {
 
 # 2018-07-08
 Today I want to find out how VS Code restores a windows sessions when you start it. Apparently, if you run it as `code .`, it will not restore the same set of windows than if you called it simply with `code`.
+
+* In `src/vs/code/electron-main/launch.ts`, the `LaunchService::startOpenWindow` appears to implement logic based on how many arguments were given. In all cases, we end up doing a call to the `IWindowsMainService::open` method.
+	* Note that in both cases, the path we're opening is within the `args` variable, which is passed to the `cli` property of the `IOpenConfiguration` object
+* The implementation of `IWindowsMainService` we are interested in lives in `src/vs/code/electron-main/windows.ts`.
