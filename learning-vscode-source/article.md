@@ -67,3 +67,4 @@ Today I want to find out how VS Code restores a windows sessions when you start 
 * In `src/vs/code/electron-main/launch.ts`, the `LaunchService::startOpenWindow` appears to implement logic based on how many arguments were given. In all cases, we end up doing a call to the `IWindowsMainService::open` method.
 	* Note that in both cases, the path we're opening is within the `args` variable, which is passed to the `cli` property of the `IOpenConfiguration` object
 * The implementation of `IWindowsMainService` we are interested in lives in `src/vs/code/electron-main/windows.ts`.
+* In the `WindowsManager::open` method, we rapidly discover that the windows that will be opened will be retrieved in `WindowsManager::getPathsToOpen`. In there, we can observe that the windows that will be opened depend on whether something was passed from the API, we forced an empty window, we're extracting paths from the cli
