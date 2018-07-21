@@ -12,7 +12,7 @@ taxonomy:
 
 ## Things to explore
 * Every person is a knowledge base. They decide how they want to encode what they experience and how often they need to retrieve that experience (the more it is used, the shorter it should be, similar to how compression works)
-    * All humans share the same brain architecture, which means that we most likely encode sensory inputs in the same way, but using different neurons
+    * All humans share the same brain architecture, which means that we most likely encode sensory inputs in the same way, but using different neurons (although their relative position within the brain seems to be constant)
 * How should knowledge be structured in order for it to be easily queryable/retrievable when asking various questions?
 * Like a "real" person, remembers by activating on all the provided words and searching for related memories (ala find feature of text search)
 * How can we say that an (new) experience E is the same as an already experienced experience E?
@@ -150,3 +150,4 @@ Son Jack John
 * https://en.wikipedia.org/wiki/Binary_relation
 * http://www.slideshare.net/jamietaylor/freebase-schema
 * http://cgi.csc.liv.ac.uk/~frank/teaching/comp08/lecture12.pdf
+* https://piggydb.net/
