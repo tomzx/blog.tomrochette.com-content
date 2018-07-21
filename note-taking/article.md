@@ -37,6 +37,9 @@ taxonomy:
 * Easily available on any device
 * Easy to timestamp (have a trace of when it was initially written)
 
+## Nice to have
+* Geolocation of where the note was taken
+
 # See also
 
 # References
