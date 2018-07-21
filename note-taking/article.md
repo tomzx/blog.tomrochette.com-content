@@ -35,6 +35,7 @@ taxonomy:
 * Portable/Non-proprietary format (most of what you will want to store is text or images anyway)
 * Version controlled
 * Easily available on any device
+* Easy to timestamp (have a trace of when it was initially written)
 
 # See also
 
