@@ -12,6 +12,8 @@ taxonomy:
 
 ## Things to explore
 * MFC/MFCC
+* Recognize speakers using per speaker models
+	* Start with a single model for all speakers, and slowly figure out when a given speaker speaks, then retrain their individual model to become more and more accurate
 
 ## To try
 * Determine vocal tract size
@@ -20,8 +22,7 @@ taxonomy:
 The goal of this project is to recognize a person based on a record of his/her voice.
 
 * Record audio
-* Convert a certain window size (e.g., 20ms long) of the signal into the frequency domain
-* Convert using a fast Fourier transform
+* Convert a certain window size (e.g., 20ms long) of the signal into the frequency domain using a fast Fourier transform
 
 # From the Deep Learning Book
 * Factors of variation
