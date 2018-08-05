@@ -20,6 +20,8 @@ taxonomy:
 	* Request data from data source
 	* Run inference given data
 * Benchmark: Test changes to your model to see how they fare against previous models
+* Containers: Encapsulates the tools and procedures used to process data and turn it into information. The container makes it easy to install dependencies and to reproduce the environment on other machines
+*
 
 # See also
 
