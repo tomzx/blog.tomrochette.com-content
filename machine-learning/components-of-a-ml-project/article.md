@@ -13,13 +13,13 @@ taxonomy:
 ## Things to explore
 
 # Overview
-* Data
-* Extract, Transform, Load (ETL) pipeline
-* Model/Architecture
-* API
+* Data: The units of data from which information/knowledge will be extracted
+* Extract, Transform, Load (ETL) pipeline: A set of tools/procedure to convert the data into a format more appropriate for further processing, as well as storing
+* Model/Architecture: The machine learning model that converts incoming data into predictions/decisions
+* API: HTTP endpoint that can be easily called to pass information to the system or query the model for information
 	* Request data from data source
 	* Run inference given data
-* Benchmark: Test changes to your model to see how they fare against
+* Benchmark: Test changes to your model to see how they fare against previous models
 
 # See also
 
