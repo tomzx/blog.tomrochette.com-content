@@ -14,7 +14,7 @@ taxonomy:
 
 # Overview
 * Data: The units of data from which information/knowledge will be extracted (text, csv, binary, json, databases)
-* Extract, Transform, Load (ETL) pipeline: A set of tools/procedure to convert the data into a format more appropriate for further processing, as well as storing (google refine)
+* Extract, Transform, Load (ETL)/Feature extractor pipeline: A set of tools/procedure to convert the data into a format more appropriate for further processing, as well as storing (google refine)
 * Model/Architecture: The machine learning model that converts incoming data into predictions/decisions (tensorflow, keras, torch)
 * API: HTTP endpoint that can be easily called to pass information to the system or query the model for information (flask)
 	* Request data from data source
