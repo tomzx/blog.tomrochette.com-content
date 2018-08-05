@@ -13,8 +13,13 @@ taxonomy:
 ## Things to explore
 
 # Overview
-
-# Notes
+* Data
+* Extract, Transform, Load (ETL) pipeline
+* Model/Architecture
+* API
+	* Request data from data source
+	* Run inference given data
+* Benchmark: Test changes to your model to see how they fare against
 
 # See also
 
