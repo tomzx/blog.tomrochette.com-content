@@ -46,3 +46,4 @@ This is a series of posts on the topic of software development processes.
 * Evaluation
 * Improve system
 * Maintenance
+Reference: https://www.researchgate.net/profile/Julius_Nganji/publication/264422652/figure/fig4/AS:296032350031876@1447591020322/A-Disability-aware-Software-Engineering-Process-Model.png
