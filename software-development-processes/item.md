@@ -73,5 +73,11 @@ Reference: https://www.researchgate.net/profile/Julius_Nganji/publication/264422
 https://en.wikipedia.org/wiki/ISO/IEC_12207
 
 # Risk management
+* identify, characterize threats
+* assess the vulnerability of critical assets to specific threats
+* determine the risk (i.e. the expected likelihood and consequences of specific types of attacks on specific assets)
+* identify ways to reduce those risks
+* prioritize risk reduction measures
+
 ## References
 * https://en.wikipedia.org/wiki/Risk_management
