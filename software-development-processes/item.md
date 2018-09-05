@@ -18,6 +18,7 @@ This is a series of posts on the topic of software development processes.
 7. Maintenance
 
 # Documents
+* Software requirements specification
 * Software project plan
 * Use cases
 * Architecture
