@@ -19,6 +19,8 @@ This is a series of posts on the topic of software development processes.
 
 # Documents
 * Software project plan
+* Use cases
+* Architecture
 
 # Unsorted
 * Documentation
