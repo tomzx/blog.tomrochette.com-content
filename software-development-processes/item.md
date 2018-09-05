@@ -1,11 +1,4 @@
----
-title: Prioritizing
-created: 2017-01-07
-taxonomy:
-    type: post-wip
-    category: General
-    tag: [priority, prioritization, planning]
----
+
 
 This is a series of posts on the topic of software development processes.
 
