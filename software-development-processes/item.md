@@ -33,3 +33,16 @@ This is a series of posts on the topic of software development processes.
 * Joint review
 * Audit
 * Problem resolution
+
+* Analyse needs
+* Create personas
+* Scope & feasibility
+* Requirements
+* Technologies
+* Architecture
+* Components
+* Implementation
+* Test & Deploy
+* Evaluation
+* Improve system
+* Maintenance
