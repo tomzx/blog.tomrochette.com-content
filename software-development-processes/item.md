@@ -57,4 +57,17 @@ Reference: https://www.researchgate.net/profile/Julius_Nganji/publication/264422
 * Measurement
 * Quality assurance
 * Business or mission analysis
+* Stakeholder needs and requirements definition
+* Systems/Software requirements definition
+* Architecture definition
+* Design definition
+* System analysis
+* Implementation
+* Integration
+* Verification
+* Transition
+* Validation
+* Operation
+* Maintenance
+* Disposal
 https://en.wikipedia.org/wiki/ISO/IEC_12207
