@@ -1,4 +1,11 @@
-
+---
+title: Software development processes
+created: 2015-07-07
+taxonomy:
+    type: post-wip
+    category: General
+    tag: [software engineering]
+---
 
 This is a series of posts on the topic of software development processes.
 
