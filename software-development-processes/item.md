@@ -19,3 +19,13 @@ This is a series of posts on the topic of software development processes.
 
 # Documents
 * Software project plan
+
+# Unsorted
+* Documentation
+* Configuration management
+* Quality assurance
+* Verification
+* Validation
+* Joint review
+* Audit
+* Problem resolution
