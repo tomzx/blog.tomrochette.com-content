@@ -21,6 +21,7 @@ This is a series of posts on the topic of software development processes.
 * Software project plan
 * Use cases
 * Architecture
+* Risk analysis
 
 # Unsorted
 * Documentation
