@@ -71,3 +71,7 @@ Reference: https://www.researchgate.net/profile/Julius_Nganji/publication/264422
 * Maintenance
 * Disposal
 https://en.wikipedia.org/wiki/ISO/IEC_12207
+
+# Risk management
+## References
+* https://en.wikipedia.org/wiki/Risk_management
