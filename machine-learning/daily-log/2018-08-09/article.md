@@ -15,6 +15,7 @@ taxonomy:
 # Problems faced
 
 # Overview
+When studying a dataset for which you want to do binary classification, classes balance is important. You should check what is the ratio for each class. If (binary) accuracy is used as your metric, it is very likely that the neural network may simply pick the largest class and always return it, which will result in accuracy of the same size as the class.
 
 # See also
 
