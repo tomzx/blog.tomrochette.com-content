@@ -1,6 +1,6 @@
 ---
-title: "YYYY-MM-DD"
-created: YYYY-MM-DD
+title: "2018-09-08"
+created: 2018-09-08
 taxonomy:
   category: [Machine Learning]
   status: in progress
