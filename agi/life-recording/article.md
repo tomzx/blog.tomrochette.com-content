@@ -38,6 +38,7 @@ taxonomy:
 * Various personal mental metrics such as motivation, energy, hunger, happiness, anger, stress, productivity and comfort (I used to use [Data Tracker Reminder](https://github.com/tomzx/data-tracker-mobile), which I wrote myself, but it was time consuming to enter the data, and it would also interrupt my work flow)
 * When I go to the bathroom to urinate and defecate
 * When I drink water or a beverage, and how much
+* Track everything that isn't on the computer (transit, walking, running, cooking, showering, etc.) to avoid to manually have to enter this information
 
 # Content extraction
 * Most of the monitor capture and webcam capture will contain mundane content such as someone fixating its monitor and sometimes uttering words
