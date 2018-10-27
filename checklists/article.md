@@ -24,8 +24,6 @@ Checklists are a highly effective way to make sure that critical elements of a r
 # Machine learning
 * [ ] Is there a row of data even when the value is 0?
 
-
-
 # See also
 
 # References
