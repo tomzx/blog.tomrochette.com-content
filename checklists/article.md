@@ -8,6 +8,9 @@ taxonomy:
     status: in progress
 ---
 
+## Context
+Checklists are a highly effective way to make sure that critical elements of a routine are done. As such, I want to explore and make checklists for different things that are important in my life.
+
 # Life
 * [ ] Did I eat 3 meals today?
 * [ ] Are time-based events scheduled in the calendar?
@@ -20,3 +23,9 @@ taxonomy:
 
 # Machine learning
 * [ ] Is there a row of data even when the value is 0?
+
+
+
+# See also
+
+# References
