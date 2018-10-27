@@ -27,3 +27,4 @@ Checklists are a highly effective way to make sure that critical elements of a r
 # See also
 
 # References
+* https://www.goodreads.com/book/show/6667514-the-checklist-manifesto
