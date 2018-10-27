@@ -10,6 +10,8 @@ taxonomy:
 
 # Life
 * [ ] Did I eat 3 meals today?
+* [ ] Are time-based events scheduled in the calendar?
+* [ ] Are repetitive events scheduled in the calendar?
 
 # Software development
 * [ ] Is the feature implementing all the desired use cases?
