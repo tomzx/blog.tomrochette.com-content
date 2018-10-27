@@ -8,6 +8,9 @@ taxonomy:
     status: in progress
 ---
 
+# Life
+* [ ] Did I eat 3 meals today?
+
 # Software development
 * [ ] Is the feature implementing all the desired use cases?
 * [ ] Are tests written to cover the common case and some edge cases?
