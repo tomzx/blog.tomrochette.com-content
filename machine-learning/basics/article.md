@@ -116,3 +116,4 @@ plt.show()
 # See also
 
 # References
+* http://www.erogol.com/machine-learning-pathway/
