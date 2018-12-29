@@ -1,15 +1,15 @@
-Client\/server
+Client/server
 Per region servers
-Login\/authentication server
+Login/authentication server
 Lobby server
 Store server
-- buy champion\/runes
+- buy champion/runes
 Transfer player from lobby to game server
 - champion selection
 - spectators
 Per game server
 - Coordinates all 10 players within the game
-- controls game events dragon\/baron\/npc\/player gold
+- controls game events dragon/baron/npc/player gold
 - compute damage
 - end game lobby
 Game client
