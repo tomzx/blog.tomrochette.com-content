@@ -4,3 +4,6 @@
 * Docker
 * Kubernetes
 * Chinese Mandarin
+* Python
+	* Pipenv
+	* Poetry
