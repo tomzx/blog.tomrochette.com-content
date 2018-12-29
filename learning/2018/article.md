@@ -7,3 +7,5 @@
 * Python
 	* Pipenv
 	* Poetry
+	* Libraries
+		* Click
