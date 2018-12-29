@@ -3,9 +3,9 @@
 	* Time series
 * Docker
 * Kubernetes
-* Chinese Mandarin
 * Python
 	* Pipenv
 	* Poetry
 	* Libraries
 		* Click
+* Chinese Mandarin
