@@ -1,4 +1,4 @@
-Authentication\/Login server
+Authentication/Login server
 Per game server
 - compute damage simulation
 - in game chat
