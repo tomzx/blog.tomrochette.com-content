@@ -327,3 +327,4 @@ By observing the properties that can vary in the most common data structure, it 
 * Inductive programming - http://www.inductive-programming.org/
 * Program transformation - http://www.program-transformation.org/
 * Universal Data Structure - https://groups.google.com/forum/#!topic/magic-list/LhDuHtyas9Q
+* https://sergeyzhuk.me/2018/12/29/code_review/
