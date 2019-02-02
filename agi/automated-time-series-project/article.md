@@ -19,10 +19,23 @@ taxonomy:
 * Define metrics
 
 # Automated steps
+* Merge datasets into a single dataset
+* Detect datetime-like columns
+* Detect covariates and non-covariates columns
+* Convert categorical columns into either one hot encoding or embeddings
 * Generate features
 	* On covariates
-	* On non-covariate
+	* On non-covariates
+* Backtest multiple models
 
+# Notes
+* In an ideal world, I want to do the following:
+	* DnD many csv files
+	* Select the column that indicates the datetime index (out of columns detected as being datetime)
+	* Include/Exclude columns from the data
+	* Select the column(s) I want the model to learn to predict
+	* Select the loss function (what to optimize)
+	* Select the metrics to compute
 
 # See also
 
