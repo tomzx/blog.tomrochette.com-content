@@ -36,6 +36,7 @@ taxonomy:
 	* Select the column(s) I want the model to learn to predict
 	* Select the loss function (what to optimize)
 	* Select the metrics to compute
+	* Wait for the system to process my data and run it against multiple models
 
 # See also
 
