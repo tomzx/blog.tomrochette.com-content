@@ -13,11 +13,16 @@ taxonomy:
 ## Things to explore
 
 # Overview
-Automated Time Series Project
 * Define data sets
 * Define forecast horizons
 * Define data traversal procedure
 * Define metrics
+
+# Automated steps
+* Generate features
+	* On covariates
+	* On non-covariate
+
 
 # See also
 
