@@ -30,7 +30,7 @@ taxonomy:
 
 # Notes
 * In an ideal world, I want to do the following:
-	* DnD many csv files
+	* Drag-and-drop many csv files
 	* Select the column that indicates the datetime index (out of columns detected as being datetime)
 	* Include/Exclude columns from the data
 	* Select the column(s) I want the model to learn to predict
