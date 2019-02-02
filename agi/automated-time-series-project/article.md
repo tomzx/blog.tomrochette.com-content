@@ -37,6 +37,8 @@ taxonomy:
 	* Select the loss function (what to optimize)
 	* Select the metrics to compute
 	* Wait for the system to process my data and run it against multiple models
+	* Show me the different models and their results
+		* Let me visualize the worst offenders (the rows keeping the loss high/non-zero)
 
 # See also
 
