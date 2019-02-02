@@ -1,6 +1,6 @@
 ---
-title: Automated software development
-created: 2017-10-07
+title: Automated time series project
+created: 2019-02-02
 taxonomy:
   category: [Artificial General Intelligence]
   status: in progress
@@ -13,13 +13,11 @@ taxonomy:
 ## Things to explore
 
 # Overview
-* Requirements
-* Design
-* Implementation
-* Test
-* Debug
-* Deployment
-* Maintenance
+Automated Time Series Project
+* Define data sets
+* Define forecast horizons
+* Define data traversal procedure
+* Define metrics
 
 # See also
 
