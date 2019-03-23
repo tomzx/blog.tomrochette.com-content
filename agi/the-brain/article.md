@@ -94,3 +94,4 @@ taxonomy:
 
 * https://en.wikipedia.org/wiki/List_of_animals_by_number_of_neurons
 * https://en.wikipedia.org/wiki/Neural_coding
+* https://www.quora.com/How-powerful-is-the-brain-compared-to-a-computer
