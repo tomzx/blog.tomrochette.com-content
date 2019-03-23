@@ -80,6 +80,9 @@ taxonomy:
 	* Appears to imply that the construction process follows a specific construction schedule/plan/program
 	* Neurons are created, then located, then converted to a given type, then associated with neighboring cells
 
+* We do know that the human brain consumes approximately 20W worth of power, and also that flipping a single bit takes at least 1.38*10^-23 joules per kelvin (Boltzmann constant) the brain operates at about +310K, which means it can’t possibly do more computing than 4.4*10^20 trivial operations per second. (it’s likely much less in practice, the brain is probably more efficient than current CPUs, but also likely a whole lot less efficient than the physical limits to efficiency)
+	* Source: https://www.quora.com/How-powerful-is-the-brain-compared-to-a-computer
+
 # See also
 * [Senses](../senses)
 
