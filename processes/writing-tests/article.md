@@ -9,4 +9,4 @@ taxonomy:
 
 * Write a test that tests the common case usage of your function
 * Write tests that cover edge cases of your function
-* Write tests to cover all statement, branches, paths
+* Write tests to cover all statements, branches, paths
