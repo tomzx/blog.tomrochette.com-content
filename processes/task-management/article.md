@@ -14,6 +14,8 @@ Step to create a task
 * Decide if it's important or not
 * Decide if it's urgent or not
 * Give a rough estimate of effort
+* Give a description if necessary
+* Set a deadline if possible
 * Set status to Unprioritized
 
 During a workday
