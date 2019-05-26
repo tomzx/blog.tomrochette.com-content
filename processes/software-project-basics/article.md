@@ -6,3 +6,8 @@ taxonomy:
   category: []
   status: draft
 ---
+
+* Setup continuous integration
+* Have a testing framework
+* Use dependency management
+* Define a code standard
