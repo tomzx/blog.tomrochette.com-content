@@ -15,6 +15,7 @@ taxonomy:
 * Steps to reproduce
 * Expected results
 * Actual results
+* Screen capture (if relevant)
 
 # References
 * https://codingnest.com/how-to-file-a-good-bug-report/
