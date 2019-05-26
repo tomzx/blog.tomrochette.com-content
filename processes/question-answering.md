@@ -7,7 +7,6 @@ taxonomy:
   status: draft
 ---
 
-
 * Have a question
 * Define the field that would best answer this question
 * Search online
