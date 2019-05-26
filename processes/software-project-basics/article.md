@@ -17,3 +17,4 @@ taxonomy:
 	* Code quality check
 	* Code style check
 	* Unit/functional/integration/system tests
+		* Code coverage should be recorded during tests and a report made available
