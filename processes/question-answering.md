@@ -1,6 +1,6 @@
 ---
 title: Question answering
-created: YYYY-MM-DD
+created: 2017-08-18
 taxonomy:
   type: post
   category: []
