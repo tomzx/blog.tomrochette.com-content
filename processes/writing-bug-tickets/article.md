@@ -7,6 +7,14 @@ taxonomy:
   status: draft
 ---
 
+# Ticket content
+* Summary
+* Software version
+* Steps to reproduce
+* Expected results
+* Actual results
+
+
 * What version of the software are you running?
 * Can you reproduce the bug with the latest version of the software?
 * Describe what happens and what you expected would happen
