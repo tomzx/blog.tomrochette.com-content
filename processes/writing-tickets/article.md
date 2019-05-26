@@ -14,3 +14,5 @@ taxonomy:
 * Assignee
 * Estimate of effort required
 * Deadline
+
+* If a ticket is in a blocked state, then the reason why it is blocked should be made explicit
