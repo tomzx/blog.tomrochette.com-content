@@ -11,6 +11,7 @@ taxonomy:
 * Summary
 * Software version
 * Reproducible in latest version?
+* Environment details: compiler/interpreter, operating system, etc.
 * Steps to reproduce
 * Expected results
 * Actual results
