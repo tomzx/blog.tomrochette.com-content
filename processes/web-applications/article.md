@@ -8,3 +8,5 @@ taxonomy:
 ---
 
 * 3 different environments: development, staging, production
+* Write migrations for schema changes
+* Use ORM if possible over raw queries
