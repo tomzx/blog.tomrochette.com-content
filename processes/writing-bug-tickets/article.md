@@ -11,3 +11,4 @@ taxonomy:
 * List the steps to reproduce the bug
 
 # References
+* https://codingnest.com/how-to-file-a-good-bug-report/
