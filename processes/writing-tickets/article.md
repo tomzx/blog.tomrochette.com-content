@@ -7,6 +7,7 @@ taxonomy:
   status: draft
 ---
 
+## Items in a ticket
 * Title
 * Important
 * Urgent
@@ -15,4 +16,5 @@ taxonomy:
 * Estimate of effort required
 * Deadline
 
+## Guidelines
 * If a ticket is in a blocked state, then the reason why it is blocked should be made explicit
