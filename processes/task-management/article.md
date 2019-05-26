@@ -7,7 +7,7 @@ taxonomy:
   status: draft
 ---
 
-Step to create a task
+## Step to create a task
 * Give it a title
 * Give it at least one label
 * Give it an assignee
@@ -18,15 +18,17 @@ Step to create a task
 * Set a deadline if possible
 * Set status to Unprioritized
 
-During a workday
+## During a workday
 * Go through the tasks in the Do section, then the Decide section, then Delegate
 
-* Use Eisenhower matrix to determine task importance/urgency
-	* Tasks that are not important/not urgent are moved to the backlog
-	* Tasks that are not important/urgent are delegated to someone else
-	* Tasks that are important/not urgent should be scheduled
-	* Tasks that are important/urgent should be done ASAP
+## Important/Urgent
+Use Eisenhower matrix to determine task importance/urgency
+* Tasks that are not important/not urgent are moved to the backlog
+* Tasks that are not important/urgent are delegated to someone else
+* Tasks that are important/not urgent should be scheduled
+* Tasks that are important/urgent should be done ASAP
 
+## Task processing
 * Unprioritized tasks should be moved to Queued, given their priority compared to already queued tasks
 * You should attempt to keep the Unprioritized tasks count to 0
 * A task that is Queued should have a deadline date
