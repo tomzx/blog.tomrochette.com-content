@@ -11,3 +11,4 @@ taxonomy:
 * Have a testing framework
 * Use dependency management
 * Define a code standard
+* Prefer function/method typing over dynamic types
