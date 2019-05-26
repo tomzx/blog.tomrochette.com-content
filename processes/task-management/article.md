@@ -20,6 +20,8 @@ taxonomy:
 
 ![Task creation](images/Task-creation.png)
 
+![Task states](images/Task-states.png)
+
 # During a workday
 * Go through the tasks in the Do section, then the Decide section, then Delegate
 
