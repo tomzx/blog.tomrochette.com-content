@@ -13,5 +13,7 @@ taxonomy:
 * Use dependency management
 * Define a code standard
 * Prefer function/method typing over dynamic types
-* Code should be automatically be checked for style consistency
-* Code quality should be automatically evaluated on pushes to git
+* On every push to git
+	* Code quality check
+	* Code style check
+	* Unit/functional/integration/system tests
