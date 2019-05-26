@@ -19,3 +19,4 @@ taxonomy:
 
 # References
 * https://codingnest.com/how-to-file-a-good-bug-report/
+* https://testlio.com/blog/the-ideal-bug-report/
