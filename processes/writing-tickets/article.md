@@ -8,9 +8,9 @@ taxonomy:
 ---
 
 * Title
+* Important
+* Urgent
 * Definition of deliverables
 * Assignee
 * Estimate of effort required
-* Important
-* Urgent
 * Deadline
