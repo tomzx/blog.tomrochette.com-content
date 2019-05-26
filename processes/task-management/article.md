@@ -18,7 +18,7 @@ taxonomy:
 * Set a deadline if possible
 * Set status to Unprioritized
 
-![Task creation](images/Task creation.png)
+![Task creation]("images/Task creation.png")
 
 # During a workday
 * Go through the tasks in the Do section, then the Decide section, then Delegate
