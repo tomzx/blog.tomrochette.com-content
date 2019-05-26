@@ -7,7 +7,6 @@ taxonomy:
   status: draft
 ---
 
-
 * Read the table of contents
 * Rapidly skim through the various sections of the book
 * Determine what you want to get out of the book
