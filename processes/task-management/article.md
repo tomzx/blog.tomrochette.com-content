@@ -27,6 +27,6 @@ Tasks that are not important/urgent are delegated to someone else
 Tasks that are important/not urgent should be scheduled
 Tasks that are important/urgent should be done ASAP
 
-Unprioritized tasks should be queued, given their priority compared to already queued tasks
-You should attempt to keep the unprioritized tasks count to 0
-A task that is queued should have a deadline date
+Unprioritized tasks should be moved to Queued, given their priority compared to already queued tasks
+You should attempt to keep the Unprioritized tasks count to 0
+A task that is Queued should have a deadline date
