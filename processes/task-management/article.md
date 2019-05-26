@@ -38,4 +38,4 @@ Use Eisenhower matrix to determine task importance/urgency
 * A task that is Queued should have a deadline date
 * Work on tasks In progress first, then take tasks from Today, then from Queued
 
-![Task creation](images/Task-processing-loop.png)
+![Task processing loop](images/Task-processing-loop.png)
