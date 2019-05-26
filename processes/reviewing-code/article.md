@@ -1,5 +1,5 @@
 ---
-title: Reviowing code
+title: Reviewing code
 created: 2019-05-25
 taxonomy:
   type: post
