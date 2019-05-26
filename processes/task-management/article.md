@@ -7,7 +7,7 @@ taxonomy:
   status: draft
 ---
 
-## Step to create a task
+## Steps to create a task
 * Give it a title
 * Give it at least one label
 * Give it an assignee
