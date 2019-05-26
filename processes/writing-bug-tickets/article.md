@@ -11,6 +11,7 @@ taxonomy:
 * Can you reproduce the bug with the latest version of the software?
 * Describe what happens and what you expected would happen
 * List the steps to reproduce the bug
+* If the software is a library, what interpreter/compiler version is used to execute/compile it?
 
 # References
 * https://codingnest.com/how-to-file-a-good-bug-report/
