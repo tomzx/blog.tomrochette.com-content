@@ -11,7 +11,7 @@ taxonomy:
 * A few lines describing in more details why things changed
 * GPG signed commit
 
-## How to Write a Git Commit Message
+# How to Write a Git Commit Message
 * Separate subject from body with a blank line
 * Limit the subject line to 50 characters
 * Capitalize the subject line
