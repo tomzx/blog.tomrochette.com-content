@@ -17,6 +17,8 @@ taxonomy:
 # Steps
 * Mockups
 * SRS
+* Database and software architecture
+* Implementation
 
 # See also
 * [Software project basics](../software-project-basics)
