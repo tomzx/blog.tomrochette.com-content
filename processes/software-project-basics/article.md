@@ -20,3 +20,5 @@ taxonomy:
 		* Code coverage should be recorded during tests and a report made available
 * A project repository must have a README.md explaining how to run the project on your own computer
 * A project repository must have a RELEASING.md explaining how to release the code
+* Responsibilities are made explicit in terms of roles
+* Critical roles, such as project lead, must have a backup/shadow individual
