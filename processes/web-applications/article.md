@@ -19,6 +19,8 @@ taxonomy:
 * SRS
 * Database and software architecture
 * Implementation
+* Test/QA
+* Deployment
 
 # See also
 * [Software project basics](../software-project-basics)
