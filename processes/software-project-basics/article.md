@@ -19,4 +19,4 @@ taxonomy:
 	* Unit/functional/integration/system tests
 		* Code coverage should be recorded during tests and a report made available
 * A project repository must have a README.md explaining how to run the project on your own computer
-* A project repository must have a Relasing.md explaining how to release the code
+* A project repository must have a RELEASING.md explaining how to release the code
