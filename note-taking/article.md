@@ -28,7 +28,8 @@ taxonomy:
 
 ## Value
 * Taking notes is valuable for two reasons:
-	* It allows you to keep your train of thought in a format that you can consume at a later time. Without writing things down, I would spent an unmeasurable
+	* It allows you to keep your train of thought in a format that you can consume at a later time. Without writing things down, I would spent an unmeasurable amount of time going through the same thought process to reach the same conclusion again. With those notes, it's possible for me to skip that effort and go back directly to where I left off.
+	* Somewhat related to the previous point, it allows me to search my thoughts from the past. Sometimes I'll think about something, thinking I might have already thought something similar in the past and I'll do a search which will confirm this suspicion. The benefit is that I'll also be able to look back at what I was thinking back then, which might be different than what I think now. This allows me to iterate on my ideas, just like I would iterate on a version of some piece of code.
 
 # Notes
 
