@@ -17,7 +17,7 @@ taxonomy:
 # Overview
 
 # My current system
-* Use a buffer system, where I initially write down any thoughts I want to preserve. The buffer system is simple. Everyday, a file is created under buffer/$YEAR/$MONTH/$DAY
+* Use a buffer system, where I initially write down any thoughts I want to preserve. The buffer system is simple. Everyday, a file is created under buffer/\$YEAR/\$MONTH/\$DAY.md.
 
 # Notes
 
