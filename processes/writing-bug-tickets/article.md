@@ -3,7 +3,7 @@ title: Writing bug tickets
 created: 2019-05-26
 taxonomy:
   type: post
-  category: []
+  category: [Software development]
   status: draft
 ---
 
