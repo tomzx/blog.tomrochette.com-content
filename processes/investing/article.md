@@ -11,4 +11,7 @@ Note that most of the process is guided by a long term investment strategy. In o
 
 * Do not put all your eggs in one basket (stock), diversify
 * Use indexes to determine which stocks to buy
-* Pick stocks with good $R^2$ score and positive
+* Pick stocks with good $R^2$ score and positive slope
+	* The idea here is that we want to invest in stocks which have shown to be highly predictable in the past, while also displaying linear growth (as such, this is not a useful indicator for stocks which have explosive growth)
+* Invest some percentage of the portfolio in stocks which provide regular dividends, this is to replace holding "high yield" saving accounts
+	* Opt to invest in REIT, which will offer monthly dividends as well as attractive growth in their value while you hold them
