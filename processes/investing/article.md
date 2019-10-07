@@ -21,4 +21,4 @@ Note that most of the process is guided by a long term investment strategy. In o
 * If you want to keep things simple for yourself, buy ETFs.
 	* VFV.TO is an ETF that tracks the S&P 500 in CAD and has a low expense ratio.
 * Compare your portfolio's performance against indexes.
-	* If you perform more poorly than indexes over 6 months/1 year, sell the stocks you have and go with the index you compare against.
+	* If you perform more poorly than indexes over 6 months/1 year, sell the stocks you have and buy the index you compare against.
