@@ -16,4 +16,4 @@ Note that most of the process is guided by a long term investment strategy. In o
 * Invest some percentage of the portfolio in stocks which provide regular dividends, this is to replace holding "high yield" saving accounts
 	* Opt to invest in REIT, which will offer monthly dividends as well as attractive growth in their value while you hold them
 * If you want to keep things simple for yourself, buy ETFs
-	* VFV.TO is an ETF that tracks the S&P 500 in CAD
+	* VFV.TO is an ETF that tracks the S&P 500 in CAD and has a low expense ratio
