@@ -3,7 +3,7 @@ title: Workstack
 created: 2018-05-18
 taxonomy:
   type: post
-  category: [note taking]
+  category: [Note taking]
   status: finished
 ---
 
