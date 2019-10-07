@@ -8,7 +8,7 @@ taxonomy:
 ---
 
 ## Before
-* Write/prepare an agenda
+* Write/prepare an agenda listing the items to be discussed
 * Indicate the duration of each item
 
 ## During
