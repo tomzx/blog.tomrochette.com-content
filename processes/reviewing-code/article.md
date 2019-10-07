@@ -3,7 +3,7 @@ title: Reviewing code
 created: 2019-05-25
 taxonomy:
   type: post
-  category: []
+  category: [Software development]
   status: draft
 ---
 
