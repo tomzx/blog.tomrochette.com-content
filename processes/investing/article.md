@@ -6,3 +6,5 @@ taxonomy:
   category: []
   status: draft
 ---
+
+* Do not put all your eggs in one basket (stock), diversify
