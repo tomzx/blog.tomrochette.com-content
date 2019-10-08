@@ -21,3 +21,6 @@ taxonomy:
 
 ## After the meeting
 * Create tasks in a task tracking system for the next actions
+
+## Recurrent meetings
+* In the case where a recurrent meeting needs to be scheduled at a different time than usual, specify in the body of the message the reason of the change.
