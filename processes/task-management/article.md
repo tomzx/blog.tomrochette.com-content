@@ -35,7 +35,7 @@ Use Eisenhower matrix to determine task importance/urgency
 * Tasks that are important/urgent should be done ASAP
 
 # Effort/Value/ROI
-Using the estimated effort and estimated value of a task, you can compute the return on investment (ROI) of the task as estimated value divided by estimated effort. For example, a task you estimate is worth 100$ and takes 2 hours to complete will have a ROI of 50 $/h.
+Using the estimated effort and estimated value of a task, you can compute the return on investment (ROI) of the task as estimated value divided by estimated effort. For example, a task you estimate is worth 100\$ and takes 2 hours to complete will have a ROI of 50 \$/h.
 
 Use the ROI of your tasks to prioritize them. You will want to complete the tasks which are likely to have the best return on investment.
 
