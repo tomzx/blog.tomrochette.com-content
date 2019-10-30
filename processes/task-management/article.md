@@ -14,7 +14,7 @@ taxonomy:
 * Decide if it's important or not
 * Decide if it's urgent or not
 * Estimate the effort required to accomplish the task (in hours)
-* Estimate the value the task brings (in \$)
+* Estimate the value the task brings (in $)
 * Give a rough estimate of effort
 * Give a description if necessary
 * Set a deadline if possible
@@ -35,7 +35,7 @@ Use Eisenhower matrix to determine task importance/urgency
 * Tasks that are important/urgent should be done ASAP
 
 # Effort/Value/ROI
-Using the estimated effort and estimated value of a task, you can compute the return on investment (ROI) of the task as estimated value divided by estimated effort. For example, a task you estimate is worth 100\$ and takes 2 hours to complete will have a ROI of 50 \$/h.
+Using the estimated effort and estimated value of a task, you can compute the return on investment (ROI) of the task as estimated value divided by estimated effort. For example, a task you estimate is worth 100$ and takes 2 hours to complete will have a ROI of 50$/h.
 
 Use the ROI of your tasks to prioritize them. You will want to complete the tasks which are likely to have the best return on investment.
 
