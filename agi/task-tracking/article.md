@@ -84,6 +84,7 @@ Prioritization methods
 * Average with some statistical measure (standard deviation)
 * Prioritization threshold (only the top x priorities defined, each item compared to the bottom of the stack)
 * Delay by a given duration, stored in the task, then progressively more whenever the task doesn't get executed
+* Return on investment (estimated value/estimated effort)
 
 Task properties
 * Name
@@ -94,6 +95,7 @@ Task properties
 * Deadline (soft/hard)
 * Dependencies (tasks/people/context/resources)
 * Estimated effort
+* Estimated value
 * State (active/completed/cancelled)
 * Start/End time of execution period
 * Evaluation of the execution period (score/would redo/not do)
