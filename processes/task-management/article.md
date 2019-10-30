@@ -39,7 +39,7 @@ Using the estimated effort and estimated value of a task, you can compute the re
 
 Use the ROI of your tasks to prioritize them. You will want to complete the tasks which are likely to have the best return on investment.
 
-The ROI metric will also give you clues about the task you should probably not spend your time on. If you are paid 50 $$$/h and a task has a ROI less than 50 $$$/h, then it should probably be moved to the backlog and only reconsidered if its ROI changes.
+The ROI metric will also give you clues about the task you should probably not spend your time on. If you are paid 50 $$\$/h and a task has a ROI less than 50 $$\$/h, then it should probably be moved to the backlog and only reconsidered if its ROI changes.
 
 # Task processing
 * Unprioritized tasks should be moved to Queued, given their priority compared to already queued tasks
