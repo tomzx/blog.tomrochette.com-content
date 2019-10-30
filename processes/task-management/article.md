@@ -48,3 +48,6 @@ The ROI metric will also give you clues about the task you should probably not s
 * Work on tasks In progress first, then take tasks from Today, then from Queued
 
 ![Task processing loop](images/Task-processing-loop.png)
+
+# Task management progression
+If you've never done task management before, I suggest you do not start by applying all the above at once. First, start by simply recording the tasks you need to get done (title only). Once you've recorded most of the tasks you have to deal with, start giving them an important/urgent assignation. It will help you rapidly determine which tasks should be done and which ones are nice to have, but not critical, or even not really useful if you think about it.
