@@ -114,6 +114,12 @@ Main loop
 * Evaluate the progress of the task
 * Evaluate the quality of the work that was done during the quantum
 
+Example use case
+* The user defines a list of applications that provides him tasks, such as Jira, Redmine, Asana, Google Calendar, etc.
+* The user defines the periods of his day where the scheduler should fetch tasks from those applications
+	* e.g., from 8 to 12 on Monday to Friday, fetch the tasks assigned to me in Jira
+* Given that tasks may have deadlines,
+
 # See also
 
 # References
