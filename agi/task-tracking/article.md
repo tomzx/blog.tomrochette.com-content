@@ -118,7 +118,8 @@ Example use case
 * The user defines a list of applications that provides him tasks, such as Jira, Redmine, Asana, Google Calendar, etc.
 * The user defines the periods of his day where the scheduler should fetch tasks from those applications
 	* e.g., from 8 to 12 on Monday to Friday, fetch the tasks assigned to me in Jira
-* Given that tasks may have deadlines,
+* Given that tasks may have deadlines, value estimates, priorities, etc., the scheduler attempts to maximize the desired metric defined by the user
+* Certain tasks may interrupt the user mid-session, e.g., while working on a 8 hours task, it will prompt the user to determine whether the task is likely to be completed in the next 4 hours, and if not, what would be their new estimate
 
 # See also
 
