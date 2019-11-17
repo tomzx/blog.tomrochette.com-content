@@ -9,6 +9,11 @@ taxonomy:
 
 * Keep all RFCs under a single location
 * Uniquely identify RFCs
+* Use a shared template
+	* Editor: Name <email>
+	* Status:
+	* Created on: <date>
+	* Updated on: <date>
 
 # References
 * https://en.wikipedia.org/wiki/Request_for_Comments
