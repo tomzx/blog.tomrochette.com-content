@@ -19,6 +19,7 @@ taxonomy:
 	* Background
 	* Problem
 	* Solution
+* If a RFC is abandoned, the reasons why should be made explicit in the document
 
 # References
 * https://en.wikipedia.org/wiki/Request_for_Comments
