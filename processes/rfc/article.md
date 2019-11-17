@@ -25,3 +25,4 @@ taxonomy:
 * https://github.com/rust-lang/rfcs/blob/master/0000-template.md
 * https://wiki.en.it-processmaps.com/index.php/Checklist_Request_for_Change_RFC
 * Sourcegraph RFC template: https://docs.google.com/document/d/1TRVmwpLzTgYWhBqPwkSWpzPYvXI3Z2miJSmBN2G7ygc/edit
+* https://blog.pragmaticengineer.com/scaling-engineering-teams-via-writing-things-down-rfcs/
