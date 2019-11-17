@@ -9,3 +9,6 @@ taxonomy:
 
 * Keep all RFCs under a single location
 * Uniquely identify RFCs
+
+# References
+* https://en.wikipedia.org/wiki/Request_for_Comments
