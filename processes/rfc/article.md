@@ -11,7 +11,7 @@ taxonomy:
 * Uniquely identify RFCs
 * Use a shared template
 	* Editor: Name <email>
-	* Status:
+	* Status: Draft/Review/Approved/Abandoned/Implemented
 	* Required approvers: Name <email> (why), Name <email> (why), ...
 	* Approvers: Name <email> (date), Name <email> (date), ...
 	* Created on: <date>
