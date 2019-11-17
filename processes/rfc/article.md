@@ -12,6 +12,7 @@ taxonomy:
 * Use a shared template
 	* Editor: Name <email>
 	* Status:
+	* Required approvers: Name <email>, Name <email>, ...
 	* Created on: <date>
 	* Updated on: <date>
 
