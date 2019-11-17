@@ -19,6 +19,7 @@ taxonomy:
 	* Background
 	* Problem
 	* Solution
+	* References: Documents/URLs that can be useful to consult
 * If a RFC is abandoned, the reasons why should be made explicit in the document
 
 # References
