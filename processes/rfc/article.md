@@ -13,6 +13,7 @@ taxonomy:
 	* Editor: Name <email>
 	* Status:
 	* Required approvers: Name <email>, Name <email>, ...
+	* Approvers: Name <email>, Name <email>, ...
 	* Created on: <date>
 	* Updated on: <date>
 
