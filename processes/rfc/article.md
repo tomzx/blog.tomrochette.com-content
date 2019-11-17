@@ -6,3 +6,6 @@ taxonomy:
   category: [Teamwork]
   status: draft
 ---
+
+* Keep all RFCs under a single location
+* Uniquely identify RFCs
