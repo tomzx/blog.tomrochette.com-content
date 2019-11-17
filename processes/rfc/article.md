@@ -13,9 +13,12 @@ taxonomy:
 	* Editor: Name <email>
 	* Status:
 	* Required approvers: Name <email> (why), Name <email> (why), ...
-	* Approvers: Name <email>, Name <email>, ...
+	* Approvers: Name <email> (date), Name <email> (date), ...
 	* Created on: <date>
 	* Updated on: <date>
+	* Background
+	* Problem
+	* Solution
 
 # References
 * https://en.wikipedia.org/wiki/Request_for_Comments
