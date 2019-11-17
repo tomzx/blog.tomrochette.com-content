@@ -24,3 +24,4 @@ taxonomy:
 * https://en.wikipedia.org/wiki/Request_for_Comments
 * https://github.com/rust-lang/rfcs/blob/master/0000-template.md
 * https://wiki.en.it-processmaps.com/index.php/Checklist_Request_for_Change_RFC
+* https://docs.google.com/document/d/1TRVmwpLzTgYWhBqPwkSWpzPYvXI3Z2miJSmBN2G7ygc/edit
