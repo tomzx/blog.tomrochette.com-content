@@ -10,12 +10,12 @@ taxonomy:
 * Keep all RFCs under a single location
 * Uniquely identify RFCs
 * Use a shared template
-	* Editor: Name <email>
+	* Editor: Name &lt;email&gt;
 	* Status: Draft/Review/Approved/Abandoned/Implemented
-	* Required approvers: Name <email> (why), Name <email> (why), ...
-	* Approvers: Name <email> (date), Name <email> (date), ...
-	* Created on: <date>
-	* Updated on: <date>
+	* Required approvers: Name &lt;email&gt; (why), Name &lt;email&gt; (why), ...
+	* Approvers: Name &lt;email&gt; (date), Name &lt;email&gt; (date), ...
+	* Created on: &lt;date&gt;
+	* Updated on: &lt;date&gt;
 	* Background
 	* Problem
 	* Solution
