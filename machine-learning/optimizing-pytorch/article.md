@@ -40,3 +40,4 @@ python -m cProfile -o my_profile.prof train.py
 * https://github.com/Kaixhin/grokking-pytorch
 * https://pytorch.org/docs/stable/notes/multiprocessing.html
 * https://www.dangdatascience.com/articles/writing-fast-pytorch/
+* https://towardsdatascience.com/9-tips-for-training-lightning-fast-neural-networks-in-pytorch-8e63a502f565
