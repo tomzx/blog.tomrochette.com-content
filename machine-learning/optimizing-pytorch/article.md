@@ -11,6 +11,8 @@ taxonomy:
 ## Learned in this study
 
 ## Things to explore
+* Multi-GPU usage
+* Training multiple models on a single GPU in multiple processes
 
 # Overview
 * Use cases
