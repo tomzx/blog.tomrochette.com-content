@@ -19,6 +19,7 @@ taxonomy:
 ```
 python -m cProfile -o my_profile.prof train.py
 ```
+* Free up the memory you used with `del` (e.g., `del my_tensors`)
 
 # See also
 
