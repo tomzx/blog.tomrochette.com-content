@@ -6,5 +6,17 @@ taxonomy:
   status: in progress
 ---
 
+## Context
+
+## Learned in this study
+
+## Things to explore
+
+# Overview
+
+# Notes
+
+# See also
+
 # References
 * https://sagivtech.com/2017/09/19/optimizing-pytorch-training-code/
