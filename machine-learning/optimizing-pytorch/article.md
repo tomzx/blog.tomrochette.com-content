@@ -13,6 +13,14 @@ taxonomy:
 ## Things to explore
 
 # Overview
+* Use cases
+	* Code is not using 100% of the CPU/RAM
+		* Increase batch size
+		* Parallelize data loading with GPU computation
+	* Data does not fit in GPU RAM
+		* Reduce batch size
+	* GPU usage is 100% yet there is no progress
+		* This might be due to using multithreading and having GPU trashing occurring
 
 # Notes
 * Run your script with python's profiler to determine which part of your script is CPU expensive
