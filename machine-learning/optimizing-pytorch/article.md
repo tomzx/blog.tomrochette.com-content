@@ -15,6 +15,10 @@ taxonomy:
 # Overview
 
 # Notes
+* Run your script with python's profiler to determine which part of your script is CPU expensive
+```
+python -m cProfile -o my_profile.prof train.py
+```
 
 # See also
 
