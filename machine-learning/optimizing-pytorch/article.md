@@ -25,6 +25,11 @@ taxonomy:
 		* This might be due to using multithreading and having CPU/GPU trashing occurring
 			* In my experiment I've seen 100% GPU usage, not completely sure about CPU usage
 
+# Checklist
+* Data loader
+* Data transfer between CPU and GPU
+* Batch size
+
 # Notes
 * Run your script with python's profiler to determine which part of your script is CPU expensive
 ```
