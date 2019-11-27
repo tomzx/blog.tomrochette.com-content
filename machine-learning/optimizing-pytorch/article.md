@@ -41,6 +41,10 @@ taxonomy:
 ```
 python -m cProfile -o my_profile.prof train.py
 ```
+* Run your script with `nvprof` to determine what is being done on the GPU
+```
+nvprof -o my_profile.nvvp python train.py
+```
 * Free up the memory you used with `del` (e.g., `del my_tensors`)
 * If running PyTorch in multiple processes, make sure to configure `OMP_NUM_THREADS` to a low number as PyTorch uses multithreaded BLAS to do linear algebra on CPU. If this is not specified, the processes will likely attempt to use all cores, which will cause issues since each process will be effectively trying to use all the cores as well
 
