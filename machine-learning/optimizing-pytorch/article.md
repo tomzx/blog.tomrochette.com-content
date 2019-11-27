@@ -33,3 +33,4 @@ python -m cProfile -o my_profile.prof train.py
 
 # References
 * https://sagivtech.com/2017/09/19/optimizing-pytorch-training-code/
+* https://github.com/Kaixhin/grokking-pytorch
