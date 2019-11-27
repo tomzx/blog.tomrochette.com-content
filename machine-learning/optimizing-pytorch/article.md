@@ -33,6 +33,7 @@ taxonomy:
 	* Minimal
 * Batch size
 	* Take as much GPU RAM as possible
+* GPU usage is near 100% (GPU should be your bottleneck)
 * Verify that GPU memory is freed
 
 # Notes
