@@ -27,8 +27,13 @@ taxonomy:
 
 # Checklist
 * Data loader
+	* Efficient
+	* In a separate thread/non-blocking
 * Data transfer between CPU and GPU
+	* Minimal
 * Batch size
+	* Take as much GPU RAM as possible
+* Verify that GPU memory is freed
 
 # Notes
 * Run your script with python's profiler to determine which part of your script is CPU expensive
