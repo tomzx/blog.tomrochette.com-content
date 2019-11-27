@@ -56,3 +56,4 @@ nvprof -o my_profile.nvvp python train.py
 * https://pytorch.org/docs/stable/notes/multiprocessing.html
 * https://www.dangdatascience.com/articles/writing-fast-pytorch/
 * https://towardsdatascience.com/9-tips-for-training-lightning-fast-neural-networks-in-pytorch-8e63a502f565
+* https://gist.github.com/sonots/5abc0bccec2010ac69ff74788b265086
