@@ -18,6 +18,8 @@ Tom
 * [Daily log](daily-log) A list of journal entries that I write while learning about machine learning. They help me summarize my learning as well as identify where my understanding might be lacking.
 * [Frameworks](frameworks)
 * [Handwriting recognition](handwriting-recognition)
+* [Optimizing PyTorch](optimizing-pytorch)
 * [Papers](papers)
 * [Tensorflow](tensorflow)
 * [Terminology](terminology)
+* [Writing papers](writing-papers)
