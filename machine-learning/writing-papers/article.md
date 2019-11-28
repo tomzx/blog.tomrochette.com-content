@@ -14,8 +14,8 @@ Machine learning is a very young field of science, yet it is one in which we hav
 ## Things to explore
 
 # Overview
-* Always list the datasets that were used to train/validation/test
-* Always link to where you retrieved those datasets, and when (similar to how wikipedia does bibliographies)
+* Always list the datasets that were used as train/validation/test split
+* Always link to where you retrieved those datasets and indicate when you acquired it (similar to how wikipedia does bibliographies)
 * Always indicate how you do your train/validation/test split
 	* In the best scenario, provide code that replicates how you've split your data
 * In the best case, provide all the code you wrote to prepare your paper
