@@ -106,12 +106,16 @@ The following lists papers I've read and reviewed or made notes for.
 ## Shane Legg
 * [Machine Super Intelligence (2008)](shane-legg-machine-super-intelligence)
 
-## Vladimir Red'ko
-* [The Natural Way to Artificial Intelligence (2007)](vladimir-redko-the-natural-way-to-artificial-intelligence)
-
 # Prioritization
 ## Joachim Karlsson
 * [An evaluation of methods for prioritizing software requirements (1997)](an-evaluation-of-methods-for-prioritizing-software-requirements)
 
 ## Viggo Ahl
 * [An experimental comparison of five prioritization methods (2005)](viggo-ahl-an-experimental-comparison-of-five-prioritization-methods)
+
+
+## Jurgen Schmidhuber
+* [One Big Net For Everything (2018)](jurgen-schmidhuber-one-big-net-for-everything)
+
+## Jurgen Schmidhuber
+* [PowerPlay: training an increasingly general problem solver by continually searching for the simplest still unsolvable problem (2013)](jurgen-schmidhuber-powerplay-training-an-increasingly-general-problem-solver-by-continually-searching-for-the-simplest-still-unsolvable-problem)
