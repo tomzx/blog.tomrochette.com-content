@@ -22,7 +22,7 @@ taxonomy:
 * $v_\theta$: Value network, predicts the winner of games played by the RL policy network against itself
 
 # 1 Supervised Learning of Policy Networks
-* SL policy network $p_\sigma(a|s)$ alternates between convolutional layers and rectifier non-linearities (similar to what was done in [Playing Atari with Deep Reinforcement Learning](../playing-atari-with-deep-reinforcement-learning))
+* SL policy network $p_\sigma(a|s)$ alternates between convolutional layers and rectifier non-linearities (similar to what was done in [Playing Atari with Deep Reinforcement Learning](../volodymyr-mnih-playing-atari-with-deep-reinforcement-learning))
 * A final softmax layer outputs a probability distribution over all legal moves $a$
 * The policy network is trained to maximize the likelihood of choosing the human move $a$ when in state $s$
 * The SL policy network is 13 layers
