@@ -15,6 +15,7 @@ Tom
 # Articles
 * [Basics](basics)
 * [Concept map](https://github.com/tomzx/machine-learning-concept-map)
+* [Components of a machine learning project](components-of-a-ml-project)
 * [Daily log](daily-log) A list of journal entries that I write while learning about machine learning. They help me summarize my learning as well as identify where my understanding might be lacking.
 * [Frameworks](frameworks)
 * [Handwriting recognition](handwriting-recognition)
@@ -22,4 +23,5 @@ Tom
 * [Papers](papers)
 * [Tensorflow](tensorflow)
 * [Terminology](terminology)
+* [Time series](time-series)
 * [Writing papers](writing-papers)
