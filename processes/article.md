@@ -6,6 +6,8 @@ taxonomy:
   status: in progress
 ---
 
+
+
 # Articles
 * [Book reading](book-reading)
 * [Investing](investing)
