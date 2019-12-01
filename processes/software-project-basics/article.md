@@ -3,7 +3,7 @@ title: Software project basics
 created: 2019-05-25
 taxonomy:
   type: post
-  category: [Software development]
+  category: [Software development, Processes]
   status: draft
 ---
 
