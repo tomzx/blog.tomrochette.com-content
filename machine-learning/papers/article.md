@@ -51,6 +51,12 @@ The following lists papers I've read and reviewed or made notes for.
 ## Eric Laukien
 * [Feynman Machine: The Universal Dynamical Systems Computer (2016)](eric-laukien-feynman-machine-the-universal-dynamical-systems-computer)
 
+## Geoffrey Hinton
+* [Distilling the Knowledge in a Neural Network (2015)](geoffrey-hinton-distilling-the-knowledge-in-a-neural-network)
+
+## Greg Linden
+* [Amazon.com Recommendations - Item-to-Item Collaborative Filtering (2003)](greg-linden-amazon-com-recommendations-item-to-item-collaborative-filtering)
+
 ## Ian Goodfellow
 * [Generative Adversarial Nets (2014)](ian-goodfellow-generative-adversarial-nets)
 
@@ -69,12 +75,6 @@ The following lists papers I've read and reviewed or made notes for.
 ## Ken Kansky
 * [Schema Networks: Zero-shot Transfer with a Generative Causal Model of Intuitive Physics (2017)](ken-kansky-schema-networks-zero-shot-transfer-with-a-generative-causal-model-of-intuitive-physics)
 
-## Geoffrey Hinton
-* [Distilling the Knowledge in a Neural Network (2015)](geoffrey-hinton-distilling-the-knowledge-in-a-neural-network)
-
-## Greg Linden
-* [Amazon.com Recommendations - Item-to-Item Collaborative Filtering (2003)](greg-linden-amazon-com-recommendations-item-to-item-collaborative-filtering)
-
 ## Leo Breiman
 * [Bagging Predictors (1996)](leo-breiman-bagging-predictors)
 
@@ -83,9 +83,6 @@ The following lists papers I've read and reviewed or made notes for.
 
 ## Łukasz Kaiser
 * [One Model To Learn Them All (2017)](lukasz-kaiser-one-model-to-learn-them-all)
-
-## Jakob Foerster
-* [Learning with Opponent-Learning Awareness (2017)](jakob-foerster-learning-with-opponent-learning-awareness)
 
 ## Manuel Lopes
 * [The Strategic Student Approach for Life-Long Exploration and Learning (2012)](manuel-lopes-the-strategic-student-approach-for-life-long-exploration-and-learning)
