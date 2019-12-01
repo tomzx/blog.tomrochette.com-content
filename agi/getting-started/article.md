@@ -37,7 +37,7 @@ taxonomy:
 ## Pre-requisites
 
 ## Essentials
-* [Artificial Intelligence: A Modern Approach](../books/artificial-intelligence-a-modern-approach)
+* [Artificial Intelligence: A Modern Approach](https://www.amazon.com/Artificial-Intelligence-Modern-Approach-Edition/dp/0136042597)
 * [OpenCog Glossary](http://wiki.opencog.org/w/Glossary)
 
 ## Advanced
@@ -53,3 +53,6 @@ taxonomy:
 * https://sites.google.com/site/narswang/home/agi-introduction/agi-education
 * http://wp.goertzel.org/agi-curriculum/
 * http://www.hutter1.net/ai/introref.htm
+
+# References
+* http://p.migdal.pl/2017/04/30/teaching-deep-learning.html
