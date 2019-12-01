@@ -1,0 +1,13 @@
+name: Verify content
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v1
+
+    - name: Test links
+      run: php test-links.php
