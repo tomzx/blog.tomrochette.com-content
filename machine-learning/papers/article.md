@@ -69,9 +69,6 @@ The following lists papers I've read and reviewed or made notes for.
 ## Ken Kansky
 * [Schema Networks: Zero-shot Transfer with a Generative Causal Model of Intuitive Physics (2017)](ken-kansky-schema-networks-zero-shot-transfer-with-a-generative-causal-model-of-intuitive-physics)
 
-## Kieran Milan
-* [The Forget-me-not Process (2016)](kieran-milan-the-forget-me-not-process)
-
 ## Geoffrey Hinton
 * [Distilling the Knowledge in a Neural Network (2015)](geoffrey-hinton-distilling-the-knowledge-in-a-neural-network)
 
