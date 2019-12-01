@@ -45,9 +45,6 @@ The following lists papers I've read and reviewed or made notes for.
 * [Mastering the game of Go without human knowledge (2017)](david-silver-mastering-the-game-of-go-without-human-knowledge)
 * [The Predictron: End-To-End Learning and Planning (2017)](david-silver-the-predictron-end-to-end-learning-and-planning)
 
-## Demis Hassabis
-* [Neuroscience-Inspired Artificial Intelligence (2017)](demis-hassabis-neuroscience-inspired-artificial-intelligence)
-
 ## Dzmitry Bahdanau
 * [Neural Machine Translation by Jointly Learning to Align and Translate (2015)](dzmitry-bahdanau-neural-machine-translation-by-jointly-learning-to-align-and-translate)
 
