@@ -23,7 +23,7 @@ taxonomy:
 * Detect datetime-like columns
 * Detect covariates and non-covariates columns
 * Convert categorical columns into either one hot encoding or embeddings
-* Generate features
+* Generate features (lag, moving average, exponential moving average)
 	* On covariates
 	* On non-covariates
 * Backtest multiple models
