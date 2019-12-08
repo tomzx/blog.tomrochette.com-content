@@ -30,5 +30,8 @@ taxonomy:
 * https://about.sourcegraph.com/handbook/engineering/rfcs
 * https://blog.pragmaticengineer.com/scaling-engineering-teams-via-writing-things-down-rfcs/
 * https://github.com/golang/proposal/blob/master/design/TEMPLATE.md
+
+## Repositories with RFCs
+* https://github.com/rust-lang/rfcs
 * https://github.com/reactjs/rfcs
 * https://github.com/yarnpkg/rfcs
