@@ -31,3 +31,4 @@ taxonomy:
 * https://blog.pragmaticengineer.com/scaling-engineering-teams-via-writing-things-down-rfcs/
 * https://github.com/golang/proposal/blob/master/design/TEMPLATE.md
 * https://github.com/reactjs/rfcs
+* https://github.com/yarnpkg/rfcs
