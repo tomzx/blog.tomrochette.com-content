@@ -73,6 +73,10 @@ Tom
 * [PHP-Brain](prototypes/php-brain)
 * [Sharp-Brain](prototypes/sharp-brain)
 
+### Reverse engineering
+* [Black box](black-box)
+* [Eurisko](eurisko)
+
 ## Biology inspired exploration
 * [Abiogenesis](abiogenesis)
 * [Deconstruction of a mind](deconstruction-of-a-mind)
