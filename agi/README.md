@@ -74,8 +74,8 @@ Tom
 * [Sharp-Brain](prototypes/sharp-brain)
 
 ### Reverse engineering
-* [Black box](black-box)
-* [Eurisko](eurisko)
+* [Black box](reverse-engineering/black-box)
+* [Eurisko](reverse-engineering/eurisko)
 
 ## Biology inspired exploration
 * [Abiogenesis](abiogenesis)
