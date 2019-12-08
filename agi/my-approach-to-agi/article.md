@@ -11,6 +11,6 @@ This article lists the different ideas and approaches I've explored and am consi
 # [Current version - v0.2.0](v0.2.0)
 
 # Version history
-* [v0.3.0](v0.3.0)
+* [v0.3.0](v0.3.0) 2017-08 - now
 * [v0.2.0](v0.2.0) 2016-03 - now
 * [v0.1.0](v0.1.0) 2015-08 - 2016-03
