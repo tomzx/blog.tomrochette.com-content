@@ -133,6 +133,7 @@ Tom
 * [Practical AGI](practical-agi)
 
 ## Personal experience
+* [My AGI story](my-agi-story)
 * [My path to AGI](my-path-to-agi)
 * [My suggested path to AGI](my-suggested-path-to-agi)
 * [Structuring an AGI research](structuring-an-agi-research)
