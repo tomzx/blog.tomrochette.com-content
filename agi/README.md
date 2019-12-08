@@ -52,6 +52,7 @@ Tom
 * [Knowledge transfer](knowledge-transfer)
 * [Learning](learning)
 * [Learning a language](learning-a-language)
+* [Life recording](life-recording)
 * [Mario](mario)
 * [Mathematics based AGI](mathematics-based-agi)
 * [Memory](memory)
