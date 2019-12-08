@@ -54,6 +54,7 @@ Tom
 * [Learning a language](learning-a-language)
 * [Mario](mario)
 * [Mathematics based AGI](mathematics-based-agi)
+* [Mental planning](mental-planning)
 * [Natural language](natural-language)
 * [Natural language processing](natural-language-processing)
 * [Problem resolution approaches](problem-resolution-approaches)
