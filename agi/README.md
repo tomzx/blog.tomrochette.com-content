@@ -65,6 +65,7 @@ Tom
 * [Senses](senses)
 * [Task tracking](task-tracking)
 * [The dangers of a super AGI](the-dangers-of-a-super-agi)
+* [The Philosophy of AGI](the-philosophy-of-agi)
 * [Understanding games](understanding-games)
 * [What do I know about AI](what-do-i-know-about-ai)
 
