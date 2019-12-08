@@ -57,6 +57,8 @@ Tom
 * [Natural language](natural-language)
 * [Natural language processing](natural-language-processing)
 * [Problem resolution approaches](problem-resolution-approaches)
+* [Problem solving algorithm](problem-solving-algorithm)
+* [Problem solving questions](problem-solving-questions)
 * [Process assistant](process-assistant)
 * [Reality model](reality-model)
 * [Recording information](recording-information)
