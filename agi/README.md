@@ -85,6 +85,7 @@ Tom
 ## Biology inspired exploration
 * [Abiogenesis](abiogenesis)
 * [Deconstruction of a mind](deconstruction-of-a-mind)
+* [Genetics based AGI](genetics-based-agi)
 * [Human development](human-development)
 * [Humans as machines](humans-as-machines)
 * [The brain](the-brain)
