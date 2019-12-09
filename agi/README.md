@@ -104,6 +104,7 @@ Tom
 * [Automated research](automated-research)
 * [Automated risk management](automated-risk-management)
 * [Automated test generator](automated-test-generator)
+* [Automated time series project](automated-time-series-project)
 * [Automatic template extraction](automatic-template-extraction)
 * [Constructing functions](constructing-functions)
 * [Databases](databases)
