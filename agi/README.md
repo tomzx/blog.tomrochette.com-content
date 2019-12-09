@@ -72,7 +72,7 @@ Tom
 * [Senses](senses)
 * [Task tracking](task-tracking)
 * [The dangers of a super AGI](the-dangers-of-a-super-agi)
-* [The Philosophy of AGI](the-philosophy-of-agi)
+* [The philosophy of AGI](the-philosophy-of-agi)
 * [Understanding games](understanding-games)
 * [What do I know about AI](what-do-i-know-about-ai)
 
@@ -94,6 +94,7 @@ Tom
 
 ## Computer/Software/Computer Science inspired exploration
 * [A procedure for writing programs](a-procedure-for-writing-programs)
+* [AGI black box](agi-black-box)
 * [AGI through Turing machines](agi-through-turing-machines)
 * [Automated defect correction](automated-defect-correction)
 * [Automated machine learning](automated-machine-learning)
