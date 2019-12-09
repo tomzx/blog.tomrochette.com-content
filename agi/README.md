@@ -40,6 +40,7 @@ Tom
 * [Build an AGI using Polya's method](build-an-agi-using-polya-method)
 * [Competitions](competitions)
 * [Decision trees](https://github.com/tomzx/decision-trees)
+* [Dialog theory](dialog-theory)
 * [Entropy](entropy)
 * [Graph architectures](graph-architectures)
 * [Imitation based agents](imitation-based-agents)
