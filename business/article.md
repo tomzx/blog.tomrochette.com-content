@@ -30,3 +30,7 @@ taxonomy:
 	* Number of customers
 	* Number of days/months/years
 	* Disk space usage, bandwidth usage, computer usage
+
+# Unsorted
+* Track users requests
+* Track users feedback

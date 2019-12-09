@@ -4,7 +4,7 @@ created: 2017-12-15
 taxonomy:
     type: post
     category: [Machine Learning, Artificial Intelligence, Artificial General Intelligence]
-    tag: []
+    tag: [ai, agi, ml]
     status: finished
 ---
 

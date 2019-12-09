@@ -4,7 +4,7 @@ created: 2017-02-08
 taxonomy:
   #type: post
   category: [Programming]
-  tag: [aws, groups, users, roles, policies]
+  tag: [aws, groups, users, roles, policies, identity, access management]
   status: in progress
 ---
 

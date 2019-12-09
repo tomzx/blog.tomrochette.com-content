@@ -45,7 +45,7 @@ taxonomy:
 * Even with obfuscation, PSR0/4 based code is too easy to distinguish (no reason to obfuscate libraries)
 
 ## Ideas
-* Find some way to transform the original source such that it is in symbiose with a client identifier (and thus cannot be removed)
+* Find some way to transform the original source such that it is in symbiosis with a client identifier (and thus cannot be removed)
 	* See [one-way function](https://en.wikipedia.org/wiki/One-way_function)
 
 # Packaging

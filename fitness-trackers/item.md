@@ -4,7 +4,7 @@ created: 2015-11-07
 taxonomy:
     type: post
     category: General
-    tag: [health]
+    tag: [health, fitness]
     status: draft
 ---
 

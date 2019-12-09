@@ -4,7 +4,7 @@ created: 2017-12-08
 taxonomy:
     type: post
     category: General
-    tag: []
+    tag: [thought]
     status: finished
 ---
 

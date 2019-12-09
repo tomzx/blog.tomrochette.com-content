@@ -13,6 +13,7 @@ taxonomy:
 ## Things to explore
 
 # Overview
+* Learning in the third-person is posed as the adversarial challenge of replicating an expert trace (sequence of actions/states) which are considered as optimal under some unknown reward policy
 
 # Notes
 ## 1 Introduction

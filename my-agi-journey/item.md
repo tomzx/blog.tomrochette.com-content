@@ -3,7 +3,7 @@ title: My AGI journey
 created: 2015-11-13
 taxonomy:
     type: post
-    tag: [ai]
+    tag: [ai, agi]
     status: draft
 ---
 
