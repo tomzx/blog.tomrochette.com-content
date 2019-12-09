@@ -96,6 +96,7 @@ Tom
 * [A procedure for writing programs](a-procedure-for-writing-programs)
 * [AGI through Turing machines](agi-through-turing-machines)
 * [Automated defect correction](automated-defect-correction)
+* [Automated machine learning](automated-machine-learning)
 * [Automated language learning](automated-language-learning)
 * [Automated programming](automated-programming)
 * [Automated project management](automated-project-management)
