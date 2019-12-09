@@ -105,6 +105,7 @@ Tom
 * [Automatic template extraction](automatic-template-extraction)
 * [Constructing functions](constructing-functions)
 * [Databases](databases)
+* [EURISKO]
 * [Formal AGI](formal-agi)
 * [Perfect storage medium](perfect-storage-medium)
 * [Playing with data](playing-with-data)
