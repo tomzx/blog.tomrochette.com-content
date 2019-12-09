@@ -43,7 +43,7 @@ Tom
 * [Entropy](entropy)
 * [Graph architectures](graph-architectures)
 * [Imitation based agents](imitation-based-agents)
-* Intelligence
+* [Intelligence](intelligence)
 	* [Definitions](intelligence/definitions)
 	* [Tests](intelligence/tests)
 * [Internal monologue](internal-monologue)
