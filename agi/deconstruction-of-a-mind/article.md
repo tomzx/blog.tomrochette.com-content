@@ -12,7 +12,7 @@ taxonomy:
 
 ## Things to explore
 * The black box concept is only explored as a mean of storage, but not processing. What happen when it is used for that purpose?
-* What is the "refresh rate" of human beings?
+* What is the "refresh rate" of human beings? Is it a range, or is it the same for everyone? Is it specific to each system (different per sense modality)?
 
 # Overview
 All senses are comparable to data streams.

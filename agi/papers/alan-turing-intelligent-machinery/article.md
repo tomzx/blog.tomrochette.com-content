@@ -35,7 +35,7 @@ A *controlling* machine is one that deals only with information. It computes/dec
 
 An *active* machine produces a definite physical effect.
 
-(To be continued)
+<tbc></tbc>
 
 # Notes
 The following is a series of notes I've taken while I was reading Turing's paper. They are what I identified as the main points he was making throughout the paper.

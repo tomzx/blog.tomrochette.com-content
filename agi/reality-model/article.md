@@ -10,7 +10,7 @@ taxonomy:
 
 ## Things to explore
 
-* How to determine if my actions truly have consequences (think of an AI controlling an actuator, is it really in control of it?)
+* How to determine if my actions truly have consequences (think of an AI controlling an actuator, is it really in control of it?) (correlation vs causation)
 
 # Overview
 

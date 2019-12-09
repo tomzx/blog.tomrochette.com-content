@@ -13,7 +13,6 @@ taxonomy:
 ## Things to explore
 
 # Overview
-
 * Opaque or transparent internals?
 	* Neural networks are very opaque in term of understanding. It's possible to look at the resulting probability distribution and thus the actions that were chosen, but if we trace the output from the input, everything in between is more or less meaningless. We're talking about convolution of functions and weights. In other words, there's no "logic" per se, just the aggregation of probabilities learned on a training data set. In the end, this may reproduce very well how our brain works, but it makes it hard for us to do any type of inspection.
 	* Transparent internals on the other hands most likely means to hand write components so that they may be understood: tasks, budgets, priorities, goals, objectives, etc. Even with transparent internals, looking at a decision may still result in an explanation that is probabilistic.

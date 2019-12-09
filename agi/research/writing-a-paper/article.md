@@ -25,6 +25,7 @@ The classical structure of a research paper[^1]
 * Introduction
 * Background/Related work
 * Design/Methodology
+* Experiments
 * Results
 * Analysis
 * Discussion

@@ -1,5 +1,6 @@
 ---
 title: Knowledge modeling
+todo: rename to language modeling
 created: 2015-12-05
 taxonomy:
   category: [Artificial General Intelligence]
@@ -11,13 +12,11 @@ taxonomy:
 ## Learned in this study
 
 ## Things to explore
-
 * Vocabulary
     * Size of vocabulary vs another entity
     * Overlapping/Intersecting vocabulary with another entity
 
 # Overview
-
 $$
 Vocabulary\ of\ entity\ 1 = V_1 \\
 Cardinality\ of\ the\ vocabulary\ of\ entity\ 1 = |V_1|
@@ -47,4 +46,5 @@ $$
 
 # See also
 
-# Sources
+# References
+* https://en.wikipedia.org/wiki/Jaccard_index

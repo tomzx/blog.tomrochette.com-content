@@ -263,6 +263,7 @@ What are the phases of a research?
 * Teufel, Simone, and Min-Yen Kan. [Robust argumentative zoning for sensemaking in scholarly documents](http://people.cs.pitt.edu/~litman/courses/nus062615/readings/TeufelKan.pdf). Springer Berlin Heidelberg, 2011.
 * http://allenai.org/semantic-scholar/citeomatic/?hootPostID=4cce060995ac4d34282766d010cb7f35
 * [Hamming, "You and Your Research" (June 6, 1995)](https://www.youtube.com/watch?v=a1zDuOPkMSw)
+* Doing Your Research Project: A Guide For First-Time Researchers
 
 ## Labeled training data
 * https://github.com/knmnyn/ParsCit/tree/master/doc

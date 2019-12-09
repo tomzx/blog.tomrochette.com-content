@@ -20,7 +20,7 @@ In this article, we look into a potential implementation that would allow us to 
 # Requirements
 * Plug-and-play addition of new processing units
 * The ability to replay already processed data on newer processing units only
-* Processing units have an identifier, a list of dependend processing units (dependencies) and a processing function
+* Processing units have an identifier, a list of processing units it depends on (dependencies) and a processing function
 * Processing units, like pipes, can be connected to one another
 
 # Conception

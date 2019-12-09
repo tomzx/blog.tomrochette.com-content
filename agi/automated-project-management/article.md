@@ -33,6 +33,9 @@ taxonomy:
 * Obtain answers to questions developers have about the features they are working on
 * Create, update, assign, and link issues for every element of development that needs to be tracked
 
+# Ideas
+* Use schema.org as a list of property to bootstrap a new user/project/etc.
+
 # See also
 
 # References

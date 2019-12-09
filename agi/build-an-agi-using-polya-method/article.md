@@ -99,6 +99,7 @@ No, maybe, we know that biology is able to produce natural general intelligence 
 * What is adaptability about?
 
 # See also
+* [How to Solve It](../books/how-to-solve-it)
 
 # References
 [^1]: https://en.wikipedia.org/wiki/How_to_Solve_It

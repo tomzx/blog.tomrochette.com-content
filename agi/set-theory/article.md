@@ -69,7 +69,7 @@ $$
 * $\mathbb{Q} = \{\frac{a}{b}\ |\ a \in \mathbb{Z}, b \in \mathbb{N}, b \not= 0\}$ the set of rational numbers
 * $\mathbb{R}$ the set of real numbers (periodic decimal development)
 * $\mathbb{I}$ the set of irrational numbers (non-periodic decimal development)
-* $\mathbb{C} = \{a+bi\ |\ a, b \in \mathbb{R}, i^2 = -1\}$
+* $\mathbb{C} = \{a+bi\ |\ a, b \in \mathbb{R}, i^2 = -1\}$ the set of complex numbers
 
 $$
 \mathbb{N} \subset \mathbb{Z} \subset \mathbb{Q} \subset \mathbb{R} \subset \mathbb{C}

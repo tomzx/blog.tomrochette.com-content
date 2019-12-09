@@ -23,8 +23,9 @@ Information organization is critical. Similar to how a dictionary is organized/o
 
 To know information exists, the information has to be dismantled into its components. Some components will be considered critical/unique enough to be used as instance identifiers (similar to how one would do object equality in a programming language).
 
-Keeping information up to date means that you need to know it exists and that you've found its previous iteration so that it may be updated with the up-to-date information.
+Finding information is generally about how you plan to query it in the future. For instance, at a low level where information is decomposed into data, we obtain a database with tables, each table containing rows of similarly structured elements. These elements can then be queried using a relative simply language composed of a set of operators. As a whole, it now becomes possible to retrieve matching data. But information is not data. Information is the synthesis of data.
 
+Keeping information up to date means that you need to know it exists and that you've found its previous iteration so that it may be updated with the up-to-date information.
 
 # See also
 

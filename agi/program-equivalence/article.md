@@ -23,7 +23,7 @@ Execute a certain amount of test cases to assert equivalence
 Consider as different programs
 Consider as similar program by going through some reduction steps
 
-## Are two code "clones" if they differ by a single statement the same program?
+## Are two code "clones" if they differ by a single statement?
 If the statement acts on a variable that is not used in the other program, then the two programs can be considered equivalent ...
 
 ---

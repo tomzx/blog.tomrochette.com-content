@@ -43,3 +43,5 @@ taxonomy:
 # See also
 
 # References
+* https://www.blazegraph.com/download/
+* https://neo4j.com/

@@ -66,7 +66,7 @@ There are many types of relations and reasons that could explain these relations
 * A topic can be divided into sub-topics
 
 ## See also
-The *See also* section of articles contains a list of vetted related articles that may interest the reader of the current article. As such, it may have no relation to the current article other than being of a similar domain.
+The *See also* section of articles contains a list of vetted related articles that may interest the reader of the current article. As such, it may have no relation to the current article other than being of a similar domain or of possible interest.
 
 ## Categories
 As the definition of *[categories](https://en.Wikipedia.org/wiki/Help:Category)* of Wikipedia states very well:
@@ -84,7 +84,7 @@ With all this information in hand, it is now time to design an application that 
 
 One simple way to do so would be to develop a client/server system, where the client is a Chrome/Firefox extension that will add a minor UI to Wikipedia and allow the user to indicate if a page has been read. When clicked, a button would send an API call to a remote service that would track this information for the user. Furthermore, upon navigation, an API call would also be sent to this remote service, which would record which Wikipedia article was viewed. From the UI widget, the user would also be able to fetch reading recommendations from the remote service.
 
-The service would act mostly as a storage service, as well as a platform where metrics would be computed the list of articles to suggest to a user.
+The service would act mostly as a storage service, as well as a platform where metrics would be computed to build a list of articles to suggest to a user.
 
 # See also
 

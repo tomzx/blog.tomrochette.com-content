@@ -13,13 +13,13 @@ taxonomy:
 # Overview
 
 ## AIXI (2000 - now)
-http://www.hutter1.net/ai/uaibook.htm
+http://www.hutter1.net/ai/uaibook.htm (theoretical)
 
 ## Genifer (2010 - 2012) (abandoned)
 https://code.google.com/p/genifer/
 
 ## Gödel machine (2003 - now)
-http://people.idsia.ch/~juergen/goedelmachine.html
+http://people.idsia.ch/~juergen/goedelmachine.html (theoretical)
 
 ## NuPIC (2013 - now)
 http://numenta.org/

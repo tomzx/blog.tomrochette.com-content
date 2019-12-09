@@ -14,6 +14,7 @@ taxonomy:
 ## Things to explore
 * Which channel has the best retention rate?
 * What is the rate of image creation within the mind?
+* Given that the brain currently has a given architecture, would it be able to adapt to higher bit rate of data/information?
 
 # Overview
 
@@ -25,6 +26,7 @@ taxonomy:
 
 # Input
 * Listening: 100-125 wpm for slide presentations, 150-160 wpm for audiobooks [^5]
+	* Audio/Video/Speech generator can be speed up while allowing us to still retain comprehension, however it does not appear that any metric for this is available
 * Reading: 228±30 wpm (in English) [^5]
 
 # Space requirements

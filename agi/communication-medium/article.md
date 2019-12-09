@@ -35,6 +35,7 @@ taxonomy:
 * Can be made available anywhere
 
 ## Negative
+* Require an "expensive" tool for data entry (smartphone, laptop)
 
 # In-person voice
 ## Positive

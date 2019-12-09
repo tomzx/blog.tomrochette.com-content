@@ -28,3 +28,4 @@ taxonomy:
 
 # References
 * https://www.youtube.com/watch?v=RSNofraG8ZE
+* https://foundationsofvision.stanford.edu/

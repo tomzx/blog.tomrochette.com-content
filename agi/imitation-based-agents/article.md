@@ -11,13 +11,11 @@ taxonomy:
 ## Learned in this study
 
 ## Things to explore
-
 * Desire to imitate
 * Learn how to imitate/repeat, understand what are the critical points to reproduce
 * RL-based interaction between the AGI and its human counterpart, where the goal of the AGI is to imitate as well as possible its counterpart
 
 # Overview
-
 Humans learn from imitation. It takes us approximately 1 year to learn to talk. Before that, we learn to make noises, cry for attention, stand up to reach things and so on. Some of those behaviors are guided by imitating other human beings around us.
 
 In the beginning, most of our training is related to motor abilities: how to pick blocks, crawl to our favorite toys, learn to make noise, to speak.

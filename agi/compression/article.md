@@ -16,7 +16,7 @@ Compression is the process of encoding information using fewer bits than the ori
 * How can you discover information in a compressed source?
 * Is it possible to devise a program that will generate the appropriate output based on a dictionary (key => value) in such a way that the program is smaller than the dictionary? Is this the same as writing compression of a file/dictionary?
 * Everything can be considered as an index in a infinite dictionary of random digits and we are simply referring to specific points of that dictionary when we "create" functions such as trigonometric functions
-* Compression can only occur if there is duplication in data
+* Compression can only occur if there is duplication/structure in data
 * Strategies for declaring a dictionary
 	* Declare the range of valid characters
 	* Declare a list of valid characters

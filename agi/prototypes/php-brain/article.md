@@ -289,7 +289,7 @@ graph LR
 	4 --> 6
 	5 --> 7
 	6 --> 7
-</code></pre>
+```
 
 If we replace numbers with concepts, we may end up with something like red (1), round(2), medium-sized (3), bouncy (4), red and round (5), medium-sized, bouncy (6), a red, medium-sized, bouncy ball (7).
 
@@ -301,7 +301,7 @@ graph LR
 	4[bouncy] --> 6
 	5[red and round] --> 7[red, medium-sized bouncy ball]
 	6[medium-sized, bouncy] --> 7
-</code></pre>
+```
 
 In this example we are already at a quite high level. Lower levels would have things such as shape, size, texture, color and so forth. When we generalize a concept, such as bouncy ball, it is done through the unification of many examples of bouncy balls, such that when we perceive only a subset of signals, it is enough to trigger the bouncy ball concept.
 
@@ -322,7 +322,7 @@ graph BT
 	9[9 a] --> 5
 	9 --> 6
 	10[10 sentence] --> 6
-</code></pre>
+```
 
 A 4 word sentence can be broken down into 10 nodes. Nodes 7, 8, 9 and 10 are all valid words, while 2, 3, 4, 5, 6 are valid part of sentences. Finally, 1 is a complete sentence.
 
@@ -362,7 +362,7 @@ graph BT
 	17[17 n] --> 10
 	18[18 t] --> 10
 	19[19 c] --> 10
-</code></pre>
+```
 
 A node an link/network architecture is very common for AGI. It is probably the currently best known way to represents concepts and their relations in a common vocabulary. Furthermore, links can have different types (association, dependency, generalization, instantiation, etc.) which makes it perfect for modeling knowledge. However, in order to keep things simple, we could accept to use only one type of relation, the "relates" relationship. We don't really care about the type of relation between the nodes, only that there's something that relate one to the other (such as having smelled something when a particular word was uttered).
 
@@ -395,7 +395,7 @@ graph BT
 	17 --> 10
 	18 --> 10
 	19 --> 10
-</code></pre>
+```
 
  If we wanted to optimize "storage" of such structure, we could for example record the structure and assign it a number. Given the same type of graph traversal algorithm for all structures (pre-order, in-order, post-order), we could recreate this graph many times with different concepts in place of these numbers.
 

@@ -11,7 +11,6 @@ taxonomy:
 ## Learned in this study
 
 ## Things to explore
-
 * Better input query format
 	* Key/value vs options/arguments
 * How dispatcher determines to which agent to dispatch a message
@@ -20,7 +19,6 @@ taxonomy:
 * Should query processing be asynchronous or synchronous?
 
 # Overview
-
 The goal of this study is to look into the various ways to construct a network of bots that will interact with users.
 
 A secondary goal is to attempt to create a framework on which developers may offer useful services to their users.
@@ -28,7 +26,6 @@ A secondary goal is to attempt to create a framework on which developers may off
 Similar to [IFTTT](https://ifttt.com/).
 
 # Requirements
-
 * Bots should be able to
 	* communicate with one another
 	* synchronize their data with one another (distributed database)
@@ -41,7 +38,6 @@ Similar to [IFTTT](https://ifttt.com/).
 * Only authenticated users may use a bot
 
 # Query processing
-
 1. A user issues a query
 
 	A query is minimally a string:
@@ -82,7 +78,6 @@ Similar to [IFTTT](https://ifttt.com/).
 	In some other cases, we may prefer the bot to act as humans would during a discussion, that is, to start multiple threads of discussion. The user would then be free to engage in the threads he is interested to pursue.
 
 # Naive architecture
-
 Here I will try to detail an initial architecture by looking at the various components that would be required to make this system work. At first, one will probably recognize the classical flow of an http request/response.
 
 * An `adapter`
