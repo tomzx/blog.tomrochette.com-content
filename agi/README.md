@@ -75,6 +75,7 @@ Tom
 * [The philosophy of AGI](the-philosophy-of-agi)
 * [Understanding games](understanding-games)
 * [What do I know about AI](what-do-i-know-about-ai)
+* [Wikipedia](wikipedia)
 
 ### Prototypes (in order of start date)
 * [PHP-Brain](prototypes/php-brain)
