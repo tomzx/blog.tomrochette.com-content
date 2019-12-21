@@ -7,6 +7,8 @@ taxonomy:
   status: draft
 ---
 
-Run your program with `python -m cProfile -o profile my-script.py`
+Run your program with `python -m profile.cprofile -o profile my-script.py`
 
 Install `pyprof2calltree` to convert the cprofile to a kcachegrind compatible profile.
+
+`pyprof2calltree -i profile.cprofile`
