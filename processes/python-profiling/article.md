@@ -6,3 +6,5 @@ taxonomy:
   category: [Programming, Python, Processes]
   status: draft
 ---
+
+Run your program with `python -m cProfile -o profile my-script.py`
