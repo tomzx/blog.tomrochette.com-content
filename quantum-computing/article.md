@@ -203,13 +203,15 @@ $$
 C\left| 10 \right> =
 C
 \begin{pmatrix}
+\begin{pmatrix}
 0\\
 1\\
 \end{pmatrix}
 \otimes
 \begin{pmatrix}
+1\\
 0\\
-0\\
+\end{pmatrix}
 \end{pmatrix}
 =
 \begin{pmatrix}
@@ -223,6 +225,13 @@ C
 0\\
 1\\
 0\\
+\end{pmatrix}
+=
+\begin{pmatrix}
+0\\
+0\\
+0\\
+1\\
 \end{pmatrix}
 =
 \begin{pmatrix}
