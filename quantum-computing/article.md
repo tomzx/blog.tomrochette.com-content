@@ -188,8 +188,9 @@ $$
 \end{pmatrix}
 $$
 
-## CNot
+## CNOT
 $$
+C =
 \begin{pmatrix}
 1 & 0 & 0 & 0\\
 0 & 1 & 0 & 0\\
@@ -197,6 +198,46 @@ $$
 0 & 0 & 1 & 0\\
 \end{pmatrix}
 $$
+
+$$
+C\left| 10 \right> =
+C
+\begin{pmatrix}
+0\\
+1\\
+\end{pmatrix}
+\otimes
+\begin{pmatrix}
+0\\
+0\\
+\end{pmatrix}
+=
+\begin{pmatrix}
+1 & 0 & 0 & 0\\
+0 & 1 & 0 & 0\\
+0 & 0 & 0 & 1\\
+0 & 0 & 1 & 0\\
+\end{pmatrix}
+\begin{pmatrix}
+0\\
+0\\
+1\\
+0\\
+\end{pmatrix}
+=
+\begin{pmatrix}
+0\\
+1\\
+\end{pmatrix}
+\otimes
+\begin{pmatrix}
+0\\
+1\\
+\end{pmatrix}
+=
+\left| 11 \right>
+$$
+
 
 # References
 * https://www.youtube.com/watch?v=F_Riqjdh2oM
