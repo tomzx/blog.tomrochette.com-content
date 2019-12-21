@@ -188,5 +188,15 @@ $$
 \end{pmatrix}
 $$
 
+## CNot
+$$
+\begin{pmatrix}
+1 & 0 & 0 & 0\\
+0 & 1 & 0 & 0\\
+0 & 0 & 0 & 1\\
+0 & 0 & 1 & 0\\
+\end{pmatrix}
+$$
+
 # References
 * https://www.youtube.com/watch?v=F_Riqjdh2oM
