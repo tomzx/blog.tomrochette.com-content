@@ -75,5 +75,118 @@ $$
 \end{pmatrix}
 $$
 
+## Multiple cbits representation
+* This tensored representation is called the **product state**
+
+$$
+\left| 00 \right> =
+\begin{pmatrix}
+1\\
+0
+\end{pmatrix}
+\otimes
+\begin{pmatrix}
+1\\
+0
+\end{pmatrix}
+=
+\begin{pmatrix}
+1\\
+0\\
+0\\
+0\\
+\end{pmatrix}
+$$
+
+$$
+\left| 01 \right> =
+\begin{pmatrix}
+1\\
+0
+\end{pmatrix}
+\otimes
+\begin{pmatrix}
+0\\
+1
+\end{pmatrix}
+=
+\begin{pmatrix}
+0\\
+1\\
+0\\
+0\\
+\end{pmatrix}
+$$
+
+$$
+\left| 10 \right> =
+\begin{pmatrix}
+0\\
+1
+\end{pmatrix}
+\otimes
+\begin{pmatrix}
+1\\
+0
+\end{pmatrix}
+=
+\begin{pmatrix}
+0\\
+0\\
+1\\
+0\\
+\end{pmatrix}
+$$
+
+$$
+\left| 11 \right> =
+\begin{pmatrix}
+0\\
+1
+\end{pmatrix}
+\otimes
+\begin{pmatrix}
+0\\
+1
+\end{pmatrix}
+=
+\begin{pmatrix}
+0\\
+0\\
+0\\
+1\\
+\end{pmatrix}
+$$
+
+$$
+\left| 4 \right> =
+\left| 100 \right> =
+\begin{pmatrix}
+0\\
+1
+\end{pmatrix}
+\otimes
+\begin{pmatrix}
+1\\
+0
+\end{pmatrix}
+\otimes
+\begin{pmatrix}
+1\\
+0
+\end{pmatrix}
+=
+\begin{pmatrix}
+0\\
+0\\
+0\\
+0\\
+1\\
+0\\
+0\\
+0\\
+\end{pmatrix}
+$$
+
 # References
 * https://www.youtube.com/watch?v=F_Riqjdh2oM
