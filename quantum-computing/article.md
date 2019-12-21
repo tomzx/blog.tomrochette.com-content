@@ -11,8 +11,16 @@ taxonomy:
 
 $$
 \left| 0 \right> =
-\begin{matrix}
+\begin{pmatrix}
 1\\
 0
-\end{matrix}
+\end{pmatrix}
+$$
+
+$$
+\left| 0 \right> =
+\begin{pmatrix}
+1\\
+0
+\end{pmatrix}
 $$
