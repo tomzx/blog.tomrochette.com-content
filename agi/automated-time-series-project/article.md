@@ -7,7 +7,7 @@ taxonomy:
 ---
 
 ## Context
-I have been working at Element AI for a year and a half. For most of my time there I've worked on time series related problems. Here, I want to share my experience as to how we've been doing time series projects and how I envision automating the whole process. The opinions below are mine and mine alone.
+I have been working on time series related problems for the last year and a half. Here, I want to share my experience as to how we've been doing time series projects and how I envision automating the whole process.
 
 ## Learned in this study
 
@@ -18,6 +18,11 @@ I have been working at Element AI for a year and a half. For most of my time the
 * Define forecast horizons
 * Define data traversal procedure
 * Define metrics
+
+# Process
+Here I want to describe the whole process of a project in order to document it. The process of automating an existing process always starts by writing down what the existing process is.
+
+* Different sources of data are collected by the client. These sources might be Excel documents, data in an SQL database or NoSQL database, data stored in a third-party provided such as Google Analytics/Ads, FB ads/social, Twitter, in their enterprise data lake, etc.
 
 # Automated steps
 * Merge datasets into a single dataset
