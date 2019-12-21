@@ -24,3 +24,10 @@ $$
 1
 \end{pmatrix}
 $$
+
+* Quantum computers only use reversible operations
+* Identity and Negation are reversible
+* Constant-0 and Constant-1 aare not reversible
+
+# Referemces
+* https://www.youtube.com/watch?v=F_Riqjdh2oM
