@@ -30,5 +30,7 @@ $$
 * Identity and Negation are reversible
 * Constant-0 and Constant-1 aare not reversible
 
-# Referemces
+## Vector product
+
+# References
 * https://www.youtube.com/watch?v=F_Riqjdh2oM
