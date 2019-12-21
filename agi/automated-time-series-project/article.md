@@ -7,6 +7,7 @@ taxonomy:
 ---
 
 ## Context
+I have been working at Element AI for a year and a half. For most of my time there I've worked on time series related problems. Here, I want to share my experience as to how we've been doing time series projects and how I envision automating the whole process. The opinions below are mine and mine alone.
 
 ## Learned in this study
 
