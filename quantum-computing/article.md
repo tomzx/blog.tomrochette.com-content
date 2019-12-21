@@ -8,3 +8,5 @@ taxonomy:
 ---
 
 # Notes
+
+$\left| x \right>$
