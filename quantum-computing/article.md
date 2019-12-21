@@ -9,4 +9,4 @@ taxonomy:
 
 # Notes
 
-$\left| x \right>$
+$\left| 0 \right> = $
