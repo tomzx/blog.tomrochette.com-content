@@ -30,7 +30,25 @@ $$
 * Identity and Negation are reversible
 * Constant-0 and Constant-1 aare not reversible
 
-## Vector product
+## Tensor product of vectors
+$$
+\begin{pmatrix}
+x_0\\x_1
+\end{pmatrix}
+\begin{pmatrix}
+y_0\\y_1
+\end{pmatrix}
+=
+\begin{pmatrix}
+x_0
+\begin{pmatrix}
+y_0\\y_1
+\end{pmatrix}\\x_1
+\begin{pmatrix}
+y_0\\y_1
+\end{pmatrix}
+\end{pmatrix}
+$$
 
 # References
 * https://www.youtube.com/watch?v=F_Riqjdh2oM
