@@ -8,3 +8,5 @@ taxonomy:
 ---
 
 Run your program with `python -m cProfile -o profile my-script.py`
+
+Install `pyprof2calltree` to convert the cprofile to a kcachegrind compatible profile.
