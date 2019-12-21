@@ -9,6 +9,7 @@ taxonomy:
 
 # Notes
 
+## 0 and 1 cbit
 $$
 \left| 0 \right> =
 \begin{pmatrix}
