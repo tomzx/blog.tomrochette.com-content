@@ -9,4 +9,10 @@ taxonomy:
 
 # Notes
 
-$\left| 0 \right> = $
+$$
+\left| 0 \right> =
+\begin{matrix}
+1\\
+0
+\end{matrix}
+$$
