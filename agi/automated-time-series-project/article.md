@@ -19,6 +19,9 @@ I have been working on time series related problems for the last year and a half
 * Define data traversal procedure
 * Define metrics
 
+# Definitions
+* Entity: An object to which we relate measurements and can be considered a unique identifier, generally of the categorical type, e.g., the SKU of a product, a person's full name, a UUID, a city, etc.
+
 # Process
 Here I want to describe the whole process of a project in order to document it. The process of automating an existing process always starts by writing down what the existing process is.
 
