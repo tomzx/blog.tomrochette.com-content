@@ -9,7 +9,8 @@ taxonomy:
 
 ## Before
 * Write/prepare an agenda listing the items to be discussed
-* Indicate the duration of each item
+* Indicate the duration and responsible/lead of each item
+* Share the agenda with all the attendees
 
 ## During
 * Present the agenda
