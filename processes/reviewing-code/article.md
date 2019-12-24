@@ -19,7 +19,10 @@ taxonomy:
 	* Are they significant of their purpose?
 	* Are they clear enough?
 	* Are they respecting the naming convention?
-* Does the code respect SOLID?
+* Does the code respect [SOLID](https://en.wikipedia.org/wiki/SOLID)?
+* Consider that when functions/methods signature change, code may now be backward incompatible.
+	* Discuss whether this is necessary
+	* Backward incompatible changes should be documented
 
 # Reference
-*
+* https://en.wikipedia.org/wiki/SOLID
