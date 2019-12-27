@@ -8,13 +8,25 @@ taxonomy:
 
 
 ## Context
-Given a tabular dataset, what is the theoretical limit on the number of entries we can accurately predict? Many problems can be seen as
+Given a tabular dataset, what is the theoretical limit on the number of entries we can accurately predict? Many real world problems are not functions, that is to say that the same inputs may produce different outputs. Given a problem that should return the same output given the same inputs, what should be returned when an input has a set of different possible outputs?
 
 ## Learned in this study
 
 ## Things to explore
 
 # Overview
+In machine learning, we try to minimize the concept of loss. When an input is known to generate different potential outputs, such a system will tend to choose the output with the most probability.
+
+## Setup
+We are given a dataset of features, where we want to predict a feature Y given a set of features X. For some X, we may have different values of Y.
+
+| X | Y |
+|---|---|
+| 1 | 3 |
+| 1 | 4 |
+| 1 | 3 |
+
+# Notes
 Number of unique input X/Number of points/rows
 Given a tabular dataset, compute the separability metric as follow:
 * 1 point: 100% separable
@@ -25,7 +37,6 @@ For a dataset with 1 B and 3 C as output values, we expect the metric to be betw
 * sum(count(points for target x with attributes X)/count(points with attributes X))/count(points)
 * It may make sense to have a separability metric per target output (when those are categorical)
 * In the case of numerical targets, minimizing for distance between all the targets (clustering) would turn the problem into the categorical form
-
 
 # See also
 
