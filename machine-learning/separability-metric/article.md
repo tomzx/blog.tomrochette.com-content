@@ -8,7 +8,7 @@ taxonomy:
 
 
 ## Context
-Given a tabular dataset, what is the theoretical limit
+Given a tabular dataset, what is the theoretical limit on the number of entries we can accurately predict?
 
 ## Learned in this study
 
