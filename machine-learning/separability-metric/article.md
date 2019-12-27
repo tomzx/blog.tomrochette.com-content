@@ -26,6 +26,19 @@ We are given a dataset of features, where we want to predict a feature Y given a
 | 1 | 4 |
 | 1 | 3 |
 
+## Cases
+In order to reflect on this problem, we use an iterative approach.
+
+### 1 point
+When a dataset is composed of 1 point, then we have 100% separability.
+
+### 2 points
+If X provides two different values, then we can separate the dataset into two distinct set, which leads us to 100% separability.
+
+However, if X contains the same value, then the separability will depend on the target value:
+* If the target value is the same for both points, then we have 100% separability, since both X lead to the same Y
+* If the target value is different, then we only have 50% separability. This is due to the fact that, given no additional information, the best we can do is to randomly pick one of the two options for Y.
+
 # Notes
 Number of unique input X/Number of points/rows
 Given a tabular dataset, compute the separability metric as follow:
