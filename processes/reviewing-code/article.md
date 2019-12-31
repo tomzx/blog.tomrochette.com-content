@@ -26,3 +26,4 @@ taxonomy:
 
 # Reference
 * https://en.wikipedia.org/wiki/SOLID
+* https://smartbear.com/learn/code-review/guide-to-code-review-process/
