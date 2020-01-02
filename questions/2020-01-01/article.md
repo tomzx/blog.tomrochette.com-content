@@ -20,4 +20,4 @@ When I asked myself this question, I was reading [Accelerando](https://www.goodr
 
 The benefits I could see from being able to reduce the size of our satellites or vessels is that it requires a lot less mass to be turned into a spacecraft.
 
-This question is also reminescent of the movies like [Honey, I shrunk the Kids](https://en.wikipedia.org/wiki/Honey,_I_Shrunk_the_Kids)
+This question is also reminescent of the movies like [Honey, I shrunk the Kids](https://en.wikipedia.org/wiki/Honey,_I_Shrunk_the_Kids) or [Ant-Man](https://en.wikipedia.org/wiki/Ant-Man_(film)). They
