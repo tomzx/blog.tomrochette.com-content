@@ -8,5 +8,6 @@ taxonomy:
 ---
 
 # Question
+Is reducing our size a viable alternative/approach to space exploration?
 
 # Answer
