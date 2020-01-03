@@ -10,4 +10,4 @@ taxonomy:
 In 2020 I decided I would read one Wikipedia article per day. The purpose is to learn something new every day.
 
 # 2020
-* 2020-01-01 -
+* 2020-01-01 - https://en.wikipedia.org/wiki/Dublin_Core
