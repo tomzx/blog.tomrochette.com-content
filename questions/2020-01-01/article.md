@@ -3,7 +3,7 @@ title: Reducing our size for space exploration
 created: 2020-01-01
 taxonomy:
   type: post
-  category: [Questions]
+  category: [Questions, Space]
   status: finished
 ---
 
