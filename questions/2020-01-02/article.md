@@ -24,7 +24,7 @@ Another factor to keep in mind when comparing models is whether the improvement 
 Then there are other attributes of the model that you may need to take into account. A model that takes days to train may be useless when you need it to be up to date every hour. A faster to train but less accurate model may be more useful in this case.
 
 ## Summary
-* Can it beat baseline models?
-* Does it satisfy error requirements?
-* Is the model significantly better than existing models?
-* Does it satisfy other constraints of the system such a time to train or necessary resources (cpu, gpu, ram)?
+* Can the model under evaluation beat baseline models?
+* Does the model under evaluation satisfy error requirements?
+* Is the model under evaluation significantly better than existing models?
+* Does the model under evaluation satisfy other constraints of the system such a time to train (e.g., less than 6 hours) or necessary resources (cpu, gpu, ram)?
