@@ -3,7 +3,7 @@ title: Determining a model usefulness
 created: 2020-01-02
 taxonomy:
   type: post
-  category: [Questions]
+  category: [Questions, Machine Learning]
   status: finished
 ---
 
