@@ -7,12 +7,11 @@ taxonomy:
   status: draft
 ---
 
+* Verify that the build/tests pass
 * Understand the feature and associated requirements that are supposed to be implemented
 * Check code implements the desired feature and that the requirements are completed
 * Check code contains tests
 	* Is all the new code covered by those tests?
-* Verify that the build/tests pass
-* Check code for code style issues
 * Verify the location of new files
 	* Are the files in the right directory?
 	* Are they appropriately named?
@@ -25,6 +24,7 @@ taxonomy:
 	* Discuss whether this is necessary
 	* Backward incompatible changes should be documented
 * Are there TODOs that should be completed within this review?
+* Check code for code style issues
 
 # Reference
 * https://en.wikipedia.org/wiki/SOLID
