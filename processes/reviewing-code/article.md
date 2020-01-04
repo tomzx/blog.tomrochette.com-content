@@ -24,6 +24,7 @@ taxonomy:
 * Consider that when functions/methods signature change, code may now be backward incompatible.
 	* Discuss whether this is necessary
 	* Backward incompatible changes should be documented
+* Are there TODOs that should be completed within this review?
 
 # Reference
 * https://en.wikipedia.org/wiki/SOLID
