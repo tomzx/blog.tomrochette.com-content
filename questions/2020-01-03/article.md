@@ -3,7 +3,7 @@ title: When to stop working on a task
 created: 2020-01-03
 taxonomy:
   type: post
-  category: [Questions]
+  category: [Questions, Task management]
   status: finished
 ---
 
