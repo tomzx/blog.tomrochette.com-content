@@ -31,4 +31,5 @@ taxonomy:
 * https://medium.com/palantir/code-review-best-practices-19e02780015f
 * https://phauer.com/2018/code-review-guidelines/
 * https://smartbear.com/learn/code-review/guide-to-code-review-process/
+* https://smartbear.com/learn/code-review/best-practices-for-peer-code-review/
 * https://nyu-cds.github.io/effective-code-reviews/03-checklist/
