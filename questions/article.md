@@ -15,4 +15,4 @@ Answering our own questions is the best way to increase our knowledge. By unders
 # 2020
 * [2020-01-01 - Is reducing our size a viable alternative/approach to space exploration?](2020-01-01)
 * [2020-01-02 - How do you determine whether you have a useful model?](2020-01-02)
-* [2020-01-03 - ](2020-01-03)
+* [2020-01-03 - Given that you define a ROI on a task, when should you stop working on a task and abandon it given its cost?](2020-01-03)
