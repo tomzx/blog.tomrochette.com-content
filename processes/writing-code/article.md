@@ -11,6 +11,7 @@ taxonomy:
 * Make it work
 * Write a test for what you implemented
 * Refactor the code for reusability/code standard
+* Verify that your code passes linting and tests
 * Commit your code on a branch
 * Push to the central repository
 * Verify that CI passes
