@@ -10,6 +10,7 @@ taxonomy:
 * Understand the feature and associated requirements that are supposed to be implemented
 * Check code implements the desired feature and that the requirements are completed
 * Check code contains tests
+	* Is all the new code covered by those tests?
 * Verify that the build/tests pass
 * Check code for code style issues
 * Verify the location of new files
