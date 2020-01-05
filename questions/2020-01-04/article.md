@@ -14,4 +14,4 @@ How do you prioritize things when there are so many of them competing against on
 My approach to task prioritization, assuming that you have a list of tasks with no other information, involves adding information that will help you prioritize them.
 
 # References
-* [Task management](../processes/task-management)
+* [Task management](../../processes/task-management)
