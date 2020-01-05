@@ -13,8 +13,8 @@ I've just stumbled upon a series of articles from Richard Fine that were written
 
 **On GameDev.net:** [Part 1][1] [Part 2][2] [Part 3][3] [Part 4][4] [Part 5][5]
 
- [1]: http://www.gamedev.net/page/resources/_/reference/programming/game-programming/300/enginuity-part-i-r1947
- [2]: http://www.gamedev.net/page/resources/_/reference/programming/game-programming/300/enginuity-part-ii-r1954
- [3]: http://www.gamedev.net/page/resources/_/reference/programming/game-programming/300/enginuity-part-iii-r1959
- [4]: http://www.gamedev.net/page/resources/_/reference/programming/game-programming/300/enginuity-part-iv-r1973
- [5]: http://www.gamedev.net/page/resources/_/reference/programming/game-programming/300/enginuity-part-v-r2011
+ [1]: https://www.gamedev.net/articles/programming/general-and-gameplay-programming/enginuity-part-i-r1947
+ [2]: https://www.gamedev.net/articles/programming/general-and-gameplay-programming/enginuity-part-ii-r1954
+ [3]: https://www.gamedev.net/articles/programming/general-and-gameplay-programming/enginuity-part-iii-r1959
+ [4]: https://www.gamedev.net/articles/programming/general-and-gameplay-programming/enginuity-part-iv-r1973
+ [5]: https://www.gamedev.net/articles/programming/general-and-gameplay-programming/enginuity-part-v-r2011
