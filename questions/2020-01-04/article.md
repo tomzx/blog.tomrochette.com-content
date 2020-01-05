@@ -31,5 +31,7 @@ Similar to the important/urgent fields, we will add two new fields: estimated va
 
 For each task you will want to estimate to the best of your knowledge how much effort would be required to complete the task, as well as how much value you expect it to bring. Once you have those numbers for all your tasks, you should be able to order them by descending ROI. This will provide you with the list of tasks you should work on in order, as they are the one likely to provide you with the highest amount of ROI.
 
+If at this point you still have many tasks which have the same ROI, you can first try to tackle the ones with the least amount of effort to get them out of the way and have quick wins. If you're still left with many tasks at this point, my current approach does not deal with this situation. It becomes a question of defining a higher level roadmap, determining which collection of feature may have more impact than others. It may also be possible to look into additional properties of the task, such as how long since they've been created and left incomplete.
+
 # References
 * [Task management](../../processes/task-management)
