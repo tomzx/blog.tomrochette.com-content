@@ -11,7 +11,7 @@ taxonomy:
 How would you build an AI that could offer coaching for games like StarCraft or Dota/LoL?
 
 # Answer
-I see coaching as similar to the loss function of a machine learning model. I also see coaching as trying to optimize a (program's) function by figuring out where the largest improvements can be made. In a game like Starcraft, that would mean first pointing out the macro level mistakes a player is making then the micro level mistakes he's making.
+I see coaching as similar to the loss function of a machine learning model. I also see coaching as trying to optimize a (program's) function by figuring out where the largest improvements can be made. In order to provide effective and useful feedback, a coach should focus on the areas where the player shows the most potential for improvement. In a game like Starcraft, that would mean first pointing out the macro level mistakes then the micro level mistakes.
 
 The most common approach to coaching people use is observing more successful players than themselves. They may watch them while they're playing the game and commenting on their gameplay or they may watch someone reviewing a replay and providing their own analysis. Both of these cases can be seen as models trying to explain their internals (the logic behind their actions).
 
