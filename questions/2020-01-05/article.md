@@ -23,4 +23,4 @@ The model will need at some point to be able to establish its own scoring system
 ## Learning by playing against yourself
 Playing against yourself is more complicated. A perfect recording of your actions may not prove difficult to beat. It may send units to the wrong location on the map, be caught off guard moving to a location while you positioned units in the middle of the path, it may react to an attack the other opponent had sent to its base at one point in the game, etc. It is however a start, one example you can train against.
 
-A lot of players who are invested in the game will do theorycrafting.
+A lot of players who are invested in the game will do [theorycrafting](https://en.wikipedia.org/wiki/Theorycraft).
