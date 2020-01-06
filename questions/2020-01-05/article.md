@@ -13,11 +13,11 @@ How would you build an AI that could offer coaching for games like StarCraft or 
 # Answer
 I see coaching as similar to the loss function of a machine learning model. I also see coaching as trying to optimize a (program's) function by figuring out where the largest improvements can be made. In order to provide effective and useful feedback, a coach should focus on the areas where the player shows the most potential for improvement. In a game like Starcraft, that would mean first pointing out the macro level mistakes then the micro level mistakes.
 
-The most common approach to coaching people use is observing more successful players than themselves. They may watch them while they're playing the game and commenting on their gameplay or they may watch someone reviewing a replay and providing their own analysis. Both of these cases can be seen as models trying to explain their internals (the logic behind their actions).
-
-To coach you need to have a model of what actions have impact on the game and how much impact they have. A learning algorithm/model like AlphaZero generally exhibits two types of learning: learning from observation and learning by playing against itself.
+To coach you need to have a model of which actions have impact on the game and how much impact they have. A learning algorithm/model like AlphaZero generally exhibits two types of learning: learning from observation and learning by playing against itself.
 
 ## Learning from observation
+The most common approach to coaching is by observing more successful players than themselves. They may watch them while they're playing the game and commenting on their gameplay or they may watch someone reviewing a replay and providing their own analysis. Both of these cases can be seen as models (the players) trying to explain their internals (the logic behind their actions).
+
 In the first phase, the model simply observes what happens during gameplay. In competitive games such as MOBA/RTS, the only reward signal is the victory/loss at the end of a game. As human beings, we quickly learn that winning a fight/encounter is good and losing it is bad.
 
 The model will need at some point to be able to establish its own scoring system so it can give itself some intermediate rewards during a game. It will also need to learn how to segment a sequence of actions into repeatable units such as constructing unit X, attacking player Y, defending zone Z. As such, it may deem that constructing unit X is worth 5 units of reward, attacking player Y is worth no reward and that defending zone Z is worth 30 points of reward. The value of rewards may vary based on numerous factors, such as how much time has elapsed since the beginning of the game, the known enemy army composition, existing vision, etc.
