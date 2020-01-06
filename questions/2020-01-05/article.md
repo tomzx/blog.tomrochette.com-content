@@ -23,4 +23,6 @@ The model will need at some point to be able to establish its own scoring system
 ## Learning by playing against yourself
 Playing against yourself is more complicated. A perfect recording of your actions may not prove difficult to beat. It may send units to the wrong location on the map, be caught off guard moving to a location while you positioned units in the middle of the path, it may react to an attack the other opponent had sent to its base at one point in the game, etc. It is however a start, one example you can train against.
 
-A lot of players who are invested in the game will do [theorycrafting](https://en.wikipedia.org/wiki/Theorycraft).
+A lot of players who are invested in the game will do [theorycrafting](https://en.wikipedia.org/wiki/Theorycraft) which is basically to use logic and reasoning in order to assess what to do in specific cases. An AI coach could have been provided the game rules, specifically, which units are weak/strong against other units, and look at the game while you are playing. If you attack your opponent and the AI observe a strong concentration of a specific type of units, and it notices you do not have any of the units that counter this unit type, it may suggest that you start building those as soon as possible. On the other hand, it may also notice that your unit composition is weak against the unit composition of your enemy and suggest units to build to balance your army.
+
+We can see this act of theorycrafting as the equivalent of knowing, at a high level, the strategies and counter-strategies
