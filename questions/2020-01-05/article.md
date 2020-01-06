@@ -39,11 +39,13 @@ An AI coach can be provided the game rules, specifically, which units are weak/s
 
 We can see this act of theorycrafting as the equivalent of knowing, at a high level, the strategies and counter-strategies one can employ at an early point in the game, the same way you can learn the different opening moves in chess.
 
+In the case of learning by playing against yourself, what we want the AI coach to provide us is an opponent that will challenge our current biggest weaknesses so we can address them.
+
 ## Features we may want from an AI coach
 * Determine your weaknesses/areas of improvement
 * Suggest potential approaches to solve recurrent problems we have
 * Simulate opponents that would exert your current weaknesses so you can practice against them
-* Collect statistics on various gameplay related details and their associated success rate (number of units of type X after Y minutes, number of creeps killed after X minutes, items purchase order, build order, etc.)
+* Collect various gameplay related statistics their associated success rate (number of units of type X after Y minutes, number of creeps killed after X minutes, items purchase order, build order, etc.)
 
 # Things to explore
 * If you were in an environment where you had access to very few replays, how would you learn the most out of those available?
