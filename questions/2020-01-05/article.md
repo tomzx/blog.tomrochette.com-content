@@ -22,7 +22,11 @@ In the first phase, the model simply observes what happens during gameplay. In c
 
 The model will need at some point to be able to establish its own scoring system so it can give itself some intermediate rewards during a game. It will also need to learn how to segment a sequence of actions into repeatable units such as constructing unit X, attacking player Y, defending zone Z. As such, it may deem that constructing unit X is worth 5 units of reward, attacking player Y is worth no reward and that defending zone Z is worth 30 points of reward. The value of rewards may vary based on numerous factors, such as how much time has elapsed since the beginning of the game, the known enemy army composition, existing vision, etc.
 
+Having actions such as "attack coordinate X, Y" are a too low level. Your model will have to learn hierarchically complex actions such as "attack player X", "attack the gatherers of player X", "attack the weak gatherers of player X", etc.
+
 Coaching generally starts by trying to reproduce the recipe of someone else. You may not understand why they are doing certain things, but you do it yourself and you observe the results.
+
+An AI coach may look at hundreds or thousands of replays and observe the distribution of units allocation after 1, 2, 3, 5, 10, 15, 20 minutes into the game and their correlation to whether the player won or lost. It may look at the items purchased by the player in a MOBA game, their timing and their correlation to whether the player won or lost. For a human being to do similar thing would require a lot of time. Most would probably write scripts to automate the process of collecting those details instead of manually going through the replays one by one.
 
 ## Learning by playing against yourself
 Playing against yourself is more complicated. A perfect recording of your actions may not prove difficult to beat. It may send units to the wrong location on the map, be caught off guard moving to a location while you positioned units in the middle of the path, it may react to an attack the other opponent had sent to its base at one point in the game, etc. It is however a start, one example you can train against.
@@ -30,3 +34,6 @@ Playing against yourself is more complicated. A perfect recording of your action
 A lot of players who are invested in the game will do [theorycrafting](https://en.wikipedia.org/wiki/Theorycraft) which is basically to use logic and reasoning in order to assess what to do in specific cases. An AI coach could have been provided the game rules, specifically, which units are weak/strong against other units, and look at the game while you are playing. If you attack your opponent and the AI observe a strong concentration of a specific type of units, and it notices you do not have any of the units that counter this unit type, it may suggest that you start building those as soon as possible. On the other hand, it may also notice that your unit composition is weak against the unit composition of your enemy and suggest units to build to balance your army.
 
 We can see this act of theorycrafting as the equivalent of knowing, at a high level, the strategies and counter-strategies one can employ at an early point in the game, the same way you can learn the different opening moves in chess.
+
+# Things to explore
+* If you were in an environment where you had access to very few replays, how would you learn the most out of those available?
