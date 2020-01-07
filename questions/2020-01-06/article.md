@@ -17,4 +17,6 @@ For fiction books, I will generally read books from a collection I've enjoyed at
 
 For non-fiction/technical books, I will generally skim through a few books on the same topic and determine which book I feel the most confident will provide me with the most information provided in the most appropriate and succinct way.
 
+Determining why you want to read will help you figure out what the most appropriate next book might be. You may want to relax and thus reading a technical book may not be appropriate. You may want to learn a new programming language and thus reading about a programming language you already know will not achieve that goal.
+
 I suggest using a book tracker like goodreads as it will allow you to track when you added the book to your list. This will let you know how long the book has been sitting there, waiting to be read. Generally, the longer a book stays "shelved" the less likely it is you will ever read it. This also generalizes to the idea that most books are read in a LIFO (last in, first out) fashion.
