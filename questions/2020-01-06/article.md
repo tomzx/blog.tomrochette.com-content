@@ -17,4 +17,4 @@ For fiction books, I will generally read books from a collection I've enjoyed at
 
 For non-fiction/technical books, I will generally skim through a few books on the same topic and determine which book I feel the most confident will provide me with the most information provided in the most appropriate and succinct way.
 
-I suggest using a book tracker like goodreads as it will allow you to track when you added the book to your list. This will let you know how long the book has been sitting there, waiting to be read. Generally, the longer a book stays "shelved" the less likely it is you will ever read it. This also generalizes to the idea that most books are read in a LIFO (last in, first out) fashion .
+I suggest using a book tracker like goodreads as it will allow you to track when you added the book to your list. This will let you know how long the book has been sitting there, waiting to be read. Generally, the longer a book stays "shelved" the less likely it is you will ever read it. This also generalizes to the idea that most books are read in a LIFO (last in, first out) fashion.
