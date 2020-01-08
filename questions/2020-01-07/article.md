@@ -17,7 +17,7 @@ The first, most important, and difficult strategy, is to simply let go of those 
 
 Once you've gotten rid of all those articles you decided you would never read, then you can add them to systems such as pocket. The idea here is that it may be possible for you to read this content, but in other context than when you're in front of your computer. Maybe you'd be likely to read the article if you're waiting in line or waiting for your bus/subway. Maybe you'd read it if you're on your way to work.
 
-
+Track when you add articles to your collection. The older an article becomes, the less likely you will be to read it. As articles reach a certain age, it might be time to graduate them to the graveyard, in other words, to never read them.
 
 You should have an idea of how long an article takes to read. Pocket offers an estimate of how long it takes to read an article. Knowing how long it takes to read an article is important since one of the technique to get rid of article may be to go through all the short articles since the time investment may be low.
 
