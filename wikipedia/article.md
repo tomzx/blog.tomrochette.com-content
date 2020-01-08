@@ -16,3 +16,4 @@ In 2020 I decided I would read one Wikipedia article per day. The purpose is to 
 * 2020-01-04 - https://en.wikipedia.org/wiki/Limits_of_computation
 * 2020-01-05 - https://en.wikipedia.org/wiki/Programmable_matter
 * 2020-01-06 - https://en.wikipedia.org/wiki/Stratified_sampling
+* 2020-01-07 - https://en.wikipedia.org/wiki/Miller%E2%80%93Urey_experiment
