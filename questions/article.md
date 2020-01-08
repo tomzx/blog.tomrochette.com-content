@@ -19,3 +19,4 @@ Answering our own questions is the best way to increase our knowledge. By unders
 * [2020-01-04 - How do you prioritize things when there are so many of them competing against one another?](2020-01-04)
 * [2020-01-05 - How would you build an AI that could offer coaching for games like StarCraft or Dota/LoL?](2020-01-05)
 * [2020-01-06 - How can I organize all the webpages I never read?](2020-01-06)
+* [2020-01-07 - How can I organize all the webpages I never read?](2020-01-07)
