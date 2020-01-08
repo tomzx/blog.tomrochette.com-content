@@ -11,6 +11,15 @@ taxonomy:
 How can I organize all the webpages I never read?
 
 # Answer
+## TL; DR
+1. Delete articles you know you will never read
+2. Add articles you'd like to read one day in a system such as pocket
+3. Track when they are added, after 1 year "graduate" them by deleting them from your list
+4. Estimate how long an article takes to read and how much value you expect it will bring you
+5. Use the ROI to order your reading list
+
+
+## The details
 The following method should probably apply for content online as well as offline (magazine article, books).
 
 The first, most important, and difficult strategy, is to simply let go of those articles. Most of the time, we keep certain things out of fear of missing out. We may also think that if at some point we have free time we'll go through them, however that never happens. We always try to find something new instead. This can be seen as a way for the mind to communicate that it doesn't think it would be worthwhile to spend its time reading this content so it's better not to.
