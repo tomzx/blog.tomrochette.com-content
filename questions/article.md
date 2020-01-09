@@ -20,3 +20,4 @@ Answering our own questions is the best way to increase our knowledge. By unders
 * [2020-01-05 - How would you build an AI that could offer coaching for games like StarCraft or Dota/LoL?](2020-01-05)
 * [2020-01-06 - How can I easily identify the next book I should read when I have over 500 to choose from?](2020-01-06)
 * [2020-01-07 - How can I organize all the webpages I never read?](2020-01-07)
+* [2020-01-08 - ]
