@@ -22,3 +22,4 @@ This question has come after thinking about DNA as being the code of a human bei
 * [Cellular automaton](https://en.wikipedia.org/wiki/Cellular_automaton)
 * [Conway's Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life)
 * [A New Kind of Science](https://en.wikipedia.org/wiki/A_New_Kind_of_Science)
+* [John Von Neumann - Theory of self-reproducing automata](https://archive.org/details/theoryofselfrepr00vonn_0)
