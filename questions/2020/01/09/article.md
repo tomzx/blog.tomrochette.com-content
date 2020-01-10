@@ -17,7 +17,7 @@ This code has evolved since we were non-biological. From a large amount of rando
 
 [Cellular automaton](https://en.wikipedia.org/wiki/Cellular_automaton) are also interesting to study in that aspect. By defining a small set of rules, it is possible to generate and observe complex behaviors.
 
-One common behavior of cells is that they reproduce. As such, I would expect a program that can learn complex behavior to have some reproductive function. [Reproduction](https://en.wikipedia.org/wiki/Life#Biology) is considered as one of the traits of an entity being alive.
+One common behavior of cells is that they reproduce. As such, I would expect a program that can learn complex behaviors to have some reproductive function. [Reproduction](https://en.wikipedia.org/wiki/Life#Biology) is considered as one of the traits of an entity being alive. My idea here is that exploring how we were able to massively populate the Earth may provide us with ideas on how a bit of code learned to lengthen itself, by the same process increasing the size of its host as well as the complexity and variety of cells that composes it.
 
 # References
 * [Genetics based AGI](../../../../agi/genetics-based-agi)
