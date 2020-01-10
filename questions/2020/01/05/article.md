@@ -1,6 +1,9 @@
 ---
 title: AI coach for video games
 created: 2020-01-05
+routes:
+  aliases:
+    - /questions/2020-01-05
 taxonomy:
   type: post
   category: [Questions, Artificial Intelligence]
