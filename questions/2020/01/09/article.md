@@ -16,3 +16,4 @@ This question has come after thinking about DNA as being the code of a human bei
 # References
 * [Genetics based AGI](../../../../agi/genetics-based-agi)
 * [RNA world](https://en.wikipedia.org/wiki/RNA_world)
+* [Abiogenesis](https://en.wikipedia.org/wiki/Abiogenesis)
