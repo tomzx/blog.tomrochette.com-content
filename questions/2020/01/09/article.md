@@ -17,7 +17,7 @@ This question has come after thinking about DNA as being the code of a human bei
 
 # References
 * [Genetics based AGI](../../../../agi/genetics-based-agi)
-* [Theory of self-reproducing automata](../../../../agi/books/)
+* [Theory of self-reproducing automata](../../../../agi/books/theory-of-self-reproducing-automata)
 * [RNA world](https://en.wikipedia.org/wiki/RNA_world)
 * [Abiogenesis](https://en.wikipedia.org/wiki/Abiogenesis)
 * [Cellular automaton](https://en.wikipedia.org/wiki/Cellular_automaton)
