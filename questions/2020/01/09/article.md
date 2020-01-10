@@ -12,3 +12,6 @@ Is there a general characteristic of simple programs that are able to learn comp
 
 # Answer
 This question has come after thinking about DNA as being the code of a human being. DNA is also part of other animals, even viruses. Organisms use nucleic acids to store the programs that are necessary to their existence.
+
+# References
+* [Genetics based AGI](../../../../agi/genetics-based-agi)
