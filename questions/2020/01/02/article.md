@@ -1,6 +1,9 @@
 ---
 title: Determining a model usefulness
 created: 2020-01-02
+routes:
+  aliases:
+    - /questions/2020-01-02
 taxonomy:
   type: post
   category: [Questions, Machine Learning]
