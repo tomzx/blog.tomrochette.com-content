@@ -1,6 +1,9 @@
 ---
 title: Organizing unread content
 created: 2020-01-07
+routes:
+  aliases:
+    - /questions/2020-01-07
 taxonomy:
   type: post
   category: [Questions, Task management]
