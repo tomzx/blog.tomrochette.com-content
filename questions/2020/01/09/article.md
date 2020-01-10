@@ -20,5 +20,5 @@ This question has come after thinking about DNA as being the code of a human bei
 * [RNA world](https://en.wikipedia.org/wiki/RNA_world)
 * [Abiogenesis](https://en.wikipedia.org/wiki/Abiogenesis)
 * [Cellular automaton](https://en.wikipedia.org/wiki/Cellular_automaton)
-* (https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life)
+* [Conway's Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life)
 * [A New Kind of Science](https://en.wikipedia.org/wiki/A_New_Kind_of_Science)
