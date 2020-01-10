@@ -1,6 +1,9 @@
 ---
 title: How to prioritize numerous tasks
 created: 2020-01-04
+routes:
+  aliases:
+    - /questions/2020-01-04
 taxonomy:
   type: post
   category: [Questions, Task management]
