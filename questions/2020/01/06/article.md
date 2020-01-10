@@ -1,6 +1,9 @@
 ---
 title: How to prioritize which book to read
 created: 2020-01-06
+routes:
+  aliases:
+    - /questions/2020-01-06
 taxonomy:
   type: post
   category: [Questions, Task management]
