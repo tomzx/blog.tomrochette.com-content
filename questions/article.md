@@ -13,6 +13,7 @@ As of 2020-01-01, I have been writing notes daily in text files, writing down qu
 Answering our own questions is the best way to increase our knowledge. By understanding where our understanding is lacking can we improve.
 
 # 2020
+## January
 * [2020-01-01 - Is reducing our size a viable alternative/approach to space exploration?](2020/01/01)
 * [2020-01-02 - How do you determine whether you have a useful model?](2020/01/02)
 * [2020-01-03 - Given that you define a ROI on a task, when should you stop working on a task and abandon it given its cost?](2020/01/03)
