@@ -1,6 +1,9 @@
 ---
 title: Reducing our size for space exploration
 created: 2020-01-01
+routes:
+  aliases:
+    - /questions/2020-01-01
 taxonomy:
   type: post
   category: [Questions, Space]
