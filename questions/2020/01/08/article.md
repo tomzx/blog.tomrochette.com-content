@@ -1,6 +1,9 @@
 ---
 title: Will an AGI will be superior to humans
 created: 2020-01-08
+routes:
+  aliases:
+    - /questions/2020-01-08
 taxonomy:
   type: post
   category: [Questions, Artificial General Intelligence]
