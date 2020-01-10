@@ -20,6 +20,7 @@ This code has evolved since we were non-biological. From a large amount of rando
 # References
 * [Genetics based AGI](../../../../agi/genetics-based-agi)
 * [Theory of self-reproducing automata](../../../../agi/books/theory-of-self-reproducing-automata)
+* [Seed AI](../../../../agi/seed-ai)
 * [RNA world](https://en.wikipedia.org/wiki/RNA_world)
 * [Abiogenesis](https://en.wikipedia.org/wiki/Abiogenesis)
 * [Cellular automaton](https://en.wikipedia.org/wiki/Cellular_automaton)
