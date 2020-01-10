@@ -21,3 +21,4 @@ Answering our own questions is the best way to increase our knowledge. By unders
 * [2020-01-06 - How can I easily identify the next book I should read when I have over 500 to choose from?](2020/01/06)
 * [2020-01-07 - How can I organize all the webpages I never read?](2020/01/07)
 * [2020-01-08 - Will an AGI superior to what a society/company is able to accomplish by grouping individuals in order to accomplish a common goal?](2020/01/08)
+* [2020-01-09 - A general characteristic of simple programs that are able to learn complex behaviors](2020/01/09)
