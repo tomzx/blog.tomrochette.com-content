@@ -1,6 +1,9 @@
 ---
 title: When to stop working on a task
 created: 2020-01-03
+routes:
+  aliases:
+    - /questions/2020-01-03
 taxonomy:
   type: post
   category: [Questions, Task management]
