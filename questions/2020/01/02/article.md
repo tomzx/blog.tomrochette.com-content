@@ -16,7 +16,7 @@ How do you determine whether you have a useful model?
 # Answer
 In machine learning, one way you can determine that you have a useful model is to compare it against baseline models. In a field such as time series, one can create models that are based on previous values, such as lag 0, which predicts that the next value will be equal to the current value, or a moving average, which takes the X last values and averages them and returns this average as the next predicted value. In this field, we expect that a model that can beat those baseline models may prove to be useful.
 
-In other cases, we may already have an existing model. This model may also serve as a baseline which other models will have to beat in order to replace it.
+In other cases, we may already have an existing model from which we can generate predictions. This model may also serve as a baseline which other models will have to beat in order to replace it.
 
 There is however a case where the answer isn't clear: what happens when out of various models, one of the baseline models is the best? Then it becomes a question of whether the prediction interval produced by the model satisfies your need for your problem.
 
