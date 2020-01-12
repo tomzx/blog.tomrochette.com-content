@@ -30,4 +30,4 @@ There might be other attributes of the model that you may need to take into acco
 * Can the model under evaluation beat baseline models?
 * Does the model under evaluation satisfy error requirements?
 * Is the model under evaluation significantly better than existing models?
-* Does the model under evaluation satisfy other requirements of the system such as time to train (e.g., less than 6 hours) or necessary resources (cpu, gpu, ram)?
+* Does the model under evaluation satisfy requirements such as time to train (e.g., less than 6 hours) or necessary resources (cpu, gpu, ram)?
