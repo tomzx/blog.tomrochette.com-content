@@ -22,6 +22,7 @@ I don't have enough knowledge of physics to determine all the impacts that scali
 	* what kind of technology can we use?
 * our ability to send communication signals back on earth
 	* given our small size, how can we produce enough power for the signal to be received?
+* are there physical phenomenons that we need to take into account due to our reduced size?
 
 When I asked myself this question, I was reading [Accelerando](https://www.goodreads.com/book/show/17863.Accelerando), where a crew is sent far in space in a "can". I always perceived it as being the size of a soft drink can and I thought that was an interesting idea. In the book they are not shipping human beings, but rather a simulation of their consciousness. In other words, they're sending an AI in a can™. I've also thought of this as explaining why we've never been visited by aliens. Maybe one of the steps in evolution or progress is that we are able to scale ourselves down so that we are not as visible as we currently are. Imagine being an ant colony instead of human society.
 
