@@ -1,5 +1,5 @@
 ---
-title: Storing and updating large amount of data
+title: Storing and updating large amounts of data
 created: 2020-01-11
 taxonomy:
   type: post
