@@ -51,3 +51,7 @@ The ROI metric will also give you clues about the task you should probably not s
 
 # Task management progression
 If you've never done task management before, I suggest you do not start by applying all the above at once. First, start by simply recording the tasks you need to get done (title only). Once you've recorded most of the tasks you have to deal with, start giving them an important/urgent assignation. It will help you rapidly determine which tasks should be done and which ones are nice to have, but not critical, or even not really useful if you think about it. Once you are able to have this information for most of your tasks, then you should start giving them effort and value estimates. Once you've reached this point, you will have a much better grasp on the importance of your tasks, as well as their potential impact in terms of value, as well as to the amount of effort it will require from you.
+
+# References
+* []()
+* []()
