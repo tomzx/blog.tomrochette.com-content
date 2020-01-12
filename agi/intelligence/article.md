@@ -42,7 +42,7 @@ taxonomy:
 * Recognition of more effective solutions to similarly faced problems
 * Ability to resolve problems one cannot resolve himself
 * Solve problems faster
-* Problems are more thorougly resolved
+* Problems are more thoroughly resolved and in greater depth
 
 # Measuring intelligence
 * Factors of interest in the formula
