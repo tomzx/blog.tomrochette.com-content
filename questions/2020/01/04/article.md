@@ -27,10 +27,10 @@ With this first pass of information added to your tasks, you should be able to p
 
 You should avoid as much as possible spending your time on tasks that are not important.
 
-This is the first step to prioritizing your task. It is a lightweight approach to prioritization which will also allow you to consider whether a task has any importance, something that is sometimes not considered and leads people to work on low priority tasks.
+This is the first step to prioritizing your task. It is a lightweight approach to prioritization which will also allow you to consider whether a task has any importance, something that is sometimes not considered and leads people to work on low priority/importance tasks.
 
 ## Return on investment (ROI)
-At this point, we now assume that you have a lot of tasks that are not urgent but important. So many in fact that it is hard to decide which ones to do. It may feel like you're back to square one, but now the important/urgent properties are not a way to order your tasks anymore. This is where the return on investment (ROI) metric is useful.
+At this point, we now assume that you have a lot of tasks that are not urgent but important. So many in fact that it is hard to decide which ones to do. It may feel like you're back to square one, but now the important/urgent properties are not useful to order these tasks anymore since they all have the same value. This is where the return on investment (ROI) metric is useful.
 
 Similar to the important/urgent properties, we will add two new properties: estimated value (in dollars) and estimated effort (in hours). A third field, the ROI, is automatically derived from the previous two by computing estimated value divided by estimated effort.
 
