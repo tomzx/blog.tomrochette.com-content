@@ -24,6 +24,8 @@ Compression is the process of encoding information using fewer bits than the ori
 # Overview
 
 # Notes
+How can you efficiently store terabytes of data, with hundreds of gigabytes updated daily?
+
 Assuming we start with an empty storage. Data could simply be added sequentially to the storage space as it comes in. During downtime, a period of low necessity to write to the storage space, a second process could go through the existing data in order to detect duplication and to compress it.
 
 A simple strategy could be to split the existing storage space in two and see whether the two parts are the same. If they are, then you can reduce the storage space by half. If that is not the case (which is highly likely), then the first and second parts are split in half again. This is a basic divide-and-conquer approach. Assuming that we're storing at a byte level, we would then use the blocks 2, 3 and 4 and compare them against block 1, block 2 with 3 and 4, block 3 with 4. This process can be repeated until we reach the single byte level, at which point it is not very useful anymore.
