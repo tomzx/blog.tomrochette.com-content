@@ -48,19 +48,20 @@ taxonomy:
 * Factors of interest in the formula
 	* Memory
 	* Speed
+	* Number of mistakes
 
 # Indicators of human intelligence
 * Tries to improve the intelligence of others
-* Listening instead of talking
-	* Absorb as much information as possible
-	* Do not show what they might not know
-* Know about a wide variety of topics
-* Have hidden abilities that may only be used when necessary
-* Do not attempt to make others look stupid
-* Do not dwell on things when they go wrong, as they can always be corrected
+* Listens instead of talking
+	* Absorbs as much information as possible
+	* Does not show what they might not know
+* Knows about a wide variety of topics
+* Has hidden abilities that may only be used when necessary
+* Does not attempt to make others look stupid
+* Does not dwell on things when they go wrong, as they can always be corrected
+* Is curious
 
 # Quotes
-
 > Do we want to copy the structure of human intelligence (i.e. the way our brains work), our behavior (i.e. make the same mistakes as humans), our capabilities (i.e. do stuff previously only humans could do), our cognitive functions (e.g. ability to perceive, learn, reason, etc.), or the principle of intelligence/rationality?
 
 **Source:** https://www.reddit.com/r/artificial/comments/4rzp2m/is_anyone_in_aimachine_learning_community_working/d55mwjh
@@ -94,8 +95,6 @@ We considered the neuron to be answering in a yes no fashion because it actually
 So as long as your chain of neurons is deep then it should mean that you can create more and more abstract concepts as they build upon simpler concepts.
 The fact that new connections can appear from unrelated neurons means that it is possible for the neuron to fire for incorrect reasons. This should generally mean that disconnection will get pruned sooner or later as it is an inappropriate trigger.
 Neurons also communicate through some form temporal signaling. Neurons may spike at a given interval based on the input it receives up until a certain point of saturation. At this point the neuron cannot fire any faster.
-
-
 
 # See also
 
