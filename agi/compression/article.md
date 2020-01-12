@@ -30,5 +30,5 @@ Compression is the process of encoding information using fewer bits than the ori
 
 * https://en.wikipedia.org/wiki/Compression
 * http://mattmahoney.net/dc/
-*
+* https://cs.fit.edu/~mmahoney/compression/rationale.html
 * http://prize.hutter1.net/
