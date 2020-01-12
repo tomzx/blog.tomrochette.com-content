@@ -23,6 +23,8 @@ Online compression would rely on a lookup dictionary to find blocks of data that
 
 Offline compression would rely on the ability to make the most efficient use of the compute and memory available.
 
+In the brain we make use of the fact that the sensory inputs are different modes. Each is compressed somewhat separately from the others. As such, we would expect information that is similar in format to be compressed together (text with text, video with video, audio with audio, etc.) as it is likely to lead to the highest compression.
+
 # References
 * [Compression](../../../../agi/compression)
 * [Rationale for a large text compression benchmark](https://cs.fit.edu/~mmahoney/compression/rationale.html)
