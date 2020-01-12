@@ -18,9 +18,9 @@ In machine learning, one way you can determine that you have a useful model is t
 
 In other cases, we may already have an existing model from which we can generate predictions. This model may also serve as a baseline which other models will have to beat in order to replace it.
 
-There is however a case where the answer isn't clear: what happens when out of various models, one of the baseline models is the best? Then it becomes a question of whether the prediction interval produced by the model satisfies your need for your problem.
+There is however a case where the answer isn't clear: what happens when out of various models, one of the baseline models is the best? Then it becomes a question of whether the prediction interval produced by the model satisfies your needs for your problem.
 
-Note that even when you beat the baseline models, if the best model still does not satisfy the error requirements that have been defined, it may still not be very useful. For example, an OCR model that has 95% accuracy at the character level will still produce 5 errors every 100 characters, which may be too high for the requirements of the system to be produced.
+Note that even when you beat the baseline models, if the best model still does not satisfy the error requirements that have been defined on the metrics you care about, it may still not be very useful. For example, an OCR model that has 95% accuracy at the character level will still produce 5 errors every 100 characters, which may be too high for the requirements of the system to be produced.
 
 Another factor to keep in mind when comparing models is whether the improvement on the error metric is significative. The average error may be lower for a model compared to another, but if its confidence interval is larger compared to the other model and their intervals overlap, then you cannot claim that one model is really better than the other.
 
