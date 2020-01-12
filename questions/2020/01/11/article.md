@@ -27,3 +27,4 @@ During the day we would want to use an online compression algorithm, most likely
 
 # References
 * [Compression](../../../../agi/compression)
+* [Rationale for a large text compression benchmark](https://cs.fit.edu/~mmahoney/compression/rationale.html)
