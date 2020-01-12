@@ -21,3 +21,4 @@ In 2020 I decided I would read one Wikipedia article per day. The purpose is to 
 * 2020-01-08 - https://en.wikipedia.org/wiki/Ubiquitous_computing
 * 2020-01-09 - https://en.wikipedia.org/wiki/Planet_Simulator
 * 2020-01-10 - https://en.wikipedia.org/wiki/Protocell
+* 2020-01-11 - https://en.wikipedia.org/wiki/Last_universal_common_ancestor
