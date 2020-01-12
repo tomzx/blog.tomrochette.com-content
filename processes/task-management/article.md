@@ -54,4 +54,4 @@ If you've never done task management before, I suggest you do not start by apply
 
 # References
 * [Given that you define a return on investment (ROI) on a task, when should you stop working on a task and abandon it given its cost?](../../questions/2020/01/03)
-* [How do you prioritize things when there are so many of them competing against one another?]()
+* [How do you prioritize things when there are so many of them competing against one another?](../../questions/2020/01/04)
