@@ -21,4 +21,5 @@ Is an agent that never says anything necessarily dumb? Such agent could be hidin
 
 In the stock market, we say that an investor is active if they regularly manage their portfolio, while a passive investor is one that manage their portfolio less frequently, depends on indexes instead of individual stocks and prefer to rely on the trend of stocks to make a profit. Active management is often compared to passive management as a benchmark, that is to say, you should not get involved in active management if your strategy cannot beat a simpler passive strategy. It is often the case that we see active investors as being foolish and more likely to lose money than passive investors.
 
-## References
+# References
+* [Intelligence](../../../../agi/intelligence)
