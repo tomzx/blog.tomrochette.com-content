@@ -20,3 +20,5 @@ A simple strategy could be to split the existing storage space in two and see wh
 This approach as many weaknesses:
 * It compares block of same sizes only, which means it cannot find a smaller block within a larger block and replace it with a common reference.
 * It only compares aligned blocks, that means that if block 1 could be found as part of blocks 2 and 3, it will not find that match.
+
+Given that we now have numerous compression algorithms available, it would be more sensible to rely on one of them.
