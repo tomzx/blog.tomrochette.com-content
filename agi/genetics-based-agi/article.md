@@ -96,5 +96,6 @@ Source:
 * https://en.wikipedia.org/wiki/Human_genome#Information_content
 * https://en.wikipedia.org/wiki/Messenger_RNA
 * https://berthub.eu/amazing-dna/
+* http://www.hxa.name/articles/content/genetics-basics_hxa7241_2003.html
 
 * Ji, Sungchul. "The linguistics of DNA: words, sentences, grammar, phonetics, and semantics." Annals of the New York Academy of Sciences 870.1 (1999): 411-417.
