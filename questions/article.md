@@ -24,4 +24,4 @@ Answering our own questions is the best way to increase our knowledge. By unders
 * [2020-01-08 - Will an AGI superior to what a society/company is able to accomplish by grouping individuals in order to accomplish a common goal?](2020/01/08)
 * [2020-01-09 - Is there a general characteristic of simple programs that are able to learn complex behaviors, such as neural network or RL-based algorithms that can be implemented in less than 100-250 lines?](2020/01/09)
 * [2020-01-10 - Are passive or active agents more intelligent?](2020/01/10)
-* [2020-01-11 - How can you efficiently store terabytes of data, with hundreds of gigabytes updated daily?](2020/01/11)
+* [2020-01-11 - How can an agent efficiently store terabytes of data, with hundreds of gigabytes updated daily?](2020/01/11)
