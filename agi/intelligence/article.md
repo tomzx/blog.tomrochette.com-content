@@ -30,15 +30,19 @@ taxonomy:
 * Recognition of errors made in the past
 * Cannot resolve problems one can
 * Solves problem more slowly
+* Solution is not appropriate for the problem at hand
 
 ### In the same range
 * Problem resolution in which there is trade-off between the solutions (no real winner)
 * Similar efficiency in problem resolution
+* Preference for different tools
+* Disagreement on the most important aspect of a solution
 
 ### Over
 * Recognition of more effective solutions to similarly faced problems
 * Ability to resolve problems one cannot resolve himself
 * Solve problems faster
+* Problems are more thorougly resolved
 
 # Measuring intelligence
 * Factors of interest in the formula
