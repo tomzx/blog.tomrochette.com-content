@@ -23,7 +23,11 @@ This approach has many weaknesses (amongst others not listed here):
 
 Given that we now have numerous compression algorithms available, it would be more sensible to rely on one of them.
 
-During the day we would want to use an online compression algorithm, most likely based on dictionary lookup with the most frequent fragments being stored in high bandwidth and low latency memory.
+During the day we would want to use an online compression algorithm, most likely based on dictionary lookup with the most frequent fragments being stored in high bandwidth and low latency memory. It should be possible to make use of this online compression algorithm from the start, however it would require a certain amount of data before it has built any kind of meaningful lookup dictionary with frequency count.
+
+Having online compression algorithm compress data as it comes in might prevent the offline compression algorithm from doing better compression. It may also mean that we need to decompress the data that was compressed using the online method so that the offline decompressor can compress it better. We can see online compression as short term memory, while offline compression would be long term memory.
+
+One issue with this approach is retrieval.
 
 # References
 * [Compression](../../../../agi/compression)
