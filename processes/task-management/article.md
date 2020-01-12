@@ -54,4 +54,4 @@ If you've never done task management before, I suggest you do not start by apply
 
 # References
 * []()
-* []()
+* [How do you prioritize things when there are so many of them competing against one another?]()
