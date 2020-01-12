@@ -24,3 +24,6 @@ This approach has many weaknesses (amongst others not listed here):
 Given that we now have numerous compression algorithms available, it would be more sensible to rely on one of them.
 
 During the day we would want to use an online compression algorithm, most likely based on dictionary lookup with the most frequent fragments being stored in high bandwidth and low latency memory.
+
+# References
+* [Compression](../../../../agi/compression)
