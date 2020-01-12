@@ -8,7 +8,7 @@ taxonomy:
 ---
 
 # Question
-How can you efficiently store terabytes of data, with hundreds of gigabytes updated daily?
+How can an agent efficiently store terabytes of data, with hundreds of gigabytes updated daily?
 
 # Answer
 This question comes from the idea that if we want to implement an artificial intelligence, it will have to be able to process a large amount of data, similar to how we need to process a stream of sensorial (sight, hearing, taste, touch, smell) inputs actively more than 12 hours per day.
