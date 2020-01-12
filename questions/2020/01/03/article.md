@@ -11,7 +11,7 @@ taxonomy:
 ---
 
 # Question
-Given that you define a ROI on a task, when should you stop working on a task and abandon it given its cost?
+Given that you define a return on investment (ROI) on a task, when should you stop working on a task and abandon it given its cost?
 
 # Answer
 Let's assume that your task has an estimate of effort (in hours) and an estimate of value (in dollars). The ROI is defined as the value divided by the effort ($/h).
