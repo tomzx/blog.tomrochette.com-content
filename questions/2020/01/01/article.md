@@ -17,6 +17,7 @@ Is reducing our size a viable alternative/approach to space exploration?
 I don't have enough knowledge of physics to determine all the impacts that scaling ourselves down would have. There are a few things I would consider, such as:
 * the impact on being launched in space
 	* do we need less energy?
+	* are there other means to get us in space if we're smaller?
 * our ability to accelerate/decelerate in space
 	* what kind of technology can we use?
 * our ability to send communication signals back on earth
