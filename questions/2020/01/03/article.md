@@ -23,3 +23,6 @@ A task should be reviewed at half the estimated effort duration. If you estimate
 Since you are updating your ROI estimate, you can also update your estimate of the value of the task you are working on. If it is a large task, maybe after having prototyped the idea you realize it will not provide as much value as anticipated. You can then review its value down. If on the other hand you get excited by what it brings to the table, by all means, increase its estimated value.
 
 Once you have adjusted the estimated effort and value, take a look at your estimated ROI. If it has gone below your threshold, consider dropping it. Investing additional time in it may provide less value than working on a new, more valuable task. If on the other hand, the ROI is still superior to your threshold, then continue working on the task.
+
+# References
+* [Sunk cost fallacy](https://en.wikipedia.org/wiki/Sunk_cost)
