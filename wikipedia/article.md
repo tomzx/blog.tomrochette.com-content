@@ -9,7 +9,7 @@ taxonomy:
 # Context
 In 2020 I decided I would read one Wikipedia article per day. The purpose is to learn something new every day.
 
-Over time I would like to go over Wikipedia's vital articles.
+Over time I would like to go over [Wikipedia's vital articles](https://en.wikipedia.org/wiki/Wikipedia:Vital_articles).
 
 # 2020
 ## January
