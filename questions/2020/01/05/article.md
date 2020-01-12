@@ -27,7 +27,7 @@ Coaching generally starts by trying to reproduce the recipe of someone else. You
 ### AI
 In the first learning phase, the model simply observes what happens during gameplay. In competitive games such as MOBA/RTS, the only reward signal is the victory/loss at the end of a game. As human beings, we quickly learn that winning a fight/encounter is good and losing it is bad. Those give use intermediate reward signals that an AI agent may not be able to build right away since it is conceptually difficult to determine when an encounter begins and ends. The agent could however learn a simple metric such as *the sum of health of all units*, where keeping this value high is generally a good thing.
 
-The model will need at some point to be able to establish its own scoring system so it can give itself some intermediate rewards during a game. It will also need to learn how to segment a sequence of actions into repeatable units such as constructing unit X, attacking player Y, defending zone Z. As such, it may deem that constructing unit X is worth 5 units of reward, attacking player Y is worth no reward and that defending zone Z is worth 30 points of reward. The value of rewards may vary based on numerous factors, such as how much time has elapsed since the beginning of the game, the known enemy army composition, existing vision, etc.
+The model will need at some point to be able to establish its own scoring system so it can give itself some intermediate rewards during a game. It will also need to learn how to segment a sequence of actions into repeatable action units such as constructing unit X, attacking player Y, defending zone Z. As such, it may deem that constructing unit X is worth 5 units of reward, attacking player Y is worth no reward and that defending zone Z is worth 30 points of reward. The value of rewards may vary based on numerous factors, such as how much time has elapsed since the beginning of the game, the known enemy army composition, existing vision, etc.
 
 Having actions such as "attack coordinate X, Y" are a too low level. Your model will have to learn hierarchically complex actions such as "attack player X", "attack the gatherers of player X", "attack the weak gatherers of player X", etc.
 
@@ -47,6 +47,7 @@ In the case of learning by playing against yourself, what we want the AI coach t
 ## Features we may want from an AI coach
 * Determine your weaknesses/areas of improvement
 * Suggest potential approaches to solve recurrent problems we have
+* Suggest heuristics that may be easy to understand and follow as human beings
 * Simulate opponents that would exert your current weaknesses so you can practice against them
 * Collect various gameplay related statistics their associated success rate (number of units of type X after Y minutes, number of creeps killed after X minutes, items purchase order, build order, etc.)
 
