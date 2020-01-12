@@ -25,7 +25,7 @@ With this first pass of information added to your tasks, you should be able to p
 3. Not important/Urgent
 4. Not important/Not urgent
 
-You should avoid as much as possible spending your time on not important tasks.
+You should avoid as much as possible spending your time on tasks that are not important.
 
 This is the first step to prioritizing your task. It is a lightweight approach to prioritization which will also allow you to consider whether a task has any importance, something that is sometimes not considered and leads people to work on low priority tasks.
 
