@@ -20,12 +20,12 @@ To coach you need to have a model of which actions have impact on the game and h
 
 ## Learning from observation
 ### Humans
-The most common approach to coaching is by observing more successful players than themselves. They may watch them while they're playing the game and commenting on their gameplay or they may watch someone reviewing a replay and providing their own analysis. Both of these cases can be seen as models (the players) trying to explain their internals (the logic behind their actions).
+The most common approach to coaching is by observing more successful players than themselves. The learners may watch the better players while the better players are playing the game and commenting on their gameplay or the learners may watch someone reviewing a replay and providing their own analysis. Both of these cases can be seen as models (the players) trying to explain their internals (the logic behind their actions).
 
-Coaching generally starts by trying to reproduce the recipe of someone else. You may not understand why they are doing certain things, but you do it yourself and you observe the results.
+Coaching generally starts by trying to reproduce the recipe of someone else. You may not understand why they are doing certain things, but you do it yourself and you observe the results. As you practice repeating those same observations => actions, you try to reproduce as closely as possible what the better player would do.
 
 ### AI
-In the first phase, the model simply observes what happens during gameplay. In competitive games such as MOBA/RTS, the only reward signal is the victory/loss at the end of a game. As human beings, we quickly learn that winning a fight/encounter is good and losing it is bad.
+In the first learning phase, the model simply observes what happens during gameplay. In competitive games such as MOBA/RTS, the only reward signal is the victory/loss at the end of a game. As human beings, we quickly learn that winning a fight/encounter is good and losing it is bad. Those give use intermediate reward signals that an AI agent may not be able to build right away since it is conceptually difficult to determine when an encounter begins and ends. The agent could however learn a simple metric such as *the sum of health of all units*.
 
 The model will need at some point to be able to establish its own scoring system so it can give itself some intermediate rewards during a game. It will also need to learn how to segment a sequence of actions into repeatable units such as constructing unit X, attacking player Y, defending zone Z. As such, it may deem that constructing unit X is worth 5 units of reward, attacking player Y is worth no reward and that defending zone Z is worth 30 points of reward. The value of rewards may vary based on numerous factors, such as how much time has elapsed since the beginning of the game, the known enemy army composition, existing vision, etc.
 
