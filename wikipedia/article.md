@@ -9,7 +9,7 @@ taxonomy:
 # Context
 In 2020 I decided I would read one Wikipedia article per day. The purpose is to learn something new every day.
 
-Over time I would like to go over [Wikipedia's vital articles](https://en.wikipedia.org/wiki/Wikipedia:Vital_articles), most likely only level 1 (10 pages) and 2 (100 pages).
+Over time I would like to go over [Wikipedia's vital articles](https://en.wikipedia.org/wiki/Wikipedia:Vital_articles), most likely only [level 1](https://en.wikipedia.org/wiki/Wikipedia:Vital_articles/Level/1) (10 pages) and [level 2](https://en.wikipedia.org/wiki/Wikipedia:Vital_articles/Level/2) (100 pages).
 
 # 2020
 ## January
