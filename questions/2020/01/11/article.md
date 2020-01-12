@@ -21,7 +21,7 @@ I would expect such a system to make use of two types of compression: offline an
 
 Online compression would rely on a lookup dictionary to find blocks of data that have already been seen numerous times. The quality of the system depends highly on the assumption that what you will observe in the future is highly likely to be what you've observed in the past. During a day, we spend most of our time in the same environment. As such, we experience and observe the same things for an extended amount of time. Being able to determine what is similar and what is different is what will lead to the highest amount of compression.
 
-Offline compression
+Offline compression would rely on the ability to make the most efficient use of the compute and memory available.
 
 # References
 * [Compression](../../../../agi/compression)
