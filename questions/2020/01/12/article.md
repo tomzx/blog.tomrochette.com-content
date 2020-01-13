@@ -21,5 +21,7 @@ A lot of what I wrote in [How do you prioritize things when there are so many of
 
 
 
+> In a thrashing state, you’re making essentially no progress, so even doing tasks in the wrong order is better than doing nothing at all. Instead of answering the most important emails first—which requires an assessment of the whole picture that may take longer than the work itself—maybe you should sidestep that quadratic-time quicksand by just answering the emails in random order, or in whatever order they happen to appear on-screen.
+
 # References
 * [Algorithms to live by](https://www.goodreads.com/book/show/25666050-algorithms-to-live-by)
