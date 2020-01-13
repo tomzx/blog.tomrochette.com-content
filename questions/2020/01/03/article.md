@@ -27,3 +27,4 @@ Once you have adjusted the estimated effort and value, take a look at your estim
 # References
 * [Task management](../../../../../processes/task-management)
 * [Sunk cost fallacy](https://en.wikipedia.org/wiki/Sunk_cost)
+* [Algorithms to live by - Chapter on Optimal Stopping](https://www.goodreads.com/book/show/25666050-algorithms-to-live-by)
