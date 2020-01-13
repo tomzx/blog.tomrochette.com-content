@@ -1,3 +1,11 @@
+---
+title: Books
+created: 2020-01-12
+taxonomy:
+  category: [Books]
+  status: in progress
+---
+
 # 2017
 * Semantic web
 * War of the ancients - The demon soul
