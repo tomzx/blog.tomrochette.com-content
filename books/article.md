@@ -17,7 +17,16 @@
 * The master algorithm
 * Algorithms to live by
 * The brain
-
+* Wolfheart
+* Tides of war
+* Dawn of the aspects - Part 1
+* Dawn of the aspects - Part 2
+* Superintelligence
+* Dawn of the aspects - Part 3
+* Dawn of the aspects - Part 4
+* Dawn of the aspects - Part 5
+* Soft skills
+* The human brain
 
 # 2018
 * Vol'jin Shadows of the Horde
