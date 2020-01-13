@@ -13,4 +13,4 @@ Given a continuously growing number of questions one ask himself, what is the pr
 # Answer
 There is no proper procedure per se. The best approach is simply to get started.
 
-A lot of what I wrote in [How do you prioritize things when there are so many of them competing against one another?](../04)
+A lot of what I wrote in [How do you prioritize things when there are so many of them competing against one another?](../04) applies here.
