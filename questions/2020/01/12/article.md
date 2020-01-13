@@ -23,7 +23,7 @@ A lot of what I wrote in [How do you prioritize things when there are so many of
 	* Record under such question that you decided not to answer them due to a lack of value
 * Prioritize the questions you would like to have an answer to
 	* Evaluate how valuable is a question's answer to you, and how much time you would be willing to answer it
-* [Answer one question per day](..)
+* [Answer one question per day](../..)
 
 # References
 * [Algorithms to live by](https://www.goodreads.com/book/show/25666050-algorithms-to-live-by)
