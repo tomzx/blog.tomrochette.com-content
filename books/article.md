@@ -1,3 +1,15 @@
+# 2018
+* The silmarillion
+* How to take smart notes
+* Before the storm
+* The power of habit
+* The organized mind
+* Start small, stay small
+* The checklist
+* Everything is miscellaneous
+* The effective engineer
+* Smarter, faster, better
+
 # 2019
 * Our final invention
 * Pragmatic thinking & learning
