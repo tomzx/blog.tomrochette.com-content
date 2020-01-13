@@ -1,4 +1,13 @@
 # 2018
+* Vol'jin Shadows of the Horde
+* Le petit prince
+* Deep learning with python
+* Life 3.0
+* Illidan
+* War crimes
+* Thinking, fast and slow
+* The one minute manager
+* Introducing Ethereum and Solidity
 * The silmarillion
 * How to take smart notes
 * Before the storm
