@@ -21,7 +21,6 @@ How can I organize all the webpages I never read?
 4. Estimate how long an article takes to read and how much value you expect it will bring you
 5. Use the ROI to order your reading list
 
-
 ## The details
 The following method should probably apply for content online as well as offline (magazine article, books).
 
