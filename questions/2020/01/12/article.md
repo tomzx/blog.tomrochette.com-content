@@ -19,7 +19,7 @@ A lot of what I wrote in [How do you prioritize things when there are so many of
 * Prioritize the questions you would like to have an answer to
 	* Evaluate how valuable is a question's answer to you, and how much time you would be willing to answer it
 
-
+In their book Algorithms to live by, Brian Christian and Tom Griffiths write
 
 > In a thrashing state, you’re making essentially no progress, so even doing tasks in the wrong order is better than doing nothing at all. Instead of answering the most important emails first—which requires an assessment of the whole picture that may take longer than the work itself—maybe you should sidestep that quadratic-time quicksand by just answering the emails in random order, or in whatever order they happen to appear on-screen.
 
