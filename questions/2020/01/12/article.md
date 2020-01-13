@@ -16,3 +16,5 @@ There is no proper procedure per se. The best approach is simply to get started.
 A lot of what I wrote in [How do you prioritize things when there are so many of them competing against one another?](../04) and [How can I organize all the webpages I never read?](../07) applies here, namely:
 
 * Do not spend time answering questions you don't care about the answer
+* Prioritize the questions you would like to have an answer to
+	* Evaluate how valuable is a question's answer to you, and how much time you would be willing to answer it
