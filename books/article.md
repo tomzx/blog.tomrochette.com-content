@@ -1,7 +1,23 @@
 # 2017
 * Semantic web
-* War of the ancients
-* War of the ancients
+* War of the ancients - The demon soul
+* War of the ancients - The sundering
+* The lifecycle of software objects
+* Data center of doom
+* Cycle of hatred
+* How to make a complete map of every thought you think
+* The structure of scientific revolutions
+* Night of the dragon
+* Deep learning
+* Stormrage
+* Total recall
+* The shattering
+* Elements of information theory
+* Thrall
+* The master algorithm
+* Algorithms to live by
+* The brain
+
 
 # 2018
 * Vol'jin Shadows of the Horde
