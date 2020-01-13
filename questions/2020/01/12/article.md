@@ -18,3 +18,6 @@ A lot of what I wrote in [How do you prioritize things when there are so many of
 * Do not spend time answering questions you don't care about the answer
 * Prioritize the questions you would like to have an answer to
 	* Evaluate how valuable is a question's answer to you, and how much time you would be willing to answer it
+
+# References
+* [Algorithms to live by](https://www.goodreads.com/book/show/25666050-algorithms-to-live-by)
