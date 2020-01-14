@@ -1,5 +1,5 @@
 ---
-title: Will an AGI will be superior to humans
+title: Will an AGI be superior to a group of individuals
 created: 2020-01-08
 routes:
   aliases:
@@ -11,7 +11,7 @@ taxonomy:
 ---
 
 # Question
-Will an AGI superior to what a society/company is able to accomplish by grouping individuals in order to accomplish a common goal?
+Will an AGI be superior to a group of individuals (e.g., a society or company)?
 
 # Answer
 Most likely.
