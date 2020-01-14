@@ -1,5 +1,5 @@
 ---
-title: Will an AGI be superior to a group of individuals
+title: Will an AGI be superior to a large group of individuals
 created: 2020-01-08
 routes:
   aliases:
@@ -11,7 +11,7 @@ taxonomy:
 ---
 
 # Question
-Will an AGI be superior to a group of individuals (e.g., a society or company)?
+Will an AGI be superior to a large group of individuals (e.g., a society or company)?
 
 # Answer
 Most likely.
