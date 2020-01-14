@@ -26,3 +26,4 @@ Answering our own questions is the best way to increase our knowledge. By unders
 * [2020-01-10 - Are passive or active agents more intelligent?](2020/01/10)
 * [2020-01-11 - How can an agent efficiently store terabytes of data, with hundreds of gigabytes updated daily?](2020/01/11)
 * [2020-01-12 - Given a continuously growing number of questions one ask himself, what is the proper procedure to answer these questions?](2020/01/12)
+* [2020-01-13 - What do humans modeled as computers look like?](2020/01/13)
