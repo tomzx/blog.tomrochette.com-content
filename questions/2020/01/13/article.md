@@ -20,3 +20,6 @@ What does a human look like if modeled as a computer?
 * Touch is complex as it deals with textures, temperatures, pressures, however it can likely be modelized as a surface with discrete elements that measure a few things such as the force currently applied on it, the temperature, moisture
 * Taste and smell are also complex as they are specialized receptors that will create different fragrance based on the distribution of particles that are perceived (and that can be recognized)
 * The arms, legs, hands, feet are actuators used to interact with the environment
+
+# References
+* [Humans as machines](../../../../agi/humans-as-machines)
