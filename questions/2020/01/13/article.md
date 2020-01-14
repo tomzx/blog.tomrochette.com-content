@@ -23,3 +23,4 @@ What does a human look like if modeled as a computer?
 
 # References
 * [Humans as machines](../../../../agi/humans-as-machines)
+* [Senses](../../../../agi/senses)
