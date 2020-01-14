@@ -8,7 +8,7 @@ taxonomy:
 ---
 
 # Question
-What does a human modeled as a computer look like?
+What does humans modeled as computers look like?
 
 # Answer
 * Numerous processes all running in parallel in different regions of the body (heart beat, breathing)
@@ -20,6 +20,8 @@ What does a human modeled as a computer look like?
 * Touch is complex as it deals with textures, temperatures, pressures, however it can likely be modelized as a surface with discrete elements that measure a few things such as the force currently applied on it, the temperature, moisture
 * Taste and smell are also complex as they are specialized receptors that will create different fragrance based on the distribution of particles that are perceived (and that can be recognized)
 * The arms, legs, hands, feet are actuators used to interact with the environment
+* The stomach and intestine are the power supply
+* Neurons throughout the body act as distributed memory and storage
 
 # References
 * [Deconstruction of a mind](../../../../agi/deconstruction-of-a-mind)
