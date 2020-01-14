@@ -8,7 +8,7 @@ taxonomy:
 ---
 
 # Question
-What does a human look like if modeled as a computer?
+What does a human modeled as a computer look like?
 
 # Answer
 * Numerous processes all running in parallel in different regions of the body (heart beat, breathing)
