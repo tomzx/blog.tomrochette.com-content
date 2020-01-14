@@ -22,6 +22,7 @@ What does a human look like if modeled as a computer?
 * The arms, legs, hands, feet are actuators used to interact with the environment
 
 # References
-* [The brain](../../../../agi/the-brain)
+* [Deconstruction of a mind](../../../../agi/deconstruction-of-a-mind)
 * [Humans as machines](../../../../agi/humans-as-machines)
 * [Senses](../../../../agi/senses)
+* [The brain](../../../../agi/the-brain)
