@@ -18,9 +18,11 @@ What are the differences between a brain and a CPU?
 * The brain does not have a clear instruction set.
 * The brain consumes glucose for energy, while a CPU consumes electricity
 * The human brain is much larger than a CPU chip
+* Heat dissipation is done through cerebral circulation in the brain and through a heatsink attached to a CPU
 
 ## To be determined
 * The brain may not have different levels of memory cache (we do however talk about short and long term memory).
 
 # References
 * https://hypertextbook.com/facts/2001/JacquelineLing.shtml
+* https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4189373/
