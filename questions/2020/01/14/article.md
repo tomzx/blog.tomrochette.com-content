@@ -17,6 +17,7 @@ What are the differences between a brain and a CPU?
 * The brain is a lot slower in terms of sequential operations, processing at a maximum of 250-1000 Hz.
 * The brain does not have a clear instruction set.
 * The brain consumes glucose for energy, while a CPU consumes electricity
+* The human brain is much larger than a CPU chip
 
 ## To be determined
 * The brain may not have different levels of memory cache (we do however talk about short and long term memory).
