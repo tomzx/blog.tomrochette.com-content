@@ -16,6 +16,10 @@ What are the differences between a brain and a CPU?
 * CPUs can freely control their memory access while the brain memory organization and access is unclear.
 * The brain is a lot slower in terms of sequential operations, processing at a maximum of 250-1000 Hz.
 * The brain does not have a clear instruction set.
+* The brain uses about 20 W of power, while a current CPU uses around 100 W
 
 ## To be determined
 * The brain may not have different levels of memory cache (we do however talk about short and long term memory).
+
+# References
+* https://hypertextbook.com/facts/2001/JacquelineLing.shtml
