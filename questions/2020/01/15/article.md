@@ -18,4 +18,4 @@ We currently know of a single instance of a system that is able to produce human
 Genetics is seen as the programming of life. What I find interesting is that we can see the current human DNA as our latest implementation of this code. Since this code did not come out of existence out of no where, studying out DNA came to be can give us ideas as to how a seed AI might come to be.
 
 # References
-* * [Seed AI](../../../../agi/seed-ai)
+* [Seed AI](../../../../agi/seed-ai)
