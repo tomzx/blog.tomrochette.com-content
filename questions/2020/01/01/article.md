@@ -28,4 +28,4 @@ When I asked myself this question, I was reading [Accelerando](https://www.goodr
 
 The benefits I could see from being able to reduce the size of our satellites or vessels is that less mass is required to be turned into a spacecraft, which could allow us to create many more spacecrafts for the same amount of materials.
 
-This question is also reminiscent of the movies like [Honey, I shrunk the Kids](https://en.wikipedia.org/wiki/Honey,_I_Shrunk_the_Kids), [Downsizing](https://en.wikipedia.org/wiki/Downsizing_(film)), [Ant-Man](https://en.wikipedia.org/wiki/Ant-Man_(film)) or even a recent [Rick & Morty episode](https://en.wikipedia.org/wiki/The_Ricks_Must_Be_Crazy). They explore the differences between full and miniature scales.
+This question is also reminiscent of movies like [Honey, I shrunk the Kids](https://en.wikipedia.org/wiki/Honey,_I_Shrunk_the_Kids), [Downsizing](https://en.wikipedia.org/wiki/Downsizing_(film)), [Ant-Man](https://en.wikipedia.org/wiki/Ant-Man_(film)) or even a recent [Rick & Morty episode](https://en.wikipedia.org/wiki/The_Ricks_Must_Be_Crazy). They explore the differences between full and miniature scales.
