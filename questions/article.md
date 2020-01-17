@@ -29,3 +29,4 @@ Answering our own questions is the best way to increase our knowledge. By unders
 * [2020-01-13 - What do humans modeled as computers look like?](2020/01/13)
 * [2020-01-14 - What are the differences between a brain and a CPU?](2020/01/14)
 * [2020-01-15 - Why is biology and genetics interesting to AGI researchers?](2020/01/15)
+* [2020-01-16 - How can one identify the areas he needs to improve?](2020/01/16)
