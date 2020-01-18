@@ -30,3 +30,4 @@ Answering our own questions is the best way to increase our knowledge. By unders
 * [2020-01-14 - What are the differences between a brain and a CPU?](2020/01/14)
 * [2020-01-15 - Why is biology and genetics interesting to AGI researchers?](2020/01/15)
 * [2020-01-16 - How can one identify the areas he needs to improve?](2020/01/16)
+* [2020-01-17 - How does one determine the best material to learn a topic?](2020/01/17)
