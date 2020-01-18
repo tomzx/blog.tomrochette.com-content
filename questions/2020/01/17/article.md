@@ -11,3 +11,4 @@ taxonomy:
 How does one determine the best material to learn a topic?
 
 # Answer
+My approach has always been based on the wisdom of the crowd.
