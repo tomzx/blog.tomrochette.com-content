@@ -19,4 +19,4 @@ If I already have some knowledge about the topic I am studying, I might actually
 
 In some cases I will ask people that are more knowledgeable than I am to give me references. I use my knowledge of their expertise to determine the topics on which they can and cannot offer expertise and suggestions.
 
-If there are multiple options of material, then I will skim a few of them, maybe read a few passages to get a personal impression of the book. I prefer concise
+If there are multiple options of material, then I will skim a few of them, maybe read a few passages to get a personal impression of the book. I prefer concise and non repetitive content.
