@@ -25,3 +25,4 @@ Just like a git repository, I'd like to be able to look at DNA's history and und
 
 # References
 * [Seed AI](../../../../agi/seed-ai)
+* [DNA: The Code of Life (SHA2017)](https://www.youtube.com/watch?v=EcGM_cNzQmE)
