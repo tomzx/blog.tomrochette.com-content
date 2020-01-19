@@ -15,4 +15,4 @@ It is (for supervised learning) looking at numerous samples, decomposing them in
 
 It is (potentially lossy) compression the observed samples, where the learning algorithm describe the compression/decompression algorithm.
 
-It is the creation of some "memory" of the observed samples. Whereas an untrained model has no memory of the dataset, since it hasn't seen the data, a trained model has some form of memory. A simple model such as sklearn's [DummyRegressor](https://scikit-learn.org/stable/modules/generated/sklearn.dummy.DummyRegressor.html) will learn the mean of the target variables.
+It is the creation of some "memory" of the observed samples. Whereas an untrained model has no memory of the dataset, since it hasn't seen the data, a trained model has some form of memory. A simple model such as sklearn's [DummyRegressor](https://scikit-learn.org/stable/modules/generated/sklearn.dummy.DummyRegressor.html) will learn and memorize the mean of the target variables.
