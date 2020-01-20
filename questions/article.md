@@ -32,3 +32,4 @@ Answering our own questions is the best way to increase our knowledge. By unders
 * [2020-01-16 - How can one identify the areas he needs to improve?](2020/01/16)
 * [2020-01-17 - How does one determine the best material to learn a topic?](2020/01/17)
 * [2020-01-18 - What is learning according to machine learning?](2020/01/18)
+* [2020-01-19 - What is belief traceability?](2020/01/19)
