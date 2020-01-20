@@ -20,4 +20,4 @@ An AGI may be a strong single minded entity. Unlike societies and companies that
 
 Meanwhile, we as individuals hold VBO that are often inconsistent. As a group, we are heterogenous in our VBO which means that conflict will arise since some sets of VBO cannot coexist. Our biggest issue is that we are competitive by nature. People fight over resources if they are limited. Fighting leads to winners and losers. The winners may not be necessarily the individuals with the "best" set of VBO. The fact that the "fittest" VBO may end up as the winner instead of the "best" set of VBO sounds unlikely to lead us to produce the optimal solution to a desired goal.
 
-This thus assumes that there is a single "best" VBO and not various VBOs.
+(This assumes that there is a single "best" VBO set and not various VBOs sets in the heterarchy of VBOs.)
