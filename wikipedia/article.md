@@ -31,3 +31,4 @@ Over time I would like to go over [Wikipedia's vital articles](https://en.wikipe
 * 2020-01-16 - https://en.wikipedia.org/wiki/Central_dogma_of_molecular_biology
 * 2020-01-17 - https://en.wikipedia.org/wiki/Great_Attractor
 * 2020-01-18 - https://en.wikipedia.org/wiki/Zstandard
+* 2020-01-19 - https://en.wikipedia.org/wiki/Estimation_statistics
