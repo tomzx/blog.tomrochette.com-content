@@ -11,3 +11,4 @@ taxonomy:
 What is belief traceability?
 
 # Answer
+In software development, is it very common to want to have traceability between things. We want to know from where a requirement came from, who created the entry, who approved that it should be supported by the software, the issues in the issue tracker that will implement the requirement, who implemented the requirement, who reviewed the implementation, etc. The goal is to be able to retell the story of this requirement from beginning to end if necessary.
