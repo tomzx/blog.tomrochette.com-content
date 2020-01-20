@@ -15,7 +15,7 @@ A passive agent is an agent that simply does its thing but does not interact wit
 
 An active agent is an agent that actively interact with the environment.
 
-Given those two definitions, we expect the active agent to appear more intelligent because it behaves according to its environment and interacts with it. A passive agent may however also behave according its environment, it just doesn't try to alter it.
+Given those two definitions, we expect the active agent to appear more intelligent because it behaves according to its environment and interacts with it. A passive agent may however also behave according to its environment, it just doesn't try to alter it.
 
 Is an agent that never says anything necessarily dumb? Such agent could be hiding all the information of the world within itself, and could potentially solve any problem thrown at him, but it simply does not offer such answers because it doesn't interact with the world. The relationship between the agent and the world is one-sided, from the environment (on)to the agent. From the outside, the agent looks like an inanimate object that doesn't know anything nor can it do anything. But if you are able to peek inside, you can observe the most complex processes occurring. I would suggest that such agent is highly intelligent.
 
