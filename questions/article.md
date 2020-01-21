@@ -33,4 +33,4 @@ Answering our own questions is the best way to increase our knowledge. By unders
 * [2020-01-17 - How does one determine the best material to learn a topic?](2020/01/17)
 * [2020-01-18 - What is learning according to machine learning?](2020/01/18)
 * [2020-01-19 - What is belief traceability?](2020/01/19)
-* [2020-01-20 - What is the point of asking oneself many questions when few of them are answered?](2020/01/20)
+* [2020-01-20 - What is the point of asking ourselves many questions when we only answer a few of them?](2020/01/20)
