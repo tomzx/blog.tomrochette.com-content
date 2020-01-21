@@ -11,7 +11,7 @@ taxonomy:
 ---
 
 # Question
-Will an AGI be superior to a large group of individuals (e.g., a society or company)?
+Will an AGI be superior to a large group of individuals (e.g., society or a company)?
 
 # Answer
 Most likely.
