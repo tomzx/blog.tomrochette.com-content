@@ -17,7 +17,7 @@ How do you prioritize things when there are so many of them competing against on
 My approach to task prioritization, assuming that you have a list of tasks with no other information, involves adding information that will help you prioritize them.
 
 ## Important/Urgent
-Assuming you are using a issue tracking system like Redmine, Notion.so or JIRA, I would add two new properties to each task: important and urgent. This approach is based on the [Eisenhower method](https://en.wikipedia.org/wiki/Time_management#The_Eisenhower_Method) of time management. You will want to go through all the tasks and determine whether they are important and whether they are urgent.
+Assuming you are using an issue tracking system like Redmine, Notion.so or JIRA, I would add two new properties to each task: important and urgent. This approach is based on the [Eisenhower method](https://en.wikipedia.org/wiki/Time_management#The_Eisenhower_Method) of time management. You will want to go through all the tasks and determine whether they are important and whether they are urgent.
 
 With this first pass of information added to your tasks, you should be able to prioritize them in the following order:
 1. Important/Urgent
