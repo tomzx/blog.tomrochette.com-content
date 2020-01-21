@@ -8,7 +8,7 @@ taxonomy:
 ---
 
 # Question
-Why is biology and genetics interesting to AGI researchers?
+Why are biology and genetics interesting to AGI researchers?
 
 # Answer
 Because it may provide interesting ideas and clues that can help with the development of AGI.
