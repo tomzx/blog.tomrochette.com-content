@@ -22,7 +22,7 @@ How can I organize all the webpages I never read?
 5. Use the ROI to order your reading list
 
 ## The details
-The following method applies for content online as well as offline (magazine article, books).
+The following method applies to content online as well as offline (magazine article, books).
 
 The first, most important, and difficult strategy, is to simply let go of those articles. Most of the time, we keep certain things out of fear of missing out. We may also think that if at some point we have free time we'll go through them, however that never happens. We always try to find something new instead. This can be seen as a way for the mind to communicate that it doesn't think it would be worthwhile to spend its time reading this content so it's better not to and instead we should look for alternative content to read.
 
