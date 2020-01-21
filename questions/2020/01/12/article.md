@@ -27,7 +27,7 @@ A lot of what I wrote in [How do you prioritize things when there are so many of
 * Write down the answer to the question you asked yourself, you may ask the same question again in the future
 * [Answer one question per day](../../..)
 
-I often joke around with colleagues at work that it's easier to generate dumb question than it is to answer them appropriately. As such, don't spend your time on questions that are not worth answering.
+I often joke around with colleagues at work that it's easier to generate dumb questions than it is to answer them appropriately. As such, don't spend your time on questions that are not worth answering.
 
 # References
 * [Algorithms to live by](https://www.goodreads.com/book/show/25666050-algorithms-to-live-by)
