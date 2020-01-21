@@ -16,7 +16,7 @@ How would you build an AI that could offer coaching for games like StarCraft or 
 # Answer
 I see coaching as similar to the loss function of a machine learning model. I also see coaching as trying to optimize a (program's) function by figuring out where the largest improvements can be made. In order to provide effective and useful feedback, a coach should focus on the areas where the player shows the most potential for improvement. In a game like Starcraft, that would mean first pointing out the macro level mistakes then the micro level mistakes.
 
-To coach you need to have a model of which actions have impact on the game and how much impact they have. A learning algorithm/model like AlphaZero generally exhibits two types of learning: learning from observation and learning by playing against itself.
+To coach you need to have a model of which actions have an impact on the game and how much impact they have. A learning algorithm/model like AlphaZero generally exhibits two types of learning: learning from observation and learning by playing against itself.
 
 ## Learning from observation
 ### Humans
