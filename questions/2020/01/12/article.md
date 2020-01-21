@@ -8,7 +8,7 @@ taxonomy:
 ---
 
 # Question
-Given a continuously growing number of questions one ask himself, what is the proper procedure to answer these questions?
+Given a continuously growing number of questions one asks himself, what is the proper procedure to answer these questions?
 
 # Answer
 There is no proper procedure per se. The best approach is simply to get started. Write your questions down so that you have a list. When you have a new question, you can check if you have asked a similar question in the past.
