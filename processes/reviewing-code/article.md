@@ -34,3 +34,4 @@ taxonomy:
 * https://smartbear.com/learn/code-review/best-practices-for-peer-code-review/
 * https://nyu-cds.github.io/effective-code-reviews/03-checklist/
 * https://google.github.io/eng-practices/
+* https://testing.googleblog.com/2019/11/code-health-respectful-reviews-useful.html
