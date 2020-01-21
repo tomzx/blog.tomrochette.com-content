@@ -20,7 +20,7 @@ To coach you need to have a model of which actions have an impact on the game an
 
 ## Learning from observation
 ### Humans
-The most common approach to coaching is by observing more successful players than themselves. The learners may watch the better players while the better players are playing the game and commenting on their gameplay or the learners may watch someone reviewing a replay and providing their own analysis. Both of these cases can be seen as models (the players) trying to explain their internals (the logic behind their actions).
+The most common approach to coaching is by observing more successful players than themselves. The learners may watch better players while the better players are playing the game and commenting on their gameplay or the learners may watch someone reviewing a replay and providing their own analysis. Both of these cases can be seen as models (the players) trying to explain their internals (the logic behind their actions).
 
 Coaching generally starts by trying to reproduce the recipe of someone else. You may not understand why they are doing certain things, but you do it yourself and you observe the results. As you practice repeating those same observations => actions, you try to reproduce as closely as possible what the better player would do.
 
