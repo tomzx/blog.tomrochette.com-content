@@ -16,3 +16,4 @@ Install `pyprof2calltree` to convert the cprofile to a kcachegrind compatible pr
 # References
 * https://benbernardblog.com/tracking-down-a-freaky-python-memory-leak/
 * https://tech.buzzfeed.com/finding-and-fixing-memory-leaks-in-python-413ce4266e7d
+* https://varblog.org/blog/2018/05/24/profiling-and-optimizing-machine-learning-model-training-with-pytorch/
