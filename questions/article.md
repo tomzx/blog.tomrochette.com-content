@@ -25,7 +25,7 @@ Answering our own questions is the best way to increase our knowledge. By unders
 * [2020-01-09 - Is there a general characteristic of simple programs that are able to learn complex behaviors, such as neural network or RL-based algorithms that can be implemented in less than 100-250 lines?](2020/01/09)
 * [2020-01-10 - Are passive or active agents more intelligent?](2020/01/10)
 * [2020-01-11 - How can an agent efficiently store terabytes of data, with hundreds of gigabytes updated daily?](2020/01/11)
-* [2020-01-12 - Given a continuously growing number of questions one ask himself, what is the proper procedure to answer these questions?](2020/01/12)
+* [2020-01-12 - Given a continuously growing number of questions one asks himself, what is the proper procedure to answer these questions?](2020/01/12)
 * [2020-01-13 - What do humans modeled as computers look like?](2020/01/13)
 * [2020-01-14 - What are the differences between a brain and a CPU?](2020/01/14)
 * [2020-01-15 - Why are biology and genetics interesting to AGI researchers?](2020/01/15)
