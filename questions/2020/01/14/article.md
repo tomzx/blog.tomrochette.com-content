@@ -20,7 +20,7 @@ What are the differences between a brain and a CPU?
 * The human brain is much larger than a CPU chip.
 * Heat dissipation is done through cerebral circulation in the brain and through a heatsink attached to a CPU.
 * The brain is biodegradable, the CPU is not.
-* Signal is transmitted between neurons using neurotransmitters (chemically) while CPUs transmit signal between transistors electrically.
+* Signal is transmitted between neurons using neurotransmitters (chemically) while CPUs transmit signals between transistors electrically.
 * The organization of the brain evolves over time (in a single person), while a CPU chip will remain the same its whole life.
 * We currently cannot transplant a brain from one person to another, but we can transfer a CPU from one computer to another.
 
