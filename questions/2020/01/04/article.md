@@ -34,7 +34,7 @@ At this point, we now assume that you have a lot of tasks that are not urgent bu
 
 Similar to the important/urgent properties, we will add two new properties: estimated value (in dollars) and estimated effort (in hours). A third field, the ROI, is automatically derived from the previous two by computing estimated value divided by estimated effort.
 
-For each task you will want to estimate to the best of your knowledge how much effort would be required to complete the task, as well as how much value you expect it to bring. Once you have those numbers for all your tasks, you should be able to order them by descending ROI. This will provide you with the list of tasks you should work on in order, as they are the one likely to provide you with the highest amount of ROI, that is, the most value for the time spent.
+For each task, you will want to estimate to the best of your knowledge how much effort would be required to complete the task, as well as how much value you expect it to bring. Once you have those numbers for all your tasks, you should be able to order them by descending ROI. This will provide you with the list of tasks you should work on in order, as they are the one likely to provide you with the highest amount of ROI, that is, the most value for the time spent.
 
 ## After ROI
 If at this point you still have many tasks which have the same ROI, you can first try to tackle the ones with the least amount of effort to get them out of the way and have quick wins.
