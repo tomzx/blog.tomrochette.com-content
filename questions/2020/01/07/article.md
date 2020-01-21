@@ -17,7 +17,7 @@ How can I organize all the webpages I never read?
 ## TL; DR
 1. Delete articles you know you will never read
 2. Add articles you'd like to read one day in a system such as [pocket](https://getpocket.com/)
-3. Track when articles are added to your "must read" list, after 1 year "graduate" them by deleting them from the list
+3. Track when articles are added to your "must-read" list, after 1 year "graduate" them by deleting them from the list
 4. Estimate how long an article takes to read and how much value you expect it will bring you
 5. Use the ROI to order your reading list
 
