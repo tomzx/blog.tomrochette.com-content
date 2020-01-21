@@ -22,4 +22,4 @@ If you ask yourself a lot of questions on a certain topic you're studying and yo
 In some cases you might ask yourself questions that you don't really want to know the answer to.
 
 # References
-* [Given a continuously growing number of questions one asks himself, what is the proper procedure to answer these questions?](../12)
+* [Answering your own questions](../12)
