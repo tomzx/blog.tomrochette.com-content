@@ -20,3 +20,6 @@ Asking yourself questions is a way to explore the domain of your knowledge and l
 If you ask yourself a lot of questions on a certain topic you're studying and you don't know the answers, then it can let you know that your knowledge is lacking and that you need to study more.
 
 In some cases you might ask yourself questions that you don't really want to know the answer to.
+
+# References
+* [](../12)
