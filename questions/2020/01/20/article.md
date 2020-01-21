@@ -8,7 +8,7 @@ taxonomy:
 ---
 
 # Question
-What is the point of asking oneself many questions when few of them are actually answered?
+What is the point of asking ourselves many questions when we only answer a few of them?
 
 # Answer
 The purpose of asking yourself questions is to prompt your subconscious to look for the answer.
