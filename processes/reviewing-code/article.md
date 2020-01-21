@@ -33,3 +33,4 @@ taxonomy:
 * https://smartbear.com/learn/code-review/guide-to-code-review-process/
 * https://smartbear.com/learn/code-review/best-practices-for-peer-code-review/
 * https://nyu-cds.github.io/effective-code-reviews/03-checklist/
+* https://google.github.io/eng-practices/
