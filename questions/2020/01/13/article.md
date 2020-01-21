@@ -18,7 +18,7 @@ What do humans modeled as computers look like?
 * The eyes are digital cameras that can see into the world
 * The ears are microphones that can listen to a limited range of frequencies
 * Touch is complex as it deals with textures, temperatures, pressures, however it can likely be modeled as a surface with discrete elements that measure a few things such as the force currently applied on it, the temperature, moisture
-* Taste and smell are also complex as they are specialized receptors that will create different fragrance based on the distribution of particles that are perceived (and that can be recognized)
+* Taste and smell are also complex as they are specialized receptors that will create different fragrances based on the distribution of particles that are perceived (and that can be recognized)
 * The arms, legs, hands, feet are actuators used to interact with the environment
 * The stomach and intestine are the power supply
 * Neurons throughout the body act as distributed memory and storage
