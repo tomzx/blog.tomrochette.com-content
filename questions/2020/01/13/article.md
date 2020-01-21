@@ -11,7 +11,7 @@ taxonomy:
 What do humans modeled as computers look like?
 
 # Answer
-* Numerous processes all running in parallel in different regions of the body (heart beat, breathing)
+* Numerous processes all running in parallel in different regions of the body (heartbeat, breathing)
 * The brain runs multiple processes at once, each processing a different modal input (sight, taste, touch, hearing, smell)
 * Those processes are buffered and a process takes care of synchronizing the different input streams to create a coherent flow of information
 * Spinal cord and nerves are network cables, transferring information from the limbs and other regions of the body to the main processing unit (the brain)
