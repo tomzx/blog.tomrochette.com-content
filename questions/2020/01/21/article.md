@@ -8,7 +8,7 @@ taxonomy:
 ---
 
 # Question
-How often should I go through my personal notes?
+How often should I review my personal notes?
 
 # Answer
 The simple answer is to do it as often as possible.
