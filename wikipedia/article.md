@@ -33,3 +33,4 @@ Over time I would like to go over [Wikipedia's vital articles](https://en.wikipe
 * 2020-01-18 - https://en.wikipedia.org/wiki/Zstandard
 * 2020-01-19 - https://en.wikipedia.org/wiki/Estimation_statistics
 * 2020-01-20 - https://en.wikipedia.org/wiki/Statistical_significance
+* 2020-01-21 - https://en.wikipedia.org/wiki/Statistical_model_validation
