@@ -1,5 +1,5 @@
 ---
-title:
+title: What can cause learning inefficiency
 created: 2020-01-22
 taxonomy:
   type: post
