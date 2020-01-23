@@ -21,3 +21,5 @@ There are many reasons which can cause someone to learn at a slower pace than wh
 * Learning from multiple sources with contradictory information
 * Learning while not being completely focused on the task
 * Learning without making the effort to recall what was learned
+
+What is important to do while learning is to recognize when certain behaviors or circumstances make learning less efficient than desired.
