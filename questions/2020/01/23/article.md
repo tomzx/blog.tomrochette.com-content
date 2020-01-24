@@ -42,6 +42,8 @@ With two bits, we introduce two patterns: repeating and alternating. Repeating m
 
 001, 011, 100, 110 can be described as alternating and repeating, which is more complex than the previous examples as it requires the composition of two operations.
 
+4 complex examples
+
 ## 4-long binary string
 
 | string | pattern |
@@ -71,6 +73,8 @@ From those few inductive iterations, we can see that the first and last string a
 
 At this point there is still not enough information to be able to derive an answer to the original question, given that the strings can be described using 4 patterns: repeating, alternating, mirror, and fill & flip.
 
+8 complex examples
+
 ## 5-long binary string
 
 | string | pattern |
@@ -81,13 +85,19 @@ At this point there is still not enough information to be able to derive an answ
 | 00011 | alternating, periodicity=3,2 |
 | 00100 | fill & flip |
 | 00101 | complex |
-| 00110 | complex |
+| 00110 | complex, or alternating, periodicity=2 |
 | 00111 | alternating, periodicity=2,3 |
 | 01000 | fill & flip |
 | 01001 | complex |
 | 01010 | alternating |
 | 01011 | complex |
-| 01100 | complex |
+| 01100 | complex, or alternating, periodicity=1,2,2 |
 | 01101 | complex |
-| 01110 | complex |
+| 01110 | complex, or alternating, periodicity=1,3,1 |
 | 01111 | fill & flip |
+
+The second half of this table was not written down due to the previous observation that the patterns are the same, simply inverted.
+
+At this stage, the complex patterns that emerge are difficult to express using the prior language. Composition needs to be used, e.g. 00101 can be described as 00 then 101.
+
+14 complex examples
