@@ -49,20 +49,20 @@ With two bits, we introduce two patterns: repeating and alternating. Repeating m
 | string | pattern |
 |--------|---------|
 | 0000 | repeating |
-| 0001 | complex |
-| 0010 | complex |
+| 0001 | complex, or fill & flip |
+| 0010 | complex, or fill & flip |
 | 0011 | alternating, periodicity=2 |
-| 0100 | complex |
+| 0100 | complex, or fill & flip |
 | 0101 | alternating, periodicity=1 |
 | 0110 | mirror |
-| 0111 | complex |
-| 1000 | complex |
+| 0111 | complex, or fill & flip |
+| 1000 | complex, or fill & flip |
 | 1001 | mirror |
 | 1010 | alternating, periodicity=1 |
-| 1011 | complex |
+| 1011 | complex, or fill & flip |
 | 1100 | alternating, periodicity=2 |
-| 1101 | complex |
-| 1110 | complex |
+| 1101 | complex, or fill & flip |
+| 1110 | complex, or fill & flip |
 | 1111 | repeating |
 
 Here we first observe the presence of the alternating pattern with a periodicity of 2. We also observe the first case of a mirror pattern with 0110 and 1001. It could be claimed that 010 and 101 is the uneven equivalent of the mirror pattern for 3-long binary strings. The remaining "complex" examples are again displaying alternating and repeating patterns at the lower level.
