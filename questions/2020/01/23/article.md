@@ -84,15 +84,15 @@ At this point there is still not enough information to be able to derive an answ
 | 00010 | fill & flip |
 | 00011 | alternating, periodicity=3,2 |
 | 00100 | fill & flip |
-| 00101 | complex |
+| 00101 | complex, or 0 and alternating, periodicity=1 |
 | 00110 | complex, or alternating, periodicity=2 |
 | 00111 | alternating, periodicity=2,3 |
 | 01000 | fill & flip |
-| 01001 | complex |
+| 01001 | complex, or 0 and mirror |
 | 01010 | alternating |
-| 01011 | complex |
+| 01011 | complex, or 0 and fill & flip |
 | 01100 | complex, or alternating, periodicity=1,2,2 |
-| 01101 | complex |
+| 01101 | complex, or 0 and fill & flip |
 | 01110 | complex, or alternating, periodicity=1,3,1 |
 | 01111 | fill & flip |
 
@@ -105,3 +105,4 @@ At this stage, the complex patterns that emerge are difficult to express using t
 At this point in my study, I would summarize as follows:
 * Repeating, alternating and fill & flip are low complexity. For a n-long binary string, this implies 2 repeating patterns, 2n fill & flip patterns, 2n alternating patterns of periodicity=1.
 * Complexity appears to emerge from alternating patterns with varying periodicity. As we're working with longer and longer strings, the periodic patterns will start to become periodic themselves (I believe this is leading to fractal).
+* The fill & flip pattern appears to be able to cover most of the complex cases that appear as the length of the binary string increases.
