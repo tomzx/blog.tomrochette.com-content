@@ -103,4 +103,5 @@ At this stage, the complex patterns that emerge are difficult to express using t
 14 complex examples
 
 At this point in my study, I would summarize as follows:
-* repeating, alternating and fill & flip are low complexity. For a n-long binary string, this implies 2 repeating patterns, 2n fill & flip patterns, 2n alternating patterns of periodicity=1.
+* Repeating, alternating and fill & flip are low complexity. For a n-long binary string, this implies 2 repeating patterns, 2n fill & flip patterns, 2n alternating patterns of periodicity=1.
+* Complexity appears to emerge from alternating patterns with varying periodicity. As we're working with longer and longer strings, the periodic patterns will start to become periodic themselves (I believe this is leading to fractal).
