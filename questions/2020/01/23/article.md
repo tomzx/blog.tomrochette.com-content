@@ -32,12 +32,12 @@ With two bits, we introduce two patterns: repeating and alternating. Repeating m
 | string | pattern |
 |--------|---------|
 | 000 | repeating |
-| 001 | complex |
+| 001 | complex, or alternating, periodicity=2 |
 | 010 | alternating |
-| 011 | complex |
-| 100 | complex |
+| 011 | complex, or alternating, periodicity=1,2 |
+| 100 | complex, or alternating, periodicity=1,2 |
 | 101 | alternating |
-| 110 | complex |
+| 110 | complex, or alternating, periodicity=2 |
 | 111 | repeating |
 
 001, 011, 100, 110 can be described as alternating and repeating, which is more complex than the previous examples as it requires the composition of two operations.
