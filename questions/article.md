@@ -36,3 +36,4 @@ Answering our own questions is the best way to increase our knowledge. By unders
 * [2020-01-20 - What is the point of asking ourselves many questions when we only answer a few of them?](2020/01/20)
 * [2020-01-21 - How often should I review my personal notes?](2020/01/21)
 * [2020-01-22 - What can cause us to learn inefficiently?](2020/01/22)
+* [2020-01-23 - What is the most complex sequence that can be made from a n-long binary string?](2020/01/23)
