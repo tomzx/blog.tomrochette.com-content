@@ -17,6 +17,7 @@ Let's proceed by induction.
 0, 1 - 0 and 1 have a 50% to be selected in a 1-long binary string, thus they are the most complex examples of a 1-long binary string.
 
 | string | pattern |
+|--------|---------|
 | 00 | repeating |
 | 01 | alternating |
 | 10 | alternating |
