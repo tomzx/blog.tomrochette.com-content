@@ -101,3 +101,6 @@ The second half of this table was not written down due to the previous observati
 At this stage, the complex patterns that emerge are difficult to express using the prior language. Composition needs to be used, e.g. 00101 can be described as 00 then 101.
 
 14 complex examples
+
+At this point in my study, I would summarize as follows:
+* repeating, alternating and fill & flip are low complexity. For a n-long binary string, this implies 2 repeating patterns, 2n fill & flip patterns, 2n alternating patterns of periodicity=1.
