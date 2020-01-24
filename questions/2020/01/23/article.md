@@ -16,14 +16,14 @@ What is the most complex sequence that can be made from a n-long binary string?
 Let's proceed by induction.
 0, 1 - 0 and 1 have a 50% to be selected in a 1-long binary string, thus they are the most complex examples of a 1-long binary string.
 
+## 2-
+
 | string | pattern |
 |--------|---------|
 | 00 | repeating |
 | 01 | alternating |
 | 10 | alternating |
 | 11 | repeating |
-
-00, 01, 10, 11 - 00, 11 are repeating. 01, 10 are alternating.
 
 | string | pattern |
 |--------|---------|
