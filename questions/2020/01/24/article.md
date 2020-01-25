@@ -1,5 +1,5 @@
 ---
-title:
+title: Writing everything down
 created: 2020-01-24
 taxonomy:
   type: post
@@ -8,6 +8,6 @@ taxonomy:
 ---
 
 # Question
-
+Is there value in writing everything down?
 
 # Answer
