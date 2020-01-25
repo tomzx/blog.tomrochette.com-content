@@ -17,3 +17,4 @@ This question came to be
 * Most of what is written is never reviewed and potentially forgotten
 	* Content is not consumed/reused
 	* Most of the time, the point is to make explicit what is in the brain, so that it can also be referred to later on in a reliable format
+* Write down everything as nothing stays on your mind forever
