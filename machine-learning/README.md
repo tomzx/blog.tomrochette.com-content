@@ -21,6 +21,7 @@ Tom
 * [Handwriting recognition](handwriting-recognition)
 * [Optimizing PyTorch](optimizing-pytorch)
 * [Papers](papers)
+* [Separability metric](separability-metric)
 * [Tensorflow](tensorflow)
 * [Terminology](terminology)
 * [Time series](time-series)
