@@ -29,9 +29,7 @@ foreach ($startPages as $startPage => $dontCare) {
     $files = new RegexIterator($iterator, $pattern, RegexIterator::MATCH);
 
     // TODO: It appears that the article regex matches #anchor
-
-    // Currently ignores assets, might be nice to test them at some point
-    $articleRegex = '/\[[^\]]+\]\((?!.{0,5}\:\/\/|#)(?<path>[^)]+)\)/';
+    $articleRegex = '/\[[^\]]+\]\((?!.{0,5}\:\/\/|#)(?<path>[^)]+?)(?<alt> "[^)]+")?\)/';
     foreach ($files as $file) {
         echo 'Scanning ' . $file . PHP_EOL;
         $fileDirectory = dirname($file);
