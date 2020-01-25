@@ -11,7 +11,11 @@ taxonomy:
 Is there value in writing everything down?
 
 # Answer
-This question came to be
+This question came to be as I started my research journey towards AGI. At one point I realized I wouldn't be able to hold everything in my brain and that I needed to write down what I was thinking about so that I would be able to come back later, re-read what I wrote and continue making progress on what I was working on.
+
+There is definite value in writing everything down. It frees your mind, letting you delegate the task of remembering to the computer.
+
+
 
 
 * Most of what is written is never reviewed and potentially forgotten
