@@ -13,17 +13,13 @@ Is there value in writing everything down?
 # Answer
 This question came to be as I started my research journey towards AGI. At one point I realized I wouldn't be able to hold everything in my brain and that I needed to write down what I was thinking about so that I would be able to come back later, re-read what I wrote and continue making progress on what I was working on.
 
-There is definite value in writing everything down. It frees your mind, letting you delegate the task of remembering to the computer.
+There is definite value in writing everything down. It frees your mind, letting you delegate the task of remembering to the computer. A thought I might have had more than five years ago can still be accessible to me if I wrote it down, but it's unlikely I'll remember exactly what I was thinking five years ago by "thinking real hard". Nowadays I have trouble even remembering what I was working on a few hours prior due to the high volume of interruption I face in my work. Writing things down allows me to keep a record of what I'm doing.
 
+One of the main concern of writing everything down is that it can be seen as a waste of time. We often write and never read what we wrote again. As I write more and more, it becomes less and less likely that I will read what I've wrote in the past because the volume of content increases requiring more time to read. For the same amount of time spent reading, I cover the same constant amount of content, but the amount of uncovered content keeps growing.
 
+I don't view writing that is not read again to be wasteful. Sometimes writing down our thoughts allows us to figure out an issue that is blocking us. Sometimes expressing what we feel makes us realize that the feelings themselves are very hard to explain. Sometimes we just need a buffer where we can jot things down and get rid of it once we're done.
 
-
-* Most of what is written is never reviewed and potentially forgotten
-	* Content is not consumed/reused
-	* Most of the time, the point is to make explicit what is in the brain, so that it can also be referred to later on in a reliable format
-* Write down everything as nothing stays on your mind forever
-* Write down the answer to the question you asked yourself, you may ask the same question again in the future
-* You have prior data on which you may be able to base yourself vs approximate memories
+Writing (and sharing) has the benefit that your thoughts can be reused by others. They can also be reused by your future self if you end up facing the same situation again.
 
 # References
 * [Research methodology and organization](../../../../research-methodology-and-organization)
