@@ -22,4 +22,4 @@ This question came to be
 * You have prior data on which you may be able to base yourself vs approximate memories
 
 # References
-*
+* [Research methodology and organization](../../../../)
