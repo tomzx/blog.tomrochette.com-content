@@ -37,3 +37,4 @@ Answering our own questions is the best way to increase our knowledge. By unders
 * [2020-01-21 - How often should I review my personal notes?](2020/01/21)
 * [2020-01-22 - What can cause us to learn inefficiently?](2020/01/22)
 * [2020-01-23 - What is the most complex sequence that can be made from a n-long binary string?](2020/01/23)
+* [2020-01-24 - Is there value in writing everything down?](2020/01/24)
