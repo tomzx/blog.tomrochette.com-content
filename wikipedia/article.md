@@ -37,3 +37,4 @@ Over time I would like to go over [Wikipedia's vital articles](https://en.wikipe
 * 2020-01-22 - https://en.wikipedia.org/wiki/Data_dredging
 * 2020-01-23 - https://en.wikipedia.org/wiki/Metascience
 * 2020-01-24 - https://en.wikipedia.org/wiki/Dipole_repeller
+* 2020-01-25 - https://en.wikipedia.org/wiki/Void_(astronomy)
