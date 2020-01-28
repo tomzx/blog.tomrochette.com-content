@@ -1,5 +1,5 @@
 ---
-title: Bookkeeping
+title: Library management
 created: 2020-01-27
 taxonomy:
   type: post
