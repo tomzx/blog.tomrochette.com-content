@@ -8,6 +8,6 @@ taxonomy:
 ---
 
 # Question
-How do I make complex decisions?
+
 
 # Answer
