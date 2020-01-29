@@ -19,6 +19,6 @@ A process checklist will list all the steps that are critical to the completion 
 
 If you often make mistakes in certain processes you do throughout the day, you can easily create a checklist that lists all the important things that you need to double-check when you do that process. You can then go through that list while completing the process or after completing it to ensure that all the important aspects of the process were correctly done.
 
-One benefit of the checklist is that it also allows you to offload information that you might have to keep in your head at all time. A checklist for a process you do very infrequently can be an amazing time saving tool since you do not need to refresh your memory on all the important steps of that process.
+One benefit of the checklist is that it also allows you to offload information that you might have to keep in your head at all times. A checklist for a process you do very infrequently can be an amazing time saving tool since you do not need to refresh your memory on all the important steps of that process.
 
 Anything that you can memorize, you should write down so that you can consult later and improve over time.
