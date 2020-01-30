@@ -41,4 +41,4 @@ Over time I would like to go over [Wikipedia's vital articles](https://en.wikipe
 * 2020-01-26 - https://en.wikipedia.org/wiki/Accelerating_expansion_of_the_universe
 * 2020-01-27 - https://en.wikipedia.org/wiki/Exploratory_data_analysis
 * 2020-01-28 - https://en.wikipedia.org/wiki/Memorylessness
-* 2020-01-29 -
+* 2020-01-29 - https://en.wikipedia.org/wiki/Robust_statistics
