@@ -42,4 +42,4 @@ Answering our own questions is the best way to increase our knowledge. By unders
 * [2020-01-26 - How do I make complex decisions?](2020/01/26)
 * [2020-01-27 - How does one keep a library organized if people are moving books improperly at a certain rate?](2020/01/27)
 * [2020-01-28 - Is using a checklist a way to explicitly avoid mistakes?](2020/01/28)
-* []
+* [2020-01-29 - Is a programmer commentary something that can provide value?](2020/01/29)
