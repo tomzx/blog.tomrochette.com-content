@@ -8,6 +8,6 @@ taxonomy:
 ---
 
 # Question
-
+Is programmer commentary something that can provide value?
 
 # Answer
