@@ -17,7 +17,7 @@ When we're doing pair programming with someone else, we will often communicate w
 
 I'm the context where you are programming by yourself, you can still benefit from talking out loud about what you are doing. If you are willing, you can record yourself and even possibly use speech to text technologies to create a log of what you were doing at the time. This can be useful to recall what you were working on if you are interrupted at some point. It can also serve as a good way to get back context from a piece of code if you need to work on it again.
 
-Writing down comments can also be useful, however there's a lot of thinking that goes into programming that is only transient and if it were to be written as comments, would make the code more difficult to consume.
+Writing down comments can also be useful, however there's a lot of thinking that goes into programming that is only transient and if it were to be written as comments, it would make the code more difficult to consume.
 
 # References
 * [Pointing and calling](https://en.wikipedia.org/wiki/Pointing_and_calling)
