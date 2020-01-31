@@ -22,9 +22,9 @@ What are the tools I use daily that I could contribute to?
 ## Python specific
 * [Pandas](https://github.com/pandas-dev/pandas) I do machine learning development for a living nowadays and I depend highly on pandas. I don't think there's a single work day that goes by in which I don't whip out at least one `pd.DataFrame`.
 * [Scikit-learn](https://github.com/scikit-learn/scikit-learn) Similar to my dependency on pandas, my dependency on Scikit-learn is on a daily basis. Unlike the [DummyRegressor](https://scikit-learn.org/stable/modules/generated/sklearn.dummy.DummyRegressor.html) documentation suggests, I use it for real problems and it's definitely useful!
-* [Dask](https://github.com/dask/dask) / [Distributed](https://github.com/dask/distributed) In order to scale both horizontally and vertically machine learning problems I've leaned on dask and distributed. Their use of [delayed](https://docs.dask.org/en/latest/delayed.html) and [Futures]()
-* [pytest](https://github.com/pytest-dev/pytest)
-* [mypy](https://github.com/python/mypy)
+* [Dask](https://github.com/dask/dask) / [Distributed](https://github.com/dask/distributed) In order to scale both horizontally and vertically machine learning problems I've leaned on dask and distributed. Their use of [delayed](https://docs.dask.org/en/latest/delayed.html) and [Futures](https://docs.dask.org/en/latest/futures.html) has made it simple to migrate simple for loops code into highly distributed tasks which can be monitored through a bokeh dashboard.
+* [pytest](https://github.com/pytest-dev/pytest) Who writes code without testing it? Pytest is the PHPUnit of python for me, an essential component that is used daily to ensure that code doesn't regress more than it needs to.
+* [mypy](https://github.com/python/mypy) Python typing system is pretty weak in my opinion. I miss using PHP typing system, as well as its visibility system. Mypy
 * [isort](https://github.com/timothycrosley/isort)
 * [black](https://github.com/psf/black)
 * [prospector])(https://github.com/PyCQA/prospector)
