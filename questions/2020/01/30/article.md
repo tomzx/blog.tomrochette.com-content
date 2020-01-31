@@ -12,7 +12,7 @@ What are the tools I use daily that I could contribute to?
 
 # Answer
 ## General
-* [Visual Studio Code](https://github.com/microsoft/vscode)
+* [Visual Studio Code](https://github.com/microsoft/vscode) My text editor of choice when I don't need an IDE. I've implemented a few plugins for VSC and use it daily to write personal notes as well as blog articles. I sometimes make use of its diff tool to merge changes from Sourcetree.
 * [Pycharm](https://github.com/JetBrains/intellij-community)
 * [Docker](https://github.com/moby/moby)
 * [Drone CI](https://github.com/drone/drone)
