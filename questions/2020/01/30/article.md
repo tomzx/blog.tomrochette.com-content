@@ -17,6 +17,7 @@ What are the tools I use daily that I could contribute to?
 * [Docker](https://github.com/moby/moby)
 * [Drone CI](https://github.com/drone/drone)
 * [Dependabot](https://github.com/dependabot/dependabot-core)
+* [Plotly](https://github.com/plotly/plotly.js)
 
 ## Python specific
 * [Pandas](https://github.com/pandas-dev/pandas)
