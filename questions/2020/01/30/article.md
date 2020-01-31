@@ -22,3 +22,5 @@ What are the tools I use daily that I could contribute to?
 * [mypy](https://github.com/python/mypy)
 * [Dependabot](https://github.com/dependabot/dependabot-core)
 * [isort](https://github.com/timothycrosley/isort)
+* [black]()
+* [prospector]
