@@ -21,3 +21,4 @@ What are the tools I use daily that I could contribute to?
 * [pytest](https://github.com/pytest-dev/pytest)
 * [mypy](https://github.com/python/mypy)
 * [Dependabot](https://github.com/dependabot/dependabot-core)
+* [isort](https://github.com/timothycrosley/isort)
