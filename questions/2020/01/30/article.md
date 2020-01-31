@@ -13,10 +13,10 @@ What are the tools I use daily that I could contribute to?
 # Answer
 ## General
 * [Visual Studio Code](https://github.com/microsoft/vscode) My text editor of choice when I don't need an IDE. I've implemented a few plugins for VSC and use it daily to write personal notes as well as blog articles. I sometimes make use of its diff tool to merge changes from Sourcetree.
-* [Pycharm](https://github.com/JetBrains/intellij-community)
-* [Docker](https://github.com/moby/moby)
-* [Drone CI](https://github.com/drone/drone)
-* [Dependabot](https://github.com/dependabot/dependabot-core)
+* [Pycharm](https://github.com/JetBrains/intellij-community) My IDE of choice when I write python. Very powerful, easy to get used to if you've used other Jetbrains IDE (I've used PHPStorm for more than 5 years). Extremely useful to run a specific unit test using pytest or to debug a complex issue by putting breakpoints and investigating the internal state of the program.
+* [Docker](https://github.com/moby/moby) I use docker at work to containerize all of our dependencies so that it is somewhat easy to deploy what we develop in "any" environment, that is, an environment where docker (or similar, such as Kubernetes) is installed.
+* [Drone CI](https://github.com/drone/drone) We use Drone CI at work to do continuous integration and I consider this tool to be an essential part of my daily work. When people push code to github and it fails on Drone CI, I can use this information to help them fix their issues. We also use it has part of our PR process to ensure that the PR passes all the expected tests so that we do not introduce faulty code into our master branch.
+* [Dependabot](https://github.com/dependabot/dependabot-core) A few months ago I had introduced dependabot into my dependency management practices. It was highly useful to get automated PRs with updates to libraries we depended on. However, since the release of poetry 1.0.0, dependabot has not been able to update my python dependencies and has been left unused. I've
 * [Plotly](https://github.com/plotly/plotly.js)
 
 ## Python specific
