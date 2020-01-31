@@ -17,4 +17,4 @@ What are the tools I use daily that I could contribute to?
 * [Scikit-learn](https://github.com/scikit-learn/scikit-learn)
 * [Docker](https://github.com/moby/moby)
 * [Drone CI](https://github.com/drone/drone)
-* [Dask](https://github.com/dask/dask) / [Distributed]()
+* [Dask](https://github.com/dask/dask) / [Distributed](https://github.com/dask/distributed)
