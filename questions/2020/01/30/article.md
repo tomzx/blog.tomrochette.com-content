@@ -22,7 +22,7 @@ What are the tools I use daily that I could contribute to?
 ## Python specific
 * [Pandas](https://github.com/pandas-dev/pandas) I do machine learning development for a living nowadays and I depend highly on pandas. I don't think there's a single work day that goes by in which I don't whip out at least one `pd.DataFrame`.
 * [Scikit-learn](https://github.com/scikit-learn/scikit-learn) Similar to my dependency on pandas, my dependency on Scikit-learn is on a daily basis. Unlike the [DummyRegressor](https://scikit-learn.org/stable/modules/generated/sklearn.dummy.DummyRegressor.html) documentation suggests, I use it for real problems and it's definitely useful!
-* [Dask](https://github.com/dask/dask) / [Distributed](https://github.com/dask/distributed) In order to scale both horizontally and vertically machine learning problems I've leaned on dask and distributed.
+* [Dask](https://github.com/dask/dask) / [Distributed](https://github.com/dask/distributed) In order to scale both horizontally and vertically machine learning problems I've leaned on dask and distributed. Their use of delayed and Futures
 * [pytest](https://github.com/pytest-dev/pytest)
 * [mypy](https://github.com/python/mypy)
 * [isort](https://github.com/timothycrosley/isort)
