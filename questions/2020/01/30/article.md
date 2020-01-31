@@ -14,4 +14,4 @@ What are the tools I use daily that I could contribute to?
 * Visual studio code
 * Pycharm
 * Pandas
-* Scikit learn
+* Scikit-learn
