@@ -19,3 +19,4 @@ What are the tools I use daily that I could contribute to?
 * [Drone CI](https://github.com/drone/drone)
 * [Dask](https://github.com/dask/dask) / [Distributed](https://github.com/dask/distributed)
 * [pytest](https://github.com/pytest-dev/pytest)
+* [mypy](https://github.com/python/mypy)
