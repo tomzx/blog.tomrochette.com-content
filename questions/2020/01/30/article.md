@@ -28,3 +28,4 @@ What are the tools I use daily that I could contribute to?
 * [isort](https://github.com/timothycrosley/isort)
 * [black](https://github.com/psf/black)
 * [prospector])(https://github.com/PyCQA/prospector)
+* [poetry](https://github.com/python-poetry/poetry)
