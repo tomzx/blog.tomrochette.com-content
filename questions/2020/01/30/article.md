@@ -11,3 +11,7 @@ taxonomy:
 What are the tools I use daily that I could contribute to?
 
 # Answer
+* Visual studio code
+* Pycharm
+* Pandas
+* Scikit learn
