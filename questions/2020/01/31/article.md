@@ -11,3 +11,6 @@ taxonomy:
 
 
 # Answer
+
+# References
+* https://math.berkeley.edu/~gmelvin/polya.pdf
