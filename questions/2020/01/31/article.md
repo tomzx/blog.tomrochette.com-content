@@ -13,4 +13,4 @@ taxonomy:
 # Answer
 
 # References
-* [Polya’s Problem Solving Techniques](https://math.berkeley.edu/~gmelvin/polya.pdf)
+* [How To Solve It - G. Polya](http://furius.ca/cqfpub/doc/proofs/how-to.pdf)
