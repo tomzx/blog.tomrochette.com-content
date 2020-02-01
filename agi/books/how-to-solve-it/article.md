@@ -44,7 +44,7 @@ taxonomy:
 * If you cannot solve the proposed problem
 * Induction and mathematical induction
 * Inventor's paradox
-* Is it possible to satify the condition?
+* Is it possible to satisfy the condition?
 * Lemma
 * Look at the unknown
 * Modern heuristic
@@ -64,7 +64,7 @@ taxonomy:
 * Setting up equations
 * Signs of progress
 * Specialization
-* Subconcious work
+* Subconscious work
 * Symmetry
 * Terms, old and new
 * Test by dimension
