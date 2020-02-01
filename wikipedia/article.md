@@ -43,3 +43,4 @@ Over time I would like to go over [Wikipedia's vital articles](https://en.wikipe
 * 2020-01-28 - https://en.wikipedia.org/wiki/Memorylessness
 * 2020-01-29 - https://en.wikipedia.org/wiki/Robust_statistics
 * 2020-01-30 - https://en.wikipedia.org/wiki/Coronavirus
+* 2020-01-31 - https://en.wikipedia.org/wiki/Imputation_%28statistics%29
