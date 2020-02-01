@@ -33,8 +33,12 @@ What I liked the most about Pólya's approach was that he was comfortable workin
 * If you cannot solve this problem yet, can you solve a related problem?
 
 ## Carrying out the plan
+* Can you see clearly the steps from beginning to end?
+* Can you prove that your approach is correct?
 
 ## Looking back
+* Can you check your results?
+* Can you get to your solution differently?
 
 # References
 * [How To Solve It - G. Polya](http://furius.ca/cqfpub/doc/proofs/how-to.pdf)
