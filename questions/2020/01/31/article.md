@@ -8,7 +8,7 @@ taxonomy:
 ---
 
 # Question
-Is it possible to use a simple set of template questions to elicit someone to think about a problem differently?
+What is a simple set of template questions one can use to think about a problem differently?
 
 # Answer
 I've learned to solve problems by thinking about what I already knew. I would try to think of parts of the solution that might make sense and I would piece those parts together to get from the problem to the solution.
