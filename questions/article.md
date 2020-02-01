@@ -44,3 +44,4 @@ Answering our own questions is the best way to increase our knowledge. By unders
 * [2020-01-28 - Is using a checklist a way to explicitly avoid mistakes?](2020/01/28)
 * [2020-01-29 - Is a programmer commentary something that can provide value?](2020/01/29)
 * [2020-01-30 - What are the tools I use daily that I could contribute to?](2020/01/30)
+* [2020-01-31 - What is a simple set of template questions one can use to think about a problem differently?](2020/01/31)
