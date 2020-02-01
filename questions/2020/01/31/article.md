@@ -13,4 +13,4 @@ taxonomy:
 # Answer
 
 # References
-* https://math.berkeley.edu/~gmelvin/polya.pdf
+* [Polya’s Problem Solving Techniques](https://math.berkeley.edu/~gmelvin/polya.pdf)
