@@ -15,7 +15,7 @@ I've learned to solve problems by thinking about what I already knew. I would tr
 
 While I was doing some hobbyist research on AGI, I read George Pólya classic "How to Solve It". Pólya covers many of the questions I would ask myself implicitly, so I was glad to see that someone had taken the time to write them in a reusable format.
 
-
+His four steps of 1. understanding the problem, 2. devising a plan, 3. carrying out the plan and 4. looking back
 
 # References
 * [How To Solve It - G. Polya](http://furius.ca/cqfpub/doc/proofs/how-to.pdf)
