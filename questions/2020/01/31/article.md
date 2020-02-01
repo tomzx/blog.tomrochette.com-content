@@ -1,5 +1,5 @@
 ---
-title: Template questions to think about a problem differently
+title: Questions to think about a problem differently
 created: 2020-01-31
 taxonomy:
   type: post
@@ -8,7 +8,7 @@ taxonomy:
 ---
 
 # Question
-What is a simple set of template questions one can use to think about a problem differently?
+What simple questions can be used to think about a problem differently?
 
 # Answer
 I've learned to solve problems by thinking about what I already knew. I would try to think of parts of the solution that might make sense and I would piece those parts together to get from the problem to the solution.
