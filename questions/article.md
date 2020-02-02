@@ -45,3 +45,6 @@ Answering our own questions is the best way to increase our knowledge. By unders
 * [2020-01-29 - Is a programmer commentary something that can provide value?](2020/01/29)
 * [2020-01-30 - What are the tools I use daily that I could contribute to?](2020/01/30)
 * [2020-01-31 - What simple questions can be used to think about a problem differently?](2020/01/31)
+
+## February
+* [2020-02-01 - I do I track my thoughts?](2020/02/01)
