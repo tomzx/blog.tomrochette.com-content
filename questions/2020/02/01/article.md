@@ -16,4 +16,4 @@ When I am on the go, I mostly rely on [Google Keep](http://keep.google.com/) to 
 When I am at home, I've devised a simple system in Visual Studio Code where I use two keyboard shortcut, one that open today's buffer (<kbd>CTRL</kbd>+<kbd>Numpad 2</kbd>) and one that inserts a datetime and note id on the current line (<kbd>CTRL</kbd> + <kbd>Numpad 0</kbd>).
 
 # References
-* [Note taking](../../../note-taking)
+* [Note taking](../../../../note-taking)
