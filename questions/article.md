@@ -47,4 +47,4 @@ Answering our own questions is the best way to increase our knowledge. By unders
 * [2020-01-31 - What simple questions can be used to think about a problem differently?](2020/01/31)
 
 ## February
-* [2020-02-01 - I do I track my thoughts?](2020/02/01)
+* [2020-02-01 - How do I track my thoughts?](2020/02/01)
