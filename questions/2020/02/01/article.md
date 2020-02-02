@@ -15,5 +15,9 @@ When I am on the go, I mostly rely on [Google Keep](http://keep.google.com/) to 
 
 When I am at home, I've devised a simple system in Visual Studio Code where I use two keyboard shortcut, one that open today's [buffer](../../../../note-taking#my-current-system) (<kbd>CTRL</kbd><kbd>Numpad 2</kbd>) and one that inserts a datetime and note id on the current line (<kbd>CTRL</kbd><kbd>Numpad 0</kbd>).
 
+When I am at work, I use this same system to take notes pertaining my work.
+
+In both cases (at home and at work), I also have configured Visual Studio Code to commit automatically to git changes that are done in markdown files when the editor focus changes. This allows me to have a somewhat granular log of the changes that happen to my note files. At work, I have configured a cronjob that automatically pushes the notes to my private git repository. This allows me to pull those notes at home and read them whenever I want. I also push my personal notes to my private git repository, but I do not pull them on my work computer because I haven't had the need for it.
+
 # References
 * [Note taking](../../../../note-taking)
