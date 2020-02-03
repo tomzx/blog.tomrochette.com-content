@@ -8,7 +8,7 @@ taxonomy:
 ---
 
 # Question
-How do checklists help explicitly avoid mistakes?
+How do checklists help to avoid mistakes?
 
 # Answer
 Checklists are designed to ensure that the most important things, either it is an item or a step in a process, are not forgotten.
