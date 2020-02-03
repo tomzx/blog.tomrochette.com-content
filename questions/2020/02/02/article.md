@@ -15,4 +15,4 @@ I am of the opinion that it is better for corruption not to spread. I'd hope tha
 
 One issue with corrupted employees spreading to other companies is that it is difficult to identify them as they hide in those various companies. Similarly to how if we could identify a single host containing multiple viruses one "easy" approach to getting rid of those viruses would be to get rid of the host itself. When the virus has spread across many hosts it becomes difficult to identify the initial source.
 
-Much like how we track viruses, what companies and individuals within those companies need is a way to identify individuals that are likely to be corrupted or corruptable.
+Much like how we track viruses, what companies and individuals within those companies need is a way to identify individuals that are likely to be corrupted or corruptable. The difficulty is however that those individuals are likely to be cunning
