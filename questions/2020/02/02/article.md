@@ -1,5 +1,5 @@
 ---
-title: Centralization of corruption
+title: Spread of corruption
 created: 2020-02-02
 taxonomy:
   type: post
