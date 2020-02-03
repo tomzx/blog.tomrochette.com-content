@@ -48,4 +48,4 @@ Answering our own questions is the best way to increase our knowledge. By unders
 
 ## February
 * [2020-02-01 - How do I track my thoughts?](2020/02/01)
-* [2020-02-02 - Should corruption be centralized or decentralized?](2020/02/02)
+* [2020-02-02 - Should we let employees from corrupted companies apply to other companies?](2020/02/02)
