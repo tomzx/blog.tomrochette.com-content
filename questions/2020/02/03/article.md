@@ -15,6 +15,8 @@ How soon you repeat yourself will depend on how much diversity there is in your 
 
 If you spend most of your time exploring new ideas, then you may only come back to ideas you had in the past from time to time.
 
-If you work in a certain specialized field you may have to learn the basics again and again and again in order to master them. This will mean that you will think about the same topic numerous times, sometimes having acquired new knowledge that might challenge your existing assumptions.
+If you work in a specialized field you may have to learn the basics multiple times in order to master them. Sometimes you will have acquired new knowledge that might challenge your existing assumptions. You will be mostly repeating yourself, but you will be making small adjustments at the same time.
 
-When we offload everything that we have in our head into documents, our goal is to have more space for our current work while writing down somewhere the work we've already done on a topic. We want to avoid having to come back to the same topics again and having to start our exploration from scratch. When we're exploring, we want to avoid exploring the same topics without noticing. We also want to be able to get an idea of the size of the knowledge necessary to master a topic.
+When we offload everything that we have in our head into documents, our goal is to have more working memory space for our current work. We want to avoid having to come back to the same topics and having to start our exploration from scratch.
+
+When we're exploring, we want to avoid exploring the same topics without noticing. As we explore a field, we may get a sense that the field is very large and that it may take a long time to get familiar with it. By mapping the field we can get a better sense of its size while at the same time discovering the important concepts. This lets us identify when we are making use of the same concepts over and over again.
