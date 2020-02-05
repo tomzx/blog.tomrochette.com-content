@@ -49,4 +49,4 @@ Over time I would like to go over [Wikipedia's vital articles](https://en.wikipe
 * 2020-02-01 - https://en.wikipedia.org/wiki/Missing_data
 * 2020-02-02 - https://en.wikipedia.org/wiki/Efficiency_%28statistics%29
 * 2020-02-03 - https://en.wikipedia.org/wiki/L-estimator
-* 2020-02-04 -
+* 2020-02-04 - https://en.wikipedia.org/wiki/M-estimator
