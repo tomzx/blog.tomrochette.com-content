@@ -50,3 +50,4 @@ Answering our own questions is the best way to increase our knowledge. By unders
 * [2020-02-01 - How do I track my thoughts?](2020/02/01)
 * [2020-02-02 - Should we let employees from corrupted companies apply to other companies?](2020/02/02)
 * [2020-02-03 - If you offload everything in your head into documents, how long does it take before you start repeating yourself?](2020/02/03)
+* [2020-02-04 - Why do people fight over code style?](2020/02/04)
