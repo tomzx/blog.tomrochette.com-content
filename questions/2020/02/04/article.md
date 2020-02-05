@@ -1,5 +1,5 @@
 ---
-title:
+title: Fighting over code style
 created: 2020-02-03
 taxonomy:
   type: post
@@ -8,6 +8,6 @@ taxonomy:
 ---
 
 # Question
-Why do people fight over variables names and code style?
+Why do people fight over code style?
 
 # Answer
