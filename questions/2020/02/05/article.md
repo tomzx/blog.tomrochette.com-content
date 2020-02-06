@@ -21,4 +21,4 @@ Even though some of the processes you follow on a daily basis may appear trivial
 
 Try playing around with doing steps in parallel vs doing steps sequentially and see which one is more efficient.
 
-In order to improve your processes, you need to define what it is you want to improve. In my case, I want my processes to be efficient and effective.
+In order to improve your processes, you need to define what it is you want to improve. In my case, I want my processes to be efficient (doing things right) and effective (doing the right things). Compared to myself, a process is improved if I need less time to accomplish it while producing the same quality of results or if for the same amount of time I produce higher quality of results.
