@@ -3,7 +3,7 @@ title: Great or acceptable software solution
 created: 2020-02-06
 taxonomy:
   type: post
-  category: [Questions]
+  category: [Questions, Software development]
   status: finished
 ---
 
