@@ -15,4 +15,6 @@ In software development, the further you go down the development pipeline, the m
 
 When you implement a solution you generally have an idea of the use cases you need to support, but sometimes certain use cases are less common and require a lot more effort to support. As such, you have the choice between implementing a solution that would support both common and uncommon use cases but would require more time, or you could implement a solution that covers the common cases. Depending on the field you are in, you will have to make a choice between this tradeoff.
 
-In the domains I've worked, it has been more valuable to implement an acceptable solution that could be shown as providing value to the client vs designing a great software solution until it was proven to be necessary. Always make wise use of your time and assess whether quality is important.
+In the domains I've worked (game development, web development, machine learning), it has been more valuable to implement an acceptable solution that could be shown as providing value to the client vs designing a great solution until it was proven to be necessary.
+
+Always make wise use of your time and assess whether quality or quantity is needed for your software project.
