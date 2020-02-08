@@ -52,3 +52,4 @@ Over time I would like to go over [Wikipedia's vital articles](https://en.wikipe
 * 2020-02-04 - https://en.wikipedia.org/wiki/M-estimator
 * 2020-02-05 - https://en.wikipedia.org/wiki/Censoring_(statistics)
 * 2020-02-06 - https://en.wikipedia.org/wiki/Truncation_(statistics)
+* 2020-02-07 -
