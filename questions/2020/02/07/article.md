@@ -21,5 +21,5 @@ I would like to consider working on different things as having a variety of hobb
 I would avoid spending my time commuting.
 I would eliminate the time I spend on cooking and cleaning.
 I would maximize the effectiveness of my time, from the moment I wake up to the moment I go to sleep.
-I would try to find ways to increase the amount of people (or machine) that can help me.
+I would try to find ways to increase the number of people (or machine) that can help me.
 I would try to find ways to make the fact that I'm a billionaire irrelevant to the accomplishment of everything I've stated here.
