@@ -54,3 +54,4 @@ Answering our own questions is the best way to increase our knowledge. By unders
 * [2020-02-05 - How do I improve my processes?](2020/02/05)
 * [2020-02-06 - Is it better to spend a lot of time designing a great software solution or to implement an acceptable one?](2020/02/06)
 * [2020-02-07 - If I were a billionaire, how would I live my life?](2020/02/07)
+* [2020-02-08 - Why do we reinvent the wheel?](2020/02/08)
