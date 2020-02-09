@@ -17,10 +17,11 @@ One of the positive sides of developing something that already exists is that yo
 
 One of the negative sides is that if you work on your own square wheel for a while, you never end up learning a library that might prove more useful. You also do not acquire the skill of learning new libraries and their strengths/weaknesses, as well as how you could help to improve them. Sometimes however by reading an existing library you will come to the conclusion that fixing said library is likely to take you more time than writing a new one.
 
-In my experience, the main reason that has led me to write something from scratch even though I had access to code that partially did what i wanted was because:
-* the library wasn't able to sell me on the reasons I should use it instead of doing it myself, while I considered implementing the solution myself to be somewhat easy
-* the code was so messy that fixing it would require more time than rewriting it after understanding the core concepts
-* the code presented major basic computer science
+In my experience, the main reason that has led me to write something from scratch even though I had access to code that partially did what I wanted was because:
+* the library wasn't able to sell me on the reasons I should use it instead of doing it myself, while I considered implementing the solution myself to be somewhat easy.
+* the code (organization, style) was so messy that fixing it would require more time than rewriting it after understanding the core concepts.
+* the library was not maintained anymore.
+* using the library would make my workflow slower.
 
 # References
 * https://en.wikipedia.org/wiki/Reinventing_the_wheel
