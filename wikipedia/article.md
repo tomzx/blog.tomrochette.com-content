@@ -53,3 +53,4 @@ Over time I would like to go over [Wikipedia's vital articles](https://en.wikipe
 * 2020-02-05 - https://en.wikipedia.org/wiki/Censoring_(statistics)
 * 2020-02-06 - https://en.wikipedia.org/wiki/Truncation_(statistics)
 * 2020-02-07 - https://en.wikipedia.org/wiki/Outlier
+* 2020-02-08 - https://en.wikipedia.org/wiki/Anscombe%27s_quartet
