@@ -15,6 +15,8 @@ Python has an [abstract syntax tree](https://en.wikipedia.org/wiki/Abstract_synt
 
 You can use the [ast module](https://docs.python.org/3/library/ast.html) to parse a string that contains the code you want to analyze.
 
+A simple example is as follow. It will read a file defined in the `file` variable, use `ast` to parse it, returning a `tree` that can then be visited
+
 ```python
 import ast
 
