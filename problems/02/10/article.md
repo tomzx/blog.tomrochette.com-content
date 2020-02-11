@@ -11,4 +11,4 @@ taxonomy:
 I want to analyze a python script to extract something from it. How do I do that?
 
 # Solution
-Python has an abstract syntax tree
+Python has an [abstract syntax tree](https://en.wikipedia.org/wiki/Abstract_syntax_tree) like most programming language.
