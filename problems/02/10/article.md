@@ -8,6 +8,7 @@ taxonomy:
 ---
 
 # Problem
-I want to scan a python script to extract
+I want to analyze a python script to extract something from it. How do I do that?
 
 # Solution
+Python has an abstract syntax tree
