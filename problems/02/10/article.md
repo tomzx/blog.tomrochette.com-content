@@ -19,10 +19,14 @@ You can use the [ast module](https://docs.python.org/3/library/ast.html) to pars
 import ast
 
 class ClassVisitor():
-	pass
+	def visit_FunctionDef(self, node):
+		# Do some logic specific to classes
+		self.generic_visit(node)
 
 class FunctionVisitor():
-	pass
+	def visit_FunctionDef(self, node):
+		# Do some logic specific to functions
+		self.generic_visit(node)
 
 visitors = [
 	ClassVisitor(),
