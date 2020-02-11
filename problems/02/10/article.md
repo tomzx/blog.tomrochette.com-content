@@ -20,12 +20,12 @@ A simple example is as follow. It will read a file defined in the `file` variabl
 ```python
 import ast
 
-class ClassVisitor():
+class ClassVisitor(ast.NodeVisitor):
 	def visit_ClassDef(self, node):
 		# Do some logic specific to classes
 		self.generic_visit(node)
 
-class FunctionVisitor():
+class FunctionVisitor(ast.NodeVisitor):
 	def visit_FunctionDef(self, node):
 		# Do some logic specific to functions
 		self.generic_visit(node)
