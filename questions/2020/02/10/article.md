@@ -8,7 +8,7 @@ taxonomy:
 ---
 
 # Question
-Why we don't always work on the most important task?
+Why aren't we always working on the most important task?
 
 # Answer
 For bad reasons:
