@@ -19,7 +19,7 @@ You can use the [ast module](https://docs.python.org/3/library/ast.html) to pars
 import ast
 
 class ClassVisitor():
-	def visit_FunctionDef(self, node):
+	def visit_ClassDef(self, node):
 		# Do some logic specific to classes
 		self.generic_visit(node)
 
