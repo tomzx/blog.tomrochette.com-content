@@ -13,4 +13,4 @@ I want to analyze a python script to extract something from it. How do I do that
 # Solution
 Python has an [abstract syntax tree](https://en.wikipedia.org/wiki/Abstract_syntax_tree) like most programming language.
 
-You can use the [ast module](https://docs.python.org/3/library/ast.html) with the [parser module]()
+You can use the [ast module](https://docs.python.org/3/library/ast.html) with the [parser module](https://docs.python.org/3/library/parser.html)
