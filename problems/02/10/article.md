@@ -15,5 +15,28 @@ Python has an [abstract syntax tree](https://en.wikipedia.org/wiki/Abstract_synt
 
 You can use the [ast module](https://docs.python.org/3/library/ast.html) with the [parser module](https://docs.python.org/3/library/parser.html) to parse a string that contains the code you want to analyze.
 
+```python
+import ast
+
+class ClassVisitor():
+	pass
+
+class FunctionVisitor():
+	pass
+
+visitors = [
+	ClassVisitor(),
+	FunctionVisitor()
+]
+
+with open(file, "r") as f:
+	code = f.read()
+
+	tree = ast.parse(code)
+
+	for visitor in visitors:
+		visitor.visit(tree)
+```
+
 # Reference
 * https://greentreesnakes.readthedocs.io/en/latest/index.html
