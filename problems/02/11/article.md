@@ -19,6 +19,8 @@ Once you've established those prototypical users, you should try to find them in
 * Domain experts
 * Former users
 * Customers
+* Trainer and technical support
+* Business or system analysts
 
 # Reference
 * [User Stories Applied: For Agile Software Development](https://www.goodreads.com/book/show/3856.User_Stories_Applied)
