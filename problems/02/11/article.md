@@ -16,6 +16,8 @@ When you are basically defining who your target audience is, it can be rather di
 Once you've established those prototypical users, you should try to find them in person and confirm your assumptions. You do not want to be building features that they don't need. In the event you cannot get access to any real users, you can still make use of user proxies. User proxies are people that can somewhat act as the true end users, but are not the true end users, so that you have to be careful about what they tell you they need since it is likely to be biased by their actual position. Some potential user proxies are:
 * The users' manager
 * Salespeople
+* Domain experts
+* Former users
 
 # Reference
 * [User Stories Applied: For Agile Software Development](https://www.goodreads.com/book/show/3856.User_Stories_Applied)
