@@ -22,5 +22,7 @@ Once you've established those prototypical users, you should try to find them in
 * Trainer and technical support
 * Business or system analysts
 
+In User Stories Applied: For Agile Software Development,
+
 # Reference
 * [User Stories Applied: For Agile Software Development](https://www.goodreads.com/book/show/3856.User_Stories_Applied)
