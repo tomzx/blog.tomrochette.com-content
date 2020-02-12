@@ -22,7 +22,7 @@ Once you've established those prototypical users, you should try to find them in
 * Trainer and technical support
 * Business or system analysts
 
-In User Stories Applied: For Agile Software Development, Mike Cohn
+In User Stories Applied: For Agile Software Development, Mike Cohn suggests to use more than one user proxy in order to mitigate the bias from any specific user proxy. Make sure that the user proxies are of different types. This technique is comparable to using ensembling in machine learning.
 
 # Reference
 * [User Stories Applied: For Agile Software Development](https://www.goodreads.com/book/show/3856.User_Stories_Applied)
