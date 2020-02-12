@@ -10,6 +10,7 @@ taxonomy:
 ## Before
 * Write/prepare an agenda listing the items to be discussed
 * Indicate the duration and responsible/lead of each item
+* Define the list of invitees, try to keep it short, possibly under 6 people
 * Share the agenda with all the attendees
 
 ## During
