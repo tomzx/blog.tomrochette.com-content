@@ -18,7 +18,8 @@ taxonomy:
 
 ## At the end
 * Determine next actions
-* Assign responsibles for each next action
+* Define deadlines for each next action
+* Assign a responsible for each next action
 
 ## After the meeting
 * Create tasks in a task tracking system for the next actions
