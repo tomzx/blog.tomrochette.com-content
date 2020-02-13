@@ -16,5 +16,5 @@ I developed an extension in 2018 called [Run Me](https://marketplace.visualstudi
 I've used it to do all kinds of things, from launching [OBS](https://obsproject.com/) to resetting the Windows 7 visuals when it lowers them down due to low memory. I also use it to automate various tasks such as creating new articles using a template, opening my buffer document that I use on a daily basis to write note and more.
 
 # Reference
-* []
-* https://github.com/tomzx/vscode-run-me
+* [Visual Studio Marketplace - Run Me extension](https://marketplace.visualstudio.com/items?itemName=tomzx.run-me)
+* [Github repository - Run Me extension](https://github.com/tomzx/vscode-run-me)
