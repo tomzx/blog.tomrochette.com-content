@@ -8,6 +8,6 @@ taxonomy:
 ---
 
 # Problem
-I execute the same commands regularly and I'm always in VS Code.
+I want to use Visual Studio Code as my script launcher.
 
 # Solution
