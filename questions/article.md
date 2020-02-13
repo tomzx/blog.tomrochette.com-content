@@ -58,3 +58,4 @@ Answering our own questions is the best way to increase our knowledge. By unders
 * [2020-02-09 - When is it appropriate to abandon a pull request?](2020/02/09)
 * [2020-02-10 - Why aren't we always working on the most important task?](2020/02/10)
 * [2020-02-11 - What does a productive meeting looks like?](2020/02/11)
+* [2020-02-12 - How will you measure your success over the next year?](2020/02/12)
