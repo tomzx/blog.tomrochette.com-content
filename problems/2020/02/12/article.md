@@ -1,5 +1,5 @@
 ---
-title:
+title: Visual Studio Code Run Me extension
 created: 2020-02-12
 taxonomy:
   type: post
@@ -8,7 +8,7 @@ taxonomy:
 ---
 
 # Problem
-I want to use Visual Studio Code as a command launcher where I can customize the command before launching it.
+I frequently run the same commands with different parameters but I have a terrible memory. I also use Visual Studio Code a lot.
 
 # Solution
 I developed an extension in 2018 called [Run Me](https://marketplace.visualstudio.com/items?itemName=tomzx.run-me) which goal is to allow you to define commands that you can customize through a form, which is a series of questions that will be asked to you, before launching the command with the parameters you provided.
