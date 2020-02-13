@@ -11,3 +11,7 @@ taxonomy:
 I want to use Visual Studio Code as my script launcher.
 
 # Solution
+
+
+# Reference
+* https://github.com/tomzx/vscode-run-me
