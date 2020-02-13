@@ -8,7 +8,7 @@ taxonomy:
 ---
 
 # Problem
-I want to use Visual Studio Code as my script launcher.
+I want to use Visual Studio Code as a command launcher where I can customize the command before launching it.
 
 # Solution
 
