@@ -10,3 +10,4 @@ taxonomy:
 ## February
 * [2020/02/10 - AST in python](2020/02/10)
 * [2020/02/11 - Knowing what your users need without having users](2020/02/11)
+* [2020/02/12 - Visual Studio Code Run Me extension](2020/02/12)
