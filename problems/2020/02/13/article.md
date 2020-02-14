@@ -15,7 +15,7 @@ I wrote [a simple python package](https://github.com/tomzx/data-anonymizer) that
 
 Given an anonymizer dataset using this tool, it is possible to do a preliminary data audit and possibly train machine learning models on the data to give a quick idea to clients whether their data looks promising or not without actually revealing the true numbers (except if desired).
 
-The main concern with this approach is that most clients are not technical, and thus having them anonymize their data is generally not easy, if not impossible. Thus it means that such a tool is currently not really applicable in the desired context.
+The main concern with this approach is that most clients are not technical, and thus having them anonymize their data is generally not easy, if not impossible. Thus it means that such a tool is currently not applicable in the desired context.
 
 # Reference
 * https://github.com/tomzx/data-anonymizer
