@@ -19,4 +19,4 @@ Decisions need to be reviewed regularly to ensure consistency. Since there is no
 
 Team members should often work in pairs with a different individual in the team to ensure that their understanding of the project gets discussed with different individuals with different positions. This avoids working with the same person that shares your opinion of the work to be done, while some other individuals may completely disagree with this opinion. Surfacing such differences of opinion early in the development process is critical since it can lead to work that is not aligned with the project.
 
-Overall, we want to reduce as much as possible the time between the moment an individual or group of individuals have incorrect understanding of the project's goals and the correction of their understanding.
+Overall, we want to reduce as much as possible the time between the moment an individual or group of individuals have an incorrect understanding of the project's goals and the correction of their understanding.
