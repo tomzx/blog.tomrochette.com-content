@@ -56,3 +56,4 @@ Over time I would like to go over [Wikipedia's vital articles](https://en.wikipe
 * 2020-02-08 - https://en.wikipedia.org/wiki/Anscombe%27s_quartet
 * 2020-02-09 - https://en.wikipedia.org/wiki/Data_transformation_(statistics)
 * 2020-02-10 - https://en.wikipedia.org/wiki/Extreme_value_theory
+* 2020-02-11 - https://en.wikipedia.org/wiki/Extreme_risk
