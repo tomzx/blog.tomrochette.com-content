@@ -29,3 +29,8 @@ For example, you might want to determine which one of your programming skills ar
 Make sure that you ask yourself questions that are relevant to areas you want to improve. If you don't know how networking works, but it has no incidence on you, then you do not need to address this weakness.
 
 Look for things that create friction in your life, those are generally places where you'll find potential for improvement.
+
+# Reference
+* Feynman technique
+	* https://fs.blog/2012/04/feynman-technique/
+	* https://doist.com/blog/feynman-technique/
