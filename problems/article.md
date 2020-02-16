@@ -13,3 +13,4 @@ taxonomy:
 * [2020/02/12 - Visual Studio Code Run Me extension](2020/02/12)
 * [2020/02/13 - Data anonymizer](2020/02/13)
 * [2020/02/14 - Vocabulary gradient](2020/02/14)
+* [2020/02/15 - Photo geolocation](2020/02/15)
