@@ -59,4 +59,4 @@ Answering our own questions is the best way to increase our knowledge. By unders
 * [2020-02-10 - Why aren't we always working on the most important task?](2020/02/10)
 * [2020-02-11 - What does a productive meeting looks like?](2020/02/11)
 * [2020-02-12 - How will you measure your success over the next year?](2020/02/12)
-* [2020-02-14 - Keeping a site up to date while highlighting changes](2020/02/14)
+* [2020-02-14 - How can you keep a website up to date and yet have previous visitors recognize new content as fast as possible?](2020/02/14)
