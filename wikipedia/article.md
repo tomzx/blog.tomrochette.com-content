@@ -60,4 +60,4 @@ Over time I would like to go over [Wikipedia's vital articles](https://en.wikipe
 * 2020-02-12 - https://en.wikipedia.org/wiki/Feature_engineering
 * 2020-02-13 - https://en.wikipedia.org/wiki/Leverage_(statistics)
 * 2020-02-14 - https://en.wikipedia.org/wiki/Nonparametric_statistics
-* 2020-02-15 -
+* 2020-02-15 - https://en.wikipedia.org/wiki/Order_statistic
