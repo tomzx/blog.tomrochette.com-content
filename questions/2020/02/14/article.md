@@ -8,6 +8,6 @@ taxonomy:
 ---
 
 # Question
-
+How can you keep a website up to date and yet have previous visitors recognize new content as fast as possible?
 
 # Answer
