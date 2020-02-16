@@ -1,5 +1,5 @@
 ---
-title:
+title: Vocabulary gradient
 created: 2020-02-14
 taxonomy:
   type: post
