@@ -58,6 +58,6 @@ Over time I would like to go over [Wikipedia's vital articles](https://en.wikipe
 * 2020-02-10 - https://en.wikipedia.org/wiki/Extreme_value_theory
 * 2020-02-11 - https://en.wikipedia.org/wiki/Extreme_risk
 * 2020-02-12 - https://en.wikipedia.org/wiki/Feature_engineering
-* 2020-02-13 -
+* 2020-02-13 - https://en.wikipedia.org/wiki/Leverage_(statistics)
 * 2020-02-14 -
 * 2020-02-15 -
