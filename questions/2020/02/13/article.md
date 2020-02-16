@@ -22,4 +22,4 @@ Team members should often work in pairs with a different individual in the team 
 Overall, we want to reduce as much as possible the time between the moment an individual or group of individuals have an incorrect understanding of the project's goals and the correction of their understanding.
 
 # Reference
-* [](https://doist.com/blog/asynchronous-communication/)
+* [Asynchronous Communication: The Real Reason Remote Workers Are More Productive](https://doist.com/blog/asynchronous-communication/)
