@@ -15,7 +15,7 @@ In January 2015 I wrote an extension for Chrome that allowed me to track how man
 
 Such a tool will not help you reduce your tab count, but awareness is the first step toward reducing the number of tabs you have open at all times.
 
-The second step is to taper (slowly reduce) the amount of tabs you have open at all time. My strategy has been to reduce by 10 tabs each week the maximum number of tabs I had open. I started with over 160 tabs and I am now at 100 tabs after 6 weeks. I use the [Loop Habit Tracker](https://play.google.com/store/apps/details?id=org.isoron.uhabits) app to setup a daily reminder to make sure my tabs count is under the limit specified for this week and I try as hard as possible to finish the day with the number of tabs open below or at this limit.
+The second step is to taper (slowly reduce) the number of tabs you have open at all times. My strategy has been to reduce by 10 tabs each week the maximum number of tabs I had open. I started with over 160 tabs and I am now at 100 tabs after 6 weeks. I use the [Loop Habit Tracker](https://play.google.com/store/apps/details?id=org.isoron.uhabits) app to setup a daily reminder to make sure my tabs count is under the limit specified for this week and I try as hard as possible to finish the day with the number of tabs open below or at this limit.
 
 # Reference
 * https://github.com/tomzx/chrome-tabs-count
