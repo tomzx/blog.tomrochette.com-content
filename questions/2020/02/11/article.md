@@ -19,7 +19,7 @@ Notes are taken by the different individuals that are part of the meeting.
 
 Items that appear to require more discussion than anticipated are noted and the involved individuals may spend additional time outside of the meeting to make their point, either through another meeting or by writing a document explaining their position.
 
-A list of actionable items is defined at the end of the meeting and responsibles are assigned to those items. Deadlines are also assigned to those items so that people can expect those items to be completed by the define date.
+A list of actionable items is defined at the end of the meeting and responsibles are assigned to those items. Deadlines are also assigned to those items so that people can expect those items to be completed by the defined date.
 
 # References
 * [Meetings](../../../../../processes/meetings)
