@@ -28,4 +28,4 @@ For acceptable reasons:
 For good reasons:
 * The most important task has prerequisites that need to be completed before it can be done.
 * The most important task is being done by someone else already.
-* The importance of tasks is likely to change soon due to to a change in objectives.
+* The importance of tasks is likely to change soon due to a change in objectives.
