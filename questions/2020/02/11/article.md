@@ -8,7 +8,7 @@ taxonomy:
 ---
 
 # Question
-What does a productive meeting looks like?
+What does a productive meeting look like?
 
 # Answer
 There are a few people invited, less than 6 ideally. Everyone invited knows why they are in the meeting and will contribute to the discussion.
