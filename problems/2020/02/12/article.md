@@ -11,7 +11,7 @@ taxonomy:
 I frequently run the same commands with different parameters but I have a terrible memory. I also use Visual Studio Code a lot.
 
 # Solution
-I developed an extension in 2018 called [Run Me](https://marketplace.visualstudio.com/items?itemName=tomzx.run-me) which goal is to allow you to define commands that you can customize through a form, which is a series of questions that will be asked to you, before launching the command with the parameters you provided.
+I developed an extension in 2018 called [Run Me](https://marketplace.visualstudio.com/items?itemName=tomzx.run-me) whose goal is to allow you to define commands that you can customize through a form, which is a series of questions that will be asked to you, before launching the command with the parameters you provided.
 
 I've used it to do all kinds of things, from launching [OBS](https://obsproject.com/) to resetting the Windows 7 visuals when it lowers them down due to low memory. I also use it to automate various tasks such as creating new articles using a template, opening my buffer document that I use on a daily basis to write note and more.
 
