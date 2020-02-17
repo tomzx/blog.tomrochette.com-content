@@ -8,7 +8,7 @@ taxonomy:
 ---
 
 # Question
-What are the signs of an healthy software company?
+What are the signs of a healthy software company?
 
 # Answer
 The following signs are defined assuming a web development software company.
