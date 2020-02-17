@@ -15,7 +15,7 @@ There are a few people invited, less than 6 ideally. Everyone invited knows why 
 
 An agenda for the meeting has been set, with a pre-determined amount of time for each item on the agenda. One person is responsible to make sure that the agenda is followed and that the time is respected.
 
-Notes are taken by the different individuals.
+Notes are taken by the different individuals that are part of the meeting.
 
 Items that appear to require more discussion than anticipated are noted and the involved individuals may spend additional time outside of the meeting to make their point, either through another meeting or by writing a document explaining their position.
 
