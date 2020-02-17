@@ -11,7 +11,7 @@ taxonomy:
 How can a project be well executed through consensus instead of leadership?
 
 # Answer
-To properly execute a project without a leader that makes important decisions, time is one of the most critical components. Without enough time, decisions are not actually consensus but decisions made by the individuals available at the time the decision is required. It is also important not to rush things as it will simply lead to bigger and bigger mistakes happening more and more quickly. At one point a few or many team members will realize they've moved too far too fast and many of the necessary pieces are missing, which makes the work they've done so far either irrelevant or of low value.
+To properly execute a project without a leader that makes important decisions, time is one of the most critical components. Without enough time, decisions are not consensus but decisions made by the individuals available at the time the decision is required. It is also important not to rush things as it will simply lead to bigger and bigger mistakes happening more and more quickly. At one point a few or many team members will realize they've moved too far too fast and many of the necessary pieces are missing, which makes the work they've done so far either irrelevant or of low value.
 
 The team members also need to know each other well enough to know their strengths and weaknesses. Without this knowledge, weaknesses are often ignored because they are the weaknesses of everyone.
 
