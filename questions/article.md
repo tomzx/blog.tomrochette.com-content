@@ -63,3 +63,4 @@ Answering our own questions is the best way to increase our knowledge. By unders
 * [2020-02-14 - How can you keep a website up to date and yet have previous visitors recognize new content as fast as possible?](2020/02/14)
 * [2020-02-15 - What are the signs of a healthy software company?](2020/02/15)
 * [2020-02-16 - How would you lead an AGI company with 100,000 employees?](2020/02/16)
+* [2020-02-17 - ]
