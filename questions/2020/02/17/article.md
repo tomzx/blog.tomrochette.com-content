@@ -1,5 +1,5 @@
 ---
-title:
+title: Questions and problems articles writing process
 created: 2020-02-17
 taxonomy:
   type: post
