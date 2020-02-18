@@ -6,7 +6,7 @@ taxonomy:
   status: in progress
 ---
 
-In 2020, I decided that I would answer one question I had per day. Every day I ask myself hundreds of questions, but I write down only a few of them because they require a lot more thought. The number of questions I've asked myself has grown faster than the number of answers I've had for them. My goal here is to slowly go through the list so that the ratio of answers to questions comes close to 1. I'll dedicate 15 minutes per day to answer one question. I will review the questions I've answered during the week in order to improve the answers and give them a second chance to go through my head.
+In 2020, I decided that I would answer one question I had per day. Every day I ask myself hundreds of questions, but I write down only a few of them because they require a lot more thought. The number of questions I've asked myself has grown faster than the number of answers I've had for them. My goal here is to slowly go through the list so that the ratio of answers to questions comes close to 1. I'll dedicate 15 minutes per day to answer one question. I will review the questions I've answered during the week to improve the answers and give them a second chance to go through my head.
 
 As of 2020-01-01, I have been writing notes daily in text files, writing down questions I asked myself and that I might answer at some point in the future. Since April 14, 2017 I have written approximately 988 questions (over 992 days).
 
