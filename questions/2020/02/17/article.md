@@ -19,6 +19,6 @@ The process is as follows:
 	* To find problems, I will look at my GitHub repositories. When I encounter a problem at work, I try to write it down so I can describe the issue in more detail, which may hopefully help someone in a similar situation in the future.
 * Think about the question or problem for a little while, to see what I can come up with.
 * Write a list of items that I want to cover, this acts as my plan.
-* Detail the items in the list in more details.
+* Describe the items in the list in more details.
 * Reference articles I've already written on the same topic.
 * Review the article using [Grammarly](https://app.grammarly.com/) for grammatical mistakes and typos.
