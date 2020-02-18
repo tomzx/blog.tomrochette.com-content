@@ -15,3 +15,4 @@ taxonomy:
 * [2020/02/14 - Vocabulary gradient](2020/02/14)
 * [2020/02/15 - Photo geolocation](2020/02/15)
 * [2020/02/16 - Chrome tabs count](2020/02/16)
+* [2020/02/17 - PHP code coverage verifier](2020/02/17)
