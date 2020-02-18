@@ -6,6 +6,8 @@ taxonomy:
   status: in progress
 ---
 
+Everyone has problems they need to solve. Here I try to write down and collect all the problems I've encountered in the past and for which I have searched for a solution or developed one.
+
 # 2020
 ## February
 * [2020/02/10 - AST in python](2020/02/10)
