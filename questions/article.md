@@ -64,3 +64,4 @@ Answering our own questions is the best way to increase our knowledge. By unders
 * [2020-02-15 - What are the signs of a healthy software company?](2020/02/15)
 * [2020-02-16 - How would you lead an AGI company with 100,000 employees?](2020/02/16)
 * [2020-02-17 - How do I write my questions and problems articles?](2020/02/17)
+* [2020-02-18 - Why do I track how much time I read and how many pages I've read?](2020/02/18)
