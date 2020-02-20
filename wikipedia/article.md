@@ -64,3 +64,4 @@ Over time I would like to go over [Wikipedia's vital articles](https://en.wikipe
 * 2020-02-16 - https://en.wikipedia.org/wiki/Smallest_organisms
 * 2020-02-17 - https://en.wikipedia.org/wiki/Transcomputational_problem
 * 2020-02-18 - https://en.wikipedia.org/wiki/Interquartile_range
+* 2020-02-19 - https://en.wikipedia.org/wiki/Time_series
