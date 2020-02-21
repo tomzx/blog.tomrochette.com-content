@@ -11,7 +11,7 @@ taxonomy:
 I use Omnifocus but I'd like to have access to the underlying data and use it in another application. How can I do that?
 
 # Solution
-The first step to solve this problem is figuring out if we can access the underlying data easily. Sometimes we're lucky and the data is just a single file with the data in a format that we need to manipulate a little. In other cases, like for the ofocus format, files are organized in a single directory which contains zip archives. Unzipping some of those files we can observe there are two kinds: a master file and many transaction files. By playing around a bit with Omnifocus, we can make all the transactions files disappear, effectively merging them into the master file.
+The first step to solve this problem is figuring out if we can access the underlying data easily. Sometimes we're lucky and the data is just a single file with the data in a format that we need to manipulate a little. In other cases, like for the ofocus format, files are organized in a single directory that contains zip archives. Unzipping some of those files we can observe there are two kinds: a master file and many transaction files. By playing around a bit with Omnifocus, we can make all the transactions files disappear, effectively merging them into the master file.
 
 The next step is to look at the content of the master file. This file contains most of what we would expect to find when we use Omnifocus, namely contexts, folders and tasks. By inspecting multiple copies of the same type of entry it is possible to collect the different attributes that constitutes them and whether some are optional while others are always present.
 
