@@ -8,6 +8,6 @@ taxonomy:
 ---
 
 # Question
-
+What are the benefits of reading one Wikipedia article per day?
 
 # Answer
