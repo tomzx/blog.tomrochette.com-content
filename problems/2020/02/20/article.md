@@ -15,7 +15,7 @@ The first step to solve this problem is figuring out if we can access the underl
 
 The next step is to look at the content of the master file. This file contains most of what we would expect to find when we use Omnifocus, namely contexts, folders and tasks. By inspecting multiple copies of the same type of entry it is possible to collect the different attributes that constitute them and whether some are optional while others are always present.
 
-When I tried to reverse-engineer the format of ofocus files, I used my own database which contained many entries. This allowed me to quickly find most of the attributes of each type of entry. Another approach would've been to start with a clean database and to create each of the type of entry and create two variants: one with all the attributes defined, the other one with the least amount of attributes necessary.
+When I tried to reverse-engineer the format of ofocus files, I used my own database which contained many entries. This allowed me to quickly find most of the attributes of each type of entry. Another approach would've been to start with a clean database and to create each of the types of entry and create two variants: one with all the attributes defined, the other one with the least amount of attributes necessary.
 
 Once the structure of those entries is identified, it is not too difficult to use reasoning to determine from where certain values come from. In some cases, values are reference to other entries, similar to how you would have foreign keys in a database.
 
