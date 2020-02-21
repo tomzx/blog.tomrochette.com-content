@@ -20,3 +20,4 @@ Everyone has problems they need to solve. Here I try to write down and collect a
 * [2020/02/17 - PHP code coverage verifier](2020/02/17)
 * [2020/02/18 - Anki recorder](2020/02/18)
 * [2020/02/19 - PHP semantic versioning checker](2020/02/19)
+* [2020/02/20 - Omnifocus "ofocus" format](2020/02/20)
