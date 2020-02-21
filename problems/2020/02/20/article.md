@@ -19,7 +19,7 @@ When I tried to reverse-engineer the format of ofocus files, I used my own datab
 
 Once the structure of those entries is identified, it is not too difficult to use reasoning to determine from where certain values come from. In some cases, values are references to other entries, similar to how you would have foreign keys in a database.
 
-With all this knowledge now available to us, it is easy to simply convert the XML file into a JSON file. Once the data is available in JSON, it's slightly easier to work with it in PHP than using XML. By understanding the structure and relationships within the data, it is possible to make use of this data to build your own application that would reproduce the hierarchy of folders/tasks that is displayed inside Omnifocus.
+With all this knowledge now available to us, it is easy to simply convert the XML file into a JSON file. Once the data is available in JSON, it's slightly easier to work with it in PHP than using XML. By understanding the structure and relationships within the data, it is possible to make use of this data to build your own application that would reproduce the hierarchy of folders/tasks that are displayed inside Omnifocus.
 
 # References
 * https://github.com/tomzx/ofocus-format
