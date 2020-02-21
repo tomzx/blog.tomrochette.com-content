@@ -1,5 +1,5 @@
 ---
-title:
+title: Writing one article per day
 created: 2020-02-20
 taxonomy:
   type: post
@@ -8,6 +8,6 @@ taxonomy:
 ---
 
 # Question
-What are the benefits of reading one Wikipedia article per day?
+What are the benefits of writing one article per day?
 
 # Answer
