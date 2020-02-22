@@ -8,7 +8,7 @@ taxonomy:
 ---
 
 # Question
-What are different ways to measure intelligence?
+What are the different ways to measure intelligence?
 
 # Answer
 We can measure intelligence as:
