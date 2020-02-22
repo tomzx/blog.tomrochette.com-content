@@ -19,6 +19,8 @@ At the time I already knew of mind maps. I thought it would make sense to try an
 
 I initially built a very large concept map using [yEd](https://www.yworks.com/products/yed) that included everything I could think of that touched on the topic of AGI: machine learning, mathematics, computer science, neuroscience, etc. As the map got larger and larger, I started thinking about how I would organize it so that it was clearer to understand and that it was possible to progress through it if someone else wanted to learn from my experience. Thus, I extracted the machine learning, computer science and mathematics concept maps to their own respective concept maps.
 
+The approach has been to spend time to write down what I knew, create a node in the graph with the term, then try to associate it with other terms already in the graph. As I learned new terms I would add them to the graph. I would also dedicate a bit of time during the week to try to brain dump whatever I might have learned or I knew about that could be added to the graph. This is an iterative process, so the graph itself is never really completed. However given this graph, it is now possible to know what I have already explored and the areas where I need to do more exploration because my understanding is lacking.
+
 # References
 * [My AGI story](../../../../agi/my-agi-story)
 * [My path to AGI](../../../../agi/my-path-to-agi)
