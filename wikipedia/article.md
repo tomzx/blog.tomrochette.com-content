@@ -66,4 +66,4 @@ Over time I would like to go over [Wikipedia's vital articles](https://en.wikipe
 * 2020-02-18 - https://en.wikipedia.org/wiki/Interquartile_range
 * 2020-02-19 - https://en.wikipedia.org/wiki/Time_series
 * 2020-02-20 - https://en.wikipedia.org/wiki/Estimation_theory
-* 2020-02-21 -
+* 2020-02-21 - https://en.wikipedia.org/wiki/68%E2%80%9395%E2%80%9399.7_rule
