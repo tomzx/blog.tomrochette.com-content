@@ -16,5 +16,7 @@ We can measure intelligence as:
 * the amount of energy spent by a system to solve a problem. Less is better.
 * the time necessary to solve a problem. Less is better.
 
+The benefit of all those measurements is that they are scalar and thus ordinal, creating an order between the different agents that can successfully solve the problem.
+
 # Reference
 * [Intelligence](../../../../agi/intelligence)
