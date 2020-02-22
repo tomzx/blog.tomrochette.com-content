@@ -17,7 +17,7 @@ My initial approach was to read a lot about the topic. It allowed me to learn ab
 
 At the time I already knew of mind maps. I thought it would make sense to try and map out all the knowledge I had acquired so that I could make sense of it and be able to refer to it as I would work.
 
-I initially built a very large concept map using
+I initially built a very large concept map using [yEd](https://www.yworks.com/products/yed) that included everything I could think of that touched on the topic of AGI: .
 
 # References
 * [My AGI story](../../../../agi/my-agi-story)
