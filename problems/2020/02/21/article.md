@@ -15,6 +15,8 @@ When I wanted to learn about artificial general intelligence (AGI), I knew almos
 
 My initial approach was to read a lot about the topic. It allowed me to learn about a variety of concepts and the vocabulary associated with AGI. However, as I was doing that, I felt overwhelmed by the amount of information I would have to learn. In 2014 I was reading Artificial Intelligence: A Modern Approach, then in 2017 the Deep Learning book. It was hard to reconcile how the new concepts I was learning and how they were all connected.
 
+At the time I already knew of mind maps.
+
 # References
 * [My AGI story](../../../../agi/my-agi-story)
 * [My path to AGI](../../../../agi/my-path-to-agi)
