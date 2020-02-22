@@ -97,6 +97,8 @@ The fact that new connections can appear from unrelated neurons means that it is
 Neurons also communicate through some form temporal signaling. Neurons may spike at a given interval based on the input it receives up until a certain point of saturation. At this point the neuron cannot fire any faster.
 
 # See also
+* [Definitions](definitions)
+* [Tests](tests)
 
 # References
 * http://journal.frontiersin.org/article/10.3389/fnana.2011.00029/full
