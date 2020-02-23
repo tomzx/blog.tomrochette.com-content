@@ -22,3 +22,4 @@ Everyone has problems they need to solve. Here I try to write down and collect a
 * [2020/02/19 - PHP semantic versioning checker](2020/02/19)
 * [2020/02/20 - Omnifocus "ofocus" format](2020/02/20)
 * [2020/02/21 - Learning topics that are overwhelming](2020/02/21)
+* [2020/02/22 - Visual Studio Code Emoji extension](2020/02/22)
