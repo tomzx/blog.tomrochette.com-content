@@ -13,7 +13,7 @@ I'm a tab hoarder and I would like to keep my tab count under control. How do I 
 # Solution
 In January 2015 I wrote an extension for Chrome that allowed me to track how many tabs I had open. I called it the [Chrome tabs count extension](https://github.com/tomzx/chrome-tabs-count). It displays the number of currently opened tabs in the extension bar and when you click on the extension button itself, a chart is displayed with shows the tabs and windows count at each point a tab was opened/closed. This allows you to see the patterns of tabs creation/closing you have.
 
-![](images/screenshot.png)
+![Chrome tabs count screenshot](images/screenshot.png)
 
 Such a tool will not help you reduce your tab count, but awareness is the first step toward reducing the number of tabs you have open at all times.
 
