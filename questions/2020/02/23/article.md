@@ -19,5 +19,7 @@ The purpose of documentation should be clear. Is it to describe a specific use c
 
 You need to state explicitly what you will cover and not cover in the documentation. Readers may start reading your document which contains assumptions about their knowledge, but if they do not have this knowledge, they should know where to acquire it.
 
+It should be easy for readers to know where to reach the author of the documentation or people knowledgeable enough to guide them to the right people.
+
 # References
 * https://www.sohamkamani.com/blog/how-to-write-good-documentation/
