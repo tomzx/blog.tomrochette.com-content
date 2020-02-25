@@ -22,4 +22,5 @@ You need to state explicitly what you will cover and not cover in the documentat
 It should be easy for readers to know where to reach the author of the documentation or people knowledgeable enough to guide them to the right people.
 
 # References
+* https://www.divio.com/blog/documentation/
 * https://www.sohamkamani.com/blog/how-to-write-good-documentation/
