@@ -9,5 +9,6 @@ taxonomy:
 
 * Define the audience
 * Define the purpose
+* Define the assumptions
 * Provide a way to contact the author
 * Provide a way to ask additional questions
