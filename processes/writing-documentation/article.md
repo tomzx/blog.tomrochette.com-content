@@ -6,3 +6,7 @@ taxonomy:
   category: [Software development, Processes]
   status: draft
 ---
+
+* Define the audience
+* Define the purpose
+* Provide a way to contact the author
