@@ -69,3 +69,4 @@ Answering our own questions is the best way to increase our knowledge. By unders
 * [2020-02-20 - What are the benefits of writing one article per day?](2020/02/20)
 * [2020-02-21 - What are the different ways to measure intelligence?](2020/02/21)
 * [2020-02-22 - How can you onboard users to use your library as fast as possible?](2020/02/22)
+* [2020-02-23 - What do you need to know to write good documentation?](2020/02/23)
