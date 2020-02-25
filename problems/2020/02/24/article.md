@@ -1,6 +1,6 @@
 ---
-title: IMDb ratings importer
-created: 2020-02-23
+title: Rotten Tomatoes ratings exporter
+created: 2020-02-24
 taxonomy:
   type: post
   category: [Problems, PHP]
@@ -12,4 +12,4 @@ taxonomy:
 # Solution
 
 # References
-* https://github.com/tomzx/imdb-importer
+* https://github.com/tomzx/rotten-tomatoes-exporter
