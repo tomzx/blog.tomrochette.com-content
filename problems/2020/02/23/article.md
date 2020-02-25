@@ -8,6 +8,7 @@ taxonomy:
 ---
 
 # Problem
+I have movie ratings that I would like to import into IMDb. How can I do that?
 
 # Solution
 
