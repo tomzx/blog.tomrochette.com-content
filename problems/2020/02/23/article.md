@@ -8,7 +8,7 @@ taxonomy:
 ---
 
 # Problem
-I have movie ratings that I would like to import into IMDb. How can I do that?
+I have movie ratings that I would like to import into IMDb. I also happen to know PHP. How can I do that?
 
 # Solution
 
