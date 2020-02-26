@@ -15,7 +15,7 @@ If you are building technical software for your users, you need to know what the
 
 You should define the users' strengths and weaknesses, that is, what you expect them to excel at and where they will require more of your assistance to succeed at their task.
 
-Define the scenarios in which your users use the software you will build. What information do they have available, which information do they need to gather, what kind of decisions do they need to make, which decisions can be automated for them?
+Define the scenarios in which your users use the software you will build. What information do they have available? Which information do they need to gather? What kind of decisions do they need to make? Which decisions can be automated for them? Do they need to run it in a specific environment? When do they use the software? How frequently do they use the software? How much of their time is spent on the task they are solving using the software you're building?
 
 Define what the users' goals are. You might be creating a text editor, if your users' goal is to transmit information between companies, they may not care at all about making the text fancy but they might appreciate your editor helping them correct grammatical mistakes.
 
