@@ -23,3 +23,4 @@ You want to be as specific as possible when describing your users so that your d
 
 # References
 * https://www.interaction-design.org/literature/article/personas-why-and-how-you-should-use-them
+* http://www.agilemodeling.com/artifacts/personas.htm
