@@ -25,4 +25,4 @@ Everyone has problems they need to solve. Here I try to write down and collect a
 * [2020/02/22 - Visual Studio Code Emoji extension](2020/02/22)
 * [2020/02/23 - IMDb ratings importer](2020/02/23)
 * [2020/02/24 - Rotten Tomatoes ratings exporter](2020/02/24)
-* [2020/02/25 - ]
+* [2020/02/25 - Introducing mypy in code with lots of issues](2020/02/25)
