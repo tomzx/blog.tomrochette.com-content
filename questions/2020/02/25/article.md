@@ -19,7 +19,9 @@ Define the scenarios in which your users use the software you will build. What i
 
 Define what the users' goals are. You might be creating a text editor, if your users' goal is to transmit information between companies, they may not care at all about making the text fancy but they might appreciate your editor helping them correct grammatical mistakes.
 
-You want to be as specific as possible when describing your users so that your decisions are guided by this persona you're creating. This will help you scope your work.
+You want to be as specific as possible when describing your users so that your decisions are guided by this persona you're creating. What kind of company are they working in? Startups, PME, large enterprises? Do they have multiple responsibilities or are specialized?
+
+With all this information about your user you should be able to make more judicious decisions. This will help you scope your work.
 
 # References
 * https://www.interaction-design.org/literature/article/personas-why-and-how-you-should-use-them
