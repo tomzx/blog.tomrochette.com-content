@@ -11,7 +11,7 @@ taxonomy:
 How can you tell when you're working on the wrong task?
 
 # Answer
-You may be working on the wrong task because priorities have changed. To determine if that is the case, you should ask yourself whether completing the task actually provides value, either to you or your users. If the answer is no, drop the task. If the answer is yes, you should determine if it is the utmost important task at the moment. If the answer is no, then figure out which task is. If the answer is yes, then proceed.
+You may be working on the wrong task because priorities have changed. To determine if that is the case, you should ask yourself whether completing the task provides value, either to you or your users. If the answer is no, drop the task. If the answer is yes, you should determine if it is the utmost important task at the moment. If the answer is no, then figure out which task is. If the answer is yes, then proceed.
 
 You may be working on the wrong task because you don't have the necessary information to complete the time in an appropriate amount of time. If you find yourself spending most of your time gathering information instead of accomplishing the task that should be done with the information you need, then it may not be the right time to do the task yet. You may have to create a prior task which is to acquire the necessary knowledge to execute the original task.
 
