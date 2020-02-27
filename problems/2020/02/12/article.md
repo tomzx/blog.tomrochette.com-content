@@ -15,6 +15,7 @@ I developed an extension in 2018 called [Run Me](https://marketplace.visualstudi
 
 I've used it to do all kinds of things, from launching [OBS](https://obsproject.com/) to resetting the Windows 7 visuals when it lowers them down due to low memory. I also use it to automate various tasks such as creating new articles using a template, opening my buffer document that I use on a daily basis to write notes and more.
 
+Here's an example of my configuration file which I use to start OBS and to reset the Windows 7 visuals.
 ```json
 "run-me": {
 	"commands": [
