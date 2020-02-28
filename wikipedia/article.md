@@ -69,3 +69,4 @@ Over time I would like to go over [Wikipedia's vital articles](https://en.wikipe
 * 2020/02/21 - https://en.wikipedia.org/wiki/68%E2%80%9395%E2%80%9399.7_rule
 * 2020/02/22 - https://en.wikipedia.org/wiki/Fermi_problem
 * 2020/02/23 - https://en.wikipedia.org/wiki/Panel_analysis
+* 2020/02/24 - https://en.wikipedia.org/wiki/Statistical_benchmarking
