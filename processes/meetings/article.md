@@ -13,6 +13,7 @@ taxonomy:
 	* Aim for a meeting to last under an hour. If more time appears to be required, then prior work should be done in order to reduce the amount of time necessary for the meeting.
 * Define the list of invitees, try to keep it short, possibly under 6 people
 * Share the agenda with all the attendees
+* Schedule the agenda around boundaries (beginning/end of day, before/after lunch)
 
 ## During
 * Present the agenda
