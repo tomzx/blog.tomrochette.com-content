@@ -73,3 +73,4 @@ Answering our own questions is the best way to increase our knowledge. By unders
 * [2020/02/24 - How is value defined in a business context?](2020/02/24)
 * [2020/02/25 - What should I know about my users if I want to build appropriate software for them?](2020/02/25)
 * [2020/02/26 - How can you tell when you're working on the wrong task?](2020/02/26)
+* [2020/02/27 - What should be defined to make a user demo walkthrough successful?](2020/02/27)
