@@ -3,7 +3,7 @@ title: Pytest with tests files with similar names
 created: 2020-02-28
 taxonomy:
   type: post
-  category: [Problems]
+  category: [Problems, Python]
   status: finished
 ---
 
