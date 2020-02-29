@@ -141,5 +141,8 @@ We can see here that the numbers are not necessarily equal to one another, this 
 
 Note that the load time of a package may be different depending on which script you load because dependendencies of the package may have already been loaded in some cases, while in others it may have to load them.
 
+Looking at text might be your thing, but if you're more visual, there's a tool called [tuna](https://github.com/nschloe/tuna)
+
 # References
 * [Python documentation on -X](https://docs.python.org/3/using/cmdline.html#id5)
+* https://github.com/nschloe/tuna
