@@ -30,3 +30,4 @@ What are the differences between a brain and a CPU?
 # References
 * https://hypertextbook.com/facts/2001/JacquelineLing.shtml
 * https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4189373/
+* https://en.wikipedia.org/wiki/Brain_size
