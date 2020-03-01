@@ -27,22 +27,23 @@ taxonomy:
 # Recognizing intelligence
 ## Relative to your own
 ### Below
-* Recognition of errors made in the past
-* Often make mistakes
+* Recognition of errors you made in the past
+* Make more mistakes
 * Cannot resolve problems one can
 * Solves problem more slowly
 * Solution is not appropriate for the problem at hand
 * Unable to predict your behaviors, recognizes none of your patterns
 
 ### In the same range
+* Make the same amount of mistakes
 * Problem resolution in which there is trade-off between the solutions (no real winner)
-* Ocassionally make mistakes
 * Similar efficiency in problem resolution
 * Preference for different tools
 * Disagreement on the most important aspect of a solution
 * Able to predict some of your behaviors, recognize some of your patterns
 
 ### Over
+* Make less mistakes
 * Recognition of more effective solutions to similarly faced problems
 * Ability to resolve problems one cannot resolve himself
 * Solve problems faster
