@@ -46,7 +46,7 @@ The following is not factual but only inferred from the information previously l
 From this data one could infer there is a maximum of 120 megapixels of raw data per eye. However, the optic nerve is only composed of between 770,000 and 1.7 million nerve fibers, as a great amount of photoreceptors get merged into a single retinal ganglion cell which means that a good amount of the 120 megapixels gets aggregated before being transferred to the occipital lobe. If we consider that a nerve fiber is able to transport all the information required for the equivalent of a single pixel (which is unlikely), we've dropped from 120 megapixels down to 1.7 megapixels per eye.
 
 # Hearing
-In humans, the number of nerve fibers within the cochlear nerve averages around 30,000[^5].
+In humans, the number of nerve fibers within the cochlear nerve averages around 30,000[^5]. The common hearing range of human is between 20 Hz and 20000 Hz.
 
 # Smell
 
