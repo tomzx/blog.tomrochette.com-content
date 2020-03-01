@@ -28,6 +28,7 @@ taxonomy:
 ## Relative to your own
 ### Below
 * Recognition of errors made in the past
+* Often make mistakes
 * Cannot resolve problems one can
 * Solves problem more slowly
 * Solution is not appropriate for the problem at hand
@@ -35,6 +36,7 @@ taxonomy:
 
 ### In the same range
 * Problem resolution in which there is trade-off between the solutions (no real winner)
+* Ocassionally make mistakes
 * Similar efficiency in problem resolution
 * Preference for different tools
 * Disagreement on the most important aspect of a solution
