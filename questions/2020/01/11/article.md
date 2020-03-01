@@ -11,7 +11,7 @@ taxonomy:
 How can an agent efficiently store terabytes of data, with hundreds of gigabytes updated daily?
 
 # Answer
-This question comes from the idea that if we want to implement an artificial intelligence, it will have to be able to process a large amount of data on a daily basis, similar to how we need to process a stream of sensorial (sight, hearing, taste, touch, smell) inputs actively more than 12 hours per day.
+This question comes from the idea that if we want to implement an artificial intelligence, it will have to be able to process a large amount of data daily, similar to how we need to process a stream of sensorial (sight, hearing, taste, touch, smell) inputs actively more than 12 hours per day.
 
 In human beings, even though we perceive a large amount of incoming data, a lot of it is compressed through differencing, that is, comparing the previous input with the new input and only storing the difference. This is similar to how video is currently encoded and compressed. To be able to accomplish this feat we however need two things: a temporary buffer to store the previous input (or sequence of inputs), and a mechanism to differentiate between the previous and the current input.
 
