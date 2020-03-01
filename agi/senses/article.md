@@ -64,6 +64,7 @@ In humans, the number of nerve fibers within the cochlear nerve averages around 
 [^3]: https://en.wikipedia.org/wiki/Photoreceptor_cell
 [^4]: https://en.wikipedia.org/wiki/Optic_nerve
 [^5]: https://en.wikipedia.org/wiki/Cochlear_nerve
+[^6]: https://en.wikipedia.org/wiki/Hearing_range
 
 ## Sight
 * http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2826883/
