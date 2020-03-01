@@ -1,5 +1,5 @@
 ---
-title:
+title: Smarter people than you
 created: 2020-02-29
 taxonomy:
   type: post
