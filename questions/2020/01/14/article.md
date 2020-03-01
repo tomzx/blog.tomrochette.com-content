@@ -11,7 +11,7 @@ taxonomy:
 What are the differences between a brain and a CPU?
 
 # Answer
-* The brain is extremely parallel, while CPUs are currently limited to a few cores.
+* The brain is extremely parallel (each neuron processing many signals), while CPUs are currently limited to a few cores.
 * The brain appears to be able to only do a single thing at once (single process, single thread).
 * CPUs can freely control their memory access while the brain memory organization and access is unclear.
 * The brain is a lot slower in terms of sequential operations, processing at a maximum of 250-1000 Hz.
