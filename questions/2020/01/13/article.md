@@ -16,7 +16,7 @@ What do humans modeled as computers look like?
 * Those processes are buffered and a process takes care of synchronizing the different input streams to create a coherent flow of information
 * The spinal cord and nerves are network cables, transferring information from the limbs and other regions of the body to the main processing unit, the brain
 * The eyes are digital cameras that can see into the world, converting photons into bits of data
-* The ears are microphones that can listen to a limited range of frequencies
+* The ears are microphones that can listen to a limited range of frequencies (20-20000 Hz)
 * Touch is complex as it deals with textures, temperatures, pressures, however it can likely be modeled as a surface with discrete elements that measure a few things such as the force currently applied on it, the temperature, moisture
 * Taste and smell are also complex as they are specialized receptors that will create different fragrances based on the distribution of particles that are perceived (and that can be recognized)
 * The arms, legs, hands, feet are actuators used to interact with the environment
