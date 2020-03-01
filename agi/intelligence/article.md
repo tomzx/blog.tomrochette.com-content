@@ -31,18 +31,21 @@ taxonomy:
 * Cannot resolve problems one can
 * Solves problem more slowly
 * Solution is not appropriate for the problem at hand
+* Unable to predict your behaviors, recognizes none of your patterns
 
 ### In the same range
 * Problem resolution in which there is trade-off between the solutions (no real winner)
 * Similar efficiency in problem resolution
 * Preference for different tools
 * Disagreement on the most important aspect of a solution
+* Able to predict some of your behaviors, recognize some of your patterns
 
 ### Over
 * Recognition of more effective solutions to similarly faced problems
 * Ability to resolve problems one cannot resolve himself
 * Solve problems faster
 * Problems are more thoroughly resolved and in greater depth
+* Can predict your behaviors, recognizes most of your patterns
 
 # Measuring intelligence
 * Factors of interest in the formula
