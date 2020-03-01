@@ -22,7 +22,9 @@ What are the differences between a brain and a CPU?
 * The brain is biodegradable, the CPU is not.
 * Signal is transmitted between neurons using neurotransmitters (chemically) while CPUs transmit signals between transistors electrically.
 * The organization of the brain evolves over time (in a single person), while a CPU chip will remain the same its whole life.
-* We currently cannot transplant a brain from one person to another, but we can transfer a CPU from one computer to another.
+* We currently cannot transplant a brain from one person to another, but we can transfer a CPU from one computer to another (as long as the motherboard is compatible).
+* The brain contains a large amount of memory, while the CPU has a small amount of memory and relies on larger memory stores (RAM, disks).
+* It is possible to reverse engineer a CPU by trying a different combination of inputs and recording the output (immutable). Doing the same with a part of the brain may result in different results as the brain is mutable.
 
 ## To be determined
 * The brain may not have different levels of memory cache (we do however talk about short and long term memory).
