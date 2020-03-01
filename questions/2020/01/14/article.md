@@ -17,7 +17,7 @@ What are the differences between a brain and a CPU?
 * The brain is a lot slower in terms of sequential operations, processing at a maximum of 250-1000 Hz.
 * The brain does not have a clear instruction set.
 * The brain consumes glucose for energy, while a CPU consumes electricity.
-* The human brain is much larger (average 1273 cm<sup>3</sup> for men, 1131 cm<sup>3</sup> for women) than a CPU chip (Intel Core i7-10710U ).
+* The human brain is much larger (average 1273 cm<sup>3</sup> for men, 1131 cm<sup>3</sup> for women) than a CPU chip (Intel Core i7-10710U is 46mm by 24mm).
 * Heat dissipation is done through cerebral circulation in the brain and through a heatsink attached to a CPU.
 * The brain is biodegradable, the CPU is not.
 * Signal is transmitted between neurons using neurotransmitters (chemically) while CPUs transmit signals between transistors electrically.
