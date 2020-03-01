@@ -14,7 +14,7 @@ What are the differences between a brain and a CPU?
 * The brain is extremely parallel (each neuron processing many signals), while CPUs are currently limited to a few cores.
 * The brain appears to be able to only do a single thing at once (single process, single thread).
 * CPUs can explicitly control their memory access while the brain memory organization and access is unclear.
-* The brain is a lot slower in terms of sequential operations, processing at a maximum of 250-1000 Hz.
+* The brain is a lot slower in terms of sequential operations, processing at a maximum of 250-1000 Hz while current generation (2020) desktop CPUs are in the 3-5 GHz range.
 * The brain does not have a clear instruction set.
 * The brain consumes glucose for energy, while a CPU consumes electricity.
 * The human brain is much larger (average 1273 cm<sup>3</sup> for men, 1131 cm<sup>3</sup> for women) than a CPU chip (Intel Core i7-10710U is 46mm by 24mm (height unknown but definitely less than 10 mm) which is less than 11 cm<sup>3</sup>).
