@@ -23,12 +23,14 @@ A lot of what I wrote in [How do you prioritize things when there are so many of
 * Do not spend time answering questions you don't care about the answer
 	* Record under such question that you decided not to answer them due to a lack of value
 * Prioritize the questions you would like to have an answer to
-	* Evaluate how valuable is a question's answer to you, and how much time you would be willing to answer it
+	* Evaluate how valuable is a question's answer to you, and how much time you would be willing to spend to answer it
 * Look online for existing answers
 * Write down the answer to the question you asked yourself, you may ask the same question again in the future
 * [Answer one question per day](../../..)
 
 I often joke around with colleagues at work that it's easier to generate dumb questions than it is to answer them appropriately. As such, don't spend your time on questions that are not worth answering.
+
+If you dedicate a bit of your time every day to answer one question you asked yourself, you will slowly accumulate a large list of questions you've spent time thinking about and answering. Those answers may be useful to others, so make sure that you share as many of your answers with others.
 
 # References
 * [Algorithms to live by](https://www.goodreads.com/book/show/25666050-algorithms-to-live-by)
