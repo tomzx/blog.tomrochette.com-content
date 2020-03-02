@@ -151,3 +151,4 @@ Son Jack John
 * http://www.slideshare.net/jamietaylor/freebase-schema
 * http://cgi.csc.liv.ac.uk/~frank/teaching/comp08/lecture12.pdf
 * https://piggydb.net/
+* https://github.com/zadam/trilium/wiki/Promoted-attributes
