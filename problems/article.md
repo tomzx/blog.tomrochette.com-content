@@ -30,3 +30,6 @@ Everyone has problems they need to solve. Here I try to write down and collect a
 * [2020/02/27 - Identifying python files with no coverage](2020/02/27)
 * [2020/02/28 - Pytest with tests files with similar names](2020/02/28)
 * [2020/02/29 - Slow python imports](2020/02/29)
+
+## March
+* [2020/03/01 - Visual Studio Code templates](2020/03/01)
