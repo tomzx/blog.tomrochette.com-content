@@ -73,4 +73,4 @@ Over time I would like to go over [Wikipedia's vital articles](https://en.wikipe
 * 2020/02/25 - https://en.wikipedia.org/wiki/Model_selection
 * 2020/02/26 - https://en.wikipedia.org/wiki/Automated_machine_learning
 * 2020/02/27 - https://en.wikipedia.org/wiki/Feature_extraction
-* 2020/02/28 -
+* 2020/02/28 - https://en.wikipedia.org/wiki/Goodness_of_fit
