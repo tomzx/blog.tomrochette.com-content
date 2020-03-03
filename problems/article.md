@@ -33,3 +33,4 @@ Everyone has problems they need to solve. Here I try to write down and collect a
 
 ## March
 * [2020/03/01 - Visual Studio Code templates](2020/03/01)
+* [2020/03/02 - Quickly recording notes using VS Code](2020/03/02)
