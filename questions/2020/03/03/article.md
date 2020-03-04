@@ -1,5 +1,5 @@
 ---
-title: Useful code refactorings
+title: Useful code refactoring
 created: 2020-03-03
 taxonomy:
   type: post
