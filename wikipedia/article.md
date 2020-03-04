@@ -74,3 +74,9 @@ Over time I would like to go over [Wikipedia's vital articles](https://en.wikipe
 * 2020/02/26 - https://en.wikipedia.org/wiki/Automated_machine_learning
 * 2020/02/27 - https://en.wikipedia.org/wiki/Feature_extraction
 * 2020/02/28 - https://en.wikipedia.org/wiki/Goodness_of_fit
+* 2020/02/29 - https://en.wikipedia.org/wiki/Rule_of_three_(statistics)
+
+## March
+* 2020/03/01 -
+* 2020/03/02 -
+* 2020/03/03 -
