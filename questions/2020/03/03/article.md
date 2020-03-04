@@ -15,4 +15,4 @@ The classical adage in software development is that "if it ain't broke, don't fi
 
 In a business environment, a refactor also means implicating other developers to review your changes. As such, this introduces distractions in those developers that could be more focused.
 
-In this case, whether a code refactoring or other changes to the code is noisy is a matter of timing.
+In this case, whether a refactor or other changes to the code is noisy is a matter of timing.
