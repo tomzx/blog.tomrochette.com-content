@@ -79,4 +79,4 @@ Over time I would like to go over [Wikipedia's vital articles](https://en.wikipe
 ## March
 * 2020/03/01 - https://en.wikipedia.org/wiki/Satellite_(biology)
 * 2020/03/02 - https://en.wikipedia.org/wiki/Feature_hashing
-* 2020/03/03 -
+* 2020/03/03 - https://en.wikipedia.org/wiki/Optimal_decision
