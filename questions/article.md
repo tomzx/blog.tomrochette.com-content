@@ -81,3 +81,4 @@ Answering our own questions is the best way to increase our knowledge. By unders
 * [2020/03/01 - How can I read more books?](2020/03/01)
 * [2020/03/02 - How do you estimate the size of a project roughly?](2020/03/02)
 * [2020/03/03 - How can you tell between noisy and useful code refactoring?](2020/03/03)
+* [2020/03/04 - What is the most important part of a meeting?](2020/03/04)
