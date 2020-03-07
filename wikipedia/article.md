@@ -82,3 +82,4 @@ Over time I would like to go over [Wikipedia's vital articles](https://en.wikipe
 * 2020/03/03 - https://en.wikipedia.org/wiki/Optimal_decision
 * 2020/03/04 - https://en.wikipedia.org/wiki/Unconventional_computing
 * 2020/03/05 - https://en.wikipedia.org/wiki/DNA_computing
+* 2020/03/06 - https://en.wikipedia.org/wiki/Decision-making_software
