@@ -15,8 +15,10 @@ My approach has always been based on the [wisdom of the crowd](https://en.wikipe
 
 If I want to read a book on a given topic, I will first look for the books that are available and create a list. From that list I will then look at websites like [goodreads](https://www.goodreads.com/) to gather people's opinion on the book. I look for two factors: how many people read the book, and the overall rating of the book. The book should have been read by as many people as possible and have the highest rating. I will also read some of the low rating comments to get a sense of the negative feedback that has been provided on the book.
 
-If I already have some knowledge about the topic I am studying, I might be looking for specific sub-topics to be covered. I would then inspect the table of contents of the books to determine if those sub-topics are covered. I may end up reading only a chapter of a book because it addresses something I'm interested in.
+If I already have some knowledge about the topic I am studying, I might be looking for specific sub-topics to be covered. I would then inspect the table of contents of the books to determine if those sub-topics are covered. I may end up reading only a chapter of a book because it addresses something I'm interested in. The topic may also only be covered in this book.
 
 In some cases, I will ask people that are more knowledgeable than I am to give me references. I use my knowledge of their expertise to determine the topics on which they can and cannot offer expertise and suggestions.
 
-If there are multiple options of material, then I will skim a few of them, maybe read a few passages to get a personal impression of the book. I prefer concise and non-repetitive content.
+If there are multiple options of equally good books, then I will skim a few of them, maybe read a few passages to get a personal impression of the book. I prefer concise and non-repetitive content.
+
+With my chosen book in hand, I will start to read through it from beginning to end. If at some point the content is less than ideal, I don't mind skipping it and looking for additional sources (e.g., books or websites) to fill those gaps.
