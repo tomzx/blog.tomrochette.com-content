@@ -26,7 +26,7 @@ This technique can also be applied to the skills you lack. Instead of trying to 
 
 For example, you might want to determine which one of your programming skills are lacking. You might start by asking yourself how you would design and implement things you use in your daily life: how is a text editor implemented? what happens when I type a URL and press enter in a browser? how are files read from a disk? how is this special effect rendered in a video game?
 
-Make sure that you ask yourself questions that are relevant to areas you want to improve. If you don't know how networking works, but it has no incidence on you, then you do not need to address this weakness.
+Make sure that you ask yourself questions that are relevant to areas you want to improve. If you don't know how networking works, but it has no incidence on you, then you do not need to address this weakness. Spend time improving skills which will be useful to you in the future.
 
 Look for things that create friction in your life, those are generally places where you'll find potential for improvement.
 
