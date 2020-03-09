@@ -84,3 +84,4 @@ Answering our own questions is the best way to increase our knowledge. By unders
 * [2020/03/04 - What is the most important part of a meeting?](2020/03/04)
 * [2020/03/05 - How can you make people more productive?](2020/03/05)
 * [2020/03/06 - As an AI developer, what skills do I use the most at work?](2020/03/06)
+* [2020/03/07 - Is it possible to extract someone's beliefs by reading their writings?](2020/03/07)
