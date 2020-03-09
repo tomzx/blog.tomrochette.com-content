@@ -26,6 +26,13 @@ taxonomy:
 * Are there TODOs that should be completed within this review?
 * Check code for code style issues
 
+When reviewing
+* Assume competence
+* Provide rationale or context
+* Consider how comments may be interpreted
+* Don't criticize the person, criticize the code
+* Don't use harsh language
+
 # Reference
 * https://en.wikipedia.org/wiki/SOLID
 * https://medium.com/palantir/code-review-best-practices-19e02780015f
