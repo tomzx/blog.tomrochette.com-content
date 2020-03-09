@@ -27,6 +27,8 @@ taxonomy:
 * Check code for code style issues
 
 When reviewing
+* Provide specific and actionable feedback
+* Clearly mark nitpicks and optional comments
 * Assume competence
 * Provide rationale or context
 * Consider how comments may be interpreted
