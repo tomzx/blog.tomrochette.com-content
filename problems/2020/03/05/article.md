@@ -3,7 +3,7 @@ title: Adding tests to a project with no tests
 created: 2020-03-05
 taxonomy:
   type: post
-  category: [Problems]
+  category: [Problems, Software development]
   status: finished
 ---
 
