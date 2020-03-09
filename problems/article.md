@@ -36,3 +36,4 @@ Everyone has problems they need to solve. Here I try to write down and collect a
 * [2020/03/02 - Quickly recording notes using VS Code](2020/03/02)
 * [2020/03/03 - Mypy and implicit namespaces](2020/03/03)
 * [2020/03/04 - List outdated packages using poetry](2020/03/04)
+* [2020/03/05 - Adding tests to a project with no tests](2020/03/05)
