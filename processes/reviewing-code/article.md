@@ -24,6 +24,7 @@ taxonomy:
 	* Discuss whether this is necessary
 	* Backward incompatible changes should be documented
 * Are there TODOs that should be completed within this review?
+* In a weak typed or type hinted language, are parameters and return of functions/methods typed?
 * Check code for code style issues
 
 When reviewing
