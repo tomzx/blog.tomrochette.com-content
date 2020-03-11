@@ -23,5 +23,6 @@ Processes are a way to do things, such that the process can be then reproduced i
 * [Writing bug tickets](writing-bug-tickets)
 * [Writing code](writing-code)
 * [Writing commits](writing-commits)
+* [Writing documentation](writing-documentation)
 * [Writing tests](writing-tests)
 * [Writing tickets](writing-tickets)
