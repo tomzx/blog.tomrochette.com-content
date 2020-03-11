@@ -6,3 +6,7 @@ taxonomy:
   category: [Processes]
   status: draft
 ---
+
+* Write a draft
+* Expand the points of the draft
+* Review the grammar with
