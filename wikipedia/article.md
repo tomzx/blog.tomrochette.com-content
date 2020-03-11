@@ -86,3 +86,4 @@ Over time I would like to go over [Wikipedia's vital articles](https://en.wikipe
 * 2020/03/07 - https://en.wikipedia.org/wiki/Strategic_planning_software
 * 2020/03/08 - https://en.wikipedia.org/wiki/Automated_planning_and_scheduling
 * 2020/03/09 - https://en.wikipedia.org/wiki/Program_synthesis
+* 2020/03/10 - https://en.wikipedia.org/wiki/Decision_analysis
