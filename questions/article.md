@@ -86,3 +86,4 @@ Answering our own questions is the best way to increase our knowledge. By unders
 * [2020/03/06 - As an AI developer, what skills do I use the most at work?](2020/03/06)
 * [2020/03/07 - Is it possible to extract someone's beliefs by reading their writings?](2020/03/07)
 * [2020/03/08 - How can I reduce my error rate when using my skills?](2020/03/08)
+* [2020/03/09 - What do I look for in a library before using it in a project?](2020/03/09)
