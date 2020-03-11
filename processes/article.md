@@ -19,6 +19,7 @@ Processes are a way to do things, such that the process can be then reproduced i
 * [Task management](task-management)
 * [Web applications](web-applications)
 * [Working in a software company](working-in-a-software-company)
+* [Writing articles](writing-articles)
 * [Writing bug tickets](writing-bug-tickets)
 * [Writing code](writing-code)
 * [Writing commits](writing-commits)
