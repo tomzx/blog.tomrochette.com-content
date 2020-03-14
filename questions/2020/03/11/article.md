@@ -18,3 +18,6 @@ What tools do I use daily at work?
 * [iTerm2](https://www.iterm2.com/)
 * [Chrome](https://www.google.com/chrome/)
 * [Google suite (Gmail, Docs, Sheets, Slides)](https://gsuite.google.com/)
+
+# References
+*
