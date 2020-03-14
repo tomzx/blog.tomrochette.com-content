@@ -17,3 +17,4 @@ A study found that this internal voice is reported most frequently for self-regu
 
 # References
 * https://en.wikipedia.org/wiki/Internal_monologue
+* [Self‐reported inner speech use in university students]()
