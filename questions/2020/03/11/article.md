@@ -13,8 +13,8 @@ What tools do I use daily at work?
 # Answer
 * [Notion.so](http://notion.so/)
 * [JIRA](https://www.atlassian.com/software/jira)
-* VS Code
-* PyCharm
+* [VS Code](https://code.visualstudio.com/)
+* [PyCharm]()
 * [iTerm2](https://www.iterm2.com/)
 * Chrome
 * Google suite (documents, spreadsheets, slides)
