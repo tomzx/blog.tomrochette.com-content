@@ -12,7 +12,7 @@ What tools do I use daily at work?
 
 # Answer
 * [Notion.so](http://notion.so/)
-* JIRA
+* [JIRA](https://www.atlassian.com/software/jira)
 * VS Code
 * PyCharm
 * [iTerm2](https://www.iterm2.com/)
