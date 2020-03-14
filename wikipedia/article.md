@@ -90,3 +90,4 @@ Over time I would like to go over [Wikipedia's vital articles](https://en.wikipe
 * 2020/03/11 - https://en.wikipedia.org/wiki/Decision_intelligence
 * 2020/03/12 - https://en.wikipedia.org/wiki/Analysis_paralysis
 * 2020/03/13 - https://en.wikipedia.org/wiki/Schedule
+* 2020/03/14 - https://en.wikipedia.org/wiki/Internal_monologue
