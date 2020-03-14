@@ -89,3 +89,5 @@ Answering our own questions is the best way to increase our knowledge. By unders
 * [2020/03/09 - What do I look for in a library before using it in a project?](2020/03/09)
 * [2020/03/10 - Should I wear a face mask against COVID-19 if I'm not sick?](2020/03/10)
 * [2020/03/11 - What tools do I use daily at work?](2020/03/11)
+* [2020/03/12 - How can I be systematic in applying processes?](2020/03/12)
+* [2020/03/13 - ]
