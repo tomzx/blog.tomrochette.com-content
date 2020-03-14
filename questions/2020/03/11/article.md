@@ -17,4 +17,4 @@ What tools do I use daily at work?
 * [PyCharm](https://www.jetbrains.com/pycharm/)
 * [iTerm2](https://www.iterm2.com/)
 * [Chrome](https://www.google.com/chrome/)
-* [Google suite (Gmail, Docs, spreadsheets, slides)](https://gsuite.google.com/)
+* [Google suite (Gmail, Docs, Sheets, Slides)](https://gsuite.google.com/)
