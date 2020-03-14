@@ -16,5 +16,5 @@ What tools do I use daily at work?
 * [VS Code](https://code.visualstudio.com/)
 * [PyCharm](https://www.jetbrains.com/pycharm/)
 * [iTerm2](https://www.iterm2.com/)
-* Chrome
+* [Chrome](https://www.google.com/chrome/)
 * Google suite (documents, spreadsheets, slides)
