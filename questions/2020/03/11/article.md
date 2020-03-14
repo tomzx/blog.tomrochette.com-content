@@ -12,8 +12,8 @@ What tools do I use daily at work?
 
 # Answer
 * [Notion.so](http://notion.so/) I use Notion.so to track my day to day tasks and their progress. I also use it to write down any idea I have during the day that I would like to explore at some point in the future. I've described [my task management system in more details](http://blog.tomrochette/processes/task-management).
-* [JIRA](https://www.atlassian.com/software/jira) I work in a corporate environment, which means that we need to track tasks and assignments through a shared system. That system is JIRA. I don't particularly like JIRA after having used [redmine](https://redmine.org/) for 5+ years and liking it.
-* [VS Code](https://code.visualstudio.com/)
+* [JIRA](https://www.atlassian.com/software/jira) I work in a corporate environment, which means that we need to track tasks and assignments through a shared system. That system is JIRA. I don't particularly like JIRA after having used [redmine](https://redmine.org/) for 5+ years and liking it. JIRA is slow, complex and cumbersome, which makes me avoid it at all costs. It's a shame, given that task management is one of the most important things in a software development business.
+* [VS Code](https://code.visualstudio.com/) I use VS Code to take notes throughout the day as well as to edit files from time to time.
 * [PyCharm](https://www.jetbrains.com/pycharm/)
 * [iTerm2](https://www.iterm2.com/)
 * [Chrome](https://www.google.com/chrome/)
