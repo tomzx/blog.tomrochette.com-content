@@ -15,6 +15,6 @@ What tools do I use daily at work?
 * JIRA
 * VS Code
 * PyCharm
-* iterm2
+* [iTerm2](https://www.iterm2.com/)
 * Chrome
 * Google suite (documents, spreadsheets, slides)
