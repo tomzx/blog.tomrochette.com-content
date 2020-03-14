@@ -20,7 +20,7 @@ What tools do I use daily at work?
 * [Google suite (Gmail, Docs, Sheets, Slides)](https://gsuite.google.com/) I work in a collaborative environment which means writing and reading documents to share ideas, data, requirements and notes with others.
 * [Slack](https://slack.com/) Working with others means communicating with others. While it's possible to talk directly to my teammates, sometimes it is more respectful to simply send them an instant message asking them to come to see you when they are available. Slack also allows communication with people in other teams, as well as people that are in separate offices.
 * [GitHub](https://github.com/) We use git exclusively at work as a way to do version control. We use GitHub as our central location to share our repository, as well as to do code reviews.
-* [Drone](https://github.com/drone/drone) Whenever I push code to GitHub, Drone
+* [Drone](https://github.com/drone/drone) Whenever I push code to GitHub, Drone makes sure that a variety of tests are done on the code to ensure its quality: linting, unit/function/integration tests, documentation building
 
 # References
 * [Task management](../../../../processes/task-management)
