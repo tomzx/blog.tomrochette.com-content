@@ -12,3 +12,6 @@ How can I be systematic in applying processes?
 
 # Answer
 The first step is to always make your processes explicit.
+
+# References
+* [Reducing your error rate](../08)
