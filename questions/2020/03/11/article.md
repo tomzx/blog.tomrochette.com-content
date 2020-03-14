@@ -20,4 +20,5 @@ What tools do I use daily at work?
 * [Google suite (Gmail, Docs, Sheets, Slides)](https://gsuite.google.com/)
 
 # References
-*
+* []()
+* [Quickly recording notes using VS Code](../02)
