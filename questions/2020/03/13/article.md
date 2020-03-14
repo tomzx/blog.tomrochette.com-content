@@ -11,8 +11,6 @@ taxonomy:
 Why do we have an internal voice?
 
 # Answer
-Not everyone has an internal voice, but most do.
-
 A study found that this internal voice is reported most frequently for self-regulation (e.g., planning and problem solving), self-reflection (e.g., emotions, self-motivation, appearance, behavior/performance, and autobiography), and critical thinking (e.g., evaluating, judging, and criticizing).
 
 This inner dialogue is a form of internal collaboration with oneself.
