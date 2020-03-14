@@ -91,3 +91,4 @@ Answering our own questions is the best way to increase our knowledge. By unders
 * [2020/03/11 - What tools do I use daily at work?](2020/03/11)
 * [2020/03/12 - How can I be systematic in applying processes?](2020/03/12)
 * [2020/03/13 - Why do we have an internal voice?](2020/03/13)
+* [2020/03/14 - When did language appear?](2020/03/14)
