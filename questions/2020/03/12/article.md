@@ -15,5 +15,11 @@ The first step is to always make your processes explicit. Write the various step
 
 As you write down more and more of your processes, make sure that you can easily refer to them. If possible, keep them in a centralized location where it is easy for you to edit them. In my case, I write [my processes](../../../../processes) in this blog.
 
+When you begin doing something which you've never done before, create yourself a document and write down the steps you are doing as you do them. Once you are done with the task, save your document.
+
+When you begin doing something for which you already have a process in place, open up your process document and quickly glance at it. Start going through the process without using the document and jot down what you do. After you are done, look at what you did and compare it against the existing process. Is it the same or has something changed? Did you forget to do something? Did you do something new? Did you change the order of some of the steps? Apply the changes you think are useful to your process and repeat this discovery phase a few times.
+
+After you've established a process, you can simply open the process document and follow it.
+
 # References
 * [Reducing your error rate](../08)
