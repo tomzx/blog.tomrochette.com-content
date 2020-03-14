@@ -1,6 +1,6 @@
 ---
 title: Systematically apply processes
-created: 2020-03-14
+created: 2020-03-12
 taxonomy:
   type: post
   category: [Questions, Processes]
