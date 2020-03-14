@@ -25,3 +25,4 @@ What tools do I use daily at work?
 # References
 * [Task management](../../../../processes/task-management)
 * [Quickly recording notes using VS Code](../../../../problems/2020/03/02)
+* [Tools I use daily and can contribute to](../../01/30)
