@@ -11,7 +11,7 @@ taxonomy:
 How can I be systematic in applying processes?
 
 # Answer
-The first step is to always make your processes explicit.
+The first step is to always make your processes explicit. Write the various steps you go through while doing something.
 
 # References
 * [Reducing your error rate](../08)
