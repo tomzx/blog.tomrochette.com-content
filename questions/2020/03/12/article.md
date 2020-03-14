@@ -3,7 +3,7 @@ title: Systematically apply processes
 created: 2020-03-14
 taxonomy:
   type: post
-  category: [Questions]
+  category: [Questions, Processes]
   status: finished
 ---
 
