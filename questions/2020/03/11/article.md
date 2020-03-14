@@ -11,7 +11,7 @@ taxonomy:
 What tools do I use daily at work?
 
 # Answer
-* Notion.so
+* [Notion.so](http://notion.so/)
 * JIRA
 * VS Code
 * PyCharm
