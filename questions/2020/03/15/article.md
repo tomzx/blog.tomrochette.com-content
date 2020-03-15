@@ -11,7 +11,6 @@ taxonomy:
 Should I sell my stocks during the coronavirus crisis?
 
 # Solution
-<div class="ignore-latex">
 Most advise that one should invest for the long term and that they should have a diversified portfolio. They mention that many studies demonstrate that it's not possible to time the market.
 
 However, when a crisis as big as the coronavirus hits, it's important to assess its impact on your portfolio as a whole. What kind of assets are you holding? In what industries? What are the impacts the coronavirus might have on that business? How long have these businesses taken to recover from prior crashes (given more weight to the recent ones)? How likely am I wrong in my assessments of the situation?
@@ -33,4 +32,3 @@ In summary, staying in the market during the crash means that you will not make 
 This is obviously the optimistic scenario. In the pessimistic case, as you sold your stocks, the stocks would go on to recover immediately and make enormous gains.
 
 **Note**: This is not actual advice. This is only me trying to reason about the situation.
-</div>
