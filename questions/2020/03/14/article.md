@@ -15,7 +15,7 @@ According to articles cited on Wikipedia, language would have first evolved arou
 
 Given how we've evolved from single cells into multicellular organisms, there is likely a point we reached where communication between cells had to occur in order to get things done (e.g., survive).
 
-As we got more and more complex, some specialized communication developed itself (e.g., nerves) so that some cells where responsible for decision and communication while others where responsible for doing.
+As we got more and more complex, some specialized communication developed itself (e.g., nerves) so that some cells were responsible for decision and communication while others where responsible for doing.
 
 With the apparition of the brain, decision making centralized in a single location away from the parts it controls.
 
