@@ -31,4 +31,10 @@ In summary, staying in the market during the crash means that you will not make 
 
 This is obviously the optimistic scenario. In the pessimistic case, as you sold your stocks, the stocks would go on to recover immediately and make enormous gains.
 
+My assessment of the options I have and their associated risks:
+* Staying in the market and having to wait for months or years for the stocks I own to return to their original value, which implies years of wasted potential for profits on this original investment while at best receiving dividends from companies that have them.
+* Leaving the market, at the cost of a loss (which half of it can be used toward your taxes if you live in Canada), at the risk of the market going up again and potentially reducing my loss, or in the worst case, going above my prior profits.
+* Reducing my position in stocks that are highly likely to be very impacted by the coronavirus, being a half-half position, where stocks that are expected to still perform during the downward period are kept and those that are too volatile and negative trending are sold as soon as possible.
+
+
 **Note**: This is not actual advice. This is only me trying to reason about the situation.
