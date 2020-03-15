@@ -22,3 +22,4 @@ I would be tempted to say that we have an internal voice because language is our
 # References
 * https://en.wikipedia.org/wiki/Internal_monologue
 * [Self‐reported inner speech use in university students](https://doi.org/10.1002%2Facp.3404)
+* https://news.ycombinator.com/item?id=22193451
