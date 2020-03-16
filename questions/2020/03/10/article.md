@@ -18,6 +18,7 @@ If you are sick and you need to go out in public, wearing a face mask will help 
 If you want to avoid being ill due to the virus, the best way to do so is to avoid being exposed to the virus. This means staying at home in isolation.
 
 # References
+* https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection/prevention-risks.html#wm
 * https://www.theguardian.com/world/2020/mar/15/can-a-face-mask-stop-coronavirus-covid-19-facts-checked
 * https://www.livescience.com/face-mask-new-coronavirus.html
 * https://time.com/5794729/coronavirus-face-masks/
