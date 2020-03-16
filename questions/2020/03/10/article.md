@@ -19,4 +19,5 @@ If you want to avoid being ill due to the virus, the best way to do so is to avo
 
 # References
 * https://www.theguardian.com/world/2020/mar/15/can-a-face-mask-stop-coronavirus-covid-19-facts-checked
+* https://www.livescience.com/face-mask-new-coronavirus.html
 * https://www.cdc.gov/coronavirus/2019-ncov/about/prevention.html
