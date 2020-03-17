@@ -10,7 +10,7 @@ taxonomy:
 * Verify that the build/tests pass
 * Understand the feature and associated requirements that are supposed to be implemented
 * Verify code implements the desired feature and that the requirements are completed
-* For a bug fix, verify that the fix is applied at the right location and will not "fix the symptom, not the cause"
+* For a bug fix, verify that the fix is applied at the right location and will not "fix the symptoms, not the cause"
 * Check code contains tests
 	* Is all the new code covered by those tests?
 * Verify the location of new files
