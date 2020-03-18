@@ -8,25 +8,28 @@ taxonomy:
 ---
 
 * Verify that the build/tests pass
-* Understand the feature and associated requirements that are supposed to be implemented
-* Verify code implements the desired feature and that the requirements are completed
-* For a bug fix, verify that the fix is applied at the right location and will not "fix the symptoms, not the cause"
-* Check code contains tests
-	* Is all the new code covered by those tests?
-* Verify the location of new files
-	* Are the files in the right directory?
-	* Are they appropriately named?
-* Verify classes, methods, functions, parameters naming
-	* Are they significant of their purpose?
-	* Are they clear enough?
-	* Are they respecting the naming convention?
-* Does the code respect [SOLID](https://en.wikipedia.org/wiki/SOLID)?
-* Consider that when functions/methods signature change, code may now be backward incompatible.
-	* Discuss whether this is necessary
-	* Backward incompatible changes should be documented
-* Are there TODOs that should be completed within this review?
-* In a weak typed or type hinted language, are parameters and return of functions/methods typed?
-* Check code for code style issues
+* New code
+	* Understand the feature and associated requirements that are supposed to be implemented
+	* Verify code implements the desired feature and that the requirements are completed
+* New/Changed code
+	* Check code contains tests
+		* Is all the new code covered by those tests?
+	* Verify the location of new/moved files
+		* Are the files in the right directory?
+		* Are they appropriately named?
+	* Verify classes, methods, functions, parameters naming
+		* Are they significant of their purpose?
+		* Are they clear enough?
+		* Are they respecting the naming convention?
+	* Does the code respect [SOLID](https://en.wikipedia.org/wiki/SOLID)?
+	* Consider that when functions/methods signature change, code may now be backward incompatible.
+		* Discuss whether this is necessary
+		* Backward incompatible changes should be documented
+	* In a weak typed or type hinted language, are parameters and return of functions/methods typed?
+	* Are there TODOs that should be completed within this review?
+	* Check code for code style issues
+* Bug fix
+	* Verify that the fix is applied at the right location and will not "fix the symptoms, not the cause"
 
 When reviewing
 * Provide specific and actionable feedback
