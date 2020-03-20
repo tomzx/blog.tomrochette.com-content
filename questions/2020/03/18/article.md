@@ -15,4 +15,4 @@ Because they can teach you. Good technical books will expand your understanding 
 
 Because they give you more abilities. As you acquire new knowledge, you can make use of it. This lets you do things you could not do before because of this lack of knowledge.
 
-Because they can change you. If you read about someone else's approach to problem solving, you may come to prefer their way of solving problem. By being convinced by the author, you may be led to change how you write code, what you think is important about building software, how you prioritize your work, etc.
+Because they can change you. If you read about someone else's approach to problem solving, you may come to prefer their way of solving problems. By being convinced by the author, you may be led to change how you write code, what you think is important about building software, how you prioritize your work, etc.
