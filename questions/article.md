@@ -93,3 +93,4 @@ Answering our own questions is the best way to increase our knowledge. By unders
 * [2020/03/13 - Why do we have an internal voice?](2020/03/13)
 * [2020/03/14 - When did language appear?](2020/03/14)
 * [2020/03/15 - Should I sell my stocks during the coronavirus crisis?](2020/03/15)
+* [2020/03/16 - What is the value of timestamping all the things?](2020/03/16)
