@@ -93,3 +93,4 @@ Over time I would like to go over [Wikipedia's vital articles](https://en.wikipe
 * 2020/03/14 - https://en.wikipedia.org/wiki/Internal_monologue
 * 2020/03/15 - https://en.wikipedia.org/wiki/Life_skills
 * 2020/03/16 - https://en.wikipedia.org/wiki/Supercluster
+* 2020/03/17 - https://en.wikipedia.org/wiki/Inner_critic
