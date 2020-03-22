@@ -4,7 +4,7 @@ created: 2017-04-21
 visible: true
 menu: ML
 taxonomy:
-  category: [Machine Learning]
+  category: [Machine learning]
   status: in progress
 ---
 
