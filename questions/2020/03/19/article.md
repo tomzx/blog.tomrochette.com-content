@@ -34,6 +34,6 @@ Additionally, you may also have recorded additional values at the same time, whi
 | A | 1 | 5 | 3 |
 | A | 2 | 6 | 2 |
 | A | 3 | 7 | 1 |
-| B | 1 | 13 | 3 |
+| B | 1 | 13 | 47 |
 | B | 2 | 27 | 3 |
 | B | 3 | 55 | 5 |
