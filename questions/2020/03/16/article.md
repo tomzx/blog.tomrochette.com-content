@@ -3,14 +3,14 @@ title: Timestamping all the things
 created: 2020-03-16
 taxonomy:
   type: post
-  category: [Problems]
+  category: [Questions]
   status: finished
 ---
 
-# Problem
+# Question
 What is the value of timestamping all the things?
 
-# Solution
+# Answer
 Adding a temporal reference to everything allows us to contextualize this information. It allows us to better remember the exact moment we took a note, which may in turn help us remember why we took that note.
 
 Timestamping also allows us to have a better idea of how things have come into being sequentially. If you have notes you wrote in different locations and they all have their timestamp, you can gather them and organize them by their timestamp.
