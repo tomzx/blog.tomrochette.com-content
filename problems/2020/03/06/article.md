@@ -24,3 +24,5 @@ Look at the distribution of values. Are they uniformly distributed, normally dis
 If there are only two possible values for a variable, are those values approximately the same or one value is dominant compared to the other? Were you to try and predict this variable, you would have to deal with class imbalance.
 
 Are the values of the variables sensible to you? Are variables composed of multiple information, such as the value and the unit used for the measurement? You would generally prefer for composite values to be separated into different variables as it will be easier to process using machine learning models.
+
+When looking at numbers distribution, are there outliers (values that are either a lot smaller or larger than the rest)? It is sometimes important to ask those who provided you with the data if they can explain those outliers. In general you will want to ignore outliers during training as they may skew your model toward them, resulting in less than ideal results for all the other data points.
