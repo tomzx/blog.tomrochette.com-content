@@ -2,7 +2,7 @@
 title: Andrew Carlson - Toward an Architecture for Never-Ending Language Learning (2010)
 created: 2017-06-09
 taxonomy:
-  category: [Machine Learning]
+  category: [Machine learning]
   status: finished
 ---
 
