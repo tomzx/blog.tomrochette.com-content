@@ -2,7 +2,7 @@
 title: "2017-01-14"
 created: 2017-01-14
 taxonomy:
-  category: [Machine Learning]
+  category: [Machine learning]
   status: in progress
 ---
 

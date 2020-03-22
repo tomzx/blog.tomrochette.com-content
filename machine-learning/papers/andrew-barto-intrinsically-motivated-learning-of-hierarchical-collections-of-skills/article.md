@@ -2,7 +2,7 @@
 title: Andrew Barto - Intrinsically Motivated Learning of Hierarchical Collections of Skills (2004)
 created: 2018-02-15
 taxonomy:
-  category: [Machine Learning]
+  category: [Machine learning]
   status: finished
 ---
 

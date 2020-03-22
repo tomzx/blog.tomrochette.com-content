@@ -2,7 +2,7 @@
 title: Matteo Hessel - Rainbow: Combining Improvements in Deep Reinforcement Learning (2017)
 created: 2017-11-04
 taxonomy:
-  category: [Machine Learning]
+  category: [Machine learning]
   status: finished
 ---
 

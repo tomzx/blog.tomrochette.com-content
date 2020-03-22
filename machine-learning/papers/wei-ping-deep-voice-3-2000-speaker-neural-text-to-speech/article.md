@@ -2,7 +2,7 @@
 title: Wei Ping - Deep Voice 3: 2000-Speaker Neural Text-to-Speech (2017)
 created: 2017-12-07
 taxonomy:
-  category: [Machine Learning]
+  category: [Machine learning]
   status: finished
 ---
 

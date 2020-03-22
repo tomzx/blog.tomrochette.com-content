@@ -2,7 +2,7 @@
 title: David Silver - Mastering the game of Go without human knowledge (2017)
 created: 2017-10-20
 taxonomy:
-  category: [Machine Learning]
+  category: [Machine learning]
   status: finished
 ---
 

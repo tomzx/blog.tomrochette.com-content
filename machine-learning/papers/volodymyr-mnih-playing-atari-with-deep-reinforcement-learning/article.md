@@ -2,7 +2,7 @@
 title: Volodymyr Mnih - Playing Atari with Deep Reinforcement Learning (2013)
 created: 2016-03-09
 taxonomy:
-  category: [Machine Learning]
+  category: [Machine learning]
   status: finished
 ---
 

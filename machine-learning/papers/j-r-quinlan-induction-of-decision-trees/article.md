@@ -2,7 +2,7 @@
 title: J.R. Quinlan - Induction of Decision Trees (1986)
 created: 2017-04-13
 taxonomy:
-  category: [Machine Learning]
+  category: [Machine learning]
   status: finished
 ---
 

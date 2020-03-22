@@ -2,7 +2,7 @@
 title: "2018-01-20"
 created: 2018-01-20
 taxonomy:
-  category: [Machine Learning]
+  category: [Machine learning]
   status: in progress
 ---
 
@@ -22,7 +22,7 @@ taxonomy:
 	* Let say we group together (cluster) all the points which have the same x values, such that $(0, 0)$ and $(0, 1)$ are together and $(1, 0)$ and $(1, 1)$ are together. If we average these clusters, we get two points, $(0, 0.5)$ and $(1, 0.5)$. In this case, none of the two points can help us decide what is the missing value.
 	* If we decide to cluster all points which have the same y values, we get a different result: $(0.5, 0)$ and $(0.5, 1)$. Here we have a dilemma, as both values have the same x, thus it is not possible to decide which one to pick
 	* We can computer the center point of the four points of our initial case, which gives us the centroid $(0.5, 0.5)$. Here, the answer would be 0.5. But let say that our y value is supposed to be discrete (because it represents a category), what should the value be?
-		* In this case, since we have 2 points with a value of 0 and 2 points with a value of 1, there is 50% probability that it belongs to either of these values. If there was a third point, for instance $(0.5, 0)$, then this would tip the balance in favor of 0 being the suspected value. 
+		* In this case, since we have 2 points with a value of 0 and 2 points with a value of 1, there is 50% probability that it belongs to either of these values. If there was a third point, for instance $(0.5, 0)$, then this would tip the balance in favor of 0 being the suspected value.
 
 ## Reinforcement learning
 * We have an agent within an environment. This agent can make observations and then take actions. The goal of this agent is to accomplish goals. If we are to give many goals to this agent, then we need a way to communicate whether a certain goal has been completed or not. In the reinforcement learning literature, this is known as the reward signal.

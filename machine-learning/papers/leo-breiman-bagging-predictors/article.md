@@ -2,7 +2,7 @@
 title: Leo Breiman - Bagging Predictors (1996)
 created: 2017-12-09
 taxonomy:
-  category: [Machine Learning]
+  category: [Machine learning]
   status: finished
 ---
 

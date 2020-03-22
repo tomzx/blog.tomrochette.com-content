@@ -2,7 +2,7 @@
 title: Neil Rabinowitz - Machine Theory of Mind (2018)
 created: 2018-02-24
 taxonomy:
-  category: [Machine Learning]
+  category: [Machine learning]
   status: finished
 ---
 

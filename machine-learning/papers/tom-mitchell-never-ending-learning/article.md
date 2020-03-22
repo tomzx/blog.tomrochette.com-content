@@ -2,7 +2,7 @@
 title: Tom Mitchell - Never-ending learning (2018)
 created: 2018-05-03
 taxonomy:
-  category: [Machine Learning]
+  category: [Machine learning]
   status: finished
 ---
 

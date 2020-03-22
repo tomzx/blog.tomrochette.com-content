@@ -2,7 +2,7 @@
 title: Volodymyr Mnih - Human-level control through deep reinforcement learning (2015)
 created: 2017-06-10
 taxonomy:
-  category: [Machine Learning]
+  category: [Machine learning]
   status: finished
 ---
 

@@ -2,7 +2,7 @@
 title: Alex Graves - Multi-Dimensional Recurrent Neural Networks (2007)
 created: 2017-06-16
 taxonomy:
-  category: [Machine Learning]
+  category: [Machine learning]
   status: finished
 ---
 

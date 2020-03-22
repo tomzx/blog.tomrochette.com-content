@@ -2,7 +2,7 @@
 title: Yoav Freund - A Decision-Theoretic Generalization of On-Line Learning and an Application to Boosting (1995)
 created: 2018-01-06
 taxonomy:
-  category: [Machine Learning]
+  category: [Machine learning]
   status: finished
 ---
 
