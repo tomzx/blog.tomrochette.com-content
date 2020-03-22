@@ -96,3 +96,4 @@ Answering our own questions is the best way to increase our knowledge. By unders
 * [2020/03/16 - What is the value of timestamping all the things?](2020/03/16)
 * [2020/03/17 - Why should you read fiction books?](2020/03/17)
 * [2020/03/18 - Why should you read technical books?](2020/03/18)
+* [2020/03/19 - What data do I need to do time series forecasting?](2020/03/19)
