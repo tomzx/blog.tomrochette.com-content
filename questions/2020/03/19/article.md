@@ -27,7 +27,7 @@ Such information would look as follow when organized in a table:
 | B | 2 | 27 |
 | B | 3 | 55 |
 
-Additionally, you may also have recorded additional values at the same time, which can be useful source of information when trying to predict a time series.
+Additionally, you may also have recorded additional values at the same time, which can be a useful source of information when trying to predict a time series.
 
 | Entity | Timestamp | Target | Value 1 |
 |-|-|-|-|
