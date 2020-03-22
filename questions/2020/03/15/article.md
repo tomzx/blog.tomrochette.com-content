@@ -3,14 +3,14 @@ title: Selling stocks during a crisis
 created: 2020-03-15
 taxonomy:
   type: post
-  category: [Problems]
+  category: [Questions]
   status: finished
 ---
 
-# Problem
+# Question
 Should I sell my stocks during the coronavirus crisis?
 
-# Solution
+# Answer
 Most advise that one should invest for the long term and that they should have a diversified portfolio. They mention that many studies demonstrate that it's not possible to time the market.
 
 However, when a crisis as big as the coronavirus hits, it's important to assess its impact on your portfolio as a whole. What kind of assets are you holding? In what industries? What are the impacts the coronavirus might have on that business? How long have these businesses taken to recover from prior crashes (given more weight to the recent ones)? How likely am I wrong in my assessments of the situation?
