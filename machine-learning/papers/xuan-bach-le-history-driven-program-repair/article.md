@@ -2,7 +2,7 @@
 title: Xuan-Bach Le - History Driven Program Repair (2016)
 created: 2018-02-23
 taxonomy:
-  category: [Machine Learning]
+  category: [Machine learning]
   status: finished
 ---
 
