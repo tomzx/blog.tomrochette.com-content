@@ -14,7 +14,7 @@ What data do I need to do time series forecasting?
 There are three values that you must know for each data point of your time series:
 * its entity, which represents a unique value identifying the time series (e.g., a product SKU). Without this information, it is not possible to construct a sequence of points since there's no logical grouping between the points.
 * its timestamp, which represents the moment in time the data point was recorded. Without this information, it is not possible to construct a sequence of points since there's no sequential ordering between the points.
-* its target, which represents the measurement of the data point itself that we want to predict. Without this information, we have effectively nothing to base ourself on.
+* its target, which represents the measurement of the data point itself that we want to predict. Without this information, we have effectively nothing to base ourselves on.
 
 Such information would look as follow when organized in a table:
 
