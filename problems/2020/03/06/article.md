@@ -1,6 +1,6 @@
 ---
-title:
-created: 2020-03-05
+title: Assessing a dataset quality
+created: 2020-03-06
 taxonomy:
   type: post
   category: [Problems, Machine learning]
