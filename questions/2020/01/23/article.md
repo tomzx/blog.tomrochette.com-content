@@ -55,7 +55,7 @@ Using those two descriptions, we can observe that the alternating pattern is in 
 
 001, 011, 100, 110 can be described as alternating and repeating, which is more complex than the previous examples as it requires the composition of two operations.
 
-4 complex examples
+4 complex examples (001, 011, 100, 110) have been introduced at this stage.
 
 ## 4-long binary string
 
@@ -86,7 +86,7 @@ From those few inductive iterations, we can see that the first and last string a
 
 At this point there is still not enough information to be able to derive an answer to the original question, given that the strings can be described using 4 patterns: repeating, alternating, mirror, and fill & flip.
 
-8 complex examples
+8 complex examples are found at this stage.
 
 ## 5-long binary string
 
@@ -113,10 +113,11 @@ The second half of this table was not written down due to the previous observati
 
 At this stage, the complex patterns that emerge are difficult to express using the prior language. Composition needs to be used, e.g. 00101 can be described as 00 then 101.
 
-14 complex examples
+14 complex examples are found at this stage.
 
 At this point in my study, I would summarize as follows:
 * Repeating, alternating and fill & flip are low complexity. For a n-long binary string, this implies 2 repeating patterns, 2n fill & flip patterns, 2n alternating patterns of periodicity=1.
 * Complexity appears to emerge from alternating patterns with varying periodicity. As we're working with longer and longer strings, the periodic patterns will start to become periodic themselves (I believe this is leading to fractal).
 * The fill & flip pattern appears to be able to cover most of the complex cases that appear as the length of the binary string increases.
 * Some of the patterns can be expressed as a few alternatives, for example 01110 as alternating, periodicity=1,3,1, but also as 0 and fill & flip (or even an "odd" mirror). My intuition would lead me to think that those cases that can be expressed in multiple ways are less complex.
+* The sequence of complex examples seems to be as follows: 0, 4, 8, 14, ...
