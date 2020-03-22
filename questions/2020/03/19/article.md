@@ -1,5 +1,5 @@
 ---
-title: Data used to solve time series
+title: Data used to do time series forecasting
 created: 2020-03-19
 taxonomy:
   type: post
@@ -8,15 +8,15 @@ taxonomy:
 ---
 
 # Question
-What data do I need to solve a time series problem?
+What data do I need to do time series forecasting?
 
 # Answer
 There are three values that you must know for each data point of your time series:
-* its entity, which represents a unique value identifying the time series (e.g., a product SKU)
-* its timestamp, which represents the moment in time the data point was recorded
-* its value, which represents the measurement of the data point itself
+* its entity, which represents a unique value identifying the time series (e.g., a product SKU). Without this information, it is not possible to construct a sequence of points since there's no logical grouping between the points.
+* its timestamp, which represents the moment in time the data point was recorded. Without this information, it is not possible to construct a sequence of points since there's no sequential ordering between the points.
+* its value, which represents the measurement of the data point itself. Without this information, we have effectively nothing to base ourself on.
 
-Such information would look as follow in a table:
+Such information would look as follow when organized in a table:
 
 | Entity | Timestamp | Value |
 |-|-|-|
@@ -27,9 +27,13 @@ Such information would look as follow in a table:
 | B | 2 | 27 |
 | B | 3 | 55 |
 
-Additionally, you may also have recorded additional values at the same time, which can be useful
+Additionally, you may also have recorded additional values at the same time, which can be useful source of information when trying to predict a time series.
 
-* Entity
-* Date
-* Target
-* Additional variables
+| Entity | Timestamp | Value | Other value |
+|-|-|-|-|
+| A | 1 | 5 | 3 |
+| A | 2 | 6 | 2 |
+| A | 3 | 7 | 1 |
+| B | 1 | 13 | 3 |
+| B | 2 | 27 | 3 |
+| B | 3 | 55 | 5 |
