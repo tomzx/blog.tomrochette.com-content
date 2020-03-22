@@ -3,7 +3,7 @@ title: AI/AGI/ML - A short overview
 created: 2017-12-15
 taxonomy:
     type: post
-    category: [Machine Learning, Artificial Intelligence, Artificial General Intelligence]
+    category: [Machine learning, Artificial Intelligence, Artificial General Intelligence]
     tag: [ai, agi, ml]
     status: finished
 ---
