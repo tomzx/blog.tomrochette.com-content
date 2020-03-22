@@ -3,7 +3,7 @@ title: How often to review your own notes
 created: 2020-01-21
 taxonomy:
   type: post
-  category: [Questions]
+  category: [Questions, Note taking]
   status: finished
 ---
 
