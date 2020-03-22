@@ -14,7 +14,9 @@ What is the most complex sequence that can be made from a n-long binary string?
 0....0 and 1....1 are easily compressible, thus what is the most unpredictable sequence?
 
 Let's proceed by induction.
-0, 1 - 0 and 1 have a 50% to be selected in a 1-long binary string, thus they are the most complex examples of a 1-long binary string.
+
+## 1-long binary string
+0 and 1 have a 50% to be selected in a 1-long binary string, thus they are both the most complex examples of a 1-long binary string.
 
 ## 2-long binary string
 
@@ -26,6 +28,17 @@ Let's proceed by induction.
 | 11 | repeating |
 
 With two bits, we introduce two patterns: repeating and alternating. Repeating means that the bits are repeated for the complete string. Alternating means that the bits are alternating between 0 and 1 given a certain periodicity.
+
+From our initial observation we suggested that the repeating pattern was likely to be the simplest because it consists of defining the symbol (0 or 1) that is repeated and the number of repetitions. We can say that this function has two parameters: length and symbol.
+
+The same can be said about the alternating pattern. If you provide the initial symbol and the length of the pattern, you've defined its parameters. We can say that this function also has two parameters: length and starting symbol.
+
+Using those two descriptions, we can observe that the alternating pattern is in fact a special case of the repeating pattern, where the symbol is 2 bits instead of one.
+
+00 = repeating(2, 0)
+01 = alternating(2, 0) = repeating(1, 01)
+10 = alternating(2, 1) = repeating(1, 10)
+11 = repeating(2, 1)
 
 ## 3-long binary string
 
