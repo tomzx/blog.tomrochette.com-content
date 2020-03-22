@@ -22,4 +22,5 @@ I don't view writing that is not read again to be wasteful. Sometimes writing do
 Writing (and sharing) has the benefit that your thoughts can be reused by others. They can also be reused by your future self if you end up facing the same situation again.
 
 # References
+* [How often should I review my personal notes?](../21)
 * [Research methodology and organization](../../../../research-methodology-and-organization)
