@@ -19,4 +19,4 @@ For instance, in the case of negative thoughts, I see them as being a process th
 
 This might mean to consciously say to myself "I am not thinking about problem X anymore, time is up" or "Your time allocation for thinking about Y is now completed, please move on".
 
-Such active and conscious effort to stop thinking about those negative thought has paid quite a lot. I spend a lot less time reflecting on those negative thoughts and find it easier to move on.
+Such active and conscious effort to stop thinking about those negative thoughts has paid quite a lot. I spend a lot less time reflecting on those thoughts and find it easier to move on.
