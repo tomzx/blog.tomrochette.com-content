@@ -46,6 +46,12 @@ cli.py
 from train import train
 from predict import predict
 
+@click.group()
+def cli():
+	pass
+
+cli.add_command(predict)
+cli.add_command(train)
 ```
 
 train.py
