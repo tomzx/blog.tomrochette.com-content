@@ -38,3 +38,4 @@ Everyone has problems they need to solve. Here I try to write down and collect a
 * [2020/03/04 - List outdated packages using poetry](2020/03/04)
 * [2020/03/05 - Adding tests to a project with no tests](2020/03/05)
 * [2020/03/06 - Assessing a dataset quality](2020/03/06)
+* [2020/03/07 - Improving the performance of a slow click CLI](2020/03/07)
