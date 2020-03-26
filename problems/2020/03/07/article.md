@@ -41,6 +41,13 @@ Notice that in both these files we import `pandas` and `torch`, which can accoun
 
 The suggested pattern is to move the imports inside of the function itself, as such:
 
+cli.py
+```python
+from train import train
+from predict import predict
+
+```
+
 train.py
 ```python
 import click
