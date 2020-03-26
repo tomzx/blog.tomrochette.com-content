@@ -36,3 +36,5 @@ import torch
 def predict():
 	pass
 ```
+
+Notice that in both these files we import `pandas` and `torch`, which can account for a large chunk of script execution time simply due to importing them. You can verify that by simply running `python -X importtime train.py` and using
