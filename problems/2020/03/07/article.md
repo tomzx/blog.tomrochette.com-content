@@ -37,4 +37,32 @@ def predict():
 	pass
 ```
 
-Notice that in both these files we import `pandas` and `torch`, which can account for a large chunk of script execution time simply due to importing them. You can verify that by simply running `python -X importtime train.py` and using
+Notice that in both these files we import `pandas` and `torch`, which can account for a large chunk of script execution time simply due to importing them. You can verify that by simply running `python -X importtime train.py 2>tuna.log` and using [tuna](https://github.com/nschloe/tuna) (run `tuna tuna.log`) to inspect the results and convince yourself.
+
+The suggested pattern is to move the imports inside of the function itself, as such:
+
+train.py
+```python
+import click
+
+@click.command()
+def train():
+	import pandas as pd
+	import torch
+
+	pass
+```
+
+predict.py
+```python
+import click
+
+@click.command()
+def predict():
+	import pandas as pd
+	import torch
+
+	pass
+```
+
+This will shave off a large amount of time spent importing those packages
