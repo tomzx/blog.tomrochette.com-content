@@ -18,17 +18,19 @@ The typical pattern is as follows:
 train.py
 ```python
 import click
+import pandas as pd
+import torch
 
 @click.command()
 def train():
 	pass
 ```
 
-
 predict.py
 ```python
 import click
-import
+import pandas as pd
+import torch
 
 @click.command()
 def predict():
