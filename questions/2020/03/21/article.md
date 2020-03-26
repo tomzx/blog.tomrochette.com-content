@@ -17,4 +17,4 @@ This creates a problem. For me to read, I need to have enough time to read for a
 
 Similarly, there are times where I don't want to read a book because I want to process a unit of the story or a chapter of the book in one reading. It is similar to not wanting to start a tv show episode knowing that you might stop watching it in the middle. I don't like that.
 
-Reading technical books is mentally draining. Sometimes I'm simply brain dead and reading book is simply not possible.
+Reading technical books is mentally draining. Sometimes I'm simply brain dead and reading books is simply not possible.
