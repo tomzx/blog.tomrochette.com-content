@@ -79,3 +79,25 @@ def predict():
 ```
 
 This will shave off a large amount of time spent importing those packages (`pandas` and `torch`). They will only be loaded when you need to run the command itself, not every time you invoke the CLI.
+
+Another pattern which is more complicated is to move the logic of the functions in separate files. This is done to avoid the common mistake that will happen over time that developers will add more logic in those command files, adding imports at the top of the file and slowing the CLI again. By moving the complete implementation to a separate file, you can have the imports at the top of the file and it is not possible to make this mistake again.
+
+train.py
+```python
+import click
+
+@click.command()
+def train():
+	from train_implementation import train
+	train()
+```
+
+train_implementation.py
+```python
+import pandas as pd
+import torch
+
+def train():
+	# Implementation is now here
+	pass
+```
