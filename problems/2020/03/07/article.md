@@ -15,6 +15,19 @@ In most cases, the reason your click CLI is slow is that you have large imports 
 
 The typical pattern is as follows:
 
+cli.py
+```python
+from train import train
+from predict import predict
+
+@click.group()
+def cli():
+	pass
+
+cli.add_command(predict)
+cli.add_command(train)
+```
+
 train.py
 ```python
 import click
@@ -41,19 +54,6 @@ Notice that in both these files we import `pandas` and `torch`, which can accoun
 
 The suggested pattern is to move the imports inside of the function itself, as such:
 
-cli.py
-```python
-from train import train
-from predict import predict
-
-@click.group()
-def cli():
-	pass
-
-cli.add_command(predict)
-cli.add_command(train)
-```
-
 train.py
 ```python
 import click
@@ -78,4 +78,4 @@ def predict():
 	pass
 ```
 
-This will shave off a large amount of time spent importing those packages
+This will shave off a large amount of time spent importing those packages (`pandas` and `torch`). They will only be loaded when you need to run the command itself, not every time you invoke the CLI.
