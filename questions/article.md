@@ -98,3 +98,4 @@ Answering our own questions is the best way to increase our knowledge. By unders
 * [2020/03/18 - Why should you read technical books?](2020/03/18)
 * [2020/03/19 - What data do I need to do time series forecasting?](2020/03/19)
 * [2020/03/20 - How do you deal with negative thoughts?](2020/03/20)
+* [2020/03/21 - Why do I avoid reading books sometimes?](2020/03/21)
