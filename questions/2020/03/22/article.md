@@ -11,7 +11,12 @@ taxonomy:
 What is the superficial loss rule applied to stocks and how does it impact me?
 
 # Answer
-The superficial loss rule
+The superficial loss rule states:
+
+> A superficial loss can occur when you dispose of capital property for a loss and both of the following conditions are met:
+>
+> * You, or a person affiliated with you, buys, or has a right to buy, the same or identical property (called "substituted property") during the period starting 30 calendar days before the sale and ending 30 calendar days after the sale.
+> * You, or a person affiliated with you, still owns, or has a right to buy, the substituted property 30 calendar days after the sale.
 
 # References
 * https://www.adjustedcostbase.ca/blog/what-is-the-superficial-loss-rule/
