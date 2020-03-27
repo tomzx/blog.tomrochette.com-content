@@ -11,3 +11,7 @@ taxonomy:
 What is the superficial loss rule applied to stocks and how does it impact me?
 
 # Answer
+
+
+# References
+* https://www.adjustedcostbase.ca/blog/what-is-the-superficial-loss-rule/
