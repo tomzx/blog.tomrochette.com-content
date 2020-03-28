@@ -11,7 +11,7 @@ taxonomy:
 I use pytest with coverage and I want to see the files that have no coverage.
 
 # Solution
-By default pytest and pytest-cov will not list the files which are not imported during tests. This means that if no tests were written for a part of your code, then you will not see the file listed under the list generated when you run `pytest your-folder --cov=your-folder --cov-report term-missing`.
+~By default pytest and pytest-cov will not list the files which are not imported during tests. This means that if no tests were written for a part of your code, then you will not see the file listed under the list generated when you run `pytest your-folder --cov=your-folder --cov-report term-missing`.~
 
 If you are using PyCharm Professional, you can simply run your test with coverage. This will allow you to identify all the files that have currently no coverage as they will appear with coverage = 0%.
 
