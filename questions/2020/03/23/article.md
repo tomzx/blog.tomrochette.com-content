@@ -11,7 +11,7 @@ taxonomy:
 Given a lot of existing processes in place, how can you recognize that you can follow one?
 
 # Answer
-Make a list of all the processes you have. Link to all the procedures to follow in each cases. Some processes you will use so frequently that you will learn them.
+Make a list of all the processes you have. Link to all the procedures to follow in each case. Some processes you will use so frequently that you will learn them.
 
 Processes have starting points, that is, a trigger that initiates them. For example, if you have a process for code reviews, the starting point is the creation of a pull request by someone else. Another trigger might be the beginning of a new project. You should look for and recognize those triggers. If possible, when you document your processes, indicate what will trigger the instantiation of one of these projects.
 
