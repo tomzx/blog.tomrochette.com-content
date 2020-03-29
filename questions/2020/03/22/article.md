@@ -1,6 +1,6 @@
 ---
 title: Superficial loss rule
-created: 2020-03-21
+created: 2020-03-22
 taxonomy:
   type: post
   category: [Questions]
