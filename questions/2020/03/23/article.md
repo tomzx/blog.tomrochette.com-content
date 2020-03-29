@@ -8,6 +8,6 @@ taxonomy:
 ---
 
 # Question
-Given you have a lot of processes in place, how can you recognize that you need to enact one?
+Given a lot of existing processes in place, how can you recognize that you can follow one?
 
 # Answer
