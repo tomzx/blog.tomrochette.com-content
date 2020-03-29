@@ -17,7 +17,9 @@ Processes have starting points, that is, a trigger that initiates them. For exam
 
 Try to frequently look at the list of triggers and think about what you are working on or will be working on. This will allow you to catch processes that should have been started and followed, as well as let you prepare for processes that are about to start.
 
-As you accumulate more and more processes, you will observe that there is a hierarchical organization to them. You will also observe that is sequentiali
+As you accumulate more and more processes, you will observe that there is a hierarchical organization to them. As one process start, you can already prepare a list of processes you may have to follow soon.
+
+You will also observe that the completion of a process often will lead to the start of another one. Once you've established enough chains (sequences of processes), it will be easier to identify and do the processes.
 
 # References
 * [How can I be systematic in applying processes?](../12)
