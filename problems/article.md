@@ -1,6 +1,8 @@
 ---
 title: Problems
 created: 2020-02-10
+visible: true
+menu: Problems
 taxonomy:
   category: [Problems]
   status: in progress
