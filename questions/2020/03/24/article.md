@@ -32,7 +32,7 @@ Here's a very simple template that you can use to define your processes
 * Outputs: What is produced when the process is completed?
 * Roles: What roles are required to accomplish the actions of the process?
 * Average duration: How long is a process taking to complete in general?
-* Mandatory/Optional: Is this process mandatory or optional in the accomplishment of the higher level process?
+* Mandatory/Optional: Is this process mandatory or optional in the accomplishment of the higher-level process?
 
 # References
 * [How do I improve my processes?](../../02/05)
