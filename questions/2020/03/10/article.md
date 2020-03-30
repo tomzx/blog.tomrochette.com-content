@@ -12,6 +12,8 @@ Should I wear a face mask against COVID-19 if I'm not sick?
 
 # Answer
 ![Protecting yourself vs protecting others](images/mask.png)
+Source:
+
 
 The official answer from the [Government of Canada](https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection/prevention-risks.html#wm) and the [CDC](https://www.cdc.gov/coronavirus/2019-ncov/about/prevention.html) is that wearing a face mask is not an effective solution to protect yourself against the virus.
 
