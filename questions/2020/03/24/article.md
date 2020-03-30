@@ -19,4 +19,4 @@ As a software developer, your task is two-fold.
 
 First, you must develop a process for yourself to take a client's requirements (your input X) and convert it into software (your output Y), which means figuring out what needs to be done from X to Y (the transformation steps). Example of those steps are requirements gathering, specification, design, architecture, implementation, testing, debugging, deployment, maintenance.
 
-Second, you must develop a process for your client's requirements, that is, one that convert some input information into their desired ability to produce Y. Example of steps that would be in this process are
+Second, you must develop a process for your client's requirements, that is, one that convert some input information into their desired ability to produce Y. Example of steps that would be in this process are uploading document A, B, C, processing the documents to extract specific information, produce report D.
