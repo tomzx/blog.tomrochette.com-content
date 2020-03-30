@@ -13,7 +13,7 @@ How do you document a process?
 # Answer
 A process is composed of a few things: inputs (dependencies), outputs and the steps to transform inputs into outputs.
 
-Generally a new process will be created from a need (output). For example, a client will come to you and ask to have software that does Y. Your output in this case is a software that does Y. For the customer, the process they need you to develop is one where X (some unknown set of inputs) will be transformed to produce Y.
+Generally a new process will be created from a need (an output to be produced). For example, a client will come to you and ask to have software that does Y. Your output in this case is a software that does Y. For the customer, the process they need you to develop is one where X (some unknown set of inputs) will be transformed to produce Y.
 
 As a software developer, your task is two-fold.
 
