@@ -1,6 +1,8 @@
 ---
 title: Questions
 created: 2020-01-01
+visible: true
+menu: Questions
 taxonomy:
   category: [Questions]
   status: in progress
