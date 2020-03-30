@@ -100,3 +100,9 @@ Over time I would like to go over [Wikipedia's vital articles](https://en.wikipe
 * 2020/03/21 - https://en.wikipedia.org/wiki/Advice_(complexity)
 * 2020/03/22 - https://en.wikipedia.org/wiki/Freedman%27s_paradox
 * 2020/03/23 - https://en.wikipedia.org/wiki/Panel_data
+* 2020/03/24 - https://en.wikipedia.org/wiki/Stellar_engine
+* 2020/03/25 - https://en.wikipedia.org/wiki/Median_test
+* 2020/03/26 - https://en.wikipedia.org/wiki/Autoregressive_fractionally_integrated_moving_average
+* 2020/03/27 - https://en.wikipedia.org/wiki/Markov_switching_multifractal
+* 2020/03/28 - https://en.wikipedia.org/wiki/Lag_operator
+* 2020/03/29 - https://en.wikipedia.org/wiki/Statistical_model_validation
