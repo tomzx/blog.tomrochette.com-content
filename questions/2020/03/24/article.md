@@ -23,5 +23,9 @@ Second, you must develop a process for your client's requirements, that is, one 
 
 When documenting processes, the steps will themselves become processes, that is, they will have a set of inputs and a set of outputs. A process will generally evolve into a complex graph of inputs, processes and outputs.
 
+Processes are also generally accomplished by someone or something. In process modeling we refer to those as roles. Examples of roles are user, customer support agent, clerk, engineer, analyst, software system.
+
+
+
 # References
 * [How do I improve my processes?](../../02/05)
