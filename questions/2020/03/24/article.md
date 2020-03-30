@@ -25,7 +25,14 @@ When documenting processes, the steps will themselves become processes, that is,
 
 Processes are also generally accomplished by someone or something. In process modeling we refer to those as roles. Examples of roles are user, customer support agent, clerk, engineer, analyst, software system.
 
+Here's a very simple template that you can use to define your processes
 
+* Inputs: What do you need for the process to take place?
+* Processes: What actions are taken on the inputs to transform them into outputs?
+* Outputs: What is produced when the process is completed?
+* Roles: What roles are required to accomplish the actions of the process?
+* Average duration: How long is a process taking to complete in general?
+* Mandatory/Optional: Is this process mandatory or optional in the accomplishment of the higher level process?
 
 # References
 * [How do I improve my processes?](../../02/05)
