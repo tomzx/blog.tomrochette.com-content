@@ -17,6 +17,10 @@ First, let's start with the definition of a tech lead.
 
 Source: https://www.thekua.com/atwork/2014/11/the-definition-of-a-tech-lead/
 
+>
+
+Source: https://hackernoon.com/whats-the-role-of-a-tech-lead-7725b47104b7
+
 # References
 * https://www.thekua.com/atwork/2014/11/the-definition-of-a-tech-lead/
 * https://www.thekua.com/atwork/2015/06/tech-lead-circles-of-responsibility/
