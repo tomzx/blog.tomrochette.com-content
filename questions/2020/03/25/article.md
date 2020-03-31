@@ -11,3 +11,9 @@ taxonomy:
 Do you need a tech lead?
 
 # Answer
+First, let's start with the definition of a tech lead.
+
+>
+
+# References
+* https://www.thekua.com/atwork/2014/11/the-definition-of-a-tech-lead/
