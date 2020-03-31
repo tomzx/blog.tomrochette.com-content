@@ -36,7 +36,7 @@ Thus I am more likely to adopt a position where having or not a tech lead will d
 
 Do you need to make quick decisions? Either have a tech lead for that or limit the amount of time allocated for a group of individuals to make decisions.
 
-Do you need accountability? Either have a tech lead that is accountable, or have important decisions assessed as a group and the results of the decision written with the name of those that participated in that decision.
+Do you need accountability? Either have a tech lead that is accountable or have important decisions assessed as a group and the results of the decision written with the name of those that participated in that decision.
 
 Do you need to have a technical vision? Either have a tech lead responsible for defining that vision with the team or have the team work as a whole to define this vision.
 
