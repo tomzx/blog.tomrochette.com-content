@@ -17,9 +17,9 @@ First, let's start with the definition of a tech lead.
 
 Source: https://www.thekua.com/atwork/2014/11/the-definition-of-a-tech-lead/
 
-> Lead with company values
-> Deliver value to customers
-> Keep the dream alive
+> * Lead with company values
+> * Deliver value to customers
+> * Keep the dream alive
 
 Source: https://hackernoon.com/whats-the-role-of-a-tech-lead-7725b47104b7
 
