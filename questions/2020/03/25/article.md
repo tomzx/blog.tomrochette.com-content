@@ -34,7 +34,7 @@ I am of the opinion that the distribution of responsibility is likely the best w
 
 Thus I am more likely to adopt a position where having or not a tech lead will depend on the situation of your team.
 
-Do you need to make quick decisions? Either have a tech lead for that, or limit the amount of time allocated for a group of individuals to make decisions.
+Do you need to make quick decisions? Either have a tech lead for that or limit the amount of time allocated for a group of individuals to make decisions.
 
 Do you need accountability? Either have a tech lead that is accountable, or have important decisions assessed as a group and the results of the decision written with the name of those that participated in that decision.
 
