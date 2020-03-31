@@ -103,3 +103,5 @@ Answering our own questions is the best way to increase our knowledge. By unders
 * [2020/03/21 - Why do I avoid reading books sometimes?](2020/03/21)
 * [2020/03/22 - What is the superficial loss rule applied to stocks and how does it impact me?](2020/03/22)
 * [2020/03/23 - Given a library of processes, how can you determine which process you should be following?](2020/03/23)
+* []
+* [2020/03/25 - Do you need a tech lead in your team?](2020/03/25)
