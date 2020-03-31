@@ -31,6 +31,8 @@ Source: http://vvgomes.com/we-dont-need-tech-leads/
 
 Source: https://hackernoon.com/whats-the-role-of-a-tech-lead-7725b47104b7
 
+While I would be one to advocate for distributed responsibilities on a team, the distribution of responsibility also removes responsabilization
+
 # References
 * https://www.thekua.com/atwork/2014/11/the-definition-of-a-tech-lead/
 * https://www.thekua.com/atwork/2015/06/tech-lead-circles-of-responsibility/
