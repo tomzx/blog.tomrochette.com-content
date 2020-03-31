@@ -30,7 +30,7 @@ Source: http://vvgomes.com/we-dont-need-tech-leads/
 
 Source: https://hackernoon.com/whats-the-role-of-a-tech-lead-7725b47104b7
 
-I am of the opinion that distribution of responsibility is likely the best way to get resilience in your system. But with it comes the cost of delays before eventual consistency.
+I am of the opinion that the distribution of responsibility is likely the best way to get resilience in your system. But with it comes the cost of delays before eventual consistency.
 
 Thus I am more likely to adopt a position where having or not a tech lead will depend on the situation of your team.
 
