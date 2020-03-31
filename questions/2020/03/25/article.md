@@ -11,7 +11,7 @@ taxonomy:
 Do you need a tech lead in your team?
 
 # Answer
-First, let's start with definitions of the tech lead role.
+Let's start with definitions of the tech lead role.
 
 > A Tech Lead is a software engineer, responsible for leading a development team, and responsible for the quality of its technical deliverables.
 
