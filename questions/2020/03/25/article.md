@@ -17,7 +17,10 @@ First, let's start with the definition of a tech lead.
 
 Source: https://www.thekua.com/atwork/2014/11/the-definition-of-a-tech-lead/
 
->
+> * Guiding the project technical vision;
+> * Analyzing risks and cross-functional requirements;
+> * Coaching less experienced people;
+> * Bridging communication between stakeholders and the team.
 
 Source: http://vvgomes.com/we-dont-need-tech-leads/
 
