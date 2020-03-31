@@ -20,3 +20,4 @@ Source: https://www.thekua.com/atwork/2014/11/the-definition-of-a-tech-lead/
 # References
 * https://www.thekua.com/atwork/2014/11/the-definition-of-a-tech-lead/
 * https://www.thekua.com/atwork/2015/06/tech-lead-circles-of-responsibility/
+* https://hackernoon.com/whats-the-role-of-a-tech-lead-7725b47104b7
