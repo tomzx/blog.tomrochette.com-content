@@ -34,5 +34,6 @@ Source: https://hackernoon.com/whats-the-role-of-a-tech-lead-7725b47104b7
 # References
 * https://www.thekua.com/atwork/2014/11/the-definition-of-a-tech-lead/
 * https://www.thekua.com/atwork/2015/06/tech-lead-circles-of-responsibility/
+* https://www.thekua.com/atwork/2014/10/do-we-need-a-tech-lead/
 * https://hackernoon.com/whats-the-role-of-a-tech-lead-7725b47104b7
 * http://vvgomes.com/we-dont-need-tech-leads/
