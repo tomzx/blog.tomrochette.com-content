@@ -105,3 +105,4 @@ Answering our own questions is the best way to increase our knowledge. By unders
 * [2020/03/23 - Given a library of processes, how can you determine which process you should be following?](2020/03/23)
 * [2020/03/24 - How do you document a process?](2020/03/24)
 * [2020/03/25 - Do you need a tech lead in your team?](2020/03/25)
+* [2020/03/26 - How can I effectively and consistently add habits into my life?](2020/03/26)
