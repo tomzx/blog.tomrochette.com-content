@@ -11,7 +11,7 @@ taxonomy:
 How can I effectively and consistently add habits into my life?
 
 # Answer
-I use the [Loop Habit Tracker](https://play.google.com/store/apps/details?id=org.isoron.uhabits) (an android app) to track any new habit I want to have and keep. Its purpose is two-fold: to remind me through notifications that I need to do something and to observe how consistent I am with the habit.
+I use the [Loop Habit Tracker](https://play.google.com/store/apps/details?id=org.isoron.uhabits&noprocess) (an android app) to track any new habit I want to have and keep. Its purpose is two-fold: to remind me through notifications that I need to do something and to observe how consistent I am with the habit.
 
 When adding new habits, I've found I was more successful by creating transition habits, that is, start with something that is easily achievable and is similar to the habit I want to have, then slowly transition the habit to be closer and closer to the habit I want to have. An example of this might be that I want to do 20 minutes of jogging daily, but since I've never done jogging consistently in the past, I should start with 1 minute instead of 20 and do it consistently. After a week of consistently jogging 1 minute per day, I can increase the habit to be 2 minutes. Each week that goes by the amount of jogging that is done is increasing while the habit is in its formation phase.
 
