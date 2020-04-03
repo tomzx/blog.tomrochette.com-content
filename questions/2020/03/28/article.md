@@ -8,15 +8,15 @@ taxonomy:
 ---
 
 # Question
-Why should I write using simple vocabulary?
+Why should I write using simple, frequently used words?
 
 # Answer
 Using simple language will allow more people to understand your message.
 
-Using simple vocabulary to explain complex ideas makes it easier to understand those ideas.
+Using simple words to explain ideas that are more involved makes it easier to understand those ideas.
 
-It's also easier to identify errors in logic and reasoning when you're expressing yourself with simple language.
+It's also easier to identify errors in reasoning when you're expressing yourself with simple language.
 
-Using complex vocabulary does not mean that you have smarter or more complex ideas. It simply means you're trying to conceal yourself in vocabulary that others may not understand.
+Using rare words does not mean that you are more intelligent or have smart thoughts. It simply means you're trying to conceal yourself by using words others may not understand.
 
-Like writing software, you should aim to keep your writing simple. It makes it easier on the readers that don't have to spend their time to decrypt what you're trying to say.
+Like writing software, you should aim to keep your writing simple. It makes it easier on the readers that don't have to spend their time to understand what you're trying to say.
