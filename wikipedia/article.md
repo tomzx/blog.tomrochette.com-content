@@ -106,3 +106,4 @@ Over time I would like to go over [Wikipedia's vital articles](https://en.wikipe
 * 2020/03/27 - https://en.wikipedia.org/wiki/Markov_switching_multifractal
 * 2020/03/28 - https://en.wikipedia.org/wiki/Lag_operator
 * 2020/03/29 - https://en.wikipedia.org/wiki/Statistical_model_validation
+* 2020/03/30 - https://en.wikipedia.org/wiki/Grey_box_model
