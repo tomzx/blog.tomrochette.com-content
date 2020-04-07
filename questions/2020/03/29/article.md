@@ -17,7 +17,7 @@ Using a tool such as [pandas-profiling](https://github.com/pandas-profiling/pand
 These summary statistics allow you to quickly have a glance at the data. You will want to look for missing values to assess whether there's a problem with the provided data. Sometimes missing data can imply that you should use the prior value that was set. Sometimes it means that the data isn't available, which can be an issue and may require you to do some form of data imputation down the road.
 
 ## Data analysis
-Common things to look for in time series data are gaps in data (periods where no data has been recorded), the trend/seasonality/residual decomposition per time series, the autocorrelation and partial autocorrelation plots, distribution of values grouped by certain period (by month, by week, by day, by day of week, by hour), line/scatter plots of values grouped by the same periods.
+Common things to look for in time series data are gaps in data (periods where no data has been recorded), the trend/seasonality/residual decomposition per time series, the autocorrelation and partial autocorrelation plots, distribution of values grouped by a certain period (by month, by week, by day, by day of week, by hour), line/scatter plots of values grouped by the same periods.
 
 ## Data cleanup
 Data is rarely clean and ready to be consumed. This means a number of things: removing values that are invalid, converting invalid values or values out of range into a valid range, splitting cells that have multiple values in them into separate cells (e.g., "10 cm" split into "10" and "cm").
