@@ -11,14 +11,15 @@ taxonomy:
 What are the general steps of a time series forecasting project?
 
 # Answer
-* Data audit
-* Data profiling
-* Data analysis
-* Data cleanup
-* Data transformation
-* Feature generation
-* Establish a baseline
-* Experiment
-* Performance analysis
-* Model selection
-* Deployment
+## Data profiling
+Using a tool such as pandas-profiling
+
+## Data analysis
+## Data cleanup
+## Data transformation
+## Feature generation
+## Establish a baseline
+## Experiment
+## Performance analysis
+## Model selection
+## Deployment
