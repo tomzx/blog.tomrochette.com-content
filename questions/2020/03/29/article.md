@@ -20,12 +20,21 @@ These summary statistics allow you to quickly have a glance at the data. You wil
 Common things to look for in time series data are gaps in data (period of time where no data has been recorded), the trend/seasonality/residual decomposition per time series, the autocorrelation and partial autocorrelation plots, distribution of values grouped by certain period (by month, by week, by day, by day of week, by hour), line/scatter plots of values grouped by the same periods.
 
 ## Data cleanup
-Data is rarely clean and ready to be consumed. This means a number of things: removing values that are invalid, converting invalid values or values out of range into a valid range, splitting cells that have
+Data is rarely clean and ready to be consumed. This means a number of things: removing values that are invalid, converting invalid values or values out of range into a valid range, splitting cells that have multiple values in them into separate cells (e.g., "10 cm" split into "10" and "cm").
 
 ## Data transformation
+A variety of transformations can be applied to the cleaned data, ranging from data imputation (setting values where values are missing using available data), applying a function on the data, such as a power, log, square root, differencing (computing the difference with the prior value), going from time zoned date time to timestamps, etc.
+
 ## Feature generation
+Common feature generation transformations are applied, such as computing lagged values on variables, moving averages/median, exponential moving averages, extracting the latest min/max, counting the number of peaks encountered so far, etc. Feature generation is where you create additional information for your model to consume with the hope that it will provide it some signal it can make use of.
+
 ## Establish a baseline
+Before attempting to find a good model for the problem at hand you want to start with simple/naive models. The time series naive model
+
 ## Experiment
+
 ## Performance analysis
+
 ## Model selection
+
 ## Deployment
