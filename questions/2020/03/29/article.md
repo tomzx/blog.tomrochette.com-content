@@ -29,12 +29,15 @@ A variety of transformations can be applied to the cleaned data, ranging from da
 Common feature generation transformations are applied, such as computing lagged values on variables, moving averages/median, exponential moving averages, extracting the latest min/max, counting the number of peaks encountered so far, etc. Feature generation is where you create additional information for your model to consume with the hope that it will provide it some signal it can make use of.
 
 ## Establish a baseline
-Before attempting to find a good model for the problem at hand you want to start with simple/naive models. The time series naive model
+Before attempting to find a good model for the problem at hand you want to start with simple/naive models. The time series naive model simply predicts the future by using the latest value as its prediction.
 
 ## Experiment
+With a baselined established, you can now run a variety of experiments, which generally means trying different models on the same dataset while evaluating them the same way (same training/validation splits). In time series, we do cross-validation by creating a train/validation split where the validation split (i.e., the samples in the validation set) occurs temporally after the training split. The cross-validation split represent different points in time at which the models are trained and evaluated for their performance.
 
 ## Performance analysis
+After you've completed a few experiments you'll have a variety of results to analyze. You will want to look at your primary performance metric, which is generally defined as an error metric you are trying to minimize. Examples of error metrics are MAE, MSE, RMSE, MAPE, SMAPE, WAPE, MASE. Performance is evaluated on your validation data (out-of-sample) and lets you have an idea of how the model will perform on data it hasn't seen during training, which closely replicates the situation you will encounter in production.
 
 ## Model selection
+With many models and their respective primary metric computed, you are able to pick the one which has produced the lowest error on many train/test splits.
 
 ## Deployment
