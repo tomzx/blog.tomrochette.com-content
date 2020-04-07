@@ -108,3 +108,4 @@ Answering our own questions is the best way to increase our knowledge. By unders
 * [2020/03/26 - How can I effectively and consistently add habits into my life?](2020/03/26)
 * [2020/03/27 - How is being a R&D developer different than being a developer?](2020/03/27)
 * [2020/03/28 - Why should I write using simple, frequently used words?](2020/03/28)
+* [2020/03/29 - What are the general steps of a time series forecasting project?](2020/03/29)
