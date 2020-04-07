@@ -38,7 +38,7 @@ With a baseline established, you can now run a variety of experiments, which gen
 After you've completed a few experiments you'll have a variety of results to analyze. You will want to look at your primary performance metric, which is generally defined as an error metric you are trying to minimize. Examples of error metrics are MAE, MSE, RMSE, MAPE, SMAPE, WAPE, MASE. Performance is evaluated on your validation data (out-of-sample) and lets you have an idea of how the model will perform on data it hasn't seen during training, which closely replicates the situation you will encounter in production.
 
 ## Model selection
-With many models and their respective primary metric computed, you are able to pick the one which has produced the lowest error on many cross-validation train/test splits.
+With many models and their respective primary metric computed, you can pick the one which has produced the lowest error on many cross-validation train/test splits.
 
 ## Deployment
 Once the model has been selected, it is packaged to be deployed. This generally implies something as simple as pickling the model object and loading it in the remote environment so it can be used to do predictions.
