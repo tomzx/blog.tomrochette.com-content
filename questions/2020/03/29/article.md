@@ -1,5 +1,5 @@
 ---
-title:
+title: Time series forecasting projects
 created: 2020-03-29
 taxonomy:
   type: post
@@ -38,6 +38,13 @@ With a baselined established, you can now run a variety of experiments, which ge
 After you've completed a few experiments you'll have a variety of results to analyze. You will want to look at your primary performance metric, which is generally defined as an error metric you are trying to minimize. Examples of error metrics are MAE, MSE, RMSE, MAPE, SMAPE, WAPE, MASE. Performance is evaluated on your validation data (out-of-sample) and lets you have an idea of how the model will perform on data it hasn't seen during training, which closely replicates the situation you will encounter in production.
 
 ## Model selection
-With many models and their respective primary metric computed, you are able to pick the one which has produced the lowest error on many train/test splits.
+With many models and their respective primary metric computed, you are able to pick the one which has produced the lowest error on many cross-validation train/test splits.
 
 ## Deployment
+Once the model has been selected, it is packaged to be deployed. This generally implies something as simple as pickling the model object and loading it in the remote environment so it can be used to do predictions.
+
+There are two modes of forecasting:
+* Offline: Data used for forecasting is collected during a period of time and then a scheduled task uses this newly available data to create new forecasts. This is generally used for systems with large amounts of data where the forecasts are not needed in real time, such as forecasting tomorrow's stock price, the minimum and maximum temperature, the volume of stocks that will be sold during the week, etc.
+* Online: Data used for forecasting is given to the model and predictions are expected to be returned within a short time frame, on the order of less than a second to a minute.
+
+Raw data is transformed and feature engineered, then given to the model to use to forecast.
