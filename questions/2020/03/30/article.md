@@ -29,3 +29,4 @@ The process of data profiling allows a data scientist or engineer to identify qu
 In an ideal situation, data profiling reports:
 * no missing cells
 * proper [normalization](https://en.wikipedia.org/wiki/Database_normalization) of the data (e.g., value separate from their unit)
+* all the data in a column using the same unit, unless otherwise specified (e.g., you do not want data in meters, centimeters, and feets in the same column)
