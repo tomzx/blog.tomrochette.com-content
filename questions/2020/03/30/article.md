@@ -16,6 +16,7 @@ Data profiling is the process of extracting information about data. Given tabula
 * number of cells without data
 * number of cells with a value of zero
 * number of distinct/unique values
+* number of duplicate rows
 * minimum, mean, median, maximum, quantiles, range, standard deviation, variance, sum
 * values distribution
 * most common values
@@ -30,3 +31,4 @@ In an ideal situation, data profiling reports:
 * no missing cells
 * proper [normalization](https://en.wikipedia.org/wiki/Database_normalization) of the data (e.g., value separate from their unit)
 * all the data in a column using the same unit, unless otherwise specified (e.g., you do not want data in meters, centimeters, and feets in the same column)
+* little to no row duplication
