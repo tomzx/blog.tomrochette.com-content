@@ -12,15 +12,15 @@ What is data profiling?
 
 # Answer
 Data profiling is the process of extracting information about data. Given tabular data (think of an Excel spreadsheet), we commonly want to extract the following properties about each column:
-* number of rows
-* number of cells without data
-* number of cells with a value of zero
-* number of distinct/unique values
-* number of duplicate rows
-* minimum, mean, median, maximum, quantiles, range, standard deviation, variance, sum
-* values distribution
-* most common values
-* examples of values
+* Number of rows
+* Number of cells without data
+* Number of cells with a value of zero
+* Number of distinct/unique values
+* Number of duplicate rows
+* Minimum, mean, median, maximum, quantiles, range, standard deviation, variance, sum
+* Values distribution
+* Most common values
+* Examples of values
 
 The process of data profiling allows a data scientist or engineer to identify quickly potential sources of problems in the data such as:
 * negative numbers when numbers should all be positive
