@@ -28,7 +28,7 @@ The process of data profiling allows a data scientist or engineer to identify qu
 * issues with the distribution of values such as class imbalance if we plan to solve a classification problem
 
 In an ideal situation, data profiling reports:
-* no missing cells
-* proper [normalization](https://en.wikipedia.org/wiki/Database_normalization) of the data (e.g., value separate from their unit)
-* all the data in a column using the same unit, unless otherwise specified (e.g., you do not want data in meters, centimeters, and feets in the same column)
-* little to no row duplication
+* no missing cells, this way you do not have to ask if data can be filled in or you don't need to impute the data using assumptions
+* proper [normalization](https://en.wikipedia.org/wiki/Database_normalization) of the data (e.g., value separate from their unit), this way the data can be used as is, otherwise you need to transform the column to extract the numeric value from the unit
+* all the data in a column using the same unit, unless otherwise specified (e.g., you do not want data in meters, centimeters, and feets in the same column), this way your data is consistent, otherwise you need to identify the scales/units used and transform the data to use a common unit
+* little to no row duplication, this way you know that your data was collected without creating duplicate entries, which sometimes happen when databases are merged manually to create a data file, otherwise you may have to drop the duplicate rows or identify how many of the duplicates should be kept
