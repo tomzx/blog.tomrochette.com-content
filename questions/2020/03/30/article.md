@@ -15,3 +15,4 @@ Data profiling is the process of extracting information about data. Given tabula
 * number of rows
 * number of cells without data
 * number of cells with a value of zero
+* number of distinct/unique values
