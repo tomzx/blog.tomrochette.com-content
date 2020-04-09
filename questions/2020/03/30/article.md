@@ -19,6 +19,7 @@ Data profiling is the process of extracting information about data. Given tabula
 * minimum, mean, median, maximum, quantiles, range, standard deviation, variance, sum
 * values distribution
 * most common values
+* examples of values
 
 The process of data profiling allows a data scientist or engineer to identify quickly potential sources of problems in the data such as:
 * negative numbers when numbers should all be positive
@@ -27,3 +28,4 @@ The process of data profiling allows a data scientist or engineer to identify qu
 
 In an ideal situation, data profiling reports:
 * no missing cells
+* proper normalization of the data (e.g., value separate from their unit)
