@@ -20,4 +20,7 @@ Data profiling is the process of extracting information about data. Given tabula
 * values distribution
 * most common values
 
-The process of data profiling allows a data scientist or engineer to identify quickly potential sources of problems in the data such as negative numbers when numbers should all be positive, missing values which may need to be imputed or for which the row may have to be removed, issues with the distribution of values such as class imbalance if we plan to solve a classification problem
+The process of data profiling allows a data scientist or engineer to identify quickly potential sources of problems in the data such as:
+* negative numbers when numbers should all be positive
+* missing values which may need to be imputed or for which the row may have to be removed
+* issues with the distribution of values such as class imbalance if we plan to solve a classification problem
