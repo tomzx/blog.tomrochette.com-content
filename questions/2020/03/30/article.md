@@ -16,5 +16,5 @@ Data profiling is the process of extracting information about data. Given tabula
 * number of cells without data
 * number of cells with a value of zero
 * number of distinct/unique values
-* minimum, mean, median, maximum
+* minimum, mean, median, maximum, quantiles, range, standard deviation, variance, sum
 * values distribution
