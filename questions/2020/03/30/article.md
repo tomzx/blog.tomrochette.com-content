@@ -24,3 +24,6 @@ The process of data profiling allows a data scientist or engineer to identify qu
 * negative numbers when numbers should all be positive
 * missing values which may need to be imputed or for which the row may have to be removed
 * issues with the distribution of values such as class imbalance if we plan to solve a classification problem
+
+In an ideal situation, data profiling reports:
+* no missing cells
