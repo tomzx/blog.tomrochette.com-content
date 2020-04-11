@@ -22,22 +22,22 @@ The state of completion of the article.
 # Importance
 How important the topic is to my eyes (the last time the importance value was set).
 
-* Low
-* Medium
-* High
+1. Low
+1. Medium
+1. High
 
 # Confidence
 An indicator of my confidence on the topic. Confidence can also be established at the level of statements.
 
-* Impossible, P(e) = 0
-* Almost unlikely, P(e) < 0.05
-* very unlikely, P(e) < 0.25
-* Unlikely, P(e) < 0.5
-* Uncertain, P(e) == 0.5
-* Likely, P(e) > 0.5
-* Very likely, P(e) >= 0.75
-* Almost likely, P(e) >= 0.95
-* Certain/Definite, P(e) = 1
+1. Impossible, P(e) = 0
+1. Almost unlikely, P(e) < 0.05
+1. Very unlikely, P(e) < 0.25
+1. Unlikely, P(e) < 0.5
+1. Uncertain, P(e) == 0.5
+1. Likely, P(e) > 0.5
+1. Very likely, P(e) >= 0.75
+1. Almost likely, P(e) >= 0.95
+1. Certain/Definite, P(e) = 1
 
 # References
 * http://www.gwern.net/About#confidence-tags
