@@ -29,13 +29,13 @@ How important the topic is to my eyes (the last time the importance value was se
 # Confidence
 An indicator of my confidence on the topic.
 
-* Impossible
+* Impossible, P(e) = 0
 * Operationally impossible/infeasible
 * Infeasible
 * Possible
 * Probable
 * Feasible
-* Certain/Definite
+* Certain/Definite, P(e) = 1
 
 # References
 * http://www.gwern.net/About#confidence-tags
