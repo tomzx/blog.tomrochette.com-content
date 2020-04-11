@@ -32,8 +32,9 @@ An indicator of my confidence on the topic.
 * Impossible, P(e) = 0
 * Operationally impossible/infeasible
 * Infeasible
+* Improbable
+* Probable P(e) >= 0.5
 * Possible
-* Probable
 * Feasible
 * Certain/Definite, P(e) = 1
 
