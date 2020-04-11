@@ -30,12 +30,9 @@ How important the topic is to my eyes (the last time the importance value was se
 An indicator of my confidence on the topic.
 
 * Impossible, P(e) = 0
-* Operationally impossible/infeasible
-* Infeasible
-* Improbable
-* Probable P(e) >= 0.5
+* Improbable, P(e) < 0.5
+* Probable, P(e) >= 0.5
 * Possible
-* Feasible
 * Certain/Definite, P(e) = 1
 
 # References
