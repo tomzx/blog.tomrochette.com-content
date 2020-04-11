@@ -35,7 +35,7 @@ An indicator of my confidence on the topic.
 * Possible
 * Probable
 * Feasible
-* Certain
+* Certain/Definite
 
 # References
 * http://www.gwern.net/About#confidence-tags
