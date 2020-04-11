@@ -27,12 +27,16 @@ How important the topic is to my eyes (the last time the importance value was se
 * High
 
 # Confidence
-An indicator of my confidence on the topic.
+An indicator of my confidence on the topic. Confidence can also be established at the level of statements.
 
 * Impossible, P(e) = 0
-* Improbable, P(e) < 0.5
-* Probable, P(e) >= 0.5
-* Possible
+* Almost unlikely, P(e) < 0.05
+* very unlikely, P(e) < 0.25
+* Unlikely, P(e) < 0.5
+* Uncertain, P(e) == 0.5
+* Likely, P(e) > 0.5
+* Very likely, P(e) >= 0.75
+* Almost likely, P(e) >= 0.95
 * Certain/Definite, P(e) = 1
 
 # References
