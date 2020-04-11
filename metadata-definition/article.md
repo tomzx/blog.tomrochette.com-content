@@ -39,3 +39,4 @@ An indicator of my confidence on the topic.
 
 # References
 * http://www.gwern.net/About#confidence-tags
+* http://natalia.grabar.free.fr/cours/reyna-MC1981.pdf
