@@ -23,7 +23,7 @@ Here is a summary description of each column, what they represent, and the range
 * **line_num:** line number within the paragraph, starting from 0
 * **word_num:** word number within the line, starting from 0
 * **left:** x coordinate in pixels of the text bounding box top left corner, starting from the left of the image
-* **top:** y coordinate of the text bounding box top left corner, starting from the top of the image
+* **top:** y coordinate in pixels of the text bounding box top left corner, starting from the top of the image
 * **width:** width of the text bounding box in pixels
 * **height:** height of the text bounding box in pixels
 * **conf:** confidence value, from 0 (no confidence) to 100 (maximum confidence), -1 for all level except 5
