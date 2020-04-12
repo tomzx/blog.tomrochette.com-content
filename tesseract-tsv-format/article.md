@@ -7,6 +7,8 @@ taxonomy:
   status: draft
 ---
 
+
+
 * level: hierarchical layout (a word is in a line which is in a paragraph, which is in a block which is in a page)
 	* 1: page
 	* 2: block
@@ -24,3 +26,23 @@ taxonomy:
 * height: height of the text bounding box in pixels
 * conf: confidence value, from 0 to 100, -1 for all level except 5
 * text: detected text, empty for all levels except 5
+
+```tsv
+level	page_num	block_num	par_num	line_num	word_num	left	top	width	height	conf	text
+1	1	0	0	0	0	0	0	1024	800	-1
+2	1	1	0	0	0	98	66	821	596	-1
+3	1	1	1	0	0	98	66	821	596	-1
+4	1	1	1	1	0	105	66	719	48	-1
+5	1	1	1	1	1	105	66	74	32	90	The
+5	1	1	1	1	2	205	67	143	40	87	(quick)
+5	1	1	1	1	3	376	69	153	41	89	[brown]
+5	1	1	1	1	4	559	71	105	40	89	{fox}
+5	1	1	1	1	5	687	73	137	41	89	jumps!
+4	1	1	1	2	0	104	115	784	51	-1
+5	1	1	1	2	1	104	115	96	33	91	Over
+5	1	1	1	2	2	224	117	60	32	89	the
+5	1	1	1	2	3	310	117	224	39	88	$43,456.78
+5	1	1	1	2	4	561	121	136	42	92	<lazy>
+5	1	1	1	2	5	722	123	70	32	92	#90
+5	1	1	1	2	6	818	125	70	41	89	dog
+```
