@@ -8,17 +8,19 @@ taxonomy:
 
 Tesseract supports a [TSV format as output](https://tesseract-ocr.github.io/tessdoc/Command-Line-Usage.html#tsv-output-currently-available-in-305-dev-in-master-branch-on-github). I looked online for some documentation about the columns but couldn't find anything, so I looked at the [source code](https://github.com/tesseract-ocr/tesseract/blob/cdebe13d81e2ad2a83be533886750f5491b25262/src/api/baseapi.cpp#L1398).
 
-* level: hierarchical layout (a word is in a line which is in a paragraph, which is in a block which is in a page)
+Here is a summary description of each column, what they represent, and the range of valid values they can have.
+
+* level: hierarchical layout (a word is in a line which is in a paragraph, which is in a block which is in a page), a value from 1 to 5
 	* 1: page
 	* 2: block
 	* 3: paragraph
 	* 4: line
 	* 5: word
-* page_num: when provided with a list of images, indicates the number of the file, starting from 1
-* block_num: block number, starting from 0
-* par_num: paragraph number, starting from 0
-* line_num: line number, starting from 0
-* word_num: word number, starting from 0
+* page_num: when provided with a list of images, indicates the number of the file, when provided with a multi-pages document, indicates the page number, starting from 1
+* block_num: block number within the page, starting from 0
+* par_num: paragraph number within the block, starting from 0
+* line_num: line number within the paragraph, starting from 0
+* word_num: word number within the line, starting from 0
 * left: x coordinate in pixels of the text bounding box top left corner, starting from the left of the image
 * top: y coordinate of the text bounding box top left corner, starting from the top of the image
 * width: width of the text bounding box in pixels
