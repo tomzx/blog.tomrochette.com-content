@@ -31,7 +31,6 @@ Here is a summary description of each column, what they represent, and the range
 
 Here is an example of the TSV format output, for reference.
 
-
 level|page_num|block_num|par_num|line_num|word_num|left|top|width|height|conf|text
 -|-|-|-|-|-|-|-|-|-|-|-
 1|1|0|0|0|0|0|0|1024|800|-1
