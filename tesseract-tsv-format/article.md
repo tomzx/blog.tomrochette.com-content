@@ -33,7 +33,7 @@ Here is an example of the TSV format output, for reference.
 
 |level|page_num|block_num|par_num|line_num|word_num|left|top|width|height|conf|text|
 |-|-|-|-|-|-|-|-|-|-|-|-|
-|1|1|0|0|0|0|0|0|1024|800|-1||
+|1|1|0|0|0|0|0|0|1024|800|-1| |
 |2|1|1|0|0|0|98|66|821|596|-1||
 |3|1|1|1|0|0|98|66|821|596|-1||
 |4|1|1|1|1|0|105|66|719|48|-1||
