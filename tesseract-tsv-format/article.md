@@ -49,3 +49,6 @@ level	page_num	block_num	par_num	line_num	word_num	left	top	width	height	conf	te
 5	1	1	1	2	5	722	123	70	32	92	#90
 5	1	1	1	2	6	818	125	70	41	89	dog
 ```
+
+# References
+* https://tesseract-ocr.github.io/tessdoc/Command-Line-Usage.html
