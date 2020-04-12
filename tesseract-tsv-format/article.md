@@ -11,7 +11,7 @@ Tesseract supports a [TSV format as output](https://tesseract-ocr.github.io/tess
 
 Here is a summary description of each column, what they represent, and the range of valid values they can have.
 
-* **level:** hierarchical layout (a word is in a line which is in a paragraph, which is in a block which is in a page), a value from 1 to 5
+* **level:** hierarchical layout (a word is in a line, which is in a paragraph, which is in a block, which is in a page), a value from 1 to 5
 	* 1: page
 	* 2: block
 	* 3: paragraph
