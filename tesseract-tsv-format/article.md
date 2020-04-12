@@ -7,7 +7,7 @@ taxonomy:
   status: draft
 ---
 
-Tesseract supports a [TSV format as output](https://tesseract-ocr.github.io/tessdoc/Command-Line-Usage.html#tsv-output-currently-available-in-305-dev-in-master-branch-on-github). I looked online for some documentation about the columns but couldn't find anything, so I looked at the source code.
+Tesseract supports a [TSV format as output](https://tesseract-ocr.github.io/tessdoc/Command-Line-Usage.html#tsv-output-currently-available-in-305-dev-in-master-branch-on-github). I looked online for some documentation about the columns but couldn't find anything, so I looked at the [source code](https://github.com/tesseract-ocr/tesseract/blob/cdebe13d81e2ad2a83be533886750f5491b25262/src/api/baseapi.cpp#L1398).
 
 * level: hierarchical layout (a word is in a line which is in a paragraph, which is in a block which is in a page)
 	* 1: page
