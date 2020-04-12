@@ -25,8 +25,10 @@ Here is a summary description of each column, what they represent, and the range
 * top: y coordinate of the text bounding box top left corner, starting from the top of the image
 * width: width of the text bounding box in pixels
 * height: height of the text bounding box in pixels
-* conf: confidence value, from 0 to 100, -1 for all level except 5
+* conf: confidence value, from 0 (no confidence) to 100 (maximum confidence), -1 for all level except 5
 * text: detected text, empty for all levels except 5
+
+Here is an example of the TSV format output, for reference.
 
 ```tsv
 level	page_num	block_num	par_num	line_num	word_num	left	top	width	height	conf	text
