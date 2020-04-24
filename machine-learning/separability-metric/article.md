@@ -55,3 +55,4 @@ For a dataset with 1 B and 3 C as output values, we expect the metric to be betw
 
 # References
 * https://towardsdatascience.com/rip-correlation-introducing-the-predictive-power-score-3d90808b9598
+* https://github.com/8080labs/ppscore
