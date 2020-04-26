@@ -111,3 +111,5 @@ Over time I would like to go over [Wikipedia's vital articles](https://en.wikipe
 * 2020/04/01 - https://en.wikipedia.org/wiki/Train_of_thought
 * 2020/04/02 - https://en.wikipedia.org/wiki/Private_speech
 * 2020/04/03 - https://en.wikipedia.org/wiki/Return_on_capital
+* 2020/04/04 - https://en.wikipedia.org/wiki/Intrapersonal_communication
+* 2020/04/05 - https://en.wikipedia.org/wiki/Notation_for_theoretic_scheduling_problems
