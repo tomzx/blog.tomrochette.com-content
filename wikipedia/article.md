@@ -108,3 +108,6 @@ Over time I would like to go over [Wikipedia's vital articles](https://en.wikipe
 * 2020/03/29 - https://en.wikipedia.org/wiki/Statistical_model_validation
 * 2020/03/30 - https://en.wikipedia.org/wiki/Grey_box_model
 * 2020/03/31 - https://en.wikipedia.org/wiki/Distributed_lag
+* 2020/04/01 - https://en.wikipedia.org/wiki/Train_of_thought
+* 2020/04/02 - https://en.wikipedia.org/wiki/Private_speech
+* 2020/04/03 - https://en.wikipedia.org/wiki/Return_on_capital
