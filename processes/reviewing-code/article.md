@@ -8,6 +8,7 @@ taxonomy:
 ---
 
 * Verify that the build/tests pass
+* Read the issue title and description
 * New code
 	* Understand the feature and associated requirements that are supposed to be implemented
 	* Verify code implements the desired feature and that the requirements are completed
