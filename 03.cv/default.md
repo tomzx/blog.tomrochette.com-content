@@ -2,7 +2,8 @@
 title: CV
 created: 2015-07-04
 taxonomy:
-    status: in progress
+	status: in progress
+redirect:
 ---
 
 [Tom Rochette - CV (English version)][1]
