@@ -9,6 +9,12 @@ taxonomy:
 
 Run your program with `python -m cProfile -o profile.cprofile my-script.py`
 
+Install `snakeviz` (`pip install snakeviz`) to visualize the generated profile.
+
+`snakeviz profile.cprofile `
+
+Alternative approach
+
 Install `pyprof2calltree` to convert the cprofile to a kcachegrind compatible profile.
 
 `pyprof2calltree -i profile.cprofile -o callgrind.profile.cprofile`
