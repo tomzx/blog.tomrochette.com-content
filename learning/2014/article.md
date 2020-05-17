@@ -1,2 +1,2 @@
-- Apiary
-- API writing
+* Apiary
+* API writing
