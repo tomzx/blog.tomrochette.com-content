@@ -4,3 +4,4 @@
 	* Trend/seasonality/error/residual
 * Statistics
 	* Estimation statistics
+* Scikit-learn
