@@ -6,3 +6,4 @@
 	* Estimation statistics
 * Scikit-learn
 * Numpy
+* Plotly
