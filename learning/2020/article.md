@@ -5,3 +5,4 @@
 * Statistics
 	* Estimation statistics
 * Scikit-learn
+* Numpy
