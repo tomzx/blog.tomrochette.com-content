@@ -20,3 +20,4 @@ Here are the things I look for:
 * **2-3 pages:** If you cannot summarize your accomplishments in less than 3 pages, then you don't know how to summarize. I don't want to know everything you've done in your professional life. I don't want to know every single paper you've published, every conference/workshop you've attended, every grant you've received, every honors you have.
 * **What you studied in university:** I expect people that apply to the positions I filter for to belong into a certain set of domains. This is generally not a very important criteria, but it gives me a better idea of your professional career.
 * **When you finished your degree:** This is used to determine how recent your education is. I consider professional experience once the degree is completed, not while it is being completed.
+* **List what you did:** If you only list the title/position you had and the company, I have no clue what you did there.
