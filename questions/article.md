@@ -110,3 +110,4 @@ Answering our own questions is the best way to increase our knowledge. By unders
 * [2020/03/28 - Why should I write using simple, frequently used words?](2020/03/28)
 * [2020/03/29 - What are the general steps of a time series forecasting project?](2020/03/29)
 * [2020/03/30 - What is data profiling?](2020/03/30)
+* [2020/03/31 - What do I look for in a resume?](2020/03/31)
