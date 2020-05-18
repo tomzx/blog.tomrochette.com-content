@@ -18,3 +18,5 @@ Let's start by the things I don't look at in a resume for a position in which ex
 
 Here are the things I look for:
 * **2-3 pages:** If you cannot summarize your accomplishments in less than 3 pages, then you don't know how to summarize. I don't want to know everything you've done in your professional life. I don't want to know every single paper you've published, every conference/workshop you've attended, every grant you've received, every honors you have.
+* **What you studied in university:** I expect people that apply to the positions I filter for to belong into a certain set of domains. This is generally not a very important criteria, but it gives me a better idea of your professional career.
+* **When you finished your degree:**
