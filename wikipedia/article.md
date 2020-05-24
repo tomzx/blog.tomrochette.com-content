@@ -113,3 +113,5 @@ Over time I would like to go over [Wikipedia's vital articles](https://en.wikipe
 * 2020/04/03 - https://en.wikipedia.org/wiki/Return_on_capital
 * 2020/04/04 - https://en.wikipedia.org/wiki/Intrapersonal_communication
 * 2020/04/05 - https://en.wikipedia.org/wiki/Notation_for_theoretic_scheduling_problems
+* 2020/04/06 - https://en.wikipedia.org/wiki/Boosting_(machine_learning)
+* 2020/04/07 - https://en.wikipedia.org/wiki/Bootstrapping_(statistics)
