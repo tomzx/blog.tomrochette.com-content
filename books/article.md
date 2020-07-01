@@ -83,3 +83,4 @@ taxonomy:
 * God's Debris: A Thought Experiment
 * Devourer
 * Debugging Teams: Better Productivity Through Collaboration
+* Practical Time Series Analysis: Prediction with Statistics and Machine Learning
