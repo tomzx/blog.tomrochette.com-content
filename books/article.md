@@ -75,3 +75,4 @@ taxonomy:
 
 # 2020
 * A Philosophy of Software Design
+* Stories of Your Life and Others
