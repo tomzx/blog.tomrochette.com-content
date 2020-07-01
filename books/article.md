@@ -84,3 +84,4 @@ taxonomy:
 * Devourer
 * Debugging Teams: Better Productivity Through Collaboration
 * Practical Time Series Analysis: Prediction with Statistics and Machine Learning
+* Introduction to Time Series Forecasting with Python
