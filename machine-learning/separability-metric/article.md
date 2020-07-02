@@ -6,7 +6,6 @@ taxonomy:
   status: in progress
 ---
 
-
 ## Context
 Given a tabular dataset, what is the theoretical limit on the number of entries we can accurately predict? Many real world problems are not functions, that is to say that the same inputs may produce different outputs. Given a problem that should return the same output given the same inputs, what should be returned when an input has a set of different possible outputs?
 
