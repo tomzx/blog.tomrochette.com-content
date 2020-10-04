@@ -8,3 +8,4 @@
 * Numpy
 * Plotly
 * MLflow
+* PyTorch
