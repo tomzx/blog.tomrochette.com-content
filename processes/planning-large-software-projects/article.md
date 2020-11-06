@@ -13,3 +13,4 @@ taxonomy:
 * Categorize the dependencies
 	* Soft: somewhat depends on this other feature but isn't blocked by its absence from the codebase
 	* Hard: depends on this other feature and is blocked by its absence from the codebase
+* Prioritize the features
