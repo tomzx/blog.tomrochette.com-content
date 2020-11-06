@@ -10,6 +10,7 @@ taxonomy:
 * List all the features you would like to develop
 * Define an appetite for the task (day, week, month, quarter)
 * Identify the features where the appetite differs between individuals and discuss them to reach consensus
+* Define the roles necessary to complete the task
 * Identify dependencies between features
 * Categorize the dependencies
 	* Soft: somewhat depends on this other feature but isn't blocked by its absence from the codebase
