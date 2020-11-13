@@ -51,3 +51,4 @@ When reviewing
 * https://google.github.io/eng-practices/
 * https://testing.googleblog.com/2019/11/code-health-respectful-reviews-useful.html
 * https://engineering.18f.gov/code-review/
+* https://conventionalcomments.org/
