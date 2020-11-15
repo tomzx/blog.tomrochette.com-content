@@ -10,4 +10,4 @@ taxonomy:
 * Decide what habit you want to have and record why you want this habit
 * Start with the smallest amount of effort possible
 * Increase the amount of effort regularly
-* Track your habit in a habit recording system
+* Track your habit in a habit recording system such as [Loop Habit Tracker](https://play.google.com/store/apps/details?id=org.isoron.uhabits)
