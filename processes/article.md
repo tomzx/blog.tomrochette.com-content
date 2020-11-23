@@ -12,8 +12,10 @@ Processes are a way to do things, such that the process can be then reproduced i
 
 # Articles
 * [Book reading](book-reading)
+* [Habits](habits)
 * [Investing](investing)
 * [Meetings](meetings)
+* [Planning large software projects](planning-large-software-projects)
 * [Question answering](question-answering)
 * [Reviewing code](reviewing-code)
 * [RFC](rfc)
