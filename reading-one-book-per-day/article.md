@@ -23,4 +23,4 @@ Here are the benefits I've observed through this approach:
 
 **You are exposed to more variety**. Some people get topic fatigue, which is that you get bored of reading on the same topic. Reading on different topics avoids this issue while also stimulating you to think about many topics. This is a great way to sometimes make connections between unrelated topics.
 
-Overall I've been very satisfied with this experiment and I've been doing it for over 4 months now. I highly recommend it if you have a large list of books you haven't started yet.
+Overall I've been very satisfied with this experiment and I've been doing it for over 4 months now. I highly recommend it if you have a large list of books you haven't started yet. See my article [How to prioritize which book to read](../questions/2020/01/06) to help you organize your reading.
