@@ -20,3 +20,5 @@ Here are the benefits I've observed through this approach:
 **It's easier to identify similar sources**. I would read a few books on a similar topic, and of course they would all cite the same sources. The difference between processing all those books in parallel instead of sequentially is that you notice the pattern of reuse more clearly. When reading the books sequentially, what happens is that this type of information decays over time. We start to forget what the last book was referring to, so that the next book appears to have new references.
 
 **Similar ideas can be identified and speed up reading**. As you identify the same ideas in different books, instead of reading the arguments careful in each book, the best argument is read thoroughly and the others quickly scanned for additional information.
+
+**You are exposed to more variety**. Some people get topic fatigue, which is that you get bored of reading on the same topic. Reading on different topics avoids this issue while also stimulating you to think about many topics. This is a great way to sometimes make connections between unrelated topics.
