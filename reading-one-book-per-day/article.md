@@ -22,3 +22,5 @@ Here are the benefits I've observed through this approach:
 **Similar ideas can be identified and speed up reading**. As you identify the same ideas in different books, instead of reading the arguments careful in each book, the best argument is read thoroughly and the others quickly scanned for additional information.
 
 **You are exposed to more variety**. Some people get topic fatigue, which is that you get bored of reading on the same topic. Reading on different topics avoids this issue while also stimulating you to think about many topics. This is a great way to sometimes make connections between unrelated topics.
+
+Overall I've been very satisfied with this experiment and I've been doing it for over 4 months now. I highly recommend it if you have a large list of books you haven't started yet.
