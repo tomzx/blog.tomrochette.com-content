@@ -16,6 +16,7 @@ Processes are a way to do things, such that the process can be then reproduced i
 * [Investing](investing)
 * [Meetings](meetings)
 * [Planning large software projects](planning-large-software-projects)
+* [Python profiling](python-profiling)
 * [Question answering](question-answering)
 * [Reviewing code](reviewing-code)
 * [RFC](rfc)
