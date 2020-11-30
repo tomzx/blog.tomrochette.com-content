@@ -5,4 +5,7 @@ taxonomy:
     type: post
 ---
 
-* Do not do day trading in your TFSA or RRSP accounts
+* Do not do day trading in your TFSA/RRSP/RESP accounts
+
+# References
+* https://investingbasics.ca/guides/day-trading/#2--how-to-start-day-trading-
