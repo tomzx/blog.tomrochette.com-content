@@ -14,6 +14,7 @@ Notice/Advisory: I am not an accountant nor a day trader. The following is not a
 	* Type of securities owned
 	* Your profession and level of stock market knowledge
 	* If trading is your main source of income or substantially supplements it
+		* Here it is not clear what substantially represents. I would estimate that anything below 25% of your non-trading income isn't substantial.
 * If you want to day trade, you will want to have access to level 2 data, which costs money depending on your broker
 	* Some brokers will reimburse your data package fees if you spend a certain amount of money on commissions each month. For example, Questrade data package will cost you 90$/month, but if you spend over 400$ on commissions this fee will be rebated.
 * You do not need to register with the government or any agency
