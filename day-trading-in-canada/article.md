@@ -7,6 +7,8 @@ taxonomy:
 
 Notice/Advisory: I am not an accountant nor a day trader. The following is not advice, only notes I've taken for myself. Content may be wrong or inaccurate. Use at your own risk.
 
+The following is a list of items and things to think about if you would like to be a day trader. I wrote it with the intent of identifying what were the requirements to be a day trader and what would be the impacts of being considered as one vs being an investor.
+
 * Basics
 	* Computer or phone
 	* Internet
