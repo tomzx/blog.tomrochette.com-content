@@ -25,3 +25,4 @@ It is not clear to me how this applies when you have different types of accounts
 # References
 * https://www.adjustedcostbase.ca/blog/what-is-the-superficial-loss-rule/
 * https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/personal-income/line-127-capital-gains/capital-losses-deductions/what-a-superficial-loss.html
+* https://canadiancouchpotato.com/2020/10/22/how-to-avoid-superficial-losses/
