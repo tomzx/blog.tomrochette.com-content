@@ -18,6 +18,7 @@ Notice/Advisory: I am not an accountant nor a day trader. The following is not a
 	* Some brokers will reimburse your data package fees if you spend a certain amount of money on commissions each month. For example, Questrade data package will cost you 90$/month, but if you spend over 400$ on commissions this fee will be rebated.
 * You do not need to register with the government or any agency
 * You do not need a minimal amount of money, although it is suggested to have a few thousands dollars otherwise you will not make a lot of profit daily and your commissions fees are likely to eat any profit you will make
+	* Some brokers have minimum account balance
 
 # References
 * https://investingbasics.ca/guides/day-trading/#2--how-to-start-day-trading-
