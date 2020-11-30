@@ -13,7 +13,7 @@ taxonomy:
 	* Your profession and level of stock market knowledge
 	* If trading is your main source of income or substantially supplements it
 * If you want to day trade, you will want to have access to level 2 data, which costs money depending on your broker
-	* Some brokers will reimburse your data access fees if you spend a certain amount of money on commission each month
+	* Some brokers will reimburse your data package fees if you spend a certain amount of money on commissions each month. For example, Questrade data package will cost you 90$/month, but if you spend over 400$ on commissions this fee will be rebated.
 
 # References
 * https://investingbasics.ca/guides/day-trading/#2--how-to-start-day-trading-
