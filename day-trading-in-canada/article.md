@@ -35,3 +35,4 @@ The following is a list of items and things to think about if you would like to 
 
 # References
 * https://investingbasics.ca/guides/day-trading/#2--how-to-start-day-trading-
+* https://www.wealthsimple.com/en-ca/learn/how-to-start-day-trading
