@@ -5,7 +5,7 @@ taxonomy:
     type: post
 ---
 
-Notice/Advisory: I am not an accountant nor a day trader. The following is not advice, only notes I've taken for myself. Use at your own risk.
+Notice/Advisory: I am not an accountant nor a day trader. The following is not advice, only notes I've taken for myself. Content may be wrong or inaccurate. Use at your own risk.
 
 * Do not do day trading in your TFSA/RRSP/RESP accounts
 * Your gains/losses will either be categorized as capital gains (50% taxable) or business income (100% taxable) based on how you trade. In any case, since this is a day trading article, you can assume this will be business income. Here are some properties taken into account
