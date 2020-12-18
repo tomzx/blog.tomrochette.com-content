@@ -1,5 +1,5 @@
 ---
-title: Day trading in canada
+title: Day trading in Canada
 created: 2020-11-29
 taxonomy:
     type: post
