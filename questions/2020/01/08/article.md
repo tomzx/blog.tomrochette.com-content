@@ -1,5 +1,5 @@
 ---
-title: Will an AGI be superior to a large group of individuals
+title: Will an AGI be superior to a large group of individuals?
 created: 2020-01-08
 routes:
   aliases:
