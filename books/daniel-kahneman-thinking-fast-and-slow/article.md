@@ -383,7 +383,7 @@ taxonomy:
 
 ### Loss Aversion
 * In mixed gambles, where both a gain and a loss are possible, loss aversion causes extremely risk-averse choices
-* In bad choices, where a suer loss is compared to a larger loss that is merely probable, diminishing sensitivity causes risk seeking
+* In bad choices, where a sure loss is compared to a larger loss that is merely probable, diminishing sensitivity causes risk seeking
 
 ### Blind Spots of Prospect Theory
 * The problem is that regret theories make few striking predictions that would distinguish them from prospect theory, which has the advantage of being simpler
