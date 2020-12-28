@@ -9,6 +9,7 @@ taxonomy:
 # TODO
 * How to address the beginning with noise?
 * How to address the creation of time?
+* How do we fit backpropagation in this?
 
 # Genesis
 In the beginning there was noise. All weights were randomly initialized. Then came the architecture. As the weight themselves were pure chaos, the architecture organized the chaos. But the chaos still remained. As time began to move forward, so did the chaos began to organize.
