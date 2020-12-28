@@ -361,7 +361,7 @@ taxonomy:
 * The main benefit of optimism is resilience in the face of setbacks
 
 ### The Premortem: A Partial Remedy
-* When the organization has almost come to an important decision but has not formally commited itself, Klein proposes gathering for a brief session a group of individuals who are knowledgeable about the decision. The premise of the session is a short speech: "Imagine that we are a year into the future. We implemented the plan as it now exists. The outcome was a disaster. Please take 5 to 10 minutes to write a brief history of that disaster."
+* When the organization has almost come to an important decision but has not formally committed itself, Klein proposes gathering for a brief session a group of individuals who are knowledgeable about the decision. The premise of the session is a short speech: "Imagine that we are a year into the future. We implemented the plan as it now exists. The outcome was a disaster. Please take 5 to 10 minutes to write a brief history of that disaster."
 * The premortem has two main advantages:
 	* it overcomes the groupthink that affects many teams once a decision appears to have been made
 	* it unleashes the imagination of knowledgeable individuals in a much-needed direction
