@@ -5,3 +5,6 @@ taxonomy:
   category: [Machine learning]
   status: draft
 ---
+
+# Genesis
+In the beginning there was noise. All weights were randomly initialized
