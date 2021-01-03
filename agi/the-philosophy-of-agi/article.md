@@ -45,6 +45,7 @@ Part of the reason I write this, is to understand how an AGI goes through the pr
 # Unsorted
 * One knows as much as there is to learn through (supervised) learning
 * Observe as many examples as you can in order to produce the most accurate model
+* As a fixed size neural network, we have a limited amount of learning possible. We may either learn to overfit a domain (learn a specialty) or prefer to generalize better (become a generalist)
 
 * Why is it that it is so difficult for us to abandon the way we do things so that we may do them in a radically different way?
 	* Is it because our current way has proven itself to work for so long that there's no reason to believe that the other way would be even more successful? Or that it's not worth trading what was acquired to learn something new that, in the end, will only be a trade-off (moving from one local minima to another)?
