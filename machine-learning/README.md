@@ -13,7 +13,7 @@ Feel free to leave me comments, questions and feedback through [github issues](h
 Tom
 
 # Articles
-* [Basics](basics)
+* [Basics](basics/article.md)
 * [Concept map](https://github.com/tomzx/machine-learning-concept-map)
 * [Components of a machine learning project](components-of-a-ml-project)
 * [Daily log](daily-log) A list of journal entries that I write while learning about machine learning. They help me summarize my learning as well as identify where my understanding might be lacking.
