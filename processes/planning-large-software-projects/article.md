@@ -5,6 +5,9 @@ taxonomy:
   type: post
   category: [Software development, Processes]
   status: draft
+  tag:
+	- software
+	- projects
 ---
 
 * List all the features you would like to develop
