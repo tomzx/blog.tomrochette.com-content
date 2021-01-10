@@ -5,6 +5,8 @@ taxonomy:
   type: post
   category: [Processes]
   status: draft
+  tag:
+    - habits
 ---
 
 * Decide what habit you want to have and record why you want this habit
