@@ -6,8 +6,8 @@ taxonomy:
   category: [Software development, Processes]
   status: draft
   tag:
-	- software
-	- projects
+    - software
+    - projects
 ---
 
 * List all the features you would like to develop
