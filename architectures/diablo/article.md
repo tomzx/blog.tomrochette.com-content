@@ -1,3 +1,14 @@
+---
+title: Diablo
+created: 2018-12-29
+taxonomy:
+    type: post
+    status: draft
+    category: General
+    tag:
+        - games
+---
+
 A table of probabilities is built
 The ratio 1/drop chance is used to compute a total drop chance
 A number is generated in the range 0-total drop chance
