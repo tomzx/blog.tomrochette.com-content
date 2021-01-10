@@ -9,7 +9,7 @@ taxonomy:
 
 I'm a programmer. I like to write code and whenever I can, I like to reuse bits of code I've written in the past instead of writing it from scratch.
 
-Lately I've been spending a lot of my time thinking. However, unlikely programming, I feel that my writing is repetitive and that I sometimes don't make any progress with my ideas. Oh how I wished writing was more like programming.
+Lately I've been spending a lot of my time thinking. However, unlike programming, I feel that my writing is repetitive and that I sometimes don't make any progress with my ideas. Oh how I wished writing was more like programming.
 
 There's many ways one can write. You have the top-down approach, where you first lay out a plan of the topics you want to write about. You also have the bottom-up approach, where you write things as they come to mind, sometimes rearranging the content. Generally, when I write, it is to dump what is on my mind about a certain topic, so it is very much like the bottom-up approach. However, the thing I dislike about it is that you can end up with subtle similar sections of content, but not know about it. You actually need to go through all of your writing to discover these bits of duplicate writing. That's a lot similar to writing code and sometimes finding out you have functions/methods that do almost the same thing...
 
