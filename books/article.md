@@ -91,3 +91,4 @@ taxonomy:
 * Transform Your Habits
 * Statistics Done Wrong: The Woefully Complete Guide
 * Shape Up: Stop Running in Circles and Ship Work that Matters
+* The Richest Man in Babylon
