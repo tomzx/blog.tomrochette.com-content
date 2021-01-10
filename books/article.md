@@ -98,3 +98,4 @@ taxonomy:
 * Sapiens: A Brief History of Humankind
 * The One Thing: The Surprisingly Simple Truth Behind Extraordinary Results
 * Foundation
+* Essentialism: The Disciplined Pursuit of Less
