@@ -93,3 +93,4 @@ taxonomy:
 * Shape Up: Stop Running in Circles and Ship Work that Matters
 * The Richest Man in Babylon
 * The Signal and the Noise: Why So Many Predictions Fail—But Some Don't
+* Rich Dad, Poor Dad
