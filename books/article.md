@@ -102,3 +102,4 @@ taxonomy:
 * The Unicorn Project
 * What Is Life? with Mind and Matter and Autobiographical Sketches
 * A.I. Apocalypse
+* The Great Mental Models: General Thinking Concepts
