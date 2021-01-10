@@ -103,3 +103,6 @@ taxonomy:
 * What Is Life? with Mind and Matter and Autobiographical Sketches
 * A.I. Apocalypse
 * The Great Mental Models: General Thinking Concepts
+
+# 2021
+* The Doomsday Calculation: How an Equation that Predicts the Future Is Transforming Everything We Know About Life and the Universe
