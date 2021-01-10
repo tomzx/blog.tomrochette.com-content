@@ -87,3 +87,4 @@ taxonomy:
 * Introduction to Time Series Forecasting with Python
 * Statistical Methods for Machine Learning
 * Effective Python: 59 Specific Ways to Write Better Python
+* Poke the Box
