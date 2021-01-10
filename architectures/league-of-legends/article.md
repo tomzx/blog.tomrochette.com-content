@@ -1,3 +1,14 @@
+---
+title: League of legends
+created: 2018-12-29
+taxonomy:
+    type: post
+    status: draft
+    category: General
+    tag:
+        - games
+---
+
 Client/server
 Per region servers
 Login/authentication server
