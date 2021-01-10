@@ -1,3 +1,14 @@
+---
+title: Starcraft
+created: 2018-12-29
+taxonomy:
+    type: post
+    status: draft
+    category: General
+    tag:
+        - games
+---
+
 Authentication/Login server
 Per game server
 - compute damage simulation
