@@ -89,3 +89,4 @@ taxonomy:
 * Effective Python: 59 Specific Ways to Write Better Python
 * Poke the Box
 * Transform Your Habits
+* Statistics Done Wrong: The Woefully Complete Guide
