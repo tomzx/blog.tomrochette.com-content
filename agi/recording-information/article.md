@@ -19,9 +19,9 @@ taxonomy:
 # Overview
 
 # Output
-* Handwriting: 30 wpm (43.2k/day) [^5]
+* Handwriting: 30 wpm [^5] (43.2k/day)
 * Sign: About half the rate of speech, thus 50-62 wpm [^6]
-* Typing: 50-80 wpm [^5] [^4]
+* Typing: 50-80 wpm [^5] [^4] (72- k/day)
 * Speech: 100-125 wpm for slide presentations, 150-160 wpm for audiobooks [^5]
 
 # Input
