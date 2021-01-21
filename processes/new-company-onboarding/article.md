@@ -5,8 +5,6 @@ taxonomy:
 	type: post
 	status: draft
 	category: General
-	tag:
-		- tag
 ---
 
 * Where to find the team documentation?
