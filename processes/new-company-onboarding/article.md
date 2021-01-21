@@ -2,9 +2,9 @@
 title: New company onboarding
 created: 2020-12-23
 taxonomy:
-	type: post
-	status: draft
-	category: General
+    type: post
+    status: draft
+    category: General
 ---
 
 * Where to find the team documentation?
