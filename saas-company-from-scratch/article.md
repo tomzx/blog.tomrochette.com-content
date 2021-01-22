@@ -10,7 +10,7 @@ SaaS TODO when starting from scratch
 * Get initial users
 * Get feedback from users
 	* Email
-	* Intercom
+	* Intercom/Zendesk/Drift/LiveAgent
 
 * Find your company name
 * Incorporate
