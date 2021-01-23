@@ -150,7 +150,7 @@ taxonomy:
 * If you can't explain it simply, you don't understand it well enough
 * Introduce an additional term to your calculations that penalizes more complex solutions. If we introduce a complexity penalty, then more complex models need to do not merely a better job but a significantly better job of explaining the data to justify their greater complexity
 	* Computer scientists refer to this principle - using constraints that penalize models for their complexity - as Regularization
-* LIving organisms get a certain push toward simplicity almost automatically, thanks to the constraints of time, memory, energy, and attention. The burden of metabolism, for instance, acts as a brake on the complexity of organisms, introducing a caloric penalty for overly elaborate machinery
+* Living organisms get a certain push toward simplicity almost automatically, thanks to the constraints of time, memory, energy, and attention. The burden of metabolism, for instance, acts as a brake on the complexity of organisms, introducing a caloric penalty for overly elaborate machinery
 * Neuroscientists have suggested that brains try to minimize the number of neurons that are firing at any given moment
 * Language forms yet another natural Lasso: complexity is punished by the labor of speaking at greater length and the taxing of our listener's attention span
 
