@@ -106,7 +106,7 @@ taxonomy:
 
 ### Drop Everything: Preemption and Uncertainty
 * The weighted version of Shortest Processing Time is a pretty good candidate for best general-purpose scheduling strategy in the face of uncertainty
-	* Each time a new piece of work comes in, divide its important by the amount of time it will take to complete. If that figure is higher than for the task you're currently doing, switch to the new one; otherwise stick with the current task
+	* Each time a new piece of work comes in, divide its importance by the amount of time it will take to complete. If that figure is higher than for the task you're currently doing, switch to the new one; otherwise stick with the current task
 
 ### Preemption Isn't Free: The Context Switch
 * A friend of ours who writes software says that the normal workweek isn't well suited to his workflow, since for him sixteen-hour days are more than twice as productive as eight-hour days
