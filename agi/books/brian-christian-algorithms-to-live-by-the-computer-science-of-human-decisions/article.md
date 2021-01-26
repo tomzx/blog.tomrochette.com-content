@@ -266,7 +266,7 @@ taxonomy:
 * Sealed-bid first-price auction: Each participant write down their bid in secret, and the one whose bid is the highest wins the item for whatever price they wrote down
 * Dutch auction: Gradually lower an item's price until someone is willing to buy it
 * English auction: Bidders alternate raising the price until all but one of them drop out
-* Something very important happens once somebody decides to follow blindly his predecessors independently of his own information signal, and that is that his action becomes uninformative to all later decision makes. Now the public pool of information is no longer growing. That welfare benefit of having public information... has ceased
+* Something very important happens once somebody decides to follow blindly his predecessors independently of his own information signal, and that is that his action becomes uninformative to all later decision makers. Now the public pool of information is no longer growing. That welfare benefit of having public information... has ceased
 * Investors are said to fall into two broad camps:
 	* Fundamental: trade on what they perceive as the underlying value of a company
 	* Technical: trade on the fluctuations of the market
