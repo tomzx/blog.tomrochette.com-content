@@ -6,7 +6,7 @@ taxonomy:
   category: [Software development, Processes]
   status: draft
   tag:
-    - software
+    - software development
     - projects
 ---
 
