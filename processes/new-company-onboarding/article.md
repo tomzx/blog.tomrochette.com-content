@@ -6,7 +6,7 @@ taxonomy:
   status: draft
   category: General
     tag:
-    - software
+    - software development
     - projects
 ---
 
