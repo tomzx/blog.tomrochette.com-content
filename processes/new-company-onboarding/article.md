@@ -4,10 +4,10 @@ created: 2020-12-23
 taxonomy:
   type: post
   status: draft
-  category: General
-    tag:
-    - software development
-    - projects
+  category: [Software development, Processes]
+  tag:
+  - software development
+  - projects
 ---
 
 * Where to find the team documentation?
