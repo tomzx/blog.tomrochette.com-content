@@ -284,7 +284,7 @@ taxonomy:
 * Three simple pieces of wisdom:
 	* There are cases where computer scientists and mathematicians have identified good algorithmic approaches that can simply be transferred over to human problems
 	* Knowing that you are using an optimal algorithm should be a relief even if you don't get the results you were looking for
-	* We can draw a clear line between problem that admit straightforward solutions and problems that don't
+	* We can draw a clear line between problems that admit straightforward solutions and problems that don't
 * If we have control over which situations we confront, we should choose the ones that are tractable
 * In the case of interviews, it seems that people preferred receiving a constrained problem, even if the constraints were plucked out of thin air, than a wide-open one
 * Computation is bad: the underlying directive of any good algorithm is to minimize the labor of thought
