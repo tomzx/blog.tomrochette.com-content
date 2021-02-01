@@ -31,7 +31,7 @@ taxonomy:
 * (p372) Neural complex: a small group of neurons
 * (p373) We want to shift the description of the brain state from the signal level to the symbol level
 * (p380) Perhaps several symbols can coexist in the same set of neurons by having different characteristic neural firing patterns
-* (p407) Conciousness is that property of a system that arises whenever there exist symbols in the system which obey triggering patterns
+* (p407) Consciousness is that property of a system that arises whenever there exist symbols in the system which obey triggering patterns
 * (p411) Turing suggests that above a certain level of complexity a qualitative difference appears, so that "super-critical" machines will be quite unlike the simple ones hitherto envisaged
 * (p417) One can ask a question and try to solve it a certain way, only to search for the solution forever, while formulating it another way would guarantee the search to terminate
 * One can compress a concept using other concepts (29 is prime is the same as saying that it cannot be decomposed into other previous primes)
