@@ -266,7 +266,7 @@ taxonomy:
 * (p458) The neuropsychologists David Milner and Melvyn Goodale have developed a sophisticated theory of vision that is built around this idea that one of the roles of consciousness is to permit voluntary and deliberate action
 * (p460) Conscious awareness is restricted to the ventral pathway while the dorsal stream governs the visual control of movement non-consciously
 * (p463) The retention of information is very impaired in the absence of consciousness
-* (p463) Greenwald, Draine, and Abrams experiment suggests another hypothesis about the function of conscious awareness - namely, that consciousness allows information to be explicitly retained and maintained. According to this hypothesis, information that is picked up non-consciously can indeed be deployed in relatively sophisticated tasks, but it can be used only within a very limited time horizon. Conscious information, in constrast, is more transferable and flexible
+* (p463) Greenwald, Draine, and Abrams experiment suggests another hypothesis about the function of conscious awareness - namely, that consciousness allows information to be explicitly retained and maintained. According to this hypothesis, information that is picked up non-consciously can indeed be deployed in relatively sophisticated tasks, but it can be used only within a very limited time horizon. Conscious information, in contrast, is more transferable and flexible
 * (p464) Two related ideas emerged about the function of consciousness
 	* Conscious awareness seems extremely important for planning and initiating action (as opposed to the online control of behavior, which can be carried out through non-conscious information processing)
 	* Concious information persists longer than non-conscious information
