@@ -1,5 +1,5 @@
 ---
-title: Keith A. Hoyes - 3D Simulation: the Key to A.I. (2007)
+title: "Keith A. Hoyes - 3D Simulation: the Key to A.I. (2007)"
 created: 2016-04-07
 taxonomy:
   category: [Artificial General Intelligence]
