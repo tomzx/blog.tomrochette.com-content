@@ -1,5 +1,5 @@
 ---
-title: Sercan Arik - Deep Voice 2: Multi-Speaker Neural Text-to-Speech (2017)
+title: "Sercan Arik - Deep Voice 2: Multi-Speaker Neural Text-to-Speech (2017)"
 created: 2017-06-01
 taxonomy:
   category: [Machine learning]
