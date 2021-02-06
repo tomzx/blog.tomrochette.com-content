@@ -1,5 +1,5 @@
 ---
-title: Nick Bostrom - Superintelligence: Paths, Dangers, Strategies - 2014
+title: "Nick Bostrom - Superintelligence: Paths, Dangers, Strategies - 2014"
 created: 2017-08-25
 taxonomy:
   category: [Artificial General Intelligence]
