@@ -2,8 +2,8 @@
 title: Handwriting recognition
 created: 2016-06-24
 taxonomy:
-	category: [Machine learning]
-	status: in progress
+  category: [Machine learning]
+  status: in progress
 ---
 
 ## Context
