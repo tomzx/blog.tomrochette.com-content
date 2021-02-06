@@ -1,5 +1,5 @@
 ---
-title: Eric Laukien - Feynman Machine: The Universal Dynamical Systems Computer (2016)
+title: "Eric Laukien - Feynman Machine: The Universal Dynamical Systems Computer (2016)"
 created: 2017-08-05
 taxonomy:
   category: [Machine learning]
