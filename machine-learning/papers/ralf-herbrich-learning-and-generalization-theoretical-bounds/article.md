@@ -1,5 +1,5 @@
 ---
-title: Ralf Herbrich - Learning and Generalization: Theoretical Bounds (2001)
+title: "Ralf Herbrich - Learning and Generalization: Theoretical Bounds (2001)"
 created: 2017-06-30
 taxonomy:
   category: [Machine learning]
