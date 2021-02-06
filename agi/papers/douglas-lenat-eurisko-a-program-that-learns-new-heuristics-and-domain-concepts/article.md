@@ -1,5 +1,5 @@
 ---
-title: EURISKO: A Program That Learns New Heuristics and Domain Concepts (1982)
+title: "EURISKO: A Program That Learns New Heuristics and Domain Concepts (1982)"
 created: 2016-04-15
 taxonomy:
   category: [Artificial General Intelligence]
