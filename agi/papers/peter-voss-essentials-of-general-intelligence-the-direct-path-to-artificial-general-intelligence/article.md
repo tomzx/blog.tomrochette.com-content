@@ -1,5 +1,5 @@
 ---
-title: Peter Voss - Essentials of General Intelligence: The Direct Path to Artificial General Intelligence (2007)
+title: "Peter Voss - Essentials of General Intelligence: The Direct Path to Artificial General Intelligence (2007)"
 created: 2016-03-03
 taxonomy:
   category: [Artificial General Intelligence]
