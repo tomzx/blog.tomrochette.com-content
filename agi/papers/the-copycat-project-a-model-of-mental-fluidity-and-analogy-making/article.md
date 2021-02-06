@@ -1,5 +1,5 @@
 ---
-title: The Copycat Project: A Model of Mental Fluidity and Analogy-Making
+title: "The Copycat Project: A Model of Mental Fluidity and Analogy-Making"
 created: 2016-05-23
 taxonomy:
   category: [Artificial General Intelligence]
