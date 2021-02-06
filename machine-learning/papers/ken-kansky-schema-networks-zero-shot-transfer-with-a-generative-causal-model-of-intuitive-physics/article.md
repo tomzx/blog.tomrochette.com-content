@@ -1,5 +1,5 @@
 ---
-title: Ken Kansky - Schema Networks: Zero-shot Transfer with a Generative Causal Model of Intuitive Physics (2017)
+title: "Ken Kansky - Schema Networks: Zero-shot Transfer with a Generative Causal Model of Intuitive Physics (2017)"
 created: 2017-06-22
 taxonomy:
   category: [Machine learning]
