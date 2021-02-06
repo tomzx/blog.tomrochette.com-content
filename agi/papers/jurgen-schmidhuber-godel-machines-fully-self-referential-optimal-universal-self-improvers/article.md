@@ -103,7 +103,7 @@ $$
 * Given any formalizable utility function $u$, and assuming consistency of the underlying formal system $\mathcal{A}$, any self-change of $p$ obtained through execution of some program switchprog identified through the proof of a target theorem is globally optimal in the following sense: the utility of starting the execution of the present switchprog is higher than the utility of waiting for the proof searcher to produce an alternative switchprog later
 
 # 5 Bias-Optimal Proof Search (BIOPS)
-(taken from [The New AI: General & Sound & Relevant for Physics](../jurgen-schmidhuber-the-new-ai-general-sound-relevant-for-physics))
+(taken from [The New AI: General & Sound & Relevant for Physics](../jurgen-schmidhuber-the-new-ai-general-sound-relevant-for-physics/article.md))
 * **Bias-optimal searchers:** Given is a problem class $\mathcal{R}$, a search space $\mathcal{C}$ of solution candidates (where any problem $r \in \mathcal{R}$ should have a solution in $\mathcal{C}$), a task dependent bias in form of conditional probability distribution $P(q|r)$ on the candidates $q \in \mathcal{C}$, and a predefined procedure that creates and tests any given $q$ on any $r \in \mathcal{R}$ within time $t(q, r)$ (typically unknown in advance).
 	* A searcher is n-bias-optimal ($n \ge 1$) if for any maximal total search $T_{max} > 0$ it is guaranteed to solve any problem $r \in \mathcal{R}$ if it has a solution $p \in \mathcal{C}$ satisfying $t(p, r) \le \frac{P(p|r)T_{max}}{n}$. It is bias-optimal if n = 1.
 * In phase ($i = 1, 2, 3, ...$) DO: FOR all self-delimiting proof techniques $w \in \mathcal{L}$ satisfying $P(w) \ge 2^{-i}$ DO:
@@ -140,7 +140,7 @@ $$
 * We think they better be
 
 # See also
-* [The New AI: General & Sound & Relevant for Physics](../jurgen-schmidhuber-the-new-ai-general-sound-relevant-for-physics)
+* [The New AI: General & Sound & Relevant for Physics](../jurgen-schmidhuber-the-new-ai-general-sound-relevant-for-physics/article.md)
 * [Blum's speedup theorem](https://en.wikipedia.org/wiki/Blum%27s_speedup_theorem)
 
 # References

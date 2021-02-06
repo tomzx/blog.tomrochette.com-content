@@ -24,4 +24,4 @@ Start unit testing the various parts of the code that are critical. To determine
 When writing unit tests, always aim to write a test case that covers the happy path first. You want to demonstrate that the functionality a class or function is supposed to provide is there first and foremost. Then you want to test its robustness and its ability to handle a variety of input cases. Given a large codebase, start by covering most of the code with the happy paths before you start to dig into the special cases.
 
 # References
-* [Writing tests](../../../../processes/writing-tests)
+* [Writing tests](../../../../processes/writing-tests/article.md)

@@ -56,5 +56,5 @@ If you've never done task management before, I suggest you do not start by apply
 * Tasks should not remain in the "in progress" state for extended periods of time. After approximately a week in that state, I would suggest re-evaluating whether this task is still in progress or should be moved back into the backlog, queue, scheduled or today state. The same should apply to the waiting and blocked states.
 
 # References
-* [Given that you define a return on investment (ROI) on a task, when should you stop working on a task and abandon it given its cost?](../../questions/2020/01/03)
-* [How do you prioritize things when there are so many of them competing against one another?](../../questions/2020/01/04)
+* [Given that you define a return on investment (ROI) on a task, when should you stop working on a task and abandon it given its cost?](../../questions/2020/01/03/article.md)
+* [How do you prioritize things when there are so many of them competing against one another?](../../questions/2020/01/04/article.md)

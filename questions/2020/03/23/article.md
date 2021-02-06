@@ -22,4 +22,4 @@ As you accumulate more and more processes, you will observe that there is a hier
 You will also observe that the completion of a process often will lead to the start of another one. Once you've established enough chains (sequences of processes), it will be easier to identify and do the processes.
 
 # References
-* [How can I be systematic in applying processes?](../12)
+* [How can I be systematic in applying processes?](../12/article.md)

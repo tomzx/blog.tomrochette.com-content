@@ -310,11 +310,11 @@ By observing the properties that can vary in the most common data structure, it 
 * "I need something that lets me add X"
 
 # See also
-* [Automated refactoring](../automated-refactoring)
+* [Automated refactoring](../automated-refactoring/article.md)
 * Program induction
 
 ## Papers
-* [DeepCoder: Learning to Write Programs](../../machine-learning/papers/matej-balog-deepcoder-learning-to-write-programs)
+* [DeepCoder: Learning to Write Programs](../../machine-learning/papers/matej-balog-deepcoder-learning-to-write-programs/article.md)
 
 # References
 * https://en.wikipedia.org/wiki/Automatic_programming

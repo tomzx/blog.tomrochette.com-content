@@ -82,7 +82,7 @@ Source:
 * https://en.wikipedia.org/wiki/Variable_number_tandem_repeat
 
 # See also
-* [Theory of self-reproducing automata](../books/theory-of-self-reproducing-automata)
+* [Theory of self-reproducing automata](../books/theory-of-self-reproducing-automata/article.md)
 
 # References
 [^1]: https://en.wikipedia.org/wiki/Human_genetic_variation

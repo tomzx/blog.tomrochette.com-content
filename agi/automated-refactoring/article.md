@@ -88,7 +88,7 @@ As a software project matures, its low level functions should require to be chan
 * Extract conditions block (logic specific to a state)
 
 # See also
-* [Clone detection](../clone-detection)
+* [Clone detection](../clone-detection/article.md)
 
 # References
 * https://www.jetbrains.com/resharper/features/code_refactoring.html

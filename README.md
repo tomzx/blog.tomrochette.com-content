@@ -8,6 +8,6 @@ If you find any typo or grammatical error, feel free to fill in an issue on [git
 
 ## License
 
-The content is licensed under the [Creative Commons Attribution-NonCommercial 4.0 International License](http://creativecommons.org/licenses/by-nc/4.0/). See [LICENSE](LICENSE).
+The content is licensed under the [Creative Commons Attribution-NonCommercial 4.0 International License](http://creativecommons.org/licenses/by-nc/4.0/). See [LICENSE](LICENSE/article.md).
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a>

@@ -22,5 +22,5 @@ If you need to make some decisions with a few people, then prepare the list of d
 Make sure that your meetings have an agenda. You will get a lot more out of your meeting because you will know the outcome you expect out of them.
 
 # References
-* [Meetings](../../../../../processes/meetings)
-* [What does a productive meeting look like?](../../02/11)
+* [Meetings](../../../../processes/meetings/article.md)
+* [What does a productive meeting look like?](../../02/11/article.md)

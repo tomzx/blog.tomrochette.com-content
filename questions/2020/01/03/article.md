@@ -25,6 +25,6 @@ Since you are updating your ROI estimate, you can also update your estimate of t
 Once you have adjusted the estimated effort and value, take a look at your estimated ROI. If it has gone below your threshold, consider dropping it. Investing additional time in it may provide less value than working on a new, more valuable task. If on the other hand, the ROI is still superior to your threshold, then continue working on the task.
 
 # References
-* [Task management](../../../../../processes/task-management)
+* [Task management](../../../../processes/task-management/article.md)
 * [Sunk cost fallacy](https://en.wikipedia.org/wiki/Sunk_cost)
 * [Algorithms to live by - Chapter on Optimal Stopping](https://www.goodreads.com/book/show/25666050-algorithms-to-live-by)

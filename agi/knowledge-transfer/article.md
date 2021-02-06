@@ -122,6 +122,6 @@ Say aloud what you want to transfer to a computer and use speech recognition sof
 Type down every bit of information you want to transfer into a computer software (custom software or text editor). The speed of the transfer highly depends on the UI of the software.
 
 # See also
-* [Knowledge base](../knowledge-base)
+* [Knowledge base](../knowledge-base/article.md)
 
 # References

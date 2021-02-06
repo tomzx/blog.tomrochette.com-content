@@ -86,7 +86,7 @@ Source: National Highway Institute
 * When studying a subject through a book, it's easy to recognize sections you've read through, however it is much more difficult to recall what the section contains, word for word
 
 # See also
-* [Senses](../senses)
+* [Senses](../senses/article.md)
 
 # References
 [^1]: http://www.dartmouth.edu/~acskills/docs/study_actively.doc

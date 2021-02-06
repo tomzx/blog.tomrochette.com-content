@@ -16,7 +16,7 @@ Entropy is an important concept to understand if one wishes to compress a functi
 
 If your goal is to get as much compression as possible and you are okay with losing information, then lossy compression will allow you to go past what lossless compression would give you.
 
-![](images/Binary_entropy_plot.svg)
+![](images/Binary_entropy_plot.svg/article.md)
 
 $$
 Η(X) = -\sum_{i} {\mathrm{P}(x_i) \log_b \mathrm{P}(x_i)}

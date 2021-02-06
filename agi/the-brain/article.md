@@ -84,7 +84,7 @@ taxonomy:
 	* Source: https://www.quora.com/How-powerful-is-the-brain-compared-to-a-computer
 
 # See also
-* [Senses](../senses)
+* [Senses](../senses/article.md)
 
 # References
 [^1]: http://mattmahoney.net/agi2.html

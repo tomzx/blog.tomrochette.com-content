@@ -22,4 +22,4 @@ The benefit of all those measurements is that they are scalar and thus ordinal, 
 Those values can be taken separately as one axis of intelligence. Taken together, they become a complex measurement of intelligence where there's no clear ordering between the different approaches. The agent with the "highest intelligence" is defined by the requirements of the environment: if energy sources are abundant in the environment, then using little energy is less important than using less time or space.
 
 # Reference
-* [Intelligence](../../../../agi/intelligence)
+* [Intelligence](../../../../agi/intelligence/article.md)

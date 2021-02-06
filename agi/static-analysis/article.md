@@ -33,7 +33,7 @@ taxonomy:
 * Track all methods signature (parameter types and return type)
 
 # See also
-* [PHP Analyzer](php-analyzer)
+* [PHP Analyzer](php-analyzer/article.md)
 
 # References
 [^1]: https://www.youtube.com/watch?v=I0KXjN67hkA

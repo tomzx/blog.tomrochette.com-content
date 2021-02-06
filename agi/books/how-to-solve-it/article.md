@@ -73,7 +73,7 @@ taxonomy:
 * Working backwards
 
 # See also
-* [The heuristic of George Polya and its relation to artificial intelligence](../../papers/allen-newell-the-heuristic-of-george-polya-and-its-relation-to-artificial-intelligence)
+* [The heuristic of George Polya and its relation to artificial intelligence](../../papers/allen-newell-the-heuristic-of-george-polya-and-its-relation-to-artificial-intelligence/article.md)
 
 # References
 * https://math.berkeley.edu/~gmelvin/polya.pdf

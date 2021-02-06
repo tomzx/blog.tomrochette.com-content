@@ -22,4 +22,4 @@ Items that appear to require more discussion than anticipated are noted and the 
 A list of actionable items is defined at the end of the meeting and responsibles are assigned to those items. Deadlines are also assigned to those items so that people can expect those items to be completed by the defined date.
 
 # References
-* [Meetings](../../../../../processes/meetings)
+* [Meetings](../../../../processes/meetings/article.md)

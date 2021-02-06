@@ -40,6 +40,6 @@ taxonomy:
 # Refactoring to MVC
 
 # See also
-* [Automated refactoring](../../agi/automated-refactoring)
+* [Automated refactoring](../../agi/automated-refactoring/article.md)
 
 # References

@@ -56,6 +56,6 @@ By the time I am writing this (July 2017), I have dedicated about 190 workdays (
 29h on automated testing
 
 # See also
-* [My path to AGI](../my-path-to-agi)
+* [My path to AGI](../my-path-to-agi/article.md)
 
 # References

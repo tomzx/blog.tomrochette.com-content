@@ -212,7 +212,7 @@ $$
 * What this suggests is that the same information processing mechanism is being applied across the neocortex, and that the variations in function across different regions are actually adaptations to the information passing through each region
 
 # See also
-* [General AI Challenge - Round 1](../../competitions/general-ai-challenge/round-1)
+* [General AI Challenge - Round 1](../../competitions/general-ai-challenge/round-1/article.md)
 
 # References
 * Legg, Shane. Machine super intelligence. Diss. Università della Svizzera italiana, 2008.

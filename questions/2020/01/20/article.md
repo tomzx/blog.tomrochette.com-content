@@ -24,4 +24,4 @@ In some cases you might ask yourself questions that you don't really want to kno
 One of the main reason a lot of questions remain unanswered is because asking questions is easy, but answering is hard.
 
 # References
-* [Answering your own questions](../12)
+* [Answering your own questions](../12/article.md)

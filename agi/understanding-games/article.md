@@ -94,7 +94,7 @@ If we look at the game from a reward/punishment point of view, we would reward t
 
 By providing the AGI with a couple of do/do not, it is possible for us to let it learn on its own through reinforcement learning.
 
-In my article [Mari/o](../mario), I write on the topic of Neuroevolution of augmenting topologies[^1]. NEAT is a genetic algorithm which goal is to generate and improve artificial neural networks in order to best respond to some selection criteria (generally a single evaluation metric).
+In my article [Mari/o](../mario/article.md), I write on the topic of Neuroevolution of augmenting topologies[^1]. NEAT is a genetic algorithm which goal is to generate and improve artificial neural networks in order to best respond to some selection criteria (generally a single evaluation metric).
 
 The algorithm works similarly to how a reinforcement algorithm would work, in the sense that it will promote genes/neural networks which better suit the goal given to it. In this particular exercise, the only reward that was given was based on how far Mario had moved to the right (toward the end of the level goal).
 

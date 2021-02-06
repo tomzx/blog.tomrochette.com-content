@@ -42,4 +42,4 @@ If at this point you still have many tasks that have the same ROI, you can first
 If you still have too many of your top ROI tasks with the same ROI value, my current approach cannot deal with this situation. It becomes a question of defining a higher level roadmap, determining which collection of features may have more impact than others, etc. It may also be possible to look into additional properties of the task, such as how long since they've been created and left incomplete.
 
 # References
-* [Task management](../../../../../processes/task-management)
+* [Task management](../../../../processes/task-management/article.md)

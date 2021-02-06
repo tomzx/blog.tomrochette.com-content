@@ -13,16 +13,16 @@ Feel free to leave me comments, questions and feedback through [github issues](h
 Tom
 
 # Articles
-* [Basics](basics)
+* [Basics](basics/article.md)
 * [Concept map](https://github.com/tomzx/machine-learning-concept-map)
-* [Components of a machine learning project](components-of-a-ml-project)
-* [Daily log](daily-log) A list of journal entries that I write while learning about machine learning. They help me summarize my learning as well as identify where my understanding might be lacking.
-* [Frameworks](frameworks)
-* [Handwriting recognition](handwriting-recognition)
-* [Optimizing PyTorch](optimizing-pytorch)
-* [Papers](papers)
-* [Separability metric](separability-metric)
-* [Tensorflow](tensorflow)
-* [Terminology](terminology)
-* [Time series](time-series)
-* [Writing papers](writing-papers)
+* [Components of a machine learning project](components-of-a-ml-project/article.md)
+* [Daily log](daily-log/article.md) A list of journal entries that I write while learning about machine learning. They help me summarize my learning as well as identify where my understanding might be lacking.
+* [Frameworks](frameworks/article.md)
+* [Handwriting recognition](handwriting-recognition/article.md)
+* [Optimizing PyTorch](optimizing-pytorch/article.md)
+* [Papers](papers/article.md)
+* [Separability metric](separability-metric/article.md)
+* [Tensorflow](tensorflow/article.md)
+* [Terminology](terminology/article.md)
+* [Time series](time-series/article.md)
+* [Writing papers](writing-papers/article.md)

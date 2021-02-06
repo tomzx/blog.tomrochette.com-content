@@ -65,10 +65,9 @@ The list of instruction then become a set of steps the machine will walk through
 ![](images/Self_improving_machine.png)
 
 # See also
-* [Seed AI](../seed-ai)
+* [Seed AI](../seed-ai/article.md)
 
 # References
 [^1]: https://en.wikipedia.org/wiki/Turing_machine
 
 * https://en.wikipedia.org/wiki/Automata_theory
-

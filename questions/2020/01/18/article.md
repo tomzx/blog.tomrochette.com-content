@@ -20,4 +20,4 @@ It is the creation of some "memory" of the observed samples. Whereas an untraine
 It is to imitate as closely as possible the source of data it is trained on. This means that given input variables, it should produce target values that are as close as possible to those observed during training (learning).
 
 # References
-* [Learning](../../../../agi/learning)
+* [Learning](../../../../agi/learning/article.md)

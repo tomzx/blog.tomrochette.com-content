@@ -56,7 +56,7 @@ taxonomy:
 * k = 4 was used for all games except Space Invaders (due to the beams not being visible on those frames)
 
 # See also
-* [Mari/o](../../../agi/mario): Conceptual use of the replay system
+* [Mari/o](../../../agi/mario/article.md): Conceptual use of the replay system
 
 # References
 * Mnih, Volodymyr, et al. "Playing atari with deep reinforcement learning." arXiv preprint arXiv:1312.5602 (2013).

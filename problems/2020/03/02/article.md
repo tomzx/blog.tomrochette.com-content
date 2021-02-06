@@ -32,4 +32,4 @@ I also use the [Script Commands](https://marketplace.visualstudio.com/items?item
 
 # References
 * [Visual Studio Marketplace - Run Me extension](https://marketplace.visualstudio.com/items?itemName=tomzx.run-me)
-* [Thoughts tracking](../../../../questions/2020/02/01)
+* [Thoughts tracking](../../../../questions/2020/02/01/article.md)

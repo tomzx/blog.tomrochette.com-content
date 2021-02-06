@@ -13,7 +13,7 @@ How can I be systematic in applying processes?
 # Answer
 The first step is to always make your processes explicit. Write the various steps you go through while doing something. First, simply write down those steps as you do them. Then indicate the dependencies between the steps. You may notice that some steps can be done earlier in the process if all their dependencies are already completed.
 
-As you write down more and more of your processes, make sure that you can easily refer to them. If possible, keep them in a centralized location where it is easy for you to edit them. In my case, I write [my processes](../../../../processes) in this blog.
+As you write down more and more of your processes, make sure that you can easily refer to them. If possible, keep them in a centralized location where it is easy for you to edit them. In my case, I write [my processes](../../../../processes/article.md) in this blog.
 
 When you begin doing something which you've never done before, create yourself a document and write down the steps you are doing as you do them. Once you are done with the task, save your document.
 
@@ -24,4 +24,4 @@ After you've established a process, you can simply open the process document and
 One benefit of making your processes explicit is that it allows you to stop doing them for an extended period of time. When you need to do them again, you can simply look at them again and know what you need to do. It is also beneficial if you work in a team where you could delegate some of those processes to other people.
 
 # References
-* [Reducing your error rate](../08)
+* [Reducing your error rate](../08/article.md)

@@ -179,7 +179,7 @@ Source: https://en.wikipedia.org/wiki/Andragogy
 	* Spend less time on learning (in other words, learn faster, more efficiently) so more time can be spent on producing value
 
 # See also
-* [The Strategic Student Approach for Life-Long Exploration and Learning](../../machine-learning/papers/manuel-lopes-the-strategic-student-approach-for-life-long-exploration-and-learning)
+* [The Strategic Student Approach for Life-Long Exploration and Learning](../../machine-learning/papers/manuel-lopes-the-strategic-student-approach-for-life-long-exploration-and-learning/article.md)
 
 # References
 [^1]: Pólya, George. How to Solve It: A New Aspect of Mathematical Method.

@@ -33,7 +33,7 @@ taxonomy:
 * It takes $n$ time to prioritize $n$ requirements, but because a ratio scale is used, it takes more time per decision than PG
 
 # See also
-* [An evaluation of methods for prioritizing software requirements](../an-evaluation-of-methods-for-prioritizing-software-requirements)
+* [An evaluation of methods for prioritizing software requirements](../an-evaluation-of-methods-for-prioritizing-software-requirements/article.md)
 
 # References
 

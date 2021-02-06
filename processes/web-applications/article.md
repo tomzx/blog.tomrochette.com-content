@@ -23,4 +23,4 @@ taxonomy:
 * Deployment
 
 # See also
-* [Software project basics](../software-project-basics)
+* [Software project basics](../software-project-basics/article.md)

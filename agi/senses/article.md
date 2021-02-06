@@ -56,7 +56,7 @@ In humans, the number of nerve fibers within the cochlear nerve averages around 
 
 # See also
 
-* [Recording information](../recording-information)
+* [Recording information](../recording-information/article.md)
 
 # References
 [^1]: http://www.clarkvision.com/articles/eye-resolution.html

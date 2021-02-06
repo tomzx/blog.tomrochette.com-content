@@ -26,5 +26,5 @@ Online compression would rely on a lookup dictionary with a most used recently r
 Offline compression would rely on the ability to make the most efficient use of the compute and memory available as this process would be time-constrained. It might be possible that the online and offline systems share information such that the online compressor can let the offline compressor know regions of data that might be ripe for recompression. In the case that both systems do not communicate, the offline system would likely benefit from knowing which regions have already been compressed to the fullest so that it spends most of its time processing data that was recently added. When it is done with this step, it can then attempt to increase the compression efficiency of all the data stored. Here again it should be able to make use of the differencing approach given that days will likely be highly similar. As such, we would expect the amount of space necessary to store a day to decrease drastically as more and more days of data are observed, possibly to the point where new days of data can be expressed as segments of previous days entirely.
 
 # References
-* [Compression](../../../../agi/compression)
+* [Compression](../../../../agi/compression/article.md)
 * [Rationale for a large text compression benchmark](https://cs.fit.edu/~mmahoney/compression/rationale.html)

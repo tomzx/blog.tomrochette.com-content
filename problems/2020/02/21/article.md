@@ -22,6 +22,6 @@ I initially built a very large concept map using [yEd](https://www.yworks.com/pr
 The approach has been to spend time to write down what I knew, create a node in the graph with the term, then try to associate it with other terms already in the graph. As I learned new terms I would add them to the graph. I would also dedicate a bit of time during the week to try to brain dump whatever I might have learned or I knew about that could be added to the graph. This is an iterative process, so the graph itself is never really completed. However given this graph, it is now possible to know what I have already explored and the areas where I need to do more exploration because my understanding is lacking.
 
 # References
-* [My AGI story](../../../../agi/my-agi-story)
-* [My path to AGI](../../../../agi/my-path-to-agi)
+* [My AGI story](../../../../agi/my-agi-story/article.md)
+* [My path to AGI](../../../../agi/my-path-to-agi/article.md)
 * [AGI Concept Map](https://github.com/tomzx/agi-concept-map)

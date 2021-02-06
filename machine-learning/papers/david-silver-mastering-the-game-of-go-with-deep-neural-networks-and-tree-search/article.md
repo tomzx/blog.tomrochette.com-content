@@ -22,7 +22,7 @@ taxonomy:
 * $v_\theta$: Value network, predicts the winner of games played by the RL policy network against itself
 
 # 1 Supervised Learning of Policy Networks
-* SL policy network $p_\sigma(a|s)$ alternates between convolutional layers and rectifier non-linearities (similar to what was done in [Playing Atari with Deep Reinforcement Learning](../volodymyr-mnih-playing-atari-with-deep-reinforcement-learning))
+* SL policy network $p_\sigma(a|s)$ alternates between convolutional layers and rectifier non-linearities (similar to what was done in [Playing Atari with Deep Reinforcement Learning](../volodymyr-mnih-playing-atari-with-deep-reinforcement-learning/article.md))
 * A final softmax layer outputs a probability distribution over all legal moves $a$
 * The policy network is trained to maximize the likelihood of choosing the human move $a$ when in state $s$
 * The SL policy network is 13 layers
@@ -50,7 +50,7 @@ taxonomy:
 	* an optimal solution so complex it appears infeasible to directly approximate using a policy or value function
 
 # See also
-* [The Future of Artificial Intelligence](../../../agi/presentations/the-future-of-artificial-intelligence): A presentation by Demis Hassabis which covers some of the content covered in this paper
+* [The Future of Artificial Intelligence](../../../agi/presentations/the-future-of-artificial-intelligence/article.md): A presentation by Demis Hassabis which covers some of the content covered in this paper
 
 # References
 * Silver, David, et al. "Mastering the game of Go with deep neural networks and tree search." Nature 529.7587 (2016): 484-489.

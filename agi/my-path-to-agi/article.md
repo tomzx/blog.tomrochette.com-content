@@ -12,7 +12,7 @@ taxonomy:
 
 # Preface
 
-If you are interested in a more digestible path through the same content I've experienced, I suggest you look up [my suggested path to AGI](../my-suggested-path-to-agi) article. It basically contains most of the stuff I've gone through myself, but it is organized in a constructive manner to a new comer (at least, in my opinion).
+If you are interested in a more digestible path through the same content I've experienced, I suggest you look up [my suggested path to AGI](../my-suggested-path-to-agi/article.md) article. It basically contains most of the stuff I've gone through myself, but it is organized in a constructive manner to a new comer (at least, in my opinion).
 
 If you have comments and suggestions, feel free to let me know through the comments!
 
@@ -90,7 +90,7 @@ John von Neumann
 * Tensorflow 2016-01
 
 ### PHP-Brain (2016-02 - ?)
-See [PHP-Brain](../prototypes/php-brain)
+See [PHP-Brain](../prototypes/php-brain/article.md)
 
 For about two weeks, I spent my time trying to find ways to do efficient string matching and document learning. The reason I wanted to do this was to attempt to learn language through examples. Provided with enough (hopefully valid) documents, it would be possible to assess if a given sentence is valid by matching it with previously seen sentences. It would also allow me to feed it a bunch of my chatlogs so that it may learn my vocabulary behavior and potentially predict what I would type next (basically autocompletion).
 
@@ -107,7 +107,7 @@ I began by designing a model-based brain, in other words, something that would l
 After playing with the idea for a while, I came across an issue: what should I do when a task may take several seconds, even maybe minutes or hours? It doesn't make sense to stop processing everything else until said task is complete. That is not a real time approach. Thus, it meant we'd have to implement some sort of system to do task preemption. PHP being a single threaded language, this would prove to be more complicated than I wanted to deal with. Thus, I decided to move to a language that would support multithreading, C#.
 
 ### Sharp-Brain (2016-03 - ?)
-See [Sharp-Brain](../prototypes/php-brain)
+See [Sharp-Brain](../prototypes/php-brain/article.md)
 
 The first thing I did when moving to C# was to build a complete body in an object oriented fashion. Body, head, brain, eyes, ears, nerves and so on. The head had eyes, which were attached to their own optic nerve, which would then connect to the brain. The brain was connected to a set of nerves, such as the optic nerve, which could be used either to receive or transmit data/signal.
 
@@ -317,7 +317,7 @@ Marek Rosa, Jan Feyereisl, The GoodAI Collective
 ### Knowledge base (2017-02)
 I wrote a polymer/javascript-based application which dealt with triples in order to manage knowledge. Everything is considered to be a node and nodes can be associated to one another through anonymous.
 
-See [Knowledge base](../knowledge-base).
+See [Knowledge base](../knowledge-base/article.md).
 
 ### Curriculum Learning (2017-04)
 Yoshua Bengio, Jérôme Louradour, Ronan Collobert, Jason Weston

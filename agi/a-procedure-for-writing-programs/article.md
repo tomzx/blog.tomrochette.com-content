@@ -66,6 +66,6 @@ Top-down consists in preparing the high-level structures and slowly drilling dow
 Bottom-up consists in writing down the low-level features that you will need. This can generally done if you already have a good idea of the different components you'll need to construct your overall program. I think of this approach as one you'd generally use if you know how to do certain things already but no library is available on hand.
 
 # See also
-* [Automated programming](../automated-programming)
+* [Automated programming](../automated-programming/article.md)
 
 # References

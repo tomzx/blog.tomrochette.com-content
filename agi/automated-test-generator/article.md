@@ -282,8 +282,8 @@ Not tested.
 * [nikic/PHP-Parser](https://github.com/nikic/PHP-Parser)
 
 # See also
-* [Automated programming](../automated-programming)
-* [Automated refactoring](../automated-refactoring)
+* [Automated programming](../automated-programming/article.md)
+* [Automated refactoring](../automated-refactoring/article.md)
 
 # References
 * http://cseweb.ucsd.edu/classes/sp00/cse231/report/node13.html

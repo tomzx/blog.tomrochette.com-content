@@ -17,7 +17,7 @@ In their book **Algorithms to live by**, Brian Christian and Tom Griffiths write
 
 > In a thrashing state, you’re making essentially no progress, so even doing tasks in the wrong order is better than doing nothing at all. Instead of answering the most important emails first — which requires an assessment of the whole picture that may take longer than the work itself — maybe you should sidestep that quadratic-time quicksand by just answering the emails in random order, or in whatever order they happen to appear on-screen.
 
-A lot of what I wrote in [How do you prioritize things when there are so many of them competing against one another?](../04) and [How can I organize all the webpages I never read?](../07) applies here, namely:
+A lot of what I wrote in [How do you prioritize things when there are so many of them competing against one another?](../04/article.md) and [How can I organize all the webpages I never read?](../07/article.md) applies here, namely:
 
 * Record your questions in a single location that you can search
 * Do not spend time answering questions you don't care about the answer
@@ -26,7 +26,7 @@ A lot of what I wrote in [How do you prioritize things when there are so many of
 	* Evaluate how valuable is a question's answer to you, and how much time you would be willing to spend to answer it
 * Look online for existing answers
 * Write down the answer to the question you asked yourself, you may ask the same question again in the future
-* [Answer one question per day](../../..)
+* [Answer one question per day](../../../article.md)
 
 I often joke around with colleagues at work that it's easier to generate dumb questions than it is to answer them appropriately. As such, don't spend your time on questions that are not worth answering.
 

@@ -31,7 +31,7 @@ $$
 H = -(p \log p + q \log q)
 $$
 
-![](images/Binary_entropy_plot.svg)
+![](images/Binary_entropy_plot.svg/article.md)
 
 ## 8 Representation of the encoding and decoding operations
 * A transducer can be described by two functions:
@@ -51,4 +51,3 @@ where
 # References
 * Shannon, Claude E. (October 1948). "A Mathematical Theory of Communication". Bell System Technical Journal 27 (4): 623–656. doi:[10.1002/j.1538-7305.1948.tb00917.x](https://dx.doi.org/10.1002%2Fj.1538-7305.1948.tb00917.x).
 * https://en.wikipedia.org/wiki/Binary_entropy_function
-

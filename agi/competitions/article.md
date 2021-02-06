@@ -6,4 +6,4 @@ taxonomy:
   status: in progress
 ---
 
-* [General AI Challenge](general-ai-challenge)
+* [General AI Challenge](general-ai-challenge/article.md)

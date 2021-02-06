@@ -81,7 +81,7 @@ Source: http://www.umiacs.umd.edu/~knkim/HowToPhd.htm
 Source: http://www.robertfeldt.net/advice/feldt_guide_to_starting_a_phd.pdf
 
 # See also
-* [Automated research](../automated-research)
+* [Automated research](../automated-research/article.md)
 
 # References
 * http://karpathy.github.io/2016/09/07/phd/

@@ -65,7 +65,7 @@ The next step after all this was put in place was to introduce the capability to
 
 # Post-mortem
 
-Overall the Sharp-Brain project was an interesting way to get familiar with the various nerves within the brain. It was also possible to discover certain particular aspects of real-time AI such as the requirement for the creation of `Thread` with a `Wait` method to prevent it from executing for too long. It was already assessed in the [PHP-Brain](../php-brain) project that this would be an important aspect of processing real-time information.
+Overall the Sharp-Brain project was an interesting way to get familiar with the various nerves within the brain. It was also possible to discover certain particular aspects of real-time AI such as the requirement for the creation of `Thread` with a `Wait` method to prevent it from executing for too long. It was already assessed in the [PHP-Brain](../php-brain/article.md) project that this would be an important aspect of processing real-time information.
 
 The processing model implemented in Sharp-Brain considered that the brain was a monolithic unit that would process all incoming signal as a single step. However, current cognition science separates the brain into 4 regions (called lobes): frontal, parietal, temporal and occipital. Each of these lobes are responsible for different things, such as the occipital lobe for processing visual information. This could point out to two potential models: processing multiple input at once (multithreaded signal processing instead of sequential) or splitting the brain into components which would then process information in parallel between them but sequentially internally.
 

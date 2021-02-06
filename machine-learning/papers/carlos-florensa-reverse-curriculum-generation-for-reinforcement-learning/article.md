@@ -42,7 +42,7 @@ taxonomy:
 * A limitation of the current approach is that it generates start states that grow from a single goal uniformly outwards, until they cover the original start state distribution $\text{Unif}(S^0)$
 
 # See also
-* [Mari/o](../../../agi/mario)
+* [Mari/o](../../../agi/mario/article.md)
 
 # References
 * Florensa, Carlos, et al. "Reverse Curriculum Generation for Reinforcement Learning." arXiv preprint arXiv:1707.05300 (2017).

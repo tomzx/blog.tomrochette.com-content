@@ -35,4 +35,4 @@ Here's a very simple template that you can use to define your processes
 * Mandatory/Optional: Is this process mandatory or optional in the accomplishment of the higher-level process?
 
 # References
-* [How do I improve my processes?](../../02/05)
+* [How do I improve my processes?](../../02/05/article.md)

@@ -301,7 +301,7 @@ Used to verify that a given function, with the given arguments, is properly call
 ![DataFlow Analysis](./assets/images/DataFlowAnalysis.png)
 
 # See also
-* [Static analysis](../)
+* [Static analysis](../article.md)
 
 # References
 * [PHP Analyzer](https://github.com/scrutinizer-ci/php-analyzer/tree/legacy)

@@ -103,6 +103,6 @@ taxonomy:
 * The connection problem: How to connect the solved auxiliary problem with the main problem
 
 # See also
-* [How to Solve It](../../books/how-to-solve-it)
+* [How to Solve It](../../books/how-to-solve-it/article.md)
 
 # References
