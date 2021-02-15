@@ -110,7 +110,7 @@ Let an ultraintelligent machine be defined as a machine that can far surpass all
 
 ### What Is Computation?
 * A computation is a transformation of one memory state into another
-* How can a clump of seemingly dumb matter computer a complicated function?
+* How can a clump of seemingly dumb matter compute a complicated function?
 	* It must exhibit complex dynamics so that its future state depends in some complicated way on the present state
 	* We want the system to have the property that if we put it in a state that encodes the input information, let it evolve according to the laws of physics for some amount of time, and then interpret the resulting final state as the output information, then the output is the desired function of the input
 * The fact that exactly the same computation can be performed on any universal computer means that computation is substrate-independent in the same way that information is: it can take on a life of its own, independent of its physical substrate
