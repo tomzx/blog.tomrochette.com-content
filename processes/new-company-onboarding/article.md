@@ -12,6 +12,7 @@ taxonomy:
 
 * Where to find the team documentation?
 * Team practices documentation
+* Common vocabulary, terminology, glossary
 * User definition, use cases, requirements
 * Where is the documentation to build projects?
 * One step build process
@@ -29,5 +30,5 @@ taxonomy:
 * Who are the core/principal/staff contributors?
 * What is the architecture of the system?
 * What is the database architecture?
-* Is it a monolith or micro-services?
+* Is the product a monolith or micro-services?
 * What (3rd party) tools are used?
