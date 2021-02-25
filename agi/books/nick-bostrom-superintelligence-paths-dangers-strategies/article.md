@@ -69,7 +69,7 @@ taxonomy:
 	* Translation: automated image analysis to turn raw scanning data into an interpreted three-dimensional model of relevant neurocomputational elements
 	* Simulation: hardware powerful enough to implement the resultant computational structure
 * The aim is not to create a brain simulation so detailed and accurate that one could use it to predict exactly what would have happened in the original brain if it had been subjected to a particular sequence of stimuli. Instead, the aim is to capture enough of the computationally functional properties of the brain to enable the resultant emulation to perform intellectual work
-* Knowing merely which neurons are connected with which is not enough. TO create a brain emulation one would also need to know which synapses are excitatory and which are inhibitory; the strength of the connections; and various dynamical properties of the axons, synapses, and dendritic trees
+* Knowing merely which neurons are connected with which is not enough. To create a brain emulation one would also need to know which synapses are excitatory and which are inhibitory; the strength of the connections; and various dynamical properties of the axons, synapses, and dendritic trees
 
 ### Biological cognition
 * A third path to greater-than-current-human intelligence is to enhance the function of biological brains
