@@ -135,12 +135,12 @@ taxonomy:
 * Nonhuman animals lack complex structured language; they are capable of no or only rudimentary tool use and tool construction; they are severely restricted in their ability to make long-term plans; and they have very limited abstract reasoning ability
 * The concept of quality superintelligence: it is intelligence of quality at least as superior to that of human intelligence as the quality of human intelligence is superior to that of elephants', dolphins', or chimpanzees'
 * A second way to illustrate the concept of quality superintelligence is by noting the domain-specific cognitive deficits that can afflict individual humans, particularly deficits that are not caused by general dementia or other conditions associated with wholesale destruction of the brain's neurocomputational resources
-* Such examples show that normal human adults have a raneg of remarkable cognitive talents that are not simply a function of possessing a sufficient amount of general neural processing power or even a sufficient amount of general intelligence: specialized neural circuitry is also needed
+* Such examples show that normal human adults have a range of remarkable cognitive talents that are not simply a function of possessing a sufficient amount of general neural processing power or even a sufficient amount of general intelligence: specialized neural circuitry is also needed
 
 ### Direct and indirect reach
 * We might say that speed superintelligence excels at tasks requiring the rapid execution of a long series of steps that must be performed sequentially while collective superintelligence excels at tasks admitting of analytic decomposition into parallelizable sub-tasks and tasks demanding the combination of many different perspectives and skill sets
 * In some domains, quantity is a poor substitute for quality
-* If we widen our purview to include superintelligent minds, we must countenance a likelihood of there being intellectual problems solvable only by superintelligence and intractiable to any ever-so-large collective of non-augmented humans
+* If we widen our purview to include superintelligent minds, we must countenance a likelihood of there being intellectual problems solvable only by superintelligence and intractable to any ever-so-large collective of non-augmented humans
 * We cannot clearly see what all these problems are, but we can characterize them in general terms. They would tend to be problems involving multiple complex interdependencies that do not permit of independently verifiable solution steps: problems that therefore cannot be in piecemeal fashion, and that might require qualitatively new kinds of understanding or new representational frameworks that are too deep or too complicated for the current edition of mortals to discover or use effectively
 
 ### Sources of advantage for digital intelligence
