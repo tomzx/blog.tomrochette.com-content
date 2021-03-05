@@ -164,7 +164,7 @@ taxonomy:
 	* Slow: A slow takeoff is one that occurs over some long temporal interval, such as decades or centuries
 	* Fast: A fast takeoff occurs over some short temporal interval, such as minutes, hours, or days
 	* Moderate: A moderate takeoff is one that occurs over some intermediary temporal interval, such as months or years
-* We can conceive the rate of increase in a system's intelligence as a (monotonically increasing) function of two variables: the amount of "optimization power" , or quality-weighted design effort, that is being applied to increase the system's intelligence, and the responsiveness of the system to the application of a given amount of such optimization power
+* We can conceive the rate of increase in a system's intelligence as a (monotonically increasing) function of two variables: the amount of "optimization power", or quality-weighted design effort, that is being applied to increase the system's intelligence, and the responsiveness of the system to the application of a given amount of such optimization power
 $$
 \text{Rate of change in intelligence} = \frac{\text{Optimization power}}{\text{Recalcitrance}}
 $$
