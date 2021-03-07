@@ -4,6 +4,9 @@ created: 2017-07-15
 taxonomy:
   category: [Computer Science]
   status: in progress
+  tag:
+    - curricula
+    - computer science
 ---
 
 In the following document, I try to explain to the best of my knowledge various topics that are presented in the [Computer Science Curricula 2013](https://github.com/tomzx/computer-science-curricula-2013). I attempt to rate my understanding of the topic on a scale of 1 to 5, where 1 is "no understanding" and 5 is "perfect understanding". This value is displayed in bracket in front of each statement I make.
