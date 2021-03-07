@@ -5,6 +5,7 @@ taxonomy:
     type: post
     category: General
     tag: [health, fitness]
+    tag: [health, fitness]z
     status: draft
 ---
 
