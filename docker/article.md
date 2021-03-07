@@ -4,6 +4,8 @@ created: 2018-06-07
 taxonomy:
   category: [DevOps]
   status: in progress
+  tag:
+    - docker
 ---
 
 ## Context
