@@ -1,8 +1,6 @@
 ---
 title: Bump online people threads to the top
 created: 2006-05-09T03:54:43-05:00
-Author: tomzx
-Permalink: /bump-online-people-threads-to-the-top/
 taxonomy:
     type: post
     category: Sites
