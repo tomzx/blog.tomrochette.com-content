@@ -1,8 +1,6 @@
 ---
 title: Serializing "anything" in C# using extensions
 created: 2011-06-05T04:22:07-05:00
-Author: tomzx
-Permalink: /serializing-anything-in-c-using-extensions/
 taxonomy:
     type: post
     category: Programming
