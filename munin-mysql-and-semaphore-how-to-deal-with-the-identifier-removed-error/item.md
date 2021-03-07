@@ -1,8 +1,6 @@
 ---
 title: "Munin, mysql and semaphore: how to deal with the \"identifier removed\" error"
 created: 2013-10-02T22:14:13-05:00
-Author: tomzx
-Permalink: /munin-mysql-and-semaphore-how-to-deal-with-the-identifier-removed-error/
 taxonomy:
     type: post
     category: Programming
