@@ -1,8 +1,6 @@
 ---
 title: Boot Camp and Windows install
 created: 2007-11-12T01:30:14-05:00
-Author: tomzx
-Permalink: /boot-camp-and-windows-install/
 taxonomy:
     type: post
     category: Computers
