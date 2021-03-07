@@ -2,8 +2,11 @@
 title: Brain organization
 created: 2018-02-10
 taxonomy:
-  category: []
-  status: in progress
+  type: post-wip
+  status: draft
+  category: General
+  tag:
+    - productivity
 ---
 
 ## Context
