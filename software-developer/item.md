@@ -1,8 +1,6 @@
 ---
 title: Software developer
 created: 2009-04-26T22:53:36-05:00
-Author: tomzx
-Permalink: /software-developer/
 taxonomy:
     type: post
     category: [Computers, Philosophy]
