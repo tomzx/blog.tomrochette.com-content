@@ -2,11 +2,12 @@
 title: Fitness trackers
 created: 2015-11-07
 taxonomy:
-    type: post
-    category: General
-    tag: [health, fitness]
-    tag: [health, fitness]z
-    status: draft
+  type: post
+  category: General
+  status: draft
+  tag:
+    - health
+    - fitness
 ---
 
 ## Context
