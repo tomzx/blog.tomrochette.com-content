@@ -4,6 +4,7 @@ created: 2018-05-11
 taxonomy:
   category: [Programming]
   status: in progress
+  tag: [programming, productivity]
 ---
 
 ## Context
