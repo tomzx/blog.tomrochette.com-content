@@ -1,12 +1,10 @@
 ---
 title: 2012 ManicTime review
 created: 2013-01-05T08:12:11-05:00
-Author: tomzx
-Permalink: /2012-manictime-review/
 taxonomy:
-    type: post
-    category: General
-    tag: [productivity, time management, manictime]
+  type: post
+  category: General
+  tag: [productivity, time management, manictime]
 ---
 
 As 2012 ended, I wanted to take a look back at this year and review my computer usage/consumption in order to reduce time wasting activity. That time should be channeled into more meaningful activities like learning a new language, improving my current skills, practicing piano and more.
