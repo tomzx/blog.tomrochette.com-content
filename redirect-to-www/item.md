@@ -1,8 +1,6 @@
 ---
 title: Redirect to www
 created: 2006-06-04T06:28:16-05:00
-Author: tomzx
-Permalink: /redirect-to-www/
 taxonomy:
     type: post
     category: Sites
