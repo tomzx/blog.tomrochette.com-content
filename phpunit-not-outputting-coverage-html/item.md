@@ -1,9 +1,6 @@
 ---
 title: PHPUnit not outputting coverage-html
 created: 2011-10-25T01:31:45-05:00
-Author: tomzx
-
-Permalink: /phpunit-not-outputting-coverage-html/
 taxonomy:
     type: post
     category: Programming
