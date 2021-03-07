@@ -1,8 +1,6 @@
 ---
 title: Firefox being slow?
 created: 2006-12-26T11:47:15-05:00
-Author: tomzx
-Permalink: /firefox-being-slow/
 taxonomy:
   type: post
   category: Software
