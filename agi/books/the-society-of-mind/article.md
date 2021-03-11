@@ -79,8 +79,8 @@ Marvin Minsky's *The Society of Mind* is the epitome of connectionism[^connectio
 
 ## 17.9 Different Spans of Memories
 * Parent-to-child and child-to-parents bonds based on certain types of memory
-* The child (animals) learns through "impriting" to recognize their parents
-* The parents (animals) reject children with which they were not involved in bonding shortly after birty; it's an evolutionary disadvantage to raise the offspring of unrelated individuals
+* The child (animals) learns through "imprinting" to recognize their parents
+* The parents (animals) reject children with which they were not involved in bonding shortly after birth; it's an evolutionary disadvantage to raise the offspring of unrelated individuals
 * Individuals either bond with a mate "for life" or to certain constant prototypes
 
 ## 17.10 Intellectual Trauma
