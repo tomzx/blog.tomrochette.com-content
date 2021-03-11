@@ -19,13 +19,13 @@ taxonomy:
 * What is entailed by the idea that instead of perceiving through time, we perceive through frequency?
 
 # Overview
-* 4 basic arithmetic operations: addition, substraction, multiplication, division
+* 4 basic arithmetic operations: addition, subtraction, multiplication, division
 * A branching/transfer operation
 
 # Notes
 * (p1) Two classes of machines: analog and digital.
 * (p2) Organs/Components are required to manipulate the numbers according to a plan (to compute).
-These organs must be able to perform the 4 basic operations of mathematics (addition, substraction, multiplication and division).
+These organs must be able to perform the 4 basic operations of mathematics (addition, subtraction, multiplication and division).
 * (p11) The intention of the user is impressed on the machine (called "setting up"). In both the mechanical and electrical machines, the intention was always a fixed setting for the entire duration of a problem.
 * (p14) Due to the "only one organ for each operation" principle, there is a need for a special organ/component that will store numbers. It is referred as the "memory register", where the number of register in a memory is the capacity of that memory.
 * (p29-30) Organs which perform the basic logical actions: sense coincidences, combine stimuli and sense anticoincidences.
