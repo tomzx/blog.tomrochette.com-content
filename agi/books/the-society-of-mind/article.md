@@ -86,7 +86,7 @@ Marvin Minsky's *The Society of Mind* is the epitome of connectionism[^connectio
 ## 17.10 Intellectual Trauma
 * *I simply can't. I'm just no good at that.*
 	* A learned way to avoid the shame and stress that came from social censure of failures in the past
-	* It might also be a reaction to the nonsocial sterss that came from having been unable to deal with certain ideas
+	* It might also be a reaction to the nonsocial stress that came from having been unable to deal with certain ideas
 
 ## 18.1 Must Machines Be Logical?
 * A logical system without a goal will merely generate an endless host of pointless truths
