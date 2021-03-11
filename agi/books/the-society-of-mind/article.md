@@ -54,12 +54,12 @@ Marvin Minsky's *The Society of Mind* is the epitome of connectionism[^connectio
 
 # Notes
 ## 7.3 The Puzzle Principle
-**Puzzle Principle:** We can program a computer to solve anyt problem by trial and error, without knowing how to solve it in advance, provided only that we have a way to recognize the problem is solved.
+**Puzzle Principle:** We can program a computer to solve any problem by trial and error, without knowing how to solve it in advance, provided only that we have a way to recognize the problem is solved.
 
 ## 7.4 Problem Solving
 **The Progress Principle:** Any process of exhaustive search can be greatly reduced if we possess some way to detect when "progress" has been made. Then we can trace a path toward a solution, just as a person can climb an unfamiliar hill in the dark - by feeling around, at every step, to find the direction of steepest ascent.
 
-**Goals and Subgoals.** The most powerful way we know for discoverying how to solve a hard problem is to find a method that splits it into several simpler ones, each of which can be solved separately.
+**Goals and Subgoals.** The most powerful way we know for discovering how to solve a hard problem is to find a method that splits it into several simpler ones, each of which can be solved separately.
 
 **Using Knowledge.** The most efficient way to solve a problem is to already know how to solve it. Then one can avoid search entirely.
 
