@@ -111,14 +111,14 @@ Marvin Minsky's *The Society of Mind* is the epitome of connectionism[^connectio
 ## 18.9 Robustness and Recovery
 **Duplication:** Duplicate functionality so that if some part of the agents duplicating this functionality are lost, the others can take over.
 **Self-Repair:** Be able to repair a faulty section if needed.
-**Distributed Processes:** Distribute the function over many area, such that if a portition is destroyed, not all of it is destroyed.
+**Distributed Processes:** Distribute the function over many area, such that if a portion is destroyed, not all of it is destroyed.
 **Accumulation:** Work is based on previous experience, such that if newer experience is lost, we can still proceed from older experience.
 
 ## 19.1 The Roots of Intention
 * Words are like notes, alone they're not much, but together they form sentences, and thus meaning
 * Where do intentions come from? What do they emerge from?
 
-## 19.3 Wordes and Ideas
+## 19.3 Words and Ideas
 * Polynemes are similar to neural networks which are encapsulated in their own little black box
 	* Such black box might be called "Color", "Shape", "Smell", "Taste", etc.
 	* When a signal is received by the black box, it will configure itself to output a specific signal ("Color" -> "red", "Shape" => "round", etc.)
