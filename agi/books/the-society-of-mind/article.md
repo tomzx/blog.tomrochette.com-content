@@ -342,7 +342,7 @@ Marvin Minsky's *The Society of Mind* is the epitome of connectionism[^connectio
 ## 29.1 The Reals of Thought
 * We need to be able to describe things at many levels of detail.
 
-## 29.2 Several Thougts at Once
+## 29.2 Several Thoughts at Once
 * How can many different thoughts proceed at the same time without interfering with one another? The processes use agents that do not compete (are orthogonal to one another)
 
 ## 29.3 Paranomes
