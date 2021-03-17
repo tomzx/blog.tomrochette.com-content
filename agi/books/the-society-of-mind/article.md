@@ -275,7 +275,7 @@ Marvin Minsky's *The Society of Mind* is the epitome of connectionism[^connectio
 
 ## 25.4 The Sense of Continuity
 * We perceive continuity because that is how we model it internally
-* Conciousness comes not from ceaseless change of state, but from having enough stability to discern significant changes in our surroundings
+* Consciousness comes not from ceaseless change of state, but from having enough stability to discern significant changes in our surroundings
 
 ## 26.1 Understanding Words
 * How do we bring together scattered knowledge quickly?
@@ -309,7 +309,7 @@ Marvin Minsky's *The Society of Mind* is the epitome of connectionism[^connectio
 * We can imagine two poles of self-improvement
 	* We can try to stretch the range of the ideas we generate: this leads to more ideas, but also to more mistakes
 	* We can try to learn not to repeat mistakes we've made before
-* **Suppressor-agents** waits until you get a certain "bad idea." Then they prevent you from taking the corresponding action, and make you wait until you think of some alternative. If a suppresor could speak, it would say, "Stop thinking that!"
+* **Suppressor-agents** waits until you get a certain "bad idea." Then they prevent you from taking the corresponding action, and make you wait until you think of some alternative. If a suppressor could speak, it would say, "Stop thinking that!"
 * **Censor-agents** need not to wait until a certain bad idea occurs; instead, they intercept the states of mind that usually precede that thought. If a censor could speak, it would say, "Don't even begin to think that!"
 * It's easier to study what someone does - instead of what someone doesn't do
 
