@@ -57,12 +57,12 @@ Thus logics and mathematics in the central nervous system, when viewed as langua
 * (p48) Why has the digital notation never been used in nature, as far as we know, and why has this pulse notation been used instead? (in reference to neuron pulse)
 	* Suggested answer: the frequency modulation scheme is more reliable than the digital scheme
 * (p49) The memory requirements of the human nervous system are probably very large. Estimates have been made and they are of the order of 10^16 binary digits
-* (p49) The main difficulty with th memory organ is that it appears to be nowhere in particular
+* (p49) The main difficulty with the memory organ is that it appears to be nowhere in particular
 * (p49) A lesser degree of complexity in an automaton can be compensated for by an appropriate increase of complexity of the instructions
 	* Additional complexity is brought in by giving more elaborate instructions (separation of class types thus the avoidance of gödel incompleteness?)
 * (p57) If you look at automata which have been built by men or which exist in nature you will very frequently notice that their structure is controlled only partly by rigorous requirements and is controlled to a much larger extent by the manner in which they might fail and by the (more or less effective) precautionary measures which have been taken against their failure. And to say that they are precautions against failure is to overstate the case, to use an optimistic terminology which is completely alien to the subject. Rather than precautions against failure, they are arrangements by which it is attempted to achieve a state where at least a majority of all failures will not be lethal. All we can try to do is arrange an automaton so that in the vast majority of failures it can continue to operate
 * (p65) The human nervous system is roughly a million times more complicated than these large computing machines (ENIAC and IBM SSEC)
-* (p65) The time in which a human nerve can respond is about 1/2 millisecond. However thattime is not a fair measure of the speed of the neuron, because what matters is not the time in which the neuron responds, but the time in which it recovers, the time from one response to the next potential response. That time is, at best, 5 milliseconds
+* (p65) The time in which a human nerve can respond is about 1/2 millisecond. However that time is not a fair measure of the speed of the neuron, because what matters is not the time in which the neuron responds, but the time in which it recovers, the time from one response to the next potential response. That time is, at best, 5 milliseconds
 * (p65) Thus the nervous system has a million times as many components as these machines have, but each components of the machine is about 5 thousand times faster than a neuron
 * (p66) The thermodynamical minimum of energy per elementary act of information
 	* $3 \times 10^{-14} \mathrm{ergs}$ for the the thermodynamical minimum
@@ -77,7 +77,7 @@ Thus logics and mathematics in the central nervous system, when viewed as langua
 
 ## Re-evaluation of the problems of complicated automata - Problems of hierarchy and evolution
 * (p75) The medium which is fed to the automaton and which is produced by the automaton is completely different from the automaton. In fact, the automaton doesn't produce any medium at all; it merely modifies a medium which is completely different from it
-* (p75) Draw up a list of unambiguously defined elementary parts. Imagine that there is a pratically unlimited supply of these parts floating around in a large container. One can then imagine an automaton functioninig in the following manner: It also is floating around in this medium; it essential activity is to pick up parts and put them together, or, if aggregates of parts are found, to them them apart
+* (p75) Draw up a list of unambiguously defined elementary parts. Imagine that there is a practically unlimited supply of these parts floating around in a large container. One can then imagine an automaton functioning in the following manner: It also is floating around in this medium; it essential activity is to pick up parts and put them together, or, if aggregates of parts are found, to them them apart
 * (p77) I will introduce as elementary units neurons, a "muscle," entities which make and cut fixed contacts, and entities which supply energy
 * (p77) What principles are involved in organizing these elementary parts into functioning organisms, what are the traits of such organisms, and what are the essential quantitative characteristics of such organisms?
 * (p78) An object is of the highest degree of complexity if it can do very difficult and involved things
