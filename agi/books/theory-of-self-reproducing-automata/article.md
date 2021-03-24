@@ -115,7 +115,7 @@ Thus logics and mathematics in the central nervous system, when viewed as langua
 * (p92) Constructability: Can an automaton be constructed, i.e., assembled and built from appropriately defined "raw materials," by another automaton?
 * (p92) Construction-universality: Can any automaton be construction-universal, i.e., be able to construct every other automaton?
 * (p92) Self-reproduction: Can any automaton construct other automata that are exactly like it? Can it be made, in addition, to perform further tasks, e.g., also construct certain other, prescribed automata?
-* (p92) Evolution: Can the construction of automata by automata progress from simpler types to increasingly complicated types? Assuming some suitable definition of "efficiency," can this evolution go from less efficient to more efficient automata
+* (p92) Evolution: Can the construction of automata by automata progress from simpler types to increasingly complicated types? Assuming some suitable definition of "efficiency," can this evolution go from less efficient to more efficient automata?
 * (p93) Von Neumann considered five models of self-reproduction:
 	* The kinematic model: Deals with the geometric-kinematic problems of movement, contact, positioning, fusing, and cutting, but ignores problems of force and energy.
 		* Logical (switch) and memory (delay) elements: store and process information
