@@ -65,7 +65,8 @@ class NullDebugbar
 
 In `app/config/app.php`
 ```php
-
+    // under the 'providers' key, add
+    App\Providers\DebugbarServiceProvider::class,
 ```
 
 # References
