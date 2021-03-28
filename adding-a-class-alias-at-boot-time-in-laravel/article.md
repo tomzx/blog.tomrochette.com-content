@@ -12,7 +12,11 @@ taxonomy:
 
 I make extensive use of [Laravel Debugbar](https://github.com/barryvdh/laravel-debugbar) to track performance of parts of my application. I sprinkle calls to `Debugbar::startMeasure` and `Debugbar::stopMeasure` to track the duration of certain segments of my code. However, when this code goes into production, this dependency isn't present. This cause the code to break since it cannot find `Debugbar` anymore.
 
+To solve this issue, I thought I would create a dummy `Debugbar` class and have it added as an alias, so that any code depending on `Debugbar` would still work, but end up as a "no operation".
+
 ```php
+<?php
+
 use Illuminate\Foundation\AliasLoader;
 use My\SuperPackage\FooBar;
 
