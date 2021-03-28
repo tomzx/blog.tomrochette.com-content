@@ -30,7 +30,7 @@ HINT: remove __pycache__ / .pyc files and/or use a unique basename for your test
 ```
 
 # Solution
-Add a `__init__.py` to each directories with tests files that have the same name. Technically, you only to have a `__init__.py` file in one of the two directories, so that one is in a package while the other one is in a different one. Adding it in both simply prevents this issue from occurring again if you were to add a third file `test_a.py`.
+Add a `__init__.py` to each directories with tests files that have the same name. Technically, you only need to have a `__init__.py` file in one of the two directories, so that one is in a package while the other one is in a different one. Adding it in both simply prevents this issue from occurring again if you were to add a third file `test_a.py`.
 
 ```
 /path/to/project/tests
