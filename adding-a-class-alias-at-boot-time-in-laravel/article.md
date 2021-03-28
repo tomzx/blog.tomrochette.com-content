@@ -10,7 +10,7 @@ taxonomy:
     - laravel
 ---
 
-I make use of [Laravel Debugbar]()
+I make extensive use of [Laravel Debugbar](https://github.com/barryvdh/laravel-debugbar) to track performance of parts of my application.
 
 ```php
 use Illuminate\Foundation\AliasLoader;
