@@ -3,7 +3,7 @@ title: Adding a class alias at boot time in Laravel
 created: 2021-03-28
 taxonomy:
   type: post
-  status: draft
+  status: finished
   category: Programming
   tag:
     - php
