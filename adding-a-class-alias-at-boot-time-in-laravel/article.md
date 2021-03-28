@@ -66,8 +66,14 @@ class NullDebugbar
 In `app/config/app.php`
 ```php
     // under the 'providers' key, add
-    App\Providers\DebugbarServiceProvider::class,
+    'providers' => [
+        [...]
+        // This will take care of loading the service provider defined above
+        App\Providers\DebugbarServiceProvider::class,
+    ],
 ```
+
+With those two changes, it is now possible to make use of `Debugbar` in most places and have it work even without the Laravel Debugbar dependency installed.
 
 # References
 * https://laracasts.com/discuss/channels/laravel/dynamic-class-aliases-in-package
