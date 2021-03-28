@@ -36,7 +36,31 @@ In my desired use case, I simply implemented the following changes:
 
 In `app/Providers/DebugbarServiceProvider.php` (a new file)
 ```php
+<?php
 
+namespace App\Providers;
+
+use Illuminate\Foundation\AliasLoader;
+use Illuminate\Support\ServiceProvider;
+
+class DebugbarServiceProvider extends ServiceProvider
+{
+    public function register()
+    {
+        if (!class_exists('Debugbar')) {
+            $loader = AliasLoader::getInstance();
+            $loader->alias('Debugbar', NullDebugbar::class);
+        }
+    }
+}
+
+class NullDebugbar
+{
+    public static function __callStatic(string $name, array $arguments)
+    {
+        // Do nothing
+    }
+}
 ```
 
 In `app/config/app.php`
