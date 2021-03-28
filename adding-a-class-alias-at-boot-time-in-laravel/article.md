@@ -10,7 +10,7 @@ taxonomy:
     - laravel
 ---
 
-I make use of
+I make use of [Laravel Debugbar]()
 
 ```php
 use Illuminate\Foundation\AliasLoader;
