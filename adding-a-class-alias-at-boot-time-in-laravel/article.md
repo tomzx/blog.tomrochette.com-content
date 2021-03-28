@@ -32,5 +32,17 @@ class ServiceProvider extends \Illuminate\Support\ServiceProvider
 }
 ```
 
+In my desired use case, I simply implemented the following changes:
+
+In `app/Providers/DebugbarServiceProvider.php` (a new file)
+```php
+
+```
+
+In `app/config/app.php`
+```php
+
+```
+
 # References
 * https://laracasts.com/discuss/channels/laravel/dynamic-class-aliases-in-package
