@@ -16,5 +16,6 @@ taxonomy:
 	* You may do this by writing pseudo-code as you are explaining your thought process
 * Implement your solution
 	* If you encounter any difficulties, state them and explain what you are thinking
+	* Make use of preconditions/early exit if possible to handle empty cases
 * Run your code frequently, even if it is not fully working
 * Discuss any follow-up questions with the interviewers
