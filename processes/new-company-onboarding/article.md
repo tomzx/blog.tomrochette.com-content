@@ -10,25 +10,25 @@ taxonomy:
   - projects
 ---
 
-* Where to find the team documentation?
-* Team practices documentation
-* Common vocabulary, terminology, glossary
-* User definition, use cases, requirements
-* Where is the documentation to build projects?
-* One step build process
-* Access to CI/CD
-* Access to git central repository
+* Find the team documentation
+* Find team practices documentation
+* Find common vocabulary, terminology, glossary documents
+* Find user definition, use cases, requirements
+* Find the documentation to build projects
 * Access to slack
 * Installation of development tools/languages
-* Where to find the tasks being worked on?
-* Where to find the team roadmap?
-* Who prioritizes things?
+* Access to git central repository
+* Setup and run the one step build process
+* Access to CI/CD
+* Find where task management is done
+* Find the team roadmap
+* Determine how are features/tasks prioritized, who prioritizes features/tasks
 * Determine where I can have the biggest impact
 * Determine a timeline where I'll have reached my 80/20 at the company
-* What is the maturity of existing projects?
-* How fast can we iterate on certain aspects given the team/company composition?
-* Who are the core/principal/staff contributors?
-* What is the architecture of the system?
-* What is the database architecture?
-* Is the product a monolith or micro-services?
-* What (3rd party) tools are used?
+* Determine the maturity of existing projects
+* Determine fast can we iterate on certain aspects given the team/company composition
+* Identify the core/principal/staff contributors and their contributions
+* Review the architecture of the system
+* Review the database architecture
+* Determine whether the product is a monolith or micro-services
+* Identify which (3rd party) tools are used by the team/company
