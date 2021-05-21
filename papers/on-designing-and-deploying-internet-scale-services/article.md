@@ -109,3 +109,6 @@ taxonomy:
 			* Track all fault tolerance mechanisms
 			* Track operations against important entities
 			* Asserts
+			* Keep historical data
+	* Configurable logging
+	* Expose health information for monitoring
