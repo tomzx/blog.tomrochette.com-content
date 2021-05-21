@@ -53,4 +53,4 @@ taxonomy:
 	* Implement inter-service monitoring and alerting
 	* Dependent services require the same design point
 	* Decouple components
-* Testing in production is a reality and needs to be part of the quality assurance approach used by all
+* Testing in production is a reality and needs to be part of the quality assurance approach used by all internet-scale services
