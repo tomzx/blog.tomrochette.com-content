@@ -59,3 +59,4 @@ taxonomy:
 	* Data corruption or state-related failures have to be extremely unlikely (functional testing must first be passing)
 	* Errors must be detected and the engineering team (rather than operations) must be monitoring system health of the code in test
 	* It must be possible to quickly roll back all changes and this roll back must be tested before going into production
+* Big-bang deployments are very dangerous
