@@ -100,3 +100,6 @@ taxonomy:
 	* Instrument everything
 	* Data is the most valuable asset
 	* Have a customer view of service
+	* Instrument for production testing
+	* Latencies are the toughest problem
+	* Have sufficient production data
