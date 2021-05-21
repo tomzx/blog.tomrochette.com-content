@@ -60,3 +60,6 @@ taxonomy:
 	* Errors must be detected and the engineering team (rather than operations) must be monitoring system health of the code in test
 	* It must be possible to quickly roll back all changes and this roll back must be tested before going into production
 * Big-bang deployments are very dangerous
+* We favor deployment mid-day rather than at night
+* Some best practices for release cycle and testing include
+	* Ship often
