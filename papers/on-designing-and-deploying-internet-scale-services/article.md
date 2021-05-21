@@ -86,3 +86,4 @@ taxonomy:
 	* Use only standard SKUs
 	* Purchase full racks
 	* Write to hardware abstraction
+	* Abstract the network and naming
