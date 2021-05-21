@@ -76,3 +76,5 @@ taxonomy:
 			* Support version roll-back
 			* Maintain forward and backward compatibility
 			* Single-server deployment
+			* Stress test for load
+			* Perform capacity and performance testing prior to new releases
