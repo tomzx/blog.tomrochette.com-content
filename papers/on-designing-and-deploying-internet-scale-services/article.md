@@ -63,3 +63,7 @@ taxonomy:
 * We favor deployment mid-day rather than at night
 * Some best practices for release cycle and testing include
 	* Ship often
+	* Use production data to find problems
+		* A few strategies
+			* Measurable release criteria
+			* Tune goals in real time
