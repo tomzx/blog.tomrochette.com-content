@@ -82,3 +82,6 @@ taxonomy:
 			* Test with real data
 			* Run system-level acceptance tests
 			* Test and develop in full environments
+* Best practices for hardware selection include
+	* Use only standard SKUs
+	* Purchase full racks
