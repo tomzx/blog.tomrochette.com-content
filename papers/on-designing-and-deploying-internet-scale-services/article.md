@@ -103,3 +103,7 @@ taxonomy:
 	* Instrument for production testing
 	* Latencies are the toughest problem
 	* Have sufficient production data
+		* The most important data we've relied upon includes
+			* Use performance counters for all operations
+			* Audit all operations
+			* Track all fault tolerance mechanisms
