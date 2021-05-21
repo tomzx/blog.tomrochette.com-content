@@ -69,3 +69,6 @@ taxonomy:
 			* Tune goals in real time
 			* Always collect the actual numbers
 			* Minimize false positives
+			* Analyze trends
+			* Make the system health highly visible
+			* Monitor continuously
