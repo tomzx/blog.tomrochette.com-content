@@ -117,3 +117,4 @@ taxonomy:
 		* Give enough information to diagnose
 		* Chain of evidence
 		* Debugging in production
+		* Record all significant actions
