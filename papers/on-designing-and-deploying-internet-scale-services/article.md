@@ -96,3 +96,7 @@ taxonomy:
 * To get alerting levels correct, two metrics can help and are worth tracking
 	* alerts-to-trouble ticket ratio (with a goal of near one)
 	* number of systems health issues without corresponding alerts (with a goal of near zero)
+* Best practices include
+	* Instrument everything
+	* Data is the most valuable asset
+	* Have a customer view of service
