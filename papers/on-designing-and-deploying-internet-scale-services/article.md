@@ -67,3 +67,5 @@ taxonomy:
 		* A few strategies
 			* Measurable release criteria
 			* Tune goals in real time
+			* Always collect the actual numbers
+			* Minimize false positives
