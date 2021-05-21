@@ -72,3 +72,5 @@ taxonomy:
 			* Analyze trends
 			* Make the system health highly visible
 			* Monitor continuously
+			* Invest in engineering
+			* Support version roll-back
