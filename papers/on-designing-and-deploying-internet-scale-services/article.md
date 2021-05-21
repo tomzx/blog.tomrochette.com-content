@@ -118,3 +118,4 @@ taxonomy:
 		* Chain of evidence
 		* Debugging in production
 		* Record all significant actions
+* Two best practices, a "big red switch" and admission control, need to be tailored to each service
