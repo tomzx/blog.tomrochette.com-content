@@ -78,3 +78,5 @@ taxonomy:
 			* Single-server deployment
 			* Stress test for load
 			* Perform capacity and performance testing prior to new releases
+			* Build and deploy shallowly and iteratively
+			* Test with real data
