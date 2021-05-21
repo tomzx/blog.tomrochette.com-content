@@ -108,3 +108,4 @@ taxonomy:
 			* Audit all operations
 			* Track all fault tolerance mechanisms
 			* Track operations against important entities
+			* Asserts
