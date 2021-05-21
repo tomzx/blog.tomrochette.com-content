@@ -1,4 +1,11 @@
-On Designing and Deploying Internet-Scale Services
+---
+title: On Designing and Deploying Internet-Scale Services
+created: 2021-05-21
+taxonomy:
+  category: []
+  status: in progress
+---
+
 * 3 tenets
 	* Expect failures
 	* Keep things simple
