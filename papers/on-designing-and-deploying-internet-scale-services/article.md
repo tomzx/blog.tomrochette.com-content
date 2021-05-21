@@ -122,3 +122,4 @@ taxonomy:
 * Support a "big red switch"
 	* The ability to shed non-critical load in an emergency
 * Control admission
+* Meter admission
