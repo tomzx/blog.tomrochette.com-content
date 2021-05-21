@@ -75,3 +75,4 @@ taxonomy:
 			* Invest in engineering
 			* Support version roll-back
 			* Maintain forward and backward compatibility
+			* Single-server deployment
