@@ -87,3 +87,4 @@ taxonomy:
 	* Purchase full racks
 	* Write to hardware abstraction
 	* Abstract the network and naming
+* Make the development team responsible
