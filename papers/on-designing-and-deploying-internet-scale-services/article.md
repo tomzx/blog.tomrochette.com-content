@@ -119,3 +119,5 @@ taxonomy:
 		* Debugging in production
 		* Record all significant actions
 * Two best practices, a "big red switch" and admission control, need to be tailored to each service
+* Support a "big red switch"
+	* The ability to shed non-critical load in an emergency
