@@ -80,3 +80,5 @@ taxonomy:
 			* Perform capacity and performance testing prior to new releases
 			* Build and deploy shallowly and iteratively
 			* Test with real data
+			* Run system-level acceptance tests
+			* Test and develop in full environments
