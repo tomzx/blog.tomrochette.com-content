@@ -90,3 +90,5 @@ taxonomy:
 * Make the development team responsible
 * Soft delete only
 * Track resource allocation
+* Make one change at a time
+* Make everything configurable
