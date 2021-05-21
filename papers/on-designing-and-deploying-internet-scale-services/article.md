@@ -112,3 +112,4 @@ taxonomy:
 			* Keep historical data
 	* Configurable logging
 	* Expose health information for monitoring
+	* Make all reported errors actionable
