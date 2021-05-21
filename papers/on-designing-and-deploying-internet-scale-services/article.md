@@ -88,3 +88,4 @@ taxonomy:
 	* Write to hardware abstraction
 	* Abstract the network and naming
 * Make the development team responsible
+* Soft delete only
