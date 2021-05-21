@@ -89,3 +89,4 @@ taxonomy:
 	* Abstract the network and naming
 * Make the development team responsible
 * Soft delete only
+* Track resource allocation
