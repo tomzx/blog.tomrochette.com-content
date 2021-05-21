@@ -85,3 +85,4 @@ taxonomy:
 * Best practices for hardware selection include
 	* Use only standard SKUs
 	* Purchase full racks
+	* Write to hardware abstraction
