@@ -113,3 +113,7 @@ taxonomy:
 	* Configurable logging
 	* Expose health information for monitoring
 	* Make all reported errors actionable
+	* Enable quick diagnosis of production problems
+		* Give enough information to diagnose
+		* Chain of evidence
+		* Debugging in production
