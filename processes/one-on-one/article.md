@@ -10,3 +10,4 @@ taxonomy:
 
 # References
 * https://www.impraise.com/blog/1-on-1s-for-engaged-employees-how-good-managers-run-them
+* https://getlighthouse.com/blog/questions-ask-one-on-ones-manager/
