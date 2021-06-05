@@ -22,3 +22,4 @@ The process described below attempts to optimize reading quality books and enjoy
 * [Read more books]
 * [Reading fiction books]
 * [Reading technical books]
+* [Why I avoid reading books](../questions/2020/03/21)
