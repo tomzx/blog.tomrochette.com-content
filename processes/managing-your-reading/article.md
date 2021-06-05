@@ -21,5 +21,5 @@ The process described below attempts to optimize reading quality books and enjoy
 * [Tracking my readings]
 * [Read more books]
 * [Reading fiction books]
-* [Reading technical books]
+* [Reading technical books](../questions/2020/03/18)
 * [Why I avoid reading books](../questions/2020/03/21)
