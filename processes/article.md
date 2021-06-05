@@ -11,7 +11,7 @@ taxonomy:
 Processes are a way to do things, such that the process can be then reproduced indefinitely. Here, I try to document all the processes I follow so that I can share them with colleagues, reflect on them and improve them over time.
 
 # Articles
-* [Answering coding interview-questions](answering-coding-interview-questions/article.md)
+* [Answering coding interview questions](answering-coding-interview-questions/article.md)
 * [Book reading](book-reading/article.md)
 * [Decision log](decision-log/article.md)
 * [Habits](habits/article.md)
