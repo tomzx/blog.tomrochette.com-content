@@ -21,3 +21,4 @@ The process described below attempts to optimize reading quality books and enjoy
 * [Tracking my readings]
 * [Read more books]
 * [Reading fiction books]
+* [Reading technical books]
