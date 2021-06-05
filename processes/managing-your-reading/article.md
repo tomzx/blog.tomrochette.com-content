@@ -1,5 +1,5 @@
 ---
-title: Book reading
+title: Managing your reading
 created: 2021-04-21
 taxonomy:
   type: post
