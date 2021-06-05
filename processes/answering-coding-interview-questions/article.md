@@ -9,6 +9,7 @@ taxonomy:
 
 * Read the problem statement
 * Look at any provided unit tests
+* Add any unit tests you think might be relevant and not currently covered
 * Order the unit tests from easiest to hardest
 * Ask questions to confirm your understanding of the problem and verify edge cases
 * Think of a possible approach to solve the problem
