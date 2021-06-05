@@ -18,3 +18,4 @@ The process described below attempts to optimize reading quality books and enjoy
 
 # References
 * [How to prioritize which book to read]
+* [Tracking my readings]
