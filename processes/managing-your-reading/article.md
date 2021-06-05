@@ -20,3 +20,4 @@ The process described below attempts to optimize reading quality books and enjoy
 * [How to prioritize which book to read]
 * [Tracking my readings]
 * [Read more books]
+* [Reading fiction books]
