@@ -20,6 +20,6 @@ The process described below attempts to optimize reading quality books and enjoy
 * [How to prioritize which book to read]
 * [Tracking my readings]
 * [Read more books]
-* [Reading fiction books]
+* [Reading fiction books](../questions/2020/03/17)
 * [Reading technical books](../questions/2020/03/18)
 * [Why I avoid reading books](../questions/2020/03/21)
