@@ -12,6 +12,8 @@ taxonomy:
 * Track and update metrics that you care about every time you meet
   * e.g., Predictability, Ownership, Purpose, Progress, Belonging
 * Discuss the status of those metrics if necessary
+* Keep what is discussed in writing
+* If any action items are defined at the end of those meetings, use a task tracking system to keep each other accountable
 
 # References
 * https://www.impraise.com/blog/1-on-1s-for-engaged-employees-how-good-managers-run-them
