@@ -35,6 +35,7 @@ taxonomy:
 When reviewing
 * Provide specific and actionable feedback
 * Clearly mark nitpicks and optional comments
+	* Alternatively, use an approach such as [RFC2219](https://datatracker.ietf.org/doc/html/rfc2119) where you indicate whether a change is a MUST, SHOULD, or MAY
 * Assume competence
 * Provide rationale or context
 * Consider how comments may be interpreted
