@@ -13,6 +13,7 @@ taxonomy:
 # Week 1
 * Setup laptop
 * Access to slack
+* Access to zoom
 * Initial meeting with buddy
 * Access to git central repository
 * Installation of development tools/languages
