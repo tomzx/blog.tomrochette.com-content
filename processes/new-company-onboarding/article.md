@@ -20,6 +20,7 @@ taxonomy:
 * Access to git central repository
 * Setup and run the one step build process
 * Access to CI/CD
+* Identify how deployments are done
 * Find where task management is done
 * Find the team roadmap
 * Determine how are features/tasks prioritized, who prioritizes features/tasks
