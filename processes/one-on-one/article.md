@@ -8,6 +8,7 @@ taxonomy:
   tag: []
 ---
 
+* Define and agree on the purpose of the one on one
 * Define the topics to be discussed prior to meeting
 * Track and update metrics that you care about every time you meet
   * e.g., Predictability, Ownership, Purpose, Progress, Belonging
