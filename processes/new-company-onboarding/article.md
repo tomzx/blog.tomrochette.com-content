@@ -21,6 +21,7 @@ taxonomy:
 * Find the documentation to build projects
 * Connect 1 on 1 with each member of the team
 * Meet with your manager 1 on 1
+* Verify access to various systems (SSO, code repository, insurance company, pay company, etc.)
 * End of week meeting with buddy
 
 # Week 2
