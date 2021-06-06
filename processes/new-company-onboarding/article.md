@@ -17,6 +17,7 @@ taxonomy:
 * Find where task management is done
 * Find the documentation to build projects
 * Connect 1 on 1 with each member of the team
+* Meet with your manager 1 on 1
 * Setup and run the one step build process
 * Determine how are features/tasks prioritized, who prioritizes features/tasks
 * Find the team documentation
