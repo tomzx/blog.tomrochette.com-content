@@ -11,7 +11,7 @@ taxonomy:
 ---
 
 * Find the team documentation
-* Find team practices documentation
+* Find team practices documentation (code style, code review, standups, planning, retrospective, demos)
 * Find common vocabulary, terminology, glossary documents
 * Find user definition, use cases, requirements
 * Find the documentation to build projects
