@@ -28,6 +28,8 @@ taxonomy:
 * Find the team documentation
 * Find team practices documentation (code style, code review, standups, planning, retrospective, demos)
 * Find common vocabulary, terminology, glossary documents
+
+# Week 3
 * Find user definition, use cases, requirements
 * Identify how deployments are done
 * Find the team roadmap
