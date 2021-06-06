@@ -15,11 +15,11 @@ taxonomy:
 * Installation of development tools/languages
 * Access to CI/CD
 * Find where task management is done
+* Find the documentation to build projects
 * Find the team documentation
 * Find team practices documentation (code style, code review, standups, planning, retrospective, demos)
 * Find common vocabulary, terminology, glossary documents
 * Find user definition, use cases, requirements
-* Find the documentation to build projects
 * Setup and run the one step build process
 * Identify how deployments are done
 * Find the team roadmap
