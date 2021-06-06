@@ -48,4 +48,5 @@ taxonomy:
 * Determine whether the product is a monolith or micro-services
 * Identify which (3rd party) tools are used by the team/company
 * Connect 1 on 1 with important collaborator in other teams
-* End of first month meeting with buddy
+* End of first month meeting with
+* First month performance review with manager
