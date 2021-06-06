@@ -51,3 +51,10 @@ taxonomy:
 * Connect 1 on 1 with important collaborator in other teams
 * End of first month meeting with buddy
 * First month performance review with manager
+* Month 1 job satisfaction review
+
+# Week 8
+* Month 2 job satisfaction review
+
+# Week 12
+* Month 3 job satisfaction review
