@@ -10,18 +10,18 @@ taxonomy:
   - projects
 ---
 
+* Access to slack
+* Access to git central repository
+* Installation of development tools/languages
+* Access to CI/CD
+* Find where task management is done
 * Find the team documentation
 * Find team practices documentation (code style, code review, standups, planning, retrospective, demos)
 * Find common vocabulary, terminology, glossary documents
 * Find user definition, use cases, requirements
 * Find the documentation to build projects
-* Access to slack
-* Installation of development tools/languages
-* Access to git central repository
 * Setup and run the one step build process
-* Access to CI/CD
 * Identify how deployments are done
-* Find where task management is done
 * Find the team roadmap
 * Determine how are features/tasks prioritized, who prioritizes features/tasks
 * Determine where I can have the biggest impact
