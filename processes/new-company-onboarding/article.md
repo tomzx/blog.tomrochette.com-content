@@ -10,6 +10,7 @@ taxonomy:
   - projects
 ---
 
+# Week 1
 * Access to slack
 * Initial meeting with buddy
 * Access to git central repository
@@ -20,6 +21,8 @@ taxonomy:
 * Connect 1 on 1 with each member of the team
 * Meet with your manager 1 on 1
 * End of week meeting with buddy
+
+# Week 2
 * Setup and run the one step build process
 * Determine how are features/tasks prioritized, who prioritizes features/tasks
 * Find the team documentation
