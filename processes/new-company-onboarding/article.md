@@ -11,6 +11,7 @@ taxonomy:
 ---
 
 * Access to slack
+* Initial meeting with buddy
 * Access to git central repository
 * Installation of development tools/languages
 * Access to CI/CD
@@ -18,6 +19,7 @@ taxonomy:
 * Find the documentation to build projects
 * Connect 1 on 1 with each member of the team
 * Meet with your manager 1 on 1
+* End of week meeting with buddy
 * Setup and run the one step build process
 * Determine how are features/tasks prioritized, who prioritizes features/tasks
 * Find the team documentation
