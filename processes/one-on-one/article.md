@@ -13,10 +13,9 @@ taxonomy:
 * Track and update metrics that you care about every time you meet
   * e.g., Predictability, Ownership, Purpose, Progress, Belonging
 * Discuss the status of those metrics if necessary
-* Keep what is discussed in writing
-* If any action items are defined at the end of those meetings, use a task tracking system to keep each other accountable
-
-* One on one should not be work status updates, that's what standups or asynchronous updates are for
+* Write in a shared document (between the two of you) what is discussed
+* If any action items are defined during those meetings, use a task tracking system to keep each other accountable
+  * Always define a deadline on tasks to indicate when the task should be revisited
 
 # References
 * https://www.impraise.com/blog/1-on-1s-for-engaged-employees-how-good-managers-run-them
