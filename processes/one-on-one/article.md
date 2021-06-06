@@ -10,6 +10,7 @@ taxonomy:
 
 * Define the topics to be discussed prior to meeting
 * Track and update metrics that you care about every time you meet
+  * e.g., Predictability, Ownership, Purpose, Progress, Belonging
 * Discuss the status of those metrics if necessary
 
 # References
