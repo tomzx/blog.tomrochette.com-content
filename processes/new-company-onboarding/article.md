@@ -24,7 +24,7 @@ The onboarding process described here is specific to a software engineer joining
 * Find the documentation to build projects
 * Connect 1 on 1 with each member of the team
 * Meet with your manager 1 on 1
-* Establish a 30-60-90 days performance plan
+* Establish a 30-60-90 days plan
 * Verify access to various systems (SSO, code repository, insurance company, payroll company, etc.)
 * End of week meeting with buddy
 
