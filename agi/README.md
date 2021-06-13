@@ -37,6 +37,7 @@ Tom
 * [Quotes](quotes/article.md)
 
 ## Exploratory activities
+*
 * [Build an AGI using Polya's method](build-an-agi-using-polya-method/article.md)
 * [Communication medium](communication-medium/article.md)
 * [Competitions](competitions/article.md)
