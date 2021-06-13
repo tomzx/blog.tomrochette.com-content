@@ -1,3 +1,12 @@
+---
+title: Agent teaching
+created: 2021-06-13
+taxonomy:
+  category: [Artificial General Intelligence]
+  status: in progress
+---
+
+
 While one agent may be smarter than another one, it does not necessarily mean that the smarter one will be able to teach the less smarter one to teach the same level of intelligence.
 This may be explained either by the fact that the lesser agent may refuse to learn or may be unable to learn.
 In the case where the agent is actively refusing to learn one needs to understand the motivation behind the refusal.
