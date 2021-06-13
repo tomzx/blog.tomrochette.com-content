@@ -2,7 +2,6 @@
 title: Agent teaching
 created: 2021-06-13
 taxonomy:
-  type: post
   category: [Artificial General Intelligence]
   status: in progress
 ---
