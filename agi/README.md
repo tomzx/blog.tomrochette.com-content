@@ -37,7 +37,8 @@ Tom
 * [Quotes](quotes/article.md)
 
 ## Exploratory activities
-*
+* [Agent abilities](agent-abilities/article.md)
+* [Agent teaching](agent-teaching/article.md)
 * [Build an AGI using Polya's method](build-an-agi-using-polya-method/article.md)
 * [Communication medium](communication-medium/article.md)
 * [Competitions](competitions/article.md)
