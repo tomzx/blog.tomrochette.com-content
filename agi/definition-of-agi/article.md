@@ -14,7 +14,9 @@ Here I share my own definition. I will try to explore alternative properties as 
 
 ## Properties
 ### General AGI
-* Is able to learn (behavior, facts)
+* Is able to learn (behavior, facts) from input
+* Is able to retrieve (behavior, facts) from memory
+* Is able to regenerate (behavior, facts) as output
 * Is able to generate predictions
 * Can interact with an environment (either virtual or real)
 * Does not need to know everything
