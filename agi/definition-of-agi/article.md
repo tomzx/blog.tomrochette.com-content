@@ -29,7 +29,7 @@ Here I share my own definition. I will try to explore alternative properties as 
 * Can interact with the physical environment
 
 # Wikipedia's definition
-
+Artificial general intelligence (AGI) is the hypothetical ability of an intelligent agent to understand or learn any intellectual task that a human being can.
 
 # References
 * https://en.wikipedia.org/wiki/Artificial_general_intelligence
