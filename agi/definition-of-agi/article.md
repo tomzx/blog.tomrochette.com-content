@@ -33,3 +33,4 @@ Artificial general intelligence (AGI) is the hypothetical ability of an intellig
 
 # References
 * https://en.wikipedia.org/wiki/Artificial_general_intelligence
+* [](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3070741)
