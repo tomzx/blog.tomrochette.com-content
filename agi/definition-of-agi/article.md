@@ -27,3 +27,5 @@ Here I share my own definition. I will try to explore alternative properties as 
 * Can interact with human beings at an appropriate speed
 	* Interacting too slowly would make it appear dumb/non-human
 * Can interact with the physical environment
+
+# References
