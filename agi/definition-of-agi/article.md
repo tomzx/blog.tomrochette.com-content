@@ -28,4 +28,8 @@ Here I share my own definition. I will try to explore alternative properties as 
 	* Interacting too slowly would make it appear dumb/non-human
 * Can interact with the physical environment
 
+# Wikipedia's definition
+
+
 # References
+* https://en.wikipedia.org/wiki/Artificial_general_intelligence
