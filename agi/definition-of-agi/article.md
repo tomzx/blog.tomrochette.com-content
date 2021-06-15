@@ -35,7 +35,7 @@ Artificial general intelligence (AGI) is the hypothetical ability of an intellig
 ### Language based
 An agent does not necessarily need to use an advanced language like writing to be able to accomplish human-like behaviors.
 
-If we claim that communication implies language, then language is a requirement. It however does not mean that language needs to be complex. The simple fact that there is a medium that allows two agents to communicate implicitly means that there is an underlying language. The point here is that spoken languages is not a necessity but likely something that emerges from the evolution of simpler languages.
+If we claim that communication implies language, then language is a requirement. It however does not mean that language needs to be complex. The simple fact that there is a medium that allows two agents to communicate implicitly means that there is an underlying language. The point here is that spoken and wrriten languages are not a necessity but likely something that emerges from the evolution of simpler languages.
 
 # References
 * https://en.wikipedia.org/wiki/Artificial_general_intelligence
