@@ -31,7 +31,12 @@ Here I share my own definition. I will try to explore alternative properties as 
 ## Wikipedia's definition
 Artificial general intelligence (AGI) is the hypothetical ability of an intelligent agent to understand or learn any intellectual task that a human being can.
 
-## Argument against specific requirements
+## Arguments for specific requirements
+In this section we explore why certain requirements are necessary as part of the definition of an AGI.
+
+## Arguments against specific requirements
+In this section we explore why certain requirements are not necessary as part of the definition of an AGI.
+
 ### Language based
 An agent does not necessarily need to use an advanced language like writing to be able to accomplish human-like behaviors.
 
