@@ -23,4 +23,4 @@ It is also important to keep the people that have been at the company the longes
 
 The process of onboarding should be optimized as much as possible.
 
-Anything that requires human power to scale linearly or superlinearly
+Anything that requires human power to scale linearly or superlinearly with itself needs to be optimized so that it grows sublinearly.
