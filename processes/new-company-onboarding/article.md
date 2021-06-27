@@ -54,6 +54,7 @@ The onboarding process described here is specific to a software engineer joining
 * Connect 1 on 1 with important collaborator in other teams
 * End of first month meeting with buddy
 * First month performance review with manager
+* Informal 360-degree review with manager and peers on adaptation
 * Month 1 job satisfaction review
 
 # Week 8
