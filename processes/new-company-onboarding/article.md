@@ -35,6 +35,7 @@ The onboarding process described here is specific to a software engineer joining
 * Find team practices documentation (code style, code review, standups, planning, retrospective, demos)
 * Find common vocabulary, terminology, glossary documents
 * First PR + code review
+* Review the career ladder of the position
 
 # Week 3
 * Find user definition, use cases, requirements
