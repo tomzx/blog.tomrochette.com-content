@@ -31,18 +31,18 @@ The onboarding process described here is specific to a software engineer joining
 # Week 2
 * Setup and run the one step build process
 * Determine how are features/tasks prioritized, who prioritizes features/tasks
-* Find the team documentation
-* Find team practices documentation (code style, code review, standups, planning, retrospective, demos)
-* Find common vocabulary, terminology, glossary documents
+* Review the team documentation
+* Review team practices documentation (code style, code review, standups, planning, retrospective, demos)
+* Review common vocabulary, terminology, glossary documents
 * First PR + code review
 * Review the career ladder of the position
 
 # Week 3
-* Find user definition, use cases, requirements
+* Review user definition, use cases, requirements
 
 # Week 4
 * Identify how deployments are done
-* Find the team roadmap
+* Review the team roadmap
 * Determine where I can have the biggest impact
 * Determine a timeline where I'll have reached my 80/20 at the company
 * Determine the maturity of existing projects
