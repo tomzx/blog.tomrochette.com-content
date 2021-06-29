@@ -50,6 +50,7 @@ The onboarding process described here is specific to a software engineer joining
 * Identify the core/principal/staff contributors and their contributions
 * Review the architecture of the system
 * Review the database architecture
+* Learn about "how we got to this point"
 * Determine whether the product is a monolith or micro-services
 * Identify which (3rd party) tools are used by the team/company
 * Connect 1 on 1 with important collaborator in other teams
