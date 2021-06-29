@@ -32,7 +32,7 @@ The onboarding process described here is specific to a software engineer joining
 * Setup and run the one step build process
 * Determine how are features/tasks prioritized, who prioritizes features/tasks
 * Review the team documentation
-* Review team practices documentation (code style, code review, standups, planning, retrospective, demos)
+* Review team practices/processes documentation (code style, code review, standups, planning, retrospective, demos)
 * Review common vocabulary, terminology, glossary documents
 * First PR + code review
 * Review the career ladder of the position
