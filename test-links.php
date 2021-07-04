@@ -5,15 +5,15 @@
 $pagesDirectory = realpath(__DIR__);
 $agiDirectory = realpath($pagesDirectory.'/agi');
 $machineLearningDirectory = realpath($pagesDirectory.'/machine-learning');
-$processesDirectory = realpath($pagesDirectory.'/processes');
 $problemsDirectory = realpath($pagesDirectory.'/problems');
+$processesDirectory = realpath($pagesDirectory.'/processes');
 $questionsDirectory = realpath($pagesDirectory.'/questions');
 
 $startPages = [
     $agiDirectory => true,
     $machineLearningDirectory => true,
-    $processesDirectory => true,
     $problemsDirectory => true,
+    $processesDirectory => true,
     $questionsDirectory => true,
 ];
 
