@@ -15,6 +15,7 @@ The process described below attempts to optimize reading quality books and enjoy
 * Add new books to your reading list regularly. Those books are considered as having the highest priority and are then added to the prioritized list of books according to its rating.
 * When not reading a new book, read the books in order of priority and by interest at the time of reading.
 * From time to time you may look at your list of prioritized books and decide whether the books with the lowest priority should ever be finished. In some cases it is reasonable to decide that certain books will never be read completely.
+* As an alternative approach, one can use bandits algorithms
 
 # References
 * [How to prioritize which book to read](../../questions/2020/01/06/article.md)
