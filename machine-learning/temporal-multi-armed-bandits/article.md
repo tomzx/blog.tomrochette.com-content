@@ -8,7 +8,13 @@ taxonomy:
 
 # Variations
 * With preference for recently chosen arm
+	* Preferable when recency is useful, for instance when learning new material
 * With preference with least recently chosen arm
+	* Preferable when arms that haven't been picked in a while are more likely to provide a better reward
+* With a limited memory/maximum of arms
+	* The MAB algorithm is given a fixed amount of arms it can remember so it has to decide which ones it keeps in memory
+	* Once the limit is reached, it has to forget one arm in order to explore a new one and keep its state (number of pulls and received reward)
+	* Preferable when the options might expire if not selected within a given timeframe
 
 # Notes
 * In some cases where you have a lot of arms to choose from and very few evaluation for each of them (less than 5), with many more arms which have never been chosen, you need a strategy to pick from those arms
