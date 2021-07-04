@@ -17,10 +17,10 @@ The process described below attempts to optimize reading quality books and enjoy
 * From time to time you may look at your list of prioritized books and decide whether the books with the lowest priority should ever be finished. In some cases it is reasonable to decide that certain books will never be read completely.
 
 # References
-* [How to prioritize which book to read](../questions/2020/01/06/article.md)
-* [Tracking my readings](../questions/2020/02/18/article.md)
-* [Read more books](../questions/2020/03/01/article.md)
-* [Reading fiction books](../questions/2020/03/17/article.md)
-* [Reading technical books](../questions/2020/03/18/article.md)
-* [Why I avoid reading books](../questions/2020/03/21/article.md)
+* [How to prioritize which book to read](../../questions/2020/01/06/article.md)
+* [Tracking my readings](../../questions/2020/02/18/article.md)
+* [Read more books](../../questions/2020/03/01/article.md)
+* [Reading fiction books](../../questions/2020/03/17/article.md)
+* [Reading technical books](../../questions/2020/03/18/article.md)
+* [Why I avoid reading books](../../questions/2020/03/21/article.md)
 * [Reading Multiple Books at a Time](https://juvoni.com/reading-multiple-books)
