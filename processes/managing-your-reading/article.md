@@ -20,7 +20,9 @@ The process described below attempts to optimize reading quality books and enjoy
 
 # My reading strategy
 * Read partially any book for which you haven't given any rating
-* Rate what you have read on a 1 to 5 scale, 1 being very bad and 5 being very good
+* Rate what you have read on a 1 to 5 scale, 1 being very bad and 5 being very good (see [book rating](../book-rating/article.md))
+* Compute the weighted rating of the book (the sum of rating times # of page associated to the reading divided by the total # of pages read so far for the book)
+* Sort books by weighted rating, then average estimated amount of time left to complete
 
 # References
 * [How to prioritize which book to read](../../questions/2020/01/06/article.md)
