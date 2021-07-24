@@ -9,14 +9,14 @@ taxonomy:
     - thoughts
 ---
 
-Life doesn't have a meaning
-You are the one to define the meaning of your life
+Life doesn't have a meaning.
+You are the one to define the meaning of your life.
 What is a reasonable meaning to give up your life?
-From an utilitarian perspective it should be about reducing pain for the largest population of increasing pleasure for the largest population
-It's not clear which one is preferable
-If both are considered to be on the same axis, then it is a matter of identifying the changes that will lead to the largest relative increase
-Similarly to any optimization problem there are things that are easier than others to optimize and to improve, while others are neglectable in terms of improvement
-With this line of reasoning one would think the best they can do is to help those that have the least: food, shelter, education, happiness, freedom
+From an utilitarian perspective it should be about reducing pain for the largest population of increasing pleasure for the largest population.
+It's not clear which one is preferable.
+If both are considered to be on the same axis, then it is a matter of identifying the changes that will lead to the largest relative increase.
+Similarly to any optimization problem there are things that are easier than others to optimize and to improve, while others are neglectable in terms of improvement.
+With this line of reasoning one would think the best they can do is to help those that have the least: food, shelter, education, happiness, freedom.
 But is it worthwhile to improve the life of those people if they still die young or are unable to benefit from what you provided them?
 Why should we care about most of the population?
 
