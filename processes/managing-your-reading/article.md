@@ -18,6 +18,10 @@ The process described below attempts to optimize reading quality books and enjoy
 * As an alternative approach, one can use [multi-armed bandits algorithms](https://en.wikipedia.org/wiki/Multi-armed_bandit) to decide which book to read next. Given that we can convert multi-armed bandits problem into the problem of selecting which book to read next given a sequence of readings and associated rating ("rewards"), the various algorithms (such as Epsilon-greedy or UCB1) will provide us with the next book we should read.
 	* Interestingly enough, an algorithm like UCB1 will promote reading books we've never read first over reading books we've already started reading.
 
+# My reading strategy
+* Read partially any book for which you haven't given any rating
+* Rate what you have read on a 1 to 5 scale, 1 being very bad and 5 being very good
+
 # References
 * [How to prioritize which book to read](../../questions/2020/01/06/article.md)
 * [Tracking my readings](../../questions/2020/02/18/article.md)
