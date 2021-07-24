@@ -55,6 +55,7 @@ The onboarding process described here is specific to a software engineer joining
 * Determine whether the product is a monolith or micro-services
 * Identify which (3rd party) tools are used by the team/company
 * Determine the portfolio of STARS situations of the team/company
+* Determine a rough estimate of the number of people in the different organizations
 * Connect 1 on 1 with important collaborator in other teams
 * End of first month meeting with buddy
 * First month performance review with manager
