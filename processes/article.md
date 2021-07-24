@@ -13,6 +13,7 @@ Processes are a way to do things, such that the process can be then reproduced i
 # Articles
 * [Answering coding interview questions](answering-coding-interview-questions/article.md)
 * [Book reading](book-reading/article.md)
+* [Book rating](book-rating/article.md)
 * [Decision log](decision-log/article.md)
 * [Habits](habits/article.md)
 * [Investing](investing/article.md)
