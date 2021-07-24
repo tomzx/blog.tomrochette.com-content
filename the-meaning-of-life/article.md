@@ -12,7 +12,7 @@ taxonomy:
 Life doesn't have a meaning.
 You are the one to define the meaning of your life.
 What is a reasonable meaning to give up your life?
-From an utilitarian perspective it should be about reducing pain for the largest population of increasing pleasure for the largest population.
+From an utilitarian perspective it should be about reducing pain for the largest population or increasing pleasure for the largest population.
 It's not clear which one is preferable.
 If both are considered to be on the same axis, then it is a matter of identifying the changes that will lead to the largest relative increase.
 Similarly to any optimization problem there are things that are easier than others to optimize and to improve, while others are neglectable in terms of improvement.
