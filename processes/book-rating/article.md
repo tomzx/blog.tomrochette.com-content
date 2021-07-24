@@ -7,7 +7,7 @@ taxonomy:
   status: draft
 ---
 
-Define a 1-5 rating scale for books to be consistent.
+In this article I define a 1-5 rating scale for books in order to be consistent across my evaluations. Given that rating books is somewhat subjective, introducing some amount of standardization on how I rate them should help with [managing my reading](../managing-your-reading/article.md).
 
 Format of presentation:
 
