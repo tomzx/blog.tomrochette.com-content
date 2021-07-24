@@ -9,29 +9,33 @@ taxonomy:
 
 Define a 1-5 rating scale for books to be consistent.
 
+* Satisfaction
+* Words expressing the level of satisfaction
+* Strength of recommendation
+
 1 🤮
 * unsatisfactory
-* horrible, boring, repetitive, disagreeable to read, waste of time, can't force myself to read
+* very bad, horrible, boring, repetitive, disagreeable to read, waste of time, can't force myself to read
 * strongly not recommended
 
 2 ☹️
 * unsatisfactory
 * bad
-* not
+* not recommended
 
 3 😐
 * satisfactory
-* good
+* neutral
 * might want to read
 
 4 ☺️
 * satisfactory
-* great
+* good
 * recommended
 
 5 😍
 * satisfactory
-* amazing, exciting, intriguing, fascinating, full of new knowledge, can't stop reading
+* very good, great, amazing, exciting, intriguing, fascinating, full of new knowledge, can't stop reading
 * strongly recommended
 
 # References
