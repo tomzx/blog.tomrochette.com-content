@@ -9,7 +9,8 @@ taxonomy:
 
 Define a 1-5 rating scale for books to be consistent.
 
-Format of presentation
+Format of presentation:
+
 Score (from 1 to 5) Representative emoji
 * Satisfaction
 * Words expressing the level of satisfaction
