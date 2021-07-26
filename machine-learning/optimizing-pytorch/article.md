@@ -38,7 +38,7 @@ taxonomy:
 
 # Notes
 * Run your script with python's profiler to determine which part of your script is CPU expensive
-```python line-numbers
+```"python line-numbers"
 python -m cProfile -o my_profile.prof train.py
 ```
 * Run your script with `nvprof` to determine what is being done on the GPU
