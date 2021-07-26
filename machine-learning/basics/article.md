@@ -113,8 +113,6 @@ ax.imshow(image)
 plt.show()
 </code></pre>
 
-<script src="https://gist.github.com/tomzx/a4e65513659399fc2f680fd267b60047.js"></script>
-
 # See also
 
 # References
