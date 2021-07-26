@@ -38,11 +38,11 @@ taxonomy:
 
 # Notes
 * Run your script with python's profiler to determine which part of your script is CPU expensive
-```"python line-numbers"
+```bash
 python -m cProfile -o my_profile.prof train.py
 ```
 * Run your script with `nvprof` to determine what is being done on the GPU
-```
+```bash
 nvprof -o my_profile.nvvp python train.py
 ```
 * Free up the memory you used with `del` (e.g., `del my_tensors`)
