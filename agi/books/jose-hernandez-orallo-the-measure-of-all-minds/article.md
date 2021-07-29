@@ -54,6 +54,7 @@ taxonomy:
 * Does it make sense to evaluate whether a system can learn a single task instance or a wide range of tasks?
 * What we are truly aiming at is a representative set of behavioural features, such that the elements in the machine kingdom can be characterised with them
 * A psychometric profile, given a set of behavioural features, is the set of measured values for a particular subject
+* Black-box approach: A major aspiration of universal psychometrics is to design measurement tools that work when the only information we have available is the behaviour of a previously unknown system
 
 # See also
 
