@@ -22,6 +22,8 @@ taxonomy:
 * Several groups
   * Computers
   * Cognitively enhanced organisms
+  * Biologically enhanced computers
+  * (Hybrid) collectives
 
 # See also
 
