@@ -39,6 +39,9 @@ taxonomy:
 * Many hurdles had to be overcome, such as how to perform tests without the use of language, how to make animals focus on a task and how to choose the right interface and rewards
 * In practice, artificial intelligence uses specialised tests for each particular task
 * A behavioural feature is an abstract property, characteristic or construct about the elements of the machine kingdom that can be inferred by observation and interaction
+* To characterise the elements in the machine kingdom we will mostly focus on those behavioral features that are most stable: personality traits and cognitive abilities
+* Personality traits, in particular, represents "consistent patterns of behavior, especially expressive or stylistic behavior"
+* A personality trait is a behavioural feature of an interactive system in the machine kingdom that captures a facet of its character or temperament, describing what the system tends to do
 
 # See also
 
