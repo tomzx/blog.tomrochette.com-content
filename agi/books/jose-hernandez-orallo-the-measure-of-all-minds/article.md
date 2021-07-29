@@ -33,6 +33,9 @@ taxonomy:
 * The physical Church-Turing thesis: every finitely realizable physical system can be perfectly simulated by a universal model computing machine operating by finite means
 * The same algorithm running in a faster computer is, in terms of the machine kingdom, a different machine
 * we will generically refer to the elements of the machine kingdom as agents or subjects, especially when confronted with an environment, a task or a test
+* Our fixation on the behaviour of all interactive systems derives from our interest in the measurement of what systems do
+* Our goal is to measure and classify them (machines) in terms of their behavioral features. This is what we call universal psychometrics
+* Universal psychometrics is the analysis and development of measurement tools for the evaluation of behavioural features in the machine kingdom, including cognitive abilities and personality traits
 
 # See also
 
