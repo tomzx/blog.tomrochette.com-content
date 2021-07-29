@@ -44,6 +44,8 @@ taxonomy:
 * A personality trait is a behavioural feature of an interactive system in the machine kingdom that captures a facet of its character or temperament, describing what the system tends to do
 * Cognitive abilities are properties that describe what subjects are able to do
 * Cognitive abilities are usually gradient features, i.e., the more the better
+* A cognitive task is an interactive series of stimuli that allows for different observable behaviours on the subject. It is cognitive as far as performance is involved, and its interface can be changed or virtualised without affecting the essence of the process
+* A cognitive ability is a gradient property of an interactive system in the machine kingdom that allows the system to perform well in a class of cognitive tasks
 
 # See also
 
