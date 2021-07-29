@@ -19,6 +19,7 @@ taxonomy:
 
 # Notes
 ## Chapter 1 - Extended Nature
+### 1.1 Face the diversity
 * Several groups
   * Computers
   * Cognitively enhanced organisms
