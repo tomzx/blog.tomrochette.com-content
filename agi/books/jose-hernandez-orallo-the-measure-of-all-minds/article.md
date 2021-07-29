@@ -27,6 +27,9 @@ taxonomy:
   * (Hybrid) collectives
   * Minimal or rare cognition
 
+### 1.2 The machine kingdom
+* No matter how wild and diverse life may be, it is constrained by the rules of evolution and natural selection
+
 # See also
 
 # References
