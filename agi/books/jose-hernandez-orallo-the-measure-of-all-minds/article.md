@@ -13,6 +13,7 @@ taxonomy:
 ## Things to explore
 * Can we devise universal cognitive tests?
 * Can we have a formal definition of intelligence solely based on computational principles?
+* How do you evaluate a human-machine hybrid?
 
 # Overview
 
