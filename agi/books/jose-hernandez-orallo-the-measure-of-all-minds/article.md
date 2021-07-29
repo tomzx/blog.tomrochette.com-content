@@ -24,6 +24,7 @@ taxonomy:
   * Cognitively enhanced organisms
   * Biologically enhanced computers
   * (Hybrid) collectives
+  * Minimal or rare cognition
 
 # See also
 
