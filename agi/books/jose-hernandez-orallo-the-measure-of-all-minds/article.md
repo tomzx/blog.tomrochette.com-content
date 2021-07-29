@@ -17,6 +17,7 @@ taxonomy:
 # Overview
 
 # Notes
+## Chapter 1 - Extended Nature
 
 # See also
 
