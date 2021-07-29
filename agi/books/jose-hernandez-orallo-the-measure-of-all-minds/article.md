@@ -50,6 +50,7 @@ taxonomy:
 * If systems may perform well by innate (programmed) behaviour or by acquired (learnt) behaviour, should we evaluate whether subjects are able to do some tasks or whether they are able to learn to do some tasks?
 * Does it make sense to evaluate whether a system can learn a single task instance or a wide range of tasks?
 * What we are truly aiming at is a representative set of behavioural features, such that the elements in the machine kingdom can be characterised with them
+* A psychometric profile, given a set of behavioural features, is the set of measured values for a particular subject
 
 # See also
 
