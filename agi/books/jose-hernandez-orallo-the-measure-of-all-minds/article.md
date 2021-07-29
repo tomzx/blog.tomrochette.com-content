@@ -36,6 +36,7 @@ taxonomy:
 * Our fixation on the behaviour of all interactive systems derives from our interest in the measurement of what systems do
 * Our goal is to measure and classify them (machines) in terms of their behavioral features. This is what we call universal psychometrics
 * Universal psychometrics is the analysis and development of measurement tools for the evaluation of behavioural features in the machine kingdom, including cognitive abilities and personality traits
+* Many hurdles had to be overcome, such as how to perform tests without the use of language, how to make animals focus on a task and how to choose the right interface and rewards
 
 # See also
 
