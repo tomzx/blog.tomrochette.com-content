@@ -42,6 +42,8 @@ taxonomy:
 * To characterise the elements in the machine kingdom we will mostly focus on those behavioral features that are most stable: personality traits and cognitive abilities
 * Personality traits, in particular, represents "consistent patterns of behavior, especially expressive or stylistic behavior"
 * A personality trait is a behavioural feature of an interactive system in the machine kingdom that captures a facet of its character or temperament, describing what the system tends to do
+* Cognitive abilities are properties that describe what subjects are able to do
+* Cognitive abilities are usually gradient features, i.e., the more the better
 
 # See also
 
