@@ -47,6 +47,8 @@ taxonomy:
 * A cognitive task is an interactive series of stimuli that allows for different observable behaviours on the subject. It is cognitive as far as performance is involved, and its interface can be changed or virtualised without affecting the essence of the process
 * A cognitive ability is a gradient property of an interactive system in the machine kingdom that allows the system to perform well in a class of cognitive tasks
 * Adaptation is usually performed through specialisation
+* If systems may perform well by innate (programmed) behaviour or by acquired (learnt) behaviour, should we evaluate whether subjects are able to do some tasks or whether they are able to learn to do some tasks?
+* Does it make sense to evaluate whether a system can learn a single task instance or a wide range of tasks?
 
 # See also
 
