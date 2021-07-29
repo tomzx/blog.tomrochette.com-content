@@ -30,6 +30,7 @@ taxonomy:
 ### 1.2 The machine kingdom
 * No matter how wild and diverse life may be, it is constrained by the rules of evolution and natural selection
 * The machine kingdom is the set of all interactive systems taking inputs and producing outputs, possibly asynchronously, through interfaces, bodies, sensors and actuators, etc.
+* The physical Church-Turing thesis: every finitely realizable physical system can be perfectly simulated by a universal model computing machine operating by finite means
 
 # See also
 
