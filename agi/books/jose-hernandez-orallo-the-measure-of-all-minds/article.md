@@ -42,6 +42,8 @@ taxonomy:
 * Universal psychometrics is the analysis and development of measurement tools for the evaluation of behavioural features in the machine kingdom, including cognitive abilities and personality traits
 * Many hurdles had to be overcome, such as how to perform tests without the use of language, how to make animals focus on a task and how to choose the right interface and rewards
 * In practice, artificial intelligence uses specialised tests for each particular task
+
+### 1.3 The space of behavioural features
 * A behavioural feature is an abstract property, characteristic or construct about the elements of the machine kingdom that can be inferred by observation and interaction
 * To characterise the elements in the machine kingdom we will mostly focus on those behavioral features that are most stable: personality traits and cognitive abilities
 * Personality traits, in particular, represents "consistent patterns of behavior, especially expressive or stylistic behavior"
