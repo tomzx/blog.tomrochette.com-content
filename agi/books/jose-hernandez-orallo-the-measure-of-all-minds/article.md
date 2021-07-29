@@ -17,6 +17,7 @@ taxonomy:
 * What is the minimum amount of intelligence required for general intelligence?
 * What is the maximum limit to intelligence, subject to physical limits?
 * Can you use the theory in this book to explain how a group of individuals (collective) can be less productive than the sum of its individuals?
+* How can you compare two ML/DL/AI models according to the theory presented in this book?
 
 # Overview
 
