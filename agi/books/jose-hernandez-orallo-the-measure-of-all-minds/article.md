@@ -14,6 +14,9 @@ taxonomy:
 * Can we devise universal cognitive tests?
 * Can we have a formal definition of intelligence solely based on computational principles?
 * How do you evaluate a human-machine hybrid?
+* What is the minimum amount of intelligence required for general intelligence?
+* What is the maximum limit to intelligence, subject to physical limits?
+* Can you use the theory in this book to explain how a group of individuals (collective) can be less productive than the sum of its individuals?
 
 # Overview
 
