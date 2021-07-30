@@ -32,5 +32,10 @@ The following lists books that I have read and that I suggest to people that are
 | The Annotated Turing | [Amazon](https://www.amazon.com/Annotated-Turing-Through-Historic-Computability/dp/0470229055) |
 | [The Computer and the Brain](the-computer-and-the-brain/article.md) | [Amazon](https://www.amazon.com/Computer-Silliman-Memorial-Lectures-Series/dp/0300181116) |
 | [The Essential Turing](the-essential-turing/article.md) | [Amazon](https://www.amazon.com/Essential-Turing-Philosophy-Artificial-Intelligence/dp/0198250800) |
+| [The Measure of All Minds](jose-hernandez-orallo-the-measure-of-all-minds/article.md) | [Amazon](https://www.amazon.com/Measure-All-Minds-Evaluating-Intelligence-ebook/dp/B01MYVA3DG) |
 | [The Society of Mind](the-society-of-mind/article.md) | [Amazon](https://www.amazon.com/The-Society-Mind-Marvin-Minsky/dp/0671657135) |
 | [Theory of self-reproducing automata](theory-of-self-reproducing-automata/article.md) | [Amazon](https://www.amazon.com/Theory-Self-reproducing-Automata-John-Neumann/dp/0252727339) |
+
+
+## José Hernandez Orallo
+* [The measure of all minds (2017)](josé-hernandez-orallo-the-measure-of-all-minds)
