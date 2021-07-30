@@ -27,7 +27,7 @@ The following lists books that I have read and that I suggest to people that are
 | Neuroscience: Exploring the Brain | [Amazon](https://www.amazon.com/Neuroscience-Exploring-Mark-F-Bear/dp/0781778174) |
 | [On Intelligence](jeff-hawkins-on-intelligence/article.md) | [Amazon](https://www.amazon.com/Intelligence-Jeff-Hawkins/dp/0805078533) |
 | [Principles of Computational Modelling in Neuroscience](david-sterratt-principles-of-computational-modelling-in-neuroscience/article.md) | [Amazon](https://www.amazon.com/Principles-Computational-Modelling-Neuroscience-Sterratt/dp/0521877954) |
-| [Superintelligence: Paths, Dangers, Strategies (2014)](nick-bostrom-superintelligence-paths-dangers-strategies/article.md) | [Amazon](https://www.amazon.com/Superintelligence-Dangers-Strategies-Nick-Bostrom/dp/1501227742) |
+| [Superintelligence: Paths, Dangers, Strategies](nick-bostrom-superintelligence-paths-dangers-strategies/article.md) | [Amazon](https://www.amazon.com/Superintelligence-Dangers-Strategies-Nick-Bostrom/dp/1501227742) |
 | [The Allure of Machinic Life: Cybernetics, Artificial Life, and the New AI](john-johnston-the-allure-of-machinic-life-cybernetics-artificial-life-and-the-new-ai/article.md) | [Amazon](https://www.amazon.ca/Allure-Machinic-Life-Cybernetics-Artificial/dp/0262515024) |
 | The Annotated Turing | [Amazon](https://www.amazon.com/Annotated-Turing-Through-Historic-Computability/dp/0470229055) |
 | [The Computer and the Brain](the-computer-and-the-brain/article.md) | [Amazon](https://www.amazon.com/Computer-Silliman-Memorial-Lectures-Series/dp/0300181116) |
@@ -35,7 +35,3 @@ The following lists books that I have read and that I suggest to people that are
 | [The Measure of All Minds](jose-hernandez-orallo-the-measure-of-all-minds/article.md) | [Amazon](https://www.amazon.com/Measure-All-Minds-Evaluating-Intelligence-ebook/dp/B01MYVA3DG) |
 | [The Society of Mind](the-society-of-mind/article.md) | [Amazon](https://www.amazon.com/The-Society-Mind-Marvin-Minsky/dp/0671657135) |
 | [Theory of self-reproducing automata](theory-of-self-reproducing-automata/article.md) | [Amazon](https://www.amazon.com/Theory-Self-reproducing-Automata-John-Neumann/dp/0252727339) |
-
-
-## José Hernandez Orallo
-* [The measure of all minds (2017)](josé-hernandez-orallo-the-measure-of-all-minds)
