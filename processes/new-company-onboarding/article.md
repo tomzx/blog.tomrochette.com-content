@@ -20,6 +20,7 @@ The onboarding process described here is specific to a software engineer joining
 * Initial meeting with buddy
 * Access to git central repository
 * Installation of development tools/languages
+* Request software licenses
 * Access to CI/CD
 * Find where task management is done
 * Find the documentation to build projects
