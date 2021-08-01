@@ -41,6 +41,7 @@ The onboarding process described here is specific to a software engineer joining
 
 # Week 3
 * Review user definition, use cases, requirements
+* Read prior team meetings notes
 
 # Week 4
 * Identify how deployments are done
