@@ -48,7 +48,7 @@ The onboarding process described here is specific to a software engineer joining
 * Determine where I can have the biggest impact
 * Determine a timeline where I'll have reached my 80/20 at the company
 * Determine the maturity of existing projects
-* Determine fast can we iterate on certain aspects given the team/company composition
+* Determine how fast can we iterate on certain aspects given the team/company composition
 * Identify the core/principal/staff contributors and their contributions
 * Review the architecture of the system
 * Review the database architecture
