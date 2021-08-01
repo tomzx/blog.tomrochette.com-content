@@ -65,6 +65,7 @@ The onboarding process described here is specific to a software engineer joining
 * Month 1 job satisfaction review
 
 # Week 8
+* Team interaction diagram
 * Month 2 job satisfaction review
 
 # Week 12
