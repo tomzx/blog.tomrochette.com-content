@@ -1,0 +1,12 @@
+* Kubernetes
+* Helm
+* GCP
+	* BigQuery
+	* Dataflow
+	* Kubeflow
+	* Airflow/Composer
+* Go
+* Terraform
+* Prometheus
+* Grafana
+* Datadog
