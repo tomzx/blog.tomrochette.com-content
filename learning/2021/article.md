@@ -5,6 +5,7 @@
 	* Dataflow
 	* Kubeflow
 	* Airflow/Composer
+	* Kubernetes
 * Go
 * Terraform
 * Prometheus
