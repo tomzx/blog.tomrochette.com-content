@@ -7,7 +7,13 @@
 	* Airflow/Composer
 	* Kubernetes
 * Go
+* GRPC
 * Terraform
 * Prometheus
+	* Alerts
 * Grafana
 * Datadog
+* Kafka
+* Load balancing
+	* GRPC
+	* Kafka
