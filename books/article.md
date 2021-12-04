@@ -16,6 +16,7 @@ taxonomy:
 * Beyond the Dark Portal
 * On Intelligence
 * TensorFlow For Machine Intelligence: A hands-on introduction to learning algorithms
+* Day of the Dragon
 
 # 2017
 * Semantic web
