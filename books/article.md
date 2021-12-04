@@ -130,3 +130,4 @@ taxonomy:
 * Maybe You Should Talk to Someone: A Therapist, Her Therapist, and Our Lives Revealed
 * 21 Lessons for the 21st Century
 * Trustworthy Online Controlled Experiments: A Practical Guide to A/B Testing
+* Crucial Conversations: Tools for Talking When Stakes Are High
