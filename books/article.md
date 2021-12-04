@@ -6,6 +6,9 @@ taxonomy:
   status: in progress
 ---
 
+# 2013
+* Rework
+
 # 2014
 * Lean from the Trenches
 * Artificial Intelligence: A Modern Approach
