@@ -21,6 +21,7 @@ taxonomy:
 * Theory Of Self Reproducing Automata
 * Introduction to Automata Theory, Languages, and Computation
 * Lord of the Clans
+* Advanced Symbolic Analysis for Compilers: New Techniques and Algorithms for Symbolic Program Analysis and Optimization
 
 # 2017
 * Semantic web
