@@ -67,7 +67,7 @@ taxonomy:
 * Marcus Aurelius Meditations
 * The dark forest
 * Death's end
-* The manual
+* The Manual: A Philosopher's Guide to Life
 * Time management for system administrators
 * Good to great
 * AlphaBrain
