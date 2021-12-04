@@ -11,6 +11,7 @@ taxonomy:
 * The Developer's Code: What Real Programmers Do
 * Working Effectively with Legacy Code
 * Safe C++
+* My Inventions
 
 # 2013
 * Rework
