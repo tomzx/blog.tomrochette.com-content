@@ -17,6 +17,7 @@ taxonomy:
 * The Puppet 3 Cookbook
 * So Good They Can't Ignore You: Why Skills Trump Passion in the Quest for Work You Love
 * Codermetrics
+* Laravel Testing Decoded
 
 # 2015
 * Drive: The Surprising Truth About What Motivates Us
