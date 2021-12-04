@@ -117,3 +117,4 @@ taxonomy:
 * Effective Monitoring and Alerting: For Web Operations
 * The Book of Why: The New Science of Cause and Effect
 * Making Work Visible: Exposing Time Theft to Optimize Work & flow
+* A/B Testing: The Most Powerful Way to Turn Clicks Into Customers
