@@ -15,6 +15,7 @@ taxonomy:
 * Team Geek: A Software Developer's Guide to Working Well with Others
 * The Icon Handbook
 * Seven Databases in Seven Weeks: A Guide to Modern Databases and the NoSQL Movement
+* Dreaming in Code: Two Dozen Programmers, Three Years, 4,732 Bugs, and One Quest for Transcendent Software
 
 # 2013
 * Rework
