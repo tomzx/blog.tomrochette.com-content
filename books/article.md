@@ -26,6 +26,7 @@ taxonomy:
 * Neurosciences: À la découverte du cerveau
 * A Concise Introduction to Logic
 * Principles of Program Analysis
+* The Well of Eternity
 
 # 2017
 * Semantic web
