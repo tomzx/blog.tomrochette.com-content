@@ -6,6 +6,9 @@ taxonomy:
   status: in progress
 ---
 
+# 2016
+* Smarter Than Us: The Rise of Machine Intelligence
+
 # 2017
 * Semantic web
 * War of the ancients - The demon soul
