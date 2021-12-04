@@ -122,3 +122,4 @@ taxonomy:
 * Brave New World
 * A Thousand Brains: A New Theory of Intelligence
 * Kubernetes in Action
+* The Decision Book: Fifty Models for Strategic Thinking
