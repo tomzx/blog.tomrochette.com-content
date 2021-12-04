@@ -16,6 +16,7 @@ taxonomy:
 * The Start-Up of You: Adapt to the Future, Invest in Yourself, and Transform Your Career
 * Laravel: From Apprentice To Artisan
 * I Have a Strategy (No, You Don't): The Illustrated Guide to Strategy
+* JavaScript Patterns
 
 # 2014
 * Lean from the Trenches
