@@ -9,6 +9,7 @@ taxonomy:
 # 2015
 * Drive: The Surprising Truth About What Motivates Us
 * Scaling PHP Applications
+* Typed PHP
 
 # 2016
 * Smarter Than Us: The Rise of Machine Intelligence
