@@ -22,6 +22,7 @@ taxonomy:
 * Introduction to Automata Theory, Languages, and Computation
 * Lord of the Clans
 * Advanced Symbolic Analysis for Compilers: New Techniques and Algorithms for Symbolic Program Analysis and Optimization
+* Software Testing: A Craftsman's Approach
 
 # 2017
 * Semantic web
