@@ -17,6 +17,7 @@ taxonomy:
 * Laravel: From Apprentice To Artisan
 * I Have a Strategy (No, You Don't): The Illustrated Guide to Strategy
 * JavaScript Patterns
+* Notes to a software team leader
 
 # 2014
 * Lean from the Trenches
