@@ -114,3 +114,4 @@ taxonomy:
 * The Andromeda Strain
 * Neuromancer
 * The Intelligent Investor
+* Effective Monitoring and Alerting: For Web Operations
