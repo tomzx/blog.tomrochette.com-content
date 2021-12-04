@@ -12,6 +12,7 @@ taxonomy:
 * Rise of the Horde
 * The Last Guardian
 * Tides of Darkness
+* Cognitive Science: An Introduction to the Science of the Mind
 
 # 2017
 * Semantic web
