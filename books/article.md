@@ -120,3 +120,4 @@ taxonomy:
 * A/B Testing: The Most Powerful Way to Turn Clicks Into Customers
 * Bandit Algorithms for Website Optimization
 * Brave New World
+* A Thousand Brains: A New Theory of Intelligence
