@@ -127,3 +127,4 @@ taxonomy:
 * All Systems Red
 * The First 90 Days: Critical Success Strategies for New Leaders at All Levels
 * The Five Dysfunctions of a Team: A Leadership Fable
+* Maybe You Should Talk to Someone: A Therapist, Her Therapist, and Our Lives Revealed
