@@ -8,6 +8,7 @@ taxonomy:
 
 # 2016
 * Smarter Than Us: The Rise of Machine Intelligence
+* The Society of Mind
 
 # 2017
 * Semantic web
