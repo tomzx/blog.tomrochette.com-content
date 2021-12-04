@@ -124,3 +124,4 @@ taxonomy:
 * Kubernetes in Action
 * The Decision Book: Fifty Models for Strategic Thinking
 * Homo Deus: A History of Tomorrow
+* All Systems Red
