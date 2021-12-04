@@ -17,6 +17,7 @@ taxonomy:
 * On Intelligence
 * TensorFlow For Machine Intelligence: A hands-on introduction to learning algorithms
 * Day of the Dragon
+* Of Blood and Honor
 
 # 2017
 * Semantic web
