@@ -9,6 +9,7 @@ taxonomy:
 # 2012
 * Brain Rules: 12 Principles for Surviving and Thriving at Work, Home, and School
 * The Developer's Code: What Real Programmers Do
+* Working Effectively with Legacy Code
 
 # 2013
 * Rework
