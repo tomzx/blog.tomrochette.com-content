@@ -11,6 +11,7 @@ taxonomy:
 * Scaling PHP Applications
 * Typed PHP
 * The Motivation Hacker
+* The Dip: A Little Book That Teaches You When to Quit (and When to Stick)
 
 # 2016
 * Smarter Than Us: The Rise of Machine Intelligence
