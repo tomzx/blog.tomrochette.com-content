@@ -18,6 +18,7 @@ taxonomy:
 * I Have a Strategy (No, You Don't): The Illustrated Guide to Strategy
 * JavaScript Patterns
 * Notes to a software team leader
+* The E-Myth Revisited: Why Most Small Businesses Don't Work and What to Do About It
 
 # 2014
 * Lean from the Trenches
