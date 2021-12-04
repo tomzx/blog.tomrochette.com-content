@@ -18,6 +18,7 @@ taxonomy:
 * TensorFlow For Machine Intelligence: A hands-on introduction to learning algorithms
 * Day of the Dragon
 * Of Blood and Honor
+* Theory Of Self Reproducing Automata
 
 # 2017
 * Semantic web
