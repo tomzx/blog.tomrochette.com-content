@@ -23,6 +23,7 @@ taxonomy:
 * Lord of the Clans
 * Advanced Symbolic Analysis for Compilers: New Techniques and Algorithms for Symbolic Program Analysis and Optimization
 * Software Testing: A Craftsman's Approach
+* Neurosciences: À la découverte du cerveau
 
 # 2017
 * Semantic web
