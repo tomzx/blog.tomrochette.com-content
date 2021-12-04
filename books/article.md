@@ -134,3 +134,4 @@ taxonomy:
 * The Grand Design
 * Some Assembly Required: Decoding Four Billion Years of Life, from Ancient Fossils to DNA
 * Programming Beyond Practices: Be More Than Just a Code Monkey
+* This Is Lean: Resolving the Efficiency Paradox
