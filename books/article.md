@@ -9,6 +9,7 @@ taxonomy:
 # 2014
 * Lean from the Trenches
 * Artificial Intelligence: A Modern Approach
+* Extreme Productivity: Boost Your Results, Reduce Your Hours
 
 # 2015
 * Drive: The Surprising Truth About What Motivates Us
