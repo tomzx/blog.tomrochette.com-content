@@ -12,6 +12,7 @@ taxonomy:
 * Laravel: Code Happy
 * How Will You Measure Your Life?
 * Software Project Survival Guide
+* Apprenticeship Patterns: Guidance for the Aspiring Software Craftsman
 
 # 2014
 * Lean from the Trenches
