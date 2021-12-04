@@ -10,6 +10,7 @@ taxonomy:
 * Drive: The Surprising Truth About What Motivates Us
 * Scaling PHP Applications
 * Typed PHP
+* The Motivation Hacker
 
 # 2016
 * Smarter Than Us: The Rise of Machine Intelligence
