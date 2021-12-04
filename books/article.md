@@ -25,6 +25,7 @@ taxonomy:
 * Software Testing: A Craftsman's Approach
 * Neurosciences: À la découverte du cerveau
 * A Concise Introduction to Logic
+* Principles of Program Analysis
 
 # 2017
 * Semantic web
