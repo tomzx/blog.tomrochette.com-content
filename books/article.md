@@ -107,3 +107,4 @@ taxonomy:
 # 2021
 * The Doomsday Calculation: How an Equation that Predicts the Future Is Transforming Everything We Know About Life and the Universe
 * Future Shock
+* Eat That Frog!: 21 Great Ways to Stop Procrastinating and Get More Done in Less Time
