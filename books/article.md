@@ -20,6 +20,7 @@ taxonomy:
 * Of Blood and Honor
 * Theory Of Self Reproducing Automata
 * Introduction to Automata Theory, Languages, and Computation
+* Lord of the Clans
 
 # 2017
 * Semantic web
