@@ -13,6 +13,7 @@ taxonomy:
 * Managing Infrastructure with Puppet
 * Are You a Transhuman?: Monitoring and Stimulating Your Personal Rate of Growth in a Rapidly Changing World
 * The Dream Team Nightmare
+* How to Create a Mind: The Secret of Human Thought Revealed
 
 # 2015
 * Drive: The Surprising Truth About What Motivates Us
