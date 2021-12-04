@@ -19,6 +19,7 @@ taxonomy:
 * Day of the Dragon
 * Of Blood and Honor
 * Theory Of Self Reproducing Automata
+* Introduction to Automata Theory, Languages, and Computation
 
 # 2017
 * Semantic web
