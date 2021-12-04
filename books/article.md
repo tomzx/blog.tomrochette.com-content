@@ -13,6 +13,7 @@ taxonomy:
 * The Last Guardian
 * Tides of Darkness
 * Cognitive Science: An Introduction to the Science of the Mind
+* Beyond the Dark Portal
 
 # 2017
 * Semantic web
