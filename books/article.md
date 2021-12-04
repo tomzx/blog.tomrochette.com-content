@@ -14,6 +14,7 @@ taxonomy:
 * Software Project Survival Guide
 * Apprenticeship Patterns: Guidance for the Aspiring Software Craftsman
 * The Start-Up of You: Adapt to the Future, Invest in Yourself, and Transform Your Career
+* Laravel: From Apprentice To Artisan
 
 # 2014
 * Lean from the Trenches
