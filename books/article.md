@@ -6,6 +6,8 @@ taxonomy:
   status: in progress
 ---
 
+# 2012
+
 # 2013
 * Rework
 * The Lean Startup: How Today's Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses
