@@ -15,6 +15,7 @@ taxonomy:
 * The Dream Team Nightmare
 * How to Create a Mind: The Secret of Human Thought Revealed
 * The Puppet 3 Cookbook
+* So Good They Can't Ignore You: Why Skills Trump Passion in the Quest for Work You Love
 
 # 2015
 * Drive: The Surprising Truth About What Motivates Us
