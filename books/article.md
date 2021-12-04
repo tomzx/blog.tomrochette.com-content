@@ -15,6 +15,7 @@ taxonomy:
 * Cognitive Science: An Introduction to the Science of the Mind
 * Beyond the Dark Portal
 * On Intelligence
+* TensorFlow For Machine Intelligence: A hands-on introduction to learning algorithms
 
 # 2017
 * Semantic web
