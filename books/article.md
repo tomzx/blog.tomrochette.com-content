@@ -12,6 +12,7 @@ taxonomy:
 * Working Effectively with Legacy Code
 * Safe C++
 * My Inventions
+* Team Geek: A Software Developer's Guide to Working Well with Others
 
 # 2013
 * Rework
