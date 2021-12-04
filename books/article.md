@@ -19,6 +19,7 @@ taxonomy:
 * Codermetrics
 * Laravel Testing Decoded
 * Build APIs You Won't Hate
+* Augmenting Human Intellect
 
 # 2015
 * Drive: The Surprising Truth About What Motivates Us
