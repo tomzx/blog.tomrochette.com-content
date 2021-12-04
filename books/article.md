@@ -11,6 +11,7 @@ taxonomy:
 * Artificial Intelligence: A Modern Approach
 * Extreme Productivity: Boost Your Results, Reduce Your Hours
 * Managing Infrastructure with Puppet
+* Are You a Transhuman?: Monitoring and Stimulating Your Personal Rate of Growth in a Rapidly Changing World
 
 # 2015
 * Drive: The Surprising Truth About What Motivates Us
