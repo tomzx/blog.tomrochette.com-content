@@ -136,3 +136,4 @@ taxonomy:
 * Programming Beyond Practices: Be More Than Just a Code Monkey
 * This Is Lean: Resolving the Efficiency Paradox
 * Understanding How We Learn: A Visual Guide
+* The Psychopath Test: A Journey Through the Madness Industry
