@@ -125,3 +125,4 @@ taxonomy:
 * The Decision Book: Fifty Models for Strategic Thinking
 * Homo Deus: A History of Tomorrow
 * All Systems Red
+* The First 90 Days: Critical Success Strategies for New Leaders at All Levels
