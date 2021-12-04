@@ -14,6 +14,7 @@ taxonomy:
 * My Inventions
 * Team Geek: A Software Developer's Guide to Working Well with Others
 * The Icon Handbook
+* Seven Databases in Seven Weeks: A Guide to Modern Databases and the NoSQL Movement
 
 # 2013
 * Rework
