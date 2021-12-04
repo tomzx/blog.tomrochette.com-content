@@ -132,3 +132,4 @@ taxonomy:
 * Trustworthy Online Controlled Experiments: A Practical Guide to A/B Testing
 * Crucial Conversations: Tools for Talking When Stakes Are High
 * The Grand Design
+* Some Assembly Required: Decoding Four Billion Years of Life, from Ancient Fossils to DNA
