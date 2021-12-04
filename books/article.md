@@ -129,3 +129,4 @@ taxonomy:
 * The Five Dysfunctions of a Team: A Leadership Fable
 * Maybe You Should Talk to Someone: A Therapist, Her Therapist, and Our Lives Revealed
 * 21 Lessons for the 21st Century
+* Trustworthy Online Controlled Experiments: A Practical Guide to A/B Testing
