@@ -10,6 +10,7 @@ taxonomy:
 * Rework
 * The Lean Startup: How Today's Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses
 * Laravel: Code Happy
+* How Will You Measure Your Life?
 
 # 2014
 * Lean from the Trenches
