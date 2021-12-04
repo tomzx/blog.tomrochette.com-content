@@ -11,6 +11,7 @@ taxonomy:
 * The Society of Mind
 * Rise of the Horde
 * The Last Guardian
+* Tides of Darkness
 
 # 2017
 * Semantic web
