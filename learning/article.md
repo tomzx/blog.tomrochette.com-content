@@ -6,6 +6,8 @@ taxonomy:
   category: [Learning]
 ---
 
+Every year I learn new things. In the articles listed below I record the various things I've learned over the years.
+
 * [2014](2014/article.md)
 * [2015](2015/article.md)
 * [2016](2016/article.md)
