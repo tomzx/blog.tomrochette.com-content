@@ -1,3 +1,11 @@
+---
+title: Learning - 2021
+created: 2021-12-18
+taxonomy:
+  type: post
+  category: [Learning]
+---
+
 * A/B testing
 * Continuous experimentation
 * Kubernetes
