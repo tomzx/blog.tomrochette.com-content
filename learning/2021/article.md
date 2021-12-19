@@ -28,4 +28,3 @@ taxonomy:
 * Load balancing
 	* GRPC
 	* Kafka
-* Terraform
