@@ -1,3 +1,11 @@
+---
+title: Learning - 2018
+created: 2021-12-18
+taxonomy:
+  type: post
+  category: [Learning]
+---
+
 * Machine learning
 	* Pandas
 	* Time series
