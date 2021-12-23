@@ -17,6 +17,7 @@ taxonomy:
 	* Kubeflow
 	* Airflow/Composer
 	* VPC/Network/Firewall/Cloud armor
+	* Cloud profiling
 * Go
 * GRPC
 * Terraform
