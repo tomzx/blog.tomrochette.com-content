@@ -10,6 +10,9 @@ taxonomy:
 # Trigger
 Every month, either at the beginning or end of the month.
 
+# Duration
+30 minutes.
+
 # Steps
 * Review what I had planned for the month
 * Provide feedback related to my plan
