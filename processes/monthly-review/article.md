@@ -14,9 +14,9 @@ Every month, either at the beginning or end of the month.
 30 minutes.
 
 # Steps
-* Review what I had planned for the month
-* Provide feedback related to my plan
-* [Review my year plan](../yearly-review/article.md)
+* Review what was planned for the month
+* Provide feedback related to the plan
+* [Review yearly plan and align](../yearly-review/article.md)
 * Plan next month
 
 # Notes
