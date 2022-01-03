@@ -14,7 +14,7 @@ Every year, either at the beginning or end of the year.
 A few hours spread over the course of a few days.
 
 # Steps
-* Review my year according to various facets
+* Review year according to various facets
 * Plan the next year according to the same facets
 
 # Notes
