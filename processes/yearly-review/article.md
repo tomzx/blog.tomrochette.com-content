@@ -11,8 +11,11 @@ taxonomy:
 Every year, either at the beginning or end of the year.
 
 # Steps
-* Use a mind map software to review my year according to various facets
-* Use a mind map software to plan the next year according to the same facets
+* Review my year according to various facets
+* Plan the next year according to the same facets
+
+# Notes
+* I use a mind map software to do my yearly review and plan.
 
 # References
 * https://alexvermeer.com/8760hours/
