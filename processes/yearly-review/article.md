@@ -23,3 +23,4 @@ A few hours spread over the course of a few days.
 # References
 * https://alexvermeer.com/8760hours/
 * https://chrisguillebeau.com/how-to-conduct-your-own-annual-review
+* https://www.anthonyjcampbell.com/blog/8760-hours
