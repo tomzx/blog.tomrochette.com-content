@@ -15,3 +15,6 @@ Every month, either at the beginning or end of the month.
 * Provide feedback related to my plan
 * [Review my year plan](../yearly-review/article.md)
 * Plan next month
+
+# Notes
+* I use a text editor, such as VS Code, to write my monthly reviews.
