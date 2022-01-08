@@ -212,3 +212,6 @@ taxonomy:
 * Switch: How to Change Things When Change Is Hard
 * Prediction Machines: The Simple Economics of Artificial Intelligence
 * Smart Choices: A Practical Guide to Making Better Decisions
+
+# 2022
+* AI Superpowers: China, Silicon Valley, and the New World Order
