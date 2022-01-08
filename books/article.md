@@ -210,3 +210,4 @@ taxonomy:
 * The Psychopath Test: A Journey Through the Madness Industry
 * Remote: Office Not Required
 * Switch: How to Change Things When Change Is Hard
+* Prediction Machines: The Simple Economics of Artificial Intelligence
