@@ -211,3 +211,4 @@ taxonomy:
 * Remote: Office Not Required
 * Switch: How to Change Things When Change Is Hard
 * Prediction Machines: The Simple Economics of Artificial Intelligence
+* Smart Choices: A Practical Guide to Making Better Decisions
