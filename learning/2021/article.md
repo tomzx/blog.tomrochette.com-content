@@ -30,3 +30,4 @@ taxonomy:
 * Load balancing
 	* GRPC
 	* Kafka
+* Lens (GUI for Kubernetes)
