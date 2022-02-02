@@ -5,3 +5,6 @@ taxonomy:
   type: post
   category: [Learning]
 ---
+
+* GCP
+    * Traffic director
