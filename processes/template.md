@@ -2,7 +2,8 @@
 title: Template
 created: YYYY-MM-DD
 taxonomy:
-  type: post
+# Uncomment to publish
+#  type: post
   category: [Processes]
   status: draft
 ---
