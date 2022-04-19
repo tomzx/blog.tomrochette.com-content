@@ -9,4 +9,15 @@ taxonomy:
 
 * Define the incident owner
 * Define the incident secretary/communicator
-* Create and document observations, hypotheses, who made them, when, if they have been validated/invalidated, the actions taken, by whom, if it had the desired effect, screenshots, links to logs, etc.
+* Create and document
+	* observations
+	* hypotheses/theories
+	* who made them
+	* when
+	* if they have been validated/invalidated
+	* the actions taken
+	* by whom
+	* if it had the desired effect
+	* screenshots
+	* links to logs
+	* etc.
