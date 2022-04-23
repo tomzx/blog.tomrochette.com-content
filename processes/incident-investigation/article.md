@@ -10,7 +10,7 @@ taxonomy:
 * Define the incident owner
 * Define the incident secretary/communicator
 * Create and document
-	* observations
+	* observations (link to metrics dashboards with absolute timestamps as much as possible)
 	* hypotheses/theories
 	* who made them
 	* when
@@ -23,3 +23,4 @@ taxonomy:
 	* etc.
 * In the situation where an incident has been caused by the introduction of a code regression, revert the change and deploy as soon as possible
 * Start by reducing/relieving the impact of the incident before searching for a root cause
+* Use multiple data sources when data sources do not agree
