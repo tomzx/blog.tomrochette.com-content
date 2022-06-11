@@ -12,10 +12,12 @@ Processes are a way to do things, such that the process can be then reproduced i
 
 # Articles
 * [Answering coding interview questions](answering-coding-interview-questions/article.md)
-* [Book reading](book-reading/article.md)
 * [Book rating](book-rating/article.md)
+* [Book reading](book-reading/article.md)
 * [Decision log](decision-log/article.md)
 * [Habits](habits/article.md)
+* [Incident investigation](incident-investigation/article.md)
+* [Incident post-mortem](incident-post-mortem/article.md)
 * [Investing](investing/article.md)
 * [Managing your reading](managing-your-reading/article.md)
 * [Meetings](meetings/article.md)
