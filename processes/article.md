@@ -21,6 +21,7 @@ Processes are a way to do things, such that the process can be then reproduced i
 * [Investing](investing/article.md)
 * [Managing your reading](managing-your-reading/article.md)
 * [Meetings](meetings/article.md)
+* [Monthly review](monthly-review/article.md)
 * [New company onboarding](new-company-onboarding/article.md)
 * [One on one](one-on-one/article.md)
 * [Planning large software projects](planning-large-software-projects/article.md)
@@ -39,3 +40,4 @@ Processes are a way to do things, such that the process can be then reproduced i
 * [Writing documentation](writing-documentation/article.md)
 * [Writing tests](writing-tests/article.md)
 * [Writing tickets](writing-tickets/article.md)
+* [Yearly review](yearly-review/article.md)
