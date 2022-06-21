@@ -16,8 +16,9 @@ taxonomy:
 	* Approvers: Name &lt;email&gt; (date), Name &lt;email&gt; (date), ...
 	* Created on: &lt;date&gt;
 	* Updated on: &lt;date&gt;
-	* Background
-	* Problem
+	* Overview
+	* Background/Context
+	* Problem description
 	* Solution
 	* References: Documents/URLs that can be useful to consult
 * If a RFC is abandoned, the reasons why should be made explicit in the document
