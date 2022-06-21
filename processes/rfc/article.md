@@ -19,7 +19,8 @@ taxonomy:
 	* Overview
 	* Background/Context
 	* Problem description
-	* Solution
+	* Proposed solution
+	* Alternative solutions
 	* References: Documents/URLs that can be useful to consult
 * If a RFC is abandoned, the reasons why should be made explicit in the document
 
