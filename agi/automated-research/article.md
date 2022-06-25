@@ -265,7 +265,6 @@ What are the phases of a research?
 * [Hamming, "You and Your Research" (June 6, 1995)](https://www.youtube.com/watch?v=a1zDuOPkMSw)
 * Doing Your Research Project: A Guide For First-Time Researchers
 * https://www.connectedpapers.com/
-* https://www.researchgate.net/publication/27098983_Doing_Your_Research_Project_A_Guide_For_First-Time_Researchers
 
 ## Labeled training data
 * https://github.com/knmnyn/ParsCit/tree/master/doc
