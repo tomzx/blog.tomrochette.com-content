@@ -25,6 +25,9 @@ The process described below attempts to optimize reading quality books and enjoy
 4. Sort books by weighted rating (descending), then average estimated amount of time left to complete (ascending)
 5. If you have books that you haven't read yet, go back to the first step. If not, then pick the book at the top of the list computed in the previous step, then continue from step 2
 
+# Heuristics
+* It's better to read a good book than to finish a bad book
+
 # References
 * [How to prioritize which book to read](../../questions/2020/01/06/article.md)
 * [Tracking my readings](../../questions/2020/02/18/article.md)
