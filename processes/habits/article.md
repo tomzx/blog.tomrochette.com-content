@@ -21,3 +21,10 @@ taxonomy:
 * Weekly planning on Mondays
 * Monthly planning on the first of the month
 * Pay credit card on the first of the month
+
+# My prompt sources
+* Google Keep
+* Google Calendar
+* Slack
+* Daylio
+* Notion
