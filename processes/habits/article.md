@@ -17,7 +17,18 @@ taxonomy:
 	* If you decide not to keep the habit, record why you decided to drop the habit such that if you decide to pick it up again, you can determine whether you might end up dropping it again.
 * It's not a problem if you miss doing your habit, just make sure to do it when you're supposed to
 
+# My habits
+* Daily planning
+* Weekly planning
+* Monthly planning
+* Pay bills
+* Eat/Drink
+* Shower
+* Was dishes
+* Cook
+
 # My prompts
+* Daily planning at 10 am
 * Weekly planning on Mondays
 * Monthly planning on the first of the month
 * Pay credit card on the first of the month
