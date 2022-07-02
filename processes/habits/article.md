@@ -36,6 +36,7 @@ taxonomy:
 # My prompt sources
 * Google Keep
 * Google Calendar
+* Google Mail
 * Slack
 * Daylio
 * Notion
