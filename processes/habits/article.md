@@ -28,6 +28,8 @@ taxonomy:
 * Exercise
 * Read
 * Watch TV shows
+* Floss
+* Brush teeth
 
 ## Weekly
 * Weekly planning
