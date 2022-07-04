@@ -18,14 +18,25 @@ taxonomy:
 * It's not a problem if you miss doing your habit, just make sure to do it when you're supposed to
 
 # My habits
+## Daily
 * Daily planning
-* Weekly planning
-* Monthly planning
-* Pay bills
 * Eat/Drink
 * Shower
-* Was dishes
+* Wash dishes
 * Cook
+* Exercise
+* Read
+* Watch TV shows
+
+## Weekly
+* Weekly planning
+* Wash clothes
+* Clean apartment
+* Buy groceries
+
+## Monthly
+* Monthly planning
+* Pay bills
 
 # My prompts
 * Daily planning at 10 am
