@@ -20,6 +20,7 @@ taxonomy:
 # My habits
 ## Daily
 * Daily planning
+* Daily review
 * Eat/Drink
 * Shower
 * Wash dishes
@@ -30,13 +31,19 @@ taxonomy:
 
 ## Weekly
 * Weekly planning
+* Weekly review
 * Wash clothes
 * Clean apartment
 * Buy groceries
 
 ## Monthly
 * Monthly planning
+* Monthly review
 * Pay bills
+
+## Yearly
+* Yearly planning
+* Year review
 
 # My prompts
 * Daily planning at 10 am
