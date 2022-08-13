@@ -8,16 +8,20 @@ taxonomy:
 ---
 
 # Abilities/Skills
+## Junior
+
+## Intermediate
+
+## Senior
+
 * Identify problems
 * Describe problems
 * Decompose problems
 * Solve problems
-
 * Recognize when too much effort is put into a problem
 * Reach to others for help
-* Share their knowledge
 * Learn from others
 * Prioritize their work
-
+* Share their knowledge
 * Track their work
 * Follow up with others
