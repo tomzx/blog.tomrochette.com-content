@@ -12,3 +12,5 @@ taxonomy:
 * Describe problems
 * Decompose problems
 * Solve problems
+* Track their work
+* Follow up with others
