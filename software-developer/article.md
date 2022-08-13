@@ -6,3 +6,9 @@ taxonomy:
   category: [Software development]
   status: draft
 ---
+
+# Abilities/Skills
+* Identify problems
+* Describe problems
+* Decompose problems
+* Solve problems
