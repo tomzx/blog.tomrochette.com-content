@@ -13,6 +13,9 @@ taxonomy:
 	* Summary
 	* Observations (link to metrics dashboards with absolute timestamps as much as possible)
 		* Screenshots
+			* Who took the screenshot
+			* Link to get the graph/data
+			* Associated conclusions
 		* Links to logs
 	* Hypotheses/theories
 		* Who made them
@@ -28,3 +31,5 @@ taxonomy:
 * Diagram all the implicated systems and the relationship to one another in order to identify the potential locations where the problem might be
 * Test your hypotheses to verify if they hold or not
 * Develop a procedure over time that can be followed to diagnose similar issues
+
+* Once the incident is completed, have a summary of the conclusions at the top of the document with a link to the sections in the document explaining the rationale behind the conclusions
