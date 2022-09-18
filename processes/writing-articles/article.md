@@ -7,6 +7,10 @@ taxonomy:
   status: draft
 ---
 
+* Define what is it you want to communicate
+* Define why it is you want to communicate what you want to communicate
+* Write down all the topics you want to cover
+* Organize the topics in a structured manner (i.e., an outline)
 * Write a draft
 * Expand the points of the draft
 * Review the grammar with https://www.grammarly.com/
