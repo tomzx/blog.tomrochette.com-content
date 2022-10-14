@@ -73,7 +73,7 @@ taxonomy:
 
 ## 5 Theory of Notebooks
 * Repeated thinking is when we think the same thoughts, over and over again, without really getting anywhere
-* Loss progress is when we have solved a situation before, but we go back and return to it
+* Lost progress is when we have solved a situation before, but we go back and return to it
 * If we kept records and mapped our thoughts, we could keep a map in mind, and identify our position on the map and the transitions to solved states
 * Michael Ende wrote that we learn things and forget them, learn things and forget them. His idea was that these build layers in our mind that, though we can’t see them, are still there, and support us.
 	* Similar to the idea of On Intelligence where idea start at a low level and are (re-)constructed at higher levels where they serve as new foundations for future layers
