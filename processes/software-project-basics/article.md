@@ -22,3 +22,4 @@ taxonomy:
 * A project repository must have a RELEASING.md explaining how to release the code
 * Responsibilities are made explicit in terms of roles
 * Critical roles, such as project lead, must have a backup/shadow individual
+* Setup telemetry, alerts, profiling, logging
