@@ -6,16 +6,8 @@ taxonomy:
   status: in progress
 ---
 
-## Context
+# Prompt
 
-## Learned in this study
 
-## Things to explore
 
-# Overview
-
-# Notes
-
-# See also
-
-# References
+# Answer
