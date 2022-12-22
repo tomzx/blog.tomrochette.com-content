@@ -8,7 +8,7 @@ taxonomy:
 
 # Prompt
 
-
+How can we use the teacher/student metaphor in AI?
 
 # Answer
 
