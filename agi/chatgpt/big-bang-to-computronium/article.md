@@ -8,6 +8,6 @@ taxonomy:
 
 # Prompt
 
-
+How do we go from the big bang to a universe fully saturated with computronium?
 
 # Answer
