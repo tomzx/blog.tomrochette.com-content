@@ -8,5 +8,6 @@ taxonomy:
 
 # Prompt
 
+Is it possible that time is actually multi-dimensional?
 
 # Answer
