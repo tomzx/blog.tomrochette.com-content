@@ -8,7 +8,7 @@ taxonomy:
 
 # Prompt
 
-
+Let's write a science fiction story together about an ai researcher that develops a seed ai that ends up being beneficial to human kind.
 
 # Answer
 
