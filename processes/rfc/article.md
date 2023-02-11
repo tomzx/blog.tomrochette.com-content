@@ -23,6 +23,7 @@ taxonomy:
 	* Proposed solution: What is the best solution proposed?
 	* Alternative solutions: What are the alternative solutions considered and why aren't they the proposed solution?
 	* Drawbacks: What are the downsides of solving this problem?
+	* Impact and risks: What will be the impact of this change on existing systems, processes, or stakeholders?
 	* Unresolved questions: What are the questions that need to be answered but don't have an answer to yet?
 	* References: Documents/URLs that can be useful to consult
 * If a RFC is abandoned, the reasons why should be made explicit in the document
