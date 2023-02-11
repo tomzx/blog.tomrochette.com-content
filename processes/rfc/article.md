@@ -16,13 +16,14 @@ taxonomy:
 	* Approvers: Name &lt;email&gt; (date), Name &lt;email&gt; (date), ...
 	* Created on: &lt;date&gt;
 	* Updated on: &lt;date&gt;
-	* Overview
-	* Background/Context
-	* Problem description
-	* Proposed solution
-	* Alternative solutions
-	* Drawbacks
-	* Unresolved questions
+	* Overview: A high level description of what you're describing in the document
+	* Background/Context: Context relevant to understanding the document
+	* Problem description:
+	* Motivation: Why is it relevant to solve this problem now?
+	* Proposed solution: What is the best solution proposed?
+	* Alternative solutions: What are the alternative solutions considered and why aren't they the proposed solution?
+	* Drawbacks: What are the downsides of solving this problem?
+	* Unresolved questions: What are the questions that need to be answered but don't have an answer to yet?
 	* References: Documents/URLs that can be useful to consult
 * If a RFC is abandoned, the reasons why should be made explicit in the document
 
