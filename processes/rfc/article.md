@@ -18,7 +18,7 @@ taxonomy:
 	* Updated on: &lt;date&gt;
 	* Overview: A high level description of what you're describing in the document
 	* Background/Context: Context relevant to understanding the document
-	* Problem description:
+	* Problem description: Describe what you are currently cannot do and want to be able to do
 	* Motivation: Why is it relevant to solve this problem now?
 	* Proposed solution: What is the best solution proposed?
 	* Alternative solutions: What are the alternative solutions considered and why aren't they the proposed solution?
