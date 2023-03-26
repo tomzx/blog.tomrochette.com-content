@@ -18,6 +18,7 @@ taxonomy:
 
 * How to determine when it is not possible to reach a goal at a given moment in time?
 
+
 * It's important to know what your goals are
 * It's important to understand why they are your goals
 * It's important to determine which goals are more important than others (goals priority)
