@@ -17,7 +17,9 @@ taxonomy:
 	* Determine the differences between your state and theirs (what they know, what resources are available to them, etc.)
 
 * How to determine when it is not possible to reach a goal at a given moment in time?
-
+	* Not enough time available
+	* Too costly
+	* Dependencies not resolved/ready
 
 * It's important to know what your goals are
 * It's important to understand why they are your goals
