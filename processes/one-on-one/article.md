@@ -19,6 +19,6 @@ taxonomy:
 * Avoid using one on one for status updates
 
 # References
-* https://www.impraise.com/blog/1-on-1s-for-engaged-employees-how-good-managers-run-them
+* https://web.archive.org/web/20211112152135/https://www.impraise.com/blog/1-on-1s-for-engaged-employees-how-good-managers-run-them
 * https://getlighthouse.com/blog/questions-ask-one-on-ones-manager/
 * https://about.gitlab.com/handbook/leadership/1-1/
