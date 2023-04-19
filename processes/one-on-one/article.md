@@ -16,6 +16,7 @@ taxonomy:
 * Write in a shared document (between the two of you) what is discussed
 * If any action items are defined during those meetings, use a task tracking system to keep each other accountable
   * Always define a deadline on tasks to indicate when the task should be revisited
+* Avoid using one on one for status updates
 
 # References
 * https://www.impraise.com/blog/1-on-1s-for-engaged-employees-how-good-managers-run-them
