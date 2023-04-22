@@ -7,6 +7,8 @@ taxonomy:
   status: in progress
 ---
 
+Content written using [ChatGPT](https://chat.openai.com/), prompted by yours truly.
+
 # Random
 * [AI teacher/student metaphor](ai-teacher-student-metaphor/article.md)
 * [Benefits of ETI technology](benefits-of-eti-technology/article.md)
