@@ -18,6 +18,10 @@ taxonomy:
 
 Let us walk through a scenario and use ChatGPT.
 
+> User: We want to produce a new classification model and the associated infrastructure to serve real-time predictions. What should our next steps be?
+
+> ChatGPT:
+
 # Notes
 
 # See also
