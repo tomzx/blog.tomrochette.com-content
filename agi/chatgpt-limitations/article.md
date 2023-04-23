@@ -82,6 +82,7 @@ Again, ChatGPT's answer is high level. It mostly reused its previous answer but 
 >
 > When collecting data, it's important to ensure that the sample is representative of the population you are interested in. This can be achieved by using random sampling or stratified sampling techniques. Additionally, it's important to ensure that participants provide informed consent and that their privacy is protected.
 
+Things are starting to get more concrete, but still not concrete enough. At this point we simply copy/paste the first step as prompt.
 
 > **User:**  Conduct an online survey using a platform like Google Forms or SurveyMonkey. You can create a questionnaire that includes questions about age, country, app usage, number of friends, and which brand they prefer (A or B). You can then distribute the survey to a representative sample of people using social media or email lists.
 
