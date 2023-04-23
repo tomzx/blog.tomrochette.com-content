@@ -79,7 +79,7 @@ Let us walk through a scenario and use ChatGPT.
 > User:  Conduct an online survey using a platform like Google Forms or SurveyMonkey. You can create a questionnaire that includes questions about age, country, app usage, number of friends, and which brand they prefer (A or B). You can then distribute the survey to a representative sample of people using social media or email lists.
 
 > ChatGPT: Here's an example of how you can create an online survey using Google Forms:
-
+>
 > Go to Google Forms and log in to your Google account.
 > Click on the "Blank" template to create a new survey.
 > Add a title to your survey and include a brief introduction that explains the purpose of the survey and how the data will be used.
@@ -93,7 +93,16 @@ Let us walk through a scenario and use ChatGPT.
 
 > User: Go to Google Forms and log in to your Google account.
 
-> ChatGPT:
+> ChatGPT: I'm sorry, as an AI language model, I don't have the ability to log in to your Google account. However, you can follow these steps to log in to your Google account and access Google Forms:
+
+> Go to the Google homepage (www.google.com) on your web browser.
+> Click on the "Sign in" button located on the top right corner of the page.
+> Enter your Google account email address and password in the provided fields.
+> Click on the "Next" button to proceed.
+> If prompted, enter the verification code sent to your registered phone number or email address to verify your identity.
+> Once you have successfully signed in, click on the "Apps" icon (represented by 9 small squares) located on the top right corner of the page.
+> Click on the "Forms" icon to access Google Forms.
+> You can now create a new form or edit an existing one.
 
 # Notes
 
