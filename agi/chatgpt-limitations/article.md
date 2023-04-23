@@ -118,6 +118,10 @@ At this point it has recognized that as an AI language model, it does not "have 
 
 Interestingly enough, a simple approach is to simply ask ChatGPT to produce a program from the prior list of steps.
 
+> **User:** Return the list of previous steps as if they were a program.
+
+> **ChatGPT:**
+
 # Notes
 
 # See also
