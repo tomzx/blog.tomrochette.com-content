@@ -200,7 +200,10 @@ Interestingly enough, a simple approach is to simply ask ChatGPT to produce a pr
 >
 > # Close the browser
 > browser.quit()
+>
+> Note that this program is written in Python using the Selenium WebDriver library to automate web browser actions. It assumes that the user has the necessary credentials to access Google Forms and has the ChromeDriver executable installed on their system.
 
+Here it produced some python code using the Selenium webdriver library
 
 # Notes
 
