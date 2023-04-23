@@ -75,3 +75,7 @@ These are just a few examples of the skills I possess as an AI language model. H
 # Observations
 
 We need to be able to tell whether we're satisfied with a response and whether we can move forward.
+
+# Prompt
+
+Given the previous list, Research passive income streams.
