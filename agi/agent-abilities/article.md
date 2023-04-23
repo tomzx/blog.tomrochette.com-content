@@ -7,7 +7,7 @@ taxonomy:
 ---
 
 ## Context
-The goal is to define a list of tasks/abilities, such that it is possible to order them by complexity
+The goal is to define a list of tasks/abilities, such that it is possible to order them by complexity.
 
 ## Learned in this study
 
@@ -31,5 +31,3 @@ The goal is to define a list of tasks/abilities, such that it is possible to ord
 # See also
 
 # References
-
-
