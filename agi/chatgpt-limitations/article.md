@@ -38,6 +38,8 @@ Let us walk through a scenario and use ChatGPT.
 >
 > Monitor and update the model: Monitor the model's performance in real-time, and update the model as needed to improve its performance. This may involve retraining the model with new data or tweaking the hyperparameters.
 
+Given a high level request, ChatGPT correctly responds with a high level response. The next logical step is to start answering the first step with more details. One thing that ChatGPT does not do is prompt the user for further detail. It offers its whole answer and then leaves it to the user to decide what to do next.
+
 > **User:** I want to be able to classify whether a person prefers one brand over another.
 > I might know about the age of that person, the country where they live, how much time they use a given app per day, how many friends they have on this app.
 > As output, I want to classify whether they would prefer brand A or brand B.
