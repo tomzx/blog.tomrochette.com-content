@@ -7,6 +7,8 @@ taxonomy:
   status: in progress
 ---
 
+## Exploratory activities
+
 * [Limitations](limitations/article.md)
 
 # Written by ChatGPT
