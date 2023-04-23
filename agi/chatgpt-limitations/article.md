@@ -99,6 +99,7 @@ Things are starting to get more concrete, but still not concrete enough. At this
 > Monitor responses as they come in and analyze the data once you have a sufficient sample size.
 > When distributing your survey, it's important to ensure that you reach a representative sample of people. You can use social media, email lists, or targeted advertising to reach your desired audience. It's also important to provide participants with informed consent and ensure that their privacy is protected.
 
+Now we're at a level where there are actionable steps. The problem however is that we need some form of intelligence to recognize that a step is at a low level enough to be actionable. The next problem is that we need the necessary processes to execute said action. Let's see what happens when we ask ChatGPT to help us with the first step (again).
 
 > **User:** Go to Google Forms and log in to your Google account.
 
