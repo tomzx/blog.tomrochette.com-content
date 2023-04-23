@@ -11,6 +11,7 @@ What are some skills that an AGI based on ChatGPT would need to have?
 * Prompt the operator to disambiguate
 * Generate code
 * Execute code
+* Identify useful behavior that can be reused
 
 # References
 * [Limitations](../limitations/article.md)
