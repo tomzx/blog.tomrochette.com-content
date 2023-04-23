@@ -20,7 +20,7 @@ Let us walk through a scenario and use ChatGPT.
 
 > User: We want to produce a new classification model and the associated infrastructure to serve real-time predictions. What should our next steps be?
 
-> *ChatGPT:* There are several steps you can take to produce a new classification model and associated infrastructure for serving real-time predictions:
+> **ChatGPT:** There are several steps you can take to produce a new classification model and associated infrastructure for serving real-time predictions:
 >
 > Define the problem: Define the problem you want to solve with your classification model. What are the inputs to your model, and what are the outputs you want to predict? For example, you may want to classify images into different categories, or classify text into different sentiment categories.
 >
@@ -42,7 +42,7 @@ Let us walk through a scenario and use ChatGPT.
 > I might know about the age of that person, the country where they live, how much time they use a given app per day, how many friends they have on this app.
 > As output, I want to classify whether they would prefer brand A or brand B.
 
-> *ChatGPT:* Great! Here's an overview of the steps you could take to create a classification model to predict whether a person prefers brand A or brand B based on their age, country, app usage, and number of friends:
+> **ChatGPT:** Great! Here's an overview of the steps you could take to create a classification model to predict whether a person prefers brand A or brand B based on their age, country, app usage, and number of friends:
 >
 > Data collection: Collect data from a representative sample of people that includes their age, country, app usage, number of friends, and which brand they prefer (A or B).
 >
@@ -65,7 +65,7 @@ Let us walk through a scenario and use ChatGPT.
 
 > User: Help me Collect data from a representative sample of people that includes their age, country, app usage, number of friends, and which brand they prefer (A or B).
 
-> *ChatGPT:* Collecting data from a representative sample of people can be done in several ways, depending on the resources and time available. Here are some possible methods:
+> **ChatGPT:** Collecting data from a representative sample of people can be done in several ways, depending on the resources and time available. Here are some possible methods:
 >
 > Online surveys: Conduct an online survey using a platform like Google Forms or SurveyMonkey. You can create a questionnaire that includes questions about age, country, app usage, number of friends, and which brand they prefer (A or B). You can then distribute the survey to a representative sample of people using social media or email lists.
 >
@@ -80,7 +80,7 @@ Let us walk through a scenario and use ChatGPT.
 
 > User:  Conduct an online survey using a platform like Google Forms or SurveyMonkey. You can create a questionnaire that includes questions about age, country, app usage, number of friends, and which brand they prefer (A or B). You can then distribute the survey to a representative sample of people using social media or email lists.
 
-> *ChatGPT:* Here's an example of how you can create an online survey using Google Forms:
+> **ChatGPT:** Here's an example of how you can create an online survey using Google Forms:
 >
 > Go to Google Forms and log in to your Google account.
 > Click on the "Blank" template to create a new survey.
@@ -96,7 +96,7 @@ Let us walk through a scenario and use ChatGPT.
 
 > User: Go to Google Forms and log in to your Google account.
 
-> *ChatGPT:* I'm sorry, as an AI language model, I don't have the ability to log in to your Google account. However, you can follow these steps to log in to your Google account and access Google Forms:
+> **ChatGPT:** I'm sorry, as an AI language model, I don't have the ability to log in to your Google account. However, you can follow these steps to log in to your Google account and access Google Forms:
 
 > Go to the Google homepage (www.google.com) on your web browser.
 > Click on the "Sign in" button located on the top right corner of the page.
