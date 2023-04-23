@@ -1,6 +1,6 @@
 ---
-title: ChatGPT limitations
-created: 2023-04-22
+title: Preventing repetition
+created: 2023-04-23
 taxonomy:
   category: [Artificial General Intelligence, ChatGPT]
   status: in progress
