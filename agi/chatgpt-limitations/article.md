@@ -66,6 +66,7 @@ For now we will give details to the first step ChatGPT provided and will see how
 >
 > Remember to keep in mind the ethical considerations of using personal data for classification purposes, and ensure that you comply with all relevant data protection laws and regulations.
 
+Again, ChatGPT's answer is high level. It mostly reused its previous answer but adapted it slightly with the context it was provided. Once again, all these high level tasks are too broad to be actionable yet. We will continue to provide more details to the first step and see how ChatGPT responds.
 
 > **User:** Help me Collect data from a representative sample of people that includes their age, country, app usage, number of friends, and which brand they prefer (A or B).
 
