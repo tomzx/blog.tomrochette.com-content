@@ -17,7 +17,12 @@ What are some skills that an AGI based on ChatGPT would need to have?
 	* For the purpose of our studies we will try to limit ourselves to using the Python programming language as it should be versatile enough to complete a wide variety of tasks. Furthermore ChatGPT is likely to have been trained on a lot of Python code, so it should be able to generate fairly good Python code that does not require a lot of manual tweaking or iterations.
 * Execute code
 	* Once ChatGPT has generated python code, it needs to be able to execute it. As we do not want to have to worry about what the script does, we will need to run it in a sandboxed environment.
+	* For now we're mostly concerned about the generated code trying to delete files on the system. A simple solution to this approach would be to have the file system containing the operating system, generated code and python libraries be read-only. This would prevent the generated code from deleting files, but it would also prevent it from writing files. We can allow it to write files to a temporary working directory.
 * Identify useful behavior that can be reused
+	* As ChatGPT goes through the motion of solving problems, certain actions and behaviors will be repeated over and over again, the same way a function gets called over and over during program execution. We need to be able to identify those behaviors and extract them into reusable functions.
+* Recognize when a known behavior can be used
+	* Once we've identified a behavior that can be reused, we need to be able to recognize when it can be used.
+	* Interestingly enough, the reuse of behavior may appear similar to the prompt-response loop.
 * Recognize when we're in a prompt-response loop
 	* A prompt-response loop is when we ask ChatGPT something, it responds, we ask it something else, it responds, but not progress is being made. We're stuck in a loop.
 	* If we're in a prompt-response loop, we need to be able to break out of it.
