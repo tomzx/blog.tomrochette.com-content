@@ -37,7 +37,9 @@ Note that most of the client's work is simply to submit requests to ChatGPT, wai
 Depending on the type of work involved, the amount of compute necessary will vary.
 
 # Execution environment
-A local environment could be implemented using docker as its foundation. The host computer would be responsible starting and stopping docker contains according to the needs of the project.
+A local environment could be implemented using docker as its foundation. The host computer would be responsible starting and stopping docker contains according to the needs of the project. A production environment could be implemented using Kubernetes.
+
+In both situations, a client is responsible for submitting a goal, which will result in the AutoGPT cluster to start working on the goal.
 
 # References
 * https://github.com/Significant-Gravitas/Auto-GPT
