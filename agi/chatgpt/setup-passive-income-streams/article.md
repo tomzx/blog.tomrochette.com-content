@@ -28,6 +28,8 @@ Remember that setting up a passive income stream is not a one-time task; it requ
 
 # Observations
 
+ChatGPT offers a very high level plan. Let's proceed with the first step.
+
 # Prompt
 
 Identify your skills and interests
