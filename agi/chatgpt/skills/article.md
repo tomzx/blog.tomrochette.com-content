@@ -35,7 +35,7 @@ What are some skills that an AGI based on ChatGPT would need to have?
 	* A non automated way to prevent infinite prompt-response loops is to have an operator review the operation logs every X steps and identify when the operation is stuck in a prompt-response loop.
 * Recognize when the desired behavior/action has been completed
 
-# References
+# See also
 * [Limitations](../limitations/article.md)
 * [Seed AI](../seed-ai/article.md)
 * [Setup passive income streams](../setup-passive-income-streams/article.md)
