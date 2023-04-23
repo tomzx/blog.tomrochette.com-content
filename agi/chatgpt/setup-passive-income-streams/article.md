@@ -71,3 +71,7 @@ As an AI language model, I don't have skills in the same way that humans do. How
 7. Engaging in conversation and providing suggestions or advice.
 
 These are just a few examples of the skills I possess as an AI language model. However, my capabilities are constantly evolving and improving as my training data expands and new technologies are developed.
+
+# Observations
+
+We need to be able to tell whether we're satisfied with a response and whether we can move forward.
