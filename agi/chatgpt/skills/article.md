@@ -8,6 +8,7 @@ taxonomy:
 
 What are some skills that an AGI based on ChatGPT would need to have?
 
+* Prompt the operator to disambiguate
 
 # References
 * [Limitations](../limitations/article.md)
