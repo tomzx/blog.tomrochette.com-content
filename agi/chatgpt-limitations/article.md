@@ -215,6 +215,6 @@ Assuming the code works, then it will have successfully created a Google Form. I
 # See also
 
 # References
+* https://github.com/Significant-Gravitas/Auto-GPT
 * https://github.com/reworkd/AgentGPT
 * https://github.com/yoheinakajima/babyagi
-* https://github.com/Significant-Gravitas/Auto-GPT
