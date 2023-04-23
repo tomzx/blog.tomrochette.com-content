@@ -13,4 +13,4 @@ taxonomy:
 # Task distribution
 Given that ChatGPT will generally produce a list of tasks to produce in order to achieve a goal, it is possible to distribute those tasks to different agents. This is similar to how a project manager would distribute tasks to different people. This is also similar to how a machine learning engineer would distribute tasks to different machine learning models.
 
-Given that current ChatGPT models take between 10 and 20 seconds to respond, high task parallelism will make better use of our rate limit. Assuming we are using the gpt-3.5-turbo model which has a response time of 10s per request (for 512 output tokens and a temperature of 0.7) and we have 3500 RPM, a single agent will run 6 queries per minute
+Given that current ChatGPT models take between 10 and 20 seconds to respond, high task parallelism will make better use of our rate limit. Assuming we are using the gpt-3.5-turbo model which has a response time of 10s per request (for 512 output tokens and a temperature of 0.7) and we have 3500 RPM, a single agent will run 6 queries per minute. We would be able to run around 580 agents in parallel.
