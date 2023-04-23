@@ -7,3 +7,5 @@ taxonomy:
 ---
 
 # Prompt
+
+Let's implement a seed AI.
