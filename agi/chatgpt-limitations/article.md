@@ -78,6 +78,19 @@ Let us walk through a scenario and use ChatGPT.
 
 > User:  Conduct an online survey using a platform like Google Forms or SurveyMonkey. You can create a questionnaire that includes questions about age, country, app usage, number of friends, and which brand they prefer (A or B). You can then distribute the survey to a representative sample of people using social media or email lists.
 
+> ChatGPT: Here's an example of how you can create an online survey using Google Forms:
+
+> Go to Google Forms and log in to your Google account.
+> Click on the "Blank" template to create a new survey.
+> Add a title to your survey and include a brief introduction that explains the purpose of the survey and how the data will be used.
+> Add questions about age, country, app usage, number of friends, and brand preference (A or B). You can use a variety of question types, such as multiple choice, dropdown, or text input fields.
+> Customize the appearance of your survey by choosing a theme or adding images.
+> Preview your survey to ensure that it looks the way you want it to.
+> Set up distribution options, such as a link to the survey or embedding it on a website. You can also send the survey via email or social media.
+> Test your survey to ensure that it is working properly.
+> Monitor responses as they come in and analyze the data once you have a sufficient sample size.
+> When distributing your survey, it's important to ensure that you reach a representative sample of people. You can use social media, email lists, or targeted advertising to reach your desired audience. It's also important to provide participants with informed consent and ensure that their privacy is protected.
+
 # Notes
 
 # See also
