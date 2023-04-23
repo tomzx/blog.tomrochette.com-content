@@ -207,6 +207,8 @@ browser.quit()
 
 Here it produced some python code using the Selenium webdriver library. I have not tested whether the code actually works as intended, but I can tell from this that a necessary next step would be to have some kind of sandboxed environment in which the code can be executed. Another necessary thing would be to have python installed, with the necessary python libraries. It is not clear however how we should recognize this. Maybe we could force ChatGPT to always produce code in a given programming language. We would also know that we need to prompt it to return a list of libraries dependency, or use an external tool that would be responsible for retrieving the list of dependencies based on a code snippet, similar to how Go does dependency management.
 
+Assuming the code works, then it will
+
 # Notes
 
 # See also
