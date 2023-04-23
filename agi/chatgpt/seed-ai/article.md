@@ -31,3 +31,8 @@ Validate and test the model: Once the model has been trained, it should be valid
 Deploy the model: The model should be deployed and integrated into the desired application or system.
 
 It's important to note that these are just general steps, and the actual process of building a seed AI can be much more complex and involved depending on the specific project. It's also important to consider the ethical implications and potential risks associated with creating a seed AI, including issues related to bias, privacy, and safety.
+
+# Prompt
+
+The goal of the seed AI is to produce an AGI capable of recursive self-improvement.
+Once it is able to recursively self-improve, it's task should be to continue its self-improvement while helping humanity improve and solve its own set of problems.
