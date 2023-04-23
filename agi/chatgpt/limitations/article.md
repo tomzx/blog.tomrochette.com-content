@@ -33,8 +33,7 @@ This is all assuming that responses are instantaneous, which is unlikely. Accord
 # Notes
 
 # See also
-
-# References
 * [Produce a classification model](../produce-a-classification-model/article.md)
 
+# References
 * https://gptforwork.com/tools/openai-api-response-time-tracker
