@@ -7,12 +7,10 @@ taxonomy:
   status: in progress
 ---
 
-## Exploratory activities
-
+# Exploratory activities
 * [Limitations](limitations/article.md)
 
 # Written by ChatGPT
-
 Content written using [ChatGPT](https://chat.openai.com/), prompted by yours truly.
 
 ## Random
