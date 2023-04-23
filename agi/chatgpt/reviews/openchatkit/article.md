@@ -8,3 +8,6 @@ taxonomy:
 
 # GPT-NeoXT-Chat-Base-20B-v0.16
 * Evades answering most questions
+
+## Example prompt
+What is the meaning of life?
