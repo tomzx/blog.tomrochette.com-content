@@ -18,7 +18,7 @@ taxonomy:
 
 Let us walk through a scenario and use ChatGPT.
 
-> User: We want to produce a new classification model and the associated infrastructure to serve real-time predictions. What should our next steps be?
+> **User:** We want to produce a new classification model and the associated infrastructure to serve real-time predictions. What should our next steps be?
 
 > **ChatGPT:** There are several steps you can take to produce a new classification model and associated infrastructure for serving real-time predictions:
 >
@@ -38,7 +38,7 @@ Let us walk through a scenario and use ChatGPT.
 >
 > Monitor and update the model: Monitor the model's performance in real-time, and update the model as needed to improve its performance. This may involve retraining the model with new data or tweaking the hyperparameters.
 
-> User: I want to be able to classify whether a person prefers one brand over another.
+> **User:** I want to be able to classify whether a person prefers one brand over another.
 > I might know about the age of that person, the country where they live, how much time they use a given app per day, how many friends they have on this app.
 > As output, I want to classify whether they would prefer brand A or brand B.
 
@@ -63,7 +63,7 @@ Let us walk through a scenario and use ChatGPT.
 > Remember to keep in mind the ethical considerations of using personal data for classification purposes, and ensure that you comply with all relevant data protection laws and regulations.
 
 
-> User: Help me Collect data from a representative sample of people that includes their age, country, app usage, number of friends, and which brand they prefer (A or B).
+> **User:** Help me Collect data from a representative sample of people that includes their age, country, app usage, number of friends, and which brand they prefer (A or B).
 
 > **ChatGPT:** Collecting data from a representative sample of people can be done in several ways, depending on the resources and time available. Here are some possible methods:
 >
@@ -78,7 +78,7 @@ Let us walk through a scenario and use ChatGPT.
 > When collecting data, it's important to ensure that the sample is representative of the population you are interested in. This can be achieved by using random sampling or stratified sampling techniques. Additionally, it's important to ensure that participants provide informed consent and that their privacy is protected.
 
 
-> User:  Conduct an online survey using a platform like Google Forms or SurveyMonkey. You can create a questionnaire that includes questions about age, country, app usage, number of friends, and which brand they prefer (A or B). You can then distribute the survey to a representative sample of people using social media or email lists.
+> **User:**  Conduct an online survey using a platform like Google Forms or SurveyMonkey. You can create a questionnaire that includes questions about age, country, app usage, number of friends, and which brand they prefer (A or B). You can then distribute the survey to a representative sample of people using social media or email lists.
 
 > **ChatGPT:** Here's an example of how you can create an online survey using Google Forms:
 >
@@ -94,7 +94,7 @@ Let us walk through a scenario and use ChatGPT.
 > When distributing your survey, it's important to ensure that you reach a representative sample of people. You can use social media, email lists, or targeted advertising to reach your desired audience. It's also important to provide participants with informed consent and ensure that their privacy is protected.
 
 
-> User: Go to Google Forms and log in to your Google account.
+> **User:** Go to Google Forms and log in to your Google account.
 
 > **ChatGPT:** I'm sorry, as an AI language model, I don't have the ability to log in to your Google account. However, you can follow these steps to log in to your Google account and access Google Forms:
 
