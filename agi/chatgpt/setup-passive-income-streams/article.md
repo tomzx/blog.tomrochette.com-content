@@ -26,6 +26,8 @@ Passive income streams are a great way to earn money without having to actively 
 
 Remember that setting up a passive income stream is not a one-time task; it requires ongoing effort to ensure that your stream remains profitable.
 
+# Observations
+
 # Prompt
 
 Identify your skills and interests
