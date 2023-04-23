@@ -22,6 +22,9 @@ See [Produce a classification model](../produce-a-classification-model/article.m
 ## Recognizing proper responses/behaviors
 While it generates text responses, it is not always clear whether those responses are appropriate and whether they will lead to the desired outcome. For the sake of this argument, we could imagine ChatGPT returning as a task to generate a program that will execute a `while true` loop. This indicates that we need to set a timeout on any execution of code as to prevent it from getting stuck at a given step. We may alternatively run steps outside of the main execution loop. We however will need to find a way to increase the timeout when necessary if execution requires it (e.g., training a machine learning model that takes hours). Here we're already faced with the [halting problem](https://en.wikipedia.org/wiki/Halting_problem).
 
+## Remembering prior conversations
+It is common to ask ChatGPT to behave a certain way in order to modulate its output. While this may work for a few prompts, ChatGPT will soon revert to its default behavior, forgetting to respect whatever constraint you might have imposed on it in prior prompts.
+
 # Notes
 
 # See also
