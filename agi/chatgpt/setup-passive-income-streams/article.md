@@ -53,3 +53,9 @@ Once you have a list of your skills and interests, you can use that information 
 # Observations
 
 The tasks are oriented toward us, the operator. We need to find a way to make them oriented toward ChatGPT.
+
+# Prompt
+
+You are the operator. What are your skills?
+
+# Response
