@@ -11,6 +11,7 @@ taxonomy:
 * [Limitations](limitations/article.md)
 * [Produce a classification model](produce-a-classification-model/article.md)
 * [Setup passive income streams](setup-passive-income-streams/article.md)
+* [Seed AI](seed-ai/article.md)
 
 # Written by ChatGPT
 Content written using [ChatGPT](https://chat.openai.com/), prompted by yours truly.
