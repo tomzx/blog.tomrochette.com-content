@@ -122,6 +122,84 @@ Interestingly enough, a simple approach is to simply ask ChatGPT to produce a pr
 
 > **ChatGPT:** Sure, here is an example program that outlines the steps to create an online survey using Google Forms:
 >
+> # Import the necessary modules
+> from selenium import webdriver
+> from selenium.webdriver.common.keys import Keys
+> import time
+>
+> # Open Google homepage
+> browser = webdriver.Chrome()
+> browser.get("https://www.google.com")
+>
+> # Click the "Sign in" button
+> sign_in_button = browser.find_element_by_link_text("Sign in")
+> sign_in_button.click()
+>
+> # Enter email and password
+> email_field = browser.find_element_by_name("identifier")
+> email_field.send_keys("your_email_address")
+> email_field.send_keys(Keys.RETURN)
+> time.sleep(2)
+> password_field = browser.find_element_by_name("password")
+> password_field.send_keys("your_password")
+> password_field.send_keys(Keys.RETURN)
+>
+> # Navigate to Google Forms
+> browser.find_element_by_class_name("gb_S").click()
+> time.sleep(1)
+> browser.find_element_by_xpath("//div[contains(text(), 'Forms')]").click()
+>
+> # Create a new form
+> browser.find_element_by_xpath("//span[contains(text(), 'Blank')]").click()
+>
+> # Add a title and introduction to the form
+> title_field = browser.find_element_by_xpath("//input[@aria-label='Untitled form']")
+> title_field.send_keys("Brand preference survey")
+> intro_field = browser.find_element_by_xpath("//textarea[@aria-label='Form description']")
+> intro_field.send_keys("Please answer the following questions about your brand preferences.")
+>
+> # Add questions to the form
+> age_question = browser.find_element_by_xpath("//div[@aria-label='Untitled question']")
+> age_question.click()
+> age_question.send_keys("What is your age?")
+> country_question = browser.find_element_by_xpath("//div[@aria-label='Untitled question']")
+> country_question.click()
+> country_question.send_keys("What country do you live in?")
+> app_usage_question = browser.find_element_by_xpath("//div[@aria-label='Untitled question']")
+> app_usage_question.click()
+> app_usage_question.send_keys("How much time do you use the app per day?")
+> friends_question = browser.find_element_by_xpath("//div[@aria-label='Untitled question']")
+> friends_question.click()
+> friends_question.send_keys("How many friends do you have on this app?")
+> brand_preference_question = browser.find_element_by_xpath("//div[@aria-label='Untitled question']")
+> brand_preference_question.click()
+> brand_preference_question.send_keys("Do you prefer brand A or brand B?")
+>
+> # Customize the appearance of the form
+> theme_button = browser.find_element_by_xpath("//div[contains(text(), 'Theme')]")
+> theme_button.click()
+> theme_dropdown = browser.find_element_by_xpath("//div[@aria-label='Choose a theme']")
+> theme_dropdown.click()
+> theme_options = browser.find_elements_by_xpath("//div[@aria-label='Theme options']")
+> theme_options[2].click()
+>
+> # Preview and distribute the form
+> preview_button = browser.find_element_by_xpath("//div[contains(text(), 'Preview')]")
+> preview_button.click()
+> distribute_button = browser.find_element_by_xpath("//div[contains(text(), 'Send')]")
+> distribute_button.click()
+> time.sleep(1)
+> email_option = browser.find_element_by_xpath("//div[contains(text(), 'Email')]")
+> email_option.click()
+> recipient_field = browser.find_element_by_xpath("//input[@aria-label='To']")
+> recipient_field.send_keys("example@gmail.com")
+> subject_field = browser.find_element_by_xpath("//input[@aria-label='Add a subject']")
+> subject_field.send_keys("Brand preference survey")
+> send_button = browser.find_element_by_xpath("//div[contains(text(), 'Send')]")
+> send_button.click()
+>
+> # Close the browser
+> browser.quit()
 
 
 # Notes
