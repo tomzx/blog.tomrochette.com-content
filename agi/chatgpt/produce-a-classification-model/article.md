@@ -6,10 +6,6 @@ taxonomy:
   status: in progress
 ---
 
-Let us walk through a scenario and use ChatGPT.
-
-# Scenario: Produce a classification model
-
 # Prompt
 
 We want to produce a new classification model and the associated infrastructure to serve real-time predictions. What should our next steps be?
