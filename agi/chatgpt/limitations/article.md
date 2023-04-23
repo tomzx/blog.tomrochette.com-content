@@ -37,7 +37,4 @@ This is all assuming that responses are instantaneous, which is unlikely. Accord
 # References
 * [Produce a classification model](../produce-a-classification-model/article.md)
 
-* https://github.com/Significant-Gravitas/Auto-GPT
-* https://github.com/reworkd/AgentGPT
-* https://github.com/yoheinakajima/babyagi
 * https://gptforwork.com/tools/openai-api-response-time-tracker
