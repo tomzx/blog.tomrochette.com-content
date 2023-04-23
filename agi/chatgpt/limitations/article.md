@@ -25,6 +25,9 @@ While it generates text responses, it is not always clear whether those response
 ## Remembering prior conversations
 It is common to ask ChatGPT to behave a certain way in order to modulate its output. While this may work for a few prompts, ChatGPT will soon revert to its default behavior, forgetting to respect whatever constraint you might have imposed on it in prior prompts.
 
+## Rate limits
+While only a technical limitation, if you plan on running many agents in parallel you will need to consider the rate limits imposed. Ignoring the two first levels (free trial users and pay-as-you-go users for the first 48 hours), you will be able to send 3500 requests per minute and 90000 tokens per minute.
+
 # Notes
 
 # See also
