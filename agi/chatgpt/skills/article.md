@@ -20,6 +20,10 @@ What are some skills that an AGI based on ChatGPT would need to have?
 	* For now we're mostly concerned about the generated code trying to delete files on the system. A simple solution to this approach would be to have the file system containing the operating system, generated code and python libraries be read-only. This would prevent the generated code from deleting files, but it would also prevent it from writing files. We can allow it to write files to a temporary working directory.
 * Identify useful behavior that can be reused
 	* As ChatGPT goes through the motion of solving problems, certain actions and behaviors will be repeated over and over again, the same way a function gets called over and over during program execution. We need to be able to identify those behaviors and extract them into reusable functions.
+	* One challenge of identifying useful behaviors is determining its beginning and its end. This is similar to defining the responsibilities of a function and how much code should be in the function.
+	* Another challenge is determining whether the behavior is useful. What should be the criteria to define something as "useful"? Is it the number of times it gets called? Is it the amount of code it contains? Is it the amount of time it takes to execute?
+	* Given many prompt-response chains, we need to be able to identify the ones that are similar to each other. This is similar to the problem of identifying duplicate functions in a program.
+	* If we can reduce prompt and responses to unique identifiers (i.e., numbers), then we can use algorithms such as [Longest Common Subsequence](https://en.wikipedia.org/wiki/Longest_common_subsequence_problem) to identify similar prompt-response chains.
 * Recognize when a known behavior can be used
 	* Once we've identified a behavior that can be reused, we need to be able to recognize when it can be used.
 	* Interestingly enough, the reuse of behavior may appear similar to the prompt-response loop.
