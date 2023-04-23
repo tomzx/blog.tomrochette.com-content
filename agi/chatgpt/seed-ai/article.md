@@ -141,3 +141,7 @@ Overall, developing a recursive self-improving AI is a challenging and complex t
 # Observations
 
 ChatGPT is unaware of our knowledge. It assumes that we do not know much and provide us with the definition of reinforcement learning and how human-in-the-loop techniques could be used. It's response is not very helpful toward our goal.
+
+# Prompt
+
+What should our next step be?
