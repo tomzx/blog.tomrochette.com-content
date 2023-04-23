@@ -21,3 +21,6 @@ The meaning of life is a deep philosophical question that has no clear answer, a
 What is the meaning of life?
 
 The meaning of life is a philosophical question that has been debated by philosophers for centuries. It is a question that remains unanswered, although some believe that the meaning of life can be found in purpose, while others believe that it is randomness that creates meaning.
+
+# References
+* https://openchatkit.net/
