@@ -103,3 +103,21 @@ Using the Transformer architecture, specifically the Language Model component, a
 # Prompt
 
 What should our next step be?
+
+# Response
+
+The next step in building a seed AI based on the Transformer architecture would be to define a specific problem or task that the AI will be designed to solve, and gather or generate a large and diverse dataset that is relevant to that task.
+
+Once the dataset has been gathered or generated, it will need to be preprocessed to prepare it for training. This preprocessing could include tasks such as tokenization, normalization, and encoding.
+
+Next, the model architecture and hyperparameters will need to be defined and implemented using PyTorch. This will involve defining the layers of the model, setting up the attention mechanisms, and defining the training and validation algorithms and techniques.
+
+During training, the model will need to be fed the preprocessed data, and a suitable loss function will need to be defined to measure the error or deviation between the predicted outputs and the true outputs. The parameters of the model will then be adjusted using backpropagation and gradient descent, in order to optimize the performance of the model.
+
+Once the model has been trained and validated, it can be tested on separate test data to evaluate its performance and accuracy. If the model is performing as intended, it can be deployed and integrated into the desired application or system.
+
+It's important to keep in mind that building a successful seed AI is a complex and challenging task that requires a deep understanding of machine learning, natural language processing, and computer science in general. Careful consideration of the architecture, hyperparameters, and training algorithms, as well as appropriate safeguards and ethical considerations, are crucial to ensure the success and safety of the AI system.
+
+# Observations
+
+Once again ChatGPT's output is too verbose. It appears to have already forgotten about prior requests.
