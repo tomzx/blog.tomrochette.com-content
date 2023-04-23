@@ -90,3 +90,8 @@ During training, you would need to define a suitable loss function to measure th
 Once the model has been trained and validated, you could test it using test data that is separate from the training data, and evaluate its accuracy and performance metrics. If the model is performing as intended, it can be deployed and integrated into the desired application or system, and the feedback loop between the AI and humans can be established.
 
 Overall, implementing a seed AI based on the Transformer architecture is a complex and challenging task, but it has the potential to achieve impressive results in a wide range of natural language processing tasks. Careful consideration of the parameters and architecture, as well as appropriate safeguards and ethical considerations, are crucial to ensure the success and safety of the AI system.
+
+# Prompt
+
+Be more concise/less verbose in your answers.
+How confident are we that using an LLM as a base for a seed AI may be a successful approach?
