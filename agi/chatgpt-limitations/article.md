@@ -91,6 +91,10 @@ Let us walk through a scenario and use ChatGPT.
 > Monitor responses as they come in and analyze the data once you have a sufficient sample size.
 > When distributing your survey, it's important to ensure that you reach a representative sample of people. You can use social media, email lists, or targeted advertising to reach your desired audience. It's also important to provide participants with informed consent and ensure that their privacy is protected.
 
+> User: Go to Google Forms and log in to your Google account.
+
+> ChatGPT:
+
 # Notes
 
 # See also
