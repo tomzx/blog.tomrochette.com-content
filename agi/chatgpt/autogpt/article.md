@@ -6,6 +6,9 @@ taxonomy:
   status: in progress
 ---
 
+# Overview
+In this article we explore the idea of using ChatGPT to automate high level goal achievement. We will refer to this as AutoGPT.
+
 # Notes
 * Like any project, before leaving AutoGPT to its own devices, it is important to set both a time and monetary budget. This is to prevent it from running indefinitely and to prevent it from running up a large bill.
 * Like any project, as a project manager, it is important to have regular checks to ensure that the project is on track. Leaving AutoGPT unattended may result in ChatGPT being stuck in a prompt-response loop or having ChatGPT working on something completely unrelated.
