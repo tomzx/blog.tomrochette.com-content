@@ -5,3 +5,5 @@ taxonomy:
   category: [Artificial General Intelligence, ChatGPT]
   status: in progress
 ---
+
+# Prompt
