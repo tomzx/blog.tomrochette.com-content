@@ -41,6 +41,7 @@ Tom
 * [Agent teaching](agent-teaching/article.md)
 * [Build an AGI using Polya's method](build-an-agi-using-polya-method/article.md)
 * [ChatGPT](chatgpt/article.md)
+* [ChatGPT limitations](chatgpt-limitations/article.md)
 * [Communication medium](communication-medium/article.md)
 * [Competitions](competitions/article.md)
 * [Decision trees](https://github.com/tomzx/decision-trees)
