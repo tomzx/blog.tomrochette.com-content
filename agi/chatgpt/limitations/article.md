@@ -26,7 +26,7 @@ While it generates text responses, it is not always clear whether those response
 It is common to ask ChatGPT to behave a certain way in order to modulate its output. While this may work for a few prompts, ChatGPT will soon revert to its default behavior, forgetting to respect whatever constraint you might have imposed on it in prior prompts.
 
 ## Rate limits
-While only a technical limitation, if you plan on running many agents in parallel you will need to consider the rate limits imposed. Ignoring the two first levels (free trial users and pay-as-you-go users for the first 48 hours), you will be able to send 3500 requests per minute and 90000 tokens per minute. Rounding a little, this would mean you can run around 60 agents in parallel sending 1 request per second. Using GPT-4 8k is limited to 40k TPM and 200 RPM while GPT-4 32k is limited to 80k TPM and 400 RPM.
+While only a technical limitation, if you plan on running many agents in parallel you will need to consider the rate limits imposed. Ignoring the two first levels (free trial users and pay-as-you-go users for the first 48 hours), you will be able to send 3500 requests per minute and 90000 tokens per minute. Rounding a little, this would mean you can run around 60 agents in parallel sending 1 request per second. Using GPT-4 8k is limited to 40k TPM and 200 RPM while GPT-4 32k is limited to 80k TPM and 400 RPM. At 1 request per second, you can run 3 GPT-4 8k agents or
 
 # Notes
 
