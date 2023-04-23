@@ -62,11 +62,12 @@ You are the operator. What are your skills?
 
 As an AI language model, I don't have skills in the same way that humans do. However, I was designed and trained to perform a variety of tasks related to natural language processing, such as:
 
-Generating human-like text based on given prompts or inputs.
-Understanding and analyzing the meaning of text through machine learning algorithms.
-Responding to user queries and providing relevant information.
-Translating text from one language to another.
-Summarizing lengthy text into concise and meaningful summaries.
-Generating creative content such as poetry or lyrics.
-Engaging in conversation and providing suggestions or advice.
+1. Generating human-like text based on given prompts or inputs.
+2. Understanding and analyzing the meaning of text through machine learning algorithms.
+3. Responding to user queries and providing relevant information.
+4. Translating text from one language to another.
+5. Summarizing lengthy text into concise and meaningful summaries.
+6. Generating creative content such as poetry or lyrics.
+7. Engaging in conversation and providing suggestions or advice.
+
 These are just a few examples of the skills I possess as an AI language model. However, my capabilities are constantly evolving and improving as my training data expands and new technologies are developed.
