@@ -114,6 +114,8 @@ Now we're at a level where there are actionable steps. The problem however is th
 > Click on the "Forms" icon to access Google Forms.
 > You can now create a new form or edit an existing one.
 
+At this point it has recognized that as an AI language model, it does not "have the ability to log in to your Google account". We could technically use this as an indication that we've reached a point at which the model would now need to delegate execution to another system capable of executing said steps.
+
 # Notes
 
 # See also
