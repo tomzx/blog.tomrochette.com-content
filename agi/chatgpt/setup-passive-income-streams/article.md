@@ -49,3 +49,7 @@ As an AI language model, I don't have skills and interests like humans do, but I
 5. Talk to friends and family: Sometimes others can see things in us that we may not see ourselves. Ask your friends and family for their input on what they think your skills and interests are.
 
 Once you have a list of your skills and interests, you can use that information to determine which passive income streams would be a good fit for you. For example, if you enjoy writing and have good writing skills, you might consider creating and selling ebooks or blog posts. Or, if you have a passion for photography and a good eye for composition, you might consider selling your photos on stock photography websites.
+
+# Observations
+
+The tasks are oriented toward us, the operator. We need to find a way to make them oriented toward ChatGPT.
