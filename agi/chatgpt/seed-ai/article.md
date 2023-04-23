@@ -70,3 +70,9 @@ It's important to note that this is a high-level overview of the process involve
 # Observations
 
 ChatGPT's output is too verbose, I'll ask it to be more concise.
+
+# Prompt
+
+For our AI architecture, we will base ourselves on the transformer architecture. All parameters are open for exploration.
+
+#
