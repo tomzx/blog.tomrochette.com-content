@@ -25,3 +25,7 @@ Passive income streams are a great way to earn money without having to actively 
 5. Monitor and optimize: Once your passive income stream is set up, monitor it regularly and optimize it to maximize your earnings. Keep track of your expenses and profits, and make adjustments as needed.
 
 Remember that setting up a passive income stream is not a one-time task; it requires ongoing effort to ensure that your stream remains profitable.
+
+# Prompt
+
+Identify your skills and interests
