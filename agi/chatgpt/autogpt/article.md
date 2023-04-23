@@ -43,59 +43,6 @@ In both situations, a client is responsible for submitting a goal, which will re
 
 Each running container contains a copy of the code necessary to run a worker, which is mostly going to be responsible for calling a python script with a set of arguments. The result of the script execution will be sent back to the client for further processing.
 
-```plantuml
-participant Client
-participant Scheduler
-participant Worker1
-participant Worker2
-participant Worker3
-participant ChatGPT
-
-Client -> Scheduler: Goal 1
-Scheduler -> Worker1: Goal 1
-Worker1 -> ChatGPT: Request
-ChatGPT -> Worker1: Response
-Worker1 -> Scheduler: Task 1
-Worker1 -> Scheduler: Task 2
-Worker1 -> Scheduler: Task 3
-Worker1 -> Scheduler: Task 4
-Worker1 -> Scheduler: Task 5
-
-Scheduler -> Worker1: Task 1
-
-Worker1 -> ChatGPT: Request (Task 1)
-ChatGPT -> Worker1: Response (Task 1)
-
-Scheduler -> Worker2: Task 2
-
-Worker2 -> ChatGPT: Request (Task 2)
-ChatGPT -> Worker2: Response (Task 2)
-
-Worker2 -> Scheduler: Task 2
-
-Scheduler -> Worker3: Task 3
-
-Worker3 -> ChatGPT: Request (Task 3)
-ChatGPT -> Worker3: Response (Task 3)
-
-Scheduler -> Worker2: Task 4
-
-Worker2 -> ChatGPT: Request (Task 4)
-ChatGPT -> Worker2: Response (Task 4)
-
-Worker1 -> Scheduler: Task 1
-Worker3 -> Scheduler: Task 3
-Worker2 -> Scheduler: Task 4
-
-Scheduler -> Worker1: Task 5
-
-Worker1 -> ChatGPT: Request (Task 5)
-ChatGPT -> Worker1: Response (Task 5)
-
-
-Worker1 -> Scheduler: Task 5
-```
-
 # References
 * https://github.com/Significant-Gravitas/Auto-GPT
 * https://github.com/reworkd/AgentGPT
