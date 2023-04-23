@@ -28,7 +28,7 @@ It is common to ask ChatGPT to behave a certain way in order to modulate its out
 ## Rate limits
 While only a technical limitation, if you plan on running many agents in parallel you will need to consider the rate limits imposed. Ignoring the two first levels (free trial users and pay-as-you-go users for the first 48 hours), you will be able to send 3500 requests per minute and 90000 tokens per minute. Rounding a little, this would mean you can run around 60 agents in parallel sending 1 request per second. Using GPT-4 8k is limited to 40k TPM and 200 RPM while GPT-4 32k is limited to 80k TPM and 400 RPM. At 1 request per second, you can run 3 GPT-4 8k agents or 6 GPT-4 32k agents.
 
-This is all assuming that responses are instantaneous, which is unlikely. According to [GPT for Work](https://gptforwork.com/tools/openai-api-response-time-tracker), the response time of gpt-3.5-turbo is around 8 seconds while the response time of gpt-4 is around 20 seconds.
+This is all assuming that responses are instantaneous, which is unlikely. According to [GPT for Work](https://gptforwork.com/tools/openai-api-response-time-tracker), the response time of gpt-3.5-turbo is around 10 seconds while the response time of gpt-4 is around 20 seconds.
 
 # Notes
 
