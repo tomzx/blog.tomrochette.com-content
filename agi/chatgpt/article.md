@@ -7,14 +7,18 @@ taxonomy:
   status: in progress
 ---
 
+* [Limitations](limitations/article.md)
+
+# Written by ChatGPT
+
 Content written using [ChatGPT](https://chat.openai.com/), prompted by yours truly.
 
-# Random
+## Random
 * [AI teacher/student metaphor](ai-teacher-student-metaphor/article.md)
 * [Benefits of ETI technology](benefits-of-eti-technology/article.md)
 * [Big bang to computronium](big-bang-to-computronium/article.md)
 * [Multi-dimensional time](multi-dimensional-time/article.md)
 * [Setup passive income streams](setup-passive-income-streams/article.md)
 
-# Stories
+## Stories
 * [Seed AI](seed-ai-story/article.md)
