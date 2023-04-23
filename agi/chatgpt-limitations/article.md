@@ -62,6 +62,8 @@ Let us walk through a scenario and use ChatGPT.
 >
 > Remember to keep in mind the ethical considerations of using personal data for classification purposes, and ensure that you comply with all relevant data protection laws and regulations.
 
+> User: Help me Collect data from a representative sample of people that includes their age, country, app usage, number of friends, and which brand they prefer (A or B).
+
 # Notes
 
 # See also
