@@ -99,3 +99,7 @@ How confident are we that using an LLM as a base for a seed AI may be a successf
 # Response
 
 Using the Transformer architecture, specifically the Language Model component, as a base for a seed AI has shown promising results in natural language processing tasks. However, the success of the approach may vary depending on the specific problem domain and the quality and quantity of available data. More research and experimentation is needed to determine the effectiveness and potential limitations of this approach.
+
+# Prompt
+
+What should our next step be?
