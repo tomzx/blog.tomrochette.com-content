@@ -46,3 +46,7 @@ To achieve this goal, you would need to develop an AI that is capable of underst
 Once the AI has achieved recursive self-improvement, its task should be to continue to improve itself while also helping humanity to solve problems. This could be accomplished by creating a feedback loop between the AI and humans, where the AI provides solutions to problems, and humans evaluate and provide feedback on those solutions, which the AI then uses to further improve itself.
 
 However, it's important to note that there are significant ethical implications associated with creating an AGI capable of recursive self-improvement. If left unchecked, such a system could potentially become uncontrollable and pose significant risks to humanity. Therefore, it's important to carefully consider the potential risks and implement appropriate safeguards to ensure that the AI remains under human control and operates in a way that is aligned with human values and goals.
+
+# Prompt
+
+For our purpose, we will use the python programming language and pytorch as our machine learning framework.
