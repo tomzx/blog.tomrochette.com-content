@@ -121,3 +121,9 @@ It's important to keep in mind that building a successful seed AI is a complex a
 # Observations
 
 Once again ChatGPT's output is too verbose. It appears to have already forgotten about prior requests.
+
+# Prompt
+
+The specific task we want to solve is to produce a recursive self-improving AI.
+In this case we do not have access to a dataset that is relevant to this task since it is a novel task.
+At best, we may be able to use reinforcement learning and human in the loop to decide whether we're moving in the right direction.
