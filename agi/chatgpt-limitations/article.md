@@ -116,6 +116,8 @@ Now we're at a level where there are actionable steps. The problem however is th
 
 At this point it has recognized that as an AI language model, it does not "have the ability to log in to your Google account". We could technically use this as an indication that we've reached a point at which the model would now need to delegate execution to another system capable of executing said steps.
 
+Interestingly enough, a simple approach is to simply ask ChatGPT to produce a program from the prior
+
 # Notes
 
 # See also
