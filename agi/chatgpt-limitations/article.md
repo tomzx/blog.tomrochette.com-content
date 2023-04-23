@@ -120,7 +120,9 @@ Interestingly enough, a simple approach is to simply ask ChatGPT to produce a pr
 
 > **User:** Return the list of previous steps as if they were a program.
 
-> **ChatGPT:**
+> **ChatGPT:** Sure, here is an example program that outlines the steps to create an online survey using Google Forms:
+>
+
 
 # Notes
 
