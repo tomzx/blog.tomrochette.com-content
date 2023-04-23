@@ -41,6 +41,8 @@ A local environment could be implemented using docker or microk8s (or similar) a
 
 In both situations, a client is responsible for submitting a goal, which will result in the AutoGPT cluster to start working on the goal.
 
+Each running container contains a copy of the code necessary to run a worker, which is mostly going to be responsible for calling a python script with a set of arguments. The result of the script execution will be sent back to the client for further processing.
+
 # References
 * https://github.com/Significant-Gravitas/Auto-GPT
 * https://github.com/reworkd/AgentGPT
