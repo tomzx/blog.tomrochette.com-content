@@ -48,6 +48,9 @@ At regular interval, inject prompts asking AutoGPT to reflect on its own progres
 
 Self-reflection should also be used to evaluate whether the generated plan is still relevant and the most efficient way to achieve the goal. If it isn't, then we should revise the plan and adapt.
 
+## References
+* https://en.wikipedia.org/wiki/OODA_loop
+
 # References
 * https://github.com/Significant-Gravitas/Auto-GPT
 * https://github.com/reworkd/AgentGPT
