@@ -51,6 +51,7 @@ Self-reflection should also be used to evaluate whether the generated plan is st
 ## References
 * https://en.wikipedia.org/wiki/OODA_loop
 * https://en.wikipedia.org/wiki/PDCA
+* https://en.wikipedia.org/wiki/Continual_improvement_process
 
 # References
 * https://github.com/Significant-Gravitas/Auto-GPT
