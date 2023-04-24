@@ -43,7 +43,7 @@ In both situations, a client is responsible for submitting a goal, which will re
 
 Each running container contains a copy of the code necessary to run a worker, which is mostly going to be responsible for calling a python script with a set of arguments. The result of the script execution will be sent back to the client for further processing.
 
-# Self-reflection
+# Self-reflection/Continuous improvement
 At regular interval, inject prompts asking AutoGPT to reflect on its own progress. This will allow us to detect if AutoGPT is stuck in a prompt-response loop or if it is working on something completely unrelated.
 
 Self-reflection should also be used to evaluate whether the generated plan is still relevant and the most efficient way to achieve the goal. If it isn't, then we should revise the plan and adapt.
