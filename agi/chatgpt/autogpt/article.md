@@ -48,6 +48,9 @@ At regular interval, inject prompts asking AutoGPT to reflect on its own progres
 
 Self-reflection should also be used to evaluate whether the generated plan is still relevant and the most efficient way to achieve the goal. If it isn't, then we should revise the plan and adapt.
 
+# Unsorted
+* Generate structure within the content it is producing (i.e., create databases, tables, schemas, datasets, etc.)
+
 ## References
 * https://en.wikipedia.org/wiki/OODA_loop
 * https://en.wikipedia.org/wiki/PDCA
