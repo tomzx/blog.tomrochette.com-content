@@ -50,6 +50,7 @@ Self-reflection should also be used to evaluate whether the generated plan is st
 
 # Unsorted
 * Generate structure within the content it is producing (i.e., create databases, tables, schemas, datasets, etc.)
+* Task deduplication
 
 ## References
 * https://en.wikipedia.org/wiki/OODA_loop
