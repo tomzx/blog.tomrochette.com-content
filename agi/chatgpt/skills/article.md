@@ -9,7 +9,7 @@ taxonomy:
 What are some skills that an AGI based on ChatGPT would need to have?
 
 # Prompt the operator to disambiguate
-* Ideally operator prompting should be minimal. ChatGPT should use its own discretion as much as possible.
+* Ideally operator (user) prompting should be minimal. ChatGPT should use its own discretion as much as possible.
 * However in certain circumstances there will be too many options to choose from, or some of the options will require a lot of work to complete and may need the input from the operator in order to proceed.
 
 # Extract instructions/actions from text
@@ -43,6 +43,8 @@ What are some skills that an AGI based on ChatGPT would need to have?
 * See [Preventing repetition](../preventing-repetition/article.md)
 
 # Recognize when the desired behavior/action has been completed
+
+# Read/Write memories
 
 # See also
 * [Limitations](../limitations/article.md)
