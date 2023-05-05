@@ -11,7 +11,8 @@ taxonomy:
 ## Learned in this study
 * Creating memories is relatively easy
 * Retrieving memories is relatively easy
-* Updating memories is hard
+* Updating memories is hard (not achieved)
+* Asking ChatGPT to forget prior statements is hard (not achieved)
 
 ## Things to explore
 
