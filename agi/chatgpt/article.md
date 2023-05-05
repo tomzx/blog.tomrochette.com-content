@@ -9,6 +9,7 @@ taxonomy:
 
 # Exploratory activities
 * [Limitations](limitations/article.md)
+* [Memory](memory/article.md)
 * [Produce a classification model](produce-a-classification-model/article.md)
 * [Setup passive income streams](setup-passive-income-streams/article.md)
 * [Seed AI](seed-ai/article.md)
