@@ -9,13 +9,15 @@ taxonomy:
 ## Context
 
 ## Learned in this study
+* Creating memories is relatively easy
+* Retrieving memories is relatively easy
+* Updating memories is hard
 
 ## Things to explore
 
 # Overview
 
 # Notes
-* Create agents that have names, specializations, and personalities/preferences
 
 # See also
 
