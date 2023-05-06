@@ -13,10 +13,19 @@ taxonomy:
 ## Things to explore
 
 # Overview
-* Requirements
+* Analysis/Requirements
+  * Decompose the problem into smaller problems
+  * Identify the entities involved
+  * Define the relationships between the entities
 * Design
+  * Generate a solution to the problem
+  * Identify the steps to solve the problem
+* Planning
+  * Identify dependencies between steps
 * Implementation
-
+  * Write code
+  * Review code
+  * Execute code
 * Test
 * Debug
 * Deployment
