@@ -24,7 +24,7 @@ taxonomy:
 * Ensure that tasks are well defined and consumable
 * Performance analysis
 * Accounting
-* Communicate/Synchronize with the clients
+* Communicate/Synchronize with the clients/stakeholders
 	* Determine changes in requirements
 	* Negotiate timeline/deadlines/budget/features
 * Communicate/Synchronize with external parties/providers
