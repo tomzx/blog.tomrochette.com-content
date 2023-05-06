@@ -152,7 +152,7 @@ Where are there specific bottlenecks to getting at information?
 How do you analyze the information you currently receive?  What type of data is used?  How do you currently get the data?  How often do you get new data?
 What type of ad hoc analysis do you typically perform?  Who requests ad hoc information?  What do you do with the information?
 
-Success Criteria (What does “winning” look like?)
+Success Criteria (What does "winning" look like?)
 
 What is most important for success of the application?
 What do we need to accomplish to make this project successful?
