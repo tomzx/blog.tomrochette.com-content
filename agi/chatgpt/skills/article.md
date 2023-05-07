@@ -6,6 +6,14 @@ taxonomy:
   status: in progress
 ---
 
+## Context
+
+## Learned in this study
+
+## Things to explore
+
+# Overview
+
 What are some skills that an AGI based on ChatGPT would need to have?
 
 # Prompt the operator to disambiguate
