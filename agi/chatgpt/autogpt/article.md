@@ -11,6 +11,7 @@ taxonomy:
 ## Learned in this study
 
 ## Things to explore
+* Multi-agent system where each agent has a specialization/role
 
 # Overview
 In this article we explore the idea of using ChatGPT to automate high level goal achievement. We will refer to this as AutoGPT.
