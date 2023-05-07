@@ -14,11 +14,11 @@ In this study, we explore the idea of anthropomorphizing ChatGPT. We will give C
 ## Learned in this study
 
 ## Things to explore
+* Create agents that have names, specializations, and personalities/preferences
 
 # Overview
 
 # Notes
-* Create agents that have names, specializations, and personalities/preferences
 
 # See also
 
