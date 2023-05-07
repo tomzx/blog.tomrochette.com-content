@@ -13,6 +13,7 @@ taxonomy:
 ## Things to explore
 * Multi-agent system where each agent has a specialization/role. By doing so we can make the agents communicate with one another instead of just feeding back the same agent with its own output.
 * Integration of RLHF (Reinforcement Learning with Human Feedback) to allow the user to provide feedback to the agent(s) in order to improve the quality of the output.
+* Automating prompt improvement by prompting ChatGPT to improve an initial prompt.
 
 # Overview
 In this article we explore the idea of using ChatGPT to automate high level goal achievement. We will refer to this as AutoGPT.
