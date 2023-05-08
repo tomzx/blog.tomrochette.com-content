@@ -16,7 +16,7 @@ taxonomy:
 
 # Notes
 * Create a documented process
-	* Identify actions
+	* Identify the existing actions taken during the process
 	* Link actions to one another to create sequences of state -> action -> state
 * Determine the best course of action
 * How to improve an existing process
