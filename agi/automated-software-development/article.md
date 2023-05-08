@@ -13,7 +13,7 @@ taxonomy:
 ## Things to explore
 
 # Overview
-* Analysis/Requirements
+* [Analysis/Requirements](../automated-requirements/article.md)
   * Decompose the problem into smaller problems
   * Identify the entities involved
   * Define the relationships between the entities
