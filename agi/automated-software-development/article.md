@@ -13,6 +13,8 @@ taxonomy:
 ## Things to explore
 
 # Overview
+Software development can start at two different points: from a problem or from a solution. In the first case no existing software exist and we're trying to solve a problem. In the second case, we're trying to improve an existing solution.
+
 * [Analysis/Requirements](../automated-requirements/article.md)
   * Decompose the problem into smaller problems
   * Identify the entities involved
