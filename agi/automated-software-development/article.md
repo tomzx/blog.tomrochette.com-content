@@ -27,7 +27,7 @@ taxonomy:
   * Review code
   * Execute code
 * Test
-* Debug
+* [Debug](../automated-defect-correction/article.md)
 * Deployment
 * Maintenance
 
