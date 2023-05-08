@@ -22,7 +22,7 @@ taxonomy:
   * Identify the steps to solve the problem
 * Planning
   * Identify dependencies between steps
-* Implementation
+* [Implementation](../automated-programming/article.md)
   * Write code
   * Review code
   * Execute code
