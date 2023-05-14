@@ -18,6 +18,10 @@ taxonomy:
 
 # Overview
 
+# Types of memories
+* Conversational: The back and forth discussion between the user and the agent/LLM, recorded as a sequence of prompts and responses
+* Entities: The entities that are discussed during the conversation, recorded as a set of entities and their relationships
+
 # Notes
 
 # See also
