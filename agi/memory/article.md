@@ -73,8 +73,7 @@ Part of the brain continues to process images for longer than 13 milliseconds to
 * Maybe it is available in a graph form such that thinking in time period uses a region where indexing is done in that manner
 * Some memories may be directly accessed if we aren't querying something of particular interest
 * However, if we want to remember something more specifically, then we may enter a form of filtering where we query by asking for appropriate indexes
-	 * e.g., what was I doing in 2007 at school?
-
+	* e.g., what was I doing in 2007 at school?
 
 # See also
 
