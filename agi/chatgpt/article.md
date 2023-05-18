@@ -14,6 +14,9 @@ taxonomy:
 * [Seed AI](seed-ai/article.md)
 * [Skills](skills/article.md)
 
+# References
+* [Prompts](prompts/article.md)
+
 # Written by ChatGPT
 Content written using [ChatGPT](https://chat.openai.com/), prompted by yours truly.
 
