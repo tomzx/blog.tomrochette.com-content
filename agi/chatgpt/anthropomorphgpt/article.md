@@ -15,6 +15,9 @@ In this study, we explore the idea of anthropomorphizing ChatGPT. We will give C
 
 ## Things to explore
 * Create agents that have names, specializations, and personalities/preferences
+* How can agents with different personalities interact with each other?
+* How can agents with different personalities interact with humans?
+* How can agents initialize dialog?
 
 # Overview
 
