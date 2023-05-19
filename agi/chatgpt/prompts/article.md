@@ -30,3 +30,4 @@ Without any form of priming, ChatGPT will generate responses that are rather gen
 # See also
 
 # References
+* https://github.com/f/awesome-chatgpt-prompts
