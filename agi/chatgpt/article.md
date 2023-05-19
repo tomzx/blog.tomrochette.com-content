@@ -8,6 +8,7 @@ taxonomy:
 
 # Exploratory activities
 * [AnthropomorphGPT](anthropomorphgpt/article.md)
+* [AutoGPT](autogpt/article.md)
 * [Limitations](limitations/article.md)
 * [Memory](memory/article.md)
 * [Produce a classification model](produce-a-classification-model/article.md)
