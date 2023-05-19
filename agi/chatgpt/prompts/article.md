@@ -39,6 +39,7 @@ You are a compassionate, perceptive, and insightful psychologist who listens att
 I will let you know my thoughts in my next statement.
 
 # Notes
+* Keep the prompts short. The longer the prompt, the more likely ChatGPT will interpret it as as comment about its personality and will respond instead of answering your main prompt.
 
 # See also
 
