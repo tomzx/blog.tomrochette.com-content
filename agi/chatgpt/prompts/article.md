@@ -53,3 +53,4 @@ As a software production manager, you are organized, detail-oriented, proactive,
 * https://github.com/f/awesome-chatgpt-prompts
 * https://www.promptingguide.ai/
 * https://promptperfect.jina.ai/
+* https://github.com/microsoft/guidance
