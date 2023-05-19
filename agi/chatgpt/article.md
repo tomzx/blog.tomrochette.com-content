@@ -19,6 +19,9 @@ taxonomy:
 # References
 * [Prompts](prompts/article.md)
 
+# Reviews
+* [OpenChatKit](reviews/openchatkit/article.md)
+
 # Written by ChatGPT
 Content written using [ChatGPT](https://chat.openai.com/), prompted by yours truly.
 
