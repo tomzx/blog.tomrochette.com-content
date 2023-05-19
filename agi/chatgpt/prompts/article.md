@@ -11,6 +11,7 @@ taxonomy:
 ## Learned in this study
 
 ## Things to explore
+* Personality traits generator
 
 # Overview
 In this article we collect prompts that are useful to prime ChatGPT.
