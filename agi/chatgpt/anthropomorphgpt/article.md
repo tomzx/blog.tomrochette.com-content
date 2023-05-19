@@ -21,6 +21,7 @@ In this study, we explore the idea of anthropomorphizing ChatGPT. We will give C
 # Notes
 
 # See also
+* [AutoGPT](../autogpt/article.md)
 * [Prompts](../prompts/article.md#persona-generator)
 
 # References
