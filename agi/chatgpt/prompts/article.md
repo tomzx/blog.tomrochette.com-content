@@ -12,6 +12,7 @@ taxonomy:
 
 ## Things to explore
 * Personality traits generator
+* Generate personalities by using ChatGPT itself
 
 # Overview
 In this article we collect prompts that are useful to prime ChatGPT.
