@@ -21,5 +21,6 @@ In this study, we explore the idea of anthropomorphizing ChatGPT. We will give C
 # Notes
 
 # See also
+* [Prompts](../prompts/article.md)
 
 # References
