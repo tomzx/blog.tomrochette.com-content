@@ -37,4 +37,5 @@ Prompt generators are prompts that can help you generate prompts for you. The id
 
 # References
 * https://github.com/f/awesome-chatgpt-prompts
+* https://www.promptingguide.ai/
 * https://promptperfect.jina.ai/
