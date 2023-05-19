@@ -28,3 +28,4 @@ In this study, we explore the idea of anthropomorphizing ChatGPT. We will give C
 * [Prompts](../prompts/article.md#persona-generator)
 
 # References
+* https://prompterguide.com/2023/02/24/chatgpt-personality-portraits/
