@@ -16,7 +16,7 @@ taxonomy:
 # Overview
 In this article we collect prompts that are useful to prime ChatGPT.
 
-Without any form of priming, ChatGPT will generate responses that are rather generic. By priming ChatGPT with a prompt, we can guide the conversation in a specific direction.
+Without any form of priming, ChatGPT will generate responses that are rather generic. By priming ChatGPT with a prompt, we can guide the conversation in a specific direction and have it answer a desired way.
 
 # Collection of prompts
 ## Efficient
