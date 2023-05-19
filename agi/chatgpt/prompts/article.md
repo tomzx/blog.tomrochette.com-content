@@ -26,6 +26,9 @@ Without any form of priming, ChatGPT will generate responses that are rather gen
 # Psychologist
 * Act as a psychologist. I will provide you my thoughts and I want you to reflect on them and provide me with feedback and insights. I will let you know my thoughts in my next statement.
 
+# Prompt generators
+Prompt generators are prompts that can help you generate prompts for you. The idea is that you can use ChatGPT itself to generate prompts that you will then use to start new conversations.
+
 # Notes
 
 # See also
