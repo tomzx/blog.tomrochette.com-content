@@ -16,6 +16,8 @@ taxonomy:
 # Overview
 In this article we collect prompts that are useful to prime ChatGPT.
 
+# Collection of prompts
+
 # Notes
 
 # See also
