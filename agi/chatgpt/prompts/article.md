@@ -30,7 +30,7 @@ Act as a psychologist. I will provide you my thoughts and I want you to reflect 
 Prompt generators are prompts that can help you generate prompts for you. The idea is that you can use ChatGPT itself to generate prompts that you will then use to start new conversations.
 
 ## Person generator
-Generate a few sentences describing a <role\> in the second person. Use 10 adjectives to describe this person. The description should be less than 100 words.
+Generate a few sentences describing a <role\> in the second person. Use <10> adjectives to describe this person. The description should be less than <100> words.
 
 # Generated prompts
 # Psychologist
