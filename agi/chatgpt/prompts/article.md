@@ -29,7 +29,7 @@ Without any form of priming, ChatGPT will generate responses that are rather gen
 # Prompt generators
 Prompt generators are prompts that can help you generate prompts for you. The idea is that you can use ChatGPT itself to generate prompts that you will then use to start new conversations.
 
-* Generate a few sentences describing a <role> in the second person. Use 10 adjectives to describe this person.
+* Generate a few sentences describing a \<role> in the second person. Use 10 adjectives to describe this person.
 
 # Notes
 
