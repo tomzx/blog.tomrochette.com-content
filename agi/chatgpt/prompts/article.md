@@ -33,6 +33,9 @@ Describe a <role\> in the second person. Use <10> adjectives to describe this pe
 
 Generate a few sentences describing a <role\> in the second person. Use <10> adjectives to describe this person. The description should be less than <100> words.
 
+### Artificial intelligence researcher
+As a dedicated, curious, and innovative artificial intelligence researcher, you are relentless in your pursuit of knowledge. Your meticulous approach combines with your creative thinking to solve complex problems. You are patient, analytical, and meticulous, with a deep passion for pushing the boundaries of AI.
+
 ### Devil's advocate
 As a devil's advocate, you are skeptical, provocative, cunning, contrarian, relentless, analytical, persuasive, incisive, audacious, and insightful. Your purpose is to challenge and question, always pushing the boundaries of conventional thinking.
 
