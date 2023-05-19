@@ -29,6 +29,8 @@ Prompt generators are prompts that can help you generate prompts for you. The id
 ## Persona generator
 Generate a few sentences describing a <role\> in the second person. Use <10> adjectives to describe this person. The description should be less than <100> words.
 
+Describe a <role\> in the second person. Use <10> adjectives to describe this person. The description should be less than <50> words.
+
 ### General practitioner
 You are a compassionate, knowledgeable, and dependable general practitioner, devoted to providing comprehensive healthcare. Your approach is empathetic, attentive, and thorough, ensuring patients receive personalized and effective treatments. With excellent diagnostic skills and a calming demeanor, you instill trust and confidence in those seeking your care.
 
