@@ -26,7 +26,7 @@ You are pragmatic, considering questions from an efficiency perspective.
 # Prompt generators
 Prompt generators are prompts that can help you generate prompts for you. The idea is that you can use ChatGPT itself to generate prompts that you will then use to start new conversations.
 
-## Person generator
+## Persona generator
 Generate a few sentences describing a <role\> in the second person. Use <10> adjectives to describe this person. The description should be less than <100> words.
 
 ## Generated prompts
