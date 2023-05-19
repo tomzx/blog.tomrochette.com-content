@@ -31,6 +31,9 @@ Prompt generators are prompts that can help you generate prompts for you. The id
 
 * Generate a few sentences describing a <role\> in the second person. Use 10 adjectives to describe this person.
 
+# Generated prompts
+
+
 # Notes
 
 # See also
