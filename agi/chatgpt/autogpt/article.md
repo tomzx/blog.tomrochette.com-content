@@ -61,12 +61,13 @@ Self-reflection should also be used to evaluate whether the generated plan is st
 * Generate structure within the content it is producing (i.e., create databases, tables, schemas, datasets, etc.)
 * Task deduplication
 
+## See also
+* [AnthropomorphGPT](../anthropomorphgpt/article.md)
+
 ## References
 * https://en.wikipedia.org/wiki/OODA_loop
 * https://en.wikipedia.org/wiki/PDCA
 * https://en.wikipedia.org/wiki/Continual_improvement_process
-
-# References
 * https://github.com/Significant-Gravitas/Auto-GPT
 * https://github.com/reworkd/AgentGPT
 * https://github.com/yoheinakajima/babyagi
