@@ -9,7 +9,7 @@ Hi,
 
 My name is Tom Rochette and this is a short presentation about myself.
 
-I was born in Montreal. I'm a hard worker, interested in [artificial intelligence](agi/article.md), technology, science, personal development, and any logical or irrational topics. I'm working hard on improving my skills.
+I was born in Montreal. I'm a hard worker, interested in [artificial intelligence](agi/README.md), technology, science, personal development, and any logical or irrational topics. I'm working hard on improving my skills.
 
 I'm now a bachelor in Software Engineering, degree which I've completed at the École Polytechnique de Montréal in 2011. Since then, I've been working to perfect and broaden my skills.
 
