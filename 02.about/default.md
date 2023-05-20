@@ -7,7 +7,7 @@ taxonomy:
 
 Hi,
 
-My name is Tom Rochette and this is a short presentation about myself.
+I'm Tom and this is a short presentation about myself.
 
 I was born in Montreal. I'm a hard worker, interested in [artificial (general) intelligence](../agi/README.md), [machine learning](../machine-learning/README.md) technology, science, personal development, and any logical or irrational topics. I'm working hard on improving my skills.
 
