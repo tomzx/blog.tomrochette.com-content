@@ -24,16 +24,17 @@ taxonomy:
 
 ![Task states](images/Task-states.png)
 
-* Unprioritized
-* Backlog
-* Queue
-* Scheduled
-* Today
+# Statuses
+* Unprioritized: New task are created as unprioritized, so as to avoid having to put them in a state immediately when creating them.
+* Won't do: A task that ends up not being relevant or useful will not be acted further upon and set to "Won't do".
+* Backlog: A task that is not of priority at the moment but something that would be worthwhile to do at some point in the future (although maybe never due to other priorities).
+* Queue: A task with a priority that is not high enough to be done immediately but that should be done in the near future.
+* Scheduled: A task that has been scheduled to be done by a specific date.
+* Today: A task that is scheduled to be done today. Tasks picked from the queue are moved to today.
 * In progress
 * Blocked
 * Waiting
 * Done
-* Won't do
 
 # During a workday
 * Go through the tasks in the Do section, then the Decide section, then Delegate
