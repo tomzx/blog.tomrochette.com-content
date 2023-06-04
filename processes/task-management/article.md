@@ -24,6 +24,17 @@ taxonomy:
 
 ![Task states](images/Task-states.png)
 
+* Unprioritized
+* Backlog
+* Queue
+* Scheduled
+* Today
+* In progress
+* Blocked
+* Waiting
+* Done
+* Won't do
+
 # During a workday
 * Go through the tasks in the Do section, then the Decide section, then Delegate
 
