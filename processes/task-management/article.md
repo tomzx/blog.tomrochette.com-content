@@ -31,9 +31,9 @@ taxonomy:
 * Queue: A task with a priority that is not high enough to be done immediately but that should be done in the near future.
 * Scheduled: A task that has been scheduled to be done by a specific date.
 * Today: A task that is scheduled to be done today. Tasks picked from the queue are moved to today.
-* In progress
-* Blocked
-* Waiting
+* In progress: Tasks that are were in progress yesterday but aren't blocked, waiting, or done are moved back to today, the queue, or the backlog.
+* Blocked: A task that is blocked by something else. The task should be moved back to today when it is unblocked.
+* Waiting:
 * Done
 
 # During a workday
