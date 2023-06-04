@@ -33,8 +33,8 @@ taxonomy:
 * Today: A task that is scheduled to be done today. Tasks picked from the queue are moved to today.
 * In progress: Tasks that are were in progress yesterday but aren't blocked, waiting, or done are moved back to today, the queue, or the backlog.
 * Blocked: A task that is blocked by something else. The task should be moved back to today when it is unblocked.
-* Waiting:
-* Done
+* Waiting: A task that is waiting for something to happen before it can be worked on. The task should be moved back to today when it is unblocked. The difference between a blocked task and a waiting task is that a blocked task is blocked by something that is not under your control, while a waiting task is blocked by something that is under your control.
+* Done: A task that has been completed and does not require further action.
 
 # During a workday
 * Go through the tasks in the Do section, then the Decide section, then Delegate
