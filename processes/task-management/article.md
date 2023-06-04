@@ -15,7 +15,7 @@ taxonomy:
 * Decide if it's urgent or not
 * Estimate the effort required to accomplish the task (in hours)
 * Estimate the value the task brings (in $)
-* Give a rough estimate of effort
+* Give a rough estimate of effort (in hours)
 * Give a description if necessary
 * Set a deadline if possible
 * Set status to Unprioritized
