@@ -16,7 +16,7 @@ taxonomy:
 # Overview
 
 # Notes
-* What are relevant questions to this task?
+* What are questions relevant to this task?
 * How likely is this to happen?
 * How important is this?
 * Are there simpler solutions?
