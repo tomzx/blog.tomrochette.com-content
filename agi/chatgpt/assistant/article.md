@@ -16,7 +16,11 @@ taxonomy:
 # Overview
 
 # Notes
-*
+* What are relevant questions to this task?
+* How likely is this to happen?
+* How important is this?
+* Are there simpler solutions?
+* Why is this a problem?
 
 # See also
 
