@@ -16,7 +16,7 @@ The goal of this study is to reflect on ways to implement a prompt or enough con
 # Overview
 
 # Notes
-* As of 2023-07-23, providing your own personal description as part of the system prompt or initial user prompt will quickly result in ChatGPT not using said prompt context anymore.
+* As of 2023-07-23, providing your own personal description as part of the system prompt or initial user prompt will quickly result in ChatGPT not using said prompt context anymore. In simple tests, after 1 user-assistant interaction, ChatGPT has already forgotten it's impersonating someone and indicates its an AI.
 
 ## Probing
 * By asking questions to the model you can identify parts of its personality that doesn't match yours. With this knowledge in hand, you can add more information to the original context you provide to ChatGPT
