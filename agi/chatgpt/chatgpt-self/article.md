@@ -24,6 +24,9 @@ The goal of this study is to reflect on ways to implement a prompt or enough con
 ### Probing questions
 * What do you like/dislike?
 
+## Context
+* ChatGPT gets all its information about what to say from the context you provide it. Context tokens are however limited and so it is not possible to feed all past information to ChatGPT for it to remember. While it may be possible to train
+
 # See also
 
 # References
