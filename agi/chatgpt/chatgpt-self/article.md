@@ -31,3 +31,4 @@ The goal of this study is to reflect on ways to implement a prompt or enough con
 # See also
 
 # References
+* https://platform.openai.com/docs/guides/gpt-best-practices/tactic-use-embeddings-based-search-to-implement-efficient-knowledge-retrieval
