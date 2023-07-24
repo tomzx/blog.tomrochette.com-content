@@ -26,6 +26,7 @@ The goal of this study is to reflect on ways to implement a prompt or enough con
 
 ## Context
 * ChatGPT gets all its information about what to say from the context you provide it. Context tokens are however limited and so it is not possible to feed all past information to ChatGPT for it to remember. While it may be possible to fine-tune a model with all the information you want it to remember, this would require cycles of discuss/fine-tune/discuss, which is not ideal. This seems to point to the necessity of an external system to store and retrieve information from. When the system would receive a prompt from the user, it would first attempt to retrieve any relevant context from the context store and then append it to the prompt before sending it to ChatGPT. ChatGPT would then have more context than only the user prompt, helping it answer using prior knowledge.
+* One challenge is context retrieval, i.e., figuring out how to retrieve context and what to return
 
 # See also
 
