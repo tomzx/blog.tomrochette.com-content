@@ -24,7 +24,7 @@ taxonomy:
 * Have the same thought over and over, for hours
 * Make it harder for your future self to be productive (destroy relationships, delete work)
 * Get interrupted as frequently as possible
-* Work in reverse order of priorities, work on things with the lowest opportunity cost
+* Work in reverse order of priorities, work on things with the lowest return on investment/opportunity cost
 * Have no goals, be all over the place
 * Get distracted by everything
 * Do not answer questions
