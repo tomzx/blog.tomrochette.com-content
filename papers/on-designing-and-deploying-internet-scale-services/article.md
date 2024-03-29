@@ -55,7 +55,7 @@ taxonomy:
 	* Decouple components
 * Testing in production is a reality and needs to be part of the quality assurance approach used by all internet-scale services
 * The following rules must be followed
-	* The production system has to have sufficient redundancy that, in the vent of catastrophic new service failure, state can be quickly recovered
+	* The production system has to have sufficient redundancy that, in the event of catastrophic new service failure, state can be quickly recovered
 	* Data corruption or state-related failures have to be extremely unlikely (functional testing must first be passing)
 	* Errors must be detected and the engineering team (rather than operations) must be monitoring system health of the code in test
 	* It must be possible to quickly roll back all changes and this roll back must be tested before going into production
