@@ -8,3 +8,4 @@ taxonomy:
 
 * ChatGPT
 * Prompt engineering
+* Parenting
