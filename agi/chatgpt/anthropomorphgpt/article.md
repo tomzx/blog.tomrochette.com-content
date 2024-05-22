@@ -7,7 +7,7 @@ taxonomy:
 ---
 
 ## Context
-Human beings like to anthropomorphize things. We like to give things human characteristics. We do this with animals, inanimate objects, and even inanimate objects that are not even alive. We do this with computers, too. We give them names, we talk to them, we treat them like they are people. We even give them human characteristics, like emotions and feelings.
+Human beings like to anthropomorphize things. We like to give things human characteristics. We do this with animals and even objects that are not even alive. We do this with computers, too. We give them names, we talk to them, we treat them like they are people. We even give them human characteristics, like emotions and feelings.
 
 In this study, we explore the idea of anthropomorphizing ChatGPT. We will give ChatGPT human characteristics, like emotions and feelings, and we will give ChatGPT a name.
 
@@ -17,7 +17,7 @@ In this study, we explore the idea of anthropomorphizing ChatGPT. We will give C
 * Create agents that have names, specializations, and personalities/preferences
 * How can agents with different personalities interact with each other?
 * How can agents with different personalities interact with humans?
-* How can agents initialize dialog?
+* How can agents initiate dialog?
 
 # Overview
 
