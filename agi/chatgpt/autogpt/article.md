@@ -16,7 +16,7 @@ taxonomy:
 * Automating prompt improvement by prompting ChatGPT to improve an initial prompt.
 
 # Overview
-In this article we explore the idea of using ChatGPT to automate high level goal achievement. We will refer to this as AutoGPT.
+In this article we explore the idea of using ChatGPT to automate the achievement of high level goal achievement. We will refer to this as AutoGPT.
 
 # Notes
 * Like any project, before leaving AutoGPT to its own devices, it is important to set both a time and monetary budget. This is to prevent it from running indefinitely and to prevent it from running up a large bill.
@@ -46,7 +46,7 @@ Note that most of the client's work is simply to submit requests to ChatGPT, wai
 Depending on the type of work involved, the amount of compute necessary will vary.
 
 # Execution environment
-A local environment could be implemented using docker or microk8s (or similar) as its foundation. The host computer would be responsible starting and stopping docker contains according to the needs of the project. A production environment could be implemented using Kubernetes.
+A local environment could be implemented using docker or microk8s (or similar) as its foundation. The host computer would be responsible starting and stopping docker containers according to the needs of the project. A production environment could be implemented using Kubernetes.
 
 In both situations, a client is responsible for submitting a goal, which will result in the AutoGPT cluster to start working on the goal.
 
