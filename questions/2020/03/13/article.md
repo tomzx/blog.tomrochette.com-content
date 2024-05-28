@@ -19,6 +19,8 @@ Neural imaging seems to support Vygotsky's theory that when individuals are talk
 
 I would be tempted to say that we have an internal voice because language is our way to survive. It allows us to process information coming from the world and turning it into actions. Although our ancestors most likely did not have advanced language as we do today, they had some form of language they could use to communicate. Much like cells in the body communicate with each other through chemical/electrical signaling, this internal voice is our way to communicate with ourself.
 
+Note: Not everyone has an internal monologue.
+
 # References
 * https://en.wikipedia.org/wiki/Internal_monologue
 * [Self‐reported inner speech use in university students](https://doi.org/10.1002%2Facp.3404)
