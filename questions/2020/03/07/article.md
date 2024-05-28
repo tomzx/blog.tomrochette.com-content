@@ -24,3 +24,5 @@ What the writer doesn't write about is also informative. If they write mostly ab
 It is possible to extract if-then rules from their writings, which generally expresses some form of believe that **if** something **then** something else. There are other variants where only **if** is provided (**if** something, something else, or something else, **if** something).
 
 A writer may use certain adjectives to describe things as "easy", "simple", "straightforward", "difficult", "impossible", "hard", etc. Those are also useful of indicators of the writer's beliefs.
+
+Nowadays with LLMs it's easy to provide a prompt such as "What beliefs are expressed in the following text" or "Extract the beliefs in the following text". With a bit of scripting we can extract everything available on the blog and feed it to a LLM to let it extract the beliefs for us.
