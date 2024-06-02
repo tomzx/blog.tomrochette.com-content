@@ -36,6 +36,8 @@ When reviewing
 * Provide specific and actionable feedback
 * Clearly mark nitpicks and optional comments
 	* Alternatively, use an approach such as [RFC2219](https://datatracker.ietf.org/doc/html/rfc2119) where you indicate whether a change is a MUST, SHOULD, or MAY
+	* I've used traffic light color emojis to communicate 🔴 MUST, 🟡 SHOULD, 🟢 MAY
+        * Another emoji based option is [gitmoji](https://gitmoji.dev/)
 * Assume competence
 * Provide rationale or context
 * Consider how comments may be interpreted
@@ -54,3 +56,4 @@ When reviewing
 * https://engineering.18f.gov/code-review/
 * https://conventionalcomments.org/
 * https://docs.gitlab.com/ee/development/code_review.html
+* https://gitmoji.dev/
