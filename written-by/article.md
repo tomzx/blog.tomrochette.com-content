@@ -18,6 +18,8 @@ I use a variety of LLM providers (in order of frequency of use):
 * [Claude](https://claude.ai/)
 * [Groq](https://groq.com/)
 * [Perplexity](https://www.perplexity.ai/)
+* [Poe](https://poe.com/)
+* [DuckDuckGo AI Chat](https://duckduckgo.com/?q=DuckDuckGo&ia=chat)
 * [Gemini](https://gemini.google.com/)
 
 # References
