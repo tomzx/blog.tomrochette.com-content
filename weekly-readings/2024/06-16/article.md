@@ -26,4 +26,10 @@ You should also learn about opportunity cost and sunk cost!
 One of LLMs strengths is their ability to always be somewhat helpful. One helpful thing they do is lowering the barrier to doing anything, as long as you know how to ask for help. While I code this mostly means giving me a small push to accomplish a task I would partially complete without its help. When writing, it's a great tool to stimulate creativity and get feedback on which you can act.
 
 [Superhuman: What can AI do in 30 minutes?](https://oneusefulthing.substack.com/p/superhuman-what-can-ai-do-in-30-minutes)
-More and more of how you decide to spend your time will decide how effective (or not) you are.
+More and more of how you decide to spend your time will decide how effective (or not) you are. In this article the author spends 30 minutes to accomplish the following with the help of generative AI:
+
+> Output: Bing generated 9,200 words or so of text and a couple images, GPT-4 generated a working HTML and CSS file, MidJourney created 12 images, ElevenLabs created a voicefile, and DiD created a movie.
+
+> Input: I made less than 20 inputs to all the systems to generate these results.
+
+Assuming that there were only 20 interactions, that would mean ~1 minute between interaction. Over a 30 minutes period, most of the time is likely spent on reviewing the generated content and then deciding our next move/writing  prompts. A time breakdown would have been interesting.
