@@ -16,10 +16,5 @@ content:
     limit: 5
     pagination: true
 
-feed:
-    title: tomrochette.com
-    description: What's up with my life
-    limit: 1000
-
 pagination: true
 ---
