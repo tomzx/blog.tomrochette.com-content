@@ -19,6 +19,7 @@ Tips from me:
 
 [Working with AI: Two paths to prompting](https://www.oneusefulthing.org/p/working-with-ai-two-paths-to-prompting)
 > Structured Prompting is about turning the AI into a tool that does a single task well in a way that is repeatable and adapts to its user.
+
 Structured prompts are very powerful. Once you start using a LLM regularly you'll frequently have the same type of requests which will nicely lead you to collect those statements (prompts) so that you can simply copy/paste them and adapt them to your new use case. I think that being able to share, easily edit, and observe how others use your structured prompts can help you improve them. I've personally found that reading other people's prompt enabled me to broaden my capabilities and the breadth of my thinking.
 
 [LLM prompting guide](https://huggingface.co/docs/transformers/main/en/tasks/prompting)
@@ -40,4 +41,5 @@ Interesting way to discuss cognitive load when reading code.
 
 [No, you don't owe me a favor](https://adamgrant.substack.com/p/no-you-dont-owe-me-a-favor)
 > If I take the time to do something for you, it’s not because I’m a matcher looking for something in return. It’s because I aspire to be a giver—I enjoy being helpful. My effort to support you means that I think highly of you and might even care about you. When you say you owe me, it reduces my investment in you to an accounting transaction.
+
 Something that resonated with me quite a lot. When I do things for others, it's not because I expect things in return. Maybe the only thing I hope is that you acknowledge and possibly appreciate the help, but I don't expect reciprocation.
