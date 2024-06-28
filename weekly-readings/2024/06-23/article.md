@@ -21,7 +21,7 @@ Tips from me:
 [Working with AI: Two paths to prompting](https://www.oneusefulthing.org/p/working-with-ai-two-paths-to-prompting)
 > Structured Prompting is about turning the AI into a tool that does a single task well in a way that is repeatable and adapts to its user.
 
-Structured prompts are very powerful. Once you start using a LLM regularly you'll frequently have the same type of requests which will nicely lead you to collect those statements (prompts) so that you can simply copy/paste them and adapt them to your new use case. I think that being able to share, easily edit, and observe how others use your structured prompts can help you improve them. I've personally found that reading other people's prompt enabled me to broaden my capabilities and the breadth of my thinking.
+Structured prompts are very powerful. Once you start using a LLM regularly you'll frequently have the same type of requests which will nicely lead you to collect those statements (prompts) so that you can simply copy/paste them and adapt them to your new use case. I think that being able to share, easily edit, and observe how others use your structured prompts can help you improve them. I've personally found that reading other people's prompts enabled me to broaden my capabilities and the breadth of my thinking.
 
 [LLM prompting guide](https://huggingface.co/docs/transformers/main/en/tasks/prompting)
 Tips: 
