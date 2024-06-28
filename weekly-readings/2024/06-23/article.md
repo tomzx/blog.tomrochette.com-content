@@ -10,7 +10,8 @@ taxonomy:
 [How to... use ChatGPT to boost your writing](https://oneusefulthing.substack.com/p/how-to-use-chatgpt-to-boost-your)
 Tips from the article:
 * More elaborate and specific prompts work better.
-* You can ask the AI to use specific styles for writing. 
+* You can ask the AI to use specific styles for writing.
+
 Tips from me:
 * Use it to review your syntax, grammar, clarity, tone, biases, identify convoluted sentences, sentences that are too long. 
 * Use it to generate alternative sentences when you don't like how yours reads.
