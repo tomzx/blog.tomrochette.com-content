@@ -4,7 +4,7 @@ created: 2024-06-21
 taxonomy:
   type: post
   category: []
-  status: draft
+  status: finished
 ---
 
 I read more articles from https://www.oneusefulthing.org this week.
