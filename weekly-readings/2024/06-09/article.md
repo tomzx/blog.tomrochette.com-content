@@ -4,7 +4,7 @@ created: 2024-06-14
 taxonomy:
   type: post
   category: []
-  status: draft
+  status: finished
 ---
 
 I discovered https://www.oneusefulthing.org and ended up reading a few articles.
