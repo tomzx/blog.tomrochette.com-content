@@ -9,7 +9,7 @@ taxonomy:
     - company growth
 ---
 
-In this article I want to explore different aspects of scaling a company that need to be taken into account if you're trying to grow exponentially. Generally when discussing about growth we consider revenue growth to be the metric we're measuring. One thing that is important, and that is considered throughout the article, is to be a profitable company. There's no point in growing exponentially if it is unsustainable or you're expenses are always going to be superior to your profits.
+In this article I want to explore different aspects of scaling a company that need to be taken into account if you're trying to grow exponentially. Generally when discussing about growth we consider revenue growth to be the metric we're measuring. One thing that is important, and that is considered throughout the article, is to be a profitable company. There's no point in growing exponentially if it is unsustainable or your expenses are always going to be superior to your profits.
 
 In the best scenario, your business grows exponentially without requiring any additional human power. The second best case is that it grows sublinearly, meaning that as demand grows, the amount of people required to support the company grows slower than the demand itself. Past this point, growth either matches with how many people need to be hired, or worse, growth is slower as you hire more people. Here you may have exponential human power growth to get linear (or sublinear) revenue growth.
 
