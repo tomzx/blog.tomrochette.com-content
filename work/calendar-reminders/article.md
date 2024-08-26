@@ -1,5 +1,5 @@
 ---
-title: Work calendar reminders
+title: Calendar reminders
 created: 2024-08-23
 taxonomy:
   type: post
