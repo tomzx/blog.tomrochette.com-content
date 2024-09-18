@@ -8,3 +8,4 @@ taxonomy:
 ---
 
 * For problems related to environment setup, trying to accomplish the same thing on two computers can help identify disparities caused by the environment and not the code itself.
+* If you are blocked when trying to solve your problem, define time limit (i.e., timebox) how much time you will continue attempting to address the problem before changing your approch.
