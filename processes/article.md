@@ -29,6 +29,7 @@ Processes are a way to do things, such that the process can be then reproduced i
 * [Question answering](question-answering/article.md)
 * [Reviewing code](reviewing-code/article.md)
 * [RFC](rfc/article.md)
+* [Solving hard software problems](solving-hard-software-problems/article.md)
 * [Software project basics](software-project-basics/article.md)
 * [Task management](task-management/article.md)
 * [Web applications](web-applications/article.md)
