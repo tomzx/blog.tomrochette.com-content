@@ -17,4 +17,4 @@ jobs:
           curl -X POST \
             -H "Authorization: Bearer $API_KEY" \
             -H "Content-Type: application/json" \
-            https://blog.tomrochette.com/refresh
+            https://blog.tomrochette.com/refresh-pages.php
