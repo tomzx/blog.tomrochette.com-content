@@ -11,16 +11,11 @@ All articles on this blog originate from my head. The content of the articles is
 
 I use a variety of LLM providers (in order of frequency of use):
 * [GitHub Copilot](https://github.com/features/copilot)
-* [Reka.ai](https://chat.reka.ai/)
-* [Meta.ai](https://www.meta.ai/)
 * [OpenAI ChatGPT](https://chat.openai.com/)
-* [Command R+](https://coral.cohere.com/)
 * [Claude](https://claude.ai/)
-* [Groq](https://groq.com/)
-* [Perplexity](https://www.perplexity.ai/)
 * [Poe](https://poe.com/)
-* [DuckDuckGo AI Chat](https://duckduckgo.com/?q=DuckDuckGo&ia=chat)
-* [Gemini](https://gemini.google.com/)
+* [Meta.ai](https://www.meta.ai/)
+* [Reka.ai](https://chat.reka.ai/)
 
 # References
 * https://sive.rs/ai
