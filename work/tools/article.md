@@ -6,6 +6,8 @@ taxonomy:
   status: draft
 ---
 
+Tools I use on a regular basis at work.
+
 * Chrome
 * Docker
 * GitHub
