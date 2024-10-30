@@ -6,6 +6,8 @@ taxonomy:
   category: [Learning]
 ---
 
+(sorted alphabetically)
+
 * ChatGPT
-* Prompt engineering
 * Parenting
+* Prompt engineering
