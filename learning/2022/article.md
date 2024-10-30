@@ -6,11 +6,13 @@ taxonomy:
   category: [Learning]
 ---
 
+(sorted alphabetically)
+
+* Ads mediation
+* Ads serving
 * GCP
     * Traffic director
+* Grafana unified alerts
 * Managing large scale services (500k+ rps)
 * Imply
-* Ads serving
-* Ads mediation
-* Grafana unified alerts
 * Renovate
