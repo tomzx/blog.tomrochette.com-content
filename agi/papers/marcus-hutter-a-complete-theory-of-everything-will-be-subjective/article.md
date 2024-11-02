@@ -2,7 +2,7 @@
 title: Marcus Hutter - A Complete Theory of Everything (will be subjective) (2010)
 created: 2016-09-10
 taxonomy:
-  category: [Artificial General Intelligence]
+  tag: [Artificial General Intelligence]
   status: finished
 ---
 

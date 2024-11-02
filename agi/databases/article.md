@@ -2,7 +2,7 @@
 title: Databases
 created: 2015-11-01
 taxonomy:
-  category: [Artificial General Intelligence]
+  tag: [Artificial General Intelligence]
   status: in progress
 ---
 

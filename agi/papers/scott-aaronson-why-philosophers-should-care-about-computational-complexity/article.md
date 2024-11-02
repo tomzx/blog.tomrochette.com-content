@@ -2,7 +2,7 @@
 title: Scott Aaronson - Why Philosophers Should Care About Computational Complexity (2011)
 created: 2017-08-24
 taxonomy:
-  category: [Artificial General Intelligence]
+  tag: [Artificial General Intelligence]
   status: finished
 ---
 

@@ -3,7 +3,7 @@ title: Vocabulary gradient
 created: 2020-02-14
 taxonomy:
   type: post
-  category: [Problems, Tool]
+  tag: [Problems, Tool]
   status: finished
 ---
 

@@ -2,7 +2,7 @@
 title: Alex Graves - Automated Curriculum Learning for Neural Networks (2017)
 created: 2017-06-23
 taxonomy:
-  category: [Machine learning]
+  tag: [Machine learning]
   status: finished
 ---
 

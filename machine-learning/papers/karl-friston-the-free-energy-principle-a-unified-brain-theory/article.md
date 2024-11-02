@@ -2,7 +2,7 @@
 title: "Karl Friston - The free-energy principle: a unified brain theory? (2010)"
 created: 2018-02-16
 taxonomy:
-  category: [Machine learning]
+  tag: [Machine learning]
   status: finished
 ---
 

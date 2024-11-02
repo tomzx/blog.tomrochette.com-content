@@ -3,7 +3,7 @@ title: Task management
 created: 2019-05-26
 taxonomy:
   type: post
-  category: [Time management, Processes]
+  tag: [Time management, Processes]
   status: draft
 ---
 

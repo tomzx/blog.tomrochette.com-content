@@ -2,7 +2,7 @@
 title: PHP-Brain
 created: 2016-02-24
 taxonomy:
-  category: [Artificial General Intelligence]
+  tag: [Artificial General Intelligence]
   status: in progress
 ---
 

@@ -2,7 +2,7 @@
 title: "Miltiadis Allamanis - SmartPaste: Learning to Adapt Source Code (2017)"
 created: 2017-05-25
 taxonomy:
-  category: [Machine learning]
+  tag: [Machine learning]
   status: finished
 ---
 

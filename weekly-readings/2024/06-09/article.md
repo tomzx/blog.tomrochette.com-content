@@ -3,7 +3,7 @@ title: Weekly readings - 2024-06-09
 created: 2024-06-14
 taxonomy:
   type: post
-  category: []
+  tag: [weekly-readings]
   status: finished
 ---
 

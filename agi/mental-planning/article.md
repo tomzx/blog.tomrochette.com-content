@@ -2,7 +2,7 @@
 title: Mental planning
 created: 2016-07-02
 taxonomy:
-  category: [Artificial General Intelligence]
+  tag: [Artificial General Intelligence]
   status: in progress
 ---
 

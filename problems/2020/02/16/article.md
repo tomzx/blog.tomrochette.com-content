@@ -3,7 +3,7 @@ title: Chrome tabs count
 created: 2020-02-16
 taxonomy:
   type: post
-  category: [Problems]
+  tag: [Problems]
   status: finished
 ---
 

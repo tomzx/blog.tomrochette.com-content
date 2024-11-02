@@ -2,7 +2,7 @@
 title: Assistant
 created: 2023-07-02
 taxonomy:
-  category: [Artificial General Intelligence, ChatGPT]
+  tag: [Artificial General Intelligence, ChatGPT]
   status: in progress
 ---
 

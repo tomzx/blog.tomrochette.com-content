@@ -3,7 +3,7 @@ title: Assessing a dataset quality
 created: 2020-03-06
 taxonomy:
   type: post
-  category: [Problems, Machine learning]
+  tag: [Problems, Machine learning]
   status: finished
 ---
 

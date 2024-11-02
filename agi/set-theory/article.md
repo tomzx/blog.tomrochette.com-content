@@ -2,7 +2,7 @@
 title: Set Theory
 created: 2016-01-15
 taxonomy:
-  category: [Artificial General Intelligence]
+  tag: [Artificial General Intelligence]
   status: in progress
 ---
 

@@ -3,7 +3,7 @@ title: Writing good documentation
 created: 2020-02-23
 taxonomy:
   type: post
-  category: [Questions]
+  tag: [Questions]
   status: finished
 ---
 

@@ -2,7 +2,7 @@
 title: Roman V. Yampolskiy - From Seed AI to Technological Singularity via Recursively Self-Improving Software (2015)
 created: 2016-08-16
 taxonomy:
-  category: [Artificial General Intelligence]
+  tag: [Artificial General Intelligence]
   status: finished
 ---
 

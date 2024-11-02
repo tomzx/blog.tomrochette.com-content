@@ -2,7 +2,7 @@
 title: Voice recognition
 created: 2017-02-04
 taxonomy:
-  category: [Artificial General Intelligence]
+  tag: [Artificial General Intelligence]
   status: in progress
 ---
 

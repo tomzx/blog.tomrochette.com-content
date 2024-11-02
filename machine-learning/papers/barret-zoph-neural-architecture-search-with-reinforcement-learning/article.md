@@ -2,7 +2,7 @@
 title: Barret Zoph - Neural Architecture Search with Reinforcement Learning (2017)
 created: 2017-05-25
 taxonomy:
-  category: [Machine learning]
+  tag: [Machine learning]
   status: finished
 ---
 

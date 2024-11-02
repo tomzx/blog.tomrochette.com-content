@@ -2,7 +2,7 @@
 title: Knowledge transfer
 created: 2016-05-11
 taxonomy:
-  category: [Artificial General Intelligence]
+  tag: [Artificial General Intelligence]
   status: in progress
 ---
 

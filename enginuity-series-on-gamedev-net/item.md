@@ -3,8 +3,8 @@ title: Enginuity series on GameDev.net
 created: 2011-04-25T04:01:00-05:00
 taxonomy:
   type: post
-  category: Programming
   tag:
+    - programming
     - enginuity
     - game development
 ---

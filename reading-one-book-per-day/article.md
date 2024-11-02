@@ -3,7 +3,6 @@ title: Reading one book per day
 created: 2020-07-27
 taxonomy:
   type: post
-  category: []
   status: in progress
   tag:
     - reading

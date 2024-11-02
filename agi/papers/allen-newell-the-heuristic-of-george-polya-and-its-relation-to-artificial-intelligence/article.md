@@ -2,7 +2,7 @@
 title: Allen Newell - The heuristic of George Pólya and its relation to artificial intelligence (1981)
 created: 2016-06-15
 taxonomy:
-  category: [Artificial General Intelligence]
+  tag: [Artificial General Intelligence]
   status: finished
 ---
 

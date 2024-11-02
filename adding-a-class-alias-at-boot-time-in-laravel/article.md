@@ -4,8 +4,8 @@ created: 2021-03-28
 taxonomy:
   type: post
   status: finished
-  category: Programming
   tag:
+    - programming
     - php
     - laravel
 ---

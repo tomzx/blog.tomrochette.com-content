@@ -2,7 +2,7 @@
 title: EURISKO-like AGI
 created: 2016-04-28
 taxonomy:
-  category: [Artificial General Intelligence]
+  tag: [Artificial General Intelligence]
   status: in progress
 ---
 

@@ -2,7 +2,7 @@
 title: Wikibot
 created: 2015-12-02
 taxonomy:
-  category: [Artificial General Intelligence]
+  tag: [Artificial General Intelligence]
   status: in progress
 ---
 

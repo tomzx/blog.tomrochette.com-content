@@ -2,7 +2,7 @@
 title: Dialog theory
 created: 2016-06-02
 taxonomy:
-  category: [Artificial General Intelligence]
+  tag: [Artificial General Intelligence]
   status: in progress
 ---
 

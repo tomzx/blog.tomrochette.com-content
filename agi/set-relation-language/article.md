@@ -2,7 +2,7 @@
 title: Set Relation Language
 created: 2015-09-06
 taxonomy:
-  category: [Artificial General Intelligence]
+  tag: [Artificial General Intelligence]
   status: in progress
 ---
 

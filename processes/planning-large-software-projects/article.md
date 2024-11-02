@@ -3,7 +3,7 @@ title: Planning large software projects
 created: 2020-11-06
 taxonomy:
   type: post
-  category: [Software development, Processes]
+  tag: [Software development, Processes]
   status: draft
   tag:
     - software development

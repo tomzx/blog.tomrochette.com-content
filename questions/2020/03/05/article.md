@@ -3,7 +3,7 @@ title: Making others more productive
 created: 2020-03-05
 taxonomy:
   type: post
-  category: [Questions]
+  tag: [Questions]
   status: finished
 ---
 

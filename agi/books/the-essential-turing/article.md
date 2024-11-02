@@ -2,7 +2,7 @@
 title: The Essential Turing - 2004
 created: 2016-01-18
 taxonomy:
-  category: [Artificial General Intelligence]
+  tag: [Artificial General Intelligence]
   status: in progress
 ---
 

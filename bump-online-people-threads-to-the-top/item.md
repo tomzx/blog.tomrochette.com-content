@@ -3,8 +3,7 @@ title: Bump online people threads to the top
 created: 2006-05-09T03:54:43-05:00
 taxonomy:
     type: post
-    category: Sites
-    tag: [forum]
+    tag: [sites, forum]
 ---
 
 Have you ever been on a forum waiting for people to reply to your threads? Do you find it frustrating to have to bump your own threads so you can get the response you're looking for? If yes, then you might want to look at this concept idea:

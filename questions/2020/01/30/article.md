@@ -3,7 +3,7 @@ title: Tools I use daily and can contribute to
 created: 2020-01-30
 taxonomy:
   type: post
-  category: [Questions]
+  tag: [Questions]
   status: finished
 ---
 

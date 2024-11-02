@@ -3,7 +3,7 @@ title: How to lead a large AGI company
 created: 2020-02-16
 taxonomy:
   type: post
-  category: [Questions, Artificial General Intelligence]
+  tag: [Questions, Artificial General Intelligence]
   status: finished
 ---
 

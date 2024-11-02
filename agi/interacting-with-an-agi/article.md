@@ -2,7 +2,7 @@
 title: Interacting with an AGI
 created: 2015-12-25
 taxonomy:
-  category: [Artificial General Intelligence]
+  tag: [Artificial General Intelligence]
   status: in progress
 ---
 

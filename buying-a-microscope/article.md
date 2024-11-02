@@ -3,8 +3,6 @@ title: Buying a microscope
 created: 2017-01-01
 taxonomy:
     type: post-wip
-    category:
-    tag: []
     status: in progress
 ---
 

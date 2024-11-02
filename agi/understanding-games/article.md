@@ -2,7 +2,7 @@
 title: Understanding games
 created: 2015-10-25
 taxonomy:
-  category: [Artificial General Intelligence]
+  tag: [Artificial General Intelligence]
   status: draft
 ---
 

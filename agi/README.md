@@ -4,8 +4,8 @@ created: 2015-09-03
 visible: true
 menu: AGI
 taxonomy:
-  category: [Artificial General Intelligence]
   status: in progress
+  tag: [Artificial General Intelligence]
 ---
 
 The articles contained within this repository are mostly works in progress. I try to explore various topics that interest me and think through them at various points in time.

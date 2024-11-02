@@ -2,7 +2,7 @@
 title: Handwriting recognition
 created: 2016-06-24
 taxonomy:
-  category: [Machine learning]
+  tag: [Machine learning]
   status: in progress
 ---
 

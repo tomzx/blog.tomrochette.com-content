@@ -3,7 +3,7 @@ title: Good execution of a project through consensus instead of leadership
 created: 2020-02-13
 taxonomy:
   type: post
-  category: [Questions]
+  tag: [Questions]
   status: finished
 ---
 

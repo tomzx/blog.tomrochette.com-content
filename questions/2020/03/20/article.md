@@ -3,7 +3,7 @@ title: Dealing with negatives thoughts
 created: 2020-03-20
 taxonomy:
   type: post
-  category: [Questions]
+  tag: [Questions]
   status: finished
 ---
 

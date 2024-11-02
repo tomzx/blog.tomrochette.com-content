@@ -3,7 +3,7 @@ title: PHP semantic versioning checker
 created: 2020-02-19
 taxonomy:
   type: post
-  category: [Problems, PHP]
+  tag: [Problems, PHP]
   status: finished
 ---
 

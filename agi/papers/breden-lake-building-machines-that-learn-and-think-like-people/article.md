@@ -2,7 +2,7 @@
 title: Building Machines That Learn and Think Like People (2016)
 created: 2016-04-09
 taxonomy:
-  category: [Artificial General Intelligence]
+  tag: [Artificial General Intelligence]
   status: finished
 ---
 

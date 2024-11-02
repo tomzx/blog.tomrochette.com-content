@@ -2,7 +2,7 @@
 title: Metadata definition
 created: 2018-01-12
 taxonomy:
-  category: []
+  tag: []
   status: in progress
 ---
 

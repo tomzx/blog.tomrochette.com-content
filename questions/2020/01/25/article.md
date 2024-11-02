@@ -3,7 +3,7 @@ title: Solving problems with AI
 created: 2020-01-25
 taxonomy:
   type: post
-  category: [Questions, Artificial Intelligence]
+  tag: [Questions, Artificial Intelligence]
   status: finished
 ---
 

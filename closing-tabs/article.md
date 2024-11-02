@@ -4,7 +4,6 @@ created: 2021-03-07
 taxonomy:
   type: post
   status: draft
-  category: General
   tag:
     - browser
     - tabs

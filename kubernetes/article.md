@@ -2,7 +2,7 @@
 title: Kubernetes
 created: 2018-06-07
 taxonomy:
-  category: [DevOps]
+  tag: [DevOps]
   status: in progress
 ---
 

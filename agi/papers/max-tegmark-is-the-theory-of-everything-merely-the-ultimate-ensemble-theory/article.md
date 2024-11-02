@@ -2,7 +2,7 @@
 title: Max Tegmark - Is "the theory of everything" merely the ultimate ensemble theory? (1998)
 created: 2017-09-01
 taxonomy:
-  category: [Artificial General Intelligence]
+  tag: [Artificial General Intelligence]
   status: finished
 ---
 

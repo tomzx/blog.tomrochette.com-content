@@ -2,7 +2,7 @@
 title: An evaluation of methods for prioritizing software requirements (1997)
 created: 2016-04-02
 taxonomy:
-  category: [Artificial General Intelligence]
+  tag: [Artificial General Intelligence]
   status: finished
 ---
 

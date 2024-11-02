@@ -2,7 +2,7 @@
 title: Life recording
 created: 2017-06-14
 taxonomy:
-  category: [Artificial General Intelligence]
+  tag: [Artificial General Intelligence]
   status: in progress
 ---
 

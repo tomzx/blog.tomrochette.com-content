@@ -3,7 +3,6 @@ title: Written by
 created: 2024-06-11
 taxonomy:
   type: post
-  category: []
   status: finished
 ---
 

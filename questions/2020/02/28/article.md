@@ -3,7 +3,7 @@ title: Determining if you are a low performer
 created: 2020-02-28
 taxonomy:
   type: post
-  category: [Questions, Software development]
+  tag: [Questions, Software development]
   status: finished
 ---
 

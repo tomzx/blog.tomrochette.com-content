@@ -2,7 +2,7 @@
 title: Toby Segaran - Programming the Semantic Web - 2009
 created: 2017-01-01
 taxonomy:
-  category: [Artificial General Intelligence]
+  tag: [Artificial General Intelligence]
   status: finished
 ---
 

@@ -3,8 +3,8 @@ title: Accepting self-signed (or unknown) certificates with TortoiseGit
 created: 2013-09-18T03:16:44-05:00
 taxonomy:
   type: post
-  category: Programming
   tag:
+    - programming
     - certificates
     - git
     - tortoisegit

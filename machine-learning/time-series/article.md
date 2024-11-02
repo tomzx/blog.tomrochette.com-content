@@ -2,7 +2,7 @@
 title: Time series
 created: 2016-08-12
 taxonomy:
-  category: [Machine learning]
+  tag: [Machine learning]
   status: in progress
 ---
 

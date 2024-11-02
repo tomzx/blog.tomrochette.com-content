@@ -2,7 +2,7 @@
 title: TensorFlow
 created: 2016-01-27
 taxonomy:
-  category: [Machine learning]
+  tag: [Machine learning]
   status: in progress
 ---
 

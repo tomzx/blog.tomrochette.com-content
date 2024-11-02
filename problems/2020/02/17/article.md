@@ -3,7 +3,7 @@ title: PHP code coverage verifier
 created: 2020-02-17
 taxonomy:
   type: post
-  category: [Problems, PHP]
+  tag: [Problems, PHP]
   status: finished
 ---
 

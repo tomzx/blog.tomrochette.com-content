@@ -2,7 +2,7 @@
 title: ChatGPT
 created: 2022-12-22
 taxonomy:
-  category: [Artificial General Intelligence, ChatGPT]
+  tag: [Artificial General Intelligence, ChatGPT]
   status: in progress
 ---
 

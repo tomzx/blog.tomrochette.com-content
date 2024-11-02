@@ -2,7 +2,7 @@
 title: "Jack Copeland - Computable Numbers: A Guide"
 created: 2015-01-09
 taxonomy:
-  category: [Artificial General Intelligence]
+  tag: [Artificial General Intelligence]
   status: finished
 ---
 

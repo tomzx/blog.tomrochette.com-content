@@ -2,7 +2,7 @@
 title: Jeff Hawkins - On Intelligence - 2004
 created: 2016-06-30
 taxonomy:
-  category: [Artificial General Intelligence]
+  tag: [Artificial General Intelligence]
   status: finished
 ---
 

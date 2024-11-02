@@ -2,7 +2,7 @@
 title: Irving John Good - Speculations concerning the first ultraintelligent machine (1966)
 created: 2018-01-12
 taxonomy:
-  category: [Artificial General Intelligence]
+  tag: [Artificial General Intelligence]
   status: finished
 ---
 

@@ -2,7 +2,7 @@
 title: Knowledge base
 created: 2016-01-05
 taxonomy:
-  category: [Artificial General Intelligence]
+  tag: [Artificial General Intelligence]
   status: in progress
 ---
 

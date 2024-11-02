@@ -2,8 +2,8 @@
 title: Wikipedia
 created: 2020-01-01
 taxonomy:
-  category: [Wikipedia]
   status: in progress
+  tag: [Wikipedia]
 ---
 
 # Context

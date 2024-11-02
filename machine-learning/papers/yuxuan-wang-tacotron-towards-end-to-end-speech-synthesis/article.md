@@ -2,7 +2,7 @@
 title: "Yuxuan Wang - Tacotron: Towards End-to-End Speech Synthesis (2017)"
 created: 2017-01-20
 taxonomy:
-  category: [Machine learning]
+  tag: [Machine learning]
   status: finished
 ---
 

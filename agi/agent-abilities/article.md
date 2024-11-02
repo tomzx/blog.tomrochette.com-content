@@ -2,8 +2,8 @@
 title: Agent abilities
 created: 2018-01-27
 taxonomy:
-  category: [Artificial General Intelligence]
   status: in progress
+  tag: [Artificial General Intelligence]
 ---
 
 ## Context

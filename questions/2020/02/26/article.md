@@ -3,7 +3,7 @@ title: Working on the wrong task
 created: 2020-02-26
 taxonomy:
   type: post
-  category: [Questions, Software development]
+  tag: [Questions, Software development]
   status: finished
 ---
 

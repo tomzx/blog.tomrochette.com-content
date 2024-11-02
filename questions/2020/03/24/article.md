@@ -3,7 +3,7 @@ title: Documenting a process
 created: 2020-03-24
 taxonomy:
   type: post
-  category: [Questions]
+  tag: [Questions]
   status: finished
 ---
 

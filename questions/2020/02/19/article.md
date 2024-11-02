@@ -3,7 +3,7 @@ title: Reading one Wikipedia article per day
 created: 2020-02-19
 taxonomy:
   type: post
-  category: [Questions]
+  tag: [Questions]
   status: finished
 ---
 

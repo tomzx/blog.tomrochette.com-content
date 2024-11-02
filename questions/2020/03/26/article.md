@@ -3,7 +3,7 @@ title: Adding habits to your life
 created: 2020-03-26
 taxonomy:
   type: post
-  category: [Questions]
+  tag: [Questions]
   status: finished
 ---
 

@@ -2,7 +2,7 @@
 title: Structuring an AGI research
 created: 2015-09-05
 taxonomy:
-  category: [Artificial General Intelligence]
+  tag: [Artificial General Intelligence]
   status: in progress
 ---
 

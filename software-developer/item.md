@@ -3,8 +3,7 @@ title: Software developer
 created: 2009-04-26T22:53:36-05:00
 taxonomy:
     type: post
-    category: [Computers]
-    tag: joke
+    tag: [computers, joke]
 ---
 
 > A man is flying in a hot air balloon and realizes he is lost. He reduces height and spots a man down below. He lowers the balloon further and shouts: "Excuse me, can you tell me where I am?"

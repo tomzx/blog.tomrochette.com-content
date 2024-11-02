@@ -3,8 +3,7 @@ title: Redirect to www
 created: 2006-06-04T06:28:16-05:00
 taxonomy:
     type: post
-    category: Sites
-    tag: [apache, .htaccess, rewriterule]
+    tag: [sites, apache, .htaccess, rewriterule]
 ---
 
 <pre><code class="language-apache line-numbers">

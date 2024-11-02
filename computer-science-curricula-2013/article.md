@@ -2,7 +2,6 @@
 title: Computer science curricula 2013
 created: 2017-07-15
 taxonomy:
-  category: [Computer Science]
   status: in progress
   tag:
     - curricula

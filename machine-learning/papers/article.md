@@ -2,7 +2,7 @@
 title: Papers
 created: 2015-10-25
 taxonomy:
-  category: [Machine learning]
+  tag: [Machine learning]
   status: in progress
 ---
 

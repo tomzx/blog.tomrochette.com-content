@@ -2,7 +2,7 @@
 title: Intelligence
 created: 2016-02-17
 taxonomy:
-  category: [Artificial General Intelligence]
+  tag: [Artificial General Intelligence]
   status: in progress
 ---
 

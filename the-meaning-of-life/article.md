@@ -4,8 +4,8 @@ created: 2021-07-24
 taxonomy:
   type: post-wip
   status: draft
-  category: Philosophy
   tag:
+    - philosophy
     - thoughts
 ---
 

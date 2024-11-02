@@ -2,7 +2,7 @@
 title: Nal Kalchbrenner - Grid Long Short-Term Memory (2016)
 created: 2017-06-16
 taxonomy:
-  category: [Machine learning]
+  tag: [Machine learning]
   status: in progress
 ---
 

@@ -3,7 +3,7 @@ title: Spread of corruption
 created: 2020-02-02
 taxonomy:
   type: post
-  category: [Questions]
+  tag: [Questions]
   status: finished
 ---
 

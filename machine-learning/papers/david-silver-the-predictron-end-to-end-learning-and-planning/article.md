@@ -2,7 +2,7 @@
 title: "David Silver - The Predictron: End-To-End Learning and Planning (2016)"
 created: 2017-06-23
 taxonomy:
-  category: [Machine learning]
+  tag: [Machine learning]
   status: finished
 ---
 

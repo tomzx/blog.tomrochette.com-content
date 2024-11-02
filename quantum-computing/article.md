@@ -3,7 +3,7 @@ title: Quantum computing
 created: 2019-12-21
 taxonomy:
   type: post
-  category: []
+  tag: []
   status: draft
 ---
 

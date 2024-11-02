@@ -2,7 +2,7 @@
 title: In the beginning there was the code
 created: 2016-03-19
 taxonomy:
-  category: [Artificial General Intelligence]
+  tag: [Artificial General Intelligence]
   status: finished
 ---
 

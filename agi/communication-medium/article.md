@@ -2,7 +2,7 @@
 title: Communication medium
 created: 2017-07-01
 taxonomy:
-  category: [Artificial General Intelligence]
+  tag: [Artificial General Intelligence]
   status: in progress
 ---
 

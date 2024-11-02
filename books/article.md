@@ -2,7 +2,7 @@
 title: Books
 created: 2020-01-12
 taxonomy:
-  category: [Books]
+  tag: [Books]
   status: in progress
 ---
 

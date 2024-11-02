@@ -2,7 +2,7 @@
 title: Thomas Anthony - Thinking Fast and Slow with Deep Learning and Tree Search (2017)
 created: 2017-10-20
 taxonomy:
-  category: [Machine learning]
+  tag: [Machine learning]
   status: finished
 ---
 

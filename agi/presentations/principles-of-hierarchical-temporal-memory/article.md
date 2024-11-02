@@ -2,7 +2,7 @@
 title: Principles Of Hierarchical Temporal Memory - Foundations Of Machine Intelligence
 created: 2015-11-15
 taxonomy:
-  category: [Artificial General Intelligence]
+  tag: [Artificial General Intelligence]
   status: finished
 ---
 

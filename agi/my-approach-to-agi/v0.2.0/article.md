@@ -2,7 +2,7 @@
 title: AGI v0.2.0
 created: 2016-03-24
 taxonomy:
-  category: [Artificial General Intelligence]
+  tag: [Artificial General Intelligence]
   status: in progress
 ---
 

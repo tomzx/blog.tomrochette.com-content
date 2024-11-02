@@ -2,7 +2,7 @@
 title: Natural language
 created: 2015-12-06
 taxonomy:
-  category: [Artificial General Intelligence]
+  tag: [Artificial General Intelligence]
   status: in progress
 ---
 

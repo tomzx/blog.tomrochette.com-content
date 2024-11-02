@@ -2,7 +2,7 @@
 title: Writing a paper
 created: 2016-07-07
 taxonomy:
-  category: [Artificial General Intelligence]
+  tag: [Artificial General Intelligence]
   status: in progress
 ---
 

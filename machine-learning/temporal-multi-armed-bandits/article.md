@@ -2,7 +2,7 @@
 title: Temporal multi-armed bandits
 created: 2021-07-04
 taxonomy:
-  category: [Machine learning]
+  tag: [Machine learning]
   status: in progress
 ---
 

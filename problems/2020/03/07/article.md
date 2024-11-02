@@ -3,7 +3,7 @@ title: Improving the performance of a slow click CLI
 created: 2020-02-29
 taxonomy:
   type: post
-  category: [Problems, Python]
+  tag: [Problems, Python]
   status: finished
 ---
 

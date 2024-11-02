@@ -3,7 +3,7 @@ title: AST in python
 created: 2020-02-10
 taxonomy:
   type: post
-  category: [Problems, Software development, Python]
+  tag: [Problems, Software development, Python]
   status: finished
 ---
 

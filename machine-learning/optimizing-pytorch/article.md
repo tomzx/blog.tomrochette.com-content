@@ -2,7 +2,7 @@
 title: Optimizing PyTorch
 created: 2019-11-26
 taxonomy:
-  category: [Machine learning]
+  tag: [Machine learning]
   status: in progress
 ---
 

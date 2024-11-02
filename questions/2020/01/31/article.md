@@ -3,7 +3,7 @@ title: Questions to think about a problem differently
 created: 2020-01-31
 taxonomy:
   type: post
-  category: [Questions]
+  tag: [Questions]
   status: finished
 ---
 

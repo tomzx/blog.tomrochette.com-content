@@ -3,7 +3,7 @@ title: Data anonymizer
 created: 2020-02-13
 taxonomy:
   type: post
-  category: [Problems, Data]
+  tag: [Problems, Data]
   status: finished
 ---
 

@@ -3,7 +3,7 @@ title: Reading fiction books
 created: 2020-03-17
 taxonomy:
   type: post
-  category: [Questions]
+  tag: [Questions]
   status: finished
 ---
 

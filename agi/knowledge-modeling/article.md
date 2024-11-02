@@ -3,7 +3,7 @@ title: Knowledge modeling
 todo: rename to language modeling
 created: 2015-12-05
 taxonomy:
-  category: [Artificial General Intelligence]
+  tag: [Artificial General Intelligence]
   status: in progress
 ---
 

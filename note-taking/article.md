@@ -2,7 +2,7 @@
 title: Note taking
 created: 2018-05-03
 taxonomy:
-  category: []
+  tag: []
   status: in progress
 ---
 

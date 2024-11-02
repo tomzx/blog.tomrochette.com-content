@@ -2,7 +2,7 @@
 title: Scott Gilbert - Developmental Biology - 2010
 created: 2017-10-28
 taxonomy:
-  category: [Artificial General Intelligence]
+  tag: [Artificial General Intelligence]
   status: in progress
 ---
 

@@ -3,7 +3,7 @@ title: Learning
 created: 2021-12-18
 taxonomy:
   type: post
-  category: [Learning]
+  tag: [Learning]
 ---
 
 Every year I learn new things. In the articles listed below I record the various things I've learned over the years.

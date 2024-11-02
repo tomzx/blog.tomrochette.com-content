@@ -3,7 +3,6 @@ title: Prioritizing
 created: 2017-01-07
 taxonomy:
     type: post-wip
-    category: General
     tag: [priority, prioritization, planning]
 ---
 

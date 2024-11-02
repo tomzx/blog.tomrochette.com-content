@@ -2,7 +2,7 @@
 title: David Sterratt - Principles of Computational Modelling in Neuroscience - 2011
 created: 2017-07-29
 taxonomy:
-  category: [Artificial General Intelligence]
+  tag: [Artificial General Intelligence]
   status: in progress
 ---
 

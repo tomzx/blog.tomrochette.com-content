@@ -2,7 +2,7 @@
 title: George Pólya - How to Solve It - 1945
 created: 2016-06-11
 taxonomy:
-  category: [Artificial General Intelligence]
+  tag: [Artificial General Intelligence]
   status: in progress
 ---
 

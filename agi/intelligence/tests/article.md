@@ -2,7 +2,7 @@
 title: Intelligence tests
 created: 2015-10-22
 taxonomy:
-  category: [Artificial General Intelligence]
+  tag: [Artificial General Intelligence]
   status: in progress
 ---
 
@@ -43,4 +43,4 @@ See http://commonsensereasoning.org/winograd.html
 
 # References
 * https://en.wikipedia.org/wiki/Artificial_general_intelligence
-* https://en.wikipedia.org/wiki/Category:Intelligence_tests
+* https://en.wikipedia.org/wiki/tag:Intelligence_tests

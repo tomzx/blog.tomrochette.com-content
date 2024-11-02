@@ -3,7 +3,7 @@ title: Learning topics that are overwhelming
 created: 2020-02-21
 taxonomy:
   type: post
-  category: [Problems]
+  tag: [Problems]
   status: finished
 ---
 

@@ -3,7 +3,7 @@ title: Onboarding users on your library
 created: 2020-02-22
 taxonomy:
   type: post
-  category: [Questions]
+  tag: [Questions]
   status: finished
 ---
 

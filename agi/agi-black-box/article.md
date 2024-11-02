@@ -2,7 +2,7 @@
 title: AGI black box
 created: 2018-05-10
 taxonomy:
-  category: [Artificial General Intelligence]
+  : [Artificial General Intelligence]
   status: in progress
 ---
 

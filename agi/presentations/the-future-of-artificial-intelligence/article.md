@@ -2,7 +2,7 @@
 title: The Future of Artificial Intelligence
 created: 2016-03-18
 taxonomy:
-  category: [Artificial General Intelligence]
+  tag: [Artificial General Intelligence]
   status: finished
 ---
 

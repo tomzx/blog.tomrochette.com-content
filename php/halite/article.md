@@ -2,7 +2,7 @@
 title: Halite
 created: 2016-11-24
 taxonomy:
-  category: [Artificial General Intelligence, PHP]
+  tag: [Artificial General Intelligence, PHP]
   status: in progress
 ---
 

@@ -2,7 +2,7 @@
 title: General AI Challenge - Round 1
 created: 2017-03-17
 taxonomy:
-  category: [Artificial General Intelligence]
+  tag: [Artificial General Intelligence]
   status: in progress
 ---
 

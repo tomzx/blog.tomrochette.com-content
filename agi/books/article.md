@@ -2,7 +2,7 @@
 title: Book index
 created: 2015-10-22
 taxonomy:
-  category: [Artificial General Intelligence]
+  tag: [Artificial General Intelligence]
   status: in progress
 ---
 

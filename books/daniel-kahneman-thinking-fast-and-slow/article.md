@@ -2,7 +2,7 @@
 title: Daniel Kahneman - Thinking, Fast and Slow - 2011
 created: 2018-02-08
 taxonomy:
-  category: [Psychology]
+  tag: [Psychology]
   status: finished
 ---
 

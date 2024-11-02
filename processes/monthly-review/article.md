@@ -3,7 +3,7 @@ title: Monthly review
 created: 2022-01-03
 taxonomy:
   type: post
-  category: [Processes]
+  tag: [Processes]
   status: draft
 ---
 

@@ -2,7 +2,7 @@
 title: "Cognitive Science: An Introduction to the Science of the Mind - 2010"
 created: 2016-04-14
 taxonomy:
-  category: [Artificial General Intelligence, Cognitive Science]
+  tag: [Artificial General Intelligence, Cognitive Science]
   status: finished
 ---
 

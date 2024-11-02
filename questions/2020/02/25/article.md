@@ -3,7 +3,7 @@ title: Knowing your users
 created: 2020-02-25
 taxonomy:
   type: post
-  category: [Questions, Software development]
+  tag: [Questions, Software development]
   status: finished
 ---
 

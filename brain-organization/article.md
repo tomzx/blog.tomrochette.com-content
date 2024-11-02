@@ -4,7 +4,6 @@ created: 2018-02-10
 taxonomy:
   type: post-wip
   status: draft
-  category: General
   tag:
     - productivity
 ---

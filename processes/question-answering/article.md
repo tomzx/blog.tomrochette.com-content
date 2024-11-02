@@ -3,7 +3,7 @@ title: Question answering
 created: 2017-08-18
 taxonomy:
   type: post
-  category: [General, Processes]
+  tag: [General, Processes]
   status: draft
 ---
 

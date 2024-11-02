@@ -3,9 +3,8 @@ title: PHP Startup Internals
 created: 2015-03-01T09:00:00-05:00
 taxonomy:
     type: post
-    category: Programming
-    tag: [php, startup, internals]
     status: draft
+    tag: [programming, php, startup, internals]
 ---
 
 * PHP

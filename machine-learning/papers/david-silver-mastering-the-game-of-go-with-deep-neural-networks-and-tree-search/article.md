@@ -2,7 +2,7 @@
 title: David Silver - Mastering the Game of Go with Deep Neural Networks and Tree Search (2016)
 created: 2016-03-09
 taxonomy:
-  category: [Artificial General Intelligence]
+  tag: [Artificial General Intelligence]
   status: finished
 ---
 

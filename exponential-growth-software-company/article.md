@@ -4,8 +4,8 @@ created: 2021-06-21
 taxonomy:
   type: post
   status: draft
-  category: Software development
   tag:
+    - software development
     - company growth
 ---
 

@@ -3,7 +3,7 @@ title: Selling stocks during a crisis
 created: 2020-03-15
 taxonomy:
   type: post
-  category: [Questions]
+  tag: [Questions]
   status: finished
 ---
 

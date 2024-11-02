@@ -3,7 +3,7 @@ title: Healthy software company
 created: 2020-02-15
 taxonomy:
   type: post
-  category: [Questions]
+  tag: [Questions]
   status: finished
 ---
 

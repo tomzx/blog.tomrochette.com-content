@@ -2,7 +2,7 @@
 title: Distributed AGI
 created: 2016-07-29
 taxonomy:
-  category: [Artificial General Intelligence]
+  tag: [Artificial General Intelligence]
   status: in progress
 ---
 

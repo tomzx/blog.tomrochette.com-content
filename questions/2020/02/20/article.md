@@ -3,7 +3,7 @@ title: Writing one article per day
 created: 2020-02-20
 taxonomy:
   type: post
-  category: [Questions]
+  tag: [Questions]
   status: finished
 ---
 

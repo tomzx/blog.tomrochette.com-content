@@ -3,7 +3,7 @@ title: Book rating
 created: 2021-07-24
 taxonomy:
   type: post
-  category: [General, Processes]
+  tag: [General, Processes]
   status: draft
 ---
 

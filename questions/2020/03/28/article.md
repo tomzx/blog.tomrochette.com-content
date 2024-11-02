@@ -3,7 +3,7 @@ title: Writing with simple vocabulary
 created: 2020-03-28
 taxonomy:
   type: post
-  category: [Questions]
+  tag: [Questions]
   status: finished
 ---
 

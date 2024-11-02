@@ -2,7 +2,7 @@
 title: The Novamente Artificial Intelligence Engine (2007)
 created: 2016-02-25
 taxonomy:
-  category: [Artificial General Intelligence]
+  tag: [Artificial General Intelligence]
   status: in progress
 ---
 

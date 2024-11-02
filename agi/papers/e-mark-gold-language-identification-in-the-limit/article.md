@@ -2,7 +2,7 @@
 title: E. Mark Gold - Language Identification in the Limit (1967)
 created: 2016-09-01
 taxonomy:
-  category: [Artificial General Intelligence]
+  tag: [Artificial General Intelligence]
   status: finished
 ---
 

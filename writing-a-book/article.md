@@ -2,8 +2,8 @@
 title: Writing a book
 created: 2018-01-06
 taxonomy:
-  category: [writing]
   status: in progress
+  tag: [writing]
 ---
 
 ## Context

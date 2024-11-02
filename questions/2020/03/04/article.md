@@ -3,7 +3,7 @@ title: The most important part of a meeting
 created: 2020-03-04
 taxonomy:
   type: post
-  category: [Questions]
+  tag: [Questions]
   status: finished
 ---
 

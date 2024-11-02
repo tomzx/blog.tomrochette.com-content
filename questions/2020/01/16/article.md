@@ -3,7 +3,7 @@ title: Identifying areas to improve
 created: 2020-01-16
 taxonomy:
   type: post
-  category: [Questions]
+  tag: [Questions]
   status: finished
 ---
 

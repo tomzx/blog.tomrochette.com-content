@@ -2,7 +2,7 @@
 title: Problem solving questions
 created: 2017-04-12
 taxonomy:
-  category: [Artificial General Intelligence]
+  tag: [Artificial General Intelligence]
   status: in progress
 ---
 

@@ -2,7 +2,7 @@
 title: J. Roland Olsson - How to Invent Functions (1999)
 created: 2016-09-03
 taxonomy:
-  category: [Artificial General Intelligence]
+  tag: [Artificial General Intelligence]
   status: finished
 ---
 

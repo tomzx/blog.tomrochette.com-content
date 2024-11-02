@@ -3,7 +3,7 @@ title: Web applications
 created: 2019-05-25
 taxonomy:
   type: post
-  category: [Software development, Processes]
+  tag: [Software development, Processes]
   status: draft
 ---
 

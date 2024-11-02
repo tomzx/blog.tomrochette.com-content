@@ -3,7 +3,7 @@ title: Anki recorder
 created: 2020-02-18
 taxonomy:
   type: post
-  category: [Problems, Anki]
+  tag: [Problems, Anki]
   status: finished
 ---
 

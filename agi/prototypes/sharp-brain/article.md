@@ -2,7 +2,7 @@
 title: Sharp-Brain
 created: 2016-05-04
 taxonomy:
-  category: [Artificial General Intelligence]
+  tag: [Artificial General Intelligence]
   status: in progress
 ---
 

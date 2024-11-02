@@ -3,9 +3,9 @@ title: One on one
 created: 2021-06-02
 taxonomy:
   type: post
-  category: [Processes]
   status: draft
-  tag: []
+  tag:
+    - processes
 ---
 
 * Define and agree on the purpose of the one on one

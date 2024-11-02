@@ -2,7 +2,7 @@
 title: Automated test generator
 created: 2016-09-09
 taxonomy:
-  category: [Artificial General Intelligence]
+  tag: [Artificial General Intelligence]
   status: in progress
 ---
 

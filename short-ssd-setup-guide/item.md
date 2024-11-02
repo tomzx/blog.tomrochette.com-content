@@ -3,8 +3,7 @@ title: Short SSD setup guide
 created: 2013-01-05T08:12:09-05:00
 taxonomy:
     type: post
-    category: Computers
-    tag: ssd
+    tag: [computers, ssd]
 ---
 
 Backup everything. First rename, then remove when you confirmed it worked. Better safe than sorry.

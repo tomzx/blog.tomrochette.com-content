@@ -3,7 +3,7 @@ title: Fighting over code style
 created: 2020-02-04
 taxonomy:
   type: post
-  category: [Questions, Programming]
+  tag: [Questions, Programming]
   status: finished
 ---
 

@@ -2,7 +2,7 @@
 title: Misha Denil - Programmable Agents (2017)
 created: 2017-08-26
 taxonomy:
-  category: [Machine learning]
+  tag: [Machine learning]
   status: finished
 ---
 

@@ -2,7 +2,7 @@
 title: Compression
 created: 2015-02-17
 taxonomy:
-  category: [Artificial General Intelligence]
+  tag: [Artificial General Intelligence]
   status: in progress
 ---
 

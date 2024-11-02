@@ -2,7 +2,7 @@
 title: The brain
 created: 2016-06-25
 taxonomy:
-  category: [Artificial General Intelligence]
+  tag: [Artificial General Intelligence]
   status: in progress
 ---
 

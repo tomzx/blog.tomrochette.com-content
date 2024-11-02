@@ -4,7 +4,6 @@ created: 2018-12-29
 taxonomy:
     type: post
     status: draft
-    category: General
     tag:
         - games
 ---

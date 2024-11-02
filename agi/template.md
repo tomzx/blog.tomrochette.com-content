@@ -2,8 +2,8 @@
 title: Template
 created: YYYY-MM-DD
 taxonomy:
-  category: [Artificial General Intelligence]
   status: in progress
+  tag: [Artificial General Intelligence]
 ---
 
 ## Context

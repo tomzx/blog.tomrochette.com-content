@@ -3,7 +3,7 @@ title: Learning - 2015
 created: 2021-12-18
 taxonomy:
   type: post
-  category: [Learning]
+  tag: [Learning]
 ---
 
 * Composer (proxy + client)

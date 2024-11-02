@@ -3,7 +3,6 @@ title: Software development processes
 created: 2015-07-07
 taxonomy:
     type: post-wip
-    category: General
     tag: [software engineering]
 ---
 

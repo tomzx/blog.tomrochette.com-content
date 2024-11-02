@@ -2,7 +2,7 @@
 title: Seed AI
 created: 2015-09-26
 taxonomy:
-  category: [Artificial General Intelligence]
+  tag: [Artificial General Intelligence]
   status: in progress
 ---
 

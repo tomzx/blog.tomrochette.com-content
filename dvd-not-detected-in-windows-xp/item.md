@@ -3,8 +3,8 @@ title: DVD not detected in Windows XP
 created: 2006-11-29T23:59:05-05:00
 taxonomy:
   type: post
-  category: Computers
   tag:
+    - computers
     - windows
     - dvd
 ---

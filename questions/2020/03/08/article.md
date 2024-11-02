@@ -3,7 +3,7 @@ title: Reducing your error rate
 created: 2020-03-08
 taxonomy:
   type: post
-  category: [Questions, Software development]
+  tag: [Questions, Software development]
   status: finished
 ---
 

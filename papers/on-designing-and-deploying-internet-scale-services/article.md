@@ -2,7 +2,7 @@
 title: On Designing and Deploying Internet-Scale Services
 created: 2021-05-21
 taxonomy:
-  category: [Software development]
+  tag: [Software development]
   status: finished
 ---
 

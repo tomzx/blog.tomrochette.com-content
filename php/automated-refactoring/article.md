@@ -3,7 +3,7 @@ title: Automated refactoring
 created: 2016-06-16
 taxonomy:
   type: post-wip
-  category: [PHP]
+  tag: [PHP]
   status: in progress
 ---
 

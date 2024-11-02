@@ -2,7 +2,7 @@
 title: Resources limited agents
 created: 2016-06-23
 taxonomy:
-  category: [Artificial General Intelligence]
+  tag: [Artificial General Intelligence]
   status: in progress
 ---
 

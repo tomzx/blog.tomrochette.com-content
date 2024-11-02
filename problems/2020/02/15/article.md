@@ -3,7 +3,7 @@ title: Photo geolocation
 created: 2020-02-15
 taxonomy:
   type: post
-  category: [Problems, Tool]
+  tag: [Problems, Tool]
   status: finished
 ---
 

@@ -3,7 +3,7 @@ title: Learning according to machine learning
 created: 2020-01-18
 taxonomy:
   type: post
-  category: [Questions, Machine learning]
+  tag: [Questions, Machine learning]
   status: finished
 ---
 

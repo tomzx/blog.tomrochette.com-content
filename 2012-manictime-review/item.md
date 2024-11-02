@@ -3,7 +3,6 @@ title: 2012 ManicTime review
 created: 2013-01-05T08:12:11-05:00
 taxonomy:
   type: post
-  category: General
   tag: [productivity, time management, manictime]
 ---
 

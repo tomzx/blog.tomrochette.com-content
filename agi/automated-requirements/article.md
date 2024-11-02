@@ -2,7 +2,7 @@
 title: Automated requirements
 created: 2017-04-06
 taxonomy:
-  category: [Artificial General Intelligence]
+  tag: [Artificial General Intelligence]
   status: in progress
 ---
 

@@ -2,7 +2,7 @@
 title: Natural language processing
 created: 2015-09-05
 taxonomy:
-  category: [Artificial General Intelligence]
+  tag: [Artificial General Intelligence]
   status: in progress
 ---
 ## Context
@@ -63,5 +63,5 @@ For instance, reading "word" would trigger all words with the letter "w", then "
 * http://www.wikisummarizer.com/Pages/Default.aspx
 
 ## Uncategorized
-* https://en.wikipedia.org/wiki/Category:Formal_languages
+* https://en.wikipedia.org/wiki/tag:Formal_languages
 * https://en.wikipedia.org/wiki/Context-sensitive_grammar

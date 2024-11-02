@@ -3,7 +3,7 @@ title: Book reading
 created: 2017-08-05
 taxonomy:
   type: post
-  category: [General, Processes]
+  tag: [General, Processes]
   status: draft
 ---
 

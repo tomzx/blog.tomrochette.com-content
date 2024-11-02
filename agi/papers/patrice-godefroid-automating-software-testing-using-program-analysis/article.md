@@ -2,7 +2,7 @@
 title: Patrice Godefroid - Automating Software Testing Using Program Analysis (2008)
 created: 2016-10-15
 taxonomy:
-  category: [Artificial General Intelligence]
+  tag: [Artificial General Intelligence]
   status: finished
 ---
 

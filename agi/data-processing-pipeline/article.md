@@ -2,7 +2,7 @@
 title: Data processing pipeline
 created: 2016-01-27
 taxonomy:
-  category: [Artificial General Intelligence]
+  tag: [Artificial General Intelligence]
   status: in progress
 ---
 

@@ -3,7 +3,7 @@ title: Resume filtering
 created: 2020-03-31
 taxonomy:
   type: post
-  category: [Questions]
+  tag: [Questions]
   status: finished
 ---
 

@@ -3,7 +3,7 @@ title: Introducing mypy in code with lots of issues
 created: 2020-02-25
 taxonomy:
   type: post
-  category: [Problems, Python]
+  tag: [Problems, Python]
   status: finished
 ---
 

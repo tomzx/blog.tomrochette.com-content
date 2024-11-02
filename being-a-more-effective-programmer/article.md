@@ -2,7 +2,6 @@
 title: Being a more effective programmer
 created: 2018-05-11
 taxonomy:
-  category: [Programming]
   status: in progress
   tag: [programming, productivity]
 ---

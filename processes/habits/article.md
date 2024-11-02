@@ -3,9 +3,9 @@ title: Habits
 created: 2020-11-15
 taxonomy:
   type: post
-  category: [Processes]
   status: draft
   tag:
+    - processes
     - habits
 ---
 

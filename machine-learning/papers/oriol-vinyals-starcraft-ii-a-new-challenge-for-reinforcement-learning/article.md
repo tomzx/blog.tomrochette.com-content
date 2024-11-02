@@ -2,7 +2,7 @@
 title: "Oriol Vinyals - Starcraft II: A New Challenge for Reinforcement Learning (2017)"
 created: 2017-10-05
 taxonomy:
-  category: [Machine learning]
+  tag: [Machine learning]
   status: finished
 ---
 

@@ -2,7 +2,7 @@
 title: My approach to AGI
 created: 2015-08-13
 taxonomy:
-  category: [Artificial General Intelligence]
+  tag: [Artificial General Intelligence]
   status: in progress
 ---
 

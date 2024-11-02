@@ -2,7 +2,7 @@
 title: What I know
 created: 2017-06-09
 taxonomy:
-  category: [Machine learning]
+  tag: [Machine learning]
   status: in progress
 ---
 

@@ -4,8 +4,8 @@ created: 2017-02-08
 taxonomy:
   type: post-wip
   status: in progress
-  category: [Programming]
   tag:
+    - programming
     - aws
     - groups
     - users

@@ -3,7 +3,7 @@ title: Reading technical books
 created: 2020-03-18
 taxonomy:
   type: post
-  category: [Questions]
+  tag: [Questions]
   status: finished
 ---
 

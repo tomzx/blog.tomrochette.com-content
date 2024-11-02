@@ -2,7 +2,7 @@
 title: Eliezer Yudkowsky - Levels of Organization in General Intelligence (2007)
 created: 2016-04-14
 taxonomy:
-  category: [Artificial General Intelligence]
+  tag: [Artificial General Intelligence]
   status: finished
 ---
 

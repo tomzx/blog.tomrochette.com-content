@@ -2,7 +2,7 @@
 title: Template
 created: YYYY-MM-DD
 taxonomy:
-  category: [Machine learning]
+  tag: [Machine learning]
   status: in progress
 ---
 

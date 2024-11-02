@@ -2,9 +2,8 @@
 title: "Story: Seed AI"
 created: 2022-12-22
 taxonomy:
-  category: [Artificial General Intelligence, ChatGPT, Story]
   status: in progress
-  tag: [fully-ai-generated]
+  tag: [Artificial General Intelligence, ChatGPT, story, fully-ai-generated]
 ---
 
 # Prompt

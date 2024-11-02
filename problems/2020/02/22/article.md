@@ -3,7 +3,7 @@ title: Visual Studio Code Emoji extension
 created: 2020-02-22
 taxonomy:
   type: post
-  category: [Problems, Visual Studio Code]
+  tag: [Problems, Visual Studio Code]
   status: finished
 ---
 

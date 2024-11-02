@@ -2,7 +2,7 @@
 title: Entropy
 created: 2015-08-27
 taxonomy:
-  category: [Artificial General Intelligence]
+  tag: [Artificial General Intelligence]
   status: in progress
 ---
 

@@ -3,7 +3,7 @@ title: Skills most used at work
 created: 2020-03-06
 taxonomy:
   type: post
-  category: [Questions]
+  tag: [Questions]
   status: finished
 ---
 

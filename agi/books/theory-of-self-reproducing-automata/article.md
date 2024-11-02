@@ -2,7 +2,7 @@
 title: John von Neumann, Arthur W. Burks - Theory of self-reproducing automata - 1966
 created: 2016-08-06
 taxonomy:
-  category: [Artificial General Intelligence]
+  tag: [Artificial General Intelligence]
   status: finished
 ---
 

@@ -2,7 +2,7 @@
 title: Cristian Bucila - Model Compression (2006)
 created: 2017-07-07
 taxonomy:
-  category: [Machine learning]
+  tag: [Machine learning]
   status: finished
 ---
 

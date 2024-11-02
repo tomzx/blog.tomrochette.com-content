@@ -3,7 +3,6 @@ title: Fitness trackers
 created: 2015-11-07
 taxonomy:
   type: post
-  category: General
   status: draft
   tag:
     - health
