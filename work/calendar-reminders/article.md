@@ -4,6 +4,8 @@ created: 2024-08-23
 taxonomy:
   type: post
   status: draft
+  tag:
+    - work
 ---
 
 Daily
