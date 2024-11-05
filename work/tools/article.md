@@ -11,20 +11,22 @@ taxonomy:
 Tools I use on a regular basis at work.
 
 * Chrome
+* Copilot
+* Cursor
 * Docker
+* Git
 * GitHub
-* Goland
-* Google suite (Gmail, Docs, Sheets, Slides)
-* Hot
+* Google suite (Gmail, Docs, Meet, Sheets, Slides)
+* Intellij IDEA
 * LLMs (ChatGPT, Claude, Poe)
 * iTerm2
 * Jetbrains Toolbox
 * Notion.so
 * OpenLens
+* Podman
 * Postman
 * PyCharm
 * Rectangle
 * Slack
 * Stats
-* VirtualBox
 * Visual Studio Code
