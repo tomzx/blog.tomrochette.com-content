@@ -21,6 +21,9 @@ Rate limiting is critical in applications where calling 3rd party APIs with rate
     * Earlier we mentioned that busyness was used to determine when to scale. In this scenario, it seems we would only scale once we reached 1000/s. But then scaling would not help us, as we would simply be 100% busy but on more instances.
     * This approach only makes sense if scaling happens for a different reason than rate limiting, such as getting capacity limited. Another reason could be that the rest of the operations in the vertex make it highly busy.
   * The downside of specifying a rate limit that is smaller than the total rate limit you have is that you will need to scale possibly unnecessarily. 
-  * What options do you have? 
+  * What options do we have? 
     * Isolate the operation in its own chain
+      * This allows the operation to scale independently of what happens before and after.
+      * The downside is increased overhead to transfer the data.
     * Partially isolate the operation in a new chain
+      * It's a trade-off of the benefits of full isolation with partial isolation, namely that overhead is partially reduced, but you may affect the parallelism of other operations within the same vertex.
