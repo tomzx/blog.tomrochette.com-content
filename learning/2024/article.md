@@ -10,8 +10,8 @@ taxonomy:
 (sorted alphabetically)
 
 * Apache Beam
+* Apache Flink
 * Buildkite
 * DBT
-* Flink
 * Scala
 * Vertex AI (feature store, pipeline)
