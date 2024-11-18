@@ -20,3 +20,7 @@ Rate limiting is critical in applications where calling 3rd party APIs with rate
   * I've always thought that we should be making use of the full rate limit we're allowed, such that even with a parallelism of 1, if our rate limit is 1000/s, that is our rate limit. If the vertex containing the rate limited operation scales to 2, the rate limit of each operator would now be 500.
     * Earlier we mentioned that busyness was used to determine when to scale. In this scenario, it seems we would only scale once we reached 1000/s. But then scaling would not help us, as we would simply be 100% busy but on more instances.
     * This approach only makes sense if scaling happens for a different reason than rate limiting, such as getting capacity limited. Another reason could be that the rest of the operations in the vertex make it highly busy.
+  * The downside of specifying a rate limit that is smaller than the total rate limit you have is that you will need to scale possibly unnecessarily. 
+  * What options do you have? 
+    * Isolate the operation in its own chain
+    * Partially isolate the operation in a new chain
