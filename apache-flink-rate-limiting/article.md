@@ -25,9 +25,8 @@ Rate limiting is critical in applications where calling 3rd party APIs with rate
   * What options do we have?
     * Keep the rate limited in the same vertex and divide the global rate limit by the number of parallel subtasks
       * This allows us to benefit from lower overhead communication between operators
-      * This assumes that
     * Isolate the rate limited operation in its own chain
       * This allows the operation to scale independently of what happens before and after.
-      * The downside is increased overhead to transfer the data.
-    * Partially isolate the operation in a new chain
-      * It's a trade-off of the benefits of full isolation with partial isolation, namely that overhead is partially reduced, but you may affect the parallelism of other operations within the same vertex.
+      * The downside is increased overhead to transfer the data between the chains before and after.
+    * Partially isolate the operation in a new chain (either with the operators before or after)
+      * It's a trade-off of the benefits of full isolation with no isolation, namely that overhead is partially reduced, but you may affect the parallelism of other operations within the same vertex.
