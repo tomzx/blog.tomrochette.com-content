@@ -7,5 +7,8 @@ taxonomy:
   tag: [quotes]
 ---
 
+# Seneca
+* 
+
+# Zeno
 * No loss should be more regrettable to us than losing our time, for it's irretrievable.
-    * 
