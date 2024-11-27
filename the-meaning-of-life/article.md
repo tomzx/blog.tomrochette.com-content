@@ -10,7 +10,7 @@ taxonomy:
 ---
 
 Life doesn't have a meaning.
-You are the one to define the meaning of your life.
+You define the meaning of your life.
 What is a reasonable meaning to give up your life?
 From an utilitarian perspective it should be about reducing pain for the largest population or increasing pleasure for the largest population.
 It's not clear which one is preferable.
