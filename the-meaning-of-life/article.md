@@ -20,7 +20,7 @@ With this line of reasoning one would think the best they can do is to help thos
 But is it worthwhile to improve the life of those people if they still die young or are unable to benefit from what you provided them?
 Why should we care about most of the population?
 
-Given our capitalistic environment, we need as many individuals as possible to accomplish work. The purpose of that work is meaningless, but in the grand scheme of things it is about survival.
+Given our capitalistic environment, we want as many individuals as possible to accomplish work. The purpose of that work is meaningless, but in the grand scheme of things it is about survival.
 
 We evolved from nothing, to atoms, then molecules, then in/organic compounds, then collections of molecules, cells.
 At the electron, proton and neutron level we don't observe any specific goal other than reaching some level of stability within atoms through the different electronic shell levels.
