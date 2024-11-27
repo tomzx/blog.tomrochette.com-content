@@ -11,7 +11,7 @@ taxonomy:
 
 Life doesn't have a meaning.
 You define the meaning of your life.
-What is a reasonable meaning to give up your life?
+What is a reasonable meaning to give to your life?
 From an utilitarian perspective it should be about reducing pain for the largest population or increasing pleasure for the largest population.
 It's not clear which one is preferable.
 If both are considered to be on the same axis, then it is a matter of identifying the changes that will lead to the largest relative increase.
