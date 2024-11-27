@@ -22,7 +22,7 @@ Why should we care about most of the population?
 
 Given our capitalistic environment, we want as many individuals as possible to accomplish work. The purpose of that work is meaningless, but in the grand scheme of things it is about survival.
 
-We evolved from nothing, to atoms, then molecules, then in/organic compounds, then collections of molecules, cells.
+We evolved from nothing, to atoms, then molecules, then in/organic compounds, then collections of molecules, proteins, RNA, DNA, cells, organs, humans.
 At the electron, proton and neutron level we don't observe any specific goal other than reaching some level of stability within atoms through the different electronic shell levels.
 Should we see structure as an indication of some type implicit "design goal", i.e., because there is structure we can infer what the structure intent is.
 Once we reached a certain complexity level we nowadays consider "life", we started using energy as a way to interact with the environment around us.
