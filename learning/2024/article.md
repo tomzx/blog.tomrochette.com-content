@@ -14,4 +14,5 @@ taxonomy:
 * Buildkite
 * DBT
 * Scala
-* Vertex AI (feature store, pipeline)
+* Skypilot
+* Vertex AI (endpoint, feature store, pipeline)
