@@ -9,21 +9,7 @@ taxonomy:
     - thoughts
 ---
 
-Life doesn't have a meaning.
-You define the meaning of your life.
-What is a reasonable meaning to give to your life?
-From an utilitarian perspective it should be about reducing pain or increasing pleasure for the largest population.
-It's not clear which one is preferable.
-If both are considered to be on the same axis, then it is a matter of identifying the changes that will lead to the largest relative increase.
-Similarly to any optimization problem there are things that are easier than others to optimize and to improve, while others are neglectable in terms of improvement.
-With this line of reasoning one would think the best they can do is to help those that have the least: food, shelter, education, happiness, freedom.
-But is it worthwhile to improve the life of those people if they still die young or are unable to benefit from what you provided them?
-Why should we care about most of the population?
-
-Given our capitalistic environment, we want as many individuals as possible to accomplish work. The purpose of that work is meaningless, but in the grand scheme of things it is about survival.
-
-We evolved from nothing, to atoms, then molecules, then in/organic compounds, then collections of molecules, proteins, RNA, DNA, cells, organs, humans.
-At the electron, proton and neutron level we don't observe any specific goal other than reaching some level of stability within atoms through the different electronic shell levels.
+ level we don't observe any specific goal other than reaching some level of stability within atoms through the different electronic shell levels.
 Should we see structure as an indication of some type of implicit "design goal", i.e., structure implies intent?
 Once we reach a certain complexity level we nowadays consider "life", we start using energy as a way to interact with the environment around us.
 Eating is the foundation. Eating is how we acquire energy. We need to eat to have energy to accomplish anything.
