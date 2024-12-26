@@ -12,6 +12,7 @@ Given a tabular dataset, what is the theoretical limit on the number of entries 
 ## Learned in this study
 
 ## Things to explore
+* Is this the Bayes error rate?
 
 # Overview
 In machine learning, we try to minimize the concept of loss. When an input is known to generate different potential outputs, such a system will tend to choose the output with the most probability.
