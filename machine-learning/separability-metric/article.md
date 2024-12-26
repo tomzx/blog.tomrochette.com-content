@@ -33,11 +33,11 @@ In order to reflect on this problem, we use an iterative approach.
 When a dataset is composed of 1 point, then we have 100% separability.
 
 ### 2 points
-If X results in two different values, then we can separate the dataset into two distinct sets, which leads to 100% separability.
+If we have 2 distinct X, then we can separate the dataset into two distinct sets, which leads to 100% separability.
 
-If X results in the same value, then the separability will depend on the target value:
-* If the target value is the same for both points, then we have 100% separability, since both X have the same Y
-* If the target value is different, then we only have 50% separability. This is due to the fact that, given no additional information, the best we can do is to randomly pick one of the two options for Y.
+If we have 2 X with the same values, then the separability will depend on the Y value:
+* If the Y value is the same for both points, then we have 100% separability, since both X have the same Y.
+* If the Y value is different, then we only have 50% separability. This is due to the fact that, given no additional information, the best we can do is to randomly pick one of the two options for Y.
 
 # Notes
 Number of unique input X/Number of points/rows
@@ -46,7 +46,8 @@ Given a tabular dataset, compute the separability metric as follow:
 * 2 points: given the target feature to predict, if the other attributes can separate two distinct targets, then 100%, if not, 50%
 * x points: if the target is different for all points, yet the attributes are all the same, we should expect the metric to be 1/x
 * x points with y, z similar targets: in the case that we have x points with similar attributes, but for which there are y and z similar targets (two groups with the same target), we can at best hope for ...
-For a dataset with 1 B and 3 C as output values, we expect the metric to be between 0.25 and 0.75 (1/4 and 3/4)
+For a dataset with 1 B and 3 C as target values, we expect the metric to be between 0.25 and 0.75 (1/4 and 3/4)
+* In an optimization scenario we expect the model to pick predicting C over B as it has a higher likelihood of being correct
 * sum(count(points for target x with attributes X)/count(points with attributes X))/count(points)
 * It may make sense to have a separability metric per target output (when those are categorical)
 * In the case of numerical targets, minimizing for distance between all the targets (clustering) would turn the problem into the categorical form
