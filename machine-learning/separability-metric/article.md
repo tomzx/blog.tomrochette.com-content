@@ -33,10 +33,10 @@ In order to reflect on this problem, we use an iterative approach.
 When a dataset is composed of 1 point, then we have 100% separability.
 
 ### 2 points
-If X provides two different values, then we can separate the dataset into two distinct set, which leads us to 100% separability.
+If X results in two different values, then we can separate the dataset into two distinct sets, which leads to 100% separability.
 
-However, if X contains the same value, then the separability will depend on the target value:
-* If the target value is the same for both points, then we have 100% separability, since both X lead to the same Y
+If X results in the same value, then the separability will depend on the target value:
+* If the target value is the same for both points, then we have 100% separability, since both X have the same Y
 * If the target value is different, then we only have 50% separability. This is due to the fact that, given no additional information, the best we can do is to randomly pick one of the two options for Y.
 
 # Notes
