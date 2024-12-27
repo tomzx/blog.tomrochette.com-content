@@ -124,7 +124,7 @@ For a dataset with 1 B and 3 C as target values, we expect the metric to be betw
 * Datasets with defined inputs and target are often not functions (i.e, the same inputs may produce different outputs)
 * If we compute the separability metric of each individual feature we should expect that having 2 features would provide us with at least the minimum separability of those 2 features and at best that it improves it. If having 2 features doesn't improve the separability, then one feature's information may be contained into the other.
 * Selecting the features providing the most separability until things don't improve anymore could be seen as a greedy implementation of feature selection.
-* In datasets with numerous features, in order to improve the efficiency of feature selection, one could simply look at the examples which could benefit from an additional feature to increase separability instead of computing the metric over the whole dataset.
+* For datasets with numerous features, in order to improve the efficiency of feature selection, one could simply look at the examples which could benefit from an additional feature to increase separability instead of computing the metric over the whole dataset.
 
 # See also
 
