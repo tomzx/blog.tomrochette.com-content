@@ -95,8 +95,7 @@ Overall separability:
 
 \[
 \begin{aligned}
-S_{\text{total}} &= \left( \frac{3}{8} \times 0.6667 \right) + \left( \frac{2}{8} \times 1 \right) \\
-&\quad + \left( \frac{3}{8} \times 0.6667 \right) \\
+S_{\text{total}} &= \left( \frac{3}{8} \times 0.6667 \right) + \left( \frac{2}{8} \times 1 \right) + \left( \frac{3}{8} \times 0.6667 \right) \\
 &\approx 0.75
 \end{aligned}
 \] 
