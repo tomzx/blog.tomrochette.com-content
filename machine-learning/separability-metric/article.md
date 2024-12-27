@@ -44,7 +44,7 @@ If we have 2 X with the same values, then the separability will depend on the Y 
 
 ## Definition and Formula
 
-For each unique value \( x_i \) of \( X \), the separability \( S(x_i) \) is defined as the proportion of the most frequent \( Y \) value among all \( Y \) values associated with \( x_i \):
+For each unique value $\( x_i \)$ of \( X \), the separability \( S(x_i) \) is defined as the proportion of the most frequent \( Y \) value among all \( Y \) values associated with \( x_i \):
 $$$
 \[
 S(x_i) = \frac{\max_{j} N(x_i, y_j)}{N(x_i)}
