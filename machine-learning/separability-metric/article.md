@@ -102,11 +102,10 @@ S_{\text{total}} &= \left( \frac{3}{8} \times 0.6667 \right) + \left( \frac{2}{8
 
 ### Interpretation and Applications
 
-- **High \( S_{\text{total}} \)**: Indicates a dataset where \( Y \) is highly predictable from \( X \), suggesting simpler models may suffice.
-- **Low \( S_{\text{total}} \)**: Suggests ambiguity in \( Y \) given \( X \), indicating the need for more complex models.
+- **High \( S_{\text{total}} \)**: Indicates a dataset where \( Y \) is highly predictable from \( X \), suggesting the feature set provides enough information to predict the \( Y \).
+- **Low \( S_{\text{total}} \)**: Suggests ambiguity in \( Y \) given \( X \), indicating the need for additional features that may improve separability.
 
 This metric is valuable in feature selection, where features with higher separability are preferred, and in assessing the inherent predictability of datasets in machine learning tasks.
-
 
 # Notes
 Number of unique input X/Number of points/rows
