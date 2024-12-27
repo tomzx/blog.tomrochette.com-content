@@ -7,7 +7,10 @@ taxonomy:
 ---
 
 ## Context
-Given a tabular dataset, what is the theoretical limit on the number of entries we can accurately predict? Many real world problems are not functions (i.e., they are non-functional relations), that is to say that the same inputs may produce different outputs. Given a problem that should return the same output given the same inputs, what should be returned when an input has a set of different possible outputs?
+Given a tabular dataset, what is the theoretical limit on the number of entries we can accurately predict?
+Many real world problems are not functions (i.e., they are non-functional relations), that is to say that the same inputs may produce different outputs.
+In many cases a hidden variable is missing that would allow us to properly separate the data in a deterministic way.
+What should be returned when X's image is a set of distinct values?
 
 ## Learned in this study
 
@@ -15,7 +18,7 @@ Given a tabular dataset, what is the theoretical limit on the number of entries 
 * Is this the [Bayes error rate](https://en.wikipedia.org/wiki/Bayes_error_rate)?
 
 # Overview
-In machine learning, we try to minimize the concept of loss. When an input is known to generate different potential outputs, such a system will tend to choose the output with the most probability.
+In machine learning, we try to minimize the concept of a loss. When a X (set of features) is known to generate different potential Y, such a system will optimize to choose the output with the highest probability.
 
 ## Setup
 We are given a dataset of features, where we want to predict a feature Y given a set of features X. For some X, we may have different values of Y.
