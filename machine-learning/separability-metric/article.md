@@ -42,6 +42,69 @@ If we have 2 X with the same values, then the separability will depend on the Y 
 * If the Y value is the same for both points, then we have 100% separability, since both X have the same Y.
 * If the Y value is different, then we only have 50% separability. This is due to the fact that, given no additional information, the best we can do is to randomly pick one of the two options for Y.
 
+## Definition and Formula
+
+For each unique value \( x_i \) of \( X \), the separability \( S(x_i) \) is defined as the proportion of the most frequent \( Y \) value among all \( Y \) values associated with \( x_i \):
+
+\[
+S(x_i) = \frac{\max_{j} N(x_i, y_j)}{N(x_i)}
+\]
+
+where:
+- \( N(x_i) \) is the total number of instances with input \( x_i \),
+- \( N(x_i, y_j) \) is the number of times \( y_j \) appears with \( x_i \).
+
+To obtain an overall separability metric for the entire dataset, we compute a weighted average of \( S(x_i) \) across all unique \( x_i \), with weights proportional to the frequency of each \( x_i \):
+
+\[
+S_{\text{total}} = \sum_{i} \left( \frac{N(x_i)}{N} \times S(x_i) \right)
+\]
+
+where \( N \) is the total number of instances in the dataset.
+
+### Example Calculation
+
+Consider the following dataset:
+
+| X | Y |
+|---|---|
+| 1 | 3 |
+| 1 | 4 |
+| 1 | 3 |
+| 2 | 5 |
+| 2 | 5 |
+| 3 | 6 |
+| 3 | 7 |
+| 3 | 6 |
+
+For \( X = 1 \):
+- \( Y = 3 \) appears 2 times,
+- \( Y = 4 \) appears 1 time.
+- \( S(1) = \frac{2}{3} \approx 0.6667 \)
+
+For \( X = 2 \):
+- \( Y = 5 \) appears 2 times.
+- \( S(2) = \frac{2}{2} = 1 \)
+
+For \( X = 3 \):
+- \( Y = 6 \) appears 2 times,
+- \( Y = 7 \) appears 1 time.
+- \( S(3) = \frac{2}{3} \approx 0.6667 \)
+
+Overall separability:
+
+\[
+S_{\text{total}} = \left( \frac{3}{8} \times 0.6667 \right) + \left( \frac{2}{8} \times 1 \right) + \left( \frac{3}{8} \times 0.6667 \right) \approx 0.75
+\]
+
+### Interpretation and Applications
+
+- **High \( S_{\text{total}} \)**: Indicates a dataset where \( Y \) is highly predictable from \( X \), suggesting simpler models may suffice.
+- **Low \( S_{\text{total}} \)**: Suggests ambiguity in \( Y \) given \( X \), indicating the need for more complex models.
+
+This metric is valuable in feature selection, where features with higher separability are preferred, and in assessing the inherent predictability of datasets in machine learning tasks.
+
+
 # Notes
 Number of unique input X/Number of points/rows
 Given a tabular dataset, compute the separability metric as follow:
