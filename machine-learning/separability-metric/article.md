@@ -15,7 +15,7 @@ What should be returned when X's image is a set of distinct values?
 ## Learned in this study
 
 ## Things to explore
-* If this feature importance?
+* If this [feature importance/selection](https://en.wikipedia.org/wiki/Feature_selection)?
 * Is this the [Bayes error rate](https://en.wikipedia.org/wiki/Bayes_error_rate)?
 
 # Overview
