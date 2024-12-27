@@ -2,7 +2,7 @@
 title: Separability metric
 created: 2019-09-29
 taxonomy:
-  tag: [Machine learning]
+  tag: [Machine learning, partially-ai-generated]
   status: in progress
 ---
 
