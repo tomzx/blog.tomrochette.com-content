@@ -17,6 +17,7 @@ What should be returned when X's image is a set of distinct values?
 ## Things to explore
 * If this [feature importance/selection](https://en.wikipedia.org/wiki/Feature_selection)?
 * Is this the [Bayes error rate](https://en.wikipedia.org/wiki/Bayes_error_rate)?
+* How to deal with continuous values? Binning?
 
 # Overview
 In machine learning, we try to minimize the concept of a loss. When a X (set of features) is known to generate different potential Y, such a system will optimize to choose the output with the highest probability.
