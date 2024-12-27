@@ -121,6 +121,7 @@ For a dataset with 1 B and 3 C as target values, we expect the metric to be betw
 * It may make sense to have a separability metric per target output (when those are categorical)
 * In the case of numerical targets, minimizing for distance between all the targets (clustering) would turn the problem into the categorical form
 * Datasets with defined inputs and target are often not functions (i.e, the same inputs may produce different outputs)
+* If we compute the separability metric of each individual feature we should expect that having 2 features would provide us with at least the minimum separability of those 2 features and at best that it improves it. If having 2 features doesn't improve the separability, then one feature's information may be contained into the other.
 
 # See also
 
