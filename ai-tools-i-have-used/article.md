@@ -18,5 +18,8 @@ taxonomy:
 * [Perplexity](https://www.perplexity.ai/)
 * [NotebookLM](https://notebooklm.google.com/)
 
+# Code generation
+* [Cerebas Coder](https://cerebrascoder.com/)
+
 # Image generation
 * [Leonardo](https://app.leonardo.ai/)
