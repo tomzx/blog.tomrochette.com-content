@@ -16,6 +16,7 @@ taxonomy:
 * [Meta.ai](https://www.meta.ai/)
 * [Reka.ai](https://chat.reka.ai/)
 * [Perplexity](https://www.perplexity.ai/)
+* [NotebookLM](https://notebooklm.google.com/)
 
 # Image generation
 * [Leonardo](https://app.leonardo.ai/)
