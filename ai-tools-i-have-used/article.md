@@ -19,6 +19,7 @@ taxonomy:
 * [NotebookLM](https://notebooklm.google.com/)
 * [Cerebas](https://inference.cerebras.ai/)
 * [Gemini](https://gemini.google.com/)
+* [DuckDuckGo AI](https://duckduckgo.com/?q=DuckDuckGo+AI+Chat&ia=chat&duckai=1)
 
 # Code generation
 * [Cerebas Coder](https://cerebrascoder.com/)
