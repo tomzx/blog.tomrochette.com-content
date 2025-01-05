@@ -25,8 +25,8 @@ taxonomy:
 # Code generation
 * [GitHub Copilot](https://github.com/features/copilot)
 * [Cerebas Coder](https://cerebrascoder.com/)
-* https://v0.dev/
-* https://bolt.new/
+* [v0](https://v0.dev/)
+* [Bolt](https://bolt.new/)
 
 # Image generation
 * [Leonardo](https://app.leonardo.ai/)
