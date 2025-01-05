@@ -17,4 +17,4 @@ taxonomy:
 * [Reka.ai](https://chat.reka.ai/)
 
 # Image generation
-* [Leonardo](https://app.leonardo.ai/ai-generations)
+* [Leonardo](https://app.leonardo.ai/)
