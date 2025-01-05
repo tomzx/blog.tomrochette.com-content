@@ -7,7 +7,7 @@ taxonomy:
   tag: [ai, llm]
 ---
 
-* [GitHub Copilot](https://github.com/features/copilot)
+# Generic
 * [OpenAI ChatGPT](https://chat.openai.com/)
 * [Claude](https://claude.ai/)
 * [DeepSeek](https://chat.deepseek.com/)
@@ -20,8 +20,10 @@ taxonomy:
 * [Cerebas](https://inference.cerebras.ai/)
 * [Gemini](https://gemini.google.com/)
 * [DuckDuckGo AI](https://duckduckgo.com/?q=DuckDuckGo+AI+Chat&ia=chat&duckai=1)
+* [Mistral AI](https://chat.mistral.ai/)
 
 # Code generation
+* [GitHub Copilot](https://github.com/features/copilot)
 * [Cerebas Coder](https://cerebrascoder.com/)
 
 # Image generation
