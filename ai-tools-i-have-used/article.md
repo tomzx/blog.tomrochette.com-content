@@ -21,6 +21,7 @@ taxonomy:
 * [Gemini](https://gemini.google.com/)
 * [DuckDuckGo AI](https://duckduckgo.com/?q=DuckDuckGo+AI+Chat&ia=chat&duckai=1)
 * [Mistral AI](https://chat.mistral.ai/)
+* [Cohere](https://coral.cohere.com/)
 
 # Code generation
 * [GitHub Copilot](https://github.com/features/copilot)
