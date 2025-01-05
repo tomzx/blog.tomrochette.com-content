@@ -15,3 +15,6 @@ taxonomy:
 * [Poe](https://poe.com/)
 * [Meta.ai](https://www.meta.ai/)
 * [Reka.ai](https://chat.reka.ai/)
+
+# Image generation
+* [Leonardo](https://app.leonardo.ai/ai-generations)
