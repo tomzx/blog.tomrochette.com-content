@@ -18,6 +18,7 @@ taxonomy:
 * [Perplexity](https://www.perplexity.ai/)
 * [NotebookLM](https://notebooklm.google.com/)
 * [Cerebas](https://inference.cerebras.ai/)
+* [Gemini](https://gemini.google.com/)
 
 # Code generation
 * [Cerebas Coder](https://cerebrascoder.com/)
