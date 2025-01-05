@@ -17,6 +17,7 @@ taxonomy:
 * [Reka.ai](https://chat.reka.ai/)
 * [Perplexity](https://www.perplexity.ai/)
 * [NotebookLM](https://notebooklm.google.com/)
+* [Cerebas](https://inference.cerebras.ai/)
 
 # Code generation
 * [Cerebas Coder](https://cerebrascoder.com/)
