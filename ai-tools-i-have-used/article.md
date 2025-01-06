@@ -4,7 +4,7 @@ created: 2025-01-05
 taxonomy:
   type: post
   status: draft
-  tag: [ai, llm]
+  tag: [ai, llm, code generation, image generation]
 ---
 
 # Generic
