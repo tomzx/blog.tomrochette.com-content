@@ -7,7 +7,7 @@ taxonomy:
   tag: [ai, llm, code generation, image generation]
 ---
 
-# Generic
+# Text generation
 * [OpenAI ChatGPT](https://chat.openai.com/)
 * [Claude](https://claude.ai/)
 * [DeepSeek](https://chat.deepseek.com/)
@@ -22,6 +22,7 @@ taxonomy:
 * [DuckDuckGo AI](https://duckduckgo.com/?q=DuckDuckGo+AI+Chat&ia=chat&duckai=1)
 * [Mistral AI](https://chat.mistral.ai/)
 * [Cohere](https://coral.cohere.com/)
+* [Obsidian companion extension]()
 
 # Code generation
 * [GitHub Copilot](https://github.com/features/copilot)
