@@ -29,6 +29,7 @@ taxonomy:
 * [Cerebas Coder](https://cerebrascoder.com/)
 * [v0](https://v0.dev/)
 * [Bolt](https://bolt.new/)
+* [Tabnine](https://www.tabnine.com/)
 
 # Image generation
 * [Leonardo](https://app.leonardo.ai/)
