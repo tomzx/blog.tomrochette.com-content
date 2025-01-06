@@ -25,7 +25,7 @@ taxonomy:
 
 # Code generation
 * [GitHub Copilot](https://github.com/features/copilot)
-* [Cursor]()
+* [Cursor](https://www.cursor.com/)
 * [Cerebas Coder](https://cerebrascoder.com/)
 * [v0](https://v0.dev/)
 * [Bolt](https://bolt.new/)
