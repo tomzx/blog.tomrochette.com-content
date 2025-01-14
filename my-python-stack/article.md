@@ -13,5 +13,5 @@ taxonomy:
 * [prospector](https://github.com/PyCQA/prospector)
 *  [pytest](https://github.com/pytest-dev/pytest)
 * [ruff](https://docs.astral.sh/ruff/)
-* pytest-xdist
+* [pytest-xdist](https://pytest-xdist.readthedocs.io/en/stable/)
 * [uv](https://docs.astral.sh/uv/)
