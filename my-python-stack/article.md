@@ -10,7 +10,7 @@ taxonomy:
 * [black](https://github.com/psf/black)
 * [isort](https://github.com/timothycrosley/isort)
 *  [mypy](https://github.com/python/mypy)
-* [pre-commit](
+* [pre-commit](https://pre-commit.com/)
 * [prospector](https://github.com/PyCQA/prospector)
 *  [pytest](https://github.com/pytest-dev/pytest)
 * [ruff](https://docs.astral.sh/ruff/)
