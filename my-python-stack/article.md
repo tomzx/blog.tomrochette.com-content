@@ -14,4 +14,4 @@ taxonomy:
 *  [pytest](https://github.com/pytest-dev/pytest)
 * [ruff](https://docs.astral.sh/ruff/)
 * pytest-xdist
-* uv
+* [uv](https://docs.astral.sh/uv/)
