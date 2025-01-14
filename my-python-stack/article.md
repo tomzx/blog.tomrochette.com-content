@@ -12,5 +12,6 @@ taxonomy:
 *  [mypy](https://github.com/python/mypy)
 * [prospector](https://github.com/PyCQA/prospector)
 *  [pytest](https://github.com/pytest-dev/pytest)
+* [ruff](https://docs.astral.sh/ruff/)
 * pytest-xdist
 * uv
