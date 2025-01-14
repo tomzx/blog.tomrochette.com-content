@@ -18,3 +18,6 @@ taxonomy:
 * [pytest-cov](https://pytest-cov.readthedocs.io/en/latest/)
 * [pytest-xdist](https://pytest-xdist.readthedocs.io/en/stable/)
 * [uv](https://docs.astral.sh/uv/)
+
+# Reference
+* https://www.stuartellis.name/articles/python-modern-practices/#format-your-code
