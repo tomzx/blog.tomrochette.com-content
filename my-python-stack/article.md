@@ -7,6 +7,7 @@ taxonomy:
   tag: [python]
 ---
 
+(Sorted alphabetically)
 * [black](https://github.com/psf/black)
 * [httpz](https://www.python-httpx.org/)
 * [isort](https://github.com/timothycrosley/isort)
