@@ -9,3 +9,4 @@ taxonomy:
 
 # TODO
 * Model context protocol (MCP)
+* How to use LLM more in my development process
