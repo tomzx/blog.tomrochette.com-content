@@ -9,7 +9,7 @@ taxonomy:
 
 (Sorted alphabetically)
 * [black](https://github.com/psf/black)
-* [httpz](https://www.python-httpx.org/)
+* [httpx](https://www.python-httpx.org/)
 * [isort](https://github.com/timothycrosley/isort)
 *  [mypy](https://github.com/python/mypy)
 * [pre-commit](https://pre-commit.com/)
