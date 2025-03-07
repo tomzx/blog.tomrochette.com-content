@@ -7,6 +7,7 @@ taxonomy:
   tag: [Learning]
 ---
 
-# TODO
 * Model context protocol (MCP)
+
+# TODO
 * How to use LLM more in my development process
