@@ -1,5 +1,5 @@
 ---
-title: Apache fink rate limiting
+title: Apache flink rate limiting
 created: 2024-11-17
 taxonomy:
   type: post
