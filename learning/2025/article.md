@@ -10,4 +10,9 @@ taxonomy:
 * Model context protocol (MCP)
 
 # TODO
+* CometML
 * How to use LLM more in my development process
+* ML model profiling and optimization
+* Multi-node training and inference
+* Deep speed
+* GCP GCS performance profiling
