@@ -7,6 +7,8 @@ taxonomy:
   tag: [python]
 ---
 
+Here is the list of python tools and libraries I use regularly.
+
 (Sorted alphabetically)
 * [black](https://github.com/psf/black)
 * [httpx](https://www.python-httpx.org/)
