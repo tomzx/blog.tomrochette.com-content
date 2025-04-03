@@ -19,3 +19,4 @@ Every year I learn new things. In the articles listed below I record the various
 * [2022](2022/article.md)
 * [2023](2023/article.md)
 * [2024](2024/article.md)
+* [2025](2025/article.md)
