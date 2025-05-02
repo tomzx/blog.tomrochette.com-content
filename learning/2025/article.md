@@ -8,11 +8,12 @@ taxonomy:
 ---
 
 * Model context protocol (MCP)
+* dstack
 
 # TODO
 * CometML
 * How to use LLM more in my development process
 * ML model profiling and optimization
 * Multi-node training and inference
-* Deep speed
+* DeepSpeed
 * GCP GCS performance profiling
