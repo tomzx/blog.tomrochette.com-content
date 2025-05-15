@@ -18,6 +18,7 @@ taxonomy:
 
 # References
 * [Prompts](prompts/article.md)
+* [Quotes](quotes/article.md)
 
 # Reviews
 * [OpenChatKit](reviews/openchatkit/article.md)
