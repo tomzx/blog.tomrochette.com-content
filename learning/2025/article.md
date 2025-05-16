@@ -17,5 +17,4 @@ taxonomy:
 * CometML
 * How to use LLM more in my development process
 * ML model profiling and optimization
-
 * GCP GCS performance profiling
