@@ -14,6 +14,6 @@ taxonomy:
 * What are your unknowns (things you'd need to know before your can make a decision)?
 * Do you have experience with the problem which needs a decision?
 
-* Indicate who has the most expertise to make the decision
+* Indicate who has the most expertise to make the decision.
 
-* You should be allowed to cast a vote if the decision will impact you. If it doesn't (i.e., you're not a stakeholder), your vote will not be counted towards  any option
+* You should be allowed to cast a vote if the decision will impact you. If it doesn't (i.e., you're not a stakeholder), your vote will not be counted towards  any option.
