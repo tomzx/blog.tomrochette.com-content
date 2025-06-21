@@ -9,7 +9,7 @@ taxonomy:
 
 Run your program with `python -m cProfile -o profile.cprofile my-script.py`
 
-Install `snakeviz` (`pip install snakeviz`) to visualize the generated profile.
+Install `snakeviz` (`uv pip install snakeviz`) to visualize the generated profile.
 
 `snakeviz profile.cprofile `
 
