@@ -34,3 +34,6 @@ taxonomy:
 
 # Image generation
 * [Leonardo](https://app.leonardo.ai/)
+
+# Audio generation
+* [Suno]()
