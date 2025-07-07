@@ -21,3 +21,4 @@ In this article I list the various metrics/alerts one should have when monitorin
   * Used to detect when a job is about to run out of GPU memory
 * If using InfiniBand
   * InfiniBand receive/transmit > 0 when running multi-node workloads
+    * Used to identify workloads that are not properly configured to use InfiniBand
