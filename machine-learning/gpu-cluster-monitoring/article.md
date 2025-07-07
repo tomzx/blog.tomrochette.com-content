@@ -7,7 +7,7 @@ taxonomy:
   tag: [Machine learning]
 ---
 
-In this article I list the various metrics one should have when monitoring a GPU cluster to ensure efficient usage.
+In this article I list the various metrics/alerts one should have when monitoring a GPU cluster to ensure efficient usage.
 
 * Allocated GPUs are used
   * Used to detect jobs that may ask multiple GPUs but end up using 1 or only a few of them
@@ -19,3 +19,5 @@ In this article I list the various metrics one should have when monitoring a GPU
   * Used to detect workloads that do not make full use of the GPU or are allocated to an oversized GPU
 * GPU memory utilization above threshold (e.g., 95%)
   * Used to detect when a job is about to run out of GPU memory
+* If using InfiniBand
+  * InfiniBand receive/transmit > 0 when running multi-node workloads
