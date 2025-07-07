@@ -21,3 +21,4 @@ taxonomy:
 * NVIDIA MPS
 * NVIDIA MIG
 * NVIDIA time-slicing
+* NVIDIA vGPU
