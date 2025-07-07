@@ -18,6 +18,7 @@ Tom
 * [Components of a machine learning project](components-of-a-ml-project/article.md)
 * [Daily log](daily-log/article.md) A list of journal entries that I write while learning about machine learning. They help me summarize my learning as well as identify where my understanding might be lacking.
 * [Frameworks](frameworks/article.md)
+* [GPU cluster monitoring](gpu-cluster-monitoring/article.md)
 * [Handwriting recognition](handwriting-recognition/article.md)
 * [Optimizing PyTorch](optimizing-pytorch/article.md)
 * [Papers](papers/article.md)
