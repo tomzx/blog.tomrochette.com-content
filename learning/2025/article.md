@@ -19,4 +19,5 @@ taxonomy:
 * ML model profiling and optimization
 * GCP GCS performance profiling
 * NVIDIA MPS
-* NVIDIA MIP
+* NVIDIA MIG
+* NVIDIA 
