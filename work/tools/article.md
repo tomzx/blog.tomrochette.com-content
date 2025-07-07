@@ -21,7 +21,6 @@ Tools I use on a regular basis at work (sorted alphabetically).
 * LLMs (ChatGPT, Claude)
 * iTerm2
 * Jetbrains Toolbox
-* Notion.so
 * OpenLens
 * Podman
 * Postman
