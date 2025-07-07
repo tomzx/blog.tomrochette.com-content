@@ -8,17 +8,17 @@ taxonomy:
     - work
 ---
 
-Tools I use on a regular basis at work.
+Tools I use on a regular basis at work (sorted alphabetically).
 
 * Chrome
-* Copilot
 * Cursor
 * Docker
 * Git
 * GitHub
+* Google cloud CLI
 * Google suite (Gmail, Docs, Meet, Sheets, Slides)
 * Intellij IDEA
-* LLMs (ChatGPT, Claude, Poe)
+* LLMs (ChatGPT, Claude)
 * iTerm2
 * Jetbrains Toolbox
 * Notion.so
@@ -29,4 +29,3 @@ Tools I use on a regular basis at work.
 * Rectangle
 * Slack
 * Stats
-* Visual Studio Code
