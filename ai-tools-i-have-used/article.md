@@ -36,4 +36,4 @@ taxonomy:
 * [Leonardo](https://app.leonardo.ai/)
 
 # Audio generation
-* [Suno]()
+* [Suno](https://suno.com/)
