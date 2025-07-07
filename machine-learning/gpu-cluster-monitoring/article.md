@@ -14,7 +14,7 @@ In this article I list the various metrics/alerts one should have when monitorin
 * GPU utilization below threshold (e.g., 10%)
   * Used to detect workloads that do not make full use of the GPU or are allocated to an oversized GPU
 * GPU utilization above threshold (90%)
-  * Used to detect when GPU is saturated
+  * Used to detect when the GPU is saturated
 * GPU utilization range
   * Used to detect uneven distribution of GPU compute workload
 * GPU memory utilization above threshold (e.g., 10%)
