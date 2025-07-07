@@ -20,4 +20,4 @@ taxonomy:
 * GCP GCS performance profiling
 * NVIDIA MPS
 * NVIDIA MIG
-* NVIDIA 
+* NVIDIA time-slicing
