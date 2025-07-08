@@ -22,3 +22,4 @@ taxonomy:
 * NVIDIA MIG
 * NVIDIA time-slicing
 * NVIDIA vGPU
+* NVIDIA KAI scheduler
