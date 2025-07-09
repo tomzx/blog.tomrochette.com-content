@@ -23,3 +23,4 @@ taxonomy:
 * NVIDIA time-slicing
 * NVIDIA vGPU
 * NVIDIA KAI scheduler
+* NVIDIA run:ai
