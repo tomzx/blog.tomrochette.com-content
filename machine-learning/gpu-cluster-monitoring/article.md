@@ -11,15 +11,15 @@ In this article I list the various metrics/alerts one should have when monitorin
 
 * Allocated GPUs are used
   * Used to detect jobs that may ask multiple GPUs but end up using 1 or only a few of them
-* GPU utilization below threshold (e.g., 10%)
+* GPU utilization below threshold (<10%)
   * Used to detect workloads that do not make full use of the GPU or are allocated to an oversized GPU
-* GPU utilization above threshold (90%)
+* GPU utilization above threshold (>90%)
   * Used to detect when the GPU is saturated
-* GPU utilization range
+* GPU utilization range above threshold (>25%)
   * Used to detect uneven distribution of GPU compute workload
-* GPU memory utilization above threshold (e.g., 10%)
+* GPU memory utilization above threshold (<10%)
   * Used to detect workloads that do not make full use of the GPU or are allocated to an oversized GPU
-* GPU memory utilization above threshold (e.g., 95%)
+* GPU memory utilization above threshold (>95%)
   * Used to detect when a job is about to run out of GPU memory
 * If using InfiniBand
   * InfiniBand receive/transmit > 0 when running multi-node workloads
