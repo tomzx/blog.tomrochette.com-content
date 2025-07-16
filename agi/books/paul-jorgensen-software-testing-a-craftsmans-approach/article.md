@@ -517,7 +517,7 @@ $$
 	* A more recent addition, "fuzzing," is closer to random testing
 
 ### 21.1 Mutation Testing
-* Mutation testing begins with a unit and a set of test cases for that unit, such that all the test cases pass when executed. Then a small change is made to the original unit, and the test cases are run on the mutant. If all the test cases pass, we know that the mutant was undetected. At this point tehre are two possibilities - either the small change resulted in a logically equivalent program, or the set of test cases was incapable of detecting the change
+* Mutation testing begins with a unit and a set of test cases for that unit, such that all the test cases pass when executed. Then a small change is made to the original unit, and the test cases are run on the mutant. If all the test cases pass, we know that the mutant was undetected. At this point there are two possibilities - either the small change resulted in a logically equivalent program, or the set of test cases was incapable of detecting the change
 * This raises one of the problems of mutation testing - identification of equivalent mutants
 
 ## 21.1.1 Formalizing Program Mutation
