@@ -31,7 +31,7 @@ $$
 H = -(p \log p + q \log q)
 $$
 
-![](images/Binary_entropy_plot.svg/article.md)
+![](images/Binary_entropy_plot.svg)
 
 ## 8 Representation of the encoding and decoding operations
 * A transducer can be described by two functions:
