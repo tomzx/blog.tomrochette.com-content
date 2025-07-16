@@ -60,7 +60,7 @@ taxonomy:
 * A deductive argument is an argument incorporating the claim that it is impossible for the conclusion to be false given that the premises are true
 * An inductive argument is an argument incorporating the claim that it is improbable that the conclusion be false given that the premises are true
 * In deciding whether an argument is inductive or deductive, we look to certain objective features of the argument. These features include:
-	* the occurence of special indicator words
+	* the occurrence of special indicator words
 	* the actual strength of the inferential link between premises and conclusion
 	* the form or style of argumentation
 * Inductive indicators: probably, improbable, plausible, implausible, likely, unlikely, reasonable to conclude
@@ -750,7 +750,7 @@ $$
 * Principles that are useful for evaluating most arguments from analogy:
 	* The relevance of the similarities shared by the primary and secondary analogues: The more relevant the similarities between primary and secondary analogues, the stronger the argument
 	* The number of similarities: The greater the number of similarities between primary and secondary analogues, the stronger the argument
-	* The nature and degree of disanalogy: Differences between primary and secondary analogues are disanalogies, which can either strenghten or weaken the argument
+	* The nature and degree of disanalogy: Differences between primary and secondary analogues are disanalogies, which can either strengthen or weaken the argument
 	* The number of primary analogues: The greater the number of similar primary analogues, the stronger the argument; dissimilar primary analogues are counteranalogies, which weaken the argument
 	* The diversity among the primary analogues: The more diverse the primary analogues, the stronger the argument
 	* The specificity of the conclusion: The more specific the conclusion, the weaker the argument
