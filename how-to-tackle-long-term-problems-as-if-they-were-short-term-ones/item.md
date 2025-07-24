@@ -2,7 +2,7 @@
 title: How to tackle long term problems as if they were short term ones
 created: 2017-01-13
 taxonomy:
-  type: post-wip
+  type: post
   status: in progress
   tag: []
 ---

@@ -2,7 +2,7 @@
 title: Brain organization
 created: 2018-02-10
 taxonomy:
-  type: post-wip
+  type: post
   status: draft
   tag: [productivity]
 ---

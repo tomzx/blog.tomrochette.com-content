@@ -2,7 +2,7 @@
 title: Reusable writing
 created: 2018-02-17
 taxonomy:
-    type: post-wip
+    type: post
     tag: []
     status: draft
 ---

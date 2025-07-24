@@ -2,7 +2,7 @@
 title: Business process
 created: 2014-01-08
 taxonomy:
-    type: post-wip
+    type: post
     status: in progress
 ---
 

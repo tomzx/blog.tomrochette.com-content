@@ -2,7 +2,7 @@
 title: Buying a microscope
 created: 2017-01-01
 taxonomy:
-    type: post-wip
+    type: post
     status: in progress
 ---
 

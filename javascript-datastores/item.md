@@ -2,7 +2,7 @@
 title: Javascript datastores
 created: 2016-02-12
 taxonomy:
-    type: post-wip
+    type: post
     tag: [javascript, database, datastore]
     status: draft
 ---

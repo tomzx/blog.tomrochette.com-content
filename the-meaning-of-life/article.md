@@ -2,7 +2,7 @@
 title: The meaning of life
 created: 2021-07-24
 taxonomy:
-  type: post-wip
+  type: post
   status: draft
   tag: [philosophy, thoughts]
 ---

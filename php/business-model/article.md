@@ -2,7 +2,7 @@
 title: Business model
 created: 2016-10-13
 taxonomy:
-  type: post-wip
+  type: post
   tag: [php]
   status: in progress
 ---

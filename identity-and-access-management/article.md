@@ -2,7 +2,7 @@
 title: Identity and access management
 created: 2017-02-08
 taxonomy:
-  type: post-wip
+  type: post
   status: in progress
   tag: [programming, aws, groups, users, roles, policies, identity, access management]
 ---

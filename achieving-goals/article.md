@@ -2,7 +2,7 @@
 title: Achieving goals
 created: 2021-03-07
 taxonomy:
-  type: post-wip
+  type: post
   status: draft
   tag: [goals]
 ---
