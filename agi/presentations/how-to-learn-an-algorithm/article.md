@@ -2,7 +2,7 @@
 title: How to Learn an Algorithm
 created: 2016-03-19
 taxonomy:
-  tag: [Artificial General Intelligence]
+  tag: [artificial general intelligence]
   status: finished
 ---
 

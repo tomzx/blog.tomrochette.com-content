@@ -2,7 +2,7 @@
 title: "Jürgen Schmidhuber - Gödel Machines: Fully Self-Referential Optimal Universal Self-improvers"
 created: 2016-03-17
 taxonomy:
-  tag: [Artificial General Intelligence]
+  tag: [artificial general intelligence]
   status: finished
 ---
 

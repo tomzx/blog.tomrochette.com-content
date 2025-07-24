@@ -2,7 +2,7 @@
 title: Vision
 created: 2017-07-04
 taxonomy:
-  tag: [Artificial General Intelligence]
+  tag: [artificial general intelligence]
   status: in progress
 ---
 

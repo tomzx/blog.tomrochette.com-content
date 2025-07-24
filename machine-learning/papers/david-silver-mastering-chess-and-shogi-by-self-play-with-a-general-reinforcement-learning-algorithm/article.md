@@ -2,7 +2,7 @@
 title: David Silver - Mastering Chess and Shogi by Self-Play with a General Reinforcement Learning Algorithm (2017)
 created: 2017-12-06
 taxonomy:
-  tag: [Machine learning]
+  tag: [machine learning]
   status: finished
 ---
 

@@ -13,7 +13,7 @@ Tips from the article:
 * You can ask the AI to use specific styles for writing.
 
 Tips from me:
-* Use it to review your syntax, grammar, clarity, tone, biases, identify convoluted sentences, sentences that are too long. 
+* Use it to review your syntax, grammar, clarity, tone, biases, identify convoluted sentences, sentences that are too long.
 * Use it to generate alternative sentences when you don't like how yours reads.
 * Ask it to give you feedback on what you have written so far, what gaps are there.
 * Ask it to produce an article with the opposite viewpoint.
@@ -24,7 +24,7 @@ Tips from me:
 Structured prompts are very powerful. Once you start using a LLM regularly you'll frequently have the same type of requests which will nicely lead you to collect those statements (prompts) so that you can simply copy/paste them and adapt them to your new use case. I think that being able to share, easily edit, and observe how others use your structured prompts can help you improve them. I've personally found that reading other people's prompts enabled me to broaden my capabilities and the breadth of my thinking.
 
 [LLM prompting guide](https://huggingface.co/docs/transformers/main/en/tasks/prompting)
-Tips: 
+Tips:
 * When choosing the model to work with, the latest and most capable models are likely to perform better.
 * Start with a simple and short prompt, and iterate from there.
 * Put the instructions at the beginning of the prompt, or at the very end. When working with large context, models apply various optimizations to prevent Attention complexity from scaling quadratically. This may make a model more attentive to the beginning or end of a prompt than the middle.

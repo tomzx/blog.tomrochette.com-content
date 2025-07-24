@@ -2,7 +2,7 @@
 title: The OpenNARS implementation of the Non-Axiomatic Reasoning System
 created: 2016-03-06
 taxonomy:
-  tag: [Artificial General Intelligence]
+  tag: [artificial general intelligence]
   status: finished
 ---
 

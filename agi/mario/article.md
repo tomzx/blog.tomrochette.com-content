@@ -2,7 +2,7 @@
 title: Mari/o
 created: 2013-08-13
 taxonomy:
-  tag: [Artificial General Intelligence]
+  tag: [artificial general intelligence]
   status: in progress
 ---
 

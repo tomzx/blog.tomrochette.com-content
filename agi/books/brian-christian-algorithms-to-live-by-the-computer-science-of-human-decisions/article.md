@@ -2,7 +2,7 @@
 title: "Brian Christian - Algorithms to Live By: The Computer Science of Human Decisions - 2016"
 created: 2017-07-27
 taxonomy:
-  tag: [Artificial General Intelligence]
+  tag: [artificial general intelligence]
   status: finished
 ---
 

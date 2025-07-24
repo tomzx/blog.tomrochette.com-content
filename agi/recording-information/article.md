@@ -2,7 +2,7 @@
 title: Recording information
 created: 2015-11-08
 taxonomy:
-  tag: [Artificial General Intelligence]
+  tag: [artificial general intelligence]
   status: in progress
 ---
 

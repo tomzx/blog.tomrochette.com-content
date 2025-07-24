@@ -3,7 +3,7 @@ title: Passive vs active agent
 created: 2020-01-10
 taxonomy:
   type: post
-  tag: [Questions, Artificial Intelligence]
+  tag: [questions, artificial intelligence]
   status: finished
 ---
 

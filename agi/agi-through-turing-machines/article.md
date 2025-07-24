@@ -3,7 +3,7 @@ title: AGI Through Turing Machines
 created: 2015-08-16
 taxonomy:
   status: in progress
-  tag: [Artificial General Intelligence]
+  tag: [artificial general intelligence]
 ---
 
 ## Context

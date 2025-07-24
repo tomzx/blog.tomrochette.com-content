@@ -3,7 +3,7 @@ title: A procedure for writing programs
 created: 2015-10-22
 taxonomy:
   status: in progress
-  tag: [Artificial General Intelligence]
+  tag: [artificial general intelligence]
 ---
 
 ## Context

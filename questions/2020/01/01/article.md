@@ -6,7 +6,7 @@ routes:
     - /questions/2020-01-01
 taxonomy:
   type: post
-  tag: [Questions, Space]
+  tag: [questions, space]
   status: finished
 ---
 

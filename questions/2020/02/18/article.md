@@ -3,7 +3,7 @@ title: Tracking my readings
 created: 2020-02-18
 taxonomy:
   type: post
-  tag: [Questions]
+  tag: [questions]
   status: finished
 ---
 

@@ -3,7 +3,7 @@ title: Wearing a face mask against COVID-19
 created: 2020-03-10
 taxonomy:
   type: post
-  tag: [Questions]
+  tag: [questions]
   status: finished
 ---
 

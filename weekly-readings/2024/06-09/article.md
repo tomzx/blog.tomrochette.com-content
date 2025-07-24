@@ -13,7 +13,7 @@ I discovered https://www.oneusefulthing.org and ended up reading a few articles.
 The addition of implicit memory is an exciting move toward a more useful AI agent that knows more about you and your preferences. It'll be interesting to see how this evolves.
 
 [Experimenting with AI code review](https://graphite.dev/blog/ai-code-review-experiments)
-The article is a few months old so it's hard to say if newer models have addressed the concerns of the article. The main value here will be over time to get closer to instant feedback while implementing changes instead of having to push code to get a code review. 
+The article is a few months old so it's hard to say if newer models have addressed the concerns of the article. The main value here will be over time to get closer to instant feedback while implementing changes instead of having to push code to get a code review.
 
 [Almost an Agent: What GPTs can do](https://www.oneusefulthing.org/p/almost-an-agent-what-gpts-can-do)
 I'm looking forward to OpenAI and other GPT providers to allow GPT creators to review their users feedback when interacting with their bot. The idea here is that a GPT is software, so it needs to evolve and adapt to new needs and requirements as well as address bugs in its behavior.

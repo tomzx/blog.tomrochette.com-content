@@ -3,7 +3,7 @@ title: Investing
 created: 2019-10-06
 taxonomy:
   type: post
-  tag: [Investing, Processes]
+  tag: [investing, processes]
   status: draft
 ---
 

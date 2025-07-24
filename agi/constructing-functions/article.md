@@ -2,7 +2,7 @@
 title: Constructing functions
 created: 2016-08-18
 taxonomy:
-  tag: [Artificial General Intelligence]
+  tag: [artificial general intelligence]
   status: in progress
 ---
 

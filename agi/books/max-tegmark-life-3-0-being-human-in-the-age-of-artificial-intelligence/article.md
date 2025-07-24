@@ -2,7 +2,7 @@
 title: "Max Tegmark - Life 3.0: Being Human in the Age of Artificial Intelligence - 2017"
 created: 2017-12-15
 taxonomy:
-  tag: [Artificial General Intelligence]
+  tag: [artificial general intelligence]
   status: finished
 ---
 

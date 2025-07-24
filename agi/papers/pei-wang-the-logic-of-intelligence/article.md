@@ -2,7 +2,7 @@
 title: Pei Wang - The Logic of Intelligence (2007)
 created: 2016-02-19
 taxonomy:
-  tag: [Artificial General Intelligence]
+  tag: [artificial general intelligence]
   status: finished
 ---
 

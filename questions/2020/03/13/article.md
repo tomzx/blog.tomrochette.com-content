@@ -3,7 +3,7 @@ title: Internal voice
 created: 2020-03-13
 taxonomy:
   type: post
-  tag: [Questions]
+  tag: [questions]
   status: finished
 ---
 

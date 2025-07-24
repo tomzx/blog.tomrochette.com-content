@@ -3,7 +3,7 @@ title: Omnifocus "ofocus" format
 created: 2020-02-20
 taxonomy:
   type: post
-  tag: [Problems]
+  tag: [problems]
   status: finished
 ---
 

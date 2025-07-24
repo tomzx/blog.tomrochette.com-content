@@ -2,7 +2,7 @@
 title: Marvin Minsky - The Society of Mind - 1986
 created: 2015-11-15
 taxonomy:
-  tag: [Artificial General Intelligence]
+  tag: [artificial general intelligence]
   status: finished
 ---
 

@@ -3,7 +3,7 @@ title: Wikipedia
 created: 2020-01-01
 taxonomy:
   status: in progress
-  tag: [Wikipedia]
+  tag: [wikipedia]
 ---
 
 # Context

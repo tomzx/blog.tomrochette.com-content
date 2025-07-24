@@ -2,7 +2,7 @@
 title: "From the Phenomenology to the Mechanisms of Consciousness: Integrated Information Theory 3.0 (2014)"
 created: 2016-08-25
 taxonomy:
-  tag: [Artificial General Intelligence]
+  tag: [artificial general intelligence]
   status: in progress
 ---
 

@@ -3,7 +3,7 @@ title: IMDb ratings importer
 created: 2020-02-23
 taxonomy:
   type: post
-  tag: [Problems, PHP]
+  tag: [problems, php]
   status: finished
 ---
 

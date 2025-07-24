@@ -3,7 +3,7 @@ title: Thoughts tracking
 created: 2020-02-01
 taxonomy:
   type: post
-  tag: [Questions]
+  tag: [questions]
   status: finished
 ---
 

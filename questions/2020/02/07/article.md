@@ -3,7 +3,7 @@ title: Billionaire's life
 created: 2020-02-07
 taxonomy:
   type: post
-  tag: [Questions]
+  tag: [questions]
   status: finished
 ---
 

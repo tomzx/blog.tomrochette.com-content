@@ -2,7 +2,7 @@
 title: Automated project management
 created: 2017-04-15
 taxonomy:
-  tag: [Artificial General Intelligence]
+  tag: [artificial general intelligence]
   status: in progress
 ---
 

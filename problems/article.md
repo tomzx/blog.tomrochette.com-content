@@ -4,7 +4,7 @@ created: 2020-02-10
 visible: true
 menu: Problems
 taxonomy:
-  tag: [Problems]
+  tag: [problems]
   status: in progress
 ---
 

@@ -2,7 +2,7 @@
 title: ChatGPT self
 created: 2023-07-23
 taxonomy:
-  tag: [Artificial General Intelligence, ChatGPT]
+  tag: [artificial general intelligence, chatgpt]
   status: in progress
 ---
 

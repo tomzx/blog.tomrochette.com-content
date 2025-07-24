@@ -2,7 +2,7 @@
 title: Shane Legg - Machine Super Intelligence (2008)
 created: 2018-01-04
 taxonomy:
-  tag: [Artificial General Intelligence]
+  tag: [artificial general intelligence]
   status: finished
 ---
 

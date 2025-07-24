@@ -4,7 +4,7 @@ created: 2024-10-21
 taxonomy:
   type: post
   status: draft
-  tag: [Learning]
+  tag: [learning]
 ---
 
 (sorted alphabetically)

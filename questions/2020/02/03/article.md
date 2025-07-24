@@ -3,7 +3,7 @@ title: Repeating yourself
 created: 2020-02-03
 taxonomy:
   type: post
-  tag: [Questions, Note taking]
+  tag: [questions, note taking]
   status: finished
 ---
 

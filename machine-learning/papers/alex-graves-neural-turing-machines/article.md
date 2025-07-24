@@ -2,7 +2,7 @@
 title: Alex Graves - Neural Turing Machines (2014)
 created: 2016-04-02
 taxonomy:
-  tag: [Machine learning]
+  tag: [machine learning]
   status: finished
 ---
 

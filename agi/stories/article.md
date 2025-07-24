@@ -2,7 +2,7 @@
 title: Stories index
 created: 2016-11-14
 taxonomy:
-  tag: [Artificial General Intelligence]
+  tag: [artificial general intelligence]
   status: in progress
 ---
 

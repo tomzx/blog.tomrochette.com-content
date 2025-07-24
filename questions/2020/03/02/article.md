@@ -3,7 +3,7 @@ title: Rough project size estimation
 created: 2020-03-02
 taxonomy:
   type: post
-  tag: [Questions, Software development]
+  tag: [questions, software development]
   status: finished
 ---
 

@@ -2,7 +2,7 @@
 title: Natural language processing
 created: 2015-09-05
 taxonomy:
-  tag: [Artificial General Intelligence]
+  tag: [artificial general intelligence]
   status: in progress
 ---
 ## Context

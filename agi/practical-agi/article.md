@@ -2,7 +2,7 @@
 title: Practical AGI
 created: 2015-08-17
 taxonomy:
-  tag: [Artificial General Intelligence]
+  tag: [artificial general intelligence]
   status: in progress
 ---
 

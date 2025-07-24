@@ -3,7 +3,7 @@ title: When to abandon pull requests
 created: 2020-02-09
 taxonomy:
   type: post
-  tag: [Questions, Software development]
+  tag: [questions, software development]
   status: finished
 ---
 

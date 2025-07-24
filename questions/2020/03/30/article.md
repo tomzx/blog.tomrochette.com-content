@@ -3,7 +3,7 @@ title: Data profiling
 created: 2020-03-30
 taxonomy:
   type: post
-  tag: [Questions, Time series]
+  tag: [questions, time series]
   status: finished
 ---
 

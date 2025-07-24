@@ -2,7 +2,7 @@
 title: PHP Analyzer
 created: 2016-09-22
 taxonomy:
-  tag: [PHP]
+  tag: [php]
   status: finished
 ---
 

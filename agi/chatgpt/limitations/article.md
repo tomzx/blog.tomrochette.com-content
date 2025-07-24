@@ -2,7 +2,7 @@
 title: ChatGPT limitations
 created: 2023-04-22
 taxonomy:
-  tag: [Artificial General Intelligence, ChatGPT]
+  tag: [artificial general intelligence, chatgpt]
   status: in progress
 ---
 

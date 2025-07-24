@@ -2,7 +2,7 @@
 title: Irving John Good - Speculations concerning the first ultraintelligent machine (1966)
 created: 2018-01-12
 taxonomy:
-  tag: [Artificial General Intelligence]
+  tag: [artificial general intelligence]
   status: finished
 ---
 
@@ -34,7 +34,7 @@ taxonomy:
 	* It is in recall rather than in retention that the ordinary human memory reveals its near magic
 * For men, meaning serves a function of economy in long-term retention and in information handling
 	* This is the basis for our contention that semantics are relevant to the design of an ultraintelligent machine
-* In communication, a process of "generalized regeneration" always occur, and that it serves a function of economy 
+* In communication, a process of "generalized regeneration" always occur, and that it serves a function of economy
 
 ## 3. Communication as Regeneration
 * The advantage of remembering the word rather than the precise sound is that there is then less to remember and a smaller amount of information handling to do

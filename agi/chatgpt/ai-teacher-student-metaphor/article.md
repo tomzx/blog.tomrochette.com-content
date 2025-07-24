@@ -3,7 +3,7 @@ title: AI teacher/student metaphor
 created: 2022-12-22
 taxonomy:
   status: in progress
-  tag: [Artificial General Intelligence, ChatGPT, fully-ai-generated]
+  tag: [artificial general intelligence, chatgpt, fully-ai-generated]
 ---
 
 # Prompt

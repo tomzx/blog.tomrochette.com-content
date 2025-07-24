@@ -2,7 +2,7 @@
 title: My AGI story
 created: 2017-06-11
 taxonomy:
-  tag: [Artificial General Intelligence]
+  tag: [artificial general intelligence]
   status: in progress
 ---
 

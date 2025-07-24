@@ -4,7 +4,7 @@ created: 2019-11-30
 visible: true
 menu: Processes
 taxonomy:
-  tag: [Processes]
+  tag: [processes]
   status: in progress
 ---
 

@@ -2,7 +2,7 @@
 title: Lion Kimbro - How to Make a Complete Map of Every Thought - 2003
 created: 2017-04-13
 taxonomy:
-  tag: [Artificial General Intelligence]
+  tag: [artificial general intelligence]
   status: finished
 ---
 

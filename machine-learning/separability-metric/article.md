@@ -2,7 +2,7 @@
 title: Separability metric
 created: 2019-09-29
 taxonomy:
-  tag: [Machine learning, partially-ai-generated, llm=deepseek]
+  tag: [machine learning, partially-ai-generated, llm=deepseek]
   status: in progress
 ---
 
@@ -100,7 +100,7 @@ Overall separability:
 S_{\text{total}} &= \left( \frac{3}{8} \times 0.6667 \right) + \left( \frac{2}{8} \times 1 \right) + \left( \frac{3}{8} \times 0.6667 \right) \\
 &\approx 0.75
 \end{aligned}
-\] 
+\]
 
 ### Interpretation and Applications
 

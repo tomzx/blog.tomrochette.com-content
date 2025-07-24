@@ -2,7 +2,7 @@
 title: John von Neumann - The Computer and the Brain - 1958
 created: 2015-12-31
 taxonomy:
-  tag: [Artificial General Intelligence]
+  tag: [artificial general intelligence]
   status: finished
 ---
 

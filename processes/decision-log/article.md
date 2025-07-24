@@ -4,7 +4,7 @@ created: 2020-08-08
 taxonomy:
   type: post
   status: draft
-  tag: General
+  tag: general
 ---
 
 * Do you understand what is at stake?

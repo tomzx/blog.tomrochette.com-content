@@ -2,7 +2,7 @@
 title: Minimal skills curriculum
 created: 2017-02-18
 taxonomy:
-  tag: [Artificial General Intelligence]
+  tag: [artificial general intelligence]
   status: in progress
 ---
 

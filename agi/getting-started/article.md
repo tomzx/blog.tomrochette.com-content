@@ -2,7 +2,7 @@
 title: Getting Started
 created: 2015-07-19
 taxonomy:
-  tag: [Artificial General Intelligence]
+  tag: [artificial general intelligence]
   status: in progress
 ---
 

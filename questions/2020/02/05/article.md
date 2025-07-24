@@ -3,7 +3,7 @@ title: Process improvement
 created: 2020-02-05
 taxonomy:
   type: post
-  tag: [Questions, Processes]
+  tag: [questions, processes]
   status: finished
 ---
 

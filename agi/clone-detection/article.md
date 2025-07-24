@@ -2,7 +2,7 @@
 title: Clone detection
 created: 2016-06-05
 taxonomy:
-  tag: [Artificial General Intelligence]
+  tag: [artificial general intelligence]
   status: in progress
 ---
 

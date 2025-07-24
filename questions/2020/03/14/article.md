@@ -3,7 +3,7 @@ title: Apparition of language
 created: 2020-03-14
 taxonomy:
   type: post
-  tag: [Questions]
+  tag: [questions]
   status: finished
 ---
 

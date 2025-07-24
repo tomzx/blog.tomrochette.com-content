@@ -3,7 +3,7 @@ title: Accelerate slow pytests
 created: 2020-02-26
 taxonomy:
   type: post
-  tag: [Problems, Python]
+  tag: [problems, python]
   status: finished
 ---
 

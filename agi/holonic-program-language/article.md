@@ -2,7 +2,7 @@
 title: Holonic (program) language
 created: 2016-08-18
 taxonomy:
-  tag: [Artificial General Intelligence]
+  tag: [artificial general intelligence]
   status: in progress
 ---
 
@@ -29,4 +29,3 @@ Given that many programming languages already exist, it would be valuable, both 
 # See also
 
 # References
-

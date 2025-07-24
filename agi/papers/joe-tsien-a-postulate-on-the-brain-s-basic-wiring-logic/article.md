@@ -2,7 +2,7 @@
 title: Joe Z. Tsien - A Postulate on the Brain's Basic Wiring Logic (2015)
 created: 2017-04-08
 taxonomy:
-  tag: [Artificial General Intelligence]
+  tag: [artificial general intelligence]
   status: finished
 ---
 

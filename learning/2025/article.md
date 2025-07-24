@@ -4,7 +4,7 @@ created: 2025-02-21
 taxonomy:
   type: post
   status: draft
-  tag: [Learning]
+  tag: [learning]
 ---
 
 * Model context protocol (MCP)

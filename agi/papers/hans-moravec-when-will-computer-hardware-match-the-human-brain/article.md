@@ -2,7 +2,7 @@
 title: Hans Moravec - When will computer hardware match the human brain? (1998)
 created: 2018-02-08
 taxonomy:
-  tag: [Artificial General Intelligence]
+  tag: [artificial general intelligence]
   status: finished
 ---
 

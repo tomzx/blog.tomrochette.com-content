@@ -3,7 +3,7 @@ title: Keeping a site up to date while highlighting changes
 created: 2020-02-14
 taxonomy:
   type: post
-  tag: [Questions]
+  tag: [questions]
   status: finished
 ---
 

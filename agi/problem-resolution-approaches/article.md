@@ -2,7 +2,7 @@
 title: Problem resolution approaches
 created: 2015-11-01
 taxonomy:
-  tag: [Artificial General Intelligence]
+  tag: [artificial general intelligence]
   status: in progress
 ---
 

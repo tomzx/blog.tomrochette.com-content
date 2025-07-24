@@ -3,7 +3,7 @@ title: Time series forecasting projects
 created: 2020-03-29
 taxonomy:
   type: post
-  tag: [Questions, Time series]
+  tag: [questions, time series]
   status: finished
 ---
 

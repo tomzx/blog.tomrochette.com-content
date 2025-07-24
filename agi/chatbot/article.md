@@ -2,7 +2,7 @@
 title: Chatbot
 created: 2015-08-26
 taxonomy:
-  tag: [Artificial General Intelligence]
+  tag: [artificial general intelligence]
   status: in progress
 ---
 

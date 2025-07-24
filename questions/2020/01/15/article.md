@@ -3,7 +3,7 @@ title: Biology and genetics for AGI researchers
 created: 2020-01-15
 taxonomy:
   type: post
-  tag: [Questions, Artificial General Intelligence]
+  tag: [questions, artificial general intelligence]
   status: finished
 ---
 

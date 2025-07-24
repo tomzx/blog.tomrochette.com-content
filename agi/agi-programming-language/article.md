@@ -3,7 +3,7 @@ title: AGI programming language
 created: 2016-07-08
 taxonomy:
   status: in progress
-  tag: [Artificial General Intelligence]
+  tag: [artificial general intelligence]
 ---
 
 ## Context

@@ -2,7 +2,7 @@
 title: Companies
 created: 2017-01-01
 taxonomy:
-  tag: [Artificial General Intelligence]
+  tag: [artificial general intelligence]
   status: in progress
 ---
 
@@ -28,4 +28,3 @@ taxonomy:
 # See also
 
 # References
-

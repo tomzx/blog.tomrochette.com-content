@@ -3,7 +3,7 @@ title: What can cause learning inefficiency
 created: 2020-01-22
 taxonomy:
   type: post
-  tag: [Questions]
+  tag: [questions]
   status: finished
 ---
 

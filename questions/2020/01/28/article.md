@@ -3,7 +3,7 @@ title: Using checklists to avoid mistakes
 created: 2020-01-28
 taxonomy:
   type: post
-  tag: [Questions]
+  tag: [questions]
   status: finished
 ---
 

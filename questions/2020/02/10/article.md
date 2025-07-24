@@ -3,7 +3,7 @@ title: Working on the most important task
 created: 2020-02-10
 taxonomy:
   type: post
-  tag: [Questions, Software development]
+  tag: [questions, software development]
   status: finished
 ---
 

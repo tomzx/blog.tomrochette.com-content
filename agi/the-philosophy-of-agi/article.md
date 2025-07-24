@@ -2,7 +2,7 @@
 title: The Philosophy of AGI
 created: 2017-05-26
 taxonomy:
-  tag: [Artificial General Intelligence]
+  tag: [artificial general intelligence]
   status: in progress
 ---
 

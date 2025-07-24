@@ -2,7 +2,7 @@
 title: "Douglas Hofstadter - Gödel, Escher, Bach: An Eternal Golden Braid - 1979"
 created: 2015-12-13
 taxonomy:
-  tag: [Artificial General Intelligence]
+  tag: [artificial general intelligence]
   status: in progress
 ---
 

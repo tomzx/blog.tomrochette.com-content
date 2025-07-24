@@ -2,7 +2,7 @@
 title: My path to AGI
 created: 2015-10-22
 taxonomy:
-  tag: [Artificial General Intelligence]
+  tag: [artificial general intelligence]
   status: in progress
 ---
 

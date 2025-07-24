@@ -3,7 +3,7 @@ title: List outdated packages using poetry
 created: 2020-03-04
 taxonomy:
   type: post
-  tag: [Problems, Python]
+  tag: [problems, python]
   status: finished
 ---
 

@@ -4,7 +4,7 @@ created: 2020-01-01
 visible: true
 menu: Questions
 taxonomy:
-  tag: [Questions]
+  tag: [questions]
   status: in progress
 ---
 

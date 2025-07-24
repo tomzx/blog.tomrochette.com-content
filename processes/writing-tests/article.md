@@ -3,7 +3,7 @@ title: Writing tests
 created: 2019-05-25
 taxonomy:
   type: post
-  tag: [Software development, Processes]
+  tag: [software development, processes]
   status: draft
 ---
 

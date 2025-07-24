@@ -7,7 +7,7 @@ taxonomy:
   status: draft
 ---
 
-It's highly common when working that priorities shift and that sometimes you have way more on your plate than you can handle. 
+It's highly common when working that priorities shift and that sometimes you have way more on your plate than you can handle.
 
 No need to panic!
 

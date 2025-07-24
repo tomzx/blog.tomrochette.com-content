@@ -2,7 +2,7 @@
 title: Learning a language
 created: 2017-04-18
 taxonomy:
-  tag: [Artificial General Intelligence]
+  tag: [artificial general intelligence]
   status: in progress
 ---
 

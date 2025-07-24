@@ -2,7 +2,7 @@
 title: "John Storrs Hall - Self-improving AI: an Analysis (2007)"
 created: 2016-08-19
 taxonomy:
-  tag: [Artificial General Intelligence]
+  tag: [artificial general intelligence]
   status: finished
 ---
 

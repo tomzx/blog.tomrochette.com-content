@@ -2,7 +2,7 @@
 title: Isomorphism
 created: 2016-07-28
 taxonomy:
-  tag: [Artificial General Intelligence]
+  tag: [artificial general intelligence]
   status: in progress
 ---
 

@@ -3,7 +3,7 @@ title: Software developer
 created: 2022-08-13
 taxonomy:
   type: post
-  tag: [Software development]
+  tag: [software development]
   status: draft
 ---
 

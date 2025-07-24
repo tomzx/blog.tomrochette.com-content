@@ -3,7 +3,7 @@ title: User demo walkthrough
 created: 2020-02-27
 taxonomy:
   type: post
-  tag: [Questions, Software development]
+  tag: [questions, software development]
   status: finished
 ---
 

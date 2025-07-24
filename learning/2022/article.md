@@ -3,7 +3,7 @@ title: Learning - 2022
 created: 2022-01-14
 taxonomy:
   type: post
-  tag: [Learning]
+  tag: [learning]
 ---
 
 (sorted alphabetically)

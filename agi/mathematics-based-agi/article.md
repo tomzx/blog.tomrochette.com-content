@@ -2,7 +2,7 @@
 title: Mathematics based AGI
 created: 2015-08-21
 taxonomy:
-  tag: [Artificial General Intelligence]
+  tag: [artificial general intelligence]
   status: in progress
 ---
 

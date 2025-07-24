@@ -2,7 +2,7 @@
 title: Automated time series project
 created: 2019-02-02
 taxonomy:
-  tag: [Artificial General Intelligence]
+  tag: [artificial general intelligence]
   status: in progress
 ---
 

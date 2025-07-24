@@ -2,7 +2,7 @@
 title: Build an AGI using Polya's method
 created: 2016-06-18
 taxonomy:
-  tag: [Artificial General Intelligence]
+  tag: [artificial general intelligence]
   status: in progress
 ---
 

@@ -2,7 +2,7 @@
 title: Program equivalence
 created: 2016-07-07
 taxonomy:
-  tag: [Artificial General Intelligence]
+  tag: [artificial general intelligence]
   status: in progress
 ---
 

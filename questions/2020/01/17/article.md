@@ -3,7 +3,7 @@ title: Picking the best material to learn a topic
 created: 2020-01-17
 taxonomy:
   type: post
-  tag: [Questions]
+  tag: [questions]
   status: finished
 ---
 

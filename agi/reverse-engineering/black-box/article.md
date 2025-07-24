@@ -2,7 +2,7 @@
 title: Black-box reverse engineering
 created: 2016-05-06
 taxonomy:
-  tag: [Artificial General Intelligence]
+  tag: [artificial general intelligence]
   status: in progress
 ---
 

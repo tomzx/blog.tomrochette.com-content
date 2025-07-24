@@ -3,7 +3,7 @@ title: Humans modeled as computers
 created: 2020-01-13
 taxonomy:
   type: post
-  tag: [Questions, Artificial General Intelligence]
+  tag: [questions, artificial general intelligence]
   status: finished
 ---
 

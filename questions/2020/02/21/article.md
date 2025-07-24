@@ -3,7 +3,7 @@ title: Ways to measure intelligence
 created: 2020-02-21
 taxonomy:
   type: post
-  tag: [Questions]
+  tag: [questions]
   status: finished
 ---
 

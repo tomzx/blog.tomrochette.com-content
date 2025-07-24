@@ -3,7 +3,7 @@ title: Knowing what your users need without having users
 created: 2020-02-11
 taxonomy:
   type: post
-  tag: [Problems]
+  tag: [problems]
   status: finished
 ---
 

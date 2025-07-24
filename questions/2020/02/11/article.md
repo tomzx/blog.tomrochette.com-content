@@ -3,7 +3,7 @@ title: Productive meetings
 created: 2020-02-11
 taxonomy:
   type: post
-  tag: [Questions]
+  tag: [questions]
   status: finished
 ---
 

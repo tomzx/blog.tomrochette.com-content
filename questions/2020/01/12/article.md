@@ -3,7 +3,7 @@ title: Answering your own questions
 created: 2020-01-12
 taxonomy:
   type: post
-  tag: [Questions]
+  tag: [questions]
   status: finished
 ---
 

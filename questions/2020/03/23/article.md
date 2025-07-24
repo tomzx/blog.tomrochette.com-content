@@ -3,7 +3,7 @@ title: Recognizing processes to follow
 created: 2020-03-23
 taxonomy:
   type: post
-  tag: [Questions, Processes]
+  tag: [questions, processes]
   status: finished
 ---
 

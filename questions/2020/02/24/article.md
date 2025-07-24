@@ -3,7 +3,7 @@ title: The definition of value in business
 created: 2020-02-24
 taxonomy:
   type: post
-  tag: [Questions]
+  tag: [questions]
   status: finished
 ---
 

@@ -2,7 +2,7 @@
 title: Systems Neuroscience and AGI
 created: 2016-03-18
 taxonomy:
-  tag: [Artificial General Intelligence]
+  tag: [artificial general intelligence]
   status: finished
 ---
 

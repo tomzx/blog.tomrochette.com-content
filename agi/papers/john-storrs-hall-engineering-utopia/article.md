@@ -2,7 +2,7 @@
 title: Engineering utopia
 created: 2016-08-20
 taxonomy:
-  tag: [Artificial General Intelligence]
+  tag: [artificial general intelligence]
   status: finished
 ---
 

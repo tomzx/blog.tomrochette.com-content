@@ -3,7 +3,7 @@ title: Superficial loss rule
 created: 2020-03-22
 taxonomy:
   type: post
-  tag: [Questions, Finances]
+  tag: [questions, finances]
   status: finished
 ---
 

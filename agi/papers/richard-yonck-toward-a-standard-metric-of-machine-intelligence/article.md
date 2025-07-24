@@ -2,7 +2,7 @@
 title: Richard Yonck - Toward a Standard Metric of Machine Intelligence (2012)
 created: 2016-08-20
 taxonomy:
-  tag: [Artificial General Intelligence]
+  tag: [artificial general intelligence]
   status: finished
 ---
 

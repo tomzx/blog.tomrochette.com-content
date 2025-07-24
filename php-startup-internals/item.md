@@ -101,7 +101,7 @@ An iterative cycle here should take less than 5 minutes (and a maximum of 30 min
 
 For this to work, you simply need to make a symbolic link from the jenkins project workspace to some path which apache/nginx makes available to external users. For example
 
-`/home/jenkins/workspace/project-a-develop-to-development/public -> /var/www/development/project-a` 
+`/home/jenkins/workspace/project-a-develop-to-development/public -> /var/www/development/project-a`
 
 1. Pull the latest revision from the repository
 2. Download and update composer (if required)

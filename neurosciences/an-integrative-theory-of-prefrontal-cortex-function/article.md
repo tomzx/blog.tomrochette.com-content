@@ -2,7 +2,7 @@
 title: Earl Miller - An Integrative Theory of Prefrontal Cortex Function (2001)
 created: 2017-08-26
 taxonomy:
-  tag: [Neurosciences]
+  tag: [neurosciences]
   status: finished
 ---
 

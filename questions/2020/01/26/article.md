@@ -3,7 +3,7 @@ title: How I make complex decisions
 created: 2020-01-26
 taxonomy:
   type: post
-  tag: [Questions]
+  tag: [questions]
   status: finished
 ---
 

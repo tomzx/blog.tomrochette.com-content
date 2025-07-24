@@ -3,7 +3,7 @@ title: Solving hard software problems
 created: 2024-09-17
 taxonomy:
   type: post
-  tag: [Processes]
+  tag: [processes]
   status: draft
 ---
 

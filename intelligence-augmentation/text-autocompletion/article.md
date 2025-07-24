@@ -2,7 +2,7 @@
 title: Text autocompletion
 created: 2018-05-10
 taxonomy:
-  tag: [Intelligence Augmentation]
+  tag: [intelligence augmentation]
   status: in progress
 ---
 

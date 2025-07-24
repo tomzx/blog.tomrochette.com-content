@@ -3,7 +3,7 @@ title: Belief traceability
 created: 2020-01-19
 taxonomy:
   type: post
-  tag: [Questions]
+  tag: [questions]
   status: finished
 ---
 

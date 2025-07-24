@@ -3,7 +3,7 @@ title: Abiogenesis
 created: 2016-02-17
 taxonomy:
   status: in progress
-  tag: [Artificial General Intelligence]
+  tag: [artificial general intelligence]
 ---
 
 ## Context

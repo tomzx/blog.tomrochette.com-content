@@ -3,7 +3,7 @@ title: Andy Hunt - Pragmatic thinking and learning - 2017
 created: 2019-03-09
 taxonomy:
   status: finished
-  tag: [Learning]
+  tag: [learning]
 ---
 
 ## Context

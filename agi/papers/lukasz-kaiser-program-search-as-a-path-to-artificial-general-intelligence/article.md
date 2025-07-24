@@ -2,7 +2,7 @@
 title: Łukasz Kaiser - Program Search as a Path to Artificial General Intelligence (2007)
 created: 2016-03-25
 taxonomy:
-  tag: [Artificial General Intelligence]
+  tag: [artificial general intelligence]
   status: in progress
 ---
 

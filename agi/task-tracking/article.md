@@ -2,7 +2,7 @@
 title: Task tracking
 created: 2016-07-20
 taxonomy:
-  tag: [Artificial General Intelligence]
+  tag: [artificial general intelligence]
   status: in progress
 ---
 

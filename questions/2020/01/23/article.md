@@ -3,7 +3,7 @@ title: Complex and unpredictable binary strings
 created: 2020-01-23
 taxonomy:
   type: post
-  tag: [Questions, Computer Science]
+  tag: [questions, computer science]
   status: finished
 ---
 

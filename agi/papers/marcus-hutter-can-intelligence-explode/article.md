@@ -2,7 +2,7 @@
 title: Marcus Hutter - Can Intelligence Explode? (2012)
 created: 2016-09-03
 taxonomy:
-  tag: [Artificial General Intelligence]
+  tag: [artificial general intelligence]
   status: finished
 ---
 

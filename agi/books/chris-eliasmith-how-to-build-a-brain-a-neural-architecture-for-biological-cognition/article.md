@@ -2,7 +2,7 @@
 title: "Chris Eliasmith - How to Build a Brain: A Neural Architecture for Biological Cognition - 2015"
 created: 2017-08-17
 taxonomy:
-  tag: [Artificial General Intelligence]
+  tag: [artificial general intelligence]
   status: in progress
 ---
 

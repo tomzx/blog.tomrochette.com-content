@@ -3,7 +3,7 @@ title: Storing and updating large amounts of data
 created: 2020-01-11
 taxonomy:
   type: post
-  tag: [Questions, Artificial Intelligence]
+  tag: [questions, artificial intelligence]
   status: finished
 ---
 

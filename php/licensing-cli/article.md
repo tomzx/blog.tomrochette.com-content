@@ -3,7 +3,7 @@ title: Licensing CLI
 created: 2016-09-23
 taxonomy:
   type: post-wip
-  tag: [PHP]
+  tag: [php]
   status: in progress
 ---
 

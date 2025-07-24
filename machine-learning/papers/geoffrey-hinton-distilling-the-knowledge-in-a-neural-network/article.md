@@ -2,7 +2,7 @@
 title: Geoffrey Hinton - Distilling the Knowledge in a Neural Network (2015)
 created: 2017-07-07
 taxonomy:
-  tag: [Machine learning]
+  tag: [machine learning]
   status: finished
 ---
 

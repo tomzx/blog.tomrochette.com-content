@@ -3,7 +3,7 @@ title: Why ask questions when few are answered
 created: 2020-01-20
 taxonomy:
   type: post
-  tag: [Questions]
+  tag: [questions]
   status: finished
 ---
 

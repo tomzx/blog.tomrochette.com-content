@@ -2,7 +2,7 @@
 title: De/construction of the mind
 created: 2015-08-13
 taxonomy:
-  tag: [Artificial General Intelligence]
+  tag: [artificial general intelligence]
   status: in progress
 ---
 

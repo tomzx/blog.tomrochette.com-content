@@ -3,7 +3,7 @@ title: Tech lead
 created: 2020-03-25
 taxonomy:
   type: post
-  tag: [Questions]
+  tag: [questions]
   status: finished
 ---
 

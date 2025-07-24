@@ -2,7 +2,7 @@
 title: Automatic template extraction
 created: 2016-07-14
 taxonomy:
-  tag: [Artificial General Intelligence]
+  tag: [artificial general intelligence]
   status: in progress
 ---
 

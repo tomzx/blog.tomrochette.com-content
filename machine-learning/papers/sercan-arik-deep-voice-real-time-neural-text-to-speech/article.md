@@ -2,7 +2,7 @@
 title: "Sercan Arik - Deep Voice: Real-time Neural Text-to-Speech (2017)"
 created: 2017-06-01
 taxonomy:
-  tag: [Machine learning]
+  tag: [machine learning]
   status: finished
 ---
 
