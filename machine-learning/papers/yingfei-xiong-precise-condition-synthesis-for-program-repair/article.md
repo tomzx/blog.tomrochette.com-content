@@ -2,7 +2,7 @@
 title: Yingfei Xiong - Precise Condition Synthesis for Program Repair (2017)
 created: 2018-02-17
 taxonomy:
-  tag: [Machine learning]
+  tag: [machine learning]
   status: finished
 ---
 

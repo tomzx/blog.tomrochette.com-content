@@ -2,7 +2,7 @@
 title: "Matej Balog - DeepCoder: Learning to Write Programs (2016)"
 created: 2017-05-25
 taxonomy:
-  tag: [Machine learning]
+  tag: [machine learning]
   status: finished
 ---
 

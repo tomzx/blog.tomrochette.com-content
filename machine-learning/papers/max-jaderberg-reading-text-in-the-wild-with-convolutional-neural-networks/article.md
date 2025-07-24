@@ -2,7 +2,7 @@
 title: Max Jaderberg - Reading Text in the Wild with Convolutional Neural Networks (2014)
 created: 2017-07-02
 taxonomy:
-  tag: [Machine learning]
+  tag: [machine learning]
   status: in progress
 ---
 

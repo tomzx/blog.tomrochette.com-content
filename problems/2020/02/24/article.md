@@ -3,7 +3,7 @@ title: Rotten Tomatoes ratings exporter
 created: 2020-02-24
 taxonomy:
   type: post
-  tag: [Problems, PHP]
+  tag: [problems, php]
   status: finished
 ---
 

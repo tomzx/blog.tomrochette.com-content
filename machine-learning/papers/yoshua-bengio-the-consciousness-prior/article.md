@@ -2,7 +2,7 @@
 title: Yoshua Bengio - The Consciousness Prior (2017)
 created: 2017-09-28
 taxonomy:
-  tag: [Machine learning]
+  tag: [machine learning]
   status: finished
 ---
 

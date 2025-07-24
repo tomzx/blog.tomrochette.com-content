@@ -3,7 +3,7 @@ title: Identifying python files with no coverage
 created: 2020-02-27
 taxonomy:
   type: post
-  tag: [Problems, Python]
+  tag: [problems, python]
   status: finished
 ---
 

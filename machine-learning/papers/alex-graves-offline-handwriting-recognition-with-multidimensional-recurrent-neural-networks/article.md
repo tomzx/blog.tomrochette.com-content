@@ -2,7 +2,7 @@
 title: Alex Graves - Offline Handwriting Recognition with Multidimensional Recurrent Neural Networks (2009)
 created: 2017-04-27
 taxonomy:
-  tag: [Artificial General Intelligence]
+  tag: [artificial general intelligence]
   status: finished
 ---
 

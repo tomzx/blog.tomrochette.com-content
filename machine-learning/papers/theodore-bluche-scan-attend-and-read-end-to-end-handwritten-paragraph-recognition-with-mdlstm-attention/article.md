@@ -2,7 +2,7 @@
 title: "Théodore Bluche - Scan, Attend and Read: End-to-End Handwritten Paragraph Recognition with MDLSTM Attention (2016)"
 created: 2017-05-19
 taxonomy:
-  tag: [Machine learning]
+  tag: [machine learning]
   status: finished
 ---
 

@@ -2,7 +2,7 @@
 title: Greg Linden - Amazon.com Recommendations - Item-to-Item Collaborative Filtering (2003)
 created: 2017-12-09
 taxonomy:
-  tag: [Machine learning]
+  tag: [machine learning]
   status: finished
 ---
 

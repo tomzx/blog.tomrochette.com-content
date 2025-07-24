@@ -2,7 +2,7 @@
 title: Ian Goodfellow - Generative Adversarial Nets (2014)
 created: 2017-04-22
 taxonomy:
-  tag: [Machine learning]
+  tag: [machine learning]
   status: finished
 ---
 

@@ -2,7 +2,7 @@
 title: Memory
 created: 2023-05-05
 taxonomy:
-  tag: [Artificial General Intelligence, ChatGPT]
+  tag: [artificial general intelligence, ChatGPT]
   status: in progress
 ---
 

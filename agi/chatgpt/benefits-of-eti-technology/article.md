@@ -3,7 +3,7 @@ title: Benefits of ETI technology
 created: 2022-12-22
 taxonomy:
   status: in progress
-  tag: [Artificial General Intelligence, ChatGPT, fully-ai-generated]
+  tag: [artificial general intelligence, ChatGPT, fully-ai-generated]
 ---
 
 # Prompt

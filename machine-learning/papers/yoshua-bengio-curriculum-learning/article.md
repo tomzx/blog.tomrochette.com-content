@@ -2,7 +2,7 @@
 title: Yoshua Bengio - Curriculum Learning (2009)
 created: 2017-04-08
 taxonomy:
-  tag: [Machine learning]
+  tag: [machine learning]
   status: finished
 ---
 

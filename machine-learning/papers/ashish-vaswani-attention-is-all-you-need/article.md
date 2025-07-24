@@ -2,7 +2,7 @@
 title: Ashish Vaswani - Attention Is All You Need (2017)
 created: 2017-07-06
 taxonomy:
-  tag: [Machine learning]
+  tag: [machine learning]
   status: finished
 ---
 

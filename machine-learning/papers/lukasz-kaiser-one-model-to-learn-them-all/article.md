@@ -2,7 +2,7 @@
 title: Lukasz Kaiser - One Model To Learn Them All (2017)
 created: 2017-06-22
 taxonomy:
-  tag: [Machine learning]
+  tag: [machine learning]
   status: finished
 ---
 

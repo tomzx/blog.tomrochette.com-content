@@ -2,7 +2,7 @@
 title: Machine learning frameworks
 created: 2016-02-04
 taxonomy:
-  tag: [Machine learning]
+  tag: [machine learning]
   status: in progress
 ---
 

@@ -2,7 +2,7 @@
 title: Machine learning basics
 created: 2016-05-16
 taxonomy:
-  tag: [Machine learning]
+  tag: [machine learning]
   status: in progress
 ---
 

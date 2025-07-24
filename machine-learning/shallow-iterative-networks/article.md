@@ -2,7 +2,7 @@
 title: Shallow iterative networks
 created: 2017-08-18
 taxonomy:
-  tag: [Machine learning]
+  tag: [machine learning]
   status: in progress
 ---
 

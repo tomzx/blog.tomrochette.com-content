@@ -3,7 +3,7 @@ title: Learning VS Code source
 created: 2018-05-26
 taxonomy:
   type: post
-  tag: [Programming]
+  tag: [programming]
   status: draft
 ---
 

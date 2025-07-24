@@ -2,7 +2,7 @@
 title: Components of a machine learning project
 created: 2018-08-05
 taxonomy:
-  tag: [Machine learning]
+  tag: [machine learning]
   status: in progress
 ---
 

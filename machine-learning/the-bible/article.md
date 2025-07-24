@@ -2,7 +2,7 @@
 title: Machine Learning - The Bible
 created: 2020-12-28
 taxonomy:
-  tag: [Machine learning]
+  tag: [machine learning]
   status: draft
 ---
 

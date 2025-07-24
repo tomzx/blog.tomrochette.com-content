@@ -4,7 +4,7 @@ created: 2025-07-06
 taxonomy:
   type: post
   status: draft
-  tag: [Machine learning]
+  tag: [machine learning]
 ---
 
 In this article I list the various metrics/alerts one should have when monitoring a GPU cluster to ensure efficient usage.

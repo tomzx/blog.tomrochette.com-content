@@ -5,7 +5,7 @@ visible: true
 menu: AGI
 taxonomy:
   status: in progress
-  tag: [Artificial General Intelligence]
+  tag: [artificial general intelligence]
 ---
 
 The articles contained within this repository are mostly works in progress. I try to explore various topics that interest me and think through them at various points in time.
@@ -138,7 +138,7 @@ Tom
 ### Concept maps
 * [AGI concept map](https://github.com/tomzx/agi-concept-map)
 * [Computer science concept map](https://github.com/tomzx/computer-science-concept-map)
-* [Machine learning concept map](https://github.com/tomzx/machine-learning-concept-map)
+* [machine learning concept map](https://github.com/tomzx/machine-learning-concept-map)
 * [Mathematics concept map](https://github.com/tomzx/mathematics-concept-map)
 * [Neuroscience concept map](https://github.com/tomzx/neuroscience-concept-map)
 
