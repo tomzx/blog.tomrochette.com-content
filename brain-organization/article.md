@@ -4,8 +4,7 @@ created: 2018-02-10
 taxonomy:
   type: post-wip
   status: draft
-  tag:
-    - productivity
+  tag: [productivity]
 ---
 
 ## Context

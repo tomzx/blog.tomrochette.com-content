@@ -4,9 +4,7 @@ created: 2021-07-24
 taxonomy:
   type: post-wip
   status: draft
-  tag:
-    - philosophy
-    - thoughts
+  tag: [philosophy, thoughts]
 ---
 
 Life doesn't have a meaning.

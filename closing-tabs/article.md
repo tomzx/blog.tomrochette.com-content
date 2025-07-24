@@ -4,9 +4,7 @@ created: 2021-03-07
 taxonomy:
   type: post
   status: draft
-  tag:
-    - browser
-    - tabs
+  tag: [browser, tabs]
 ---
 
 # Why tabs are kept open

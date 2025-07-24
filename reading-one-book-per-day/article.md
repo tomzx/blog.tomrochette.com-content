@@ -4,9 +4,7 @@ created: 2020-07-27
 taxonomy:
   type: post
   status: in progress
-  tag:
-    - reading
-    - books
+  tag: [reading, books]
 ---
 
 Let's start by saying I'm not suggesting you read a full book per day. What I'm suggesting is to read at least a few pages of a book per day, reading a variety of books over the course of a week.

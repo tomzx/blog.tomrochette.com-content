@@ -4,9 +4,7 @@ created: 2020-11-15
 taxonomy:
   type: post
   status: draft
-  tag:
-    - processes
-    - habits
+  tag: [processes, habits]
 ---
 
 * Decide what habit you want to have and record why you want this habit

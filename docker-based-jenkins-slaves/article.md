@@ -3,10 +3,7 @@ title: Docker-based jenkins slaves
 created: 2015-11-07
 taxonomy:
   type: post
-  tag:
-    - DevOps
-    - docker
-    - jenkins
+  tag: [DevOps, docker, jenkins]
 ---
 
 # Overview

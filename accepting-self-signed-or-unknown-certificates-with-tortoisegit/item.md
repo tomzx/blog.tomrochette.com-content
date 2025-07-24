@@ -3,11 +3,7 @@ title: Accepting self-signed (or unknown) certificates with TortoiseGit
 created: 2013-09-18T03:16:44-05:00
 taxonomy:
   type: post
-  tag:
-    - programming
-    - certificates
-    - git
-    - tortoisegit
+  tag: [programming, certificates, git, tortoisegit]
 ---
 
 For some odd reason it seems that the system designed into [TortoiseGit](https://code.google.com/p/tortoisegit/) doesn't allow the user to interact with git when it requires user interaction. For instance, accepting self-signed certificated is not possible, which gives you the known [issue 318](https://gitlab.com/tortoisegit/tortoisegit/issues/318).

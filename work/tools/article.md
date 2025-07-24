@@ -4,8 +4,7 @@ created: 2024-08-26
 taxonomy:
   type: post
   status: draft
-  tag:
-    - work
+  tag: [work]
 ---
 
 Tools I use on a regular basis at work (sorted alphabetically).

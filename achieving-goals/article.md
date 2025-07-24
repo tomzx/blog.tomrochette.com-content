@@ -4,8 +4,7 @@ created: 2021-03-07
 taxonomy:
   type: post-wip
   status: draft
-  tag:
-    - goals
+  tag: [goals]
 ---
 
 * Sources of inefficiency

@@ -3,9 +3,7 @@ title: Day trading in Canada
 created: 2020-11-29
 taxonomy:
   type: post
-  tag:
-    - finance
-    - stocks
+  tag: [finance, stocks]
 ---
 
 Notice/Advisory: I am not an accountant nor a day trader. The following is not advice, only notes I've taken for myself. Content may be wrong or inaccurate. Use at your own risk.

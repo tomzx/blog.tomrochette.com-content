@@ -3,9 +3,7 @@ title: Docker
 created: 2018-06-07
 taxonomy:
   status: in progress
-  tag:
-    - devops
-    - docker
+  tag: [devops, docker]
 ---
 
 ## Context

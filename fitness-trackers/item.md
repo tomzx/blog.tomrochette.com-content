@@ -4,9 +4,7 @@ created: 2015-11-07
 taxonomy:
   type: post
   status: draft
-  tag:
-    - health
-    - fitness
+  tag: [health, fitness]
 ---
 
 ## Context

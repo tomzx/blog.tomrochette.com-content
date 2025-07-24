@@ -4,15 +4,7 @@ created: 2017-02-08
 taxonomy:
   type: post-wip
   status: in progress
-  tag:
-    - programming
-    - aws
-    - groups
-    - users
-    - roles
-    - policies
-    - identity
-    - access management
+  tag: [programming, aws, groups, users, roles, policies, identity, access management]
 ---
 
 ## Context

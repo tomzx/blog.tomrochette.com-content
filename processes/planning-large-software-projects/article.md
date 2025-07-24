@@ -3,11 +3,8 @@ title: Planning large software projects
 created: 2020-11-06
 taxonomy:
   type: post
-  tag: [Software development, Processes]
   status: draft
-  tag:
-    - software development
-    - projects
+  tag: [software development, projects]
 ---
 
 * List all the features you would like to develop

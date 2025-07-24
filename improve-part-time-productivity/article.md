@@ -4,8 +4,7 @@ created: 2021-03-07
 taxonomy:
   type: post-wip
   status: draft
-  tag:
-	- productivity
+  tag: [productivity]
 ---
 
 * It's difficult to remember/know the current state of a project

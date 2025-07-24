@@ -4,8 +4,7 @@ created: 2021-03-07
 taxonomy:
   type: post-wip
   status: draft
-  tag:
-    - self-promotion
+  tag: [self-promotion]
 ---
 
 * Produce content worth sharing

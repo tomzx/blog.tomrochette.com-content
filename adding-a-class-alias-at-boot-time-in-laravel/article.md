@@ -4,10 +4,7 @@ created: 2021-03-28
 taxonomy:
   type: post
   status: finished
-  tag:
-    - programming
-    - php
-    - laravel
+  tag: [programming, php, laravel]
 ---
 
 I make extensive use of [Laravel Debugbar](https://github.com/barryvdh/laravel-debugbar) to track performance of parts of my application. I sprinkle calls to `Debugbar::startMeasure` and `Debugbar::stopMeasure` to track the duration of certain segments of my code. However, when this code goes into production, this dependency isn't present. This cause the code to break since it cannot find `Debugbar` anymore.

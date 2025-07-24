@@ -4,8 +4,7 @@ created: 2018-12-29
 taxonomy:
     type: post
     status: draft
-    tag:
-        - games
+    tag: [games]
 ---
 
 A table of probabilities is built
