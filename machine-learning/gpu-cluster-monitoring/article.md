@@ -26,3 +26,5 @@ In this article I list the various metrics/alerts one should have when monitorin
     * Used to identify workloads that are not properly configured to use InfiniBand
 * Job launch wait duration
   * Used to determine when there's queueing of jobs due to compute being exhausted and how long it takes for jobs to start
+* Job duration
+  * Used to gather statistics about the type of workload running on the cluster in order to make informed decisions
