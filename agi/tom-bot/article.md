@@ -18,21 +18,24 @@ This article explores implementing an agent that can handle various tasks using 
 # Overview
 
 # Notes
+## Public version
+The public version of Tom bot has access to public information such as:
+
 * Read my blog articles
 * Read my imdb/traktv watchlist
 * Read my Goodreads book list
 * Read my GitHub contributions
 
-## Private version
-The private version of Tom bot has access to private information such as:
-
-* Read my personal notes
-
 ## Work version
-The work version of Tom bot has access to work-related information such as:
+The work version of Tom bot has access to the public version as well as work-related information such as:
 
 * Slack messages
 * Google Drive documents and Google Meet transcripts
+
+## Private version
+The private version of Tom bot has access to the public and work version as well as private information such as:
+
+* Read my personal notes
 
 # See also
 
