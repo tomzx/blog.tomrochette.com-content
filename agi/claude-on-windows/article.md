@@ -6,4 +6,4 @@ taxonomy:
   status: in progress
 ---
 
-The claude documentation indicates that personal commands can be set in `~/.claude`, but there is no documentation about Windows.
+The [claude documentation](https://docs.anthropic.com/en/docs/claude-code/slash-commands#personal-commands) indicates that personal commands can be set in `~/.claude`, but there is no documentation about Windows.
