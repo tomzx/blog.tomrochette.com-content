@@ -17,5 +17,6 @@ Since then, I've been working to perfect and broaden my skills.
 In June 2015 I decided I'd dedicate a good part of my life on the topic of artificial general intelligence, to understand what intelligence is and how it can be replicated in machines.
 
 When I'm online, I like to spend my time working on different projects of mine.
-Most are programming related. Otherwise, I read articles about software engineering practices, look for new ways to improve my workflow or I [answer questions](../questions/article.md) I've been asking myself.
+Most are programming related.
+Otherwise, I read articles about software engineering practices, look for new ways to improve my workflow or I [answer questions](../questions/article.md) I've been asking myself.
 I also enjoy answering questions others have.
