@@ -24,3 +24,5 @@ In this article I list the various metrics/alerts one should have when monitorin
 * If using InfiniBand
   * InfiniBand receive/transmit > 0 when running multi-node workloads
     * Used to identify workloads that are not properly configured to use InfiniBand
+* Job launch wait duration
+  * Used to determine when there's queueing of jobs due to compute being exhausted and how long it takes for jobs to start
