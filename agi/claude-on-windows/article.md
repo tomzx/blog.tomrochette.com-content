@@ -7,3 +7,5 @@ taxonomy:
 ---
 
 The [claude documentation](https://docs.anthropic.com/en/docs/claude-code/slash-commands#personal-commands) indicates that personal commands can be set in `~/.claude`, but there is no documentation about Windows.
+
+On Windows, the `~/.claude` directory is located in `C:\Users\<username>\.claude`, or `%USERPROFILE%\.claude`.
