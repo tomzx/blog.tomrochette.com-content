@@ -25,6 +25,7 @@ The public version of Tom bot has access to public information such as:
 * My [imdb](https://www.imdb.com/user/ur23184572/)/[traktv](https://trakt.tv/users/tomzx) watchlist
 * My [Goodreads book list](https://www.goodreads.com/user/show/7202045-tom-r)
 * My [GitHub contributions](https://github.com/tomzx)
+* My [Tiktok](https://www.tiktok.com/@tomzxor)
 * My personal notes that are not sensitive
 
 ## Work version
