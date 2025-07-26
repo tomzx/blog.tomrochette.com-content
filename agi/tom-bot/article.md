@@ -21,7 +21,7 @@ This article explores implementing an agent that can handle various tasks using 
 ## Public version
 The public version of Tom bot has access to public information such as:
 
-* Read my blog articles
+* Read my [blog articles](https://blog.tomrochette.com/)
 * Read my imdb/traktv watchlist
 * Read my Goodreads book list
 * Read my GitHub contributions
