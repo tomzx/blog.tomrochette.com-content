@@ -26,6 +26,7 @@ The public version of Tom bot has access to public information such as:
 * My [Goodreads book list](https://www.goodreads.com/user/show/7202045-tom-r)
 * My [GitHub contributions](https://github.com/tomzx)
 * My [Tiktok](https://www.tiktok.com/@tomzxor)
+* My [LinkedIn profile](https://www.linkedin.com/in/tomrochette/)
 * My personal notes that are not sensitive
 
 ## Work version
