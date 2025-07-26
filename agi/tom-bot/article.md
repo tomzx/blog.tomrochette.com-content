@@ -22,7 +22,7 @@ This article explores implementing an agent that can handle various tasks using 
 The public version of Tom bot has access to public information such as:
 
 * Read my [blog articles](https://blog.tomrochette.com/)
-* Read my imdb/traktv watchlist
+* Read my [imdb](https://www.imdb.com/user/ur23184572/)/traktv watchlist
 * Read my Goodreads book list
 * Read my GitHub contributions
 
