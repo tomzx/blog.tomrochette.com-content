@@ -23,7 +23,7 @@ The public version of Tom bot has access to public information such as:
 
 * Read my [blog articles](https://blog.tomrochette.com/)
 * Read my [imdb](https://www.imdb.com/user/ur23184572/)/[traktv](https://trakt.tv/users/tomzx) watchlist
-* Read my Goodreads book list
+* Read my [Goodreads book list](https://www.goodreads.com/user/show/7202045-tom-r)
 * Read my GitHub contributions
 
 ## Work version
