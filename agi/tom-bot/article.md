@@ -30,7 +30,9 @@ The public version of Tom bot has access to public information such as:
 The work version of Tom bot has access to the public version as well as work-related information such as:
 
 * Slack messages
-* Google Drive documents and Google Meet transcripts
+* Google Drive documents
+* Google Meet transcripts
+* Internal company documents
 
 This bot is available to my colleagues at work and acts on my behalf to answer questions, provide information, and assist with tasks.
 
@@ -51,7 +53,7 @@ The family version of Tom bot has access to the public version as well as family
 This bot is available to my family and acts as a family assistant.
 
 ## Private version
-The private version of Tom bot has access to the public and work version as well as private information such as:
+The private version of Tom bot has access to the public, work, friends, and family versions as well as private information such as:
 
 * Read my personal notes
 * Access to a limited set of passwords to act in accounts on my behalf
