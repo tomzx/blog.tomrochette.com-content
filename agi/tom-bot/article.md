@@ -54,6 +54,7 @@ This bot is available to my family and acts as a family assistant.
 The private version of Tom bot has access to the public and work version as well as private information such as:
 
 * Read my personal notes
+* Access to a limited set of passwords to act in accounts on my behalf
 
 This bot is available to me only and acts as my personal assistant, helping me manage my tasks, schedule, and personal information.
 
