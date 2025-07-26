@@ -77,7 +77,7 @@ Tom
 * [Task tracking](task-tracking/article.md)
 * [The dangers of a super AGI](the-dangers-of-a-super-agi/article.md)
 * [The philosophy of AGI](the-philosophy-of-agi/article.md)
-* [Tom bot](tom)
+* [Tom bot](tom-bot/article.md)
 * [Understanding games](understanding-games/article.md)
 * [What do I know about AI](what-do-i-know-about-ai/article.md)
 * [Wikipedia](wikipedia/article.md)
