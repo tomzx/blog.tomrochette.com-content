@@ -21,10 +21,11 @@ This article explores implementing an agent that can handle various tasks using 
 ## Public version
 The public version of Tom bot has access to public information such as:
 
-* Read my [blog articles](https://blog.tomrochette.com/)
-* Read my [imdb](https://www.imdb.com/user/ur23184572/)/[traktv](https://trakt.tv/users/tomzx) watchlist
-* Read my [Goodreads book list](https://www.goodreads.com/user/show/7202045-tom-r)
-* Read my [GitHub contributions](https://github.com/tomzx)
+* My [blog articles](https://blog.tomrochette.com/)
+* My [imdb](https://www.imdb.com/user/ur23184572/)/[traktv](https://trakt.tv/users/tomzx) watchlist
+* My [Goodreads book list](https://www.goodreads.com/user/show/7202045-tom-r)
+* My [GitHub contributions](https://github.com/tomzx)
+* My personal notes that are not sensitive
 
 ## Work version
 The work version of Tom bot has access to the public version as well as work-related information such as:
@@ -55,7 +56,7 @@ This bot is available to my family and acts as a family assistant.
 ## Private version
 The private version of Tom bot has access to the public, work, friends, and family versions as well as private information such as:
 
-* Read my personal notes
+* My personal notes (sensitive and confidential)
 * Access to a limited set of passwords to act in accounts on my behalf
 
 This bot is available to me only and acts as my personal assistant, helping me manage my tasks, schedule, and personal information.
