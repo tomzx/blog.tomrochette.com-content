@@ -12,8 +12,6 @@ taxonomy:
 
 ## Things to explore
 
-# Overview
-
 # Notes
 ## 2. The TDIDT family of learning systems
 * Three principal dimensions along which machine learning systems can be classified

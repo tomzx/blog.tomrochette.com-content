@@ -11,8 +11,6 @@ taxonomy:
 ## Things to explore
 * Extract references automatically based on what is said in a text
 
-# Overview
-
 # My approach
 * Create a directory on my computer where I store everything related to my research
 * For each topic I find interesting, create a directory within that directory and start collecting information about the topic. It might be ideas, questions, notes, url of relevant websites, book titles, authors, etc.

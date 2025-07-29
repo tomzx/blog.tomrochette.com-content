@@ -13,8 +13,6 @@ taxonomy:
 ## Things to explore
 * Run a swarm example on multiple machines/VMs
 
-# Overview
-
 # Notes
 * Image: An executable package (code, runtime, libraries, etc.)
 * Container: An runtime instance of an image

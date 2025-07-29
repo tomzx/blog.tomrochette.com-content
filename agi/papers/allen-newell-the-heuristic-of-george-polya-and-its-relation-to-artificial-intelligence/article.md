@@ -12,14 +12,6 @@ taxonomy:
 
 ## Things to explore
 
-# Overview
-* Pólya 6 volumes work
-	1. How to Solve It
-	2. Mathematics and Plausible Reasoning (2 volumes)
-	3. Induction and Analogy in Mathematics
-	4. Patterns of Plausible Inference
-	5. Mathematical Discovery (2 volumes)
-
 # Notes
 ## 2 Pólya's Heuristic
 * A set of heuristics for problem-solving, cast in the form of brief questions (What is the unknown?) and commands (Draw a figure!), within a frame of four problem solving stages:

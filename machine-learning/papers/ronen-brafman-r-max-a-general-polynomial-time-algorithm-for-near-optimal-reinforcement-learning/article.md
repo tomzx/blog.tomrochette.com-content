@@ -13,8 +13,6 @@ taxonomy:
 ## Things to explore
 * Why do they say "Since there is only a polynomial number of parameters to learn"? What are those parameters?
 
-# Overview
-
 # Notes
 * R-max improves upon several previous algorithms
 	* It is simpler and more general than Kearns and Singh's $E^3$ algorithm, covering zero-sum stochastic games

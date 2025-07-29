@@ -12,7 +12,6 @@ taxonomy:
 
 ## Things to explore
 
-# Overview
 ## Comments
 * Small dataset, results may not be significative
 * Assumes that test cases aren't buggy

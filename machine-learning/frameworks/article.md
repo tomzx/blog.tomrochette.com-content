@@ -12,8 +12,6 @@ taxonomy:
 
 ## Things to explore
 
-# Overview
-
 # Accord.NET framework
 * **Website:** http://accord-framework.net/
 * **Language:** C#/.NET

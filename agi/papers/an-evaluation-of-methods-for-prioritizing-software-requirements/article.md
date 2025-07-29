@@ -14,10 +14,6 @@ taxonomy:
 * Minimal spanning tree to AHP hybrid approach
 * Minimal spanning tree to Monte Carlo comparisons (random comparisons) approach
 
-# Overview
-
-* Comparing less requirements can be traded for redundancy/robustness of the prioritization results. In other words: speed or robustness, pick one.
-
 # 1. Introduction
 * 6 candidates
 	1. Analytic hierarchy process (AHP)

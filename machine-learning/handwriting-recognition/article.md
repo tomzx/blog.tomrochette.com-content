@@ -15,8 +15,6 @@ Handwriting recognition has been one of the first task to interest machine learn
 ## Things to explore
 * Can handwriting recognition be taught through the process of teaching a network how to write?
 
-# Overview
-
 # Challenges
 * How to detect characters?
 	* How to support multi-scale characters recognition?

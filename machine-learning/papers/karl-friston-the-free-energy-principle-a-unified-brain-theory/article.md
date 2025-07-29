@@ -12,8 +12,6 @@ taxonomy:
 
 ## Things to explore
 
-# Overview
-
 # Notes
 ## The free-energy principle
 * The free-energy principle says that any self-organizing system that is at equilibrium with its environment must minimize its free energy (an information theory measure that bounds or limits (by being greater than) the surprise on sampling some data, given a generative model)

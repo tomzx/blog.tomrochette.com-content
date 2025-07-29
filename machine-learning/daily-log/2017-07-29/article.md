@@ -18,8 +18,6 @@ taxonomy:
 	* It seems straightforward to pack these images into more concise structures, such as numpy arrays and using compressed files such as npz
 	* However, how does one deal with loading all this data at training time, such that 10 GB of compressed data does not equal 20 GB of RAM used all throughout training?
 
-# Overview
-
 # See also
 
 # References

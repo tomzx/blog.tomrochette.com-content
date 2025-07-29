@@ -17,9 +17,6 @@ The dataset I will look at has a temporal nature, that is, the data it is about 
 
 # Problems faced
 
-# Overview
-
-
 # See also
 
 # References

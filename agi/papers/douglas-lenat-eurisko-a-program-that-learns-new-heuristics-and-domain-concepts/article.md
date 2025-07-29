@@ -13,9 +13,6 @@ taxonomy:
 ## Things to explore
 * How are functions/programs represented within EURISKO?
 
-# Overview
-* EURISKO makes use of IsA/Examples/AllIsA (generalization and reciprocal relations)
-
 ## Limitations of EURISKO
 * EURISKO requires a good amount of bootstrapping code/configuration
 * Algorithms used within slots are not open/available for editing by EURISKO

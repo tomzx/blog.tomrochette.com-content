@@ -12,8 +12,6 @@ taxonomy:
 
 ## Things to explore
 
-# Overview
-
 # Notes
 * A text-to-speech synthesis system typically consists of multiple stages, such as
 	* a text analysis frontend

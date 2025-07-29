@@ -17,8 +17,6 @@ taxonomy:
 * Given the low amount of generated fixes, I feel like many of the results (such as claiming that document analysis is useful because it has prevented 1 incorrect patch) might not be statistically significant
 * Using a simple mechanism to introduce known errors into programs (mutations), it would have been possible to generate a much larger test set, albeit not necessarily a realistic one
 
-# Overview
-
 # Notes
 ## Abstract
 * Three key insights

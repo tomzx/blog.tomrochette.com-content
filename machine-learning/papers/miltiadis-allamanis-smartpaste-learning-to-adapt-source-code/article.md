@@ -12,9 +12,6 @@ taxonomy:
 
 ## Things to explore
 
-# Overview
-* Given a program where variables have been replaced by placeholders, determine what variable should be used for each placeholder
-
 # Notes
 ## 1 Introduction
 * Existing machine learning models of source code capture its shallow, textual structure, e.g. as a sequence of tokens, as parse trees, or as a flat dependency networks of variables

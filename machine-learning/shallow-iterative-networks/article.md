@@ -17,8 +17,6 @@ This is only a conceptual idea. The idea being that we've put a lot of effort in
 ## Things to explore
 * Is an iterative network different than a RNN where time is simply replaced by the evolution of the input?
 
-# Overview
-
 # See also
 
 # References

@@ -12,8 +12,6 @@ taxonomy:
 
 ## Things to explore
 
-# Overview
-
 # Notes
 ## 1.1 Some Historical AGI-Related Projects
 * AI may be divided in broad categories:

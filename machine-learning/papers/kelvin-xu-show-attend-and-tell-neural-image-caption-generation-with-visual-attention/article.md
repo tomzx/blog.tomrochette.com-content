@@ -12,8 +12,6 @@ taxonomy:
 
 ## Things to explore
 
-# Overview
-
 # Notes
 ## 1. Introduction
 * Two attention-based image caption generators under a common framework:

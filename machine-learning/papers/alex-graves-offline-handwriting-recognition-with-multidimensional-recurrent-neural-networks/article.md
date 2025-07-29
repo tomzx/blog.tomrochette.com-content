@@ -12,8 +12,6 @@ taxonomy:
 
 ## Things to explore
 
-# Overview
-
 # Notes
 ## 1 Introduction
 * Goal: Build an offline recognition system that would work on raw pixels

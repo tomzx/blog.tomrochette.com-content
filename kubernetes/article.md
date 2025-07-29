@@ -12,8 +12,6 @@ taxonomy:
 
 ## Things to explore
 
-# Overview
-
 # Notes
 * Volume: Storage space
 * Containerized app: Application living inside of a container/pod

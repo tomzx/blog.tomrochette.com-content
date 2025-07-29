@@ -12,8 +12,6 @@ taxonomy:
 
 ## Things to explore
 
-# Overview
-
 # Notes
 ## 1 Introduction
 * N-dimensional Grid LSTM (N-LSTM for short) can naturally be applied as feed-forward networks as well as recurrent ones

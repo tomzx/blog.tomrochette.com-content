@@ -14,8 +14,6 @@ taxonomy:
 * Based on the different heuristics defined, how can we design a program that will attempt to exploit these heuristics and find the best balance between each of them?
 	* Is it possible to design a program such that we write a bunch of heuristics as procedures and let it optimize itself?
 
-# Overview
-
 # Game format
 ## Input
 * Player identifier

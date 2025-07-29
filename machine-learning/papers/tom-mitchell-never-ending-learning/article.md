@@ -16,8 +16,6 @@ taxonomy:
 * Devise a metric which allows the agent to focus on where it needs the most improvement (deliberate practice/training)
 * A key open research question is how the learning agent might itself evolve a useful curriculum of learning tasks
 
-# Overview
-
 # Notes
 ## Abstract
 * We suggest that people learn better than computers precisely because (they learn many different types of knowledge from diverse experiences over many years and become better learners overtime whereas machine learning systems learn just a single function or data model)

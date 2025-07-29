@@ -13,8 +13,6 @@ taxonomy:
 ## Things to explore
 * In their example, complexity comes from composition, but it seems sometimes that more difficult skills are not necessarily about complexity, but precision
 
-# Overview
-
 # Notes
 ## 1. Introduction
 * Today's machine learning algorithms fall far short of the possibilities for machine learning

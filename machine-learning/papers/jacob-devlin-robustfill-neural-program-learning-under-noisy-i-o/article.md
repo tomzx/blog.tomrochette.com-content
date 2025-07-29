@@ -13,8 +13,6 @@ taxonomy:
 ## Things to explore
 * What is so special about GetSpan() that it is used to solve about 20% of the test instances?
 
-# Overview
-
 ## Notes
 * 2 competing approaches for automatic program learning have received significant attention
 	* Neural program synthesis, where a neural network is conditioned on input/output examples and learns to generate a program

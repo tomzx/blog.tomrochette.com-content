@@ -14,9 +14,7 @@ taxonomy:
 * Decomposition of concepts (extracting the components/concepts in a grid of pixels and reason based on these and not the pixels)
 * How can decomposition be done? Where to start and where to stop? How can components be identified? Is it necessary that the components be labeled by a human and the machine trained to recognized instead of the machine generating components and the human giving them labels?
 
-# Overview
-
-## 1 Introduction
+# 1 Introduction
 * Two different computational approaches to intelligence
 	* Statistical pattern recognition
 	* Model-building

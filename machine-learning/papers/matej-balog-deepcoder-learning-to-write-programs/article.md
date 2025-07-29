@@ -12,10 +12,6 @@ taxonomy:
 
 ## Things to explore
 
-# Overview
-* An autoencoder is used to predict whether a given set of program attributes (function calls, mathematical operations) are used to generate the given set of input-output examples
-	* Train the network on a lot of functions where you generate input-output pairs which serve as input, and record what functions/operations were used
-
 # Notes
 ## Abstract
 * Empirically, we show that our approach leads to an order of magnitude speedup over the strong non-augmented baselines and a recurrent neural network approach, and that we are able to solve problems of difficulty comparable to the simplest problems on programming competition websites

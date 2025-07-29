@@ -14,8 +14,6 @@ taxonomy:
 * What is the read vs write of notes?
 * What should be an ideal read/write ratio?
 
-# Overview
-
 # My current system
 * Use a buffer system, where I initially write down any thoughts I want to preserve. The buffer system is simple. Everyday, a file is created under buffer/\$YEAR/\$MONTH/\$DAY.md. Each time I want to record a thought, I use a keyboard shortcut that creates a timestamp line of the form "Year-month-day hour:minutes:seconds [nid://12345]" where "nid://" can be seen as a protocol/url identifying this note. During a day I may record from 0-25 thoughts.
 * I record a lot of different things using the buffer system:

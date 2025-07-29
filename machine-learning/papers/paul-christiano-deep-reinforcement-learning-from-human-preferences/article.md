@@ -12,11 +12,6 @@ taxonomy:
 
 ## Things to explore
 
-# Overview
-* Human evaluators are provided short video clips (trajectory segments) where they have to rate two clips against each other
-* The RL agent is given information as to which trajectory segments are preferred other other trajectory segments
-	* This allows it to try and determine which state/action are better than others given the human feedback
-
 # Notes
 ## 1 Introduction
 * In order to practically train deep RL systems with human feedback, we need to decrease the amount of feedback required by several orders of magnitude

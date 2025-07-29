@@ -12,8 +12,6 @@ taxonomy:
 
 ## Things to explore
 
-# Overview
-
 # Notes
 ## 3 Predictron Architecture
 * The predictron is composed of four main components

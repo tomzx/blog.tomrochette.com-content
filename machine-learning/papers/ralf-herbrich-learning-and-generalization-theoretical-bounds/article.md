@@ -12,8 +12,6 @@ taxonomy:
 
 ## Things to explore
 
-# Overview
-
 # Notes
 ## 1 Introduction
 * The fundamental difference between a system that learns and one that merely memorizes is that the learning system generalizes to unseen examples

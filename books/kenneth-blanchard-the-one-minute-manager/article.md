@@ -12,8 +12,6 @@ taxonomy:
 
 ## Things to explore
 
-# Overview
-
 # Quotes
 * People who feel good about themselves produce good results
 * Help people reach their full potential, catch them doing something right

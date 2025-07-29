@@ -14,9 +14,6 @@ taxonomy:
 * Which building blocks of the Deep Voice (1) model can be trained and shared on all the speakers voice?
 * Which part of the Deep Voice pipeline is unique to each speaker (its speech signature/fingerprint)?
 
-# Overview
-* Multi-speaker support is added by augmenting the existing model with an embedding vector which represents a speaker
-
 # Notes
 ## 3 Single-Speaker Deep Voice 2
 * One major difference between Deep Voice 2 and Deep Voice 1 is the separation of the phoneme duration and frequency models

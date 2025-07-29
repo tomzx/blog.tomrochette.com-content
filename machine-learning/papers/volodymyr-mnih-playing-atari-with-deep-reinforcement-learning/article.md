@@ -12,8 +12,6 @@ taxonomy:
 
 ## Things to explore
 
-# Overview
-
 # 1 Introduction
 * Reinforcement learning algorithms must be able to learn from a scalar reward signal that is frequently sparse, noisy and delayed
 * The delay between actions and resulting rewards can be thousands of timesteps apart

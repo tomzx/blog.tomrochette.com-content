@@ -12,10 +12,6 @@ taxonomy:
 
 ## Things to explore
 
-# Overview
-* Prioritized replay and multi-step learning appears to have the most impact on performance
-* Rainbow is able to obtain much better result faster (less seen frames) than any of the other approaches by themselves
-
 # Notes
 ## Introduction
 * Double DQN addresses an overestimation bias of Q-learning by decoupling selection and evaluation of the bootstrap action

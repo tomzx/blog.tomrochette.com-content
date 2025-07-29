@@ -12,8 +12,6 @@ taxonomy:
 
 ## Things to explore
 
-# Overview
-
 # Notes
 ## Brains, Eyes and Machines
 * The retina seems to process about ten one-million-point images per second

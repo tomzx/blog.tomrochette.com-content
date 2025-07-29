@@ -15,8 +15,6 @@ taxonomy:
 * During training they added batches of 5000 words, would training have been more fluid (and resulted in even better results) if words were added one at a time?
 * Is clustering (and other unsupervised approaches) a weak form of curriculum learning, where by grouping "similar" examples, it makes it easier to learn about them?
 
-# Overview
-
 # Notes
 ## Abstract
 * Curriculum learning can be seen as a particular form of continuation method

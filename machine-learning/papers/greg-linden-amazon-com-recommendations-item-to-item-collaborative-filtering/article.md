@@ -12,8 +12,6 @@ taxonomy:
 
 ## Things to explore
 
-# Overview
-
 # Notes
 * There are three common approaches to solving the recommendation problem:
 	* traditional collaborative filtering

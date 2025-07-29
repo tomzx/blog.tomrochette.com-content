@@ -16,8 +16,6 @@ taxonomy:
 * How to avoid loading many GBs of data in memory in order to prepare the training data to be fed to the `model.fit` method?
 	* Is a generator the appropriate solution?
 
-# Overview
-
 # See also
 
 # References

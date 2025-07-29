@@ -12,8 +12,6 @@ taxonomy:
 
 ## Things to explore
 
-# Overview
-
 # Notes
 ## Introduction
 * Many of us spontaneously anticipate how friends and colleagues will evaluate our choices

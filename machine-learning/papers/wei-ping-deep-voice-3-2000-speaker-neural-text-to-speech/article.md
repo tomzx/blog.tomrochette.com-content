@@ -13,8 +13,6 @@ taxonomy:
 
 ## Things to explore
 
-# Overview
-
 # Notes
 ## 1 Introduction
 * A fully-convolutional character-to-spectrogram architecture, which enables fully paralleled computation over elements in a sequence and trains an order of magnitude faster than analogous architectures using recurrent cells

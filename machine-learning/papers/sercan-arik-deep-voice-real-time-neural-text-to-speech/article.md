@@ -12,12 +12,6 @@ taxonomy:
 
 ## Things to explore
 
-# Overview
-* Uses 5 building blocks/components in their pipeline
-* Training take more than a week on 8 TitanX Maxwell GPUs
-* Inference is more efficient if done on CPU than on GPU
-* Efficient CPU inference appears to require a lot of complex engineering involving multithreading, synchronization, minimizing nonlinearity FLOPs, avoiding cache trashing and thread contention via thread pinning, as well as using custom hardware-optimized routines for matrix multiplication and convolution
-
 # Notes
 ## Abstract
 * Five major building blocks:

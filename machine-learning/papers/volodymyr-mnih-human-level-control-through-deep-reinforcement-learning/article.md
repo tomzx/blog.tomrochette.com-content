@@ -14,8 +14,6 @@ taxonomy:
 * "The presence in the t-SNE embedding of overlapping clusters of points corresponding to the network representation of states experienced during human and agent play shows that the DQN agent also follows sequences of states similar to those found in human play. "
 	* What is claimed here? That the game will transition the same way for both a human player and a DQN agent? That seems somewhat like a tautology...
 
-# Overview
-
 # Notes
 * Two key ideas
 	* First, we used a biologically inspired mechanism termed experience replay that randomizes over the data, thereby removing correlations in the observation sequence and smoothing over changes in the data distribution

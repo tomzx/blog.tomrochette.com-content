@@ -13,8 +13,6 @@ taxonomy:
 ## Things to explore
 * An ultraintelligent machine can rely on other machines, like humans relies on machines to do things (as well as other human beings)
 
-# Overview
-
 # Notes
 ## 1. Introduction
 * A detailed knowledge of semantics might not be required, since the artificial neural network will largely take care of it, provided that the parameters are correctly chosen, and provided that the network is adequately integrated with its sensorium and motorium (input and output). For, if these conditions are met, the machine will be able to learn from experience, by means of positive and negative reinforcement, and the instruction of the machine will resemble that of a child

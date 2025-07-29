@@ -12,8 +12,6 @@ taxonomy:
 
 ## Things to explore
 
-# Overview
-
 # Notes
 ## Introduction
 * The prefrontal cortex is the neocortical region that is most elaborated in primates, animals known for their diverse and flexible behavioral repertoire

@@ -15,8 +15,6 @@ This article explores implementing an agent that can handle various tasks using 
 
 ## Things to explore
 
-# Overview
-
 # Notes
 ## Public version
 The public version of Tom bot has access to public information such as:

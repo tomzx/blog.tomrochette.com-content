@@ -13,8 +13,6 @@ taxonomy:
 
 ## Things to explore
 
-# Overview
-
 ## Cartalyst
 * https://cartalyst.com/
 * 75$/3 months

@@ -18,8 +18,6 @@ The perfect storage medium is an important aspect of building an agent capable o
 	* While being as fast as possible
 	* While still potentially allowing operations such as lookup or search
 
-# Overview
-
 # References
 File systems and databases already implement various methods which may interest us. Thus, it is appropriate to look into existing tools to find how specific problems have been solved.
 

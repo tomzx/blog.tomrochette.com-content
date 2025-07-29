@@ -13,8 +13,6 @@ taxonomy:
 
 ## Things to explore
 
-# Overview
-
 # AWS
 AWS has the concept of groups, users, roles and policies.
 

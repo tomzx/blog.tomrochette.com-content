@@ -12,11 +12,6 @@ taxonomy:
 
 ## Things to explore
 
-# Overview
-* Represent conscious states as low-dimensional vectors
-* Conscious states are taken from high-dimensional unconscious states
-* It is likely that some form of RNN will be used to learn how to extract the conscious states from the unconscious state
-
 # Notes
 ## 1 Introduction
 * Consciousness as defined by Locke: consciousness is "the perception of what passes in a man's own mind", or awareness of an external object or something within oneself

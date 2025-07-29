@@ -12,13 +12,6 @@ taxonomy:
 
 ## Things to explore
 
-# Overview
-* A new reinforcement learning environment has been built for Starcraft 2
-	* A SC2 API and a Python interface to make it easier to develop agents
-* Some basic agents have been developed which can solve mini-games
-	* Mini-games can be seen as some form of curriculum learning of the whole game (learning certain behaviors such as mining, attacking, moving the camera and units, etc.)
-* Those basic agents are still not very good at playing the complete game in a 1v1 setting
-
 # Notes
 ## 1 Introduction
 * It is a multi-agent problem

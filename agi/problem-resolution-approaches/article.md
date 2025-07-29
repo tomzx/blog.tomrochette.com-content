@@ -20,8 +20,6 @@ Create a theory out of existing knowledge and theories.
 Base a theory out of empirical data, ignoring existing theories.
 
 
-# Overview
-
 # See also
 
 # References

@@ -14,26 +14,7 @@ taxonomy:
 
 ## Things to explore
 
-# Overview
-
-Capacity is defined as
-
-$$
-C = \lim_{T\to\infty} \frac{\log N(T)}{T}
-$$
-
-We want the capacity of a discrete channel to be as high as possible (highest throughput possible).
-At the same time, we want the message that are transmitted to be as small as possible.
-
-Binary entropy function
-
-$$
-H = -(p \log p + q \log q)
-$$
-
-![](images/Binary_entropy_plot.svg)
-
-## 8 Representation of the encoding and decoding operations
+# 8 Representation of the encoding and decoding operations
 * A transducer can be described by two functions:
 $$
 y_n = f(x_n, \alpha_n)

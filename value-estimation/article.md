@@ -30,8 +30,6 @@ We want to be able to look at a list of potential scenarios and determine the sc
 ## Notes
 * It might be easier to say things like "A is more likely than B" than saying "A is twice as likely than B", this still gives us an indication of which of the two options is more likely and allows us to progress when problems are too difficult to precisely evaluate
 
-# Overview
-
 # Criteria
 * Required effort/time/investment
 * Expected return/value

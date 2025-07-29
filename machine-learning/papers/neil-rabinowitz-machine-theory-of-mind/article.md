@@ -14,8 +14,6 @@ taxonomy:
 * What is the different between being biased and having a strong/rich prior
 * It seems as if ToMnet is able to learn things such as A*, given an agent that deterministically follows this policy
 
-# Overview
-
 # Notes
 ## 1. Introduction
 * What does it actually mean to "understand" another agent?

@@ -12,10 +12,6 @@ taxonomy:
 
 ## Things to explore
 
-# Overview
-* A network composed of convolution blocks, attention blocks and of mixture-of-experts blocks which can process categorical data, text, audio and images
-* The network is able to improve its accuracy on existing tasks by learning tasks from another domain (image classification vs text translation)
-
 # Notes
 ## 1 Introduction
 * Can we create a unified deep learning model to solve tasks across multiple domains?

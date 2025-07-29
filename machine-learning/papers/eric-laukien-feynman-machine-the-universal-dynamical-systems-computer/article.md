@@ -15,8 +15,6 @@ taxonomy:
 * Can it only learn based on sequential training data? (given that predictions are based on prior states)
 	* Given it is "the universal dynamical systems computer", I'm guessing it's only for time-based data sets
 
-# Overview
-
 # Notes
 ## Introduction
 * One major difficulty is that the computation appears to be emergent across large populations of neurons in a region, but at the same time the details of individual synaptic connections, the "wiring diagram", the importance of individual and bursts of spikes, and the numerous genetically defined neuron types all seem crucial to understanding

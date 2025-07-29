@@ -16,8 +16,6 @@ taxonomy:
 	* It seems possible if it has access to a model (simulator) of the environment it would act in
 * Reinforcement learning is a good tool to attempt to solve a problem with a large search space, however when presented with an existing state and different types of problems (e.g., given the state space of software programs, find program X), it is not the proper framework/tool to use... So what should be used here?
 
-# Overview
-
 # Lecture 1 - Introduction to Reinforcement Learning
 * Environment: A program with a state, which upon receiving input from an agent, runs its program and emits a response (observation) and may update its state
 * The environment's program and state is generally smaller than what it can generate, which becomes what the agent can observe. In turn, the job of the agent is to attempt to reconstruct both program and state in order to map from the observable environment the current state of the program, such that the agent may be able to predict exactly how his actions will impact the environment in return. In the perfect case where the agent knows its state and the impact of its actions on the environment, it can thus control the next state such that it is the state desired by the agent

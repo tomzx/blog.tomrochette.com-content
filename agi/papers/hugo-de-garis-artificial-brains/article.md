@@ -12,9 +12,7 @@ taxonomy:
 
 ## Things to explore
 
-# Overview
-
-## 1 Introduction
+# 1 Introduction
 * Using genetic algorithms and neural nets, one can evolve one behavior
 * If one can evolve one behavior, one can evolve many
 * The concept of an artificial nervous system (automated responses to stimuli)

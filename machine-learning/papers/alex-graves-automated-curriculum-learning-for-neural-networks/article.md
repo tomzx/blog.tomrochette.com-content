@@ -13,8 +13,6 @@ taxonomy:
 ## Things to explore
 * Neural architecture search where picking the right action is seen as a multi-armed bandit
 
-# Overview
-
 # Notes
 ## 1. Introduction
 * One reason for the slow adoption of curriculum learning is that its effectiveness is highly sensitive to the mode of progression through the tasks

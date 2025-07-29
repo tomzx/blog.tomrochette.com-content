@@ -17,8 +17,6 @@ taxonomy:
 * Is the network actually split in two, that is, the encoder step, which is computed once per image, and the attention + state + decoder which is computed as many time as necessary to recover each character in the image?
 * How are the images fed to the network? Grayscale or RGB? Based on the IAM handwriting DB used for training, that would be grayscale.
 
-# Overview
-
 # Analysis of the network architecture
 ## Encoder
 * The input is fed to 4 MDLSTM layers, where each layer is a given a scanning direction (L: left, R: right, b: bottom, t: top)(LR-TB, TB-RL, RL-BT, BT-LR)

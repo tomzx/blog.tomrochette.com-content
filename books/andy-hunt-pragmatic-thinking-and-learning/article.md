@@ -12,8 +12,6 @@ taxonomy:
 
 ## Things to explore
 
-# Overview
-
 # Notes
 * The question isn't the position they play, or even their years of experience; the question is, what is the value they bring to the organization?
 	* A group is only as good as its weakest link. Put the best performers together to perform for the main service, and create "farm teams" for other services.

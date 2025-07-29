@@ -14,10 +14,6 @@ taxonomy:
 ## Things to explore
 * What is the hierarchy of components that composes an AGI?
 
-# Overview
-
-* The most important skill an AI develop can have is knowing what not to program
-
 ## Mistakes in AI
 * Implementing a process too close to the token level - trying to implement a high-level process without implementing the underlying layers of organization
 * The failure to distinguish between things that can be hardwired and things that must be learned

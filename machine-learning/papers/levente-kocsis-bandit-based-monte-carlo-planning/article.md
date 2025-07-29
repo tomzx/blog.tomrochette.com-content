@@ -13,8 +13,6 @@ taxonomy:
 ## Things to explore
 * Can UCT be used to rapidly determine "interesting values" in black box testing?
 
-# Overview
-
 # Notes
 ## 1 Introduction
 * We are interested in Monte-Carlo planning algorithms with two important characteristics:
