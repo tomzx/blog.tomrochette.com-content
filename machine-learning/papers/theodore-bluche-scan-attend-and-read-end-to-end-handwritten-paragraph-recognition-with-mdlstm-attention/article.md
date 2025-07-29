@@ -2,7 +2,7 @@
 title: "Théodore Bluche - Scan, Attend and Read: End-to-End Handwritten Paragraph Recognition with MDLSTM Attention (2016)"
 created: 2017-05-19
 taxonomy:
-  tag: [machine learning]
+  tag: [machine learning, partially-ai-generated]
   status: finished
 ---
 
@@ -18,6 +18,11 @@ taxonomy:
 * How are the images fed to the network? Grayscale or RGB? Based on the IAM handwriting DB used for training, that would be grayscale.
 
 # Overview
+This paper presents an end-to-end neural architecture for handwritten paragraph recognition that combines multidimensional LSTMs (MDLSTM) with attention mechanisms. The approach tackles the challenging problem of reading entire paragraphs of handwritten text, moving beyond single-line recognition to handle variable layouts and complex document structures.
+
+The architecture consists of three main components: an encoder using multiple MDLSTM layers that scan the input image in different directions (left-right, top-bottom, etc.) to capture spatial relationships; an attention mechanism that dynamically focuses on relevant parts of the encoded representation; and a decoder that generates the output character sequence. The multidirectional scanning allows the network to process 2D image data effectively while maintaining spatial context.
+
+Key technical contributions include the use of curriculum learning during training (progressing from single lines to full paragraphs) and truncated backpropagation to manage memory constraints. However, the authors note significant computational limitations, with time and memory consumption being prohibitive for most industrial applications, particularly due to the sequential nature of attention-based decoding for long paragraphs.
 
 # Analysis of the network architecture
 ## Encoder

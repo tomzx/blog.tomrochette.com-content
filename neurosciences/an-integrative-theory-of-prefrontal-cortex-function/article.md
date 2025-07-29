@@ -2,7 +2,7 @@
 title: Earl Miller - An Integrative Theory of Prefrontal Cortex Function (2001)
 created: 2017-08-26
 taxonomy:
-  tag: [neurosciences]
+  tag: [neurosciences, partially-ai-generated]
   status: finished
 ---
 
@@ -13,6 +13,11 @@ taxonomy:
 ## Things to explore
 
 # Overview
+Miller's integrative theory proposes that the prefrontal cortex (PFC) serves as the brain's cognitive control center through active maintenance of goal representations that bias processing throughout the brain. The PFC is critical not for simple, automatic behaviors, but for situations requiring flexible mappings between sensory inputs, thoughts, and actions—particularly when established patterns must be overridden or when rules change rapidly.
+
+The theory's core mechanism involves the PFC maintaining patterns of neural activity representing goals and rules, which then send top-down bias signals to guide information processing in other brain regions. This "guided activation" allows the PFC to coordinate task-relevant pathways for attention, working memory, and behavioral control without directly processing the information itself.
+
+Key properties supporting this function include: convergence of diverse multimodal information enabling integration across sensory and cognitive domains; robust active maintenance of representations across delays and distractions; extensive plasticity for learning arbitrary stimulus-response associations and conditional rules; and feedback connections to bias competition in posterior brain areas. The theory explains PFC's role in executive functions while accounting for the modular nature of cognitive control deficits seen in frontal lobe patients.
 
 # Notes
 ## Introduction

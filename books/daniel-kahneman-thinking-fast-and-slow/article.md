@@ -2,7 +2,7 @@
 title: Daniel Kahneman - Thinking, Fast and Slow - 2011
 created: 2018-02-08
 taxonomy:
-  tag: [psychology]
+  tag: [psychology, partially-ai-generated]
   status: finished
 ---
 
@@ -13,6 +13,11 @@ taxonomy:
 ## Things to explore
 
 # Overview
+Kahneman's "Thinking, Fast and Slow" presents a groundbreaking framework for understanding human cognition through two distinct systems of thinking. System 1 operates automatically and quickly with little effort, generating intuitive impressions and feelings, while System 2 requires deliberate mental effort for complex reasoning and decision-making. The book explores how these systems interact and the systematic biases that emerge from their interplay.
+
+Key concepts include cognitive biases such as anchoring, availability heuristic, and representativeness; the illusion of understanding and overconfidence in predictions; loss aversion and prospect theory showing people feel losses more acutely than equivalent gains; and the distinction between experiencing self and remembering self in evaluating well-being. Kahneman demonstrates how System 1's quick judgments, while often useful, can lead to predictable errors in reasoning, especially under uncertainty.
+
+The work synthesizes decades of research in behavioral economics and psychology, showing how humans systematically deviate from rational decision-making through mental shortcuts (heuristics) and emotional influences, with profound implications for economics, policy, and personal decision-making.
 
 # Notes
 ## Introduction
