@@ -2,7 +2,7 @@
 title: Note taking
 created: 2018-05-03
 taxonomy:
-  tag: []
+  tag: [note taking, productivity, knowledge management]
   status: in progress
 ---
 

@@ -2,7 +2,7 @@
 title: SQL sync
 created: 2016-03-02
 taxonomy:
-  tag: []
+  tag: [programming, databases, sql, synchronization, distributed systems]
   status: in progress
 ---
 
