@@ -3,7 +3,7 @@ title: Task duration estimation
 created: 2018-05-19
 taxonomy:
   type: post
-  tag: []
+  tag: [processes, project management, time management, productivity, estimation]
   status: draft
 ---
 

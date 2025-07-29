@@ -3,6 +3,7 @@ title: Business
 created: 2016-08-17
 taxonomy:
     type: post
+    tag: [business, entrepreneurship, strategy, pricing, product management]
     status: in progress
 ---
 

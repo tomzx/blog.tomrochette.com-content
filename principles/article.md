@@ -4,7 +4,7 @@ created: 2020-12-31
 taxonomy:
   type: post
   status: draft
-  tag: [principles]
+  tag: [principles, personal development, philosophy, productivity, best practices]
 ---
 
 Principle: a fundamental truth or proposition that serves as the foundation for a system of belief or behavior or for a chain of reasoning.

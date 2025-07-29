@@ -2,7 +2,7 @@
 title: Value estimation
 created: 2018-05-05
 taxonomy:
-  tag: []
+  tag: [processes, decision making, business, analysis, evaluation]
   status: in progress
 ---
 

@@ -3,6 +3,7 @@ title: Checklists
 created: 2018-10-27
 taxonomy:
     type: post
+    tag: [productivity, processes, checklists, software engineering, best practices]
     status: in progress
 ---
 
