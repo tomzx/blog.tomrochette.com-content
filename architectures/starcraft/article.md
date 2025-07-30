@@ -4,7 +4,7 @@ created: 2018-12-29
 taxonomy:
     type: post
     status: draft
-    tag: [games]
+    tag: [games, software-architecture, real-time-strategy, game-development, analysis]
 ---
 
 Authentication/Login server

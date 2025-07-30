@@ -3,7 +3,7 @@ title: Monthly review
 created: 2022-01-03
 taxonomy:
   type: post
-  tag: [processes]
+  tag: [processes, productivity, planning, reflection, goal-setting, personal-development]
   status: draft
 ---
 

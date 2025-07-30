@@ -4,7 +4,7 @@ created: 2018-02-10
 taxonomy:
   type: post
   status: draft
-  tag: [productivity]
+  tag: [productivity, knowledge-management, organization, note-taking, processes, personal-development]
 ---
 
 ## Context

@@ -3,7 +3,7 @@ title: Writing a book
 created: 2018-01-06
 taxonomy:
   status: in progress
-  tag: [writing]
+  tag: [writing, publishing, productivity, processes, project-management, content-creation]
 ---
 
 ## Context

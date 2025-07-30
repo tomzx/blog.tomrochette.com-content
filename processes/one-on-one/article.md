@@ -4,7 +4,7 @@ created: 2021-06-02
 taxonomy:
   type: post
   status: draft
-  tag: [processes]
+  tag: [processes, management, leadership, communication, meetings, team-management]
 ---
 
 * Define and agree on the purpose of the one on one

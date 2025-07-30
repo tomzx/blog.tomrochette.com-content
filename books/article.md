@@ -2,7 +2,7 @@
 title: Books
 created: 2020-01-12
 taxonomy:
-  tag: [books]
+  tag: [books, reading, learning, resources, knowledge-management]
   status: in progress
 ---
 

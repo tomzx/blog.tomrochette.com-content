@@ -2,7 +2,7 @@
 title: Value estimation
 created: 2018-05-05
 taxonomy:
-  tag: []
+  tag: [decision-making, productivity, project-management, economics, risk-assessment, processes]
   status: in progress
 ---
 

@@ -2,7 +2,7 @@
 title: Automated programming
 created: 2016-06-04
 taxonomy:
-  tag: [artificial general intelligence]
+  tag: [artificial-general-intelligence, automation, programming, software-development, artificial-intelligence, code-generation]
   status: in progress
 ---
 

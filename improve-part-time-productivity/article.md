@@ -4,7 +4,7 @@ created: 2021-03-07
 taxonomy:
   type: post
   status: draft
-  tag: [productivity]
+  tag: [productivity, time-management, project-management, organization, processes, task-management]
 ---
 
 * It's difficult to remember/know the current state of a project

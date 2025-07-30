@@ -4,7 +4,7 @@ created: 2017-01-13
 taxonomy:
   type: post
   status: in progress
-  tag: []
+  tag: [productivity, time-management, planning, focus, processes]
 ---
 
 * It's easy to do things such as checking your email or going on reddit as they are very short term tasks (can be started and completed in less than 10s).
