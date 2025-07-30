@@ -3,7 +3,7 @@ title: Reusable writing
 created: 2018-02-17
 taxonomy:
     type: post
-    tag: []
+    tag: [writing, productivity, organization, reusability, methods]
     status: draft
 ---
 

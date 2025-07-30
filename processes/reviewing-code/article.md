@@ -3,7 +3,7 @@ title: Reviewing code
 created: 2019-05-25
 taxonomy:
   type: post
-  tag: [software development, processes]
+  tag: [software development, processes, programming, code review, best practices, quality assurance]
   status: draft
 ---
 

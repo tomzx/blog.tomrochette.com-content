@@ -3,7 +3,7 @@ title: Quantum computing
 created: 2019-12-21
 taxonomy:
   type: post
-  tag: []
+  tag: [quantum computing, physics, mathematics, computer science, technology]
   status: draft
 ---
 

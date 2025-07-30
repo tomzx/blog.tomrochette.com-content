@@ -2,7 +2,7 @@
 title: Optimizing PyTorch
 created: 2019-11-26
 taxonomy:
-  tag: [machine learning]
+  tag: [machine learning, pytorch, optimization, performance, gpu, deep learning]
   status: in progress
 ---
 
