@@ -4,7 +4,7 @@ created: 2025-05-14
 taxonomy:
   type: post
   status: draft
-  tag: [quotes]
+  tag: [quotes, fully-ai-generated, llm=chatgpt-4o]
 ---
 
 # ChatGPT
