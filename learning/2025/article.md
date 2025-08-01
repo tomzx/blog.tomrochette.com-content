@@ -12,6 +12,7 @@ taxonomy:
 * Nebius
 * Multi-node training and inference
 * DeepSpeed
+* Claude code
 
 # TODO
 * CometML
