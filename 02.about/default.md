@@ -5,18 +5,15 @@ taxonomy:
     status: finished
 ---
 
-Hi,
+Hello, I'm Tom!
 
-I'm Tom and this is a short presentation about myself.
+This is a brief introduction about myself.
 
-I was born in Montreal. I'm a hard worker, interested in [artificial (general) intelligence](../agi/README.md), [machine learning](../machine-learning/README.md) technology, science, personal development, and any logical or irrational topics.
+I was born in Montreal.
 
-I'm a bachelor in Software Engineering, degree which I've completed at the [École Polytechnique de Montréal](https://polymtl.ca/) in 2011.
-Since then, I've been working to perfect and broaden my skills.
+I hold a bachelor's degree in Software Engineering which I completed at the [École Polytechnique de Montréal](https://polymtl.ca/) in 2011.
 
-In June 2015 I decided I'd dedicate a good part of my life on the topic of artificial general intelligence, to understand what intelligence is and how it can be replicated in machines.
+In June 2015 I decided to dedicate a significant portion of my career to the topic of artificial general intelligence, to understand what intelligence is and how it can be replicated in machines.
 
-When I'm online, I like to spend my time working on different projects of mine.
-Most are programming related.
-Otherwise, I read articles about software engineering practices, look for new ways to improve my workflow or I [answer questions](../questions/article.md) I've been asking myself.
-I also enjoy answering questions others have.
+I'm interested in [artificial (general) intelligence](../agi/README.md), [machine learning](../machine-learning/README.md) technology, science, and personal development.
+I enjoy reading articles about software engineering practices, looking for new ways to improve my workflows, and [answering questions](../questions/article.md) I've been asking myself.
