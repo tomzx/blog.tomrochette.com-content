@@ -1,6 +1,8 @@
 ---
 title: Work
 created: 2024-09-11
+visible: true
+menu: Work
 taxonomy:
   status: in progress
   tag: [work]
