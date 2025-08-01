@@ -4,7 +4,7 @@ created: 2025-07-06
 taxonomy:
   type: post
   status: draft
-  tag: [machine learning]
+  tag: [machine learning, partially-ai-generated]
 ---
 
 # Overview
@@ -47,5 +47,3 @@ In some cases GPU clusters use certain technologies that require the users to pr
   * Used to detect when a job is about to run out of GPU memory
 * InfiniBand receive/transmit > 0 when running multi-node workloads
   * Used to identify workloads that are not properly configured to use InfiniBand
-    
-
