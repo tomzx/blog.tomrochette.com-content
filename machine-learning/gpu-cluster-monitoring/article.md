@@ -18,14 +18,14 @@ In some cases GPU clusters use certain technologies that require the users to pr
 # Metrics
 
 * Allocated GPUs
-	* Used to determine who (or which project) has GPU allocated (i.e., currently assigned to a running workload)
+  * Used to determine who (or which project) has GPU allocated (i.e., currently assigned to a running workload)
 * GPU utilization
-	* Used to determine whether the GPU is partially or fully used, and if it is partially used, to potentially identify the causes
+  * Used to determine whether the GPU is partially or fully used, and if it is partially used, to potentially identify the causes
 * GPU memory utilization
-	* Used to determine if the GPU memory is partially or fully used
+  * Used to determine if the GPU memory is partially or fully used
   * Used to identify out of memory issues and potential memory leaks
 * Infiniband receive/transmit bytes
-	* Used to determine if a workload is making use of the technology
+  * Used to determine if a workload is making use of the technology
 * Job launch wait duration
   * Used to determine when there's queueing of jobs due to compute being exhausted and how long it takes for jobs to start
 * Job duration
