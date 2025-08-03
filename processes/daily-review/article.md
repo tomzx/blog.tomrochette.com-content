@@ -16,7 +16,7 @@ Every daily at the end of the (work) day.
 # Steps
 * Review what was planned for the day
 * Provide feedback related to the plan
-* [Review monthly plan and align](../yearly-review/article.md)
+* [Review monthly plan and align](../monthly-review/article.md)
 * Plan next month
 
 # Notes
