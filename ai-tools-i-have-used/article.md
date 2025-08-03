@@ -26,7 +26,7 @@ taxonomy:
 * [Obsidian companion plugin](https://github.com/rizerphe/obsidian-companion)
 * [Mercury](https://chat.inceptionlabs.ai/)
 * [Kimi](https://www.kimi.com/)
-* [Minimax
+* [MiniMax](https://chat.minimax.io/)
 
 # Code generation
 * [GitHub Copilot](https://github.com/features/copilot)
