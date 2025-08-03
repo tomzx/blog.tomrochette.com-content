@@ -13,5 +13,5 @@ taxonomy:
 * Organize the topics in a structured manner (i.e., an outline)
 * Write a draft
 * Expand the points of the draft
-* Review the grammar with https://www.grammarly.com/
+* Review the grammar with LLMs
 * Use keywords services to find topics that may be related and interesting to cover
