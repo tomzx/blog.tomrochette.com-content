@@ -22,6 +22,3 @@ Every daily at the end of the (work) day.
   * Whether I got blocked and for how long
 * [Review weekly plan and align](../weekly-review/article.md)
 * Plan next day
-
-# Notes
-* I use a text editor, such as VS Code, to write my daily reviews.
