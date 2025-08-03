@@ -25,6 +25,7 @@ taxonomy:
 * [Cohere](https://coral.cohere.com/)
 * [Obsidian companion plugin](https://github.com/rizerphe/obsidian-companion)
 * [Mercury](https://chat.inceptionlabs.ai/)
+* [Kimi](https://www.kimi.com/)
 
 # Code generation
 * [GitHub Copilot](https://github.com/features/copilot)
