@@ -43,7 +43,7 @@ taxonomy:
 
 ## Yearly
 * Yearly planning
-* [Year review](../yearly-review/article.md)
+* [Yearly review](../yearly-review/article.md)
 
 # My prompts
 * Daily planning at 10 am
