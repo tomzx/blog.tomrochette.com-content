@@ -16,6 +16,10 @@ Every daily at the end of the (work) day.
 # Steps
 * Review what was planned for the day
 * Provide feedback related to the plan
+* Track and review
+  * How many times I was interrupted
+  * How much time I spent on unexpected work
+  * Whether I got blocked and for how long
 * [Review weekly plan and align](../weekly-review/article.md)
 * Plan next day
 
