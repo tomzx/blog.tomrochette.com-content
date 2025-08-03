@@ -27,6 +27,7 @@ taxonomy:
 * [Mercury](https://chat.inceptionlabs.ai/)
 * [Kimi](https://www.kimi.com/)
 * [MiniMax](https://chat.minimax.io/)
+* [Zhipu GLM](https://chat.z.ai/)
 
 # Code generation
 * [GitHub Copilot](https://github.com/features/copilot)
