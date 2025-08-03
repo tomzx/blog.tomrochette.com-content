@@ -21,4 +21,4 @@ The process is as follows:
 * Write a list of items that I want to cover, this acts as my plan.
 * Describe the items in the list in more details.
 * Reference articles I've already written on the same topic.
-* Review the article using [Grammarly](https://app.grammarly.com/) for grammatical mistakes and typos.
+* Review the article using LLMs for grammatical mistakes and typos.
