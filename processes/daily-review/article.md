@@ -17,7 +17,7 @@ Every daily at the end of the (work) day.
 * Review what was planned for the day
 * Provide feedback related to the plan
 * [Review monthly plan and align](../monthly-review/article.md)
-* Plan next month
+* Plan next day
 
 # Notes
 * I use a text editor, such as VS Code, to write my daily reviews.
