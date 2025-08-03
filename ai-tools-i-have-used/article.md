@@ -24,7 +24,7 @@ taxonomy:
 * [Mistral AI](https://chat.mistral.ai/)
 * [Cohere](https://coral.cohere.com/)
 * [Obsidian companion plugin](https://github.com/rizerphe/obsidian-companion)
-* 
+* [Mercury]()
 
 # Code generation
 * [GitHub Copilot](https://github.com/features/copilot)
