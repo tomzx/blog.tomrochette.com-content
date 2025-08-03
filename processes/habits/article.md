@@ -18,7 +18,7 @@ taxonomy:
 # My habits
 ## Daily
 * Daily planning
-* Daily review
+* [Daily review](../daily-review/article.md)
 * Eat/Drink
 * Shower
 * Wash dishes
