@@ -31,19 +31,19 @@ taxonomy:
 
 ## Weekly
 * Weekly planning
-* Weekly review
+* [Weekly review](../weekly-review/article.md)
 * Wash clothes
 * Clean apartment
 * Buy groceries
 
 ## Monthly
 * Monthly planning
-* Monthly review
+* [Monthly review](../monthly-review/article.md)
 * Pay bills
 
 ## Yearly
 * Yearly planning
-* Year review
+* [Year review](../yearly-review/article.md)
 
 # My prompts
 * Daily planning at 10 am
