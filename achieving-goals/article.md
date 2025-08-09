@@ -4,7 +4,7 @@ created: 2021-03-07
 taxonomy:
   type: post
   status: draft
-  tag: [goals]
+  tag: [goals, partially-ai-generated, ai-feedback, llm=gpt-oss-120b]
 ---
 
 * It's important to know what your goals are.
@@ -15,7 +15,7 @@ taxonomy:
 * It's important to know when to drop/abandon goals.
 
 * Sources of inefficiency
-	* Trying to do the same time repeatedly while not having enough experience to do it.
+  * Repeating the same task without sufficient experience.
 
 * Always try to figure out the most optimal path toward a goal
 	* Observe others successful at achieving the goal you want to achieve.
