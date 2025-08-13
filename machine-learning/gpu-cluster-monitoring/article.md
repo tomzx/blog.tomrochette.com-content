@@ -4,14 +4,14 @@ created: 2025-07-06
 taxonomy:
   type: post
   status: draft
-  tag: [machine learning, partially-ai-generated, ai-feedback, llm=claude-sonnet-4]
+  tag: [machine learning, partially-ai-generated, ai-feedback, llm=claude-sonnet-4, llm=gpt-oss-120b]
 ---
 
 # Overview
 
-In this article I list metrics and alerts one should have when monitoring a GPU cluster to ensure efficient usage.
+In this article I list metrics and alerts one should have when monitoring a GPU cluster to ensure efficient utilization of resources.
 
-GPU cluster monitoring is critical for organizations to make the best use of the limited capacity they have.
+GPU cluster monitoring is critical for organizations to optimally utilize the limited capacity they have.
 Without monitoring it is easy for users to leave jobs running that do not use GPU resources, or do not use them efficiently.
 In some cases GPU clusters use certain technologies that require the users to provide images with specific libraries, and not including those dependencies can result in significantly worse compute performance.
 
@@ -24,7 +24,7 @@ In some cases GPU clusters use certain technologies that require the users to pr
 * GPU memory utilization
   * Used to determine if the GPU memory is partially or fully used
   * Used to identify out of memory issues and potential memory leaks
-* Infiniband receive/transmit bytes
+* InfiniBand receive/transmit bytes
   * Used to determine if a workload is making use of the technology
 * Job launch wait duration
   * Used to determine when there's queueing of jobs due to compute being exhausted and how long it takes for jobs to start
