@@ -3,7 +3,7 @@ title: Daily review
 created: 2025-08-02
 taxonomy:
   type: post
-  tag: [processes]
+  tag: [processes, ai-feedback, llm=gpt-oss-20b]
   status: draft
 ---
 
@@ -15,10 +15,15 @@ Every daily at the end of the (work) day.
 
 # Steps
 * Review what was planned for the day
+  * Did you finish each planned task?
+  * Were any deliverables missed or delayed?
+  * How many times I was interrupted?
+  * How much time I spent on unexpected work?
+  * Was I got blocked and for how long?
+  * Rate the quality of work delivered.
 * Provide feedback related to the plan
-* Track and review
-  * How many times I was interrupted
-  * How much time I spent on unexpected work
-  * Whether I got blocked and for how long
+* Learning & Insights
+  * Did you discover a new tool, technique, or process?
+  * What could be improved next time?
 * [Review weekly plan and align](../weekly-review/article.md)
 * Plan next day
