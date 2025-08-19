@@ -3,7 +3,7 @@ title: Meetings
 created: 2019-06-14
 taxonomy:
   type: post
-  tag: [teamwork, processes]
+  tag: [teamwork, processes, work]
   status: draft
 ---
 
