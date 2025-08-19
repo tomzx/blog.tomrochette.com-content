@@ -31,4 +31,5 @@ Conceptually, you would want to always complete a stack of operations before mov
 This format thus allows a programmer (or anyone working on tasks that can spawn other tasks) to better track what they were doing and what they did and did not complete.
 
 # References
+* https://en.wikipedia.org/wiki/Stack_(abstract_data_type)
 * Parnin, C., & Rugaber, S. (2011). "Resumption strategies for interrupted programming tasks." Software Quality Journal, 19(1), 5-34. https://doi.org/10.1007/s11219-010-9104-9
