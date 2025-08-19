@@ -4,7 +4,7 @@ created: 2020-11-06
 taxonomy:
   type: post
   status: draft
-  tag: [software development, projects]
+  tag: [processes, software development, projects]
 ---
 
 * List all the features you would like to develop
