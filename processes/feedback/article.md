@@ -11,6 +11,7 @@ taxonomy:
 Every week, on Friday.
 
 # Duration
+15 minutes.
 
 # Steps
 
