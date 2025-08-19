@@ -29,9 +29,13 @@ The idea of the procedure assistant is to help workers define their implicit pro
 * Processes are non-linear by nature, in that we try to make them into a sequence but there are always numerous elements that will interrupt a process in progress
 
 # Overview
-One of the biggest challenges of making procedures explicit is taking the time to do so. Doing so is a meta exercise that very few people find of interest. Furthermore, this exercise is complicated by the fact that many activities are guided by some form of preemption (interrupting a task being carried out), which may make them harder to write down.
+One of the biggest challenges of making procedures explicit is taking the time to do so.
+Doing so is a meta exercise that very few people find of interest.
+Furthermore, this exercise is complicated by the fact that many activities are guided by some form of preemption (interrupting a task being carried out), which may make them harder to write down.
 
-The most common tool used to make a process explicit is the directed graph. In it, each task/action is a node and each directed arrow indicates from which task to which task one may proceed. It is possible for the graph to have cycles, which indicates a set of steps that may require to be executed multiple times before the condition to exit the loop is triggered.
+The most common tool used to make a process explicit is the directed graph.
+In it, each task/action is a node and each directed arrow indicates from which task to which task one may proceed.
+It is possible for the graph to have cycles, which indicates a set of steps that may require to be executed multiple times before the condition to exit the loop is triggered.
 
 # Purposes/Benefits
 * Can be (visually) inspected
