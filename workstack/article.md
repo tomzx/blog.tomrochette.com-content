@@ -32,4 +32,5 @@ This format thus allows a programmer (or anyone working on tasks that can spawn 
 
 # References
 * https://en.wikipedia.org/wiki/Stack_(abstract_data_type)
+* https://en.wikipedia.org/wiki/Context_switch
 * Parnin, C., & Rugaber, S. (2011). "Resumption strategies for interrupted programming tasks." Software Quality Journal, 19(1), 5-34. https://doi.org/10.1007/s11219-010-9104-9
