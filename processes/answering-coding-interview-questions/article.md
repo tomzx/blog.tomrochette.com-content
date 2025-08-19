@@ -3,7 +3,7 @@ title: Answering coding interview questions
 created: 2021-05-01
 taxonomy:
   type: post
-  tag: [processes]
+  tag: [processes, programming]
   status: draft
 ---
 
