@@ -29,3 +29,6 @@ In this case, the person started working on tasks 1 and 2, then began working on
 Conceptually, you would want to always complete a stack of operations before moving to a new task. However, it is highly common while programming that a programmer will start going down such stack while working on code and then will not end up climbing back the stack, effectively not completing all he started working on.
 
 This format thus allows a programmer (or anyone working on tasks that can spawn other tasks) to better track what they were doing and what they did and did not complete.
+
+# References
+* Parnin, C., & Rugaber, S. (2011). "Resumption strategies for interrupted programming tasks." Software Quality Journal, 19(1), 5-34. https://doi.org/10.1007/s11219-010-9104-9
