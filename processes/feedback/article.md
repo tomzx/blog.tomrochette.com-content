@@ -16,6 +16,7 @@ Every week, on Friday.
 # Steps
 * Gather feedback from team members.
 * Review feedback and identify key themes.
-* Identify action items based on the feedback and identify a date at which to revisit the feedback.
+* Identify action items based on the feedback.
+* Identify a date at which to revisit the feedback and the action items.
 
 # References
