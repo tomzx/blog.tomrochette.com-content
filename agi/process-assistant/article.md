@@ -8,8 +8,9 @@ taxonomy:
 
 ## Context
 All jobs contain a large amount of repetitive work.
- This repetitive work may be described at a high level using what is called a process.
-  It is quite common for most workers to have an internal procedure for the different things they do, but it is very rare that you will find explicit procedures. The idea of the procedure assistant is to help workers define their implicit procedures in an attempt to make them explicit and allow them to share these procedures and improve them.
+This repetitive work may be described at a high level using what is called a process.
+It is quite common for most workers to have an internal procedure for the different things they do, but it is very rare that you will find explicit procedures.
+The idea of the procedure assistant is to help workers define their implicit procedures in an attempt to make them explicit and allow them to share these procedures and improve them.
 
 ## Learned in this study
 
