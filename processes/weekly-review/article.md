@@ -3,7 +3,7 @@ title: Weekly review
 created: 2025-08-02
 taxonomy:
   type: post
-  tag: [processes]
+  tag: [processes, work]
   status: draft
 ---
 
