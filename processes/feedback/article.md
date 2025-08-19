@@ -8,6 +8,7 @@ taxonomy:
 ---
 
 # Trigger
+Every week, on Friday.
 
 # Duration
 
