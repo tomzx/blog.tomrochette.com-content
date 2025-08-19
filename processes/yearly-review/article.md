@@ -3,7 +3,7 @@ title: Yearly review
 created: 2022-01-03
 taxonomy:
   type: post
-  tag: [processes]
+  tag: [processes, work]
   status: draft
 ---
 
