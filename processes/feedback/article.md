@@ -14,5 +14,7 @@ Every week, on Friday.
 15 minutes.
 
 # Steps
+* Gather feedback from team members.
+* Review feedback and identify key themes.
 
 # References
