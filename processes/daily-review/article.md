@@ -3,7 +3,7 @@ title: Daily review
 created: 2025-08-02
 taxonomy:
   type: post
-  tag: [processes, ai-feedback, llm=gpt-oss-20b]
+  tag: [processes, ai-feedback, llm=gpt-oss-20b, work]
   status: draft
 ---
 
