@@ -15,6 +15,7 @@ Processes are a way to do things, such that the process can be then reproduced i
 * [Book rating](book-rating/article.md)
 * [Book reading](book-reading/article.md)
 * [Company onboarding](company-onboarding/article.md)
+* [Company offboarding](company-offboarding/article.md)
 * [Daily review](daily-review/article.md)
 * [Decision log](decision-log/article.md)
 * [Feedback](feedback/article.md)
