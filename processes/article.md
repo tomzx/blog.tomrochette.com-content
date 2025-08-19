@@ -16,6 +16,7 @@ Processes are a way to do things, such that the process can be then reproduced i
 * [Book reading](book-reading/article.md)
 * [Daily review](daily-review/article.md)
 * [Decision log](decision-log/article.md)
+* [Feedback](feedback/article.md)
 * [Habits](habits/article.md)
 * [Incident investigation](incident-investigation/article.md)
 * [Incident post-mortem](incident-post-mortem/article.md)
