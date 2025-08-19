@@ -4,7 +4,7 @@ created: 2025-08-19
 taxonomy:
   type: post
   status: draft
-  category: [processes, ai-feedback, llm=chatgpt-4.1]
+  tag: [processes, ai-feedback, llm=chatgpt-4.1]
 ---
 
 # Trigger
