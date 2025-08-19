@@ -16,10 +16,10 @@ Those articles will be tagged accordingly:
 * [`fully-ai-generated`](/tag:fully-ai-generated) when all the content is AI-generated
 
 I also use additional tags in relation to AI usage, namely:
-* [`ai-feedback`](/tag:ai-feedback) for articles that include feedback from AI
+* [`ai-feedback`](/tag:ai-feedback) for articles that were edited following AI feedback
 
-
-I try to tag the articles with the LLMs that were involved, look for tags starting with `llm=`.
+I tag the articles with the LLMs that were involved.
+Look for tags starting with `llm=`.
 
 I use a variety of LLM providers (in order of frequency of use):
 * [Claude](https://claude.ai/)
