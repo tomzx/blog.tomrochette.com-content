@@ -3,7 +3,7 @@ title: Incident investigation
 created: 2022-04-14
 taxonomy:
   type: post
-  tag: [processes]
+  tag: [processes, work]
   status: draft
 ---
 
