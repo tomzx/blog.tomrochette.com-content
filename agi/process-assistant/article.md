@@ -48,10 +48,10 @@ It is possible for the graph to have cycles, which indicates a set of steps that
 	* Notifications to users for manual steps
 
 # Steps
-* Create a new process
-* Write down as many steps you do implicitly
+* Create a new process (i.e., do the thing that needs to be done)
+* Write down as many steps you do implicitly as possible
 * Link steps to one another
-* Simulate the process in your head to verify if you forgot any step
+* Simulate the process in your head to verify if you forgot any steps
 * Follow the process
 * Revise as needed
 * Extract reusable processes into their own process graph
@@ -71,7 +71,7 @@ It is possible for the graph to have cycles, which indicates a set of steps that
 * UML Activity diagram (actors/roles, artifacts, actions)
 
 # Notes
-* Processes should be archived as they change. This allows you to observe which processes change often, and which parts change the most
+* Processes should be archived as they change. This allows you to observe which processes change often, and which parts change the most.
 
 # See also
 
