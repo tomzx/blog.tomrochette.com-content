@@ -7,4 +7,4 @@ taxonomy:
   tag: [wsl, git, performance]
 ---
 
-I have a git repository with
+I have a git repository with 25k commits in it
