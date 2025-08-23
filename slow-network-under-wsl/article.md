@@ -6,3 +6,12 @@ taxonomy:
   status: finished
   tag: [wsl, network, performance]
 ---
+
+When I started using WSL on Windows 11 I had slow network performance issues.
+
+In `%USERPROFILE%\.wslconfig` add the following:
+
+```
+[wsl2]
+networkingMode=mirrored
+```
