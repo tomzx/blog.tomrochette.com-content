@@ -18,3 +18,5 @@ In `%USERPROFILE%\.wslconfig` add the following:
 [wsl2]
 networkingMode=mirrored
 ```
+
+With this fix applied I'm now getting ~400 Mbps download speeds in WSL, matching my native Windows performance.
