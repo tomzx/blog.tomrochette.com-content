@@ -7,18 +7,18 @@ taxonomy:
   tag: [wsl, git, performance]
 ---
 
-I have a `git repository with 25k commits in it and 7k+ files.
+I have a `git` repository with 25k commits in it and 7k+ files.
 
-Under Windows 11 using WSL, I noticed that `git operations were significantly slower compared to running them natively on Windows.
+Under Windows 11 using WSL, I noticed that `git` operations were significantly slower compared to running them natively on Windows.
 
 I have [a script that I use to synchronize many branches](https://github.com/tomzx/personal-automation/blob/master/others/git-sync-branches.sh) that was taking forever to execute, but should have been relatively fast.
 It also had trouble with line endings which caused issues when merging branches but reminded me of a setting I used to configure in my `~/.gitconfig` a very long time.
 
-Given that `git configuration under Windows and WSL are separate, I had to update the `~/.gitconfig` file in my Linux environment with the following.
+Given that `git` configuration under Windows and WSL are separate, I had to update the `~/.gitconfig` file in my Linux environment with the following.
 
 ```
 [core]
-        autocrlf = true
+	autocrlf = true
 ```
 
-This immediately fixed my problem and `git was fast again.
+This immediately fixed my problem and `git` was fast again.
