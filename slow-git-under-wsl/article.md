@@ -3,7 +3,7 @@ title: Slow git under WSL
 created: 2025-08-23
 taxonomy:
   type: post
-  status: draft
+  status: finished
   tag: [wsl, git, performance]
 ---
 
