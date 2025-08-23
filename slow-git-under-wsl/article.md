@@ -18,7 +18,7 @@ Given that `git` configuration under Windows and WSL are separate, I had to upda
 
 ```
 [core]
-	autocrlf = true
+  autocrlf = true
 ```
 
 This immediately fixed my problem and `git` was fast again.
