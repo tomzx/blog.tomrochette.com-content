@@ -7,7 +7,7 @@ taxonomy:
 ---
 
 ## Context
-Scientific research is a method through which state of the art (SotA) techniques, tools and methodologies are developed and shared with the scientific community. It consists of numerous steps through which an individual goes in order to familiarize himself with the current SotA.
+Scientific research is a method through which state-of-the-art (SotA) techniques, tools and methodologies are developed and shared with the scientific community. It consists of numerous steps through which an individual goes in order to familiarize themselves with the current SotA.
 
 Currently, such process is generally defined but certainly not globally accepted. Furthermore, and this is the part we are interested in here, most of the process could be automated.
 

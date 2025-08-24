@@ -14,39 +14,45 @@ taxonomy:
 * Is it currently possible to batch process in parallel? If so, how is the network updated?
 
 # Overview
-math basics
-matrices
-vectors
-operations (addition, subtraction, multiplication by scalar, matrix/vector and matrix/matrix multiplication, inverse, transpose)
 
-cost function
-gradient descent
-normal equation
-classification (binary vs multiclass)
-- one vs all/rest
-linear/non-linear boundaries
-under/over-fitting
-- reduce the number of features
-- regularization
-neural network
-- layer
-- bias
-- weight
-- input/output
-- activation
-- forward/backward propagation
-training/test/validation sets
-diagnosis of learning algorithm
-- bias (underfit) vs  variance (overfit)
-learning curve (error based on training set size)
+## Math Basics
+* Matrices
+* Vectors
+* Operations (addition, subtraction, multiplication by scalar, matrix/vector and matrix/matrix multiplication, inverse, transpose)
 
-fixes
-- get more training examples -> fix high variance
-- try smaller sets of features -> fix high variance
-- try getting additional features -> fix high bias
-- try  adding polynomial features -> fix high bias
-- try decreasing lambda -> fix high bias
-- try increasing lambda -> fix high variance
+## Core Concepts
+* Cost function
+* Gradient descent
+* Normal equation
+* Classification (binary vs multiclass)
+  * One vs all/rest
+* Linear/non-linear boundaries
+* Under/over-fitting
+  * Reduce the number of features
+  * Regularization
+
+## Neural Networks
+* Layer
+* Bias
+* Weight
+* Input/output
+* Activation
+* Forward/backward propagation
+
+## Data Sets
+* Training/test/validation sets
+
+## Diagnosis of Learning Algorithm
+* Bias (underfit) vs variance (overfit)
+* Learning curve (error based on training set size)
+
+## Fixes
+* Get more training examples → fix high variance
+* Try smaller sets of features → fix high variance
+* Try getting additional features → fix high bias
+* Try adding polynomial features → fix high bias
+* Try decreasing lambda → fix high bias
+* Try increasing lambda → fix high variance
 
 neural networks architecture
 - small neural network -> prone to underfitting

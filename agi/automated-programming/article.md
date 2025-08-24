@@ -13,7 +13,7 @@ Automated programming has been a goal for computer scientists since the inceptio
 * Communication is difficult
 * Understanding is difficult
 * A part of the job of the programmer is to construct a model of the software of the client so that it can understand how a requirement/change fits into this model
-* A programmer needs to know how many systems works: the programming language, third-party libraries, the file system, the database, the network, external APIs
+* A programmer needs to know how many systems work: the programming language, third-party libraries, the file system, the database, the network, external APIs
 
 ## Things to explore
 * How to avoid the program synthesizer from building a simple lookup table?
@@ -27,7 +27,7 @@ Automated programming has been a goal for computer scientists since the inceptio
 * Learn how to code from looking at commit comments and code changes
 * English description to function parts
 * Programming requires communication: the client explaining what it needs the system to do to the programmer, the programmer converting these requirements into a high level language code, the code being converted into computer instructions.
-	* Where does automated programming comes in?
+	* Where does automated programming come in?
 * The basic strategy of a beginner programmer is generally to copy and paste code. Is it possible to reproduce and use this behavior effectively in an automated manner?
 * What is the difference between writing a program from scratch and modifying an existing program?
 * How hard is it for an AI to learn programming languages? Assembly, C, C++, etc.
@@ -50,11 +50,11 @@ We can think of automated programming as the ability to convert some form of spe
 * The programmer provides a set of examples (inputs and outputs) for the automatic function synthesis to work through
 * Give examples of input/output combinations (may not be straightforward for objects)
 * Provide examples in order of complexity
-* Use some sort of natural language/declarative (user-oriented) language to control oriented/procedural languages (use of conditionals)
+* Use some sort of natural language/declarative (user-oriented) language to control procedural languages (use of conditionals)
 * The synthesizer is basically trying to build a proof for your examples, so it has to know the operation it can do and their impact on the state (see [SHAKEY](https://en.wikipedia.org/wiki/Shakey_the_robot))
 * Many approaches are possible, namely forward search, backward search, bidirectional search
-* As there are many way to accomplish the same function, the first goal of the synthesizer should be to rapidly offer a working function to the user
-* Once said function has been discovered, the synthesizer may work with the user in order to improve the current solution
+* As there are many ways to accomplish the same function, the first goal of the synthesizer should be to rapidly offer a working function to the user
+* Once the function has been discovered, the synthesizer may work with the user in order to improve the current solution
 	* Decide on the memory/computation tradeoff within the solution
 	* *What are some of the improvement that can be expected to be made?*
 * Given a set of existing functions (with both input/output types) and their computed "operation complexity" (basically the amount of operations that are executed at the language level, i.e. (x^2+y^2)^0.5 => 4, 3 exponentiation, 1 addition), try the functions in ascending order of operation complexity
@@ -240,8 +240,8 @@ As the programmer progresses through a task assignment, he may encounter things 
 In the ideal case, task decomposition and sub-task stacking occurs in a very natural way. In a less ideal way, a task is frequently interrupted by unexpected new tasks, which, instead of advancing the main task, add to the current workload of the programmer.
 
 # Observation on the programming tasks
-* Some tasks are incredibly easy to solve if you have complete freedom. For instance, if no constraint is applied for variable naming, then any string is valid as any other, as long as they do not overlap with existing variables. However, if you introduce naming conventions, or the more difficult task of assign a "proper" name to a variable, the difficulty of the task increases tremendously.
-* Some tasks can only be defined using a high level description. One example of this is the translation of high level requirements into functional logic. This basically entails the search of one solution out of the solution space which fulfills the X different criteria at most (and not more).
+* Some tasks are incredibly easy to solve if you have complete freedom. For instance, if no constraint is applied to variable naming, then any string is as valid as any other, as long as they do not overlap with existing variables. However, if you introduce naming conventions, or the more difficult task of assign a "proper" name to a variable, the difficulty of the task increases tremendously.
+* Some tasks can only be defined using a high-level description. One example of this is the translation of high-level requirements into functional logic. This basically entails the search of one solution out of the solution space which fulfills the X different criteria at most (and not more).
 * Programming cannot be self-contained. Programming is valuable only when it is associated with the modeling of something that is external to it; modeling the world. A program generator can create an infinite amount of programs, but they will all be meaningless as meaning is only attached to code by the programmer and its users.
 
 # Data structure selection
