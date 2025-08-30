@@ -3,7 +3,7 @@ title: "PHPUnit - PHP Fatal error: require_once(): Failed opening required 'PHPU
 created: 2011-11-26T00:14:53-05:00
 taxonomy:
     type: post
-    tag: [programming, php, phpunit]
+  tag: [programming, php, phpunit]
 ---
 
 A friend of mine was trying to install PHPUnit on his mac (OS X Lion), but unfortunately, he got stuck during the process.

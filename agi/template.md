@@ -3,7 +3,7 @@ title: Template
 created: YYYY-MM-DD
 taxonomy:
   status: in progress
-  tag: [artificial general intelligence]
+  tag: [artificial-general-intelligence]
 ---
 
 ## Context

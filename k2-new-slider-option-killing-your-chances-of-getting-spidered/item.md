@@ -3,7 +3,7 @@ title: "K2 new slider option: killing your chances of getting spidered?"
 created: 2006-05-25T06:16:50-05:00
 taxonomy:
     type: post
-    tag: [sites, k2, themes, wordpress, web crawler]
+  tag: [sites, k2, themes, wordpress, web-crawler]
 ---
 
 Well, it took me some time until I realise that this cool slider bar option as something negative about it: it hides contains from search engines spiders.

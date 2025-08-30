@@ -3,7 +3,7 @@ title: Prioritizing
 created: 2017-01-07
 taxonomy:
     type: post
-    tag: [priority, prioritization, planning]
+  tag: [priority, prioritization, planning]
 ---
 
 # Steps

@@ -3,7 +3,7 @@ title: Web services
 created: 2015-11-02
 taxonomy:
   status: draft
-  tag: [programming, api, web services]
+  tag: [programming, api, web-services]
 ---
 
 ## Context
