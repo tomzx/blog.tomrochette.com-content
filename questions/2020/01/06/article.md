@@ -6,7 +6,7 @@ routes:
     - /questions/2020-01-06
 taxonomy:
   type: post
-  tag: [questions, task management]
+  tag: [questions, task-management]
   status: finished
 ---
 

@@ -2,7 +2,7 @@
 title: Flemming Nielson - Principles of Program Analysis - 1999
 created: 2016-10-27
 taxonomy:
-  tag: [artificial general intelligence]
+  tag: [artificial-general-intelligence]
   status: finished
 ---
 

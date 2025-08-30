@@ -3,7 +3,7 @@ title: Working in a software company
 created: 2019-05-25
 taxonomy:
   type: post
-  tag: [software development, processes, work]
+  tag: [software-development, processes, work]
   status: draft
 ---
 

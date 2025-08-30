@@ -2,7 +2,7 @@
 title: Report on a General-Problem Solving Program (1959)
 created: 2016-05-12
 taxonomy:
-  tag: [artificial general intelligence]
+  tag: [artificial-general-intelligence]
   status: finished
 ---
 

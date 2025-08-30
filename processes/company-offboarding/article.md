@@ -4,7 +4,7 @@ created: 2025-08-19
 taxonomy:
   type: post
   status: draft
-  tag: [software development, projects, processes, work]
+  tag: [software-development, projects, processes, work]
 ---
 
 * Meet with colleagues to discuss ongoing projects and hand off responsibilities

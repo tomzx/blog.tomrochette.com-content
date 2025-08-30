@@ -2,7 +2,7 @@
 title: Mass refactoring
 created: 2016-06-03
 taxonomy:
-  tag: [artificial general intelligence]
+  tag: [artificial-general-intelligence]
   status: in progress
 ---
 

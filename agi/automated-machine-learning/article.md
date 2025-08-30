@@ -2,7 +2,7 @@
 title: Automated machine learning
 created: 2019-12-07
 taxonomy:
-  tag: [artificial general intelligence]
+  tag: [artificial-general-intelligence]
   status: in progress
 ---
 

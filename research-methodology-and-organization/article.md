@@ -3,7 +3,7 @@ title: Research methodology and organization
 created: 2018-02-10
 taxonomy:
   status: in progress
-  tag: [reusable writing, reusable notes]
+  tag: [reusable-writing, reusable-notes]
 ---
 
 ## Context

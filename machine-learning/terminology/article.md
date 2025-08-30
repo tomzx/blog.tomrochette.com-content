@@ -2,7 +2,7 @@
 title: Machine learning terminology
 created: 2016-02-04
 taxonomy:
-  tag: [machine learning]
+  tag: [machine-learning]
   status: in progress
 ---
 

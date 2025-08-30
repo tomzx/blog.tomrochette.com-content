@@ -2,7 +2,7 @@
 title: Automated process
 created: 2018-02-02
 taxonomy:
-  tag: [artificial general intelligence]
+  tag: [artificial-general-intelligence]
   status: in progress
 ---
 

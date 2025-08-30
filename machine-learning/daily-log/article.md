@@ -2,7 +2,7 @@
 title: Daily log
 created: 2017-04-21
 taxonomy:
-  tag: [machine learning]
+  tag: [machine-learning]
   status: in progress
 ---
 

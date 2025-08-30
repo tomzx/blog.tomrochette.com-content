@@ -2,7 +2,7 @@
 title: Process assistant
 created: 2016-09-17
 taxonomy:
-  tag: [artificial general intelligence]
+  tag: [artificial-general-intelligence]
   status: in progress
 ---
 

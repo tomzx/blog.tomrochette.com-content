@@ -2,7 +2,7 @@
 title: Alan Turing - Computing Machinery and Intelligence (1950)
 created: 2015-10-18
 taxonomy:
-  tag: [artificial general intelligence]
+  tag: [artificial-general-intelligence]
   status: finished
 ---
 

@@ -4,7 +4,7 @@ created: 2021-03-07
 taxonomy:
   type: post
   status: draft
-  tag: [landing page]
+  tag: [landing-page]
 ---
 
 * Company name

@@ -2,7 +2,7 @@
 title: Introduction to Automata Theory, Languages, and Computation - 2006
 created: 2016-07-30
 taxonomy:
-  tag: [artificial general intelligence]
+  tag: [artificial-general-intelligence]
   status: finished
 ---
 $\require{extpfeil}\Newextarrow{\xRightarrow}{5,5}{0x21D2}$

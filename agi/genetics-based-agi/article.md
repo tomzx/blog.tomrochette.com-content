@@ -2,7 +2,7 @@
 title: Genetics based AGI
 created: 2015-08-24
 taxonomy:
-tag: [artificial general intelligence]
+  tag: [artificial-general-intelligence]
 status: in progress
 ---
 

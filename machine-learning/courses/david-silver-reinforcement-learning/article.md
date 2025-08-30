@@ -2,7 +2,7 @@
 title: David Silver - Reinforcement learning (2015)
 created: 2017-02-04
 taxonomy:
-  tag: [artificial general intelligence]
+  tag: [artificial-general-intelligence]
   status: finished
 ---
 

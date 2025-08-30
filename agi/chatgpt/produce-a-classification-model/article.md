@@ -2,7 +2,7 @@
 title: Produce a classification model
 created: 2023-04-22
 taxonomy:
-  tag: [artificial general intelligence, chatgpt]
+  tag: [artificial-general-intelligence, chatgpt]
   status: in progress
 ---
 

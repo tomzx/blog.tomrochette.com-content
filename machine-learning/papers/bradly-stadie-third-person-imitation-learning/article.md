@@ -2,7 +2,7 @@
 title: Bradly Stadie - Third-Person Imitation Learning (2017)
 created: 2017-05-26
 taxonomy:
-  tag: [machine learning]
+  tag: [machine-learning]
   status: finished
 ---
 

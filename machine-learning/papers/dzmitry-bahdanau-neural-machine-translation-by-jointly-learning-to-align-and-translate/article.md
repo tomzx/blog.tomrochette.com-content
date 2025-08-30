@@ -2,7 +2,7 @@
 title: Dzmitry Bahdanau - Neural Machine Translation by Jointly Learning to Align and Translate (2015)
 created: 2017-05-20
 taxonomy:
-  tag: [machine learning]
+  tag: [machine-learning]
   status: finished
 ---
 

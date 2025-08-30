@@ -2,7 +2,7 @@
 title: "Kelvin Xu - Show, Attend and Tell: Neural Image Caption Generation with Visual Attention (2015)"
 created: 2017-07-06
 taxonomy:
-  tag: [machine learning]
+  tag: [machine-learning]
   status: finished
 ---
 

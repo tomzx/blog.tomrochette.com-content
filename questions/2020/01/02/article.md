@@ -6,7 +6,7 @@ routes:
     - /questions/2020-01-02
 taxonomy:
   type: post
-  tag: [questions, machine learning]
+  tag: [questions, machine-learning]
   status: finished
 ---
 

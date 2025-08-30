@@ -3,7 +3,7 @@ title: Visual Studio Code templates
 created: 2020-03-01
 taxonomy:
   type: post
-  tag: [problems, visual studio code]
+  tag: [problems, visual-studio-code]
   status: finished
 ---
 

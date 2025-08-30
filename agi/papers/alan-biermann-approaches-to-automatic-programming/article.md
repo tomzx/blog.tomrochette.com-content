@@ -2,7 +2,7 @@
 title: Alan W. Biermann - Approaches to Automatic Programming
 created: 2016-06-03
 taxonomy:
-  tag: [artificial general intelligence]
+  tag: [artificial-general-intelligence]
   status: finished
 ---
 

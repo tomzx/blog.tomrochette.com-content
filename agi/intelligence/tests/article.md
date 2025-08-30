@@ -2,7 +2,7 @@
 title: Intelligence tests
 created: 2015-10-22
 taxonomy:
-  tag: [artificial general intelligence]
+  tag: [artificial-general-intelligence]
   status: in progress
 ---
 

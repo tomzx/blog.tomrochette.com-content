@@ -2,8 +2,8 @@
 title: Checklists
 created: 2018-10-27
 taxonomy:
-    type: post
-    status: in progress
+  type: post
+  status: in progress
 ---
 
 ## Context

@@ -3,7 +3,7 @@ title: Reinventing the wheel
 created: 2020-02-08
 taxonomy:
   type: post
-  tag: [questions, software development]
+  tag: [questions, software-development]
   status: finished
 ---
 

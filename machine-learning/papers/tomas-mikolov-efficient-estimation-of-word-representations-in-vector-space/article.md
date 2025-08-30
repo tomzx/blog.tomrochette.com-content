@@ -2,7 +2,7 @@
 title: Tomas Mikolov - Efficient Estimation of Word Representations in Vector Space (2013)
 created: 2017-07-14
 taxonomy:
-  tag: [machine learning]
+  tag: [machine-learning]
   status: finished
 ---
 

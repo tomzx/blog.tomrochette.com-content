@@ -2,9 +2,9 @@
 title: Javascript datastores
 created: 2016-02-12
 taxonomy:
-    type: post
-    tag: [javascript, database, datastore]
-    status: draft
+  type: post
+  tag: [javascript, database, datastore]
+  status: draft
 ---
 
 I am currently looking into javascript based libraries that will allow me to do in-browser queries, similar to how a server-side application would query a NoSQL database.

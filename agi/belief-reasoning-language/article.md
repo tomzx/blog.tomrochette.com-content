@@ -2,7 +2,7 @@
 title: Belief reasoning language
 created: 2016-06-16
 taxonomy:
-  tag: [artificial general intelligence]
+  tag: [artificial-general-intelligence]
   status: in progress
 ---
 

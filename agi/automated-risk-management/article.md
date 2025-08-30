@@ -2,7 +2,7 @@
 title: Automated risk management
 created: 2017-10-15
 taxonomy:
-  tag: [artificial general intelligence]
+  tag: [artificial-general-intelligence]
   status: in progress
 ---
 

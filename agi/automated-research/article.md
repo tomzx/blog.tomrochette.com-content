@@ -2,7 +2,7 @@
 title: Automated research
 created: 2016-08-26
 taxonomy:
-  tag: [artificial general intelligence]
+  tag: [artificial-general-intelligence]
   status: in progress
 ---
 

@@ -3,7 +3,7 @@ title: Differences between brain and CPU
 created: 2020-01-14
 taxonomy:
   type: post
-  tag: [questions, artificial general intelligence]
+  tag: [questions, artificial-general-intelligence]
   status: finished
 ---
 

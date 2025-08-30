@@ -2,7 +2,7 @@
 title: Formal AGI
 created: 2016-03-10
 taxonomy:
-  tag: [artificial general intelligence]
+  tag: [artificial-general-intelligence]
   status: in progress
 ---
 

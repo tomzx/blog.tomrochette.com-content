@@ -3,7 +3,7 @@ title: Extracting someone's beliefs from their writings
 created: 2020-03-07
 taxonomy:
   type: post
-  tag: [questions, machine learning]
+  tag: [questions, machine-learning]
   status: finished
 ---
 

@@ -2,7 +2,7 @@
 title: Consciousness
 created: 2017-04-09
 taxonomy:
-  tag: [artificial general intelligence]
+  tag: [artificial-general-intelligence]
   status: in progress
 ---
 

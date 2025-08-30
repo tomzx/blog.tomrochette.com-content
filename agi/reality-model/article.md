@@ -2,7 +2,7 @@
 title: Reality Model
 created: 2015-08-27
 taxonomy:
-  tag: [artificial general intelligence]
+  tag: [artificial-general-intelligence]
   status: in progress
 ---
 

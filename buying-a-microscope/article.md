@@ -2,8 +2,8 @@
 title: Buying a microscope
 created: 2017-01-01
 taxonomy:
-    type: post
-    status: in progress
+  type: post
+  status: in progress
 ---
 
 # USB microscope

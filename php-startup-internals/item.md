@@ -2,9 +2,9 @@
 title: PHP Startup Internals
 created: 2015-03-01T09:00:00-05:00
 taxonomy:
-    type: post
-    status: draft
-    tag: [programming, php, startup, internals]
+  type: post
+  status: draft
+  tag: [programming, php, startup, internals]
 ---
 
 * PHP

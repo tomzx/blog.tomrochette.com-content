@@ -3,7 +3,7 @@ title: Automated language learning
 created: 2016-11-17
 taxonomy:
   status: in progress
-  tag: [artificial general intelligence]
+  tag: [artificial-general-intelligence]
 ---
 
 ## Context

@@ -2,7 +2,7 @@
 title: Intelligence Amplification
 created: 2016-05-21
 taxonomy:
-  tag: [artificial general intelligence]
+  tag: [artificial-general-intelligence]
   status: in progress
 ---
 

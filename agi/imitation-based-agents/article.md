@@ -2,7 +2,7 @@
 title: Imitation-based agents
 created: 2015-08-16
 taxonomy:
-  tag: [artificial general intelligence]
+  tag: [artificial-general-intelligence]
   status: in progress
 ---
 

@@ -2,7 +2,7 @@
 title: "2017-05-27"
 created: 2017-05-27
 taxonomy:
-  tag: [machine learning]
+  tag: [machine-learning]
   status: in progress
 ---
 

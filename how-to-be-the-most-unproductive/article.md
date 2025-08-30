@@ -2,8 +2,8 @@
 title: How to be the most unproductive
 created: 2023-08-19
 taxonomy:
-    tag: [productivity]
-    status: draft
+  tag: [productivity]
+  status: draft
 ---
 
 * Do the same thing repeatedly

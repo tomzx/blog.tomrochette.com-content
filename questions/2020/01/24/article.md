@@ -3,7 +3,7 @@ title: Writing everything down
 created: 2020-01-24
 taxonomy:
   type: post
-  tag: [questions, note taking]
+  tag: [questions, note-taking]
   status: finished
 ---
 

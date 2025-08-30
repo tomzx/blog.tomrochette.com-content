@@ -2,7 +2,7 @@
 title: Presentations index
 created: 2015-11-15
 taxonomy:
-  tag: [artificial general intelligence]
+  tag: [artificial-general-intelligence]
   status: in progress
 ---
 

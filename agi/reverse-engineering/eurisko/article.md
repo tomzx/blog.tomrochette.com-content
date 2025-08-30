@@ -2,7 +2,7 @@
 title: EURISKO
 created: 2016-04-22
 taxonomy:
-  tag: [artificial general intelligence]
+  tag: [artificial-general-intelligence]
   status: in progress
 ---
 

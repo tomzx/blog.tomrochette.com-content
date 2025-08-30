@@ -2,7 +2,7 @@
 title: Carlos Florensa - Reverse Curriculum Generation for Reinforcement Learning (2017)
 created: 2017-11-04
 taxonomy:
-  tag: [machine learning]
+  tag: [machine-learning]
   status: finished
 ---
 

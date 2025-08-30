@@ -4,7 +4,7 @@ created: 2025-07-06
 taxonomy:
   type: post
   status: draft
-  tag: [machine learning, partially-ai-generated, ai-feedback, llm=claude-sonnet-4, llm=gpt-oss-120b]
+  tag: [machine-learning, partially-ai-generated, ai-feedback, llm=claude-sonnet-4, llm=gpt-oss-120b]
 ---
 
 # Overview

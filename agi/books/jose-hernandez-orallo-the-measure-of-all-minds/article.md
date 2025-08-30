@@ -2,7 +2,7 @@
 title: José Hernández Orallo - The measure of all minds - 2017
 created: 2021-07-29
 taxonomy:
-  tag: [artificial general intelligence]
+  tag: [artificial-general-intelligence]
   status: in progress
 ---
 

@@ -2,9 +2,9 @@
 title: Diablo
 created: 2018-12-29
 taxonomy:
-    type: post
-    status: draft
-    tag: [games]
+  type: post
+  status: draft
+  tag: [games]
 ---
 
 A table of probabilities is built

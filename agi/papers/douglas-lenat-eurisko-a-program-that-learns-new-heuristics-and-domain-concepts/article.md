@@ -2,7 +2,7 @@
 title: "EURISKO: A Program That Learns New Heuristics and Domain Concepts (1982)"
 created: 2016-04-15
 taxonomy:
-  tag: [artificial general intelligence]
+  tag: [artificial-general-intelligence]
   status: finished
 ---
 

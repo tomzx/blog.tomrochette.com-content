@@ -2,7 +2,7 @@
 title: Thomas Cover - Elements of Information Theory - 2006
 created: 2017-05-26
 taxonomy:
-  tag: [artificial general intelligence]
+  tag: [artificial-general-intelligence]
   status: finished
 ---
 

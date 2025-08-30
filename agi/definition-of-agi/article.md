@@ -2,7 +2,7 @@
 title: Definition of AGI
 created: 2021-06-15
 taxonomy:
-  tag: [artificial general intelligence]
+  tag: [artificial-general-intelligence]
   status: in progress
 ---
 

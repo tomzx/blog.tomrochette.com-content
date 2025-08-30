@@ -2,9 +2,9 @@
 title: Factorio
 created: 2018-12-29
 taxonomy:
-    type: post
-    status: draft
-    tag: [games]
+  type: post
+  status: draft
+  tag: [games]
 ---
 
 An initial seed is computed and stored in the game save file

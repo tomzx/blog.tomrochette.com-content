@@ -2,7 +2,7 @@
 title: Multi-agent bot
 created: 2015-09-20
 taxonomy:
-  tag: [artificial general intelligence]
+  tag: [artificial-general-intelligence]
   status: in progress
 ---
 

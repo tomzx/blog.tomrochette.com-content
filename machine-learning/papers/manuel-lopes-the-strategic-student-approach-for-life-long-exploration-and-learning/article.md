@@ -2,7 +2,7 @@
 title: Manuel Lopes - The Strategic Student Approach for Life-Long Exploration and Learning (2012)
 created: 2017-06-24
 taxonomy:
-  tag: [machine learning]
+  tag: [machine-learning]
   status: finished
 ---
 

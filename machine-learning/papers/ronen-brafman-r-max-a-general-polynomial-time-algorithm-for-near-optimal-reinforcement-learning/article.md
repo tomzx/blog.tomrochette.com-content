@@ -2,7 +2,7 @@
 title: Ronen Brafman - R-max – A General Polynomial Time Algorithm for Near-Optimal Reinforcement Learning (2002)
 created: 2017-12-08
 taxonomy:
-  tag: [machine learning]
+  tag: [machine-learning]
   status: finished
 ---
 

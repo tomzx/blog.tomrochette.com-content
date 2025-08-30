@@ -2,9 +2,9 @@
 title: Starcraft
 created: 2018-12-29
 taxonomy:
-    type: post
-    status: draft
-    tag: [games]
+  type: post
+  status: draft
+  tag: [games]
 ---
 
 Authentication/Login server

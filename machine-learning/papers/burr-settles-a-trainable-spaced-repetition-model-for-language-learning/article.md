@@ -2,7 +2,7 @@
 title: Burr Settles - A Trainable Spaced Repetition Model for Language Learning (2016)
 created: 2018-02-01
 taxonomy:
-  tag: [machine learning]
+  tag: [machine-learning]
   status: finished
 ---
 

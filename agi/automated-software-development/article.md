@@ -2,7 +2,7 @@
 title: Automated software development
 created: 2017-10-07
 taxonomy:
-  tag: [artificial general intelligence]
+  tag: [artificial-general-intelligence]
   status: in progress
 ---
 

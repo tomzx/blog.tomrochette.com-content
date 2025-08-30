@@ -2,7 +2,7 @@
 title: General Learning Algorithms
 created: 2016-03-18
 taxonomy:
-  tag: [artificial general intelligence]
+  tag: [artificial-general-intelligence]
   status: finished
 ---
 

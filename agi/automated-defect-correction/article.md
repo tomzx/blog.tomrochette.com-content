@@ -3,7 +3,7 @@ title: Automated defect correction
 created: 2016-06-16
 taxonomy:
   status: in progress
-  tag: [artificial general intelligence]
+  tag: [artificial-general-intelligence]
 ---
 
 ## Context

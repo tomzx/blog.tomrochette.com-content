@@ -3,7 +3,7 @@ title: Data used to do time series forecasting
 created: 2020-03-19
 taxonomy:
   type: post
-  tag: [questions, time series, machine learning]
+  tag: [questions, time-series, machine-learning]
   status: finished
 ---
 

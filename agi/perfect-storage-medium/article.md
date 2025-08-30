@@ -2,7 +2,7 @@
 title: Perfect storage medium
 created: 2015-08-13
 taxonomy:
-  tag: [artificial general intelligence]
+  tag: [artificial-general-intelligence]
   status: in progress
 ---
 

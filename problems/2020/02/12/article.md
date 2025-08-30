@@ -3,7 +3,7 @@ title: Visual Studio Code Run Me extension
 created: 2020-02-12
 taxonomy:
   type: post
-  tag: [problems, visual studio code]
+  tag: [problems, visual-studio-code]
   status: finished
 ---
 

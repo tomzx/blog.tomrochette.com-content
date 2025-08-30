@@ -2,9 +2,9 @@
 title: My AGI journey
 created: 2015-11-13
 taxonomy:
-    type: post
-    tag: [ai, agi]
-    status: draft
+  type: post
+  tag: [ai, agi]
+  status: draft
 ---
 
 Over the next year (and hopefully years), I plan on working on AI, but more particularly what is known as AGI, Artificial General Intelligence.

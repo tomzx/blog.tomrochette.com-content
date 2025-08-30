@@ -2,7 +2,7 @@
 title: Marek Rosa - A Framework for Searching for General Artificial Intelligence (2016)
 created: 2017-02-17
 taxonomy:
-  tag: [artificial general intelligence]
+  tag: [artificial-general-intelligence]
   status: finished
 ---
 

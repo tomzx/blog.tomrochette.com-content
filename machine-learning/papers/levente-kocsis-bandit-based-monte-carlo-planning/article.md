@@ -2,7 +2,7 @@
 title: Levente Kocsis - Bandit based Monte-Carlo Planning (2006)
 created: 2017-12-08
 taxonomy:
-  tag: [machine learning]
+  tag: [machine-learning]
   status: finished
 ---
 

@@ -2,7 +2,7 @@
 title: Human as machines
 created: 2015-09-05
 taxonomy:
-  tag: [artificial general intelligence]
+  tag: [artificial-general-intelligence]
   status: in progress
 ---
 

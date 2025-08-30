@@ -3,7 +3,7 @@ title: Writing documentation
 created: 2020-02-24
 taxonomy:
   type: post
-  tag: [software development, processes]
+  tag: [software-development, processes]
   status: draft
 ---
 

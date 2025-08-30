@@ -4,7 +4,7 @@ created: 2024-11-17
 taxonomy:
   type: post
   status: draft
-  tag: [apache, flink, rate limiting]
+  tag: [apache, flink, rate-limiting]
 ---
 
 In this article we'll cover adding rate limiting to an Apache Flink pipeline. While Apache Flink already contains some APIs that implement some form of rate limiting indirectly, such as `AsyncDataStream` through a capacity limit which limits the number of concurrent executions, these do not rate limit directly.

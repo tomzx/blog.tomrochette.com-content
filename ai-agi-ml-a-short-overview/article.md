@@ -2,9 +2,9 @@
 title: AI/AGI/ML - A short overview
 created: 2017-12-15
 taxonomy:
-    type: post
-    status: finished
-    tag: [ai, agi, ml]
+  type: post
+  status: finished
+  tag: [ai, agi, ml]
 ---
 
 After having spent about 200 workdays of my life getting familiar with the fields of AI/AGI/ML, I think it is a good moment for me to reflect back on my learning experience.

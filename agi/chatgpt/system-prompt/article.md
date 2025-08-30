@@ -2,7 +2,7 @@
 title: System prompt
 created: 2025-07-24
 taxonomy:
-  tag: [artificial general intelligence, chatgpt]
+  tag: [artificial-general-intelligence, chatgpt]
   status: in progress
 ---
 

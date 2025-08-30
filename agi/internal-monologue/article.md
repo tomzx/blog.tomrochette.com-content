@@ -2,7 +2,7 @@
 title: Internal monologue
 created: 2016-11-25
 taxonomy:
-  tag: [artificial general intelligence]
+  tag: [artificial-general-intelligence]
   status: in progress
 ---
 

@@ -2,9 +2,9 @@
 title: Reusable writing
 created: 2018-02-17
 taxonomy:
-    type: post
-    tag: []
-    status: draft
+  type: post
+  tag: []
+  status: draft
 ---
 
 I'm a programmer. I like to write code and whenever I can, I like to reuse bits of code I've written in the past instead of writing it from scratch.

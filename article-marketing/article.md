@@ -4,7 +4,7 @@ created: 2021-03-07
 taxonomy:
 	type: post
 	status: draft
-	tag: [self-promotion]
+  tag: [self-promotion]
 ---
 
 * Follow people on twitter to increase potential followers count (bidirectional relationship)

@@ -2,7 +2,7 @@
 title: Alan Turing - Systems of Logic Based on Ordinals (1938)
 created: 2015-01-01
 taxonomy:
-  tag: [artificial general intelligence]
+  tag: [artificial-general-intelligence]
   status: in progress
 ---
 

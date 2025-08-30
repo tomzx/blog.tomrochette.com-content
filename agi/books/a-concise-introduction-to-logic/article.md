@@ -2,7 +2,7 @@
 title: Patrick J. Hurley - A Concise Introduction to Logic - 2014
 created: 2016-06-18
 taxonomy:
-  tag: [artificial general intelligence]
+  tag: [artificial-general-intelligence]
   status: finished
 ---
 

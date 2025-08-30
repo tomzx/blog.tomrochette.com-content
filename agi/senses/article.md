@@ -2,7 +2,7 @@
 title: Senses
 created: 2015-12-12
 taxonomy:
-  tag: [artificial general intelligence]
+  tag: [artificial-general-intelligence]
   status: in progress
 ---
 

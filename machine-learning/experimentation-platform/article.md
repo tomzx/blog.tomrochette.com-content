@@ -2,7 +2,7 @@
 title: Experimentation platform
 created: 2021-08-04
 taxonomy:
-  tag: [machine learning]
+  tag: [machine-learning]
   status: in progress
 ---
 

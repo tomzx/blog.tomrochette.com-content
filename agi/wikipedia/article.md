@@ -2,7 +2,7 @@
 title: Wikipedia
 created: 2016-01-29
 taxonomy:
-  tag: [artificial general intelligence]
+  tag: [artificial-general-intelligence]
   status: in progress
 ---
 

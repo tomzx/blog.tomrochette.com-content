@@ -2,8 +2,8 @@
 title: Business
 created: 2016-08-17
 taxonomy:
-    type: post
-    status: in progress
+  type: post
+  status: in progress
 ---
 
 * Identified a problem

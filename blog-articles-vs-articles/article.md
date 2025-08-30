@@ -2,9 +2,9 @@
 title: Blog articles vs articles
 created: 2017-12-08
 taxonomy:
-    type: post
-    status: finished
-    tag: [thought]
+  type: post
+  status: finished
+  tag: [thought]
 ---
 
 One thing I've been wondering about lately is when should one write blog articles (short articles ranging from 250 to 1000 words) or articles (1000+ words) which would be updated (in)frequently but not be as easily consumable.

@@ -3,7 +3,7 @@ title: RFC
 created: 2019-11-17
 taxonomy:
   type: post
-  tag: [teamwork, processes, software development]
+  tag: [teamwork, processes, software-development]
   status: draft
 ---
 

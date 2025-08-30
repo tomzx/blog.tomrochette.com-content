@@ -3,7 +3,7 @@ title: A general characteristic of simple programs that are able to learn comple
 created: 2020-01-09
 taxonomy:
   type: post
-  tag: [questions, artificial intelligence]
+  tag: [questions, artificial-intelligence]
   status: finished
 ---
 

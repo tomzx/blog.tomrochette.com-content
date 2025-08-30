@@ -3,7 +3,7 @@ title: AGI design
 created: 2016-03-06
 taxonomy:
   status: in progress
-  tag: [artificial general intelligence]
+  tag: [artificial-general-intelligence]
 ---
 
 ## Context

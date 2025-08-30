@@ -2,7 +2,7 @@
 title: Kun Xie - Brain Computation Is Organized via Power-of-Two-Based Permutation Logic (2016)
 created: 2017-04-13
 taxonomy:
-  tag: [artificial general intelligence]
+  tag: [artificial-general-intelligence]
   status: finished
 ---
 

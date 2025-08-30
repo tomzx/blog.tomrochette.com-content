@@ -2,7 +2,7 @@
 title: Paul R. Halmos - Naive Set Theory - 1960
 created: 2016-01-14
 taxonomy:
-  tag: [artificial general intelligence]
+  tag: [artificial-general-intelligence]
   status: in progress
 ---
 

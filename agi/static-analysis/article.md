@@ -2,7 +2,7 @@
 title: Static analysis
 created: 2016-09-15
 taxonomy:
-  tag: [artificial general intelligence]
+  tag: [artificial-general-intelligence]
   status: in progress
 ---
 

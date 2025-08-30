@@ -2,7 +2,7 @@
 title: "Jürgen Schmidhuber - The New AI: General & Sound & Relevant for Physics (2007)"
 created: 2016-03-10
 taxonomy:
-  tag: [artificial general intelligence]
+  tag: [artificial-general-intelligence]
   status: finished
 ---
 

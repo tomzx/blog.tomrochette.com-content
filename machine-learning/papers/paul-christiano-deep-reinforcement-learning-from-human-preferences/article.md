@@ -2,7 +2,7 @@
 title: Paul Christiano - Deep Reinforcement Learning from Human Preferences (2017)
 created: 2017-08-05
 taxonomy:
-  tag: [machine learning]
+  tag: [machine-learning]
   status: finished
 ---
 

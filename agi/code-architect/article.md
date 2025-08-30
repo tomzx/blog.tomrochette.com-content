@@ -2,7 +2,7 @@
 title: Code architect
 created: 2019-01-19
 taxonomy:
-  tag: [artificial general intelligence]
+  tag: [artificial-general-intelligence]
   status: in progress
 ---
 

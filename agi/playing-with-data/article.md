@@ -2,7 +2,7 @@
 title: Playing with data
 created: 2015-09-01
 taxonomy:
-  tag: [artificial general intelligence]
+  tag: [artificial-general-intelligence]
   status: in progress
 ---
 

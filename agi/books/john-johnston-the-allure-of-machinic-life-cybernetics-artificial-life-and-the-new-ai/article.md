@@ -2,7 +2,7 @@
 title: "John Johnston - The Allure of Machinic Life: Cybernetics, Artificial Life, and the New AI - 2008"
 created: 2017-10-12
 taxonomy:
-  tag: [artificial general intelligence]
+  tag: [artificial-general-intelligence]
   status: in progress
 ---
 

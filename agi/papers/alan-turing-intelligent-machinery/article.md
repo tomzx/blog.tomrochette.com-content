@@ -2,7 +2,7 @@
 title: Alan Turing - Intelligent Machinery (1948)
 created: 2015-10-08
 taxonomy:
-  tag: [artificial general intelligence]
+  tag: [artificial-general-intelligence]
   status: finished
 ---
 

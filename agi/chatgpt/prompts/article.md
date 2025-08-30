@@ -2,7 +2,7 @@
 title: Prompts
 created: 2023-05-18
 taxonomy:
-  tag: [artificial general intelligence, chatgpt]
+  tag: [artificial-general-intelligence, chatgpt]
   status: in progress
 ---
 

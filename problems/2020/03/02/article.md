@@ -3,7 +3,7 @@ title: Quickly recording notes using VS Code
 created: 2020-03-02
 taxonomy:
   type: post
-  tag: [problems, visual studio code]
+  tag: [problems, visual-studio-code]
   status: finished
 ---
 

@@ -2,7 +2,7 @@
 title: What do I know about AI
 created: 2015-09-07
 taxonomy:
-  tag: [artificial general intelligence]
+  tag: [artificial-general-intelligence]
   status: finished
 ---
 
