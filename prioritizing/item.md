@@ -21,10 +21,6 @@ After a certain number of iterations of the previous step, you should arrive at 
 ## 4 Quadrants Method
 This method, also known as the Eisenhower Matrix, involves categorizing tasks into four groups: Urgent/Important, Not Urgent/Important, Urgent/Not Important, and Not Urgent/Not Important. By sorting tasks this way, you can focus on what truly matters and avoid spending time on less critical activities.
 
-
-
-
-
 ## Analytic Hierarchy Process
 The Analytic Hierarchy Process (AHP) is a structured technique for organizing and analyzing complex decisions. It involves breaking down a problem into its components, comparing them pairwise, and assigning weights to determine the relative priority of each task.
 
@@ -36,7 +32,6 @@ The Planning Game is a collaborative method often used in agile development, whe
 
 ## 100-Point Method
 In the 100-Point Method, each participant is given 100 points to distribute among a list of tasks or requirements according to their perceived importance. The tasks with the highest total points are prioritized, reflecting the collective preferences of the group.
-
 
 # Prioritizing reading
 * What you feel like reading
