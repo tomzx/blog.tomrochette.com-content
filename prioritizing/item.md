@@ -3,7 +3,7 @@ title: Prioritizing
 created: 2017-01-07
 taxonomy:
   type: post
-  tag: [priority, prioritization, planning, partially-ai-generated, llm=chatgpt-4.1]
+  tag: [priority, prioritization, planning]
 ---
 
 # Steps
@@ -17,20 +17,17 @@ The idea here is to quickly filter out as many tasks as possible. As you may hav
 * Prioritize the tasks that will have to be done
 After a certain number of iterations of the previous step, you should arrive at a point where the items you have all need to be done, but you do not know in which order you have to do them (or want to do them).
 
-## 4 Quadrants Method
-This method, also known as the Eisenhower Matrix, involves categorizing tasks into four groups: Urgent/Important, Not Urgent/Important, Urgent/Not Important, and Not Urgent/Not Important. By sorting tasks this way, you can focus on what truly matters and avoid spending time on less critical activities.
+# Methods
+## 4 quadrants method
+Urgent/Important
+Not Urgent/Important
+Urgent/Not Important
+Not Urgent/Not Important
 
 ## Analytic Hierarchy Process
-The Analytic Hierarchy Process (AHP) is a structured technique for organizing and analyzing complex decisions. It involves breaking down a problem into its components, comparing them pairwise, and assigning weights to determine the relative priority of each task.
-
 ## Binary Search Tree
-Using a binary search tree for prioritization means inserting tasks based on their priority value, allowing for efficient retrieval and reordering. This approach is useful for dynamically managing and updating a list of tasks as priorities change.
-
 ## Planning Game
-The Planning Game is a collaborative method often used in agile development, where stakeholders and team members estimate and prioritize tasks together. It encourages discussion, negotiation, and consensus to determine which tasks should be tackled first.
-
 ## 100-Point Method
-In the 100-Point Method, each participant is given 100 points to distribute among a list of tasks or requirements according to their perceived importance. The tasks with the highest total points are prioritized, reflecting the collective preferences of the group.
 
 # Prioritizing reading
 * What you feel like reading
