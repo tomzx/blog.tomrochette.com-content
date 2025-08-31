@@ -8,10 +8,10 @@ taxonomy:
 ---
 
 * Code changes are stored in git
-* Setup continuous integration
-* Have a testing framework
-* Use dependency management
-* Define a code standard
+* Setup continuous integration (e.g., GitHub Actions)
+* Use dependency management (e.g., uv)
+* Have a testing framework (e.g., pytest)
+* Define a code standard, enforced through tools and not documentation (e.g., )
 * Prefer function/method typing over dynamic types
 * On every push to git
 	* Code quality check
