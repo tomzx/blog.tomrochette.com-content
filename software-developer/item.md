@@ -2,7 +2,7 @@
 title: Software developer
 created: 2009-04-26T22:53:36-05:00
 taxonomy:
-    type: post
+  type: post
   tag: [computers, joke]
 ---
 
