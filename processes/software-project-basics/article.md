@@ -3,7 +3,7 @@ title: Software project basics
 created: 2019-05-25
 taxonomy:
   type: post
-  tag: [software-development, processes, ai-feedback, llm=openai/gpt-oss-120b]
+  tag: [software-development, processes, ai-feedback, llm=gpt-oss-120b]
   status: draft
 ---
 
