@@ -2,7 +2,7 @@
 title: Shared network computers not showing up in Leopard
 created: 2008-01-12T01:02:48-05:00
 taxonomy:
-    type: post
+  type: post
   tag: [computers, network, mac-os-x, leopard]
 ---
 
