@@ -2,7 +2,7 @@
 title: Short SSD setup guide
 created: 2013-01-05T08:12:09-05:00
 taxonomy:
-    type: post
+  type: post
   tag: [computers, ssd]
 ---
 
