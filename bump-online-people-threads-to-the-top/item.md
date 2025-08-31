@@ -2,7 +2,7 @@
 title: Bump online people threads to the top
 created: 2006-05-09T03:54:43-05:00
 taxonomy:
-    type: post
+  type: post
   tag: [sites, forum]
 ---
 
