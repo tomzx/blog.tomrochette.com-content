@@ -20,6 +20,10 @@ taxonomy:
 		* Code coverage should be recorded during tests and a report made available
 * Prior to pushing
 	* Use an LLM tool to review the changes to identify potential issues
+* On pushes, the CI should
+	* Code quality check
+  * Code style check
+  * Unit/functional/integration/system tests
 * A project repository must have
 	* a `README.md` explaining how to run the project on your own computer
 	* a `RELEASING.md` explaining how to release the code
