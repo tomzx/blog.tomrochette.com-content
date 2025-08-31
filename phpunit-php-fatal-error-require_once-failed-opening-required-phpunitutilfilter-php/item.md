@@ -2,7 +2,7 @@
 title: "PHPUnit - PHP Fatal error: require_once(): Failed opening required 'PHPUnit/Util/Filter.php'"
 created: 2011-11-26T00:14:53-05:00
 taxonomy:
-    type: post
+  type: post
   tag: [programming, php, phpunit]
 ---
 
