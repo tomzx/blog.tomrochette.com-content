@@ -2,7 +2,7 @@
 title: PHPUnit not outputting coverage-html
 created: 2011-10-25T01:31:45-05:00
 taxonomy:
-    type: post
+  type: post
   tag: [programming, code-coverage, php, phpunit]
 ---
 
