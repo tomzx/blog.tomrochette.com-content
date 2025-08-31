@@ -2,7 +2,7 @@
 title: Redirect to www
 created: 2006-06-04T06:28:16-05:00
 taxonomy:
-    type: post
+  type: post
   tag: [sites, apache, .htaccess, rewriterule]
 ---
 
