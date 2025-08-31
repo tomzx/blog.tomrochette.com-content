@@ -2,7 +2,7 @@
 title: PHPUnit - No coverage report
 created: 2012-08-05T02:20:34-05:00
 taxonomy:
-post
+    type: post
   tag: [programming, code-coverage, php, phpunit]
 ---
 
