@@ -2,7 +2,7 @@
 title: Serializing "anything" in C# using extensions
 created: 2011-06-05T04:22:07-05:00
 taxonomy:
-    type: post
+  type: post
   tag: [programming, c, extensions, serialization]
 ---
 
