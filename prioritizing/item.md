@@ -2,7 +2,7 @@
 title: Prioritizing
 created: 2017-01-07
 taxonomy:
-    type: post
+  type: post
   tag: [priority, prioritization, planning]
 ---
 
