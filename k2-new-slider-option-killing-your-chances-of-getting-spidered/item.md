@@ -2,7 +2,7 @@
 title: "K2 new slider option: killing your chances of getting spidered?"
 created: 2006-05-25T06:16:50-05:00
 taxonomy:
-    type: post
+  type: post
   tag: [sites, k2, themes, wordpress, web-crawler]
 ---
 
