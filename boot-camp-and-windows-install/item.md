@@ -2,7 +2,7 @@
 title: Boot Camp and Windows install
 created: 2007-11-12T01:30:14-05:00
 taxonomy:
-    type: post
+  type: post
   tag: [windows, mac-os-x, bootcamp]
 ---
 
