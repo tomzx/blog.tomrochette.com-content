@@ -4,7 +4,7 @@ created: 2025-08-31
 taxonomy:
   type: post
   status: draft
-  tag: [efficiency, effectiveness, productivity, fully-ai-generated]
+  tag: [efficiency, effectiveness, productivity, fully-ai-generated, llm=chatgpt-4.1]
 ---
 In software development, understanding the difference between being effective and being efficient is crucial for delivering high-quality products.
 
