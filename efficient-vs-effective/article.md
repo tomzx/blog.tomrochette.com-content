@@ -3,7 +3,7 @@ title: Effective vs efficient
 created: 2025-08-31
 taxonomy:
   type: post
-  status: draft
+  status: finished
   tag: [efficiency, effectiveness, productivity, fully-ai-generated, llm=chatgpt-4.1]
 ---
 
