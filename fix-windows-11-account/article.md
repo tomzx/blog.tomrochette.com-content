@@ -3,7 +3,7 @@ title: Fix Windows 11 account
 created: 2025-09-03
 taxonomy:
   type: post
-  status: draft
+  status: finished
   tag: [windows]
 ---
 
