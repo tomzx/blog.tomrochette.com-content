@@ -35,3 +35,4 @@ Content written using [ChatGPT](https://chat.openai.com/), prompted by yours tru
 
 ## Stories
 * [Seed AI](seed-ai-story/article.md)
+* [Work jail](work-jail/article.md)
