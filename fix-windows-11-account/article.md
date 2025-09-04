@@ -8,5 +8,6 @@ taxonomy:
 ---
 
 Go to Settings &rarr; Accounts &rarr; Your info.
+Click on "Sign in with a local account instead".
 
 ![Fix Windows 11 account](local-account.png)
