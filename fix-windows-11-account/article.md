@@ -7,7 +7,7 @@ taxonomy:
   tag: [windows, 11]
 ---
 
-Go to Settings &rarr; Accounts &rarr; Your info.
+* Go to Settings &rarr; Accounts &rarr; Your info.
 Click on "Sign in with a Microsoft account instead".
 
 ![Fix Windows 11 account](local-account.png)
