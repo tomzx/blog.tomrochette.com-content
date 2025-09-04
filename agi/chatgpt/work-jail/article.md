@@ -1,3 +1,11 @@
+---
+title: Story: Work jail
+created: 2025-09-03
+taxonomy:
+  status: finished
+  tag: [artificial-general-intelligence, story, fully-ai-generated, llm=chatgpt-5]
+---
+
 Ethan’s eyes burned as he stared at the ceiling in the dark. It was past midnight, yet his mind churned with lines of code, bug reports, and deadlines. He could hear the faint hum of his laptop from across the room, the machine sleeping—but his brain never did.
 
 He wasn’t in the office. He wasn’t even near his desk. But he might as well have been shackled there. Every time he tried to drift into sleep, a stray thought would pierce through: Did I fix that memory leak? What if the deployment fails tomorrow?
