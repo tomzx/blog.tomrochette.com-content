@@ -4,7 +4,7 @@ created: 2025-09-03
 taxonomy:
   type: post
   status: draft
-  tag: [windows, 11]
+  tag: [windows]
 ---
 
 I recently moved to Windows 11.
