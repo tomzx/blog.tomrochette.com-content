@@ -11,6 +11,7 @@ I recently moved to Windows 11.
 I had created only a local account during creation but at some point I configured OneDrive to use my wife's account.
 This resulted in her account being bound as the "primary" account of the computer.
 This is not what I wanted.
+
 I looked online for a solution but all the instructions I found didn't have the screen I had.
 I initially tried a regedit fix but it didn't work.
 
