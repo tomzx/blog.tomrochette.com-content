@@ -17,9 +17,10 @@ I initially tried a regedit fix but it didn't work.
 Here is how I fixed it:
 
 * Go to Settings > Accounts > Your info.
-* This is the "weird part" Click on "Sign in with a Microsoft account instead".
+* This is the "weird part", click on "Sign in with a Microsoft account instead".
 
 ![Fix Windows 11 account](local-account.png)
 
 * Follow the instructions using a different account.
-* The previous account will be removed from the computer and you will now be using a local account.
+* The previous account will be "detached" from the computer and you will now be using a local account.
+* If you go in Settings > Accounts > Email & accounts, you will see that the previous account is now listed under "Accounts used by other apps".
