@@ -7,4 +7,6 @@ taxonomy:
   tag: [windows, 11]
 ---
 
+Go to Settings &rarr; Accounts &rarr; Your info.
+
 ![Fix Windows 11 account](local-account.png)
