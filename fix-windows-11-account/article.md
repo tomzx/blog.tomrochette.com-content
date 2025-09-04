@@ -23,4 +23,6 @@ Here is how I fixed it:
 
 * Follow the instructions using a different account.
 * The previous account will be "detached" from the computer and you will now be using a local account.
-* If you go in Settings > Accounts > Email & accounts, you will see that the previous account is now listed under "Accounts used by other apps".
+* If you go in Settings > Accounts > Email & accounts, you will see that the previous account is still listed under "Accounts used by other apps" but that you can now remove it (which you couldn't do previously).
+
+Hope this helps!
