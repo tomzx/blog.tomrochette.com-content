@@ -24,8 +24,8 @@ taxonomy:
 # Reviews
 * [OpenChatKit](reviews/openchatkit/article.md)
 
-# Written by ChatGPT
-Content written using [ChatGPT](https://chat.openai.com/), prompted by yours truly.
+# Written by LLMs
+Content written using LLMs, prompted by yours truly.
 
 ## Random
 * [AI teacher/student metaphor](ai-teacher-student-metaphor/article.md)
