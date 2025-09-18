@@ -24,8 +24,8 @@ taxonomy:
 # Reviews
 * [OpenChatKit](reviews/openchatkit/article.md)
 
-# Written by ChatGPT
-Content written using [ChatGPT](https://chat.openai.com/), prompted by yours truly.
+# Written by LLMs
+Content written using LLMs, prompted by yours truly.
 
 ## Random
 * [AI teacher/student metaphor](ai-teacher-student-metaphor/article.md)
@@ -34,5 +34,6 @@ Content written using [ChatGPT](https://chat.openai.com/), prompted by yours tru
 * [Multi-dimensional time](multi-dimensional-time/article.md)
 
 ## Stories
+* [The debug loop](the-debug-loop/article.md)
 * [Seed AI](seed-ai-story/article.md)
 * [Work jail](work-jail/article.md)
