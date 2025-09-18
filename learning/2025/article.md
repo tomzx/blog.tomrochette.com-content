@@ -13,10 +13,10 @@ taxonomy:
 * Multi-node training and inference
 * DeepSpeed
 * Claude code
+* How to use LLM more in my development process
 
 # TODO
 * CometML
-* How to use LLM more in my development process
 * ML model profiling and optimization
 * GCP GCS performance profiling
 * NVIDIA MPS
@@ -25,3 +25,5 @@ taxonomy:
 * NVIDIA vGPU
 * NVIDIA KAI scheduler
 * NVIDIA run:ai
+* Kueue
+* Kyverno
