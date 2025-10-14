@@ -16,7 +16,7 @@ I haven't really picked any frontend libraries or frameworks, just vanilla HTML/
 That is something I need to explore (e.g., react, svelte, solid, tailwind, vue.js, etc.) but for now I want to keep things simple.
 
 For the past few projects I've used Claude Code.
-I ask it to create the common Claude.md
+I ask it to create the common `CLAUDE.md`, and additional to maintain a `SPEC.md` file that describes the features of the application.
 
 # The template
 
