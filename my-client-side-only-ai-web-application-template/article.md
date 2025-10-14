@@ -1,9 +1,9 @@
 ---
-title: My client-side only AI web application template
+title: My client-side only AI web application workflow
 created: 2025-10-13
 taxonomy:
   type: post
-  tag: [templates, ai, web, javascript]
+  tag: [template, workflow, ai, web, javascript]
   status: draft
 ---
 
