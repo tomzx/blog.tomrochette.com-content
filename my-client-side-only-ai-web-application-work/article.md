@@ -16,7 +16,10 @@ I haven't really picked any frontend libraries or frameworks, just vanilla HTML/
 That is something I need to explore (e.g., react, svelte, solid, tailwind, vue.js, etc.) but for now I want to keep things simple.
 
 For the past few projects I've used Claude Code.
-I ask it to create the common `CLAUDE.md`, and additional to maintain a `SPEC.md` file that describes the features of the application.
+I ask Claude to create the common `CLAUDE.md`.
+Additionally, I ask Claude to maintain a `SPEC.md` file that describes the features of the application.
+In many cases the database relies on the browser's `localStorage` API and IndexedDB to store data, which is sufficient for my needs.
+I ask Claude to maintain a `DATABASE_SPEC.md` file to describe the database schema.
 
 # The template
 
