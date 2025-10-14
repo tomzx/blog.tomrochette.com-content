@@ -25,7 +25,7 @@ While it is ok for the first few iterations of the project, I usually ask Claude
 Doing so speeds up some of the iteration process since it doesn't end up reading large irrelevant chunks of the file when making edits.
 It also makes it easier to review changes since I use the files modified as an indication of whether it worked on the right part of the codebase.
 
-The main downside of this approach is that generally the `app.js` file ends up being quite large (e.g., 1000+ lines of code) since it contains all the events hooking up logic.
+The main downside of this approach is that generally the `app.js` file ends up being quite large (e.g., 1000+ lines of code) since it contains all kind of global state and logic.
 
 # The template
 
