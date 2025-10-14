@@ -7,7 +7,7 @@ taxonomy:
   status: draft
 ---
 
-Over the past
+Over the past month I've started building a client-side only AI web application. This is a template for such applications.
 
 * Use an `importmap` and javascript modules
 * Imports
