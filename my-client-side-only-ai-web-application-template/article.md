@@ -7,7 +7,7 @@ taxonomy:
   status: draft
 ---
 
-Over the past month I've started building client-side only AI web applications (e.g., [ai-text-editor](https://github.com/TomzxCode/ai-text-editor), a private ).
+Over the past month I've started building client-side only AI web applications (e.g., [ai-text-editor](https://github.com/TomzxCode/ai-text-editor), a private ai-language-assistant to teach myself Chinese Mandarin).
 I've gone with this approach because it lends itself very well to vibe coding with [vibe-kanban](https://www.vibekanban.com/) where I've configured the "Dev Server Script" option to open the `index.html` file in my browser and it would work immediately, no need to build assets or start a backend server.
 
 * Use an `importmap` and javascript modules
