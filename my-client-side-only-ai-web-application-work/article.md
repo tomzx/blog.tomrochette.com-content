@@ -20,6 +20,12 @@ I ask Claude to create the common `CLAUDE.md`.
 Additionally, I ask Claude to maintain a `SPEC.md` file that describes the features of the application.
 In many cases the database relies on the browser's `localStorage` API and IndexedDB to store data, which is sufficient for my needs.
 I ask Claude to maintain a `DATABASE_SPEC.md` file to describe the database schema.
+Claude typically goes for a `index.html`, `app.js`, and `styles.css` file structure.
+While it is ok for the first few iterations of the project, I usually ask Claude to refactor the code to split it into multiple files and modules as the codebase grows.
+Doing so speeds up some of the iteration process since it doesn't end up reading large irrelevant chunks of the file when making edits.
+It also makes it easier to review changes since I use the files modified as an indication of whether it worked on the right part of the codebase.
+
+The main downside of this approach is that generally the `app.js` file ends up being quite large (e.g., 1000+ lines of code) since it contains all the events hooking up logic.
 
 # The template
 
