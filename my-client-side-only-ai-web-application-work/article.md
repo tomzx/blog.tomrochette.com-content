@@ -11,6 +11,8 @@ Over the past month I've started building client-side only AI web applications (
 I've gone with this approach because it lends itself very well to vibe coding with [vibe-kanban](https://www.vibekanban.com/).
 I've configured the `Dev Server Script` option to open the `index.html` file in my browser and it works immediately, no need to build assets or start a backend server.
 This speeds up iteration cycle considerably.
+This approach is also great because it produces a tool that can then be used directly in the browser from any device, without needing to install anything.
+I can run what I built on my phone, on my work computer, one someone else's computer easily by pointing them out to the project's GitHub Pages URL which serves the application and is "production" ready.
 
 I haven't really picked any frontend libraries or frameworks, just vanilla HTML/CSS/JS.
 That is something I need to explore (e.g., react, svelte, solid, tailwind, vue.js, etc.) but for now I want to keep things simple.
