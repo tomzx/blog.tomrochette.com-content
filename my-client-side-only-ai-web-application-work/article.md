@@ -27,6 +27,8 @@ It also makes it easier to review changes since I use the files modified as an i
 
 The main downside of this approach is that generally the `app.js` file ends up being quite large (e.g., 1000+ lines of code) since it contains all kind of global state and logic.
 
+With this approach I've been able to fairly effectively work on small projects (~40 hours of work) and get something functional out the door that would have taken me weeks and where I'd probably have given up mid-project due to all kind of minor problems.
+
 # The template
 
 * Use an `importmap` and javascript modules
