@@ -8,7 +8,7 @@ taxonomy:
 ---
 
 Over the past month I've started building a client-side only AI web application.
-I've gone with this approach because it lends itself very well to vibe coding with vibe-kanban
+I've gone with this approach because it lends itself very well to vibe coding with [vibe-kanban](https://www.vibekanban.com/)
 
 * Use an `importmap` and javascript modules
 * Imports
