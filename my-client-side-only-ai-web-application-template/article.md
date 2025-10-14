@@ -7,8 +7,8 @@ taxonomy:
   status: draft
 ---
 
-Over the past month I've started building a client-side only AI web application.
-I've gone with this approach because it lends itself very well to vibe coding with [vibe-kanban](https://www.vibekanban.com/)
+Over the past month I've started building client-side only AI web applications.
+I've gone with this approach because it lends itself very well to vibe coding with [vibe-kanban](https://www.vibekanban.com/) where I've configured the "Dev Server Script" option to open the `index.html` file in my browser and it would work immediately, no need to build assets or start a backend server.
 
 * Use an `importmap` and javascript modules
 * Imports
