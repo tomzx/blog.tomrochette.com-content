@@ -12,6 +12,9 @@ I've gone with this approach because it lends itself very well to vibe coding wi
 I've configured the `Dev Server Script` option to open the `index.html` file in my browser and it works immediately, no need to build assets or start a backend server.
 This speeds up iteration cycle considerably.
 
+I haven't really picked any frontend libraries or frameworks, just vanilla HTML/CSS/JS.
+That is something I need to explore (e.g., react, svelte, solid, etc.) but for now I want to keep things simple.
+
 # The template
 
 * Use an `importmap` and javascript modules
