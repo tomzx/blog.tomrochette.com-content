@@ -7,5 +7,5 @@ taxonomy:
   status: draft
 ---
 
-* Use an importmap and
+* Use an importmap and javascript modules
 * llm.js
