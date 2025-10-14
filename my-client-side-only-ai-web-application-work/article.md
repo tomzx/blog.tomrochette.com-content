@@ -15,6 +15,9 @@ This speeds up iteration cycle considerably.
 I haven't really picked any frontend libraries or frameworks, just vanilla HTML/CSS/JS.
 That is something I need to explore (e.g., react, svelte, solid, tailwind, vue.js, etc.) but for now I want to keep things simple.
 
+For the past few projects I've used Claude Code.
+I ask it to create the common Claude.md
+
 # The template
 
 * Use an `importmap` and javascript modules
