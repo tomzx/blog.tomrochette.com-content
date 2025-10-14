@@ -7,5 +7,5 @@ taxonomy:
   status: draft
 ---
 
-* Use an importmap and javascript modules
-* llm.js
+* Use an `importmap` and javascript modules
+* [llm.js](https://github.com/themaximalist/llm.js) to do LLM calls directly from the browser
