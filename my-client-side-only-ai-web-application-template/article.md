@@ -7,7 +7,8 @@ taxonomy:
   status: draft
 ---
 
-Over the past month I've started building a client-side only AI web application. This is a template for such applications.
+Over the past month I've started building a client-side only AI web application.
+I've gone with this approach because it lends itself very well to vibe coding with vibe-kanban
 
 * Use an `importmap` and javascript modules
 * Imports
