@@ -66,18 +66,18 @@ The ROI metric will also give you clues about the task you should probably not s
 If you've never done task management before, I suggest you do not start by applying all the above at once. First, start by simply recording the tasks you need to get done (title only). Once you've recorded most of the tasks you have to deal with, start giving them an important/urgent assignation. It will help you rapidly determine which tasks should be done and which ones are nice to have, but not critical, or even not really useful if you think about it. Once you are able to have this information for most of your tasks, then you should start giving them effort and value estimates. Once you've reached this point, you will have a much better grasp on the importance of your tasks, as well as their potential impact in terms of value, as well as to the amount of effort it will require from you.
 
 # Fields
-* Title
-* Labels
-* Status
-* Assignee
-* Important 
-* Urgent
-* Estimated effort
-* Estimated value
-* Description
-* Deadline
-* Who requested
-* Who is impacted
+* Title (string): a high level description of the task in one sentence.
+* Labels: a set of short identifiers relevant to the task.
+* Status: the status of the task (see Statuses above).
+* Assignee: who is assigned to complete the task.
+* Important: is it important or not?
+* Urgent: is it urgent or not?
+* Estimated effort: effort to complete the task (in hours).
+* Estimated value: estimated value of completing the task (in $).
+* Description: a long description of what the task is about, possibly containing more context and a TODO list.
+* Deadline: a time by which the task should be done or may result in the task losing value or causing issues.
+* Who requested: the person who requested the task to be completed.
+* Who is impacted: the people that will be impacted by the completion of the task.
 
 # Notes
 * Tasks should not remain in the "in progress" state for extended periods of time. After approximately a week in that state, I would suggest re-evaluating whether this task is still in progress or should be moved back into the backlog, queue, scheduled or today state. The same should apply to the waiting and blocked states.
