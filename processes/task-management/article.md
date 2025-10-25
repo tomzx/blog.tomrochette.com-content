@@ -19,6 +19,8 @@ taxonomy:
 * Give a description if necessary
 * Set a deadline if possible
 * Set status to Unprioritized
+* Indicate who requested the task
+* Indicate which users/how many users would be affected by the task
 
 ![Task creation](images/Task-creation.png)
 
