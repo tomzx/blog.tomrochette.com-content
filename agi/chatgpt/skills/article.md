@@ -25,7 +25,7 @@ What are some skills that an AGI based on ChatGPT would need to have?
 
 # Generate code
 * For the purpose of our studies we will try to limit ourselves to using the Python programming language as it should be versatile enough to complete a wide variety of tasks. Furthermore ChatGPT is likely to have been trained on a lot of Python code, so it should be able to generate fairly good Python code that does not require a lot of manual tweaking or iterations.
-* We will assume that the code generated is not reusable and single use. The reason we make this assumption is because we want to avoid having to have a separate steps that determines when we should be calling this generated code. As such, when we have generated code, we will execute it immediately, and then continue with the next step of the plan.
+* We will assume that the code generated is not reusable and single use. The reason we make this assumption is because we want to avoid the need for a separate steps that determines when we should be calling this generated code. As such, when we have generated code, we will execute it immediately, and then continue with the next step of the plan.
 
 # Execute code
 * Once ChatGPT has generated python code, it needs to be able to execute it. As we do not want to have to worry about what the script does, we will need to run it in a sandboxed environment.
