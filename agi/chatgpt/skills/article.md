@@ -48,7 +48,7 @@ What are some skills that an AGI based on ChatGPT would need to have?
 * If we're in a prompt-response loop, we need to be able to break out of it.
 * At a high level, identifying that we're in a prompt-response loop is difficult. We could ask ChatGPT whether it thinks that the last few prompt-response are somewhat identical, and if so, we could ask it to prompt the operator for help.
 * Ideally we would want to avoid having to do prompt-response loop detection, possibly by tracking some form of plan and identifying when we're not making progress towards the next step. This could be done for example, by recording how many prompt-response cycles we've done for a given step of a plan and prompting ChatGPT for a status update.
-* A non automated way to prevent infinite prompt-response loops is to have an operator review the operation logs every X steps and identify when the operation is stuck in a prompt-response loop.
+* A non automated way to prevent infinite prompt-response loops is to have an operator review the operation logs every X steps and identify when ChatGPT is stuck in a prompt-response loop.
 * See [Preventing repetition](../preventing-repetition/article.md)
 
 # Unsorted
