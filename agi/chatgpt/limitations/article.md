@@ -8,6 +8,9 @@ taxonomy:
 
 ## Context
 
+LLMs have limitations.
+The goal of this study is to identify those limitations in the context of building an AGI based on ChatGPT.
+
 ## Learned in this study
 
 ## Things to explore
