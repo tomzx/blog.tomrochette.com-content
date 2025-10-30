@@ -2,7 +2,7 @@
 title: Preventing repetition
 created: 2023-04-23
 taxonomy:
-  tag: [artificial-general-intelligence, chatgpt]
+  tag: [artificial-general-intelligence, chatgpt, llm=chatgpt-3]
   status: in progress
 ---
 
