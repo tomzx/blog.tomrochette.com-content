@@ -30,6 +30,7 @@ What are some skills that an AGI based on ChatGPT would need to have?
 # Execute code
 * Once ChatGPT has generated Python code, it needs to be able to execute it. As we do not want to have to worry about what the script does, we will need to run it in a sandboxed environment.
 * For now we're mostly concerned about the generated code trying to delete files on the system. A simple solution to this approach would be to have the file system containing the operating system, generated code and Python libraries be read-only. This would prevent the generated code from deleting files, but it would also prevent it from writing files. We can allow it to write files to a temporary working directory.
+  * Alternatively, let it run in a containerized environment where it can do whatever it wants whether affecting the host system.
 
 # Identify useful behavior that can be reused
 * As ChatGPT goes through the motion of solving problems, certain actions and behaviors will be repeated over and over again, the same way a function gets called over and over during program execution. We need to be able to identify those behaviors and extract them into reusable functions.
