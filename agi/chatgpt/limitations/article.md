@@ -43,7 +43,7 @@ Here we're already faced with the [halting problem](https://en.wikipedia.org/wik
 
 ## Long term memory
 As ChatGPT uses context to generate output, it is limited by the length of this context.
-While it is possible to increase the context size, it is not possible to increase it indefinitely.
+While it is possible to increase the context size, it is not possible to increase it infinitely (yet).
 Encoding a set of results in a format that is unfamiliar to ChatGPT will result in it being unable to make use of this encoded knowledge.
 As such, it means that we need to produce answers that remain within the same realm of vocabulary.
 
