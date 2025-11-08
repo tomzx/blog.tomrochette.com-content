@@ -53,7 +53,7 @@ It is common to ask ChatGPT to behave a certain way in order to modulate its out
 While this may work for a few prompts, ChatGPT will soon revert to its default behavior, forgetting to respect whatever constraint you might have imposed on it in prior prompts.
 
 As of 2025-11-08 we're seeing memory become a feature offered by OpenAI and Anthropic.
-Anthropic even generates a profile of the user based on prior conversations.
+Anthropic even generates a profile of the user based on prior conversations which they say is regenerated every night.
 
 ## Rate limits
 While only a technical limitation, if you plan on running many agents in parallel you will need to consider the rate limits imposed.
