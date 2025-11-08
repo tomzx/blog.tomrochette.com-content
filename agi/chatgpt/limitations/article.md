@@ -36,7 +36,8 @@ The agents fall short mainly in the human interaction department.
 While it generates text responses, it is not always clear whether those responses are appropriate and whether they will lead to the desired outcome.
 For the sake of this argument, we could imagine ChatGPT returning as a task to generate a program that will execute a `while true` loop.
 This indicates that we need to set a timeout on any execution of code as to prevent it from getting stuck at a given step.
-We may alternatively run steps outside of the main execution loop. We however will need to find a way to increase the timeout when necessary if execution requires it (e.g., training a machine learning model that takes hours).
+We may alternatively run steps outside of the main execution loop.
+We however will need to find a way to increase the timeout when necessary if execution requires it (e.g., training a machine learning model that takes hours).
 Here we're already faced with the [halting problem](https://en.wikipedia.org/wiki/Halting_problem).
 
 ## Long term memory
