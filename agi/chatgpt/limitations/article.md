@@ -38,7 +38,8 @@ For the sake of this argument, we could imagine ChatGPT returning as a task to g
 This indicates that we need to set a timeout on any execution of code as to prevent it from getting stuck at a given step.
 We may alternatively run steps outside of the main execution loop.
 We however will need to find a way to increase the timeout when necessary if execution requires it (e.g., training a machine learning model that takes hours).
-Here we're already faced with the [halting problem](https://en.wikipedia.org/wiki/Halting_problem).
+Ideally the LLM is able to inspect the code it generated and reason about whether it will terminate or not.
+Here we're already faced with the [halting problem](https://en.wikipedia.org/wiki/Halting_problem), where it's impossible to determine whether a given program will finish running or continue indefinitely.
 
 ## Long term memory
 As ChatGPT uses context to generate output, it is limited by the length of this context.
