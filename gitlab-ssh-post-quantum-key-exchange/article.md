@@ -17,7 +17,7 @@ If you get the following warning when trying to connect:
 ```
 
 You should upgrade your Gitlab instance to the latest.
-If you need to upgrade, you can use Gitlab's [upgrade path tool](https://gitlab-com.gitlab.io/support/toolbox/upgrade-path) which is very helpful to identify the correct upgrade steps.
+If you need to upgrade, you can use Gitlab's [upgrade path tool](https://gitlab-com.gitlab.io/support/toolbox/upgrade-path) which is very helpful to identify the correct upgrade steps to take.
 
 You may also have to upgrade your operating system.
 In my case I was still on Ubuntu 20.04 LTS it did not support post-quantum key exchange.
