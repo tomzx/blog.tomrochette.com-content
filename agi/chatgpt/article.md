@@ -32,6 +32,7 @@ Content written using LLMs, prompted by yours truly.
 * [Benefits of ETI technology](benefits-of-eti-technology/article.md)
 * [Big bang to computronium](big-bang-to-computronium/article.md)
 * [Multi-dimensional time](multi-dimensional-time/article.md)
+* [The meaning of life](the-meaning-of-life/article.md)
 
 ## Stories
 * [The debug loop](the-debug-loop/article.md)
