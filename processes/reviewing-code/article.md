@@ -7,6 +7,8 @@ taxonomy:
   status: draft
 ---
 
+The most up to date version of this process is available as a [Claude Command in my dot-claude repository](https://github.com/tomzx/dot-claude).
+
 * Verify that the build/tests pass
 * Read the issue title and description
 * New code
