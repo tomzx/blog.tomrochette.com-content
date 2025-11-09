@@ -65,6 +65,8 @@ At 1 request per second, you can run 3 GPT-4 8k agents or 6 GPT-4 32k agents.
 This is all assuming that responses are instantaneous, which is unlikely.
 According to [GPT for Work](https://gptforwork.com/tools/openai-api-response-time-tracker), the response time of gpt-3.5-turbo is around 10 seconds while the response time of gpt-4 is around 20 seconds.
 
+As of 2025-11-09, rate limits have changed significantly.
+
 # Notes
 
 # See also
