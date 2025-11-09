@@ -67,6 +67,7 @@ According to [GPT for Work](https://gptforwork.com/tools/openai-api-response-tim
 
 As of 2025-11-09, rate limits have changed significantly.
 Rates vary per model, with tiers offering RPM going from 500 to 30k and TPM going from 30k to 180M.
+Model throughput now varies based on the model and the provider, with providers such as Groq and Cerebras offering significantly faster response times due to specialized hardware.
 
 # Notes
 
