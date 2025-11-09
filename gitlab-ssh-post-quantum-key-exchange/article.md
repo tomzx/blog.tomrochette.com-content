@@ -15,4 +15,7 @@ A small PSA for Gitlab users who use SSH to connect to their Git repositories, i
 ** The server may need to be upgraded. See https://openssh.com/pq.html
 ```
 
-You should upgrade your Gitlab instance.
+You should upgrade your Gitlab instance to the latest.
+You may also have to upgrade your operating system.
+In my case I was still on Ubuntu 20.04 LTS it did not support post-quantum key exchange.
+Note that if you do a release upgrade, you also should update the apt sources to point to the new release (e.g., going from focal to jammy) and upgrade gitlab using the updated source.
