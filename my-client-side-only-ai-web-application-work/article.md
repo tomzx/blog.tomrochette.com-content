@@ -41,7 +41,7 @@ With this approach I've been able to fairly effectively work on small projects (
 <script type="importmap">
 {
     "imports": {
-        "llm.js": "https://esm.sh/@themaximalist/llm.js@1.0.1?target=node",
+        "llm.js": "https://esm.sh/@themaximalist/llm.js@1.0.1?target=node"
     }
 }
 </script>
