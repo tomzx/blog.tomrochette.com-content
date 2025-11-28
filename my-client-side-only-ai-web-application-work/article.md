@@ -103,4 +103,4 @@ In the event that neither key is set, the code falls back to hardcoded default v
 
 # Notes
 
-LLM.js
+The [LLM.js](https://github.com/TomzxForks/llm.js) I use is forked from [llm.js](
