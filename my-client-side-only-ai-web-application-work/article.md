@@ -103,4 +103,5 @@ In the event that neither key is set, the code falls back to hardcoded default v
 
 # Notes
 
-The [LLM.js](https://github.com/TomzxForks/llm.js) I use is forked from [llm.js](
+The [LLM.js](https://github.com/TomzxForks/llm.js) I use is forked from [themaximalist/llm.js](https://github.com/themaximalist/llm.js).
+The main changes I've made was to enable IIFE (Immediately Invoked Function Expression) builds that can be loaded directly in the browser via a `<script>` tag instead of using modules.
