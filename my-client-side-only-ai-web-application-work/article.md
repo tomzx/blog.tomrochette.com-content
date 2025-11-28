@@ -43,12 +43,45 @@ In `index.html` I have the following code to load `llm.js` and my application co
 In `app.js` I have the following code to configure the LLM options:
 
 ```javascript
+const applicationId = "ai-background-assistant";
+
+function getConfigurationValue(key, defaultValue) {
+    // Try to get configuration from applicationId key
+    try {
+        const appConfig = localStorage.getItem(applicationId);
+        if (appConfig) {
+            const config = JSON.parse(appConfig);
+            if (config && config.hasOwnProperty(key)) {
+                return config[key];
+            }
+        }
+    } catch (error) {
+        console.warn(`Error parsing ${applicationId} configuration:`, error);
+    }
+
+    // Fall back to llm-defaults key
+    try {
+        const defaultConfig = localStorage.getItem('llm-defaults');
+        if (defaultConfig) {
+            const config = JSON.parse(defaultConfig);
+            if (config && config.hasOwnProperty(key)) {
+                return config[key];
+            }
+        }
+    } catch (error) {
+        console.warn('Error parsing llm-defaults configuration:', error);
+    }
+
+    // Use provided default
+    return defaultValue;
+}
+
 const llmOptions = {
-    service: localStorage.getItem("LLM_SERVICE") || "groq",
-    model: localStorage.getItem("LLM_MODEL") || "openai/gpt-oss-120b",
+    service: getConfigurationValue("service", "groq"),
+    model: getConfigurationValue("model", "openai/gpt-oss-120b"),
     extended: true,
-    apiKey: localStorage.getItem("LLM_API_KEY") || "LLM_API_KEY_NOT_SET",
-    max_tokens: parseInt(localStorage.getItem("LLM_MAX_TOKENS")) || 8192,
+    apiKey: getConfigurationValue("api_key", "LLM_API_KEY_NOT_SET"),
+    max_tokens: parseInt(getConfigurationValue("max_tokens", "8192")),
 };
 ```
 
