@@ -43,7 +43,7 @@ In `index.html` I have the following code to load `llm.js` and my application co
 In `app.js` I have the following code to configure the LLM options:
 
 ```javascript
-const applicationId = "ai-background-assistant";
+const applicationId = "my-ai-application";
 
 function getConfigurationValue(key, defaultValue) {
     // Try to get configuration from applicationId key
@@ -85,5 +85,17 @@ const llmOptions = {
 };
 ```
 
-I can then set the `LLM_*` values through Chrome's Developer Tools console.
-With this set, I then I have a LLM service, model, and API key configured for the applications I build.
+I set a key in `localStorage` called `llm-defaults` that contains a JSON object with default values for the LLM service, model, and API key.
+For example:
+
+```json
+{
+    "service": "groq",
+    "model": "openai/gpt-oss-120b",
+    "api_key": "sk-xxxxxx",
+    "max_tokens": "8192"
+}
+```
+
+This way I can easily change the LLM configuration for all my client-side AI applications by updating this single `localStorage` key.
+If I need to override the configuration for a specific application, I can set another key in `localStorage` with the name of the `applicationId` (e.g., `my-ai-application`) that contains the specific configuration for that application.
