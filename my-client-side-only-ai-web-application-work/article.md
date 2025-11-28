@@ -45,8 +45,11 @@ In `app.js` I have the following code to configure the LLM options:
 ```javascript
 const llmOptions = {
     service: localStorage.getItem("LLM_SERVICE") || "groq",
-    model: localStorage.getItem("LLM_MODEL") || "meta-llama/llama-4-scout-17b-16e-instruct",
+    model: localStorage.getItem("LLM_MODEL") || "openai/gpt-oss-120b",
     extended: true,
     apiKey: localStorage.getItem("LLM_API_KEY") || "LLM_API_KEY_NOT_SET",
     max_tokens: parseInt(localStorage.getItem("LLM_MAX_TOKENS")) || 8192,
 };
+```
+
+I can then set the LLM
