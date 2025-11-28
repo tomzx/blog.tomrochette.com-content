@@ -52,4 +52,5 @@ const llmOptions = {
 };
 ```
 
-I can then set the LLM
+I can then set the `LLM_*` values through Chrome's Developer Tools console.
+With this set, I then I have a LLM service, model, and API key configured for the applications I build.
