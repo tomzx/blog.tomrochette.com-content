@@ -100,3 +100,7 @@ For example:
 This way I can easily change the LLM configuration for all my client-side AI applications by updating this single `localStorage` key.
 If I need to override the configuration for a specific application, I can set another key in `localStorage` with the name of the `applicationId` (e.g., `my-ai-application`) that contains the specific configuration for that application.
 In the event that neither key is set, the code falls back to hardcoded default values.
+
+# Notes
+
+LLM.js
