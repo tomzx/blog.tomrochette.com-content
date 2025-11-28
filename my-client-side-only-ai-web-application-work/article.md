@@ -18,7 +18,7 @@ I haven't really picked any frontend libraries or frameworks, just vanilla HTML/
 That is something I need to explore (e.g., react, svelte, solid, tailwind, vue.js, etc.) but for now I want to keep things simple.
 
 For the past few projects I've used Claude Code.
-I ask Claude to create the common `CLAUDE.md`.
+I ask Claude to create the common `CLAUDE.md` using `/init`.
 Additionally, I ask Claude to maintain a `SPEC.md` file that describes the features of the application.
 In many cases the database relies on the browser's `localStorage` API and IndexedDB to store data, which is sufficient for my needs.
 I ask Claude to maintain a `DATABASE_SPEC.md` file to describe the database schema.
@@ -99,3 +99,4 @@ For example:
 
 This way I can easily change the LLM configuration for all my client-side AI applications by updating this single `localStorage` key.
 If I need to override the configuration for a specific application, I can set another key in `localStorage` with the name of the `applicationId` (e.g., `my-ai-application`) that contains the specific configuration for that application.
+In the event that neither key is set, the code falls back to hardcoded default values.
