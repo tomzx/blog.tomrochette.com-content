@@ -53,6 +53,7 @@ It is possible for the graph to have cycles, which indicates a set of steps that
 * Write down as many steps you do implicitly as possible
 * Link steps to one another
 * Simulate the process in your head to verify if you forgot any steps
+ * Alternatively, ask a LLM to simulate the process and use those simulations to identify missing steps or correct the existing process definition
 * Follow the process
 * Revise as needed
 * Extract reusable processes into their own process graph
