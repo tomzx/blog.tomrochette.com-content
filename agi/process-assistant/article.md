@@ -40,7 +40,8 @@ It is possible for the graph to have cycles, which indicates a set of steps that
 # Purposes/Benefits
 * Can be (visually) inspected
 * Can be shared and compared with others to gather feedback
-* Can be stored and retrieved later (allowing you to forget about it and rapidly get back to it)
+* Can be stored and retrieved later, allowing you to forget about it and rapidly get back to it
+* Can be stored in a version control system, tracking changes to the process over time
 	* Can be followed by an individual that knows how to do the steps but not necessarily in what order
 * Can be automated
 	* Steps can be automatically executed
