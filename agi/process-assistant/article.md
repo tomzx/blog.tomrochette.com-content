@@ -2,7 +2,7 @@
 title: Process assistant
 created: 2016-09-17
 taxonomy:
-  tag: [artificial-general-intelligence]
+  tag: [artificial-general-intelligence, processes]
   status: in progress
 ---
 
@@ -40,8 +40,9 @@ It is possible for the graph to have cycles, which indicates a set of steps that
 # Purposes/Benefits
 * Can be (visually) inspected
 * Can be shared and compared with others to gather feedback
-* Can be stored and retrieved later (allowing you to forget about it and rapidly get back to it)
-	* Can be followed by an individual that knows how to do the steps but not necessarily in what order
+* Can be stored and retrieved later, allowing you to forget about it and rapidly get back to it
+* Can be stored in a version control system, tracking changes to the process over time
+* Can be followed by an individual that knows how to do the steps but not necessarily in what order
 * Can be automated
 	* Steps can be automatically executed
 	* Decisions can be executed without any user intervention (increases the perceived productivity of the user)
@@ -52,6 +53,7 @@ It is possible for the graph to have cycles, which indicates a set of steps that
 * Write down as many steps you do implicitly as possible
 * Link steps to one another
 * Simulate the process in your head to verify if you forgot any steps
+ * Alternatively, ask a LLM to simulate the process and use those simulations to identify missing steps or correct the existing process definition
 * Follow the process
 * Revise as needed
 * Extract reusable processes into their own process graph
