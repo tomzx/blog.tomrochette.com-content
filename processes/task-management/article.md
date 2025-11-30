@@ -42,10 +42,10 @@ taxonomy:
 
 # Important/Urgent
 Use Eisenhower matrix to determine task importance/urgency
-* Tasks that are not important/not urgent are moved to the backlog
-* Tasks that are not important/urgent are delegated to someone else
-* Tasks that are important/not urgent should be scheduled
-* Tasks that are important/urgent should be done ASAP
+* Tasks that are not important/not urgent are moved to the backlog.
+* Tasks that are not important/urgent are delegated to someone else.
+* Tasks that are important/not urgent should be scheduled.
+* Tasks that are important/urgent should be done ASAP.
 
 # Effort/Value/ROI
 Using the estimated effort and estimated value of a task, you can compute the return on investment (ROI) of the task as estimated value divided by estimated effort.
