@@ -56,10 +56,11 @@ Use the ROI of your tasks to prioritize them. You will want to complete the task
 The ROI metric will also give you clues about the task you should probably not spend your time on. If you are paid 50 $/h and a task has a ROI less than 50 \$/h, then it should probably be moved to the backlog and only reconsidered if its ROI changes.
 
 # Task processing
-* `Unprioritized` tasks should be moved to `Queued`, given their priority compared to already queued tasks
-* You should attempt to keep the `Unprioritized` tasks count to 0
-* A task that is `Queued` should have a deadline date
-* Work on tasks `In progress` first, then take tasks from `Today`, then from `Queued`
+* `Unprioritized` tasks should be moved to `Queued`, given their priority compared to already queued tasks.
+* You should attempt to keep the `Unprioritized` tasks count to 0.
+* A task that is `Queued` should have a deadline date.
+* Work on tasks `In progress` first, then take tasks from `Today`, then from `Queued`.
+* When moving a task to `Blocked` or `Waiting`, add a comment indicating why it is blocked/waiting and what needs to happen for it to be unblocked.
 
 ![Task processing loop](images/Task-processing-loop.png)
 
