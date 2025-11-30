@@ -18,4 +18,4 @@ Every week, either at the beginning or end of the week.
 * Provide feedback related to the plan
   * Write down what was worked on that wasn't part of the plan
 * [Review monthly plan and align](../monthly-review/article.md)
-* Plan next week
+* [Plan next week
