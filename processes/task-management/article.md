@@ -9,15 +9,15 @@ taxonomy:
 
 # Steps to create a task
 * Give it a title
-* Give it at least one label
-* Give it an assignee
 * Decide if it's important or not
 * Decide if it's urgent or not
 * Estimate the effort required to accomplish the task (in hours)
 * Estimate the value the task brings (in $)
+* Give it at least one label
+* Give it an assignee
 * Give a description if necessary
 * Set a deadline if possible
-* Set status to Unprioritized
+* Set status to Unprioritized (ideally automatically/default)
 * Indicate who requested the task
 * Indicate which users/how many users would be affected by the task
 
