@@ -9,6 +9,7 @@ taxonomy:
 
 * Define what is it you want to communicate
 * Define why it is you want to communicate what you want to communicate
+* Define who you are communicating to
 * Write down all the topics you want to cover
 * Organize the topics in a structured manner (i.e., an outline)
 * Write a draft
