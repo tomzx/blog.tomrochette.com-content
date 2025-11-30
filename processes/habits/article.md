@@ -17,7 +17,7 @@ taxonomy:
 
 # My habits
 ## Daily
-* Daily planning
+* [Daily planning](../daily-planning/article.md)
 * [Daily review](../daily-review/article.md)
 * Eat/Drink
 * Shower
@@ -30,7 +30,7 @@ taxonomy:
 * Brush teeth
 
 ## Weekly
-* Weekly planning
+* [Weekly planning](../weekly-planning/article.md)
 * [Weekly review](../weekly-review/article.md)
 * Wash clothes
 * Clean apartment
