@@ -26,4 +26,4 @@ Every daily at the end of the (work) day.
   * Did you discover a new tool, technique, or process?
   * What could be improved next time?
 * [Review weekly plan and align](../weekly-review/article.md)
-* Plan next day
+* [Plan next day](../daily-planning/article.md)
