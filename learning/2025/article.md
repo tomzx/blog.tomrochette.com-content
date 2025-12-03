@@ -7,12 +7,13 @@ taxonomy:
   tag: [learning]
 ---
 
-* Model context protocol (MCP)
+* Claude code
+* Cursor
 * dstack
+* Model context protocol (MCP)
 * Nebius
 * Multi-node training and inference
 * DeepSpeed
-* Claude code
 * How to use LLM more in my development process
 
 # TODO
