@@ -17,6 +17,7 @@ taxonomy:
 * Model context protocol (MCP)
 * Multi-node training and inference
 * Nebius
+* Vibe-Kanban
 
 # TODO
 * CometML
