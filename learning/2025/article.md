@@ -9,12 +9,14 @@ taxonomy:
 
 * Claude code
 * Cursor
-* dstack
-* Model context protocol (MCP)
-* Nebius
-* Multi-node training and inference
 * DeepSpeed
+* dstack
 * How to use LLM more in my development process
+* Kueue
+* Kyverno
+* Model context protocol (MCP)
+* Multi-node training and inference
+* Nebius
 
 # TODO
 * CometML
@@ -26,5 +28,3 @@ taxonomy:
 * NVIDIA vGPU
 * NVIDIA KAI scheduler
 * NVIDIA run:ai
-* Kueue
-* Kyverno
