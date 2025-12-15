@@ -33,6 +33,8 @@ With this approach I've been able to fairly effectively work on small projects (
 
 # The template
 
+The template is available as a [GitHub repository](https://github.com/TomzxCode/templates).
+
 In `index.html` I have the following code to load `llm.js` and my application code:
 
 ```html
