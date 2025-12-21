@@ -2,6 +2,7 @@
 title: Story: Work jail
 created: 2025-09-03
 taxonomy:
+  type: post
   status: finished
   tag: [artificial-general-intelligence, story, fully-ai-generated, llm=chatgpt-5]
   readability: 5
