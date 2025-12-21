@@ -3,7 +3,7 @@ title: LLM conversations viewer
 created: 2025-12-21
 taxonomy:
   type: post
-  status: draft
+  status: finished
   tag: [single-page-application, llm]
   readability: 5
 ---
