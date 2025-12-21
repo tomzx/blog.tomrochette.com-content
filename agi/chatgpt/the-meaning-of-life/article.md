@@ -2,6 +2,7 @@
 title: The meaning of life
 created: 2025-11-08
 taxonomy:
+  type: post
   status: finished
   tag: [artificial-general-intelligence, fully-ai-generated, llm=claude-sonnet-4.5]
   readability: 5
