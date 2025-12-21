@@ -1,4 +1,11 @@
-# The Merge Conflict
+---
+title: The merge conflict
+created: 2025-12-20
+taxonomy:
+  status: finished
+  tag: [artificial-general-intelligence, fully-ai-generated, llm=claude-sonnet-4.5]
+  readability: 5
+---
 
 Dr. Sarah Chen stared at her terminal, the familiar green text glowing in the darkened lab.
 
