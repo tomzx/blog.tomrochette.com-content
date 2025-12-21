@@ -2,6 +2,7 @@
 title: The repository
 created: 2025-12-20
 taxonomy:
+  type: post
   status: finished
   tag: [artificial-general-intelligence, fully-ai-generated, llm=chatgpt-5.2]
   readability: 5
