@@ -16,7 +16,7 @@ There is no proper procedure per se. The most important is to get started. Write
 
 In their book **Algorithms to live by**, Brian Christian and Tom Griffiths write (about scheduling)
 
-> In a thrashing state, you’re making essentially no progress, so even doing tasks in the wrong order is better than doing nothing at all. Instead of answering the most important emails first — which requires an assessment of the whole picture that may take longer than the work itself — maybe you should sidestep that quadratic-time quicksand by just answering the emails in random order, or in whatever order they happen to appear on-screen.
+> In a thrashing state, you’re making essentially no progress, so even doing tasks in the wrong order is better than doing nothing at all. Instead of answering the most important emails first - which requires an assessment of the whole picture that may take longer than the work itself - maybe you should sidestep that quadratic-time quicksand by just answering the emails in random order, or in whatever order they happen to appear on-screen.
 
 A lot of what I wrote in [How do you prioritize things when there are so many of them competing against one another?](../04/article.md) and [How can I organize all the webpages I never read?](../07/article.md) applies here, namely:
 
