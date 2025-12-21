@@ -2,6 +2,7 @@
 title: The merge conflict
 created: 2025-12-20
 taxonomy:
+  type: post
   status: finished
   tag: [artificial-general-intelligence, fully-ai-generated, llm=claude-sonnet-4.5]
   readability: 5
