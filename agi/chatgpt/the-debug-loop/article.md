@@ -2,6 +2,7 @@
 title: The debug loop
 created: 2025-09-05
 taxonomy:
+  type: post
   status: finished
   tag: [artificial-general-intelligence, story, fully-ai-generated, llm=claude-opus-4.1]
   readability: 5
