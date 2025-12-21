@@ -55,7 +55,7 @@ Her fingers hovered over the keyboard. One timeline solved climate change throug
 
 "What if," she said, "we don't choose?"
 
-"You can't leave a merge conflict unresolved. The timeline will remain in an unstable state—"
+"You can't leave a merge conflict unresolved. The timeline will remain in an unstable state-"
 
 "Or we `git rebase` everything onto a new branch. Cherry-pick the best commits from each timeline."
 
