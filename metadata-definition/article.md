@@ -22,7 +22,7 @@ The state of completion of the article.
 
 # Readability
 
-See [Readability Index](readability-index/article.md) for details.
+See [Readability Index](../readability-index/article.md) for details.
 
 # Importance
 How important the topic is to my eyes (the last time the importance value was set).
