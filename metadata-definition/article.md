@@ -20,6 +20,9 @@ The state of completion of the article.
 * In progress: In the process of updating the structure of the article and its content. Most articles on this website will be in this state.
 * Finished: Unlikely that the content will be touched/revised.
 
+# Readability
+
+
 # Importance
 How important the topic is to my eyes (the last time the importance value was set).
 
