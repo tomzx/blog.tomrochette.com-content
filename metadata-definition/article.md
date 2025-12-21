@@ -22,6 +22,8 @@ The state of completion of the article.
 
 # Readability
 
+
+
 See [Readability Index](../readability-index/article.md) for details.
 
 # Importance
