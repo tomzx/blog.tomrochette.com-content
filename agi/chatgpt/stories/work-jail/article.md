@@ -1,5 +1,5 @@
 ---
-title: Story: Work jail
+title: Work jail
 created: 2025-09-03
 taxonomy:
   type: post
