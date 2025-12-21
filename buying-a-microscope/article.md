@@ -4,6 +4,7 @@ created: 2017-01-01
 taxonomy:
   type: post
   status: in progress
+  readability: 3
 ---
 
 # USB microscope

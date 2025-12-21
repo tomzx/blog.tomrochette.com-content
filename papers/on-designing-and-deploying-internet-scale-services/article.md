@@ -4,6 +4,7 @@ created: 2021-05-21
 taxonomy:
   tag: [software-development]
   status: finished
+  readability: 3
 ---
 
 * 3 tenets

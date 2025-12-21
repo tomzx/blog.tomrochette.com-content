@@ -4,6 +4,7 @@ created: 2016-07-30
 taxonomy:
   tag: [artificial-general-intelligence]
   status: finished
+  readability: 5
 ---
 $\require{extpfeil}\Newextarrow{\xRightarrow}{5,5}{0x21D2}$
 

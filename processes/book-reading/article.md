@@ -5,6 +5,7 @@ taxonomy:
   type: post
   tag: [general, processes, reading]
   status: draft
+  readability: 5
 ---
 
 * Read the table of contents

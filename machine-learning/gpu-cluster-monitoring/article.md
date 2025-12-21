@@ -5,6 +5,7 @@ taxonomy:
   type: post
   status: draft
   tag: [machine-learning, partially-ai-generated, ai-feedback, llm=claude-sonnet-4, llm=gpt-oss-120b]
+  readability: 3
 ---
 
 # Overview

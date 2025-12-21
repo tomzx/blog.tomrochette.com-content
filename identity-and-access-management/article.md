@@ -5,6 +5,7 @@ taxonomy:
   type: post
   status: in progress
   tag: [programming, aws, groups, users, roles, policies, identity, access-management]
+  readability: 3
 ---
 
 ## Context

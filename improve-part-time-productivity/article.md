@@ -5,6 +5,7 @@ taxonomy:
   type: post
   status: draft
   tag: [productivity]
+  readability: 1
 ---
 
 * It's difficult to remember/know the current state of a project

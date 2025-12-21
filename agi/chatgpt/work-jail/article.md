@@ -4,6 +4,7 @@ created: 2025-09-03
 taxonomy:
   status: finished
   tag: [artificial-general-intelligence, story, fully-ai-generated, llm=chatgpt-5]
+  readability: 5
 ---
 
 Ethan’s eyes burned as he stared at the ceiling in the dark. It was past midnight, yet his mind churned with lines of code, bug reports, and deadlines. He could hear the faint hum of his laptop from across the room, the machine sleeping—but his brain never did.

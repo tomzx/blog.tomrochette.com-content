@@ -5,6 +5,7 @@ taxonomy:
   type: post
   status: finished
   tag: [windows]
+  readability: 3
 ---
 
 I recently moved to Windows 11.

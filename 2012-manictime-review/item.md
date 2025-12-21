@@ -4,6 +4,7 @@ created: 2013-01-05T08:12:11-05:00
 taxonomy:
   type: post
   tag: [productivity, time-management, manictime]
+  readability: 3
 ---
 
 As 2012 ended, I wanted to take a look back at this year and review my computer usage/consumption in order to reduce time wasting activity. That time should be channeled into more meaningful activities like learning a new language, improving my current skills, practicing piano and more.

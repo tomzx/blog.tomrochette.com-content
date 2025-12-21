@@ -5,6 +5,7 @@ taxonomy:
   type: post
   tag: [questions]
   status: finished
+  readability: 0
 ---
 
 # Question

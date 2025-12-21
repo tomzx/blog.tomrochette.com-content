@@ -4,6 +4,7 @@ created: 2015-10-22
 taxonomy:
   tag: [artificial-general-intelligence]
   status: in progress
+  readability: 3
 ---
 
 The following lists books that I have read and that I suggest to people that are interested in learning more about AGI.

@@ -4,6 +4,7 @@ created: 2017-03-24
 taxonomy:
   tag: [artificial-general-intelligence]
   status: in progress
+  readability: 3
 ---
 
 The [General AI Challenge](https://www.general-ai-challenge.org/) is made up of multiple rounds, each designed to tackle a crucial research problem in human-level AI development.

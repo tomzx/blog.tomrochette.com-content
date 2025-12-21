@@ -1,5 +1,7 @@
 ---
 title: Simulateur de tic tac toe
+taxonomy:
+  readability: 3
 ---
 
 **Description**

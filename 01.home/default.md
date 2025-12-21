@@ -17,4 +17,6 @@ content:
     pagination: true
 
 pagination: true
+taxonomy:
+  readability: 1
 ---

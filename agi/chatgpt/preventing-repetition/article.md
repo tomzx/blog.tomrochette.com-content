@@ -4,6 +4,7 @@ created: 2023-04-23
 taxonomy:
   tag: [artificial-general-intelligence, chatgpt, llm=chatgpt-4]
   status: in progress
+  readability: 3
 ---
 
 # Prompt

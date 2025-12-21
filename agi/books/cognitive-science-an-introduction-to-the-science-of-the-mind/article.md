@@ -4,6 +4,7 @@ created: 2016-04-14
 taxonomy:
   tag: [artificial-general-intelligence, cognitive-science]
   status: finished
+  readability: 5
 ---
 
 ## Context

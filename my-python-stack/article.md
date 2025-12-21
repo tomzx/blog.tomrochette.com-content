@@ -5,6 +5,7 @@ taxonomy:
   type: post
   status: draft
   tag: [python]
+  readability: 1
 ---
 
 Here is the list of python tools and libraries I use regularly.

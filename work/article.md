@@ -6,6 +6,7 @@ menu: Work
 taxonomy:
   status: in progress
   tag: [work]
+  readability: 3
 ---
 
 Whether we want it or not, work is a big part of our lives.

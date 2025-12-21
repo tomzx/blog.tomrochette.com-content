@@ -5,6 +5,7 @@ taxonomy:
   type: post
   status: finished
   tag: [partially-ai-generated, ai-feedback, llm=gpt-oss-20b]
+  readability: 3
 ---
 
 All articles on this blog originate from my mind.

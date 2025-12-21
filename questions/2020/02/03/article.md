@@ -5,6 +5,7 @@ taxonomy:
   type: post
   tag: [questions, note-taking]
   status: finished
+  readability: 3
 ---
 
 # Question

@@ -5,6 +5,7 @@ taxonomy:
   type: post
   tag: []
   status: draft
+  readability: 1
 ---
 
 I'm a programmer. I like to write code and whenever I can, I like to reuse bits of code I've written in the past instead of writing it from scratch.

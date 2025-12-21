@@ -4,6 +4,7 @@ created: 2006-05-25T06:16:50-05:00
 taxonomy:
   type: post
   tag: [sites, k2, themes, wordpress, web-crawler]
+  readability: 3
 ---
 
 Well, it took me some time until I realise that this cool slider bar option as something negative about it: it hides contains from search engines spiders.

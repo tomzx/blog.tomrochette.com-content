@@ -5,6 +5,7 @@ taxonomy:
   type: post
   tag: [weekly-readings]
   status: finished
+  readability: 3
 ---
 
 I read more articles from https://www.oneusefulthing.org this week.

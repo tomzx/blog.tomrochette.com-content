@@ -5,6 +5,7 @@ taxonomy:
   type: post
   status: draft
   tag: [processes, ai-feedback, llm=chatgpt-4.1]
+  readability: 5
 ---
 
 # Trigger

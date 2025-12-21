@@ -5,6 +5,7 @@ taxonomy:
   type: post
   status: draft
   tag: [processes]
+  readability: 5
 ---
 
 * Define and agree on the purpose of the one on one

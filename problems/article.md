@@ -6,6 +6,7 @@ menu: Problems
 taxonomy:
   tag: [problems]
   status: in progress
+  readability: 3
 ---
 
 Everyone has problems they need to solve. Here I try to write down and collect all the problems I've encountered in the past and for which I have searched for a solution or developed one.

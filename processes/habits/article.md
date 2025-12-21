@@ -5,6 +5,7 @@ taxonomy:
   type: post
   status: draft
   tag: [processes, habits]
+  readability: 5
 ---
 
 * Decide what habit you want to have and record why you want this habit

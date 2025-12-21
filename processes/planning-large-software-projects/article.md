@@ -5,6 +5,7 @@ taxonomy:
   type: post
   status: draft
   tag: [processes, software-development, projects]
+  readability: 5
 ---
 
 * List all the features you would like to develop

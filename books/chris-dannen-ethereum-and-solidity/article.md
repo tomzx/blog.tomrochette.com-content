@@ -4,6 +4,7 @@ created: 2018-05-26
 taxonomy:
   tag: [technology]
   status: finished
+  readability: 3
 ---
 
 ## Context

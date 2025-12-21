@@ -5,6 +5,7 @@ taxonomy:
   type: post
   category: [Computers]
   tag: joke
+  readability: 3
 ---
 
 > A man is flying in a hot air balloon and realizes he is lost. He reduces height and spots a man down below. He lowers the balloon further and shouts: "Excuse me, can you tell me where I am?"

@@ -1,5 +1,7 @@
 ---
 title: Émulateur de Game Boy
+taxonomy:
+  readability: 3
 ---
 
 **Description**  

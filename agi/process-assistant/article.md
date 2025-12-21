@@ -4,6 +4,7 @@ created: 2016-09-17
 taxonomy:
   tag: [artificial-general-intelligence, processes]
   status: in progress
+  readability: 5
 ---
 
 ## Context

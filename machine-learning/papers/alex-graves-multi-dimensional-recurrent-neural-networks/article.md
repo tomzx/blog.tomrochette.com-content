@@ -4,6 +4,7 @@ created: 2017-06-16
 taxonomy:
   tag: [machine-learning]
   status: finished
+  readability: 3
 ---
 
 ## Context

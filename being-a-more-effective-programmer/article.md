@@ -4,6 +4,7 @@ created: 2018-05-11
 taxonomy:
   status: in progress
   tag: [programming, productivity]
+  readability: 3
 ---
 
 ## Context

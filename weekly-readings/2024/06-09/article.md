@@ -5,6 +5,7 @@ taxonomy:
   type: post
   tag: [weekly-readings]
   status: finished
+  readability: 3
 ---
 
 I discovered https://www.oneusefulthing.org and ended up reading a few articles.

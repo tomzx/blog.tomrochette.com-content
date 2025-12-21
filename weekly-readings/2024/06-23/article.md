@@ -5,6 +5,7 @@ taxonomy:
   type: post
   tag: [weekly-readings]
   status: finished
+  readability: 3
 ---
 
 [How to... use ChatGPT to boost your writing](https://oneusefulthing.substack.com/p/how-to-use-chatgpt-to-boost-your)

@@ -5,6 +5,7 @@ taxonomy:
   type: post
   tag: [template, workflow, ai, web, javascript]
   status: draft
+  readability: 1
 ---
 
 Over the past month I've started building client-side only AI web applications (e.g., [ai-text-editor](https://github.com/TomzxCode/ai-text-editor), a private ai-language-assistant to teach myself Chinese Mandarin).

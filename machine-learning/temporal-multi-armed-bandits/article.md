@@ -4,6 +4,7 @@ created: 2021-07-04
 taxonomy:
   tag: [machine-learning]
   status: in progress
+  readability: 3
 ---
 
 # Variations

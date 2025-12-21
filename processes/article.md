@@ -6,6 +6,7 @@ menu: Processes
 taxonomy:
   tag: [processes]
   status: in progress
+  readability: 5
 ---
 
 Processes are a way to do things, such that the process can be then reproduced indefinitely. Here, I try to document all the processes I follow so that I can share them with colleagues, reflect on them and improve them over time.

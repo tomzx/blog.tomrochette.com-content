@@ -5,6 +5,7 @@ taxonomy:
   type: post
   tag: [general, processes, reading]
   status: draft
+  readability: 5
 ---
 
 The process described below attempts to optimize reading quality books and enjoying the reading experience. As such, it promotes book exploration (discovery of new books) and reading books which have a high rating according to your own taste. Books which receive lower ratings (compared to other books) are moved down the reading priority list and will not be read until books that have higher priority (i.e., rating) either are finished reading or their rating decreases such that other books are now high priority.

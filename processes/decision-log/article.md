@@ -5,6 +5,7 @@ taxonomy:
   type: post
   status: draft
   tag: [general]
+  readability: 1
 ---
 
 * Do you understand what is at stake?

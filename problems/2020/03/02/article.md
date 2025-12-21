@@ -5,6 +5,7 @@ taxonomy:
   type: post
   tag: [problems, visual-studio-code]
   status: finished
+  readability: 3
 ---
 
 # Problem

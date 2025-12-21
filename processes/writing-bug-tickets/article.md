@@ -5,6 +5,7 @@ taxonomy:
   type: post
   tag: [software-development, processes]
   status: draft
+  readability: 5
 ---
 
 # Ticket content

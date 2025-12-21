@@ -5,6 +5,7 @@ taxonomy:
   type: post
   tag: [software-development, processes, work]
   status: draft
+  readability: 5
 ---
 
 * Always prioritize your work

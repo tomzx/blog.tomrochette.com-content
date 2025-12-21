@@ -5,6 +5,7 @@ taxonomy:
   type: post
   status: draft
   tag: [work]
+  readability: 1
 ---
 
 Daily

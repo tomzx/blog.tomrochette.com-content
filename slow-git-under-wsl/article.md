@@ -5,6 +5,7 @@ taxonomy:
   type: post
   status: finished
   tag: [wsl, git, performance]
+  readability: 3
 ---
 
 I have a `git` repository with 25k commits in it and 7k+ files.

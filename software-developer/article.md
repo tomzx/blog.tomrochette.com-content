@@ -5,6 +5,7 @@ taxonomy:
   type: post
   tag: [software-development]
   status: draft
+  readability: 3
 ---
 
 # Abilities/Skills

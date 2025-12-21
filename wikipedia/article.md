@@ -4,6 +4,7 @@ created: 2020-01-01
 taxonomy:
   status: in progress
   tag: [wikipedia]
+  readability: 3
 ---
 
 # Context

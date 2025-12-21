@@ -4,6 +4,7 @@ created: 2018-02-10
 taxonomy:
   status: in progress
   tag: [reusable-writing, reusable-notes]
+  readability: 3
 ---
 
 ## Context

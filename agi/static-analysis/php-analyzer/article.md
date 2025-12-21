@@ -4,6 +4,7 @@ created: 2016-09-22
 taxonomy:
   tag: [php]
   status: finished
+  readability: 3
 ---
 
 ## Context

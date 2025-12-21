@@ -5,6 +5,7 @@ taxonomy:
   type: post
   status: draft
   tag: [learning]
+  readability: 1
 ---
 
 (sorted alphabetically)

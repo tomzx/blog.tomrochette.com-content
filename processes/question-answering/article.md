@@ -5,6 +5,7 @@ taxonomy:
   type: post
   tag: [general, processes]
   status: draft
+  readability: 5
 ---
 
 * Have a question

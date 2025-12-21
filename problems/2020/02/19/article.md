@@ -5,6 +5,7 @@ taxonomy:
   type: post
   tag: [problems, php]
   status: finished
+  readability: 3
 ---
 
 # Problem

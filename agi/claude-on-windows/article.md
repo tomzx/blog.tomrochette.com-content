@@ -4,6 +4,7 @@ created: 2025-07-24
 taxonomy:
   tag: [artificial-intelligence, claude, windows]
   status: in progress
+  readability: 3
 ---
 
 In this article I write myself some notes on my usage of Claude on Windows.

@@ -3,6 +3,7 @@ title: Article marketing
 created: 2021-03-07
 taxonomy:
 	type: post
+  readability: 1
 	status: draft
   tag: [self-promotion]
 ---

@@ -4,6 +4,7 @@ created: 2017-01-07
 taxonomy:
   type: post
   tag: [priority, prioritization, planning, partially-ai-generated, llm=chatgpt-4.1]
+  readability: 3
 ---
 
 # Steps

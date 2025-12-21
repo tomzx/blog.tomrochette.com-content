@@ -4,6 +4,7 @@ created: 2018-01-12
 taxonomy:
   tag: []
   status: in progress
+  readability: 3
 ---
 
 # Created at

@@ -5,6 +5,7 @@ taxonomy:
   type: post
   status: draft
   tag: [quotes]
+  readability: 1
 ---
 
 # Marcus Aurelius

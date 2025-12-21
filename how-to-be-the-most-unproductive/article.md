@@ -4,6 +4,7 @@ created: 2023-08-19
 taxonomy:
   tag: [productivity]
   status: draft
+  readability: 1
 ---
 
 * Do the same thing repeatedly

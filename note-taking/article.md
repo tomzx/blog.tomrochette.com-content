@@ -4,6 +4,7 @@ created: 2018-05-03
 taxonomy:
   tag: []
   status: in progress
+  readability: 3
 ---
 
 ## Context

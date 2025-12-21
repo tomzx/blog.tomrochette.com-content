@@ -4,6 +4,7 @@ created: 2018-06-07
 taxonomy:
   tag: [devops]
   status: in progress
+  readability: 3
 ---
 
 ## Context

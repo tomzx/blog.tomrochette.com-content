@@ -5,6 +5,7 @@ taxonomy:
   type: post
   tag: [questions, artificial-intelligence]
   status: finished
+  readability: 3
 ---
 
 # Question

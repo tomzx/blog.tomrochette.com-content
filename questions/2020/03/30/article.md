@@ -5,6 +5,7 @@ taxonomy:
   type: post
   tag: [questions, time-series]
   status: finished
+  readability: 3
 ---
 
 # Question

@@ -4,6 +4,7 @@ created: 2018-02-08
 taxonomy:
   tag: [psychology]
   status: finished
+  readability: 3
 ---
 
 ## Context

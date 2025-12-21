@@ -5,6 +5,7 @@ taxonomy:
   type: post
   status: finished
   tag: [software, ocr]
+  readability: 3
 ---
 
 [Tesseract](https://tesseract-ocr.github.io/) (an open source OCR engine) supports a [TSV format as output](https://tesseract-ocr.github.io/tessdoc/Command-Line-Usage.html#tsv-output-currently-available-in-305-dev-in-master-branch-on-github). I looked online for some documentation about the columns but couldn't find anything, so I looked at the [source code](https://github.com/tesseract-ocr/tesseract/blob/cdebe13d81e2ad2a83be533886750f5491b25262/src/api/baseapi.cpp#L1398).

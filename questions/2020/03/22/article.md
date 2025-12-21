@@ -5,6 +5,7 @@ taxonomy:
   type: post
   tag: [questions, finances]
   status: finished
+  readability: 3
 ---
 
 # Question

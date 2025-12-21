@@ -8,6 +8,7 @@ taxonomy:
   type: post
   tag: [questions, task-management]
   status: finished
+  readability: 3
 ---
 
 # Question

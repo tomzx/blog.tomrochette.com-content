@@ -5,6 +5,7 @@ taxonomy:
   type: post
   status: draft
   tag: [software-development, projects, processes, work]
+  readability: 5
 ---
 
 The onboarding process described here is specific to a software engineer joining a tech company. While some/most of the items may still apply to any job where you mainly work from a computer, the assumption will be that you develop software as an individual contributor.

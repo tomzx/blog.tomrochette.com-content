@@ -5,6 +5,7 @@ taxonomy:
   type: post
   status: draft
   tag: [software, test]
+  readability: 1
 ---
 
 * Start the longest tests first. If you have for example 2 tests, a short one and a long one, the long one will be the sequential bottleneck. If you have many additional short tests, they will run in parallel to the longer one. If you have 2 workers, 1 will be dedicated to the long task while the other will process many of the short tests. If the total execution time of the short tasks is greater than the longer task then the total execution time will be at least the duration of the long task.

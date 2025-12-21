@@ -5,6 +5,7 @@ taxonomy:
   type: post
   status: draft
   tag: [work]
+  readability: 1
 ---
 
 Tools I use on a regular basis at work (sorted alphabetically).

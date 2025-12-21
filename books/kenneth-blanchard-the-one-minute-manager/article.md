@@ -4,6 +4,7 @@ created: 2018-06-05
 taxonomy:
   tag: [management]
   status: finished
+  readability: 3
 ---
 
 ## Context

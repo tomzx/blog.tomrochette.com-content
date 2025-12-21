@@ -1,5 +1,7 @@
 ---
 title: Simulateur de métro
+taxonomy:
+  readability: 3
 ---
 
 **Description**

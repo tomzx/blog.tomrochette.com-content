@@ -1,5 +1,7 @@
 ---
 title: Gestionnaire d’espace web pour hébergeur
+taxonomy:
+  readability: 3
 ---
 
 **Description**

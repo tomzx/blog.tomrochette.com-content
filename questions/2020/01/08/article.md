@@ -8,6 +8,7 @@ taxonomy:
   type: post
   tag: [questions, artificial-general-intelligence]
   status: finished
+  readability: 3
 ---
 
 # Question

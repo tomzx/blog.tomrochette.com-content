@@ -5,6 +5,7 @@ taxonomy:
   type: post
   status: finished
   tag: [wsl, network, performance]
+  readability: 3
 ---
 
 When I started using WSL on Windows 11 I had slow network performance issues.

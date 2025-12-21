@@ -4,6 +4,7 @@ created: 2022-12-22
 taxonomy:
   tag: [artificial-general-intelligence, chatgpt]
   status: in progress
+  readability: 3
 ---
 
 # Exploratory activities

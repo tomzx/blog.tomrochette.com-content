@@ -4,6 +4,7 @@ created: 2021-12-18
 taxonomy:
   type: post
   tag: [learning]
+  readability: 3
 ---
 
 Every year I learn new things. In the articles listed below I record the various things I've learned over the years.

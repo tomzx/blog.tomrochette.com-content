@@ -5,6 +5,7 @@ taxonomy:
   type: post
   tag: [processes]
   status: draft
+  readability: 5
 ---
 
 It's highly common when working that priorities shift and that sometimes you have way more on your plate than you can handle.

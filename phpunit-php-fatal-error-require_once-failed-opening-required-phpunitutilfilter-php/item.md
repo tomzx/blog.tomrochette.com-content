@@ -4,6 +4,7 @@ created: 2011-11-26T00:14:53-05:00
 taxonomy:
   type: post
   tag: [programming, php, phpunit]
+  readability: 3
 ---
 
 A friend of mine was trying to install PHPUnit on his mac (OS X Lion), but unfortunately, he got stuck during the process.

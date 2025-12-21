@@ -5,6 +5,7 @@ taxonomy:
   type: post
   status: draft
   tag: [landing-page]
+  readability: 1
 ---
 
 * Company name

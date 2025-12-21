@@ -5,6 +5,7 @@ taxonomy:
   type: post
   status: draft
   tag: [quotes, fully-ai-generated, llm=chatgpt-4o, llm=gpt-oss-20b]
+  readability: 5
 ---
 
 # ChatGPT 4o

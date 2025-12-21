@@ -5,6 +5,7 @@ taxonomy:
   type: post
   tag: [processes]
   status: draft
+  readability: 5
 ---
 
 * Define what is it you want to communicate

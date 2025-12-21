@@ -5,6 +5,7 @@ taxonomy:
   type: post
   tag: [self]
   status: draft
+  readability: 1
 ---
 
 * Work

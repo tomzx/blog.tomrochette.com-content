@@ -5,6 +5,7 @@ taxonomy:
   type: post
   status: finished
   tag: [gitlab, ssh, post-quantum-cryptography, pqc, security]
+  readability: 3
 ---
 
 A small PSA for Gitlab users who use SSH to connect to their Git repositories.

@@ -5,6 +5,7 @@ taxonomy:
   type: post
   status: draft
   tag: [health, fitness]
+  readability: 1
 ---
 
 ## Context

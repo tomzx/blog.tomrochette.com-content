@@ -5,6 +5,7 @@ taxonomy:
   type: post
   tag: [investing, processes]
   status: draft
+  readability: 5
 ---
 
 Note that most of the process is guided by a long term investment strategy. In other words, we expect to keep the assets we purchase for as long as possible, only selling to rebalance our portfolio.

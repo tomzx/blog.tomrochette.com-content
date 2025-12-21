@@ -4,6 +4,7 @@ created: 2015-11-02
 taxonomy:
   status: draft
   tag: [programming, api, web-services]
+  readability: 3
 ---
 
 ## Context

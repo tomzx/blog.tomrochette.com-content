@@ -5,6 +5,7 @@ taxonomy:
   type: post
   status: draft
   tag: [productivity]
+  readability: 1
 ---
 
 ## Context

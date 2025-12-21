@@ -4,6 +4,7 @@ created: 2014-01-08
 taxonomy:
   type: post
   status: in progress
+  readability: 3
 ---
 
 # Overview

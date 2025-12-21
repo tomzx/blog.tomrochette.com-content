@@ -4,6 +4,7 @@ created: 2015-11-15
 taxonomy:
   tag: [artificial-general-intelligence]
   status: in progress
+  readability: 3
 ---
 
 The following lists presentations that I have watched and that I suggest to people that are interested in learning more about AGI.

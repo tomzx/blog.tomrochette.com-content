@@ -5,6 +5,7 @@ taxonomy:
   type: post
   tag: [processes, work]
   status: draft
+  readability: 5
 ---
 
 # Trigger

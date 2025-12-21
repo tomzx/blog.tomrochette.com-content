@@ -5,6 +5,7 @@ taxonomy:
   type: post
   tag: [teamwork, processes, work]
   status: draft
+  readability: 5
 ---
 
 ## Before

@@ -4,6 +4,7 @@ created: 2015-08-13
 taxonomy:
   tag: [artificial-general-intelligence]
   status: in progress
+  readability: 3
 ---
 
 > Teaching is the art of externalizing procedures and evaluation functions

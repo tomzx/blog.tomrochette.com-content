@@ -5,6 +5,7 @@ taxonomy:
   type: post
   status: draft
   tag: [programming, php, startup, internals]
+  readability: 3
 ---
 
 * PHP

@@ -4,6 +4,7 @@ created: 2008-01-12T01:02:48-05:00
 taxonomy:
   type: post
   tag: [computers, network, mac-os-x, leopard]
+  readability: 3
 ---
 
 Since I've upgraded to Leopard, I couldn't connect to my Windows network anymore. Browsing through various websites looking for answers, I tried pretty much all of them with no success. Not until I found [this page][1]. Is explanation is pretty simple and indeed makes my shared network show up once again!

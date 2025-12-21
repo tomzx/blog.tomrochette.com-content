@@ -1,5 +1,7 @@
 ---
 title: Apache Hit Tracker
+taxonomy:
+  readability: 3
 ---
 
 **Description**  

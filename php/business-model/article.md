@@ -5,6 +5,7 @@ taxonomy:
   type: post
   tag: [php]
   status: in progress
+  readability: 3
 ---
 
 ## Context

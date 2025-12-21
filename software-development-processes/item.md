@@ -4,6 +4,7 @@ created: 2015-07-07
 taxonomy:
   type: post
   tag: [software-engineering]
+  readability: 3
 ---
 
 This is a series of posts on the topic of software development processes.

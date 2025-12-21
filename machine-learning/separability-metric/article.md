@@ -4,6 +4,7 @@ created: 2019-09-29
 taxonomy:
   tag: [machine-learning, partially-ai-generated, llm=deepseek]
   status: in progress
+  readability: 3
 ---
 
 ## Context

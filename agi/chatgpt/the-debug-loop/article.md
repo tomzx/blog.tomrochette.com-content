@@ -4,6 +4,7 @@ created: 2025-09-05
 taxonomy:
   status: finished
   tag: [artificial-general-intelligence, story, fully-ai-generated, llm=claude-opus-4.1]
+  readability: 5
 ---
 
 Marcus closed his laptop at exactly 6 PM, just as he had promised himself he would every day this week. The screen went dark, but the code remained illuminated behind his eyelids—persistent, glowing green text against black. Even as he stood from his desk and stretched, he could still see the function he'd been wrestling with, its logic branching through his mind like creeping ivy.

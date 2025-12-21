@@ -4,6 +4,7 @@ created: 2018-05-10
 taxonomy:
   tag: [intelligence-augmentation]
   status: in progress
+  readability: 3
 ---
 
 ## Context

@@ -4,6 +4,7 @@ created: 2020-01-12
 taxonomy:
   tag: [books]
   status: in progress
+  readability: 3
 ---
 
 # 2012

@@ -5,6 +5,7 @@ taxonomy:
   type: post
   tag: [software-development, processes]
   status: draft
+  readability: 5
 ---
 
 The most up to date version of this process is available as a [Claude command in my `dot-claude` repository](https://github.com/tomzx/dot-claude/blob/main/commands/pr-review.md).

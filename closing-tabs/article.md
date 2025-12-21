@@ -5,6 +5,7 @@ taxonomy:
   type: post
   status: draft
   tag: [browser, tabs]
+  readability: 1
 ---
 
 # Why tabs are kept open

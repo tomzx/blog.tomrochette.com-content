@@ -4,6 +4,7 @@ created: 2021-12-18
 taxonomy:
   type: post
   tag: [learning]
+  readability: 3
 ---
 
 * Composer (proxy + client)

@@ -5,6 +5,7 @@ taxonomy:
   type: post
   tag: [questions, software-development]
   status: finished
+  readability: 3
 ---
 
 # Question

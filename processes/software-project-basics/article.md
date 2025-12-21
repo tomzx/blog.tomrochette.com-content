@@ -5,6 +5,7 @@ taxonomy:
   type: post
   tag: [software-development, processes, ai-feedback, llm=gpt-oss-120b]
   status: draft
+  readability: 5
 ---
 
 * Code changes are stored in git

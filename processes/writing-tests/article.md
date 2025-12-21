@@ -5,6 +5,7 @@ taxonomy:
   type: post
   tag: [software-development, processes]
   status: draft
+  readability: 5
 ---
 
 When joining a new project without tests, here is the value you need to provide through the addition of tests:

@@ -1,5 +1,7 @@
 ---
 title: Embedded system
+taxonomy:
+  readability: 3
 ---
 
 **Description**

@@ -4,6 +4,7 @@ created: 2013-01-05T08:12:09-05:00
 taxonomy:
   type: post
   tag: [computers, ssd]
+  readability: 3
 ---
 
 Backup everything. First rename, then remove when you confirmed it worked. Better safe than sorry.

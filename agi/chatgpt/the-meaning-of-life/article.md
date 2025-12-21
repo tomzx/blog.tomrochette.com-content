@@ -4,6 +4,7 @@ created: 2025-11-08
 taxonomy:
   status: finished
   tag: [artificial-general-intelligence, fully-ai-generated, llm=claude-sonnet-4.5]
+  readability: 5
 ---
 
 The meaning of life isn't something you discover - it's something you construct through systematic exploration and iterative refinement.

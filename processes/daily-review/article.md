@@ -5,6 +5,7 @@ taxonomy:
   type: post
   tag: [processes, ai-feedback, llm=gpt-oss-20b, work]
   status: draft
+  readability: 5
 ---
 
 # Trigger

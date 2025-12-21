@@ -5,6 +5,7 @@ taxonomy:
   type: post
   status: draft
   tag: [philosophy, thoughts]
+  readability: 1
 ---
 
 Life doesn't have a meaning.

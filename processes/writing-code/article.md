@@ -5,6 +5,7 @@ taxonomy:
   type: post
   tag: [software-development, processes]
   status: draft
+  readability: 5
 ---
 
 * Make sure you understand what you have to implement

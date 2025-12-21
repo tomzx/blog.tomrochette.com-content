@@ -4,6 +4,7 @@ created: 2018-06-07
 taxonomy:
   status: in progress
   tag: [devops, docker]
+  readability: 3
 ---
 
 ## Context

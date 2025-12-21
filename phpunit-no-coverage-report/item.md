@@ -4,6 +4,7 @@ created: 2012-08-05T02:20:34-05:00
 taxonomy:
   type: post
   tag: [programming, code-coverage, php, phpunit]
+  readability: 3
 ---
 
 I was trying to get PHPUnit to give me some coverage report for a project I had not worked on for a long time. I had received a github pull request from someone and I wanted to see what the coverage was on the project to see if the submitter had done a good job of covering his code, but I couldn't get PHPUnit to generate a report that contained any data. All I would get was a couple of empty directory folders pages, which was useless.

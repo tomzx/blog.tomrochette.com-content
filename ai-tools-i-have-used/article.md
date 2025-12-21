@@ -5,6 +5,7 @@ taxonomy:
   type: post
   status: draft
   tag: [ai, llm, code-generation, image-generation]
+  readability: 1
 ---
 
 # Text generation

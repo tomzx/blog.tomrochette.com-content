@@ -4,6 +4,7 @@ created: 2015-10-22
 taxonomy:
   tag: [artificial-general-intelligence]
   status: in progress
+  readability: 3
 ---
 
 The following lists the definitions of intelligence that have been given by various researchers in AGI over the years. Note that most of these definitions have been extracted from *A Collection of Definitions of Intelligence*[^1] by Shane Legg and Marcus Hutter.

@@ -5,6 +5,7 @@ taxonomy:
   type: post
   tag: []
   status: draft
+  readability: 1
 ---
 
 # Task duration vs appetite

@@ -4,6 +4,7 @@ created: 2019-03-09
 taxonomy:
   status: finished
   tag: [learning]
+  readability: 3
 ---
 
 ## Context

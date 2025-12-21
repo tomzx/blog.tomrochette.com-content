@@ -5,6 +5,7 @@ taxonomy:
   type: post
   tag: [programming, python, processes]
   status: draft
+  readability: 5
 ---
 
 Run your program with `python -m cProfile -o profile.cprofile my-script.py`

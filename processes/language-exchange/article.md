@@ -5,6 +5,7 @@ taxonomy:
   type: post
   tag: [processes]
   status: draft
+  readability: 5
 ---
 
 * What did you do this week/today?

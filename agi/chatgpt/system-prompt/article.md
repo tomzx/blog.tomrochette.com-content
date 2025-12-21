@@ -4,6 +4,7 @@ created: 2025-07-24
 taxonomy:
   tag: [artificial-general-intelligence, chatgpt]
   status: in progress
+  readability: 3
 ---
 
 # Overview

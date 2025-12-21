@@ -1,5 +1,7 @@
 ---
 title: Apache Logger/Splitter
+taxonomy:
+  readability: 3
 ---
 
 **Description**  

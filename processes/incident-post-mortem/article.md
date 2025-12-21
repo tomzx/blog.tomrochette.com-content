@@ -5,6 +5,7 @@ taxonomy:
   type: post
   tag: [processes, work]
   status: draft
+  readability: 5
 ---
 
 * Identify the cause of the problem

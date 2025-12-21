@@ -5,6 +5,7 @@ taxonomy:
   type: post
   status: draft
   tag: [games]
+  readability: 1
 ---
 
 Authentication/Login server

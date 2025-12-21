@@ -5,6 +5,7 @@ taxonomy:
   type: post
   tag: [processes, software-development]
   status: draft
+  readability: 5
 ---
 
 * For problems related to environment setup, trying to accomplish the same thing on two computers can help identify disparities caused by the environment and not the code itself.

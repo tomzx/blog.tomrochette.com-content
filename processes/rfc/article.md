@@ -5,6 +5,7 @@ taxonomy:
   type: post
   tag: [teamwork, processes, software-development]
   status: draft
+  readability: 5
 ---
 
 * Keep all RFCs under a single location

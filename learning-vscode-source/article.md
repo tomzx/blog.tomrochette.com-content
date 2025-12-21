@@ -5,6 +5,7 @@ taxonomy:
   type: post
   tag: [programming]
   status: draft
+  readability: 3
 ---
 
 # 2018-05-26

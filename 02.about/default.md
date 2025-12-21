@@ -4,6 +4,7 @@ created: 2015-07-04
 taxonomy:
   status: finished
   tag: [partially-ai-generated, ai-feedback, llm=gpt-oss-120b]
+  readability: 3
 ---
 
 Hello, I'm Tom!

@@ -5,6 +5,7 @@ taxonomy:
   type: post
   status: finished
   tag: [ai, agi, ml]
+  readability: 3
 ---
 
 After having spent about 200 workdays of my life getting familiar with the fields of AI/AGI/ML, I think it is a good moment for me to reflect back on my learning experience.

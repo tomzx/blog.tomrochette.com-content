@@ -5,6 +5,7 @@ taxonomy:
   type: post
   status: draft
   tag: [principles]
+  readability: 1
 ---
 
 Principle: a fundamental truth or proposition that serves as the foundation for a system of belief or behavior or for a chain of reasoning.

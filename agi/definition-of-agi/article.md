@@ -4,6 +4,7 @@ created: 2021-06-15
 taxonomy:
   tag: [artificial-general-intelligence]
   status: in progress
+  readability: 3
 ---
 
 When discussing a topic, it is always important to define the vocabulary we're using so that a common shared definition is used.

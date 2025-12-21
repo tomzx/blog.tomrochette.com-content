@@ -5,6 +5,7 @@ taxonomy:
   type: post
   tag: [ai, agi]
   status: draft
+  readability: 3
 ---
 
 Over the next year (and hopefully years), I plan on working on AI, but more particularly what is known as AGI, Artificial General Intelligence.

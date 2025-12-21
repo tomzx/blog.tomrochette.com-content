@@ -5,6 +5,7 @@ taxonomy:
   type: post
   status: draft
   tag: [software-development, projects, processes, work]
+  readability: 5
 ---
 
 * Meet with colleagues to discuss ongoing projects and hand off responsibilities

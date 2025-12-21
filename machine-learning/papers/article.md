@@ -4,6 +4,7 @@ created: 2015-10-25
 taxonomy:
   tag: [machine-learning]
   status: in progress
+  readability: 3
 ---
 
 The following lists papers I've read and reviewed or made notes for.

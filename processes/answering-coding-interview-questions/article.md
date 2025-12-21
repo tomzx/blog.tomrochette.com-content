@@ -5,6 +5,7 @@ taxonomy:
   type: post
   tag: [processes, programming]
   status: draft
+  readability: 5
 ---
 
 * Read the problem statement

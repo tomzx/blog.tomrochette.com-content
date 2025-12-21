@@ -5,6 +5,7 @@ taxonomy:
   type: post
   status: draft
   tag: [self-promotion]
+  readability: 1
 ---
 
 * Produce content worth sharing

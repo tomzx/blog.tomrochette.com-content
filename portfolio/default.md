@@ -1,5 +1,7 @@
 ---
 title: Portfolio
+taxonomy:
+  readability: 3
 ---
 Cette page présente une partie des programmes sur lesquels j'ai travaillé au cours des années. On y retrouve une variété de langages tel que C, C++, PHP, MySQL, Ruby, Python, Perl, etc.
 

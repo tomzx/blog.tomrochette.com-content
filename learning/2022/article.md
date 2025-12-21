@@ -4,6 +4,7 @@ created: 2022-01-14
 taxonomy:
   type: post
   tag: [learning]
+  readability: 1
 ---
 
 (sorted alphabetically)

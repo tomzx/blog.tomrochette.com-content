@@ -1,5 +1,7 @@
 ---
 title: Simulateur de réseau
+taxonomy:
+  readability: 3
 ---
 
 **Description**

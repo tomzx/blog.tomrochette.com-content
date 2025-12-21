@@ -5,6 +5,7 @@ taxonomy:
   type: post
   tag: [questions, computer-science]
   status: finished
+  readability: 3
 ---
 
 # Question

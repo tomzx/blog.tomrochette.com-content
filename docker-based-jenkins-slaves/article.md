@@ -4,6 +4,7 @@ created: 2015-11-07
 taxonomy:
   type: post
   tag: [devops, docker, jenkins]
+  readability: 3
 ---
 
 # Overview

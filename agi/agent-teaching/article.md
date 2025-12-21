@@ -4,6 +4,7 @@ created: 2021-06-13
 taxonomy:
   status: in progress
   tag: [artificial-general-intelligence]
+  readability: 3
 ---
 
 While one agent may be smarter than another, it does not necessarily mean that the smarter agent will be able to teach the less smart agent to reach the its level of intelligence.

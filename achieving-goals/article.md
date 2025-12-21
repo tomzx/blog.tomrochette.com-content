@@ -5,6 +5,7 @@ taxonomy:
   type: post
   status: draft
   tag: [goals, partially-ai-generated, ai-feedback, llm=gpt-oss-120b]
+  readability: 1
 ---
 
 * It's important to know what your goals are.

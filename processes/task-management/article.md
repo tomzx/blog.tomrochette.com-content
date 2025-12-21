@@ -5,6 +5,7 @@ taxonomy:
   type: post
   tag: [time-management, processes]
   status: draft
+  readability: 5
 ---
 
 # Steps to create a task

@@ -4,6 +4,7 @@ created: 2020-12-28
 taxonomy:
   tag: [machine-learning]
   status: draft
+  readability: 3
 ---
 
 # TODO

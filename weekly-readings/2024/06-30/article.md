@@ -5,6 +5,7 @@ taxonomy:
   type: post
   tag: [weekly-readings]
   status: finished
+  readability: 3
 ---
 
 [Gradually, then Suddenly: Upon the Threshold](https://www.oneusefulthing.org/p/gradually-then-suddenly-upon-the)

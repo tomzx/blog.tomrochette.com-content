@@ -4,6 +4,7 @@ created: 2015-10-18
 taxonomy:
   tag: [artificial-general-intelligence]
   status: finished
+  readability: 3
 ---
 
 ## Learned in this study
