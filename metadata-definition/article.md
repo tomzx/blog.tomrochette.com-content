@@ -21,8 +21,7 @@ The state of completion of the article.
 * Finished: Unlikely that the content will be touched/revised.
 
 # Readability
-
-
+A field to help readers quickly assess whether an article is appropriate for their level of expertise and available attention.
 
 See [Readability Index](../readability-index/article.md) for details.
 
