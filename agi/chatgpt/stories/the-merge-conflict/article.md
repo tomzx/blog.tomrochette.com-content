@@ -49,7 +49,7 @@ Sarah pulled up the diff:
 
 "They're both real," Marcus whispered. "Both timelines exist simultaneously until we resolve the conflict."
 
-Sarah nodded slowly. Quantum superposition at a temporal scale. The universe itself refusing to compile until they chose which future to keep—and which to discard.
+Sarah nodded slowly. Quantum superposition at a temporal scale. The universe itself refusing to compile until they chose which future to keep-and which to discard.
 
 Her fingers hovered over the keyboard. One timeline solved climate change through sacrifice and discipline. The other achieved it through desperate innovation sparked by near-extinction.
 
