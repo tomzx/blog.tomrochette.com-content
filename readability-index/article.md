@@ -4,7 +4,7 @@ created: 2025-12-21
 taxonomy:
   type: post
   status: finished
-  tag: [processes, writing]
+  tag: [processes, writing,llm=claude-sonnet-4.5,fully-ai-generated]
   readability: 5
 ---
 
@@ -35,16 +35,6 @@ The readability index serves several purposes:
 4. **Archive navigation**: As this blog contains a mix of polished articles and personal research notes, the index helps distinguish between content types.
 
 # How It's Used
-
-The readability index appears in the article metadata (frontmatter) under the `taxonomy` section:
-
-```yaml
-taxonomy:
-  type: post
-  status: finished
-  tag: [artificial-general-intelligence, machine-learning]
-  readability: 3
-```
 
 This index is subjective and represents my assessment at the time of writing. Your mileage may vary - what I consider a "3" might be a "5" for experts in that field or a "1" for beginners.
 
