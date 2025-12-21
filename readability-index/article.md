@@ -1,5 +1,5 @@
 ---
-title: Readability Index
+title: Readability index
 created: 2025-12-21
 taxonomy:
   type: post
@@ -10,7 +10,7 @@ taxonomy:
 
 The readability index is a metadata field added to articles on this blog to help readers quickly assess whether an article is appropriate for their level of expertise and available attention.
 
-# The Scale
+# The scale
 
 Articles are rated on a 0-5 scale based on their readability:
 
@@ -34,11 +34,11 @@ The readability index serves several purposes:
 
 4. **Archive navigation**: As this blog contains a mix of polished articles and personal research notes, the index helps distinguish between content types.
 
-# How It's Used
+# How it's used
 
 This index is subjective and represents my assessment at the time of writing. Your mileage may vary - what I consider a "3" might be a "5" for experts in that field or a "1" for beginners.
 
-# Why Not a Continuous 0-5 Scale?
+# Why not a continuous 0-5 scale?
 
 You might notice the scale uses discrete values (0, 1, 3, 5) rather than every integer from 0 to 5. This is intentional:
 
@@ -47,7 +47,7 @@ You might notice the scale uses discrete values (0, 1, 3, 5) rather than every i
 
 The four-point scale provides enough granularity to be useful without creating artificial precision. If an article truly feels intermediate, I'd likely rate it at the lower level (1 or 3) since it's better to underpromise and overdeliver on accessibility.
 
-# Relationship to Article Status
+# Relationship to article status
 
 The readability index is independent of the article's `status` field:
 
