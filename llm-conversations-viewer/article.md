@@ -5,7 +5,7 @@ taxonomy:
   type: post
   status: draft
   tag: [single-page-application, llm]
-  readability: 1
+  readability: 5
 ---
 
 I built something I've wanted for a while within an hour using Claude Code (Sonnet 4.5).
