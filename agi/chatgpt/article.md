@@ -36,8 +36,8 @@ Content written using LLMs, prompted by yours truly.
 * [The meaning of life](the-meaning-of-life/article.md)
 
 ## Stories
-* [The debug loop](the-debug-loop/article.md)
-* [The merge conflict](the-merge-conflict/article.md)
-* [The repository](the-repository/article.md)
-* [Seed AI](seed-ai-story/article.md)
-* [Work jail](work-jail/article.md)
+* [The debug loop](stories/the-debug-loop/article.md)
+* [The merge conflict](stories/the-merge-conflict/article.md)
+* [The repository](stories/the-repository/article.md)
+* [Seed AI](stories/seed-ai/article.md)
+* [Work jail](stories/work-jail/article.md)
