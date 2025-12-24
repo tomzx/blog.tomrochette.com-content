@@ -19,234 +19,36 @@ This sounds a bit high, but there's a reason to this. I'm not ACTIVELY using the
 
 The following top 10 items accounts for 876.18h out of the 966.21h of active usage of the computer.
 
-<table>
-  <tr>
-    <td>
-      <strong>Application</strong>
-    </td>
-
-    <td>
-      <strong>Hours</strong>
-    </td>
-  </tr>
-
-  <tr>
-    <td>
-      Google Chrome
-    </td>
-
-    <td>
-      457.76
-    </td>
-  </tr>
-
-  <tr>
-    <td>
-      Remote Desktop Connection
-    </td>
-
-    <td>
-      179.11
-    </td>
-  </tr>
-
-  <tr>
-    <td>
-      League of Legends (TM) Client
-    </td>
-
-    <td>
-      72.69
-    </td>
-  </tr>
-
-  <tr>
-    <td>
-      VLC media player
-    </td>
-
-    <td>
-      62.9
-    </td>
-  </tr>
-
-  <tr>
-    <td>
-      HexChat
-    </td>
-
-    <td>
-      35.81
-    </td>
-  </tr>
-
-  <tr>
-    <td>
-      Free Alarm Clock
-    </td>
-
-    <td>
-      15.02
-    </td>
-  </tr>
-
-  <tr>
-    <td>
-      mRemote
-    </td>
-
-    <td>
-      14.9
-    </td>
-  </tr>
-
-  <tr>
-    <td>
-      Sublime Text 2
-    </td>
-
-    <td>
-      14.56
-    </td>
-  </tr>
-
-  <tr>
-    <td>
-      Windows Explorer
-    </td>
-
-    <td>
-      12.13
-    </td>
-  </tr>
-
-  <tr>
-    <td>
-      Torchlight II
-    </td>
-
-    <td>
-      11.3
-    </td>
-  </tr>
-</table>
+| **Application** | **Hours** |
+|-----------------|-----------|
+| Google Chrome | 457.76 |
+| Remote Desktop Connection | 179.11 |
+| League of Legends (TM) Client | 72.69 |
+| VLC media player | 62.9 |
+| HexChat | 35.81 |
+| Free Alarm Clock | 15.02 |
+| mRemote | 14.9 |
+| Sublime Text 2 | 14.56 |
+| Windows Explorer | 12.13 |
+| Torchlight II | 11.3 |
 
 
 On first sight we can see that I spend a lot of time browsing the web. I do various things on there and since it is the biggest chunk of my time, it is worth looking at what I do exactly on the web. The following table is the top 10 websites I've spent time on.
 
 ### Web activity
 
-<table>
-  <tr>
-    <td>
-      <strong>Website</strong>
-    </td>
-
-    <td>
-      <strong>Hours</strong>
-    </td>
-  </tr>
-
-  <tr>
-    <td>
-      www.reddit.com
-    </td>
-
-    <td>
-      165.53
-    </td>
-  </tr>
-
-  <tr>
-    <td>
-      www.jolteon.net
-    </td>
-
-    <td>
-      19.33
-    </td>
-  </tr>
-
-  <tr>
-    <td>
-      www.youtube.com
-    </td>
-
-    <td>
-      17.51
-    </td>
-  </tr>
-
-  <tr>
-    <td>
-      docs.google.com
-    </td>
-
-    <td>
-      12.79
-    </td>
-  </tr>
-
-  <tr>
-    <td>
-      -confidential-
-    </td>
-
-    <td>
-      12.66
-    </td>
-  </tr>
-
-  <tr>
-    <td>
-      www.twitch.tv
-    </td>
-
-    <td>
-      9.34
-    </td>
-  </tr>
-
-  <tr>
-    <td>
-      www.google.ca
-    </td>
-
-    <td>
-      8.18
-    </td>
-  </tr>
-
-  <tr>
-    <td>
-      en.wikipedia.org
-    </td>
-
-    <td>
-      4.92
-    </td>
-  </tr>
-
-  <tr>
-    <td>
-      www.facebook.com
-    </td>
-
-    <td>
-      4.81
-    </td>
-  </tr>
-
-  <tr>
-    <td>
-      mail.google.com
-    </td>
-
-    <td>
-      4.08
-    </td>
-  </tr>
-</table>
+| **Website** | **Hours** |
+|-------------|-----------|
+| www.reddit.com | 165.53 |
+| www.jolteon.net | 19.33 |
+| www.youtube.com | 17.51 |
+| docs.google.com | 12.79 |
+| -confidential- | 12.66 |
+| www.twitch.tv | 9.34 |
+| www.google.ca | 8.18 |
+| en.wikipedia.org | 4.92 |
+| www.facebook.com | 4.81 |
+| mail.google.com | 4.08 |
 
 This covers 259.15h out of 457.76h (56.6%) spent in **Chrome**. This means that I have a long-tail (a list of many different websites which I visit for a brief period) of 198.61h. The major time consumer here is www.reddit.com, which accounts for 36.2% of my time browsing. Even though reddit is a news/media website (useful for staying up to date with world events, not sure I do that...), it also contains a lot of content which I would categorize as time wasters: funny pictures, pictures of cats, videos as well as discussions about topics of interests (computer science, software engineer, robotics, electronics, etc.). I spent about 1.3h/day during the 128 days for which I collected data, which I find to be quite a lot.
 
