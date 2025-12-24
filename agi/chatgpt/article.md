@@ -37,6 +37,7 @@ Content written using LLMs, prompted by yours truly.
 
 ## Stories
 * [The debug loop](stories/the-debug-loop/article.md)
+* [The last commit](stories/the-last-commit/article.md)
 * [The merge conflict](stories/the-merge-conflict/article.md)
 * [The repository](stories/the-repository/article.md)
 * [Seed AI](stories/seed-ai/article.md)
