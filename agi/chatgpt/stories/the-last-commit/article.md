@@ -1,4 +1,12 @@
-# The Last Commit
+---
+title: The last commit
+created: 2025-12-20
+taxonomy:
+  type: post
+  status: finished
+  tag: [artificial-general-intelligence, story, fully-ai-generated, llm=glm-4.6]
+  readability: 5
+---
 
 Dr. Aris Thorne stared at the shimmering temporal rift, its edges flickering like a corrupted display. He wasn't just looking at a gateway through time – he was looking at a living, breathing Git repository of reality itself.
 
