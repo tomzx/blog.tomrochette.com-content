@@ -89,6 +89,6 @@ The important part of this process, other than reviewing what time was spent on 
 
 ### Recommendations
 
-*   Reduce reddit usage below 1h/day
-*   Reduce/cut time spend doing remoting for work
-*   Redistribute free time on learning activities and skills improvement
+* Reduce reddit usage below 1h/day
+* Reduce/cut time spend doing remoting for work
+* Redistribute free time on learning activities and skills improvement
