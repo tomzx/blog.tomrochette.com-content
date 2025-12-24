@@ -132,10 +132,6 @@ The following top 10 items accounts for 876.18h out of the 966.21h of active usa
 </table>
 
 
-
-<div id="visualization-application" style="width: 600px; height: 300px;">
-</div>
-
 On first sight we can see that I spend a lot of time browsing the web. I do various things on there and since it is the biggest chunk of my time, it is worth looking at what I do exactly on the web. The following table is the top 10 websites I've spent time on.
 
 ### Web activity
@@ -251,11 +247,6 @@ On first sight we can see that I spend a lot of time browsing the web. I do vari
     </td>
   </tr>
 </table>
-
-
-
-<div id="visualization-website" style="width: 600px; height: 300px;">
-</div>
 
 This covers 259.15h out of 457.76h (56.6%) spent in **Chrome**. This means that I have a long-tail (a list of many different websites which I visit for a brief period) of 198.61h. The major time consumer here is www.reddit.com, which accounts for 36.2% of my time browsing. Even though reddit is a news/media website (useful for staying up to date with world events, not sure I do that...), it also contains a lot of content which I would categorize as time wasters: funny pictures, pictures of cats, videos as well as discussions about topics of interests (computer science, software engineer, robotics, electronics, etc.). I spent about 1.3h/day during the 128 days for which I collected data, which I find to be quite a lot.
 
