@@ -3,9 +3,9 @@ title: LLM conversations viewer
 created: 2025-12-21
 taxonomy:
   type: post
-  status: draft
+  status: finished
   tag: [single-page-application, llm]
-  readability: 1
+  readability: 5
 ---
 
 I built something I've wanted for a while within an hour using Claude Code (Sonnet 4.5).
