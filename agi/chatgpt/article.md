@@ -24,6 +24,7 @@ taxonomy:
 
 # Reviews
 * [OpenChatKit](reviews/openchatkit/article.md)
+* [Z.ai GLM](reviews/glm/article.md)
 
 # Written by LLMs
 Content written using LLMs, prompted by yours truly.
