@@ -1,6 +1,10 @@
 ---
 title: Z.ai GLM
 created: 2025-12-24
+taxonomy:
+  tag: [artificial-general-intelligence, z.ai, glm]
+  status: in progress
+  readability: 3
 ---
 
 - GLM 4.7 feels a bit less smart than Claude Sonnet 4.5
