@@ -1,5 +1,5 @@
 ---
-title: OpenChatKit
+title: GLM
 created: 2025-12-24
 ---
 
