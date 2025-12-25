@@ -12,3 +12,4 @@ taxonomy:
 - More reactive to errors rather than being proactive (e.g., will try running `uv run ruff` to discover that `ruff` isn't installed)
 - Speed is comparable to Claude Sonnet 4.5 and acceptable
 - Code quality looks comparable to Claude Sonnet 4.5
+- Can stay busy non-stop with the Pro plan
