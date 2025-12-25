@@ -1,5 +1,5 @@
 ---
-title: GLM
+title: Z.ai GLM
 created: 2025-12-24
 ---
 
