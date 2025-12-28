@@ -47,6 +47,7 @@ Tom
 * [Decision trees](https://github.com/tomzx/decision-trees)
 * [Dialog theory](dialog-theory/article.md)
 * [Entropy](entropy/article.md)
+* [GlobaLLM](globallm-automated-open-source-contribution-at-scale/article.md)
 * [Graph architectures](graph-architectures/article.md)
 * [Imitation based agents](imitation-based-agents/article.md)
 * [Intelligence](intelligence/article.md)
