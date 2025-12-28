@@ -14,7 +14,7 @@ Consider the following dilemma: you have unlimited access to state-of-the-art LL
 
 How do you maximize positive impact on the software ecosystem?
 
-GlobaLLM is an experiment in autonomous open source contribution.
+[GlobaLLM](https://github.com/TomzxCode/globallm) is an experiment in autonomous open source contribution.
 
 It's a system that discovers repositories, analyzes their health, prioritizes issues, and automatically generates pull requests - all while coordinating with other instances to avoid redundant work.
 
