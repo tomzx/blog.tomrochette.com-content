@@ -11,10 +11,13 @@ status: in progress
 # Introduction
 
 Consider the following dilemma: you have unlimited access to state-of-the-art LLMs, but finite compute resources.
+
 How do you maximize positive impact on the software ecosystem?
 
 GlobaLLM is an experiment in autonomous open source contribution.
+
 It's a system that discovers repositories, analyzes their health, prioritizes issues, and automatically generates pull requests - all while coordinating with other instances to avoid redundant work.
+
 The core insight isn't just that LLMs can write code; it's that *strategic prioritization* combined with *distributed execution* can multiply that capability into something genuinely impactful.
 
 This article explains how GlobaLLM works, diving into the architecture that lets it scale from fixing a single bug to coordinating across thousands of repositories.
@@ -30,12 +33,30 @@ Discover -> Analyze -> Prioritize -> Fix -> Contribute
 ## 1. Discover
 
 The system begins by finding repositories worth targeting.
-Using GitHub's search API, it filters by language, domain, stars, or custom criteria.
-The goal isn't to find every repository - it's to find repositories where a contribution would matter.
+
+Using GitHub's search API, it filters by domain, language, stars, and other criteria.
+
+Current methodology uses **domain-based discovery** with predefined domains (`ai_ml`, `web_dev`, `data_science`, `cloud_devops`, `mobile`, `security`, `games`), each with custom search queries combining relevant keywords.
+
+The system then applies **multi-stage filtering**:
+
+1. **Language filtering**: Excludes non-programming languages (Markdown, HTML, CSS, Shell, etc.)
+2. **Library filtering**: Uses heuristics to identify libraries vs applications (checks for package files like `pyproject.toml`, `package.json`, `Cargo.toml`; filters out "awesome" lists and doc repos; analyzes descriptions and topics)
+3. **Quality filtering**: Language-specific queries include testing indicators (pytest, jest, testing)
+4. **Health filtering**: Applies health scores to filter out unmaintained projects
+5. **Dependent enrichment**: Uses libraries.io API to fetch package dependency counts for impact scoring
+
+Results are cached locally (24hr TTL) to avoid redundant API calls and respect rate limits.
+
+The goal isn't to find every repository - it's to find libraries where a contribution would matter.
 
 ## 2. Analyze
 
-Once a repository is identified, GlobaLLM performs deep analysis. It calculates a **HealthScore** based on multiple signals:
+Once a repository is identified, GlobaLLM performs deep analysis to determine **whether contributing is worthwhile**.
+
+This gate prevents wasting resources on abandoned projects, hostile communities, or repositories where contributions won't have impact.
+
+It calculates a **HealthScore** based on multiple signals:
 
 - **Commit velocity**: Is the project actively maintained?
 - **Issue resolution rate**: Are bugs getting fixed?
@@ -44,109 +65,101 @@ Once a repository is identified, GlobaLLM performs deep analysis. It calculates 
 
 It also computes an **impact score** - how many users would benefit from a fix, based on stars, forks, and dependency analysis using `NetworkX`.
 
+Repositories with low health scores or minimal impact are deprioritized or skipped entirely.
+
 ## 3. Prioritize
 
-The system fetches open issues and categorizes them (bug, feature, documentation, etc.). Then it ranks them using a multi-factor algorithm considering:
+The system fetches open issues from approved repositories and ranks them using a sophisticated multi-factor algorithm.
 
-- **Impact**: How many users benefit?
-- **Solvability**: Does the issue have sufficient context?
-- **Safety**: Can we validate with tests?
-- **Cost**: Estimated token expenditure
+Each issue is analyzed by an LLM to determine:
+
+- **Category**: bug, feature, documentation, performance, security, etc.
+- **Complexity**: 1-10 scale (how difficult to solve)
+- **Solvability**: 0-1 score (likelihood of automated fix success)
+- **Requirements**: affected files, breaking change risk, test needs
+
+The prioritization then combines four dimensions:
+
+**Health (weight: 1.0)**: Repository health adjusted for complexity.
+
+A healthy repository with simple issues scores higher than an unhealthy repository with complex ones.
+
+**Impact (weight: 2.0)**: Based on stars, dependents, and watchers.
+
+Uses log-scale normalization (stars / 50,000, dependents / 5,000).
+
+**Solvability (weight: 1.5)**: LLM-assessed likelihood of successful resolution.
+
+Documentation and style issues (~0.9) rank higher than critical security (~0.3) due to automation difficulty.
+
+**Urgency (weight: 0.5)**: Category multiplier × age × engagement.
+
+Critical security bugs get 10× multiplier, documentation gets 1×.
+
+The final formula:
+
+```
+priority = (health × 1.0) + (impact × 2.0) + (solvability × 1.5) + (urgency × 0.5)
+```
+
+Budget constraints filter the ranked list:
+
+- Per-repository token limit (default: 100k)
+- Per-language issue limit (default: 50)
+- Weekly token budget (default: 5M)
+
+Results are saved to the issue store with full breakdowns for transparency.
 
 ## 4. Fix
 
-GlobaLLm claims the highest-priority unassigned issue and generates a solution. It reads the codebase, writes a patch, generates tests, and validates locally before creating a PR.
+GlobaLLM claims the highest-priority unassigned issue and generates a solution.
+
+This is where LLMs do the heavy lifting.
+
+The `CodeGenerator` class sends a structured prompt to Claude or ChatGPT with:
+
+- The issue title and description
+- Repository context (code style, testing framework)
+- Language-specific conventions
+- Category-specific requirements (bug vs feature vs docs)
+
+The LLM responds with a complete solution:
+
+- **Explanation**: Step-by-step reasoning
+- **File patches**: Original and new content for each modified file
+- **Tests**: New or modified test files
+
+The system tracks tokens used at every step for budget management.
 
 ## 5. Contribute
 
-The final stage uses PRAutomation to create a well-structured pull request with context, tests, and documentation. For trivial changes (typos, version bumps), it can even
-auto-merge.
+The final stage uses `PRAutomation` to create a well-structured pull request with context, tests, and documentation.
 
-# Component Deep Dive
+For trivial changes (typos, version bumps), it can even auto-merge.
 
-## Data Models
+# Where LLMs Are Used
 
-The system is built on four core models, all using Pydantic for validation:
+LLMs are the engine that powers GlobaLLM, but they're used strategically rather than indiscriminately.
 
-**Repository**: Stores full context including:
-- Git metadata (default branch, latest commit)
-- Health and impact scores
-- Dependency information
-- Token usage tracking
+**Stage 3 - Prioritize**: The `IssueAnalyzer` calls an LLM to categorize each issue.
 
-**Issue**: Enhances GitHub issues with:
-- Category classification
-- Priority ranking
-- Solver assignment status
-- Historical context
+Input: title, body, labels, comments, reactions.
 
-**Solution**: Captures generated fixes with:
-- Diff patches
-- Test coverage
-- Validation results
-- PR metadata
+Output: category, complexity (1-10), solvability (0-1), breaking_change, test_required.
 
-**HealthScore**: A multi-factor evaluation combining velocity, CI status, and community metrics.
+This costs ~500 tokens per issue and feeds directly into the priority scoring.
 
-## Discovery Engine
+**Stage 4 - Fix**: The `CodeGenerator` uses an LLM to generate complete solutions.
 
-The `discover` command wraps GitHub's search API with intelligent defaults:
+Input: issue details, repository context, language style guidelines.
 
-```bash
-globallm discover --language python --stars ">1000"
-globallm discover --topic "machine-learning"
-```
+Output: explanation, file patches (original + new content), test files.
 
-Results are cached in PostgreSQL to avoid redundant API calls. The system respects rate limits and can operate across multiple GitHub tokens.
+This costs 1k-10k tokens depending on complexity.
 
-## Analysis Layer
+The key insight: LLMs are only used for tasks requiring intelligence.
 
-Repository health analysis is the core differentiator. Instead of treating all repositories equally, GlobaLLm computes a weighted score:
-
-- **Recent commits (40%)**: Projects with recent activity get priority
-- **Open issue ratio (20%)**: High backlog may indicate neglect
-- **CI pass rate (20%)**: Failing tests suggest instability
-- **Contributor count (20%)**: More contributors = healthier project
-
-Impact scoring uses dependency graphs: a fix in a popular library benefits more users than a fix in a niche application.
-
-## Prioritization Algorithm
-
-The prioritize command issues from all stored repositories:
-
-```bash
-globallm prioritize --limit 50
-```
-
-It applies a scoring function:
-
-```
-priority = (impact * 0.6) + (solvability * 0.4) - cost_penalty
-```
-
-Issues with clear reproduction steps, test failures, or small scope rank higher. "Good first issue" labels get a boost.
-
-## Solution Generation
-
-The `CodeGenerator` class orchestrates LLM-based code generation:
-
-1. **Context gathering**: Reads relevant files and git history
-2. **Solution generation**: Calls Claude/GPT with structured prompts
-3. **Test generation**: Creates tests for the fix
-4. **Validation**: Runs tests and checks for regressions
-5. **Iteration**: Refines if validation fails
-
-The system tracks token usage at every step, respecting budget constraints.
-
-## PRAutomation
-
-Creating a PR isn't just pushing code - it's providing context. The automation layer:
-
-- Generates descriptive commit messages
-- Writes PR summaries with before/after context
-- Includes test results in the description
-- Labels PRs by category (bugfix, feature, docs)
-- Auto-merges trivial changes when configured
+Discovery, health scoring, impact calculation, and PR automation use deterministic algorithms.
 
 # Scaling GlobaLLM
 
@@ -154,13 +167,17 @@ The real power of GlobaLLM emerges when you run multiple instances in parallel.
 
 ## Distributed Agent Architecture
 
-Each GlobaLLM instance has a unique `AgentIdentity`. When it's ready to work, it calls:
+Each GlobaLLM instance has a unique `AgentIdentity`.
+
+When it's ready to work, it calls:
 
 ```bash
 globallm assign claim
 ```
 
-This atomically reserves the highest-priority unassigned issue. The assignment is stored in PostgreSQL with a heartbeat timestamp.
+This atomically reserves the highest-priority unassigned issue.
+
+The assignment is stored in PostgreSQL with a heartbeat timestamp.
 
 ## Issue Assignment System
 
@@ -194,44 +211,23 @@ No distributed consensus needed - PostgreSQL's row-level locking handles content
 
 PostgreSQL is the central state store:
 
-- **Connection pooling**: 2-10 connections per process (psycopg pool)
+- **Connection pooling**: 2-10 connections per process (`psycopg` pool)
 - **JSONB columns**: Flexible schema for repository/issue metadata
 - **Indexes**: On frequently queried fields (stars, health_score, assigned status)
-- **Migrations**: Versioned schema with Alembic
-
-Separate tables for repositories and issues allow efficient queries:
-
-```sql
--- Find high-impact, low-health repos
-SELECT * FROM repositories
-WHERE health_score < 0.5 AND impact_score > 0.8;
-
--- Find unassigned issues in priority repos
-SELECT i.* FROM issues i
-JOIN repositories r ON i.repo_url = r.url
-WHERE i.assigned = false
-ORDER BY r.impact_score DESC, i.priority DESC;
-```
-
-## Resource Management
-
-Budget constraints prevent runaway costs:
-
-```bash
-globallm budget set --max-tokens 1_000_000
-globallm budget set --max-time 3600
-globallm budget set --max-per-repo 10
-```
-
-The system tracks token usage per-repository and globally, stopping when limits are reached. This allows safe overnight runs: you can cap total spend and let it prioritize within
-that budget.
+- **Migrations**: Versioned schema
 
 # Conclusion
 
-GlobaLLM is an experiment in what's possible when you combine LLM code generation with principled decision-making and distributed execution. The goal isn't to replace human
-contributors - it's to handle the long tail of maintenance work that no one has time for, freeing up humans to focus on the interesting problems.
+GlobaLLM is an experiment in what's possible when you combine LLM code generation with principled decision-making and distributed execution.
 
-The system is actively developed and evolving. Current work focuses on better prioritization heuristics, more sophisticated validation, and integration with additional LLM
-providers.
+The goal isn't to replace human contributors - it's to handle the long tail of maintenance work that no one has time for, freeing up humans to focus on the interesting problems.
 
-If you're interested in contributing or just want to run it yourself, the code is available on GitHub. The future of open source maintenance might just be autonomous.
+The system is actively developed and evolving.
+
+Current work focuses on better prioritization heuristics, more sophisticated validation, and integration with additional LLM providers.
+
+If you're interested in contributing or just want to run it yourself, [the code is available on GitHub](https://github.com/TomzxCode/globallm).
+
+This system is far from perfect, but it's a step toward harnessing AI to make open source software healthier and more sustainable at scale.
+
+It's also a way to explore what it looks like to have to make decisions at the scale of millions of repositories and billions of issues.
