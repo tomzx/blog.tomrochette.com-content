@@ -216,6 +216,17 @@ PostgreSQL is the central state store:
 - **Indexes**: On frequently queried fields (stars, health_score, assigned status)
 - **Migrations**: Versioned schema
 
+# Future Work
+
+GlobaLLM is an evolving experiment.
+There are numerous challenges that developers face on a daily basis that a system such as GlobaLLM will also encounter and would need to deal with in order to be more effective:
+
+- Parallelizing work across multiple agents without conflicts or redundant effort.
+- Producing "mental models" of repositories to better understand their goals, architecture, dependencies and trajectories.
+- Have a higher-level decision-making system that can reason about which repositories to focus on based on broader trends in the open source ecosystem.
+- Make decisions such as which programming languages to focus on.
+- Have the ability to work with closed source repositories which may not have the same signals as open source ones (e.g., forks, stars, dependency count).
+
 # Conclusion
 
 GlobaLLM is an experiment in what's possible when you combine LLM code generation with principled decision-making and distributed execution.
