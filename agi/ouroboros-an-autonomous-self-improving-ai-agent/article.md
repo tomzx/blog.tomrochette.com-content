@@ -3,7 +3,7 @@ title: "Ouroboros: An Autonomous Self-Improving AI Agent"
 created: 2026-01-02
 taxonomy:
   type: post
-  tag: [artificial-general-intelligence, globallm, open-source, fully-ai-generated, llm=glm-4.7]
+  tag: [artificial-general-intelligence, ouroboros, open-source, fully-ai-generated, llm=glm-4.7]
   readability: 3
 status: in progress
 ---
