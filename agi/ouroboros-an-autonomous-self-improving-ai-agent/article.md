@@ -21,6 +21,7 @@ Unlike traditional AI assistants that wait for commands and forget context betwe
 - Can incorporate human feedback when provided
 
 Previously I shared [GlobaLLM](../globallm-automated-open-source-contribution-at-scale/article.md), an AI agent that autonomously contributes to open source projects.
+While GlobaLLM's primary objective is to deal with task prioritization at scale, Ouroboros focuses on task implementation and self-improvement.
 
 # How It Works
 
