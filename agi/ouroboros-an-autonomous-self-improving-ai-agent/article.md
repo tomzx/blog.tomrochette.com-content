@@ -20,6 +20,8 @@ Unlike traditional AI assistants that wait for commands and forget context betwe
 - Modifies its own code to improve over time
 - Can incorporate human feedback when provided
 
+Previously I shared [GlobaLLM](../globallm-automated-open-source-contribution-at-scale/article.md), an AI agent that autonomously contributes to open source projects.
+
 # How It Works
 
 ## The Core Loop
