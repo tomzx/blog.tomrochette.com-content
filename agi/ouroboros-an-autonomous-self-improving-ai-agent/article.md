@@ -20,9 +20,9 @@ Unlike traditional AI assistants that wait for commands and forget context betwe
 - Modifies its own code to improve over time
 - Can incorporate human feedback when provided
 
-Previously I shared [GlobaLLM](../globallm-automated-open-source-contribution-at-scale/article.md), an AI agent that autonomously contributes to open source projects.
-While GlobaLLM's primary objective is to deal with task prioritization at scale, Ouroboros focuses on task implementation and self-improvement.
-Ouroboros thus is a component of GlobaLLM's solution.
+Previously I wrote about [GlobaLLM](../globallm-automated-open-source-contribution-at-scale/article.md), an AI agent that autonomously contributes to open source projects.
+While GlobaLLM's primary objective is to do project and task prioritization at scale, Ouroboros focuses on task implementation and self-improvement.
+Ouroboros is thus a component of GlobaLLM's solution.
 
 # How It Works
 
@@ -35,7 +35,7 @@ Ouroboros follows a structured nine-step cycle that repeats continuously:
 3. **Plan** – Uses an LLM to create a step-by-step plan
 4. **Execute** – Carries out the plan using available tools
 5. **Journal** – Writes results to a daily log
-6. **Reflect** – Analyzes what happened and identifies improvements
+6. **Reflect** – Analyzes what happened and identifies improvements (both task-related and self-related)
 7. **Self-modify** – Edits its own source code if improvements are found
 8. **Journal again** – Records reflection and modification results
 9. **Repeat** – Starts the cycle anew
@@ -85,6 +85,8 @@ The agent comes with built-in tools for common operations:
 
 Crucially, Ouroboros can create, register, and use *new tools* that it writes itself.
 
+Tools are implemented as CLI commands of the `ouroboros` CLI that the agent can invoke during execution.
+
 # Design Principles
 
 ## Safety Through Structure
@@ -115,7 +117,7 @@ It will happily incorporate feedback, adjust course based on user suggestions, a
 # The Vision
 
 Ouroboros represents an experiment in autonomous AI agents.
-Can an agent truly improve itself over time without human intervention?
+Can an agent truly improve itself over time without (or limited) human intervention?
 By maintaining a detailed journal, reflecting on its actions, and having the freedom to modify its own code, Ouroboros aims to answer this question.
 
 The name is fitting - the serpent eating its tail represents the continuous cycle of doing, learning, and improving that drives the agent forward.
