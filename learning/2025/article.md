@@ -17,6 +17,7 @@ taxonomy:
 * Kyverno
 * Model context protocol (MCP)
 * Multi-node training and inference
+* NATS
 * Nebius
 * Vibe-Kanban
 
