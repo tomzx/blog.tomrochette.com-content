@@ -10,7 +10,7 @@ status: in progress
 
 # What is Ouroboros?
 
-[Ouroboros](https://github.com/TomzxCode/ouroboros) is an autonomous AI agent that continuously works to improve itself.
+[Ouroboros](https://github.com/TomzxCode/ouroboros) is an autonomous AI agent that works on tasks provided to it as well as continuously improving itself.
 Named after the ancient symbol of a serpent eating its own tail - representing infinity and cyclic renewal - Ouroboros implements a continuous loop of **Do → Learn → Improve → Retry**.
 
 Unlike traditional AI assistants that wait for commands and forget context between sessions, Ouroboros:
@@ -22,6 +22,7 @@ Unlike traditional AI assistants that wait for commands and forget context betwe
 
 Previously I shared [GlobaLLM](../globallm-automated-open-source-contribution-at-scale/article.md), an AI agent that autonomously contributes to open source projects.
 While GlobaLLM's primary objective is to deal with task prioritization at scale, Ouroboros focuses on task implementation and self-improvement.
+Ouroboros thus is a component of GlobaLLM's solution.
 
 # How It Works
 
