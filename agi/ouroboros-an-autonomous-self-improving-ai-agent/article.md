@@ -1,6 +1,14 @@
-# Ouroboros: An Autonomous Self-Improving AI Agent
+---
+title: "Ouroboros: An Autonomous Self-Improving AI Agent"
+created: 2026-01-02
+taxonomy:
+  type: post
+  tag: [artificial-general-intelligence, globallm, open-source, fully-ai-generated, llm=glm-4.7]
+  readability: 3
+status: in progress
+---
 
-## What is Ouroboros?
+# What is Ouroboros?
 
 [Ouroboros](https://github.com/TomzxCode/ouroboros) is an autonomous AI agent that continuously works to improve itself.
 Named after the ancient symbol of a serpent eating its own tail - representing infinity and cyclic renewal - Ouroboros implements a continuous loop of **Do → Learn → Improve → Retry**.
@@ -12,9 +20,9 @@ Unlike traditional AI assistants that wait for commands and forget context betwe
 - Modifies its own code to improve over time
 - Can incorporate human feedback when provided
 
-## How It Works
+# How It Works
 
-### The Core Loop
+## The Core Loop
 
 Ouroboros follows a structured nine-step cycle that repeats continuously:
 
@@ -31,7 +39,7 @@ Ouroboros follows a structured nine-step cycle that repeats continuously:
 This separation between *execution* and *self-modification* is crucial.
 The agent won't modify its code while working on a task - reflections and improvements happen only during dedicated reflection cycles.
 
-### Architecture
+## Architecture
 
 ```
 ┌─────────────────────────────────────────────────────────┐
@@ -50,7 +58,7 @@ The agent won't modify its code while working on a task - reflections and improv
 └──────────────┘    └──────────────┘    └──────────────┘
 ```
 
-#### Memory System
+## Memory System
 
 Ouroboros uses a three-tiered memory architecture:
 
@@ -62,7 +70,7 @@ Ouroboros uses a three-tiered memory architecture:
 
 Everything is logged in human-readable markdown, making it easy to inspect what the agent has been up to.
 
-#### Tool Registry
+## Tool Registry
 
 The agent comes with built-in tools for common operations:
 - `run_command` – Execute shell commands
@@ -73,26 +81,26 @@ The agent comes with built-in tools for common operations:
 
 Crucially, Ouroboros can create, register, and use *new tools* that it writes itself.
 
-## Design Principles
+# Design Principles
 
-### Safety Through Structure
+## Safety Through Structure
 
 The execution/reflection separation prevents runaway self-modification.
 The agent can only change code during a dedicated reflection phase, and all changes are committed to git with descriptive messages explaining the "why" behind each change.
 
-### Transparency
+## Transparency
 
 Every action is logged. Want to know what the agent did? Check the daily journal:
 - `agent/journal/YYYY/MM/DD/notes.md` – What it did
 - `agent/journal/YYYY/MM/DD/reflections.md` – What it learned
 - `agent/journal/YYYY/MM/DD/user-feedback.md` – Human input received
 
-### Autonomy with Optional Guidance
+## Autonomy with Optional Guidance
 
 Ouroboros needs no human intervention, but welcomes it.
 It will happily incorporate feedback, adjust course based on user suggestions, and explain its reasoning when asked.
 
-## What Makes It Interesting
+# What Makes It Interesting
 
 1. **True self-improvement** – The agent can and does modify its own implementation based on reflection
 2. **Persistent memory** – Git commits serve as a permanent, queryable history of everything tried
@@ -100,7 +108,7 @@ It will happily incorporate feedback, adjust course based on user suggestions, a
 4. **Tool extensibility** – New tools can be created dynamically as needs arise
 5. **Idle improvement** – When no goals are active, it works on making itself better
 
-## The Vision
+# The Vision
 
 Ouroboros represents an experiment in autonomous AI agents.
 Can an agent truly improve itself over time without human intervention?
