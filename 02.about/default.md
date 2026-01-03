@@ -9,9 +9,7 @@ taxonomy:
 
 Hello, I'm Tom!
 
-This is a brief introduction about myself.
-
-I was born in Montreal.
+I am a software developer generalist with 15 years of professional experience, initially doing game development, then full stack web development and currently working with ML/DL/AI.
 
 I hold a bachelor's degree in Software Engineering which I completed at the [École Polytechnique de Montréal](https://polymtl.ca/) in 2011.
 
