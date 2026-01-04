@@ -29,7 +29,7 @@ Every daily at the beginning of the (work) day.
 
 ## End of day
 * [Continuous learning](../continuous-learning/article.md)
-* [Generate an end of day summary using LLMs]
+* [Generate an end of day summary using LLMs](https://github.com/tomzx/dot-claude/blob/main/commands/end-of-day-summary.md)
 * [Daily review](../daily-review/article.md)
 * [Review weekly plan and align](../weekly-review/article.md)
 * [Plan next day](../daily-planning/article.md)
