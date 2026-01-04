@@ -18,7 +18,7 @@ Every daily at the beginning of the (work) day.
 * [Review PRs](../reviewing-code/article.md) (start of day)
 * Catch up on slack messages (start of day)
 * [Go to meetings](../meetings/article.md) (some days)
-* [1:1](../one-on-one/article.md) (weekly)
+* [1:1](../one-on-one/article.md) (some days)
 * [Daily review](../daily-review/article.md) (end of day)
 * [Review weekly plan and align](../weekly-review/article.md) (end of day)
 * [Plan next day](../daily-planning/article.md) (end of day)
