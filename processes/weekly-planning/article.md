@@ -9,12 +9,12 @@ taxonomy:
 ---
 
 # Trigger
-Every week at the end of the (work) week.
+Every week at the beginning of the (work) week.
 
 # Duration
 10 minutes.
 
 # Steps
-* Determine what are the most important tasks to be done next week
+* Determine what are the most important tasks to be done this week
 * Determine the next step for each task
-* Determine how much work can reasonably be accomplished next week
+* Determine how much work can reasonably be accomplished this week
