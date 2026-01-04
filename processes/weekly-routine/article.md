@@ -22,5 +22,5 @@ Every week at the beginning of the (work) week.
 * [Daily routine](../daily-routine/article.md)
 
 ## End of week
-* [Generate an end of week summary using LLMs](https://github.com/tomzx/dot-claude/blob/main/commands/end-of-week-summary.md)
+* [Generate an end of week summary using LLMs](https://github.com/tomzx/dot-claude/blob/main/commands/end-of-week-summary.md) (LLM)
 * [Weekly review](../weekly-review/article.md)
