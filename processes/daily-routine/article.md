@@ -16,16 +16,16 @@ Every daily at the beginning of the (work) day.
 
 # Steps
 ## Start of day
-* Catch up on slack messages
-* [Review PRs](../reviewing-code/article.md)
-* Standup
+* Catch up on slack messages (manual)
+* [Review PRs](../reviewing-code/article.md) (manual)
+* Standup (manual)
 
 ## Throughout the day
-* [Go to meetings](../meetings/article.md) (some days)
-* [1:1](../one-on-one/article.md) (some days)
-* [Write code](../writing-code/article.md)
-* Reply to slack messages
-* [Review PRs](../reviewing-code/article.md)
+* [Go to meetings](../meetings/article.md) (some days) (manual)
+* [1:1](../one-on-one/article.md) (some days) (manual)
+* [Write code](../writing-code/article.md) (mainly LLM assisted))
+* Reply to slack messages (manual)
+* [Review PRs](../reviewing-code/article.md) (mainly manual, slightly LLM assisted)
 
 ## End of day
 * [Continuous learning](../continuous-learning/article.md)
