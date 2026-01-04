@@ -15,8 +15,8 @@ Every daily at the beginning of the (work) day.
 8h.
 
 # Steps
-* [Review PRs](../reviewing-code/article.md) (start of day)
 * Catch up on slack messages (start of day)
+* [Review PRs](../reviewing-code/article.md) (start of day)
 * [Go to meetings](../meetings/article.md) (some days)
 * [1:1](../one-on-one/article.md) (some days)
 * [Write code](../writing-code/article.md) (throughout the day)
