@@ -15,6 +15,7 @@ Every daily at the beginning of the (work) day.
 8h.
 
 # Steps
-* [Daily review](../daily-review/article.md)
-* [Review weekly plan and align](../weekly-review/article.md)
-* [Plan next day](../daily-planning/article.md)
+*  (start of day)
+* [Daily review](../daily-review/article.md) (end of day)
+* [Review weekly plan and align](../weekly-review/article.md) (end of day)
+* [Plan next day](../daily-planning/article.md) (end of day)
