@@ -28,8 +28,8 @@ Every daily at the beginning of the (work) day.
 * [Review PRs](../reviewing-code/article.md) (mainly manual, slightly LLM assisted)
 
 ## End of day
-* [Continuous learning](../continuous-learning/article.md)
-* [Generate an end of day summary using LLMs](https://github.com/tomzx/dot-claude/blob/main/commands/end-of-day-summary.md)
-* [Daily review](../daily-review/article.md)
-* [Review weekly plan and align](../weekly-review/article.md)
-* [Plan next day](../daily-planning/article.md)
+* [Continuous learning](../continuous-learning/article.md) (manual)
+* [Generate an end of day summary using LLMs](https://github.com/tomzx/dot-claude/blob/main/commands/end-of-day-summary.md) (LLM)
+* [Daily review](../daily-review/article.md) (manual)
+* [Review weekly plan and align](../weekly-review/article.md) (manual)
+* [Plan next day](../daily-planning/article.md) (manual)
