@@ -21,5 +21,6 @@ Every week at the beginning of the (work) week.
 * [Daily routine](../daily-routine/article.md)
 
 ## End of week
+* [Generate an end of week summary using LLMs](
 * [Weekly review](../weekly-review/article.md)
 * [Plan next week](../weekly-planning/article.md)
