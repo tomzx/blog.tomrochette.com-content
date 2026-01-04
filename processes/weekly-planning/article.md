@@ -15,6 +15,6 @@ Every week at the beginning of the (work) week.
 10 minutes.
 
 # Steps
-* Determine what are the most important tasks to be done this week
-* Determine the next step for each task
-* Determine how much work can reasonably be accomplished this week
+* Determine what are the most important tasks to be done this week (manual)
+* Determine the next step for each task (manual)
+* Determine how much work can reasonably be accomplished this week (manual)
