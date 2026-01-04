@@ -29,6 +29,7 @@ Every daily at the beginning of the (work) day.
 
 ## End of day
 * [Continuous learning](../continuous-learning/article.md)
+* [Generate an end of day summary using LLMs]
 * [Daily review](../daily-review/article.md)
 * [Review weekly plan and align](../weekly-review/article.md)
 * [Plan next day](../daily-planning/article.md)
