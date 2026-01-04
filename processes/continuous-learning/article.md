@@ -8,8 +8,8 @@ taxonomy:
   readability: 5
 ---
 
-* Collect articles shared on slack that may be relevant to read
-* Identify tools and resources that can help improve my skills
-* Set aside dedicated time for learning each day
-* Experiment with new technologies and ideas
+* Collect articles shared on slack that may be relevant to read (manual)
+* Identify tools and resources that can help improve my skills (manual)
+* Set aside dedicated time for learning each day (manual)
+* Experiment with new technologies and ideas (manual)
 * Identify areas for improvement in current skills and knowledge
