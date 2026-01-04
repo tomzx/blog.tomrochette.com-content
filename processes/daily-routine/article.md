@@ -28,7 +28,7 @@ Every daily at the beginning of the (work) day.
 * [Review PRs](../reviewing-code/article.md)
 
 ## End of day
-* Continuous learning
+* [Continuous learning](../continuous-learning/article.md)
 * [Daily review](../daily-review/article.md)
 * [Review weekly plan and align](../weekly-review/article.md)
 * [Plan next day](../daily-planning/article.md)
