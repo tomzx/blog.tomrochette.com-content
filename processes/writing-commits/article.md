@@ -8,6 +8,15 @@ taxonomy:
   readability: 5
 ---
 
+Nowadays I do not write useful commit messages anymore.
+The main reason is that most repositories I work in professionally use squash merges, meaning that all commits done in a branch are squashed into a single commit when merging the branch into the main branch.
+The commit message of the squash commit is usually the title of the pull request, meaning that the individual commit messages are not very useful anymore.
+The commit message ends up containing the PR description, which gives the what and why of the changes, which is generally enough.
+
+With the rise of LLMs I have never found myself looking at the commit history and the commit messages to understand why things changed.
+If something isn't working, I simply get the LLM to help me fix the problem.
+
+# Pre-LLMs era
 * One liner describing what changed (not period terminated)
 * A few lines describing in more details why things changed
 * GPG signed commit
