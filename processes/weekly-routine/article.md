@@ -17,6 +17,9 @@ Every week at the beginning of the (work) week.
 # Steps
 ## Start of week
 
+## Through the week
+* [Daily routine](../daily-routine/article.md)
+
 ## End of week
 * [Weekly review](../weekly-review/article.md)
 * [Plan next week](../weekly-planning/article.md)
