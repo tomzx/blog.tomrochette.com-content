@@ -15,13 +15,18 @@ Every daily at the beginning of the (work) day.
 8h.
 
 # Steps
-* Catch up on slack messages (start of day)
-* [Review PRs](../reviewing-code/article.md) (start of day)
+## Start of day
+* Catch up on slack messages
+* [Review PRs](../reviewing-code/article.md)
+
+## Throughout the day
 * [Go to meetings](../meetings/article.md) (some days)
 * [1:1](../one-on-one/article.md) (some days)
-* [Write code](../writing-code/article.md) (throughout the day)
-* Reply to slack messages (throughout the day)
-* [Review PRs](../reviewing-code/article.md) (throughout the day)
-* [Daily review](../daily-review/article.md) (end of day)
-* [Review weekly plan and align](../weekly-review/article.md) (end of day)
-* [Plan next day](../daily-planning/article.md) (end of day)
+* [Write code](../writing-code/article.md)
+* Reply to slack messages
+* [Review PRs](../reviewing-code/article.md)
+
+## End of day
+* [Daily review](../daily-review/article.md)
+* [Review weekly plan and align](../weekly-review/article.md)
+* [Plan next day](../daily-planning/article.md)
