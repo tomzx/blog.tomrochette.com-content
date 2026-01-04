@@ -16,6 +16,7 @@ Every week at the beginning of the (work) week.
 
 # Steps
 ## Start of week
+* [Weekly planning](../weekly-planning/article.md)
 
 ## Through the week
 * [Daily routine](../daily-routine/article.md)
@@ -23,4 +24,3 @@ Every week at the beginning of the (work) week.
 ## End of week
 * [Generate an end of week summary using LLMs](https://github.com/tomzx/dot-claude/blob/main/commands/end-of-week-summary.md)
 * [Weekly review](../weekly-review/article.md)
-* [Plan next week](../weekly-planning/article.md)
