@@ -18,6 +18,7 @@ Every daily at the beginning of the (work) day.
 ## Start of day
 * Catch up on slack messages
 * [Review PRs](../reviewing-code/article.md)
+* Standup
 
 ## Throughout the day
 * [Go to meetings](../meetings/article.md) (some days)
@@ -27,6 +28,7 @@ Every daily at the beginning of the (work) day.
 * [Review PRs](../reviewing-code/article.md)
 
 ## End of day
+* Continuous learning
 * [Daily review](../daily-review/article.md)
 * [Review weekly plan and align](../weekly-review/article.md)
 * [Plan next day](../daily-planning/article.md)
