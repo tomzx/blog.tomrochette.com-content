@@ -7,3 +7,14 @@ taxonomy:
   status: draft
   readability: 5
 ---
+
+# Trigger
+Every week at the beginning of the (work) week.
+
+# Duration
+5 days.
+
+# Steps
+## Start of week
+
+## End of week
