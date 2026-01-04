@@ -15,6 +15,6 @@ Every daily at the end of the (work) day.
 5 minutes.
 
 # Steps
-* Determine what are the most important tasks to be done tomorrow
-* Determine the next step for each task
-* Determine how much work can reasonably be accomplished tomorrow
+* Determine what are the most important tasks to be done tomorrow (manual)
+* Determine the next step for each task (manual)
+* Determine how much work can reasonably be accomplished tomorrow (manual)
