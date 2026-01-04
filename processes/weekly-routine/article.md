@@ -1,5 +1,5 @@
 ---
-title: Daily routine
+title: Weekly routine
 created: 2026-01-04
 taxonomy:
   type: post
