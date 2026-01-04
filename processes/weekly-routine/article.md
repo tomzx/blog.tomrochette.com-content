@@ -18,3 +18,5 @@ Every week at the beginning of the (work) week.
 ## Start of week
 
 ## End of week
+* [Weekly review](../weekly-review/article.md)
+* [Plan next week](../weekly-planning/article.md)
