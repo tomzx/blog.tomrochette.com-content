@@ -37,6 +37,7 @@ The work version of Tom bot has access to the public version as well as work-rel
 * Google Drive documents
 * Google Meet transcripts
 * Internal company documents
+* Notes and knowledge I wrote that can be shared with colleagues
 
 This bot is available to my colleagues at work and acts on my behalf to answer questions, provide information, and assist with tasks.
 
