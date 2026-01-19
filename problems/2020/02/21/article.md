@@ -14,7 +14,7 @@ I want to learn a new topic but it feels overwhelming. How can I do it?
 # Solution
 When I wanted to learn about artificial general intelligence (AGI), I knew almost nothing about the field. I had a background in software engineering and I was curious about intelligence as a whole, but I had no clue what I would need to know in order to work on artificial general intelligence.
 
-My initial approach was to read a lot about the topic. It allowed me to learn about a variety of concepts and the vocabulary associated with AGI. However, as I was doing that, I felt overwhelmed by the amount of information I would have to learn. In 2014 I was reading Artificial Intelligence: A Modern Approach, then in 2017 the [Deep Learning book](https://www.deeplearningbook.org/). It was hard to reconcile how the new concepts I was learning and how they were all connected.
+My initial approach was to read a lot about the topic. It allowed me to learn about a variety of concepts and the vocabulary associated with AGI. However, as I was doing that, I felt overwhelmed by the amount of information I would have to learn. In 2014 I was reading [Artificial Intelligence: A Modern Approach](https://aima.cs.berkeley.edu/), then in 2017 the [Deep Learning book](https://www.deeplearningbook.org/). It was hard to reconcile how the new concepts I was learning and how they were all connected.
 
 At the time I already knew of mind maps. I thought it would make sense to try and map out all the knowledge I had acquired so that I could make sense of it and be able to refer to it as I would work.
 
