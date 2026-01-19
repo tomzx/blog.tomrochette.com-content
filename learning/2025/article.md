@@ -20,14 +20,3 @@ taxonomy:
 * NATS
 * Nebius
 * Vibe-Kanban
-
-# TODO
-* CometML
-* ML model profiling and optimization
-* GCP GCS performance profiling
-* NVIDIA MPS
-* NVIDIA MIG
-* NVIDIA time-slicing
-* NVIDIA vGPU
-* NVIDIA KAI scheduler
-* NVIDIA run:ai
