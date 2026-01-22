@@ -140,7 +140,7 @@ import time:       311 |        741 | io
 
 We can see here that the numbers are not necessarily equal to one another, this might be due to precision used to do the computation while the rendering of numbers is rounded.
 
-Note that the load time of a package may be different depending on which script you load because dependendencies of the package may have already been loaded in some cases, while in others it may have to load them.
+Note that the load time of a package may be different depending on which script you load because dependencies of the package may have already been loaded in some cases, while in others it may have to load them.
 
 Looking at text might be your thing, but if you're more visual, there's a tool called [tuna](https://github.com/nschloe/tuna) which will consume this output and create an icicle plot you can look at to find which imports are the slowest/longest.
 
