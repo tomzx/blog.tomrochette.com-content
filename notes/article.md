@@ -5,6 +5,5 @@ visible: true
 menu: Notes
 taxonomy:
   status: in progress
-  tag: [notes]
   readability: 3
 ---
