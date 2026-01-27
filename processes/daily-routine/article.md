@@ -16,6 +16,7 @@ Every daily at the beginning of the (work) day.
 
 # Steps
 ## Start of day
+* Review and correct LLM generated summaries of yesterday activities
 * Catch up on slack messages (manual)
 * [Review PRs](../reviewing-code/article.md) (manual)
 * Standup (manual)
