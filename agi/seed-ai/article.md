@@ -63,7 +63,7 @@ In other words, a seed AI is a program that would learn and understand how progr
 * Should it learn a single programming language or many of them at once?
 * Given that you can approximate a dataset up to a certain precision given a dataset, what is the best approach to recognize the constructs necessary to reconstruct the data using as few of them as possible? In other words, how do you find the shortest program that will generate a dataset?
 
-<div data-llm="claude-sonnet-4.5">
+<section data-llm="claude-sonnet-4.5">
 ## LLMs as proto-seed AIs (2026 update)
 When this article was originally written in 2015, the idea of a seed AI was largely theoretical. The discussion centered on program generation from scratch — brute-forcing through program space, AST manipulation, and bootstrapping from assembly language. The landscape has changed dramatically with the emergence of large language models (LLMs).
 
@@ -103,7 +103,7 @@ This aligns with the observation in the Kolmogorov complexity section: "a progra
 * Is next-token prediction a sufficient learning objective for recursive self-improvement, or does it need to be augmented with other objectives (e.g., reinforcement learning from code execution feedback)?
 * If LLMs can already generate and improve code, what is the minimal scaffolding needed to close the self-improvement loop? Is the gap smaller than we thought in 2015?
 * Does the distinction between "improving the program itself" and "improving the system the program operates in" actually matter for practical purposes?
-</div>
+</section>
 
 # Overview
 The goal of this study is to look into the constraints and requirements that go into building what is called a *Seed AI*, that is, a program that is able to improve itself.
