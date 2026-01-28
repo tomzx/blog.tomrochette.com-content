@@ -67,7 +67,7 @@ In other words, a seed AI is a program that would learn and understand how progr
 When this article was originally written in 2015, the idea of a seed AI was largely theoretical. The discussion centered on program generation from scratch — brute-forcing through program space, AST manipulation, and bootstrapping from assembly language. The landscape has changed dramatically with the emergence of large language models (LLMs).
 
 ### What LLMs bring to the table
-LLMs like GPT-4, Claude, and their successors have demonstrated several capabilities that are directly relevant to seed AI:
+LLMs like GPT-4/5, Claude, and their successors have demonstrated several capabilities that are directly relevant to seed AI:
 
 * **Code generation from natural language specifications.** Rather than brute-forcing through the program tree (as discussed later in this article), LLMs can generate syntactically and semantically valid programs from high-level descriptions. This effectively bypasses the combinatorial explosion problem that made naive program generation impractical.
 * **Code understanding and refactoring.** LLMs can analyze existing code, identify patterns, suggest optimizations, and perform refactoring — capabilities listed in the "Capabilities of a seed AI" section below that were previously hypothetical.
