@@ -17,6 +17,8 @@ In other words, a seed AI is a program that would learn and understand how progr
 ## Learned in this study
 * A program is a dictionary of functions
 	* Like dictionary's definitions, functions are defined in terms of other functions
+* **LLMs as Seeds:** Large Language Models can serve as the "bootstrap" for a seed AI by providing high-level reasoning and code generation capabilities from day one.
+* **The Agentic Loop:** Recursive self-improvement can be implemented as an agentic loop (Write-Test-Reflect-Fix).
 
 ## Things to explore
 * What are the issues with writing a program generator?
