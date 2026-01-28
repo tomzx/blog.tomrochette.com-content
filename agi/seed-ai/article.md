@@ -2,7 +2,7 @@
 title: Seed AI
 created: 2015-09-26
 taxonomy:
-  tag: [artificial-general-intelligence]
+  tag: [artificial-general-intelligence, partially-ai-generated, ai-feedback, llm=gemini-3-flash-pro]
   status: in progress
   readability: 3
 ---
@@ -21,6 +21,10 @@ In other words, a seed AI is a program that would learn and understand how progr
 * **The Agentic Loop:** Recursive self-improvement can be implemented as an agentic loop (Write-Test-Reflect-Fix).
 
 ## Things to explore
+* **LLM Self-Improvement:** Can an LLM effectively fine-tune a newer version of itself using synthetic data it generated?
+* **Verification vs. Generation:** It is often easier to verify code (using compilers, tests, or formal methods) than to generate it. How can a seed AI leverage this asymmetry?
+* **Architecture Search:** Can a seed AI design a better neural network architecture for its own next generation?
+* **Prompt Engineering for Self-Improvement:** What are the optimal "system prompts" for a self-improving agent?
 * What are the issues with writing a program generator?
 * What are the tools that we currently have to solve those issues?
 * Look at theoretical implications of program generation (probabilities)
