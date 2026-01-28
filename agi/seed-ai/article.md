@@ -2,7 +2,7 @@
 title: Seed AI
 created: 2015-09-26
 taxonomy:
-  tag: [artificial-general-intelligence, partially-ai-generated, llm=gemini-3-flash-preview]
+  tag: [artificial-general-intelligence, partially-ai-generated, llm=gemini-3-flash-preview, llm=claude-sonnet-4.5]
   status: in progress
   readability: 3
 ---
