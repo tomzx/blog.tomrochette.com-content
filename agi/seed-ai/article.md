@@ -63,6 +63,46 @@ In other words, a seed AI is a program that would learn and understand how progr
 * Should it learn a single programming language or many of them at once?
 * Given that you can approximate a dataset up to a certain precision given a dataset, what is the best approach to recognize the constructs necessary to reconstruct the data using as few of them as possible? In other words, how do you find the shortest program that will generate a dataset?
 
+## LLMs as proto-seed AIs (2026 update)
+When this article was originally written in 2015, the idea of a seed AI was largely theoretical. The discussion centered on program generation from scratch — brute-forcing through program space, AST manipulation, and bootstrapping from assembly language. The landscape has changed dramatically with the emergence of large language models (LLMs).
+
+### What LLMs bring to the table
+LLMs like GPT-4, Claude, and their successors have demonstrated several capabilities that are directly relevant to seed AI:
+
+* **Code generation from natural language specifications.** Rather than brute-forcing through the program tree (as discussed later in this article), LLMs can generate syntactically and semantically valid programs from high-level descriptions. This effectively bypasses the combinatorial explosion problem that made naive program generation impractical.
+* **Code understanding and refactoring.** LLMs can analyze existing code, identify patterns, suggest optimizations, and perform refactoring — capabilities listed in the "Capabilities of a seed AI" section below that were previously hypothetical.
+* **Multi-language fluency.** The question of whether a seed AI "should learn a single programming language or many" is answered: LLMs already operate across dozens of languages and can translate between them.
+* **Generalization from examples.** LLMs learn abstractions from training data in a way that mirrors the "generalize similar functions" capability we expected a seed AI to have.
+
+### Where LLMs fall short of true seed AI
+Despite these advances, current LLMs are not seed AIs in the classical sense:
+
+* **No recursive self-improvement loop.** An LLM cannot retrain itself. It can generate code that modifies a codebase, but it cannot modify its own weights or architecture in a closed loop. The "generate → evaluate → improve → repeat" cycle requires external orchestration (human developers, CI pipelines, fine-tuning infrastructure).
+* **No persistent learning.** Each interaction starts from the same frozen weights. A seed AI should accumulate improvements over time. LLMs approximate this through context windows and retrieval-augmented generation (RAG), but this is not genuine self-modification.
+* **Bounded by training distribution.** LLMs can recombine and interpolate patterns from training data, but they struggle to make genuinely novel algorithmic discoveries. A true seed AI should eventually produce insights that go beyond what any human has written.
+* **No hardware awareness.** The original article noted that a seed AI would eventually need to consider its hardware architecture. LLMs have no model of the hardware they run on and cannot optimize at that level.
+
+### The emerging hybrid: LLM-driven development loops
+The most interesting development is the emergence of agentic coding systems — LLMs embedded in tool-using loops that can read code, write code, run tests, observe failures, and iterate. Systems like Claude Code, Cursor, Devin, and similar tools create something that looks structurally similar to a seed AI:
+
+1. The system reads existing code (understanding)
+2. It generates modifications (code generation)
+3. It runs tests to validate changes (evaluation)
+4. It iterates based on test results (feedback loop)
+
+This is not recursive self-improvement in the strict sense — the LLM itself is not being improved, only the external codebase. But it challenges the original framing of this article in an important way: **maybe the "seed" does not need to improve itself directly; it only needs to improve the system it operates within.** An LLM that can improve its own scaffolding, tooling, prompts, and surrounding infrastructure is functionally closer to a seed AI than anything that existed when this article was first written.
+
+### Revisiting the complexity barrier
+The original article discussed the idea (from Turing and von Neumann) that intelligence requires crossing a complexity barrier. LLMs suggest a different interpretation: the complexity barrier was crossed not by a single self-improving program, but by scaling a simple learning algorithm (next-token prediction via gradient descent) with enormous amounts of data and compute. The "seed" was arguably the transformer architecture plus the training procedure — a relatively compact specification that, given sufficient resources, produced systems with emergent reasoning capabilities.
+
+This aligns with the observation in the Kolmogorov complexity section: "a program such as a human is also of similar format, that is, short and concise but requiring huge amounts of data to tune its weights/data store." LLMs are exactly this — a modest-sized program (the architecture + training code) that requires terabytes of data to become capable.
+
+### Open questions
+* Can an LLM-based agent be made to improve its own prompts, tools, and retrieval systems in a genuinely recursive way — creating a closed self-improvement loop without human intervention?
+* Is next-token prediction a sufficient learning objective for recursive self-improvement, or does it need to be augmented with other objectives (e.g., reinforcement learning from code execution feedback)?
+* If LLMs can already generate and improve code, what is the minimal scaffolding needed to close the self-improvement loop? Is the gap smaller than we thought in 2015?
+* Does the distinction between "improving the program itself" and "improving the system the program operates in" actually matter for practical purposes?
+
 # Overview
 The goal of this study is to look into the constraints and requirements that go into building what is called a *Seed AI*, that is, a program that is able to improve itself.
 
