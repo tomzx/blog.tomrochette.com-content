@@ -220,6 +220,9 @@ If we were to iteratively generate every program from the empty string to progra
 * Understand what data structures are iterated over and what is being done over this data
 * Manipulate language/grammar
 	* Use language reasoning tools (abstract syntax tree)
+* **Self-Reflection:** The ability to analyze its own logic, identify potential flaws or inefficiencies, and propose corrections.
+* **Tool Use:** Leveraging external tools like compilers, linters, unit tests, and profilers to validate and measure its own improvements.
+* **Context Awareness:** Maintaining a large enough context to understand the dependencies and architectural implications of a change across the entire codebase.
 
 # Heuristics
 * Prefer lookup/hashing over search/predicate testing
