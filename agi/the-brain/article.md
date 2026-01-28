@@ -24,7 +24,7 @@ taxonomy:
 # Overview
 
 ## What we think we know
-* Many billions of neurons, $86 \times 10^9$ neurons[^2]
+* Approximately $86 \times 10^9$ neurons[^2]
 * Approximately $150 \times 10^12$ synapses[^4]
 * The maximum firing rate of a neuron is between 250-1000 Hz (maximum based on the absolute refractory rate, which is about 1 ms), with an average of 0.1-2 Hz[^3].
 	* It takes between 400 and 550 ms to process speech and comprehend it consciously[^6], which means at best 550 neuron layers deep
