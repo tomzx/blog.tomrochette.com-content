@@ -16,6 +16,7 @@ Every week at the beginning of the (work) week.
 
 # Steps
 ## Start of week
+* Review and correct LLM generated summaries of last week activities
 * [Weekly planning](../weekly-planning/article.md)
 
 ## Through the week
