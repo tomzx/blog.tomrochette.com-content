@@ -48,3 +48,6 @@ taxonomy:
 * [Vibe-Kanban](https://www.vibekanban.com/)
 * [OpenCode Web UI](https://opencode.ai/docs/web/)
 * [OpenChamber](https://github.com/btriapitsyn/openchamber) (web UI for OpenCode)
+
+* Speech to text
+* [Handy](https://handy.ai/)
