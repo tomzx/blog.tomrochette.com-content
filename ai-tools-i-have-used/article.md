@@ -62,7 +62,7 @@ I also try to keep this list up to date with regards to whether I'm still using 
 
 # Desktop client
 * [BoltAI](https://boltai.com/) (sometimes using)
-* [Claude Desktop](https://claude.ai/desktop) (sometimes using)
+* [Claude Desktop](https://claude.com/download) (sometimes using)
 
 # Web client
 * [LibreChat](https://librechat.ai/) (not using)
