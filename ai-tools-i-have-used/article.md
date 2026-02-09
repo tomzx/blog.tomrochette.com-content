@@ -72,3 +72,9 @@ Legend:
 # Web client
 * 🔴 [LibreChat](https://librechat.ai/)
 * 🔴 [OpenWebUI](https://openwebui.com/)
+
+# Models
+* 🟢 Composer-1
+* 🟢 GLM 4.7
+* 🔴 GLM 4.6
+* 🟢 Claude Sonnet 4.5
