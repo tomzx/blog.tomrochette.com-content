@@ -50,4 +50,4 @@ taxonomy:
 * [OpenChamber](https://github.com/btriapitsyn/openchamber) (web UI for OpenCode)
 
 * Speech to text
-* [Handy](https://handy.ai/)
+* [Handy](https://handy.computer/)
