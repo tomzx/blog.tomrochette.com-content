@@ -41,28 +41,29 @@ I also try to keep this list up to date with regards to whether I'm still using 
 * [GitHub Copilot](https://github.com/features/copilot) (regularly using)
 * [Cerebas Coder](https://cerebrascoder.com/) (not using)
 * [v0](https://v0.dev/) (not using)
-* [Bolt](https://bolt.new/)
-* [Tabnine](https://www.tabnine.com/)
+* [Bolt](https://bolt.new/) (not using)
+* [Tabnine](https://www.tabnine.com/) (not using)
 
 # Image generation
-* [Leonardo](https://app.leonardo.ai/)
+* [Leonardo](https://app.leonardo.ai/) (using sometimes)
 
 # Audio generation
-* [Suno](https://suno.com/)
+* [Suno](https://suno.com/) (not using)
 
 # Task orchestration
-* [Vibe-Kanban](https://www.vibekanban.com/)
-* [OpenCode Web UI](https://opencode.ai/docs/web/)
-* [OpenChamber](https://github.com/btriapitsyn/openchamber) (web UI for OpenCode)
+* [Vibe-Kanban](https://www.vibekanban.com/) (regularly using)
+* [OpenCode Web UI](https://opencode.ai/docs/web/) (using sometimes)
+* [OpenChamber](https://github.com/btriapitsyn/openchamber) (web UI for OpenCode) (using sometimes)
 
 # Speech to text
-* [Handy](https://handy.computer/)
-* [MacWhisper](https://goodsnooze.gumroad.com/l/macwhisper)
-* [Superwhisper](https://superwhisper.com/)
+* [Handy](https://handy.computer/) (sometimes using)
+* [MacWhisper](https://goodsnooze.gumroad.com/l/macwhisper) (not using)
+* [Superwhisper](https://superwhisper.com/) (not using)
 
 # Desktop client
-* [BoltAI](https://boltai.com/)
+* [BoltAI](https://boltai.com/) (sometimes using)
+* [Claude Desktop](https://claude.ai/desktop) (sometimes using)
 
 # Web client
-* [LibreChat](https://librechat.ai/)
-* [OpenWebUI](https://openwebui.com/)
+* [LibreChat](https://librechat.ai/) (not using)
+* [OpenWebUI](https://openwebui.com/) (not using)
