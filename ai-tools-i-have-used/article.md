@@ -59,3 +59,4 @@ taxonomy:
 
 # Web client
 * [LibreChat](https://librechat.ai/)
+* [OpenWebUI](https://openwebui.com/)
