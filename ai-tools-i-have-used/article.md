@@ -80,6 +80,8 @@ Legend:
 * 🟢 Claude Sonnet 4.5
 * 🔴 Claude Opus 4.1
 * 🟢 GPT 5.2
+* 🔴 GPT 5.1
+* 🔴 GPT 5
 * 🔴 GPT 4o
 * 🔴 GPT 4
 * 🔴 GPT 3.5
