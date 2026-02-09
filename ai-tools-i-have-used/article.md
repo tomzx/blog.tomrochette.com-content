@@ -83,5 +83,6 @@ Legend:
 * 🔴 ChatGPT 4
 * 🟡 GPT OSS 20B
 * 🟡 GPT OSS 120B
-* 🟡 Gemini Pro 3
+* 🟡 Gemini 3 Pro
+* 🔴 Gemini 2.5 Pro
 * 🔴 DeepSeek r1
