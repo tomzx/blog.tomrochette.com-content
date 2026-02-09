@@ -46,3 +46,4 @@ taxonomy:
 
 # Task orchestration
 * [Vibe-Kanban](https://www.vibekanban.com/)
+* [OpenCode Web UI](https://opencode.ai/docs/web/)
