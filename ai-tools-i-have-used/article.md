@@ -82,6 +82,7 @@ Legend:
 * 🟢 GPT 5.2
 * 🔴 GPT 5.1
 * 🔴 GPT 5
+* 🔴 GPT 4.1
 * 🔴 GPT 4o
 * 🔴 GPT 4
 * 🔴 GPT 3.5
