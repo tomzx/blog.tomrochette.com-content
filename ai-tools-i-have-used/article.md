@@ -49,7 +49,14 @@ taxonomy:
 * [OpenCode Web UI](https://opencode.ai/docs/web/)
 * [OpenChamber](https://github.com/btriapitsyn/openchamber) (web UI for OpenCode)
 
-* Speech to text
+# Speech to text
 * [Handy](https://handy.computer/)
 * [MacWhisper](https://goodsnooze.gumroad.com/l/macwhisper)
 * [Superwhisper](https://superwhisper.com/)
+
+# Desktop client
+* [BoltAI](https://boltai.com/)
+
+# Web client
+* [LibreChat](https://librechat.ai/)
+*
