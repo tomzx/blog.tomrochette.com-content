@@ -81,6 +81,7 @@ Legend:
 * 🔴 Claude Opus 4.1
 * 🟢 ChatGPT 5.2
 * 🔴 ChatGPT 4
+* 🔴 ChatGPT 3.5
 * 🟡 GPT OSS 20B
 * 🟡 GPT OSS 120B
 * 🟡 Gemini 3 Pro
