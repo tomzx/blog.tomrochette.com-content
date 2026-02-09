@@ -35,13 +35,14 @@ I also try to keep this list up to date with regards to whether I'm still using 
 * [MiniMax](https://chat.minimax.io/) (not using anymore)
 
 # Code generation
+* [Zhipu GLM Coding Plan](https://z.ai/subscribe?ic=1VZOHEOBY1) (regularly using)
+* [Claude Code](https://claude.ai/code) (regularly using)
 * [GitHub Copilot](https://github.com/features/copilot)
 * [Cursor](https://www.cursor.com/)
 * [Cerebas Coder](https://cerebrascoder.com/)
 * [v0](https://v0.dev/)
 * [Bolt](https://bolt.new/)
 * [Tabnine](https://www.tabnine.com/)
-* [Zhipu GLM Coding Plan](https://chat.z.ai/) (regularly using)
 
 # Image generation
 * [Leonardo](https://app.leonardo.ai/)
