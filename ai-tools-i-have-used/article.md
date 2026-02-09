@@ -79,9 +79,10 @@ Legend:
 * 🔴 GLM 4.6
 * 🟢 Claude Sonnet 4.5
 * 🔴 Claude Opus 4.1
-* 🟢 ChatGPT 5.2
-* 🔴 ChatGPT 4
-* 🔴 ChatGPT 3.5
+* 🟢 GPT 5.2
+* 🔴 GPT 4o
+* 🔴 GPT 4
+* 🔴 GPT 3.5
 * 🟡 GPT OSS 20B
 * 🟡 GPT OSS 120B
 * 🟡 Gemini 3 Pro
