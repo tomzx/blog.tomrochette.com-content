@@ -12,6 +12,9 @@ In this article I list all the AI tools I've used.
 
 I also try to keep this list up to date with regards to whether I'm still using the tool or not.
 
+Legend:
+*
+
 # Text generation
 * [Zhipu GLM](https://chat.z.ai/) (regularly using)
 * [Claude](https://claude.ai/) (regularly using)
