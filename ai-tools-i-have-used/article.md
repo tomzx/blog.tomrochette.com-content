@@ -59,4 +59,3 @@ taxonomy:
 
 # Web client
 * [LibreChat](https://librechat.ai/)
-*
