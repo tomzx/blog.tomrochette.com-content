@@ -13,9 +13,9 @@ In this article I list all the AI tools I've used.
 I also try to keep this list up to date with regards to whether I'm still using the tool or not.
 
 # Text generation
-* [OpenAI ChatGPT](https://chat.openai.com/) (regularly using)
 * [Zhipu GLM](https://chat.z.ai/) (regularly using)
 * [Claude](https://claude.ai/) (regularly using)
+* [OpenAI ChatGPT](https://chat.openai.com/) (regularly using)
 * [Gemini](https://gemini.google.com/) (using sometimes)
 * [DeepSeek](https://chat.deepseek.com/) (not using anymore)
 * [Qwen](https://chat.qwen.ai/) (not using anymore)
@@ -41,6 +41,7 @@ I also try to keep this list up to date with regards to whether I'm still using 
 * [v0](https://v0.dev/)
 * [Bolt](https://bolt.new/)
 * [Tabnine](https://www.tabnine.com/)
+* [Zhipu GLM Coding Plan](https://chat.z.ai/) (regularly using)
 
 # Image generation
 * [Leonardo](https://app.leonardo.ai/)
