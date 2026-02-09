@@ -45,4 +45,4 @@ taxonomy:
 * [Suno](https://suno.com/)
 
 # Task orchestration
-* [Vibe-Kaban](https://vibe-kaban.com/)
+* [Vibe-Kanban](https://www.vibekanban.com/)
