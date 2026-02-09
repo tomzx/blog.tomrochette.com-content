@@ -43,3 +43,6 @@ taxonomy:
 
 # Audio generation
 * [Suno](https://suno.com/)
+
+# Task orchestration
+* [Vibe-Kaban](https://vibe-kaban.com/)
