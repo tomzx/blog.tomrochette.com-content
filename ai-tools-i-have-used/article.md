@@ -52,3 +52,4 @@ taxonomy:
 * Speech to text
 * [Handy](https://handy.computer/)
 * [MacWhisper](https://goodsnooze.gumroad.com/l/macwhisper)
+* [SuperWhisper](https://superwhisper.com/)
