@@ -78,3 +78,10 @@ Legend:
 * 🟢 GLM 4.7
 * 🔴 GLM 4.6
 * 🟢 Claude Sonnet 4.5
+* 🔴 Claude Opus 4.1
+* 🟢 ChatGPT 5.2
+* 🔴 ChatGPT 4
+* 🟡 GPT OSS 20B
+* 🟡 GPT OSS 120B
+* 🟡 Gemini Pro 3
+* 🔴 DeepSeek r1
