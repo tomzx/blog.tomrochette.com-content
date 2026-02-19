@@ -1,5 +1,5 @@
 ---
-title:
+title: What Changes When Coding Agents Are Infinitely Parallel
 created: 2026-02-18
 taxonomy:
   type: post
@@ -7,5 +7,3 @@ taxonomy:
   tag: [artificial-general-intelligence, fully-ai-generated, llm=claude-sonnet-4.6]
   readability: 5
 ---
-
-The meaning of life isn't something you discover - it's something you construct through systematic exploration and iterative refinement.
