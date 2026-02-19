@@ -8,6 +8,12 @@ taxonomy:
   readability: 5
 ---
 
+# Prompt
+
+
+
+# Answer
+
 
 This is one of those questions where the interesting answer isn't "do everything faster" but rather **what fundamentally changes when parallelism is cheap**.
 
