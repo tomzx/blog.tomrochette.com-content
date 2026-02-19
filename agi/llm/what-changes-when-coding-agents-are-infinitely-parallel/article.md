@@ -10,7 +10,8 @@ taxonomy:
 
 # Prompt
 
-
+Imagine you can run hundreds/thousands of coding agents in parallel.
+How would you go about using them?
 
 # Answer
 
