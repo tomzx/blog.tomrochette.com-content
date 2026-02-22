@@ -1,5 +1,5 @@
 ---
-title: The Survival of the Smartest: Exploring Darwinian Software Development
+title: "The Survival of the Smartest: Exploring Darwinian Software Development"
 created: 2026-02-22
 taxonomy:
   type: post
@@ -10,8 +10,7 @@ taxonomy:
 
 # Prompt
 
-Imagine you can run hundreds/thousands of coding agents in parallel.
-How would you go about using them?
+Write an article about Darwinian software development, the use of LLM swarms to identify the best solution to a problem.
 
 # Answer
 
