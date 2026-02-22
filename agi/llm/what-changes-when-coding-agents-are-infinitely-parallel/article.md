@@ -15,7 +15,6 @@ How would you go about using them?
 
 # Answer
 
-
 This is one of those questions where the interesting answer isn't "do everything faster" but rather **what fundamentally changes when parallelism is cheap**.
 
 ---
@@ -34,7 +33,7 @@ When you have one agent, you think carefully before acting — it's expensive to
 
 **Full-stack consistency checking** — Have agents simultaneously hold the contract between every pair of services in your system, constantly verifying that implementations match specs, that error handling is symmetric, that naming is consistent. Things that fall through the cracks in sequential review.
 
-**Competitive benchmarking of approaches** — For something like your image pull latency problem, you could have 50 agents implement 50 different caching strategies against the same test harness, and just... pick the winner. No reading papers and reasoning about tradeoffs — empirically settle it.
+**Competitive benchmarking of approaches** — For a problem like network latency or caching strategy, you could have 50 agents implement 50 different approaches against the same test harness, and just... pick the winner. No reading papers and reasoning about tradeoffs — empirically settle it.
 
 **Living documentation** — Agents continuously reconcile docs, comments, and code. Every PR triggers agents that check for documentation drift, update runbooks, and surface inconsistencies.
 
@@ -52,8 +51,8 @@ When you have one agent, you think carefully before acting — it's expensive to
 
 ---
 
-**What this implies for ML infra specifically**
+**What this implies for infrastructure work**
 
-For your work — Kubernetes optimization, quota systems, image distribution — the interesting application is probably **parallel experimentation on real infrastructure parameters**. Spin up ephemeral clusters, have agents try different Dragonfly configurations or pod scheduling strategies, measure actual latency, tear them down. The thing that makes infrastructure hard is that you normally can't afford to run 50 experiments simultaneously. With cheap parallel agents managing the scaffolding, that constraint disappears.
+The most compelling application is **parallel experimentation on real infrastructure parameters**. Spin up ephemeral environments, have agents try different configurations or scheduling strategies, measure actual performance, tear them down. The thing that makes infrastructure hard is that you normally can't afford to run 50 experiments simultaneously. With cheap parallel agents managing the scaffolding, that constraint disappears.
 
-The practical limit ends up being **compute and money, not ideas** — which is genuinely a different world than the one most engineering workflows were designed for.
+The practical limit ends up being **compute and money, not ideas** — which is a fundamentally different world than the one most engineering workflows were designed for.
