@@ -48,5 +48,3 @@ To counter this, modern swarms often include "Adversarial Agents" whose only job
 
 We are approaching a point where software won't be static. Imagine a server that monitors its own performance and, upon detecting a bottleneck, spawns a Darwinian swarm to rewrite its own inefficient modules in real-time.
 In this new world, the developer's role shifts from writer to naturalist. You aren't typing the lines; you are defining the environment in which the best code can grow.
-Would you like me to draft a Python script that demonstrates a basic "Judge" agent evaluating code from two different "Worker" agents?
-
