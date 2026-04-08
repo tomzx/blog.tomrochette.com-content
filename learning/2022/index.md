@@ -1,0 +1,18 @@
+---
+title: Learning - 2022
+created: 2022-01-14
+type: post
+tags: [learning]
+readability: 1
+---
+
+(sorted alphabetically)
+
+* Ads mediation
+* Ads serving
+* GCP
+    * Traffic director
+* Grafana unified alerts
+* Managing large scale services (500k+ rps)
+* Imply
+* Renovate

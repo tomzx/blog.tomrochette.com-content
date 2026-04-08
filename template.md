@@ -1,8 +1,7 @@
 ---
 title: Template
-created: YYYY-MM-DD
-taxonomy:
-  type: post
-  status: draft
-  tag: []
+created: 1234-01-01
+type: post
+status: draft
+tags: []
 ---

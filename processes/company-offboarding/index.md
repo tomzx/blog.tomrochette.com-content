@@ -1,0 +1,14 @@
+---
+title: Company offboarding
+created: 2025-08-19
+type: post
+status: draft
+tags: [software-development, projects, processes, work]
+readability: 5
+---
+
+* Meet with colleagues to discuss ongoing projects and hand off responsibilities
+* Write down knowledge transfer documents
+* Download pay stubs and tax documents
+* Ensure accounts that should still be accessible use a personal email address (e.g., insurance, stocks)
+* Return company equipment (laptop, phone, etc.)

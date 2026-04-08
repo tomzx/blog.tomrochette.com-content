@@ -1,11 +1,10 @@
 ---
 title: Template
-created: YYYY-MM-DD
-taxonomy:
+created: 1234-01-01
 # Uncomment to publish
-#  type: post
-  status: draft
-  tag: [processes]
+#type: post
+status: draft
+tags: [processes]
 ---
 
 # Trigger

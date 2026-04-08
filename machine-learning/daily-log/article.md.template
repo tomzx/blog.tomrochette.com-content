@@ -1,9 +1,8 @@
 ---
 title: "YYYY-MM-DD"
 created: YYYY-MM-DD
-taxonomy:
-  tag: [machine learning]
-  status: in progress
+tags: [machine learning]
+status: in progress
 ---
 
 ## Context

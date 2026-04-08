@@ -1,9 +1,8 @@
 ---
 title: Template
-created: YYYY-MM-DD
-taxonomy:
-  status: in progress
-  tag: [artificial-general-intelligence]
+created: 1234-01-01
+status: in progress
+tags: [artificial-general-intelligence]
 ---
 
 ## Context

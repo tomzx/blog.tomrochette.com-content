@@ -1,9 +1,8 @@
 ---
 title: Template
-created: YYYY-MM-DD
-taxonomy:
-  tag: [machine-learning]
-  status: in progress
+created: 1234-01-01
+tags: [machine-learning]
+status: in progress
 ---
 
 ## Context

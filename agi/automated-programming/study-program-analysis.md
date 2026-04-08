@@ -1,9 +1,8 @@
 ---
 title: Study - Program analysis
 created: 2016-06-16
-taxonomy:
-  tag: [artificial-general-intelligence]
-  status: in progress
+tags: [artificial-general-intelligence]
+status: in progress
 ---
 
 ## Context
