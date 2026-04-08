@@ -25,7 +25,7 @@ If I already have infrastructure and I want help testing different models and hy
 Furthermore, any execution of machine learning code can take from minutes to hours to execute.
 In other words, while it helps me reduce the amount of time spent on certain tasks such as reflecting, generating a plan, writing code, because it does not execute those, I am still left with doing them myself.
 
-See [Produce a classification model](../produce-a-classification-model/article.md).
+See [Produce a classification model](../produce-a-classification-model/index.md).
 
 As of 2025-10-30, this is not a limitation anymore.
 Most of the frontier models can execute code or actions directly, interacting with the environment.
@@ -74,7 +74,7 @@ If you are using LLMs professionally, I would say that rate limiting is not a co
 # Notes
 
 # See also
-* [Produce a classification model](../produce-a-classification-model/article.md)
+* [Produce a classification model](../produce-a-classification-model/index.md)
 
 # References
 * https://gptforwork.com/tools/openai-api-response-time-tracker

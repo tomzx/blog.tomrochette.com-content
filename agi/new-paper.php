@@ -14,7 +14,7 @@ $year = $argv[3];
 $folder = preg_replace('/[ -.:!?()\[\]\\/]+/', '-', strtolower($author.' '.$title));
 $folder = trim($folder, '-');
 $folderPath = 'papers/'.$folder;
-$articlePath = $folderPath.'/article.md';
+$articlePath = $folderPath.'/index.md';
 $bibliographyPath = $folderPath.'/article.bib';
 
 // Confirm
@@ -37,19 +37,19 @@ $content = str_replace('YYYY-MM-DD', date('Y-m-d'), $content);
 file_put_contents($articlePath, $content);
 echo 'Created '.$articlePath.PHP_EOL;
 
-// Append to papers/article.md
+// Append to papers/index.md
 $authorText = '## '.$author;
 $articleText = '* ['.$title.' ('.$year.')]('.$folder.')';
 $content = PHP_EOL.PHP_EOL.$authorText.PHP_EOL.$articleText;
-file_put_contents('papers/article.md', $content, FILE_APPEND);
-echo 'Updated papers/article.md'.PHP_EOL;
+file_put_contents('papers/index.md', $content, FILE_APPEND);
+echo 'Updated papers/index.md'.PHP_EOL;
 
-// Append to my-path-to-agi/article.md
+// Append to my-path-to-agi/index.md
 $articleText = '### '.$title.' ('.date('Y-m').' - ?)';
 $authorText = $author;
 $content = PHP_EOL.PHP_EOL.$articleText.PHP_EOL.$authorText;
-file_put_contents('my-path-to-agi/article.md', $content, FILE_APPEND);
-echo 'Updated my-path-to-agi/article.md'.PHP_EOL;
+file_put_contents('my-path-to-agi/index.md', $content, FILE_APPEND);
+echo 'Updated my-path-to-agi/index.md'.PHP_EOL;
 
 // Go to Google scholar to get appropriate reference
 $escapedTitle = urlencode($title);

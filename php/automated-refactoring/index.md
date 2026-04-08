@@ -40,6 +40,6 @@ readability: 3
 # Refactoring to MVC
 
 # See also
-* [Automated refactoring](../../agi/automated-refactoring/article.md)
+* [Automated refactoring](../../agi/automated-refactoring/index.md)
 
 # References

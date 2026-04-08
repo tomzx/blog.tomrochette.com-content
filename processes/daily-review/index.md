@@ -25,5 +25,5 @@ Every daily at the end of the (work) day.
 * Learning & Insights (manual)
   * Did you discover a new tool, technique, or process?
   * What could be improved next time?
-* [Review weekly plan and align](../weekly-review/article.md)
-* [Plan next day](../daily-planning/article.md)
+* [Review weekly plan and align](../weekly-review/index.md)
+* [Plan next day](../daily-planning/index.md)

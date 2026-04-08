@@ -26,7 +26,7 @@ What do humans modeled as computers look like?
 * Blood is used as a mechanism to transfer energy between components. It also acts as a heatsink for the brain.
 
 # References
-* [Deconstruction of a mind](../../../../agi/deconstruction-of-a-mind/article.md)
-* [Humans as machines](../../../../agi/humans-as-machines/article.md)
-* [Senses](../../../../agi/senses/article.md)
-* [The brain](../../../../agi/the-brain/article.md)
+* [Deconstruction of a mind](../../../../agi/deconstruction-of-a-mind/index.md)
+* [Humans as machines](../../../../agi/humans-as-machines/index.md)
+* [Senses](../../../../agi/senses/index.md)
+* [The brain](../../../../agi/the-brain/index.md)

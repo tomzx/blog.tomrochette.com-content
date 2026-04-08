@@ -62,7 +62,7 @@ Self-reflection should also be used to evaluate whether the generated plan is st
 * Task deduplication
 
 ## See also
-* [AnthropomorphGPT](../anthropomorphgpt/article.md)
+* [AnthropomorphGPT](../anthropomorphgpt/index.md)
 
 ## References
 * https://en.wikipedia.org/wiki/OODA_loop

@@ -26,7 +26,7 @@ readability: 3
 ### 3.1 Grid LSTM Blocks
 
 # See also
-* [Multi-Dimensional Recurrent Neural Networks](../alex-graves-multi-dimensional-recurrent-neural-networks/article.md)
+* [Multi-Dimensional Recurrent Neural Networks](../alex-graves-multi-dimensional-recurrent-neural-networks/index.md)
 
 # References
 * Kalchbrenner, Nal, Ivo Danihelka, and Alex Graves. "Grid long short-term memory." arXiv preprint arXiv:1507.01526 (2015).

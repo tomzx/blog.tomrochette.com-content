@@ -143,7 +143,7 @@ Son Jack John
 * Identify the domain and range constraints for properties
 
 # See also
-* [Knowledge transfer](../knowledge-transfer/article.md)
+* [Knowledge transfer](../knowledge-transfer/index.md)
 
 # References
 * https://en.wikipedia.org/wiki/Relational_model

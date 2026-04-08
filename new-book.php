@@ -14,7 +14,7 @@ $year = $argv[3];
 $folder = preg_replace('/[ -.:!?()\[\]\\/]+/', '-', strtolower($author.' '.$title));
 $folder = trim($folder, '-');
 $folderPath = 'books/'.$folder;
-$articlePath = $folderPath.'/article.md';
+$articlePath = $folderPath.'/index.md';
 $bibliographyPath = $folderPath.'/article.bib';
 
 // Confirm
@@ -37,9 +37,9 @@ $content = str_replace('YYYY-MM-DD', date('Y-m-d'), $content);
 file_put_contents($articlePath, $content);
 echo 'Created '.$articlePath.PHP_EOL;
 
-// Append to books/article.md
+// Append to books/index.md
 $authorText = '## '.$author;
 $articleText = '* ['.$title.' ('.$year.')]('.$folder.')';
 $content = PHP_EOL.PHP_EOL.$authorText.PHP_EOL.$articleText;
-file_put_contents('books/article.md', $content, FILE_APPEND);
-echo 'Updated books/article.md'.PHP_EOL;
+file_put_contents('books/index.md', $content, FILE_APPEND);
+echo 'Updated books/index.md'.PHP_EOL;

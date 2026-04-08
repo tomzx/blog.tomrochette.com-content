@@ -23,7 +23,7 @@ readability: 3
 # See also
 
 # See also
-* [Playing Atari with Deep Reinforcement Learning](../volodymyr-mnih-playing-atari-with-deep-reinforcement-learning/article.md)
+* [Playing Atari with Deep Reinforcement Learning](../volodymyr-mnih-playing-atari-with-deep-reinforcement-learning/index.md)
 
 # References
 * Mnih, Volodymyr, et al. "Human-level control through deep reinforcement learning." Nature 518.7540 (2015): 529-533.

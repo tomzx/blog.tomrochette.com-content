@@ -15,7 +15,7 @@ readability: 3
 # Overview
 Software development can start at two different points: from a problem or from a solution. In the first case no existing software exist and we're trying to solve a problem. In the second case, we're trying to improve an existing solution.
 
-* [Analysis/Requirements](../automated-requirements/article.md)
+* [Analysis/Requirements](../automated-requirements/index.md)
   * Decompose the problem into smaller problems
   * Identify the entities involved
   * Define the relationships between the entities
@@ -24,12 +24,12 @@ Software development can start at two different points: from a problem or from a
   * Identify the steps to solve the problem
 * Planning
   * Identify dependencies between steps
-* [Implementation](../automated-programming/article.md)
+* [Implementation](../automated-programming/index.md)
   * Write code
   * Review code
   * Execute code
 * Test
-* [Debug](../automated-defect-correction/article.md)
+* [Debug](../automated-defect-correction/index.md)
 * Deployment
 * Maintenance
 

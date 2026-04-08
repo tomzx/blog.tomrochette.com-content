@@ -22,7 +22,7 @@ The state of completion of the article.
 # Readability
 A field to help readers quickly assess whether an article is appropriate for their level of expertise and available attention.
 
-See [Readability Index](../readability-index/article.md) for details.
+See [Readability Index](../readability-index/index.md) for details.
 
 # Importance
 How important the topic is to my eyes (the last time the importance value was set).

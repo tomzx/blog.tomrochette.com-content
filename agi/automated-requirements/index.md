@@ -170,8 +170,8 @@ What are their levels of expertise?
 Source: http://blog.learningtree.com/the-right-questions-to-ask-in-requirements-elicitation/
 
 # See also
-* [Automated programming](../automated-programming/article.md)
-* [A procedure for writing programs](../a-procedure-for-writing-programs/article.md)
+* [Automated programming](../automated-programming/index.md)
+* [A procedure for writing programs](../a-procedure-for-writing-programs/index.md)
 
 # References
 * https://openai.com/requests-for-research/#description2code

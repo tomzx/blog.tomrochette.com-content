@@ -10,7 +10,7 @@ $title = $argv[1];
 $folder = preg_replace('/[ -.:!?()\[\]\\/]+/', '-', strtolower($title));
 $folder = trim($folder, '-');
 $folderPath = $folder;
-$articlePath = $folderPath.'/article.md';
+$articlePath = $folderPath.'/index.md';
 $bibliographyPath = $folderPath.'/article.bib';
 
 // Confirm

@@ -17,19 +17,19 @@ Every daily at the beginning of the (work) day.
 ## Start of day
 * Review and correct LLM generated summaries of yesterday activities
 * Catch up on slack messages (manual)
-* [Review PRs](../reviewing-code/article.md) (manual)
+* [Review PRs](../reviewing-code/index.md) (manual)
 * Standup (manual)
 
 ## Throughout the day
-* [Go to meetings](../meetings/article.md) (some days) (manual)
-* [1:1](../one-on-one/article.md) (some days) (manual)
-* [Write code](../writing-code/article.md) (mainly LLM assisted))
+* [Go to meetings](../meetings/index.md) (some days) (manual)
+* [1:1](../one-on-one/index.md) (some days) (manual)
+* [Write code](../writing-code/index.md) (mainly LLM assisted))
 * Reply to slack messages (manual)
-* [Review PRs](../reviewing-code/article.md) (mainly manual, slightly LLM assisted)
+* [Review PRs](../reviewing-code/index.md) (mainly manual, slightly LLM assisted)
 
 ## End of day
-* [Continuous learning](../continuous-learning/article.md) (manual)
+* [Continuous learning](../continuous-learning/index.md) (manual)
 * [Generate an end of day summary using LLMs](https://github.com/tomzx/dot-claude/blob/main/commands/end-of-day-summary.md) (LLM)
-* [Daily review](../daily-review/article.md) (manual)
-* [Review weekly plan and align](../weekly-review/article.md) (manual)
-* [Plan next day](../daily-planning/article.md) (manual)
+* [Daily review](../daily-review/index.md) (manual)
+* [Review weekly plan and align](../weekly-review/index.md) (manual)
+* [Plan next day](../daily-planning/index.md) (manual)

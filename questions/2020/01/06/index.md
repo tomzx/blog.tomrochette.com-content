@@ -33,4 +33,4 @@ Determining why you want to read will help you figure out what the most appropri
 I suggest using a book tracker like goodreads as it will allow you to track when you added a book to your list. This will let you know how long the book has been sitting in your reading list, waiting to be read. Generally, the longer a book stays "shelved" the less likely it is you will ever read it. This generalizes to stating that most books are read in a LIFO (last in, first out) fashion.
 
 # References
-* [Managing your reading](../../../../processes/managing-your-reading/article.md)
+* [Managing your reading](../../../../processes/managing-your-reading/index.md)

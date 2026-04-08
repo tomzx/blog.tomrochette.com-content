@@ -8,38 +8,38 @@ readability: 3
 ---
 
 # Exploratory activities
-* [AnthropomorphGPT](anthropomorphgpt/article.md)
-* [AutoGPT](autogpt/article.md)
-* [Limitations](limitations/article.md)
-* [Memory](memory/article.md)
-* [Produce a classification model](produce-a-classification-model/article.md)
-* [Setup passive income streams](setup-passive-income-streams/article.md)
-* [Seed AI](seed-ai/article.md)
-* [Skills](skills/article.md)
+* [AnthropomorphGPT](anthropomorphgpt/index.md)
+* [AutoGPT](autogpt/index.md)
+* [Limitations](limitations/index.md)
+* [Memory](memory/index.md)
+* [Produce a classification model](produce-a-classification-model/index.md)
+* [Setup passive income streams](setup-passive-income-streams/index.md)
+* [Seed AI](seed-ai/index.md)
+* [Skills](skills/index.md)
 
 # References
-* [Prompts](prompts/article.md)
-* [Quotes](quotes/article.md)
-* [System prompt](system-prompt/article.md)
+* [Prompts](prompts/index.md)
+* [Quotes](quotes/index.md)
+* [System prompt](system-prompt/index.md)
 
 # Reviews
-* [OpenChatKit](reviews/openchatkit/article.md)
-* [Z.ai GLM](reviews/glm/article.md)
+* [OpenChatKit](reviews/openchatkit/index.md)
+* [Z.ai GLM](reviews/glm/index.md)
 
 # Written by LLMs
 Content written using LLMs, prompted by yours truly.
 
 ## Random
-* [AI teacher/student metaphor](ai-teacher-student-metaphor/article.md)
-* [Benefits of ETI technology](benefits-of-eti-technology/article.md)
-* [Big bang to computronium](big-bang-to-computronium/article.md)
-* [Multi-dimensional time](multi-dimensional-time/article.md)
-* [The meaning of life](the-meaning-of-life/article.md)
+* [AI teacher/student metaphor](ai-teacher-student-metaphor/index.md)
+* [Benefits of ETI technology](benefits-of-eti-technology/index.md)
+* [Big bang to computronium](big-bang-to-computronium/index.md)
+* [Multi-dimensional time](multi-dimensional-time/index.md)
+* [The meaning of life](the-meaning-of-life/index.md)
 
 ## Stories
-* [The debug loop](stories/the-debug-loop/article.md)
-* [The last commit](stories/the-last-commit/article.md)
-* [The merge conflict](stories/the-merge-conflict/article.md)
-* [The repository](stories/the-repository/article.md)
-* [Seed AI](stories/seed-ai/article.md)
-* [Work jail](stories/work-jail/article.md)
+* [The debug loop](stories/the-debug-loop/index.md)
+* [The last commit](stories/the-last-commit/index.md)
+* [The merge conflict](stories/the-merge-conflict/index.md)
+* [The repository](stories/the-repository/index.md)
+* [Seed AI](stories/seed-ai/index.md)
+* [Work jail](stories/work-jail/index.md)

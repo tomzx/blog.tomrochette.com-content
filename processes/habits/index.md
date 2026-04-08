@@ -17,8 +17,8 @@ readability: 5
 
 # My habits
 ## Daily
-* [Daily planning](../daily-planning/article.md)
-* [Daily review](../daily-review/article.md)
+* [Daily planning](../daily-planning/index.md)
+* [Daily review](../daily-review/index.md)
 * Eat/Drink
 * Shower
 * Wash dishes
@@ -30,20 +30,20 @@ readability: 5
 * Brush teeth
 
 ## Weekly
-* [Weekly planning](../weekly-planning/article.md)
-* [Weekly review](../weekly-review/article.md)
+* [Weekly planning](../weekly-planning/index.md)
+* [Weekly review](../weekly-review/index.md)
 * Wash clothes
 * Clean apartment
 * Buy groceries
 
 ## Monthly
 * Monthly planning
-* [Monthly review](../monthly-review/article.md)
+* [Monthly review](../monthly-review/index.md)
 * Pay bills
 
 ## Yearly
 * Yearly planning
-* [Yearly review](../yearly-review/article.md)
+* [Yearly review](../yearly-review/index.md)
 
 # My prompts
 * Daily planning at 10 am

@@ -17,5 +17,5 @@ Every week, either at the beginning or end of the week.
 * Review what was planned for the week (manual)
 * Provide feedback related to the plan (manual)
   * Write down what was worked on that wasn't part of the plan (manual)
-* [Review monthly plan and align](../monthly-review/article.md)
-* [Plan next week](../weekly-planning/article.md)
+* [Review monthly plan and align](../monthly-review/index.md)
+* [Plan next week](../weekly-planning/index.md)

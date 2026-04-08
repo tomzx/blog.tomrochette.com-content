@@ -11,7 +11,7 @@ readability: 0
 How do I write my questions and problems articles?
 
 # Answer
-The process I use to write both my [questions articles](../../../article.md) and my [problems articles](../../../../problems/article.md) is quite similar, so I will summarize both in this article.
+The process I use to write both my [questions articles](../../../index.md) and my [problems articles](../../../../problems/index.md) is quite similar, so I will summarize both in this article.
 
 The process is as follows:
 * Find the question or problem to cover.

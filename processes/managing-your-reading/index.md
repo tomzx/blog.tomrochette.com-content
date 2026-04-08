@@ -20,7 +20,7 @@ The process described below attempts to optimize reading quality books and enjoy
 
 # My reading strategy
 1. Read partially any book for which you haven't given any rating
-2. Rate what you have read on a 1 to 5 scale, 1 being very bad and 5 being very good (see [book rating](../book-rating/article.md))
+2. Rate what you have read on a 1 to 5 scale, 1 being very bad and 5 being very good (see [book rating](../book-rating/index.md))
 3. Compute the weighted rating of the book (the sum of rating times # of page associated to the reading divided by the total # of pages read so far for the book)
 4. Sort books by weighted rating (descending), then average estimated amount of time left to complete (ascending)
 5. If you have books that you haven't read yet, go back to the first step. If not, then pick the book at the top of the list computed in the previous step, then continue from step 2
@@ -29,11 +29,11 @@ The process described below attempts to optimize reading quality books and enjoy
 * It's better to read a good book than to finish a bad book
 
 # References
-* [How to prioritize which book to read](../../questions/2020/01/06/article.md)
-* [Tracking my readings](../../questions/2020/02/18/article.md)
-* [Read more books](../../questions/2020/03/01/article.md)
-* [Reading fiction books](../../questions/2020/03/17/article.md)
-* [Reading technical books](../../questions/2020/03/18/article.md)
-* [Why I avoid reading books](../../questions/2020/03/21/article.md)
-* [Book rating](../book-rating/article.md)
+* [How to prioritize which book to read](../../questions/2020/01/06/index.md)
+* [Tracking my readings](../../questions/2020/02/18/index.md)
+* [Read more books](../../questions/2020/03/01/index.md)
+* [Reading fiction books](../../questions/2020/03/17/index.md)
+* [Reading technical books](../../questions/2020/03/18/index.md)
+* [Why I avoid reading books](../../questions/2020/03/21/index.md)
+* [Book rating](../book-rating/index.md)
 * [Reading Multiple Books at a Time](https://juvoni.com/reading-multiple-books)

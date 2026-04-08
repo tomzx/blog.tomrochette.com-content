@@ -23,4 +23,4 @@ readability: 5
 * Deployment
 
 # See also
-* [Software project basics](../software-project-basics/article.md)
+* [Software project basics](../software-project-basics/index.md)

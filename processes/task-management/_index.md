@@ -91,5 +91,5 @@ Once you've reached this point, you will have a much better grasp on the importa
 * Tasks should not remain in the `In progress` state for extended periods of time. After approximately a week in that state, I would suggest re-evaluating whether this task is still `In progress` or should be moved back into the `Backlog`, `Queued`, `Scheduled` or `Today` state. The same should apply to the `Waiting` and `Blocked` states.
 
 # References
-* [Given that you define a return on investment (ROI) on a task, when should you stop working on a task and abandon it given its cost?](../../questions/2020/01/03/article.md)
-* [How do you prioritize things when there are so many of them competing against one another?](../../questions/2020/01/04/article.md)
+* [Given that you define a return on investment (ROI) on a task, when should you stop working on a task and abandon it given its cost?](../../questions/2020/01/03/index.md)
+* [How do you prioritize things when there are so many of them competing against one another?](../../questions/2020/01/04/index.md)

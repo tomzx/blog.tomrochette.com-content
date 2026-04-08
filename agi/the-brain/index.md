@@ -84,7 +84,7 @@ readability: 3
 	* Source: https://www.quora.com/How-powerful-is-the-brain-compared-to-a-computer
 
 # See also
-* [Senses](../senses/article.md)
+* [Senses](../senses/index.md)
 
 # References
 [^1]: http://mattmahoney.net/agi2.html

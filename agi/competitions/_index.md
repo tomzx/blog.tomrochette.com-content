@@ -7,4 +7,4 @@ status: in progress
 readability: 3
 ---
 
-* [General AI Challenge](general-ai-challenge/article.md)
+* [General AI Challenge](general-ai-challenge/index.md)

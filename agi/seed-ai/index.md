@@ -336,12 +336,12 @@ Given that machine learning is about a small amount of code learning from huge a
 By running every program in parallel, one step at a time, it is possible to construct a list of the programs that completed after $n$ steps. Once we find a program that accomplishes what we want it to do, we can be certain that no shorter program will be able to do so. One interesting observation/challenge from the previous comment is that given an algorithm, a large part of the behavior we might want may depend on data which is external to the program itself.
 
 # See also
-* [Automated programming](../automated-programming/article.md)
-* [Automated refactoring](../automated-refactoring/article.md)
-* [Clone detection](../clone-detection/article.md)
-* [Constructing functions](../constructing-functions/article.md)
-* [Holonic program language](../holonic-program-language/article.md)
-* [Mathematics based AGI](../mathematics-based-agi/article.md)
+* [Automated programming](../automated-programming/index.md)
+* [Automated refactoring](../automated-refactoring/index.md)
+* [Clone detection](../clone-detection/index.md)
+* [Constructing functions](../constructing-functions/index.md)
+* [Holonic program language](../holonic-program-language/index.md)
+* [Mathematics based AGI](../mathematics-based-agi/index.md)
 
 # References
 [^1]: https://en.wikipedia.org/wiki/X86_instruction_listings#Original_8086.2F8088_instructions
