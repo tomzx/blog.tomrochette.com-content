@@ -26,7 +26,7 @@ if (file_exists($folderPath)) {
 
 // Generate folder
 mkdir($folderPath);
-// Copy template.md to article.md
+// Copy template.md to index.md
 copy('template.md', $articlePath);
 touch($bibliographyPath);
 // Update the article title and date
