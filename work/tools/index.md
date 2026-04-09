@@ -9,6 +9,7 @@ readability: 1
 
 Tools I use on a regular basis at work (sorted alphabetically).
 
+* Apple calendar
 * Chrome
 * Claude Code
 * Cursor
@@ -18,7 +19,7 @@ Tools I use on a regular basis at work (sorted alphabetically).
 * GitHub
 * `gt` (Graphite CLI)
 * Google cloud CLI
-* Google suite (Gmail, Docs, Meet, Sheets, Slides)
+* Google suite (Calendar, Docs, Meet, Sheets, Slides)
 * LLMs (ChatGPT, Claude)
 * iTerm2
 * Jetbrains Toolbox
