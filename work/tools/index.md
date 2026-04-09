@@ -10,13 +10,15 @@ readability: 1
 Tools I use on a regular basis at work (sorted alphabetically).
 
 * Chrome
+* Claude Code
 * Cursor
-* Docker
+* Cursor agent (CLI)
+* `gh` (GitHub CLI)
 * Git
 * GitHub
+* `gt` (Graphite CLI)
 * Google cloud CLI
 * Google suite (Gmail, Docs, Meet, Sheets, Slides)
-* Intellij IDEA
 * LLMs (ChatGPT, Claude)
 * iTerm2
 * Jetbrains Toolbox
