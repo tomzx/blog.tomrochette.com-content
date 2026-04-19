@@ -3,7 +3,7 @@ title: Profit-as-a-Service
 created: 2026-04-18
 type: post
 status: finished
-tags: [business, ai, saas, automation]
+tags: [business, ai, saas, automation, fully-ai-generated, llm=glm-5.1]
 readability: 3
 ---
 
