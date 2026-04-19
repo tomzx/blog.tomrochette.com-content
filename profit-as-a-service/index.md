@@ -2,7 +2,7 @@
 title: Profit-as-a-Service
 created: 2026-04-18
 type: post
-status: draft
+status: finished
 tags: [business, ai, saas, automation]
 readability: 3
 ---
