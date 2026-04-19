@@ -1,11 +1,10 @@
 ---
 title: Profit-as-a-Service
 created: 2026-04-18
-taxonomy:
-  type: post
-  status: draft
-  tag: [business, ai, saas, automation]
-  readability: 3
+type: post
+status: draft
+tags: [business, ai, saas, automation]
+readability: 3
 ---
 
 Software-as-a-Service gave us recurring revenue.
