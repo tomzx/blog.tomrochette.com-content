@@ -1,5 +1,4 @@
 ---
-showArticleList: false
 title: "Paul Jorgensen - Software Testing: A Craftsman's Approach - 2008"
 created: 2016-10-20
 tags: [artificial-general-intelligence]

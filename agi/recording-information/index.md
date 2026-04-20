@@ -1,5 +1,4 @@
 ---
-showArticleList: false
 title: Recording information
 created: 2015-11-08
 tags: [artificial-general-intelligence]

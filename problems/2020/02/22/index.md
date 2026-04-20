@@ -1,5 +1,4 @@
 ---
-showArticleList: false
 title: Visual Studio Code Emoji extension
 created: 2020-02-22
 type: post

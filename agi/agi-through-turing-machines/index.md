@@ -1,5 +1,4 @@
 ---
-showArticleList: false
 title: AGI Through Turing Machines
 created: 2015-08-16
 status: in progress

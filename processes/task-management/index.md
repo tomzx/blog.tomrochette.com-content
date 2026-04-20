@@ -1,5 +1,4 @@
 ---
-showArticleList: false
 title: Task management
 created: 2019-05-26
 type: post

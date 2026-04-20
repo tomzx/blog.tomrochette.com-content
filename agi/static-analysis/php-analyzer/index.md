@@ -1,5 +1,4 @@
 ---
-showArticleList: false
 title: PHP Analyzer
 created: 2016-09-22
 tags: [php]

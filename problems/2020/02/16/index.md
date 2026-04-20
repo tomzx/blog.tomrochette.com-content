@@ -1,5 +1,4 @@
 ---
-showArticleList: false
 title: Chrome tabs count
 created: 2020-02-16
 type: post

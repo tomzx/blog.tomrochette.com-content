@@ -1,5 +1,4 @@
 ---
-showArticleList: false
 title: "2017-01-14"
 created: 2017-01-14
 tags: [machine-learning]

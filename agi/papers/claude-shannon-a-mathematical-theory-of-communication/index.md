@@ -1,5 +1,4 @@
 ---
-showArticleList: false
 title: Claude Shannon - A Mathematical Theory of Communication (1948)
 created: 2015-08-13
 tags: [artificial-general-intelligence]

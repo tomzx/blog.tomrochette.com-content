@@ -1,5 +1,4 @@
 ---
-showArticleList: false
 title: Wearing a face mask against COVID-19
 created: 2020-03-10
 type: post

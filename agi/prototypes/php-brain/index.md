@@ -1,5 +1,4 @@
 ---
-showArticleList: false
 title: PHP-Brain
 created: 2016-02-24
 tags: [artificial-general-intelligence]

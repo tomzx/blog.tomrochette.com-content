@@ -1,5 +1,4 @@
 ---
-showArticleList: false
 title: How to Learn an Algorithm
 created: 2016-03-19
 tags: [artificial-general-intelligence]
