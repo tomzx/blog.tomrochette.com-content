@@ -2,7 +2,7 @@
 title: "The Future of Code Review: How AI Makes Human Review Obsolete"
 created: 2026-04-18
 type: post
-status: draft
+status: finished
 tags: [ai, software-engineering, code-review, llm]  
 readability: 3
 ---
