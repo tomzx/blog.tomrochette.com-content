@@ -1,7 +1,7 @@
 ---
 title: "GlobaLLM: Automated Open Source Contribution at Scale"
 created: 2025-12-27
-status: in progress
+status: finished
 type: post
 tags: [artificial-general-intelligence, globallm, open-source, fully-ai-generated, llm=glm-4.7]
 readability: 3
