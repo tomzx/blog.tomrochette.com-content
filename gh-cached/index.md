@@ -3,7 +3,7 @@ title: gh-cached - Browse GitHub issues and PRs without burning through your API
 created: 2026-04-30
 type: post
 status: finished
-tags: [go, github, cli, developer-tools]
+tags: [go, github, cli, developer-tools, fully-ai-generated, llm=glm-5.1]
 readability: 4
 ---
 
