@@ -297,3 +297,7 @@ If you're still carrying ore by hand, it's time to lay down a belt.
 If you're still reviewing every line of code yourself, it's time to build a verification system.
 
 The factory must grow.
+
+## See also
+
+- [Code Factories: The StarCraft Perspective](/code-factories-starcraft) — the same concept explored through StarCraft metaphors
