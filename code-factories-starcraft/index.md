@@ -431,4 +431,4 @@ GL HF.
 
 ## See also
 
-- [Code Factories](/code-factories) — the same concept explored through Factorio metaphors
+- [Code Factories: The Factorio Perspective](/code-factories-factorio) — the same concept explored through Factorio metaphors
