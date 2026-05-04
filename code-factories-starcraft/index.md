@@ -432,3 +432,6 @@ GL HF.
 ## See also
 
 - [Code Factories: The Factorio Perspective](/code-factories-factorio) — the same concept explored through Factorio metaphors
+- [Code Factories: The World of Warcraft Perspective](/code-factories-wow) — the same concept explored through World of Warcraft metaphors
+- [Code Factories: The Stock Market Perspective](/code-factories-stock-market) — the same concept explored through stock market metaphors
+- [Code Factories: The RollerCoaster Tycoon Perspective](/code-factories-rollercoaster-tycoon) — the same concept explored through RollerCoaster Tycoon metaphors
