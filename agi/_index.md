@@ -29,6 +29,11 @@ Feel free to leave me comments, questions and feedback through [github issues](h
 Tom
 
 # Index
+
+# Sections
+* [Large language Models](llm/_index.md)
+* [Machine learning](../machine-learning/_index.md)
+
 ## Indexes
 * [Books](books/index.md)
 * [Movies](movies/index.md)
