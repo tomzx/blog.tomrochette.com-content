@@ -26,7 +26,7 @@ Tools I use on a regular basis at work (sorted alphabetically).
 * [OpenChamber](https://openchamber.dev/)
 * [`opencode` (OpenCode)](https://opencode.ai/)
 * [OpenLens](https://github.com/MuhammedKalkan/OpenLens)
-* [Podman](https://podman.io/)
+* [`podman` (Podman)](https://podman.io/)
 * [Postman](https://www.postman.com/)
 * [PyCharm](https://www.jetbrains.com/pycharm/)
 * [Rectangle](https://rectangleapp.com/)
