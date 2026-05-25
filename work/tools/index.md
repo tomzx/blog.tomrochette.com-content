@@ -32,3 +32,4 @@ Tools I use on a regular basis at work (sorted alphabetically).
 * [Rectangle](https://rectangleapp.com/)
 * [Slack](https://slack.com/)
 * [Stats](https://github.com/exelban/stats)
+* [VS Code](https://code.visualstudio.com/)
