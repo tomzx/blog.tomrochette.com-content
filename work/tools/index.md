@@ -13,7 +13,7 @@ Tools I use on a regular basis at work (sorted alphabetically).
 * [Chrome](https://www.google.com/chrome/)
 * [Claude Code](https://docs.anthropic.com/en/docs/claude-code)
 * [Cursor](https://www.cursor.com/)
-* Cursor agent (CLI)
+* [Cursor agent (CLI)](https://www.cursor.com/agent)
 * [`gh` (GitHub CLI)](https://cli.github.com/)
 * [Git](https://git-scm.com/)
 * [GitHub](https://github.com/)
