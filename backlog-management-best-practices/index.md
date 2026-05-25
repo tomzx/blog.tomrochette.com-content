@@ -1,6 +1,6 @@
 ---
 title: "The Backlog Is Not a Dumping Ground: Managing the Backlog of a Large Software Product"
-created: 2026-05-25T23:27:00-04:00
+created: 2026-05-24T23:27:00-04:00
 type: post
 status: finished
 tags: [product-management, backlog, agile, prioritization, software-engineering, fully-ai-generated, llm=glm-5.1]
