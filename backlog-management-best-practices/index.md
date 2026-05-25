@@ -209,8 +209,6 @@ A healthy backlog is small, ordered, and refined.
 It reflects a clear product goal and a shared understanding of what matters most.
 Maintaining it is not glamorous work, but it is the work that makes everything else possible.
 
----
-
 [^1]: Schwaber, K. & Sutherland, J. [*The Scrum Guide*](https://scrumguides.org/scrum-guide.html) (2020 edition).
 [^2]: Cagan, M. [*Inspired: How to Create Tech Products Customers Love*](https://www.svpg.com/books/), 2nd ed., Wiley, 2017, Chapters 2 and 33.
 [^3]: Zuill, W. ["Mob Programming"](https://woodyzuill.com/), presented at Agile 2014; see also his writing on pull-based work management.
