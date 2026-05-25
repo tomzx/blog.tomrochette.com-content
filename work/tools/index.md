@@ -23,7 +23,7 @@ Tools I use on a regular basis at work (sorted alphabetically).
 * LLMs ([ChatGPT](https://chatgpt.com/), [Claude](https://claude.ai/))
 * [iTerm2](https://iterm2.com/)
 * [Jetbrains Toolbox](https://www.jetbrains.com/toolbox-app/)
-* [OpenChamber](https://openchamber.ai/)
+* [OpenChamber](https://openchamber.dev/)
 * [OpenCode](https://opencode.ai/)
 * [OpenLens](https://github.com/MuhammedKalkan/OpenLens)
 * [Podman](https://podman.io/)
