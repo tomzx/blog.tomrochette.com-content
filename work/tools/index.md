@@ -11,9 +11,9 @@ Tools I use on a regular basis at work (sorted alphabetically).
 
 * [Apple calendar](https://www.apple.com/macos/calendar/)
 * [Chrome](https://www.google.com/chrome/)
-* [Claude Code](https://docs.anthropic.com/en/docs/claude-code)
+* [`claude` (Claude Code)](https://docs.anthropic.com/en/docs/claude-code)
 * [Cursor](https://www.cursor.com/)
-* [Cursor agent (CLI)](https://cursor.com/cli)
+* [ `cursor-agent` (Cursor agent CLI)](https://cursor.com/cli)
 * [`gh` (GitHub CLI)](https://cli.github.com/)
 * [Git](https://git-scm.com/)
 * [GitHub](https://github.com/)
