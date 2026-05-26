@@ -36,3 +36,5 @@ The past month has been about turning repetitive workflows into reusable skills,
 **Incremental PR description updates.** When I update a PR after the description is written, I need [create-pr-description](https://github.com/tomzx/dot-claude/blob/main/skills/create-pr-description/SKILL.md) to adjust minimally, appending or amending what changed, rather than regenerating the whole thing from scratch.
 
 **Skill usage tracking.** I need to know how often each skill is invoked and when. Without that data, I cannot tell which skills are earning their keep and which are dead weight.
+
+**Replying to inline PR comments.** `gh` does not support replying to inline review comments programmatically. Tools like [gh-pr-review](https://github.com/agynio/gh-pr-review) exist but feel awkward for what should be a straightforward operation. I need a clean way to post inline replies as part of the review and feedback skills.
