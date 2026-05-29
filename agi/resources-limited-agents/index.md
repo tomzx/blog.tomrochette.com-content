@@ -298,17 +298,34 @@ Systems that assume unlimited resources will fail when deployed in the real worl
 
 # References
 
-[^simon1955]: Simon, H. A. (1955). A behavioral model of rational choice. *Quarterly Journal of Economics*.
-[^simon1956]: Simon, H. A. (1956). Rational choice and the structure of the environment. *Psychological Review*.
-[^horvitz1988]: Horvitz, E. J. (1988). Reasoning about beliefs and actions under computational resource constraints. *Uncertainty in AI*.
-[^dean1988]: Dean, T., & Boddy, M. (1988). An analysis of time-dependent planning. *AAAI*.
-[^mccloskey1989]: McCloskey, M., & Cohen, N. J. (1989). Catastrophic interference in connectionist networks: The sequential learning problem. *Psychology of Learning and Motivation*.
-[^russell1991]: Russell, S., & Wefald, E. (1991). *Do the Right Thing: Studies in Limited Rationality*. MIT Press.
-[^russell1995]: Russell, S., & Subramanian, D. (1995). Provably bounded-optimal agents. *Journal of AI Research*.
-[^zilberstein1996]: Zilberstein, S. (1996). Using anytime algorithms in intelligent systems. *AI Magazine*.
-[^schmidhuber2002]: Schmidhuber, J. (2002). The Speed Prior: A new simplicity measure yielding near-optimal computable predictions. *COLT*.
-[^itti2009]: Itti, L., & Baldi, P. (2009). Bayesian surprise attracts human attention. *Vision Research*.
-[^hay2012]: Hay, N., Russell, S., Tolpin, D., & Shimony, S. E. (2012). Selecting computations: Theory and applications. *UAI*.
-[^gershman2015]: Gershman, S. J., Horvitz, E. J., & Tenenbaum, J. B. (2015). Computational rationality: A converging paradigm for intelligence in brains, minds, and machines. *Science*.
-[^kirkpatrick2017]: Kirkpatrick, J., et al. (2017). Overcoming catastrophic forgetting in neural networks. *PNAS*.
-[^lieder2020]: Lieder, F., & Griffiths, T. L. (2020). Resource-rational analysis: Understanding human cognition as the optimal use of limited computational resources. *Behavioral and Brain Sciences*.
+## Bounded rationality and satisficing
+
+[^simon1955]: Simon, H. A. (1955). [A behavioral model of rational choice](https://www.semanticscholar.org/paper/d8237600841361f7811f5fd9effaed9d2e6e34b0). *Quarterly Journal of Economics*.
+[^simon1956]: Simon, H. A. (1956). [Rational choice and the structure of the environment](https://www.semanticscholar.org/paper/23a94ce42fe0d50f5c993f34d4c9602f8aeac507). *Psychological Review*.
+[^russell1991]: Russell, S., & Wefald, E. (1991). [Do the Right Thing: Studies in Limited Rationality](https://mitpress.mit.edu/9780262681129/). MIT Press.
+[^russell1995]: Russell, S., & Subramanian, D. (1995). [Provably bounded-optimal agents](https://doi.org/10.1613/jair.532). *Journal of AI Research*.
+
+## Anytime algorithms and time-limited reasoning
+
+[^dean1988]: Dean, T., & Boddy, M. (1988). [An analysis of time-dependent planning](https://www.semanticscholar.org/paper/143f6b100c13d120e55c3e30e441c4abac7a5db2). *AAAI*.
+[^zilberstein1996]: Zilberstein, S. (1996). [Using anytime algorithms in intelligent systems](https://www.semanticscholar.org/paper/ecf9adafc610cd417be2aa4092e809446e0f361f). *AI Magazine*.
+
+## Meta-reasoning and resource-aware computation
+
+[^horvitz1988]: Horvitz, E. J. (1988). [Reasoning about beliefs and actions under computational resource constraints](https://www.semanticscholar.org/paper/da6231ac3da628e748d407c3842bc06b32433ab6). *Uncertainty in AI*.
+[^hay2012]: Hay, N., Russell, S., Tolpin, D., & Shimony, S. E. (2012). [Selecting computations: Theory and applications](https://doi.org/10.48550/arXiv.1207.1388). *UAI*.
+[^schmidhuber2002]: Schmidhuber, J. (2002). [The Speed Prior: A new simplicity measure yielding near-optimal computable predictions](https://doi.org/10.1007/3-540-45435-3_13). *COLT*.
+
+## Memory and forgetting
+
+[^mccloskey1989]: McCloskey, M., & Cohen, N. J. (1989). [Catastrophic interference in connectionist networks: The sequential learning problem](https://doi.org/10.1016/S0079-7421(89)80010-2). *Psychology of Learning and Motivation*.
+[^kirkpatrick2017]: Kirkpatrick, J., et al. (2017). [Overcoming catastrophic forgetting in neural networks](https://www.semanticscholar.org/paper/2e55ba6c97ce5eb55abd959909403fe8da7e9fe9). *PNAS*.
+
+## Attention and surprise
+
+[^itti2009]: Itti, L., & Baldi, P. (2009). [Bayesian surprise attracts human attention](https://www.semanticscholar.org/paper/aebd8bab5cff769fed204dba35112e364a47e504). *Vision Research*.
+
+## Computational rationality and resource constraints as drivers of intelligence
+
+[^gershman2015]: Gershman, S. J., Horvitz, E. J., & Tenenbaum, J. B. (2015). [Computational rationality: A converging paradigm for intelligence in brains, minds, and machines](https://www.semanticscholar.org/paper/afbb25c4346f9a9b75ba5cb751d47845a4a5b584). *Science*.
+[^lieder2020]: Lieder, F., & Griffiths, T. L. (2020). [Resource-rational analysis: Understanding human cognition as the optimal use of limited computational resources](https://doi.org/10.1017/S0140525X19000674). *Behavioral and Brain Sciences*.
