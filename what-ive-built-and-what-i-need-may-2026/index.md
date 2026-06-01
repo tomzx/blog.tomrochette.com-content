@@ -27,7 +27,7 @@ The past month has been about turning repetitive workflows into reusable skills,
 
 **Memory that agents manage automatically.** Right now memory requires explicit reads and writes. I need agents to store, retrieve, and decay knowledge across sessions without me prompting them to do it.
 
-**Contextual Slack support.** I need a way for users asking for help on Slack to receive contextually relevant information, and for the system to learn from human-to-human interactions and the answers people give each other.
+**Contextual Slack support.** I need a way for users asking for help on Slack to receive contextually relevant information, and for the system to learn from human-to-human interactions and the answers people give each other. I started building [slack-cached](https://github.com/TomzxCode/slack-cached) to cache and query Slack conversations.
 
 **Automatic context clearing between execution and review.** Running implementation and review in the same context introduces bias. I need a mechanism, likely using forked subagents, to `/clear` between execution and review automatically so the reviewer starts fresh.
 
