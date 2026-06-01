@@ -102,9 +102,9 @@ Human companies optimize hiring, onboarding, and culture.
 Agent companies optimize inference cost, error correlation, orchestration complexity, and infrastructure reliability.
 The companies that scale exponentially in this era will be the ones that treat their agent workforce as a system to be engineered, not a team to be managed.
 
----
-**Sources used:**
-- [Exponential growth software company](/exponential-growth-software-company) -- original article on human company scaling constraints
-- [The Shifting Bottleneck](/the-shifting-bottleneck) -- how AI moves bottlenecks up the decision chain
-- [Software Engineering Teams in the Age of AI](/software-engineering-teams-in-the-age-of-ai) -- team design implications of AI-assisted development
+## References
+
+- [Exponential growth software company](../exponential-growth-software-company/index.md) -- original article on human company scaling constraints
+- [The Shifting Bottleneck](../the-shifting-bottleneck/index.md) -- how AI moves bottlenecks up the decision chain
+- [Software Engineering Teams in the Age of AI](../software-engineering-teams-in-the-age-of-ai/index.md) -- team design implications of AI-assisted development
 **Audience notes:** Assumes familiarity with LLM agents and basic organizational scaling concepts.
