@@ -11,30 +11,58 @@ The past month has been about turning repetitive workflows into reusable skills,
 
 ## What I Have Been Working On
 
-**Built a full SDLC skill pipeline.** I shipped a comprehensive software development lifecycle orchestrator in [dot-claude](https://github.com/tomzx/dot-claude/blob/main/skills/sdlc/SKILL.md) that chains over 20 sub-skills, from issue creation through learnings capture. It handles phase contracts, backtracking when upstream artifacts are incomplete, and fast paths for small work like bug fixes and config changes. The pipeline tracks artifact status via YAML frontmatter and stores everything under `.sdlc/` with a consistent directory structure.
+**Built a full SDLC skill pipeline.**
+I shipped a comprehensive software development lifecycle orchestrator in [dot-claude](https://github.com/tomzx/dot-claude/blob/main/skills/sdlc/SKILL.md) that chains over 20 sub-skills, from issue creation through learnings capture.
+It handles phase contracts, backtracking when upstream artifacts are incomplete, and fast paths for small work like bug fixes and config changes.
+The pipeline tracks artifact status via YAML frontmatter and stores everything under `.sdlc/` with a consistent directory structure.
 
-**Made issue tracking actually useful.** I have been using [create-issue](https://github.com/tomzx/dot-claude/blob/main/skills/create-issue/SKILL.md) heavily over the past month to track gaps in the software I am building. It is not perfect, but it beats not tracking the work, and it captures more context than I would take the time to write by hand.
+**Made issue tracking actually useful.**
+I have been using [create-issue](https://github.com/tomzx/dot-claude/blob/main/skills/create-issue/SKILL.md) heavily over the past month to track gaps in the software I am building.
+It is not perfect, but it beats not tracking the work, and it captures more context than I would take the time to write by hand.
 
-**Automated PR descriptions.** I use [create-pr-description](https://github.com/tomzx/dot-claude/blob/main/skills/create-pr-description/SKILL.md) to generate PR descriptions based on code changes and intent. Writing those manually was slow and inconsistent; now the descriptions reflect what actually changed without the manual effort.
+**Automated PR descriptions.**
+I use [create-pr-description](https://github.com/tomzx/dot-claude/blob/main/skills/create-pr-description/SKILL.md) to generate PR descriptions based on code changes and intent.
+Writing those manually was slow and inconsistent; now the descriptions reflect what actually changed without the manual effort.
 
 ## What I Currently Need
 
-**Battle test the SDLC pipeline.** The [SDLC skill](https://github.com/tomzx/dot-claude/blob/main/skills/sdlc/SKILL.md) is built but has not been stress-tested end to end on real feature work. I need to run it through enough real scenarios to surface the gaps between the design and practical use.
+**[Battle test the SDLC pipeline](https://github.com/tomzx/dot-claude/issues/12).**
+The [SDLC skill](https://github.com/tomzx/dot-claude/blob/main/skills/sdlc/SKILL.md) is built but has not been stress-tested end to end on real feature work.
+I need to run it through enough real scenarios to surface the gaps between the design and practical use.
 
-**Scheduled issue-to-PR automation in openchamber.** Openchamber can already create a worktree per directory and execute a prompt, but it does not run on a regular schedule. I need it to pick up new issues, execute the full pipeline, and open PRs without manual triggering.
+**[Scheduled issue-to-PR automation in openchamber](https://github.com/tomzx/dot-claude/issues/8).**
+Openchamber can already create a worktree per directory and execute a prompt, but it does not run on a regular schedule.
+I need it to pick up new issues, execute the full pipeline, and open PRs without manual triggering.
 
-**Automated issue triaging in open source projects.** I built a [triage-issues](https://github.com/tomzx/dot-claude/blob/main/skills/triage-issues/SKILL.md) skill but have not used it on my own repositories. The goal is to reduce the burden of going through issues to identify duplicates and decide whether they should be acted on.
+**[Automated issue triaging in open source projects](https://github.com/tomzx/dot-claude/issues/13).**
+I built a [triage-issues](https://github.com/tomzx/dot-claude/blob/main/skills/triage-issues/SKILL.md) skill but have not used it on my own repositories.
+The goal is to reduce the burden of going through issues to identify duplicates and decide whether they should be acted on.
 
-**Memory that agents manage automatically.** Right now memory requires explicit reads and writes. I need agents to store, retrieve, and decay knowledge across sessions without me prompting them to do it.
+**[Memory that agents manage automatically](https://github.com/tomzx/dot-claude/issues/6).**
+Right now memory requires explicit reads and writes.
+I need agents to store, retrieve, and decay knowledge across sessions without me prompting them to do it.
 
-**Contextual Slack support.** I need a way for users asking for help on Slack to receive contextually relevant information, and for the system to learn from human-to-human interactions and the answers people give each other. I started building [slack-cached](https://github.com/TomzxCode/slack-cached) to cache and query Slack conversations.
+**[Contextual Slack support](https://github.com/tomzx/dot-claude/issues/4).**
+I need a way for users asking for help on Slack to receive contextually relevant information, and for the system to learn from human-to-human interactions and the answers people give each other.
+I started building [slack-cached](https://github.com/TomzxCode/slack-cached) to cache and query Slack conversations.
 
-**Automatic context clearing between execution and review.** Running implementation and review in the same context introduces bias. I need a mechanism, likely using forked subagents, to `/clear` between execution and review automatically so the reviewer starts fresh.
+**[Automatic context clearing between execution and review](https://github.com/tomzx/dot-claude/issues/9).**
+Running implementation and review in the same context introduces bias.
+I need a mechanism, likely using forked subagents, to `/clear` between execution and review automatically so the reviewer starts fresh.
 
-**Accuracy pass on daily summaries.** I have accumulated daily summaries that contain inaccuracies. I need something to go through them and correct what is wrong, rather than letting bad data compound over time.
+**[Accuracy pass on daily summaries](https://github.com/tomzx/dot-claude/issues/5).**
+I have accumulated daily summaries that contain inaccuracies.
+I need something to go through them and correct what is wrong, rather than letting bad data compound over time.
 
-**Incremental PR description updates.** When I update a PR after the description is written, I need [create-pr-description](https://github.com/tomzx/dot-claude/blob/main/skills/create-pr-description/SKILL.md) to adjust minimally, appending or amending what changed, rather than regenerating the whole thing from scratch.
+**[Incremental PR description updates](https://github.com/tomzx/dot-claude/issues/11).**
+When I update a PR after the description is written, I need [create-pr-description](https://github.com/tomzx/dot-claude/blob/main/skills/create-pr-description/SKILL.md) to adjust minimally, appending or amending what changed, rather than regenerating the whole thing from scratch.
 
-**Skill usage tracking.** I need to know how often each skill is invoked and when. Without that data, I cannot tell which skills are earning their keep and which are dead weight.
+**[Skill usage tracking](https://github.com/tomzx/dot-claude/issues/7).**
+I need to know how often each skill is invoked and when.
+Without that data, I cannot tell which skills are earning their keep and which are dead weight.
 
-**Replying to inline PR comments.** `gh` does not support replying to inline review comments programmatically. Tools like [gh-pr-review](https://github.com/agynio/gh-pr-review) exist but feel awkward for what should be a straightforward operation. I need a clean way to post inline replies as part of the review and feedback skills. I started building [ghx](https://github.com/TomzxCode/ghx) to address this gap.
+**Replying to inline PR comments.**
+`gh` does not support replying to inline review comments programmatically.
+Tools like [gh-pr-review](https://github.com/agynio/gh-pr-review) exist but feel awkward for what should be a straightforward operation.
+I need a clean way to post inline replies as part of the review and feedback skills.
+I started building [ghx](https://github.com/TomzxCode/ghx) to address this gap.
