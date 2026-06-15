@@ -3,7 +3,7 @@ title: ghx - A CLI for agentic code reviews on GitHub
 created: 2026-05-27
 type: post
 status: finished
-tags: [go, github, cli, developer-tools, ai, agents, fully-llm-generated, llm=glm-5.1]
+tags: [go, github, cli, developer-tools, ai, agents, fully-ai-generated, llm=glm-5.1]
 ---
 
 I've been building AI agents that review pull requests, and the official `gh` CLI doesn't have what they need.
