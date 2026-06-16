@@ -125,10 +125,11 @@ cached 318 messages for C0123ABCDEF (214 fetched, 47 threads with replies fetche
 ```
 
 For continuous capture, `poll` watches multiple channels and fetches new messages on a schedule.
+Each entry in `--channels` can be a channel id, a bare name (`general`), or a `#`-prefixed name (`#general`); names are resolved against the cached channels, which is why the per-cycle summary below reports ids.
 Progress goes to stderr, and (because of `--json`) one compact JSON object per cycle goes to stdout. `Ctrl+C` stops it gracefully:
 
 ```bash
-$ slack-cached poll --channels C001,C002,C003 --interval 5m --last 5m --full-threads --json
+$ slack-cached poll --channels #general,#engineering,#deploys --interval 5m --last 5m --full-threads --json
 polling 3 channel(s) every 5m (lookback: 5m, full_threads: True, concurrency: 3)
 {"cycle": 1, "elapsed_seconds": 1.234, "channels": [{"channel": "C001", "fetched": 3, "total": 312}, {"channel": "C002", "fetched": 4, "total": 188}, {"channel": "C003", "fetched": 0, "total": 27}]}
 cycle 1: 7 new message(s) across 3 channel(s) in 1.2s
