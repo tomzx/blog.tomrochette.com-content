@@ -402,9 +402,8 @@ The agents are not the bottleneck.
 Your brain is.
 Every hour you spend engineering the workflow around your own cognitive limits is worth ten hours of trying to power through them.
 
----
+## References
 
-**Sources used:**
 - [Miller, "The Magical Number Seven, Plus or Minus Two"](https://en.wikipedia.org/wiki/The_Magical_Number_Seven,_Plus_or_Minus_Two) -- established the working memory capacity limit that constrains how many sessions a human can track mentally
 - [Zeigarnik effect](https://en.wikipedia.org/wiki/Zeigarnik_effect) -- explains attention residue from unfinished tasks, a core problem when many sessions run concurrently
 - [Decision fatigue](https://en.wikipedia.org/wiki/Decision_fatigue) -- describes how decision quality degrades over a session, relevant to supervising many agents
