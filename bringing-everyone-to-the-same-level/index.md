@@ -182,16 +182,16 @@ It is the one whose best engineer's process runs, unchanged and unskipped, in ev
 
 ## See also
 
-- [Developer Trust Profiles](../developer-trust-profiles/index.md) -- names the end state this article describes how to reach, where authorship stops carrying signal because everyone ships the same quality
-- [The Importance of Context When Interacting with LLMs](../the-importance-of-context-when-interacting-with-llms/index.md) -- why context is the entire mechanism by which a frozen model produces good output, and why a skill is just well-engineered context
-- [The Shifting Bottleneck](../the-shifting-bottleneck/index.md) -- how each layer of automation pushes leverage, and seniority, one step up the decision chain
-- [Rethinking Code Review in the Age of LLMs](../rethinking-code-review-in-the-age-of-llms/index.md) -- the case that quality is a property of your constraints, not your reviewers, which is exactly what a skill encodes
-- [Software Engineering Teams in the Age of AI](../software-engineering-teams-in-the-age-of-ai/index.md) -- which processes to keep and which to eliminate once execution is cheap
-- [When Engineers Disagree on Best Practices](../when-engineers-disagree-on-best-practices/index.md) -- how teams settle the conventions that skills eventually enforce
+- [Developer Trust Profiles](../developer-trust-profiles/index.md) - names the end state this article describes how to reach, where authorship stops carrying signal because everyone ships the same quality
+- [The Importance of Context When Interacting with LLMs](../the-importance-of-context-when-interacting-with-llms/index.md) - why context is the entire mechanism by which a frozen model produces good output, and why a skill is just well-engineered context
+- [The Shifting Bottleneck](../the-shifting-bottleneck/index.md) - how each layer of automation pushes leverage, and seniority, one step up the decision chain
+- [Rethinking Code Review in the Age of LLMs](../rethinking-code-review-in-the-age-of-llms/index.md) - the case that quality is a property of your constraints, not your reviewers, which is exactly what a skill encodes
+- [Software Engineering Teams in the Age of AI](../software-engineering-teams-in-the-age-of-ai/index.md) - which processes to keep and which to eliminate once execution is cheap
+- [When Engineers Disagree on Best Practices](../when-engineers-disagree-on-best-practices/index.md) - how teams settle the conventions that skills eventually enforce
 
 ## References
 
-- [tomzx/agents](https://github.com/tomzx/agents) -- a working library of the skills this article describes, including the create-implementation and quick-pr-review skills referenced throughout the blog
-- [Brown et al., "Language Models are Few-Shot Learners"](https://arxiv.org/abs/2005.14165) -- established in-context learning, the capability that lets a loaded skill reshape a model's behavior without retraining
-- [Liu et al., "Lost in the Middle: How Language Models Use Long Contexts"](https://arxiv.org/abs/2307.03172) -- why a skill must stay focused, since model reliability degrades as context fills with noise
-- [Wikipedia, "The Checklist Manifesto"](https://en.wikipedia.org/wiki/The_Checklist_Manifesto) -- Atul Gawande's case that disciplined checklists outperform expert memory, the human analogue to the skills mechanism
+- [tomzx/agents](https://github.com/tomzx/agents) - a working library of the skills this article describes, including the create-implementation and quick-pr-review skills referenced throughout the blog
+- [Brown et al., "Language Models are Few-Shot Learners"](https://arxiv.org/abs/2005.14165) - established in-context learning, the capability that lets a loaded skill reshape a model's behavior without retraining
+- [Liu et al., "Lost in the Middle: How Language Models Use Long Contexts"](https://arxiv.org/abs/2307.03172) - why a skill must stay focused, since model reliability degrades as context fills with noise
+- [Wikipedia, "The Checklist Manifesto"](https://en.wikipedia.org/wiki/The_Checklist_Manifesto) - Atul Gawande's case that disciplined checklists outperform expert memory, the human analogue to the skills mechanism
