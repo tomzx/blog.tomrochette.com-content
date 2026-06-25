@@ -42,7 +42,7 @@ Issue triage gained duplicate detection and smarter label management, and triage
 The [ghx](https://github.com/TomzxCode/ghx) CLI was introduced and integrated into the review and feedback skills, adding inline PR review comments, pending reviews, and comment stashing that the standard `gh` CLI does not support.
 Reversibility checks were added across review-* skills, and forward compatibility checks were introduced.
 [create-issue](https://github.com/tomzx/agents/blob/main/skills/create-issue/SKILL.md) had its duplicate checking restored and time estimates improved.
-A new [`automate-session`](https://github.com/tomzx/agents/blob/main/skills/automate-session/SKILL.md) skill was added to identify repetitive workflows worth encoding as skills.
+A new [automate-session](https://github.com/tomzx/agents/blob/main/skills/automate-session/SKILL.md) skill was added to identify repetitive workflows worth encoding as skills.
 
 **Added new lifecycle and utility skills.**
 [assess-needs](https://github.com/tomzx/agents/blob/main/skills/assess-needs/SKILL.md) and [review-needs-assessment](https://github.com/tomzx/agents/blob/main/skills/review-needs-assessment/SKILL.md) evaluate whether a feature addresses a genuine need before investing in feasibility or requirements.
