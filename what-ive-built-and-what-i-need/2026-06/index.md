@@ -97,3 +97,6 @@ The [sdlc-status](https://github.com/tomzx/agents/blob/main/skills/sdlc-status/S
 **Reduce manual testing and validation.**
 I spend too much time manually testing and validating that a feature works as expected.
 The [improve-autonomy](https://github.com/tomzx/agents/blob/main/skills/improve-autonomy/SKILL.md) skill should help close this gap, but the challenge is behavioral: I instinctively revert to doing it myself instead of immediately asking how an agent could do what I am about to do.
+
+**Rework llm-augmented-workflows for flexibility.**
+[llm-augmented-workflows](https://github.com/TomzxCode/llm-augmented-workflows) needs to be reworked to handle feature and bug fix requests flows more flexibly, and to support other harnesses beyond Claude Code such as OpenCode and Pi.
