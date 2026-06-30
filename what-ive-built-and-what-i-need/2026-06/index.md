@@ -3,7 +3,7 @@ title: "What I've built and what I need: June 2026"
 created: 2026-06-25
 type: post
 status: finished
-tags: [personal-update, skills, ai, automation, fully-ai-generated, llm=glm-5.1, llm-glm-5.2]
+tags: [personal-update, skills, ai, automation, fully-ai-generated, llm=glm-5.1, llm=glm-5.2]
 readability: 3
 ---
 
