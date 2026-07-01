@@ -15,7 +15,8 @@ For most of its history the threat was volume: more pull requests than a maintai
 
 That is still true, and it is no longer the worst of it.
 The character of the queue changed.
-The median pull request is now machine-generated, and a machine-generated pull request is a different kind of problem than a human one.
+More than one in five code reviews on GitHub now [involve an agent](https://github.blog/ai-and-ml/generative-ai/agent-pull-requests-are-everywhere-heres-how-to-review-them/), and Copilot's automated review alone has run more than sixty million times, growing tenfold in under a year, so the machine-generated pull request is no longer a fringe of the queue.
+It is becoming the norm, and a machine-generated pull request is a different kind of problem than a human one.
 It looks correct, because plausibility is exactly what a language model optimizes for, and it may be subtly, uniformly wrong in ways that read as confident and clean.
 There is usually no author who thought about each line, so there is no intent for you to leverage as context, only output you have to verify from scratch.
 And almost never does the contributor tell you which model produced the code, what prompt generated it, or whether a human ever read it before it landed in your queue.
@@ -70,6 +71,11 @@ Without provenance, you cannot assess risk.
 A fifty-line patch from a contributor who tested it by hand and a fifty-line patch a model hallucinated in three seconds look identical in the diff, and the diff is all you have.
 **Plausible code with no origin story is the default input now, and it forces a worst-case assumption on every pull request: treat it as unverified until something proves otherwise.**
 
+The 2026 data shows how invisible this is by default.
+A census of 180 million repositories found that the obvious signal, a bot account, [recovers only about three percent](https://arxiv.org/abs/2606.24429) of the commits AI coding agents actually produced, so the overwhelming majority of machine-generated code reaches you with no detectable fingerprint.
+And the studies that watched what reviewers did with it found the same pattern: agent-generated pull requests carry [more redundancy and technical debt](https://arxiv.org/abs/2601.21276) than human ones, yet reviewers express more positive sentiment toward them, and the majority of AI-coauthored pull requests [merge with no explicit human review at all](https://arxiv.org/abs/2601.13754).
+Plausibility is doing exactly the work of hiding the problem.
+
 The implication for triage is concrete.
 First, the durable defense against plausible code is not a sharper opinion but a machine-checkable gate, because opinion-based review loses against code that was designed to look right.
 Tests, static analysis, type checking, reproducible builds: these operate on what the code does, not on how it reads, and they do not get fooled by confident prose.
@@ -80,7 +86,10 @@ Third, the one piece of information that would most improve your triage, which m
 ## Let Automation Carry the Logistics
 
 The first tier of triage is pure logistics, and all of it is solved.
-You should not be tracking any of this by hand.
+You should not be tracking any of this by hand, and in 2026 you increasingly do not even have to build it yourself.
+The most consequential shift is that GitHub started shipping these gates at the platform level, because the flood crossed a threshold unpaid maintainers could not hold: per-user caps on open pull requests, pull-request archiving, and ["smarter bypass" signals](https://github.blog/open-source/maintainers/how-pull-request-limits-are-cutting-down-the-noise/) based on account age and merge history.
+The stated rationale is the one this article rests on: the [cost to create a change has fallen below the cost to review it](https://github.blog/open-source/maintainers/welcome-to-the-eternal-september-of-open-source-heres-what-we-plan-to-do-for-maintainers/).
+When the host carries the load, your job narrows to the gates the platform cannot generalize.
 
 **Mark and close the stale.**
 A pull request that has had no activity for sixty days is not waiting for you.
@@ -114,6 +123,11 @@ If your project requires a linked issue, a semantic title, a signed commit, a te
 A review comment is a standard you enforce only when you are awake.
 A failing check is a standard that runs forever.
 
+**Gate at the trust boundary, before the diff.**
+The bluntest triage signal is whether you have any reason to trust the contributor at all, and in 2026 the canonical implementation of that idea is [mitchellh/vouch](https://github.com/mitchellh/vouch), built for the Ghostty terminal against a wave of AI slop.
+It auto-closes pull requests from unvouched contributors and routes them through a vouching issue, so the queue you actually read is the queue from people who have earned a hearing.
+It is a strong filter, and an honest one to use carefully: the cost is friction for legitimate newcomers, which is why the vouching path has to be a real door, not a wall.
+
 Each of these is a small automation, and none of them review code.
 Together they collapse the queue from "everything that arrived" to "everything that is ready, relevant, and sized."
 That is most of the battle, and it cost you zero hours of reading diffs.
@@ -128,6 +142,13 @@ If so, which model, and what was the prompt or task description?
 A checkbox and a free-text line are enough.
 You do not need a policy on whether AI contributions are welcome; you need the data to triage them on their actual risk rather than on a guess.
 
+This is no longer hypothetical.
+In 2026, [rust-lang wired an AI policy](https://github.com/rust-lang/rust-forge/pull/1040) into its contributing guide and pull request template, and it is not alone: scipy asks for the model name, qemu requires code provenance, Ghostty ships an AI_POLICY file, and the Linux kernel has long held the submitter responsible for attesting to AI-generated code.
+The convention is fragmenting into a field of per-project rules, which is messy, but the direction is clear, and the closest thing to a shared format, [declare-ai's provenance file](https://github.com/Declare-AI/declare-ai), is emerging for exactly this gap.
+The platform will not hand you this signal for free.
+GitHub has said on the record that it does not believe counting AI-generated pull requests is the right metric, which means the single most useful triage input is data the host is choosing not to collect.
+If you want it, you have to ask for it in the template.
+
 Label from the answer.
 `human-authored`, `ai-assisted`, `ai-generated`, and a tag for the model when it is disclosed.
 Now provenance becomes a filter and a routing input instead of a mystery.
@@ -138,6 +159,11 @@ Be explicit that disclosure is not a penalty.
 The penalty is discovery, when you eventually realize a PR was generated and the contributor hid it, because at that point the trust that makes open source work is gone and the PR is closed on principle.
 Disclosure is what lets a generated contribution compete for your attention on its merits.
 Concealment is what makes every generated contribution read as an attempt to slip something past you.
+
+One caution, because the obvious next step is to reach for cryptographic attestation: signed provenance is not the same as trustworthy provenance.
+In 2026, [cryptographically valid supply-chain attestations were produced for malicious packages](https://openssf.org/blog/2026/06/10/mini-shai-hulud-where-slsas-boundaries-fall/), which means a signature confirms a chain of custody, not that the code is safe.
+Demand disclosure, but verify the code on its own terms, not on the strength of the attestation alone.
+
 **A maintainer cannot triage what they cannot see, and in a queue full of plausible code, the origin of the code is the first thing they need to see.**
 
 ## Let the LLM Do the First Pass
@@ -147,6 +173,12 @@ That used to require a human, because reading a diff and reasoning about its con
 It is not anymore.
 **An LLM will not review a pull request as well as you would, but it will review it in seconds, on every pull request, at three in the morning, and it will produce a structured signal you can sort and filter on.**
 That is a different value than correctness, and for triage it is the value that matters.
+
+The 2026 evidence is now strong enough to separate the hype from the result.
+On the hype side, independent benchmarks are blunt about the ceiling: across eight frontier models, reviewers catch [only fifteen to thirty-one percent](https://arxiv.org/abs/2603.26130) of the issues humans flag, and adding more context makes them worse, not better, while the first independent cross-vendor ranking puts the best tool at an [F1 near fifty-one](https://www.coderabbit.ai/blog/coderabbit-tops-martian-code-review-benchmark).
+An LLM review is a noisy signal, and treating it as a verdict is the mistake.
+On the result side, the largest production deployment of the year [ran a hundred and thirty thousand review passes](https://blog.cloudflare.com/ai-code-review/) across five thousand repositories, and engineers reached for the human "break glass" override on six tenths of one percent of merge requests.
+That number is the point: the system ran unattended on the easy tier not because the model was a great reviewer, but because it was a great sorter, tiering by risk and handing a coordinator a structured finding to deduplicate and rank.
 
 Run an LLM review on every pull request when it opens and on every push that updates it.
 Give it your evaluation criteria, explicitly, the same checklist you would walk through mentally if you opened the diff yourself.
@@ -183,6 +215,12 @@ The deepest caution is specific to this era, and you have to internalize it befo
 **When an LLM reviews code that an LLM wrote, the reviewer shares the generator's blind spots.**
 Both are statistical models trained on overlapping corpora, and a mistake plausible enough for one model to make is often plausible enough for the other to overlook.
 Two models agreeing that "this looks fine" is a weaker signal than either model issuing that verdict alone, and if the reviewer and the generator come from the same model family the agreement proves almost nothing.
+
+In 2026 this stopped being a conjecture.
+Recursive self-training studies show that an AI reviewer gating its own output [collapses into a rubber-stamp regime](https://arxiv.org/abs/2606.28438), where acceptance scores rise while correctness falls, and that only model-independent checks, compilation, types, tests, slow the collapse without stopping it.
+The one direct measurement of the effect found that heterogeneous pairs, a Claude reviewer over Codex output, [flag a defect sixty-nine percent of the time](https://arxiv.org/abs/2606.14445), where homogeneous pairs flag it only fifty-three percent of the time.
+Same-family agreement is measurably weaker than cross-family agreement, which is the empirical form of the warning above.
+
 This is why provenance matters at the review layer as well: feed the disclosed model and prompt into the reviewer's context so it can target the failure modes that model is known for, rather than re-reading the diff through the same lens that produced it.
 And it is why, for `ai-generated` pull requests, you must discount the confidence score and default toward `needs-human-review` unless the change is independently verified by something that does not share the blind spot: a passing test, a type checker, a reproducible build, a specification the code is checked against.
 **The LLM review is one signal in the triage layer, never the only one, and against generated code its job is to surface hypotheses for a human or a gate to confirm, not to pronounce the code correct.**
@@ -201,6 +239,7 @@ Transparency is what keeps an automated review from feeling like a gatekeeping r
 ## Route by Risk, Not by Arrival
 
 Once the triage layer is producing labels, the routing writes itself, and it should match the risk profile of each change rather than the order it was submitted.
+The tiering is no longer theoretical: the production system cited above classifies every change into trivial, lite, or full tiers and [spends twenty cents of review on a typo fix](https://blog.cloudflare.com/ai-code-review/) where it spends a dollar sixty-eight on a sprawling one, because the gate a change deserves is a function of its blast radius, not its existence.
 
 Low risk, high confidence, small, passing tests: auto-merge on green, or batch them into a single weekly pass where you glance and click.
 High risk, or low confidence, or large, or crossing a security boundary: hold for human review, and review those first.
@@ -227,6 +266,11 @@ Publish a response-time norm, even an honest one: "I review pull requests on Thu
 State it, link it in every template, and let the automation reinforce it.
 **Predictability is a contribution, and a maintainer who responds every Thursday is more sustainable than one who responds in a burst and then disappears for three months.**
 
+The economics underneath this are shifting, slowly.
+The clearest 2026 voice on maintainer sustainability argues that the polite channels, sponsorship and pledge drives, have [failed](https://ossresistance.com/), and that maintainers should take open source work on company time rather than donate their evenings, because attention donated after hours is attention that does not scale.
+The funding is real but thin: sovereign and industry programs disbursed millions to individual projects this year, with a sovereign fund investing [over a million euros in a single project](https://www.theregister.com/oses/2026/05/14/kde-bags-13m-as-europe-realizes-it-might-need-an-os-of-its-own/5240562/) and the [open source pledge](https://opensourcepledge.com/) setting a two-thousand-dollar-per-engineer floor, yet no 2026 survey has measured whether maintainer burnout actually fell.
+Treat the automation and the expectations as the load-bearing structure, and the funding as the still-insufficient subsidy.
+
 And learn to close fast.
 A fast, clear "no, and here is why" is a gift.
 It respects the contributor's time, it keeps the queue honest, and it is almost always kinder than a silence that stretches into a year.
@@ -243,6 +287,7 @@ Add [actions/stale](https://github.com/actions/stale) and let it start closing t
 Add [eps1lon/actions-label-merge-conflict](https://github.com/eps1lon/actions-label-merge-conflict) and stop looking at diffs that are not ready to merge.
 Add a size labeler and a path-based labeler and make the queue sortable.
 Write the `CONTRIBUTING.md` you have been meaning to write, and add the two provenance fields, AI-assisted yes or no, and which model, to the pull request template, so every contribution arrives with the one piece of context this era hides by default.
+If the flood is mostly from contributors you have no reason to trust, add a trust gate like [vouch](https://github.com/mitchellh/vouch) before any of the rest, because closing unvouched pull requests up front is the single largest reduction in queue size available to you.
 
 Then, and only then, wire in the LLM first-pass review.
 Start it in shadow mode, posting its summary as a comment without applying any labels, and read along with it for a month.
@@ -269,3 +314,19 @@ Build that, one automation at a time, and the queue stops being the thing that o
 - [amannn/action-semantic-pull-request](https://github.com/amannn/actions-semantic-pull-request) - enforces conventional-commit-style pull request titles as a required check
 - [Wikipedia, "Theory of Constraints"](https://en.wikipedia.org/wiki/Theory_of_constraints) - Goldratt's framing for why you change the bottleneck station rather than adding effort at it, the basis for moving the maintainer out of the triage station
 - [Wikipedia, "Paved road"](https://en.wikipedia.org/wiki/Paved_road) - the principle of making the compliant path the easiest path, applied here to contributor conventions and templates
+- [GitHub, "Agent pull requests are everywhere"](https://github.blog/ai-and-ml/generative-ai/agent-pull-requests-are-everywhere-heres-how-to-review-them/) - the 2026 scale data (one in five reviews involve an agent; Copilot review at 60M+, 10x growth) and GitHub's own "judgment is the bottleneck" framing
+- [GitHub, "How pull request limits are cutting down the noise"](https://github.blog/open-source/maintainers/how-pull-request-limits-are-cutting-down-the-noise/) - the platform shipping per-user PR caps, archiving, and smarter bypass signals
+- [GitHub, "Welcome to the Eternal September of open source"](https://github.blog/open-source/maintainers/welcome-to-the-eternal-september-of-open-source-heres-what-we-plan-to-do-for-maintainers/) - the cost-to-create versus cost-to-review framing that motivates platform-level triage controls
+- [Cloudflare, "Orchestrating AI Code Review at scale"](https://blog.cloudflare.com/ai-code-review/) - the largest 2026 production dataset (131k runs, 0.6% break-glass) and the coordinator-plus-specialists-plus-risk-tiers reference architecture
+- [SWE-PRBench, "Benchmarking LLM-Driven Pull Request Review"](https://arxiv.org/abs/2603.26130) - the independent efficacy ceiling: eight frontier models catch 15-31% of human-flagged issues, and more context hurts
+- [Martian Code Review Bench, via CodeRabbit](https://www.coderabbit.ai/blog/coderabbit-tops-martian-code-review-benchmark) - the first independent cross-vendor ranking (~300k PRs, ten tools)
+- [Song et al., "When AI Reviews Its Own Code"](https://arxiv.org/abs/2606.28438) - the formal proof that AI self-gating collapses into a rubber-stamp regime, requiring exogenous verification
+- [Kim, "tap: A File-Based Protocol for Heterogeneous LLM Agent Collaboration"](https://arxiv.org/abs/2606.14445) - the direct measurement of the homologation effect (heterogeneous pairs flag defects 69.8% vs 53.1% for homogeneous)
+- ["More Code, Less Reuse" (MSR 2026)](https://arxiv.org/abs/2601.21276) - agent PRs carry more debt yet reviewers go easier on them
+- ["On Autopilot? Human-AI Teaming in OSS" (MSR 2026)](https://arxiv.org/abs/2601.13754) - most AI-coauthored PRs merge with no explicit review
+- ["Detecting AI Coding Agents in Open Source" (180M-repo census)](https://arxiv.org/abs/2606.24429) - bot-account detection recovers only ~3.3% of AI-agent commits
+- [mitchellh/vouch](https://github.com/mitchellh/vouch) - the canonical 2026 trust-before-the-diff gate, built for Ghostty
+- [rust-lang/rust-forge, "LLM policy" PR #1040](https://github.com/rust-lang/rust-forge/pull/1040) - a provenance policy wired into CONTRIBUTING.md and the PR template, with a prior-art index
+- [OpenSSF, "Mini Shai-Hulud: Where SLSA's Boundaries Fall"](https://openssf.org/blog/2026/06/10/mini-shai-hulud-where-slsas-boundaries-fall/) - signed provenance produced for malicious packages, the caveat against equating attestation with trust
+- [Declare-AI](https://github.com/Declare-AI/declare-ai) - the closest thing to an emerging machine-readable provenance standard
+- [Open Source Resistance](https://ossresistance.com/) - the 2026 argument that maintainer attention must be taken on company time, not donated after hours
