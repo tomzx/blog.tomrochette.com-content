@@ -91,10 +91,13 @@ The most consequential shift is that GitHub started shipping these gates at the 
 The stated rationale is the one this article rests on: the [cost to create a change has fallen below the cost to review it](https://github.blog/open-source/maintainers/welcome-to-the-eternal-september-of-open-source-heres-what-we-plan-to-do-for-maintainers/).
 When the host carries the load, your job narrows to the gates the platform cannot generalize.
 
-**Mark and close the stale.**
-A pull request that has had no activity for sixty days is not waiting for you.
+**Mark and close the stale, on a clock that forces a decision.**
+A pull request that has had no activity for twenty-eight days is not waiting for you.
 It is rotting, and rot is contagious, because a queue full of stale PRs signals to new contributors that nobody is home.
-[actions/stale](https://github.com/actions/stale) marks a pull request stale after a window you define, posts a warning, and closes it if the contributor does not respond.
+[actions/stale](https://github.com/actions/stale) marks a pull request stale after twenty-eight days, posts a warning, and closes it seven days later if the contributor does not respond.
+Twenty-eight is also the ceiling on a healthy open pull request, not just the stale timer.
+If a PR has been open more than twenty-eight days and is not merged, the right answer is almost never "keep waiting," it is one of two things: break it into smaller pieces that can each land on their own, or reject it.
+A large PR that lingers is usually a PR that was too big to review in the first place, dressed up as a PR that is waiting for a reply.
 This is not cruelty.
 Letting a contributor's work sit unread for a year is cruelty.
 A fast, automatic close with a clear "reopen if you are still interested" is a kindness, and it is a kindness that costs you nothing.
@@ -190,7 +193,7 @@ Are there tests for the new behavior?
 Does it match the naming and structural conventions of the surrounding code?
 
 Ask for the output as structured data, not prose.
-A risk score, a confidence score, a one-line summary, and a short list of specific findings.
+A risk score and a confidence score, say on a one-to-five scale, a one-line summary, and a short list of specific findings.
 Then parse those fields and turn them into labels.
 `risk:low`, `risk:medium`, `risk:high`.
 `confidence:high`, `confidence:low`.
@@ -202,6 +205,10 @@ The pull requests that are low-risk and high-confidence can be merged on green, 
 The pull requests that are high-risk, or where the model is uncertain, rise to the top of your attention with the findings already attached.
 **You are no longer choosing what to read.
 You are confirming or rejecting a hypothesis the triage layer has already formed.**
+
+Wire those scores back into the logistics layer, so a pull request that fails the review does not just sit and wait for you.
+When confidence drops below three or risk climbs above three, post a comment that tells the author the specific findings they need to address, and let the stale action treat that as the notice that starts the closing clock.
+The contributor gets a concrete path to merge instead of silence, and if they do not take it the pull request closes itself, decided by the standard you encoded rather than by your mood on a given Thursday.
 
 A few cautions, because this is the part people get wrong.
 
@@ -247,6 +254,9 @@ AI-generated with no model disclosed, or no linked issue, or no tests: default t
 First-time contributor: prioritize the response, because the speed of your first reply decides whether they come back.
 Conflicting: invisible until rebased.
 Stale: closed.
+
+Within the human-review queue, attack the oldest first.
+A pull request that has waited the longest is the one closest to going stale, and clearing it, by merging or by closing, is what keeps the queue from accumulating a tail that nobody will ever reach, so weight your attention toward age, not toward whatever happened to land on top today.
 
 This is the open source version of the argument from [The Merge Gate](../the-merge-gate/index.md): treating every pull request as needing the same gate is a failure to think about risk, and most pull requests do not need a human at all.
 **The maintainer who wins is not the one who reads the most diffs.
