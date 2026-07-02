@@ -24,7 +24,7 @@ The "writing code is over" camp takes the same observation and overruns with it.
 If production is automated, the argument goes, the developer's job becomes specification and orchestration, and the foundation the code runs on is somebody else's problem, probably the machine's.
 This is the AI-maxxing error applied to education, and it is the more dangerous of the two, because it feels like foresight while quietly removing the one capability that becomes scarcer and more valuable exactly as production gets cheap: the mental model of how the system actually behaves.
 
-Both camps make the same mistake the resistor and the maximalist make in [AI-Maxxing and Resistance Are the Same Mistake](/ai-maxxing-vs-fighting-against-it): they argue about how much low-level to use instead of asking what low-level is for.
+Both camps make the same mistake the resistor and the maximalist make in [AI-Maxxing and Resistance Are the Same Mistake](../ai-maxxing-vs-fighting-against-it/index.md): they argue about how much low-level to use instead of asking what low-level is for.
 The answer to that question dissolves the debate.
 
 ## What Low-Level Actually Teaches, and Why It Compounds
@@ -57,7 +57,7 @@ Everyone else files a ticket and waits.
 
 These four models are not production skills.
 They are not even, strictly, low-level skills.
-They are durable skills, in the sense [Keeping Up With AI Is a Losing Strategy](/keeping-up-with-ai) draws between the ephemeral and the durable: they do not decay across model generations, and they make every other thing you do, including supervising a model, more effective.
+They are durable skills, in the sense [Keeping Up With AI Is a Losing Strategy](../keeping-up-with-ai/index.md) draws between the ephemeral and the durable: they do not decay across model generations, and they make every other thing you do, including supervising a model, more effective.
 **That is the entire case for low-level in one sentence: it is the most efficient known way to build the models that do not depreciate.**
 
 ## Why "Writing Code Is Over" Is the Dangerous Half
@@ -72,7 +72,7 @@ When the generated code is failing in production at three in the morning, there 
 You can build a mental model with an LLM as a tutor, over time, the same way you can build one with a good textbook or a patient colleague; the tool is not the obstacle, the hours of deliberate study are.
 **What you cannot do is prompt one into existence under time pressure, and using the model to debug its own output already presupposes the very model it would take weeks to grow.**
 
-This is the [shifting bottleneck](/the-shifting-bottleneck) wearing its sharpest face.
+This is the [shifting bottleneck](../the-shifting-bottleneck/index.md) wearing its sharpest face.
 Production was the bottom of the stack, and automating it moved the constraint up to verification, and verification is precisely the layer that demands the foundation knowledge the "code is over" camp wants to skip.
 The preparation that says "we will not need this because writing is automated" is the preparation that makes you unable to do the job writing's automation created.
 You are optimizing away the exact layer the bottleneck landed on.
@@ -90,7 +90,7 @@ The struggle was the curriculum, and it was free, because it was simply the job.
 
 The tools have quietly removed the struggle, and with it, the curriculum.
 An engineer who starts today can ship a feature without ever reading the code the tool wrote, without ever opening a profiler, without ever needing to understand why the first version was slow, because the tool never produced a slow first version for them to fix.
-The onboarding path that used to build that underlying mental model now bypasses it, and the [onboarding paradox in Software Engineering Teams in the Age of AI](/software-engineering-teams-in-the-age-of-ai) is the downstream symptom: juniors ship faster and understand less, and the understanding gap is invisible until something breaks.
+The onboarding path that used to build that underlying mental model now bypasses it, and the [onboarding paradox in Software Engineering Teams in the Age of AI](../software-engineering-teams-in-the-age-of-ai/index.md) is the downstream symptom: juniors ship faster and understand less, and the understanding gap is invisible until something breaks.
 
 So the question is not whether to teach low-level.
 It is whether to teach it deliberately, because the accidental curriculum that used to teach it for free has been automated away.
@@ -102,7 +102,7 @@ The resolution is not a midpoint between the two camps.
 It is a different axis entirely.
 
 Stop teaching new developers to produce low-level code as if they would ship it.
-Manual memory management as a daily craft, pointer arithmetic as a drill, hand-rolled allocators as a rite of passage: these are depreciating production skills, and spending years on them is the [two-year test](/ai-maxxing-vs-fighting-against-it) failing in slow motion.
+Manual memory management as a daily craft, pointer arithmetic as a drill, hand-rolled allocators as a rite of passage: these are depreciating production skills, and spending years on them is the [two-year test](../ai-maxxing-vs-fighting-against-it/index.md) failing in slow motion.
 The surface area of low-level is large and mostly irrelevant to the work most developers will actually do, and Brooks's old split between [accidental and essential complexity](https://en.wikipedia.org/wiki/No_Silver_Bullet) still maps onto it cleanly: the syntax and the boilerplate are accidental, and the accident is exactly what the model now absorbs.
 
 Do teach them to read the foundation.
@@ -141,11 +141,11 @@ Prepare accordingly.**
 
 ## See also
 
-- [The Shifting Bottleneck](/the-shifting-bottleneck) - why automating production moves the constraint to verification, the exact layer where foundation knowledge becomes load-bearing
-- [AI-Maxxing and Resistance Are the Same Mistake](/ai-maxxing-vs-fighting-against-it) - the depreciating-versus-compounding two-year test this article applies to low-level skills, and the two-camps-one-error structure it borrows
-- [Keeping Up With AI Is a Losing Strategy](/keeping-up-with-ai) - the durable-versus-ephemeral distinction that frames why mental models compound while syntax decays
-- [Software Engineering Teams in the Age of AI](/software-engineering-teams-in-the-age-of-ai) - the onboarding paradox this article traces back to its root cause in the vanished struggle curriculum
-- [Bringing Everyone to the Same Level](/bringing-everyone-to-the-same-level) - how skills encode the describable process but cannot encode the foundation judgment this article argues we still have to teach by hand
+- [The Shifting Bottleneck](../the-shifting-bottleneck/index.md) - why automating production moves the constraint to verification, the exact layer where foundation knowledge becomes load-bearing
+- [AI-Maxxing and Resistance Are the Same Mistake](../ai-maxxing-vs-fighting-against-it/index.md) - the depreciating-versus-compounding two-year test this article applies to low-level skills, and the two-camps-one-error structure it borrows
+- [Keeping Up With AI Is a Losing Strategy](../keeping-up-with-ai/index.md) - the durable-versus-ephemeral distinction that frames why mental models compound while syntax decays
+- [Software Engineering Teams in the Age of AI](../software-engineering-teams-in-the-age-of-ai/index.md) - the onboarding paradox this article traces back to its root cause in the vanished struggle curriculum
+- [Bringing Everyone to the Same Level](../bringing-everyone-to-the-same-level/index.md) - how skills encode the describable process but cannot encode the foundation judgment this article argues we still have to teach by hand
 
 ## References
 

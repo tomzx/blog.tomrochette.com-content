@@ -7,7 +7,7 @@ tags: [python, productivity, developer-tools, desktop-app, fully-ai-generated, l
 readability: 4
 ---
 
-I've been using the [workstack](/workstack) concept for years to track what I'm working on and where I got interrupted.
+I've been using the [workstack](../workstack/index.md) concept for years to track what I'm working on and where I got interrupted.
 task-stack is the natural evolution: a small system tray app that keeps a persistent, reorderable stack of tasks always one hotkey away.
 
 The top of the stack is your current task.
@@ -96,4 +96,4 @@ Push the interruption on the stack, pop it when done, resume what you were doing
 
 ## Related
 
-- [Workstack](/workstack) — the original note-taking concept that inspired task-stack.
+- [Workstack](../workstack/index.md) — the original note-taking concept that inspired task-stack.

@@ -105,6 +105,6 @@ If you already use [gh-cached](../gh-cached/index.md) to browse issues without b
 ## See also
 
 - [gh-cached](../gh-cached/index.md) - browse GitHub issues and PRs from a local cache to avoid rate limits
-- [ghx](/ghx) - a CLI for the inline comment and review operations the `gh` CLI doesn't expose
+- [ghx](../ghx/index.md) - a CLI for the inline comment and review operations the `gh` CLI doesn't expose
 - [Triaging open source pull requests](../triaging-open-source-pull-requests/index.md) - the kind of high-volume review work github-board is built to visualize
 - [Backlog management best practices](../backlog-management-best-practices/index.md) - principles for keeping a backlog scannable that expression-driven boards make concrete

@@ -65,7 +65,7 @@ The AI-maxxer assumes judgment persists without exercise.
 It does not.
 **A mind that never decides what to build loses the ability to tell whether what was built is worth shipping, and no model substitutes for that loss, because using the model well already presupposes it.**
 
-This is the hole I pointed at in [The Shifting Bottleneck](/the-shifting-bottleneck): when you automate a layer, the bottleneck moves up to a more judgment-heavy layer, it does not disappear.
+This is the hole I pointed at in [The Shifting Bottleneck](../the-shifting-bottleneck/index.md): when you automate a layer, the bottleneck moves up to a more judgment-heavy layer, it does not disappear.
 The difference is that the bottleneck article described the move as something that happens to the system.
 AI-maxxing is what happens when you mistake the move for a disappearance, and convince yourself there is no bottleneck left worth staffing.
 
@@ -132,11 +132,11 @@ The AI-maxxer and the resistor are each certain they have found the answer, and 
 
 ## See also
 
-- [The Shifting Bottleneck](/the-shifting-bottleneck) - why automating a layer moves the bottleneck up to a more judgment-heavy layer rather than away, the mechanism that makes AI-maxxing hollow
-- [Keeping Up With AI Is a Losing Strategy](/keeping-up-with-ai) - the durable-versus-ephemeral distinction this article generalizes from information consumption to the whole of work
-- [Software Engineering Teams in the Age of AI](/software-engineering-teams-in-the-age-of-ai) - which friction is load-bearing and which is waste, the team-level version of the same allocation question
-- [The Codebase Gardener](/the-codebase-gardener) - defending durable standards while letting ephemeral ones go, a concrete instance of the selective-protection posture argued for here
-- [Scaling the LLM Agent Company](/scaling-the-llm-agent-company) - the near-limit of AI-maxxing at organizational scale, and what it still requires of human judgment
+- [The Shifting Bottleneck](../the-shifting-bottleneck/index.md) - why automating a layer moves the bottleneck up to a more judgment-heavy layer rather than away, the mechanism that makes AI-maxxing hollow
+- [Keeping Up With AI Is a Losing Strategy](../keeping-up-with-ai/index.md) - the durable-versus-ephemeral distinction this article generalizes from information consumption to the whole of work
+- [Software Engineering Teams in the Age of AI](../software-engineering-teams-in-the-age-of-ai/index.md) - which friction is load-bearing and which is waste, the team-level version of the same allocation question
+- [The Codebase Gardener](../the-codebase-gardener/index.md) - defending durable standards while letting ephemeral ones go, a concrete instance of the selective-protection posture argued for here
+- [Scaling the LLM Agent Company](../scaling-the-llm-agent-company/index.md) - the near-limit of AI-maxxing at organizational scale, and what it still requires of human judgment
 
 ## References
 

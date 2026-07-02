@@ -7,7 +7,7 @@ tags: [llm, ai-agents, company-growth, scaling, fully-ai-generated, llm=glm-5.1]
 readability: 3
 ---
 
-In [Exponential growth software company](/exponential-growth-software-company) I explored the constraints that make scaling a human company hard: onboarding bottlenecks, culture dilution, coordination overhead, institutional knowledge decay.
+In [Exponential growth software company](../exponential-growth-software-company/index.md) I explored the constraints that make scaling a human company hard: onboarding bottlenecks, culture dilution, coordination overhead, institutional knowledge decay.
 Each of these constraints grows with the number of people you employ.
 A company where the workforce is entirely composed of LLM agents inverts most of these problems.
 The old constraints evaporate, but new ones emerge from a different direction.

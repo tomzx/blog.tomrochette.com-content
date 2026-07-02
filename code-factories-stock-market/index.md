@@ -558,7 +558,7 @@ The market is open.
 
 ## See also
 
-- [Code Factories: The Factorio Perspective](/code-factories-factorio) — the same concept explored through Factorio metaphors
-- [Code Factories: The StarCraft Perspective](/code-factories-starcraft) — the same concept explored through StarCraft metaphors
-- [Code Factories: The World of Warcraft Perspective](/code-factories-wow) — the same concept explored through World of Warcraft metaphors
-- [Code Factories: The RollerCoaster Tycoon Perspective](/code-factories-rollercoaster-tycoon) — the same concept explored through RollerCoaster Tycoon metaphors
+- [Code Factories: The Factorio Perspective](../code-factories-factorio/index.md) — the same concept explored through Factorio metaphors
+- [Code Factories: The StarCraft Perspective](../code-factories-starcraft/index.md) — the same concept explored through StarCraft metaphors
+- [Code Factories: The World of Warcraft Perspective](../code-factories-wow/index.md) — the same concept explored through World of Warcraft metaphors
+- [Code Factories: The RollerCoaster Tycoon Perspective](../code-factories-rollercoaster-tycoon/index.md) — the same concept explored through RollerCoaster Tycoon metaphors

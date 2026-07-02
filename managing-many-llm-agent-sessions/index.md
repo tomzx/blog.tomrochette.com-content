@@ -53,7 +53,7 @@ If it is not written down, it is consuming working memory.
 Every agent session should produce a machine-readable and human-readable state file that captures its current status, goal, progress, blockers, and next steps.
 When you return to a session after an hour or a day, you read the file, not your memory.
 The file is the single source of truth.
-This is the agent equivalent of the [workstack](/workstack) concept applied at scale.
+This is the agent equivalent of the [workstack](../workstack/index.md) concept applied at scale.
 
 **Use structured status summaries.**
 The state file should follow a consistent template across all sessions.
@@ -166,7 +166,7 @@ The most effective way to manage many agents is to not manage them all directly.
 Instead of you supervising 20 worker agents, have 4 orchestrator agents each supervise 5 workers.
 You interact only with the orchestrators, who aggregate and summarize their workers' status.
 This reduces your direct interaction count by a factor of 5 and lets you operate within your working memory limit.
-This mirrors the pattern described in [Scaling the LLM Agent Company](/scaling-the-llm-agent-company), where the orchestration layer replaces the human management layer.
+This mirrors the pattern described in [Scaling the LLM Agent Company](../scaling-the-llm-agent-company/index.md), where the orchestration layer replaces the human management layer.
 
 **Fan-out and fan-in.**
 Give an orchestrator a single high-level task.
@@ -323,7 +323,7 @@ The easiest session to manage is the one you never needed to start.
 A well-specified task runs autonomously and produces fewer questions.
 A vaguely specified task generates constant clarifying questions, each of which is a context switch.
 Investing in specification quality before launching a session pays dividends throughout the session's lifetime.
-This is the same principle described in [The Importance of Context When Interacting with LLMs](/the-importance-of-context-when-interacting-with-llms): the quality of the context determines the quality of the output.
+This is the same principle described in [The Importance of Context When Interacting with LLMs](../the-importance-of-context-when-interacting-with-llms/index.md): the quality of the context determines the quality of the output.
 
 **Merge related tasks.**
 If two tasks touch the same code or the same domain, combine them into one session instead of running two.
@@ -332,7 +332,7 @@ One session managing a coherent area is easier to track than two sessions with o
 **Eliminate unnecessary sessions.**
 Before launching a new session, ask whether the task is worth the supervision overhead.
 Some tasks are faster to do yourself than to delegate to an agent and then supervise.
-The [shifting bottleneck](/the-shifting-bottleneck) principle applies: as agent supervision becomes the bottleneck, the optimal strategy shifts from spawning more agents to being more selective about which tasks to delegate.
+The [shifting bottleneck](../the-shifting-bottleneck/index.md) principle applies: as agent supervision becomes the bottleneck, the optimal strategy shifts from spawning more agents to being more selective about which tasks to delegate.
 
 **Pre-compute common answers.**
 If you find yourself answering the same type of question across multiple sessions, encode the answer once in a shared resource that all sessions can access.
@@ -364,7 +364,7 @@ The goal is not to find the perfect system on day one but to get a little better
 **Share patterns across teams.**
 If multiple people in your organization supervise agent sessions, share what works.
 The patterns that reduce cognitive load for one person will likely help others.
-This is the same knowledge-sharing principle that makes [software engineering teams](/software-engineering-teams-in-the-age-of-ai) effective: institutional knowledge compounds when it is explicit and shared.
+This is the same knowledge-sharing principle that makes [software engineering teams](../software-engineering-teams-in-the-age-of-ai/index.md) effective: institutional knowledge compounds when it is explicit and shared.
 
 ## The Ceiling: How Many Can You Actually Manage?
 
@@ -383,7 +383,7 @@ With AI-assisted triage, tight escalation thresholds, and well-specified tasks, 
 At this scale, you are no longer managing individual sessions.
 You are managing a system that manages sessions.
 
-The progression mirrors the [task-stack](/task-stack) philosophy: you push interruptions onto a stack, handle them in batches, and pop them off when done.
+The progression mirrors the [task-stack](../task-stack/index.md) philosophy: you push interruptions onto a stack, handle them in batches, and pop them off when done.
 The difference is that the stack now contains not just your own tasks but the states of dozens of autonomous workers, and the stack is externalized rather than in your head.
 
 ## The Meta-Principle
@@ -408,8 +408,8 @@ Every hour you spend engineering the workflow around your own cognitive limits i
 - [Zeigarnik effect](https://en.wikipedia.org/wiki/Zeigarnik_effect) -- explains attention residue from unfinished tasks, a core problem when many sessions run concurrently
 - [Decision fatigue](https://en.wikipedia.org/wiki/Decision_fatigue) -- describes how decision quality degrades over a session, relevant to supervising many agents
 - [Chunking (psychology)](https://en.wikipedia.org/wiki/Chunking_(psychology)) -- the memory technique that enables grouping sessions into manageable clusters
-- [Scaling the LLM Agent Company](/scaling-the-llm-agent-company) -- established the orchestration layer as the replacement for human management in agent systems
-- [The Importance of Context When Interacting with LLMs](/the-importance-of-context-when-interacting-with-llms) -- established that specification quality determines agent autonomy, reducing the need for human intervention
-- [The Shifting Bottleneck](/the-shifting-bottleneck) -- established the pattern of bottlenecks moving up the decision chain, applicable to the human supervisor as the new bottleneck
-- [Workstack](/workstack) -- the note-taking concept that externalizes task state, the basis for session state files
-- [Task-stack](/task-stack) -- the persistent task tracking tool that models the push/pop pattern for interruptions
+- [Scaling the LLM Agent Company](../scaling-the-llm-agent-company/index.md) -- established the orchestration layer as the replacement for human management in agent systems
+- [The Importance of Context When Interacting with LLMs](../the-importance-of-context-when-interacting-with-llms/index.md) -- established that specification quality determines agent autonomy, reducing the need for human intervention
+- [The Shifting Bottleneck](../the-shifting-bottleneck/index.md) -- established the pattern of bottlenecks moving up the decision chain, applicable to the human supervisor as the new bottleneck
+- [Workstack](../workstack/index.md) -- the note-taking concept that externalizes task state, the basis for session state files
+- [Task-stack](../task-stack/index.md) -- the persistent task tracking tool that models the push/pop pattern for interruptions

@@ -300,8 +300,8 @@ The factory must grow.
 
 ## See also
 
-- [Code Factories: The StarCraft Perspective](/code-factories-starcraft) — the same concept explored through StarCraft metaphors
-- [Code Factories: The World of Warcraft Perspective](/code-factories-wow) — the same concept explored through World of Warcraft metaphors
-- [Code Factories: The Stock Market Perspective](/code-factories-stock-market) — the same concept explored through stock market metaphors
-- [Code Factories: The RollerCoaster Tycoon Perspective](/code-factories-rollercoaster-tycoon) — the same concept explored through RollerCoaster Tycoon metaphors
+- [Code Factories: The StarCraft Perspective](../code-factories-starcraft/index.md) — the same concept explored through StarCraft metaphors
+- [Code Factories: The World of Warcraft Perspective](../code-factories-wow/index.md) — the same concept explored through World of Warcraft metaphors
+- [Code Factories: The Stock Market Perspective](../code-factories-stock-market/index.md) — the same concept explored through stock market metaphors
+- [Code Factories: The RollerCoaster Tycoon Perspective](../code-factories-rollercoaster-tycoon/index.md) — the same concept explored through RollerCoaster Tycoon metaphors
 

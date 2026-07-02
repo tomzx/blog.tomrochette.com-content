@@ -75,7 +75,7 @@ At the bottom, read the few items that survive, deeply.
 Most items should die at the top of the funnel, never reaching your full attention.
 **The goal of a funnel is to throw almost everything away, confidently and without guilt.**
 
-This is the same principle behind supervising many agents at once: you cannot hold it all in working memory, so you externalize state, standardize summaries, and let most of the system run without your involvement (see [Managing Many Concurrent LLM Agent Sessions](/managing-many-llm-agent-sessions)).
+This is the same principle behind supervising many agents at once: you cannot hold it all in working memory, so you externalize state, standardize summaries, and let most of the system run without your involvement (see [Managing Many Concurrent LLM Agent Sessions](../managing-many-llm-agent-sessions/index.md)).
 
 ## Use AI to Compress the Stream to Your Bandwidth
 
@@ -129,7 +129,7 @@ The second is a hostage to it.
 
 ## The Bottleneck Moves, Again
 
-The deeper pattern is the one described in [The Shifting Bottleneck](/the-shifting-bottleneck).
+The deeper pattern is the one described in [The Shifting Bottleneck](../the-shifting-bottleneck/index.md).
 When code generation stopped being the bottleneck, review became it.
 When review is automated, specification and judgment become it.
 
@@ -154,9 +154,9 @@ You will miss things.
 
 ## See also
 
-- [The Shifting Bottleneck](/the-shifting-bottleneck) - the same constraint-moving pattern applied to the development pipeline; this article extends it to information consumption
-- [Managing Many Concurrent LLM Agent Sessions](/managing-many-llm-agent-sessions) - the cognitive-limit strategies (externalize state, funnel, batch) that a good reading filter reuses
-- [Software Engineering Teams in the Age of AI](/software-engineering-teams-in-the-age-of-ai) - how teams, not just individuals, absorb rapid AI-driven change
+- [The Shifting Bottleneck](../the-shifting-bottleneck/index.md) - the same constraint-moving pattern applied to the development pipeline; this article extends it to information consumption
+- [Managing Many Concurrent LLM Agent Sessions](../managing-many-llm-agent-sessions/index.md) - the cognitive-limit strategies (externalize state, funnel, batch) that a good reading filter reuses
+- [Software Engineering Teams in the Age of AI](../software-engineering-teams-in-the-age-of-ai/index.md) - how teams, not just individuals, absorb rapid AI-driven change
 
 ## References
 

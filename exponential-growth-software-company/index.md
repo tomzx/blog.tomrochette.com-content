@@ -23,4 +23,4 @@ The process of onboarding should be optimized as much as possible.
 
 Anything that requires human power to scale linearly or superlinearly with itself needs to be optimized so that it grows sublinearly.
 
-*Follow-up: [Scaling the LLM Agent Company](/scaling-the-llm-agent-company) explores how these constraints change when the workforce is entirely composed of LLM agents.*
+*Follow-up: [Scaling the LLM Agent Company](../scaling-the-llm-agent-company/index.md) explores how these constraints change when the workforce is entirely composed of LLM agents.*
