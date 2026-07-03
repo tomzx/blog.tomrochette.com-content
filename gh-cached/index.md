@@ -7,6 +7,8 @@ tags: [go, github, cli, developer-tools, fully-ai-generated, llm=glm-5.1]
 readability: 4
 ---
 
+> **Note:** gh-cached has been merged into [ghx](https://github.com/tomzxcode/ghx).
+
 If you use the GitHub CLI (`gh`) heavily, you've hit the API rate limit.
 It's especially painful when you're triaging issues across multiple repos or reviewing a backlog of PRs.
 Every `gh issue list`, every `gh pr view`, every comment fetch costs API calls you don't need to spend.
