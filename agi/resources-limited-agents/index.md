@@ -8,6 +8,12 @@ readability: 3
 
 ## Context
 
+Any agent that acts in the real world does so with finite resources: finite time to decide, finite memory to store what it knows, finite energy to power its computation, and finite bandwidth to communicate.
+Classical models of rational agency often assume these resources are effectively unlimited, treating the agent as an idealised optimiser that can search the entire space of possibilities and recall every relevant fact.
+This assumption breaks down immediately in practice.
+The study of resource-limited agents asks a different question: given that an agent's resources are bounded, how should it allocate them to behave as well as possible?
+This reframing, sometimes called bounded rationality or computational rationality, treats the agent's own limitations as a first-class part of the problem rather than an inconvenient detail to be engineered away [^simon1955] [^gershman2015].
+
 ## Learned in this study
 
 ## Things to explore
@@ -43,6 +49,9 @@ This creates a third trade-off axis where an agent may choose less energy-intens
 An agent may need to compress, summarize, or prioritize which observations to transmit.
 - **Attention**: Related to but distinct from time, attention refers to the number of concurrent processes or inputs an agent can monitor.
 Even with abundant time, an agent may only track a limited number of streams simultaneously, requiring selective attention mechanisms.
+- **Sample efficiency (data)**: Experience itself is a resource.
+Each interaction with the environment costs time, risk, or money to obtain, and in many settings the agent cannot simply generate more data on demand.
+An agent that can extract more knowledge from each observation is sample-efficient, and sample efficiency often matters more than raw compute when data is expensive or dangerous to collect.
 
 ## Time-limited strategies
 
@@ -94,6 +103,13 @@ For instance, an agent might weight importance by recency decay, keeping both im
 
 Naively overwriting old knowledge with new knowledge can lead to catastrophic interference, where learning new information destroys previously learned knowledge [^mccloskey1989].
 Strategies such as elastic weight consolidation can mitigate this by protecting parameters deemed important for previously learned tasks [^kirkpatrick2017].
+
+The question of *when* to forget, not just what, matters as much as the selection rule.
+Human memory does not decay linearly: retention follows a roughly exponential forgetting curve, and each successful retrieval flattens that curve so the item is forgotten more slowly next time [^ebbinghaus1885].
+This suggests a principled forgetting schedule for an agent: refresh an item just before it would otherwise be lost, spacing refreshes further apart as the item becomes more durable.
+Different kinds of knowledge warrant different schedules.
+Stable, frequently reused regularities (physical constants, core skills) should decay slowly or be consolidated into permanent structure, while volatile, situation-specific facts (the current position of a moving object) can be allowed to decay quickly once they stop being predictive.
+An agent that matches an item's forgetting rate to its expected future relevance keeps its scarce memory populated with what it is most likely to need.
 
 ### Compression and abstraction
 
@@ -222,6 +238,35 @@ Rather than attending to all available inputs equally, the agent selects inputs 
 This is efficient when the agent has clear goals, but risks missing important information outside the current goal scope.
 A robust agent balances goal-driven attention with a background process that monitors for unexpected but important events.
 
+## Sample-limited strategies
+
+When experience is expensive, the constraint is not how fast the agent computes or how much it can store, but how much it can learn per interaction.
+An agent that must pay for every observation, or that operates where mistakes are costly or irreversible, needs to squeeze maximum information from minimal data.
+
+### Priors and inductive bias
+
+Strong prior assumptions let an agent generalise from few examples by ruling out hypotheses that are logically possible but a priori unlikely.
+The more structure the agent assumes about its world, the less data it needs to identify the right model, at the risk of being badly wrong when the assumptions do not hold.
+This is the bias-variance trade-off viewed through the lens of data cost.
+
+### Active learning and directed experimentation
+
+Rather than passively accepting whatever observations arrive, a sample-limited agent chooses which observations to acquire.
+It directs its limited sampling budget toward the experiments expected to be most informative, for example toward regions of the state space where its uncertainty is highest.
+This turns data collection into a decision problem in its own right, closely related to the meta-reasoning discussed below.
+
+### Reuse and transfer
+
+Knowledge acquired in one task can reduce the data needed to learn another.
+Transfer learning, where the agent reuses representations or skills learned elsewhere, effectively amortises the cost of data across many problems.
+An agent that maintains a library of reusable skills pays the sampling cost once and draws on it repeatedly.
+
+### Simulation and imagination
+
+When real experience is costly but a model of the environment is available, the agent can generate synthetic experience by simulating outcomes internally.
+This substitutes cheaper computation for expensive real-world sampling, though only to the extent that the internal model is accurate.
+An agent that learns a model of its world and then plans or practises against that model trades compute (which it may have in surplus) for data (which it does not).
+
 ## Time-space tradeoffs
 
 The classic computer science insight that time and space can often be exchanged applies to agents:
@@ -251,6 +296,48 @@ For example, selecting between a fast heuristic and a slow deliberative approach
 Meta-reasoning itself consumes resources, creating the danger of infinite regress.
 Practical agents use fixed or learned meta-strategies that are cheap to execute.
 
+## Acquiring versus refining knowledge
+
+A resource-limited agent constantly faces a choice between two uses of its budget: acquiring new knowledge it does not yet have, or refining and consolidating knowledge it already holds.
+This is the exploration-exploitation trade-off familiar from reinforcement learning and the multi-armed bandit problem [^sutton2018] [^bubeck2012].
+Exploring costs resources now for information that may pay off later; exploiting spends resources deepening what already works.
+
+The right balance shifts over an agent's lifetime and with its circumstances.
+Early on, or after a major change in the environment, the agent's models are poor and the marginal value of new information is high, favouring acquisition.
+As its models mature and the environment stabilises, the marginal value of yet more raw information falls, and refining existing knowledge (compressing it, indexing it, correcting its errors) yields more.
+A useful heuristic is to acquire aggressively when uncertainty is high and the cost of a mistake is low, and to shift toward refinement as uncertainty falls and the agent's knowledge begins to be relied upon.
+
+The two are not strictly opposed.
+Refinement can reveal gaps that direct future acquisition, and acquisition provides the raw material that refinement compresses.
+An agent that never refines drowns in unconsolidated experience it cannot use; an agent that never acquires slowly becomes obsolete as the world drifts away from its stored model.
+
+## Failure modes and pathologies
+
+Resource-aware machinery can misfire, and the failure modes are instructive because they show what the strategies above are protecting against.
+
+- **Thrashing**: When a resource is oversubscribed, an agent can spend most of its budget managing the shortage rather than doing useful work, as when a memory-limited agent evicts and re-fetches the same items repeatedly, or a meta-reasoner spends more time deciding how to allocate time than it saves.
+- **Premature convergence**: An agent that cuts deliberation too short or forgets too aggressively may lock onto a poor answer and never discover a better one, mistaking the cheapest available conclusion for the best one.
+- **Resource starvation and priority inversion**: When several tasks compete, a low-priority task holding a scarce resource can block a high-priority one, so that the agent's overall behaviour degrades even though each component behaves locally sensibly.
+- **Approximation drift**: Cheap heuristics accumulate systematic bias, and an agent that never checks its approximations against ground truth can drift steadily away from reality without any single step looking wrong.
+- **Meta-reasoning regress**: Reasoning about how to spend resources itself consumes resources, and an agent that takes this too seriously can disappear into deliberating about deliberating, which is why practical agents cap meta-reasoning with fixed or learned budgets.
+
+Robust resource management is largely about detecting and damping these pathologies: noticing thrashing and backing off, injecting occasional exploration to escape premature convergence, and bounding meta-level reasoning so it cannot dominate.
+
+## Lessons from biological and natural systems
+
+Biological systems are the oldest and most thoroughly tested resource-limited agents, and they solve these problems under constraints far tighter than most engineered systems face.
+
+The human brain runs on roughly twenty watts, comparable to a dim light bulb, yet supports perception, memory, and reasoning that still exceed artificial systems on many tasks [^attwell2001].
+It achieves this through aggressive energy economy: neural codes are sparse, so few neurons fire at once; signalling is largely predictive, so the brain transmits departures from expectation rather than raw input; and representations are reused across tasks rather than duplicated [^sterling2015].
+These are the same strategies (sparse activation, event-driven communication, shared abstraction) that recur throughout this article, arrived at independently by evolution.
+
+Social insects such as ant and bee colonies solve resource-allocation problems with no central controller and with individuals of very limited capability [^gordon2010].
+Foragers are recruited to food sources through simple local interaction rules, and the colony as a whole shifts effort between tasks in response to demand without any single ant representing the global state.
+This is a striking demonstration that sophisticated resource allocation can emerge from many cheap agents following local rules, an existence proof for the resource-limited multi-agent systems discussed below.
+
+The immune system offers a third model: a distributed memory that retains a compressed record of past threats, forgets what it no longer encounters, and reallocates resources rapidly when a new threat appears.
+Across all three, the common thread is that biology treats resource limitation not as a defect to be overcome but as the very pressure that shapes efficient design.
+
 ## Resource constraints as a driver of intelligence
 
 An intriguing possibility is that resource constraints do not merely limit intelligence but actively shape and improve it [^lieder2020].
@@ -265,6 +352,12 @@ These are precisely the hallmarks of intelligent behavior.
 An agent with unlimited resources might simply store all experiences and brute-force all computations, never needing to develop the abstractions and heuristics that constitute understanding.
 Resource constraints may be not just a practical limitation but a necessary condition for the emergence of intelligence.
 
+There is also a robustness argument, distinct from the efficiency one.
+An agent that has been forced to compress its experience into general rules degrades gracefully when it meets a situation it has never seen before, because it can fall back on those rules.
+An agent that memorised every case individually has nothing to apply when the exact case is absent.
+Constraints push an agent toward representations that interpolate and extrapolate rather than merely recall, and such representations tend to generalise better and fail more gracefully.
+In this sense resource limitation acts as a regulariser: by forbidding the agent from simply storing everything, it forces the kind of lossy, structured representation that survives contact with novelty.
+
 ## Resource-limited multi-agent systems
 
 When multiple resource-limited agents collaborate, new dynamics emerge:
@@ -277,6 +370,22 @@ This requires communication protocols and trust mechanisms.
 - **Collective memory**: The group can maintain distributed knowledge that no single agent could store, with each agent holding a partial but overlapping subset.
 
 The challenge is coordination overhead: the communication and negotiation required to coordinate multiple agents itself consumes resources, and poorly designed coordination can consume more resources than it saves.
+
+## Resource limits in contemporary LLM agents
+
+The abstractions above are not only about future AGI or biological brains; they describe the concrete constraints that shape today's large language model agents.
+The mapping is direct.
+
+- The **context window** is the agent's working memory, and it is strictly space-limited.
+Everything the agent can attend to at once (its instructions, retrieved documents, conversation history, and intermediate reasoning) must fit within it, which forces exactly the prioritisation, compression, and externalisation strategies described earlier.
+Retrieval-augmented generation is externalisation; summarising a long conversation into a compact running note is compression; deciding what to keep in context is knowledge prioritisation ([the importance of context when interacting with LLMs](../../the-importance-of-context-when-interacting-with-llms/index.md)).
+- **Tokens and latency** are the time budget.
+Generating more tokens of reasoning improves answers up to a point but costs wall-clock time and money, so an agent operating under a deadline must decide how much to deliberate, a direct instance of anytime computation and bounded rationality.
+- **API cost** is the energy budget: irreversible, metered per operation, and worth spending only where the expected value justifies it, which motivates cascades of cheap checks before expensive model calls.
+- **Tool-call and step budgets** limit how many external actions an agent may take, making selective, high-value action essential rather than exhaustive exploration.
+
+Seen this way, much of the practical craft of building effective LLM agents (context management, retrieval, prompt compression, routing between cheap and expensive models, step limits) is applied resource-limited agent design.
+The theory in this article is not speculative for these systems; it is their daily engineering reality.
 
 ## Implications for AGI design
 
@@ -295,9 +404,11 @@ Systems that assume unlimited resources will fail when deployed in the real worl
 - [Compression](../compression/index.md)
 - [Memory](../memory/index.md)
 - [Intelligence](../intelligence/index.md)
+- [The importance of context when interacting with LLMs](../../the-importance-of-context-when-interacting-with-llms/index.md)
 
 # References
 
+[^ebbinghaus1885]: Ebbinghaus, H. (1885). [Memory: A Contribution to Experimental Psychology](https://psychclassics.yorku.ca/Ebbinghaus/index.htm). Translated 1913.
 [^simon1955]: Simon, H. A. (1955). [A behavioral model of rational choice](https://www.semanticscholar.org/paper/d8237600841361f7811f5fd9effaed9d2e6e34b0). *Quarterly Journal of Economics*.
 [^simon1956]: Simon, H. A. (1956). [Rational choice and the structure of the environment](https://www.semanticscholar.org/paper/23a94ce42fe0d50f5c993f34d4c9602f8aeac507). *Psychological Review*.
 [^horvitz1988]: Horvitz, E. J. (1988). [Reasoning about beliefs and actions under computational resource constraints](https://www.semanticscholar.org/paper/da6231ac3da628e748d407c3842bc06b32433ab6). *Uncertainty in AI*.
@@ -312,3 +423,8 @@ Systems that assume unlimited resources will fail when deployed in the real worl
 [^gershman2015]: Gershman, S. J., Horvitz, E. J., & Tenenbaum, J. B. (2015). [Computational rationality: A converging paradigm for intelligence in brains, minds, and machines](https://www.semanticscholar.org/paper/afbb25c4346f9a9b75ba5cb751d47845a4a5b584). *Science*.
 [^kirkpatrick2017]: Kirkpatrick, J., et al. (2017). [Overcoming catastrophic forgetting in neural networks](https://www.semanticscholar.org/paper/2e55ba6c97ce5eb55abd959909403fe8da7e9fe9). *PNAS*.
 [^lieder2020]: Lieder, F., & Griffiths, T. L. (2020). [Resource-rational analysis: Understanding human cognition as the optimal use of limited computational resources](https://doi.org/10.1017/S0140525X19000674). *Behavioral and Brain Sciences*.
+[^attwell2001]: Attwell, D., & Laughlin, S. B. (2001). [An energy budget for signaling in the grey matter of the brain](https://doi.org/10.1097/00004647-200110000-00001). *Journal of Cerebral Blood Flow & Metabolism*.
+[^sterling2015]: Sterling, P., & Laughlin, S. (2015). [Principles of Neural Design](https://mitpress.mit.edu/9780262534680/). MIT Press.
+[^gordon2010]: Gordon, D. M. (2010). [Ant Encounters: Interaction Networks and Colony Behavior](https://press.princeton.edu/books/paperback/9780691138794/ant-encounters). Princeton University Press.
+[^sutton2018]: Sutton, R. S., & Barto, A. G. (2018). [Reinforcement Learning: An Introduction](http://incompleteideas.net/book/the-book-2nd.html) (2nd ed.). MIT Press.
+[^bubeck2012]: Bubeck, S., & Cesa-Bianchi, N. (2012). [Regret analysis of stochastic and nonstochastic multi-armed bandit problems](https://doi.org/10.1561/2200000024). *Foundations and Trends in Machine Learning*.
