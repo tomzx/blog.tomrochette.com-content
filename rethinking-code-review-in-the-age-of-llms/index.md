@@ -242,7 +242,7 @@ The skills that implement this workflow are [publicly available](https://github.
 The first objection is accountability.
 If no human reads the code before it ships, who owns the problems it creates?
 
-The honest answer is that a human reviewing a pull request for ten minutes was never truly responsible for that code.
+The real answer is that a human reviewing a pull request for ten minutes was never truly responsible for that code.
 They provided a rubber stamp.
 They glanced at the diff, checked that the tests passed, and clicked approve.
 When that code caused an outage six months later, nobody blamed the reviewer.
@@ -274,7 +274,7 @@ The person who wrote the specification owns whether the implementation matches i
 The person who designed the deployment pipeline owns how quickly a bad change can be contained.
 
 Removing human review does not remove responsibility.
-It forces you to locate responsibility where it actually belongs: in the decisions that shaped the work, not in the person who scanned it at the end.
+It forces you to locate responsibility where it actually belongs: in the decisions that guided the work, not in the person who scanned it at the end.
 
 ## What About Outages
 
@@ -284,7 +284,7 @@ What if the LLM makes a decision that takes down production?
 **This is a real risk, but code review is the wrong tool to mitigate it.**
 
 Most production outages are not caused by bugs that a reviewer would catch.
-They are caused by configuration changes, unexpected data shapes, load patterns, dependency failures, and integration issues that only surface under real traffic.
+They are caused by configuration changes, unexpected data formats, load patterns, dependency failures, and integration issues that only surface under real traffic.
 A human reading a diff is making a guess about what might happen.
 Production behavior is the ground truth.
 

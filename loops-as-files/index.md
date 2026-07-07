@@ -19,7 +19,7 @@ That leaves the most experienced agent in your system doing nothing until you re
 It also leaves every event in your environment, the issue that was just opened, the Slack thread that just heated up, the dependency that just shipped a security patch, waiting for a human to notice and forward it to the right skill.
 The human has become the cron.
 
-The fix is the same shape as the fix for the variance problem in [Bringing Everyone to the Same Level](../bringing-everyone-to-the-same-level/index.md): take the invisible process out of someone's head and make it a file.
+The fix is the same form as the fix for the variance problem in [Bringing Everyone to the Same Level](../bringing-everyone-to-the-same-level/index.md): take the invisible process out of someone's head and make it a file.
 Except the process to extract now is not "how do I triage an issue," it is "when do I triage issues, and what triggers that decision."
 That belongs in a file too, and that file is a loop.
 
@@ -140,11 +140,11 @@ on:
       value: 0.01
 ```
 
-The shape is the same in every case: a typed event source, an optional scope, and an optional filter expression.
+The pattern is the same in every case: a typed event source, an optional scope, and an optional filter expression.
 The types themselves are namespaced by source (`github.*`, `slack.*`, `file.*`, `metric.*`) so that adding a new integration is additive rather than a schema change.
 
 A single loop can declare multiple events, and the runtime treats them as a logical OR.
-That covers the common case of "I want this skill to fire on a cron *and* when a human pokes it," which is exactly the shape of most operational loops.
+That covers the common case of "I want this skill to fire on a cron *and* when a human pokes it," which is exactly the pattern of most operational loops.
 
 ### Webhooks
 
@@ -205,7 +205,7 @@ The body of a loop is typically a short sequence of skill invocations, with just
 Three skills, one paragraph of orchestration, fully readable.
 The logic that is hard (what counts as a high-severity vulnerability, how to phrase an issue, who the on-call is) lives in the skills it invokes, where it can be improved independently, tested independently, and reused from other loops.
 
-This also keeps the loop file honest about its job.
+This also keeps the loop file faithful to its job.
 A loop file that grows past a screen of text is probably doing the work of a skill and should be split.
 The same length discipline that keeps skills effective, which I borrowed from the "lost in the middle" argument in [Bringing Everyone to the Same Level](../bringing-everyone-to-the-same-level/index.md), applies to loops.
 If the runtime has to parse a long preamble before it even reaches the trigger, the trigger is no longer the contract.
@@ -249,7 +249,7 @@ The webhook will be retried.
 The runtime must be willing to run the same loop with the same inputs twice and treat the second run as a no-op, which means the skills it invokes must be idempotent, which is a property worth designing into skills whether they are loop-driven or not.
 
 **Per-run state.**
-Every run writes a state file, in the same shape I described in [Managing Many Concurrent LLM Agent Sessions](../managing-many-llm-agent-sessions/index.md): what fired, what ran, what it produced, what it cost, what it will do next time.
+Every run writes a state file, in the same form I described in [Managing Many Concurrent LLM Agent Sessions](../managing-many-llm-agent-sessions/index.md): what fired, what ran, what it produced, what it cost, what it will do next time.
 Without this, debugging a misbehaving loop is reading logs, and reading logs is what we used to do before we had files.
 
 **A kill switch.**
@@ -269,7 +269,7 @@ This is the cheapest possible way to debug a trigger filter, and it should exist
 Loops inherit the failure modes of any autonomous system and add two of their own.
 
 **Drift toward the measurable.**
-A loop that fires on `github.issues.opened` will, over time, optimize the project for issue-shaped signals, because those are the signals that cause work to happen.
+A loop that fires on `github.issues.opened` will, over time, optimize the project for issue-driven signals, because those are the signals that cause work to happen.
 The project stops reacting to anything that does not show up as an event the loop can see.
 This is Goodhart's law applied to ops automation, and the defense is the same as in the self-evolving repository: keep a human-edited roadmap, and reserve a small number of loops for periodic "what should we be working on" reflection that is not event-driven.
 
@@ -279,7 +279,7 @@ Two loops that both touch the same issue tracker, both with their own opinions a
 The runtime needs loop-level isolation (separate working directories, separate state files, separate rate limits) and a registry that makes it easy to answer "which loops currently fire on this event," the same way a codebase makes it easy to answer "which tests currently exercise this function."
 
 **Trigger rot.**
-A loop that worked when it was written will silently stop working when the thing it triggers on changes shape, the GitHub webhook payload gains a field, the Slack channel gets renamed, the metric gets relabeled.
+A loop that worked when it was written will silently stop working when the thing it triggers on changes form, the GitHub webhook payload gains a field, the Slack channel gets renamed, the metric gets relabeled.
 Loops need the same periodic sweep that code needs, and the sweep is mechanical: for each loop, fire its trigger in dry-run, confirm the skill still runs, retire the loops that nobody owns.
 
 **Cost runaway, again.**
@@ -290,7 +290,7 @@ The budget field in the frontmatter exists for exactly this reason, and the runt
 ## The Naming Question
 
 I have used "loop" throughout because it captures the simplest mental model: something that runs again and again.
-It is worth being honest that "loop" undersells the format.
+It is worth noting that "loop" undersells the format.
 A loop that fires only on `slack.mention` is not really looping.
 It is reacting.
 
@@ -315,7 +315,7 @@ Check whether dependencies have shipped patches.
 That task is your first loop.
 
 Write it as a loop file, even if the runtime that will execute it does not exist yet.
-Write the frontmatter honestly, the trigger you want, the budget you would accept, the skill it should invoke.
+Write the frontmatter faithfully, the trigger you want, the budget you would accept, the skill it should invoke.
 If the skill does not exist yet, write its stub too.
 
 You now have two artifacts that describe the behavior you want, in the same repository, in the same format, reviewable in the same pull request.

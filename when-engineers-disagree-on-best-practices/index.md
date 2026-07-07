@@ -20,7 +20,7 @@ The branching model that kept releases sane.
 These are not random preferences.
 They are scar tissue from real failures, and the engineer who brings them believes, correctly, that they matter.
 
-The problem is that every other engineer on the new team arrives with their own backpack, full of different scar tissue, shaped by different failures.
+The problem is that every other engineer on the new team arrives with their own backpack, full of different scar tissue, formed by different failures.
 When these backpacks collide, you get the pattern Bruce Tuckman described in his 1965 study of small-group development: [forming, storming, norming, performing](https://en.wikipedia.org/wiki/Tuckman%27s_stages_of_group_development).
 Teams do not skip from forming straight to performing.
 They pass through storming, the phase where members test each other, surface conflicting assumptions, and negotiate how work should be done.

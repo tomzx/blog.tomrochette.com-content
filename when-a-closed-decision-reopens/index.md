@@ -17,7 +17,7 @@ When a new manager met the senior leader for the first time, the shared understa
 ## The Decision Didn't Reopen. The Context Didn't Transfer.
 
 When leadership says "build this feature" without saying what "this" means, they have not given you a requirement.
-They have handed you a fog bank, and asked you to find a shape inside it.
+They have handed you a fog bank, and asked you to find a form inside it.
 You did the right thing: you built a demo to turn the fog into something people could react to, you sat with the principal, and you negotiated a concrete, buildable target.
 That work was real, and it was correct.
 
@@ -109,7 +109,7 @@ Within their first week, they need to receive, in writing, the current decisions
 A new manager who has read the decision records cannot accidentally contradict them, because they know they exist.
 
 There is also a principal-agent dynamic here that is worth naming.
-The senior leader, the new manager, the principal, and you all have different information, different incentives, and different audiences they are trying to satisfy, the classic shape of the [principal-agent problem](https://en.wikipedia.org/wiki/Principal%E2%80%93agent_problem).
+The senior leader, the new manager, the principal, and you all have different information, different incentives, and different audiences they are trying to satisfy, the classic pattern of the [principal-agent problem](https://en.wikipedia.org/wiki/Principal%E2%80%93agent_problem).
 The new manager may be, reasonably, trying to demonstrate value to their new boss, and an enthusiastic "we can do more" lands better in that first meeting than a cautious "actually, we already agreed to less."
 They are not wrong to want to look good.
 The system is wrong to have left them no shared record to align to.

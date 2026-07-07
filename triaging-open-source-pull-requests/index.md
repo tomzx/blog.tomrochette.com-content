@@ -57,7 +57,7 @@ It is to make the queue sortable, so that when you sit down with your limited ho
 
 ## Plausibility Is the Danger, Provenance Is the Missing Signal
 
-Understanding why the modern queue is dangerous is what shapes the triage layer, because AI-generated code breaks the assumptions review used to rest on.
+Understanding why the modern queue is dangerous is what defines the triage layer, because AI-generated code breaks the assumptions review used to rest on.
 
 When a human wrote the pull request, you and the author shared a mental model.
 You could trust that the choices in the diff were deliberate, even imperfect ones, and a gap between your expectation and the code was an interesting signal, because it represented two human understandings of the same problem meeting.
@@ -129,7 +129,7 @@ A failing check is a standard that runs forever.
 **Gate at the trust boundary, before the diff.**
 The bluntest triage signal is whether you have any reason to trust the contributor at all, and in 2026 the canonical implementation of that idea is [mitchellh/vouch](https://github.com/mitchellh/vouch), built for the Ghostty terminal against a wave of AI slop.
 It auto-closes pull requests from unvouched contributors and routes them through a vouching issue, so the queue you actually read is the queue from people who have earned a hearing.
-It is a strong filter, and an honest one to use carefully: the cost is friction for legitimate newcomers, which is why the vouching path has to be a real door, not a wall.
+It is a strong filter, and a truthful one to use carefully: the cost is friction for legitimate newcomers, which is why the vouching path has to be a real door, not a wall.
 
 Each of these is a small automation, and none of them review code.
 Together they collapse the queue from "everything that arrived" to "everything that is ready, relevant, and sized."
@@ -250,7 +250,7 @@ The tiering is no longer theoretical: the production system cited above classifi
 
 Low risk, high confidence, small, passing tests: auto-merge on green, or batch them into a single weekly pass where you glance and click.
 High risk, or low confidence, or large, or crossing a security boundary: hold for human review, and review those first.
-AI-generated with no model disclosed, or no linked issue, or no tests: default to the human queue until a test or a specification proves it, regardless of how small it looks, because small and plausible is exactly the shape of a subtle bug.
+AI-generated with no model disclosed, or no linked issue, or no tests: default to the human queue until a test or a specification proves it, regardless of how small it looks, because small and plausible is exactly the profile of a subtle bug.
 First-time contributor: prioritize the response, because the speed of your first reply decides whether they come back.
 Conflicting: invisible until rebased.
 Stale: closed.
@@ -272,7 +272,7 @@ Automation is part of the answer, but so is setting expectations, because a cont
 
 Write a `CONTRIBUTING.md` that says what you will and will not accept, what a good pull request looks like, and how long response takes.
 Use a pull request template that asks for the linked issue, the motivation, and the test.
-Publish a response-time norm, even an honest one: "I review pull requests on Thursdays."
+Publish a response-time norm, even a truthful one: "I review pull requests on Thursdays."
 State it, link it in every template, and let the automation reinforce it.
 **Predictability is a contribution, and a maintainer who responds every Thursday is more sustainable than one who responds in a burst and then disappears for three months.**
 
@@ -283,7 +283,7 @@ Treat the automation and the expectations as the load-bearing structure, and the
 
 And learn to close fast.
 A fast, clear "no, and here is why" is a gift.
-It respects the contributor's time, it keeps the queue honest, and it is almost always kinder than a silence that stretches into a year.
+It respects the contributor's time, it keeps the queue fair, and it is almost always kinder than a silence that stretches into a year.
 The maintainer's fear of seeming ungrateful is what swells the queue past recoverability.
 A no is not ungrateful.
 A no is an answer, and an answer is all a contributor is waiting for.

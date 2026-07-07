@@ -104,7 +104,7 @@ They are doing it right, and the high delegation ratio is a symptom of having co
 The complication, and the reason this is not a one-time sorting exercise, is that the line between depreciating and compounding is not fixed.
 
 A thing that was compounding yesterday can become depreciating tomorrow.
-Writing SQL by hand was once a compounding skill, a path to a deep understanding of how the data shapes the business; today the model writes the query and the deep part is knowing what to ask it for and whether the result is truthful.
+Writing SQL by hand was once a compounding skill, a path to a deep understanding of how the data informs the business; today the model writes the query and the deep part is knowing what to ask it for and whether the result is truthful.
 Reading logs was once a compounding skill; increasingly the model triages them and the deep part is deciding which anomalies matter.
 Each shift in capability redraws the line, and the posture that worked last year can become either error in the next.
 

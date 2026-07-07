@@ -309,7 +309,7 @@ Neither guarantees quality, user satisfaction, or business value.
 The metric you optimize is the park you get.
 
 Choose your scenario objective carefully.
-It will shape everything you build.
+It will determine everything you build.
 
 ## Loan Management: Technical Debt
 
@@ -362,7 +362,7 @@ Technical assets are park value.
 Your component library, your CI/CD pipeline, your monitoring infrastructure, your documentation, your test suite — these are rides you've built.
 They represent what you've constructed, not what you have in the backlog.
 
-A team with high technical assets and an empty backlog is in good shape — they can build anything quickly.
+A team with high technical assets and an empty backlog is well positioned — they can build anything quickly.
 A team with low technical assets and a full backlog is in trouble — everything they try to build requires starting from scratch.
 
 Park value compounds the same way.

@@ -23,7 +23,7 @@ A decision at any stage narrows the space of what is possible at every stage bel
 
 This directionality is why the cost of removing a defect rises so steeply the later you find it.
 [Boehm and Basili](https://doi.org/10.1109/2.962984) put a number on it more than two decades ago: finding and fixing a software problem after delivery is often a hundred times more expensive than finding and fixing it during requirements and design.
-The exact multiplier is debatable, but the shape of the curve is not.
+The exact multiplier is debatable, but the slope of the curve is not.
 **Each stage a defect survives multiplies its removal cost, because each stage builds artifacts on top of it that all have to be reworked when the foundation moves.**
 
 The industry already has a name for the obvious response.
@@ -144,7 +144,7 @@ When something breaks in production, record not just the code-level cause but th
 Over a quarter the pattern will show which upstream stages are leaking the most, and that is where investment pays back the most, because a single fix there retires a whole family of incidents.
 
 And when the model produces bad output in the same module twice, do not write a longer prompt.
-Fix the module, or fix the spec that describes it, because as [The Importance of Context When Interacting with LLMs](../the-importance-of-context-when-interacting-with-llms/index.md) argues, the upstream artifacts are the model's context, and bad output is the most honest signal you will ever get about where that context is incoherent.
+Fix the module, or fix the spec that describes it, because as [The Importance of Context When Interacting with LLMs](../the-importance-of-context-when-interacting-with-llms/index.md) argues, the upstream artifacts are the model's context, and bad output is the truest signal you will ever get about where that context is incoherent.
 The model is showing you the leak.
 The right response is to fix the pipe, not to mop the floor faster.
 

@@ -35,7 +35,7 @@ That is a property of the team and a property of the code, and the team part is 
 
 ## Why Tuckman Explains So Much of the Adoption Gap
 
-Before the other reasons, it is worth being honest about how much Tuckman's [stages of group development](https://en.wikipedia.org/wiki/Tuckman%27s_stages_of_group_development) actually explain, because the answer is a lot.
+Before the other reasons, it is worth being realistic about how much Tuckman's [stages of group development](https://en.wikipedia.org/wiki/Tuckman%27s_stages_of_group_development) actually explain, because the answer is a lot.
 
 A team in the performing stage adopts a new AI practice with low friction for reasons that are structural, not cultural.
 Its members have already negotiated how decisions get made, so "which code review workflow do we use now that the model writes most of the code?" gets resolved in one meeting instead of three.
@@ -157,7 +157,7 @@ The teams that ship a house of cards inverted this, keeping review heavy while s
 Both of the following are judgments the model cannot make for you: what the software should do, and whether it should exist.
 
 The first is that the model produces code that is technically correct and strategically wrong, faster than ever, when nobody on the team deeply understands the business context.
-Deciding whether a feature should exist, and what shape it should take, is the part of the pipeline AI cannot do, and it is the bottleneck the throughput multiplier pushes you into, exactly as the shifting bottleneck predicts.
+Deciding whether a feature should exist, and what form it should take, is the part of the pipeline AI cannot do, and it is the bottleneck the throughput multiplier pushes you into, exactly as the shifting bottleneck predicts.
 A team with deep domain ownership extends its system coherently.
 A team spread thin across too many concerns generates five services where one would do, and each of them is a card.
 
@@ -168,7 +168,7 @@ It comes from somewhere else, usually from someone at the table who has been bur
 
 ## How Maturity and Foundation Interact
 
-The honest synthesis is that these two layers reinforce each other, and the most effective teams are strong on both, but they fail in characteristically different ways.
+The fair synthesis is that these two layers reinforce each other, and the most effective teams are strong on both, but they fail in characteristically different ways.
 
 A performing team on a clean foundation with strong tests and written conventions is the team that wins this era.
 It absorbs new AI practices without friction, and when it ships, the foundation catches what the model gets wrong.
@@ -229,7 +229,7 @@ Then study the code they are standing on, because that is what determines whethe
 ## References
 
 - [Wikipedia, "Tuckman's stages of group development"](https://en.wikipedia.org/wiki/Tuckman%27s_stages_of_group_development) - the forming-storming-norming-performing model that explains why mature teams absorb new practices with low friction
-- [Google re:Work, "Guide: Understand team effectiveness"](https://rework.withgoogle.com/print/guides/5727380657274880/) - Project Aristotle's finding that psychological safety is the top predictor of team effectiveness, the performing-stage asset that makes honest disagreement possible
+- [Google re:Work, "Guide: Understand team effectiveness"](https://rework.withgoogle.com/print/guides/5727380657274880/) - Project Aristotle's finding that psychological safety is the top predictor of team effectiveness, the performing-stage asset that makes genuine disagreement possible
 - [DORA, "State of DevOps"](https://dora.dev/) - the research program establishing throughput and stability as independent axes, which is the formal version of velocity-without-the-house-of-cards
 - [Google Cloud, "State of DevOps Report"](https://cloud.google.com/devops/state-of-devops) - the annual report tracking how elite teams separate lead time and deployment frequency from change failure rate and time to restore
 - [Wikipedia, "Theory of Constraints"](https://en.wikipedia.org/wiki/Theory_of_constraints) - the framework for why removing the production bottleneck relocates rather than eliminates the constraint, landing it on verification

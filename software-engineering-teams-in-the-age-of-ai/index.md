@@ -158,7 +158,7 @@ The test file is increasingly a commodity.
 If a change passes CI, passes automated security scanning, and passes peer review, it should not also need approval from a manager who has not read the code.
 Every gate that does not add information is pure delay.
 
-## The Shape of a Team That Gets This Right
+## The Structure of a Team That Gets This Right
 
 Bringing these threads together, the team that is well-designed for this era looks something like this.
 

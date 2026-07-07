@@ -133,7 +133,7 @@ A risk classification that a human defined and a machine enforces consistently.
 The function is accountability and traceability.
 The form is "a human clicks a button".
 Teams satisfy the form and skip the function all the time.
-The honest path is the reverse: satisfy the function rigorously, and let the form follow.
+The sound path is the reverse: satisfy the function rigorously, and let the form follow.
 
 If your auditor insists that safety lives in a specific human keystroke, you have an education problem, not an engineering one.
 
@@ -166,7 +166,7 @@ When you gate on the change instead of the artifact, the fraction of changes tha
 
 ## The Small Set Where a Human Gate Genuinely Adds Value
 
-Being honest, there is a set of changes where a human in the merge loop is not theater.
+Frankly, there is a set of changes where a human in the merge loop is not theater.
 It is small, but it is real.
 
 **Irreversible changes.**
@@ -247,7 +247,7 @@ The safety of a codebase is produced by the systems around the merge, not by the
 The click certifies almost nothing those systems did not already certify.
 And it extracts a real cost: latency, batched risk, fractured focus, concentrated bus factors, and a soft target for anyone who wants to slip something through.
 
-The honest position is not "no humans in the loop".
+The defensible position is not "no humans in the loop".
 It is "humans in the loop where they add value, out of the loop where they do not".
 
 Most pull requests do not need a human to approve them.

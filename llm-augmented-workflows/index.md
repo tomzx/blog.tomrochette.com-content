@@ -37,7 +37,7 @@ That duplication is not free.
 Workflows drift from each other.
 The agent invocation that worked yesterday is copy-pasted into the new flow with the old model id.
 A label rename in one file does not propagate to the others.
-And the parts of the flow that do not even need an LLM, relabeling an issue, posting a canned comment, closing a linked issue on merge, still pay for a model call because that is what the file is shaped around.
+And the parts of the flow that do not even need an LLM, relabeling an issue, posting a canned comment, closing a linked issue on merge, still pay for a model call because that is what the file is built around.
 
 What you want is to describe the *flow* once, and let the engine handle the wiring.
 
@@ -182,10 +182,10 @@ A change that spans many tasks, many PRs, and many days cannot be implemented by
 To implement a large change today, you have to break the epic into per-task issues yourself, outside the engine, and let each of those issues run its own one-issue pipeline.
 The decomposition step, deciding how to split the work and how the pieces depend on each other, is not automated.
 
-Closing that gap is the next shape of the problem, and it is where the `needs-human` checkpoint currently has to do the most work.
+Closing that gap is the next phase of the problem, and it is where the `needs-human` checkpoint currently has to do the most work.
 Until the engine can take an epic, decompose it into ordered tasks, and drive each task through its own run while tracking the whole, large changes stay a manual decomposition followed by automated execution.
 
-## Why this shape
+## Why this structure
 
 I have been writing about the pieces of this for a while.
 [Loops as Files](../loops-as-files/index.md) argued that the trigger layer deserves the same treatment as the prompt layer, versioned, reviewable, owned next to the behavior it schedules.

@@ -9,7 +9,7 @@ audience_notes: >
   Assumes the reader is already using an LLM coding agent (opencode, Claude Code, Cursor) and has at least seen a "skill" or "rule" file. No explanation of what an LLM is.
 ---
 
-Every team has the same shape.
+Every team has the same structure.
 A few engineers ship clean, well-tested, well-scoped work, and the rest ship work that mostly works.
 The gap between them is not typing speed.
 It is everything that happens before and after the typing: the steps they remember to run, the checks they know to perform, the conventions they have internalized through years of scar tissue.
@@ -143,7 +143,7 @@ Prefer several focused skills over one omnibus document, and cut anything the mo
 A skill that encodes a convention from two years ago is worse than no skill, because it enforces a stale standard on every run.
 Treat the skill library as part of the codebase, with owners, review, and the same "does this still earn its keep?" scrutiny you would give any dependency.
 
-## The Honest Limits
+## The Realistic Limits
 
 This only works for the part of the job that is describable, and it is worth being clear about where it stops.
 
@@ -192,6 +192,6 @@ It is the one whose best engineer's process runs, unchanged and unskipped, in ev
 ## References
 
 - [tomzx/agents](https://github.com/tomzx/agents) - a working library of the skills this article describes, including the create-implementation and quick-pr-review skills referenced throughout the blog
-- [Brown et al., "Language Models are Few-Shot Learners"](https://arxiv.org/abs/2005.14165) - established in-context learning, the capability that lets a loaded skill reshape a model's behavior without retraining
+- [Brown et al., "Language Models are Few-Shot Learners"](https://arxiv.org/abs/2005.14165) - established in-context learning, the capability that lets a loaded skill alter a model's behavior without retraining
 - [Liu et al., "Lost in the Middle: How Language Models Use Long Contexts"](https://arxiv.org/abs/2307.03172) - why a skill must stay focused, since model reliability degrades as context fills with noise
 - [Wikipedia, "The Checklist Manifesto"](https://en.wikipedia.org/wiki/The_Checklist_Manifesto) - Atul Gawande's case that disciplined checklists outperform expert memory, the human analogue to the skills mechanism

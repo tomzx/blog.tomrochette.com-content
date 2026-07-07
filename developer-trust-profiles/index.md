@@ -107,7 +107,7 @@ By pulling closed-without-merge PRs as well, and by deriving the outcome from ac
 
 Processed oldest-first, each historical PR feeds into the same update pipeline as a live review, so a freshly initialized profile looks exactly like one that was built up review by review over time.
 
-## Honest limitations
+## Real limitations
 
 The design has real trade-offs, and they are worth naming.
 
@@ -160,7 +160,7 @@ Authorship stops carrying signal, because every author is producing the same uni
 In that world the reviewer's checks still run, but they never flag anything, because the problems were engineered out upstream rather than caught downstream.
 And the trust profile, with nothing left to differentiate, collapses: everyone sits at `trusted`, the level never moves, and the file stops being worth reading.
 
-That is the honest framing for the trust profile.
+That is the accurate framing for the trust profile.
 **It is not the destination; it is the bridge.**
 Today's reality is heterogeneous, a mix of careful and careless, hand-written and agent-generated, vetted and rubber-stamped, and the profile does useful work precisely because that variance exists.
 **As the variance shrinks, so does the profile's job, until the most successful outcome is that no one, me included, needs it anymore.**

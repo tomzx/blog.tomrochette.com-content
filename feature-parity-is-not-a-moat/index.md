@@ -29,7 +29,7 @@ The feature was the seed, and the copy-time was the growing season, and the moat
 
 ## What Actually Clones, and What Does Not
 
-It is worth being honest about the boundary, because the claim is not that everything is copyable.
+It is worth being clear about the boundary, because the claim is not that everything is copyable.
 
 What clones easily is the surface.
 The visible feature, the UI flow, the API surface, the integration that calls a public endpoint, the report that joins two tables.

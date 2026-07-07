@@ -142,7 +142,7 @@ You are tidying, in batches, on your own time, against objective signals from th
 **The gardener does not follow every leaf as it falls.
 The gardener rakes.**
 
-This is also the honest acknowledgment that some entropy is the cost of speed, and that the goal is not zero drift.
+This is also the frank acknowledgment that some entropy is the cost of speed, and that the goal is not zero drift.
 The goal is a drift rate low enough that your weekly sweep net positive, so that over months the codebase gets cleaner rather than dirtier even as it grows.
 A codebase that gets slowly cleaner under load is a codebase you are successfully defending.
 A codebase that gets slowly dirtier no matter how hard you review is one you are losing, and the review is not the fix.
@@ -160,7 +160,7 @@ The point is to ensure that the same argument does not have to be re-won from sc
 
 A decision that lives in a file is a decision the next agent can be pointed at.
 A decision that lives only in your head dies the moment you switch teams, or take a week off, or simply get tired of explaining it for the fiftieth time.
-When your defenses are encoded as files, the codebase keeps its shape without you holding it together.
+When your defenses are encoded as files, the codebase keeps its structure without you holding it together.
 When they are encoded only as your vigilance, the codebase is one two-week vacation away from drift you will spend a month undoing.
 
 ## Pick the Battles That Are Actually One-Way Doors
@@ -188,7 +188,7 @@ You will see things every day that are not how you would have done them.
 Most of them do not matter.
 Learn to feel the one-way doors in your stomach and let the rest pass, and you will last long enough to actually defend the things that count.
 
-## The Honest Limit
+## The Real Limit
 
 Sometimes the team will not align, and no amount of infrastructure will fully save you.
 A teammate may insist on driving their own agent with their own skills, their own conventions, their own picture of the codebase, and treat your paved road as a suggestion rather than a default.

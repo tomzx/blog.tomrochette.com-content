@@ -9,7 +9,7 @@ audience_notes: >
   Assumes the reader has run `git log` on a project they did not build, has participated in a multi-maintainer open source project, and understands pull requests, conventional commits, and what an LLM coding agent is. No explanation of version control basics.
 ---
 
-The most honest document a software project writes is not its `README`, its `CONTRIBUTING.md`, or its architecture diagram.
+The most revealing document a software project writes is not its `README`, its `CONTRIBUTING.md`, or its architecture diagram.
 It is its commit history, because the commit history is the one artifact the project cannot rewrite after the fact.
 **A process doc describes the project the maintainers wish they were running, and the commit log describes the project they are actually running, and the gap between the two is where every real lesson lives.**
 
@@ -172,7 +172,7 @@ Then take the top two or three names and compare their conventional-commit prefi
 The ratio of `fix` to `feat`, the presence or absence of `docs` and `test`, the dominance of `refactor` or `chore`, these tell you who builds and who maintains, and they tell you in five minutes what would take a month of standups to learn.
 A maintainer whose commits are sixty percent `fix` is a steward.
 A maintainer whose commits span every prefix evenly is a visionary.
-**The prefix distribution is a fingerprint of a role, and reading it is faster and more honest than reading anyone's job title.**
+**The prefix distribution is a fingerprint of a role, and reading it is faster and more reliable than reading anyone's job title.**
 
 Finally, count how many of each top contributor's commits reference a pull request versus landing straight on `main`.
 This is the governance signal.

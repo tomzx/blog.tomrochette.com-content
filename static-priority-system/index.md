@@ -133,13 +133,13 @@ This kind of planning is only possible with stable definitions.
 If P1s keep becoming P0s, you cannot reason about where your time is going.
 Your velocity metrics become meaningless because the definition of each bucket shifts under you.
 
-## Honest labeling forces honest conversations
+## Truthful labeling forces truthful conversations
 
-A static system forces the team to be honest about what they are not doing.
+A static system forces the team to be realistic about what they are not doing.
 
 In a dynamic system, everything important eventually becomes P0, so nothing is ever explicitly deprioritized.
 A stakeholder asks "when will you do X?" and the answer is "it's P1, we'll get to it after the current P0s."
-This is honest but uncomfortable.
+This is real but uncomfortable.
 The discomfort is the point.
 
 When a P2 feature stays P2 for three quarters, the organization has a clear signal: this work is not important enough to displace P1 work.

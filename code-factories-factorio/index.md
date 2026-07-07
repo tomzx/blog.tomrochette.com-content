@@ -182,7 +182,7 @@ But throughput suffers from network overhead, serialization, and distributed coo
 Factorio doesn't judge you for choosing bots over belts or belts over bots.
 It just shows you the consequences.
 Software architecture should work the same way.
-Choose your trade-offs, but be honest about what you're trading.
+Choose your trade-offs, but be realistic about what you're trading.
 
 ## The Rocket: Shipping
 

@@ -17,7 +17,7 @@ Your ability to consume it is not.
 ## The Asymmetry
 
 [Information overload](https://en.wikipedia.org/wiki/Information_overload) is not new.
-What is new is the asymmetry between production and consumption in a domain that is itself being reshaped by the technology it covers.
+What is new is the asymmetry between production and consumption in a domain that is itself being transformed by the technology it covers.
 
 A human reads at roughly the same rate today as a generation ago: a few hundred words per minute, a handful of long-form pieces per day, a finite number of hours in the week.
 Meanwhile the supply of AI content is compounding.
@@ -58,7 +58,7 @@ And filters are something you can design, tune, and improve, unlike your reading
 Most of what feels urgent in the AI cycle is ephemeral.
 A specific model's benchmark numbers, a specific launch event, a specific viral demo: these date within weeks.
 A surprising amount is durable.
-The mechanics of attention, the basics of context and prompting, the theory of constraints in a pipeline, the economic shape of inference costs, the difference between evaluation and vibes: these barely move across model generations.
+The mechanics of attention, the basics of context and prompting, the theory of constraints in a pipeline, the economic profile of inference costs, the difference between evaluation and vibes: these barely move across model generations.
 
 When you are time-constrained, overweight the durable.
 **Read one paper that teaches you a concept you will reuse for years over ten posts that summarize this week's leaderboard.**
@@ -122,7 +122,7 @@ Specific model behaviors, tool APIs, and leaderboard rankings decay within month
 What does not depreciate is the rate at which you can learn a new tool when you need it, the quality of your filter, and your grasp of the durable layer underneath the releases.
 **These compound, and they are the only things in this cycle that do.**
 
-A developer who has internalized the theory of constraints, the shape of an LLM pipeline, and the difference between evaluation and marketing can pick up this week's framework in an afternoon.
+A developer who has internalized the theory of constraints, the structure of an LLM pipeline, and the difference between evaluation and marketing can pick up this week's framework in an afternoon.
 A developer who chased every release for two years but never built that foundation knows a hundred tool names and cannot reason about any of them.
 The first developer is robust to the pace of change.
 The second is a hostage to it.
