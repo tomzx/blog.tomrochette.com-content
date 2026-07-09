@@ -87,6 +87,7 @@ Principle: a fundamental truth or proposition that serves as the foundation for 
 * Define what "done" looks like before you start.
 * Plan with the most realistic scenario in mind.
 * Plan by preventing the worst scenarios from happening.
+* Reduce risks and unknowns early in your projects.
 * Separate discovery (figuring out what to do) from delivery (doing it); unrefined items do not get scheduled.
 * Set a fixed time budget (appetite) that defines scope, rather than estimating an unbounded duration.
 * Eliminate work by specifying better, not by running more of it.
