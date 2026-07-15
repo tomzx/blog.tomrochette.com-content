@@ -49,6 +49,7 @@ Principle: a fundamental truth or proposition that serves as the foundation for 
 * Priority, priority, priority.
 * Say no early and often.
 * If everything is top priority, nothing is.
+* When working on projects with unclear objectives, always define your KPIs.
 * Order your backlog; do not merely prioritize it.
 * Priority describes what a task is, not when you will get to it; separate classification from scheduling.
 * Allocate capacity across priority levels rather than only ever working the single top item.
