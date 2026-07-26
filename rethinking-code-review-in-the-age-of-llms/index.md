@@ -266,7 +266,7 @@ And at scale, it is unsustainable: if every PR requires an hour of human review 
 That is not a process that scales.
 
 **Code review creates an illusion of accountability without delivering it.**
-The signature on the PR is liability theater.
+The signature on the PR is accountability theater.
 
 **Real responsibility lives upstream.**
 The person who decided this problem was worth solving owns the outcome.
