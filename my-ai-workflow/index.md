@@ -58,6 +58,21 @@ A prompt is a one-off conversation.
 A skill is the same conversation, written once, versioned, reviewed, and incrementally improved.
 The agent performs it the same way every time, and the library gets better as the workflows mature.
 
+## Where the human time goes
+
+The SDLC pipeline is long, but my time is not spread evenly across it.
+Almost all of my attention goes to the top: needs, requirements, and specification.
+This is where defects fan out the widest and where fixes compound the longest, as [Defects Flow Downstream](../defects-flow-downstream/index.md) lays out, and it is where the work stays irreducibly human, deciding what to build and what "done" means.
+A precise specification is the input every downstream skill consumes, and [Software Engineering Teams in the Age of AI](../software-engineering-teams-in-the-age-of-ai/index.md) argues it is now the highest-leverage skill in the field.
+
+Everything below the specification, I automate as far as I can.
+The plan, the implementation, the tests, the PR description, the review, the deployment, each is a skill the agent runs, and each is a place I would rather spend a token than an hour.
+Once judgment is encoded into the layer every change passes through, fighting over each unit of output by hand stops paying for itself.
+
+The downstream hour that used to go into reading diffs goes somewhere else entirely: into building high-fidelity test environments that approximate the production environment as closely as I can get them.
+**I would rather spend an hour making the test environment catch the bug than an hour reading a diff hoping to catch it myself, because the test environment runs on every future change and the diff reading runs once.**
+This is the trade [Verifying Code Without Reading It](../verifying-code-without-reading-it/index.md) and [Rethinking Code Review in the Age of LLMs](../rethinking-code-review-in-the-age-of-llms/index.md) both argue: review is a one-time signal, verification against a production-like environment is a compounding one.
+
 ## The encoding loop
 
 The hardest problem with any workflow is not doing it.
@@ -105,6 +120,8 @@ The tactical skills will collapse into the model.
 
 ## See also
 
+- [Defects Flow Downstream](../defects-flow-downstream/index.md) - why the hour at the specification pays back more than the hour at any later stage
+- [Verifying Code Without Reading It](../verifying-code-without-reading-it/index.md) - the case for spending review time on a production-like test environment instead of a diff
 - [llm-augmented-workflows](../llm-augmented-workflows/index.md) - the engine that runs these skills on GitHub events without a human in the loop
 - [The Self-Evolving Repository](../the-self-evolving-repository/index.md) - the end state when every maintainer function is encoded as a loop
 - [The Codebase Gardener](../the-codebase-gardener/index.md) - why the layer everyone passes through is where you fight for consistency
