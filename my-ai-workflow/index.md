@@ -113,6 +113,7 @@ The tactical skills will collapse into the model.
 
 ## References
 
+- [Mathieu Larose, "My AI Coding Workflow"](https://mathieularose.com/my-ai-coding-workflow) - the article that prompted me to write this one
 - [tomzx/agents](https://github.com/tomzx/agents) - the skills library that is the subject of this article, public and installable
 - [Agent Skills format](https://agentskills.io) - the open skill format that makes the library portable across agents
 - [OpenCode](https://opencode.ai) - the terminal coding agent the skills target
