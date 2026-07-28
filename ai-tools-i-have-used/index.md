@@ -19,8 +19,8 @@ Legend:
 # Text generation
 * 🟢 [Zhipu GLM](https://chat.z.ai/)
 * 🟢 [Claude](https://claude.ai/)
-* 🟢 [OpenAI ChatGPT](https://chat.openai.com/)
-* 🟡 [Gemini](https://gemini.google.com/)
+* 🟡 [OpenAI ChatGPT](https://chat.openai.com/)
+* 🔴 [Gemini](https://gemini.google.com/)
 * 🔴 [DeepSeek](https://chat.deepseek.com/)
 * 🔴 [Qwen](https://chat.qwen.ai/)
 * 🔴 [Groq](https://chat.groq.com/)
@@ -41,23 +41,23 @@ Legend:
 # Code generation
 * 🟢 [Cursor](https://www.cursor.com/)
 * 🟢 [Zhipu GLM Coding Plan](https://z.ai/subscribe?ic=1VZOHEOBY1)
-* 🟢 [Claude Code](https://claude.ai/code)
-* 🟢 [GitHub Copilot](https://github.com/features/copilot)
+* 🔴 [Claude Code](https://claude.ai/code)
+* 🔴 [GitHub Copilot](https://github.com/features/copilot)
 * 🔴 [Cerebas Coder](https://cerebrascoder.com/)
 * 🔴 [v0](https://v0.dev/)
 * 🔴 [Bolt](https://bolt.new/)
 * 🔴 [Tabnine](https://www.tabnine.com/)
 
 # Image generation
-* 🟡 [Leonardo](https://app.leonardo.ai/)
+* 🔴 [Leonardo](https://app.leonardo.ai/)
 
 # Audio generation
 * 🔴 [Suno](https://suno.com/)
 
 # Task orchestration
-* 🟢 [Vibe-Kanban](https://www.vibekanban.com/)
-* 🟡 [OpenCode Web UI](https://opencode.ai/docs/web/)
-* 🟡 [OpenChamber](https://github.com/btriapitsyn/openchamber) (web UI for OpenCode)
+* 🔴 [Vibe-Kanban](https://www.vibekanban.com/)
+* 🔴 [OpenCode Web UI](https://opencode.ai/docs/web/)
+* 🟢 [OpenChamber](https://github.com/btriapitsyn/openchamber) (web UI for OpenCode)
 
 # Speech to text
 * 🟡 [Handy](https://handy.computer/) (sometimes using)
@@ -65,7 +65,7 @@ Legend:
 * 🔴 [Superwhisper](https://superwhisper.com/)
 
 # Desktop client
-* 🟡 [BoltAI](https://boltai.com/) (sometimes using)
+* 🔴 [BoltAI](https://boltai.com/) (sometimes using)
 * 🟡 [Claude Desktop](https://claude.com/download) (sometimes using)
 
 # Web client
@@ -73,20 +73,37 @@ Legend:
 * 🔴 [OpenWebUI](https://openwebui.com/)
 
 # Models
-* 🟢 Composer-1
-* 🟢 GLM 4.7
-* 🔴 GLM 4.6
-* 🟢 Claude Sonnet 4.5
+* 🔴 Composer-2
+* 🔴 Composer-1.5
+* 🔴 Composer-1
+* 🔴 Claude Fable 5
+* 🟢 Claude Opus 5
+* 🔴 Claude Opus 4.8
+* 🔴 Claude Opus 4.7
+* 🔴 Claude Opus 4.6
+* 🔴 Claude Opus 4.5
 * 🔴 Claude Opus 4.1
-* 🟢 GPT 5.2
+* 🟢 Claude Sonnet 5
+* 🔴 Claude Sonnet 4.5
+* 🔴 DeepSeek r1
+* 🟢 DeepSeek v4 Flash
+* 🔴 Gemini 3 Pro
+* 🔴 Gemini 2.5 Pro
+* 🟢 GLM 5.2
+* 🔴 GLM 5.1
+* 🔴 GLM 5
+* 🔴 GLM 4.7
+* 🔴 GLM 4.6
+* 🔴 GPT 5.6 Sol
+* 🔴 GPT 5.4
+* 🔴 GPT 5.3
+* 🔴 GPT 5.2
+* 🔴 GPT 5.2
 * 🔴 GPT 5.1
 * 🔴 GPT 5
 * 🔴 GPT 4.1
 * 🔴 GPT 4o
 * 🔴 GPT 4
 * 🔴 GPT 3.5
-* 🟡 GPT OSS 20B
-* 🟡 GPT OSS 120B
-* 🟡 Gemini 3 Pro
-* 🔴 Gemini 2.5 Pro
-* 🔴 DeepSeek r1
+* 🔴 GPT OSS 20B
+* 🔴 GPT OSS 120B
