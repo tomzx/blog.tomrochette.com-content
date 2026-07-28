@@ -60,13 +60,13 @@ Legend:
 * 🔴 [Vibe-Kanban](https://www.vibekanban.com/)
 
 # Speech to text
-* 🟡 [Handy](https://handy.computer/) (sometimes using)
+* 🟡 [Handy](https://handy.computer/)
 * 🔴 [MacWhisper](https://goodsnooze.gumroad.com/l/macwhisper)
 * 🔴 [Superwhisper](https://superwhisper.com/)
 
 # Desktop client
-* 🔴 [BoltAI](https://boltai.com/) (sometimes using)
-* 🟡 [Claude Desktop](https://claude.com/download) (sometimes using)
+* 🔴 [BoltAI](https://boltai.com/)
+* 🟡 [Claude Desktop](https://claude.com/download)
 
 # Web client
 * 🔴 [LibreChat](https://librechat.ai/)
