@@ -9,7 +9,7 @@ audience_notes: >
   Assumes the reader accepts that human line-by-line review of LLM-generated code is not scaling, and now wants the concrete system that replaces it. Familiarity with tests, linters, static analysis, and CI is assumed.
 ---
 
-It is a familiar observation by now that most code review happens without anyone reading the code (the case is made [here](../code-review-without-reading-the-code/index.md)).
+It is a familiar observation by now that most code review happens without anyone reading the code ([the case is made in You Already Review Code Without Reading It](../code-review-without-reading-the-code/index.md)).
 That observation leaves a question hanging.
 If no human reads the diff, how do you still get correctness, maintainability, extensibility, and the rest of the things review was supposed to deliver?
 
@@ -39,7 +39,7 @@ A tired reviewer scans for all of these at once and catches each of them sometim
 Every property above has a checker that is cheaper and more reliable than a human reading a diff.
 
 Correctness is checked by tests, and by an LLM judge that compares the diff against the acceptance criteria from the issue and asks: is there a case where the criteria hold but this code fails?
-Tested is checked by coverage gates and by mutation testing, which mutates the code and fails the build if the tests still pass, because that means the tests were not testing anything.
+Tested is checked by coverage gates and by [mutation testing](https://en.wikipedia.org/wiki/Mutation_testing), which mutates the code and fails the build if the tests still pass, because that means the tests were not testing anything.
 Maintainable is checked by complexity limits, duplication detectors, dead-code scans, and linters, all deterministic, all running every push.
 Extensible is checked by dependency-direction rules, boundary tests, and an LLM critic that asks where the next feature would plug in and whether this change has made that harder.
 Secure is checked by static analysis, secret scanning, and an adversarial LLM pass that tries to find the input the author did not think of.
@@ -70,7 +70,7 @@ A battery of critics tries to notice one thing each and notices it every time.**
 
 There is a distinction worth holding onto, because the system fails if you blur it.
 
-Verification asks: did we build the thing right, does the code meet its specification?
+[Verification](https://en.wikipedia.org/wiki/Verification_and_validation) asks: did we build the thing right, does the code meet its specification?
 Validation asks: did we build the right thing, does the specification solve the real problem?
 
 Reading a diff does verification badly and validation not at all.
@@ -137,6 +137,6 @@ Replace the proxy with the thing it was standing in for.
 ## See also
 
 - [You Already Review Code Without Reading It](../code-review-without-reading-the-code/index.md) - the diagnosis this article answers: review already does not involve reading, so build the system that makes that safe.
+- [Rolling Out the Unread Review](../rolling-out-the-unread-review/index.md) - the team-side companion to this system: how to ship it to people who do not trust it yet.
 - [Rethinking Code Review in the Age of LLMs](../rethinking-code-review-in-the-age-of-llms/index.md) - why reading LLM-written code is the wrong tool, and where human effort belongs instead.
 - [The Merge Gate](../the-merge-gate/index.md) - which changes still deserve a human, selected by blast radius rather than by the existence of a pull request.
-- [Send the Implementation, Not the Issue](../send-implementation-not-issue/index.md) - the upstream shift this system depends on: judgment invested in the spec, not salvaged at the diff.

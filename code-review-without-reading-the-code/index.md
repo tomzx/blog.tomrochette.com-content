@@ -13,7 +13,7 @@ Most code review does not involve reading code.
 The decision to approve is made before the diff opens.
 We keep the ritual, and quietly drop the part that is supposed to justify it.
 
-This is the same gap, seen from the reviewer's side instead of the model's.
+The gap between the ritual and the reading has a mirror on the other side of the pull request.
 An LLM cannot vouch for its own output, because accepting a solution as done needs information the model does not have ([the acceptance gap](../the-acceptance-gap/index.md)).
 The reviewer has the same problem in reverse: vouching for code that was never read.
 
@@ -145,6 +145,8 @@ The number will embarrass you, and that embarrassment is the beginning of a revi
 
 ## See also
 
+- [Verifying Code Without Reading It](../verifying-code-without-reading-it/index.md) - the system that makes unread review safe: the checks, critics, and gates that replace the reading.
+- [Rolling Out the Unread Review](../rolling-out-the-unread-review/index.md) - how to ship that system to a team that does not trust it yet.
 - [The Acceptance Gap](../the-acceptance-gap/index.md) - the root insight this article shares, seen from the model's side: acceptance is the gate the model cannot close on its own, and reading is its reviewer-side mirror.
 - [Rethinking Code Review in the Age of LLMs](../rethinking-code-review-in-the-age-of-llms/index.md) - makes the case that reading LLM-written code is the wrong tool for the job.
 - [The Merge Gate](../the-merge-gate/index.md) - separates the approve-click from the reading, and shows where a human gate genuinely adds value.
