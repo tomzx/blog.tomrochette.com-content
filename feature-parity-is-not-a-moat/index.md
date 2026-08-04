@@ -101,7 +101,7 @@ It feels like progress, because the features keep shipping and the release notes
 But a competitor watching your changelog now has your roadmap for free, and a model lets them execute it at your speed.
 **A changelog is no longer a strategic asset; in a clonable world it is a blueprint you hand to your competitors every week.**
 
-## What to Do on Monday
+## What to Do Next
 
 A few concrete moves follow from treating features as probes and moats as the target.
 

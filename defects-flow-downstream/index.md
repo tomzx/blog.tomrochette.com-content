@@ -121,7 +121,7 @@ Once code writes itself, the bottleneck moves to verification, and the highest-l
 **The pipeline does not reward you for being good at a late stage.
 It rewards you for making the late stage unnecessary by being good at an earlier one.**
 
-## What to Do on Monday
+## What to Do Next
 
 A few concrete moves follow, and each is an inversion of the default.
 

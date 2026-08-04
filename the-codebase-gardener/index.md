@@ -206,7 +206,7 @@ A codebase is not worth your health, and a team that has decided, collectively, 
 Your leverage is highest at the start of a codebase's life and lowest once the rot is structural.
 If you have encoded what you can, written down what you know, and the drift is still winning, the rational move is to spend less energy fighting and more energy deciding whether this is still the codebase you want to be responsible for.
 
-## What to Do on Monday
+## What to Do Next
 
 You do not need permission, and you do not need a migration.
 Pick the single standard that is being violated most often, the one that costs you the most review time, and convert it from a review comment into a gate.

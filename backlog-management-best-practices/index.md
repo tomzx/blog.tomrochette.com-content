@@ -184,7 +184,7 @@ A feature is a new investment.
 Mixing them in the same backlog without distinguishing between them leads to either under-investment in new value (because bugs always feel urgent) or neglect of quality (because features always feel more strategic).
 Separate them, fund them differently, and track them separately.
 
-## What to Do on Monday
+## What to Do Next
 
 If your backlog is currently a mess, here is a sequence that works:
 

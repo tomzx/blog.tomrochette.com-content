@@ -107,7 +107,7 @@ Require, in the pull request template, a linked issue or a short intent statemen
 The linked issue turns an unencoded PR into an encoded one; the model-assisted flag tells you whether the PR's own description can serve as an oracle or whether you need the upstream source.
 Both shrink the "no verifiable intent" bucket, and shrinking that bucket is what lets the auto-merge lane actually run.
 
-## What to Do on Monday
+## What to Do Next
 
 First, surface the conflict instead of hiding it.
 Add [eps1lon/actions-label-merge-conflict](https://github.com/eps1lon/actions-label-merge-conflict) so any PR that falls behind main gets a `merge-conflict` label the moment it conflicts, and loses it the moment it merges again.

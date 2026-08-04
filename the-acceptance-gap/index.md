@@ -145,7 +145,7 @@ If the gap is "is this the thing I wanted," that is taste, and the move is to it
 The model can help with the first.
 It cannot do the second for you.
 
-## What to Do on Monday
+## What to Do Next
 
 Sort the next ten things you hand to the model into two piles.
 

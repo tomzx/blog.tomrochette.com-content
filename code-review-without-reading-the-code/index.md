@@ -129,7 +129,7 @@ If you were not reading human-written code, you are not going to start reading m
 You are going to keep approving signals, with a worse feeling about it.
 The productive move is to put the effort where it was always worth more: upstream, in the specification, the tests, and the gates.
 
-## What To Do Monday
+## What to Do Next
 
 You do not need permission to start.
 Pick the low-blast-radius path and let it merge on green.

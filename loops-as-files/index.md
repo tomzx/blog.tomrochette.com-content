@@ -304,7 +304,7 @@ The `on:` field is the source of truth, and the file is whatever its trigger say
 In practice, teams that adopt this will settle on one word and use it for both, the same way "skill" is now used for files that range from one-line hints to multi-page workflows.
 The word matters less than the format, and the format is: markdown, frontmatter, `on`, a budget, a short body.
 
-## What to Do on Monday
+## What to Do Next
 
 You do not need a runtime to start.
 

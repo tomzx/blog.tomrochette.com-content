@@ -112,7 +112,7 @@ This is why neither camp has a stable answer.
 The AI-maxxer's "delegate everything" is wrong because some of what they delegate is still compounding, and the resistor's "do everything by hand" is wrong because some of what they protect has already stopped compounding.
 **The only stable skill is the meta-skill of repeatedly telling the two apart, and that meta-skill is itself compounding, which is the strongest case I can make for spending attention on it.**
 
-## What to Do on Monday
+## What to Do Next
 
 Stop measuring yourself by how much AI you use, in either direction.
 Run the inventory instead.

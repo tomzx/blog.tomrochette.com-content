@@ -120,7 +120,7 @@ And for the small fraction of work that genuinely lives at the foundation, embed
 The point is not that nobody should write low-level code.
 The point is that "should every new developer learn to write low-level code" is the wrong question, asked about the wrong layer, and the answer, which is "no, but every developer should learn to read the machine," is what the two camps keep talking past.
 
-## What to Do on Monday
+## What to Do Next
 
 If you hire or mentor new developers, stop using "do you know C" as a proxy for anything.
 It measures syntax, and syntax is cheap.

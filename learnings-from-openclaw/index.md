@@ -182,7 +182,7 @@ A project where one person lands on `main` freely and the rest use pull requests
 Run this on your own project before you run it on anyone else's.
 You may find that the role structure you assume you are running is not the one your commits describe, and the gap is the first thing worth fixing.
 
-## What to Do on Monday
+## What to Do Next
 
 If you maintain a project, take an hour and read your own commit history the way this article reads OpenClaw's.
 Find your visionary and your steward, and if you do not have both, that is the single most important hiring or delegation decision in front of you.

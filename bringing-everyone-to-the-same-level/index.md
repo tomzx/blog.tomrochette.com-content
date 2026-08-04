@@ -164,7 +164,7 @@ As [Software Engineering Teams in the Age of AI](../software-engineering-teams-i
 Skills make the execution layer homogeneous.
 They do not decide what to execute.
 
-## What to Do on Monday
+## What to Do Next
 
 You do not need a grand migration to start closing the gap.
 

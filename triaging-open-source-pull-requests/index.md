@@ -288,7 +288,7 @@ The maintainer's fear of seeming ungrateful is what swells the queue past recove
 A no is not ungrateful.
 A no is an answer, and an answer is all a contributor is waiting for.
 
-## What to Do on Monday
+## What to Do Next
 
 You do not need to build the whole layer at once, and you should not try.
 Pick the single thing that is costing you the most attention right now and automate that one.

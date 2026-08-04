@@ -181,7 +181,7 @@ Engineering management tends to diagnose everything as team dynamics, because th
 Engineering teams tend to diagnose everything as tooling, because that is the toolkit they have, and so they adopt a new model when what they need is a written convention.
 **The binding constraint is usually the layer you are not looking at, and maturity is very good at hiding problems in the foundation because a mature team does not complain about them until they break.**
 
-## What to Do on Monday
+## What to Do Next
 
 If you lead a team and want to know whether you are shipping features or shipping cards, a few concrete moves separate the diagnosis from the guesswork.
 

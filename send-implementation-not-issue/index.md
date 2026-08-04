@@ -136,7 +136,7 @@ The same test separates a useful feature request from noise.
 "Add dark mode, here is the design, here is why it does not conflict with the theming system, here is the PR, here are the screenshots, here are the tests" is a contribution.
 The information that converts noise into contribution is exactly the information that comes from having tried to build the thing.
 
-## What to Do on Monday
+## What to Do Next
 
 If you file issues against projects you depend on, change one habit.
 Before you open the issue, try to open the PR instead.
