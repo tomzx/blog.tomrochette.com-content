@@ -2,7 +2,7 @@
 title: "My AI Workflow: The Skills Are the Part That Compounds"
 created: 2026-07-28
 type: post
-status: draft
+status: finished
 tags: [ai, llm, workflow, skills, opencode, openchamber, cursor, sdlc, fully-ai-generated, llm=glm-5.2]
 readability: 3
 audience_notes: >
