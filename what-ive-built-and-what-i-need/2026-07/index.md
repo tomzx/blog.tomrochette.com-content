@@ -1,6 +1,6 @@
 ---
 title: "What I've built and what I need: July 2026"
-created: 2026-07-31
+created: 2026-08-06
 type: post
 status: finished
 tags: [personal-update, llm, ai-agents, automation, sdlc, workflows, fully-ai-generated, llm=glm-5.2]
