@@ -12,11 +12,14 @@ audience_notes: >
 
 If you read enough of what I have written, one sentence underlies all of it: **encode your judgment into artifacts that outlive your attention**.
 The artifacts change, the principle does not.
-A blog post is such an artifact. A skill file is one. The principles file I keep is one.
+A blog post is such an artifact.
+A skill file is one.
+The principles file I keep is one.
 The form runs from the trivial to the sacred, and the same instinct produces all of them: I do not trust my attention to be present when it matters, so I put the judgment somewhere it can survive without me.
 
 This is not a philosophy of throughput, though it can look like one.
-I am not trying to do more. I am trying to do things that keep mattering after I stop doing them.
+I am not trying to do more.
+I am trying to do things that keep mattering after I stop doing them.
 The victory condition I keep describing, in different vocabularies, is to **make myself unnecessary at the layer I currently occupy**, so I am free to go find the next one.
 That is what I am optimizing for, and once you see it, the rest follows.
 
@@ -73,7 +76,8 @@ And, finally, I write because I do not know what I think until I do.
 The first beneficiary of anything I write is me, because the act of writing is the act of finding out what I believe.
 A verbal decision is just an opinion that hasn't been overwritten yet; a written one travels to the rooms I am not in and makes its case without me.
 This is why the blog exists, why the [principles file](../principles/index.md) exists, why the daily questions exist.
-They are not records of conclusions I had already reached. They are the instrument that reaches them.
+They are not records of conclusions I had already reached.
+They are the instrument that reaches them.
 
 Then I encode.
 If a rule lives only in my review comments, it runs only when I am awake, looking, and willing to argue.

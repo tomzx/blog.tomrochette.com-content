@@ -16,12 +16,13 @@ It took me almost three days.
 
 I want to be careful here, because the easy reading of this story is a complaint about a colleague, and that is not the interesting part.
 The interesting part is why a piece of work that should have taken hours stretched into days, and what that says about how work gets assigned.
+**Work you did not choose takes longer, not because it is harder, but because nothing pulls you through it.**
 
 ## The Task Was Not Hard. The Task Was Not Mine.
 
 The work itself was not especially complex.
 What made it slow was that I had no investment in it.
-I had not chosen the problem, I had not shaped the solution, and I stood to gain nothing from its completion except the relief of being done with it.
+I had not chosen the problem, I had not designed the solution, and I stood to gain nothing from its completion except the relief of being done with it.
 
 There is a motivation tax on work you did not choose, and it is larger than most people account for.
 When a task is yours, the friction of a confusing codebase or a failing test is a puzzle you want to solve.
@@ -78,7 +79,7 @@ The lesson is narrower and more useful.
 
 When work arrives by declaration rather than by agreement, I will name the motivation cost out loud, early.
 I will ask for the context I am missing instead of reconstructing it silently.
-And I will be honest, with myself and with the person handing it off, about what "get this merged" actually entails, because the favor is rarely as small as it sounds from the side that is handing it off.
+And I will be candid, with myself and with the person handing it off, about what "get this merged" actually entails, because the favor is rarely as small as it sounds from the side that is handing it off.
 
 **Work you did not choose takes longer, not because it is harder, but because nothing pulls you through it. The friction was not in the task. It was in the absence of a reason to care.**
 
