@@ -1,8 +1,8 @@
 ---
 title: "Anger Is a Tactic: How to Deal With People Who Use Aggression to Get Their Way"
-created: 2026-08-14
+created: 2026-08-15
 type: post
-status: draft
+status: finished
 tags: [workplace, leadership, team-management, conflict-resolution, psychology, fully-ai-generated, llm=glm-5.2, llm=glm-5.3]
 readability: 3
 audience_notes: >
