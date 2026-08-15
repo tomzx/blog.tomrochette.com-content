@@ -144,8 +144,6 @@ And if you have power over one of these people, stop asking whether they are wor
 ## See also
 
 - [When Engineers Disagree on Best Practices](../when-engineers-disagree-on-best-practices/index.md) - the team-level counterpart: how one resolved disagreement sets the template for whether the loudest person wins from then on
-- [A Monorepo Doesn't Make You a Single Team](../a-monorepo-doesnt-make-you-a-single-team/index.md) - what real decision legitimacy looks like, the thing an aggressor substitutes volume for
-- [Principles](../principles/index.md) - the meta-principle that the first disagreement a group resolves sets the template for every disagreement that follows
 
 ## References
 
