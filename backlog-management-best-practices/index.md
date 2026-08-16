@@ -10,7 +10,7 @@ readability: 4
 A well-managed backlog is the single most leveraged artifact in product development.
 When it works, teams ship the right things at a sustainable pace.
 When it doesn't, the organization drowns in a swamp of stale tickets, conflicting priorities, and interminable planning meetings.
-For large software products, where dozens of teams feed from the same corpus of work, the cost of poor backlog hygiene is enormous and mostly invisible.
+**For large software products, where dozens of teams feed from the same corpus of work, the cost of poor backlog hygiene is enormous and mostly invisible.**
 
 ## The Backlog at Scale Is a Different Animal
 

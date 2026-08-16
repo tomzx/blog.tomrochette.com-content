@@ -28,7 +28,7 @@ Two things broke that equilibrium.
 The first is auto-merge.
 Once low-risk changes land on green without a human clicking merge, a PR that cannot merge cleanly becomes the thing that stalls the whole lane.
 A human can absorb a conflicted PR by glancing and clicking; an automated merge pipeline cannot.
-**Auto-merge makes conflict resolution a prerequisite of the lane, and that turns "who resolves" from a courtesy into a load-bearing question.**
+**Auto-merge makes conflict resolution a prerequisite of the lane, and that turns "who resolves" from a courtesy into a structural question.**
 
 The second is the model-authored pull request.
 When the author is a model, the conflict round trip behaves differently at both ends.
@@ -93,7 +93,7 @@ The label should express the thing that actually varies, which is not "is this P
 
 For a mechanical conflict there is no decision worth encoding: the bot resolves, the test gates, and a `conflict: auto-resolved` note is enough audit trail.
 The label earns its keep at the semantic tier.
-Something like `conflict: author-resolves` versus `conflict: bot-may-resolve`, defaulted per repository by the maintainers and overridable per PR, is the right shape, and it is the shape the question proposes.
+Something like `conflict: author-resolves` versus `conflict: bot-may-resolve`, defaulted per repository by the maintainers and overridable per PR, is the right form, and it is the form the question proposes.
 
 The interesting work is in the default, and the sound default routes on intent availability, not on author type.
 A PR that links a human-authored issue or spec, with acceptance criteria that cover the change, defaults to `bot-may-resolve`, because the resolution has an oracle.

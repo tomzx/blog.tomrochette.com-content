@@ -18,7 +18,7 @@ Within hours, you've built conveyor belts that carry ore automatically, assemble
 The factory grows.
 You go from doing everything yourself to watching machines do everything for you.
 
-Software development is following the same trajectory.
+**Software development is following the same trajectory.**
 The question is whether you're still hand-mining iron ore.
 
 ## The Belt: Your CI/CD Pipeline
@@ -40,9 +40,9 @@ It doesn't scale.
 
 After belts come assembling machines.
 You feed them ingredients and they output a product.
-You don't craft gears by hand anymore — the assembler does it, faster and without mistakes.
+You don't craft gears by hand anymore (the assembler does it, faster and without mistakes).
 
-Compilers, bundlers, transpilers — these are your assemblers.
+Compilers, bundlers, transpilers: these are your assemblers.
 You feed them source code and they output runnable software.
 You used to manage dependencies by hand, include scripts individually, and pray the versions matched.
 Now the assembler handles it.
@@ -65,20 +65,20 @@ They take items from belts and put them into assemblers, furnaces, and chests.
 They're the glue between every machine.
 
 Integration points in software are your inserters.
-APIs, webhooks, message queues, event streams — they move data between services.
+APIs, webhooks, message queues, event streams: they move data between services.
 Nobody talks about them at conferences.
 But when an inserter stops working in Factorio, the assembler starves.
 When an integration point breaks in production, the service starves.
 
 Most production outages aren't caused by a broken assembler.
-They're caused by a broken inserter — a misconfigured webhook, a timed-out API call, a corrupted message in a queue.
+They're caused by a broken inserter, a misconfigured webhook, a timed-out API call, a corrupted message in a queue.
 The machines were fine.
 The connection between them failed.
 
 ## The Main Bus: Your Monorepo
 
 As your Factorio factory grows, you face a critical design decision: how to organize your belts.
-Most experienced players converge on the same solution — the main bus.
+Most experienced players converge on the same solution, the main bus.
 
 A main bus is a wide highway of parallel belts carrying every resource you need, running in a straight line across your factory.
 You branch off production lines from the bus, pull what you need, and return byproducts.
@@ -93,7 +93,7 @@ Like Factorio, the monorepo isn't optimal in every dimension.
 But when a new developer joins and needs to understand how everything connects, they follow the bus.
 No archaeology required.
 
-Teams that reject the main bus in Factorio end up with spaghetti — belts crisscrossing everywhere, impossible to trace, impossible to modify without breaking something.
+Teams that reject the main bus in Factorio end up with spaghetti, belts crisscrossing everywhere, impossible to trace, impossible to modify without breaking something.
 Teams that reject the monorepo end up the same way: dozens of microservices with undocumented dependencies, where nobody knows which service calls which, and changing one API breaks three things nobody knew existed.
 
 ## Logistics Bots: Your AI Agents
@@ -105,9 +105,12 @@ They don't follow paths.
 You request an item, and a bot brings it.
 
 AI coding agents are your logistics bots.
-Need a function written? The agent writes it.
-Need tests generated? The agent generates them.
-Need a bug investigated? The agent traces the stack.
+Need a function written?
+The agent writes it.
+Need tests generated?
+The agent generates them.
+Need a bug investigated?
+The agent traces the stack.
 They don't need you to lay down a belt first.
 They go directly to the source and bring back what you need.
 
@@ -117,9 +120,11 @@ When the network gets busy, bots queue up, delivery times spike, and your factor
 The best factories use bots for the weird, one-off requests and keep belts for the high-throughput, predictable flows.
 
 The best engineering teams do the same.
-AI agents handle the ad-hoc tasks — the one-off scripts, the bug investigations, the documentation updates.
-But the core pipeline — the build system, the CI/CD, the deployment process — runs on belts.
-Predictable. Reliable. Fast.
+AI agents handle the ad-hoc tasks, the one-off scripts, the bug investigations, the documentation updates.
+But the core pipeline (the build system, the CI/CD, the deployment process) runs on belts.
+Predictable.
+Reliable.
+Fast.
 
 ## The Ratios: Your System Architecture
 
@@ -141,7 +146,7 @@ Users see errors.
 
 Factorio players solve ratio problems with calculators and spreadsheets.
 They plan their factory before they build it.
-Software engineers solve the same problems with load testing and capacity planning — or they should.
+Software engineers solve the same problems with load testing and capacity planning, or they should.
 Too many teams build first and measure later, then wonder why production is slow.
 
 ## Biters: Your Production Incidents
@@ -154,7 +159,7 @@ You can ignore them for a while, but eventually they'll overwhelm your defenses.
 Production incidents are your biters.
 They come in waves, drawn by the complexity of your system.
 The more services you deploy, the more dependencies you add, the more incidents you attract.
-You can ignore them for a while — patch the symptom, restart the service, move on.
+You can ignore them for a while, patch the symptom, restart the service, move on.
 But eventually they'll overwhelm you.
 
 In Factorio, the solution isn't to stop building.
@@ -174,9 +179,9 @@ A belt with 100 items per minute has high throughput but items take time to trav
 A bot delivery is low throughput (one item at a time) but low latency (it goes straight there).
 
 Microservices vs monoliths is the same trade-off.
-A monolith has high throughput — everything runs in the same process, no network calls.
-But change latency is high — you deploy the whole thing even if you changed one function.
-Microservices have low change latency — deploy one service independently.
+A monolith has high throughput; everything runs in the same process, no network calls.
+But change latency is high; you deploy the whole thing even if you changed one function.
+Microservices have low change latency; deploy one service independently.
 But throughput suffers from network overhead, serialization, and distributed coordination.
 
 Factorio doesn't judge you for choosing bots over belts or belts over bots.
@@ -187,7 +192,7 @@ Choose your trade-offs, but be realistic about what you're trading.
 ## The Rocket: Shipping
 
 The goal of Factorio is to launch a rocket.
-Everything you build — every belt, every assembler, every defense — exists to launch that rocket.
+Everything you build (every belt, every assembler, every defense) exists to launch that rocket.
 It's easy to forget this.
 Players spend hundreds of hours optimizing a single belt intersection, perfecting a circuit network, or making their factory look pretty.
 Meanwhile, the rocket sits unbuilt.
@@ -222,7 +227,7 @@ You build radar stations that slowly reveal the map around them.
 Not all at once, but gradually, giving you visibility without requiring you to walk everywhere.
 
 Observability is your radar.
-Logging, metrics, tracing, dashboards — they don't eliminate the unknown, but they reveal it gradually.
+Logging, metrics, tracing, dashboards: they don't eliminate the unknown, but they reveal it gradually.
 You can't see everything.
 But you can see enough to make good decisions.
 
@@ -248,7 +253,7 @@ Good abstractions produce less technical debt than bad ones.
 
 In the late game of Factorio, something interesting happens.
 You stop building things yourself entirely.
-Instead, you design blueprints — templates for entire sections of factory.
+Instead, you design blueprints, templates for entire sections of factory.
 You place a blueprint and construction bots build the whole thing automatically.
 You're no longer an assembler.
 You're an architect.
@@ -272,10 +277,10 @@ Teams that try to skip to software factories without the infrastructure find tha
 
 The Spidertron is Factorio's ultimate vehicle.
 A walking base that you can remote-control, equip with rockets, and send into dangerous territory.
-It's the culmination of everything you've built — it uses the tech you researched, the weapons you crafted, the logistics network you established.
+It's the culmination of everything you've built: it uses the tech you researched, the weapons you crafted, the logistics network you established.
 
 Autonomous AI coding agents are the Spidertron of software development.
-They roam your codebase, make changes, run tests, deploy code — all while you watch from the map.
+They roam your codebase, make changes, run tests, deploy code, all while you watch from the map.
 But like the Spidertron, they're only as good as the infrastructure behind them.
 A Spidertron without researched weapons is a walking target.
 An AI agent without a testing infrastructure is a liability.
@@ -285,12 +290,12 @@ An AI agent without a testing infrastructure is a liability.
 Factorio is a game about building something that builds itself.
 You start by doing everything manually.
 You end by watching machines do everything for you.
-The satisfaction isn't in the automation itself — it's in designing a system that works, that's elegant, that grows.
+The satisfaction isn't in the automation itself: it's in designing a system that works, that's elegant, that grows.
 
 Software development is the same game.
 We start by writing code manually.
 We end by designing systems that write, test, and deploy code without us.
-The satisfaction isn't in the code — it's in the factory.
+The satisfaction isn't in the code: it's in the factory.
 
 If you're still hand-crafting every iron gear, it's time to build your first assembler.
 If you're still carrying ore by hand, it's time to lay down a belt.
@@ -300,8 +305,8 @@ The factory must grow.
 
 ## See also
 
-- [Code Factories: The StarCraft Perspective](../code-factories-starcraft/index.md) — the same concept explored through StarCraft metaphors
-- [Code Factories: The World of Warcraft Perspective](../code-factories-wow/index.md) — the same concept explored through World of Warcraft metaphors
-- [Code Factories: The Stock Market Perspective](../code-factories-stock-market/index.md) — the same concept explored through stock market metaphors
-- [Code Factories: The RollerCoaster Tycoon Perspective](../code-factories-rollercoaster-tycoon/index.md) — the same concept explored through RollerCoaster Tycoon metaphors
+- [Code Factories: The StarCraft Perspective](../code-factories-starcraft/index.md) - the same concept explored through StarCraft metaphors
+- [Code Factories: The World of Warcraft Perspective](../code-factories-wow/index.md) - the same concept explored through World of Warcraft metaphors
+- [Code Factories: The Stock Market Perspective](../code-factories-stock-market/index.md) - the same concept explored through stock market metaphors
+- [Code Factories: The RollerCoaster Tycoon Perspective](../code-factories-rollercoaster-tycoon/index.md) - the same concept explored through RollerCoaster Tycoon metaphors
 

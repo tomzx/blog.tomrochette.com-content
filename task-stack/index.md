@@ -22,7 +22,7 @@ The tray icon always shows the current task as its tooltip.
 
 Todo lists are flat.
 Kanban boards are heavy.
-When you're deep in flow and get interrupted, you don't want to prioritize a backlog — you want to push something on top of what you're doing and pop it off when you're done.
+When you're deep in flow and get interrupted, you don't want to prioritize a backlog: you want to push something on top of what you're doing and pop it off when you're done.
 
 A stack models this naturally:
 - **Push**: a new urgent task goes on top, becomes the current task.
@@ -96,4 +96,4 @@ Push the interruption on the stack, pop it when done, resume what you were doing
 
 ## Related
 
-- [Workstack](../workstack/index.md) — the original note-taking concept that inspired task-stack.
+- [Workstack](../workstack/index.md) - the original note-taking concept that inspired task-stack.

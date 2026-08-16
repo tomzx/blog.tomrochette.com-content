@@ -8,7 +8,7 @@ readability: 3
 ---
 
 Every time AI removes a bottleneck in software development, the next one appears one level higher up the decision chain.
-The constraint never disappears, it just moves.
+**The constraint never disappears, it just moves.**
 
 ## The Five Stages
 

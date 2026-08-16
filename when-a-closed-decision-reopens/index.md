@@ -81,7 +81,7 @@ The day the tools do catch up, your document already names the capability you we
 The single highest-leverage thing you can do to stop the back-and-forth is to insist that decisions get written down the moment they are made, in a place that outlives the meeting.
 
 This is what Architecture Decision Records were invented for, as [Michael Nygard argued](https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions) when he proposed the format: a short document that captures the context, the decision, the alternatives considered, and the status, so that a person who arrives later can understand not just what was decided but why.
-The same discipline applies to scope decisions, which are every bit as load-bearing as architectural ones.
+The same discipline applies to scope decisions, which are every bit as consequential as architectural ones.
 A one-page record that says "we will build this subset, not the full vision, because of these specific constraints, and we agreed this on this date with these people" is worth more than any number of follow-up meetings.
 
 The reason writing matters more than talking is that writing has different physics than speech.
@@ -127,7 +127,7 @@ That sentence is free, and it breaks the spiral.
 
 Second, write the decision record, if it does not already exist.
 Context, the north star, the agreed milestone, the specific technical constraints that forced the compromise, the people who agreed, and the date.
-This is the artifact that should have existed all along, and creating it now is not bureaucratic theater, it is the load-bearing wall of everything that follows.
+This is the artifact that should have existed all along, and creating it now is not bureaucratic theater, it is the wall that holds up everything that follows.
 
 Third, convert every "we can't" into a priced option.
 For each piece of the vision that is out of reach, write what it would take to reach it: which capability, which team, which rough timeline, which dependency.

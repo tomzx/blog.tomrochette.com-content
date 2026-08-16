@@ -95,7 +95,9 @@ The agent can only change code during a dedicated reflection phase, and all chan
 
 ## Transparency
 
-Every action is logged. Want to know what the agent did? Check the daily journal:
+Every action is logged.
+Want to know what the agent did?
+Check the daily journal:
 - `agent/journal/YYYY/MM/DD/notes.md` – What it did
 - `agent/journal/YYYY/MM/DD/reflections.md` – What it learned
 - `agent/journal/YYYY/MM/DD/user-feedback.md` – Human input received

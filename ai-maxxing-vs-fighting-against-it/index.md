@@ -134,7 +134,7 @@ The AI-maxxer and the resistor are each certain they have found the answer, and 
 
 - [The Shifting Bottleneck](../the-shifting-bottleneck/index.md) - why automating a layer moves the bottleneck up to a more judgment-heavy layer rather than away, the mechanism that makes AI-maxxing hollow
 - [Keeping Up With AI Is a Losing Strategy](../keeping-up-with-ai/index.md) - the durable-versus-ephemeral distinction this article generalizes from information consumption to the whole of work
-- [Software Engineering Teams in the Age of AI](../software-engineering-teams-in-the-age-of-ai/index.md) - which friction is load-bearing and which is waste, the team-level version of the same allocation question
+- [Software Engineering Teams in the Age of AI](../software-engineering-teams-in-the-age-of-ai/index.md) - which friction is structural and which is waste, the team-level version of the same allocation question
 - [The Codebase Gardener](../the-codebase-gardener/index.md) - defending durable standards while letting ephemeral ones go, a concrete instance of the selective-protection posture argued for here
 - [Scaling the LLM Agent Company](../scaling-the-llm-agent-company/index.md) - the near-limit of AI-maxxing at organizational scale, and what it still requires of human judgment
 

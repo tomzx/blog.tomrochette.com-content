@@ -69,7 +69,7 @@ No amount of strength in the four can compensate for weakness in the two, becaus
 
 ### The two factors that outrank maturity
 
-These are the load-bearing ones.
+These are the structural ones.
 A team weak on either of them ships a house of cards regardless of how mature it is, and a team strong on both can survive even rough team dynamics.
 Everything else in the foundation eventually feeds into one of these two.
 
@@ -90,7 +90,7 @@ Investing in verification infrastructure is now the highest-return thing a team 
 
 #### The codebase is the model's context
 
-The other load-bearing factor is that the LLM does not generate code in a vacuum.
+The other structural factor is that the LLM does not generate code in a vacuum.
 It generates code as a continuation of the context it is given, and the largest piece of context is the codebase itself.
 A clean, well-factored codebase with clear naming, consistent patterns, and a single way of doing each thing is excellent context, and the model faithfully reproduces its conventions.
 A tangled codebase with five competing styles, dead abstractions, and comments that contradict the code is terrible context, and the model faithfully extends the mess.
@@ -143,7 +143,7 @@ Code review is a one-time signal.
 It catches what one reviewer notices, once, on the diff in front of them, while they happen to be alert.
 A specification prevents the whole class of issue from reaching implementation, and a test catches the same bug on every future run, for as long as the codebase exists.
 As [Rethinking Code Review in the Age of LLMs](../rethinking-code-review-in-the-age-of-llms/index.md) argues, an hour spent improving the specification outranks an hour spent reviewing the output, because the specification compounds and the review does not.
-**For the purpose of shipping without a house of cards, specification is the load-bearing lever, and review is the non-compounding backstop behind it.**
+**For the purpose of shipping without a house of cards, specification is the structural lever, and review is the non-compounding backstop behind it.**
 
 The backstop still has a job, but it is narrower than the one review used to claim.
 With generated code the reviewer is the only brain in the loop, so a light, intent-focused check still catches the occasional wrong assumption before it ships.

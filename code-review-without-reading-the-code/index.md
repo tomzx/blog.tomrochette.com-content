@@ -9,7 +9,7 @@ audience_notes: >
   Assumes the reader participates in pull request review on a software team and has a gut sense that approvals are decided quickly. No particular tooling or stack required.
 ---
 
-Most code review does not involve reading code.
+**Most code review does not involve reading code.**
 The decision to approve is made before the diff opens.
 We keep the ritual, and quietly drop the part that is supposed to justify it.
 

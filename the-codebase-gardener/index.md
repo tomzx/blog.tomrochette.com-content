@@ -231,7 +231,7 @@ Build that, one encoded standard at a time, and the direction the rest of the te
 - [Bringing Everyone to the Same Level](../bringing-everyone-to-the-same-level/index.md) -- the team-level argument for encoding senior engineers' processes into skills; this article is the adversarial, solo version of the same insight
 - [Rethinking Code Review in the Age of LLMs](../rethinking-code-review-in-the-age-of-llms/index.md) -- the case that quality is a property of your constraints, not your reviewers, which is the premise the gardening strategy stands on
 - [When Engineers Disagree on Best Practices](../when-engineers-disagree-on-best-practices/index.md) -- the one-way versus two-way door framing this article borrows for deciding which fights a solo defender should pick
-- [Software Engineering Teams in the Age of AI](../software-engineering-teams-in-the-age-of-ai/index.md) -- which friction is load-bearing and which is waste, the distinction that decides what to encode versus what to remove
+- [Software Engineering Teams in the Age of AI](../software-engineering-teams-in-the-age-of-ai/index.md) -- which friction is structural and which is waste, the distinction that decides what to encode versus what to remove
 - [The Shifting Bottleneck](../the-shifting-bottleneck/index.md) -- why each layer of automation pushes leverage one step up the decision chain, into specification and infrastructure
 
 ## References

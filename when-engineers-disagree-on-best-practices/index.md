@@ -9,7 +9,7 @@ readability: 3
 
 A new team's first disagreement about best practices is not a warning sign.
 It is the moment the team actually starts becoming a team.
-What separates teams that survive this phase from those that stall is not which practices they adopt, but how they resolve the disagreement.
+**What separates teams that survive this phase from those that stall is not which practices they adopt, but how they resolve the disagreement.**
 
 ## Why the Forming Stage Produces Disagreement
 
@@ -192,7 +192,7 @@ That skill compounds for the life of the team.
 ## See also
 
 - [Software Engineering Teams in the Age of AI](../software-engineering-teams-in-the-age-of-ai/index.md) - team composition and which processes earn their keep under pressure
-- [Principles](../principles/index.md) -- decision-making principles, including separating load-bearing friction from waste
+- [Principles](../principles/index.md) -- decision-making principles, including separating structural friction from waste
 
 ## References
 

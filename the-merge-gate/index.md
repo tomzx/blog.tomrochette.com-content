@@ -15,7 +15,7 @@ People treat review and approval as the same thing.
 They are not.
 You can review code without being able to block it.
 You can approve code without reading it.
-The valuable act (reading) and the gating act (merging) have been fused by our tooling, and that fusion is worth pulling apart.
+**The valuable act (reading) and the gating act (merging) have been fused by our tooling, and that fusion is worth pulling apart.**
 
 Most arguments for keeping a human in the merge loop collapse once you ask a single question.
 What does the approval click certify that the automated gates did not?
@@ -240,7 +240,7 @@ The skills that implement it are [publicly available](https://github.com/tomzx/a
 ## The Merge Button Is a Ritual
 
 The merge button exists because our tools gave us a button.
-We built a workflow around it, assigned it meaning, and then treated the meaning as load-bearing.
+We built a workflow around it, assigned it meaning, and then treated the meaning as structural.
 
 It is not.
 The safety of a codebase is produced by the systems around the merge, not by the merge approval itself.

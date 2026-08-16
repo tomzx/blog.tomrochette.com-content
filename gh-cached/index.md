@@ -96,7 +96,7 @@ or
 export GITHUB_TOKEN=ghp_...
 ```
 
-Or just have `gh` installed and authenticated — gh-cached will use `gh auth token` as a fallback.
+Or just have `gh` installed and authenticated: gh-cached will use `gh auth token` as a fallback.
 
 ## When this is useful
 

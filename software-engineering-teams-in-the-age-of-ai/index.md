@@ -10,7 +10,7 @@ readability: 4
 LLM-powered coding assistants have changed what an individual engineer can produce in a day.
 The harder question is what this means for how teams should be organized, how they should work together, and which of their existing processes still earn their keep.
 The answer is counterintuitive: the teams that thrive will not be the ones that adopt AI fastest or eliminate the most process.
-They will be the ones that correctly distinguish between friction that wastes time and friction that prevents mistakes.
+**They will be the ones that correctly distinguish between friction that wastes time and friction that prevents mistakes.**
 
 ## What Actually Changed
 
@@ -59,11 +59,12 @@ In practice this often lands between 3 and 5 people, but the number should follo
 A team of 3 that owns a single well-bounded service is better than a team of 8 that owns six loosely related ones.
 But a team of 6 that owns a genuinely integrated platform is better than splitting that platform across two teams of 3 that now have to coordinate across a boundary that should not exist.
 
-## Friction: Some of It Is Load-Bearing
+## Friction: Some of It Is Structural
 
 The instinct when a new efficiency tool arrives is to use it to remove every source of friction.
 AI makes code review faster, so why not automate it?
-AI can summarize meetings, so why not eliminate them? AI can write documentation, so why not stop requiring it?
+AI can summarize meetings, so why not eliminate them?
+AI can write documentation, so why not stop requiring it?
 
 This instinct is partially right.
 A lot of process friction is genuine waste.

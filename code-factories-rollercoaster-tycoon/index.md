@@ -16,7 +16,7 @@ In RollerCoaster Tycoon, you build a theme park from nothing.
 You lay down paths, construct rides, hire staff, set prices, manage finances, and try to keep thousands of guests happy simultaneously.
 You watch little pixelated people queue for attractions, complain about litter, get sick on rides, and leave when they've had enough.
 
-Building a software product is the same game with different sprites.
+**Building a software product is the same game with different sprites.**
 The question is whether your park guests are leaving happy or leaving forever.
 
 ## Ride Design: Feature Development
@@ -28,14 +28,14 @@ You choose the lift hill height, the drop angle, the number of inversions, the b
 Each decision affects three metrics: excitement, intensity, and nausea.
 
 Excitement is what attracts guests.
-Intensity is the thrill level — some guests love it, some won't ride.
-Nausea is the cost — too much and guests vomit on your paths.
+Intensity is the thrill level: some guests love it, some won't ride.
+Nausea is the cost: too much and guests vomit on your paths.
 
 Feature development has the same three metrics.
 
-Excitement is user value — the feature that solves a real problem, delivers a delightful experience, or unlocks new capability.
-Intensity is complexity — the learning curve, the configuration surface, the cognitive load on users.
-Nausea is maintenance burden — the edge cases, the performance overhead, the support tickets.
+Excitement is user value, the feature that solves a real problem, delivers a delightful experience, or unlocks new capability.
+Intensity is complexity, the learning curve, the configuration surface, the cognitive load on users.
+Nausea is maintenance burden, the edge cases, the performance overhead, the support tickets.
 
 A roller coaster with high excitement and moderate intensity is the ideal ride.
 Guests line up for it, enjoy it, and ride again.
@@ -71,14 +71,14 @@ RollerCoaster Tycoon teaches a specific layout pattern: the hub-and-spoke.
 A central plaza connects to several themed areas.
 Each themed area contains related rides.
 Signs guide guests from the hub to the areas they want.
-The layout is intuitive, discoverable, and scalable — add a new spoke when you add a new area.
+The layout is intuitive, discoverable, and scalable: add a new spoke when you add a new area.
 
 Good information architecture is hub-and-spoke.
 
 A homepage or dashboard connects to major feature areas.
 Each area contains related functionality.
 Breadcrumbs and search guide users to what they need.
-The layout is intuitive, discoverable, and scalable — add a new section when you add a new feature area.
+The layout is intuitive, discoverable, and scalable: add a new section when you add a new feature area.
 
 Parks with random path layouts have low guest counts and low ratings.
 Products with random navigation have low engagement and low retention.
@@ -144,7 +144,7 @@ Build a read replica to distribute the load.
 
 RollerCoaster Tycoon also teaches a subtler lesson about queues: the perception of waiting matters as much as the actual wait.
 
-Rides with themed queue lines — tunnels with decorations, TV screens playing videos, interactive elements — have higher guest satisfaction than rides with bare concrete queues, even when the wait time is identical.
+Rides with themed queue lines (tunnels with decorations, TV screens playing videos, interactive elements) have higher guest satisfaction than rides with bare concrete queues, even when the wait time is identical.
 
 The software equivalent is perceived performance.
 
@@ -167,21 +167,21 @@ Security guards catch vandals and keep the peace.
 Entertainers make guests happy in queue lines.
 
 Each staff member has a patrol zone.
-Set the zone too large and they can't cover it all — litter accumulates in the corners.
+Set the zone too large and they can't cover it all; litter accumulates in the corners.
 Set the zone too small and they cluster in one area while the rest of the park deteriorates.
 Hire too few and the park falls apart.
 Hire too many and the payroll drains your budget.
 
 Engineering teams have the same dynamics.
 
-SREs are mechanics — they inspect, repair, and prevent production failures.
-Support engineers are handymen — they clean up tickets, triage issues, and keep the user experience tidy.
-Security engineers are security guards — they find vulnerabilities, respond to incidents, and keep the codebase safe.
-Developer advocates are entertainers — they engage the community, write documentation, and make the developer experience enjoyable.
+SREs are mechanics: they inspect, repair, and prevent production failures.
+Support engineers are handymen: they clean up tickets, triage issues, and keep the user experience tidy.
+Security engineers are security guards: they find vulnerabilities, respond to incidents, and keep the codebase safe.
+Developer advocates are entertainers: they engage the community, write documentation, and make the developer experience enjoyable.
 
 The patrol zone problem is the on-call rotation problem.
 
-Give an on-call engineer too many services and they can't respond to incidents fast enough — errors accumulate.
+Give an on-call engineer too many services and they can't respond to incidents fast enough; errors accumulate.
 Give them too few and they sit idle while other on-call engineers are overwhelmed.
 Too few engineers on rotation and the team burns out.
 Too many and context is spread thin.
@@ -223,13 +223,13 @@ RollerCoaster Tycoon's solution to breakdowns is preventive maintenance.
 
 Mechanics can be assigned to inspect rides before they break.
 Regular inspections increase reliability and reduce the frequency of breakdowns.
-The cost is the mechanic's time — time spent inspecting is time not spent repairing.
+The cost is the mechanic's time; time spent inspecting is time not spent repairing.
 But the net effect is positive: fewer breakdowns, shorter downtimes, happier guests.
 
 The software equivalent is proactive reliability engineering.
 
 Chaos engineering, load testing, dependency auditing, and synthetic monitoring are preventive inspections.
-The cost is engineering time — time spent testing reliability is time not spent building features.
+The cost is engineering time; time spent testing reliability is time not spent building features.
 But the net effect is positive: fewer incidents, shorter outages, happier users.
 
 Parks that skip inspections have spectacular breakdowns at the worst moments.
@@ -259,7 +259,7 @@ A player who funds research at a moderate, steady rate unlocks new rides through
 
 The software equivalent: invest in exploration consistently, not just when the team is between projects.
 
-A team that dedicates 10% of every sprint to technical exploration — trying new tools, reading papers, prototyping ideas — continuously discovers improvements.
+A team that dedicates 10% of every sprint to technical exploration (trying new tools, reading papers, prototyping ideas) continuously discovers improvements.
 A team that only explores during quarterly hackathons discovers nothing for three months at a time.
 
 Consistent research wins.
@@ -275,7 +275,7 @@ Every RollerCoaster Tycoon scenario has an objective.
 "Repay your loan and achieve a monthly profit of $1,000."
 
 The objectives are specific, measurable, and time-bound.
-They force you to prioritize — you can't do everything, so you do what matters for the objective.
+They force you to prioritize; you can't do everything, so you do what matters for the objective.
 
 Sprint goals and OKRs are scenario objectives.
 
@@ -287,7 +287,7 @@ Sprint goals and OKRs are scenario objectives.
 RollerCoaster Tycoon teaches something critical about objectives: the scenario ends.
 
 When you achieve the objective, the scenario is complete.
-You can keep playing — most players do — but the pressure is off.
+You can keep playing (most players do) but the pressure is off.
 The objective gave the gameplay structure.
 Without it, you'd build aimlessly and the park would suffer.
 
@@ -326,7 +326,7 @@ The second strategy limits growth but reduces the financial burden.
 
 Technical debt is a loan.
 
-You borrowed time by taking shortcuts — skipping tests, ignoring architecture, hardcoding values.
+You borrowed time by taking shortcuts, skipping tests, ignoring architecture, hardcoding values.
 The debt accrues interest every sprint.
 The longer you carry it, the more it costs in debugging, refactoring, and developer frustration.
 
@@ -335,12 +335,12 @@ Or you can pause features, refactor aggressively, and pay it down quickly.
 
 RollerCoaster Tycoon teaches that the optimal strategy depends on the interest rate.
 
-A low-interest loan is fine to carry — the revenue from new rides exceeds the interest cost.
-A high-interest loan is an emergency — it consumes revenue faster than the park can generate it.
+A low-interest loan is fine to carry; the revenue from new rides exceeds the interest cost.
+A high-interest loan is an emergency: it consumes revenue faster than the park can generate it.
 
-Low-interest technical debt — a slightly messy module that rarely changes — is fine to carry.
+Low-interest technical debt (a slightly messy module that rarely changes) is fine to carry.
 The velocity gained by shipping features exceeds the cost of the debt.
-High-interest technical debt — a critical module that breaks every sprint — is an emergency.
+High-interest technical debt (a critical module that breaks every sprint) is an emergency.
 It consumes velocity faster than the team can generate it.
 
 Know your interest rate.
@@ -348,22 +348,22 @@ Manage accordingly.
 
 ## Park Value: Technical Assets
 
-RollerCoaster Tycoon tracks your park value — the combined worth of all your rides, scenery, and infrastructure.
+RollerCoaster Tycoon tracks your park value, the combined worth of all your rides, scenery, and infrastructure.
 
 It's not the same as cash in the bank.
 You can have high park value and no cash if you spent everything on construction.
 You can have high cash and low park value if you haven't built anything.
 
 Park value represents what you've built, not what you have.
-It compounds — every ride you build increases the value, and the more valuable the park, the more guests it attracts, which generates more revenue for building more rides.
+It compounds: every ride you build increases the value, and the more valuable the park, the more guests it attracts, which generates more revenue for building more rides.
 
 Technical assets are park value.
 
-Your component library, your CI/CD pipeline, your monitoring infrastructure, your documentation, your test suite — these are rides you've built.
+Your component library, your CI/CD pipeline, your monitoring infrastructure, your documentation, your test suite: these are rides you've built.
 They represent what you've constructed, not what you have in the backlog.
 
-A team with high technical assets and an empty backlog is well positioned — they can build anything quickly.
-A team with low technical assets and a full backlog is in trouble — everything they try to build requires starting from scratch.
+A team with high technical assets and an empty backlog is well positioned: they can build anything quickly.
+A team with low technical assets and a full backlog is in trouble: everything they try to build requires starting from scratch.
 
 Park value compounds the same way.
 A park with ten rides attracts more guests than one with two, generating more revenue to build more rides.
@@ -377,7 +377,7 @@ Build infrastructure that attracts velocity.
 
 In RollerCoaster Tycoon, scenery affects guest happiness.
 
-Trees, fountains, gardens, statues, themed decorations — guests notice them.
+Trees, fountains, gardens, statues, themed decorations: guests notice them.
 A ride surrounded by matching scenery gets an excitement bonus.
 A path lined with trees and benches keeps guests happy while they walk.
 A park with no scenery is functional but joyless.
@@ -390,16 +390,16 @@ There's no delight, no personality, no sense that someone cared about the experi
 
 RollerCoaster Tycoon teaches that scenery is most effective when it's themed.
 
-A pirate-themed roller coaster surrounded by pirate scenery — ships, treasure chests, palm trees — gets a higher excitement bonus than the same ride surrounded by random, unrelated decorations.
+A pirate-themed roller coaster surrounded by pirate scenery (ships, treasure chests, palm trees) gets a higher excitement bonus than the same ride surrounded by random, unrelated decorations.
 Consistency matters more than quantity.
 
 Design systems are theming.
 
-A consistent design system — typography, colors, spacing, components — creates a cohesive experience.
+A consistent design system (typography, colors, spacing, components) creates a cohesive experience.
 Users don't have to relearn the interface on every page.
 The product feels intentional, polished, professional.
 
-A product with random design choices — different button styles, inconsistent spacing, clashing colors — is a park with random scenery.
+A product with random design choices (different button styles, inconsistent spacing, clashing colors) is a park with random scenery.
 Each element might look fine on its own.
 Together, they're incoherent.
 
@@ -418,7 +418,7 @@ They leave unhappy and the marketing was wasted.
 Product marketing and developer relations work the same way.
 
 A successful marketing campaign brings users.
-But if the product isn't ready — if the onboarding is rough, the documentation is thin, the performance is slow — users arrive to a bad experience.
+But if the product isn't ready (if the onboarding is rough, the documentation is thin, the performance is slow) users arrive to a bad experience.
 They leave unhappy and the marketing was wasted.
 
 RollerCoaster Tycoon teaches the sequence: build the park first, then market it.
@@ -452,7 +452,7 @@ You have to work with what you've got.
 
 Legacy codebases are constrained terrain.
 
-The ideal software project starts from nothing — blank repository, no dependencies, no constraints.
+The ideal software project starts from nothing: blank repository, no dependencies, no constraints.
 Most projects aren't like that.
 
 You inherit a codebase with a decade of decisions baked in.
@@ -461,7 +461,7 @@ An API contract that external clients depend on.
 A build system that nobody fully understands.
 The legacy constrains every decision.
 
-RollerCoaster Tycoon teaches that constrained terrain isn't a disadvantage — it's a design prompt.
+RollerCoaster Tycoon teaches that constrained terrain isn't a disadvantage: it's a design prompt.
 
 The best coasters in the game are built on mountains, using the elevation changes to create drops and turns that flat terrain can't support.
 The constraint forces creativity.
@@ -535,11 +535,11 @@ You notice that onboarding takes too long, so you build interactive tutorials.
 You're no longer writing code.
 You're optimizing a system that writes code.
 
-In RollerCoaster Tycoon, the late game players build mega-parks — sprawling empires with dozens of rides, thousands of guests, and perfect ratings.
+In RollerCoaster Tycoon, the late game players build mega-parks, sprawling empires with dozens of rides, thousands of guests, and perfect ratings.
 They didn't get there by building one perfect ride.
 They got there by building a system where every ride supports every other ride.
 
-In software, the late game teams build software factories — sprawling systems where AI agents write code, tests run automatically, deployments ship continuously, and incidents heal themselves.
+In software, the late game teams build software factories, sprawling systems where AI agents write code, tests run automatically, deployments ship continuously, and incidents heal themselves.
 They didn't get there by writing one perfect feature.
 They got there by building a system where every tool supports every other tool.
 
@@ -553,19 +553,19 @@ RollerCoaster Tycoon is a game about building something that delights people.
 
 You start with empty land and an objective.
 You end with a park that thousands of guests enjoy.
-The satisfaction isn't in any single ride — it's in the system that makes every ride better.
+The satisfaction isn't in any single ride: it's in the system that makes every ride better.
 
 Software development is the same game.
 
 You start with an empty repository and a requirement.
 You end with a product that thousands of users rely on.
-The satisfaction isn't in any single feature — it's in the system that makes every feature better.
+The satisfaction isn't in any single feature: it's in the system that makes every feature better.
 
 In RollerCoaster Tycoon, the parks that endure aren't the ones with the tallest coaster or the most rides.
-They're the ones where everything works together — the paths flow, the queues are short, the staff is attentive, the scenery is beautiful, and every guest leaves happy.
+They're the ones where everything works together: the paths flow, the queues are short, the staff is attentive, the scenery is beautiful, and every guest leaves happy.
 
 In software, the products that endure aren't the ones with the most features or the latest technology.
-They're the ones where everything works together — the architecture is clean, the performance is fast, the support is responsive, the design is consistent, and every user leaves satisfied.
+They're the ones where everything works together: the architecture is clean, the performance is fast, the support is responsive, the design is consistent, and every user leaves satisfied.
 
 If you're still building rides one track piece at a time, it's time to think about the park.
 If you're still writing features one line at a time, it's time to think about the factory.
@@ -574,7 +574,7 @@ The park is open.
 
 ## See also
 
-- [Code Factories: The Factorio Perspective](../code-factories-factorio/index.md) — the same concept explored through Factorio metaphors
-- [Code Factories: The StarCraft Perspective](../code-factories-starcraft/index.md) — the same concept explored through StarCraft metaphors
-- [Code Factories: The World of Warcraft Perspective](../code-factories-wow/index.md) — the same concept explored through World of Warcraft metaphors
-- [Code Factories: The Stock Market Perspective](../code-factories-stock-market/index.md) — the same concept explored through stock market metaphors
+- [Code Factories: The Factorio Perspective](../code-factories-factorio/index.md) - the same concept explored through Factorio metaphors
+- [Code Factories: The StarCraft Perspective](../code-factories-starcraft/index.md) - the same concept explored through StarCraft metaphors
+- [Code Factories: The World of Warcraft Perspective](../code-factories-wow/index.md) - the same concept explored through World of Warcraft metaphors
+- [Code Factories: The Stock Market Perspective](../code-factories-stock-market/index.md) - the same concept explored through stock market metaphors

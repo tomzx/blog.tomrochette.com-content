@@ -36,7 +36,7 @@ Testing earlier finds the symptom sooner; fixing at the origin ensures the sympt
 ## The Amplifier Got an Engine
 
 Before LLMs, a human wrote the code, and the human was a lossy interpreter of the specification.
-That lossiness was quietly load-bearing.
+That lossiness was quietly essential.
 When the spec was ambiguous, the human made a judgment call, often a reasonable one, and that judgment absorbed some of the upstream defect before it could reach the running system.
 The defect still propagated, but through a mind that could correct it on the way down.
 

@@ -9,7 +9,7 @@ readability: 3
 
 Software-as-a-Service gave us recurring revenue.
 Platform-as-a-Service gave us managed infrastructure.
-The next abstraction is obvious in hindsight: Profit-as-a-Service.
+**The next abstraction is obvious in hindsight: Profit-as-a-Service.**
 
 ## The Pattern
 
@@ -32,7 +32,9 @@ A traditional SaaS company sells you a tool.
 You still need to figure out how to use it to generate revenue.
 
 A Profit-as-a-Service company sells you an outcome.
-The tool is invisible. The process is invisible. You pay for the result.
+The tool is invisible.
+The process is invisible.
+You pay for the result.
 
 Examples already exist:
 
@@ -88,7 +90,8 @@ For the provider, this is attractive because:
 
 The critical metric is the spread between what the system generates and what it costs to operate.
 If a system generates $10,000/month per customer and costs $2,000/month to run, the provider can keep $4,000 and give the customer $4,000.
-Both parties are happy. The system scales linearly in cost but exponentially in value.
+Both parties are happy.
+The system scales linearly in cost but exponentially in value.
 
 ## The Risks
 

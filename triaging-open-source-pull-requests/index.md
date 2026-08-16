@@ -279,7 +279,7 @@ State it, link it in every template, and let the automation reinforce it.
 The economics underneath this are shifting, slowly.
 The clearest 2026 voice on maintainer sustainability argues that the polite channels, sponsorship and pledge drives, have [failed](https://ossresistance.com/), and that maintainers should take open source work on company time rather than donate their evenings, because attention donated after hours is attention that does not scale.
 The funding is real but thin: sovereign and industry programs disbursed millions to individual projects this year, with a sovereign fund investing [over a million euros in a single project](https://www.theregister.com/oses/2026/05/14/kde-bags-13m-as-europe-realizes-it-might-need-an-os-of-its-own/5240562/) and the [open source pledge](https://opensourcepledge.com/) setting a two-thousand-dollar-per-engineer floor, yet no 2026 survey has measured whether maintainer burnout actually fell.
-Treat the automation and the expectations as the load-bearing structure, and the funding as the still-insufficient subsidy.
+Treat the automation and the expectations as the structure that carries the weight, and the funding as the still-insufficient subsidy.
 
 And learn to close fast.
 A fast, clear "no, and here is why" is a gift.

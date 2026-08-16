@@ -13,7 +13,7 @@ The question is not whether an LLM can write code for your project.
 It already can.
 The question is whether a project can continue to evolve, fix its own bugs, add its own features, and improve its own quality without you ever opening a terminal, writing a prompt, or reviewing a pull request.
 
-This is the self-evolving repository: a GitHub project where every function of the maintainer has been replaced by an automated loop driven by LLMs.
+**This is the self-evolving repository: a GitHub project where every function of the maintainer has been replaced by an automated loop driven by LLMs.**
 No steering.
 No human-in-the-loop.
 The maintainer sets it up once, walks away, and the project keeps moving.

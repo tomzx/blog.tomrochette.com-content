@@ -66,7 +66,7 @@ They fix the bugs the new features introduced.
 They write the end-to-end tests that prove the feature actually works under load.
 They remove the dead code the visionary left behind when they pivoted.
 They route pull requests from the long tail of contributors through review, because someone has to, and the visionary will not.
-Their commits are almost entirely `fix`, `test`, `refactor`, `chore`, and they open pull requests not out of greater virtue but because their work touches shared, load-bearing surface where a mistake costs everyone.
+Their commits are almost entirely `fix`, `test`, `refactor`, `chore`, and they open pull requests not out of greater virtue but because their work touches shared, critical surface where a mistake costs everyone.
 
 **The visionary produces the entropy that makes the project grow, and the steward does the work that keeps the entropy from being fatal, and neither role is superior to the other.**
 A project with only visionaries ships exciting broken things that no one can depend on.
@@ -202,7 +202,7 @@ Any rule you cannot trace back to such a wound is a rule that is probably drivin
 - [Triaging Open Source Pull Requests](../triaging-open-source-pull-requests/index.md) - the provenance argument this article extends: when the reviewer knows which model wrote a pull request, they know which blind spots to check, and OpenClaw's disclosure template is a working implementation of it
 - [The Merge Gate](../the-merge-gate/index.md) - the case for gating on the blast radius of a change rather than the existence of a pull request, which is the principle behind OpenClaw's line limits and its refusal of refactor-only work
 - [Rethinking Code Review in the Age of LLMs](../rethinking-code-review-in-the-age-of-llms/index.md) - why a machine-checked constraint outperforms a tired human scan, the premise behind treating Codex review as the default standard
-- [Software Engineering Teams in the Age of AI](../software-engineering-teams-in-the-age-of-ai/index.md) - which friction is load-bearing and which is waste, the distinction that explains why OpenClaw's harsh rules are the former and not the latter
+- [Software Engineering Teams in the Age of AI](../software-engineering-teams-in-the-age-of-ai/index.md) - which friction is structural and which is waste, the distinction that explains why OpenClaw's harsh rules are the former and not the latter
 
 ## References
 

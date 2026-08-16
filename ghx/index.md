@@ -93,7 +93,8 @@ Created comment IC_kwDOC0I7As5TKxZa on issue #42
 
 ghx has a local stash system for review comments, modeled after `git stash`.
 
-The main use case is enabling agents to batch many comments at once before submitting them all as a single review. Instead of making individual API calls per comment, an agent can stash comments locally and pop them into a pending review in one operation:
+The main use case is enabling agents to batch many comments at once before submitting them all as a single review.
+Instead of making individual API calls per comment, an agent can stash comments locally and pop them into a pending review in one operation:
 
 ```bash
 $ ghx pr comment 42 --file src/main.go --line 10 --body "Nit" --stash
@@ -119,12 +120,15 @@ The stash supports multiple entries, just like `git stash`: push, pop, drop, and
 
 ## Getting started
 
-ghx is a single Go binary. Download the latest release from [GitHub](https://github.com/tomzxcode/ghx/releases), or install with Go:
+ghx is a single Go binary.
+Download the latest release from [GitHub](https://github.com/tomzxcode/ghx/releases), or install with Go:
 
 ```bash
 go install github.com/tomzxcode/ghx@main
 ```
 
-It picks up your existing `GH_TOKEN`, `GITHUB_TOKEN`, or `gh auth login` credentials. No extra configuration needed. All commands accept `--repo OWNER/REPO` or auto-detect from the current git remote.
+It picks up your existing `GH_TOKEN`, `GITHUB_TOKEN`, or `gh auth login` credentials.
+No extra configuration needed.
+All commands accept `--repo OWNER/REPO` or auto-detect from the current git remote.
 
 ghx is [MIT-licensed](https://github.com/tomzxcode/ghx/blob/main/LICENSE) and written in Go with no runtime dependencies beyond the GitHub API.

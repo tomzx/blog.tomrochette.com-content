@@ -10,7 +10,7 @@ readability: 3
 Most teams that adopt a P0-P5 priority scale make the same mistake: they treat priority as a ranking, not a classification.
 The moment all P0s are resolved, someone suggests "promoting" P1s to P0.
 This feels logical.
-It is wrong.
+**It is wrong.**
 
 ## Priority is a property of the work, not its position in the queue
 

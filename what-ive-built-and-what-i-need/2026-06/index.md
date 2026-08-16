@@ -83,7 +83,7 @@ The triage loop should continue the conversation until the issue is fully qualif
 The [reproduce-issue](https://github.com/tomzx/agents/blob/main/skills/reproduce-issue/SKILL.md) skill now triggers automatically when the "bug" label is added to an issue, but commenting the reproduction results back on the issue is unreliable and needs to be stabilized.
 
 **Introduce loops to automate skill usage.**
-As described in [Loops as Files](../loops-as-files/index.md), loops provide a scheduling layer that can run skills on a recurring basis without manual triggering.
+As described in [Loops as Files](../../loops-as-files/index.md), loops provide a scheduling layer that can run skills on a recurring basis without manual triggering.
 Wiring skills into loops would enable workflows like automated issue triage, weekly repository syncs, and scheduled PR reviews to run unattended.
 
 **Explore routines, habits, and event-driven skill triggering.**

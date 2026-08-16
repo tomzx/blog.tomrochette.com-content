@@ -9,7 +9,7 @@ audience_notes: >
   Assumes the reader is a practicing engineer, senior developer, or educator deciding what fundamentals new developers still need now that LLMs produce most of the code. Comfortable with the idea that code generation is being automated; no formal CS background required.
 ---
 
-The question gets asked as a fork in the road: either drill new developers on low-level languages until they can write a kernel from memory, or accept that writing code is finished and retrain everyone into prompt-shaped product managers.
+The question gets asked as a fork in the road: either drill new developers on low-level languages until they can write a kernel from memory, or accept that writing code is finished and retrain everyone into prompt-wielding product managers.
 It is a false dichotomy, and both branches are wrong for the same reason.
 **They both confuse the surface of programming with the thing programming was always meant to teach, and that thing is now the only part AI cannot do for you.**
 
@@ -31,7 +31,7 @@ The answer to that question dissolves the debate.
 
 Strip away the syntax drills and the "implement linked lists in C" hazing, and a low-level language is a teaching apparatus for a small number of durable mental models.
 None of them are about the language.
-They are about the machine the language sits on top of, and they are exactly the models that become load-bearing once you can no longer trust the code you are reading.
+They are about the machine the language sits on top of, and they are exactly the models that become structural once you can no longer trust the code you are reading.
 
 A model of execution.
 What lives in memory, what gets allocated where, what a call frame is, what happens when a function returns.
@@ -44,10 +44,10 @@ Low-level work is the cheapest known way to make that cost felt in the body, and
 When the model produces plausible code that is also quietly quadratic across a network boundary, the person with a cost model catches it and the person without ships it.
 
 A model of failure.
-Low-level code fails honestly: a segfault, a leak, a data race, a corrupted pointer.
+Low-level code fails loudly: a segfault, a leak, a data race, a corrupted pointer.
 The cause is concrete and the lesson sticks.
 High-level and generated code fails softly, at the seams between abstractions, and the softness is the hazard, because soft failures train nothing and accumulate until they become outages.
-The engineer who learned on honest failures can debug the soft ones.
+The engineer who learned on hard failures can debug the soft ones.
 The reverse is not true.
 
 And, most importantly, a model of where the abstractions leak.
@@ -141,7 +141,7 @@ Prepare accordingly.**
 
 ## See also
 
-- [The Shifting Bottleneck](../the-shifting-bottleneck/index.md) - why automating production moves the constraint to verification, the exact layer where foundation knowledge becomes load-bearing
+- [The Shifting Bottleneck](../the-shifting-bottleneck/index.md) - why automating production moves the constraint to verification, the exact layer where foundation knowledge becomes structural
 - [AI-Maxxing and Resistance Are the Same Mistake](../ai-maxxing-vs-fighting-against-it/index.md) - the depreciating-versus-compounding two-year test this article applies to low-level skills, and the two-camps-one-error structure it borrows
 - [Keeping Up With AI Is a Losing Strategy](../keeping-up-with-ai/index.md) - the durable-versus-ephemeral distinction that frames why mental models compound while syntax decays
 - [Software Engineering Teams in the Age of AI](../software-engineering-teams-in-the-age-of-ai/index.md) - the onboarding paradox this article traces back to its root cause in the vanished struggle curriculum
