@@ -30,7 +30,7 @@ This process generally follows four biological phases:
 
 ## Why Swarms Outperform Single Models
 
-The "Darwinian" approach solves the two biggest headaches in AI-assisted coding: hallucinations and tunnel vision.
+**The "Darwinian" approach solves the two biggest headaches in AI-assisted coding: hallucinations and tunnel vision.**
  * Error Correction: If one agent introduces a bug, the likelihood that five other agents will make the exact same error is low. The swarm acts as a self-healing mechanism.
  * Diverse Architectures: One LLM might get stuck on a specific logic path. A swarm explores the entire "fitness landscape," finding creative solutions a human (or a single AI) might never consider.
  * Performance Benchmarking: By racing agents against each other, the system naturally optimizes for performance.
@@ -43,7 +43,7 @@ The "Darwinian" approach solves the two biggest headaches in AI-assisted coding:
 
 ## The "Fitness Function" Problem
 
-The biggest challenge in Darwinian development isn't the AI; it's the criteria.
+**The biggest challenge in Darwinian development isn't the AI; it's the criteria.**
 For natural selection to work, the environment must be rigorous.
 If your "fitness function" (the tests you use to judge the code) is poorly written, the AI will evolve to pass the test while still being technically broken.
 This is known as reward hacking.
@@ -53,5 +53,5 @@ To counter this, modern swarms often include "Adversarial Agents" whose only job
 
 We are approaching a point where software won't be static.
 Imagine a server that monitors its own performance and, upon detecting a bottleneck, spawns a Darwinian swarm to rewrite its own inefficient modules in real-time.
-In this new world, the developer's role shifts from writer to naturalist.
+**In this new world, the developer's role shifts from writer to naturalist.**
 You aren't typing the lines; you are defining the environment in which the best code can grow.

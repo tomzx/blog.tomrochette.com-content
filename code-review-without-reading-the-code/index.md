@@ -26,7 +26,7 @@ That takes time, and sustained focus, and the kind of attention that does not su
 Opening is something else.
 You open the PR, your eye catches the file list, the green check from CI, the test count, the description the author wrote, and within a few seconds a feeling forms: this is fine, or this is not.
 The code itself sits downstream of all of that.
-Most of the time, you never reach it.
+**Most of the time, you never reach it.**
 
 This is not a failure of discipline.
 It is how the tool presents work to you, and how a busy engineer responds to that presentation.
@@ -71,7 +71,7 @@ When something breaks, we want to point at a name on the pull request and say "t
 The signature has to mean "I read this and vouched for it", or it cannot carry that blame.
 So we maintain the fiction that the signature means what it says, even though everyone, on both sides, knows it often does not.
 
-This is accountability theater: the approve click certifies that a person was present, but rarely certifies that the code was read.
+**This is accountability theater: the approve click certifies that a person was present, but rarely certifies that the code was read.**
 The signature allocates blame after the fact.
 It does not prevent harm before it.
 
@@ -89,7 +89,7 @@ But none of them are "I read this code and understood it".
 
 Run the same test on your team.
 Ask a recent approver to explain, from memory, one function that changed in the pull request they approved.
-The silence you get back is the most truthful data you will collect about how code review actually works in your organization.
+**The silence you get back is the most truthful data you will collect about how code review actually works in your organization.**
 
 I am not mocking reviewers here.
 I have failed this test more often than I have passed it.
@@ -127,7 +127,7 @@ It gets more exhausting, and less effective, for the same rubber stamp at the en
 
 If you were not reading human-written code, you are not going to start reading machine-written code.
 You are going to keep approving signals, with a worse feeling about it.
-The productive move is to put the effort where it was always worth more: upstream, in the specification, the tests, and the gates.
+**The productive move is to put the effort where it was always worth more: upstream, in the specification, the tests, and the gates.**
 
 ## What to Do Next
 
@@ -135,7 +135,7 @@ You do not need permission to start.
 Pick the low-blast-radius path and let it merge on green.
 Then be plain with your team about what the rest of the approvals were already doing.
 
-When a change is large, irreversible, or crosses a trust boundary, read it for real.
+**When a change is large, irreversible, or crosses a trust boundary, read it for real.**
 Budget the time.
 Treat it as the exception it is, not as the default dressed up as diligence.
 

@@ -30,7 +30,7 @@ The question is whether you're trading or being traded.
 A company goes public through an initial public offering.
 Months of preparation (financial audits, legal filings, roadshow pitches) all leading to the moment the ticker appears on an exchange and anyone can buy shares.
 
-Your first production deploy is your IPO.
+**Your first production deploy is your IPO.**
 
 You've spent months writing code, running tests in staging, doing code reviews.
 None of it matters until real users touch real software in a real environment.
@@ -63,7 +63,7 @@ A company's market cap (share price times shares outstanding) is the simplest me
 It tells you how much the market values the company right now.
 It tells you nothing about whether the company is well-run, profitable, or sustainable.
 
-Lines of code is the market cap of software.
+**Lines of code is the market cap of software.**
 
 It tells you how big the codebase is.
 It tells you nothing about whether the code is well-written, tested, or maintainable.
@@ -119,7 +119,7 @@ They invest in infrastructure during bull phases so they can survive bear phases
 They maintain code quality when it's tempting to cut corners.
 They use slow periods to pay down technical debt, refactor, and build the foundation for the next bull run.
 
-Teams that only build features during the good times and cut everything during the bad times are like investors who buy at the top and sell at the bottom.
+**Teams that only build features during the good times and cut everything during the bad times are like investors who buy at the top and sell at the bottom.**
 
 ## Diversification: Your Tech Stack
 
@@ -139,7 +139,7 @@ A portfolio with 200 stocks is harder to manage than one with 20.
 A codebase with 15 programming languages is harder to maintain than one with 3.
 
 The best investors hold enough positions to be diversified but few enough to understand each one deeply.
-The best software teams use enough technologies to avoid single points of failure but few enough to develop deep expertise in each.
+**The best software teams use enough technologies to avoid single points of failure but few enough to develop deep expertise in each.**
 
 The index fund approach (owning a little bit of everything) works in finance.
 In software, it's called using industry standards: well-supported languages, proven databases, battle-tested frameworks.
@@ -152,7 +152,7 @@ Short selling is borrowing a stock, selling it, and hoping the price drops so yo
 You profit from decline.
 The risk is unlimited; the stock can theoretically go to infinity, and your losses grow with it.
 
-Taking on technical debt is short selling your future productivity.
+**Taking on technical debt is short selling your future productivity.**
 
 You borrow time now (by skipping tests, ignoring architecture, hardcoding values) and you pay it back later with interest.
 If the project gets cancelled or rewritten before the debt comes due, you profit.
@@ -181,7 +181,7 @@ But they compound.
 A stock that pays a 3% dividend and reinvests it grows dramatically over decades.
 Dividends are the quiet engine of long-term wealth.
 
-Documentation and tests are dividends.
+**Documentation and tests are dividends.**
 
 They don't ship features.
 They don't impress stakeholders in demos.
@@ -215,7 +215,7 @@ Slower.
 Not guaranteed to execute.
 Price guaranteed.
 
-A market order is deploying to production on a Friday afternoon.
+**A market order is deploying to production on a Friday afternoon.**
 Fast.
 The feature is live.
 No safety guarantee.
@@ -247,7 +247,7 @@ It matters whether the company is doing well relative to expectations.
 A company that doubles revenue but was expected to triple it sees its stock drop.
 A company that loses money but loses less than expected sees its stock rise.
 
-Sprint reviews are earnings season.
+**Sprint reviews are earnings season.**
 
 Every sprint, the team reports what it shipped.
 Stakeholders dissect every feature.
@@ -276,7 +276,7 @@ Traders love volatility: it creates opportunity.
 Investors hate volatility: it creates anxiety.
 Both are describing the same phenomenon from different perspectives.
 
-Production incidents are volatility.
+**Production incidents are volatility.**
 
 High incident volatility means the system swings between working and broken with little warning.
 The on-call engineer gets paged at random hours.
@@ -311,7 +311,7 @@ They believe the price already reflects everything worth knowing and the pattern
 Both approaches have merits.
 Both have blind spots.
 
-Code review has the same split.
+**Code review has the same split.**
 
 The fundamental reviewer reads every line, understands the design decisions, evaluates the architecture, and checks whether the implementation matches the specification.
 They're thorough but slow.
@@ -332,7 +332,7 @@ Reviewers who only look at diffs get caught by changes that look correct in isol
 Insider trading is trading on information that isn't public yet.
 It's illegal in finance because it's unfair: the insider has an advantage that ordinary investors don't.
 
-Knowledge silos are insider trading in software.
+**Knowledge silos are insider trading in software.**
 
 The engineer who has been on the team for five years and knows every quirk of the legacy system has information that new team members don't.
 They can diagnose problems faster, estimate tasks more accurately, and avoid pitfalls that would trap anyone else.
@@ -361,7 +361,7 @@ Program trading, portfolio insurance, and panic selling created a feedback loop.
 Each drop triggered more selling, which triggered more drops.
 The system ate itself.
 
-Cascading production failures are market crashes.
+**Cascading production failures are market crashes.**
 
 A database slows down, which causes API timeouts, which cause retry storms, which overload the load balancer, which drops health checks, which trigger auto-scaling, which overwhelms the database further.
 No single component failed.
@@ -392,7 +392,7 @@ Broad diversification.
 Consistent returns.
 They've outperformed most actively managed funds over any reasonable time period.
 
-Standardized infrastructure is the index fund of software.
+**Standardized infrastructure is the index fund of software.**
 
 You don't try to build the most optimized database layer, the most custom CI/CD pipeline, the most bespoke deployment system.
 You use the standard: Kubernetes for orchestration, GitHub Actions for CI/CD, Terraform for infrastructure as code.
@@ -419,7 +419,7 @@ It amplifies gains when you're right.
 It amplifies losses when you're wrong.
 If the position moves against you enough, you get a margin call: the broker demands more collateral or forces you to sell at a loss.
 
-Overcommitting your team is margin trading.
+**Overcommitting your team is margin trading.**
 
 You borrow future capacity (by promising more features than the team can deliver) to please stakeholders now.
 When the estimates are right, the team delivers and everyone is happy.
@@ -454,7 +454,7 @@ His holding period, he famously said, is forever.
 His edge isn't speed or information.
 It's patience and judgment.
 
-The principal engineer is the Warren Buffett of software.
+**The principal engineer is the Warren Buffett of software.**
 
 They don't chase the latest framework.
 They don't rewrite systems that work.
@@ -499,7 +499,7 @@ Engineers who believe they've built a system that can't fail discover that failu
 
 The market adapts.
 The system adapts.
-Stay humble or get humbled.
+**Stay humble or get humbled.**
 
 ## The Late Game: Algorithmic Trading
 
@@ -515,7 +515,7 @@ They design the systems that trade.
 They monitor the systems, adjust parameters, and intervene when the algorithms encounter situations they weren't designed for.
 But they don't place orders themselves.
 
-Software factories are algorithmic trading.
+**Software factories are algorithmic trading.**
 
 AI agents write code, run tests, deploy services, and respond to incidents with increasing autonomy.
 They don't get tired.
@@ -558,7 +558,7 @@ The market doesn't care about your feelings.
 Your codebase doesn't care about your intentions.
 Both respond to what you do, not what you mean to do.
 
-In both domains, the winners are the ones who manage risk, compound knowledge, stay humble, and play the long game.
+**In both domains, the winners are the ones who manage risk, compound knowledge, stay humble, and play the long game.**
 The losers are the ones who chase hype, take on debt they can't repay, confuse activity with progress, and believe this time is different.
 
 This time is never different.

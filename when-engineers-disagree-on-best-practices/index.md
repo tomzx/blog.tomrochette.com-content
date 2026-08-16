@@ -18,7 +18,7 @@ The testing strategy that saved your last team from weekly regressions.
 The code review checklist that caught the security bug before it shipped.
 The branching model that kept releases sane.
 These are not random preferences.
-They are scar tissue from real failures, and the engineer who brings them believes, correctly, that they matter.
+**They are scar tissue from real failures, and the engineer who brings them believes, correctly, that they matter.**
 
 The problem is that every other engineer on the new team arrives with their own backpack, full of different scar tissue, formed by different failures.
 When these backpacks collide, you get the pattern Bruce Tuckman described in his 1965 study of small-group development: [forming, storming, norming, performing](https://en.wikipedia.org/wiki/Tuckman%27s_stages_of_group_development).
@@ -81,7 +81,7 @@ The discipline is in classifying the decision before debating it.
 
 ## The Experiment Mindset
 
-The single most effective frame for resolving practice disagreement during forming is to treat practices as hypotheses, not as identities.
+**The single most effective frame for resolving practice disagreement during forming is to treat practices as hypotheses, not as identities.**
 
 When two engineers disagree about whether to require code review before merge, the unproductive version of that conversation is an argument about whether code review is good.
 Both people dig in, cite their favorite blog posts, and the discussion becomes about winning.
@@ -154,7 +154,7 @@ A one-page architecture decision record or a paragraph in the team handbook turn
 And then commit.
 The principle of "disagree and commit" applies here.
 Once the team has decided, even those who argued otherwise support the decision fully.
-A practice executed with full commitment and an imperfect choice beats a better practice executed with resentment and inconsistency.
+**A practice executed with full commitment and an imperfect choice beats a better practice executed with resentment and inconsistency.**
 
 ## When Someone Refuses to Commit
 
@@ -165,7 +165,7 @@ This is no longer a disagreement about practice.
 It is a disagreement about whether the team's decision-making process has legitimacy.
 
 This must be addressed directly, and early.
-A team that tolerates a member who overrides collective decisions after they are made has no process at all.
+**A team that tolerates a member who overrides collective decisions after they are made has no process at all.**
 It has a veto by the most stubborn person.
 The conversation is no longer about the practice.
 It is about participation in a shared system.
@@ -185,7 +185,7 @@ The second, and more important, is a shared process for handling the next thing 
 New disagreements never stop.
 The codebase grows, the team grows, the technology landscape shifts, and yesterday's settled practice becomes tomorrow's debate.
 The teams that handle this well are not the ones that picked the best practices on day one.
-They are the ones that learned, during forming, how to disagree productively, decide efficiently, and commit fully.
+**They are the ones that learned, during forming, how to disagree productively, decide efficiently, and commit fully.**
 
 That skill compounds for the life of the team.
 

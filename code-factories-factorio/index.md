@@ -26,7 +26,7 @@ The question is whether you're still hand-mining iron ore.
 In Factorio, the conveyor belt is the first automation you build.
 Instead of walking back and forth carrying ore, you lay down a belt and let it move resources while you do something else.
 
-Your CI/CD pipeline is the belt.
+**Your CI/CD pipeline is the belt.**
 Every time you push code, tests run, builds compile, deployments ship.
 You don't walk the ore to the furnace anymore.
 The belt carries it.
@@ -42,7 +42,7 @@ After belts come assembling machines.
 You feed them ingredients and they output a product.
 You don't craft gears by hand anymore (the assembler does it, faster and without mistakes).
 
-Compilers, bundlers, transpilers: these are your assemblers.
+**Compilers, bundlers, transpilers: these are your assemblers.**
 You feed them source code and they output runnable software.
 You used to manage dependencies by hand, include scripts individually, and pray the versions matched.
 Now the assembler handles it.
@@ -64,7 +64,7 @@ Inserters are the quiet heroes of Factorio.
 They take items from belts and put them into assemblers, furnaces, and chests.
 They're the glue between every machine.
 
-Integration points in software are your inserters.
+**Integration points in software are your inserters.**
 APIs, webhooks, message queues, event streams: they move data between services.
 Nobody talks about them at conferences.
 But when an inserter stops working in Factorio, the assembler starves.
@@ -86,7 +86,7 @@ It's not the most space-efficient design.
 It's not the fastest.
 But it's the most understandable, and in a game where your own factory can become incomprehensible, understandability is survival.
 
-A monorepo is your main bus.
+**A monorepo is your main bus.**
 All your code, all your services, all your shared libraries in one place, organized in a predictable structure.
 Teams branch off to build their services, pull shared dependencies from the bus, and contribute back.
 Like Factorio, the monorepo isn't optimal in every dimension.
@@ -114,7 +114,7 @@ The agent traces the stack.
 They don't need you to lay down a belt first.
 They go directly to the source and bring back what you need.
 
-But here's what Factorio teaches about bots: they don't replace belts.
+**But here's what Factorio teaches about bots: they don't replace belts.**
 Players who try to run everything on bots discover that bots have a capacity limit.
 When the network gets busy, bots queue up, delivery times spike, and your factory starves.
 The best factories use bots for the weird, one-off requests and keep belts for the high-throughput, predictable flows.
@@ -135,7 +135,7 @@ If you get the ratios wrong, you get bottlenecks.
 One belt backs up while another starves.
 Resources pile up where they're not needed and run dry where they are.
 
-System architecture has the same dynamics, just less precise.
+**System architecture has the same dynamics, just less precise.**
 Every service has throughput limits.
 Every database has connection pool limits.
 Every queue has a maximum depth.
@@ -156,7 +156,7 @@ They attack your factory in increasing waves, drawn by the pollution your machin
 The more you build, the more they attack.
 You can ignore them for a while, but eventually they'll overwhelm your defenses.
 
-Production incidents are your biters.
+**Production incidents are your biters.**
 They come in waves, drawn by the complexity of your system.
 The more services you deploy, the more dependencies you add, the more incidents you attract.
 You can ignore them for a while, patch the symptom, restart the service, move on.
@@ -178,7 +178,7 @@ Factorio players eventually discover that throughput and latency are different t
 A belt with 100 items per minute has high throughput but items take time to travel from one end to the other.
 A bot delivery is low throughput (one item at a time) but low latency (it goes straight there).
 
-Microservices vs monoliths is the same trade-off.
+**Microservices vs monoliths is the same trade-off.**
 A monolith has high throughput; everything runs in the same process, no network calls.
 But change latency is high; you deploy the whole thing even if you changed one function.
 Microservices have low change latency; deploy one service independently.
@@ -206,7 +206,7 @@ The users sit unserved.
 The business sits unimproved.
 
 Factorio teaches a simple lesson: the factory exists to launch the rocket, not the other way around.
-The code exists to ship the product.
+**The code exists to ship the product.**
 Every optimization that doesn't serve the product is a belt to nowhere.
 
 ## The Map: Your Unknown Unknowns
@@ -226,7 +226,7 @@ The Factorio solution to the fog of war is radar.
 You build radar stations that slowly reveal the map around them.
 Not all at once, but gradually, giving you visibility without requiring you to walk everywhere.
 
-Observability is your radar.
+**Observability is your radar.**
 Logging, metrics, tracing, dashboards: they don't eliminate the unknown, but they reveal it gradually.
 You can't see everything.
 But you can see enough to make good decisions.
@@ -238,7 +238,7 @@ Pollution spreads across the map and triggers biter attacks.
 More machines, more pollution, more attacks.
 Pollution is the cost of growth.
 
-Technical debt is pollution.
+**Technical debt is pollution.**
 Every shortcut, every hack, every "we'll fix it later" generates debt.
 Debt spreads through the codebase, making changes harder, triggering bugs, slowing development.
 More code, more debt, more incidents.
@@ -258,7 +258,7 @@ You place a blueprint and construction bots build the whole thing automatically.
 You're no longer an assembler.
 You're an architect.
 
-Software factories are the late game of software development.
+**Software factories are the late game of software development.**
 You don't write code.
 You write specifications.
 You don't review code.
@@ -279,7 +279,7 @@ The Spidertron is Factorio's ultimate vehicle.
 A walking base that you can remote-control, equip with rockets, and send into dangerous territory.
 It's the culmination of everything you've built: it uses the tech you researched, the weapons you crafted, the logistics network you established.
 
-Autonomous AI coding agents are the Spidertron of software development.
+**Autonomous AI coding agents are the Spidertron of software development.**
 They roam your codebase, make changes, run tests, deploy code, all while you watch from the map.
 But like the Spidertron, they're only as good as the infrastructure behind them.
 A Spidertron without researched weapons is a walking target.
@@ -295,7 +295,7 @@ The satisfaction isn't in the automation itself: it's in designing a system that
 Software development is the same game.
 We start by writing code manually.
 We end by designing systems that write, test, and deploy code without us.
-The satisfaction isn't in the code: it's in the factory.
+**The satisfaction isn't in the code: it's in the factory.**
 
 If you're still hand-crafting every iron gear, it's time to build your first assembler.
 If you're still carrying ore by hand, it's time to lay down a belt.

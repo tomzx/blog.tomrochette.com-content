@@ -37,7 +37,7 @@ It measures activity, not impact.
 A developer who writes 500 lines in a day isn't necessarily more productive than one who writes 50.
 The 50-line developer might have deleted 200 lines, simplified an abstraction, or prevented a week of debugging.
 
-The StarCraft lesson: optimize for effective actions, not total actions.
+**The StarCraft lesson: optimize for effective actions, not total actions.**
 In code, optimize for value shipped, not code written.
 
 ## Worker Production: Hiring
@@ -47,7 +47,7 @@ Workers gather resources.
 Resources fund everything else: units, buildings, upgrades.
 A player who stops producing workers at the five-minute mark will be economically crushed by one who didn't, regardless of army composition or tactical skill.
 
-Hiring is your worker production.
+**Hiring is your worker production.**
 Every engineer you add increases your resource gathering rate, the rate at which your team can design, build, and ship software.
 A team that stops hiring after its founding engineers will be outpaced by a team that kept recruiting, even if the founding team was brilliant.
 
@@ -70,7 +70,7 @@ It costs resources to build.
 It takes time to become profitable.
 And it's vulnerable, spread across the map, harder to defend, exposed to attack.
 
-Starting a new team or service is expanding.
+**Starting a new team or service is expanding.**
 You invest resources (hiring, onboarding, infrastructure) in exchange for future throughput.
 The first team's codebase, like a mineral patch, eventually becomes congested.
 Too many engineers working on the same service creates merge conflicts, deployment bottlenecks, and architectural compromises.
@@ -93,7 +93,7 @@ Terran supply depots, Protoss pylons, Zerg overlords: each race has its own mech
 If you hit the cap, production halts.
 Your factories, barracks, and starports sit idle until you build more supply.
 
-Organizational scaling has supply caps too.
+**Organizational scaling has supply caps too.**
 They just aren't as explicit.
 
 The first cap is communication.
@@ -126,7 +126,7 @@ Build orders aren't rigid scripts.
 They're opening principles, a sequence that has been proven to lead to a strong mid-game position.
 Players deviate when they scout something unexpected, but they always have a plan to return to.
 
-Project plans are build orders.
+**Project plans are build orders.**
 You don't start building features randomly.
 You have a sequence: set up the repository, configure CI/CD, build the core domain model, add the API layer, implement authentication, deploy to staging.
 The order matters because each step depends on the previous one.
@@ -159,7 +159,7 @@ You might be expanding into territory nobody wants.
 StarCraft players send a worker to scout at supply 13.
 They sacrifice a unit to gain information.
 Good software teams do the same: they sacrifice development time to talk to users, run usability tests, and analyze metrics.
-The cost of scouting is always less than the cost of building the wrong thing.
+**The cost of scouting is always less than the cost of building the wrong thing.**
 
 ## Tech Trees: Technology Choices
 
@@ -173,7 +173,7 @@ You can't deploy containers without a container runtime.
 You can't run Kubernetes without understanding networking, DNS, and certificate management.
 You can't implement real-time features without WebSockets, which requires understanding persistent connections, which requires understanding your load balancer's timeout settings.
 
-The StarCraft lesson about tech trees is simple: don't tech too fast and don't tech too wide.
+**The StarCraft lesson about tech trees is simple: don't tech too fast and don't tech too wide.**
 
 Teching too fast means skipping army production to rush advanced technology.
 In StarCraft, this loses to an early attack.
@@ -189,7 +189,7 @@ Pick a path through the tech tree and commit to it.
 
 ## Unit Composition: Team Composition
 
-In StarCraft, army composition matters more than army size.
+**In StarCraft, army composition matters more than army size.**
 A player with 50 marines loses to a player with 10 banelings and 20 zerglings.
 A player with 20 stalkers loses to a player with 10 immortals.
 Each unit has strengths and weaknesses, and the right combination is stronger than any individual unit.
@@ -239,7 +239,7 @@ They prioritize.
 They let minor fights play out automatically while they manage the critical ones.
 
 Software developers need to learn the same lesson.
-You can't context-switch between five tasks and do any of them well.
+**You can't context-switch between five tasks and do any of them well.**
 Prioritize the critical path.
 Let minor tasks wait.
 Not everything is a drop in your mineral line.
@@ -252,7 +252,7 @@ Zerg units move faster on creep.
 Zerg structures can only be built on creep.
 Creep tumors extend the network, and a well-spread creep carpet gives the Zerg player vision, mobility, and territorial control.
 
-Codebase quality is creep spread.
+**Codebase quality is creep spread.**
 Good test coverage, clear documentation, consistent naming conventions, and well-defined interfaces: these are your creep tumors.
 Each one extends the area where future development moves faster.
 New engineers onboard more quickly on a well-documented codebase.
@@ -278,7 +278,7 @@ The anxiety is universal.
 Grandmasters feel it.
 Day9 famously talked about how terrified he was to play his placement matches, and he was one of the best players in the world.
 
-Imposter syndrome in software is ladder anxiety.
+**Imposter syndrome in software is ladder anxiety.**
 The fear of submitting a pull request because your code might be wrong.
 The fear of speaking up in an architecture meeting because your idea might be bad.
 The fear of applying for a senior role because you might not be good enough.
@@ -309,7 +309,7 @@ They win quickly against unprepared opponents and lose decisively against prepar
 Nobody wins a tournament with cheese alone.
 But everyone encounters it, and everyone has to learn to defend against it.
 
-Technical shortcuts are cheese.
+**Technical shortcuts are cheese.**
 Copy-pasting code from Stack Overflow without understanding it.
 Deploying directly to production without tests.
 Hardcoding a configuration value because you're in a hurry.
@@ -338,7 +338,7 @@ They replace losses faster.
 They tech-switch faster.
 They recover from setbacks faster.
 
-Software factories are the late game of software development.
+**Software factories are the late game of software development.**
 Individual code contributions matter less than the systems that produce them.
 The team with better CI/CD, better testing infrastructure, better monitoring, and better AI tooling ships faster.
 They recover from incidents faster.
@@ -362,7 +362,7 @@ A player who tries to play Terran like Zerg (aggressive, expendable, swarm-like)
 A player who tries to play Protoss like Terran (defensive, positional, slow) loses.
 You have to play your race's strengths.
 
-Technology stacks are races.
+**Technology stacks are races.**
 A Python/Django stack rewards rapid development and convention-over-configuration (Protoss-like elegance).
 A Java/Spring stack rewards enterprise robustness and type safety (Terran-like positional strength).
 A Go microservices stack rewards simplicity, concurrency, and operational efficiency (Zerg-like speed and resilience).
@@ -403,7 +403,7 @@ They don't quit at the first setback.
 They quit when recovery becomes impossible.
 Software teams need the same judgment.
 Don't rewrite at the first sign of technical debt.
-Rewrite when the debt makes every change slower than a fresh start would be.
+**Rewrite when the debt makes every change slower than a fresh start would be.**
 
 ## The Lesson
 
@@ -413,7 +413,7 @@ The best players aren't the ones with the fastest hands: they're the ones who ma
 
 Software development is the same game.
 You manage features, infrastructure, team composition, code quality, and user feedback all at once, while the market changes and competitors advance.
-The best teams aren't the ones who write the most code: they're the ones who make better decisions about where to invest their resources.
+**The best teams aren't the ones who write the most code: they're the ones who make better decisions about where to invest their resources.**
 
 In StarCraft, every game is different.
 The map changes, the opponent changes, the meta shifts.

@@ -47,7 +47,7 @@ Guests try it once, throw up, and never return.
 A feature with maximum complexity and maximum maintenance burden empties the user base.
 Users try it once, get confused, and never return.
 
-The RollerCoaster Tycoon lesson: optimize for excitement, manage intensity, minimize nausea.
+**The RollerCoaster Tycoon lesson: optimize for excitement, manage intensity, minimize nausea.**
 In software: optimize for value, manage complexity, minimize burden.
 
 ## Park Layout: Information Architecture
@@ -59,7 +59,7 @@ They can only reach rides that are connected to the path network.
 If a ride is hidden behind another ride with no path leading to it, it might as well not exist.
 If the path network is a tangled mess, guests get lost, frustrated, and leave.
 
-Your information architecture is your path layout.
+**Your information architecture is your path layout.**
 
 Users follow navigation.
 They can only find features that are connected to the navigation flow.
@@ -102,7 +102,7 @@ Every confusing error message decreases it.
 Every unexpected price increase decreases it.
 When satisfaction drops below a threshold, the user churns and the review rating drops.
 
-RollerCoaster Tycoon teaches that guest happiness is a composite of many small factors, not one big one.
+**RollerCoaster Tycoon teaches that guest happiness is a composite of many small factors, not one big one.**
 
 No single ride makes guests happy.
 It's the combination of good rides, short queues, clean paths, reasonable prices, attractive scenery, and available amenities.
@@ -142,7 +142,7 @@ Scale horizontally with more servers.
 Cache frequently requested data.
 Build a read replica to distribute the load.
 
-RollerCoaster Tycoon also teaches a subtler lesson about queues: the perception of waiting matters as much as the actual wait.
+**RollerCoaster Tycoon also teaches a subtler lesson about queues: the perception of waiting matters as much as the actual wait.**
 
 Rides with themed queue lines (tunnels with decorations, TV screens playing videos, interactive elements) have higher guest satisfaction than rides with bare concrete queues, even when the wait time is identical.
 
@@ -179,7 +179,7 @@ Support engineers are handymen: they clean up tickets, triage issues, and keep t
 Security engineers are security guards: they find vulnerabilities, respond to incidents, and keep the codebase safe.
 Developer advocates are entertainers: they engage the community, write documentation, and make the developer experience enjoyable.
 
-The patrol zone problem is the on-call rotation problem.
+**The patrol zone problem is the on-call rotation problem.**
 
 Give an on-call engineer too many services and they can't respond to incidents fast enough; errors accumulate.
 Give them too few and they sit idle while other on-call engineers are overwhelmed.
@@ -208,7 +208,7 @@ The mechanic has to walk across the park, inspect the ride, and repair it.
 
 During the downtime, the queue grows, the guests complain, and the park rating drops.
 
-Production incidents are ride breakdowns.
+**Production incidents are ride breakdowns.**
 
 New services are highly reliable.
 As they age, complexity accumulates.
@@ -262,7 +262,7 @@ The software equivalent: invest in exploration consistently, not just when the t
 A team that dedicates 10% of every sprint to technical exploration (trying new tools, reading papers, prototyping ideas) continuously discovers improvements.
 A team that only explores during quarterly hackathons discovers nothing for three months at a time.
 
-Consistent research wins.
+**Consistent research wins.**
 Burst research wastes the intervals between bursts.
 
 ## Scenario Objectives: Sprint Goals and OKRs
@@ -306,7 +306,7 @@ Software objectives have the same distortion effect.
 An objective that measures lines of code produces lots of code.
 An objective that measures features shipped produces lots of features.
 Neither guarantees quality, user satisfaction, or business value.
-The metric you optimize is the park you get.
+**The metric you optimize is the park you get.**
 
 Choose your scenario objective carefully.
 It will determine everything you build.
@@ -324,7 +324,7 @@ Or you can cut spending, build cheap rides, and pay it off quickly.
 The first strategy grows the park but increases the total interest paid.
 The second strategy limits growth but reduces the financial burden.
 
-Technical debt is a loan.
+**Technical debt is a loan.**
 
 You borrowed time by taking shortcuts, skipping tests, ignoring architecture, hardcoding values.
 The debt accrues interest every sprint.
@@ -357,7 +357,7 @@ You can have high cash and low park value if you haven't built anything.
 Park value represents what you've built, not what you have.
 It compounds: every ride you build increases the value, and the more valuable the park, the more guests it attracts, which generates more revenue for building more rides.
 
-Technical assets are park value.
+**Technical assets are park value.**
 
 Your component library, your CI/CD pipeline, your monitoring infrastructure, your documentation, your test suite: these are rides you've built.
 They represent what you've constructed, not what you have in the backlog.
@@ -382,7 +382,7 @@ A ride surrounded by matching scenery gets an excitement bonus.
 A path lined with trees and benches keeps guests happy while they walk.
 A park with no scenery is functional but joyless.
 
-Design and UX are scenery.
+**Design and UX are scenery.**
 
 A functional interface without thoughtful design is a park without trees.
 Users can complete their tasks but they don't enjoy them.
@@ -421,7 +421,7 @@ A successful marketing campaign brings users.
 But if the product isn't ready (if the onboarding is rough, the documentation is thin, the performance is slow) users arrive to a bad experience.
 They leave unhappy and the marketing was wasted.
 
-RollerCoaster Tycoon teaches the sequence: build the park first, then market it.
+**RollerCoaster Tycoon teaches the sequence: build the park first, then market it.**
 
 Players who spend their initial budget on marketing instead of rides attract guests to an empty park.
 The guests find nothing to do and leave.
@@ -461,7 +461,7 @@ An API contract that external clients depend on.
 A build system that nobody fully understands.
 The legacy constrains every decision.
 
-RollerCoaster Tycoon teaches that constrained terrain isn't a disadvantage: it's a design prompt.
+**RollerCoaster Tycoon teaches that constrained terrain isn't a disadvantage: it's a design prompt.**
 
 The best coasters in the game are built on mountains, using the elevation changes to create drops and turns that flat terrain can't support.
 The constraint forces creativity.
@@ -497,7 +497,7 @@ The sequence must be optional, not mandatory.
 
 Service orchestration must be the same.
 Each service should work independently.
-Coordination is an optimization, not a requirement.
+**Coordination is an optimization, not a requirement.**
 If Service A is down, Service B should still function, even if degraded.
 
 Guests who are forced through a sequence they don't want rebel.
@@ -521,7 +521,7 @@ You notice that the park rating dips every time it rains, so you build more indo
 You're no longer building rides.
 You're optimizing a system.
 
-Software factories are the late game of development.
+**Software factories are the late game of development.**
 
 Your CI/CD pipeline is established.
 Your monitoring is running.
@@ -559,7 +559,7 @@ Software development is the same game.
 
 You start with an empty repository and a requirement.
 You end with a product that thousands of users rely on.
-The satisfaction isn't in any single feature: it's in the system that makes every feature better.
+**The satisfaction isn't in any single feature: it's in the system that makes every feature better.**
 
 In RollerCoaster Tycoon, the parks that endure aren't the ones with the tallest coaster or the most rides.
 They're the ones where everything works together: the paths flow, the queues are short, the staff is attentive, the scenery is beautiful, and every guest leaves happy.

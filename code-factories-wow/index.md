@@ -41,7 +41,7 @@ Each project, each codebase, each production incident is experience points.
 You don't become a senior developer by reading about architecture.
 You become one by leveling through enough bad architectures to recognize a good one.
 
-The WoW lesson: there are no shortcuts to the level cap.
+**The WoW lesson: there are no shortcuts to the level cap.**
 Boosted characters (players who pay to skip leveling) arrive at max level without understanding their class.
 Developers who skip fundamentals (jumping straight into frameworks without understanding the language, or into architecture without understanding systems) are boosted characters.
 They have the gear but not the skill.
@@ -65,7 +65,7 @@ A backend developer can learn frontend.
 A frontend developer can learn DevOps.
 The cost isn't gold: it's time.
 
-But WoW teaches something important about talent trees: depth beats breadth early on.
+**But WoW teaches something important about talent trees: depth beats breadth early on.**
 
 A player who spreads talent points across all three trees is weaker than one who commits to one.
 A developer who tries to master everything is weaker than one who goes deep on one domain first, then branches out later.
@@ -100,7 +100,7 @@ The experienced developer knows the same thing.
 Not every ticket deserves the same investment.
 Some are quick wins with high impact.
 Some are rabbit holes that consume days for negligible value.
-The skill isn't in completing the quest: it's in choosing the right quests.
+**The skill isn't in completing the quest: it's in choosing the right quests.**
 
 ## Dungeons: Sprint Delivery
 
@@ -126,7 +126,7 @@ The tech lead is the tank: they scope the work, set priorities, manage risk.
 The more senior developers are the healers: they catch issues in review, patch architectural problems, keep the codebase healthy.
 The team executes, writing features, fixing bugs, shipping code.
 
-WoW teaches a critical dungeon lesson: the group moves at the pace of its weakest coordinated member.
+**WoW teaches a critical dungeon lesson: the group moves at the pace of its weakest coordinated member.**
 
 One player who doesn't know the strategy, doesn't listen to the leader, or attacks the wrong target can wipe the group.
 In a sprint, one developer who misunderstands the requirement, skips code review, or deploys without testing can derail the whole release.
@@ -143,7 +143,7 @@ One person stands in the wrong spot and the entire raid dies.
 One healer misses a rotation and the tank falls.
 One damage dealer ignores a mechanic and the boss enrages.
 
-Raids are large-scale projects.
+**Raids are large-scale projects.**
 
 Multiple teams coordinating across a shared objective.
 One service goes down and the whole product suffers.
@@ -211,7 +211,7 @@ Tanks and healers complain that DPS players are replaceable.
 In software, everyone has complained about both sides.
 Feature developers complain that code review is slow.
 Code reviewers complain that features are rushed.
-The truth is the same as in WoW: you need all three, and disrespecting any role is how you wipe.
+**The truth is the same as in WoW: you need all three, and disrespecting any role is how you wipe.**
 
 ## Gear and Item Level: Tools and Experience
 
@@ -219,7 +219,7 @@ In WoW, gear matters.
 A level 60 character in quest greens loses to a level 55 character in raid epics.
 Item level (the numerical representation of gear quality) determines whether you're invited to groups, accepted into raids, or competitive in PvP.
 
-But gear is a multiplier, not a substitute.
+**But gear is a multiplier, not a substitute.**
 
 A player in the best gear who doesn't know their rotation does less damage than a skilled player in mediocre gear.
 The game rewards both (you need skill to earn gear, and gear amplifies skill) but skill is the foundation.
@@ -261,7 +261,7 @@ The null pointer only occurs when the user has an empty cart and clicks checkout
 Each condition is a rule.
 Satisfy the right combination and the bug reproduces.
 
-WoW teaches a specific approach to boss mechanics: learn the fight, don't brute-force it.
+**WoW teaches a specific approach to boss mechanics: learn the fight, don't brute-force it.**
 
 You don't defeat a boss by throwing yourself at it repeatedly, hoping for better luck.
 You study the mechanics, adjust your strategy, and execute precisely.
@@ -299,7 +299,7 @@ Someone calls out what went wrong ("the healer got silenced during the AoE phase
 They try again in thirty seconds.
 They might wipe again, but they wipe to a different mechanic, which means they're learning.
 
-Incident response is wipe recovery.
+**Incident response is wipe recovery.**
 
 A production outage is a wipe.
 Something broke.
@@ -347,7 +347,7 @@ Turf wars over services.
 Engineers who hoard knowledge and resist review.
 Teams that optimize for their own metrics at the expense of the product.
 
-WoW players know: the guild determines the experience more than the game.
+**WoW players know: the guild determines the experience more than the game.**
 
 A great guild makes mediocre content fun.
 A bad guild makes great content miserable.
@@ -365,7 +365,7 @@ Players buy and sell items (crafting materials, gear, consumables) in an open ma
 Prices fluctuate based on supply and demand.
 Some players spend more time on the Auction House than in raids.
 
-Package registries are the Auction House.
+**Package registries are the Auction House.**
 
 npm, PyPI, Maven Central, RubyGems: open markets where developers distribute code.
 Most of it is free, but the economics are the same.
@@ -389,7 +389,7 @@ The developer's defense: audit dependencies, check maintenance history, don't in
 WoW's addon system lets players customize their UI and augment their gameplay.
 Damage meters, boss mod warnings, raid frames, loot council tools: the default UI works, but serious players run dozens of addons.
 
-Developer tooling is the addon ecosystem.
+**Developer tooling is the addon ecosystem.**
 
 Linter, formatter, pre-commit hooks, custom IDE snippets, shell aliases, tmux configurations: the default development environment works, but serious developers customize extensively.
 
@@ -415,7 +415,7 @@ Professions don't advance the main quest.
 They don't give experience.
 But they make the main quest easier.
 
-Internal tooling is professions.
+**Internal tooling is professions.**
 
 CLI tools, build scripts, code generators, monitoring dashboards: they don't ship features, but they make shipping features faster.
 A team that invests in professions (that builds internal tools) levels faster than one that doesn't.
@@ -437,7 +437,7 @@ If a DPS player generates too much threat, the boss turns and kills them.
 This is called pulling aggro.
 It's almost always fatal.
 
-Production incidents have threat tables.
+**Production incidents have threat tables.**
 
 The on-call engineer is the tank.
 They absorb the pressure, pages, alerts, user complaints, Slack messages.
@@ -463,7 +463,7 @@ After a fixed duration, the boss enters an enraged state: damage increases drama
 
 The message is simple: you must be good enough, fast enough.
 
-Software deadlines are enrage timers.
+**Software deadlines are enrage timers.**
 
 The quarterly OKR deadline.
 The conference demo.
@@ -493,7 +493,7 @@ Running the same dungeon for the thirty-seventh time because the trinket won't d
 Nobody enjoys grinding.
 But grinding is how you progress.
 
-Software maintenance is grinding.
+**Software maintenance is grinding.**
 
 Updating dependencies.
 Fixing flaky tests.
@@ -544,7 +544,7 @@ They take enormous investment.
 They disrupt existing workflows.
 They might attract new users or they might alienate existing ones.
 
-WoW's approach to expansions is instructive: the core identity stays the same.
+**WoW's approach to expansions is instructive: the core identity stays the same.**
 Despite every expansion's changes, WoW is still about questing, dungeons, raids, and gear.
 The systems change.
 The core doesn't.
@@ -564,7 +564,7 @@ You earn them on your max-level character and mail them to your alts, your alter
 A level 1 alt wearing heirloom gear is dramatically stronger than a level 1 character in normal gear.
 The investment you made on your main character pays dividends on every alt.
 
-Design systems and shared libraries are heirloom gear.
+**Design systems and shared libraries are heirloom gear.**
 
 A component library built by one team makes every subsequent team faster.
 A shared authentication module, a common logging framework, a standardized deployment pipeline: these are investments that pay dividends across the entire organization.
@@ -585,7 +585,7 @@ They have addon rotations that automate cooldown tracking, buff management, and 
 
 The game transitions from playing to orchestrating.
 
-Software factories are the late game of development.
+**Software factories are the late game of development.**
 
 You stop writing code manually.
 You write specifications that AI agents implement.
@@ -617,7 +617,7 @@ Software development is the same game.
 
 We start alone, fixing bugs in a codebase we don't understand.
 We end in organizations of hundreds, shipping systems that require every team to perform their role flawlessly.
-The satisfaction isn't in the code: it's in the coordination.
+**The satisfaction isn't in the code: it's in the coordination.**
 
 In WoW, every expansion resets the gear but not the skill.
 The players who clear content first aren't the ones with the best loot: they're the ones who've been playing longest, who understand the mechanics deepest, who coordinate most tightly.
