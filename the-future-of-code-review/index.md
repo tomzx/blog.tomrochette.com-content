@@ -36,8 +36,8 @@ Shipping unreviewed code is a recipe for security vulnerabilities, bugs, and tec
 ## The AI Solution: Software Factories
 
 A new paradigm is emerging: the Software Factory.
-Instead of humans reviewing code, AI systems verify, test, and heal code autonomously.
-This isn't theoretical, it's already running in production.
+**Instead of humans reviewing code, AI systems verify, test, and heal code autonomously.**
+**This isn't theoretical, it's already running in production.**
 
 Consider StrongDM's Software Factory, which launched in July 2025.
 A team of three people (CTO, senior manager, and a new hire) built a system that autonomously clones core products like Okta, Jira, and Slack.
@@ -46,7 +46,7 @@ Sounds expensive until you realize what they're shipping.
 
 ## How It Works
 
-The Software Factory approach replaces human review with six verification layers:
+**The Software Factory approach replaces human review with six verification layers:**
 
 ### 1. Competitive Generation
 
@@ -99,7 +99,7 @@ One case study: Nubank migrated an eight-year ETL monolith (six million lines, o
 That's an 8-12x efficiency improvement with 20x cost savings.
 
 The breakeven point is 50-70 pull requests per month.
-Above that threshold, the AI factory costs less than human review while delivering higher velocity.
+**Above that threshold, the AI factory costs less than human review while delivering higher velocity.**
 
 ## The Five-Level Evolution
 
@@ -117,14 +117,14 @@ The future is Levels 4 and 5, where humans specify constraints and AI handles ev
 
 ## What This Means For Engineers
 
-Your job is not to write code.
+**Your job is not to write code.**
 Your job is not to read code.
 Your job is to solve quality problems so the factory can run.
 
 This requires a philosophical shift.
 Instead of "how do I review this code?" ask "why am I doing this?"
 If you can describe what's wrong, you can automate it.
-If you can describe what quality looks like, you can codify it as a verification rule.
+**If you can describe what quality looks like, you can codify it as a verification rule.**
 
 The era of human-centric development is ending.
 AI compilers will transform specifications into deployed software.
@@ -163,11 +163,11 @@ These aren't blockers, they're opportunities for teams to pioneer solutions.
 
 The traditional code review served us well.
 But like manual testing before automated test suites, its time is passing.
-The future isn't humans reviewing AI code.
-It's humans designing verification systems that make human review unnecessary.
+**The future isn't humans reviewing AI code.**
+**It's humans designing verification systems that make human review unnecessary.**
 
 The question isn't whether your team will adopt this approach.
-The question is whether your competitors will adopt it first.
+**The question is whether your competitors will adopt it first.**
 
 ## References
 

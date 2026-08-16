@@ -26,7 +26,7 @@ If you're working with a large repository and need to browse hundreds of issues 
 
 This gets worse when you're using AI coding assistants that query GitHub on your behalf.
 Multiple agents, multiple tools, all hitting the same API.
-The rate limit becomes a real bottleneck.
+**The rate limit becomes a real bottleneck.**
 
 ## How gh-cached works
 
@@ -67,7 +67,7 @@ When it's stale, gh-cached falls back to the GitHub API and updates the cache.
 Two reasons.
 
 First, gh-cached uses GraphQL under the hood, which lets it fetch issues and PRs with their comments in fewer round trips than the REST API the official CLI defaults to.
-The cache-then-filter pattern also means you can pre-fetch once and slice the data many ways without going back to GitHub.
+**The cache-then-filter pattern also means you can pre-fetch once and slice the data many ways without going back to GitHub.**
 
 Second, independence.
 It works with just a `GH_TOKEN` environment variable or falls back to `gh auth token` if you already have the GitHub CLI installed.
@@ -84,7 +84,7 @@ The tool uses different strategies depending on the command:
 - `issue view` / `pr view` serves from the individual cached file if less than 60 minutes old.
   Otherwise fetches from the API and updates the cache.
 
-This means a single `gh-cached cache` run gives you fast offline-capable access to all issues and PRs for the next hour.
+**This means a single `gh-cached cache` run gives you fast offline-capable access to all issues and PRs for the next hour.**
 
 ## Authentication
 

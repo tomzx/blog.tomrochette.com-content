@@ -24,7 +24,7 @@ The "writing code is over" camp takes the same observation and overruns with it.
 If production is automated, the argument goes, the developer's job becomes specification and orchestration, and the foundation the code runs on is somebody else's problem, probably the machine's.
 This is the AI-maxxing error applied to education, and it is the more dangerous of the two, because it feels like foresight while quietly removing the one capability that becomes scarcer and more valuable exactly as production gets cheap: the mental model of how the system actually behaves.
 
-Both camps make the same mistake the resistor and the maximalist make in [AI-Maxxing and Resistance Are the Same Mistake](../ai-maxxing-vs-fighting-against-it/index.md): they argue about how much low-level to use instead of asking what low-level is for.
+Both camps make the same mistake the resistor and the maximalist make in [AI-Maxxing and Resistance Are the Same Mistake](../ai-maxxing-vs-fighting-against-it/index.md): **they argue about how much low-level to use instead of asking what low-level is for.**
 The answer to that question dissolves the debate.
 
 ## What Low-Level Actually Teaches, and Why It Compounds

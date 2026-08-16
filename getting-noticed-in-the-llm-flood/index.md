@@ -118,19 +118,19 @@ Getting noticed in the flood is not a louder version of the old playbook; it is 
 
 ## What to Do Next
 
-Stop optimizing for volume.
+**Stop optimizing for volume.**
 Posting more into an infinite stream makes you more of the stream, not more visible inside it, and the marginal post now competes with machines that post faster, for free.
 
-Bias every piece toward proof of work.
+**Bias every piece toward proof of work.**
 If a reader cannot tell whether a real person did the thing behind the writing, they will assume not, so leave a verification surface they can actually check: link the repository, the data, the incident report, the commit, so the claim rests on something independent of your word rather than on how lived the prose sounds.
 
-Write what only you can write, and narrow until that is true.
+**Write what only you can write, and narrow until that is true.**
 Specificity is the cheapest signal that survives generation, and a narrow, durable body of work is what makes you the address for a problem instead of a drop in the flood.
 
-Treat distribution as the work, not the afterthought.
+**Treat distribution as the work, not the afterthought.**
 Findability is a generative in its own right, and in a deluge it is the generative that decides whether any of the rest gets read.
 
-Build the channels that do not saturate.
+**Build the channels that do not saturate.**
 A small set of real relationships, maintained over years, will carry your work further than any algorithmic tactic, and it is the one distribution layer a model cannot synthesize.
 
 ## See also

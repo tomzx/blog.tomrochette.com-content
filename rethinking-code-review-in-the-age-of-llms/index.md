@@ -374,10 +374,10 @@ Legacy codebases, critical security infrastructure, and domains where correctnes
 
 I am not saying code review was never useful.
 It was, for decades, one of the best tools we had.
-I am saying the tool's value has changed because the context has changed.
+**I am saying the tool's value has changed because the context has changed.**
 
 I am not saying I trust LLMs to always produce correct code.
-I am saying that human code review is not the best way to ensure correctness when the code was machine-generated.
+**I am saying that human code review is not the best way to ensure correctness when the code was machine-generated.**
 Automated verification, comprehensive test suites, and precise specifications are better tools for that job.
 
 ## The Question Worth Asking

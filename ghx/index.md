@@ -14,7 +14,7 @@ So I built [ghx](https://github.com/tomzxcode/ghx), a CLI designed to make agent
 
 ## What ghx does that gh doesn't
 
-**Inline comments on files and lines.** The most fundamental operation for a code review agent: comment on a specific line of a diff.
+**Inline comments on files and lines.** **The most fundamental operation for a code review agent: comment on a specific line of a diff.**
 
 ```bash
 $ ghx pr comment 42 --file src/main.go --line 10 --body "Nit: use fmt.Errorf"
@@ -91,7 +91,7 @@ Created comment IC_kwDOC0I7As5TKxZa on issue #42
 
 ## The stash system
 
-ghx has a local stash system for review comments, modeled after `git stash`.
+**ghx has a local stash system for review comments, modeled after `git stash`.**
 
 The main use case is enabling agents to batch many comments at once before submitting them all as a single review.
 Instead of making individual API calls per comment, an agent can stash comments locally and pop them into a pending review in one operation:
@@ -114,7 +114,7 @@ Popped stash@{0} (2 threads, 2 comments) into review PRR_kwDOC0I7As4B9Y2z
 
 It also solves a GitHub API constraint: you can't mix immediate comments with pending review comments on the same PR.
 When you submit an immediate comment on a PR that has a pending review, ghx automatically stashes the pending review, submits the comment, and restores the pending review.
-This means agents can use a push-pop workflow (stash, comment, comment, pop) instead of repeating push-comment-pop for every immediate comment.
+**This means agents can use a push-pop workflow (stash, comment, comment, pop) instead of repeating push-comment-pop for every immediate comment.**
 
 The stash supports multiple entries, just like `git stash`: push, pop, drop, and list.
 

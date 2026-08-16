@@ -105,7 +105,7 @@ The bottleneck moves up the decision chain, as in [The Shifting Bottleneck](../t
 
 The new seniority is not in running the skills.
 Anyone, and any agent, can do that.
-The new seniority is in writing them.
+**The new seniority is in writing them.**
 Deciding what the process should be in the first place.
 Deciding which gate matters and which is theater.
 Deciding what "done" means for this kind of task, precisely enough that a model can enforce it.
@@ -113,7 +113,7 @@ The judgment that used to be applied privately, one pull request at a time, is n
 
 This is why a good skill library is one of the most valuable assets a team can hold.
 It is the institutional memory of how the team does things well, written in a form that executes itself instead of sitting in a wiki nobody reads.
-When a senior engineer leaves, the skills stay, and the standard stays with them.
+**When a senior engineer leaves, the skills stay, and the standard stays with them.**
 When a new engineer joins, they do not spend a year absorbing the conventions through code review.
 They load the skills on day one, and their first pull request already follows the team's process.
 
@@ -147,14 +147,14 @@ Treat the skill library as part of the codebase, with owners, review, and the sa
 
 This only works for the part of the job that is describable, and it is worth being clear about where it stops.
 
-Skills cannot encode taste that the writer cannot articulate.
+**Skills cannot encode taste that the writer cannot articulate.**
 If your best engineer's advantage is a feel for when an abstraction is about to collapse, and they cannot explain the signals they are reading, that advantage does not survive the translation into a file.
 It stays in their head, and the skill without it will produce work that is competent but not inspired.
 For the routine majority of software, which is most of software, the describable process is enough.
 For the genuinely hard design calls, it is not.
 
 Skills can also ossify mediocrity.
-A skill that encodes a mediocre process enforces that mediocrity on everyone, consistently, forever.
+**A skill that encodes a mediocre process enforces that mediocrity on everyone, consistently, forever.**
 The mechanism is morally neutral.
 It collapses the variance in whichever direction the skill points, so a careless skill library can quietly lower a strong team to a lower common standard instead of raising the rest.
 The remedy is that the skills themselves have to be written by the people whose process you actually want to reproduce, and revisited when the process improves.

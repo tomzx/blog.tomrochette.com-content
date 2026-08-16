@@ -28,7 +28,7 @@ Everything else is interchangeable.
 Cursor or VS Code is where I read, navigate, and do small edits.
 The moment a task turns into a sequence of steps, create an issue, reproduce a bug, review a PR, open a PR, I move it to OpenChamber, because that is where the work can run to a natural stopping point without me holding the state.
 OpenChamber is built on OpenCode and is the control room on top of it: it gives me branchable sessions, worktree isolation, and a single surface to steer several sessions at once.
-The skills are not tied to any of these surfaces; because they follow the open Agent Skills format, the same skill runs in Cursor, VS Code, OpenCode, or OpenChamber, so I pick the surface that fits the moment and the workflow does not change.
+The skills are not tied to any of these surfaces; because they follow the open Agent Skills format, **the same skill runs in Cursor, VS Code, OpenCode, or OpenChamber, so I pick the surface that fits the moment and the workflow does not change.**
 At home the editor is VS Code and the model is GLM 5.2 on z.ai, at work the editor is Cursor and the model is GLM 5.2 fast on Fireworks, and I switch between them without changing anything else about the workflow.
 
 ## The model and the shell are commodities

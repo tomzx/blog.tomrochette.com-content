@@ -24,7 +24,7 @@ The work itself was not especially complex.
 What made it slow was that I had no investment in it.
 I had not chosen the problem, I had not designed the solution, and I stood to gain nothing from its completion except the relief of being done with it.
 
-There is a motivation tax on work you did not choose, and it is larger than most people account for.
+**There is a motivation tax on work you did not choose, and it is larger than most people account for.**
 When a task is yours, the friction of a confusing codebase or a failing test is a puzzle you want to solve.
 When a task has been dropped on you, that same friction is an obstacle between you and being somewhere else, and every obstacle feels twice as tall.
 
@@ -37,7 +37,7 @@ There is a common assumption that handing off nearly-finished work is cheap, bec
 This is almost always wrong.
 Code that someone else wrote carries their hidden decisions: names that made sense to them, assumptions they never wrote down, edge cases they handled in their head and nowhere else.
 
-To get another person's work to a mergeable state, you have to reconstruct a mind you were never inside of.
+**To get another person's work to a mergeable state, you have to reconstruct a mind you were never inside of.**
 You become an archaeologist of their intent, reading commits like strata.
 And unlike your own code, where you remember why you wrote each line, here every unfamiliar line is a small investigation.
 
@@ -55,7 +55,7 @@ When you are working on something you resent, a notification is a permission sli
 The work expanded to fill three days in part because every ping, every message, every side question offered a more appealing place to put my attention, and I had no countervailing force pulling me back.
 
 Distractions are not the enemy of focus.
-They are the enemy of focus on work you do not want to do.
+**They are the enemy of focus on work you do not want to do.**
 On work you want to do, focus defends itself.
 
 ## The Real Failure Was the Hand-off
@@ -69,7 +69,7 @@ You have simply moved an item on a board and assumed the work would move with it
 
 The cost of that gamble does not show up on the board.
 It shows up in the three days, in the half-attention, in the quiet resentment that makes the next hand-off harder to accept.
-A task assigned without consent arrives already taxed, and the tax is paid in time.
+**A task assigned without consent arrives already taxed, and the tax is paid in time.**
 
 ## What I Will Do Differently
 

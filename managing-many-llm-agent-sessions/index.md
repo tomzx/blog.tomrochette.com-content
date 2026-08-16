@@ -370,18 +370,18 @@ This is the same knowledge-sharing principle that makes [software engineering te
 
 There is no single number, but the constraints are real.
 
-With no system, no tooling, and synchronous interaction, a human can effectively manage 1 to 2 concurrent agent sessions.
+**With no system, no tooling, and synchronous interaction, a human can effectively manage 1 to 2 concurrent agent sessions.**
 The cognitive overhead of tracking each session's state in working memory and responding to questions in real time is too high to scale further.
 
-With externalized state files, standardized protocols, and asynchronous batching, 4 to 6 concurrent sessions become feasible.
+**With externalized state files, standardized protocols, and asynchronous batching, 4 to 6 concurrent sessions become feasible.**
 You are no longer holding state in your head, and you batch your interactions to reduce switch cost.
 
-With hierarchical orchestration, progressive disclosure, and a dashboard, 10 to 15 concurrent sessions are manageable.
+**With hierarchical orchestration, progressive disclosure, and a dashboard, 10 to 15 concurrent sessions are manageable.**
 The orchestrators compress information, the dashboard provides a single view, and you interact with a manageable number of direct reports.
 
-With AI-assisted triage, tight escalation thresholds, and well-specified tasks, 20+ concurrent sessions are achievable for a human who has invested in the workflow.
+**With AI-assisted triage, tight escalation thresholds, and well-specified tasks, 20+ concurrent sessions are achievable for a human who has invested in the workflow.**
 At this scale, you are no longer managing individual sessions.
-You are managing a system that manages sessions.
+**You are managing a system that manages sessions.**
 
 The progression mirrors the [task-stack](../task-stack/index.md) philosophy: you push interruptions onto a stack, handle them in batches, and pop them off when done.
 The difference is that the stack now contains not just your own tasks but the states of dozens of autonomous workers, and the stack is externalized rather than in your head.
@@ -398,9 +398,9 @@ Every strategy in this article reduces to one of four operations on the cognitiv
 
 **Reduce decision fatigue** by having agents resolve their own ambiguities, using decision templates, and reserving decision budget for high-stakes choices.
 
-The agents are not the bottleneck.
-Your brain is.
-Every hour you spend engineering the workflow around your own cognitive limits is worth ten hours of trying to power through them.
+**The agents are not the bottleneck.**
+**Your brain is.**
+**Every hour you spend engineering the workflow around your own cognitive limits is worth ten hours of trying to power through them.**
 
 ## References
 

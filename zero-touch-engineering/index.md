@@ -95,7 +95,7 @@ So ZTE is not a tool you install.
 ## ZTE is proportional to encoded judgment
 
 This gives a useful test for how close a team or project is to zero touch engineering.
-Measure how much of the decision loop is encoded versus sitting in someone's head.
+**Measure how much of the decision loop is encoded versus sitting in someone's head.**
 
 The projects closest to ZTE encode five things, the same five I described in [The Self-Evolving Repository](../the-self-evolving-repository/index.md), because that article was about ZTE without using the word.
 
@@ -116,7 +116,7 @@ You do not trust the code, you trust the verification system.
 
 When all five are in place, the loop closes and the process is touchless.
 When any one is missing, a human has to step back in at that gap.
-The degree of zero touch is exactly the degree of encoded judgment, nothing more.
+**The degree of zero touch is exactly the degree of encoded judgment, nothing more.**
 
 ## Where the human re-enters
 

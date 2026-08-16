@@ -108,7 +108,7 @@ You will also miss things by spending your day reading instead of doing, and tho
 
 There are more newsletters, podcasts, and feed channels than any person can sample, and most of them recycle the same primary sources.
 Find the small set that consistently adds signal rather than volume, and defend that set against additions.
-Every new subscription should displace an existing one, not stack on top of it.
+**Every new subscription should displace an existing one, not stack on top of it.**
 
 The same applies to people.
 A few colleagues or communities that share your context will filter better than any algorithm, because they know what you already know and what you are trying to do.

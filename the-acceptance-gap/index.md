@@ -104,7 +104,7 @@ It turned into deciding whether the generated thing is good enough.
 
 The two gaps respond to different interventions, and the strategy is to match the intervention to the gap.
 
-The bug gap is closeable in principle, and the mechanism is encoding.
+**The bug gap is closeable in principle, and the mechanism is encoding.**
 Write the acceptance criterion as a check the model cannot fake.
 A failing test that must pass.
 A reproduction script that must go green.

@@ -26,7 +26,7 @@ Open-source projects, where maintainers decide what to accept and what to build,
 And, increasingly, engineering cultures where LLM-assisted development has made shipping so cheap that waiting on a product decision feels slower than just making one.
 
 In all of these, the same property holds.
-The person deciding what to build is the person building it, and there is nobody whose job is to keep the pieces coherent.
+**The person deciding what to build is the person building it, and there is nobody whose job is to keep the pieces coherent.**
 
 ## The Case For It
 

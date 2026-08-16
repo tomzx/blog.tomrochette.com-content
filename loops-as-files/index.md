@@ -70,17 +70,17 @@ Stop when the budget for this run is exhausted and resume on the next tick.
 ```
 
 That is the whole artifact.
-The skill owns the how.
-The loop owns the when, the how-often, the how-much, and the what-to-do-when-it-breaks.
+**The skill owns the how.**
+**The loop owns the when, the how-often, the how-much, and the what-to-do-when-it-breaks.**
 Each concern is in its own file, each file is reviewable, and changes to one do not silently invalidate the other.
 
 ## The Frontmatter Is the Contract
 
 The reason the frontmatter matters more than the body is that the frontmatter is the part the runtime actually parses.
-It is the contract between the human writing the loop and the system executing it.
+It is **the contract between the human writing the loop and the system executing it**.
 
 A skill with no frontmatter is still useful as a document.
-A loop with no frontmatter is a skill with no trigger.
+**A loop with no frontmatter is a skill with no trigger.**
 So the fields that go in the frontmatter are not cosmetic metadata, they are the trigger specification, and they should be designed the way any interface is designed, with the smallest set of concepts that covers the realistic workload.
 
 The field I want to anchor on is `on`, borrowed deliberately from GitHub Actions because the mental model is already widely understood.
@@ -179,8 +179,8 @@ escalation:
 ```
 
 I argued in [The Self-Evolving Repository](../the-self-evolving-repository/index.md) that cost runaway is one of the defining failure modes of autonomous systems, and a loop without a budget is one bad `while True` away from being a case study.
-Every loop file should be able to answer three questions without ambiguity: how often can this run, how much can each run spend, and what happens when it fails.
-If a loop cannot answer those questions, the runtime should refuse to start it.
+**Every loop file should be able to answer three questions without ambiguity: how often can this run, how much can each run spend, and what happens when it fails.**
+**If a loop cannot answer those questions, the runtime should refuse to start it.**
 
 The `concurrency` field is the other one that earns its keep early.
 A loop that runs every five minutes and takes six minutes to finish will, without a concurrency policy, slowly consume every slot the runtime has.
@@ -190,7 +190,7 @@ A loop that runs every five minutes and takes six minutes to finish will, withou
 
 There is a temptation, once you have a loop format, to start inlining the prompt into the loop body.
 Resist it.
-A loop file should read like an orchestrator, not like a skill, because it is one.
+**A loop file should read like an orchestrator, not like a skill, because it is one.**
 
 The body of a loop is typically a short sequence of skill invocations, with just enough glue logic to express ordering, branching, and handoff.
 
@@ -206,7 +206,7 @@ Three skills, one paragraph of orchestration, fully readable.
 The logic that is hard (what counts as a high-severity vulnerability, how to phrase an issue, who the on-call is) lives in the skills it invokes, where it can be improved independently, tested independently, and reused from other loops.
 
 This also keeps the loop file faithful to its job.
-A loop file that grows past a screen of text is probably doing the work of a skill and should be split.
+**A loop file that grows past a screen of text is probably doing the work of a skill and should be split.**
 The same length discipline that keeps skills effective, which I borrowed from the "lost in the middle" argument in [Bringing Everyone to the Same Level](../bringing-everyone-to-the-same-level/index.md), applies to loops.
 If the runtime has to parse a long preamble before it even reaches the trigger, the trigger is no longer the contract.
 
@@ -299,7 +299,7 @@ The more accurate name is probably "routine," "trigger," or "automation," and th
 "Trigger" emphasizes events.
 "Routine" emphasizes the work.
 The format itself does not care.
-The `on:` field is the source of truth, and the file is whatever its trigger says it is.
+**The `on:` field is the source of truth, and the file is whatever its trigger says it is.**
 
 In practice, teams that adopt this will settle on one word and use it for both, the same way "skill" is now used for files that range from one-line hints to multi-page workflows.
 The word matters less than the format, and the format is: markdown, frontmatter, `on`, a budget, a short body.

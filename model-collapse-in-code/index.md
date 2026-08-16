@@ -20,7 +20,7 @@ None of that code was perfect.
 Much of it was buggy, redundant, or obsolete.
 But it carried something that model output cannot manufacture: the accumulated signal of millions of programmers solving real problems under real constraints, correcting each other in public, and converging over decades on patterns that actually work.
 
-That signal is the fuel.
+**That signal is the fuel.**
 When you prompt a model and it produces a working function, it is not reasoning from first principles.
 It is predicting the next token from patterns absorbed out of human code, and those patterns were selected by reality, not by another model's preferences.
 
@@ -170,14 +170,14 @@ The question is whether we keep enough humans writing, reading, and correcting c
 I have argued, and still believe, that a single team should not force a human to read every diff if its verification system is strong enough.
 What I no longer believe is that this is automatically a tragedy of the commons.
 It is a tragedy only if the only signal the field feeds back into its models is imitation of prior output.
-Execution is a second signal, and for code it is the stronger one.
+**Execution is a second signal, and for code it is the stronger one.**
 
-The two futures run on the same variable: the soundness of verification.
+**The two futures run on the same variable: the soundness of verification.**
 If verification stays grounded in real execution, adversarial, and separate from generation, the loop improves on its own, and humans reading code matters less every year.
 If verification is captured, shallow, or graded by the same model that wrote the code, the loop degrades, and no amount of human reading at the end will save it.
 
 So the instruction is narrower than "keep humans writing code in public."
-It is: keep the oracle trustworthy.
+**It is: keep the oracle trustworthy.**
 Run the tests, fuzz the inputs, separate the verifier from the author, and treat every passing suite as a claim about coverage rather than proof of correctness.
 Do that, and generated code can keep getting better long after humans stop writing most of it.
 Fail to do it, and the degradation arrives on schedule.

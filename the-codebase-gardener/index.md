@@ -110,7 +110,7 @@ One assertion per test.
 Preferences are arguable, and in an LLM-saturated codebase, arguable means unwinnable, because the other engineer's agent was told the exact opposite of what yours was told, with equal confidence.
 
 The move is to convert as many preferences as possible into invariants before they can become arguments.
-An invariant is a property the system will enforce whether or not anyone agrees with it.
+**An invariant is a property the system will enforce whether or not anyone agrees with it.**
 Database migrations must be backward compatible.
 New dependencies require an audit record.
 Public API changes require a feature flag.
@@ -158,7 +158,7 @@ The point of writing it down is not to win today's argument.
 Today's argument will be re-litigated regardless, because the engineer on the other side, or their agent, has not read it.
 The point is to ensure that the same argument does not have to be re-won from scratch every time, by you, in real time.
 
-A decision that lives in a file is a decision the next agent can be pointed at.
+**A decision that lives in a file is a decision the next agent can be pointed at.**
 A decision that lives only in your head dies the moment you switch teams, or take a week off, or simply get tired of explaining it for the fiftieth time.
 When your defenses are encoded as files, the codebase keeps its structure without you holding it together.
 When they are encoded only as your vigilance, the codebase is one two-week vacation away from drift you will spend a month undoing.
@@ -195,7 +195,7 @@ A teammate may insist on driving their own agent with their own skills, their ow
 A manager may value shipping velocity over every standard you have encoded, and quietly override the gates that matter.
 
 At that point your job is no longer to win.
-It is to make the cost of the drift visible.
+**It is to make the cost of the drift visible.**
 Keep the trend reports.
 Keep the complexity numbers.
 Keep the record of which decisions were one-way doors that got walked through without the decision being made.

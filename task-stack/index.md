@@ -58,7 +58,7 @@ Press the hotkey or pick "Open Stack" from the tray menu.
 
 ## Data format
 
-Tasks are stored in `~/.task-stack.yaml` as a simple YAML list:
+**Tasks are stored in `~/.task-stack.yaml` as a simple YAML list:**
 
 ```yaml
 - text: Write blog post about task-stack
@@ -84,7 +84,7 @@ hotkey: ctrl+shift+t
 # hotkey: cmd+shift+space
 ```
 
-Restart the app to apply.
+**Restart the app to apply.**
 The current hotkey is shown in the tray menu.
 
 ## When this is useful

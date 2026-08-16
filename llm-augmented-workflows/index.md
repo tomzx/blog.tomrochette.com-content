@@ -39,12 +39,12 @@ The agent invocation that worked yesterday is copy-pasted into the new flow with
 A label rename in one file does not propagate to the others.
 And the parts of the flow that do not even need an LLM, relabeling an issue, posting a canned comment, closing a linked issue on merge, still pay for a model call because that is what the file is built around.
 
-What you want is to describe the *flow* once, and let the engine handle the wiring.
+**What you want is to describe the *flow* once, and let the engine handle the wiring.**
 
 ## How it works
 
 The engine is a small stateless dispatcher with one reusable GitHub Actions workflow.
-State lives entirely in GitHub, in labels, issues, and PRs.
+**State lives entirely in GitHub, in labels, issues, and PRs.**
 The engine reads an event, matches it against `flows.yml`, runs the matched rule's pipeline, and exits.
 
 ```
@@ -94,7 +94,7 @@ Read it top to bottom and that is the whole flow.
 An issue gets `plan-needed`, the `generate-plan` skill runs and opens a `plan/...` PR.
 When that PR merges, `on-plan-merged` adds `plan-approved` to the linked issue, no model involved.
 When the issue is labeled `plan-approved`, the `implement-plan` skill runs and implements it.
-Three rules, one file, one copy of the wiring.
+**Three rules, one file, one copy of the wiring.**
 
 ## Token-free transitions
 
@@ -105,7 +105,7 @@ In llm-augmented-workflows, `labels` and `shell` steps run without calling the m
 The `on-plan-merged` rule above is a single label step: when the plan PR merges, add `plan-approved` to the linked issue.
 Zero tokens, zero model latency, just a GitHub API call.
 
-That means the agent only runs where the agent is actually needed, and the transitions between phases are free, fast, and deterministic.
+**That means the agent only runs where the agent is actually needed, and the transitions between phases are free, fast, and deterministic.**
 A flow that used to cost three model calls (triage, plan, implement) plus the glue between them now costs two, because the glue is a label.
 
 ## Two execution modes
@@ -127,14 +127,14 @@ It runs an opencode skill sourced from a configurable agents repository, `tomzx/
 
 That separation matters.
 The flow definition says *what* should happen and *when*.
-The skill definition says *how* the agent should do it.
+**The skill definition says *how* the agent should do it.**
 When you improve the `generate-plan` skill, every flow that references it gets the improvement, without touching `flows.yml`.
 When you add a new flow, you reference an existing skill instead of inlining a prompt that will drift.
 
 ## The default flow runs on the free model
 
 The default model is `opencode/deepseek-v4-flash-free`, and it needs only the auto-provided `GITHUB_TOKEN`.
-You can adopt the engine on a throwaway repo without provisioning a single secret.
+**You can adopt the engine on a throwaway repo without provisioning a single secret.**
 Override per repo or per org with `OPENCODE_MODEL`, point `AGENTS_REPOSITORY` at your own skills, raise `LLMAW_MAX_ITERATIONS` for long continuous runs, and you are done.
 
 ## Getting started
@@ -177,7 +177,7 @@ The engine's unit of work is one issue per workflow execution.
 A matched rule runs, the agent acts, the job ends (or chains within continuous mode until `needs-human`), and the next event is the next run.
 That model maps cleanly onto small, well-scoped work: triage this issue, plan this feature, reproduce this bug, implement this task.
 
-It does not map onto a large epic.
+**It does not map onto a large epic.**
 A change that spans many tasks, many PRs, and many days cannot be implemented by a single issue's pipeline, because the engine has no concept of an epic as a first-class object that owns child issues and tracks their aggregate progress.
 To implement a large change today, you have to break the epic into per-task issues yourself, outside the engine, and let each of those issues run its own one-issue pipeline.
 The decomposition step, deciding how to split the work and how the pieces depend on each other, is not automated.
@@ -190,7 +190,7 @@ Until the engine can take an epic, decompose it into ordered tasks, and drive ea
 I have been writing about the pieces of this for a while.
 [Loops as Files](../loops-as-files/index.md) argued that the trigger layer deserves the same treatment as the prompt layer, versioned, reviewable, owned next to the behavior it schedules.
 [The Self-Evolving Repository](../the-self-evolving-repository/index.md) pushed the question of how far you can take a GitHub project where every maintainer function is replaced by an automated loop.
-llm-augmented-workflows is the engine for both: the flows file is the schedule, the skills are the behavior, and the state never leaves GitHub.
+**llm-augmented-workflows is the engine for both: the flows file is the schedule, the skills are the behavior, and the state never leaves GitHub.**
 
 If you already use [ghx](../ghx/index.md) for agentic code reviews or [github-board](../github-board/index.md) to visualize your issues, this is the layer that makes the issues move on their own.
 

@@ -125,21 +125,21 @@ It rewards you for making the late stage unnecessary by being good at an earlier
 
 A few concrete moves follow, and each is an inversion of the default.
 
-Treat every repeated bug class as an upstream defect.
+**Treat every repeated bug class as an upstream defect.**
 When the same kind of issue shows up a second or third time, stop fixing it in code.
 Walk back up the pipeline until you find the artifact that allowed it, and fix that.
 The rule is blunt and useful: fix at the source once, or fix at the symptom forever.
 
-Invest disproportionately in specification.
+**Invest disproportionately in specification.**
 The spec is now the highest-leverage artifact in the pipeline, because it is the stage whose defects fan out the widest and whose fixes compound the longest.
 A team that under-invests here pays for it in every downstream stage, forever, at machine speed, and a team that over-invests here barely notices the downstream stages at all.
 
-When you review, review the spec, not the code.
+**When you review, review the spec, not the code.**
 Code review catches symptoms once, on the diff that happens to be in front of the reviewer.
 Spec review prevents classes of symptoms from being generated at all, across every future diff.
 An hour on the spec outranks an hour on the code, because the code is downstream of the spec and the spec constrains every diff that will ever be written from it.
 
-Keep an upstream ledger on incidents.
+**Keep an upstream ledger on incidents.**
 When something breaks in production, record not just the code-level cause but the pipeline stage where the defect was actually born.
 Over a quarter the pattern will show which upstream stages are leaking the most, and that is where investment pays back the most, because a single fix there retires a whole family of incidents.
 

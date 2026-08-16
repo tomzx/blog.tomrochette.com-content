@@ -23,17 +23,17 @@ Darwinian Software Development is an emerging methodology that leverages "swarms
 
 Instead of asking a single AI to write a function, Darwinian development deploys a multi-agent system (a swarm) to tackle the same problem from different angles.
 This process generally follows four biological phases:
- * Variation (The Mutation): Multiple LLM agents are given the same prompt but with different "temperaments" or system instructions. One might prioritize memory efficiency, another readability, and a third raw speed.
- * Competition (The Struggle for Life): The agents generate dozens of potential solutions. These aren't just checked for syntax; they are put into a "sandbox" to run against unit tests and edge cases.
- * Selection (Fitness Function): An automated "Judge" agent (or a specialized testing suite) evaluates the outputs. Only the code that passes the most tests with the lowest latency or resource consumption "survives."
- * Heredity (Refinement): The winning code is then used as the "DNA" for the next generation. The swarm takes the best-performing snippet and attempts to optimize it further until a "perfect" solution is reached.
+ **Variation (The Mutation):** Multiple LLM agents are given the same prompt but with different "temperaments" or system instructions. One might prioritize memory efficiency, another readability, and a third raw speed.
+ **Competition (The Struggle for Life):** The agents generate dozens of potential solutions. These aren't just checked for syntax; they are put into a "sandbox" to run against unit tests and edge cases.
+ **Selection (Fitness Function):** An automated "Judge" agent (or a specialized testing suite) evaluates the outputs. Only the code that passes the most tests with the lowest latency or resource consumption "survives."
+ **Heredity (Refinement):** The winning code is then used as the "DNA" for the next generation. The swarm takes the best-performing snippet and attempts to optimize it further until a "perfect" solution is reached.
 
 ## Why Swarms Outperform Single Models
 
 **The "Darwinian" approach solves the two biggest headaches in AI-assisted coding: hallucinations and tunnel vision.**
- * Error Correction: If one agent introduces a bug, the likelihood that five other agents will make the exact same error is low. The swarm acts as a self-healing mechanism.
- * Diverse Architectures: One LLM might get stuck on a specific logic path. A swarm explores the entire "fitness landscape," finding creative solutions a human (or a single AI) might never consider.
- * Performance Benchmarking: By racing agents against each other, the system naturally optimizes for performance.
+ **Error Correction:** If one agent introduces a bug, the likelihood that five other agents will make the exact same error is low. The swarm acts as a self-healing mechanism.
+ **Diverse Architectures:** One LLM might get stuck on a specific logic path. A swarm explores the entire "fitness landscape," finding creative solutions a human (or a single AI) might never consider.
+ **Performance Benchmarking:** By racing agents against each other, the system naturally optimizes for performance.
 
 | Feature | Traditional Development | Single LLM Coding | Darwinian Swarm |
 |---|---|---|---|

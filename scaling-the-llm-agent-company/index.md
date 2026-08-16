@@ -40,7 +40,7 @@ When you replace an agent, the replacement has access to exactly the same inform
 ## What Replaces It
 
 The fundamental principle from the original article still holds: anything that scales linearly or superlinearly with itself needs to be optimized to grow sublinearly.
-The bottleneck has moved, but it has not disappeared.
+**The bottleneck has moved, but it has not disappeared.**
 
 ### Unit economics
 
@@ -48,7 +48,7 @@ Each agent invocation costs compute and API calls.
 At scale, the marginal cost of an additional agent is small but not zero.
 If your revenue per task is lower than the cost of the compute required to complete it, you have the same fundamental problem as an unprofitable human company.
 A human company that loses money on every employee-hour goes bankrupt.
-An agent company that loses money on every inference call goes bankrupt just as fast, it just happens in milliseconds instead of months.
+**An agent company that loses money on every inference call goes bankrupt just as fast, it just happens in milliseconds instead of months.**
 
 ### Correlated failures
 
@@ -90,9 +90,9 @@ Diversifying across models is a partial hedge, but it introduces the same coordi
 ## Where the Moat Lives
 
 When anyone can spawn an equally capable agent workforce, the advantage is no longer in having employees.
-The moat shifts to the quality of your instructions (prompts as institutional knowledge), the design of your orchestration (workflows as management), your data flywheels (evaluation data as competitive advantage), and domain-specific tools and integrations (proprietary capabilities the agents use).
+**The moat shifts to the quality of your instructions (prompts as institutional knowledge), the design of your orchestration (workflows as management), your data flywheels (evaluation data as competitive advantage), and domain-specific tools and integrations (proprietary capabilities the agents use).**
 The company is no longer its people.
-It is its prompts, its pipelines, and its proprietary context.
+**It is its prompts, its pipelines, and its proprietary context.**
 
 ## The Pattern
 
@@ -100,7 +100,7 @@ The original article concluded that human scaling requires optimizing every line
 The same conclusion applies here, but the costs are different.
 Human companies optimize hiring, onboarding, and culture.
 Agent companies optimize inference cost, error correlation, orchestration complexity, and infrastructure reliability.
-The companies that scale exponentially in this era will be the ones that treat their agent workforce as a system to be engineered, not a team to be managed.
+**The companies that scale exponentially in this era will be the ones that treat their agent workforce as a system to be engineered, not a team to be managed.**
 
 ## References
 

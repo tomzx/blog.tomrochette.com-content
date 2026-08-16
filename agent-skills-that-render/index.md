@@ -31,7 +31,7 @@ The tool does the deterministic part, the layout, the rendering, the syntax chec
 The concerns separate cleanly, and the output becomes inspectable in a way prose never is.
 
 This is the same move as [Verifying Code Without Reading It](../verifying-code-without-reading-it/index.md), applied to the artifacts a skill produces: stop trying to read, start trying to verify, and pick for each artifact the cheapest checker that catches the failure you care about.
-For a lot of artifacts, the cheapest checker is a picture.
+**For a lot of artifacts, the cheapest checker is a picture.**
 
 ## Mermaid in the SDLC process
 
@@ -84,7 +84,7 @@ If the output is still prose, you have added a dependency and gained no new kind
 
 And it must be narrow enough that the skill can use it reliably.
 [Mermaid](https://mermaid.js.org/) and [DBML](https://dbml.dbdiagram.io/docs/) win here because they are small languages with a fixed grammar, not sprawling APIs the model has to guess at.
-A tool the model gets wrong half the time is worse than prose, because you spend your attention debugging the tool instead of the idea.
+**A tool the model gets wrong half the time is worse than prose, because you spend your attention debugging the tool instead of the idea.**
 
 ## What to Do Next
 
@@ -94,7 +94,7 @@ If it describes data, teach it DBML.
 If it describes a sequence of messages between components, teach it a sequence diagram.
 
 Then read the next output it produces as a picture instead of a paragraph, and notice where your eye catches in two seconds what your reading would have missed in twenty minutes.
-That gap, between the cost of looking and the cost of reading, is the whole reason to give your skills tools that render.
+**That gap, between the cost of looking and the cost of reading, is the whole reason to give your skills tools that render.**
 
 ## See also
 

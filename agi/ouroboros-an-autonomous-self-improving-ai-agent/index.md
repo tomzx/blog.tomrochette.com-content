@@ -82,7 +82,7 @@ The agent comes with built-in tools for common operations:
 - `search_files` – Find files by pattern
 - `search_content` – Search within files
 
-Crucially, Ouroboros can create, register, and use *new tools* that it writes itself.
+**Crucially, Ouroboros can create, register, and use *new tools* that it writes itself.**
 
 Tools are implemented as CLI commands of the `ouroboros` CLI that the agent can invoke during execution.
 
@@ -90,12 +90,12 @@ Tools are implemented as CLI commands of the `ouroboros` CLI that the agent can 
 
 ## Safety Through Structure
 
-The execution/reflection separation prevents runaway self-modification.
+**The execution/reflection separation prevents runaway self-modification.**
 The agent can only change code during a dedicated reflection phase, and all changes are committed to git with descriptive messages explaining the "why" behind each change.
 
 ## Transparency
 
-Every action is logged.
+**Every action is logged.**
 Want to know what the agent did?
 Check the daily journal:
 - `agent/journal/YYYY/MM/DD/notes.md` – What it did

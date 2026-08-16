@@ -24,7 +24,7 @@ That story is mostly wrong, and believing it will cost you the rollout.
 The people who push back hardest on automated review are often your most careful engineers.
 They have seen the bugs a tired reviewer caught by instinct.
 They have been the person blamed when something slipped through.
-Their objections are not noise to filter; they are a map of where your system is weakest.
+**Their objections are not noise to filter; they are a map of where your system is weakest.**
 Calling their discomfort "fear" loses the argument before it starts, because they can tell you are not listening.
 
 ## Three Concerns, Three Answers
@@ -39,7 +39,7 @@ You answer this with ownership that lives upstream, in the specification and in 
 
 The learning concern is the one nobody says out loud.
 Review is how juniors grow and how the team stays connected to its own codebase.
-This loss is real, and it is the concern that will sink the rollout if you ignore it, because no defect metric addresses it.
+**This loss is real, and it is the concern that will sink the rollout if you ignore it, because no defect metric addresses it.**
 
 ## Sequence The Exposure
 
@@ -52,11 +52,11 @@ A bot that approves is the real flashpoint.
 
 Ship them in that order, weeks apart, on a low-blast-radius lane first: documentation, tests, internal-only changes inside a single module.
 By the time you reach the approving bot, the team has weeks of evidence that the earlier layers work.
-You are extending trust that has been earned, not demanding it up front.
+**You are extending trust that has been earned, not demanding it up front.**
 
 ## Make Every Decision Legible
 
-People resist what they cannot inspect.
+**People resist what they cannot inspect.**
 Every automated action must state which rule fired, what it checked (the file and line, the threshold, a link to the rule definition), and who owns that rule.
 
 "Complexity 18 over 15 in auth.py:42, rule COMPLEXITY_LIMIT, owner Priya" is something a skeptic can argue with.
@@ -71,7 +71,7 @@ They stop reviewing code and start reviewing the gates: the security critic's ch
 
 Their judgment now scales to every change instead of being spent once on a single pull request.
 A senior who owns the duplication rule has more leverage than a senior who reads ten diffs a day and remembers three.
-You are not removing them from the loop; you are promoting them to a loop where their work compounds.
+**You are not removing them from the loop; you are promoting them to a loop where their work compounds.**
 Give your skeptics the highest-leverage role in the new system, and most of them stop being skeptics.
 
 ## Let Shadow Mode Persuade
@@ -82,7 +82,7 @@ Let a team keep their human review while the automated lane runs silently beside
 After a few weeks you have the only case that lands: "your reviewers missed these defects the gate caught; the gate's false positives were these, and they are fixed."
 Run it on a low-risk slice so the stakes match the trust level.
 And let the skeptics be the ones who present the results.
-Nothing converts a skeptic faster than being the person who found the data.
+**Nothing converts a skeptic faster than being the person who found the data.**
 
 ## Measure What They Actually Care About
 
@@ -99,7 +99,7 @@ A human looking at it was always a proxy for those outcomes, and a weak one.
 Irreversible changes, trust-boundary changes, public API changes, and changes to the gating system itself still get a deliberate human read.
 
 The message is never "you are out entirely."
-It is "you are in where you add value, and out where you do not."
+It is **"you are in where you add value, and out where you do not."**
 That framing is far easier to accept than abolition, because it is not abolition.
 You are reserving humans for the small, identifiable minority of changes where a careful read is still the best tool we have, and the rest of the pipeline moves at the speed the machines can sustain.
 
@@ -112,7 +112,7 @@ Replace the channel deliberately.
 Pair juniors with seniors on specifications, because that is where the judgment now lives.
 Rotate rule-owner duty, so learning to curate a check is itself the apprenticeship.
 Hold code-archaeology sessions that read well-chosen diffs as learning material, not as a gate.
-Move the learning off the critical path without deleting it, and name the loss plainly so people know you took it seriously.
+**Move the learning off the critical path without deleting it, and name the loss plainly so people know you took it seriously.**
 
 ## The First Escape Is The Moment That Matters
 

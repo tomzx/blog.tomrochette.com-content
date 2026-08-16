@@ -15,7 +15,7 @@ Context is not a prompt engineering trick.
 
 ## What Context Means for an LLM
 
-A large language model is a fixed function at inference time.
+**A large language model is a fixed function at inference time.**
 Its weights were determined during training and do not change.
 Everything you want the model to know about your current task, your constraints, your codebase, your domain, and your preferences must be communicated through the context window.
 

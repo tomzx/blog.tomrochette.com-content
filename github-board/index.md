@@ -41,7 +41,7 @@ repo:owner/name
 ```
 
 Then you define columns with boolean expressions over the fetched items.
-The board fetches up to 2000 issues and PRs through the GraphQL API with pagination, then groups them into columns entirely in your browser.
+The board fetches up to 2000 issues and PRs through the GraphQL API with pagination, **then groups them into columns entirely in your browser**.
 
 A default board ships with Draft PRs, Open PRs, Open Issues, and Closed columns.
 Each column is just an expression, and the board re-renders live as you type.
@@ -58,7 +58,7 @@ state:closed and updated > -7d
 
 The expression language supports the operators you'd expect: `==`, `=~`, `<`, `contains`, `in`, `exists`, `empty`, plus regex matching and relative date math like `-7d`, `-2w`, `-1y`.
 
-You can add a second dimension with swimlanes (rows), so a board can group issues by assignee across the same set of status columns, all from one query.
+**You can add a second dimension with swimlanes (rows), so a board can group issues by assignee across the same set of status columns, all from one query.**
 
 ## Auto-split with a $1 capture
 
@@ -86,12 +86,12 @@ Requests go directly from your browser to `api.github.com`.
 You bring your own personal access token, which is stored only in your browser's `localStorage`.
 There is no OAuth flow, no server logging, and no way for the tool to modify your issues or pull requests.
 
-It is a view, not a project-management tool.
+**It is a view, not a project-management tool.**
 There is no drag-and-drop across columns, because the source of truth is your data, not where a card was dropped.
 
 ## Getting started
 
-No install is required.
+**No install is required.**
 
 1. Open [tomzxcode.github.io/github-board](https://tomzxcode.github.io/github-board/) (or open `index.html` from the repo).
 2. Paste a GitHub personal access token with read access to what you want to view.

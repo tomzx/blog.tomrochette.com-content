@@ -76,11 +76,11 @@ It was not.
 
 The cost was simply transferred, from one person's afternoon of objection to the whole team's months of working around the decision, and from a bill addressed to the moment into a bill addressed to the future.
 
-Then the rework arrives, and it is always larger than the objection would have been.
+**Then the rework arrives, and it is always larger than the objection would have been.**
 By the time the shortcut finally breaks badly enough to force a rewrite, other code has been built on top of it, the original author has moved on, and the team is paying to redo work it already paid to do once.
 
 This is the cruel accounting of absorption.
-It looked like the cheap option only because its invoice came later and was addressed to someone else.
+**It looked like the cheap option only because its invoice came later and was addressed to someone else.**
 Paid in full, with interest, by whoever is still standing near the code when it finally fails.
 
 ## The Decision Was Usually Unsound for a Reason

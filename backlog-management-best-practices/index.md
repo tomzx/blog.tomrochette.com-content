@@ -16,7 +16,7 @@ When it doesn't, the organization drowns in a swamp of stale tickets, conflictin
 
 On a small team, the backlog is a conversation.
 The product owner and a handful of engineers look at a list, discuss what matters most, and pick up work.
-At scale, the backlog becomes an information system.
+**At scale, the backlog becomes an information system.**
 It mediates between strategy and execution, between stakeholders who want things and teams who build things, and between the present state of the product and its future state.
 
 The Scrum Guide defines the product backlog as "an emergent, ordered list of what is needed to improve the product" and notes that it is the single source of work for the team.[^1]
@@ -25,7 +25,7 @@ The first challenge is deciding what structure you need and resisting the urge t
 
 Marty Cagan argues that the strongest product teams maintain a clear distinction between *product discovery* (figuring out what to build) and *product delivery* (building it), and that conflating the two is a root cause of bloated backlogs.[^2]
 Items land in the backlog before anyone has validated that they are worth building.
-The backlog becomes a wish list rather than a commitment queue.
+**The backlog becomes a wish list rather than a commitment queue.**
 
 ## Four Principles That Change Everything
 

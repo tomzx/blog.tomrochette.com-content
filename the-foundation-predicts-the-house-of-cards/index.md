@@ -185,10 +185,10 @@ Engineering teams tend to diagnose everything as tooling, because that is the to
 
 If you lead a team and want to know whether you are shipping features or shipping cards, a few concrete moves separate the diagnosis from the guesswork.
 
-Measure both DORA axes, not just throughput.
+**Measure both DORA axes, not just throughput.**
 If your deployment frequency is rising and your change failure rate or time to restore is rising with it, you are not getting faster.
 You are getting more volatile, and the LLM is the reason.
-The stability metrics are the house-of-cards indicator, and they are free to collect.
+**The stability metrics are the house-of-cards indicator, and they are free to collect.**
 
 Treat the codebase as context and pay down the part the model keeps getting wrong.
 If the LLM consistently produces bad output in one module, that module is bad context, and the fix is to refactor the module, not to write a longer prompt.

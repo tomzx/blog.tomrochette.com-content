@@ -30,7 +30,7 @@ They scan the diff for a few seconds.
 They click approve.
 
 Ask them, afterward, what they certified.
-They will struggle to answer.
+**They will struggle to answer.**
 
 They did not re-run the tests; CI already did that.
 They did not verify the implementation against the spec; they assumed someone else did.
@@ -83,7 +83,7 @@ A human gate is a human vulnerability.
 ## What Actually Makes a Merge Safe
 
 Strip the ritual away and ask what keeps a merge safe.
-It is a short list, and the human approver is not on it.
+**It is a short list, and the human approver is not on it.**
 
 A comprehensive test suite that runs on every change.
 Static analysis that catches the classes of bugs tests miss.
@@ -105,7 +105,7 @@ The first objection is accountability.
 Without a human approval, who is responsible for the code that ships?
 
 I made this argument in the previous piece, and I will not repeat all of it here.
-The short version is that a human glancing at a diff was never truly responsible for what shipped.
+**The short version is that a human glancing at a diff was never truly responsible for what shipped.**
 Responsibility lives upstream, in who decided the problem was worth solving and who wrote the specification.
 
 The approval signature adds nothing to that picture.
@@ -121,7 +121,7 @@ That is the stronger case for keeping a human signature, and it deserves its own
 "But regulation requires human approval."
 
 Sometimes it does.
-More often, regulation requires traceability, a named owner, a documented decision, an auditable path.
+**More often, regulation requires traceability, a named owner, a documented decision, an auditable path.**
 Those are not the same thing as a tired human clicking approve at four in the afternoon on a Friday.
 
 When a rule says a change must be "reviewed and approved", it is trying to ensure that someone with authority consciously decided the change was acceptable.
@@ -144,8 +144,8 @@ Either every pull request needs a human, or no pull request does.
 
 This is wrong, and it is not how anyone actually behaves.
 A README typo and a production schema migration are both pull requests.
-They do not need the same gate.
-Treating them the same is not caution; it is a failure to think about risk.
+**They do not need the same gate.**
+**Treating them the same is not caution; it is a failure to think about risk.**
 
 The right unit of gating is not "is this a pull request".
 It is "what is the blast radius of this change, and is it reversible".
@@ -202,7 +202,7 @@ They need the automated gates, and then they need to merge.
 ## The Transition
 
 You do not get to "no human gate for most changes" by decree.
-You get there by making the default path safe.
+**You get there by making the default path safe.**
 
 Start by making the low-blast-radius path auto-merge on green.
 Documentation, tests, internal-only changes within a single module.
@@ -243,7 +243,7 @@ The merge button exists because our tools gave us a button.
 We built a workflow around it, assigned it meaning, and then treated the meaning as structural.
 
 It is not.
-The safety of a codebase is produced by the systems around the merge, not by the merge approval itself.
+**The safety of a codebase is produced by the systems around the merge, not by the merge approval itself.**
 The click certifies almost nothing those systems did not already certify.
 And it extracts a real cost: latency, batched risk, fractured focus, concentrated bus factors, and a soft target for anyone who wants to slip something through.
 

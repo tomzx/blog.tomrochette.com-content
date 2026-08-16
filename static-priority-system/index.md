@@ -19,14 +19,14 @@ P0 work has an operational definition.
 It describes the *nature* and *consequence* of the task.
 
 A P1 task is important work that should be done this quarter: a feature the largest customer has been requesting, a refactor that will unblock two teams, a performance optimization that will cut infrastructure costs by 30%.
-Completing your P0s does not transform a P1 into an existential crisis.
+**Completing your P0s does not transform a P1 into an existential crisis.**
 The task has not changed.
 Its urgency has not changed.
 Calling it P0 adds no information and removes the ability to distinguish it from actual emergencies.
 
 ## If everything becomes P0, nothing is P0
 
-Priority inflation is the fastest way to destroy a prioritization system.
+**Priority inflation is the fastest way to destroy a prioritization system.**
 Once your team learns that P0 simply means "next thing we're working on," the label stops meaning anything.
 When a real P0 arrives, the database is on fire, you need everyone to drop what they are doing, the word no longer carries weight because it has been diluted by promotion.
 
@@ -40,10 +40,10 @@ The value of a priority scale is communication.
 When an engineer files a bug as P1, a product manager should immediately understand the rough timeframe and severity without reading the full description.
 When a support rep escalates a ticket to P0, the on-call engineer should know to wake up.
 
-This shared understanding requires stable definitions.
+**This shared understanding requires stable definitions.**
 If P0 means "site is down" on Monday but "most important remaining backlog item" on Wednesday, the label communicates nothing about the work itself, only about where it sits relative to other work.
 That is what a sorted list already tells you.
-The priority label should add something a list cannot: the *kind* of impact the task has.
+**The priority label should add something a list cannot: the *kind* of impact the task has.**
 
 ## Why not use importance × urgency?
 
@@ -84,7 +84,7 @@ A related objection: instead of a single P0-P5 label, why not rate each task on 
 If each dimension only has two or three values, assessment is quick.
 
 Assessment is indeed quick.
-The problem is the decision rule.
+**The problem is the decision rule.**
 Once you have `impact × urgency × risk`, you need a policy for how they combine: does high impact + medium urgency + low risk come before medium impact + high urgency + low risk?
 Every disagreement becomes a debate about weights instead of a quick "this is P1" call.
 
@@ -120,7 +120,7 @@ Someone has to decide which P1s become P0s.
 That decision requires a meeting, or at least a Slack thread, or a product manager's judgment call.
 The larger the team, the more expensive this becomes.
 
-In a static system, this cost is zero.
+**In a static system, this cost is zero.**
 You finish P0s, you pick up the next highest-priority task, and you keep building.
 No ceremony, no relabeling, no debate about whether this P1 has "earned" its promotion.
 
@@ -129,7 +129,7 @@ No ceremony, no relabeling, no debate about whether this P1 has "earned" its pro
 Healthy teams do not just work on the highest-priority item.
 They allocate capacity across priority levels: 10% on P0 (emergencies, when they arise), 60% on P1 (core roadmap), 20% on P2 (improvements), 10% on P3-P5 (maintenance, tech debt, experiments).
 
-This kind of planning is only possible with stable definitions.
+**This kind of planning is only possible with stable definitions.**
 If P1s keep becoming P0s, you cannot reason about where your time is going.
 Your velocity metrics become meaningless because the definition of each bucket shifts under you.
 
@@ -140,7 +140,7 @@ A static system forces the team to be realistic about what they are not doing.
 In a dynamic system, everything important eventually becomes P0, so nothing is ever explicitly deprioritized.
 A stakeholder asks "when will you do X?" and the answer is "it's P1, we'll get to it after the current P0s."
 This is real but uncomfortable.
-The discomfort is the point.
+**The discomfort is the point.**
 
 When a P2 feature stays P2 for three quarters, the organization has a clear signal: this work is not important enough to displace P1 work.
 That signal triggers a useful conversation: should we increase staffing, should we drop the feature, or should we accept that it will not happen soon?
@@ -150,7 +150,7 @@ In a dynamic system, that feature would have been promoted to P1, then P0, and d
 ## When priorities *should* change
 
 A static system does not mean priorities are frozen forever.
-Priorities should change when the *task itself* changes, not when the backlog above it empties.
+**Priorities should change when the *task itself* changes, not when the backlog above it empties.**
 
 A P2 performance issue becomes P1 when a major customer threatens to churn over it.
 The task's context changed.
@@ -191,5 +191,5 @@ The fact that nothing more urgent remains does not change its nature.
 
 ## The one-sentence version
 
-Priority describes what a task *is*, not when you will get to it.
+**Priority describes what a task *is*, not when you will get to it.**
 Keep the label stable, sort within levels, and let the schedule be the schedule.

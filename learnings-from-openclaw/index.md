@@ -184,15 +184,15 @@ You may find that the role structure you assume you are running is not the one y
 
 ## What to Do Next
 
-If you maintain a project, take an hour and read your own commit history the way this article reads OpenClaw's.
+**If you maintain a project, take an hour and read your own commit history the way this article reads OpenClaw's.**
 Find your visionary and your steward, and if you do not have both, that is the single most important hiring or delegation decision in front of you.
 A project with no steward is slowly dying behind a pile of un-merged fixes and unread pull requests, and no amount of feature velocity will save it.
 
-Write down your ownership table, explicitly, in a file, even if it is just three names today.
+**Write down your ownership table, explicitly, in a file, even if it is just three names today.**
 The day you have thirty contributors is too late to invent the partition, because by then the loudest reviewer will have quietly become the owner of everything, and unwinding that is a political problem rather than a documentation one.
 The partition is cheap to write early and expensive to write late.
 
-Audit your contribution rules as a set, not individually.
+**Audit your contribution rules as a set, not individually.**
 Every rule that reads as harsh to a contributor should correspond to a specific class of work that once wasted your review time.
 Any rule you cannot trace back to such a wound is a rule that is probably driving contributors away without earning its cost, and it is a candidate for deletion.
 

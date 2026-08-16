@@ -291,7 +291,7 @@ A no is an answer, and an answer is all a contributor is waiting for.
 ## What to Do Next
 
 You do not need to build the whole layer at once, and you should not try.
-Pick the single thing that is costing you the most attention right now and automate that one.
+**Pick the single thing that is costing you the most attention right now and automate that one.**
 
 Add [actions/stale](https://github.com/actions/stale) and let it start closing the pull requests you were never going to get to.
 Add [eps1lon/actions-label-merge-conflict](https://github.com/eps1lon/actions-label-merge-conflict) and stop looking at diffs that are not ready to merge.

@@ -28,7 +28,7 @@ Important decisions get buried in threads that nobody scrolls back to.
 
 This gets worse when you want to do anything programmatic.
 Building a knowledge base, summarizing a channel, or tracking decisions all require raw access to the messages.
-Hitting the Slack API on demand works, but you pay the latency and rate-limit cost every time, and edits disappear if you only ever fetch live.
+**Hitting the Slack API on demand works, but you pay the latency and rate-limit cost every time, and edits disappear if you only ever fetch live.**
 
 ## How slack-cached works
 
@@ -139,7 +139,7 @@ cycle 1: 7 new message(s) across 3 channel(s) in 1.2s
 poll stopped after 1 cycle(s)
 ```
 
-That stdout stream is easy to wire into a downstream pipeline or a knowledge-base builder.
+**That stdout stream is easy to wire into a downstream pipeline or a knowledge-base builder.**
 
 Finally, cache the workspace's users and channels so threads can be rendered with real names:
 
@@ -180,7 +180,7 @@ $ slack-cached show-channels --json
 
 `fetch` always reaches out to Slack, but it's incremental.
 On a re-fetch, it calls `conversations.replies` with `oldest=<latest_cached_ts>`, so the API returns only new replies and any edits at the boundary.
-Messages are upserted by `ts`, which means edits replace the old text in place instead of creating duplicates.
+**Messages are upserted by `ts`, which means edits replace the old text in place instead of creating duplicates.**
 
 Rate limits are handled for you.
 HTTP 429 / `ratelimited` responses are retried with exponential backoff, up to five attempts, respecting the `Retry-After` header.
@@ -204,7 +204,7 @@ Carol Ng (carol)|53
 ```
 
 That's the real point of the tool.
-The cache is not an opaque blob; it's a table of messages you can `SELECT` from, join against users and channels, and export however you like.
+**The cache is not an opaque blob; it's a table of messages you can `SELECT` from, join against users and channels, and export however you like.**
 
 ## Authentication
 
@@ -229,7 +229,7 @@ $ uv run slack-fake-server --port 8199 --num-threads 50 --rate-limits
 ```
 
 It serves `conversations.list`, `conversations.replies`, `conversations.history`, and `users.list`, and can simulate Slack-tier rate limiting.
-Point slack-cached at it and you can develop and test against a realistic API without touching your real workspace:
+**Point slack-cached at it and you can develop and test against a realistic API without touching your real workspace:**
 
 ```bash
 $ slack-cached fetch --api-base-url http://localhost:8199/api --channel C0123ABCDEF --full-threads

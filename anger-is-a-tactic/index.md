@@ -130,13 +130,13 @@ And the ground must be safe before anyone will name the problem: Google's Projec
 
 ## What to Do Next
 
-Pick the next encounter and prepare one sentence for it.
+**Pick the next encounter and prepare one sentence for it.**
 Something like "I will engage with the problem when we can discuss it calmly," said once, neutrally, and then silence.
 
-Inventory your dependency while calm: who else knows your work, how portable are your skills, how many months of runway do you have.
+**Inventory your dependency while calm: who else knows your work, how portable are your skills, how many months of runway do you have.**
 This is not defeatism; it is converting yourself from a low-power target, the only kind this tactic works on, into a high-power one.
 
-Write down the incidents, dates included.
+**Write down the incidents, dates included.**
 Patterns need data, and data is what turns "I feel uncomfortable" into a case a leader or HR can act on.
 
 And if you have power over one of these people, stop asking whether they are worth the trouble and start computing what they cost; the research says the invoice is much larger than their manager has ever seen.

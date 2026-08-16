@@ -31,10 +31,10 @@ The entire artifact is illegible to a human by construction, and the field that 
 How did machine learning get comfortable with a thing nobody can read?
 
 Not by pretending to understand the internals.
-By refusing to need them.
+**By refusing to need them.**
 
 The model is a black box.
-You understand it through what it does, never through what it is.
+**You understand it through what it does, never through what it is.**
 You probe it with inputs and watch the outputs.
 You assemble a test set that captures the behaviors you care about, the happy paths and the adversarial ones.
 You measure accuracy, calibration, latency, and failure modes on the edge cases that would embarrass you in production.
@@ -51,7 +51,7 @@ The parallel is not exact, but it is close, and it is closing.
 A neural network is opaque because its meaning is smeared across billions of parameters, none of which means anything alone.
 Agent-written code is opaque for a different reason and a more prosaic one: there is simply too much of it, it was produced too fast, and no human has the hours to reconstruct what it does from the source.
 
-The end state is the same from the operator's point of view.
+**The end state is the same from the operator's point of view.**
 You are handed an artifact that does something.
 You cannot hold its behavior in your head by reading it.
 You have to find out what it does the way you find out what a model does, by running it and watching.
@@ -66,10 +66,10 @@ Source code used to be the thing that made software tractable.
 That was the whole promise.
 Unlike a compiled binary, unlike a trained network, you could open the file and follow the logic.
 Reading was how you understood a system, how you debugged it, how you trusted it.
-The fact that code was legible was the foundation engineers built their competence on.
+**The fact that code was legible was the foundation engineers built their competence on.**
 
 Machine learning never had that foundation, so it never grieved losing it.
-Software engineering did, and does, and that grief is most of what the discomfort is made of.
+**Software engineering did, and does, and that grief is most of what the discomfort is made of.**
 
 Strip the grief away and the practical question is simpler.
 If you could not read the code anyway, would you rather have no code, or would you rather have code you can probe, test, measure, and roll back?
@@ -192,13 +192,13 @@ You are being asked to point it at the layer where it was always doing the most 
 ## How to Get Comfortable
 
 Comfort is not a posture you adopt.
-It is a confidence you earn by watching the safety net catch things.
+**It is a confidence you earn by watching the safety net catch things.**
 Each time a gate stops a bad change, each time a canary surfaces a regression a reader would have missed, each time a rollback undoes a problem in minutes, the illegible artifact gets a little less frightening, because the system around it is doing the job your eyes used to do.
 
 Start where the stakes are low.
 Pick the changes you were never going to read carefully anyway, the small, reversible, low-blast-radius ones ([You Already Review Code Without Reading It](../code-review-without-reading-the-code/index.md) is the uncomfortable proof that this is most of them).
 Let those merge on green, with no human in the middle, and watch what happens.
-If nothing breaks, your nervous system learns faster than your opinions do.
+**If nothing breaks, your nervous system learns faster than your opinions do.**
 
 Then build the probing muscles.
 Write the behavioral tests before you let an agent write the code.

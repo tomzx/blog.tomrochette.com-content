@@ -35,7 +35,7 @@ The literature on [cognitive load](https://en.wikipedia.org/wiki/Cognitive_load)
 
 ## Where Attention Leaks
 
-Most of the fatigue people blame on AI is really misallocated attention.
+**Most of the fatigue people blame on AI is really misallocated attention.**
 It leaks in four predictable places.
 
 Watching the agent generate.
@@ -83,12 +83,12 @@ This is the taste decision, the "good enough, ship it" moment, and it is the las
 
 A few rules hold up.
 
-Spend attention upstream, not downstream.
+**Spend attention upstream, not downstream.**
 The hour you invest in the specification is worth ten hours of fixing the generated output, because the output is downstream of the spec and inherits all of its omissions.
 If you keep editing what the agent produced, the problem is usually the prompt you did not write, not the model.
 
 Encode correctness until it costs you nothing.
-Every check you write is attention you never have to spend again.
+**Every check you write is attention you never have to spend again.**
 The goal is to shrink the "verify by hand" pile to the set of things that genuinely cannot be expressed as a check, which is smaller than most people think.
 
 Parallelize generation, serialize judgment.

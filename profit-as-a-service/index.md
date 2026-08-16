@@ -21,7 +21,7 @@ Manual operations became automation.
 
 Each layer removes something the customer previously had to manage themselves.
 Each layer turns a cost center into a service.
-Each layer makes the underlying complexity someone else's problem.
+**Each layer makes the underlying complexity someone else's problem.**
 
 Profit-as-a-Service is the logical conclusion of this trend.
 Instead of selling software that helps you make money, you sell the money-making itself.
@@ -50,7 +50,7 @@ Revenue is shared, not subscribed to.
 
 ## Why Now
 
-Three forces are converging to make Profit-as-a-Service viable at scale.
+**Three forces are converging to make Profit-as-a-Service viable at scale.**
 
 ### 1. AI can now execute complex business processes autonomously
 
@@ -72,7 +72,7 @@ AI is better at this math than humans.
 
 ## The Economics
 
-The unit economics of Profit-as-a-Service are deceptively simple.
+**The unit economics of Profit-as-a-Service are deceptively simple.**
 
 The service provider operates a system that generates revenue.
 The customer provides the input: capital, data, or access to a market.
@@ -99,7 +99,7 @@ Profit-as-a-Service is not without significant risks.
 
 ### Alignment risk
 
-When you outsource profit generation, you also outsource decision-making.
+**When you outsource profit generation, you also outsource decision-making.**
 The provider's optimization target may diverge from yours.
 A trading algorithm might maximize short-term returns at the cost of long-term stability.
 A content farm might optimize for clicks at the cost of your brand reputation.
@@ -146,7 +146,7 @@ It exists on a spectrum of how much of the profit-generating process is abstract
 **Level 5: AI runs everything, including capital allocation.** Fully autonomous business entities. Not yet real, but the trajectory is clear.
 
 Most businesses today operate at Level 0 or 1.
-The opportunity is in moving up the spectrum.
+**The opportunity is in moving up the spectrum.**
 
 ## Who Wins
 
@@ -156,7 +156,7 @@ The winners in the Profit-as-a-Service economy will be:
 If you operate the AI system that generates profit for thousands of businesses, you capture a slice of every dollar earned.
 
 **Capital providers** who can efficiently allocate resources across multiple PaaS offerings.
-When starting a business requires no expertise, access to capital becomes the primary competitive advantage.
+**When starting a business requires no expertise, access to capital becomes the primary competitive advantage.**
 
 **Specialists** who can handle the edge cases that AI cannot.
 Regulatory compliance, strategic partnerships, and brand building remain human-dominated activities.
@@ -172,10 +172,10 @@ The losers will be:
 When AI can access and process all available information, intermediaries add no value.
 
 **Consultants** who sold expertise that can now be codified.
-If your consulting practice can be reduced to a prompt, it will be.
+**If your consulting practice can be reduced to a prompt, it will be.**
 
 **SaaS companies** that failed to move up the value chain.
-A CRM that helps you track sales will lose to an AI that makes sales for you.
+**A CRM that helps you track sales will lose to an AI that makes sales for you.**
 
 **Employees** whose jobs consisted of executing repeatable business processes.
 This is the uncomfortable truth that applies across industries.
@@ -186,9 +186,9 @@ Profit-as-a-Service is not a prediction.
 It is a description of what is already happening.
 
 The question for any business is not whether this trend will affect you.
-The question is whether you will be the provider or the customer.
+**The question is whether you will be the provider or the customer.**
 
-If your business processes can be automated by AI, they will be.
+**If your business processes can be automated by AI, they will be.**
 If you are the one automating them, you are the PaaS provider.
 If you are the one whose processes are being automated, you are about to become a customer.
 

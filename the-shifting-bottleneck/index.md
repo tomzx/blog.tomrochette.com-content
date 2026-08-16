@@ -20,7 +20,7 @@ Understanding codebases was slow.
 Every feature required a human to translate intent into syntax, one keystroke at a time.
 We built IDEs, autocompletion, linters, and refactoring tools to speed this up, but the fundamental constraint remained: humans had to write the code.
 
-Then LLMs arrived and that constraint dissolved almost overnight.
+**Then LLMs arrived and that constraint dissolved almost overnight.**
 GitHub Copilot, Cursor, Claude Code, and a dozen other tools made it trivial to generate working code from a description.
 The bottleneck moved.
 
@@ -91,7 +91,7 @@ Existential → Product → Feature → Verification → Production
 ```
 
 AI has been climbing this stack from the bottom.
-Each time it solves one level, the next level becomes the limiting factor.
+**Each time it solves one level, the next level becomes the limiting factor.**
 The work doesn't decrease, it transforms.
 
 ## What This Means In Practice
@@ -124,7 +124,7 @@ The pessimists say this time is different because AI doesn't just replace manual
 
 What I can observe is that the bottleneck will keep shifting.
 Whatever you think the final constraint is, solving it will reveal another one behind it.
-The work of a developer is not to write code, it is to stand at the current bottleneck and push.
+**The work of a developer is not to write code, it is to stand at the current bottleneck and push.**
 
 The bottleneck will move.
 Your job is to move with it.

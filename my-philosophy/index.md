@@ -100,14 +100,14 @@ Consistently wrong is worse than inconsistently right, and the only way to avoid
 
 ## Attention is the one resource I cannot manufacture
 
-Attention is the binding constraint of my life, so I treat it as the thing the whole system is designed to protect.
+**Attention is the binding constraint of my life, so I treat it as the thing the whole system is designed to protect.**
 Keeping up is a losing strategy; the target moves faster than any consumption can match.
-The move is not to consume more but to build a funnel that throws almost everything away, confidently and without guilt.
+**The move is not to consume more but to build a funnel that throws almost everything away, confidently and without guilt.**
 Treat urgency as a sales pitch from someone with an incentive to inflate it.
 Prefer pull over push: knowing where to find something when I need it beats knowing it now.
 Re-audit the filter periodically, because filters are themselves depreciating assets.
 
-Asymmetry favors the tighter filter.
+**Asymmetry favors the tighter filter.**
 I would rather miss something than be drowned by it, and I would rather be surprised by a concept I can reuse for a decade than briefed on ten things I will forget next week.
 
 ## The moral register
@@ -130,14 +130,14 @@ It means the meaning is mine to assign and the assignment is allowed to be revis
 
 ## Set your own standard
 
-Do not define your identity by what the people around you do.
+**Do not define your identity by what the people around you do.**
 If their standards are lower than yours and they do things you do not want to see done, that is not permission to lower yours to match.
 Most people drift toward the average of their environment without noticing, and the excuse is always that everyone else is doing it.
 The fact that someone else cuts a corner does not make the corner straight.
 
 Be your own standard setter.
 Be what you would want others to be, regardless of whether they are.
-The standard is not a comparison to the people next to you; it is a comparison to the person you decided to be, and who you were before.
+**The standard is not a comparison to the people next to you; it is a comparison to the person you decided to be, and who you were before.**
 
 ## In one sentence
 

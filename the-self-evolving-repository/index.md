@@ -27,7 +27,7 @@ A developer describes a task, the LLM writes code, the developer reviews, reques
 The developer is the steering wheel.
 The LLM is the engine.
 
-Full automation removes the steering wheel.
+**Full automation removes the steering wheel.**
 The project must decide for itself what to work on, implement the work, verify it, and ship it.
 The maintainer who set it up does not intervene in the loop.
 
@@ -56,7 +56,7 @@ A self-evolving repository runs a continuous loop.
 Observe → Decide → Implement → Verify → Ship → Learn
 ```
 
-Each stage must be fully automated.
+**Each stage must be fully automated.**
 
 ### 1. Observe
 
@@ -140,11 +140,11 @@ The hardest problem in a self-evolving repository is not implementation.
 It is not verification.
 It is not even CI automation.
 
-It is direction.
+**It is direction.**
 
 When a human maintainer decides what to work on, they are applying judgment that is difficult to articulate.
 They know the project's trajectory, the community's needs, the competitive landscape, and the technical debt that is becoming critical.
-They have taste.
+**They have taste.**
 They have a vision for what the project should become.
 
 Encoding this judgment into an autonomous system is the real challenge.
@@ -235,14 +235,14 @@ This is the layer that catches semantic problems that automated tests miss: the 
 This agent writes tests designed to fail, probes edge cases, and attempts to find inputs that produce incorrect behavior.
 It is the automated equivalent of a hostile code reviewer.
 
-The key insight is that each layer should be independent.
+**The key insight is that each layer should be independent.**
 If the same LLM that wrote the code also wrote the tests and also ran the review, the correlated failure rate is high.
 The system will make the same mistake in implementation, tests, and review because they all share the same blind spots.
 
 Diversity of verification methods reduces correlated failures.
 Static analysis does not share blind spots with property testing.
 Mutation testing does not share blind spots with scenario validation.
-The layers are strongest when they are structurally different, not just different invocations of the same model.
+**The layers are strongest when they are structurally different, not just different invocations of the same model.**
 
 ## What Can Go Wrong
 
@@ -252,7 +252,7 @@ Complex autonomous systems have failure modes that are hard to predict.
 ### Silent quality decay
 
 The most insidious failure mode.
-The system ships changes that pass all verification layers but gradually degrade the codebase's quality.
+**The system ships changes that pass all verification layers but gradually degrade the codebase's quality.**
 Each individual change is defensible.
 The cumulative effect is a codebase that is harder to maintain, slower to evolve, and full of subtle interactions that no one understands.
 
@@ -347,7 +347,7 @@ It makes less sense for projects that are: in early exploration where direction 
 
 The threshold question is simple: can you write down the rules a competent maintainer would follow, well enough that following them mechanically produces good outcomes?
 If yes, the system can work.
-If no, the system will be autonomous but not effective.
+**If no, the system will be autonomous but not effective.**
 
 ## The Deeper Question
 
@@ -355,7 +355,7 @@ A self-evolving repository raises a question that I explored in [Scaling the LLM
 
 The project is no longer its code.
 The code is a byproduct of the system that generates it.
-The project is the roadmap, the verification pipeline, the decision policy, the guardrails, and the accumulated learning data.
+**The project is the roadmap, the verification pipeline, the decision policy, the guardrails, and the accumulated learning data.**
 These are the artifacts that determine what the project becomes.
 
 This reframes what it means to maintain a project.

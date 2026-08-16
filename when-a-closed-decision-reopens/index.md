@@ -104,7 +104,7 @@ That is a new person doing their best with the information they were given, whic
 
 The deeper structural issue is that information in an organization flows along its communication paths, and an org that just gained a new link between the team and the senior leader has, in effect, [rewired those paths](https://en.wikipedia.org/wiki/Conway%27s_law).
 A decision that was stable under the old wiring may be unstable under the new wiring, because the new path bypasses the node where the context lived.
-This is why onboarding a new manager is not a courtesy, it is a defensive necessity.
+**This is why onboarding a new manager is not a courtesy, it is a defensive necessity.**
 Within their first week, they need to receive, in writing, the current decisions, the reasons behind them, and the constraints that produced them.
 A new manager who has read the decision records cannot accidentally contradict them, because they know they exist.
 
