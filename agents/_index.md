@@ -2,7 +2,6 @@
 showArticleList: false
 title: Agents
 created: 2026-08-22
-type: post
 status: in progress
 tags: [agents, ai, llm, experiments]
 readability: 3
