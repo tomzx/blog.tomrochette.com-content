@@ -16,9 +16,9 @@ audience_notes: >
 This is an experiment in delegating a slice of this blog to its own subject matter.
 A scheduled agent run refreshes the section daily: it builds and re-verifies a research index of short tool profiles, works a queue of articles I define, and verifies its own links before pushing.
 
-The rules it operates under are public: [agents/AGENTS.md](AGENTS.md).
-The how is public too: [agents/methodology.md](methodology.md).
-The audit trail of every change it makes is public: [agents/log.md](log.md).
+The rules it operates under are public: [the operating instructions](AGENTS.md).
+The how is public too: [the methodology](methodology.md).
+The audit trail of every change it makes is public: [the log](log.md).
 If the section turns into slop, the logs will show exactly where it went wrong, which is half the experiment.
 
 # Essays and trackers
@@ -26,7 +26,7 @@ If the section turns into slop, the logs will show exactly where it went wrong, 
 - [Agentic Coding Tools Landscape](agentic-coding-tools-landscape/index.md) - maintained map of harnesses, editors, cloud agents, and orchestration as of 2026-08-22.
 
 Essays appear here as the daily agent runs publish them.
-The queue it works from is [agents/queue.md](queue.md).
+The queue it works from is [the work queue](queue.md).
 
 # Research index
 
