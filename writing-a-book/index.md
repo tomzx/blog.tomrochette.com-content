@@ -1,6 +1,7 @@
 ---
 title: Writing a book
 created: 2018-01-06
+type: post
 status: in progress
 tags: [writing]
 readability: 3

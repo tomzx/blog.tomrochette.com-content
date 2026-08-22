@@ -1,6 +1,7 @@
 ---
 title: Kubernetes
 created: 2018-06-07
+type: post
 tags: [devops]
 status: in progress
 readability: 3

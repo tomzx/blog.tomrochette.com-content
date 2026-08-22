@@ -1,6 +1,7 @@
 ---
 title: Wikipedia
 created: 2020-01-01
+type: post
 status: in progress
 tags: [wikipedia]
 readability: 3

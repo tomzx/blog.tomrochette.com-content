@@ -1,6 +1,7 @@
 ---
 title: Research methodology and organization
 created: 2018-02-10
+type: post
 status: in progress
 tags: [reusable-writing, reusable-notes]
 readability: 3

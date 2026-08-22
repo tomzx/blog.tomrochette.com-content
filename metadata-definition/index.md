@@ -1,6 +1,7 @@
 ---
 title: Metadata definition
 created: 2018-01-12
+type: post
 tags: []
 status: in progress
 readability: 3

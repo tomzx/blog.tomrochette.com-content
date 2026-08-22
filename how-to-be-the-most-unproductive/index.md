@@ -1,6 +1,7 @@
 ---
 title: How to be the most unproductive
 created: 2023-08-19
+type: post
 tags: [productivity]
 status: draft
 readability: 1

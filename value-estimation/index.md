@@ -1,6 +1,7 @@
 ---
 title: Value estimation
 created: 2018-05-05
+type: post
 tags: []
 status: in progress
 readability: 3

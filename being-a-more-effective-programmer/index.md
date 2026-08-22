@@ -1,6 +1,7 @@
 ---
 title: Being a more effective programmer
 created: 2018-05-11
+type: post
 status: in progress
 tags: [programming, productivity]
 readability: 3

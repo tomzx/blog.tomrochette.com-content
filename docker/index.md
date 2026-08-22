@@ -1,6 +1,7 @@
 ---
 title: Docker
 created: 2018-06-07
+type: post
 status: in progress
 tags: [devops, docker]
 readability: 3
