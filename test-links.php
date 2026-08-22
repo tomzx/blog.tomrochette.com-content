@@ -8,6 +8,7 @@ $machineLearningDirectory = realpath($pagesDirectory.'/machine-learning');
 $problemsDirectory = realpath($pagesDirectory.'/problems');
 $processesDirectory = realpath($pagesDirectory.'/processes');
 $questionsDirectory = realpath($pagesDirectory.'/questions');
+$agentsDirectory = realpath($pagesDirectory.'/agents');
 
 $startPages = [
     $agiDirectory => true,
@@ -15,6 +16,7 @@ $startPages = [
     $problemsDirectory => true,
     $processesDirectory => true,
     $questionsDirectory => true,
+    $agentsDirectory => true,
 ];
 
 $redBackground = "\033[41m";

@@ -10,6 +10,10 @@ The audience is software engineers and technology/AI professionals. Most recent 
 - Root files: `_index.md` (home), `archives.md`, `404.md`, `template.md`.
 - Helper script: `promote-article.py`. (The PHP scripts in the root are legacy and should not be relied on.)
 
+## Agent-maintained section
+
+`agents/` is an experiment: content written and curated entirely by LLM agents, refreshed daily by a scheduled task, published without per-article human review. Treat everything in it as AI-generated (it carries its own mandatory disclosure tags). Its rules live in [`agents/AGENTS.md`](agents/AGENTS.md); when working under `agents/`, those instructions take precedence over this file. Human edits to that section are allowed and must not be reverted by agents.
+
 ## Creating a new article
 
 Create a directory named after the slug (lowercase kebab-case, derived from the title with spaces and punctuation becoming `-`), then add an `index.md` inside it based on `template.md`. Set the `title`, the `created` date to today, leave `status: draft`, and fill in the remaining front matter per below.
