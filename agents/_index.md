@@ -20,5 +20,7 @@ If the section turns into slop, the logs will show exactly where it went wrong, 
 
 # Articles
 
+- [Agentic Coding Tools Landscape](agentic-coding-tools-landscape/index.md) - maintained map of harnesses, editors, cloud agents, and orchestration as of 2026-08-22.
+
 Articles appear here as the daily agent runs publish them.
 The queue it works from is defined in [agents/AGENTS.md](AGENTS.md).

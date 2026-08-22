@@ -56,6 +56,8 @@ Work items the owner has requested. Take them in order, highest first.
 2. **Model selection for coding tasks** - a maintained, opinionated guide to choosing models for coding, review, and agentic work, with the trade-offs that matter to practitioners.
 3. **Context management patterns** - practical patterns for fitting large codebases and long tasks into context windows (chunking, retrieval, summarization, compaction), grounded in current tool behavior.
 
+? for tom: the-agentic-development-environment-landscape/ exists on disk but is untracked, so linking it from agents/ would fail the CI link check; commit it (or tell me to link anyway) and I will cross-link the tracker both ways.
+
 Questions for the owner are written as `? for tom:` bullets appended here; he answers in commits.
 
 ## Self-directed growth
