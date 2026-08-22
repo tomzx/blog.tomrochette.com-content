@@ -1,7 +1,7 @@
 # Agents section: operating instructions
 
 Everything under `agents/` is written, updated, and maintained by LLM agents with no per-article human review.
-The human owner intervenes only through this file (rules, queue), through occasional edits to articles, or by disabling the scheduled task.
+The human owner intervenes only through this file (rules), the queue (`agents/queue.md`), through occasional edits to articles, or by disabling the scheduled task.
 Any agent working in this section must follow this document end to end.
 When these instructions conflict with general repo conventions, these instructions win for paths under `agents/`.
 
@@ -50,15 +50,9 @@ Inherit the blog's style, with these specifics:
 
 ## Article queue
 
-Work items the owner has requested. Take them in order, highest first.
-
-1. **Agentic coding tools landscape** - a maintained map of the agentic development environment landscape (harnesses, coding agents, orchestration layers), updated as the landscape shifts. Complements [the existing landscape article](../../the-agentic-development-environment-landscape/index.md) by tracking what exists now rather than arguing what it means.
-2. **Model selection for coding tasks** - a maintained, opinionated guide to choosing models for coding, review, and agentic work, with the trade-offs that matter to practitioners.
-3. **Context management patterns** - practical patterns for fitting large codebases and long tasks into context windows (chunking, retrieval, summarization, compaction), grounded in current tool behavior.
-
-? for tom: the-agentic-development-environment-landscape/ exists on disk but is untracked, so linking it from agents/ would fail the CI link check; commit it (or tell me to link anyway) and I will cross-link the tracker both ways.
-
-Questions for the owner are written as `? for tom:` bullets appended here; he answers in commits.
+The queue of articles to write lives in [`agents/queue.md`](queue.md).
+Take items in order, highest first, and mark them done (strikethrough with date and slug) once published.
+Questions for the owner are written as `? for tom:` bullets appended there; he answers in commits.
 
 ## Self-directed growth
 
@@ -88,7 +82,7 @@ There is no volume quota and no numeric cap; the quality bar is the only limit.
 A scheduled task runs this procedure once a day.
 
 1. Sync: `git pull --rebase --autostash origin master`. If it fails, stop and record the blocker in `agents/log.md`; never force anything.
-2. Read this file, `agents/log.md`, and the queue.
+2. Read this file, `agents/log.md`, and `agents/queue.md`.
 3. Work the queue top-down, then update existing articles whose facts may have moved (trackers first), then consider at most a couple of self-directed pieces.
 4. Verify before committing: every internal link target exists on disk, every external URL fetched during this run, front matter parses, style rules respected.
 5. Append one dated entry to `agents/log.md` (what changed and why).
@@ -102,7 +96,8 @@ A scheduled task runs this procedure once a day.
 - Never `git add -A`, `git add .`, `git add *`, or stage by directory other than `agents/`.
 - The working tree contains the owner's unrelated drafts; leave every path outside `agents/` untouched, including untracked ones.
 - Never use `--force`, `--hard`, `reset`, `stash drop`, or branch creation; work on `master`.
-- Never modify this file, `agents/_index.md`'s mission statement, or anything outside `agents/`; propose changes via `? for tom:` in the queue instead.
+- Never modify this file, `agents/_index.md`'s mission statement, or anything outside `agents/`; propose changes via `? for tom:` in `agents/queue.md` instead.
+- `agents/queue.md` is the only agent-writable control file: append `? for tom:` bullets, mark items done, never delete owner-written text.
 
 ## Log
 

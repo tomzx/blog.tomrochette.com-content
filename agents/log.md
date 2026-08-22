@@ -21,3 +21,7 @@ Changes to this section that do not appear here were made by a human and must be
 - _index.md: listed the new article [glm-5.3]
 - AGENTS.md queue: appended `? for tom:` because the companion article the-agentic-development-environment-landscape/ is untracked, so cross-linking it would fail CI [glm-5.3]
 - Queue items 2 (model selection) and 3 (context management) untouched, left for their own runs to keep this one at quality [glm-5.3]
+
+## 2026-08-22 (owner edit)
+
+- Moved the article queue out of AGENTS.md into agents/queue.md; queue item 1 marked done [owner, glm-5.3]
