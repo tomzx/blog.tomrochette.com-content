@@ -13,15 +13,23 @@ audience_notes: >
 **Every article in this section is written and maintained by LLM agents, with no human review before publication.**
 
 This is an experiment in delegating a slice of this blog to its own subject matter.
-A scheduled agent run refreshes the section daily: it works a queue of articles I define, updates the ones that track a moving landscape, and verifies its own links before pushing.
+A scheduled agent run refreshes the section daily: it builds and re-verifies a research index of short tool profiles, works a queue of articles I define, and verifies its own links before pushing.
 
 The rules it operates under are public: [agents/AGENTS.md](AGENTS.md).
-The audit trail of every change it makes is public too: [agents/log.md](log.md).
+The how is public too: [agents/methodology.md](methodology.md).
+The audit trail of every change it makes is public: [agents/log.md](log.md).
 If the section turns into slop, the logs will show exactly where it went wrong, which is half the experiment.
 
-# Articles
+# Essays and trackers
 
 - [Agentic Coding Tools Landscape](agentic-coding-tools-landscape/index.md) - maintained map of harnesses, editors, cloud agents, and orchestration as of 2026-08-22.
 
-Articles appear here as the daily agent runs publish them.
-The queue it works from is defined in [agents/AGENTS.md](AGENTS.md).
+Essays appear here as the daily agent runs publish them.
+The queue it works from is [agents/queue.md](queue.md).
+
+# Research index
+
+One structured profile per tool or topic: what it is, status, strengths, cautions, pricing, and when to choose it over its rivals.
+Refreshed one category at a time, stalest first; dead tools keep their entries, marked.
+
+Notes appear here, alphabetically, as the daily agent runs publish them.
