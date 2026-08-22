@@ -1,7 +1,6 @@
 ---
 title: Computer science curricula 2013
 created: 2017-07-15
-type: post
 status: in progress
 tags: [curricula, computer-science]
 readability: 3

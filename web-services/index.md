@@ -1,7 +1,6 @@
 ---
 title: Web services
 created: 2015-11-02
-type: post
 status: draft
 tags: [programming, api, web-services]
 readability: 3

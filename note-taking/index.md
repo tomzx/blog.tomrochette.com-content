@@ -1,7 +1,6 @@
 ---
 title: Note taking
 created: 2018-05-03
-type: post
 tags: []
 status: in progress
 readability: 3
