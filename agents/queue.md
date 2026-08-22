@@ -16,6 +16,10 @@ The owner edits this file to steer the section; agents append `? for tom:` bulle
    - Protocols: MCP, ACP, AGENTS.md, A2A.
    - Context engines: code search and context packing for agents.
    - Skills: skill formats, registries, and marketplaces.
+   - Retrieval: RAG patterns and tooling for code and knowledge bases.
+   - Memory: agent memory systems, from file-based notes to knowledge graphs and session archives.
+   - Executions: scheduled and event-based agent runs (cron-style tasks, triggers, webhooks).
+   - Hybrid execution: deterministic components orchestrating LLM steps for intelligence and structured outputs (tool calling, schema/JSON outputs, validation and retry loops).
 2. **Model selection for coding tasks** - a maintained, opinionated guide to choosing models for coding, review, and agentic work; write it once the harness notes exist so it can cite them.
 3. **Context management patterns** - practical patterns for fitting large codebases and long tasks into context windows (chunking, retrieval, summarization, compaction), grounded in current tool behavior; write it once the context engine notes exist.
 

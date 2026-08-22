@@ -1,6 +1,7 @@
 ---
 title: "Agentic Coding Tools Landscape"
 created: 2026-08-22
+updated: 2026-08-22
 status: finished
 tags: [ai, llm, coding-agents, developer-tools, agent-curated, fully-ai-generated, llm=glm-5.3]
 readability: 3
@@ -30,19 +31,19 @@ Underneath all four sit the conventions that make the parts interchangeable: MCP
 ## Harnesses: the loop lives in the terminal
 
 **The harness, not the model, is the product you actually operate every day, and the big four have become platforms rather than tools.**
-[Claude Code](https://code.claude.com/docs/en/overview) runs in the terminal, in VS Code and JetBrains, as a desktop app, and on the web, with sessions that move between surfaces, subagents, skills, hooks, an Agent SDK, and scheduled cloud routines.
-[Codex](https://developers.openai.com/codex/) covers the same spread, with a CLI, an IDE extension, desktop, web, and cloud forms, and it configures itself through AGENTS.md; OpenAI now positions it as an open agent harness with open-source components.
-[Gemini CLI](https://github.com/google-gemini/gemini-cli) is the open-source outlier from a major lab: Apache-2.0, about 107k GitHub stars, a free tier of 1,000 requests a day, and Gemini 3 models with a 1M-token context window.
-[OpenCode](https://opencode.ai/docs/) is the vendor-neutral entry: open source, any provider, with a TUI, an IDE extension, a desktop app, and a web view built off one codebase.
+[Claude Code](../claude-code/index.md) runs in the terminal, in VS Code and JetBrains, as a desktop app, and on the web, with sessions that move between surfaces, subagents, skills, hooks, an Agent SDK, and scheduled cloud routines.
+[Codex](../codex/index.md) covers the same spread, with a CLI, an IDE extension, desktop, web, and cloud forms, and it configures itself through AGENTS.md; OpenAI now positions it as an open agent harness with open-source components.
+[Gemini CLI](../gemini-cli/index.md) was the open-source outlier from a major lab (Apache-2.0, about 107k GitHub stars), but Google moved individual users to Antigravity CLI on June 18, 2026, so its famous free tier is now an enterprise-and-paid-API-only fact.
+[OpenCode](../opencode/index.md) is the vendor-neutral entry: open source, any provider, with a TUI, an IDE extension, a desktop app, and a web view built off one codebase.
 
 The independent tail matters more than its market share suggests.
-[aider](https://aider.chat/) predates the agentic wave and still does one thing well, pair programming against any LLM with a repo map and automatic commits.
-[Crush](https://github.com/charmbracelet/crush) (Charm, FSL-1.1-MIT, about 28k stars) pulls context from language servers the way an IDE would, and it reads the same AGENTS.md files as the bigger tools.
-[Amp](https://ampcode.com/) bets on remote execution, with "orbs" that keep working after you close the laptop.
-[Junie](https://github.com/JetBrains/junie) is JetBrains' agent, LLM-agnostic with bring-your-own-key, shipping from the terminal, the IDE, and CI.
+[aider](../aider/index.md) predates the agentic wave and still does one thing well, pair programming against any LLM with a repo map and automatic commits.
+[Crush](../crush/index.md) (Charm, FSL-1.1-MIT, about 28k stars) pulls context from language servers the way an IDE would, and it reads the same AGENTS.md files as the bigger tools.
+[Amp](../amp/index.md) bets on remote execution, with "orbs" that keep working after you close the laptop.
+[Junie](../junie/index.md) is JetBrains' agent, LLM-agnostic with bring-your-own-key, shipping from the terminal, the IDE, and CI.
 
 **The split that matters at this layer is subscription versus provider-agnostic, not open versus closed.**
-Claude Code and Codex are at their best inside their own vendor's subscription; Gemini CLI, OpenCode, aider, Crush, and Junie run against whatever keys you already own.
+Claude Code and Codex are at their best inside their own vendor's subscription; OpenCode, aider, Crush, and Junie run against whatever keys you already own, and Gemini CLI now serves only enterprise licenses and paid API keys.
 
 ## Surfaces: editors stopped bundling, started hosting
 
