@@ -1,4 +1,5 @@
 ---
+showArticleList: false
 title: Agents
 created: 2026-08-22
 type: post
