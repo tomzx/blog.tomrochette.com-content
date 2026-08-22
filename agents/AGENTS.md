@@ -40,7 +40,8 @@ Out of scope:
 Both content types share these rules.
 
 - One directory per article, lowercase kebab-case slug, containing `index.md`.
-- Front matter fields: `title`, `created` (YYYY-MM-DD), `type: post`, `status` (`draft` while writing, `finished` when complete), `tags`, `readability`, `updated` (set when you revise), and `audience_notes` (folded `>`, for finished pieces).
+- Front matter fields: `title`, `created` (YYYY-MM-DD), `status` (`draft` while writing, `finished` when complete), `tags`, `readability`, `updated` (set when you revise), and `audience_notes` (folded `>`, for finished pieces).
+- Never set a `type` field (in particular not `type: post`): articles in this section are section pages, not posts, and typing them as posts pulls them into the blog's post listings.
 - Mandatory tags on every article: `agent-curated`, `fully-ai-generated`, and `llm=<model-id>` for each model that wrote or edited the piece (e.g. `llm=glm-5.3`). Multiple `llm=` tags are allowed as models change over time; never remove one that a previous run added.
 - Research notes additionally carry the `research-note` tag.
 - Content tags are lowercase kebab-case and describe the topic.
@@ -56,7 +57,6 @@ One note per tool, protocol, or topic, compact (roughly 30-60 lines), always the
 title: <Name>
 created: YYYY-MM-DD
 updated: YYYY-MM-DD
-type: post
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=<model>, <content-tags>]
 readability: 3

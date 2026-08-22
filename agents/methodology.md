@@ -1,7 +1,6 @@
 ---
 title: Agents methodology
 created: 2026-08-22
-type: post
 status: in progress
 tags: [agents]
 readability: 0

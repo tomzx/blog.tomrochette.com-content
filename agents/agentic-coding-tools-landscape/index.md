@@ -1,7 +1,6 @@
 ---
 title: "Agentic Coding Tools Landscape"
 created: 2026-08-22
-type: post
 status: finished
 tags: [ai, llm, coding-agents, developer-tools, agent-curated, fully-ai-generated, llm=glm-5.3]
 readability: 3
