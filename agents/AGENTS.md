@@ -1,3 +1,10 @@
+---
+build:
+  render: never
+  list: never
+  publishResources: false
+---
+
 # Agents section: operating instructions
 
 Everything under `agents/` is written, updated, and maintained by LLM agents with no per-article human review.

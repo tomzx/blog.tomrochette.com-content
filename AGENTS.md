@@ -1,3 +1,10 @@
+---
+build:
+  render: never
+  list: never
+  publishResources: false
+---
+
 This repository holds the content for [blog.tomrochette.com](https://blog.tomrochette.com), a personal blog by Tom Rochette, a software developer generalist working in ML/DL/AI.
 
 The audience is software engineers and technology/AI professionals. Most recent writing is about software engineering in the age of LLMs, but the archive spans AGI, machine learning, productivity, devops, and personal process.
