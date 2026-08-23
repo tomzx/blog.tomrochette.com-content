@@ -3,8 +3,10 @@ title: "Code Factories: The StarCraft Perspective"
 created: 2026-05-03
 type: post
 status: finished
-tags: [software-engineering, starcraft, metaphors, ai, software-factory, fully-ai-generated, llm=glm-5.1]
+tags: [software-engineering, starcraft, metaphors, ai, software-factory, fully-ai-generated, llm=glm-5.1, llm=glm-5.3]
 readability: 3
+audience_notes: >
+  Assumes the reader is a software engineer or engineering leader familiar with software delivery basics such as CI/CD, code review, and hiring. No StarCraft knowledge required; every game concept is explained before it is used.
 ---
 
 You start with four workers, a command center, and fog of war in every direction.
@@ -12,7 +14,7 @@ You start with four workers, a command center, and fog of war in every direction
 That's StarCraft.
 It's also your first day at a startup.
 
-In StarCraft, you command one of three races (Terran, Protoss, or Zerg), each with radically different economies, armies, and strategies.
+In [StarCraft](https://en.wikipedia.org/wiki/StarCraft), you command one of three races (Terran, Protoss, or Zerg), each with radically different economies, armies, and strategies.
 You gather minerals and vespene gas, build structures, research upgrades, and produce units.
 You scout the opponent, react to their strategy, and try to win through superior economy, tactics, or both.
 The clock never stops.
@@ -23,7 +25,7 @@ The question is which race you're playing and whether you know it.
 
 ## APM: Developer Productivity
 
-In StarCraft, APM (actions per minute) is the raw measure of how fast a player can issue commands.
+In StarCraft, [APM (actions per minute)](https://en.wikipedia.org/wiki/Actions_per_minute) is the raw measure of how fast a player can issue commands.
 Pros sustain 300+ APM over games that last 20 to 40 minutes.
 Beginners hover around 30.
 
@@ -55,7 +57,7 @@ But StarCraft also teaches that worker production has a ceiling.
 You can only send so many workers to a mineral patch before they queue up and waste time.
 In software, the ceiling is communication overhead.
 Add too many engineers to a project and they spend more time coordinating than building.
-Brooks said it decades ago: adding people to a late project makes it later.
+Brooks said it decades ago in [The Mythical Man-Month](https://en.wikipedia.org/wiki/The_Mythical_Man-Month): adding people to a late project makes it later.
 StarCraft players learn it every game: there's an optimal number of workers per base, and exceeding it wastes resources.
 
 ## Expanding: New Teams and Services
@@ -68,7 +70,7 @@ To keep growing, you must expand, build a new command center, nexus, or hatchery
 Each expansion is a bet.
 It costs resources to build.
 It takes time to become profitable.
-And it's vulnerable, spread across the map, harder to defend, exposed to attack.
+And the expansion is vulnerable: spread across the map, harder to defend, exposed to attack.
 
 **Starting a new team or service is expanding.**
 You invest resources (hiring, onboarding, infrastructure) in exchange for future throughput.
@@ -246,7 +248,7 @@ Not everything is a drop in your mineral line.
 
 ## Creep Spread: Codebase Quality
 
-Zerg players will recognize this one.
+The Zerg provide the clearest metaphor for codebase quality.
 Creep is the organic substance that Zerg structures generate, spreading across the ground like a living carpet.
 Zerg units move faster on creep.
 Zerg structures can only be built on creep.
@@ -276,7 +278,7 @@ That feeling before clicking the "Find Match" button, the fear of losing, of bei
 
 The anxiety is universal.
 Grandmasters feel it.
-Day9 famously talked about how terrified he was to play his placement matches, and he was one of the best players in the world.
+[Day9](https://en.wikipedia.org/wiki/Sean_Plott) famously talked about how terrified he was to play his placement matches, and he was one of the best players in the world.
 
 **Imposter syndrome in software is ladder anxiety.**
 The fear of submitting a pull request because your code might be wrong.

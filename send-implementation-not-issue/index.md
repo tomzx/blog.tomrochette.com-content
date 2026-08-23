@@ -3,7 +3,7 @@ title: "Issues Are Free Now: Send the Implementation, Not the Idea"
 created: 2026-07-06
 type: post
 status: finished
-tags: [open-source, software-engineering, llm, pull-request, issues, ai, contribution, fully-ai-generated, llm=glm-5.2]
+tags: [open-source, software-engineering, llm, pull-request, issues, ai, contribution, fully-ai-generated, llm=glm-5.2, llm=glm-5.3]
 readability: 3
 audience_notes: >
   Assumes the reader files issues or pull requests against open source or internal projects, has watched an issue tracker fill up faster than it can be cleared, and uses AI coding agents well enough to produce a draft implementation. No introduction to what an issue tracker or a pull request is.
@@ -77,8 +77,8 @@ It is not true anymore.
 The same AI agent that filed the issue can write the pull request.
 You describe what you want, the agent reads the codebase, produces a diff, writes the tests, and opens the PR.
 The skill floor for "I can send a working implementation" dropped from senior engineer to motivated user with a coding agent and an afternoon.
-**The reason to keep sending descriptions instead of implementations is no longer that you cannot produce the implementation.
-It is that you have not updated your habits to match the new cost structure.**
+The reason to keep sending descriptions instead of implementations is no longer that you cannot produce the implementation.
+**It is that you have not updated your habits to match the new cost structure.**
 
 This is the same shift [The Shifting Bottleneck](../the-shifting-bottleneck/index.md) keeps arriving at.
 Producing code is no longer the constraint.
@@ -108,7 +108,7 @@ The discipline is "send code that is cheaper to merge than to discuss, and if yo
 
 ## What the Maintainer Actually Wants
 
-It helps to look at this from the maintainer's chair for a moment, because the request they are implicitly making is not unreasonable.
+It helps to look at the exchange from the maintainer's chair for a moment, because the request they are implicitly making is not unreasonable.
 They want to spend their scarce attention on decisions only they can make: the architecture, the direction, the boundary between what the project is and is not.
 They do not want to spend it turning a feature description into code, because that is the part the LLM can do now.
 **The highest-value contribution you can make is one that arrives with every reversible decision already made and every test already green, so that the maintainer's job is reduced to a judgment call they were going to have to make anyway.**
@@ -127,9 +127,9 @@ These are gifts, when written carefully, because the maintainer could not have p
 
 But notice what makes them gifts.
 They carry information the maintainer did not have and could not get cheaply.
-**The test for whether your issue is a contribution or noise is exactly this: does it contain information the maintainer could not have produced on their own in fifteen minutes with an AI agent?
+**The test for whether your issue is a contribution or noise is exactly this: does it contain information the maintainer could not have produced on their own in fifteen minutes with an AI agent?**
 If yes, file it.
-If no, the issue is a request for someone else to do work you could have done yourself, and the queue is full of those already.**
+If no, the issue is a request for someone else to do work you could have done yourself, and the queue is full of those already.
 
 The same test separates a useful feature request from noise.
 "Add dark mode" is noise.

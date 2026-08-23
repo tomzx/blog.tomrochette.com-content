@@ -3,7 +3,7 @@ title: "Defects Flow Downstream, Fixes Must Flow Upstream"
 created: 2026-06-30
 type: post
 status: finished
-tags: [ai, software-engineering, sdlc, llm, specification, fully-ai-generated, llm=glm-5.2]
+tags: [ai, software-engineering, sdlc, llm, specification, fully-ai-generated, llm=glm-5.2, llm=glm-5.3]
 readability: 3
 audience_notes: >
   Assumes the reader is a senior engineer, architect, or engineering lead who already works with LLM-generated code and is deciding where across the software development lifecycle to spend effort. Comfortable with the basics of specification, review, and CI as distinct pipeline stages.
@@ -12,7 +12,8 @@ audience_notes: >
 The further upstream a defect is born, the more code it contaminates, and the more expensive it becomes to remove.
 This has been true for as long as software has had a lifecycle.
 Two things have changed, and both point the same way.
-The generation step is now automated, so upstream defects are materialized downstream at machine speed, and the old habit of patching them in place no longer buys what it used to.
+First, the generation step is now automated, so upstream defects are materialized downstream at machine speed.
+Second, the old habit of patching defects in place no longer buys what it used to.
 **Once the pipeline executes itself, the only durable fix is the one made at the source, and every fix made downstream is a patch you will have to make again.**
 
 ## The Pipeline Has Always Run One Way
@@ -60,13 +61,13 @@ A gap in the architecture affects every component built on top of it.
 A missing or wrong requirement affects every architecture that tries to satisfy it, every component that implements it, every test that verifies it.
 **The earlier the stage, the larger the fan-out, because the larger the subtree of artifacts that descend from it.**
 
-This is why a specification defect is not just "a bug, but earlier."
+This fan-out is why a specification defect is not just "a bug, but earlier."
 It is a different category of problem, one whose blast radius grows with the distance from the source.
 A single ambiguity in a spec can be the common ancestor of a hundred production incidents, each of which looks like a separate bug to the engineer who responds to it, and each of which is, in fact, the same bug wearing different clothes.
 Treat them as separate bugs and you will fix a hundred symptoms.
 Treat them as one and you fix the spec once.
 
-Nancy Leveson reached the same conclusion from the study of accidents in [Engineering a Safer World](https://direct.mit.edu/books/oa-monograph-pdf/2280500/book_9780262298247.pdf).
+Nancy Leveson reached the same conclusion from the study of accidents in [Engineering a Safer World](https://openlibrary.org/works/OL16540222W).
 Serious failures are rarely caused by a single component breaking.
 They are caused by flawed control structures upstream that set the components up to fail in concert, and the component failure is merely the place the upstream flaw became visible.
 The component is the symptom.

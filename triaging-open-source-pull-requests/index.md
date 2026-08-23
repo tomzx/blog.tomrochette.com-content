@@ -3,7 +3,7 @@ title: "The Pull Request Queue Outgrew You: A Triage Layer for Open Source Maint
 created: 2026-06-30
 type: post
 status: finished
-tags: [open-source, software-engineering, code-review, pull-request, llm, automation, github-actions, productivity, fully-ai-generated, llm=glm-5.2]
+tags: [open-source, software-engineering, code-review, pull-request, llm, automation, github-actions, productivity, fully-ai-generated, llm=glm-5.2, llm=glm-5.3]
 readability: 3
 audience_notes: >
   Assumes the reader maintains or co-maintains an open source repository, has dealt with a pull request backlog, and is comfortable with GitHub Actions, branch protection, and the basics of prompting an LLM. No introduction to what a pull request or an LLM is.
@@ -146,11 +146,11 @@ A checkbox and a free-text line are enough.
 You do not need a policy on whether AI contributions are welcome; you need the data to triage them on their actual risk rather than on a guess.
 
 This is no longer hypothetical.
-In 2026, [rust-lang wired an AI policy](https://github.com/rust-lang/rust-forge/pull/1040) into its contributing guide and pull request template, and it is not alone: scipy asks for the model name, qemu requires code provenance, Ghostty ships an AI_POLICY file, and the Linux kernel has long held the submitter responsible for attesting to AI-generated code.
+In 2026, [rust-lang wired an AI policy](https://github.com/rust-lang/rust-forge/pull/1040) into its contributing guide and pull request template, and it is not alone: [scipy](https://github.com/scipy/scipy/pull/24583) asks for the model name, [qemu](https://www.qemu.org/docs/master/devel/code-provenance.html) requires code provenance, [Ghostty](https://github.com/ghostty-org/ghostty/blob/main/AI_POLICY.md) ships an AI_POLICY file, and the [Linux kernel](https://kernel.org/doc/html/next/process/coding-assistants.html) has long held the submitter responsible for attesting to AI-generated code.
 The convention is fragmenting into a field of per-project rules, which is messy, but the direction is clear, and the closest thing to a shared format, [declare-ai's provenance file](https://github.com/Declare-AI/declare-ai), is emerging for exactly this gap.
 The platform will not hand you this signal for free.
-GitHub has said on the record that it does not believe counting AI-generated pull requests is the right metric, which means the single most useful triage input is data the host is choosing not to collect.
-If you want it, you have to ask for it in the template.
+Everything GitHub has shipped for maintainers, [per-user caps](https://github.blog/open-source/maintainers/how-pull-request-limits-are-cutting-down-the-noise/), archiving, smarter bypass signals, operates on volume and account history, and none of it tells you which pull requests a model wrote.
+If you want provenance, you have to ask for it in the template.
 
 Label from the answer.
 `human-authored`, `ai-assisted`, `ai-generated`, and a tag for the model when it is disclosed.

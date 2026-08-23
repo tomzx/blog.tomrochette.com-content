@@ -3,8 +3,10 @@ title: Profit-as-a-Service
 created: 2026-04-18
 type: post
 status: finished
-tags: [business, ai, saas, automation, satire, fully-ai-generated, llm=glm-5.1]
+tags: [business, ai, saas, automation, satire, fully-ai-generated, llm=glm-5.1, llm=glm-5.3]
 readability: 3
+audience_notes: >
+  Assumes the reader is a software engineer or technology professional who knows what SaaS is and has seen AI agents execute real work. No finance background required; every business concept is defined before it is used.
 ---
 
 Software-as-a-Service gave us recurring revenue.
@@ -38,11 +40,11 @@ You pay for the result.
 
 Examples already exist:
 
-- **Algorithmic trading platforms** that let you deploy capital and collect returns without understanding the underlying strategies.
-- **AI-powered dropshipping services** that handle product selection, listing, pricing, and fulfillment while you provide the capital.
+- **[Algorithmic trading](https://en.wikipedia.org/wiki/Algorithmic_trading) platforms** that let you deploy capital and collect returns without understanding the underlying strategies.
+- **AI-powered [dropshipping](https://en.wikipedia.org/wiki/Dropshipping) services** that handle product selection, listing, pricing, and fulfillment while you provide the capital.
 - **Automated content farms** that generate SEO-optimized articles, monetize them with ads, and split the revenue with you.
 - **AI sales agents** that prospect, qualify, and close deals on your behalf, charging only a commission on closed revenue.
-- **Robo-advisors** that manage investment portfolios algorithmically, charging a fraction of traditional advisory fees.
+- **[Robo-advisors](https://en.wikipedia.org/wiki/Robo-advisor)** that manage investment portfolios algorithmically, charging a fraction of traditional advisory fees.
 
 In each case, the customer provides capital or data.
 The service provides everything else.
@@ -55,7 +57,7 @@ Revenue is shared, not subscribed to.
 ### 1. AI can now execute complex business processes autonomously
 
 Large language models can write marketing copy, analyze markets, negotiate with customers, and generate code.
-Multi-agent systems can coordinate these capabilities into end-to-end business workflows.
+[Multi-agent systems](https://en.wikipedia.org/wiki/Multi-agent_system) can coordinate these capabilities into end-to-end business workflows.
 What previously required a team of specialists can now be done by a single API call chain.
 
 ### 2. Infrastructure is fully commoditized
@@ -68,7 +70,7 @@ The barrier to entry for almost every digital business has collapsed to near zer
 
 Social media algorithms, search engines, and ad platforms have made customer acquisition a math problem.
 If you can compute the expected value of an impression, you can acquire customers profitably at scale.
-AI is better at this math than humans.
+AI is better at computing expected value than humans.
 
 ## The Economics
 
@@ -78,12 +80,12 @@ The service provider operates a system that generates revenue.
 The customer provides the input: capital, data, or access to a market.
 Revenue is split between the provider and the customer.
 
-For the customer, this is attractive because:
+For the customer, the arrangement is attractive because:
 - No upfront investment in tools or expertise.
 - Risk is aligned (the provider only makes money if you make money).
 - Scalability is built in (the system can run 24/7 without human intervention).
 
-For the provider, this is attractive because:
+For the provider, the arrangement is attractive because:
 - Revenue scales with customer success (no ceiling from fixed subscriptions).
 - Customer acquisition is easier (pay-for-performance is an easy sell).
 - Margins improve with scale (the same system serves many customers).
@@ -100,7 +102,7 @@ Profit-as-a-Service is not without significant risks.
 ### Alignment risk
 
 **When you outsource profit generation, you also outsource decision-making.**
-The provider's optimization target may diverge from yours.
+The provider's optimization target may diverge from yours, a textbook [principal-agent problem](https://en.wikipedia.org/wiki/Principal%E2%80%93agent_problem).
 A trading algorithm might maximize short-term returns at the cost of long-term stability.
 A content farm might optimize for clicks at the cost of your brand reputation.
 
@@ -152,16 +154,16 @@ Most businesses today operate at Level 0 or 1.
 
 The winners in the Profit-as-a-Service economy will be:
 
-**Platform providers** who own the infrastructure that makes PaaS possible.
+**Platform providers** who own the infrastructure that makes Profit-as-a-Service possible.
 If you operate the AI system that generates profit for thousands of businesses, you capture a slice of every dollar earned.
 
-**Capital providers** who can efficiently allocate resources across multiple PaaS offerings.
+**Capital providers** who can efficiently allocate resources across multiple Profit-as-a-Service offerings.
 **When starting a business requires no expertise, access to capital becomes the primary competitive advantage.**
 
 **Specialists** who can handle the edge cases that AI cannot.
 Regulatory compliance, strategic partnerships, and brand building remain human-dominated activities.
 
-**Arbitrageurs** who identify PaaS opportunities before they become commoditized.
+**Arbitrageurs** who identify Profit-as-a-Service opportunities before they become commoditized.
 The window between "novel" and "saturated" is shrinking, but the rewards for being early are enormous.
 
 ## Who Loses
@@ -189,7 +191,7 @@ The question for any business is not whether this trend will affect you.
 **The question is whether you will be the provider or the customer.**
 
 **If your business processes can be automated by AI, they will be.**
-If you are the one automating them, you are the PaaS provider.
+If you are the one automating them, you are the Profit-as-a-Service provider.
 If you are the one whose processes are being automated, you are about to become a customer.
 
 Choose wisely.

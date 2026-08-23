@@ -165,7 +165,7 @@ Read only the diff.
 
 Then leave it alone for a month.
 If the diffs were worth the minute they took to read, add the second topic.
-If they were not, the experiment cost you one directory and a few dollars of API spend, and you learned where your real information needs are cheaper than any course could have taught you.
+If they were not, the experiment cost you one directory and a few dollars of API spend, and you learned where your real information needs are, more cheaply than any course could have taught you.
 
 The goal is not a bigger pile of reports.
 **The goal is never having to research anything from zero again.**

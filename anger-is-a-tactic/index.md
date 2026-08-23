@@ -23,7 +23,7 @@ Start with the finding that explains why the behavior persists: anger works, in 
 
 In a series of classic experiments, negotiators who were told their opponent was angry conceded more than negotiators who were told the opponent was happy ([Van Kleef, De Dreu & Manstead, 2004](https://doi.org/10.1037/0022-3514.86.1.57)).
 The interesting part is the mechanism.
-The targets were not cowed into submission; they did the math.
+The targets were not scared into submission; they did the math.
 They read the anger as information about the opponent's limit, concluded the opponent would not move, and adjusted their demands to avoid impasse.
 Related experiments found that angry negotiators win larger concessions from their counterparts ([Sinaceur & Tiedens, 2006](https://doi.org/10.1016/j.jesp.2005.05.002)).
 
@@ -42,7 +42,7 @@ First, the signal only works while the behavior is consistent with it.
 In the 2004 experiments, when the "angry" opponent started making large concessions, the effect vanished; targets stopped trusting the display and went back to their own numbers ([Van Kleef et al., 2004](https://doi.org/10.1037/0022-3514.86.1.57)).
 Anger is an argument about a limit, and any behavior that contradicts the argument wins.
 
-Second, it depends on who is receiving it.
+Second, the tactic depends on who is receiving the anger.
 When researchers pitted anger against power, low-power participants conceded to an angry adversary regardless of whether the anger was appropriate, but high-power participants confronted with inappropriate anger retaliated and demanded more, not less ([Van Kleef & Côté, 2007](https://doi.org/10.1037/0021-9010.92.6.1557)).
 Anger extracts value downward and invites punishment sideways or upward.
 
@@ -66,13 +66,14 @@ The abuse also cascades: managers mistreated by their own bosses go on to mistre
 
 If you think that is soft-outcome stuff, the hard-outcome studies are worse.
 Researchers randomized 24 neonatal intensive care teams to either neutral comments or a few mildly rude remarks from a visiting "expert," rudeness deliberately unrelated to the team's actual performance.
-The rudeness-only teams' diagnostic and procedural performance dropped significantly (2.6 vs 3.2 and 2.8 vs 3.3 on the judged scales), with rudeness alone explaining nearly 12 percent of performance variance, because the teams stopped sharing information and asking each other for help ([Riskin et al., 2015](https://doi.org/10.1542/peds.2015-1385)).
+The rudeness-only teams' diagnostic and procedural performance dropped significantly (2.6 vs 3.2 and 2.8 vs 3.3 on the judged scales), with rudeness alone explaining nearly 12 percent of performance variance.
+The cause was social: the teams stopped sharing information and asking each other for help ([Riskin et al., 2015](https://doi.org/10.1542/peds.2015-1385)).
 A few sentences of mild rudeness measurably degraded how well expert teams saved babies, and the mediators were exactly the collaborative behaviors an angry leader suppresses.
 
-Then it spreads.
+Then the rudeness spreads.
 Witnessing rudeness makes people more likely to judge ambiguous behavior as rude and to behave rudely themselves ([Foulk, Woolum & Erez, 2016](https://doi.org/10.1037/apl0000037)).
 Witnesses of bullying report increased stress and fear of becoming targets ([Sutton](https://en.wikipedia.org/wiki/The_No_Asshole_Rule)).
-Prevalence data suggests nearly everyone experiences this: across 14 years of polling, 98 percent of workers reported uncivil behavior, and by 2011 half reported being treated rudely at least weekly, up from a quarter in 1998 ([Porath & Pearson, HBR](https://hbr.org/2013/01/the-price-of-incivility)).
+Prevalence data suggests nearly everyone experiences incivility: across 14 years of polling, 98 percent of workers reported uncivil behavior, and by 2011 half reported being treated rudely at least weekly, up from a quarter in 1998 ([Porath & Pearson, HBR](https://hbr.org/2013/01/the-price-of-incivility)).
 
 **The aggressor's visible win is real, but it is financed by invisible withdrawals from everyone else's judgment, information flow, and retention.**
 
@@ -81,12 +82,12 @@ Prevalence data suggests nearly everyone experiences this: across 14 years of po
 Two findings changed how I read these people.
 
 The first is causal: power plus felt incompetence produces aggression.
-Across studies, people with power who doubted their own competence were the most aggressive toward subordinates, and competent subordinates were the preferred targets of their derogation ([Fast & Chen, 2009](https://doi.org/10.1111/j.1467-9280.2009.02452.x)).
+Across studies, people with power who doubted their own competence were the most aggressive toward subordinates, and competent subordinates were the preferred targets of their put-downs ([Fast & Chen, 2009](https://doi.org/10.1111/j.1467-9280.2009.02452.x)).
 The boss who lashes out at the strongest engineer in the room is often running from exactly that engineer's competence.
 
 The second is Sutton's distinction between the temporary and the certified asshole: someone having a bad day versus someone "persistently nasty" who leaves targets oppressed and humiliated and aims at people less powerful ([The No Asshole Rule](https://en.wikipedia.org/wiki/The_No_Asshole_Rule)).
 The distinction matters because the responses differ.
-A bad day deserves grace; a pattern is a system that will keep harvesting concessions until someone reprices it.
+A bad day deserves grace; a pattern is a system that will keep harvesting concessions until someone changes the price.
 
 **Read aggression as information: it tells you the person's other tools are insufficient for the situation, which is exactly why the tactic concentrates at the top, where it is tolerated, and among the insecure, where it is needed.**
 
@@ -97,7 +98,7 @@ The research maps to a small number of concrete moves.
 **1. Separate the claim from the volume.**
 The outburst is an argument that a limit has been reached.
 Answer the argument, not the volume: ask what specifically is unacceptable, what they need, and what would change their position.
-This works because the mechanism is inference; when you engage the substance and your own behavior contradicts the "hard limit" reading, the display loses its informational value ([Van Kleef et al., 2004](https://doi.org/10.1037/0022-3514.86.1.57)).
+Asking those questions works because the mechanism is inference; when you engage the substance and your own behavior contradicts the "hard limit" reading, the display loses its informational value ([Van Kleef et al., 2004](https://doi.org/10.1037/0022-3514.86.1.57)).
 
 **2. Do not reciprocate.**
 The field evidence is unambiguous that reciprocated anger is what destroys outcomes ([Friedman et al., 2004](https://doi.org/10.1037/0021-9010.89.2.369)).
@@ -112,7 +113,7 @@ The key is to do it early, because subordinates who swallow anger consistently r
 
 **4. Attack the dependency, not the person.**
 Anger extracts concessions from those who cannot walk away and invites retaliation from those who can ([Van Kleef & Côté, 2007](https://doi.org/10.1037/0021-9010.92.6.1557); [Friedman et al., 2004](https://doi.org/10.1037/0021-9010.89.2.369)).
-That is the practical translation: build alternatives.
+The practical translation is simple: build alternatives.
 Document your contributions where others see them, cultivate sponsors outside your reporting line, keep your skills portable, keep your savings real.
 You do not need to quit to be less dependent; you need the aggressor's threat model about you to weaken.
 Half the power of the tactic evaporates the day they are no longer sure you would stay.
@@ -126,7 +127,8 @@ Teams absorb an aggressor's mood by default ([Sy, Côté & Saavedra, 2005](https
 The strongest evidence-based organizational response is also the bluntest: refuse the trade.
 Netflix's culture memo says it in one line: "No matter how brilliant someone may be, there's no place in our Dream Team for people who don't treat their colleagues with decency and respect" ([Netflix culture memo](https://jobs.netflix.com/culture)).
 Sutton's cost arithmetic (he calls it Total Cost of Assholes: HR hours, turnover, witnesses' lost productivity, legal exposure; one executive's estimate for a single engineer ran to about $160,000 a year) exists so leaders stop pricing these employees by output alone ([The No Asshole Rule](https://en.wikipedia.org/wiki/The_No_Asshole_Rule)).
-And the ground must be safe before anyone will name the problem: Google's Project Aristotle found psychological safety the most important of the five dynamics separating its effective teams from the rest ([Duhigg, "What Google Learned From Its Quest to Build the Perfect Team"](https://www.nytimes.com/2016/02/28/magazine/what-google-learned-from-its-quest-to-build-the-perfect-team.html)), and it is precisely what a chronic aggressor destroys.
+And the ground must be safe before anyone will name the problem: Google's Project Aristotle found psychological safety the most important of the five dynamics separating its effective teams from the rest ([Duhigg, "What Google Learned From Its Quest to Build the Perfect Team"](https://www.nytimes.com/2016/02/28/magazine/what-google-learned-from-its-quest-to-build-the-perfect-team.html)).
+Psychological safety is precisely what a chronic aggressor destroys.
 
 ## What to Do Next
 
@@ -134,7 +136,7 @@ And the ground must be safe before anyone will name the problem: Google's Projec
 Something like "I will engage with the problem when we can discuss it calmly," said once, neutrally, and then silence.
 
 **Inventory your dependency while calm: who else knows your work, how portable are your skills, how many months of runway do you have.**
-This is not defeatism; it is converting yourself from a low-power target, the only kind this tactic works on, into a high-power one.
+The inventory is not defeatism; it converts you from a low-power target, the only kind this tactic works on, into a high-power one.
 
 **Write down the incidents, dates included.**
 Patterns need data, and data is what turns "I feel uncomfortable" into a case a leader or HR can act on.

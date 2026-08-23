@@ -20,7 +20,7 @@ OpenChamber is an app built around [OpenCode](https://opencode.ai): sessions, wo
 My usage is narrow and deep.
 I run multiple agent sessions in parallel against the same repositories, and I let OpenChamber own the [worktree](https://git-scm.com/docs/git-worktree) management.
 Each session gets its own checkout and its own branch, and I steer all of them from one place.
-Six months of that adds up to roughly 2,430 sessions across 61 projects, 54,000 messages, and 3.8 billion tokens, on models that moved from GLM 4.7 to GLM 5.3.
+Six months of this setup adds up to roughly 2,430 sessions across 61 projects, 54,000 messages, and 3.8 billion tokens, on models that moved from GLM 4.7 to GLM 5.3.
 
 Because OpenChamber is always open, it also works as a scratchpad.
 When a thought hits, I switch to the right project, write down a few lines, and let a session have a go at it.
@@ -28,7 +28,7 @@ When a thought hits, I switch to the right project, write down a few lines, and 
 An idea that would have died as a passing annoyance becomes an artifact, within minutes, inside the same window.
 
 Input is also drifting away from the keyboard.
-I am slowly using [Handy](https://github.com/cjpais/handy), a speech-to-text tool, more and more to talk to the agent, which speeds up iteration.
+I use [Handy](https://github.com/cjpais/handy), a speech-to-text tool, more and more to talk to the agent, which speeds up iteration.
 And sometimes it is simply how the work continues while my hands are full, eating.
 
 **Iterating on ideas got a lot faster once trying a third approach meant spawning one more session instead of doing the stash-and-switch dance by hand.**
@@ -37,7 +37,7 @@ It is also the last part I would give up.
 
 ## The reliability tax
 
-The hardest part of these six months has been that the chat, the one component whose entire job is to hold a long-running conversation, was sometimes unreliable.
+**The hardest part of these six months has been that the chat, the one component whose entire job is to hold a long-running conversation, was sometimes unreliable.**
 The causes were varied.
 Sending a message to a session whose worktree was still being created blocked until the post-creation commands finished, so a message sent at the wrong moment just sat there.
 At other times the connection between OpenChamber and OpenCode dropped, and a few breakages were regressions in OpenCode itself that surfaced downstream in OpenChamber.
@@ -58,7 +58,7 @@ OpenChamber also ships as a VS Code extension, which I have never tried, because
 **The practical cost is that I keep an editor open to review diffs before commits and to look at code from time to time, which is exactly the habit I should be trying to break.**
 
 Two smaller issues have simply persisted for months.
-Project selection and filtering in dropdowns remains weak across the app.
+Project selection and filtering in dropdowns remain weak across the app.
 And the file matcher behind the `@` helper is still really bad, which is annoying in a tool where pointing an agent at the right file is a core interaction.
 
 ## Fixing it yourself changes the math
@@ -84,7 +84,7 @@ That is a much better position than complaining in an issue tracker.
 If you run one agent at a time in a terminal, you probably do not need OpenChamber yet.
 If you juggle several agents against the same repositories, parallel sessions plus automatic worktree management alone justify the setup cost, and idea iteration gets visibly faster.
 Go in expecting rough edges.
-Then check whether the edge that would bother you most is one you are willing to fix yourself, because that question decides what kind of experience you will have.
+**Then check whether the edge that would bother you most is one you are willing to fix yourself, because that question decides what kind of experience you will have.**
 
 ## See also
 

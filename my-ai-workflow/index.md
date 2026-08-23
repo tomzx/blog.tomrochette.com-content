@@ -3,7 +3,7 @@ title: "My AI Workflow: The Skills Are the Part That Compounds"
 created: 2026-07-28
 type: post
 status: finished
-tags: [ai, llm, workflow, skills, opencode, openchamber, cursor, sdlc, fully-ai-generated, llm=glm-5.2]
+tags: [ai, llm, workflow, skills, opencode, openchamber, cursor, sdlc, fully-ai-generated, llm=glm-5.2, llm=glm-5.3]
 readability: 3
 audience_notes: >
   Assumes the reader already uses at least one coding agent (Cursor, Claude Code, OpenCode) and has felt the cost of re-explaining the same workflow to a fresh session. No introduction to what an LLM is.
@@ -53,7 +53,7 @@ A high-level skill like `/sdlc` orchestrates dozens of focused sub-skills into a
 Each sub-skill is small enough to read in a minute and to improve independently.
 **When I improve the `review-pr` skill, every flow that calls it gets the improvement, and I never have to re-explain that step to a session again.**
 
-This is the difference between prompting and engineering a workflow.
+The versioned skill is the difference between prompting and engineering a workflow.
 A prompt is a one-off conversation.
 A skill is the same conversation, written once, versioned, reviewed, and incrementally improved.
 The agent performs it the same way every time, and the library gets better as the workflows mature.
@@ -71,7 +71,7 @@ Once judgment is encoded into the layer every change passes through, fighting ov
 
 The downstream hour that used to go into reading diffs goes somewhere else entirely: into building high-fidelity test environments that approximate the production environment as closely as I can get them.
 **I would rather spend an hour making the test environment catch the bug than an hour reading a diff hoping to catch it myself, because the test environment runs on every future change and the diff reading runs once.**
-This is the trade [Verifying Code Without Reading It](../verifying-code-without-reading-it/index.md) and [Rethinking Code Review in the Age of LLMs](../rethinking-code-review-in-the-age-of-llms/index.md) both argue: review is a one-time signal, verification against a production-like environment is a compounding one.
+Spending the hour on the environment instead of the diff is the trade [Verifying Code Without Reading It](../verifying-code-without-reading-it/index.md) and [Rethinking Code Review in the Age of LLMs](../rethinking-code-review-in-the-age-of-llms/index.md) both argue: review is a one-time signal, verification against a production-like environment is a compounding one.
 
 ## The encoding loop
 

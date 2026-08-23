@@ -3,7 +3,7 @@ title: "Teach Your Agent Skills to Use Tools That Render"
 created: 2026-08-14
 type: post
 status: finished
-tags: [ai, llm, agent-skills, tools, mermaid, sdlc, visualization, software-engineering, fully-ai-generated, llm=glm-5.2]
+tags: [ai, llm, agent-skills, tools, mermaid, sdlc, visualization, software-engineering, fully-ai-generated, llm=glm-5.2, llm=glm-5.3]
 readability: 3
 audience_notes: >
   Assumes the reader already writes or uses agent skills (a SKILL.md or similar) inside a coding agent like OpenCode, Cursor, or Claude Code, and has hit the wall of verifying long prose output. No introduction to LLMs or to what a skill is.
@@ -22,7 +22,7 @@ Prose asks you to read, and reading is exactly the bottleneck that working with 
 
 The trap is that prose feels productive to generate and expensive to check.
 The agent writes a fluent paragraph describing the data flow, the spec, or the migration plan, and you skim it and approve it, because reading it carefully would cost more attention than you have.
-**A skill that outputs only text is a skill that can only be checked by the slowest, most fatiguable checker you own, which is you, reading.**
+**A skill that outputs only text is a skill that can only be checked by the slowest checker you own, and the one that tires first, which is you, reading.**
 
 ## The pattern: pair the skill with a tool that renders
 
@@ -30,7 +30,7 @@ The fix is to give the skill a tool that turns text into something you can inspe
 The tool does the deterministic part, the layout, the rendering, the syntax checking, and the skill does the generative part, deciding what to put in the diagram.
 The concerns separate cleanly, and the output becomes inspectable in a way prose never is.
 
-This is the same move as [Verifying Code Without Reading It](../verifying-code-without-reading-it/index.md), applied to the artifacts a skill produces: stop trying to read, start trying to verify, and pick for each artifact the cheapest checker that catches the failure you care about.
+Pairing a skill with a renderer is the same move as [Verifying Code Without Reading It](../verifying-code-without-reading-it/index.md), applied to the artifacts a skill produces: stop trying to read, start trying to verify, and pick for each artifact the cheapest checker that catches the failure you care about.
 **For a lot of artifacts, the cheapest checker is a picture.**
 
 ## Mermaid in the SDLC process
@@ -44,7 +44,7 @@ A sequence diagram with a message that has no receiver makes a missing step obvi
 A flowchart with two boxes that both claim to write the same column makes a race condition visible before a line of code exists.
 **The wrong diagram is obvious in two seconds; the wrong paragraph is buried in the fourth reading, if it ever surfaces.**
 
-Mermaid is the right tool for this for three reasons.
+Mermaid is the right tool for a skill for three reasons.
 It is text, so the agent generates it directly, the same way it generates any other output.
 It renders natively where the work already lives, because GitHub renders ` ```mermaid ` blocks in Markdown and most static site generators do too.
 And it diffs cleanly, because the source is text, so a change to the plan shows up in the pull request as a diff you can review instead of a picture you have to compare by eye.
@@ -64,25 +64,25 @@ When the schema changes, the DBML changes in the same commit, and the diagram is
 
 ## Where the visual tool fits: on the human side
 
-This does not mean GUI tools have no place.
+Preferring text-based tools does not mean GUI tools have no place.
 [drawdb](https://drawdb.app/) is the mirror image of DBML: a browser editor where you drag tables and draw relationships by hand, and it exports the SQL for whatever you sketched.
 
 The division of labor that works for me is to let the agent drive the text-based tools and let myself drive the visual ones.
-I sketch in drawdb when I am still figuring the model out, when the thinking is tactile and I want to move boxes around, and then the SQL/DBML it exports becomes an input the agent works from.
+I sketch in drawdb when I am still figuring the model out, when I want to move boxes around and feel my way through the design, and then the SQL/DBML it exports becomes an input the agent works from.
 I let the agent drive DBML when the schema is already decided and I want a rendered view of it inside the repository.
 **Text-based tools go in the skill, where the agent is fast and generation is cheap; visual tools go in my hands, where exploration is slow and taste is required.**
 
 ## How to pick the next tool to wire in
 
-Three tests decide whether a tool is worth creating a skill.
+Three tests decide whether a tool is worth wiring into a skill.
 
-It must be text-based, or have a text representation the agent can produce.
+The tool must be text-based, or have a text representation the agent can produce.
 The whole pattern breaks if the agent cannot generate the source the renderer consumes.
 
-It must render to something inspectable, a diagram, a table, a diff, a graph.
+The tool must render to something inspectable, a diagram, a table, a diff, a graph.
 If the output is still prose, you have added a dependency and gained no new kind of check.
 
-And it must be narrow enough that the skill can use it reliably.
+And the tool must be narrow enough that the skill can use it reliably.
 [Mermaid](https://mermaid.js.org/) and [DBML](https://dbml.dbdiagram.io/docs/) win here because they are small languages with a fixed grammar, not sprawling APIs the model has to guess at.
 **A tool the model gets wrong half the time is worse than prose, because you spend your attention debugging the tool instead of the idea.**
 

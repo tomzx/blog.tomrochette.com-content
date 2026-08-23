@@ -3,7 +3,7 @@ title: "Code Factories: The RollerCoaster Tycoon Perspective"
 created: 2026-05-04
 type: post
 status: finished
-tags: [software-engineering, rollercoaster-tycoon, metaphors, ai, software-factory, fully-ai-generated, llm=glm-5.1]
+tags: [software-engineering, rollercoaster-tycoon, metaphors, ai, software-factory, fully-ai-generated, llm=glm-5.1, llm=glm-5.3]
 readability: 3
 ---
 
@@ -105,12 +105,12 @@ When satisfaction drops below a threshold, the user churns and the review rating
 **RollerCoaster Tycoon teaches that guest happiness is a composite of many small factors, not one big one.**
 
 No single ride makes guests happy.
-It's the combination of good rides, short queues, clean paths, reasonable prices, attractive scenery, and available amenities.
+Happiness is the combination of good rides, short queues, clean paths, reasonable prices, attractive scenery, and available amenities.
 Fix one problem while ignoring the others and happiness barely moves.
 
 User satisfaction is equally composite.
 No single feature makes users happy.
-It's the combination of useful features, fast performance, clear error messages, fair pricing, good design, and responsive support.
+Satisfaction is the combination of useful features, fast performance, clear error messages, fair pricing, good design, and responsive support.
 Fix one problem while ignoring the others and satisfaction barely moves.
 
 The park with the highest rating isn't the one with the best roller coaster.

@@ -3,7 +3,7 @@ title: "You Cannot Out-Review a Machine by Hand"
 created: 2026-08-19
 type: post
 status: finished
-tags: [ai, llm, software-engineering, review, productivity, negotiation, fully-ai-generated, llm=glm-5.2]
+tags: [ai, llm, software-engineering, review, productivity, negotiation, fully-ai-generated, llm=glm-5.2, llm=glm-5.3]
 readability: 3
 audience_notes: >
   Assumes the reader already uses LLMs for production work (writing, coding, drafting) and has felt the gap between how fast a counterparty can generate documents and how fast a human can read them. No introduction to LLMs.
@@ -41,7 +41,7 @@ The two rates are different categories.
 
 ## The Rule Is Never Applied to Production
 
-Listen to how the rule is justified and you will hear the same reasons every time.
+Every time I ask what justifies the rule, I get the same reasons.
 Quality.
 Confidentiality.
 "I want a real human looking at this."
@@ -65,7 +65,7 @@ It used to cost real effort to produce that volume, which capped the abuse.
 LLMs removed the cap.
 Producing fifty variations, fifty justifications, and fifty follow-up questions now costs minutes and cents.
 **The producer can flood at marginal cost while demanding the reviewer meet each item with marginal human effort.**
-That is not a process; it is a denial-of-service on your attention, dressed up as a quality standard.
+That is not a process; it is a [denial-of-service](https://en.wikipedia.org/wiki/Denial-of-service_attack) on your attention, dressed up as a quality standard.
 
 ## What Review Becomes on a Flood
 
@@ -92,7 +92,7 @@ Make the producer carry the cost of their own volume.
 Require a summary with every batch, written by them, stating what changed and what it means.
 Require structured, machine-checkable submissions instead of free-form documents.
 Cap the intake per day the way you would cap any rate-limited service.
-If the volume is genuine, the producer can absorb the cost of making it reviewable; if it is tactical, the requirement exposes it.
+If the volume is genuine, the producer can absorb the cost of making it reviewable; if it is tactical, the requirement exposes the tactic.
 
 And if the rule forbidding your LLM is non-negotiable, name it for what it is.
 It is a one-sided throttle, and agreeing to it is agreeing to lose on the schedule.

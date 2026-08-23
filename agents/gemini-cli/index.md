@@ -1,7 +1,7 @@
 ---
 title: Gemini CLI
 created: 2026-08-22
-updated: 2026-08-22
+updated: 2026-08-23
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, coding-agents, harnesses, google, developer-tools]
 readability: 3
@@ -19,33 +19,33 @@ Facts below verified as of 2026-08-22.
 ## What it is
 
 A TypeScript CLI (`gemini`) running a ReAct loop with built-in file, shell, web-fetch, and Google Search grounding tools, GEMINI.md project context, MCP support, conversation checkpointing, and a GitHub Action for issue triage and PR review.
-It authenticated three ways: Google OAuth (the famous free tier of 60 requests/minute and 1,000/day), a Gemini API key, or Vertex AI.
+It authenticated three ways: **Google OAuth (the famous free tier of 60 requests/minute and 1,000/day)**, a Gemini API key, or Vertex AI.
 
 ## Status
 
-Superseded for consumers, alive for enterprises.
-On May 19, 2026 Google announced it was unifying terminal agent work into Google Antigravity, whose Antigravity CLI (written in Go, multi-agent, sharing a harness with the Antigravity 2.0 desktop app) carries over skills, hooks, subagents, and extensions.
+**Superseded for consumers, alive for enterprises.**
+On May 19, 2026, Google announced it was unifying terminal agent work into Google Antigravity, whose Antigravity CLI (written in Go, multi-agent, sharing a harness with the Antigravity 2.0 desktop app) carries over skills, hooks, subagents, and extensions.
 On June 18, 2026, Gemini CLI and the Gemini Code Assist IDE extensions stopped serving requests for Google AI Pro and Ultra subscribers and free individual users.
 Enterprise Code Assist Standard/Enterprise licenses and paid API keys keep working, and the repository is still active: about 106.6k stars, 6,384 commits, weekly release channels as of 2026-08-22.
-The README still advertises the free tier, which is stale for individuals; treat it as the enterprise path's documentation.
+The README still advertises the free tier, which is stale for individuals; treat the README as the enterprise path's documentation.
 
 ## Strengths
 
-- The only Apache-2.0 CLI from a major lab while it lasted, with the most generous free tier of 2025.
+- **The only Apache-2.0 CLI from a major lab while it lasted, with the most generous free tier of 2025.**
 - Gemini 3 models with a 1M-token context window, unmatched for whole-repository prompting.
 - Google Search grounding built in, not bolted on.
 - Continuity for enterprise Code Assist customers is explicitly guaranteed by Google.
 
 ## Cautions
 
-- The consumer shutdown is the caution: a product individuals built workflows around redirected them to a successor that did not ship 1:1 feature parity at transition.
-- The launch thread was full of first-day quality complaints (failed edits, quota errors, weaker than Claude Code on hard tasks) alongside the enthusiasm; it was never the best harness, only the free one.
+- **The consumer shutdown is the caution**: a product individuals built workflows around redirected them to a successor that did not ship 1:1 feature parity at transition.
+- The launch thread was full of first-day quality complaints (failed edits, quota errors, weaker than Claude Code on hard tasks) alongside the enthusiasm; Gemini CLI was never the best harness, only the free one.
 - Workspace account billing was confusing from day one and stays confusing in the enterprise paths.
 - Quotas are shared between Gemini CLI and Gemini Code Assist agent mode, so the two products eat one allowance.
 
 ## Pricing
 
-For individuals: nothing to pay anymore, because there is no service; Antigravity CLI is the successor product.
+**For individuals: nothing to pay anymore, because there is no service**; Antigravity CLI is the successor product.
 For enterprises: Gemini Code Assist Standard or Enterprise licensing, or pay-as-you-go Gemini API keys, with Vertex AI for regulated setups.
 
 ## Compared to
@@ -56,7 +56,7 @@ For enterprises: Gemini Code Assist Standard or Enterprise licensing, or pay-as-
 
 ## Bottom line
 
-Recommended only for organizations holding Code Assist licenses or paid API budgets.
+**Recommended only for organizations holding Code Assist licenses or paid API budgets.**
 Not for individuals, whatever the 2025 blog posts told you.
 
 ## See also

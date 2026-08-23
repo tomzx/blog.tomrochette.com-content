@@ -3,7 +3,7 @@ title: "Distributed Product Management: Cheap to Decide, Costly to Undo"
 created: 2026-08-06
 type: post
 status: finished
-tags: [product-management, software-engineering, ai, llm, decision-making, team-management, fully-ai-generated, llm=glm-5.2]
+tags: [product-management, software-engineering, ai, llm, decision-making, team-management, fully-ai-generated, llm=glm-5.2, llm=glm-5.3]
 readability: 3
 audience_notes: >
   Assumes the reader is an engineer, tech lead, or engineering manager on a team where there is no dedicated product owner and engineers set product direction themselves. No formal product-management background required.
@@ -144,7 +144,7 @@ If your team operates without a dedicated product owner and the product is start
 
 **Write the product direction down, in one place, and keep it current.**
 This is the single highest-leverage action, and it is the same lesson as [breaking the scope relitigation cycle](../when-a-closed-decision-reopens/index.md): a direction that lives in heads cannot survive contact with the next person or the next quarter.
-A short, written north star, the milestones you are committing to now, and the constraints that forced the compromise, gives distributed decisions something to check themselves against.
+A short, written north star, the milestones you are committing to now, and the constraints that forced the compromise, give distributed decisions something to check themselves against.
 Without it, every engineer is optimizing for a slightly different product that exists only in their head.
 
 **Separate the two questions explicitly.**

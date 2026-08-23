@@ -3,7 +3,7 @@ title: "Bus Factor One by Design"
 created: 2026-08-22
 type: post
 status: finished
-tags: [ai, software-engineering, llm, agents, team-management, ownership, fully-ai-generated, llm=ox-alpha]
+tags: [ai, software-engineering, llm, agents, team-management, ownership, fully-ai-generated, llm=ox-alpha, llm=glm-5.3]
 readability: 3
 audience_notes: >
   Assumes the reader works in or leads a software organization, knows the term bus factor, and has felt the pull of one-person ownership in the agent era. No management theory background required.
@@ -65,7 +65,7 @@ Think of it as [source code escrow](https://en.wikipedia.org/wiki/Source_code_es
 Every owner takes a mandatory uninterrupted absence each year.
 During it, another engineer plus their agents must handle incidents and ship one scoped change using only the artifacts, with the owner unreachable.
 Score the takeover and publish the time it took.
-This is chaos engineering applied to the org chart: you inject failure into the ownership layer while the stakes are a minor feature, not a resignation letter.
+The drill is chaos engineering applied to the org chart: you inject failure into the ownership layer while the stakes are a minor feature, not a resignation letter.
 
 **Redundancy spend follows blast radius.**
 Not every internal script deserves a second person.
@@ -75,7 +75,7 @@ This is portfolio management: concentrate risk where you choose, hedge where los
 **Succession is scheduled, not emergent.**
 Rotate owners on a cadence so every handover gets exercised while both parties still work there.
 For the few systems whose takeover would hurt most, name a shadow owner who runs the vacation drill against them quarterly.
-The handoff paragraph from [Solo Is a Team Size](../solo-is-a-team-size/index.md), what the system is, why it exists, who inherits it, becomes a required field in the service registry rather than advice for solo operators.
+The handoff paragraph from [Solo Is a Team Size](../solo-is-a-team-size/index.md) (what the system is, why it exists, who inherits it) becomes a required field in the service registry rather than advice for solo operators.
 
 **Incentives reward survivable systems.**
 Promotion criteria should include "your system passed your absence", and managers should treat "only I can touch this" as a liability, not leverage.
@@ -85,11 +85,11 @@ Pay people to make themselves unnecessary and indispensability stops being a car
 ## What Still Does Not Transfer
 
 Some knowledge refuses to become artifacts.
-Taste, the reasons the roadmap bends where it does, the history of a negotiation with a key customer, deliberation leaves traces but rarely conclusions.
+Taste, the reasons the roadmap bends where it does, the history of a negotiation with a key customer: deliberation leaves traces but rarely conclusions.
 
 Two habits keep more of it from escaping.
 Record rationale at decision time, while the alternatives are still alive, because a decision record written six months later is fiction.
-Occasionally have the owner defend direction to a peer, not the code, the choices, so judgment gets exercised against a counterparty instead of echoing inside one skull.
+Occasionally have the owner defend direction to a peer: not the code, the choices, so judgment gets exercised against a counterparty instead of echoing inside one skull.
 
 Then accept what remains.
 Some re-acquisition friction is irreducible, the same way some latency is.

@@ -3,8 +3,10 @@ title: "Developer Trust Profiles: Earned Scrutiny for Automated Code Review"
 created: 2026-06-15
 type: post
 status: finished
-tags: [ai, software-engineering, code-review, agents, developer-tools, fully-ai-generated, llm=glm-5.2]
+tags: [ai, software-engineering, code-review, agents, developer-tools, fully-ai-generated, llm=glm-5.2, llm=glm-5.3]
 readability: 3
+audience_notes: >
+  Software engineers and technical leads who already automate part of their code review with CI or LLM agents, and who are comfortable with git, pull requests, and basic reputation-system ideas.
 ---
 
 When you automate code review, the obvious design is to treat every pull request identically.
@@ -116,7 +118,7 @@ This is a feature (no global reputation database, no public scoring of humans) a
 For a single operator running their own agents, that is the right trade.
 For an organization, you would want a shared, access-controlled store, and the design does not pretend otherwise.
 
-There is a risk that a reputation ossifies.
+There is a risk that a reputation hardens into something a developer cannot escape.
 The skills mitigate this by removing observations that recent evidence contradicts and by reconsidering the level on every update.
 **But any system that summarizes a human into a label can lock them in.**
 The fix is transparency (everything is in a diffable file) and a human who can edit the file when the summary is wrong.
@@ -128,7 +130,7 @@ On balance this is fine: optimizing for clean, well-tested, well-scoped PRs that
 
 ## Why this matters more in the age of LLM-authored code
 
-I have written elsewhere about why human review of LLM-generated code is a poor use of attention (see [The Future of Code Review](https://blog.tomrochette.com/the-future-of-code-review)).
+I have written elsewhere about why human review of LLM-generated code is a poor use of attention (see [The Future of Code Review](../the-future-of-code-review/index.md)).
 The short version is that the human's leverage has moved upstream, to specifying the problem, while machines verify compliance.
 
 But that argument has a gap.
@@ -143,7 +145,7 @@ The other rubber-stamps whatever the model produced, mixes concerns, and breaks 
 A stateless reviewer cannot tell them apart.
 A reviewer with a trust profile can, and it calibrates its scrutiny accordingly.
 
-Seen this way, the trust profile is the layer beneath the automated reviewer: the checks define what "good" looks like, and the profile decides how much to trust that a given author is delivering it.
+Seen this way, the trust profile is the layer beneath the automated reviewer: the checks define what "good" looks like, and the profile decides how much to trust that a given author is delivering that standard.
 
 But that framing also points at the profile's eventual obsolescence, which is the goal.
 

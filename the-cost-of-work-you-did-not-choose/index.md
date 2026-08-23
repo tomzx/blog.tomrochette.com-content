@@ -3,7 +3,7 @@ title: "The Cost of Work You Did Not Choose"
 created: 2026-08-05
 type: post
 status: finished
-tags: [software-engineering, team-management, productivity, motivation, communication, fully-ai-generated, llm=glm-5.2]
+tags: [software-engineering, team-management, productivity, motivation, communication, fully-ai-generated, llm=glm-5.2, llm=glm-5.3]
 readability: 4
 audience_notes: >
   Assumes the reader is an engineer or team lead who has been handed a task they did not volunteer for. No specific framework knowledge required.
@@ -52,7 +52,7 @@ They rescued me.
 
 When you are working on something you care about, a notification is an annoyance you dismiss.
 When you are working on something you resent, a notification is a permission slip to step away, and you take it every time.
-The work expanded to fill three days in part because every ping, every message, every side question offered a more appealing place to put my attention, and I had no countervailing force pulling me back.
+The work expanded to fill three days in part because every ping, every message, every side question offered a more appealing place to put my attention, and nothing pulled me back.
 
 Distractions are not the enemy of focus.
 **They are the enemy of focus on work you do not want to do.**
@@ -81,7 +81,9 @@ When work arrives by declaration rather than by agreement, I will name the motiv
 I will ask for the context I am missing instead of reconstructing it silently.
 And I will be candid, with myself and with the person handing it off, about what "get this merged" actually entails, because the favor is rarely as small as it sounds from the side that is handing it off.
 
-**Work you did not choose takes longer, not because it is harder, but because nothing pulls you through it. The friction was not in the task. It was in the absence of a reason to care.**
+**Work you did not choose takes longer, not because it is harder, but because nothing pulls you through it.**
+The friction was not in the task.
+It was in the absence of a reason to care.
 
 ## See also
 

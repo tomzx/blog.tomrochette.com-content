@@ -3,8 +3,10 @@ title: "Rethinking Code Review in the Age of LLMs"
 created: 2026-06-12
 type: post
 status: finished
-tags: [ai, software-engineering, code-review, llm, productivity, fully-ai-generated, llm=glm-5.1, llm=glm-5.2]
+tags: [ai, software-engineering, code-review, llm, productivity, fully-ai-generated, llm=glm-5.1, llm=glm-5.2, llm=glm-5.3]
 readability: 3
+audience_notes: >
+  Assumes the reader is a software engineer or team lead who writes pull requests and is familiar with LLM code generation, code review, CI, and basic verification tooling. No introduction to LLMs.
 ---
 
 Code review is a bottleneck.
@@ -31,7 +33,7 @@ The LLM did not think carefully about each line.
 The LLM does not have intent in the way a human does.
 The reviewer cannot ask the author "what were you trying to do here?" and get a meaningful answer, because the author is a statistical model that generated the most probable next token.
 
-This changes the nature of the review fundamentally, and not in the direction most people assume.
+The loss of a human author changes the nature of the review fundamentally, and not in the direction most people assume.
 
 ## Why Reviewing LLM Code Is Different
 
@@ -67,7 +69,7 @@ Where review used to be a small fraction of the development cycle, it is now the
 And the quality of that review is worse, not better, because reviewing code you did not write is cognitively different from reviewing code you understand deeply.
 
 This creates a specific kind of bottleneck: one where the throughput-limiting step is also the lowest-quality step.
-**You are spending most of your time on the part of the process where you add the least value.**
+You are spending most of your time on the part of the process where you add the least value.
 
 ## What I Would Rather Be Doing
 
@@ -123,7 +125,7 @@ Some would argue that catching these issues during review is better than not cat
 This is hard to disagree with in isolation.
 Of course a subtle bug caught at review is better than the same bug reaching production.
 
-But this framing hides the real trade-off.
+But the better-late-than-never framing hides the real trade-off.
 The question is not whether review catches some problems.
 It is whether review is the best place to catch them, and whether the time spent reviewing could catch more problems if spent elsewhere.
 
@@ -181,7 +183,7 @@ Human suggestions on a diff do not.
 
 **The quality of the code is bounded by the quality of the specification that produced it.**
 If you want better code, write a better spec.
-**Reviewing the output is the most expensive, least scalable way to improve it.**
+Reviewing the output is the most expensive, least scalable way to improve it.
 
 ## The Reallocation
 
@@ -256,7 +258,7 @@ They genuinely understand the change, question the design, and catch real issues
 But the argument against mandatory review does not depend on reviews being shallow.
 It depends on where that hour of expert attention is best spent.
 
-An hour of review catches issues once, for one change, dependably on that reviewer being sharp that day.
+An hour of review catches issues once, for one change, depending on that reviewer being sharp that day.
 An hour spent improving the specification prevents the entire class of issue from reaching implementation.
 An hour spent writing a regression test catches the bug on every future run, not just the one time a human happened to read the code.
 
@@ -299,7 +301,7 @@ Fast, tested rollback paths so recovery does not depend on someone remembering h
 A reviewer might miss a subtle interaction.
 A canary deployment will surface it.
 
-## What About Revertibility
+## What About Reversibility
 
 A related concern is that an LLM might produce changes that are hard to undo.
 A sprawling refactor, a database migration that is not backward compatible, a change that entangles two previously independent systems.
@@ -309,10 +311,10 @@ This is a serious problem, but again, human review is not the safeguard people t
 Reviewers focus on forward correctness.
 They ask "does this do what it should?"
 They rarely ask "can we undo this cleanly?"
-Even when they do, revertibility is hard to assess by reading a diff.
+Even when they do, reversibility is hard to assess by reading a diff.
 It depends on what happens in production after the change lands, on data migrations that have already run, on other changes that build on top of it.
 
-**The solution is to make revertibility a structural property of how changes are made, not a property enforced by review.**
+**The solution is to make reversibility a structural property of how changes are made, not a property enforced by review.**
 
 Keep changes small and independent.
 Require database migrations to be backward compatible, deployed before the code that depends on them.
@@ -389,6 +391,6 @@ If you are checking correctness, tests do it better.
 If you are checking whether the code solves the right problem, you should have answered that question before the code was written.
 
 **Code review made sense when humans wrote all the code.**
-**It makes less sense when humans define the problem and machines implement the solution.**
+It makes less sense when humans define the problem and machines implement the solution.
 **The bottleneck has moved.**
 **Our processes should move with it.**

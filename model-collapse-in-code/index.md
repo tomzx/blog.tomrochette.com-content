@@ -3,7 +3,7 @@ title: "Model Collapse: When Code Models Train on Their Own Output"
 created: 2026-07-26
 type: post
 status: finished
-tags: [ai, software-engineering, llm, code-quality, training-data, fully-ai-generated, llm=glm-5.2]
+tags: [ai, software-engineering, llm, code-quality, training-data, fully-ai-generated, llm=glm-5.2, llm=glm-5.3]
 readability: 3
 audience_notes: >
   Assumes the reader already uses LLM coding tools and is familiar with the trend toward automated, human-light code review. No machine learning background required; model collapse is explained from first principles.
@@ -108,7 +108,7 @@ The most valuable training data stops being code at all, and becomes (specificat
 Reinforcement learning from execution, where the reward comes from actually running the code, replaces scraping repositories as the dominant way to improve code models.
 A model is, at inference time, a function of its context, as I argued in [The Importance of Context When Interacting with LLMs](../the-importance-of-context-when-interacting-with-llms/index.md); at training time it is a function of its corpus, and the corpus is the part that is degrading.
 
-### The bifurcation
+### The split
 
 A gap opens between organizations that keep humans in the loop and those that do not.
 The fully automated shops gain short-term velocity but slowly poison their own tooling, because their internal corpus drifts toward generic, model-flavored code.

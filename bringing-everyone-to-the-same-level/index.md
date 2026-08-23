@@ -3,7 +3,7 @@ title: "Bringing Everyone to the Same Level: How Skills and LLMs Collapse Code Q
 created: 2026-06-17
 type: post
 status: finished
-tags: [ai, software-engineering, llm, skills, productivity, fully-ai-generated, llm=glm-5.2]
+tags: [ai, software-engineering, llm, skills, productivity, fully-ai-generated, llm=glm-5.2, llm=glm-5.3]
 readability: 3
 audience_notes: >
   Assumes the reader is already using an LLM coding agent (opencode, Claude Code, Cursor) and has at least seen a "skill" or "rule" file. No explanation of what an LLM is.
@@ -57,7 +57,7 @@ This has an uncomfortable implication.
 **Before skills, the LLM made the senior engineer better and the junior engineer faster, and the gap between them stayed roughly the same.**
 The senior engineer instinctively provides the context the model needs, because they know what good work requires.
 The junior engineer does not know what they do not know, so they ask for less, and they get less back.
-The tool that was supposed to democratize quality quietly reproduced the existing hierarchy, because it rewarded the same hidden knowledge that always did.
+The tool that was supposed to democratize quality quietly reproduced the existing hierarchy, because it rewarded the same hidden knowledge that had always separated them.
 
 ## A Skill Is the Senior Engineer's Process, Made Executable
 
@@ -137,7 +137,7 @@ The constraints in a skill are where the quality actually lives.
 **Keep the skill shorter than the attention it will receive.**
 As the "lost in the middle" work showed, [a model's reliability degrades when a context fills with noise](https://arxiv.org/abs/2307.03172).
 A skill that tries to encode every possible consideration becomes a skill the model half-follows.
-Prefer several focused skills over one omnibus document, and cut anything the model would do correctly without being told.
+Prefer several focused skills over one giant document, and cut anything the model would do correctly without being told.
 
 **Version and maintain it like the code it produces.**
 A skill that encodes a convention from two years ago is worse than no skill, because it enforces a stale standard on every run.
@@ -153,14 +153,14 @@ It stays in their head, and the skill without it will produce work that is compe
 For the routine majority of software, which is most of software, the describable process is enough.
 For the genuinely hard design calls, it is not.
 
-Skills can also ossify mediocrity.
+Skills can also lock in mediocrity.
 **A skill that encodes a mediocre process enforces that mediocrity on everyone, consistently, forever.**
 The mechanism is morally neutral.
 It collapses the variance in whichever direction the skill points, so a careless skill library can quietly lower a strong team to a lower common standard instead of raising the rest.
 The remedy is that the skills themselves have to be written by the people whose process you actually want to reproduce, and revisited when the process improves.
 
 Finally, this raises the floor for producing code, but producing code was never the only bottleneck.
-As [Software Engineering Teams in the Age of AI](../software-engineering-teams-in-the-age-of-ai/index.md) argues, deciding whether a feature should exist, and writing a precise specification for it, remain irreducibly human and irreducibly valuable.
+As [Software Engineering Teams in the Age of AI](../software-engineering-teams-in-the-age-of-ai/index.md) argues, deciding whether a feature should exist, and writing a precise specification for it, remain human and valuable.
 Skills make the execution layer homogeneous.
 They do not decide what to execute.
 

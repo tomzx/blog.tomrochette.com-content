@@ -3,7 +3,7 @@ title: "slack-cached - Cache Slack threads, channels, and users to a local SQLit
 created: 2026-06-16
 type: post
 status: finished
-tags: [python, slack, cli, developer-tools, sqlite, fully-ai-generated, llm=glm-5.2]
+tags: [python, slack, cli, developer-tools, sqlite, fully-ai-generated, llm=glm-5.2, llm=glm-5.3]
 readability: 4
 audience_notes: >
   Assumes the reader is a developer comfortable with the CLI, SQLite, and Slack concepts like channels and threads. Modeled on the existing gh-cached post on this blog.
@@ -12,12 +12,12 @@ audience_notes: >
 > **Note (2026-07-02):** slack-cached has been renamed to [slackx](https://github.com/TomzxCode/slackx).
 
 Slack is where your team's decisions live, but the data doesn't belong to you.
-Search is slow, threads scroll into oblivion, and the moment you leave a workspace the history is gone.
+Search is slow, threads scroll out of reach, and the moment you leave a workspace the history is gone.
 There's no official CLI, and the web client is the only first-class way to read anything.
 
 I built [slack-cached](https://github.com/TomzxCode/slack-cached) to fix this.
 It's a small Python CLI that caches Slack threads, channel messages, users, and channels to a local SQLite database.
-Once cached, the data is yours: query it with SQL, grep it, feed it to an LLM, or just read it offline.
+**Once cached, the data is yours: query it with SQL, grep it, feed it to an LLM, or just read it offline.**
 
 ## The problem
 
@@ -26,7 +26,7 @@ Export tools exist for admins, but most members aren't admins.
 The search box returns messages, but not in a form you can slice, join, or version.
 Important decisions get buried in threads that nobody scrolls back to.
 
-This gets worse when you want to do anything programmatic.
+The problem gets worse when you want to do anything programmatic.
 Building a knowledge base, summarizing a channel, or tracking decisions all require raw access to the messages.
 **Hitting the Slack API on demand works, but you pay the latency and rate-limit cost every time, and edits disappear if you only ever fetch live.**
 
@@ -203,7 +203,7 @@ Bob Lee (bob)|87
 Carol Ng (carol)|53
 ```
 
-That's the real point of the tool.
+That query is the real point of the tool.
 **The cache is not an opaque blob; it's a table of messages you can `SELECT` from, join against users and channels, and export however you like.**
 
 ## Authentication
@@ -229,7 +229,7 @@ $ uv run slack-fake-server --port 8199 --num-threads 50 --rate-limits
 ```
 
 It serves `conversations.list`, `conversations.replies`, `conversations.history`, and `users.list`, and can simulate Slack-tier rate limiting.
-**Point slack-cached at it and you can develop and test against a realistic API without touching your real workspace:**
+**Point slack-cached at the fake server and you can develop and test against a realistic API without touching your real workspace:**
 
 ```bash
 $ slack-cached fetch --api-base-url http://localhost:8199/api --channel C0123ABCDEF --full-threads
@@ -243,7 +243,7 @@ cached 318 messages for C0123ABCDEF (214 fetched, 47 threads with replies fetche
 - **Offline access and archival.** Keep a readable copy of the conversations you actually care about, independent of Slack's retention window.
 - **Bulk analysis.** Once the data is in SQLite, you can answer questions with a query that Slack's search box can't express.
 
-## Try it
+## What to Do Next
 
 ```bash
 $ git clone https://github.com/TomzxCode/slack-cached
@@ -268,9 +268,7 @@ Thread C0123ABCDEF/1700000000.123456
     Thanks!
 ```
 
-[Repository and source code](https://github.com/TomzxCode/slack-cached), [documentation](https://tomzxcode.github.io/slack-cached/docs).
-
-
+[Repository and source code](https://github.com/TomzxCode/slack-cached), [documentation](https://tomzxcode.github.io/slackx/docs).
 ## References
 
 - [TomzxCode/slack-cached README](https://github.com/TomzxCode/slack-cached) -- primary source for features, commands, and behavior.

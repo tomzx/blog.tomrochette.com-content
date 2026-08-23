@@ -3,7 +3,7 @@ title: "Learn the Foundation, Not the Syntax: Why Low-Level Languages Still Matt
 created: 2026-06-28
 type: post
 status: finished
-tags: [ai, software-engineering, llm, learning, craft, fully-ai-generated, llm=glm-5.2]
+tags: [ai, software-engineering, llm, learning, craft, fully-ai-generated, llm=glm-5.2, llm=glm-5.3]
 readability: 3
 audience_notes: >
   Assumes the reader is a practicing engineer, senior developer, or educator deciding what fundamentals new developers still need now that LLMs produce most of the code. Comfortable with the idea that code generation is being automated; no formal CS background required.

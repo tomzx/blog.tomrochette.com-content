@@ -3,7 +3,7 @@ title: "When a Closed Decision Reopens: Breaking the Scope Relitigation Cycle"
 created: 2026-06-21
 type: post
 status: finished
-tags: [software-engineering, team-management, decision-making, scope, communication, fully-ai-generated, llm=glm-5.2]
+tags: [software-engineering, team-management, decision-making, scope, communication, fully-ai-generated, llm=glm-5.2, llm=glm-5.3]
 readability: 3
 audience_notes: >
   Assumes the reader is a tech lead, senior engineer, or engineering manager who has watched a settled scope decision get undone by a later conversation. No specific framework knowledge required.
@@ -18,7 +18,8 @@ When a new manager met the senior leader for the first time, the shared understa
 
 When leadership says "build this feature" without saying what "this" means, they have not given you a requirement.
 They have handed you a fog bank, and asked you to find a form inside it.
-You did the right thing: you built a demo to turn the fog into something people could react to, you sat with the principal, and you negotiated a concrete, buildable target.
+You did the right thing.
+You built a demo to turn the fog into something people could react to, you sat with the principal, and you negotiated a concrete, buildable target.
 That work was real, and it was correct.
 
 Then a person who was not in the room walked into a different room with the senior leader, and the target moved.
@@ -26,7 +27,8 @@ Then a person who was not in the room walked into a different room with the seni
 This feels like betrayal, or like a failure of the new manager, or like leadership changing its mind.
 It is usually none of those.
 It is the predictable consequence of a decision that was never written down in a form that could travel.
-A decision that lives only in the heads of the people who were present is a decision that cannot survive contact with anyone who was absent, and your organization keeps generating absent people: new hires, new managers, new conversations, new quarters.
+A decision that lives only in the heads of the people who were present is a decision that cannot survive contact with anyone who was absent.
+Your organization keeps generating absent people: new hires, new managers, new conversations, new quarters.
 **Every unwritten decision has a half-life, and the half-life is exactly as long as it takes for one new person to enter the chain.**
 
 The senior leader was never actually aligned with you on a specific scope.
@@ -36,7 +38,7 @@ So when the topic came up again, the leader reached for the only thing they stil
 
 ## You Have Two Problems, Not One
 
-The reason this keeps oscillating is that two genuinely different questions have been tangled into a single conversation, and they keep pulling against each other.
+The conversation keeps oscillating because two genuinely different questions have been tangled into a single thread, and the two questions keep pulling against each other.
 
 The first question is the north star: what would the ideal version of this feature look like, if the tools caught up and the constraints disappeared?
 That vision is valuable.
@@ -72,7 +74,8 @@ Now the leader is not arguing with your willingness.
 They are looking at a menu, and the menu has prices on it.
 They can choose to accept the limit, fund the enabler, or descope, but whatever they choose, they are choosing with information instead of against a vibe.
 
-**"Impossible" is a wall. The list of what it would take is a door. Leaders cannot walk through walls, but they will walk through doors all day, and often they will fund the hallway that leads to the next one.**
+**"Impossible" is a wall. The list of what it would take is a door.**
+Leaders cannot walk through walls, but they will walk through doors all day, and often they will fund the hallway that leads to the next one.
 This reframing also protects you.
 The day the tools do catch up, your document already names the capability you were waiting for, and the path to the north star becomes a matter of executing a plan you wrote months ago instead of restarting the conversation from scratch.
 
@@ -80,7 +83,8 @@ The day the tools do catch up, your document already names the capability you we
 
 The single highest-leverage thing you can do to stop the back-and-forth is to insist that decisions get written down the moment they are made, in a place that outlives the meeting.
 
-This is what Architecture Decision Records were invented for, as [Michael Nygard argued](https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions) when he proposed the format: a short document that captures the context, the decision, the alternatives considered, and the status, so that a person who arrives later can understand not just what was decided but why.
+This is what Architecture Decision Records were invented for, as [Michael Nygard argued](https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions) when he proposed the format.
+The record is a short document that captures the context, the decision, the alternatives considered, and the status, so that a person who arrives later can understand not just what was decided but why.
 The same discipline applies to scope decisions, which are every bit as consequential as architectural ones.
 A one-page record that says "we will build this subset, not the full vision, because of these specific constraints, and we agreed this on this date with these people" is worth more than any number of follow-up meetings.
 
@@ -88,7 +92,8 @@ The reason writing matters more than talking is that writing has different physi
 A conversation degrades the instant it ends.
 The memory of it degrades faster, and as it passes through more mouths it distorts, the way the children's game of [telephone](https://en.wikipedia.org/wiki/Telephone_(game)) turns a clean phrase into nonsense in a few retellings.
 A document does not degrade.
-It says the same thing to the new manager on their first day as it said to the principal on the day it was written, and it says the same thing to the senior leader in their next one-on-one as it said in the room where the compromise was struck.
+It says the same thing to the new manager on their first day as it said to the principal on the day it was written.
+It says the same thing to the senior leader in their next one-on-one as it said in the room where the compromise was struck.
 
 **If a decision is worth making, it is worth making durable, and a decision is only as durable as the artifact it is recorded in.**
 The cost of writing it down is ten minutes.
@@ -98,7 +103,8 @@ The cost of not writing it down is the cycle you are currently living in, paid i
 
 It is easy, and emotionally satisfying, to blame the new manager for reopening the wound.
 Resist that story.
-Almost certainly, they walked into their first meeting with the senior leader underprepared, because nobody had handed them the history, and they improvised from the leader's enthusiasm, which pointed at the north star, not at your milestone compromise.
+Almost certainly, they walked into their first meeting with the senior leader underprepared, because nobody had handed them the history.
+They improvised from the leader's enthusiasm, which pointed at the north star, not at your milestone compromise.
 That is not sabotage.
 That is a new person doing their best with the information they were given, which was not enough.
 
@@ -143,7 +149,7 @@ Then show the milestone, show the priced options, and ask for a single explicit 
 Whatever they choose, write the new decision down before anyone leaves the conversation.
 **A meeting that ends without a written decision is a meeting that will have to be held again.**
 
-Finally, schedule the next scope review in advance, on a date you control, instead of waiting for it to erupt.
+Finally, schedule the next scope review in advance, on a date you control, instead of waiting for the topic to erupt on its own.
 Scope conversations are not avoidable, and they are not the enemy.
 The enemy is surprise relitigation, the version that ambushes you in someone else's calendar.
 A standing quarterly review where the north star, the milestone, and the priced options are revisited together turns the cycle into a rhythm, and a rhythm is something a team can plan around.
@@ -157,7 +163,8 @@ It is to change the medium in which the argument happens.
 Write the vision.
 Write the milestone.
 Write the prices of the gaps between them.
-Put it where the next person can find it, and the conversation that reopens next month will reopen against a record instead of against your memory, and records win those fights.
+Put all of it where the next person can find it.
+The conversation that reopens next month will reopen against a record instead of against your memory, and records win those fights.
 
 **Decisions that are written, priced, and shared do not need to be relitigated, because they travel to the rooms you are not in and make your case for you.**
 

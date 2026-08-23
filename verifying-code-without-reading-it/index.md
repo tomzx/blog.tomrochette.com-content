@@ -3,7 +3,7 @@ title: "Verifying Code Without Reading It"
 created: 2026-07-25
 type: post
 status: finished
-tags: [software-engineering, code-review, pull-request, testing, llm, productivity, fully-ai-generated, llm=glm-5.2]
+tags: [software-engineering, code-review, pull-request, testing, llm, productivity, fully-ai-generated, llm=glm-5.2, llm=glm-5.3]
 readability: 3
 audience_notes: >
   Assumes the reader accepts that human line-by-line review of LLM-generated code is not scaling, and now wants the concrete system that replaces it. Familiarity with tests, linters, static analysis, and CI is assumed.
@@ -87,7 +87,7 @@ The human writes what the code must satisfy, and then watches what the code does
 
 ## The Circularity Trap
 
-There is one failure mode that will quietly ruin this system if you let it.
+There is one failure mode that will quietly ruin this system if you let it go unchecked.
 Do not let the same model, or the same prompt, both write the code and approve it.
 
 When the author and the verifier share a mind, the verifier inherits the author's blind spots.
@@ -110,7 +110,7 @@ They review the rules the gates enforce, not the code the gates pass, because a 
 They respond to gate failures, which is where their judgment adds value, instead of spending it on changes that passed cleanly.
 And they read code only on the small, flagged minority of changes that carry real blast radius, where a deliberate read is still the best tool we have.
 
-This is more work at the top of the pipeline and less at the bottom, which is the right inversion.
+The new division of labor is more work at the top of the pipeline and less at the bottom, which is the right inversion.
 **You are trading a low-leverage activity that scaled poorly (reading every diff) for a high-leverage one that compounds (writing the rules and specs that check every diff).**
 
 ## How You Know It Is Working
@@ -127,7 +127,7 @@ Track change failure rate, the fraction of deployments that cause an outage.
 
 Run the new system on a slice of changes and compare these numbers to your old, human-read pipeline.
 If the gates have a lower defect escape rate and a faster cycle time than your reviewers did, the unread code is provably better than the read code was.
-If they do not, you have a concrete gap to close, by tightening a rule or adding a critic, not by exhorting reviewers to read harder.
+If they do not, you have a concrete gap to close, by tightening a rule or adding a critic, not by urging reviewers to read harder.
 
 **The standard is not "a human looked at it."
 The standard is "the code behaves well in production, measurably, on every change."**

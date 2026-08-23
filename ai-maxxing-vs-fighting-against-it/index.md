@@ -3,7 +3,7 @@ title: "AI-Maxxing and Resistance Are the Same Mistake: Optimize Attention, Not 
 created: 2026-06-22
 type: post
 status: finished
-tags: [ai, llm, strategy, productivity, judgment, fully-ai-generated, llm=glm-5.2]
+tags: [ai, llm, strategy, productivity, judgment, fully-ai-generated, llm=glm-5.2, llm=glm-5.3]
 readability: 3
 audience_notes: >
   Assumes the reader is a technical practitioner who has integrated LLMs into their daily work and has felt the pull to either automate everything or push back against the automation. No academic background required.
@@ -14,15 +14,15 @@ One wants AI in everything, automating every task that can be automated, measuri
 The other wants AI held at arm's length, preserving the craft, the understanding, and the roles that made the field what it is.
 **They are not opposites; they are the same mistake pointed in different directions, and the mistake is optimizing how much AI to use instead of where to spend the attention AI frees up.**
 
-## Two Postures, One Error
+## Two Stances, One Error
 
 AI-maxxing treats the fraction of work delegated to a model as a score to be maximized.
 If a task can be automated, it should be, and the human's remaining job is to orchestrate ever more automation.
-Its reductio is the self-evolving codebase, the LLM agent company, the one-person team driving a dozen agents in parallel, none of them jokes and all of them early sketches of a real posture.
+Its logical endpoint is the self-evolving codebase, the LLM agent company, the one-person team driving a dozen agents in parallel, none of them jokes and all of them early sketches of a real stance.
 
 Resistance treats the fraction of work kept in human hands as a value to be defended.
 If a task can be done by hand, it should be, because doing it by hand is what builds the skill and the identity that make the work worth doing.
-Its reductio is the engineer in 2026 still typing boilerplate from memory and calling it craft.
+Its logical endpoint is the engineer in 2026 still typing boilerplate from memory and calling it craft.
 
 Each camp carries a real insight.
 The AI-maxxer is right that production has stopped being the bottleneck, and that clinging to manual production is no longer rational.
@@ -39,7 +39,7 @@ Typing boilerplate, memorizing an API, writing the fifth CRUD endpoint of the we
 A compounding activity is one whose value rises the more of it you do, and that feeds back into everything else.
 Understanding a domain deeply, holding taste about what to build, judging whether a piece of code solves the right problem: these do not decay, and they make every other thing you do more effective.
 
-The right posture falls out of this distinction immediately.
+The right stance falls out of this distinction immediately.
 **Delegate depreciating activities ruthlessly, and protect compounding activities ferociously.**
 
 The AI-maxxer breaks this by applying the delegation rule to everything, including the compounding activities, and slowly hollows out the judgment layer that makes the delegation produce anything worth having.
@@ -47,7 +47,7 @@ The resistor breaks it by applying the protection rule to everything, including 
 
 ## Why AI-Maxxing Is the More Insidious Error
 
-Here is the asymmetry that lifts this out of a polite "both sides" essay.
+Here is the asymmetry that lifts the argument out of a polite "both sides" essay.
 
 Resistance is a recoverable error.
 The resistor falls behind, notices eventually, and can adopt the tools later.
@@ -65,7 +65,7 @@ The AI-maxxer assumes judgment persists without exercise.
 It does not.
 **A mind that never decides what to build loses the ability to tell whether what was built is worth shipping, and no model substitutes for that loss, because using the model well already presupposes it.**
 
-This is the hole I pointed at in [The Shifting Bottleneck](../the-shifting-bottleneck/index.md): when you automate a layer, the bottleneck moves up to a more judgment-heavy layer, it does not disappear.
+This atrophy is the hole I pointed at in [The Shifting Bottleneck](../the-shifting-bottleneck/index.md): when you automate a layer, the bottleneck moves up to a more judgment-heavy layer, it does not disappear.
 The difference is that the bottleneck article described the move as something that happens to the system.
 AI-maxxing is what happens when you mistake the move for a disappearance, and convince yourself there is no bottleneck left worth staffing.
 
@@ -91,7 +91,7 @@ The AI-maxxer who delegates the deep domain work to "focus on orchestration" end
 For any activity on your plate, ask one question.
 If I let the model do this for the next two years, will the me that emerges be more valuable, or less, than the me that kept doing it by hand?
 
-Boilerplate, scaffolding, routine tests, formatting, summarizing a thread, drafting a first pass at a known pattern: delegate all of it, and the two-year-younger version of you is more valuable, because you spent those two years on something else that compounded.
+Boilerplate, scaffolding, routine tests, formatting, summarizing a thread, drafting a first pass at a known pattern: delegate all of it, and the you that emerges after two years is more valuable, because you spent those two years on something else that compounded.
 Deciding what to build, judging whether a design is right, reading a hard paper with the intent of being able to teach it, debugging a subtle failure by reasoning about the system: keep these, even when a model offers to do them, because the two years of practice is the entire asset.
 
 Notice that the test is about the allocation of your attention, not the quantity of AI you use.
@@ -101,14 +101,14 @@ They are doing it right, and the high delegation ratio is a symptom of having co
 
 ## The Boundary Moves, and That Is the Hard Part
 
-The complication, and the reason this is not a one-time sorting exercise, is that the line between depreciating and compounding is not fixed.
+The complication, and the reason the sorting is not a one-time exercise, is that the line between depreciating and compounding is not fixed.
 
 A thing that was compounding yesterday can become depreciating tomorrow.
 Writing SQL by hand was once a compounding skill, a path to a deep understanding of how the data informs the business; today the model writes the query and the deep part is knowing what to ask it for and whether the result is truthful.
 Reading logs was once a compounding skill; increasingly the model triages them and the deep part is deciding which anomalies matter.
-Each shift in capability redraws the line, and the posture that worked last year can become either error in the next.
+Each shift in capability redraws the line, and the stance that worked last year can become either error in the next.
 
-This is why neither camp has a stable answer.
+The moving boundary is why neither camp has a stable answer.
 The AI-maxxer's "delegate everything" is wrong because some of what they delegate is still compounding, and the resistor's "do everything by hand" is wrong because some of what they protect has already stopped compounding.
 **The only stable skill is the meta-skill of repeatedly telling the two apart, and that meta-skill is itself compounding, which is the strongest case I can make for spending attention on it.**
 
@@ -117,7 +117,7 @@ The AI-maxxer's "delegate everything" is wrong because some of what they delegat
 Stop measuring yourself by how much AI you use, in either direction.
 Run the inventory instead.
 List the activities that fill your week, and mark each one depreciating or compounding, using the two-year test.
-Then push hard on both ends: delegate the depreciating ones as aggressively as you can, and ring-fence time for the compounding ones so that the time you bought back actually lands on them.
+Then push hard on both ends: delegate the depreciating ones as aggressively as you can, and block off time for the compounding ones so that the time you bought back actually lands on them.
 
 Do not be surprised if the result is a higher delegation ratio than the resistor would tolerate and a lower one than the AI-maxxer would brag about.
 That is what getting it right looks like.
@@ -128,7 +128,7 @@ Re-run the inventory every few months, because the model's growth will have move
 The most expensive mistake in either direction is the one you keep making because you sorted the list once and never looked again.
 
 The AI-maxxer and the resistor are each certain they have found the answer, and that certainty is the real cost.
-**The correct posture is uncomfortable: delegate like a maximalist, protect like a minimalist, and never stop asking which is which.**
+**The correct stance is uncomfortable: delegate like a maximalist, protect like a minimalist, and never stop asking which is which.**
 
 ## See also
 

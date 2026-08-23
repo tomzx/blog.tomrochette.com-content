@@ -3,8 +3,10 @@ title: "The Merge Gate: Do You Need a Human to Approve Your Pull Requests?"
 created: 2026-06-15
 type: post
 status: finished
-tags: [ai, software-engineering, code-review, pull-request, merge-gate, llm, productivity, fully-ai-generated, llm=glm-5.2]
+tags: [ai, software-engineering, code-review, pull-request, merge-gate, llm, productivity, fully-ai-generated, llm=glm-5.2, llm=glm-5.3]
 readability: 3
+audience_notes: >
+  Assumes the reader works on a team where pull requests require a human approval before merging, is familiar with CI concepts (test suites, static analysis, canary deploys, rollbacks), and has at least skimmed the preceding piece on code review in the age of LLMs.
 ---
 
 My previous piece was about [code review: a human reading code before it ships](../rethinking-code-review-in-the-age-of-llms/index.md).

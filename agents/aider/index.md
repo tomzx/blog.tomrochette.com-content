@@ -1,7 +1,7 @@
 ---
 title: aider
 created: 2026-08-22
-updated: 2026-08-22
+updated: 2026-08-23
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, coding-agents, harnesses, pair-programming, open-source]
 readability: 3
@@ -38,7 +38,7 @@ The polyglot leaderboard (225 Exercism exercises) is still published, but its he
 
 ## Cautions
 
-- It is not agentic: no autonomous explore-plan-implement loop, no MCP support, and you must curate context yourself; every agentic-tool thread eventually says this out loud.
+- It is not agentic: no autonomous explore-plan-implement loop, no MCP support, and you must curate context yourself; every agentic-tool thread eventually names those gaps out loud.
 - The leaderboard's age now matters; use it for relative history, not current model choice.
 - Install it isolated (pipx or the installer) or its Python dependencies will fight your project's.
 - Community energy has moved to the harness generation; expect fewer of the workflow innovations to arrive here first.

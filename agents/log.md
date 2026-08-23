@@ -2,7 +2,7 @@
 title: Agents log
 created: 2026-08-22
 status: in progress
-tags: [agents]
+tags: [agents, llm=glm-5.3]
 readability: 0
 ---
 
@@ -40,3 +40,42 @@ Changes to this section that do not appear here were made by a human and must be
 - Committed the owner's uncommitted queue.md edit adding four seed categories (Retrieval, Memory, Executions, Hybrid execution), unchanged, attributed here [owner, glm-5.3]
 - Queue items 2 (model selection) and 3 (context management) remain blocked on their named dependencies (harness notes now exist for item 2; context engine notes still missing for item 3); left for their own runs [glm-5.3]
 - Verification: all internal link targets checked on disk, front matter parsed as YAML, one-sentence-per-line and no-em-dash checks passed across all new and edited files [glm-5.3]
+
+## 2026-08-23 (style conformance pass, claude-code)
+
+- claude-code: bolded the key insight of each section (sessions portability, status verdict, strengths lead, cautions lead, pay-per-token path, bottom line) to match the per-section bolding convention used across the corpus; meaning unchanged [glm-5.3]
+- claude-code: split the two longest sentences (What it is surfaces sentence, Cautions proxy-study sentence) into one sentence per line, per the short-direct-sentences rule [glm-5.3]
+- claude-code: named the referent in the OpenCode comparison ("the study above" to "the July 2026 proxy study") [glm-5.3]
+- claude-code: set updated to 2026-08-23 per the revise rule; status, tags, and all other front matter unchanged [glm-5.3]
+- Verification: all 4 internal link targets exist on disk, 4 of 5 reference URLs fetched 200 during this run, the fifth (thereallo.dev) returns a Cloudflare challenge to automated fetches and was verified in the 2026-08-22 run, front matter parses, no em-dashes, one sentence per line [glm-5.3]
+
+## 2026-08-23 (style conformance pass, codex)
+
+- codex: bolded the key insight of each section (cloud runs the same agent, status verdict, strengths lead, cautions lead, Free-tier inclusion, bottom line) to match the per-section bolding convention used across the corpus; meaning unchanged [glm-5.3]
+- codex: named the referent in the April 2025 caution ("that thread" to "that launch thread") [glm-5.3]
+- codex: set updated to 2026-08-23 per the revise rule; status, tags, and all other front matter unchanged [glm-5.3]
+- Verification: all 6 internal link targets exist on disk, all 5 reference URLs fetched 200 during this run, front matter parses, no em-dashes, one sentence per line [glm-5.3]
+
+## 2026-08-23 (style conformance pass, crush)
+
+- crush: hyperlinked the in-body source mentions (FSL-1.1-MIT license, Catwalk, "Crush, come home", the launch thread, the README) per the create-article link-all-sources rule [glm-5.3]
+- crush: bolded the key insight of each section (LSP-enhanced TUI identity, status verdict, strengths lead, cautions lead, BYOK pricing path, bottom line) to match the per-section bolding convention used across the corpus; meaning unchanged [glm-5.3]
+- crush: split the two longest sentences (opencode-ai continuation, Hyper pricing) into one sentence per line, per the short-direct-sentences rule [glm-5.3]
+- crush: replaced two showy words ("terminal aesthetes" to "engineers who want the best-looking terminal", "zero spectacle" to "no frills") per the plain-vocabulary rule, and wrapped crushrc in code ticks [glm-5.3]
+- crush: set updated to 2026-08-23 per the revise rule; status, tags, and all other front matter unchanged [glm-5.3]
+- Verification: all 6 internal link targets exist on disk, all 5 reference URLs fetched 200 during this run, front matter parses, no em-dashes, no banned terms, one sentence per line [glm-5.3]
+
+## 2026-08-23 (style conformance pass, junie)
+
+- junie: bolded the key insight of each section (ACP skill sharing, status verdict, strengths lead, cautions lead, BYOK pricing path, bottom line) to match the per-section bolding convention used across the corpus; meaning unchanged [glm-5.3]
+- junie: split the What it is sentence combining ACP sharing and remote control into one sentence per line, and named the referent ("It plans" to "Junie plans") [glm-5.3]
+- junie: set updated to 2026-08-23 per the revise rule; status, tags, and all other front matter unchanged [glm-5.3]
+- Verification: all 7 internal link targets exist on disk, all 5 reference URLs fetched 200 during this run, front matter parses, no em-dashes, one sentence per line [glm-5.3]
+
+## 2026-08-23 (style conformance pass, opencode)
+
+- opencode: bolded the key insight of each section (one-codebase surfaces, status verdict, strengths lead, cautions lead, BYOK pricing path, bottom line) to match the per-section bolding convention used across the corpus; meaning unchanged [glm-5.3]
+- opencode: hyperlinked the in-body source mentions (July 2026 proxy study, CVE-2026-22812 disclosure, March 2026 Anthropic legal requests) per the create-article link-all-sources rule [glm-5.3]
+- opencode: named the referents ("this is the continuation" to "OpenCode is the continuation", "will not drive it" to "will not drive OpenCode", "its auto-started server" to "the auto-started server", "it is off by default" to "the server is off by default"), moved the pin-your-version advisory to its own bullet per the one-sentence-per-line rule, and smoothed "Claude Code's about 33k" to "about 33k for Claude Code" [glm-5.3]
+- opencode: set updated to 2026-08-23 per the revise rule; status, tags, and all other front matter unchanged [glm-5.3]
+- Verification: all 6 internal link targets exist on disk, all 5 reference URLs fetched 200 during this run, front matter parses, no em-dashes, no banned terms, one sentence per line [glm-5.3]

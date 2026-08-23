@@ -3,16 +3,16 @@ title: "Rolling Out the Unread Review"
 created: 2026-07-25
 type: post
 status: finished
-tags: [software-engineering, code-review, pull-request, automation, teams, productivity, fully-ai-generated, llm=glm-5.2]
+tags: [software-engineering, code-review, pull-request, automation, teams, productivity, fully-ai-generated, llm=glm-5.2, llm=glm-5.3]
 readability: 3
 audience_notes: >
   Assumes the reader is already convinced by the case for reading-free, automated code review and now faces adoption resistance from their team. Written for an engineering lead or senior engineer driving the rollout.
 ---
 
 The [case for review without reading](../code-review-without-reading-the-code/index.md), and the [system that makes it safe](../verifying-code-without-reading-it/index.md), can both be sound and still fail to ship.
-This piece is about the part that actually decides whether any of it lands: your team.
+I am writing about the part that actually decides whether any of it lands: your team.
 
-You can be right about review, right about the system that replaces it, and still lose, because you shipped it as a decree instead of as a sequence.
+You can be right about review, right about the system that replaces review, and still lose, because you shipped the rollout as a decree instead of as a sequence.
 The rollout has its own logic, and it is not the logic of the technical argument.
 **A system people do not trust is a system that does not run, regardless of how well it verifies.**
 
@@ -32,10 +32,10 @@ Calling their discomfort "fear" loses the argument before it starts, because the
 Behind "I do not trust the bot" are usually three distinct concerns, and each needs a different answer.
 
 The safety concern: automated review will let bad code through.
-You answer this with measurement, defect escape rate compared between the two lanes.
+You answer the safety concern with measurement, defect escape rate compared between the automated lane and the human lane.
 
 The accountability concern: when something breaks, there is no one to point at.
-You answer this with ownership that lives upstream, in the specification and in the people who own the rules.
+You answer the accountability concern with ownership that lives upstream, in the specification and in the people who own the rules.
 
 The learning concern is the one nobody says out loud.
 Review is how juniors grow and how the team stays connected to its own codebase.
@@ -105,8 +105,8 @@ You are reserving humans for the small, identifiable minority of changes where a
 
 ## Rebuild The Learning Channel
 
-The unspoken fear is that review is how juniors learn and how the team stays connected to the codebase.
-That is a genuine cost, and pretending otherwise breaks trust.
+The learning concern from earlier does not go away once the rollout succeeds.
+That loss is a genuine cost, and pretending otherwise breaks trust.
 
 Replace the channel deliberately.
 Pair juniors with seniors on specifications, because that is where the judgment now lives.
@@ -122,10 +122,23 @@ That is the moment the rollout is won or lost.
 Run a blameless postmortem, find the gap, and add a rule.
 Then say the thing human review can never say: this exact defect class can never recur, because it is now checked on every change, for as long as the rule exists.
 
-This is the property that dissolves resistance on its own schedule.
+That guarantee is the property that dissolves resistance on its own schedule.
 The system gets strictly better over time; human review resets every morning.
 Each incident encoded into a rule is a permanent gain.
 **Show people that compounding curve, and most of the holdouts come around, not because you argued them down, but because the system stopped being the thing they distrusted.**
+
+## What to Do Next
+
+Start with the commenting bot on a low-blast-radius lane, and add the blocking bot and then the approving bot weeks apart.
+Run shadow mode beside the human lane, and let the skeptics be the ones who present the comparison.
+From the first automated action, publish the rule, the threshold, the owner, and the numbers: defect escape rate, rollback rate, time-to-detect, change failure rate.
+
+**Keep the escape hatch explicit, and rebuild the learning channel deliberately.**
+Reserve deliberate human reads for the changes with real blast radius.
+Pair juniors with seniors on specifications, and rotate rule-owner duty, so the apprenticeship continues off the critical path.
+
+When the gate lets its first defect through, run a blameless postmortem and encode the fix as a rule.
+That rule is the permanent gain the rollout was for: checked on every change, for as long as the rule exists, while human review resets every morning.
 
 ## See also
 

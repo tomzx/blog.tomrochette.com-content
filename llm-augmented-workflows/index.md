@@ -3,7 +3,7 @@ title: "llm-augmented-workflows - A config-driven automation engine for GitHub, 
 created: 2026-07-02
 type: post
 status: finished
-tags: [python, github, github-actions, llm, ai-agents, automation, workflows, skills, opencode, fully-ai-generated, llm=glm-5.2]
+tags: [python, github, github-actions, llm, ai-agents, automation, workflows, skills, opencode, fully-ai-generated, llm=glm-5.2, llm=glm-5.3]
 readability: 4
 audience_notes: >
   Assumes the reader maintains a GitHub repository, has written a GitHub Actions workflow, and has at least seen an LLM coding agent (opencode, Claude Code, Cursor). No introduction to LLMs or CI.
@@ -98,7 +98,7 @@ When the issue is labeled `plan-approved`, the `implement-plan` skill runs and i
 
 ## Token-free transitions
 
-This is the feature that pays for the whole design.
+Token-free transitions are the feature that pays for the whole design.
 
 Relabeling an issue does not require an LLM, and neither does closing a linked issue on merge or posting a deterministic comment.
 In llm-augmented-workflows, `labels` and `shell` steps run without calling the model at all.
@@ -113,8 +113,11 @@ A flow that used to cost three model calls (triage, plan, implement) plus the gl
 Each matched rule's pipeline runs in one job.
 What happens *after* the pipeline is controlled by the execution mode:
 
-- **event-driven** (default): the rule runs once and the job ends. The relabel emits a new event that re-triggers the dispatcher for the next phase. One job per phase, each one independently observable in the Actions log.
-- **continuous**: the same job keeps advancing to the next rule based on the labels each rule adds, until `llmaw:needs-human` appears or the chain reaches a resting state. One job per pipeline, the whole end-to-end run in one log.
+- **event-driven** (default): the rule runs once and the job ends.
+  The relabel emits a new event that re-triggers the dispatcher for the next phase.
+  One job per phase, each one independently observable in the Actions log.
+- **continuous**: the same job keeps advancing to the next rule based on the labels each rule adds, until `llmaw:needs-human` appears or the chain reaches a resting state.
+  One job per pipeline, the whole end-to-end run in one log.
 
 Set it under `defaults.execution` or per flow, force it per dispatch via the `execution` input or the `LLMAW_EXECUTION` repo variable.
 Event-driven is easier to debug; continuous is easier to watch flow end to end.
@@ -162,7 +165,8 @@ Three steps.
        secrets: inherit
    ```
 
-2. Add `.github/llmaw/flows.yml` describing your flows. Start from the example above or the [`docs/flows.md`](https://github.com/TomzxCode/llm-augmented-workflows/blob/main/docs/flows.md) recipes for triage, close-on-merge, and per-step overrides.
+2. Add `.github/llmaw/flows.yml` describing your flows.
+   Start from the example above or the [`docs/flows.md`](https://github.com/TomzxCode/llm-augmented-workflows/blob/main/docs/flows.md) recipes for triage, close-on-merge, and per-step overrides.
 
 3. Run the **Setup Labels** workflow to create the labels declared under `labels:`, or let your flows add them as needed.
 
@@ -192,9 +196,7 @@ I have been writing about the pieces of this for a while.
 [The Self-Evolving Repository](../the-self-evolving-repository/index.md) pushed the question of how far you can take a GitHub project where every maintainer function is replaced by an automated loop.
 **llm-augmented-workflows is the engine for both: the flows file is the schedule, the skills are the behavior, and the state never leaves GitHub.**
 
-If you already use [ghx](../ghx/index.md) for agentic code reviews or [github-board](../github-board/index.md) to visualize your issues, this is the layer that makes the issues move on their own.
-
-[Repository and source code](https://github.com/TomzxCode/llm-augmented-workflows), [flows authoring guide](https://github.com/TomzxCode/llm-augmented-workflows/blob/main/docs/flows.md).
+If you already use [ghx](../ghx/index.md) for agentic code reviews or [github-board](../github-board/index.md) to visualize your issues, llm-augmented-workflows is the layer that makes the issues move on their own.
 
 ## See also
 

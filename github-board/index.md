@@ -3,8 +3,10 @@ title: github-board - A kanban board for any GitHub search
 created: 2026-07-02
 type: post
 status: finished
-tags: [javascript, github, kanban, developer-tools, single-page-application, fully-ai-generated, llm=glm-5.2]
+tags: [javascript, github, kanban, developer-tools, single-page-application, fully-ai-generated, llm=glm-5.2, llm=glm-5.3]
 readability: 4
+audience_notes: >
+  Assumes the reader works with GitHub issues and pull requests day to day and can create a personal access token. No kanban, GraphQL, or JavaScript knowledge is required.
 ---
 
 GitHub's issue and PR lists are flat.
@@ -27,7 +29,7 @@ Which of my open PRs are drafts, which are waiting on review, and which have gon
 How are issues spread across the `area:*` labels?
 What does the backlog look like across an entire organization?
 
-You can build a GitHub Project board to answer these, but each card has to be placed and maintained by hand.
+You can build a GitHub Project board to answer these questions, but each card has to be placed and maintained by hand.
 **The board reflects triage you did, not the state of your data right now.**
 For a recurring view that's worth the effort.
 For a one-off question you want to answer in 30 seconds, it isn't.
@@ -62,17 +64,17 @@ The expression language supports the operators you'd expect: `==`, `=~`, `<`, `c
 
 ## Auto-split with a $1 capture
 
-This is the feature I use most.
+Auto-split is the feature I use most.
 If you put a `$1` capture in a column or lane rule, **github-board expands it into one bucket per distinct matched value.**
 
 Name a lane `area:$1` matching `labels =~ /area:(.*)/i`, and you instantly get one row per area label that exists in your data.
 Name a column the same way and you get one column per label.
 No manual setup per bucket, and buckets with no items simply don't appear or stay empty depending on your preference.
-It's the fastest way to see how work distributes across a category you didn't know you cared about until just now.
+The `$1` capture is the fastest way to see how work distributes across a category you didn't know you cared about until just now.
 
 ## Shareable links and presets
 
-The entire view, query, filter, columns, swimlanes, and sort, is encoded in the URL hash.
+The entire view (query, filter, columns, swimlanes, and sort) is encoded in the URL hash.
 Click Share, send the link to a teammate, and they see your exact board using their own token.
 **The token is never included in the link**, so you can paste it anywhere.
 
@@ -86,7 +88,7 @@ Requests go directly from your browser to `api.github.com`.
 You bring your own personal access token, which is stored only in your browser's `localStorage`.
 There is no OAuth flow, no server logging, and no way for the tool to modify your issues or pull requests.
 
-**It is a view, not a project-management tool.**
+**github-board is a view, not a project-management tool.**
 There is no drag-and-drop across columns, because the source of truth is your data, not where a card was dropped.
 
 ## Getting started
@@ -99,9 +101,6 @@ There is no drag-and-drop across columns, because the source of truth is your da
 4. Click Refresh and adjust the columns to match your workflow.
 
 If you already use [gh-cached](../gh-cached/index.md) to browse issues without burning your rate limit, or [ghx](../ghx/index.md) for agentic code reviews, github-board is the visual counterpart: the same GitHub data, arranged the way you want to see it right now.
-
-[Repository and source code](https://github.com/TomzxCode/github-board)
-
 ## See also
 
 - [gh-cached](../gh-cached/index.md) - browse GitHub issues and PRs from a local cache to avoid rate limits

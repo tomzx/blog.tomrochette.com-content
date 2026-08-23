@@ -3,7 +3,7 @@ title: "The Codebase Gardener: Keeping a Codebase Sane When Teammates and Their 
 created: 2026-06-20
 type: post
 status: finished
-tags: [ai, software-engineering, llm, code-review, tech-debt, productivity, fully-ai-generated, llm=glm-5.2]
+tags: [ai, software-engineering, llm, code-review, tech-debt, productivity, fully-ai-generated, llm=glm-5.2, llm=glm-5.3]
 readability: 3
 audience_notes: >
   Assumes the reader is an engineer on a team where LLM coding agents do most of the producing, and that they have at least seen a CI pipeline, a lint config, or a "skill"/"rule" file. No explanation of what an LLM is.
@@ -59,7 +59,7 @@ The way one person defends a codebase against many producers is to stop operatin
 This is the [theory of constraints](https://en.wikipedia.org/wiki/Theory_of_constraints) applied to code quality: if you cannot keep up at the review station, do not add more reviewers.
 Change the station.
 
-Concretely, it means every standard you care about has to live in the one of the few places work is forced to pass through, rather than in your head or in your review comments.
+Concretely, it means every standard you care about has to live in one of the few places work is forced to pass through, rather than in your head or in your review comments.
 There are only a handful of such places, and together they are the entire leverage surface available to a single engineer.
 
 The skill and rule files every agent loads at the start of a task.
@@ -143,7 +143,7 @@ You are tidying, in batches, on your own time, against objective signals from th
 The gardener rakes.**
 
 This is also the frank acknowledgment that some entropy is the cost of speed, and that the goal is not zero drift.
-The goal is a drift rate low enough that your weekly sweep net positive, so that over months the codebase gets cleaner rather than dirtier even as it grows.
+The goal is a drift rate low enough that your weekly sweep runs net positive, so that over months the codebase gets cleaner rather than dirtier even as it grows.
 A codebase that gets slowly cleaner under load is a codebase you are successfully defending.
 A codebase that gets slowly dirtier no matter how hard you review is one you are losing, and the review is not the fix.
 

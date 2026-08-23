@@ -1,7 +1,7 @@
 ---
 title: OpenCode
 created: 2026-08-22
-updated: 2026-08-22
+updated: 2026-08-23
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, coding-agents, harnesses, open-source, developer-tools]
 readability: 3
@@ -19,33 +19,35 @@ Facts below verified as of 2026-08-22.
 ## What it is
 
 The `opencode` TUI ships build and plan agents (Tab to switch), a general subagent, `/init` generating an AGENTS.md, `/undo` and `/redo` of agent changes, and shareable conversation links.
-One codebase also produces a desktop app, a VS Code extension, a web view, an SDK, a server, and `opencode acp`, which hosts the agent inside ACP-speaking editors (Zed, JetBrains, Neovim) unchanged.
+**One codebase also produces a desktop app, a VS Code extension, a web view, an SDK, a server, and `opencode acp`, which hosts the agent inside ACP-speaking editors (Zed, JetBrains, Neovim) unchanged.**
 Providers are configured by API key; OpenCode Zen is the team's curated, tested model gateway.
 
 ## Status
 
-Very active.
-The repository moved from sst to `anomalyco/opencode` and shows about 200k stars, 25.8k forks, and 15,514 commits under MIT as of 2026-08-22.
-It originated in the 2025 opencode-ai/Charm split that also produced Crush; this is the continuation that kept the name, the domain, and the community.
+**Very active.**
+The repository moved from `sst` to `anomalyco/opencode` and shows about 200k stars, 25.8k forks, and 15,514 commits under MIT as of 2026-08-22.
+It originated in the 2025 opencode-ai/Charm split that also produced Crush.
+OpenCode is the continuation that kept the name, the domain, and the community.
 
 ## Strengths
 
-- Leanest measured harness of the majors: about 7k baseline tokens versus Claude Code's about 33k, byte-stable cache prefixes, and about 3.7x cheaper on a matched pass/fail benchmark (July 2026 proxy study).
+- **The leanest measured harness of the majors**: about 7k baseline tokens versus about 33k for Claude Code, byte-stable cache prefixes, and about 3.7x cheaper on a matched pass/fail benchmark ([July 2026 proxy study](https://systima.ai/blog/claude-code-vs-opencode-token-overhead)).
 - Truly provider-neutral, reading both AGENTS.md and CLAUDE.md.
 - ACP support makes your editor choice irrelevant while keeping one harness.
 - Undo/redo and share are small features that match how people actually work.
 
 ## Cautions
 
-- CVE-2026-22812: before v1.0.216 any website could execute code on your machine via its auto-started server; before v1.1.10 the server started silently; since v1.1.10 it is off by default but still unauthenticated when enabled, with some vectors unfixed at disclosure. Pin your version and read the config.
-- In March 2026 Anthropic legal requests removed the Claude Pro/Max OAuth login and Anthropic-branded defaults, so your Claude subscription will not drive it; use API keys or Zen.
-- Fast-moving config surface; the docs carry a "versions older than 0.1.x" style of breaking-change warnings.
+- **[CVE-2026-22812](https://cy.md/opencode-rce/)**: before v1.0.216 any website could execute code on your machine via the auto-started server; before v1.1.10 the server started silently; since v1.1.10 the server is off by default but still unauthenticated when enabled, with some vectors unfixed at disclosure.
+- Pin your version and read the config.
+- In March 2026 [Anthropic legal requests](https://github.com/anomalyco/opencode/pull/18186) removed the Claude Pro/Max OAuth login and Anthropic-branded defaults, so your Claude subscription will not drive OpenCode; use API keys or Zen.
+- Fast-moving config surface; the docs carry 'versions older than 0.1.x' style of breaking-change warnings.
 - Windows works best under WSL.
 
 ## Pricing
 
 The software is free and MIT.
-You pay providers directly for tokens, or route through OpenCode Zen with its own billing.
+**You pay providers directly for tokens**, or route through OpenCode Zen with its own billing.
 There is no bundled subscription usage, which is the point.
 
 ## Compared to
@@ -56,7 +58,7 @@ There is no bundled subscription usage, which is the point.
 
 ## Bottom line
 
-Recommended as the default for token-paying, provider-switching engineers.
+**Recommended as the default for token-paying, provider-switching engineers.**
 Not for teams that need subscription billing simplicity or cannot audit a fast-moving open codebase.
 
 ## See also

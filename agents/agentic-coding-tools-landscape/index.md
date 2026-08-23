@@ -15,11 +15,11 @@ Everything here was verified against live sources on 2026-08-22.
 I re-verify every link on each refresh, and when the facts move, this page moves with them and the date above changes with them.
 
 **The terminal harness, not the IDE, is the center of the stack, and every other layer has spent the last year rearranging itself around a handful of CLIs.**
-That has one practical consequence: **pick your harness first and your editor second**, because the editor is now the replaceable part.
+The rearrangement has one practical consequence: **pick your harness first and your editor second**, because the editor is now the replaceable part.
 
 ## The map in four layers
 
-The whole field fits in four boxes plus a set of shared conventions.
+**The whole field fits in four boxes plus a set of shared conventions.**
 
 - Harnesses: terminal agents that run the edit-test-commit loop (Claude Code, Codex, Gemini CLI, OpenCode, and a long independent tail).
 - Surfaces: editors and IDEs that host the loop, either by bundling an agent or by speaking a protocol to one.
@@ -33,7 +33,7 @@ Underneath all four sit the conventions that make the parts interchangeable: MCP
 **The harness, not the model, is the product you actually operate every day, and the big four have become platforms rather than tools.**
 [Claude Code](../claude-code/index.md) runs in the terminal, in VS Code and JetBrains, as a desktop app, and on the web, with sessions that move between surfaces, subagents, skills, hooks, an Agent SDK, and scheduled cloud routines.
 [Codex](../codex/index.md) covers the same spread, with a CLI, an IDE extension, desktop, web, and cloud forms, and it configures itself through AGENTS.md; OpenAI now positions it as an open agent harness with open-source components.
-[Gemini CLI](../gemini-cli/index.md) was the open-source outlier from a major lab (Apache-2.0, about 107k GitHub stars), but Google moved individual users to Antigravity CLI on June 18, 2026, so its famous free tier is now an enterprise-and-paid-API-only fact.
+[Gemini CLI](../gemini-cli/index.md) was the open-source outlier from a major lab (Apache-2.0, about 107k GitHub stars), but Google moved individual users to Antigravity CLI on June 18, 2026, so its famous free tier is now limited to enterprise licenses and paid API keys.
 [OpenCode](../opencode/index.md) is the vendor-neutral entry: open source, any provider, with a TUI, an IDE extension, a desktop app, and a web view built off one codebase.
 
 The independent tail matters more than its market share suggests.
@@ -48,7 +48,7 @@ Claude Code and Codex are at their best inside their own vendor's subscription; 
 ## Surfaces: editors stopped bundling, started hosting
 
 [Cursor](https://cursor.com/) began as the AI-native editor and now ships a full stack around it: a CLI, cloud agents that work for hours or days, scheduled automations, a Slack integration, and model pickers spanning OpenAI, Anthropic, Google, xAI, and its own Composer models.
-In August 2026 Cursor was [acquired by SpaceX](https://cursor.com/blog/joining-spacex), completing a partnership with SpaceXAI that started in April, which tells you the front of this market is merging with the compute owners.
+In August 2026 Cursor was [acquired by SpaceX](https://cursor.com/blog/joining-spacex), completing a partnership with SpaceXAI that started in April, which tells you the leading edge of this market is merging with the compute owners.
 VS Code and GitHub put one agent in two places: agent mode locally in the editor, and the [Copilot cloud agent](https://docs.github.com/en/copilot/concepts/about-copilot-coding-agent) on GitHub.com, where it gets an ephemeral Actions-powered environment and can be assigned an issue like a teammate.
 Windsurf still plays the AI-editor game it helped define.
 JetBrains ships Junie and, more consequentially, co-created the [Agent Client Protocol](https://agentclientprotocol.com/) with Zed.
@@ -61,7 +61,7 @@ Once your editor hosts your harness, choosing between them stops being a marriag
 
 Every major harness now has a cloud form, and the differences live in the seams.
 Claude Code on the web shares context with the CLI, and `claude --teleport` pulls a web session back into your terminal.
-The Copilot cloud agent is GitHub-native and capped at 59 minutes per session, a number that should anchor what you delegate to it.
+The Copilot cloud agent is GitHub-native and capped at 59 minutes per session, a number that should anchor how much work you delegate to the agent.
 [Jules](https://jules.google/) clones your repository to a cloud VM, plans, shows a diff, and opens a PR, powered by Gemini 3 Pro with a free tier of 15 tasks a day.
 Cursor runs cloud agents as fleets; Amp's orbs are the same idea pointed at your own remote machines.
 

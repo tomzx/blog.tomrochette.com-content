@@ -3,7 +3,7 @@ title: "Who Resolves the Merge Conflict? Why the Bot and the Author Are Not Inte
 created: 2026-07-06
 type: post
 status: finished
-tags: [software-engineering, pull-request, git, automation, llm, github-actions, productivity, fully-ai-generated, llm=glm-5.2]
+tags: [software-engineering, pull-request, git, automation, llm, github-actions, productivity, fully-ai-generated, llm=glm-5.2, llm=glm-5.3]
 readability: 3
 audience_notes: >
   Assumes the reader works on a repository that receives pull requests from humans and from LLM agents, runs an auto-merge lane or wants to, and is comfortable with git rebase, merge conflicts, and branch protection. Clean rebases are assumed solved and out of scope; the only question is who resolves a real conflict.
@@ -17,7 +17,7 @@ The clean rebase is settled and out of scope; automate it on every push to main.
 The live question is the conflict, and the conflict is not one thing.
 Resolving a conflict means deciding what the code should now say, and that decision is a claim about what the author meant.
 Someone has to make it, and the interesting question is who can back it with intent they actually hold.
-**That depends entirely on whether the conflict has a unique correct answer an oracle can check, or whether its correctness lives only in the author's head.**
+**The choice depends entirely on whether the conflict has a unique correct answer an oracle can check, or whether its correctness lives only in the author's head.**
 
 ## Why the Question Got Loud
 
@@ -52,7 +52,7 @@ At the other end is the semantic conflict: two people changed the same logic for
 
 The mechanical conflict is therefore still logistics, just logistics that needs an oracle.
 Resolve it, run the suite, and if the suite passes the resolution is, by construction, the one the project already trusted.
-This is the test acting as the independent oracle the model cannot be, the same role it plays in closing the bug gap when a fix claims to be done.
+Here the test acts as the independent oracle the model cannot be, the same role it plays in closing the bug gap when a fix claims to be done.
 A conflict whose wrongness a test can catch is a conflict the bot may resolve, because the test, not the model, is signing off.
 
 The semantic conflict is a different animal.
@@ -99,7 +99,9 @@ The interesting work is in the default, and the sound default routes on intent a
 A PR that links a human-authored issue or spec, with acceptance criteria that cover the change, defaults to `bot-may-resolve`, because the resolution has an oracle.
 A PR that arrives as code alone, with no independent statement of intent, defaults to `author-resolves`, because nothing can falsify the bot's stitch.
 The maintainer's real choice is not "auto or manual."
-It is "what do we assume about a PR whose intent source we cannot verify," and the conservative answer, treat it as unencoded and ask the author, costs a little latency where the bot could have handled it, while the permissive answer, resolve and trust the model, costs intent claims that are silently wrong.
+It is "what do we assume about a PR whose intent source we cannot verify."
+The conservative answer, treat the PR as unencoded and ask the author, costs a little latency where the bot could have handled it.
+The permissive answer, resolve and trust the model, costs intent claims that are silently wrong.
 **Between losing a little speed and shipping a confidently wrong merge, the speed is the cheaper loss, so the default for a PR with no verifiable intent source should be `author-resolves`.**
 
 This makes the highest-leverage change a documentation change, not a tooling one.
@@ -111,10 +113,11 @@ Both shrink the "no verifiable intent" bucket, and shrinking that bucket is what
 
 First, surface the conflict instead of hiding it.
 Add [eps1lon/actions-label-merge-conflict](https://github.com/eps1lon/actions-label-merge-conflict) so any PR that falls behind main gets a `merge-conflict` label the moment it conflicts, and loses it the moment it merges again.
-Your auto-merge lane can now filter `-label:merge-conflict` and only act on work that is actually ready, and the author gets an automated nudge that a real decision is needed without you being the one to say it.
+Your auto-merge lane can now filter `-label:merge-conflict` and only act on work that is actually ready.
+The author gets an automated nudge that a real decision is needed, without you being the one to say it.
 
 Second, classify the conflict before you route it.
-Mechanical conflicts, imports, formatting, adjacent non-overlapping edits, the bot resolves behind the test gate, and the test is the oracle that makes the resolution trustworthy.
+Mechanical conflicts (imports, formatting, adjacent non-overlapping edits) go to the bot behind the test gate, and the test is the oracle that makes the resolution trustworthy.
 If the suite fails, the resolution is wrong by definition and the bot escalates rather than ships.
 
 Third, route the semantic conflict by whether an independent intent source exists.

@@ -3,7 +3,7 @@ title: "The Code You Will Never Read"
 created: 2026-08-01
 type: post
 status: finished
-tags: [software-engineering, ai, llm, machine-learning, code-review, productivity, fully-ai-generated, llm=glm-5.2]
+tags: [software-engineering, ai, llm, machine-learning, code-review, productivity, fully-ai-generated, llm=glm-5.2, llm=glm-5.3]
 readability: 3
 audience_notes: >
   Assumes the reader writes software in a world where LLMs and agents produce much of the code, and has at least a lay picture of how a trained neural network works (weights, training, evaluation). No hands-on ML experience required.
@@ -49,7 +49,7 @@ It is becoming nonsense in ours, and the people who notice last will be the ones
 The parallel is not exact, but it is close, and it is closing.
 
 A neural network is opaque because its meaning is smeared across billions of parameters, none of which means anything alone.
-Agent-written code is opaque for a different reason and a more prosaic one: there is simply too much of it, it was produced too fast, and no human has the hours to reconstruct what it does from the source.
+Agent-written code is opaque for a different reason and a more mundane one: there is simply too much of it, it was produced too fast, and no human has the hours to reconstruct what it does from the source.
 
 **The end state is the same from the operator's point of view.**
 You are handed an artifact that does something.
@@ -93,7 +93,7 @@ In opaque code, that is defect escape rate, rollback rate, time-to-detect, and c
 In ML, adversarial examples are how you stress the model before it ships.
 In opaque code, that is the adversarial pass: a separate agent whose only job is to break the change, with no incentive to approve ([Verifying Code Without Reading It](../verifying-code-without-reading-it/index.md) covers the separation that keeps it sound).
 
-In ML, the model card documents what the model is good at and where it fails.
+In ML, the [model card](https://arxiv.org/abs/1810.03993) documents what the model is good at and where it fails.
 In opaque code, that is the specification plus the issue, the artifact that tells you what the code was supposed to do, which matters far more than what any individual line does ([Rethinking Code Review in the Age of LLMs](../rethinking-code-review-in-the-age-of-llms/index.md)).
 
 **Every tool you need to trust opaque code is a tool ML already built to trust opaque weights, renamed.**
@@ -107,8 +107,8 @@ They solved it by changing how they interacted with it, and every one of those c
 
 **Silicon.**
 Once a chip is fabricated, you cannot read its logic from the silicon.
-The hardware field answered with design for test: boundary scan, built-in self-test, test vectors injected at the pins and observed at the outputs.
-The lesson is structural and it is the one our field is slowest to learn, that testability has to be designed into the artifact before it exists, not bolted on after.
+The hardware field answered with design for test: [boundary scan](https://en.wikipedia.org/wiki/Boundary_scan), built-in self-test, test vectors injected at the pins and observed at the outputs.
+The lesson is structural, and it is the one our field is slowest to learn: testability has to be designed into the artifact before it exists, not bolted on after.
 For code, that means the architecture carries probes, hooks, and test seams by default, so an implementation nobody reads can still be exercised by a system that does.
 
 **Pharmacology.**
@@ -122,14 +122,14 @@ Stimulus and response, operational definitions, the refusal to introspect what c
 The stance is the one this article is arguing for: when you cannot inspect the internals, you understand the thing by characterizing what it does, and you stop treating that as a compromise and start treating it as the method.
 
 **Cryptography.**
-A cipher is trusted not by reading it but by trying to break it, and Kerckhoffs's principle says the system must stay safe even when its mechanism is fully public.
+A cipher is trusted not by reading it but by trying to break it, and [Kerckhoffs's principle](https://en.wikipedia.org/wiki/Kerckhoffs%27s_principle) says the system must stay safe even when its mechanism is fully public.
 The lesson is an inversion that cuts against the instinct to trust illegible code by hoping someone read it: obscurity was never what made it safe, and dropping the reading does not drop the safety if the adversarial testing holds.
 Trust comes from attack, not from inspection.
 
 **Optimizing compilers.**
 The output of a modern optimizer is illegible to humans, and no one considers that a crisis.
 Compilers are trusted through conformance suites and fuzzing, not by reading the assembly they emit.
-Generated code is a new specimen of a situation our own field has always been calm about, a transformation pipeline whose output you verify rather than read.
+Generated code is a new instance of a situation our own field has always been calm about, a transformation pipeline whose output you verify rather than read.
 
 **Legacy mainframes.**
 Long before LLMs, our field operated systems no living person fully understood, COBOL cores kept alive by runbooks, golden-file tests, and behavior contracts.
@@ -191,7 +191,7 @@ You are being asked to point it at the layer where it was always doing the most 
 
 ## How to Get Comfortable
 
-Comfort is not a posture you adopt.
+Comfort is not an attitude you adopt.
 **It is a confidence you earn by watching the safety net catch things.**
 Each time a gate stops a bad change, each time a canary surfaces a regression a reader would have missed, each time a rollback undoes a problem in minutes, the illegible artifact gets a little less frightening, because the system around it is doing the job your eyes used to do.
 

@@ -3,7 +3,7 @@ title: "Team Maturity Explains the Friction, the Foundation Predicts the House o
 created: 2026-06-30
 type: post
 status: finished
-tags: [ai, software-engineering, llm, team-management, productivity, devops, fully-ai-generated, llm=glm-5.2]
+tags: [ai, software-engineering, llm, team-management, productivity, devops, fully-ai-generated, llm=glm-5.2, llm=glm-5.3]
 readability: 3
 audience_notes: >
   Assumes the reader is an engineering lead, tech lead, or senior engineer whose team already uses LLM coding tools and who is trying to understand why peer teams get very different results from the same tools.
@@ -21,7 +21,7 @@ Raw velocity stopped being interesting the year a model could draft a feature in
 Anyone can go fast now.
 The constraint that separates serious teams from reckless ones is sustainable velocity, the ability to ship quickly and also keep the system survivable as it grows.
 
-This is not a new distinction that AI invented.
+The distinction is not new, and AI did not invent it.
 The [DORA research program](https://dora.dev/) spent years measuring engineering organizations along two independent axes, throughput and stability, and its central finding was that you have to track both because they are not the same thing.
 Throughput is lead time and deployment frequency, how fast work gets out.
 Stability is change failure rate and time to restore, how often what you ship breaks and how long it takes to recover when it does.
@@ -35,14 +35,14 @@ That is a property of the team and a property of the code, and the team part is 
 
 ## Why Tuckman Explains So Much of the Adoption Gap
 
-Before the other reasons, it is worth being realistic about how much Tuckman's [stages of group development](https://en.wikipedia.org/wiki/Tuckman%27s_stages_of_group_development) actually explain, because the answer is a lot.
+Before moving to the other reasons, it is worth being realistic about how much Tuckman's [stages of group development](https://en.wikipedia.org/wiki/Tuckman%27s_stages_of_group_development) actually explain, because the answer is a lot.
 
 A team in the performing stage adopts a new AI practice with low friction for reasons that are structural, not cultural.
 Its members have already negotiated how decisions get made, so "which code review workflow do we use now that the model writes most of the code?" gets resolved in one meeting instead of three.
 Its conventions are settled and shared, so when an engineer introduces a prompt template or a skill, the rest of the team can tell whether it fits the way they already work.
 It has the psychological safety that [Project Aristotle](https://rework.withgoogle.com/print/guides/5727380657274880/) identified as the strongest predictor of team effectiveness, which means an engineer can say "the model's output is wrong here and I do not understand why" without that admission costing them status.
 
-A team still in forming or storming has none of this, and so it pays the adoption tax on every change.
+A team still in forming or storming has none of these assets, and so it pays the adoption tax on every change.
 As I argued in [When Engineers Disagree on Best Practices](../when-engineers-disagree-on-best-practices/index.md), a team that has not yet built a repeatable process for resolving disagreements will relitigate the same practice debate over and over, and the debate is rarely about the practice.
 It is a proxy for unresolved questions about whose judgment the team trusts.
 LLM adoption surfaces a dozen of these questions at once, because it touches review, testing, specification, ownership, and onboarding simultaneously.
@@ -52,7 +52,7 @@ A storming team drowns in it.
 So if your observation is "some teams picked up the new AI workflows easily and others fought about it for two quarters," Tuckman is very likely your explanation.
 **Team maturity is the dominant predictor of adoption friction, and adoption friction is the dominant predictor of whether a team even gets to the starting line.**
 
-What it is not the dominant predictor of is what happens after the team starts shipping.
+What maturity does not predict is what happens after the team starts shipping.
 
 ## The House of Cards Is Predicted by the Foundation
 
@@ -76,16 +76,16 @@ Everything else in the foundation eventually feeds into one of these two.
 #### Verification is the throttle
 
 Once code writes itself, the bottleneck moves to checking whether the code is correct, and that move is the central claim of [The Shifting Bottleneck](../the-shifting-bottleneck/index.md).
-This is where the stability axis lives, and it is why two teams with identical throughput can have radically different change failure rates.
+Verification is where the stability axis lives, and it is why two teams with identical throughput can have radically different change failure rates.
 
 The team with a fast, trustworthy test suite, a CI pipeline that catches real regressions, and a short feedback loop can let the model generate aggressively, because it can verify cheaply.
 Every generation is a hypothesis and the test suite is the experiment, and the cost of a wrong generation is seconds.
 The team that verifies by reading the diff, or by running the feature once in a staging environment, cannot afford to let the model run.
 It hits a ceiling where the human reviewer becomes the bottleneck, and either it slows down to stay safe or it speeds up and ships unverified code.
 
-This is the DORA stability axis measured in engineering practice.
-**The team that ships safely with LLMs is usually not the team with the best prompters.
-It is the team with the best test suite and the fastest signal**, because that team can convert the throughput multiplier into stable throughput instead of into rework.
+The difference between those two teams is the DORA stability axis measured in engineering practice.
+**The team that ships safely with LLMs is usually not the team with the best prompters.**
+It is the team with the best test suite and the fastest signal, because that team can convert the throughput multiplier into stable throughput instead of into rework.
 Investing in verification infrastructure is now the highest-return thing a team can do to raise its LLM shipping velocity, which is a counterintuitive claim only if you are still measuring velocity as lines produced rather than features landed without rollback.
 
 #### The codebase is the model's context
@@ -98,8 +98,7 @@ As I argued in [The Importance of Context When Interacting with LLMs](../the-imp
 
 This is why the same model, the same prompt, and the same engineer produce different quality output on different codebases.
 The codebase is doing most of the work, and a codebase that is already a house of cards is a context that asks the model to build more cards.
-**You cannot hand an LLM a cathedral built on sand and get back a cathedral built on bedrock.
-You get back a taller pile of sand.**
+**You cannot hand an LLM a cathedral built on sand and get back a cathedral built on bedrock; you get back a taller pile of sand.**
 The teams shipping safely are, more often than they realize, the teams whose codebase was already safe to extend, and the LLM is merely making that pre-existing health visible at higher speed.
 
 ### The factors that strengthen the foundation
@@ -156,12 +155,12 @@ The teams that ship a house of cards inverted this, keeping review heavy while s
 
 Both of the following are judgments the model cannot make for you: what the software should do, and whether it should exist.
 
-The first is that the model produces code that is technically correct and strategically wrong, faster than ever, when nobody on the team deeply understands the business context.
+On the first judgment, the model produces code that is technically correct and strategically wrong, faster than ever, when nobody on the team deeply understands the business context.
 Deciding whether a feature should exist, and what form it should take, is the part of the pipeline AI cannot do, and it is the bottleneck the throughput multiplier pushes you into, exactly as the shifting bottleneck predicts.
 A team with deep domain ownership extends its system coherently.
 A team spread thin across too many concerns generates five services where one would do, and each of them is a card.
 
-The second is that cheap implementation makes overbuilding the default temptation.
+On the second judgment, cheap implementation makes overbuilding the default temptation.
 Every generated feature is surface area for bugs, cognitive load, and future constraints, and the cost of maintaining a feature never approached zero the way the cost of writing it did.
 The team with the discipline to say "we do not need this, ship the smaller thing" survives longer than the team that ships everything the model can draft, and that discipline is a product judgment that maturity does not produce on its own.
 It comes from somewhere else, usually from someone at the table who has been burned by feature bloat before and is willing to be the friction.
@@ -188,21 +187,21 @@ If you lead a team and want to know whether you are shipping features or shippin
 **Measure both DORA axes, not just throughput.**
 If your deployment frequency is rising and your change failure rate or time to restore is rising with it, you are not getting faster.
 You are getting more volatile, and the LLM is the reason.
-**The stability metrics are the house-of-cards indicator, and they are free to collect.**
+The stability metrics are the house-of-cards indicator, and they are free to collect.
 
-Treat the codebase as context and pay down the part the model keeps getting wrong.
+**Treat the codebase as context and pay down the part the model keeps getting wrong.**
 If the LLM consistently produces bad output in one module, that module is bad context, and the fix is to refactor the module, not to write a longer prompt.
 The model is telling you where your code is incoherent, because incoherent code is exactly what it reproduces worst.
 
-Write your conventions down somewhere the model reads them.
+**Write your conventions down somewhere the model reads them.**
 A skill, a contribution guide, a lint rule, an architecture decision record, anything that moves a standard out of a head and into the execution path.
 The test is whether a new engineer and a fresh agent both produce work that matches the team's patterns on day one without being told.
 
-Keep a thin, intent-level review as a backstop and let the model own style.
+**Keep a thin, intent-level review as a backstop and let the model own style.**
 If your review comments are still about formatting, you are spending human attention on the part the model already fixed.
 Reallocate those hours into specification, which is the lever that compounds.
 
-And write the specification before the prompt, every time.
+**Write the specification before the prompt, every time.**
 The spec is the highest-leverage artifact in the pipeline now, and the team that treats it as optional is the team whose LLM output drifts toward plausible-and-wrong.
 
 ## The Team That Wins
@@ -213,8 +212,8 @@ It is letting them adopt new practices without bleeding energy, so that they can
 
 Maturity is how you remove the friction of getting started.
 The codebase, the tests, the specifications, the written conventions, and the intent-level review are how you keep the result from collapsing under its own weight.
-**Study your teams, because Tuckman will tell you a lot.
-Then study the code they are standing on, because that is what determines whether the velocity they have earned is velocity they get to keep.**
+**Study your teams, because Tuckman will tell you a lot.**
+**Then study the code they are standing on, because that is what determines whether the velocity they have earned is velocity they get to keep.**
 
 ## See also
 

@@ -3,7 +3,7 @@ title: "Loops as Files: The Scheduling Layer Skills Forgot"
 created: 2026-06-21
 type: post
 status: draft
-tags: [llm, ai-agents, skills, automation, loops, fully-ai-generated, llm=glm-5.2]
+tags: [llm, ai-agents, skills, automation, loops, fully-ai-generated, llm=glm-5.2, llm=glm-5.3]
 readability: 3
 audience_notes: >
   Assumes the reader already uses an LLM coding agent with skill or rule files (opencode, Claude Code, Cursor) and has at least seen a GitHub Actions workflow or a cron job. No introduction to LLMs.
@@ -111,7 +111,7 @@ Interval is easier to read and easier to distribute across a fleet, since N agen
 ### Events
 
 Time is the easy case.
-The interesting case is event-driven, and the reason the user's framing matters is that "loops" undersells what is going on.
+The interesting case is event-driven, which is where the word "loop" undersells what is going on.
 A loop that fires on a schedule is just a cron job with a markdown file on top.
 A loop that fires on an event is something genuinely new: a versioned, reviewable handler for things that happen in the world.
 
@@ -271,7 +271,7 @@ Loops inherit the failure modes of any autonomous system and add two of their ow
 **Drift toward the measurable.**
 A loop that fires on `github.issues.opened` will, over time, optimize the project for issue-driven signals, because those are the signals that cause work to happen.
 The project stops reacting to anything that does not show up as an event the loop can see.
-This is Goodhart's law applied to ops automation, and the defense is the same as in the self-evolving repository: keep a human-edited roadmap, and reserve a small number of loops for periodic "what should we be working on" reflection that is not event-driven.
+This is Goodhart's law applied to ops automation, and the defense is the same as in [The Self-Evolving Repository](../the-self-evolving-repository/index.md): keep a human-edited roadmap, and reserve a small number of loops for periodic "what should we be working on" reflection that is not event-driven.
 
 **Loops stepping on loops.**
 Once loops are cheap to write, people write a lot of them.
@@ -290,7 +290,7 @@ The budget field in the frontmatter exists for exactly this reason, and the runt
 ## The Naming Question
 
 I have used "loop" throughout because it captures the simplest mental model: something that runs again and again.
-It is worth noting that "loop" undersells the format.
+But "loop" undersells the format.
 A loop that fires only on `slack.mention` is not really looping.
 It is reacting.
 

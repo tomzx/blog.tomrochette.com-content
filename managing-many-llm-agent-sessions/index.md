@@ -3,14 +3,14 @@ title: "Managing Many Concurrent LLM Agent Sessions"
 created: 2026-06-16
 type: post
 status: finished
-tags: [llm, ai-agents, human-in-the-loop, cognitive-load, productivity, fully-ai-generated, llm=glm-5.1]
+tags: [llm, ai-agents, human-in-the-loop, cognitive-load, productivity, fully-ai-generated, llm=glm-5.1, llm=glm-5.3]
 readability: 3
 audience_notes: >
   Assumes familiarity with LLM agents, basic concepts of human-in-the-loop supervision, and experience running at least one coding agent session. No deep psychology background required.
 ---
 
-When one person can spawn a dozen LLM agent sessions in parallel, the bottleneck is no longer the agents.
-It is the human trying to keep track of them all.
+**When one person can spawn a dozen LLM agent sessions in parallel, the bottleneck is no longer the agents.**
+**It is the human trying to keep track of them all.**
 Your working memory holds a handful of items at best, your context switching cost is real and measurable, and every interruption leaves residue that degrades the next task you pick up.
 The question is not whether you can run 20 sessions simultaneously.
 The question is whether you can remain effective while doing so.
@@ -21,7 +21,7 @@ Before discussing strategies, it helps to understand what actually limits a huma
 
 **Working memory is tiny.**
 [George Miller's foundational work](https://en.wikipedia.org/wiki/The_Magical_Number_Seven,_Plus_or_Minus_Two) suggested that humans can hold approximately seven plus or minus two items in short-term memory.
-Later research by [Nelson Cowan](https://en.wikipedia.org/wiki/The_Magical_Number_Seven,_Plus_or_Minus_Two) revised this down to about four chunks for young adults.
+Later research by [Nelson Cowan](https://en.wikipedia.org/wiki/Working_memory) revised this estimate down to about four chunks for young adults.
 Either way, the number is small.
 If each agent session requires you to remember its goal, its current state, its blockers, and the decision you were about to make, you hit the ceiling at three to five sessions, not twenty.
 
@@ -41,7 +41,7 @@ Each agent session requires you to make decisions: approve this output, redirect
 Research on [decision fatigue](https://en.wikipedia.org/wiki/Decision_fatigue) shows that the quality of decisions degrades after a long session of choice-making.
 Supervising many sessions means making many decisions, and the later decisions in the day will be worse than the earlier ones unless you manage the load.
 
-These four constraints, working memory, switch cost, attention residue, and decision fatigue, define the ceiling on how many sessions you can manage.
+Working memory, switch cost, attention residue, and decision fatigue together define the ceiling on how many sessions you can manage.
 Every strategy below works by attacking one or more of them.
 
 ## Strategy 1: Externalize All Session State
@@ -400,8 +400,7 @@ Every strategy in this article reduces to one of four operations on the cognitiv
 
 **The agents are not the bottleneck.**
 **Your brain is.**
-**Every hour you spend engineering the workflow around your own cognitive limits is worth ten hours of trying to power through them.**
-
+Every hour you spend engineering the workflow around your own cognitive limits is worth ten hours of trying to power through them.
 ## References
 
 - [Miller, "The Magical Number Seven, Plus or Minus Two"](https://en.wikipedia.org/wiki/The_Magical_Number_Seven,_Plus_or_Minus_Two) -- established the working memory capacity limit that constrains how many sessions a human can track mentally

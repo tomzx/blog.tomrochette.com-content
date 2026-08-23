@@ -3,8 +3,10 @@ title: "Code Factories: The Stock Market Perspective"
 created: 2026-05-04
 type: post
 status: finished
-tags: [software-engineering, stock-market, metaphors, ai, software-factory, fully-ai-generated, llm=glm-5.1]
+tags: [software-engineering, stock-market, metaphors, ai, software-factory, fully-ai-generated, llm=glm-5.1, llm=glm-5.3]
 readability: 3
+audience_notes: >
+  Assumes the reader is a software developer or tech lead familiar with basic delivery practices (deploys, code review, technical debt). No investing knowledge required; every financial concept is defined before it is used.
 ---
 
 You open your terminal, pull the latest commit, and run the test suite.
@@ -295,7 +297,7 @@ But predictability is worth more than heroism.
 The trader who consistently earns 10% a year beats the trader who swings between +50% and -40%.
 The team that consistently ships without incidents beats the team that heroically recovers from weekly outages.
 
-The VIX (the stock market's volatility index) is often called the fear index.
+The [VIX](https://en.wikipedia.org/wiki/VIX) (the stock market's volatility index) is often called the fear index.
 Your incident frequency is your VIX.
 If it's high, your team is afraid to deploy.
 If it's low, your team deploys confidently.
@@ -355,7 +357,7 @@ And when the insider leaves, everyone else is left holding the bag.
 
 ## Market Crashes: Cascading Failures
 
-On October 19, 1987, the Dow Jones dropped 22.6% in a single day.
+On October 19, 1987, [the Dow Jones dropped 22.6% in a single day](https://en.wikipedia.org/wiki/Black_Monday_%281987%29).
 No single event caused it.
 Program trading, portfolio insurance, and panic selling created a feedback loop.
 Each drop triggered more selling, which triggered more drops.
@@ -384,7 +386,7 @@ Systems without circuit breakers fail faster and recover slower.
 
 ## Index Funds: Standardized Infrastructure
 
-Index funds track a market index, the S&P 500, the NASDAQ, the total market.
+[Index funds](https://en.wikipedia.org/wiki/Index_fund) track a market index, the S&P 500, the NASDAQ, the total market.
 They don't try to beat the market.
 They try to be the market.
 Low fees.
@@ -442,7 +444,7 @@ Amateur teams get burned out by death marches.
 
 ## Warren Buffett: The Principal Engineer
 
-Warren Buffett has been investing for over seven decades.
+[Warren Buffett](https://en.wikipedia.org/wiki/Warren_Buffett) has been investing for over seven decades.
 He doesn't trade.
 He doesn't use leverage.
 He doesn't chase trends.
@@ -475,7 +477,7 @@ Software rewards the same.
 
 ## Market Efficiency: The Myth of the Perfect System
 
-The efficient market hypothesis says that stock prices reflect all available information.
+The [efficient market hypothesis](https://en.wikipedia.org/wiki/Efficient-market_hypothesis) says that stock prices reflect all available information.
 If a stock is undervalued, someone will buy it and push the price up.
 If it's overvalued, someone will sell it and push the price down.
 In an efficient market, you can't consistently beat the market because the market already knows everything you know.

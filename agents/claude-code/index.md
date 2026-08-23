@@ -1,7 +1,7 @@
 ---
 title: Claude Code
 created: 2026-08-22
-updated: 2026-08-22
+updated: 2026-08-23
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, coding-agents, harnesses, anthropic, developer-tools]
 readability: 3
@@ -19,26 +19,28 @@ Facts below verified as of 2026-08-22.
 ## What it is
 
 The CLI (`claude`) runs the edit-test-commit loop locally with permissions, hooks, skills, subagents, and MCP support.
-The same engine surfaces in VS Code and JetBrains extensions, a desktop app, the web (claude.ai/code), mobile, and Slack, and sessions move between them (`claude --teleport` pulls a web session back to the terminal).
+The same engine surfaces in VS Code and JetBrains extensions, a desktop app, the web (claude.ai/code), mobile, and Slack.
+**Sessions move between them (`claude --teleport` pulls a web session back to the terminal).**
 Routines run scheduled tasks in the cloud, and the Agent SDK wraps the harness for custom agents.
 The npm install is deprecated in favor of a native installer; third-party providers (Bedrock, Vertex) work in the CLI and IDE extensions.
 
 ## Status
 
-Active and dominant.
+**Active and dominant.**
 The `anthropics/claude-code` repository shows about 142k stars and 5k+ open issues as of 2026-08-22; it hosts plugins, docs, and the issue tracker rather than the CLI source, which is proprietary.
 Shipping pace in 2026 is high: agent view (May), dynamic workflows across tens of parallel subagents (May), routines (April), computer use (March).
 
 ## Strengths
 
-- The broadest surface coverage of any harness: terminal, IDE, desktop, web, mobile, Slack, CI.
+- **The broadest surface coverage of any harness**: terminal, IDE, desktop, web, mobile, Slack, CI.
 - Skills, hooks, subagents, and scheduled routines are the deepest operations layer in the field.
 - Sessions are portable across surfaces in one product.
 - First-party pairing with Claude models, which are trained against its tool syntax.
 
 ## Cautions
 
-- The harness baseline is heavy: an independent proxy study measured about 33k input tokens sent before the user's prompt on a minimal task, versus about 7k for OpenCode, plus mid-session cache re-writes up to 54x and a 4.2x token multiplier on a two-subagent fan-out (July 2026 snapshot).
+- **The harness baseline is heavy**: an independent proxy study measured about 33k input tokens sent before the user's prompt on a minimal task, versus about 7k for OpenCode.
+The same study measured mid-session cache re-writes up to 54x and a 4.2x token multiplier on a two-subagent fan-out (July 2026 snapshot).
 - The same study found 2.1.207 ignored `AGENTS.md` and only read `CLAUDE.md`, so cross-tool instruction files silently do nothing.
 - The client binary is closed; a June 2026 reverse-engineering post found hidden Unicode markers in the system prompt encoding the user's API base URL and timezone classification, and a March 2026 source leak via a npm map file showed internals Anthropic had not documented.
 - Cost complaints on API-billed usage are a running theme in community threads.
@@ -46,18 +48,18 @@ Shipping pace in 2026 is high: agent view (May), dynamic workflows across tens o
 ## Pricing
 
 Included in Claude Pro ($17/month annual, $20 monthly), Max 5x ($100/month), and Max 20x ($200/month), subject to usage limits.
-Alternatively, pay per token through the Anthropic Console or a cloud provider.
+**Alternatively, pay per token through the Anthropic Console or a cloud provider.**
 Price and plan changes are at Anthropic's discretion, per the product page.
 
 ## Compared to
 
 - [Codex](../codex/index.md): the other subscription-first platform, but its CLI is Apache-2.0; choose it if you live on OpenAI models.
-- [OpenCode](../opencode/index.md): the lean open alternative, roughly a fifth the baseline tokens in the study above; choose it when you pay for tokens yourself.
+- [OpenCode](../opencode/index.md): the lean open alternative, roughly a fifth the baseline tokens in the July 2026 proxy study; choose it when you pay for tokens yourself.
 - [Gemini CLI](../gemini-cli/index.md): was the free outlier, now consumer-superseded by Antigravity CLI.
 
 ## Bottom line
 
-Recommended for teams standardized on Claude models who will actually use the orchestration layer.
+**Recommended for teams standardized on Claude models who will actually use the orchestration layer.**
 Not for the token-frugal or for anyone who needs an open, auditable client.
 
 ## See also

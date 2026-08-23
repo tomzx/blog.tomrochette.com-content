@@ -72,7 +72,7 @@ Reviewing a plan takes minutes; reviewing an unexplained implementation takes an
 
 **Evidence that the change works.**
 A failing test turned green by the fix, a before-and-after recording, a benchmark.
-A fix is not fixed until something independent of the model says so, which is the acceptance gap in miniature.
+A fix is not fixed until something independent of the model says so, which is [the acceptance gap](../the-acceptance-gap/index.md) in miniature.
 Evidence converts your review from "verify by hand" to "check the verification", and those tasks differ by an order of magnitude in cost.
 
 **An annotation of the risk.**
@@ -129,7 +129,7 @@ The fix is a contract, not a truce.
 
 Define merge-ready: the checklist a pull request satisfies before it even enters your queue.
 Set the WIP limit at your sustainable service rate, and treat the limit as the throttle that keeps arrival below service.
-Agree on the escalation path for the small set of changes, the irreversible ones, the trust-boundary ones, that deserve synchronous human attention while your coworker waits.
+Agree on the escalation path for the small set of changes (the irreversible ones, the trust-boundary ones) that deserve synchronous human attention while your coworker waits.
 Agree on where surplus producer capacity goes when the queue is full, because idle generation capacity pointed at more PRs is how the problem restarts.
 
 Then change what you both measure.
@@ -137,7 +137,7 @@ Then change what you both measure.
 
 ## What to Do Next
 
-Tomorrow, your coworker attaches the four things, spec, evidence, risk annotation, summary, to every new pull request, and you classify the existing backlog into auto-merge-gate versus needs-my-eyes, resolving nothing yet, just sorting.
+Tomorrow, your coworker attaches the four things (spec, evidence, risk annotation, summary) to every new pull request, and you classify the existing backlog into auto-merge-gate versus needs-my-eyes, resolving nothing yet, just sorting.
 
 This week, set the WIP limit and move your two most-repeated review comments into CI.
 

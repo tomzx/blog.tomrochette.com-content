@@ -3,7 +3,7 @@ title: "Attention Engineering: Your Attention Is the Bottleneck"
 created: 2026-08-08
 type: post
 status: finished
-tags: [ai, llm, attention-engineering, productivity, cognitive-load, fully-ai-generated, llm=glm-5.2]
+tags: [ai, llm, attention-engineering, productivity, cognitive-load, fully-ai-generated, llm=glm-5.2, llm=glm-5.3]
 readability: 4
 audience_notes: >
   Assumes the reader already delegates work to LLM coding agents and has felt the difference between spawning a task and actually judging its output. No introduction to LLMs; builds on the acceptance and bottleneck pieces already on this blog.
@@ -56,7 +56,7 @@ The work feels continuous and is actually being done in shallow fragments.
 Signing off without attending.
 The pull request opens, CI is green, the description looks right, and a feeling forms before the code is read.
 We have known for a long time that [most review works this way](../code-review-without-reading-the-code/index.md), and the arrival of machines writing the diff has not made the reading more rigorous, only the ritual more exhausting.
-And it collapses fastest on the work you had no investment in to begin with: attention defends itself on what you care about and quietly gives up on what you do not ([The Cost of Work You Did Not Choose](../the-cost-of-work-you-did-not-choose/index.md)).
+And attention collapses fastest on the work you had no investment in to begin with: it defends itself on what you care about and quietly gives up on what you do not ([The Cost of Work You Did Not Choose](../the-cost-of-work-you-did-not-choose/index.md)).
 
 ## The Leverage Ranking
 
@@ -118,10 +118,6 @@ They are the ones who learned to walk away from generation, to encode everything
 Working with agents is not a prompting skill.
 It is an attention skill, and the sooner you treat your attention as the bottleneck it has become, the more of it you will have for the work that is actually yours to do.
 
-## References
-
-- [Cognitive load](https://en.wikipedia.org/wiki/Cognitive_load) - grounds why attention is finite: working memory is small, and heavy context switching fragments it into shallow processing
-
 ## See also
 
 - [The Acceptance Gap](../the-acceptance-gap/index.md) - the core insight this article builds on: generation is solved, acceptance is the bottleneck, and the taste half of acceptance is the last human loop
@@ -129,3 +125,7 @@ It is an attention skill, and the sooner you treat your attention as the bottlen
 - [Managing Many Concurrent LLM Agent Sessions](../managing-many-llm-agent-sessions/index.md) - where parallel sessions make the attention bottleneck acute and turn it into human cognitive load
 - [You Already Review Code Without Reading It](../code-review-without-reading-the-code/index.md) - the failure mode this article warns against: signing off on output you never actually attended to
 - [The Cost of Work You Did Not Choose](../the-cost-of-work-you-did-not-choose/index.md) - why attention defends itself on work you care about and collapses on work you do not
+## References
+
+- [Cognitive load](https://en.wikipedia.org/wiki/Cognitive_load) - grounds why attention is finite: working memory is small, and heavy context switching fragments it into shallow processing
+

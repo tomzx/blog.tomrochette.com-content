@@ -3,7 +3,7 @@ title: "The Acceptance Gap: Why an LLM Solution Is Not a Shipped Solution"
 created: 2026-07-03
 type: post
 status: finished
-tags: [ai, software-engineering, llm, verification, taste, specification, fully-ai-generated, llm=glm-5.2]
+tags: [ai, software-engineering, llm, verification, taste, specification, fully-ai-generated, llm=glm-5.2, llm=glm-5.3]
 readability: 3
 audience_notes: >
   Assumes the reader is a technical practitioner who already uses LLM coding agents and has felt the moment where the model says "done" and the work is clearly not done. No explanation of what an LLM is.
@@ -122,7 +122,7 @@ I cannot write a test for "this feels right," because I do not know the specific
 [Exploratory testing](https://en.wikipedia.org/wiki/Exploratory_testing) and [specification by example](https://en.wikipedia.org/wiki/Specification_by_example) help me surface more of what I want, but they cannot surface all of it, because the residual is a reaction, not a requirement.
 The feature gap closes only through iteration, and the terminal condition is a human saying "good enough, ship it."
 
-There is no encoding that removes the human from that loop, because the human's reaction is the signal the loop is measuring.
+There is no encoding that removes the human from the feature loop, because the human's reaction is the signal the loop is measuring.
 The best I can do is make the loop fast, so that each try is cheap and I can afford many of them.
 A model that generates in thirty seconds and an environment where I can try the result in ten more is a loop I can run ten times in a morning, and the tenth version is usually the one I ship.
 

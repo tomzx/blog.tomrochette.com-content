@@ -3,7 +3,7 @@ title: "Iterating on Agent Skills: The Loop That Keeps Them Improving"
 created: 2026-08-16
 type: post
 status: draft
-tags: [ai, llm, agent-skills, workflow, skills, software-engineering, fully-ai-generated, llm=glm-5.2]
+tags: [ai, llm, agent-skills, workflow, skills, software-engineering, fully-ai-generated, llm=glm-5.2, llm=glm-5.3]
 readability: 3
 audience_notes: >
   Assumes the reader already writes or maintains agent skills (a SKILL.md or similar) inside a coding agent like OpenCode, Cursor, or Claude Code, and has shipped at least one skill they no longer touch. No introduction to what an LLM is or what a skill is.
@@ -191,7 +191,7 @@ The failure session from step 2 is the same move, held by hand: I supply the fai
 The recursion is the real multiplier.
 **Once the iteration loop is itself a skill, the library improves itself at the pace the agent can run, not the pace I can read.**
 I still make the calls, because deciding which patch lands and which skill gets deleted is a judgment the model does not yet make well.
-But the surface I have to hold in my head shrinks every time an iteration step is encoded, and the part I do myself narrows to the genuinely judgment-laden calls.
+But the surface I have to hold in my head shrinks every time an iteration step is encoded, and the part I do myself narrows to the calls that genuinely need judgment.
 
 The end state matches what [The Self-Evolving Repository](../the-self-evolving-repository/index.md) describes for codebases, applied one layer up: a library of skills that observes its own failures, proposes its own patches, and shrinks itself as the model grows, with the human left only at the checkpoint that needs taste.
 

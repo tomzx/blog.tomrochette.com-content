@@ -3,18 +3,22 @@ title: ghx - A CLI for agentic code reviews on GitHub
 created: 2026-05-27
 type: post
 status: finished
-tags: [go, github, cli, developer-tools, ai, agents, fully-ai-generated, llm=glm-5.1]
+tags: [go, github, cli, developer-tools, ai, agents, fully-ai-generated, llm=glm-5.1, llm=glm-5.3]
+readability: 4
+audience_notes: >
+  Assumes the reader uses the GitHub CLI and git daily, reviews pull requests, and wants to automate reviews with AI agents. No introduction to what a pull request or a CLI is.
 ---
 
 I've been building AI agents that review pull requests, and the official `gh` CLI doesn't have what they need.
 Agents can't leave inline comments on specific lines, can't manage pending reviews, and can't edit or delete comments.
 These are table-stakes operations for any code review workflow, and they're only accessible through the GitHub web UI or the raw GraphQL API.
 
-So I built [ghx](https://github.com/tomzxcode/ghx), a CLI designed to make agentic code reviews practical.
+**So I built [ghx](https://github.com/tomzxcode/ghx), a CLI designed to make agentic code reviews practical.**
 
 ## What ghx does that gh doesn't
 
-**Inline comments on files and lines.** **The most fundamental operation for a code review agent: comment on a specific line of a diff.**
+**Inline comments on files and lines.**
+The most fundamental operation for a code review agent: comment on a specific line of a diff.
 
 ```bash
 $ ghx pr comment 42 --file src/main.go --line 10 --body "Nit: use fmt.Errorf"
@@ -26,7 +30,8 @@ Created inline comment on src/main.go:10-15 (thread PRRT_kwDOC0I7As5vKgVq)
 
 File-level comments (without `--line`), top-level PR comments, and replies to existing threads are all supported.
 
-**Pending reviews.** Accumulate review comments without submitting them immediately, then approve or comment when ready:
+**Pending reviews.**
+Accumulate review comments without submitting them immediately, then approve or comment when ready:
 
 ```bash
 $ ghx pr comment 42 --file src/main.go --line 10 --body "Nit" --pending
@@ -36,7 +41,9 @@ $ ghx pr review submit 42 --event APPROVE --body "LGTM"
 Submitted review PRR_kwDOC0I7As4B9Y2z as APPROVE
 ```
 
-**Edit and delete comments.** Fix a typo or remove a comment. Use `ghx pr threads 42 --ids` to list IDs:
+**Edit and delete comments.**
+Fix a typo or remove a comment.
+Use `ghx pr threads 42 --ids` to list IDs:
 
 ```bash
 $ ghx pr threads 42 --ids
@@ -46,7 +53,7 @@ PRRT_kwDOC0I7As5vKgVn  src/main.go:10  [open]
   PRC_kwDOC0I7As5TKxYd  author  Good catch, will fix.
 ```
 
-Then edit or delete:
+Then edit or delete the comment:
 
 ```bash
 $ ghx pr comment edit PRC_kwDOC0I7As5TKxYc --body "Use fmt.Errorf instead of errors.New"
@@ -56,7 +63,8 @@ $ ghx pr comment delete PRC_kwDOC0I7As5TKxYc
 Deleted comment PRC_kwDOC0I7As5TKxYc
 ```
 
-**Review thread management.** List, filter, and inspect review threads:
+**Review thread management.**
+List, filter, and inspect review threads:
 
 ```bash
 $ ghx pr threads 42
@@ -71,7 +79,8 @@ src/main.go:45-52  [resolved]
 
 Filter by state with `--state open`, `--state resolved`, or `--state all`.
 
-**Issue comments and viewing.** Add, edit, and delete issue comments, and view issues with their full comment history:
+**Issue comments and viewing.**
+Add, edit, and delete issue comments, and view issues with their full comment history:
 
 ```bash
 $ ghx issue view 42
@@ -112,9 +121,9 @@ $ ghx pr review stash pop 42
 Popped stash@{0} (2 threads, 2 comments) into review PRR_kwDOC0I7As4B9Y2z
 ```
 
-It also solves a GitHub API constraint: you can't mix immediate comments with pending review comments on the same PR.
+The stash also solves a GitHub API constraint: you can't mix immediate comments with pending review comments on the same PR.
 When you submit an immediate comment on a PR that has a pending review, ghx automatically stashes the pending review, submits the comment, and restores the pending review.
-**This means agents can use a push-pop workflow (stash, comment, comment, pop) instead of repeating push-comment-pop for every immediate comment.**
+**The stash lets agents use a push-pop workflow (stash, comment, comment, pop) instead of repeating push-comment-pop for every immediate comment.**
 
 The stash supports multiple entries, just like `git stash`: push, pop, drop, and list.
 
@@ -127,7 +136,7 @@ Download the latest release from [GitHub](https://github.com/tomzxcode/ghx/relea
 go install github.com/tomzxcode/ghx@main
 ```
 
-It picks up your existing `GH_TOKEN`, `GITHUB_TOKEN`, or `gh auth login` credentials.
+ghx picks up your existing `GH_TOKEN`, `GITHUB_TOKEN`, or `gh auth login` credentials.
 No extra configuration needed.
 All commands accept `--repo OWNER/REPO` or auto-detect from the current git remote.
 

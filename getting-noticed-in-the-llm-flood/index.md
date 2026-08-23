@@ -3,7 +3,7 @@ title: "Getting Noticed in the LLM Flood: Compete on What Cannot Be Generated"
 created: 2026-08-14
 type: post
 status: finished
-tags: [ai, llm, attention-economy, information-overload, self-promotion, content, fully-ai-generated, llm=glm-5.2]
+tags: [ai, llm, attention-economy, information-overload, self-promotion, content, fully-ai-generated, llm=glm-5.2, llm=glm-5.3]
 readability: 3
 audience_notes: >
   Assumes the reader makes things online (writing, software, videos, small products) and wants that work to be found in feeds that are increasingly filled with LLM-generated content. No technical background required.
@@ -16,7 +16,7 @@ The scarce thing has moved upstream, from content to the trust that lets any sin
 
 ## The Flood Has Two Sides
 
-A deluge that is impossible to read is also a deluge that is impossible to be read in.
+A flood that is impossible to read is also a flood that is impossible to be read in.
 These are the same problem seen from opposite ends.
 
 The reader's version is a filtering problem: too much coming at you, too little time to sort it (see [Keeping Up With AI Is a Losing Strategy](../keeping-up-with-ai/index.md)).
@@ -40,7 +40,7 @@ You cannot out-write the flood, because the flood is now competently written.
 
 ## Compete on What Cannot Be Generated
 
-If the surface layer is commoditized, the advantage moves to the layers a model cannot synthesize, and almost all of them are slow, specific, and human.
+If the surface layer is commoditized, the advantage moves to the layers a model cannot generate, and almost all of them are slow, specific, and human.
 Kevin Kelly named these the "generatives" in [Better Than Free](https://kk.org/thetechnium/better-than-fre/): the qualities that stay valuable precisely because copies are free.
 His list, written in 2008 about an earlier wave of abundance, maps almost perfectly onto the problem of being noticed now.
 Four of them do most of the work.
@@ -67,31 +67,31 @@ Call it proof of work, borrowing a term from systems where trust is established 
 The tempting version of this claim is that the right story reads as authentic and therefore cannot be faked.
 It does not survive contact with the models.
 A fabricated postmortem with specific-sounding numbers, a plausible failure chain, and the right tonal markers passes most readers' filters, because few will check whether the project existed, whether the numbers are real, or whether the author lived it.
-The cost asymmetry the argument wants, expensive to produce but cheap to verify, inverts: the story is now nearly free to generate, verification still costs real effort, and readers rarely pay it.
+The cost asymmetry the argument depends on, expensive to produce but cheap to verify, inverts: the story is now nearly free to generate, verification still costs real effort, and readers rarely pay it.
 
 What cannot be faked at scale is not the story but the record it claims to sit on.
 A real project leaves a wide trail, commits, issues, deployed systems, other people who remember it, a history you can point to.
 The postmortem itself is cheap to hallucinate; the artifacts it references are not.
 The durable signal is not "does this read like lived experience" but "can I trace it to something independent of the author's word," and that is a harder bar than most writing clears.
 
-This is why the familiar examples carry weight only when they are traceable.
+That bar is why the familiar examples carry weight only when they are traceable.
 A postmortem of a project that failed, with real numbers and real reasons, matters if you can link the project, the commit that introduced the bug, the incident report.
 An experiment you actually ran, with setup and outcome, matters if the setup is reproducible and the data is there.
 A thing you built and genuinely use matters if the repository exists, has a history, and other people can run it.
 Strip the traceability and the same sentences are indistinguishable from hallucination.
 **Proof of work is not a quality you can write into a paragraph; it is a verification surface you either leave behind or do not, and the cost that makes it trustworthy is paid in building that record, not in describing it.**
 
-This is the producer's version of the moat argument elsewhere on this blog: when the easy-to-copy layer is free, the advantage relocates to the layers that compound through time and cannot be cloned (see [Feature Parity Is Not a Moat](../feature-parity-is-not-a-moat/index.md)).
+Proof of work is the producer's version of the moat argument elsewhere on this blog: when the easy-to-copy layer is free, the advantage relocates to the layers that compound through time and cannot be cloned (see [Feature Parity Is Not a Moat](../feature-parity-is-not-a-moat/index.md)).
 For a creator, those layers are a track record, a body of specific work, and the relationships built around it.
 
 ## Be a Source, Not an Echo
 
-Most generated content is a recompression of things other people already said, which means most of the flood is echo.
-The way to stop being part of the flood is to be the thing it is recompressing.
+Most generated content restates things other people already said, which means most of the flood is echo.
+The way to stop being part of the flood is to be the thing it is restating.
 
 A source is someone who produces a fact, an observation, a measurement, an argument, or a story that did not exist in that form before they wrote it.
 An echo is everyone, human or machine, who restates it.
-**The flood is almost entirely echo, which means even a small amount of genuine source material is conspicuously visible against it.**
+**The flood is almost entirely echo, which means even a small amount of genuine source material stands out clearly against it.**
 
 The lever is to bias every piece toward the thing only you could have written: the result you observed, the mistake you made, the opinion you hold and can defend, the specific reader you are addressing.
 Narrow beats broad here, because narrow is where specificity lives and specificity is what an echo cannot manufacture.
@@ -103,7 +103,7 @@ Every algorithmic channel is now full, and getting fuller, and the curve points 
 The one channel that does not saturate the same way is direct human relationship, the small set of people who know you, trust your work, and pass it on because they want to.
 
 These are not "followers" in the metric sense; they are the thin layer of real acquaintance, [parasocial](https://en.wikipedia.org/wiki/Parasocial_interaction) or otherwise, that turns "I made a thing" into "someone I trust made a thing."
-**Trust is the only distribution medium that the flood dilutes more slowly than it dilutes everything else, because trust cannot be minted by a model either.**
+**Trust is the only distribution medium that the flood dilutes more slowly than it dilutes everything else, because trust cannot be manufactured by a model either.**
 This is why the unglamorous work of replying, citing, collaborating, and showing up over years outperforms any broadcast tactic in a saturated feed.
 It is also the version of distribution that compounds, while a clever hook compounds for about a day.
 
@@ -128,10 +128,10 @@ If a reader cannot tell whether a real person did the thing behind the writing, 
 Specificity is the cheapest signal that survives generation, and a narrow, durable body of work is what makes you the address for a problem instead of a drop in the flood.
 
 **Treat distribution as the work, not the afterthought.**
-Findability is a generative in its own right, and in a deluge it is the generative that decides whether any of the rest gets read.
+Findability is a generative in its own right, and in a flood it is the generative that decides whether any of the rest gets read.
 
 **Build the channels that do not saturate.**
-A small set of real relationships, maintained over years, will carry your work further than any algorithmic tactic, and it is the one distribution layer a model cannot synthesize.
+A small set of real relationships, maintained over years, will carry your work further than any algorithmic tactic, and it is the one distribution layer a model cannot generate.
 
 ## See also
 

@@ -3,7 +3,7 @@ title: "The Self-Evolving Repository: Automating a GitHub Project End to End wit
 created: 2026-06-20
 type: post
 status: draft
-tags: [llm, ai-agents, automation, github, self-improving, fully-ai-generated, llm=glm-5.1]
+tags: [llm, ai-agents, automation, github, self-improving, fully-ai-generated, llm=glm-5.1, llm=glm-5.3]
 readability: 4
 audience_notes: >
   Assumes familiarity with LLM-based code generation, CI/CD pipelines, and basic concepts of autonomous agent systems.
@@ -179,12 +179,12 @@ The system reacts to what is actually happening rather than to what someone pred
 
 ### The drift problem
 
-There is a fundamental tension here.
+Signal-driven direction carries a fundamental tension.
 A self-evolving repository that only reacts to external signals will optimize for whatever those signals measure.
 If the signals are bug reports, the system will become excellent at fixing bugs and terrible at anything else.
 If the signals are feature requests, the system will accumulate features and lose coherence.
 
-This is Goodhart's law applied to software maintenance: when a measure becomes the target of an autonomous system, it ceases to be a good measure.
+This is [Goodhart's law](https://en.wikipedia.org/wiki/Goodhart%27s_law) applied to software maintenance: when a measure becomes the target of an autonomous system, it ceases to be a good measure.
 
 The roadmap exists to counteract this drift.
 It is the fixed point that keeps the project aligned with its original purpose even as the system optimizes for observable signals.
@@ -222,9 +222,9 @@ The system should be able to run the full suite in minutes, not hours.
 For pure functions and data transformations, property tests can generate thousands of inputs automatically, surfacing bugs that a human would never think to test.
 
 **Static analysis** catches type errors, security vulnerabilities, and common anti-patterns.
-Tools like Semgrep, CodeQL, and language-specific analyzers should run on every change.
+Tools like [Semgrep](https://semgrep.dev/), [CodeQL](https://codeql.github.com/), and language-specific analyzers should run on every change.
 
-**Mutation testing** verifies that the test suite is actually meaningful.
+**[Mutation testing](https://en.wikipedia.org/wiki/Mutation_testing)** verifies that the test suite is actually meaningful.
 If you can mutate the code and the tests still pass, the tests are not testing what you think they are.
 This is especially important when the tests themselves are LLM-generated.
 
@@ -251,12 +251,12 @@ Complex autonomous systems have failure modes that are hard to predict.
 
 ### Silent quality decay
 
-The most insidious failure mode.
+Silent quality decay is the hardest failure mode to notice.
 **The system ships changes that pass all verification layers but gradually degrade the codebase's quality.**
 Each individual change is defensible.
 The cumulative effect is a codebase that is harder to maintain, slower to evolve, and full of subtle interactions that no one understands.
 
-This happens when the verification pipeline measures proximate quality (does this change pass tests?) but not systemic quality (does this change make the codebase healthier?).
+This happens when the verification pipeline measures immediate quality (does this change pass tests?) but not systemic quality (does this change make the codebase healthier?).
 Metrics like cyclomatic complexity, coupling, and test coverage can help, but they are proxies, not ground truth.
 
 ### The complexity spiral

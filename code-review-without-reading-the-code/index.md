@@ -3,7 +3,7 @@ title: "You Already Review Code Without Reading It"
 created: 2026-07-25
 type: post
 status: finished
-tags: [software-engineering, code-review, pull-request, productivity, fully-ai-generated, llm=glm-5.2]
+tags: [software-engineering, code-review, pull-request, productivity, fully-ai-generated, llm=glm-5.2, llm=glm-5.3]
 readability: 3
 audience_notes: >
   Assumes the reader participates in pull request review on a software team and has a gut sense that approvals are decided quickly. No particular tooling or stack required.
@@ -14,7 +14,7 @@ The decision to approve is made before the diff opens.
 We keep the ritual, and quietly drop the part that is supposed to justify it.
 
 The gap between the ritual and the reading has a mirror on the other side of the pull request.
-An LLM cannot vouch for its own output, because accepting a solution as done needs information the model does not have ([the acceptance gap](../the-acceptance-gap/index.md)).
+An LLM cannot vouch for its own output, because accepting a solution as done needs information the model does not have ([The Acceptance Gap](../the-acceptance-gap/index.md)).
 The reviewer has the same problem in reverse: vouching for code that was never read.
 
 ## What I Mean By Reading
@@ -119,7 +119,7 @@ You approve without reading, but you still require a human to approve without re
 This was already true when humans wrote the code.
 It is sharper now that machines do.
 
-When an LLM generates the diff, reading it line by line is even less useful, for reasons explored in [the case against reading LLM-written code](../rethinking-code-review-in-the-age-of-llms/index.md).
+When an LLM generates the diff, reading it line by line is even less useful, for reasons explored in [Rethinking Code Review in the Age of LLMs](../rethinking-code-review-in-the-age-of-llms/index.md).
 The reviewer becomes the only mind in the loop, reconstructing intent from output, and that reconstruction is harder and slower than reviewing a human who can at least be asked what they meant.
 
 So the metadata review does not get more rigorous by being relabeled a code review.

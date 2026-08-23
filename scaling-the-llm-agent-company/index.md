@@ -3,8 +3,10 @@ title: "Scaling the LLM Agent Company"
 created: 2026-05-31
 type: post
 status: finished
-tags: [llm, ai-agents, company-growth, scaling, fully-ai-generated, llm=glm-5.1]
+tags: [llm, ai-agents, company-growth, scaling, fully-ai-generated, llm=glm-5.1, llm=glm-5.3]
 readability: 3
+audience_notes: >
+  Assumes familiarity with LLM agents and basic organizational scaling concepts.
 ---
 
 In [Exponential growth software company](../exponential-growth-software-company/index.md) I explored the constraints that make scaling a human company hard: onboarding bottlenecks, culture dilution, coordination overhead, institutional knowledge decay.
@@ -57,7 +59,7 @@ Two engineers given the same task will produce different bugs.
 With agents sharing the same prompt, errors are correlated and systemic.
 A single flawed instruction propagated across 1,000 agents produces 1,000 instances of the same mistake at scale.
 Consistently wrong is worse than inconsistently right.
-This makes quality control the central bottleneck.
+Correlated errors make quality control the central bottleneck.
 You need evaluation pipelines, guardrails, and feedback loops that themselves must scale.
 The testing infrastructure becomes the company's most critical asset, more important than the agents it tests.
 

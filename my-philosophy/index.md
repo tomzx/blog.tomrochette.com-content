@@ -3,7 +3,7 @@ title: "My Philosophy"
 created: 2026-08-08
 type: post
 status: finished
-tags: [philosophy, thoughts, fully-ai-generated, llm=glm-5.2]
+tags: [philosophy, thoughts, fully-ai-generated, llm=glm-5.2, llm=glm-5.3]
 readability: 2
 audience_notes: >
   Assumes the reader has browsed at least a few of the author's prior essays on software,
@@ -12,6 +12,7 @@ audience_notes: >
 
 If you read enough of what I have written, one sentence underlies all of it: **encode your judgment into artifacts that outlive your attention**.
 The artifacts change, the principle does not.
+
 A blog post is such an artifact.
 A skill file is one.
 The principles file I keep is one.
@@ -102,6 +103,7 @@ Consistently wrong is worse than inconsistently right, and the only way to avoid
 
 **Attention is the binding constraint of my life, so I treat it as the thing the whole system is designed to protect.**
 Keeping up is a losing strategy; the target moves faster than any consumption can match.
+
 **The move is not to consume more but to build a funnel that throws almost everything away, confidently and without guilt.**
 Treat urgency as a sales pitch from someone with an incentive to inflate it.
 Prefer pull over push: knowing where to find something when I need it beats knowing it now.
