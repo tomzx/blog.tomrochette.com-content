@@ -87,7 +87,7 @@ Finished essays conventionally close with some combination of:
 - `## See also` - internal links to related articles, each as a list item with a `- ` dash, a relative link, and a one-line explanation of the connection (why a reader of this piece would want the other).
 - `## References` - external sources, same list format with a dash, the link, and a one-line note on what the source grounds.
 
-Aim for three to five items in each section. The "See also" web is what keeps readers on site and is treated as part of the writing, not an afterthought.
+The "See also" web is what keeps readers on site and is treated as part of the writing, not an afterthought.
 
 ## Linting and verification
 
