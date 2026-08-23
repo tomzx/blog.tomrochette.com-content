@@ -25,8 +25,8 @@ It connects to nearly any LLM, including local models.
 
 ## Status
 
-Active and mature, but slower.
-About 48.4k stars, 4.9k forks, and 13,138 commits as of 2026-08-22; the site claims 6.8M installs.
+**Development stalled; the tool itself still works.**
+About 48.4k stars and 4.9k forks as of 2026-08-23, but the default branch has had no commits since May 22, 2026, and the last tagged release (v0.86.0) dates to August 2025.
 The polyglot leaderboard (225 Exercism exercises) is still published, but its headline results date to August 2025, and the site's "works best with" copy still names Claude 3.7 Sonnet-era models.
 
 ## Strengths
@@ -42,6 +42,7 @@ The polyglot leaderboard (225 Exercism exercises) is still published, but its he
 - The leaderboard's age now matters; use it for relative history, not current model choice.
 - Install it isolated (pipx or the installer) or its Python dependencies will fight your project's.
 - Community energy has moved to the harness generation; expect fewer of the workflow innovations to arrive here first.
+- **Maintenance is the risk now**: no commits on the default branch since May 22, 2026, and no tagged release since v0.86.0 (August 2025), as of 2026-08-23, so budget for dependency drift and no fixes.
 
 ## Pricing
 
@@ -57,7 +58,7 @@ No subscription exists to buy.
 ## Bottom line
 
 Recommended for precise, reviewable edits on your own keys, and as the low-cost baseline every fancier tool should justify itself against.
-Not for long autonomous tasks or hands-off refactors.
+Not for long autonomous tasks, hands-off refactors, or teams that need an actively maintained tool.
 
 ## See also
 

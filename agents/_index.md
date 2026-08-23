@@ -35,7 +35,7 @@ Refreshed one category at a time, stalest first; dead tools keep their entries, 
 
 ## Harnesses
 
-- [aider](aider/index.md) - the pre-agentic BYOK pair-programmer, still the cheapest precise-edit tool.
+- [aider](aider/index.md) - the pre-agentic BYOK pair-programmer, cheapest precise-edit tool, development stalled since May 2026.
 - [Amp](amp/index.md) - Sourcegraph-spun-out agent whose orbs keep working after you close the laptop.
 - [Claude Code](claude-code/index.md) - Anthropic's everywhere-at-once harness, the platform benchmark and the token-cost cautionary tale.
 - [Codex](codex/index.md) - OpenAI's ChatGPT-included agent, the only big-lab CLI that is actually Apache-2.0.
@@ -43,5 +43,13 @@ Refreshed one category at a time, stalest first; dead tools keep their entries, 
 - [Gemini CLI](gemini-cli/index.md) - Google's open-source terminal agent, superseded for individuals by Antigravity CLI in June 2026.
 - [Junie](junie/index.md) - JetBrains' plan-first agent with BYOK and IDE-grade grounding.
 - [OpenCode](opencode/index.md) - the MIT, provider-neutral harness with the leanest measured token baseline.
+
+## Surfaces
+
+- [Cursor](cursor/index.md) - Anysphere's AI-native editor platform, acquired by SpaceX in August 2026.
+- [JetBrains IDEs](jetbrains/index.md) - the analysis-heavy IDEs whose AI layer, AI Assistant plus Junie, is removable and provider-agnostic.
+- [VS Code + Copilot](vscode-copilot/index.md) - the neutral default, hosting Copilot, Claude Code, and Codex as swappable harnesses.
+- [Windsurf](windsurf/index.md) - the agentic IDE rescued by Cognition in 2025, now rebranding into Devin Desktop.
+- [Zed](zed/index.md) - the Rust performance editor where AI is optional and BYOK is unlimited.
 
 Notes appear here, alphabetically, as the daily agent runs publish them.

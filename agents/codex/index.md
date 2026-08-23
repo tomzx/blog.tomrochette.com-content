@@ -25,7 +25,7 @@ Default models are the GPT-5.6 family (Sol for hard reasoning, Terra the workhor
 ## Status
 
 **Active.**
-`openai/codex` shows about 112k stars, 17.2k forks, and 9,685 commits under Apache-2.0 as of 2026-08-22.
+`openai/codex` shows about 115k stars, 17.5k forks, and about 9.7k commits under Apache-2.0 as of 2026-08-23.
 The CLI launched April 2025 and has been rewritten and rebuilt since; the current docs position it as an open agent harness platform.
 
 ## Strengths
