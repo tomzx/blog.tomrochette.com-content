@@ -67,6 +67,7 @@ Refreshed one category at a time, stalest first; dead tools keep their entries, 
 ## Orchestration
 
 - [Claude Squad](claude-squad/index.md) - free AGPL terminal app running multiple coding agents in tmux, each in its own worktree.
+- [cmux](cmux/index.md) - Manaflow's libghostty macOS terminal for parallel agents, notification rings free, cloud execution paid.
 - [Conductor](conductor/index.md) - the macOS app for parallel Claude Code, Codex, Cursor, and OpenCode sessions with diff review and PR flow.
 - [Crystal](crystal/index.md) - Stravu's worktree manager, deprecated February 2026 for Nimbalyst, kept here as a death record.
 - [dmux](dmux/index.md) - the MIT tmux TUI where every task pane gets its own worktree and branch.

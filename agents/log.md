@@ -136,6 +136,14 @@ Changes to this section that do not appear here were made by a human and must be
 - Verification: all internal link targets across the section's 59 index files exist on disk (the 34 notes from 5b2679e7 plus both matrices), front matter parses with no type field, mandatory tags present, no em-dashes, no banned terms, one sentence per line in prose [glm-5.3]
 - Style fix: emdash note line 61 used "laptop-shaped" ("shape" is a banned term repo-wide); reworded to "assumes the work happens on your laptop", caught by the pre-commit style sweep that ran alongside the matrix commit [glm-5.3]
 
+## 2026-08-24 (cmux note, owner-requested)
+
+- Owner request in chat: cover cmux; research found three products by that name, so the note covers the dominant one (manaflow-ai/cmux, the libghostty macOS terminal for parallel agents, about 26.4k stars) and disambiguates the other two inside the note (craigsc/cmux "tmux for Claude Code", and the separate October 2025 Show HN Coding Agent Multiplexer), plus the unrelated Go connection multiplexer [glm-5.3]
+- cmux: recorded the attention-routing thesis (notification rings and unread panel as the actual product), the open-core split (GPL-3.0-or-later terminal free, cloud VMs and CodeRouter at $24/month from cmux.com/pricing fetched this run), the fast-cadence evidence (18 releases in two days at launch, v0.64.x, nightly), the three-contributor concentration under Manaflow Inc., and the August 2026 SSH-freeze friction thread [glm-5.3]
+- _index.md: cmux added to the Orchestration category, alphabetically after claude-squad [glm-5.3]
+- Placement decision: Orchestration rather than Surfaces, matching dmux and claude-squad (terminal-family parallel-agent tools) rather than the editor and environment entries [glm-5.3]
+- Verification: all 6 cited URLs fetched 200 this run (one HN item 429 on burst, 200 on retry), all internal link targets exist on disk, front matter parses, no em-dashes, no banned terms, one sentence per line [glm-5.3]
+
 ## 2026-08-24 (model selection guide, Kimi and GLM coverage)
 
 - model-selection-for-coding-tasks: added the Kimi and GLM lineups per owner request; all four new pricing/provider URLs fetched and verified during this run (Moonshot K3 and K2.7 Code pricing pages, Z.ai pricing page, OpenCode providers directory) [glm-5.3]
