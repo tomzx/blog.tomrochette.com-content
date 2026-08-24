@@ -41,6 +41,9 @@ The independent tail matters more than its market share suggests.
 [Crush](../crush/index.md) (Charm, FSL-1.1-MIT, about 28k stars) pulls context from language servers the way an IDE would, and it reads the same AGENTS.md files as the bigger tools.
 [Amp](../amp/index.md) bets on remote execution, with "orbs" that keep working after you close the laptop.
 [Junie](../junie/index.md) is JetBrains' agent, LLM-agnostic with bring-your-own-key, shipping from the terminal, the IDE, and CI.
+[Cline](../cline/index.md) grew out of the VS Code extension generation into a full runtime, about 5.1 million marketplace installs deep.
+[goose](../goose/index.md), Block's Rust agent, moved to the Agentic AI Foundation at the Linux Foundation in April 2026, the first foundation-governed exit in the field.
+[Qwen Code](../qwen-code/index.md), Alibaba's fork of Gemini CLI, is the free-tier on-ramp and the open-weights showcase.
 
 **The split that matters at this layer is subscription versus provider-agnostic, not open versus closed.**
 Claude Code and Codex are at their best inside their own vendor's subscription; OpenCode, aider, Crush, and Junie run against whatever keys you already own, and Gemini CLI now serves only enterprise licenses and paid API keys.

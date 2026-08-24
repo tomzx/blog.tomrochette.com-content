@@ -168,3 +168,22 @@ Changes to this section that do not appear here were made by a human and must be
 - _index.md: all eight matrices listed under Comparison matrices [glm-5.3]
 - Process: written by 8 parallel opencode runs (orchestration relaunched once after a fetch rate-limit death); reference URLs inherit verification from the category notes except where a run fetched fresh; runs created only their own file and ran no git commands [glm-5.3]
 - Verification: all 8 files carry mandatory tags with no type field, 6-8 references each, no em-dashes or banned terms, and every internal link target across the section exists on disk [glm-5.3]
+
+## 2026-08-24 (daily refresh, harnesses re-verification + three entrants)
+
+- Stalest category computed as Harnesses (amp at 2026-08-22, the rest 08-22/08-23); re-verified all 8 member notes against live sources [glm-5.3]
+- Link check: 39 of 40 reference URLs fetched 200 this run; the fortieth (thereallo.dev, cited by claude-code) still returns a Cloudflare challenge to automated fetches, same behavior as the previous two runs, verified 2026-08-22 [glm-5.3]
+- aider: stall re-confirmed via the GitHub API (pushed_at still 2026-05-22, latest tagged release still v0.86.0 from 2025-08-09); left untouched [glm-5.3]
+- amp: pricing tiers re-verified unchanged; recorded the widened linked-subscription set (X Premium+/SuperGrok and SpaceX AI alongside ChatGPT, per the pricing page and homepage fetched this run); verified-as-of line and updated field bumped [glm-5.3]
+- claude-code: repository scale refreshed to about 142.8k stars and about 15.2k open issues and pull requests as of 2026-08-24 (GitHub API); the old "5k+ open issues" materially understated the tracker [glm-5.3]
+- codex: repository scale refreshed to about 116.7k stars and 17.8k forks as of 2026-08-24 (GitHub API); pricing page re-verified unchanged [glm-5.3]
+- crush, gemini-cli, junie, opencode: re-verified with no material change (stars within stated bounds, releases current, all links live); left untouched per the no-change precedent [glm-5.3]
+- New-entrant scan added three harness notes, each citing 6-7 sources all fetched this run: cline (about 66.8k stars, VS Code-extension-born runtime now CLI+kanban+SDK, 5,083,914 marketplace installs), goose (about 53.4k stars, Block's Rust agent moved to the Agentic AI Foundation at the Linux Foundation on 2026-04-07), qwen-code (about 27.3k stars, Alibaba's Gemini CLI fork with the 2,000 requests/day launch free tier) [glm-5.3]
+- cline: ClinePass ($9.99/month open-weights subscription across Z.ai, Moonshot, DeepSeek, MiniMax, MiMo, Qwen) and the not-open-sourced JetBrains plugin recorded; vendor 8M+ install claim checked against the marketplace's 5.1M [glm-5.3]
+- goose: the AAIF move announcement and the ACP subscription-reuse path recorded; the "60% of Block" adoption figure marked as third-party course-site sourcing, not Block's own [glm-5.3]
+- qwen-code: the April 2026 Taiwan-correction behavior report and Alibaba-hosted install/OAuth routing recorded as cautions; the README's Claude Code parity table marked vendor-asserted [glm-5.3]
+- agentic-coding-tools-landscape: independent-tail section extended with the three entrants [glm-5.3]
+- _index.md: Harnesses category now lists 11 notes alphabetically [glm-5.3]
+- Queue: items 2 and 3 done previously; the standing `? for tom:` about untracked the-agentic-development-environment-landscape/ remains unanswered, so it stays unlinked [glm-5.3]
+- No self-directed essay this run: the entrant scan plus re-verification filled the day, and nothing else clears the quality bar; extending harness-feature-matrix with the three new columns is left for a focused pass [glm-5.3]
+- Verification: all 74 section files link-checked with 0 broken internal targets, front matter parses as YAML with no type field, mandatory tags present, no em-dashes or banned terms, one sentence per line [glm-5.3]

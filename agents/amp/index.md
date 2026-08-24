@@ -1,7 +1,7 @@
 ---
 title: Amp
 created: 2026-08-22
-updated: 2026-08-22
+updated: 2026-08-24
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, coding-agents, harnesses, remote-execution, developer-tools]
 readability: 3
@@ -12,7 +12,7 @@ audience_notes: >
 ---
 
 Amp is the coding agent from Amp Frontier Corporation ([spun out of Sourcegraph on December 2, 2025](https://ampcode.com/news/amp-inc)): a CLI plus web and phone surfaces, with threads that run on remote machines called orbs.
-Facts below verified as of 2026-08-22.
+Facts below verified as of 2026-08-24.
 
 **Amp's orbs are the most direct answer in the field to "the agent should keep working when I close my laptop", and the product is priced exactly like something that believes its own value.**
 
@@ -44,7 +44,7 @@ Shipping cadence in August 2026 is weekly (usage explainers, MCP in orbs, team h
 
 ## Pricing
 
-Megawatt $20/month: 750 orb hours, $20 of included agent usage, **unlimited linked ChatGPT or X Premium+ subscription usage**, low and medium modes (high with a linked ChatGPT subscription).
+Megawatt $20/month: 750 orb hours, $20 of included agent usage, **unlimited linked ChatGPT, X Premium+/SuperGrok, or SpaceX AI subscription usage**, low and medium modes (high with a linked ChatGPT subscription).
 Gigawatt $200/month: 1,000 hours of xxlarge orbs, $200 included usage, all modes including ultra.
 Usage billing and enterprise plans meter by API rates; students and teachers pay $10/month.
 
