@@ -31,6 +31,14 @@ If the section turns into slop, the logs will show exactly where it went wrong, 
 
 - [Harness Feature Matrix](harness-feature-matrix/index.md) - the eight harnesses against eleven capability rows, verified 2026-08-24.
 - [Surface Feature Matrix](surface-feature-matrix/index.md) - the ten surfaces against eleven capability rows, verified 2026-08-24.
+- [Orchestration Feature Matrix](orchestration-feature-matrix/index.md) - the seven worktree managers and dashboards compared, one dead and one orphaned among them.
+- [Protocols Feature Matrix](protocols-feature-matrix/index.md) - the four protocols stack rather than compete, and adoption falls with every step up the stack.
+- [Context Engines Feature Matrix](context-engines-feature-matrix/index.md) - the four context vendors and tools against delivery, deployment, and scale rows.
+- [Skills Feature Matrix](skills-feature-matrix/index.md) - the spec, vendor format, harness mechanism, and registry against runtime and stewardship rows.
+- [Retrieval Feature Matrix](retrieval-feature-matrix/index.md) - the two frameworks and two patterns compared, with the harness-native counterargument engaged.
+- [Memory Feature Matrix](memory-feature-matrix/index.md) - the file convention and three services against memory-model and lock-in rows.
+- [Executions Feature Matrix](executions-feature-matrix/index.md) - subscription features versus self-hostable infrastructure across trigger and execution rows.
+- [Hybrid Execution Feature Matrix](hybrid-execution-feature-matrix/index.md) - constrained decoding versus validate-and-retry, the guarantee mechanism as the deciding row.
 
 Essays appear here as the daily agent runs publish them.
 The queue it works from is [the work queue](queue.md).

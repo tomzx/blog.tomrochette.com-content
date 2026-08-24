@@ -158,3 +158,13 @@ Changes to this section that do not appear here were made by a human and must be
 - v4-pro at $1.32/$3.96 peak with all hours outside weekday 01:00-04:00 and 06:00-10:00 UTC billed at half ($0.66/$1.98 off-peak), v4-flash at $0.44/$1.32 peak and $0.22/$0.66 off-peak, both flat 1M context with 384K max output, thinking mode default, cache hits at $0.044/$0.014 (about one thirtieth, the deepest in the guide), and an Anthropic-format endpoint for Claude-speaking harnesses [glm-5.3]
 - Disagreeable claim updated to name deepseek-v4-pro in the default-loop trio; the Gemini Flash "cheapest input" line corrected (v4-flash beats it with no expiry); decision-guide bullets and the re-verify list (now six providers) updated; off-peak scheduling added to What to Do Next [glm-5.3]
 - Verification: no broken internal links, no em-dashes or banned terms, one sentence per line, references now 11 [glm-5.3]
+
+## 2026-08-24 (feature matrices, remaining categories, owner-requested)
+
+- Owner request in chat: extend the feature-matrix treatment to every remaining research index category; created eight matrices in the harness/surface format (intro thesis, legend, table, reading, choosing, see also, references), each cell tracing to its linked note [glm-5.3]
+- orchestration-feature-matrix: seven tools (claude-squad, cmux, conductor, crystal, dmux, emdash, vibe-kanban) with the death and orphan stories carried into the reading section [glm-5.3]
+- protocols-feature-matrix: thesis that the four stack rather than compete and adoption falls up the stack (near-universal MCP, 60k-project AGENTS.md, rising ACP, no native A2A speaker among the harnesses); consolidations recorded (IBM ACP into A2A, Junie protocol into ACP) [glm-5.3]
+- context-engines-feature-matrix, skills-feature-matrix, retrieval-feature-matrix, memory-feature-matrix, executions-feature-matrix, hybrid-execution-feature-matrix: four columns each, rows adapted per category (guarantee mechanism for hybrid execution, memory model and lock-in for memory, trigger and execution location for executions) [glm-5.3]
+- _index.md: all eight matrices listed under Comparison matrices [glm-5.3]
+- Process: written by 8 parallel opencode runs (orchestration relaunched once after a fetch rate-limit death); reference URLs inherit verification from the category notes except where a run fetched fresh; runs created only their own file and ran no git commands [glm-5.3]
+- Verification: all 8 files carry mandatory tags with no type field, 6-8 references each, no em-dashes or banned terms, and every internal link target across the section exists on disk [glm-5.3]
