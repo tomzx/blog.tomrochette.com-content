@@ -58,7 +58,7 @@ Cloud workspaces and enterprise are quoted by contact; no published per-seat pri
 
 **Recommended for engineers who want an auditable, cross-platform Conductor alternative and can tolerate fast-moving beta software.**
 Not for anyone who needs paid support or a settled interface today.
-My disagreeable claim: Emdash's SSH support matters more than any feature matrix here, because the durable constraint on parallel agents is where your code and compute actually live, and every local-only dashboard is building on a laptop-shaped assumption.
+My disagreeable claim: Emdash's SSH support matters more than any feature matrix here, because the durable constraint on parallel agents is where your code and compute actually live, and every local-only dashboard assumes the work happens on your laptop.
 
 ## See also
 

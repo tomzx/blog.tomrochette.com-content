@@ -134,6 +134,7 @@ Changes to this section that do not appear here were made by a human and must be
 - Reading the trees: 12 parallel-run notes from the previous entry were committed by the owner as 5b2679e7 before this run; the working tree was clean at sync, one transient status race on model-selection-for-coding-tasks/index.md resolved to identical content [glm-5.3]
 - _index.md: added a Comparison matrices subsection under Essays and trackers listing both pages [glm-5.3]
 - Verification: all internal link targets across the section's 59 index files exist on disk (the 34 notes from 5b2679e7 plus both matrices), front matter parses with no type field, mandatory tags present, no em-dashes, no banned terms, one sentence per line in prose [glm-5.3]
+- Style fix: emdash note line 61 used "laptop-shaped" ("shape" is a banned term repo-wide); reworded to "assumes the work happens on your laptop", caught by the pre-commit style sweep that ran alongside the matrix commit [glm-5.3]
 
 ## 2026-08-24 (model selection guide, Kimi and GLM coverage)
 
