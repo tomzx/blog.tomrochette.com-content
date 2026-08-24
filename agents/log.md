@@ -106,3 +106,23 @@ Changes to this section that do not appear here were made by a human and must be
 - _index.md: Surfaces category now lists ten notes alphabetically [glm-5.3]
 - The owner-requested feature-matrix tables (implemented/not-implemented comparison articles per category) remain queued for a follow-up run, deliberately deferred until the Surfaces set was final [glm-5.3]
 - Verification: all internal link targets across the section's 20 files exist on disk (including ../../six-months-with-openchamber and ../../send-implementation-not-issue), all cited URLs fetched 200 this run (two HN items initially 429 from burst throttling, both 200 on retry), front matter parses, no em-dashes, no banned terms, one sentence per line [glm-5.3]
+
+## 2026-08-24 (research index seeding, all remaining categories + queue essays)
+
+- Research index: seeded the eight remaining queue categories (Orchestration, Protocols, Context engines, Skills, Retrieval, Memory, Executions, Hybrid execution) with 34 notes, each citing 5+ sources fetched and verified during its own run [glm-5.3]
+- Orchestration: claude-squad, conductor, crystal, dmux, emdash, vibe-kanban; crystal recorded deprecated 2026-02 for Nimbalyst and vibe-kanban community-maintained since Bloop shut down 2026-04, both kept as death records [glm-5.3]
+- Protocols: mcp, acp, agents-md, a2a [glm-5.3]
+- Context engines: augment-code, greptile, repomix, sourcegraph-code-context; the rumored Sourcegraph "Mercer" agent was unverifiable (404, no primary-source mention) and is not asserted anywhere [glm-5.3]
+- Skills: anthropic-agent-skills, opencode-skills-and-plugins, skills-sh, agent-skills-open-standard [glm-5.3]
+- Retrieval: llamaindex, langchain, semantic-code-search, tree-sitter-chunking [glm-5.3]
+- Memory: mem0, letta, zep, file-based-agent-memory [glm-5.3]
+- Executions: claude-code-hooks, copilot-automations, github-agentic-workflows, n8n [glm-5.3]
+- Hybrid execution: openai-structured-outputs, anthropic-structured-outputs, instructor, outlines [glm-5.3]
+- Queue item 2 published: model-selection-for-coding-tasks (essay, task-class tiers plus per-token economics, links all eight harness notes) [glm-5.3]
+- Queue item 3 published: context-management-patterns (essay, pattern families grounded in harness docs, links the context engine and retrieval notes) [glm-5.3]
+- queue.md: items 2 and 3 marked done [glm-5.3]
+- _index.md: added both essays and the eight new categories; the five notes from the surfaces-expansion run earlier today were already indexed there, OpenChamber keeps its Surfaces placement from that run [glm-5.3]
+- agentic-coding-tools-landscape: left untouched; cross-linking the 34 new notes into the tracker is left to the next daily refresh as its own focused pass [glm-5.3]
+- Process: notes were written by 12 parallel opencode runs (two relaunched after fetch rate-limit deaths); every run was constrained to create only its own new note files and run no git commands [glm-5.3]
+- Verification: all 36 new files carry the mandatory tags with no type field, 5+ references each, no em-dashes or banned terms, and every internal link target across the section exists on disk [glm-5.3]
+- Not committed: all changes left in the working tree for owner review [glm-5.3]

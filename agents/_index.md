@@ -23,7 +23,9 @@ If the section turns into slop, the logs will show exactly where it went wrong, 
 
 # Essays and trackers
 
-- [Agentic Coding Tools Landscape](agentic-coding-tools-landscape/index.md) - maintained map of harnesses, editors, cloud agents, and orchestration as of 2026-08-22.
+- [Agentic Coding Tools Landscape](agentic-coding-tools-landscape/index.md) - maintained map of harnesses, editors, cloud agents, and orchestration as of 2026-08-24.
+- [Model Selection for Coding Tasks](model-selection-for-coding-tasks/index.md) - opinionated guide to choosing models by task class and per-token economics, as of 2026-08-24.
+- [Context Management Patterns](context-management-patterns/index.md) - the patterns that keep agent context windows small and fresh, as of 2026-08-24.
 
 Essays appear here as the daily agent runs publish them.
 The queue it works from is [the work queue](queue.md).
@@ -56,5 +58,63 @@ Refreshed one category at a time, stalest first; dead tools keep their entries, 
 - [VS Code + Copilot](vscode-copilot/index.md) - the neutral default, hosting Copilot, Claude Code, and Codex as swappable harnesses.
 - [Windsurf](windsurf/index.md) - the agentic IDE rescued by Cognition in 2025, now rebranding into Devin Desktop.
 - [Zed](zed/index.md) - the Rust performance editor where AI is optional and BYOK is unlimited.
+
+## Orchestration
+
+- [Claude Squad](claude-squad/index.md) - free AGPL terminal app running multiple coding agents in tmux, each in its own worktree.
+- [Conductor](conductor/index.md) - the macOS app for parallel Claude Code, Codex, Cursor, and OpenCode sessions with diff review and PR flow.
+- [Crystal](crystal/index.md) - Stravu's worktree manager, deprecated February 2026 for Nimbalyst, kept here as a death record.
+- [dmux](dmux/index.md) - the MIT tmux TUI where every task pane gets its own worktree and branch.
+- [Emdash](emdash/index.md) - the Apache-2.0 agentic development environment from General Action (YC W26), local or over SSH.
+- [Vibe Kanban](vibe-kanban/index.md) - the Apache-2.0 kanban for parallel agents, community-maintained since Bloop shut down in April 2026.
+
+## Protocols
+
+- [A2A](a2a/index.md) - Google's open protocol for independent agents to interoperate, now under the Linux Foundation.
+- [ACP](acp/index.md) - Zed's protocol standardizing how editors talk to coding agents.
+- [AGENTS.md](agents-md/index.md) - the open convention for repo-level agent instruction files.
+- [MCP](mcp/index.md) - the open protocol standardizing how AI applications connect to tools and data.
+
+## Context engines
+
+- [Augment Code](augment-code/index.md) - the coding platform whose core is a real-time semantic Context Engine feeding Auggie and Cosmos.
+- [Greptile](greptile/index.md) - AI code review running a swarm of agents over a graph index of your repositories.
+- [Repomix](repomix/index.md) - the MIT CLI that packs a whole repo into one AI-friendly file, retrieval-free by design.
+- [Sourcegraph code context platform](sourcegraph-code-context/index.md) - code search repositioned as the retrieval layer for agents, with value showing up above roughly 400K lines.
+
+## Skills
+
+- [Agent Skills open standard](agent-skills-open-standard/index.md) - the agentskills.io spec for SKILL.md capability directories.
+- [Anthropic Agent Skills](anthropic-agent-skills/index.md) - Anthropic's SKILL.md folder format for reusable agent capabilities.
+- [OpenCode skills and plugins](opencode-skills-and-plugins/index.md) - OpenCode's two extension mechanisms: skills for the model, plugins for the harness.
+- [skills.sh](skills-sh/index.md) - Vercel's directory and leaderboard for the open skills ecosystem.
+
+## Retrieval
+
+- [LlamaIndex](llamaindex/index.md) - the MIT data framework for retrieval pipelines, now the open arm of LlamaParse.
+- [LangChain](langchain/index.md) - the largest LLM framework, repositioned in 2026 as an agent engineering platform.
+- [Semantic code search](semantic-code-search/index.md) - retrieval by meaning over embedded chunks, shipped as a workspace index.
+- [Tree-sitter chunking](tree-sitter-chunking/index.md) - cutting files along syntax boundaries instead of fixed line counts.
+
+## Memory
+
+- [File-based agent memory](file-based-agent-memory/index.md) - the CLAUDE.md and AGENTS.md conventions, memory as plain markdown files.
+- [Letta](letta/index.md) - the MemGPT creators' memory-first platform, agent plus cloud tier.
+- [mem0](mem0/index.md) - the hosted and self-hostable memory layer across vector, graph, and key-value backends.
+- [Zep](zep/index.md) - temporal knowledge graphs where contradictions invalidate old facts.
+
+## Executions
+
+- [Claude Code hooks](claude-code-hooks/index.md) - lifecycle triggers that turn the harness into an event-driven system.
+- [Copilot automations](copilot-automations/index.md) - GitHub's cloud agent on schedules and repository events.
+- [GitHub Agentic Workflows](github-agentic-workflows/index.md) - markdown-defined automation compiled into hardened Actions runs.
+- [n8n](n8n/index.md) - the fair-code automation canvas where triggers start workflows and agents.
+
+## Hybrid execution
+
+- [Anthropic structured outputs](anthropic-structured-outputs/index.md) - schema-constrained decoding for Claude responses and tool inputs.
+- [Instructor](instructor/index.md) - Pydantic in, validated objects out, with a re-ask when validation fails.
+- [OpenAI Structured Outputs](openai-structured-outputs/index.md) - schema-guaranteed responses via constrained decoding.
+- [Outlines](outlines/index.md) - logit-masked generation following types, schemas, regexes, or grammars.
 
 Notes appear here, alphabetically, as the daily agent runs publish them.
