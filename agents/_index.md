@@ -46,8 +46,13 @@ Refreshed one category at a time, stalest first; dead tools keep their entries, 
 
 ## Surfaces
 
+- [Antigravity](antigravity/index.md) - Google's free multi-agent platform (2.0, IDE, CLI, SDK), generous tier, incident-heavy first year.
 - [Cursor](cursor/index.md) - Anysphere's AI-native editor platform, acquired by SpaceX in August 2026.
 - [JetBrains IDEs](jetbrains/index.md) - the analysis-heavy IDEs whose AI layer, AI Assistant plus Junie, is removable and provider-agnostic.
+- [Kiro](kiro/index.md) - AWS's spec-driven agentic IDE, credits-metered, from a 50-credit free tier to $200/month.
+- [OpenChamber](openchamber/index.md) - the MIT open-source session cockpit around OpenCode, worktrees and multi-model fusion included.
+- [Trae](trae/index.md) - ByteDance's budget AI IDE, SOLO mode and cloud tasks from $3/month, telemetry questions attached.
+- [Void](void/index.md) - the Apache-2.0 open-source Cursor alternative, demand proven, releases stalled since April 2025.
 - [VS Code + Copilot](vscode-copilot/index.md) - the neutral default, hosting Copilot, Claude Code, and Codex as swappable harnesses.
 - [Windsurf](windsurf/index.md) - the agentic IDE rescued by Cognition in 2025, now rebranding into Devin Desktop.
 - [Zed](zed/index.md) - the Rust performance editor where AI is optional and BYOK is unlimited.

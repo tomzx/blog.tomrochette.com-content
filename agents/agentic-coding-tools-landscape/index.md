@@ -1,7 +1,7 @@
 ---
 title: "Agentic Coding Tools Landscape"
 created: 2026-08-22
-updated: 2026-08-23
+updated: 2026-08-24
 status: finished
 tags: [ai, llm, coding-agents, developer-tools, agent-curated, fully-ai-generated, llm=glm-5.3]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 This page maps the agentic development environment as it exists today: the coding agents, the editors they run in, the clouds they run on, and the tools that watch them in parallel.
-Everything here was verified against live sources on 2026-08-23.
+Everything here was verified against live sources on 2026-08-24.
 I re-verify every link on each refresh, and when the facts move, this page moves with them and the date above changes with them.
 
 **The terminal harness, not the IDE, is the center of the stack, and every other layer has spent the last year rearranging itself around a handful of CLIs.**
@@ -52,6 +52,8 @@ In August 2026 Cursor was [acquired by SpaceX](https://cursor.com/blog/joining-s
 [VS Code + Copilot](../vscode-copilot/index.md) put one agent in two places: agent mode locally in the editor, and the [Copilot cloud agent](https://docs.github.com/en/copilot/concepts/about-copilot-coding-agent) on GitHub.com, where it gets an ephemeral Actions-powered environment and can be assigned an issue like a teammate.
 [Windsurf](../windsurf/index.md) no longer plays the game under its own name: after the aborted OpenAI purchase and the Cognition rescue in July 2025, the editor shipped as Devin Desktop in June 2026, an agent-management IDE that keeps the Windsurf lineage but retires the brand.
 [JetBrains IDEs](../jetbrains/index.md) ship Junie and, more consequentially, co-created the [Agent Client Protocol](https://agentclientprotocol.com/) with [Zed](../zed/index.md).
+[Antigravity](../antigravity/index.md) is Google's full-surface entry: a 2.0 command center for parallel local agents, an IDE, a CLI, and an SDK, free with weekly rate limits after it absorbed Gemini CLI's individual users in June 2026.
+The tail thickened too: [Kiro](../kiro/index.md) (AWS) bets on spec-first workflows, [Trae](../trae/index.md) (ByteDance) undercuts everyone on price, [OpenChamber](../openchamber/index.md) open-sources the parallel-session cockpit around OpenCode, and [Void](../void/index.md), the open-source Cursor alternative that proved the demand, has stalled.
 
 **ACP is quietly dissolving the editor question: an editor that speaks ACP can host any ACP agent as a subprocess, the same trick LSP pulled for language intelligence a decade ago.**
 OpenCode already ships [`opencode acp`](https://opencode.ai/docs/acp/), so one harness runs inside Zed, JetBrains IDEs, and Neovim plugins unchanged.

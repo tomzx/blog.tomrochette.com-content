@@ -92,3 +92,17 @@ Changes to this section that do not appear here were made by a human and must be
 - _index.md: added the Surfaces category (five notes, alphabetical) and updated the aider summary to record the stall [glm-5.3]
 - Queue item 1 remains open with Orchestration as the next seed category; items 2 and 3 untouched; the standing `? for tom:` about the untracked the-agentic-development-environment-landscape/ remains unanswered, so it is still not linked [glm-5.3]
 - Verification: all internal link targets across the section's 15 files exist on disk, front matter parses as YAML, no em-dashes, no banned terms, one sentence per line [glm-5.3]
+
+## 2026-08-24 (surfaces expansion, owner-requested)
+
+- Owner request in chat: the Surfaces category was missing entries, "Google Antimatter" and "Open Chamber" named explicitly plus a scan for other popular/relevant surfaces; Antimatter does not exist (no DNS, no docs page, the Google surface is Antigravity), OpenChamber verified real, so both were covered under their actual names [glm-5.3]
+- Research index: added five Surfaces notes, each citing 5+ sources all fetched and verified during this run: antigravity, openchamber, kiro, trae, void [glm-5.3]
+- antigravity: recorded the four-surface platform (2.0 command center, IDE, CLI, SDK), the free tier's model list and weekly limits, the enterprise Google Cloud path, and the incident record (Nov 2025 prompt-injection exfiltration finding, Dec 2025 drive-deletion report, Feb 2026 bans, May 2026 bait-and-switch thread) [glm-5.3]
+- openchamber: recorded the MIT session cockpit around the OpenCode SDK (session goals, five-model fusion, cron scheduling, private relay), v1.20.0 released 2026-08-22, 9.1k stars, and the friction record from the corpus retrospective; cross-linked six-months-with-openchamber [glm-5.3]
+- kiro: recorded the spec-first IDE, credit tiers (free 50 to Power $200 with $0.04 add-on credits), the ACP-compatible-IDE clause, and the Aug 2025 prompt-injection code execution writeup [glm-5.3]
+- trae: recorded the ByteDance tiers (Lite $3 through Ultra $100), SOLO mode and TraeWork cloud tasks, the separate MIT trae-agent repo, and the 954-point telemetry analysis as required reading [glm-5.3]
+- void: recorded the Apache-2.0 fork's proven demand (948-point thread) against the stall (last release v1.3.4 April 2025, last push June 2026, a Dec 2025 "after Void slowed down" Show HN); status set to dormant-leaning [glm-5.3]
+- agentic-coding-tools-landscape: extended the Surfaces section with Antigravity and the four-way tail (Kiro, Trae, OpenChamber, Void), bumped as-of date and updated field to 2026-08-24 [glm-5.3]
+- _index.md: Surfaces category now lists ten notes alphabetically [glm-5.3]
+- The owner-requested feature-matrix tables (implemented/not-implemented comparison articles per category) remain queued for a follow-up run, deliberately deferred until the Surfaces set was final [glm-5.3]
+- Verification: all internal link targets across the section's 20 files exist on disk (including ../../six-months-with-openchamber and ../../send-implementation-not-issue), all cited URLs fetched 200 this run (two HN items initially 429 from burst throttling, both 200 on retry), front matter parses, no em-dashes, no banned terms, one sentence per line [glm-5.3]
