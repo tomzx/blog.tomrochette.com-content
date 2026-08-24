@@ -1,6 +1,7 @@
 ---
 title: "Model Selection for Coding Tasks"
 created: 2026-08-24
+updated: 2026-08-24
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, model-selection, coding-agents, llm-pricing]
 readability: 3
@@ -20,7 +21,7 @@ The part most engineers get backwards: **for anyone paying per token, the harnes
 **Three task classes cover almost all coding work, and each maps to a price tier, not to a leaderboard rank.**
 
 - Completion and small edits: the model writes a few dozen lines from tight context; latency and price matter more than peak reasoning, so the cheap tier wins (gpt-5.6-luna, Gemini 3.1 Flash-Lite, Claude Haiku 4.5).
-- The agentic loop: explore, edit, test, repeat for minutes or hours; this is where most tokens die, and the mid tier (Claude Sonnet 5, gpt-5.6-terra, Gemini 3.1 Pro Preview) resolves most of it.
+- The agentic loop: explore, edit, test, repeat for minutes or hours; this is where most tokens die, and the mid tier (Claude Sonnet 5, gpt-5.6-terra, Gemini 3.1 Pro Preview) resolves most of it, while the Kimi and GLM challengers below price the same class far lower.
 - Hard planning and review judgment: architecture choices, gnarly debugging, deciding what to let through; this is the only class where frontier spend reliably pays, and it is a small fraction of your turns.
 
 Escalate by task class inside a session instead of picking one model for everything; Amp's low/medium/high/ultra modes and Codex's Sol/Terra/Luna defaults are this idea shipped as product (see the [Amp](../amp/index.md) and [Codex](../codex/index.md) notes).
@@ -42,13 +43,28 @@ Escalate by task class inside a session instead of picking one model for everyth
 | Gemini 3.1 Flash-Lite | $0.25 / $1.50 | cheap tier |
 | Gemini 3.7 / 3.6 Flash | $0.75 / $3.75 | intro pricing through 2026-12-31, then doubles |
 | Gemini 3.1 Pro Preview | $2 / $12 | workhorse, doubles beyond 200K input |
+| kimi-k2.7-code | $0.95 / $4.00 | coding-specialized, 256K context, cache hits $0.19 |
+| kimi-k3 | $3.00 / $15 | flagship, always reasons, flat-price 1M context |
+| GLM-5.3 | $1.40 / $4.40 | GLM-5 at $1/$3.20, GLM-4.7-Flash free |
 
 Four details the table hides:
 
 - Batch mode is 50% off at all three providers, which makes overnight review sweeps half price by default.
-- Cached reads have converged at one tenth of input price everywhere, so loop economics depend on whether your harness actually keeps the prefix cached.
-- Claude models from 4.6 onward include the full 1M-token context at standard pricing, while OpenAI and Google both double prices past their long-context thresholds, so whole-repository prompting is currently cheapest on Anthropic.
+- Cached reads run about one tenth of input price at OpenAI, Anthropic, Google, and Kimi K3, but closer to one fifth at GLM and kimi-k2.7-code, so loop economics depend on both the cache-hit rate and the vendor's cache discount.
+- Claude models from 4.6 onward include the full 1M-token context at standard pricing, and Kimi K3 matches the flat-1M policy at $3 in, while OpenAI and Google both double prices past their long-context thresholds, so whole-repository prompting is cheapest on Anthropic and second-cheapest on Kimi.
 - The Claude 4.7+ tokenizer produces about 30% more tokens for the same text, so cross-vendor price comparisons understate Anthropic's effective cost by roughly that margin.
+
+## The challengers reset the price floor
+
+**Kimi and GLM price the agentic loop at roughly half the converged workhorse rate or less, which makes the $2/$10-12 "standard" a choice rather than a fact.**
+GLM-5.3, 5.2, and 5.1 sit at $1.40 in and $4.40 out per million tokens, with GLM-5 at $1/$3.20 and GLM-5-Turbo between them, per Z.ai's pricing page as of 2026-08-24.
+Kimi's coding-specialized kimi-k2.7-code undercuts that at $0.95/$4.00 with a 256K context and multimodal input, and its HighSpeed variant doubles the price for about 180-260 tokens per second of output.
+Kimi K3 takes the other flank: $3/$15, always reasoning with a configurable effort, and a flat-price 1M context that only Claude otherwise offers.
+Z.ai even keeps GLM-4.7-Flash free, which makes it the zero-dollar candidate for inline completion and routing experiments.
+Harness fit is solved: OpenCode lists both Moonshot AI and Z.AI as native providers, so the lean BYOK harness plus a challenger model is one /connect away.
+**My disagreeable claim: for a token-payer, the rational default loop in August 2026 is kimi-k2.7-code or GLM-5.3 through OpenCode, and the big-three workhorses are what you escalate to, not what you default to.**
+Whether the challengers hold quality on your codebase is exactly what SWE-bench's bash-only view and a two-week cost-per-merged-PR measurement are for; the economics alone no longer justify defaulting to the big three.
+The one thing still cheaper on input is Gemini 3.7/3.6 Flash at its $0.75 intro rate, but that doubles on 2026-12-31 and the challengers have announced no such cliff.
 
 ## Benchmarks decay faster than prices
 
@@ -85,6 +101,8 @@ One fence to remember: Anthropic's March 2026 legal requests removed Claude subs
 
 - Daily loop default: Claude Sonnet 5, gpt-5.6-terra, or Gemini 3.1 Pro Preview; pick by harness fit, they price the same.
 - High-volume loops where cost leads: Gemini 3.7/3.6 Flash at the $0.75/$3.75 intro rate, calendar the 2026-12-31 end.
+- Price-floor loops, BYOK: kimi-k2.7-code or GLM-5.3 through OpenCode, both native providers; nothing else credible stays this cheap once Gemini's intro rate ends.
+- Whole-repository reads: a 1M-context Claude at $2 in, or Kimi K3 at $3 flat; nobody else sells 1M without doubling.
 - Frontier minutes only: gpt-5.6-sol or Claude Opus 5 for planning and stuck debugging; Fable 5 when nothing else resolves.
 - Inline completion and edits: gpt-5.6-luna, Gemini 3.1 Flash-Lite, or Claude Haiku 4.5.
 - Review passes and doc reading: cheap tier in batch mode, or a 1M-context Claude for whole-repo reads at standard price.
@@ -97,7 +115,7 @@ One fence to remember: Anthropic's March 2026 legal requests removed Claude subs
 **Everything volatile in this guide is dated, and three clocks are already running.**
 Sol's promotional pricing runs at least through 2026-11-21, the Gemini Flash intro rate ends 2026-12-31, and benchmark relevance decays on roughly a quarterly cycle (CodeClash, then ProgramBench within six months).
 Sonnet 5 shows the other direction: a scheduled September 2026 increase to $3/$15 was cancelled weeks before taking effect, so scheduled changes are announcements, not facts.
-On each refresh I re-fetch the three provider pricing pages, the SWE-bench leaderboards, and one current harness-overhead measurement, and I update the table above and the as-of date together.
+On each refresh I re-fetch the five provider pricing pages (OpenAI, Anthropic, Google, Moonshot, Z.ai), the SWE-bench leaderboards, and one current harness-overhead measurement, and I update the table above and the as-of date together.
 A fact that cannot survive that re-fetch gets deleted rather than hedged.
 
 ## What to Do Next
@@ -124,3 +142,7 @@ A fact that cannot survive that re-fetch gets deleted rather than hedged.
 - https://www.swebench.com/verified.html - the Verified benchmark and the bash-only mini-SWE-agent comparison setup
 - https://www.swebench.com/ - CodeClash and ProgramBench launch dates, mini-SWE-agent 65% result
 - https://aider.chat/docs/leaderboards/ - the polyglot leaderboard with per-run costs and dates used for the cost-per-point argument
+- https://platform.moonshot.ai/docs/pricing/chat-k3 - Kimi K3 prices, cache-hit rate, flat 1M context, always-on reasoning with configurable effort
+- https://platform.moonshot.ai/docs/pricing/chat-k27-code - kimi-k2.7-code prices, cache-hit rate, 256K context, HighSpeed variant speeds
+- https://docs.z.ai/guides/overview/pricing - GLM-5.x family prices, cached input rates, free Flash tiers
+- https://opencode.ai/docs/providers/ - Moonshot AI and Z.AI as native OpenCode providers

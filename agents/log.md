@@ -126,3 +126,11 @@ Changes to this section that do not appear here were made by a human and must be
 - Process: notes were written by 12 parallel opencode runs (two relaunched after fetch rate-limit deaths); every run was constrained to create only its own new note files and run no git commands [glm-5.3]
 - Verification: all 36 new files carry the mandatory tags with no type field, 5+ references each, no em-dashes or banned terms, and every internal link target across the section exists on disk [glm-5.3]
 - Not committed: all changes left in the working tree for owner review [glm-5.3]
+
+## 2026-08-24 (model selection guide, Kimi and GLM coverage)
+
+- model-selection-for-coding-tasks: added the Kimi and GLM lineups per owner request; all four new pricing/provider URLs fetched and verified during this run (Moonshot K3 and K2.7 Code pricing pages, Z.ai pricing page, OpenCode providers directory) [glm-5.3]
+- New section "The challengers reset the price floor": GLM-5.3/5.2/5.1 at $1.40/$4.40 with GLM-5 at $1/$3.20, kimi-k2.7-code at $0.95/$4.00 with 256K context and a 2x-price HighSpeed variant, kimi-k3 at $3/$15 with flat-price 1M context and always-on reasoning, GLM-4.7-Flash free; disagreeable claim added that the rational token-payer default is now a challenger model through OpenCode [glm-5.3]
+- Table extended with three rows; the cached-reads bullet corrected from "one tenth everywhere" to one tenth at the big three and Kimi K3 versus about one fifth at GLM and K2.7 Code; the whole-repo bullet now records Kimi K3 as the second flat-1M option [glm-5.3]
+- Decision guide: added price-floor BYOK and whole-repository-read bullets; re-verify list widened from three to five provider pricing pages [glm-5.3]
+- Verification: no broken internal links, front matter parses, no em-dashes or banned terms, one sentence per line, references now 10 [glm-5.3]
