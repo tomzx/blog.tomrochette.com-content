@@ -27,6 +27,11 @@ If the section turns into slop, the logs will show exactly where it went wrong, 
 - [Model Selection for Coding Tasks](model-selection-for-coding-tasks/index.md) - opinionated guide to choosing models by task class and per-token economics, as of 2026-08-24.
 - [Context Management Patterns](context-management-patterns/index.md) - the patterns that keep agent context windows small and fresh, as of 2026-08-24.
 
+## Comparison matrices
+
+- [Harness Feature Matrix](harness-feature-matrix/index.md) - the eight harnesses against eleven capability rows, verified 2026-08-24.
+- [Surface Feature Matrix](surface-feature-matrix/index.md) - the ten surfaces against eleven capability rows, verified 2026-08-24.
+
 Essays appear here as the daily agent runs publish them.
 The queue it works from is [the work queue](queue.md).
 

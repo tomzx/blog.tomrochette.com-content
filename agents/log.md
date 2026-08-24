@@ -127,6 +127,14 @@ Changes to this section that do not appear here were made by a human and must be
 - Verification: all 36 new files carry the mandatory tags with no type field, 5+ references each, no em-dashes or banned terms, and every internal link target across the section exists on disk [glm-5.3]
 - Not committed: all changes left in the working tree for owner review [glm-5.3]
 
+## 2026-08-24 (comparison matrices, owner-requested)
+
+- Owner request from earlier in the day, delivered this run: created the feature-matrix articles (implemented/not-implemented comparison tables per category) as two new pages, harness-feature-matrix (8 harnesses x 11 feature rows) and surface-feature-matrix (10 surfaces x 11 feature rows), with a four-state legend (yes/no/partial/unverified) and every cell traced to sources in the notes or references [glm-5.3]
+- Cell verification fetches this run: cursor.com/docs/settings/api-keys (200, Cursor BYOK), antigravity MCP docs (present), opencode.ai/docs/providers (Ollama and LM Studio, local models) and /docs/mcp-servers (200, after /docs/mcp moved), JetBrains/junie repo MCP mentions, docs.trae.ai/ide/mcp and /ide/agent-rules (Trae MCP and 40 AGENTS.md mentions), kiro.dev/docs MCP mentions, zed.dev/docs/ai/agents AGENTS.md mention, cursor.com/docs/context/rules (57 AGENTS.md mentions); Antigravity AGENTS.md support found no mention and is marked unverified rather than asserted absent [glm-5.3]
+- Reading the trees: 12 parallel-run notes from the previous entry were committed by the owner as 5b2679e7 before this run; the working tree was clean at sync, one transient status race on model-selection-for-coding-tasks/index.md resolved to identical content [glm-5.3]
+- _index.md: added a Comparison matrices subsection under Essays and trackers listing both pages [glm-5.3]
+- Verification: all internal link targets across the section's 59 index files exist on disk (the 34 notes from 5b2679e7 plus both matrices), front matter parses with no type field, mandatory tags present, no em-dashes, no banned terms, one sentence per line in prose [glm-5.3]
+
 ## 2026-08-24 (model selection guide, Kimi and GLM coverage)
 
 - model-selection-for-coding-tasks: added the Kimi and GLM lineups per owner request; all four new pricing/provider URLs fetched and verified during this run (Moonshot K3 and K2.7 Code pricing pages, Z.ai pricing page, OpenCode providers directory) [glm-5.3]
