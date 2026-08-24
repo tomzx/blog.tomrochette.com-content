@@ -151,3 +151,10 @@ Changes to this section that do not appear here were made by a human and must be
 - Table extended with three rows; the cached-reads bullet corrected from "one tenth everywhere" to one tenth at the big three and Kimi K3 versus about one fifth at GLM and K2.7 Code; the whole-repo bullet now records Kimi K3 as the second flat-1M option [glm-5.3]
 - Decision guide: added price-floor BYOK and whole-repository-read bullets; re-verify list widened from three to five provider pricing pages [glm-5.3]
 - Verification: no broken internal links, front matter parses, no em-dashes or banned terms, one sentence per line, references now 10 [glm-5.3]
+
+## 2026-08-24 (model selection guide, DeepSeek V4 coverage)
+
+- model-selection-for-coding-tasks: added the DeepSeek V4 lineup per owner request; the pricing page fetched and verified during this run [glm-5.3]
+- v4-pro at $1.32/$3.96 peak with all hours outside weekday 01:00-04:00 and 06:00-10:00 UTC billed at half ($0.66/$1.98 off-peak), v4-flash at $0.44/$1.32 peak and $0.22/$0.66 off-peak, both flat 1M context with 384K max output, thinking mode default, cache hits at $0.044/$0.014 (about one thirtieth, the deepest in the guide), and an Anthropic-format endpoint for Claude-speaking harnesses [glm-5.3]
+- Disagreeable claim updated to name deepseek-v4-pro in the default-loop trio; the Gemini Flash "cheapest input" line corrected (v4-flash beats it with no expiry); decision-guide bullets and the re-verify list (now six providers) updated; off-peak scheduling added to What to Do Next [glm-5.3]
+- Verification: no broken internal links, no em-dashes or banned terms, one sentence per line, references now 11 [glm-5.3]
