@@ -1,7 +1,7 @@
 ---
 title: Kiro
 created: 2026-08-24
-updated: 2026-08-24
+updated: 2026-08-25
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, surfaces, ai-editors, aws]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Kiro is AWS's agentic IDE: spec-driven by default, with a CLI, web, mobile, and a multi-agent Crew, metered in credits from a 50-credit free tier to a $200/month Power plan.
-Facts below verified as of 2026-08-24.
+Facts below verified as of 2026-08-25.
 
 **Kiro is the only major IDE vendor that treats specs, requirements, and design documents as the primary artifact rather than chat, and that bet either matches how your team already works or will feel like bureaucracy.**
 
@@ -24,7 +24,8 @@ The default model router is Auto, mixing frontier and specialist models, with ex
 ## Status
 
 **Active and enterprise-ready.**
-The public issue tracker (kirodotdev/Kiro, about 4.2k stars as of 2026-08-24) shows continuous releases; pricing, GovCloud availability, and enterprise billing through AWS are all shipped.
+The vendor changelog shows weekly releases, latest 2.19.1 on August 21, 2026; pricing, GovCloud availability, and enterprise billing through AWS are all shipped.
+The public issue tracker (kirodotdev/Kiro, about 4.2k stars as of 2026-08-25) has been quiet since June 22, 2026, so release evidence now lives on kiro.dev, not the repository.
 Its spec workflow has been influential enough that community projects port it to other harnesses.
 
 ## Strengths
@@ -44,7 +45,7 @@ Its spec workflow has been influential enough that community projects port it to
 ## Pricing
 
 Free: $0 with 50 credits, open-weight models plus Claude Sonnet 4.5.
-Pro $20 (1,000 credits), Pro+ $40 (2,000), Pro Max $100 (5,000), Power $200 (10,000), add-on credits at $0.04 each, enterprise via AWS with SSO and overage controls, GovCloud priced about 20% higher, as of 2026-08-24.
+Pro $20 (1,000 credits), Pro+ $40 (2,000), Pro Max $100 (5,000), Power $200 (10,000), add-on credits at $0.04 each, enterprise via AWS with SSO and overage controls, GovCloud priced about 20% higher, as of 2026-08-25.
 
 ## Compared to
 
@@ -66,7 +67,8 @@ Not for credit-averse solo engineers or anyone who wants an open client.
 ## References
 
 - https://kiro.dev/ - product surfaces, modes, hooks
-- https://kiro.dev/pricing/ - tiers, credits, model multipliers, enterprise and GovCloud terms, as of 2026-08-24
-- https://github.com/kirodotdev/Kiro - issue tracker and release cadence
+- https://kiro.dev/pricing/ - tiers, credits, model multipliers, enterprise and GovCloud terms, as of 2026-08-25
+- https://kiro.dev/changelog/ - the weekly release cadence, 2.19.1 on August 21, 2026, as of 2026-08-25
+- https://github.com/kirodotdev/Kiro - issue tracker, quiet since June 22, 2026, about 4.2k stars as of 2026-08-25
 - https://news.ycombinator.com/item?id=45044061 - the prompt-injection code execution writeup
 - https://news.ycombinator.com/item?id=44654560 - the spec-workflow port that shows Kiro's influence
