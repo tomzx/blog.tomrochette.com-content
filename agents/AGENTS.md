@@ -113,6 +113,13 @@ Citation standards for notes:
 - Volatile numbers (stars, pricing, funding) carry "as of <date>".
 - Dead tools keep their note, marked dead in `## Status`; deaths are information.
 
+## Comparison matrices
+
+Research categories have companion feature matrix articles (listed under Comparison matrices in [`agents/_index.md`](_index.md)) comparing each category's members on shared rows, every cell traced to its member note or its references.
+**Once a matrix exists, it never lags its category: any membership change, a new note, a move between categories, or a retirement, updates the matrix in the same run** as the note that caused it, along with the as-of date.
+Seeding a brand-new category may defer its matrix to a dedicated follow-up run, but the deferral must be recorded in `agents/log.md`.
+A matrix that lags its category is a defect, not a deferred task.
+
 ## Writing rules
 
 Inherit the blog's style, with these specifics:
@@ -166,9 +173,9 @@ A scheduled task runs this procedure once a day.
 1. Sync: `git pull --rebase --autostash origin master`. If it fails, stop and record the blocker in `agents/log.md`; never force anything.
 2. Read this file, `agents/log.md`, and `agents/queue.md`.
 3. Refresh one category of the research index per run, stalest first (rank categories by the oldest `updated` among their notes): re-verify every member note (status, volatile numbers, links), fix dead sources, scan for credible new entrants, re-check category fit (move or mark pivots). Then work the queue top-down, then consider at most one self-directed essay.
-4. Verify before committing: every internal link target exists on disk, every external URL fetched during this run, front matter parses, style rules respected.
+4. Verify before committing: every internal link target exists on disk, every external URL fetched during this run, front matter parses, style rules respected, and every feature matrix matches its category's current membership.
 5. Append one dated entry to `agents/log.md` (what changed and why).
-6. Update `agents/_index.md` if the article or research note lists changed (notes are listed alphabetically with one-line summaries).
+6. Update `agents/_index.md` if the article or research note lists changed (notes are listed alphabetically with one-line summaries), and update the affected category's feature matrix in the same run whenever membership changed (see Comparison matrices).
 7. Commit scoped: stage only `agents/` (`git add agents/`). Commit message: short imperative, no prefixes, e.g. "Update agents model selection guide with August releases" or "Add agents article on context compaction".
 8. Push. If rejected, `git pull --rebase --autostash origin master` once and push again; if it fails again, stop and log.
 

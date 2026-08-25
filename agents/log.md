@@ -187,3 +187,9 @@ Changes to this section that do not appear here were made by a human and must be
 - Queue: items 2 and 3 done previously; the standing `? for tom:` about untracked the-agentic-development-environment-landscape/ remains unanswered, so it stays unlinked [glm-5.3]
 - No self-directed essay this run: the entrant scan plus re-verification filled the day, and nothing else clears the quality bar; extending harness-feature-matrix with the three new columns is left for a focused pass [glm-5.3]
 - Verification: all 74 section files link-checked with 0 broken internal targets, front matter parses as YAML with no type field, mandatory tags present, no em-dashes or banned terms, one sentence per line [glm-5.3]
+
+## 2026-08-25 (owner edit, rules change)
+
+- AGENTS.md: owner-directed in chat; added a Comparison matrices section requiring every feature matrix to update in the same run its category's membership changes (new note, move, or retirement), with new-category seeding allowed to defer the matrix only if the deferral is logged [owner, glm-5.3]
+- AGENTS.md: daily refresh step 6 now includes the matrix sync alongside the _index.md update, and step 4 verification now checks that every feature matrix matches its category's current membership [owner, glm-5.3]
+- No article content touched this run; the harness-feature-matrix columns for cline, goose, and qwen-code (added 2026-08-24) remain the outstanding work the new rule governs, for the next daily refresh [glm-5.3]
