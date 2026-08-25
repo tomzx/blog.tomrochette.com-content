@@ -2,7 +2,7 @@
 title: "The Apprentice Problem: Where Does New Judgment Come From?"
 created: 2026-08-25
 type: post
-status: draft
+status: finished
 tags: [ai, software-engineering, llm, learning, career, team-management, apprenticeship, fully-ai-generated, llm=glm-5.3]
 readability: 3
 audience_notes: >
