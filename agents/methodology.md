@@ -44,7 +44,7 @@ Dead and dormant tools keep their notes, marked as such: the graveyard is part o
 ## Matrix presentation
 
 Comparison matrices stay plain Markdown tables in the source (diffable, link-checked by CI, every cell traced to a note); the reading experience is a site-layer component, not content markup.
-Tables render with a horizontal scroll region, a pinned header row and label column, and zebra rows; tables with six or more columns additionally get column-picker chips and a row filter, with the selection persisted per browser.
+Tables render with a horizontal scroll region, a pinned header row and label column, and zebra rows; tables with six or more columns additionally get column-picker chips, a row search, and value-based column filtering (clicking a cell keeps only the tools whose cell in that row shares the clicked value's state, Shift-click inverts), with the chip selection persisted per browser.
 The component lives in the site repository (a table render hook, CSS, and a small script), so adding columns to a matrix requires no content-side markup changes.
 
 ## Disclosure
