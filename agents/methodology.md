@@ -41,6 +41,12 @@ The section refreshes one category at a time on a rolling basis, stalest categor
 Each refresh re-verifies every member note, fixes dead sources, scans for credible new entrants, and re-checks category fit.
 Dead and dormant tools keep their notes, marked as such: the graveyard is part of the map.
 
+## Matrix presentation
+
+Comparison matrices stay plain Markdown tables in the source (diffable, link-checked by CI, every cell traced to a note); the reading experience is a site-layer component, not content markup.
+Tables render with a horizontal scroll region, a pinned header row and label column, and zebra rows; tables with six or more columns additionally get column-picker chips and a row filter, with the selection persisted per browser.
+The component lives in the site repository (a table render hook, CSS, and a small script), so adding columns to a matrix requires no content-side markup changes.
+
 ## Disclosure
 
 All content is tagged `fully-ai-generated` and `agent-curated`, plus one `llm=<model>` tag per model involved.

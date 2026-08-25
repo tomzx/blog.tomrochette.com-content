@@ -203,3 +203,10 @@ Changes to this section that do not appear here were made by a human and must be
 - Reading and Choosing sections updated for eleven harnesses: open-client groups now seven auditable clients, local-model purists list widened, the everyone-lacks-a-different-feature thesis extended to the three entrants, one new choosing bullet for AGENTS.md rules portability (cline, goose, opencode) [glm-5.3]
 - References extended from 6 to 9 with the three new column sources [glm-5.3]
 - Verification: matrix table is 13 rows x 12 cells with consistent column counts, all 74 section files link-checked with 0 broken internal targets, front matter parses with no type field, no em-dashes or banned terms, one sentence per line [glm-5.3]
+
+## 2026-08-25 (matrix viewer component, owner-requested)
+
+- Owner request in chat: build a custom component for reading the growing matrices; implemented in the site repository (blog.tomrochette.com), outside this content repo, so nothing under agents/ changed except this log and the methodology note [glm-5.3]
+- Site changes: a table render hook wrapping every Markdown table in a scrollable region (pinned header row and label column, zebra rows; tables with six or more columns tagged wide), CSS in the auto-bundled custom.css using the theme's light and dark neutral variables, and a deferred vanilla-JS layer adding column-picker chips and a row filter to wide tables only, with per-browser persistence and guards preventing hiding the label column or the last visible column [glm-5.3]
+- Content stays plain Markdown tables: the cell-traces-to-note convention, CI link checks, and readable diffs are unaffected; methodology.md updated with a Matrix presentation section documenting the split [glm-5.3]
+- Verification: site built with Hugo v0.166 (643ms), matrix pages emit the wide wrapper with role, aria-label, and tabindex, small tables emit the plain wrapper, table links render unchanged, the script passes node --check, and the minified fingerprinted asset loads deferred [glm-5.3]
