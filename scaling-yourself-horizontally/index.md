@@ -36,7 +36,7 @@ A lint rule is a preference of yours, enforced on every change.
 A runbook is a decision procedure captured at the moment you understood the system best.
 A specification is your intent, written down once and executed against many times.
 An agent skill is a whole procedure of yours, replayable at any hour, in any number of instances.
-A colleague you coach is the most expensive system of all, the only one that eventually outgrows your judgment.
+**A colleague you coach is the most expensive system of all, the only one that eventually outgrows your judgment.**
 
 Andy Grove did the accounting decades ago in [High Output Management](https://en.wikipedia.org/wiki/High_Output_Management): a manager's output is the output of their organization plus the output under their influence.
 The same math applies to any engineer with systems.
