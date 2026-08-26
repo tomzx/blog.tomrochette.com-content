@@ -1,8 +1,9 @@
 ---
 title: skills.sh
 created: 2026-08-24
+updated: 2026-08-26
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, skills, registries, vercel, agent-extensions]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, skills, registries, vercel, agent-extensions]
 readability: 3
 audience_notes: >
   Engineers choosing where to discover and install SKILL.md packages across several agent harnesses.
@@ -55,6 +56,7 @@ Free.
 ## Bottom line
 
 **Recommended as the discovery layer for cross-harness teams, provided you pin commits and read the SKILL.md before it touches a repo with production secrets.**
+Not for air-gapped or compliance-bound environments, where an opt-out-telemetry installer needs review before it ever runs.
 My disagreeable claim: marketplaces are the least interesting part of this ecosystem, the ten skills your team writes itself will beat the leaderboard's top ten, and I would not let an agent auto-install from it.
 
 ## See also

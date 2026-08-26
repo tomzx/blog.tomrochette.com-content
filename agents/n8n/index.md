@@ -1,9 +1,9 @@
 ---
 title: n8n
 created: 2026-08-24
-updated: 2026-08-24
+updated: 2026-08-26
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, executions, webhooks, workflow-automation]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, executions, webhooks, workflow-automation]
 readability: 3
 audience_notes: >
   Engineers evaluating a self-hostable platform for webhook- and schedule-driven AI agents outside the repository.
@@ -74,3 +74,5 @@ My disagreeable claim: for scheduled and webhook-triggered coding-adjacent work,
 - https://n8n.io/pricing/ - plan tiers and execution-based billing, as of 2026-08-24
 - https://docs.n8n.io/privacy-and-security/sustainable-use-license.md - license terms and the not-open-source statement
 - https://blog.n8n.io/series-c/ - $180M Series C, $2.5B valuation, October 2025
+- https://news.ycombinator.com/item?id=21191676 - the 2019 launch thread (728 points)
+- https://news.ycombinator.com/item?id=45525336 - the Series C announcement thread (235 points)

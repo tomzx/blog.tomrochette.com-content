@@ -1,6 +1,7 @@
 ---
 title: Vibe Kanban
 created: 2026-08-24
+updated: 2026-08-26
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, orchestration, kanban, git-worktrees, open-source]
 readability: 3
@@ -11,7 +12,7 @@ audience_notes: >
 ---
 
 Vibe Kanban is an Apache-2.0 kanban board for managing parallel coding agents in isolated workspaces, launched by Bloop AI in June 2025; the company shut down in April 2026 and the project continues community-maintained.
-Facts below verified as of 2026-08-24.
+Facts below verified as of 2026-08-26.
 
 **It is the category's most-adopted artifact and its clearest cautionary tale at once: about 27.9k GitHub stars, thousands of daily users, and no business model survived it.**
 
@@ -27,7 +28,7 @@ Self-hosting via Docker was documented for teams.
 Company dead, project alive.
 Bloop shut down on 2026-04-10, with CEO Louis Knight-Webb writing that "the vast majority are free users and we couldn't find a business model".
 Remote services (kanban issues, comments, projects, organisations) were removed 30 days after the announcement; refunds were issued and subscriptions terminated.
-**Local workspaces keep working, and the repo (2,070 commits, 383 open issues as of 2026-08-24) continues as community-maintained open source with a promised community roadmap.**
+**Local workspaces keep working, but "community-maintained" is still a promise rather than activity: as of 2026-08-26 the repo shows no push since 2026-04-24 and no release beyond 0.1.44, while open issues climbed from 383 (2026-08-24) to 533.**
 
 ## Strengths
 
@@ -38,7 +39,7 @@ Remote services (kanban issues, comments, projects, organisations) were removed 
 
 ## Cautions
 
-- Nobody is paid to fix your bug anymore; the community roadmap was still pending when I checked.
+- Nobody is paid to fix your bug anymore, and four months after the shutdown no community release has shipped either; the community roadmap was still pending when I checked.
 - At launch, telemetry defaulted to on and collected emails and GitHub usernames, switched to opt-in only after HN criticism (the fix shipped within hours, but the default tells you about the growth incentives).
 - The team features (shared issues, orgs) are exactly the part that died, which is the part companies would pay for.
 - GitHub integration historically asked for broad permissions, a recurring complaint across this whole category.

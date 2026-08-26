@@ -29,14 +29,14 @@ If the section turns into slop, the logs will show exactly where it went wrong, 
 
 ## Comparison matrices
 
-- [Harness Feature Matrix](harness-feature-matrix/index.md) - the eight harnesses against eleven capability rows, verified 2026-08-24.
-- [Surface Feature Matrix](surface-feature-matrix/index.md) - the ten surfaces against eleven capability rows, verified 2026-08-24.
+- [Harness Feature Matrix](harness-feature-matrix/index.md) - the eleven harnesses against eleven capability rows, verified 2026-08-25.
+- [Surface Feature Matrix](surface-feature-matrix/index.md) - the twelve surfaces (two of them death records) against eleven capability rows, verified 2026-08-26.
 - [Orchestration Feature Matrix](orchestration-feature-matrix/index.md) - the seven worktree managers and dashboards compared, one dead and one orphaned among them.
 - [Protocols Feature Matrix](protocols-feature-matrix/index.md) - the four protocols stack rather than compete, and adoption falls with every step up the stack.
 - [Context Engines Feature Matrix](context-engines-feature-matrix/index.md) - the four context vendors and tools against delivery, deployment, and scale rows.
 - [Skills Feature Matrix](skills-feature-matrix/index.md) - the spec, vendor format, harness mechanism, and registry against runtime and stewardship rows.
 - [Retrieval Feature Matrix](retrieval-feature-matrix/index.md) - the two frameworks and two patterns compared, with the harness-native counterargument engaged.
-- [Memory Feature Matrix](memory-feature-matrix/index.md) - the file convention and three services against memory-model and lock-in rows.
+- [Memory Feature Matrix](memory-feature-matrix/index.md) - the file convention and four services against memory-model and lock-in rows.
 - [Executions Feature Matrix](executions-feature-matrix/index.md) - subscription features versus self-hostable infrastructure across trigger and execution rows.
 - [Hybrid Execution Feature Matrix](hybrid-execution-feature-matrix/index.md) - constrained decoding versus validate-and-retry, the guarantee mechanism as the deciding row.
 
@@ -54,7 +54,7 @@ Refreshed one category at a time, stalest first; dead tools keep their entries, 
 - [Amp](amp/index.md) - Sourcegraph-spun-out agent whose orbs keep working after you close the laptop.
 - [Claude Code](claude-code/index.md) - Anthropic's everywhere-at-once harness, the platform benchmark and the token-cost cautionary tale.
 - [Cline](cline/index.md) - the open-source agent that outgrew its VS Code extension into CLI, kanban, and SDK, 5.1 million installs deep.
-- [Codex](codex/index.md) - OpenAI's ChatGPT-included agent, the only big-lab CLI that is actually Apache-2.0.
+- [Codex](codex/index.md) - OpenAI's ChatGPT-included agent, the Apache-2.0 big-lab CLI individuals can still just run.
 - [Crush](crush/index.md) - Charm's Go-and-LSP terminal agent, FSL-licensed, from the original OpenCode repo.
 - [Gemini CLI](gemini-cli/index.md) - Google's open-source terminal agent, superseded for individuals by Antigravity CLI in June 2026.
 - [goose](goose/index.md) - Block's Rust agent turned Linux Foundation project, the field's first foundation-governed harness.
@@ -65,10 +65,12 @@ Refreshed one category at a time, stalest first; dead tools keep their entries, 
 ## Surfaces
 
 - [Antigravity](antigravity/index.md) - Google's free multi-agent platform (2.0, IDE, CLI, SDK), generous tier, incident-heavy first year.
+- [Continue](continue/index.md) - the open-source Copilot alternative across VS Code, JetBrains, and CLI, acquired by Cursor in June 2026, now read-only.
 - [Cursor](cursor/index.md) - Anysphere's AI-native editor platform, acquired by SpaceX in August 2026.
 - [JetBrains IDEs](jetbrains/index.md) - the analysis-heavy IDEs whose AI layer, AI Assistant plus Junie, is removable and provider-agnostic.
 - [Kiro](kiro/index.md) - AWS's spec-driven agentic IDE, credits-metered, from a 50-credit free tier to $200/month.
 - [OpenChamber](openchamber/index.md) - the MIT open-source session cockpit around OpenCode, worktrees and multi-model fusion included.
+- [Roo Code](roo-code/index.md) - the Cline-fork VS Code extension that sunset itself in May 2026 to chase cloud agents.
 - [Trae](trae/index.md) - ByteDance's budget AI IDE, SOLO mode and cloud tasks from $3/month, telemetry questions attached.
 - [Void](void/index.md) - the Apache-2.0 open-source Cursor alternative, demand proven, releases stalled since April 2025.
 - [VS Code + Copilot](vscode-copilot/index.md) - the neutral default, hosting Copilot, Claude Code, and Codex as swappable harnesses.
@@ -83,7 +85,7 @@ Refreshed one category at a time, stalest first; dead tools keep their entries, 
 - [Crystal](crystal/index.md) - Stravu's worktree manager, deprecated February 2026 for Nimbalyst, kept here as a death record.
 - [dmux](dmux/index.md) - the MIT tmux TUI where every task pane gets its own worktree and branch.
 - [Emdash](emdash/index.md) - the Apache-2.0 agentic development environment from General Action (YC W26), local or over SSH.
-- [Vibe Kanban](vibe-kanban/index.md) - the Apache-2.0 kanban for parallel agents, community-maintained since Bloop shut down in April 2026.
+- [Vibe Kanban](vibe-kanban/index.md) - the Apache-2.0 kanban for parallel agents, orphaned by Bloop's April 2026 shutdown with the community takeover still more promise than activity.
 
 ## Protocols
 

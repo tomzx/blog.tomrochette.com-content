@@ -1,8 +1,9 @@
 ---
 title: Claude Squad
 created: 2026-08-24
+updated: 2026-08-26
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, orchestration, git-worktrees, terminal]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, orchestration, git-worktrees, terminal]
 readability: 3
 audience_notes: >
   Engineers who live in a terminal and want to run several coding agents at once without a GUI.
@@ -41,8 +42,8 @@ Homebrew reports 5,611 installs over the last 365 days as of 2026-08-24, which i
 
 - AGPL-3.0 is a hard no for many corporate environment policies.
 - Development cadence is modest for such a popular repo, and the bus factor looks small.
-- First-run reports in the ecosystem describe clunky onboarding, and there is no Windows story because tmux is a hard requirement.
-- Worktree isolation does not copy untracked files like `.env`, a shared complaint across every tool in this category.
+- Onboarding is do-it-yourself compared with the GUI dashboards (no account, no wizard, just tmux and gh), and there is no Windows story because tmux is a hard requirement.
+- Worktree isolation does not copy untracked files like `.env`, a direct consequence of how git worktrees work, so bring your own env setup.
 
 ## Pricing
 
@@ -51,15 +52,15 @@ No paid tier, hosting, or subscription exists.
 
 ## Compared to
 
-- dmux (../dmux/index.md): also tmux-based but multi-select fan-out and MIT; choose dmux for breadth, Claude Squad for a single static binary.
-- Emdash (../emdash/index.md): a full desktop app with SSH remoting; choose it when you want a GUI and issue tracking.
+- [dmux](../dmux/index.md): also tmux-based but multi-select fan-out and MIT; choose dmux for breadth, Claude Squad for a single static binary.
+- [Emdash](../emdash/index.md): a full desktop app with SSH remoting; choose it when you want a GUI and issue tracking.
 - Plain tmux plus a worktree script: still viable, and what Claude Squad automates is only about 200 lines of shell away.
 
 ## Bottom line
 
 **Recommended as the lowest-commitment way to try worktree-parallel agents in a terminal.**
 Not for AGPL-averse companies or anyone who wants a supported product.
-My disagreeable claim: for most engineers, Claude Squad plus a small setup script covers 90 percent of what the funded dashboards sell, because the dashboards' real product is review ergonomics, not parallelism.
+For most engineers, Claude Squad plus a small setup script covers 90 percent of what the funded dashboards sell, because the dashboards' real product is review ergonomics, not parallelism.
 
 ## See also
 

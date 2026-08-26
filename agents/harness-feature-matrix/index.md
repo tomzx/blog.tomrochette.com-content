@@ -1,9 +1,9 @@
 ---
 title: "Harness Feature Matrix"
 created: 2026-08-24
-updated: 2026-08-25
+updated: 2026-08-26
 status: finished
-tags: [agent-curated, fully-ai-generated, llm=glm-5.3, comparison, harnesses, coding-agents]
+tags: [agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, comparison, harnesses, coding-agents]
 readability: 3
 audience_notes: >
   Engineers shortlisting coding-agent harnesses who need the capability deltas at a glance.
@@ -36,6 +36,7 @@ Each column links to the full research note; every cell below traces to a source
 
 ## Reading the matrix
 
+I read this table by columns rather than rows: pick the two rows you actually care about, then let the rest fall away.
 **The open-client column splits the field into three groups, and each group answers a different buyer.**
 aider, Cline, Codex, Gemini CLI, goose, OpenCode, and Qwen Code hand you auditable code; Crush is source-available with a competing-use restriction that expires per version; Amp, Claude Code, and Junie are binaries you trust.
 
@@ -49,10 +50,10 @@ Codex is open and subscription-fed; Amp is closed but takes your Anthropic key o
 ## Choosing from the matrix
 
 - Need an auditable client plus a subscription: Codex is alone in that cell.
-- Need local models plus MCP: Cline, Crush, goose, OpenCode, or Qwen Code.
+- Need local models plus MCP: Cline, Crush, goose, Junie, OpenCode, or Qwen Code.
 - Need scheduled autonomous work in the cloud: Amp or Claude Code.
 - Need editor-embedded agents with deep analysis: Junie or Claude Code.
-- Need rules portability across tools: Cline, goose, and OpenCode read AGENTS.md natively.
+- Need rules portability across tools: Amp, Cline, Codex, Crush, goose, and OpenCode read AGENTS.md natively.
 - Need none of the above, just cheap precise edits on your keys: aider.
 
 ## See also
@@ -68,7 +69,7 @@ Codex is open and subscription-fed; Amp is closed but takes your Anthropic key o
 - https://github.com/Aider-AI/aider - license and feature surface for the aider column
 - https://ampcode.com/manual/ - modes, plugins, orbs for the Amp column
 - https://code.claude.com/docs/en/overview - surfaces, skills, routines for the Claude Code column
-- https://docs.cline.bot/configuring-cline/cline-rules - rules formats including native AGENTS.md for the Cline column
+- https://docs.cline.bot/features/cline-rules - rules formats including native AGENTS.md for the Cline column
 - https://developers.openai.com/codex/cli - CLI, skills, AGENTS.md for the Codex column
 - https://goose-docs.ai/docs/guides/context-engineering/using-goosehints - AGENTS.md and .goosehints defaults for the goose column
 - https://opencode.ai/docs/mcp-servers/ - MCP configuration for the OpenCode column

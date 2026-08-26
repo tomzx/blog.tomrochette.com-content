@@ -1,9 +1,9 @@
 ---
 title: goose
 created: 2026-08-24
-updated: 2026-08-24
+updated: 2026-08-26
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, coding-agents, harnesses, open-source, linux-foundation]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, coding-agents, harnesses, open-source, linux-foundation]
 readability: 3
 audience_notes: >
   Engineers weighing an open agent whose stewardship does not depend on one company.
@@ -11,7 +11,7 @@ audience_notes: >
 
 ---
 
-goose is an open-source (Apache-2.0) general-purpose AI agent written in Rust, started inside Block and, since April 2026, a project of the Agentic AI Foundation (AAIF) at the Linux Foundation.
+goose is an open-source (Apache-2.0) general-purpose AI agent written in Rust, started inside Block and now governed by the Agentic AI Foundation (AAIF) at the Linux Foundation.
 Facts below verified as of 2026-08-24.
 
 **goose matters less for what it does than for how it is owned: it is the first major coding-adjacent agent to move from a corporate parent to a foundation, an exit path no other open harness offers.**
@@ -28,7 +28,7 @@ It talks to 15+ providers (Anthropic, OpenAI, Google, Ollama, OpenRouter, Azure,
 **Active and foundation-governed.**
 The repository (moved from Block's org to `aaif-goose/goose`) shows about 53.4k stars as of 2026-08-24 and was pushed the same day.
 The January 2025 launch drew a 249-point Hacker News thread, and coverage through 2026 describes adoption scaling to a majority of Block's engineers, though that figure comes from a third-party course site, not a Block primary source.
-On April 7, 2026 the project announced its move to the AAIF at the Linux Foundation, alongside Anthropic's MCP and OpenAI's AGENTS.md.
+Block contributed goose at the AAIF's formation on December 9, 2025, alongside Anthropic's MCP and OpenAI's AGENTS.md, and the project completed its migration to the aaif-goose organization on April 7, 2026.
 
 ## Strengths
 
@@ -71,7 +71,7 @@ Not for teams that want a coding-specialized harness or a single vendor's suppor
 
 - https://github.com/aaif-goose/goose - README, license, surfaces, repository scale as of 2026-08-24
 - https://goose-docs.ai/docs/getting-started/installation - install paths, desktop and CLI, AAIF banner
-- https://goose-docs.ai/blog/2026/04/07/goose-moves-to-aaif - the April 7, 2026 move announcement
-- https://www.aaif.io/ - the Agentic AI Foundation and its projects
+- https://goose-docs.ai/blog/2026/04/07/goose-moves-to-aaif - the April 7, 2026 migration-completion announcement
+- https://aaif.io/press/linux-foundation-announces-the-formation-of-the-agentic-ai-foundation-aaif-anchored-by-new-project-contributions-including-model-context-protocol-mcp-goose-and-agents-md/ - the December 9, 2025 formation announcement listing goose as a founding contribution
 - https://news.ycombinator.com/item?id=42879323 - the January 2025 launch thread (249 points, 68 comments)
 - https://news.ycombinator.com/item?id=48279117 - the "60% of Block" coverage, a weak-sourced claim worth marking

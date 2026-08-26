@@ -1,9 +1,9 @@
 ---
 title: aider
 created: 2026-08-22
-updated: 2026-08-23
+updated: 2026-08-26
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, coding-agents, harnesses, pair-programming, open-source]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, coding-agents, harnesses, pair-programming, open-source]
 readability: 3
 audience_notes: >
   Engineers who want cheap, controlled edits against their own API keys rather than an autonomous agent.
@@ -12,7 +12,7 @@ audience_notes: >
 ---
 
 aider is AI pair programming in your terminal: a Python, Apache-2.0, bring-your-own-key tool by Paul Gauthier (Aider-AI) that predates the agentic coding wave.
-Facts below verified as of 2026-08-22.
+Facts below verified as of 2026-08-23.
 
 **aider's refusal to become an autonomous agent is a feature: it is the cheapest precise-edit tool in the field, and its stale public leaderboard is still more trustworthy than any vendor's own benchmark claims.**
 
@@ -58,6 +58,7 @@ No subscription exists to buy.
 ## Bottom line
 
 Recommended for precise, reviewable edits on your own keys, and as the low-cost baseline every fancier tool should justify itself against.
+I still open it when I want the diff to be the entire story.
 Not for long autonomous tasks, hands-off refactors, or teams that need an actively maintained tool.
 
 ## See also
@@ -70,7 +71,7 @@ Not for long autonomous tasks, hands-off refactors, or teams that need an active
 ## References
 
 - https://aider.chat/ - features, install stats, model recommendations
-- https://github.com/Aider-AI/aider - repository scale and license, as of 2026-08-22
+- https://github.com/Aider-AI/aider - repository scale and license, as of 2026-08-23
 - https://aider.chat/docs/leaderboards/ - the polyglot benchmark, results dated August 2025
 - https://news.ycombinator.com/item?id=39995725 - launch-era discussion of strengths and failure modes
-- https://news.ycombinator.com/item?id=43708025 - later thread where users spell out what aider lacks versus agents
+- https://news.ycombinator.com/item?id=43672712 - critical thread on aider's wasted inference spend against agentic rivals

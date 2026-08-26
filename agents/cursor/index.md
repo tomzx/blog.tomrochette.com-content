@@ -1,9 +1,9 @@
 ---
 title: Cursor
 created: 2026-08-23
-updated: 2026-08-23
+updated: 2026-08-26
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, surfaces, ai-editors, anysphere]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, surfaces, ai-editors, anysphere]
 readability: 3
 audience_notes: >
   Engineers picking an AI-native editor who want to know what Cursor is now that SpaceX owns it.
@@ -18,7 +18,7 @@ Facts below verified as of 2026-08-23.
 ## What it is
 
 **A VS Code fork turned platform: the editor plus a CLI, cloud agents that run for hours or days, scheduled automations, a Slack integration, mobile, and Bugbot for agent code review.**
-Model access spans OpenAI, Anthropic, Google, xAI, and Cursor's own Composer and Grok families, plus a marketplace for team rules, skills, and plugins.
+Model access spans OpenAI, Anthropic, Google, and xAI (whose Grok arrived through the SpaceXAI partnership), plus Cursor's own Composer models and a marketplace for team rules, skills, and plugins.
 
 ## Status
 

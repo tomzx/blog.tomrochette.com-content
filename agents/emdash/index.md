@@ -1,6 +1,7 @@
 ---
 title: Emdash
 created: 2026-08-24
+updated: 2026-08-26
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, orchestration, git-worktrees, open-source, desktop-app]
 readability: 3
@@ -11,7 +12,7 @@ audience_notes: >
 ---
 
 Emdash is an Apache-2.0 "agentic development environment" from General Action (YC W26): a macOS, Windows, and Linux desktop app that runs parallel coding agents in git worktrees, locally or over SSH on remote machines.
-Facts below verified as of 2026-08-24.
+Facts below verified as of 2026-08-26 (domain moved from emdash.ai to emdash.com, the old host 301-redirects).
 
 **It is currently the most credible open, cross-platform alternative to Conductor, with the deepest agent support (25+ CLIs), and its real risk is category risk: its own launch commenters reasonably ask whether harness CLIs will absorb this layer.**
 
@@ -69,8 +70,8 @@ My disagreeable claim: Emdash's SSH support matters more than any feature matrix
 
 ## References
 
-- https://emdash.ai/ - features, 25+ agent support, downloads claim, YC W26
+- https://emdash.com/ - features, 25+ agent support, downloads claim, YC W26
 - https://github.com/generalaction/emdash - README, Apache-2.0 license, installers, privacy model
-- https://emdash.ai/cloud - cloud workspaces positioning
+- https://emdash.com/cloud - cloud workspaces positioning
 - https://news.ycombinator.com/item?id=47140322 - founders' launch thread: design, business model, skepticism
 - https://blog.cloudflare.com/emdash-wordpress/ - the unrelated Cloudflare EmDash name collision

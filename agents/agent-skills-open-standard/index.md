@@ -1,8 +1,9 @@
 ---
 title: Agent Skills open standard
 created: 2026-08-24
+updated: 2026-08-26
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, skills, agent-extensions, open-standards]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, skills, agent-extensions, open-standards]
 readability: 3
 audience_notes: >
   Engineers writing SKILL.md packages meant to run in more than one agent harness.
@@ -38,7 +39,7 @@ Mintlify now auto-generates a skill at `.well-known/skills/default/skill.md` for
 
 - **The spec standardizes packaging, not behavior: whether a skill fires is model judgment over one description line, so the same skill behaves differently per harness and per model.**
 - Frontmatter fragmentation: Claude Code-only fields (`context: fork`, hooks in skills, `disable-model-invocation`) and Codex's `agents/openai.yaml` live outside the spec, and the Vercel CLI's compatibility matrix shows `context: fork` working in Claude Code alone.
-- Security posture varies wildly: Gemini CLI asks user consent before injecting a skill and granting it file access, OpenCode supports per-skill allow/deny/ask patterns, Claude Code sanitizes synced skills, and Codex adds enterprise skill controls.
+- Security posture varies wildly: Gemini CLI asks user consent before injecting a skill and granting it file access, OpenCode supports per-skill allow/deny/ask patterns, Claude Code sanitizes synced skills, and Codex adds enterprise skill controls; Anthropic's own engineering post frames the underlying problem as executing untrusted packages.
 - The spec has no versioning or dependency story; third parties (skills.sh, Skilleton) bolt their own on top.
 
 ## Pricing
@@ -55,6 +56,7 @@ Not applicable.
 ## Bottom line
 
 **Recommended as the default packaging for any procedure you want an agent to repeat.**
+Not for live tool and data connections or anything needing runtime guarantees, which is what MCP is for.
 My disagreeable claim: SKILL.md is quietly becoming the interface between software vendors and agents, and any docs team without a published skill file will be effectively invisible to coding agents by 2027.
 
 ## See also
@@ -73,3 +75,4 @@ My disagreeable claim: SKILL.md is quietly becoming the interface between softwa
 - https://opencode.ai/docs/skills/ - Claude-compatible and .agents paths, unknown-field behavior
 - https://www.mintlify.com/blog/skill-md - third-party adoption, .well-known convention, install.md deprecation
 - https://github.com/vercel-labs/skills - cross-harness compatibility matrix
+- https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills - the untrusted-skill security risk behind the caution above

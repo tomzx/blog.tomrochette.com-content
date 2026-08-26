@@ -1,9 +1,9 @@
 ---
 title: Gemini CLI
 created: 2026-08-22
-updated: 2026-08-23
+updated: 2026-08-26
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, coding-agents, harnesses, google, developer-tools]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, coding-agents, harnesses, google, developer-tools]
 readability: 3
 audience_notes: >
   Engineers who keep hearing Gemini CLI recommended as the free open-source terminal agent.
@@ -31,7 +31,7 @@ The README still advertises the free tier, which is stale for individuals; treat
 
 ## Strengths
 
-- **The only Apache-2.0 CLI from a major lab while it lasted, with the most generous free tier of 2025.**
+- **The first Apache-2.0 CLI from a major lab, and until June 2026 the most generous free tier in the field.**
 - Gemini 3 models with a 1M-token context window, unmatched for whole-repository prompting.
 - Google Search grounding built in, not bolted on.
 - Continuity for enterprise Code Assist customers is explicitly guaranteed by Google.
@@ -50,14 +50,14 @@ For enterprises: Gemini Code Assist Standard or Enterprise licensing, or pay-as-
 
 ## Compared to
 
-- Antigravity CLI: the official successor, Go-based, multi-agent; individuals should start here, not with Gemini CLI.
+- [Antigravity](../antigravity/index.md): its CLI is the official successor, Go-based and multi-agent; individuals should start there, not with Gemini CLI.
 - [Codex](../codex/index.md): still a genuinely open big-lab CLI with a consumer free tier.
 - [OpenCode](../opencode/index.md): the provider-neutral way to keep using Gemini models from a terminal without Google's harness decisions.
 
 ## Bottom line
 
 **Recommended only for organizations holding Code Assist licenses or paid API budgets.**
-Not for individuals, whatever the 2025 blog posts told you.
+Not for individuals, whatever the 2025 blog posts (several of which I believed at the time) told you.
 
 ## See also
 

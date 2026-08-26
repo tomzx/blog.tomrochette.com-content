@@ -1,8 +1,9 @@
 ---
 title: File-based agent memory
 created: 2026-08-24
+updated: 2026-08-26
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, agent-memory, context-engineering]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, agent-memory, context-engineering]
 readability: 3
 audience_notes: >
   Engineers running any agentic coding tool who want memory without new infrastructure.
@@ -40,7 +41,7 @@ The failure mode is known and documented too: bloat kills adherence.
 
 - **Adherence is statistical, not enforced**: Anthropic's own docs say there is "no guarantee of strict compliance", files over 200 lines measurably reduce it, and conflicting rules get resolved arbitrarily.
 - Every session pays the token cost of whatever is loaded; unscoped rules are a permanent context tax.
-- Files rot without pruning, hence `/doctor`-style trimming tooling; Claude Code skips CLAUDE.md files over 4 MiB entirely.
+- Files rot without pruning, so schedule a trim pass the way you schedule dependency bumps; Claude Code skips CLAUDE.md files over 4 MiB entirely.
 - Auto memory is machine-local and per-repository; it does not follow you across machines or apps, which is exactly where hosted memory earns its keep.
 
 ## Pricing
@@ -74,4 +75,4 @@ Reach for a memory service only for cross-user or cross-app memory; my disagreea
 - https://cursor.com/docs/rules - rules types, AGENTS.md support, path scoping
 - https://www.anthropic.com/engineering/claude-code-best-practices - guidance on keeping instruction files short enough to be obeyed
 - https://github.com/NevaMind-AI/memU - a markdown-wiki memory product with real traction (14.3k stars)
-- https://news.ycombinator.com/item?id=46294274 - practitioners debating file memory versus hosted memory
+- https://news.ycombinator.com/item?id=46294274 - the Letta Code launch thread, where hosted-memory practice meets file-first practitioners

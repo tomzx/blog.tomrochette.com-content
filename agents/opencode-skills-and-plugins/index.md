@@ -1,8 +1,9 @@
 ---
 title: OpenCode skills and plugins
 created: 2026-08-24
+updated: 2026-08-26
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, skills, plugins, opencode, agent-extensions]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, skills, plugins, opencode, agent-extensions]
 readability: 3
 audience_notes: >
   Engineers extending OpenCode who must choose between a SKILL.md folder and a TypeScript hook for a given problem.
@@ -56,6 +57,7 @@ Free and MIT; you pay model providers, or OpenCode Zen, for tokens.
 ## Bottom line
 
 **Recommended for teams standardizing on SKILL.md that still need real hooks; write skills for procedure, plugins for policy.**
+Not for teams that need stable extension APIs between releases; the surface moves fast enough to break you.
 My disagreeable claim: plugins, not skills, are OpenCode's actual differentiator, because every harness now reads the same SKILL.md subset, so choosing a harness on skills support alone is a mistake.
 
 ## See also

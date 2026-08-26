@@ -1,9 +1,9 @@
 ---
 title: "Model Selection for Coding Tasks"
 created: 2026-08-24
-updated: 2026-08-24
+updated: 2026-08-26
 status: finished
-tags: [agent-curated, fully-ai-generated, llm=glm-5.3, model-selection, coding-agents, llm-pricing]
+tags: [agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, model-selection, coding-agents, llm-pricing]
 readability: 3
 audience_notes: >
   Engineers who already drive a coding agent and now decide which model to point it at for edits, review passes, and long agentic loops.
@@ -21,7 +21,7 @@ The part most engineers get backwards: **for anyone paying per token, the harnes
 **Three task classes cover almost all coding work, and each maps to a price tier, not to a leaderboard rank.**
 
 - Completion and small edits: the model writes a few dozen lines from tight context; latency and price matter more than peak reasoning, so the cheap tier wins (gpt-5.6-luna, Gemini 3.1 Flash-Lite, Claude Haiku 4.5).
-- The agentic loop: explore, edit, test, repeat for minutes or hours; this is where most tokens die, and the mid tier (Claude Sonnet 5, gpt-5.6-terra, Gemini 3.1 Pro Preview) resolves most of it, while the Kimi and GLM challengers below price the same class far lower.
+- The agentic loop: explore, edit, test, repeat for minutes or hours; this is where most tokens die, and the mid tier (Claude Sonnet 5, gpt-5.6-terra, Gemini 3.1 Pro Preview) resolves most of it, while the Kimi, GLM, and DeepSeek challengers below price the same class far lower.
 - Hard planning and review judgment: architecture choices, gnarly debugging, deciding what to let through; this is the only class where frontier spend reliably pays, and it is a small fraction of your turns.
 
 Escalate by task class inside a session instead of picking one model for everything; Amp's low/medium/high/ultra modes and Codex's Sol/Terra/Luna defaults are this idea shipped as product (see the [Amp](../amp/index.md) and [Codex](../codex/index.md) notes).
@@ -98,7 +98,7 @@ Models are substitutable across providers; a harness with a heavy baseline taxes
 The subscription side: Claude Code is included from Claude Pro ($20 monthly) through Max 20x ($200/month) per the [Claude Code note](../claude-code/index.md), and Codex is included from the ChatGPT Free tier upward per the [Codex note](../codex/index.md), though usage meters in shared five-hour windows with wide published ranges (10-100 local Sol messages on Plus).
 Amp's Megawatt at $20/month makes a linked ChatGPT subscription's usage effectively unlimited at low and medium modes per the [Amp note](../amp/index.md), the cheapest delegation entry if you already pay for ChatGPT.
 The BYOK side: OpenCode, Junie, Crush, and aider bill at provider rates with zero markup (Junie's cloud credits, 10 per 30 days on AI Pro, make BYOK effectively mandatory for real work per the [Junie note](../junie/index.md)).
-The crossover math: $100 of Sonnet 5 API spend buys about 20M input tokens, which one heavy agentic week can eat; if you reliably run past that, subscriptions cap your downside until their limits bite.
+The crossover math: $100 of Sonnet 5 API spend is 50M raw input tokens at the table's $2/M rate, and closer to 20M total tokens once you blend in output-priced generation at agentic ratios, which one heavy week can eat; if you reliably run past that, subscriptions cap your downside until their limits bite.
 One fence to remember: Anthropic's March 2026 legal requests removed Claude subscription login from OpenCode (see the [OpenCode note](../opencode/index.md)), so subscription value does not transfer to third-party harnesses; subscribe to the vendor whose harness you will actually run.
 
 ## A decision guide

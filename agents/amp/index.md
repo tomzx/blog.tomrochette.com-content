@@ -1,9 +1,9 @@
 ---
 title: Amp
 created: 2026-08-22
-updated: 2026-08-24
+updated: 2026-08-26
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, coding-agents, harnesses, remote-execution, developer-tools]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, coding-agents, harnesses, remote-execution, developer-tools]
 readability: 3
 audience_notes: >
   Engineers delegating long-running tasks to agents that keep working after the laptop closes.
@@ -56,6 +56,7 @@ Usage billing and enterprise plans meter by API rates; students and teachers pay
 ## Bottom line
 
 **Recommended for engineers whose bottleneck is supervision of long-running parallel work and whose budget is real.**
+If orbs fit your loop, I think the premium buys itself back in supervision time.
 Not for open-source-only teams or anyone metering their own tokens.
 
 ## See also

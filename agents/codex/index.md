@@ -1,9 +1,9 @@
 ---
 title: Codex
 created: 2026-08-22
-updated: 2026-08-24
+updated: 2026-08-26
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, coding-agents, harnesses, openai, developer-tools]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, coding-agents, harnesses, openai, developer-tools]
 readability: 3
 audience_notes: >
   Engineers choosing a subscription-backed coding agent who want to know what OpenAI's Codex actually ships today.
@@ -14,7 +14,7 @@ audience_notes: >
 Codex is OpenAI's coding agent: a Rust CLI, an IDE extension, a desktop app, and a cloud service, all included in ChatGPT plans.
 Facts below verified as of 2026-08-24.
 
-**Codex is the only big-lab harness whose CLI is genuinely open source (Apache-2.0), and that matters more day to day than any single feature difference with Claude Code.**
+**Codex is the only big-lab harness whose Apache-2.0 CLI an individual can still just run, and that matters more day to day than any single feature difference with Claude Code.**
 
 ## What it is
 
@@ -57,6 +57,7 @@ Overage is sold as credits; API-key usage is plain token pricing.
 ## Bottom line
 
 **Recommended for anyone already paying for ChatGPT**: it is the subscription-backed harness with the least lock-in.
+My own split: subscription-shaped work goes here, metered work goes to aider or OpenCode on my keys.
 Not the cheapest path if your usage is light and token-based (aider or OpenCode with your own keys costs less).
 
 ## See also
@@ -71,5 +72,5 @@ Not the cheapest path if your usage is light and token-based (aider or OpenCode 
 - https://developers.openai.com/codex/ - product overview and surfaces
 - https://developers.openai.com/codex/cli - CLI features, plugins, review, exec
 - https://developers.openai.com/codex/pricing - plans, usage windows, credit rate card
-- https://github.com/openai/codex - repository scale and Apache-2.0 license, as of 2026-08-22
+- https://github.com/openai/codex - repository scale and Apache-2.0 license, as of 2026-08-24
 - https://news.ycombinator.com/item?id=43708025 - launch discussion with early critical comparisons

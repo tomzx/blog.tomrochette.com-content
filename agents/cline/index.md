@@ -1,9 +1,9 @@
 ---
 title: Cline
 created: 2026-08-24
-updated: 2026-08-24
+updated: 2026-08-26
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, coding-agents, harnesses, open-source, byok]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, coding-agents, harnesses, open-source, byok]
 readability: 3
 audience_notes: >
   Engineers who want one open agent across their editor, terminal, and CI.
@@ -42,7 +42,7 @@ The project started as the "Claude Dev" extension in late 2024 and has been rena
 ## Cautions
 
 - **The JetBrains plugin is not open-sourced**, so "open source agent" is true of the core, not of every client.
-- Token consumption is the recurring community complaint; an Ask HN thread on reducing Cline's token usage captures the pattern.
+- Token consumption is the recurring community complaint; this [Ask HN thread on reducing Cline's token usage](https://news.ycombinator.com/item?id=48525711) captures the pattern.
 - The 8M+ install figure is the vendor's own; the marketplace verifiable number is 5.1M.
 - ClinePass means a company now sells subscriptions on top; watch where the open core stops.
 
@@ -61,6 +61,7 @@ Enterprise is custom (SSO, SLA, dedicated support).
 ## Bottom line
 
 **Recommended for VS Code-first engineers who want one open agent from editor to CI on their own keys.**
+It is also the harness I hand non-terminal teammates first.
 Not for teams that require every client binary open or a coding-agnostic automation agent.
 
 ## See also
@@ -79,3 +80,4 @@ Not for teams that require every client binary open or a coding-agnostic automat
 - https://docs.cline.bot/ - agent overview and configuration documentation
 - https://marketplace.visualstudio.com/items?itemName=saoudrizwan.claude-dev - verifiable install count and ratings
 - https://news.ycombinator.com/item?id=43360564 - early community thread on Cline as an autonomous VS Code agent
+- https://news.ycombinator.com/item?id=48525711 - Ask HN thread on reducing Cline's token usage

@@ -1,9 +1,9 @@
 ---
 title: Claude Code
 created: 2026-08-22
-updated: 2026-08-24
+updated: 2026-08-26
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, coding-agents, harnesses, anthropic, developer-tools]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, coding-agents, harnesses, anthropic, developer-tools]
 readability: 3
 audience_notes: >
   Engineers who already drive a terminal coding agent and are deciding whether to standardize on Anthropic's harness.
@@ -42,7 +42,7 @@ Shipping pace in 2026 is high: agent view (May), dynamic workflows across tens o
 - **The harness baseline is heavy**: an independent proxy study measured about 33k input tokens sent before the user's prompt on a minimal task, versus about 7k for OpenCode.
 The same study measured mid-session cache re-writes up to 54x and a 4.2x token multiplier on a two-subagent fan-out (July 2026 snapshot).
 - The same study found 2.1.207 ignored `AGENTS.md` and only read `CLAUDE.md`, so cross-tool instruction files silently do nothing.
-- The client binary is closed; a June 2026 reverse-engineering post found hidden Unicode markers in the system prompt encoding the user's API base URL and timezone classification, and a March 2026 source leak via a npm map file showed internals Anthropic had not documented.
+- The client binary is closed; a June 2026 reverse-engineering post found hidden Unicode markers in the system prompt encoding the user's API base URL and timezone classification, and the March 31, 2026 npm sourcemap leak exposed roughly 512k lines of internals Anthropic had not documented.
 - Cost complaints on API-billed usage are a running theme in community threads.
 
 ## Pricing
@@ -60,6 +60,7 @@ Price and plan changes are at Anthropic's discretion, per the product page.
 ## Bottom line
 
 **Recommended for teams standardized on Claude models who will actually use the orchestration layer.**
+I run it where someone else pays the token bill, and reach for OpenCode when I pay it myself.
 Not for the token-frugal or for anyone who needs an open, auditable client.
 
 ## See also
@@ -74,5 +75,6 @@ Not for the token-frugal or for anyone who needs an open, auditable client.
 - https://code.claude.com/docs/en/overview - surfaces, skills, hooks, subagents, routines, installation
 - https://www.anthropic.com/claude-code - pricing tiers and 2026 feature timeline
 - https://github.com/anthropics/claude-code - repository scale (about 142.8k stars) and npm deprecation, as of 2026-08-24
-- https://thereallo.dev/blog/claude-code-prompt-steganography - independent analysis of hidden prompt markers
+- http://web.archive.org/web/20260814104128/https://thereallo.dev/blog/claude-code-prompt-steganography - independent analysis of hidden prompt markers (archived; the live site blocks automated fetches)
 - https://systima.ai/blog/claude-code-vs-opencode-token-overhead - measured baseline, cache, and subagent token costs (July 2026)
+- https://news.ycombinator.com/item?id=47584540 - the March 31, 2026 npm sourcemap-leak discussion (2,095 points)

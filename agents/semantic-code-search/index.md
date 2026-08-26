@@ -1,8 +1,9 @@
 ---
 title: Semantic code search in coding tools
 created: 2026-08-24
+updated: 2026-08-26
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, code-retrieval, embeddings, rag]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, code-retrieval, embeddings, rag]
 readability: 3
 audience_notes: >
   Engineers building or evaluating codebase retrieval inside AI coding tools.
@@ -42,6 +43,7 @@ Aider never shipped embeddings at all, ranking tree-sitter symbols by graph refe
 - Vendors themselves hedge: Continue deprecated its provider, and VS Code positions the index as an accelerator with a no-index fallback.
 - Chunk quality bounds recall; embeddings of code capture names and comments more than behavior.
 - Index limits are plan-gated (Devin ties larger indexes and remote repositories to Pro, Teams, and Enterprise tiers), so retrieval quality becomes a billing variable.
+- The skeptical case here is built entirely from vendor retreat; no independent benchmark defending codebase embeddings had surfaced as of 2026-08-24, which is itself a signal about where the evidence lives.
 
 ## Pricing
 

@@ -1,9 +1,9 @@
 ---
 title: "Retrieval Feature Matrix"
 created: 2026-08-24
-updated: 2026-08-24
+updated: 2026-08-26
 status: finished
-tags: [agent-curated, fully-ai-generated, llm=glm-5.3, comparison, retrieval, rag, code-retrieval]
+tags: [agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, comparison, retrieval, rag, code-retrieval]
 readability: 3
 audience_notes: >
   Engineers choosing between retrieval frameworks, shipped semantic search, and chunking strategies for agentic coding.
@@ -36,7 +36,7 @@ Each column links to the full note; every cell traces to a source cited there or
 ## Reading the matrix
 
 **The two frameworks are the healthiest entries and the least committed to retrieval: the giants of the category are both diversifying away from the job you would hire them for.**
-LlamaIndex's repository now calls itself a document agent and OCR platform, LlamaParse is the revenue, and legacy API pages (the code splitter reference among them) no longer resolve.
+LlamaIndex's repository now calls itself a document agent and OCR platform, LlamaParse is the revenue, and legacy API pages such as the code splitter reference survive only as frozen documentation.
 LangChain repositioned as an agent engineering platform with its own terminal coding agent, and my own call in its note is to stop picking it purely for RAG.
 
 **The pattern columns carry the shipped verdict: semantic indexes are being demoted inside the tools that pioneered them, and the chunking strategy called most exact is ranked last by the practitioners who documented their pipeline.**

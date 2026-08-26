@@ -1,8 +1,9 @@
 ---
 title: AGENTS.md
 created: 2026-08-24
+updated: 2026-08-26
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, protocols, conventions, context-files]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, protocols, conventions, context-files]
 readability: 3
 audience_notes: >
   Engineers who maintain repositories that coding agents work in and are deciding how to instruct those agents.
@@ -28,7 +29,7 @@ The reference repository (MIT, about 23.8k stars as of 2026-08-24) mostly holds 
 The official site counts more than 60,000 open-source projects carrying an AGENTS.md as of 2026-08-24.
 Adopters include Codex, Gemini CLI, Cursor, GitHub Copilot's coding agent, Amp, Jules, Factory, goose, opencode, Zed, Warp, VS Code, Devin, Junie, Windsurf, and Aider.
 In this index, [Codex](../codex/index.md) treats it as first-class, [OpenCode](../opencode/index.md) reads it alongside CLAUDE.md, and [Crush](../crush/index.md) initializes projects with one.
-The glaring exception is [Claude Code](../claude-code/index.md): its AGENTS.md support request only reached the HN front page in August 2026, and version 2.1.207 still ignored the file per the proxy study in our note.
+The glaring exception is [Claude Code](../claude-code/index.md): its AGENTS.md support request only reached the HN front page in August 2026, and version 2.1.207 still ignored the file per the July 2026 proxy study cited in that note.
 
 ## Strengths
 
@@ -40,7 +41,7 @@ The glaring exception is [Claude Code](../claude-code/index.md): its AGENTS.md s
 ## Cautions
 
 - **The evidence that AGENTS.md files help is weaker than the hype.**
-An ETH Zurich study (arXiv 2602.11988) found context files did not generally improve task success rates while raising inference cost by over 20%: instructions were followed, but repository overviews were not helpful.
+  An ETH Zurich study (arXiv 2602.11988) found context files did not generally improve task success rates while raising inference cost by over 20%: instructions were followed, but repository overviews were not helpful.
 - A bad file is worse than none, since stale instructions actively mislead agents, and practitioners have reported agents committing repo secrets into the file.
 - Fragmentation persists: CLAUDE.md, GEMINI.md, and tool-specific rules coexist, and read quality varies by agent.
 - Every token of the file rides along on every request, so length is a recurring cost.
