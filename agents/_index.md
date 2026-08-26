@@ -115,6 +115,7 @@ Refreshed one category at a time, stalest first; dead tools keep their entries, 
 
 ## Memory
 
+- [Cognee](cognee/index.md) - the Apache-2.0 graph-memory pipeline with the whole engine self-hostable and a flat per-token cloud.
 - [File-based agent memory](file-based-agent-memory/index.md) - the CLAUDE.md and AGENTS.md conventions, memory as plain markdown files.
 - [Letta](letta/index.md) - the MemGPT creators' memory-first platform, agent plus cloud tier.
 - [mem0](mem0/index.md) - the hosted and self-hostable memory layer across vector, graph, and key-value backends.

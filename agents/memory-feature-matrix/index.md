@@ -1,7 +1,7 @@
 ---
 title: "Memory Feature Matrix"
 created: 2026-08-24
-updated: 2026-08-24
+updated: 2026-08-26
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, comparison, memory, agent-memory, ai-agents]
 readability: 3
@@ -10,8 +10,8 @@ audience_notes: >
   Assumes you know what a knowledge graph, BYOK, and MCP mean; each column links to a full note with sources.
 ---
 
-This matrix compares the four memory approaches profiled in this section, feature by feature: the file convention, the memory-first harness, the memory API, and the temporal graph service.
-Everything below was verified against live sources on 2026-08-24.
+This matrix compares the five memory approaches profiled in this section, feature by feature: the file convention, the memory-first harness, the two memory APIs, and the self-hostable graph pipeline.
+Everything below was verified against live sources on 2026-08-24, with the Cognee column verified 2026-08-26.
 
 **For coding agents I would start with plain files and not buy any service on benchmark claims, because the only memory problem files cannot solve at any price is contradiction over time, and Zep is the only vendor whose architecture faces it head on.**
 
@@ -20,18 +20,18 @@ Each column links to the full research note; every cell below traces to a source
 
 ## The matrix
 
-| Feature | [Files](../file-based-agent-memory/index.md) | [Letta](../letta/index.md) | [Mem0](../mem0/index.md) | [Zep](../zep/index.md) |
-| --- | --- | --- | --- | --- |
-| Kind | convention, no vendor | platform, harness plus cloud | hosted service, self-hostable | hosted service, enterprise |
-| Memory model | plain markdown files | editable memory blocks, learned | vector plus graph plus KV | temporal knowledge graph |
-| Self-host | ✓ no infra needed | ~ V1 server archived | ✓ OSS SDK and server | ~ Graphiti engine only |
-| Open source license | ~ memU Apache-2.0 | ✓ Apache-2.0 | ✓ Apache-2.0 | ~ Graphiti Apache-2.0 |
-| Contradiction and decay handling | ✗ manual pruning | ~ sleep-time consolidation | ~ Dream, temporal retrieval | ✓ bi-temporal invalidation |
-| Cross-user, cross-app memory | ✗ machine-local, per-repo | ~ agent-scoped persistence | ✓ apps and thousands of users | ✓ millions of per-user graphs |
-| Integration surface | file conventions, native everywhere | SDK, CLI, cloud API | API, MCP, CLI, skills | API, MCP, plugins |
-| Audit trail | ~ git diffs only | ~ inspectable blocks | ? | ✓ fact-to-episode provenance |
-| Pricing model | free | free BYOK, $20/mo, per-agent metering | freemium, $19 to $249/mo | credits, $104/mo entry |
-| Lock-in risk | none, plain text | medium, pivot churn | medium, paid-only brain | high, managed engine core |
+| Feature | [Files](../file-based-agent-memory/index.md) | [Cognee](../cognee/index.md) | [Letta](../letta/index.md) | [Mem0](../mem0/index.md) | [Zep](../zep/index.md) |
+| --- | --- | --- | --- | --- | --- |
+| Kind | convention, no vendor | OSS platform, library plus cloud | platform, harness plus cloud | hosted service, self-hostable | hosted service, enterprise |
+| Memory model | plain markdown files | graph plus vector plus relational | editable memory blocks, learned | vector plus graph plus KV | temporal knowledge graph |
+| Self-host | ✓ no infra needed | ✓ full engine, BYO backends | ~ V1 server archived | ✓ OSS SDK and server | ~ Graphiti engine only |
+| Open source license | ~ memU Apache-2.0 | ✓ Apache-2.0, whole engine | ✓ Apache-2.0 | ✓ Apache-2.0 | ~ Graphiti Apache-2.0 |
+| Contradiction and decay handling | ✗ manual pruning | ? | ~ sleep-time consolidation | ~ Dream, temporal retrieval | ✓ bi-temporal invalidation |
+| Cross-user, cross-app memory | ✗ machine-local, per-repo | ✓ documented multi-user mode | ~ agent-scoped persistence | ✓ apps and thousands of users | ✓ millions of per-user graphs |
+| Integration surface | file conventions, native everywhere | Python/TS/Rust SDKs, MCP, HTTP, CLI | SDK, CLI, cloud API | API, MCP, CLI, skills | API, MCP, plugins |
+| Audit trail | ~ git diffs only | ? | ~ inspectable blocks | ? | ✓ fact-to-episode provenance |
+| Pricing model | free | OSS free, cloud $2.50 per 1M tokens plus $5 per workspace | free BYOK, $20/mo, per-agent metering | freemium, $19 to $249/mo | credits, $104/mo entry |
+| Lock-in risk | none, plain text | low, engine is portable | medium, pivot churn | medium, paid-only brain | high, managed engine core |
 
 ## Reading the matrix
 
@@ -46,6 +46,7 @@ Auto memory is machine-local and per-repository, so the moment memory must follo
 
 **Open source here does not mean what the license row suggests, and the self-host row is the correction.**
 Letta's 24k-star repo is a landing page with the V1 server archived unsupported; Zep's self-hostable Community Edition is discontinued and only the Graphiti engine remains open; Mem0's benchmarked brain is the paid platform while the OSS SDK is directionally weaker.
+**Cognee is the exception the row now proves: its entire engine is Apache-2.0 with no paid-only core, which is why its lock-in cell is the only low among the vendors.**
 **The only column with no gap between what is open and what runs is the convention, because there is nothing to close.**
 
 **Pricing spreads from zero to $104/month at entry, a 5.5x gap between the two services at their first paid tier, and what the premium buys is governance (provenance, access control, compliance), not memory quality.**
@@ -57,7 +58,8 @@ Mem0's $19 Starter undercuts everyone; Zep's credit metering prices the audit tr
 - User-facing personalization across apps and thousands of users: Mem0, accepting a managed dependency.
 - Facts change over time (preferences, roles, prices) and "why did the agent say that" needs an auditable answer: Zep.
 - Always-on agents that must accumulate a self, or you want to hack on where memory is going: Letta, or steal its memory-block and sleep-time patterns into a harness you already run.
-- Must self-host everything: files or Mem0 OSS, or Graphiti plus your own graph database if you can operate one.
+- Must self-host everything: Cognee (the whole engine runs on your backends), files, or Mem0 OSS, or Graphiti plus your own graph database if you can operate one.
+- Memory across many users with flat billing instead of seats or credits: Cognee Cloud at $2.50 per 1M tokens processed.
 - Solo builder on no budget: files, full stop; Zep's own note says the graph stack is heavy at small scale.
 
 ## See also
@@ -78,3 +80,5 @@ Mem0's $19 Starter undercuts everyone; Zep's credit metering prices the audit tr
 - https://mem0.ai/pricing - Mem0 tiers and quotas for the pricing row
 - https://www.getzep.com/pricing - Zep plans and credit metering for the pricing row
 - https://github.com/getzep/graphiti - the temporal graph engine, self-host requirements for the Zep column
+- https://github.com/topoteretes/cognee - the Cognee column: whole-engine Apache-2.0, backends, multi-user docs
+- https://www.cognee.ai/pricing - Cognee cloud per-token rate and workspace fee, as of 2026-08-26

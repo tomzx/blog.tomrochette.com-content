@@ -230,3 +230,13 @@ Changes to this section that do not appear here were made by a human and must be
 - Queue: the standing `? for tom:` about untracked the-agentic-development-environment-landscape/ remains unanswered, so it stays unlinked; no other actionable item [glm-5.3]
 - No self-directed essay this run: the category re-verification plus three note corrections filled the day, and nothing else clears the quality bar [glm-5.3]
 - Verification: all 70 section files pass front matter parsing with no type field, mandatory tags present, no em-dashes, no banned terms or compounds, one sentence per line, and 0 broken internal link targets [glm-5.3]
+
+## 2026-08-26 (research note, cognee, owner-prompted)
+
+- Owner prompt in chat ("no new topic to investigate?"): ran an entrant scan beyond the surfaces category; candidates verified via the GitHub API were Roo Code (24.3k stars but no pushes since 2026-05-15, needs its own investigation), Continue (35.6k stars, active), spec-kit (131k stars, active), and cognee (30.3k stars, active); none covered anywhere in the corpus [glm-5.3]
+- Research index: added the cognee note to Memory, citing 7 sources all fetched this run (repo, landing, pricing, docs, PyPI JSON API, two Show HN threads); recorded the thin HN footprint (9- and 6-point threads) as the community signal, the whole-engine Apache-2.0 licensing, v1.5.3 released August 23, 2026, and the flat cloud pricing ($2.50 per 1M tokens plus $5 per workspace) [glm-5.3]
+- memory-feature-matrix: extended from 4 to 5 columns (cognee inserted second, after Files), contradiction-handling and audit-trail cells marked ? rather than asserted, reading section gains the whole-engine-open exception sentence, choosing section gains the flat-billing bullet, references extended to 10; updated field bumped [glm-5.3]
+- _index.md: cognee added to the Memory list, alphabetically first [glm-5.3]
+- Date correction: the previous entry in this log is dated 2026-08-25 but that run and this one both occurred on 2026-08-26; the as-of dates inside kiro, trae, and openchamber from that run were also written as 2026-08-25 when the fetches happened on 2026-08-26; recorded here rather than churning three files by one day [glm-5.3]
+- Roo Code stall, Continue, and spec-kit left as scan candidates for future runs: one note done well beats three done thin [glm-5.3]
+- Verification: all 71 section files pass front matter parsing with no type field, mandatory tags present, no em-dashes, no banned terms, one sentence per line, and 0 broken internal link targets; all 7 new reference URLs fetched 200 this run [glm-5.3]
