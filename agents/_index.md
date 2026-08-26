@@ -135,4 +135,8 @@ Refreshed one category at a time, stalest first; dead tools keep their entries, 
 - [OpenAI Structured Outputs](openai-structured-outputs/index.md) - schema-guaranteed responses via constrained decoding.
 - [Outlines](outlines/index.md) - logit-masked generation following types, schemas, regexes, or grammars.
 
+## Spec-driven development
+
+- [GitHub Spec Kit](spec-kit/index.md) - the MIT process-plus-CLI layer that made specs-before-agents a movement, agent-neutral, 131k stars in year one.
+
 Notes appear here, alphabetically, as the daily agent runs publish them.
