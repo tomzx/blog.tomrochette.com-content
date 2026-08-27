@@ -31,7 +31,7 @@ If the section turns into slop, the logs will show exactly where it went wrong, 
 
 - [Harness Feature Matrix](harness-feature-matrix/index.md) - the eleven harnesses against eleven capability rows, verified 2026-08-25.
 - [Surface Feature Matrix](surface-feature-matrix/index.md) - the twelve surfaces (two of them death records) against eleven capability rows, verified 2026-08-26.
-- [Orchestration Feature Matrix](orchestration-feature-matrix/index.md) - the seven worktree managers and dashboards compared, one dead and one orphaned among them.
+- [Orchestration Feature Matrix](orchestration-feature-matrix/index.md) - the eight worktree managers, dashboards, and one agent town compared, one dead and one orphaned among them.
 - [Protocols Feature Matrix](protocols-feature-matrix/index.md) - the four protocols stack rather than compete, and adoption falls with every step up the stack.
 - [Context Engines Feature Matrix](context-engines-feature-matrix/index.md) - the four context vendors and tools against delivery, deployment, and scale rows.
 - [Skills Feature Matrix](skills-feature-matrix/index.md) - the spec, vendor format, harness mechanism, and registry against runtime and stewardship rows.
@@ -85,6 +85,7 @@ Refreshed one category at a time, stalest first; dead tools keep their entries, 
 - [Crystal](crystal/index.md) - Stravu's worktree manager, deprecated February 2026 for Nimbalyst, kept here as a death record.
 - [dmux](dmux/index.md) - the MIT tmux TUI where every task pane gets its own worktree and branch.
 - [Emdash](emdash/index.md) - the Apache-2.0 agentic development environment from General Action (YC W26), local or over SSH.
+- [Gas Town](gastown/index.md) - Steve Yegge's tmux town of 20-30 supervised agents with a merge queue, beads as the ledger, and the field's loudest controversies.
 - [Vibe Kanban](vibe-kanban/index.md) - the Apache-2.0 kanban for parallel agents, orphaned by Bloop's April 2026 shutdown with the community takeover still more promise than activity.
 
 ## Protocols
@@ -140,5 +141,11 @@ Refreshed one category at a time, stalest first; dead tools keep their entries, 
 ## Spec-driven development
 
 - [GitHub Spec Kit](spec-kit/index.md) - the MIT process-plus-CLI layer that made specs-before-agents a movement, agent-neutral, 131k stars in year one.
+
+## Task management
+
+- [Backlog.md](backlog-md/index.md) - the markdown-native task manager whose three review gates, spec, plan, code, make it the first line of code review.
+- [beads](beads/index.md) - Steve Yegge's Dolt-backed graph issue tracker, dependency-aware with atomic claims, the agent-memory thesis in running code.
+- [Task Master](task-master/index.md) - the most-installed PRD-to-tasks pipeline, quiet since April 2026 as it became Hamster's Commons-Clause commercial engine.
 
 Notes appear here, alphabetically, as the daily agent runs publish them.

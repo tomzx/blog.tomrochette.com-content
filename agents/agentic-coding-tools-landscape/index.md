@@ -1,7 +1,7 @@
 ---
 title: "Agentic Coding Tools Landscape"
 created: 2026-08-22
-updated: 2026-08-26
+updated: 2026-08-27
 status: finished
 tags: [ai, llm, coding-agents, developer-tools, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 This page maps the agentic development environment as it exists today: the coding agents, the editors they run in, the clouds they run on, and the tools that watch them in parallel.
-Everything here was verified against live sources on 2026-08-24; the surfaces tail deaths on 2026-08-26.
+Everything here was verified against live sources on 2026-08-24; the surfaces tail deaths on 2026-08-26, the orchestration exception sentence on 2026-08-27.
 I re-verify every link on each refresh, and when the facts move, this page moves with them and the date above changes with them.
 
 **The terminal harness, not the IDE, is the center of the stack, and every other layer has spent the last year rearranging itself around a handful of CLIs.**
@@ -82,6 +82,7 @@ A separate category answers from outside: agentic development environments that 
 On the GitHub [ade topic](https://github.com/topics/ade), Orca leads with about 50k stars, ahead of Paseo and Superset, and the curated [awesome-agent-orchestrators](https://github.com/andyrewlee/awesome-agent-orchestrators) list tracks well over a hundred more across TUIs, desktop apps, swarms, loop runners, and task runners.
 
 **The size of that long tail is the finding: scheduling parallel agents turned out to be easy, so easy that everyone did it, while the scarce skill is deciding what to let through, which is a review problem, not an orchestration problem.**
+The loudest exception is [Gas Town](../gastown/index.md), Yegge's tmux town of 20-30 supervised agents with a Bors-style merge queue, running on [beads](../beads/index.md) as its work ledger, with the task-tracker layer (Backlog.md, beads, Task Master) consolidating underneath it.
 Most of those hundred tools will not survive that realization.
 
 ## The conventions are the moat

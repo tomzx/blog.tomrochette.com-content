@@ -1,7 +1,7 @@
 ---
 title: "Orchestration Feature Matrix"
 created: 2026-08-24
-updated: 2026-08-24
+updated: 2026-08-27
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, comparison, orchestration, git-worktrees, parallel-agents]
 readability: 3
@@ -10,28 +10,28 @@ audience_notes: >
   Assumes you know what a git worktree is and already run at least one CLI coding agent; each column links to a full note.
 ---
 
-This matrix compares the seven orchestration tools profiled in this section, the parallel-agent dashboards and worktree managers, feature by feature, so the shortlisting step does not require reading seven notes.
-Everything below was verified against live sources on 2026-08-24.
+This matrix compares the eight orchestration tools profiled in this section, the parallel-agent dashboards, worktree managers, and the one agent town, feature by feature, so the shortlisting step does not require reading eight notes.
+Everything below was verified against live sources on 2026-08-24; the Gas Town column on 2026-08-27.
 
-**Parallelism is already the free commodity in this category: the only things anyone pays for are review ergonomics and remote execution, and I expect more of these seven to die or pivot before any of them becomes durable infrastructure.**
+**Parallelism is already the free commodity in this category: the only things anyone pays for are review ergonomics and remote execution, and I expect more of these eight to die or pivot before any of them becomes durable infrastructure.**
 
 Legend: ✓ supported, ✗ not supported, ~ partial or conditional, ? not verified as of the date above.
 Each column links to the full research note; every cell below traces to a source cited there or in the references.
 
 ## The matrix
 
-| Feature | [Claude Squad](../claude-squad/index.md) | [cmux](../cmux/index.md) | [Conductor](../conductor/index.md) | [Crystal](../crystal/index.md) | [dmux](../dmux/index.md) | [Emdash](../emdash/index.md) | [Vibe Kanban](../vibe-kanban/index.md) |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| Kind | terminal TUI | native macOS terminal | native Mac app | Electron app | terminal TUI | Electron app | web UI, Rust backend |
-| Platforms | macOS, Linux (tmux, no Windows) | macOS only | macOS only (local) | macOS first, Linux later | macOS, Linux (tmux) | macOS, Windows, Linux | any OS with Node |
-| Open source | ✓ AGPL-3.0 | ~ GPL-3.0, open core | ✗ closed | ✓ MIT | ✓ MIT | ✓ Apache-2.0 | ✓ Apache-2.0 |
-| Price model | free, no tier | free, Pro $24/mo | free local, Pro $50/mo | free (Nimbalyst sells teams) | free | free core, cloud contact-sales | free (subs terminated) |
-| Per-task worktree isolation | ✓ | ? | ✓ own branch | ✓ | ✓ AI-named branch | ✓ | ✓ own branch |
-| Harnesses it can drive | any CLI via profiles | any CLI agent | 4 (Claude Code, Codex, Cursor, OpenCode) | 2 (Claude Code, Codex) | 11 CLIs | 25+ CLIs, auto-detected | 10+ agents |
-| Remote or SSH execution | ? | ~ SSH sessions | ? | ? | ✗ local only | ✓ SSH-first | ~ Docker self-host |
-| Built-in review tooling | ~ diff preview tab | ? | ✓ diffs, checks, PR, review | ~ diff viewer, rebase, squash | ~ merge and PR menu | ✓ diffs, PRs, CI checks | ✓ diffs, comments, PR |
-| Cloud execution option | ✗ no hosting | ✓ Pro cloud VMs | ✓ Vercel sandboxes | ? | ✗ | ~ contact-sales | ✗ services removed |
-| Current status | active, slow burn | active, fast | active, $22M raised | deprecated Feb 2026 | active | active, YC W26 | community-maintained |
+| Feature | [Claude Squad](../claude-squad/index.md) | [cmux](../cmux/index.md) | [Conductor](../conductor/index.md) | [Crystal](../crystal/index.md) | [dmux](../dmux/index.md) | [Emdash](../emdash/index.md) | [Gas Town](../gastown/index.md) | [Vibe Kanban](../vibe-kanban/index.md) |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Kind | terminal TUI | native macOS terminal | native Mac app | Electron app | terminal TUI | Electron app | tmux town, workspace manager | web UI, Rust backend |
+| Platforms | macOS, Linux (tmux, no Windows) | macOS only | macOS only (local) | macOS first, Linux later | macOS, Linux (tmux) | macOS, Windows, Linux | macOS, Linux, Windows, Docker | any OS with Node |
+| Open source | ✓ AGPL-3.0 | ~ GPL-3.0, open core | ✗ closed | ✓ MIT | ✓ MIT | ✓ Apache-2.0 | ✓ MIT | ✓ Apache-2.0 |
+| Price model | free, no tier | free, Pro $24/mo | free local, Pro $50/mo | free (Nimbalyst sells teams) | free | free core, cloud contact-sales | free, BYOK runtime | free (subs terminated) |
+| Per-task worktree isolation | ✓ | ? | ✓ own branch | ✓ | ✓ AI-named branch | ✓ | ✓ worktree hooks | ✓ own branch |
+| Harnesses it can drive | any CLI via profiles | any CLI agent | 4 (Claude Code, Codex, Cursor, OpenCode) | 2 (Claude Code, Codex) | 11 CLIs | 25+ CLIs, auto-detected | 5 runtimes, Claude Code default | 10+ agents |
+| Remote or SSH execution | ? | ~ SSH sessions | ? | ? | ✗ local only | ✓ SSH-first | ~ Docker compose | ~ Docker self-host |
+| Built-in review tooling | ~ diff preview tab | ? | ✓ diffs, checks, PR, review | ~ diff viewer, rebase, squash | ~ merge and PR menu | ✓ diffs, PRs, CI checks | ✓ Refinery merge queue | ✓ diffs, comments, PR |
+| Cloud execution option | ✗ no hosting | ✓ Pro cloud VMs | ✓ Vercel sandboxes | ? | ✗ | ~ contact-sales | ✗ self-host, Wasteland federation | ✗ services removed |
+| Current status | active, slow burn | active, fast | active, $22M raised | deprecated Feb 2026 | active | active, YC W26 | active, 17.8k stars | community-maintained |
 
 ## Reading the matrix
 
@@ -46,13 +46,14 @@ The wrapping pattern dominates (Emdash auto-detects installed CLIs, Claude Squad
 **Where your code lives is the quiet differentiator, and Emdash is alone in treating it as a design decision with SSH-first execution and credentials in the OS keychain.**
 Cloud execution exists only where a subscription needs it, cmux Pro and Conductor Cloud; dmux is explicitly local-only, Claude Squad ships no hosting at all, and Vibe Kanban's remote services were removed thirty days after its shutdown announcement.
 
-**The status row is the most instructive one in the matrix: of seven tools, one is deprecated, one lost its vendor, and the counterexample runs on a $22M Series A.**
+**The status row is the most instructive one in the matrix: of eight tools, one is deprecated, one lost its vendor, and the counterexamples run on a $22M Series A and a very loud founder.**
 Crystal was deprecated in February 2026 in favor of Nimbalyst, the clearest signal yet that a pure worktree-session manager can be a feature rather than a product.
 Bloop shut down in April 2026 and Vibe Kanban survives community-maintained, local workspaces intact but nobody paid to fix bugs.
 Conductor staying a pure session manager and raising money is what keeps the feature-versus-product question contested instead of settled.
 
 **Review is the bottleneck this category actually sells, and delivery tracks funding: Conductor has the deepest review surface (diffs, checks, PR page, code review), Emdash and Vibe Kanban carry full PR flows, and the terminal tools stop at diff tabs and merge menus.**
 Claude Squad's preview tab and dmux's pane-menu PR cover the dispatch, wait, review, merge loop, but nobody should expect checks or inline comments there.
+**Gas Town is the exception that proves the row: its Refinery is a Bors-style merge queue with verification gates, review as infrastructure rather than review as a pane.**
 
 ## Choosing from the matrix
 
@@ -61,6 +62,7 @@ Claude Squad's preview tab and dmux's pane-menu PR cover the dispatch, wait, rev
 - Live in the terminal: Claude Squad for the smallest footprint, dmux for multi-agent fan-out and resumable panes.
 - On macOS and drowning in sessions that need attention: cmux's notification rings and unread panel.
 - Want planning-first and vendor-less: Vibe Kanban, accepting community-only maintenance.
+- Supervising 20 or more agents with agent watchers and a merge queue, credits and churn accepted: Gas Town.
 - Do not adopt Crystal today; if its idea appeals, evaluate Nimbalyst on its own merits.
 
 ## See also
@@ -78,6 +80,8 @@ Claude Squad's preview tab and dmux's pane-menu PR cover the dispatch, wait, rev
 - https://conductor.build/pricing/ - tiers, sandbox specs, local versus cloud privacy for the Conductor column
 - https://github.com/stravu/crystal - deprecation notice and feature history for the Crystal column
 - https://github.com/standardagents/dmux - supported agent list, hooks, local-only scope for the dmux column
-- https://emdash.ai/ - agent support, SSH model, downloads for the Emdash column
+- https://emdash.com/ - agent support, SSH model, downloads for the Emdash column
 - https://github.com/BloopAI/vibe-kanban - sunset banner and feature list for the Vibe Kanban column
+- https://github.com/gastownhall/gastown - architecture, runtimes, Refinery, Docker setup for the Gas Town column
+- https://maggieappleton.com/gastown - the field analysis grounding the Gas Town status and cost cells
 - https://www.vibekanban.com/blog/shutdown - shutdown date, service removal, refunds for the status row
