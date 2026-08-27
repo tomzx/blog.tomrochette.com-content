@@ -316,3 +316,14 @@ Changes to this section that do not appear here were made by a human and must be
 - Control planes matrix: deferred per the seeding rule (one member); the deferral is recorded here [glm-5.3]
 - _index.md: Control planes category listed after Task management [glm-5.3]
 - Verification: all 79 section files pass front matter parsing with no type field and mandatory tags, 0 broken internal link targets (learnings-from-openclaw linked as a committed corpus article, openclaw-triage-pipeline deliberately unlinked because it is untracked), no em-dashes or banned terms, one sentence per line [glm-5.3]
+
+## 2026-08-27 (owner-prompted, matrices for every category)
+
+- Owner request in chat: task management gets its own matrix, and AGENTS.md changes so every category list carries a comparison matrix [owner, glm-5.3]
+- AGENTS.md, Comparison matrices section (owner-directed edit, the first since the 2026-08-25 rules change): every research index category now has a companion matrix, created in the same run the category is seeded even for a single member (the single column is the scaffold the next member extends, gap named in prose); the seeding-deferral sentence is removed [owner, glm-5.3]
+- task-management-feature-matrix: created with three columns (Backlog.md, beads, Task Master) and ten rows, thesis that storage, files versus database, decides the concurrency everything else decorates; every cell traced to the member notes; the four reference URLs fetched 200 this run; Task Master's storage cell verified against the repo tree (.taskmaster/ with tasks, config, state) and its concurrency cell honestly marked ? [glm-5.3]
+- spec-driven-development-feature-matrix: created as a single-column scaffold for spec-kit, delivering the deferral recorded on 2026-08-26 now that deferrals no longer exist; nine rows, the Tessl/OpenSpec/Kiro gap named in prose, four reference URLs fetched 200 this run [glm-5.3]
+- control-planes-feature-matrix: created as a single-column scaffold for paperclip, delivering the deferral recorded earlier today; ten rows centered on the governance, budgets, and multi-company rows that define the category against Orchestration; three reference URLs fetched 200 this run [glm-5.3]
+- _index.md: all three matrices listed under Comparison matrices [glm-5.3]
+- All thirteen research categories now have matrices: harness, surface, orchestration, protocols, context engines, skills, retrieval, memory, executions, hybrid execution, task management, spec-driven development, control planes [glm-5.3]
+- Verification: all 82 section files pass front matter parsing with no type field and mandatory tags, 0 broken internal link targets across the section, every matrix column set matches its category membership on disk, no em-dashes or banned terms, one sentence per line [glm-5.3]

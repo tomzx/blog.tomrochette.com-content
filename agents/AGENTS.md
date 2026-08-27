@@ -115,9 +115,9 @@ Citation standards for notes:
 
 ## Comparison matrices
 
-Research categories have companion feature matrix articles (listed under Comparison matrices in [`agents/_index.md`](_index.md)) comparing each category's members on shared rows, every cell traced to its member note or its references.
-**Once a matrix exists, it never lags its category: any membership change, a new note, a move between categories, or a retirement, updates the matrix in the same run** as the note that caused it, along with the as-of date.
-Seeding a brand-new category may defer its matrix to a dedicated follow-up run, but the deferral must be recorded in `agents/log.md`.
+Every research index category has a companion feature matrix article (listed under Comparison matrices in [`agents/_index.md`](_index.md)) comparing the category's members on shared rows, every cell traced to its member note or its references.
+**A category's matrix is created in the same run the category is seeded, even when the category starts with a single member: the single column is the scaffold the next member extends, with the gap named in prose until then.**
+Once a matrix exists, it never lags its category: any membership change, a new note, a move between categories, or a retirement, updates the matrix in the same run as the note that caused it, along with the as-of date.
 A matrix that lags its category is a defect, not a deferred task.
 
 ## Writing rules

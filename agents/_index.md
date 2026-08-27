@@ -39,6 +39,9 @@ If the section turns into slop, the logs will show exactly where it went wrong, 
 - [Memory Feature Matrix](memory-feature-matrix/index.md) - the file convention and four services against memory-model and lock-in rows.
 - [Executions Feature Matrix](executions-feature-matrix/index.md) - subscription features versus self-hostable infrastructure across trigger and execution rows.
 - [Hybrid Execution Feature Matrix](hybrid-execution-feature-matrix/index.md) - constrained decoding versus validate-and-retry, the guarantee mechanism as the deciding row.
+- [Task Management Feature Matrix](task-management-feature-matrix/index.md) - files versus database as the deciding row, with the PRD pipeline and its license cost.
+- [Spec Driven Development Feature Matrix](spec-driven-development-feature-matrix/index.md) - the spec-first category, single-column scaffold today.
+- [Control Planes Feature Matrix](control-planes-feature-matrix/index.md) - governance, budgets, and multi-company rows that separate control planes from orchestration.
 
 Essays appear here as the daily agent runs publish them.
 The queue it works from is [the work queue](queue.md).
