@@ -306,3 +306,13 @@ Changes to this section that do not appear here were made by a human and must be
 - agentic-coding-tools-landscape: orchestration paragraph gains the Gas Town exception sentence naming the tracker layer, updated bumped [glm-5.3]
 - _index.md: new Task management category (three notes, alphabetical) listed after Spec-driven development; Gas Town added to Orchestration; orchestration matrix one-liner now eight tools [glm-5.3]
 - Verification: all 78 section files pass front matter parsing with no type field and mandatory tags, 0 broken internal link targets, no em-dashes or banned terms (two slips caught and reworded mid-run), and every cited URL fetched 200 or Algolia-verified this run [glm-5.3]
+
+## 2026-08-27 (owner-prompted, paperclip and the Control planes category)
+
+- Owner request in chat: create a category for Paperclip AI if not already covered; the corpus mentioned it only inside an untracked owner draft (i-specify-open-source-projects-i-dont-maintain), so nothing existed under agents/ and the category was created [glm-5.3]
+- Research index: seeded the Control planes category with the paperclip note, citing 7 sources all fetched 200 or Algolia-verified this run (repo and API, homepage, docs, releases API, the 3-point Show HN, the OpenClaw API for the comparison) [glm-5.3]
+- paperclip: recorded the company-versus-employee framing ("if OpenClaw is an employee, Paperclip is the company"), the heartbeat-and-checkout execution model with 409 conflict semantics, the four pillars, the sandbox providers, 79,465 stars and 14,557 forks since 2026-03-02 with 5,417 open issues, the date-versioned v2026.824.1 release, the cloud waitlist, the near-empty HN footprint stated as the distribution signal, and the quickstart's trusted-loopback default flagged as the main caution [glm-5.3]
+- Placement decision: a new Control planes category rather than Orchestration or Executions, because Paperclip orchestrates business goals (org charts, budgets, approvals, multi-company) rather than repo worktrees or single scheduled triggers; OpenClaw stays unnoted (already covered by two corpus articles) and is named inside the note instead, per the gemini-cli/Antigravity grouping precedent [glm-5.3]
+- Control planes matrix: deferred per the seeding rule (one member); the deferral is recorded here [glm-5.3]
+- _index.md: Control planes category listed after Task management [glm-5.3]
+- Verification: all 79 section files pass front matter parsing with no type field and mandatory tags, 0 broken internal link targets (learnings-from-openclaw linked as a committed corpus article, openclaw-triage-pipeline deliberately unlinked because it is untracked), no em-dashes or banned terms, one sentence per line [glm-5.3]

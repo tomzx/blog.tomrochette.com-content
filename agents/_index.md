@@ -148,4 +148,8 @@ Refreshed one category at a time, stalest first; dead tools keep their entries, 
 - [beads](beads/index.md) - Steve Yegge's Dolt-backed graph issue tracker, dependency-aware with atomic claims, the agent-memory thesis in running code.
 - [Task Master](task-master/index.md) - the most-installed PRD-to-tasks pipeline, quiet since April 2026 as it became Hamster's Commons-Clause commercial engine.
 
+## Control planes
+
+- [Paperclip](paperclip/index.md) - the MIT self-hosted control plane for a company of agents, heartbeats, budgets, and governance, 79k stars in six months.
+
 Notes appear here, alphabetically, as the daily agent runs publish them.
