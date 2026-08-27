@@ -3,7 +3,7 @@ title: PicoClaw
 created: 2026-08-27
 updated: 2026-08-27
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, assistant-runtimes, personal-assistants, golang, edge, risc-v, open-source]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, assistant-runtimes, personal-assistants, golang, edge, risc-v, open-source]
 readability: 3
 audience_notes: >
   Engineers who want an assistant that runs on tiny or old hardware, or anyone watching the RISC-V edge story.
@@ -30,7 +30,7 @@ The naming ladder keeps extending below it (SmolClaw microvm, FemtoClaw for ESP3
 
 ## Strengths
 
-- The footprint claim is real enough to reshape deployment thinking: 10-20MB RAM puts an assistant on hardware nothing else in the family can touch.
+- The footprint claim is real enough to change deployment thinking: 10-20MB RAM puts an assistant on hardware nothing else in the family can touch.
 - Hardware vendor stewardship means the software and the board ship as one story, including Android.
 - MCP support and a Web UI at this size is more surface than the memory number suggests.
 - 38 open issues at 30k stars is the tidiest tracker in the category.

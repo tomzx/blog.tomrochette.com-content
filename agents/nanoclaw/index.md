@@ -3,7 +3,7 @@ title: NanoClaw
 created: 2026-08-27
 updated: 2026-08-27
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, assistant-runtimes, personal-assistants, containers, open-source]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, assistant-runtimes, personal-assistants, containers, open-source]
 readability: 3
 audience_notes: >
   Engineers who want a chat-channel personal agent they can fully read and containerize, at the cost of the big sibling's ecosystem.
@@ -32,7 +32,7 @@ The family is real: microclaw (732 stars) describes itself as inspired by NanoCl
 ## Strengths
 
 - The security argument is structural (container isolation) instead of permission-based, the correct default for chat-driven agents.
-- Small enough to fork and reshape; the README tells you to have Claude Code walk you through the codebase.
+- Small enough to fork and rework; the README tells you to have Claude Code walk you through the codebase.
 - Credential vaulting via OneCLI is a better key model than most of the family.
 - Real HN discussion footprint with author follow-through across the container and vault transitions.
 

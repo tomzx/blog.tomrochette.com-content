@@ -3,7 +3,7 @@ title: "Agentic Coding Tools Landscape"
 created: 2026-08-22
 updated: 2026-08-27
 status: finished
-tags: [ai, llm, coding-agents, developer-tools, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free]
+tags: [ai, llm, coding-agents, developer-tools, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash]
 readability: 3
 audience_notes: >
   Software engineers picking or re-evaluating coding agents and harnesses.
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 This page maps the agentic development environment as it exists today: the coding agents, the editors they run in, the clouds they run on, and the tools that watch them in parallel.
-Everything here was verified against live sources on 2026-08-24; the surfaces tail deaths on 2026-08-26, the orchestration exception sentence on 2026-08-27.
+Everything here was verified against live sources on 2026-08-24; the surfaces tail deaths on 2026-08-26, the orchestration exception sentence on 2026-08-27; the harness tail additions (Kilo Code, OpenHands) on 2026-08-27.
 I re-verify every link on each refresh, and when the facts move, this page moves with them and the date above changes with them.
 
 **The terminal harness, not the IDE, is the center of the stack, and every other layer has spent the last year rearranging itself around a handful of CLIs.**
@@ -44,6 +44,8 @@ The independent tail matters more than its market share suggests.
 [Cline](../cline/index.md) grew out of the VS Code extension generation into a full runtime, about 5.1 million marketplace installs deep.
 [goose](../goose/index.md), Block's Rust agent, joined the Agentic AI Foundation at its formation in December 2025 and completed the migration to the foundation that April, the field's first foundation-governed agent exit.
 [Qwen Code](../qwen-code/index.md), Alibaba's fork of Gemini CLI, is the free-tier on-ramp and the open-weights showcase.
+[Kilo Code](../kilo-code/index.md) carries the Cline-and-Roo feature-merge forward with subagents, schedules, and cloud tasks bundled in, since July 2026 as part of Anaconda.
+[OpenHands](../openhands/index.md), the renamed OpenDevin at about 85k stars, is the largest platform-camp bet: sandboxed code-shell-browser agents you can self-host behind its new Agent Canvas plus server architecture.
 
 **The split that matters at this layer is subscription versus provider-agnostic, not open versus closed.**
 Claude Code and Codex are at their best inside their own vendor's subscription; OpenCode, aider, Crush, and Junie run against whatever keys you already own, and Gemini CLI now serves only enterprise licenses and paid API keys.
@@ -57,7 +59,7 @@ In August 2026 Cursor was [acquired by SpaceX](https://cursor.com/blog/joining-s
 [JetBrains IDEs](../jetbrains/index.md) ship Junie and, more consequentially, co-created the [Agent Client Protocol](https://agentclientprotocol.com/) with [Zed](../zed/index.md).
 [Antigravity](../antigravity/index.md) is Google's full-surface entry: a 2.0 command center for parallel local agents, an IDE, a CLI, and an SDK, free with weekly rate limits after it absorbed Gemini CLI's individual users in June 2026.
 The tail thickened too: [Kiro](../kiro/index.md) (AWS) bets on spec-first workflows, [Trae](../trae/index.md) (ByteDance) undercuts everyone on price, [OpenChamber](../openchamber/index.md) open-sources the parallel-session cockpit around OpenCode, and [Void](../void/index.md), the open-source Cursor alternative that proved the demand, has stalled.
-**The same tail thinned from the other side in 2026: [Continue](../continue/index.md), the four-million-install open-source Copilot alternative, was acquired by Cursor in June, and [Roo Code](../roo-code/index.md) sunset itself in May with the line "we don't believe IDEs are the future of coding", both exits funneling users toward [Cline](../cline/index.md).**
+**The same tail thinned from the other side in 2026: [Continue](../continue/index.md), the four-million-install open-source Copilot alternative, was acquired by Cursor in June, and [Roo Code](../roo-code/index.md) sunset itself in May with the line "we don't believe IDEs are the future of coding", both exits funneling users toward [Cline](../cline/index.md) and the fork descendant that merged their lineages, [Kilo Code](../kilo-code/index.md).**
 
 **ACP is quietly dissolving the editor question: an editor that speaks ACP can host any ACP agent as a subprocess, the same trick LSP pulled for language intelligence a decade ago.**
 OpenCode already ships [`opencode acp`](https://opencode.ai/docs/acp/), so one harness runs inside Zed, JetBrains IDEs, and Neovim plugins unchanged.

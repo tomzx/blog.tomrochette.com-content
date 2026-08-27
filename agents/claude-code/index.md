@@ -1,9 +1,9 @@
 ---
 title: Claude Code
 created: 2026-08-22
-updated: 2026-08-26
+updated: 2026-08-27
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, coding-agents, harnesses, anthropic, developer-tools]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, coding-agents, harnesses, anthropic, developer-tools]
 readability: 3
 audience_notes: >
   Engineers who already drive a terminal coding agent and are deciding whether to standardize on Anthropic's harness.
@@ -12,7 +12,7 @@ audience_notes: >
 ---
 
 Claude Code is Anthropic's agentic coding tool: a terminal-first harness that also runs as IDE extensions, a desktop app, on the web, and from Slack.
-Facts below verified as of 2026-08-24.
+Facts below verified as of 2026-08-27.
 
 **It is the most complete harness platform shipping today, and also the most expensive way to run the same tokens, because you pay a large per-request baseline for orchestration whether you use it or not.**
 
@@ -73,7 +73,7 @@ Not for the token-frugal or for anyone who needs an open, auditable client.
 ## References
 
 - https://code.claude.com/docs/en/overview - surfaces, skills, hooks, subagents, routines, installation
-- https://www.anthropic.com/claude-code - pricing tiers and 2026 feature timeline
+- https://claude.com/product/claude-code - pricing tiers and 2026 feature timeline
 - https://github.com/anthropics/claude-code - repository scale (about 142.8k stars) and npm deprecation, as of 2026-08-24
 - http://web.archive.org/web/20260814104128/https://thereallo.dev/blog/claude-code-prompt-steganography - independent analysis of hidden prompt markers (archived; the live site blocks automated fetches)
 - https://systima.ai/blog/claude-code-vs-opencode-token-overhead - measured baseline, cache, and subagent token costs (July 2026)

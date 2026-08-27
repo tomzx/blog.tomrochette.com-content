@@ -1,9 +1,9 @@
 ---
 title: Amp
 created: 2026-08-22
-updated: 2026-08-26
+updated: 2026-08-27
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, coding-agents, harnesses, remote-execution, developer-tools]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, coding-agents, harnesses, remote-execution, developer-tools]
 readability: 3
 audience_notes: >
   Engineers delegating long-running tasks to agents that keep working after the laptop closes.
@@ -11,8 +11,8 @@ audience_notes: >
 
 ---
 
-Amp is the coding agent from Amp Frontier Corporation ([spun out of Sourcegraph on December 2, 2025](https://ampcode.com/news/amp-inc)): a CLI plus web and phone surfaces, with threads that run on remote machines called orbs.
-Facts below verified as of 2026-08-24.
+Amp is the coding agent from Amp Frontier Corporation ([spun out of Sourcegraph on December 2, 2025](https://ampcode.com/news/amp-frontier-corporation)): a CLI plus web and phone surfaces, with threads that run on remote machines called orbs.
+Facts below verified as of 2026-08-27.
 
 **Amp's orbs are the most direct answer in the field to "the agent should keep working when I close my laptop", and the product is priced exactly like something that believes its own value.**
 
@@ -70,6 +70,6 @@ Not for open-source-only teams or anyone metering their own tokens.
 
 - https://ampcode.com/ - product overview, orbs, news cadence as of 2026-08-22
 - https://ampcode.com/pricing/ - Megawatt, Gigawatt, usage billing, linked subscriptions
-- https://ampcode.com/news/amp-inc - the December 2, 2025 spinout announcement
+- https://ampcode.com/news/amp-frontier-corporation - the December 2, 2025 spinout announcement
 - https://ampcode.com/manual/ - modes, oracle, librarian, skills, plugins, permissions
 - https://news.ycombinator.com/item?id=46124649 - spinout discussion with praise and cost complaints

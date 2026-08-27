@@ -1,9 +1,9 @@
 ---
 title: goose
 created: 2026-08-24
-updated: 2026-08-26
+updated: 2026-08-27
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, coding-agents, harnesses, open-source, linux-foundation]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, coding-agents, harnesses, open-source, linux-foundation]
 readability: 3
 audience_notes: >
   Engineers weighing an open agent whose stewardship does not depend on one company.
@@ -12,7 +12,7 @@ audience_notes: >
 ---
 
 goose is an open-source (Apache-2.0) general-purpose AI agent written in Rust, started inside Block and now governed by the Agentic AI Foundation (AAIF) at the Linux Foundation.
-Facts below verified as of 2026-08-24.
+Facts below verified as of 2026-08-27.
 
 **goose matters less for what it does than for how it is owned: it is the first major coding-adjacent agent to move from a corporate parent to a foundation, an exit path no other open harness offers.**
 
@@ -72,6 +72,6 @@ Not for teams that want a coding-specialized harness or a single vendor's suppor
 - https://github.com/aaif-goose/goose - README, license, surfaces, repository scale as of 2026-08-24
 - https://goose-docs.ai/docs/getting-started/installation - install paths, desktop and CLI, AAIF banner
 - https://goose-docs.ai/blog/2026/04/07/goose-moves-to-aaif - the April 7, 2026 migration-completion announcement
-- https://aaif.io/press/linux-foundation-announces-the-formation-of-the-agentic-ai-foundation-aaif-anchored-by-new-project-contributions-including-model-context-protocol-mcp-goose-and-agents-md/ - the December 9, 2025 formation announcement listing goose as a founding contribution
+- https://aaif.io/news/linux-foundation-announces-formation-of-aaif - the December 9, 2025 formation announcement listing goose as a founding contribution
 - https://news.ycombinator.com/item?id=42879323 - the January 2025 launch thread (249 points, 68 comments)
 - https://news.ycombinator.com/item?id=48279117 - the "60% of Block" coverage, a weak-sourced claim worth marking
