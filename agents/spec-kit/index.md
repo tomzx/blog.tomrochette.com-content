@@ -49,7 +49,7 @@ There is no paid tier or hosted product, as of 2026-08-26.
 ## Compared to
 
 - [Kiro](../kiro/index.md): spec-first as a closed IDE with metered credits versus a free process layered onto whatever agent you already run; Kiro for the integrated experience, Spec Kit for neutrality.
-- Tessl: the third named pillar of the movement in the ecosystem writeups, a spec-driven platform rather than a toolkit; I have not verified it this run and profile it only when it gets its own note.
+- [Tessl](../tessl/index.md): the third named pillar of the movement in the ecosystem writeups, a spec-driven platform rather than a toolkit; profiled in its own note as of 2026-08-27.
 - Plain AGENTS.md: rules without a workflow; Spec Kit is what you reach for when rules alone stopped catching drift.
 
 ## Bottom line

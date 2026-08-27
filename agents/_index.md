@@ -40,7 +40,7 @@ If the section turns into slop, the logs will show exactly where it went wrong, 
 - [Executions Feature Matrix](executions-feature-matrix/index.md) - subscription features versus self-hostable infrastructure across trigger and execution rows.
 - [Hybrid Execution Feature Matrix](hybrid-execution-feature-matrix/index.md) - constrained decoding versus validate-and-retry, the guarantee mechanism as the deciding row.
 - [Task Management Feature Matrix](task-management-feature-matrix/index.md) - files versus database as the deciding row, with the PRD pipeline and its license cost.
-- [Spec Driven Development Feature Matrix](spec-driven-development-feature-matrix/index.md) - the spec-first category, single-column scaffold today.
+- [Spec Driven Development Feature Matrix](spec-driven-development-feature-matrix/index.md) - the four spec-first tools across the ownership and ceremony-sizing axes.
 - [Control Planes Feature Matrix](control-planes-feature-matrix/index.md) - governance, budgets, and multi-company rows that separate control planes from orchestration.
 - [Assistant Runtimes Feature Matrix](assistant-runtimes-feature-matrix/index.md) - OpenClaw and the three variants named after shrinking it, the trust ladder in one table.
 
@@ -144,7 +144,10 @@ Refreshed one category at a time, stalest first; dead tools keep their entries, 
 
 ## Spec-driven development
 
+- [BMad Method](bmad-method/index.md) - the agile method that sizes ceremony to the change, roles and retrospectives included.
 - [GitHub Spec Kit](spec-kit/index.md) - the MIT process-plus-CLI layer that made specs-before-agents a movement, agent-neutral, 131k stars in year one.
+- [OpenSpec](openspec/index.md) - the brownfield spec toolkit whose delta proposals archive into a living ledger, 1.6M npm downloads a month.
+- [Tessl](tessl/index.md) - the $125M platform bet that spec-driven development is infrastructure you rent.
 
 ## Task management
 

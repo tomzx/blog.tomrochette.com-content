@@ -7,53 +7,62 @@ tags: [agent-curated, fully-ai-generated, llm=glm-5.3, comparison, spec-driven-d
 readability: 3
 audience_notes: >
   Engineers comparing spec-driven tooling before adopting one.
-  Assumes you know what a review gate is and already run a coding agent.
+  Assumes you know what a review gate is, already run a coding agent, and can tell a repo-native toolkit from a hosted platform.
 ---
 
-This matrix compares the spec-driven development tools profiled in this section.
-The category currently has one profiled member, so today this is a single-column scaffold rather than a comparison, and I say so plainly rather than pad it.
-Everything below was verified against live sources on 2026-08-27 (member facts as of their note's 2026-08-26 verification).
+This matrix compares the four spec-driven development tools profiled in this section, feature by feature.
+Everything below was verified against live sources on 2026-08-27.
 
-**The category's real comparison is not between tools but between the toolkit and its own critique, and the matrix exists now so the moment Tessl, OpenSpec, or a Kiro port earns a note, the columns land here without a deferral.**
+**The category splits on two axes: who owns the specs (your repo or a platform) and whether the ceremony sizes itself to the change, and the waterfall critique is the standing judge of the second axis.**
 
 Legend: ✓ supported, ✗ not supported, ~ partial or conditional, ? not verified as of the date above.
+Each column links to the full research note; every cell below traces to a source cited there or in the references.
 
 ## The matrix
 
-| Feature | [GitHub Spec Kit](../spec-kit/index.md) |
-| --- | --- |
-| Kind | MIT process toolkit: Python CLI plus slash-command and skills templates |
-| Steward | GitHub |
-| Workflow steps | constitution, specify, plan, tasks, implement, converge |
-| Agent neutrality | ✓ 30+ agents via plain markdown artifacts |
-| Review gates | ✓ spec and plan artifacts plus converge checking code against spec |
-| Extension model | presets, extensions, role-based bundles |
-| Adoption | 131,489 stars in year one, v1.0.0 and v1.0.1 shipped 2026-08-21 |
-| Maintenance posture | active, original creators moved on, releases de-emphasize stability |
-| Pricing | free, MIT |
+| Feature | [BMad Method](../bmad-method/index.md) | [OpenSpec](../openspec/index.md) | [GitHub Spec Kit](../spec-kit/index.md) | [Tessl](../tessl/index.md) |
+| --- | --- | --- | --- | --- |
+| Kind | method plus agent workflows, npm install | spec toolkit CLI, npm install | Python CLI plus slash-command templates | hosted platform, thin CLI |
+| Steward | BMad Code, LLC | Fission AI | GitHub | Tessl (Podjarny), $125M raised |
+| License | ✓ MIT | ✓ MIT | ✓ MIT | ✗ closed platform |
+| Artifact model | briefs, specs, architecture carried forward | delta proposals archived into a living ledger | constitution, spec, plan, tasks files | specs live on the platform |
+| Workflow entry | `bmad-build` with right-sized depth | `/opsx:propose` then apply and archive | `/speckit-constitution` then specify | web workflow |
+| Ceremony sizing | ✓ right-sizes to the change | ~ fixed but light | ✗ fixed ceremony | ? not verified |
+| Brownfield support | ✓ establish-context path | ✓ explicit design goal | ~ not the primary case | ? not verified |
+| Convergence checking | ✓ verify and learn loop | ~ archive keeps ledger current | ✓ converge step | ? not verified |
+| Unattended execution | ✓ BMad Loop module | ✗ | ✗ | ? not verified |
+| Adoption | 52,371 stars | 66,398 stars, 1.6M npm downloads a month | 131,489 stars | 24-point raise thread, thin OSS surface |
+| Pricing | free | free | free | subscription, tiers unverified |
 
 ## Reading the matrix
 
-**Spec Kit's single column still answers the category's core question, whether spec-first needs a product or just a convention: it is conventions plus scaffolding, no runtime, no hosting, and that lightness is why it spread across every harness at once.**
+**The license and steward rows tell the ownership story: three repo-native MIT toolkits against one closed, funded platform, and the free tools set the price anchor at zero while Tessl spends $125M betting specs are rentable.**
+The adoption row inverts the funding row, which is the tension to watch.
 
-The named-but-unprofiled neighbors stay in prose until they earn notes: Tessl (the spec-driven platform), OpenSpec and the SDD CLI ecosystem (smaller toolkits), and Kiro, which ships the same workflow as a closed, metered IDE and is profiled under Surfaces.
+**Ceremony sizing is the design axis the waterfall critique created: only BMad sends small changes straight to build, and the two artifact-first tools pay for their simplicity with fixed ceremony.**
+If your changes are mostly small, that row alone picks your column.
+
+**Brownfield is the sleeper row: OpenSpec is explicitly built for existing code, BMad has an establish-context path, and spec-kit's scaffolding still assumes a fresher repo than most of us have.**
 
 ## Choosing from the matrix
 
-- Heterogeneous harnesses and zero license cost: Spec Kit today, the only profiled column.
-- Want the workflow bundled with the editor: Kiro, accepting metered credits.
-- Waiting for a second column before standardizing: reasonable, and this page is where it will appear.
+- Existing codebase, want the spec ledger to stay current: OpenSpec.
+- Want a whole delivery process with roles and retrospectives: BMad Method.
+- Heterogeneous org, zero cost, constitution ceremony acceptable: Spec Kit.
+- Want specs as a managed product and accept portability questions: Tessl.
 
 ## See also
 
 - [Task Management Feature Matrix](../task-management-feature-matrix/index.md) - the boards these specs eventually fill
-- [Kiro](../kiro/index.md) - the spec-first IDE alternative
-- [AGENTS.md](../agents-md/index.md) - the lighter convention the constitution step extends
+- [Kiro](../kiro/index.md) - the spec-first IDE, the closed alternative on the editor axis
+- [AGENTS.md](../agents-md/index.md) - the lighter convention all of these extend
 - [Send Implementation, Not Issue](../../send-implementation-not-issue/index.md) - the corpus argument for specs plus implementation
 
 ## References
 
-- https://github.com/github/spec-kit - workflow steps, license, integrations count
-- https://github.github.io/spec-kit/ - official docs, extensions and presets
-- https://github.blog/ai-and-ml/generative-ai/spec-driven-development-with-ai-get-started-with-a-new-open-source-toolkit/ - the launch post
-- https://www.manorrock.com/blog/2026/08/21/spec_kit_turns_one.html - the anniversary post behind the maintenance-posture row
+- https://github.com/bmad-code-org/BMAD-METHOD - loop, modules, licensing for the BMad column
+- https://github.com/Fission-AI/OpenSpec - opsx workflow and philosophy for the OpenSpec column
+- https://github.com/github/spec-kit - workflow steps and integrations for the Spec Kit column
+- https://martinfowler.com/articles/exploring-gen-ai/sdd-3-tools.html - the third-party analysis covering Kiro, Spec Kit, and Tessl
+- https://www.tessl.io/blog/announcing-our-series-a-for-ai-native-software-development - the raise grounding the Tessl column
+- https://api.npmjs.org/downloads/point/last-month/@fission-ai/openspec - the OpenSpec install velocity
