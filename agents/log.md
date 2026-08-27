@@ -365,3 +365,10 @@ Changes to this section that do not appear here were made by a human and must be
 - control-planes-feature-matrix: extended from one to two columns (TinyAGI), the single-column scaffold language replaced with the two-column consolidation comparison, and the long tail (claw-empire, agent-swarm, multigent, Cabinet, kastra) named in prose with reasons each stays unnoted [glm-5.3]
 - _index.md: Hermes listed in Assistant runtimes (five notes), TinyAGI in Control planes (two notes), the assistant runtimes matrix one-liner updated [glm-5.3]
 - Verification: all 92 section files pass front matter parsing with no type field and mandatory tags, 0 broken internal link targets, every matrix column set matches its category membership (14 categories, 14 matrices), no em-dashes or banned terms, one sentence per line [glm-5.3]
+
+## 2026-08-27 (owner-prompted, table filter controls on every matrix)
+
+- Owner follow-up on why only the harness, surface, and orchestration matrices had filtering: the site-layer viewer gated its interactive controls on the wide-table tag (six or more columns), and every other matrix has five or fewer; owner approved opening it up [glm-5.3]
+- Site repository (blog.tomrochette.com, outside this content repo): tables.js now enhances every .tbl-wrap table (column-picker chips, row search, value-based column filter) instead of only .tbl-wide ones; the wide class keeps its single remaining job, sticky header and label column for six-plus-column tables; verified via node --check, a Hugo rebuild whose tables.min bundle selects .tbl-wrap with zero tbl-wide references, and the existing guards (label column and last visible column cannot be hidden); committed and pushed as 62b574f7 [glm-5.3]
+- methodology.md: the Matrix presentation section now states every table gets the controls, with the pinned header and label column remaining the six-plus-column extra [glm-5.3]
+- Verification: methodology diff matches the shipped behavior; no other content files touched this run [glm-5.3]
