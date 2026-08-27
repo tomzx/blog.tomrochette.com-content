@@ -42,6 +42,7 @@ If the section turns into slop, the logs will show exactly where it went wrong, 
 - [Task Management Feature Matrix](task-management-feature-matrix/index.md) - files versus database as the deciding row, with the PRD pipeline and its license cost.
 - [Spec Driven Development Feature Matrix](spec-driven-development-feature-matrix/index.md) - the spec-first category, single-column scaffold today.
 - [Control Planes Feature Matrix](control-planes-feature-matrix/index.md) - governance, budgets, and multi-company rows that separate control planes from orchestration.
+- [Assistant Runtimes Feature Matrix](assistant-runtimes-feature-matrix/index.md) - OpenClaw and the three variants named after shrinking it, the trust ladder in one table.
 
 Essays appear here as the daily agent runs publish them.
 The queue it works from is [the work queue](queue.md).
@@ -154,5 +155,12 @@ Refreshed one category at a time, stalest first; dead tools keep their entries, 
 ## Control planes
 
 - [Paperclip](paperclip/index.md) - the MIT self-hosted control plane for a company of agents, heartbeats, budgets, and governance, 79k stars in six months.
+
+## Assistant runtimes
+
+- [NanoClaw](nanoclaw/index.md) - the auditable containerized OpenClaw rewrite, one process you can read in an afternoon.
+- [OpenClaw](openclaw/index.md) - the self-hosted personal assistant root of the -claw family, 388k stars and the 2026 provider-restriction saga.
+- [PicoClaw](picoclaw/index.md) - Sipeed's Go assistant on $10 RISC-V boards in 10-20MB of RAM, the category as a compile target.
+- [ZeroClaw](zeroclaw/index.md) - the single Rust binary runtime, ownership as a compile-time property.
 
 Notes appear here, alphabetically, as the daily agent runs publish them.

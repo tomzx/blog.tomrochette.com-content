@@ -51,7 +51,7 @@ A hosted cloud is in waitlist with no published pricing as of 2026-08-27.
 
 ## Compared to
 
-- [OpenClaw](https://github.com/openclaw/openclaw) (387,777 stars as of this run): the employee, not the company; Paperclip's own line is "if OpenClaw is an employee, Paperclip is the company", and it manages OpenClaw instances among others.
+- [OpenClaw](../openclaw/index.md) (387,777 stars as of this run): the employee, not the company; Paperclip's own line is "if OpenClaw is an employee, Paperclip is the company", and it manages OpenClaw instances among others.
 - [Gas Town](../gastown/index.md): supervision for many coding agents inside one workspace; choose Gas Town for repo work, Paperclip when the goal is a business, not a codebase.
 - [beads](../beads/index.md) with a plain harness: the ledger-plus-heartbeat pattern you can assemble yourself when a whole company is overkill.
 

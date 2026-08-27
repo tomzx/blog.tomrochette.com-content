@@ -38,7 +38,7 @@ Legend: ✓ supported, ✗ not supported, ~ partial or conditional, ? not verifi
 **The rows that separate a control plane from the orchestration category are governance, budgets, and multi-company isolation; a tool with parallel agents but none of those rows belongs in Orchestration, not here.**
 Paperclip fills all three today, which is why it anchors the category despite being six months old.
 
-The un-profiled neighbors stay in prose until they earn notes: OpenClaw (387k stars) is the employee-side complement rather than a control plane and is covered by two corpus articles, and the smaller ticket-orchestrator experiments around it have not cleared the credibility bar.
+The un-profiled neighbors stay in prose until they earn notes: smaller ticket-orchestrator experiments have not cleared the credibility bar, while the employee side now has its own category, [Assistant runtimes](../assistant-runtimes-feature-matrix/index.md), anchored by [OpenClaw](../openclaw/index.md) and its shrinking variants.
 
 ## Choosing from the matrix
 
