@@ -10,41 +10,44 @@ audience_notes: >
   Assumes you run at least one agent that can receive a heartbeat and know what an org chart is for.
 ---
 
-This matrix compares the agent control planes profiled in this section.
-The category has one profiled member as of 2026-08-27, so this is the single-column scaffold the next member extends, and the gap is named below.
+This matrix compares the agent control planes profiled in this section: the flagship and the first stall record, so the category's consolidation story sits in one table.
 Everything below was verified against live sources on 2026-08-27.
 
-**With one column the matrix still makes the category's key comparison readable: a control plane is not a dashboard with more panels, it is an org (budgets, approvals, chain of command) wrapped around a heartbeat scheduler, and every future column will be judged on those rows.**
+**A control plane is not a dashboard with more panels, it is an org (budgets, approvals, chain of command) wrapped around a heartbeat scheduler, and the second column below is the stall record proving the category fits exactly one open-source flagship.**
 
 Legend: ✓ supported, ✗ not supported, ~ partial or conditional, ? not verified as of the date above.
 
 ## The matrix
 
-| Feature | [Paperclip](../paperclip/index.md) |
-| --- | --- |
-| Kind | self-hosted Node.js server and React UI, embedded Postgres |
-| License | ✓ MIT |
-| Runtime model | heartbeat wakes on schedules and events, ticket checkout with 409 conflicts |
-| Agent contract | anything that can receive a heartbeat (OpenClaw, Claude Code, Codex, Cursor, HTTP) |
-| Governance | ✓ org chart, approvals, chain of command, immutable audit log |
-| Budgets | ✓ per-agent monthly budgets with auto-pause |
-| Sandboxed execution | ✓ e2b, Cloudflare, Daytona, Modal, Novita, self-hosted Kubernetes |
-| Multi-company | ✓ unlimited per deployment, data isolation |
-| Pricing | free self-hosted, cloud in waitlist, unpublished |
-| Current status | active, about 79k stars since 2026-03-02, 5,417 open issues |
+| Feature | [Paperclip](../paperclip/index.md) | [TinyAGI](../tinyagi/index.md) |
+| --- | --- | --- |
+| Kind | self-hosted Node.js server and React UI, embedded Postgres | self-hosted orchestrator, TinyOffice web portal and TUI |
+| License | ✓ MIT | ✓ MIT |
+| Runtime model | heartbeat wakes on schedules and events, ticket checkout with 409 conflicts | SQLite queue with atomic transactions, retries, dead-letter |
+| Agent contract | anything that can receive a heartbeat (OpenClaw, Claude Code, Codex, Cursor, HTTP) | Claude, Codex, and OpenAI or Anthropic-compatible endpoints |
+| Team structure | ✓ org chart, mixed human and agent roles | ✓ multi-team, chain execution and fan-out |
+| Governance | ✓ org chart, approvals, chain of command, immutable audit log | ✗ none recorded |
+| Budgets | ✓ per-agent monthly budgets with auto-pause | ✗ |
+| Sandboxed execution | ✓ e2b, Cloudflare, Daytona, Modal, Novita, self-hosted Kubernetes | ~ isolated agent workspaces |
+| Multi-company | ✓ unlimited per deployment, data isolation | ✗ one company per install |
+| Channels | any heartbeat-capable agent surface | Discord, WhatsApp, Telegram |
+| Pricing | free self-hosted, cloud in waitlist, unpublished | free |
+| Current status | active, about 79k stars since 2026-03-02, 5,417 open issues | stalled March 2026, 3,610 stars, 75 open issues |
 
 ## Reading the matrix
 
 **The rows that separate a control plane from the orchestration category are governance, budgets, and multi-company isolation; a tool with parallel agents but none of those rows belongs in Orchestration, not here.**
-Paperclip fills all three today, which is why it anchors the category despite being six months old.
+Paperclip fills all three, TinyAGI filled the team rows and none of the governance ones, and the gap plus the March 2026 stall is the consolidation story in two columns.
 
-The un-profiled neighbors stay in prose until they earn notes: smaller ticket-orchestrator experiments have not cleared the credibility bar, while the employee side now has its own category, [Assistant runtimes](../assistant-runtimes-feature-matrix/index.md), anchored by [OpenClaw](../openclaw/index.md) and its shrinking variants.
+The un-profiled long tail stays in prose until something clears the bar: claw-empire (1,359 stars, also stalled since March), desplega-ai's agent-swarm (723 stars, active, self-described company agentic operating system), multigent (61 stars), Cabinet (a knowledge-base product compared to Paperclip in its launch thread, a different problem), and kastra (policy enforcement for harnesses, a governance slice rather than a plane).
+The employee side has its own category, [Assistant runtimes](../assistant-runtimes-feature-matrix/index.md), anchored by OpenClaw, the -claw variants, and Hermes.
 
 ## Choosing from the matrix
 
-- Multiple agents toward business goals with cost ceilings and audit needs: Paperclip, the only profiled column, self-hosted.
+- Multiple agents toward business goals with cost ceilings and audit needs: Paperclip, the only living column.
 - Repo-scale parallel coding agents instead: the Orchestration matrix is the right shelf.
 - One agent: a harness plus a task tracker, no control plane needed.
+- Studying the category's consolidation: TinyAGI, accepting it is a stall record, not a tool.
 
 ## See also
 
@@ -58,3 +61,5 @@ The un-profiled neighbors stay in prose until they earn notes: smaller ticket-or
 - https://github.com/paperclipai/paperclip - pillars, heartbeat model, sandbox providers, roadmap
 - https://paperclip.ing - homepage, release cadence, testimonials
 - https://docs.paperclip.ing - official documentation
+- https://github.com/TinyAGI/tinyagi - team model, queue, TinyOffice for the TinyAGI column
+- https://api.github.com/repos/TinyAGI/tinyagi - the stall dates grounding the status row

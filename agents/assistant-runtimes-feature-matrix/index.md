@@ -10,30 +10,30 @@ audience_notes: >
   Assumes you know what a container and a cross-compiled binary are; each column links to a full note.
 ---
 
-This matrix compares the four assistant runtimes profiled in this section, the OpenClaw root and the three variants named after shrinking it, feature by feature.
+This matrix compares the five assistant runtimes profiled in this section, the OpenClaw root, the three variants named after shrinking it, and Nous Research's learning-loop challenger, feature by feature.
 Everything below was verified against live sources on 2026-08-27.
 
-**The family ladder is a trust ladder: OpenClaw is an ecosystem, NanoClaw an auditable codebase, ZeroClaw a static binary, PicoClaw a firmware image, and the real choice is how much machine and code you are willing to trust with your messages.**
+**The family ladder is a trust ladder: OpenClaw is an ecosystem, NanoClaw an auditable codebase, ZeroClaw a static binary, PicoClaw a firmware image, Hermes a memory that grows, and the real choice is how much machine and code you are willing to trust with your messages.**
 
 Legend: ✓ supported, ✗ not supported, ~ partial or conditional, ? not verified as of the date above.
 Each column links to the full research note; every cell below traces to a source cited there or in the references.
 
 ## The matrix
 
-| Feature | [OpenClaw](../openclaw/index.md) | [NanoClaw](../nanoclaw/index.md) | [ZeroClaw](../zeroclaw/index.md) | [PicoClaw](../picoclaw/index.md) |
-| --- | --- | --- | --- | --- |
-| Runtime | TypeScript on Node | TypeScript on Node | single Rust binary | single Go binary |
-| License | ✓ MIT | ✓ MIT | ✓ MIT OR Apache-2.0 | ✓ MIT |
-| Born | 2025-11-24 | 2026-01-31 | 2026-02-13 | 2026-02-04 |
-| Stars | about 388k | about 30.6k | about 32.7k | about 29.9k |
-| Footprint | large, 70+ dependencies per the NanoClaw audit | one process, containerized | one binary, any machine | one binary, 10-20MB RAM |
-| Isolation model | app-level, sandboxing optional | ✓ per-agent Linux containers | ~ own machine, tool grants | ~ v0.2.6 isolation support |
-| Channels | dozens incl. Signal, iMessage | 13+ installed as skills | 30+ incl. voice, webhooks | many incl. WeCom, WeChat, IRC |
-| Providers | hosted plus local | Claude SDK plus codex, opencode, ollama skills | about 20 incl. Ollama | many incl. Kimi, MiMo, Bedrock |
-| Edge and mobile | companion apps | ✗ Docker host only | ~ Android port, Raspberry Pi | ✓ Android APK, $10 RISC-V boards |
-| Credentials | your keys on host | ✓ OneCLI Agent Vault | your keys in workspace | your keys in workspace |
-| Security record | provider saga plus a 514-point vuln report | clean so far | clean so far, thin coverage | pre-1.0 banner, scam-token notice |
-| Status | active, 5.6k open issues | active, 1k open issues | active, 804 open issues | active, 38 open issues, pre-1.0 |
+| Feature | [OpenClaw](../openclaw/index.md) | [Hermes](../hermes/index.md) | [NanoClaw](../nanoclaw/index.md) | [ZeroClaw](../zeroclaw/index.md) | [PicoClaw](../picoclaw/index.md) |
+| --- | --- | --- | --- | --- | --- |
+| Runtime | TypeScript on Node | Python (uv), single gateway | TypeScript on Node | single Rust binary | single Go binary |
+| License | ✓ MIT | ✓ MIT | ✓ MIT | ✓ MIT OR Apache-2.0 | ✓ MIT |
+| Born | 2025-11-24 | 2025-07-22 | 2026-01-31 | 2026-02-13 | 2026-02-04 |
+| Stars | about 388k | about 237k | about 30.6k | about 32.7k | about 29.9k |
+| Footprint | large, 70+ dependencies per the NanoClaw audit | single gateway, seven backends | one process, containerized | one binary, any machine | one binary, 10-20MB RAM |
+| Isolation model | app-level, sandboxing optional | ✓ isolated subagents, sandboxed backends | ✓ per-agent Linux containers | ~ own machine, tool grants | ~ v0.2.6 isolation support |
+| Channels | dozens incl. Signal, iMessage | Telegram, Discord, Slack, WhatsApp, Signal, CLI | 13+ installed as skills | 30+ incl. voice, webhooks | many incl. WeCom, WeChat, IRC |
+| Providers | hosted plus local | any, Nous Portal, one-command switch | Claude SDK plus codex, opencode, ollama skills | about 20 incl. Ollama | many incl. Kimi, MiMo, Bedrock |
+| Edge and mobile | companion apps | ~ $5 VPS, serverless idle on Modal, Daytona | ✗ Docker host only | ~ Android port, Raspberry Pi | ✓ Android APK, $10 RISC-V boards |
+| Credentials | your keys on host | per-provider keys or Nous Portal | ✓ OneCLI Agent Vault | your keys in workspace | your keys in workspace |
+| Security record | provider saga plus a 514-point vuln report | edited plagiarism-claim issue, 36.4k open issues | clean so far | clean so far, thin coverage | pre-1.0 banner, scam-token notice |
+| Status | active, 5.6k open issues | active, 36.4k open issues | active, 1k open issues | active, 804 open issues | active, 38 open issues, pre-1.0 |
 
 ## Reading the matrix
 
@@ -44,9 +44,12 @@ PicoClaw's isolation is a recent feature flag rather than an architecture, and Z
 
 **The status row's issue counts are inversely proportional to age, not quality: the root carries 5,617 open issues at scale, and the pre-1.0 PicoClaw carries 38, so read the column against its birthday.**
 
+**Hermes is the column that breaks the -claw pattern: it competes on the learning loop rather than the trust ladder, and its 237k stars against a 36.4k-issue backlog is the trade in one row pair.**
+
 ## Choosing from the matrix
 
 - Want the ecosystem, channels, and companion apps and accept the weight: OpenClaw.
+- Want the assistant to compound (skills, memory, user model) and will supervise it: Hermes.
 - Want to read every line and cage the agent: NanoClaw.
 - Want to stop needing to read it, or run on a Pi: ZeroClaw.
 - Want it on a microcontroller or salvage hardware, pre-1.0 accepted: PicoClaw.
@@ -61,6 +64,7 @@ PicoClaw's isolation is a recent feature flag rather than an architecture, and Z
 ## References
 
 - https://github.com/openclaw/openclaw - Gateway model, channels, security posture
+- https://github.com/NousResearch/hermes-agent - learning loop, backends, providers for the Hermes column
 - https://github.com/nanocoai/nanoclaw - container isolation, vault, skill-based channels
 - https://github.com/zeroclaw-labs/zeroclaw - runtime model, provider and channel counts
 - https://github.com/sipeed/picoclaw - footprint, architectures, security banners
