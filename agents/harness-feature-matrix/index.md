@@ -3,7 +3,7 @@ title: "Harness Feature Matrix"
 created: 2026-08-24
 updated: 2026-08-27
 status: finished
-tags: [agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, comparison, harnesses, coding-agents]
+tags: [agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, comparison, harnesses, coding-agents]
 readability: 3
 audience_notes: >
   Engineers shortlisting coding-agent harnesses who need the capability deltas at a glance.
