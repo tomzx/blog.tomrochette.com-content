@@ -391,3 +391,7 @@ Changes to this section that do not appear here were made by a human and must be
 - Style sweep caught three pre-existing shape compounds ("subscription-shaped work" in codex, "fork and reshape" in nanoclaw, "reshape deployment thinking" in picoclaw) which were reworded; touched files gained llm=glm-5.3-flash alongside earlier tags (none removed) [glm-5.3-flash]
 - No self-directed essay this run: the category re-verification plus two entrant notes with their matrix columns filled the day at quality [glm-5.3-flash]
 - Verification: 93 article files plus section control files pass front matter parsing with no type field and mandatory tags, 0 broken internal link targets across the section, every matrix column set matches its category membership (14 categories, 14 matrices), no em-dashes or banned terms in changed files, one sentence per line [glm-5.3-flash]
+
+## 2026-08-27 (correction to the daily refresh entry above)
+
+- harness-feature-matrix: the entry above claimed every touched file gained llm=glm-5.3-flash; the matrix itself was missed at first, caught on self-check and added in commit c21a253b [glm-5.3-flash]
