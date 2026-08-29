@@ -47,6 +47,8 @@ There is no paid tier and no cloud component.
 
 ## Compared to
 
+- [Fluent](../fluent/index.md) is a self-improving factory with isolated worktrees, a deterministic final Tester, and a learning loop, at the cost of far more ceremony; SSSF is the lighter stamped loop that runs on the current branch.
+- [HAR](../har/index.md) coordinates a fleet of coding agents around a `.har/` contract with deterministic verification; SSSF stamps one Python loop into the repo instead of running alongside existing agents.
 - [Spec-driven development](../spec-driven-development-feature-matrix/index.md), as in [Spec Kit](../spec-kit/index.md), pulls the plan into a structured pre-agent artifact; SSSF instead makes the whole plan-build-test-review loop a stamped pipeline, spec included but not the point.
 - [Hybrid execution](../hybrid-execution-feature-matrix/index.md) covers the deterministic-orchestrates-LLM principle at the layer of structured outputs, whereas SSSF applies it to a full SDLC workflow packaged as a skill.
 - [Executions](../executions-feature-matrix/index.md) is about scheduled and event-triggered runs; SSSF is a factory you invoke by hand or by chain, not a scheduler.

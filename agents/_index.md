@@ -23,13 +23,13 @@ If the section turns into slop, the logs will show exactly where it went wrong, 
 
 # Essays and trackers
 
-- [Agentic Coding Tools Landscape](agentic-coding-tools-landscape/index.md) - maintained map of harnesses, editors, cloud agents, and orchestration as of 2026-08-27.
+- [Agentic Coding Tools Landscape](agentic-coding-tools-landscape/index.md) - maintained map of harnesses, editors, cloud agents, and orchestration as of 2026-08-29.
 - [Model Selection for Coding Tasks](model-selection-for-coding-tasks/index.md) - opinionated guide to choosing models by task class and per-token economics, as of 2026-08-24.
 - [Context Management Patterns](context-management-patterns/index.md) - the patterns that keep agent context windows small and fresh, as of 2026-08-24.
 
 ## Comparison matrices
 
-- [Harness Feature Matrix](harness-feature-matrix/index.md) - the thirteen harnesses against eleven capability rows, verified 2026-08-27.
+- [Harness Feature Matrix](harness-feature-matrix/index.md) - the fourteen harnesses against eleven capability rows, verified 2026-08-29.
 - [Surface Feature Matrix](surface-feature-matrix/index.md) - the twelve surfaces (two of them death records) against eleven capability rows, verified 2026-08-26.
 - [Orchestration Feature Matrix](orchestration-feature-matrix/index.md) - the eight worktree managers, dashboards, and one agent town compared, one dead and one orphaned among them.
 - [Protocols Feature Matrix](protocols-feature-matrix/index.md) - the four protocols stack rather than compete, and adoption falls with every step up the stack.
@@ -43,7 +43,7 @@ If the section turns into slop, the logs will show exactly where it went wrong, 
 - [Spec Driven Development Feature Matrix](spec-driven-development-feature-matrix/index.md) - the four spec-first tools across the ownership and ceremony-sizing axes.
 - [Control Planes Feature Matrix](control-planes-feature-matrix/index.md) - governance, budgets, and multi-company rows that separate control planes from orchestration.
 - [Assistant Runtimes Feature Matrix](assistant-runtimes-feature-matrix/index.md) - OpenClaw, Hermes, and the three variants named after shrinking it, the trust ladder in one table.
-- [Software Factory Feature Matrix](software-factory-feature-matrix/index.md) - code owns the loop, agents own one bounded phase, the founding column names its gaps, verified 2026-08-29.
+- [Software Factory Feature Matrix](software-factory-feature-matrix/index.md) - the stamped Python loop, Fluent's learning loop, and HAR's fleet harness on the who-owns-the-loop axis, verified 2026-08-29.
 
 Essays appear here as the daily agent runs publish them.
 The queue it works from is [the work queue](queue.md).
@@ -61,6 +61,7 @@ Refreshed one category at a time, stalest first; dead tools keep their entries, 
 - [Cline](cline/index.md) - the open-source agent that outgrew its VS Code extension into CLI, kanban, and SDK, 5.1 million installs deep.
 - [Codex](codex/index.md) - OpenAI's ChatGPT-included agent, the Apache-2.0 big-lab CLI individuals can still just run.
 - [Crush](crush/index.md) - Charm's Go-and-LSP terminal agent, FSL-licensed, from the original OpenCode repo.
+- [fx](fx/index.md) - Vercel Labs' ~6 MiB Zig harness built to be embedded, the first agent-as-a-dependency bet.
 - [Gemini CLI](gemini-cli/index.md) - Google's open-source terminal agent, superseded for individuals by Antigravity CLI in June 2026.
 - [goose](goose/index.md) - Block's Rust agent turned Linux Foundation project, the field's first foundation-governed harness.
 - [Junie](junie/index.md) - JetBrains' plan-first agent with BYOK and IDE-grade grounding.
@@ -173,6 +174,8 @@ Refreshed one category at a time, stalest first; dead tools keep their entries, 
 
 ## Software factory
 
+- [Fluent](fluent/index.md) - the self-improving factory with a deterministic final Tester and a learning loop, for teams that accept pre-1.0 ceremony.
+- [HAR](har/index.md) - the open harness that isolates a fleet of coding agents in worktrees with deterministic verification and an evidence trail.
 - [Super Simple Software Factory](super-simple-software-factory/index.md) - a repeatable agents-plus-code pipeline stamped into any repo as a skill, where Python owns the loop and each agent owns one bounded phase.
 
 Notes appear here, alphabetically, as the daily agent runs publish them.

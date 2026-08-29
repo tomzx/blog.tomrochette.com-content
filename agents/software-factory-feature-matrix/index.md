@@ -7,11 +7,10 @@ tags: [agent-curated, fully-ai-generated, llm=big-pickle, comparison, software-f
 readability: 3
 audience_notes: >
   Engineers comparing repeatable, code-owned agent pipelines against each other.
-  Assumes you know what a phase, an envelope, a gate, and a skill are.
+  Assumes you know what a phase, an envelope, a gate, a worktree, and a skill are.
 ---
 
 This matrix compares the members of the Software factory category: repeatable agents-plus-code production pipelines, where deterministic code owns the loop and agents are bounded nodes inside it.
-It is a single-column scaffold today, the founding member Super Simple Software Factory, and the column is the template the next member extends.
 Everything below was verified against live sources on 2026-08-29.
 
 **The deciding question for this category is who owns the loop: a factory puts phase sequencing, retries, and acceptance in code, and an agent owns only the work inside one bounded phase.**
@@ -21,47 +20,53 @@ Each column links to the full research note; every cell below traces to a source
 
 ## The matrix
 
-| Feature | [Super Simple Software Factory](../super-simple-software-factory/index.md) |
-| --- | --- |
-| Delivery | one skill (.claude/skills/sssf), stamped into any repo |
-| Loop owner | Python ADW scripts (code owns sequencing, retries, acceptance) |
-| Agent boundary | one agent, one named phase at a time |
-| Context across seams | typed JSON envelopes, parsed against a schema |
-| Acceptance | gates that verify artifacts and test results after the fact |
-| Failure handling | same-session correction, no cold restart |
-| Coding agent | pi only (claude_code stubbed); README pi link dead as of 2026-08-29 |
-| Sandbox / branch-per-run | ✗ runs on current branch, no sandbox or merge step |
-| Trace | SQLite, tool calls visible mid-run |
-| License | MIT |
-| Born | 2026-08-02 |
-| Stars | about 764 |
+| Feature | [Super Simple Software Factory](../super-simple-software-factory/index.md) | [Fluent](../fluent/index.md) | [HAR](../har/index.md) |
+| --- | --- | --- | --- |
+| Delivery | one skill (.claude/skills/sssf), stamped into any repo | Rust binary + skill for Codex/Claude Code/Pi, macOS only | CLI + MCP server, npm package |
+| Loop owner | Python ADW scripts (code owns sequencing, retries, acceptance) | Rust binary owns scheduler, reviewer, tester, learner | deterministic verify stages; agents own their edits |
+| Agent boundary | one agent, one named phase at a time | Work Items in isolated worktrees, human attention queue | one isolated slot per agent |
+| Context across seams | typed JSON envelopes, parsed against a schema | Brief, Behavior Specs (EARS), Technical Approach, Plan | .har contract, shared by all agents |
+| Acceptance | gates that verify artifacts and tests after the fact | deterministic final Tester bound to the reviewed commit | deterministic verify with per-commit evidence trail |
+| Failure handling | same-session correction, no cold restart | resumable Writer correction, fail-closed evidence | per-slot teardown, evidence kept |
+| Self-improvement | ✗ none | ✓ Learner writes reusable Expertise after each change | ~ plugins and templates reduce drift, no learner |
+| Isolation | ✗ runs on current branch, no sandbox or merge step | ✓ isolated worktree, remote via AWS Fargate | ✓ worktree, ports, and database per slot |
+| Coding agent | pi only (claude_code stubbed) | Codex, Claude Code, or Pi | Claude Code, Cursor, Codex, or any MCP agent |
+| Trace | SQLite, tool calls visible mid-run | Work Item / Attempt record with bound evidence | Mission Control dashboard per run and artifact |
+| License | MIT | Apache-2.0 | Apache-2.0 |
+| Born | 2026-08-02 | 2026-07-10 | 2026-06-28 |
+| Stars | about 764 | about 84 | about 82 |
 
 ## Reading the matrix
 
-**The loop-owner row is the whole category in one cell**: SSSF is the proof that moving the control plane out of the prompt and into Python is what makes a run repeatable.
-The other rows decorate that decision.
+**The loop-owner row is the whole category in one glance**: SSSF and Fluent move the loop into code (Python ADWs, a Rust scheduler) while HAR coordinates a fleet but leaves each agent free to edit, which is why its acceptance is verify-focused rather than loop-owned.
+A factory is defined by determinism, and HAR earns its place through deterministic verification rather than deterministic sequencing.
 
-**The boundary and envelope rows are what stop it collapsing into a single long agent call**: an agent cannot leak beyond its phase, every context handoff is a validated structure, and a green gate is the definition of done.
+**The isolation row is where the category separates from a single long agent call**: Fluent and HAR isolate every candidate in its own worktree, while SSSF deliberately runs on the current branch with no sandbox or merge step, the gap its own note names first.
 
-**The sandbox row is the candid gap**: no branch-per-run, no merge step, no human approval, all admitted on purpose to keep the core readable.
-Anyone adopting a factory will add this layer before trusting it with merges.
+**The self-improvement row is Fluent's lead**: only Fluent closes the loop by writing reusable lessons into Expertise after accepted changes, which is the difference between a repeatable factory and a compounding one.
 
-**The gaps this scaffold names**: the category needs at least one competing factory to make the loop-owner comparison substantive, and the pi-only dependency plus the dead pi link mean the coding-agent row deserves a second opinion the day another factory shows up.
+**The narrow columns are candid**: SSSF's pi-only dependency versus the open agent matrix of Fluent and HAR is the single biggest reason to look past the founding member's headline ease.
+
+**The rejected long tail**: agentic-software-factory (1 star, inflated agent counts), ai-factory (4 stars, no license), and Takk8IS/software-factory (0 stars, no license) did not clear the citation or credibility bar and are named here so no future run re-adds them silently.
 
 ## Choosing from the matrix
 
-- Want a repeatable, code-owned, observable pipeline around a coding agent and are willing to write your own gates and prompts: Super Simple Software Factory.
-- Everything else today is a single agent call, which a factory is deliberately overkill for.
+- Want the easiest code-owned loop on a single agent and will wire your own gates: Super Simple Software Factory.
+- Want a self-improving factory with a real final Tester and worktree isolation, pre-1.0 accepted: Fluent.
+- Want to run a fleet of coding agents on one repo with deterministic verification and evidence, keeping your agents: HAR.
 
 ## See also
 
 - [Code Factories: Factorio](../../code-factories-factorio/index.md) - the corpus metaphor this category turns into a tool taxonomy
 - [Hybrid Execution Feature Matrix](../hybrid-execution-feature-matrix/index.md) - the deterministic-orchestrates-LLM principle at the structured-output layer
 - [Spec-driven Development Feature Matrix](../spec-driven-development-feature-matrix/index.md) - the spec-first competitor to a full pipeline
+- [Harness Feature Matrix](../harness-feature-matrix/index.md) - the single coding agents these factories coordinate
 - [Executions Feature Matrix](../executions-feature-matrix/index.md) - scheduled and event-triggered runs versus an invoked factory
 
 ## References
 
-- https://github.com/disler/super-simple-software-factory - the founding column's source: architecture, envelopes, gates, and trace
-- https://github.com/disler/super-simple-software-factory/tree/example - the stamped demo repo with real traces this column's cells trace to
-- https://youtu.be/haUfb1ievTE - the video walkthrough grounding the loop-owner and correction rows
+- https://github.com/disler/super-simple-software-factory - the founding column: architecture, envelopes, gates, and trace
+- https://github.com/disler/super-simple-software-factory/tree/example - the stamped demo repo with real traces
+- https://github.com/mrinalwadhwa/fluent - the Fluent column: scheduler, Tester, and Expertise loop
+- https://github.com/os-factory/har - the HAR column: the .har contract, worktree isolation, and verify stage
+- https://github.com/os-factory/har/releases - the v1.0.0 release grounding HAR's cadence
