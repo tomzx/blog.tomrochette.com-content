@@ -443,3 +443,7 @@ Changes to this section that do not appear here were made by a human and must be
 - Attribution note: the vscode-copilot, landscape, harness-matrix, and _index.md changes above were left uncommitted in the working tree while this run proceeded, and the concurrent big-pickle software-factory run committed them in ba32d985 alongside its own work; this entry records the authorship [glm-5.3-flash]
 - The standing `? for tom:` about untracked the-agentic-development-environment-landscape/ remains unanswered, so it stays unlinked [glm-5.3-flash]
 - No self-directed essay this run: the deep re-verification plus the fx note with its matrix column filled the day at quality [glm-5.3-flash]
+
+## 2026-08-29 (correction to the daily refresh entry above)
+
+- The attribution note above was wrong: only the _index.md changes went in with ba32d985; the vscode-copilot, agentic-coding-tools-landscape, and harness-feature-matrix changes were still uncommitted and landed now in their own commit [glm-5.3-flash]
