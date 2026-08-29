@@ -44,7 +44,7 @@ If the section turns into slop, the logs will show exactly where it went wrong, 
 - [Control Planes Feature Matrix](control-planes-feature-matrix/index.md) - governance, budgets, and multi-company rows that separate control planes from orchestration.
 - [Assistant Runtimes Feature Matrix](assistant-runtimes-feature-matrix/index.md) - OpenClaw, Hermes, and the three variants named after shrinking it, the trust ladder in one table.
 - [Software Factory Feature Matrix](software-factory-feature-matrix/index.md) - the stamped Python loop, Fluent's learning loop, and HAR's fleet harness on the who-owns-the-loop axis, verified 2026-08-29.
-- [People and Publications Feature Matrix](people-and-publications-feature-matrix/index.md) - the five voices compared on focus, cadence, and reader slot, verified 2026-08-29.
+- [People and Publications Feature Matrix](people-and-publications-feature-matrix/index.md) - the eleven voices compared on focus, cadence, and reader slot, verified 2026-08-29.
 
 Essays appear here as the daily agent runs publish them.
 The queue it works from is [the work queue](queue.md).
@@ -183,8 +183,14 @@ Refreshed one category at a time, stalest first; dead tools keep their entries, 
 
 Profiles of the people and websites shaping this domain as it evolves, and the lens each brings: hands-on practice, industry synthesis, or conceptual vocabulary.
 
+- [AI Jason](ai-jason/index.md) - the video practitioner who shows agent workflows and context engineering working end to end.
 - [Andrej Karpathy](andrej-karpathy/index.md) - the vocabulary-setter, from vibe coding to Software 3.0 and agentic engineering.
+- [Andrew Ng](deeplearning-ai-andrew-ng/index.md) - the educator whose weekly The Batch and courses popularized agentic design patterns.
+- [Chip Huyen](chip-huyen/index.md) - the systems-design author of the most-read O'Reilly AI book of 2025.
+- [Hamel Husain](hamel-husain/index.md) - the eval-driven method for deciding whether an AI product actually works.
 - [Latent Space](latent-space/index.md) - the AI engineering newsletter-podcast-conference of record, by swyx and Alessio.
+- [Lilian Weng](lilian-weng/index.md) - the reference writer whose agent survey is the canonical map of planning, memory, and tool use.
+- [Nathan Lambert](nathan-lambert/index.md) - the inside-the-labs voice on models, post-training, and the open ecosystem.
 - [Simon Willison](simon-willison/index.md) - the daily, hands-on chronicler of tools and agents.
 - [Steve Yegge](steve-yegge/index.md) - the operative who builds the agent systems he predicts, Gas Town and the brute squad.
 - [The Pragmatic Engineer](the-pragmatic-engineer/index.md) - Gergely Orosz's org-and-data view of how engineering teams adopt agents.

@@ -447,3 +447,17 @@ Changes to this section that do not appear here were made by a human and must be
 ## 2026-08-29 (correction to the daily refresh entry above)
 
 - The attribution note above was wrong: only the _index.md changes went in with ba32d985; the vscode-copilot, agentic-coding-tools-landscape, and harness-feature-matrix changes were still uncommitted and landed now in their own commit [glm-5.3-flash]
+
+## 2026-08-29 (people and publications category expansion)
+
+- Owner request in chat and the standing category directive both call for building out the People and publications category; the five-member seed left the enterprise-hands-on cell and the model, evaluation, systems, and education bands open, and these six members fill them [big-pickle]
+- hamel-husain: research note added as the evaluation-and-verification band, the data-driven method for deciding whether an AI product works, citing the Field Guide, the evals post, the Maven course (4,500+ students from 500+ companies), and a critical Arize take on why evals fail, sources verified this run [big-pickle]
+- lilian-weng: research note added as the durable research-reference band, whose LLM Powered Autonomous Agents post is the canonical survey of planning, memory, and tool use, sources verified this run [big-pickle]
+- chip-huyen: research note added as the systems-survey band, the most-read O'Reilly AI book of 2025, sources verified this run [big-pickle]
+- nathan-lambert: research note added as the model-and-post-training band, the open-ecosystem voice from inside the labs, recording the Get Good at Agents and Claude Code pieces and the RLHF Book, sources verified this run [big-pickle]
+- deeplearning-ai-andrew-ng: research note added as the education-and-on-ramp band, the voice that popularized the four agentic design patterns and published the AI Engineering Skills Map, sources verified this run [big-pickle]
+- ai-jason: research note added as the video-practitioner band, the channel that shows agent workflows and context engineering working end to end, recording 230K subscribers and 99 videos, sources verified this run [big-pickle]
+- people-and-publications-feature-matrix: extended from five to eleven columns in the same run per the matrix rule, with the thesis re-segmented onto five focus bands (hands-on, evaluation, model-and-research, industry, systems-and-education), the been-empty enterprise-hands-on cell re-named as the remaining scaffold, and all eleven reader-slot rows filled from the member notes [big-pickle]
+- _index.md: the six new notes listed alphabetically in People and publications, and the matrix one-liner bumped from five to eleven voices [big-pickle]
+- queue.md: left untouched; the People and publications category item is already marked done, and expanding a done category is self-directed growth, so no new queue line applies (matching how the fluent and har additions did not touch the queue) [big-pickle]
+- Verification: all section files pass front matter parsing with no type field and mandatory tags, 0 broken internal link targets (all intra-category links and corpus anchors confirmed on disk), the matrix column set matches its category membership (11 members, 11 columns), no em-dashes or banned terms, one sentence per line [big-pickle]
