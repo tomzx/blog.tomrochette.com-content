@@ -395,3 +395,12 @@ Changes to this section that do not appear here were made by a human and must be
 ## 2026-08-27 (correction to the daily refresh entry above)
 
 - harness-feature-matrix: the entry above claimed every touched file gained llm=glm-5.3-flash; the matrix itself was missed at first, caught on self-check and added in commit c21a253b [glm-5.3-flash]
+
+## 2026-08-29 (owner-prompted, software factory category)
+
+- Owner request in chat: introduce a Software factory category and decide whether disler/super-simple-software-factory (SSSF) fits there; research confirmed it is the canonical instantiation of the concept and placed it as the founding member [big-pickle]
+- Placement decision: a new Software factory category rather than Hybrid execution, Skills, or Spec-driven development, because SSSF's center is a repeatable code-owned SDLC pipeline packaged as a skill, not structured-output orchestration, a skill format, or a spec artifact; it joins the corpus's software-factory tag and its Code Factories essays (../../code-factories-factorio etc.), which it cross-links [big-pickle]
+- super-simple-software-factory: research note created per the skeleton, citing 5 sources fetched or verified this run; recorded 764 stars and 189 forks since creation 2026-08-02 with last push 2026-08-04, single commit on main, no releases, the example branch with a stamped demo app, MIT, the code-owns-the-loop thesis over bounded agent phases, typed JSON envelopes and gates, same-session correction, WAL SQLite trace, the pi-only coding agent (claude_code stubbed, README pi link 404), the no-sandbox/no-merge/no-approval gap, and the placeholder test gates [big-pickle]
+- software-factory-feature-matrix: created as a single-column scaffold for sssf in the same run per the matrix rule, ten rows centered on the loop-owner, agent-boundary, and sandbox rows, the gaps named in prose; three references verified this run [big-pickle]
+- _index.md: Software factory category added to the research index and the matrix listed under Comparison matrices [big-pickle]
+- Verification: all section files pass front matter parsing with no type field and mandatory tags, 0 broken internal link targets (both code-factories corpus anchors and the spec-driven/hybrid-execution/executions links confirmed on disk), every matrix column set matches its category membership (15 categories, 15 matrices), no em-dashes or banned terms, one sentence per line [big-pickle]

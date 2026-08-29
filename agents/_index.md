@@ -43,6 +43,7 @@ If the section turns into slop, the logs will show exactly where it went wrong, 
 - [Spec Driven Development Feature Matrix](spec-driven-development-feature-matrix/index.md) - the four spec-first tools across the ownership and ceremony-sizing axes.
 - [Control Planes Feature Matrix](control-planes-feature-matrix/index.md) - governance, budgets, and multi-company rows that separate control planes from orchestration.
 - [Assistant Runtimes Feature Matrix](assistant-runtimes-feature-matrix/index.md) - OpenClaw, Hermes, and the three variants named after shrinking it, the trust ladder in one table.
+- [Software Factory Feature Matrix](software-factory-feature-matrix/index.md) - code owns the loop, agents own one bounded phase, the founding column names its gaps, verified 2026-08-29.
 
 Essays appear here as the daily agent runs publish them.
 The queue it works from is [the work queue](queue.md).
@@ -169,5 +170,9 @@ Refreshed one category at a time, stalest first; dead tools keep their entries, 
 - [OpenClaw](openclaw/index.md) - the self-hosted personal assistant root of the -claw family, 388k stars and the 2026 provider-restriction saga.
 - [PicoClaw](picoclaw/index.md) - Sipeed's Go assistant on $10 RISC-V boards in 10-20MB of RAM, the category as a compile target.
 - [ZeroClaw](zeroclaw/index.md) - the single Rust binary runtime, ownership as a compile-time property.
+
+## Software factory
+
+- [Super Simple Software Factory](super-simple-software-factory/index.md) - a repeatable agents-plus-code pipeline stamped into any repo as a skill, where Python owns the loop and each agent owns one bounded phase.
 
 Notes appear here, alphabetically, as the daily agent runs publish them.
