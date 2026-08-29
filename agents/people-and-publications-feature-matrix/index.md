@@ -10,7 +10,7 @@ audience_notes: >
   Assumes you know the names in the columns at a high level; each column links to a full note with sources.
 ---
 
-This matrix compares the eleven people-and-publications profiled in this category, row by row, so deciding what to follow does not require reading eleven notes blind.
+This matrix compares the twelve people-and-publications profiled in this category, row by row, so deciding what to follow does not require reading twelve notes blind.
 Everything below was verified against live primary sources on 2026-08-29.
 
 **The axis that actually segments the field is what each voice gives you: hands-on tool practice, an evaluation method, the model-and-research layer, industry-and-org analysis, or a structured on-ramp, and the personalities span all five.**
@@ -19,27 +19,27 @@ Legend: each cell reads as a description; every cell traces to the linked member
 
 ## The matrix
 
-| Row | [Simon Willison](../simon-willison/index.md) | [Hamel Husain](../hamel-husain/index.md) | [AI Jason](../ai-jason/index.md) | [Steve Yegge](../steve-yegge/index.md) | [Nathan Lambert](../nathan-lambert/index.md) | [Lilian Weng](../lilian-weng/index.md) | [Andrej Karpathy](../andrej-karpathy/index.md) | [Chip Huyen](../chip-huyen/index.md) | [Latent Space](../latent-space/index.md) | [The Pragmatic Engineer](../the-pragmatic-engineer/index.md) | [Andrew Ng](../deeplearning-ai-andrew-ng/index.md) |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Primary platform | Daily blog + TIL | Blog + Substack | YouTube | Blog + Substack + essays | Substack + site | Blog (Lil'Log) | Essays + talks | Site + books | Substack + podcast + conferences | Newsletter + podcast | Newsletter + courses |
-| Cadence | Daily, multiple posts | Monthly-ish long posts | Monthly videos | Sporadic + shipped code | High, multiple a week | Low, irregular | Low, periodic | Books + periodic essays | Weekly newsletter, daily AINews | Weekly issue | Weekly newsletter |
-| Focus | Hands-on tools and agent practice | Evaluation and data-driven improvement | Agent workflows and context engineering | Agent-era thesis and builds | Models, post-training, open ecosystem | Research surveys (agents, alignment) | Conceptual vocabulary, frontier research | AI systems design, production | Industry, labs, interviews, trends | Org design, hiring, adoption data | Education, agentic patterns, overview |
-| Media format | Text | Text | Video | Text | Text + podcast | Text | Text + video talks | Text + books | Newsletter + audio + events | Newsletter + audio | Newsletter + video courses |
-| Depth vs breadth | Dense and deep on tools | Deep on evals, narrow scope | Broad, execution-level, shallow | Provocative theses | Deep on post-training | Deep references, broad | Conceptual framing | Broad systems survey | Broad industry synthesis | Org-level, broad | Broad on-ramp, shallow |
-| Builds tools | Yes (LLM, Datasette) | Some (evals tooling) | Yes (production agents) | Yes (Gas Town, beads) | Yes (OLMo, RL tools) | No | Yes (nanoGPT, AutoResearch) | Micro tools | Indexes, does not build harnesses | No | No (platform) |
-| Evaluation and verification | Security-critical, tests agents | Central, the whole method | Light, practical | Thematic, needs cross-check | RewardBench, comparisons | Research rigor on limits | High on his own terms | Systems-level | Moderate, evangelistic on brand | Empirical data, surveys | Skills map, moderate |
-| Model and research layer | Tool and model churn, light research | Applied, light research | Light | Moderate | Central | Central | Central | Moderate | Strong | Moderate | Moderate |
-| Commercial model | Free, sponsor-funded | Free + paid course and consulting | Free + paid community and sponsors | Free | Free + reader-supported + book | Free | Free | Free + paid books | Freemium + conference tickets | Freemium, paywalled core | Free + paid courses |
-| Reader slot | Practitioner daily signal | Data-centric eval practitioner | Video practitioner | Provocateur builder | Model and research reader | Research reference reader | Vocabulary-setter | Systems and architecture reader | Industry and community view | Engineering leader | Educator, general AI reader |
-| Enterprise vs frontier | Open, local, practitioner | Applied AI in companies | Individual and startup | Individual and teams | Frontier labs + open models | Frontier labs | Frontier labs | Production teams | Frontier labs and AI-native startups | Established-company orgs | General audience + enterprises |
-| Skepticism | High, security-critical | High, evidence-based | Moderate, tool-hype risk | Provocative, needs cross-check | Sharp about hype in his domain | High on her own terms | High on his own terms | Moderate, balanced | Moderate, evangelistic on brand | High, empirical | Low, optimistic |
+| Row | [Simon Willison](../simon-willison/index.md) | [Hamel Husain](../hamel-husain/index.md) | [AI Jason](../ai-jason/index.md) | [Caleb Writes Code](../caleb-writes-code/index.md) | [Steve Yegge](../steve-yegge/index.md) | [Nathan Lambert](../nathan-lambert/index.md) | [Lilian Weng](../lilian-weng/index.md) | [Andrej Karpathy](../andrej-karpathy/index.md) | [Chip Huyen](../chip-huyen/index.md) | [Latent Space](../latent-space/index.md) | [The Pragmatic Engineer](../the-pragmatic-engineer/index.md) | [Andrew Ng](../deeplearning-ai-andrew-ng/index.md) |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Primary platform | Daily blog + TIL | Blog + Substack | YouTube | YouTube channel | Blog + Substack + essays | Substack + site | Blog (Lil'Log) | Essays + talks | Site + books | Substack + podcast + conferences | Newsletter + podcast | Newsletter + courses |
+| Cadence | Daily, multiple posts | Monthly-ish long posts | Monthly videos | About twice a week | Sporadic + shipped code | High, multiple a week | Low, irregular | Low, periodic | Books + periodic essays | Weekly newsletter, daily AINews | Weekly issue | Weekly newsletter |
+| Focus | Hands-on tools and agent practice | Evaluation and data-driven improvement | Agent workflows and context engineering | Model releases and agentic-engineering explainers | Agent-era thesis and builds | Models, post-training, open ecosystem | Research surveys (agents, alignment) | Conceptual vocabulary, frontier research | AI systems design, production | Industry, labs, interviews, trends | Org design, hiring, adoption data | Education, agentic patterns, overview |
+| Media format | Text | Text | Video | Video | Text | Text + podcast | Text | Text + video talks | Text + books | Newsletter + audio + events | Newsletter + audio | Newsletter + video courses |
+| Depth vs breadth | Dense and deep on tools | Deep on evals, narrow scope | Broad, execution-level, shallow | Broad, current, explainer depth | Provocative theses | Deep on post-training | Deep references, broad | Conceptual framing | Broad systems survey | Broad industry synthesis | Org-level, broad | Broad on-ramp, shallow |
+| Builds tools | Yes (LLM, Datasette) | Some (evals tooling) | Yes (production agents) | No | Yes (Gas Town, beads) | Yes (OLMo, RL tools) | No | Yes (nanoGPT, AutoResearch) | Micro tools | Indexes, does not build harnesses | No | No (platform) |
+| Evaluation and verification | Security-critical, tests agents | Central, the whole method | Light, practical | Light, explainer-level | Thematic, needs cross-check | RewardBench, comparisons | Research rigor on limits | High on his own terms | Systems-level | Moderate, evangelistic on brand | Empirical data, surveys | Skills map, moderate |
+| Model and research layer | Tool and model churn, light research | Applied, light research | Light | Strong release coverage, light research depth | Moderate | Central | Central | Central | Moderate | Strong | Moderate | Moderate |
+| Commercial model | Free, sponsor-funded | Free + paid course and consulting | Free + paid community and sponsors | Ad and sponsor-funded, plus Patreon | Free | Free + reader-supported + book | Free | Free | Free + paid books | Freemium + conference tickets | Freemium, paywalled core | Free + paid courses |
+| Reader slot | Practitioner daily signal | Data-centric eval practitioner | Video practitioner | Release-tracking video viewer | Provocateur builder | Model and research reader | Research reference reader | Vocabulary-setter | Systems and architecture reader | Industry and community view | Engineering leader | Educator, general AI reader |
+| Enterprise vs frontier | Open, local, practitioner | Applied AI in companies | Individual and startup | Individual learners and practitioners | Individual and teams | Frontier labs + open models | Frontier labs | Frontier labs | Production teams | Frontier labs and AI-native startups | Established-company orgs | General audience + enterprises |
+| Skepticism | High, security-critical | High, evidence-based | Moderate, tool-hype risk | Moderate, sponsor-dense | Provocative, needs cross-check | Sharp about hype in his domain | High on her own terms | High on his own terms | Moderate, balanced | Moderate, evangelistic on brand | High, empirical | Low, optimistic |
 
 ## Reading the matrix
 
 I read this table by columns, matching a reader slot rather than a source.
 **Nobody covers all five focus bands well, which is the argument for following several: pick a practitioner, an evaluation voice, a model-layer reader, an industry voice, and an educator.**
 
-**The hands-on cluster now spans text, video, and eval-discipline, not a single mode:** Simon Willison is the reliable daily text chronicler, AI Jason shows the same workflows in video, Hamel Husain supplies the data-driven method for deciding whether those workflows work, and Steve Yegge remains the provocative thesis-builder who ships what he declares.
+**The hands-on cluster now spans text, eval-discipline, and two distinct video modes:** Simon Willison is the reliable daily text chronicler, AI Jason builds complete workflows on camera, Caleb Writes Code explains each release and agentic concept at news speed, Hamel Husain supplies the data-driven method for deciding whether those workflows work, and Steve Yegge remains the provocative thesis-builder who ships what he declares.
 
 **The model-and-research layer is now its own band:** Lilian Weng writes the durable research references, Nathan Lambert tracks the current post-training and open-model state from inside the labs, and Andrej Karpathy sets the conceptual vocabulary they all operate inside.
 
@@ -54,6 +54,7 @@ I read this table by columns, matching a reader slot rather than a source.
 - Need daily, hands-on signal on tools and models: Simon Willison.
 - Ship an AI product and cannot tell if it works: Hamel Husain.
 - Learn agent workflows best by watching: AI Jason.
+- Want same-week illustrated explainers of every model release: Caleb Writes Code.
 - Want a sharp, opinionated thesis and are willing to cross-check: Steve Yegge.
 - Understand the reasoning and open-model layer under the agents: Nathan Lambert.
 - Want the durable research reference behind agent concepts: Lilian Weng.
