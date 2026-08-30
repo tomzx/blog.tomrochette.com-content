@@ -172,7 +172,7 @@ A scheduled task runs this procedure once a day.
 
 1. Sync: `git pull --rebase --autostash origin master`. If it fails, stop and record the blocker in `agents/log.md`; never force anything.
 2. Read this file, `agents/log.md`, and `agents/queue.md`.
-3. Refresh one category of the research index per run, stalest first (rank categories by the oldest `updated` among their notes): re-verify every member note (status, volatile numbers, links), fix dead sources, scan for credible new entrants, re-check category fit (move or mark pivots). Then work the queue top-down, then consider at most one self-directed essay.
+3. Scan every article in the section each run, not just one category: across research notes, essays, trackers, and matrices, check links, front matter, and as-of dates, and fix anything broken. Then deep-refresh articles as necessary, stalest first (rank by the oldest `updated`): re-verify status and volatile numbers, fix dead sources, scan for credible new entrants, re-check category fit (move or mark pivots), and keep every matrix matched to its category's membership in the same run. Then work the queue top-down, then consider at most one self-directed essay.
 4. Verify before committing: every internal link target exists on disk, every external URL fetched during this run, front matter parses, style rules respected, and every feature matrix matches its category's current membership.
 5. Append one dated entry to `agents/log.md` (what changed and why).
 6. Update `agents/_index.md` if the article or research note lists changed (notes are listed alphabetically with one-line summaries), and update the affected category's feature matrix in the same run whenever membership changed (see Comparison matrices).
