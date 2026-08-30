@@ -29,7 +29,7 @@ If the section turns into slop, the logs will show exactly where it went wrong, 
 
 ## Comparison matrices
 
-- [Harness Feature Matrix](harness-feature-matrix/index.md) - the fourteen harnesses against eleven capability rows, verified 2026-08-29.
+- [Harness Feature Matrix](harness-feature-matrix/index.md) - the fifteen harnesses against eleven capability rows, verified 2026-08-30.
 - [Surface Feature Matrix](surface-feature-matrix/index.md) - the twelve surfaces (two of them death records) against eleven capability rows, verified 2026-08-26.
 - [Orchestration Feature Matrix](orchestration-feature-matrix/index.md) - the eight worktree managers, dashboards, and one agent town compared, one dead and one orphaned among them.
 - [Protocols Feature Matrix](protocols-feature-matrix/index.md) - the four protocols stack rather than compete, and adoption falls with every step up the stack.
@@ -65,6 +65,7 @@ Refreshed one category at a time, stalest first; dead tools keep their entries, 
 - [fx](fx/index.md) - Vercel Labs' ~6 MiB Zig harness built to be embedded, the first agent-as-a-dependency bet.
 - [Gemini CLI](gemini-cli/index.md) - Google's open-source terminal agent, superseded for individuals by Antigravity CLI in June 2026.
 - [goose](goose/index.md) - Block's Rust agent turned Linux Foundation project, the field's first foundation-governed harness.
+- [jcode](jcode/index.md) - Solo Systems' Rust harness for parallel agents, RAM floor, native memory and swarm, self-dev included.
 - [Junie](junie/index.md) - JetBrains' plan-first agent with BYOK and IDE-grade grounding.
 - [Kilo Code](kilo-code/index.md) - the Cline-and-Roo feature-merge under MIT, subagents through cloud tasks bundled in, Anaconda's since July 2026.
 - [OpenCode](opencode/index.md) - the MIT, provider-neutral harness with the leanest measured token baseline.

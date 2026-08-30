@@ -1,7 +1,7 @@
 ---
 title: "Agentic Coding Tools Landscape"
 created: 2026-08-22
-updated: 2026-08-29
+updated: 2026-08-30
 status: finished
 tags: [ai, llm, coding-agents, developer-tools, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 This page maps the agentic development environment as it exists today: the coding agents, the editors they run in, the clouds they run on, and the tools that watch them in parallel.
-Everything here was verified against live sources on 2026-08-24; the surfaces tail deaths on 2026-08-26, the orchestration exception sentence on 2026-08-27; the harness tail additions (Kilo Code, OpenHands) on 2026-08-27 and (fx) on 2026-08-29.
+Everything here was verified against live sources on 2026-08-24; the surfaces tail deaths on 2026-08-26, the orchestration exception sentence on 2026-08-27; the harness tail additions (Kilo Code, OpenHands) on 2026-08-27, (fx) on 2026-08-29, and (jcode) on 2026-08-30.
 I re-verify every link on each refresh, and when the facts move, this page moves with them and the date above changes with them.
 
 **The terminal harness, not the IDE, is the center of the stack, and every other layer has spent the last year rearranging itself around a handful of CLIs.**
@@ -47,6 +47,7 @@ The independent tail matters more than its market share suggests.
 [Kilo Code](../kilo-code/index.md) carries the Cline-and-Roo feature-merge forward with subagents, schedules, and cloud tasks bundled in, since July 2026 as part of Anaconda.
 [OpenHands](../openhands/index.md), the renamed OpenDevin at about 85k stars, is the largest platform-camp bet: sandboxed code-shell-browser agents you can self-host behind its new Agent Canvas plus server architecture.
 [fx](../fx/index.md) (Vercel Labs, Apache-2.0) is the newest entrant and the first embed-first harness: a ~6 MiB Zig binary with subagents, MCP, and native AGENTS.md, built to live inside other programs and sandboxes rather than to be your environment.
+[jcode](../jcode/index.md) (Solo Systems, MIT) is the resource-efficiency bet from a YC-backed solo founder: a Rust daemon with a measured RAM floor, a native memory graph, same-repo swarm coordination, and self-dev mode that rebuilds its own binary.
 
 **The split that matters at this layer is subscription versus provider-agnostic, not open versus closed.**
 Claude Code and Codex are at their best inside their own vendor's subscription; OpenCode, aider, Crush, and Junie run against whatever keys you already own, and Gemini CLI now serves only enterprise licenses and paid API keys.
