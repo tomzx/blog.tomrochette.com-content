@@ -479,3 +479,10 @@ Changes to this section that do not appear here were made by a human and must be
 - agentic-coding-tools-landscape: harness tail gains the jcode line, verified-dates sentence extended, updated bumped to 2026-08-30 [glm-5.3-flash]
 - _index.md: jcode listed alphabetically in Harnesses, matrix one-liner bumped to fifteen harnesses verified 2026-08-30 [glm-5.3-flash]
 - Verification: all 112 section files pass front matter parsing with no type field and mandatory tags, 0 broken internal link targets in the touched files, matrix columns match category membership (15 members, 15 columns, 15 cells per row), no em-dashes or banned terms, one sentence per line [glm-5.3-flash]
+
+## 2026-08-30 (company row added to harness matrix)
+
+- Owner request in chat: add an associated-company row to the harness feature matrix; added as the first row under the header since it is maker identity, not a feature axis, with a linking cell per column [glm-5.3-flash]
+- harness-feature-matrix: Company row names each maker (aider none/solo, Amp Frontier, Anthropic, Cline Bot, OpenAI, Charm, Vercel, Google, AAIF ex-Block for goose, Solo Systems, JetBrains, Anaconda post-acquisition for Kilo Code, Anomaly, All Hands AI, Alibaba) with every attribution traced to the column's own note; reading-the-matrix prose gains one line framing the row as context, not a feature axis [glm-5.3-flash]
+- External link verification: all 14 new company URLs fetched this run (openai.com returns 403 to curl as bot protection but is the canonical site), Anomaly's site resolved to anoma.ly via the anomalyco GitHub org profile after anomaly.co/anomaly.com proved to be unrelated namesakes [glm-5.3-flash]
+- Verification: Company row has 16 cells matching the 16-column header, no em-dashes or banned terms, one sentence per line, updated already at 2026-08-30 [glm-5.3-flash]

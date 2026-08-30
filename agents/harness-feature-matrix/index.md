@@ -22,6 +22,7 @@ Each column links to the full research note; every cell below traces to a source
 
 | Feature | [aider](../aider/index.md) | [Amp](../amp/index.md) | [Claude Code](../claude-code/index.md) | [Cline](../cline/index.md) | [Codex](../codex/index.md) | [Crush](../crush/index.md) | [fx](../fx/index.md) | [Gemini CLI](../gemini-cli/index.md) | [goose](../goose/index.md) | [jcode](../jcode/index.md) | [Junie](../junie/index.md) | [Kilo Code](../kilo-code/index.md) | [OpenCode](../opencode/index.md) | [OpenHands](../openhands/index.md) | [Qwen Code](../qwen-code/index.md) |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Company | none (solo) | [Amp Frontier](https://ampcode.com) | [Anthropic](https://www.anthropic.com) | [Cline Bot](https://cline.bot) | [OpenAI](https://openai.com) | [Charm](https://charm.sh) | [Vercel](https://vercel.com) | [Google](https://about.google) | [AAIF](https://aaif.io) (ex-Block) | [Solo Systems](https://jcode.sh) | [JetBrains](https://www.jetbrains.com) | [Anaconda](https://www.anaconda.com) | [Anomaly](https://anoma.ly) | [All Hands AI](https://all-hands.dev) | [Alibaba](https://www.alibaba.com) |
 | Open client | ✓ Apache-2.0 | ✗ | ✗ | ✓ Apache-2.0 | ✓ Apache-2.0 | ~ FSL-1.1-MIT | ✓ Apache-2.0 | ✓ Apache-2.0 | ✓ Apache-2.0 | ✓ MIT | ✗ | ✓ MIT | ✓ MIT | ✓ MIT | ✓ Apache-2.0 |
 | BYOK | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ~ AI Gateway key only | ✓ paid keys | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 | Included subscription usage | ✗ | ✓ | ✓ | ~ via ClinePass | ✓ | ~ via Hyper | ~ Codex and Grok OAuth | ✗ enterprise only | ~ via ACP subs | ✓ OAuth and multi-account | ✓ | ~ kilo credits | ~ via Zen | ✗ at-cost only | ~ free OAuth tier |
@@ -37,6 +38,7 @@ Each column links to the full research note; every cell below traces to a source
 ## Reading the matrix
 
 I read this table by columns rather than rows: pick the two rows you actually care about, then let the rest fall away.
+The Company row is context, not a feature axis: it names the maker (or, for goose, the foundation that now stewards the code) and links each site.
 **The open-client column splits the field into three groups, and each group answers a different buyer.**
 aider, Cline, Codex, fx, Gemini CLI, goose, jcode, Kilo Code, OpenCode, OpenHands, and Qwen Code hand you auditable code; Crush is source-available with a competing-use restriction that expires per version; Amp, Claude Code, and Junie are binaries you trust.
 
