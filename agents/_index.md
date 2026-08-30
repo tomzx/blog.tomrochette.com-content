@@ -42,8 +42,10 @@ If the section turns into slop, the logs will show exactly where it went wrong, 
 - [Task Management Feature Matrix](task-management-feature-matrix/index.md) - files versus database as the deciding row, with the PRD pipeline and its license cost.
 - [Spec Driven Development Feature Matrix](spec-driven-development-feature-matrix/index.md) - the four spec-first tools across the ownership and ceremony-sizing axes.
 - [Control Planes Feature Matrix](control-planes-feature-matrix/index.md) - governance, budgets, and multi-company rows that separate control planes from orchestration.
-- [Assistant Runtimes Feature Matrix](assistant-runtimes-feature-matrix/index.md) - OpenClaw, Hermes, and the three variants named after shrinking it, the trust ladder in one table.
+- [Assistant Runtimes Feature Matrix](assistant-runtimes-feature-matrix/index.md) - OpenClaw, Hermes, the shrinking variants, the Python core, and the two Cowork desktops, the trust ladder in one table, verified 2026-08-30.
 - [Software Factory Feature Matrix](software-factory-feature-matrix/index.md) - the stamped Python loop, Fluent's learning loop, HAR's fleet harness, and Ouroboros' hidden grading on the who-owns-the-loop axis, verified 2026-08-30.
+- [Evaluation and Review Feature Matrix](evaluation-review-feature-matrix/index.md) - the five quality-control columns divided on who judges, the agent, the metric suite, the rules engine, or the human, verified 2026-08-30.
+- [Sandboxing Feature Matrix](sandboxing-feature-matrix/index.md) - the five isolation layers honestly divided into boundaries, an orchestrator, a framework, and provisioning, verified 2026-08-30.
 - [Session Analytics Feature Matrix](session-analytics-feature-matrix/index.md) - the new one-column category: retrospective archives versus live observation, seeded by agentsview, verified 2026-08-30.
 - [People and Publications Feature Matrix](people-and-publications-feature-matrix/index.md) - the twelve voices compared on focus, cadence, and reader slot, verified 2026-08-29.
 
@@ -159,6 +161,26 @@ Refreshed one category at a time, stalest first; dead tools keep their entries, 
 - [OpenAI Structured Outputs](openai-structured-outputs/index.md) - schema-guaranteed responses via constrained decoding.
 - [Outlines](outlines/index.md) - logit-masked generation following types, schemas, regexes, or grammars.
 
+## Evaluation and review
+
+Where quality control lives in the agent workflow: CI gates, dashboards, machine review, human annotation.
+
+- [deepeval](deepeval/index.md) - the pytest-style eval framework with roughly fifty judge metrics that gates merges in CI.
+- [OpenCodeReview](open-code-review/index.md) - Alibaba's hybrid reviewer where deterministic pipelines pick and rule-check what the LLM agent judges, precision over recall.
+- [Phoenix](phoenix/index.md) - Arize's OTel-native observability and eval platform, self-hostable under an Elastic license.
+- [Plannotator](plannotator/index.md) - the local review surface that turns your annotations on agent plans and diffs into the agent's next instruction.
+- [Workshop](workshop/index.md) - Raindrop's local debugger where the coding agent reads traces, writes evals, and fixes what fails.
+
+## Sandboxing
+
+Where agent isolation should live: the workstation, the cluster, the wrapper, the framework, or the provisioning layer.
+
+- [Agent Sandbox](agent-sandbox/index.md) - the Kubernetes SIG Apps CRD for declarative sandbox fleets, delegating isolation to gVisor or Kata.
+- [aigate](aigate/index.md) - the fourteen-star kernel-enforced wrapper, kept as the reference design for small-scale OS-level agent sandboxing.
+- [ArtifactFS](artifact-fs/index.md) - Cloudflare's FUSE driver that mounts big repos in seconds, the provisioning layer sandboxes need before isolation matters.
+- [Flue](flue/index.md) - the Astro team's agent framework whose contribution is a three-tier sandbox taxonomy and durable execution.
+- [OpenShell](openshell/index.md) - NVIDIA's container-and-MicroVM runtime where declarative policy and inference-proxy keys make the boundary credible.
+
 ## Spec-driven development
 
 - [BMad Method](bmad-method/index.md) - the agile method that sizes ceremony to the change, roles and retrospectives included.
@@ -179,10 +201,14 @@ Refreshed one category at a time, stalest first; dead tools keep their entries, 
 
 ## Assistant runtimes
 
+- [Eigent](eigent/index.md) - the Apache-2.0 Cowork desktop with CAMEL-based multi-agent workforces and a corrected-benchmark history.
 - [Hermes](hermes/index.md) - Nous Research's self-improving agent with the learning loop, 237k stars and the channels to match.
 - [NanoClaw](nanoclaw/index.md) - the auditable containerized OpenClaw rewrite, one process you can read in an afternoon.
+- [Nanobot](nanobot/index.md) - HKUDS' readable Python agent runtime with the WebUI and channels bundled, 47k stars at alpha.
 - [OpenClaw](openclaw/index.md) - the self-hosted personal assistant root of the -claw family, 388k stars and the 2026 provider-restriction saga.
+- [OpenWork](openwork/index.md) - the MIT-core Cowork alternative built on OpenCode, whose MCP gateway makes skills portable across agents.
 - [PicoClaw](picoclaw/index.md) - Sipeed's Go assistant on $10 RISC-V boards in 10-20MB of RAM, the category as a compile target.
+- [QwenPaw](qwenpaw/index.md) - the AgentScope team's assistant with the broadest chat-channel matrix and five built-in security layers.
 - [ZeroClaw](zeroclaw/index.md) - the single Rust binary runtime, ownership as a compile-time property.
 
 ## Software factory
