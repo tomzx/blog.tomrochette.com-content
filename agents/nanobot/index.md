@@ -24,7 +24,7 @@ Started by Xubin Ren as a personal project, now under the HKUDS lab banner (the 
 
 ## Status
 
-One of the fastest adoption curves in the category: 47,529 stars, 8,387 forks, 762 open issues as of 2026-08-30, created 2026-02-01, pushed the day of verification.
+One of the fastest adoption curves in the category: 47,538 stars, 8,387 forks, 762 open issues as of 2026-08-30, created 2026-02-01, pushed the day of verification.
 Fifteen PyPI releases from February to July 2026 (v0.3.0 on 2026-07-25), and the launch HN thread drew 257 points.
 **PyPI still classifies it Alpha, and one listed maintainer carries the release burden, the two facts I would weight against the star count.**
 

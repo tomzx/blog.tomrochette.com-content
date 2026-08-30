@@ -25,7 +25,7 @@ Elastic License 2.0 (source-available, not OSI open source), by Superset Inc., t
 
 ## Status
 
-Fast and funded: 13,498 stars, 1,228 forks, roughly 577 open issues and PRs as of 2026-08-30, created 2025-10-21, 3,973 commits, pushed the day of verification, latest desktop release v1.25.0 on 2026-08-26.
+Fast and funded: 13,534 stars, 1,230 forks, roughly 577 open issues and PRs as of 2026-08-30, created 2025-10-21, 3,979 commits, pushed the day of verification, latest desktop release v1.25.0 on 2026-08-26.
 The Launch HN thread drew 108 points and 135 comments, and the founders say they ship daily.
 **Adoption claims beyond GitHub ("tens of thousands of engineers", big-company logos) are self-reported, and the codebase is still founder-dominated.**
 

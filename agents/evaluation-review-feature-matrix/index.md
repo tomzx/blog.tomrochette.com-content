@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 This matrix compares the five members of the Evaluation and review category: the agent-driven local debugger, the pytest-style eval framework, the observability platform, the hybrid machine reviewer, and the human annotation surface.
-Everything below was verified against live sources on 2026-08-30.
+Everything below was re-verified against live sources on 2026-08-30.
 
 **The category divides on who judges: the agent itself (Workshop), a metric suite (deepeval, Phoenix), deterministic rules plus a model (OpenCodeReview), or a human (Plannotator), and mature teams run more than one column at once.**
 
@@ -30,7 +30,7 @@ Each column links to the full research note; every cell below traces to a source
 | Harness integration | tracing integrations | plugins for 4 agents, delegation mode | OTel auto-instrumentation, MCP server | hooks in 9 harnesses | skills and MCP for 5+ agents |
 | Team layer | Confident AI platform | ✗ self-hosted | Arize AX cloud | encrypted links (caveat), Workspaces beta | Raindrop Cloud optional |
 | License | ✓ Apache-2.0 | ✓ Apache-2.0 | ~ ELv2 core, Apache clients | ✓ Apache-2.0 or MIT | ✓ MIT |
-| Maturity | mature, 3 years, v4.2 | young, 100 releases in 3 months | mature, 4 years, v20.4 | pre-1.0, fast churn | pre-1.0, 4 months |
+| Maturity | mature, 3 years, v4.2 | young, 114 releases in 3.5 months | mature, 4 years, v20.4 | pre-1.0, fast churn | pre-1.0, 4 months |
 | Pricing anchor | free, platform $200-2,000/mo | free, your tokens | free, AX $50/mo entry | free, Workspaces unpriced | free, Cloud $299/mo |
 
 ## Reading the matrix

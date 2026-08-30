@@ -24,7 +24,7 @@ Linux, macOS (Apple Silicon), and Windows via WSL 2 (experimental); Apache-2.0, 
 
 ## Status
 
-Fast adoption, self-declared alpha: 8,420 stars, 1,238 forks, 512 open issues and PRs as of 2026-08-30, created 2026-02-24.
+Fast adoption, self-declared alpha: 8,424 stars, 1,243 forks, 511 open issues and PRs as of 2026-08-30, created 2026-02-24.
 v0.0.116 released 2026-08-28 with near-daily point releases, 1,237 commits, about 110 contributors.
 **NVIDIA's own blog calls it an early preview, and v0.0.x versioning plus experimental Kubernetes and GPU features say production use is a bet on the vendor staying in.**
 
@@ -40,7 +40,7 @@ v0.0.116 released 2026-08-28 with near-daily point releases, 1,237 commits, abou
 - Alpha by its own badge, with breaking changes expected and the Kubernetes path explicitly experimental.
 - Telemetry is on by default in a tool whose pitch is privacy; anonymous, but verify it against your threat model.
 - Effective security equals the YAML policies you write and maintain, which is real ongoing work.
-- 512 open issues and PRs on a six-month-old codebase.
+- 511 open issues and PRs on a six-month-old codebase.
 
 ## Pricing
 

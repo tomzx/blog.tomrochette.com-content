@@ -1,9 +1,9 @@
 ---
 title: Claude Code hooks
 created: 2026-08-24
-updated: 2026-08-24
+updated: 2026-08-30
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, executions, claude-code, hooks]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, executions, claude-code, hooks]
 readability: 3
 audience_notes: >
   Engineers already running Claude Code who want deterministic control over what the agent does between prompts.
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Claude Code hooks are user-defined shell commands, HTTP endpoints, or LLM prompts that Claude Code runs automatically at specific points in its lifecycle, turning the harness itself into an event-driven system.
-Facts below verified as of 2026-08-24.
+Facts below verified as of 2026-08-30.
 
 **Hooks are the only mechanism in Claude Code that gives you deterministic control, and I consider them mandatory before pointing the harness at anything you care about.**
 
@@ -25,8 +25,8 @@ The same hook events fire in the terminal, IDE extensions, the desktop app, and 
 ## Status
 
 **Active and heavily invested in.**
-The feature ships in the proprietary CLI tracked by the `anthropics/claude-code` repository (about 142.8k stars and 5k+ open issues as of 2026-08-24).
-A third-party ecosystem exists: an HN search surfaces 386 stories mentioning Claude Code hooks, including dedicated tooling like Graft, whose August 2026 launch thread drew 44 comments.
+The feature ships in the proprietary CLI tracked by the `anthropics/claude-code` repository (about 143.5k stars and roughly 15k open issues as of 2026-08-30).
+A third-party ecosystem exists: an HN search surfaces 467 stories mentioning Claude Code hooks, including dedicated tooling like Graft, whose August 2026 launch thread drew 44 comments.
 Anthropic's own security-guidance plugin is built entirely on hooks (SessionStart, UserPromptSubmit, PostToolUse, Stop), which signals production commitment.
 
 ## Strengths
@@ -71,5 +71,5 @@ I would go further: a team that relies on prompt instructions instead of PreTool
 - https://code.claude.com/docs/en/hooks - event reference, handler types, matcher semantics, fail-open caution
 - https://code.claude.com/docs/en/hooks-guide - quickstart, deterministic-control framing, usage costs of model-backed hooks
 - https://code.claude.com/docs/en/security-guidance - the official plugin built entirely on hooks
-- https://github.com/anthropics/claude-code - repository scale, as of 2026-08-24
+- https://github.com/anthropics/claude-code - repository scale, as of 2026-08-30
 - https://news.ycombinator.com/item?id=49299985 - third-party hooks tooling (Graft) and community scrutiny of its benchmark claims

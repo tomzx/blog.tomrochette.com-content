@@ -1,8 +1,9 @@
 ---
 title: Crystal
 created: 2026-08-24
+updated: 2026-08-30
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, orchestration, git-worktrees, desktop-app]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, orchestration, git-worktrees, desktop-app]
 readability: 3
 audience_notes: >
   Engineers tracking the consolidation of worktree-manager tools, or evaluating Nimbalyst as a successor product.
@@ -11,7 +12,7 @@ audience_notes: >
 ---
 
 Crystal was an MIT-licensed desktop app from Stravu for running multiple Claude Code and Codex sessions in parallel git worktrees; it was deprecated in February 2026 and replaced by Nimbalyst, a broader visual workspace from the same team.
-Facts below verified as of 2026-08-24.
+Facts below verified as of 2026-08-30.
 
 **Its pivot is the clearest signal in this category that a pure worktree-session manager is a feature, not a standalone product.**
 
@@ -26,7 +27,7 @@ Nimbalyst's desktop and iOS apps are MIT-licensed and free for individuals.
 
 Dead, superseded by design.
 The repository README says "Deprecated: February 2026", and the last push landed 2026-02-26, which matches.
-As of 2026-08-24 the repo shows 3,106 stars, 196 forks, and 672 commits, with 68 open issues that will not be worked on.
+As of 2026-08-30 the repo shows 3,114 stars, 197 forks, and 672 commits, with 68 open issues that will not be worked on.
 Nimbalyst itself is actively marketed, with team collaboration in beta and SOC-2 positioning on its site.
 
 ## Strengths

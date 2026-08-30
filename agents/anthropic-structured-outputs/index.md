@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Anthropic structured outputs is the Claude API feature that constrains responses and tool inputs to a JSON Schema via grammar-constrained decoding, split into JSON outputs (`output_config.format`) and strict tool use (`strict: true` on tools).
-Facts below verified as of 2026-08-24.
+Facts below verified as of 2026-08-30.
 
 **Anthropic arrived more than a year after OpenAI (public beta November 2025, GA February 2026), and the gap still shows in the schema subset and complexity limits, but strict tool use targets the failure that hurts agents most: malformed tool arguments mid-loop.**
 

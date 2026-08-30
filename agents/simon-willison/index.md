@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Simon Willison's Weblog is the densest real-time record of what software engineers can actually do with LLMs, published daily by someone who uses them in his own practice.
-Facts below verified as of 2026-08-29.
+Facts below verified as of 2026-08-30.
 
 **No other voice tracks the tool-and-model churn of agentic development day-by-day with the same density and the same willingness to name what is hype; if you follow one feed for this domain, this is the one.**
 

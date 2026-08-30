@@ -24,7 +24,7 @@ MIT, by Ouro Labs (Q00), solo-maintained with around 30 contributors.
 
 ## Status
 
-Very young, very active: 5,729 stars, 577 forks, 46 open issues as of 2026-08-30, created 2026-01-14, pushed the day of verification.
+Very young, very active: 5,734 stars, 577 forks, 69 open issues as of 2026-08-30, created 2026-01-14, pushed the day of verification.
 Latest release v0.51.17 on 2026-08-28, with roughly 29 PyPI releases in seven weeks; PyPI self-labels it Beta.
 **Headline results are self-reported, its Hacker News threads are self-submitted with single-digit points, and no independent evaluation exists as of 2026-08-30.**
 

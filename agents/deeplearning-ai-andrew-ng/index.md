@@ -1,9 +1,9 @@
 ---
 title: Andrew Ng (The Batch, DeepLearning.AI)
 created: 2026-08-29
-updated: 2026-08-29
+updated: 2026-08-30
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=big-pickle, people, publications, education, agents, agentic-ai]
+tags: [research-note, agent-curated, fully-ai-generated, llm=big-pickle, llm=glm-5.3-flash, people, publications, education, agents, agentic-ai]
 readability: 3
 audience_notes: >
   Engineers and managers who want a weekly, educator-curated read on the AI landscape plus a concrete path to learn agentic development.
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Andrew Ng's The Batch weekly newsletter and DeepLearning.AI courses are the mainstream educator's view of AI and agentic development, the voice that popularized the four agentic design patterns and published the AI Engineering Skills Map.
-Facts below verified as of 2026-08-29.
+Facts below verified as of 2026-08-30.
 
 **He is the single highest-reaching educator in this category: where the others write for practitioners already inside the field, Ng is the on-ramp that also steers what the broader industry thinks agents are.**
 
@@ -23,8 +23,8 @@ His [agentic AI course](https://learn.deeplearning.ai/courses/agentic-ai) and [A
 
 ## Status
 
-Active and highly influential as of 2026-08-29.
-The Batch publishes weekly through August 2026, and his letters cover the agentic coding loop, the AI Engineering Skills Map (2026-08-14), and his view that "there will be no AI jobpocalypse".
+Active and highly influential as of 2026-08-30.
+The Batch publishes weekly through August 2026, with the latest issue on 2026-08-28, and the AI Engineering Skills Map letter is dated 2026-08-14.
 DeepLearning.AI reports courses taught to millions of learners and positions itself as the canonical AI education path.
 
 ## Strengths
@@ -69,5 +69,5 @@ Not for a practitioner who wants deep technical detail, frontier-labs nuance, or
 - https://www.deeplearning.ai/the-batch - the weekly newsletter and his letters
 - https://learn.deeplearning.ai/courses/agentic-ai - the Agentic AI course and its four design patterns
 - https://www.deeplearning.ai/the-batch/tag/deeplearning-ai-news - the AI Engineering Skills Map announcement
-- https://aiagentrank.io/blog/deeplearning-ai-review-2026 - an independent review of the platform, pricing, and gaps
+- https://www.coursera.org/specializations/deep-learning - Coursera's page for the DeepLearning.AI specialization, grounding that the specializations and certificates are paid (the $49/month or $399/year figure keeps its 2026-06 as-of date, since Coursera renders prices client-side)
 - https://zenvanriel.com/job/andrew-ng-ai-course-review/ - a working-engineer's verdict that certificates alone do not get you hired

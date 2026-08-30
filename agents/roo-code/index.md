@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Roo Code was an Apache-2.0 VS Code extension coding agent forked from Cline, with a mode system and its own Cloud and Router products; its team sunset the whole suite on May 15, 2026 to build Roomote, a cloud coding agent.
-Facts below verified as of 2026-08-26.
+Facts below verified as of 2026-08-30.
 
 **The sunset notice's own words, "we don't believe IDEs are the future of coding", are the category's bluntest epitaph: the fork-and-extend extension generation died not by losing to Copilot but by its own makers deciding the IDE was the dead end.**
 

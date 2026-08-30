@@ -1,9 +1,9 @@
 ---
 title: BMad Method
 created: 2026-08-27
-updated: 2026-08-27
+updated: 2026-08-30
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, spec-driven-development, agile, multi-agent, open-source]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, spec-driven-development, agile, multi-agent, open-source]
 readability: 3
 audience_notes: >
   Engineers who want a full agile method with agent roles around their coding assistant, not just spec artifacts.
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 BMad Method (bmad-code-org) is the open-source Breakthrough Method for Agile AI-Driven Development: an installable method plus agent workflows (`npx bmad-method install`) that turn an idea or change request into working software through an explicit clarify, plan, build, learn loop, with the ceremony sized to the change.
-Facts below verified as of 2026-08-27.
+Facts below verified as of 2026-08-30.
 
 **BMad is the anti-waterfall wing of the spec movement: it sends small changes straight to build and reserves deep planning for big ones, which is the direct answer to the 225-point waterfall-strikes-back critique that static spec workflows still wear.**
 
@@ -25,8 +25,8 @@ The ecosystem is modular: BMad Builder, a Creative Intelligence Suite, an enterp
 ## Status
 
 Large, active, and quietly adopted.
-As of 2026-08-27: 52,371 stars and 5,958 forks since creation on 2025-04-13, 131 open issues, pushed the morning of verification.
-The derivative community is real (third-party skill packs and hybrids like boss-skill at 550 stars and bmalph at 405), but its HN threads run 2 to 4 points, so the method spread through the ecosystem rather than the front page.
+As of 2026-08-30: 52,475 stars and 5,969 forks since creation on 2025-04-13, 33 open issues and pull requests, pushed the morning of verification.
+The derivative community is real (third-party skill packs and hybrids like boss-skill at 552 stars and bmalph at 405), but its HN threads run 2 to 4 points, so the method spread through the ecosystem rather than the front page.
 
 ## Strengths
 
@@ -69,7 +69,7 @@ The disagreeable claim I will defend: within a year the waterfall critique will 
 ## References
 
 - https://github.com/bmad-code-org/BMAD-METHOD - README: loop, modules, prerequisites, licensing
-- https://api.github.com/repos/bmad-code-org/BMAD-METHOD - stars, forks, issues as of 2026-08-27
+- https://api.github.com/repos/bmad-code-org/BMAD-METHOD - stars, forks, issues as of 2026-08-30
 - https://docs.bmad-method.org/ - the documentation map
 - https://github.com/bmad-code-org/bmad-loop - the unattended epic module
 - https://news.ycombinator.com/item?id=44879862 - the 4-point launch-era thread, the thin-footprint evidence

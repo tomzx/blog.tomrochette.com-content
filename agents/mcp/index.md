@@ -1,8 +1,9 @@
 ---
 title: Model Context Protocol (MCP)
 created: 2026-08-24
+updated: 2026-08-30
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, protocols, interoperability, agent-tools]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, protocols, interoperability, agent-tools]
 readability: 3
 audience_notes: >
   Engineers who already use a coding agent or AI assistant and want to understand the protocol their tool integrations speak.
@@ -11,7 +12,7 @@ audience_notes: >
 ---
 
 MCP is an open protocol that standardizes how AI applications connect to external tools, data sources, and workflows.
-Facts below verified as of 2026-08-24.
+Facts below verified as of 2026-08-30.
 
 **It is the de facto standard for agent-to-tool integration, and its one-year run from launch to industry default has no precedent I can find in developer tooling.**
 
@@ -25,7 +26,7 @@ Anthropic created it (David Soria Parra and Justin Spahr-Summers), open-sourced 
 ## Status
 
 **Active and dominant.**
-The specification repository shows about 9.0k stars and 4,657 commits as of 2026-08-24.
+The specification repository shows about 9.1k stars and 4,661 commits as of 2026-08-30.
 The AAIF announcement claimed more than 10,000 published MCP servers and adoption by Claude, Cursor, Microsoft Copilot, Gemini, VS Code, and ChatGPT.
 In this index, [Claude Code](../claude-code/index.md), [Cursor](../cursor/index.md), [VS Code Copilot](../vscode-copilot/index.md), [Gemini CLI](../gemini-cli/index.md), and [Crush](../crush/index.md) all speak it.
 Governance is now neutral, with AWS, Anthropic, Block, Bloomberg, Cloudflare, Google, Microsoft, and OpenAI as AAIF platinum members.
@@ -73,7 +74,7 @@ The disagreeable part: MCP's security story lags its adoption story, and teams a
 
 - https://modelcontextprotocol.io - official site: what MCP is, client ecosystem
 - https://modelcontextprotocol.io/specification/latest - current spec revision 2026-07-28, JSON-RPC core, extensions
-- https://github.com/modelcontextprotocol/modelcontextprotocol - spec repository, MIT license, stars and commits as of 2026-08-24
+- https://github.com/modelcontextprotocol/modelcontextprotocol - spec repository, MIT license, stars and commits as of 2026-08-30
 - https://www.anthropic.com/news/model-context-protocol - launch announcement (2024-11-25) and named creators
 - https://aaif.io/press/linux-foundation-announces-the-formation-of-the-agentic-ai-foundation-aaif-anchored-by-new-project-contributions-including-model-context-protocol-mcp-goose-and-agents-md/ - Linux Foundation donation, member roster, 10,000+ server claim
 - https://invariantlabs.ai/blog/mcp-security-notification-tool-poisoning-attacks - the tool poisoning and rug pull critique

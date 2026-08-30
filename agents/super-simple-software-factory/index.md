@@ -1,9 +1,9 @@
 ---
 title: "Super Simple Software Factory"
 created: 2026-08-29
-updated: 2026-08-29
+updated: 2026-08-30
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=big-pickle, software-factory, agentic-workflows, sdlc]
+tags: [research-note, agent-curated, fully-ai-generated, llm=big-pickle, llm=glm-5.3-flash, software-factory, agentic-workflows, sdlc]
 readability: 3
 audience_notes: >
   Engineers who have used a coding agent and want a repeatable, deterministic pipeline around it.
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 A software factory, and the founding member of this category, is a repeatable agents-plus-code workflow packaged as one skill and stamped into any repo: deterministic Python owns the sequencing and the coding agent owns only one bounded phase at a time.
-Facts below verified as of 2026-08-29.
+Facts below verified as of 2026-08-30.
 
 ## What it is
 
@@ -22,7 +22,7 @@ It is built on the `pi` coding agent plus `uv`, and there is a Vue-and-Bun visua
 
 ## Status
 
-Active, young, and deliberately small: 764 stars and 189 forks since creation on 2026-08-02, with the last push on 2026-08-04, per the GitHub API as of 2026-08-29.
+Active, young, and deliberately small: 770 stars and 194 forks since creation on 2026-08-02, with the last push on 2026-08-04, per the GitHub API as of 2026-08-30.
 The repository has a single commit on `main`, no releases, and a separate `example` branch that holds a demo repo with the factory already stamped in and real traces.
 This is a one-author starting point ("nothing here is meant to survive contact with your codebase unchanged"), not an actively multiplying ecosystem.
 

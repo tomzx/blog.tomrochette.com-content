@@ -1,9 +1,9 @@
 ---
 title: File-based agent memory
 created: 2026-08-24
-updated: 2026-08-26
+updated: 2026-08-30
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, agent-memory, context-engineering]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, agent-memory, context-engineering]
 readability: 3
 audience_notes: >
   Engineers running any agentic coding tool who want memory without new infrastructure.
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 File-based agent memory is the convention of giving agents persistent memory as plain markdown files in the repo or home directory (CLAUDE.md, AGENTS.md, rules files), instead of a memory service.
-Facts below verified as of 2026-08-24.
+Facts below verified as of 2026-08-30.
 
 **For coding agents, markdown files already won: they are free, versioned, and portable, and I think hosted memory layers are overkill for most engineering work at any price.**
 
@@ -22,12 +22,12 @@ Claude Code reads a CLAUDE.md hierarchy (managed, user, project, local) plus pat
 AGENTS.md is the cross-tool standard, adopted by Codex, Cursor, Amp, Jules, Gemini CLI (via config), opencode, Zed, Junie, and the GitHub Copilot coding agent, and now stewarded by the Agentic AI Foundation under the Linux Foundation.
 Cursor supports both `.cursor/rules` (frontmattered `.mdc` files) and plain AGENTS.md, including nested files per directory.
 **Interop is by bridge, not standard: Claude Code reads CLAUDE.md and not AGENTS.md, so teams symlink or `@import` one into the other, and `/init` ingests rivals' rule files.**
-Products are forming around the convention, notably memU (14.3k stars as of 2026-08-24), which stores memory as a wiki of markdown files shared across Codex, Claude Code, and Cursor.
+Products are forming around the convention, notably memU (14.4k stars as of 2026-08-30), which stores memory as a wiki of markdown files shared across Codex, Claude Code, and Cursor.
 
 ## Status
 
 **The de facto standard.**
-AGENTS.md reports over 60,000 open-source projects carrying the file as of 2026-08-24, and every major harness ships a variant with the same converged features: generator commands (`/init`), nested files, and path scoping.
+AGENTS.md reports 60k open-source projects carrying the file as of 2026-08-30, and every major harness ships a variant with the same converged features: generator commands (`/init`), nested files, and path scoping.
 The failure mode is known and documented too: bloat kills adherence.
 
 ## Strengths
@@ -71,8 +71,8 @@ Reach for a memory service only for cross-user or cross-app memory; my disagreea
 ## References
 
 - https://code.claude.com/docs/en/memory - CLAUDE.md hierarchy, auto memory limits, adherence caveats
-- https://agents.md - the standard, adoption count, and stewardship as of 2026-08-24
+- https://agents.md - the standard, adoption count, and stewardship as of 2026-08-30
 - https://cursor.com/docs/rules - rules types, AGENTS.md support, path scoping
 - https://www.anthropic.com/engineering/claude-code-best-practices - guidance on keeping instruction files short enough to be obeyed
-- https://github.com/NevaMind-AI/memU - a markdown-wiki memory product with real traction (14.3k stars)
+- https://github.com/NevaMind-AI/memU - a markdown-wiki memory product with real traction (14.4k stars as of 2026-08-30)
 - https://news.ycombinator.com/item?id=46294274 - the Letta Code launch thread, where hosted-memory practice meets file-first practitioners

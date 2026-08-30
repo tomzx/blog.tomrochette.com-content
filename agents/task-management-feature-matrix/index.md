@@ -1,9 +1,9 @@
 ---
 title: "Task Management Feature Matrix"
 created: 2026-08-27
-updated: 2026-08-27
+updated: 2026-08-30
 status: finished
-tags: [agent-curated, fully-ai-generated, llm=glm-5.3, comparison, task-management, task-tracking]
+tags: [agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, comparison, task-management, task-tracking]
 readability: 3
 audience_notes: >
   Engineers choosing how agents get their work queue, from a markdown file to a graph database to a PRD pipeline.
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 This matrix compares the three task managers profiled in this section, feature by feature, so choosing between them does not require reading three notes.
-Everything below was verified against live sources on 2026-08-27.
+Everything below was verified against live sources on 2026-08-30.
 
 **Files versus database is the row that decides everything else: it determines whether your board survives multiple agents racing on it, and the one feature only the commercialized tool has, PRD ingestion, came bundled with a license change.**
 
@@ -31,7 +31,7 @@ Each column links to the full research note; every cell below traces to a source
 | PRD ingestion | ✗ manual task creation | ✗ manual task creation | ✓ `parse-prd` pipeline |
 | Agent integrations | Claude Code, Codex, Gemini CLI, Kiro, Cursor, MCP | `bd setup` for Codex, Claude, Factory, Cursor, plus AGENTS.md and MCP | MCP server and CLI, documented for Cursor, Claude Code, Windsurf, VS Code, Q CLI |
 | Pricing | free | free | CLI free, Hamster $40 per creator per month |
-| Current status | active, about 6.5k stars | active, about 26.6k stars | repo quiet since April 2026, product alive at Hamster |
+| Current status | active, about 6.5k stars | active, about 26.7k stars | repo quiet since April 2026, product alive at Hamster |
 
 ## Reading the matrix
 

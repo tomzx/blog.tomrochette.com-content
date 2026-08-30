@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 This matrix compares the five Skills-category notes in this section, the open standard, Anthropic's vendor format, OpenCode's native mechanism, Microsoft's skill optimizer, and Vercel's skills.sh registry, feature by feature, so choosing an extension path does not require reading five notes.
-Everything below was verified against live sources on 2026-08-24, with the SkillOpt column verified 2026-08-30.
+Everything below was verified against live sources on 2026-08-30.
 
 **The format war is already over and SKILL.md won it, so every decision that remains lives above the format, who gates execution, who ranks discovery, and who versions what your agent runs, and the registry column worries me more than the vendor column.**
 

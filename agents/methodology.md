@@ -37,7 +37,7 @@ Two content types:
 
 ## Refresh cadence
 
-The section refreshes one category at a time on a rolling basis, stalest category first.
+The section refreshes every category in parallel on each daily run.
 Each refresh re-verifies every member note, fixes dead sources, scans for credible new entrants, and re-checks category fit.
 Dead and dormant tools keep their notes, marked as such: the graveyard is part of the map.
 

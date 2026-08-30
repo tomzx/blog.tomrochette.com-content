@@ -10,7 +10,7 @@ audience_notes: >
   Assumes you know what MCP tools and a BYOK model are.
 ---
 
-Eigent is an Apache-2.0, Electron-based desktop app for building and running AI agent workforces, specialized worker agents executing tasks in parallel on the CAMEL-AI framework, with 200-plus built-in MCP tools, browser and terminal toolkits, human-in-the-loop escalation, and automations, positioned as the free and local alternative to Claude Cowork.
+Eigent is an Apache-2.0, Electron-based desktop app for building and running AI agent workforces, specialized worker agents executing tasks in parallel on the CAMEL-AI framework, with a large built-in MCP integration catalog, browser and terminal toolkits, human-in-the-loop escalation, and automations, positioned as the free and local alternative to Claude Cowork.
 Facts below verified as of 2026-08-30.
 
 **Eigent is the only Cowork-style desktop in this category with a permissive license and a real multi-agent architecture, and its history includes a corrected benchmark claim that should calibrate how much of the pitch you take on faith.**
@@ -18,7 +18,7 @@ Facts below verified as of 2026-08-30.
 ## What it is
 
 A TypeScript Electron frontend over a Python FastAPI backend, organized as Space, Session, Task, with two modes: a single-agent harness and a multi-agent Workforce where specialized workers execute in parallel (built on the founder's CAMEL-AI framework).
-Tools include 200-plus MCP integrations, a skills system, browser and terminal toolkits, and human-in-the-loop escalation; automations cover scheduled, event, and app triggers.
+Tools include an extensive MCP integration catalog, a skills system, browser and terminal toolkits, and human-in-the-loop escalation; automations cover scheduled, event, and app triggers.
 Model-agnostic: BYOK cloud APIs, Eigent Cloud credits, or local models via Ollama, vLLM, LM Studio, and SGLang; full self-hosting with a local backend is documented.
 macOS (Intel and Apple Silicon), Windows, and Linux.
 By Eigent AI (EIGENT UK LTD), founded by Guohao Li, who also founded CAMEL-AI; funding undisclosed.
@@ -32,7 +32,7 @@ Active and maturing: 15,160 stars, 1,801 forks, 213 open issues as of 2026-08-30
 
 - Apache-2.0 with a documented full self-hosting path, cleaner than the custom licenses around it.
 - The CAMEL-based Workforce is a genuine multi-agent architecture, not a single harness with a spinner.
-- Model and deployment freedom: BYOK, 200-plus MCP tools, local inference, no subscription required to use it.
+- Model and deployment freedom: BYOK, an extensive MCP tool catalog, local inference, no subscription required to use it.
 - Cross-platform with an enterprise tier already offered.
 
 ## Cautions

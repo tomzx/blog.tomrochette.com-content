@@ -25,8 +25,8 @@ Made by Alex Newman (thedotmack), a solo author in the Vercel OSS Program, with 
 
 ## Status
 
-Very large and fast: 92,602 stars, 8,151 forks, 266 open issues as of 2026-08-30, 73,623 npm downloads in the last month.
-Created 2025-08-31, pushed the day of verification, latest release v13.18.0 on 2026-08-29.
+Very large and fast: 92,651 stars, 8,153 forks, 270 open issues as of 2026-08-30, 73,623 npm downloads in the last month.
+Created 2025-08-31, pushed 2026-08-29, latest release v13.18.0 on 2026-08-29.
 **The v13.x version line tells you the churn rate: near-daily releases with major-version jumps, which is velocity and breakage risk in the same number.**
 
 ## Strengths

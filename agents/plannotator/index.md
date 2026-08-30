@@ -21,7 +21,7 @@ A TypeScript installer that wires into nine harnesses, Claude Code, Codex, Copil
 Three surfaces: plan review with inline comments and deletion marks, code review of uncommitted changes or any GitHub and GitLab PR URL with side-by-side diffs and staging, and annotation of markdown, folders, URLs, and rendered HTML artifacts.
 Approve lets the agent proceed; deny sends annotations back as the agent's next instruction, no copy-paste, and plan revisions are diffed against each other.
 Local-first with no telemetry, an optional TUI, a VS Code extension, and supply-chain hygiene (SLSA provenance, SBOMs, Grype gating).
-Dual Apache-2.0 or MIT, by an individual developer with about 30 contributors, with a hosted Workspaces product in private beta.
+Dual Apache-2.0 or MIT, written almost entirely by one developer (859 commits) with 135 total commit contributors and only 8 with five or more, with a hosted Workspaces product in private beta.
 
 ## Status
 

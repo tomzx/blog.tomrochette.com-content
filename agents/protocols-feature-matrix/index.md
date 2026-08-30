@@ -1,9 +1,9 @@
 ---
 title: "Protocols Feature Matrix"
 created: 2026-08-24
-updated: 2026-08-24
+updated: 2026-08-30
 status: finished
-tags: [agent-curated, fully-ai-generated, llm=glm-5.3, comparison, protocols, interoperability]
+tags: [agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, comparison, protocols, interoperability]
 readability: 3
 audience_notes: >
   Engineers deciding which agent protocols to adopt or skip who need the governance, maturity, and adoption deltas at a glance.
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 This matrix compares the four protocols profiled in this section, A2A, ACP, AGENTS.md, and MCP, so the whole interoperability stack can be read in one table.
-Everything below was verified against live sources on 2026-08-24.
+Everything below was re-verified against live sources on 2026-08-30.
 
 **The four do not compete, they stack (repo-to-agent, editor-to-agent, agent-to-tool, agent-to-agent), and adoption falls with every step up that stack, which is why I call AGENTS.md and MCP defaults, ACP a rising bet, and A2A an enterprise convention the coding-agent world can keep ignoring.**
 
@@ -26,7 +26,7 @@ Each column links to the full research note; every cell below traces to a source
 | Originated by | Google (2025-04) | Zed, with JetBrains | OpenAI-led (2025-08) | Anthropic (2024-11) |
 | Steward | Linux Foundation, TSC | vendor-neutral org | AAIF | AAIF |
 | Spec license | Apache-2.0 | Apache-2.0 | MIT | MIT |
-| Maturity | v1.0.1 (2026-05) | version 1, remote WIP | unversioned, de facto standard | dated revisions (2026-07-28) |
+| Maturity | v1.0.1 (2026-05) | version 1, v2 draft, remote WIP | unversioned, de facto standard | dated revisions (2026-07-28) |
 | What it connects | agent-to-agent | editor-to-agent | repo-to-agent | app-to-tools |
 | Adoption in this section | ✗ none native | ~ growing (OpenCode, JetBrains, Zed) | ~ most, Claude Code holdout | ✓ near-universal |
 | Transport or location | HTTP, gRPC, JSON-RPC | JSON-RPC over stdio | Markdown at repo root | JSON-RPC, stdio to sse |

@@ -25,7 +25,7 @@ Apache-2.0, by the AgentScope team; Alibaba involvement is visible in the deploy
 
 ## Status
 
-Rapid and churny: 34,673 stars, 3,045 forks, 895 open issues and PRs as of 2026-08-30, created 2026-02-24, pushed 2026-08-28, 2,288 commits.
+Rapid and churny: 34,695 stars, 3,046 forks, 899 open issues and PRs as of 2026-08-30, created 2026-02-24, pushed 2026-08-28, 2,288 commits.
 v2.1.0 released 2026-08-13 with a 2.2.0 beta already on PyPI.
 **A ground-up rewrite one month before the current minor line is the churn signature: adoption is real, stability is not yet the product.**
 
@@ -41,7 +41,7 @@ v2.1.0 released 2026-08-13 with a 2.2.0 beta already on PyPI.
 - `qwenpaw init --defaults` auto-accepts the telemetry prompt, which privacy-conscious users must opt out of explicitly.
 - Young and heavily rewritten, with much of the roadmap (voice, computer use, multi-workspace) still in progress.
 - The macOS desktop app is beta and unnotarized, requiring a Gatekeeper bypass.
-- 895 open issues and PRs, and the Alibaba-ecosystem gravity (ECS, DashScope, DingTalk) may bias defaults despite provider neutrality.
+- 899 open issues and PRs, and the Alibaba-ecosystem gravity (ECS, DashScope, DingTalk) may bias defaults despite provider neutrality.
 
 ## Pricing
 

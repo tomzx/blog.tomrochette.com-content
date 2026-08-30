@@ -25,7 +25,7 @@ MIT, from Microsoft Research Asia with university collaborators, Python 3.10+.
 
 ## Status
 
-Research code with unusually strong product trappings: 16,477 stars, 1,548 forks, 31 open issues as of 2026-08-30, created 2026-05-08, pushed the day of verification.
+Research code with unusually strong product trappings: 16,493 stars, 1,550 forks, 32 open issues as of 2026-08-30, created 2026-05-08, pushed 2026-08-29.
 Latest release v0.2.0 (2026-07-02) on PyPI; the arXiv paper (2605.23904) is a preprint with no peer-reviewed venue found, and all headline results are the authors' own.
 
 ## Strengths

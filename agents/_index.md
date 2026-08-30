@@ -30,7 +30,7 @@ If the section turns into slop, the logs will show exactly where it went wrong, 
 ## Comparison matrices
 
 - [Harness Feature Matrix](harness-feature-matrix/index.md) - the seventeen harnesses against eleven capability rows, verified 2026-08-30.
-- [Surface Feature Matrix](surface-feature-matrix/index.md) - the twelve surfaces (two of them death records) against eleven capability rows, verified 2026-08-26.
+- [Surface Feature Matrix](surface-feature-matrix/index.md) - the twelve surfaces (two of them death records) against eleven capability rows, verified 2026-08-30.
 - [Orchestration Feature Matrix](orchestration-feature-matrix/index.md) - the eleven worktree managers, dashboards, and mobile clients, plus one agent town, one dead and one orphaned among them.
 - [Protocols Feature Matrix](protocols-feature-matrix/index.md) - the four protocols stack rather than compete, and adoption falls with every step up the stack.
 - [Context Engines Feature Matrix](context-engines-feature-matrix/index.md) - the eight context vendors and tools against delivery, deployment, and scale rows.
@@ -47,7 +47,7 @@ If the section turns into slop, the logs will show exactly where it went wrong, 
 - [Evaluation and Review Feature Matrix](evaluation-review-feature-matrix/index.md) - the five quality-control columns divided on who judges, the agent, the metric suite, the rules engine, or the human, verified 2026-08-30.
 - [Sandboxing Feature Matrix](sandboxing-feature-matrix/index.md) - the five isolation layers honestly divided into boundaries, an orchestrator, a framework, and provisioning, verified 2026-08-30.
 - [Session Analytics Feature Matrix](session-analytics-feature-matrix/index.md) - the new one-column category: retrospective archives versus live observation, seeded by agentsview, verified 2026-08-30.
-- [People and Publications Feature Matrix](people-and-publications-feature-matrix/index.md) - the twelve voices compared on focus, cadence, and reader slot, verified 2026-08-29.
+- [People and Publications Feature Matrix](people-and-publications-feature-matrix/index.md) - the twelve voices compared on focus, cadence, and reader slot, verified 2026-08-30.
 
 Essays appear here as the daily agent runs publish them.
 The queue it works from is [the work queue](queue.md).
@@ -55,14 +55,14 @@ The queue it works from is [the work queue](queue.md).
 # Research index
 
 One structured profile per tool or topic: what it is, status, strengths, cautions, pricing, and when to choose it over its rivals.
-Refreshed one category at a time, stalest first; dead tools keep their entries, marked.
+All categories refreshed in parallel every run; dead tools keep their entries, marked.
 
 ## Harnesses
 
 - [aider](aider/index.md) - the pre-agentic BYOK pair-programmer, cheapest precise-edit tool, development stalled since May 2026.
 - [Amp](amp/index.md) - Sourcegraph-spun-out agent whose orbs keep working after you close the laptop.
 - [Claude Code](claude-code/index.md) - Anthropic's everywhere-at-once harness, the platform benchmark and the token-cost cautionary tale.
-- [Cline](cline/index.md) - the open-source agent that outgrew its VS Code extension into CLI, kanban, and SDK, 5.1 million installs deep.
+- [Cline](cline/index.md) - the open-source agent that outgrew its VS Code extension into CLI, kanban, and SDK, 5.2 million installs deep.
 - [Codex](codex/index.md) - OpenAI's ChatGPT-included agent, the Apache-2.0 big-lab CLI individuals can still just run.
 - [Crush](crush/index.md) - Charm's Go-and-LSP terminal agent, FSL-licensed, from the original OpenCode repo.
 - [DeepSeek Harness](deepseek-harness/index.md) - DeepSeek's everything-is-a-plugin harness, 204k stars in seventeen days, MIT but alpha.
@@ -185,7 +185,7 @@ Where agent isolation should live: the workstation, the cluster, the wrapper, th
 ## Spec-driven development
 
 - [BMad Method](bmad-method/index.md) - the agile method that sizes ceremony to the change, roles and retrospectives included.
-- [GitHub Spec Kit](spec-kit/index.md) - the MIT process-plus-CLI layer that made specs-before-agents a movement, agent-neutral, 131k stars in year one.
+- [GitHub Spec Kit](spec-kit/index.md) - the MIT process-plus-CLI layer that made specs-before-agents a movement, agent-neutral, 132k stars in year one.
 - [OpenSpec](openspec/index.md) - the brownfield spec toolkit whose delta proposals archive into a living ledger, 1.6M npm downloads a month.
 - [Tessl](tessl/index.md) - the $125M platform bet that spec-driven development is infrastructure you rent.
 
@@ -203,7 +203,7 @@ Where agent isolation should live: the workstation, the cluster, the wrapper, th
 ## Assistant runtimes
 
 - [Eigent](eigent/index.md) - the Apache-2.0 Cowork desktop with CAMEL-based multi-agent workforces and a corrected-benchmark history.
-- [Hermes](hermes/index.md) - Nous Research's self-improving agent with the learning loop, 237k stars and the channels to match.
+- [Hermes](hermes/index.md) - Nous Research's self-improving agent with the learning loop, 238k stars and the channels to match.
 - [NanoClaw](nanoclaw/index.md) - the auditable containerized OpenClaw rewrite, one process you can read in an afternoon.
 - [Nanobot](nanobot/index.md) - HKUDS' readable Python agent runtime with the WebUI and channels bundled, 47k stars at alpha.
 - [OpenClaw](openclaw/index.md) - the self-hosted personal assistant root of the -claw family, 388k stars and the 2026 provider-restriction saga.

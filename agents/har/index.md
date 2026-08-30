@@ -1,9 +1,9 @@
 ---
 title: "HAR"
 created: 2026-08-29
-updated: 2026-08-29
+updated: 2026-08-30
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=big-pickle, software-factory, harness, multi-agent, worktrees]
+tags: [research-note, agent-curated, fully-ai-generated, llm=big-pickle, llm=glm-5.3-flash, software-factory, harness, multi-agent, worktrees]
 readability: 3
 audience_notes: >
   Engineers who run fleets of coding agents on one repo and want deterministic verification and proof of what ran.
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 HAR, the open agent harness from os-factory, is a CLI and MCP server that turns a repository into isolated per-agent worktrees with deterministic launch, verify, and teardown stages, so a fleet of coding agents can work concurrently and reviewers trust the output.
-Facts below verified as of 2026-08-29.
+Facts below verified as of 2026-08-30.
 
 ## What it is
 
@@ -22,7 +22,7 @@ It is harness-agnostic and works with Claude Code, Cursor, Codex, or any MCP-cap
 
 ## Status
 
-Active and shipping fast: 82 stars and 10 forks since creation on 2026-06-28, 351 commits, and v1.0.0 released 2026-08-28, with releases landing almost daily and the last main push on 2026-08-28 per the GitHub API as of 2026-08-29.
+Active and shipping fast: 83 stars and 10 forks since creation on 2026-06-28, 362 commits, and v1.4.0 released 2026-08-30 (v1.0.0 landed 2026-08-28), with releases landing almost daily and the last main push on 2026-08-30 per the GitHub API as of 2026-08-30.
 It carries a code of conduct, security policy, and a sponsor (Kerno, a runtime code tester for coding agents), which is a steadier footprint than the category's usual single-commit repo.
 
 ## Strengths
@@ -35,7 +35,7 @@ It carries a code of conduct, security policy, and a sponsor (Kerno, a runtime c
 ## Cautions
 
 - **It runs alongside a coding agent rather than replacing it**: HAR coordinates and verifies a fleet, but the agents themselves are the harnesses you already pay for, so it is a layer, not a factory that owns the whole loop like Fluent.
-- **Young at 82 stars**, though v1.0.0 and daily releases signal momentum, not abandonment.
+- **Young at 83 stars**, though daily releases through v1.4.0 signal momentum, not abandonment.
 - **The deterministic verify is only as strong as your contract**: a `.har/` that ships placeholder checks is theater, the same trap as the placeholder gates elsewhere in this category.
 - **It depends on the ecosystem staying open**: its value rests on a portable contract and MCP support holding across vendors in a landscape that keeps consolidating.
 
@@ -69,5 +69,5 @@ Not for a solo developer doing one agent at a time, where the harness alone is s
 - https://github.com/os-factory/har - the repo, the `.har/` contract, and the verify-and-evidence model
 - https://harproject.dev - the documentation covering concepts, verification, MCP tools, and Mission Control
 - https://youtu.be/XKl4ZzWy7mQ - the introductory demo of the harness
-- https://github.com/os-factory/har/releases - the v1.0.0 release and the active release cadence
+- https://github.com/os-factory/har/releases - the release cadence, v1.0.0 through v1.4.0
 - https://kerno.io - the sponsor that tests runtime code for coding agents, grounding the verification emphasis

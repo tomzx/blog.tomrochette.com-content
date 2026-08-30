@@ -1,8 +1,9 @@
 ---
 title: LlamaIndex
 created: 2026-08-24
+updated: 2026-08-30
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, rag, retrieval, frameworks]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, rag, retrieval, frameworks]
 readability: 3
 audience_notes: >
   Engineers choosing a framework for a RAG pipeline over documents or a codebase.
@@ -11,7 +12,7 @@ audience_notes: >
 ---
 
 LlamaIndex is an MIT-licensed data framework for building retrieval pipelines and document agents over private data, now the open source arm of a company whose commercial product is the LlamaParse document platform.
-Facts below verified as of 2026-08-24.
+Facts below verified as of 2026-08-30.
 
 **It remains the deepest off-the-shelf retrieval toolkit, but its maker has pivoted to enterprise document OCR, so the framework you build on is no longer the business you are buying from.**
 
@@ -24,7 +25,7 @@ The company, LlamaIndex (run-llama), sells LlamaParse: a closed platform spannin
 ## Status
 
 Active and heavily used.
-The `run-llama/llama_index` repository shows 51.8k stars, 8.0k forks, 7,902 commits, and 180 open issues as of 2026-08-24.
+The `run-llama/llama_index` repository shows 51.9k stars, 8.1k forks, 7,914 commits, and 184 open issues as of 2026-08-30.
 **The strategic signal is the pivot: the repository now describes itself as "the leading document agent and OCR platform", and the docs split between the legacy `docs.llamaindex.ai` site and the new `developers.llamaindex.ai` home, where some legacy API pages (the code splitter reference among them) no longer resolve.**
 
 ## Strengths
@@ -44,7 +45,7 @@ The `run-llama/llama_index` repository shows 51.8k stars, 8.0k forks, 7,902 comm
 ## Pricing
 
 Framework: free, MIT.
-LlamaParse as of 2026-08-24: Free at 10k credits/month, Starter $50/month with 40k credits, Pro $500/month with 400k credits, Enterprise custom, with 1,000 credits = $1.25 and pay-as-you-go above plan inclusion.
+LlamaParse as of 2026-08-30: Free at 10k credits/month, Starter $50/month with 40k credits, Pro $500/month with 400k credits, Enterprise custom, with 1,000 credits = $1.25 and pay-as-you-go above plan inclusion.
 **You can use the OSS framework forever without LlamaParse; you just stop receiving the maintained parsing and managed index parts.**
 
 ## Compared to
@@ -68,9 +69,9 @@ That claim is arguable, which is the point.
 
 ## References
 
-- https://github.com/run-llama/llama_index - repository scale (51.8k stars), MIT license, pivot to "document agent and OCR platform", as of 2026-08-24
+- https://github.com/run-llama/llama_index - repository scale (51.9k stars), MIT license, pivot to "document agent and OCR platform", as of 2026-08-30
 - https://docs.llamaindex.ai/en/stable/ - framework documentation structure: RAG pipeline, agents, workflows, LlamaCloud
 - https://developers.llamaindex.ai/python/framework/module_guides/loading/node_parsers/modules/ - CodeSplitter (tree-sitter) and Chunker (Chonkie) node parsers
-- https://www.llamaindex.ai/pricing - LlamaParse tiers, credit pricing, VPC and compliance options, as of 2026-08-24
+- https://www.llamaindex.ai/pricing - LlamaParse tiers, credit pricing, VPC and compliance options, as of 2026-08-30
 - https://news.ycombinator.com/item?id=40739982 - critical framework-RAG discussion naming LlamaIndex, with the LangChain CEO response
 - https://news.ycombinator.com/item?id=44225930 - Chonkie launch with benchmark claims against LlamaIndex and LangChain chunking

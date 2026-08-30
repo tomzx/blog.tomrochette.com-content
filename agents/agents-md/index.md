@@ -1,9 +1,9 @@
 ---
 title: AGENTS.md
 created: 2026-08-24
-updated: 2026-08-26
+updated: 2026-08-30
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, protocols, conventions, context-files]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, protocols, conventions, context-files]
 readability: 3
 audience_notes: >
   Engineers who maintain repositories that coding agents work in and are deciding how to instruct those agents.
@@ -12,7 +12,7 @@ audience_notes: >
 ---
 
 AGENTS.md is an open convention for a Markdown file at the repository root that carries project-specific instructions for coding agents.
-Facts below verified as of 2026-08-24.
+Facts below verified as of 2026-08-30.
 
 **It won the instruction-file format war in under a year, and that matters more than any single tool choice because the file outlives every agent that reads it.**
 
@@ -21,15 +21,16 @@ Facts below verified as of 2026-08-24.
 Plain Markdown with no required fields: build and test commands, code style, PR conventions, anything you would tell a new teammate.
 Nested AGENTS.md files scope instructions per package, the nearest file wins, and explicit chat prompts override everything.
 It emerged from collaboration across OpenAI Codex, Amp, Jules, Cursor, and Factory, went public on 2025-08-20, and **OpenAI donated it to the Linux Foundation's Agentic AI Foundation on 2025-12-09, where it is stewarded as an open format**.
-The reference repository (MIT, about 23.8k stars as of 2026-08-24) mostly holds the website; the format itself is the convention.
+The reference repository (MIT, about 24.0k stars as of 2026-08-30) mostly holds the website; the format itself is the convention.
 
 ## Status
 
 **Active and effectively the standard.**
-The official site counts more than 60,000 open-source projects carrying an AGENTS.md as of 2026-08-24.
+The official site counts more than 60,000 open-source projects carrying an AGENTS.md as of 2026-08-30.
 Adopters include Codex, Gemini CLI, Cursor, GitHub Copilot's coding agent, Amp, Jules, Factory, goose, opencode, Zed, Warp, VS Code, Devin, Junie, Windsurf, and Aider.
 In this index, [Codex](../codex/index.md) treats it as first-class, [OpenCode](../opencode/index.md) reads it alongside CLAUDE.md, and [Crush](../crush/index.md) initializes projects with one.
 The glaring exception is [Claude Code](../claude-code/index.md): its AGENTS.md support request only reached the HN front page in August 2026, and version 2.1.207 still ignored the file per the July 2026 proxy study cited in that note.
+On 2026-08-17 that request (6,500+ reactions) was closed as completed with only a community binary patch linked, no native support has shipped in the changelog, and commenters quote an Anthropic engineer saying easy AGENTS.md use is coming.
 
 ## Strengths
 
@@ -72,8 +73,8 @@ The disagreeable part: I suspect most AGENTS.md prose is wasted tokens, and the 
 ## References
 
 - https://agents.md - official site: format, nested scoping, adopter list, AAIF stewardship
-- https://github.com/agentsmd/agents.md - MIT repository, stars as of 2026-08-24
+- https://github.com/agentsmd/agents.md - MIT repository, stars as of 2026-08-30
 - https://aaif.io/press/linux-foundation-announces-the-formation-of-the-agentic-ai-foundation-aaif-anchored-by-new-project-contributions-including-model-context-protocol-mcp-goose-and-agents-md/ - OpenAI donation, 60,000+ project adoption
 - https://arxiv.org/abs/2602.11988 - empirical evaluation: no general success-rate gain, over 20% added inference cost
 - https://vercel.com/blog/agents-md-outperforms-skills-in-our-agent-evals - counter-evidence: 100% versus 53% with a compressed docs index
-- https://github.com/anthropics/claude-code/issues/6235 - Claude Code support request, front-page traction in August 2026
+- https://github.com/anthropics/claude-code/issues/6235 - Claude Code support request, front-page traction in August 2026, closed 2026-08-17 as completed via a community patch

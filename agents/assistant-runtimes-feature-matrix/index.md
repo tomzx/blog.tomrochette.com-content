@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 This matrix compares the nine assistant runtimes profiled in this section: the OpenClaw root, the three variants named after shrinking it, the learning-loop challenger, the readable Python core, the two Cowork-style desktops, and the channel-matrix newcomer.
-Everything below was verified against live sources on 2026-08-27, with the Nanobot, OpenWork, QwenPaw, and Eigent columns verified 2026-08-30.
+Everything below was verified against live sources on 2026-08-30.
 
 **The family ladder is a trust ladder: OpenClaw is an ecosystem, NanoClaw an auditable codebase, ZeroClaw a static binary, PicoClaw a firmware image, Hermes a memory that grows, and the 2026 columns stretch the ladder again, Nanobot bets on readable Python, QwenPaw on channels and security defaults, and OpenWork and Eigent carry the category onto the desktop as Cowork alternatives.**
 
@@ -25,15 +25,15 @@ Each column links to the full research note; every cell below traces to a source
 | Runtime | TypeScript Electron over Python (CAMEL) | Python (uv), single gateway | Python 3.11+ single core | TypeScript on Node | TypeScript on Node | TypeScript Electron over OpenCode | single Go binary | Python on AgentScope 2.0 | single Rust binary |
 | License | ✓ Apache-2.0 | ✓ MIT | ✓ MIT | ✓ MIT | ✓ MIT | ~ MIT core, EE source-available | ✓ MIT | ✓ Apache-2.0 | ✓ MIT OR Apache-2.0 |
 | Born | 2025-07-29 | 2025-07-22 | 2026-02-01 | 2026-01-31 | 2025-11-24 | 2026-01-14 | 2026-02-04 | 2026-02-24 | 2026-02-13 |
-| Stars | about 15.2k | about 237k | about 47.5k | about 30.6k | about 388k | about 23.2k | about 29.9k | about 34.7k | about 32.7k |
+| Stars | about 15.2k | about 238k | about 47.5k | about 30.6k | about 388k | about 23.2k | about 29.9k | about 34.7k | about 32.7k |
 | Footprint | Electron plus local backend | single gateway, seven backends | small readable core, WebUI in wheel | one process, containerized | large, 70+ dependencies per the NanoClaw audit | Electron app wrapping OpenCode | one binary, 10-20MB RAM | full stack, local models included | one binary, any machine |
 | Isolation model | ~ host by default, cloud sandbox optional | ✓ isolated subagents, sandboxed backends | ~ localhost-first, config-driven | ✓ per-agent Linux containers | app-level, sandboxing optional | ✗ host access by design | ~ v0.2.6 isolation support | ✓ five security layers, kernel sandbox | ~ own machine, tool grants |
 | Channels | ~ desktop UI, no chat apps | Telegram, Discord, Slack, WhatsApp, Signal, CLI | 8+ incl. Telegram, Discord, Slack, WeChat | 13+ installed as skills | dozens incl. Signal, iMessage | ~ desktop app, web alpha | many incl. WeCom, WeChat, IRC | 7 incl. DingTalk, WeChat, QQ, iMessage | 30+ incl. voice, webhooks |
 | Providers | BYOK, local Ollama/vLLM, cloud credits | any, Nous Portal, one-command switch | any OpenAI-compatible, Ollama, vLLM | Claude SDK plus codex, opencode, ollama skills | hosted plus local | any OpenCode provider (50+) | many incl. Kimi, MiMo, Bedrock | DashScope, major clouds, own small models offline | about 20 incl. Ollama |
 | Edge and mobile | ✗ desktop only | ~ $5 VPS, serverless idle on Modal, Daytona | ~ server deploys (Render) | ✗ Docker host only | companion apps | ✗ desktop only | ✓ Android APK, $10 RISC-V boards | ~ beta Tauri desktop | ~ Android port, Raspberry Pi |
 | Credentials | your keys or cloud credits | per-provider keys or Nous Portal | your keys on host | ✓ OneCLI Agent Vault | your keys on host | your keys BYO | your keys in workspace | your keys, or none offline | your keys in workspace |
-| Security record | GAIA claim corrected, astroturf flag | edited plagiarism-claim issue, 36.4k open issues | clean so far, category-skepticism thread | clean so far | provider saga plus a 514-point vuln report | HN boundary questions unresolved | pre-1.0 banner, scam-token notice | telemetry auto-accept default | clean so far, thin coverage |
-| Status | active, v1.0.3 | active, 36.4k open issues | active, PyPI alpha | active, 1k open issues | active, 5.6k open issues | active, weekly signed releases | active, 38 open issues, pre-1.0 | active, post-rewrite churn | active, 804 open issues |
+| Security record | GAIA claim corrected, astroturf flag | edited plagiarism-claim issue, 37.8k open issues | clean so far, category-skepticism thread | clean so far | provider saga plus a 514-point vuln report | HN boundary questions unresolved | pre-1.0 banner, scam-token notice | telemetry auto-accept default | clean so far, thin coverage |
+| Status | active, v1.0.3 | active, 37.8k open issues | active, PyPI alpha | active, 1k open issues | active, 5.8k open issues | active, weekly signed releases | active, 35 open issues, pre-1.0 | active, post-rewrite churn | active, 796 open issues |
 
 ## Reading the matrix
 
@@ -45,9 +45,9 @@ QwenPaw is the only column with a real offline path through its own trained smal
 
 **The desktop split is the new category line: OpenWork and Eigent do not do chat channels at all, which is why their cells go tilde there, and choosing between them and the messaging runtimes is really choosing between an assistant that lives in your chats and one that lives on your desktop.**
 
-**The status row's issue counts are inversely proportional to age, not quality: the root carries 5,617 open issues at scale, and the pre-1.0 PicoClaw carries 38, so read the column against its birthday.**
+**The status row's issue counts are inversely proportional to age, not quality: the root carries 5,762 open issues at scale, and the pre-1.0 PicoClaw carries 35, so read the column against its birthday.**
 
-**Hermes is the column that breaks the -claw pattern: it competes on the learning loop rather than the trust ladder, and its 237k stars against a 36.4k-issue backlog is the trade in one row pair.**
+**Hermes is the column that breaks the -claw pattern: it competes on the learning loop rather than the trust ladder, and its 238k stars against a 37.8k-issue backlog is the trade in one row pair.**
 
 ## Choosing from the matrix
 

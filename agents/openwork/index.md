@@ -24,7 +24,7 @@ By different-ai (Benjamin Shafii), YC-backed.
 
 ## Status
 
-Alive and shipping hard: 23,202 stars, 2,301 forks, 414 open issues and PRs as of 2026-08-30, created 2026-01-14, pushed the day of verification.
+Alive and shipping hard: 23,213 stars, 2,302 forks, 415 open issues and PRs as of 2026-08-30, created 2026-01-14, pushed the day before verification.
 4,666 commits, v0.18.39 on 2026-08-27 with signed Windows installers, multiple releases per week.
 **It outlived its launch-week skepticism, but the founder still carries 2,911 of the top contributors' roughly 4,000 commits.**
 

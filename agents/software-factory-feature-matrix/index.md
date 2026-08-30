@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 This matrix compares the members of the Software factory category: repeatable agents-plus-code production pipelines, where deterministic code owns the loop and agents are bounded nodes inside it.
-Everything below was verified against live sources on 2026-08-29, with the Ouroboros column verified 2026-08-30.
+Everything below was re-verified against live sources on 2026-08-30.
 
 **The deciding question for this category is who owns the loop: a factory puts phase sequencing, retries, and acceptance in code, and an agent owns only the work inside one bounded phase.**
 
@@ -34,7 +34,7 @@ Each column links to the full research note; every cell below traces to a source
 | Trace | Work Item / Attempt record with bound evidence | Mission Control dashboard per run and artifact | event sourcing with full replay and lineage | SQLite, tool calls visible mid-run |
 | License | Apache-2.0 | Apache-2.0 | MIT | MIT |
 | Born | 2026-07-10 | 2026-06-28 | 2026-01-14 | 2026-08-02 |
-| Stars | about 84 | about 82 | about 5,729 | about 764 |
+| Stars | about 84 | about 83 | about 5,734 | about 770 |
 
 ## Reading the matrix
 
@@ -74,6 +74,6 @@ Ouroboros runs the other direction with 13 runtimes, the widest agent boundary i
 - https://github.com/disler/super-simple-software-factory/tree/example - the stamped demo repo with real traces
 - https://github.com/mrinalwadhwa/fluent - the Fluent column: scheduler, Tester, and Expertise loop
 - https://github.com/os-factory/har - the HAR column: the .har contract, worktree isolation, and verify stage
-- https://github.com/os-factory/har/releases - the v1.0.0 release grounding HAR's cadence
+- https://github.com/os-factory/har/releases - the release cadence grounding HAR's row
 - https://github.com/Q00/ouroboros - the Ouroboros column: the loop, the three-stage gate, and the hidden-grading design
 - https://ouroboros.page/learn/en/evaluate/ - the gate stages and consensus triggers grounding the acceptance row

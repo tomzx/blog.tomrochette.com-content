@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 This matrix compares the twelve people-and-publications profiled in this category, row by row, so deciding what to follow does not require reading twelve notes blind.
-Everything below was verified against live primary sources on 2026-08-29.
+Everything below was verified against live primary sources on 2026-08-29 and re-verified on 2026-08-30.
 
 **The axis that actually segments the field is what each voice gives you: hands-on tool practice, an evaluation method, the model-and-research layer, industry-and-org analysis, or a structured on-ramp, and the personalities span all five.**
 

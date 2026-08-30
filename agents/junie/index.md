@@ -1,9 +1,9 @@
 ---
 title: Junie
 created: 2026-08-22
-updated: 2026-08-23
+updated: 2026-08-30
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, coding-agents, harnesses, jetbrains, byok]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, coding-agents, harnesses, jetbrains, byok]
 readability: 3
 audience_notes: >
   Engineers living in JetBrains IDEs who want an agent grounded in IDE-grade analysis.
@@ -12,7 +12,7 @@ audience_notes: >
 ---
 
 Junie is JetBrains' coding agent: an LLM-agnostic CLI that also ships in JetBrains IDEs and CI, authenticating either to JetBrains or to your own model keys.
-Facts below verified as of 2026-08-22.
+Facts below verified as of 2026-08-30.
 
 **Junie quietly became the most vendor-flexible of the major agents (any provider, any local model, zero markup on keys), and its thin independent community, not its capability, is the actual adoption risk.**
 
@@ -28,7 +28,7 @@ BYOK covers Anthropic, OpenAI, Google, xAI, OpenRouter, Copilot, and local model
 
 **Active.**
 Junie started as an IDE agent in January 2025 (53.6% on SWE-bench Verified at announcement), went GA in April 2025, and the LLM-agnostic CLI followed into beta and beyond.
-The GitHub repository (installer and release channels: release, EAP, nightly, experimental) shows about 395 stars and 3,556 commits as of 2026-08-22.
+The GitHub repository (installer and release channels: release, EAP, nightly, experimental) shows about 414 stars and 3,721 commits as of 2026-08-30.
 The client is proprietary under JetBrains AI terms; the repo is distribution, not source.
 
 ## Strengths
@@ -71,7 +71,7 @@ Not for anyone who needs an open client or a large community ecosystem today.
 
 ## References
 
-- https://junie.jetbrains.com/ - features, BYOK providers, plans, pricing, as of 2026-08-22
+- https://junie.jetbrains.com/ - features, BYOK providers, plans, pricing, as of 2026-08-30
 - https://github.com/JetBrains/junie - install channels, GitHub Action, license terms
 - https://www.jetbrains.com/junie/ - the product entry point
 - https://blog.jetbrains.com/junie/2025/01/meet-junie-your-coding-agent-by-jetbrains/ - the January 2025 launch and original benchmark claim

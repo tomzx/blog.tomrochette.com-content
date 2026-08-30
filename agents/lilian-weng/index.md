@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Lil'Log, the blog of Lilian Weng, is the reference-quality written map of how large language models and autonomous agents actually work, maintained by a former OpenAI research and safety leader.
-Facts below verified as of 2026-08-29.
+Facts below verified as of 2026-08-30.
 
 **Her "LLM Powered Autonomous Agents" post is the canonical survey of agent architecture, the planning, memory, and tool use decomposition that nearly every later engineering discussion of agents cites.**
 

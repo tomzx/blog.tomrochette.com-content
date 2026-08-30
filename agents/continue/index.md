@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Continue was an Apache-2.0 open-source coding agent shipped as a VS Code extension, a JetBrains plugin, and a CLI; Cursor acquired it in June 2026 and the repository is now read-only with a final 2.0.0 release.
-Facts below verified as of 2026-08-26.
+Facts below verified as of 2026-08-30.
 
 **Its acquisition is the strongest evidence yet that a standalone open-source "Copilot alternative" extension was never a durable business, only a feature waiting to be absorbed, and Cursor bought the team, not the product.**
 

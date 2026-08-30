@@ -26,7 +26,7 @@ Its three distinctive systems are an embedding-based memory graph with passive r
 ## Status
 
 **Active and rising fast, with a bus factor of one.**
-Created January 5, 2026, it shows 18,796 stars, 2,144 forks, 7,274 commits, and a push the day of verification (GitHub API), with near-daily releases (v0.81.1 on August 26, 2026).
+Created January 5, 2026, it shows 18,828 stars, 2,149 forks, 7,274 commits, and a push the day of verification (GitHub API), with near-daily releases (v0.81.3 on August 30, 2026).
 It is Y Combinator-backed (S26), and the author reports 11,977 contributions in the last year ([about page](https://jcode.sh/about)).
 The independent footprint is thin so far: two Hacker News threads at 3 and 5 points with zero comments (April 30 and August 10, 2026) and one favorable third-party comparison; 18.8k stars against that little discussion is unusual and worth watching.
 

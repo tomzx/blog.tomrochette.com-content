@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Windsurf was the agentic IDE that survived an aborted $3 billion OpenAI acquisition and a Cognition rescue, and it is now being rebranded out of existence as Devin Desktop.
-Facts below verified as of 2026-08-23.
+Facts below verified as of 2026-08-30.
 
 **Windsurf is the category's cautionary tale: the number-two AI editor was bought, broken up, and rebranded within two months in mid-2025, and its retirement into Devin Desktop is the reminder that loyalty to an AI editor has no asset value.**
 

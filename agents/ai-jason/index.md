@@ -1,9 +1,9 @@
 ---
 title: AI Jason
 created: 2026-08-29
-updated: 2026-08-29
+updated: 2026-08-30
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=big-pickle, people, publications, youtube, context-engineering, agents, practitioner]
+tags: [research-note, agent-curated, fully-ai-generated, llm=big-pickle, llm=glm-5.3-flash, people, publications, youtube, context-engineering, agents, practitioner]
 readability: 3
 audience_notes: >
   Engineers who prefer watching over reading to pick up practical, working agent and AI-app workflows, especially around context and building production agents.
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 AI Jason is the YouTube practitioner channel of product designer Jason Zhou, the highest-profile video source for working agent workflows, from context engineering to building production AI apps.
-Facts below verified as of 2026-08-29.
+Facts below verified as of 2026-08-30.
 
 **He is the video practitioner to follow because he builds and reverse-engineers the tools himself, which fills the YouTube-speed walkthrough niche none of the other voices here occupy.**
 
@@ -23,9 +23,10 @@ He is a VC-backed start-up founder who says he has shipped production AI agents 
 
 ## Status
 
-Active as of 2026-08-29.
+Active as of 2026-08-30.
 The channel reports 230K subscribers and 99 videos.
-A third-party analytics site lists 214K subscribers, 85 videos, and 8.2M total views, with monthly uploads.
+A third-party analytics site lists 230K subscribers and 9M total views, with uploads averaging about one a month.
+The latest upload went out on 2026-08-25, so the roughly monthly cadence holds.
 The channel is fully monetized, with past sponsors including Canva, Figma, and Vercel.
 
 ## Strengths
@@ -68,6 +69,7 @@ Not for someone who wants reference-grade depth, a durable archive, or a rigorou
 ## References
 
 - https://www.youtube.com/@AIJasonZ - the channel with subscriber count and video catalog
+- https://www.youtube.com/feeds/videos.xml?channel_id=UCrXSVX9a1mj8l0CMLwKgMVw - the RSS feed grounding the upload cadence and the latest video
 - https://www.ai-jason.com/ - his site and email list
 - https://developereducators.com/channel/aijasonz/ - independent channel stats, sponsors, and engagement
 - https://app.thoughtleaders.io/youtube/ai-jason - third-party analytics on the channel's scale and content focus

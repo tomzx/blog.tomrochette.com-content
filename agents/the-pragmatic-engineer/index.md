@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 The Pragmatic Engineer is Gergely Orosz's engineering newsletter that brings an engineer-first, data-grounded lens to how AI is changing software teams, tooling, and hiring.
-Facts below verified as of 2026-08-29.
+Facts below verified as of 2026-08-30.
 
 **Where the hands-on voices show you how to use an agent, The Pragmatic Engineer shows you how a whole engineering organization absorbs one, and that org view is what makes it distinct in this category.**
 

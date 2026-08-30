@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 This matrix compares the eleven orchestration tools profiled in this section, the parallel-agent dashboards, worktree managers, and the one agent town, feature by feature, so the shortlisting step does not require reading eleven notes.
-Everything below was verified against live sources on 2026-08-24; the Gas Town column on 2026-08-27, the Paseo, Superset, and Worktrunk columns on 2026-08-30.
+Everything below was verified against live sources on 2026-08-30, a full re-verification of all eleven columns on that date.
 
 **Parallelism is already the free commodity in this category: the only things anyone pays for are review ergonomics and remote execution, and I expect more of these eight to die or pivot before any of them becomes durable infrastructure.**
 
@@ -31,7 +31,7 @@ Each column links to the full research note; every cell below traces to a source
 | Remote or SSH execution | ? | ~ SSH sessions | ? | ? | ✗ local only | ✓ SSH-first | ~ Docker compose | ✓ encrypted relay, self-host | ~ remote workspaces beta | ~ Docker self-host | ✗ local git |
 | Built-in review tooling | ~ diff preview tab | ? | ✓ diffs, checks, PR, review | ~ diff viewer, rebase, squash | ~ merge and PR menu | ✓ diffs, PRs, CI checks | ✓ Refinery merge queue | ~ agent output and diffs | ✓ diffs, browser previews | ✓ diffs, comments, PR | ~ status table and merge pipeline |
 | Cloud execution option | ✗ no hosting | ✓ Pro cloud VMs | ✓ Vercel sandboxes | ? | ✗ | ~ contact-sales | ✗ self-host, Wasteland federation | ~ self-host anywhere, no vendor cloud | ~ remote workspaces beta | ✗ services removed | ✗ |
-| Current status | active, slow burn | active, fast | active, $22M raised | deprecated Feb 2026 | active | active, YC W26 | active, 17.8k stars | active, v0.6, solo maintainer | active, YC P26, $11M raised | community-maintained | active, pre-1.0 fast |
+| Current status | active, slow burn | active, fast | active, $22M raised | deprecated Feb 2026 | active | active, YC W26 | active, 17.9k stars | active, v0.6, solo maintainer | active, YC P26, $11M raised | community-maintained | active, pre-1.0 fast |
 
 ## Reading the matrix
 

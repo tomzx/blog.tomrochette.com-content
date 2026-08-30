@@ -26,10 +26,10 @@ It is local-first and BYOK: API keys stay in a local credentials file, with prov
 
 ## Status
 
-New and extremely loud: 203,755 stars, 23,544 forks, and roughly 14,000 commits as of 2026-08-30, seventeen days after the repo was created on 2026-08-13.
-No stable release exists, only alpha and rc prereleases (dsh-v0.1.2-alpha.1 on 2026-08-27), and the README warns there will be compatibility-breaking changes.
+New and extremely loud: 204,588 stars, 23,673 forks, and roughly 14,500 commits as of 2026-08-30, seventeen days after the repo was created on 2026-08-13.
+No stable release exists, only alpha and rc prereleases (dsh-v0.1.2-alpha.2 on 2026-08-30), and the README warns there will be compatibility-breaking changes.
 The launch thread drew 747 points and 314 comments on Hacker News, with the author answering questions directly.
-An ecosystem is already forming: a Tauri desktop port with 1,402 stars, a plugin directory site, and an MCP plugin catalog.
+An ecosystem is already forming: a Tauri desktop port with 1,426 stars, a plugin directory site, and an MCP plugin catalog.
 **I read the star count as attention, not adoption, and the safest status label is developer preview.**
 
 ## Strengths

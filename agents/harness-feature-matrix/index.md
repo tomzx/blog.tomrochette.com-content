@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 This matrix compares the seventeen harnesses profiled in this section, feature by feature, so the shortlisting step does not require reading seventeen notes.
-Everything below was verified against live sources on 2026-08-27, with the fx column verified on 2026-08-29, and the jcode, DeepSeek Harness, and Pi columns on 2026-08-30.
+Everything below was verified against live sources on 2026-08-27, with the fx column verified on 2026-08-29, the jcode, DeepSeek Harness, and Pi columns on 2026-08-30, and the goose, jcode, Junie, Kilo Code, OpenCode, OpenHands, Pi, and Qwen Code columns re-verified on 2026-08-30.
 
 **No harness has everything, and the two axes that actually decide the purchase are client openness and who pays for tokens: everything else is converging.**
 

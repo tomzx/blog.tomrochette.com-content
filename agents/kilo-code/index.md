@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Kilo Code is an open-source (MIT) agentic coding assistant for VS Code, JetBrains IDEs, and the terminal, born in early 2025 as a feature-merge fork of Cline and Roo Code and acquired by Anaconda on July 15, 2026.
-Facts below verified as of 2026-08-27.
+Facts below verified as of 2026-08-30.
 
 **Kilo Code is the live continuation of the Roo-and-Cline extension lineage now folded into an enterprise Python vendor's portfolio, and the open question after that acquisition is whether extension-first users keep first-class status.**
 

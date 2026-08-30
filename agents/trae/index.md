@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Trae is ByteDance's AI IDE, a closed-source VS Code fork with SOLO agent mode and TraeWork cloud tasks, priced from free to $100/month.
-Facts below verified as of 2026-08-25.
+Facts below verified as of 2026-08-30.
 
 **Trae undercuts every Western rival on price while shipping comparable agent features, and the decision is entirely about whether your code can live inside that trade.**
 

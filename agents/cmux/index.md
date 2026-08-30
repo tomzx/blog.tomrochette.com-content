@@ -1,9 +1,9 @@
 ---
 title: cmux
 created: 2026-08-24
-updated: 2026-08-24
+updated: 2026-08-30
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, orchestration, terminal, parallel-agents, macos]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, orchestration, terminal, parallel-agents, macos]
 readability: 3
 audience_notes: >
   macOS engineers running several CLI coding agents who lose track of which terminal needs attention.
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 cmux is Manaflow's open-source macOS terminal built on libghostty for running many coding agents in parallel, with vertical tabs, workspaces, notification rings, and an open-core cloud tier.
-Facts below verified as of 2026-08-24.
+Facts below verified as of 2026-08-30.
 
 **cmux's real product is attention routing, not multiplexing, and its real business is cloud execution: the terminal is the free, GPL-3.0 funnel, and the subscription is where the company actually lives.**
 
@@ -24,7 +24,7 @@ A Pro subscription adds Cloud VM agents and CodeRouter, a router across provider
 ## Status
 
 **Active and remarkably fast.**
-About 26.4k stars and 2.25k forks as of 2026-08-24, created January 28, 2026, with commits landing the day of verification.
+About 26.6k stars and 2.28k forks as of 2026-08-30, created January 28, 2026, with commits landing the day of verification.
 The launch thread counted 18 releases in two days; the project is at v0.64.x with a nightly channel.
 Three contributors dominate the history (about 5.2k, 3.8k, and 1.2k contributions), so this is a small funded team (Manaflow, Inc.) moving very quickly, not a broad community.
 
@@ -41,13 +41,13 @@ Three contributors dominate the history (about 5.2k, 3.8k, and 1.2k contribution
 - Open-core: cloud execution and CodeRouter sit behind Pro at $24/month, so the roadmap's center of gravity is the subscription, not the terminal.
 - The pace is a risk profile: 0.x versions, a nightly channel, and a launch-era bug list mean churn.
 - An August 2026 thread reports whole-app freezes of 2-10 seconds with SSH sessions open, so remote-heavy workflows should test first.
-- **Name collisions are everywhere**: craigsc/cmux ("tmux for Claude Code", MIT, about 599 stars), a separate October 2025 Show HN "Cmux, Coding Agent Multiplexer" GUI, and an unrelated Go connection multiplexer; search carefully before citing.
+- **Name collisions are everywhere**: craigsc/cmux ("tmux for Claude Code", MIT, about 601 stars), a separate October 2025 Show HN "Cmux, Coding Agent Multiplexer" GUI, and an unrelated Go connection multiplexer; search carefully before citing.
 
 ## Pricing
 
 Free $0: the full terminal, any CLI agent BYOK, notifications, browser panels, socket API, local history, one-time Cloud VM trial.
 Pro $24/month billed yearly: cloud agents on isolated VMs, 20 compute-hours per month on a 4 vCPU / 16 GB machine then usage-based, CodeRouter, the iOS app.
-Team $28 per user/month; Enterprise adds self-hosted cloud execution, as of 2026-08-24.
+Team $28 per user/month; Enterprise adds self-hosted cloud execution, as of 2026-08-30.
 
 ## Compared to
 
@@ -69,8 +69,8 @@ Not for Linux or Windows users, copyleft-restricted shops, or anyone who needs a
 
 ## References
 
-- https://github.com/manaflow-ai/cmux - source, license statement, repository scale, as of 2026-08-24
-- https://cmux.com/pricing - tiers, cloud hours, CodeRouter, as of 2026-08-24
+- https://github.com/manaflow-ai/cmux - source, license statement, repository scale, as of 2026-08-30
+- https://cmux.com/pricing - tiers, cloud hours, CodeRouter, as of 2026-08-30
 - https://cmux.com/blog/zen-of-cmux - the project's own design philosophy
 - https://news.ycombinator.com/item?id=47079718 - the February 2026 launch thread with author Q&A
 - https://www.bounds.dev/posts/teaching-claude-code-to-drive-cmux/ - third-party account of agents driving cmux programmatically

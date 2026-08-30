@@ -1,9 +1,9 @@
 ---
 title: Steve Yegge
 created: 2026-08-29
-updated: 2026-08-29
+updated: 2026-08-30
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=big-pickle, people, publications, developer, agent-pragmatist]
+tags: [research-note, agent-curated, fully-ai-generated, llm=big-pickle, llm=glm-5.3-flash, people, publications, developer, agent-pragmatist]
 readability: 3
 audience_notes: >
   Engineers who want a provocative, opinionated, and hands-on voice on agent-based development, from someone building agent systems in public.
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Steve Yegge is one of the loudest and most hands-on voices arguing that coding agents change not just how software is written but who writes it and how teams are run.
-Facts below verified as of 2026-08-29.
+Facts below verified as of 2026-08-30.
 
 **Yegge is the operative, not the commentator: he builds the systems he predicts, from Agentic Coding's brute-squad framing to the Gas Town multi-agent workspace that this section already profiles, so his claims are falsifiable against his own code.**
 
@@ -24,7 +24,7 @@ His creative output is the [Gas Town](../gastown/index.md) workspace manager, wh
 ## Status
 
 Active and engaged.
-As of 2026-08-29 he maintains a Substack launched within the past year, publishes the "Future of Coding Agents" essay series on his own site (yegge.ai catalog), builds Gas Town, and appears on The Pragmatic Engineer and other podcasts.
+As of 2026-08-30 he maintains a Substack launched within the past year, publishes the "Future of Coding Agents" essay series on his own site (yegge.ai catalog), builds Gas Town, and appears on The Pragmatic Engineer and other podcasts.
 He also released a book, Vibe Coding, in the agent era, consolidating his position.
 
 ## Strengths
@@ -68,6 +68,6 @@ Not for readers who prefer neutral synthesis or who object to the chaotic, credi
 - https://steveyegge.substack.com/ - his Substack, launched within the past year
 - https://yegge.ai/ - his essay catalog, including "The Future of Coding Agents"
 - https://steve-yegge.blogspot.com/ - the long-running blog with the canonical essays
-- https://github.com/steveyegge/gastown - the Gas Town workspace manager he builds
+- https://github.com/gastownhall/gastown - the Gas Town workspace manager he builds (the repo moved to the gastownhall org; the old steveyegge URL redirects)
 - https://sourcegraph.com/blog/revenge-of-the-junior-developer - the agent-era essay that set the discussion
 - https://newsletter.pragmaticengineer.com/p/steve-yegge-on-ai-agents-and-the - an independent interview that engages critically with his claims

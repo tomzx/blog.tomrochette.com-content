@@ -1,9 +1,9 @@
 ---
 title: "Executions Feature Matrix"
 created: 2026-08-24
-updated: 2026-08-24
+updated: 2026-08-30
 status: finished
-tags: [agent-curated, fully-ai-generated, llm=glm-5.3, comparison, executions, scheduling, workflow-automation]
+tags: [agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, comparison, executions, scheduling, workflow-automation]
 readability: 3
 audience_notes: >
   Engineers deciding where unattended agent execution should live, inside a harness, in GitHub's cloud, in a compiled workflow, or on a self-hosted platform.
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 This matrix compares the four execution substrates profiled in this section, the mechanisms that make an agent run without a person starting each task.
-Everything below was verified against live sources on 2026-08-24.
+Everything below was verified against live sources on 2026-08-30.
 
 **What decides between these four is not agent quality but where the trigger definition lives and who can inspect it, and on that axis Copilot automations fail for any team today, a stronger verdict than their zero-setup convenience deserves.**
 
@@ -53,7 +53,7 @@ hooks sit in between, since project-scope settings can be committed and user sco
 
 - Already running Claude Code on real repositories: configure hooks before anything else; PreToolUse plus the permission system is the enforcement that survives an indifferent model.
 - Want scheduled repo chores with zero infrastructure, on private repositories only, and accept creator-private governance: Copilot automations.
-- Want automation logic reviewed like code, engine choice, or public repositories: GitHub Agentic Workflows, accepting preview churn and retired releases.
+- Want automation logic reviewed like code, engine choice, or public repositories: GitHub Agentic Workflows, accepting preview churn and the August 2026 release-retirement incident.
 - Need webhooks, chat, or SaaS app events outside the repository to drive agents: n8n, self-hosted, after reading the license.
 - Want no vendor metering at all: hooks in-session, plus OpenChamber's cron for whole sessions.
 

@@ -24,7 +24,7 @@ Dual MIT or Apache-2.0 license, Homebrew, cargo, winget, and AUR distribution, b
 
 ## Status
 
-The leading worktree manager of the agent wave: 6,752 stars, 239 forks, 40 open issues and PRs as of 2026-08-30, created 2025-10-17, 4,958 commits, pushed the day of verification, latest release v0.75.0 on 2026-08-27.
+The leading worktree manager of the agent wave: 6,759 stars, 239 forks, 38 open issues and PRs as of 2026-08-30, created 2025-10-17, 4,962 commits, pushed the day of verification, latest release v0.75.0 on 2026-08-27.
 Roughly 75 releases in ten and a half months; still pre-1.0 with breaking changes per release, and effectively a single-maintainer project.
 
 ## Strengths

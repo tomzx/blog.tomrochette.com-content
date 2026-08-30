@@ -25,7 +25,7 @@ Apache-2.0 (with a custom copyright notice), by Mohamed Boudra, an independent s
 
 ## Status
 
-Young and fast: 15,479 stars, 1,676 forks, 1,142 open issues as of 2026-08-30, created 2025-10-13, pushed the day of verification.
+Young and fast: 15,526 stars, 1,681 forks, 1,153 open issues as of 2026-08-30, created 2025-10-13, pushed the day of verification.
 Latest stable v0.6.1 (2026-08-25) with v0.7 in beta, 164 contributors, and an active subreddit and Discord.
 **The structural risk is on the label: the maintainer described himself on Hacker News as a team of one, with monetization planned but not yet generally available.**
 

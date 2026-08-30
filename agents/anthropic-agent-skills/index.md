@@ -1,8 +1,9 @@
 ---
 title: Anthropic Agent Skills
 created: 2026-08-24
+updated: 2026-08-30
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, skills, anthropic, agent-extensions]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, skills, anthropic, agent-extensions]
 readability: 3
 audience_notes: >
   Engineers who already drive Claude Code or the Claude API and are deciding whether to package team knowledge as skills.
@@ -10,7 +11,7 @@ audience_notes: >
 ---
 
 Agent Skills is Anthropic's format for packaging reusable agent capabilities: a folder whose SKILL.md holds YAML metadata plus markdown instructions, with optional scripts and resources loaded on demand.
-Facts below verified as of 2026-08-24.
+Facts below verified as of 2026-08-30.
 
 **This is the packaging format that became the de facto industry standard, because Anthropic released it as an open standard two months after launch and OpenAI, Google, and the major third-party harnesses all adopted it.**
 
@@ -25,7 +26,7 @@ The `anthropics/skills` repository ships the spec, a template, and example skill
 
 **Active and expanding.**
 Launched 2025-10-16; on 2025-12-18 Anthropic published the format as the open Agent Skills standard (agentskills.io), added organization-wide skill management, and opened a partner directory.
-The example repository shows 171.2k stars and 20.3k forks but only 52 commits as of 2026-08-24, which tells me it is a distribution artifact, not where the product is built.
+The example repository shows 172.6k stars and 20.5k forks but only 52 commits as of 2026-08-30, which tells me it is a distribution artifact, not where the product is built.
 Claude Code iterates fast on top: custom commands were merged into skills, and skill behavior changed across v2.1.196 through v2.1.218 (subagent execution, bundled-skill overrides, frontmatter parsing).
 
 ## Strengths
@@ -71,6 +72,6 @@ The claim I will defend: for most teams skills matter more than plugins or MCP s
 - https://claude.com/blog/skills - launch announcement (2025-10-16) and the 2025-12-18 open-standard update
 - https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills - progressive disclosure architecture, code execution, security guidance
 - https://code.claude.com/docs/en/skills - Claude Code surfaces: locations, bundled skills, spec versus extension frontmatter
-- https://github.com/anthropics/skills - example repo scale and license split, 171.2k stars as of 2026-08-24
+- https://github.com/anthropics/skills - example repo scale and license split, 172.6k stars as of 2026-08-30
 - https://docs.claude.com/en/api/skills-guide - Skills API: container parameter, 20 skills per request, code execution requirement
 - https://agentskills.io/ - the extracted open standard and its client showcase

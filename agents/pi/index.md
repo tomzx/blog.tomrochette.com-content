@@ -26,9 +26,9 @@ Made by Earendil Inc., created by Mario Zechner with Armin Ronacher as the secon
 
 ## Status
 
-Active and ascending: 99,163 stars, 12,303 forks, 138 open issues and PRs as of 2026-08-30.
+Active and ascending: 99,381 stars, 12,329 forks, 138 open issues and PRs as of 2026-08-30.
 Created 2025-08-09, 5,826 commits, pushed the day of verification, releases roughly weekly (v0.84.4 on 2026-08-28).
-**The ecosystem is the strongest signal: OpenClaw runs on Pi, and oh-my-pi, a batteries-included fork with 28,346 stars, exists precisely because some users want the features Pi refuses to ship.**
+**The ecosystem is the strongest signal: OpenClaw runs on Pi, and oh-my-pi, a batteries-included fork with 28,470 stars, exists precisely because some users want the features Pi refuses to ship.**
 
 ## Strengths
 

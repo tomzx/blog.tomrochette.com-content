@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Google Antigravity is Google's agentic development platform: the Antigravity 2.0 desktop command center, an IDE, a CLI, and an SDK, free to use with weekly rate limits.
-Facts below verified as of 2026-08-24.
+Facts below verified as of 2026-08-30.
 
 **Antigravity is the most generous free agent platform from any major lab right now, and its first year of security incidents is the checklist of what to verify before you point it at anything that matters.**
 

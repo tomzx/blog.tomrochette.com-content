@@ -24,7 +24,7 @@ Apache-2.0, developed under Kubernetes SIG Apps with Google Cloud backing, built
 
 ## Status
 
-Young but institutionally backed: 3,680 stars, 471 forks, 208 open issues and PRs as of 2026-08-30, created 2025-08-12, pushed the day of verification.
+Young but institutionally backed: 3,682 stars, 473 forks, 209 open issues and PRs as of 2026-08-30, created 2025-08-12, pushed the day of verification.
 v1.0.0 released 2026-08-28, sixteen releases in about seven months, 905 commits.
 **The v1.0.0 tag is not API stability: the API is `v1beta1`, v1alpha1 was removed in the same release, and upgrades from older versions require a documented four-step migration.**
 

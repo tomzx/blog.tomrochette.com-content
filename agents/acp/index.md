@@ -1,8 +1,9 @@
 ---
 title: Agent Client Protocol (ACP)
 created: 2026-08-24
+updated: 2026-08-30
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, protocols, interoperability, editor-integration]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, protocols, interoperability, editor-integration]
 readability: 3
 audience_notes: >
   Engineers who want to run any coding agent inside any editor instead of committing to one vendor's pair.
@@ -11,7 +12,7 @@ audience_notes: >
 ---
 
 ACP is an open protocol that standardizes communication between code editors and coding agents.
-Facts below verified as of 2026-08-24.
+Facts below verified as of 2026-08-30.
 
 **It is pulling the same trick LSP pulled a decade ago, and it is working: editors are becoming interchangeable hosts for agents rather than agent vendors.**
 
@@ -20,13 +21,13 @@ Facts below verified as of 2026-08-24.
 Agents run as editor subprocesses speaking JSON-RPC over stdio, with message types for the coding UX that matters (session lifecycle, permission requests, diffs).
 The protocol reuses MCP's JSON representations where it can and keeps user-readable text in Markdown.
 **Zed originated it, JetBrains co-developed it after merging its own internal Junie protocol effort, and the repository now lives under the vendor-neutral `agentclientprotocol` organization, Apache-2.0.**
-The current stable protocol version is 1, with official Kotlin, Java, Python, Rust, and TypeScript SDKs.
+The current stable protocol version is 1, with a v2 draft and a migration guide already published, and official Kotlin, Java, Python, Rust, and TypeScript SDKs.
 
 ## Status
 
 **Active and compounding.**
-The repository shows about 4.1k stars and 2,104 commits as of 2026-08-24.
-The official agents list includes Codex CLI (via Zed's adapter), Gemini CLI, Cursor CLI, OpenCode, Goose, Junie, Kiro CLI, Factory Droid, Cline, and GitHub Copilot CLI in public preview since 2026-01-28.
+The repository shows about 4.1k stars and 2,137 commits as of 2026-08-30.
+The official agents list has grown to roughly 40 entries and now includes Codex CLI (via Zed's adapter), the Claude agent (also via Zed's SDK adapter), Gemini CLI, Cursor, OpenCode, Goose, Junie, Kiro CLI, Factory Droid, Cline, Kimi CLI, Qwen Code, and GitHub Copilot in public preview since 2026-01-28.
 Clients include Zed, JetBrains IDEs (beta in the 25.3 release candidates, December 2025), Neovim and Emacs plugins, VS Code extensions, and Devin Desktop.
 In this index, [OpenCode](../opencode/index.md) ships `opencode acp`, and [JetBrains](../jetbrains/index.md), [Zed](../zed/index.md), [Junie](../junie/index.md), and [Windsurf's Devin Desktop](../windsurf/index.md) all host agents through it.
 Remote, cloud-hosted agents are explicitly still work in progress.
@@ -72,8 +73,8 @@ The disagreeable part: I think ACP matters more than any single agent or editor 
 ## References
 
 - https://agentclientprotocol.com - official introduction: stdio model, MCP type reuse, protocol version 1
-- https://agentclientprotocol.com/overview/agents - the agent list (Codex CLI, Gemini CLI, Cursor CLI, OpenCode, Copilot CLI preview)
+- https://agentclientprotocol.com/overview/agents - the agent list (Codex CLI, Claude agent, Gemini CLI, Cursor, OpenCode, Copilot preview)
 - https://agentclientprotocol.com/overview/clients - the client list (Zed, JetBrains, Neovim, Emacs, VS Code, Devin Desktop)
-- https://github.com/agentclientprotocol/agent-client-protocol - Apache-2.0 repository, SDKs, stars and commits as of 2026-08-24
+- https://github.com/agentclientprotocol/agent-client-protocol - Apache-2.0 repository, SDKs, stars and commits as of 2026-08-30
 - https://blog.jetbrains.com/ai/2025/12/bring-your-own-ai-agent-to-jetbrains-ides/ - co-creation story, 25.3 beta, the UX trade-off admission
 - https://news.ycombinator.com/item?id=45074147 - launch thread criticism (LSP and MCP comparisons, protocol proliferation, name collision)

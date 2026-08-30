@@ -1,9 +1,9 @@
 ---
 title: GitHub Agentic Workflows
 created: 2026-08-24
-updated: 2026-08-24
+updated: 2026-08-30
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, executions, github-actions, workflows]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, executions, github-actions, workflows]
 readability: 3
 audience_notes: >
   Maintainers who want repository chores to run without them and already live in GitHub Actions.
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 GitHub Agentic Workflows (gh-aw) define repository automation in Markdown with YAML frontmatter, compiled into a hardened GitHub Actions workflow that runs an AI coding agent with guardrails.
-Facts below verified as of 2026-08-24.
+Facts below verified as of 2026-08-30.
 
 **GitHub Actions is becoming the default execution substrate for code agents, and gh-aw is the mechanism that makes an untrusted LLM in CI survivable.**
 
@@ -24,9 +24,9 @@ It is built by GitHub Next with Microsoft Research, MIT-licensed, in public prev
 ## Status
 
 **Active preview with real traction.**
-About 5k stars, 502 forks, and 17,009 commits in `github/gh-aw` as of 2026-08-24.
+About 5.1k stars, 526 forks, and 17,367 commits in `github/gh-aw` as of 2026-08-30.
 The February 2026 Hacker News launch thread drew 302 points and 141 comments.
-Trust has rough edges: the README announces releases 0.68.4 through 0.71.3 are being retired due to a billing bug, and tells users to upgrade.
+The trust story has moved: an August 2026 billing bug forced the retirement of releases 0.68.4 through 0.71.3, and while that notice has since been cleared from the README (releases now run v0.87.x, latest on 2026-08-28), the episode shows how quickly this preview will break its users.
 
 ## Strengths
 
@@ -50,14 +50,14 @@ Self-hosted and ARC runners are supported, which can zero out the Actions-minute
 
 ## Compared to
 
-- [Claude Code Action](https://github.com/anthropics/claude-code-action): the mature single-agent incumbent on the same substrate (about 8.7k stars as of 2026-08-24), better for @claude PR review, weaker on multi-engine guardrails.
+- [Claude Code Action](https://github.com/anthropics/claude-code-action): the mature single-agent incumbent on the same substrate (about 8.8k stars as of 2026-08-30), better for @claude PR review, weaker on multi-engine guardrails.
 - [Copilot automations](../copilot-automations/index.md): GitHub's hosted scheduled and event triggers, no files in your repo, Copilot-only.
 - [Claude Code hooks](../claude-code-hooks/index.md): event triggers inside one harness session, versus repository-level automation across engines.
 
 ## Bottom line
 
 **Recommended for maintainers automating issue triage, CI failure investigation, and documentation upkeep, provided a human still reviews every write.**
-Not for teams that need stability guarantees, since releases can be retired mid-flight.
+Not for teams that need stability guarantees, since a billing bug forced release retirements as recently as August 2026.
 My disagreeable claim: even in preview, I would start here rather than hand-rolling a script that shells out to a coding agent, because the safe-outputs gate is worth more than any bespoke wrapper your team will write and abandon.
 
 ## See also
@@ -70,7 +70,7 @@ My disagreeable claim: even in preview, I would start here rather than hand-roll
 
 - https://docs.github.com/en/copilot/concepts/agents/about-github-agentic-workflows - product definition, security model, AIC billing
 - https://github.github.com/gh-aw/ - full reference: engines, guardrails, cost management
-- https://github.com/github/gh-aw - repository scale, MIT license, retired-release notice, as of 2026-08-24
+- https://github.com/github/gh-aw - repository scale, MIT license, as of 2026-08-30
 - https://news.ycombinator.com/item?id=46934107 - February 2026 launch discussion (302 points) including dogfooding criticism
 - https://github.com/anthropics/claude-code-action - the single-agent alternative on the same substrate
 - https://docs.github.com/en/copilot/concepts/agents/cloud-agent/about-automation-rationale-and-approvals - shared rationale and approvals layer, including its limits

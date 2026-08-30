@@ -1,9 +1,9 @@
 ---
 title: Paperclip
 created: 2026-08-27
-updated: 2026-08-27
+updated: 2026-08-30
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, control-planes, agent-operations, multi-agent, open-source, governance]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, control-planes, agent-operations, multi-agent, open-source, governance]
 readability: 3
 audience_notes: >
   Engineers or solo operators running several AI agents toward business goals who are deciding between a control plane and a pile of terminals.
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Paperclip (paperclipai/paperclip) is an MIT-licensed, self-hostable control plane for a company of AI agents: a Node.js server and React UI where agents check work out of a ticket board via scheduled heartbeats, wrapped in org charts, budgets, approvals, skills, and an audit log.
-Facts below verified as of 2026-08-27.
+Facts below verified as of 2026-08-30.
 
 **The name is the thesis: an agent-company platform named after the paperclip maximizer is selling governance as the product (budgets that pause agents, approvals, chain of command, immutable audit trails), and about 79k stars in its first six months say the market wants exactly that.**
 
@@ -25,7 +25,7 @@ Any agent that can receive a heartbeat is hirable, OpenClaw, Claude Code, Codex,
 ## Status
 
 Active at extreme velocity.
-As of 2026-08-27: 79,465 stars and 14,557 forks since creation on 2026-03-02, 5,417 open issues, pushed the morning of verification, latest release v2026.824.1 on 2026-08-25 (date-versioned), cloud deployments in waitlist with multi-tenant isolation already shipped per the roadmap.
+As of 2026-08-30: 79,700 stars and 14,622 forks since creation on 2026-03-02, 5,424 open issues, pushed the day of verification, latest release v2026.824.1 on 2026-08-25 (date-versioned), cloud deployments in waitlist with multi-tenant isolation already shipped per the roadmap.
 **Its Hacker News footprint is nearly empty: the April 2026 Show HN got 3 points, so the growth ran through X and Discord instead, which tells you who the audience is.**
 The roadmap is public about what does not exist yet: memory and knowledge, work queues, self-organization, CEO chat, and one item called MAXIMIZER MODE, the joke made explicit.
 
@@ -47,11 +47,11 @@ The roadmap is public about what does not exist yet: memory and knowledge, work 
 ## Pricing
 
 Open source under MIT, self-hosted, no account.
-A hosted cloud is in waitlist with no published pricing as of 2026-08-27.
+A hosted cloud is in waitlist with no published pricing as of 2026-08-30.
 
 ## Compared to
 
-- [OpenClaw](../openclaw/index.md) (387,777 stars as of this run): the employee, not the company; Paperclip's own line is "if OpenClaw is an employee, Paperclip is the company", and it manages OpenClaw instances among others.
+- [OpenClaw](../openclaw/index.md) (388,084 stars as of this run): the employee, not the company; Paperclip's own line is "if OpenClaw is an employee, Paperclip is the company", and it manages OpenClaw instances among others.
 - [Gas Town](../gastown/index.md): supervision for many coding agents inside one workspace; choose Gas Town for repo work, Paperclip when the goal is a business, not a codebase.
 - [beads](../beads/index.md) with a plain harness: the ledger-plus-heartbeat pattern you can assemble yourself when a whole company is overkill.
 
@@ -71,7 +71,7 @@ The disagreeable claim I will defend: "manage business goals, not pull requests"
 ## References
 
 - https://github.com/paperclipai/paperclip - README: pillars, quickstart defaults, FAQ, roadmap
-- https://api.github.com/repos/paperclipai/paperclip - stars, forks, issues, push dates as of 2026-08-27
+- https://api.github.com/repos/paperclipai/paperclip - stars, forks, issues, push dates as of 2026-08-30
 - https://paperclip.ing - homepage, release line, testimonials
 - https://docs.paperclip.ing - official documentation
 - https://api.github.com/repos/paperclipai/paperclip/releases - v2026.824.1, 2026-08-25

@@ -1,8 +1,9 @@
 ---
 title: Mem0
 created: 2026-08-24
+updated: 2026-08-30
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, agent-memory, developer-tools]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, agent-memory, developer-tools]
 readability: 3
 audience_notes: >
   Engineers adding persistent memory to an AI product or agent, assumed familiar with embeddings and retrieval basics.
@@ -10,7 +11,7 @@ audience_notes: >
 ---
 
 Mem0 is a hosted and self-hostable memory layer for AI agents: it extracts facts from conversations, stores them across vector, graph, and key-value backends, and retrieves the relevant slice into context on demand.
-Facts below verified as of 2026-08-24.
+Facts below verified as of 2026-08-30.
 
 **Mem0 has the widest adoption of any dedicated memory product, and its benchmark numbers are the part I trust least.**
 
@@ -25,7 +26,7 @@ The company (YC S24) was founded by Taranjeet Singh and Deshraj Yadav, previousl
 ## Status
 
 **Active and the adoption leader.**
-The repository shows about 63.9k stars and 2,607 commits as of 2026-08-24.
+The repository shows about 64.4k stars and 2,617 commits as of 2026-08-30.
 TechCrunch reported a $24M round (a $3.9M seed plus a $20M Series A led by Basis Set Ventures, with Peak XV and the GitHub Fund) in October 2025, 186M API calls in Q3 2025, and exclusive-memory-provider status for AWS's Agent SDK.
 The site claims 150,000+ developers.
 The 2024 Show HN drew 201 points and 61 comments, though moderators flagged booster comments in that thread.
@@ -70,8 +71,8 @@ I would not choose any memory vendor on benchmark leaderboards, this field's num
 ## References
 
 - https://mem0.ai/ - product surfaces, developer-count claim, deployment options
-- https://github.com/mem0ai/mem0 - stars and commits as of 2026-08-24, April 2026 algorithm, OSS-vs-platform disclaimer
-- https://mem0.ai/pricing - tier and quota structure as of 2026-08-24
+- https://github.com/mem0ai/mem0 - stars and commits as of 2026-08-30, April 2026 algorithm, OSS-vs-platform disclaimer
+- https://mem0.ai/pricing - tier and quota structure as of 2026-08-30
 - https://arxiv.org/abs/2504.19413 - the paper behind the SOTA claims
 - https://techcrunch.com/2025/10/28/mem0-raises-24m-from-yc-peak-xv-and-basis-set-to-build-the-memory-layer-for-ai-apps/ - funding, traction, AWS Agent SDK deal
 - https://blog.getzep.com/lies-damn-lies-statistics-is-mem0-really-sota-in-agent-memory/ - competitor rebuttal of the benchmark claims

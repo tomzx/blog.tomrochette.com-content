@@ -25,7 +25,7 @@ Apache-2.0, from Alibaba, open-sourced in May 2026 after two years of internal u
 ## Status
 
 High-velocity young: 21,636 stars, 1,599 forks, 150 open issues and PRs as of 2026-08-30, created 2026-05-18.
-About 100 releases in three months (v1.11.0 on 2026-08-28), a 284-point Hacker News front-page thread in June.
+114 releases in three and a half months (v1.11.0 on 2026-08-28), a 284-point Hacker News front-page thread in June.
 **Adoption outran polish visibly: GPT-5.x compatibility broke at launch and was fixed, and the lead has said parts of the codebase are not yet fully polished.**
 
 ## Strengths

@@ -12,7 +12,7 @@ audience_notes: >
 ---
 
 Amp is the coding agent from Amp Frontier Corporation ([spun out of Sourcegraph on December 2, 2025](https://ampcode.com/news/amp-frontier-corporation)): a CLI plus web and phone surfaces, with threads that run on remote machines called orbs.
-Facts below verified as of 2026-08-27.
+Facts below verified as of 2026-08-30.
 
 **Amp's orbs are the most direct answer in the field to "the agent should keep working when I close my laptop", and the product is priced exactly like something that believes its own value.**
 
