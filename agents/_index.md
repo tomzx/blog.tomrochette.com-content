@@ -33,7 +33,8 @@ If the section turns into slop, the logs will show exactly where it went wrong, 
 - [Surface Feature Matrix](surface-feature-matrix/index.md) - the twelve surfaces (two of them death records) against eleven capability rows, verified 2026-08-30.
 - [Orchestration Feature Matrix](orchestration-feature-matrix/index.md) - the eleven worktree managers, dashboards, and mobile clients, plus one agent town, one dead and one orphaned among them.
 - [Protocols Feature Matrix](protocols-feature-matrix/index.md) - the four protocols stack rather than compete, and adoption falls with every step up the stack.
-- [Context Engines Feature Matrix](context-engines-feature-matrix/index.md) - the eight context vendors and tools against delivery, deployment, and scale rows.
+- [Context Engines Feature Matrix](context-engines-feature-matrix/index.md) - the seven context vendors and tools against delivery, deployment, and scale rows.
+- [Code Review Feature Matrix](code-review-feature-matrix/index.md) - the five AI reviewers divided on where your code runs, with both Kudelski exploit records named, verified 2026-08-30.
 - [Skills Feature Matrix](skills-feature-matrix/index.md) - the spec, vendor format, harness mechanism, optimizer, and registry against runtime and stewardship rows.
 - [Retrieval Feature Matrix](retrieval-feature-matrix/index.md) - the two frameworks and two patterns compared, with the harness-native counterargument engaged.
 - [Memory Feature Matrix](memory-feature-matrix/index.md) - the file convention and five services against memory-model and lock-in rows.
@@ -44,7 +45,7 @@ If the section turns into slop, the logs will show exactly where it went wrong, 
 - [Control Planes Feature Matrix](control-planes-feature-matrix/index.md) - governance, budgets, and multi-company rows that separate control planes from orchestration.
 - [Assistant Runtimes Feature Matrix](assistant-runtimes-feature-matrix/index.md) - OpenClaw, Hermes, the shrinking variants, the Python core, and the two Cowork desktops, the trust ladder in one table, verified 2026-08-30.
 - [Software Factory Feature Matrix](software-factory-feature-matrix/index.md) - the stamped Python loop, Fluent's learning loop, HAR's fleet harness, and Ouroboros' hidden grading on the who-owns-the-loop axis, verified 2026-08-30.
-- [Evaluation and Review Feature Matrix](evaluation-review-feature-matrix/index.md) - the five quality-control columns divided on who judges, the agent, the metric suite, the rules engine, or the human, verified 2026-08-30.
+- [Evaluation and Review Feature Matrix](evaluation-review-feature-matrix/index.md) - the four quality-control columns divided on who judges, the agent, the metric suite, or the human, verified 2026-08-30.
 - [Sandboxing Feature Matrix](sandboxing-feature-matrix/index.md) - the five isolation layers honestly divided into boundaries, an orchestrator, a framework, and provisioning, verified 2026-08-30.
 - [Session Analytics Feature Matrix](session-analytics-feature-matrix/index.md) - the new one-column category: retrospective archives versus live observation, seeded by agentsview, verified 2026-08-30.
 - [People and Publications Feature Matrix](people-and-publications-feature-matrix/index.md) - the twelve voices compared on focus, cadence, and reader slot, verified 2026-08-30.
@@ -117,7 +118,6 @@ All categories refreshed in parallel every run; dead tools keep their entries, m
 
 - [Augment Code](augment-code/index.md) - the coding platform whose core is a real-time semantic Context Engine feeding Auggie and Cosmos.
 - [Graphify](graphify/index.md) - the local AST knowledge graph exposed as a `/graphify` skill and MCP server, structure over similarity, no vectors.
-- [Greptile](greptile/index.md) - AI code review running a swarm of agents over a graph index of your repositories.
 - [qmd](qmd/index.md) - Tobias Lütke's local hybrid search engine for notes, docs, and knowledge bases, BM25 plus vectors plus reranking.
 - [Repomix](repomix/index.md) - the MIT CLI that packs a whole repo into one AI-friendly file, retrieval-free by design.
 - [rtk](rtk/index.md) - the Rust CLI proxy that filters agent command output before it enters the context window.
@@ -162,12 +162,21 @@ All categories refreshed in parallel every run; dead tools keep their entries, m
 - [OpenAI Structured Outputs](openai-structured-outputs/index.md) - schema-guaranteed responses via constrained decoding.
 - [Outlines](outlines/index.md) - logit-masked generation following types, schemas, regexes, or grammars.
 
+## Code review
+
+Where machines judge pull requests: the review bots, the open-source reviewers, and the one that pivoted into agent infrastructure.
+
+- [CodeRabbit](coderabbit/index.md) - the commercial anchor, $143M Series C at a $1.5B valuation, free forever on public repos, with a disclosed RCE history in its file.
+- [Ellipsis](ellipsis/index.md) - the 2024 review bot that pivoted to managed agent infrastructure in July 2026, review now one configurable use case.
+- [Greptile](greptile/index.md) - AI code review running a swarm of agents over a graph index of your repositories, learned house rules included.
+- [OpenCodeReview](open-code-review/index.md) - Alibaba's hybrid reviewer where deterministic pipelines pick and rule-check what the LLM agent judges, precision over recall.
+- [Qodo](qodo/index.md) - the open-core reviewer, MIT PR-Agent you can self-host or paid Qodo Merge, both sides covered by Kudelski's exploit research.
+
 ## Evaluation and review
 
 Where quality control lives in the agent workflow: CI gates, dashboards, machine review, human annotation.
 
 - [deepeval](deepeval/index.md) - the pytest-style eval framework with roughly fifty judge metrics that gates merges in CI.
-- [OpenCodeReview](open-code-review/index.md) - Alibaba's hybrid reviewer where deterministic pipelines pick and rule-check what the LLM agent judges, precision over recall.
 - [Phoenix](phoenix/index.md) - Arize's OTel-native observability and eval platform, self-hostable under an Elastic license.
 - [Plannotator](plannotator/index.md) - the local review surface that turns your annotations on agent plans and diffs into the agent's next instruction.
 - [Workshop](workshop/index.md) - Raindrop's local debugger where the coding agent reads traces, writes evals, and fixes what fails.

@@ -1,8 +1,9 @@
 ---
 title: Greptile
 created: 2026-08-24
+updated: 2026-08-30
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, code-review, code-retrieval, developer-tools]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, code-review, code-retrieval, developer-tools]
 readability: 3
 audience_notes: >
   Engineers evaluating an AI code reviewer with full-codebase context, or a codebase-understanding API.
@@ -55,7 +56,7 @@ Self-hosted enterprise and bulk API pricing are custom.
 ## Compared to
 
 - [Sourcegraph code context platform](../sourcegraph-code-context/index.md): retrieval infrastructure priced at org level for any agent; choose Greptile when you want the reviewer and validator, not the index.
-- CodeRabbit: the closest review-first rival with heavier marketing footprint; Greptile's differentiators are the learned-rules loop and self-hosting.
+- [CodeRabbit](../coderabbit/index.md): the closest review-first rival with heavier marketing footprint; Greptile's differentiators are the learned-rules loop and self-hosting.
 - [Augment Code](../augment-code/index.md): sells a full authoring-plus-review factory; choose Greptile when you want review independent of the tools that wrote the code.
 
 ## Bottom line
@@ -66,6 +67,7 @@ My disagreeable claim: the graph index everyone credits Greptile for is the leas
 
 ## See also
 
+- [Code Review Feature Matrix](../code-review-feature-matrix/index.md) - the category comparison this note joins
 - [Sourcegraph code context platform](../sourcegraph-code-context/index.md) - the infra-only end of the same indexed-codebase bet
 - [Semantic code search in coding tools](../semantic-code-search/index.md) - why graph indexes beat plain embeddings on cross-file questions
 - [Tree-sitter code chunking](../tree-sitter-chunking/index.md) - the parsing layer Greptile's indexer builds on

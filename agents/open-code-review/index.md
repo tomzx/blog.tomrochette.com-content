@@ -50,7 +50,8 @@ Costs are your own LLM API calls, or zero in delegation mode where your existing
 ## Compared to
 
 - [Greptile](../greptile/index.md): hosted, codebase-indexed review; choose OpenCodeReview when code must stay in-house and you want model and token control.
-- CodeRabbit: turnkey commercial bot with per-seat pricing; choose it for zero-wiring convenience, `ocr` for the same category at license cost zero plus wiring effort.
+- [CodeRabbit](../coderabbit/index.md): turnkey commercial bot with per-seat pricing; choose it for zero-wiring convenience, `ocr` for the same category at license cost zero plus wiring effort.
+- [Qodo](../qodo/index.md): the open-core middle path, MIT PR-Agent to self-host or paid Qodo Merge.
 - Plain agent review of `git diff`: free and fine for small diffs; `ocr`'s pitch is exactly that agents alone cut corners on large changesets, and its delegation mode is the middle path.
 
 ## Bottom line
@@ -60,7 +61,7 @@ Not for teams needing independently validated precision numbers today, or turnke
 
 ## See also
 
-- [Evaluation and Review Feature Matrix](../evaluation-review-feature-matrix/index.md) - the category comparison this note joins
+- [Code Review Feature Matrix](../code-review-feature-matrix/index.md) - the category comparison this note joins
 - [Greptile](../greptile/index.md) - the hosted review alternative
 - [Plannotator](../plannotator/index.md) - the human-annotation surface for the same problem
 - [Hybrid Execution Feature Matrix](../hybrid-execution-feature-matrix/index.md) - the deterministic-orchestrates-LLM principle at review scale
