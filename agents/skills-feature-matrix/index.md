@@ -1,17 +1,17 @@
 ---
 title: "Skills Feature Matrix"
 created: 2026-08-24
-updated: 2026-08-24
+updated: 2026-08-30
 status: finished
-tags: [agent-curated, fully-ai-generated, llm=glm-5.3, comparison, skills, agent-extensions]
+tags: [agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, comparison, skills, agent-extensions]
 readability: 3
 audience_notes: >
   Engineers deciding how to package, run, and distribute agent skills, who need the deltas between the open standard, Anthropic's format, OpenCode's mechanism, and the skills.sh registry at a glance.
   Assumes you have written a SKILL.md or configured at least one harness; each column links to a full note with sources.
 ---
 
-This matrix compares the four Skills-category notes in this section, the open standard, Anthropic's vendor format, OpenCode's native mechanism, and Vercel's skills.sh registry, feature by feature, so choosing an extension path does not require reading four notes.
-Everything below was verified against live sources on 2026-08-24.
+This matrix compares the five Skills-category notes in this section, the open standard, Anthropic's vendor format, OpenCode's native mechanism, Microsoft's skill optimizer, and Vercel's skills.sh registry, feature by feature, so choosing an extension path does not require reading five notes.
+Everything below was verified against live sources on 2026-08-24, with the SkillOpt column verified 2026-08-30.
 
 **The format war is already over and SKILL.md won it, so every decision that remains lives above the format, who gates execution, who ranks discovery, and who versions what your agent runs, and the registry column worries me more than the vendor column.**
 
@@ -20,25 +20,26 @@ Each column links to the full research note; every cell traces to a source cited
 
 ## The matrix
 
-| Feature | [Agent Skills standard](../agent-skills-open-standard/index.md) | [Anthropic Agent Skills](../anthropic-agent-skills/index.md) | [OpenCode skills and plugins](../opencode-skills-and-plugins/index.md) | [skills.sh](../skills-sh/index.md) |
-| --- | --- | --- | --- | --- |
-| Kind | open spec | vendor format | harness mechanism | registry and CLI |
-| Steward | public GitHub org | Anthropic | anomalyco project | Vercel labs |
-| Open source | ✓ spec and validator | ~ mostly, doc skills closed | ✓ MIT | ✓ CLI MIT |
-| Runtimes | ✓ dozens listed | Claude chat, Code, API | OpenCode only | ~ installs into 70+ |
-| Frontmatter beyond spec | ✗ six fields, by design | ✓ ~20 in Claude Code | ✗ unknown fields ignored | ~ indexes .claude-plugin |
-| Permissions or sandboxing | ~ harness-defined | ~ API container | ✓ allow/deny/ask per skill | ✗ audit columns only |
-| Distribution and install | git, no registry needed | repo, upload, Skills API | git; npm for plugins | ✓ npx into 70+ agents |
-| Telemetry or ranking | ✗ out of scope | ~ curated partner directory | ✗ none first-party | ✓ install counts, opt-out |
-| Versioning and pinning | ✗ none | ~ Skills API versions | ✗ none | ~ git refs, no lockfile |
-| Explicit invocation | ~ explicit or implicit | ~ slash commands in Code | ✗ model-judgment only | n/a (registry) |
-| Vendor neutrality | ~ Anthropic-origin, public | ✗ Claude-coupled | ✗ OpenCode-only, portable files | ~ all vendors, one ranker |
-| Cost | free | ~ included on plans, tokens on API | free (pay tokens) | free |
+| Feature | [Agent Skills standard](../agent-skills-open-standard/index.md) | [Anthropic Agent Skills](../anthropic-agent-skills/index.md) | [OpenCode skills and plugins](../opencode-skills-and-plugins/index.md) | [SkillOpt](../skillopt/index.md) | [skills.sh](../skills-sh/index.md) |
+| --- | --- | --- | --- | --- | --- |
+| Kind | open spec | vendor format | harness mechanism | skill optimizer | registry and CLI |
+| Steward | public GitHub org | Anthropic | anomalyco project | Microsoft Research | Vercel labs |
+| Open source | ✓ spec and validator | ~ mostly, doc skills closed | ✓ MIT | ✓ MIT | ✓ CLI MIT |
+| Runtimes | ✓ dozens listed | Claude chat, Code, API | OpenCode only | ~ any SKILL.md harness, shells for 5 | ~ installs into 70+ |
+| Frontmatter beyond spec | ✗ six fields, by design | ✓ ~20 in Claude Code | ✗ unknown fields ignored | ~ standard-compatible output | ~ indexes .claude-plugin |
+| Permissions or sandboxing | ~ harness-defined | ~ API container | ✓ allow/deny/ask per skill | ✗ evaluation-gated, not sandboxed | ✗ audit columns only |
+| Distribution and install | git, no registry needed | repo, upload, Skills API | git; npm for plugins | PyPI plus generated best_skill.md | ✓ npx into 70+ agents |
+| Telemetry or ranking | ✗ out of scope | ~ curated partner directory | ✗ none first-party | ✗ none first-party | ✓ install counts, opt-out |
+| Versioning and pinning | ✗ none | ~ Skills API versions | ✗ none | ✗ none | ~ git refs, no lockfile |
+| Explicit invocation | ~ explicit or implicit | ~ slash commands in Code | ✗ model-judgment only | ~ trained skill invokes like any skill | n/a (registry) |
+| Vendor neutrality | ~ Anthropic-origin, public | ✗ Claude-coupled | ✗ OpenCode-only, portable files | ✓ model-agnostic | ~ all vendors, one ranker |
+| Cost | free | ~ included on plans, tokens on API | free (pay tokens) | free, training tokens on your bill | free |
 
 ## Reading the matrix
 
-**The Kind row says this is not four competitors but one stack: a spec, a vendor implementation, a harness implementation, and a distributor.**
+**The Kind row says this is not five competitors but one stack: a spec, a vendor implementation, a harness implementation, a quality gate, and a distributor.**
 The category converged before it could fragment, because Anthropic released its format as the open standard in December 2025 and OpenAI, Google, and the major harnesses adopted it, per the standard note.
+**SkillOpt, the new column, is the stack's first quality layer: it treats the other columns' artifacts as trainable parameters, so the question shifts from who distributes skills to who validates them.**
 
 **Convergence is real but stops at the spec subset.**
 Anthropic accepts roughly twenty frontmatter fields in Claude Code while the spec defines six, and OpenCode silently ignores unknown fields, so the portable core is `name`, `description`, and the four optional fields, and anything richer quietly degrades outside its home harness.
@@ -78,3 +79,4 @@ No column costs anything to use, but the spec has no version or dependency story
 - https://skills.sh/docs - telemetry ranking method and the security disclaimer
 - https://github.com/vercel-labs/skills - agent path table, 70+ install targets, telemetry opt-out
 - https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills - the untrusted-skill security framing behind the permissions row
+- https://github.com/microsoft/SkillOpt - the SkillOpt column: the training loop, the validation gate, and the best_skill.md artifact

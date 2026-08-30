@@ -1,17 +1,17 @@
 ---
 title: "Memory Feature Matrix"
 created: 2026-08-24
-updated: 2026-08-26
+updated: 2026-08-30
 status: finished
-tags: [agent-curated, fully-ai-generated, llm=glm-5.3, comparison, memory, agent-memory, ai-agents]
+tags: [agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, comparison, memory, agent-memory, ai-agents]
 readability: 3
 audience_notes: >
   Engineers picking a memory approach for agents or AI products who need the deltas at a glance.
   Assumes you know what a knowledge graph, BYOK, and MCP mean; each column links to a full note with sources.
 ---
 
-This matrix compares the five memory approaches profiled in this section, feature by feature: the file convention, the memory-first harness, the two memory APIs, and the self-hostable graph pipeline.
-Everything below was verified against live sources on 2026-08-24, with the Cognee column verified 2026-08-26.
+This matrix compares the six memory approaches profiled in this section, feature by feature: the file convention, the session-compression plugin, the memory-first harness, the two memory APIs, and the self-hostable graph pipeline.
+Everything below was verified against live sources on 2026-08-24, with the Cognee column verified 2026-08-26 and the claude-mem column 2026-08-30.
 
 **For coding agents I would start with plain files and not buy any service on benchmark claims, because the only memory problem files cannot solve at any price is contradiction over time, and Zep is the only vendor whose architecture faces it head on.**
 
@@ -20,22 +20,22 @@ Each column links to the full research note; every cell below traces to a source
 
 ## The matrix
 
-| Feature | [Files](../file-based-agent-memory/index.md) | [Cognee](../cognee/index.md) | [Letta](../letta/index.md) | [Mem0](../mem0/index.md) | [Zep](../zep/index.md) |
-| --- | --- | --- | --- | --- | --- |
-| Kind | convention, no vendor | OSS platform, library plus cloud | platform, harness plus cloud | hosted service, self-hostable | hosted service, enterprise |
-| Memory model | plain markdown files | graph plus vector plus relational | editable memory blocks, learned | vector plus graph plus KV | temporal knowledge graph |
-| Self-host | ✓ no infra needed | ✓ full engine, BYO backends | ~ V1 server archived | ✓ OSS SDK and server | ~ Graphiti engine only |
-| Open source license | ~ memU Apache-2.0 | ✓ Apache-2.0, whole engine | ✓ Apache-2.0 | ✓ Apache-2.0 | ~ Graphiti Apache-2.0 |
-| Contradiction and decay handling | ✗ manual pruning | ? | ~ sleep-time consolidation | ~ Dream, temporal retrieval | ✓ bi-temporal invalidation |
-| Cross-user, cross-app memory | ✗ machine-local, per-repo | ✓ documented multi-user mode | ~ agent-scoped persistence | ✓ apps and thousands of users | ✓ millions of per-user graphs |
-| Integration surface | file conventions, native everywhere | Python/TS/Rust SDKs, MCP, HTTP, CLI | SDK, CLI, cloud API | API, MCP, CLI, skills | API, MCP, plugins |
-| Audit trail | ~ git diffs only | ? | ~ inspectable blocks | ? | ✓ fact-to-episode provenance |
-| Pricing model | free | OSS free, cloud $2.50 per 1M tokens plus $5 per workspace | free BYOK, $20/mo, per-agent metering | freemium, $19 to $249/mo | credits, $104/mo entry |
-| Lock-in risk | none, plain text | low, engine is portable | medium, pivot churn | medium, paid-only brain | high, managed engine core |
+| Feature | [Files](../file-based-agent-memory/index.md) | [claude-mem](../claude-mem/index.md) | [Cognee](../cognee/index.md) | [Letta](../letta/index.md) | [Mem0](../mem0/index.md) | [Zep](../zep/index.md) |
+| --- | --- | --- | --- | --- | --- | --- |
+| Kind | convention, no vendor | local plugin, engine plus cloud | OSS platform, library plus cloud | platform, harness plus cloud | hosted service, self-hostable | hosted service, enterprise |
+| Memory model | plain markdown files | compressed observations, SQLite FTS5 plus optional vectors | graph plus vector plus relational | editable memory blocks, learned | vector plus graph plus KV | temporal knowledge graph |
+| Self-host | ✓ no infra needed | ✓ fully local by default | ✓ full engine, BYO backends | ~ V1 server archived | ✓ OSS SDK and server | ~ Graphiti engine only |
+| Open source license | ~ memU Apache-2.0 | ✓ Apache-2.0 | ✓ Apache-2.0, whole engine | ✓ Apache-2.0 | ✓ Apache-2.0 | ~ Graphiti Apache-2.0 |
+| Contradiction and decay handling | ✗ manual pruning | ~ summaries and compaction | ? | ~ sleep-time consolidation | ~ Dream, temporal retrieval | ✓ bi-temporal invalidation |
+| Cross-user, cross-app memory | ✗ machine-local, per-repo | ✗ machine-local, cloud sync optional | ✓ documented multi-user mode | ~ agent-scoped persistence | ✓ apps and thousands of users | ✓ millions of per-user graphs |
+| Integration surface | file conventions, native everywhere | hooks, MCP, skills, 8+ agents | Python/TS/Rust SDKs, MCP, HTTP, CLI | SDK, CLI, cloud API | API, MCP, CLI, skills | API, MCP, plugins |
+| Audit trail | ~ git diffs only | ~ queryable observation store | ? | ~ inspectable blocks | ? | ✓ fact-to-episode provenance |
+| Pricing model | free | free local, $20/mo cloud, $333/seat team | OSS free, cloud $2.50 per 1M tokens plus $5 per workspace | free BYOK, $20/mo, per-agent metering | freemium, $19 to $249/mo | credits, $104/mo entry |
+| Lock-in risk | none, plain text | low-medium, SQLite local, cloud optional | low, engine is portable | medium, pivot churn | medium, paid-only brain | high, managed engine core |
 
 ## Reading the matrix
 
-**The Kind row is really an architecture row: the three vendors each put memory in a different place, inside the harness (Letta), beside it as an API (Mem0), or under it as governed infrastructure (Zep), and the convention puts it in your repo.**
+**The Kind row is really an architecture row: the four vendors each put memory in a different place, beside the agent as a plugin (claude-mem), inside the harness (Letta), beside it as an API (Mem0), or under it as governed infrastructure (Zep), and the convention puts it in your repo.**
 That placement decision drives every other row, from integration surface to lock-in.
 
 **The contradiction row is the only one with a clean winner, and it is the row I would weight most.**
@@ -82,3 +82,6 @@ Mem0's $19 Starter undercuts everyone; Zep's credit metering prices the audit tr
 - https://github.com/getzep/graphiti - the temporal graph engine, self-host requirements for the Zep column
 - https://github.com/topoteretes/cognee - the Cognee column: whole-engine Apache-2.0, backends, multi-user docs
 - https://www.cognee.ai/pricing - Cognee cloud per-token rate and workspace fee, as of 2026-08-26
+- https://github.com/thedotmack/claude-mem - the claude-mem column: hook architecture, SQLite storage, license, adoption
+- https://docs.claude-mem.ai/architecture/overview - the compression flow and integration surfaces for the claude-mem column
+- https://claude-mem.ai - claude-mem pricing tiers for the pricing row
