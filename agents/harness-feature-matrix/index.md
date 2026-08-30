@@ -51,8 +51,8 @@ Codex is open and subscription-fed; Amp is closed but takes your Anthropic key o
 **The two newest columns redraw that map again:** Kilo Code bundles subagents, schedules, and cloud tasks into an editor-native open agent, which nothing else in this table does, while OpenHands skips AGENTS.md entirely because its `.openhands` customization replaces repo-instruction files.
 **fx, the fourteenth column at the time it joined, redelines the axis itself:** it is the only harness here built to be a dependency instead of an environment, and the only open one whose tokens must cross its sponsor's gateway.
 **jcode bets the constraint is hardware, not intelligence:** it is the only entry whose measured RAM floor, native memory graph, and same-repo swarm all assume you will run dozens of agents at once, and the only one that rebuilds its own binary on request.
-**DeepSeek Harness, the sixteenth column, is the everything-is-a-plugin bet:** fully open with subagents, skills, and ACP editor support already filled in, and question marks on MCP and AGENTS.md that an alpha project earns.
-**Pi, the seventeenth column, is the deliberate-omission bet:** the only entry with no MCP by design and no built-in subagents, paired with the widest subscription reuse in the table and local models through llama.cpp.
+**DeepSeek Harness is the everything-is-a-plugin bet:** fully open with subagents, skills, and ACP editor support already filled in, and question marks on MCP and AGENTS.md that an alpha project earns.
+**Pi is the deliberate-omission bet:** the only entry with no MCP by design and no built-in subagents, paired with the widest subscription reuse in the table and local models through llama.cpp.
 
 ## Choosing from the matrix
 

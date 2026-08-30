@@ -537,3 +537,11 @@ Changes to this section that do not appear here were made by a human and must be
 
 - Owner request in chat: added to the Comparison matrices rules in AGENTS.md that column entries are sorted alphabetically by member title, case-insensitive, with no privileged position for founders, roots, or baseline conventions, re-sorted in the same run as any membership change, and that an unsorted matrix is a defect fixed in the commit that surfaced it [owner, glm-5.3-flash]
 - Compliance scan of the sixteen matrices: eight currently deviate from the new rule and will be re-sorted by the next daily run: assistant-runtimes (OpenClaw root first), evaluation-review, memory (Files baseline first), people-and-publications, retrieval, sandboxing (kind-ordered), software-factory (SSSF founding member first), spec-driven-development [glm-5.3-flash]
+
+## 2026-08-30 (matrices re-sorted per the new alphabetical rule)
+
+- Applied the same-day owner rule to the eight non-compliant matrices, reordering every row's cells to match the sorted headers, ordering only, no cell contents or verification dates changed [glm-5.3-flash]
+- Re-sorted: assistant-runtimes (Eigent through ZeroClaw, dropping the root-first convention), evaluation-review (deepeval, OpenCodeReview, Phoenix, Plannotator, Workshop), memory (claude-mem, Cognee, Files, Letta, Mem0, Zep, dropping the Files-first baseline), people-and-publications (AI Jason through The Pragmatic Engineer, matching the index order), retrieval (LangChain first), sandboxing (Agent Sandbox, aigate, ArtifactFS, Flue, OpenShell, dropping kind-order), software-factory (Fluent first, dropping the founding-member-first convention), spec-driven-development (GitHub Spec Kit after BMad) [glm-5.3-flash]
+- retrieval, spec-driven-development, and people-and-publications gained the llm=glm-5.3-flash tag for this edit; updated bumped to 2026-08-30 on all eight [glm-5.3-flash]
+- harness-feature-matrix: corrected two column-ordinal references in prose (DeepSeek Harness is column seven, Pi column sixteen, the sentences said sixteenth and seventeenth) [glm-5.3-flash]
+- Verification: all sixteen matrices now sort case-insensitively by header title with no ragged rows [glm-5.3-flash]
