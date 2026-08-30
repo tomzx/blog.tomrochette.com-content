@@ -532,3 +532,8 @@ Changes to this section that do not appear here were made by a human and must be
 - sandboxing-feature-matrix: created, five columns with the kind row separating boundaries from plumbing [glm-5.3-flash]
 - assistant-runtimes-feature-matrix: Nanobot, OpenWork, Eigent, and QwenPaw columns added, matrix at nine columns, desktop-split prose added, one write failure mid-edit repaired [glm-5.3-flash]
 - _index.md: two category sections added, fourteen notes listed, three matrix one-liners updated [glm-5.3-flash]
+
+## 2026-08-30 (owner edit: matrices must sort entries alphabetically)
+
+- Owner request in chat: added to the Comparison matrices rules in AGENTS.md that column entries are sorted alphabetically by member title, case-insensitive, with no privileged position for founders, roots, or baseline conventions, re-sorted in the same run as any membership change, and that an unsorted matrix is a defect fixed in the commit that surfaced it [owner, glm-5.3-flash]
+- Compliance scan of the sixteen matrices: eight currently deviate from the new rule and will be re-sorted by the next daily run: assistant-runtimes (OpenClaw root first), evaluation-review, memory (Files baseline first), people-and-publications, retrieval, sandboxing (kind-ordered), software-factory (SSSF founding member first), spec-driven-development [glm-5.3-flash]
