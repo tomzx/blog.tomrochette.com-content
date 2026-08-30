@@ -32,7 +32,7 @@ Latest release v0.51.17 on 2026-08-28, with roughly 29 PyPI releases in seven we
 
 - The hidden-grading design is structurally sound: separating verification from the worker contract rules out the most obvious reward hacking.
 - The mechanical-first gate means a large share of acceptance needs no LLM opinion at all.
-- Unusual breadth of runtime integrations with per-host install shapes and live model discovery.
+- Unusual breadth of runtime integrations with per-host install modes and live model discovery.
 - Real engineering artifacts: event sourcing with full replay, lineage records, and a roadmap that labels every claim verified, planned, or conditional.
 
 ## Cautions

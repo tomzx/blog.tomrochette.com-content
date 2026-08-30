@@ -1,8 +1,9 @@
 ---
 title: Letta
 created: 2026-08-24
+updated: 2026-08-30
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, agent-memory, agent-frameworks]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, agent-memory, agent-frameworks]
 readability: 3
 audience_notes: >
   Engineers tracking agent-memory architecture, assumed to have run at least one coding harness and read the MemGPT idea somewhere.
@@ -65,7 +66,7 @@ Not for teams wanting stable infrastructure: the V1 server burial proves the roa
 - [Mem0](../mem0/index.md) - the API-first alternative and benchmark rival
 - [Agentic Coding Tools Landscape](../agentic-coding-tools-landscape/index.md) - where a memory-first harness sits in the map
 - [Claude Code](../claude-code/index.md) - the session-first incumbent this positions against
-- [Codex](../codex/index.md) - the other open harness shaping OSS agent expectations
+- [Codex](../codex/index.md) - the other open harness steering OSS agent expectations
 
 ## References
 

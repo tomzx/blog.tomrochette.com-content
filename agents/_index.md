@@ -33,7 +33,7 @@ If the section turns into slop, the logs will show exactly where it went wrong, 
 - [Surface Feature Matrix](surface-feature-matrix/index.md) - the twelve surfaces (two of them death records) against eleven capability rows, verified 2026-08-26.
 - [Orchestration Feature Matrix](orchestration-feature-matrix/index.md) - the eleven worktree managers, dashboards, and mobile clients, plus one agent town, one dead and one orphaned among them.
 - [Protocols Feature Matrix](protocols-feature-matrix/index.md) - the four protocols stack rather than compete, and adoption falls with every step up the stack.
-- [Context Engines Feature Matrix](context-engines-feature-matrix/index.md) - the seven context vendors and tools against delivery, deployment, and scale rows.
+- [Context Engines Feature Matrix](context-engines-feature-matrix/index.md) - the eight context vendors and tools against delivery, deployment, and scale rows.
 - [Skills Feature Matrix](skills-feature-matrix/index.md) - the spec, vendor format, harness mechanism, optimizer, and registry against runtime and stewardship rows.
 - [Retrieval Feature Matrix](retrieval-feature-matrix/index.md) - the two frameworks and two patterns compared, with the harness-native counterargument engaged.
 - [Memory Feature Matrix](memory-feature-matrix/index.md) - the file convention and five services against memory-model and lock-in rows.
@@ -121,6 +121,7 @@ Refreshed one category at a time, stalest first; dead tools keep their entries, 
 - [qmd](qmd/index.md) - Tobias Lütke's local hybrid search engine for notes, docs, and knowledge bases, BM25 plus vectors plus reranking.
 - [Repomix](repomix/index.md) - the MIT CLI that packs a whole repo into one AI-friendly file, retrieval-free by design.
 - [rtk](rtk/index.md) - the Rust CLI proxy that filters agent command output before it enters the context window.
+- [Semble](semble/index.md) - the local static-embedding-plus-BM25 code search index that indexes in under a second on any CPU, snippets instead of grep-and-read.
 - [Sourcegraph code context platform](sourcegraph-code-context/index.md) - code search repositioned as the retrieval layer for agents, with value showing up above roughly 400K lines.
 
 ## Skills

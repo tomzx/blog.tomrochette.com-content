@@ -51,7 +51,7 @@ The hosted Hub (managed triggers and team access) is the intended commercial lay
 ## Compared to
 
 - [Conductor](../conductor/index.md): polished, closed, macOS-only with cloud workspaces and commercial tiers; choose Conductor for hosted polish, Paseo for open source, Windows and Linux, and phones.
-- [Vibe Kanban](../vibe-kanban/index.md): board-shaped fan-out for batch delegation, community-maintained since its vendor shut down; choose it for board thinking, Paseo for interactive conversation-steered sessions from anywhere.
+- [Vibe Kanban](../vibe-kanban/index.md): kanban-board fan-out for batch delegation, community-maintained since its vendor shut down; choose it for board thinking, Paseo for interactive conversation-steered sessions from anywhere.
 - [Emdash](../emdash/index.md): a desktop-first parallel workbench from a YC team; choose Emdash for a VC-backed desktop IDE feel, Paseo when the phone and multi-machine daemons are the point.
 
 ## Bottom line
@@ -63,7 +63,7 @@ Not for teams needing a vendor's support contract, or Mac-only shops happy payin
 
 - [Orchestration Feature Matrix](../orchestration-feature-matrix/index.md) - the category comparison this note joins
 - [Conductor](../conductor/index.md) - the commercial macOS counterpart
-- [Vibe Kanban](../vibe-kanban/index.md) - the board-shaped alternative
+- [Vibe Kanban](../vibe-kanban/index.md) - the kanban-board alternative
 - [Managing Many Concurrent LLM Agent Sessions](../../managing-many-llm-agent-sessions/index.md) - the supervision problem the category answers
 
 ## References

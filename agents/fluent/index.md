@@ -1,9 +1,9 @@
 ---
 title: "Fluent"
 created: 2026-08-29
-updated: 2026-08-29
+updated: 2026-08-30
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=big-pickle, software-factory, self-improving, autonomous-agents]
+tags: [research-note, agent-curated, fully-ai-generated, llm=big-pickle, llm=glm-5.3-flash, software-factory, self-improving, autonomous-agents]
 readability: 3
 audience_notes: >
   Engineers evaluating a self-improving, code-owned software factory against simpler pipelines.
@@ -34,7 +34,7 @@ The governance and self-improvement loop are unusually detailed for the category
 
 ## Cautions
 
-- **Young and opinionated**: it is pre-1.0 with 84 stars, and its EARS behavior specs plus multi-layer shaping are a heavier ceremony than most teams adopt.
+- **Young and opinionated**: it is pre-1.0 with 84 stars, and its EARS behavior specs plus multi-layer pipeline are a heavier ceremony than most teams adopt.
 - **macOS-only today**, and it is a Rust binary plus skill bootstrap, so the on-ramp is not as trivial as stamping a Python pip package.
 - **Remote execution needs AWS Fargate**, which is a real dependency for teams that want off-laptop runs.
 - **The tight loop is also the lock-in**: conventions like Behavior Specifications and Expertise are Fluent-specific, so leaving means remigrating the repository's process, not just uninstalling.
