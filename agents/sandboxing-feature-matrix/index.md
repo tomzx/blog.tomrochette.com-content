@@ -21,18 +21,18 @@ Each column links to the full research note; every cell below traces to a source
 
 ## The matrix
 
-|  Feature  |  [Agent Sandbox](../agent-sandbox/index.md)  |  [aigate](../aigate/index.md)  |  [ArtifactFS](../artifact-fs/index.md)  |  [Flue](../flue/index.md)  |  [OpenShell](../openshell/index.md)  |
-|  ---  |  ---  |  ---  |  ---  |  ---  |  ---  |
-|  Kind  |  K8s sandbox orchestrator  |  kernel-enforced CLI wrapper  |  workspace provisioning driver  |  framework with sandbox tiers  |  sandboxed agent runtime  |
-|  Isolation boundary  |  ~ delegates to gVisor or Kata via RuntimeClass  |  ✓ ACLs plus namespaces plus Seatbelt  |  ✗ not an isolation boundary  |  ✗ adapters to external sandboxes  |  ✓ container or MicroVM, Landlock, seccomp, L7 proxy  |
-|  Backing  |  Google Cloud via Kubernetes SIG Apps, Apache-2.0  |  anonymous two-person org, MIT  |  Cloudflare, Apache-2.0  |  Astro/Cloudflare team, Apache-2.0  |  NVIDIA, Apache-2.0  |
-|  Platform  |  any Kubernetes cluster  |  Linux first, macOS partial  |  macOS (macFUSE), Linux (fuse3)  |  any Node 22+ host, deploys anywhere  |  Linux, macOS, WSL2 experimental  |
-|  Agent integration  |  none specific, bring your own  |  tool-agnostic wrapper  |  any sandbox that mounts FUSE  |  hooks, useSandbox API  |  4 first-class, BYOC  |
-|  Policy model  |  K8s RBAC plus RuntimeClass  |  per-project YAML deny rules  |  ✗ n/a, provisioning only  |  tier choice plus env allowlist  |  declarative YAML, auditable  |
-|  Credential handling  |  your K8s secrets  |  egress allowlist, stdout masking  |  ✗ n/a  |  env allowlist per tier  |  ✓ keys stay at inference proxy  |
-|  Maturity  |  v1.0.0 tag, v1beta1 API, breaking migrations  |  v1.0.0, 14 stars, no audit  |  1.0.0-rc, no releases, beta  |  first stable v2.0 after rewrite  |  alpha, v0.0.x  |
-|  Community signal  |  3.7k stars, Google-backed  |  14 stars, 0 issues, footprint is the signal  |  1.1k stars, 217-point HN launch  |  8.1k stars, single dominant author  |  8.4k stars, ~110 contributors  |
-|  Pricing  |  free, cluster costs  |  free  |  free, Artifacts service metered  |  free, provider costs  |  free  |
+| Feature | [Agent Sandbox](../agent-sandbox/index.md) | [aigate](../aigate/index.md) | [ArtifactFS](../artifact-fs/index.md) | [Flue](../flue/index.md) | [OpenShell](../openshell/index.md) |
+| --- | --- | --- | --- | --- | --- |
+| Kind | K8s sandbox orchestrator | kernel-enforced CLI wrapper | workspace provisioning driver | framework with sandbox tiers | sandboxed agent runtime |
+| Isolation boundary | ~ delegates to gVisor or Kata via RuntimeClass | ✓ ACLs plus namespaces plus Seatbelt | ✗ not an isolation boundary | ✗ adapters to external sandboxes | ✓ container or MicroVM, Landlock, seccomp, L7 proxy |
+| Backing | Google Cloud via Kubernetes SIG Apps, Apache-2.0 | anonymous two-person org, MIT | Cloudflare, Apache-2.0 | Astro/Cloudflare team, Apache-2.0 | NVIDIA, Apache-2.0 |
+| Platform | any Kubernetes cluster | Linux first, macOS partial | macOS (macFUSE), Linux (fuse3) | any Node 22+ host, deploys anywhere | Linux, macOS, WSL2 experimental |
+| Agent integration | none specific, bring your own | tool-agnostic wrapper | any sandbox that mounts FUSE | hooks, useSandbox API | 4 first-class, BYOC |
+| Policy model | K8s RBAC plus RuntimeClass | per-project YAML deny rules | ✗ n/a, provisioning only | tier choice plus env allowlist | declarative YAML, auditable |
+| Credential handling | your K8s secrets | egress allowlist, stdout masking | ✗ n/a | env allowlist per tier | ✓ keys stay at inference proxy |
+| Maturity | v1.0.0 tag, v1beta1 API, breaking migrations | v1.0.0, 14 stars, no audit | 1.0.0-rc, no releases, beta | first stable v2.0 after rewrite | alpha, v0.0.x |
+| Community signal | 3.7k stars, Google-backed | 14 stars, 0 issues, footprint is the signal | 1.1k stars, 217-point HN launch | 8.1k stars, single dominant author | 8.4k stars, ~110 contributors |
+| Pricing | free, cluster costs | free | free, Artifacts service metered | free, provider costs | free |
 
 ## Reading the matrix
 

@@ -20,18 +20,18 @@ Each column links to the full research note; every cell below traces to a source
 
 ## The matrix
 
-|  Feature  |  [claude-mem](../claude-mem/index.md)  |  [Cognee](../cognee/index.md)  |  [Files](../file-based-agent-memory/index.md)  |  [Letta](../letta/index.md)  |  [Mem0](../mem0/index.md)  |  [Zep](../zep/index.md)  |
-|  ---  |  ---  |  ---  |  ---  |  ---  |  ---  |  ---  |
-|  Kind  |  local plugin, engine plus cloud  |  OSS platform, library plus cloud  |  convention, no vendor  |  platform, harness plus cloud  |  hosted service, self-hostable  |  hosted service, enterprise  |
-|  Memory model  |  compressed observations, SQLite FTS5 plus optional vectors  |  graph plus vector plus relational  |  plain markdown files  |  editable memory blocks, learned  |  vector plus graph plus KV  |  temporal knowledge graph  |
-|  Self-host  |  ✓ fully local by default  |  ✓ full engine, BYO backends  |  ✓ no infra needed  |  ~ V1 server archived  |  ✓ OSS SDK and server  |  ~ Graphiti engine only  |
-|  Open source license  |  ✓ Apache-2.0  |  ✓ Apache-2.0, whole engine  |  ~ memU Apache-2.0  |  ✓ Apache-2.0  |  ✓ Apache-2.0  |  ~ Graphiti Apache-2.0  |
-|  Contradiction and decay handling  |  ~ summaries and compaction  |  ?  |  ✗ manual pruning  |  ~ sleep-time consolidation  |  ~ Dream, temporal retrieval  |  ✓ bi-temporal invalidation  |
-|  Cross-user, cross-app memory  |  ✗ machine-local, cloud sync optional  |  ✓ documented multi-user mode  |  ✗ machine-local, per-repo  |  ~ agent-scoped persistence  |  ✓ apps and thousands of users  |  ✓ millions of per-user graphs  |
-|  Integration surface  |  hooks, MCP, skills, 8+ agents  |  Python/TS/Rust SDKs, MCP, HTTP, CLI  |  file conventions, native everywhere  |  SDK, CLI, cloud API  |  API, MCP, CLI, skills  |  API, MCP, plugins  |
-|  Audit trail  |  ~ queryable observation store  |  ?  |  ~ git diffs only  |  ~ inspectable blocks  |  ?  |  ✓ fact-to-episode provenance  |
-|  Pricing model  |  free local, $20/mo cloud, $333/seat team  |  OSS free, cloud $2.50 per 1M tokens plus $5 per workspace  |  free  |  free BYOK, $20/mo, per-agent metering  |  freemium, $19 to $249/mo  |  credits, $104/mo entry  |
-|  Lock-in risk  |  low-medium, SQLite local, cloud optional  |  low, engine is portable  |  none, plain text  |  medium, pivot churn  |  medium, paid-only brain  |  high, managed engine core  |
+| Feature | [claude-mem](../claude-mem/index.md) | [Cognee](../cognee/index.md) | [Files](../file-based-agent-memory/index.md) | [Letta](../letta/index.md) | [Mem0](../mem0/index.md) | [Zep](../zep/index.md) |
+| --- | --- | --- | --- | --- | --- | --- |
+| Kind | local plugin, engine plus cloud | OSS platform, library plus cloud | convention, no vendor | platform, harness plus cloud | hosted service, self-hostable | hosted service, enterprise |
+| Memory model | compressed observations, SQLite FTS5 plus optional vectors | graph plus vector plus relational | plain markdown files | editable memory blocks, learned | vector plus graph plus KV | temporal knowledge graph |
+| Self-host | ✓ fully local by default | ✓ full engine, BYO backends | ✓ no infra needed | ~ V1 server archived | ✓ OSS SDK and server | ~ Graphiti engine only |
+| Open source license | ✓ Apache-2.0 | ✓ Apache-2.0, whole engine | ~ memU Apache-2.0 | ✓ Apache-2.0 | ✓ Apache-2.0 | ~ Graphiti Apache-2.0 |
+| Contradiction and decay handling | ~ summaries and compaction | ? | ✗ manual pruning | ~ sleep-time consolidation | ~ Dream, temporal retrieval | ✓ bi-temporal invalidation |
+| Cross-user, cross-app memory | ✗ machine-local, cloud sync optional | ✓ documented multi-user mode | ✗ machine-local, per-repo | ~ agent-scoped persistence | ✓ apps and thousands of users | ✓ millions of per-user graphs |
+| Integration surface | hooks, MCP, skills, 8+ agents | Python/TS/Rust SDKs, MCP, HTTP, CLI | file conventions, native everywhere | SDK, CLI, cloud API | API, MCP, CLI, skills | API, MCP, plugins |
+| Audit trail | ~ queryable observation store | ? | ~ git diffs only | ~ inspectable blocks | ? | ✓ fact-to-episode provenance |
+| Pricing model | free local, $20/mo cloud, $333/seat team | OSS free, cloud $2.50 per 1M tokens plus $5 per workspace | free | free BYOK, $20/mo, per-agent metering | freemium, $19 to $249/mo | credits, $104/mo entry |
+| Lock-in risk | low-medium, SQLite local, cloud optional | low, engine is portable | none, plain text | medium, pivot churn | medium, paid-only brain | high, managed engine core |
 
 ## Reading the matrix
 

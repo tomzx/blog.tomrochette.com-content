@@ -3,7 +3,7 @@ title: "Spec Driven Development Feature Matrix"
 created: 2026-08-27
 updated: 2026-08-30
 status: finished
-tags: [agent-curated, fully-ai-generated, llm=glm-5.3, comparison, spec-driven-development, process, llm=glm-5.3-flash]]
+tags: [agent-curated, fully-ai-generated, llm=glm-5.3, comparison, spec-driven-development, process, llm=glm-5.3-flash]
 readability: 3
 audience_notes: >
   Engineers comparing spec-driven tooling before adopting one.
@@ -20,19 +20,19 @@ Each column links to the full research note; every cell below traces to a source
 
 ## The matrix
 
-|  Feature  |  [BMad Method](../bmad-method/index.md)  |  [GitHub Spec Kit](../spec-kit/index.md)  |  [OpenSpec](../openspec/index.md)  |  [Tessl](../tessl/index.md)  |
-|  ---  |  ---  |  ---  |  ---  |  ---  |
-|  Kind  |  method plus agent workflows, npm install  |  Python CLI plus slash-command templates  |  spec toolkit CLI, npm install  |  hosted platform, thin CLI  |
-|  Steward  |  BMad Code, LLC  |  GitHub  |  Fission AI  |  Tessl (Podjarny), $125M raised  |
-|  License  |  ✓ MIT  |  ✓ MIT  |  ✓ MIT  |  ✗ closed platform  |
-|  Artifact model  |  briefs, specs, architecture carried forward  |  constitution, spec, plan, tasks files  |  delta proposals archived into a living ledger  |  specs live on the platform  |
-|  Workflow entry  |  `bmad-build` with right-sized depth  |  `/speckit-constitution` then specify  |  `/opsx:propose` then apply and archive  |  web workflow  |
-|  Ceremony sizing  |  ✓ right-sizes to the change  |  ✗ fixed ceremony  |  ~ fixed but light  |  ? not verified  |
-|  Brownfield support  |  ✓ establish-context path  |  ~ not the primary case  |  ✓ explicit design goal  |  ? not verified  |
-|  Convergence checking  |  ✓ verify and learn loop  |  ✓ converge step  |  ~ archive keeps ledger current  |  ? not verified  |
-|  Unattended execution  |  ✓ BMad Loop module  |  ✗  |  ✗  |  ? not verified  |
-|  Adoption  |  52,371 stars  |  131,489 stars  |  66,398 stars, 1.6M npm downloads a month  |  24-point raise thread, thin OSS surface  |
-|  Pricing  |  free  |  free  |  free  |  subscription, tiers unverified  |
+| Feature | [BMad Method](../bmad-method/index.md) | [GitHub Spec Kit](../spec-kit/index.md) | [OpenSpec](../openspec/index.md) | [Tessl](../tessl/index.md) |
+| --- | --- | --- | --- | --- |
+| Kind | method plus agent workflows, npm install | Python CLI plus slash-command templates | spec toolkit CLI, npm install | hosted platform, thin CLI |
+| Steward | BMad Code, LLC | GitHub | Fission AI | Tessl (Podjarny), $125M raised |
+| License | ✓ MIT | ✓ MIT | ✓ MIT | ✗ closed platform |
+| Artifact model | briefs, specs, architecture carried forward | constitution, spec, plan, tasks files | delta proposals archived into a living ledger | specs live on the platform |
+| Workflow entry | `bmad-build` with right-sized depth | `/speckit-constitution` then specify | `/opsx:propose` then apply and archive | web workflow |
+| Ceremony sizing | ✓ right-sizes to the change | ✗ fixed ceremony | ~ fixed but light | ? not verified |
+| Brownfield support | ✓ establish-context path | ~ not the primary case | ✓ explicit design goal | ? not verified |
+| Convergence checking | ✓ verify and learn loop | ✓ converge step | ~ archive keeps ledger current | ? not verified |
+| Unattended execution | ✓ BMad Loop module | ✗ | ✗ | ? not verified |
+| Adoption | 52,371 stars | 131,489 stars | 66,398 stars, 1.6M npm downloads a month | 24-point raise thread, thin OSS surface |
+| Pricing | free | free | free | subscription, tiers unverified |
 
 ## Reading the matrix
 

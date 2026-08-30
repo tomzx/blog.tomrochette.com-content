@@ -3,7 +3,7 @@ title: "Retrieval Feature Matrix"
 created: 2026-08-24
 updated: 2026-08-30
 status: finished
-tags: [agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, comparison, retrieval, rag, code-retrieval, llm=glm-5.3-flash]]
+tags: [agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, comparison, retrieval, rag, code-retrieval, llm=glm-5.3-flash]
 readability: 3
 audience_notes: >
   Engineers choosing between retrieval frameworks, shipped semantic search, and chunking strategies for agentic coding.
@@ -20,18 +20,18 @@ Each column links to the full note; every cell traces to a source cited there or
 
 ## The matrix
 
-|  Feature  |  [LangChain](../langchain/index.md)  |  [LlamaIndex](../llamaindex/index.md)  |  [Semantic code search](../semantic-code-search/index.md)  |  [Tree-sitter chunking](../tree-sitter-chunking/index.md)  |
-|  ---  |  ---  |  ---  |  ---  |  ---  |
-|  Kind  |  agent framework  |  retrieval framework  |  shipped capability  |  parsing technique  |
-|  Open source license  |  ✓ MIT  |  ✓ MIT  |  ~ tool-dependent  |  ✓ MIT parsers  |
-|  Primary language  |  Python  |  Python  |  ~ varies by tool  |  C11 core  |
-|  Code-specific focus  |  ~ generic text RAG  |  ~ general data, code capable  |  ✓ code only  |  ✓ code only  |
-|  AST-aware code splitting  |  ✗ separators only  |  ✓ CodeSplitter  |  ? chunkers undisclosed  |  ✓ the technique  |
-|  Hosted or commercial arm  |  ✓ LangSmith SaaS  |  ✓ LlamaParse SaaS  |  ~ plan-gated indexes  |  ~ Chonkie sells one  |
-|  Positioning drift in the notes  |  ~ climb to agent platform  |  ~ pivot to document OCR  |  ~ demoted to optional  |  ~ outsourced to Chonkie  |
-|  Maintenance status  |  ✓ active, 144.9k stars  |  ✓ active, 51.8k stars  |  ~ active but demoted  |  ✓ mature, pervasive  |
-|  Displacement signal in the notes  |  ~ retrieval commoditized  |  ~ agentic search eats indexed RAG  |  ✓ pioneers shipped grep loops  |  ~ ranked below truncation  |
-|  What it replaces in a coding-agent stack  |  hand-rolled agent loops  |  hand-rolled retrievers  |  grep-only lookups  |  line-count chunking  |
+| Feature | [LangChain](../langchain/index.md) | [LlamaIndex](../llamaindex/index.md) | [Semantic code search](../semantic-code-search/index.md) | [Tree-sitter chunking](../tree-sitter-chunking/index.md) |
+| --- | --- | --- | --- | --- |
+| Kind | agent framework | retrieval framework | shipped capability | parsing technique |
+| Open source license | ✓ MIT | ✓ MIT | ~ tool-dependent | ✓ MIT parsers |
+| Primary language | Python | Python | ~ varies by tool | C11 core |
+| Code-specific focus | ~ generic text RAG | ~ general data, code capable | ✓ code only | ✓ code only |
+| AST-aware code splitting | ✗ separators only | ✓ CodeSplitter | ? chunkers undisclosed | ✓ the technique |
+| Hosted or commercial arm | ✓ LangSmith SaaS | ✓ LlamaParse SaaS | ~ plan-gated indexes | ~ Chonkie sells one |
+| Positioning drift in the notes | ~ climb to agent platform | ~ pivot to document OCR | ~ demoted to optional | ~ outsourced to Chonkie |
+| Maintenance status | ✓ active, 144.9k stars | ✓ active, 51.8k stars | ~ active but demoted | ✓ mature, pervasive |
+| Displacement signal in the notes | ~ retrieval commoditized | ~ agentic search eats indexed RAG | ✓ pioneers shipped grep loops | ~ ranked below truncation |
+| What it replaces in a coding-agent stack | hand-rolled agent loops | hand-rolled retrievers | grep-only lookups | line-count chunking |
 
 ## Reading the matrix
 

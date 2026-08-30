@@ -20,18 +20,18 @@ Each column links to the full research note; every cell below traces to a source
 
 ## The matrix
 
-|  Feature  |  [deepeval](../deepeval/index.md)  |  [OpenCodeReview](../open-code-review/index.md)  |  [Phoenix](../phoenix/index.md)  |  [Plannotator](../plannotator/index.md)  |  [Workshop](../workshop/index.md)  |
-|  ---  |  ---  |  ---  |  ---  |  ---  |  ---  |
-|  Kind  |  pytest-style eval framework  |  hybrid machine code reviewer  |  observability and eval platform  |  visual plan and diff review UI  |  local agent debugger plus eval loop  |
-|  Object judged  |  LLM app outputs (agents, RAG, chat)  |  git diffs and pull requests  |  traces, spans, experiment outputs  |  agent plans and diffs  |  agent traces and code behavior  |
-|  Judge  |  ~50 LLM-judge metrics plus deterministic checks  |  deterministic rules plus LLM agent, precision-first  |  LLM evals, code evaluators, human annotations  |  human annotation  |  your coding agent writes and runs evals  |
-|  Deployment  |  Python/TS SDK, CLI  |  CLI, CI, agent plugins, MCP  |  self-hosted server or Arize AX cloud  |  local browser app plus hooks  |  local daemon plus web UI  |
-|  CI gating  |  ✓ non-zero exit on failure  |  ✓ GitHub Action and GitLab CI  |  ~ experiments, not gate-native  |  ✗ pre-merge local loop  |  ✗ named gap in its own thread  |
-|  Harness integration  |  tracing integrations  |  plugins for 4 agents, delegation mode  |  OTel auto-instrumentation, MCP server  |  hooks in 9 harnesses  |  skills and MCP for 5+ agents  |
-|  Team layer  |  Confident AI platform  |  ✗ self-hosted  |  Arize AX cloud  |  encrypted links (caveat), Workspaces beta  |  Raindrop Cloud optional  |
-|  License  |  ✓ Apache-2.0  |  ✓ Apache-2.0  |  ~ ELv2 core, Apache clients  |  ✓ Apache-2.0 or MIT  |  ✓ MIT  |
-|  Maturity  |  mature, 3 years, v4.2  |  young, 100 releases in 3 months  |  mature, 4 years, v20.4  |  pre-1.0, fast churn  |  pre-1.0, 4 months  |
-|  Pricing anchor  |  free, platform $200-2,000/mo  |  free, your tokens  |  free, AX $50/mo entry  |  free, Workspaces unpriced  |  free, Cloud $299/mo  |
+| Feature | [deepeval](../deepeval/index.md) | [OpenCodeReview](../open-code-review/index.md) | [Phoenix](../phoenix/index.md) | [Plannotator](../plannotator/index.md) | [Workshop](../workshop/index.md) |
+| --- | --- | --- | --- | --- | --- |
+| Kind | pytest-style eval framework | hybrid machine code reviewer | observability and eval platform | visual plan and diff review UI | local agent debugger plus eval loop |
+| Object judged | LLM app outputs (agents, RAG, chat) | git diffs and pull requests | traces, spans, experiment outputs | agent plans and diffs | agent traces and code behavior |
+| Judge | ~50 LLM-judge metrics plus deterministic checks | deterministic rules plus LLM agent, precision-first | LLM evals, code evaluators, human annotations | human annotation | your coding agent writes and runs evals |
+| Deployment | Python/TS SDK, CLI | CLI, CI, agent plugins, MCP | self-hosted server or Arize AX cloud | local browser app plus hooks | local daemon plus web UI |
+| CI gating | ✓ non-zero exit on failure | ✓ GitHub Action and GitLab CI | ~ experiments, not gate-native | ✗ pre-merge local loop | ✗ named gap in its own thread |
+| Harness integration | tracing integrations | plugins for 4 agents, delegation mode | OTel auto-instrumentation, MCP server | hooks in 9 harnesses | skills and MCP for 5+ agents |
+| Team layer | Confident AI platform | ✗ self-hosted | Arize AX cloud | encrypted links (caveat), Workspaces beta | Raindrop Cloud optional |
+| License | ✓ Apache-2.0 | ✓ Apache-2.0 | ~ ELv2 core, Apache clients | ✓ Apache-2.0 or MIT | ✓ MIT |
+| Maturity | mature, 3 years, v4.2 | young, 100 releases in 3 months | mature, 4 years, v20.4 | pre-1.0, fast churn | pre-1.0, 4 months |
+| Pricing anchor | free, platform $200-2,000/mo | free, your tokens | free, AX $50/mo entry | free, Workspaces unpriced | free, Cloud $299/mo |
 
 ## Reading the matrix
 

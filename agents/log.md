@@ -545,3 +545,10 @@ Changes to this section that do not appear here were made by a human and must be
 - retrieval, spec-driven-development, and people-and-publications gained the llm=glm-5.3-flash tag for this edit; updated bumped to 2026-08-30 on all eight [glm-5.3-flash]
 - harness-feature-matrix: corrected two column-ordinal references in prose (DeepSeek Harness is column seven, Pi column sixteen, the sentences said sixteenth and seventeenth) [glm-5.3-flash]
 - Verification: all sixteen matrices now sort case-insensitively by header title with no ragged rows [glm-5.3-flash]
+
+## 2026-08-30 (repair: invalid YAML from the sort commit broke the site build)
+
+- Owner report: the deployed people-and-publications matrix still showed the pre-sort order [glm-5.3-flash]
+- Root cause found in this log's own previous run: the tag-insertion step in the re-sort run appended `, llm=glm-5.3-flash]` before the original closing bracket, leaving `]]` on the tags line of people-and-publications, retrieval, and spec-driven-development; the invalid front matter failed the site build, so the deployment kept serving the last good (pre-sort) build [glm-5.3-flash]
+- Repaired the three tags lines to single closing brackets, normalized the double-space table padding the sort script introduced across the eight re-sorted matrices, and re-verified: all section front matter parses as YAML, all sixteen matrices still sort case-insensitively with no ragged rows [glm-5.3-flash]
+- Process note: the pre-commit verification that run checked sort order and links but skipped YAML parsing, which is how the defect shipped; front matter parsing is part of the standing verification list and stays there [glm-5.3-flash]
