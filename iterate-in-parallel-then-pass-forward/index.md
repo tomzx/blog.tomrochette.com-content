@@ -2,7 +2,7 @@
 title: "My Feature Planning Method: Iterate in Parallel, Then Pass Forward"
 created: 2026-08-31
 type: post
-status: draft
+status: finished
 tags: [ai, software-engineering, sdlc, planning, workflow, llm, ai-agents, partially-ai-generated, llm=glm-5.3-flash]
 readability: 3
 audience_notes: >
