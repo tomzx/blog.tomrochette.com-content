@@ -29,12 +29,12 @@ If the section turns into slop, the logs will show exactly where it went wrong, 
 
 ## Comparison matrices
 
-- [Harness Feature Matrix](harness-feature-matrix/index.md) - the seventeen harnesses against eleven capability rows, verified 2026-08-30.
+- [Harness Feature Matrix](harness-feature-matrix/index.md) - the twenty-three harnesses against eleven capability rows, verified 2026-08-30.
 - [Surface Feature Matrix](surface-feature-matrix/index.md) - the twelve surfaces (two of them death records) against eleven capability rows, verified 2026-08-30.
-- [Orchestration Feature Matrix](orchestration-feature-matrix/index.md) - the eleven worktree managers, dashboards, and mobile clients, plus one agent town, one dead and one orphaned among them.
-- [Protocols Feature Matrix](protocols-feature-matrix/index.md) - the four protocols stack rather than compete, and adoption falls with every step up the stack.
+- [Orchestration Feature Matrix](orchestration-feature-matrix/index.md) - the twelve worktree managers, dashboards, control planes, and mobile clients, Omnara the newest, plus one agent town, one dead and one orphaned among them.
+- [Protocols Feature Matrix](protocols-feature-matrix/index.md) - the five protocols stack rather than compete, and adoption falls with every step up the stack.
 - [Context Engines Feature Matrix](context-engines-feature-matrix/index.md) - the seven context vendors and tools against delivery, deployment, and scale rows.
-- [Code Review Feature Matrix](code-review-feature-matrix/index.md) - the five AI reviewers divided on where your code runs, with both Kudelski exploit records named, verified 2026-08-30.
+- [Code Review Feature Matrix](code-review-feature-matrix/index.md) - the eight AI reviewers divided on where your code runs, with both Kudelski exploit records named, verified 2026-08-30.
 - [Skills Feature Matrix](skills-feature-matrix/index.md) - the spec, vendor format, harness mechanism, optimizer, and registry against runtime and stewardship rows.
 - [Retrieval Feature Matrix](retrieval-feature-matrix/index.md) - the two frameworks and two patterns compared, with the harness-native counterargument engaged.
 - [Memory Feature Matrix](memory-feature-matrix/index.md) - the file convention and five services against memory-model and lock-in rows.
@@ -62,6 +62,8 @@ All categories refreshed in parallel every run; dead tools keep their entries, m
 
 - [aider](aider/index.md) - the pre-agentic BYOK pair-programmer, cheapest precise-edit tool, development stalled since May 2026.
 - [Amp](amp/index.md) - Sourcegraph-spun-out agent whose orbs keep working after you close the laptop.
+- [Ante](ante/index.md) - Antigma Labs' ~15MB Rust harness with an embedded llama.cpp engine, offline GGUF or 12+ cloud providers, footprint as the product.
+- [Bullet](bullet/index.md) - TryBullet's closed-source YC S26 latency bet, free today, with a published 479-of-500 SWE-bench run.
 - [Claude Code](claude-code/index.md) - Anthropic's everywhere-at-once harness, the platform benchmark and the token-cost cautionary tale.
 - [Cline](cline/index.md) - the open-source agent that outgrew its VS Code extension into CLI, kanban, and SDK, 5.2 million installs deep.
 - [Codex](codex/index.md) - OpenAI's ChatGPT-included agent, the Apache-2.0 big-lab CLI individuals can still just run.
@@ -71,12 +73,16 @@ All categories refreshed in parallel every run; dead tools keep their entries, m
 - [Gemini CLI](gemini-cli/index.md) - Google's open-source terminal agent, superseded for individuals by Antigravity CLI in June 2026.
 - [goose](goose/index.md) - Block's Rust agent turned Linux Foundation project, the field's first foundation-governed harness.
 - [jcode](jcode/index.md) - Solo Systems' Rust harness for parallel agents, RAM floor, native memory and swarm, self-dev included.
+- [Juggler](juggler/index.md) - Julian Storer's AGPL Go GUI agent, conversations as branchable trees with every tool call inspectable.
 - [Junie](junie/index.md) - JetBrains' plan-first agent with BYOK and IDE-grade grounding.
 - [Kilo Code](kilo-code/index.md) - the Cline-and-Roo feature-merge under MIT, subagents through cloud tasks bundled in, Anaconda's since July 2026.
+- [OneCLI](onecli/index.md) - the YC S26 Apache-2.0 team harness where a credential gateway injects secrets per request, so agents never hold them.
 - [OpenCode](opencode/index.md) - the MIT, provider-neutral harness with the leanest measured token baseline.
 - [OpenHands](openhands/index.md) - the renamed OpenDevin platform bet, sandboxed code-shell-browser agents you can self-host.
 - [Pi](pi/index.md) - Earendil's minimal, self-extensible harness, a frozen core plus your TypeScript extensions, no MCP by design.
 - [Qwen Code](qwen-code/index.md) - Alibaba's Gemini CLI fork, the free-tier on-ramp and open-weights showcase.
+- [Warp Agent CLI](warp-agent-cli/index.md) - Warp's terminal agent unbundled into any terminal, model routing, cloud agents, and orchestration behind its credit meter.
+- [Zerostack](zerostack/index.md) - the solo GPL-3.0 Rust agent, 26 MB binary and ~16 MB RAM, subagents, worktrees, hooks, MCP behind compile flags.
 
 ## Surfaces
 
@@ -102,6 +108,7 @@ All categories refreshed in parallel every run; dead tools keep their entries, m
 - [dmux](dmux/index.md) - the MIT tmux TUI where every task pane gets its own worktree and branch.
 - [Emdash](emdash/index.md) - the Apache-2.0 agentic development environment from General Action (YC W26), local or over SSH.
 - [Gas Town](gastown/index.md) - Steve Yegge's tmux town of 20-30 supervised agents with a merge queue, beads as the ledger, and the field's loudest controversies.
+- [Omnara](omnara/index.md) - the YC S25 Apache-2.0 Go control plane where agents are YAML and supervision happens from dashboard, phone, CLI, API, or Slack.
 - [Paseo](paseo/index.md) - the open-source daemon driving coding agents from desktop, web, and native mobile apps, self-hosted and solo-maintained.
 - [Superset](superset/index.md) - the YC-backed, source-available agentic IDE running parallel CLI agents in worktrees on your own subscriptions.
 - [Vibe Kanban](vibe-kanban/index.md) - the Apache-2.0 kanban for parallel agents, orphaned by Bloop's April 2026 shutdown with the community takeover still more promise than activity.
@@ -111,6 +118,7 @@ All categories refreshed in parallel every run; dead tools keep their entries, m
 
 - [A2A](a2a/index.md) - Google's open protocol for independent agents to interoperate, now under the Linux Foundation.
 - [ACP](acp/index.md) - Zed's protocol standardizing how editors talk to coding agents.
+- [Agent Host Protocol](agent-host-protocol/index.md) - Microsoft's sessions-server spec with six-language SDKs, VS Code rebuilding its agent infrastructure on it, spec still at v0.9.0.
 - [AGENTS.md](agents-md/index.md) - the open convention for repo-level agent instruction files.
 - [MCP](mcp/index.md) - the open protocol standardizing how AI applications connect to tools and data.
 
@@ -168,9 +176,12 @@ Where machines judge pull requests: the review bots, the open-source reviewers, 
 
 - [CodeRabbit](coderabbit/index.md) - the commercial anchor, $143M Series C at a $1.5B valuation, free forever on public repos, with a disclosed RCE history in its file.
 - [Ellipsis](ellipsis/index.md) - the 2024 review bot that pivoted to managed agent infrastructure in July 2026, review now one configurable use case.
+- [Graphite Diamond](graphite-diamond/index.md) - the deprecated Diamond reviewer, now Graphite Agent inside Cursor since the December 2025 acquisition.
 - [Greptile](greptile/index.md) - AI code review running a swarm of agents over a graph index of your repositories, learned house rules included.
+- [Kodus](kodus/index.md) - the AGPL-3.0 open-source reviewer with BYOK and zero token markup, self-hosted or on Kodus Cloud.
 - [OpenCodeReview](open-code-review/index.md) - Alibaba's hybrid reviewer where deterministic pipelines pick and rule-check what the LLM agent judges, precision over recall.
 - [Qodo](qodo/index.md) - the open-core reviewer, MIT PR-Agent you can self-host or paid Qodo Merge, both sides covered by Kudelski's exploit research.
+- [Sourcery](sourcery/index.md) - the MIT-lineage static-analysis tool turned proprietary AI reviewer, free for open source and $12 for private repos.
 
 ## Evaluation and review
 
