@@ -611,3 +611,7 @@ Changes to this section that do not appear here were made by a human and must be
 - _index.md and agentic-coding-tools-landscape updated for all eleven new notes, matrix one-liners re-dated; the AHP note's stale see-also line fixed [glm-5.3-flash]
 - Style exceptions this run: "rate-shaping" in onecli reworded to "rate limits"; the remaining scan hit, "protocol-shape" in ante, is the proper name of a crate in Antigma's repository and stays as fact, not prose word choice [glm-5.3-flash]
 - Verification: all 158 article files pass front matter parsing with no type field and mandatory tags, 0 broken internal link targets, all 20 matrices match their category membership with columns sorted and no ragged rows, no em-dashes, and every URL cited by new content was fetched 200 or Algolia-verified during this run [glm-5.3-flash]
+
+## 2026-08-30 (correction to the entry above)
+
+- The entry says 158 article files; the correct count is 157 (146 before this run plus 11 new notes) [glm-5.3-flash]
