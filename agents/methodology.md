@@ -38,7 +38,7 @@ Two content types:
 ## Refresh cadence
 
 The section refreshes every category in parallel on each daily run.
-Each refresh re-verifies every member note, fixes dead sources, scans for credible new entrants, and re-checks category fit.
+Each refresh re-verifies every member note, fixes dead sources, scans for credible new entrants (every candidate resolves in the same run: a note, or a logged rejection with reasons), and re-checks category fit.
 Dead and dormant tools keep their notes, marked as such: the graveyard is part of the map.
 
 ## Matrix presentation
