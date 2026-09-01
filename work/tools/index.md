@@ -11,7 +11,6 @@ Tools I use on a regular basis at work (sorted alphabetically).
 
 * [Apple calendar](https://www.apple.com/macos/calendar/)
 * [Chrome](https://www.google.com/chrome/)
-* [`claude` (Claude Code)]
 * [Cursor](https://www.cursor.com/)
 * [`gh` (GitHub CLI)](https://cli.github.com/)
 * [`ghx`](https://github.com/TomzxCode/ghx)
