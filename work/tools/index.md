@@ -2,7 +2,7 @@
 title: Tools
 created: 2024-08-26
 type: post
-status: draft
+status: in-progress
 tags: [work]
 readability: 1
 ---
