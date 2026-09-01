@@ -18,7 +18,7 @@ Legend:
 
 # Text generation
 * 🔴 [Cerebas](https://inference.cerebras.ai/)
-* 🟢 [Claude](https://claude.ai/)
+* 🟡 [Claude](https://claude.ai/)
 * 🔴 [Cohere](https://coral.cohere.com/)
 * 🔴 [DeepSeek](https://chat.deepseek.com/)
 * 🔴 [DuckDuckGo AI](https://duckduckgo.com/?q=DuckDuckGo+AI+Chat&ia=chat&duckai=1)
@@ -42,7 +42,7 @@ Legend:
 * 🔴 [Bolt](https://bolt.new/)
 * 🔴 [Cerebas Coder](https://cerebrascoder.com/)
 * 🔴 [Claude Code](https://claude.ai/code)
-* 🟢 [Cursor](https://www.cursor.com/)
+* 🔴 [Cursor](https://www.cursor.com/)
 * 🔴 [GitHub Copilot](https://github.com/features/copilot)
 * 🔴 [Tabnine](https://www.tabnine.com/)
 * 🔴 [v0](https://v0.dev/)
@@ -60,13 +60,13 @@ Legend:
 * 🔴 [Vibe-Kanban](https://www.vibekanban.com/)
 
 # Speech to text
-* 🟡 [Handy](https://handy.computer/)
+* 🟢 [Handy](https://handy.computer/)
 * 🔴 [MacWhisper](https://goodsnooze.gumroad.com/l/macwhisper)
 * 🔴 [Superwhisper](https://superwhisper.com/)
 
 # Desktop client
 * 🔴 [BoltAI](https://boltai.com/)
-* 🟡 [Claude Desktop](https://claude.com/download)
+* 🔴 [Claude Desktop](https://claude.com/download)
 
 # Web client
 * 🔴 [LibreChat](https://librechat.ai/)
@@ -76,15 +76,16 @@ Legend:
 * 🔴 Composer-1
 * 🔴 Composer-1.5
 * 🔴 Composer-2
+* 🔴 Xomposer-2.5
 * 🔴 Claude Fable 5
 * 🔴 Claude Opus 4.1
 * 🔴 Claude Opus 4.5
 * 🔴 Claude Opus 4.6
 * 🔴 Claude Opus 4.7
 * 🔴 Claude Opus 4.8
-* 🟢 Claude Opus 5
+* 🔴 Claude Opus 5
 * 🔴 Claude Sonnet 4.5
-* 🟢 Claude Sonnet 5
+* 🔴 Claude Sonnet 5
 * 🔴 DeepSeek r1
 * 🟢 DeepSeek v4 Flash
 * 🔴 Gemini 2.5 Pro
@@ -93,7 +94,9 @@ Legend:
 * 🔴 GLM 4.7
 * 🔴 GLM 5
 * 🔴 GLM 5.1
-* 🟢 GLM 5.2
+* 🔴 GLM 5.2
+* 🟢 GLM 5.3
+* 🟢 GLM 5.3 Flash
 * 🔴 GPT 3.5
 * 🔴 GPT 4
 * 🔴 GPT 4.1
