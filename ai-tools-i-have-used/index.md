@@ -49,7 +49,9 @@ Legend:
 * 🟢 [Zhipu GLM Coding Plan](https://z.ai/subscribe?ic=1VZOHEOBY1)
 
 # Image generation
+* 🟡 [Gemini](https://gemini.google.com/)
 * 🔴 [Leonardo](https://app.leonardo.ai/)
+* 🟡 [OpenAI ChatGPT](https://chat.openai.com/)
 
 # Audio generation
 * 🔴 [Suno](https://suno.com/)
