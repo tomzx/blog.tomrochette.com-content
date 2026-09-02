@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 OpenChamber is a free, MIT-licensed agentic development environment built around the OpenCode SDK: desktop, browser, mobile, and a VS Code extension for steering parallel agent sessions.
-Facts below verified as of 2026-08-30.
+Facts below verified as of 2026-09-02.
 
 **OpenChamber is the open-source answer to "where do I run my many OpenCode sessions", and its differentiator is not polish but the fact that the whole surface, worktrees, chat, terminals, scheduling, is code you can read and fix.**
 
@@ -25,7 +25,7 @@ It runs on the OpenCode SDK today and is an independent project, not affiliated 
 ## Status
 
 **Very active.**
-About 9.4k stars and 1,000 forks as of 2026-08-30, with v1.22.0 (August 30, 2026) the latest release after v1.21.0 and v1.21.1 earlier that week, and commits landing the same day as this verification.
+About 9.5k stars and 1,014 forks as of 2026-09-02, with v1.22.0 (August 30, 2026) the latest release after v1.21.0 and v1.21.1 earlier that week, and commits landing September 1, 2026.
 A 190-point Hacker News thread in August 2026 marks its arrival in general awareness.
 
 ## Strengths
@@ -45,7 +45,7 @@ A 190-point Hacker News thread in August 2026 marks its arrival in general aware
 ## Pricing
 
 Free, open source, MIT.
-Donations via PayPal fund development; there is no paid tier, as of 2026-08-25.
+Donations via PayPal fund development; there is no paid tier, as of 2026-09-02.
 
 ## Compared to
 
@@ -68,7 +68,7 @@ Not for anyone who wants a polished IDE experience or harness choice beyond Open
 ## References
 
 - https://openchamber.dev/ - features, surfaces, privacy model, FAQ
-- https://github.com/openchamber/openchamber - source, repository scale, as of 2026-08-30
+- https://github.com/openchamber/openchamber - source, repository scale, as of 2026-09-02
 - https://github.com/openchamber/openchamber/releases/tag/v1.22.0 - the August 30, 2026 release
 - https://docs.openchamber.dev/ - install and configuration documentation
 - https://news.ycombinator.com/item?id=49233448 - the August 2026 launch discussion

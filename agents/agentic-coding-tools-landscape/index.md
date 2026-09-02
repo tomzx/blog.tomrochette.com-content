@@ -1,7 +1,7 @@
 ---
 title: "Agentic Coding Tools Landscape"
 created: 2026-08-22
-updated: 2026-08-30
+updated: 2026-09-02
 status: finished
 tags: [ai, llm, coding-agents, developer-tools, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 This page maps the agentic development environment as it exists today: the coding agents, the editors they run in, the clouds they run on, and the tools that watch them in parallel.
-Everything here was verified against live sources on 2026-08-30; the surfaces tail deaths on 2026-08-26, the orchestration exception sentence on 2026-08-27; the harness tail additions (Kilo Code, OpenHands) on 2026-08-27, (fx) on 2026-08-29, and the harness tail additions (jcode, Ante, Bullet, Juggler, OneCLI, Warp Agent CLI, Zerostack) plus the orchestration addition (Omnara) on 2026-08-30.
+Everything here was verified against live sources on 2026-09-02; the surfaces tail deaths on 2026-08-26, the orchestration exception sentence on 2026-08-27; the harness tail additions (Kilo Code, OpenHands) on 2026-08-27, (fx) on 2026-08-29, the harness tail additions (jcode, Ante, Bullet, Juggler, OneCLI, Warp Agent CLI, Zerostack) plus the orchestration addition (Omnara) on 2026-08-30, and the Cursor model-access and Windsurf funding updates on 2026-09-02.
 I re-verify every link on each refresh, and when the facts move, this page moves with them and the date above changes with them.
 
 **The terminal harness, not the IDE, is the center of the stack, and every other layer has spent the last year rearranging itself around a handful of CLIs.**
@@ -62,8 +62,10 @@ Claude Code and Codex are at their best inside their own vendor's subscription; 
 
 [Cursor](../cursor/index.md) began as the AI-native editor and now ships a full stack around it: a CLI, cloud agents that work for hours or days, scheduled automations, a Slack integration, and model pickers spanning OpenAI, Anthropic, Google, xAI, and its own Composer models.
 In August 2026 Cursor was [acquired by SpaceX](https://cursor.com/blog/joining-spacex), completing a partnership with SpaceX's AI arm (the SpaceXAI partnership) that started in April, which tells you the leading edge of this market is merging with the compute owners.
+On August 28, 2026 OpenAI notified SpaceX, Cursor's new owner, that it is winding down Cursor's access to OpenAI models, with a shutoff on November 12 ([devops.com](https://devops.com/openai-cuts-off-cursors-model-access-after-spacex-acquisition/)), so the OpenAI column of that model picker now carries an expiry date.
+Cursor's CEO puts OpenAI models at about 5% of user traffic, a claim few observers buy, but either way vendor access is now leverage an acquirer can lose.
 [VS Code + Copilot](../vscode-copilot/index.md) put one agent in two places: agent mode locally in the editor, and the [Copilot cloud agent](https://docs.github.com/en/copilot/concepts/about-copilot-coding-agent) on GitHub.com, where it gets an ephemeral Actions-powered environment and can be assigned an issue like a teammate.
-[Windsurf](../windsurf/index.md) no longer plays the game under its own name: after the aborted OpenAI purchase and the Cognition rescue in July 2025, the editor shipped as Devin Desktop in June 2026, an agent-management IDE that keeps the Windsurf lineage but retires the brand.
+[Windsurf](../windsurf/index.md) no longer plays the game under its own name: after the aborted OpenAI purchase and the Cognition rescue in July 2025, the editor shipped as Devin Desktop in June 2026, an agent-management IDE that keeps the Windsurf lineage but retires the brand, and Cognition is set to raise about $1B at about a $47B valuation as of September 2, 2026 ([Bloomberg](https://www.bloomberg.com/news/articles/2026-09-02/ai-startup-cognition-set-to-raise-around-1-billion-at-a-47-billion-value)), which makes the rescue the category's biggest turnaround bet.
 [JetBrains IDEs](../jetbrains/index.md) ship Junie and, more consequentially, co-created the [Agent Client Protocol](https://agentclientprotocol.com/) with [Zed](../zed/index.md).
 [Antigravity](../antigravity/index.md) is Google's full-surface entry: a 2.0 command center for parallel local agents, an IDE, a CLI, and an SDK, free with weekly rate limits after it absorbed Gemini CLI's individual users in June 2026.
 The tail thickened too: [Kiro](../kiro/index.md) (AWS) bets on spec-first workflows, [Trae](../trae/index.md) (ByteDance) undercuts everyone on price, [OpenChamber](../openchamber/index.md) open-sources the parallel-session cockpit around OpenCode, and [Void](../void/index.md), the open-source Cursor alternative that proved the demand, has stalled.

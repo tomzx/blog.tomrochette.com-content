@@ -12,7 +12,7 @@ audience_notes: >
 ---
 
 Greptile is an AI code review service that indexes your repositories into a graph (files, functions, dependencies) and runs a swarm of review agents over every pull request.
-Facts below verified as of 2026-08-24.
+Facts below verified as of 2026-09-02.
 
 **Greptile's durable asset is not its graph index, which is becoming commodity, but the standards it learns from your team's own review comments, a corpus no competitor can copy overnight.**
 
@@ -28,7 +28,7 @@ Behind it is Tabnam, Inc., a YC W24 company founded in 2023 by three Georgia Tec
 ## Status
 
 **Active, well-funded, and shipping.**
-The homepage claims 22,000+ teams and names Nvidia, Brex, Substack, PostHog, Zapier, and Retool as users (vendor claim as of 2026-08-24).
+The homepage claims 22,000+ teams and names Nvidia, Brex, Substack, PostHog, Zapier, and Retool as users (vendor claim as of 2026-09-02).
 Funding: $4M seed led by Initialized Capital (June 2024), then a $25M Series A led by Benchmark Capital (September 23, 2025) alongside YC and Initialized; the YC directory lists a team of about 35.
 Release cadence is real: v3 rewrite (September 2025), TREX (June 2026), v5 (August 5, 2026), with the Series A post citing 500M+ lines reviewed that September month.
 
@@ -49,7 +49,7 @@ Release cadence is real: v3 rewrite (September 2025), TREX (June 2026), v5 (Augu
 ## Pricing
 
 **Metered credits mean the reviewer's bill scales with your PR velocity, not your headcount, which is either alignment or a tax depending on your merge rate.**
-Starter is free for one active developer with 50 credits per month; Pro is $30 per seat per month including 50 credits per seat, with extra credits at $1 each and TREX reviews costing 3 credits (as of 2026-08-24).
+Starter is free for one active developer with 50 credits per month; Pro is $30 per seat per month including 50 credits per seat, with extra credits at $1 each and TREX reviews costing 3 credits (as of 2026-09-02).
 Free usage for qualified open source projects and discounts for pre-Series A startups are advertised but, per the caution above, community reports dispute how this lands in practice.
 Self-hosted enterprise and bulk API pricing are custom.
 

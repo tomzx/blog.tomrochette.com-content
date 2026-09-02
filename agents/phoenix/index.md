@@ -1,7 +1,7 @@
 ---
 title: Phoenix
 created: 2026-08-30
-updated: 2026-08-30
+updated: 2026-09-02
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, evaluation, observability, opentelemetry, tracing]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Phoenix is Arize AI's open-source AI observability and evaluation platform: OpenTelemetry-native tracing, LLM and code evals, versioned datasets and experiments, a prompt playground, and a built-in AI engineering agent, self-hostable or running on the Arize AX cloud.
-Facts below verified as of 2026-08-30.
+Facts below verified as of 2026-09-02.
 
 **Phoenix is the observability column of this category, and its defining trade is the ELv2 license: everything is inspectable and self-hostable, but you cannot offer Phoenix itself as a service, and Arize keeps the production-grade monitoring surface in the paid platform.**
 
@@ -25,8 +25,8 @@ Core platform under Elastic License 2.0 with the client and OTel packages Apache
 
 ## Status
 
-Mature and busy: 11,245 stars, 1,084 forks, 923 open issues and PRs as of 2026-08-30.
-Created 2022-11-09, pushed the day of verification, platform release arize-phoenix 20.4.0 on 2026-08-26, about 2.1 million PyPI downloads a month.
+Mature and busy: 11,289 stars, 1,088 forks, 951 open issues and PRs as of 2026-09-02.
+Created 2022-11-09, pushed the day of verification, platform release arize-phoenix 20.5.0 on 2026-09-01, about 2.1 million PyPI downloads a month as of 2026-08-30.
 **Four years in, it is the oldest and most production-proven column in this category, with near-daily commits and weekly releases.**
 
 ## Strengths
@@ -41,7 +41,7 @@ Created 2022-11-09, pushed the day of verification, platform release arize-phoen
 - Not truly open source: ELv2 bars offering Phoenix as a managed service, and a community issue calls the license overly restrictive for OSS compatibility.
 - Production monitoring (dashboards, alerting, issue grouping) lives in Arize AX, not the OSS project.
 - The Azure quick-deploy template serves plain HTTP and the Google Cloud button builds from source, per the README's own notes.
-- 923 open issues and PRs is a large queue even for a project this size.
+- 951 open issues and PRs is a large queue even for a project this size.
 
 ## Pricing
 

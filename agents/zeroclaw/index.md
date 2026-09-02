@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 ZeroClaw is zeroclaw-labs' personal agent runtime: a single Rust binary (dual MIT/Apache-2.0) that talks to about 20 model providers, reaches the world through 30+ channels, and acts through tools including hardware, all on your own machine.
-Facts below verified as of 2026-08-30.
+Facts below verified as of 2026-09-02.
 
 **ZeroClaw bets the frontier is compile-time: one Rust binary with no runtime sprawl is the ownership answer for people who do not trust a Node process with their messages, and its motto (you own the agent, the data, and the machine) is a requirements list the others treat as marketing.**
 
@@ -24,7 +24,7 @@ An Android port ([ZeroClaw-Android](https://github.com/Natfii/ZeroClaw-Android),
 ## Status
 
 Active and large, but quietly so.
-As of 2026-08-30: 32,680 stars and 4,920 forks since creation on 2026-02-13, pushed the day of verification, 796 open issues, Apache-2.0/MIT dual licensed.
+As of 2026-09-02: 32,711 stars and 4,928 forks since creation on 2026-02-13, pushed the day of verification, 812 open issues, Apache-2.0/MIT dual licensed.
 **Its HN footprint is nearly empty (threads at 2 to 8 points), so the star growth ran through Discord and word of mouth, a missing community discussion record that is itself the signal to verify before relying on it.**
 
 ## Strengths
@@ -38,13 +38,13 @@ As of 2026-08-30: 32,680 stars and 4,920 forks since creation on 2026-02-13, pus
 
 - Thin independent coverage: almost no third-party writing or discussion to check claims against.
 - Hardware tools are a foot-gun by design; the trust question moves from the codebase to the tool grant.
-- 796 open issues against a labs team you cannot size from outside.
+- 812 open issues against a labs team you cannot size from outside.
 - The security suite ecosystem (clawsec) names OpenClaw, PicoClaw, and NanoClaw but not ZeroClaw, so the audit tooling has not caught up.
 
 ## Pricing
 
 Free and open source under MIT OR Apache-2.0.
-No paid tier as of 2026-08-30.
+No paid tier as of 2026-09-02.
 
 ## Compared to
 
@@ -68,7 +68,7 @@ The disagreeable claim I will defend: an assistant you cannot read is safer as a
 ## References
 
 - https://github.com/zeroclaw-labs/zeroclaw - README: runtime model, providers, channels, tools
-- https://api.github.com/repos/zeroclaw-labs/zeroclaw - stars, forks, issues as of 2026-08-30
+- https://api.github.com/repos/zeroclaw-labs/zeroclaw - stars, forks, issues as of 2026-09-02
 - https://docs.zeroclawlabs.ai/master/en/introduction.html - the documentation book
 - https://github.com/Natfii/ZeroClaw-Android - the Android port (305 stars)
 - https://news.ycombinator.com/item?id=47047192 - the launch-era thread (6 points, the thin-footprint evidence)

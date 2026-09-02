@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Latent Space is the AI engineering publication of record, a Substack newsletter plus a technical podcast hosted by swyx (Shawn Wang) and Alessio Fanelli, and the organizing brand behind the AI Engineer conference series.
-Facts below verified as of 2026-08-30.
+Facts below verified as of 2026-09-02.
 
 **Latent Space did not just cover the AI engineer, it named the role and built the conference around it, which makes it the closest thing this domain has to an institutional center of gravity.**
 
@@ -24,7 +24,7 @@ It is also, critically, the place where the tools profiled in this section get t
 ## Status
 
 Active and expanding.
-As of 2026-08-29 the announcement month ran "The State of Latent Space" for 2026, adding shows, hosts, and more interview formats; the AI Engineer conference network grew to events in New York, San Francisco, Paris, and Europe.
+As of 2026-09-02 the announcement month ran "The State of Latent Space" for 2026, adding shows, hosts, and more interview formats; the AI Engineer conference network grew to events in New York, San Francisco, Paris, and Europe.
 The podcast regularly lands the people behind the harnesses this section tracks, and swyx's own notes continue to set trends (memory, filesystems, agent-eats-agent).
 
 ## Strengths

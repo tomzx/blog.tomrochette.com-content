@@ -1,7 +1,7 @@
 ---
 title: "Sandboxing Feature Matrix"
 created: 2026-08-30
-updated: 2026-08-30
+updated: 2026-09-02
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3-flash, comparison, sandboxing, isolation, security]
 readability: 3
@@ -12,7 +12,7 @@ audience_notes: >
 
 This matrix compares the five members of the Sandboxing category: the vendor-backed runtime, the Kubernetes orchestrator, the kernel-enforced wrapper, the framework with sandbox tiers, and the provisioning driver.
 The Kind row is what keeps this category legible: only two columns are isolation boundaries, one is an orchestrator around boundaries, one is a framework that consumes boundaries, and one feeds repositories into all of them.
-Everything below was re-verified against live sources on 2026-08-30.
+Everything below was re-verified against live sources on 2026-09-02.
 
 **Isolation is cheap to claim and expensive to enforce, so the deciding rows are the mechanism and the maturity: a kernel boundary nobody has audited loses to a container boundary a vendor stands behind.**
 

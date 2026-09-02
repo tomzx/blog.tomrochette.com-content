@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Sourcery is a hosted AI code reviewer for GitHub and GitLab (with IDE plugins and a security scanning layer) from the company behind the older Python refactoring tool of the same name.
-Facts below verified as of 2026-08-30.
+Facts below verified as of 2026-09-02.
 
 ## What it is
 
@@ -22,7 +22,7 @@ IDE surfaces cover PyCharm, VS Code, Sublime, and Vim, a wider editor spread tha
 
 ## Status
 
-**Old by category standards (repo since July 2019), active, and mid-size: 1,858 stars as of 2026-08-30, commits as recent as August 28, 2026.**
+**Old by category standards (repo since July 2019), active, and mid-size: 1,858 stars as of 2026-09-02, commits as recent as September 1, 2026.**
 The PyPI package confirms the refactoring origin ("Magically refactor Python", 22 releases, now at 1.45.0).
 Funding: not verifiable from primary sources, and TechCrunch's only "Sourcery" rounds belong to the unrelated 2014/2016 restaurant startup, so I record none.
 The community footprint is modest: a 15-point Show HN for the refactoring era (27760608, July 7, 2021), a 3-point user comparison against Copilot (43944576, May 10, 2025), and a 1-point criticism thread (44224690, June 9, 2025) accusing the reviewer of being wrong and refusing to admit it.
@@ -43,7 +43,7 @@ The community footprint is modest: a 15-point Show HN for the refactoring era (2
 
 ## Pricing
 
-**Freemium per-seat with open source free, as of 2026-08-30.**
+**Freemium per-seat with open source free, as of 2026-09-02.**
 Pro is $12 per seat per month for private repos, Team is $24 (the highlighted tier) adding repo analytics, security scans for 200+ repos, daily scans, 3x rate limits, and BYO LLM, and Enterprise adds self-hosting, priority support, a customer success manager, and invoice billing at custom pricing.
 Open source repos are fully free.
 
@@ -69,9 +69,9 @@ My disagreeable take: free-for-open-source is the most underrated go-to-market w
 
 ## References
 
-- https://github.com/sourcery-ai/sourcery - repo, 1,858 stars, MIT, pushed August 28, 2026 (GitHub API, as of 2026-08-30)
+- https://github.com/sourcery-ai/sourcery - repo, 1,858 stars, MIT, pushed September 1, 2026 (GitHub API, as of 2026-09-02)
 - https://sourcery.ai/ - product page
-- https://sourcery.ai/pricing/ - tiers as of 2026-08-30
+- https://sourcery.ai/pricing/ - tiers as of 2026-09-02
 - https://docs.sourcery.ai/Product/Plans/ - docs covering plans, security scanning, BYO LLM, self-hosting
 - https://pypi.org/pypi/sourcery/json - the Python refactoring package, "Magically refactor Python", 22 releases
 - https://hn.algolia.com/api/v1/items/27760608 - Show HN for the refactoring era, 15 points, July 7, 2021

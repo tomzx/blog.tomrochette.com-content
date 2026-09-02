@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Andrew Ng's The Batch weekly newsletter and DeepLearning.AI courses are the mainstream educator's view of AI and agentic development, the voice that popularized the four agentic design patterns and published the AI Engineering Skills Map.
-Facts below verified as of 2026-08-30.
+Facts below verified as of 2026-09-02.
 
 **He is the single highest-reaching educator in this category: where the others write for practitioners already inside the field, Ng is the on-ramp that also steers what the broader industry thinks agents are.**
 
@@ -23,7 +23,7 @@ His [agentic AI course](https://learn.deeplearning.ai/courses/agentic-ai) and [A
 
 ## Status
 
-Active and highly influential as of 2026-08-30.
+Active and highly influential as of 2026-09-02.
 The Batch publishes weekly through August 2026, with the latest issue on 2026-08-28, and the AI Engineering Skills Map letter is dated 2026-08-14.
 DeepLearning.AI reports courses taught to millions of learners and positions itself as the canonical AI education path.
 

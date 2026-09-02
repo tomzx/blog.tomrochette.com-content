@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 File-based agent memory is the convention of giving agents persistent memory as plain markdown files in the repo or home directory (CLAUDE.md, AGENTS.md, rules files), instead of a memory service.
-Facts below verified as of 2026-08-30.
+Facts below verified as of 2026-09-02.
 
 **For coding agents, markdown files already won: they are free, versioned, and portable, and I think hosted memory layers are overkill for most engineering work at any price.**
 
@@ -22,12 +22,12 @@ Claude Code reads a CLAUDE.md hierarchy (managed, user, project, local) plus pat
 AGENTS.md is the cross-tool standard, adopted by Codex, Cursor, Amp, Jules, Gemini CLI (via config), opencode, Zed, Junie, and the GitHub Copilot coding agent, and now stewarded by the Agentic AI Foundation under the Linux Foundation.
 Cursor supports both `.cursor/rules` (frontmattered `.mdc` files) and plain AGENTS.md, including nested files per directory.
 **Interop is by bridge, not standard: Claude Code reads CLAUDE.md and not AGENTS.md, so teams symlink or `@import` one into the other, and `/init` ingests rivals' rule files.**
-Products are forming around the convention, notably memU (14.4k stars as of 2026-08-30), which stores memory as a wiki of markdown files shared across Codex, Claude Code, and Cursor.
+Products are forming around the convention, notably memU (14.4k stars as of 2026-09-02), which stores memory as a wiki of markdown files shared across Codex, Claude Code, and Cursor.
 
 ## Status
 
 **The de facto standard.**
-AGENTS.md reports 60k open-source projects carrying the file as of 2026-08-30, and every major harness ships a variant with the same converged features: generator commands (`/init`), nested files, and path scoping.
+AGENTS.md reports 60k open-source projects carrying the file as of 2026-09-02, and every major harness ships a variant with the same converged features: generator commands (`/init`), nested files, and path scoping.
 The failure mode is known and documented too: bloat kills adherence.
 
 ## Strengths
@@ -74,5 +74,5 @@ Reach for a memory service only for cross-user or cross-app memory; my disagreea
 - https://agents.md - the standard, adoption count, and stewardship as of 2026-08-30
 - https://cursor.com/docs/rules - rules types, AGENTS.md support, path scoping
 - https://www.anthropic.com/engineering/claude-code-best-practices - guidance on keeping instruction files short enough to be obeyed
-- https://github.com/NevaMind-AI/memU - a markdown-wiki memory product with real traction (14.4k stars as of 2026-08-30)
+- https://github.com/NevaMind-AI/memU - a markdown-wiki memory product with real traction (14.4k stars as of 2026-09-02)
 - https://news.ycombinator.com/item?id=46294274 - the Letta Code launch thread, where hosted-memory practice meets file-first practitioners

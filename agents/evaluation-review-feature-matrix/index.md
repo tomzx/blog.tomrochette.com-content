@@ -1,7 +1,7 @@
 ---
 title: "Evaluation and Review Feature Matrix"
 created: 2026-08-30
-updated: 2026-08-30
+updated: 2026-09-02
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3-flash, comparison, evaluation, code-review, human-in-the-loop]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 This matrix compares the four members of the Evaluation and review category: the agent-driven local debugger, the pytest-style eval framework, the observability platform, and the human annotation surface.
-Everything below was re-verified against live sources on 2026-08-30.
+Everything below was re-verified against live sources on 2026-09-02.
 The hybrid machine reviewer that used to sit here, OpenCodeReview, moved to the Code review category the same day.
 
 **The category divides on who judges: the agent itself (Workshop), a metric suite (deepeval, Phoenix), or a human (Plannotator), and mature teams run more than one column at once.**
@@ -31,7 +31,7 @@ Each column links to the full research note; every cell below traces to a source
 | Harness integration | tracing integrations | OTel auto-instrumentation, MCP server | hooks in 9 harnesses | skills and MCP for 5+ agents |
 | Team layer | Confident AI platform | Arize AX cloud | encrypted links (caveat), Workspaces beta | Raindrop Cloud optional |
 | License | ✓ Apache-2.0 | ~ ELv2 core, Apache clients | ✓ Apache-2.0 or MIT | ✓ MIT |
-| Maturity | mature, 3 years, v4.2 | mature, 4 years, v20.4 | pre-1.0, fast churn | pre-1.0, 4 months |
+| Maturity | mature, 3 years, v4.2 | mature, 4 years, v20.5 | pre-1.0 (v0.27.x), fast churn | pre-1.0, 4 months |
 | Pricing anchor | free, platform $200-2,000/mo | free, AX $50/mo entry | free, Workspaces unpriced | free, Cloud $299/mo |
 
 ## Reading the matrix

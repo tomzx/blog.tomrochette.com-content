@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Copilot automations run GitHub's Copilot cloud agent automatically, on a schedule (hourly, daily, weekly) or in response to repository events (issue created, pull request opened or synchronized), without a person starting each task.
-Facts below verified as of 2026-08-30.
+Facts below verified as of 2026-09-02.
 
 **Automations are the easiest scheduled agent to turn on in the GitHub ecosystem, and their per-user visibility model makes them the hardest to govern.**
 

@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Steve Yegge is one of the loudest and most hands-on voices arguing that coding agents change not just how software is written but who writes it and how teams are run.
-Facts below verified as of 2026-08-30.
+Facts below verified as of 2026-09-02.
 
 **Yegge is the operative, not the commentator: he builds the systems he predicts, from Agentic Coding's brute-squad framing to the Gas Town multi-agent workspace that this section already profiles, so his claims are falsifiable against his own code.**
 
@@ -24,7 +24,7 @@ His creative output is the [Gas Town](../gastown/index.md) workspace manager, wh
 ## Status
 
 Active and engaged.
-As of 2026-08-30 he maintains a Substack launched within the past year, publishes the "Future of Coding Agents" essay series on his own site (yegge.ai catalog), builds Gas Town, and appears on The Pragmatic Engineer and other podcasts.
+As of 2026-09-02 he maintains a Substack launched within the past year, publishes the "Future of Coding Agents" essay series on his own site (yegge.ai catalog), builds Gas Town, and appears on The Pragmatic Engineer and other podcasts.
 He also released a book, Vibe Coding, in the agent era, consolidating his position.
 
 ## Strengths

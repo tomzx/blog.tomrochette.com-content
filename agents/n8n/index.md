@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 n8n is a fair-code workflow automation platform with native AI capabilities, where webhook triggers, cron schedules, and chat channels start workflows and agents built on a visual canvas with code nodes.
-Facts below verified as of 2026-08-30.
+Facts below verified as of 2026-09-02.
 
 **n8n is the most credible webhook-triggered agent substrate with real engineering uptake, as long as you accept that it is not open source and your use of it is bounded by its license.**
 
@@ -24,7 +24,7 @@ Deployment is self-hosted (free Community Edition) or n8n Cloud; the Webhook nod
 ## Status
 
 **Very active and heavily funded.**
-About 203k stars and 60.5k forks on GitHub as of 2026-08-30, with 23,000+ commits.
+About 203k stars and 60.5k forks on GitHub as of 2026-09-02, with 23,000+ commits.
 A $180M Series C (October 2025, led by Accel, with NVIDIA's NVentures) brought total funding to $240M at a $2.5B valuation.
 Caveat on maturity: the agents layer is in preview, not yet supported on self-hosted Enterprise, and queue mode does not work with agents.
 
@@ -44,7 +44,7 @@ Caveat on maturity: the agents layer is in preview, not yet supported on self-ho
 
 ## Pricing
 
-Cloud plans bill per full workflow execution with unlimited users and steps: Starter at 20 EUR/month annually for 2,500 executions, Pro at 50 EUR for 10,000, Business at 667 EUR for 40,000, Enterprise by quote (as of 2026-08-30).
+Cloud plans bill per full workflow execution with unlimited users and steps: Starter at 20 EUR/month annually for 2,500 executions, Pro at 50 EUR for 10,000, Business at 667 EUR for 40,000, Enterprise by quote (as of 2026-09-02).
 Self-hosting the Community Edition is free; Business-and-up self-hosted licenses ping n8n's license server daily and count your executions.
 
 ## Compared to
@@ -68,10 +68,10 @@ My disagreeable claim: for scheduled and webhook-triggered coding-adjacent work,
 
 ## References
 
-- https://github.com/n8n-io/n8n - repository scale and fair-code licensing, as of 2026-08-30
+- https://github.com/n8n-io/n8n - repository scale and fair-code licensing, as of 2026-09-02
 - https://docs.n8n.io/build/build-and-manage-agents.md - agents feature: channels, schedules, sub-agents, preview limits
 - https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-base.webhook/ - webhook trigger semantics, auth, fail-open conditional
-- https://n8n.io/pricing/ - plan tiers and execution-based billing, as of 2026-08-30
+- https://n8n.io/pricing/ - plan tiers and execution-based billing, as of 2026-09-02
 - https://docs.n8n.io/privacy-and-security/sustainable-use-license.md - license terms and the not-open-source statement
 - https://blog.n8n.io/series-c/ - $180M Series C, $2.5B valuation, October 2025
 - https://news.ycombinator.com/item?id=21191676 - the 2019 launch thread (728 points)

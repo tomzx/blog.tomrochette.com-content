@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Letta is the company and platform built by the MemGPT creators: a memory-first coding agent (Letta Code), a cloud/API tier, and a research program on agents that learn.
-Facts below verified as of 2026-08-30.
+Facts below verified as of 2026-09-02.
 
 **Letta has the deepest research lineage in agent memory and the least settled product strategy, and I think the pattern it popularized will outlive its current packaging.**
 
@@ -25,8 +25,8 @@ Surfaces now include the CLI, desktop app, chat.letta.com, messaging channels, a
 ## Status
 
 **Active, research-first, mid-pivot.**
-The `letta-ai/letta` repository (24.5k stars as of 2026-08-30) is now a landing page; the retired V1 API server lives on an unsupported archive branch with no security fixes, which strands self-hosters.
-Real development moved to `letta-ai/letta-code` (3.1k stars, 3,280 commits).
+The `letta-ai/letta` repository (24.6k stars as of 2026-09-02) is now a landing page; the retired V1 API server lives on an unsupported archive branch with no security fixes, which strands self-hosters.
+Real development moved to `letta-ai/letta-code` (3.2k stars, 3,311 commits).
 The company raised a $10M seed led by Felicis at a $70M post-money valuation in September 2024.
 Letta Code launched December 2025 claiming the #1 model-agnostic OSS harness on TerminalBench; its HN thread drew 83 points and 37 comments, respect, not adoption-scale buzz.
 
@@ -47,7 +47,7 @@ Letta Code launched December 2025 claiming the #1 model-agnostic OSS harness on 
 ## Pricing
 
 Free: BYOK plus 3 stateful agents.
-Pro $20/month (up to 20 agents), API plan $20/month plus $0.10 per active agent per month and $0.00015 per second of tool execution, Teams $20 per seat, Enterprise custom, as of 2026-08-24.
+Pro $20/month (up to 20 agents), API plan $20/month plus $0.10 per active agent per month and $0.00015 per second of tool execution, Teams $20 per seat, Enterprise custom, as of 2026-09-02.
 **The free tier is genuinely usable because the expensive part (models) is yours.**
 
 ## Compared to
@@ -71,10 +71,10 @@ Not for teams wanting stable infrastructure: the V1 server burial proves the roa
 ## References
 
 - https://www.letta.com/ - company surface, research timeline, backers
-- https://github.com/letta-ai/letta - landing-page status and archived V1 server, stars as of 2026-08-30
+- https://github.com/letta-ai/letta - landing-page status and archived V1 server, stars as of 2026-09-02
 - https://github.com/letta-ai/letta-code - the active harness, features, license
 - https://www.letta.com/blog/letta-code - the memory-first launch post and TerminalBench claim
 - https://arxiv.org/abs/2310.08560 - MemGPT: the paper the field cites
 - https://techcrunch.com/2024/09/23/letta-one-of-uc-berkeleys-most-anticipated-ai-startups-has-just-come-out-of-stealth/ - seed round and origin
-- https://docs.letta.com/pricing - plan structure as of 2026-08-30
+- https://docs.letta.com/pricing - plan structure as of 2026-09-02
 - https://news.ycombinator.com/item?id=46294274 - launch thread with founder answers and skeptic pushback

@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Outlines is an Apache-2.0 Python library that guarantees LLM outputs follow a type, JSON Schema, regex, or context-free grammar by masking logits during generation instead of validating afterward.
-Facts below verified as of 2026-08-30.
+Facts below verified as of 2026-09-02.
 
 **It proved constrained decoding could be practical (the finite-state-machine-over-vocabulary idea dates to its 2023 paper), but the serving-engine fast lane has since been taken by XGrammar and llguidance, leaving Outlines the role of portable front-end and abstraction layer.**
 
@@ -25,7 +25,7 @@ It began at Normal Computing (Brandon Willard and Remi Louf) and is maintained b
 ## Status
 
 **Active, with an asterisk on where its own engine still runs.**
-The repository shows about 15.7k stars and 1,324 commits as of 2026-08-24, and the docs claim adoption by the major serving frameworks and by companies from Amazon to Shopify (self-reported where not public).
+The repository shows about 15.7k stars and 1,325 commits as of 2026-09-02, and the docs claim adoption by the major serving frameworks and by companies from Amazon to Shopify (self-reported where not public).
 But vLLM's current structured-outputs docs name xgrammar and guidance as its backends, and vLLM removed the old `guided_*` request fields in v0.12.0, so the engine-level default no longer runs Outlines' compiler there.
 XGrammar's November 2024 benchmarks (competitor-run) measured existing solutions, Outlines included, at up to 3.5x slower mask generation on JSON schemas and more than 10x slower on context-free grammars.
 
@@ -46,7 +46,7 @@ XGrammar's November 2024 benchmarks (competitor-run) measured existing solutions
 ## Pricing
 
 Apache-2.0 and free.
-The adjacent money is .txt's: the Dottxt API (early access) and enterprise libraries sell the same guarantees without the self-hosting, as of 2026-08-24.
+The adjacent money is .txt's: the Dottxt API (early access) and enterprise libraries sell the same guarantees without the self-hosting, as of 2026-09-02.
 
 ## Compared to
 
@@ -68,7 +68,7 @@ Not for teams that only ever call OpenAI or Anthropic and never serve their own 
 
 ## References
 
-- https://github.com/dottxt-ai/outlines - repo: stars, license, output types, integrations, .txt stewardship (as of 2026-08-24)
+- https://github.com/dottxt-ai/outlines - repo: stars, license, output types, integrations, .txt stewardship (as of 2026-09-02)
 - https://dottxt-ai.github.io/outlines/latest/ - docs: features, pluggable backends, Normal Computing origin, Dottxt API
 - https://arxiv.org/abs/2307.09702 - the 2023 paper introducing the FSM-vocabulary index behind guided generation
 - https://docs.vllm.ai/en/latest/features/structured_outputs.html - vLLM backends (xgrammar, guidance) and removal of guided_* fields in v0.12.0

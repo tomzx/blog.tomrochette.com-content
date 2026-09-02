@@ -1,7 +1,7 @@
 ---
 title: Ouroboros
 created: 2026-08-30
-updated: 2026-08-30
+updated: 2026-09-02
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, software-factory, verification, self-improving-agents, open-source]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Ouroboros is an MIT-licensed Python "Agent OS" that turns a vague brief into verified code by running a Socratic interview, freezing an immutable spec, executing through one of 13 coding-agent runtimes, and verifying the result with a three-stage gate whose grading commands and expected outputs are withheld from the worker agent.
-Facts below verified as of 2026-08-30.
+Facts below verified as of 2026-09-02.
 
 **Ouroboros earns its anti-cheating tagline architecturally, not rhetorically: the worker's success contract omits the grading command and expected result, and the first verification stage is LLM-free, which is a cleaner separation than most self-improving agent systems attempt.**
 
@@ -20,13 +20,13 @@ Facts below verified as of 2026-08-30.
 A local-first workflow layer around existing coding agents: Interview produces a Seed (an immutable spec with an ambiguity gate at 0.2 or lower before any code is written), Execute decomposes work through a Double Diamond process, Evaluate runs the gate, and Evolve refines specs and accumulates reusable assets across generations within a budgeted loop (30-generation cap, stagnation detection, a three-tier cost router).
 The verification gate runs outside the worker: mechanical checks first (lint, build, tests, coverage at a 70 percent default, no LLM), then a semantic LLM judge against acceptance criteria at a 0.8 threshold, then multi-model consensus voting triggered only by six conditions such as seed modification or drift above 0.3.
 It drives 13 runtimes including Claude Code, Codex CLI, Copilot CLI, OpenCode, Gemini, Goose, Kiro, Pi, and Antigravity, installs as `ouroboros-ai` on PyPI or a Claude Code plugin, and ships an MCP server.
-MIT, by Ouro Labs (Q00), solo-maintained with around 30 contributors.
+MIT, by Ouro Labs (Q00), solo-maintained with around 75 contributors.
 
 ## Status
 
-Very young, very active: 5,734 stars, 577 forks, 69 open issues as of 2026-08-30, created 2026-01-14, pushed the day of verification.
-Latest release v0.51.17 on 2026-08-28, with roughly 29 PyPI releases in seven weeks; PyPI self-labels it Beta.
-**Headline results are self-reported, its Hacker News threads are self-submitted with single-digit points, and no independent evaluation exists as of 2026-08-30.**
+Very young, very active: 5,752 stars, 580 forks, 70 open issues as of 2026-09-02, created 2026-01-14, pushed 2026-09-01.
+Latest release v0.53.0 on 2026-09-01, with roughly 25 PyPI releases in the last seven weeks; PyPI self-labels it Beta.
+**Headline results are self-reported, its Hacker News threads are self-submitted with single-digit points, and no independent evaluation exists as of 2026-09-02.**
 
 ## Strengths
 
@@ -39,7 +39,7 @@ Latest release v0.51.17 on 2026-08-28, with roughly 29 PyPI releases in seven we
 
 - The semantic judge is an LLM, and consensus voting triggers only under six conditions, so a worker tuned to satisfy a predictable judge is not fully ruled out.
 - The ambiguity, drift, and similarity scores are LLM self-assessments and heuristics; the docs themselves call the thresholds defaults worth arguing with.
-- Beta churn: 29 releases in seven weeks, documented breakage below specific versions, and an extras matrix with install warnings.
+- Beta churn: 25 releases in seven weeks, documented breakage below specific versions, and an extras matrix with install warnings.
 - The loop spends real tokens on evaluation, which is the price of the gate.
 
 ## Pricing

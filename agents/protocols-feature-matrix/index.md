@@ -1,7 +1,7 @@
 ---
 title: "Protocols Feature Matrix"
 created: 2026-08-24
-updated: 2026-08-30
+updated: 2026-09-02
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, comparison, protocols, interoperability]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 This matrix compares the five protocols profiled in this section, A2A, ACP, Agent Host Protocol, AGENTS.md, and MCP, so the whole interoperability stack can be read in one table.
-Everything below was re-verified against live sources on 2026-08-30.
+Everything below was re-verified against live sources on 2026-09-02.
 
 **The five do not compete, they stack (repo-to-agent, editor-to-agent, agent-to-tool, agent-to-agent, client-to-session), and adoption falls with every step up that stack, which is why I call AGENTS.md and MCP defaults, ACP a rising bet, AHP a bet underwritten by VS Code's own distribution, and A2A an enterprise convention the coding-agent world can keep ignoring.**
 
@@ -41,8 +41,8 @@ ACP is stewarded by Zed and JetBrains under a vendor-neutral organization with n
 I read this as governance following adoption, not causing it.
 
 **Adoption falls as the protocol climbs the stack, and the file convention beat every wire protocol to default status.**
-MCP is table stakes across the harness and surface matrices; AGENTS.md counts more than 60,000 carrying projects with one glaring holdout (Claude Code); ACP rides OpenCode, JetBrains, Zed, and a Copilot CLI preview; A2A has no native speaker among this index's harnesses, only community setups near Gemini CLI; AHP is five months old with 288 stars, but its reference host ships inside VS Code and the VS Code team has said publicly it is rebuilding its agent infrastructure on the protocol.
-The SDK download ratio recorded in the A2A note, 10.9M monthly versus 257M for MCP, is the gap in one number, and AHP's roughly 272k combined monthly downloads show the same order-of-magnitude distance from the top.
+MCP is table stakes across the harness and surface matrices; AGENTS.md counts more than 60,000 carrying projects with one glaring holdout (Claude Code); ACP rides OpenCode, JetBrains, Zed, and a Copilot CLI preview; A2A has no native speaker among this index's harnesses, only community setups near Gemini CLI; AHP is nearly six months old with 296 stars, but its reference host ships inside VS Code and the VS Code team has said publicly it is rebuilding its agent infrastructure on the protocol.
+The SDK download ratio recorded in the A2A note, 10.9M monthly versus 257M for MCP, is the gap in one number, and AHP's roughly 277k combined monthly downloads (about 194k crates plus 83k npm) show the same order-of-magnitude distance from the top.
 
 **The consolidations the notes record happened in opposite corners, and neither touched the other's territory.**
 IBM's Agent Communication Protocol (the other ACP, the source of the name collision) merged into A2A in August 2025 under LF AI and Data.

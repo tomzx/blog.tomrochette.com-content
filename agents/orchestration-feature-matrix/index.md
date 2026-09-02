@@ -1,7 +1,7 @@
 ---
 title: "Orchestration Feature Matrix"
 created: 2026-08-24
-updated: 2026-08-30
+updated: 2026-09-02
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, comparison, orchestration, git-worktrees, parallel-agents]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 This matrix compares the twelve orchestration tools profiled in this section, the parallel-agent dashboards, worktree managers, control planes, and the one agent town, feature by feature, so the shortlisting step does not require reading twelve notes.
-Everything below was verified against live sources on 2026-08-30, a full re-verification that added the Omnara column on that date.
+Everything below was verified against live sources on 2026-08-30, a full re-verification that added the Omnara column on that date, and re-verified on 2026-09-02.
 
 **Parallelism is already the free commodity in this category: the only things anyone pays for are review ergonomics and remote execution, and I expect more of these twelve to die or pivot before any of them becomes durable infrastructure.**
 
@@ -27,11 +27,11 @@ Each column links to the full research note; every cell below traces to a source
 | Open source | ✓ AGPL-3.0 | ~ GPL-3.0, open core | ✗ closed | ✓ MIT | ✓ MIT | ✓ Apache-2.0 | ✓ MIT | ✓ Apache-2.0 | ✓ Apache-2.0 | ~ Elastic License 2.0 | ✓ Apache-2.0 | ✓ MIT OR Apache-2.0 |
 | Price model | free, no tier | free, Pro $24/mo | free local, Pro $50/mo | free (Nimbalyst sells teams) | free | free core, cloud contact-sales | free, BYOK runtime | free self-host, cloud unpriced | free, Hub planned | free local, Pro $15-20/user/mo | free (subs terminated) | free |
 | Per-task worktree isolation | ✓ | ? | ✓ own branch | ✓ | ✓ AI-named branch | ✓ | ✓ worktree hooks | ? | ✓ | ✓ | ✓ own branch | ✓ core purpose |
-| Harnesses it can drive | any CLI via profiles | any CLI agent | 4 (Claude Code, Codex, Cursor, OpenCode) | 2 (Claude Code, Codex) | 11 CLIs | 25+ CLIs, auto-detected | 5 runtimes, Claude Code default | ? agent underneath unspecified | 4 native + ~36 via ACP | any CLI, 14+ presets | 10+ agents | any CLI via -x |
+| Harnesses it can drive | any CLI via profiles | any CLI agent | 4 (Claude Code, Codex, Cursor, OpenCode) | 2 (Claude Code, Codex) | 11 CLIs | 25+ CLIs, auto-detected | 5 runtimes, Claude Code default | ? agent underneath unspecified | 4 native + ~36 via ACP | any CLI, 14+ presets | 10+ agents | any CLI via -x, one program name since v0.76 |
 | Remote or SSH execution | ? | ~ SSH sessions | ? | ? | ✗ local only | ✓ SSH-first | ~ Docker compose | ✓ machine pools | ✓ encrypted relay, self-host | ~ remote workspaces beta | ~ Docker self-host | ✗ local git |
 | Built-in review tooling | ~ diff preview tab | ? | ✓ diffs, checks, PR, review | ~ diff viewer, rebase, squash | ~ merge and PR menu | ✓ diffs, PRs, CI checks | ✓ Refinery merge queue | ~ approvals, questions, events, artifacts | ~ agent output and diffs | ✓ diffs, browser previews | ✓ diffs, comments, PR | ~ status table and merge pipeline |
-| Cloud execution option | ✗ no hosting | ✓ Pro cloud VMs | ✓ Vercel sandboxes | ? | ✗ | ~ contact-sales | ✗ self-host, Wasteland federation | ✓ Omnara Cloud, or self-host | ~ self-host anywhere, no vendor cloud | ~ remote workspaces beta | ✗ services removed | ✗ |
-| Current status | active, slow burn | active, fast | active, $22M raised | deprecated Feb 2026 | active | active, YC W26 | active, 17.9k stars | active, YC S25, 2,778 stars | active, v0.6, solo maintainer | active, YC P26, $11M raised | community-maintained | active, pre-1.0 fast |
+| Cloud execution option | ✗ no hosting | ✓ Pro cloud VMs, unlimited active | ✓ Vercel sandboxes | ? | ✗ | ~ contact-sales | ✗ self-host, Wasteland federation | ✓ Omnara Cloud, or self-host | ~ self-host anywhere, no vendor cloud | ~ remote workspaces beta | ✗ services removed | ✗ |
+| Current status | active, slow burn | active, fast | active, $22M raised | deprecated Feb 2026 | active | active, YC W26 | active, 17.9k stars | active, YC S25, 2,778 stars | active, v0.7, solo maintainer | active, YC P26, $11M raised | orphaned, no push since 2026-04-24 | active, pre-1.0 fast |
 
 ## Reading the matrix
 
@@ -48,7 +48,7 @@ Cloud execution exists only where a subscription needs it, cmux Pro and Conducto
 
 **The status row is the most instructive one in the matrix: of twelve tools, one is deprecated, one lost its vendor, and the counterexamples run on venture rounds and a very loud founder.**
 Crystal was deprecated in February 2026 in favor of Nimbalyst, the clearest signal yet that a pure worktree-session manager can be a feature rather than a product.
-Bloop shut down in April 2026 and Vibe Kanban survives community-maintained, local workspaces intact but nobody paid to fix bugs.
+Bloop shut down in April 2026 and Vibe Kanban is orphaned, local workspaces intact but no push since 2026-04-24 and nobody paid to fix bugs.
 Conductor staying a pure session manager and raising money is what keeps the feature-versus-product question contested instead of settled.
 **The three 2026 columns sharpen the funding split: Superset raised $11M, Paseo is a solo maintainer with a planned business, and Worktrunk is a single author with no company at all, which is the whole sustainability spectrum in one row.**
 **Omnara is the twelfth column and the only one that wants to own execution and state:** agents become YAML configs in your repo, machine pools separate where code runs from who can invoke it, and supervision reaches you from a dashboard, phone, CLI, REST API, or Slack, the open-source counterpoint to Claude Managed Agents.
@@ -63,7 +63,7 @@ Claude Squad's preview tab and dmux's pane-menu PR cover the dispatch, wait, rev
 - Want an auditable client, Windows or Linux support, or agents running next to remote code: Emdash.
 - Live in the terminal: Claude Squad for the smallest footprint, dmux for multi-agent fan-out and resumable panes.
 - On macOS and drowning in sessions that need attention: cmux's notification rings and unread panel.
-- Want planning-first and vendor-less: Vibe Kanban, accepting community-only maintenance.
+- Want planning-first and vendor-less: Vibe Kanban, accepting that it is orphaned, with no push since April 2026.
 - Want to supervise agents from your phone over an encrypted relay, self-hosted and FOSS: Paseo.
 - Want a control plane that owns agent execution and state behind one API, on your own hardware: Omnara.
 - Want a macOS agentic IDE around your existing subscriptions, five or more parallel sessions: Superset, accepting the ELv2 license and beta Linux.
@@ -82,7 +82,7 @@ Claude Squad's preview tab and dmux's pane-menu PR cover the dispatch, wait, rev
 ## References
 
 - https://github.com/smtg-ai/claude-squad - profiles, worktrees, packaging for the Claude Squad column
-- https://cmux.com/pricing - tiers, cloud VM hours, CodeRouter for the cmux column
+- https://cmux.com/pricing - tiers, unlimited active cloud VMs, CodeRouter removal for the cmux column
 - https://conductor.build/pricing/ - tiers, sandbox specs, local versus cloud privacy for the Conductor column
 - https://github.com/stravu/crystal - deprecation notice and feature history for the Crystal column
 - https://github.com/standardagents/dmux - supported agent list, hooks, local-only scope for the dmux column

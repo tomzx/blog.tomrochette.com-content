@@ -1,7 +1,7 @@
 ---
 title: Kodus
 created: 2026-08-30
-updated: 2026-08-30
+updated: 2026-09-02
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, code-review, ai-review, open-source, developer-tools]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Kodus is an open-source AI code reviewer named Kody (AGPL-3.0 plus a commercial enterprise-edition dual license) that reviews pull requests on GitHub, GitLab, Bitbucket, and Azure Repos, self-hosted or via Kodus Cloud, with whatever model you bring.
-Facts below verified as of 2026-08-30.
+Facts below verified as of 2026-09-02.
 
 ## What it is
 
@@ -22,8 +22,8 @@ BYOK covers OpenAI, Anthropic, Google Gemini, Vertex AI, Novita, and any OpenAI-
 
 ## Status
 
-**Active and small: commits the day I checked, with 1,337 stars and 142 forks as of 2026-08-30.**
-The repo (kodustech/kodus-ai) was created March 28, 2025 and was pushed to on August 30, 2026.
+**Active and small: commits the day I checked, with 1,346 stars and 143 forks as of 2026-09-02.**
+The repo (kodustech/kodus-ai) was created March 28, 2025 and was pushed to on September 2, 2026.
 Funding: I could not verify any funding round from a primary source, so I record none.
 The community footprint is thin, and I state that as a finding: five HN launches between 1 and 5 points, the largest being a 5-point Show HN for the CLI (47248299, March 4, 2026) and a 4-point one for the AGPL/BYOK repositioning (48049508, May 7, 2026).
 A Discord community exists, but I found no independent reviews or benchmarks corroborating the quality claims.
@@ -44,9 +44,9 @@ A Discord community exists, but I found no independent reviews or benchmarks cor
 
 ## Pricing
 
-**Open core with per-seat SaaS and a transparent platform fee, as of 2026-08-30.**
-Pro is $12 per seat per month, Team is $24, and Enterprise is custom.
-The pricing page's BYOK calculator prices the Kodus platform at $10 per developer per month on top of raw model API costs, and the FAQ commits to no markup on your tokens.
+**Open core with a free tier, a BYOK developer fee, and a transparent no-markup pledge, as of 2026-09-02.**
+The tiers changed in early September 2026: Community is free for indie devs and small teams (self-hosted or hosted, up to 10 Kody rules), Teams BYOK is $10 per developer per month plus your raw token costs with unlimited rules and plugins, and Enterprise is custom with SSO, RBAC, SOC 2, and dedicated support.
+The BYOK calculator keeps the no-markup FAQ commitment and prices example stacks (for example $450 per month for 30 developers on Gemini Pro or ChatGPT 5.1).
 Self-hosting under AGPL-3.0 is free, minus your own model bills.
 
 ## Compared to
@@ -71,9 +71,9 @@ My disagreeable take: I trust a reviewer whose business model survives zero toke
 
 ## References
 
-- https://github.com/kodustech/kodus-ai - repo, 1,337 stars, 142 forks, AGPL-3.0 + EE dual license, pushed August 30, 2026 (GitHub API, as of 2026-08-30)
+- https://github.com/kodustech/kodus-ai - repo, 1,346 stars, 143 forks, AGPL-3.0 + EE dual license, pushed September 2, 2026 (GitHub API, as of 2026-09-02)
 - https://kodus.io/ - product page and positioning
-- https://kodus.io/pricing/ - Pro $12, Team $24, BYOK $10/dev platform fee, no-markup FAQ, as of 2026-08-30
+- https://kodus.io/pricing/ - Community free, Teams BYOK $10/dev, Enterprise custom, no-markup FAQ, as of 2026-09-02
 - https://docs.kodus.io/ - documentation hub and self-host guide
 - https://docs.kodus.io/how_to_deploy/en/deploy_kodus/telemetry - self-hosted anonymous heartbeat and opt-out
 - https://hn.algolia.com/api/v1/items/43572816 - Show HN launch, 3 points, April 3, 2025

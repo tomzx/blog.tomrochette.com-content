@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 PicoClaw is Sipeed's ultra-light personal assistant in Go (MIT): one binary that runs on $10 RISC-V boards in 10-20MB of RAM, an independent implementation inspired by NanoBot rather than a fork of OpenClaw.
-Facts below verified as of 2026-08-30.
+Facts below verified as of 2026-09-02.
 
 **PicoClaw proves the assistant runtime has become a compile target: when an assistant fits in 10MB, the category stops being software you run and becomes hardware you buy, and Sipeed sells the board, which is a business model nobody else in the family has.**
 
@@ -24,7 +24,7 @@ It reached 20k stars in 17 days from a February 2026 start.
 ## Status
 
 Active, pre-1.0, and explicit about both.
-As of 2026-08-30: 29,916 stars and 4,445 forks since creation on 2026-02-04, last push 2026-08-27, only 35 open issues, v0.3.1 released 2026-07-03 after the v0.2.x line through May.
+As of 2026-09-02: 29,935 stars and 4,461 forks since creation on 2026-02-04, last push 2026-08-27, only 40 open issues, v0.3.1 released 2026-07-03 after the v0.2.x line through May.
 **The README carries two unusual banners: a do-not-deploy-to-production-before-v1.0 warning, and a scam notice that no official PicoClaw cryptocurrency exists and picoclaw.io is the only official domain, both signs of attention arriving faster than governance.**
 The naming ladder keeps extending below it (SmolClaw microvm, FemtoClaw for ESP32 and Raspberry Pi Pico), which tells you the size race became a meme.
 
@@ -33,7 +33,7 @@ The naming ladder keeps extending below it (SmolClaw microvm, FemtoClaw for ESP3
 - The footprint claim is real enough to change deployment thinking: 10-20MB RAM puts an assistant on hardware nothing else in the family can touch.
 - Hardware vendor stewardship means the software and the board ship as one story, including Android.
 - MCP support and a Web UI at this size is more surface than the memory number suggests.
-- 35 open issues at 30k stars is the tidiest tracker in the category.
+- 40 open issues at 30k stars is the tidiest tracker in the category.
 
 ## Cautions
 
@@ -69,8 +69,8 @@ My disagreeable claim: the size race is now the category's main axis of progress
 ## References
 
 - https://github.com/sipeed/picoclaw - README: footprint, architectures, security banners, release news
-- https://api.github.com/repos/sipeed/picoclaw - stars, forks, issues as of 2026-08-30
+- https://api.github.com/repos/sipeed/picoclaw - stars, forks, issues as of 2026-09-02
 - https://picoclaw.io - official site (the only official domain per the scam notice)
 - https://docs.picoclaw.io/ - official documentation
 - https://news.ycombinator.com/item?id=46955793 - the launch-era Show HN (11 points)
-- https://github.com/HKUDS/nanobot - the stated inspiration (47,538 stars)
+- https://github.com/HKUDS/nanobot - the stated inspiration (47,634 stars)

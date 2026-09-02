@@ -1,7 +1,7 @@
 ---
 title: "Memory Feature Matrix"
 created: 2026-08-24
-updated: 2026-08-30
+updated: 2026-09-02
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, comparison, memory, agent-memory, ai-agents]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 This matrix compares the six memory approaches profiled in this section, feature by feature: the file convention, the session-compression plugin, the memory-first harness, the two memory APIs, and the self-hostable graph pipeline.
-Everything below was re-verified against live sources on 2026-08-30, with the Cognee column first verified 2026-08-26.
+Everything below was re-verified against live sources on 2026-09-02, with the Cognee column first verified 2026-08-26.
 
 **For coding agents I would start with plain files and not buy any service on benchmark claims, because the only memory problem files cannot solve at any price is contradiction over time, and Zep is the only vendor whose architecture faces it head on.**
 
@@ -45,7 +45,7 @@ Zep's bi-temporal invalidation marks old facts invalid instead of overwriting th
 Auto memory is machine-local and per-repository, so the moment memory must follow users across apps and machines, the free option drops out, which is the precise boundary where the services earn their keep.
 
 **Open source here does not mean what the license row suggests, and the self-host row is the correction.**
-Letta's 24.5k-star repo is a landing page with the V1 server archived unsupported; Zep's self-hostable Community Edition is discontinued and only the Graphiti engine remains open; Mem0's benchmarked brain is the paid platform while the OSS SDK is directionally weaker.
+Letta's 24.6k-star repo is a landing page with the V1 server archived unsupported; Zep's self-hostable Community Edition is discontinued and only the Graphiti engine remains open; Mem0's benchmarked brain is the paid platform while the OSS SDK is directionally weaker.
 **Cognee is the exception the row now proves: its entire engine is Apache-2.0 with no paid-only core, which is why its lock-in cell is the only low among the vendors.**
 **The only column with no gap between what is open and what runs is the convention, because there is nothing to close.**
 

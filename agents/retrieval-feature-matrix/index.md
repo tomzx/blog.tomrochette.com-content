@@ -1,7 +1,7 @@
 ---
 title: "Retrieval Feature Matrix"
 created: 2026-08-24
-updated: 2026-08-30
+updated: 2026-09-02
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, comparison, retrieval, rag, code-retrieval, llm=glm-5.3-flash]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 This matrix compares the four retrieval entries profiled in this section, two frameworks and two patterns, feature by feature, so the shortlisting step does not require reading four notes.
-Everything below was verified against live sources on 2026-08-30.
+Everything below was re-verified against live sources on 2026-09-02.
 
 **Both frameworks are pivoting away from retrieval as their business, both patterns are being demoted by the tools that ship them, and I read that as evidence that the agent loop, not the index, is now the retrieval layer, a claim the enterprise platform bets are still arguing.**
 
@@ -29,7 +29,7 @@ Each column links to the full note; every cell traces to a source cited there or
 | AST-aware code splitting | ✗ separators only | ✓ CodeSplitter | ? chunkers undisclosed | ✓ the technique |
 | Hosted or commercial arm | ✓ LangSmith SaaS | ✓ LlamaParse SaaS | ~ plan-gated indexes | ~ Chonkie sells one |
 | Positioning drift in the notes | ~ climb to agent platform | ~ pivot to document OCR | ~ demoted to optional | ~ outsourced to Chonkie |
-| Maintenance status | ✓ active, 145.3k stars | ✓ active, 51.9k stars | ~ active but demoted | ✓ mature, pervasive |
+| Maintenance status | ✓ active, 145.5k stars | ✓ active, 52.0k stars | ~ active but demoted | ✓ mature, pervasive |
 | Displacement signal in the notes | ~ retrieval commoditized | ~ agentic search eats indexed RAG | ✓ pioneers shipped grep loops | ~ ranked below truncation |
 | What it replaces in a coding-agent stack | hand-rolled agent loops | hand-rolled retrievers | grep-only lookups | line-count chunking |
 

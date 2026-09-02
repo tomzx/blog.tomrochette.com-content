@@ -1,9 +1,9 @@
 ---
 title: "Model Selection for Coding Tasks"
 created: 2026-08-24
-updated: 2026-08-26
+updated: 2026-09-02
 status: finished
-tags: [agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, model-selection, coding-agents, llm-pricing]
+tags: [agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, model-selection, coding-agents, llm-pricing]
 readability: 3
 audience_notes: >
   Engineers who already drive a coding agent and now decide which model to point it at for edits, review passes, and long agentic loops.
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 This is a maintained, opinionated guide to choosing models for coding, review, and agentic work.
-Everything below was verified against live pricing pages and benchmark sources on 2026-08-24; when the facts move, this page moves with them.
+Everything below was verified against live pricing pages and benchmark sources on 2026-09-02; when the facts move, this page moves with them.
 
 **Model selection for coding is an economics decision before it is a capability decision: run the workhorse tier for the loop, buy the frontier by the minute, and give the reading to the cheap models.**
 The part most engineers get backwards: **for anyone paying per token, the harness you run moves your bill about as much as the model you pick, and sometimes more.**
@@ -26,7 +26,7 @@ The part most engineers get backwards: **for anyone paying per token, the harnes
 
 Escalate by task class inside a session instead of picking one model for everything; Amp's low/medium/high/ultra modes and Codex's Sol/Terra/Luna defaults are this idea shipped as product (see the [Amp](../amp/index.md) and [Codex](../codex/index.md) notes).
 
-## The lineup as of 2026-08-24
+## The lineup as of 2026-09-02
 
 **The workhorse tier has converged to roughly $2 in and $10-12 out per million tokens at every major provider, which means switching costs are now measured in harness integration, not price.**
 
@@ -59,7 +59,7 @@ Four details the table hides:
 ## The challengers reset the price floor
 
 **Kimi, GLM, and DeepSeek price the agentic loop at half the converged workhorse rate or less, which makes the $2/$10-12 "standard" a choice rather than a fact.**
-GLM-5.3, 5.2, and 5.1 sit at $1.40 in and $4.40 out per million tokens, with GLM-5 at $1/$3.20 and GLM-5-Turbo between them, per Z.ai's pricing page as of 2026-08-24.
+GLM-5.3, 5.2, and 5.1 sit at $1.40 in and $4.40 out per million tokens, with GLM-5 at $1/$3.20 and GLM-5-Turbo between them, per Z.ai's pricing page as of 2026-09-02.
 Kimi's coding-specialized kimi-k2.7-code undercuts that at $0.95/$4.00 with a 256K context and multimodal input, and its HighSpeed variant doubles the price for about 180-260 tokens per second of output.
 Kimi K3 takes the other flank: $3/$15, always reasoning with a configurable effort, and a flat-price 1M context that only Claude otherwise offers.
 Z.ai even keeps GLM-4.7-Flash free, which makes it the zero-dollar candidate for inline completion and routing experiments.

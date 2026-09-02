@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Cognee is Topoteretes' open-source AI memory platform: a pipeline that turns documents and interactions into graph-plus-vector memory you can run entirely yourself, with an optional flat-priced cloud.
-Facts below verified as of 2026-08-30.
+Facts below verified as of 2026-09-02.
 
 **Cognee is the self-hoster's memory platform: the entire engine, including the parts Mem0 and Zep keep behind the paid tier, is Apache-2.0, and the trade is that you operate the graph, vector, and relational backends yourself.**
 
@@ -24,7 +24,7 @@ Cognee Cloud runs the same engine managed, on gpt-oss-120b, OpenAI's open-weight
 ## Status
 
 **Active and fast-moving.**
-About 30.4k GitHub stars as of 2026-08-30, repository pushes the day of verification, and v1.5.3 released August 23, 2026 per the PyPI JSON API.
+About 30.4k GitHub stars as of 2026-09-02, repository pushes the day of verification, and v1.5.3 released August 23, 2026 per the PyPI JSON API.
 The company is part of the Berkeley Xcelerator and claims 5M+ SDK runs per month (vendor figure).
 The community discussion footprint is thin for the star count: its two Show HN threads drew 9 and 6 points, so third-party scrutiny lags the repository's popularity.
 
@@ -45,7 +45,7 @@ The community discussion footprint is thin for the star count: its two Show HN t
 ## Pricing
 
 Open source: free, Apache-2.0.
-Cloud: Free $0 (one workspace, 1M tokens included, unlimited users), Standard $2.50 per 1M tokens processed plus $5 per additional workspace per month, Enterprise custom with BYO cloud and SLAs, as of 2026-08-26.
+Cloud: Free $0 (one workspace, 1M tokens included, unlimited users), Standard $2.50 per 1M tokens processed plus $5 per additional workspace per month, Enterprise custom with BYO cloud and SLAs, as of 2026-09-02.
 
 ## Compared to
 
@@ -67,9 +67,9 @@ Not for solo coding-agent work, where plain files win, or for anyone without the
 
 ## References
 
-- https://github.com/topoteretes/cognee - source, Apache-2.0, about 30.4k stars, as of 2026-08-30
+- https://github.com/topoteretes/cognee - source, Apache-2.0, about 30.4k stars, as of 2026-09-02
 - https://www.cognee.ai/ - v1 announcement, integration list, Berkeley Xcelerator, 5M+ SDK runs claim
-- https://www.cognee.ai/pricing - cloud tiers, per-token rate, workspace fee, gpt-oss-120b default, as of 2026-08-30
+- https://www.cognee.ai/pricing - cloud tiers, per-token rate, workspace fee, gpt-oss-120b default, as of 2026-09-02
 - https://docs.cognee.ai/ - architecture, multi-user mode, SDK and integration surfaces
 - https://pypi.org/pypi/cognee/json - v1.5.3 released August 23, 2026
 - https://news.ycombinator.com/item?id=44169594 - Show HN, June 2025, the 9-point thread

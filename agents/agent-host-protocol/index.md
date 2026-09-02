@@ -1,9 +1,9 @@
 ---
 title: Agent Host Protocol
 created: 2026-08-30
-updated: 2026-08-30
+updated: 2026-09-02
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, protocols, agent-sessions, state-synchronization, microsoft, open-source]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.3, protocols, agent-sessions, state-synchronization, microsoft, open-source]
 readability: 3
 audience_notes: >
   Engineers building clients, harnesses, or integrations on top of AI coding-agent sessions who must decide whether to adopt Microsoft's session-state protocol.
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 The Agent Host Protocol (AHP) is Microsoft's MIT-licensed wire protocol for a standalone sessions server that gives any number of clients one synchronized view of AI agent sessions, built on immutable state, pure reducers, and write-ahead reconciliation.
-Facts below verified as of 2026-08-30.
+Facts below verified as of 2026-09-02.
 
 **AHP claims the one lane the protocol stack left empty, the session itself: MCP covers agent-to-tool, ACP covers editor-to-agent, A2A covers agent-to-agent, and AHP turns a live agent session into a shared resource any client can attach to, with the reference host shipping inside VS Code.**
 
@@ -25,8 +25,8 @@ MIT licensed, TypeScript, under the `microsoft` GitHub org, created 2026-03-12.
 
 ## Status
 
-**Active and shipping: 288 stars, 83 forks, 47 open issues as of 2026-08-30, with commits landing the day of verification and spec v0.9.0 tagged 2026-08-28 alongside matching client releases.**
-Adoption is real where it counts: the `ahp` crate records about 188,000 downloads and the npm package about 83,000 in the month before verification, both as of 2026-08-30.
+**Active and shipping: 296 stars, 86 forks, 47 open issues as of 2026-09-02, with commits landing the day before verification and spec v0.9.0 tagged 2026-08-28 alongside matching client releases.**
+Adoption is real where it counts: the `ahp` crate records about 194,000 downloads and the npm package about 83,000 in the month before verification, both as of 2026-09-02.
 A member of the VS Code team stated publicly in June 2026 that the team is rebuilding its agent infrastructure on AHP, and the reference host lives at `src/vs/platform/agentHost/node` in the `microsoft/vscode` repository.
 Pre-1.0 in the exact sense: the spec sits at v0.9.0 and wire churn is expected.
 
@@ -76,6 +76,6 @@ The disagreeable part: I think AHP will matter more to daily coding work than A2
 - https://microsoft.github.io/agent-host-protocol/specification/overview - RFC 2119 conventions and the x- extension rule
 - https://registry.npmjs.org/@microsoft%2Fagent-host-protocol - TypeScript client, 10 versions, latest 0.9.0
 - https://api.npmjs.org/downloads/point/last-month/@microsoft/agent-host-protocol - 83,361 downloads 2026-07-31 to 2026-08-29
-- https://crates.io/api/v1/crates/ahp - Rust client, 188,418 downloads and repository pointer as of 2026-08-30
+- https://crates.io/api/v1/crates/ahp - Rust client, 193,943 downloads and repository pointer as of 2026-09-02
 - https://hn.algolia.com/api/v1/items/48582679 - the Ask HN A2A thread containing the VS Code team's AHP announcement comment (2026-06-18)
 - https://github.com/microsoft/vscode/tree/main/src/vs/platform/agentHost/node - the reference host implementation inside the VS Code tree

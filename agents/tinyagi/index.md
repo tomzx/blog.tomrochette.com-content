@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 TinyAGI (formerly TinyClaw) is a MIT-licensed multi-agent, multi-team orchestrator for the one-person company: isolated role agents across Discord, WhatsApp, and Telegram, a TinyOffice web portal, and a SQLite work queue, which rose to 3.6k stars in seven weeks and then went quiet at the end of March 2026.
-Facts below verified as of 2026-08-30.
+Facts below verified as of 2026-09-02.
 
 **TinyAGI is the control-plane category's first stall record, and its trajectory (viral launch, five months of silence, Paperclip absorbing the audience) is the consolidation signal this section will keep citing.**
 
@@ -24,7 +24,7 @@ It began life as jlia0's TinyClaw, a tiny Claude Code wrapper for a 24/7 persona
 ## Status
 
 Stalled, kept here as the record.
-Created 2026-02-09, last release v0.0.20 on 2026-03-26, last push 2026-03-30, with 3,610 stars, 506 forks, and 75 open issues accumulating since.
+Created 2026-02-09, last release v0.0.20 on 2026-03-26, last push 2026-03-30, with 3,612 stars, 506 forks, and 75 open issues accumulating since.
 The original TinyClaw launch thread got 1 point on HN, so its growth was pure word of mouth in the one-person-company wave.
 **Five months of silence while Paperclip reached 79k stars in the same window is the whole story: the audience consolidated on the bigger, faster-moving control plane.**
 
@@ -69,7 +69,7 @@ The disagreeable claim I will defend: TinyAGI's death was not failure of executi
 ## References
 
 - https://github.com/TinyAGI/tinyagi - README: teams, channels, TinyOffice, queue
-- https://api.github.com/repos/TinyAGI/tinyagi - stars, forks, quiet dates as of 2026-08-30
+- https://api.github.com/repos/TinyAGI/tinyagi - stars, forks, quiet dates as of 2026-09-02
 - https://github.com/TinyAGI/tinyagi/releases - v0.0.20, 2026-03-26, the final release
 - https://office.tinyagicompany.com/ - the TinyOffice portal
 - https://github.com/jlia0/tinyclaw - the original TinyClaw repo, now redirecting to TinyAGI

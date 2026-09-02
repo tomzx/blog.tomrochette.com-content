@@ -1,9 +1,9 @@
 ---
 title: Andrej Karpathy
 created: 2026-08-29
-updated: 2026-08-29
+updated: 2026-09-02
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=big-pickle, people, publications, developer, model-researcher]
+tags: [research-note, agent-curated, fully-ai-generated, llm=big-pickle, llm=glm-5.3-flash, people, publications, developer, model-researcher]
 readability: 3
 audience_notes: >
   Engineers who want the conceptual vocabulary for how AI changes software, from the person who named Software 3.0, vibe coding, and the agentic-engineering line.
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Andrej Karpathy names the eras: he coined "vibe coding", drew the line between vibe coding and agentic engineering, and reframed the current era as Software 3.0 in his 2026 essays.
-Facts below verified as of 2026-08-30.
+Facts below verified as of 2026-09-02.
 
 **Karpathy is less a chronicler than a vocabulary-setter: his Software 3.0 framing, that the context window is now the program and verifiability defines what AI can automate, is the lens this whole section's subject matter is read through.**
 
@@ -24,8 +24,8 @@ His public output is the canonical reference for how software engineering itself
 ## Status
 
 Active and central.
-As of 2026-08-29 he is at Anthropic's pre-training team, refreshing his thesis in the Sequoia Ascent 2026 essay that defines Software 3.0.
-His June 2026 blog post lays out verifiability as the automation boundary, and his AutoResearch project demonstrates agents running research loops overnight, so his writing and his builds move together.
+As of 2026-09-02 he is at Anthropic's pre-training team, refreshing his thesis in the Sequoia Ascent 2026 essay that defines Software 3.0.
+His Verifiability essay (2025-11-17) lays out verifiability as the automation boundary, and his AutoResearch project demonstrates agents running research loops overnight, so his writing and his builds move together.
 
 ## Strengths
 
@@ -67,6 +67,7 @@ Not for people who need a current-events feed or want vendor-neutral, non-fronti
 
 - https://karpathy.ai/ - his main site and the canonical reading list
 - https://karpathy.bearblog.dev/sequoia-ascent-2026/ - the Sequoia Ascent 2026 essay defining Software 3.0
+- https://karpathy.bearblog.dev/verifiability/ - the Verifiability essay (2025-11-17), the automation-boundary argument
 - https://karpathy.medium.com/software-2-0-a64152b37c35 - the original Software 2.0 essay
 - https://github.com/karpathy/autoresearch - the overnight agent research project
 - https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f - the LLM-Wiki knowledge-base pattern

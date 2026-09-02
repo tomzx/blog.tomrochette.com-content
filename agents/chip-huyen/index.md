@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Chip Huyen is the writer and educator whose book "AI Engineering" became the systems-design reference for building LLM applications, the most-read book on O'Reilly in 2025.
-Facts below verified as of 2026-08-30.
+Facts below verified as of 2026-09-02.
 
 **She fills the survey-and-systems niche in this category: where others track tools or set vocabulary, she gives the end-to-end production architecture, which is why her book is the one most teams assign.**
 
@@ -22,7 +22,7 @@ A personal site, blog, newsletter, and a pair of O'Reilly books by Chip Huyen, a
 
 ## Status
 
-Active and highly visible as of 2026-08-29.
+Active and highly visible as of 2026-09-02.
 Her own site states "AI Engineering" was the most read book on the O'Reilly platform in 2025 and has been the most read since its release.
 It is being translated into Chinese, French, Japanese, Korean, Polish, and Russian.
 Her prior book "Designing Machine Learning Systems" (2022) is an Amazon #1 bestseller in AI.

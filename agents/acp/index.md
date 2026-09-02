@@ -12,7 +12,7 @@ audience_notes: >
 ---
 
 ACP is an open protocol that standardizes communication between code editors and coding agents.
-Facts below verified as of 2026-08-30.
+Facts below verified as of 2026-09-02.
 
 **It is pulling the same trick LSP pulled a decade ago, and it is working: editors are becoming interchangeable hosts for agents rather than agent vendors.**
 
@@ -26,7 +26,7 @@ The current stable protocol version is 1, with a v2 draft and a migration guide 
 ## Status
 
 **Active and compounding.**
-The repository shows about 4.1k stars and 2,137 commits as of 2026-08-30.
+The repository shows about 4.1k stars and 2,150 commits as of 2026-09-02.
 The official agents list has grown to roughly 40 entries and now includes Codex CLI (via Zed's adapter), the Claude agent (also via Zed's SDK adapter), Gemini CLI, Cursor, OpenCode, Goose, Junie, Kiro CLI, Factory Droid, Cline, Kimi CLI, Qwen Code, and GitHub Copilot in public preview since 2026-01-28.
 Clients include Zed, JetBrains IDEs (beta in the 25.3 release candidates, December 2025), Neovim and Emacs plugins, VS Code extensions, and Devin Desktop.
 In this index, [OpenCode](../opencode/index.md) ships `opencode acp`, and [JetBrains](../jetbrains/index.md), [Zed](../zed/index.md), [Junie](../junie/index.md), and [Windsurf's Devin Desktop](../windsurf/index.md) all host agents through it.
@@ -75,6 +75,6 @@ The disagreeable part: I think ACP matters more than any single agent or editor 
 - https://agentclientprotocol.com - official introduction: stdio model, MCP type reuse, protocol version 1
 - https://agentclientprotocol.com/overview/agents - the agent list (Codex CLI, Claude agent, Gemini CLI, Cursor, OpenCode, Copilot preview)
 - https://agentclientprotocol.com/overview/clients - the client list (Zed, JetBrains, Neovim, Emacs, VS Code, Devin Desktop)
-- https://github.com/agentclientprotocol/agent-client-protocol - Apache-2.0 repository, SDKs, stars and commits as of 2026-08-30
+- https://github.com/agentclientprotocol/agent-client-protocol - Apache-2.0 repository, SDKs, stars and commits as of 2026-09-02
 - https://blog.jetbrains.com/ai/2025/12/bring-your-own-ai-agent-to-jetbrains-ides/ - co-creation story, 25.3 beta, the UX trade-off admission
 - https://news.ycombinator.com/item?id=45074147 - launch thread criticism (LSP and MCP comparisons, protocol proliferation, name collision)

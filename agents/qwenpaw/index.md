@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 QwenPaw is the AgentScope team's Apache-2.0, self-hostable personal AI assistant in Python, deployable on your own machine or the cloud, reachable through seven chat apps plus a web console, TUI, and beta desktop app, with three-layer memory, scheduled tasks, and purpose-trained small Qwen models for offline use.
-Facts below verified as of 2026-08-30.
+Facts below verified as of 2026-09-02.
 
 **QwenPaw's edge is the channel matrix, DingTalk, Lark, WeChat, QQ, Discord, Telegram, and iMessage from one self-hosted instance, which no Western-centric runtime in this category matches, and its built-in five-layer security stack is the strongest default posture in the category.**
 
@@ -25,7 +25,7 @@ Apache-2.0, by the AgentScope team; Alibaba involvement is visible in the deploy
 
 ## Status
 
-Rapid and churny: 34,695 stars, 3,046 forks, 899 open issues and PRs as of 2026-08-30, created 2026-02-24, pushed 2026-08-28, 2,288 commits.
+Rapid and churny: 34,781 stars, 3,053 forks, 912 open issues and PRs as of 2026-09-02, created 2026-02-24, pushed 2026-09-02, 2,314 commits.
 v2.1.0 released 2026-08-13 with a 2.2.0 beta already on PyPI.
 **A ground-up rewrite one month before the current minor line is the churn signature: adoption is real, stability is not yet the product.**
 
@@ -41,7 +41,7 @@ v2.1.0 released 2026-08-13 with a 2.2.0 beta already on PyPI.
 - `qwenpaw init --defaults` auto-accepts the telemetry prompt, which privacy-conscious users must opt out of explicitly.
 - Young and heavily rewritten, with much of the roadmap (voice, computer use, multi-workspace) still in progress.
 - The macOS desktop app is beta and unnotarized, requiring a Gatekeeper bypass.
-- 899 open issues and PRs, and the Alibaba-ecosystem gravity (ECS, DashScope, DingTalk) may bias defaults despite provider neutrality.
+- 912 open issues and PRs, and the Alibaba-ecosystem gravity (ECS, DashScope, DingTalk) may bias defaults despite provider neutrality.
 
 ## Pricing
 

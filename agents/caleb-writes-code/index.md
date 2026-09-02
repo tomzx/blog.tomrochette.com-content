@@ -1,7 +1,7 @@
 ---
 title: Caleb Writes Code
 created: 2026-08-29
-updated: 2026-08-30
+updated: 2026-09-02
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=big-pickle, llm=glm-5.3-flash, people, publications, youtube, ai-news, model-releases, explainer]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Caleb Writes Code is the YouTube explainer channel of Caleb Eom, covering model releases, AI hardware, and agentic-engineering concepts in short, illustrated videos.
-Facts below verified as of 2026-08-30.
+Facts below verified as of 2026-09-02.
 
 **He is the fastest way to stay current in video form, because each release and agentic buzzword becomes a 7 to 13 minute illustrated explainer within days, a release-explainer slot no other member of this category fills.**
 
@@ -24,8 +24,8 @@ He is active on X as calebfoundry, on LinkedIn, and runs a Patreon.
 
 ## Status
 
-Active and fast-growing as of 2026-08-30.
-The channel reports 106K subscribers and 115 videos, a live counter shows 106,171 subscribers and about 6.6M total views across 115 videos, and uploads run about twice a week, with the latest on 2026-08-27 being an explainer of OpenAI's inference chip.
+Active and fast-growing as of 2026-09-02.
+The channel reports 107K subscribers and 115 videos, a live counter shows 107,760 subscribers and about 6.7M total views across 115 videos, and uploads run about twice a week, with the latest on 2026-08-27 being an explainer of OpenAI's inference chip.
 All of that scale was reached in under 18 months from the 2025-03-16 start.
 
 ## Strengths
@@ -67,8 +67,8 @@ Not for someone who wants tool-tested practice, reference-grade depth, or an ad-
 
 ## References
 
-- https://www.youtube.com/@calebwritescode - the channel: identity, description, 106K subscribers, 115 videos
+- https://www.youtube.com/@calebwritescode - the channel: identity, description, 107K subscribers, 115 videos
 - https://www.youtube.com/@calebwritescode/about - join date 2025-03-16 and the LinkedIn, X, and Patreon links
 - https://www.youtube.com/feeds/videos.xml?channel_id=UCuU9jE4MHHEIyYMbDfUPSew - the RSS feed grounding cadence, topics, and the 11-of-15 sponsor count
-- https://realtimesubcount.com/UCuU9jE4MHHEIyYMbDfUPSew - live 106,171 subscribers, about 6.6M views, 115 videos, as of 2026-08-30
+- https://realtimesubcount.com/UCuU9jE4MHHEIyYMbDfUPSew - live 107,760 subscribers, about 6.7M views, 115 videos, as of 2026-09-02
 - https://app.thoughtleaders.io/youtube/caleb-writes-code - third-party read on the AI niche and brand safety, plus the stale-prose discrepancy behind the analytics caution

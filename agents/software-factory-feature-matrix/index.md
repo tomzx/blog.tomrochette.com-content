@@ -1,7 +1,7 @@
 ---
 title: "Software Factory Feature Matrix"
 created: 2026-08-29
-updated: 2026-08-30
+updated: 2026-09-02
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=big-pickle, llm=glm-5.3-flash, comparison, software-factory, agentic-workflows]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 This matrix compares the members of the Software factory category: repeatable agents-plus-code production pipelines, where deterministic code owns the loop and agents are bounded nodes inside it.
-Everything below was re-verified against live sources on 2026-08-30.
+Everything below was re-verified against live sources on 2026-09-02.
 
 **The deciding question for this category is who owns the loop: a factory puts phase sequencing, retries, and acceptance in code, and an agent owns only the work inside one bounded phase.**
 
@@ -24,17 +24,17 @@ Each column links to the full research note; every cell below traces to a source
 | --- | --- | --- | --- | --- |
 | Delivery | Rust binary + skill for Codex/Claude Code/Pi, macOS only | CLI + MCP server, npm package | PyPI package + MCP server + Claude Code plugin | one skill (.claude/skills/sssf), stamped into any repo |
 | Loop owner | Rust binary owns scheduler, reviewer, tester, learner | deterministic verify stages; agents own their edits | Python orchestrator owns interview, spec, execute, evaluate, evolve | Python ADW scripts (code owns sequencing, retries, acceptance) |
-| Agent boundary | Work Items in isolated worktrees, human attention queue | one isolated slot per agent | worker never sees the grading command or expected result | one agent, one named phase at a time |
+| Agent boundary | Work Items in isolated worktrees, human attention queue, v0.3.0 Slack planning and approvals | one isolated slot per agent | worker never sees the grading command or expected result | one agent, one named phase at a time |
 | Context across seams | Brief, Behavior Specs (EARS), Technical Approach, Plan | .har contract, shared by all agents | immutable Seed spec frozen before any code | typed JSON envelopes, parsed against a schema |
 | Acceptance | deterministic final Tester bound to the reviewed commit | deterministic verify with per-commit evidence trail | 3-stage gate: mechanical (70% coverage default), semantic LLM (0.8), consensus on triggers | gates that verify artifacts and tests after the fact |
-| Failure handling | resumable Writer correction, fail-closed evidence | per-slot teardown, evidence kept | budgeted evolution, 30-generation cap, stagnation detection | same-session correction, no cold restart |
+| Failure handling | resumable Writer correction, fail-closed evidence, v0.3.0 recovery for long-running scheduler-owned work | per-slot teardown, evidence kept | budgeted evolution, 30-generation cap, stagnation detection | same-session correction, no cold restart |
 | Self-improvement | ✓ Learner writes reusable Expertise after each change | ~ plugins and templates reduce drift, no learner | ✓ refines specs and accumulates reusable assets across generations | ✗ none |
 | Isolation | ✓ isolated worktree, remote via AWS Fargate | ✓ worktree, ports, and database per slot | ~ delegated to the host runtime | ✗ runs on current branch, no sandbox or merge step |
 | Coding agent | Codex, Claude Code, or Pi | Claude Code, Cursor, Codex, or any MCP agent | 13 runtimes, Claude Code through Antigravity | pi only (claude_code stubbed) |
 | Trace | Work Item / Attempt record with bound evidence | Mission Control dashboard per run and artifact | event sourcing with full replay and lineage | SQLite, tool calls visible mid-run |
 | License | Apache-2.0 | Apache-2.0 | MIT | MIT |
 | Born | 2026-07-10 | 2026-06-28 | 2026-01-14 | 2026-08-02 |
-| Stars | about 84 | about 83 | about 5,734 | about 770 |
+| Stars | about 84 | about 84 | about 5,752 | about 770 |
 
 ## Reading the matrix
 

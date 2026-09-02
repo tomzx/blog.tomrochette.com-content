@@ -1,7 +1,7 @@
 ---
 title: "Executions Feature Matrix"
 created: 2026-08-24
-updated: 2026-08-30
+updated: 2026-09-02
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, comparison, executions, scheduling, workflow-automation]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 This matrix compares the four execution substrates profiled in this section, the mechanisms that make an agent run without a person starting each task.
-Everything below was verified against live sources on 2026-08-30.
+Everything below was verified against live sources on 2026-09-02.
 
 **What decides between these four is not agent quality but where the trigger definition lives and who can inspect it, and on that axis Copilot automations fail for any team today, a stronger verdict than their zero-setup convenience deserves.**
 

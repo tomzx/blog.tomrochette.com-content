@@ -1,7 +1,7 @@
 ---
 title: OneCLI
 created: 2026-08-30
-updated: 2026-08-30
+updated: 2026-09-02
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agents, harnesses, security, sandboxing, teams]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 OneCLI is an open-source YC S26 agent harness for teams that gives every employee a sandboxed personal agent whose tool calls pass through a credential-injecting gateway, so no agent ever holds a real secret.
-Facts below verified as of 2026-08-30.
+Facts below verified as of 2026-09-02.
 
 **OneCLI's bet is that enforcement belongs outside the model at the network layer, and after pivoting from vault to team harness it is the only entry in this section built for the security buyer first and the engineer second.**
 
@@ -25,8 +25,8 @@ The Launch HN title calls it an "OSS sandboxed agent harness for teams", and tha
 
 ## Status
 
-Very active: v2.3.1 released August 29, 2026, following v2.3.0 and v2.2.3 within the same week.
-3,430 stars and 215 forks as of 2026-08-30, on a repository created March 8, 2026.
+Very active: v2.4.0 released September 1, 2026, days after v2.3.1 and v2.3.0.
+3,435 stars and 219 forks as of 2026-09-02, on a repository created March 8, 2026.
 Three Hacker News threads of record: 161 points for the vault (March 12), 110 for the credential gateway (July 23), and 88 for the YC launch (August 19).
 YC S26, San Francisco, founded by Jonathan Fishner (CEO) and Guy Ben Aharon (CTO).
 In its vault era it was adopted by NanoClaw, per the NanoClaw note in this section.
@@ -41,17 +41,18 @@ In its vault era it was adopted by NanoClaw, per the NanoClaw note in this secti
 
 - The coding-harness layer inside is deliberately thin; if you want a tunable local agent, this manages who may do what, not how well code gets written.
 - The platform is five months old and the API moved from vault to team harness inside that window, so integration code will churn.
-- Over a hundred open issues and pull requests as of 2026-08-30.
+- Over a hundred open issues and pull requests as of 2026-09-02.
 - Pricing jumps from $0 (3 seats, 500 calls/month) to $149/month, and BYOC starts only at the paid tiers.
 
 ## Pricing
 
 Free at $0 with $5 AI credits, 500 calls/month, 3 seats, and 3 agents.
-Growing Teams at $149/month for 5 users and 10 agents with BYOC keys.
-Scaling at $499/month for 10 users and 20 agents, $49 per extra user.
-Enterprise custom.
-Self-hosted deployment is documented for the community edition.
-All as of 2026-08-30.
+Team is $149/month for 5 users and 10 agents when you bring your own model keys (BYOC), or $499/month with hosted models included.
+Scale is $499/month for 10 users and 20 agents BYOC, or $1,999/month with hosted models.
+Extra seats are $49/user/month with your own key or $199 with hosted models.
+Enterprise custom, and platform self-hosting (your cloud, VPC, or on-prem) is quoted there.
+The Apache-2.0 core remains self-hostable from source without a commercial license per the README.
+All as of 2026-09-02.
 
 ## Compared to
 
@@ -75,10 +76,10 @@ I think the prompt-based permission systems across every other harness in this s
 
 ## References
 
-- https://github.com/onecli/onecli - repository state, license, stars, and v2 pivot story as of 2026-08-30
-- https://github.com/onecli/onecli/releases - release cadence through v2.3.1 on August 29, 2026
-- https://onecli.sh - product positioning, gateway model, and free tier as of 2026-08-30
-- https://onecli.sh/pricing - tiers and seat limits as of 2026-08-30
+- https://github.com/onecli/onecli - repository state, license, stars, and v2 pivot story as of 2026-09-02
+- https://github.com/onecli/onecli/releases - release cadence through v2.4.0 on September 1, 2026
+- https://onecli.sh - product positioning, gateway model, and free tier as of 2026-09-02
+- https://onecli.sh/pricing - tiers, BYOC versus hosted-model pricing, and seat limits as of 2026-09-02
 - https://onecli.sh/docs - architecture: sandbox, gateway, policy, self-hosting
 - https://www.ycombinator.com/companies/onecli - YC S26 batch, founders, and launch description
 - https://news.ycombinator.com/item?id=49363710 - 88-point Launch HN, August 19, 2026

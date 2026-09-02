@@ -1,7 +1,7 @@
 ---
 title: Worktrunk
 created: 2026-08-30
-updated: 2026-08-30
+updated: 2026-09-02
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, git-worktrees, cli, open-source]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Worktrunk (`wt`) is a Rust CLI that makes git worktrees as easy as branches so you can run many coding agents in parallel, with lifecycle hooks, LLM commit messages, and a one-command merge pipeline.
-Facts below verified as of 2026-08-30.
+Facts below verified as of 2026-09-02.
 
 **Worktrunk wins by staying out of the way: no TUI to learn, no daemon to run, just worktrees addressed by branch name plus hooks that automate the boring 80 percent of the parallel-agent workflow.**
 
@@ -24,8 +24,8 @@ Dual MIT or Apache-2.0 license, Homebrew, cargo, winget, and AUR distribution, b
 
 ## Status
 
-The leading worktree manager of the agent wave: 6,759 stars, 239 forks, 38 open issues and PRs as of 2026-08-30, created 2025-10-17, 4,962 commits, pushed the day of verification, latest release v0.75.0 on 2026-08-27.
-Roughly 75 releases in ten and a half months; still pre-1.0 with breaking changes per release, and effectively a single-maintainer project.
+The leading worktree manager of the agent wave: 6,802 stars, 242 forks, 39 open issues and PRs as of 2026-09-02, created 2025-10-17, 4,982 commits, pushed the day of verification, latest release v0.76.0 on 2026-09-01.
+Roughly 76 releases in ten and a half months; still pre-1.0 with breaking changes per release, and effectively a single-maintainer project.
 
 ## Strengths
 
@@ -37,7 +37,7 @@ Roughly 75 releases in ten and a half months; still pre-1.0 with breaking change
 ## Cautions
 
 - Bus factor approximately one: nearly all human commits are from the maintainer.
-- Pre-1.0 churn is real; v0.75 raised the git minimum and broke both the list JSON schema and the library API.
+- Pre-1.0 churn is real; v0.75 raised the git minimum and broke both the list JSON schema and the library API, and v0.76 changed `-x` from a shell string to a single program name.
 - Hooks execute arbitrary shell from project config; the approval system mitigates it, but review `.config/wt.toml` in unfamiliar repos.
 - No independent critical review exists yet, and the tool assumes you are comfortable in your own shell and editor.
 
@@ -68,6 +68,6 @@ Not for GUI-first workflows, and not for anyone who needs a project to promise s
 - https://github.com/max-sixty/worktrunk - repository, README, commands, license
 - https://worktrunk.dev - documentation and agent-integration guides
 - https://worktrunk.dev/hook/ - hook types, blocking semantics, and the approval security model
-- https://github.com/max-sixty/worktrunk/releases/tag/v0.75.0 - latest release, cadence, and breaking changes
+- https://github.com/max-sixty/worktrunk/releases/tag/v0.76.0 - latest release, cadence, and breaking changes
 - https://raw.githubusercontent.com/max-sixty/worktrunk/HEAD/README.md - quick start and the maintainer's own positioning
 - https://github.com/smtg-ai/claude-squad - comparison data for the TUI alternative

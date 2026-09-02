@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 deepeval is an Apache-2.0, pytest-style unit-testing framework for LLM applications that scores outputs with LLM-as-a-judge metrics, G-Eval, task completion, faithfulness, and roughly fifty more, so eval failures gate code like ordinary test failures.
-Facts below verified as of 2026-08-30.
+Facts below verified as of 2026-09-02.
 
 **deepeval is the category's default answer to the question where do evals live, and its answer is your existing test suite, which is exactly why the open-core line around the Confident AI platform is the decision that matters.**
 
@@ -24,8 +24,8 @@ Made by Confident AI, a seed-stage San Francisco company, Apache-2.0.
 
 ## Status
 
-The volume leader of Python eval frameworks: 17,960 stars, 1,875 forks, roughly 500 open issues and PRs as of 2026-08-30.
-Created 2023-08-10, pushed the day of verification, Python v4.2.0 released 2026-08-24, about 4.9 million PyPI downloads a month.
+The volume leader of Python eval frameworks: 18,046 stars, 1,890 forks, roughly 550 open issues and PRs as of 2026-09-02.
+Created 2023-08-10, pushed the day of verification, Python v4.2.0 released 2026-08-24, about 4.9 million PyPI downloads a month as of 2026-08-30.
 **Three years old and commercially backed, it is the most mature column in this category, and the 500-issue backlog reads as heavy usage rather than neglect.**
 
 ## Strengths
@@ -40,7 +40,7 @@ Created 2023-08-10, pushed the day of verification, Python v4.2.0 released 2026-
 - Most flagship metrics are LLM-as-judge: non-deterministic, prompt-sensitive, and billed to your judge key on every run.
 - The open-core split is real: comparisons, regression tracking, datasets, and online evals live in the paid Confident AI platform, and `deepeval login` is "highly recommended" while auto-logging test cases to their cloud unless you opt out.
 - The TypeScript SDK is explicitly not score-parity-verified against Python.
-- Docs-quality criticism at launch has been addressed but 500 open issues signal friction.
+- Docs-quality criticism at launch has been addressed but 550 open issues signal friction.
 
 ## Pricing
 

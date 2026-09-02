@@ -1,7 +1,7 @@
 ---
 title: "Hybrid Execution Feature Matrix"
 created: 2026-08-24
-updated: 2026-08-30
+updated: 2026-09-02
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, comparison, hybrid-execution, structured-outputs, constrained-decoding]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 This matrix compares the four hybrid-execution notes profiled in this section, feature by feature: two vendor API features that constrain decoding and two libraries that validate or mask their way to typed output.
-Everything below was verified against live sources on 2026-08-30.
+Everything below was verified against live sources on 2026-09-02.
 
 **These four are less competitors than two mechanisms wearing four badges, and the decision that matters is whether the schema is enforced while tokens are sampled or checked after the fact: I would take decoding-time enforcement everywhere it exists, which leaves the libraries the portability and business-rules work, and makes most single-provider Instructor deployments written after 2025 incidental complexity.**
 

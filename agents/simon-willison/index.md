@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Simon Willison's Weblog is the densest real-time record of what software engineers can actually do with LLMs, published daily by someone who uses them in his own practice.
-Facts below verified as of 2026-08-30.
+Facts below verified as of 2026-09-02.
 
 **No other voice tracks the tool-and-model churn of agentic development day-by-day with the same density and the same willingness to name what is hype; if you follow one feed for this domain, this is the one.**
 
@@ -24,7 +24,7 @@ He coined the widely quoted framing of LLMs as a "weird, over-confident intern" 
 ## Status
 
 Active and as influential as ever.
-As of 2026-08-29 the homepage shows multiple posts a day through late August 2026, with dedicated tag streams for agentic-engineering, coding-agents, and ai-assisted-programming.
+As of 2026-09-02 the homepage shows multiple posts a day through 1 September 2026, with dedicated tag streams for agentic-engineering, coding-agents, and ai-assisted-programming.
 He ships code on the blog too: the sqlite-utils 4.0 release notes record that much of it was written by a coding agent, so the blog is documentation of his own agent loops, not just commentary on them.
 
 ## Strengths

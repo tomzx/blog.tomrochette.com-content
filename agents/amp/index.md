@@ -1,7 +1,7 @@
 ---
 title: Amp
 created: 2026-08-22
-updated: 2026-08-27
+updated: 2026-09-02
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, coding-agents, harnesses, remote-execution, developer-tools]
 readability: 3
@@ -12,7 +12,7 @@ audience_notes: >
 ---
 
 Amp is the coding agent from Amp Frontier Corporation ([spun out of Sourcegraph on December 2, 2025](https://ampcode.com/news/amp-frontier-corporation)): a CLI plus web and phone surfaces, with threads that run on remote machines called orbs.
-Facts below verified as of 2026-08-30.
+Facts below verified as of 2026-09-02.
 
 **Amp's orbs are the most direct answer in the field to "the agent should keep working when I close my laptop", and the product is priced exactly like something that believes its own value.**
 
@@ -44,7 +44,7 @@ Shipping cadence in August 2026 is weekly (usage explainers, MCP in orbs, team h
 
 ## Pricing
 
-Megawatt $20/month: 750 orb hours, $20 of included agent usage, **unlimited linked ChatGPT, X Premium+/SuperGrok, or SpaceX AI subscription usage**, low and medium modes (high with a linked ChatGPT subscription).
+Megawatt $20/month: 750 orb hours, $20 of included agent usage, **unlimited linked ChatGPT, X Premium+/SuperGrok, or other linked AI subscription usage**, low and medium modes (high with a linked ChatGPT subscription).
 Gigawatt $200/month: 1,000 hours of xxlarge orbs, $200 included usage, all modes including ultra.
 Usage billing and enterprise plans meter by API rates; students and teachers pay $10/month.
 
@@ -68,8 +68,8 @@ Not for open-source-only teams or anyone metering their own tokens.
 
 ## References
 
-- https://ampcode.com/ - product overview, orbs, news cadence as of 2026-08-22
-- https://ampcode.com/pricing/ - Megawatt, Gigawatt, usage billing, linked subscriptions
+- https://ampcode.com/ - product overview, orbs, news cadence as of 2026-09-02
+- https://ampcode.com/pricing/ - Megawatt, Gigawatt, usage billing, linked subscriptions, as of 2026-09-02
 - https://ampcode.com/news/amp-frontier-corporation - the December 2, 2025 spinout announcement
 - https://ampcode.com/manual/ - modes, oracle, librarian, skills, plugins, permissions
 - https://news.ycombinator.com/item?id=46124649 - spinout discussion with praise and cost complaints

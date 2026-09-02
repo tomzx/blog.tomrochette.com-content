@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Anthropic structured outputs is the Claude API feature that constrains responses and tool inputs to a JSON Schema via grammar-constrained decoding, split into JSON outputs (`output_config.format`) and strict tool use (`strict: true` on tools).
-Facts below verified as of 2026-08-30.
+Facts below verified as of 2026-09-02.
 
 **Anthropic arrived more than a year after OpenAI (public beta November 2025, GA February 2026), and the gap still shows in the schema subset and complexity limits, but strict tool use targets the failure that hurts agents most: malformed tool arguments mid-loop.**
 
@@ -47,7 +47,7 @@ Independent tooling tracked it immediately: Simon Willison's llm-anthropic plugi
 ## Pricing
 
 **No feature surcharge, but the meter runs in the small print.**
-You pay normal per-model token rates plus the injected prompt tokens; the tool-use docs quantify the tool-use system prompt alone at roughly 286 to 675 input tokens per request depending on model and `tool_choice` (for example 286 for Opus 5 with `auto`, 675 for Opus 4.7) as of 2026-08-24.
+You pay normal per-model token rates plus the injected prompt tokens; the tool-use docs quantify the tool-use system prompt alone at roughly 286 to 675 input tokens per request depending on model and `tool_choice` (for example 286 for Opus 5 with `auto`, 675 for Opus 4.7) as of 2026-09-02.
 Batch discounts structured output requests by 50%.
 
 ## Compared to

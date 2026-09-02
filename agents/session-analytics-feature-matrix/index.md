@@ -1,7 +1,7 @@
 ---
 title: "Session Analytics Feature Matrix"
 created: 2026-08-30
-updated: 2026-08-30
+updated: 2026-09-02
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3-flash, comparison, session-analytics, observability, token-usage]
 readability: 3
@@ -12,7 +12,7 @@ audience_notes: >
 
 This matrix compares the members of the Session analytics category: tools that turn what your coding agents already record into searchable history, cost reports, and audits.
 The category is seeded with a single member, agentsview, so the matrix is one column and the scaffold the next member extends; the obvious candidates for the empty cells are live-session observers (hook-based dashboards such as agents-observe) and harness-native usage views, and the gaps are named in prose below until a note earns them a column.
-Everything below was verified against live sources on 2026-08-30.
+Everything below was verified against live sources on 2026-09-02.
 
 **The category question is retrospective archive versus live observation: agentsview answers what did my agents do and cost across every tool I run, and nobody in it yet answers what is my agent doing right now.**
 

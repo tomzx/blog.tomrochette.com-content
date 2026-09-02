@@ -1,9 +1,9 @@
 ---
 title: "Surface Feature Matrix"
 created: 2026-08-24
-updated: 2026-08-26
+updated: 2026-09-02
 status: finished
-tags: [agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, comparison, surfaces, ai-editors]
+tags: [agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, comparison, surfaces, ai-editors]
 readability: 3
 audience_notes: >
   Engineers choosing an editor or environment for agentic coding who need the capability deltas at a glance.
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 This matrix compares the twelve surfaces profiled in this section, feature by feature, from editors to agent platforms to session cockpits.
-Everything below was verified against live sources on 2026-08-24 and re-verified on 2026-08-30; the Continue and Roo Code columns, both death records, on 2026-08-26.
+Everything below was verified against live sources on 2026-08-24 and re-verified on 2026-09-02.
 
 **The surfaces differ less in whether they have an agent and more in what they are: an editor with an agent inside, a platform that treats the editor as one client, or a cockpit for many agents, and the row that matters most is the one nobody advertises, who runs where.**
 

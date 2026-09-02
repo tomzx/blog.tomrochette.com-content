@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Sourcegraph is a code intelligence platform (Code Search, Deep Search, an MCP server with the Code Finder agent) that has repositioned itself as the retrieval layer both humans and coding agents use on large codebases.
-Facts below verified as of 2026-08-24.
+Facts below verified as of 2026-09-02.
 
 **Sourcegraph rebuilt itself around selling search to agents rather than assistants to humans, and its own benchmark data says the value only appears above roughly 400K lines of code, which is exactly the fact its sales motion will not volunteer.**
 
@@ -49,7 +49,7 @@ I found little independent 2026 community discussion of the post-split platform;
 ## Pricing
 
 **The floor is $16K a year before any AI usage, which prices out every team the product's own data says it cannot help.**
-Enterprise plan starting at $16K per year as of 2026-08-24, scaling with team size, including pooled AI credits (no monthly expiry, rollover on renewal), with volume credit buckets as an add-on and 24x5 support.
+Enterprise plan starting at $16K per year as of 2026-09-02, scaling with team size, including pooled AI credits (no monthly expiry, rollover on renewal), with volume credit buckets as an add-on and 24x5 support.
 No self-serve or free private tier; the public code search is free.
 
 ## Compared to

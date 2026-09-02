@@ -1,7 +1,7 @@
 ---
 title: CodeRabbit
 created: 2026-08-30
-updated: 2026-08-30
+updated: 2026-09-02
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, code-review, ai-review, developer-tools]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 CodeRabbit is a commercial AI code review service (the coderabbitai GitHub and GitLab app, plus CLI and IDE surfaces) that reviews every pull request automatically and is expanding into triage, change explanation, and security under the banner of Agentic Change Management.
-Facts below verified as of 2026-08-30.
+Facts below verified as of 2026-09-02.
 
 ## What it is
 
@@ -24,7 +24,7 @@ It is proprietary SaaS from CodeRabbit, Inc., founded by Harjot Gill and Gur Sin
 
 **Very active, well-funded, and mid-pivot from reviewer to platform.**
 Funding: $16M Series A led by CRV (August 13, 2024), then $60M Series B led by Scale Venture Partners with NVIDIA's NVentures (September 16, 2025, $550M valuation, $88M total raised), then $143M Series C at a $1.5B valuation co-led by Atomico and Smash Capital on August 12, 2026, with revenue up more than 5x year over year per that announcement.
-Scale as of 2026-08-30: 17,000+ customers, 6M repositories, and more than 2M reviews per week, versus 2M repos installed and 13M cumulative PR reviews at the Series B a year earlier.
+Scale as of 2026-09-02: 17,000+ customers, 6M repositories, and more than 2M reviews per week, versus 2M repos installed and 13M cumulative PR reviews at the Series B a year earlier.
 
 ## Strengths
 
@@ -41,13 +41,14 @@ Scale as of 2026-08-30: 17,000+ customers, 6M repositories, and more than 2M rev
 - The generalizable lesson: any PR-review SaaS holds write tokens across every repo you install it on, so one vendor bug is one bug across your whole portfolio.
 - Critical market-share signal: Pullflow's analysis of 40.3M public PRs found GitHub Copilot overtook CodeRabbit as the top AI reviewer by PRs per month by November 2025, though CodeRabbit still led the cumulative 2025 count (632,256 vs 561,382 distinct PRs), and the metric measures participation, not review quality.
 - Competitors position it as the verbose-but-cheaper option (Greptile's founder says switchers cite verbosity and concedes the price point), and the incident's "no customer data was accessed" claim is CodeRabbit's own, not independently verifiable.
-- Metering creeps in at the edges: 5 PR reviews per developer per hour on Pro (fair-use capped), and the Slack agent bills $0.50 per agent minute.
+- Metering creeps in at the edges: 5 PR reviews per developer per hour on Essentials (fair-use capped, 8 on Team and 10 on Advanced), and the Slack agent bills $0.50 per agent minute.
 
 ## Pricing
 
-**Per-seat pricing with a genuinely free open source tier, as of 2026-08-30.**
-Pro is $24 per user per month and Pro Plus is $48 (both billed annually, 14-day free trial), with Enterprise adding SSO, RBAC, API access, EU SaaS, and self-hosting at custom pricing.
-CodeRabbit Security is a separate $40 per user per month, the Slack agent is usage-billed at $0.50 per agent minute, and a usage add-on covers unlimited CLI and PR reviews ($0.25 per file reviewed per the CLI FAQ).
+**Per-seat pricing with a genuinely free open source tier, as of 2026-09-02.**
+The plans were renamed in late August 2026: Essentials is the new name for Pro and Team the new name for Pro Plus, at the same prices, Essentials $24 per user per month and Team $48 (both billed annually, $30 and $60 monthly, 14-day free trial), with Enterprise adding SSO, RBAC, API access, EU SaaS, and self-hosting at custom pricing.
+The standalone $40 Security plan is gone: a new Advanced tier ($72 annual, $90 monthly) folds in continuous security monitoring and per-PR security review, and full codebase security scans outside it use variable pricing.
+The Slack agent remains usage-billed at $0.50 per agent minute, and usage-based reviews bill $0.25 per reviewed file beyond included limits.
 Public repositories get reviews free forever, no setup required.
 
 ## Compared to
@@ -72,8 +73,8 @@ My disagreeable take: the exploit history makes CodeRabbit more credible, not le
 
 ## References
 
-- https://www.coderabbit.ai/ - product surface, 17K customers and 6M repositories claims as of 2026-08-30
-- https://www.coderabbit.ai/pricing - tiers, prices, and rate limits as of 2026-08-30
+- https://www.coderabbit.ai/ - product surface, 17K customers and 6M repositories claims as of 2026-09-02
+- https://www.coderabbit.ai/pricing - Essentials/Team/Advanced tiers, prices, and rate limits as of 2026-09-02
 - https://www.coderabbit.ai/blog/introducing-agentic-change-management - Series C: $143M at a $1.5B valuation, August 12, 2026, 2M weekly reviews, 17K customers, 150K OSS projects, Triage/Change Stack/Security launch
 - https://www.coderabbit.ai/blog/coderabbit-series-b-60-million-quality-gates-for-code-reviews - Series B: $60M led by Scale Venture Partners with NVentures, September 16, 2025, 2M repos, 13M PRs reviewed
 - https://www.coderabbit.ai/blog/coderabbit-announces-16m-series-a-funding-led-by-crv - Series A: $16M led by CRV, August 13, 2024

@@ -1,7 +1,7 @@
 ---
 title: claude-mem
 created: 2026-08-30
-updated: 2026-08-30
+updated: 2026-09-02
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, session-memory, compression, open-source]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 claude-mem is an open-source Apache-2.0 plugin that gives coding agents persistent cross-session memory by capturing session activity through lifecycle hooks, compressing it into observations with LLM calls, storing them in local SQLite, and injecting relevant context back into future sessions.
-Facts below verified as of 2026-08-30.
+Facts below verified as of 2026-09-02.
 
 **claude-mem is the strongest evidence yet that session memory has crossed from experiment to default expectation, and its cost model is the field's open question: it captures everything and pays your tokens to compress it.**
 
@@ -25,8 +25,8 @@ Made by Alex Newman (thedotmack), a solo author in the Vercel OSS Program, with 
 
 ## Status
 
-Very large and fast: 92,651 stars, 8,153 forks, 270 open issues as of 2026-08-30, 73,623 npm downloads in the last month.
-Created 2025-08-31, pushed 2026-08-29, latest release v13.18.0 on 2026-08-29.
+Very large and fast: 92,963 stars, 8,177 forks, 296 open issues and pull requests as of 2026-09-02, 73,623 npm downloads in the last month.
+Created 2025-08-31, pushed 2026-09-02, latest release v13.23.1 on 2026-09-01.
 **The v13.x version line tells you the churn rate: near-daily releases with major-version jumps, which is velocity and breakage risk in the same number.**
 
 ## Strengths
@@ -74,5 +74,5 @@ Not for privacy-strict environments, anyone unwilling to run a local worker serv
 - https://docs.claude-mem.ai/architecture/overview - hook architecture and the compression flow behind the token-cost caution
 - https://docs.claude-mem.ai/cloud-sync - the documented privacy trade-off of the cloud tier
 - https://claude-mem.ai - pricing tiers and adoption stats
-- https://api.npmjs.org/downloads/point/last-month/claude-mem - the 73,623 monthly downloads as of 2026-08-30
+- https://api.npmjs.org/downloads/point/last-month/claude-mem - the 73,623 monthly downloads as of 2026-09-02
 - https://news.ycombinator.com/item?id=47422611 - the critical take from a competing memory author on the capture-everything approach
