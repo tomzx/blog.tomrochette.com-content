@@ -652,3 +652,8 @@ Changes to this section that do not appear here were made by a human and must be
 - Owner directive in chat: link references directly in the body text where they are discussed, the arXiv studies specifically, and it applies to future articles too; recorded as standing practice [owner, glm-5.3-flash]
 - the-tells-are-structural: StoryScope, the human-detection study, the slop-measurement study, LAMP, sepia's repo, and Wikipedia's signs-of-AI-writing page now hyperlink at their first in-text mention; the Who Maintains the Slop? mention also became an inline link; every URL was already fetched 200 this run [glm-5.3-flash]
 - Verification: front matter parses, internal link targets exist on disk, one sentence per line, no em-dashes, no banned terms [glm-5.3-flash]
+
+## 2026-09-03 (attribution note for the commit above)
+
+- Commit 314dd62c contains two runs' work: the intended changes are the the-tells-are-structural inline links and the log entry; the remaining 38 files (verification-date bumps to 2026-09-03 plus re-verification edits across surfaces, harnesses, and orchestration notes and their matrices, including Gemini 3.8 Flash, cmux's 50-VM cloud cap, conductor 0.84.0, Kiro 2.21.0 and 1.0.437, jcode 19k, and the paseo Hub GA) are the concurrent 2026-09-03 daily-refresh run's in-progress edits, swept in because they landed in the working tree between this session's stage and commit [glm-5.3-flash]
+- Those 38 files' changes are attributed to that run [glm-5.3-flash]; it will record its own entry when it completes, per the 2026-08-29 concurrent-run precedent [glm-5.3-flash]
