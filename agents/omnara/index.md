@@ -12,7 +12,7 @@ audience_notes: >
 ---
 
 Omnara (YC S25) is an open-source, model-agnostic control plane for managed agents: you define agents in YAML, it handles execution and state, and you drive them from a web dashboard, mobile apps, CLI, REST API, or Slack.
-Facts below verified as of 2026-09-02.
+Facts below verified as of 2026-09-03.
 
 **Omnara has quietly pivoted from "run Claude Code from your phone" into the open-source alternative to Claude Managed Agents, and that repositioning makes it infrastructure for serving agents, not just supervising them.**
 
@@ -27,7 +27,7 @@ It sits in the orchestration layer of this section's taxonomy (control plane and
 ## Status
 
 **Active, well-capitalized by YC standards, and shipping daily.**
-2,782 stars and 213 forks as of 2026-09-02 on a repo created July 9, 2025, with pushes landing September 2, 2026 (GitHub API).
+2,808 stars and 216 forks as of 2026-09-03 on a repo created July 9, 2025, with pushes landing September 3, 2026 (GitHub API).
 Two HN threads anchor its traction: a 310-point Show HN on August 12, 2025 ([HN](https://news.ycombinator.com/item?id=44878650)) and a 147-point Launch HN on February 12, 2026 ([HN](https://news.ycombinator.com/item?id=46991591)).
 The product's own framing moved between those dates, from "run Claude Code from anywhere" to "the API for production-grade agents" with managed-agent execution.
 
@@ -71,7 +71,7 @@ I believe every serious agent deployment eventually needs exactly what Omnara is
 
 ## References
 
-- https://github.com/omnara-ai/omnara - repository, Apache-2.0, 2,782 stars as of 2026-09-02
+- https://github.com/omnara-ai/omnara - repository, Apache-2.0, 2,808 stars as of 2026-09-03
 - https://docs.omnara.com/introduction - agent YAML model, dashboard/CLI/API surfaces, use cases
 - https://raw.githubusercontent.com/omnara-ai/omnara/main/README.md - current positioning and getting-started flow
 - https://www.omnara.com/ - "open-source alternative to Claude Managed Agents" positioning

@@ -12,7 +12,7 @@ audience_notes: >
 ---
 
 Claude Squad is a free, AGPL-3.0 terminal app (command `cs`) that manages multiple coding agents in tmux sessions, each isolated in its own git worktree.
-Facts below verified as of 2026-09-02.
+Facts below verified as of 2026-09-03.
 
 **It is the minimal, single-binary version of the parallel-agent pattern, and at about 8.4k GitHub stars it became the default terminal recommendation despite almost no launch buzz.**
 
@@ -27,8 +27,8 @@ Prerequisites are just tmux and the GitHub CLI.
 ## Status
 
 Active but slow-burning.
-The repository was created in March 2025, was last pushed to on 2026-08-20, and shows 222 commits, about 8,413 stars, and 619 forks as of 2026-09-02.
-Homebrew reports 5,457 installs over the last 365 days as of 2026-09-02, which is real but modest usage for its star count.
+The repository was created in March 2025, was last pushed to on 2026-08-20, and shows 222 commits, about 8,417 stars, and 618 forks as of 2026-09-03.
+Homebrew reports 5,438 installs over the last 365 days as of 2026-09-03, which is real but modest usage for its star count.
 **Its Hacker News footprint is nearly empty (a 5-point launch thread in April 2025), so adoption spread through GitHub and word of mouth, not press.**
 
 ## Strengths

@@ -1,7 +1,7 @@
 ---
 title: cmux
 created: 2026-08-24
-updated: 2026-09-02
+updated: 2026-09-03
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, orchestration, terminal, parallel-agents, macos]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 cmux is Manaflow's open-source macOS terminal built on libghostty for running many coding agents in parallel, with vertical tabs, workspaces, notification rings, and an open-core cloud tier.
-Facts below verified as of 2026-09-02.
+Facts below verified as of 2026-09-03.
 
 **cmux's real product is attention routing, not multiplexing, and its real business is cloud execution: the terminal is the free, GPL-3.0 funnel, and the subscription is where the company actually lives.**
 
@@ -38,16 +38,16 @@ Three contributors dominate the history (about 5.2k, 3.8k, and 1.2k contribution
 ## Cautions
 
 - **macOS only**, and the client is GPL-3.0-or-later (which GitHub labels "Other"), so copyleft-policy teams should check before adoption.
-- Open-core: cloud execution sits behind Pro at $24/month, so the roadmap's center of gravity is the subscription, not the terminal.
+- Open-core: cloud execution sits behind Pro at $40/month (billed yearly), so the roadmap's center of gravity is the subscription, not the terminal.
 - The pace is a risk profile: 0.x versions, a nightly channel, and a launch-era bug list mean churn.
 - An August 2026 thread reports whole-app freezes of 2-10 seconds with SSH sessions open, so remote-heavy workflows should test first.
 - **Name collisions are everywhere**: craigsc/cmux ("tmux for Claude Code", MIT, about 601 stars), a separate October 2025 Show HN "Cmux, Coding Agent Multiplexer" GUI, and an unrelated Go connection multiplexer; search carefully before citing.
 
 ## Pricing
 
-Free $0: the full terminal, any CLI agent BYOK, notifications, browser panels, socket API, local history, one-time Cloud VM trial.
-Pro $24/month billed yearly: cloud agents on isolated VMs, now advertised as unlimited active Cloud VMs where the August page promised a 20 compute-hour monthly allowance, plus the iOS app and email support.
-Team $28 per user/month; Enterprise adds self-hosted cloud execution, as of 2026-09-02.
+Free $0: the full terminal, any CLI agent BYOK, notifications, browser panels, socket API, local history.
+Pro $40/month billed yearly ($50 month-to-month): cloud agents on isolated VMs, now capped at up to 50 Cloud VMs per user (5 vCPU, 20 GB RAM, 200 GB disk each, no metering) where the early-September page still advertised unlimited active VMs, plus unlimited workspaces, the iOS app, and email support.
+Team $48/user/month billed yearly ($60 month-to-month) adds centralized billing and priority support; Enterprise adds self-hosted, even air-gapped, cloud execution, SSO/SAML, audit logs, and SOC 2, as of 2026-09-03.
 
 ## Compared to
 

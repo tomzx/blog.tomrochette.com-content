@@ -1,7 +1,7 @@
 ---
 title: OpenChamber
 created: 2026-08-24
-updated: 2026-08-30
+updated: 2026-09-03
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, surfaces, agentic-development-environments, opencode, open-source]
 readability: 3
@@ -11,21 +11,21 @@ audience_notes: >
 ---
 
 OpenChamber is a free, MIT-licensed agentic development environment built around the OpenCode SDK: desktop, browser, mobile, and a VS Code extension for steering parallel agent sessions.
-Facts below verified as of 2026-09-02.
+Facts below verified as of 2026-09-03.
 
 **OpenChamber is the open-source answer to "where do I run my many OpenCode sessions", and its differentiator is not polish but the fact that the whole surface, worktrees, chat, terminals, scheduling, is code you can read and fix.**
 
 ## What it is
 
 **A session cockpit, not an editor**: parallel sessions each get their own worktree and branch, with chat, files, and terminals in one window.
-Session Goals let an agent keep working toward a finish line with the app closed; Multi-run and Fusion send one task across up to five models and keep or fuse the best results; scheduled work runs prompts on cron; and sessions start from GitHub issues or PRs and merge without leaving the app.
+Session Goals let an agent keep working toward a finish line with the app closed; Multi-run and Fusion send one task across several models in parallel (v1.21.1 lifted the five-model cap) and keep or fuse the best results; scheduled work runs prompts on cron; and sessions start from GitHub issues or PRs and merge without leaving the app.
 Remote access works through a password-gated browser UI, Cloudflare tunnels, or an end-to-end-encrypted Private Relay pairing with no open ports.
 It runs on the OpenCode SDK today and is an independent project, not affiliated with the OpenCode team.
 
 ## Status
 
 **Very active.**
-About 9.5k stars and 1,014 forks as of 2026-09-02, with v1.22.0 (August 30, 2026) the latest release after v1.21.0 and v1.21.1 earlier that week, and commits landing September 1, 2026.
+About 9.5k stars and 1,024 forks as of 2026-09-03, with v1.22.0 (August 30, 2026) the latest release after v1.21.0 and v1.21.1 earlier that week, and commits landing September 2, 2026.
 A 190-point Hacker News thread in August 2026 marks its arrival in general awareness.
 
 ## Strengths
@@ -45,7 +45,7 @@ A 190-point Hacker News thread in August 2026 marks its arrival in general aware
 ## Pricing
 
 Free, open source, MIT.
-Donations via PayPal fund development; there is no paid tier, as of 2026-09-02.
+Donations via Patreon fund development; there is no paid tier, as of 2026-09-03.
 
 ## Compared to
 
@@ -68,7 +68,7 @@ Not for anyone who wants a polished IDE experience or harness choice beyond Open
 ## References
 
 - https://openchamber.dev/ - features, surfaces, privacy model, FAQ
-- https://github.com/openchamber/openchamber - source, repository scale, as of 2026-09-02
+- https://github.com/openchamber/openchamber - source, repository scale, as of 2026-09-03
 - https://github.com/openchamber/openchamber/releases/tag/v1.22.0 - the August 30, 2026 release
 - https://docs.openchamber.dev/ - install and configuration documentation
 - https://news.ycombinator.com/item?id=49233448 - the August 2026 launch discussion

@@ -1,7 +1,7 @@
 ---
 title: "Surface Feature Matrix"
 created: 2026-08-24
-updated: 2026-09-02
+updated: 2026-09-03
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, comparison, surfaces, ai-editors]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 This matrix compares the twelve surfaces profiled in this section, feature by feature, from editors to agent platforms to session cockpits.
-Everything below was verified against live sources on 2026-08-24 and re-verified on 2026-09-02.
+Everything below was verified against live sources on 2026-08-24 and re-verified on 2026-09-03.
 
 **The surfaces differ less in whether they have an agent and more in what they are: an editor with an agent inside, a platform that treats the editor as one client, or a cockpit for many agents, and the row that matters most is the one nobody advertises, who runs where.**
 
@@ -28,7 +28,7 @@ Each column links to the full research note; every cell traces to a source cited
 | BYOK | ✗ | ✓ | ✓ | ✓ Junie | ✗ | ✓ via OpenCode | ✓ | ? | ✓ | ✓ | ✗ Devin key only | ✓ |
 | Local models | ✗ | ✓ Ollama | ? | ✓ Junie | ✗ | ✓ via OpenCode | ✓ | ? | ? | ✓ | ? | ✓ |
 | MCP | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ? | ✓ | ✓ | ✓ |
-| AGENTS.md | ? | ✗ own rules | ✓ | ✗ guidelines.md | ~ spec files instead | ✓ | ✓ if enabled | ✓ | ? | ✓ | ✓ | ✓ |
+| AGENTS.md | ? | ✗ own rules | ✓ | ✗ guidelines.md | ✓ | ✓ | ✓ if enabled | ✓ | ? | ✓ | ✓ | ✓ |
 | Cloud agents | ~ remote control | ✗ | ✓ | ~ | ✓ web and Crew | ✗ local machine only | ~ Cloud sunset 2026-05 | ✓ TraeWork | ✗ | ✓ Copilot agent | ✓ Devin | ✗ |
 | Parallel agent management | ✓ command center | ✗ | ✓ fleets | ? | ✓ Crew | ✓ core loop | ~ orchestrator mode | ✓ concurrent tasks | ✗ | ✓ Agents window | ✓ Command Center | ~ agent panel |
 | Scheduled work | ✓ scheduled messages | ✗ | ✓ automations | ? | ✓ hooks | ✓ cron | ? | ? | ✗ | ~ via GitHub | ? | ✗ |
@@ -40,7 +40,7 @@ I weight the cloud-agents and BYOK rows heaviest, because they decide where your
 **The free-tier row is the story of 2026: every surface now has one, and the differences are rate limits and credit counts rather than feature walls.**
 Antigravity and OpenChamber are the extremes, a closed platform giving the most capability away and an open app with no paid tier to gate anything.
 
-**MCP support is table stakes and effectively universal**, which moves the differentiation to AGENTS.md, where the vendor-convention holdouts (JetBrains with guidelines.md, Kiro with spec files) are now the outliers.
+**MCP support is table stakes and effectively universal**, which moves the differentiation to AGENTS.md, where JetBrains (guidelines.md) is now the lone vendor-convention holdout after Kiro added AGENTS.md support.
 
 **The cloud-agents row separates three philosophies:** platforms with their own cloud (Cursor, Kiro, Trae, Windsurf under Devin, VS Code via GitHub), tools that only reach your own machine (OpenChamber, Zed, Void), and Antigravity's remote-control middle path.
 

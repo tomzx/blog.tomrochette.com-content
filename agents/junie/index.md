@@ -1,7 +1,7 @@
 ---
 title: Junie
 created: 2026-08-22
-updated: 2026-09-02
+updated: 2026-09-03
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, coding-agents, harnesses, jetbrains, byok]
 readability: 3
@@ -12,7 +12,7 @@ audience_notes: >
 ---
 
 Junie is JetBrains' coding agent: an LLM-agnostic CLI that also ships in JetBrains IDEs and CI, authenticating either to JetBrains or to your own model keys.
-Facts below verified as of 2026-09-02.
+Facts below verified as of 2026-09-03.
 
 **Junie quietly became the most vendor-flexible of the major agents (any provider, any local model, zero markup on keys), and its thin independent community, not its capability, is the actual adoption risk.**
 
@@ -28,8 +28,8 @@ BYOK covers Anthropic, OpenAI, Google, xAI, OpenRouter, Copilot, and local model
 
 **Active.**
 Junie started as an IDE agent in January 2025 (53.6% on SWE-bench Verified at announcement), went GA in April 2025, and the LLM-agnostic CLI followed into beta and beyond.
-The GitHub repository (installer and release channels: release, EAP, nightly, experimental) shows about 422 stars and 3,801 commits as of 2026-09-02.
-In August 2026 JetBrains launched Junie Local, a free on-device Mac build that runs the agent on local models via Ollama with no registration, subscription, or credits ([launch post](https://blog.jetbrains.com/junie/2026/08/junie-local-launch/)).
+The GitHub repository (installer and release channels: release, EAP, nightly, experimental) shows about 422 stars as of 2026-09-03.
+In August 2026 JetBrains launched Junie Local, a free on-device build for M5 Macs that runs a bundled, tuned model entirely locally with no registration, subscription, or credits ([launch post](https://blog.jetbrains.com/junie/2026/08/junie-local-launch/)).
 The client is proprietary under JetBrains AI terms; the repo is distribution, not source.
 
 ## Strengths
@@ -42,7 +42,7 @@ The client is proprietary under JetBrains AI terms; the repo is distribution, no
 ## Cautions
 
 - **Community footprint is small**: launch-era HN threads drew dozens of points and near-zero discussion, which is itself a signal about mindshare versus Claude Code or OpenCode.
-- Cloud usage is metered in AI credits (10 per 30 days on AI Pro, 35 on AI Ultimate), so subscription-only users will exhaust quota quickly; BYOK is effectively required for cloud work, though the on-device Junie Local (August 2026) now gives Mac users a free local path.
+- Cloud usage is metered in AI credits (10 per 30 days on AI Pro, 35 on AI Ultimate), so subscription-only users will exhaust quota quickly; BYOK is effectively required for cloud work, though the on-device Junie Local (August 2026) now gives Mac users a free local path (an M5 Mac with 64 GB of RAM, per JetBrains).
 - Early IDE reviewers reported crashes, restarts, and fast quota burn.
 - Its benchmark claims (SWE-Rebench top performer, per the site) are the vendor's own.
 
@@ -51,7 +51,7 @@ The client is proprietary under JetBrains AI terms; the repo is distribution, no
 Free to start (5 AI credits, no card).
 JetBrains AI Pro $8.33 per user/month (annual) and AI Ultimate $25 per user/month include the credit allowances above.
 **BYOK bypasses metering at provider rates.**
-Junie Local (August 2026) is a separate free download: on-device on a Mac, local models via Ollama, no account or credits at all.
+Junie Local (August 2026) is free: it runs inside Junie on an M5 Mac with the bundled model downloaded locally, no account or credits at all.
 
 ## Compared to
 
@@ -73,7 +73,7 @@ Not for anyone who needs an open client or a large community ecosystem today.
 
 ## References
 
-- https://junie.jetbrains.com/ - features, BYOK providers, plans, pricing, as of 2026-09-02
+- https://junie.jetbrains.com/ - features, BYOK providers, plans, pricing, as of 2026-09-03
 - https://blog.jetbrains.com/junie/2026/08/junie-local-launch/ - the Junie Local on-device launch, free with no credits
 - https://github.com/JetBrains/junie - install channels, GitHub Action, license terms
 - https://www.jetbrains.com/junie/ - the product entry point

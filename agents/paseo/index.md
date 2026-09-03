@@ -1,7 +1,7 @@
 ---
 title: Paseo
 created: 2026-08-30
-updated: 2026-09-02
+updated: 2026-09-03
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, parallel-agents, mobile, open-source]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Paseo is a free, open-source, self-hosted orchestration layer that runs coding agents as local processes on your own machines and drives them from desktop, web, mobile, and CLI clients over one daemon.
-Facts below verified as of 2026-09-02.
+Facts below verified as of 2026-09-03.
 
 **Paseo's differentiator is not parallelism, which is now table stakes, but reach: it is the only orchestrator in its class with native iOS and Android clients at full feature parity, wrapped around your existing agent subscriptions instead of replacing them.**
 
@@ -25,9 +25,9 @@ Apache-2.0 (with a custom copyright notice), by Mohamed Boudra, an independent s
 
 ## Status
 
-Young and fast: 15,787 stars, 1,729 forks, 1,206 open issues as of 2026-09-02, created 2025-10-13, pushed the day of verification.
-The 0.7 line reached stable while I watched: v0.7.0 shipped 2026-08-31 and v0.7.2 on 2026-09-02, with 165 contributors and an active subreddit and Discord.
-**The structural risk is on the label: the maintainer described himself on Hacker News as a team of one, with monetization planned but not yet generally available.**
+Young and fast: 15,866 stars, 1,742 forks, 1,224 open issues as of 2026-09-03, created 2025-10-13, pushed 2026-09-02.
+The 0.7 line reached stable while I watched: v0.7.0 shipped 2026-08-31 and v0.7.2 on 2026-09-02 remains the latest release, with 165 contributors and an active subreddit and Discord.
+**The structural risk is on the label: the maintainer described himself on Hacker News as a team of one, and monetization has now arrived as the hosted Hub at €15 per seat per month.**
 
 ## Strengths
 
@@ -46,7 +46,7 @@ The 0.7 line reached stable while I watched: v0.7.0 shipped 2026-08-31 and v0.7.
 ## Pricing
 
 Free and open source under Apache-2.0; you bring your own agent CLIs, subscriptions, and API keys.
-The hosted Hub (managed triggers and team access) is the intended commercial layer but is not generally available and registration is closed; self-hosting Hub works today.
+The hosted Hub (managed GitHub, Slack, and Discord triggers) is now generally available at €15 per seat per month with a free trial, where late August still had registration closed; self-hosting Hub remains free.
 
 ## Compared to
 
@@ -72,5 +72,6 @@ Not for teams needing a vendor's support contract, or Mac-only shops happy payin
 - https://paseo.sh - product claims, platforms, privacy posture
 - https://paseo.sh/docs/supported-providers - the native and ACP-catalog agent list
 - https://paseo.sh/docs/hub/hosted - the commercial layer's status
+- https://paseo.sh/hub - hosted Hub pricing, €15 per seat per month, free trial
 - https://news.ycombinator.com/item?id=48377250 - the launch thread with the solo-maintainer statement and the credit-pool admission
 - https://github.com/BloopAI/vibe-kanban - comparison data on the board alternative

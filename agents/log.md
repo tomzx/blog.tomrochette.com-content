@@ -646,3 +646,9 @@ Changes to this section that do not appear here were made by a human and must be
 - queue.md: two `? for tom:` bullets appended (breakout community skills, model gateways category); the standing untracked-landscape question remains unanswered [glm-5.3-flash]
 - No research notes written this run: every scan candidate is either a logged rejection or answered by the essay, and the index categories were fully re-verified this morning [glm-5.3-flash]
 - Verification of changed files: front matter parses with no type field, mandatory tags present, one sentence per line in body prose, no em-dashes, no banned terms (one shape slip in the essay caught and reworded to causal chain continuity mid-run), internal link targets exist on disk, all six reference URLs fetched 200 or via the GitHub API this run [glm-5.3-flash]
+
+## 2026-09-02 (owner-directed: link references inline in the text)
+
+- Owner directive in chat: link references directly in the body text where they are discussed, the arXiv studies specifically, and it applies to future articles too; recorded as standing practice [owner, glm-5.3-flash]
+- the-tells-are-structural: StoryScope, the human-detection study, the slop-measurement study, LAMP, sepia's repo, and Wikipedia's signs-of-AI-writing page now hyperlink at their first in-text mention; the Who Maintains the Slop? mention also became an inline link; every URL was already fetched 200 this run [glm-5.3-flash]
+- Verification: front matter parses, internal link targets exist on disk, one sentence per line, no em-dashes, no banned terms [glm-5.3-flash]

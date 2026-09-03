@@ -1,7 +1,7 @@
 ---
 title: Windsurf
 created: 2026-08-23
-updated: 2026-09-02
+updated: 2026-09-03
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, surfaces, ai-editors, cognition, devin]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Windsurf was the agentic IDE that survived an aborted $3 billion OpenAI acquisition and a Cognition rescue, and it is now being rebranded out of existence as Devin Desktop.
-Facts below verified as of 2026-09-02.
+Facts below verified as of 2026-09-03.
 
 **Windsurf is the category's cautionary tale: the number-two AI editor was bought, broken up, and rebranded within two months in mid-2025, and its retirement into Devin Desktop is the reminder that loyalty to an AI editor has no asset value.**
 
@@ -40,7 +40,7 @@ On September 2, 2026, Bloomberg reported that Cognition is closing a round of ab
 ## Cautions
 
 - **You cannot buy Windsurf anymore, you buy Devin**: check whether your workflow survives an owner whose flagship is a cloud autonomous agent.
-- windsurf.com rate-limits automated fetches (HTTP 429 on every attempt this run), so plan pages could not be re-verified as of 2026-09-02.
+- windsurf.com rate-limits automated fetches (HTTP 429 on every attempt, last checked 2026-09-02), so its plan pages remain unverified.
 - The equity dispute thread is a reminder of how much human turbulence this product absorbed in 2025.
 - A rebrand in progress means docs, packages, and repositories still say windsurf in places; expect transitional breakage.
 
@@ -48,7 +48,7 @@ On September 2, 2026, Bloomberg reported that Cognition is closing a round of ab
 
 **The classic Windsurf consumer plans are gone with the rebrand; Devin Desktop authenticates with a Devin account and meters usage as credits.**
 Enterprise relationships carry over through Cognition sales.
-Current tier prices were not verifiable this run because windsurf.com rejected automated fetches.
+Current tier prices remain unverified because windsurf.com rejected automated fetches at the last check; Devin Desktop authenticates with a Devin account and meters usage as credits, which the docs confirm.
 
 ## Compared to
 

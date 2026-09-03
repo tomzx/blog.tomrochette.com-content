@@ -1,7 +1,7 @@
 ---
 title: "Harness Feature Matrix"
 created: 2026-08-24
-updated: 2026-09-02
+updated: 2026-09-03
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, comparison, harnesses, coding-agents]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 This matrix compares the twenty-three harnesses profiled in this section, feature by feature, so the shortlisting step does not require reading twenty-three notes.
-Everything below was re-verified against live sources on 2026-09-02.
+Everything below was re-verified against live sources on 2026-09-03.
 
 **No harness has everything, and the two axes that actually decide the purchase are client openness and who pays for tokens: everything else is converging.**
 
@@ -27,9 +27,9 @@ Each column links to the full research note; every cell below traces to a source
 | BYOK | ✓ | ✓ | ✓ | ? | ✓ | ✓ | ✓ | ✓ | ✓ | ~ AI Gateway key only | ✓ paid keys | ✓ | ✓ | ✓ | ✓ | ✓ | ~ BYOC at paid tiers | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 | Included subscription usage | ✗ | ✓ | ✓ | ✗ free, no subscriptions | ✓ | ~ via ClinePass | ✓ | ~ via Hyper | ✗ BYO keys only | ~ Codex and Grok OAuth | ✗ enterprise only | ~ via ACP subs | ✓ OAuth and multi-account | ✓ | ✓ | ~ kilo credits | ~ $5 credits at $0 tier | ~ via Zen | ✗ at-cost only | ✓ Claude, ChatGPT, Copilot | ~ free OAuth tier | ✓ | ✗ |
 | Local models | ✓ | ✗ | ✓ embedded llama.cpp | ✗ hosted models only | ✗ | ✓ | ✗ | ✓ | ~ OpenAI-compatible endpoints | ✗ none documented | ✗ | ✓ | ✓ Ollama and LM Studio | ✓ Ollama | ✓ Ollama and LM Studio, plus on-device Junie Local | ✓ Ollama and LM Studio | ? | ✓ | ✓ LM Studio, Ollama, vLLM | ✓ llama.cpp | ✓ | ✗ | ✓ Ollama |
-| MCP | ✗ | ✓ | ✓ | ? | ✓ | ✓ | ✓ | ✓ | ? | ✓ | ✓ | ✓ | ~ stdio only | ? | ✓ | ✓ | ? | ✓ | ✓ | ✗ by design | ✓ | ? | ~ compile-time feature |
+| MCP | ✗ | ✓ | ✓ | ? | ✓ | ✓ | ✓ | ✓ | ? | ✓ | ✓ | ✓ | ~ stdio only | ✓ | ✓ | ✓ | ? | ✓ | ✓ | ✗ by design | ✓ | ? | ~ compile-time feature |
 | AGENTS.md | ✗ | ✓ | ✓ | ? | ~ reads CLAUDE.md | ✓ plus .clinerules | ✓ | ✓ plus CRUSH.md | ? | ✓ native | ~ GEMINI.md native | ✓ plus .goosehints | ✓ native plus ~/AGENTS.md | ? | ✗ uses guidelines.md | ✓ plus .kilocoderules | ? | ✓ plus CLAUDE.md | ✗ uses .openhands | ? | ~ QWEN.md native | ? | ✓ plus ARCHITECTURE.md |
-| Subagents | ✗ | ✓ | ✓ | ? | ✓ | ✓ teams | ✓ | ? | ✓ | ✓ persistent children | ✗ | ✓ | ✓ swarm workers | ? | ✗ | ✓ custom and built-in | ? | ✓ | ~ delegates via ACP | ~ via extensions | ✓ teams | ~ multi-agent orchestration | ✓ |
+| Subagents | ✗ | ✓ | ✓ | ? | ✓ | ✓ teams | ✓ | ? | ✓ | ✓ persistent children | ✗ | ✓ | ✓ swarm workers | ~ read-only | ✗ | ✓ custom and built-in | ? | ✓ | ~ delegates via ACP | ~ via extensions | ✓ teams | ~ multi-agent orchestration | ✓ |
 | Hooks, skills, plugins | ~ lint and test only | ✓ plugins gate tools | ~ skills only | ? | ✓ hooks and skills | ✓ skills and SDK plugins | ✓ skills and marketplace | ✓ skills | ✓ plugins and skills | ~ skills only | ? | ✓ hooks and plugins | ✓ hooks and embedding-gated skills | ~ extension SDK | ~ execution allowlists | ✓ skills and hooks | ? | ✓ skills and plugins | ✓ hooks, skills, plugins | ✓ extensions and skills | ✓ hooks and auto-skills | ? | ~ hooks, prompt modes replace skills |
 | Cloud execution | ✗ | ✓ orbs | ✗ local-first | ? | ✓ web and teleport | ✗ | ✓ | ✗ | ✗ | ✗ | ~ CI GitHub Action | ✗ | ✗ self-hosted daemon only | ✗ self-hosted remote only | ~ remote control | ✓ cloud agents and tasks | ✓ hosted VMs | ✗ share links only | ✓ OpenHands Cloud | ✗ | ✗ | ✓ cloud agents | ✗ local only |
 | Scheduled runs | ✗ | ✓ self-set | ? | ? | ✓ routines | ✓ cron | ? | ✗ | ? | ✗ | ✗ | ✗ | ~ ambient mode | ? | ✗ | ✓ cron builder | ? | ~ via host apps | ✓ automations and webhooks | ✗ | ~ experimental cron | ? | ? |

@@ -1,7 +1,7 @@
 ---
 title: "Orchestration Feature Matrix"
 created: 2026-08-24
-updated: 2026-09-02
+updated: 2026-09-03
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, comparison, orchestration, git-worktrees, parallel-agents]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 This matrix compares the twelve orchestration tools profiled in this section, the parallel-agent dashboards, worktree managers, control planes, and the one agent town, feature by feature, so the shortlisting step does not require reading twelve notes.
-Everything below was verified against live sources on 2026-08-30, a full re-verification that added the Omnara column on that date, and re-verified on 2026-09-02.
+Everything below was verified against live sources on 2026-08-30, a full re-verification that added the Omnara column on that date, and re-verified on 2026-09-02 and 2026-09-03.
 
 **Parallelism is already the free commodity in this category: the only things anyone pays for are review ergonomics and remote execution, and I expect more of these twelve to die or pivot before any of them becomes durable infrastructure.**
 
@@ -25,13 +25,13 @@ Each column links to the full research note; every cell below traces to a source
 | Kind | terminal TUI | native macOS terminal | native Mac app | Electron app | terminal TUI | Electron app | tmux town, workspace manager | Go control plane, web, CLI, API, mobile, Slack | daemon plus desktop, web, mobile clients | Electron agentic IDE | web UI, Rust backend | CLI worktree manager |
 | Platforms | macOS, Linux (tmux, no Windows) | macOS only | macOS only (local) | macOS first, Linux later | macOS, Linux (tmux) | macOS, Windows, Linux | macOS, Linux, Windows, Docker | web, iOS, Android, Slack; self-host or Omnara Cloud | macOS, Windows, Linux, iOS, Android, web, Docker | macOS, Linux experimental | any OS with Node | macOS, Linux, Windows |
 | Open source | ✓ AGPL-3.0 | ~ GPL-3.0, open core | ✗ closed | ✓ MIT | ✓ MIT | ✓ Apache-2.0 | ✓ MIT | ✓ Apache-2.0 | ✓ Apache-2.0 | ~ Elastic License 2.0 | ✓ Apache-2.0 | ✓ MIT OR Apache-2.0 |
-| Price model | free, no tier | free, Pro $24/mo | free local, Pro $50/mo | free (Nimbalyst sells teams) | free | free core, cloud contact-sales | free, BYOK runtime | free self-host, cloud unpriced | free, Hub planned | free local, Pro $15-20/user/mo | free (subs terminated) | free |
+| Price model | free, no tier | free, Pro $40/mo | free local, Pro $50/mo | free (Nimbalyst sells teams) | free | free core, cloud contact-sales | free, BYOK runtime | free self-host, cloud unpriced | free, Hub hosted €15/seat/mo | free local, Pro $15-20/user/mo | free (subs terminated) | free |
 | Per-task worktree isolation | ✓ | ? | ✓ own branch | ✓ | ✓ AI-named branch | ✓ | ✓ worktree hooks | ? | ✓ | ✓ | ✓ own branch | ✓ core purpose |
 | Harnesses it can drive | any CLI via profiles | any CLI agent | 4 (Claude Code, Codex, Cursor, OpenCode) | 2 (Claude Code, Codex) | 11 CLIs | 25+ CLIs, auto-detected | 5 runtimes, Claude Code default | ? agent underneath unspecified | 4 native + ~36 via ACP | any CLI, 14+ presets | 10+ agents | any CLI via -x, one program name since v0.76 |
 | Remote or SSH execution | ? | ~ SSH sessions | ? | ? | ✗ local only | ✓ SSH-first | ~ Docker compose | ✓ machine pools | ✓ encrypted relay, self-host | ~ remote workspaces beta | ~ Docker self-host | ✗ local git |
 | Built-in review tooling | ~ diff preview tab | ? | ✓ diffs, checks, PR, review | ~ diff viewer, rebase, squash | ~ merge and PR menu | ✓ diffs, PRs, CI checks | ✓ Refinery merge queue | ~ approvals, questions, events, artifacts | ~ agent output and diffs | ✓ diffs, browser previews | ✓ diffs, comments, PR | ~ status table and merge pipeline |
-| Cloud execution option | ✗ no hosting | ✓ Pro cloud VMs, unlimited active | ✓ Vercel sandboxes | ? | ✗ | ~ contact-sales | ✗ self-host, Wasteland federation | ✓ Omnara Cloud, or self-host | ~ self-host anywhere, no vendor cloud | ~ remote workspaces beta | ✗ services removed | ✗ |
-| Current status | active, slow burn | active, fast | active, $22M raised | deprecated Feb 2026 | active | active, YC W26 | active, 17.9k stars | active, YC S25, 2,778 stars | active, v0.7, solo maintainer | active, YC P26, $11M raised | orphaned, no push since 2026-04-24 | active, pre-1.0 fast |
+| Cloud execution option | ✗ no hosting | ✓ Pro, up to 50 cloud VMs | ✓ Vercel sandboxes | ? | ✗ | ~ contact-sales | ✗ self-host, Wasteland federation | ✓ Omnara Cloud, or self-host | ~ self-host anywhere, no vendor cloud | ~ remote workspaces beta | ✗ services removed | ✗ |
+| Current status | active, slow burn | active, fast | active, $22M raised | deprecated Feb 2026 | active | active, YC W26 | active, 17.9k stars | active, YC S25, 2,808 stars | active, v0.7, solo maintainer | active, YC P26, $11M raised | orphaned, no push since 2026-04-24 | active, pre-1.0 fast |
 
 ## Reading the matrix
 
@@ -82,7 +82,7 @@ Claude Squad's preview tab and dmux's pane-menu PR cover the dispatch, wait, rev
 ## References
 
 - https://github.com/smtg-ai/claude-squad - profiles, worktrees, packaging for the Claude Squad column
-- https://cmux.com/pricing - tiers, unlimited active cloud VMs, CodeRouter removal for the cmux column
+- https://cmux.com/pricing - tiers, the 50-VM cloud cap, CodeRouter removal for the cmux column
 - https://conductor.build/pricing/ - tiers, sandbox specs, local versus cloud privacy for the Conductor column
 - https://github.com/stravu/crystal - deprecation notice and feature history for the Crystal column
 - https://github.com/standardagents/dmux - supported agent list, hooks, local-only scope for the dmux column
