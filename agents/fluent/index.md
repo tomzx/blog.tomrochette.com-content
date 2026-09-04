@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Fluent is a self-improving software factory that turns a team's vision, ideas, bug reports, user feedback, production logs, and agent traces into working software with writer, tester, reviewer, and learner roles inside one deterministic loop.
-Facts below verified as of 2026-09-02.
+Facts below verified as of 2026-09-04.
 
 ## What it is
 

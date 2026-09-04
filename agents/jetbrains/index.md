@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 JetBrains IDEs are the analysis-heavy editors for Java, Kotlin, Python, and friends, whose AI layer now spans AI Assistant and the Junie agent from IDE to CI.
-Facts below verified as of 2026-09-03.
+Facts below verified as of 2026-09-04.
 
 **JetBrains is the only major IDE vendor whose entire AI layer is removable and provider-agnostic, and it got there by backlash: the late-2023 forced-bundling outcry is why you can now uninstall the whole thing.**
 

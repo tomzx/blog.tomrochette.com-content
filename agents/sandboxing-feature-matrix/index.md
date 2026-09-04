@@ -1,7 +1,7 @@
 ---
 title: "Sandboxing Feature Matrix"
 created: 2026-08-30
-updated: 2026-09-02
+updated: 2026-09-04
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3-flash, comparison, sandboxing, isolation, security]
 readability: 3
@@ -12,7 +12,7 @@ audience_notes: >
 
 This matrix compares the five members of the Sandboxing category: the vendor-backed runtime, the Kubernetes orchestrator, the kernel-enforced wrapper, the framework with sandbox tiers, and the provisioning driver.
 The Kind row is what keeps this category legible: only two columns are isolation boundaries, one is an orchestrator around boundaries, one is a framework that consumes boundaries, and one feeds repositories into all of them.
-Everything below was re-verified against live sources on 2026-09-02.
+Everything below was re-verified against live sources on 2026-09-04.
 
 **Isolation is cheap to claim and expensive to enforce, so the deciding rows are the mechanism and the maturity: a kernel boundary nobody has audited loses to a container boundary a vendor stands behind.**
 
@@ -30,8 +30,8 @@ Each column links to the full research note; every cell below traces to a source
 | Agent integration | none specific, bring your own | tool-agnostic wrapper | any sandbox that mounts FUSE | hooks, useSandbox API | 4 first-class, BYOC |
 | Policy model | K8s RBAC plus RuntimeClass | per-project YAML deny rules | ✗ n/a, provisioning only | tier choice plus env allowlist | declarative YAML, auditable |
 | Credential handling | your K8s secrets | egress allowlist, stdout masking | ✗ n/a | env allowlist per tier | ✓ keys stay at inference proxy |
-| Maturity | v1.0.0 tag, v1beta1 API, breaking migrations | v1.0.0, 14 stars, no audit | 1.0.0-rc, no releases, beta | first stable v2.0 after rewrite | alpha, v0.0.x |
-| Community signal | 3.7k stars, Google-backed | 14 stars, 0 issues, footprint is the signal | 1.1k stars, 217-point HN launch | 8.1k stars, single dominant author | 8.4k stars, ~110 contributors |
+| Maturity | v1.0.1 tag, v1beta1 API, breaking migrations | v1.0.0, 14 stars, no audit | 1.0.0-rc, no releases, beta | first stable v2.0 after rewrite | alpha, v0.0.x |
+| Community signal | 3.7k stars, Google-backed | 14 stars, 0 issues, footprint is the signal | 1.1k stars, 217-point HN launch | 8.1k stars, single dominant author | 8.5k stars, ~110 contributors |
 | Pricing | free, cluster costs | free | free, Artifacts service metered | free, provider costs | free |
 
 ## Reading the matrix

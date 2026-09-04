@@ -12,7 +12,7 @@ audience_notes: >
 ---
 
 Gemini CLI is Google's open-source terminal agent for Gemini, Apache-2.0, launched June 25, 2025, and superseded for individual users by Antigravity CLI on June 18, 2026.
-Facts below verified as of 2026-09-02.
+Facts below verified as of 2026-09-04.
 
 **Every 2025 recommendation of Gemini CLI as the free terminal agent is dead advice for individuals: Google stopped serving free and AI Pro/Ultra users on June 18, 2026, and moved the product to Antigravity.**
 

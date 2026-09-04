@@ -12,7 +12,7 @@ audience_notes: >
 ---
 
 Crystal was an MIT-licensed desktop app from Stravu for running multiple Claude Code and Codex sessions in parallel git worktrees; it was deprecated in February 2026 and replaced by Nimbalyst, a broader visual workspace from the same team.
-Facts below verified as of 2026-09-03.
+Facts below verified as of 2026-09-04.
 
 **Its pivot is the clearest signal in this category that a pure worktree-session manager is a feature, not a standalone product.**
 

@@ -12,7 +12,7 @@ audience_notes: >
 ---
 
 LlamaIndex is an MIT-licensed data framework for building retrieval pipelines and document agents over private data, now the open source arm of a company whose commercial product is the LlamaParse document platform.
-Facts below verified as of 2026-09-02.
+Facts below verified as of 2026-09-04.
 
 **It remains the deepest off-the-shelf retrieval toolkit, but its maker has pivoted to enterprise document OCR, so the framework you build on is no longer the business you are buying from.**
 

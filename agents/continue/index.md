@@ -1,7 +1,7 @@
 ---
 title: Continue
 created: 2026-08-26
-updated: 2026-09-03
+updated: 2026-09-04
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, surfaces, ai-editors, open-source, byok]
 readability: 3
@@ -10,8 +10,8 @@ audience_notes: >
   Assumes you know what a VS Code or JetBrains extension is and what BYOK means.
 ---
 
-Continue was an Apache-2.0 open-source coding agent shipped as a VS Code extension, a JetBrains plugin, and a CLI; Cursor acquired it in June 2026 and the repository is now read-only with a final 2.0.0 release.
-Facts below verified as of 2026-09-03.
+Continue was an Apache-2.0 open-source coding agent shipped as a VS Code extension, a JetBrains plugin, and a CLI; Cursor acquired it in June 2026 and the repository is now read-only with final 2.0.0 and 2.1.0 releases.
+Facts below verified as of 2026-09-04.
 
 **Its acquisition is the strongest evidence yet that a standalone open-source "Copilot alternative" extension was never a durable business, only a feature waiting to be absorbed, and Cursor bought the team, not the product.**
 
@@ -19,7 +19,7 @@ Facts below verified as of 2026-09-03.
 
 **One config-driven agent across three surfaces**: the VS Code extension (4,058,703 marketplace installs as of 2026-09-03), a JetBrains plugin, and a CLI, all configured through YAML with rules, MCP servers, and any model provider you point it at.
 Local models were a first-class path, with official guides for [Ollama](https://docs.continue.dev/guides/ollama-guide) and for running fully offline.
-The final 2.0.0 release, tagged 2026-06-19, removed anonymous telemetry and pulled out authentication entirely, leaving a self-hostable codebase with no account anywhere.
+The final 2.x releases (2.0.0 and 2.1.0, both tagged 2026-06-19) removed anonymous telemetry and pulled out authentication entirely, leaving a self-hostable codebase with no account anywhere.
 
 ## Status
 
@@ -46,7 +46,7 @@ As of 2026-09-03 the repo shows about 35.7k stars and 5.3k forks, the docs remai
 ## Pricing
 
 Was free and open source with paid hub tiers earlier in its life.
-Nothing is for sale anymore; the final 2.0.0 release needs no account or subscription for anything.
+Nothing is for sale anymore; the final 2.1.0 release needs no account or subscription for anything.
 
 ## Compared to
 
@@ -70,7 +70,7 @@ For the workflow it pioneered, use Cline or an ACP-speaking host.
 ## References
 
 - https://www.continue.dev/ - the acquisition notice and FAQ
-- https://github.com/continuedev/continue - README: read-only, final 2.0.0, telemetry and auth removed
+- https://github.com/continuedev/continue - README: read-only, final 2.1.0, telemetry and auth removed
 - https://api.github.com/repos/continuedev/continue - stars, forks, last push date as of 2026-09-03
 - https://news.ycombinator.com/item?id=48548758 - the June 15, 2026 acquisition thread
 - https://news.ycombinator.com/item?id=49398366 - the August 2026 "dead, alternatives?" thread

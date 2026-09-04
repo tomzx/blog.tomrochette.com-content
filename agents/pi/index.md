@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Pi is an MIT-licensed TypeScript agent toolkit from Earendil whose flagship is a minimal, self-extensible terminal coding agent that you adapt through extensions rather than configuring a closed product.
-Facts below verified as of 2026-09-03.
+Facts below verified as of 2026-09-04.
 
 **Pi's thesis is that a coding agent should be a small frozen core plus your code, and it is the only harness at this scale whose author treats missing features as policy rather than backlog.**
 

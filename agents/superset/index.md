@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Superset is a source-available, YC-backed agentic IDE that runs many CLI coding agents in parallel, each in its own isolated git worktree, using the subscriptions you already pay for.
-Facts below verified as of 2026-09-03.
+Facts below verified as of 2026-09-04.
 
 **Superset's bet is that the orchestrator should be a terminal-first IDE that touches no SDK, so any agent works today and a new harness works the day it ships, and its free-forever local core under an Elastic License is the price wedge against Conductor.**
 

@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 rtk is a free, open-source Rust CLI proxy that intercepts shell commands run by coding agents and compresses their output before it enters the context window, claiming up to 90 percent fewer output bytes on supported commands.
-Facts below verified as of 2026-09-02.
+Facts below verified as of 2026-09-04.
 
 **rtk monetizes the least glamorous line in the agent budget, the command output nobody reads, and its own documentation admits the 90 percent headline is an output-bytes number, not a bill reduction.**
 That admission is why I trust the project and discount the marketing at the same time.

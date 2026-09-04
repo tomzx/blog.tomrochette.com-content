@@ -12,7 +12,7 @@ audience_notes: >
 ---
 
 goose is an open-source (Apache-2.0) general-purpose AI agent written in Rust, started inside Block and now governed by the Agentic AI Foundation (AAIF) at the Linux Foundation.
-Facts below verified as of 2026-09-02.
+Facts below verified as of 2026-09-04.
 
 **goose matters less for what it does than for how it is owned: it is the first major coding-adjacent agent to move from a corporate parent to a foundation, an exit path no other open harness offers.**
 

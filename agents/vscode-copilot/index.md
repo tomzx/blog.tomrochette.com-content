@@ -1,7 +1,7 @@
 ---
 title: VS Code + Copilot
 created: 2026-08-23
-updated: 2026-09-03
+updated: 2026-09-04
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, surfaces, ai-editors, microsoft, github]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 VS Code plus GitHub Copilot is Microsoft's agent surface: an MIT-licensed editor that now hosts several agent harnesses, with Copilot sold as a plan family from free to $100/month.
-Facts below verified as of 2026-09-03.
+Facts below verified as of 2026-09-04.
 
 **VS Code won the surface war by refusing to pick a winner: it runs Copilot, Claude Code, and Codex as swappable harnesses inside one editor, and that neutrality is worth more than any single agent feature.**
 
@@ -27,7 +27,7 @@ Cloud agents run on GitHub, where assigning an issue to Copilot produces a pull 
 **Active and default.**
 The repository shows commits landing daily and about 190k stars as of 2026-09-03.
 Every Copilot plan now includes Copilot CLI and the Copilot desktop app, and the agent docs are the editor documentation's front door as of August 2026.
-One contraction: new self-serve Copilot Business and Copilot Enterprise purchases have been temporarily paused since April 22, 2026, though the docs now say self-serve sign-ups are reopening soon for card and PayPal payers, as of 2026-09-03.
+One contraction is ending: new self-serve Copilot Business and Copilot Enterprise purchases were paused on April 22, 2026, and on September 3, 2026 GitHub announced it is gradually reopening self-serve sign-ups for card and PayPal payers over the following weeks.
 
 ## Strengths
 
@@ -40,7 +40,7 @@ One contraction: new self-serve Copilot Business and Copilot Enterprise purchase
 
 - **Copilot metering moved to GitHub AI Credits, and plan differences are now credit allotments** (1,500 monthly on Pro up to 20,000 on Max), so comparing value means reading a rate card, not a feature list.
 - Copilot Free is auto-model-selection only, so the $0 agent experience is deliberately narrow.
-- The Business self-serve pause signals that the organization tier's plumbing is in flux.
+- The April-to-September self-serve pause on Business and Enterprise showed the organization tier's plumbing can wobble, and the reopening is only gradual.
 - The May 2025 coding-agent launch thread was full of quality skepticism about delegating real issues, so treat cloud delegation as incremental, not overnight.
 
 ## Pricing
@@ -71,5 +71,6 @@ Not for teams that want the editor itself to come with strong opinions.
 - https://code.visualstudio.com/docs/copilot/overview - the agent-centric docs, harness and session model
 - https://docs.github.com/en/copilot/get-started/plans - plan prices and AI credit allotments, as of 2026-09-03
 - https://docs.github.com/en/copilot/concepts/about-copilot-coding-agent - the cloud agent and issue assignment
+- https://github.blog/changelog/2026-09-03-reopening-copilot-business-and-enterprise-signups - the September 3, 2026 reopening announcement for self-serve Business and Enterprise sign-ups
 - https://github.com/microsoft/vscode - MIT license and repository scale, as of 2026-09-03
 - https://news.ycombinator.com/item?id=44031432 - coding-agent launch discussion with early skepticism

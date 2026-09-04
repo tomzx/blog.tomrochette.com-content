@@ -12,7 +12,7 @@ audience_notes: >
 ---
 
 Juggler is a free, open-source desktop GUI coding agent built by the developer behind JUCE, giving you a visual workbench where conversations branch into trees and every tool call and raw context message is inspectable.
-Facts below verified as of 2026-09-03.
+Facts below verified as of 2026-09-04.
 
 **Juggler is the strongest argument that the terminal is the wrong native surface for agent work: its whole bet is that reading diffs, editing multi-line prompts, and absorbing tool output are GUI problems.**
 

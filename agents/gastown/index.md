@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Gas Town is Steve Yegge's MIT-licensed multi-agent workspace manager (`gt`): a tmux-driven town where a Mayor agent coordinates 20-30 worker agents (polecats) across project rigs, with git-worktree hooks for persistence, a Bors-style merge queue, and beads as the work ledger.
-Facts below verified as of 2026-09-03.
+Facts below verified as of 2026-09-04.
 
 **Gas Town is the first orchestration tool that treats agent supervision as a hierarchy of agents rather than a dashboard of panes, and its deliberately chaotic rollout is the experiment: whether a self-governing town of agents is governable at all.**
 

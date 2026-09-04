@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Zed is the Rust-native editor from Zed Industries whose pitch is performance first, with an AI layer you can pay for, key in, or switch off entirely.
-Facts below verified as of 2026-09-03.
+Facts below verified as of 2026-09-04.
 
 **Zed is the performance ceiling of the editor category, and its free tier is the only one that is genuinely unlimited forever with your own keys or external agents, which matters more than any AI feature delta.**
 

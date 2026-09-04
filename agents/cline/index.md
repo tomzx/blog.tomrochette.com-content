@@ -12,7 +12,7 @@ audience_notes: >
 ---
 
 Cline is an open-source (Apache-2.0) coding agent from Cline Bot Inc. that began as a VS Code extension and now ships a CLI, a JetBrains plugin, a web-based kanban board, and an SDK off one runtime.
-Facts below verified as of 2026-09-02.
+Facts below verified as of 2026-09-04.
 
 **Cline is proof that the IDE-extension generation grew up into a full harness: about 5.2 million installs on the strength of one extension, and the closest thing to a vendor-neutral default inside VS Code.**
 

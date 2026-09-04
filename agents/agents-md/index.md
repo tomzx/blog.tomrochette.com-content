@@ -12,7 +12,7 @@ audience_notes: >
 ---
 
 AGENTS.md is an open convention for a Markdown file at the repository root that carries project-specific instructions for coding agents.
-Facts below verified as of 2026-09-02.
+Facts below verified as of 2026-09-04.
 
 **It won the instruction-file format war in under a year, and that matters more than any single tool choice because the file outlives every agent that reads it.**
 

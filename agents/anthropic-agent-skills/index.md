@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Agent Skills is Anthropic's format for packaging reusable agent capabilities: a folder whose SKILL.md holds YAML metadata plus markdown instructions, with optional scripts and resources loaded on demand.
-Facts below verified as of 2026-09-02.
+Facts below verified as of 2026-09-04.
 
 **This is the packaging format that became the de facto industry standard, because Anthropic released it as an open standard two months after launch and OpenAI, Google, and the major third-party harnesses all adopted it.**
 

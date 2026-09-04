@@ -1,7 +1,7 @@
 ---
 title: File-based agent memory
 created: 2026-08-24
-updated: 2026-08-30
+updated: 2026-09-04
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, agent-memory, context-engineering]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 File-based agent memory is the convention of giving agents persistent memory as plain markdown files in the repo or home directory (CLAUDE.md, AGENTS.md, rules files), instead of a memory service.
-Facts below verified as of 2026-09-02.
+Facts below verified as of 2026-09-04.
 
 **For coding agents, markdown files already won: they are free, versioned, and portable, and I think hosted memory layers are overkill for most engineering work at any price.**
 
@@ -67,6 +67,7 @@ Reach for a memory service only for cross-user or cross-app memory; my disagreea
 - [Cursor](../cursor/index.md) - rules files and native AGENTS.md support in an IDE agent
 - [Codex](../codex/index.md) - the harness whose convention became the AGENTS.md standard's beachhead
 - [Mem0](../mem0/index.md) - the hosted counterpoint, and when it is worth paying for
+- [Memoryfields](../memoryfields/index.md) - the draft spec that formalizes file memory into a portable format
 
 ## References
 

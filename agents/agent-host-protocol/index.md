@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 The Agent Host Protocol (AHP) is Microsoft's MIT-licensed wire protocol for a standalone sessions server that gives any number of clients one synchronized view of AI agent sessions, built on immutable state, pure reducers, and write-ahead reconciliation.
-Facts below verified as of 2026-09-02.
+Facts below verified as of 2026-09-04.
 
 **AHP claims the one lane the protocol stack left empty, the session itself: MCP covers agent-to-tool, ACP covers editor-to-agent, A2A covers agent-to-agent, and AHP turns a live agent session into a shared resource any client can attach to, with the reference host shipping inside VS Code.**
 

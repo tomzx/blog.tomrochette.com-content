@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Paperclip (paperclipai/paperclip) is an MIT-licensed, self-hostable control plane for a company of AI agents: a Node.js server and React UI where agents check work out of a ticket board via scheduled heartbeats, wrapped in org charts, budgets, approvals, skills, and an audit log.
-Facts below verified as of 2026-09-02.
+Facts below verified as of 2026-09-04.
 
 **The name is the thesis: an agent-company platform named after the paperclip maximizer is selling governance as the product (budgets that pause agents, approvals, chain of command, immutable audit trails), and about 79k stars in its first six months say the market wants exactly that.**
 

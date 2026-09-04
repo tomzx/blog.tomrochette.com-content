@@ -12,7 +12,7 @@ audience_notes: >
 ---
 
 aider is AI pair programming in your terminal: a Python, Apache-2.0, bring-your-own-key tool by Paul Gauthier (Aider-AI) that predates the agentic coding wave.
-Facts below verified as of 2026-09-02.
+Facts below verified as of 2026-09-04.
 
 **aider's refusal to become an autonomous agent is a feature: it is the cheapest precise-edit tool in the field, and its stale public leaderboard is still more trustworthy than any vendor's own benchmark claims.**
 

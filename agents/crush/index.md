@@ -12,7 +12,7 @@ audience_notes: >
 ---
 
 Crush is Charm's terminal coding agent: a single Go binary that pulls context from language servers, runs any provider including local models, and carries the [FSL-1.1-MIT](https://fsl.software/) license.
-Facts below verified as of 2026-09-02.
+Facts below verified as of 2026-09-04.
 
 **Crush is the best-looking and most portable harness in the field, and a license plus an origin story that community has not forgotten will keep it the second choice for teams that audit provenance.**
 

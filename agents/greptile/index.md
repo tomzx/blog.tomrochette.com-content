@@ -12,7 +12,7 @@ audience_notes: >
 ---
 
 Greptile is an AI code review service that indexes your repositories into a graph (files, functions, dependencies) and runs a swarm of review agents over every pull request.
-Facts below verified as of 2026-09-02.
+Facts below verified as of 2026-09-04.
 
 **Greptile's durable asset is not its graph index, which is becoming commodity, but the standards it learns from your team's own review comments, a corpus no competitor can copy overnight.**
 

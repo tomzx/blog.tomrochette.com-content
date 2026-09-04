@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 BMad Method (bmad-code-org) is the open-source Breakthrough Method for Agile AI-Driven Development: an installable method plus agent workflows (`npx bmad-method install`) that turn an idea or change request into working software through an explicit clarify, plan, build, learn loop, with the ceremony sized to the change.
-Facts below verified as of 2026-09-02.
+Facts below verified as of 2026-09-04.
 
 **BMad is the anti-waterfall wing of the spec movement: it sends small changes straight to build and reserves deep planning for big ones, which is the direct answer to the 225-point waterfall-strikes-back critique that static spec workflows still wear.**
 

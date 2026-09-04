@@ -1,7 +1,7 @@
 ---
 title: "Orchestration Feature Matrix"
 created: 2026-08-24
-updated: 2026-09-03
+updated: 2026-09-04
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, comparison, orchestration, git-worktrees, parallel-agents]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 This matrix compares the twelve orchestration tools profiled in this section, the parallel-agent dashboards, worktree managers, control planes, and the one agent town, feature by feature, so the shortlisting step does not require reading twelve notes.
-Everything below was verified against live sources on 2026-08-30, a full re-verification that added the Omnara column on that date, and re-verified on 2026-09-02 and 2026-09-03.
+Everything below was verified against live sources on 2026-08-30, a full re-verification that added the Omnara column on that date, and re-verified on 2026-09-02, 2026-09-03, and 2026-09-04.
 
 **Parallelism is already the free commodity in this category: the only things anyone pays for are review ergonomics and remote execution, and I expect more of these twelve to die or pivot before any of them becomes durable infrastructure.**
 
@@ -31,7 +31,7 @@ Each column links to the full research note; every cell below traces to a source
 | Remote or SSH execution | ? | ~ SSH sessions | ? | ? | ✗ local only | ✓ SSH-first | ~ Docker compose | ✓ machine pools | ✓ encrypted relay, self-host | ~ remote workspaces beta | ~ Docker self-host | ✗ local git |
 | Built-in review tooling | ~ diff preview tab | ? | ✓ diffs, checks, PR, review | ~ diff viewer, rebase, squash | ~ merge and PR menu | ✓ diffs, PRs, CI checks | ✓ Refinery merge queue | ~ approvals, questions, events, artifacts | ~ agent output and diffs | ✓ diffs, browser previews | ✓ diffs, comments, PR | ~ status table and merge pipeline |
 | Cloud execution option | ✗ no hosting | ✓ Pro, up to 50 cloud VMs | ✓ Vercel sandboxes | ? | ✗ | ~ contact-sales | ✗ self-host, Wasteland federation | ✓ Omnara Cloud, or self-host | ~ self-host anywhere, no vendor cloud | ~ remote workspaces beta | ✗ services removed | ✗ |
-| Current status | active, slow burn | active, fast | active, $22M raised | deprecated Feb 2026 | active | active, YC W26 | active, 17.9k stars | active, YC S25, 2,808 stars | active, v0.7, solo maintainer | active, YC P26, $11M raised | orphaned, no push since 2026-04-24 | active, pre-1.0 fast |
+| Current status | active, slow burn | active, fast | active, $22M raised | deprecated Feb 2026 | active | active, YC W26 | active, 17.9k stars | active, YC S25, 2,814 stars | active, v0.7, solo maintainer | active, YC P26, $11M raised | orphaned, no push since 2026-04-24 | active, pre-1.0 fast |
 
 ## Reading the matrix
 

@@ -12,7 +12,7 @@ audience_notes: >
 ---
 
 Conductor is a macOS app for running parallel coding-agent sessions (Claude Code, Codex, Cursor, OpenCode), each isolated in its own git worktree, with built-in diff review, checks, and PR flow.
-Facts below verified as of 2026-09-03.
+Facts below verified as of 2026-09-04.
 
 **It is the best-funded and most polished of the Mac worktree dashboards, and its friction-removing defaults, chiefly granting agents all permissions, are precisely the thing you must not forget.**
 

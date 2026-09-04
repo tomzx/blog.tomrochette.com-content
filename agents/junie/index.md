@@ -12,7 +12,7 @@ audience_notes: >
 ---
 
 Junie is JetBrains' coding agent: an LLM-agnostic CLI that also ships in JetBrains IDEs and CI, authenticating either to JetBrains or to your own model keys.
-Facts below verified as of 2026-09-03.
+Facts below verified as of 2026-09-04.
 
 **Junie quietly became the most vendor-flexible of the major agents (any provider, any local model, zero markup on keys), and its thin independent community, not its capability, is the actual adoption risk.**
 

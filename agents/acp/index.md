@@ -12,7 +12,7 @@ audience_notes: >
 ---
 
 ACP is an open protocol that standardizes communication between code editors and coding agents.
-Facts below verified as of 2026-09-02.
+Facts below verified as of 2026-09-04.
 
 **It is pulling the same trick LSP pulled a decade ago, and it is working: editors are becoming interchangeable hosts for agents rather than agent vendors.**
 

@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Letta is the company and platform built by the MemGPT creators: a memory-first coding agent (Letta Code), a cloud/API tier, and a research program on agents that learn.
-Facts below verified as of 2026-09-02.
+Facts below verified as of 2026-09-04.
 
 **Letta has the deepest research lineage in agent memory and the least settled product strategy, and I think the pattern it popularized will outlive its current packaging.**
 

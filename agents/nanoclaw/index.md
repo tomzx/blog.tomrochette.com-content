@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 NanoClaw is a MIT-licensed Node.js personal agent (nanocoai) that runs each agent in its own Linux container, born as a 500-line rewrite of the OpenClaw idea that now stands at about 30.6k stars.
-Facts below verified as of 2026-09-02.
+Facts below verified as of 2026-09-04.
 
 **NanoClaw's product is auditability: a codebase small enough to hold in your head and a container wall between the agent and your life, a direct rebuttal of the half-million-line root it responds to.**
 

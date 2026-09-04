@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 TinyAGI (formerly TinyClaw) is a MIT-licensed multi-agent, multi-team orchestrator for the one-person company: isolated role agents across Discord, WhatsApp, and Telegram, a TinyOffice web portal, and a SQLite work queue, which rose to 3.6k stars in seven weeks and then went quiet at the end of March 2026.
-Facts below verified as of 2026-09-02.
+Facts below verified as of 2026-09-04.
 
 **TinyAGI is the control-plane category's first stall record, and its trajectory (viral launch, five months of silence, Paperclip absorbing the audience) is the consolidation signal this section will keep citing.**
 

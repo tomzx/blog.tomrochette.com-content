@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 n8n is a fair-code workflow automation platform with native AI capabilities, where webhook triggers, cron schedules, and chat channels start workflows and agents built on a visual canvas with code nodes.
-Facts below verified as of 2026-09-02.
+Facts below verified as of 2026-09-04.
 
 **n8n is the most credible webhook-triggered agent substrate with real engineering uptake, as long as you accept that it is not open source and your use of it is bounded by its license.**
 

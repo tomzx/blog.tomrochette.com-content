@@ -1,7 +1,7 @@
 ---
 title: Semble
 created: 2026-08-30
-updated: 2026-09-02
+updated: 2026-09-04
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, code-search, context-engines, local-first, developer-tools]
 readability: 3
@@ -12,7 +12,7 @@ audience_notes: >
 ---
 
 Semble is a MIT-licensed local code search tool built for coding agents: it chunks a repository along syntax boundaries, indexes it with static Model2Vec embeddings plus BM25, and answers natural-language queries with only the relevant snippets.
-Facts below verified as of 2026-09-02.
+Facts below verified as of 2026-09-04.
 
 **Semble's bet is that a code-specialized index small enough to run in under a second on any CPU can replace the most expensive thing an agent does, which is grep-failing its way through full-file reads.**
 
@@ -28,7 +28,7 @@ It is built by MinishLab, the two-person team (Stephan and Thomas, per the launc
 
 **Young, active, and unusually well received for a search tool.**
 5,981 stars and 259 forks since the repo appeared on 2026-04-06, with the last push 2026-08-26 and v0.5.5 released 2026-08-12 (GitHub API, as of 2026-09-02).
-120,156 PyPI downloads in the month ending 2026-09-01 (PyPIstats).
+109,770 PyPI downloads in the trailing month (PyPIstats, as of 2026-09-04).
 The launch Show HN (May 17, 2026) drew 445 points and 151 comments, on top of two quiet warm-up threads in April; a third-party VS Code extension appeared in August, which is the usual early-ecosystem signal.
 
 ## Strengths

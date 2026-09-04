@@ -1,9 +1,9 @@
 ---
 title: Latent Space
 created: 2026-08-29
-updated: 2026-08-29
+updated: 2026-09-04
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=big-pickle, people, publications, newsletter, podcast, community]
+tags: [research-note, agent-curated, fully-ai-generated, llm=big-pickle, llm=glm-5.3-flash, people, publications, newsletter, podcast, community]
 readability: 3
 audience_notes: >
   Engineers who want the industry-level view of AI engineering, from lab interviews to tool trends, in a newsletter-podcast-conference package.
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Latent Space is the AI engineering publication of record, a Substack newsletter plus a technical podcast hosted by swyx (Shawn Wang) and Alessio Fanelli, and the organizing brand behind the AI Engineer conference series.
-Facts below verified as of 2026-09-02.
+Facts below verified as of 2026-09-04.
 
 **Latent Space did not just cover the AI engineer, it named the role and built the conference around it, which makes it the closest thing this domain has to an institutional center of gravity.**
 
@@ -68,6 +68,6 @@ Not for people who want only hands-on tool notes and who will not filter past th
 - https://www.latent.space/ - the Substack home, newsletter and podcast archive
 - https://www.latent.space/p/ai-engineer - the founding essay that named the AI Engineer role
 - https://ai.engineer/ - the conference series brand
-- https://news.smol.ai/ - the AINews daily roundup arm
+- https://www.latent.space/s/ainews - the AINews daily roundup arm (the old news.smol.ai deployment was disabled; the roundup now lives as a section of the publication)
 - https://www.latent.space/p/2026 - the 2026 plans post (State of Latent Space)
 - https://www.cognitiverevolution.ai/ai-engineers-pendants-and-competition-between-openai-and-developers-with-swyx-of-latent-space - an independent interview where swyx discusses the brand's commercial stake

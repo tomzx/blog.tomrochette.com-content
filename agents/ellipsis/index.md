@@ -13,7 +13,7 @@ audience_notes: >
 ---
 
 Ellipsis (ellipsis.dev) is a YC-backed company that launched in 2023 as an automated PR review and bug-fix bot and, as of July 2026, has pivoted to the Ellipsis Agent Cloud, a managed cloud platform for running coding agents such as Claude Code and Codex in governed sandboxes.
-Facts below verified as of 2026-09-02.
+Facts below verified as of 2026-09-04.
 
 ## What it is
 

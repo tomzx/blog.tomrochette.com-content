@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 A software factory, and the founding member of this category, is a repeatable agents-plus-code workflow packaged as one skill and stamped into any repo: deterministic Python owns the sequencing and the coding agent owns only one bounded phase at a time.
-Facts below verified as of 2026-09-02.
+Facts below verified as of 2026-09-04.
 
 ## What it is
 

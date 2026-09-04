@@ -12,7 +12,7 @@ audience_notes: >
 ---
 
 Repomix is an MIT-licensed CLI (npm, Homebrew, Docker) that packs an entire repository into a single AI-friendly file for feeding to LLMs.
-Facts below verified as of 2026-09-02.
+Facts below verified as of 2026-09-04.
 
 **Repomix is the default answer to "how do I give the model my whole repo", and it wins by ignoring retrieval entirely, which is a legitimate engineering strategy that context-engine vendors keep pretending is not one.**
 

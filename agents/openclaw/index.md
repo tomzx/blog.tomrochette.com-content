@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 OpenClaw is the self-hosted personal AI assistant (Node.js, MIT, from the OpenClaw Foundation): one Gateway process on your own device connects model providers, tools, and a few dozen messaging channels, and it is the root the entire -claw variant family reacts to.
-Facts below verified as of 2026-09-02.
+Facts below verified as of 2026-09-04.
 
 **OpenClaw won by being the first assistant you could actually own, and its 2026 saga, Google and Anthropic restricting subscriptions for running it, is the definitive evidence that owning the runtime does not mean owning the model access; the whole variant family exists to shrink what you must trust.**
 

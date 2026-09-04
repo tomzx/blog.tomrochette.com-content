@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Kiro is AWS's agentic IDE: spec-driven by default, with a CLI, web, mobile, and a multi-agent Crew, metered in credits from a 50-credit free tier to a $200/month Power plan.
-Facts below verified as of 2026-09-03.
+Facts below verified as of 2026-09-04.
 
 **Kiro is the only major IDE vendor that treats specs, requirements, and design documents as the primary artifact rather than chat, and that bet either matches how your team already works or will feel like bureaucracy.**
 

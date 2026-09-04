@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 qmd is a local-first CLI search engine by Tobias Lütke that indexes your markdown notes, docs, and knowledge bases and searches them with a hybrid BM25 plus vector plus LLM-reranked pipeline, designed for humans and agents alike.
-Facts below verified as of 2026-09-02.
+Facts below verified as of 2026-09-04.
 
 **qmd is the argument that a single maintainer can ship production-grade local retrieval in one binary-plus-SQLite, and that most agent RAG does not need a framework, a server, or a cloud.**
 

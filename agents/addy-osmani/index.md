@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Addy Osmani is the enterprise-hands-on voice on agentic engineering, a Director at Google Cloud AI who writes practitioner-level guidance on coding agents, harnesses, evals, and the engineering discipline that keeps agent output maintainable.
-Facts below verified as of 2026-09-02.
+Facts below verified as of 2026-09-04.
 
 **He fills the enterprise-hands-on niche: where indie practitioners show what an agent can do and org analysts measure adoption, he writes from inside a hyperscaler about holding agent-built software to a production quality bar.**
 

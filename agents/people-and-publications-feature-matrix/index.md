@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 This matrix compares the thirteen people-and-publications profiled in this category, row by row, so deciding what to follow does not require reading thirteen notes blind.
-Everything below was verified against live primary sources on 2026-08-29, re-verified on 2026-08-30, and re-verified again on 2026-09-02, when Addy Osmani joined the columns.
+Everything below was verified against live primary sources on 2026-08-29, re-verified on 2026-08-30, re-verified again on 2026-09-02, when Addy Osmani joined the columns, and re-verified on 2026-09-04.
 
 **The axis that actually segments the field is what each voice gives you: hands-on tool practice, an evaluation method, the model-and-research layer, industry-and-org analysis, or a structured on-ramp, and the personalities span all five, with the hands-on band now split between indie operators and the enterprise vantage.**
 

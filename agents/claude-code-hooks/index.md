@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Claude Code hooks are user-defined shell commands, HTTP endpoints, or LLM prompts that Claude Code runs automatically at specific points in its lifecycle, turning the harness itself into an event-driven system.
-Facts below verified as of 2026-09-02.
+Facts below verified as of 2026-09-04.
 
 **Hooks are the only mechanism in Claude Code that gives you deterministic control, and I consider them mandatory before pointing the harness at anything you care about.**
 

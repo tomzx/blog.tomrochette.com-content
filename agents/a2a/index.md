@@ -12,7 +12,7 @@ audience_notes: >
 ---
 
 A2A is an open protocol for communication and interoperability between independent, opaque AI agents.
-Facts below verified as of 2026-09-02.
+Facts below verified as of 2026-09-04.
 
 **It is the enterprise answer to agent interoperability: adoption is real at the platform layer and nearly invisible in startup and coding-agent usage, and that split is the story.**
 

@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Cognee is Topoteretes' open-source AI memory platform: a pipeline that turns documents and interactions into graph-plus-vector memory you can run entirely yourself, with an optional flat-priced cloud.
-Facts below verified as of 2026-09-02.
+Facts below verified as of 2026-09-04.
 
 **Cognee is the self-hoster's memory platform: the entire engine, including the parts Mem0 and Zep keep behind the paid tier, is Apache-2.0, and the trade is that you operate the graph, vector, and relational backends yourself.**
 

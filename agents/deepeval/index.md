@@ -1,7 +1,7 @@
 ---
 title: deepeval
 created: 2026-08-30
-updated: 2026-08-30
+updated: 2026-09-04
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, evaluation, llm-as-judge, testing, open-source]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 deepeval is an Apache-2.0, pytest-style unit-testing framework for LLM applications that scores outputs with LLM-as-a-judge metrics, G-Eval, task completion, faithfulness, and roughly fifty more, so eval failures gate code like ordinary test failures.
-Facts below verified as of 2026-09-02.
+Facts below verified as of 2026-09-04.
 
 **deepeval is the category's default answer to the question where do evals live, and its answer is your existing test suite, which is exactly why the open-core line around the Confident AI platform is the decision that matters.**
 
@@ -24,9 +24,9 @@ Made by Confident AI, a seed-stage San Francisco company, Apache-2.0.
 
 ## Status
 
-The volume leader of Python eval frameworks: 18,046 stars, 1,890 forks, roughly 550 open issues and PRs as of 2026-09-02.
-Created 2023-08-10, pushed the day of verification, Python v4.2.0 released 2026-08-24, about 4.9 million PyPI downloads a month as of 2026-08-30.
-**Three years old and commercially backed, it is the most mature column in this category, and the 500-issue backlog reads as heavy usage rather than neglect.**
+The volume leader of Python eval frameworks: 18,093 stars, 1,892 forks, 559 open issues and PRs as of 2026-09-04.
+Created 2023-08-10, pushed 2026-09-03, Python v4.2.1 released 2026-09-03, about 4.4 million PyPI downloads a month as of 2026-09-04.
+**Three years old and commercially backed, it is the most mature column in this category, and the 560-issue backlog reads as heavy usage rather than neglect.**
 
 ## Strengths
 
@@ -40,7 +40,7 @@ Created 2023-08-10, pushed the day of verification, Python v4.2.0 released 2026-
 - Most flagship metrics are LLM-as-judge: non-deterministic, prompt-sensitive, and billed to your judge key on every run.
 - The open-core split is real: comparisons, regression tracking, datasets, and online evals live in the paid Confident AI platform, and `deepeval login` is "highly recommended" while auto-logging test cases to their cloud unless you opt out.
 - The TypeScript SDK is explicitly not score-parity-verified against Python.
-- Docs-quality criticism at launch has been addressed but 550 open issues signal friction.
+- Docs-quality criticism at launch has been addressed but 559 open issues signal friction.
 
 ## Pricing
 
@@ -71,5 +71,5 @@ Not for teams that cannot tolerate LLM-judge variance, or that need score parity
 - https://docs.confident-ai.com/ - the metric taxonomy and integrations
 - https://www.confident-ai.com/pricing - the platform tiers behind the open-core split
 - https://deepeval.com/blog/introducing-deepeval-typescript - the TypeScript beta scope and parity caveat
-- https://pypistats.org/api/packages/deepeval/recent - the download figures as of 2026-08-30
+- https://pypistats.org/api/packages/deepeval/recent - the download figures as of 2026-09-04
 - https://news.ycombinator.com/item?id=37157323 - the launch thread with early criticism and maintainer response

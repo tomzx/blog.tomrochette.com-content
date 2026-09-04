@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Flue is the Astro team's open-source TypeScript agent framework, pitched as the sandbox agent framework, where agents are React-style hook functions that run against pluggable sandboxes, from an in-memory virtual shell to remote provider VMs, with durable sessions that survive crashes and redeploys.
-Facts below verified as of 2026-09-02.
+Facts below verified as of 2026-09-04.
 
 **Flue's contribution to this category is a taxonomy, not a boundary: a documented three-tier sandbox model (virtual, local, remote) that names the trade every agent builder was making implicitly, and it will consume a sandbox like [OpenShell](../openshell/index.md) rather than replace one.**
 

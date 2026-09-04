@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 OpenShell is NVIDIA's Apache-2.0, Rust-based runtime that runs AI coding agents inside isolated containers or MicroVMs governed by declarative YAML policies enforced at the kernel and an L7 egress proxy, so agents work without unrestricted access to files, credentials, or the network.
-Facts below verified as of 2026-09-02.
+Facts below verified as of 2026-09-04.
 
 **OpenShell is the first sandbox built for the agent era by a hardware vendor rather than a harness vendor, and its most interesting idea is not the isolation but the credential architecture: provider keys are injected at an inference proxy and never enter the sandbox filesystem.**
 

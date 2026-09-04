@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 ArtifactFS is Cloudflare's Go-based FUSE filesystem driver that mounts large git repositories as a normal working tree within seconds by starting from a blobless clone and hydrating file contents on demand, pitched as git clone but async, aimed at agents, sandboxes, and containers where startup time is the bottleneck.
-Facts below verified as of 2026-09-02.
+Facts below verified as of 2026-09-04.
 
 **ArtifactFS does not isolate anything, and that is why it sits in this category: sandboxes die on the two-minute clone before isolation ever matters, and this is the provisioning layer that fixes the startup half of that problem.**
 

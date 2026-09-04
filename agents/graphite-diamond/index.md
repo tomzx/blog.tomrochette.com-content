@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Graphite Diamond was the AI code review agent Graphite launched alongside its $52M Series B in March 2025; the Diamond name was deprecated on October 8, 2025 in favor of Graphite Agent, and Graphite itself joined Cursor on December 19, 2025.
-Facts below verified as of 2026-09-02.
+Facts below verified as of 2026-09-04.
 
 ## What it is
 

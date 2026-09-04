@@ -1,7 +1,7 @@
 ---
 title: "Surface Feature Matrix"
 created: 2026-08-24
-updated: 2026-09-03
+updated: 2026-09-04
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, comparison, surfaces, ai-editors]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 This matrix compares the twelve surfaces profiled in this section, feature by feature, from editors to agent platforms to session cockpits.
-Everything below was verified against live sources on 2026-08-24 and re-verified on 2026-09-03.
+Everything below was verified against live sources on 2026-08-24 and re-verified on 2026-09-04.
 
 **The surfaces differ less in whether they have an agent and more in what they are: an editor with an agent inside, a platform that treats the editor as one client, or a cockpit for many agents, and the row that matters most is the one nobody advertises, who runs where.**
 
@@ -24,7 +24,7 @@ Each column links to the full research note; every cell traces to a source cited
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Kind | platform, IDE, CLI, SDK | extensions and CLI | VS Code fork | IDE suite | closed IDE | local session app | VS Code extension | VS Code fork | VS Code fork | editor plus extensions | VS Code fork | Rust editor |
 | Open source | ✗ | ✓ Apache-2.0 | ✗ | ~ Community IDEs | ✗ | ✓ MIT | ✓ Apache-2.0 | ✗ | ✓ Apache-2.0 | ~ MIT editor | ✗ | ~ mixed licenses |
-| Free tier | ✓ unlimited completions | ✓ final 2.0.0 | ✓ Hobby | ✓ 5 credits | ✓ 50 credits | ✓ | ✓ BYOK extension | ✓ | ✓ | ✓ Copilot Free | ✓ Devin account | ✓ |
+| Free tier | ✓ unlimited completions | ✓ final 2.1.0 | ✓ Hobby | ✓ 5 credits | ✓ 50 credits | ✓ | ✓ BYOK extension | ✓ | ✓ | ✓ Copilot Free | ✓ Devin account | ✓ |
 | BYOK | ✗ | ✓ | ✓ | ✓ Junie | ✗ | ✓ via OpenCode | ✓ | ? | ✓ | ✓ | ✗ Devin key only | ✓ |
 | Local models | ✗ | ✓ Ollama | ? | ✓ Junie | ✗ | ✓ via OpenCode | ✓ | ? | ? | ✓ | ? | ✓ |
 | MCP | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ? | ✓ | ✓ | ✓ |

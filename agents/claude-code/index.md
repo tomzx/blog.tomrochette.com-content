@@ -1,7 +1,7 @@
 ---
 title: Claude Code
 created: 2026-08-22
-updated: 2026-08-30
+updated: 2026-09-04
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, coding-agents, harnesses, anthropic, developer-tools]
 readability: 3
@@ -12,7 +12,7 @@ audience_notes: >
 ---
 
 Claude Code is Anthropic's agentic coding tool: a terminal-first harness that also runs as IDE extensions, a desktop app, on the web, and from Slack.
-Facts below verified as of 2026-09-02.
+Facts below verified as of 2026-09-04.
 
 **It is the most complete harness platform shipping today, and also the most expensive way to run the same tokens, because you pay a large per-request baseline for orchestration whether you use it or not.**
 
@@ -27,7 +27,7 @@ The npm install is deprecated in favor of a native installer; third-party provid
 ## Status
 
 **Active and dominant.**
-The `anthropics/claude-code` repository shows about 143.7k stars and about 15.2k open issues and pull requests as of 2026-09-02; it hosts plugins, docs, and the issue tracker rather than the CLI source, which is proprietary.
+The `anthropics/claude-code` repository shows about 144k stars and about 14.6k open issues and pull requests as of 2026-09-04; it hosts plugins, docs, and the issue tracker rather than the CLI source, which is proprietary.
 Shipping pace in 2026 is high: agent view (May), dynamic workflows across tens of parallel subagents (May), routines (April), computer use (March).
 
 ## Strengths
@@ -74,7 +74,7 @@ Not for the token-frugal or for anyone who needs an open, auditable client.
 
 - https://code.claude.com/docs/en/overview - surfaces, skills, hooks, subagents, routines, installation
 - https://claude.com/product/claude-code - pricing tiers and 2026 feature timeline
-- https://github.com/anthropics/claude-code - repository scale (about 143.7k stars) and npm deprecation, as of 2026-09-02
+- https://github.com/anthropics/claude-code - repository scale (about 144k stars) and npm deprecation, as of 2026-09-04
 - http://web.archive.org/web/20260814104128/https://thereallo.dev/blog/claude-code-prompt-steganography - independent analysis of hidden prompt markers (archived; the live site blocks automated fetches)
 - https://systima.ai/blog/claude-code-vs-opencode-token-overhead - measured baseline, cache, and subagent token costs (July 2026)
 - https://news.ycombinator.com/item?id=47584540 - the March 31, 2026 npm sourcemap-leak discussion (2,095 points)

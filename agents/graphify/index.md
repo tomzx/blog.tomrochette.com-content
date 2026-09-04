@@ -1,7 +1,7 @@
 ---
 title: Graphify
 created: 2026-08-30
-updated: 2026-09-02
+updated: 2026-09-04
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, context-engines, knowledge-graphs, code-intelligence, open-source]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Graphify is an open-source Python CLI that turns a codebase, plus its docs, SQL schemas, and PDFs, into a queryable knowledge graph exposed as a `/graphify` skill and MCP server for coding assistants, built on local deterministic tree-sitter parsing with no vector store.
-Facts below verified as of 2026-09-02.
+Facts below verified as of 2026-09-04.
 
 **Graphify's bet is that structure beats similarity: an agent that can traverse exact calls-and-imports edges with file:line citations needs less context than one searching embeddings, and the code path runs entirely on your machine.**
 The bet is young, self-benchmarked, and wrapped in a YC company's funnel.
@@ -26,7 +26,7 @@ Made by Graphify Labs, a YC Summer 2026 company of two people in London, Apache-
 
 ## Status
 
-Growing absurdly fast for its age: 113,681 stars and 1,629 commits in about five months since 2026-04-03, latest release v0.9.53 on 2026-08-30, 226 contributors, all as of 2026-09-02.
+Growing absurdly fast for its age: 114,528 stars and 1,629 commits in about five months since 2026-04-03, latest release v0.9.53 on 2026-08-30, 226 contributors, all as of 2026-09-04.
 The YC page claims 5M+ downloads and named production users, all self-reported.
 **The star count outruns the discussion footprint: Hacker News stories linking the repo drew two or three points with no comments, a mismatch I treat as a flag, not a slam dunk.**
 
@@ -41,7 +41,7 @@ The YC page claims 5M+ downloads and named production users, all self-reported.
 
 - The benchmarks are self-published, and on the headline QA-accuracy metric graphify trails supermemory while winning on cost and recall, per its own BENCHMARKS.md.
 - Only code is local: docs, PDFs, and images are sent to whatever LLM backend is configured.
-- Pre-1.0 with 1,203 open issues and PRs as of 2026-09-02, a nonstandard default branch, and acknowledged PyPI name-squatting on `graphify*` packages.
+- Pre-1.0 with 1,248 open issues and PRs as of 2026-09-04, a nonstandard default branch, and acknowledged PyPI name-squatting on `graphify*` packages.
 - The free CLI is the top of an open-core funnel into an early-access enterprise platform, so expect the monetization posture to keep moving.
 
 ## Pricing

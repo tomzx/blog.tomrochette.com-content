@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Task Master (repo claude-task-master, package `task-master-ai`) is Eyal Toledano's AI task-management system that parses a PRD into dependency-chained tasks and drives agents through them; it became the engine of Hamster's commercial product in 2026 and its open-source repo has been quiet since April.
-Facts below verified as of 2026-09-02.
+Facts below verified as of 2026-09-04.
 
 **The most-installed task manager of the agent era chose productization over community, and its quiet repository is what a successful OSS-to-commercial handoff looks like from the outside: founders win, users keep the old binary, and the license quietly stops being open source.**
 

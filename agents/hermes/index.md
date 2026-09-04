@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Hermes Agent is Nous Research's MIT-licensed self-improving personal agent: a Python gateway process that lives in your chat channels, builds skills from its own experience, and runs on everything from a $5 VPS to serverless sandboxes, at about 240k stars the biggest runtime launch since OpenClaw.
-Facts below verified as of 2026-09-02.
+Facts below verified as of 2026-09-04.
 
 **Hermes' bet is that the runtime winner is decided by the learning loop, not the channel list: an agent that curates its own memory, writes its own skills, and models you across sessions compounds while the others merely answer.**
 

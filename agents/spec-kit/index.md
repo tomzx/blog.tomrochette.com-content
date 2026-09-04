@@ -1,7 +1,7 @@
 ---
 title: GitHub Spec Kit
 created: 2026-08-26
-updated: 2026-09-02
+updated: 2026-09-04
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, spec-driven-development, github, ai-agents]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Spec Kit is GitHub's open-source toolkit for spec-driven development: a CLI that scaffolds constitution, spec, plan, and tasks files, then drives any of 30+ coding agents through implementing them.
-Facts below verified as of 2026-09-02.
+Facts below verified as of 2026-09-04.
 
 **Spec Kit hit 132k stars in one year by selling process, not product: it is markdown conventions plus a scaffolding CLI, and its popularity is the strongest signal yet that the industry wants review gates on agents more than it wants more agent autonomy.**
 
@@ -24,7 +24,7 @@ Extensions, presets, and role-based bundles let an organization customize the pr
 ## Status
 
 **Active, and it just declared adulthood.**
-First commit August 21, 2025; v1.0.0 and v1.0.1 both shipped August 21, 2026, patch releases v1.0.2 and v1.0.3 followed on August 31 and September 1, with 132,965 stars and about 12k forks as of 2026-09-02.
+First commit August 21, 2025; v1.0.0 and v1.0.1 both shipped August 21, 2026, and patch releases v1.0.2, v1.0.3, and v1.0.4 followed on August 31, September 1, and September 2, with 133,382 stars and about 12k forks as of 2026-09-04.
 The lead maintainer's anniversary post says the original creators have moved on to other projects and frames 1.0.0 as "just a number", arguing that as agents cheapen adaptation, value moves from stability to adaptability.
 
 ## Strengths

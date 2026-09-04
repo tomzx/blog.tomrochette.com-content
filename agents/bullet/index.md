@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Bullet is a closed-source coding agent (desktop app plus npm CLI) from a YC S26 startup whose entire pitch is latency: route simple tasks to fast models, search instead of embedding the repo, run tool calls in parallel, and kill stuck loops.
-Facts below verified as of 2026-09-02.
+Facts below verified as of 2026-09-04.
 
 **Bullet is the first harness to compete on speed rather than capability, and its benchmark write-up is the most transparent vendor self-report in the category, which makes the closed source the only thing standing between it and a serious look.**
 

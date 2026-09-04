@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 AI Jason is the YouTube practitioner channel of product designer Jason Zhou, the highest-profile video source for working agent workflows, from context engineering to building production AI apps.
-Facts below verified as of 2026-09-02.
+Facts below verified as of 2026-09-04.
 
 **He is the video practitioner to follow because he builds and reverse-engineers the tools himself, which fills the YouTube-speed walkthrough niche none of the other voices here occupy.**
 

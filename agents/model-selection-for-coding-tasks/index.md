@@ -1,7 +1,7 @@
 ---
 title: "Model Selection for Coding Tasks"
 created: 2026-08-24
-updated: 2026-09-02
+updated: 2026-09-04
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, model-selection, coding-agents, llm-pricing]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 This is a maintained, opinionated guide to choosing models for coding, review, and agentic work.
-Everything below was verified against live pricing pages and benchmark sources on 2026-09-02; when the facts move, this page moves with them.
+Everything below was verified against live pricing pages and benchmark sources on 2026-09-04; when the facts move, this page moves with them.
 
 **Model selection for coding is an economics decision before it is a capability decision: run the workhorse tier for the loop, buy the frontier by the minute, and give the reading to the cheap models.**
 The part most engineers get backwards: **for anyone paying per token, the harness you run moves your bill about as much as the model you pick, and sometimes more.**
@@ -26,7 +26,7 @@ The part most engineers get backwards: **for anyone paying per token, the harnes
 
 Escalate by task class inside a session instead of picking one model for everything; Amp's low/medium/high/ultra modes and Codex's Sol/Terra/Luna defaults are this idea shipped as product (see the [Amp](../amp/index.md) and [Codex](../codex/index.md) notes).
 
-## The lineup as of 2026-09-02
+## The lineup as of 2026-09-04
 
 **The workhorse tier has converged to roughly $2 in and $10-12 out per million tokens at every major provider, which means switching costs are now measured in harness integration, not price.**
 
@@ -39,7 +39,7 @@ Escalate by task class inside a session instead of picking one model for everyth
 | Claude Haiku 4.5 | $1 / $5 | cheap tier |
 | Claude Sonnet 5 | $2 / $10 | launch intro price made standard, planned increase cancelled |
 | Claude Opus 5 | $5 / $25 | frontier |
-| Claude Fable 5 | $10 / $50 | top tier, Amp BYOK documents data-retention caveats for it |
+| Claude Fable 5.1 | $10 / $50 | top tier, cache hits at 2.5% of input, Amp BYOK documents data-retention caveats for it |
 | Gemini 3.1 Flash-Lite | $0.25 / $1.50 | cheap tier |
 | Gemini 3.7 / 3.6 Flash | $0.75 / $3.75 | intro pricing through 2026-12-31, then doubles |
 | Gemini 3.1 Pro Preview | $2 / $12 | workhorse, doubles beyond 200K input |
@@ -52,7 +52,7 @@ Escalate by task class inside a session instead of picking one model for everyth
 Four details the table hides:
 
 - Batch mode is 50% off at all three providers, which makes overnight review sweeps half price by default.
-- Cached reads run about one tenth of input price at OpenAI, Anthropic, Google, and Kimi K3, and closer to one fifth at GLM and kimi-k2.7-code, while DeepSeek discounts hits to about one thirtieth, so loop economics depend on both the cache-hit rate and the vendor's cache discount.
+- Cached reads run about one tenth of input price at OpenAI, Google, and Kimi K3, one tenth at Anthropic except the Fable 5.1 and Mythos 5.1 pair at one fortieth, closer to one fifth at GLM and kimi-k2.7-code, while DeepSeek discounts hits to about one thirtieth, so loop economics depend on both the cache-hit rate and the vendor's cache discount.
 - Claude models from 4.6 onward include the full 1M-token context at standard pricing, and Kimi K3 matches the flat-1M policy at $3 in, while OpenAI and Google both double prices past their long-context thresholds, so whole-repository prompting is cheapest on Anthropic and second-cheapest on Kimi.
 - The Claude 4.7+ tokenizer produces about 30% more tokens for the same text, so cross-vendor price comparisons understate Anthropic's effective cost by roughly that margin.
 
@@ -88,8 +88,8 @@ My rule: use benchmarks for relative history and cost-per-point for decisions, a
 **The measured spread between harnesses is larger than the frontier premium at OpenAI and most of it at Anthropic.**
 The July 2026 proxy study recorded in the [Claude Code note](../claude-code/index.md) measured about 33k input tokens sent before the user's prompt on a minimal task, mid-session cache re-writes up to 54x, and a 4.2x multiplier on a two-subagent fan-out.
 The same study, recorded in the [OpenCode note](../opencode/index.md), measured about 7k baseline tokens for OpenCode with byte-stable cache prefixes, making it about 3.7x cheaper on a matched pass/fail benchmark.
-Compare: Fable 5 costs 5x Sonnet 5 per token, and gpt-5.6-sol costs 2x terra.
-So choosing OpenCode over Claude Code moves a token-payer's bill more than choosing terra over sol, and roughly matches skipping Fable 5 for Sonnet 5.
+Compare: Fable 5.1 costs 5x Sonnet 5 per token, and gpt-5.6-sol costs 2x terra.
+So choosing OpenCode over Claude Code moves a token-payer's bill more than choosing terra over sol, and roughly matches skipping Fable 5.1 for Sonnet 5.
 Models are substitutable across providers; a harness with a heavy baseline taxes every model you point through it, forever.
 
 ## Subscription or BYOK: pick by where your spend lands
@@ -109,7 +109,7 @@ One fence to remember: Anthropic's March 2026 legal requests removed Claude subs
 - High-volume loops where cost leads: deepseek-v4-flash at $0.44 peak and $0.22 off-peak with no expiry announced, or Gemini 3.7/3.6 Flash at its $0.75/$3.75 intro rate (calendar the 2026-12-31 end).
 - Price-floor loops, BYOK: deepseek-v4-pro, kimi-k2.7-code, or GLM-5.3 through OpenCode, all native providers; nothing credible stays cheaper.
 - Whole-repository reads: DeepSeek V4 from $0.44 in, a 1M-context Claude at $2, or Kimi K3 at $3 flat; all three keep 1M pricing flat.
-- Frontier minutes only: gpt-5.6-sol or Claude Opus 5 for planning and stuck debugging; Fable 5 when nothing else resolves.
+- Frontier minutes only: gpt-5.6-sol or Claude Opus 5 for planning and stuck debugging; Fable 5.1 when nothing else resolves.
 - Inline completion and edits: gpt-5.6-luna, Gemini 3.1 Flash-Lite, or Claude Haiku 4.5.
 - Review passes and doc reading: cheap tier in batch mode, or a 1M-context Claude for whole-repo reads at standard price.
 - Offline or air-gapped: local models through aider, Crush, or Junie BYOK.

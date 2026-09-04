@@ -1,7 +1,7 @@
 ---
 title: Augment Code
 created: 2026-08-24
-updated: 2026-08-30
+updated: 2026-09-04
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, context-engines, coding-agents, enterprise-tools]
 readability: 3
@@ -12,7 +12,7 @@ audience_notes: >
 ---
 
 Augment Code is an AI coding platform whose core is the Context Engine, a real-time semantic index of the codebase that feeds its Auggie CLI agent and the Cosmos agent orchestration platform.
-Facts below verified as of 2026-09-02.
+Facts below verified as of 2026-09-04.
 
 **Augment makes the strongest documented claim in the context-engine space, that retrieval quality cuts agent token spend by a third at matched quality, and every number behind it is vendor-run, so buyer-side replication is the actual missing feature.**
 
@@ -36,7 +36,7 @@ I could not verify funding history from primary sources in this run (the company
 
 - **Benchmark transparency is above the field's average**: the Terminal Bench 2.0 and SWE-bench Pro runs publish token categories and methodology (Harbor framework, five attempts per task), claiming 33% lower spend at equal pass rate vs Claude Code on Opus 4.7, and 41% lower on private-repo internal evals.
 - The harness rebuild post is unusually concrete engineering: tool-surface narrowing to one bash and three file tools, proactive compaction on a cheaper model, and a measured 53% cheaper per SWE-bench Pro task ($1.27 vs $2.70) at matched pass rate.
-- Flat Business pricing at $100/month for up to 50 seats is a rare anti-seat-model move.
+- Flat, no-per-seat pricing now comes in two tiers (Standard $20/month, Business $100/month, each up to 50 seats, plan structure as of 2026-09-04), a rare anti-seat-model move.
 - Model-agnostic by design, with Prism routing claimed to add 20-30% savings on top.
 
 ## Cautions
@@ -48,8 +48,8 @@ I could not verify funding history from primary sources in this run (the company
 
 ## Pricing
 
-**The flat $100 is an entry point, not a ceiling: at their own published usage rates, a 50-seat team's real bill is dominated by tokens and the 40% service fee on them.**
-Business is $100/month flat for up to 50 seats, including $100/month of usage (LLM at provider list price, 40% service fee on LLM usage, plus compute), with pooled top-ups valid 12 months.
+**The flat plans are an entry point, not a ceiling: at their own published usage rates, a 50-seat team's real bill is dominated by tokens and the 40% service fee on them.**
+Standard is $20/month flat for up to 50 seats including $20/month of usage, and Business is $100/month flat with $100/month of usage (LLM at provider list price, 40% service fee on LLM usage, plus compute), with pooled top-ups valid 12 months (plan structure as of 2026-09-04).
 Enterprise is custom (unlimited users, data residency, CMEK, SIEM, dedicated support).
 No free tier; trials get community support only.
 

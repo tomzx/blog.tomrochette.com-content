@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Kodus is an open-source AI code reviewer named Kody (AGPL-3.0 plus a commercial enterprise-edition dual license) that reviews pull requests on GitHub, GitLab, Bitbucket, and Azure Repos, self-hosted or via Kodus Cloud, with whatever model you bring.
-Facts below verified as of 2026-09-02.
+Facts below verified as of 2026-09-04.
 
 ## What it is
 

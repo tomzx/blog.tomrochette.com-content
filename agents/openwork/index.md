@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 OpenWork is a free, MIT-licensed desktop app for macOS, Windows, and Linux that runs AI agent sessions on local files with shared skills, MCP connections, browser automation, and scheduled tasks, positioned as the open alternative to Anthropic's Claude Cowork and built on top of OpenCode.
-Facts below verified as of 2026-09-02.
+Facts below verified as of 2026-09-04.
 
 **OpenWork is the Cowork clone that outlived the clone jokes: seven and a half months of signed, weekly releases to 23k stars, an MCP gateway that makes its skills portable to any agent, and a license split that is the first thing a serious adopter should read.**
 

@@ -12,7 +12,7 @@ audience_notes: >
 ---
 
 Qwen Code is the Alibaba Qwen team's open-source (Apache-2.0) terminal coding agent, forked from Google's Gemini CLI v0.8.2 and developed independently since v0.1.
-Facts below verified as of 2026-09-03.
+Facts below verified as of 2026-09-04.
 
 **Qwen Code is the free on-ramp of the harness field, and the only major harness whose companion model family is itself open weights, which makes it the cleanest demonstration of model and harness evolving together.**
 

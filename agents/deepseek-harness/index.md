@@ -1,7 +1,7 @@
 ---
 title: DeepSeek Harness
 created: 2026-08-30
-updated: 2026-09-02
+updated: 2026-09-04
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, harnesses, coding-agents, plugins, open-source]
 readability: 3
@@ -11,10 +11,10 @@ audience_notes: >
 ---
 
 DeepSeek Harness (`dsh`) is DeepSeek's open-source, MIT-licensed coding-agent harness built on an everything-is-a-plugin kernel where the model, tools, UI, and even the agent loop are hot-swappable plugins.
-Facts below verified as of 2026-09-02.
+Facts below verified as of 2026-09-04.
 
 **The bet is not another agent but a harness with nothing built in: if the plugin architecture holds, forking a harness to change it becomes obsolete.**
-Two and a half weeks in, the bet is unproven and the project says so itself.
+Three weeks in, the bet is unproven and the project says so itself.
 
 ## What it is
 
@@ -26,10 +26,10 @@ It is local-first and BYOK: API keys stay in a local credentials file, with prov
 
 ## Status
 
-New and extremely loud: 208,672 stars, 24,325 forks, and roughly 14,900 commits as of 2026-09-02, twenty days after the repo was created on 2026-08-13.
-No stable release exists, only alpha and rc prereleases (dsh-v0.1.2-alpha.4 on 2026-09-01), and the README warns there will be compatibility-breaking changes.
+New and extremely loud: 211,461 stars, 24,782 forks, and roughly 15,000 commits as of 2026-09-04, three weeks after the repo was created on 2026-08-13.
+No stable release exists, only alpha and rc prereleases (dsh-v0.1.2-rc.1 on 2026-09-03), and the README warns there will be compatibility-breaking changes.
 The launch thread drew 747 points and 301 comments on Hacker News, with the author answering questions directly.
-An ecosystem is already forming: a Tauri desktop port with 1,561 stars, a plugin directory site, and an MCP plugin catalog.
+An ecosystem is already forming: a Tauri desktop port with 1,640 stars, a plugin directory site, and an MCP plugin catalog.
 **I read the star count as attention, not adoption, and the safest status label is developer preview.**
 
 ## Strengths

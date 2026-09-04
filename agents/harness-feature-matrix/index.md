@@ -1,7 +1,7 @@
 ---
 title: "Harness Feature Matrix"
 created: 2026-08-24
-updated: 2026-09-03
+updated: 2026-09-04
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, comparison, harnesses, coding-agents]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 This matrix compares the twenty-three harnesses profiled in this section, feature by feature, so the shortlisting step does not require reading twenty-three notes.
-Everything below was re-verified against live sources on 2026-09-03.
+Everything below was re-verified against live sources on 2026-09-04.
 
 **No harness has everything, and the two axes that actually decide the purchase are client openness and who pays for tokens: everything else is converging.**
 

@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 The Agent Skills open standard (agentskills.io) defines an agent capability as a directory containing a SKILL.md: required `name` and `description` frontmatter, optional `license`, `compatibility`, `metadata`, and `allowed-tools`, then markdown instructions, with scripts, references, and assets as optional neighbors.
-Facts below verified as of 2026-09-02.
+Facts below verified as of 2026-09-04.
 
 **The standard spread faster than MCP because it is only files: no runtime, no protocol, no server, so a harness can implement it in an afternoon, and by mid-2026 OpenAI, Google, and the major third-party harnesses all had.**
 

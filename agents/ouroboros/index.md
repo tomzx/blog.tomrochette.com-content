@@ -1,7 +1,7 @@
 ---
 title: Ouroboros
 created: 2026-08-30
-updated: 2026-09-02
+updated: 2026-09-04
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, software-factory, verification, self-improving-agents, open-source]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Ouroboros is an MIT-licensed Python "Agent OS" that turns a vague brief into verified code by running a Socratic interview, freezing an immutable spec, executing through one of 13 coding-agent runtimes, and verifying the result with a three-stage gate whose grading commands and expected outputs are withheld from the worker agent.
-Facts below verified as of 2026-09-02.
+Facts below verified as of 2026-09-04.
 
 **Ouroboros earns its anti-cheating tagline architecturally, not rhetorically: the worker's success contract omits the grading command and expected result, and the first verification stage is LLM-free, which is a cleaner separation than most self-improving agent systems attempt.**
 
@@ -24,9 +24,9 @@ MIT, by Ouro Labs (Q00), solo-maintained with around 75 contributors.
 
 ## Status
 
-Very young, very active: 5,752 stars, 580 forks, 70 open issues as of 2026-09-02, created 2026-01-14, pushed 2026-09-01.
+Very young, very active: 5,768 stars, 582 forks, 66 open issues as of 2026-09-04, created 2026-01-14, pushed 2026-09-03.
 Latest release v0.53.0 on 2026-09-01, with roughly 25 PyPI releases in the last seven weeks; PyPI self-labels it Beta.
-**Headline results are self-reported, its Hacker News threads are self-submitted with single-digit points, and no independent evaluation exists as of 2026-09-02.**
+**Headline results are self-reported, its Hacker News threads are self-submitted with single-digit points, and no independent evaluation exists as of 2026-09-04.**
 
 ## Strengths
 

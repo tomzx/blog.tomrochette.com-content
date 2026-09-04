@@ -1,7 +1,7 @@
 ---
 title: jcode
 created: 2026-08-30
-updated: 2026-09-03
+updated: 2026-09-04
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agents, harnesses, rust, yc, memory, multi-agent]
 readability: 3
@@ -12,7 +12,7 @@ audience_notes: >
 ---
 
 jcode is a Rust terminal coding agent from Solo Systems, the one-person company of Jeremy Huang (YC S26), built on the claim that a tiny RAM footprint is what makes dozens of parallel agents practical.
-Facts below verified as of 2026-09-03.
+Facts below verified as of 2026-09-04.
 
 **jcode is the first harness whose headline feature is not intelligence but arithmetic: about 10 MB of extra memory per added session (ten sessions cost roughly 100 MB), so running a dozen agents stops being a memory decision, and it ships the memory graph and swarm coordination that assume you will.**
 
@@ -26,13 +26,13 @@ Its three distinctive systems are an embedding-based memory graph with passive r
 ## Status
 
 **Active and rising fast, with a bus factor of one.**
-Created January 5, 2026, it shows 19,024 stars and 2,181 forks with a push on the day of verification (GitHub API), and near-daily releases (v0.81.4 on August 30, 2026).
+Created January 5, 2026, it shows 19,078 stars and 2,185 forks with a push on the day of verification (GitHub API), and near-daily releases (v0.81.6 on September 4, 2026).
 It is Y Combinator-backed (S26), and the author reports 11,977 contributions in the last year ([about page](https://jcode.sh/about)).
 The independent footprint is thin so far: two Hacker News threads at 3 and 5 points with zero comments (April 30 and August 10, 2026) and one favorable third-party comparison; 19.0k stars against that little discussion is unusual and worth watching.
 
 ## Strengths
 
-- Resource efficiency is measured and published in detail: about 10 MB of extra PSS per added session (9.9 MB with local embedding off) and 14 ms to first frame, versus about 213 MB of extra PSS and 3.5 s to first input for Claude Code in the same self-run comparison ([jcode.sh](https://jcode.sh/), as of 2026-09-03).
+- Resource efficiency is measured and published in detail: about 10 MB of extra PSS per added session (9.9 MB with local embedding off, 10.4 MB with it on) and 14 ms to first frame, versus about 213 MB of extra PSS and 3.5 s to first input for Claude Code in the same self-run comparison ([jcode.sh](https://jcode.sh/), as of 2026-09-04).
 - The memory system is the most complete shipping design in any harness: vector-embedded graph, passive cosine-similarity recall, a verifying sideagent, scopes, confidence decay, and contradiction relations.
 - Swarm coordination is harness-native rather than bolted on: same-repo agents get file-conflict notifications, DM or broadcast messaging, and can spawn their own worker teams.
 - Verification is harness-enforced: todo confidence scoring with a spike check, auto-poke when a turn ends with incomplete todos, and hill-climbability ratings on goals.
@@ -41,7 +41,7 @@ The independent footprint is thin so far: two Hacker News threads at 3 and 5 poi
 
 ## Cautions
 
-- **Every number is self-published**: benchmarks run on the author's machine with author-chosen versions, and the RAM headline uses embeddings off, whose on-state cost the current comparison table no longer publishes.
+- **Every number is self-published**: benchmarks run on the author's machine with author-chosen versions, and the comparison table now publishes both embedding states (about 10.4 MB per added session on, 9.9 MB off), all still self-measured.
 - Self-dev mode hands the agent its own source and the README itself warns that weaker models make subtle, breaking changes; treating your harness as mutable is a supply-chain decision.
 - Solo founder, v0.x line, near-daily releases; churn is a real cost, and the site carries its own "under construction" flag.
 - MCP is stdio-only; HTTP and SSE servers are recognized and skipped ([docs](https://jcode.sh/docs)).
@@ -74,7 +74,7 @@ Not for teams needing IDE integration, HTTP MCP, or independent benchmarking tod
 
 ## References
 
-- https://github.com/1jehuang/jcode - repository, MIT license, Rust, scale, release cadence, feature README, as of 2026-09-03
+- https://github.com/1jehuang/jcode - repository, MIT license, Rust, scale, release cadence, feature README, as of 2026-09-04
 - https://jcode.sh/ - mission, RAM and startup benchmarks, memory, swarm, self-dev, prompt-size study, changelog
 - https://jcode.sh/docs - AGENTS.md loading, hooks, skills, stdio-only MCP, remote daemon, ambient config
 - https://jcode.sh/about - Solo Systems, Jeremy Huang, solo founder, YC S26

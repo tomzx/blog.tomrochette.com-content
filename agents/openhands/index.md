@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 OpenHands is the open-source (MIT) AI software development platform from All Hands AI: sandboxed agent conversations with code, shell, and browser access, runnable locally, in their cloud, or in your VPC.
-Facts below verified as of 2026-09-03.
+Facts below verified as of 2026-09-04.
 
 **OpenHands is the field's largest open bet on the platform camp of agentic development, and its architecture has just re-centered on a server-client split that demotes the local GUI and CLI to legacy.**
 

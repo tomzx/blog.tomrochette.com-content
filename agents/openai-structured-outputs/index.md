@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 OpenAI Structured Outputs is an API capability that guarantees model responses adhere to a JSON Schema you supply, enforced by constraining decoding rather than by prompting.
-Facts below verified as of 2026-09-02.
+Facts below verified as of 2026-09-04.
 
 **It is the strongest output guarantee available from a major vendor: schema adherence is enforced at generation time, so the classic parse-validate-retry loop collapses into a single call for anything your schema can express.**
 

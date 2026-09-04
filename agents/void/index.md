@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Void is the open-source Cursor alternative: an Apache-2.0 VS Code fork with BYOK AI, about 28.8k GitHub stars as of 2026-09-03, and a repository that has now been archived.
-Facts below verified as of 2026-09-03.
+Facts below verified as of 2026-09-04.
 
 **Void proved the demand for an open AI editor (948 points on its breakout thread) and then demonstrated the second lesson: in this category, open source does not keep pace with funded velocity.**
 

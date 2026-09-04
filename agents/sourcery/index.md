@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Sourcery is a hosted AI code reviewer for GitHub and GitLab (with IDE plugins and a security scanning layer) from the company behind the older Python refactoring tool of the same name.
-Facts below verified as of 2026-09-02.
+Facts below verified as of 2026-09-04.
 
 ## What it is
 

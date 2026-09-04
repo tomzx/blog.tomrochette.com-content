@@ -23,33 +23,33 @@ If the section turns into slop, the logs will show exactly where it went wrong, 
 
 # Essays and trackers
 
-- [Agentic Coding Tools Landscape](agentic-coding-tools-landscape/index.md) - maintained map of harnesses, editors, cloud agents, and orchestration as of 2026-09-02.
-- [Model Selection for Coding Tasks](model-selection-for-coding-tasks/index.md) - opinionated guide to choosing models by task class and per-token economics, as of 2026-09-02.
+- [Agentic Coding Tools Landscape](agentic-coding-tools-landscape/index.md) - maintained map of harnesses, editors, cloud agents, and orchestration as of 2026-09-04.
+- [Model Selection for Coding Tasks](model-selection-for-coding-tasks/index.md) - opinionated guide to choosing models by task class and per-token economics, as of 2026-09-04.
 - [Context Management Patterns](context-management-patterns/index.md) - the patterns that keep agent context windows small and fresh, as of 2026-08-24.
 - [The Tells Are Structural](the-tells-are-structural/index.md) - why word-swap humanizers fail (detection lives at the narrative-structure layer) and what a structural revision pass does instead, grounded in StoryScope.
 
 ## Comparison matrices
 
-- [Harness Feature Matrix](harness-feature-matrix/index.md) - the twenty-three harnesses against eleven capability rows, verified 2026-09-02.
-- [Surface Feature Matrix](surface-feature-matrix/index.md) - the twelve surfaces (two of them death records) against eleven capability rows, verified 2026-09-02.
+- [Harness Feature Matrix](harness-feature-matrix/index.md) - the twenty-three harnesses against eleven capability rows, verified 2026-09-04.
+- [Surface Feature Matrix](surface-feature-matrix/index.md) - the twelve surfaces (two of them death records) against eleven capability rows, verified 2026-09-04.
 - [Orchestration Feature Matrix](orchestration-feature-matrix/index.md) - the twelve worktree managers, dashboards, control planes, and mobile clients, Omnara the newest, plus one agent town, one dead and one orphaned among them.
 - [Protocols Feature Matrix](protocols-feature-matrix/index.md) - the five protocols stack rather than compete, and adoption falls with every step up the stack.
 - [Context Engines Feature Matrix](context-engines-feature-matrix/index.md) - the seven context vendors and tools against delivery, deployment, and scale rows.
-- [Code Review Feature Matrix](code-review-feature-matrix/index.md) - the eight AI reviewers divided on where your code runs, with both Kudelski exploit records named, verified 2026-09-02.
+- [Code Review Feature Matrix](code-review-feature-matrix/index.md) - the eight AI reviewers divided on where your code runs, with both Kudelski exploit records named, verified 2026-09-04.
 - [Skills Feature Matrix](skills-feature-matrix/index.md) - the spec, vendor format, harness mechanism, optimizer, and registry against runtime and stewardship rows.
 - [Retrieval Feature Matrix](retrieval-feature-matrix/index.md) - the two frameworks and two patterns compared, with the harness-native counterargument engaged.
-- [Memory Feature Matrix](memory-feature-matrix/index.md) - the file convention and five services against memory-model and lock-in rows.
+- [Memory Feature Matrix](memory-feature-matrix/index.md) - the file convention, the portable format, and five services against memory-model and lock-in rows.
 - [Executions Feature Matrix](executions-feature-matrix/index.md) - subscription features versus self-hostable infrastructure across trigger and execution rows.
 - [Hybrid Execution Feature Matrix](hybrid-execution-feature-matrix/index.md) - constrained decoding versus validate-and-retry, the guarantee mechanism as the deciding row.
 - [Task Management Feature Matrix](task-management-feature-matrix/index.md) - files versus database as the deciding row, with the PRD pipeline and its license cost.
 - [Spec Driven Development Feature Matrix](spec-driven-development-feature-matrix/index.md) - the four spec-first tools across the ownership and ceremony-sizing axes.
 - [Control Planes Feature Matrix](control-planes-feature-matrix/index.md) - governance, budgets, and multi-company rows that separate control planes from orchestration.
-- [Assistant Runtimes Feature Matrix](assistant-runtimes-feature-matrix/index.md) - OpenClaw, Hermes, the shrinking variants, the Python core, and the two Cowork desktops, the trust ladder in one table, verified 2026-09-02.
-- [Software Factory Feature Matrix](software-factory-feature-matrix/index.md) - the stamped Python loop, Fluent's learning loop, HAR's fleet harness, and Ouroboros' hidden grading on the who-owns-the-loop axis, verified 2026-09-02.
-- [Evaluation and Review Feature Matrix](evaluation-review-feature-matrix/index.md) - the four quality-control columns divided on who judges, the agent, the metric suite, or the human, verified 2026-09-02.
-- [Sandboxing Feature Matrix](sandboxing-feature-matrix/index.md) - the five isolation layers divided into boundaries, an orchestrator, a framework, and provisioning, verified 2026-09-02.
-- [Session Analytics Feature Matrix](session-analytics-feature-matrix/index.md) - the new one-column category: retrospective archives versus live observation, seeded by agentsview, verified 2026-09-02.
-- [People and Publications Feature Matrix](people-and-publications-feature-matrix/index.md) - the thirteen voices compared on focus, cadence, and reader slot, verified 2026-09-02.
+- [Assistant Runtimes Feature Matrix](assistant-runtimes-feature-matrix/index.md) - OpenClaw, Hermes, the shrinking variants, the Python core, and the two Cowork desktops, the trust ladder in one table, verified 2026-09-04.
+- [Software Factory Feature Matrix](software-factory-feature-matrix/index.md) - the stamped Python loop, Fluent's learning loop, HAR's fleet harness, and Ouroboros' hidden grading on the who-owns-the-loop axis, verified 2026-09-04.
+- [Evaluation and Review Feature Matrix](evaluation-review-feature-matrix/index.md) - the four quality-control columns divided on who judges, the agent, the metric suite, or the human, verified 2026-09-04.
+- [Sandboxing Feature Matrix](sandboxing-feature-matrix/index.md) - the five isolation layers divided into boundaries, an orchestrator, a framework, and provisioning, verified 2026-09-04.
+- [Session Analytics Feature Matrix](session-analytics-feature-matrix/index.md) - the new one-column category: retrospective archives versus live observation, seeded by agentsview, verified 2026-09-04.
+- [People and Publications Feature Matrix](people-and-publications-feature-matrix/index.md) - the thirteen voices compared on focus, cadence, and reader slot, verified 2026-09-04.
 
 Essays appear here as the daily agent runs publish them.
 The queue it works from is [the work queue](queue.md).
@@ -69,7 +69,7 @@ All categories refreshed in parallel every run; dead tools keep their entries, m
 - [Cline](cline/index.md) - the open-source agent that outgrew its VS Code extension into CLI, kanban, and SDK, 5.2 million installs deep.
 - [Codex](codex/index.md) - OpenAI's ChatGPT-included agent, the Apache-2.0 big-lab CLI individuals can still just run.
 - [Crush](crush/index.md) - Charm's Go-and-LSP terminal agent, FSL-licensed, from the original OpenCode repo.
-- [DeepSeek Harness](deepseek-harness/index.md) - DeepSeek's everything-is-a-plugin harness, 208k stars in under three weeks, MIT but alpha.
+- [DeepSeek Harness](deepseek-harness/index.md) - DeepSeek's everything-is-a-plugin harness, 211k stars in three weeks, MIT but alpha, now at release candidates.
 - [fx](fx/index.md) - Vercel Labs' ~6 MiB Zig harness built to be embedded, the first agent-as-a-dependency bet.
 - [Gemini CLI](gemini-cli/index.md) - Google's open-source terminal agent, superseded for individuals by Antigravity CLI in June 2026.
 - [goose](goose/index.md) - Block's Rust agent turned Linux Foundation project, the field's first foundation-governed harness.
@@ -97,7 +97,7 @@ All categories refreshed in parallel every run; dead tools keep their entries, m
 - [Trae](trae/index.md) - ByteDance's budget AI IDE, SOLO mode and cloud tasks from $3/month, telemetry questions attached.
 - [Void](void/index.md) - the Apache-2.0 open-source Cursor alternative, demand proven, releases stalled since April 2025.
 - [VS Code + Copilot](vscode-copilot/index.md) - the neutral default, hosting Copilot, Claude Code, and Codex as swappable harnesses.
-- [Windsurf](windsurf/index.md) - the agentic IDE rescued by Cognition in 2025, now rebranding into Devin Desktop.
+- [Windsurf](windsurf/index.md) - the agentic IDE rescued by Cognition in 2025, fully absorbed into Devin Desktop, its old domain now a redirect.
 - [Zed](zed/index.md) - the Rust performance editor where AI is optional and BYOK is unlimited.
 
 ## Orchestration
@@ -155,6 +155,7 @@ All categories refreshed in parallel every run; dead tools keep their entries, m
 - [File-based agent memory](file-based-agent-memory/index.md) - the CLAUDE.md and AGENTS.md conventions, memory as plain markdown files.
 - [Letta](letta/index.md) - the MemGPT creators' memory-first platform, agent plus cloud tier.
 - [mem0](mem0/index.md) - the hosted and self-hostable memory layer across vector, graph, and key-value backends.
+- [Memoryfields](memoryfields/index.md) - Cal Paterson's portable memory-as-file-format spec, markdown pages plus a deletable vector index, the files-over-pipelines argument in RFC form.
 - [Zep](zep/index.md) - temporal knowledge graphs where contradictions invalidate old facts.
 
 ## Executions
@@ -206,7 +207,7 @@ Where agent isolation should live: the workstation, the cluster, the wrapper, th
 ## Spec-driven development
 
 - [BMad Method](bmad-method/index.md) - the agile method that sizes ceremony to the change, roles and retrospectives included.
-- [GitHub Spec Kit](spec-kit/index.md) - the MIT process-plus-CLI layer that made specs-before-agents a movement, agent-neutral, 132k stars in year one.
+- [GitHub Spec Kit](spec-kit/index.md) - the MIT process-plus-CLI layer that made specs-before-agents a movement, agent-neutral, 133k stars in year one.
 - [OpenSpec](openspec/index.md) - the brownfield spec toolkit whose delta proposals archive into a living ledger, 1.6M npm downloads a month.
 - [Tessl](tessl/index.md) - the $125M platform bet that spec-driven development is infrastructure you rent.
 

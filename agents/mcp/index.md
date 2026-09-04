@@ -12,7 +12,7 @@ audience_notes: >
 ---
 
 MCP is an open protocol that standardizes how AI applications connect to external tools, data sources, and workflows.
-Facts below verified as of 2026-09-02.
+Facts below verified as of 2026-09-04.
 
 **It is the de facto standard for agent-to-tool integration, and its one-year run from launch to industry default has no precedent I can find in developer tooling.**
 

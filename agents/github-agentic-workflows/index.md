@@ -1,7 +1,7 @@
 ---
 title: GitHub Agentic Workflows
 created: 2026-08-24
-updated: 2026-09-02
+updated: 2026-09-04
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, executions, github-actions, workflows]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 GitHub Agentic Workflows (gh-aw) define repository automation in Markdown with YAML frontmatter, compiled into a hardened GitHub Actions workflow that runs an AI coding agent with guardrails.
-Facts below verified as of 2026-09-02.
+Facts below verified as of 2026-09-04.
 
 **GitHub Actions is becoming the default execution substrate for code agents, and gh-aw is the mechanism that makes an untrusted LLM in CI survivable.**
 
@@ -24,9 +24,9 @@ It is built by GitHub Next with Microsoft Research, MIT-licensed, in public prev
 ## Status
 
 **Active preview with real traction.**
-About 5.1k stars, 530 forks, and 17,421 commits in `github/gh-aw` as of 2026-09-02.
+About 5.1k stars, 528 forks, and 17,478 commits in `github/gh-aw` as of 2026-09-04.
 The February 2026 Hacker News launch thread drew 302 points and 141 comments.
-The trust story has moved: an August 2026 billing bug forced the retirement of releases 0.68.4 through 0.71.3, and while that notice has since been cleared from the README (releases now run v0.87.x, latest v0.87.10 on 2026-08-31), the episode shows how quickly this preview will break its users.
+The trust story has moved: an August 2026 billing bug forced the retirement of releases 0.68.4 through 0.71.3, and while that notice has since been cleared from the README (releases now run v0.88.x, latest v0.88.4 on 2026-09-04), the episode shows how quickly this preview will break its users.
 
 ## Strengths
 
@@ -70,7 +70,7 @@ My disagreeable claim: even in preview, I would start here rather than hand-roll
 
 - https://docs.github.com/en/copilot/concepts/agents/about-github-agentic-workflows - product definition, security model, AIC billing
 - https://github.github.com/gh-aw/ - full reference: engines, guardrails, cost management
-- https://github.com/github/gh-aw - repository scale, MIT license, as of 2026-09-02
+- https://github.com/github/gh-aw - repository scale, MIT license, as of 2026-09-04
 - https://news.ycombinator.com/item?id=46934107 - February 2026 launch discussion (302 points) including dogfooding criticism
 - https://github.com/anthropics/claude-code-action - the single-agent alternative on the same substrate
 - https://docs.github.com/en/copilot/concepts/agents/cloud-agent/about-automation-rationale-and-approvals - shared rationale and approvals layer, including its limits

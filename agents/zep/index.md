@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Zep is an enterprise agent-memory service built on temporal knowledge graphs: facts carry validity windows, contradictions invalidate old facts instead of overwriting them, and everything traces back to source episodes.
-Facts below verified as of 2026-09-02.
+Facts below verified as of 2026-09-04.
 
 **Zep is the only major memory vendor whose core claim is handling change over time, and the market is slowly conceding the point as rivals bolt on entity links and temporal retrieval.**
 

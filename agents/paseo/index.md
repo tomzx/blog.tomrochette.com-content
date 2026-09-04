@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Paseo is a free, open-source, self-hosted orchestration layer that runs coding agents as local processes on your own machines and drives them from desktop, web, mobile, and CLI clients over one daemon.
-Facts below verified as of 2026-09-03.
+Facts below verified as of 2026-09-04.
 
 **Paseo's differentiator is not parallelism, which is now table stakes, but reach: it is the only orchestrator in its class with native iOS and Android clients at full feature parity, wrapped around your existing agent subscriptions instead of replacing them.**
 

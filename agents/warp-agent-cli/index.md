@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 The Warp Agent CLI is Warp's terminal agent unbundled into a standalone binary that runs in any terminal, with built-in model routing, cloud agents, and multi-agent orchestration.
-Facts below verified as of 2026-09-03.
+Facts below verified as of 2026-09-04.
 
 **Warp is the first big terminal vendor to sell its agent separately from its own app, and that makes it the default enterprise answer unless you specifically want an open client.**
 

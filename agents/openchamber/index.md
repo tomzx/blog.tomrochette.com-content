@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 OpenChamber is a free, MIT-licensed agentic development environment built around the OpenCode SDK: desktop, browser, mobile, and a VS Code extension for steering parallel agent sessions.
-Facts below verified as of 2026-09-03.
+Facts below verified as of 2026-09-04.
 
 **OpenChamber is the open-source answer to "where do I run my many OpenCode sessions", and its differentiator is not polish but the fact that the whole surface, worktrees, chat, terminals, scheduling, is code you can read and fix.**
 

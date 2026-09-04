@@ -1,7 +1,7 @@
 ---
 title: "Software Factory Feature Matrix"
 created: 2026-08-29
-updated: 2026-09-02
+updated: 2026-09-04
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=big-pickle, llm=glm-5.3-flash, comparison, software-factory, agentic-workflows]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 This matrix compares the members of the Software factory category: repeatable agents-plus-code production pipelines, where deterministic code owns the loop and agents are bounded nodes inside it.
-Everything below was re-verified against live sources on 2026-09-02.
+Everything below was re-verified against live sources on 2026-09-04.
 
 **The deciding question for this category is who owns the loop: a factory puts phase sequencing, retries, and acceptance in code, and an agent owns only the work inside one bounded phase.**
 
@@ -34,7 +34,7 @@ Each column links to the full research note; every cell below traces to a source
 | Trace | Work Item / Attempt record with bound evidence | Mission Control dashboard per run and artifact | event sourcing with full replay and lineage | SQLite, tool calls visible mid-run |
 | License | Apache-2.0 | Apache-2.0 | MIT | MIT |
 | Born | 2026-07-10 | 2026-06-28 | 2026-01-14 | 2026-08-02 |
-| Stars | about 84 | about 84 | about 5,752 | about 770 |
+| Stars | about 85 | about 85 | about 5,768 | about 800 |
 
 ## Reading the matrix
 
