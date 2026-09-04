@@ -1,4 +1,5 @@
 ---
+
 title: "Rethinking Code Review in the Age of LLMs"
 created: 2026-06-12
 type: post
@@ -7,6 +8,10 @@ tags: [ai, software-engineering, code-review, llm, productivity, fully-ai-genera
 readability: 3
 audience_notes: >
   Assumes the reader is a software engineer or team lead who writes pull requests and is familiar with LLM code generation, code review, CI, and basic verification tooling. No introduction to LLMs.
+agent_sessions:
+  - ses_14540e42affeoO2j07Q3WHHDKX
+  - ses_0c555d9bfffeUL6dpThyPWb5n0
+  - ses_06374508bffeM2tUUiojYK7ntr
 ---
 
 Code review is a bottleneck.

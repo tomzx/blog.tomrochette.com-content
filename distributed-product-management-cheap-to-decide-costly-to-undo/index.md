@@ -1,4 +1,5 @@
 ---
+
 title: "Distributed Product Management: Cheap to Decide, Costly to Undo"
 created: 2026-08-06
 type: post
@@ -7,6 +8,8 @@ tags: [product-management, software-engineering, ai, llm, decision-making, team-
 readability: 3
 audience_notes: >
   Assumes the reader is an engineer, tech lead, or engineering manager on a team where there is no dedicated product owner and engineers set product direction themselves. No formal product-management background required.
+agent_sessions:
+  - ses_02b884d14ffeXeO4G31xzjmJU7
 ---
 
 Distributed product management is what happens when there is no dedicated product owner, and the people building the product also decide what the product should be.

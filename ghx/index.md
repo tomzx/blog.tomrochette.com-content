@@ -1,4 +1,5 @@
 ---
+
 title: ghx - A CLI for agentic code reviews on GitHub
 created: 2026-05-27
 type: post
@@ -7,6 +8,9 @@ tags: [go, github, cli, developer-tools, ai, agents, fully-ai-generated, llm=glm
 readability: 4
 audience_notes: >
   Assumes the reader uses the GitHub CLI and git daily, reviews pull requests, and wants to automate reviews with AI agents. No introduction to what a pull request or a CLI is.
+agent_sessions:
+  - ses_197e8bdc9ffet1c1Fa8K5UqbKG
+  - ses_197db39c8ffeVdXGQmdnCIQlhZ
 ---
 
 I've been building AI agents that review pull requests, and the official `gh` CLI doesn't have what they need.

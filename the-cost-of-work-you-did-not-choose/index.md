@@ -1,4 +1,5 @@
 ---
+
 title: "The Cost of Work You Did Not Choose"
 created: 2026-08-05
 type: post
@@ -7,6 +8,9 @@ tags: [software-engineering, team-management, productivity, motivation, communic
 readability: 4
 audience_notes: >
   Assumes the reader is an engineer or team lead who has been handed a task they did not volunteer for. No specific framework knowledge required.
+agent_sessions:
+  - ses_0637c74b5ffeXmrGbZZNXc657e
+  - ses_005ec6e29ffeREI2bLD97m5Tfn
 ---
 
 A colleague handed me a task last week.

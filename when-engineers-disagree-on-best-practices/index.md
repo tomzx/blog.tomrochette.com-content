@@ -1,4 +1,5 @@
 ---
+
 title: "When Engineers Disagree on Best Practices: Surviving the Forming Stage"
 created: 2026-06-17
 type: post
@@ -7,6 +8,9 @@ tags: [software-engineering, team-management, decision-making, conflict-resoluti
 readability: 3
 audience_notes: >
   Assumes the reader is a software engineer or team lead on a new or forming team, familiar with common practices such as code review, branching models, and testing; no management background required.
+agent_sessions:
+  - ses_1308fcc35ffeEe7a1i7aqzqvpU
+  - ses_0c555d9bfffeUL6dpThyPWb5n0
 ---
 
 A new team's first disagreement about best practices is not a warning sign.

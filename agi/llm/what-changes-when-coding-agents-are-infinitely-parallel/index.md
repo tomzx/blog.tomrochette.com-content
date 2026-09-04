@@ -1,4 +1,5 @@
 ---
+
 title: What Changes When Coding Agents Are Infinitely Parallel
 created: 2026-02-18
 type: post
@@ -7,6 +8,8 @@ tags: [artificial-general-intelligence, fully-ai-generated, llm=claude-sonnet-4.
 readability: 5
 audience_notes: >
   Assumes the reader knows what an LLM coding agent is (a model that can read, edit, and run code on its own) and has used one at least once. No distributed systems or testing background required; technical terms are defined where they appear.
+agent_sessions:
+  - ses_005ec6e29ffeREI2bLD97m5Tfn
 ---
 
 Imagine you can run hundreds or thousands of coding agents in parallel.

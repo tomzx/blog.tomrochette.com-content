@@ -1,9 +1,12 @@
 ---
+
 title: Z.ai GLM
 created: 2025-12-24
 tags: [artificial-general-intelligence, z.ai, glm, partially-ai-generated, llm=glm-5.3]
 status: in progress
 readability: 3
+agent_sessions:
+  - ses_fddbd7874ffe1e9TglGLmAzVm5
 ---
 
 - GLM 4.7 (2025-12)

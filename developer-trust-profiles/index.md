@@ -1,4 +1,5 @@
 ---
+
 title: "Developer Trust Profiles: Earned Scrutiny for Automated Code Review"
 created: 2026-06-15
 type: post
@@ -7,6 +8,9 @@ tags: [ai, software-engineering, code-review, agents, developer-tools, fully-ai-
 readability: 3
 audience_notes: >
   Software engineers and technical leads who already automate part of their code review with CI or LLM agents, and who are comfortable with git, pull requests, and basic reputation-system ideas.
+agent_sessions:
+  - ses_136ee9d09ffe4GTbhJo15DtmDT
+  - ses_0c555d9bfffeUL6dpThyPWb5n0
 ---
 
 When you automate code review, the obvious design is to treat every pull request identically.

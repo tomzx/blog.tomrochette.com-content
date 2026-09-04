@@ -1,10 +1,14 @@
 ---
+
 title: "Code Factories: The RollerCoaster Tycoon Perspective"
 created: 2026-05-04
 type: post
 status: finished
 tags: [software-engineering, rollercoaster-tycoon, metaphors, ai, software-factory, fully-ai-generated, llm=glm-5.1, llm=glm-5.3]
 readability: 3
+agent_sessions:
+  - ses_20f2a36d4ffeE84CIt4WLZhNO2
+  - ses_0c555d9bfffeUL6dpThyPWb5n0
 ---
 
 You start with an empty plot of land, a small bank loan, and an objective to attract 600 guests by the end of year two.

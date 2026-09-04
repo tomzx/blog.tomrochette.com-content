@@ -1,4 +1,5 @@
 ---
+
 title: "Scaling Yourself Horizontally: Attention Does Not Scale, Leverage Does"
 created: 2026-08-25
 type: post
@@ -7,6 +8,8 @@ tags: [ai, software-engineering, llm, agents, productivity, scaling, leverage, f
 readability: 3
 audience_notes: >
   Assumes the reader is a software engineer who already automates some of their own work and has started to wonder where their personal ceiling is. Comfortable with delegating to LLM agents; no introduction to LLMs here.
+agent_sessions:
+  - ses_fc86479fbffeFATCXXl5ZqLUNX
 ---
 
 Every engineer I know eventually hits the same wall: the amount of valuable queued work exceeds the hours in a day.

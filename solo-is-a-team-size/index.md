@@ -1,4 +1,5 @@
 ---
+
 title: "Solo Is a Team Size: When Humans Still Earn a Seat in the Agentic Era"
 created: 2026-08-20
 type: post
@@ -7,6 +8,8 @@ tags: [ai, software-engineering, llm, agents, team-management, collaboration, fu
 readability: 3
 audience_notes: >
   Assumes the reader is an engineer or founder who can already delegate most implementation to LLM agents and has wondered whether colleagues are now more cost than benefit. No management background required.
+agent_sessions:
+  - ses_fe7f8be9dffe8d1XzLZV0NsBC7
 ---
 
 One person directing a fleet of agents now produces more working software in a week than a small team produced a decade ago.

@@ -1,4 +1,5 @@
 ---
+
 title: "Scaling the LLM Agent Company"
 created: 2026-05-31
 type: post
@@ -7,6 +8,9 @@ tags: [llm, ai-agents, company-growth, scaling, fully-ai-generated, llm=glm-5.1,
 readability: 3
 audience_notes: >
   Assumes familiarity with LLM agents and basic organizational scaling concepts.
+agent_sessions:
+  - ses_18001e9e3ffe6FCLLoAQ89A5ft
+  - ses_005ec6e29ffeREI2bLD97m5Tfn
 ---
 
 In [Exponential growth software company](../exponential-growth-software-company/index.md) I explored the constraints that make scaling a human company hard: onboarding bottlenecks, culture dilution, coordination overhead, institutional knowledge decay.

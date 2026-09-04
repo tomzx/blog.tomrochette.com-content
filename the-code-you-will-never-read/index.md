@@ -1,4 +1,5 @@
 ---
+
 title: "The Code You Will Never Read"
 created: 2026-08-01
 type: post
@@ -7,6 +8,8 @@ tags: [software-engineering, ai, llm, machine-learning, code-review, productivit
 readability: 3
 audience_notes: >
   Assumes the reader writes software in a world where LLMs and agents produce much of the code, and has at least a lay picture of how a trained neural network works (weights, training, evaluation). No hands-on ML experience required.
+agent_sessions:
+  - ses_043e6f6ddffewoaPn6nh0BkVPA
 ---
 
 There is a kind of code growing around us, and growing fast.

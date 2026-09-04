@@ -1,4 +1,5 @@
 ---
+
 title: "llm-augmented-workflows - A config-driven automation engine for GitHub, powered by opencode"
 created: 2026-07-02
 type: post
@@ -7,6 +8,9 @@ tags: [python, github, github-actions, llm, ai-agents, automation, workflows, sk
 readability: 4
 audience_notes: >
   Assumes the reader maintains a GitHub repository, has written a GitHub Actions workflow, and has at least seen an LLM coding agent (opencode, Claude Code, Cursor). No introduction to LLMs or CI.
+agent_sessions:
+  - ses_0de396603ffe8J70aOu42KwDtq
+  - ses_0c555d9bfffeUL6dpThyPWb5n0
 ---
 
 GitHub ships a perfectly good event bus.

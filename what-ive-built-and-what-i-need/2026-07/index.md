@@ -1,4 +1,5 @@
 ---
+
 title: "What I've built and what I need: July 2026"
 created: 2026-08-06
 type: post
@@ -7,6 +8,8 @@ tags: [what-ive-built-and-what-i-need, personal-update, llm, ai-agents, automati
 readability: 3
 audience_notes: >
   A monthly status update for anyone following my work on LLM-driven software development pipelines. Assumes familiarity with the SDLC skills and with human-gated versus autonomous agent workflows.
+agent_sessions:
+  - ses_0f7cf487bffeBW8z9YgP3zol1R
 ---
 
 The headline this month was **llm-augmented-workflows carrying an issue all the way through to a human gate**.

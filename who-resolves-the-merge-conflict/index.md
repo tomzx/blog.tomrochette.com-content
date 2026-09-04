@@ -1,4 +1,5 @@
 ---
+
 title: "Who Resolves the Merge Conflict? Why the Bot and the Author Are Not Interchangeable"
 created: 2026-07-06
 type: post
@@ -7,6 +8,9 @@ tags: [software-engineering, pull-request, git, automation, llm, github-actions,
 readability: 3
 audience_notes: >
   Assumes the reader works on a repository that receives pull requests from humans and from LLM agents, runs an auto-merge lane or wants to, and is comfortable with git rebase, merge conflicts, and branch protection. Clean rebases are assumed solved and out of scope; the only question is who resolves a real conflict.
+agent_sessions:
+  - ses_0d4802ec4ffe5DICie8PXvHgPs
+  - ses_06383158fffefYDZzn7IAp1b39
 ---
 
 A pull request falls behind main and conflicts.

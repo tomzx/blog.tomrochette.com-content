@@ -1,4 +1,5 @@
 ---
+
 title: "Speeding Up LLM Work on a Single Codebase"
 created: 2026-08-31
 type: post
@@ -7,6 +8,8 @@ tags: [llm, ai-agents, git, parallelism, productivity, software-engineering, par
 readability: 3
 audience_notes: >
   Assumes the reader is a software engineer who already runs LLM coding agents (Claude Code, opencode, or similar) against a real repository and knows git branching. Git worktrees are explained from first principles, but no agent-internals knowledge is assumed.
+agent_sessions:
+  - ses_faa3bf14fffeJGgESTcXnB6UJX
 ---
 
 When I work with a coding agent, most of the wall clock time goes to waiting.
@@ -222,3 +225,4 @@ Adopt the advanced strategies one at a time, and only when your profiling data s
 - [Trunk Based Development](https://trunkbaseddevelopment.com/) - the integration discipline that shared-branch and frequent-merge workflows sit on
 - [Amdahl's law](https://en.wikipedia.org/wiki/Amdahl%27s_law) - why the serial fraction (decomposition, integration, decisions) caps the speedup from adding agents
 - [Critical path method](https://en.wikipedia.org/wiki/Critical_path_method) - why the longest dependency chain, not the task count, sets the minimum wall clock time
+- [Maurice Heumann, "235 Billion Tokens Later: Auditing What The AI Agents Really Did"](https://momo5502.com/posts/2026-08-22-mw2-decompilation-audit/) - a session-log audit of a production multi-agent workflow that grounds the profiling advice, the cut-the-biggest-cost findings (idle waits, CI polling, redundant test runs), and the critic-agent claim that the reviewer's model matters more than the worker's

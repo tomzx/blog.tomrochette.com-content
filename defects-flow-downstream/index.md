@@ -1,4 +1,5 @@
 ---
+
 title: "Defects Flow Downstream, Fixes Must Flow Upstream"
 created: 2026-06-30
 type: post
@@ -7,6 +8,9 @@ tags: [ai, software-engineering, sdlc, llm, specification, fully-ai-generated, l
 readability: 3
 audience_notes: >
   Assumes the reader is a senior engineer, architect, or engineering lead who already works with LLM-generated code and is deciding where across the software development lifecycle to spend effort. Comfortable with the basics of specification, review, and CI as distinct pipeline stages.
+agent_sessions:
+  - ses_0eda2f210ffeowJi4xUzFQjMf3
+  - ses_0c555d9bfffeUL6dpThyPWb5n0
 ---
 
 The further upstream a defect is born, the more code it contaminates, and the more expensive it becomes to remove.

@@ -1,4 +1,5 @@
 ---
+
 title: "Attention Engineering: Your Attention Is the Bottleneck"
 created: 2026-08-08
 type: post
@@ -7,6 +8,8 @@ tags: [ai, llm, attention-engineering, productivity, cognitive-load, fully-ai-ge
 readability: 4
 audience_notes: >
   Assumes the reader already delegates work to LLM coding agents and has felt the difference between spawning a task and actually judging its output. No introduction to LLMs; builds on the acceptance and bottleneck pieces already on this blog.
+agent_sessions:
+  - ses_05e63b4f7ffelX4pKs3x9Xh5dN
 ---
 
 Generation stopped being the expensive part of working with LLMs.

@@ -1,4 +1,5 @@
 ---
+
 title: "Loops as Files: The Scheduling Layer Skills Forgot"
 created: 2026-06-21
 type: post
@@ -7,6 +8,12 @@ tags: [llm, ai-agents, skills, automation, loops, fully-ai-generated, llm=glm-5.
 readability: 3
 audience_notes: >
   Assumes the reader already uses an LLM coding agent with skill or rule files (opencode, Claude Code, Cursor) and has at least seen a GitHub Actions workflow or a cron job. No introduction to LLMs.
+agent_sessions:
+  - ses_112d52f16ffeZZqX4QcY0J0umn
+  - ses_10d83b754ffegYBe4msKuH2d9w
+  - ses_0c555d9bfffeUL6dpThyPWb5n0
+  - ses_02a7d74f0ffejuiOwreo7OMrqT
+  - ses_005ec6e29ffeREI2bLD97m5Tfn
 ---
 
 Skills as files solved one half of the automation problem.

@@ -1,4 +1,5 @@
 ---
+
 title: "When a Closed Decision Reopens: Breaking the Scope Relitigation Cycle"
 created: 2026-06-21
 type: post
@@ -7,6 +8,9 @@ tags: [software-engineering, team-management, decision-making, scope, communicat
 readability: 3
 audience_notes: >
   Assumes the reader is a tech lead, senior engineer, or engineering manager who has watched a settled scope decision get undone by a later conversation. No specific framework knowledge required.
+agent_sessions:
+  - ses_12b9f7e8bffeN36SGavmcXBJnA
+  - ses_0c555d9bfffeUL6dpThyPWb5n0
 ---
 
 A decision reached with your principal did not actually close the question.

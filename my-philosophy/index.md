@@ -1,4 +1,5 @@
 ---
+
 title: "My Philosophy"
 created: 2026-08-08
 type: post
@@ -8,6 +9,10 @@ readability: 2
 audience_notes: >
   Assumes the reader has browsed at least a few of the author's prior essays on software,
   AI, and productivity. No specialist background required.
+agent_sessions:
+  - ses_0c51c24cdffeMJtk2VVkANNMSV
+  - ses_06374508bffeM2tUUiojYK7ntr
+  - ses_005ec6e29ffeREI2bLD97m5Tfn
 ---
 
 If you read enough of what I have written, one sentence underlies all of it: **encode your judgment into artifacts that outlive your attention**.

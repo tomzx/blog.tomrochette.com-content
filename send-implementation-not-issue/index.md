@@ -1,4 +1,5 @@
 ---
+
 title: "Issues Are Free Now: Send the Implementation, Not the Idea"
 created: 2026-07-06
 type: post
@@ -7,6 +8,9 @@ tags: [open-source, software-engineering, llm, pull-request, issues, ai, contrib
 readability: 3
 audience_notes: >
   Assumes the reader files issues or pull requests against open source or internal projects, has watched an issue tracker fill up faster than it can be cleared, and uses AI coding agents well enough to produce a draft implementation. No introduction to what an issue tracker or a pull request is.
+agent_sessions:
+  - ses_0ca39cb82ffeoCet2uVBzQQEQI
+  - ses_0972b26e7ffetuoU6zH6d5S3ga
 ---
 
 For most of software's history, filing an issue took real work.

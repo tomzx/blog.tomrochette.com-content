@@ -1,4 +1,5 @@
 ---
+
 title: "The Pull Request Queue Outgrew You: A Triage Layer for Open Source Maintainers"
 created: 2026-06-30
 type: post
@@ -7,6 +8,11 @@ tags: [open-source, software-engineering, code-review, pull-request, llm, automa
 readability: 3
 audience_notes: >
   Assumes the reader maintains or co-maintains an open source repository, has dealt with a pull request backlog, and is comfortable with GitHub Actions, branch protection, and the basics of prompting an LLM. No introduction to what a pull request or an LLM is.
+agent_sessions:
+  - ses_0ea021d73ffecCrGtSSOujgxZO
+  - ses_0e4af64a6ffeAi2PqiKHOS1j53
+  - ses_0ded9eb5effeCxt7q0sLeQ3G6S
+  - ses_0c555d9bfffeUL6dpThyPWb5n0
 ---
 
 Open source always had a queue problem.

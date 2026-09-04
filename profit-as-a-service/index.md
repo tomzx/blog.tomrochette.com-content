@@ -1,4 +1,5 @@
 ---
+
 title: Profit-as-a-Service
 created: 2026-04-18
 type: post
@@ -7,6 +8,8 @@ tags: [business, ai, saas, automation, satire, fully-ai-generated, llm=glm-5.1, 
 readability: 3
 audience_notes: >
   Assumes the reader is a software engineer or technology professional who knows what SaaS is and has seen AI agents execute real work. No finance background required; every business concept is defined before it is used.
+agent_sessions:
+  - ses_25c6911b5ffeYPQtJ2DCJEjE4x
 ---
 
 Software-as-a-Service gave us recurring revenue.

@@ -1,4 +1,5 @@
 ---
+
 title: "The Acceptance Gap: Why an LLM Solution Is Not a Shipped Solution"
 created: 2026-07-03
 type: post
@@ -7,6 +8,9 @@ tags: [ai, software-engineering, llm, verification, taste, specification, fully-
 readability: 3
 audience_notes: >
   Assumes the reader is a technical practitioner who already uses LLM coding agents and has felt the moment where the model says "done" and the work is clearly not done. No explanation of what an LLM is.
+agent_sessions:
+  - ses_0de480711ffeUhru7q0pKLFwOx
+  - ses_06383158fffefYDZzn7IAp1b39
 ---
 
 Generation is solved.

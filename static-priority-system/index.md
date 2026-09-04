@@ -1,4 +1,5 @@
 ---
+
 title: The case for static priorities
 created: 2026-05-18
 type: post
@@ -7,6 +8,9 @@ tags: [priority, prioritization, planning, software-engineering, fully-ai-genera
 readability: 3
 audience_notes: >
   Assumes the reader is an engineer, tech lead, or product manager on a team that uses a P0-P5 priority scale and has watched priority labels drift over time. No framework knowledge beyond a priority scale is required.
+agent_sessions:
+  - ses_1c2b5c831ffe9Y2F5H90BzYmrS
+  - ses_0c555d9bfffeUL6dpThyPWb5n0
 ---
 
 Most teams that adopt a P0-P5 priority scale make the same mistake: they treat priority as a ranking, not a classification.

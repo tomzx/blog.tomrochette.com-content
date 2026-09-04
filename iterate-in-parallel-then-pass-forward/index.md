@@ -1,4 +1,5 @@
 ---
+
 title: "My Feature Planning Method: Iterate in Parallel, Then Pass Forward"
 created: 2026-08-31
 type: post
@@ -7,6 +8,8 @@ tags: [ai, software-engineering, sdlc, planning, workflow, llm, ai-agents, parti
 readability: 3
 audience_notes: >
   Assumes the reader runs coding agents against a structured development process and is comfortable with SDLC vocabulary (requirements, specification, plan). No introduction to what an LLM is.
+agent_sessions:
+  - ses_fa9c57258ffeOij0qaRj0le79B
 ---
 
 Planning a feature splits into two jobs: finding out what the questions are, and answering them in an order that lets each answer build on the one before it.

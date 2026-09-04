@@ -1,10 +1,13 @@
 ---
+
 title: AI tools I have used
 created: 2025-01-05
 type: post
 status: in-progress
 tags: [ai, llm, code-generation, image-generation]
 readability: 1
+agent_sessions:
+  - ses_0590765c4ffetN0D9poWYm0E82
 ---
 
 In this article I list all the AI tools I've used.

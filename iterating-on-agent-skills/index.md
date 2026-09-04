@@ -1,4 +1,5 @@
 ---
+
 title: "Iterating on Agent Skills: The Loop That Keeps Them Improving"
 created: 2026-08-16
 type: post
@@ -7,6 +8,8 @@ tags: [ai, llm, agent-skills, workflow, skills, software-engineering, fully-ai-g
 readability: 3
 audience_notes: >
   Assumes the reader already writes or maintains agent skills (a SKILL.md or similar) inside a coding agent like OpenCode, Cursor, or Claude Code, and has shipped at least one skill they no longer touch. No introduction to what an LLM is or what a skill is.
+agent_sessions:
+  - ses_01084ebfaffeDq3vwmYBb0rjKK
 ---
 
 A skill file is not done when it ships.

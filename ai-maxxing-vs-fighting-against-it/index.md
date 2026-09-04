@@ -1,4 +1,5 @@
 ---
+
 title: "AI-Maxxing and Resistance Are the Same Mistake: Optimize Attention, Not AI Quantity"
 created: 2026-06-22
 type: post
@@ -7,6 +8,9 @@ tags: [ai, llm, strategy, productivity, judgment, fully-ai-generated, llm=glm-5.
 readability: 3
 audience_notes: >
   Assumes the reader is a technical practitioner who has integrated LLMs into their daily work and has felt the pull to either automate everything or push back against the automation. No academic background required.
+agent_sessions:
+  - ses_111fa4a9effexHrbYODhiHzXsi
+  - ses_0c555d9bfffeUL6dpThyPWb5n0
 ---
 
 Two camps have hardened around LLMs, and they sound like opposites.

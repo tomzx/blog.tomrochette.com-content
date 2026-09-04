@@ -1,4 +1,5 @@
 ---
+
 title: "What I've built and what I need: May 2026"
 created: 2026-05-24
 type: post
@@ -7,6 +8,9 @@ tags: [what-ive-built-and-what-i-need, personal-update, skills, ai, automation, 
 readability: 3
 audience_notes: >
   A monthly status update for anyone following my work on LLM-driven software development pipelines. Assumes familiarity with the agents skill library and basic SDLC concepts.
+agent_sessions:
+  - ses_17f228841ffegwWnilsKOB3O6d
+  - ses_17dfa5f04ffeuIT1N0UpXxCaj7
 ---
 
 **The past month has been about turning repetitive workflows into reusable skills, and the gaps that remain are mostly about making those skills smarter, not more numerous.**

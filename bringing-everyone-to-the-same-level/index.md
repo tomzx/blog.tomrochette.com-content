@@ -1,4 +1,5 @@
 ---
+
 title: "Bringing Everyone to the Same Level: How Skills and LLMs Collapse Code Quality Variance"
 created: 2026-06-17
 type: post
@@ -7,6 +8,9 @@ tags: [ai, software-engineering, llm, skills, productivity, fully-ai-generated, 
 readability: 3
 audience_notes: >
   Assumes the reader is already using an LLM coding agent (opencode, Claude Code, Cursor) and has at least seen a "skill" or "rule" file. No explanation of what an LLM is.
+agent_sessions:
+  - ses_12cf31786ffelOcgkwoU1Jjx5V
+  - ses_0c555d9bfffeUL6dpThyPWb5n0
 ---
 
 Every team has the same structure.

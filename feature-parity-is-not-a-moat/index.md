@@ -1,4 +1,5 @@
 ---
+
 title: "Feature Parity Is Not a Moat: Compete on What Does Not Clone"
 created: 2026-07-05
 type: post
@@ -7,6 +8,9 @@ tags: [ai, software-engineering, llm, strategy, product-thinking, fully-ai-gener
 readability: 3
 audience_notes: >
   Assumes the reader is a developer, tech lead, or engineering lead who has watched a competitor reproduce a feature shortly after it shipped and is now wondering where to spend effort. No business background required.
+agent_sessions:
+  - ses_0d0a3edc3ffelhu0g01JDfGJoI
+  - ses_0c555d9bfffeUL6dpThyPWb5n0
 ---
 
 For most of software's history, shipping a feature bought you a window.

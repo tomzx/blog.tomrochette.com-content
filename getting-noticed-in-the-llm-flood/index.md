@@ -1,4 +1,5 @@
 ---
+
 title: "Getting Noticed in the LLM Flood: Compete on What Cannot Be Generated"
 created: 2026-08-14
 type: post
@@ -7,6 +8,10 @@ tags: [ai, llm, attention-economy, information-overload, self-promotion, content
 readability: 3
 audience_notes: >
   Assumes the reader makes things online (writing, software, videos, small products) and wants that work to be found in feeds that are increasingly filled with LLM-generated content. No technical background required.
+agent_sessions:
+  - ses_0593f1fb4ffekcvYC4VrUXxKzV
+  - ses_033986bc9ffe2HUO2Hk5fdLWSK
+  - ses_033922873ffe5mOotG2G03zZJl
 ---
 
 For most of the internet's life, the rule was simple: make something good, put it somewhere findable, and the channels would carry the rest.

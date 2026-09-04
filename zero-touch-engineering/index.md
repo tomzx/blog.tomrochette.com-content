@@ -1,4 +1,5 @@
 ---
+
 title: "Zero Touch Engineering"
 created: 2026-08-04
 type: post
@@ -7,6 +8,8 @@ tags: [llm, ai-agents, automation, software-engineering, zero-touch, fully-ai-ge
 readability: 4
 audience_notes: >
   Assumes the reader ships software through a CI/CD pipeline, has used an LLM coding agent, and is comfortable with continuous deployment. No introduction to LLMs or DevOps.
+agent_sessions:
+  - ses_03a2c6f5affeEqr9qyqgxuFHOh
 ---
 
 "Zero touch" has been a goal in software-adjacent fields for over a decade.

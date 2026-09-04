@@ -1,4 +1,5 @@
 ---
+
 title: "Code Factories: Or How I Learned to Stop Worrying and Build the Belt"
 created: 2026-05-03
 type: post
@@ -9,6 +10,11 @@ audience_notes: >
   Assumes the reader is a software engineer familiar with CI/CD, build pipelines, and
   running services in production; no Factorio experience is required, as each game
   mechanic is explained before it is compared.
+agent_sessions:
+  - ses_211cfc402ffeWDoF7RVgiLScCy
+  - ses_20f8526bbffeRhAuYRUB1acWRC
+  - ses_20f2a36d4ffeE84CIt4WLZhNO2
+  - ses_0c555d9bfffeUL6dpThyPWb5n0
 ---
 
 I land on an alien planet with nothing but a pickaxe and a furnace.

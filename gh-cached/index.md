@@ -1,4 +1,5 @@
 ---
+
 title: gh-cached - Browse GitHub issues and PRs without burning through your API rate limit
 created: 2026-04-30
 type: post
@@ -7,6 +8,9 @@ tags: [go, github, cli, developer-tools, fully-ai-generated, llm=glm-5.1, llm=gl
 readability: 4
 audience_notes: >
   Assumes the reader is a developer who uses the GitHub CLI regularly, has a GitHub token or `gh` installed, and has felt the API rate limit. No Go knowledge required.
+agent_sessions:
+  - ses_2231cf2d3ffeomGN5r7WOG94n6
+  - ses_0db019865ffeM9MWpr5co6WWXf
 ---
 
 > **Note (2026-07-02):** gh-cached has been merged into [ghx](https://github.com/tomzxcode/ghx).

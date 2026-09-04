@@ -1,4 +1,5 @@
 ---
+
 title: "Model Collapse: When Code Models Train on Their Own Output"
 created: 2026-07-26
 type: post
@@ -7,6 +8,8 @@ tags: [ai, software-engineering, llm, code-quality, training-data, fully-ai-gene
 readability: 3
 audience_notes: >
   Assumes the reader already uses LLM coding tools and is familiar with the trend toward automated, human-light code review. No machine learning background required; model collapse is explained from first principles.
+agent_sessions:
+  - ses_05f32d110ffeq7MO1V65YMdBm4
 ---
 
 Every code-generating LLM in production today was trained on code written by humans.

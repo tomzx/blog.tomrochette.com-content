@@ -1,4 +1,5 @@
 ---
+
 title: "My AI Workflow: The Skills Are the Part That Compounds"
 created: 2026-07-28
 type: post
@@ -7,6 +8,8 @@ tags: [ai, llm, workflow, skills, opencode, openchamber, cursor, sdlc, fully-ai-
 readability: 3
 audience_notes: >
   Assumes the reader already uses at least one coding agent (Cursor, Claude Code, OpenCode) and has felt the cost of re-explaining the same workflow to a fresh session. No introduction to what an LLM is.
+agent_sessions:
+  - ses_0593097e6ffeay4hzpl78jkctn
 ---
 
 When someone asks what my AI workflow looks like, the real answer is boring on the surface and surprising underneath.

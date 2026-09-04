@@ -1,4 +1,5 @@
 ---
+
 title: "Who Maintains the Slop?"
 created: 2026-08-05
 type: post
@@ -7,6 +8,8 @@ tags: [ai, software-engineering, llm, code-quality, team-management, productivit
 readability: 3
 audience_notes: >
   Assumes the reader is an engineer, tech lead, or manager who has inherited AI-generated code they did not author, choose, or agree to. No specific tooling or framework knowledge required.
+agent_sessions:
+  - ses_02b8f5a2bffeI4OLGnUymFb0Cv
 ---
 
 A coworker ships a feature this week.

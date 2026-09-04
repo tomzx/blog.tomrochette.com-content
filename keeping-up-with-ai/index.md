@@ -1,4 +1,5 @@
 ---
+
 title: "Keeping Up With AI Is a Losing Strategy"
 created: 2026-06-22
 type: post
@@ -7,6 +8,10 @@ tags: [ai, llm, information-overload, productivity, learning, fully-ai-generated
 readability: 3
 audience_notes: >
   Assumes the reader is a technical practitioner who already feels the pressure of too many AI papers, tool releases, and model announcements to track. No academic background required.
+agent_sessions:
+  - ses_1129fdd7dffeOusQT2qcZE29C6
+  - ses_10d840d26ffeMyWHhxia7LiHFY
+  - ses_0c555d9bfffeUL6dpThyPWb5n0
 ---
 
 Every week brings a new frontier model, a new agent framework, a new benchmark, and a new wave of posts explaining why this one changes everything.

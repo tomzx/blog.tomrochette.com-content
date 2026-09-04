@@ -1,4 +1,5 @@
 ---
+
 title: "Verifying Code Without Reading It"
 created: 2026-07-25
 type: post
@@ -7,6 +8,9 @@ tags: [software-engineering, code-review, pull-request, testing, llm, productivi
 readability: 3
 audience_notes: >
   Assumes the reader accepts that human line-by-line review of LLM-generated code is not scaling, and now wants the concrete system that replaces it. Familiarity with tests, linters, static analysis, and CI is assumed.
+agent_sessions:
+  - ses_06934dd48ffeox2IBEs9UprRKM
+  - ses_06374508bffeM2tUUiojYK7ntr
 ---
 
 It is a familiar observation by now that most code review happens without anyone reading the code ([the case is made in You Already Review Code Without Reading It](../code-review-without-reading-the-code/index.md)).

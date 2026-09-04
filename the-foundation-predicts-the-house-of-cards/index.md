@@ -1,4 +1,5 @@
 ---
+
 title: "Team Maturity Explains the Friction, the Foundation Predicts the House of Cards"
 created: 2026-06-30
 type: post
@@ -7,6 +8,9 @@ tags: [ai, software-engineering, llm, team-management, productivity, devops, ful
 readability: 3
 audience_notes: >
   Assumes the reader is an engineering lead, tech lead, or senior engineer whose team already uses LLM coding tools and who is trying to understand why peer teams get very different results from the same tools.
+agent_sessions:
+  - ses_0f0624edbffeBv6FvGokXRRi9I
+  - ses_0c555d9bfffeUL6dpThyPWb5n0
 ---
 
 In the age of LLMs, the work that matters at your job is no longer adopting the tools.

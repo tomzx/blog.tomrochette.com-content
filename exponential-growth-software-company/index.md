@@ -1,10 +1,13 @@
 ---
+
 title: Exponential growth software company
 created: 2021-06-21
 type: post
 status: draft
 tags: [software-development, company-growth]
 readability: 3
+agent_sessions:
+  - ses_18001e9e3ffe6FCLLoAQ89A5ft
 ---
 
 In this article I want to explore different aspects of scaling a company that need to be taken into account if you're trying to grow exponentially. Generally when discussing about growth we consider revenue growth to be the metric we're measuring. One thing that is important, and that is considered throughout the article, is to be a profitable company. There's no point in growing exponentially if it is unsustainable or your expenses are always going to be superior to your profits.

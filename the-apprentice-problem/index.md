@@ -1,4 +1,5 @@
 ---
+
 title: "The Apprentice Problem: Where Does New Judgment Come From?"
 created: 2026-08-25
 type: post
@@ -7,6 +8,8 @@ tags: [ai, software-engineering, llm, learning, career, team-management, apprent
 readability: 3
 audience_notes: >
   Assumes the reader is a senior engineer, lead, or manager who has watched junior-level work disappear into automation and wondered who becomes senior next. No management background required.
+agent_sessions:
+  - ses_fc86479fbffeFATCXXl5ZqLUNX
 ---
 
 Every senior engineer I know learned the same way: by doing junior work for years.

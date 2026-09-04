@@ -1,4 +1,5 @@
 ---
+
 title: "Code Factories: The StarCraft Perspective"
 created: 2026-05-03
 type: post
@@ -7,6 +8,10 @@ tags: [software-engineering, starcraft, metaphors, ai, software-factory, fully-a
 readability: 3
 audience_notes: >
   Assumes the reader is a software engineer or engineering leader familiar with software delivery basics such as CI/CD, code review, and hiring. No StarCraft knowledge required; every game concept is explained before it is used.
+agent_sessions:
+  - ses_211cfc402ffeWDoF7RVgiLScCy
+  - ses_20f8526bbffeRhAuYRUB1acWRC
+  - ses_20f2a36d4ffeE84CIt4WLZhNO2
 ---
 
 You start with four workers, a command center, and fog of war in every direction.

@@ -1,4 +1,5 @@
 ---
+
 title: "Continuous Research: Deep Research on a Loop"
 created: 2026-08-22
 type: post
@@ -7,6 +8,8 @@ tags: [ai, llm, deep-research, ai-agents, research, knowledge-management, automa
 readability: 3
 audience_notes: >
   Assumes the reader has used a deep research feature (ChatGPT Deep Research, Claude Research, or an equivalent) and is comfortable with scheduled jobs and git. No ML background needed.
+agent_sessions:
+  - ses_fddbbaf92ffefqW1h01zUi6CQT
 ---
 
 Deep research agents changed who does the reading, not how often it happens.

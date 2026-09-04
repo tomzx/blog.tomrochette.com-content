@@ -1,4 +1,5 @@
 ---
+
 title: "The Shifting Bottleneck: From Writing Code to Questioning Everything"
 created: 2026-05-12
 type: post
@@ -7,6 +8,9 @@ tags: [ai, software-engineering, llm, product-thinking, automation, fully-ai-gen
 readability: 3
 audience_notes: >
   Assumes the reader is a software developer or engineering lead who has used LLM coding tools and has already felt the shift from writing code to reviewing and deciding. No explanation of what an LLM is.
+agent_sessions:
+  - ses_1e5ada8f3ffe47UpKWvGGggS8u
+  - ses_0c555d9bfffeUL6dpThyPWb5n0
 ---
 
 Every time AI removes a bottleneck in software development, the next one appears one level higher up the decision chain.

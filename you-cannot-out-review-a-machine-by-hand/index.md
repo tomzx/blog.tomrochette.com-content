@@ -1,4 +1,5 @@
 ---
+
 title: "You Cannot Out-Review a Machine by Hand"
 created: 2026-08-19
 type: post
@@ -7,6 +8,8 @@ tags: [ai, llm, software-engineering, review, productivity, negotiation, fully-a
 readability: 3
 audience_notes: >
   Assumes the reader already uses LLMs for production work (writing, coding, drafting) and has felt the gap between how fast a counterparty can generate documents and how fast a human can read them. No introduction to LLMs.
+agent_sessions:
+  - ses_011f90c73ffe2jzK45nPzZgsqt
 ---
 
 A counterparty who uses LLMs to generate changes, documents, and requests has a throughput you cannot match by hand.

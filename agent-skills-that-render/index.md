@@ -1,4 +1,5 @@
 ---
+
 title: "Teach Your Agent Skills to Use Tools That Render"
 created: 2026-08-14
 type: post
@@ -7,6 +8,8 @@ tags: [ai, llm, agent-skills, tools, mermaid, sdlc, visualization, software-engi
 readability: 3
 audience_notes: >
   Assumes the reader already writes or uses agent skills (a SKILL.md or similar) inside a coding agent like OpenCode, Cursor, or Claude Code, and has hit the wall of verifying long prose output. No introduction to LLMs or to what a skill is.
+agent_sessions:
+  - ses_01b09e5dcffeUJTAnOOblko9zD
 ---
 
 The cheapest upgrade I have made to an agent skill was not a better prompt or a bigger model.

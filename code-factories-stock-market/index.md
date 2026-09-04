@@ -1,4 +1,5 @@
 ---
+
 title: "Code Factories: The Stock Market Perspective"
 created: 2026-05-04
 type: post
@@ -7,6 +8,9 @@ tags: [software-engineering, stock-market, metaphors, ai, software-factory, full
 readability: 3
 audience_notes: >
   Assumes the reader is a software developer or tech lead familiar with basic delivery practices (deploys, code review, technical debt). No investing knowledge required; every financial concept is defined before it is used.
+agent_sessions:
+  - ses_20f849c7fffeWVT9Y0T8kPAjrh
+  - ses_20f2a36d4ffeE84CIt4WLZhNO2
 ---
 
 You open your terminal, pull the latest commit, and run the test suite.

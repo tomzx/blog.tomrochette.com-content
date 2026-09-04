@@ -1,9 +1,12 @@
 ---
+
 title: Resources limited agents
 created: 2016-06-23
 tags: [artificial-general-intelligence, partially-ai-generated, llm=glm-5.1]
 status: in progress
 readability: 3
+agent_sessions:
+  - ses_18e56e923ffezLr5JmzML4f0D1
 ---
 
 ## Context

@@ -1,4 +1,5 @@
 ---
+
 title: "The Backlog Is Not a Dumping Ground: Managing the Backlog of a Large Software Product"
 created: 2026-05-24
 type: post
@@ -7,6 +8,8 @@ tags: [product-management, backlog, agile, prioritization, software-engineering,
 readability: 4
 audience_notes: >
   Assumes the reader is a product manager, tech lead, or engineering manager on a large software product where multiple teams feed from the same backlog. Familiarity with Agile and Scrum terminology helps but is not required.
+agent_sessions:
+  - ses_1a2eee7d3ffe4qfBj2e5G8gjC7
 ---
 
 A well-managed backlog is the single most leveraged artifact in product development.

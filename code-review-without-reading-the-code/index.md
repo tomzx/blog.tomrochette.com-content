@@ -1,4 +1,5 @@
 ---
+
 title: "You Already Review Code Without Reading It"
 created: 2026-07-25
 type: post
@@ -7,6 +8,9 @@ tags: [software-engineering, code-review, pull-request, productivity, fully-ai-g
 readability: 3
 audience_notes: >
   Assumes the reader participates in pull request review on a software team and has a gut sense that approvals are decided quickly. No particular tooling or stack required.
+agent_sessions:
+  - ses_06934dd48ffeox2IBEs9UprRKM
+  - ses_06374508bffeM2tUUiojYK7ntr
 ---
 
 **Most code review does not involve reading code.**

@@ -1,4 +1,5 @@
 ---
+
 title: task-stack - A persistent task stack that lives in your system tray
 created: 2026-05-02
 type: post
@@ -7,6 +8,8 @@ tags: [python, productivity, developer-tools, desktop-app, fully-ai-generated, l
 readability: 4
 audience_notes: >
   Assumes the reader is a developer familiar with common task management tools (todo lists, Kanban boards) and their friction. No prior knowledge of the workstack concept is required.
+agent_sessions:
+  - ses_21903e6f8ffei1V5WRukc2tPVo
 ---
 
 I've been using the [workstack](../workstack/index.md) concept for years to track what I'm working on and where I got interrupted.

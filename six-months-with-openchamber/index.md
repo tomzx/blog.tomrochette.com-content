@@ -1,4 +1,5 @@
 ---
+
 title: "Six Months with OpenChamber"
 created: 2026-08-19
 type: post
@@ -7,6 +8,8 @@ tags: [ai, llm, ai-agents, opencode, openchamber, tools, partially-ai-generated,
 readability: 3
 audience_notes: >
   Assumes the reader already runs a coding agent such as OpenCode or Claude Code and knows what a git worktree is. No prior OpenChamber familiarity required.
+agent_sessions:
+  - ses_fe7a583bdffexEypaB46LzS4Ev
 ---
 
 [OpenChamber 1.19.0](https://github.com/openchamber/openchamber/releases/tag/v1.19.0) was released today, which makes this a good moment to take stock.

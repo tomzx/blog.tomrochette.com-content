@@ -1,4 +1,5 @@
 ---
+
 title: "What I've built and what I need: June 2026"
 created: 2026-06-25
 type: post
@@ -7,6 +8,10 @@ tags: [what-ive-built-and-what-i-need, personal-update, skills, ai, automation, 
 readability: 3
 audience_notes: >
   Assumes the reader is a software engineer familiar with LLM-based coding agents and with packaging agent workflows as skills; no prior exposure to the SDLC pipeline or the earlier monthly updates is required.
+agent_sessions:
+  - ses_17f228841ffegwWnilsKOB3O6d
+  - ses_17dfa5f04ffeuIT1N0UpXxCaj7
+  - ses_005ec6e29ffeREI2bLD97m5Tfn
 ---
 
 Over the month since May, the [agents](https://github.com/tomzx/agents) repository **evolved from building the SDLC pipeline into a mature, self-improving system**.

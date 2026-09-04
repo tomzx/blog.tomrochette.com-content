@@ -1,4 +1,5 @@
 ---
+
 title: "Bus Factor One by Design"
 created: 2026-08-22
 type: post
@@ -7,6 +8,8 @@ tags: [ai, software-engineering, llm, agents, team-management, ownership, fully-
 readability: 3
 audience_notes: >
   Assumes the reader works in or leads a software organization, knows the term bus factor, and has felt the pull of one-person ownership in the agent era. No management theory background required.
+agent_sessions:
+  - ses_fd873033dffejb7EeWRkxMUUFj
 ---
 
 Picture a company where every system belongs to exactly one person.

@@ -1,4 +1,5 @@
 ---
+
 title: "Code Factories: The World of Warcraft Perspective"
 created: 2026-05-04
 type: post
@@ -9,6 +10,9 @@ audience_notes: >
   Assumes the reader is a software engineer familiar with code review, sprints, on-call,
   and production incidents; no World of Warcraft experience is required, as each game
   mechanic is explained before it is compared.
+agent_sessions:
+  - ses_20f8526bbffeRhAuYRUB1acWRC
+  - ses_20f2a36d4ffeE84CIt4WLZhNO2
 ---
 
 I create a character, spawn in a starting zone with a rusty sword and a vague quest to kill boars.

@@ -1,4 +1,5 @@
 ---
+
 title: "Software Engineering Teams in the Age of AI: Smaller, Sharper, Intentionally Imperfect"
 created: 2026-05-18
 type: post
@@ -7,6 +8,12 @@ tags: [ai, software-engineering, llm, team-management, productivity, fully-ai-ge
 readability: 4
 audience_notes: >
   Assumes the reader is a software engineer, tech lead, or engineering manager who has used LLM coding assistants and worked on a team with code review, standups, and sprint planning. No management background required.
+agent_sessions:
+  - ses_1c426f81bffeHAqO2R1nJZA1sy
+  - ses_1c416f769ffeRbclWqBDtP1nbK
+  - ses_1c325b2ccffeqToDEU3I2rHpm5
+  - ses_0c555d9bfffeUL6dpThyPWb5n0
+  - ses_005ec6e29ffeREI2bLD97m5Tfn
 ---
 
 LLM-powered coding assistants have changed what an individual engineer can produce in a day.

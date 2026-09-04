@@ -1,4 +1,5 @@
 ---
+
 title: "Rolling Out the Unread Review"
 created: 2026-07-25
 type: post
@@ -7,6 +8,8 @@ tags: [software-engineering, code-review, pull-request, automation, teams, produ
 readability: 3
 audience_notes: >
   Assumes the reader is already convinced by the case for reading-free, automated code review and now faces adoption resistance from their team. Written for an engineering lead or senior engineer driving the rollout.
+agent_sessions:
+  - ses_06934dd48ffeox2IBEs9UprRKM
 ---
 
 The [case for review without reading](../code-review-without-reading-the-code/index.md), and the [system that makes it safe](../verifying-code-without-reading-it/index.md), can both be sound and still fail to ship.

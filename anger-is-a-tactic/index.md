@@ -1,4 +1,5 @@
 ---
+
 title: "Anger Is a Tactic: How to Deal With People Who Use Aggression to Get Their Way"
 created: 2026-08-15
 type: post
@@ -7,6 +8,9 @@ tags: [workplace, leadership, team-management, conflict-resolution, psychology, 
 readability: 3
 audience_notes: >
   Assumes the reader works with other people and has at least one colleague or boss whose temper they have had to navigate. No psychology background assumed; every study is introduced with enough context to follow.
+agent_sessions:
+  - ses_fff7fa36dffe4Yzsb0mUm3Z6yj
+  - ses_ffe741874ffeM6d3NKmCW4AAkN
 ---
 
 You know the person.

@@ -1,4 +1,5 @@
 ---
+
 title: "What the Author Brings When the Model Writes"
 created: 2026-08-14
 type: post
@@ -7,6 +8,8 @@ tags: [ai, llm, writing, content, authorship, fully-ai-generated, llm=glm-5.2, l
 readability: 3
 audience_notes: >
   Assumes the reader writes online (essays, posts, documentation) and has already used an LLM to draft or edit prose. No technical background required.
+agent_sessions:
+  - ses_01c9c86aeffeFmCEkaDUMseKcO
 ---
 
 Producing sentences was never the part that made writing worth reading.

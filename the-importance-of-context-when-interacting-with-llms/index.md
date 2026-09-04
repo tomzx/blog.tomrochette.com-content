@@ -1,4 +1,5 @@
 ---
+
 title: "The Importance of Context When Interacting with LLMs"
 created: 2026-06-15
 type: post
@@ -7,6 +8,8 @@ tags: [ai, llm, context-engineering, prompt-engineering, rag, fully-ai-generated
 readability: 4
 audience_notes: >
   Assumes familiarity with transformer-based LLMs, basic prompt engineering concepts, and production ML systems. No attempt to explain what an LLM is or how attention works at the architectural level.
+agent_sessions:
+  - ses_189e1cb68ffeWIvBhFvbU63XRx
 ---
 
 Most interactions with LLMs fail not because the model lacks capability, but because the user fails to provide enough context for the model to succeed.

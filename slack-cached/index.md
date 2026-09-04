@@ -1,4 +1,5 @@
 ---
+
 title: "slack-cached - Cache Slack threads, channels, and users to a local SQLite database"
 created: 2026-06-16
 type: post
@@ -7,6 +8,9 @@ tags: [python, slack, cli, developer-tools, sqlite, fully-ai-generated, llm=glm-
 readability: 4
 audience_notes: >
   Assumes the reader is a developer comfortable with the CLI, SQLite, and Slack concepts like channels and threads. Modeled on the existing gh-cached post on this blog.
+agent_sessions:
+  - ses_136f76323ffeZssHImBt10GafH
+  - ses_0db019865ffeM9MWpr5co6WWXf
 ---
 
 > **Note (2026-07-02):** slack-cached has been renamed to [slackx](https://github.com/TomzxCode/slackx).

@@ -1,4 +1,5 @@
 ---
+
 title: "You Are the Bottleneck: What to Do When Your Coworker's LLMs Outproduce Your Review"
 created: 2026-08-19
 type: post
@@ -7,6 +8,8 @@ tags: [ai, software-engineering, code-review, llm, pull-request, productivity, f
 readability: 3
 audience_notes: >
   Assumes the reader works on a team where a colleague generates LLM-assisted pull requests faster than anyone can review them, and knows how pull requests and CI work. No introduction to LLMs.
+agent_sessions:
+  - ses_ff1701703ffe7Vv7UynYM5A4sh
 ---
 
 Your coworker opens pull requests faster than you can read them.

@@ -1,4 +1,5 @@
 ---
+
 title: "Whoever Ships First Decides"
 created: 2026-08-07
 type: post
@@ -7,6 +8,8 @@ tags: [software-engineering, team-management, decision-making, code-quality, pro
 readability: 4
 audience_notes: >
   Assumes the reader is a software engineer who has watched a colleague's weaker work become the version the team ended up supporting. No specific framework or tooling knowledge required.
+agent_sessions:
+  - ses_0255fc3e2ffeQUXADgT05RmSCJ
 ---
 
 I looked at a feature a colleague shipped last week, and it was wrong in the ways I would have predicted.

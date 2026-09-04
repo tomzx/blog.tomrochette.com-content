@@ -1,4 +1,5 @@
 ---
+
 title: "Managing Many Concurrent LLM Agent Sessions"
 created: 2026-06-16
 type: post
@@ -7,6 +8,8 @@ tags: [llm, ai-agents, human-in-the-loop, cognitive-load, productivity, fully-ai
 readability: 3
 audience_notes: >
   Assumes familiarity with LLM agents, basic concepts of human-in-the-loop supervision, and experience running at least one coding agent session. No deep psychology background required.
+agent_sessions:
+  - ses_13c32f680ffe5LRulvaW8vt2B0
 ---
 
 **When one person can spawn a dozen LLM agent sessions in parallel, the bottleneck is no longer the agents.**

@@ -1,4 +1,5 @@
 ---
+
 title: "The Codebase Gardener: Keeping a Codebase Sane When Teammates and Their Agents Pull in Every Direction"
 created: 2026-06-20
 type: post
@@ -7,6 +8,9 @@ tags: [ai, software-engineering, llm, code-review, tech-debt, productivity, full
 readability: 3
 audience_notes: >
   Assumes the reader is an engineer on a team where LLM coding agents do most of the producing, and that they have at least seen a CI pipeline, a lint config, or a "skill"/"rule" file. No explanation of what an LLM is.
+agent_sessions:
+  - ses_12c55cb01ffeuXdVIQhOXkBrLq
+  - ses_0c555d9bfffeUL6dpThyPWb5n0
 ---
 
 You cannot review your way to a sane codebase when the code is being produced faster than you can read it.

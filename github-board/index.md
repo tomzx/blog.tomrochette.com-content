@@ -1,4 +1,5 @@
 ---
+
 title: github-board - A kanban board for any GitHub search
 created: 2026-07-02
 type: post
@@ -7,6 +8,8 @@ tags: [javascript, github, kanban, developer-tools, single-page-application, ful
 readability: 4
 audience_notes: >
   Assumes the reader works with GitHub issues and pull requests day to day and can create a personal access token. No kanban, GraphQL, or JavaScript knowledge is required.
+agent_sessions:
+  - ses_0de8b5becffemwFqe59EwQjZpY
 ---
 
 GitHub's issue and PR lists are flat.

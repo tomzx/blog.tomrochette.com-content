@@ -1,4 +1,5 @@
 ---
+
 title: "Read the Commits, Not the Manual: What OpenClaw's Git History Reveals About Scaling a Project"
 created: 2026-06-30
 type: post
@@ -7,6 +8,9 @@ tags: [open-source, software-engineering, git, llm, ai, code-review, agents, ful
 readability: 3
 audience_notes: >
   Assumes the reader has run `git log` on a project they did not build, has participated in a multi-maintainer open source project, and understands pull requests, conventional commits, and what an LLM coding agent is. No explanation of version control basics.
+agent_sessions:
+  - ses_0e94e66b7ffeGcZY1L68poDDff
+  - ses_0c555d9bfffeUL6dpThyPWb5n0
 ---
 
 The most revealing document a software project writes is not its `README`, its `CONTRIBUTING.md`, or its architecture diagram.

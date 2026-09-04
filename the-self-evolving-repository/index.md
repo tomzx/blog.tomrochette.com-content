@@ -1,4 +1,5 @@
 ---
+
 title: "The Self-Evolving Repository: Automating a GitHub Project End to End with LLMs"
 created: 2026-06-20
 type: post
@@ -7,6 +8,8 @@ tags: [llm, ai-agents, automation, github, self-improving, fully-ai-generated, l
 readability: 4
 audience_notes: >
   Assumes familiarity with LLM-based code generation, CI/CD pipelines, and basic concepts of autonomous agent systems.
+agent_sessions:
+  - ses_140b50e71ffeB2WUd2cqtAyyKw
 ---
 
 The question is not whether an LLM can write code for your project.
