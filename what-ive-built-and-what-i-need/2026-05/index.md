@@ -3,7 +3,7 @@ title: "What I've built and what I need: May 2026"
 created: 2026-05-24
 type: post
 status: finished
-tags: [personal-update, skills, ai, automation, fully-ai-generated, llm=glm-5.1, llm=glm-5.3]
+tags: [what-ive-built-and-what-i-need, personal-update, skills, ai, automation, fully-ai-generated, llm=glm-5.1, llm=glm-5.3]
 readability: 3
 audience_notes: >
   A monthly status update for anyone following my work on LLM-driven software development pipelines. Assumes familiarity with the agents skill library and basic SDLC concepts.

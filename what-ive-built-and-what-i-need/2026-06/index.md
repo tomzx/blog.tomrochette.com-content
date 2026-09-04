@@ -3,7 +3,7 @@ title: "What I've built and what I need: June 2026"
 created: 2026-06-25
 type: post
 status: finished
-tags: [personal-update, skills, ai, automation, fully-ai-generated, llm=glm-5.1, llm=glm-5.2, llm=glm-5.3]
+tags: [what-ive-built-and-what-i-need, personal-update, skills, ai, automation, fully-ai-generated, llm=glm-5.1, llm=glm-5.2, llm=glm-5.3]
 readability: 3
 audience_notes: >
   Assumes the reader is a software engineer familiar with LLM-based coding agents and with packaging agent workflows as skills; no prior exposure to the SDLC pipeline or the earlier monthly updates is required.

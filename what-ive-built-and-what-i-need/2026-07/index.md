@@ -3,7 +3,7 @@ title: "What I've built and what I need: July 2026"
 created: 2026-08-06
 type: post
 status: finished
-tags: [personal-update, llm, ai-agents, automation, sdlc, workflows, fully-ai-generated, llm=glm-5.2, llm=glm-5.3]
+tags: [what-ive-built-and-what-i-need, personal-update, llm, ai-agents, automation, sdlc, workflows, fully-ai-generated, llm=glm-5.2, llm=glm-5.3]
 readability: 3
 audience_notes: >
   A monthly status update for anyone following my work on LLM-driven software development pipelines. Assumes familiarity with the SDLC skills and with human-gated versus autonomous agent workflows.
