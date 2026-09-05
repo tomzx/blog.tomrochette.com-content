@@ -1,7 +1,7 @@
 ---
 title: OpenWork
 created: 2026-08-30
-updated: 2026-09-02
+updated: 2026-09-05
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, assistant-runtimes, cowork, desktop, open-source]
 readability: 3
@@ -11,9 +11,9 @@ audience_notes: >
 ---
 
 OpenWork is a free, MIT-licensed desktop app for macOS, Windows, and Linux that runs AI agent sessions on local files with shared skills, MCP connections, browser automation, and scheduled tasks, positioned as the open alternative to Anthropic's Claude Cowork and built on top of OpenCode.
-Facts below verified as of 2026-09-04.
+Facts below verified as of 2026-09-05.
 
-**OpenWork is the Cowork clone that outlived the clone jokes: seven and a half months of signed, weekly releases to 23k stars, an MCP gateway that makes its skills portable to any agent, and a license split that is the first thing a serious adopter should read.**
+**OpenWork is the Cowork clone that outlived the clone jokes: seven and a half months of signed, weekly releases to 23.3k stars, an MCP gateway that makes its skills portable to any agent, and a license split that is the first thing a serious adopter should read.**
 
 ## What it is
 
@@ -24,8 +24,8 @@ By different-ai (Benjamin Shafii), YC-backed.
 
 ## Status
 
-Alive and shipping hard: 23,270 stars, 2,312 forks, 431 open issues and PRs as of 2026-09-02, created 2026-01-14, pushed the day of verification.
-v0.18.41 on 2026-09-02 with signed Windows installers, multiple releases per week.
+Alive and shipping hard: 23,339 stars, 2,328 forks, 444 open issues and PRs as of 2026-09-05, created 2026-01-14, pushed the day of verification.
+v0.18.42 on 2026-09-02 with signed Windows installers, multiple releases per week.
 **It outlived its launch-week skepticism, but the founder still carries 2,911 of the top contributors' roughly 4,000 commits.**
 
 ## Strengths
@@ -44,9 +44,10 @@ v0.18.41 on 2026-09-02 with signed Windows installers, multiple releases per wee
 
 ## Pricing
 
-Free up to five users: the MIT desktop app, self-hosting the full platform including the Den control plane, BYO keys.
-Team: $20 per seat per month for up to 100 users (marketplace, distributed keys, standard support), billed monthly.
-Enterprise: $50 per user per month (SSO/SAML, SCIM, analytics, desktop policies, white-labeling, self-hosted inference, SLA), volume pricing above 100 users.
+Solo: free, the MIT desktop app with BYO keys.
+Team Starter: $10 per seat per month with the first 5 seats free (API access, extension marketplace, distributed LLM keys), as of 2026-09-05.
+Enterprise: custom pricing (SSO/SAML, SCIM, desktop policies and version controls, managed deployment self-hosted or hosted, custom skill development, BYO inference with self-hosted or private models).
+The Den control plane inside the repo stays free for organizations up to five users, free to evaluate for 30 days at any size, and each `ee/` release converts to MIT two years after publication.
 
 ## Compared to
 
@@ -72,5 +73,5 @@ Not for teams that need a sandboxed security boundary the product does not provi
 - https://raw.githubusercontent.com/different-ai/openwork/HEAD/README.md - the directory-split licensing terms and gateway
 - https://openworklabs.com - product scope and the built-on-OpenCode positioning
 - https://openworklabs.com/pricing - the tiers for the pricing rows
-- https://github.com/different-ai/openwork/releases/tag/v0.18.41 - release cadence and installer signing
+- https://github.com/different-ai/openwork/releases/tag/v0.18.42 - release cadence and installer signing
 - https://news.ycombinator.com/item?id=46612494 - the launch thread with the security-boundary questions

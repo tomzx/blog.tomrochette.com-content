@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Nanobot is an MIT-licensed, self-hosted personal AI agent runtime in Python that packages a small agent core with a bundled WebUI, terminal UI, eight-plus chat channels, tools, long-term memory, MCP support, scheduled automations, and an OpenAI-compatible API, positioned openly as the lightweight alternative to OpenClaw.
-Facts below verified as of 2026-09-04.
+Facts below verified as of 2026-09-05.
 
 **Nanobot is the category's readability bet: an agent core small enough to read in an afternoon, at the price of alpha maturity and a bus factor of essentially one maintainer.**
 

@@ -1,7 +1,7 @@
 ---
 title: Phoenix
 created: 2026-08-30
-updated: 2026-09-04
+updated: 2026-09-05
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, evaluation, observability, opentelemetry, tracing]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Phoenix is Arize AI's open-source AI observability and evaluation platform: OpenTelemetry-native tracing, LLM and code evals, versioned datasets and experiments, a prompt playground, and a built-in AI engineering agent, self-hostable or running on the Arize AX cloud.
-Facts below verified as of 2026-09-04.
+Facts below verified as of 2026-09-05.
 
 **Phoenix is the observability column of this category, and its defining trade is the ELv2 license: everything is inspectable and self-hostable, but you cannot offer Phoenix itself as a service, and Arize keeps the production-grade monitoring surface in the paid platform.**
 
@@ -25,8 +25,8 @@ Core platform under Elastic License 2.0 with the client and OTel packages Apache
 
 ## Status
 
-Mature and busy: 11,319 stars, 1,100 forks, 967 open issues and PRs as of 2026-09-04.
-Created 2022-11-09, pushed the day of verification, platform release arize-phoenix 20.7.0 on 2026-09-03, about 1.8 million PyPI downloads a month as of 2026-09-04.
+Mature and busy: 11,333 stars, 1,106 forks, 973 open issues and PRs as of 2026-09-05.
+Created 2022-11-09, pushed the day of verification, platform release arize-phoenix 20.8.0 on 2026-09-04, about 1.8 million PyPI downloads a month as of 2026-09-04.
 **Four years in, it is the oldest and most production-proven column in this category, with near-daily commits and weekly releases.**
 
 ## Strengths

@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 deepeval is an Apache-2.0, pytest-style unit-testing framework for LLM applications that scores outputs with LLM-as-a-judge metrics, G-Eval, task completion, faithfulness, and roughly fifty more, so eval failures gate code like ordinary test failures.
-Facts below verified as of 2026-09-04.
+Facts below verified as of 2026-09-05.
 
 **deepeval is the category's default answer to the question where do evals live, and its answer is your existing test suite, which is exactly why the open-core line around the Confident AI platform is the decision that matters.**
 

@@ -1,7 +1,7 @@
 ---
 title: Crush
 created: 2026-08-22
-updated: 2026-08-30
+updated: 2026-09-05
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, coding-agents, harnesses, terminal, go]
 readability: 3
@@ -12,7 +12,7 @@ audience_notes: >
 ---
 
 Crush is Charm's terminal coding agent: a single Go binary that pulls context from language servers, runs any provider including local models, and carries the [FSL-1.1-MIT](https://fsl.software/) license.
-Facts below verified as of 2026-09-04.
+Facts below verified as of 2026-09-05.
 
 **Crush is the best-looking and most portable harness in the field, and a license plus an origin story that community has not forgotten will keep it the second choice for teams that audit provenance.**
 
@@ -26,7 +26,7 @@ It runs on macOS, Linux, Windows, Android, and the BSDs.
 ## Status
 
 **Active.**
-About 27.9k stars, 2.2k forks, and 4,086 commits as of 2026-09-02, launched July 30, 2025.
+About 27.9k stars, 2.2k forks, and 4,103 commits as of 2026-09-05, launched July 30, 2025.
 It is the continuation of the original opencode-ai repository: creator Kujtim Hoxha joined Charm, and the repo moved with him.
 After the dispute that split the community, Charm renamed it Crush while the other developers kept the OpenCode name.
 Charm's own telling is ["Crush, come home"](https://charm.land/blog/crush-comes-home/); the other side's version lives in [the launch thread](https://news.ycombinator.com/item?id=44736176).
@@ -72,7 +72,7 @@ Not for license-restricted organizations or communities that relitigate 2025.
 
 ## References
 
-- https://github.com/charmbracelet/crush - features, license, provider matrix, as of 2026-09-02
+- https://github.com/charmbracelet/crush - features, license, provider matrix, as of 2026-09-05
 - https://news.ycombinator.com/item?id=44736176 - launch thread with the full origin story and early comparisons
 - https://fsl.software/ - what FSL-1.1-MIT permits and when it converts
 - https://charm.land/blog/crush-comes-home/ - Charm's account of the project joining the company

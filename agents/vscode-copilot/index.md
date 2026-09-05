@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 VS Code plus GitHub Copilot is Microsoft's agent surface: an MIT-licensed editor that now hosts several agent harnesses, with Copilot sold as a plan family from free to $100/month.
-Facts below verified as of 2026-09-04.
+Facts below verified as of 2026-09-05.
 
 **VS Code won the surface war by refusing to pick a winner: it runs Copilot, Claude Code, and Codex as swappable harnesses inside one editor, and that neutrality is worth more than any single agent feature.**
 

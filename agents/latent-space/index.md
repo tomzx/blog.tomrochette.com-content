@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Latent Space is the AI engineering publication of record, a Substack newsletter plus a technical podcast hosted by swyx (Shawn Wang) and Alessio Fanelli, and the organizing brand behind the AI Engineer conference series.
-Facts below verified as of 2026-09-04.
+Facts below verified as of 2026-09-05.
 
 **Latent Space did not just cover the AI engineer, it named the role and built the conference around it, which makes it the closest thing this domain has to an institutional center of gravity.**
 

@@ -1,7 +1,7 @@
 ---
 title: agentsview
 created: 2026-08-30
-updated: 2026-09-02
+updated: 2026-09-05
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, session-analytics, observability, token-usage, open-source]
 readability: 3
@@ -10,14 +10,14 @@ audience_notes: >
   Assumes you know where tools like Claude Code store their session files.
 ---
 
-agentsview is a local-first, MIT-licensed Go application that discovers the session files your coding agents already write on disk, indexes them into a searchable local SQLite archive, and serves a web UI, CLI, and desktop app for browsing, analytics, and token-cost reporting across roughly 50 agent sources.
-Facts below verified as of 2026-09-04.
+agentsview is a local-first, MIT-licensed Go application that discovers the session files your coding agents already write on disk, indexes them into a searchable local SQLite archive, and serves a web UI, CLI, and desktop app for browsing, analytics, and token-cost reporting across roughly 60 agent sources.
+Facts below verified as of 2026-09-05.
 
 **agentsview's premise is that your agents already write the telemetry; the missing piece was a tool that reads all of it in one place, locally, instead of each harness showing you only its own slice.**
 
 ## What it is
 
-A Go daemon that watches known per-agent session directories (Claude Code, Codex, Gemini CLI, Copilot, Cursor, Zed, Windsurf, OpenCode, Qwen Code, Goose, Kiro, and more, roughly 55 sources listed), parses their JSONL and database logs, and syncs them into a local SQLite database with FTS5 full-text search.
+A Go daemon that watches known per-agent session directories (Claude Code, Codex, Gemini CLI, Copilot, Cursor, Zed, Windsurf, OpenCode, Qwen Code, Goose, Kiro, and more, roughly 60 sources listed), parses their JSONL and database logs, and syncs them into a local SQLite database with FTS5 full-text search.
 Surfaces: a web UI on loopback, a CLI (`agentsview usage daily`, `session search`, `stats`), a Tauri desktop app, Docker, plus optional PostgreSQL push for shared team dashboards, S3-backed session roots, and a DuckDB mirror.
 Token-cost reporting uses a model-pricing catalog, and the project's own benchmark claims 84 to 223 times faster cost reports than re-parsing with ccusage, with the docs themselves calling that an upper bound.
 Pure local file parsing: no cloud service, no accounts, no LLM calls required; an anonymous activity ping fires by default and can be disabled.
@@ -25,7 +25,7 @@ Made by Kenn Software LLC; install via curl script, Homebrew cask, desktop build
 
 ## Status
 
-Young and active: 5,719 stars, 643 forks, 115 open issues and PRs as of 2026-09-02, created 2026-02-19, pushed the day of verification.
+Young and active: 5,771 stars, 652 forks, 103 open issues and PRs as of 2026-09-05, created 2026-02-19, pushed the day of verification.
 Latest release v0.42.0 on 2026-09-01 with roughly weekly releases since July; pre-1.0 with fast feature churn.
 
 ## Strengths

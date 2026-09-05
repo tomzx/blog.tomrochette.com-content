@@ -1,7 +1,7 @@
 ---
 title: skills.sh
 created: 2026-08-24
-updated: 2026-09-04
+updated: 2026-09-05
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, skills, registries, vercel, agent-extensions]
 readability: 3
@@ -11,13 +11,13 @@ audience_notes: >
 ---
 
 skills.sh is Vercel's directory and leaderboard for the open skills ecosystem: it ranks SKILL.md packages by install telemetry from its open-source CLI (`npx skills add <owner>/<repo>`), which installs into more than 70 agent harnesses.
-Facts below verified as of 2026-09-04.
+Facts below verified as of 2026-09-05.
 
 **It won the registry slot not through curation but by wrapping git: any repository is already a package, the CLI symlinks it into every harness, and the resulting install counts became the ecosystem's ranking, with security review still catching up.**
 
 ## What it is
 
-Launched 2026-01-20 by Vercel's labs team; the CLI is MIT-licensed with 30.4k stars, 2.6k forks, and 474 commits as of 2026-09-04.
+Launched 2026-01-20 by Vercel's labs team; the CLI is MIT-licensed with 30.4k stars, 2.6k forks, and 474 commits as of 2026-09-05.
 The CLI resolves GitHub shorthand and URLs, GitLab, any git URL, local paths, and direct archive URLs (downloads capped at 10 MiB by default), then symlinks or copies skills into per-agent directories.
 The site adds the leaderboard, per-agent and per-topic pages, badges, and packs (one install command bundling public and private skills).
 **Ranking comes from anonymous CLI telemetry (opt-out via `DISABLE_TELEMETRY`), not from vetting or ratings.**
@@ -25,7 +25,7 @@ The site adds the leaderboard, per-agent and per-topic pages, badges, and packs 
 ## Status
 
 **Active and dominant among third-party registries.**
-Top of the all-time leaderboard as of 2026-09-04: find-skills (vercel-labs) at 3.2M installs, grill-me (mattpocock/skills) at 1.1M, grill-with-docs (mattpocock/skills) at 899.0K, improve-codebase-architecture (mattpocock/skills) at 862.6K, and frontend-design (anthropics/skills) at 851.9K.
+Top of the all-time leaderboard as of 2026-09-05: find-skills (vercel-labs) at 3.3M installs, grill-me (mattpocock/skills) at 1.1M, grill-with-docs (mattpocock/skills) at 906.6K, improve-codebase-architecture (mattpocock/skills) at 869.6K, and frontend-design (anthropics/skills) at 855.4K.
 Official publisher entries include microsoft/azure-skills, supabase, prisma, and heygen-com/hyperframes.
 The nearest standalone competitor I could verify, skillregistry.io, lists 61 skills as of 2026-08-30 (14,782 total downloads as of 2026-08-24), two orders of magnitude smaller.
 
@@ -38,7 +38,7 @@ The nearest standalone competitor I could verify, skillregistry.io, lists 61 ski
 ## Cautions
 
 - **Install counts measure fashion, not fitness: telemetry counts CLI runs, anyone can drive their own numbers, and the docs state plainly that the quality and security of listed skills are not guaranteed.**
-- The audit page shows the gap: every open.feishu.cn entry was still Pending and Snyk still flags Critical on microsoft/azure-skills azure-validate as of 2026-09-04, while azure-resource-visualizer, flagged High on 2026-08-24, no longer appears on the audits page.
+- The audit page shows the gap: as of 2026-09-05 it lists 81 Pending and 23 Safe entries with no remediation history, and the microsoft/azure-skills azure-validate entry that Snyk flagged Critical in early September no longer appears on the page at all.
 - Skills are instructions and scripts that agents execute, a risk Anthropic's engineering post calls out for skills generally, so a leaderboard install is a supply-chain decision.
 - Telemetry is opt-out rather than opt-in, and one company controls the ranking surface of a nominally open ecosystem.
 
@@ -69,10 +69,10 @@ My disagreeable claim: marketplaces are the least interesting part of this ecosy
 ## References
 
 - https://vercel.com/blog/introducing-skills - launch announcement (2026-01-20)
-- https://skills.sh/ - leaderboard, install counts, supported agents, as of 2026-09-04
+- https://skills.sh/ - leaderboard, install counts, supported agents, as of 2026-09-05
 - https://skills.sh/docs - ranking method (CLI telemetry) and the security disclaimer
-- https://skills.sh/audits - Gen/Socket/Snyk audit columns, Pending and Critical entries, as of 2026-09-04
-- https://github.com/vercel-labs/skills - CLI source, agent path table, telemetry opt-out, 30.4k stars as of 2026-09-04
+- https://skills.sh/audits - Gen/Socket/Snyk audit columns, 81 Pending and 23 Safe entries, as of 2026-09-05
+- https://github.com/vercel-labs/skills - CLI source, agent path table, telemetry opt-out, 30.4k stars as of 2026-09-05
 - https://skillregistry.io/ - nearest standalone competitor, 61 skills as of 2026-08-30
 - https://github.com/Fcmam5/skilleton - lockfile-style, no-telemetry alternative
 - https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills - the underlying untrusted-skill risk

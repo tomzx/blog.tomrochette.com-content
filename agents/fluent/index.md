@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Fluent is a self-improving software factory that turns a team's vision, ideas, bug reports, user feedback, production logs, and agent traces into working software with writer, tester, reviewer, and learner roles inside one deterministic loop.
-Facts below verified as of 2026-09-04.
+Facts below verified as of 2026-09-05.
 
 ## What it is
 
@@ -21,7 +21,7 @@ Each run of a Work Item is an Attempt that a Writer, parallel Reviewers, a deter
 
 ## Status
 
-Active and meaningfully developed: 84 stars and 1 fork since creation on 2026-07-10, 1,776 commits, and v0.3.0 released 2026-08-31 per the GitHub API as of 2026-09-02.
+Active and meaningfully developed: 87 stars and 1 fork since creation on 2026-07-10, 1,776 commits, and v0.3.0 released 2026-08-31 (still the newest release) per the GitHub API as of 2026-09-05.
 v0.3.0 added durable Slack collaboration for planning, approvals, and candidate handoff, plus stronger recovery for long-running, scheduler-owned work.
 It is a focused single-author project with a real Discord community, not the biggest crowd but steadily shipped.
 The governance and self-improvement loop are unusually detailed for the category, which is the design bet the note weighs.
@@ -35,7 +35,7 @@ The governance and self-improvement loop are unusually detailed for the category
 
 ## Cautions
 
-- **Young and opinionated**: it is pre-1.0 with 84 stars, and its EARS behavior specs plus multi-layer pipeline are a heavier ceremony than most teams adopt.
+- **Young and opinionated**: it is pre-1.0 with 87 stars, and its EARS behavior specs plus multi-layer pipeline are a heavier ceremony than most teams adopt.
 - **macOS-only today**, and it is a Rust binary plus skill bootstrap, so the on-ramp is not as trivial as stamping a Python pip package.
 - **Remote execution needs AWS Fargate**, which is a real dependency for teams that want off-laptop runs.
 - **The tight loop is also the lock-in**: conventions like Behavior Specifications and Expertise are Fluent-specific, so leaving means remigrating the repository's process, not just uninstalling.

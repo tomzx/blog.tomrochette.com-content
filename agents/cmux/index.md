@@ -1,7 +1,7 @@
 ---
 title: cmux
 created: 2026-08-24
-updated: 2026-09-04
+updated: 2026-09-05
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, orchestration, terminal, parallel-agents, macos]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 cmux is Manaflow's open-source macOS terminal built on libghostty for running many coding agents in parallel, with vertical tabs, workspaces, notification rings, and an open-core cloud tier.
-Facts below verified as of 2026-09-04.
+Facts below verified as of 2026-09-05.
 
 **cmux's real product is attention routing, not multiplexing, and its real business is cloud execution: the terminal is the free, GPL-3.0 funnel, and the subscription is where the company actually lives.**
 
@@ -46,7 +46,7 @@ Three contributors dominate the history (about 5.2k, 3.8k, and 1.2k contribution
 ## Pricing
 
 Free $0: the full terminal, any CLI agent BYOK, notifications, browser panels, socket API, local history.
-Pro $40/month billed yearly ($50 month-to-month): cloud agents on isolated VMs, capped at up to 50 Cloud VMs per user (5 vCPU, 20 GB RAM, 32 GB disk each as of 2026-09-04, when the page cut the disk spec from the earlier 200 GB), plus unlimited workspaces, the iOS app, and email support.
+Pro $40/month billed yearly ($50 month-to-month): cloud agents on isolated VMs, capped at up to 50 Cloud VMs per user sharing a pool of 5 vCPU, 20 GB RAM, and 200 GB disk total, each VM starting at 8 GB RAM and 32 GB disk, with sizes from 4 to 64 GB RAM available as capacity allows, as of 2026-09-05 (the page restored the 200 GB shared-pool total alongside the 32 GB per-VM default after showing 32 GB per VM with no pool total on 2026-09-04), plus unlimited workspaces, the iOS app, and email support.
 Team $48/user/month billed yearly ($60 month-to-month) adds centralized billing and priority support; Enterprise adds self-hosted, even air-gapped, cloud execution, SSO/SAML, audit logs, and SOC 2, as of 2026-09-04.
 
 ## Compared to
@@ -69,8 +69,8 @@ Not for Linux or Windows users, copyleft-restricted shops, or anyone who needs a
 
 ## References
 
-- https://github.com/manaflow-ai/cmux - source, license statement, repository scale, as of 2026-09-02
-- https://cmux.com/pricing - tiers, cloud VMs, CodeRouter removal, as of 2026-09-02
+- https://github.com/manaflow-ai/cmux - source, license statement, repository scale, as of 2026-09-05
+- https://cmux.com/pricing - tiers, cloud VM pool and disk specs, CodeRouter removal, as of 2026-09-05
 - https://cmux.com/blog/zen-of-cmux - the project's own design philosophy
 - https://news.ycombinator.com/item?id=47079718 - the February 2026 launch thread with author Q&A
 - https://www.bounds.dev/posts/teaching-claude-code-to-drive-cmux/ - third-party account of agents driving cmux programmatically

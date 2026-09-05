@@ -1,7 +1,7 @@
 ---
 title: LlamaIndex
 created: 2026-08-24
-updated: 2026-08-30
+updated: 2026-09-05
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, rag, retrieval, frameworks]
 readability: 3
@@ -12,7 +12,7 @@ audience_notes: >
 ---
 
 LlamaIndex is an MIT-licensed data framework for building retrieval pipelines and document agents over private data, now the open source arm of a company whose commercial product is the LlamaParse document platform.
-Facts below verified as of 2026-09-04.
+Facts below verified as of 2026-09-05.
 
 **It remains the deepest off-the-shelf retrieval toolkit, but its maker has pivoted to enterprise document OCR, so the framework you build on is no longer the business you are buying from.**
 
@@ -25,7 +25,7 @@ The company, LlamaIndex (run-llama), sells LlamaParse: a closed platform spannin
 ## Status
 
 Active and heavily used.
-The `run-llama/llama_index` repository shows 52.0k stars, 8.1k forks, 7,924 commits, and 189 open issues as of 2026-09-02.
+The `run-llama/llama_index` repository shows 52.0k stars, 8.1k forks, 7,928 commits, and 193 open issues as of 2026-09-05.
 **The strategic signal is the pivot: the repository now describes itself as "the leading document agent and OCR platform", and the docs split between the legacy `docs.llamaindex.ai` site and the new `developers.llamaindex.ai` home, where some legacy API pages (the code splitter reference among them) no longer resolve.**
 
 ## Strengths

@@ -1,7 +1,7 @@
 ---
 title: "Control Planes Feature Matrix"
 created: 2026-08-27
-updated: 2026-09-04
+updated: 2026-09-05
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, comparison, control-planes, agent-operations]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 This matrix compares the agent control planes profiled in this section: the flagship and the first stall record, so the category's consolidation story sits in one table.
-Everything below was verified against live sources on 2026-09-04.
+Everything below was verified against live sources on 2026-09-05.
 
 **A control plane is not a dashboard with more panels, it is an org (budgets, approvals, chain of command) wrapped around a heartbeat scheduler, and the second column below is the stall record proving the category fits exactly one open-source flagship.**
 
@@ -32,7 +32,7 @@ Legend: ✓ supported, ✗ not supported, ~ partial or conditional, ? not verifi
 | Multi-company | ✓ unlimited per deployment, data isolation | ✗ one company per install |
 | Channels | any heartbeat-capable agent surface | Discord, WhatsApp, Telegram |
 | Pricing | free self-hosted, cloud in waitlist, unpublished | free |
-| Current status | active, about 79k stars since 2026-03-02, 5,314 open issues | stalled March 2026, 3,611 stars, 75 open issues |
+| Current status | active, about 80k stars since 2026-03-02, 5,340 open issues | stalled March 2026, 3,611 stars, 75 open issues |
 
 ## Reading the matrix
 

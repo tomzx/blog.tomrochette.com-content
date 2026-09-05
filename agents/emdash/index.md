@@ -12,7 +12,7 @@ audience_notes: >
 ---
 
 Emdash is an Apache-2.0 "agentic development environment" from General Action (YC W26): a macOS, Windows, and Linux desktop app that runs parallel coding agents in git worktrees, locally or over SSH on remote machines.
-Facts below verified as of 2026-09-04 (domain moved from emdash.ai to emdash.com, the old host 301-redirects).
+Facts below verified as of 2026-09-05 (domain moved from emdash.ai to emdash.com, the old host 301-redirects).
 
 **It is currently the most credible open, cross-platform alternative to Conductor, with the deepest agent support (25+ CLIs), and its real risk is category risk: its own launch commenters reasonably ask whether harness CLIs will absorb this layer.**
 

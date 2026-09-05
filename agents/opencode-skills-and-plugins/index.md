@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 OpenCode extends through two separate mechanisms: Agent Skills (SKILL.md folders surfaced to the model through a native `skill` tool, with per-skill permissions) and plugins (JavaScript or TypeScript modules that hook lifecycle events, loaded from local files or npm).
-Facts below verified as of 2026-09-04.
+Facts below verified as of 2026-09-05.
 
 **OpenCode splits extensibility cleanly where other harnesses blur it: declarative markdown for knowledge the model should follow, real code for behavior the harness must enforce, and that split is the pattern I would copy.**
 
@@ -24,9 +24,9 @@ Plugins are JS/TS modules from `.opencode/plugins` or npm (installed via Bun at 
 
 ## Status
 
-**Active; the skills docs were last updated 2026-09-04.**
-The host project (anomalyco/opencode) shows about 204k stars under MIT as of 2026-09-04.
-The ecosystem page lists roughly 40 community plugins (Helicone, Sentry, Firecrawl, Tavily, Daytona sandboxing, subscription-auth bridges).
+**Active; the skills docs were last updated 2026-09-05.**
+The host project (anomalyco/opencode) shows about 204k stars under MIT as of 2026-09-05.
+The ecosystem page lists roughly 50 community plugins (Helicone, Sentry, Firecrawl, Tavily, Daytona sandboxing, subscription-auth bridges).
 There is no first-party skill marketplace; distribution rides plain git or third parties like skills.sh.
 
 ## Strengths
@@ -73,6 +73,6 @@ My disagreeable claim: plugins, not skills, are OpenCode's actual differentiator
 - https://opencode.ai/docs/skills/ - skill paths, frontmatter, permissions, the skill tool
 - https://opencode.ai/docs/plugins/ - plugin model, event hooks, npm installation, custom tools
 - https://opencode.ai/docs/ecosystem/ - community plugin inventory
-- https://github.com/anomalyco/opencode - host project scale and MIT license, as of 2026-09-02
+- https://github.com/anomalyco/opencode - host project scale and MIT license, as of 2026-09-05
 - https://agentskills.io/ - lists OpenCode among the standard's clients
 - https://github.com/vercel-labs/skills - compatibility matrix (`context: fork` and hooks unsupported in OpenCode)

@@ -1,7 +1,7 @@
 ---
 title: Caleb Writes Code
 created: 2026-08-29
-updated: 2026-09-04
+updated: 2026-09-05
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=big-pickle, llm=glm-5.3-flash, people, publications, youtube, ai-news, model-releases, explainer]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Caleb Writes Code is the YouTube explainer channel of Caleb Eom, covering model releases, AI hardware, and agentic-engineering concepts in short, illustrated videos.
-Facts below verified as of 2026-09-04.
+Facts below verified as of 2026-09-05.
 
 **He is the fastest way to stay current in video form, because each release and agentic buzzword becomes a 7 to 13 minute illustrated explainer within days, a release-explainer slot no other member of this category fills.**
 
@@ -24,8 +24,8 @@ He is active on X as calebfoundry, on LinkedIn, and runs a Patreon.
 
 ## Status
 
-Active and fast-growing as of 2026-09-04.
-The channel reports 107K subscribers and 116 videos, a live counter showed 107,760 subscribers and about 6.7M total views across 115 videos on 2026-09-02, and uploads run about twice a week, with the latest on 2026-09-03 being a Fable 5.1 review.
+Active and fast-growing as of 2026-09-05.
+The channel reports 108K subscribers and 117 videos, a live counter showed 108,072 subscribers and about 6.8M total views on 2026-09-05, and uploads run about twice a week, with the latest on 2026-09-04 covering GPT-6 Astra.
 All of that scale was reached in under 18 months from the 2025-03-16 start.
 
 ## Strengths
@@ -37,7 +37,7 @@ All of that scale was reached in under 18 months from the 2025-03-16 start.
 
 ## Cautions
 
-- The channel is sponsor-dense: 9 of the last 15 upload descriptions carried a sponsor read or affiliate link as of 2026-09-04, so treat the cuts-through-the-noise pitch as marketing and every sponsored segment as an ad first.
+- The channel is sponsor-dense: 9 of the last 15 upload descriptions carried a sponsor read or affiliate link as of 2026-09-05, so treat the cuts-through-the-noise pitch as marketing and every sponsored segment as an ad first.
 - Explainers compress to fit the format, so verify specifics against primary sources before acting on them.
 - I found no Hacker News threads and no substantive Reddit discussions of the channel, so there is no critical community filter on its claims.
 - Third-party analytics disagree with themselves: one analytics site's prose claims two years of inactivity while its own FAQ and the channel feed show uploads days ago, so quote its numbers with care.
@@ -67,8 +67,8 @@ Not for someone who wants tool-tested practice, reference-grade depth, or an ad-
 
 ## References
 
-- https://www.youtube.com/@calebwritescode - the channel: identity, description, 107K subscribers, 115 videos
+- https://www.youtube.com/@calebwritescode - the channel: identity, description, 108K subscribers, 117 videos
 - https://www.youtube.com/@calebwritescode/about - join date 2025-03-16 and the LinkedIn, X, and Patreon links
-- https://www.youtube.com/feeds/videos.xml?channel_id=UCuU9jE4MHHEIyYMbDfUPSew - the RSS feed grounding cadence, topics, and the 11-of-15 sponsor count
-- https://realtimesubcount.com/UCuU9jE4MHHEIyYMbDfUPSew - live subscriber counter, 107,710 as of 2026-09-04 (107,760 subscribers and about 6.7M views as of 2026-09-02)
+- https://www.youtube.com/feeds/videos.xml?channel_id=UCuU9jE4MHHEIyYMbDfUPSew - the RSS feed grounding cadence, topics, and the 9-of-15 sponsor count
+- https://realtimesubcount.com/UCuU9jE4MHHEIyYMbDfUPSew - live subscriber counter, 108,072 as of 2026-09-05
 - https://app.thoughtleaders.io/youtube/caleb-writes-code - third-party read on the AI niche and brand safety, plus the stale-prose discrepancy behind the analytics caution

@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Tessl is Guy Podjarny's (Snyk founder) spec-centric AI-native development platform: a web-first product where specs drive AI-generated (and human-written) software, funded by a $125M Series A and extended in 2026 with a skills package manager.
-Facts below verified as of 2026-09-04.
+Facts below verified as of 2026-09-05.
 
 **Tessl is the bet that spec-driven development is a platform business rather than a CLI convention, and its $125M raise, while the open tools give the method away free, is the category's purest experiment in whether specs become infrastructure you rent.**
 
@@ -25,7 +25,7 @@ Its open-source surface is deliberately thin: the [tesslio/cli](https://github.c
 Funded and building, quiet on GitHub.
 The Series A announcement (November 2024) declared $125M for the platform; the founding announcement (October 2024) frames Podjarny's pivot from Snyk's security mission to AI-native development.
 **The strongest third-party signal is Martin Fowler's October 2025 analysis naming Tessl one of the three SDD pillars alongside Kiro and Spec Kit (the 128-point thread), which treats it as a serious approach while noting it was then the least mature of the three.**
-The CLI has not been pushed since 2026-03-05, which is consistent with a web-first roadmap and worth re-checking before adopting.
+The CLI has not been pushed since 2026-03-05, which is consistent with a web-first roadmap and worth re-checking before adopting (re-confirmed unchanged on 2026-09-05).
 
 ## Strengths
 

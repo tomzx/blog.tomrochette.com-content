@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 ZeroClaw is zeroclaw-labs' personal agent runtime: a single Rust binary (dual MIT/Apache-2.0) that talks to about 20 model providers, reaches the world through 30+ channels, and acts through tools including hardware, all on your own machine.
-Facts below verified as of 2026-09-04.
+Facts below verified as of 2026-09-05.
 
 **ZeroClaw bets the frontier is compile-time: one Rust binary with no runtime sprawl is the ownership answer for people who do not trust a Node process with their messages, and its motto (you own the agent, the data, and the machine) is a requirements list the others treat as marketing.**
 

@@ -1,7 +1,7 @@
 ---
 title: "Spec Driven Development Feature Matrix"
 created: 2026-08-27
-updated: 2026-09-04
+updated: 2026-09-05
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, comparison, spec-driven-development, process, llm=glm-5.3-flash]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 This matrix compares the four spec-driven development tools profiled in this section, feature by feature.
-Everything below was re-verified against live sources on 2026-09-04.
+Everything below was re-verified against live sources on 2026-09-05.
 
 **The category splits on two axes: who owns the specs (your repo or a platform) and whether the ceremony sizes itself to the change, and the waterfall critique is the standing judge of the second axis.**
 
@@ -31,7 +31,7 @@ Each column links to the full research note; every cell below traces to a source
 | Brownfield support | ✓ establish-context path | ~ not the primary case | ✓ explicit design goal | ? not verified |
 | Convergence checking | ✓ verify and learn loop | ✓ converge step | ~ archive keeps ledger current | ? not verified |
 | Unattended execution | ✓ BMad Loop module | ✗ | ✗ | ? not verified |
-| Adoption | 52,662 stars | 133,382 stars | 67,236 stars, 1.6M npm downloads a month | 24-point raise thread, thin OSS surface |
+| Adoption | 52,685 stars | 133,530 stars | 67,338 stars, 1.6M npm downloads a month | 24-point raise thread, thin OSS surface |
 | Pricing | free | free | free | subscription, tiers unverified |
 
 ## Reading the matrix

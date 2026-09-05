@@ -12,7 +12,7 @@ audience_notes: >
 ---
 
 Amp is the coding agent from Amp Frontier Corporation ([spun out of Sourcegraph on December 2, 2025](https://ampcode.com/news/amp-frontier-corporation)): a CLI plus web and phone surfaces, with threads that run on remote machines called orbs.
-Facts below verified as of 2026-09-04.
+Facts below verified as of 2026-09-05.
 
 **Amp's orbs are the most direct answer in the field to "the agent should keep working when I close my laptop", and the product is priced exactly like something that believes its own value.**
 
@@ -68,8 +68,8 @@ Not for open-source-only teams or anyone metering their own tokens.
 
 ## References
 
-- https://ampcode.com/ - product overview, orbs, news cadence as of 2026-09-02
-- https://ampcode.com/pricing/ - Megawatt, Gigawatt, usage billing, linked subscriptions, as of 2026-09-02
+- https://ampcode.com/ - product overview, orbs, news cadence as of 2026-09-05
+- https://ampcode.com/pricing/ - Megawatt, Gigawatt, usage billing, linked subscriptions, as of 2026-09-05
 - https://ampcode.com/news/amp-frontier-corporation - the December 2, 2025 spinout announcement
 - https://ampcode.com/manual/ - modes, oracle, librarian, skills, plugins, permissions
 - https://news.ycombinator.com/item?id=46124649 - spinout discussion with praise and cost complaints

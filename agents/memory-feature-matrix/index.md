@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 This matrix compares the seven memory approaches profiled in this section, feature by feature: the file convention, the session-compression plugin, the memory-first harness, the two memory APIs, the self-hostable graph pipeline, and the portable memory format.
-Everything below was re-verified against live sources on 2026-09-04, with the Cognee column first verified 2026-08-26 and the Memoryfields column first verified 2026-09-04.
+Everything below was re-verified against live sources on 2026-09-05, with the Cognee column first verified 2026-08-26 and the Memoryfields column first verified 2026-09-04.
 
 **For coding agents I would start with plain files and not buy any service on benchmark claims, because the only memory problem files cannot solve at any price is contradiction over time, and Zep is the only vendor whose architecture faces it head on.**
 

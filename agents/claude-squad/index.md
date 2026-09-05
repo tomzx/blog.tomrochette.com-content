@@ -12,7 +12,7 @@ audience_notes: >
 ---
 
 Claude Squad is a free, AGPL-3.0 terminal app (command `cs`) that manages multiple coding agents in tmux sessions, each isolated in its own git worktree.
-Facts below verified as of 2026-09-04.
+Facts below verified as of 2026-09-05.
 
 **It is the minimal, single-binary version of the parallel-agent pattern, and at about 8.4k GitHub stars it became the default terminal recommendation despite almost no launch buzz.**
 

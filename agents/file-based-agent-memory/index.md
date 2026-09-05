@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 File-based agent memory is the convention of giving agents persistent memory as plain markdown files in the repo or home directory (CLAUDE.md, AGENTS.md, rules files), instead of a memory service.
-Facts below verified as of 2026-09-04.
+Facts below verified as of 2026-09-05.
 
 **For coding agents, markdown files already won: they are free, versioned, and portable, and I think hosted memory layers are overkill for most engineering work at any price.**
 

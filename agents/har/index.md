@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 HAR, the open agent harness from os-factory, is a CLI and MCP server that turns a repository into isolated per-agent worktrees with deterministic launch, verify, and teardown stages, so a fleet of coding agents can work concurrently and reviewers trust the output.
-Facts below verified as of 2026-09-04.
+Facts below verified as of 2026-09-05.
 
 ## What it is
 
@@ -22,7 +22,7 @@ It is harness-agnostic and works with Claude Code, Cursor, Codex, or any MCP-cap
 
 ## Status
 
-Active and shipping fast: 85 stars and 10 forks since creation on 2026-06-28, 390 commits, and v1.12.0 released 2026-09-03 (v1.0.0 landed 2026-08-28), with releases landing almost daily and the last main push on 2026-09-03 per the GitHub API as of 2026-09-04.
+Active and shipping fast: 85 stars and 10 forks since creation on 2026-06-28, 390 commits, and v1.12.0 released 2026-09-03 (v1.0.0 landed 2026-08-28), with releases landing almost daily and the last main push on 2026-09-03 per the GitHub API as of 2026-09-05.
 It carries a code of conduct, security policy, and a sponsor (Kerno, a runtime code tester for coding agents), which is a steadier footprint than the category's usual single-commit repo.
 
 ## Strengths

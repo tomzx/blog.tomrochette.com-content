@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Plannotator is a free, open-source, local browser-based review surface that intercepts coding-agent plan proposals and code diffs so you can annotate them visually and send structured feedback straight back into the live agent session.
-Facts below verified as of 2026-09-04.
+Facts below verified as of 2026-09-05.
 
 **Plannotator closes the cheapest loop in agent work, the one between what you see wrong in a plan and what the agent receives, and its marketing outpaced its README exactly once, on the encryption claim, which the README itself corrects.**
 

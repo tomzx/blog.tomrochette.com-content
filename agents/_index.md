@@ -23,19 +23,19 @@ If the section turns into slop, the logs will show exactly where it went wrong, 
 
 # Essays and trackers
 
-- [Agentic Coding Tools Landscape](agentic-coding-tools-landscape/index.md) - maintained map of harnesses, editors, cloud agents, and orchestration as of 2026-09-04.
-- [Model Selection for Coding Tasks](model-selection-for-coding-tasks/index.md) - opinionated guide to choosing models by task class and per-token economics, as of 2026-09-04.
+- [Agentic Coding Tools Landscape](agentic-coding-tools-landscape/index.md) - maintained map of harnesses, editors, cloud agents, and orchestration as of 2026-09-05.
+- [Model Selection for Coding Tasks](model-selection-for-coding-tasks/index.md) - opinionated guide to choosing models by task class and per-token economics, as of 2026-09-05.
 - [Context Management Patterns](context-management-patterns/index.md) - the patterns that keep agent context windows small and fresh, as of 2026-08-24.
 - [The Tells Are Structural](the-tells-are-structural/index.md) - why word-swap humanizers fail (detection lives at the narrative-structure layer) and what a structural revision pass does instead, grounded in StoryScope.
 
 ## Comparison matrices
 
-- [Harness Feature Matrix](harness-feature-matrix/index.md) - the twenty-three harnesses against eleven capability rows, verified 2026-09-04.
-- [Surface Feature Matrix](surface-feature-matrix/index.md) - the twelve surfaces (two of them death records) against eleven capability rows, verified 2026-09-04.
+- [Harness Feature Matrix](harness-feature-matrix/index.md) - the twenty-five harnesses against eleven capability rows, Exo and Kimi Code the newest, verified 2026-09-05.
+- [Surface Feature Matrix](surface-feature-matrix/index.md) - the twelve surfaces (two of them death records) against eleven capability rows, verified 2026-09-05.
 - [Orchestration Feature Matrix](orchestration-feature-matrix/index.md) - the twelve worktree managers, dashboards, control planes, and mobile clients, Omnara the newest, plus one agent town, one dead and one orphaned among them.
 - [Protocols Feature Matrix](protocols-feature-matrix/index.md) - the five protocols stack rather than compete, and adoption falls with every step up the stack.
 - [Context Engines Feature Matrix](context-engines-feature-matrix/index.md) - the seven context vendors and tools against delivery, deployment, and scale rows.
-- [Code Review Feature Matrix](code-review-feature-matrix/index.md) - the eight AI reviewers divided on where your code runs, with both Kudelski exploit records named, verified 2026-09-04.
+- [Code Review Feature Matrix](code-review-feature-matrix/index.md) - the eight AI reviewers divided on where your code runs, with both Kudelski exploit records named, verified 2026-09-05.
 - [Skills Feature Matrix](skills-feature-matrix/index.md) - the spec, vendor format, harness mechanism, optimizer, and registry against runtime and stewardship rows.
 - [Retrieval Feature Matrix](retrieval-feature-matrix/index.md) - the two frameworks and two patterns compared, with the harness-native counterargument engaged.
 - [Memory Feature Matrix](memory-feature-matrix/index.md) - the file convention, the portable format, and five services against memory-model and lock-in rows.
@@ -44,12 +44,12 @@ If the section turns into slop, the logs will show exactly where it went wrong, 
 - [Task Management Feature Matrix](task-management-feature-matrix/index.md) - files versus database as the deciding row, with the PRD pipeline and its license cost.
 - [Spec Driven Development Feature Matrix](spec-driven-development-feature-matrix/index.md) - the four spec-first tools across the ownership and ceremony-sizing axes.
 - [Control Planes Feature Matrix](control-planes-feature-matrix/index.md) - governance, budgets, and multi-company rows that separate control planes from orchestration.
-- [Assistant Runtimes Feature Matrix](assistant-runtimes-feature-matrix/index.md) - OpenClaw, Hermes, the shrinking variants, the Python core, and the two Cowork desktops, the trust ladder in one table, verified 2026-09-04.
-- [Software Factory Feature Matrix](software-factory-feature-matrix/index.md) - the stamped Python loop, Fluent's learning loop, HAR's fleet harness, and Ouroboros' hidden grading on the who-owns-the-loop axis, verified 2026-09-04.
-- [Evaluation and Review Feature Matrix](evaluation-review-feature-matrix/index.md) - the four quality-control columns divided on who judges, the agent, the metric suite, or the human, verified 2026-09-04.
-- [Sandboxing Feature Matrix](sandboxing-feature-matrix/index.md) - the five isolation layers divided into boundaries, an orchestrator, a framework, and provisioning, verified 2026-09-04.
-- [Session Analytics Feature Matrix](session-analytics-feature-matrix/index.md) - the new one-column category: retrospective archives versus live observation, seeded by agentsview, verified 2026-09-04.
-- [People and Publications Feature Matrix](people-and-publications-feature-matrix/index.md) - the thirteen voices compared on focus, cadence, and reader slot, verified 2026-09-04.
+- [Assistant Runtimes Feature Matrix](assistant-runtimes-feature-matrix/index.md) - OpenClaw, Hermes, the shrinking variants, the Python core, and the two Cowork desktops, the trust ladder in one table, verified 2026-09-05.
+- [Software Factory Feature Matrix](software-factory-feature-matrix/index.md) - the stamped Python loop, Fluent's learning loop, HAR's fleet harness, Machinist's controlled entrypoint, and Ouroboros' hidden grading on the who-owns-the-loop axis, verified 2026-09-05.
+- [Evaluation and Review Feature Matrix](evaluation-review-feature-matrix/index.md) - the five quality-control columns divided on who judges, the agent, the metric suite, the benchmark, or the human, verified 2026-09-05.
+- [Sandboxing Feature Matrix](sandboxing-feature-matrix/index.md) - the six isolation layers divided into boundaries, an orchestrator, a framework, and provisioning, verified 2026-09-05.
+- [Session Analytics Feature Matrix](session-analytics-feature-matrix/index.md) - the archive and the attribution CLI versus the still-empty live-observation cells, verified 2026-09-05.
+- [People and Publications Feature Matrix](people-and-publications-feature-matrix/index.md) - the thirteen voices compared on focus, cadence, and reader slot, verified 2026-09-05.
 
 Essays appear here as the daily agent runs publish them.
 The queue it works from is [the work queue](queue.md).
@@ -69,7 +69,8 @@ All categories refreshed in parallel every run; dead tools keep their entries, m
 - [Cline](cline/index.md) - the open-source agent that outgrew its VS Code extension into CLI, kanban, and SDK, 5.2 million installs deep.
 - [Codex](codex/index.md) - OpenAI's ChatGPT-included agent, the Apache-2.0 big-lab CLI individuals can still just run.
 - [Crush](crush/index.md) - Charm's Go-and-LSP terminal agent, FSL-licensed, from the original OpenCode repo.
-- [DeepSeek Harness](deepseek-harness/index.md) - DeepSeek's everything-is-a-plugin harness, 211k stars in three weeks, MIT but alpha, now at release candidates.
+- [DeepSeek Harness](deepseek-harness/index.md) - DeepSeek's everything-is-a-plugin harness, 212k stars in a month, MIT but alpha, now at release candidates.
+- [Exo](exo/index.md) - the MIT self-modification bet, a harness the agent can rewrite at runtime, cheapest measured harness at $1.05 per task.
 - [fx](fx/index.md) - Vercel Labs' ~6 MiB Zig harness built to be embedded, the first agent-as-a-dependency bet.
 - [Gemini CLI](gemini-cli/index.md) - Google's open-source terminal agent, superseded for individuals by Antigravity CLI in June 2026.
 - [goose](goose/index.md) - Block's Rust agent turned Linux Foundation project, the field's first foundation-governed harness.
@@ -77,6 +78,7 @@ All categories refreshed in parallel every run; dead tools keep their entries, m
 - [Juggler](juggler/index.md) - Julian Storer's AGPL Go GUI agent, conversations as branchable trees with every tool call inspectable.
 - [Junie](junie/index.md) - JetBrains' plan-first agent with BYOK, IDE-grade grounding, and a free on-device Local mode for Mac.
 - [Kilo Code](kilo-code/index.md) - the Cline-and-Roo feature-merge under MIT, subagents through cloud tasks bundled in, Anaconda's since July 2026.
+- [Kimi Code](kimi-code/index.md) - Moonshot AI's terminal agent tuned for its own challenger-priced models, subagents through ACP in one binary.
 - [OneCLI](onecli/index.md) - the YC S26 Apache-2.0 team harness where a credential gateway injects secrets per request, so agents never hold them.
 - [OpenCode](opencode/index.md) - the MIT, provider-neutral harness with the leanest measured token baseline.
 - [OpenHands](openhands/index.md) - the renamed OpenDevin platform bet, sandboxed code-shell-browser agents you can self-host.
@@ -190,6 +192,7 @@ Where machines judge pull requests: the review bots, the open-source reviewers, 
 Where quality control lives in the agent workflow: CI gates, dashboards, machine review, human annotation.
 
 - [deepeval](deepeval/index.md) - the pytest-style eval framework with roughly fifty judge metrics that gates merges in CI.
+- [FrontierHarness Eval](frontierharness-eval/index.md) - the public benchmark that held the model constant and varied nine harnesses, cost spread 17.5x, vendor-run caveat attached.
 - [Phoenix](phoenix/index.md) - Arize's OTel-native observability and eval platform, self-hostable under an Elastic license.
 - [Plannotator](plannotator/index.md) - the local review surface that turns your annotations on agent plans and diffs into the agent's next instruction.
 - [Workshop](workshop/index.md) - Raindrop's local debugger where the coding agent reads traces, writes evals, and fixes what fails.
@@ -201,6 +204,7 @@ Where agent isolation should live: the workstation, the cluster, the wrapper, th
 - [Agent Sandbox](agent-sandbox/index.md) - the Kubernetes SIG Apps CRD for declarative sandbox fleets, delegating isolation to gVisor or Kata.
 - [aigate](aigate/index.md) - the fourteen-star kernel-enforced wrapper, kept as the reference design for small-scale OS-level agent sandboxing.
 - [ArtifactFS](artifact-fs/index.md) - Cloudflare's FUSE driver that mounts big repos in seconds, the provisioning layer sandboxes need before isolation matters.
+- [Clawk](clawk/index.md) - the disposable-VM workstation tool, the agent gets its own Linux machine instead of yours, pre-1.0 on macOS.
 - [Flue](flue/index.md) - the Astro team's agent framework whose contribution is a three-tier sandbox taxonomy and durable execution.
 - [OpenShell](openshell/index.md) - NVIDIA's container-and-MicroVM runtime where declarative policy and inference-proxy keys make the boundary credible.
 
@@ -238,6 +242,7 @@ Where agent isolation should live: the workstation, the cluster, the wrapper, th
 
 - [Fluent](fluent/index.md) - the self-improving factory with a deterministic final Tester and a learning loop, for teams that accept pre-1.0 ceremony.
 - [HAR](har/index.md) - the open harness that isolates a fleet of coding agents in worktrees with deterministic verification and an evidence trail.
+- [Machinist](machinist/index.md) - the Go control plane whose named-command entrypoint is the category's strictest agent boundary, early access, zero independent coverage.
 - [Ouroboros](ouroboros/index.md) - the Agent OS that freezes a spec from an interview and verifies with the grading hidden from the worker, 13 runtimes.
 - [Super Simple Software Factory](super-simple-software-factory/index.md) - a repeatable agents-plus-code pipeline stamped into any repo as a skill, where Python owns the loop and each agent owns one bounded phase.
 
@@ -245,7 +250,8 @@ Where agent isolation should live: the workstation, the cluster, the wrapper, th
 
 Tools that turn what coding agents already record into searchable history, cost reports, and audits.
 
-- [agentsview](agentsview/index.md) - the local-first indexer for roughly 50 agents' session files, retrospective search and token-cost reporting in one SQLite store.
+- [agentsview](agentsview/index.md) - the local-first indexer for roughly 60 agents' session files, retrospective search and token-cost reporting in one SQLite store.
+- [ctx](ctx/index.md) - local search over the sessions agents already recorded, with pro blame attribution from any line of code back to its transcript.
 
 ## People and publications
 

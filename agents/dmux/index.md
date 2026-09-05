@@ -12,7 +12,7 @@ audience_notes: >
 ---
 
 dmux is an MIT-licensed terminal multiplexer for coding agents: a tmux-based TUI where each task pane gets its own git worktree and branch, from the standardagents project led by Justin Schroeder (FormKit) and Boyd.
-Facts below verified as of 2026-09-04.
+Facts below verified as of 2026-09-05.
 
 **It is the terminal-native answer to the GUI worktree dashboards, with the widest agent fan-out in the category, and a community footprint that is still an order of magnitude smaller than its ambition.**
 

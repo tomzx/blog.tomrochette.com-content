@@ -1,7 +1,7 @@
 ---
 title: Ellipsis
 created: 2026-08-30
-updated: 2026-09-02
+updated: 2026-09-05
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, code-review, ai-review, developer-tools]
 readability: 3
@@ -13,7 +13,7 @@ audience_notes: >
 ---
 
 Ellipsis (ellipsis.dev) is a YC-backed company that launched in 2023 as an automated PR review and bug-fix bot and, as of July 2026, has pivoted to the Ellipsis Agent Cloud, a managed cloud platform for running coding agents such as Claude Code and Codex in governed sandboxes.
-Facts below verified as of 2026-09-04.
+Facts below verified as of 2026-09-05.
 
 ## What it is
 
@@ -26,7 +26,7 @@ The core product is proprietary: its GitHub org publishes only tooling, an agent
 
 **Active and pivoted.**
 The July 28, 2026 post "Introducing the Ellipsis Agent Cloud" says it plainly: Ellipsis "launched in 2023 as one of the first AI Code Review bots", but teams no longer want a product that "just worked", so the company rebuilt itself as agent infrastructure and released the `agent` CLI.
-The homepage, docs, and pricing all describe the agent cloud as of 2026-09-02, and the GitHub org pushed to its CLI and SDK repos on 2026-09-01.
+The homepage, docs, and pricing all describe the agent cloud as of 2026-09-02, and the GitHub org pushed to its CLI and SDK repos on 2026-09-04.
 Funding is a $2M seed announced June 19, 2024, with YC partners and the Pioneer Fund among the investors; I found no later round on any page I fetched.
 The blog is thin, three original posts since January 2025 and a gap from April 2025 to July 2026, so public cadence evidence is sparse even though the product is clearly alive.
 The community footprint is one strong Show HN from May 9, 2024 (Algolia item 40309719, 121 points, 64 comments) and a quieter February 2024 one (item 39526616, 18 points, 11 comments).
@@ -85,4 +85,4 @@ I will take the unpopular position that leaving review was the right call: a fix
 - https://www.ycombinator.com/companies/ellipsis - YC batch (W24), founding date, founders, team size, and active status, fetched 2026-09-02.
 - https://hn.algolia.com/api/v1/items/40309719 - the May 9, 2024 Show HN (121 points, 64 comments) with the praise and criticism threads, fetched 2026-09-02.
 - https://hn.algolia.com/api/v1/search?query=ellipsis&tags=story - the Algolia search that located both Show HN items, fetched 2026-09-02.
-- https://github.com/ellipsis-dev - the public org (five repos including Python and TypeScript SDK mirrors, CLI pushed 2026-09-01), verified via the GitHub API on 2026-09-02.
+- https://github.com/ellipsis-dev - the public org (five repos including Python and TypeScript SDK mirrors, CLI pushed 2026-09-04), verified via the GitHub API on 2026-09-05.

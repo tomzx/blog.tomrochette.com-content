@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 PicoClaw is Sipeed's ultra-light personal assistant in Go (MIT): one binary that runs on $10 RISC-V boards in 10-20MB of RAM, an independent implementation inspired by NanoBot rather than a fork of OpenClaw.
-Facts below verified as of 2026-09-04.
+Facts below verified as of 2026-09-05.
 
 **PicoClaw proves the assistant runtime has become a compile target: when an assistant fits in 10MB, the category stops being software you run and becomes hardware you buy, and Sipeed sells the board, which is a business model nobody else in the family has.**
 

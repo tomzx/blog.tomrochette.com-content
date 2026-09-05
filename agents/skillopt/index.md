@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 SkillOpt is a Microsoft Research text-space optimizer that trains a reusable natural-language skill document for a frozen LLM agent the way deep learning trains weights: trajectory-driven bounded edits, a textual learning rate, and a held-out validation gate, exporting a deployable `best_skill.md`.
-Facts below verified as of 2026-09-04.
+Facts below verified as of 2026-09-05.
 
 **SkillOpt turns the skill file into a trainable parameter, and the part that matters is not the optimization loop but the gate: an edit is kept only when it strictly improves a held-out score, which is exactly the discipline hand-written skills never get.**
 
@@ -25,7 +25,7 @@ MIT, from Microsoft Research Asia with university collaborators, Python 3.10+.
 
 ## Status
 
-Research code with unusually strong product trappings: 16,614 stars, 1,561 forks, 33 open issues as of 2026-09-02, created 2026-05-08, pushed 2026-08-29.
+Research code with unusually strong product trappings: 16,697 stars, 1,571 forks, 39 open issues as of 2026-09-05, created 2026-05-08, pushed 2026-08-29.
 Latest release v0.2.0 (2026-07-02) on PyPI; the arXiv paper (2605.23904) is a preprint with no peer-reviewed venue found, and all headline results are the authors' own.
 
 ## Strengths
@@ -40,7 +40,7 @@ Latest release v0.2.0 (2026-07-02) on PyPI; the arXiv paper (2605.23904) is a pr
 - The guarantee is only as good as the automatic scorer: open-ended or subjective tasks weaken the gate, which the authors acknowledge.
 - Optimization is not free; training reached hundreds of millions of tokens on academic benchmarks, with community-quoted costs of a few dollars per task plus the engineering cost of a verifier and a representative held-out split.
 - Single-document scope: it trains one skill file, not a skill library.
-- All results are self-reported on the authors' benchmarks; no independent replication was found as of 2026-09-02.
+- All results are self-reported on the authors' benchmarks; no independent replication was found as of 2026-09-05.
 
 ## Pricing
 

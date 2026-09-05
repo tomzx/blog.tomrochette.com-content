@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Workshop is a free, MIT-licensed local debugger for AI agents from Raindrop that streams every token, tool call, and decision into a localhost web UI, and lets your coding agent read those traces, write evals against your codebase, and fix what fails.
-Facts below verified as of 2026-09-04.
+Facts below verified as of 2026-09-05.
 
 **Workshop's bet is that the eval writer should be the coding agent itself, inside the debug loop, and its weakest row is the one that decides enterprise adoption: nothing here touches CI.**
 

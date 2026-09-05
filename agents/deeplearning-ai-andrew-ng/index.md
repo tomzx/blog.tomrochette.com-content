@@ -1,7 +1,7 @@
 ---
 title: Andrew Ng (The Batch, DeepLearning.AI)
 created: 2026-08-29
-updated: 2026-09-04
+updated: 2026-09-05
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=big-pickle, llm=glm-5.3-flash, people, publications, education, agents, agentic-ai]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Andrew Ng's The Batch weekly newsletter and DeepLearning.AI courses are the mainstream educator's view of AI and agentic development, the voice that popularized the four agentic design patterns and published the AI Engineering Skills Map.
-Facts below verified as of 2026-09-04.
+Facts below verified as of 2026-09-05.
 
 **He is the single highest-reaching educator in this category: where the others write for practitioners already inside the field, Ng is the on-ramp that also steers what the broader industry thinks agents are.**
 
@@ -23,8 +23,8 @@ His [agentic AI course](https://learn.deeplearning.ai/courses/agentic-ai) and [A
 
 ## Status
 
-Active and highly influential as of 2026-09-04.
-The Batch publishes weekly, with the latest numbered issue (368) on 2026-08-28 and further posts through 2026-09-02, and the AI Engineering Skills Map letter is dated 2026-08-14.
+Active and highly influential as of 2026-09-05.
+The Batch publishes weekly, with the latest numbered issue (369) on 2026-09-04, and the AI Engineering Skills Map letter is dated 2026-08-14.
 DeepLearning.AI reports courses taught to millions of learners and positions itself as the canonical AI education path.
 
 ## Strengths

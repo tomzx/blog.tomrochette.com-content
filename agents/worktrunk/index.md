@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Worktrunk (`wt`) is a Rust CLI that makes git worktrees as easy as branches so you can run many coding agents in parallel, with lifecycle hooks, LLM commit messages, and a one-command merge pipeline.
-Facts below verified as of 2026-09-04.
+Facts below verified as of 2026-09-05.
 
 **Worktrunk wins by staying out of the way: no TUI to learn, no daemon to run, just worktrees addressed by branch name plus hooks that automate the boring 80 percent of the parallel-agent workflow.**
 

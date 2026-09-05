@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 This matrix compares the seven context tools profiled in this section, feature by feature, so the shortlisting step does not require reading seven notes.
-Everything below was re-verified against live sources on 2026-09-04, with the Greptile column removed on 2026-08-30 when the note moved to the Code review category.
+Everything below was re-verified against live sources on 2026-09-05, with the Greptile column removed on 2026-08-30 when the note moved to the Code review category.
 
 **The interesting question is not which engine is best but whether a repository needs one at all: most codebases sit below the only published payback threshold in the category, and I claim most buyers of these engines are paying for an index their own vendors' data cannot justify.**
 

@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Interconnects, the Substack of former AI2 post-training lead Nathan Lambert, is the inside-the-labs newsletter for the models and reasoning layer under agentic development, minus the hype.
-Facts below verified as of 2026-09-04.
+Facts below verified as of 2026-09-05.
 
 **He explains the research and the open-model ecosystem from someone who built it, which makes him the direct bridge between the frontier labs and the engineer choosing a model or an agent today.**
 

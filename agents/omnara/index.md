@@ -12,7 +12,7 @@ audience_notes: >
 ---
 
 Omnara (YC S25) is an open-source, model-agnostic control plane for managed agents: you define agents in YAML, it handles execution and state, and you drive them from a web dashboard, mobile apps, CLI, REST API, or Slack.
-Facts below verified as of 2026-09-04.
+Facts below verified as of 2026-09-05.
 
 **Omnara has quietly pivoted from "run Claude Code from your phone" into the open-source alternative to Claude Managed Agents, and that repositioning makes it infrastructure for serving agents, not just supervising them.**
 

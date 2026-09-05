@@ -1,7 +1,7 @@
 ---
 title: Zed
 created: 2026-08-23
-updated: 2026-09-03
+updated: 2026-09-05
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, surfaces, ai-editors, zed-industries]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Zed is the Rust-native editor from Zed Industries whose pitch is performance first, with an AI layer you can pay for, key in, or switch off entirely.
-Facts below verified as of 2026-09-04.
+Facts below verified as of 2026-09-05.
 
 **Zed is the performance ceiling of the editor category, and its free tier is the only one that is genuinely unlimited forever with your own keys or external agents, which matters more than any AI feature delta.**
 
@@ -24,7 +24,7 @@ The AI stack supports Zed-hosted models, BYOK across Anthropic, OpenAI, Google, 
 ## Status
 
 **Active and fast-moving.**
-About 89.6k GitHub stars as of 2026-09-03, with commits landing daily.
+About 89.8k GitHub stars as of 2026-09-05, with commits landing daily.
 The engineering runs deep enough to swap graphics libraries mid-flight (the blade-to-wgpu switch, February 2026) without abandoning the product.
 
 ## Strengths
@@ -68,7 +68,7 @@ Not for teams needing enterprise identity plumbing or a turnkey agentic platform
 ## References
 
 - https://zed.dev/pricing - tiers, edit prediction counts, list+10% hosting, SSO status, as of 2026-09-03
-- https://github.com/zed-industries/zed - repository scale and license, as of 2026-09-03
+- https://github.com/zed-industries/zed - repository scale and license, as of 2026-09-05
 - https://zed.dev/docs/ai/llm-providers - the BYOK provider list
 - https://news.ycombinator.com/item?id=40902826 - the 2024 auto-download consent thread
 - https://news.ycombinator.com/item?id=47002825 - the 2026 graphics-stack switch thread

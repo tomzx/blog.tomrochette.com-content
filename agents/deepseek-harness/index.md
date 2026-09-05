@@ -1,7 +1,7 @@
 ---
 title: DeepSeek Harness
 created: 2026-08-30
-updated: 2026-09-04
+updated: 2026-09-05
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, harnesses, coding-agents, plugins, open-source]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 DeepSeek Harness (`dsh`) is DeepSeek's open-source, MIT-licensed coding-agent harness built on an everything-is-a-plugin kernel where the model, tools, UI, and even the agent loop are hot-swappable plugins.
-Facts below verified as of 2026-09-04.
+Facts below verified as of 2026-09-05.
 
 **The bet is not another agent but a harness with nothing built in: if the plugin architecture holds, forking a harness to change it becomes obsolete.**
 Three weeks in, the bet is unproven and the project says so itself.
@@ -26,10 +26,10 @@ It is local-first and BYOK: API keys stay in a local credentials file, with prov
 
 ## Status
 
-New and extremely loud: 211,461 stars, 24,782 forks, and roughly 15,000 commits as of 2026-09-04, three weeks after the repo was created on 2026-08-13.
-No stable release exists, only alpha and rc prereleases (dsh-v0.1.2-rc.1 on 2026-09-03), and the README warns there will be compatibility-breaking changes.
+New and extremely loud: 212,537 stars, 24,950 forks, and roughly 15,200 commits as of 2026-09-05, just over three weeks after the repo was created on 2026-08-13.
+No stable release exists, only alpha and rc prereleases (latest: dsh-v0.1.3-alpha.1 on 2026-09-04), and the README warns there will be compatibility-breaking changes.
 The launch thread drew 747 points and 301 comments on Hacker News, with the author answering questions directly.
-An ecosystem is already forming: a Tauri desktop port with 1,640 stars, a plugin directory site, and an MCP plugin catalog.
+An ecosystem is already forming: a Tauri desktop port with 1,679 stars, a plugin directory site, and an MCP plugin catalog.
 **I read the star count as attention, not adoption, and the safest status label is developer preview.**
 
 ## Strengths

@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Pi is an MIT-licensed TypeScript agent toolkit from Earendil whose flagship is a minimal, self-extensible terminal coding agent that you adapt through extensions rather than configuring a closed product.
-Facts below verified as of 2026-09-04.
+Facts below verified as of 2026-09-05.
 
 **Pi's thesis is that a coding agent should be a small frozen core plus your code, and it is the only harness at this scale whose author treats missing features as policy rather than backlog.**
 
@@ -26,9 +26,9 @@ Made by Earendil Inc., created by Mario Zechner with Armin Ronacher as the secon
 
 ## Status
 
-Active and ascending: 101,159 stars (past the 100k mark), 12,574 forks, 173 open issues and PRs as of 2026-09-03.
-Created 2025-08-09, pushed September 2, 2026, releases roughly weekly (v0.84.4 on 2026-08-28).
-**The ecosystem is the strongest signal: OpenClaw runs on Pi, and oh-my-pi, a batteries-included fork with 29,152 stars, exists precisely because some users want the features Pi refuses to ship.**
+Active and ascending: 101,921 stars (past the 100k mark), 12,700 forks, 161 open issues and PRs as of 2026-09-05.
+Created 2025-08-09, pushed September 4, 2026, releases roughly weekly (v0.85.0 on 2026-09-04).
+**The ecosystem is the strongest signal: OpenClaw runs on Pi, and oh-my-pi, a batteries-included fork with about 29.6k stars as of 2026-09-05, exists precisely because some users want the features Pi refuses to ship.**
 
 ## Strengths
 
@@ -74,4 +74,4 @@ Not for teams wanting turnkey guardrails, MCP-centric stacks, or a stable API su
 - https://pi.dev - positioning, extension model, and the list of features deliberately not built
 - https://mariozechner.at/posts/2025-11-30-pi-coding-agent/ - the author's rationale for the minimal prompt and YOLO default
 - https://news.ycombinator.com/item?id=46844822 - the 421-point thread with pushback on the security posture
-- https://github.com/can1357/oh-my-pi - the 29k-star batteries-included fork, the counterargument in running code
+- https://github.com/can1357/oh-my-pi - the 29.6k-star batteries-included fork, the counterargument in running code

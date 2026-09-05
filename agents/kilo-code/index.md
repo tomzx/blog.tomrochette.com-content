@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Kilo Code is an open-source (MIT) agentic coding assistant for VS Code, JetBrains IDEs, and the terminal, born in early 2025 as a feature-merge fork of Cline and Roo Code and acquired by Anaconda on July 15, 2026.
-Facts below verified as of 2026-09-04.
+Facts below verified as of 2026-09-05.
 
 **Kilo Code is the live continuation of the Roo-and-Cline extension lineage now folded into an enterprise Python vendor's portfolio, and the open question after that acquisition is whether extension-first users keep first-class status.**
 
@@ -25,7 +25,7 @@ Any-model BYOK works alongside Kilo's own metered credits, with local models via
 ## Status
 
 **Active under new ownership.**
-The repository shows about 27.2k stars under MIT as of 2026-09-03 and was pushed the same day; component tags ship on their own clocks (the latest release is v7.5.9, published September 2, 2026).
+The repository shows about 27.2k stars under MIT as of 2026-09-05 and was pushed the same day; component tags ship on their own clocks (the latest release is v7.5.14, published September 4, 2026).
 Anaconda announced the acquisition on July 15, 2026 and already lists Kilo among its products; kilocode.ai redirects to kilo.ai, where the vendor positions it as an all-in-one agentic engineering platform.
 
 ## Strengths
@@ -69,7 +69,7 @@ Not for teams needing a stable multi-year vendor story right now, because owners
 
 ## References
 
-- https://github.com/Kilo-Org/kilocode - repository scale, license, description as of 2026-09-03
+- https://github.com/Kilo-Org/kilocode - repository scale, license, description as of 2026-09-05
 - https://kilo.ai/pricing - tiers, credit model, and the Anaconda acquisition banner
 - https://www.anaconda.com/blog/anaconda-acquires-kilo-code - the acquisition announcement primary source
 - https://news.ycombinator.com/item?id=43483802 - the launch-era community record (98 points)

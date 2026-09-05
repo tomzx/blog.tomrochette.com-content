@@ -12,7 +12,7 @@ audience_notes: >
 ---
 
 aider is AI pair programming in your terminal: a Python, Apache-2.0, bring-your-own-key tool by Paul Gauthier (Aider-AI) that predates the agentic coding wave.
-Facts below verified as of 2026-09-04.
+Facts below verified as of 2026-09-05.
 
 **aider's refusal to become an autonomous agent is a feature: it is the cheapest precise-edit tool in the field, and its stale public leaderboard is still more trustworthy than any vendor's own benchmark claims.**
 
@@ -26,7 +26,7 @@ It connects to nearly any LLM, including local models.
 ## Status
 
 **Development stalled; the tool itself still works.**
-About 48.7k stars and 4.9k forks as of 2026-09-02, but the default branch has had no commits since May 22, 2026, and the last tagged release (v0.86.0) dates to August 2025.
+About 48.7k stars and 4.9k forks as of 2026-09-05, but the default branch has had no commits since May 22, 2026, and the last tagged release (v0.86.0) dates to August 2025.
 The polyglot leaderboard (225 Exercism exercises) is still published, but its headline results date to August 2025, and the site's "works best with" copy still names Claude 3.7 Sonnet-era models.
 
 ## Strengths
@@ -42,7 +42,7 @@ The polyglot leaderboard (225 Exercism exercises) is still published, but its he
 - The leaderboard's age now matters; use it for relative history, not current model choice.
 - Install it isolated (pipx or the installer) or its Python dependencies will fight your project's.
 - Community energy has moved to the harness generation; expect fewer of the workflow innovations to arrive here first.
-- **Maintenance is the risk now**: no commits on the default branch since May 22, 2026, and no tagged release since v0.86.0 (August 2025), as of 2026-09-02, so budget for dependency drift and no fixes.
+- **Maintenance is the risk now**: no commits on the default branch since May 22, 2026, and no tagged release since v0.86.0 (August 2025), as of 2026-09-05, so budget for dependency drift and no fixes.
 
 ## Pricing
 
@@ -71,7 +71,7 @@ Not for long autonomous tasks, hands-off refactors, or teams that need an active
 ## References
 
 - https://aider.chat/ - features, install stats, model recommendations
-- https://github.com/Aider-AI/aider - repository scale and license, as of 2026-09-02
+- https://github.com/Aider-AI/aider - repository scale and license, as of 2026-09-05
 - https://aider.chat/docs/leaderboards/ - the polyglot benchmark, results dated August 2025
 - https://news.ycombinator.com/item?id=39995725 - launch-era discussion of strengths and failure modes
 - https://news.ycombinator.com/item?id=43672712 - critical thread on aider's wasted inference spend against agentic rivals

@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Outlines is an Apache-2.0 Python library that guarantees LLM outputs follow a type, JSON Schema, regex, or context-free grammar by masking logits during generation instead of validating afterward.
-Facts below verified as of 2026-09-04.
+Facts below verified as of 2026-09-05.
 
 **It proved constrained decoding could be practical (the finite-state-machine-over-vocabulary idea dates to its 2023 paper), but the serving-engine fast lane has since been taken by XGrammar and llguidance, leaving Outlines the role of portable front-end and abstraction layer.**
 

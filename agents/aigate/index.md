@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 aigate is a free, MIT-licensed Go CLI that wraps any AI coding agent in an OS-level sandbox with kernel-enforced file restrictions, command blocking, and network egress allowlists, plus stdout secret masking and a local audit log.
-Facts below verified as of 2026-09-04.
+Facts below verified as of 2026-09-05.
 
 **aigate earns its note despite fourteen stars because the mechanism is real and documented, and the fourteen stars are themselves the finding: a kernel-enforced sandbox with no security process is where bypass bugs would go unreported, so treat it as a reference design, not a boundary.**
 
@@ -25,7 +25,7 @@ MIT, by a small anonymous GitHub organization.
 
 ## Status
 
-Tiny and quiet, and the numbers are the story: 14 stars, 1 fork, 0 issues as of 2026-09-02, created 2026-02-12, 20 commits total, 2 apparently related contributors.
+Tiny and quiet, and the numbers are the story: 14 stars, 1 fork, 0 issues as of 2026-09-05, created 2026-02-12, 20 commits total, 2 apparently related contributors.
 v1.0.0 released 2026-07-19 with a few commits since.
 **A missing community footprint is itself a signal worth stating: no audits, no advisories, no external users visible, and no SECURITY.md.**
 

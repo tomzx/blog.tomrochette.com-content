@@ -12,7 +12,7 @@ audience_notes: >
 ---
 
 Augment Code is an AI coding platform whose core is the Context Engine, a real-time semantic index of the codebase that feeds its Auggie CLI agent and the Cosmos agent orchestration platform.
-Facts below verified as of 2026-09-04.
+Facts below verified as of 2026-09-05.
 
 **Augment makes the strongest documented claim in the context-engine space, that retrieval quality cuts agent token spend by a third at matched quality, and every number behind it is vendor-run, so buyer-side replication is the actual missing feature.**
 
@@ -29,7 +29,7 @@ Everything is closed-source SaaS with SOC 2 Type II, ISO 42001, zero data retent
 **Active and shipping fast, with a trust deficit from the 2025 pricing reset.**
 Blog cadence runs multiple posts per month through August 28, 2026 (Cosmos launch, GPT-5.6 Sol as default in July, the Auggie harness rebuild, further PR-to-merge loop optimization).
 The October 20, 2025 pricing change triggered a community revolt; the company's own Reddit response admitted 22.5% of users were consuming 20x what they paid, and the HN thread documents broken grandfathering promises.
-There is no free tier as of 2026-09-02.
+There is no free tier as of 2026-09-05.
 I could not verify funding history from primary sources in this run (the company pages do not state it and Wikipedia has no article), which is itself a signal: the public record for this company is mostly its own marketing.
 
 ## Strengths

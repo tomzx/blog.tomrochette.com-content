@@ -12,7 +12,7 @@ audience_notes: >
 ---
 
 Instructor is an MIT-licensed Python library (with TypeScript, Go, Ruby, Elixir, and Rust ports) that returns Pydantic objects from LLM calls and re-asks the model when validation fails.
-Facts below verified as of 2026-09-04.
+Facts below verified as of 2026-09-05.
 
 **Its core loop, validate-then-reask with the error fed back to the model, remains the portable way to enforce rules no vendor schema constraint can express, even after native structured outputs absorbed the baseline JSON-validity problem.**
 

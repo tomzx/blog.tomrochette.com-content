@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 ArtifactFS is Cloudflare's Go-based FUSE filesystem driver that mounts large git repositories as a normal working tree within seconds by starting from a blobless clone and hydrating file contents on demand, pitched as git clone but async, aimed at agents, sandboxes, and containers where startup time is the bottleneck.
-Facts below verified as of 2026-09-04.
+Facts below verified as of 2026-09-05.
 
 **ArtifactFS does not isolate anything, and that is why it sits in this category: sandboxes die on the two-minute clone before isolation ever matters, and this is the provisioning layer that fixes the startup half of that problem.**
 
@@ -25,7 +25,7 @@ Apache-2.0, Go 1.26+, source build only, no packaged releases.
 
 ## Status
 
-Early beta: 1,129 stars, 48 forks, 2 open issues as of 2026-09-02, created 2026-03-29, last push 2026-08-12.
+Early beta: 1,131 stars, 48 forks, 4 open issues as of 2026-09-05, created 2026-03-29, last push 2026-08-12.
 Tags run `1.0.0-rc.1` through `rc.10` with no GitHub Releases; 57 commits concentrated in two Cloudflare engineers, and the repo ships its own AGENTS.md.
 **The launch drew a 217-point Hacker News thread, but "Used by" is empty and the parent Artifacts service is still in closed beta.**
 

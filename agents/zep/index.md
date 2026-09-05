@@ -1,7 +1,7 @@
 ---
 title: Zep
 created: 2026-08-24
-updated: 2026-08-30
+updated: 2026-09-05
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, agent-memory, knowledge-graphs]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Zep is an enterprise agent-memory service built on temporal knowledge graphs: facts carry validity windows, contradictions invalidate old facts instead of overwriting them, and everything traces back to source episodes.
-Facts below verified as of 2026-09-04.
+Facts below verified as of 2026-09-05.
 
 **Zep is the only major memory vendor whose core claim is handling change over time, and the market is slowly conceding the point as rivals bolt on entity links and temporal retrieval.**
 
@@ -25,7 +25,7 @@ A Memory MCP Server and plugins for Claude Code, Codex, and Cursor push Zep memo
 ## Status
 
 **Active, enterprise-focused, post-open-core.**
-Graphiti shows about 30.5k stars and 962 commits as of 2026-09-02; its Show HN drew 142 points.
+Graphiti shows about 30.6k stars and 965 commits as of 2026-09-05; its Show HN drew 142 points.
 Zep Community Edition, the self-hostable open-core server, was discontinued in April 2025, with the company saying the two-product split starved the OSS side.
 The site lists Samsung, Zscaler, Quorum, and HoneyBook among customers, and an S&P Global Market Intelligence report (April 2026) covers its temporal context graph.
 I found no announced venture funding, which is itself a signal: it is bootstrapped or undisclosed, unusual among memory startups.
@@ -47,7 +47,7 @@ I found no announced venture funding, which is itself a signal: it is bootstrapp
 ## Pricing
 
 Free: 10,000 credits per month, no rollover.
-Flex $104/month billed annually ($125 monthly) with 50,000 credits; Flex Plus $312/month annually ($375 monthly) with 200,000; Enterprise custom, as of 2026-09-02.
+Flex $104/month billed annually ($125 monthly) with 50,000 credits; Flex Plus $312/month annually ($375 monthly) with 200,000; Enterprise custom, as of 2026-09-05.
 A credit covers one episode up to 350 bytes; retrieval, storage, and users are unmetered.
 
 ## Compared to
@@ -71,9 +71,9 @@ Not for solo builders or small budgets, and my disagreeable claim is that Mem0's
 ## References
 
 - https://www.getzep.com/ - product claims, retrieval latency, customer list, deployment models
-- https://github.com/getzep/graphiti - engine architecture, stars and commits as of 2026-09-02, self-host requirements
+- https://github.com/getzep/graphiti - engine architecture, stars and commits as of 2026-09-05, self-host requirements
 - https://github.com/getzep/zep - Community Edition deprecation and current repo role
 - https://arxiv.org/abs/2501.13956 - the Zep paper (temporal knowledge graph for agent memory)
-- https://www.getzep.com/pricing - plans and credit metering as of 2026-09-02
+- https://www.getzep.com/pricing - plans and credit metering as of 2026-09-05
 - https://blog.getzep.com/announcing-a-new-direction-for-zeps-open-source-strategy/ - the open-core retreat, April 2025
 - https://blog.getzep.com/lies-damn-lies-statistics-is-mem0-really-sota-in-agent-memory/ - the benchmark rebuttal, with its own correction

@@ -1,7 +1,7 @@
 ---
 title: Gemini CLI
 created: 2026-08-22
-updated: 2026-08-30
+updated: 2026-09-05
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, coding-agents, harnesses, google, developer-tools]
 readability: 3
@@ -12,7 +12,7 @@ audience_notes: >
 ---
 
 Gemini CLI is Google's open-source terminal agent for Gemini, Apache-2.0, launched June 25, 2025, and superseded for individual users by Antigravity CLI on June 18, 2026.
-Facts below verified as of 2026-09-04.
+Facts below verified as of 2026-09-05.
 
 **Every 2025 recommendation of Gemini CLI as the free terminal agent is dead advice for individuals: Google stopped serving free and AI Pro/Ultra users on June 18, 2026, and moved the product to Antigravity.**
 
@@ -26,7 +26,7 @@ It authenticated three ways: **Google OAuth (the famous free tier of 60 requests
 **Superseded for consumers, alive for enterprises.**
 On May 19, 2026, Google announced it was unifying terminal agent work into Google Antigravity, whose Antigravity CLI (written in Go, multi-agent, sharing a harness with the Antigravity 2.0 desktop app) carries over skills, hooks, subagents, and extensions.
 On June 18, 2026, Gemini CLI and the Gemini Code Assist IDE extensions stopped serving requests for Google AI Pro and Ultra subscribers and free individual users.
-Enterprise Code Assist Standard/Enterprise licenses and paid API keys keep working, and the repository is still active: about 106.8k stars, 6,392 commits, nightly and preview release channels as of 2026-09-02.
+Enterprise Code Assist Standard/Enterprise licenses and paid API keys keep working, and the repository is still active: about 106.8k stars, 6,402 commits, nightly and preview release channels as of 2026-09-05.
 The README still advertises the free tier, which is stale for individuals; treat the README as the enterprise path's documentation.
 
 ## Strengths
@@ -68,7 +68,7 @@ Not for individuals, whatever the 2025 blog posts (several of which I believed a
 
 ## References
 
-- https://github.com/google-gemini/gemini-cli - repository, README free-tier claims, release channels, as of 2026-09-02
+- https://github.com/google-gemini/gemini-cli - repository, README free-tier claims, release channels, as of 2026-09-05
 - https://developers.googleblog.com/an-important-update-transitioning-gemini-cli-to-antigravity-cli/ - the May 19, 2026 transition and June 18, 2026 consumer cutoff
 - https://blog.google/technology/developers/introducing-gemini-cli-open-source-ai-agent/ - the June 25, 2025 launch announcement
 - https://developers.google.com/gemini-code-assist/docs/gemini-cli - current enterprise documentation and quota model

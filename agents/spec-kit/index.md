@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Spec Kit is GitHub's open-source toolkit for spec-driven development: a CLI that scaffolds constitution, spec, plan, and tasks files, then drives any of 30+ coding agents through implementing them.
-Facts below verified as of 2026-09-04.
+Facts below verified as of 2026-09-05.
 
 **Spec Kit hit 132k stars in one year by selling process, not product: it is markdown conventions plus a scaffolding CLI, and its popularity is the strongest signal yet that the industry wants review gates on agents more than it wants more agent autonomy.**
 
@@ -24,7 +24,7 @@ Extensions, presets, and role-based bundles let an organization customize the pr
 ## Status
 
 **Active, and it just declared adulthood.**
-First commit August 21, 2025; v1.0.0 and v1.0.1 both shipped August 21, 2026, and patch releases v1.0.2, v1.0.3, and v1.0.4 followed on August 31, September 1, and September 2, with 133,382 stars and about 12k forks as of 2026-09-04.
+First commit August 21, 2025; v1.0.0 and v1.0.1 both shipped August 21, 2026, and patch releases v1.0.2, v1.0.3, and v1.0.4 followed on August 31, September 1, and September 2, with v1.0.4 still the newest release and 133,530 stars and about 12k forks as of 2026-09-05.
 The lead maintainer's anniversary post says the original creators have moved on to other projects and frames 1.0.0 as "just a number", arguing that as agents cheapen adaptation, value moves from stability to adaptability.
 
 ## Strengths
@@ -66,7 +66,7 @@ Not for solo work where the ceremony exceeds the blast radius of a bad change.
 
 ## References
 
-- https://github.com/github/spec-kit - source, MIT, workflow steps, integrations count, as of 2026-09-02
+- https://github.com/github/spec-kit - source, MIT, workflow steps, integrations count, as of 2026-09-05
 - https://github.github.io/spec-kit/ - official docs, integrations reference, extensions and presets
 - https://github.blog/ai-and-ml/generative-ai/spec-driven-development-with-ai-get-started-with-a-new-open-source-toolkit/ - the GitHub launch post
 - https://www.manorrock.com/blog/2026/08/21/spec_kit_turns_one.html - the lead maintainer's first-year and 1.0.0 post

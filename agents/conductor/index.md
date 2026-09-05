@@ -1,7 +1,7 @@
 ---
 title: Conductor
 created: 2026-08-24
-updated: 2026-09-03
+updated: 2026-09-05
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, orchestration, git-worktrees, macos]
 readability: 3
@@ -12,7 +12,7 @@ audience_notes: >
 ---
 
 Conductor is a macOS app for running parallel coding-agent sessions (Claude Code, Codex, Cursor, OpenCode), each isolated in its own git worktree, with built-in diff review, checks, and PR flow.
-Facts below verified as of 2026-09-04.
+Facts below verified as of 2026-09-05.
 
 **It is the best-funded and most polished of the Mac worktree dashboards, and its friction-removing defaults, chiefly granting agents all permissions, are precisely the thing you must not forget.**
 
@@ -27,7 +27,7 @@ Conductor Cloud (July 2026) runs agents in Vercel sandboxes (8-core, 16GB, us-ea
 
 Active, fast, and well capitalized.
 A $22M Series A from Spark and Matrix closed on 2026-03-30, with YC and founders of Notion and Linear participating; the company claims 10x user growth since January 2026 and engineers at Google, Meta, Amazon, and others using it.
-Release cadence is extreme: 0.84.0 was the latest by 2026-09-03, with dozens of releases since January 2026.
+Release cadence is extreme: 0.84.2 was the latest as of 2026-09-05, with dozens of releases since January 2026.
 The team behind cmd joined in April 2026.
 
 ## Strengths
@@ -48,7 +48,7 @@ The team behind cmd joined in April 2026.
 
 Free for local, unlimited parallel agents with your own keys and subscriptions.
 Pro at $50/month adds cloud workspace hours, multiplayer, and the API; Teams at $60/user/month adds admin and billing; Enterprise is custom.
-Usage-based pricing for cloud compute is planned but not charged yet as of 2026-09-03.
+Usage-based pricing for cloud compute is planned but not charged yet as of 2026-09-05.
 
 ## Compared to
 
@@ -76,6 +76,6 @@ My disagreeable claim: Conductor Cloud, not the local worktree manager, is the r
 - https://conductor.build/docs - workspace, workflow, and parallel-agent model
 - https://conductor.build/pricing/ - tiers, cloud sandbox specs, local vs cloud privacy terms
 - https://conductor.build/blog/series-a - $22M Series A and growth claims
-- https://conductor.build/changelog - release cadence through 0.84.0
+- https://conductor.build/changelog - release cadence through 0.84.2
 - https://news.ycombinator.com/item?id=44594584 - launch thread including OAuth and sandbox discussion
 - https://news.ycombinator.com/item?id=47256614 - the sandbox-escape report under Conductor defaults

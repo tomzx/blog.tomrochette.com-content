@@ -1,7 +1,7 @@
 ---
 title: qmd
 created: 2026-08-30
-updated: 2026-09-02
+updated: 2026-09-05
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, context-engines, retrieval, local-search, open-source]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 qmd is a local-first CLI search engine by Tobias Lütke that indexes your markdown notes, docs, and knowledge bases and searches them with a hybrid BM25 plus vector plus LLM-reranked pipeline, designed for humans and agents alike.
-Facts below verified as of 2026-09-04.
+Facts below verified as of 2026-09-05.
 
 **qmd is the argument that a single maintainer can ship production-grade local retrieval in one binary-plus-SQLite, and that most agent RAG does not need a framework, a server, or a cloud.**
 
@@ -25,7 +25,7 @@ MIT, by Tobias Lütke (Shopify CEO), who authored about three quarters of the co
 
 ## Status
 
-Young with unusual traction: 29,441 stars, 1,839 forks, 131 open issues and PRs as of 2026-09-02, created 2025-12-08.
+Young with unusual traction: 29,525 stars, 1,839 forks, 134 open issues and PRs as of 2026-09-05, created 2025-12-08.
 Latest release v2.8.3 on 2026-08-16, pushed 2026-08-18.
 **The maintainer concentration is the story: one high-profile author shipping v1 through v2.8 in nine months, with community PRs around the edge.**
 

@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Hamel Husain is the independent consultant and writer who turned AI evaluation, "evals", from an afterthought into the disciplined practice teams use to decide whether their agent works.
-Facts below verified as of 2026-09-04.
+Facts below verified as of 2026-09-05.
 
 **His core argument is that most AI teams focus on architecture when what decides success is measurement and iteration: the teams that win "obsess over measurement and iteration" rather than the vector database or framework.**
 

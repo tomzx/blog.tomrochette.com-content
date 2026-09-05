@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Cursor is the AI-native editor by Anysphere: a VS Code fork grown into a platform with a CLI, cloud agents, and its own models, and since August 14, 2026 a part of SpaceX.
-Facts below verified as of 2026-09-04.
+Facts below verified as of 2026-09-05.
 
 **Cursor stopped being an editor company in 2026: it is now a compute-distribution play, and a team that standardizes on it is buying SpaceX's GPU fleet with an IDE attached.**
 
