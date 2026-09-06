@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 This matrix compares the four retrieval entries profiled in this section, two frameworks and two patterns, feature by feature, so the shortlisting step does not require reading four notes.
-Everything below was re-verified against live sources on 2026-09-05.
+Everything below was re-verified against live sources on 2026-09-06.
 
 **Both frameworks are pivoting away from retrieval as their business, both patterns are being demoted by the tools that ship them, and I read that as evidence that the agent loop, not the index, is now the retrieval layer, a claim the enterprise platform bets are still arguing.**
 

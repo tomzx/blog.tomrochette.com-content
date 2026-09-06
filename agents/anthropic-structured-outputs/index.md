@@ -1,8 +1,9 @@
 ---
 title: Anthropic structured outputs
 created: 2026-08-24
+updated: 2026-09-06
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, structured-outputs, anthropic, tool-calling]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, structured-outputs, anthropic, tool-calling]
 readability: 3
 audience_notes: >
   Engineers building extraction or agent tooling on Claude models through the Messages API.
@@ -11,7 +12,7 @@ audience_notes: >
 ---
 
 Anthropic structured outputs is the Claude API feature that constrains responses and tool inputs to a JSON Schema via grammar-constrained decoding, split into JSON outputs (`output_config.format`) and strict tool use (`strict: true` on tools).
-Facts below verified as of 2026-09-05.
+Facts below verified as of 2026-09-06.
 
 **Anthropic arrived more than a year after OpenAI (public beta November 2025, GA February 2026), and the gap still shows in the schema subset and complexity limits, but strict tool use targets the failure that hurts agents most: malformed tool arguments mid-loop.**
 
@@ -26,14 +27,14 @@ Before the native feature, the documented workaround was forcing a tool via `too
 
 **Active, GA since February 4, 2026.**
 The beta (header `structured-outputs-2025-11-13`) launched November 14, 2025 on Sonnet 4.5 and Opus 4.1, Haiku 4.5 followed on December 4, 2025, and GA brought Sonnet 4.5, Opus 4.5, and Haiku 4.5 to the platform and Bedrock with support for more complex schemas.
-Current docs list the feature across the opus-5, sonnet-5, mythos-5, and fable-5 families plus their 4.5-generation predecessors, with Microsoft Foundry limited to Anthropic-hosted deployments.
+Current docs list the feature across the fable-5, mythos-5, opus-5, and sonnet-5 families (now including 5.1 variants) plus their 4.5- and 4.6-generation predecessors, on the Claude API, Amazon Bedrock, Google Cloud, and Microsoft Foundry, and the earlier note limiting Foundry to Anthropic-hosted deployments is gone from the docs.
 Independent tooling tracked it immediately: Simon Willison's llm-anthropic plugin added support within a day of the beta and kept the tool-call workaround for older models.
 
 ## Strengths
 
 - **Strict tool use guarantees type-correct function arguments every call**, removing the validate-and-retry machinery from the agent loop.
 - Compiled grammars are cached server-side for 24 hours from last use, so repeated schemas skip first-request latency.
-- The Python, TypeScript, Ruby, and PHP SDKs transform schemas that exceed the supported subset (dropping `minimum`, moving constraints into field descriptions) while still validating the full rule set client-side.
+- The Python, TypeScript, Ruby, and PHP SDKs transform schemas that exceed the supported subset (dropping `minimum`, moving constraints into field descriptions), the Java, C#, and Go SDKs derive or accept schemas natively, and all of them still validate the full rule set client-side.
 - Batch processing takes 50% off, same as the rest of the Batch API.
 
 ## Cautions

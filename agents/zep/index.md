@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Zep is an enterprise agent-memory service built on temporal knowledge graphs: facts carry validity windows, contradictions invalidate old facts instead of overwriting them, and everything traces back to source episodes.
-Facts below verified as of 2026-09-05.
+Facts below verified as of 2026-09-06.
 
 **Zep is the only major memory vendor whose core claim is handling change over time, and the market is slowly conceding the point as rivals bolt on entity links and temporal retrieval.**
 
@@ -25,7 +25,7 @@ A Memory MCP Server and plugins for Claude Code, Codex, and Cursor push Zep memo
 ## Status
 
 **Active, enterprise-focused, post-open-core.**
-Graphiti shows about 30.6k stars and 965 commits as of 2026-09-05; its Show HN drew 142 points.
+Graphiti shows about 30.6k stars and 965 commits as of 2026-09-06; its Show HN drew 142 points.
 Zep Community Edition, the self-hostable open-core server, was discontinued in April 2025, with the company saying the two-product split starved the OSS side.
 The site lists Samsung, Zscaler, Quorum, and HoneyBook among customers, and an S&P Global Market Intelligence report (April 2026) covers its temporal context graph.
 I found no announced venture funding, which is itself a signal: it is bootstrapped or undisclosed, unusual among memory startups.
@@ -71,7 +71,7 @@ Not for solo builders or small budgets, and my disagreeable claim is that Mem0's
 ## References
 
 - https://www.getzep.com/ - product claims, retrieval latency, customer list, deployment models
-- https://github.com/getzep/graphiti - engine architecture, stars and commits as of 2026-09-05, self-host requirements
+- https://github.com/getzep/graphiti - engine architecture, stars and commits as of 2026-09-06, self-host requirements
 - https://github.com/getzep/zep - Community Edition deprecation and current repo role
 - https://arxiv.org/abs/2501.13956 - the Zep paper (temporal knowledge graph for agent memory)
 - https://www.getzep.com/pricing - plans and credit metering as of 2026-09-05

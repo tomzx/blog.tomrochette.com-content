@@ -1,7 +1,7 @@
 ---
 title: BMad Method
 created: 2026-08-27
-updated: 2026-09-05
+updated: 2026-09-06
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, spec-driven-development, agile, multi-agent, open-source]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 BMad Method (bmad-code-org) is the open-source Breakthrough Method for Agile AI-Driven Development: an installable method plus agent workflows (`npx bmad-method install`) that turn an idea or change request into working software through an explicit clarify, plan, build, learn loop, with the ceremony sized to the change.
-Facts below verified as of 2026-09-05.
+Facts below verified as of 2026-09-06.
 
 **BMad is the anti-waterfall wing of the spec movement: it sends small changes straight to build and reserves deep planning for big ones, which is the direct answer to the 225-point waterfall-strikes-back critique that static spec workflows still wear.**
 
@@ -25,8 +25,8 @@ The ecosystem is modular: BMad Builder, a Creative Intelligence Suite, an enterp
 ## Status
 
 Large, active, and quietly adopted.
-As of 2026-09-05: 52,685 stars and 5,981 forks since creation on 2025-04-13, 39 open issues and pull requests, pushed 2026-09-04 with release v6.12.0 published the same day.
-The derivative community is real (third-party skill packs and hybrids like boss-skill at 552 stars and bmalph at 405), but its HN threads run 2 to 4 points, so the method spread through the ecosystem rather than the front page.
+As of 2026-09-06: 52,715 stars and 5,980 forks since creation on 2025-04-13, 29 open issues and pull requests, pushed 2026-09-06, with release v6.12.0 (published 2026-09-04) still the newest.
+The derivative community is real (third-party skill packs and hybrids like boss-skill at 553 stars and bmalph at 406), but its HN threads run 2 to 4 points, so the method spread through the ecosystem rather than the front page.
 
 ## Strengths
 

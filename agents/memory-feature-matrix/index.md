@@ -1,7 +1,7 @@
 ---
 title: "Memory Feature Matrix"
 created: 2026-08-24
-updated: 2026-09-04
+updated: 2026-09-06
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, comparison, memory, agent-memory, ai-agents]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 This matrix compares the seven memory approaches profiled in this section, feature by feature: the file convention, the session-compression plugin, the memory-first harness, the two memory APIs, the self-hostable graph pipeline, and the portable memory format.
-Everything below was re-verified against live sources on 2026-09-05, with the Cognee column first verified 2026-08-26 and the Memoryfields column first verified 2026-09-04.
+Everything below was re-verified against live sources on 2026-09-06, with the Cognee column first verified 2026-08-26 and the Memoryfields column first verified 2026-09-04.
 
 **For coding agents I would start with plain files and not buy any service on benchmark claims, because the only memory problem files cannot solve at any price is contradiction over time, and Zep is the only vendor whose architecture faces it head on.**
 
@@ -26,7 +26,7 @@ Each column links to the full research note; every cell below traces to a source
 | Memory model | compressed observations, SQLite FTS5 plus optional vectors | graph plus vector plus relational | plain markdown files | editable memory blocks, learned | vector plus graph plus KV | flat markdown pages plus optional SQLite vector index | temporal knowledge graph |
 | Self-host | ✓ fully local by default | ✓ full engine, BYO backends | ✓ no infra needed | ~ V1 server archived | ✓ OSS SDK and server | ✓ fully local, it is just files | ~ Graphiti engine only |
 | Open source license | ✓ Apache-2.0 | ✓ Apache-2.0, whole engine | ~ memU Apache-2.0 | ✓ Apache-2.0 | ✓ Apache-2.0 | ✓ AGPL-3.0 tool, MIT skill and spec | ~ Graphiti Apache-2.0 |
-| Contradiction and decay handling | ~ summaries and compaction | ? | ✗ manual pruning | ~ sleep-time consolidation | ~ Dream, temporal retrieval | ✗ nothing beyond page edits | ✓ bi-temporal invalidation |
+| Contradiction and decay handling | ~ summaries and compaction | ~ bi-temporal memory on Enterprise BYOC only | ✗ manual pruning | ~ sleep-time consolidation | ~ Dream, temporal retrieval | ✗ nothing beyond page edits | ✓ bi-temporal invalidation |
 | Cross-user, cross-app memory | ✗ machine-local, cloud sync optional | ✓ documented multi-user mode | ✗ machine-local, per-repo | ~ agent-scoped persistence | ✓ apps and thousands of users | ~ corpus is transport-portable (S3, git, HTTP), single-corpus | ✓ millions of per-user graphs |
 | Integration surface | hooks, MCP, skills, 8+ agents | Python/TS/Rust SDKs, MCP, HTTP, CLI | file conventions, native everywhere | SDK, CLI, cloud API | API, MCP, CLI, skills | skill, CLI, any file transport | API, MCP, plugins |
 | Audit trail | ~ queryable observation store | ? | ~ git diffs only | ~ inspectable blocks | ? | ~ readable pages, sha256-pinnable, no provenance | ✓ fact-to-episode provenance |
@@ -62,7 +62,7 @@ Mem0's $19 Starter undercuts everyone; Zep's credit metering prices the audit tr
 - Must self-host everything: Cognee (the whole engine runs on your backends), files, or Mem0 OSS, or Graphiti plus your own graph database if you can operate one.
 - Memory across many users with flat billing instead of seats or credits: Cognee Cloud at $2.50 per 1M tokens processed.
 - Solo builder on no budget: files, full stop; Zep's own note says the graph stack is heavy at small scale.
-- Memory that must follow you across machines and apps without a vendor: Memoryfields, with the caveat that the spec is a week-old draft and its contradiction-handling row is empty.
+- Memory that must follow you across machines and apps without a vendor: Memoryfields, with the caveat that the spec is a two-week-old draft and its contradiction-handling row is empty.
 
 ## See also
 
@@ -83,7 +83,7 @@ Mem0's $19 Starter undercuts everyone; Zep's credit metering prices the audit tr
 - https://www.getzep.com/pricing - Zep plans and credit metering for the pricing row
 - https://github.com/getzep/graphiti - the temporal graph engine, self-host requirements for the Zep column
 - https://github.com/topoteretes/cognee - the Cognee column: whole-engine Apache-2.0, backends, multi-user docs
-- https://www.cognee.ai/pricing - Cognee cloud per-token rate and workspace fee, as of 2026-08-30
+- https://www.cognee.ai/pricing - Cognee cloud per-token rate, workspace fee, and the Enterprise bi-temporal memory listing, as of 2026-09-06
 - https://github.com/thedotmack/claude-mem - the claude-mem column: hook architecture, SQLite storage, license, adoption
 - https://docs.claude-mem.ai/architecture/overview - the compression flow and integration surfaces for the claude-mem column
 - https://claude-mem.ai - claude-mem pricing tiers for the pricing row

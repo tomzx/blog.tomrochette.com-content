@@ -1,7 +1,7 @@
 ---
 title: Letta
 created: 2026-08-24
-updated: 2026-09-05
+updated: 2026-09-06
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, agent-memory, agent-frameworks]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Letta is the company and platform built by the MemGPT creators: a memory-first coding agent (Letta Code), a cloud/API tier, and a research program on agents that learn.
-Facts below verified as of 2026-09-05.
+Facts below verified as of 2026-09-06.
 
 **Letta has the deepest research lineage in agent memory and the least settled product strategy, and I think the pattern it popularized will outlive its current packaging.**
 
@@ -26,7 +26,7 @@ Surfaces now include the CLI, desktop app, chat.letta.com, messaging channels, a
 
 **Active, research-first, mid-pivot.**
 The `letta-ai/letta` repository (24.6k stars as of 2026-09-02) is now a landing page; the retired V1 API server lives on an unsupported archive branch with no security fixes, which strands self-hosters.
-Real development moved to `letta-ai/letta-code` (3.2k stars, 3,330 commits).
+Real development moved to `letta-ai/letta-code` (3.2k stars, 3,332 commits as of 2026-09-06).
 The company raised a $10M seed led by Felicis at a $70M post-money valuation in September 2024.
 Letta Code launched December 2025 claiming the #1 model-agnostic OSS harness on TerminalBench; its HN thread drew 83 points and 37 comments, respect, not adoption-scale buzz.
 

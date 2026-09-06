@@ -12,7 +12,7 @@ audience_notes: >
 ---
 
 Augment Code is an AI coding platform whose core is the Context Engine, a real-time semantic index of the codebase that feeds its Auggie CLI agent and the Cosmos agent orchestration platform.
-Facts below verified as of 2026-09-05.
+Facts below verified as of 2026-09-06.
 
 **Augment makes the strongest documented claim in the context-engine space, that retrieval quality cuts agent token spend by a third at matched quality, and every number behind it is vendor-run, so buyer-side replication is the actual missing feature.**
 

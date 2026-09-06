@@ -1,7 +1,7 @@
 ---
 title: "Hybrid Execution Feature Matrix"
 created: 2026-08-24
-updated: 2026-09-02
+updated: 2026-09-06
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, comparison, hybrid-execution, structured-outputs, constrained-decoding]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 This matrix compares the four hybrid-execution notes profiled in this section, feature by feature: two vendor API features that constrain decoding and two libraries that validate or mask their way to typed output.
-Everything below was verified against live sources on 2026-09-05.
+Everything below was verified against live sources on 2026-09-06.
 
 **These four are less competitors than two mechanisms wearing four badges, and the decision that matters is whether the schema is enforced while tokens are sampled or checked after the fact: I would take decoding-time enforcement everywhere it exists, which leaves the libraries the portability and business-rules work, and makes most single-provider Instructor deployments written after 2025 incidental complexity.**
 
@@ -24,7 +24,7 @@ Each column links to the full research note; every cell below traces to a source
 | --- | --- | --- | --- | --- |
 | Kind | API feature | Python library | API feature | Python library |
 | Guarantee mechanism | grammar-constrained decoding | validate plus reask | token masking at decode | logit masking |
-| API surface | REST, 4 SDKs | Python, 5 ports | REST, SDK parse helpers | Python |
+| API surface | REST, 7+ SDKs | Python, 5 ports | REST, SDK parse helpers | Python |
 | Open source | ✗ | ✓ MIT | ✗ | ✓ Apache-2.0 |
 | Provider breadth | ✗ Claude models only | ✓ 15+ providers | ✗ OpenAI only | ✓ local engines plus hosted APIs |
 | Local models | ✗ | ✓ via Ollama and vLLM | ✗ | ✓ core use case |

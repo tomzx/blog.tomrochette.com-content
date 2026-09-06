@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Memoryfields is a portable file format for agent memory: a zip of flat Markdown pages with optional YAML frontmatter and an optional SQLite vector index, specified by Cal Paterson in August 2026.
-Facts below verified as of 2026-09-05.
+Facts below verified as of 2026-09-06.
 
 **Its thesis is that memory should be data, not a process, and the format is the argument, not the tooling.**
 

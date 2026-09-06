@@ -1,7 +1,7 @@
 ---
 title: "Model Selection for Coding Tasks"
 created: 2026-08-24
-updated: 2026-09-05
+updated: 2026-09-06
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, model-selection, coding-agents, llm-pricing]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 This is a maintained, opinionated guide to choosing models for coding, review, and agentic work.
-Everything below was verified against live pricing pages and benchmark sources on 2026-09-04; every provider price was re-checked against the live pages on 2026-09-05 and none moved; when the facts move, this page moves with them.
+Everything below was verified against live pricing pages and benchmark sources on 2026-09-04; every provider price was re-checked against the live pages on 2026-09-05 and again on 2026-09-06, and none moved; when the facts move, this page moves with them.
 
 **Model selection for coding is an economics decision before it is a capability decision: run the workhorse tier for the loop, buy the frontier by the minute, and give the reading to the cheap models.**
 The part most engineers get backwards: **for anyone paying per token, the harness you run moves your bill about as much as the model you pick, and sometimes more.**
@@ -26,7 +26,7 @@ The part most engineers get backwards: **for anyone paying per token, the harnes
 
 Escalate by task class inside a session instead of picking one model for everything; Amp's low/medium/high/ultra modes and Codex's Sol/Terra/Luna defaults are this idea shipped as product (see the [Amp](../amp/index.md) and [Codex](../codex/index.md) notes).
 
-## The lineup as of 2026-09-05
+## The lineup as of 2026-09-06
 
 **The workhorse tier has converged to roughly $2 in and $10-12 out per million tokens at every major provider, which means switching costs are now measured in harness integration, not price.**
 

@@ -1,7 +1,7 @@
 ---
 title: skills.sh
 created: 2026-08-24
-updated: 2026-09-05
+updated: 2026-09-06
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, skills, registries, vercel, agent-extensions]
 readability: 3
@@ -11,13 +11,13 @@ audience_notes: >
 ---
 
 skills.sh is Vercel's directory and leaderboard for the open skills ecosystem: it ranks SKILL.md packages by install telemetry from its open-source CLI (`npx skills add <owner>/<repo>`), which installs into more than 70 agent harnesses.
-Facts below verified as of 2026-09-05.
+Facts below verified as of 2026-09-06.
 
 **It won the registry slot not through curation but by wrapping git: any repository is already a package, the CLI symlinks it into every harness, and the resulting install counts became the ecosystem's ranking, with security review still catching up.**
 
 ## What it is
 
-Launched 2026-01-20 by Vercel's labs team; the CLI is MIT-licensed with 30.4k stars, 2.6k forks, and 474 commits as of 2026-09-05.
+Launched 2026-01-20 by Vercel's labs team; the CLI is MIT-licensed with 30.5k stars, 2.6k forks, and 474 commits as of 2026-09-06.
 The CLI resolves GitHub shorthand and URLs, GitLab, any git URL, local paths, and direct archive URLs (downloads capped at 10 MiB by default), then symlinks or copies skills into per-agent directories.
 The site adds the leaderboard, per-agent and per-topic pages, badges, and packs (one install command bundling public and private skills).
 **Ranking comes from anonymous CLI telemetry (opt-out via `DISABLE_TELEMETRY`), not from vetting or ratings.**
@@ -25,8 +25,9 @@ The site adds the leaderboard, per-agent and per-topic pages, badges, and packs 
 ## Status
 
 **Active and dominant among third-party registries.**
-Top of the all-time leaderboard as of 2026-09-05: find-skills (vercel-labs) at 3.3M installs, grill-me (mattpocock/skills) at 1.1M, grill-with-docs (mattpocock/skills) at 906.6K, improve-codebase-architecture (mattpocock/skills) at 869.6K, and frontend-design (anthropics/skills) at 855.4K.
+Top of the all-time leaderboard as of 2026-09-06: find-skills (vercel-labs) at 3.3M installs, grill-me (mattpocock/skills) at 1.1M, grill-with-docs (mattpocock/skills) at 912.3K, improve-codebase-architecture (mattpocock/skills) at 874.9K, and frontend-design (anthropics/skills) at 858.5K.
 Official publisher entries include microsoft/azure-skills, supabase, prisma, and heygen-com/hyperframes.
+The publisher mix has gone enterprise: open.feishu.cn (Lark) is now the largest non-mattpocock publisher at 15.1M aggregate installs across 22 skills, prime-skills/runcomfy-agent-skills holds 4.5M across 11, and Lark's separate larksuite/cli entries add 2.2M-plus, all as of 2026-09-06.
 The nearest standalone competitor I could verify, skillregistry.io, lists 61 skills as of 2026-08-30 (14,782 total downloads as of 2026-08-24), two orders of magnitude smaller.
 
 ## Strengths
@@ -69,10 +70,10 @@ My disagreeable claim: marketplaces are the least interesting part of this ecosy
 ## References
 
 - https://vercel.com/blog/introducing-skills - launch announcement (2026-01-20)
-- https://skills.sh/ - leaderboard, install counts, supported agents, as of 2026-09-05
+- https://skills.sh/ - leaderboard, install counts, supported agents, as of 2026-09-06
 - https://skills.sh/docs - ranking method (CLI telemetry) and the security disclaimer
 - https://skills.sh/audits - Gen/Socket/Snyk audit columns, 81 Pending and 23 Safe entries, as of 2026-09-05
-- https://github.com/vercel-labs/skills - CLI source, agent path table, telemetry opt-out, 30.4k stars as of 2026-09-05
+- https://github.com/vercel-labs/skills - CLI source, agent path table, telemetry opt-out, 30.5k stars as of 2026-09-06
 - https://skillregistry.io/ - nearest standalone competitor, 61 skills as of 2026-08-30
 - https://github.com/Fcmam5/skilleton - lockfile-style, no-telemetry alternative
 - https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills - the underlying untrusted-skill risk

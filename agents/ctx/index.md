@@ -1,7 +1,7 @@
 ---
 title: "ctx"
 created: 2026-09-05
-updated: 2026-09-05
+updated: 2026-09-06
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, session-analytics, search, cli]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 **ctx is local search over the sessions your coding agents already recorded, and its pro add-on turns git blame around: from any line of code back to the transcript that produced it.**
-Facts below verified as of 2026-09-05.
+Facts below verified as of 2026-09-06.
 
 ## What it is
 
@@ -21,7 +21,7 @@ The paid add-on, ctx pro, is "git blame, but for agent sessions": from a line, f
 
 ## Status
 
-Active: created 2026-02-23, 1,077 stars and 69 forks, pushed the day of verification.
+Active: created 2026-02-23, 1,078 stars and 69 forks, pushed the day of verification.
 The docs site at ctx.rs is complete (concepts, supported agents including Claude Code, Codex, Cursor, Pi, OpenCode, and more, storage, comparisons, a changelog), and a `/ctx` skill lets agents call it directly.
 **The community footprint is nearly empty, a 5-point, one-comment Show HN on 2026-09-03, which I read as the product being discovered through agents rather than through forums, and as thin independent verification.**
 
@@ -34,13 +34,13 @@ The docs site at ctx.rs is complete (concepts, supported agents including Claude
 ## Cautions
 
 - The 50x token-efficiency claim is self-reported (917 versus 45,734 tokens in its own example), with no independent benchmark as of 2026-09-05.
-- ctx pro's price is not published on the pages fetched this run, and the free/pro split means the headline capability is partially gated.
+- ctx pro's price was long unpublished and now is: $20 USD per month with a 14-day free trial as of 2026-09-06, and the free/pro split still means the headline capability is partially gated.
 - It reads whatever the agents wrote: transcripts are only as complete as the harnesses' logs, and deleted local history is gone.
 
 ## Pricing
 
 The core CLI is free and open source under Apache-2.0.
-ctx pro is a paid add-on whose pricing was not extractable from ctx.rs as of 2026-09-05; a "For Teams" offering also exists.
+ctx pro is a paid add-on at $20 USD per month with a two-week free trial, no account or credit card required, as of 2026-09-06; a "For Teams" offering also exists.
 
 ## Compared to
 
