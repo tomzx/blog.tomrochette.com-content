@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 **Kimi Code CLI is Moonshot AI's terminal coding agent, and it is the first big-model-vendor harness whose default path is a challenger model instead of Claude or GPT.**
-Facts below verified as of 2026-09-06.
+Facts below verified as of 2026-09-07.
 
 ## What it is
 
@@ -22,7 +22,7 @@ The code lives in two repositories: the original `MoonshotAI/kimi-cli` (Apache-2
 
 ## Status
 
-Active and big-vendor backed, about 18.6k combined stars as of 2026-09-06: `kimi-code` at 7,267 stars pushed the day of verification, `kimi-cli` at 11,326 stars last pushed 2026-09-01.
+Active and big-vendor backed, about 18.6k combined stars as of 2026-09-07: `kimi-code` at 7,267 stars pushed the day of verification, `kimi-cli` at 11,326 stars last pushed 2026-09-01.
 **The independent FrontierHarness Eval pegs it mid-pack on quality and cheap on cost: 56.7 percent pass at a $3.65 median cost per task, with an 88 percent cache rate on Kimi K3.**
 The Hacker News footprint is thin (a 5-point 2025-10-31 thread and a 1-point 2026-01-27 one), which I read as distribution through Kimi's own channels rather than developer-mindshare gravity.
 
@@ -34,7 +34,7 @@ The Hacker News footprint is thin (a 5-point 2025-10-31 thread and a 1-point 202
 
 ## Cautions
 
-- The repository split (Apache-2.0 `kimi-cli` versus MIT `kimi-code`) is resolving toward `kimi-code`: the official docs now state the CLI was rebuilt on Node.js and that the old Python version will no longer be maintained, with a migration guide pointing at the new codebase ([docs](https://www.kimi.com/code/docs/), as of 2026-09-06).
+- The repository split (Apache-2.0 `kimi-cli` versus MIT `kimi-code`) is resolving toward `kimi-code`: the official docs now state the CLI was rebuilt on Node.js and that the old Python version will no longer be maintained, with a migration guide pointing at the new codebase ([docs](https://www.kimi.com/code/docs/), as of 2026-09-07).
 - Your tokens flow to Moonshot's API in the default path, the same vendor-dependency trade Claude Code and Codex make, just with a cheaper vendor.
 - Thin independent coverage means the FrontierHarness numbers are nearly the only third-party evidence available.
 
@@ -45,7 +45,7 @@ Usage is Kimi Code OAuth (your Kimi subscription) or a Moonshot Open Platform AP
 
 ## Compared to
 
-- [Codex](../codex/index.md): the other big-vendor open CLI, stronger on FrontierHarness quality (66.7 percent) but no longer on price, at $3.47 versus $3.65 median cost per task as of 2026-09-06.
+- [Codex](../codex/index.md): the other big-vendor open CLI, stronger on FrontierHarness quality (66.7 percent) but no longer on price, at $3.47 versus $3.65 median cost per task as of 2026-09-07.
 - [Qwen Code](../qwen-code/index.md): Alibaba's fork-and-rebrand path into the same market; Kimi Code is a from-scratch Moonshot product rather than a Gemini CLI derivative.
 - [OpenCode](../opencode/index.md): the provider-neutral alternative when you want the harness decoupled from any one model vendor.
 

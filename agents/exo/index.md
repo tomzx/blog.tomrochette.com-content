@@ -1,7 +1,7 @@
 ---
 title: "Exo"
 created: 2026-09-05
-updated: 2026-09-06
+updated: 2026-09-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agent, self-improvement, rust]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 **Exo is an agent harness built so the agent can edit the harness itself, prompts, memory, tooling, and policy included, with an append-only event log as the brake.**
-Facts below verified as of 2026-09-06.
+Facts below verified as of 2026-09-07.
 
 ## What it is
 
@@ -22,9 +22,9 @@ The design philosophy is documented in the repository's RSI.md, "A Systems View 
 
 ## Status
 
-Active: created 2026-05-20, 1,346 stars and 100 forks, pushed 2026-09-06.
+Active: created 2026-05-20, 1,352 stars and 101 forks, pushed 2026-09-07.
 **The independent FrontierHarness Eval scores it near the bottom of nine harnesses on pass rate but first on cost: 53.3 percent pass at a $1.05 median cost per task, against Claude Code's $18.34 on the same model and tasks.**
-The community footprint is thin, a 3-point and a 2-point Hacker News thread, so the eval and the repository are nearly the whole evidence base as of 2026-09-05.
+The community footprint is thin, a 3-point and a 2-point Hacker News thread, so the eval and the repository are nearly the whole evidence base as of 2026-09-07.
 
 ## Strengths
 

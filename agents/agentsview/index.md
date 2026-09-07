@@ -1,7 +1,7 @@
 ---
 title: agentsview
 created: 2026-08-30
-updated: 2026-09-06
+updated: 2026-09-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, session-analytics, observability, token-usage, open-source]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 agentsview is a local-first, MIT-licensed Go application that discovers the session files your coding agents already write on disk, indexes them into a searchable local SQLite archive, and serves a web UI, CLI, and desktop app for browsing, analytics, and token-cost reporting across roughly 60 agent sources.
-Facts below verified as of 2026-09-06.
+Facts below verified as of 2026-09-07.
 
 **agentsview's premise is that your agents already write the telemetry; the missing piece was a tool that reads all of it in one place, locally, instead of each harness showing you only its own slice.**
 
@@ -25,7 +25,7 @@ Made by Kenn Software LLC; install via curl script, Homebrew cask, desktop build
 
 ## Status
 
-Young and active: 5,780 stars, 653 forks, 107 open issues and PRs as of 2026-09-06, created 2026-02-19, pushed the day of verification.
+Young and active: 5,792 stars, 656 forks, 104 open issues and PRs as of 2026-09-07, created 2026-02-19, pushed 2026-09-06.
 Latest release v0.42.0 on 2026-09-01 with roughly weekly releases since July; pre-1.0 with fast feature churn.
 
 ## Strengths

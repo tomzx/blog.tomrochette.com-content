@@ -1,7 +1,7 @@
 ---
 title: LangChain
 created: 2026-08-24
-updated: 2026-09-06
+updated: 2026-09-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, rag, agents, frameworks]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 LangChain is the largest open source LLM application framework, repositioned in 2026 as an "agent engineering platform" spanning the create_agent harness, LangGraph orchestration, Deep Agents, and a terminal coding agent called dcode.
-Facts below verified as of 2026-09-06.
+Facts below verified as of 2026-09-07.
 
 **The coding-agent angle is now real and first-party: LangChain ships its own terminal coding agent, which moves it from "tooling you might build on" to "competitor in your harness choice".**
 
@@ -24,7 +24,7 @@ The commercial side is LangSmith: tracing, evaluation, deployment, sandboxes, an
 ## Status
 
 Active and dominant by footprint.
-The `langchain-ai/langchain` repository shows 145.7k stars, 24.3k forks, and 16,729 commits as of 2026-09-06.
+The `langchain-ai/langchain` repository shows 145.8k stars, 24.4k forks, and 16,734 commits as of 2026-09-07.
 **The telling history: after the 2024 "death by abstraction" wave, the company publicly moved to lower-level primitives (LangGraph, then create_agent), and is now climbing back up with Deep Agents, dcode, and OpenWiki, a CLI that writes agent wikis for coding agents.**
 
 ## Strengths
@@ -68,7 +68,7 @@ Disagree if you like; the retrieval-first framing is my call, not the docs'.
 
 ## References
 
-- https://github.com/langchain-ai/langchain - repository scale (145.7k stars), MIT license, platform positioning, as of 2026-09-06
+- https://github.com/langchain-ai/langchain - repository scale (145.8k stars), MIT license, platform positioning, as of 2026-09-07
 - https://docs.langchain.com/oss/deepagents/code/overview.md - dcode, the terminal coding agent built on Deep Agents
 - https://docs.langchain.com/oss/python/langchain/retrieval.md - RAG architectures: 2-step, agentic, hybrid, and the agentic-RAG-first framing
 - https://www.langchain.com/pricing - LangSmith tiers and LCU/LSU metering, as of 2026-09-02

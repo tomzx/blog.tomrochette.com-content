@@ -23,19 +23,19 @@ If the section turns into slop, the logs will show exactly where it went wrong, 
 
 # Essays and trackers
 
-- [Agentic Coding Tools Landscape](agentic-coding-tools-landscape/index.md) - maintained map of harnesses, editors, cloud agents, and orchestration as of 2026-09-05.
-- [Model Selection for Coding Tasks](model-selection-for-coding-tasks/index.md) - opinionated guide to choosing models by task class and per-token economics, as of 2026-09-05.
+- [Agentic Coding Tools Landscape](agentic-coding-tools-landscape/index.md) - maintained map of harnesses, editors, cloud agents, and orchestration as of 2026-09-07.
+- [Model Selection for Coding Tasks](model-selection-for-coding-tasks/index.md) - opinionated guide to choosing models by task class and per-token economics, as of 2026-09-07.
 - [Context Management Patterns](context-management-patterns/index.md) - the patterns that keep agent context windows small and fresh, as of 2026-08-24.
 - [The Tells Are Structural](the-tells-are-structural/index.md) - why word-swap humanizers fail (detection lives at the narrative-structure layer) and what a structural revision pass does instead, grounded in StoryScope.
 
 ## Comparison matrices
 
-- [Harness Feature Matrix](harness-feature-matrix/index.md) - the twenty-five harnesses against eleven capability rows, Exo and Kimi Code the newest, verified 2026-09-05.
-- [Surface Feature Matrix](surface-feature-matrix/index.md) - the twelve surfaces (two of them death records) against eleven capability rows, verified 2026-09-05.
+- [Harness Feature Matrix](harness-feature-matrix/index.md) - the twenty-five harnesses against eleven capability rows, Exo and Kimi Code the newest, verified 2026-09-07.
+- [Surface Feature Matrix](surface-feature-matrix/index.md) - the twelve surfaces (two of them death records) against eleven capability rows, verified 2026-09-07.
 - [Orchestration Feature Matrix](orchestration-feature-matrix/index.md) - the thirteen worktree managers, dashboards, control planes, and mobile clients, Happy Coder the newest, plus one agent town, one dead and one orphaned among them.
 - [Protocols Feature Matrix](protocols-feature-matrix/index.md) - the five protocols stack rather than compete, and adoption falls with every step up the stack.
 - [Context Engines Feature Matrix](context-engines-feature-matrix/index.md) - the seven context vendors and tools against delivery, deployment, and scale rows.
-- [Code Review Feature Matrix](code-review-feature-matrix/index.md) - the eight AI reviewers divided on where your code runs, with both Kudelski exploit records named, verified 2026-09-05.
+- [Code Review Feature Matrix](code-review-feature-matrix/index.md) - the eight AI reviewers divided on where your code runs, with both Kudelski exploit records named, verified 2026-09-07.
 - [Skills Feature Matrix](skills-feature-matrix/index.md) - the spec, vendor format, harness mechanism, optimizer, and registry against runtime and stewardship rows.
 - [Retrieval Feature Matrix](retrieval-feature-matrix/index.md) - the two frameworks and two patterns compared, with the harness-native counterargument engaged.
 - [Memory Feature Matrix](memory-feature-matrix/index.md) - the file convention, the portable format, and five services against memory-model and lock-in rows.
@@ -44,12 +44,12 @@ If the section turns into slop, the logs will show exactly where it went wrong, 
 - [Task Management Feature Matrix](task-management-feature-matrix/index.md) - files versus database as the deciding row, with the PRD pipeline and its license cost.
 - [Spec Driven Development Feature Matrix](spec-driven-development-feature-matrix/index.md) - the four spec-first tools across the ownership and ceremony-sizing axes.
 - [Control Planes Feature Matrix](control-planes-feature-matrix/index.md) - governance, budgets, and multi-company rows that separate control planes from orchestration.
-- [Assistant Runtimes Feature Matrix](assistant-runtimes-feature-matrix/index.md) - OpenClaw, Hermes, the shrinking variants, the Python core, and the two Cowork desktops, the trust ladder in one table, verified 2026-09-05.
-- [Software Factory Feature Matrix](software-factory-feature-matrix/index.md) - the stamped Python loop, Fluent's learning loop, HAR's fleet harness, Machinist's controlled entrypoint, and Ouroboros' hidden grading on the who-owns-the-loop axis, verified 2026-09-05.
-- [Evaluation and Review Feature Matrix](evaluation-review-feature-matrix/index.md) - the five quality-control columns divided on who judges, the agent, the metric suite, the benchmark, or the human, verified 2026-09-05.
-- [Sandboxing Feature Matrix](sandboxing-feature-matrix/index.md) - the six isolation layers divided into boundaries, an orchestrator, a framework, and provisioning, verified 2026-09-05.
-- [Session Analytics Feature Matrix](session-analytics-feature-matrix/index.md) - the archive and the attribution CLI versus the still-empty live-observation cells, verified 2026-09-05.
-- [People and Publications Feature Matrix](people-and-publications-feature-matrix/index.md) - the thirteen voices compared on focus, cadence, and reader slot, verified 2026-09-05.
+- [Assistant Runtimes Feature Matrix](assistant-runtimes-feature-matrix/index.md) - OpenClaw, Hermes, the shrinking variants, the Python core, and the two Cowork desktops, the trust ladder in one table, verified 2026-09-07.
+- [Software Factory Feature Matrix](software-factory-feature-matrix/index.md) - the stamped Python loop, Fluent's learning loop, HAR's fleet harness, Machinist's controlled entrypoint, and Ouroboros' hidden grading on the who-owns-the-loop axis, verified 2026-09-07.
+- [Evaluation and Review Feature Matrix](evaluation-review-feature-matrix/index.md) - the five quality-control columns divided on who judges, the agent, the metric suite, the benchmark, or the human, verified 2026-09-07.
+- [Sandboxing Feature Matrix](sandboxing-feature-matrix/index.md) - the six isolation layers divided into boundaries, an orchestrator, a framework, and provisioning, verified 2026-09-07.
+- [Session Analytics Feature Matrix](session-analytics-feature-matrix/index.md) - the archive and the attribution CLI versus the still-empty live-observation cells, verified 2026-09-07.
+- [People and Publications Feature Matrix](people-and-publications-feature-matrix/index.md) - the thirteen voices compared on focus, cadence, and reader slot, verified 2026-09-07.
 
 Essays appear here as the daily agent runs publish them.
 The queue it works from is [the work queue](queue.md).

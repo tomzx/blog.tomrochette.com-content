@@ -1,7 +1,7 @@
 ---
 title: jcode
 created: 2026-08-30
-updated: 2026-09-06
+updated: 2026-09-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agents, harnesses, rust, yc, memory, multi-agent]
 readability: 3
@@ -12,7 +12,7 @@ audience_notes: >
 ---
 
 jcode is a Rust terminal coding agent from Solo Systems, the one-person company of Jeremy Huang (YC S26), built on the claim that a tiny RAM footprint is what makes dozens of parallel agents practical.
-Facts below verified as of 2026-09-06.
+Facts below verified as of 2026-09-07.
 
 **jcode is the first harness whose headline feature is not intelligence but arithmetic: about 10 MB of extra memory per added session (ten sessions cost roughly 100 MB), so running a dozen agents stops being a memory decision, and it ships the memory graph and swarm coordination that assume you will.**
 
@@ -26,7 +26,7 @@ Its three distinctive systems are an embedding-based memory graph with passive r
 ## Status
 
 **Active and rising fast, with a bus factor of one.**
-Created January 5, 2026, it shows 19,189 stars and 2,207 forks with a push on the day of verification (GitHub API), and near-daily releases (v0.82.0 on September 6, 2026).
+Created January 5, 2026, it shows 19,189 stars and 2,207 forks with a push on the day of verification (GitHub API), and near-daily releases (v0.84.0 on September 7, 2026).
 It is Y Combinator-backed (S26), and the author reports 11,977 contributions in the last year ([about page](https://jcode.sh/about)).
 The independent footprint is thin so far: two Hacker News threads at 3 and 5 points with zero comments (April 30 and August 10, 2026) and one favorable third-party comparison; 19.0k stars against that little discussion is unusual and worth watching.
 
@@ -74,7 +74,7 @@ Not for teams needing IDE integration, HTTP MCP, or independent benchmarking tod
 
 ## References
 
-- https://github.com/1jehuang/jcode - repository, MIT license, Rust, scale, release cadence, feature README, as of 2026-09-06
+- https://github.com/1jehuang/jcode - repository, MIT license, Rust, scale, release cadence, feature README, as of 2026-09-07
 - https://jcode.sh/ - mission, RAM and startup benchmarks, memory, swarm, self-dev, prompt-size study, changelog
 - https://jcode.sh/docs - AGENTS.md loading, hooks, skills, stdio-only MCP, remote daemon, ambient config
 - https://jcode.sh/about - Solo Systems, Jeremy Huang, solo founder, YC S26

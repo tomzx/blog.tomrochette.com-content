@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 The Warp Agent CLI is Warp's terminal agent unbundled into a standalone binary that runs in any terminal, with built-in model routing, cloud agents, and multi-agent orchestration.
-Facts below verified as of 2026-09-06.
+Facts below verified as of 2026-09-07.
 
 **Warp is the first big terminal vendor to sell its agent separately from its own app, and that makes it the default enterprise answer unless you specifically want an open client.**
 
@@ -22,13 +22,13 @@ A Warp account is required, but the app is not.
 It installs through a self-updating script or a Homebrew cask (`warp-agent-cli`).
 Model routing is built in: frontier and US-hosted open-weight models from OpenAI, Anthropic, z.ai, and others, plus custom routers and bring-your-own inference.
 Because it sits on Warp's terminal infrastructure, it muxes agent sessions natively, and cloud agents and multi-agent orchestration are first-class features.
-Warp's Rust codebase is public under AGPL-3.0 at [warpdotdev/warp](https://github.com/warpdotdev/warp), about 64.8k stars as of 2026-09-06.
+Warp's Rust codebase is public under AGPL-3.0 at [warpdotdev/warp](https://github.com/warpdotdev/warp), about 64.8k stars as of 2026-09-07.
 
 ## Status
 
 Active and freshly launched: announced August 4, 2026, with docs last updated September 2, 2026.
 The launch thread reached 111 points on Hacker News (item 49171766).
-Vendor traction is real: the terminal repository counts about 64.8k stars as of 2026-09-06, and Anthropic published a Warp engineering story on August 26, 2026.
+Vendor traction is real: the terminal repository counts about 64.8k stars as of 2026-09-07, and Anthropic published a Warp engineering story on August 26, 2026.
 The CLI itself ships as a managed binary with no separate public repository.
 Warp has also opened a Factories line: factories-as-code cloud software factories (factory.yaml defining repos, agents, models, and approval gates) with evals, benchmarks, and self-improvement loops, in closed early access priced per agent run with up to $10,000 in free usage as of 2026-09-06.
 
@@ -54,7 +54,7 @@ Build starts at $20/month ($18 annual) with 1,500 credits ($20 of included usage
 Max starts at $200/month with 18,000 credits.
 Business is $50/user/month with per-seat credits, SAML SSO, and BYOK.
 Enterprise is custom, adding BYOLLM routing, self-hosted cloud agents, and cross-harness memory (research preview).
-All tiers as of 2026-09-06.
+All tiers as of 2026-09-07.
 
 ## Compared to
 
@@ -79,10 +79,10 @@ I think the CLI exists to follow developers who fled Warp's AI-heavy terminal fo
 ## References
 
 - https://www.warp.dev/blog/introducing-the-warp-agent-cli-coding-agent - launch post: scope, model routing, session muxing, cloud agents
-- https://www.warp.dev/pricing - tiers, credits, and enterprise features as of 2026-09-06
+- https://www.warp.dev/pricing - tiers, credits, and enterprise features as of 2026-09-07
 - https://docs.warp.dev/agents/cli - CLI overview and documentation structure
 - https://docs.warp.dev/agents/cli/quickstart.md - install methods, account requirement, self-update behavior
-- https://github.com/warpdotdev/warp - codebase state, AGPL-3.0 license, stars as of 2026-09-06
+- https://github.com/warpdotdev/warp - codebase state, AGPL-3.0 license, stars as of 2026-09-07
 - https://claude.com/blog/how-warp-builds-self-improving-agents-on-claude - Anthropic's account of Warp's agent engineering
 - https://news.ycombinator.com/item?id=49171766 - launch thread, 111 points, community reception
 - https://www.warp.dev/factories - the Factories product line: factory.yaml, evals and self-improvement, closed early access pricing

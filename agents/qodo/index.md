@@ -13,7 +13,7 @@ audience_notes: >
 ---
 
 Qodo is an AI code review and governance platform (formerly CodiumAI) whose MIT-licensed PR-Agent was marketed as the original open-source AI PR reviewer, and which has now donated that reviewer to the community while selling the heavier product above it.
-Facts below verified as of 2026-09-06.
+Facts below verified as of 2026-09-07.
 
 ## What it is
 
@@ -52,7 +52,7 @@ On Hacker News the reviewer itself never caught fire (best thread 24 points, ite
 ## Pricing
 
 PR-Agent is free under MIT, self-hosted with your own LLM keys.
-The commercial product meters pooled credits at $0.012 each, with packs sized around 18, 36, or 144 reviews per month, under a Pro Team plan listed at $30 with monthly billing, no annual commitment, and up to 30 users, as of 2026-09-02.
+The commercial product meters pooled credits at $0.012 each, with packs sized around 18, 36, or 144 reviews per month, under a Pro Team plan listed at $30 with monthly billing, no annual commitment, and up to 30 users, as of 2026-09-07.
 Enterprise adds SSO/SAML, audit logs, BYOK, single-tenant SaaS or on-prem, cross-repo review, and negotiated pricing.
 Qualified open-source projects get the commercial reviewer free through a Marketplace app powered by Google.
 For history: in September 2024 the paid Chrome-extension tier was $19 per month for private repos (item 41443605), so the model has moved twice in two years.

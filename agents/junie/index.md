@@ -1,7 +1,7 @@
 ---
 title: Junie
 created: 2026-08-22
-updated: 2026-09-06
+updated: 2026-09-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, coding-agents, harnesses, jetbrains, byok]
 readability: 3
@@ -12,7 +12,7 @@ audience_notes: >
 ---
 
 Junie is JetBrains' coding agent: an LLM-agnostic CLI that also ships in JetBrains IDEs and CI, authenticating either to JetBrains or to your own model keys.
-Facts below verified as of 2026-09-06.
+Facts below verified as of 2026-09-07.
 
 **Junie quietly became the most vendor-flexible of the major agents (any provider, any local model, zero markup on keys), and its thin independent community, not its capability, is the actual adoption risk.**
 
@@ -28,7 +28,7 @@ BYOK covers Anthropic, OpenAI, Google, xAI, OpenRouter, Copilot, and local model
 
 **Active.**
 Junie started as an IDE agent in January 2025 (53.6% on SWE-bench Verified at announcement), went GA in April 2025, and the LLM-agnostic CLI followed into beta and beyond.
-The GitHub repository (installer and release channels: release, EAP, nightly, experimental) shows about 427 stars as of 2026-09-06.
+The GitHub repository (installer and release channels: release, EAP, nightly, experimental) shows about 427 stars as of 2026-09-07.
 In August 2026 JetBrains launched Junie Local, a free on-device build for M5 Macs that runs a bundled, tuned model entirely locally with no registration, subscription, or credits ([launch post](https://blog.jetbrains.com/junie/2026/08/junie-local-launch/)).
 The client is proprietary under JetBrains AI terms; the repo is distribution, not source.
 
@@ -78,4 +78,4 @@ Not for anyone who needs an open client or a large community ecosystem today.
 - https://github.com/JetBrains/junie - install channels, GitHub Action, license terms
 - https://www.jetbrains.com/junie/ - the product entry point
 - https://blog.jetbrains.com/junie/2025/01/meet-junie-your-coding-agent-by-jetbrains/ - the January 2025 launch and original benchmark claim
-- https://devclass.com/2025/04/16/jetbrains-goes-live-with-junie-ai-agent-updates-ai-assistant-adds-free-tier/ - independent GA coverage with reviewer sentiment
+- https://www.devclass.com/ai-ml/2025/04/16/jetbrains-goes-live-with-junie-ai-agent-updates-ai-assistant-adds-free-tier/1620745 - independent GA coverage with reviewer sentiment

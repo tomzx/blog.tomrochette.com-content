@@ -1,7 +1,7 @@
 ---
 title: "Skills Feature Matrix"
 created: 2026-08-24
-updated: 2026-09-02
+updated: 2026-09-07
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, comparison, skills, agent-extensions]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 This matrix compares the five Skills-category notes in this section, the open standard, Anthropic's vendor format, OpenCode's native mechanism, Microsoft's skill optimizer, and Vercel's skills.sh registry, feature by feature, so choosing an extension path does not require reading five notes.
-Everything below was re-verified against live sources on 2026-09-06.
+Everything below was re-verified against live sources on 2026-09-07.
 
 **The format war is already over and SKILL.md won it, so every decision that remains lives above the format, who gates execution, who ranks discovery, and who versions what your agent runs, and the registry column worries me more than the vendor column.**
 
@@ -20,7 +20,7 @@ Each column links to the full research note; every cell traces to a source cited
 
 ## The matrix
 
-| Feature | [Agent Skills standard](../agent-skills-open-standard/index.md) | [Anthropic Agent Skills](../anthropic-agent-skills/index.md) | [OpenCode skills and plugins](../opencode-skills-and-plugins/index.md) | [SkillOpt](../skillopt/index.md) | [skills.sh](../skills-sh/index.md) |
+| Feature | [Agent Skills open standard](../agent-skills-open-standard/index.md) | [Anthropic Agent Skills](../anthropic-agent-skills/index.md) | [OpenCode skills and plugins](../opencode-skills-and-plugins/index.md) | [SkillOpt](../skillopt/index.md) | [skills.sh](../skills-sh/index.md) |
 | --- | --- | --- | --- | --- | --- |
 | Kind | open spec | vendor format | harness mechanism | skill optimizer | registry and CLI |
 | Steward | public GitHub org | Anthropic | anomalyco project | Microsoft Research | Vercel labs |

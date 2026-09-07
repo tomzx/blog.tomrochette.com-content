@@ -1,7 +1,7 @@
 ---
 title: NanoClaw
 created: 2026-08-27
-updated: 2026-08-30
+updated: 2026-09-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, assistant-runtimes, personal-assistants, containers, open-source]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 NanoClaw is a MIT-licensed Node.js personal agent (nanocoai) that runs each agent in its own Linux container, born as a 500-line rewrite of the OpenClaw idea that now stands at about 30.6k stars.
-Facts below verified as of 2026-09-06.
+Facts below verified as of 2026-09-07.
 
 **NanoClaw's product is auditability: a codebase small enough to hold in your head and a container wall between the agent and your life, a direct rebuttal of the half-million-line root it responds to.**
 
@@ -25,7 +25,7 @@ Each agent group gets its own container, workspace, memory, and mounts; Slack pr
 ## Status
 
 Active and independently credible.
-As of 2026-09-02: 30,682 stars and 12,855 forks since creation on 2026-01-31, pushed the day of verification, 1,076 open issues.
+As of 2026-09-07: 30,711 stars and 12,855 forks since creation on 2026-01-31, pushed today, 1,091 open issues.
 The [533-point launch thread](https://news.ycombinator.com/item?id=46850205) pitched it as "Clawdbot in 500 lines of TS with Apple container isolation", followed by a 169-point thread on the move from Apple Containers to Docker and a 112-point thread on adopting the OneCLI Agent Vault.
 The family is real: microclaw (731 stars) describes itself as inspired by NanoClaw, and the prompt-security clawsec suite explicitly covers it.
 
@@ -70,7 +70,7 @@ My disagreeable claim: the container wall matters more than every permission sys
 ## References
 
 - https://github.com/nanocoai/nanoclaw - README: philosophy, channels, vault, isolation model
-- https://api.github.com/repos/nanocoai/nanoclaw - stars, forks, issues as of 2026-09-02
+- https://api.github.com/repos/nanocoai/nanoclaw - stars, forks, issues as of 2026-09-07
 - https://docs.nanoclaw.dev - official documentation
 - https://news.ycombinator.com/item?id=46850205 - the 533-point launch thread
 - https://news.ycombinator.com/item?id=47113731 - the Apple-Containers-to-Docker move (169 points)

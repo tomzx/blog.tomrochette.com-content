@@ -12,7 +12,7 @@ audience_notes: >
 ---
 
 Juggler is a free, open-source desktop GUI coding agent built by the developer behind JUCE, giving you a visual workbench where conversations branch into trees and every tool call and raw context message is inspectable.
-Facts below verified as of 2026-09-06.
+Facts below verified as of 2026-09-07.
 
 **Juggler is the strongest argument that the terminal is the wrong native surface for agent work: its whole bet is that reading diffs, editing multi-line prompts, and absorbing tool output are GUI problems.**
 
@@ -28,7 +28,7 @@ Made by Julian Storer (JUCE, Tracktion, Cmajor), distributed as signed installer
 
 **Young, active, and single-maintainer, with a strong launch.**
 The public Show HN on July 12, 2026 drew 280 points and 119 comments ([HN](https://news.ycombinator.com/item?id=48883305)).
-583 stars and 43 forks as of 2026-09-06 on a repo created June 19, 2026 (GitHub API).
+583 stars and 43 forks as of 2026-09-07 on a repo created June 19, 2026 (GitHub API).
 Shipping is steady: v0.6.0 with macOS, Windows, and Linux artifacts published September 5, 2026.
 One person builds it, which is both the reason it ships fast and the project's single point of failure.
 
@@ -72,7 +72,7 @@ I think the harnesses that win the GUI layer will be the ones that treat convers
 
 ## References
 
-- https://github.com/juggler-ai/juggler - repository, AGPL-3.0 app code with Apache-2.0 extensions, 583 stars as of 2026-09-06
+- https://github.com/juggler-ai/juggler - repository, AGPL-3.0 app code with Apache-2.0 extensions, 583 stars as of 2026-09-07
 - https://juggler.studio/ - product claims, provider list, session model
 - https://raw.githubusercontent.com/juggler-ai/juggler/main/README.md - architecture, licensing map, build model
 - https://news.ycombinator.com/item?id=48883305 - the July 12, 2026 launch thread, 280 points (verified via Algolia API)

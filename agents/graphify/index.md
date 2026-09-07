@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Graphify is an open-source Python CLI that turns a codebase, plus its docs, SQL schemas, and PDFs, into a queryable knowledge graph exposed as a `/graphify` skill and MCP server for coding assistants, built on local deterministic tree-sitter parsing with no vector store.
-Facts below verified as of 2026-09-06.
+Facts below verified as of 2026-09-07.
 
 **Graphify's bet is that structure beats similarity: an agent that can traverse exact calls-and-imports edges with file:line citations needs less context than one searching embeddings, and the code path runs entirely on your machine.**
 The bet is young, self-benchmarked, and wrapped in a YC company's funnel.

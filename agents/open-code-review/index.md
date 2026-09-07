@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 OpenCodeReview (`ocr`) is Alibaba's Apache-2.0 Go CLI for AI code review that combines deterministic engineering pipelines, file selection, bundling, and rule matching, with an LLM agent to produce line-precise review comments, runnable locally, in CI, or inside coding agents.
-Facts below verified as of 2026-09-06.
+Facts below verified as of 2026-09-07.
 
 **OpenCodeReview's thesis is that a reviewer agent needs engineering around it, not just a prompt, and its own benchmark discloses the cost of that thesis: higher precision, deliberately lower recall, real defects will slip through.**
 

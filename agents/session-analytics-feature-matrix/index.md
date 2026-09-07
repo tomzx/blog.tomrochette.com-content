@@ -12,7 +12,7 @@ audience_notes: >
 
 This matrix compares the members of the Session analytics category: tools that turn what your coding agents already record into searchable history, cost reports, and audits.
 The category now has two members: agentsview, the broad retrospective archive, and ctx, the search-and-attribution CLI; the live-observation cells remain empty, and the gap is named in prose below until a note earns them a column.
-Everything below was verified against live sources on 2026-09-06.
+Everything below was verified against live sources on 2026-09-07.
 
 **The category question is still retrospective archive versus live observation: agentsview answers what did my agents do and cost across every tool I run, ctx answers where did this line of code come from, and nobody in the category yet answers what is my agent doing right now.**
 

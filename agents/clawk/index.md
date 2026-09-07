@@ -1,7 +1,7 @@
 ---
 title: "Clawk"
 created: 2026-09-05
-updated: 2026-09-05
+updated: 2026-09-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, sandboxing, vm, security]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 **Clawk gives a coding agent a disposable Linux VM instead of your laptop, so the permission prompt disappears because the blast radius already did.**
-Facts below verified as of 2026-09-06.
+Facts below verified as of 2026-09-07.
 
 ## What it is
 
@@ -23,7 +23,7 @@ There is no Dockerfile or devcontainer: the first boot builds a rootfs from any 
 
 Launched July 2026 with real traction and currently paused in a pre-1.0 state: 1,007 stars and 38 forks, last push 2026-08-13 at v0.4.0, with the README carrying its own "pre-1.0, expect breaking changes" banner.
 **The 226-point Show HN thread is the strongest community signal in the Sandboxing category's tail, and the discussion plus the README agree on the limits rather than hiding them.**
-Three weeks without a push after a fast launch cadence is worth watching, but it is not yet a stall at these timescales.
+Twenty-five days without a push after a fast launch cadence is worth watching, but it is not yet a stall at these timescales.
 
 ## Strengths
 
@@ -34,7 +34,7 @@ Three weeks without a push after a fast launch cadence is worth watching, but it
 ## Cautions
 
 - The sandbox is only as closed as its allow-list: github.com is pre-allowed, so exfiltration through the very forge you push to is in scope by design.
-- Pre-1.0 with three weeks of quiet as of 2026-09-05, on a single primary platform (macOS), from a small team.
+- Pre-1.0 with twenty-five days of quiet as of 2026-09-07, on a single primary platform (macOS), from a small team.
 - The VM disk is lost on destroy by design; only host-side code and conversations survive.
 
 ## Pricing

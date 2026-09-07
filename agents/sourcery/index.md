@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Sourcery is a hosted AI code reviewer for GitHub and GitLab (with IDE plugins and a security scanning layer) from the company behind the older Python refactoring tool of the same name.
-Facts below verified as of 2026-09-06.
+Facts below verified as of 2026-09-07.
 
 ## What it is
 
@@ -43,7 +43,7 @@ The community footprint is modest: a 15-point Show HN for the refactoring era (2
 
 ## Pricing
 
-**Freemium per-seat with open source free, as of 2026-09-02.**
+**Freemium per-seat with open source free, as of 2026-09-07.**
 Pro is $12 per seat per month for private repos, Team is $24 (the highlighted tier) adding repo analytics, security scans for 200+ repos, daily scans, 3x rate limits, and BYO LLM, and Enterprise adds self-hosting, priority support, a customer success manager, and invoice billing at custom pricing.
 Open source repos are fully free.
 
@@ -71,7 +71,7 @@ My disagreeable take: free-for-open-source is the most underrated go-to-market w
 
 - https://github.com/sourcery-ai/sourcery - repo, 1,858 stars, MIT, pushed September 4, 2026 (GitHub API, as of 2026-09-05)
 - https://sourcery.ai/ - product page
-- https://sourcery.ai/pricing/ - tiers as of 2026-09-02
+- https://sourcery.ai/pricing/ - tiers as of 2026-09-07
 - https://docs.sourcery.ai/Product/Plans/ - docs covering plans, security scanning, BYO LLM, self-hosting
 - https://pypi.org/pypi/sourcery/json - the Python refactoring package, "Magically refactor Python", 22 releases
 - https://hn.algolia.com/api/v1/items/27760608 - Show HN for the refactoring era, 15 points, July 7, 2021

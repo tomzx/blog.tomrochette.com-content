@@ -1,7 +1,7 @@
 ---
 title: JetBrains IDEs
 created: 2026-08-23
-updated: 2026-09-03
+updated: 2026-09-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, surfaces, ai-editors, jetbrains]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 JetBrains IDEs are the analysis-heavy editors for Java, Kotlin, Python, and friends, whose AI layer now spans AI Assistant and the Junie agent from IDE to CI.
-Facts below verified as of 2026-09-06.
+Facts below verified as of 2026-09-07.
 
 **JetBrains is the only major IDE vendor whose entire AI layer is removable and provider-agnostic, and it got there by backlash: the late-2023 forced-bundling outcry is why you can now uninstall the whole thing.**
 
@@ -44,7 +44,7 @@ The AI layer was unbundled into a separate, removable plugin in March 2024 after
 
 ## Pricing
 
-AI Pro is $8.33 per user/month (annual) and AI Ultimate is $25 per user/month, metered in AI credits, as of 2026-09-02.
+AI Pro is $8.33 per user/month (annual) and AI Ultimate is $25 per user/month, metered in AI credits, as of 2026-09-07.
 **Junie BYOK bypasses metering at provider rates**, and the tier starts free with 5 credits and no card.
 
 ## Compared to
@@ -68,7 +68,7 @@ Not for anyone who needs an open editor or a large community ecosystem.
 ## References
 
 - https://www.jetbrains.com/ai/ - the AI product family entry point
-- https://junie.jetbrains.com/ - plans, credits, and BYOK, as of 2026-09-03
+- https://junie.jetbrains.com/ - plans, credits, and BYOK, as of 2026-09-07
 - https://blog.jetbrains.com/junie/2025/01/meet-junie-your-coding-agent-by-jetbrains/ - Junie's January 2025 launch
 - https://news.ycombinator.com/item?id=39238666 - the bundling outcry thread (February 2024)
 - https://news.ycombinator.com/item?id=39636060 - the March 2024 unbundling thread

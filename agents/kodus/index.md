@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Kodus is an open-source AI code reviewer named Kody (AGPL-3.0 plus a commercial enterprise-edition dual license) that reviews pull requests on GitHub, GitLab, Bitbucket, and Azure Repos, self-hosted or via Kodus Cloud, with whatever model you bring.
-Facts below verified as of 2026-09-06.
+Facts below verified as of 2026-09-07.
 
 ## What it is
 
@@ -44,7 +44,7 @@ A Discord community exists, but I found no independent reviews or benchmarks cor
 
 ## Pricing
 
-**Open core with a free tier, a BYOK developer fee, and a transparent no-markup pledge, as of 2026-09-02.**
+**Open core with a free tier, a BYOK developer fee, and a transparent no-markup pledge, as of 2026-09-07.**
 The tiers changed in early September 2026: Community is free for indie devs and small teams (self-hosted or hosted, up to 10 Kody rules), Teams BYOK is $10 per developer per month ($8 effective when billed annually) plus your raw token costs with unlimited rules and plugins, and Enterprise is custom with SSO, RBAC, SOC 2, and dedicated support.
 The BYOK calculator keeps the no-markup FAQ commitment and prices example stacks (for example $450 per month for 30 developers on Gemini Pro or ChatGPT 5.1).
 Self-hosting under AGPL-3.0 is free, minus your own model bills.
@@ -73,7 +73,7 @@ My disagreeable take: I trust a reviewer whose business model survives zero toke
 
 - https://github.com/kodustech/kodus-ai - repo, 1,352 stars, 149 forks, AGPL-3.0 + EE dual license, pushed September 4, 2026 (GitHub API, as of 2026-09-05)
 - https://kodus.io/ - product page and positioning
-- https://kodus.io/pricing/ - Community free, Teams BYOK $10/dev, Enterprise custom, no-markup FAQ, as of 2026-09-02
+- https://kodus.io/pricing/ - Community free, Teams BYOK $10/dev, Enterprise custom, no-markup FAQ, as of 2026-09-07
 - https://docs.kodus.io/ - documentation hub and self-host guide
 - https://docs.kodus.io/how_to_deploy/en/deploy_kodus/telemetry - self-hosted anonymous heartbeat and opt-out
 - https://hn.algolia.com/api/v1/items/43572816 - Show HN launch, 3 points, April 3, 2025

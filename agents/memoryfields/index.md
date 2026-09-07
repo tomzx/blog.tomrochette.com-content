@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Memoryfields is a portable file format for agent memory: a zip of flat Markdown pages with optional YAML frontmatter and an optional SQLite vector index, specified by Cal Paterson in August 2026.
-Facts below verified as of 2026-09-06.
+Facts below verified as of 2026-09-07.
 
 **Its thesis is that memory should be data, not a process, and the format is the argument, not the tooling.**
 
@@ -25,7 +25,7 @@ Tooling is minimal: memoryfield-tool, a Python CLI (AGPL-3.0, 33 stars), and mem
 ## Status
 
 **One high-traction essay, thin tooling adoption, draft spec.**
-The launch essay hit 191 points on Hacker News on 2026-08-31, while all three repositories together hold 85 stars as of 2026-09-05.
+The launch essay hit 191 points on Hacker News on 2026-08-31, while all three repositories together hold 85 stars as of 2026-09-07.
 The gap is the record: the format's traction is attention to its argument, not adoption of its artifacts.
 The spec is explicitly a draft soliciting review, and I found no independent implementation of it yet.
 
@@ -72,7 +72,7 @@ My disagreeable claim: the tooling does not matter yet, and adopting it now buys
 
 - https://calpaterson.com/memoryfields.html - the announcement essay: design decisions, the Karpathy-wiki critique, and the objections FAQ
 - https://github.com/calpaterson/memoryfield-spec/blob/main/SPEC.md - the draft v0.1 spec: format rules, transports, embedding-model codes
-- https://github.com/calpaterson/memoryfield-tool - the Python CLI (AGPL-3.0, 33 stars as of 2026-09-05)
-- https://github.com/calpaterson/memoryfield-skill - the installable skill (MIT, 19 stars as of 2026-09-05)
+- https://github.com/calpaterson/memoryfield-tool - the Python CLI (AGPL-3.0, 33 stars as of 2026-09-07)
+- https://github.com/calpaterson/memoryfield-skill - the installable skill (MIT, 19 stars as of 2026-09-07)
 - https://news.ycombinator.com/item?id=49508317 - the launch thread (191 points, 2026-08-31) and its skeptical reception
 - https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f - the Karpathy wiki prior art the essay positions itself against
