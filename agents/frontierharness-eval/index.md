@@ -1,7 +1,7 @@
 ---
 title: "FrontierHarness Eval"
 created: 2026-09-05
-updated: 2026-09-07
+updated: 2026-09-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, evaluation, benchmark, coding-agents]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 **FrontierHarness Eval is the first public benchmark to hold the model constant and vary only the harness, and its headline finding is that harness choice moved cost 17.5x while quality stayed within about 13 points.**
-Facts below verified as of 2026-09-07.
+Facts below verified as of 2026-09-08.
 
 ## What it is
 
@@ -21,9 +21,9 @@ Task definitions, difficulty metadata, harness versions, and normalized results 
 
 ## Status
 
-New and gaining traction: the repository was created 2026-08-31 and pushed 2026-09-06, and the launch drew an 82-point Hacker News thread with substantive methodological discussion.
+New and gaining traction: the repository was created 2026-08-31 and pushed 2026-09-08, and the launch drew an 82-point Hacker News thread with substantive methodological discussion.
 **The benchmark is vendor-run: Runta sells an execution layer for AI agents and announced a $20M seed led by a16z, so the neutrality that makes the numbers useful is asserted, not structural.**
-The repository carries no license as of 2026-09-07, which limits reuse of the task definitions themselves.
+The repository carries no license as of 2026-09-08, which limits reuse of the task definitions themselves.
 
 ## Strengths
 
@@ -65,5 +65,5 @@ Not as a final ranking, and not for teams whose tasks look nothing like its 30.
 - https://frontierharness.org - the live results and interactive report
 - https://github.com/frontier-harness-eval/eval - public tasks, metadata, results, and the evaluation skill
 - https://runta.com/blog/introducing-frontierharness-eval/ - the launch article and evaluation design
-- https://hn.algolia.com/api/v1/items/49538490 - the 81-point launch thread and its methodological criticism
+- https://hn.algolia.com/api/v1/items/49538490 - the 82-point launch thread and its methodological criticism
 - https://runta.com - the publisher and its funding context

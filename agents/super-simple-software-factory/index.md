@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 A software factory, and the founding member of this category, is a repeatable agents-plus-code workflow packaged as one skill and stamped into any repo: deterministic Python owns the sequencing and the coding agent owns only one bounded phase at a time.
-Facts below verified as of 2026-09-07.
+Facts below verified as of 2026-09-08.
 
 ## What it is
 
@@ -22,7 +22,7 @@ It is built on the `pi` coding agent plus `uv`, and there is a Vue-and-Bun visua
 
 ## Status
 
-Active, young, and deliberately small: 809 stars and 211 forks since creation on 2026-08-02, with the last push on 2026-08-04, as of 2026-09-07.
+Active, young, and deliberately small: 814 stars and 212 forks since creation on 2026-08-02, with the last push on 2026-08-04, as of 2026-09-08.
 The repository has a single commit on `main`, no releases, and a separate `example` branch that holds a demo repo with the factory already stamped in and real traces.
 This is a one-author starting point ("nothing here is meant to survive contact with your codebase unchanged"), not an actively multiplying ecosystem.
 

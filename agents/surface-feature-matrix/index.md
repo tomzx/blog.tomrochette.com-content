@@ -1,7 +1,7 @@
 ---
 title: "Surface Feature Matrix"
 created: 2026-08-24
-updated: 2026-09-07
+updated: 2026-09-08
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, comparison, surfaces, ai-editors]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 This matrix compares the twelve surfaces profiled in this section, feature by feature, from editors to agent platforms to session cockpits.
-Everything below was verified against live sources on 2026-08-24 and re-verified on 2026-09-07.
+Everything below was verified against live sources on 2026-08-24 and re-verified on 2026-09-08.
 
 **The surfaces differ less in whether they have an agent and more in what they are: an editor with an agent inside, a platform that treats the editor as one client, or a cockpit for many agents, and the row that matters most is the one nobody advertises, who runs where.**
 
@@ -66,10 +66,10 @@ Antigravity and OpenChamber are the extremes, a closed platform giving the most 
 ## References
 
 - https://antigravity.google/pricing - free tier scope for the Antigravity column
-- https://cursor.com/docs/context/rules - AGENTS.md support for the Cursor column
+- https://cursor.com/docs/rules - AGENTS.md support for the Cursor column (formerly /docs/context/rules, moved)
 - https://code.visualstudio.com/docs/agent-customization/custom-instructions - AGENTS.md support for the VS Code column
 - https://zed.dev/docs/ai/agents - agent and AGENTS.md support for the Zed column
-- https://docs.trae.ai/ide/agent-rules - AGENTS.md support for the Trae column
+- https://docs.trae.ai/ide/agent-rules - AGENTS.md support for the Trae column (currently redirects through a Trae promo page mid-site-restructure)
 - https://docs.continue.dev/customize/rules - rules system for the Continue column
 - https://roocodeinc.github.io/Roo-Code/features/custom-instructions - AGENTS.md and .roorules for the Roo Code column
 - https://roocodeinc.github.io/Roo-Code/features/mcp/overview - MCP for the Roo Code column

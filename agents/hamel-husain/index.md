@@ -1,7 +1,7 @@
 ---
 title: Hamel Husain
 created: 2026-08-29
-updated: 2026-08-30
+updated: 2026-09-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=big-pickle, llm=glm-5.3-flash, people, publications, evals, applied-ai, llm-practitioner]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Hamel Husain is the independent consultant and writer who turned AI evaluation, "evals", from an afterthought into the disciplined practice teams use to decide whether their agent works.
-Facts below verified as of 2026-09-07.
+Facts below verified as of 2026-09-08.
 
 **His core argument is that most AI teams focus on architecture when what decides success is measurement and iteration: the teams that win "obsess over measurement and iteration" rather than the vector database or framework.**
 
@@ -23,7 +23,7 @@ The [A Field Guide to Rapidly Improving AI Products](https://hamel.dev/blog/post
 
 ## Status
 
-Active and influential as of 2026-09-07.
+Active and influential as of 2026-09-08.
 The blog posts through mid-2026, most recently "AI Product Engineering Notes" (2026-08-12) and "Do Automated Evals Work?" (2026-07-11).
 He co-teaches the [AI Evals for Engineers and PMs](https://maven.com/parlance-labs/evals) course with Shreya Shankar, reporting 4,500+ engineers and PMs from teams like OpenAI, Google, Meta, Amazon, and Microsoft.
 He is co-author of the forthcoming O'Reilly book [Evals for AI Engineers](https://www.oreilly.com/library/view/evals-for-ai/9798341660717/).
@@ -45,7 +45,7 @@ He is co-author of the forthcoming O'Reilly book [Evals for AI Engineers](https:
 ## Pricing
 
 Free to read on the blog and substack.
-The course is paid ($4,200 on Maven as of 2026-09-07), and Parlance Labs sells consulting and the O'Reilly book is forthcoming.
+The course is paid ($4,200 on Maven as of 2026-09-08), and Parlance Labs sells consulting and the O'Reilly book is forthcoming.
 
 ## Compared to
 

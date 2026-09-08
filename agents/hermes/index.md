@@ -1,7 +1,7 @@
 ---
 title: Hermes Agent
 created: 2026-08-27
-updated: 2026-09-07
+updated: 2026-09-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, assistant-runtimes, personal-assistants, nous-research, open-source]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Hermes Agent is Nous Research's MIT-licensed self-improving personal agent: a Python gateway process that lives in your chat channels, builds skills from its own experience, and runs on everything from a $5 VPS to serverless sandboxes, at about 242k stars the biggest runtime launch since OpenClaw.
-Facts below verified as of 2026-09-07.
+Facts below verified as of 2026-09-08.
 
 **Hermes' bet is that the runtime winner is decided by the learning loop, not the channel list: an agent that curates its own memory, writes its own skills, and models you across sessions compounds while the others merely answer.**
 
@@ -25,7 +25,7 @@ Execution spans seven backends (local, Docker, SSH, Singularity, Modal, Daytona,
 ## Status
 
 Massive and fast-moving.
-As of 2026-09-07: 242,715 stars and 49,923 forks since creation on 2025-07-22, pushed today, MIT, and 40,490 open issues, a support surface bigger than most projects' users.
+As of 2026-09-08: 243,172 stars and 50,084 forks since creation on 2025-07-22, pushed today, MIT, and 40,714 open issues, a support surface bigger than most projects' users.
 The [52-point launch thread](https://news.ycombinator.com/item?id=48419000) landed June 2026, and a real tool ecosystem followed (a 28-point Grafana observability integration, a Fleet console for managing Dockerized Hermes agents, XMPP interop with OpenClaw).
 **The governance record is the caution: a May 2026 thread documents Nous editing a GitHub issue to remove plagiarism claims about Hermes Agent ([issue 10232](https://github.com/NousResearch/hermes-agent/issues/10232)), so origin claims around this project deserve independent reading.**
 
@@ -38,7 +38,7 @@ The [52-point launch thread](https://news.ycombinator.com/item?id=48419000) land
 
 ## Cautions
 
-- 40,490 open issues is triage weather, not a queue; expect to read code when things break.
+- 40,714 open issues is triage weather, not a queue; expect to read code when things break.
 - The plagiarism-claim edit is a stewardship red flag worth weighing before making it your memory keeper.
 - A self-curating memory compounds errors as efficiently as insights; the loop needs supervision, not just trust.
 - Windows installs bundle a lot of machinery (uv, Node, Git Bash), which is surface area to audit.

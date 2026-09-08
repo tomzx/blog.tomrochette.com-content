@@ -1,7 +1,7 @@
 ---
 title: "Task Management Feature Matrix"
 created: 2026-08-27
-updated: 2026-09-05
+updated: 2026-09-08
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, comparison, task-management, task-tracking]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 This matrix compares the three task managers profiled in this section, feature by feature, so choosing between them does not require reading three notes.
-Everything below was verified against live sources on 2026-09-07.
+Everything below was verified against live sources on 2026-09-08.
 
 **Files versus database is the row that decides everything else: it determines whether your board survives multiple agents racing on it, and the one feature only the commercialized tool has, PRD ingestion, came bundled with a license change.**
 

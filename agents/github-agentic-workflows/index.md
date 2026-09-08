@@ -1,7 +1,7 @@
 ---
 title: GitHub Agentic Workflows
 created: 2026-08-24
-updated: 2026-09-07
+updated: 2026-09-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, executions, github-actions, workflows]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 GitHub Agentic Workflows (gh-aw) define repository automation in Markdown with YAML frontmatter, compiled into a hardened GitHub Actions workflow that runs an AI coding agent with guardrails.
-Facts below verified as of 2026-09-07.
+Facts below verified as of 2026-09-08.
 
 **GitHub Actions is becoming the default execution substrate for code agents, and gh-aw is the mechanism that makes an untrusted LLM in CI survivable.**
 
@@ -26,7 +26,7 @@ It is built by GitHub Next with Microsoft Research, MIT-licensed, in public prev
 **Active preview with real traction.**
 About 5.1k stars, 533 forks, and roughly 17,500 commits in `github/gh-aw` as of 2026-09-07.
 The February 2026 Hacker News launch thread drew 302 points and 141 comments.
-The trust story has moved: an August 2026 billing bug forced the retirement of releases 0.68.4 through 0.71.3, and while that notice has since been cleared from the README (releases now run v0.88.x, latest v0.88.5 on 2026-09-07), the episode shows how quickly this preview will break its users.
+The trust story has moved: an August 2026 billing bug forced the retirement of releases 0.68.4 through 0.71.3, and while that notice has since been cleared from the README (releases now run v0.88.x, latest v0.88.6 on 2026-09-07), the episode shows how quickly this preview will break its users.
 
 ## Strengths
 

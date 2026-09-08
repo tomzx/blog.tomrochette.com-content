@@ -1,7 +1,7 @@
 ---
 title: Nanobot
 created: 2026-08-30
-updated: 2026-09-07
+updated: 2026-09-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, assistant-runtimes, python, self-hosted, open-source]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Nanobot is an MIT-licensed, self-hosted personal AI agent runtime in Python that packages a small agent core with a bundled WebUI, terminal UI, eight-plus chat channels, tools, long-term memory, MCP support, scheduled automations, and an OpenAI-compatible API, positioned openly as the lightweight alternative to OpenClaw.
-Facts below verified as of 2026-09-07.
+Facts below verified as of 2026-09-08.
 
 **Nanobot is the category's readability bet: an agent core small enough to read in an afternoon, at the price of alpha maturity and a bus factor of essentially one maintainer.**
 
@@ -24,7 +24,7 @@ Started by Xubin Ren as a personal project, now under the HKUDS lab banner (the 
 
 ## Status
 
-One of the fastest adoption curves in the category: 47,817 stars, 8,443 forks, 770 open issues as of 2026-09-07, created 2026-02-01, pushed today.
+One of the fastest adoption curves in the category: 47,870 stars, 8,450 forks, 768 open issues as of 2026-09-08, created 2026-02-01, pushed today.
 Fifteen PyPI releases from February to July 2026 (v0.3.0 on 2026-07-25), and the launch HN thread drew 257 points.
 **PyPI still classifies it Alpha, and one listed maintainer carries the release burden, the two facts I would weight against the star count.**
 
@@ -37,7 +37,7 @@ Fifteen PyPI releases from February to July 2026 (v0.3.0 on 2026-07-25), and the
 
 ## Cautions
 
-- Alpha maturity: seven months old, breaking-speed releases, and a 770-issue backlog large for its age.
+- Alpha maturity: seven months old, breaking-speed releases, and a 768-issue backlog large for its age.
 - Single-maintainer concentration on PyPI.
 - The category-level security problem applies in full: shell access plus chat channels plus prompt injection is the surface HN called a security nightmare, and a sibling runtime had an RCE exploit.
 - Lineage questions from the community about NanoClaw inspiration were never clearly addressed.

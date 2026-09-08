@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Fluent is a self-improving software factory that turns a team's vision, ideas, bug reports, user feedback, production logs, and agent traces into working software with writer, tester, reviewer, and learner roles inside one deterministic loop.
-Facts below verified as of 2026-09-07.
+Facts below verified as of 2026-09-08.
 
 ## What it is
 
@@ -21,7 +21,7 @@ Each run of a Work Item is an Attempt that a Writer, parallel Reviewers, a deter
 
 ## Status
 
-Active and meaningfully developed: 87 stars and 1 fork since creation on 2026-07-10, 1,776 commits, and v0.3.0 released 2026-08-31 (still the newest release) per the GitHub API as of 2026-09-07.
+Active and meaningfully developed: 88 stars and 1 fork since creation on 2026-07-10, 1,776 commits, and v0.3.0 released 2026-08-31 (still the newest release) per the GitHub API as of 2026-09-08.
 v0.3.0 added durable Slack collaboration for planning, approvals, and candidate handoff, plus stronger recovery for long-running, scheduler-owned work.
 It is a focused single-author project with a real Discord community, not the biggest crowd but steadily shipped.
 The governance and self-improvement loop are unusually detailed for the category, which is the design bet the note weighs.

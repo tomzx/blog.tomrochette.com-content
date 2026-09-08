@@ -1,7 +1,7 @@
 ---
 title: "Memory Feature Matrix"
 created: 2026-08-24
-updated: 2026-09-06
+updated: 2026-09-08
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, comparison, memory, agent-memory, ai-agents]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 This matrix compares the seven memory approaches profiled in this section, feature by feature: the file convention, the session-compression plugin, the memory-first harness, the two memory APIs, the self-hostable graph pipeline, and the portable memory format.
-Everything below was re-verified against live sources on 2026-09-07, with the Cognee column first verified 2026-08-26 and the Memoryfields column first verified 2026-09-04.
+Everything below was re-verified against live sources on 2026-09-08, with the Cognee column first verified 2026-08-26 and the Memoryfields column first verified 2026-09-04.
 
 **For coding agents I would start with plain files and not buy any service on benchmark claims, because the only memory problem files cannot solve at any price is contradiction over time, and Zep is the only vendor whose architecture faces it head on.**
 
@@ -83,7 +83,7 @@ Mem0's $19 Starter undercuts everyone; Zep's credit metering prices the audit tr
 - https://www.getzep.com/pricing - Zep plans and credit metering for the pricing row
 - https://github.com/getzep/graphiti - the temporal graph engine, self-host requirements for the Zep column
 - https://github.com/topoteretes/cognee - the Cognee column: whole-engine Apache-2.0, backends, multi-user docs
-- https://www.cognee.ai/pricing - Cognee cloud per-token rate, workspace fee, and the Enterprise bi-temporal memory listing, as of 2026-09-07
+- https://www.cognee.ai/pricing - Cognee cloud per-token rate, workspace fee, and the Enterprise bi-temporal memory listing, as of 2026-09-08
 - https://github.com/thedotmack/claude-mem - the claude-mem column: hook architecture, SQLite storage, license, adoption
 - https://docs.claude-mem.ai/architecture/overview - the compression flow and integration surfaces for the claude-mem column
 - https://claude-mem.ai - claude-mem pricing tiers for the pricing row

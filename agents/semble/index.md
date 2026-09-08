@@ -12,7 +12,7 @@ audience_notes: >
 ---
 
 Semble is a MIT-licensed local code search tool built for coding agents: it chunks a repository along syntax boundaries, indexes it with static Model2Vec embeddings plus BM25, and answers natural-language queries with only the relevant snippets.
-Facts below verified as of 2026-09-07.
+Facts below verified as of 2026-09-08.
 
 **Semble's bet is that a code-specialized index small enough to run in under a second on any CPU can replace the most expensive thing an agent does, which is grep-failing its way through full-file reads.**
 

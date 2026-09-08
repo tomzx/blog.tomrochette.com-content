@@ -1,7 +1,7 @@
 ---
 title: VS Code + Copilot
 created: 2026-08-23
-updated: 2026-09-07
+updated: 2026-09-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, surfaces, ai-editors, microsoft, github]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 VS Code plus GitHub Copilot is Microsoft's agent surface: an MIT-licensed editor that now hosts several agent harnesses, with Copilot sold as a plan family from free to $100/month.
-Facts below verified as of 2026-09-07.
+Facts below verified as of 2026-09-08.
 
 **VS Code won the surface war by refusing to pick a winner: it runs Copilot, Claude Code, and Codex as swappable harnesses inside one editor, and that neutrality is worth more than any single agent feature.**
 
@@ -68,9 +68,9 @@ Not for teams that want the editor itself to come with strong opinions.
 
 ## References
 
-- https://code.visualstudio.com/docs/copilot/overview - the agent-centric docs, harness and session model
-- https://docs.github.com/en/copilot/get-started/plans - plan prices and AI credit allotments, as of 2026-09-07
-- https://docs.github.com/en/copilot/concepts/about-copilot-coding-agent - the cloud agent and issue assignment
+- https://code.visualstudio.com/docs/agents/overview - the agent-centric docs, harness and session model (formerly /docs/copilot/overview, moved in the 2026 docs reorg)
+- https://docs.github.com/en/copilot/get-started/plans - plan prices and AI credit allotments, as of 2026-09-08
+- https://docs.github.com/en/copilot/concepts/agents/cloud-agent/about-cloud-agent - the cloud agent and issue assignment (formerly /concepts/about-copilot-coding-agent, moved)
 - https://github.blog/changelog/2026-09-03-reopening-copilot-business-and-enterprise-signups - the September 3, 2026 reopening announcement for self-serve Business and Enterprise sign-ups
 - https://github.com/microsoft/vscode - MIT license and repository scale, as of 2026-09-07
 - https://news.ycombinator.com/item?id=44031432 - coding-agent launch discussion with early skepticism

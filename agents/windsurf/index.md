@@ -1,7 +1,7 @@
 ---
 title: Windsurf
 created: 2026-08-23
-updated: 2026-09-07
+updated: 2026-09-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, surfaces, ai-editors, cognition, devin]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Windsurf was the agentic IDE that survived an aborted $3 billion OpenAI acquisition and a Cognition rescue, and it is now being rebranded out of existence as Devin Desktop.
-Facts below verified as of 2026-09-07.
+Facts below verified as of 2026-09-08.
 
 **Windsurf is the category's cautionary tale: the number-two AI editor was bought, broken up, and rebranded within two months in mid-2025, and its retirement into Devin Desktop is the reminder that loyalty to an AI editor has no asset value.**
 
@@ -41,7 +41,7 @@ On September 2, 2026, Bloomberg reported that Cognition is closing a round of ab
 ## Cautions
 
 - **You cannot buy Windsurf anymore, you buy Devin**: check whether your workflow survives an owner whose flagship is a cloud autonomous agent.
-- windsurf.com now 308-redirects to devin.ai/desktop, whose pages reject automated fetches (last checked 2026-09-07), so plan pages remain unverified.
+- windsurf.com now 308-redirects to devin.ai/desktop, whose pages reject automated fetches (last checked 2026-09-08), so plan pages remain unverified.
 - The equity dispute thread is a reminder of how much human turbulence this product absorbed in 2025.
 - A rebrand in progress means docs, packages, and repositories still say windsurf in places; expect transitional breakage.
 
@@ -70,9 +70,9 @@ Not for new adoption: picking a brand mid-retirement means betting on one compan
 
 ## References
 
-- https://cognition.ai/blog/windsurf - the July 14, 2025 acquisition agreement, ARR, and customer counts
-- https://cognition.ai/blog/introducing-devin-desktop - the June 2, 2026 rebrand announcement
-- https://docs.windsurf.com/ - current product docs as Devin Desktop (package, harness, credits)
+- https://cognition.com/blog/windsurf - the July 14, 2025 acquisition agreement, ARR, and customer counts
+- https://cognition.com/blog/introducing-devin-desktop - the June 2, 2026 rebrand announcement
+- https://docs.devin.ai/desktop/getting-started - current product docs as Devin Desktop (package, harness, credits), reached today via docs.windsurf.com
 - https://theedgemalaysia.com/node/816527 - Bloomberg's report via The Edge Malaysia, the $1 billion round at a $47 billion valuation, September 2, 2026
 - https://news.ycombinator.com/item?id=44536988 - the July 2025 deal-collapse and CEO-to-Google thread
 - https://news.ycombinator.com/item?id=44673296 - the early-employee equity dispute thread

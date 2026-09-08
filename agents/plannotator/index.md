@@ -1,7 +1,7 @@
 ---
 title: Plannotator
 created: 2026-08-30
-updated: 2026-09-07
+updated: 2026-09-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, evaluation, code-review, human-in-the-loop, open-source]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Plannotator is a free, open-source, local browser-based review surface that intercepts coding-agent plan proposals and code diffs so you can annotate them visually and send structured feedback straight back into the live agent session.
-Facts below verified as of 2026-09-07.
+Facts below verified as of 2026-09-08.
 
 **Plannotator closes the cheapest loop in agent work, the one between what you see wrong in a plan and what the agent receives, and its marketing outpaced its README exactly once, on the encryption claim, which the README itself corrects.**
 
@@ -25,7 +25,7 @@ Dual Apache-2.0 or MIT, written almost entirely by one developer (1,165 commits)
 
 ## Status
 
-Fast and growing: 8,532 stars, 637 forks, 163 open issues and PRs as of 2026-09-07, created 2025-12-28, pushed 2026-09-06, v0.27.12 released 2026-09-03.
+Fast and growing: 8,546 stars, 638 forks, 161 open issues and PRs as of 2026-09-08, created 2025-12-28, pushed 2026-09-08, v0.27.12 released 2026-09-03.
 **The 0.27.x line says pre-1.0 churn, and the growth came through social channels rather than press; its Show HN thread drew 5 points.**
 
 ## Strengths

@@ -1,7 +1,7 @@
 ---
 title: Bullet
 created: 2026-08-30
-updated: 2026-09-07
+updated: 2026-09-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agents, harnesses, model-routing, benchmarks]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Bullet is a closed-source coding agent (desktop app plus npm CLI) from a YC S26 startup whose entire pitch is latency: route simple tasks to fast models, search instead of embedding the repo, run tool calls in parallel, and kill stuck loops.
-Facts below verified as of 2026-09-07.
+Facts below verified as of 2026-09-08.
 
 **Bullet is the first harness to compete on speed rather than capability, and its benchmark write-up is the most transparent vendor self-report in the category, which makes the closed source the only thing standing between it and a serious look.**
 
@@ -74,4 +74,4 @@ I think speed is the wrong axis for buying a coding agent, and a 119-second mean
 - https://api.npmjs.org/downloads/point/last-month/@trybullet/cli - 3,661 monthly downloads as of 2026-09-07
 - https://github.com/trybullet/bullet-releases - desktop release channel, v1.4.16 published September 2, 2026
 - https://news.ycombinator.com/item?id=49283063 - 121-point Launch HN with YC S26 in the title and community skepticism
-- https://news.ycombinator.com/item?id=49173799 - the earlier 9-point Show HN ten days prior
+- https://news.ycombinator.com/item?id=49173799 - the earlier 9-point Show HN nine days prior

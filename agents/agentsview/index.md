@@ -1,7 +1,7 @@
 ---
 title: agentsview
 created: 2026-08-30
-updated: 2026-09-07
+updated: 2026-09-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, session-analytics, observability, token-usage, open-source]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 agentsview is a local-first, MIT-licensed Go application that discovers the session files your coding agents already write on disk, indexes them into a searchable local SQLite archive, and serves a web UI, CLI, and desktop app for browsing, analytics, and token-cost reporting across roughly 60 agent sources.
-Facts below verified as of 2026-09-07.
+Facts below verified as of 2026-09-08.
 
 **agentsview's premise is that your agents already write the telemetry; the missing piece was a tool that reads all of it in one place, locally, instead of each harness showing you only its own slice.**
 
@@ -19,13 +19,13 @@ Facts below verified as of 2026-09-07.
 
 A Go daemon that watches known per-agent session directories (Claude Code, Codex, Gemini CLI, Copilot, Cursor, Zed, Windsurf, OpenCode, Qwen Code, Goose, Kiro, and more, roughly 60 sources listed), parses their JSONL and database logs, and syncs them into a local SQLite database with FTS5 full-text search.
 Surfaces: a web UI on loopback, a CLI (`agentsview usage daily`, `session search`, `stats`), a Tauri desktop app, Docker, plus optional PostgreSQL push for shared team dashboards, S3-backed session roots, and a DuckDB mirror.
-Token-cost reporting uses a model-pricing catalog, and the project's own benchmark claims 84 to 223 times faster cost reports than re-parsing with ccusage, with the docs themselves calling that an upper bound.
+Token-cost reporting uses a model-pricing catalog; an earlier version of the docs benchmarked reports at 84 to 223 times faster than re-parsing with ccusage (called an upper bound by the docs themselves), but the current docs have dropped that benchmark and now simply note ccusage covers the same core job.
 Pure local file parsing: no cloud service, no accounts, no LLM calls required; an anonymous activity ping fires by default and can be disabled.
 Made by Kenn Software LLC; install via curl script, Homebrew cask, desktop builds, or Docker.
 
 ## Status
 
-Young and active: 5,792 stars, 656 forks, 104 open issues and PRs as of 2026-09-07, created 2026-02-19, pushed 2026-09-06.
+Young and active: 5,798 stars, 658 forks, 113 open issues and PRs as of 2026-09-08, created 2026-02-19, pushed 2026-09-08.
 Latest release v0.42.0 on 2026-09-01 with roughly weekly releases since July; pre-1.0 with fast feature churn.
 
 ## Strengths
@@ -39,7 +39,7 @@ Latest release v0.42.0 on 2026-09-01 with roughly weekly releases since July; pr
 
 - Pre-1.0 with breaking schema bumps (usage output is at schema version 5), so scripts consuming its output churn.
 - Token coverage is opportunistic: cost rows appear only when a transcript contains both token counts and a priceable model, and the docs admit known undercounts such as Claude WebSearch side-calls.
-- The benchmark numbers are vendor-supplied on vendor hardware.
+- The 84-223x benchmark numbers the docs used to publish were vendor-supplied on vendor hardware, and their removal leaves no performance evidence in either direction.
 - The daemon, serve, DuckDB, and PostgreSQL surface is real operational weight if all you wanted was a cost report.
 
 ## Pricing
@@ -69,7 +69,7 @@ Not for single-agent users well served by built-in cost views, or teams wanting 
 
 - https://github.com/kenn-io/agentsview - repository, supported agents, architecture, license
 - https://agentsview.io - docs, architecture, install, and the Kenn Software attribution
-- https://agentsview.io/token-usage/ - cost computation, the ccusage benchmark and its upper-bound caveat, and the undercount disclosures
+- https://agentsview.io/docs/token-usage/ - cost computation, the undercount disclosures, and the removal of the earlier ccusage benchmark
 - https://github.com/kenn-io/agentsview/releases - release cadence and current version
 - https://github.com/simple10/agents-observe - comparison data for the live-observability alternative
 - https://code.claude.com/docs/en/costs - the built-in cost tracking this category extends

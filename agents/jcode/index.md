@@ -12,7 +12,7 @@ audience_notes: >
 ---
 
 jcode is a Rust terminal coding agent from Solo Systems, the one-person company of Jeremy Huang (YC S26), built on the claim that a tiny RAM footprint is what makes dozens of parallel agents practical.
-Facts below verified as of 2026-09-07.
+Facts below verified as of 2026-09-08.
 
 **jcode is the first harness whose headline feature is not intelligence but arithmetic: about 10 MB of extra memory per added session (ten sessions cost roughly 100 MB), so running a dozen agents stops being a memory decision, and it ships the memory graph and swarm coordination that assume you will.**
 

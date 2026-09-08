@@ -1,7 +1,7 @@
 ---
 title: fx
 created: 2026-08-29
-updated: 2026-09-07
+updated: 2026-09-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agents, harnesses, zig, vercel, embedding]
 readability: 3
@@ -11,20 +11,20 @@ audience_notes: >
 ---
 
 fx is Vercel Labs' coding agent harness and CLI written in Zig, built to be embedded in larger systems rather than to be your full development environment.
-Facts below verified as of 2026-09-07.
+Facts below verified as of 2026-09-08.
 
 **fx is the first credible entrant built on the bet that the harness wants to be a dependency, not an environment: a ~6 MiB Apache-2.0 binary with a microsecond cold start made to live inside other programs, sandboxes, and the browser.**
 
 ## What it is
 
-A single Zig binary (~6.39 MiB per the [site](https://fx.sh/)) that claims a 10 microsecond cold start and does no unnecessary I/O before accepting input, with a CLI form factor pitched closer to a Unix shell than an IDE-in-the-terminal TUI.
+A single Zig binary (6.01 MiB per the [site](https://fx.sh/)) that does no unnecessary I/O before accepting input (the v0.0.8 release notes measure CLI startup at about 0.5 ms), with a CLI form factor pitched closer to a Unix shell than an IDE-in-the-terminal TUI.
 It is open source (Apache-2.0), model-agnostic, and compiles to WebAssembly, which is how the site runs the whole agent in a browser demo.
 Feature surface: native [AGENTS.md](https://fx.sh/docs/configure-fx/project-instructions) loading (global, workspace, and per-directory), [MCP](https://fx.sh/docs/capabilities/mcp), Claude-format skills directories (.claude/skills/ and peers), [subagents](https://fx.sh/docs/capabilities/subagents) as persistent child sessions with durable message queues, web search, vision, and an [`fx acp`](https://fx.sh/docs/using-fx/acp) server so ACP-speaking editors can host it.
 
 ## Status
 
 **Active and very young.**
-The repository was created August 11, 2026 and shows 2,786 stars and 320 forks as of 2026-09-07, with v0.0.7 still the latest release and pushes landing on 2026-09-07 (GitHub API).
+The repository was created August 11, 2026 and shows 2,792 stars and 320 forks as of 2026-09-08, with v0.0.8 the latest release (published September 7, 2026, with breaking changes to the shell tool and the subagent interface) and pushes landing on 2026-09-08 (GitHub API).
 The launch thread drew 318 points on August 18, 2026 ([HN](https://news.ycombinator.com/item?id=49353339)).
 The README carries its own banner: "Status: Experimental. Use at your own risk."
 
@@ -69,8 +69,8 @@ Not for anyone who needs local models, provider-key BYOK, or a stable release li
 
 ## References
 
-- https://github.com/vercel-labs/fx - repository, Apache-2.0, scale and releases, as of 2026-09-07
-- https://fx.sh/ - product claims, v0.0.7 binary size, Wasm demo, cold start
+- https://github.com/vercel-labs/fx - repository, Apache-2.0, scale and releases, as of 2026-09-08
+- https://fx.sh/ - product claims, v0.0.8 binary size, Wasm demo, cold start
 - https://fx.sh/docs/getting-started/authentication - the three-credential provider model and local token storage
 - https://fx.sh/docs/configure-fx/project-instructions - native AGENTS.md loading
 - https://fx.sh/docs/capabilities/subagents - the persistent-child subagent system

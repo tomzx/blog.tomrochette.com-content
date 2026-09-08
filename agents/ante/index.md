@@ -12,7 +12,7 @@ audience_notes: >
 ---
 
 Ante is a self-contained coding harness from Antigma Labs that ships as one ~15MB Rust binary with an embedded llama.cpp engine, so it can drive cloud models or run GGUF models fully offline.
-Facts below verified as of 2026-09-07.
+Facts below verified as of 2026-09-08.
 
 **Ante is the first harness whose pitch is that footprint and offline capability are the product: the TUI, an embedded ripgrep, PDF/OCR, and a natively managed local inference engine all live inside one binary with zero runtime dependencies.**
 

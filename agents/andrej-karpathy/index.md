@@ -1,7 +1,7 @@
 ---
 title: Andrej Karpathy
 created: 2026-08-29
-updated: 2026-09-02
+updated: 2026-09-08
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=big-pickle, llm=glm-5.3-flash, people, publications, developer, model-researcher]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Andrej Karpathy names the eras: he coined "vibe coding", drew the line between vibe coding and agentic engineering, and reframed the current era as Software 3.0 in his 2026 essays.
-Facts below verified as of 2026-09-07.
+Facts below verified as of 2026-09-08.
 
 **Karpathy is less a chronicler than a vocabulary-setter: his Software 3.0 framing, that the context window is now the program and verifiability defines what AI can automate, is the lens this whole section's subject matter is read through.**
 
