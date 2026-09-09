@@ -748,3 +748,8 @@ Changes to this section that do not appear here were made by a human and must be
 
 - Owner request in chat: the model-selection-for-coding-tasks lineup table transposed, models moved from sixteen rows to sixteen columns so the table reads as two attribute rows (input/output per 1M, notes) against the model columns; prices, notes, and the provider-grouped column order unchanged from the verified 2026-09-08 state [glm-5.3-flash]
 - No facts changed, so the verified line and `updated` field stay at 2026-09-08; the wide-table site component (pinned label column, column picker) renders the seventeen-column layout without content-side markup [glm-5.3-flash]
+
+## 2026-09-08 (owner-prompted, model-selection table property rows)
+
+- Owner request in chat: more properties in the transposed lineup table; the single Notes column decomposed into four property rows (Cached input per 1M, Context behavior, Pricing windows, Notes), every cell grounded in the article's verified prose (cache ratios from the cached-reads bullet, context behavior from the whole-repo bullet, windows from the promo and off-peak facts) with no new facts introduced [glm-5.3-flash]
+- A ? cell plus a footnote sentence marks properties the verified pricing pages do not state (Haiku 4.5, Gemini Flash-Lite, and GLM-5.3 context); `updated` and the verified line stay at 2026-09-08 since no fact moved [glm-5.3-flash]
