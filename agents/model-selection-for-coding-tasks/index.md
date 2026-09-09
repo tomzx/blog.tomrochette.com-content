@@ -20,7 +20,7 @@ The part most engineers get backwards: **for anyone paying per token, the harnes
 
 **Three task classes cover almost all coding work, and each maps to a price tier, not to a leaderboard rank.**
 
-- Completion and small edits: the model writes a few dozen lines from tight context; latency and price matter more than peak reasoning, so the cheap tier wins (gpt-5.6-luna, Gemini 3.1 Flash-Lite, Claude Haiku 4.5).
+- Completion and small edits: the model writes a few dozen lines from tight context; latency and price matter more than peak reasoning, so the cheap tier wins (gpt-5.6-luna, Gemini 3.1 Flash-Lite, Claude Haiku 4.5, GLM-5.3-Flash).
 - The agentic loop: explore, edit, test, repeat for minutes or hours; this is where most tokens die, and the mid tier (Claude Sonnet 5, gpt-5.6-terra, Gemini 3.1 Pro Preview) resolves most of it, while the Kimi, GLM, and DeepSeek challengers below price the same class far lower.
 - Hard planning and review judgment: architecture choices, gnarly debugging, deciding what to let through; this is the only class where frontier spend reliably pays, and it is a small fraction of your turns.
 
@@ -30,14 +30,14 @@ Escalate by task class inside a session instead of picking one model for everyth
 
 **The workhorse tier has converged to roughly $2 in and $10-12 out per million tokens at every major provider, which means switching costs are now measured in harness integration, not price.**
 
-| Model | gpt-5.6-luna | gpt-5.6-terra | gpt-5.6-sol | gpt-5.3-codex | Claude Haiku 4.5 | Claude Sonnet 5 | Claude Opus 5 | Claude Fable 5.1 | Gemini 3.1 Flash-Lite | Gemini 3.7 / 3.6 Flash | Gemini 3.1 Pro Preview | kimi-k2.7-code | kimi-k3 | GLM-5.3 | deepseek-v4-pro | deepseek-v4-flash |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Released | 2026-07 | 2026-07 | 2026-07 | 2026-02-05 | 2025-10-15 | 2026-06-30 | 2026-07-24 | 2026-09-01 | 2026-02 | 2026-07 (3.6) | 2026-02-19 | 2026-06-12 | 2026-07-16 | 2026-08-14 | 2026-04-24 | 2026-04-24 |
-| Input / output per 1M | $0.20 / $1.20 | $2 / $12 | $4 / $20 | $1.75 / $14 | $1 / $5 | $2 / $10 | $5 / $25 | $10 / $50 | $0.25 / $1.50 | $0.75 / $3.75 | $2 / $12 | $0.95 / $4.00 | $3.00 / $15 | $1.40 / $4.40 | $1.32 / $3.96 | $0.44 / $1.32 |
-| Cached input per 1M | $0.02 | ~10% of input | ~10% of input | ~10% of input | ~10% of input | ~10% of input | ~10% of input | 2.5% of input | ~10% of input | ~10% of input | ~10% of input | $0.19 | ~10% of input | ~20% of input | $0.044 | $0.014 |
-| Context behavior | doubles past threshold | doubles past threshold | doubles past threshold | doubles past threshold | ? | 1M flat | 1M flat | 1M flat | ? | doubles past threshold | doubles beyond 200K | 256K | 1M flat | ? | 1M flat, 384K max output | 1M flat, 384K max output |
-| Pricing windows | none | none | promo through 2026-11-21 | none | none | intro price made standard, planned increase cancelled | none | none | none | intro to 2026-12-31, then doubles | none | HighSpeed variant at 2x price | none | none | off-peak half ($0.66 / $1.98) | off-peak $0.22 / $0.66 |
-| Notes | cheap tier | workhorse | frontier | coding-specialized API model | cheap tier | workhorse | frontier | top tier, Amp BYOK documents data-retention caveats | cheap tier | cost-led high-volume option | workhorse | challenger, coding-specialized, multimodal input | challenger flagship, always reasons with configurable effort | challenger, GLM-5 at $1/$3.20, GLM-4.7-Flash free | challenger workhorse, Anthropic-format endpoint | challenger cheap tier, Anthropic-format endpoint |
+| Model | gpt-5.6-luna | gpt-5.6-terra | gpt-5.6-sol | gpt-5.3-codex | Claude Haiku 4.5 | Claude Sonnet 5 | Claude Opus 5 | Claude Fable 5.1 | Gemini 3.1 Flash-Lite | Gemini 3.7 / 3.6 Flash | Gemini 3.1 Pro Preview | kimi-k2.7-code | kimi-k3 | GLM-5.3 | GLM-5.3-Flash | deepseek-v4-pro | deepseek-v4-flash |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Released | 2026-07 | 2026-07 | 2026-07 | 2026-02-05 | 2025-10-15 | 2026-06-30 | 2026-07-24 | 2026-09-01 | 2026-02 | 2026-07 (3.6) | 2026-02-19 | 2026-06-12 | 2026-07-16 | 2026-08-14 | 2026-08-26 | 2026-04-24 | 2026-04-24 |
+| Input / output per 1M | $0.20 / $1.20 | $2 / $12 | $4 / $20 | $1.75 / $14 | $1 / $5 | $2 / $10 | $5 / $25 | $10 / $50 | $0.25 / $1.50 | $0.75 / $3.75 | $2 / $12 | $0.95 / $4.00 | $3.00 / $15 | $1.40 / $4.40 | $0.075 / $0.25 | $1.32 / $3.96 | $0.44 / $1.32 |
+| Cached input per 1M | $0.02 | ~10% of input | ~10% of input | ~10% of input | ~10% of input | ~10% of input | ~10% of input | 2.5% of input | ~10% of input | ~10% of input | ~10% of input | $0.19 | ~10% of input | ~20% of input | $0.015 | $0.044 | $0.014 |
+| Context behavior | doubles past threshold | doubles past threshold | doubles past threshold | doubles past threshold | ? | 1M flat | 1M flat | 1M flat | ? | doubles past threshold | doubles beyond 200K | 256K | 1M flat | ? | ? | 1M flat, 384K max output | 1M flat, 384K max output |
+| Pricing windows | none | none | promo through 2026-11-21 | none | none | intro price made standard, planned increase cancelled | none | none | none | intro to 2026-12-31, then doubles | none | HighSpeed variant at 2x price | none | none | 50% promo ends 2026-09-09 (UTC+8) | off-peak half ($0.66 / $1.98) | off-peak $0.22 / $0.66 |
+| Notes | cheap tier | workhorse | frontier | coding-specialized API model | cheap tier | workhorse | frontier | top tier, Amp BYOK documents data-retention caveats | cheap tier | cost-led high-volume option | workhorse | challenger, coding-specialized, multimodal input | challenger flagship, always reasons with configurable effort | challenger, GLM-5 at $1/$3.20, GLM-4.7-Flash free | challenger cheap tier | challenger workhorse, Anthropic-format endpoint | challenger cheap tier, Anthropic-format endpoint |
 
 A ? in the context row marks a property the verified pricing pages do not state.
 The lineup keeps only models released within the last year, and the oldest entry is Claude Haiku 4.5 on 2025-10-15, 37 days inside the window, with month-precision cells where only the launch month is documented.
@@ -56,6 +56,7 @@ GLM-5.3, 5.2, and 5.1 sit at $1.40 in and $4.40 out per million tokens, with GLM
 Kimi's coding-specialized kimi-k2.7-code undercuts that at $0.95/$4.00 with a 256K context and multimodal input, and its HighSpeed variant doubles the price for about 180-260 tokens per second of output.
 Kimi K3 takes the other flank: $3/$15, always reasoning with a configurable effort, and a flat-price 1M context that only Claude otherwise offers.
 Z.ai even keeps GLM-4.7-Flash free, which makes it the zero-dollar candidate for inline completion and routing experiments.
+GLM-5.3-Flash fills the gap between free and $1.40: $0.075 in and $0.25 out per million tokens under a 50 percent promotion ending 24:00 on 2026-09-09 Singapore time, half of a $0.15/$0.50 list price, with cached reads at $0.015.
 DeepSeek V4 undercuts them all: v4-pro lists at $1.32 in and $3.96 out per million at peak, with every hour outside 01:00-04:00 and 06:00-10:00 UTC on weekdays billed at half, so off-peak runs pay $0.66/$1.98.
 v4-flash drops to $0.44/$1.32 peak and $0.22/$0.66 off-peak, both models carry a flat 1M context with 384K max output, and thinking mode is on by default.
 DeepSeek's cache hits bill at $0.044 (pro) and $0.014 (flash) per million, about one thirtieth of a miss, the deepest cache discount of any vendor in this guide.
@@ -63,7 +64,7 @@ It also exposes an Anthropic-format endpoint, so harnesses that speak the Claude
 Harness fit is solved: OpenCode lists Moonshot AI, Z.AI, and DeepSeek as native providers, so the lean BYOK harness plus a challenger model is one /connect away.
 **My disagreeable claim: for a token-payer, the rational default loop in August 2026 is deepseek-v4-pro, kimi-k2.7-code, or GLM-5.3 through OpenCode, and the big-three workhorses are what you escalate to, not what you default to.**
 Whether the challengers hold quality on your codebase is exactly what SWE-bench's bash-only view and a two-week cost-per-merged-PR measurement are for; the economics alone no longer justify defaulting to the big three.
-The era of Gemini Flash's $0.75 intro rate leading a price category is over: deepseek-v4-flash beats it at $0.44 peak, $0.22 off-peak, with no expiry announced.
+The era of Gemini Flash's $0.75 intro rate leading a price category is over: GLM-5.3-Flash undercuts it at $0.075 while its promo runs, and deepseek-v4-flash beats it permanently at $0.44 peak, $0.22 off-peak, with no expiry announced.
 
 ## Benchmarks decay faster than prices
 
@@ -99,11 +100,11 @@ One fence to remember: Anthropic's March 2026 legal requests removed Claude subs
 **Everything above collapses into one sentence per situation, and every price claim in it is dated in the table above.**
 
 - Daily loop default: Claude Sonnet 5, gpt-5.6-terra, or Gemini 3.1 Pro Preview; pick by harness fit, they price the same.
-- High-volume loops where cost leads: deepseek-v4-flash at $0.44 peak and $0.22 off-peak with no expiry announced, or Gemini 3.7/3.6 Flash at its $0.75/$3.75 intro rate (calendar the 2026-12-31 end).
+- High-volume loops where cost leads: GLM-5.3-Flash at $0.075/$0.25 while its 50 percent promo runs ($0.15/$0.50 list after), deepseek-v4-flash at $0.44 peak and $0.22 off-peak with no expiry announced, or Gemini 3.7/3.6 Flash at its $0.75/$3.75 intro rate (calendar the 2026-12-31 end).
 - Price-floor loops, BYOK: deepseek-v4-pro, kimi-k2.7-code, or GLM-5.3 through OpenCode, all native providers; nothing credible stays cheaper.
 - Whole-repository reads: DeepSeek V4 from $0.44 in, a 1M-context Claude at $2, or Kimi K3 at $3 flat; all three keep 1M pricing flat.
 - Frontier minutes only: gpt-5.6-sol or Claude Opus 5 for planning and stuck debugging; Fable 5.1 when nothing else resolves.
-- Inline completion and edits: gpt-5.6-luna, Gemini 3.1 Flash-Lite, or Claude Haiku 4.5.
+- Inline completion and edits: gpt-5.6-luna, Gemini 3.1 Flash-Lite, Claude Haiku 4.5, or GLM-5.3-Flash.
 - Review passes and doc reading: cheap tier in batch mode, or a 1M-context Claude for whole-repo reads at standard price.
 - Offline or air-gapped: local models through aider, Crush, or Junie BYOK.
 - Already paying ChatGPT: run Codex, and consider Amp for delegated work.
@@ -111,7 +112,8 @@ One fence to remember: Anthropic's March 2026 legal requests removed Claude subs
 
 ## What changes fast and how to re-verify
 
-**Everything volatile in this guide is dated, and three clocks are already running.**
+**Everything volatile in this guide is dated, and four clocks are already running.**
+GLM-5.3-Flash's half-price launch promo ends 24:00 on 2026-09-09 Singapore time, the nearest deadline in this guide.
 Sol's promotional pricing runs at least through 2026-11-21, the Gemini Flash intro rate ends 2026-12-31, and benchmark relevance decays on roughly a quarterly cycle (CodeClash, then ProgramBench within six months).
 Sonnet 5 shows the other direction: a scheduled September 2026 increase to $3/$15 was cancelled weeks before taking effect, so scheduled changes are announcements, not facts.
 On each refresh I re-fetch the six provider pricing pages (OpenAI, Anthropic, Google, Moonshot, Z.ai, DeepSeek), the SWE-bench leaderboards, and one current harness-overhead measurement, and I update the table above and the as-of date together.
@@ -123,7 +125,7 @@ A fact that cannot survive that re-fetch gets deleted rather than hedged.
 - Measure cost per merged PR on your own repository for two weeks; that number outranks every benchmark cited here.
 - If you pay per token, prefer a harness with byte-stable cache prefixes, because the 54x cache re-write failure mode costs more than any model choice.
 - Route review sweeps through batch mode; half price at all three providers is the cheapest quality improvement available.
-- Calendar the 2026-11-21 and 2026-12-31 promo deadlines and re-run your economics then.
+- Calendar the 2026-09-09, 2026-11-21, and 2026-12-31 promo deadlines and re-run your economics then.
 - If you point a loop at DeepSeek, schedule the long runs off-peak; half price by the clock is the deepest vendor discount in this guide and it stacks with caching.
 
 ## See also
