@@ -32,6 +32,7 @@ Escalate by task class inside a session instead of picking one model for everyth
 
 | Model | gpt-5.6-luna | gpt-5.6-terra | gpt-5.6-sol | gpt-5.3-codex | Claude Haiku 4.5 | Claude Sonnet 5 | Claude Opus 5 | Claude Fable 5.1 | Gemini 3.1 Flash-Lite | Gemini 3.7 / 3.6 Flash | Gemini 3.1 Pro Preview | kimi-k2.7-code | kimi-k3 | GLM-5.3 | deepseek-v4-pro | deepseek-v4-flash |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Released | 2026-07 | 2026-07 | 2026-07 | 2026-02-05 | 2025-10-15 | 2026-06-30 | 2026-07-24 | 2026-09-01 | 2026-02 | 2026-07 (3.6) | 2026-02-19 | 2026-06-12 | 2026-07-16 | 2026-08-14 | 2026-04-24 | 2026-04-24 |
 | Input / output per 1M | $0.20 / $1.20 | $2 / $12 | $4 / $20 | $1.75 / $14 | $1 / $5 | $2 / $10 | $5 / $25 | $10 / $50 | $0.25 / $1.50 | $0.75 / $3.75 | $2 / $12 | $0.95 / $4.00 | $3.00 / $15 | $1.40 / $4.40 | $1.32 / $3.96 | $0.44 / $1.32 |
 | Cached input per 1M | $0.02 | ~10% of input | ~10% of input | ~10% of input | ~10% of input | ~10% of input | ~10% of input | 2.5% of input | ~10% of input | ~10% of input | ~10% of input | $0.19 | ~10% of input | ~20% of input | $0.044 | $0.014 |
 | Context behavior | doubles past threshold | doubles past threshold | doubles past threshold | doubles past threshold | ? | 1M flat | 1M flat | 1M flat | ? | doubles past threshold | doubles beyond 200K | 256K | 1M flat | ? | 1M flat, 384K max output | 1M flat, 384K max output |
@@ -39,6 +40,7 @@ Escalate by task class inside a session instead of picking one model for everyth
 | Notes | cheap tier | workhorse | frontier | coding-specialized API model | cheap tier | workhorse | frontier | top tier, Amp BYOK documents data-retention caveats | cheap tier | cost-led high-volume option | workhorse | challenger, coding-specialized, multimodal input | challenger flagship, always reasons with configurable effort | challenger, GLM-5 at $1/$3.20, GLM-4.7-Flash free | challenger workhorse, Anthropic-format endpoint | challenger cheap tier, Anthropic-format endpoint |
 
 A ? in the context row marks a property the verified pricing pages do not state.
+The lineup keeps only models released within the last year, and the oldest entry is Claude Haiku 4.5 on 2025-10-15, 37 days inside the window, with month-precision cells where only the launch month is documented.
 
 Four details the table hides:
 

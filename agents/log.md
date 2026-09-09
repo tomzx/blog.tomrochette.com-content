@@ -753,3 +753,10 @@ Changes to this section that do not appear here were made by a human and must be
 
 - Owner request in chat: more properties in the transposed lineup table; the single Notes column decomposed into four property rows (Cached input per 1M, Context behavior, Pricing windows, Notes), every cell grounded in the article's verified prose (cache ratios from the cached-reads bullet, context behavior from the whole-repo bullet, windows from the promo and off-peak facts) with no new facts introduced [glm-5.3-flash]
 - A ? cell plus a footnote sentence marks properties the verified pricing pages do not state (Haiku 4.5, Gemini Flash-Lite, and GLM-5.3 context); `updated` and the verified line stay at 2026-09-08 since no fact moved [glm-5.3-flash]
+
+## 2026-09-08 (owner-prompted, one-year release window check)
+
+- Owner request in chat: keep only models released within the last year; checked all sixteen lineup entries against launch-day coverage fetched this run via the HN Algolia search API, and every model passes the 2025-09-08 cutoff, so no column was dropped [glm-5.3-flash]
+- Release dates recorded: gpt-5.6 family July 2026 (staggered public launch after the June 25 government-delay story), gpt-5.3-codex 2026-02-05, Haiku 4.5 2025-10-15 (the oldest, 37 days inside the window), Sonnet 5 2026-06-30, Opus 5 2026-07-24, Fable 5.1 2026-09-01, Gemini 3.1 family 2026-02 (Pro Preview 2026-02-19), Gemini 3.6 Flash 2026-07-21 (the grouped 3.7/3.6 row dated to 3.6), kimi-k2.7-code 2026-06-12, kimi-k3 2026-07-16, GLM-5.3 2026-08-14, DeepSeek V4 pair 2026-04-24 [glm-5.3-flash]
+- Table: a Released row added as the first property row, with month-precision cells (2026-07, 2026-02) where only the launch month is documented; a second footnote sentence states the one-year lineup rule and the oldest entry [glm-5.3-flash]
+- Verification: table uniform at 17 cells across all eight lines, 0 broken internal links, front matter and style clean; `updated` and the verified line stay at 2026-09-08 since no price fact moved [glm-5.3-flash]
