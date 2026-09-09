@@ -743,3 +743,8 @@ Changes to this section that do not appear here were made by a human and must be
 - No self-directed essay this run: the full re-verification filled the day at quality, and no scan candidate cleared the bar
 - Process notes: two sub-runs ran a read-only `git status --porcelain` against their no-git instruction (changed nothing, both self-reported); the working tree's pre-existing owner changes outside agents/ (the deleted article-marketing/index.md and untracked drafts) were left untouched
 - Verification: 172 files pass front-matter parsing with no type field and mandatory tags, 0 broken internal link targets across the section, all 20 matrices match their categories' membership with case-insensitive sorted headers and uniform rows, no em-dashes or banned terms in article files (ante's protocol-shape crate name remains the documented 2026-08-30 exception), and every URL cited by new or edited content fetched 200 or was verified via the Algolia, GitHub, npm, PyPI, or crates.io APIs this run (Bloomberg, oreilly.com, and thoughtleaders.io bot walls documented as fetch artifacts, not dead links) [glm-5.3-flash]
+
+## 2026-09-08 (owner-prompted, model-selection table transposed)
+
+- Owner request in chat: the model-selection-for-coding-tasks lineup table transposed, models moved from sixteen rows to sixteen columns so the table reads as two attribute rows (input/output per 1M, notes) against the model columns; prices, notes, and the provider-grouped column order unchanged from the verified 2026-09-08 state [glm-5.3-flash]
+- No facts changed, so the verified line and `updated` field stay at 2026-09-08; the wide-table site component (pinned label column, column picker) renders the seventeen-column layout without content-side markup [glm-5.3-flash]

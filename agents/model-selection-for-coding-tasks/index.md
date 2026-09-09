@@ -30,24 +30,10 @@ Escalate by task class inside a session instead of picking one model for everyth
 
 **The workhorse tier has converged to roughly $2 in and $10-12 out per million tokens at every major provider, which means switching costs are now measured in harness integration, not price.**
 
-| Model | Input / output per 1M | Notes |
-| --- | --- | --- |
-| gpt-5.6-luna | $0.20 / $1.20 | cheap tier, cached reads $0.02 |
-| gpt-5.6-terra | $2 / $12 | workhorse, long context doubles |
-| gpt-5.6-sol | $4 / $20 | frontier, promo pricing at least through 2026-11-21 |
-| gpt-5.3-codex | $1.75 / $14 | coding-specialized API model |
-| Claude Haiku 4.5 | $1 / $5 | cheap tier |
-| Claude Sonnet 5 | $2 / $10 | launch intro price made standard, planned increase cancelled |
-| Claude Opus 5 | $5 / $25 | frontier |
-| Claude Fable 5.1 | $10 / $50 | top tier, cache hits at 2.5% of input, Amp BYOK documents data-retention caveats for it |
-| Gemini 3.1 Flash-Lite | $0.25 / $1.50 | cheap tier |
-| Gemini 3.7 / 3.6 Flash | $0.75 / $3.75 | intro pricing through 2026-12-31, then doubles |
-| Gemini 3.1 Pro Preview | $2 / $12 | workhorse, doubles beyond 200K input |
-| kimi-k2.7-code | $0.95 / $4.00 | coding-specialized, 256K context, cache hits $0.19 |
-| kimi-k3 | $3.00 / $15 | flagship, always reasons, flat-price 1M context |
-| GLM-5.3 | $1.40 / $4.40 | GLM-5 at $1/$3.20, GLM-4.7-Flash free |
-| deepseek-v4-pro | $1.32 / $3.96 | peak; off-peak half, 1M context, cache hits $0.044 |
-| deepseek-v4-flash | $0.44 / $1.32 | cheap tier, 1M context, off-peak $0.22/$0.66 |
+| Model | gpt-5.6-luna | gpt-5.6-terra | gpt-5.6-sol | gpt-5.3-codex | Claude Haiku 4.5 | Claude Sonnet 5 | Claude Opus 5 | Claude Fable 5.1 | Gemini 3.1 Flash-Lite | Gemini 3.7 / 3.6 Flash | Gemini 3.1 Pro Preview | kimi-k2.7-code | kimi-k3 | GLM-5.3 | deepseek-v4-pro | deepseek-v4-flash |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Input / output per 1M | $0.20 / $1.20 | $2 / $12 | $4 / $20 | $1.75 / $14 | $1 / $5 | $2 / $10 | $5 / $25 | $10 / $50 | $0.25 / $1.50 | $0.75 / $3.75 | $2 / $12 | $0.95 / $4.00 | $3.00 / $15 | $1.40 / $4.40 | $1.32 / $3.96 | $0.44 / $1.32 |
+| Notes | cheap tier, cached reads $0.02 | workhorse, long context doubles | frontier, promo pricing at least through 2026-11-21 | coding-specialized API model | cheap tier | launch intro price made standard, planned increase cancelled | frontier | top tier, cache hits at 2.5% of input, Amp BYOK documents data-retention caveats for it | cheap tier | intro pricing through 2026-12-31, then doubles | workhorse, doubles beyond 200K input | coding-specialized, 256K context, cache hits $0.19 | flagship, always reasons, flat-price 1M context | GLM-5 at $1/$3.20, GLM-4.7-Flash free | peak; off-peak half, 1M context, cache hits $0.044 | cheap tier, 1M context, off-peak $0.22/$0.66 |
 
 Four details the table hides:
 
