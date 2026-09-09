@@ -30,17 +30,17 @@ Escalate by task class inside a session instead of picking one model for everyth
 
 **The workhorse tier has converged to roughly $2 in and $10-12 out per million tokens at every major provider, which means switching costs are now measured in harness integration, not price.**
 
-| Model | gpt-5.6-luna | gpt-5.6-terra | gpt-5.6-sol | gpt-5.3-codex | gpt-6-astra | Claude Haiku 4.5 | Claude Sonnet 5 | Claude Opus 5 | Claude Fable 5.1 | Gemini 3.1 Flash-Lite | Gemini 3.7 / 3.6 Flash | Gemini 3.1 Pro Preview | kimi-k2.7-code | kimi-k3 | GLM-5.3 | GLM-5.3-Flash | deepseek-v4-pro | deepseek-v4-flash | qwen3.8-max | qwen3.8-flash |
+| Model | gpt-5.6-luna | gpt-5.6-terra | gpt-5.6-sol | gpt-5.3-codex | gpt-6-astra | Claude Haiku 4.5 | Claude Sonnet 5 | Claude Opus 5 | Claude Fable 5.1 | Gemini 3.1 Flash-Lite | Gemini 3.8 / 3.7 / 3.6 Flash | Gemini 3.1 Pro Preview | kimi-k2.7-code | kimi-k3 | GLM-5.3 | GLM-5.3-Flash | deepseek-v4-pro | deepseek-v4-flash | qwen3.8-max | qwen3.8-flash |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Released | 2026-07 | 2026-07 | 2026-07 | 2026-02-05 | 2026-09-03 | 2025-10-15 | 2026-06-30 | 2026-07-24 | 2026-09-01 | 2026-02 | 2026-07 (3.6) | 2026-02-19 | 2026-06-12 | 2026-07-16 | 2026-08-14 | 2026-08-26 | 2026-04-24 | 2026-04-24 | 2026-08-03 | 2026-08 |
+| Released | 2026-07-09 | 2026-07-09 | 2026-07-09 | 2026-02-05 | 2026-09-04 | 2025-10-15 | 2026-06-29 | 2026-07-24 | 2026-09-01 | 2026-05-07 | 2026-09-02 (3.8), 08-13 (3.7), 07-21 (3.6) | 2026-02-19 | 2026-06-12 | 2026-07-16 | 2026-08-14 | 2026-08-26 | 2026-08-12 | 2026-07-31 | 2026-08-03 | 2026-08-26 |
 | Input / output per 1M | $0.20 / $1.20 | $2 / $12 | $4 / $20 | $1.75 / $14 | $10 / $50 | $1 / $5 | $2 / $10 | $5 / $25 | $10 / $50 | $0.25 / $1.50 | $0.75 / $3.75 | $2 / $12 | $0.95 / $4.00 | $3.00 / $15 | $1.40 / $4.40 | $0.075 / $0.25 | $1.32 / $3.96 | $0.44 / $1.32 | $2 / $6 | $0.15 / $0.47 |
 | Cached input per 1M | $0.02 | ~10% of input | ~10% of input | ~10% of input | $1 | ~10% of input | ~10% of input | ~10% of input | 2.5% of input | ~10% of input | ~10% of input | ~10% of input | $0.19 | ~10% of input | ~20% of input | $0.015 | $0.044 | $0.014 | ? | ? |
-| Context behavior | doubles past threshold | doubles past threshold | doubles past threshold | doubles past threshold | doubles past threshold | ? | 1M flat | 1M flat | 1M flat | ? | doubles past threshold | doubles beyond 200K | 256K | 1M flat | ? | ? | 1M flat, 384K max output | 1M flat, 384K max output | 1M flat | 1M flat |
+| Context behavior | doubles past threshold | doubles past threshold | doubles past threshold | doubles past threshold | doubles past threshold | 200K | 1M flat | 1M flat | 1M flat | 1M flat | doubles past threshold | doubles beyond 200K | 256K | 1M flat | 1M flat | 1M flat | 1M flat, 384K max output | 1M flat, 384K max output | 1M flat | 1M flat |
 | Pricing windows | none | none | promo through 2026-11-21 | none | none | none | intro price made standard, planned increase cancelled | none | none | none | intro to 2026-12-31, then doubles | none | HighSpeed variant at 2x price | none | none | 50% promo ends 2026-09-09 (UTC+8) | off-peak half ($0.66 / $1.98) | off-peak $0.22 / $0.66 | batch half price | 1M-token free quota for new accounts (90 days) |
 | Notes | cheap tier | workhorse | frontier | coding-specialized API model | frontier, newest OpenAI generation | cheap tier | workhorse | frontier | top tier, Amp BYOK documents data-retention caveats | cheap tier | cost-led high-volume option | workhorse | challenger, coding-specialized, multimodal input | challenger flagship, always reasons with configurable effort | challenger, GLM-5 at $1/$3.20, GLM-4.7-Flash free | challenger cheap tier | challenger workhorse, Anthropic-format endpoint | challenger cheap tier, Anthropic-format endpoint | challenger flagship | challenger cheap tier |
 
 A ? marks a property the verified pricing pages do not state.
-The lineup keeps only models released within the last year, and the oldest entry is Claude Haiku 4.5 on 2025-10-15, 37 days inside the window, with month-precision cells where only the launch month is documented.
+The lineup keeps only models released within the last year, the oldest entry is Claude Haiku 4.5 on 2025-10-15, 37 days inside the window, and release dates and context windows follow the models.dev list reference, which also supplies the newest Gemini Flash siblings the table groups on shared intro pricing.
 
 Four details the table hides:
 
@@ -102,7 +102,7 @@ One fence to remember: Anthropic's March 2026 legal requests removed Claude subs
 **Everything above collapses into one sentence per situation, and every price claim in it is dated in the table above.**
 
 - Daily loop default: Claude Sonnet 5, gpt-5.6-terra, or Gemini 3.1 Pro Preview; pick by harness fit, they price the same.
-- High-volume loops where cost leads: GLM-5.3-Flash at $0.075/$0.25 while its 50 percent promo runs ($0.15/$0.50 list after), deepseek-v4-flash at $0.44 peak and $0.22 off-peak with no expiry announced, or Gemini 3.7/3.6 Flash at its $0.75/$3.75 intro rate (calendar the 2026-12-31 end).
+- High-volume loops where cost leads: GLM-5.3-Flash at $0.075/$0.25 while its 50 percent promo runs ($0.15/$0.50 list after), deepseek-v4-flash at $0.44 peak and $0.22 off-peak with no expiry announced, or Gemini 3.8/3.7/3.6 Flash at the shared $0.75/$3.75 intro rate (calendar the 2026-12-31 end).
 - Price-floor loops, BYOK: deepseek-v4-pro, kimi-k2.7-code, or GLM-5.3 through OpenCode, all native providers; nothing credible stays cheaper.
 - Whole-repository reads: DeepSeek V4 from $0.44 in, a 1M-context Claude or Qwen3.8-Max at $2, or Kimi K3 at $3 flat; all four keep 1M pricing flat.
 - Frontier minutes only: gpt-6-astra, gpt-5.6-sol, or Claude Opus 5 for planning and stuck debugging; Fable 5.1 when nothing else resolves.
@@ -154,3 +154,4 @@ A fact that cannot survive that re-fetch gets deleted rather than hedged.
 - https://api-docs.deepseek.com/quick_start/pricing/ - DeepSeek V4 lineup, peak and off-peak rates, 1M context and 384K output, cache-hit prices, peak-hour definition (the trailing slash matters: without it the URL serves the first-API-call page)
 - https://help.aliyun.com/zh/model-studio/billing-for-model-studio - Qwen3.8-Max and Qwen3.8-Flash official per-token prices, batch half price on Max, context-cache discount, the 0-1M token tier, and the new-account free quota
 - https://openrouter.ai/api/v1/models - USD international listings for qwen3.8-max-0902 ($2/$6) and qwen3.8-flash ($0.15/$0.47)
+- https://models.dev - the community model list used as the lineup reference: model ids, release dates, and context windows for every model in the table (fetched 2026-09-08)

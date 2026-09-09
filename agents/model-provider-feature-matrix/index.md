@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 This matrix compares the seven model providers behind every model in the [Model Selection guide](../model-selection-for-coding-tasks/index.md), provider by provider, so the vendor choice is as visible as the model choice.
-Everything below was re-verified against live sources on 2026-09-08: each cell traces to the guide's verified pricing table or to provider pages fetched during this run.
+Everything below was re-verified against live sources on 2026-09-08: each cell traces to the guide's verified pricing table, to provider pages fetched during this run, or to the models.dev list reference the guide uses for model ids, release dates, and context windows.
 
 **Provider choice is a bundle decision, list price, cache discount, batch policy, context flatness, weights, and where your subscription does and does not transfer, and the challengers win that bundle on every axis except subscriptions.**
 
@@ -27,7 +27,7 @@ Each column links to the provider's canonical pricing page; every cell traces to
 | Cheap model | Qwen3.8-Flash, $0.15 / $0.47 | Claude Haiku 4.5, $1 / $5 | V4 Flash, $0.44 / $1.32 | Flash-Lite $0.25 / $1.50, 3.6 Flash $0.75 intro | k2.7-code doubles as the cheap tier | gpt-5.6-luna, $0.20 / $1.20 | GLM-5.3-Flash $0.075 / $0.25 promo, GLM-4.7-Flash free |
 | Coding-specialized model | ? none in this guide (the open Coder family is separate) | ✗ none, the general lineup carries coding | ✗ none in the guide | ✗ none in the guide | ✓ kimi-k2.7-code | ✓ gpt-5.3-codex, $1.75 / $14 | ✗ none in the guide |
 | Cached input discount | ~ discount stated, rate unpublished | ✓ one tenth, the Fable pair at one fortieth | ✓ about one thirtieth, the deepest | ✓ about one tenth | ✓ one tenth on K3, one fifth on k2.7-code | ✓ about one tenth | ✓ about one fifth |
-| Long-context policy | ✓ 1M flat | ✓ 1M flat from Claude 4.6 onward | ✓ 1M flat, 384K max output | ~ doubles past thresholds, Pro beyond 200K | ~ K3 flat 1M, k2.7-code 256K | ~ doubles past thresholds | ? not stated |
+| Long-context policy | ✓ 1M flat | ✓ 1M flat from Claude 4.6 onward | ✓ 1M flat, 384K max output | ~ doubles past thresholds, Pro beyond 200K | ~ K3 flat 1M, k2.7-code 256K | ~ doubles past thresholds | ✓ 1M flat |
 | Batch or time discounts | ~ batch half price on Max | ✓ batch half price | ~ off-peak half price instead of batch | ✓ batch half price | ? not stated | ✓ batch half price | ? not stated |
 | Live pricing windows | ~ 1M-token free quota for new accounts, 90 days | ~ Sonnet 5's planned increase was cancelled | ✓ none, off-peak is standing policy | ~ Flash intro rate ends 2026-12-31 | ~ HighSpeed variant at 2x price | ~ Sol promo through 2026-11-21 | ~ GLM-5.3-Flash 50% promo ends 2026-09-09 |
 | Weights | ✓ open weights (27B and Flash-Next) | ✗ closed | ✓ open weights | ✗ closed | ✓ open weights (K3, K2.7) | ✗ closed | ✓ open weights |
@@ -40,7 +40,7 @@ I read this table as a bundle scorecard rather than a price list, because the ro
 **The big three monetize closed frontier weights plus subscriptions, and the four challengers monetize cheap tokens plus open weights, with almost no overlap in which rows they win.**
 On the price rows the challengers sweep: every challenger flagship costs less out than the big-three workhorses, and Zhipu's free GLM-4.7-Flash has no big-three analogue at any price.
 On the policy rows the field is closer than list prices suggest, and this is the part I check before switching: DeepSeek's cache discount is the deepest at one thirtieth, Alibaba and Zhipu leave cache rates unpublished, and batch is half price at the big three and Qwen but unverified at Moonshot and Zhipu.
-Long context splits cleanly by flatness: Anthropic, DeepSeek, Alibaba, and Kimi K3 keep 1M pricing flat, while OpenAI and Google double past thresholds, which decides whole-repository prompting before any model-quality question.
+Long context splits cleanly by flatness: Anthropic, DeepSeek, Alibaba, Moonshot K3, and Zhipu keep 1M pricing flat, while OpenAI and Google double past thresholds, which decides whole-repository prompting before any model-quality question.
 The weights row is the quiet differentiator: open weights from Alibaba, DeepSeek, Moonshot, and Zhipu mean a private deployment path the closed big three do not offer at all.
 The subscription row runs the other way: only OpenAI and Anthropic ship a first-party agent on subscription, and Anthropic's is the one that explicitly does not transfer to third-party harnesses.
 
@@ -48,7 +48,7 @@ The subscription row runs the other way: only OpenAI and Anthropic ship a first-
 
 - Default workhorse loop: OpenAI, Anthropic, and Google price identically at the tier, so pick by harness fit and let the challenger prices below pressure that default yearly.
 - Price-floor BYOK loops: DeepSeek and Zhipu, with Alibaba close behind at flagship quality for $6 out.
-- Flat 1M context: Anthropic, DeepSeek, Alibaba, and Moonshot K3, the four vendors that keep whole-repository reads predictable.
+- Flat 1M context: Anthropic, DeepSeek, Alibaba, Moonshot K3, and Zhipu, the five vendors that keep whole-repository reads predictable.
 - Coding-specialized spend: Moonshot's k2.7-code or OpenAI's gpt-5.3-codex, the only two columns with a model built for the job.
 - Weights you can host: Alibaba, DeepSeek, Moonshot, or Zhipu, and none of the big three at any price.
 - Subscription-first teams: OpenAI or Anthropic, and read the transfer row before assuming the subscription follows your harness.
@@ -68,3 +68,4 @@ The subscription row runs the other way: only OpenAI and Anthropic ship a first-
 - https://cloud.google.com/vertex-ai/generative-ai/pricing - Gemini 3 family prices, intro windows, long-context and batch rates (verified 2026-09-08)
 - https://help.aliyun.com/zh/model-studio/billing-for-model-studio - Qwen3.8-Max and Qwen3.8-Flash official prices, batch half price, cache discount, free quota (fetched 2026-09-08)
 - https://openrouter.ai/api/v1/models - USD international listings for the Qwen pair (fetched 2026-09-08)
+- https://models.dev - the community model list reference: model ids, release dates, and context windows behind the lineup (fetched 2026-09-08)
