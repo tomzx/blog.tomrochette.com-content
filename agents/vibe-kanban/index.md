@@ -12,7 +12,7 @@ audience_notes: >
 ---
 
 Vibe Kanban is an Apache-2.0 kanban board for managing parallel coding agents in isolated workspaces, launched by Bloop AI in June 2025; the company shut down in April 2026 and the project continues community-maintained.
-Facts below verified as of 2026-09-08.
+Facts below verified as of 2026-09-09.
 
 **It is the category's most-adopted artifact and its clearest cautionary tale at once: about 28k GitHub stars, thousands of daily users, and no business model survived it.**
 
@@ -28,7 +28,7 @@ Self-hosting via Docker was documented for teams.
 Company dead, project alive.
 Bloop shut down on 2026-04-10, with CEO Louis Knight-Webb writing that "the vast majority are free users and we couldn't find a business model".
 Remote services (kanban issues, comments, projects, organisations) were removed 30 days after the announcement; refunds were issued and subscriptions terminated.
-**Local workspaces keep working, but "community-maintained" is still a promise rather than activity: as of 2026-09-07 the repo still shows no push since 2026-04-24 and no release beyond 0.1.44, while open issues stood at 539, up from 383 on 2026-08-24.**
+**Local workspaces keep working, but "community-maintained" is still a promise rather than activity: as of 2026-09-09 the repo still shows no push since 2026-04-24 and no release beyond 0.1.44, while open issues stood at 539, up from 383 on 2026-08-24.**
 
 ## Strengths
 

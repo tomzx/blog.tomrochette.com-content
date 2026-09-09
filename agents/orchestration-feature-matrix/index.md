@@ -1,7 +1,7 @@
 ---
 title: "Orchestration Feature Matrix"
 created: 2026-08-24
-updated: 2026-09-08
+updated: 2026-09-09
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, comparison, orchestration, git-worktrees, parallel-agents]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 This matrix compares the thirteen orchestration tools profiled in this section, the parallel-agent dashboards, worktree managers, control planes, mobile clients, and the one agent town, feature by feature, so the shortlisting step does not require reading thirteen notes.
-Everything below was verified against live sources on 2026-08-30, a full re-verification that added the Omnara column on that date, re-verified on 2026-09-02, 2026-09-03, 2026-09-04, 2026-09-05, 2026-09-06, 2026-09-07, and 2026-09-08, and the Happy Coder column was added on 2026-09-06.
+Everything below was verified against live sources on 2026-08-30, a full re-verification that added the Omnara column on that date, re-verified on 2026-09-02, 2026-09-03, 2026-09-04, 2026-09-05, 2026-09-06, 2026-09-07, 2026-09-08, and 2026-09-09, and the Happy Coder column was added on 2026-09-06.
 
 **Parallelism is already the free commodity in this category: the only things anyone pays for are review ergonomics and remote execution, and I expect more of these thirteen to die or pivot before any of them becomes durable infrastructure.**
 
@@ -25,13 +25,13 @@ Each column links to the full research note; every cell below traces to a source
 | Kind | terminal TUI | native macOS terminal | native Mac app | Electron app | terminal TUI | Electron app | tmux town, workspace manager | native mobile and macOS client, wraps the agent CLI | Go control plane, web, CLI, API, mobile, Slack | daemon plus desktop, web, mobile clients | Electron agentic IDE | web UI, Rust backend | CLI worktree manager |
 | Platforms | macOS, Linux (tmux, no Windows) | macOS only | macOS only (local) | macOS first, Linux later | macOS, Linux (tmux) | macOS, Windows, Linux | macOS, Linux, Windows, Docker | iOS, Android, macOS, web | web, iOS, Android, Slack; self-host or Omnara Cloud | macOS, Windows, Linux, iOS, Android, web, Docker | macOS, Linux experimental | any OS with Node | macOS, Linux, Windows |
 | Open source | ✓ AGPL-3.0 | ~ GPL-3.0, open core | ✗ closed | ✓ MIT | ✓ MIT | ✓ Apache-2.0 | ✓ MIT | ✓ MIT | ✓ Apache-2.0 | ✓ Apache-2.0 | ~ Elastic License 2.0 | ✓ Apache-2.0 | ✓ MIT OR Apache-2.0 |
-| Price model | free, no tier | free, Pro $40/mo | free local, Pro $50/mo | free (Nimbalyst sells teams) | free | free core, cloud contact-sales | free, BYOK runtime | free, donations | free self-host, cloud unpriced | free, Hub hosted €15/seat/mo | free local, Pro $15-20/user/mo | free (subs terminated) | free |
+| Price model | free, no tier | free, Pro $40/mo | free local, Pro $50/mo | free (Nimbalyst sells teams) | free | free core, cloud contact-sales | free, BYOK runtime | free, donations | free self-host, cloud usage-priced | free, Hub hosted €15/seat/mo | free local, Pro $15-20/user/mo | free (subs terminated) | free |
 | Per-task worktree isolation | ✓ | ? | ✓ own branch | ✓ | ✓ AI-named branch | ✓ | ✓ worktree hooks | ✗ existing paths only | ? | ✓ | ✓ own branch | ✓ own branch | ✓ core purpose |
 | Harnesses it can drive | any CLI via profiles | any CLI agent | 4 (Claude Code, Codex, Cursor, OpenCode) | 2 (Claude Code, Codex) | 11 CLIs | 25+ CLIs, auto-detected | 5 runtimes, Claude Code default | 2 (Claude Code, Codex) | ? agent underneath unspecified | 4 native + ~36 via ACP | any CLI, 14+ presets | 10+ agents | any CLI via -x, one program name since v0.76 |
 | Remote or SSH execution | ? | ~ SSH sessions | ? | ? | ✗ local only | ✓ SSH-first | ~ Docker compose | ✓ E2E-encrypted relay | ✓ machine pools | ✓ encrypted relay, self-host | ~ remote workspaces beta | ~ Docker self-host | ✗ local git |
 | Built-in review tooling | ~ diff preview tab | ? | ✓ diffs, checks, PR, review | ~ diff viewer, rebase, squash | ~ merge and PR menu | ✓ diffs, PRs, CI checks | ✓ Refinery merge queue | ~ diffs and terminals beside conversations | ~ approvals, questions, events, artifacts | ~ agent output and diffs | ✓ diffs, browser previews | ✓ diffs, comments, PR | ~ status table and merge pipeline |
 | Cloud execution option | ✗ no hosting | ✓ Pro, up to 50 cloud VMs | ✓ Vercel sandboxes | ? | ✗ | ~ contact-sales | ✗ self-host, Wasteland federation | ✗ your machine only | ✓ Omnara Cloud, or self-host | ~ self-host anywhere, no vendor cloud | ~ remote workspaces beta | ✗ services removed | ✗ |
-| Current status | active, slow burn | active, fast | active, $22M raised | deprecated Feb 2026 | active | active, YC W26 | active, 18k stars | active, 23.7k stars, community team | active, YC S25, 2,822 stars | active, v0.7, solo maintainer | active, YC P26, $11M raised | orphaned, no push since 2026-04-24 | active, pre-1.0 fast |
+| Current status | active, slow burn | active, fast | active, $22M raised | deprecated Feb 2026 | active | active, YC W26 | active, 18k stars | active, 23.7k stars, community team | active, YC S25, 2,823 stars | active, v0.7, solo maintainer | active, YC P26, $11M raised | orphaned, no push since 2026-04-24 | active, pre-1.0 fast |
 
 ## Reading the matrix
 

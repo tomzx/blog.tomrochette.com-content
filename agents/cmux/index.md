@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 cmux is Manaflow's open-source macOS terminal built on libghostty for running many coding agents in parallel, with vertical tabs, workspaces, notification rings, and an open-core cloud tier.
-Facts below verified as of 2026-09-08.
+Facts below verified as of 2026-09-09.
 
 **cmux's real product is attention routing, not multiplexing, and its real business is cloud execution: the terminal is the free, GPL-3.0 funnel, and the subscription is where the company actually lives.**
 
@@ -24,7 +24,7 @@ A Pro subscription adds Cloud VM agents and the iOS app; the CodeRouter pitch th
 ## Status
 
 **Active and remarkably fast.**
-About 26.9k stars and 2.3k forks as of 2026-09-07, created January 28, 2026, with commits landing the day of verification.
+About 26.9k stars and 2.3k forks as of 2026-09-09, created January 28, 2026, with commits landing the day of verification.
 The launch thread counted 18 releases in two days; the project is at v0.64.x with a nightly channel.
 Three contributors dominate the history (about 5.2k, 3.8k, and 1.2k contributions), so this is a small funded team (Manaflow, Inc.) moving very quickly, not a broad community.
 
@@ -41,13 +41,13 @@ Three contributors dominate the history (about 5.2k, 3.8k, and 1.2k contribution
 - Open-core: cloud execution sits behind Pro at $40/month (billed yearly), so the roadmap's center of gravity is the subscription, not the terminal.
 - The pace is a risk profile: 0.x versions, a nightly channel, and a launch-era bug list mean churn.
 - An August 2026 thread reports whole-app freezes of 2-10 seconds with SSH sessions open, so remote-heavy workflows should test first.
-- **Name collisions are everywhere**: craigsc/cmux ("tmux for Claude Code", MIT, about 601 stars), a separate October 2025 Show HN "Cmux, Coding Agent Multiplexer" GUI, and an unrelated Go connection multiplexer; search carefully before citing.
+- **Name collisions are everywhere**: craigsc/cmux ("tmux for Claude Code", MIT, about 602 stars), a separate October 2025 Show HN "Cmux, Coding Agent Multiplexer" GUI, and an unrelated Go connection multiplexer; search carefully before citing.
 
 ## Pricing
 
 Free $0: the full terminal, any CLI agent BYOK, notifications, browser panels, socket API, local history.
-Pro $40/month billed yearly ($50 month-to-month): cloud agents on isolated VMs, capped at up to 50 Cloud VMs per user, each with its own resources (default 8 GB RAM and 32 GB disk, 4 to 64 GB RAM available, disk up to 256 GB), as of 2026-09-07 (the page now specifies per-VM resources with a 256 GB disk ceiling, replacing the 5 vCPU, 20 GB RAM, and 200 GB shared-pool totals it showed through 2026-09-05), plus unlimited workspaces, the iOS app, and email support.
-Team $48/user/month billed yearly ($60 month-to-month) adds centralized billing and priority support; Enterprise adds self-hosted, even air-gapped, cloud execution, SSO/SAML, audit logs, and SOC 2, as of 2026-09-07.
+Pro $40/month billed yearly ($50 month-to-month): cloud agents on isolated VMs, capped at up to 50 Cloud VMs per user, each with its own resources (default 8 GB RAM and 32 GB disk, 4 to 64 GB RAM available, disk up to 256 GB), as of 2026-09-09 (the page now specifies per-VM resources with a 256 GB disk ceiling, replacing the 5 vCPU, 20 GB RAM, and 200 GB shared-pool totals it showed through 2026-09-05), plus unlimited workspaces, the iOS app, and email support.
+Team $48/user/month billed yearly ($60 month-to-month) adds centralized billing and priority support; Enterprise adds self-hosted, even air-gapped, cloud execution, SSO/SAML, audit logs, and SOC 2, as of 2026-09-09.
 
 ## Compared to
 
@@ -69,8 +69,8 @@ Not for Linux or Windows users, copyleft-restricted shops, or anyone who needs a
 
 ## References
 
-- https://github.com/manaflow-ai/cmux - source, license statement, repository scale, as of 2026-09-07
-- https://cmux.com/pricing - tiers, per-VM cloud specs, CodeRouter removal, as of 2026-09-07
+- https://github.com/manaflow-ai/cmux - source, license statement, repository scale, as of 2026-09-09
+- https://cmux.com/pricing - tiers, per-VM cloud specs, CodeRouter removal, as of 2026-09-09
 - https://cmux.com/blog/zen-of-cmux - the project's own design philosophy
 - https://news.ycombinator.com/item?id=47079718 - the February 2026 launch thread with author Q&A
 - https://www.bounds.dev/posts/teaching-claude-code-to-drive-cmux/ - third-party account of agents driving cmux programmatically

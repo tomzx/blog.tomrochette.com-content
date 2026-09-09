@@ -23,20 +23,20 @@ If the section turns into slop, the logs will show exactly where it went wrong, 
 
 # Essays and trackers
 
-- [Agentic Coding Tools Landscape](agentic-coding-tools-landscape/index.md) - maintained map of harnesses, editors, cloud agents, and orchestration as of 2026-09-08.
-- [Model Selection for Coding Tasks](model-selection-for-coding-tasks/index.md) - opinionated guide to choosing models by task class and per-token economics, as of 2026-09-08.
+- [Agentic Coding Tools Landscape](agentic-coding-tools-landscape/index.md) - maintained map of harnesses, editors, cloud agents, and orchestration as of 2026-09-09.
+- [Model Selection for Coding Tasks](model-selection-for-coding-tasks/index.md) - opinionated guide to choosing models by task class and per-token economics, as of 2026-09-09.
 - [Context Management Patterns](context-management-patterns/index.md) - the patterns that keep agent context windows small and fresh, as of 2026-08-24.
 - [The Tells Are Structural](the-tells-are-structural/index.md) - why word-swap humanizers fail (detection lives at the narrative-structure layer) and what a structural revision pass does instead, grounded in StoryScope.
 
 ## Comparison matrices
 
-- [Model Provider Feature Matrix](model-provider-feature-matrix/index.md) - the seven model providers compared as bundles on price tiers, cache and batch policy, context flatness, weights, and subscription transfer, verified 2026-09-08.
-- [Harness Feature Matrix](harness-feature-matrix/index.md) - the twenty-five harnesses against eleven capability rows, Exo and Kimi Code the newest, verified 2026-09-08.
-- [Surface Feature Matrix](surface-feature-matrix/index.md) - the twelve surfaces (two of them death records) against eleven capability rows, verified 2026-09-08.
+- [Model Provider Feature Matrix](model-provider-feature-matrix/index.md) - the seven model providers compared as bundles on price tiers, cache and batch policy, context flatness, weights, and subscription transfer, verified 2026-09-09.
+- [Harness Feature Matrix](harness-feature-matrix/index.md) - the twenty-five harnesses against eleven capability rows, Exo and Kimi Code the newest, verified 2026-09-09.
+- [Surface Feature Matrix](surface-feature-matrix/index.md) - the twelve surfaces (two of them death records) against eleven capability rows, verified 2026-09-09.
 - [Orchestration Feature Matrix](orchestration-feature-matrix/index.md) - the thirteen worktree managers, dashboards, control planes, and mobile clients, Happy Coder the newest, plus one agent town, one dead and one orphaned among them.
 - [Protocols Feature Matrix](protocols-feature-matrix/index.md) - the five protocols stack rather than compete, and adoption falls with every step up the stack.
 - [Context Engines Feature Matrix](context-engines-feature-matrix/index.md) - the seven context vendors and tools against delivery, deployment, and scale rows.
-- [Code Review Feature Matrix](code-review-feature-matrix/index.md) - the eight AI reviewers divided on where your code runs, with both Kudelski exploit records named, verified 2026-09-08.
+- [Code Review Feature Matrix](code-review-feature-matrix/index.md) - the eight AI reviewers divided on where your code runs, with both Kudelski exploit records named, verified 2026-09-09.
 - [Skills Feature Matrix](skills-feature-matrix/index.md) - the spec, vendor format, harness mechanism, optimizer, and registry against runtime and stewardship rows.
 - [Retrieval Feature Matrix](retrieval-feature-matrix/index.md) - the two frameworks and two patterns compared, with the harness-native counterargument engaged.
 - [Memory Feature Matrix](memory-feature-matrix/index.md) - the file convention, the portable format, and five services against memory-model and lock-in rows.
@@ -45,12 +45,12 @@ If the section turns into slop, the logs will show exactly where it went wrong, 
 - [Task Management Feature Matrix](task-management-feature-matrix/index.md) - files versus database as the deciding row, with the PRD pipeline and its license cost.
 - [Spec Driven Development Feature Matrix](spec-driven-development-feature-matrix/index.md) - the four spec-first tools across the ownership and ceremony-sizing axes.
 - [Control Planes Feature Matrix](control-planes-feature-matrix/index.md) - governance, budgets, and multi-company rows that separate control planes from orchestration.
-- [Assistant Runtimes Feature Matrix](assistant-runtimes-feature-matrix/index.md) - OpenClaw, Hermes, the shrinking variants, the Python core, and the two Cowork desktops, the trust ladder in one table, verified 2026-09-08.
-- [Software Factory Feature Matrix](software-factory-feature-matrix/index.md) - the stamped Python loop, Fluent's learning loop, HAR's fleet harness, Machinist's controlled entrypoint, and Ouroboros' hidden grading on the who-owns-the-loop axis, verified 2026-09-08.
-- [Evaluation and Review Feature Matrix](evaluation-review-feature-matrix/index.md) - the five quality-control columns divided on who judges, the agent, the metric suite, the benchmark, or the human, verified 2026-09-08.
-- [Sandboxing Feature Matrix](sandboxing-feature-matrix/index.md) - the six isolation layers divided into boundaries, an orchestrator, a framework, and provisioning, verified 2026-09-08.
-- [Session Analytics Feature Matrix](session-analytics-feature-matrix/index.md) - the archive and the attribution CLI versus the still-empty live-observation cells, verified 2026-09-08.
-- [People and Publications Feature Matrix](people-and-publications-feature-matrix/index.md) - the thirteen voices compared on focus, cadence, and reader slot, verified 2026-09-08.
+- [Assistant Runtimes Feature Matrix](assistant-runtimes-feature-matrix/index.md) - OpenClaw, Hermes, the shrinking variants, the Python core, and the two Cowork desktops, the trust ladder in one table, verified 2026-09-09.
+- [Software Factory Feature Matrix](software-factory-feature-matrix/index.md) - the stamped Python loop, Fluent's learning loop, HAR's fleet harness, Machinist's controlled entrypoint, and Ouroboros' hidden grading on the who-owns-the-loop axis, verified 2026-09-09.
+- [Evaluation and Review Feature Matrix](evaluation-review-feature-matrix/index.md) - the five quality-control columns divided on who judges, the agent, the metric suite, the benchmark, or the human, verified 2026-09-09.
+- [Sandboxing Feature Matrix](sandboxing-feature-matrix/index.md) - the six isolation layers divided into boundaries, an orchestrator, a framework, and provisioning, verified 2026-09-09.
+- [Session Analytics Feature Matrix](session-analytics-feature-matrix/index.md) - the archive and the attribution CLI versus the still-empty live-observation cells, verified 2026-09-09.
+- [People and Publications Feature Matrix](people-and-publications-feature-matrix/index.md) - the thirteen voices compared on focus, cadence, and reader slot, verified 2026-09-09.
 
 Essays appear here as the daily agent runs publish them.
 The queue it works from is [the work queue](queue.md).
@@ -67,10 +67,10 @@ All categories refreshed in parallel every run; dead tools keep their entries, m
 - [Ante](ante/index.md) - Antigma Labs' ~15MB Rust harness with an embedded llama.cpp engine, offline GGUF or 12+ cloud providers, footprint as the product.
 - [Bullet](bullet/index.md) - TryBullet's closed-source YC S26 latency bet, free today, with a published 479-of-500 SWE-bench run.
 - [Claude Code](claude-code/index.md) - Anthropic's everywhere-at-once harness, the platform benchmark and the token-cost cautionary tale.
-- [Cline](cline/index.md) - the open-source agent that outgrew its VS Code extension into CLI, kanban, and SDK, 5.2 million installs deep.
+- [Cline](cline/index.md) - the open-source agent that outgrew its VS Code extension into CLI, kanban, and SDK, 5.3 million installs deep.
 - [Codex](codex/index.md) - OpenAI's ChatGPT-included agent, the Apache-2.0 big-lab CLI individuals can still just run.
 - [Crush](crush/index.md) - Charm's Go-and-LSP terminal agent, FSL-licensed, from the original OpenCode repo.
-- [DeepSeek Harness](deepseek-harness/index.md) - DeepSeek's everything-is-a-plugin harness, 212k stars in a month, MIT but alpha, now at release candidates.
+- [DeepSeek Harness](deepseek-harness/index.md) - DeepSeek's everything-is-a-plugin harness, 217k stars in its first month, MIT but prerelease-only.
 - [Exo](exo/index.md) - the MIT self-modification bet, a harness the agent can rewrite at runtime, cheapest measured harness at $1.05 per task.
 - [fx](fx/index.md) - Vercel Labs' ~6 MiB Zig harness built to be embedded, the first agent-as-a-dependency bet.
 - [Gemini CLI](gemini-cli/index.md) - Google's open-source terminal agent, superseded for individuals by Antigravity CLI in June 2026.
@@ -84,7 +84,7 @@ All categories refreshed in parallel every run; dead tools keep their entries, m
 - [OpenCode](opencode/index.md) - the MIT, provider-neutral harness with the leanest measured token baseline.
 - [OpenHands](openhands/index.md) - the renamed OpenDevin platform bet, sandboxed code-shell-browser agents you can self-host.
 - [Pi](pi/index.md) - Earendil's minimal, self-extensible harness, a frozen core plus your TypeScript extensions, no MCP by design.
-- [Qwen Code](qwen-code/index.md) - Alibaba's Gemini CLI fork, the free-tier on-ramp and open-weights showcase.
+- [Qwen Code](qwen-code/index.md) - Alibaba's Gemini CLI fork and open-weights showcase, its OAuth free tier discontinued April 2026.
 - [Warp Agent CLI](warp-agent-cli/index.md) - Warp's terminal agent unbundled into any terminal, model routing, cloud agents, and orchestration behind its credit meter.
 - [Zerostack](zerostack/index.md) - the solo GPL-3.0 Rust agent, 26 MB binary and ~16 MB RAM, subagents, worktrees, hooks, MCP behind compile flags.
 
@@ -213,7 +213,7 @@ Where agent isolation should live: the workstation, the cluster, the wrapper, th
 ## Spec-driven development
 
 - [BMad Method](bmad-method/index.md) - the agile method that sizes ceremony to the change, roles and retrospectives included.
-- [GitHub Spec Kit](spec-kit/index.md) - the MIT process-plus-CLI layer that made specs-before-agents a movement, agent-neutral, 133k stars in year one.
+- [GitHub Spec Kit](spec-kit/index.md) - the MIT process-plus-CLI layer that made specs-before-agents a movement, agent-neutral, 134k stars in year one.
 - [OpenSpec](openspec/index.md) - the brownfield spec toolkit whose delta proposals archive into a living ledger, 1.6M npm downloads a month.
 - [Tessl](tessl/index.md) - the $125M platform bet that spec-driven development is infrastructure you rent.
 
@@ -225,16 +225,16 @@ Where agent isolation should live: the workstation, the cluster, the wrapper, th
 
 ## Control planes
 
-- [Paperclip](paperclip/index.md) - the MIT self-hosted control plane for a company of agents, heartbeats, budgets, and governance, 79k stars in six months.
+- [Paperclip](paperclip/index.md) - the MIT self-hosted control plane for a company of agents, heartbeats, budgets, and governance, 80k stars in six months.
 - [TinyAGI](tinyagi/index.md) - the one-person-company orchestrator that stalled in March 2026, kept as the category's first consolidation record.
 
 ## Assistant runtimes
 
 - [Eigent](eigent/index.md) - the Apache-2.0 Cowork desktop with CAMEL-based multi-agent workforces and a corrected-benchmark history.
-- [Hermes](hermes/index.md) - Nous Research's self-improving agent with the learning loop, 240k stars and the channels to match.
+- [Hermes](hermes/index.md) - Nous Research's self-improving agent with the learning loop, 244k stars, new paid tiers, and the channels to match.
 - [NanoClaw](nanoclaw/index.md) - the auditable containerized OpenClaw rewrite, one process you can read in an afternoon.
 - [Nanobot](nanobot/index.md) - HKUDS' readable Python agent runtime with the WebUI and channels bundled, 47k stars at alpha.
-- [OpenClaw](openclaw/index.md) - the self-hosted personal assistant root of the -claw family, 388k stars and the 2026 provider-restriction saga.
+- [OpenClaw](openclaw/index.md) - the self-hosted personal assistant root of the -claw family, 389k stars and the 2026 provider-restriction saga.
 - [OpenWork](openwork/index.md) - the MIT-core Cowork alternative built on OpenCode, whose MCP gateway makes skills portable across agents.
 - [PicoClaw](picoclaw/index.md) - Sipeed's Go assistant on $10 RISC-V boards in 10-20MB of RAM, the category as a compile target.
 - [QwenPaw](qwenpaw/index.md) - the AgentScope team's assistant with the broadest chat-channel matrix and five built-in security layers.

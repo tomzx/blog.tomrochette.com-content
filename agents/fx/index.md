@@ -1,7 +1,7 @@
 ---
 title: fx
 created: 2026-08-29
-updated: 2026-09-08
+updated: 2026-09-09
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agents, harnesses, zig, vercel, embedding]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 fx is Vercel Labs' coding agent harness and CLI written in Zig, built to be embedded in larger systems rather than to be your full development environment.
-Facts below verified as of 2026-09-08.
+Facts below verified as of 2026-09-09.
 
 **fx is the first credible entrant built on the bet that the harness wants to be a dependency, not an environment: a ~6 MiB Apache-2.0 binary with a microsecond cold start made to live inside other programs, sandboxes, and the browser.**
 
@@ -24,7 +24,7 @@ Feature surface: native [AGENTS.md](https://fx.sh/docs/configure-fx/project-inst
 ## Status
 
 **Active and very young.**
-The repository was created August 11, 2026 and shows 2,792 stars and 320 forks as of 2026-09-08, with v0.0.8 the latest release (published September 7, 2026, with breaking changes to the shell tool and the subagent interface) and pushes landing on 2026-09-08 (GitHub API).
+The repository was created August 11, 2026 and shows 2,815 stars and 320 forks as of 2026-09-09, with v0.0.8 the latest release (published September 7, 2026, with breaking changes to the shell tool and the subagent interface) and pushes landing on 2026-09-09 (GitHub API).
 The launch thread drew 318 points on August 18, 2026 ([HN](https://news.ycombinator.com/item?id=49353339)).
 The README carries its own banner: "Status: Experimental. Use at your own risk."
 
@@ -39,7 +39,7 @@ The README carries its own banner: "Status: Experimental. Use at your own risk."
 
 - **Open source does not mean vendor-neutral**: every model request routes through Vercel AI Gateway regardless of credential, so Vercel sits on the meter and the metadata even when you self-host the binary ([usage docs](https://fx.sh/docs/using-fx/usage-and-costs)).
 - v0.0.x with frequent changes promised; the site's own demo page says "use at your own risk, we will be making frequent changes".
-- No local-model path and no direct provider keys are documented: the catalog is Vercel AI Gateway, Codex, or Grok, nothing else (models and authentication pages).
+- The models and authentication docs still document only three credentials (Vercel AI Gateway, Codex, or Grok), but the site's home page now advertises local models, gateways, and direct provider API access, so treat local-model and provider-key support as announced but not yet documented.
 - No hooks or plugins mechanism; skills only.
 - The pipe-to-shell installer (`curl ... | bash`) is the default install path; the docs themselves ask you to read the installation page first.
 
@@ -69,7 +69,7 @@ Not for anyone who needs local models, provider-key BYOK, or a stable release li
 
 ## References
 
-- https://github.com/vercel-labs/fx - repository, Apache-2.0, scale and releases, as of 2026-09-08
+- https://github.com/vercel-labs/fx - repository, Apache-2.0, scale and releases, as of 2026-09-09
 - https://fx.sh/ - product claims, v0.0.8 binary size, Wasm demo, cold start
 - https://fx.sh/docs/getting-started/authentication - the three-credential provider model and local token storage
 - https://fx.sh/docs/configure-fx/project-instructions - native AGENTS.md loading

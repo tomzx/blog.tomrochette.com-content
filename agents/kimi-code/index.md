@@ -1,7 +1,7 @@
 ---
 title: "Kimi Code"
 created: 2026-09-05
-updated: 2026-09-06
+updated: 2026-09-09
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, cli, coding-agent, moonshot, byok]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 **Kimi Code CLI is Moonshot AI's terminal coding agent, and it is the first big-model-vendor harness whose default path is a challenger model instead of Claude or GPT.**
-Facts below verified as of 2026-09-08.
+Facts below verified as of 2026-09-09.
 
 ## What it is
 
@@ -22,7 +22,7 @@ The code lives in two repositories: the original `MoonshotAI/kimi-cli` (Apache-2
 
 ## Status
 
-Active and big-vendor backed, about 18.6k combined stars as of 2026-09-07: `kimi-code` at 7,267 stars pushed the day of verification, `kimi-cli` at 11,326 stars last pushed 2026-09-01.
+Active and big-vendor backed, about 18.6k combined stars as of 2026-09-09: `kimi-code` at 7,307 stars pushed the day of verification, `kimi-cli` at 11,332 stars last pushed 2026-09-01.
 **The independent FrontierHarness Eval pegs it mid-pack on quality and cheap on cost: 56.7 percent pass at a $3.65 median cost per task, with an 88 percent cache rate on Kimi K3.**
 The Hacker News footprint is thin (a 5-point 2025-10-31 thread and a 1-point 2026-01-27 one), which I read as distribution through Kimi's own channels rather than developer-mindshare gravity.
 
@@ -34,18 +34,18 @@ The Hacker News footprint is thin (a 5-point 2025-10-31 thread and a 1-point 202
 
 ## Cautions
 
-- The repository split (Apache-2.0 `kimi-cli` versus MIT `kimi-code`) is resolving toward `kimi-code`: the official docs now state the CLI was rebuilt on Node.js and that the old Python version will no longer be maintained, with a migration guide pointing at the new codebase ([docs](https://www.kimi.com/code/docs/), as of 2026-09-07).
+- The repository split (Apache-2.0 `kimi-cli` versus MIT `kimi-code`) is resolving toward `kimi-code`: the official docs now state the CLI was rebuilt on Node.js and that the old Python version will no longer be maintained, with a migration guide pointing at the new codebase ([docs](https://www.kimi.com/code/docs/), as of 2026-09-09).
 - Your tokens flow to Moonshot's API in the default path, the same vendor-dependency trade Claude Code and Codex make, just with a cheaper vendor.
 - Thin independent coverage means the FrontierHarness numbers are nearly the only third-party evidence available.
 
 ## Pricing
 
 The harness is free and open source.
-Usage is Kimi Code OAuth (your Kimi subscription) or a Moonshot Open Platform API key: kimi-k3 at $3/$15 per million tokens and kimi-k2.7-code at $0.95/$4.00 as of 2026-09-06, with other OpenAI-compatible providers configurable.
+Usage is Kimi Code OAuth (your Kimi subscription) or a Moonshot Open Platform API key: kimi-k3 at $3/$15 per million tokens and kimi-k2.7-code at $0.71/$3.50 as of 2026-09-09 (verified via [OpenRouter's model list](https://openrouter.ai/api/v1/models); Moonshot's CN platform lists the same models at ¥20/¥100 and ¥6.50/¥27), with other OpenAI-compatible providers configurable.
 
 ## Compared to
 
-- [Codex](../codex/index.md): the other big-vendor open CLI, stronger on FrontierHarness quality (66.7 percent) but no longer on price, at $3.47 versus $3.65 median cost per task as of 2026-09-07.
+- [Codex](../codex/index.md): the other big-vendor open CLI, stronger on FrontierHarness quality (66.7 percent) but no longer on price, at $3.47 versus $3.65 median cost per task as of 2026-09-09.
 - [Qwen Code](../qwen-code/index.md): Alibaba's fork-and-rebrand path into the same market; Kimi Code is a from-scratch Moonshot product rather than a Gemini CLI derivative.
 - [OpenCode](../opencode/index.md): the provider-neutral alternative when you want the harness decoupled from any one model vendor.
 
@@ -69,3 +69,4 @@ Not for teams that need local models, or anyone who needs more than one independ
 - https://www.kimi.com/code/docs/ - product docs, login paths, and the Node.js migration notice naming the old CLI as unmaintained
 - https://frontierharness.org - the independent pass-rate and cost-per-task numbers
 - https://hn.algolia.com/api/v1/items/45767884 - the largest HN thread, cited as the thin-footprint signal
+- https://openrouter.ai/api/v1/models - live per-token prices grounding the kimi-k3 and kimi-k2.7-code figures

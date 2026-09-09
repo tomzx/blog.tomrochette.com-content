@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 This matrix compares the twelve surfaces profiled in this section, feature by feature, from editors to agent platforms to session cockpits.
-Everything below was verified against live sources on 2026-08-24 and re-verified on 2026-09-08.
+Everything below was verified against live sources on 2026-08-24 and re-verified on 2026-09-09.
 
 **The surfaces differ less in whether they have an agent and more in what they are: an editor with an agent inside, a platform that treats the editor as one client, or a cockpit for many agents, and the row that matters most is the one nobody advertises, who runs where.**
 
@@ -73,4 +73,4 @@ Antigravity and OpenChamber are the extremes, a closed platform giving the most 
 - https://docs.continue.dev/customize/rules - rules system for the Continue column
 - https://roocodeinc.github.io/Roo-Code/features/custom-instructions - AGENTS.md and .roorules for the Roo Code column
 - https://roocodeinc.github.io/Roo-Code/features/mcp/overview - MCP for the Roo Code column
-- https://docs.windsurf.com/ - product direction and MCP for the Windsurf column
+- https://docs.windsurf.com/ - product direction and MCP for the Windsurf column (redirects to the Devin Desktop docs)

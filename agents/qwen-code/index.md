@@ -1,7 +1,7 @@
 ---
 title: Qwen Code
 created: 2026-08-24
-updated: 2026-09-06
+updated: 2026-09-09
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, coding-agents, harnesses, open-source, alibaba]
 readability: 3
@@ -12,9 +12,9 @@ audience_notes: >
 ---
 
 Qwen Code is the Alibaba Qwen team's open-source (Apache-2.0) terminal coding agent, forked from Google's Gemini CLI v0.8.2 and developed independently since v0.1.
-Facts below verified as of 2026-09-08.
+Facts below verified as of 2026-09-09.
 
-**Qwen Code is the free on-ramp of the harness field, and the only major harness whose companion model family is itself open weights, which makes it the cleanest demonstration of model and harness evolving together.**
+**Qwen Code made its name as the free on-ramp of the harness field, and it remains the only major harness whose companion model family is itself open weights, which makes it the cleanest demonstration of model and harness evolving together.**
 
 ## What it is
 
@@ -27,12 +27,12 @@ It speaks OpenAI, Anthropic, Gemini, and Qwen APIs plus local models via Ollama 
 ## Status
 
 **Active and self-hosting in an unusual sense: the README states the project uses its own agent to file issues, submit PRs, review code, and run tests.**
-The repository shows about 27.7k stars as of 2026-09-07 and was pushed the same day.
+The repository shows about 27.7k stars as of 2026-09-09 and was pushed the same day.
 It launched in July 2025 as a Qwen3-Coder-optimized CLI; the Acknowledgments section records the Gemini CLI v0.8.2 origin and the split from upstream at v0.1.
 
 ## Strengths
 
-- The launch free tier, 2,000 requests per day with no token limits via Qwen OAuth (August 2025), was the most generous in the field at the time.
+- The launch free tier, 2,000 requests per day with no token limits via Qwen OAuth (August 2025), was the most generous in the field at the time; it was discontinued on 2026-04-15.
 - Open weights plus open harness: you can run the full stack, model included, on your own hardware.
 - Multi-protocol support makes it a single client for every provider you hold keys to.
 - Daemon mode and IM channels push it toward an always-on assistant, not just a terminal session.
@@ -41,13 +41,14 @@ It launched in July 2025 as a Qwen3-Coder-optimized CLI; the Acknowledgments sec
 
 - **The Claude Code parity table in the README is the vendor's own assertion**, not an independent measurement.
 - Model behavior incidents attach to the model family: an April 2026 report describes Qwen correcting code to retract a "Taiwan is a country" statement, a governance consideration for behavior-sensitive work.
-- Install assets and OAuth route through Alibaba cloud infrastructure, a data-residency factor for some organizations.
+- Install assets and first-party model traffic route through Alibaba cloud infrastructure, a data-residency factor for some organizations.
 - English-language community footprint is thin: launch and release threads sit in single-digit points.
 
 ## Pricing
 
 The agent is free and open source.
-The launch free tier was 2,000 requests/day through Qwen OAuth (no token limits, as of August 2025); verify the current quota on the docs before budgeting around it.
+The launch free tier is gone: the docs state the Qwen OAuth free tier (2,000 requests/day, no token limits) was discontinued on 2026-04-15, and OAuth is no longer a selectable first-run option.
+The current first-party paths are the Alibaba Cloud Coding Plan (weekly quota included), the usage-billed Token Plan, or a ModelStudio API key.
 BYOK works with any supported provider, including local models at no API cost.
 
 ## Compared to
@@ -70,8 +71,9 @@ Not for workflows where model behavior provenance or data residency is tightly g
 
 ## References
 
-- https://github.com/QwenLM/qwen-code - README capabilities, fork acknowledgment, repository scale as of 2026-09-07
+- https://github.com/QwenLM/qwen-code - README capabilities, fork acknowledgment, repository scale as of 2026-09-09
 - https://qwenlm.github.io/qwen-code-docs/en/users/overview - modes, surfaces, and configuration documentation
+- https://qwenlm.github.io/qwen-code-docs/en/users/configuration/auth/ - the Qwen OAuth free-tier discontinuation (2026-04-15) and the current first-party plans
 - https://news.ycombinator.com/item?id=44653981 - the July 2025 launch thread
 - https://news.ycombinator.com/item?id=44842523 - the 2,000 free requests/day announcement as launched
 - https://news.ycombinator.com/item?id=45032918 - a critical look at Qwen Code's ecosystem context

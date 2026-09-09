@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Windsurf was the agentic IDE that survived an aborted $3 billion OpenAI acquisition and a Cognition rescue, and it is now being rebranded out of existence as Devin Desktop.
-Facts below verified as of 2026-09-08.
+Facts below verified as of 2026-09-09.
 
 **Windsurf is the category's cautionary tale: the number-two AI editor was bought, broken up, and rebranded within two months in mid-2025, and its retirement into Devin Desktop is the reminder that loyalty to an AI editor has no asset value.**
 
@@ -28,7 +28,7 @@ May 2025: OpenAI reached agreement to buy Windsurf for $3 billion.
 July 11, 2025: that deal was off and the CEO went to Google; a July 24 thread from an early employee claimed a payout of about 1% of what the shares were worth.
 July 14, 2025: Cognition signed the definitive agreement for the IP, product, trademark, brand, and team, citing $82M ARR, 350+ enterprise customers, and hundreds of thousands of daily active users.
 June 2026: Devin Desktop shipped, and the documentation domain now describes a Devin product.
-As of 2026-09-07 the windsurf.com domain itself 308-redirects to devin.ai, the clearest sign yet that the brand is being retired.
+As of 2026-09-09 the windsurf.com domain itself 308-redirects to devin.ai, the clearest sign yet that the brand is being retired.
 On September 2, 2026, Bloomberg reported that Cognition is closing a round of about $1 billion at roughly a $47 billion valuation, up from $26 billion three months earlier, with annualized revenue above $900 million, so the owner funding this transition has more momentum than ever.
 
 ## Strengths
@@ -41,7 +41,7 @@ On September 2, 2026, Bloomberg reported that Cognition is closing a round of ab
 ## Cautions
 
 - **You cannot buy Windsurf anymore, you buy Devin**: check whether your workflow survives an owner whose flagship is a cloud autonomous agent.
-- windsurf.com now 308-redirects to devin.ai/desktop, whose pages reject automated fetches (last checked 2026-09-08), so plan pages remain unverified.
+- windsurf.com now 308-redirects to devin.ai/desktop, whose pages reject automated fetches (last checked 2026-09-09), so plan pages remain unverified.
 - The equity dispute thread is a reminder of how much human turbulence this product absorbed in 2025.
 - A rebrand in progress means docs, packages, and repositories still say windsurf in places; expect transitional breakage.
 

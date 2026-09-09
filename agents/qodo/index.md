@@ -1,7 +1,7 @@
 ---
 title: Qodo
 created: 2026-08-30
-updated: 2026-09-08
+updated: 2026-09-09
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, code-review, ai-review, open-source, developer-tools]
 readability: 3
@@ -13,7 +13,7 @@ audience_notes: >
 ---
 
 Qodo is an AI code review and governance platform (formerly CodiumAI) whose MIT-licensed PR-Agent was marketed as the original open-source AI PR reviewer, and which has now donated that reviewer to the community while selling the heavier product above it.
-Facts below verified as of 2026-09-08.
+Facts below verified as of 2026-09-09.
 
 ## What it is
 
@@ -25,10 +25,10 @@ The repo description draws the line in one sentence: "This project is not the Qo
 ## Status
 
 Active on both halves, and deliberately splitting apart.
-The repo counts 12,889 stars and 1,824 forks as of 2026-09-08, MIT-licensed, with v0.45.0 released September 5, 2026, and the former qodo-ai/pr-agent URL now redirects to the repo's new home in the standalone PR-Agent organization.
+The repo counts 12,911 stars and 1,832 forks as of 2026-09-09, MIT-licensed, with v0.45.0 released September 5, 2026, and the former qodo-ai/pr-agent URL now redirects to the repo's new home in the standalone PR-Agent organization.
 The company raised $11M in 2023, then $40M in September 2024 ($50M total), by which point TechCrunch already called it "Qodo, the startup previously known as CodiumAI".
 The README states Qodo donated PR-Agent to the community, the project has its first external maintainer, and it is being donated to an open-source foundation.
-The company's badges report 900.9K VS Code and 647.1K JetBrains extension installs plus roughly 12.8K Marketplace installs for the paid app, as of 2026-09-05.
+The company's badges report 901.9K VS Code and 647.9K JetBrains extension installs plus roughly 12.9K Marketplace installs for the paid app, as of 2026-09-09.
 On Hacker News the reviewer itself never caught fire (best thread 24 points, item 41500840), while company research posts reached 139 (item 44874736) and 87 points (item 41838348), and the Kudelski exploit write-up got 1 point (item 46824997).
 
 ## Strengths
@@ -52,7 +52,7 @@ On Hacker News the reviewer itself never caught fire (best thread 24 points, ite
 ## Pricing
 
 PR-Agent is free under MIT, self-hosted with your own LLM keys.
-The commercial product meters pooled credits at $0.012 each, with packs sized around 18, 36, or 144 reviews per month, under a Pro Team plan listed at $30 with monthly billing, no annual commitment, and up to 30 users, as of 2026-09-08.
+The commercial product meters pooled credits at $0.012 each, with packs sized around 18, 36, or 144 reviews per month, under a Pro Team plan listed at $30 with monthly billing, no annual commitment, and up to 30 users, as of 2026-09-09.
 Enterprise adds SSO/SAML, audit logs, BYOK, single-tenant SaaS or on-prem, cross-repo review, and negotiated pricing.
 Qualified open-source projects get the commercial reviewer free through a Marketplace app powered by Google.
 For history: in September 2024 the paid Chrome-extension tier was $19 per month for private repos (item 41443605), so the model has moved twice in two years.
@@ -65,7 +65,8 @@ For history: in September 2024 the paid Chrome-extension tier was $19 per month 
 
 ## Bottom line
 
-**Recommended for teams that want a self-hostable, MIT-licensed reviewer with a boring, inspectable command surface, and for enterprises that want rule enforcement and governance with BYOK or on-prem deployment. Not for developers hunting a permanent free tier for private repos, because that tier no longer exists.**
+**Recommended for teams that want a self-hostable, MIT-licensed reviewer with a boring, inspectable command surface, and for enterprises that want rule enforcement and governance with BYOK or on-prem deployment.**
+Not for developers hunting a permanent free tier for private repos, because that tier no longer exists.
 I also think the PR-Agent donation is less a gift than a repositioning: the repo itself says "community-maintained legacy project", and I read that as the vendor conceding that the single-LLM-call reviewer is a commodity, so anyone adopting the OSS half for the long haul is adopting code the company has already stopped competing on.
 
 ## See also
@@ -78,7 +79,7 @@ I also think the PR-Agent donation is less a gift than a repositioning: the repo
 
 ## References
 
-- https://api.github.com/repos/qodo-ai/pr-agent - redirects to The-PR-Agent/pr-agent, the repo's new home; stars, forks, push date, MIT license, and the "This project is not the Qodo free tier" description, queried as of 2026-09-08.
+- https://api.github.com/repos/qodo-ai/pr-agent - redirects to The-PR-Agent/pr-agent, the repo's new home; stars, forks, push date, MIT license, and the "This project is not the Qodo free tier" description, queried as of 2026-09-09.
 - https://github.com/qodo-ai/pr-agent - README: donation to the community, tools table, platforms, release notes, sponsor status, "legacy project" wording.
 - https://docs.pr-agent.ai/tools/ - the full OSS command surface, including the /help_docs disabling.
 - https://www.qodo.ai/ - positioning, context engine, rules system, self-reported benchmark claim, credit FAQ, install badges.

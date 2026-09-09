@@ -1,7 +1,7 @@
 ---
 title: "Harness Feature Matrix"
 created: 2026-08-24
-updated: 2026-09-08
+updated: 2026-09-09
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, comparison, harnesses, coding-agents]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 This matrix compares the twenty-five harnesses profiled in this section, feature by feature, so the shortlisting step does not require reading twenty-five notes.
-Everything below was re-verified against live sources on 2026-09-08.
+Everything below was re-verified against live sources on 2026-09-09.
 
 **No harness has everything, and the two axes that actually decide the purchase are client openness and who pays for tokens: everything else is converging.**
 
@@ -25,8 +25,8 @@ Each column links to the full research note; every cell below traces to a source
 | Company | none (solo) | [Amp Frontier](https://ampcode.com) | [Antigma Labs](https://antigma.ai) | [TryBullet](https://www.codewithbullet.com) (YC S26, closed source) | [Anthropic](https://www.anthropic.com) | [Cline Bot](https://cline.bot) | [OpenAI](https://openai.com) | [Charm](https://charm.sh) | [DeepSeek](https://deepseek.com) | [Exo Labs](https://exoharness.ai) | [Vercel](https://vercel.com) | [Google](https://about.google) | [AAIF](https://aaif.io) (ex-Block) | [Solo Systems](https://jcode.sh) | [Julian Storer](https://juggler.studio/) (solo) | [JetBrains](https://www.jetbrains.com) | [Anaconda](https://www.anaconda.com) | [Moonshot AI](https://www.kimi.com) | [OneCLI](https://onecli.sh) (YC S26) | [Anomaly](https://anoma.ly) | [All Hands AI](https://all-hands.dev) | [Earendil](https://pi.dev) | [Alibaba](https://www.alibaba.com) | [Warp](https://www.warp.dev) | [Giuseppe Dellavedova](https://github.com/gi-dellav/zerostack) (solo, GPL-3.0) |
 | Open client | ✓ Apache-2.0 | ✗ | ~ Apache-2.0 source, preview binaries | ✗ | ✗ | ✓ Apache-2.0 | ✓ Apache-2.0 | ~ FSL-1.1-MIT | ✓ MIT | ✓ MIT | ✓ Apache-2.0 | ✓ Apache-2.0 | ✓ Apache-2.0 | ✓ MIT | ✓ AGPL-3.0 | ✗ | ✓ MIT | ✓ MIT | ✓ Apache-2.0 | ✓ MIT | ✓ MIT | ✓ MIT | ✓ Apache-2.0 | ✗ closed binary | ✓ GPL-3.0 |
 | BYOK | ✓ | ✓ | ✓ | ? | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ~ AI Gateway key only | ✓ paid keys | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ~ BYOC at paid tiers | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
-| Included subscription usage | ✗ | ✓ | ✓ | ✗ free, no subscriptions | ✓ | ~ via ClinePass | ✓ | ~ via Hyper | ✗ BYO keys only | ✗ API keys only | ~ Codex and Grok OAuth | ✗ enterprise only | ~ via ACP subs | ✓ OAuth and multi-account | ✓ | ✓ | ~ kilo credits | ~ via Kimi OAuth | ~ $5 credits at $0 tier | ~ via Zen | ✗ at-cost only | ✓ Claude, ChatGPT, Copilot | ~ free OAuth tier | ✓ | ✗ |
-| Local models | ✓ | ✗ | ✓ embedded llama.cpp | ✗ hosted models only | ✗ | ✓ | ✗ | ✓ | ~ OpenAI-compatible endpoints | ✗ | ✗ none documented | ✗ | ✓ | ✓ Ollama and LM Studio | ✓ Ollama | ✓ Ollama and LM Studio, plus on-device Junie Local | ✓ Ollama and LM Studio | ✗ | ? | ✓ | ✓ LM Studio, Ollama, vLLM | ✓ llama.cpp | ✓ | ✗ | ✓ Ollama |
+| Included subscription usage | ✗ | ✓ | ✓ | ✗ free, no subscriptions | ✓ | ~ via ClinePass | ✓ | ~ via Hyper | ✗ BYO keys only | ✗ API keys only | ~ Codex and Grok OAuth | ✗ enterprise only | ~ via ACP subs | ✓ OAuth and multi-account | ✓ | ✓ | ~ kilo credits | ~ via Kimi OAuth | ~ $5 credits at $0 tier | ~ via Zen | ✗ at-cost only | ✓ Claude, ChatGPT, Copilot | ~ Coding Plan weekly quota | ✓ | ✗ |
+| Local models | ✓ | ✗ | ✓ embedded llama.cpp | ✗ hosted models only | ✗ | ✓ | ✗ | ✓ | ~ OpenAI-compatible endpoints | ✗ | ~ advertised on fx.dev, not yet in docs | ✗ | ✓ | ✓ Ollama and LM Studio | ✓ Ollama | ✓ Ollama and LM Studio, plus on-device Junie Local | ✓ Ollama and LM Studio | ✗ | ? | ✓ | ✓ LM Studio, Ollama, vLLM | ✓ llama.cpp | ✓ | ✗ | ✓ Ollama |
 | MCP | ✗ | ✓ | ✓ | ? | ✓ | ✓ | ✓ | ✓ | ? | ? | ✓ | ✓ | ✓ | ~ stdio only | ✓ | ✓ | ✓ | ✓ | ? | ✓ | ✓ | ✗ by design | ✓ | ? | ~ compile-time feature |
 | AGENTS.md | ✗ | ✓ | ✓ | ? | ~ reads CLAUDE.md | ✓ plus .clinerules | ✓ | ✓ plus CRUSH.md | ? | ? | ✓ native | ~ GEMINI.md native | ✓ plus .goosehints | ✓ native plus ~/AGENTS.md | ? | ✗ uses guidelines.md | ✓ plus .kilocoderules | ? | ? | ✓ plus CLAUDE.md | ✗ uses .openhands | ? | ~ QWEN.md native | ? | ✓ plus ARCHITECTURE.md |
 | Subagents | ✗ | ✓ | ✓ | ? | ✓ | ✓ teams | ✓ | ? | ✓ | ~ agent clones and lineage | ✓ persistent children | ✗ | ✓ | ✓ swarm workers | ~ read-only | ✗ | ✓ custom and built-in | ✓ coder, explore, plan | ? | ✓ | ~ delegates via ACP | ~ via extensions | ✓ teams | ~ multi-agent orchestration | ✓ |
@@ -110,7 +110,7 @@ The six new columns spread across the same axis: Ante and Juggler take subscript
 - https://docs.warp.dev/agents/cli - CLI surface, cloud agents, and account model for the Warp Agent CLI column
 - https://github.com/vercel-labs/fx - license, scale, and releases for the fx column
 - https://fx.sh/docs/getting-started/authentication - the provider model behind the fx BYOK and subscription cells
-- https://fx.sh/docs/configure-fx/models - the no-local-models cell for the fx column
+- https://fx.sh/docs/configure-fx/models - the fx local-models cell, whose docs still omit local support
 - https://github.com/1jehuang/jcode - license, scale, providers, MCP limits, and swarm for the jcode column
 - https://jcode.sh/docs - AGENTS.md, hooks, skills, local models, and remote daemon cells for the jcode column
 - https://github.com/juggler-ai/juggler - license, extensions, and session model for the Juggler column

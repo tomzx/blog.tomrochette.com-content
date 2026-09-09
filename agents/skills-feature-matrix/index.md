@@ -1,7 +1,7 @@
 ---
 title: "Skills Feature Matrix"
 created: 2026-08-24
-updated: 2026-09-08
+updated: 2026-09-09
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, comparison, skills, agent-extensions]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 This matrix compares the five Skills-category notes in this section, the open standard, Anthropic's vendor format, OpenCode's native mechanism, Microsoft's skill optimizer, and Vercel's skills.sh registry, feature by feature, so choosing an extension path does not require reading five notes.
-Everything below was re-verified against live sources on 2026-09-08.
+Everything below was re-verified against live sources on 2026-09-09.
 
 **The format war is already over and SKILL.md won it, so every decision that remains lives above the format, who gates execution, who ranks discovery, and who versions what your agent runs, and the registry column worries me more than the vendor column.**
 
@@ -25,10 +25,10 @@ Each column links to the full research note; every cell traces to a source cited
 | Kind | open spec | vendor format | harness mechanism | skill optimizer | registry and CLI |
 | Steward | public GitHub org | Anthropic | anomalyco project | Microsoft Research | Vercel labs |
 | Open source | ✓ spec and validator | ~ mostly, doc skills closed | ✓ MIT | ✓ MIT | ✓ CLI MIT |
-| Runtimes | ✓ dozens listed | Claude chat, Code, API | OpenCode only | ~ any SKILL.md harness, shells for 5 | ~ installs into 70+ |
+| Runtimes | ✓ dozens listed | Claude chat, Code, API | OpenCode only | ~ any SKILL.md harness, shells for 5 | ~ installs into 79 |
 | Frontmatter beyond spec | ✗ six fields, by design | ✓ ~20 in Claude Code | ✗ unknown fields ignored | ~ standard-compatible output | ~ indexes .claude-plugin |
 | Permissions or sandboxing | ~ harness-defined | ~ API container | ✓ allow/deny/ask per skill | ✗ evaluation-gated, not sandboxed | ✗ audit columns only |
-| Distribution and install | git, no registry needed | repo, upload, Skills API | git; npm for plugins | PyPI plus generated best_skill.md | ✓ npx into 70+ agents |
+| Distribution and install | git, no registry needed | repo, upload, Skills API | git; npm for plugins | PyPI plus generated best_skill.md | ✓ npx into 79 agents |
 | Telemetry or ranking | ✗ out of scope | ~ curated partner directory | ✗ none first-party | ✗ none first-party | ✓ install counts, opt-out |
 | Versioning and pinning | ✗ none | ~ Skills API versions | ✗ none | ✗ none | ~ git refs, no lockfile |
 | Explicit invocation | ~ explicit or implicit | ~ slash commands in Code | ✗ model-judgment only | ~ trained skill invokes like any skill | n/a (registry) |

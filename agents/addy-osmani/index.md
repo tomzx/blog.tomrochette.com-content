@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Addy Osmani is the enterprise-hands-on voice on agentic engineering, a Director at Google Cloud AI who writes practitioner-level guidance on coding agents, harnesses, evals, and the engineering discipline that keeps agent output maintainable.
-Facts below verified as of 2026-09-08.
+Facts below verified as of 2026-09-09.
 
 **He fills the enterprise-hands-on niche: where indie practitioners show what an agent can do and org analysts measure adoption, he writes from inside a hyperscaler about holding agent-built software to a production quality bar.**
 
@@ -24,7 +24,7 @@ He packages that argument into artifacts teams can adopt, notably the "Beyond Vi
 
 ## Status
 
-Active and high-reach as of 2026-09-08.
+Active and high-reach as of 2026-09-09.
 "21 Lessons From 14 Years at Google" (2026-01-03) reached 1,678 points on Hacker News, "Agent Skills" 376 points, and "The next two years of software engineering" (2026-01-11) 328 points.
 He discussed "Beyond Vibe Coding" and enterprise AI engineering practice on The Pragmatic Engineer (2025-10-29).
 

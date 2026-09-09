@@ -1,7 +1,7 @@
 ---
 title: Happy Coder
 created: 2026-09-06
-updated: 2026-09-08
+updated: 2026-09-09
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, mobile, claude-code, codex]
 readability: 3
@@ -12,7 +12,7 @@ audience_notes: >
 
 Happy Coder is an MIT-licensed open-source client that wraps Claude Code and Codex sessions on your machine and syncs them end-to-end encrypted to native iOS, Android, macOS, and web apps.
 **It out-stars every tool in the orchestration category while staying a thin wrapper around two harnesses, which says the phone screen, not the orchestrator, is what people install.**
-Facts below verified as of 2026-09-08.
+Facts below verified as of 2026-09-09.
 
 ## What it is
 
@@ -23,10 +23,10 @@ The README describes the makers as a community of engineers building for themsel
 
 ## Status
 
-Active and the category's traction leader: 23,693 GitHub stars as of 2026-09-08, created July 2025, last pushed 2026-09-07.
+Active and the category's traction leader: 23,702 GitHub stars as of 2026-09-09, created July 2025, last pushed 2026-09-07.
 The latest CLI release, cli-1.2.3, shipped 2026-09-05.
 Its August 2025 Show HN drew only 30 points, so the star count is bottom-up adoption rather than press traction.
-For scale, Paseo, the category's other mobile-first entrant, reports 16.4k stars against Happy's 23.7k.
+For scale, Paseo, the category's other mobile-first entrant, reports 16.6k stars against Happy's 23.7k.
 
 ## Strengths
 
@@ -69,7 +69,7 @@ Not for multi-provider orchestration, worktree isolation, or Windows and Linux d
 
 ## References
 
-- https://github.com/slopus/happy - repository, 23,693 stars, MIT license, monorepo components, team description (GitHub API, 2026-09-08)
+- https://github.com/slopus/happy - repository, 23,702 stars, MIT license, monorepo components, team description (GitHub API, 2026-09-09)
 - https://happy.engineering/ - official site and product framing
 - https://github.com/slopus/happy/releases - cli-1.2.3 published 2026-09-05 (GitHub API)
 - https://news.ycombinator.com/item?id=44904039 - August 2025 Show HN, 30 points, the donation-IAP question and Windows sync bugs (Algolia-verified)

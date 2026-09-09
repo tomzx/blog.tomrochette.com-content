@@ -1,7 +1,7 @@
 ---
 title: "Memory Feature Matrix"
 created: 2026-08-24
-updated: 2026-09-08
+updated: 2026-09-09
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, comparison, memory, agent-memory, ai-agents]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 This matrix compares the seven memory approaches profiled in this section, feature by feature: the file convention, the session-compression plugin, the memory-first harness, the two memory APIs, the self-hostable graph pipeline, and the portable memory format.
-Everything below was re-verified against live sources on 2026-09-08, with the Cognee column first verified 2026-08-26 and the Memoryfields column first verified 2026-09-04.
+Everything below was re-verified against live sources on 2026-09-09, with the Cognee column first verified 2026-08-26 and the Memoryfields column first verified 2026-09-04.
 
 **For coding agents I would start with plain files and not buy any service on benchmark claims, because the only memory problem files cannot solve at any price is contradiction over time, and Zep is the only vendor whose architecture faces it head on.**
 
@@ -30,7 +30,7 @@ Each column links to the full research note; every cell below traces to a source
 | Cross-user, cross-app memory | ✗ machine-local, cloud sync optional | ✓ documented multi-user mode | ✗ machine-local, per-repo | ~ agent-scoped persistence | ✓ apps and thousands of users | ~ corpus is transport-portable (S3, git, HTTP), single-corpus | ✓ millions of per-user graphs |
 | Integration surface | hooks, MCP, skills, 8+ agents | Python/TS/Rust SDKs, MCP, HTTP, CLI | file conventions, native everywhere | SDK, CLI, cloud API | API, MCP, CLI, skills | skill, CLI, any file transport | API, MCP, plugins |
 | Audit trail | ~ queryable observation store | ? | ~ git diffs only | ~ inspectable blocks | ? | ~ readable pages, sha256-pinnable, no provenance | ✓ fact-to-episode provenance |
-| Pricing model | free local, $20/mo cloud, $333/seat team | OSS free, cloud $2.50 per 1M tokens plus $5 per workspace | free | free BYOK, $20/mo, per-agent metering | freemium, $19 to $249/mo | free | credits, $104/mo entry |
+| Pricing model | free local, $20/mo cloud, $333/seat team | OSS free, cloud $1.00 per 1M tokens plus $5 per workspace | free | free BYOK, $20/mo, per-agent metering | freemium, $19 to $249/mo | free | credits, $104/mo entry |
 | Lock-in risk | low-medium, SQLite local, cloud optional | low, engine is portable | none, plain text | medium, pivot churn | medium, paid-only brain | none, plain text zip | high, managed engine core |
 
 ## Reading the matrix
@@ -46,7 +46,7 @@ Zep's bi-temporal invalidation marks old facts invalid instead of overwriting th
 Auto memory is machine-local and per-repository, so the moment memory must follow users across apps and machines, the free option drops out, which is the precise boundary where the services earn their keep.
 
 **Open source here does not mean what the license row suggests, and the self-host row is the correction.**
-Letta's 24.6k-star repo is a landing page with the V1 server archived unsupported; Zep's self-hostable Community Edition is discontinued and only the Graphiti engine remains open; Mem0's benchmarked brain is the paid platform while the OSS SDK is directionally weaker.
+Letta's 24.7k-star repo is a landing page with the V1 server archived unsupported; Zep's self-hostable Community Edition is discontinued and only the Graphiti engine remains open; Mem0's benchmarked brain is the paid platform while the OSS SDK is directionally weaker.
 **Cognee is the exception the row now proves: its entire engine is Apache-2.0 with no paid-only core, which is why its lock-in cell is the only low among the vendors.**
 **The only column with no gap between what is open and what runs is the convention, because there is nothing to close.**
 
@@ -60,7 +60,7 @@ Mem0's $19 Starter undercuts everyone; Zep's credit metering prices the audit tr
 - Facts change over time (preferences, roles, prices) and "why did the agent say that" needs an auditable answer: Zep.
 - Always-on agents that must accumulate a self, or you want to hack on where memory is going: Letta, or steal its memory-block and sleep-time patterns into a harness you already run.
 - Must self-host everything: Cognee (the whole engine runs on your backends), files, or Mem0 OSS, or Graphiti plus your own graph database if you can operate one.
-- Memory across many users with flat billing instead of seats or credits: Cognee Cloud at $2.50 per 1M tokens processed.
+- Memory across many users with flat billing instead of seats or credits: Cognee Cloud at $1.00 per 1M tokens processed.
 - Solo builder on no budget: files, full stop; Zep's own note says the graph stack is heavy at small scale.
 - Memory that must follow you across machines and apps without a vendor: Memoryfields, with the caveat that the spec is a two-week-old draft and its contradiction-handling row is empty.
 
@@ -83,7 +83,7 @@ Mem0's $19 Starter undercuts everyone; Zep's credit metering prices the audit tr
 - https://www.getzep.com/pricing - Zep plans and credit metering for the pricing row
 - https://github.com/getzep/graphiti - the temporal graph engine, self-host requirements for the Zep column
 - https://github.com/topoteretes/cognee - the Cognee column: whole-engine Apache-2.0, backends, multi-user docs
-- https://www.cognee.ai/pricing - Cognee cloud per-token rate, workspace fee, and the Enterprise bi-temporal memory listing, as of 2026-09-08
+- https://www.cognee.ai/pricing - Cognee cloud per-token rate, workspace fee, and the Enterprise bi-temporal memory listing, as of 2026-09-09
 - https://github.com/thedotmack/claude-mem - the claude-mem column: hook architecture, SQLite storage, license, adoption
 - https://docs.claude-mem.ai/architecture/overview - the compression flow and integration surfaces for the claude-mem column
 - https://claude-mem.ai - claude-mem pricing tiers for the pricing row

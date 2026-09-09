@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 **FrontierHarness Eval is the first public benchmark to hold the model constant and vary only the harness, and its headline finding is that harness choice moved cost 17.5x while quality stayed within about 13 points.**
-Facts below verified as of 2026-09-08.
+Facts below verified as of 2026-09-09.
 
 ## What it is
 

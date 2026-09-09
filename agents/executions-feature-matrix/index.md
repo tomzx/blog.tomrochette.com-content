@@ -1,7 +1,7 @@
 ---
 title: "Executions Feature Matrix"
 created: 2026-08-24
-updated: 2026-09-08
+updated: 2026-09-09
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, comparison, executions, scheduling, workflow-automation]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 This matrix compares the four execution substrates profiled in this section, the mechanisms that make an agent run without a person starting each task.
-Everything below was verified against live sources on 2026-09-08.
+Everything below was verified against live sources on 2026-09-09.
 
 **What decides between these four is not agent quality but where the trigger definition lives and who can inspect it, and on that axis Copilot automations fail for any team today, a stronger verdict than their zero-setup convenience deserves.**
 
@@ -72,4 +72,4 @@ hooks sit in between, since project-scope settings can be committed and user sco
 - https://github.github.com/gh-aw/ - frontmatter triggers, schedules, engines, guardrails, and runners for the gh-aw column
 - https://docs.github.com/en/copilot/concepts/agents/cloud-agent/about-cloud-agent - Actions-powered sessions, the 59-minute cap, and billing
 - https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-base.webhook/ - webhook trigger semantics for the n8n column
-- https://docs.n8n.io/privacy-and-security/sustainable-use-license.md - the not-open-source licensing cell
+- https://docs.n8n.io/n8n-community-license/sustainable-use-license.md - the not-open-source licensing cell

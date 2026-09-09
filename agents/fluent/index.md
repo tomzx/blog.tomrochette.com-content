@@ -1,7 +1,7 @@
 ---
 title: "Fluent"
 created: 2026-08-29
-updated: 2026-09-02
+updated: 2026-09-09
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=big-pickle, llm=glm-5.3-flash, software-factory, self-improving, autonomous-agents]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Fluent is a self-improving software factory that turns a team's vision, ideas, bug reports, user feedback, production logs, and agent traces into working software with writer, tester, reviewer, and learner roles inside one deterministic loop.
-Facts below verified as of 2026-09-08.
+Facts below verified as of 2026-09-09.
 
 ## What it is
 
@@ -21,8 +21,8 @@ Each run of a Work Item is an Attempt that a Writer, parallel Reviewers, a deter
 
 ## Status
 
-Active and meaningfully developed: 88 stars and 1 fork since creation on 2026-07-10, 1,776 commits, and v0.3.0 released 2026-08-31 (still the newest release) per the GitHub API as of 2026-09-08.
-v0.3.0 added durable Slack collaboration for planning, approvals, and candidate handoff, plus stronger recovery for long-running, scheduler-owned work.
+Active and meaningfully developed: 88 stars and 1 fork since creation on 2026-07-10, 1,965 commits, and v0.4.0 released 2026-09-08 (still the newest release) per the GitHub API as of 2026-09-09.
+v0.4.0 clarified which role owns each required action, improved how test evidence is matched, and made long-running work safer to resume and cancel; v0.3.0 (2026-08-31) had added durable Slack collaboration for planning, approvals, and candidate handoff.
 It is a focused single-author project with a real Discord community, not the biggest crowd but steadily shipped.
 The governance and self-improvement loop are unusually detailed for the category, which is the design bet the note weighs.
 
@@ -67,6 +67,7 @@ Not for the one-off feature, which a simpler pipeline or a single agent handles 
 ## References
 
 - https://github.com/mrinalwadhwa/fluent - the repo, the Observer-to-Merge-Candidate loop, and the expertise model
+- https://github.com/mrinalwadhwa/fluent/blob/main/documentation/releases/v0.4.0.md - the v0.4.0 release notes, action ownership and safer resumes
 - https://github.com/mrinalwadhwa/fluent/blob/main/documentation/releases/v0.3.0.md - the v0.3.0 release notes, Slack collaboration and recovery changes
 - https://github.com/mrinalwadhwa/fluent/blob/main/documentation/releases/v0.2.0.md - the v0.2.0 release notes and behavior changes
 - https://fluent.computer - the official site and the factory framing

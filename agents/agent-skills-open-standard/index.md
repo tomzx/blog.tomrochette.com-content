@@ -1,7 +1,7 @@
 ---
 title: Agent Skills open standard
 created: 2026-08-24
-updated: 2026-08-26
+updated: 2026-09-09
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, skills, agent-extensions, open-standards]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 The Agent Skills open standard (agentskills.io) defines an agent capability as a directory containing a SKILL.md: required `name` and `description` frontmatter, optional `license`, `compatibility`, `metadata`, and `allowed-tools`, then markdown instructions, with scripts, references, and assets as optional neighbors.
-Facts below verified as of 2026-09-08.
+Facts below verified as of 2026-09-09.
 
 **The standard spread faster than MCP because it is only files: no runtime, no protocol, no server, so a harness can implement it in an afternoon, and by mid-2026 OpenAI, Google, and the major third-party harnesses all had.**
 
@@ -26,7 +26,7 @@ Discovery is by directory convention: each harness scans its own skills paths (`
 
 **Active, and effectively the winner.**
 The agentskills.io client showcase lists Claude and Claude Code, ChatGPT and Codex, Gemini CLI, Cursor, GitHub Copilot and VS Code, OpenCode, Amp, Goose, Junie, Roo, Kiro, Trae, and dozens more.
-Vercel's skills CLI installs into more than 70 agents.
+Vercel's skills CLI installs into 79 agents as of 2026-09-09 (its README counts OpenCode, Claude Code, Codex, Cursor, and 75 more).
 Mintlify now auto-generates a skill at `.well-known/skills/default/skill.md` for every docs site it hosts and deprecated its January 2026 install.md convention in favor of skills.
 
 ## Strengths

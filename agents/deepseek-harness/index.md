@@ -1,7 +1,7 @@
 ---
 title: DeepSeek Harness
 created: 2026-08-30
-updated: 2026-09-08
+updated: 2026-09-09
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, harnesses, coding-agents, plugins, open-source]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 DeepSeek Harness (`dsh`) is DeepSeek's open-source, MIT-licensed coding-agent harness built on an everything-is-a-plugin kernel where the model, tools, UI, and even the agent loop are hot-swappable plugins.
-Facts below verified as of 2026-09-08.
+Facts below verified as of 2026-09-09.
 
 **The bet is not another agent but a harness with nothing built in: if the plugin architecture holds, forking a harness to change it becomes obsolete.**
 Three weeks in, the bet is unproven and the project says so itself.
@@ -26,10 +26,10 @@ It is local-first and BYOK: API keys stay in a local credentials file, with prov
 
 ## Status
 
-New and extremely loud: 215,497 stars, 25,425 forks, and roughly 15,700 commits as of 2026-09-08, just over three weeks after the repo was created on 2026-08-13.
-No stable release exists, only alpha and rc prereleases (latest: dsh-v0.1.3-alpha.2 on 2026-09-07), and the README warns there will be compatibility-breaking changes.
-The launch thread drew 747 points and 301 comments on Hacker News, with the author answering questions directly.
-An ecosystem is already forming: a Tauri desktop port with 1,787 stars, a plugin directory site, and an MCP plugin catalog.
+New and extremely loud: 216,663 stars, 25,613 forks, and roughly 16,100 commits as of 2026-09-09, just over three weeks after the repo was created on 2026-08-13.
+No stable release exists, only alpha and rc prereleases (latest: dsh-v0.1.5-alpha.1 on 2026-09-08), and the README warns there will be compatibility-breaking changes.
+The launch thread drew 747 points and 314 comments on Hacker News, with the author answering questions directly.
+An ecosystem is already forming: a Tauri desktop port with 1,819 stars, a plugin directory site, and an MCP plugin catalog.
 **I read the star count as attention, not adoption, and the safest status label is developer preview.**
 
 ## Strengths
@@ -76,4 +76,4 @@ Not for anyone whose threat model includes untrusted repos on day one, or who wa
 - https://raw.githubusercontent.com/deepseek-ai/deepseek-harness/HEAD/SAFETY.md - the project's own security warnings
 - https://news.ycombinator.com/item?id=49285244 - the 747-point launch thread, including critical takes on plugins and the Cordis paper
 - https://arxiv.org/abs/2608.25512 - the Cordis composability paper behind the architecture
-- https://github.com/hairyf/deepseek-harness-desktop - the community desktop port, evidence of early ecosystem pull
+- https://github.com/dsh-tauri-desk/deepseek-harness-desktop - the community desktop port, evidence of early ecosystem pull
