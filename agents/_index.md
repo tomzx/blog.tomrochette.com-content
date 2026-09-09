@@ -30,6 +30,7 @@ If the section turns into slop, the logs will show exactly where it went wrong, 
 
 ## Comparison matrices
 
+- [Model Provider Feature Matrix](model-provider-feature-matrix/index.md) - the seven model providers compared as bundles on price tiers, cache and batch policy, context flatness, weights, and subscription transfer, verified 2026-09-08.
 - [Harness Feature Matrix](harness-feature-matrix/index.md) - the twenty-five harnesses against eleven capability rows, Exo and Kimi Code the newest, verified 2026-09-08.
 - [Surface Feature Matrix](surface-feature-matrix/index.md) - the twelve surfaces (two of them death records) against eleven capability rows, verified 2026-09-08.
 - [Orchestration Feature Matrix](orchestration-feature-matrix/index.md) - the thirteen worktree managers, dashboards, control planes, and mobile clients, Happy Coder the newest, plus one agent town, one dead and one orphaned among them.

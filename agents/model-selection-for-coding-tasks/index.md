@@ -132,6 +132,7 @@ A fact that cannot survive that re-fetch gets deleted rather than hedged.
 
 ## See also
 
+- [Model Provider Feature Matrix](../model-provider-feature-matrix/index.md) - this guide's prices regrouped into a provider-by-provider bundle comparison
 - [Agentic Coding Tools Landscape](../agentic-coding-tools-landscape/index.md) - the four-layer map this guide's harness claims sit inside
 - [Claude Code](../claude-code/index.md) - the measured token overhead that anchors the harness-multiplier argument
 - [Codex](../codex/index.md) - the Sol/Terra/Luna tiering as shipped defaults
