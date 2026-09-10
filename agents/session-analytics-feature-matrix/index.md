@@ -1,7 +1,7 @@
 ---
 title: "Session Analytics Feature Matrix"
 created: 2026-08-30
-updated: 2026-09-09
+updated: 2026-09-10
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3-flash, comparison, session-analytics, observability, token-usage]
 readability: 3
@@ -12,7 +12,7 @@ audience_notes: >
 
 This matrix compares the members of the Session analytics category: tools that turn what your coding agents already record into searchable history, cost reports, and audits.
 The category now has two members: agentsview, the broad retrospective archive, and ctx, the search-and-attribution CLI; the live-observation cells remain empty, and the gap is named in prose below until a note earns them a column.
-Everything below was verified against live sources on 2026-09-09.
+Everything below was verified against live sources on 2026-09-10.
 
 **The category question is still retrospective archive versus live observation: agentsview answers what did my agents do and cost across every tool I run, ctx answers where did this line of code come from, and nobody in the category yet answers what is my agent doing right now.**
 
@@ -26,7 +26,7 @@ Each column links to the full research note; every cell traces to a source cited
 | Kind | local session indexer, web UI + CLI + desktop | local session search CLI with a paid blame-attribution add-on |
 | Deployment | local daemon, Docker, optional PostgreSQL push for teams | single-binary CLI install, agent-callable skill |
 | Open source | ✓ MIT | ✓ Apache-2.0 core, pro add-on paid |
-| Agents covered | ~60 sources auto-discovered (Claude Code, Codex, Gemini CLI, Copilot, Cursor, Zed, OpenCode, and more) | ~ major agents documented (Claude Code, Codex, Cursor, Pi, OpenCode, and more), full count unstated |
+| Agents covered | 60+ formats auto-discovered (Claude Code, Codex, Gemini CLI, Copilot, Cursor, Zed, OpenCode, and more) | ~ major agents documented (Claude Code, Codex, Cursor, Pi, OpenCode, and more), full count unstated |
 | Token cost reporting | ✓ per-model pricing catalog, seconds over months of sessions | ✗ |
 | Search | ✓ FTS5 full text, semantic search opt-in | ✓ cross-agent message and tool-call search, subagent and fork aware |
 | Provenance | ✗ | ✓ ctx pro maps a line, file, commit, or PR to the session that produced it |
@@ -62,8 +62,8 @@ ctx's moat is different: agent-facing retrieval, where the consumer of the searc
 ## References
 
 - https://github.com/kenn-io/agentsview - the repository, supported agents, architecture, and license for the agentsview column
-- https://agentsview.io/token-usage/ - the cost computation, benchmark caveats, and undercount disclosures
-- https://agentsview.io - the deployment surfaces and team features
+- https://www.agentsview.io/docs/token-usage/ - the cost computation, benchmark caveats, and undercount disclosures
+- https://www.agentsview.io - the deployment surfaces and team features
 - https://github.com/ctxrs/ctx - the ctx column: repository, license, and no-compaction positioning
 - https://ctx.rs/pro - the ctx column: blame attribution and its citation model
 - https://code.claude.com/docs/en/costs - the harness-native cost views that define the category's baseline

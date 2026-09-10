@@ -1,7 +1,7 @@
 ---
 title: "Harness Feature Matrix"
 created: 2026-08-24
-updated: 2026-09-09
+updated: 2026-09-10
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, comparison, harnesses, coding-agents]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 This matrix compares the twenty-five harnesses profiled in this section, feature by feature, so the shortlisting step does not require reading twenty-five notes.
-Everything below was re-verified against live sources on 2026-09-09.
+Everything below was re-verified against live sources on 2026-09-10.
 
 **No harness has everything, and the two axes that actually decide the purchase are client openness and who pays for tokens: everything else is converging.**
 
@@ -25,7 +25,7 @@ Each column links to the full research note; every cell below traces to a source
 | Company | none (solo) | [Amp Frontier](https://ampcode.com) | [Antigma Labs](https://antigma.ai) | [TryBullet](https://www.codewithbullet.com) (YC S26, closed source) | [Anthropic](https://www.anthropic.com) | [Cline Bot](https://cline.bot) | [OpenAI](https://openai.com) | [Charm](https://charm.sh) | [DeepSeek](https://deepseek.com) | [Exo Labs](https://exoharness.ai) | [Vercel](https://vercel.com) | [Google](https://about.google) | [AAIF](https://aaif.io) (ex-Block) | [Solo Systems](https://jcode.sh) | [Julian Storer](https://juggler.studio/) (solo) | [JetBrains](https://www.jetbrains.com) | [Anaconda](https://www.anaconda.com) | [Moonshot AI](https://www.kimi.com) | [OneCLI](https://onecli.sh) (YC S26) | [Anomaly](https://anoma.ly) | [All Hands AI](https://all-hands.dev) | [Earendil](https://pi.dev) | [Alibaba](https://www.alibaba.com) | [Warp](https://www.warp.dev) | [Giuseppe Dellavedova](https://github.com/gi-dellav/zerostack) (solo, GPL-3.0) |
 | Open client | ✓ Apache-2.0 | ✗ | ~ Apache-2.0 source, preview binaries | ✗ | ✗ | ✓ Apache-2.0 | ✓ Apache-2.0 | ~ FSL-1.1-MIT | ✓ MIT | ✓ MIT | ✓ Apache-2.0 | ✓ Apache-2.0 | ✓ Apache-2.0 | ✓ MIT | ✓ AGPL-3.0 | ✗ | ✓ MIT | ✓ MIT | ✓ Apache-2.0 | ✓ MIT | ✓ MIT | ✓ MIT | ✓ Apache-2.0 | ✗ closed binary | ✓ GPL-3.0 |
 | BYOK | ✓ | ✓ | ✓ | ? | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ~ AI Gateway key only | ✓ paid keys | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ~ BYOC at paid tiers | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
-| Included subscription usage | ✗ | ✓ | ✓ | ✗ free, no subscriptions | ✓ | ~ via ClinePass | ✓ | ~ via Hyper | ✗ BYO keys only | ✗ API keys only | ~ Codex and Grok OAuth | ✗ enterprise only | ~ via ACP subs | ✓ OAuth and multi-account | ✓ | ✓ | ~ kilo credits | ~ via Kimi OAuth | ~ $5 credits at $0 tier | ~ via Zen | ✗ at-cost only | ✓ Claude, ChatGPT, Copilot | ~ Coding Plan weekly quota | ✓ | ✗ |
+| Included subscription usage | ✗ | ✓ | ✓ | ✗ free, no subscriptions | ✓ | ~ via ClinePass | ✓ | ~ via Hyper | ✗ BYO keys only | ✗ API keys only | ~ Codex and Grok OAuth | ✗ enterprise only | ~ via ACP subs | ✓ OAuth and multi-account | ✓ | ✓ | ~ kilo credits | ~ via Kimi OAuth | ~ $5 credits at $0 tier | ~ via Zen | ~ ChatGPT Plus/Pro for Codex models | ✓ Claude, ChatGPT, Copilot | ~ Coding Plan weekly quota | ✓ | ✗ |
 | Local models | ✓ | ✗ | ✓ embedded llama.cpp | ✗ hosted models only | ✗ | ✓ | ✗ | ✓ | ~ OpenAI-compatible endpoints | ✗ | ~ advertised on fx.dev, not yet in docs | ✗ | ✓ | ✓ Ollama and LM Studio | ✓ Ollama | ✓ Ollama and LM Studio, plus on-device Junie Local | ✓ Ollama and LM Studio | ✗ | ? | ✓ | ✓ LM Studio, Ollama, vLLM | ✓ llama.cpp | ✓ | ✗ | ✓ Ollama |
 | MCP | ✗ | ✓ | ✓ | ? | ✓ | ✓ | ✓ | ✓ | ? | ? | ✓ | ✓ | ✓ | ~ stdio only | ✓ | ✓ | ✓ | ✓ | ? | ✓ | ✓ | ✗ by design | ✓ | ? | ~ compile-time feature |
 | AGENTS.md | ✗ | ✓ | ✓ | ? | ~ reads CLAUDE.md | ✓ plus .clinerules | ✓ | ✓ plus CRUSH.md | ? | ? | ✓ native | ~ GEMINI.md native | ✓ plus .goosehints | ✓ native plus ~/AGENTS.md | ? | ✗ uses guidelines.md | ✓ plus .kilocoderules | ? | ? | ✓ plus CLAUDE.md | ✗ uses .openhands | ? | ~ QWEN.md native | ? | ✓ plus ARCHITECTURE.md |
@@ -33,7 +33,7 @@ Each column links to the full research note; every cell below traces to a source
 | Hooks, skills, plugins | ~ lint and test only | ✓ plugins gate tools | ~ skills only | ? | ✓ hooks and skills | ✓ skills and SDK plugins | ✓ skills and marketplace | ✓ skills | ✓ plugins and skills | ~ self-editing tooling | ~ skills only | ? | ✓ hooks and plugins | ✓ hooks and embedding-gated skills | ~ extension SDK | ~ execution allowlists | ✓ skills and hooks | ✓ hooks and marketplace skills | ? | ✓ skills and plugins | ✓ hooks, skills, plugins | ✓ extensions and skills | ✓ hooks and auto-skills | ? | ~ hooks, prompt modes replace skills |
 | Cloud execution | ✗ | ✓ orbs | ✗ local-first | ? | ✓ web and teleport | ✗ | ✓ | ✗ | ✗ | ✗ local, Docker required | ✗ | ~ CI GitHub Action | ✗ | ✗ self-hosted daemon only | ✗ self-hosted remote only | ~ remote control | ✓ cloud agents and tasks | ✗ | ✓ hosted VMs | ✗ share links only | ✓ OpenHands Cloud | ✗ | ✗ | ✓ cloud agents | ✗ local only |
 | Scheduled runs | ✗ | ✓ self-set | ? | ? | ✓ routines | ✓ cron | ? | ✗ | ? | ? | ✗ | ✗ | ✗ | ~ ambient mode | ? | ✗ | ✓ cron builder | ? | ? | ~ via host apps | ✓ automations and webhooks | ✗ | ~ experimental cron | ? | ? |
-| IDE integration | ✗ | ✗ | ✓ via ACP | ? | ✓ extensions | ✓ VS Code and JetBrains | ✓ extension | ✗ terminal only | ✓ ACP | ? | ✓ via ACP | ~ enterprise Code Assist | ~ experimental VS Code | ✗ terminal and paired clients | ? | ✓ | ✓ VS Code and JetBrains | ✓ via ACP | ? | ✓ VS Code and ACP | ✗ browser and terminal | ? community clients | ✓ VS Code, Zed, JetBrains | ? | ✓ via ACP |
+| IDE integration | ✗ | ✗ | ✓ via ACP | ? | ✓ extensions | ✓ VS Code and JetBrains | ✓ extension | ✗ terminal only | ✓ ACP | ? | ✓ via ACP | ~ enterprise Code Assist | ~ experimental VS Code | ✗ terminal and paired clients | ? | ✓ | ✓ VS Code and JetBrains | ✓ via ACP | ? | ✓ VS Code and ACP | ✓ VS Code, Zed, JetBrains via ACP | ? community clients | ✓ VS Code, Zed, JetBrains | ? | ✓ via ACP |
 
 ## Reading the matrix
 
@@ -52,7 +52,7 @@ The six new columns spread across the same axis: Ante and Juggler take subscript
 **The two newest columns redraw that map again:** Kilo Code bundles subagents, schedules, and cloud tasks into an editor-native open agent, which nothing else in this table does, while OpenHands skips AGENTS.md entirely because its `.openhands` customization replaces repo-instruction files.
 **fx, the fourteenth column at the time it joined, redelines the axis itself:** it is the only harness here built to be a dependency instead of an environment, and the only open one whose tokens must cross its sponsor's gateway.
 **jcode bets the constraint is hardware, not intelligence:** it is the only entry whose measured RAM floor, native memory graph, and same-repo swarm all assume you will run dozens of agents at once, and the only one that rebuilds its own binary on request.
-**DeepSeek Harness is the everything-is-a-plugin bet:** fully open with subagents, skills, and ACP editor support already filled in, and question marks on MCP and AGENTS.md that an alpha project earns.
+**DeepSeek Harness is the everything-is-a-plugin bet:** fully open with subagents, skills, and ACP editor support already filled in, and question marks on MCP and AGENTS.md that a developer-preview project earns.
 **Pi is the deliberate-omission bet:** the only entry with no MCP by design and no built-in subagents, paired with the widest subscription reuse in the table and local models through llama.cpp.
 **Ante takes the footprint bet furthest:** the only column whose local inference engine lives inside the binary itself, though its prebuilt releases answer to preview terms the Apache-2.0 repo does not carry.
 **Bullet is the latency bet:** free, closed, and the most transparent vendor self-report in the table, with question marks wherever its note cannot see.

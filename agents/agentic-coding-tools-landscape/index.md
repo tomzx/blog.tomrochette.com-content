@@ -1,7 +1,7 @@
 ---
 title: "Agentic Coding Tools Landscape"
 created: 2026-08-22
-updated: 2026-09-09
+updated: 2026-09-10
 status: finished
 tags: [ai, llm, coding-agents, developer-tools, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 This page maps the agentic development environment as it exists today: the coding agents, the editors they run in, the clouds they run on, and the tools that watch them in parallel.
-Everything here was verified against live sources on 2026-09-04; the surfaces tail deaths on 2026-08-26, the orchestration exception sentence on 2026-08-27; the harness tail additions (Kilo Code, OpenHands) on 2026-08-27, (fx) on 2026-08-29, the harness tail additions (jcode, Ante, Bullet, Juggler, OneCLI, Warp Agent CLI, Zerostack) plus the orchestration addition (Omnara) on 2026-08-30, the Cursor model-access and Windsurf funding updates on 2026-09-02, and the Windsurf domain handover on 2026-09-04; re-verified on 2026-09-05 with the Orca star count the only moved number, and the harness tail additions (Kimi Code, Exo) dated 2026-09-05; re-verified on 2026-09-06, with the Kimi Code line updated for the CLI's Node.js rebuild; re-verified on 2026-09-07 with the Orca count moved to about 63k; re-verified on 2026-09-08 with the Orca count moved to about 64k and the OpenHands count to about 87k; re-verified on 2026-09-09 with the Orca count moved to about 65k, the Cline install count to about 5.3 million, and the Qwen Code line updated for the OAuth free tier's 2026-04-15 discontinuation.
+Everything here was verified against live sources on 2026-09-04; the surfaces tail deaths on 2026-08-26, the orchestration exception sentence on 2026-08-27; the harness tail additions (Kilo Code, OpenHands) on 2026-08-27, (fx) on 2026-08-29, the harness tail additions (jcode, Ante, Bullet, Juggler, OneCLI, Warp Agent CLI, Zerostack) plus the orchestration addition (Omnara) on 2026-08-30, the Cursor model-access and Windsurf funding updates on 2026-09-02, and the Windsurf domain handover on 2026-09-04; re-verified on 2026-09-05 with the Orca star count the only moved number, and the harness tail additions (Kimi Code, Exo) dated 2026-09-05; re-verified on 2026-09-06, with the Kimi Code line updated for the CLI's Node.js rebuild; re-verified on 2026-09-07 with the Orca count moved to about 63k; re-verified on 2026-09-08 with the Orca count moved to about 64k and the OpenHands count to about 87k; re-verified on 2026-09-09 with the Orca count moved to about 65k, the Cline install count to about 5.3 million, and the Qwen Code line updated for the OAuth free tier's 2026-04-15 discontinuation; re-verified on 2026-09-10 with the Kimi Code star count moved to about 18.7k the only moved number.
 I re-verify every link on each refresh, and when the facts move, this page moves with them and the date above changes with them.
 
 **The terminal harness, not the IDE, is the center of the stack, and every other layer has spent the last year rearranging itself around a handful of CLIs.**
@@ -54,7 +54,7 @@ The independent tail matters more than its market share suggests.
 [OneCLI](../onecli/index.md) (YC S26, Apache-2.0) is the team-security bet: a sandboxed agent per employee whose tool calls cross a credential-injecting gateway, so a stolen agent holds nothing worth stealing.
 [Warp Agent CLI](../warp-agent-cli/index.md) (Warp, closed binary) is the vendor-unbundle bet: the same multi-model agent as Warp Terminal in any terminal, with built-in routing, cloud agents, and multi-agent orchestration behind Warp's credit meter.
 [Zerostack](../zerostack/index.md) (solo, GPL-3.0) is the community footprint bet: a 26 MB pure-Rust binary at about 16 MB of RAM, with subagents, worktrees, sandboxing, hooks, and MCP behind compile-time flags.
-[Kimi Code](../kimi-code/index.md) (Moonshot AI, MIT) is the challenger-vendor bet: a big-model vendor shipping the harness tuned for its own cheap models, with subagents, hooks, marketplace skills, and ACP in a single Node.js CLI, at about 18.6k combined stars across its two repositories.
+[Kimi Code](../kimi-code/index.md) (Moonshot AI, MIT) is the challenger-vendor bet: a big-model vendor shipping the harness tuned for its own cheap models, with subagents, hooks, marketplace skills, and ACP in a single Node.js CLI, at about 18.7k combined stars across its two repositories.
 [Exo](../exo/index.md) (Exo Labs, MIT) is the self-modification bet: a Rust-and-TypeScript harness with full visibility into its own code and logs, able to edit its prompts, tooling, and policy at runtime, cheapest measured harness in the FrontierHarness run at $1.05 per task.
 
 **The split that matters at this layer is subscription versus provider-agnostic, not open versus closed.**
@@ -93,7 +93,7 @@ Read the caps before you promise anyone a timeline.
 Run enough agents in parallel and your bottleneck stops being generation and starts being supervision.
 The vendors answer inside the harness: subagents in Claude Code and Codex, background agent views, git worktrees everywhere.
 A separate category answers from outside: agentic development environments that run any CLI agent in isolated worktrees and give you one surface to steer and review them all.
-On the GitHub [ade topic](https://github.com/topics/ade), Orca leads with about 65k stars as of 2026-09-09, ahead of Paseo and Superset, and the curated [awesome-agent-orchestrators](https://github.com/andyrewlee/awesome-agent-orchestrators) list tracks well over a hundred more across TUIs, desktop apps, swarms, loop runners, and task runners.
+On the GitHub [ade topic](https://github.com/topics/ade), Orca leads with about 65k stars as of 2026-09-10, ahead of Paseo and Superset, and the curated [awesome-agent-orchestrators](https://github.com/andyrewlee/awesome-agent-orchestrators) list tracks well over a hundred more across TUIs, desktop apps, swarms, loop runners, and task runners.
 [Omnara](../omnara/index.md) (YC S25) pushes the category toward infrastructure: an Apache-2.0 Go control plane where an agent is a YAML config and execution and state live server-side, supervised from a dashboard, phone, CLI, REST API, or Slack, positioned as the open-source alternative to Claude Managed Agents.
 
 **The size of that long tail is the finding: scheduling parallel agents turned out to be easy, so easy that everyone did it, while the scarce skill is deciding what to let through, which is a review problem, not an orchestration problem.**

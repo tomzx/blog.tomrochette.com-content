@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Tessl is Guy Podjarny's (Snyk founder) spec-centric AI-native development platform: a web-first product where specs drive AI-generated (and human-written) software, funded by a $125M Series A and extended in 2026 with a skills package manager.
-Facts below verified as of 2026-09-09.
+Facts below verified as of 2026-09-10.
 
 **Tessl is the bet that spec-driven development is a platform business rather than a CLI convention, and its $125M raise, while the open tools give the method away free, is the category's purest experiment in whether specs become infrastructure you rent.**
 
@@ -25,7 +25,7 @@ Its open-source surface is deliberately thin: the [tesslio/cli](https://github.c
 Funded and building, quiet on GitHub.
 The Series A announcement (November 2024) declared $125M for the platform; the founding announcement (October 2024) frames Podjarny's pivot from Snyk's security mission to AI-native development.
 **The strongest third-party signal is Martin Fowler's October 2025 analysis naming Tessl one of the three SDD pillars alongside Kiro and Spec Kit (the 128-point thread), which treats it as a serious approach while noting it was then the least mature of the three.**
-The CLI has not been pushed since 2026-03-05, which is consistent with a web-first roadmap and worth re-checking before adopting (re-confirmed unchanged on 2026-09-09).
+The CLI has not been pushed since 2026-03-05, which is consistent with a web-first roadmap and worth re-checking before adopting (re-confirmed unchanged on 2026-09-10).
 
 ## Strengths
 
@@ -43,7 +43,7 @@ The CLI has not been pushed since 2026-03-05, which is consistent with a web-fir
 
 ## Pricing
 
-Platform tiers are now published on tessl.io as of 2026-09-09: Free at $0 per month with 1,000 credits, Team at $100 per month with 5x the credits, and Enterprise custom.
+Platform tiers are now published on tessl.io (free since 2026-09-08, re-verified 2026-09-10): Free at $0 per month with 1,000 credits, Team at $100 per month with 5x the credits, and Enterprise custom.
 The credit model is subscription metering, not open source, as the raise implied.
 
 ## Compared to
@@ -67,10 +67,10 @@ The disagreeable claim I will defend: Tessl will either prove specs are buyable 
 
 ## References
 
-- https://www.tessl.io/ - the platform
-- https://www.tessl.io/blog/announcing-our-series-a-for-ai-native-software-development - the $125M Series A announcement
-- https://tessl.io/blog/skills-are-software-and-they-need-a-lifecycle-introducing-skills-on-tessl/ - Skills on Tessl, January 2026
+- https://tessl.io - the platform
+- https://tessl.io/blog/announcing-our-series-a-for-ai-native-software-development - the $125M Series A announcement
+- https://tessl.io/blog/skills-are-software-and-they-need-a-lifecycle-introducing-skills-on-tessl - Skills on Tessl, January 2026
 - https://martinfowler.com/articles/exploring-gen-ai/sdd-3-tools.html - the third-party analysis of Kiro, Spec Kit, and Tessl
 - https://github.com/tesslio/cli - the thin open-source surface (71 stars, quiet since 2026-03-05)
-- https://www.tessl.io/pricing - the Free, Team, and Enterprise tiers verified on 2026-09-09
+- https://tessl.io/pricing - the Free, Team, and Enterprise tiers verified on 2026-09-10
 - https://news.ycombinator.com/item?id=42137464 - the 24-point Series A thread

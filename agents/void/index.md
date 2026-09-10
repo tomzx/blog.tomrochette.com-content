@@ -10,8 +10,8 @@ audience_notes: >
   Assumes you know what a VS Code fork is and what BYOK means.
 ---
 
-Void is the open-source Cursor alternative: an Apache-2.0 VS Code fork with BYOK AI, about 28.8k GitHub stars as of 2026-09-07, and a repository that has now been archived.
-Facts below verified as of 2026-09-09.
+Void is the open-source Cursor alternative: an Apache-2.0 VS Code fork with BYOK AI, about 28.8k GitHub stars as of 2026-09-10, and a repository that has now been archived.
+Facts below verified as of 2026-09-10.
 
 **Void proved the demand for an open AI editor (948 points on its breakout thread) and then demonstrated the second lesson: in this category, open source does not keep pace with funded velocity.**
 
@@ -41,7 +41,7 @@ A December 2025 Show HN appeared titled "after Void slowed down", which is the c
 ## Pricing
 
 Free and open source; all AI costs are your providers' API bills.
-No paid tier exists, as of 2026-09-09.
+No paid tier exists, as of 2026-09-10.
 
 ## Compared to
 
@@ -63,7 +63,7 @@ Not for anyone who wants the project's best days ahead of it.
 ## References
 
 - https://voideditor.com/ - product page and download
-- https://github.com/voideditor/void - source, about 28.8k stars, Apache-2.0, archived as of 2026-09-09
+- https://github.com/voideditor/void - source, about 28.8k stars, Apache-2.0, archived as of 2026-09-10
 - https://github.com/voideditor/void/releases - release history ending at v1.3.4, April 2025
 - https://news.ycombinator.com/item?id=43927926 - the 948-point breakout thread, May 2025
 - https://news.ycombinator.com/item?id=46274927 - the "after Void slowed down" thread, December 2025

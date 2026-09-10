@@ -3,7 +3,7 @@ title: Chip Huyen
 created: 2026-08-29
 updated: 2026-09-08
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=big-pickle, people, publications, ai-engineering, systems, llm]
+tags: [research-note, agent-curated, fully-ai-generated, llm=big-pickle, llm=glm-5.3-flash, people, publications, ai-engineering, systems, llm]
 readability: 3
 audience_notes: >
   Engineers who want the survey-level, systems view of building and operating LLM applications, from model choice to serving, rather than hands-on tool notes.
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Chip Huyen is the writer and educator whose book "AI Engineering" became the systems-design reference for building LLM applications, the most-read book on O'Reilly in 2025.
-Facts below verified as of 2026-09-09.
+Facts below verified as of 2026-09-10.
 
 **She fills the survey-and-systems niche in this category: where others track tools or set vocabulary, she gives the end-to-end production architecture, which is why her book is the one most teams assign.**
 

@@ -1,7 +1,7 @@
 ---
 title: Ouroboros
 created: 2026-08-30
-updated: 2026-09-09
+updated: 2026-09-10
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, software-factory, verification, self-improving-agents, open-source]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Ouroboros is an MIT-licensed Python "Agent OS" that turns a vague brief into verified code by running a Socratic interview, freezing an immutable spec, executing through one of 13 coding-agent runtimes, and verifying the result with a three-stage gate whose grading commands and expected outputs are withheld from the worker agent.
-Facts below verified as of 2026-09-09.
+Facts below verified as of 2026-09-10.
 
 **Ouroboros earns its anti-cheating tagline architecturally, not rhetorically: the worker's success contract omits the grading command and expected result, and the first verification stage is LLM-free, which is a cleaner separation than most self-improving agent systems attempt.**
 
@@ -24,9 +24,9 @@ MIT, by Ouro Labs (Q00), solo-maintained with around 75 contributors.
 
 ## Status
 
-Very young, very active: 5,803 stars, 586 forks, 84 open issues as of 2026-09-09, created 2026-01-14, pushed 2026-09-09.
-Latest release v0.54.1 on 2026-09-08, with 26 PyPI releases in the last seven weeks; PyPI self-labels it Beta.
-**Headline results are self-reported, its Hacker News threads are self-submitted with single-digit points, and no independent evaluation exists as of 2026-09-09.**
+Very young, very active: 5,803 stars, 591 forks, 85 open issues as of 2026-09-10, created 2026-01-14, pushed 2026-09-09.
+Latest release v0.54.2 on 2026-09-09, with 26 PyPI releases in the last seven weeks; PyPI self-labels it Beta.
+**Headline results are self-reported, its Hacker News threads are self-submitted with single-digit points, and no independent evaluation exists as of 2026-09-10.**
 
 ## Strengths
 
@@ -39,7 +39,7 @@ Latest release v0.54.1 on 2026-09-08, with 26 PyPI releases in the last seven we
 
 - The semantic judge is an LLM, and consensus voting triggers only under six conditions, so a worker tuned to satisfy a predictable judge is not fully ruled out.
 - The ambiguity, drift, and similarity scores are LLM self-assessments and heuristics; the docs themselves call the thresholds defaults worth arguing with.
-- Beta churn: 25 releases in seven weeks, documented breakage below specific versions, and an extras matrix with install warnings.
+- Beta churn: 26 releases in seven weeks, documented breakage below specific versions, and an extras matrix with install warnings.
 - The loop spends real tokens on evaluation, which is the price of the gate.
 
 ## Pricing

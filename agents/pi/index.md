@@ -1,7 +1,7 @@
 ---
 title: Pi
 created: 2026-08-30
-updated: 2026-09-09
+updated: 2026-09-10
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, harnesses, coding-agents, open-source, byok, extensibility]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Pi is an MIT-licensed TypeScript agent toolkit from Earendil whose flagship is a minimal, self-extensible terminal coding agent that you adapt through extensions rather than configuring a closed product.
-Facts below verified as of 2026-09-09.
+Facts below verified as of 2026-09-10.
 
 **Pi's thesis is that a coding agent should be a small frozen core plus your code, and it is the only harness at this scale whose author treats missing features as policy rather than backlog.**
 
@@ -26,9 +26,9 @@ Made by Earendil Inc., created by Mario Zechner with Armin Ronacher as the secon
 
 ## Status
 
-Active and ascending: 103,278 stars (past the 100k mark), 12,905 forks, 152 open issues and PRs as of 2026-09-09.
-Created 2025-08-09, pushed September 8, 2026, releases roughly weekly (v0.85.1 on 2026-09-05).
-**The ecosystem is the strongest signal: OpenClaw runs on Pi, and oh-my-pi, a batteries-included fork with about 30.3k stars as of 2026-09-09, exists precisely because some users want the features Pi refuses to ship.**
+Active and ascending: 103,614 stars (past the 100k mark), 12,949 forks, 190 open issues and PRs as of 2026-09-10.
+Created 2025-08-09, pushed the day of verification, releases roughly weekly (v0.85.1 on 2026-09-05).
+**The ecosystem is the strongest signal: OpenClaw runs on Pi, and oh-my-pi, a batteries-included fork with about 30.4k stars as of 2026-09-10, exists precisely because some users want the features Pi refuses to ship.**
 
 ## Strengths
 

@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Paseo is a free, open-source, self-hosted orchestration layer that runs coding agents as local processes on your own machines and drives them from desktop, web, mobile, and CLI clients over one daemon.
-Facts below verified as of 2026-09-09.
+Facts below verified as of 2026-09-10.
 
 **Paseo's differentiator is not parallelism, which is now table stakes, but reach: it is the only orchestrator in its class with native iOS and Android clients at full feature parity, wrapped around your existing agent subscriptions instead of replacing them.**
 
@@ -25,7 +25,7 @@ Apache-2.0 (with a custom copyright notice), by Mohamed Boudra, an independent s
 
 ## Status
 
-Young and fast: 16,592 stars, 1,833 forks, 607 open issues and PRs as of 2026-09-09, created 2025-10-13, pushed 2026-09-09.
+Young and fast: 16,675 stars, 1,852 forks, 653 open issues and PRs as of 2026-09-10, created 2025-10-13, pushed 2026-09-10.
 The 0.7 line reached stable while I watched: v0.7.0 shipped 2026-08-31 and v0.7.2 on 2026-09-02 remains the latest stable release, with a v0.8.0-beta.1 prerelease published 2026-09-08, alongside 165 contributors and an active subreddit and Discord.
 **The structural risk is on the label: the maintainer described himself on Hacker News as a team of one, and monetization has now arrived as the hosted Hub at €15 per seat per month.**
 
@@ -38,7 +38,7 @@ The 0.7 line reached stable while I watched: v0.7.0 shipped 2026-08-31 and v0.7.
 
 ## Cautions
 
-- Pre-1.0 with fast churn; the tracker crossed 1,200 open issues and PRs by 2026-09-07 before a cleanup wave closed roughly 400 of them in a day, down to 816 by 2026-09-08 and 607 as of 2026-09-09, and demand still outruns a tiny team.
+- Pre-1.0 with fast churn; the tracker crossed 1,200 open issues and PRs by 2026-09-07 before a cleanup wave closed roughly 400 of them in a day, down to 816 by 2026-09-08 and 653 as of 2026-09-10, and demand still outruns a tiny team.
 - Subscription-billing friction: the maintainer confirmed Claude subscription usage through Paseo draws from a different, smaller credit pool than interactive use.
 - Solo-maintainer bus factor with a business model still pending.
 - Hacker News commenters noted it converges with Conductor, cmux, and Devin-style tools unless mobile-first steering is your actual need.

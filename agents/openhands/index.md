@@ -1,7 +1,7 @@
 ---
 title: OpenHands
 created: 2026-08-27
-updated: 2026-09-09
+updated: 2026-09-10
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agents, harnesses, open-source, agent-platforms]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 OpenHands is the open-source (MIT) AI software development platform from All Hands AI: sandboxed agent conversations with code, shell, and browser access, runnable locally, in their cloud, or in your VPC.
-Facts below verified as of 2026-09-09.
+Facts below verified as of 2026-09-10.
 
 **OpenHands is the field's largest open bet on the platform camp of agentic development, and its architecture has just re-centered on a server-client split that demotes the local GUI and CLI to legacy.**
 
@@ -25,7 +25,7 @@ Today's component map per the docs is Agent Canvas (the open-source browser clie
 ## Status
 
 **Active and venture-funded.**
-Latest tagged release v1.16.0 shipped August 27, 2026, and the default branch was pushed September 9, 2026.
+Latest tagged release v1.17.0 shipped September 9, 2026, and the default branch was pushed the day of verification.
 All Hands AI raised $18.8M in a Series A led by Madrona on November 18, 2025, alongside a collaboration with AMD on locally-run agents.
 
 ## Strengths

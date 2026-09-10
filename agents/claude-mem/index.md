@@ -1,7 +1,7 @@
 ---
 title: claude-mem
 created: 2026-08-30
-updated: 2026-09-09
+updated: 2026-09-10
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, session-memory, compression, open-source]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 claude-mem is an open-source Apache-2.0 plugin that gives coding agents persistent cross-session memory by capturing session activity through lifecycle hooks, compressing it into observations with LLM calls, storing them in local SQLite, and injecting relevant context back into future sessions.
-Facts below verified as of 2026-09-09.
+Facts below verified as of 2026-09-10.
 
 **claude-mem is the strongest evidence yet that session memory has crossed from experiment to default expectation, and its cost model is the field's open question: it captures everything and pays your tokens to compress it.**
 
@@ -25,8 +25,8 @@ Made by Alex Newman (thedotmack), a solo author in the Vercel OSS Program, with 
 
 ## Status
 
-Very large and fast: about 93.5k stars, 8.2k forks, and 358 open issues and pull requests as of 2026-09-09, with 75,903 npm downloads in the last month.
-Created 2025-08-31, pushed 2026-09-09, latest release v13.24.1 on 2026-09-05.
+Very large and fast: about 93.6k stars, 8.2k forks, and 371 open issues and pull requests as of 2026-09-10, with 75,903 npm downloads in the last month.
+Created 2025-08-31, pushed 2026-09-10, latest release v13.24.5 on 2026-09-09.
 The README now brands the project Grok Mem (the package is still `claude-mem`), and v13.24.0 shipped it as two independent Cursor and Grok Bot marketplace plugins alongside the Claude Code install path.
 **The v13.x version line tells you the churn rate: near-daily releases with major-version jumps, which is velocity and breakage risk in the same number.**
 
@@ -75,5 +75,5 @@ Not for privacy-strict environments, anyone unwilling to run a local worker serv
 - https://docs.claude-mem.ai/architecture/overview - hook architecture and the compression flow behind the token-cost caution
 - https://docs.claude-mem.ai/cloud-sync - the documented privacy trade-off of the cloud tier
 - https://claude-mem.ai - pricing tiers and adoption stats
-- https://api.npmjs.org/downloads/point/last-month/claude-mem - the 75,903 monthly downloads as of 2026-09-09
+- https://api.npmjs.org/downloads/point/last-month/claude-mem - the 75,903 monthly downloads as of 2026-09-10
 - https://news.ycombinator.com/item?id=47422611 - the critical take from a competing memory author on the capture-everything approach

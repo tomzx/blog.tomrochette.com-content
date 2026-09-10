@@ -1,7 +1,7 @@
 ---
 title: OpenWork
 created: 2026-08-30
-updated: 2026-09-09
+updated: 2026-09-10
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, assistant-runtimes, cowork, desktop, open-source]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 OpenWork is a free, MIT-licensed desktop app for macOS, Windows, and Linux that runs AI agent sessions on local files with shared skills, MCP connections, browser automation, and scheduled tasks, positioned as the open alternative to Anthropic's Claude Cowork and built on top of OpenCode.
-Facts below verified as of 2026-09-09.
+Facts below verified as of 2026-09-10.
 
 **OpenWork is the Cowork clone that outlived the clone jokes: seven and a half months of signed, weekly releases to 23.4k stars, an MCP gateway that makes its skills portable to any agent, and a license split that is the first thing a serious adopter should read.**
 
@@ -24,8 +24,8 @@ By different-ai (Benjamin Shafii), YC-backed.
 
 ## Status
 
-Alive and shipping hard: 23,419 stars, 2,340 forks, 477 open issues and PRs as of 2026-09-09, created 2026-01-14, pushed today.
-v0.18.42 on 2026-09-02 (signed Windows installers) through v0.18.44 on 2026-09-09, multiple releases per week.
+Alive and shipping hard: 23,444 stars, 2,345 forks, 513 open issues and PRs as of 2026-09-10, created 2026-01-14, pushed today.
+v0.18.42 on 2026-09-02 (signed Windows installers) through v0.18.46 on 2026-09-10, multiple releases per week.
 **It outlived its launch-week skepticism, but the founder still carries 2,911 of the top contributors' roughly 4,000 commits.**
 
 ## Strengths
@@ -45,8 +45,8 @@ v0.18.42 on 2026-09-02 (signed Windows installers) through v0.18.44 on 2026-09-0
 ## Pricing
 
 Free: $0 for up to 5 users, the MIT desktop app plus the self-hostable control plane, BYO keys.
-Team: $10 per seat per month for up to 100 users (extension marketplace, distributed LLM keys, standard support), as of 2026-09-09.
-Enterprise: $40 per user per month (SSO/SAML, SCIM, usage analytics, desktop policies and version controls, white-labeling, web access and spend observability, BYO inference with self-hosted or private models, standard SLA), the same price cloud or self-hosted, volume pricing above 100 users, as of 2026-09-09.
+Team: $10 per seat per month for up to 100 users (extension marketplace, distributed LLM keys, standard support), as of 2026-09-10.
+Enterprise: $40 per user per month (SSO/SAML, SCIM, usage analytics, desktop policies and version controls, white-labeling, web access and spend observability, BYO inference with self-hosted or private models, standard SLA), the same price cloud or self-hosted, volume pricing above 100 users, as of 2026-09-10.
 The Den control plane inside the repo stays free for organizations up to five users, free to evaluate for 30 days at any size, and each `ee/` release converts to MIT two years after publication.
 
 ## Compared to

@@ -12,7 +12,7 @@ audience_notes: >
 ---
 
 Repomix is an MIT-licensed CLI (npm, Homebrew, Docker) that packs an entire repository into a single AI-friendly file for feeding to LLMs.
-Facts below verified as of 2026-09-09.
+Facts below verified as of 2026-09-10.
 
 **Repomix is the default answer to "how do I give the model my whole repo", and it wins by ignoring retrieval entirely, which is a legitimate engineering strategy that context-engine vendors keep pretending is not one.**
 
@@ -29,7 +29,7 @@ It is built by Kazuki Yamada (yamadashy), sponsored by Warp and CodeRabbit.
 ## Status
 
 **Active and quietly massive.**
-28k stars (28,257), 1.5k forks, and 4,498 commits on GitHub, plus 329,262 npm downloads in the last month (2026-08-08 to 2026-09-06), stars, forks, and downloads as of 2026-09-09, with v1.18.0 released 2026-08-08.
+28k stars (28,269), 1.5k forks, and 4,498 commits on GitHub, plus 329,262 npm downloads in the last month (2026-08-08 to 2026-09-06), stars, forks, and downloads as of 2026-09-10, with v1.18.0 released 2026-08-08.
 It was nominated in the Powered by AI category at the JSNation Open Source Awards 2025.
 The community footprint is the interesting signal: it inverts the usual pattern, with enormous usage but near-zero discourse (the largest HN story I found has 4 points), because a tool that just works generates no threads.
 A clone ecosystem (Gitingest for Python, Unify, Scribe) confirms the pattern is durable rather than incidental.

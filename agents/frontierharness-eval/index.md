@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 **FrontierHarness Eval is the first public benchmark to hold the model constant and vary only the harness, and its headline finding is that harness choice moved cost 17.5x while quality stayed within about 13 points.**
-Facts below verified as of 2026-09-09.
+Facts below verified as of 2026-09-10.
 
 ## What it is
 
@@ -23,7 +23,7 @@ Task definitions, difficulty metadata, harness versions, and normalized results 
 
 New and gaining traction: the repository was created 2026-08-31 and pushed 2026-09-08, and the launch drew an 82-point Hacker News thread with substantive methodological discussion.
 **The benchmark is vendor-run: Runta sells an execution layer for AI agents and announced a $20M seed led by a16z, so the neutrality that makes the numbers useful is asserted, not structural.**
-The repository carries no license as of 2026-09-08, which limits reuse of the task definitions themselves.
+The repository carries no license as of 2026-09-10, which limits reuse of the task definitions themselves.
 
 ## Strengths
 

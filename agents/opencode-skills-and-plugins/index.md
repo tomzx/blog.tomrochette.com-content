@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 OpenCode extends through two separate mechanisms: Agent Skills (SKILL.md folders surfaced to the model through a native `skill` tool, with per-skill permissions) and plugins (JavaScript or TypeScript modules that hook lifecycle events, loaded from local files or npm).
-Facts below verified as of 2026-09-09.
+Facts below verified as of 2026-09-10.
 
 **OpenCode splits extensibility cleanly where other harnesses blur it: declarative markdown for knowledge the model should follow, real code for behavior the harness must enforce, and that split is the pattern I would copy.**
 

@@ -1,7 +1,7 @@
 ---
 title: "Retrieval Feature Matrix"
 created: 2026-08-24
-updated: 2026-09-09
+updated: 2026-09-10
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, comparison, retrieval, rag, code-retrieval, llm=glm-5.3-flash]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 This matrix compares the four retrieval entries profiled in this section, two frameworks and two patterns, feature by feature, so the shortlisting step does not require reading four notes.
-Everything below was re-verified against live sources on 2026-09-09.
+Everything below was re-verified against live sources on 2026-09-10.
 
 **Both frameworks are pivoting away from retrieval as their business, both patterns are being demoted by the tools that ship them, and I read that as evidence that the agent loop, not the index, is now the retrieval layer, a claim the enterprise platform bets are still arguing.**
 

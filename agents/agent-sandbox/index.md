@@ -1,7 +1,7 @@
 ---
 title: Agent Sandbox
 created: 2026-08-30
-updated: 2026-09-09
+updated: 2026-09-10
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, sandboxing, kubernetes, isolation, open-source]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Agent Sandbox is a Kubernetes SIG Apps project, announced by Google Cloud at KubeCon NA 2025, that provides a `Sandbox` CRD and controller for declaratively managing isolated, stateful, singleton pods with warm pools, aimed at AI agent runtimes and reinforcement learning, while delegating actual isolation to runtimes like gVisor or Kata.
-Facts below verified as of 2026-09-09.
+Facts below verified as of 2026-09-10.
 
 **Agent Sandbox is deliberately not an isolation boundary: it is the orchestration layer around one, and its own threat model says plainly that without gVisor or Kata configured, a sandbox is just an ordinary pod.**
 
@@ -24,8 +24,8 @@ Apache-2.0, developed under Kubernetes SIG Apps with Google Cloud backing, built
 
 ## Status
 
-Young but institutionally backed: 3,782 stars, 489 forks, 236 open issues and PRs as of 2026-09-09, created 2025-08-12, pushed 2026-09-08.
-v1.0.0 released 2026-08-28 with v1.0.1 following on 2026-09-03, twenty-one releases since October 2025, 951 commits.
+Young but institutionally backed: 3,792 stars, 492 forks, 216 open issues and PRs as of 2026-09-10, created 2025-08-12, pushed 2026-09-09.
+v1.0.0 released 2026-08-28 with v1.0.1 following on 2026-09-03, twenty-one releases since October 2025, 956 commits.
 **The v1.0.0 tag is not API stability: the API is `v1beta1`, v1alpha1 was removed in the same release, and upgrades from older versions require a documented four-step migration.**
 
 ## Strengths
@@ -71,5 +71,5 @@ Not for local developer sandboxing, and not for anyone expecting the 1.0 tag to 
 - https://github.com/kubernetes-sigs/agent-sandbox/releases/tag/v1.0.0 - the release, migration requirements, and integration news
 - https://raw.githubusercontent.com/kubernetes-sigs/agent-sandbox/HEAD/docs/security/threat_model.md - the project's own security gaps, the critical source
 - https://cloud.google.com/blog/products/containers-kubernetes/agentic-ai-on-kubernetes-and-gke - the Google announcement and gVisor foundation
-- https://e2b.dev/docs - the hosted-sandbox comparison
+- https://docs.e2b.dev/ - the hosted-sandbox comparison
 - https://modal.com/docs/guide/sandboxes - the Modal sandbox comparison

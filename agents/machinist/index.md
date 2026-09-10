@@ -1,7 +1,7 @@
 ---
 title: "Machinist"
 created: 2026-09-05
-updated: 2026-09-09
+updated: 2026-09-10
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, software-factory, orchestration, go]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 **Machinist is an open-source software factory whose whole design is one controlled entrypoint: workers expose named commands over named repositories, and nothing arbitrary crosses the boundary.**
-Facts below verified as of 2026-09-09.
+Facts below verified as of 2026-09-10.
 
 ## What it is
 
@@ -21,8 +21,8 @@ Scripts are deliberately opaque to the controller: no invented child runs, graph
 
 ## Status
 
-Active and early: created 2026-07-16, 386 stars and 71 forks, pushed 2026-09-08, releases v0.1.0 through v0.4.0, with the README labeling it early-access software.
-**There is no Hacker News thread or independent coverage as of 2026-09-09, so the missing community footprint is itself the signal, and the repository plus the docs site at machinist.sh are the whole evidence base.**
+Active and early: created 2026-07-16, 395 stars and 71 forks, pushed 2026-09-09, releases v0.1.0 through v0.4.0, with the README labeling it early-access software.
+**There is no Hacker News thread or independent coverage as of 2026-09-10, so the missing community footprint is itself the signal, and the repository plus the docs site at machinist.sh are the whole evidence base.**
 The velocity (five releases in eight weeks) says maintained; the single-author commit history says bus-factor one.
 
 ## Strengths

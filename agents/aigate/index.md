@@ -1,7 +1,7 @@
 ---
 title: aigate
 created: 2026-08-30
-updated: 2026-08-30
+updated: 2026-09-10
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, sandboxing, isolation, security, cli, open-source]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 aigate is a free, MIT-licensed Go CLI that wraps any AI coding agent in an OS-level sandbox with kernel-enforced file restrictions, command blocking, and network egress allowlists, plus stdout secret masking and a local audit log.
-Facts below verified as of 2026-09-09.
+Facts below verified as of 2026-09-10.
 
 **aigate earns its note despite fourteen stars because the mechanism is real and documented, and the fourteen stars are themselves the finding: a kernel-enforced sandbox with no security process is where bypass bugs would go unreported, so treat it as a reference design, not a boundary.**
 
@@ -72,4 +72,4 @@ Not for anyone needing a security boundary they did not audit themselves; use [O
 - https://raw.githubusercontent.com/AxeForging/aigate/HEAD/docs/user/README.md - the exact mechanism and its own enforcement caveats
 - https://axeforging.github.io/aigate/ - the per-OS enforcement matrix
 - https://github.com/AxeForging/aigate/releases/tag/v1.0.0 - the release history
-- https://developers.openai.com/codex/sandboxing - the built-in sandboxing comparison reference
+- https://learn.chatgpt.com/docs/sandboxing - the built-in sandboxing comparison reference

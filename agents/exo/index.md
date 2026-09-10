@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 **Exo is an agent harness built so the agent can edit the harness itself, prompts, memory, tooling, and policy included, with an append-only event log as the brake.**
-Facts below verified as of 2026-09-09.
+Facts below verified as of 2026-09-10.
 
 ## What it is
 
@@ -22,9 +22,9 @@ The design philosophy is documented in the repository's RSI.md, "A Systems View 
 
 ## Status
 
-Active: created 2026-05-20, 1,368 stars and 102 forks, pushed 2026-09-08.
+Active: created 2026-05-20, 1,380 stars and 104 forks, pushed 2026-09-10.
 **The independent FrontierHarness Eval scores it near the bottom of nine harnesses on pass rate but first on cost: 53.3 percent pass at a $1.05 median cost per task, against Claude Code's $18.34 on the same model and tasks.**
-The community footprint is thin, a 3-point and a 2-point Hacker News thread, so the eval and the repository are nearly the whole evidence base as of 2026-09-09.
+The community footprint is thin, a 3-point and a 2-point Hacker News thread, so the eval and the repository are nearly the whole evidence base as of 2026-09-10.
 
 ## Strengths
 
@@ -36,7 +36,7 @@ The community footprint is thin, a 3-point and a 2-point Hacker News thread, so 
 
 - **The claims are grand and independently unreplicated**: "fully recursive, safely edit all aspects of itself" is the project's own framing, and no third party has audited the safety of a harness whose selling point is editing itself.
 - Requires Docker and a toolchain bootstrap, so the footprint is heavier than the typical single-binary CLI agent.
-- A harness that rewrites its own policy is a security reviewer's hardest problem, and there is no published security process as of 2026-09-09.
+- A harness that rewrites its own policy is a security reviewer's hardest problem, and there is no published security process as of 2026-09-10.
 
 ## Pricing
 

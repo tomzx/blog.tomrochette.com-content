@@ -1,7 +1,7 @@
 ---
 title: "Sandboxing Feature Matrix"
 created: 2026-08-30
-updated: 2026-09-09
+updated: 2026-09-10
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3-flash, comparison, sandboxing, isolation, security]
 readability: 3
@@ -12,7 +12,7 @@ audience_notes: >
 
 This matrix compares the six members of the Sandboxing category: the vendor-backed runtime, the Kubernetes orchestrator, the kernel-enforced wrapper, the disposable-VM workstation tool, the framework with sandbox tiers, and the provisioning driver.
 The Kind row is what keeps this category legible: three columns are isolation boundaries, one is an orchestrator around boundaries, one is a framework that consumes boundaries, and one feeds repositories into all of them.
-Everything below was re-verified against live sources on 2026-09-09.
+Everything below was re-verified against live sources on 2026-09-10.
 
 **Isolation is cheap to claim and expensive to enforce, so the deciding rows are the mechanism and the maturity: a kernel boundary nobody has audited loses to a container boundary a vendor stands behind.**
 
@@ -31,7 +31,7 @@ Each column links to the full research note; every cell below traces to a source
 | Policy model | K8s RBAC plus RuntimeClass | per-project YAML deny rules | ✗ n/a, provisioning only | network allow-list, forge pre-allowed | tier choice plus env allowlist | declarative YAML, auditable |
 | Credential handling | your K8s secrets | egress allowlist, stdout masking | ✗ n/a | secrets stay on host, ssh-agent forwarded | env allowlist per tier | ✓ keys stay at inference proxy |
 | Maturity | v1.0.1 tag, v1beta1 API, breaking migrations | v1.0.0, 14 stars, no audit | 1.0.0-rc, no releases, beta | pre-1.0 (v0.4.0), own breaking-changes banner | first stable v2.0 after rewrite | alpha, v0.0.x |
-| Community signal | 3.8k stars, Google-backed | 14 stars, 0 issues, footprint is the signal | 1.1k stars, 217-point HN launch | 1.0k stars, 226-point HN launch, quiet since August | 8.1k stars, single dominant author | 8.5k stars, ~115 contributors |
+| Community signal | 3.8k stars, Google-backed | 14 stars, 0 issues, footprint is the signal | 1.1k stars, 217-point HN launch | 1.0k stars, 226-point HN launch, quiet since August | 8.1k stars, single dominant author | 8.5k stars, ~116 contributors |
 | Pricing | free, cluster costs | free | free, Artifacts service metered | free | free, provider costs | free |
 
 ## Reading the matrix
@@ -70,4 +70,4 @@ A matrix that pretended all six were equivalent would be lying by layout.
 - https://github.com/withastro/flue - the Flue column: three-tier sandbox model
 - https://github.com/cloudflare/artifact-fs - the ArtifactFS column: FUSE architecture, limitations
 - https://github.com/clawkwork/clawk - the Clawk column: VM model, security limits, and release state
-- https://docs.claude.com/en/docs/claude-code/sandboxing - the built-in sandboxing baseline the category is measured against
+- https://code.claude.com/docs/en/sandboxing - the built-in sandboxing baseline the category is measured against

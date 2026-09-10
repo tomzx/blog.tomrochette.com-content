@@ -12,7 +12,7 @@ audience_notes: >
 ---
 
 dmux is an MIT-licensed terminal multiplexer for coding agents: a tmux-based TUI where each task pane gets its own git worktree and branch, from the standardagents project led by Justin Schroeder (FormKit) and Boyd.
-Facts below verified as of 2026-09-09.
+Facts below verified as of 2026-09-10.
 
 **It is the terminal-native answer to the GUI worktree dashboards, with the widest agent fan-out in the category, and a community footprint that is still an order of magnitude smaller than its ambition.**
 
@@ -27,8 +27,8 @@ Extras include lifecycle hooks (worktree create, pre-merge, post-merge), macOS n
 ## Status
 
 Active and shipping.
-The repository was created 2025-08-20, was last pushed 2026-08-16, and shows 747 commits, about 1,767 stars, and 137 forks as of 2026-09-09.
-npm recorded 1,824 downloads in the last month as of 2026-09-09.
+The repository was created 2025-08-20, was last pushed 2026-08-16, and shows 747 commits, about 1,768 stars, and 138 forks as of 2026-09-10.
+npm recorded 1,824 downloads in the last month as of 2026-09-10.
 **Community discussion is thin: the August 2025 launch thread got 3 points and the February 2026 thread got 9 points with zero comments on Hacker News.**
 That gap between repo activity and discussion footprint is the main signal to watch.
 
