@@ -1,7 +1,7 @@
 ---
 title: LlamaIndex
 created: 2026-08-24
-updated: 2026-09-10
+updated: 2026-09-12
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, rag, retrieval, frameworks]
 readability: 3
@@ -12,7 +12,7 @@ audience_notes: >
 ---
 
 LlamaIndex is an MIT-licensed data framework for building retrieval pipelines and document agents over private data, now the open source arm of a company whose commercial product is the LlamaParse document platform.
-Facts below verified as of 2026-09-10.
+Facts below verified as of 2026-09-12.
 
 **It remains the deepest off-the-shelf retrieval toolkit, but its maker has pivoted to enterprise document OCR, so the framework you build on is no longer the business you are buying from.**
 
@@ -21,12 +21,12 @@ Facts below verified as of 2026-09-10.
 The framework provides data connectors, node parsers, indices (vector, property graph, keyword), retrievers, rerankers, query engines, agents, and event-driven workflows, with over 300 integration packages on LlamaHub.
 **Code retrieval is a first-class case: the `CodeSplitter` node parser chunks source by tree-sitter language, and a newer `Chunker` node parser delegates to the Chonkie chunking library.**
 The company, LlamaIndex (run-llama), sells LlamaParse: a closed platform spanning Parse (agentic OCR, 130+ formats), Extract, Index, Split, and deployed Agents, usable with or without the framework.
-In February 2026 the same team also open-sourced [LiteParse](https://github.com/run-llama/liteparse), an Apache-2.0 Rust document parser that reached 12.3k stars by 2026-09-06.
+In February 2026 the same team also open-sourced [LiteParse](https://github.com/run-llama/liteparse), an Apache-2.0 Rust document parser that reached 12.3k stars by 2026-09-12.
 
 ## Status
 
 Active and heavily used.
-The `run-llama/llama_index` repository shows 52.1k stars, 8.1k forks, and 200 open issues as of 2026-09-10, with 7,929 commits as of 2026-09-10.
+The `run-llama/llama_index` repository shows 52.1k stars, 8.1k forks, and 202 open issues as of 2026-09-12, with 7,931 commits as of 2026-09-12.
 **The strategic signal is the pivot: the repository now describes itself as "the leading document agent and OCR platform", and the docs split between the legacy `docs.llamaindex.ai` site and the new `developers.llamaindex.ai` home, where some legacy API pages (the code splitter reference among them) no longer resolve.**
 
 ## Strengths
@@ -46,7 +46,7 @@ The `run-llama/llama_index` repository shows 52.1k stars, 8.1k forks, and 200 op
 ## Pricing
 
 Framework: free, MIT.
-LlamaParse as of 2026-09-10: Free at 10k credits/month, Starter $50/month with 40k credits, Pro $500/month with 400k credits, Enterprise custom, with 1,000 credits = $1.25 and pay-as-you-go above plan inclusion.
+LlamaParse as of 2026-09-12: Free at 10k credits/month, Starter $50/month with 40k credits, Pro $500/month with 400k credits, Enterprise custom, with 1,000 credits = $1.25 and pay-as-you-go above plan inclusion.
 **You can use the OSS framework forever without LlamaParse; you just stop receiving the maintained parsing and managed index parts.**
 
 ## Compared to
@@ -70,10 +70,10 @@ That claim is arguable, which is the point.
 
 ## References
 
-- https://github.com/run-llama/llama_index - repository scale (52.1k stars), MIT license, pivot to "document agent and OCR platform", as of 2026-09-10
-- https://github.com/run-llama/liteparse - the open-source Rust parser sibling, 12,279 stars, Apache-2.0, pushed 2026-09-10 (GitHub API, as of 2026-09-10)
+- https://github.com/run-llama/llama_index - repository scale (52.1k stars), MIT license, pivot to "document agent and OCR platform", as of 2026-09-12
+- https://github.com/run-llama/liteparse - the open-source Rust parser sibling, 12,297 stars, Apache-2.0, pushed 2026-09-12 (GitHub API, as of 2026-09-12)
 - https://docs.llamaindex.ai/en/stable/ - framework documentation structure: RAG pipeline, agents, workflows, LlamaCloud
 - https://developers.llamaindex.ai/python/framework/module_guides/loading/node_parsers/modules/ - CodeSplitter (tree-sitter) and Chunker (Chonkie) node parsers
-- https://www.llamaindex.ai/pricing - LlamaParse tiers, credit pricing, VPC and compliance options, as of 2026-09-10
+- https://www.llamaindex.ai/pricing - LlamaParse tiers, credit pricing, VPC and compliance options, as of 2026-09-12
 - https://news.ycombinator.com/item?id=40739982 - critical framework-RAG discussion naming LlamaIndex, with the LangChain CEO response
 - https://news.ycombinator.com/item?id=44225930 - Chonkie launch with benchmark claims against LlamaIndex and LangChain chunking

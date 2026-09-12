@@ -1,7 +1,7 @@
 ---
 title: ZeroClaw
 created: 2026-08-27
-updated: 2026-09-09
+updated: 2026-09-12
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, assistant-runtimes, personal-assistants, rust, open-source]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 ZeroClaw is zeroclaw-labs' personal agent runtime: a single Rust binary (dual MIT/Apache-2.0) that talks to about 20 model providers, reaches the world through 30+ channels, and acts through tools including hardware, all on your own machine.
-Facts below verified as of 2026-09-10.
+Facts below verified as of 2026-09-12.
 
 **ZeroClaw bets the frontier is compile-time: one Rust binary with no runtime sprawl is the ownership answer for people who do not trust a Node process with their messages, and its motto (you own the agent, the data, and the machine) is a requirements list the others treat as marketing.**
 
@@ -19,12 +19,12 @@ Facts below verified as of 2026-09-10.
 
 Install with a curl script (or a Rust-free PowerShell path on Windows), run `zeroclaw quickstart`, and one binary becomes the assistant: providers span Anthropic, OpenAI, Ollama, and roughly twenty others, channels span Discord, Telegram, Matrix, email, voice, webhooks, and your own CLI, and tools cover shell, browser, HTTP, hardware, and custom MCP servers.
 Everything runs locally with your keys in your workspace, and the docs ship as a translated book with the architecture and a stated four-opinion philosophy.
-An Android port ([ZeroClaw-Android](https://github.com/Natfii/ZeroClaw-Android), 305 stars) runs agents 24/7 on your phone with a native Rust core and 25+ providers, and community threads run it on a Raspberry Pi.
+An Android port ([ZeroClaw-Android](https://github.com/Natfii/ZeroClaw-Android), 305 stars) ran agents 24/7 on your phone with a native Rust core and 25+ providers, but its owner archived the repository read-only in March 2026, judging the near-fully AI-generated codebase too unsafe to keep driving, and community threads still run ZeroClaw itself on a Raspberry Pi.
 
 ## Status
 
 Active and large, but quietly so.
-As of 2026-09-10: 32,754 stars and 4,934 forks since creation on 2026-02-13, pushed 2026-09-09, 823 open issues, Apache-2.0/MIT dual licensed.
+As of 2026-09-12: 32,776 stars and 4,938 forks since creation on 2026-02-13, pushed today, 830 open issues, Apache-2.0/MIT dual licensed.
 **Its HN footprint is nearly empty (threads at 2 to 8 points), so the star growth ran through Discord and word of mouth, a missing community discussion record that is itself the signal to verify before relying on it.**
 
 ## Strengths
@@ -32,7 +32,7 @@ As of 2026-09-10: 32,754 stars and 4,934 forks since creation on 2026-02-13, pus
 - Single-binary deployment kills the dependency conversation: copy, run, done, on a Pi if you like.
 - 30+ channels including voice and webhook paths, the widest surface in the lightweight family.
 - Dual licensing and edition-2024 Rust signal engineering seriousness.
-- The hardware tool path (and the Android port) makes it the variant for physical projects.
+- The hardware tool path makes it the variant for physical projects, though the community Android port was archived in March 2026.
 
 ## Cautions
 
@@ -44,7 +44,7 @@ As of 2026-09-10: 32,754 stars and 4,934 forks since creation on 2026-02-13, pus
 ## Pricing
 
 Free and open source under MIT OR Apache-2.0.
-No paid tier as of 2026-09-10.
+No paid tier as of 2026-09-12.
 
 ## Compared to
 
@@ -68,7 +68,7 @@ The disagreeable claim I will defend: an assistant you cannot read is safer as a
 ## References
 
 - https://github.com/zeroclaw-labs/zeroclaw - README: runtime model, providers, channels, tools
-- https://api.github.com/repos/zeroclaw-labs/zeroclaw - stars, forks, issues as of 2026-09-10
+- https://api.github.com/repos/zeroclaw-labs/zeroclaw - stars, forks, issues as of 2026-09-12
 - https://docs.zeroclaw.com/master/en/introduction.html - the documentation book
-- https://github.com/Natfii/ZeroClaw-Android - the Android port (305 stars)
+- https://github.com/Natfii/ZeroClaw-Android - the Android port, archived read-only in March 2026 (305 stars)
 - https://news.ycombinator.com/item?id=47047192 - the launch-era thread (6 points, the thin-footprint evidence)

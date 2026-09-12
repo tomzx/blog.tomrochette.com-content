@@ -1,7 +1,7 @@
 ---
 title: "FrontierHarness Eval"
 created: 2026-09-05
-updated: 2026-09-08
+updated: 2026-09-12
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, evaluation, benchmark, coding-agents]
 readability: 3
@@ -10,24 +10,24 @@ audience_notes: >
   Assumes you know what a pass rate, token cost, and a cache hit are.
 ---
 
-**FrontierHarness Eval is the first public benchmark to hold the model constant and vary only the harness, and its headline finding is that harness choice moved cost 17.5x while quality stayed within about 13 points.**
-Facts below verified as of 2026-09-10.
+**FrontierHarness Eval is the first public benchmark to hold the model constant and vary only the harness, and its headline finding is that harness choice moved cost 17.5x while quality stayed within about 17 points.**
+Facts below verified as of 2026-09-12.
 
 ## What it is
 
 A multi-harness benchmark from Runta: the same Kimi K3 model ran through nine coding-agent harnesses in twelve configurations over the same 30 software-engineering tasks, 360 runs total, with identical cold starts.
-The public results table puts Codex first on quality (66.7 percent pass, $3.47 median per pass), Exo Harness first on cost ($1.05), DSH Minimal first on speed (5m 41s), and Claude Code mid-quality at $18.34, the most expensive cell.
+The public results table puts Codex first on quality (66.7 percent pass, $3.47 median per pass), Claude Code second on quality (63.3 percent) at $18.34, still the most expensive cell, Exo Harness first on cost ($1.05), and DSH Minimal first on speed (5m 41s).
 Task definitions, difficulty metadata, harness versions, and normalized results are public in the repository, and an agent-neutral skill lets third parties re-run the evaluation.
 
 ## Status
 
 New and gaining traction: the repository was created 2026-08-31 and pushed 2026-09-08, and the launch drew an 82-point Hacker News thread with substantive methodological discussion.
 **The benchmark is vendor-run: Runta sells an execution layer for AI agents and announced a $20M seed led by a16z, so the neutrality that makes the numbers useful is asserted, not structural.**
-The repository carries no license as of 2026-09-10, which limits reuse of the task definitions themselves.
+The repository carries no license as of 2026-09-12, which limits reuse of the task definitions themselves.
 
 ## Strengths
 
-- The design isolates the variable this whole section cares about: with model, tasks, and runtime fixed, the harness is the only explanation left for a 17.5x cost spread.
+- The design isolates the variable this whole section cares about: with model, tasks, and runtime fixed, the harness is the natural suspect for a 17.5x cost spread, though the publisher's own write-up attributes most of the spread to the harness-model pairing rather than the harness alone.
 - Full public artifacts, including failed runs and task-level results, not just a leaderboard.
 - Covers harnesses this section profiles (Codex, Claude Code, Pi, OpenCode, Hermes, DeepSeek Harness configurations, Kimi Code, Exo), so the numbers cross-check our notes directly.
 

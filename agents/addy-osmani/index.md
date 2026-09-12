@@ -1,7 +1,7 @@
 ---
 title: Addy Osmani
 created: 2026-09-02
-updated: 2026-09-08
+updated: 2026-09-12
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, people, publications, enterprise, agentic-engineering, engineering-leadership]
 readability: 3
@@ -10,21 +10,21 @@ audience_notes: >
   Assumes you already use coding agents and want to see how a large engineering organization applies them without letting quality slip.
 ---
 
-Addy Osmani is the enterprise-hands-on voice on agentic engineering, a Director at Google Cloud AI who writes practitioner-level guidance on coding agents, harnesses, evals, and the engineering discipline that keeps agent output maintainable.
-Facts below verified as of 2026-09-10.
+Addy Osmani is the enterprise-hands-on voice on agentic engineering, a 14-year Google engineering leader (most recently Director at Google Cloud AI) who writes practitioner-level guidance on coding agents, harnesses, evals, and the engineering discipline that keeps agent output maintainable.
+Facts below verified as of 2026-09-12.
 
 **He fills the enterprise-hands-on niche: where indie practitioners show what an agent can do and org analysts measure adoption, he writes from inside a hyperscaler about holding agent-built software to a production quality bar.**
 
 ## What it is
 
-A personal blog, books, and open-source repos by Addy Osmani, an engineering leader who spent over 14 years at Google, led developer experience across Chrome and then Gemini's developer experience, and is now a Director at Google Cloud AI running Cloud AI Developer Experience and Technical Evangelism.
+A personal blog, books, and open-source repos by Addy Osmani, an engineering leader who spent over 14 years at Google, led developer experience across Chrome and then Gemini's developer experience, and served as a Director at Google Cloud AI running Cloud AI Developer Experience and Technical Evangelism before departing Google in 2026 after 14 years.
 His stated current focus is agentic engineering: coding agents, harnesses, evals and benchmarks, and code quality.
 His 2026 essays carry concrete theses, like "Agent Skills" (2026-05-03), which argues that the senior engineer's real job is the parts that do not show up in the diff, specs, tests, reviews, and refusing to ship what cannot be verified.
 He packages that argument into artifacts teams can adopt, notably the "Beyond Vibe Coding" book and the production-grade agent-skills repository.
 
 ## Status
 
-Active and high-reach as of 2026-09-09.
+Active and high-reach as of 2026-09-12.
 "21 Lessons From 14 Years at Google" (2026-01-03) reached 1,678 points on Hacker News, "Agent Skills" 376 points, and "The next two years of software engineering" (2026-01-11) 328 points.
 He discussed "Beyond Vibe Coding" and enterprise AI engineering practice on The Pragmatic Engineer (2025-10-29).
 
@@ -38,7 +38,7 @@ He discussed "Beyond Vibe Coding" and enterprise AI engineering practice on The 
 ## Cautions
 
 - The vantage point is Google-scale, so budgets, tooling, and talent density most teams cannot match sit underneath the advice.
-- He is an evangelist by role, and the advocacy for the AI engineering program he runs is inseparable from the writing.
+- He was an evangelist by role at Google, and the advocacy for the AI engineering programs he ran there is inseparable from the writing.
 - The leader's perspective means less terminal-level detail than the indie hands-on voices.
 - The Hacker News discussion of his work shows real pushback that his frameworks can read as boilerplate, so treat the essays as positions to test, not checklists.
 
@@ -72,6 +72,6 @@ Not for readers wanting frontier research depth or a terminal-level tool feed.
 - https://addyosmani.com/blog/next-two-years/ - his 2026 view of where software engineering is headed
 - https://addyosmani.com/blog/21-lessons/ - the 14-years-at-Google retrospective, his highest-reach essay
 - https://newsletter.pragmaticengineer.com/p/beyond-vibe-coding-with-addy-osmani - independent interview on "Beyond Vibe Coding" and enterprise practice
-- https://vibe.addy.ie - the "Beyond Vibe Coding" book site
+- https://beyond.addy.ie - the "Beyond Vibe Coding" book site (the old vibe.addy.ie reference was the separate Bolt vibe-coding guide)
 - https://github.com/addyosmani/agent-skills - the production-grade agent skills repository
 - https://news.ycombinator.com/item?id=48015397 - the critical Hacker News discussion of the "Agent Skills" thesis

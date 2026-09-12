@@ -1,7 +1,7 @@
 ---
 title: "HAR"
 created: 2026-08-29
-updated: 2026-09-10
+updated: 2026-09-12
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=big-pickle, llm=glm-5.3-flash, software-factory, harness, multi-agent, worktrees]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 HAR, the open agent harness from os-factory, is a CLI and MCP server that turns a repository into isolated per-agent worktrees with deterministic launch, verify, and teardown stages, so a fleet of coding agents can work concurrently and reviewers trust the output.
-Facts below verified as of 2026-09-10.
+Facts below verified as of 2026-09-12.
 
 ## What it is
 
@@ -22,7 +22,7 @@ It is harness-agnostic and works with Claude Code, Cursor, Codex, or any MCP-cap
 
 ## Status
 
-Active and shipping fast: 88 stars and 10 forks since creation on 2026-06-28, 396 commits, and v1.14.1 released 2026-09-07 (v1.0.0 landed 2026-08-28), with releases landing almost daily and the last main push on 2026-09-07 per the GitHub API as of 2026-09-10.
+Active and shipping fast: 89 stars and 11 forks since creation on 2026-06-28, and v1.14.1 released 2026-09-07 (v1.0.0 landed 2026-08-28), with releases landing near-daily through September 7 and the last main push on 2026-09-07 per the GitHub API as of 2026-09-12.
 It carries a code of conduct, security policy, and a sponsor (Kerno, a runtime code tester for coding agents), which is a steadier footprint than the category's usual single-commit repo.
 
 ## Strengths
@@ -35,7 +35,7 @@ It carries a code of conduct, security policy, and a sponsor (Kerno, a runtime c
 ## Cautions
 
 - **It runs alongside a coding agent rather than replacing it**: HAR coordinates and verifies a fleet, but the agents themselves are the harnesses you already pay for, so it is a layer, not a factory that owns the whole loop like Fluent.
-- **Young at 88 stars**, though daily releases through v1.14.1 signal momentum, not abandonment.
+- **Young at 89 stars**, though daily releases through v1.14.1 signal momentum, not abandonment.
 - **The deterministic verify is only as strong as your contract**: a `.har/` that ships placeholder checks is theater, the same trap as the placeholder gates elsewhere in this category.
 - **It depends on the ecosystem staying open**: its value rests on a portable contract and MCP support holding across vendors in a landscape that keeps consolidating.
 
@@ -43,7 +43,7 @@ It carries a code of conduct, security policy, and a sponsor (Kerno, a runtime c
 
 Apache-2.0, free, installable from npm with no license cost.
 You bring the coding agents and their subscriptions, and Mission Control runs locally on your machine.
-There is no paid tier and no hosted cloud.
+The docs site now also advertises HAR HQ, a hosted team layer with governance, analytics, and cost attribution, with no published pricing as of 2026-09-12.
 
 ## Compared to
 

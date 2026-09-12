@@ -1,7 +1,7 @@
 ---
 title: Qwen Code
 created: 2026-08-24
-updated: 2026-09-09
+updated: 2026-09-12
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, coding-agents, harnesses, open-source, alibaba]
 readability: 3
@@ -12,7 +12,7 @@ audience_notes: >
 ---
 
 Qwen Code is the Alibaba Qwen team's open-source (Apache-2.0) terminal coding agent, forked from Google's Gemini CLI v0.8.2 and developed independently since v0.1.
-Facts below verified as of 2026-09-10.
+Facts below verified as of 2026-09-12.
 
 **Qwen Code made its name as the free on-ramp of the harness field, and it remains the only major harness whose companion model family is itself open weights, which makes it the cleanest demonstration of model and harness evolving together.**
 
@@ -27,7 +27,7 @@ It speaks OpenAI, Anthropic, Gemini, and Qwen APIs plus local models via Ollama 
 ## Status
 
 **Active and self-hosting in an unusual sense: the README states the project uses its own agent to file issues, submit PRs, review code, and run tests.**
-The repository shows about 27.7k stars as of 2026-09-09 and was pushed the same day.
+The repository shows about 27.8k stars as of 2026-09-12 and was pushed the same day.
 It launched in July 2025 as a Qwen3-Coder-optimized CLI; the Acknowledgments section records the Gemini CLI v0.8.2 origin and the split from upstream at v0.1.
 
 ## Strengths
@@ -71,7 +71,7 @@ Not for workflows where model behavior provenance or data residency is tightly g
 
 ## References
 
-- https://github.com/QwenLM/qwen-code - README capabilities, fork acknowledgment, repository scale as of 2026-09-09
+- https://github.com/QwenLM/qwen-code - README capabilities, fork acknowledgment, repository scale as of 2026-09-12
 - https://qwenlm.github.io/qwen-code-docs/en/users/overview - modes, surfaces, and configuration documentation
 - https://qwenlm.github.io/qwen-code-docs/en/users/configuration/auth/ - the Qwen OAuth free-tier discontinuation (2026-04-15) and the current first-party plans
 - https://news.ycombinator.com/item?id=44653981 - the July 2025 launch thread

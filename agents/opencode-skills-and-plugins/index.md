@@ -1,7 +1,7 @@
 ---
 title: OpenCode skills and plugins
 created: 2026-08-24
-updated: 2026-09-08
+updated: 2026-09-12
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, skills, plugins, opencode, agent-extensions]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 OpenCode extends through two separate mechanisms: Agent Skills (SKILL.md folders surfaced to the model through a native `skill` tool, with per-skill permissions) and plugins (JavaScript or TypeScript modules that hook lifecycle events, loaded from local files or npm).
-Facts below verified as of 2026-09-10.
+Facts below verified as of 2026-09-12.
 
 **OpenCode splits extensibility cleanly where other harnesses blur it: declarative markdown for knowledge the model should follow, real code for behavior the harness must enforce, and that split is the pattern I would copy.**
 
@@ -25,7 +25,7 @@ Plugins are JS/TS modules from `.opencode/plugins` or npm (installed via Bun at 
 ## Status
 
 **Active; the skills and plugins docs have been stable since February 2026.**
-The host project (anomalyco/opencode) shows about 206k stars under MIT as of 2026-09-09.
+The host project (anomalyco/opencode) shows about 207k stars under MIT as of 2026-09-12.
 The ecosystem page lists roughly 40 community plugins (Helicone, Sentry, Firecrawl, Tavily, Daytona sandboxing, subscription-auth bridges) plus a smaller set of projects and agents.
 There is no first-party skill marketplace; distribution rides plain git or third parties like skills.sh.
 
@@ -73,6 +73,6 @@ My disagreeable claim: plugins, not skills, are OpenCode's actual differentiator
 - https://opencode.ai/docs/skills/ - skill paths, frontmatter, permissions, the skill tool
 - https://opencode.ai/docs/plugins/ - plugin model, event hooks, npm installation, custom tools
 - https://opencode.ai/docs/ecosystem/ - community plugin inventory
-- https://github.com/anomalyco/opencode - host project scale and MIT license, as of 2026-09-09
+- https://github.com/anomalyco/opencode - host project scale and MIT license, as of 2026-09-12
 - https://agentskills.io/ - lists OpenCode among the standard's clients
 - https://github.com/vercel-labs/skills - compatibility matrix (`context: fork` and hooks unsupported in OpenCode)

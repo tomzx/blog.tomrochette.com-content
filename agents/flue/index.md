@@ -1,7 +1,7 @@
 ---
 title: Flue
 created: 2026-08-30
-updated: 2026-09-10
+updated: 2026-09-12
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, sandboxing, agent-frameworks, typescript, open-source]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Flue is the Astro team's open-source TypeScript agent framework, pitched as the sandbox agent framework, where agents are React-style hook functions that run against pluggable sandboxes, from an in-memory virtual shell to remote provider VMs, with durable sessions that survive crashes and redeploys.
-Facts below verified as of 2026-09-10.
+Facts below verified as of 2026-09-12.
 
 **Flue's contribution to this category is a taxonomy, not a boundary: a documented three-tier sandbox model (virtual, local, remote) that names the trade every agent builder was making implicitly, and it will consume a sandbox like [OpenShell](../openshell/index.md) rather than replace one.**
 
@@ -25,8 +25,8 @@ Made by the Astro Technology Company team under Fred Schott, acquired by Cloudfl
 
 ## Status
 
-Young and fast: 8,180 stars, 484 forks, 40 open issues and PRs as of 2026-09-10, created 2026-02-07, 1,063 commits.
-Flue 2.0 (2026-07-31) is the first stable release after a ground-up hooks rewrite; npm `@flue/runtime` 2.0.4 on 2026-09-09 is the current package, no GitHub Releases (latest tag v2.0.3).
+Young and fast: 8,199 stars, 487 forks, 56 open issues and PRs as of 2026-09-12, created 2026-02-07, 1,067 commits.
+Flue 2.0 (2026-07-31) is the first stable release after a ground-up hooks rewrite; npm `@flue/runtime` 2.0.5 on 2026-09-11 is the current package, no GitHub Releases (latest tag v2.0.3).
 **The single-author concentration is stark, about 98 percent of commits, and the API was rebuilt within six months of going public.**
 
 ## Strengths

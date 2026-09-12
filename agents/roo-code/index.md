@@ -1,7 +1,7 @@
 ---
 title: Roo Code
 created: 2026-08-26
-updated: 2026-09-10
+updated: 2026-09-12
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, surfaces, ai-editors, open-source, byok]
 readability: 3
@@ -11,13 +11,13 @@ audience_notes: >
 ---
 
 Roo Code was an Apache-2.0 VS Code extension coding agent forked from Cline, with a mode system and its own Cloud and Router products; its team sunset the whole suite on May 15, 2026 to build Roomote, a cloud coding agent.
-Facts below verified as of 2026-09-10.
+Facts below verified as of 2026-09-12.
 
 **The sunset notice's own words, "we don't believe IDEs are the future of coding", are the category's bluntest epitaph: the fork-and-extend extension generation died not by losing to Copilot but by its own makers deciding the IDE was the dead end.**
 
 ## What it is
 
-A VS Code extension (marketplace id RooVeterinaryInc.roo-cline, 1,995,310 installs as of 2026-09-10) forked from Cline in early 2025, initially as "Roo Cline".
+A VS Code extension (marketplace id RooVeterinaryInc.roo-cline, 2,001,981 installs as of 2026-09-12) forked from Cline in early 2025, initially as "Roo Cline".
 **Its differentiator was modes**: built-in code, architect, ask, and debug personas plus fully custom modes, each with its own rules, and an orchestrator mode that delegated subtasks to child modes.
 Rules came from `.roorules` files and directories, and the [custom instructions docs](https://roocodeinc.github.io/Roo-Code/features/custom-instructions) show it also read AGENTS.md from the workspace root when present and enabled.
 MCP servers were supported throughout, with [dedicated docs](https://roocodeinc.github.io/Roo-Code/features/mcp/overview), and BYOK to any provider including [Ollama](https://roocodeinc.github.io/Roo-Code/providers/ollama) for local models.
@@ -26,7 +26,7 @@ MCP servers were supported throughout, with [dedicated docs](https://roocodeinc.
 
 Dead, sunset on a published schedule.
 The [announcement](http://web.archive.org/web/20260508092828/https://roocode.com/blog/sunsetting-roo-code-extension-cloud-and-router) (2026-04-20, the live URL now serves the pivot product) committed to supporting everything through May 15, shutting down Roo Code Cloud and Router with refunds, and archiving the extension repo.
-The evidence matches: the last release (v3.54.0) and the last push both landed 2026-05-15, the repository now carries GitHub's archived flag, and the repo shows 24,306 stars, 3,418 forks, and 1,034 open issues as of 2026-09-10.
+The evidence matches: the last release (v3.54.0) and the last push both landed 2026-05-15, the repository now carries GitHub's archived flag, and the repo shows 24,304 stars, 3,419 forks, and 1,034 open issues as of 2026-09-12.
 The announcement claimed "past 3m extension downloads" and pointed users to Cline, which "incorporated much of what we built".
 **The team's new product is [roomote.dev](https://roomote.dev/), a cloud coding agent, and roocode.com now sells that instead.**
 
@@ -40,7 +40,7 @@ The announcement claimed "past 3m extension downloads" and pointed users to Clin
 ## Cautions
 
 - Unmaintained by decision, with 1,034 open issues accumulating since May.
-- The recommended successor is Cline, its own upstream; forks of Roo (Kilo Code and others) carry the code on but split the community further.
+- The recommended successor is Cline, its own upstream; forks of Roo (Kilo Code, the community's ZooCode, and others) carry the code on but split the community further.
 - Roomote is a different product category, so this is an exit, not a migration path.
 - The [28-point HN thread](https://news.ycombinator.com/item?id=47851734) on the shutdown read it as fork economics: forking an actively maintained repo for commercial purposes means competing with your upstream where moats are weak.
 
@@ -72,7 +72,7 @@ The disagreeable claim I will defend: Roo's death was not failure, its team corr
 
 - http://web.archive.org/web/20260508092828/https://roocode.com/blog/sunsetting-roo-code-extension-cloud-and-router - the sunset announcement, archived (live URL repurposed)
 - https://github.com/RooCodeInc/Roo-Code - repository state, license
-- https://api.github.com/repos/RooCodeInc/Roo-Code - last push 2026-05-15, archived flag, stars, forks, issues as of 2026-09-10
+- https://api.github.com/repos/RooCodeInc/Roo-Code - last push 2026-05-15, archived flag, stars, forks, issues as of 2026-09-12
 - https://github.com/RooCodeInc/Roo-Code/releases - v3.54.0, 2026-05-15, the final release
 - https://news.ycombinator.com/item?id=47851734 - the shutdown thread with the fork-economics critique
 - https://thenewstack.io/roo-code-cloud-ides-ai-coding/ - press coverage of the pivot

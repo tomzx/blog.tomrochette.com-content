@@ -1,7 +1,7 @@
 ---
 title: "Agentic Coding Tools Landscape"
 created: 2026-08-22
-updated: 2026-09-10
+updated: 2026-09-12
 status: finished
 tags: [ai, llm, coding-agents, developer-tools, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 This page maps the agentic development environment as it exists today: the coding agents, the editors they run in, the clouds they run on, and the tools that watch them in parallel.
-Everything here was verified against live sources on 2026-09-04; the surfaces tail deaths on 2026-08-26, the orchestration exception sentence on 2026-08-27; the harness tail additions (Kilo Code, OpenHands) on 2026-08-27, (fx) on 2026-08-29, the harness tail additions (jcode, Ante, Bullet, Juggler, OneCLI, Warp Agent CLI, Zerostack) plus the orchestration addition (Omnara) on 2026-08-30, the Cursor model-access and Windsurf funding updates on 2026-09-02, and the Windsurf domain handover on 2026-09-04; re-verified on 2026-09-05 with the Orca star count the only moved number, and the harness tail additions (Kimi Code, Exo) dated 2026-09-05; re-verified on 2026-09-06, with the Kimi Code line updated for the CLI's Node.js rebuild; re-verified on 2026-09-07 with the Orca count moved to about 63k; re-verified on 2026-09-08 with the Orca count moved to about 64k and the OpenHands count to about 87k; re-verified on 2026-09-09 with the Orca count moved to about 65k, the Cline install count to about 5.3 million, and the Qwen Code line updated for the OAuth free tier's 2026-04-15 discontinuation; re-verified on 2026-09-10 with the Kimi Code star count moved to about 18.7k the only moved number.
+Everything here was verified against live sources on 2026-09-04; the surfaces tail deaths on 2026-08-26, the orchestration exception sentence on 2026-08-27; the harness tail additions (Kilo Code, OpenHands) on 2026-08-27, (fx) on 2026-08-29, the harness tail additions (jcode, Ante, Bullet, Juggler, OneCLI, Warp Agent CLI, Zerostack) plus the orchestration addition (Omnara) on 2026-08-30, the Cursor model-access and Windsurf funding updates on 2026-09-02, and the Windsurf domain handover on 2026-09-04; re-verified on 2026-09-05 with the Orca star count the only moved number, and the harness tail additions (Kimi Code, Exo) dated 2026-09-05; re-verified on 2026-09-06, with the Kimi Code line updated for the CLI's Node.js rebuild; re-verified on 2026-09-07 with the Orca count moved to about 63k; re-verified on 2026-09-08 with the Orca count moved to about 64k and the OpenHands count to about 87k; re-verified on 2026-09-09 with the Orca count moved to about 65k, the Cline install count to about 5.3 million, and the Qwen Code line updated for the OAuth free tier's 2026-04-15 discontinuation; re-verified on 2026-09-10 with the Kimi Code star count moved to about 18.7k the only moved number; re-verified on 2026-09-12 with the OpenHands count moved to about 88k the only moved number.
 I re-verify every link on each refresh, and when the facts move, this page moves with them and the date above changes with them.
 
 **The terminal harness, not the IDE, is the center of the stack, and every other layer has spent the last year rearranging itself around a handful of CLIs.**
@@ -45,7 +45,7 @@ The independent tail matters more than its market share suggests.
 [goose](../goose/index.md), Block's Rust agent, joined the Agentic AI Foundation at its formation in December 2025 and completed the migration to the foundation that April, the field's first foundation-governed agent exit.
 [Qwen Code](../qwen-code/index.md), Alibaba's fork of Gemini CLI, made its name as the field's free-tier on-ramp and remains the open-weights showcase, though its Qwen OAuth free tier (2,000 requests per day) was discontinued on April 15, 2026.
 [Kilo Code](../kilo-code/index.md) carries the Cline-and-Roo feature-merge forward with subagents, schedules, and cloud tasks bundled in, since July 2026 as part of Anaconda.
-[OpenHands](../openhands/index.md), the renamed OpenDevin at about 87k stars, is the largest platform-camp bet: sandboxed code-shell-browser agents you can self-host behind its new Agent Canvas plus server architecture.
+[OpenHands](../openhands/index.md), the renamed OpenDevin at about 88k stars, is the largest platform-camp bet: sandboxed code-shell-browser agents you can self-host behind its new Agent Canvas plus server architecture.
 [fx](../fx/index.md) (Vercel Labs, Apache-2.0) is the newest entrant and the first embed-first harness: a ~6 MiB Zig binary with subagents, MCP, and native AGENTS.md, built to live inside other programs and sandboxes rather than to be your environment.
 [jcode](../jcode/index.md) (Solo Systems, MIT) is the resource-efficiency bet from a YC-backed solo founder: a Rust daemon with a measured RAM floor, a native memory graph, same-repo swarm coordination, and self-dev mode that rebuilds its own binary.
 [Ante](../ante/index.md) (Antigma Labs, Apache-2.0 source) is the footprint-and-offline bet: one ~15MB Rust binary with an embedded llama.cpp engine that runs GGUF models with no account, alongside AGENTS.md, skills, subagents, MCP, and self-published Terminal-Bench runs pinned to public builds.

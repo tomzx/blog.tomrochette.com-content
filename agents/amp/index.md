@@ -1,7 +1,7 @@
 ---
 title: Amp
 created: 2026-08-22
-updated: 2026-09-08
+updated: 2026-09-12
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, coding-agents, harnesses, remote-execution, developer-tools]
 readability: 3
@@ -12,7 +12,7 @@ audience_notes: >
 ---
 
 Amp is the coding agent from Amp Frontier Corporation ([spun out of Sourcegraph on December 2, 2025](https://ampcode.com/news/amp-frontier-corporation)): a CLI plus web and phone surfaces, with threads that run on remote machines called orbs.
-Facts below verified as of 2026-09-10.
+Facts below verified as of 2026-09-12.
 
 **Amp's orbs are the most direct answer in the field to "the agent should keep working when I close my laptop", and the product is priced exactly like something that believes its own value.**
 
@@ -26,7 +26,7 @@ AGENTS.md is the guidance convention, and a linked ChatGPT subscription can supp
 
 **Active and independent.**
 Amp was built inside Sourcegraph, was made free in October 2025, launched subscriptions, and spun out as a profitable separate company in December 2025 with a twenty-person founding team.
-Shipping cadence in August and early September 2026 is weekly (voice control via Puck and an iOS and macOS app in late August, a desktop orb client and Fable 5.1 powering ultra in early September, as of 2026-09-10).
+Shipping cadence in August and early September 2026 is weekly (voice control via Puck and an iOS and macOS app in late August, a desktop orb client and Fable 5.1 powering ultra in early September, a customizable Dial and sooner steering on September 8-10, as of 2026-09-12).
 
 ## Strengths
 
@@ -39,14 +39,14 @@ Shipping cadence in August and early September 2026 is weekly (voice control via
 
 - Closed source; you are trusting a startup's harness with your repository and its metering.
 - Expensive by [community report](https://news.ycombinator.com/item?id=46124649): **usage-billed teams describe spending over $1,000/month per person**, and pay-as-you-go users describe watching budgets evaporate before they can judge the tool.
-- No free tier anymore; the October 2025 free period ended with subscriptions.
+- A free Hobby tier returned in September 2026, reversing the paid-only stretch that followed the October 2025 free period; it has no included orb time, only pay-as-you-go orbs or your own runners.
 - Tool calls do not ask approval by default; the permission model is opt-in via plugins, which is a real decision to make consciously.
 
 ## Pricing
 
-Megawatt $20/month: 750 orb hours, $20 of included agent usage, **unlimited linked ChatGPT, X Premium+/SuperGrok, or other linked AI subscription usage**, low and medium modes (high with a linked ChatGPT subscription).
-Gigawatt $200/month: 1,000 hours of xxlarge orbs, $200 included usage, all modes including ultra.
-Usage billing and enterprise plans meter by API rates; students and teachers pay $10/month.
+Hobby: free tier with all product features, pay-as-you-go orb time or your own runners, and no Amp token fees on BYOK or linked subscriptions.
+Individual $20/month: 45,000 orb minutes (750 hours) of Megawatt orb time, with a Gigawatt step-up behind the same toggle; a linked ChatGPT subscription still powers the low, medium, and high Dial settings instead of Amp credits.
+Teams cost nothing extra beyond members' tiers and pool credits with SAML/OIDC SSO; Enterprise is custom, pooled credits only.
 
 ## Compared to
 
@@ -68,8 +68,8 @@ Not for open-source-only teams or anyone metering their own tokens.
 
 ## References
 
-- https://ampcode.com/ - product overview, orbs, news cadence as of 2026-09-10
-- https://ampcode.com/pricing/ - Megawatt, Gigawatt, usage billing, linked subscriptions, as of 2026-09-10
+- https://ampcode.com/ - product overview, orbs, news cadence as of 2026-09-12
+- https://ampcode.com/pricing/ - Hobby, Megawatt, Gigawatt, teams, enterprise, linked subscriptions, as of 2026-09-12
 - https://ampcode.com/news/amp-frontier-corporation - the December 2, 2025 spinout announcement
 - https://ampcode.com/manual/ - modes, oracle, librarian, skills, plugins, permissions
 - https://news.ycombinator.com/item?id=46124649 - spinout discussion with praise and cost complaints

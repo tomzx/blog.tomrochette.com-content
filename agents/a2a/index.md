@@ -1,7 +1,7 @@
 ---
 title: Agent2Agent Protocol (A2A)
 created: 2026-08-24
-updated: 2026-09-07
+updated: 2026-09-12
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, protocols, interoperability, multi-agent]
 readability: 3
@@ -12,7 +12,7 @@ audience_notes: >
 ---
 
 A2A is an open protocol for communication and interoperability between independent, opaque AI agents.
-Facts below verified as of 2026-09-10.
+Facts below verified as of 2026-09-12.
 
 **It is the enterprise answer to agent interoperability: adoption is real at the platform layer and nearly invisible in startup and coding-agent usage, and that split is the story.**
 
@@ -21,13 +21,14 @@ Facts below verified as of 2026-09-10.
 A client agent delegates tasks to remote agents discovered through Agent Cards, over bindings to JSON and HTTP, gRPC, or JSON-RPC, with polling, streaming, and webhooks for long-running tasks.
 Agents stay opaque: no shared memory, tools, or internal state crosses the boundary.
 **Google created and open-sourced it in April 2025, donated it to the Linux Foundation in June 2025, and a technical steering committee from AWS, Cisco, Google, IBM Research, Microsoft, Salesforce, SAP, and ServiceNow now governs it, Apache-2.0.**
+On 2026-08-27 A2A was accepted into the Linux Foundation's Agentic AI Foundation as a Growth Stage project alongside MCP, goose, and AGENTS.md, with more than 150 backing organizations.
 IBM's rival Agent Communication Protocol merged into A2A in August 2025, consolidating the agent-to-agent space.
 
 ## Status
 
 **Active, spec-stable, unevenly adopted.**
-v1.0.0 shipped 2026-03-12 and v1.0.1 on 2026-05-28 (latest as of 2026-09-09), with breaking wire changes from 0.3 but backward-compatible Agent Cards.
-The repository shows about 25.7k stars as of 2026-09-09, and the launch coalition of 50+ partners passed 100 supporting companies by donation time.
+v1.0.0 shipped 2026-03-12 and v1.0.1 on 2026-05-28 (latest as of 2026-09-12), with breaking wire changes from 0.3 but backward-compatible Agent Cards.
+The repository shows about 25.7k stars as of 2026-09-12, and the launch coalition of 50+ partners passed 100 supporting companies by donation time.
 Support concentrates in enterprise suites (Gemini Enterprise, Agentforce, watsonx Orchestrate, SAP Joule, Azure AI Foundry).
 No coding harness in this index speaks it natively; the closest touchpoint is [Gemini CLI](../gemini-cli/index.md), where community setups attach remote A2A agents.
 
@@ -72,7 +73,8 @@ The disagreeable part: I expect A2A to stay an enterprise convention, and if aut
 ## References
 
 - https://a2a-protocol.org/latest/ - official site: Agent Cards, MCP complementarity, TSC membership, Apache-2.0
-- https://github.com/a2aproject/A2A - repository, stars as of 2026-09-09, SDK list
+- https://github.com/a2aproject/A2A - repository, stars as of 2026-09-12, SDK list
+- https://a2a-protocol.org/latest/blog/2026/08/27/a-new-chapter-for-a2a-joining-the-agentic-ai-foundation/ - AAIF acceptance (2026-08-27), Growth Stage, 150+ organizations
 - https://developers.googleblog.com/en/a2a-a-new-era-of-agent-interoperability/ - launch announcement (2025-04-09), 50+ partners
 - https://developers.googleblog.com/en/google-cloud-donates-a2a-to-linux-foundation/ - Linux Foundation donation (2025-06-23), founding members
 - https://github.com/a2aproject/A2A/releases - v1.0.0 (2026-03-12) and v1.0.1 (2026-05-28) release notes

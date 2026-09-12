@@ -1,7 +1,7 @@
 ---
 title: "People and Publications Feature Matrix"
 created: 2026-08-29
-updated: 2026-09-10
+updated: 2026-09-12
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=big-pickle, comparison, people, publications, voices, llm=glm-5.3-flash]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 This matrix compares the thirteen people-and-publications profiled in this category, row by row, so deciding what to follow does not require reading thirteen notes blind.
-Everything below was verified against live primary sources on 2026-08-29, re-verified on 2026-08-30, re-verified again on 2026-09-02, when Addy Osmani joined the columns, re-verified on 2026-09-04, re-verified on 2026-09-05 with no cell changes, re-verified on 2026-09-06 with no cell changes, re-verified on 2026-09-07 with no cell changes, re-verified on 2026-09-08 with no cell changes, re-verified on 2026-09-09 with no cell changes, and re-verified on 2026-09-10 with no cell changes.
+Everything below was verified against live primary sources on 2026-08-29, re-verified on 2026-08-30, re-verified again on 2026-09-02, when Addy Osmani joined the columns, re-verified on 2026-09-04, re-verified on 2026-09-05 with no cell changes, re-verified on 2026-09-06 with no cell changes, re-verified on 2026-09-07 with no cell changes, re-verified on 2026-09-08 with no cell changes, re-verified on 2026-09-09 with no cell changes, re-verified on 2026-09-10 with no cell changes, and re-verified on 2026-09-12, updating the Osmani enterprise-vantage cell after his departure from Google.
 
 **The axis that actually segments the field is what each voice gives you: hands-on tool practice, an evaluation method, the model-and-research layer, industry-and-org analysis, or a structured on-ramp, and the personalities span all five, with the hands-on band now split between indie operators and the enterprise vantage.**
 
@@ -31,7 +31,7 @@ Legend: each cell reads as a description; every cell traces to the linked member
 | Model and research layer | Light | Light | Central | Moderate | Strong release coverage, light research depth | Moderate | Applied, light research | Strong | Central | Central | Tool and model churn, light research | Moderate | Moderate |
 | Commercial model | Free blog, paid books (one free online edition) | Free + paid community and sponsors | Free | Free + paid courses | Ad and sponsor-funded, plus Patreon | Free + paid books | Free + paid course and consulting | Freemium + conference tickets | Free | Free + reader-supported + book | Free, sponsor-funded | Free | Freemium, paywalled core |
 | Reader slot | Enterprise lead and practitioner | Video practitioner | Vocabulary-setter | Educator, general AI reader | Release-tracking video viewer | Systems and architecture reader | Data-centric eval practitioner | Industry and community view | Research reference reader | Model and research reader | Practitioner daily signal | Provocateur builder | Engineering leader |
-| Enterprise vs frontier | Enterprise, inside a hyperscaler | Individual and startup | Frontier labs | General audience + enterprises | Individual learners and practitioners | Production teams | Applied AI in companies | Frontier labs and AI-native startups | Frontier labs | Frontier labs + open models | Open, local, practitioner | Individual and teams | Established-company orgs |
+| Enterprise vs frontier | Enterprise, from 14 years inside Google | Individual and startup | Frontier labs | General audience + enterprises | Individual learners and practitioners | Production teams | Applied AI in companies | Frontier labs and AI-native startups | Frontier labs | Frontier labs + open models | Open, local, practitioner | Individual and teams | Established-company orgs |
 | Skepticism | Moderate, with an evangelist's vantage | Moderate, tool-hype risk | High on his own terms | Low, optimistic | Moderate, sponsor-dense | Moderate, balanced | High, evidence-based | Moderate, evangelistic on brand | High on her own terms | Sharp about hype in his domain | High, security-critical | Provocative, needs cross-check | High, empirical |
 
 ## Reading the matrix
@@ -39,7 +39,7 @@ Legend: each cell reads as a description; every cell traces to the linked member
 I read this table by columns, matching a reader slot rather than a source.
 **Nobody covers all five focus bands well, which is the argument for following several: pick a practitioner, an evaluation voice, a model-layer reader, an industry voice, and an educator.**
 
-**The hands-on cluster now spans text, eval-discipline, two distinct video modes, and the enterprise vantage:** Simon Willison is the reliable daily text chronicler, AI Jason builds complete workflows on camera, Caleb Writes Code explains each release and agentic concept at news speed, Hamel Husain supplies the data-driven method for deciding whether those workflows work, Steve Yegge remains the provocative thesis-builder who ships what he declares, and Addy Osmani reports the same practice from inside a hyperscaler, holding agent output to a production quality bar.
+**The hands-on cluster now spans text, eval-discipline, two distinct video modes, and the enterprise vantage:** Simon Willison is the reliable daily text chronicler, AI Jason builds complete workflows on camera, Caleb Writes Code explains each release and agentic concept at news speed, Hamel Husain supplies the data-driven method for deciding whether those workflows work, Steve Yegge remains the provocative thesis-builder who ships what he declares, and Addy Osmani reports the same practice from his 14 years inside a hyperscaler, holding agent output to a production quality bar.
 
 **The model-and-research layer is now its own band:** Lilian Weng writes the durable research references, Nathan Lambert tracks the current post-training and open-model state from inside the labs, and Andrej Karpathy sets the conceptual vocabulary they all operate inside.
 
@@ -47,7 +47,7 @@ I read this table by columns, matching a reader slot rather than a source.
 
 **Latent Space and The Pragmatic Engineer remain the two industry synthesizers, split by audience:** Latent Space points at the frontier labs and the AI-native startups, The Pragmatic Engineer points at established engineering organizations, so your employer's profile picks your primary.
 
-**The enterprise-hands-on gap the seed named is now filled, with one boundary drawn:** Addy Osmani is the sustained enterprise-hands-on voice, but he writes from inside Google, an AI company, with leader-level rather than terminal-level detail, so the still-empty scaffold is the low-drama, everyday terminal operator inside a large non-AI company.
+**The enterprise-hands-on gap the seed named is now filled, with one boundary drawn:** Addy Osmani is the sustained enterprise-hands-on voice, but he writes from 14 years inside Google, an AI company, with leader-level rather than terminal-level detail, so the still-empty scaffold is the low-drama, everyday terminal operator inside a large non-AI company.
 
 ## Choosing from the matrix
 

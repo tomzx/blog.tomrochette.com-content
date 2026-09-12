@@ -1,7 +1,7 @@
 ---
 title: Ante
 created: 2026-08-30
-updated: 2026-09-10
+updated: 2026-09-12
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agents, harnesses, rust, single-binary, local-models]
 readability: 3
@@ -12,7 +12,7 @@ audience_notes: >
 ---
 
 Ante is a self-contained coding harness from Antigma Labs that ships as one ~15MB Rust binary with an embedded llama.cpp engine, so it can drive cloud models or run GGUF models fully offline.
-Facts below verified as of 2026-09-10.
+Facts below verified as of 2026-09-12.
 
 **Ante is the first harness whose pitch is that footprint and offline capability are the product: the TUI, an embedded ripgrep, PDF/OCR, and a natively managed local inference engine all live inside one binary with zero runtime dependencies.**
 
@@ -21,14 +21,14 @@ Facts below verified as of 2026-09-10.
 A terminal agent in the Claude Code/Codex form factor, written in Rust and built by Antigma Labs, a startup that also publishes its own Terminal-Bench 2.1 evaluation results.
 The architecture is client-daemon: a TUI client, a headless CLI, an `ante serve` JSONL server for editor plugins, and an ACP crate (ante-acp) all drive the same daemon.
 It reads AGENTS.md conventions, supports skills, sub-agents, MCP, and persistent memory, and takes any of 12+ providers by API key or subscription with no account or telemetry gate.
-Source is published under Apache-2.0 (crates: exec, llm, protocol-shape, ante-sdk), while the prebuilt release binaries ship under separate Binary Preview Terms.
+Source is published under Apache-2.0 (crates: exec, llm, protocol-shape, ante-sdk), while the core harness itself stays in a private repository during the alpha and the prebuilt release binaries ship under separate Binary Preview Terms.
 
 ## Status
 
 **Active, preview-stage, and growing fast for a five-month-old repo.**
-1,945 stars and 62 forks as of 2026-09-10, repo created December 23, 2025, with the latest release v0.preview.96 published September 9, 2026 (GitHub API).
+1,947 stars and 62 forks as of 2026-09-12, repo created December 23, 2025, with the latest release v0.preview.98 published September 12, 2026 (GitHub API).
 The Show HN launch on August 10, 2026 drew 169 points and 92 comments ([HN](https://news.ycombinator.com/item?id=49245437)).
-At launch commenters flagged that the repo hosted binaries without agent source; the Rust source is now published, which resolves the objection.
+At launch commenters flagged that the repo hosted binaries without agent source; the Apache-2.0 core libraries published since narrow that gap, though the core harness itself remains closed during the alpha.
 The company publishes Terminal-Bench 2.1 runs at antigma.ai/eval, pinning every result to a public release and a raw Harbor run; its best self-reported score is 82.7% with DeepSeek V4 Flash, updated August 9, 2026.
 
 ## Strengths
@@ -49,7 +49,7 @@ The company publishes Terminal-Bench 2.1 runs at antigma.ai/eval, pinning every 
 
 Free to use in preview, both as source (Apache-2.0) and as prebuilt binaries under the Binary Preview Terms.
 You pay only your own model costs, whether API keys, subscriptions, or free local GGUF models.
-No paid tiers exist as of 2026-09-10.
+No paid tiers exist as of 2026-09-12.
 
 ## Compared to
 
@@ -71,10 +71,10 @@ I expect the harness market to consolidate on footprint and cost per agent, and 
 
 ## References
 
-- https://github.com/AntigmaLabs/ante - repository, Apache-2.0 source, 1,945 stars as of 2026-09-10
+- https://github.com/AntigmaLabs/ante - repository, Apache-2.0 source, 1,947 stars as of 2026-09-12
 - https://docs.antigma.ai/ - architecture, offline mode, providers, footprint claims
 - https://antigma.ai/eval - self-reported Terminal-Bench 2.1 results, pinned builds and Harbor runs
 - https://raw.githubusercontent.com/AntigmaLabs/ante/main/README.md - feature surface and provider list
 - https://raw.githubusercontent.com/AntigmaLabs/ante/main/BINARY-TERMS.md - the separate preview license for prebuilt binaries
 - https://news.ycombinator.com/item?id=49245437 - the August 10, 2026 launch thread, 169 points (verified via Algolia API)
-- https://github.com/AntigmaLabs/ante/releases - v0.preview.96, published 2026-09-09 (verified via GitHub API)
+- https://github.com/AntigmaLabs/ante/releases - v0.preview.98, published 2026-09-12 (verified via GitHub API)

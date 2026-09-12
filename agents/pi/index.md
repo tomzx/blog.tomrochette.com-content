@@ -1,7 +1,7 @@
 ---
 title: Pi
 created: 2026-08-30
-updated: 2026-09-10
+updated: 2026-09-12
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, harnesses, coding-agents, open-source, byok, extensibility]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Pi is an MIT-licensed TypeScript agent toolkit from Earendil whose flagship is a minimal, self-extensible terminal coding agent that you adapt through extensions rather than configuring a closed product.
-Facts below verified as of 2026-09-10.
+Facts below verified as of 2026-09-12.
 
 **Pi's thesis is that a coding agent should be a small frozen core plus your code, and it is the only harness at this scale whose author treats missing features as policy rather than backlog.**
 
@@ -26,9 +26,9 @@ Made by Earendil Inc., created by Mario Zechner with Armin Ronacher as the secon
 
 ## Status
 
-Active and ascending: 103,614 stars (past the 100k mark), 12,949 forks, 190 open issues and PRs as of 2026-09-10.
-Created 2025-08-09, pushed the day of verification, releases roughly weekly (v0.85.1 on 2026-09-05).
-**The ecosystem is the strongest signal: OpenClaw runs on Pi, and oh-my-pi, a batteries-included fork with about 30.4k stars as of 2026-09-10, exists precisely because some users want the features Pi refuses to ship.**
+Active and ascending: 104,384 stars (past the 100k mark), 13,084 forks, 207 open issues and PRs as of 2026-09-12.
+Created 2025-08-09, pushed within a day of verification, releases roughly weekly (v0.85.1 on 2026-09-05).
+**The ecosystem is the strongest signal: OpenClaw runs on Pi, and oh-my-pi, a batteries-included fork with about 30.8k stars as of 2026-09-12, exists precisely because some users want the features Pi refuses to ship.**
 
 ## Strengths
 
@@ -74,4 +74,4 @@ Not for teams wanting turnkey guardrails, MCP-centric stacks, or a stable API su
 - https://pi.dev - positioning, extension model, and the list of features deliberately not built
 - https://mariozechner.at/posts/2025-11-30-pi-coding-agent/ - the author's rationale for the minimal prompt and YOLO default
 - https://news.ycombinator.com/item?id=46844822 - the 421-point thread with pushback on the security posture
-- https://github.com/can1357/oh-my-pi - the 30.3k-star batteries-included fork, the counterargument in running code
+- https://github.com/can1357/oh-my-pi - the 30.8k-star batteries-included fork, the counterargument in running code

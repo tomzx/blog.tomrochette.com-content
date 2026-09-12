@@ -1,9 +1,9 @@
 ---
 title: OpenAI Structured Outputs
 created: 2026-08-24
-updated: 2026-09-07
+updated: 2026-09-12
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, structured-outputs, openai, json-schema]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, structured-outputs, openai, json-schema]
 readability: 3
 audience_notes: >
   Engineers who call OpenAI models from code and need guaranteed JSON for tools or pipelines.
@@ -12,7 +12,7 @@ audience_notes: >
 ---
 
 OpenAI Structured Outputs is an API capability that guarantees model responses adhere to a JSON Schema you supply, enforced by constraining decoding rather than by prompting.
-Facts below verified as of 2026-09-10.
+Facts below verified as of 2026-09-12.
 
 **It is the strongest output guarantee available from a major vendor: schema adherence is enforced at generation time, so the classic parse-validate-retry loop collapses into a single call for anything your schema can express.**
 
@@ -26,7 +26,7 @@ The feature shipped in August 2024 with gpt-4o-2024-08-06 and later models; the 
 ## Status
 
 **Active, and effectively the default way to get JSON out of OpenAI.**
-It works across the Responses, Chat Completions, Assistants, Fine-tuning, and Batch APIs, and current guide examples target the gpt-5.6 and gpt-6-astra model families.
+It works across the Responses, Chat Completions, Assistants, Fine-tuning, and Batch APIs, and current guide examples target the gpt-6-astra family, which OpenAI now recommends as the starting point for new projects.
 Independent tooling built on it (SDK parse helpers, LLM schema layers) has been standard in the ecosystem since late 2024.
 
 ## Strengths
@@ -46,7 +46,7 @@ Independent tooling built on it (SDK parse helpers, LLM schema layers) has been 
 ## Pricing
 
 **No separate line item for the feature.**
-Requests bill at the chosen model's token rates; for example gpt-5.6-luna lists at $0.20/1M input and $1.20/1M output (standard tier) as of 2026-09-10.
+Requests bill at the chosen model's token rates; for example gpt-5.6-luna lists at $0.20/1M input and $1.20/1M output (standard tier) as of 2026-09-12.
 Batch API use cuts those rates by 50% for offline extraction jobs.
 
 ## Compared to
@@ -73,6 +73,6 @@ Not for schemas that genuinely need numeric ranges, pervasive optional keys, or 
 
 - https://platform.openai.com/docs/guides/structured-outputs - primary guide: strict mode, text.format vs function calling, JSON mode comparison, model support
 - https://cookbook.openai.com/examples/structured_outputs_intro - official cookbook: refusal handling and the Pydantic parse helper
-- https://platform.openai.com/docs/pricing - per-model token rates, no structured-outputs surcharge, batch discounts (as of 2026-09-10)
+- https://platform.openai.com/docs/pricing - per-model token rates, no structured-outputs surcharge, batch discounts (as of 2026-09-12)
 - https://simonwillison.net/2024/Aug/6/openai-structured-outputs/ - independent launch analysis with schema-subset limits and OpenAI staff quotes on latency and loop failures
 - https://docs.claude.com/en/docs/build-with-claude/structured-outputs - cross-vendor comparison point for mechanism and schema limits

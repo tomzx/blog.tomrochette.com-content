@@ -1,7 +1,7 @@
 ---
 title: rtk
 created: 2026-08-30
-updated: 2026-09-09
+updated: 2026-09-12
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, context-engines, token-efficiency, cli, open-source]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 rtk is a free, open-source Rust CLI proxy that intercepts shell commands run by coding agents and compresses their output before it enters the context window, claiming up to 90 percent fewer output bytes on supported commands.
-Facts below verified as of 2026-09-10.
+Facts below verified as of 2026-09-12.
 
 **rtk monetizes the least glamorous line in the agent budget, the command output nobody reads, and its own documentation admits the 90 percent headline is an output-bytes number, not a bill reduction.**
 That admission is why I trust the project and discount the marketing at the same time.
@@ -26,8 +26,8 @@ Apache-2.0, built by a small French team with a commercial Pro product alongside
 
 ## Status
 
-Young and hot: 79,742 stars, 5,045 forks, 932 open issues and 934 open PRs as of 2026-09-10, created 2026-01-22, pushed 2026-09-09.
-Latest stable is v0.48.0 (2026-09-04) with near-daily release candidates; the project is pre-1.0.
+Young and hot: 80,085 stars, 5,071 forks, 938 open issues and 932 open PRs as of 2026-09-12, created 2026-01-22, pushed 2026-09-11.
+Latest stable is v0.49.0 (2026-09-11) with near-daily release candidates; the project is pre-1.0.
 The site claims 18,000+ developers, a marketing figure, and the Show HN thread shows users posting their own measured savings.
 
 ## Strengths
@@ -42,7 +42,7 @@ The site claims 18,000+ developers, a marketing figure, and the Show HN thread s
 - Lossy output is the product: an agent reading a condensed diff or collapsed test list can misread state, and the changelog shows a steady stream of filter-correctness bugs.
 - The hook only rewrites Bash tool calls, so built-in Read/Grep/Glob tools bypass filtering entirely, and unmatched commands pass through at zero savings; one user's own log showed 39 percent on their busiest day.
 - All savings numbers trace to the project or its users; no independent benchmark exists as of 2026-09-02.
-- A crates.io name collision is documented in its own README, and the combined open issues and PRs total around 1,866 as of 2026-09-10.
+- A crates.io name collision is documented in its own README, and the combined open issues and PRs total around 1,870 as of 2026-09-12.
 
 ## Pricing
 

@@ -1,7 +1,7 @@
 ---
 title: "Software Factory Feature Matrix"
 created: 2026-08-29
-updated: 2026-09-10
+updated: 2026-09-12
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=big-pickle, llm=glm-5.3-flash, comparison, software-factory, agentic-workflows]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 This matrix compares the members of the Software factory category: repeatable agents-plus-code production pipelines, where deterministic code owns the loop and agents are bounded nodes inside it.
-Everything below was re-verified against live sources on 2026-09-10.
+Everything below was re-verified against live sources on 2026-09-12.
 
 **The deciding question for this category is who owns the loop: a factory puts phase sequencing, retries, and acceptance in code, and an agent owns only the work inside one bounded phase.**
 
@@ -30,11 +30,11 @@ Each column links to the full research note; every cell below traces to a source
 | Failure handling | resumable Writer correction, fail-closed evidence, v0.3.0 recovery for long-running scheduler-owned work | per-slot teardown, evidence kept | exit code decides; a killed script restarts from the beginning | budgeted evolution, 30-generation cap, stagnation detection | same-session correction, no cold restart |
 | Self-improvement | ✓ Learner writes reusable Expertise after each change | ~ plugins and templates reduce drift, no learner | ✗ none | ✓ refines specs and accumulates reusable assets across generations | ✗ none |
 | Isolation | ✓ isolated worktree, remote via AWS Fargate | ✓ worktree, ports, and database per slot | ✗ none built in, executor-dependent | ~ delegated to the host runtime | ✗ runs on current branch, no sandbox or merge step |
-| Coding agent | Codex, Claude Code, or Pi | Claude Code, Cursor, Codex, or any MCP agent | any executable reading a prompt on stdin | 13 runtimes, Claude Code through Antigravity | pi only (claude_code stubbed) |
+| Coding agent | Codex, Claude Code, or Pi | Claude Code, Cursor, Codex, or any MCP agent | any executable reading a prompt on stdin | 14 runtimes, Claude Code through Antigravity | pi only (claude_code stubbed) |
 | Trace | Work Item / Attempt record with bound evidence | Mission Control dashboard per run and artifact | durable events, artifacts, outcome, duration, reported tokens | event sourcing with full replay and lineage | SQLite, tool calls visible mid-run |
 | License | Apache-2.0 | Apache-2.0 | MIT | MIT | MIT |
 | Born | 2026-07-10 | 2026-06-28 | 2026-07-16 | 2026-01-14 | 2026-08-02 |
-| Stars | about 89 | about 88 | about 395 | about 5.8k | about 820 |
+| Stars | about 94 | about 89 | about 406 | about 5.8k | about 834 |
 
 ## Reading the matrix
 
@@ -49,7 +49,7 @@ The difference is what compounds: Fluent compounds lessons about the code, Ourob
 **The hidden-grading row is Ouroboros' claim to a distinct cell: it is the only member that structurally withholds the grading command and expected result from the worker agent, an anti-reward-hacking design none of the others attempt.**
 
 **The narrow columns are candid**: SSSF's pi-only dependency versus the open agent matrix of Fluent and HAR is the single biggest reason to look past the founding member's headline ease.
-Ouroboros runs the other direction with 13 runtimes, the widest agent boundary in the category, paid for in evaluation tokens and beta churn.
+Ouroboros runs the other direction with 14 runtimes, the widest agent boundary in the category, paid for in evaluation tokens and beta churn.
 **Machinist narrows the boundary in the other direction: its named-command entrypoint is the category's strictest agent interface, paid for with no built-in isolation and restart-from-zero failure semantics.**
 
 **The rejected long tail**: agentic-software-factory (1 star, inflated agent counts), ai-factory (4 stars, no license), and Takk8IS/software-factory (0 stars, no license) did not clear the citation or credibility bar and are named here so no future run re-adds them silently.
@@ -60,7 +60,7 @@ Ouroboros runs the other direction with 13 runtimes, the widest agent boundary i
 - Want a self-improving factory with a real final Tester and worktree isolation, pre-1.0 accepted: Fluent.
 - Want a fleet of coding agents on one repo with deterministic verification and evidence, keeping your agents: HAR.
 - Want a local, auditable runner with a strict named-command boundary around any agent CLI, early-access accepted: Machinist.
-- Want vague briefs turned into verified code with the grading hidden from the worker, 13 runtimes and beta churn accepted: Ouroboros.
+- Want vague briefs turned into verified code with the grading hidden from the worker, 14 runtimes and beta churn accepted: Ouroboros.
 
 ## See also
 
