@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Paseo is a free, open-source, self-hosted orchestration layer that runs coding agents as local processes on your own machines and drives them from desktop, web, mobile, and CLI clients over one daemon.
-Facts below verified as of 2026-09-12.
+Facts below verified as of 2026-09-13.
 
 **Paseo's differentiator is not parallelism, which is now table stakes, but reach: it is the only orchestrator in its class with native iOS and Android clients at full feature parity, wrapped around your existing agent subscriptions instead of replacing them.**
 
@@ -25,7 +25,7 @@ Apache-2.0 (with a custom copyright notice), by Mohamed Boudra, an independent s
 
 ## Status
 
-Young and fast: about 17k stars, 1.9k forks, and 724 open issues and PRs (461 issues plus 263 pulls) as of 2026-09-12, created 2025-10-13, with more than 5,300 commits on main.
+Young and fast: about 17k stars, 1.9k forks, and 730 open issues and PRs (466 issues plus 264 pulls) as of 2026-09-13, created 2025-10-13, with more than 5,300 commits on main.
 The 0.8 line reached stable while I watched: v0.8.0 shipped 2026-09-10 with plugin header buttons, custom providers, and richer chat components, and remains the latest release, alongside 165 contributors and an active subreddit and Discord.
 **The structural risk is on the label: the maintainer described himself on Hacker News as a team of one, and monetization has now arrived as the hosted Hub at €15 per seat per month.**
 

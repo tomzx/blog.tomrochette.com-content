@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Bullet is a closed-source coding agent (desktop app plus npm CLI) from a YC S26 startup whose entire pitch is latency: route simple tasks to fast models, search instead of embedding the repo, run tool calls in parallel, and kill stuck loops.
-Facts below verified as of 2026-09-12.
+Facts below verified as of 2026-09-13.
 
 **Bullet is the first harness to compete on speed rather than capability, and its benchmark write-up is the most transparent vendor self-report in the category, which makes the closed source the only thing standing between it and a serious look.**
 
@@ -25,8 +25,8 @@ It is closed source: the npm package is marked UNLICENSED, its declared reposito
 
 ## Status
 
-v1.4.17 as of 2026-09-12, still the newest build on both the CLI registry and the desktop releases repository, published September 10, 2026.
-The CLI shipped on npm on August 7, 2026 and did 228 downloads in the last week and 3,376 in the last month as of 2026-09-12 (the npm API's windows end September 11).
+v1.4.17 as of 2026-09-13, still the newest build on both the CLI registry and the desktop releases repository, published September 10, 2026.
+The CLI shipped on npm on August 7, 2026 and did 228 downloads in the last week and 3,376 in the last month as of 2026-09-13 (the npm API's windows end September 11).
 Its Launch HN on August 13, 2026 reached 121 points (item 49283063), nine days after a quiet 9-point Show HN.
 Traction is real but early: thousands of installs, not millions, with YC backing as the deliberately stated signal behind it.
 
@@ -45,7 +45,7 @@ Traction is real but early: thousands of installs, not millions, with YC backing
 
 ## Pricing
 
-Free access today, explicitly with no subscriptions, as of 2026-09-12.
+Free access today, explicitly with no subscriptions, as of 2026-09-13.
 
 ## Compared to
 
@@ -72,10 +72,10 @@ I think speed is the wrong axis for buying a coding agent, and a 119-second mean
 
 ## References
 
-- https://www.codewithbullet.com - product surface, YC badge, CLI install, free access as of 2026-09-12
+- https://www.codewithbullet.com - product surface, YC badge, CLI install, free access as of 2026-09-13
 - https://www.codewithbullet.com/blog/benchmark-results.html - the SWE-bench Verified run: 479/500, 119 s mean, $0.73 per instance
 - https://registry.npmjs.org/@trybullet%2Fcli - CLI version, UNLICENSED marker, and dead repository URL
-- https://api.npmjs.org/downloads/point/last-month/@trybullet/cli - 3,376 monthly downloads as of 2026-09-12
+- https://api.npmjs.org/downloads/point/last-month/@trybullet/cli - 3,376 monthly downloads as of 2026-09-13
 - https://github.com/trybullet/bullet-releases - desktop release channel, v1.4.17 published September 10, 2026
 - https://news.ycombinator.com/item?id=49283063 - 121-point Launch HN with YC S26 in the title and community skepticism
 - https://news.ycombinator.com/item?id=49173799 - the earlier 9-point Show HN nine days prior

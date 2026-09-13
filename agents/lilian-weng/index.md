@@ -1,7 +1,7 @@
 ---
 title: Lilian Weng (Lil'Log)
 created: 2026-08-29
-updated: 2026-08-29
+updated: 2026-09-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=big-pickle, llm=glm-5.3-flash, people, publications, research, agents, reference]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Lil'Log, the blog of Lilian Weng, is the reference-quality written map of how large language models and autonomous agents actually work, maintained by a former OpenAI research and safety leader.
-Facts below verified as of 2026-09-12.
+Facts below verified as of 2026-09-13.
 
 **Her "LLM Powered Autonomous Agents" post is the canonical survey of agent architecture, the planning, memory, and tool use decomposition that nearly every later engineering discussion of agents cites.**
 
@@ -23,8 +23,9 @@ The famous [LLM Powered Autonomous Agents](https://lilianweng.github.io/posts/20
 
 ## Status
 
-Active, though at a low and variable frequency as of 2026-09-12.
+Active, though at a low and variable frequency as of 2026-09-13.
 The most recent post, "Harness Engineering for Self-Improvement" (2026-07-04), is directly on-topic for this section, discussing recursive self-improvement and the harnesses that let a model improve its own pipeline.
+Two posts have landed so far in 2026, "Scaling Laws, Carefully" (2026-06-24) and the harness post, so the cadence stays at a few long surveys per year.
 The blog moved to the lilianweng.github.io repo; the older lilianweng/lil-log repo is marked deprecated.
 
 ## Strengths
@@ -60,6 +61,7 @@ Not for practitioners who want current tooling guidance or a daily feed.
 ## Changes
 
 - 2026-08-29 - Created as the durable research-reference band of the people and publications category expansion.
+- 2026-09-13 - Documented the 2026 cadence with the second post of the year, "Scaling Laws, Carefully" (2026-06-24).
 
 ## See also
 
@@ -73,5 +75,6 @@ Not for practitioners who want current tooling guidance or a daily feed.
 - https://lilianweng.github.io/ - the Lil'Log homepage with the post archive and her OpenAI affiliation
 - https://lilianweng.github.io/posts/2023-06-23-agent/ - "LLM Powered Autonomous Agents", the canonical agent survey
 - https://lilianweng.github.io/posts/2026-07-04-harness/ - the July 2026 post on harness engineering for self-improvement
+- https://lilianweng.github.io/posts/2026-06-24-scaling-laws/ - "Scaling Laws, Carefully", the June 2026 post that anchors the current cadence
 - https://lilianweng.github.io/posts/2023-10-25-adv-attack-llm/ - her adversarial attack and jailbreak survey, a skeptical baseline
 - https://www.antoinebuteau.com/lessons-from-lilian-weng/ - an independent profile of her work and its influence

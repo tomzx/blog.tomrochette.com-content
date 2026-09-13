@@ -1,7 +1,7 @@
 ---
 title: Steve Yegge
 created: 2026-08-29
-updated: 2026-08-30
+updated: 2026-09-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=big-pickle, llm=glm-5.3-flash, people, publications, developer, agent-pragmatist]
 readability: 3
@@ -11,21 +11,22 @@ audience_notes: >
 ---
 
 Steve Yegge is one of the loudest and most hands-on voices arguing that coding agents change not just how software is written but who writes it and how teams are run.
-Facts below verified as of 2026-09-12.
+Facts below verified as of 2026-09-13.
 
 **Yegge is the operative, not the commentator: he builds the systems he predicts, from Agentic Coding's brute-squad framing to the Gas Town multi-agent workspace that this section already profiles, so his claims are falsifiable against his own code.**
 
 ## What it is
 
-A prolific engineer (Amazon, Google, then Sourcegraph, now independent) whose blog and Substack combine long-form essays with shipped agent projects.
+A prolific engineer (Amazon, Google, then Sourcegraph, now independent) whose site, yegge.ai, combines long-form essays with shipped agent projects.
 He coined or popularized the "death of the junior developer" and "revenge of the junior developer" agent-era framings, and wrote "Agentic Coding" laying out why developers must adopt agents.
 His creative output is the [Gas Town](../gastown/index.md) workspace manager, which implements his supervision-at-scale thesis directly.
 
 ## Status
 
-Active and engaged.
-As of 2026-09-12 he maintains a Substack launched within the past year, publishes the "Future of Coding Agents" essay series on his own site (yegge.ai catalog), builds Gas Town, and appears on The Pragmatic Engineer and other podcasts.
-He also released a book, Vibe Coding, in the agent era, consolidating his position.
+Active, with his writing centralized on his own site.
+As of 2026-09-13 the yegge.ai catalog holds 165 essays, roughly 699,000 words averaging about 4,200 per essay, with an RSS feed; it includes the "Future of Coding Agents" series, he builds Gas Town, and he appears on The Pragmatic Engineer and other podcasts.
+His Substack still exists and its about page reports hundreds of subscribers, but its sitemap listed no published posts as of 2026-09-13, so the essays live on yegge.ai rather than the newsletter.
+He also released the book Vibe Coding with Gene Kim (IT Revolution, 2025), a Gold Medal winner at the 2026 Axiom Book Awards.
 
 ## Strengths
 
@@ -42,7 +43,7 @@ He also released a book, Vibe Coding, in the agent era, consolidating his positi
 
 ## Pricing
 
-Free to read across the blog and Substack.
+Free to read across yegge.ai and the Substack.
 No meaningful paywall; the value is the essays and the open-source projects, not a subscription product.
 
 ## Compared to
@@ -60,6 +61,7 @@ Not for readers who prefer neutral synthesis or who object to the chaotic, credi
 
 - 2026-08-29 - Created in the People and publications category seed.
 - 2026-08-30 - Updated the gastown repo link after the project moved to the gastownhall org.
+- 2026-09-13 - Corrected the writing venue: the essays live on yegge.ai (165 essays, about 699,000 words) while the Substack shows no published posts, and added the Vibe Coding award.
 
 ## See also
 
@@ -70,8 +72,9 @@ Not for readers who prefer neutral synthesis or who object to the chaotic, credi
 
 ## References
 
-- https://steveyegge.substack.com/ - his Substack, launched within the past year
+- https://steveyegge.substack.com/ - his Substack, hundreds of subscribers per its about page, but no published posts in its sitemap as of 2026-09-13
 - https://yegge.ai/ - his essay catalog, including "The Future of Coding Agents"
+- https://yegge.ai/atlas.html - the catalog numbers (165 essays, about 699,000 words) and the Vibe Coding book award
 - https://steve-yegge.blogspot.com/ - the long-running blog with the canonical essays
 - https://github.com/gastownhall/gastown - the Gas Town workspace manager he builds (the repo moved to the gastownhall org; the old steveyegge URL redirects)
 - https://sourcegraph.com/blog/revenge-of-the-junior-developer - the agent-era essay that set the discussion

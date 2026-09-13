@@ -1,7 +1,7 @@
 ---
 title: Graphify
 created: 2026-08-30
-updated: 2026-09-12
+updated: 2026-09-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, context-engines, knowledge-graphs, code-intelligence, open-source]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Graphify is an open-source Python CLI that turns a codebase, plus its docs, SQL schemas, and PDFs, into a queryable knowledge graph exposed as a `/graphify` skill and MCP server for coding assistants, built on local deterministic tree-sitter parsing with no vector store.
-Facts below verified as of 2026-09-12.
+Facts below verified as of 2026-09-13.
 
 **Graphify's bet is that structure beats similarity: an agent that can traverse exact calls-and-imports edges with file:line citations needs less context than one searching embeddings, and the code path runs entirely on your machine.**
 The bet is young, self-benchmarked, and wrapped in a YC company's funnel.
@@ -26,7 +26,7 @@ Made by Graphify Labs, a YC Summer 2026 company of two people in London, Apache-
 
 ## Status
 
-Growing absurdly fast for its age: 116,208 stars and 1,720 commits in about five months since 2026-04-03, latest release v0.9.59 on 2026-09-12, all as of 2026-09-12, with 258 contributors as of 2026-09-12.
+Growing absurdly fast for its age: 116,290 stars and 1,720 commits in about five months since 2026-04-03, latest release v0.9.61 on 2026-09-12, all as of 2026-09-13, with 258 contributors as of 2026-09-12.
 The YC page claims 5M+ downloads and named production users, all self-reported.
 The ecosystem is growing too: a third-party C# port, graphify-csharp, launched September 11, 2026 with a 41-point Show HN and 21 comments, the largest discussion any Graphify-linked project has drawn.
 **The star count still outruns the discussion footprint: Hacker News stories linking the main repo drew two or three points with no comments, a mismatch I treat as a flag, not a slam dunk.**
@@ -42,13 +42,13 @@ The ecosystem is growing too: a third-party C# port, graphify-csharp, launched S
 
 - The benchmarks are self-published, and on the headline QA-accuracy metric graphify trails supermemory while winning on cost and recall, per its own BENCHMARKS.md.
 - Only code is local: docs, PDFs, and images are sent to whatever LLM backend is configured.
-- Pre-1.0 with 1,326 open issues and PRs as of 2026-09-12, a nonstandard default branch, and acknowledged PyPI name-squatting on `graphify*` packages.
+- Pre-1.0 with 1,314 open issues and PRs as of 2026-09-13, a nonstandard default branch, and acknowledged PyPI name-squatting on `graphify*` packages.
 - The free CLI is the top of an open-core funnel into a hosted product whose plans only recently gained public prices, so expect the monetization posture to keep moving.
 
 ## Pricing
 
 The core CLI is free, Apache-2.0, no account.
-The hosted side now publishes four plans (as of 2026-09-12): Free ($0, one developer, node and build allowances), Pro ($10/month billed yearly, one developer, uncapped graphs), Teams ($20 per seat/month billed yearly, minimum 2 seats, rising to $28 after the first 100 teams), and Enterprise (custom, self-hosted), plus free access for qualified OSS projects.
+The hosted side now publishes four plans (as of 2026-09-13): Free ($0, one developer, node and build allowances), Pro ($10/month billed yearly, one developer, uncapped graphs), Teams ($20 per seat/month billed yearly, minimum 2 seats, rising to $28 after the first 100 teams), and Enterprise (custom, self-hosted), plus free access for qualified OSS projects.
 
 ## Compared to
 

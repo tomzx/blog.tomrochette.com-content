@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 OpenWork is a free, MIT-licensed desktop app for macOS, Windows, and Linux that runs AI agent sessions on local files with shared skills, MCP connections, browser automation, and scheduled tasks, positioned as the open alternative to Anthropic's Claude Cowork and built on top of OpenCode.
-Facts below verified as of 2026-09-12.
+Facts below verified as of 2026-09-13.
 
 **OpenWork is the Cowork clone that outlived the clone jokes: seven and a half months of signed, weekly releases to 23.4k stars, an MCP gateway that makes its skills portable to any agent, and a license split that is the first thing a serious adopter should read.**
 
@@ -24,7 +24,7 @@ By different-ai (Benjamin Shafii), YC-backed.
 
 ## Status
 
-Alive and shipping hard: 23,499 stars, 2,355 forks, 503 open issues and PRs as of 2026-09-12, created 2026-01-14, pushed today.
+Alive and shipping hard: 23,507 stars, 2,357 forks, 507 open issues and PRs as of 2026-09-13, created 2026-01-14, pushed today.
 v0.18.42 on 2026-09-02 (signed Windows installers) through v0.18.46 on 2026-09-10, multiple releases per week.
 **It outlived its launch-week skepticism, but the founder still carries 2,911 of the top contributors' roughly 4,000 commits.**
 
@@ -45,8 +45,8 @@ v0.18.42 on 2026-09-02 (signed Windows installers) through v0.18.46 on 2026-09-1
 ## Pricing
 
 Free: $0, the MIT desktop app with BYO keys and no seat cap on the app itself.
-Team: $10 per seat per month with the first 5 seats free (extension marketplace, distributed LLM keys), as of 2026-09-12.
-Enterprise: custom pricing (SSO/SAML, SCIM, BYO inference with self-hosted or private models, desktop policies and version controls, managed deployment, custom skill development, rollout support), as of 2026-09-12.
+Team: $10 per seat per month with the first 5 seats free (extension marketplace, distributed LLM keys), as of 2026-09-13.
+Enterprise: custom pricing (SSO/SAML, SCIM, BYO inference with self-hosted or private models, desktop policies and version controls, managed deployment, custom skill development, rollout support), as of 2026-09-13.
 The Den control plane inside the repo stays free for organizations up to five users, free to evaluate for 30 days at any size, and each `ee/` release converts to MIT two years after publication.
 
 ## Compared to

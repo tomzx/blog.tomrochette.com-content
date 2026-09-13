@@ -12,7 +12,7 @@ audience_notes: >
 ---
 
 Instructor is an MIT-licensed Python library (with TypeScript, Go, Ruby, Elixir, and Rust ports) that returns Pydantic objects from LLM calls and re-asks the model when validation fails.
-Facts below verified as of 2026-09-12.
+Facts below verified as of 2026-09-13.
 
 **Its core loop, validate-then-reask with the error fed back to the model, remains the portable way to enforce rules no vendor schema constraint can express, even after native structured outputs absorbed the baseline JSON-validity problem.**
 
@@ -27,7 +27,7 @@ It also streams partial objects, iterates lists, exposes hooks for logging and m
 
 **Active and mainstream.**
 The repository shows about 13.9k stars and 1,656 commits as of 2026-09-12, and PyPI shows release 1.17.0 uploaded September 9, 2026, following 1.16.0 on August 27, in a cadence of monthly-plus releases stretching back to 2023.
-The README claims 3M+ monthly downloads and use inside OpenAI, Google, Microsoft, and AWS teams; PyPI counters with roughly 23.5M downloads over the last month as of 2026-09-10, so the README claim is if anything conservative.
+The README claims 3M+ monthly downloads and use inside OpenAI, Google, Microsoft, and AWS teams; PyPI counters with roughly 22.3M downloads over the last month as of 2026-09-13, so the README claim is if anything conservative.
 OpenAI publicly credited Instructor as inspiration for its native SDK structured-output helpers at the August 2024 Structured Outputs launch, and the project's own README now steers agent use cases to PydanticAI, the Pydantic team's agent runtime.
 
 ## Strengths
@@ -74,7 +74,7 @@ Not for teams that need agents, evals, or hard latency budgets.
 
 ## References
 
-- https://github.com/567-labs/instructor - repo: stars, license, retry and streaming features, PydanticAI positioning (as of 2026-09-12)
+- https://github.com/567-labs/instructor - repo: stars, license, retry and streaming features, PydanticAI positioning (as of 2026-09-13)
 - https://python.useinstructor.com/ - official docs: from_provider interface, reasking, hooks, provider list
 - https://pypi.org/project/instructor/ - release cadence (1.17.0, September 2026), maintainer and authorship
 - https://simonwillison.net/2024/Aug/6/openai-structured-outputs/ - independent record that OpenAI credited Instructor as inspiration for its SDK helpers

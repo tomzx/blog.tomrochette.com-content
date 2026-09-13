@@ -1,7 +1,7 @@
 ---
 title: "People and Publications Feature Matrix"
 created: 2026-08-29
-updated: 2026-09-12
+updated: 2026-09-13
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=big-pickle, comparison, people, publications, voices, llm=glm-5.3-flash]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 This matrix compares the thirteen people-and-publications profiled in this category, row by row, so deciding what to follow does not require reading thirteen notes blind.
-Everything below was verified against live primary sources on 2026-08-29, re-verified on 2026-08-30, re-verified again on 2026-09-02, when Addy Osmani joined the columns, re-verified on 2026-09-04, re-verified on 2026-09-05 with no cell changes, re-verified on 2026-09-06 with no cell changes, re-verified on 2026-09-07 with no cell changes, re-verified on 2026-09-08 with no cell changes, re-verified on 2026-09-09 with no cell changes, re-verified on 2026-09-10 with no cell changes, and re-verified on 2026-09-12, updating the Osmani enterprise-vantage cell after his departure from Google.
+Everything below was verified against live primary sources on 2026-08-29, re-verified on 2026-08-30, re-verified again on 2026-09-02, when Addy Osmani joined the columns, re-verified on 2026-09-04, re-verified on 2026-09-05 with no cell changes, re-verified on 2026-09-06 with no cell changes, re-verified on 2026-09-07 with no cell changes, re-verified on 2026-09-08 with no cell changes, re-verified on 2026-09-09 with no cell changes, re-verified on 2026-09-10 with no cell changes, and re-verified on 2026-09-12, updating the Osmani enterprise-vantage cell after his departure from Google, and re-verified on 2026-09-13, correcting the Yegge primary-platform cell to his yegge.ai site and the AI Jason cadence to two to three videos a month.
 
 **The axis that actually segments the field is what each voice gives you: hands-on tool practice, an evaluation method, the model-and-research layer, industry-and-org analysis, or a structured on-ramp, and the personalities span all five, with the hands-on band now split between indie operators and the enterprise vantage.**
 
@@ -21,8 +21,8 @@ Legend: each cell reads as a description; every cell traces to the linked member
 
 | Row | [Addy Osmani](../addy-osmani/index.md) | [AI Jason](../ai-jason/index.md) | [Andrej Karpathy](../andrej-karpathy/index.md) | [Andrew Ng](../deeplearning-ai-andrew-ng/index.md) | [Caleb Writes Code](../caleb-writes-code/index.md) | [Chip Huyen](../chip-huyen/index.md) | [Hamel Husain](../hamel-husain/index.md) | [Latent Space](../latent-space/index.md) | [Lilian Weng](../lilian-weng/index.md) | [Nathan Lambert](../nathan-lambert/index.md) | [Simon Willison](../simon-willison/index.md) | [Steve Yegge](../steve-yegge/index.md) | [The Pragmatic Engineer](../the-pragmatic-engineer/index.md) |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Primary platform | Blog + books + repos | YouTube | Essays + talks | Newsletter + courses | YouTube channel | Site + books | Blog + Substack | Substack + podcast + conferences | Blog (Lil'Log) | Substack + site | Daily blog + TIL | Blog + Substack + essays | Newsletter + podcast |
-| Cadence | Periodic essays | Monthly videos | Low, periodic | Weekly newsletter | About twice a week | Books + periodic essays | Monthly-ish long posts | Weekly newsletter, daily AINews | Low, irregular | High, multiple a week | Daily, multiple posts | Sporadic + shipped code | Weekly issue |
+| Primary platform | Blog + books + repos | YouTube | Essays + talks | Newsletter + courses | YouTube channel | Site + books | Blog + Substack | Substack + podcast + conferences | Blog (Lil'Log) | Substack + site | Daily blog + TIL | Blog (yegge.ai) + essays | Newsletter + podcast |
+| Cadence | Periodic essays | Two to three videos a month | Low, periodic | Weekly newsletter | About twice a week | Books + periodic essays | Monthly-ish long posts | Weekly newsletter, daily AINews | Low, irregular | High, multiple a week | Daily, multiple posts | Sporadic + shipped code | Weekly issue |
 | Focus | Enterprise agentic engineering, verification discipline, code quality | Agent workflows and context engineering | Conceptual vocabulary, frontier research | Education, agentic patterns, overview | Model releases and agentic-engineering explainers | AI systems design, production | Evaluation and data-driven improvement | Industry, labs, interviews, trends | Research surveys (agents, alignment) | Models, post-training, open ecosystem | Hands-on tools and agent practice | Agent-era thesis and builds | Org design, hiring, adoption data |
 | Media format | Text + books | Video | Text + video talks | Newsletter + video courses | Video | Text + books | Text | Newsletter + audio + events | Text | Text + podcast | Text | Text | Newsletter + audio |
 | Depth vs breadth | Leader-plus-practitioner depth, enterprise scope | Broad, execution-level, shallow | Conceptual framing | Broad on-ramp, shallow | Broad, current, explainer depth | Broad systems survey | Deep on evals, narrow scope | Broad industry synthesis | Deep references, broad | Deep on post-training | Dense and deep on tools | Provocative theses | Org-level, broad |
@@ -71,6 +71,7 @@ I read this table by columns, matching a reader slot rather than a source.
 - 2026-08-29 - Extended from five to eleven columns, re-segmenting the thesis onto five focus bands and filling all reader-slot rows.
 - 2026-08-29 - Extended to twelve columns, adding the Caleb Writes Code column and a release-explainer choosing bullet.
 - 2026-09-02 - Extended to thirteen columns, adding Addy Osmani and filling the enterprise-hands-on scaffold cell.
+- 2026-09-13 - Corrected the Yegge primary-platform cell to his yegge.ai site (165 essays there, Substack carrying no published posts) and aligned the AI Jason cadence cell to two to three videos a month.
 
 ## See also
 

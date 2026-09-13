@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 OpenChamber is a free, MIT-licensed agentic development environment built around the OpenCode SDK: desktop, browser, mobile, and a VS Code extension for steering parallel agent sessions.
-Facts below verified as of 2026-09-12.
+Facts below verified as of 2026-09-13.
 
 **OpenChamber is the open-source answer to "where do I run my many OpenCode sessions", and its differentiator is not polish but the fact that the whole surface, worktrees, chat, terminals, scheduling, is code you can read and fix.**
 
@@ -25,7 +25,7 @@ It runs on the OpenCode SDK today and is an independent project, not affiliated 
 ## Status
 
 **Very active.**
-About 9.8k stars and 1,073 forks as of 2026-09-12, with v1.23.1 (September 11, 2026) now the latest release after v1.23.0 (September 9), v1.22.2 (September 5), and v1.22.1 (September 4), and commits landing September 12, 2026.
+About 9.8k stars (9,809) and 1,074 forks as of 2026-09-13, with v1.23.1 (September 11, 2026) now the latest release after v1.23.0 (September 9), v1.22.2 (September 5), and v1.22.1 (September 4), and commits landing September 12, 2026.
 A 190-point Hacker News thread in August 2026 marks its arrival in general awareness.
 
 ## Strengths
@@ -45,7 +45,7 @@ A 190-point Hacker News thread in August 2026 marks its arrival in general aware
 ## Pricing
 
 Free, open source, MIT.
-Donations via Patreon fund development; there is no paid tier, as of 2026-09-12.
+Donations via Patreon fund development; there is no paid tier, as of 2026-09-13.
 
 ## Compared to
 
@@ -72,7 +72,7 @@ Not for anyone who wants a polished IDE experience or harness choice beyond Open
 ## References
 
 - https://openchamber.dev/ - features, surfaces, privacy model, FAQ
-- https://github.com/openchamber/openchamber - source, repository scale, as of 2026-09-12
+- https://github.com/openchamber/openchamber - source, repository scale, as of 2026-09-13
 - https://github.com/openchamber/openchamber/releases/tag/v1.23.1 - the September 11, 2026 release
 - https://docs.openchamber.dev/ - install and configuration documentation
 - https://news.ycombinator.com/item?id=49233448 - the August 2026 launch discussion

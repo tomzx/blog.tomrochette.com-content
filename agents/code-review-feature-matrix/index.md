@@ -1,7 +1,7 @@
 ---
 title: "Code Review Feature Matrix"
 created: 2026-08-30
-updated: 2026-09-12
+updated: 2026-09-13
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3-flash, comparison, code-review, ai-review, developer-tools]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 This matrix compares the eight AI code-review tools profiled in this section, feature by feature, so the shortlisting step does not require reading eight notes.
-Everything below was re-verified against live sources on 2026-09-12; the three columns added on 2026-08-30 were Graphite Diamond, Kodus, and Sourcery.
+Everything below was re-verified against live sources on 2026-09-13; the three columns added on 2026-08-30 were Graphite Diamond, Kodus, and Sourcery.
 
 **The deciding row is not review quality, which nobody has independently benchmarked, but where your code runs: five columns are vendor clouds, one runs in your VPC, two run entirely on your infrastructure with your keys, Graphite Diamond arrives already consolidated as a Cursor property, and the category's most-repeated outside fact is that the two biggest commercial reviewers both have Kudelski-disclosed exploit histories.**
 
@@ -25,13 +25,13 @@ Each column links to the full research note; every cell traces to a source cited
 | Kind | commercial review service expanding into change management | agent cloud, review demoted to a use case | AI review inside the Graphite stacked-PR platform, now Cursor-owned | hosted reviewer over a whole-repo graph index | open-source BYOK reviewer (Kody) with a paid cloud | self-hosted hybrid rules-plus-LLM reviewer | open-core reviewer, MIT PR-Agent plus paid Qodo Merge | hosted reviewer from a static-analysis lineage, proprietary app over an MIT repo |
 | Object judged | pull requests (diff plus learned repo context) | pull requests, as one configurable agent use case | pull requests in the stacked-PR workflow | pull requests against the full codebase graph | pull requests on GitHub, GitLab, Bitbucket, and Azure Repos | git diffs and pull requests in CI | pull requests via /review and /improve commands | pull requests on GitHub and GitLab, plus a security-scan layer |
 | Judge | LLM reviewers with team-learned rules | your chosen coding agent under its agents-as-code config | Graphite Agent (ex-Diamond) with custom rules | review agent swarm reading the team's comment history | your BYOK model with plain-language custom rules | deterministic rules first, LLM agent second, precision-first | LLM with configurable best-practices files | LLM reviewers on OpenAI and Anthropic models |
-| Deployment | GitHub/GitLab app, IDE, CLI, Enterprise self-host | cloud with BYOC into your AWS VPC, REST API with public Python and TypeScript SDK mirrors | graphite.com SaaS, GitHub-centric, GHES support on Enterprise | cloud, self-host in your own AWS or air-gapped VPC | self-hosted, Kodus Cloud, or CLI, on your own model keys | self-hosted CLI, CI, agent plugins, MCP, your model keys | self-host PR-Agent, or buy Qodo cloud | GitHub/GitLab app and IDE plugins, Enterprise self-host |
+| Deployment | GitHub/GitLab app, IDE, CLI, Enterprise self-host | cloud with BYOC into your AWS VPC, REST API with public Python and TypeScript SDK mirrors | graphite.com SaaS, GitHub-centric, GHES support on Enterprise | cloud, self-host in your own AWS or air-gapped VPC | self-hosted, Kodus Cloud, or CLI, on your own model keys | self-hosted CLI, CI, agent plugins, MCP, your model keys | self-host PR-Agent, buy Qodo cloud, or install the Agentic Toolbox skills inside Claude Code, Codex, and Kiro | GitHub/GitLab app and IDE plugins, Enterprise self-host |
 | CI gating | ✓ | ~ through its cloud runs | ? | ✓ | ✓ CLI in CI/CD | ✓ GitHub Action and GitLab CI | ✓ via CI recipes | ? |
 | Fixes or rewrites code | ~ Triage and Change Stack agents (2026 expansion) | ~ the agents it hosts fix what review finds | ~ one-click fixes | ~ handoff to Claude Code, Cursor, Codex, Devin, TREX tests beta | ✗ comments only | ✗ comments only | ~ /improve suggestions | ~ agent-assisted fix path |
 | Learns team rules | ✓ learnings | ~ agents-as-code config you write | ~ custom rules | ✓ from review comments, isolated per organization | ✓ plain-language rules, workflow learning | ✗ fixed rule pipeline | ~ best-practices files you curate | ? |
 | License | ✗ proprietary, free forever for public repos | ✗ closed core, small OSS tooling repos | ✗ proprietary, Cursor-owned | ✗ proprietary | ~ AGPL-3.0 core, ee/ paths commercial | ✓ Apache-2.0 | ~ PR-Agent MIT, Qodo Merge proprietary | ✗ reviewer proprietary, the MIT repo is the refactoring lineage |
-| Pricing anchor | Essentials (ex-Pro) $24, Team (ex-Pro Plus) $48 per user/mo annual, new Advanced $72 annual ($90 monthly) with variable-priced full scans, public repos free | tokens at cost plus a 10% fee, support packages from $5k/mo | Hobby free, Starter $20, Team $40 per user/mo | $30/seat plus credits, $1 per extra credit | Community free, Teams BYOK $10/dev/mo plus raw tokens, Enterprise custom with SOC 2, self-host free | free, your model tokens | $0.012 per credit packs, Pro Team $30, no permanent free tier | Pro $12, Team $24 per user/mo, open source repos free |
-| Maturity and scale | $143M Series C at a $1.5B valuation, 17k customers (2026-08) | pivoted 2026-07, $2M seed (2024) | ~$81M raised, $290M valuation, acquired by Cursor 2025-12 | $25M Series A (2025-09), v5 | 1,369 stars, no verified funding (2026-09) | 124+ releases in under 4 months | 13k-star OSS repo, $50M raised | repo since 2019, 1,864 stars, no verified funding |
+| Pricing anchor | Essentials (ex-Pro) $24, Team (ex-Pro Plus) $48 per user/mo annual, new Advanced $72 annual ($90 monthly) with variable-priced full scans, public repos free | tokens at cost plus a 10% fee, free for individuals on their own ChatGPT or Claude subscription, support packages from $5k/mo | Hobby free, Starter $20, Team $40 per user/mo | $30/seat plus credits, $1 per extra credit | Community free, Teams BYOK $10/dev/mo plus raw tokens, Enterprise custom with SOC 2, self-host free | free, your model tokens | $0.012 per credit packs, Pro Team $30, no permanent free tier | Pro $12, Team $24 per user/mo, open source repos free |
+| Maturity and scale | $143M Series C at a $1.5B valuation, 17k customers (2026-08) | pivoted 2026-07, $2M seed (2024) | ~$81M raised, $290M valuation, acquired by Cursor 2025-12 | $25M Series A (2025-09), v5 | 1,371 stars, no verified funding (2026-09-13) | 124+ releases in under 4 months | 13k-star OSS repo, $50M raised | repo since 2019, 1,865 stars, no verified funding |
 
 ## Reading the matrix
 
@@ -49,6 +49,7 @@ Greptile's self-hosting runs in your cloud but stays proprietary, so the VPC row
 
 **Review-alone is a hard business, and Ellipsis is the exit record.**
 It launched as a 121-point Show HN review bot in 2024 and pivoted to managed agent infrastructure in July 2026, keeping review only as a configurable use case.
+Its pricing now leads with a free on-ramp for individuals who bring their own ChatGPT or Claude subscription.
 
 ## Choosing from the matrix
 
@@ -63,6 +64,8 @@ It launched as a 121-point Show HN review bot in 2024 and pivoted to managed age
 ## Changes
 
 - 2026-08-30 - Created in the Code review category seed with five columns and the where-your-code-runs thesis.
+- 2026-09-13 - Added the Ellipsis free-for-individuals on-ramp (own ChatGPT or Claude subscription) to its pricing cell.
+- 2026-09-13 - Added the Qodo Agentic Toolbox (September 9 launch, review and rules skills inside Claude Code, Codex, and Kiro) to its deployment cell.
 
 ## See also
 

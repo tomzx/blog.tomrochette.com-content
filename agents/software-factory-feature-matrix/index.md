@@ -1,7 +1,7 @@
 ---
 title: "Software Factory Feature Matrix"
 created: 2026-08-29
-updated: 2026-09-12
+updated: 2026-09-13
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=big-pickle, llm=glm-5.3-flash, comparison, software-factory, agentic-workflows]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 This matrix compares the members of the Software factory category: repeatable agents-plus-code production pipelines, where deterministic code owns the loop and agents are bounded nodes inside it.
-Everything below was re-verified against live sources on 2026-09-12.
+Everything below was re-verified against live sources on 2026-09-13.
 
 **The deciding question for this category is who owns the loop: a factory puts phase sequencing, retries, and acceptance in code, and an agent owns only the work inside one bounded phase.**
 
@@ -33,8 +33,9 @@ Each column links to the full research note; every cell below traces to a source
 | Coding agent | Codex, Claude Code, or Pi | Claude Code, Cursor, Codex, or any MCP agent | any executable reading a prompt on stdin | 14 runtimes, Claude Code through Antigravity | pi only (claude_code stubbed) |
 | Trace | Work Item / Attempt record with bound evidence | Mission Control dashboard per run and artifact | durable events, artifacts, outcome, duration, reported tokens | event sourcing with full replay and lineage | SQLite, tool calls visible mid-run |
 | License | Apache-2.0 | Apache-2.0 | MIT | MIT | MIT |
+| Pricing | free, no paid tier, no hosted cloud | core free; HAR HQ Team $400 per month up to 50 users with $100 monthly cloud credits, Enterprise custom (self-hosted or VPC, SSO/SAML/SCIM) | free, early access | free, GitHub Sponsors funded, enterprise offerings conditional | free, self-hosted |
 | Born | 2026-07-10 | 2026-06-28 | 2026-07-16 | 2026-01-14 | 2026-08-02 |
-| Stars | about 94 | about 89 | about 406 | about 5.8k | about 834 |
+| Stars | about 94 | about 90 | about 407 | about 5.8k | about 838 |
 
 ## Reading the matrix
 
@@ -69,6 +70,7 @@ Ouroboros runs the other direction with 14 runtimes, the widest agent boundary i
 - 2026-08-30 - Extended to four columns with Ouroboros, self-improvement and hidden-grading prose updated.
 - 2026-08-30 - Re-sorted columns alphabetically with Fluent first, dropping the founding-member-first convention.
 - 2026-09-05 - Extended from four to five columns with Machinist.
+- 2026-09-13 - Added the Pricing row, recording HAR HQ's first published pricing (Team $400 per month up to 50 users with $100 monthly cloud credits, Enterprise custom) alongside the free open-source core.
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: OpenShell
 created: 2026-08-30
-updated: 2026-09-12
+updated: 2026-09-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, sandboxing, isolation, security, nvidia, open-source]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 OpenShell is NVIDIA's Apache-2.0, Rust-based runtime that runs AI coding agents inside isolated containers or MicroVMs governed by declarative YAML policies enforced at the kernel and an L7 egress proxy, so agents work without unrestricted access to files, credentials, or the network.
-Facts below verified as of 2026-09-12.
+Facts below verified as of 2026-09-13.
 
 **OpenShell is the first sandbox built for the agent era by a hardware vendor rather than a harness vendor, and its most interesting idea is not the isolation but the credential architecture: provider keys are injected at an inference proxy and never enter the sandbox filesystem.**
 
@@ -24,7 +24,7 @@ Linux, macOS (Apple Silicon), and Windows via WSL 2 (experimental); Apache-2.0, 
 
 ## Status
 
-Fast adoption, self-declared alpha: 8,585 stars, 1,248 forks, 544 open issues and PRs as of 2026-09-12, created 2026-02-24.
+Fast adoption, self-declared alpha: 8,593 stars, 1,249 forks, 544 open issues and PRs as of 2026-09-13, created 2026-02-24.
 v0.0.116 released 2026-08-28 remains the latest stable, with a vm-runtime-capability-free prerelease on 2026-09-05 and a v0.1.0-pre.1 tag above it, 1,369 commits, 116 contributors.
 **NVIDIA's own blog calls it an early preview, and v0.0.x versioning plus experimental Kubernetes and GPU features say production use is a bet on the vendor staying in.**
 
@@ -40,7 +40,7 @@ v0.0.116 released 2026-08-28 remains the latest stable, with a vm-runtime-capabi
 - Alpha by its own badge, with breaking changes expected and the Kubernetes path explicitly experimental.
 - Telemetry is on by default in a tool whose pitch is privacy; anonymous, but verify it against your threat model.
 - Effective security equals the YAML policies you write and maintain, which is real ongoing work.
-- 559 open issues and PRs on a six-month-old codebase.
+- 544 open issues and PRs on a six-month-old codebase.
 
 ## Pricing
 

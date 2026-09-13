@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 OpenCodeReview (`ocr`) is Alibaba's Apache-2.0 Go CLI for AI code review that combines deterministic engineering pipelines, file selection, bundling, and rule matching, with an LLM agent to produce line-precise review comments, runnable locally, in CI, or inside coding agents.
-Facts below verified as of 2026-09-12.
+Facts below verified as of 2026-09-13.
 
 **OpenCodeReview's thesis is that a reviewer agent needs engineering around it, not just a prompt, and its own benchmark discloses the cost of that thesis: higher precision, deliberately lower recall, real defects will slip through.**
 
@@ -24,7 +24,7 @@ Apache-2.0, from Alibaba, open-sourced in May 2026 after two years of internal u
 
 ## Status
 
-High-velocity young: 22,687 stars, 1,681 forks, 147 open issues and PRs as of 2026-09-12, created 2026-05-18.
+High-velocity young: 23,041 stars, 1,706 forks, 150 open issues and PRs as of 2026-09-13, created 2026-05-18.
 At least 124 releases in under four months (v1.12.0 on 2026-09-12), a 284-point Hacker News front-page thread in June.
 **Adoption outran polish visibly: GPT-5.x compatibility broke at launch and was fixed, and the lead has said parts of the codebase are not yet fully polished.**
 
@@ -73,7 +73,7 @@ Not for teams needing independently validated precision numbers today, or turnke
 
 ## References
 
-- https://github.com/alibaba/open-code-review - repository, architecture, integrations, license, 22,687 stars as of 2026-09-12
+- https://github.com/alibaba/open-code-review - repository, architecture, integrations, license, 23,041 stars as of 2026-09-13
 - https://raw.githubusercontent.com/alibaba/open-code-review/HEAD/README.md - the hybrid design, benchmark claims, and recall trade-off
 - https://news.ycombinator.com/item?id=48406358 - the launch thread with the independent precision run and maintainer responses
 - https://huggingface.co/datasets/Alibaba-Aone/aacr-bench - the public benchmark backing the claims

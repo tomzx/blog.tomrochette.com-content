@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Hermes Agent is Nous Research's MIT-licensed self-improving personal agent: a Python gateway process that lives in your chat channels, builds skills from its own experience, and runs on everything from a $5 VPS to serverless sandboxes, at about 244k stars the biggest runtime launch since OpenClaw.
-Facts below verified as of 2026-09-12.
+Facts below verified as of 2026-09-13.
 
 **Hermes' bet is that the runtime winner is decided by the learning loop, not the channel list: an agent that curates its own memory, writes its own skills, and models you across sessions compounds while the others merely answer.**
 
@@ -25,7 +25,7 @@ Execution spans seven backends (local, Docker, SSH, Singularity, Modal, Daytona,
 ## Status
 
 Massive and fast-moving.
-As of 2026-09-12: 244,867 stars and 50,800 forks since creation on 2025-07-22, pushed today, MIT, and 42,281 open issues, a support surface bigger than most projects' users.
+As of 2026-09-13: 244,961 stars and 50,865 forks since creation on 2025-07-22, pushed today, MIT, and 42,428 open issues, a support surface bigger than most projects' users.
 The [52-point launch thread](https://news.ycombinator.com/item?id=48419000) landed June 2026, and a real tool ecosystem followed (a 28-point Grafana observability integration, a Fleet console for managing Dockerized Hermes agents, XMPP interop with OpenClaw).
 **The governance record is the caution: a May 2026 thread documents Nous editing a GitHub issue to remove plagiarism claims about Hermes Agent ([issue 10232](https://github.com/NousResearch/hermes-agent/issues/10232)), so origin claims around this project deserve independent reading.**
 
@@ -46,7 +46,7 @@ The [52-point launch thread](https://news.ycombinator.com/item?id=48419000) land
 ## Pricing
 
 The runtime is free and open source under MIT.
-Paid plans now exist through Nous Portal, and as of 2026-09-12 the prices are public on the official site: Free at $0, Plus at $20/month, Super at $100/month, and Ultra at $200/month, where each paid tier bundles monthly credits with a 10 percent bonus ($22, $110, and $220 respectively), 200+ models, and hosted tool use.
+Paid plans now exist through Nous Portal, and as of 2026-09-13 the prices are public on the official site: Free at $0, Plus at $20/month, Super at $100/month, and Ultra at $200/month, where each paid tier bundles monthly credits with a 10 percent bonus ($22, $110, and $220 respectively), 200+ models, and hosted tool use.
 Or bring your own provider keys, with serverless backends billed by the platform when idle-cheap.
 
 ## Compared to
@@ -77,7 +77,7 @@ The disagreeable claim I will defend: the channel-list era of this category is o
 ## References
 
 - https://github.com/NousResearch/hermes-agent - README: learning loop, backends, channels, install
-- https://api.github.com/repos/NousResearch/hermes-agent - stars, forks, issues as of 2026-09-12
+- https://api.github.com/repos/NousResearch/hermes-agent - stars, forks, issues as of 2026-09-13
 - https://hermes-agent.nousresearch.com - official site and docs, including the Hermes Free/Plus/Super/Ultra plan tiers
 - https://news.ycombinator.com/item?id=48419000 - the 52-point launch thread
 - https://github.com/NousResearch/hermes-agent/issues/10232 - the edited plagiarism-claims issue

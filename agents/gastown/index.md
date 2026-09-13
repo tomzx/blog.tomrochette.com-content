@@ -1,7 +1,7 @@
 ---
 title: Gas Town
 created: 2026-08-27
-updated: 2026-09-12
+updated: 2026-09-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, orchestration, multi-agent, git-worktrees, open-source, tmux]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Gas Town is Steve Yegge's MIT-licensed multi-agent workspace manager (`gt`): a tmux-driven town where a Mayor agent coordinates 20-30 worker agents (polecats) across project rigs, with git-worktree hooks for persistence, a Bors-style merge queue, and beads as the work ledger.
-Facts below verified as of 2026-09-12.
+Facts below verified as of 2026-09-13.
 
 **Gas Town is the first orchestration tool that treats agent supervision as a hierarchy of agents rather than a dashboard of panes, and its deliberately chaotic rollout is the experiment: whether a self-governing town of agents is governable at all.**
 
@@ -24,8 +24,9 @@ Claude Code is the default runtime with Codex, Copilot, Gemini, and Cursor confi
 
 ## Status
 
-Active, famous, and contested.
-As of 2026-09-12: 18,029 stars, 1,666 forks, 462 open issues, created 2025-12-16, pushed 2026-09-10, latest release v1.2.1 on 2026-06-06.
+Active but cooling, famous, and contested.
+As of 2026-09-13: 18,037 stars, 1,666 forks, 462 open issues, created 2025-12-16, latest release v1.2.1 on 2026-06-06.
+**The default branch has gone quiet: the commit feed shows no commit since 2026-07-23 and no release since June, the first long gap in the project's life, while repo-level push activity on side branches continued into September.**
 **Its HN footprint dwarfs every tool in this section: the announcement thread (354 points), Maggie Appleton's field analysis (403 points), the v1.0 post (113 points), and the governance controversy (253 points).**
 That controversy, [issue #3649](https://github.com/gastownhall/gastown/issues/3649), asked whether the town improves itself using agents running on users' LLM credits, and Appleton's account records the texture: entirely vibecoded, thousands of dollars a month in API burn, and a $GAS meme coin the project did not authorize.
 
@@ -63,6 +64,7 @@ The disagreeable claim I will defend: strip the metaphors away and what remains 
 ## Changes
 
 - 2026-08-27 - Created in the Orchestration category during the task-management placement run.
+- 2026-09-13 - Recorded the first long quiet spell on the default branch (no commit since July 23, no release since v1.2.1 in June) and refreshed counts.
 
 ## See also
 
@@ -74,7 +76,7 @@ The disagreeable claim I will defend: strip the metaphors away and what remains 
 ## References
 
 - https://github.com/gastownhall/gastown - README: architecture, concepts, installation, prerequisites
-- https://api.github.com/repos/gastownhall/gastown - stars, forks, issues, push dates as of 2026-09-12
+- https://api.github.com/repos/gastownhall/gastown - stars, forks, issues, push dates as of 2026-09-13
 - https://maggieappleton.com/gastown - the 403-point field analysis: patterns, bottlenecks, costs, the meme coin
 - https://news.ycombinator.com/item?id=46458936 - the 354-point announcement thread (Welcome to Gas Town)
 - https://github.com/gastownhall/gastown/issues/3649 - the credits-governance issue, 253-point HN discussion

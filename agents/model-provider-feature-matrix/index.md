@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 This matrix compares the seven model providers behind every model in the [Model Selection guide](../model-selection-for-coding-tasks/index.md), provider by provider, so the vendor choice is as visible as the model choice.
-Everything below was re-verified against live sources on 2026-09-12: each cell traces to the guide's verified pricing table, to provider pages fetched during this run, or to the models.dev list reference the guide uses for model ids, release dates, and context windows.
+Everything below was re-verified against live sources on 2026-09-13: each cell traces to the guide's verified pricing table, to provider pages fetched during this run, or to the models.dev list reference the guide uses for model ids, release dates, and context windows.
 
 **Provider choice is a bundle decision, list price, cache discount, batch policy, context flatness, weights, and where your subscription does and does not transfer, and the challengers win that bundle on every axis except subscriptions.**
 
@@ -71,10 +71,10 @@ The subscription row runs the other way: only OpenAI and Anthropic ship a first-
 
 ## References
 
-- https://platform.openai.com/docs/pricing - GPT-5.6 family, gpt-5.3-codex, and GPT-6 Astra prices, batch discount, long-context doubling (verified 2026-09-12)
-- https://docs.claude.com/en/docs/about-claude/pricing - Claude lineup prices, cache multipliers, 1M-context policy (verified 2026-09-12)
-- https://cloud.google.com/vertex-ai/generative-ai/pricing - Gemini 3 family prices, intro windows, long-context and batch rates (verified 2026-09-12)
-- https://help.aliyun.com/zh/model-studio/billing-for-model-studio - Qwen3.8-Max and Qwen3.8-Flash official prices, batch half price, cache discount, free quota (fetched 2026-09-12)
-- https://api-docs.deepseek.com/news/news260910 - the 2026-09-10 V4.1-Flash release and V4 Pro routing announcement behind the DeepSeek column's workhorse and windows cells (fetched 2026-09-10, routing cancelled per the DeepSeek pricing page fetched 2026-09-12)
-- https://openrouter.ai/api/v1/models - USD international listings for the Qwen pair, kimi-k2.7-code, and kimi-k3 at $2.65 / $13.28 (fetched 2026-09-12)
+- https://platform.openai.com/docs/pricing - GPT-5.6 family, gpt-5.3-codex, and GPT-6 Astra prices, batch discount, long-context doubling (verified 2026-09-13)
+- https://docs.claude.com/en/docs/about-claude/pricing - Claude lineup prices, cache multipliers, 1M-context policy (verified 2026-09-13)
+- https://cloud.google.com/vertex-ai/generative-ai/pricing - Gemini 3 family prices, intro windows, long-context and batch rates (verified 2026-09-13)
+- https://help.aliyun.com/zh/model-studio/billing-for-model-studio - Qwen3.8-Max and Qwen3.8-Flash official prices, batch half price, cache discount, free quota (fetched 2026-09-13)
+- https://api-docs.deepseek.com/news/news260910 - the 2026-09-10 V4.1-Flash release and V4 Pro routing announcement behind the DeepSeek column's workhorse and windows cells (fetched 2026-09-10, routing cancelled per the DeepSeek pricing page fetched 2026-09-13)
+- https://openrouter.ai/api/v1/models - USD international listings for the Qwen pair, kimi-k2.7-code, and kimi-k3 at $2.65 / $13.28 (fetched 2026-09-13)
 - https://models.dev - the community model list reference: model ids, release dates, and context windows behind the lineup (fetched 2026-09-12)

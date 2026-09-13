@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 DeepSeek Harness (`dsh`) is DeepSeek's open-source, MIT-licensed coding-agent harness built on an everything-is-a-plugin kernel where the model, tools, UI, and even the agent loop are hot-swappable plugins.
-Facts below verified as of 2026-09-12.
+Facts below verified as of 2026-09-13.
 
 **The bet is not another agent but a harness with nothing built in: if the plugin architecture holds, forking a harness to change it becomes obsolete.**
 Four weeks in, the bet is unproven and the project says so itself.
@@ -26,8 +26,8 @@ It is local-first and BYOK: API keys stay in a local credentials file, with prov
 
 ## Status
 
-New and extremely loud: 221,519 stars and 26,258 forks as of 2026-09-12, just over four weeks after the repo was created on 2026-08-13.
-No stable release exists, only alpha and rc prereleases (latest: dsh-v0.1.5-rc.2 on 2026-09-10), and the README warns there will be compatibility-breaking changes.
+New and extremely loud: 221,878 stars and 26,319 forks as of 2026-09-13, just over four weeks after the repo was created on 2026-08-13.
+No stable release exists, only alpha and rc prereleases (latest: dsh-v0.1.5-rc.2 on 2026-09-10, still current as of 2026-09-13), and the README warns there will be compatibility-breaking changes.
 The launch thread drew 747 points and 301 comments on Hacker News, with the author answering questions directly.
 An ecosystem is already forming: a Tauri desktop port with 2,000 stars, a plugin directory site, and an MCP plugin catalog.
 **I read the star count as attention, not adoption, and the safest status label is developer preview.**
@@ -76,7 +76,7 @@ Not for anyone whose threat model includes untrusted repos on day one, or who wa
 
 ## References
 
-- https://github.com/deepseek-ai/deepseek-harness - repository, README, install, MIT license, 221,519 stars as of 2026-09-12
+- https://github.com/deepseek-ai/deepseek-harness - repository, README, install, MIT license, 221,878 stars as of 2026-09-13
 - https://www.deepseek.com/harness/en/ - runtime modes and plugin architecture claims
 - https://raw.githubusercontent.com/deepseek-ai/deepseek-harness/HEAD/SAFETY.md - the project's own security warnings
 - https://news.ycombinator.com/item?id=49285244 - the 747-point launch thread, including critical takes on plugins and the Cordis paper

@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 This is a maintained, opinionated guide to choosing models for coding, review, and agentic work.
-Everything below was verified against live pricing pages and benchmark sources on 2026-09-04; every provider price was re-checked on 2026-09-05, 2026-09-06, 2026-09-07, and 2026-09-08 and none moved; on 2026-09-09 Kimi cut kimi-k2.7-code's price on OpenRouter, and this page moved with it; on 2026-09-10 the GLM-5.3-Flash promo resolved into its list price and DeepSeek shipped the cheaper V4.1-Flash while announcing V4 Pro's retirement, and this page moved with both; on 2026-09-12 OpenRouter cut kimi-k3 to $2.65/$13.28 while Moonshot's own page still listed $3/$15, and DeepSeek's pricing page cancelled the planned 2026-09-14 V4 Pro routing, and this page moved with both.
+Everything below was verified against live pricing pages and benchmark sources on 2026-09-04; every provider price was re-checked on 2026-09-05, 2026-09-06, 2026-09-07, and 2026-09-08 and none moved; on 2026-09-09 Kimi cut kimi-k2.7-code's price on OpenRouter, and this page moved with it; on 2026-09-10 the GLM-5.3-Flash promo resolved into its list price and DeepSeek shipped the cheaper V4.1-Flash while announcing V4 Pro's retirement, and this page moved with both; on 2026-09-12 OpenRouter cut kimi-k3 to $2.65/$13.28 while Moonshot's own page still listed $3/$15, and DeepSeek's pricing page cancelled the planned 2026-09-14 V4 Pro routing, and this page moved with both; on 2026-09-13 every provider price was re-checked against live pages and none moved.
 
 **Model selection for coding is an economics decision before it is a capability decision: run the workhorse tier for the loop, buy the frontier by the minute, and give the reading to the cheap models.**
 The part most engineers get backwards: **for anyone paying per token, the harness you run moves your bill about as much as the model you pick, and sometimes more.**
@@ -26,7 +26,7 @@ The part most engineers get backwards: **for anyone paying per token, the harnes
 
 Escalate by task class inside a session instead of picking one model for everything; Amp's low/medium/high/ultra modes and Codex's Sol/Terra/Luna defaults are this idea shipped as product (see the [Amp](../amp/index.md) and [Codex](../codex/index.md) notes).
 
-## The lineup as of 2026-09-12
+## The lineup as of 2026-09-13
 
 **The workhorse tier has converged to roughly $2 in and $10-12 out per million tokens at every major provider, which means switching costs are now measured in harness integration, not price.**
 
@@ -52,12 +52,12 @@ Four details the table hides:
 ## The challengers reset the price floor
 
 **Kimi, GLM, DeepSeek, and Qwen price the agentic loop at half the converged workhorse rate or less, which makes the $2/$10-12 "standard" a choice rather than a fact.**
-GLM-5.3, 5.2, and 5.1 sit at $1.40 in and $4.40 out per million tokens, with GLM-5 at $1/$3.20, per Z.ai's pricing page as of 2026-09-12.
-Kimi's coding-specialized kimi-k2.7-code undercuts that at $0.71/$3.50 with a 256K context and multimodal input, down from $0.95/$4.00 on OpenRouter while Moonshot's own pricing page still showed the old numbers as of 2026-09-12.
+GLM-5.3, 5.2, and 5.1 sit at $1.40 in and $4.40 out per million tokens, with GLM-5 at $1/$3.20, per Z.ai's pricing page as of 2026-09-13.
+Kimi's coding-specialized kimi-k2.7-code undercuts that at $0.71/$3.50 with a 256K context and multimodal input, down from $0.95/$4.00 on OpenRouter while Moonshot's own pricing page still showed the old numbers as of 2026-09-13.
 Its HighSpeed variant lists at $1.90/$8.00 for about 180-260 tokens per second of output.
-Kimi K3 takes the other flank: $2.65/$13.28 on OpenRouter as of 2026-09-12 while Moonshot's own page still lists $3/$15, always reasoning with a configurable effort, and a flat-price 1M context that only Claude otherwise offers.
+Kimi K3 takes the other flank: $2.65/$13.28 on OpenRouter as of 2026-09-13 while Moonshot's own page still lists $3/$15, always reasoning with a configurable effort, and a flat-price 1M context that only Claude otherwise offers.
 Z.ai even keeps GLM-4.7-Flash free, which makes it the zero-dollar candidate for inline completion and routing experiments.
-GLM-5.3-Flash fills the gap between free and $1.40: its 50 percent launch promo expired at 24:00 on 2026-09-09 Singapore time exactly as scheduled, and Z.ai's page billed the $0.15/$0.50 list price with cached reads at $0.03 when I re-checked on 2026-09-12.
+GLM-5.3-Flash fills the gap between free and $1.40: its 50 percent launch promo expired at 24:00 on 2026-09-09 Singapore time exactly as scheduled, and Z.ai's page billed the $0.15/$0.50 list price with cached reads at $0.03 when I re-checked on 2026-09-13.
 DeepSeek V4 undercuts them all: v4-pro lists at $1.32 in and $3.96 out per million at peak, with every hour outside 01:00-04:00 and 06:00-10:00 UTC on weekdays billed at half, so off-peak runs pay $0.66/$1.98.
 The V4 Pro retirement announced on 2026-09-10 is off: DeepSeek's pricing page said on 2026-09-12 that V4 Pro service continues past 2026-09-14 with billing unchanged, so this row is permanent again.
 On 2026-09-10 DeepSeek replaced v4-flash outright: deepseek-flash (V4.1-Flash) lists at $0.30/$1.20 peak and $0.15/$0.60 off-peak, adds native vision input, and both models keep a flat 1M context with 384K max output and thinking mode on by default.
@@ -117,7 +117,7 @@ One fence to remember: Anthropic's March 2026 legal requests removed Claude subs
 ## What changes fast and how to re-verify
 
 **Everything volatile in this guide is dated, and three clocks are running.**
-GLM-5.3-Flash's half-price launch promo expired at 24:00 on 2026-09-09 Singapore time as scheduled, and Z.ai's page billed the $0.15/$0.50 list price when I re-checked on 2026-09-12.
+GLM-5.3-Flash's half-price launch promo expired at 24:00 on 2026-09-09 Singapore time as scheduled, and Z.ai's page billed the $0.15/$0.50 list price when I re-checked on 2026-09-13.
 DeepSeek cancelled the planned 2026-09-14 routing of v4-pro requests to V4.1-Flash and V4 Pro keeps billing at $1.32/$3.96 peak, Sol's promotional pricing runs at least through 2026-11-21, the Gemini Flash intro rate ends 2026-12-31, and benchmark relevance decays on roughly a quarterly cycle (CodeClash, then ProgramBench within six months).
 Sonnet 5 shows the other direction: a scheduled September 2026 increase to $3/$15 was cancelled weeks before taking effect, so scheduled changes are announcements, not facts.
 On each refresh I re-fetch the six provider pricing pages (OpenAI, Anthropic, Google, Moonshot, Z.ai, DeepSeek), the SWE-bench leaderboards, and one current harness-overhead measurement, and I update the table above and the as-of date together.
@@ -160,11 +160,11 @@ A fact that cannot survive that re-fetch gets deleted rather than hedged.
 - https://www.swebench.com/ - CodeClash and ProgramBench launch dates, mini-SWE-agent 65% result
 - https://aider.chat/docs/leaderboards/ - the polyglot leaderboard with per-run costs and dates used for the cost-per-point argument
 - https://platform.kimi.ai/docs/pricing/chat-k3 - Kimi K3 prices, cache-hit rate, flat 1M context, always-on reasoning with configurable effort
-- https://platform.kimi.ai/docs/pricing/chat-k27-code - kimi-k2.7-code's official prices (still $0.95/$4.00 as of 2026-09-12), 256K context, HighSpeed variant prices and speeds
+- https://platform.kimi.ai/docs/pricing/chat-k27-code - kimi-k2.7-code's official prices (still $0.95/$4.00 as of 2026-09-13), 256K context, HighSpeed variant prices and speeds
 - https://docs.z.ai/guides/overview/pricing - GLM-5.x family prices, cached input rates, free Flash tiers, and the GLM-5.3-Flash list price billed after the 2026-09-09 promo
 - https://opencode.ai/docs/providers/ - Moonshot AI, Z.AI, and DeepSeek as native OpenCode providers
 - https://api-docs.deepseek.com/quick_start/pricing/ - DeepSeek lineup including V4.1-Flash and the notice that V4 Pro service continues past 2026-09-14 with billing unchanged, peak and off-peak rates, 1M context and 384K output, cache-hit prices, peak-hour definition (the trailing slash matters: without it the URL serves the first-API-call page)
 - https://api-docs.deepseek.com/news/news260910 - the DeepSeek-V4.1-Flash release announcement of 2026-09-10: model id, V4-Flash retirement, the original 2026-09-14 V4 Pro routing plan since superseded by the pricing page's continuation notice, and open weights
 - https://help.aliyun.com/zh/model-studio/billing-for-model-studio - Qwen3.8-Max and Qwen3.8-Flash official per-token prices, batch half price on Max, context-cache discount, the 0-1M token tier, and the new-account free quota
-- https://openrouter.ai/api/v1/models - USD international listings for kimi-k3 ($2.65/$13.28), kimi-k2.7-code ($0.71/$3.50, cache hit $0.15), qwen3.8-max-0902 ($2/$6), and qwen3.8-flash ($0.15/$0.47), re-checked 2026-09-12
+- https://openrouter.ai/api/v1/models - USD international listings for kimi-k3 ($2.65/$13.28), kimi-k2.7-code ($0.71/$3.50, cache hit $0.15), qwen3.8-max-0902 ($2/$6), and qwen3.8-flash ($0.15/$0.47), re-checked 2026-09-13
 - https://models.dev - the community model list used as the lineup reference: model ids, release dates, and context windows for every model in the table (fetched 2026-09-10)

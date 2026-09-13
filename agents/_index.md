@@ -23,34 +23,34 @@ If the section turns into slop, the logs will show exactly where it went wrong, 
 
 # Essays and trackers
 
-- [Agentic Coding Tools Landscape](agentic-coding-tools-landscape/index.md) - maintained map of harnesses, editors, cloud agents, and orchestration as of 2026-09-12.
-- [Model Selection for Coding Tasks](model-selection-for-coding-tasks/index.md) - opinionated guide to choosing models by task class and per-token economics, as of 2026-09-12.
-- [Context Management Patterns](context-management-patterns/index.md) - the patterns that keep agent context windows small and fresh, re-verified 2026-09-12.
+- [Agentic Coding Tools Landscape](agentic-coding-tools-landscape/index.md) - maintained map of harnesses, editors, cloud agents, and orchestration as of 2026-09-13.
+- [Model Selection for Coding Tasks](model-selection-for-coding-tasks/index.md) - opinionated guide to choosing models by task class and per-token economics, as of 2026-09-13.
+- [Context Management Patterns](context-management-patterns/index.md) - the patterns that keep agent context windows small and fresh, re-verified 2026-09-13.
 - [The Tells Are Structural](the-tells-are-structural/index.md) - why word-swap humanizers fail (detection lives at the narrative-structure layer) and what a structural revision pass does instead, grounded in StoryScope.
 
 ## Comparison matrices
 
-- [Model Provider Feature Matrix](model-provider-feature-matrix/index.md) - the seven model providers compared as bundles on price tiers, cache and batch policy, context flatness, weights, and subscription transfer, verified 2026-09-12.
-- [Harness Feature Matrix](harness-feature-matrix/index.md) - the twenty-six harnesses against eleven capability rows, Grok Build the newest, verified 2026-09-12.
-- [Surface Feature Matrix](surface-feature-matrix/index.md) - the twelve surfaces (two of them death records) against eleven capability rows, verified 2026-09-12.
-- [Orchestration Feature Matrix](orchestration-feature-matrix/index.md) - the fourteen worktree managers, dashboards, control planes, and mobile clients, JetBrains Air the newest, plus one agent town, one dead and one orphaned among them, verified 2026-09-12.
+- [Model Provider Feature Matrix](model-provider-feature-matrix/index.md) - the seven model providers compared as bundles on price tiers, cache and batch policy, context flatness, weights, and subscription transfer, verified 2026-09-13.
+- [Harness Feature Matrix](harness-feature-matrix/index.md) - the twenty-six harnesses against eleven capability rows, Grok Build the newest, verified 2026-09-13.
+- [Surface Feature Matrix](surface-feature-matrix/index.md) - the twelve surfaces (two of them death records) against eleven capability rows, verified 2026-09-13.
+- [Orchestration Feature Matrix](orchestration-feature-matrix/index.md) - the fourteen worktree managers, dashboards, control planes, and mobile clients, JetBrains Air the newest, plus one agent town, one dead and one orphaned among them, verified 2026-09-13.
 - [Protocols Feature Matrix](protocols-feature-matrix/index.md) - the five protocols stack rather than compete, and adoption falls with every step up the stack.
-- [Context Engines Feature Matrix](context-engines-feature-matrix/index.md) - the eight context vendors and tools against delivery, deployment, and scale rows, Graft the newest, verified 2026-09-12.
-- [Code Review Feature Matrix](code-review-feature-matrix/index.md) - the eight AI reviewers divided on where your code runs, with both Kudelski exploit records named, verified 2026-09-12.
+- [Context Engines Feature Matrix](context-engines-feature-matrix/index.md) - the eight context vendors and tools against delivery, deployment, and scale rows, Graft the newest, verified 2026-09-13.
+- [Code Review Feature Matrix](code-review-feature-matrix/index.md) - the eight AI reviewers divided on where your code runs, with both Kudelski exploit records named, verified 2026-09-13.
 - [Skills Feature Matrix](skills-feature-matrix/index.md) - the spec, vendor format, harness mechanism, optimizer, and registry against runtime and stewardship rows.
 - [Retrieval Feature Matrix](retrieval-feature-matrix/index.md) - the two frameworks and two patterns compared, with the harness-native counterargument engaged.
-- [Memory Feature Matrix](memory-feature-matrix/index.md) - the file convention, the portable format, the capture plugin, and five services against memory-model and lock-in rows, Engrim the newest column, verified 2026-09-12.
+- [Memory Feature Matrix](memory-feature-matrix/index.md) - the file convention, the portable format, the capture plugin, and five services against memory-model and lock-in rows, Engrim the newest column, verified 2026-09-13.
 - [Executions Feature Matrix](executions-feature-matrix/index.md) - subscription features versus self-hostable infrastructure across trigger and execution rows.
 - [Hybrid Execution Feature Matrix](hybrid-execution-feature-matrix/index.md) - constrained decoding versus validate-and-retry, the guarantee mechanism as the deciding row.
 - [Task Management Feature Matrix](task-management-feature-matrix/index.md) - files versus database as the deciding row, with the PRD pipeline and its license cost.
 - [Spec Driven Development Feature Matrix](spec-driven-development-feature-matrix/index.md) - the four spec-first tools across the ownership and ceremony-sizing axes.
 - [Control Planes Feature Matrix](control-planes-feature-matrix/index.md) - governance, budgets, and multi-company rows that separate control planes from orchestration.
-- [Assistant Runtimes Feature Matrix](assistant-runtimes-feature-matrix/index.md) - OpenClaw, Hermes, the shrinking variants, the Python core, and the two Cowork desktops, the trust ladder in one table, verified 2026-09-12.
-- [Software Factory Feature Matrix](software-factory-feature-matrix/index.md) - the stamped Python loop, Fluent's learning loop, HAR's fleet harness, Machinist's controlled entrypoint, and Ouroboros' hidden grading on the who-owns-the-loop axis, verified 2026-09-12.
-- [Evaluation and Review Feature Matrix](evaluation-review-feature-matrix/index.md) - the five quality-control columns divided on who judges, the agent, the metric suite, the benchmark, or the human, verified 2026-09-12.
-- [Sandboxing Feature Matrix](sandboxing-feature-matrix/index.md) - the six isolation layers divided into boundaries, an orchestrator, a framework, and provisioning, verified 2026-09-12.
-- [Session Analytics Feature Matrix](session-analytics-feature-matrix/index.md) - the archive and the attribution CLI versus the still-empty live-observation cells, verified 2026-09-12.
-- [People and Publications Feature Matrix](people-and-publications-feature-matrix/index.md) - the thirteen voices compared on focus, cadence, and reader slot, verified 2026-09-12, updating the Osmani enterprise-vantage cell.
+- [Assistant Runtimes Feature Matrix](assistant-runtimes-feature-matrix/index.md) - OpenClaw, Hermes, the shrinking variants, the Python core, and the two Cowork desktops, the trust ladder in one table, verified 2026-09-13.
+- [Software Factory Feature Matrix](software-factory-feature-matrix/index.md) - the stamped Python loop, Fluent's learning loop, HAR's fleet harness, Machinist's controlled entrypoint, and Ouroboros' hidden grading on the who-owns-the-loop axis, verified 2026-09-13.
+- [Evaluation and Review Feature Matrix](evaluation-review-feature-matrix/index.md) - the five quality-control columns divided on who judges, the agent, the metric suite, the benchmark, or the human, verified 2026-09-13.
+- [Sandboxing Feature Matrix](sandboxing-feature-matrix/index.md) - the six isolation layers divided into boundaries, an orchestrator, a framework, and provisioning, verified 2026-09-13.
+- [Session Analytics Feature Matrix](session-analytics-feature-matrix/index.md) - the archive and the attribution CLI versus the still-empty live-observation cells, verified 2026-09-13.
+- [People and Publications Feature Matrix](people-and-publications-feature-matrix/index.md) - the thirteen voices compared on focus, cadence, and reader slot, verified 2026-09-13.
 
 Essays appear here as the daily agent runs publish them.
 The queue it works from is [the work queue](queue.md).
@@ -63,7 +63,7 @@ All categories refreshed in parallel every run; dead tools keep their entries, m
 ## Harnesses
 
 - [aider](aider/index.md) - the pre-agentic BYOK pair-programmer, cheapest precise-edit tool, development stalled since May 2026.
-- [Amp](amp/index.md) - Sourcegraph-spun-out agent whose orbs keep working after you close the laptop.
+- [Amp](amp/index.md) - Sourcegraph-spun-out agent whose orbs keep working after you close the laptop, free on your own compute, subscriptions, or keys since September 13.
 - [Ante](ante/index.md) - Antigma Labs' ~15MB Rust harness with an embedded llama.cpp engine, offline GGUF or 12+ cloud providers, footprint as the product.
 - [Bullet](bullet/index.md) - TryBullet's closed-source YC S26 latency bet, free today, with a published 479-of-500 SWE-bench run.
 - [Claude Code](claude-code/index.md) - Anthropic's everywhere-at-once harness, the platform benchmark and the token-cost cautionary tale.
@@ -101,7 +101,7 @@ All categories refreshed in parallel every run; dead tools keep their entries, m
 - [Trae](trae/index.md) - ByteDance's budget AI IDE, SOLO mode and cloud tasks from $3/month, telemetry questions attached.
 - [Void](void/index.md) - the Apache-2.0 open-source Cursor alternative, demand proven, releases stalled since April 2025.
 - [VS Code + Copilot](vscode-copilot/index.md) - the neutral default, hosting Copilot, Claude Code, and Codex as swappable harnesses.
-- [Windsurf](windsurf/index.md) - the agentic IDE rescued by Cognition in 2025, fully absorbed into Devin Desktop, its old domain now a redirect.
+- [Windsurf](windsurf/index.md) - the agentic IDE rescued by Cognition in 2025, fully absorbed into Devin Desktop, down to a redirect and Devin-hosted docs.
 - [Zed](zed/index.md) - the Rust performance editor where AI is optional and BYOK is unlimited.
 
 ## Orchestration
@@ -249,7 +249,7 @@ Where agent isolation should live: the workstation, the cluster, the wrapper, th
 - [Fluent](fluent/index.md) - the self-improving factory with a deterministic final Tester and a learning loop, for teams that accept pre-1.0 ceremony.
 - [HAR](har/index.md) - the open harness that isolates a fleet of coding agents in worktrees with deterministic verification and an evidence trail.
 - [Machinist](machinist/index.md) - the Go control plane whose named-command entrypoint is the category's strictest agent boundary, early access, zero independent coverage.
-- [Ouroboros](ouroboros/index.md) - the Agent OS that freezes a spec from an interview and verifies with the grading hidden from the worker, 13 runtimes.
+- [Ouroboros](ouroboros/index.md) - the Agent OS that freezes a spec from an interview and verifies with the grading hidden from the worker, 14 runtimes.
 - [Super Simple Software Factory](super-simple-software-factory/index.md) - a repeatable agents-plus-code pipeline stamped into any repo as a skill, where Python owns the loop and each agent owns one bounded phase.
 
 ## Session analytics

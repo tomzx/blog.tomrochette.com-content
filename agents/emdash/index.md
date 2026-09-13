@@ -1,7 +1,7 @@
 ---
 title: Emdash
 created: 2026-08-24
-updated: 2026-09-12
+updated: 2026-09-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, orchestration, git-worktrees, open-source, desktop-app]
 readability: 3
@@ -12,21 +12,21 @@ audience_notes: >
 ---
 
 Emdash is an Apache-2.0 "agentic development environment" from General Action (YC W26): a macOS, Windows, and Linux desktop app that runs parallel coding agents in git worktrees, locally or over SSH on remote machines.
-Facts below verified as of 2026-09-12 (domain moved from emdash.ai to emdash.com, the old host 301-redirects).
+Facts below verified as of 2026-09-13 (domain moved from emdash.ai to emdash.com, the old host 301-redirects).
 
 **It is currently the most credible open, cross-platform alternative to Conductor, with the deepest agent support (25+ CLIs), and its real risk is category risk: its own launch commenters reasonably ask whether harness CLIs will absorb this layer.**
 
 ## What it is
 
 An Electron app that auto-detects installed agent CLIs (Claude Code, Codex, OpenCode, Cursor, Amp, Gemini, Droid, Copilot, and more) and runs each task in its own worktree with terminal, diff, and review state kept together.
-Issues arrive from Linear, Jira, GitHub, GitLab, Asana, Notion, and other trackers; diffs, PRs, CI checks, and merges happen in-app; a built-in browser previews running apps.
+Issues arrive from Linear, Jira, GitHub, GitLab, Asana, Notion, and other trackers; diffs, PRs, CI checks, and merges happen in-app; a built-in browser previews running apps; and scheduled automations run recurring agent work.
 State is local-first in SQLite, and the team kept a reserve pool of worktrees so new tasks start in roughly 0.5 to 1 second instead of 5.
 **The distinctive design decision is SSH: projects connect to remote machines where your code actually lives, with credentials in the OS keychain.**
 
 ## Status
 
 Active and fast-moving.
-As of 2026-09-12 the repo shows about 5.7k stars and 587 forks, with pushes landing September 11; the site claims over 1M downloads.
+As of 2026-09-13 the repo shows about 5.7k stars and 589 forks, with pushes landing September 11; the site claims over 1M downloads.
 Its February 2026 Show HN reached 206 points with 71 comments.
 Founders Arne and Raban described the business model as a possible bundled agent subscription plus enterprise, funded by YC W26; cloud workspaces and enterprise tiers are contact-sales today.
 
@@ -47,7 +47,7 @@ Founders Arne and Raban described the business model as a possible bundled agent
 ## Pricing
 
 The core app is free and open source (Apache-2.0).
-Cloud workspaces and enterprise are quoted by contact; no published per-seat pricing as of 2026-09-12.
+Cloud workspaces and enterprise are quoted by contact; no published per-seat pricing as of 2026-09-13.
 
 ## Compared to
 
@@ -66,6 +66,7 @@ My disagreeable claim: Emdash's SSH support matters more than any feature matrix
 - 2026-08-24 - Created in the Orchestration category seed.
 - 2026-08-24 - Reworded the banned-term phrase "laptop-shaped" out of the thesis.
 - 2026-08-26 - References moved to the canonical emdash.com domain after the old host began redirecting.
+- 2026-09-13 - Added scheduled automations to the feature list per the site refresh.
 
 ## See also
 

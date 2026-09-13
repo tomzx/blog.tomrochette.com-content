@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 deepeval is an Apache-2.0, pytest-style unit-testing framework for LLM applications that scores outputs with LLM-as-a-judge metrics, G-Eval, task completion, faithfulness, and roughly fifty more, so eval failures gate code like ordinary test failures.
-Facts below verified as of 2026-09-12.
+Facts below verified as of 2026-09-13.
 
 **deepeval is the category's default answer to the question where do evals live, and its answer is your existing test suite, which is exactly why the open-core line around the Confident AI platform is the decision that matters.**
 
@@ -24,8 +24,8 @@ Made by Confident AI, a seed-stage San Francisco company, Apache-2.0.
 
 ## Status
 
-The volume leader of Python eval frameworks: 18,237 stars, 1,921 forks, 583 open issues and PRs as of 2026-09-12.
-Created 2023-08-10, pushed 2026-09-08, Python v4.2.2 released 2026-09-06, about 3.7 million PyPI downloads a month as of 2026-09-12.
+The volume leader of Python eval frameworks: 18,247 stars, 1,922 forks, 583 open issues and PRs as of 2026-09-13.
+Created 2023-08-10, pushed 2026-09-13, Python v4.2.2 released 2026-09-06, about 3.5 million PyPI downloads a month as of 2026-09-13.
 **Three years old and commercially backed, it is the most mature column in this category, and the 576-issue backlog reads as heavy usage rather than neglect.**
 
 ## Strengths
@@ -76,5 +76,5 @@ Not for teams that cannot tolerate LLM-judge variance, or that need score parity
 - https://deepeval.com/ - the docs and metric taxonomy (docs.confident-ai.com now redirects here)
 - https://www.confident-ai.com/pricing - the platform tiers behind the open-core split
 - https://deepeval.com/blog/introducing-deepeval-typescript - the TypeScript beta scope and parity caveat
-- https://pypistats.org/api/packages/deepeval/recent - the download figures as of 2026-09-12
+- https://pypistats.org/api/packages/deepeval/recent - the download figures as of 2026-09-13
 - https://news.ycombinator.com/item?id=37157323 - the launch thread with early criticism and maintainer response

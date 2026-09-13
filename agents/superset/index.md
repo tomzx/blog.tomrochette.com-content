@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Superset is a source-available, YC-backed agentic IDE that runs many CLI coding agents in parallel, each in its own isolated git worktree, using the subscriptions you already pay for.
-Facts below verified as of 2026-09-12.
+Facts below verified as of 2026-09-13.
 
 **Superset's bet is that the orchestrator should be a terminal-first IDE that touches no SDK, so any agent works today and a new harness works the day it ships, and its free-forever local core under an Elastic License is the price wedge against Conductor.**
 
@@ -25,7 +25,7 @@ Elastic License 2.0 (source-available, not OSI open source), by Superset Inc., t
 
 ## Status
 
-Fast and funded: about 14.1k stars, 1.3k forks, roughly 680 open issues and PRs as of 2026-09-12, created 2025-10-21, more than 4,290 commits, latest desktop release v1.28.0 on 2026-09-09 with 78 commits to main since.
+Fast and funded: about 14.1k stars, 1.3k forks, roughly 680 open issues and PRs as of 2026-09-13, created 2025-10-21, more than 4,290 commits, latest desktop release v1.28.0 on 2026-09-09 with about 100 commits to main since.
 The Launch HN thread drew 108 points and 135 comments, and the founders say they ship daily.
 **Adoption claims beyond GitHub ("tens of thousands of engineers", big-company logos) are self-reported, and the codebase is still founder-dominated.**
 

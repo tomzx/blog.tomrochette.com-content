@@ -1,7 +1,7 @@
 ---
 title: "Evaluation and Review Feature Matrix"
 created: 2026-08-30
-updated: 2026-09-12
+updated: 2026-09-13
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3-flash, comparison, evaluation, code-review, human-in-the-loop]
 readability: 3
@@ -11,8 +11,8 @@ audience_notes: >
 ---
 
 This matrix compares the five members of the Evaluation and review category: the pytest-style eval framework, the public multi-harness benchmark, the observability platform, the human annotation surface, and the agent-driven local debugger.
-Everything below was re-verified against live sources on 2026-09-12.
-The hybrid machine reviewer that used to sit here, OpenCodeReview, moved to the Code review category the same day.
+Everything below was re-verified against live sources on 2026-09-13.
+The hybrid machine reviewer that used to sit here, OpenCodeReview, moved to the Code review category when this matrix was created, on 2026-08-30.
 
 **The category divides on who judges: the agent itself (Workshop), a metric suite (deepeval, Phoenix), or a human (Plannotator), and mature teams run more than one column at once.**
 
@@ -61,6 +61,7 @@ Machine review of the pull requests themselves now lives in the [Code Review Fea
 - 2026-08-30 - Created with five columns on the who-judges axis, reduced to four the same day when the OpenCodeReview column was removed.
 - 2026-09-05 - Extended to five columns with FrontierHarness Eval.
 - 2026-09-07 - FrontierHarness Eval cell corrected to 82 points.
+- 2026-09-13 - Corrected the intro sentence that tied the OpenCodeReview category move to the re-verification date; the move happened on 2026-08-30.
 
 ## See also
 

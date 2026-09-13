@@ -1,7 +1,7 @@
 ---
 title: GitHub Spec Kit
 created: 2026-08-26
-updated: 2026-09-12
+updated: 2026-09-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, spec-driven-development, github, ai-agents]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Spec Kit is GitHub's open-source toolkit for spec-driven development: a CLI that scaffolds constitution, spec, plan, and tasks files, then drives any of 30+ coding agents through implementing them.
-Facts below verified as of 2026-09-12.
+Facts below verified as of 2026-09-13.
 
 **Spec Kit hit 136k stars in one year by selling process, not product: it is markdown conventions plus a scaffolding CLI, and its popularity is the strongest signal yet that the industry wants review gates on agents more than it wants more agent autonomy.**
 
@@ -24,7 +24,7 @@ Extensions, presets, and role-based bundles let an organization customize the pr
 ## Status
 
 **Active, and it just declared adulthood.**
-First commit August 21, 2025; v1.0.0 and v1.0.1 both shipped August 21, 2026, and patch releases v1.0.2, v1.0.3, and v1.0.4 followed on August 31, September 1, and September 2, before v1.0.5 landed September 8 and v1.0.6 followed on September 10, with about 136k stars and about 12.2k forks as of 2026-09-12.
+First commit August 21, 2025; v1.0.0 and v1.0.1 both shipped August 21, 2026, and patch releases v1.0.2, v1.0.3, and v1.0.4 followed on August 31, September 1, and September 2, before v1.0.5 landed September 8 and v1.0.6 followed on September 10, with about 136.2k stars and about 12.2k forks as of 2026-09-13.
 The lead maintainer's anniversary post says the original creators have moved on to other projects and frames 1.0.0 as "just a number", arguing that as agents cheapen adaptation, value moves from stability to adaptability.
 
 ## Strengths
@@ -44,7 +44,7 @@ The lead maintainer's anniversary post says the original creators have moved on 
 ## Pricing
 
 Free and open source, MIT.
-There is no paid tier or hosted product, as of 2026-09-12.
+There is no paid tier or hosted product, as of 2026-09-13.
 
 ## Compared to
 

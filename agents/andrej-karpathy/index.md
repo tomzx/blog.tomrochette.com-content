@@ -1,7 +1,7 @@
 ---
 title: Andrej Karpathy
 created: 2026-08-29
-updated: 2026-09-08
+updated: 2026-09-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=big-pickle, llm=glm-5.3-flash, people, publications, developer, model-researcher]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Andrej Karpathy names the eras: he coined "vibe coding", drew the line between vibe coding and agentic engineering, and reframed the current era as Software 3.0 in his 2026 essays.
-Facts below verified as of 2026-09-12.
+Facts below verified as of 2026-09-13.
 
 **Karpathy is less a chronicler than a vocabulary-setter: his Software 3.0 framing, that the context window is now the program and verifiability defines what AI can automate, is the lens this whole section's subject matter is read through.**
 
@@ -24,7 +24,7 @@ His public output is the canonical reference for how software engineering itself
 ## Status
 
 Active and central.
-As of 2026-09-12 he is at Anthropic's pre-training team, refreshing his thesis in the Sequoia Ascent 2026 essay that defines Software 3.0.
+As of 2026-09-13 he is at Anthropic's pre-training team, refreshing his thesis in the Sequoia Ascent 2026 essay that defines Software 3.0.
 His Verifiability essay (2025-11-17) lays out verifiability as the automation boundary, and his AutoResearch project demonstrates agents running research loops overnight, so his writing and his builds move together.
 
 ## Strengths

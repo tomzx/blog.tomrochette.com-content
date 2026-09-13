@@ -12,7 +12,7 @@ audience_notes: >
 ---
 
 Ante is a self-contained coding harness from Antigma Labs that ships as one ~15MB Rust binary with an embedded llama.cpp engine, so it can drive cloud models or run GGUF models fully offline.
-Facts below verified as of 2026-09-12.
+Facts below verified as of 2026-09-13.
 
 **Ante is the first harness whose pitch is that footprint and offline capability are the product: the TUI, an embedded ripgrep, PDF/OCR, and a natively managed local inference engine all live inside one binary with zero runtime dependencies.**
 
@@ -26,7 +26,7 @@ Source is published under Apache-2.0 (crates: exec, llm, protocol-shape, ante-sd
 ## Status
 
 **Active, preview-stage, and growing fast for a five-month-old repo.**
-1,947 stars and 62 forks as of 2026-09-12, repo created December 23, 2025, with the latest release v0.preview.98 published September 12, 2026 (GitHub API).
+1,947 stars and 62 forks as of 2026-09-13, repo created December 23, 2025, with the latest release v0.preview.98 published September 12, 2026 (GitHub API).
 The Show HN launch on August 10, 2026 drew 169 points and 92 comments ([HN](https://news.ycombinator.com/item?id=49245437)).
 At launch commenters flagged that the repo hosted binaries without agent source; the Apache-2.0 core libraries published since narrow that gap, though the core harness itself remains closed during the alpha.
 The company publishes Terminal-Bench 2.1 runs at antigma.ai/eval, pinning every result to a public release and a raw Harbor run; its best self-reported score is 82.7% with DeepSeek V4 Flash, updated August 9, 2026.
@@ -49,7 +49,7 @@ The company publishes Terminal-Bench 2.1 runs at antigma.ai/eval, pinning every 
 
 Free to use in preview, both as source (Apache-2.0) and as prebuilt binaries under the Binary Preview Terms.
 You pay only your own model costs, whether API keys, subscriptions, or free local GGUF models.
-No paid tiers exist as of 2026-09-12.
+No paid tiers exist as of 2026-09-13.
 
 ## Compared to
 
@@ -76,7 +76,7 @@ I expect the harness market to consolidate on footprint and cost per agent, and 
 
 ## References
 
-- https://github.com/AntigmaLabs/ante - repository, Apache-2.0 source, 1,947 stars as of 2026-09-12
+- https://github.com/AntigmaLabs/ante - repository, Apache-2.0 source, 1,947 stars as of 2026-09-13
 - https://docs.antigma.ai/ - architecture, offline mode, providers, footprint claims
 - https://antigma.ai/eval - self-reported Terminal-Bench 2.1 results, pinned builds and Harbor runs
 - https://raw.githubusercontent.com/AntigmaLabs/ante/main/README.md - feature surface and provider list

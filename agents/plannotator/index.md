@@ -1,7 +1,7 @@
 ---
 title: Plannotator
 created: 2026-08-30
-updated: 2026-09-12
+updated: 2026-09-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, evaluation, code-review, human-in-the-loop, open-source]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Plannotator is a free, open-source, local browser-based review surface that intercepts coding-agent plan proposals and code diffs so you can annotate them visually and send structured feedback straight back into the live agent session.
-Facts below verified as of 2026-09-12.
+Facts below verified as of 2026-09-13.
 
 **Plannotator closes the cheapest loop in agent work, the one between what you see wrong in a plan and what the agent receives, and its marketing outpaced its README exactly once, on the encryption claim, which the README itself corrects.**
 
@@ -25,8 +25,9 @@ Dual Apache-2.0 or MIT, written almost entirely by one developer (932 of 1,171 c
 
 ## Status
 
-Fast and growing: 8,640 stars, 647 forks, 159 open issues and PRs as of 2026-09-12, created 2025-12-28, pushed 2026-09-12, v0.27.14 released 2026-09-11.
+Fast and growing: 8,655 stars, 646 forks, 161 open issues and PRs as of 2026-09-13, created 2025-12-28, pushed 2026-09-12, v0.27.14 released 2026-09-11.
 **The 0.27.x line says pre-1.0 churn, and the growth came through social channels rather than press; its Show HN thread drew 5 points.**
+The author now ships a terminal sibling, Herdr Annotate under the plannotator GitHub org (452 stars as of 2026-09-13), which applies the same annotate-and-send-feedback loop to terminal text.
 
 ## Strengths
 
@@ -63,6 +64,7 @@ Not for minimal-install purists, and not yet for teams whose review process requ
 - 2026-08-30 - Created in the Evaluation category, recording the nine-harness review surface and an unencrypted-small-share discrepancy.
 - 2026-08-30 - Corrected the contributor figure to 135 commit contributors with 859 commits from the founder.
 - 2026-09-12 - Recorded Workspaces entering a public waitlist.
+- 2026-09-13 - Added Herdr Annotate, the author's terminal annotation sibling under the plannotator org.
 
 ## See also
 
@@ -79,3 +81,4 @@ Not for minimal-install purists, and not yet for teams whose review process requ
 - https://docs.plannotator.ai/open-source/start/installation - platforms and per-agent setup
 - https://github.com/backnotprop/plannotator/releases - release cadence evidence
 - https://news.ycombinator.com/item?id=48495970 - the Show HN thread with the encryption-claim discrepancy
+- https://github.com/plannotator/herdr-annotate - the terminal sibling project, 452 stars as of 2026-09-13

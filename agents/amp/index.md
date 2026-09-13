@@ -1,7 +1,7 @@
 ---
 title: Amp
 created: 2026-08-22
-updated: 2026-09-12
+updated: 2026-09-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, coding-agents, harnesses, remote-execution, developer-tools]
 readability: 3
@@ -12,7 +12,7 @@ audience_notes: >
 ---
 
 Amp is the coding agent from Amp Frontier Corporation ([spun out of Sourcegraph on December 2, 2025](https://ampcode.com/news/amp-frontier-corporation)): a CLI plus web and phone surfaces, with threads that run on remote machines called orbs.
-Facts below verified as of 2026-09-12.
+Facts below verified as of 2026-09-13.
 
 **Amp's orbs are the most direct answer in the field to "the agent should keep working when I close my laptop", and the product is priced exactly like something that believes its own value.**
 
@@ -26,7 +26,8 @@ AGENTS.md is the guidance convention, and a linked ChatGPT subscription can supp
 
 **Active and independent.**
 Amp was built inside Sourcegraph, was made free in October 2025, launched subscriptions, and spun out as a profitable separate company in December 2025 with a twenty-person founding team.
-Shipping cadence in August and early September 2026 is weekly (voice control via Puck and an iOS and macOS app in late August, a desktop orb client and Fable 5.1 powering ultra in early September, a customizable Dial and sooner steering on September 8-10, as of 2026-09-12).
+Shipping cadence in August and early September 2026 is weekly (voice control via Puck and an iOS and macOS app in late August, a desktop orb client and Fable 5.1 powering ultra in early September, a customizable Dial and sooner steering on September 8-10, as of 2026-09-13).
+On September 13, 2026 the [Free Agent announcement](https://ampcode.com/news/free-agent) made Amp free to use with your own compute, subscriptions, or keys, removed BYOK token fees for everyone outside Enterprise, and opened early access to nine more BYOK providers (OpenRouter, Bedrock, Google Cloud Agent Platform, Azure Foundry, Vercel AI Gateway, Cloudflare AI Gateway, Ollama Cloud, OpenCode Go, custom endpoints).
 
 ## Strengths
 
@@ -47,6 +48,7 @@ Shipping cadence in August and early September 2026 is weekly (voice control via
 Hobby: free tier with all product features, pay-as-you-go orb time or your own runners, and no Amp token fees on BYOK or linked subscriptions.
 Individual $20/month: 45,000 orb minutes (750 hours) of Megawatt orb time, with a Gigawatt step-up behind the same toggle; a linked ChatGPT subscription still powers the low, medium, and high Dial settings instead of Amp credits.
 Teams cost nothing extra beyond members' tiers and pool credits with SAML/OIDC SSO; Enterprise is custom, pooled credits only.
+Since the September 13, 2026 Free Agent change there is no monthly fee to use Amp at all on your own compute, runners, subscriptions, or keys (you can still buy inference through Amp with no markup), and the zero and minimal data retention policy is now contractually extended to every tier.
 
 ## Compared to
 
@@ -69,6 +71,7 @@ Not for open-source-only teams or anyone metering their own tokens.
 - 2026-09-02 - Updated linked subscriptions after the pricing page dropped SpaceX AI.
 - 2026-09-08 - Folded in September news (desktop orb client, Fable 5.1 powering ultra, iOS and macOS app).
 - 2026-09-12 - Recorded the pricing restructure (new free Hobby tier, Individual $20 with 45,000 orb minutes, seat-free Teams).
+- 2026-09-13 - Recorded the Free Agent announcement: free with your own compute or subscriptions, BYOK token fees dropped outside Enterprise, and nine more BYOK providers in early access.
 
 ## See also
 
@@ -79,8 +82,9 @@ Not for open-source-only teams or anyone metering their own tokens.
 
 ## References
 
-- https://ampcode.com/ - product overview, orbs, news cadence as of 2026-09-12
-- https://ampcode.com/pricing/ - Hobby, Megawatt, Gigawatt, teams, enterprise, linked subscriptions, as of 2026-09-12
+- https://ampcode.com/ - product overview, orbs, news cadence as of 2026-09-13
+- https://ampcode.com/pricing/ - Hobby, Megawatt, Gigawatt, teams, enterprise, linked subscriptions, as of 2026-09-13
+- https://ampcode.com/news/free-agent - the September 13, 2026 free-with-your-own-compute and expanded-BYOK announcement
 - https://ampcode.com/news/amp-frontier-corporation - the December 2, 2025 spinout announcement
 - https://ampcode.com/manual/ - modes, oracle, librarian, skills, plugins, permissions
 - https://news.ycombinator.com/item?id=46124649 - spinout discussion with praise and cost complaints

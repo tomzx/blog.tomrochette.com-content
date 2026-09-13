@@ -1,7 +1,7 @@
 ---
 title: "Harness Feature Matrix"
 created: 2026-08-24
-updated: 2026-09-12
+updated: 2026-09-13
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, comparison, harnesses, coding-agents]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 This matrix compares the twenty-six harnesses profiled in this section, feature by feature, so the shortlisting step does not require reading twenty-six notes.
-Everything below was re-verified against live sources on 2026-09-12.
+Everything below was re-verified against live sources on 2026-09-13.
 
 **No harness has everything, and the two axes that actually decide the purchase are client openness and who pays for tokens: everything else is converging.**
 
@@ -24,7 +24,7 @@ Each column links to the full research note; every cell below traces to a source
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Company | none (solo) | [Amp Frontier](https://ampcode.com) | [Antigma Labs](https://antigma.ai) | [TryBullet](https://www.codewithbullet.com) (YC S26, closed source) | [Anthropic](https://www.anthropic.com) | [Cline Bot](https://cline.bot) | [OpenAI](https://openai.com) | [Charm](https://charm.sh) | [DeepSeek](https://deepseek.com) | [Exo Labs](https://exoharness.ai) | [Vercel](https://vercel.com) | [Google](https://about.google) | [AAIF](https://aaif.io) (ex-Block) | [SpaceXAI](https://github.com/xai-org) (xAI) | [Solo Systems](https://jcode.sh) | [Julian Storer](https://juggler.studio/) (solo) | [JetBrains](https://www.jetbrains.com) | [Anaconda](https://www.anaconda.com) | [Moonshot AI](https://www.kimi.com) | [OneCLI](https://onecli.sh) (YC S26) | [Anomaly](https://anoma.ly) | [All Hands AI](https://all-hands.dev) | [Earendil](https://pi.dev) | [Alibaba](https://www.alibaba.com) | [Warp](https://www.warp.dev) | [Giuseppe Dellavedova](https://github.com/gi-dellav/zerostack) (solo, GPL-3.0) |
 | Open client | ✓ Apache-2.0 | ✗ | ~ Apache-2.0 source, preview binaries | ✗ | ✗ | ✓ Apache-2.0 | ✓ Apache-2.0 | ~ FSL-1.1-MIT | ✓ MIT | ✓ MIT | ✓ Apache-2.0 | ✓ Apache-2.0 | ✓ Apache-2.0 | ✓ Apache-2.0 | ✓ MIT | ✓ AGPL-3.0 | ✗ | ✓ MIT | ✓ MIT | ✓ Apache-2.0 | ✓ MIT | ✓ MIT | ✓ MIT | ✓ Apache-2.0 | ✗ closed binary | ✓ GPL-3.0 |
-| BYOK | ✓ | ✓ | ✓ | ? | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ~ AI Gateway key only | ✓ paid keys | ✓ | ✓ custom models via base_url | ✓ | ✓ | ✓ | ✓ | ✓ | ~ BYOC at paid tiers | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| BYOK | ✓ | ✓ fee-free outside Enterprise | ✓ | ? | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ~ AI Gateway key only | ✓ paid keys | ✓ | ✓ custom models via base_url | ✓ | ✓ | ✓ | ✓ | ✓ | ~ BYOC at paid tiers | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 | Included subscription usage | ✗ | ✓ | ✓ | ✗ free, no subscriptions | ✓ | ~ via ClinePass | ✓ | ~ via Hyper | ✗ BYO keys only | ✗ API keys only | ~ Codex and Grok OAuth | ✗ enterprise only | ~ via ACP subs | ~ OIDC login default, terms undocumented | ✓ OAuth and multi-account | ✓ | ✓ | ~ kilo credits | ~ via Kimi OAuth | ~ $5 credits at $0 tier | ~ via Zen | ~ ChatGPT Plus/Pro for Codex models | ✓ Claude, ChatGPT, Copilot | ~ Coding Plan weekly quota | ✓ | ✗ |
 | Local models | ✓ | ✗ | ✓ embedded llama.cpp | ✗ hosted models only | ✗ | ✓ | ✗ | ✓ | ~ OpenAI-compatible endpoints | ✗ | ~ advertised on fx.dev, not yet in docs | ✗ | ✓ | ~ custom model base_url | ✓ Ollama and LM Studio | ✓ Ollama | ✓ Ollama and LM Studio, plus on-device Junie Local | ✓ Ollama and LM Studio | ✗ | ? | ✓ | ✓ LM Studio, Ollama, vLLM | ✓ llama.cpp | ✓ | ✗ | ✓ Ollama |
 | MCP | ✗ | ✓ | ✓ | ? | ✓ | ✓ | ✓ | ✓ | ? | ? | ✓ | ✓ | ✓ | ✓ | ~ stdio only | ✓ | ✓ | ✓ | ✓ | ? | ✓ | ✓ | ✗ by design | ✓ | ? | ~ compile-time feature |
@@ -43,10 +43,10 @@ The Company row is context, not a feature axis: it names the maker (or, for goos
 aider, Cline, Codex, Exo, fx, Gemini CLI, goose, Grok Build, Juggler, jcode, Kimi Code, Kilo Code, OneCLI, OpenCode, OpenHands, Qwen Code, and Zerostack hand you auditable code; Crush is source-available with a competing-use restriction that expires per version, and Ante publishes Apache-2.0 source whose prebuilt binaries answer to separate preview terms; Amp, Bullet, Claude Code, Junie, and Warp Agent CLI are binaries you trust.
 
 **Subscription versus keys is the second axis, and it is orthogonal to openness.**
-Codex is open and subscription-fed; Amp is closed but takes your Anthropic key on usage billing; aider and Crush are keys-only, period; goose reuses the Claude, ChatGPT, or Gemini subscription you already pay for via ACP, and fx reuses ChatGPT and Grok subscriptions via OAuth, though every fx request still routes through Vercel AI Gateway.
+Codex is open and subscription-fed; Amp is closed and, since its September 2026 Free Agent change, free to run on your own compute, subscriptions, or keys with no BYOK token fees outside Enterprise; aider and Crush are keys-only, period; goose reuses the Claude, ChatGPT, or Gemini subscription you already pay for via ACP, and fx reuses ChatGPT and Grok subscriptions via OAuth, though every fx request still routes through Vercel AI Gateway.
 The six new columns spread across the same axis: Ante and Juggler take subscriptions alongside keys, Warp folds all usage into its own credit meter, OneCLI starts teams at $0 with $5 of credits, Bullet is free with no subscriptions at all, and Zerostack stays keys-only.
 
-**Local-model support now cleanly separates the BYOK purists (aider, Ante, Cline, Crush, goose, Juggler, jcode, Junie, Kilo Code, OpenCode, OpenHands, Qwen Code, Zerostack) from the platform players** whose value-add assumes their own model routing, a group Bullet and Warp Agent CLI now join.
+**Local-model support now cleanly separates the BYOK purists (aider, Ante, Cline, Crush, goose, Juggler, jcode, Junie, Kilo Code, OpenCode, OpenHands, Pi, Qwen Code, Zerostack) from the platform players** whose value-add assumes their own model routing, a group Bullet and Warp Agent CLI now join.
 
 **The feature everyone lacks is a different one, which is the tell that the category is immature in different places:** aider lacks the agent loop, Gemini CLI lacks a consumer future, Crush lacks documented subagents, OpenCode lacks its own cloud execution, and all three 2026 entrants lack cloud execution: Cline and Qwen Code run only where you stand, and goose keeps its IDE story experimental.
 **The two newest columns redraw that map again:** Kilo Code bundles subagents, schedules, and cloud tasks into an editor-native open agent, which nothing else in this table does, while OpenHands skips AGENTS.md entirely because its `.openhands` customization replaces repo-instruction files.
@@ -95,6 +95,8 @@ The six new columns spread across the same axis: Ante and Juggler take subscript
 - 2026-08-30 - Added DeepSeek Harness and Pi columns, bringing the matrix to seventeen columns.
 - 2026-08-30 - Corrected two column-ordinal references in the prose after the alphabetical re-sort.
 - 2026-09-02 - Updated the Junie local-models cell for the Junie Local launch during the category-wide matrix re-verification.
+- 2026-09-13 - Updated the Amp column for the September 13 Free Agent change, free with your own compute, subscriptions, or keys and no BYOK token fees outside Enterprise.
+- 2026-09-13 - Added Pi to the local-models purist list, which its llama.cpp cell already supported.
 
 ## See also
 

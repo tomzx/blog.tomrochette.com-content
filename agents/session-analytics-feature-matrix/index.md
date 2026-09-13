@@ -1,7 +1,7 @@
 ---
 title: "Session Analytics Feature Matrix"
 created: 2026-08-30
-updated: 2026-09-12
+updated: 2026-09-13
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3-flash, comparison, session-analytics, observability, token-usage]
 readability: 3
@@ -12,7 +12,7 @@ audience_notes: >
 
 This matrix compares the members of the Session analytics category: tools that turn what your coding agents already record into searchable history, cost reports, and audits.
 The category now has two members: agentsview, the broad retrospective archive, and ctx, the search-and-attribution CLI; the live-observation cells remain empty, and the gap is named in prose below until a note earns them a column.
-Everything below was verified against live sources on 2026-09-12.
+Everything below was verified against live sources on 2026-09-13.
 
 **The category question is still retrospective archive versus live observation: agentsview answers what did my agents do and cost across every tool I run, ctx answers where did this line of code come from, and nobody in the category yet answers what is my agent doing right now.**
 
@@ -42,6 +42,7 @@ The second row worth reading is provenance: ctx pro's blame attribution is the o
 
 **Token cost reporting is the row that pays for the tool**: harness-native cost views reset and see only their own sessions, while a pre-indexed store answers multi-tool, multi-month questions in seconds.
 An earlier version of the agentsview docs benchmarked its reports at 84 to 223 times faster than ad-hoc parsing (calling that an upper bound); the current docs have dropped that benchmark entirely, so the row should be read as "fast because pre-indexed", with no vendor number left to lean on.
+The docs' usage JSON contract now sits at schema version 6, so scripts consuming those reports should expect breaking churn.
 
 **Breadth of coverage is agentsview's moat**: roughly 60 supported sources against a field of single-agent tools, which matters because most practitioners now run two or three harnesses at once.
 ctx's moat is different: agent-facing retrieval, where the consumer of the search is your next session rather than you.
@@ -59,6 +60,7 @@ ctx's moat is different: agent-facing retrieval, where the consumer of the searc
 - 2026-09-05 - Extended from one to two columns with ctx.
 - 2026-09-06 - Updated the ctx cell for its published pro pricing.
 - 2026-09-08 - Dropped the agentsview benchmark claim from the prose after the tool's docs removed it entirely.
+- 2026-09-13 - Added the agentsview usage-output schema version 6 churn note to the reading prose.
 
 ## See also
 

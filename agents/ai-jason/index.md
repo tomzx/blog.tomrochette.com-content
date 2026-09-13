@@ -1,7 +1,7 @@
 ---
 title: AI Jason
 created: 2026-08-29
-updated: 2026-09-12
+updated: 2026-09-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=big-pickle, llm=glm-5.3-flash, people, publications, youtube, context-engineering, agents, practitioner]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 AI Jason is the YouTube practitioner channel of product designer Jason Zhou, the highest-profile video source for working agent workflows, from context engineering to building production AI apps.
-Facts below verified as of 2026-09-12.
+Facts below verified as of 2026-09-13.
 
 **He is the video practitioner to follow because he builds and reverse-engineers the tools himself, which fills the YouTube-speed walkthrough niche none of the other voices here occupy.**
 
@@ -23,7 +23,7 @@ He is a VC-backed start-up founder who says he has shipped production AI agents 
 
 ## Status
 
-Active as of 2026-09-12.
+Active as of 2026-09-13.
 The channel reports 231K subscribers and 100 videos as of 2026-09-09.
 A third-party analytics site lists 230K subscribers and 9M total views.
 The RSS feed shows two to three uploads a month through mid-2026, with the latest upload on 2026-08-25.

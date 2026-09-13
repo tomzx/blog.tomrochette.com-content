@@ -1,7 +1,7 @@
 ---
 title: Task Master
 created: 2026-08-27
-updated: 2026-09-12
+updated: 2026-09-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, task-management, task-tracking, mcp]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Task Master (repo claude-task-master, package `task-master-ai`) is Eyal Toledano's AI task-management system that parses a PRD into dependency-chained tasks and drives agents through them; it became the engine of Hamster's commercial product in 2026 and its open-source repo has been quiet since April.
-Facts below verified as of 2026-09-12.
+Facts below verified as of 2026-09-13.
 
 **The most-installed task manager of the agent era chose productization over community, and its quiet repository is what a successful OSS-to-commercial handoff looks like from the outside: founders win, users keep the old binary, and the license quietly stops being open source.**
 
@@ -24,7 +24,7 @@ Since the commercialization it is also "Taskmaster", a [Hamster](https://tryhams
 ## Status
 
 Open-source repo quiet, commercial product alive, usage still enormous.
-As of 2026-09-12: 28,064 stars and 2,619 forks (the largest raw numbers in this category), but the last push landed 2026-04-28 and the last release (0.43.1) on 2026-03-31, while npm still records 63,215 downloads last month.
+As of 2026-09-13: 28,066 stars and 2,620 forks (the largest raw numbers in this category), but the last push landed 2026-04-28 and the last release (0.43.1) on 2026-03-31, while npm still records 63,215 downloads last month.
 The [LICENSE](https://github.com/eyaltoledano/claude-task-master/blob/main/LICENSE) is now MIT with a Commons Clause Condition v1.0 covering the whole repo and package, which prohibits selling the software and makes it non-OSI.
 Development energy has visibly moved to Hamster, whose pricing sells the method as a product.
 
@@ -45,7 +45,7 @@ Development energy has visibly moved to Hamster, whose pricing sells the method 
 ## Pricing
 
 The CLI and MCP server: free under Commons Clause terms.
-Hamster the product: Free (1 creator, 10 briefs), Team at $40 per creator per month with unlimited briefs, Enterprise at $200 per creator per month with SSO and SOC 2, as of 2026-09-12.
+Hamster the product: Free (1 creator, 10 briefs), Team at $40 per creator per month with unlimited briefs, Enterprise at $200 per creator per month with SSO and SOC 2, as of 2026-09-13.
 
 ## Compared to
 

@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 **Kimi Code CLI is Moonshot AI's terminal coding agent, and it is the first big-model-vendor harness whose default path is a challenger model instead of Claude or GPT.**
-Facts below verified as of 2026-09-12.
+Facts below verified as of 2026-09-13.
 
 ## What it is
 
@@ -22,7 +22,7 @@ The code lives in two repositories: the original `MoonshotAI/kimi-cli` (Apache-2
 
 ## Status
 
-Active and big-vendor backed, about 18.7k combined stars as of 2026-09-12: `kimi-code` at 7,347 stars pushed 2026-09-11, `kimi-cli` at 11,344 stars last pushed 2026-09-01.
+Active and big-vendor backed, about 18.7k combined stars as of 2026-09-13: `kimi-code` at 7,350 stars pushed 2026-09-11, `kimi-cli` at 11,344 stars last pushed 2026-09-01.
 **The independent FrontierHarness Eval pegs it mid-pack on quality and cheap on cost: 56.7 percent pass at a $3.65 median cost per task, with an 88 percent cache rate on Kimi K3.**
 The Hacker News footprint is thin (a 5-point 2025-10-31 thread and a 1-point 2026-01-27 one), which I read as distribution through Kimi's own channels rather than developer-mindshare gravity.
 
@@ -41,11 +41,11 @@ The Hacker News footprint is thin (a 5-point 2025-10-31 thread and a 1-point 202
 ## Pricing
 
 The harness is free and open source.
-Usage is Kimi Code OAuth (your Kimi subscription) or a Moonshot Open Platform API key: kimi-k3 at $2.65/$13.28 per million tokens and kimi-k2.7-code at $0.71/$3.50 as of 2026-09-12 (verified via [OpenRouter's model list](https://openrouter.ai/api/v1/models); Moonshot's CN platform listed the same models at ¥20/¥100 and ¥6.50/¥27 as of 2026-09-09), with other OpenAI-compatible providers configurable.
+Usage is Kimi Code OAuth (your Kimi subscription) or a Moonshot Open Platform API key: kimi-k3 at $2.65/$13.28 per million tokens and kimi-k2.7-code at $0.71/$3.50 as of 2026-09-13 (verified via [OpenRouter's model list](https://openrouter.ai/api/v1/models); Moonshot's CN platform listed the same models at ¥20/¥100 and ¥6.50/¥27 as of 2026-09-09), with other OpenAI-compatible providers configurable.
 
 ## Compared to
 
-- [Codex](../codex/index.md): the other big-vendor open CLI, stronger on FrontierHarness quality (66.7 percent) but no longer on price, at $3.47 versus $3.65 median cost per task as of 2026-09-12.
+- [Codex](../codex/index.md): the other big-vendor open CLI, stronger on FrontierHarness quality (66.7 percent) but no longer on price, at $3.47 versus $3.65 median cost per task as of 2026-09-13.
 - [Qwen Code](../qwen-code/index.md): Alibaba's fork-and-rebrand path into the same market; Kimi Code is a from-scratch Moonshot product rather than a Gemini CLI derivative.
 - [OpenCode](../opencode/index.md): the provider-neutral alternative when you want the harness decoupled from any one model vendor.
 

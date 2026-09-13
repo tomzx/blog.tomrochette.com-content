@@ -1,6 +1,7 @@
 ---
 title: Tree-sitter code chunking
 created: 2026-08-24
+updated: 2026-09-13
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, code-retrieval, chunking, rag, llm=glm-5.3-flash]
 readability: 3
@@ -11,7 +12,7 @@ audience_notes: >
 ---
 
 Tree-sitter code chunking is the practice of cutting source files into retrieval units along syntax-tree boundaries (functions, classes, blocks) using tree-sitter parsers, instead of by fixed line counts.
-Facts below verified as of 2026-09-12.
+Facts below verified as of 2026-09-13.
 
 **AST chunking is the highest-fidelity way to cut code for retrieval, yet the practitioners who document their pipeline rank it last of three strategies and tell you to start dumber.**
 
