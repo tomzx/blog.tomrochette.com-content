@@ -29,6 +29,17 @@ Stripped of argument, here is what a reviewer can assume when a senior engineer 
 **Each of these assumptions a reviewer has to re-verify by hand is attention taken away from judging the change.**
 When one of them breaks, the reasonable response is not a comment, it is returning the PR to draft.
 
+## The Cost of a Round Trip
+
+The unit of waste in review is the round trip: the author requests review, the reviewer finds a gap, comments, and the change then sits in a queue until both people are free at the same time again.
+One round trip costs four context switches, two per side, plus a wait for the other person's next open slot.
+The reviewer switches out of their own work to read the diff and back into it after commenting, and the author later switches out of their work to address the comment and back into it after pushing the fix.
+Because each switch means rebuilding the mental state you had before the interruption, a gap the author could have closed in minutes costs days of calendar time.
+**Every expectation in the standard above exists to delete one class of round trip.**
+A green build deletes the "your build is broken" loop, a single-purpose diff deletes the "split this up" loop, an annotated self-review deletes the "what is this line for" loop, and real proof deletes the most expensive loop of all, "your tests do not cover this", which costs a test rewrite plus a full second pass.
+Research on real reviews backs the self-review half of the deal: in industrial code review, most comments ask for improvements and clarifications rather than catching real defects ([Bacchelli and Bird, 2013](https://www.microsoft.com/en-us/research/publication/expectations-outcomes-and-challenges-of-modern-code-review/)), and Google's study of its own process treats small, fast changes as the mechanism that keeps review load sustainable ([Sadowski et al., 2018](https://research.google/pubs/modern-code-review-a-case-study-at-google/)).
+**Review latency is mostly queueing, not judging, and the standard is how you stop feeding the queue.**
+
 ## The Handoff Contract
 
 Review is a handoff, and a handoff has two sides.
@@ -108,21 +119,53 @@ Push fixes as commits so the reviewer can see what changed since their last pass
 When a comment thread passes about twenty back-and-forths, take it to a call and write the conclusion back into the PR.
 And when you disagree with a reviewer, either convince them, accept the change, or escalate; a senior engineer does not let a PR rot in a stalemate.
 
+## When You Cannot Meet the Standard Yet
+
+The standard has legitimate exceptions, and seniority shows in running the exception protocol instead of quietly lowering the bar.
+Sometimes the approach is still unsettled, sometimes a change cannot be split cleanly, and sometimes you need early eyes to avoid building the wrong thing for a week.
+Each case has a protocol that keeps discovery on the author's side of the handoff:
+
+- **The approach is unsettled:** settle it in a short design note or issue before writing code; a paragraph of prose resolves an approach faster than three rounds of review comments on code headed for the trash.
+- **You need early feedback:** open the PR as a draft and name the exact question and the lines that answer it, for example "design feedback on the cache interface only, ignore the internals".
+- **The diff is unavoidably large:** stack it, base each PR on the previous one, and keep every PR in the stack single-purpose so the reviewer can approve them in order.
+
+```mermaid
+flowchart TD
+    Q{"Cannot meet the<br/>standard yet?"} -->|"Approach unsettled"| D["Design note or issue<br/>settle the approach first"]
+    Q -->|"Early feedback needed"| E["Draft PR<br/>name the question and the lines to read"]
+    Q -->|"Diff too large"| S["Stacked PRs<br/>each one single-purpose"]
+    D --> R["Then open a PR<br/>that meets the standard"]
+    E --> R
+    S --> R
+```
+
+**The difference between a draft and a premature PR is that the draft tells the reviewer what to look at, and what to ignore.**
+"Is this the right approach?" is a question a reviewer can answer in five minutes.
+"What is this PR doing?" is homework.
+
+## Make the Standard the Default
+
+None of the seven expectations should depend on memory, because memory fails on exactly the days the standard matters most, the rushed ones.
+Encode it once and let the system carry it:
+
+- A PR template with the four description questions already written out.
+- Format and lint gates in CI, so reformatting noise never reaches a human-reviewed diff.
+- A draft-first habit: every PR is born as a draft and only flips to ready when the checklist passes.
+- Reviewer assignment by code ownership, so requests route to the subsystem's owners instead of whoever is idle.
+
+There is a quieter reason a senior engineer holds this line.
+**A senior engineer's PRs are the template the rest of the team copies, because people calibrate to what actually gets merged, not to what a wiki says.**
+The first time the team watches its most senior member ship a rushed PR to quick approvals, the written standard is dead.
+If you want to change how a team reviews, change what its most visible engineers ship.
+
 ## What to Do Next
 
 Before you click "Request review" next time, walk the seven expectations in the list above one last time, in order.
-Confirming them takes minutes, and the two that are expensive to fake, the small diff and the proof, are exactly where reviewers look first.
+Then go a step further and audit your last three merged PRs: find the expectation you break most often under deadline pressure, and encode it once, as a template line, a CI gate, or a personal checklist item.
+A standard you re-derive from memory every time will erode; a standard encoded in the system survives your worst week.
 None of this requires talent.
 **It is the difference between treating review as a service you consume and a contract you enter, and seniority is mostly showing up on the right side of that contract.**
 
 ## See also
 
-- [Reviewing code](../processes/reviewing-code/index.md) - the reviewer-side counterpart of this piece, a checklist for what to actually check in the diff.
-- [Rethinking Code Review in the Age of LLMs](../rethinking-code-review-in-the-age-of-llms/index.md) - how the review contract changes when an LLM writes most of the code being reviewed.
-- [You Already Review Code Without Reading It](../code-review-without-reading-the-code/index.md) - the signals reviewers rely on when they cannot read every line, which is why author-side trust building matters.
-- [You Are the Bottleneck](../you-are-the-bottleneck/index.md) - what happens on the receiving end when author output outpaces review capacity.
-
-## References
-
-- [Google, "Writing a CL Description"](https://google.github.io/eng-practices/review/developer/cl-descriptions.html) - grounds the description section: what a description must contain.
-- [Google, "Small CLs"](https://google.github.io/eng-practices/review/developer/small-cls.html) - grounds the case for small, single-purpose diffs.
+- [Reviewing code](../processes/reviewing-code/index.md) - the reviewer-side counterpart of this piece
