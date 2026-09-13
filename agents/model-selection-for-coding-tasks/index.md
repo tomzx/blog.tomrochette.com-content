@@ -24,7 +24,7 @@ The part most engineers get backwards: **for anyone paying per token, the harnes
 - The agentic loop: explore, edit, test, repeat for minutes or hours; this is where most tokens die, and the mid tier (Claude Sonnet 5, gpt-5.6-terra, Gemini 3.1 Pro Preview) resolves most of it, while the Kimi, GLM, and DeepSeek challengers below price the same class far lower.
 - Hard planning and review judgment: architecture choices, gnarly debugging, deciding what to let through; this is the only class where frontier spend reliably pays, and it is a small fraction of your turns.
 
-Escalate by task class inside a session instead of picking one model for everything; Amp's low/medium/high/ultra modes and Codex's Sol/Terra/Luna defaults are this idea shipped as product (see the [Amp](../amp/index.md) and [Codex](../codex/index.md) notes).
+Escalate by task class inside a session instead of picking one model for everything; Amp's low/medium/high/ultra modes and Codex's Sol/Terra/Luna defaults are this idea shipped as product (see the [Amp](../harnesses/amp/index.md) and [Codex](../harnesses/codex/index.md) notes).
 
 ## The lineup as of 2026-09-13
 
@@ -73,19 +73,19 @@ The era of Gemini Flash's $0.75 intro rate leading a price category is over: GLM
 ## Benchmarks decay faster than prices
 
 **Benchmark points do not track price, and the last independent leaderboard that published cost per run makes the point brutally.**
-The [aider polyglot leaderboard](https://aider.chat/docs/leaderboards/) froze in 2025 along with the tool's maintenance (see the [aider](../aider/index.md) note), but its dated runs still teach the right lesson.
+The [aider polyglot leaderboard](https://aider.chat/docs/leaderboards/) froze in 2025 along with the tool's maintenance (see the [aider](../harnesses/aider/index.md) note), but its dated runs still teach the right lesson.
 In October 2025, DeepSeek-V3.2-Exp (Reasoner) scored 74.2% for $1.30 of API spend across the 225-exercise suite.
 In June 2025, o3-pro (high) scored 84.9% for $146.32: ten points more for 113 times the money.
 
 For current rankings, [SWE-bench Verified](https://www.swebench.com/verified.html) is the reference, and its default view now runs every model in the same minimal [mini-SWE-agent](https://www.swebench.com/) bash environment precisely so harnesses stop inflating scores.
 The frontier of evaluation moved on again: CodeClash (November 2025) scores goal-oriented development and ProgramBench (May 2026) scores building artifacts from scratch.
-My rule: use benchmarks for relative history and cost-per-point for decisions, and never quote a vendor's self-reported number, including the SWE-Rebench claim on Junie's own site (see the [Junie](../junie/index.md) note).
+My rule: use benchmarks for relative history and cost-per-point for decisions, and never quote a vendor's self-reported number, including the SWE-Rebench claim on Junie's own site (see the [Junie](../harnesses/junie/index.md) note).
 
 ## The harness multiplies the price of everything
 
 **The measured spread between harnesses is larger than the frontier premium at OpenAI and most of it at Anthropic.**
-The July 2026 proxy study recorded in the [Claude Code note](../claude-code/index.md) measured about 33k input tokens sent before the user's prompt on a minimal task, mid-session cache re-writes up to 54x, and a 4.2x multiplier on a two-subagent fan-out.
-The same study, recorded in the [OpenCode note](../opencode/index.md), measured about 7k baseline tokens for OpenCode with byte-stable cache prefixes, making it about 3.7x cheaper on a matched pass/fail benchmark.
+The July 2026 proxy study recorded in the [Claude Code note](../harnesses/claude-code/index.md) measured about 33k input tokens sent before the user's prompt on a minimal task, mid-session cache re-writes up to 54x, and a 4.2x multiplier on a two-subagent fan-out.
+The same study, recorded in the [OpenCode note](../harnesses/opencode/index.md), measured about 7k baseline tokens for OpenCode with byte-stable cache prefixes, making it about 3.7x cheaper on a matched pass/fail benchmark.
 Compare: Fable 5.1 costs 5x Sonnet 5 per token, and gpt-5.6-sol costs 2x terra.
 So choosing OpenCode over Claude Code moves a token-payer's bill more than choosing terra over sol, and roughly matches skipping Fable 5.1 for Sonnet 5.
 Models are substitutable across providers; a harness with a heavy baseline taxes every model you point through it, forever.
@@ -93,11 +93,11 @@ Models are substitutable across providers; a harness with a heavy baseline taxes
 ## Subscription or BYOK: pick by where your spend lands
 
 **Subscriptions win below a spend threshold and handcuff you above it, so the unit that decides is dollars of monthly token spend, not features.**
-The subscription side: Claude Code is included from Claude Pro ($20 monthly) through Max 20x ($200/month) per the [Claude Code note](../claude-code/index.md), and Codex is included from the ChatGPT Free tier upward per the [Codex note](../codex/index.md), though usage meters in shared five-hour windows with wide published ranges (10-100 local Sol messages on Plus).
-Amp's Megawatt at $20/month makes a linked ChatGPT subscription's usage effectively unlimited at low and medium modes per the [Amp note](../amp/index.md), the cheapest delegation entry if you already pay for ChatGPT.
-The BYOK side: OpenCode, Junie, Crush, and aider bill at provider rates with zero markup (Junie's cloud credits, 10 per 30 days on AI Pro, make BYOK effectively mandatory for real work per the [Junie note](../junie/index.md)).
+The subscription side: Claude Code is included from Claude Pro ($20 monthly) through Max 20x ($200/month) per the [Claude Code note](../harnesses/claude-code/index.md), and Codex is included from the ChatGPT Free tier upward per the [Codex note](../harnesses/codex/index.md), though usage meters in shared five-hour windows with wide published ranges (10-100 local Sol messages on Plus).
+Amp's Megawatt at $20/month makes a linked ChatGPT subscription's usage effectively unlimited at low and medium modes per the [Amp note](../harnesses/amp/index.md), the cheapest delegation entry if you already pay for ChatGPT.
+The BYOK side: OpenCode, Junie, Crush, and aider bill at provider rates with zero markup (Junie's cloud credits, 10 per 30 days on AI Pro, make BYOK effectively mandatory for real work per the [Junie note](../harnesses/junie/index.md)).
 The crossover math: $100 of Sonnet 5 API spend is 50M raw input tokens at the table's $2/M rate, and closer to 20M total tokens once you blend in output-priced generation at agentic ratios, which one heavy week can eat; if you reliably run past that, subscriptions cap your downside until their limits bite.
-One fence to remember: Anthropic's March 2026 legal requests removed Claude subscription login from OpenCode (see the [OpenCode note](../opencode/index.md)), so subscription value does not transfer to third-party harnesses; subscribe to the vendor whose harness you will actually run.
+One fence to remember: Anthropic's March 2026 legal requests removed Claude subscription login from OpenCode (see the [OpenCode note](../harnesses/opencode/index.md)), so subscription value does not transfer to third-party harnesses; subscribe to the vendor whose harness you will actually run.
 
 ## A decision guide
 
@@ -146,10 +146,10 @@ A fact that cannot survive that re-fetch gets deleted rather than hedged.
 
 - [Model Provider Feature Matrix](../model-provider-feature-matrix/index.md) - this guide's prices regrouped into a provider-by-provider bundle comparison
 - [Agentic Coding Tools Landscape](../agentic-coding-tools-landscape/index.md) - the four-layer map this guide's harness claims sit inside
-- [Claude Code](../claude-code/index.md) - the measured token overhead that anchors the harness-multiplier argument
-- [Codex](../codex/index.md) - the Sol/Terra/Luna tiering as shipped defaults
-- [OpenCode](../opencode/index.md) - the lean BYOK counterexample and the subscription-transfer fence
-- [aider](../aider/index.md) - the frozen leaderboard whose cost data this guide leans on
+- [Claude Code](../harnesses/claude-code/index.md) - the measured token overhead that anchors the harness-multiplier argument
+- [Codex](../harnesses/codex/index.md) - the Sol/Terra/Luna tiering as shipped defaults
+- [OpenCode](../harnesses/opencode/index.md) - the lean BYOK counterexample and the subscription-transfer fence
+- [aider](../harnesses/aider/index.md) - the frozen leaderboard whose cost data this guide leans on
 
 ## References
 

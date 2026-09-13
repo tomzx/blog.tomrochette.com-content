@@ -1,0 +1,90 @@
+---
+title: Amp
+created: 2026-08-22
+updated: 2026-09-13
+status: finished
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, coding-agents, harnesses, remote-execution, developer-tools]
+readability: 3
+audience_notes: >
+  Engineers delegating long-running tasks to agents that keep working after the laptop closes.
+  Assumes you have run a terminal agent and understand metered usage billing.
+
+---
+
+Amp is the coding agent from Amp Frontier Corporation ([spun out of Sourcegraph on December 2, 2025](https://ampcode.com/news/amp-frontier-corporation)): a CLI plus web and phone surfaces, with threads that run on remote machines called orbs.
+Facts below verified as of 2026-09-13.
+
+**Amp's orbs are the most direct answer in the field to "the agent should keep working when I close my laptop", and the product is priced exactly like something that believes its own value.**
+
+## What it is
+
+The `amp` CLI runs the agent loop locally; threads can be handed to **orbs, remote machines that keep executing after you disconnect**, and picked up from any device.
+Four modes (low, medium, high, ultra) trade speed against reasoning, with the oracle as a second-opinion model, the librarian for cross-repository GitHub search, subagents, schedules the agent sets itself, and a plugin system that can gate tool calls.
+AGENTS.md is the guidance convention, and a linked ChatGPT subscription can supply GPT-5.6 usage.
+
+## Status
+
+**Active and independent.**
+Amp was built inside Sourcegraph, was made free in October 2025, launched subscriptions, and spun out as a profitable separate company in December 2025 with a twenty-person founding team.
+Shipping cadence in August and early September 2026 is weekly (voice control via Puck and an iOS and macOS app in late August, a desktop orb client and Fable 5.1 powering ultra in early September, a customizable Dial and sooner steering on September 8-10, as of 2026-09-13).
+On September 13, 2026 the [Free Agent announcement](https://ampcode.com/news/free-agent) made Amp free to use with your own compute, subscriptions, or keys, removed BYOK token fees for everyone outside Enterprise, and opened early access to nine more BYOK providers (OpenRouter, Bedrock, Google Cloud Agent Platform, Azure Foundry, Vercel AI Gateway, Cloudflare AI Gateway, Ollama Cloud, OpenCode Go, custom endpoints).
+
+## Strengths
+
+- **Remote execution is the product, not a bolt-on**: orbs, runners, phone control, and thread sharing compose into actual delegated work.
+- The oracle and librarian are direct answers to "the model should check itself and read other repos".
+- Willingness to delete features keeps the surface small; the manual reads like a tool its builders use.
+- BYOK works on usage billing, including Anthropic keys (with the data-retention caveat their [manual](https://ampcode.com/manual/) documents for Fable-class models).
+
+## Cautions
+
+- Closed source; you are trusting a startup's harness with your repository and its metering.
+- Expensive by [community report](https://news.ycombinator.com/item?id=46124649): **usage-billed teams describe spending over $1,000/month per person**, and pay-as-you-go users describe watching budgets evaporate before they can judge the tool.
+- A free Hobby tier returned in September 2026, reversing the paid-only stretch that followed the October 2025 free period; it has no included orb time, only pay-as-you-go orbs or your own runners.
+- Tool calls do not ask approval by default; the permission model is opt-in via plugins, which is a real decision to make consciously.
+
+## Pricing
+
+Hobby: free tier with all product features, pay-as-you-go orb time or your own runners, and no Amp token fees on BYOK or linked subscriptions.
+Individual $20/month: 45,000 orb minutes (750 hours) of Megawatt orb time, with a Gigawatt step-up behind the same toggle; a linked ChatGPT subscription still powers the low, medium, and high Dial settings instead of Amp credits.
+Teams cost nothing extra beyond members' tiers and pool credits with SAML/OIDC SSO; Enterprise is custom, pooled credits only.
+Since the September 13, 2026 Free Agent change there is no monthly fee to use Amp at all on your own compute, runners, subscriptions, or keys (you can still buy inference through Amp with no markup), and the zero and minimal data retention policy is now contractually extended to every tier.
+
+## Compared to
+
+- [Claude Code](../claude-code/index.md) and [Codex](../codex/index.md): subscription platforms whose cloud forms are bounded by session caps; **Amp's orbs are the more aggressive delegation model**.
+- [OpenCode](../opencode/index.md): the local, open, cheap end of the same decision.
+
+## Bottom line
+
+**Recommended for engineers whose bottleneck is supervision of long-running parallel work and whose budget is real.**
+If orbs fit your loop, I think the premium buys itself back in supervision time.
+Not for open-source-only teams or anyone metering their own tokens.
+
+## Changes
+
+- 2026-08-22 - Created in the Harnesses category seed, recording the December 2025 Sourcegraph spinout and subscription tiers.
+- 2026-08-22 - Removed type: post per a section-wide owner rules change.
+- 2026-08-24 - Recorded the widened linked-subscription set (X Premium+/SuperGrok and SpaceX AI alongside ChatGPT).
+- 2026-08-26 - Added a first-person line in Bottom line per writing rules.
+- 2026-08-27 - Canonicalized the spinout link and reference to ampcode.com/news/amp-frontier-corporation.
+- 2026-09-02 - Updated linked subscriptions after the pricing page dropped SpaceX AI.
+- 2026-09-08 - Folded in September news (desktop orb client, Fable 5.1 powering ultra, iOS and macOS app).
+- 2026-09-12 - Recorded the pricing restructure (new free Hobby tier, Individual $20 with 45,000 orb minutes, seat-free Teams).
+- 2026-09-13 - Recorded the Free Agent announcement: free with your own compute or subscriptions, BYOK token fees dropped outside Enterprise, and nine more BYOK providers in early access.
+
+## See also
+
+- [Agentic Coding Tools Landscape](../../agentic-coding-tools-landscape/index.md) - Amp as the remote-execution bet in the harness layer
+- [Managing Many Concurrent LLM Agent Sessions](../../../managing-many-llm-agent-sessions/index.md) - the supervision pattern orbs exist for
+- [Scaling the LLM Agent Company](../../../scaling-the-llm-agent-company/index.md) - where delegated agents point at company scale
+- [The Codebase Gardener](../../../the-codebase-gardener/index.md) - the human role left when agents run this far
+
+## References
+
+- https://ampcode.com/ - product overview, orbs, news cadence as of 2026-09-13
+- https://ampcode.com/pricing/ - Hobby, Megawatt, Gigawatt, teams, enterprise, linked subscriptions, as of 2026-09-13
+- https://ampcode.com/news/free-agent - the September 13, 2026 free-with-your-own-compute and expanded-BYOK announcement
+- https://ampcode.com/news/amp-frontier-corporation - the December 2, 2025 spinout announcement
+- https://ampcode.com/manual/ - modes, oracle, librarian, skills, plugins, permissions
+- https://news.ycombinator.com/item?id=46124649 - spinout discussion with praise and cost complaints

@@ -64,10 +64,10 @@ The subscription row runs the other way: only OpenAI and Anthropic ship a first-
 ## See also
 
 - [Model Selection for Coding Tasks](../model-selection-for-coding-tasks/index.md) - the model-level pricing table every cell here traces to
-- [Harness Feature Matrix](../harness-feature-matrix/index.md) - the client side of the same purchase, capability by capability
+- [Harness Feature Matrix](../harnesses/harness-feature-matrix/index.md) - the client side of the same purchase, capability by capability
 - [Agentic Coding Tools Landscape](../agentic-coding-tools-landscape/index.md) - the four-layer map that puts model vendors in context
-- [Kimi Code](../kimi-code/index.md) - a vendor building its own harness to sell its own tokens
-- [OpenCode](../opencode/index.md) - the lean BYOK harness the challenger provider columns ride
+- [Kimi Code](../harnesses/kimi-code/index.md) - a vendor building its own harness to sell its own tokens
+- [OpenCode](../harnesses/opencode/index.md) - the lean BYOK harness the challenger provider columns ride
 
 ## References
 

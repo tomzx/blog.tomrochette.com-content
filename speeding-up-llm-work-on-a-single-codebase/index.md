@@ -138,7 +138,7 @@ Budget for it: batch your reviews, review outcomes (tests, recordings, benchmark
 
 **Profile where the time actually goes.**
 Agent sessions write detailed logs by default, so the raw material for a time audit is already on your disk.
-A tool like [AgentsView](https://github.com/kenn-io/agentsview) indexes those session files from every harness into one local archive with usage, cost, and history analytics (my [research note on agentsview](../agents/agentsview/index.md) covers the details).
+A tool like [AgentsView](https://github.com/kenn-io/agentsview) indexes those session files from every harness into one local archive with usage, cost, and history analytics (my [research note on agentsview](../agents/session-analytics/agentsview/index.md) covers the details).
 Read the report the way you would read a profiler output: find the phases that consume the most wall clock time, then ask what instruction, script, or boundary would shrink the biggest one.
 Long working phases point at slow test loops or oversized tasks, heavy token spend on easy work points at wrong model routing, and sessions that stall waiting for you point at supervision that should be more asynchronous.
 **Treat your agent workflow like a hot path in code: profile it, find the biggest cost, and cut that first.**

@@ -22,7 +22,7 @@ The corpus has long argued that [context quality dominates model choice](../../t
 **The window is finite, but the binding constraint is attention: recall drops as context grows, and it drops worst in the middle.**
 The [lost in the middle](https://arxiv.org/abs/2307.03172) result showed models recall information best at the beginning or end of long inputs and significantly worse in the middle, even for explicitly long-context models.
 Anthropic's own engineering post names the phenomenon context rot and treats every token as drawing down a finite attention budget.
-[Claude Code](../claude-code/index.md)'s documentation states it plainly: performance degrades as the window fills, and "the context window is the most important resource to manage".
+[Claude Code](../harnesses/claude-code/index.md)'s documentation states it plainly: performance degrades as the window fills, and "the context window is the most important resource to manage".
 The window also fills before you say anything: the [model selection guide](../model-selection-for-coding-tasks/index.md) records harness baselines of about 33k input tokens (Claude Code) versus about 7k (OpenCode) on a minimal task, so a heavy harness taxes every pattern below.
 A bigger window does not escape this, it spreads the same attention over more tokens, which is why the patterns exist at every window size.
 
@@ -30,9 +30,9 @@ A bigger window does not escape this, it spreads the same attention over more to
 
 **The strongest pattern keeps lightweight pointers in context (paths, symbols, queries) and pulls contents just in time.**
 Anthropic calls this just-in-time context: agents hold references and load data at runtime through tools, the way Claude Code analyzes large data with `head` and `tail` instead of loading whole files.
-Every harness ships the manual version: `@` file references in [Claude Code](../claude-code/index.md) and [OpenCode](../opencode/index.md) inject one named file on demand, and OpenCode's `!` prefix injects a shell command's output into the prompt.
-[aider](../aider/index.md) is the purest expression of the family: its tree-sitter repo map ranks symbols by graph references into a roughly 1k-token budget, so the model sees the codebase's skeleton and fetches bodies only when needed (see the [tree-sitter chunking](../tree-sitter-chunking/index.md) note).
-The field is consolidating here: the [semantic code search](../semantic-code-search/index.md) note records pioneers replacing local embeddings indexes with agentic grep loops, because grep is always current and an index is not.
+Every harness ships the manual version: `@` file references in [Claude Code](../harnesses/claude-code/index.md) and [OpenCode](../harnesses/opencode/index.md) inject one named file on demand, and OpenCode's `!` prefix injects a shell command's output into the prompt.
+[aider](../harnesses/aider/index.md) is the purest expression of the family: its tree-sitter repo map ranks symbols by graph references into a roughly 1k-token budget, so the model sees the codebase's skeleton and fetches bodies only when needed (see the [tree-sitter chunking](../retrieval/tree-sitter-chunking/index.md) note).
+The field is consolidating here: the [semantic code search](../retrieval/semantic-code-search/index.md) note records pioneers replacing local embeddings indexes with agentic grep loops, because grep is always current and an index is not.
 
 ## Firewall noisy work into subagents
 
@@ -45,24 +45,24 @@ The failure mode to avoid is unscoped investigation in the main session, which C
 ## Packing and chunking: measure dumb before buying clever
 
 **Whole-repo packing is legitimate but linear, so it is a budget decision, not a default.**
-[Repomix](../repomix/index.md) packs a repo into one file with exact token counts and a `--token-budget` flag that fails CI, which makes "just give it everything" a measured choice rather than an accident.
+[Repomix](../context-engines/repomix/index.md) packs a repo into one file with exact token counts and a `--token-budget` flag that fails CI, which makes "just give it everything" a measured choice rather than an accident.
 Its limits are recorded in the note: spend grows linearly, attention is weakest exactly in the middle regions where the pack puts most content, and the tree-sitter `--compress` mode is experimental and lossy by design.
-If you chunk for a vector store instead, the [tree-sitter chunking](../tree-sitter-chunking/index.md) note records practitioners ranking truncation and fixed-length splits above AST chunking, because 16k-token embedding models fit most whole files.
-Framework machinery exists (LlamaIndex's `CodeSplitter`, see the [LlamaIndex](../llamaindex/index.md) note) but its own makers pivoted elsewhere, and the tools that shipped code retrieval built it by hand or stripped it back out.
+If you chunk for a vector store instead, the [tree-sitter chunking](../retrieval/tree-sitter-chunking/index.md) note records practitioners ranking truncation and fixed-length splits above AST chunking, because 16k-token embedding models fit most whole files.
+Framework machinery exists (LlamaIndex's `CodeSplitter`, see the [LlamaIndex](../retrieval/llamaindex/index.md) note) but its own makers pivoted elsewhere, and the tools that shipped code retrieval built it by hand or stripped it back out.
 
 ## Indexed retrieval pays only past a threshold
 
 **Retrieval infrastructure is an enterprise-scale pattern, and the strongest evidence for that comes from the vendors selling it.**
-The [Sourcegraph](../sourcegraph-code-context/index.md) note records their CodeScaleBench data: a +0.259 reward delta for code intelligence in the 400K to 2M LOC range, but a -0.080 delta below 400K, meaning their own tools slightly hurt agents on most repositories, behind a $16K floor.
-[Augment Code](../augment-code/index.md) makes the strongest counter-case, retrieval-first agents at 33% lower token spend at matched quality, and every number is vendor-run, which the note flags as the missing replication.
-[Greptile](../greptile/index.md) applies the same graph-index idea to review, with the caveat that its index is post-commit and never sees your working tree.
+The [Sourcegraph](../context-engines/sourcegraph-code-context/index.md) note records their CodeScaleBench data: a +0.259 reward delta for code intelligence in the 400K to 2M LOC range, but a -0.080 delta below 400K, meaning their own tools slightly hurt agents on most repositories, behind a $16K floor.
+[Augment Code](../context-engines/augment-code/index.md) makes the strongest counter-case, retrieval-first agents at 33% lower token spend at matched quality, and every number is vendor-run, which the note flags as the missing replication.
+[Greptile](../code-review/greptile/index.md) applies the same graph-index idea to review, with the caveat that its index is post-commit and never sees your working tree.
 When you do cross the threshold, delivery is settled: an MCP server (Sourcegraph's works with Claude Code, Codex, Cursor, and Amp) feeds the index to whichever harness you already run.
 
 ## Compaction is a default you should steer
 
 **Summarize-and-restart has shipped as a harness default, and its lossiness is steerable if you bother steering it.**
 Claude Code auto-compacts as you approach the limit, and Anthropic documents what survives: architectural decisions, unresolved bugs, key implementation details, and the five most recently accessed files.
-All three major harnesses expose it manually: `/compact <instructions>` in Claude Code (for example, "focus on the API changes"), `/compact` in [Codex](../codex/index.md) (with `/status` showing context usage), and `/compact`, aliased `/summarize`, in [OpenCode](../opencode/index.md).
+All three major harnesses expose it manually: `/compact <instructions>` in Claude Code (for example, "focus on the API changes"), `/compact` in [Codex](../harnesses/codex/index.md) (with `/status` showing context usage), and `/compact`, aliased `/summarize`, in [OpenCode](../harnesses/opencode/index.md).
 Claude Code goes further than most: the rewind menu summarizes from or up to a chosen checkpoint, and `/btw` answers side questions that never enter history at all, the same idea as Codex's `/side`.
 The steering mechanism most engineers miss: put compaction directives in the memory file ("when compacting, always preserve the modified-file list and test commands"), which turns a lossy default into a controlled one.
 Augment's rebuild, recorded in its note, runs proactive compaction on a cheaper model and measured 53% lower cost per task, so compaction is also a cost lever, not only a capacity lever.
@@ -74,7 +74,7 @@ The caution is real: Anthropic warns overly aggressive compaction loses subtle c
 Anthropic calls this structured note-taking: the agent writes NOTES.md-style files outside the window and reads them back later, which is how agents maintain coherence across hours.
 The shipped version is the memory file: CLAUDE.md, AGENTS.md, and GEMINI.md load every session, and Claude Code's `/init` and OpenCode's `/init` scaffold them.
 Their documentation also carries the warning worth repeating: bloated memory files cause the model to ignore your actual instructions, so prune ruthlessly and move rarely-needed knowledge into on-demand skills.
-The frontier is automating the capture: Gemini CLI's Auto Memory (experimental) mines idle past sessions for durable facts and proposes memory patches and skill drafts into a review inbox, applying nothing without approval (see the [Gemini CLI](../gemini-cli/index.md) note for that harness's status).
+The frontier is automating the capture: Gemini CLI's Auto Memory (experimental) mines idle past sessions for durable facts and proposes memory patches and skill drafts into a review inbox, applying nothing without approval (see the [Gemini CLI](../harnesses/gemini-cli/index.md) note for that harness's status).
 I treat review-gated capture as the correct design: unreviewed auto-memory is how a wrong summary becomes a permanent fact.
 
 ## A workflow that composes the patterns
@@ -111,10 +111,10 @@ A pattern claim that no longer matches the docs gets deleted, not hedged.
 ## See also
 
 - [Model Selection for Coding Tasks](../model-selection-for-coding-tasks/index.md) - the other half of the economics: why harness overhead moves your bill as much as model choice
-- [Repomix](../repomix/index.md) - the packing pattern measured, budgeted, and bounded
-- [Augment Code](../augment-code/index.md) - the strongest vendor case that retrieval beats exploration
-- [Sourcegraph code context platform](../sourcegraph-code-context/index.md) - the size threshold below which indexed retrieval hurts
-- [Semantic code search in coding tools](../semantic-code-search/index.md) - why tools are retreating from indexes toward agentic search
+- [Repomix](../context-engines/repomix/index.md) - the packing pattern measured, budgeted, and bounded
+- [Augment Code](../context-engines/augment-code/index.md) - the strongest vendor case that retrieval beats exploration
+- [Sourcegraph code context platform](../context-engines/sourcegraph-code-context/index.md) - the size threshold below which indexed retrieval hurts
+- [Semantic code search in coding tools](../retrieval/semantic-code-search/index.md) - why tools are retreating from indexes toward agentic search
 
 ## References
 
