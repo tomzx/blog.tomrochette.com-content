@@ -59,6 +59,11 @@ The AI Builder Club community is paid, and he sells a Claude Code playbook; past
 **Recommended for the practitioner who learns best by watching a working agent or AI-app workflow executed end to end, especially context engineering.**
 Not for someone who wants reference-grade depth, a durable archive, or a rigorous evaluation method.
 
+## Changes
+
+- 2026-08-29 - Created as the video-practitioner band in People and publications, recording 230K subscribers and 99 videos.
+- 2026-09-12 - Upload cadence corrected to two-three uploads a month.
+
 ## See also
 
 - [Context Management Patterns](../context-management-patterns/index.md) - the context-engineering discipline his most useful videos demonstrate

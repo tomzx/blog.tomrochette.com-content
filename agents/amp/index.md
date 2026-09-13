@@ -59,6 +59,17 @@ Teams cost nothing extra beyond members' tiers and pool credits with SAML/OIDC S
 If orbs fit your loop, I think the premium buys itself back in supervision time.
 Not for open-source-only teams or anyone metering their own tokens.
 
+## Changes
+
+- 2026-08-22 - Created in the Harnesses category seed, recording the December 2025 Sourcegraph spinout and subscription tiers.
+- 2026-08-22 - Removed type: post per a section-wide owner rules change.
+- 2026-08-24 - Recorded the widened linked-subscription set (X Premium+/SuperGrok and SpaceX AI alongside ChatGPT).
+- 2026-08-26 - Added a first-person line in Bottom line per writing rules.
+- 2026-08-27 - Canonicalized the spinout link and reference to ampcode.com/news/amp-frontier-corporation.
+- 2026-09-02 - Updated linked subscriptions after the pricing page dropped SpaceX AI.
+- 2026-09-08 - Folded in September news (desktop orb client, Fable 5.1 powering ultra, iOS and macOS app).
+- 2026-09-12 - Recorded the pricing restructure (new free Hobby tier, Individual $20 with 45,000 orb minutes, seat-free Teams).
+
 ## See also
 
 - [Agentic Coding Tools Landscape](../agentic-coding-tools-landscape/index.md) - Amp as the remote-execution bet in the harness layer

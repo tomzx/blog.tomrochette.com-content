@@ -60,6 +60,11 @@ Nothing is for sale anymore; the final 2.1.0 release needs no account or subscri
 I would not start a new project on it, but its docs and final release are a clean grave worth studying.
 For the workflow it pioneered, use Cline or an ACP-speaking host.
 
+## Changes
+
+- 2026-08-26 - Created with the Cursor acquisition, read-only README, and funeral thread recorded, correcting the earlier active reading.
+- 2026-09-04 - Corrected the final release to 2.1.0-vscode, both releases tagged 2026-06-19, where the note said 2.0.0.
+
 ## See also
 
 - [Cline](../cline/index.md) - the surviving line of the extension generation

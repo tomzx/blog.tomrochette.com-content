@@ -83,6 +83,19 @@ The six new columns spread across the same axis: Ante and Juggler take subscript
 - Want a harness the agent itself can rewrite, at your own risk: Exo.
 - Need none of the above, just cheap precise edits on your keys: aider.
 
+## Changes
+
+- 2026-08-24 - Created as an owner-requested matrix of eight harnesses across eleven feature rows.
+- 2026-08-25 - Extended from eight to eleven columns (Cline, goose, qwen-code alphabetically) after the membership check found it lagging its category.
+- 2026-08-26 - Replaced a dead Cline docs URL, added Junie to the local-models list, expanded the rules-portability list, and added a first-person reading line.
+- 2026-08-27 - Extended from eleven to thirteen columns with Kilo Code and OpenHands, all 22 new cells traced to fetched sources.
+- 2026-08-29 - Extended from thirteen to fourteen columns, adding fx with all eleven cells traced to fetched docs pages.
+- 2026-08-30 - Extended from fourteen to fifteen columns, adding jcode between goose and Junie.
+- 2026-08-30 - Added a Company row naming each harness maker, attributions traced to each column's note.
+- 2026-08-30 - Added DeepSeek Harness and Pi columns, bringing the matrix to seventeen columns.
+- 2026-08-30 - Corrected two column-ordinal references in the prose after the alphabetical re-sort.
+- 2026-09-02 - Updated the Junie local-models cell for the Junie Local launch during the category-wide matrix re-verification.
+
 ## See also
 
 - [Harness Feature Matrix companion: surfaces](../surface-feature-matrix/index.md) - the same treatment for editors and environments

@@ -3,7 +3,7 @@ title: GitHub Copilot automations
 created: 2026-08-24
 updated: 2026-08-24
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, executions, github-copilot, scheduling]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, executions, github-copilot, scheduling, llm=glm-5.3-flash]
 readability: 3
 audience_notes: >
   Teams on paid Copilot plans considering letting GitHub's cloud agent run itself on a schedule or on repository events.
@@ -58,6 +58,10 @@ There is no separate automation fee, but a nightly test-fix automation is a recu
 **Recommended for private-repo chores like nightly test triage and issue labeling, where the blast radius of one repository is acceptable.**
 Not for public repositories (unavailable) or any team whose security team needs to audit what runs where.
 My disagreeable claim: creator-private automations are disqualifying for team adoption until GitHub adds shared visibility, because an automation layer nobody else can inspect is exactly how silent drift starts.
+
+## Changes
+
+- 2026-08-24 - Created in the Executions category during the research index seeding.
 
 ## See also
 

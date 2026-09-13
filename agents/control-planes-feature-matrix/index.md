@@ -49,6 +49,12 @@ The employee side has its own category, [Assistant runtimes](../assistant-runtim
 - One agent: a harness plus a task tracker, no control plane needed.
 - Studying the category's consolidation: TinyAGI, accepting it is a stall record, not a tool.
 
+## Changes
+
+- 2026-08-27 - Created as a single-column Paperclip scaffold, extended to two columns with TinyAGI, and its un-profiled-neighbors paragraph redirected to Assistant runtimes.
+- 2026-09-07 - Paperclip issues cell and long-tail prose updated.
+- 2026-09-10 - OtoDock added to the long tail on rejection.
+
 ## See also
 
 - [Orchestration Feature Matrix](../orchestration-feature-matrix/index.md) - the repo-scale counterpart category

@@ -60,6 +60,10 @@ No paid tier; bring your own provider keys or subscriptions.
 Not for maximum channel breadth or anyone allergic to maintaining a fork.
 My disagreeable claim: the container wall matters more than every permission system in the category, and in five years it will be the default all of them converged to.
 
+## Changes
+
+- 2026-08-27 - Created among the four OpenClaw-variant notes, recording the audit-first thesis and the 533-point launch thread.
+
 ## See also
 
 - [OpenClaw](../openclaw/index.md) - the root it shrinks

@@ -65,6 +65,11 @@ Self-hosted enterprise and bulk API pricing are custom.
 Not for individuals priced out by per-credit metering or maintainers who need the OSS-free promise in writing.
 My disagreeable claim: the graph index everyone credits Greptile for is the least valuable part of the product, and if a competitor shipped an identical index tomorrow with none of the learned-comment corpus, it would lose to Greptile on house-rule enforcement every time.
 
+## Changes
+
+- 2026-08-24 - Created among the seed notes of the Context engines category.
+- 2026-08-30 - Moved into the new Code review category on category-fit grounds, with see-also links updated to its new siblings.
+
 ## See also
 
 - [Code Review Feature Matrix](../code-review-feature-matrix/index.md) - the category comparison this note joins

@@ -57,6 +57,10 @@ No paywall and no commercial model.
 **Recommended for any engineer who wants to understand the mechanism under an agent, a reasoning model, or a reward-hacking story, because the posts are the clearest written references available.**
 Not for practitioners who want current tooling guidance or a daily feed.
 
+## Changes
+
+- 2026-08-29 - Created as the durable research-reference band of the people and publications category expansion.
+
 ## See also
 
 - [Agentic Coding Tools Landscape](../agentic-coding-tools-landscape/index.md) - the current harnesses that realize the agent architecture she surveys

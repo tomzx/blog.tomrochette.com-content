@@ -60,6 +60,15 @@ Team $48/user/month billed yearly ($60 month-to-month) adds centralized billing 
 **Recommended for macOS engineers whose bottleneck is attention across many CLI agent sessions and who want that solved in a real terminal.**
 Not for Linux or Windows users, copyleft-restricted shops, or anyone who needs a stable 1.0 interface.
 
+## Changes
+
+- 2026-08-24 - Created in the Orchestration category after an owner request, covering manaflow-ai/cmux and disambiguating two same-named products.
+- 2026-09-02 - Pricing packaging changed, CodeRouter removed and unlimited active cloud VMs added.
+- 2026-09-04 - Cloud VM disk cap cut from 200GB to 32GB.
+- 2026-09-05 - Pricing restructured again to a shared pool (5 vCPU, 20 GB, 200 GB) with VMs starting at 8 GB/32 GB.
+- 2026-09-06 - Pricing page dropped the shared-pool cloud spec for per-VM resources with a 256 GB disk ceiling.
+- 2026-09-10 - Pricing page reverted to shared-pool phrasing (24 GB RAM, 6 vCPU shared).
+
 ## See also
 
 - [Agentic Coding Tools Landscape](../agentic-coding-tools-landscape/index.md) - the orchestration layer this note belongs to

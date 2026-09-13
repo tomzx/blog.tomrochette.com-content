@@ -61,6 +61,10 @@ The example repo is Apache 2.0 except the source-available document skills.
 **Recommended for any team on Claude surfaces with repeatable procedures worth versioning; not for one-off prompts, and not a substitute for MCP tools.**
 The claim I will defend: for most teams skills matter more than plugins or MCP servers, because procedure is what a team actually accumulates, and a reviewed SKILL.md in git is more trustworthy than any marketplace install.
 
+## Changes
+
+- 2026-08-24 - Created in the Skills category seed.
+
 ## See also
 
 - [Claude Code](../claude-code/index.md) - the harness that gave this format its largest distribution surface

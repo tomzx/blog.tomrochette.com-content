@@ -65,6 +65,12 @@ No free tier; trials get community support only.
 Not for solo developers, OSS work, or anyone who cannot absorb a 40% service fee on top of model spend.
 My disagreeable claim: if the Context Engine numbers are even half right, harness choice matters less than retrieval quality, and flat-rate subscription harnesses are selling expensive exploration that a good index eliminates, which would make Augment's pricing model the eventual default and their competitors' margins the casualty.
 
+## Changes
+
+- 2026-08-24 - Created in the Context engines category seed.
+- 2026-08-30 - Extended the blog-cadence claim to August 28, 2026 and re-dated the no-free-tier claim.
+- 2026-09-04 - Added the new $20/month Standard plan to the pricing section.
+
 ## See also
 
 - [Sourcegraph code context platform](../sourcegraph-code-context/index.md) - the infrastructure-only version of the same retrieval bet

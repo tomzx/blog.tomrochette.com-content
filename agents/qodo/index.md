@@ -69,6 +69,10 @@ For history: in September 2024 the paid Chrome-extension tier was $19 per month 
 Not for developers hunting a permanent free tier for private repos, because that tier no longer exists.
 I also think the PR-Agent donation is less a gift than a repositioning: the repo itself says "community-maintained legacy project", and I read that as the vendor conceding that the single-LLM-call reviewer is a commodity, so anyone adopting the OSS half for the long haul is adopting code the company has already stopped competing on.
 
+## Changes
+
+- 2026-08-30 - Created in the Code review category seed, recording the open-core PR-Agent split and the Kudelski security chains.
+
 ## See also
 
 - [Greptile](../greptile/index.md) - the codebase-aware SaaS rival, for readers weighing hosted context depth against self-hosted control.

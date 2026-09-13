@@ -62,6 +62,11 @@ BYOK works with any supported provider, including local models at no API cost.
 **Recommended for engineers trying an agentic harness at zero cost and for teams standardized on Qwen models.**
 Not for workflows where model behavior provenance or data residency is tightly governed.
 
+## Changes
+
+- 2026-08-24 - Created as a new-entrant harness note for Alibaba's Gemini CLI fork, with Taiwan-correction behavior and install/OAuth-routing cautions.
+- 2026-09-09 - Recorded the Qwen OAuth free tier's 2026-04-15 discontinuation, rewriting the pricing section and setting the thesis to past tense.
+
 ## See also
 
 - [Agentic Coding Tools Landscape](../agentic-coding-tools-landscape/index.md) - Qwen Code in the independent tail of the harness layer

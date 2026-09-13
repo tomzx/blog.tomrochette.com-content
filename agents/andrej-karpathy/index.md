@@ -56,6 +56,11 @@ Essays, talks, and repositories are all public and free, with no newsletter payw
 **Recommended for engineers who want the durable concepts behind the daily tool churn, from the person who keeps naming the eras.**
 Not for people who need a current-events feed or want vendor-neutral, non-frontier framing.
 
+## Changes
+
+- 2026-08-29 - Created in the People and publications category, profiling the vocabulary-setter behind vibe coding, Software 3.0, and agentic engineering.
+- 2026-09-02 - Corrected the verifiability essay reference to the 2025-11-17 "Verifiability" essay.
+
 ## See also
 
 - [Context Management Patterns](../context-management-patterns/index.md) - the context-window-as-program thesis in operational form

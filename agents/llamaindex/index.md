@@ -61,6 +61,11 @@ LlamaParse as of 2026-09-12: Free at 10k credits/month, Starter $50/month with 4
 I would not start a new code-search product on LlamaIndex in 2026: the coding tools that actually shipped retrieval built it by hand or stripped it back out, and I think the framework era of RAG is closing as agentic search eats indexed retrieval.
 That claim is arguable, which is the point.
 
+## Changes
+
+- 2026-08-24 - Created among the four retrieval notes of the research index seeding run.
+- 2026-09-06 - Added the LiteParse sentence and repository reference after folding the LiteParse candidate into the note.
+
 ## See also
 
 - [LangChain](../langchain/index.md) - the other giant framework, now with a real coding-agent entry

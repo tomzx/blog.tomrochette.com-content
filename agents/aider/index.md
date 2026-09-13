@@ -61,6 +61,13 @@ Recommended for precise, reviewable edits on your own keys, and as the low-cost 
 I still open it when I want the diff to be the entire story.
 Not for long autonomous tasks, hands-off refactors, or teams that need an actively maintained tool.
 
+## Changes
+
+- 2026-08-22 - Created in the Harnesses category seed.
+- 2026-08-22 - Removed the type field per a section-wide owner rules change.
+- 2026-08-23 - Downgraded status to development stalled on GitHub API evidence and added a maintenance-risk caution.
+- 2026-08-26 - Replaced a mis-cited HN reference with the Wasting Inferences with Aider thread and aligned the header verification date.
+
 ## See also
 
 - [Agentic Coding Tools Landscape](../agentic-coding-tools-landscape/index.md) - aider as the surviving pre-agentic tool in the harness layer

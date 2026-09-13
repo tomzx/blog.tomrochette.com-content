@@ -62,6 +62,11 @@ No paid tiers exist as of 2026-09-12.
 **Recommended for terminal developers running local models, resource-constrained machines, or many parallel agents on one box; not for teams that need a stable 1.0 contract or an independently audited benchmark record today.**
 I expect the harness market to consolidate on footprint and cost per agent, and I think Ante is currently the clearest bet that the winner is the lightest credible thing, not the most featureful one.
 
+## Changes
+
+- 2026-08-30 - Created in the Harnesses category seed.
+- 2026-09-12 - Folded the core harness's private-repository posture into the licensing caution.
+
 ## See also
 
 - [Agentic Coding Tools Landscape](../agentic-coding-tools-landscape/index.md) - where Ante lands in the harness layer's independent tail

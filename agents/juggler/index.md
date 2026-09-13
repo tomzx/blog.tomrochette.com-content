@@ -63,6 +63,10 @@ The AGPL app code with a paid commercial-licensing option for closed use is the 
 **Recommended for developers whose agent work is long interactive sessions they need to inspect, branch, and resume across devices; not for teams wanting a vendor-backed product or terminal/CI automation.**
 I think the harnesses that win the GUI layer will be the ones that treat conversations as editable trees, and I would bet on Juggler's model over Electron dashboards bolted onto a terminal agent.
 
+## Changes
+
+- 2026-08-30 - Created in the Harnesses category as one of six entrants accepted in the same run.
+
 ## See also
 
 - [Agentic Coding Tools Landscape](../agentic-coding-tools-landscape/index.md) - where a GUI-native harness sits in the surface layer

@@ -132,6 +132,16 @@ A fact that cannot survive that re-fetch gets deleted rather than hedged.
 - The 2026-09-10 GLM-5.3-Flash check resolved as predicted: the promo expired into the $0.15/$0.50 list price; calendar the 2026-11-21 and 2026-12-31 promo deadlines to re-run your economics then.
 - If you point a loop at DeepSeek, schedule the long runs off-peak; half price by the clock is the deepest vendor discount in this guide and it stacks with caching.
 
+## Changes
+
+- 2026-08-24 - Created as the queue essay on task-class tiers; added the Kimi, GLM, and DeepSeek V4 lineups the same day on owner request.
+- 2026-08-26 - Clarified the $100 crossover math so it stopped reading against its own table and added DeepSeek to the challengers mention.
+- 2026-09-04 - Folded Claude Fable 5.1 into the lineup table and updated the cache bullet for its reduced cache-hit rate.
+- 2026-09-08 - Transposed the lineup table on owner request so models read as columns against attribute rows, values unchanged.
+- 2026-09-09 - Recorded the kimi-k2.7-code price drop to $0.71/$3.50 on OpenRouter and replaced the HighSpeed 2x claim with dollar figures.
+- 2026-09-10 - Added DeepSeek's deepseek-flash pricing, retired V4-Flash, and added the 2026-09-14 v4-pro routing clock.
+- 2026-09-12 - Recorded kimi-k3's OpenRouter drop to $2.65/$13.28 and removed the cancelled Flash-routing clock.
+
 ## See also
 
 - [Model Provider Feature Matrix](../model-provider-feature-matrix/index.md) - this guide's prices regrouped into a provider-by-provider bundle comparison

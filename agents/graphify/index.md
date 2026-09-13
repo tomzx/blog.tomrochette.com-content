@@ -61,6 +61,11 @@ The hosted side now publishes four plans (as of 2026-09-12): Free ($0, one devel
 **Recommended for teams whose agents burn tokens re-discovering how a large codebase connects, who can tolerate pre-1.0 churn and verify the benchmarks on their own repo.**
 Not for small repos where grep and packing are enough, or for buyers who need independent evidence before adoption.
 
+## Changes
+
+- 2026-08-30 - Created as a Context engines note covering the local AST knowledge graph, with the self-benchmarked caveat recorded.
+- 2026-09-12 - Recorded the newly published hosted plans (Free, Pro $10, Teams $20 per seat, Enterprise) and folded the graphify-csharp port in as ecosystem evidence.
+
 ## See also
 
 - [Context Engines Feature Matrix](../context-engines-feature-matrix/index.md) - the category comparison this note joins

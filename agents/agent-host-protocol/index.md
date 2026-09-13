@@ -60,6 +60,11 @@ The costs are implementing or operating a host, plus tracking spec churn until 1
 **Recommended for tool builders who want a client attached to VS Code agent sessions today, with pre-1.0 churn priced in; not for cross-org delegation or tool integration, where A2A and MCP remain the answers.**
 The disagreeable part: I think AHP will matter more to daily coding work than A2A ever will, because whoever owns the host owns the session, and most engineers already run theirs (VS Code).
 
+## Changes
+
+- 2026-08-30 - Created in the Protocols category, profiling Microsoft's sessions-server spec with six-language SDKs.
+- 2026-09-05 - Moved the npm reference to an explicit window URL because the last-month endpoint serves stale data.
+
 ## See also
 
 - [Protocols Feature Matrix](../protocols-feature-matrix/index.md) - the category comparison this note joins, now with its own AHP column

@@ -56,6 +56,12 @@ Machine review of the pull requests themselves now lives in the [Code Review Fea
 - Want your annotations to steer a live agent session: Plannotator.
 - Want the trace-to-fix loop while developing an agent locally: Workshop.
 
+## Changes
+
+- 2026-08-30 - Created with five columns on the who-judges axis, reduced to four the same day when the OpenCodeReview column was removed.
+- 2026-09-05 - Extended to five columns with FrontierHarness Eval.
+- 2026-09-07 - FrontierHarness Eval cell corrected to 82 points.
+
 ## See also
 
 - [Retrieval Feature Matrix](../retrieval-feature-matrix/index.md) - the RAG patterns these tools evaluate

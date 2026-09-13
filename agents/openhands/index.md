@@ -59,6 +59,10 @@ Enterprise: custom pricing covering SaaS or self-hosted-in-your-VPC, SAML/SSO, u
 **Recommended for engineers who want Devin-class breadth they can audit, self-host, and point at any model, including local ones.**
 Not for someone who wants a zero-migration, opinionated coding workflow today, because the platform is moving its own surface under them.
 
+## Changes
+
+- 2026-08-27 - Created as a new-entrant harness note, recording the OpenDevin rename, the $18.8M Series A, and the Agent Canvas architecture.
+
 ## See also
 
 - [Agentic Coding Tools Landscape](../agentic-coding-tools-landscape/index.md) - the four-layer map this note slots into

@@ -62,6 +62,14 @@ Ouroboros runs the other direction with 14 runtimes, the widest agent boundary i
 - Want a local, auditable runner with a strict named-command boundary around any agent CLI, early-access accepted: Machinist.
 - Want vague briefs turned into verified code with the grading hidden from the worker, 14 runtimes and beta churn accepted: Ouroboros.
 
+## Changes
+
+- 2026-08-29 - Created as a single-column scaffold for SSSF when the Software factory category was seeded.
+- 2026-08-29 - Rebuilt to three columns (SSSF, Fluent, HAR) with the who-owns-the-loop thesis.
+- 2026-08-30 - Extended to four columns with Ouroboros, self-improvement and hidden-grading prose updated.
+- 2026-08-30 - Re-sorted columns alphabetically with Fluent first, dropping the founding-member-first convention.
+- 2026-09-05 - Extended from four to five columns with Machinist.
+
 ## See also
 
 - [Code Factories: Factorio](../../code-factories-factorio/index.md) - the corpus metaphor this category turns into a tool taxonomy

@@ -2,7 +2,7 @@
 title: Tree-sitter code chunking
 created: 2026-08-24
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, code-retrieval, chunking, rag]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, code-retrieval, chunking, rag, llm=glm-5.3-flash]
 readability: 3
 audience_notes: >
   Engineers splitting source code into chunks for search or RAG.
@@ -58,6 +58,10 @@ Continue's guide makes the cost structure explicit: one embedding model, one vec
 **Recommended when chunks feed a vector store and every retrieved hit must be a self-contained definition; that is a quality floor worth having.**
 My disagreeable claim: most teams adopting tree-sitter chunking are optimizing a step that long-context embedding models made nearly irrelevant, and the correct engineering move is to measure truncation first and earn the AST complexity with evidence, not vibes.
 Continue's own guide, written by people who shipped this at scale, effectively agrees.
+
+## Changes
+
+- 2026-08-24 - Created in the Retrieval category seed.
 
 ## See also
 

@@ -60,6 +60,12 @@ Self-hosted and ARC runners are supported, which can zero out the Actions-minute
 Not for teams that need stability guarantees, since a billing bug forced release retirements as recently as August 2026.
 My disagreeable claim: even in preview, I would start here rather than hand-rolling a script that shells out to a coding agent, because the safe-outputs gate is worth more than any bespoke wrapper your team will write and abandon.
 
+## Changes
+
+- 2026-08-24 - Created among the seed notes of the Executions category.
+- 2026-08-30 - Recorded the retired-release notice cleared from the README after the August billing-bug retirements.
+- 2026-09-12 - Corrected the release line: every v0.89.x release is a prerelease, with v0.88.7 the last stable.
+
 ## See also
 
 - [Copilot automations](../copilot-automations/index.md) - the hosted, Copilot-only sibling on the same substrate

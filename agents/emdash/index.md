@@ -61,6 +61,12 @@ Cloud workspaces and enterprise are quoted by contact; no published per-seat pri
 Not for anyone who needs paid support or a settled interface today.
 My disagreeable claim: Emdash's SSH support matters more than any feature matrix here, because the durable constraint on parallel agents is where your code and compute actually live, and every local-only dashboard assumes the work happens on your laptop.
 
+## Changes
+
+- 2026-08-24 - Created in the Orchestration category seed.
+- 2026-08-24 - Reworded the banned-term phrase "laptop-shaped" out of the thesis.
+- 2026-08-26 - References moved to the canonical emdash.com domain after the old host began redirecting.
+
 ## See also
 
 - [Conductor](../conductor/index.md) - the closed-source funded counterpart to compare against

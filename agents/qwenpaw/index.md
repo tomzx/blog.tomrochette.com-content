@@ -59,6 +59,11 @@ The AgentScope Platform cloud deployment is described in the README as free; you
 **Recommended for self-hosters whose assistant must live in WeChat, DingTalk, or Lark, or who want an offline-capable assistant with defaults that assume things go wrong.**
 Not for stability-first adopters mid-rewrite, or users who will not read the telemetry opt-out.
 
+## Changes
+
+- 2026-08-30 - Created in the Assistant runtimes category, recording the AgentScope team assistant with a telemetry-auto-accept caution.
+- 2026-09-04 - Recorded v2.2.0 going stable on PyPI.
+
 ## See also
 
 - [Assistant Runtimes Feature Matrix](../assistant-runtimes-feature-matrix/index.md) - the category comparison this note joins

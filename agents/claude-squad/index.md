@@ -62,6 +62,11 @@ No paid tier, hosting, or subscription exists.
 Not for AGPL-averse companies or anyone who wants a supported product.
 For most engineers, Claude Squad plus a small setup script covers 90 percent of what the funded dashboards sell, because the dashboards' real product is review ergonomics, not parallelism.
 
+## Changes
+
+- 2026-08-24 - Created in the Orchestration category seed.
+- 2026-08-26 - Converted Compared-to paths to markdown links, rewrote two unsourced ecosystem claims as sourced facts, and added the updated field.
+
 ## See also
 
 - [dmux](../dmux/index.md) - the feature-rich MIT successor question to this same tmux-plus-worktrees design

@@ -68,6 +68,13 @@ Ellipsis's real 2026 competition is not review bots but agent infrastructure: th
 Not for teams that want an install-and-forget AI reviewer, because Ellipsis no longer sells that product.
 I will take the unpopular position that leaving review was the right call: a fixed review bot was always a feature, not a company, and Ellipsis read that earlier than most of the 2024 class.
 
+## Changes
+
+- 2026-08-30 - Created in the new Code review category with status set to pivoted after the July 2026 Agent Cloud launch.
+- 2026-09-02 - Added the public SDK mirrors to the recorded GitHub org surface.
+- 2026-09-09 - Style sweep split a two-sentence Bottom-line line.
+- 2026-09-12 - Advanced support package raised from $7,500 to $10,000 per month.
+
 ## See also
 
 - [Greptile](../greptile/index.md) - the AI code review sibling that stayed a review product, the closest match to what Ellipsis abandoned.
@@ -84,6 +91,4 @@ I will take the unpopular position that leaving review was the right call: a fix
 - https://www.ellipsis.dev/blog/the-ellipsis-agent-cloud - the July 28, 2026 pivot announcement by the founder, fetched 2026-09-12.
 - https://www.ellipsis.dev/blog/ellipsis-raises-a-2m-seed-round - the $2M seed, investor list, and the 13% faster-merge claim, fetched 2026-09-12.
 - https://www.ycombinator.com/companies/ellipsis - YC batch (W24), founding date, founders, team size, and active status, fetched 2026-09-12.
-- https://hn.algolia.com/api/v1/items/40309719 - the May 9, 2024 Show HN (121 points, 64 comments) with the praise and criticism threads, fetched 2026-09-12.
-- https://hn.algolia.com/api/v1/search?query=ellipsis&tags=story - the Algolia search that located both Show HN items, fetched 2026-09-12.
-- https://github.com/ellipsis-dev - the public org (five repos including Python and TypeScript SDK mirrors, CLI pushed 2026-09-11), verified via the GitHub API on 2026-09-12.
+- https://hn.algolia.com/api/v1/items/40309719 - the May 9, 2024 Show HN (121 points, 64 comments) with the prai

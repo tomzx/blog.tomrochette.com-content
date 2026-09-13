@@ -58,6 +58,10 @@ Costs are the local runtime and the policy authoring effort.
 **Recommended for teams running multiple autonomous agents that need declarative egress and credential policy now, with alpha risk priced in.**
 Not for production-critical paths this quarter, or shops that cannot run Docker or Podman on developer machines.
 
+## Changes
+
+- 2026-08-30 - Created in the Sandboxing category, recording NVIDIA's agent runtime with alpha and default-telemetry cautions.
+
 ## See also
 
 - [Sandboxing Feature Matrix](../sandboxing-feature-matrix/index.md) - the category comparison this note joins

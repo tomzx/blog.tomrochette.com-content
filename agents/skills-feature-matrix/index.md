@@ -62,6 +62,11 @@ No column costs anything to use, but the spec has no version or dependency story
 - Need managed versions across an organization: Anthropic's Skills API is the only first-party versioning in the matrix.
 - Shipping skills for your own product: publish them in your repo or docs (`.well-known`), since the standard note argues docs teams without a skill will be invisible to agents by 2027.
 
+## Changes
+
+- 2026-08-24 - Created in the owner-requested matrix expansion, four columns with cells traced to member notes.
+- 2026-08-30 - Extended from four to five columns with SkillOpt, the stack prose naming the new quality layer.
+
 ## See also
 
 - [Harness Feature Matrix](../harness-feature-matrix/index.md) - the terminal-agent matrix whose hooks-and-skills row this expands

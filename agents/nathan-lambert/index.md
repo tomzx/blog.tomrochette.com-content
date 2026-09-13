@@ -58,6 +58,10 @@ The RLHF Book is paid; parts of the course and companion materials are free.
 **Recommended for the engineer who wants to understand the reasoning-and-post-training layer behind the agents they use, and to pick open models with good information.**
 Not for anyone who wants a mostly-vendor-neutral or application-level overview; this is the model-side view, argued from an open-model vantage.
 
+## Changes
+
+- 2026-08-29 - Created as the model-and-post-training band of the people and publications category expansion.
+
 ## See also
 
 - [Model Selection for Coding Tasks](../model-selection-for-coding-tasks/index.md) - the decision his model-and-reasoning coverage feeds

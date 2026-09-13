@@ -65,6 +65,10 @@ MIT-licensed and free; the real price is the tokens the packed file consumes, wh
 Not for iterative editing of large monorepos, where packing wastes most of the window.
 My disagreeable claim: for small and mid repos, a Repomix pack plus a good model beats most bespoke RAG pipelines on both quality and setup cost, and teams buying context engines before measuring the dumb approach are optimizing aesthetics, not results.
 
+## Changes
+
+- 2026-08-24 - Created in the Context engines category seed.
+
 ## See also
 
 - [Tree-sitter code chunking](../tree-sitter-chunking/index.md) - the parser behind both Repomix's compression and fancier chunking strategies

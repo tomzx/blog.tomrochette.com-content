@@ -61,6 +61,11 @@ Roo Code Cloud and Router were paid until the shutdown, with unused balances ref
 I would not install it today; the sunset post itself tells you where to go.
 The disagreeable claim I will defend: Roo's death was not failure, its team correctly priced where value was moving (cloud execution) and left before the extension market forced the same exit on everyone else.
 
+## Changes
+
+- 2026-08-26 - Created as a Surfaces death record covering the scheduled sunset, the May 2026 support end, and the pivot to roomote.dev.
+- 2026-09-12 - Added ZooCode alongside Cline as community forks carrying the code forward.
+
 ## See also
 
 - [Cline](../cline/index.md) - the upstream and successor

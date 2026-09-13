@@ -63,6 +63,13 @@ No paid tier; you pay your model providers, and which providers will serve it is
 Not for minimal-machine deployments or anyone unwilling to audit what they are giving full access to their life.
 The disagreeable claim I will defend: the restrictions saga, not the code, is OpenClaw's real product lesson, and every engineer running agents on borrowed subscriptions learned it from OpenClaw's scars.
 
+## Changes
+
+- 2026-08-27 - Created as the root anchor of the four OpenClaw-variant notes, recording the Gateway architecture and the provider-restriction saga.
+- 2026-09-02 - Recorded the 2.0 release (v2026.8.1, 933 contributors), the project's largest.
+- 2026-09-06 - Added the v2026.9.2 Swarm default-on sentence and the releases reference.
+- 2026-09-10 - Recorded the v2026.6.35 patch to the June line, released while no v2026.9.4 existed.
+
 ## See also
 
 - [NanoClaw](../nanoclaw/index.md) - the audit-first variant

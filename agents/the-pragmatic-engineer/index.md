@@ -56,6 +56,10 @@ A substantial and growing share of AI-engineering content is paid; the free tier
 **Recommended for engineering leaders and senior engineers who need the data- and org-grounded view of how teams adopt agents.**
 Not for someone chasing pure hands-on tool detail who resents a paywall.
 
+## Changes
+
+- 2026-08-29 - Created in the People and publications category seed as the org-and-data voice, noting the paywalled core and annual AI tooling surveys.
+
 ## See also
 
 - [Model Selection for Coding Tasks](../model-selection-for-coding-tasks/index.md) - the tooling-adoption data meets the model-decision process

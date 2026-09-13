@@ -59,6 +59,10 @@ The README states no paywalled workflows or gated community; web bundles and mod
 Not for solo prototypes or anyone allergic to method vocabulary.
 The disagreeable claim I will defend: within a year the waterfall critique will be aimed at spec-kit and OpenSpec while BMad's size-the-ceremony loop becomes the orthodox form, because it is the only design here that took the critique seriously on day one.
 
+## Changes
+
+- 2026-08-27 - Created in the Spec-driven development category after the owner asked for the alternatives, recording the agile right-sizing thesis.
+
 ## See also
 
 - [GitHub Spec Kit](../spec-kit/index.md) - the movement root it extends

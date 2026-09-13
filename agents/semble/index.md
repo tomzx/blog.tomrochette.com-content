@@ -61,6 +61,10 @@ No cloud tier or paid plan exists as of 2026-09-02, so the cost model is entirel
 **Recommended for agent users on repos big enough that grep-plus-read burns real tokens, who want a local, key-free index and will measure savings with `semble savings` rather than take the benchmark on faith.**
 Not for small repos where a Repomix pack or plain grep is already enough, and not for anyone needing vendor support or an agent-level quality guarantee, because neither exists yet.
 
+## Changes
+
+- 2026-08-30 - Created in the Context engines category from that day's entrant scan, citing six fetched sources.
+
 ## See also
 
 - [Agentic Coding Tools Landscape](../agentic-coding-tools-landscape/index.md) - where the context-engine layer sits in the four-layer map

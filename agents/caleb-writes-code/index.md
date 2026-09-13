@@ -58,6 +58,10 @@ Revenue is ad and sponsor-funded, with recurring sponsor reads (DevRev, Cline, M
 **Recommended for engineers who want current-events fluency on models and agentic concepts in minutes, and who will treat each video as a starting pointer rather than a verdict.**
 Not for someone who wants tool-tested practice, reference-grade depth, or an ad-free editorial voice.
 
+## Changes
+
+- 2026-08-29 - Created as a People and publications research note, with the sponsor-density and no-critical-community cautions recorded at creation.
+
 ## See also
 
 - [AI Jason](../ai-jason/index.md) - the workflow-builder counterpart to this release-explainer

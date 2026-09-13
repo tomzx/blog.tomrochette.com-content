@@ -53,6 +53,12 @@ Reproducing a run costs whatever your chosen harness's tokens cost.
 Recommended as the current best evidence for the harness-choice cost question, read with the vendor-run caveat attached.
 Not as a final ranking, and not for teams whose tasks look nothing like its 30.
 
+## Changes
+
+- 2026-09-05 - Created from the entrant-resolution run, profiling Runta's nine-harness same-model benchmark.
+- 2026-09-08 - Reference point count corrected from 81 to 82.
+- 2026-09-12 - Quality spread corrected from about 13 to about 17 points, with publisher attribution folded in and Claude Code second on quality.
+
 ## See also
 
 - [Harness Feature Matrix](../harness-feature-matrix/index.md) - the capability view of the same harnesses this benchmark prices

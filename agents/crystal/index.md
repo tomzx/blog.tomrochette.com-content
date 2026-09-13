@@ -60,6 +60,10 @@ Nimbalyst is free for individuals with MIT-licensed desktop and iOS apps, and se
 **Recommended only as a case study, not as a tool to adopt; if the idea appeals, evaluate Nimbalyst on its own merits.**
 My disagreeable claim: Stravu read the market correctly, because harness CLIs were going to commoditize session multiplexing, and pivoting early beat competing head-on with Conductor's $22M.
 
+## Changes
+
+- 2026-08-24 - Created in the Orchestration category seed, kept as a death record for the February 2026 deprecation.
+
 ## See also
 
 - [Conductor](../conductor/index.md) - the funded counterexample that stayed a session manager

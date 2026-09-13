@@ -61,6 +61,10 @@ A credit covers one episode up to 350 bytes; retrieval, storage, and users are u
 **Recommended for production deployments where facts change (preferences, roles, prices, relationships) and where "why did the agent say that" must have an auditable answer.**
 Not for solo builders or small budgets, and my disagreeable claim is that Mem0's April 2026 algorithm changelog (entity linking, temporal reasoning) reads as validation that Zep chose the right architecture first.
 
+## Changes
+
+- 2026-08-24 - Created in the Memory category seed.
+
 ## See also
 
 - [Mem0](../mem0/index.md) - the adoption leader it benchmarks against

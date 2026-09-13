@@ -63,6 +63,12 @@ You pay your own model costs when you bring your own keys.
 **Recommended for teams running agents as products or internal services who want approvals, events, and mobile control behind one API on their own infrastructure; not for solo developers who just want to drive one CLI agent from their phone (Paseo or the harness's own remote features do that with less machinery).**
 I believe every serious agent deployment eventually needs exactly what Omnara is building, and I think the open-source control plane will beat vendor-owned managed agents the same way Postgres beat proprietary databases.
 
+## Changes
+
+- 2026-08-30 - Created when the candidate-resolution run accepted it into Orchestration as a control plane rather than a harness.
+- 2026-09-08 - Recorded Omnara Cloud's newly published usage-based pricing and added the pricing page as a source.
+- 2026-09-09 - Added the machine-retention line item, $0.20016 per GiB per 30 days.
+
 ## See also
 
 - [Orchestration Feature Matrix](../orchestration-feature-matrix/index.md) - the supervision layer Omnara belongs to

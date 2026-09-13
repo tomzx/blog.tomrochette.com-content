@@ -61,6 +61,12 @@ QwenPaw is the only column with a real offline path through its own trained smal
 - Want a Cowork-style desktop on OpenCode with skills that port via MCP: OpenWork.
 - Want a Cowork-style desktop with multi-agent workforces under Apache-2.0: Eigent.
 
+## Changes
+
+- 2026-08-27 - Created with four columns and twelve rows and the trust-ladder thesis.
+- 2026-08-27 - Extended to five columns with Hermes inserted, and the reading section gained the learning-loop-versus-trust-ladder line.
+- 2026-08-30 - Nanobot, OpenWork, Eigent, and QwenPaw columns added, matrix at nine columns, with desktop-split prose added.
+
 ## See also
 
 - [Control Planes Feature Matrix](../control-planes-feature-matrix/index.md) - the layer that manages these as employees

@@ -62,6 +62,12 @@ Current tier prices remain unverified because windsurf.com now redirects to devi
 **Recommended only for existing Windsurf or Devin shops riding the transition.**
 Not for new adoption: picking a brand mid-retirement means betting on one company's roadmap.
 
+## Changes
+
+- 2026-08-23 - Created in the Surfaces category seed, recording the 2025 collapse-and-rescue arc and the Devin Desktop rebrand.
+- 2026-09-02 - Recorded Cognition's reported about-$1B raise at about a $47B valuation.
+- 2026-09-04 - Updated the windsurf.com note after it began 308-redirecting to devin.ai/desktop.
+
 ## See also
 
 - [Agentic Coding Tools Landscape](../agentic-coding-tools-landscape/index.md) - the surface layer this note belongs to

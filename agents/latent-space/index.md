@@ -56,6 +56,11 @@ The newsletter, podcast, and conference tickets carry their own price points; a 
 **Recommended for anyone who wants the industry-level, interview-driven view of AI engineering and the conference network that ties it together.**
 Not for people who want only hands-on tool notes and who will not filter past the evangelism.
 
+## Changes
+
+- 2026-08-29 - Created as the newsletter-podcast-conference note of the people and publications category expansion.
+- 2026-09-04 - Replaced the AINews link with latent.space/s/ainews after news.smol.ai began returning 402.
+
 ## See also
 
 - [Agentic Coding Tools Landscape](../agentic-coding-tools-landscape/index.md) - the landscape its interviews and trend posts keep current

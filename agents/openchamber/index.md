@@ -58,6 +58,10 @@ Donations via Patreon fund development; there is no paid tier, as of 2026-09-12.
 **Recommended for engineers juggling multiple OpenCode sessions against shared repositories who want to own their surface.**
 Not for anyone who wants a polished IDE experience or harness choice beyond OpenCode.
 
+## Changes
+
+- 2026-08-24 - Created among the five Surfaces notes after the owner-named OpenChamber verified real and Antimatter did not exist.
+
 ## See also
 
 - [Agentic Coding Tools Landscape](../agentic-coding-tools-landscape/index.md) - the surface layer this note belongs to

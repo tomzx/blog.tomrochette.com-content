@@ -60,6 +60,11 @@ Products layered on it vary: memU is Apache 2.0 with a hosted option, and harnes
 **Recommended as the default first move for any coding agent: write the AGENTS.md/CLAUDE.md pair, scope rules by path, and prune on a schedule.**
 Reach for a memory service only for cross-user or cross-app memory; my disagreeable claim is that most teams buying memory APIs for coding agents are outsourcing a curation problem that a monthly lint pass on a markdown file would solve.
 
+## Changes
+
+- 2026-08-24 - Created as one of the Memory category's seed notes.
+- 2026-08-26 - Corrected the HN thread label to the Letta Code launch and replaced the trimming analogy with a grounded pruning sentence.
+
 ## See also
 
 - [Claude Code](../claude-code/index.md) - the harness with the richest file-memory hierarchy (CLAUDE.md, rules, auto memory)

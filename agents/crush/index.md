@@ -63,6 +63,12 @@ No stable public pricing page existed at verification time, per the README.
 **Recommended for engineers who want the best-looking terminal, LSP lovers, and local-model users.**
 Not for license-restricted organizations or communities that relitigate 2025.
 
+## Changes
+
+- 2026-08-22 - Created in the Harnesses category seed.
+- 2026-08-22 - Removed type: post per the section-wide owner rules change.
+- 2026-08-23 - Style conformance pass: sources hyperlinked, per-section insights bolded, sentences split, showy wording replaced.
+
 ## See also
 
 - [Agentic Coding Tools Landscape](../agentic-coding-tools-landscape/index.md) - Crush in the independent tail of the harness layer

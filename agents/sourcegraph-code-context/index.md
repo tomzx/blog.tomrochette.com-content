@@ -2,7 +2,7 @@
 title: Sourcegraph code context platform
 created: 2026-08-24
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, code-search, code-retrieval, enterprise-tools, mcp]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, code-search, code-retrieval, enterprise-tools, mcp, llm=glm-5.3-flash]
 readability: 3
 audience_notes: >
   Engineers deciding how agents should retrieve context across large or multi-repo codebases.
@@ -63,6 +63,10 @@ No self-serve or free private tier; the public code search is free.
 **Recommended for organizations whose codebases are past a few hundred thousand lines across many repos and who already run agent fleets that thrash on local search.**
 Not for small-repo teams, solo developers, or anyone without an enterprise budget.
 My disagreeable claim: below roughly 400K LOC, buying Sourcegraph for your agents means paying $16K for an index their own benchmark says slightly hurts, and that money would do more work spent on evaluation harnesses.
+
+## Changes
+
+- 2026-08-24 - Created in the Context engines category seed.
 
 ## See also
 

@@ -59,6 +59,11 @@ The hardware costs money (LicheeRV-Claw on AliExpress), and model usage is BYOK.
 Not for your primary assistant on a real machine, pre-1.0 is pre-1.0.
 My disagreeable claim: the size race is now the category's main axis of progress, and PicoClaw's board-plus-binary bundle is the first assistant business model that does not depend on anyone's API margins staying friendly.
 
+## Changes
+
+- 2026-08-27 - Created in the Assistant runtimes category seed covering the OpenClaw variants, recording Sipeed's Go-from-scratch implementation.
+- 2026-08-30 - Corrected the release line to v0.3.1 of 2026-07-03.
+
 ## See also
 
 - [ZeroClaw](../zeroclaw/index.md) - the Pi-scale Rust sibling

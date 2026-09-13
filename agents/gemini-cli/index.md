@@ -59,6 +59,11 @@ For enterprises: Gemini Code Assist Standard or Enterprise licensing, or pay-as-
 **Recommended only for organizations holding Code Assist licenses or paid API budgets.**
 Not for individuals, whatever the 2025 blog posts (several of which I believed at the time) told you.
 
+## Changes
+
+- 2026-08-22 - Created as one of the eight seed notes of the Harnesses category, recording the superseded-for-individuals status.
+- 2026-08-26 - Review-driven pass: strength claim qualified from only to first, the Antigravity sibling note linked, and a first-person admission added.
+
 ## See also
 
 - [Agentic Coding Tools Landscape](../agentic-coding-tools-landscape/index.md) - the harness layer map this note belongs to

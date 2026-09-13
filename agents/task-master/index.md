@@ -59,6 +59,11 @@ Hamster the product: Free (1 creator, 10 briefs), Team at $40 per creator per mo
 I would not standardize new work on the Commons-Clause repo while its future is a commercial product's roadmap.
 For new setups, the choice is beads for multi-agent state or Backlog.md for human review, and this note exists partly as the cautionary record of the third path.
 
+## Changes
+
+- 2026-08-27 - Created in the Task management category seed, recording the Hamster productization, the quiet repo, and the Commons Clause license.
+- 2026-08-30 - Added the missed Hamster Enterprise tier at $200 per creator per month.
+
 ## See also
 
 - [beads](../beads/index.md) - the MIT counterpoint with no vendor

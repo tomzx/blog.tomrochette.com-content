@@ -61,6 +61,11 @@ Pro $20/month (up to 20 agents), API plan $20/month plus $0.10 per active agent 
 **Recommended for engineers who want to study (and hack on) where agent memory is going, and for always-on agents that must accumulate a self.**
 Not for teams wanting stable infrastructure: the V1 server burial proves the roadmap can strand you, and my disagreeable claim is that most of Letta's value today is importable, steal the memory-block and sleep-time patterns into a harness you already run.
 
+## Changes
+
+- 2026-08-24 - Created among the four memory notes of the research index seeding run.
+- 2026-09-05 - Reconciled an internal star count inconsistency across the note.
+
 ## See also
 
 - [Mem0](../mem0/index.md) - the API-first alternative and benchmark rival

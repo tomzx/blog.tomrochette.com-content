@@ -58,6 +58,11 @@ Free and open source under MIT, no paid tiers, no pricing page.
 **Recommended as a study of what kernel-level agent sandboxing looks like at small scale, and for tinkerers on Linux who will read the source before trusting it.**
 Not for anyone needing a security boundary they did not audit themselves; use [OpenShell](../openshell/index.md) or a harness built-in there.
 
+## Changes
+
+- 2026-08-30 - Created as the sandboxing note, kept despite a tiny footprint per the missing-footprint-is-a-signal rule.
+- 2026-09-10 - Sandboxing reference canonicalized to learn.chatgpt.com/docs/sandboxing.
+
 ## See also
 
 - [Sandboxing Feature Matrix](../sandboxing-feature-matrix/index.md) - the category comparison this note joins

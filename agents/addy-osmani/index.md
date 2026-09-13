@@ -58,6 +58,11 @@ His books are sold commercially, while "Beyond Vibe Coding" has a free online ed
 **Recommended for engineers and leads inside established companies who need enterprise-grounded, hands-on agentic engineering practice rather than indie experiments or vendor marketing.**
 Not for readers wanting frontier research depth or a terminal-level tool feed.
 
+## Changes
+
+- 2026-09-02 - Created in the People and publications category, filling the enterprise-hands-on gap the matrix named.
+- 2026-09-12 - Reframed around his departure from Google in 2026 after 14 years.
+
 ## See also
 
 - [Agentic Coding Tools Landscape](../agentic-coding-tools-landscape/index.md) - the tool layer his quality-and-discipline argument wraps around

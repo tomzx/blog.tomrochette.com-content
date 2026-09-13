@@ -58,6 +58,11 @@ No paid tier as of 2026-09-12.
 Not for ecosystems (it has none yet) or for anyone who needs third-party verification before trusting a runtime.
 The disagreeable claim I will defend: an assistant you cannot read is safer as a static binary than as a container you also cannot read, and ZeroClaw is the only family member candid about that trade.
 
+## Changes
+
+- 2026-08-27 - Created in the Assistant runtimes category seed, recording the compile-time ownership thesis and thin HN footprint.
+- 2026-09-12 - Recorded that the Android port was archived read-only in March, so it is no longer an active strength.
+
 ## See also
 
 - [OpenClaw](../openclaw/index.md) - the root runtime

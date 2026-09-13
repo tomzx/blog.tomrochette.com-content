@@ -65,6 +65,13 @@ I read this table by columns, matching a reader slot rather than a source.
 - Lead an engineering org adopting agents and want data: The Pragmatic Engineer.
 - Are new to AI engineering and want a structured path: Andrew Ng.
 
+## Changes
+
+- 2026-08-29 - Created with five columns segmented on the focus axis, naming the empty enterprise-hands-on cell as scaffold for a future member.
+- 2026-08-29 - Extended from five to eleven columns, re-segmenting the thesis onto five focus bands and filling all reader-slot rows.
+- 2026-08-29 - Extended to twelve columns, adding the Caleb Writes Code column and a release-explainer choosing bullet.
+- 2026-09-02 - Extended to thirteen columns, adding Addy Osmani and filling the enterprise-hands-on scaffold cell.
+
 ## See also
 
 - [Agentic Coding Tools Landscape](../agentic-coding-tools-landscape/index.md) - the tool landscape these voices report on and steer

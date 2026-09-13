@@ -63,6 +63,12 @@ Public repositories get reviews free forever, no setup required.
 Not for teams whose threat model rules out a third party holding write tokens across all their repositories, or that need self-hosting below the Enterprise tier.
 My disagreeable take: the exploit history makes CodeRabbit more credible, not less, because surviving a public RCE with remediation measured in hours is better operational evidence than any benchmark win, and I would still rather pay this bill than pay the false-negative cost of a human-only queue at agent PR volumes.
 
+## Changes
+
+- 2026-08-30 - Created in the owner-requested Code review category seed, recording the funding ladder, the Kudelski exploit record, and the Pullflow market analysis.
+- 2026-09-02 - Pricing restructured: Essentials and Team renames, plus a new Advanced tier replacing the $40 Security plan.
+- 2026-09-04 - Slack agent price cut from $0.50 to $0.40 per agent minute.
+
 ## See also
 
 - [Greptile](../greptile/index.md) - the closest hosted rival and its learned-rules counter-bet

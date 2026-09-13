@@ -48,6 +48,10 @@ Task Master's file storage sits between the two but its concurrency story is unv
 - Human review as the bottleneck: Backlog.md, for the three review gates.
 - Want the PRD pipeline and accept the vendor: Task Master, pinned to a version you control.
 
+## Changes
+
+- 2026-08-27 - Created with three columns (Backlog.md, beads, Task Master) and ten rows, tracing every cell to the member notes.
+
 ## See also
 
 - [Spec Driven Development Feature Matrix](../spec-driven-development-feature-matrix/index.md) - the process layer that fills these boards

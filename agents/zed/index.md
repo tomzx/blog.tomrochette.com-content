@@ -58,6 +58,10 @@ Business is $30/seat/month for org model policies, data governance, and spend vi
 **Recommended for engineers who measure editor latency and want AI optional rather than mandatory.**
 Not for teams needing enterprise identity plumbing or a turnkey agentic platform.
 
+## Changes
+
+- 2026-08-23 - Created in the Surfaces category seed among its five founding notes.
+
 ## See also
 
 - [Agentic Coding Tools Landscape](../agentic-coding-tools-landscape/index.md) - the surface layer this note belongs to

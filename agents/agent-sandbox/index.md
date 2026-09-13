@@ -58,6 +58,10 @@ Costs are the Kubernetes infrastructure; on GKE, adjacent managed features are b
 **Recommended for platform teams already running Kubernetes who need to serve many agent runtimes or RL environments as governed infrastructure.**
 Not for local developer sandboxing, and not for anyone expecting the 1.0 tag to mean a frozen API.
 
+## Changes
+
+- 2026-08-30 - Created in the Sandboxing category seed with the isolates-nothing-by-itself threat model.
+
 ## See also
 
 - [Sandboxing Feature Matrix](../sandboxing-feature-matrix/index.md) - the category comparison this note joins

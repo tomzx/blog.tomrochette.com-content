@@ -60,6 +60,15 @@ The Den control plane inside the repo stays free for organizations up to five us
 **Recommended for mixed technical and non-technical teams that want Cowork-style agent work on their own machines and models, with skills that port across every agent they run.**
 Not for teams that need a sandboxed security boundary the product does not provide, or uniform open-source licensing including the enterprise tier.
 
+## Changes
+
+- 2026-08-30 - Created in the Assistant runtimes category, recording the OpenCode-based Cowork alternative with license-split and security-boundary cautions.
+- 2026-09-02 - Updated pricing: Free up to 5 users, Team $20 per seat, Enterprise $50.
+- 2026-09-05 - Updated pricing again: Solo free, Team Starter $10 per seat, Enterprise custom.
+- 2026-09-07 - Recorded Enterprise moving to $40 per user per month and Team Starter renamed to Team.
+- 2026-09-09 - Updated pricing again: Team $10 per seat up to 100 users, Enterprise $40 per user per month.
+- 2026-09-12 - Dropped the $40 per user and 100-user caps, moving Enterprise back to custom pricing.
+
 ## See also
 
 - [Assistant Runtimes Feature Matrix](../assistant-runtimes-feature-matrix/index.md) - the category comparison this note joins

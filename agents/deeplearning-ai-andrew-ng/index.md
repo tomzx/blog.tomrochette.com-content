@@ -57,6 +57,12 @@ DeepLearning.AI short courses are mostly free, while Coursera specializations an
 **Recommended as the balanced weekly scan and the best-structured way to pick up agentic skills when you are new to them.**
 Not for a practitioner who wants deep technical detail, frontier-labs nuance, or sustained skepticism.
 
+## Changes
+
+- 2026-08-29 - Created as the education-and-on-ramp band, the voice that popularized the four agentic design patterns and published the AI Engineering Skills Map.
+- 2026-08-30 - Dropped an unverifiable jobpocalypse quote and a dead aiagentrank reference, replaced with the verified Coursera specialization page.
+- 2026-09-04 - Batch coverage extended past the note's "through August 2026" claim.
+
 ## See also
 
 - [Agentic Coding Tools Landscape](../agentic-coding-tools-landscape/index.md) - the tools his agentic design patterns describe

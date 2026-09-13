@@ -59,6 +59,10 @@ Free access today, explicitly with no subscriptions, as of 2026-09-12.
 Not for teams that require auditable clients, and not for anyone betting on a pricing model that does not exist yet.
 I think speed is the wrong axis for buying a coding agent, and a 119-second mean on a benchmark says nothing about the 40-minute debugging session you actually need it for.
 
+## Changes
+
+- 2026-08-30 - Created in the Harnesses category seed.
+
 ## See also
 
 - [Agentic Coding Tools Landscape](../agentic-coding-tools-landscape/index.md) - where a latency-first entrant sits in the field

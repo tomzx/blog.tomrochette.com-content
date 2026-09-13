@@ -68,6 +68,12 @@ All tiers as of 2026-09-12.
 Not for BYOK purists, local-model users, or anyone whose policy requires an open client.
 I think the CLI exists to follow developers who fled Warp's AI-heavy terminal for Ghostty and iTerm2, and the terminal stopped being the product the day the agent became it.
 
+## Changes
+
+- 2026-08-30 - Created in the candidate-pile sweep, recording the standalone agent binary, AGPL-3.0 codebase, and credit-meter pricing.
+- 2026-09-06 - Added the Factories product line sentence and reference.
+- 2026-09-12 - Noted the any-harness cloud beta.
+
 ## See also
 
 - [Agentic Coding Tools Landscape](../agentic-coding-tools-landscape/index.md) - where this lands in the harness layer

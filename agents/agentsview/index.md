@@ -58,6 +58,12 @@ No paid tiers are published.
 **Recommended for engineers running three or more different coding agents who want one private place to answer what did my agents do and cost this month.**
 Not for single-agent users well served by built-in cost views, or teams wanting live in-flight observability rather than retrospective indexing.
 
+## Changes
+
+- 2026-08-30 - Created in the new Session analytics category as a research note on the local session indexer.
+- 2026-09-05 - Updated the supported-formats claim to 60-plus agent formats, up from roughly 55, including the matrix cell.
+- 2026-09-08 - Revised prose, caution, and references after the docs dropped the 84-223x ccusage benchmark entirely.
+
 ## See also
 
 - [Session Analytics Feature Matrix](../session-analytics-feature-matrix/index.md) - the category comparison this note seeds

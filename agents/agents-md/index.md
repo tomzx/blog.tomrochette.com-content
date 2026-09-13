@@ -63,6 +63,11 @@ The real cost is maintenance discipline plus the per-request token overhead.
 **Recommended for every repository an agent touches: commit one this week and keep it short and factual.**
 The disagreeable part: I suspect most AGENTS.md prose is wasted tokens, and the defensible version of the advice is commands and conventions yes, repository overviews no.
 
+## Changes
+
+- 2026-08-24 - Created in the Protocols category seed.
+- 2026-08-26 - Fixed the our-note antecedent to name the July 2026 proxy study and the Claude Code note, indented the ETH Zurich continuation, and added the updated field.
+
 ## See also
 
 - [Model Context Protocol](../mcp/index.md) - the other convention agents consume, for tools rather than instructions

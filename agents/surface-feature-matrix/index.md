@@ -55,6 +55,13 @@ Antigravity and OpenChamber are the extremes, a closed platform giving the most 
 - Want zero budget: Antigravity's free tier or Void, accepting the incident record or the stall respectively.
 - Must keep code on-device: OpenChamber, Void, or Zed with BYOK.
 
+## Changes
+
+- 2026-08-24 - Created in the owner-requested matrix run, ten surfaces by eleven feature rows.
+- 2026-08-26 - Added a first-person reading line per the writing rules.
+- 2026-08-26 - Extended from ten to twelve columns with Continue and Roo Code, adding the death-records paragraph.
+- 2026-09-04 - Updated the Continue cell after its final release was corrected to 2.1.0-vscode.
+
 ## See also
 
 - [Harness Feature Matrix](../harness-feature-matrix/index.md) - the same treatment for terminal agents

@@ -58,6 +58,12 @@ The credit model is subscription metering, not open source, as the raise implied
 Not for anyone whose spec ledger is a long-lived asset they intend to own.
 The disagreeable claim I will defend: Tessl will either prove specs are buyable infrastructure or become this category's cautionary funding tale, and by its own metrics (open-source footprint near zero) it has chosen the riskiest possible position to prove it from.
 
+## Changes
+
+- 2026-08-27 - Created in the Spec-driven development expansion, recording the $125M Series A, Skills on Tessl, and the Fowler analysis; pricing left unverified.
+- 2026-09-08 - Recorded the first published platform pricing and rewrote the Pricing section (Free, Team $100 per month, Enterprise).
+- 2026-09-12 - Recorded the Tessl Code Review launch, with pricing tiers unchanged.
+
 ## See also
 
 - [GitHub Spec Kit](../spec-kit/index.md) - the free movement root

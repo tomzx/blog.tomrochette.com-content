@@ -58,6 +58,11 @@ Lite $3/month ($5 usage), Pro $10/month ($20 usage, 10 tasks), Pro+ $30/month (3
 **Recommended for cost-sensitive work on code where the telemetry question is settled.**
 Not for proprietary or regulated codebases, full stop.
 
+## Changes
+
+- 2026-08-24 - Created in the owner-requested Surfaces expansion, recording the ByteDance tiers, SOLO mode, and the telemetry analysis.
+- 2026-08-25 - Recorded the trae-agent stall (last commit February 2026, no tagged release) and reframed the sidecar as a snapshot.
+
 ## See also
 
 - [Agentic Coding Tools Landscape](../agentic-coding-tools-landscape/index.md) - the surface layer this note belongs to

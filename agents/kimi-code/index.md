@@ -54,6 +54,11 @@ Usage is Kimi Code OAuth (your Kimi subscription) or a Moonshot Open Platform AP
 Recommended for engineers already inside the Kimi ecosystem and for token-payers who want a big-vendor-polished agent on challenger-model economics.
 Not for teams that need local models, or anyone who needs more than one independent evaluation before trusting a harness.
 
+## Changes
+
+- 2026-09-05 - Created from the same-day entrant resolution as Moonshot's MIT CLI.
+- 2026-09-06 - Recorded the docs confirming the Node.js rebuild with the Python version unmaintained, and replaced the measured-cost comparison.
+
 ## See also
 
 - [Model Selection for Coding Tasks](../model-selection-for-coding-tasks/index.md) - the Kimi pricing this note's economics ride on

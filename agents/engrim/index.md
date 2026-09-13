@@ -63,6 +63,10 @@ Recommended for solo developers who run two or more agent CLIs against the same 
 Not for teams needing shared or cross-user memory, and probably not for single-CLI users, where the in-repo docs convention does the job with zero new infrastructure.
 My disagreeable claim: the provenance tracking, not the local-first storage, is the real product, and engrim would still be worth running if it did nothing but tag which agent made which decision.
 
+## Changes
+
+- 2026-09-10 - Created after the 2026-09-07 rejection's entry bar was met, with the Show HN thread kept as the critical source.
+
 ## See also
 
 - [Memory Feature Matrix](../memory-feature-matrix/index.md) - where this column lands against the seven other memory approaches

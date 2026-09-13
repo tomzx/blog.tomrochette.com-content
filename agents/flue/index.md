@@ -59,6 +59,10 @@ Costs are your model keys and whatever remote sandbox provider you attach.
 **Recommended for TypeScript teams building long-lived agents who want sandbox semantics and durability as framework features rather than projects.**
 Not for anyone needing the framework itself to be the security boundary, or betting on API stability in the first year after a rewrite.
 
+## Changes
+
+- 2026-08-30 - Created in the Sandboxing category seed, with the three-tier sandbox taxonomy and single-author risk recorded.
+
 ## See also
 
 - [Sandboxing Feature Matrix](../sandboxing-feature-matrix/index.md) - the category comparison this note joins

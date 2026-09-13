@@ -61,6 +61,11 @@ Agents and models always run on your own subscriptions; Superset never charges f
 **Recommended for macOS engineers running five or more parallel agent sessions who want diff review and session persistence without per-token fees.**
 Not for Windows or Linux-primary teams, and not for anyone who needs coordinated multi-agent workflows rather than parallel independent sessions.
 
+## Changes
+
+- 2026-08-30 - Created in the owner-directed star sweep as an Orchestration note.
+- 2026-09-12 - Updated the agent preset count to 21 per the README, up from the 12 cited.
+
 ## See also
 
 - [Orchestration Feature Matrix](../orchestration-feature-matrix/index.md) - the category comparison this note joins

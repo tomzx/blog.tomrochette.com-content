@@ -41,6 +41,7 @@ Both content types share these rules.
 
 - One directory per article, lowercase kebab-case slug, containing `index.md`.
 - Front matter fields: `title`, `created` (YYYY-MM-DD), `status` (`draft` while writing, `finished` when complete), `tags`, `readability`, `updated` (set when you revise), and `audience_notes` (folded `>`, for finished pieces).
+- Every article ends with `## Changes`, `## See also`, `## References`, in that order; `## Changes` is the article's dated changelog (see Writing rules).
 - Never set a `type` field (in particular not `type: post`): articles in this section are section pages, not posts, and typing them as posts pulls them into the blog's post listings.
 - Mandatory tags on every article: `agent-curated`, `fully-ai-generated`, and `llm=<model-id>` for each model that wrote or edited the piece (e.g. `llm=glm-5.3`). Multiple `llm=` tags are allowed as models change over time; never remove one that a previous run added.
 - Research notes additionally carry the `research-note` tag.
@@ -96,6 +97,10 @@ commit activity, stars or downloads as of the verification date, funding, shutdo
 
 Recommended for <X>. Not for <Y>.
 
+## Changes
+
+- YYYY-MM-DD - Created.
+
 ## See also
 
 - [Agentic Coding Tools Landscape](agentic-coding-tools-landscape/index.md) - <replace with related notes and corpus articles, three to five>
@@ -132,7 +137,8 @@ Inherit the blog's style, with these specifics:
 - Open with the thesis early, bolded with `**...**` within the first few paragraphs.
 - Short, direct sentences; concrete statements over hedged abstractions.
 - Structure with `##` headers that each advance the argument; bold the key insight of each section.
-- Close with `## What to Do Next` when prescriptive, then `## See also` (internal links) and `## References` (external sources), three to five items each.
+- Close with `## What to Do Next` when prescriptive, then `## Changes`, `## See also` (internal links), and `## References` (external sources), three to five items each for See also and References.
+- `## Changes` is the article's append-only changelog: one `- YYYY-MM-DD - <what changed>` bullet per material change, oldest first, the first bullet records creation, sourced from `agents/log.md` (the log stays the full audit trail; Changes is the reader-facing summary). Corrections, status moves, pricing changes, added or removed facts, category moves, and matrix membership changes are changes; verification-date bumps and routine volatile-number refreshes are not. Append the bullet in the same run as the change it records; never delete or rewrite old bullets.
 - Internal links: sibling articles in this section are `../<slug>/index.md`; main corpus articles are `../../<slug>/index.md`; section index is `../_index.md`. Always verify the target directory exists before adding a link (CI fails on broken links).
 - External links must be durable and canonical (official docs, Wikipedia for concepts); verify the URL fetches before citing it.
 - All content must be compatible with CC BY-NC 4.0; quote sparingly, link generously.
@@ -176,7 +182,7 @@ A scheduled task runs this procedure once a day.
 2. Read this file, `agents/log.md`, and `agents/queue.md`.
 3. Refresh every category each run, all in parallel: across research notes, essays, trackers, and matrices, check links, front matter, and as-of dates, and fix anything broken. Deep-refresh every category in the same run (no stalest ranking): re-verify status and volatile numbers, fix dead sources, scan for credible new entrants, re-check category fit (move or mark pivots), and keep every matrix matched to its category's membership and re-verified in the same run. Every entrant candidate resolves in the run that surfaces it: a note if it clears the citation bar, an explicit logged rejection with reasons if it does not; a candidate carried across runs as "pending" is a defect. Then work the queue top-down, then consider at most one self-directed essay.
 4. Verify before committing: every internal link target exists on disk, every external URL fetched during this run, front matter parses, style rules respected, and every feature matrix matches its category's current membership.
-5. Append one dated entry to `agents/log.md` (what changed and why).
+5. Append one dated entry to `agents/log.md` (what changed and why), and append the matching bullet to each touched article's `## Changes` section.
 6. Update `agents/_index.md` if the article or research note lists changed (notes are listed alphabetically with one-line summaries), and update the affected category's feature matrix in the same run whenever membership changed (see Comparison matrices).
 7. Commit scoped: stage only `agents/` (`git add agents/`). Commit message: short imperative, no prefixes, e.g. "Update agents model selection guide with August releases" or "Add agents article on context compaction".
 8. Push. If rejected, `git pull --rebase --autostash origin master` once and push again; if it fails again, stop and log.

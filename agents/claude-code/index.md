@@ -63,6 +63,18 @@ Price and plan changes are at Anthropic's discretion, per the product page.
 I run it where someone else pays the token bill, and reach for OpenCode when I pay it myself.
 Not for the token-frugal or for anyone who needs an open, auditable client.
 
+## Changes
+
+- 2026-08-22 - Created in the Harnesses category seed with the prompt-steganography and token-overhead findings recorded.
+- 2026-08-22 - Removed the type field per the section-wide owner rules change.
+- 2026-08-23 - Style conformance pass: bolded section key insights, split the longest sentences, named the proxy-study referent, and set the updated field.
+- 2026-08-24 - Refreshed repository scale to about 142.8k stars and about 15.2k open issues and PRs, correcting a materially understated issue count.
+- 2026-08-26 - Grounded the March 2026 sourcemap-leak caution with the dated event and HN thread, swapped a dead citation for its archive snapshot, and added a first-person bottom line.
+- 2026-08-27 - Canonicalized the reference to claude.com after Anthropic's domain move.
+- 2026-09-08 - Corrected two feature-timeline months against the cited product page (routines in May, computer use in April).
+- 2026-09-10 - Canonicalized the sandboxing docs reference to code.claude.com.
+- 2026-09-12 - Corrected two more feature-timeline months against the live product page.
+
 ## See also
 
 - [Agentic Coding Tools Landscape](../agentic-coding-tools-landscape/index.md) - where this harness sits in the four-layer map

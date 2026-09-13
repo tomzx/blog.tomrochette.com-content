@@ -57,6 +57,11 @@ There is no paid tier or hosted product, as of 2026-09-12.
 **Recommended for teams standardizing how specs gate agent work across heterogeneous harnesses, at zero license cost.**
 Not for solo work where the ceremony exceeds the blast radius of a bad change.
 
+## Changes
+
+- 2026-08-26 - Created as the note seeding the Spec-driven development category, citing eight fetched sources.
+- 2026-08-27 - Pointed the Compared-to Tessl line at the newly written Tessl note instead of deferring.
+
 ## See also
 
 - [Kiro](../kiro/index.md) - the spec-first IDE whose workflow Spec Kit competes with

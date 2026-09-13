@@ -64,6 +64,10 @@ The exception that defines the model: cloud tasks always run agents on JetBrains
 Not for open-client requirements, AI Free or AI Enterprise subscribers, or anyone unwilling to route cloud work through JetBrains credits.
 My disagreeable claim: the isolation-plus-oversight bundle Air sells is now table stakes that Conductor, Superset, and Emdash all ship on your own subscriptions, so Air's real product is the subscription tie-in rather than the orchestrator, and I expect the orchestrator to be judged against that bar.
 
+## Changes
+
+- 2026-09-12 - Created in the Orchestration category from the same-day entrant resolution, placed there rather than Surfaces.
+
 ## See also
 
 - [Orchestration Feature Matrix](../orchestration-feature-matrix/index.md) - the category comparison this note joins

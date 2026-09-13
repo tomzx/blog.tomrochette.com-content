@@ -61,6 +61,12 @@ No paid tier; optional Dolt remotes can use DoltHub's free tier.
 Not for solo-agent or small-project work, where a markdown file's simplicity wins, or for shops that will not accept a database in the repo.
 The disagreeable claim I will defend: every markdown task file is a beads database with worse concurrency, and the file format's familiarity is doing more work than its engineering.
 
+## Changes
+
+- 2026-08-27 - Created in the Task management category seed, recording the gastownhall rename, the Dolt-backed architecture, and the missing Show HN launch thread.
+- 2026-09-04 - Refreshed the status sentence, noting the v1.3.0-rc.1 prerelease.
+- 2026-09-05 - Corrected the v1.3.0-rc.1 prerelease date to 2026-08-31.
+
 ## See also
 
 - [Gas Town](../gastown/index.md) - the orchestration system beads feeds, from the same org

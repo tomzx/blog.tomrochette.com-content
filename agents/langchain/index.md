@@ -59,6 +59,10 @@ LangSmith as of 2026-09-12: Developer $0 with 5k base traces/month, Plus $39/sea
 I would not pick LangChain in 2026 purely for RAG, its original job: retrieval has commoditized into provider APIs and agentic search, and the differentiating value has moved to the harness and evaluation layers.
 Disagree if you like; the retrieval-first framing is my call, not the docs'.
 
+## Changes
+
+- 2026-08-24 - Created among the seed notes of the Retrieval category.
+
 ## See also
 
 - [LlamaIndex](../llamaindex/index.md) - the retrieval-first counterpart, pivoting to documents

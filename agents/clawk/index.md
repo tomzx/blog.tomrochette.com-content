@@ -52,6 +52,10 @@ Free and open source under Apache-2.0; the only costs are the VM resources on yo
 Recommended for macOS engineers who want to stop approving every command without handing over the laptop, and who accept pre-1.0 churn.
 Not for Linux-primary teams (yet), and not for anyone threat-modeling a determined exfiltration attempt through allowed domains.
 
+## Changes
+
+- 2026-09-05 - Created from the entrant-resolution run, profiling disposable per-agent Linux VMs on macOS.
+
 ## See also
 
 - [Sandboxing Feature Matrix](../sandboxing-feature-matrix/index.md) - where the disposable-VM column sits among the isolation layers

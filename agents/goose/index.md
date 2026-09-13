@@ -60,6 +60,12 @@ The unusual path is subscription reuse: existing Claude, ChatGPT, or Gemini subs
 **Recommended for engineers who want an agent whose stewardship outlives any one company, and for automation work beyond pure coding.**
 Not for teams that want a coding-specialized harness or a single vendor's support contract.
 
+## Changes
+
+- 2026-08-24 - Created in a new-entrant scan with the AAIF move and ACP subscription-reuse path recorded.
+- 2026-08-26 - Reconciled the AAIF timeline (contribution at the December 9, 2025 formation, migration completed April 7, 2026).
+- 2026-08-27 - Canonicalized the aaif.io formation-announcement reference.
+
 ## See also
 
 - [Agentic Coding Tools Landscape](../agentic-coding-tools-landscape/index.md) - goose in the independent tail of the harness layer

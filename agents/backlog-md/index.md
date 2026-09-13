@@ -59,6 +59,10 @@ No paid tier, hosting, or account exists.
 Not for multi-agent shared queues (no claims) or organizations needing a vendor to blame.
 My disagreeable claim: its three checkpoints are what spec-driven development actually needed, a enforced review cadence rather than more templates, and [spec-kit](../spec-kit/index.md)'s constitution files are weaker oversight than one gate a human actually attends.
 
+## Changes
+
+- 2026-08-27 - Created in the Task management category seed with the three-checkpoint review model, dogfooding claim, and terminal kanban recorded.
+
 ## See also
 
 - [beads](../beads/index.md) - the graph-database counterpoint from the same era

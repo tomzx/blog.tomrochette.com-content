@@ -59,6 +59,11 @@ Ten percent of subscriptions is pledged to CAMEL-AI.org.
 **Recommended for engineers who want to visually run parallel specialist agents on their own hardware under a permissive license.**
 Not for buyers who need vendor accountability history, and not for the quick-start path if local-only is the requirement, because that path phones home.
 
+## Changes
+
+- 2026-08-30 - Created as the assistant-runtimes note on the CAMEL workforce desktop, with the unverified built-in-tools count dropped.
+- 2026-09-07 - Cowork reference moved to claude.com/product/cowork.
+
 ## See also
 
 - [Assistant Runtimes Feature Matrix](../assistant-runtimes-feature-matrix/index.md) - the category comparison this note joins

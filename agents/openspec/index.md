@@ -59,6 +59,10 @@ No paid tier or hosted product as of 2026-09-12.
 Not for organizations that need a vendor to call or a constitution ceremony.
 My disagreeable claim: the delta-archive idea is the one durable invention this category has produced, spec-kit popularized the movement but OpenSpec's change-ledger is what the survivors will copy.
 
+## Changes
+
+- 2026-08-27 - Created as the Spec-driven development category expanded to four members, recording Fission AI's delta-proposal model and brownfield-first philosophy.
+
 ## See also
 
 - [GitHub Spec Kit](../spec-kit/index.md) - the movement root it complements

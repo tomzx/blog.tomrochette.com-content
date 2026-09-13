@@ -63,6 +63,10 @@ No paid tiers; the site credits FormKit, Inc. for sponsorship.
 Not for anyone who needs a supported product, documentation depth, or remote execution.
 My disagreeable claim: multi-agent fan-out is mostly a gimmick, and dmux's genuinely durable idea is resumable agent terminals, which every GUI dashboard should copy.
 
+## Changes
+
+- 2026-08-24 - Created in the Orchestration category seed.
+
 ## See also
 
 - [Claude Squad](../claude-squad/index.md) - the leaner tmux alternative in the same niche

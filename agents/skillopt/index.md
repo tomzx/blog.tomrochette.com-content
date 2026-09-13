@@ -58,6 +58,10 @@ The costs are training-time tokens on your own API budget and the verifier engin
 **Recommended for teams that already have scored tasks and a verifier, who want their skill files to earn their place empirically.**
 Not for subjective domains without reliable scoring, or anyone expecting trained-skill magic without building the evaluation harness first.
 
+## Changes
+
+- 2026-08-30 - Created in the owner-directed star sweep as a Skills note.
+
 ## See also
 
 - [Skills Feature Matrix](../skills-feature-matrix/index.md) - the category comparison this note joins

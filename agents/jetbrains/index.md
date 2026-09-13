@@ -58,6 +58,10 @@ AI Pro is $8.33 per user/month (annual) and AI Ultimate is $25 per user/month, m
 **Recommended for teams whose languages are JetBrains-strong and who want one analysis engine under chat, agent, and refactor.**
 Not for anyone who needs an open editor or a large community ecosystem.
 
+## Changes
+
+- 2026-08-23 - Created as one of the five seed notes of the Surfaces category.
+
 ## See also
 
 - [Agentic Coding Tools Landscape](../agentic-coding-tools-landscape/index.md) - the surface layer this note belongs to

@@ -56,6 +56,10 @@ The blog is sponsor-funded (GitHub sponsors at $10/month buy a monthly curated d
 **Recommended for any engineer who works with LLMs daily and wants a low-DSP, high-signal feed plus a searchable archive of working patterns.**
 Not for people who prefer periodic synthesis over daily volume, or who want a vendor-neutral enterprise take.
 
+## Changes
+
+- 2026-08-29 - Created in the People and publications category seed.
+
 ## See also
 
 - [Agentic Coding Tools Landscape](../agentic-coding-tools-landscape/index.md) - the map his daily notes keep current

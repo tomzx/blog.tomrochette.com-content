@@ -61,6 +61,11 @@ A hosted cloud is in waitlist with no published pricing as of 2026-09-12.
 Not for single-agent coding workflows, where a harness plus a task tracker is sufficient machinery.
 The disagreeable claim I will defend: "manage business goals, not pull requests" is the correct split in this whole section, the worktree orchestrators and the goal control plane are different products, and Paperclip is the first open-source tool to get the second abstraction right.
 
+## Changes
+
+- 2026-08-27 - Created in the Control planes category seed, recording the company-versus-employee framing and the heartbeat-and-checkout execution model.
+- 2026-08-27 - Updated the Compared-to OpenClaw entry to link the new note instead of the bare GitHub URL.
+
 ## See also
 
 - [Gas Town](../gastown/index.md) - the repo-scale counterpart to the company-scale control plane

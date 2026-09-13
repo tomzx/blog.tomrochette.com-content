@@ -58,6 +58,11 @@ Confident AI platform: Free (2 seats, 5 test runs per week), Starter $200/month,
 **Recommended for Python teams that want LLM behavior under the same merge gate as unit tests, with deliberate opt-outs configured for the cloud logging.**
 Not for teams that cannot tolerate LLM-judge variance, or that need score parity across Python and TypeScript today.
 
+## Changes
+
+- 2026-08-30 - Created as an evaluation research note recording the open-core split caution.
+- 2026-09-08 - Updated the docs reference after deepeval moved its documentation from docs.confident-ai.com to deepeval.com.
+
 ## See also
 
 - [Evaluation and Review Feature Matrix](../evaluation-review-feature-matrix/index.md) - the category comparison this note joins

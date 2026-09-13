@@ -66,6 +66,14 @@ Mem0's $19 Starter undercuts everyone; Zep's credit metering prices the audit tr
 - One developer, multiple agent CLIs, one repo: Engrim, the only column that keeps one provenance-tagged store every CLI reads.
 - Memory that must follow you across machines and apps without a vendor: Memoryfields, with the caveat that the spec is a two-week-old draft and its contradiction-handling row is empty.
 
+## Changes
+
+- 2026-08-24 - Created with four columns and rows adapted to memory (memory model and lock-in).
+- 2026-08-26 - Extended from four to five columns with Cognee, marking unverified contradiction and audit cells.
+- 2026-08-30 - Added the claude-mem column, reaching six, and updated the architecture-row prose.
+- 2026-09-04 - Extended from six to seven columns with Memoryfields and extended the reading and choosing sections.
+- 2026-09-10 - Extended from seven to eight columns with Engrim.
+
 ## See also
 
 - [Context Management Patterns](../context-management-patterns/index.md) - where memory sits among the other context techniques

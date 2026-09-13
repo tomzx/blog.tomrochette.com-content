@@ -3,7 +3,7 @@ title: Outlines
 created: 2026-08-24
 updated: 2026-09-06
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, structured-outputs, constrained-decoding, open-source]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, structured-outputs, constrained-decoding, open-source, llm=glm-5.3-flash]
 readability: 3
 audience_notes: >
   Engineers running open-weight models locally or behind their own serving stack who need guaranteed structured output.
@@ -60,6 +60,10 @@ The adjacent money is .txt's: the Dottxt API (early access) and enterprise libra
 **Recommended as the portability layer for type-constrained generation across mixed local and hosted models, and for anything regex- or grammar-based that vendor JSON subsets cannot express.**
 The disagreeable part: I would not build a new high-throughput serving stack on Outlines' own engine in 2026; its durable value is the API and the original idea, and the engines have moved on.
 Not for teams that only ever call OpenAI or Anthropic and never serve their own models.
+
+## Changes
+
+- 2026-08-24 - Created in the Hybrid execution category seed.
 
 ## See also
 

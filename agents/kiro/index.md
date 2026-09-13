@@ -58,6 +58,13 @@ Pro $20 (1,000 credits), Pro+ $40 (2,000), Pro Max $100 (5,000), Power $200 (10,
 **Recommended for spec-disciplined teams, especially those already buying through AWS.**
 Not for credit-averse solo engineers or anyone who wants an open client.
 
+## Changes
+
+- 2026-08-24 - Created in the owner-requested Surfaces expansion with credit tiers and the incident record.
+- 2026-08-25 - Corrected the status attribution, moving release-cadence evidence to the vendor changelog and adding it as a reference.
+- 2026-09-02 - Added Kiro Web general availability and the ISO 27001 certification.
+- 2026-09-12 - Recorded Crew 0.6.0 session-harness selection alongside CLI patch updates.
+
 ## See also
 
 - [Agentic Coding Tools Landscape](../agentic-coding-tools-landscape/index.md) - the surface layer this note belongs to

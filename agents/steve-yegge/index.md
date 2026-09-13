@@ -56,6 +56,11 @@ No meaningful paywall; the value is the essays and the open-source projects, not
 **Recommended for engineers who want an opinionated, builder-grounded take on where agent development is headed, and who will cross-check the hype.**
 Not for readers who prefer neutral synthesis or who object to the chaotic, credit-hungry rollout style.
 
+## Changes
+
+- 2026-08-29 - Created in the People and publications category seed.
+- 2026-08-30 - Updated the gastown repo link after the project moved to the gastownhall org.
+
 ## See also
 
 - [Gas Town](../gastown/index.md) - the workspace manager that implements his supervision thesis

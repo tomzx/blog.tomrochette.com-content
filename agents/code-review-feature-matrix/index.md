@@ -60,6 +60,10 @@ It launched as a 121-point Show HN review bot in 2024 and pivoted to managed age
 - Already running many coding agents and want managed infrastructure with transcripts and budget caps: Ellipsis Agent Cloud, review included as a use case.
 - GitHub-all-in and price-sensitive: Copilot's platform-native reviewer, covered inside the VS Code note, now leads monthly volume; measure whether its depth beats the dedicated columns before paying for one.
 
+## Changes
+
+- 2026-08-30 - Created in the Code review category seed with five columns and the where-your-code-runs thesis.
+
 ## See also
 
 - [Evaluation and Review Feature Matrix](../evaluation-review-feature-matrix/index.md) - the neighboring quality-control category, evals and observability rather than PR review

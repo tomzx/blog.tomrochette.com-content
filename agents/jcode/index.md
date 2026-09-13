@@ -65,6 +65,12 @@ Enterprise is custom.
 Recommended for engineers running many parallel agents on one machine who want memory and multi-agent coordination built in, and who accept self-published numbers and v0.x churn.
 Not for teams needing IDE integration, HTTP MCP, or independent benchmarking today.
 
+## Changes
+
+- 2026-08-30 - Created in the Harnesses category on an owner request, with the resource-efficiency thesis recorded.
+- 2026-09-02 - Re-framed the upstream benchmark comparison (about 10 MB per added session versus Claude Code's 212.7 MB).
+- 2026-09-04 - Rewrote the embedding-cost caution, which had become factually wrong once jcode.sh published both embedding states.
+
 ## See also
 
 - [Harness Feature Matrix](../harness-feature-matrix/index.md) - jcode measured against the other fourteen harnesses on shared rows

@@ -58,6 +58,10 @@ You supply LLM keys and infrastructure; the only money path is third-party hosti
 **Recommended for engineers who want to read and extend their assistant runtime in Python, binding it to localhost and taking the security surface seriously themselves.**
 Not for production assistants unattended on the open internet, or anyone who needs vendor support.
 
+## Changes
+
+- 2026-08-30 - Created in the second owner-directed sweep, recording HKUDS' Python runtime with its alpha and bus-factor cautions.
+
 ## See also
 
 - [Assistant Runtimes Feature Matrix](../assistant-runtimes-feature-matrix/index.md) - the category comparison this note joins

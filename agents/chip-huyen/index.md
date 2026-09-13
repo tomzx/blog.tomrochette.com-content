@@ -57,6 +57,10 @@ The books are paid via O'Reilly, Amazon, and retailers; "Machine Learning Interv
 **Recommended for the engineer or team lead who wants one structured overview of everything involved in shipping an LLM application, before specializing.**
 Not for the practitioner who wants current, hands-on tool walkthroughs.
 
+## Changes
+
+- 2026-08-29 - Created as the systems-survey note on the most-read O'Reilly AI book of 2025.
+
 ## See also
 
 - [Model Selection for Coding Tasks](../model-selection-for-coding-tasks/index.md) - the model-choice step her survey covers, made into a process

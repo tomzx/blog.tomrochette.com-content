@@ -3,7 +3,7 @@ title: Agent Skills open standard
 created: 2026-08-24
 updated: 2026-09-09
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, skills, agent-extensions, open-standards]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, skills, agent-extensions, open-standards, llm=glm-5.3-flash]
 readability: 3
 audience_notes: >
   Engineers writing SKILL.md packages meant to run in more than one agent harness.
@@ -58,6 +58,11 @@ Not applicable.
 **Recommended as the default packaging for any procedure you want an agent to repeat.**
 Not for live tool and data connections or anything needing runtime guarantees, which is what MCP is for.
 My disagreeable claim: SKILL.md is quietly becoming the interface between software vendors and agents, and any docs team without a published skill file will be effectively invisible to coding agents by 2027.
+
+## Changes
+
+- 2026-08-24 - Created in the Skills category seed.
+- 2026-08-26 - Restored the mandatory not-for bottom-line clause and added Anthropic's untrusted-skills engineering post as its critical source.
 
 ## See also
 

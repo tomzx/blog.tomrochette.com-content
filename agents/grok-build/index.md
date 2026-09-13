@@ -64,6 +64,10 @@ The build docs I fetched never state what a consumer Grok subscription includes 
 Not for untrusted repositories without the `strict` sandbox profile and a ZDR agreement, and not for anyone who needs a community-governed client, because upstream takes no outside contributions.
 I would not standardize on it while the default data path concentrates your code on xAI infrastructure without per-session guarantees.
 
+## Changes
+
+- 2026-09-12 - Created in the Harnesses category from the same-day entrant resolution.
+
 ## See also
 
 - [Harness Feature Matrix](../harness-feature-matrix/index.md) - the capability column this note adds

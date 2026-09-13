@@ -54,6 +54,14 @@ A referral program pays referrers $10 per month for each of a referred developer
 Recommended for engineers running multiple agents who want past sessions as a queryable corpus and are willing to verify the efficiency claims on their own workload.
 Not for anyone needing audited cost reporting (agentsview's job) or provenance guarantees beyond the local machine.
 
+## Changes
+
+- 2026-09-05 - Created from the entrant-resolution run, filling the session-analytics matrix's second column.
+- 2026-09-06 - Recorded new pro pricing at $20/month with a 14-day trial.
+- 2026-09-07 - Comparisons link replaced with the per-topic path after the old path began returning 404s.
+- 2026-09-09 - Caution updated after comparison numbers moved from the comparisons page to the home page.
+- 2026-09-12 - Recorded the new paid referral program.
+
 ## See also
 
 - [Session Analytics Feature Matrix](../session-analytics-feature-matrix/index.md) - the category this note extends to two columns

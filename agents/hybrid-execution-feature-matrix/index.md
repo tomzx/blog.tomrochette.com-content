@@ -69,6 +69,10 @@ Outlines compiles once per schema and then runs at microseconds of overhead, at 
 - Agent loops where one malformed tool call wrecks a run: a vendor with strict tool use beats any library.
 - Zero tolerance for retry latency: any decoding-time option, budgeting for Anthropic's injected tokens and OpenAI's compile latency.
 
+## Changes
+
+- 2026-08-24 - Created with four columns and category rows including the guarantee-mechanism comparison.
+
 ## See also
 
 - [Harness Feature Matrix](../harness-feature-matrix/index.md) - the same treatment for terminal coding agents

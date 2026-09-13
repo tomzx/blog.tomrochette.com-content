@@ -61,6 +61,11 @@ The hidden cost is compression: those LLM calls draw on your own model subscript
 **Recommended for heavy daily Claude Code or OpenCode users who feel the re-explaining tax every morning and accept the token bill for compression.**
 Not for privacy-strict environments, anyone unwilling to run a local worker service, or small projects where a curated CLAUDE.md is still the right answer.
 
+## Changes
+
+- 2026-08-30 - Created as a memory note covering session capture, compression, and reinjection, with 92,602 stars recorded.
+- 2026-09-06 - Recorded the README rebrand to Grok Mem and the added Cursor and Grok Bot marketplace plugins.
+
 ## See also
 
 - [Memory Feature Matrix](../memory-feature-matrix/index.md) - the category comparison this note joins

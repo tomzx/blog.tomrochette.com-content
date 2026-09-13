@@ -52,6 +52,11 @@ Free and open source under MIT; you supply the machine and the model tokens.
 Recommended for engineers who want a local, auditable runner around agent CLIs and are comfortable being close to the only users.
 Not for teams needing proven scale, resumable pipelines, or a community to escalate to.
 
+## Changes
+
+- 2026-09-05 - Created when the entrant-resolution run accepted it into Software factory for its named-command boundary.
+- 2026-09-09 - Corrected the releases line to read v0.1.0 through v0.4.0.
+
 ## See also
 
 - [Software Factory Feature Matrix](../software-factory-feature-matrix/index.md) - where the controlled-entrypoint column sits among the factories

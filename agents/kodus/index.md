@@ -61,6 +61,12 @@ Self-hosting under AGPL-3.0 is free, minus your own model bills.
 Not for teams that need a vendor with verified funding, an audited security posture, or contractual longevity.
 My disagreeable take: I trust a reviewer whose business model survives zero token markup more than one whose margin depends on it, because a SaaS that resells model usage is structurally tempted to skimp on tokens, and skimped tokens are exactly how reviewers quietly get worse.
 
+## Changes
+
+- 2026-08-30 - Created in the Code review category as the AGPL dual-license BYOK reviewer note.
+- 2026-09-02 - Recorded the pricing restructure (Community free, Teams BYOK $10 per developer, Enterprise) and updated matrix pricing cells.
+- 2026-09-05 - Added the Teams $8 per developer annual option alongside the $10 monthly rate.
+
 ## See also
 
 - [Code Review Feature Matrix](../code-review-feature-matrix/index.md) - where Kodus now sits among the category's members

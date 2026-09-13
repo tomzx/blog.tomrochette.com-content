@@ -3,7 +3,7 @@ title: Semantic code search in coding tools
 created: 2026-08-24
 updated: 2026-08-26
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, code-retrieval, embeddings, rag]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, code-retrieval, embeddings, rag, llm=glm-5.3-flash]
 readability: 3
 audience_notes: >
   Engineers building or evaluating codebase retrieval inside AI coding tools.
@@ -62,6 +62,11 @@ In practice: bundled into tool subscriptions (Cursor, VS Code Copilot, Devin) wi
 **Recommended as one signal among several, never as the single retriever; if your tool ships semantic search, use it, but do not design your workflow around the index existing.**
 My disagreeable claim: local embeddings indexes will keep disappearing from major coding tools because agentic search wins on freshness and cost, and in 2026 a team building its own code RAG should treat the index as an optional accelerator behind a grep-first agent.
 The Devin and VS Code platform bets are the counterargument, and they may well win on the enterprise side.
+
+## Changes
+
+- 2026-08-24 - Created in the Retrieval category seed.
+- 2026-08-26 - Stated the missing independent-footprint signal explicitly per the citation standard and added the updated field.
 
 ## See also
 

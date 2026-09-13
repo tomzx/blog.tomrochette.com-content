@@ -51,6 +51,11 @@ If your changes are mostly small, that row alone picks your column.
 - Heterogeneous org, zero cost, constitution ceremony acceptable: Spec Kit.
 - Want specs as a managed product and accept portability questions: Tessl.
 
+## Changes
+
+- 2026-08-27 - Created as a single-column Spec Kit scaffold.
+- 2026-08-27 - Rebuilt to four columns (BMad, OpenSpec, Spec Kit, Tessl) across the ownership and ceremony-sizing axes.
+
 ## See also
 
 - [Task Management Feature Matrix](../task-management-feature-matrix/index.md) - the boards these specs eventually fill

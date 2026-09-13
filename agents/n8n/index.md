@@ -59,6 +59,12 @@ Self-hosting the Community Edition is free; Business-and-up self-hosted licenses
 Not for anyone building a product whose value derives substantially from n8n itself, or who needs the agents layer hardened today.
 My disagreeable claim: for scheduled and webhook-triggered coding-adjacent work, n8n plus a coding agent beats writing your own queue-and-cron service for most teams, and calling it "open source" (as much of the community does) is factually wrong and matters.
 
+## Changes
+
+- 2026-08-24 - Created among the four executions notes of the research index seeding run.
+- 2026-08-26 - Added the launch and Series C Hacker News threads as references grounding the community-strengths claim.
+- 2026-09-09 - Moved the license reference to the sustainable-use-license path after the old URL began returning 404.
+
 ## See also
 
 - [GitHub Agentic Workflows](../github-agentic-workflows/index.md) - the repo-centric execution substrate

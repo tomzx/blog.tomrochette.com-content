@@ -59,6 +59,10 @@ Hobby is free (personal repos, limited Graphite Chat and AI Reviews), Starter is
 Not for anyone choosing a reviewer on multi-year durability, because the product's owner has already changed once and second acquisitions happen.
 My disagreeable take: independent reviewers were always borrowing the code host's distribution anyway, so consolidation into Cursor is not a betrayal of this category, it is the category reaching its end state, and the other independents should be priced like they know it.
 
+## Changes
+
+- 2026-08-30 - Created in the Code review category with the Diamond deprecation and Cursor acquisition recorded.
+
 ## See also
 
 - [Code Review Feature Matrix](../code-review-feature-matrix/index.md) - where Diamond's successor now sits among the category's members

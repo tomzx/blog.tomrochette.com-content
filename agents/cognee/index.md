@@ -58,6 +58,12 @@ Cloud: Free $0 (one workspace, 1M tokens included, unlimited users), Standard $1
 **Recommended for teams that need multi-user graph memory and will run the stack themselves, or want flat per-token cloud billing.**
 Not for solo coding-agent work, where plain files win, or for anyone without the appetite to operate three storage backends.
 
+## Changes
+
+- 2026-08-26 - Created as a Memory note after an entrant scan, citing seven verified sources.
+- 2026-09-06 - Recorded that contradiction handling is now documented on the pricing page as an Enterprise BYOC feature.
+- 2026-09-09 - Standard cloud price cut from $2.50 to $1.00 per 1M tokens; note, matrix cell, and choosing bullet updated.
+
 ## See also
 
 - [Memory Feature Matrix](../memory-feature-matrix/index.md) - this note's column against the other four approaches

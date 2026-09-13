@@ -118,6 +118,17 @@ A harness that adopts the open conventions is making a promise about your exit; 
 - Route batch work to the cloud form of the harness you already use, and read the session caps before promising a delivery date.
 - Graduate to an orchestration tool when reviewing parallel agents, not running them, becomes your actual bottleneck.
 
+## Changes
+
+- 2026-08-22 - Created as the section's first tracker, a four-layer map of the agentic dev tool landscape.
+- 2026-08-22 - Cross-linked the eight harness notes, corrected the Gemini CLI free-tier line, and updated the subscription-versus-BYOK split.
+- 2026-08-23 - Replaced the stale Windsurf line with the Devin Desktop fact and cross-linked the five new surface notes.
+- 2026-08-24 - Extended the Surfaces section with Antigravity and the four-way tail and added three entrants to the independent tail.
+- 2026-08-26 - Reconciled the AAIF timeline with the goose note and extended the surfaces tail with the two 2026 exits and the Cline consolidation sentence.
+- 2026-08-27 - Added the Gas Town exception to the orchestration paragraph and the Kilo Code and OpenHands lines to the independent tail.
+- 2026-08-29 - Added the fx line to the harness tail.
+- 2026-08-30 - Added the jcode line to the harness tail and updated the article for the eleven new notes.
+
 ## See also
 
 - [Managing Many Concurrent LLM Agent Sessions](../../managing-many-llm-agent-sessions/index.md) - the supervision bottleneck that the orchestration layer exists to absorb

@@ -60,6 +60,11 @@ Recommended for individual engineers who want inspectable, portable agent memory
 Not for teams needing concurrent multi-agent writes, contradiction handling, or cross-user memory.
 My disagreeable claim: the tooling does not matter yet, and adopting it now buys you nothing over `grep` plus your own embedding script, but the essay has already changed what "agent memory" debates take for granted.
 
+## Changes
+
+- 2026-09-04 - Created in the Memory category after the 191-point launch essay cleared the citation bar.
+- 2026-09-05 - Reworded the star claim after the combined repositories crossed the 85-star mark.
+
 ## See also
 
 - [File-based agent memory](../file-based-agent-memory/index.md) - the conventions Memoryfields formalizes and extends beyond a single repo

@@ -58,6 +58,11 @@ There is no paid tier and no cloud component.
 Recommended for teams that run the same multi-agent workflow over and over and want deterministic, auditable, repeatable runs on top of a coding agent.
 Not for one-off features, which a single agent prompt handles cheaper, and not for anyone unwilling to wire their own gates and prompts, because the shipped defaults are deliberate placeholders.
 
+## Changes
+
+- 2026-08-29 - Created as the founding member of the new Software factory category.
+- 2026-08-29 - Compared-to rewritten to name Fluent and HAR as peers.
+
 ## See also
 
 - [Code Factories: Factorio](../../code-factories-factorio/index.md) - the factory metaphor the corpus develops, which this category names its geometry after

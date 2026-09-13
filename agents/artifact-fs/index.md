@@ -59,6 +59,10 @@ The Cloudflare Artifacts service it complements is usage-based on Workers Paid: 
 **Recommended for platform engineers whose agent sandboxes burn minutes cloning big repositories on macOS or Linux hosts they control.**
 Not for small or medium repos, Windows or locked-down CI environments, or anyone needing a stable release today.
 
+## Changes
+
+- 2026-08-30 - Created as a sandboxing research note on Cloudflare's FUSE provisioning driver, with a vendor-benchmark caveat.
+
 ## See also
 
 - [Sandboxing Feature Matrix](../sandboxing-feature-matrix/index.md) - the category comparison this note joins, and the prose naming it the provisioning column

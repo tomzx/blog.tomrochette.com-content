@@ -61,6 +61,10 @@ You pay only the underlying provider's token costs, including any retry calls.
 The disagreeable part: I think most single-provider Instructor deployments written after 2025 are incidental complexity, and the minimal correct design is native structured outputs plus a thin Pydantic validation step.
 Not for teams that need agents, evals, or hard latency budgets.
 
+## Changes
+
+- 2026-08-24 - Created among the seed notes of the Hybrid execution category.
+
 ## See also
 
 - [OpenAI Structured Outputs](../openai-structured-outputs/index.md) - the native feature that absorbed much of Instructor's original job

@@ -59,6 +59,11 @@ Conductor is the closed macOS session manager for people who want polish and acc
 Recommended for Claude Code or Codex users who want their existing sessions on a phone, encrypted, with self-hosting as an option.
 Not for multi-provider orchestration, worktree isolation, or Windows and Linux desktops; pick Paseo, Omnara, or Conductor instead.
 
+## Changes
+
+- 2026-09-06 - Created in the Orchestration category seed.
+- 2026-09-12 - Corrected the factually wrong claim that it out-stars every category tool (cmux is bigger).
+
 ## See also
 
 - [Paseo](../paseo/index.md) - the daemon-based rival that actually contests the mobile slot

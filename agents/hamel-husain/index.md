@@ -58,6 +58,11 @@ The course is paid ($4,200 on Maven as of 2026-09-12), and Parlance Labs sells c
 **Recommended for any engineer whose agent produces outputs nobody can verify, because the data-first evaluation loop is the highest-leverage improvement available.**
 Not for someone looking for survey-level breadth or for a tool recommendation; it is a process, not a product.
 
+## Changes
+
+- 2026-08-29 - Created in the People and publications expansion as the evaluation-and-verification note.
+- 2026-08-30 - Aligned the course claim to the current page wording.
+
 ## See also
 
 - [Context Management Patterns](../context-management-patterns/index.md) - the feed-side discipline that evals then verify

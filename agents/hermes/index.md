@@ -61,6 +61,12 @@ Or bring your own provider keys, with serverless backends billed by the platform
 Not for minimal-footprint deployments or anyone uncomfortable with an agent that edits its own memory.
 The disagreeable claim I will defend: the channel-list era of this category is over and the memory-loop era decides the winner, and Hermes is a year ahead of the -claw family on exactly that axis.
 
+## Changes
+
+- 2026-08-27 - Created as an Assistant runtimes note after the control-planes alternatives scan.
+- 2026-09-09 - Added paid tiers (Free, Plus, Super, Ultra via Nous Portal), retiring the no-paid-tier claim.
+- 2026-09-12 - Paid tier prices went public on the official site, retiring the bot-wall claim.
+
 ## See also
 
 - [OpenClaw](../openclaw/index.md) - the ecosystem giant it chases

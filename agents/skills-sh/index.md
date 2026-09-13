@@ -60,6 +60,14 @@ Free.
 Not for air-gapped or compliance-bound environments, where an opt-out-telemetry installer needs review before it ever runs.
 My disagreeable claim: marketplaces are the least interesting part of this ecosystem, the ten skills your team writes itself will beat the leaderboard's top ten, and I would not let an agent auto-install from it.
 
+## Changes
+
+- 2026-08-24 - Created in the Skills category seed.
+- 2026-08-26 - Restored the mandatory Not-for-Y bottom-line clause.
+- 2026-09-05 - Rewrote the audits caution after the Snyk-Critical azure-validate entry stopped appearing.
+- 2026-09-06 - Added the enterprise publisher mix with aggregate install figures.
+- 2026-09-07 - Updated the audits caution as azure-validate returned to the page marked Safe.
+
 ## See also
 
 - [Agent Skills open standard](../agent-skills-open-standard/index.md) - the format this registry distributes

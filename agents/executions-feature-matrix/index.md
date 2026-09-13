@@ -57,6 +57,10 @@ hooks sit in between, since project-scope settings can be committed and user sco
 - Need webhooks, chat, or SaaS app events outside the repository to drive agents: n8n, self-hosted, after reading the license.
 - Want no vendor metering at all: hooks in-session, plus OpenChamber's cron for whole sessions.
 
+## Changes
+
+- 2026-08-24 - Created with four columns and rows adapted to executions (trigger and execution location).
+
 ## See also
 
 - [Harness Feature Matrix](../harness-feature-matrix/index.md) - the same treatment for terminal harnesses

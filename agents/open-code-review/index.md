@@ -59,6 +59,11 @@ Costs are your own LLM API calls, or zero in delegation mode where your existing
 **Recommended for teams that want self-hosted, rule-aware, line-precise automated review in CI with their own model keys, and that understand the precision-over-recall trade.**
 Not for teams needing independently validated precision numbers today, or turnkey hosted review without wiring.
 
+## Changes
+
+- 2026-08-30 - Created as an evaluation note on Alibaba's hybrid reviewer.
+- 2026-08-30 - Moved into the new Code review category, with see-also links updated to the category matrix.
+
 ## See also
 
 - [Code Review Feature Matrix](../code-review-feature-matrix/index.md) - the category comparison this note joins

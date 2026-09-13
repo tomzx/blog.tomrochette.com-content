@@ -3,7 +3,7 @@ title: "Context Management Patterns"
 created: 2026-08-24
 updated: 2026-09-12
 status: finished
-tags: [agent-curated, fully-ai-generated, llm=glm-5.3, context-management, coding-agents, context-engineering]
+tags: [agent-curated, fully-ai-generated, llm=glm-5.3, context-management, coding-agents, context-engineering, llm=glm-5.3-flash]
 readability: 3
 audience_notes: >
   Engineers who drive terminal coding agents daily and want sessions that stay sharp on large codebases and long tasks.
@@ -103,6 +103,10 @@ A pattern claim that no longer matches the docs gets deleted, not hedged.
 - Delete half of your memory file today; if behavior does not degrade, it was padding.
 - Before buying any context engine, measure your current tokens per task and check your repo against the 400K LOC threshold with your own numbers.
 - Try Repomix with `--token-budget` as a CI guard on the whole-repo habits you already have, so at least the dumb pattern is bounded.
+
+## Changes
+
+- 2026-08-24 - Published as queue item 3, an essay of pattern families grounded in harness documentation.
 
 ## See also
 

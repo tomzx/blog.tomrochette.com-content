@@ -60,6 +60,11 @@ Free and MIT; you pay model providers, or OpenCode Zen, for tokens.
 Not for teams that need stable extension APIs between releases; the surface moves fast enough to break you.
 My disagreeable claim: plugins, not skills, are OpenCode's actual differentiator, because every harness now reads the same SKILL.md subset, so choosing a harness on skills support alone is a mistake.
 
+## Changes
+
+- 2026-08-24 - Created in the Skills category seed.
+- 2026-08-26 - Restored the mandatory Not-for-Y bottom-line clauses in a review-driven maintenance pass.
+
 ## See also
 
 - [OpenCode](../opencode/index.md) - the harness this extends

@@ -60,6 +60,10 @@ No hosted tier; the only costs are the model providers you connect.
 **Recommended for engineers who want a harness they can read, extend, and pin, and who will take sandboxing seriously themselves.**
 Not for teams wanting turnkey guardrails, MCP-centric stacks, or a stable API surface this year.
 
+## Changes
+
+- 2026-08-30 - Created in the Harnesses category, recording Earendil's minimal extensible harness and its no-MCP policy.
+
 ## See also
 
 - [Harness Feature Matrix](../harness-feature-matrix/index.md) - the capability comparison this note joins

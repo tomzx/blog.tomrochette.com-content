@@ -62,6 +62,10 @@ There is nothing to buy; the only cost is integration time.
 **Recommended for anyone who wants to choose a harness and an editor independently; it is the cheapest portability insurance in the coding-agent stack today.**
 The disagreeable part: I think ACP matters more than any single agent or editor in this index, because it dissolves the vendor-marriage question the whole market is built on.
 
+## Changes
+
+- 2026-08-24 - Created in the Protocols category seed.
+
 ## See also
 
 - [Agentic Coding Tools Landscape](../agentic-coding-tools-landscape/index.md) - the four-layer map that names ACP the LSP moment of this cycle

@@ -53,6 +53,13 @@ ctx's moat is different: agent-facing retrieval, where the consumer of the searc
 - Needing to see what an agent is doing right now: not this category yet; use a harness-native view or watch for a live-observation note.
 - Single-agent users: your harness's built-in usage views are probably enough.
 
+## Changes
+
+- 2026-08-30 - Created as the Session analytics category's companion matrix, a single-column scaffold with the live-observation gap named in prose.
+- 2026-09-05 - Extended from one to two columns with ctx.
+- 2026-09-06 - Updated the ctx cell for its published pro pricing.
+- 2026-09-08 - Dropped the agentsview benchmark claim from the prose after the tool's docs removed it entirely.
+
 ## See also
 
 - [Executions Feature Matrix](../executions-feature-matrix/index.md) - the trigger-and-run layer whose runs these tools observe

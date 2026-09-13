@@ -59,6 +59,10 @@ Raindrop Cloud is optional: Hobby $0 (1,000 events/month), Pro $299/month plus p
 **Recommended for engineers actively developing agents with Claude Code or Codex who want the trace-to-fix loop on their laptop.**
 Not for teams needing CI-gated eval suites today, or Windows-primary shops hedged by "probably Windows" support.
 
+## Changes
+
+- 2026-08-30 - Created as an evaluation note, recording Raindrop's local agent debugger and the CI-disconnect criticism.
+
 ## See also
 
 - [Evaluation and Review Feature Matrix](../evaluation-review-feature-matrix/index.md) - the category comparison this note joins

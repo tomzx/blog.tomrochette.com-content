@@ -53,6 +53,14 @@ The subscription row runs the other way: only OpenAI and Anthropic ship a first-
 - Weights you can host: Alibaba, DeepSeek, Moonshot, or Zhipu, and none of the big three at any price.
 - Subscription-first teams: OpenAI or Anthropic, and read the transfer row before assuming the subscription follows your harness.
 
+## Changes
+
+- 2026-09-08 - Created on owner request with seven provider columns sorted alphabetically as a companion to the model selection guide.
+- 2026-09-08 - Moved Zhipu's long-context cell to 1M flat on models.dev evidence, widened the flat-1M club to five, and added the models.dev reference.
+- 2026-09-09 - Updated the Moonshot workhorse and pricing-window cells and fixed the Zhipu cached-price prose contradiction.
+- 2026-09-10 - Moved the DeepSeek workhorse cell to deepseek-flash and updated the Zhipu cells as the promo resolved to list.
+- 2026-09-12 - Updated the DeepSeek cells for the routing cancellation and gave Moonshot's flagship cell the OpenRouter price with the platform lag.
+
 ## See also
 
 - [Model Selection for Coding Tasks](../model-selection-for-coding-tasks/index.md) - the model-level pricing table every cell here traces to

@@ -54,6 +54,10 @@ No paid tier exists, as of 2026-09-12.
 **Recommended only for engineers who specifically need an Apache-2.0 editor fork and accept frozen features.**
 Not for anyone who wants the project's best days ahead of it.
 
+## Changes
+
+- 2026-08-24 - Created in the owner-requested Surfaces expansion, recording proven demand against the stall, with status set to dormant-leaning.
+
 ## See also
 
 - [Agentic Coding Tools Landscape](../agentic-coding-tools-landscape/index.md) - the surface layer this note belongs to

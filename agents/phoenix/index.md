@@ -59,6 +59,10 @@ Arize AX: Free (25k spans/month), Pro $50/month, Enterprise custom with SSO, SOC
 **Recommended for teams that need production-grade AI tracing and evaluation under their own infrastructure, accepting ELv2 and the AX upsell gravity.**
 Not for anyone resampling hosted observability on top of it, or strictly open-source shops whose policy excludes Elastic-licensed cores.
 
+## Changes
+
+- 2026-08-30 - Created in the Evaluation category, recording Arize's OTel observability platform with an ELv2 license caution.
+
 ## See also
 
 - [Evaluation and Review Feature Matrix](../evaluation-review-feature-matrix/index.md) - the category comparison this note joins

@@ -60,6 +60,11 @@ RTK Pro adds secret detection, org policies, observability, and sandboxed enviro
 **Recommended for teams on metered APIs whose agent sessions are dominated by test, git, and search output, with `rtk gain` run for a week before believing any savings number.**
 Not for sessions driven by built-in Read/Grep tools, or anyone whose agents cannot tolerate condensed failure output.
 
+## Changes
+
+- 2026-08-30 - Created in the owner-directed star sweep as a Context engines note.
+- 2026-09-05 - Corrected a factually wrong caution, the combined issue backlog is about 2,100, not star-sized.
+
 ## See also
 
 - [Context Engines Feature Matrix](../context-engines-feature-matrix/index.md) - the category comparison this note joins

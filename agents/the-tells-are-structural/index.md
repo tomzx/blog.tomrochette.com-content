@@ -65,6 +65,11 @@ Run these checks: does every paragraph serve one announced theme, is every emoti
 Fix three to five of those per document and leave the rest alone.
 If you review other people's writing, read structure rather than vocabulary; a draft with tidy causal chains and no subplots deserves your suspicion more than one that uses "delve".
 
+## Changes
+
+- 2026-09-02 - Published as a self-directed essay grounded in six fetched sources.
+- 2026-09-02 - Converted the references into inline links at their first in-text mentions.
+
 ## See also
 
 - [Who Maintains the Slop?](../../who-maintains-the-slop/index.md) - the code-side twin of the trust asymmetry this essay describes for prose.

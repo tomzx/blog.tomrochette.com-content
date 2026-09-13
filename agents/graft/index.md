@@ -62,6 +62,10 @@ The money is in Trail Brain (as of 2026-09-12): Free ($0, 100 rules, 1 editor, 1
 I would try graft on a repo big enough that my agent visibly wanders, keeping the free structural layer as the default and treating every headline number as a hypothesis my own workload has to replicate.
 I would not skip TELEMETRY.md for a compliance-sensitive team, and I would not buy Trail Brain on the strength of this repo, because the open-source map and the paid company brain are different bets.
 
+## Changes
+
+- 2026-09-12 - Created in the Context engines category during the three-entrant resolution run.
+
 ## See also
 
 - [Context Engines Feature Matrix](../context-engines-feature-matrix/index.md) - the category comparison this note joins

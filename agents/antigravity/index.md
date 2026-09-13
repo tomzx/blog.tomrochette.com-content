@@ -58,6 +58,10 @@ Organizations: Google Cloud terms with consumption-based API pricing via the Gem
 **Recommended for engineers who want a capable multi-agent platform at $0 and can live with Google account coupling.**
 Not for proprietary-code environments that cannot absorb prompt-injection class incidents or blunt moderation.
 
+## Changes
+
+- 2026-08-24 - Created in the owner-requested Surfaces expansion.
+
 ## See also
 
 - [Agentic Coding Tools Landscape](../agentic-coding-tools-landscape/index.md) - where Antigravity sits across the surface and harness layers

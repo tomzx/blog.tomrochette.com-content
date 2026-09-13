@@ -60,6 +60,11 @@ There is no separate hooks tier.
 Not for one-off interactive use, where the config overhead buys little.
 I would go further: a team that relies on prompt instructions instead of PreToolUse hooks has not yet adopted agentic coding safely, and readers who think prompts are enough may disagree.
 
+## Changes
+
+- 2026-08-24 - Created in the Executions category seed.
+- 2026-08-30 - Corrected the open-issue count from 5k+ to about 15k after it proved materially wrong.
+
 ## See also
 
 - [Claude Code](../claude-code/index.md) - the harness these triggers live inside

@@ -59,6 +59,10 @@ Open source repos are fully free.
 Not for large monorepo teams that need independent quality evidence or a vendor with verified financials.
 My disagreeable take: free-for-open-source is the most underrated go-to-market weapon in this category, and I would rather a reviewer earn its reputation across a hundred thousand public repos anyone can inspect than across enterprise logos nobody can.
 
+## Changes
+
+- 2026-08-30 - Created when the entrant candidate pile was processed, as a Code review note.
+
 ## See also
 
 - [Code Review Feature Matrix](../code-review-feature-matrix/index.md) - where Sourcery now sits among the category's members

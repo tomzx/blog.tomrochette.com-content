@@ -61,6 +61,11 @@ Cloud subscriptions existed before the shutdown and were terminated with refunds
 Not for teams who need accountability, because there is no vendor left.
 My disagreeable claim: bloop's failure is evidence that this orchestration layer wants to be free infrastructure rather than SaaS margin, and I expect at least one more funded competitor to learn the same lesson.
 
+## Changes
+
+- 2026-08-24 - Created in the Orchestration category seed as a community-maintained death record after Bloop's shutdown.
+- 2026-08-26 - Sharpened the community-maintenance claim on evidence, rewrote the status line, and extended the nobody-is-paid caution.
+
 ## See also
 
 - [Conductor](../conductor/index.md) - the funded GUI counterpart whose fate will test that claim

@@ -59,6 +59,12 @@ Paid individual plans carry 1,500 (Pro), 7,000 (Pro+), or 20,000 (Max) monthly A
 **Recommended as the default surface for anyone who wants multiple harnesses and models one toggle away at the lowest entry price.**
 Not for teams that want the editor itself to come with strong opinions.
 
+## Changes
+
+- 2026-08-23 - Created in the Surfaces category seed.
+- 2026-08-29 - Documented the April self-serve pause as covering Business and Enterprise, with sign-ups reopening soon.
+- 2026-09-04 - Recorded the self-serve pause reopening per GitHub's September 3 changelog.
+
 ## See also
 
 - [Agentic Coding Tools Landscape](../agentic-coding-tools-landscape/index.md) - the surface layer this note belongs to

@@ -60,6 +60,12 @@ LlamaIndex's newer Chunker node parser wraps Chonkie rather than reimplementing 
 - Repo below a few hundred thousand lines: skip the category and learn compaction, subagents, and memory files first.
 - Past that threshold: build on framework machinery or a dedicated chunker, and deliver the index to your harness via MCP.
 
+## Changes
+
+- 2026-08-24 - Created in the owner-requested matrix expansion, four columns with cells traced to member notes.
+- 2026-08-26 - Fixed a self-contradiction about the legacy LangChain code-splitter docs, reworded as frozen documentation.
+- 2026-08-30 - Re-sorted columns alphabetically with LangChain first per the new owner rule, and repaired the tags-line YAML the sort broke.
+
 ## See also
 
 - [Context Management Patterns](../context-management-patterns/index.md) - the size-threshold argument this matrix leans on

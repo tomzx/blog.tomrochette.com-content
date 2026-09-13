@@ -62,6 +62,10 @@ Costs come from hosting remote servers and from the tokens that tool schemas and
 **Recommended as the default way to expose tools and context to agents; I would not build a bespoke integration layer in 2026 without a specific, measured reason.**
 The disagreeable part: MCP's security story lags its adoption story, and teams adopting it wholesale are accepting a supply-chain risk they have mostly not priced in.
 
+## Changes
+
+- 2026-08-24 - Created among the four protocol notes of the research index seeding run.
+
 ## See also
 
 - [Agentic Coding Tools Landscape](../agentic-coding-tools-landscape/index.md) - where MCP sits in the convention layer of the four-layer map

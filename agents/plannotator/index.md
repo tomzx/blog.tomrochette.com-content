@@ -58,6 +58,12 @@ Workspaces (hosted team layer) is waitlist-only with no public pricing, and the 
 **Recommended for engineers who review agent plans seriously and want their annotations to steer the running session instead of living in a text editor.**
 Not for minimal-install purists, and not yet for teams whose review process requires the hosted Workspaces tier before it has a price.
 
+## Changes
+
+- 2026-08-30 - Created in the Evaluation category, recording the nine-harness review surface and an unencrypted-small-share discrepancy.
+- 2026-08-30 - Corrected the contributor figure to 135 commit contributors with 859 commits from the founder.
+- 2026-09-12 - Recorded Workspaces entering a public waitlist.
+
 ## See also
 
 - [Evaluation and Review Feature Matrix](../evaluation-review-feature-matrix/index.md) - the category comparison this note joins

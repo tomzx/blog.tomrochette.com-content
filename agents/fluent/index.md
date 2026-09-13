@@ -56,6 +56,12 @@ There is no paid tier and no hosted cloud.
 Recommended for teams that want a genuinely self-improving, defense-in-depth factory and accept a real process and pre-1.0 risk.
 Not for the one-off feature, which a simpler pipeline or a single agent handles cheaper, and not for teams unwilling to adopt its EARS-and-worktree process wholesale.
 
+## Changes
+
+- 2026-08-29 - Created as the software-factory category's self-improving member.
+- 2026-08-30 - Reworded a banned-term phrase caught in the section-wide sweep.
+- 2026-09-09 - Status rewritten alongside the v0.4.0 release.
+
 ## See also
 
 - [Super Simple Software Factory](../super-simple-software-factory/index.md) - the lightweight founding member this note compares Fluent against

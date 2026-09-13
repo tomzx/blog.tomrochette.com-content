@@ -61,6 +61,12 @@ Batch API use cuts those rates by 50% for offline extraction jobs.
 The disagreeable part: I think the schema subset restrictions are a feature rather than a limitation, because they force schemas a grammar can enforce cheaply, and most "optional field" pain is schema design debt.
 Not for schemas that genuinely need numeric ranges, pervasive optional keys, or recursion, where client-side validation plus retries still wins.
 
+## Changes
+
+- 2026-08-24 - Created in the Hybrid execution category seed.
+- 2026-09-07 - Updated the status note as the docs began leading their examples with gpt-5.6 plus gpt-6-astra.
+- 2026-09-12 - Revised the examples claim again, with the docs now leading with gpt-6-astra.
+
 ## See also
 
 - [Anthropic structured outputs](../anthropic-structured-outputs/index.md) - the other major vendor's constrained-decoding take, and where it lags

@@ -59,6 +59,10 @@ No paid tier existed.
 Not as a tool to adopt; the stall is five months old with no handoff.
 The disagreeable claim I will defend: TinyAGI's death was not failure of execution but evidence the control-plane market fits exactly one open-source flagship, and every entrant below Paperclip's gravity should now expect this entry's fate.
 
+## Changes
+
+- 2026-08-27 - Created in Control planes as the category's first stall record, covering the TinyClaw origin and the five-month silence.
+
 ## See also
 
 - [Paperclip](../paperclip/index.md) - the flagship that absorbed this audience

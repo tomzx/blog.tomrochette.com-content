@@ -54,6 +54,12 @@ You pay model tokens directly to OpenAI or OpenRouter; the FrontierHarness run m
 Recommended for researchers and experimenters who want to watch a self-modifying harness work and who accept that the safety story is unproven.
 Not for production work or anyone who cannot tolerate a harness changing its own behavior between sessions.
 
+## Changes
+
+- 2026-09-05 - Created in the Harnesses category during the six-entrant resolution run.
+- 2026-09-06 - Rewrote the FrontierHarness sentence, correcting a mathematically wrong pass-rate claim while keeping the $1.05-per-task cost figure.
+- 2026-09-08 - Reverted a sub-run error that had claimed twelve FrontierHarness harnesses instead of nine.
+
 ## See also
 
 - [Harness Feature Matrix](../harness-feature-matrix/index.md) - where the self-modification bet sits among twenty-five harnesses

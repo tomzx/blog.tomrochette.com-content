@@ -60,6 +60,11 @@ Costs split three ways (platform plan, AI inference, cloud compute), quoted sepa
 **Recommended for engineers who want the Cline-Roo toolset with every modern agentic attachment, under MIT, in the editor they already use.**
 Not for teams needing a stable multi-year vendor story right now, because ownership just changed twice in effect (product into Anaconda, brand into Kilo), and I would let the post-acquisition roadmap settle before standardizing on it.
 
+## Changes
+
+- 2026-08-27 - Created from the new-entrant scan, recording the Cline-Roo lineage, the Anaconda acquisition, and pricing.
+- 2026-09-02 - Recorded that the README no longer carries its popularity claim.
+
 ## See also
 
 - [Roo Code](../roo-code/index.md) - the ancestor's sunset record, the before-picture of this note

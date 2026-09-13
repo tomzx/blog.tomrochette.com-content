@@ -59,6 +59,12 @@ The hosted Hub (managed GitHub, Slack, and Discord triggers) is now generally av
 **Recommended for engineers whose agents run unattended while they are away from the desk, and who want self-hosted open source over a vendor's app.**
 Not for teams needing a vendor's support contract, or Mac-only shops happy paying Conductor for polish.
 
+## Changes
+
+- 2026-08-30 - Created in the Orchestration category, recording cross-device daemon orchestration with a solo-maintainer risk.
+- 2026-09-02 - Recorded v0.7 shipping as stable.
+- 2026-09-12 - Recorded v0.8.0 shipping as stable (September 10) with plugin providers and Hub follow-ups.
+
 ## See also
 
 - [Orchestration Feature Matrix](../orchestration-feature-matrix/index.md) - the category comparison this note joins

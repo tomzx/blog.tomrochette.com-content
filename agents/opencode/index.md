@@ -61,6 +61,11 @@ There is no bundled subscription usage, which is the point.
 **Recommended as the default for token-paying, provider-switching engineers.**
 Not for teams that need subscription billing simplicity or cannot audit a fast-moving open codebase.
 
+## Changes
+
+- 2026-08-22 - Created in the Harnesses category seed, recording CVE-2026-22812 and the Anthropic legal-request OAuth removal.
+- 2026-08-23 - Style pass: bolded each section's key insight, hyperlinked in-body sources, and clarified referents.
+
 ## See also
 
 - [Agentic Coding Tools Landscape](../agentic-coding-tools-landscape/index.md) - the vendor-neutral slot in the harness layer

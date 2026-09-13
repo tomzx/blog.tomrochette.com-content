@@ -62,6 +62,11 @@ Google monetizes the surrounding platforms (Gemini Enterprise, ADK), not the pro
 **Recommended when agents from different vendors or departments must delegate work across a boundary; not for wiring up your own sub-agents, where native primitives or MCP are simpler.**
 The disagreeable part: I expect A2A to stay an enterprise convention, and if autonomous agents on the open web ever emerge they will speak MCP or plain HTTP first, not A2A.
 
+## Changes
+
+- 2026-08-24 - Created in the Protocols category seed.
+- 2026-09-05 - Corrected the v1.0.1 release date to 2026-05-28 per the GitHub API.
+
 ## See also
 
 - [Model Context Protocol](../mcp/index.md) - the complementary agent-to-tool layer it is always paired with

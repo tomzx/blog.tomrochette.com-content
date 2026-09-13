@@ -56,6 +56,11 @@ Free and open source, dual MIT or Apache-2.0, no paid tiers and no hosted compon
 **Recommended for terminal-first engineers running two or more parallel agents in one repo who want the worktree lifecycle automated without adopting a dashboard.**
 Not for GUI-first workflows, and not for anyone who needs a project to promise stability before 1.0.
 
+## Changes
+
+- 2026-08-30 - Created as an Orchestration note with the single-maintainer risk flagged.
+- 2026-09-02 - Recorded the v0.76.0 release with its breaking -x flag change.
+
 ## See also
 
 - [Orchestration Feature Matrix](../orchestration-feature-matrix/index.md) - the category comparison this note joins

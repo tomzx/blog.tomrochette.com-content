@@ -75,6 +75,13 @@ Claude Squad's preview tab and dmux's pane-menu PR cover the dispatch, wait, rev
 - Supervising 20 or more agents with agent watchers and a merge queue, credits and churn accepted: Gas Town.
 - Do not adopt Crystal today; if its idea appeals, evaluate Nimbalyst on its own merits.
 
+## Changes
+
+- 2026-08-24 - Created with seven tools and the death and orphan stories carried into the reading section.
+- 2026-08-27 - Extended from seven to eight columns with Gas Town and canonicalized the emdash reference.
+- 2026-08-30 - Added Paseo, Superset, and Worktrunk columns, reaching eleven, with a funding-spectrum sentence.
+- 2026-09-06 - Extended from twelve to thirteen columns with Happy Coder.
+
 ## See also
 
 - [Harness Feature Matrix](../harness-feature-matrix/index.md) - the same treatment for the harness layer these tools drive

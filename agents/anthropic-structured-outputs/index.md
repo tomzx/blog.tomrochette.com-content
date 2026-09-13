@@ -63,6 +63,13 @@ Batch discounts structured output requests by 50%.
 The disagreeable part: I think strict tool use matters more here than JSON outputs, because response formatting was always solvable with retries while a malformed call in the middle of an agent loop was not.
 Not for schemas that lean on numeric constraints, recursion, or dozens of optional fields, where the grammar limits and complexity caps will fight you.
 
+## Changes
+
+- 2026-08-24 - Created in the Hybrid execution category seed.
+- 2026-09-06 - Recorded the docs dropping the Microsoft Foundry limit and adding Google Cloud plus 7+ SDK surfaces.
+- 2026-09-08 - Recorded the docs listing Opus 4.7/4.8 and Mythos Preview as supported.
+- 2026-09-09 - Recorded the docs listing Mythos 5, 5.1, and Preview as supported.
+
 ## See also
 
 - [OpenAI Structured Outputs](../openai-structured-outputs/index.md) - the older vendor implementation this is measured against

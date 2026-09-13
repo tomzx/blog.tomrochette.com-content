@@ -55,6 +55,12 @@ A matrix that pretended all six were equivalent would be lying by layout.
 - Building TypeScript agents and want sandbox semantics as framework features: Flue, with the boundary chosen deliberately.
 - Agent sandboxes burning minutes cloning big repos: ArtifactFS, on hosts where FUSE is allowed.
 
+## Changes
+
+- 2026-08-30 - Created with the Sandboxing category seed, five columns with a kind row separating boundaries from plumbing.
+- 2026-08-30 - Re-sorted columns alphabetically, dropping kind-order, per the new owner rule.
+- 2026-09-05 - Extended from five to six columns with Clawk, making three boundary columns.
+
 ## See also
 
 - [Harness Feature Matrix](../harness-feature-matrix/index.md) - the agents these layers wrap, some with built-in sandboxing

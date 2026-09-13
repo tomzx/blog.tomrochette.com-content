@@ -64,6 +64,13 @@ Enterprise is custom (SSO, SLA, dedicated support).
 It is also the harness I hand non-terminal teammates first.
 Not for teams that require every client binary open or a coding-agnostic automation agent.
 
+## Changes
+
+- 2026-08-24 - Created in a new-entrant scan that added three harness notes, recording ClinePass and the closed-source JetBrains plugin.
+- 2026-08-26 - Linked the Ask HN token-usage thread inline and in references, and added a first-person Bottom line.
+- 2026-09-08 - Revised ClinePass wording to "promotional rate" after the $4.99 first-month promo left the page.
+- 2026-09-10 - Dropped the unverifiable ratings count from the marketplace figures.
+
 ## See also
 
 - [Agentic Coding Tools Landscape](../agentic-coding-tools-landscape/index.md) - where Cline sits in the harness layer

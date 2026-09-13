@@ -58,6 +58,11 @@ Enterprise offerings and a marketplace are marked conditional in the roadmap; no
 **Recommended for engineers who already trust one of the 14 runtimes and want spec-freeze plus hidden grading on top, in projects where verification failures cost more than evaluation tokens.**
 Not for quick edits, for teams needing proven evaluation rigor, or for anyone who cannot tolerate beta-grade install friction.
 
+## Changes
+
+- 2026-08-30 - Created as a software-factory note on the hidden-grading verification loop, with a banned term caught and reworded the same day.
+- 2026-09-12 - Updated the count of supported coding-agent runtimes to 14.
+
 ## See also
 
 - [Software Factory Feature Matrix](../software-factory-feature-matrix/index.md) - the category comparison this note joins

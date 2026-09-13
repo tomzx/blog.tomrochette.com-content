@@ -62,6 +62,10 @@ Usage-based pricing for cloud compute is planned but not charged yet as of 2026-
 Not for sandbox-strict environments, non-Mac local workflows, or anyone who needs an open client.
 My disagreeable claim: Conductor Cloud, not the local worktree manager, is the real product, because the durable value is the review and orchestration surface, and I expect local-first managers to be squeezed between it and free terminal tools.
 
+## Changes
+
+- 2026-08-24 - Created in the Orchestration category seed.
+
 ## See also
 
 - [Emdash](../emdash/index.md) - the open, SSH-first counterpoint in the same category

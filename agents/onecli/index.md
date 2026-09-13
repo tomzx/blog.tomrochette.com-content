@@ -66,6 +66,11 @@ All as of 2026-09-12.
 Not for solo engineers who want a coding harness, and not for anyone allergic to per-seat SaaS.
 I think the prompt-based permission systems across every other harness in this section are security theater, and OneCLI is the only entry whose answer still works when the model is wrong.
 
+## Changes
+
+- 2026-08-30 - Created when the candidate-resolution run accepted it into Harnesses as the per-request credential-injection team harness.
+- 2026-09-02 - Recorded the restructured hosted tiers that arrived with v2.4.0.
+
 ## See also
 
 - [Agentic Coding Tools Landscape](../agentic-coding-tools-landscape/index.md) - the harness layer this team platform extends

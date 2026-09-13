@@ -62,6 +62,11 @@ Starter $19/month, Pro $249/month (graph memory and Dream land at Pro), Enterpri
 **Recommended for product teams that want user-facing personalization running this week and are fine with a managed dependency.**
 I would not choose any memory vendor on benchmark leaderboards, this field's numbers are too contested; on that view Mem0's real moat is distribution (stars, downloads, the AWS deal), not memory science, and that is a claim readers can disagree with.
 
+## Changes
+
+- 2026-08-24 - Created among the four memory notes of the research index seeding run.
+- 2026-09-05 - Relabeled the free tier as Hobby on the pricing page's rename, quotas identical.
+
 ## See also
 
 - [Agentic Coding Tools Landscape](../agentic-coding-tools-landscape/index.md) - where a memory layer sits relative to harnesses and models

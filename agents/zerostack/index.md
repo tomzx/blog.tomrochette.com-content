@@ -64,6 +64,11 @@ The author requests donations or sponsorship.
 Not for Windows-first teams or anyone who needs a vendor to call when it breaks.
 I think the Rust-rewrite wave confuses a small memory footprint with a good agent, and zerostack publishes nothing that shows its edits are correct, only that they are cheap to run.
 
+## Changes
+
+- 2026-08-30 - Created in the candidate-pile sweep, recording the solo GPL-3.0 Rust agent and its 575-point launch.
+- 2026-09-04 - Recorded v1.8.1 ending the six-week release quiet gap, with external contributors credited.
+
 ## See also
 
 - [Agentic Coding Tools Landscape](../agentic-coding-tools-landscape/index.md) - the independent tail this solo harness belongs to

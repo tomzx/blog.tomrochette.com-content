@@ -58,6 +58,12 @@ Teams Standard and Premium are $40/user/month, Enterprise is custom, and on-dema
 **Recommended for teams that want the strongest turnkey agentic editor and accept vendor concentration as the price.**
 Not for anyone who needs an open, auditable toolchain or a predictable bill.
 
+## Changes
+
+- 2026-08-23 - Created in the Surfaces category seed.
+- 2026-08-26 - Resolved the Grok ownership contradiction by tying Grok to the SpaceXAI partnership.
+- 2026-09-02 - Recorded the OpenAI wind-down (notice August 28, 2026, model access shutoff November 12, 2026).
+
 ## See also
 
 - [Agentic Coding Tools Landscape](../agentic-coding-tools-landscape/index.md) - the surface layer this note belongs to

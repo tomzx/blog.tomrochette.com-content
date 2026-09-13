@@ -59,6 +59,10 @@ The costs are disk and local compute.
 **Recommended for engineers whose agents need to find things in personal docs, meeting notes, and knowledge bases without sending them anywhere, and who can afford 2 GB of models.**
 Not for code-symbol search (use grep-class tools), constrained machines, or teams needing vendor support.
 
+## Changes
+
+- 2026-08-30 - Created as a context-engines note on Tobias Lütke's local hybrid search, with the security-fix history recorded.
+
 ## See also
 
 - [Context Engines Feature Matrix](../context-engines-feature-matrix/index.md) - the category comparison this note joins

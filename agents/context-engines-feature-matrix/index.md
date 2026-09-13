@@ -68,6 +68,13 @@ Augment's 33% token savings, Sourcegraph's cost deltas, Semble's 99%-fewer-token
 - Metered-API sessions dominated by noisy test, git, and search output: rtk, measuring with `rtk gain` before believing the savings.
 - Code must stay on-device: Graphify, Repomix, and Graft's structural layer locally, qmd and rtk entirely, or Sourcegraph self-hosted; Augment's engine stays in its cloud.
 
+## Changes
+
+- 2026-08-24 - Created with four columns as one of the remaining categories' companion matrices.
+- 2026-08-30 - Graphify, qmd, and rtk columns added, matrix at seven columns, kind-row prose and choosing list extended.
+- 2026-08-30 - Extended to eight columns with Semble inserted alphabetically, with reading, choosing, and references sections extended.
+- 2026-08-30 - Greptile column removed, back to seven columns, when the note moved to the Code review category.
+
 ## See also
 
 - [Context Management Patterns](../context-management-patterns/index.md) - the manual practices this category productizes

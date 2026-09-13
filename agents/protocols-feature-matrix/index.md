@@ -62,6 +62,10 @@ The mature protocols get attacked for their risks, the young ones for their reas
 - Attaching a second client to a live agent session: AHP, provided v0.9.0 churn and Microsoft's stewardship are acceptable.
 - Wiring sub-agents inside one framework: none of these, native primitives or MCP are simpler.
 
+## Changes
+
+- 2026-08-24 - Created with the stacking thesis and recorded protocol consolidations.
+
 ## See also
 
 - [Harness Feature Matrix](../harness-feature-matrix/index.md) - where MCP and AGENTS.md show up as product features

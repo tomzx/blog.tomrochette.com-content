@@ -60,6 +60,10 @@ No paid tier; the runtime cost is your own agent credits, which is the controver
 Not for anyone with one agent, thin credits, or a compliance department.
 The disagreeable claim I will defend: strip the metaphors away and what remains is the first working answer to supervision at scale, and the GUI dashboards will either grow a Deacon of their own or become furniture.
 
+## Changes
+
+- 2026-08-27 - Created in the Orchestration category during the task-management placement run.
+
 ## See also
 
 - [beads](../beads/index.md) - the ledger Gas Town runs on, same org

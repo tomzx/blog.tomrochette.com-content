@@ -62,6 +62,11 @@ No hosted tier and no pricing page; costs are whatever your model provider charg
 **Recommended for harness builders and benchmark runners who want a hackable, fully traced agent platform, with eyes open that it is an alpha.**
 Not for anyone whose threat model includes untrusted repos on day one, or who wants a stable daily driver this quarter.
 
+## Changes
+
+- 2026-08-30 - Created in an owner-directed star sweep, with five references fetched.
+- 2026-09-09 - Recorded the desktop-port repo's move to the dsh-tauri-desk org and fixed the redirected link.
+
 ## See also
 
 - [Harness Feature Matrix](../harness-feature-matrix/index.md) - the capability comparison this note joins

@@ -60,6 +60,13 @@ Overage is sold as credits; API-key usage is plain token pricing.
 My own split: work that suits a subscription goes here, metered work goes to aider or OpenCode on my keys.
 Not the cheapest path if your usage is light and token-based (aider or OpenCode with your own keys costs less).
 
+## Changes
+
+- 2026-08-22 - Created in the Harnesses category seed.
+- 2026-08-23 - Bolded each section's key insight, named the launch-thread referent in the April 2025 caution, and set the updated field.
+- 2026-08-26 - Qualified the overbroad only-open-source-CLI thesis to what distinguishes it from Gemini CLI.
+- 2026-08-27 - Moved the three doc references to learn.chatgpt.com after the domain migration and reworded a banned-term phrase.
+
 ## See also
 
 - [Agentic Coding Tools Landscape](../agentic-coding-tools-landscape/index.md) - Codex's place in the four-layer map

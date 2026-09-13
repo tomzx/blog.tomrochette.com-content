@@ -56,6 +56,11 @@ The docs site now also advertises HAR HQ, a hosted team layer with governance, a
 Recommended for teams running several coding agents on one repository who want concurrent work, deterministic verification, and an evidence trail without rewriting their agent setup.
 Not for a solo developer doing one agent at a time, where the harness alone is simpler than the fleet machinery.
 
+## Changes
+
+- 2026-08-29 - Created in the software factory alternatives scan as the harness-style member.
+- 2026-09-12 - Recorded HAR HQ, a hosted team layer with no published pricing, replacing the earlier no-cloud claim.
+
 ## See also
 
 - [Super Simple Software Factory](../super-simple-software-factory/index.md) - the founding member this harness-style factory is read against

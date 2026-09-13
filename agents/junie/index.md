@@ -64,6 +64,12 @@ Junie Local (August 2026) is free: it runs inside Junie on an M5 Mac with the bu
 **Recommended for JetBrains-first teams who want one agent across IDE, terminal, and CI on their own keys.**
 Not for anyone who needs an open client or a large community ecosystem today.
 
+## Changes
+
+- 2026-08-22 - Created as one of the eight seed notes of the Harnesses category.
+- 2026-08-23 - Style conformance pass: bolded each section's key insight, split a combined sentence into one per line, and named the vague referent.
+- 2026-09-02 - Recorded the Junie Local on-device Mac launch.
+
 ## See also
 
 - [Agentic Coding Tools Landscape](../agentic-coding-tools-landscape/index.md) - Junie as the LLM-agnostic outlier in the harness layer

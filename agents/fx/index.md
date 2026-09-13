@@ -60,6 +60,12 @@ There is no fx-specific subscription.
 **I would reach for fx when the agent is a component of my system (a sandbox, a pipeline, a product), and stay on OpenCode or a platform harness when the agent is where I work.**
 Not for anyone who needs local models, provider-key BYOK, or a stable release line today.
 
+## Changes
+
+- 2026-08-29 - Created in the Harnesses category through the new-entrant scan, with a harness matrix column added the same day.
+- 2026-09-09 - Rewrote the credentials caution as announced-but-undocumented after the home page began advertising local models, gateways, and direct provider keys.
+- 2026-09-12 - Updated for v0.0.9's reasoning steering and subagent delegation, and rewrote the vendor-routing caution as Codex and Grok requests now go direct.
+
 ## See also
 
 - [Agentic Coding Tools Landscape](../agentic-coding-tools-landscape/index.md) - where fx lands in the harness layer's independent tail
