@@ -65,14 +65,20 @@ If six people cannot hold the whole system, stop asking six people to hold the w
 Partition ownership into two or three areas, by product surface or by subsystem, and rotate on-call within an area.
 The primary for another area becomes the escalation target when a page turns out to cross boundaries, which the incident review will catch and correct.
 
+![Today, one shared rotation makes all six engineers cover eight services; proposed, two three-person rotations each cover four services, with cross-area escalation between them](images/territory-split.svg)
+*Figure 1: the split. Each area gets its own three-person rotation over half the services, and the other area's primary is the escalation target.*
+
+A three-person rotation puts the pager on each engineer every three weeks instead of every six, for half the system.
 But there is a trade-off: each area develops less cross coverage than one shared pool.
 You mitigate it by pairing the secondary from a neighboring area on big changes, and by rotating engineers between areas every few quarters so knowledge diffuses.
 
-![Today, one shared rotation makes all six engineers cover eight services; proposed, two three-person rotations each cover four services, with cross-area escalation between them](images/territory-split.svg)
+![Pros and cons of on-call cadence: more frequent shifts keep context warm and make relearn small, but disrupt nights twice as often and shrink recovery; less frequent shifts protect project stretches and recovery, but every shift opens after five weeks of decay with a full relearn](images/cadence-pros-cons.svg)
+*Figure 2: the cadence trade-off side by side, and the deciding variable: how heavy a single shift is.*
+
+The reason the more frequent cadence is survivable is the one this article opened with: the pager arrives before your memory of the territory decays, and when it does arrive, the relearn covers four services instead of eight.
 
 ![Context freshness chart: on a 6-week whole-system rotation, context decays below the action threshold after three weeks and every shift demands a full relearn of eight services; on a 3-week rotation over half the system, context is refreshed before it decays that far](images/context-freshness.svg)
-
-![Pros and cons of on-call cadence: more frequent shifts keep context warm and make relearn small, but disrupt nights twice as often and shrink recovery; less frequent shifts protect project stretches and recovery, but every shift opens after five weeks of decay with a full relearn](images/cadence-pros-cons.svg)
+*Figure 3: context freshness across the rotation cycle. The 6-week whole-system cycle crosses the action threshold before every shift; the 3-week half-system cycle refreshes before that happens.*
 
 [Team Topologies](https://teamtopologies.com/) makes the underlying principle explicit: team cognitive load is the limit on what a group can own, so territory should be handed out in proportion to absorption capacity.
 Six people whose absorption capacity covers half the system are not underperforming, they are correctly reporting the size of the system.
