@@ -3,7 +3,7 @@ title: "What a Senior Engineer Owes Their Reviewer"
 created: 2026-09-13
 type: post
 status: finished
-tags: [software-engineering, code-review, pull-requests, processes, partially-ai-generated, llm=glm-5.3-flash]
+tags: [software-engineering, code-review, pull-requests, processes, fully-ai-generated, llm=glm-5.3-flash]
 readability: 3
 audience_notes: >
   Assumes the reader works on a team that uses pull request review and has both authored and reviewed PRs. No explanation of what a PR or CI is.

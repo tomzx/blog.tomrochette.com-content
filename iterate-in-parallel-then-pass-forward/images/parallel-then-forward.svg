@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="390" viewBox="0 0 920 390" font-family="Helvetica, Arial, sans-serif">
+  <title>Iterate in parallel, then pass forward</title>
+  <desc>Phase 1 runs requirements, specification, and component plan drafts in parallel, all surfacing open questions into one pool, looping until a full pass adds no new questions. Phase 2 then settles requirements, then specification, then plans and tests, in one ordered forward pass.</desc>
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#444444"/></marker>
+    <marker id="arrRed" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#b5471f"/></marker>
+    <marker id="arrGreen" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#1e7d46"/></marker>
+  </defs>
+  <rect x="0" y="0" width="920" height="390" fill="#ffffff"/>
+<text x="40" y="48" font-size="14" font-weight="bold" fill="#33506e">Phase 1: parallel drafts</text>
+<rect x="40" y="66" width="340" height="46" rx="8" fill="#ffffff" stroke="#33506e" stroke-width="1.5"/>
+<rect x="40" y="66" width="340" height="34" rx="8" fill="#f0f4f9" stroke="#33506e" stroke-width="1.5"/>
+<rect x="41" y="92" width="338" height="8" fill="#f0f4f9" stroke="none"/>
+<text x="210.0" y="88" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">Requirements draft</text>
+<line x1="380" y1="89" x2="440" y2="148" stroke="#444444" stroke-width="1.8" marker-end="url(#arr)"/>
+<rect x="40" y="126" width="340" height="46" rx="8" fill="#ffffff" stroke="#33506e" stroke-width="1.5"/>
+<rect x="40" y="126" width="340" height="34" rx="8" fill="#f0f4f9" stroke="#33506e" stroke-width="1.5"/>
+<rect x="41" y="152" width="338" height="8" fill="#f0f4f9" stroke="none"/>
+<text x="210.0" y="148" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">Specification draft</text>
+<line x1="380" y1="149" x2="440" y2="148" stroke="#444444" stroke-width="1.8" marker-end="url(#arr)"/>
+<rect x="40" y="186" width="340" height="46" rx="8" fill="#ffffff" stroke="#33506e" stroke-width="1.5"/>
+<rect x="40" y="186" width="340" height="34" rx="8" fill="#f0f4f9" stroke="#33506e" stroke-width="1.5"/>
+<rect x="41" y="212" width="338" height="8" fill="#f0f4f9" stroke="none"/>
+<text x="210.0" y="208" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">Component plan drafts</text>
+<line x1="380" y1="209" x2="440" y2="148" stroke="#444444" stroke-width="1.8" marker-end="url(#arr)"/>
+<rect x="444" y="120" width="230" height="56" rx="8" fill="#ffffff" stroke="#9a6a00" stroke-width="1.5"/>
+<rect x="444" y="120" width="230" height="34" rx="8" fill="#f7ecd4" stroke="#9a6a00" stroke-width="1.5"/>
+<rect x="445" y="146" width="228" height="8" fill="#f7ecd4" stroke="none"/>
+<text x="559.0" y="142" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">Open questions surface</text>
+<text x="559" y="200" text-anchor="middle" font-size="11" font-style="italic" fill="#444444">loop until a full pass adds no new questions</text>
+<line x1="559" y1="212" x2="559" y2="252" stroke="#1e7d46" stroke-width="2.2" marker-end="url(#arrGreen)"/>
+<text x="573" y="238" font-size="12" font-style="italic" fill="#1e7d46">questions stop appearing</text>
+<text x="40" y="290" font-size="14" font-weight="bold" fill="#1e7d46">Phase 2: one ordered forward pass</text>
+<rect x="40" y="304" width="252" height="46" rx="8" fill="#ffffff" stroke="#1e7d46" stroke-width="1.5"/>
+<rect x="40" y="304" width="252" height="34" rx="8" fill="#e4f2e9" stroke="#1e7d46" stroke-width="1.5"/>
+<rect x="41" y="330" width="250" height="8" fill="#e4f2e9" stroke="none"/>
+<text x="166.0" y="326" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">Requirements settled</text>
+<line x1="292" y1="327" x2="306" y2="327" stroke="#444444" stroke-width="1.8" marker-end="url(#arr)"/>
+<rect x="320" y="304" width="252" height="46" rx="8" fill="#ffffff" stroke="#1e7d46" stroke-width="1.5"/>
+<rect x="320" y="304" width="252" height="34" rx="8" fill="#e4f2e9" stroke="#1e7d46" stroke-width="1.5"/>
+<rect x="321" y="330" width="250" height="8" fill="#e4f2e9" stroke="none"/>
+<text x="446.0" y="326" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">Specification settled</text>
+<line x1="572" y1="327" x2="586" y2="327" stroke="#444444" stroke-width="1.8" marker-end="url(#arr)"/>
+<rect x="600" y="304" width="252" height="46" rx="8" fill="#ffffff" stroke="#1e7d46" stroke-width="1.5"/>
+<rect x="600" y="304" width="252" height="34" rx="8" fill="#e4f2e9" stroke="#1e7d46" stroke-width="1.5"/>
+<rect x="601" y="330" width="250" height="8" fill="#e4f2e9" stroke="none"/>
+<text x="726.0" y="326" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">Plans and tests settled</text>
+</svg>

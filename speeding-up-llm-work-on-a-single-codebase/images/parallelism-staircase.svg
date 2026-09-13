@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="390" viewBox="0 0 920 390" font-family="Helvetica, Arial, sans-serif">
+  <title>Stages of parallel LLM work on a single codebase</title>
+  <desc>An ascending staircase. One branch with one task and one session, then one branch with several sessions until the first silent collision, then one worktree per task, then a pool of worktrees with more tasks than worktrees and an orchestrator coordinating them.</desc>
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#444444"/></marker>
+    <marker id="arrRed" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#b5471f"/></marker>
+    <marker id="arrGreen" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#1e7d46"/></marker>
+  </defs>
+  <rect x="0" y="0" width="920" height="390" fill="#ffffff"/>
+<rect x="50" y="310" width="196" height="66" rx="8" fill="#f0f4f9" stroke="#33506e" stroke-width="1.5"/>
+<text x="148.0" y="337" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">One branch</text>
+<text x="148.0" y="358.0" text-anchor="middle" font-size="11" font-weight="normal" fill="#444444">one task, one session</text>
+<line x1="248" y1="320" x2="262" y2="252" stroke="#444444" stroke-width="1.8" marker-end="url(#arr)"/>
+<rect x="270" y="236" width="196" height="66" rx="8" fill="#f0f4f9" stroke="#33506e" stroke-width="1.5"/>
+<text x="368.0" y="263" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">One branch</text>
+<text x="368.0" y="284.0" text-anchor="middle" font-size="11" font-weight="normal" fill="#444444">several sessions, first</text>
+<text x="368.0" y="299.9" text-anchor="middle" font-size="11" font-weight="normal" fill="#444444">silent collision</text>
+<line x1="468" y1="246" x2="482" y2="178" stroke="#444444" stroke-width="1.8" marker-end="url(#arr)"/>
+<rect x="490" y="162" width="196" height="66" rx="8" fill="#f0f4f9" stroke="#33506e" stroke-width="1.5"/>
+<text x="588.0" y="189" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">One worktree</text>
+<text x="588.0" y="210.0" text-anchor="middle" font-size="11" font-weight="normal" fill="#444444">one per task</text>
+<line x1="688" y1="172" x2="702" y2="104" stroke="#444444" stroke-width="1.8" marker-end="url(#arr)"/>
+<rect x="710" y="88" width="196" height="66" rx="8" fill="#e4f2e9" stroke="#1e7d46" stroke-width="1.5"/>
+<text x="808.0" y="115" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">Pool of worktrees</text>
+<text x="808.0" y="136.0" text-anchor="middle" font-size="11" font-weight="normal" fill="#444444">more tasks than worktrees,</text>
+<text x="808.0" y="151.9" text-anchor="middle" font-size="11" font-weight="normal" fill="#444444">an orchestrator</text>
+<text x="60" y="52" font-size="14" font-weight="bold" fill="#111111">Four stages of parallel work on one codebase</text>
+<text x="60" y="74" font-size="12" fill="#444444">each stage absorbs the failure that ended the previous one</text>
+</svg>

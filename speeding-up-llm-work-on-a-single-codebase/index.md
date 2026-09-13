@@ -4,7 +4,7 @@ title: "Speeding Up LLM Work on a Single Codebase"
 created: 2026-08-31
 type: post
 status: finished
-tags: [llm, ai-agents, git, parallelism, productivity, software-engineering, partially-ai-generated, llm=glm-5.3-flash]
+tags: [llm, ai-agents, git, parallelism, productivity, software-engineering, fully-ai-generated, llm=glm-5.3-flash]
 readability: 3
 audience_notes: >
   Assumes the reader is a software engineer who already runs LLM coding agents (Claude Code, opencode, or similar) against a real repository and knows git branching. Git worktrees are explained from first principles, but no agent-internals knowledge is assumed.
@@ -25,6 +25,10 @@ But a queued message is not parallel work: the session still executes its queue 
 The model inside the session is not the constraint, the serialization is.
 The progression I use goes from one branch with one task, to one branch with several non-colliding tasks, to one worktree per task, and finally to a pool of worktrees fed with more tasks than there are worktrees.
 Shared branches are the cheap first step, [git worktrees](https://git-scm.com/docs/git-worktree) are the mechanism that makes concurrency safe once tasks start colliding, and an orchestrator is what you add when coordination itself outgrows your attention.
+
+The progression I climb looks like this, one rung at a time:
+
+![Ascending staircase of four stages: one branch with one session, one branch with several sessions until the first silent collision, one worktree per task, and a pool of worktrees with an orchestrator](images/parallelism-staircase.svg)
 
 ## Share a Branch When Tasks Cannot Collide
 

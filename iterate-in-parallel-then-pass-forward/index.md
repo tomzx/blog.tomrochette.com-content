@@ -4,7 +4,7 @@ title: "My Feature Planning Method: Iterate in Parallel, Then Pass Forward"
 created: 2026-08-31
 type: post
 status: finished
-tags: [ai, software-engineering, sdlc, planning, workflow, llm, ai-agents, partially-ai-generated, llm=glm-5.3-flash]
+tags: [ai, software-engineering, sdlc, planning, workflow, llm, ai-agents, fully-ai-generated, llm=glm-5.3-flash]
 readability: 3
 audience_notes: >
   Assumes the reader runs coding agents against a structured development process and is comfortable with SDLC vocabulary (requirements, specification, plan). No introduction to what an LLM is.
@@ -16,6 +16,10 @@ Planning a feature splits into two jobs: finding out what the questions are, and
 The two jobs reward opposite working modes, which is why running them as one activity fails.
 When I planned linearly, writing the requirements first and the specification next, the questions surfaced late, after the artifacts they invalidated were already written.
 **The method I use now runs the two jobs as two distinct phases: I iterate on every artifact of a feature in parallel until the big questions surface, then I make one ordered forward pass that settles each file in the sequence the SDLC defines.**
+
+The two phases and the switch between them fit in one picture.
+
+![Parallel drafts of requirements, specification, and component plans surface open questions into one pool until a full pass adds no new questions, then requirements, specification, and plans settle in one ordered forward pass](images/parallel-then-forward.svg)
 
 ## The directory is the feature
 
