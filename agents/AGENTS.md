@@ -39,7 +39,8 @@ Out of scope:
 
 Both content types share these rules.
 
-- One directory per article, lowercase kebab-case slug, containing `index.md`.
+- One directory per article, lowercase kebab-case slug, containing `index.md`, placed inside its category directory: `agents/<category>/<slug>/index.md`; the category directories are named for the `_index.md` sections (harnesses, surfaces, orchestration, protocols, context-engines, skills, retrieval, memory, executions, hybrid-execution, code-review, evaluation-review, sandboxing, spec-driven-development, task-management, control-planes, assistant-runtimes, software-factory, session-analytics, people-and-publications), and each category's feature matrix lives in the same directory.
+- Essays, `model-provider-feature-matrix` (which has no category), and the control files stay at the section root.
 - Front matter fields: `title`, `created` (YYYY-MM-DD), `status` (`draft` while writing, `finished` when complete), `tags`, `readability`, `updated` (set when you revise), and `audience_notes` (folded `>`, for finished pieces).
 - Every article ends with `## Changes`, `## See also`, `## References`, in that order; `## Changes` is the article's dated changelog (see Writing rules).
 - Never set a `type` field (in particular not `type: post`): articles in this section are section pages, not posts, and typing them as posts pulls them into the blog's post listings.
@@ -103,7 +104,7 @@ Recommended for <X>. Not for <Y>.
 
 ## See also
 
-- [Agentic Coding Tools Landscape](agentic-coding-tools-landscape/index.md) - <replace with related notes and corpus articles, three to five>
+- [Agentic Coding Tools Landscape](../../agentic-coding-tools-landscape/index.md) - <replace with related notes and corpus articles, three to five>
 
 ## References
 
@@ -139,7 +140,7 @@ Inherit the blog's style, with these specifics:
 - Structure with `##` headers that each advance the argument; bold the key insight of each section.
 - Close with `## What to Do Next` when prescriptive, then `## Changes`, `## See also` (internal links), and `## References` (external sources), three to five items each for See also and References.
 - `## Changes` is the article's append-only changelog: one `- YYYY-MM-DD - <what changed>` bullet per material change, oldest first, the first bullet records creation, sourced from `agents/log.md` (the log stays the full audit trail; Changes is the reader-facing summary). Corrections, status moves, pricing changes, added or removed facts, category moves, and matrix membership changes are changes; verification-date bumps and routine volatile-number refreshes are not. Append the bullet in the same run as the change it records; never delete or rewrite old bullets.
-- Internal links: sibling articles in this section are `../<slug>/index.md`; main corpus articles are `../../<slug>/index.md`; section index is `../_index.md`. Always verify the target directory exists before adding a link (CI fails on broken links).
+- Internal links: articles in the same category are `../<slug>/index.md`; articles in another category are `../<category>/<slug>/index.md`; section-root articles (essays, the model-provider matrix) are `../../<slug>/index.md`; the section index and control files are `../../` (for example `../../_index.md`, `../../AGENTS.md`); main corpus articles are `../../../<slug>/index.md`. Always verify the target directory exists before adding a link (CI fails on broken links).
 - External links must be durable and canonical (official docs, Wikipedia for concepts); verify the URL fetches before citing it.
 - All content must be compatible with CC BY-NC 4.0; quote sparingly, link generously.
 
