@@ -67,6 +67,16 @@ If a PR needs a live walkthrough before anyone can understand it, that is usuall
 There are legitimate exceptions, a generated-code migration or a mechanical rename can be large and still easy to review.
 The mark of a senior engineer is knowing which kind of large diff they have, and saying so in the description.
 
+## Self-Review Before Anyone Else Reviews
+
+Before requesting review, the author reads their own diff on the same screen the reviewer will use, the Files Changed tab, end to end.
+This pass has two jobs.
+The first is debris removal: stray logs, commented-out code, leftover debugging, unrelated reformatting that inflates the diff.
+The second is annotation: leaving comments on the lines that need context, "this mirrors the logic above", "this limit matches the upstream API", so the reviewer does not have to ask.
+
+**Self-review is also where a senior engineer catches the embarrassing stuff, and catching it yourself is the whole point of being senior.**
+Every defect the author removes before the review is a round trip that never happened.
+
 ## A Description That Answers the Obvious Questions
 
 The description exists so the reviewer never has to ask questions the author could have answered in writing.
@@ -80,16 +90,6 @@ The questions are predictable:
 Screenshots for UI changes, before-and-after output for behavior changes, and a link to the ticket all belong here.
 **The ticket link is a pointer, not a description.**
 A reviewer who has to read the ticket to know what the PR does has been given homework instead of a review request.
-
-## Self-Review Before Anyone Else Reviews
-
-Before requesting review, the author reads their own diff on the same screen the reviewer will use, the Files Changed tab, end to end.
-This pass has two jobs.
-The first is debris removal: stray logs, commented-out code, leftover debugging, unrelated reformatting that inflates the diff.
-The second is annotation: leaving comments on the lines that need context, "this mirrors the logic above", "this limit matches the upstream API", so the reviewer does not have to ask.
-
-**Self-review is also where a senior engineer catches the embarrassing stuff, and catching it yourself is the whole point of being senior.**
-Every defect the author removes before the review is a round trip that never happened.
 
 ## Proof That It Works
 
