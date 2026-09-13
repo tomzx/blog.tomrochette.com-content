@@ -104,7 +104,7 @@ Recommended for <X>. Not for <Y>.
 
 ## See also
 
-- <[Title](link per the Writing rules depths)> - <replace with related notes and corpus articles, three to five>
+- <title linked per the Writing rules depths> - <replace with related notes and corpus articles, three to five>
 
 ## References
 
