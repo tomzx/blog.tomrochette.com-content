@@ -104,7 +104,7 @@ Recommended for <X>. Not for <Y>.
 
 ## See also
 
-- [Agentic Coding Tools Landscape](../../agentic-coding-tools-landscape/index.md) - <replace with related notes and corpus articles, three to five>
+- <[Title](link per the Writing rules depths)> - <replace with related notes and corpus articles, three to five>
 
 ## References
 
