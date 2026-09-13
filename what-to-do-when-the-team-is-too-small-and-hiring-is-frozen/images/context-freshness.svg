@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="420" viewBox="0 0 920 420" font-family="Helvetica, Arial, sans-serif">
+  <title>Context freshness over the rotation cycle, whole system versus split areas</title>
+  <desc>
+    Line chart of context freshness over twelve weeks.
+    The red line is today: a six-week rotation over the whole system, freshness decays from 100 percent and crosses the action threshold after about three weeks, so by the next shift the engineer must fully relearn all eight services.
+    The green line is the split: a three-week rotation over half the system, freshness is refreshed before it reaches the threshold, so each refresh covers only four services.
+    Red shaded bands mark the relearning zones where the whole-system rotation spends its last three weeks below the threshold.
+  </desc>
+
+  <defs>
+    <marker id="axArrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#444444"/>
+    </marker>
+    <marker id="jumpRed" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#a12622"/>
+    </marker>
+    <marker id="jumpGreen" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#1e7d46"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="920" height="420" fill="#ffffff"/>
+
+  <text x="475" y="26" text-anchor="middle" font-size="16" font-weight="bold" fill="#111">Why splitting the territory keeps responders effective</text>
+
+  <!-- relearning zones: weeks 3-6 and 9-12 below the threshold -->
+  <rect x="277.5" y="195" width="197.5" height="165" fill="#a12622" opacity="0.06"/>
+  <rect x="672.5" y="195" width="197.5" height="165" fill="#a12622" opacity="0.06"/>
+  <text x="376.3" y="328" text-anchor="middle" font-size="11.5" font-style="italic" fill="#a12622">relearning zone</text>
+  <text x="771.3" y="328" text-anchor="middle" font-size="11.5" font-style="italic" fill="#a12622">relearning zone</text>
+
+  <!-- threshold -->
+  <line x1="80" y1="195" x2="870" y2="195" stroke="#888888" stroke-width="1.2" stroke-dasharray="6 5"/>
+  <text x="866" y="189" text-anchor="end" font-size="11" fill="#777777">enough context to act at 3 a.m.</text>
+
+  <!-- axes -->
+  <line x1="80" y1="360" x2="866" y2="360" stroke="#444444" stroke-width="1.5" marker-end="url(#axArrow)"/>
+  <line x1="80" y1="360" x2="80" y2="58" stroke="#444444" stroke-width="1.5" marker-end="url(#axArrow)"/>
+  <g stroke="#444444" stroke-width="1.2">
+    <line x1="80" y1="360" x2="76" y2="360"/>
+    <line x1="80" y1="210" x2="76" y2="210"/>
+    <line x1="80" y1="60" x2="76" y2="60"/>
+    <line x1="80" y1="360" x2="80" y2="365"/>
+    <line x1="277.5" y1="360" x2="277.5" y2="365"/>
+    <line x1="475" y1="360" x2="475" y2="365"/>
+    <line x1="672.5" y1="360" x2="672.5" y2="365"/>
+    <line x1="870" y1="360" x2="870" y2="365"/>
+  </g>
+  <g font-size="11.5" fill="#444444">
+    <text x="72" y="364" text-anchor="end">0%</text>
+    <text x="72" y="214" text-anchor="end">50%</text>
+    <text x="72" y="64" text-anchor="end">100%</text>
+    <text x="80" y="381" text-anchor="middle">wk 0</text>
+    <text x="277.5" y="381" text-anchor="middle">wk 3</text>
+    <text x="475" y="381" text-anchor="middle">wk 6</text>
+    <text x="672.5" y="381" text-anchor="middle">wk 9</text>
+    <text x="870" y="381" text-anchor="middle">wk 12</text>
+  </g>
+  <text x="475" y="402" text-anchor="middle" font-size="12.5" fill="#444444">weeks since the last primary shift</text>
+  <text x="30" y="210" text-anchor="middle" font-size="12" fill="#444444" transform="rotate(-90 30 210)">context freshness for what you cover</text>
+
+  <!-- today: 6-week cycle, whole system -->
+  <path d="M80,60 L112.9,88.5 L145.8,114.3 L178.8,137.7 L211.7,159 L244.6,178.2 L277.5,195.6 L310.4,210.9 L343.3,224.7 L376.3,237.3 L409.2,249 L442.1,259.2 L475,270" fill="none" stroke="#a12622" stroke-width="2.2"/>
+  <path d="M475,60 L507.9,88.5 L540.8,114.3 L573.8,137.7 L606.7,159 L639.6,178.2 L672.5,195.6 L705.4,210.9 L738.3,224.7 L771.3,237.3 L804.2,249 L837.1,259.2 L870,270" fill="none" stroke="#a12622" stroke-width="2.2"/>
+  <line x1="472" y1="266" x2="472" y2="66" stroke="#a12622" stroke-width="1.6" stroke-dasharray="4 4" marker-end="url(#jumpRed)"/>
+  <text x="482" y="190" font-size="11.5" fill="#a12622">full relearn: all 8 services</text>
+
+  <!-- split: 3-week cycle, half the system -->
+  <path d="M80,60 L112.9,81.6 L145.8,101.7 L178.8,120.3 L211.7,137.7 L244.6,153.9 L277.5,168.6" fill="none" stroke="#1e7d46" stroke-width="2.2"/>
+  <path d="M277.5,60 L310.4,81.6 L343.3,101.7 L376.3,120.3 L409.2,137.7 L442.1,153.9 L475,168.6" fill="none" stroke="#1e7d46" stroke-width="2.2"/>
+  <path d="M475,60 L507.9,81.6 L540.8,101.7 L573.8,120.3 L606.7,137.7 L639.6,153.9 L672.5,168.6" fill="none" stroke="#1e7d46" stroke-width="2.2"/>
+  <path d="M672.5,60 L705.4,81.6 L738.3,101.7 L771.3,120.3 L804.2,137.7 L837.1,153.9 L870,168.6" fill="none" stroke="#1e7d46" stroke-width="2.2"/>
+  <g stroke="#1e7d46" stroke-width="1.6" stroke-dasharray="4 4">
+    <line x1="277.5" y1="164" x2="277.5" y2="66" marker-end="url(#jumpGreen)"/>
+    <line x1="478" y1="164" x2="478" y2="66" marker-end="url(#jumpGreen)"/>
+    <line x1="672.5" y1="164" x2="672.5" y2="66" marker-end="url(#jumpGreen)"/>
+  </g>
+  <text x="286" y="186" font-size="11.5" fill="#1e7d46">refresh: 4 services</text>
+
+  <!-- legend -->
+  <rect x="95" y="228" width="250" height="64" rx="6" fill="#ffffff" opacity="0.9" stroke="#cccccc"/>
+  <line x1="107" y1="246" x2="137" y2="246" stroke="#a12622" stroke-width="2.5"/>
+  <text x="143" y="250" font-size="11.5" fill="#333333">today: 6-week cycle, whole system</text>
+  <line x1="107" y1="272" x2="137" y2="272" stroke="#1e7d46" stroke-width="2.5" stroke-dasharray="7 4"/>
+  <text x="143" y="276" font-size="11.5" fill="#333333">split: 3-week cycle, half the system</text>
+</svg>
