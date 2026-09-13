@@ -37,7 +37,7 @@ If the section turns into slop, the logs will show exactly where it went wrong, 
 - [Protocols Feature Matrix](protocols-feature-matrix/index.md) - the five protocols stack rather than compete, and adoption falls with every step up the stack.
 - [Context Engines Feature Matrix](context-engines-feature-matrix/index.md) - the eight context vendors and tools against delivery, deployment, and scale rows, Graft the newest, verified 2026-09-13.
 - [Code Review Feature Matrix](code-review-feature-matrix/index.md) - the eight AI reviewers divided on where your code runs, with both Kudelski exploit records named, verified 2026-09-13.
-- [Skills Feature Matrix](skills-feature-matrix/index.md) - the spec, vendor format, harness mechanism, optimizer, and registry against runtime and stewardship rows.
+- [Skills Feature Matrix](skills-feature-matrix/index.md) - the spec, vendor format, harness mechanism, optimizer, registry, and curated pack against runtime and stewardship rows.
 - [Retrieval Feature Matrix](retrieval-feature-matrix/index.md) - the two frameworks and two patterns compared, with the harness-native counterargument engaged.
 - [Memory Feature Matrix](memory-feature-matrix/index.md) - the file convention, the portable format, the capture plugin, and five services against memory-model and lock-in rows, Engrim the newest column, verified 2026-09-13.
 - [Executions Feature Matrix](executions-feature-matrix/index.md) - subscription features versus self-hostable infrastructure across trigger and execution rows.
@@ -142,6 +142,7 @@ All categories refreshed in parallel every run; dead tools keep their entries, m
 
 ## Skills
 
+- [Agent-Native](agent-native/index.md) - Builder.io's curated pack of fifteen skills plus the app framework they bridge to, the discipline skills portable to any harness.
 - [Agent Skills open standard](agent-skills-open-standard/index.md) - the agentskills.io spec for SKILL.md capability directories.
 - [Anthropic Agent Skills](anthropic-agent-skills/index.md) - Anthropic's SKILL.md folder format for reusable agent capabilities.
 - [OpenCode skills and plugins](opencode-skills-and-plugins/index.md) - OpenCode's two extension mechanisms: skills for the model, plugins for the harness.
