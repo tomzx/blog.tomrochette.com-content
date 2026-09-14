@@ -1,29 +1,82 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="920" height="390" viewBox="0 0 920 390" font-family="Helvetica, Arial, sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="460" viewBox="0 0 1000 460" font-family="Helvetica, Arial, sans-serif">
   <title>Stages of parallel LLM work on a single codebase</title>
-  <desc>An ascending staircase. One branch with one task and one session, then one branch with several sessions until the first silent collision, then one worktree per task, then a pool of worktrees with more tasks than worktrees and an orchestrator coordinating them.</desc>
+  <desc>An ascending sequence of four schematic stages. Stage 1: one branch with one session. Stage 2: one branch with several sessions whose dashed edit lines converge on one shared file and spark a silent collision. Stage 3: one worktree folder per task, all connected to one shared .git repository bar. Stage 4: an orchestrator fed by a queue of four task cards fanning work out to a pool of three worktree folders, more tasks than worktrees.</desc>
   <defs>
-    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#444444"/></marker>
-    <marker id="arrRed" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#b5471f"/></marker>
-    <marker id="arrGreen" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#1e7d46"/></marker>
+    <marker id="arrSlate" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#33506e"/></marker>
+    <marker id="arrGreen" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#1e7d46"/></marker>
+    <marker id="arrGray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#8a939e"/></marker>
   </defs>
-  <rect x="0" y="0" width="920" height="390" fill="#ffffff"/>
-<rect x="50" y="310" width="196" height="66" rx="8" fill="#f0f4f9" stroke="#33506e" stroke-width="1.5"/>
-<text x="148.0" y="337" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">One branch</text>
-<text x="148.0" y="358.0" text-anchor="middle" font-size="11" font-weight="normal" fill="#444444">one task, one session</text>
-<line x1="248" y1="320" x2="262" y2="252" stroke="#444444" stroke-width="1.8" marker-end="url(#arr)"/>
-<rect x="270" y="236" width="196" height="66" rx="8" fill="#f0f4f9" stroke="#33506e" stroke-width="1.5"/>
-<text x="368.0" y="263" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">One branch</text>
-<text x="368.0" y="284.0" text-anchor="middle" font-size="11" font-weight="normal" fill="#444444">several sessions, first</text>
-<text x="368.0" y="299.9" text-anchor="middle" font-size="11" font-weight="normal" fill="#444444">silent collision</text>
-<line x1="468" y1="246" x2="482" y2="178" stroke="#444444" stroke-width="1.8" marker-end="url(#arr)"/>
-<rect x="490" y="162" width="196" height="66" rx="8" fill="#f0f4f9" stroke="#33506e" stroke-width="1.5"/>
-<text x="588.0" y="189" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">One worktree</text>
-<text x="588.0" y="210.0" text-anchor="middle" font-size="11" font-weight="normal" fill="#444444">one per task</text>
-<line x1="688" y1="172" x2="702" y2="104" stroke="#444444" stroke-width="1.8" marker-end="url(#arr)"/>
-<rect x="710" y="88" width="196" height="66" rx="8" fill="#e4f2e9" stroke="#1e7d46" stroke-width="1.5"/>
-<text x="808.0" y="115" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">Pool of worktrees</text>
-<text x="808.0" y="136.0" text-anchor="middle" font-size="11" font-weight="normal" fill="#444444">more tasks than worktrees,</text>
-<text x="808.0" y="151.9" text-anchor="middle" font-size="11" font-weight="normal" fill="#444444">an orchestrator</text>
-<text x="60" y="52" font-size="14" font-weight="bold" fill="#111111">Four stages of parallel work on one codebase</text>
-<text x="60" y="74" font-size="12" fill="#444444">each stage absorbs the failure that ended the previous one</text>
+  <rect x="0" y="0" width="1000" height="460" fill="#ffffff"/>
+
+  <text x="40" y="42" font-size="15" font-weight="bold" fill="#1f2937">Four stages of parallel work on one codebase</text>
+  <text x="40" y="63" font-size="12" font-style="italic" fill="#6b7280">each stage absorbs the failure that ended the previous one</text>
+
+  <line x1="240" y1="380" x2="276" y2="338" stroke="#33506e" stroke-width="1.8" marker-end="url(#arrSlate)"/>
+  <line x1="482" y1="320" x2="516" y2="280" stroke="#33506e" stroke-width="1.8" marker-end="url(#arrSlate)"/>
+  <line x1="722" y1="260" x2="756" y2="222" stroke="#33506e" stroke-width="1.8" marker-end="url(#arrSlate)"/>
+
+  <text x="140" y="326" text-anchor="middle" font-size="11" font-weight="bold" fill="#6b7280" letter-spacing="2">STAGE 1</text>
+  <line x1="55" y1="400" x2="216" y2="400" stroke="#33506e" stroke-width="2"/>
+  <circle cx="85" cy="400" r="3" fill="#33506e"/>
+  <circle cx="125" cy="400" r="3" fill="#33506e"/>
+  <circle cx="165" cy="400" r="3" fill="#33506e"/>
+  <circle cx="222" cy="400" r="4.5" fill="#ffffff" stroke="#33506e" stroke-width="1.8"/>
+  <rect x="118" y="350" width="44" height="26" rx="6" fill="#ffffff" stroke="#33506e" stroke-width="1.5"/>
+  <circle cx="140" cy="363" r="4.5" fill="#33506e"/>
+  <line x1="140" y1="376" x2="140" y2="396" stroke="#33506e" stroke-width="1.5"/>
+  <text x="140" y="440" text-anchor="middle" font-size="11.5" font-style="italic" fill="#6b7280">one branch, one session</text>
+
+  <text x="380" y="266" text-anchor="middle" font-size="11" font-weight="bold" fill="#6b7280" letter-spacing="2">STAGE 2</text>
+  <line x1="295" y1="345" x2="458" y2="345" stroke="#33506e" stroke-width="2"/>
+  <circle cx="320" cy="345" r="3" fill="#33506e"/>
+  <circle cx="360" cy="345" r="3" fill="#33506e"/>
+  <circle cx="400" cy="345" r="3" fill="#33506e"/>
+  <circle cx="440" cy="345" r="3" fill="#33506e"/>
+  <circle cx="463" cy="345" r="4.5" fill="#ffffff" stroke="#33506e" stroke-width="1.8"/>
+  <rect x="294" y="278" width="42" height="24" rx="6" fill="#ffffff" stroke="#33506e" stroke-width="1.5"/>
+  <circle cx="315" cy="290" r="4.5" fill="#33506e"/>
+  <rect x="394" y="278" width="42" height="24" rx="6" fill="#ffffff" stroke="#33506e" stroke-width="1.5"/>
+  <circle cx="415" cy="290" r="4.5" fill="#33506e"/>
+  <line x1="330" y1="302" x2="355" y2="306" stroke="#8a939e" stroke-width="1.4" stroke-dasharray="4 3"/>
+  <line x1="400" y1="302" x2="375" y2="306" stroke="#8a939e" stroke-width="1.4" stroke-dasharray="4 3"/>
+  <rect x="357" y="297" width="16" height="16" rx="2" fill="#fdeee7" stroke="#b5471f" stroke-width="1.4"/>
+  <line x1="370" y1="300" x2="373.5" y2="296.5" stroke="#b5471f" stroke-width="2" stroke-linecap="round"/>
+  <line x1="360" y1="300" x2="356.5" y2="296.5" stroke="#b5471f" stroke-width="2" stroke-linecap="round"/>
+  <line x1="370" y1="310" x2="373.5" y2="313.5" stroke="#b5471f" stroke-width="2" stroke-linecap="round"/>
+  <line x1="360" y1="310" x2="356.5" y2="313.5" stroke="#b5471f" stroke-width="2" stroke-linecap="round"/>
+  <text x="365" y="331" text-anchor="middle" font-size="10.5" font-style="italic" fill="#b5471f">silent collision</text>
+  <text x="380" y="380" text-anchor="middle" font-size="11.5" font-style="italic" fill="#6b7280">one branch, several sessions</text>
+
+  <text x="620" y="206" text-anchor="middle" font-size="11" font-weight="bold" fill="#6b7280" letter-spacing="2">STAGE 3</text>
+  <rect x="549" y="220" width="14" height="7" rx="2" fill="#f0f4f9" stroke="#33506e" stroke-width="1.2"/>
+  <rect x="609" y="220" width="14" height="7" rx="2" fill="#f0f4f9" stroke="#33506e" stroke-width="1.2"/>
+  <rect x="669" y="220" width="14" height="7" rx="2" fill="#f0f4f9" stroke="#33506e" stroke-width="1.2"/>
+  <rect x="545" y="226" width="44" height="34" rx="5" fill="#ffffff" stroke="#33506e" stroke-width="1.5"/>
+  <rect x="605" y="226" width="44" height="34" rx="5" fill="#ffffff" stroke="#33506e" stroke-width="1.5"/>
+  <rect x="665" y="226" width="44" height="34" rx="5" fill="#ffffff" stroke="#33506e" stroke-width="1.5"/>
+  <circle cx="567" cy="244" r="3" fill="#33506e"/>
+  <circle cx="627" cy="244" r="3" fill="#33506e"/>
+  <circle cx="687" cy="244" r="3" fill="#33506e"/>
+  <line x1="567" y1="260" x2="567" y2="284" stroke="#33506e" stroke-width="1.2"/>
+  <line x1="627" y1="260" x2="627" y2="284" stroke="#33506e" stroke-width="1.2"/>
+  <line x1="687" y1="260" x2="687" y2="284" stroke="#33506e" stroke-width="1.2"/>
+  <rect x="545" y="284" width="160" height="18" rx="3" fill="#eef2f7" stroke="#33506e" stroke-width="1.2"/>
+  <text x="625" y="296" text-anchor="middle" font-size="10" fill="#33506e">.git</text>
+  <text x="620" y="320" text-anchor="middle" font-size="11.5" font-style="italic" fill="#6b7280">one worktree per task</text>
+
+  <text x="860" y="146" text-anchor="middle" font-size="11" font-weight="bold" fill="#1e7d46" letter-spacing="2">STAGE 4</text>
+  <rect x="768" y="158" width="30" height="10" rx="2" fill="#ffffff" stroke="#8a939e" stroke-width="1.2"/>
+  <rect x="768" y="170" width="30" height="10" rx="2" fill="#ffffff" stroke="#8a939e" stroke-width="1.2"/>
+  <rect x="768" y="182" width="30" height="10" rx="2" fill="#ffffff" stroke="#8a939e" stroke-width="1.2"/>
+  <rect x="768" y="194" width="30" height="10" rx="2" fill="#ffffff" stroke="#8a939e" stroke-width="1.2"/>
+  <line x1="783" y1="206" x2="783" y2="214" stroke="#8a939e" stroke-width="1.4" marker-end="url(#arrGray)"/>
+  <rect x="766" y="216" width="70" height="26" rx="6" fill="#eef7f1" stroke="#1e7d46" stroke-width="1.8"/>
+  <text x="801" y="233" text-anchor="middle" font-size="10" font-weight="bold" fill="#1e7d46">orchestrator</text>
+  <line x1="838" y1="229" x2="874" y2="196" stroke="#1e7d46" stroke-width="1.6" marker-end="url(#arrGreen)"/>
+  <line x1="838" y1="229" x2="916" y2="196" stroke="#1e7d46" stroke-width="1.6" marker-end="url(#arrGreen)"/>
+  <line x1="838" y1="229" x2="958" y2="196" stroke="#1e7d46" stroke-width="1.6" marker-end="url(#arrGreen)"/>
+  <rect x="858" y="160" width="36" height="30" rx="5" fill="#ffffff" stroke="#33506e" stroke-width="1.5"/>
+  <rect x="900" y="160" width="36" height="30" rx="5" fill="#ffffff" stroke="#33506e" stroke-width="1.5"/>
+  <rect x="942" y="160" width="36" height="30" rx="5" fill="#ffffff" stroke="#33506e" stroke-width="1.5"/>
+  <text x="860" y="264" text-anchor="middle" font-size="11.5" font-style="italic" fill="#6b7280">a pool of worktrees</text>
 </svg>
