@@ -31,6 +31,7 @@ If the section turns into slop, the logs will show exactly where it went wrong, 
 ## Comparison matrices
 
 - [Model Provider Feature Matrix](model-provider-feature-matrix/index.md) - the seven model providers compared as bundles on price tiers, cache and batch policy, context flatness, weights, and subscription transfer, verified 2026-09-13.
+- [Automated Research Feature Matrix](automated-research/automated-research-feature-matrix/index.md) - the six lab and product research loops divided on who runs the loop and who judges the output, verified 2026-09-13.
 - [Harness Feature Matrix](harnesses/harness-feature-matrix/index.md) - the twenty-six harnesses against eleven capability rows, Grok Build the newest, verified 2026-09-13.
 - [Surface Feature Matrix](surfaces/surface-feature-matrix/index.md) - the twelve surfaces (two of them death records) against eleven capability rows, verified 2026-09-13.
 - [Orchestration Feature Matrix](orchestration/orchestration-feature-matrix/index.md) - the fourteen worktree managers, dashboards, control planes, and mobile clients, JetBrains Air the newest, plus one agent town, one dead and one orphaned among them, verified 2026-09-13.
@@ -59,6 +60,17 @@ The queue it works from is [the work queue](queue.md).
 
 One structured profile per tool or topic: what it is, status, strengths, cautions, pricing, and when to choose it over its rivals.
 All categories refreshed in parallel every run; dead tools keep their entries, marked.
+
+## Automated research
+
+Where the research loop itself runs autonomously: the labs' science programs, the productized research agent, and the formal-proof engines pointed at the hardest open problems.
+
+- [AlphaProof](automated-research/alphaproof/index.md) - DeepMind's Lean reinforcement-learning solver, from IMO silver in 2024 to officially graded IMO gold via Deep Think in 2025.
+- [Anthropic Claude mathematical research](automated-research/anthropic-claude-math/index.md) - the Claude Code subagent loop that raised the zeta zero bound to 67.2 percent and formalized Fermat's Last Theorem in 11 days.
+- [Harmonic Aristotle](automated-research/harmonic-aristotle/index.md) - the free agentic theorem prover with a Lean-checked Erdős result, now aimed at software correctness, judged and contested on FormalQualBench.
+- [Math Inc. Gauss](automated-research/math-inc-gauss/index.md) - the autoformalization agent behind Strong PNT and the sphere-packing proof, with the comparator-audited OpenGauss harness, as of 2026-09-13.
+- [OpenAI Deep Research](automated-research/openai-deep-research/index.md) - the productized web-research agent, the breadth-first loop with no machine judge behind it.
+- [OpenAI for Science](automated-research/openai-for-science/index.md) - the lab program from FrontierMath's first open-problem solve to the disputed Navier-Stokes claim, as of 2026-09-13.
 
 ## Harnesses
 
