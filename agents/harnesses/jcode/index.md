@@ -1,7 +1,7 @@
 ---
 title: jcode
 created: 2026-08-30
-updated: 2026-09-12
+updated: 2026-09-16
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agents, harnesses, rust, yc, memory, multi-agent]
 readability: 3
@@ -12,7 +12,7 @@ audience_notes: >
 ---
 
 jcode is a Rust terminal coding agent from Solo Systems, the one-person company of Jeremy Huang (YC S26), built on the claim that a tiny RAM footprint is what makes dozens of parallel agents practical.
-Facts below verified as of 2026-09-13.
+Facts below verified as of 2026-09-16.
 
 **jcode is the first harness whose headline feature is not intelligence but arithmetic: about 10 MB of extra memory per added session (ten sessions cost roughly 100 MB), so running a dozen agents stops being a memory decision, and it ships the memory graph and swarm coordination that assume you will.**
 
@@ -26,9 +26,9 @@ Its three distinctive systems are an embedding-based memory graph with passive r
 ## Status
 
 **Active and rising fast, with a bus factor of one.**
-Created January 5, 2026, it shows 19,579 stars and 2,264 forks with a push on the day of verification (GitHub API), and near-daily releases (v0.84.0 on September 7, 2026, still the latest as of 2026-09-13).
+Created January 5, 2026, it shows 19,753 stars and 2,293 forks with a push on the day of verification (GitHub API), and a release cadence that ran near-daily until v0.84.0 on September 7, 2026, still the latest as of 2026-09-16.
 It is Y Combinator-backed (S26), and the author reports 11,977 contributions in the last year ([about page](https://jcode.sh/about)).
-The independent footprint is thin so far: two Hacker News threads at 3 and 5 points with zero comments (April 30 and August 10, 2026) and one favorable third-party comparison; 19,553 stars against that little discussion is unusual and worth watching.
+The independent footprint is thin so far: two Hacker News threads at 3 and 5 points with zero comments (April 30 and August 10, 2026) and one favorable third-party comparison; 19,753 stars against that little discussion is unusual and worth watching.
 
 ## Strengths
 
@@ -70,6 +70,7 @@ Not for teams needing IDE integration, HTTP MCP, or independent benchmarking tod
 - 2026-08-30 - Created in the Harnesses category on an owner request, with the resource-efficiency thesis recorded.
 - 2026-09-02 - Re-framed the upstream benchmark comparison (about 10 MB per added session versus Claude Code's 212.7 MB).
 - 2026-09-04 - Rewrote the embedding-cost caution, which had become factually wrong once jcode.sh published both embedding states.
+- 2026-09-16 - Refreshed repository counters (19,753 stars, 2,293 forks) and noted that no release has shipped since v0.84.0 on September 7.
 
 ## See also
 

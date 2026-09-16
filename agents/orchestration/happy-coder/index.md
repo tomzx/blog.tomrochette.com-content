@@ -1,7 +1,7 @@
 ---
 title: Happy Coder
 created: 2026-09-06
-updated: 2026-09-13
+updated: 2026-09-16
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, mobile, claude-code, codex]
 readability: 3
@@ -12,7 +12,7 @@ audience_notes: >
 
 Happy Coder is an MIT-licensed open-source client that wraps Claude Code and Codex sessions on your machine and syncs them end-to-end encrypted to native iOS, Android, macOS, and web apps.
 **It passed 23k stars as a thin wrapper around two harnesses, second only to cmux among the category's maintained tools, which says the phone screen, not the orchestrator, is what people install.**
-Facts below verified as of 2026-09-13.
+Facts below verified as of 2026-09-16.
 
 ## What it is
 
@@ -23,10 +23,10 @@ The README describes the makers as a community of engineers building for themsel
 
 ## Status
 
-Active and second only to cmux among maintained category tools on stars: 23,770 GitHub stars as of 2026-09-13 (the orphaned Vibe Kanban repo holds more, about 28k, but has shipped nothing since April), created July 2025, last pushed 2026-09-12.
-The latest CLI release, cli-1.2.3, shipped 2026-09-05.
+Active and second only to cmux among maintained category tools on stars: 23,799 GitHub stars as of 2026-09-16 (the orphaned Vibe Kanban repo holds more, about 28k, but has shipped nothing since April), created July 2025, last pushed 2026-09-16.
+The latest stable CLI release, cli-1.2.4, shipped 2026-09-13, with cli-1.2.5 betas following on 2026-09-14.
 Its August 2025 Show HN drew only 30 points, so the star count is bottom-up adoption rather than press traction.
-For scale, Paseo, the category's other mobile-first entrant, reports 17k stars against Happy's 23.7k.
+For scale, Paseo, the category's other mobile-first entrant, reports 17.4k stars against Happy's 23.8k.
 
 ## Strengths
 
@@ -64,6 +64,7 @@ Not for multi-provider orchestration, worktree isolation, or Windows and Linux d
 - 2026-09-06 - Created in the Orchestration category seed.
 - 2026-09-12 - Corrected the factually wrong claim that it out-stars every category tool (cmux is bigger).
 - 2026-09-13 - Refined the star ranking to second among maintained tools (the orphaned Vibe Kanban repo outranks it but is dormant) and refreshed counts.
+- 2026-09-16 - Recorded the cli-1.2.4 stable release (September 13) and the 1.2.5 betas, and refreshed star and push counts.
 
 ## See also
 
@@ -75,9 +76,9 @@ Not for multi-provider orchestration, worktree isolation, or Windows and Linux d
 
 ## References
 
-- https://github.com/slopus/happy - repository, 23,770 stars, MIT license, monorepo components, team description (GitHub API, 2026-09-13)
+- https://github.com/slopus/happy - repository, 23,799 stars, MIT license, monorepo components, team description (GitHub API, 2026-09-16)
 - https://happy.engineering/ - official site and product framing
-- https://github.com/slopus/happy/releases - cli-1.2.3 published 2026-09-05 (GitHub API)
+- https://github.com/slopus/happy/releases - cli-1.2.4 published 2026-09-13, cli-1.2.5 betas on 2026-09-14 (GitHub API)
 - https://news.ycombinator.com/item?id=44904039 - August 2025 Show HN, 30 points, the donation-IAP question and Windows sync bugs (Algolia-verified)
 - https://news.ycombinator.com/item?id=46994716 - February 2026 Show HN for the happy.engineering launch (Algolia-verified)
 - https://paseo.sh/alternatives/happy-coder - independent comparison grounding the architecture, provider, and worktree-limit claims

@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Caleb Writes Code is the YouTube explainer channel of Caleb Eom, covering model releases, AI hardware, and agentic-engineering concepts in short, illustrated videos.
-Facts below verified as of 2026-09-13.
+Facts below verified as of 2026-09-16.
 
 **He is the fastest way to stay current in video form, because each release and agentic buzzword becomes a 7 to 13 minute illustrated explainer within days, a release-explainer slot no other member of this category fills.**
 

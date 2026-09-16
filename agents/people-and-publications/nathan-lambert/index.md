@@ -1,7 +1,7 @@
 ---
 title: Nathan Lambert (Interconnects)
 created: 2026-08-29
-updated: 2026-09-13
+updated: 2026-09-16
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=big-pickle, llm=glm-5.3-flash, people, publications, open-models, post-training, agents]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Interconnects, the Substack of former AI2 post-training lead Nathan Lambert, is the inside-the-labs newsletter for the models and reasoning layer under agentic development, minus the hype.
-Facts below verified as of 2026-09-13.
+Facts below verified as of 2026-09-16.
 
 **He explains the research and the open-model ecosystem from someone who built it, which makes him the direct bridge between the frontier labs and the engineer choosing a model or an agent today.**
 
@@ -23,8 +23,8 @@ His [Get Good at Agents](https://www.interconnects.ai/p/get-good-at-agents) (202
 
 ## Status
 
-Active and prolific as of 2026-09-13.
-The newsletter reports over 82,000 subscribers as of 2026-09-13, and he published four posts in the week before verification (September 8 to 11, including an open-model reading list and a piece on open artifacts #24).
+Active and prolific as of 2026-09-16.
+The newsletter reports over 83,000 subscribers as of 2026-09-16, and his most recent posts ran September 8 to 11 (including an open-model reading list and a piece on open artifacts #24), with nothing newer as of this check.
 He released the [RLHF Book](https://rlhfbook.com/) ('26) with a companion post-training course, and his site links to open-model tools he maintains: the Artifacts Hub, an Adoption Dashboard, and the ATOM Project.
 He announced he is "currently doing something new" after leaving Ai2.
 
@@ -61,6 +61,7 @@ Not for anyone who wants a mostly-vendor-neutral or application-level overview; 
 ## Changes
 
 - 2026-08-29 - Created as the model-and-post-training band of the people and publications category expansion.
+- 2026-09-16 - Subscriber count moved to over 83,000 (from over 82,000), with no new posts since the September 8 to 11 cluster.
 
 ## See also
 

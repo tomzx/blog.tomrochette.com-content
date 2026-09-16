@@ -1,7 +1,7 @@
 ---
 title: "Harness Feature Matrix"
 created: 2026-08-24
-updated: 2026-09-13
+updated: 2026-09-16
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, comparison, harnesses, coding-agents]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 This matrix compares the twenty-six harnesses profiled in this section, feature by feature, so the shortlisting step does not require reading twenty-six notes.
-Everything below was re-verified against live sources on 2026-09-13.
+Everything below was re-verified against live sources on 2026-09-16.
 
 **No harness has everything, and the two axes that actually decide the purchase are client openness and who pays for tokens: everything else is converging.**
 
@@ -26,7 +26,7 @@ Each column links to the full research note; every cell below traces to a source
 | Open client | ✓ Apache-2.0 | ✗ | ~ Apache-2.0 source, preview binaries | ✗ | ✗ | ✓ Apache-2.0 | ✓ Apache-2.0 | ~ FSL-1.1-MIT | ✓ MIT | ✓ MIT | ✓ Apache-2.0 | ✓ Apache-2.0 | ✓ Apache-2.0 | ✓ Apache-2.0 | ✓ MIT | ✓ AGPL-3.0 | ✗ | ✓ MIT | ✓ MIT | ✓ Apache-2.0 | ✓ MIT | ✓ MIT | ✓ MIT | ✓ Apache-2.0 | ✗ closed binary | ✓ GPL-3.0 |
 | BYOK | ✓ | ✓ fee-free outside Enterprise | ✓ | ? | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ~ AI Gateway key only | ✓ paid keys | ✓ | ✓ custom models via base_url | ✓ | ✓ | ✓ | ✓ | ✓ | ~ BYOC at paid tiers | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 | Included subscription usage | ✗ | ✓ | ✓ | ✗ free, no subscriptions | ✓ | ~ via ClinePass | ✓ | ~ via Hyper | ✗ BYO keys only | ✗ API keys only | ~ Codex and Grok OAuth | ✗ enterprise only | ~ via ACP subs | ~ OIDC login default, terms undocumented | ✓ OAuth and multi-account | ✓ | ✓ | ~ kilo credits | ~ via Kimi OAuth | ~ $5 credits at $0 tier | ~ via Zen | ~ ChatGPT Plus/Pro for Codex models | ✓ Claude, ChatGPT, Copilot | ~ Coding Plan weekly quota | ✓ | ✗ |
-| Local models | ✓ | ✗ | ✓ embedded llama.cpp | ✗ hosted models only | ✗ | ✓ | ✗ | ✓ | ~ OpenAI-compatible endpoints | ✗ | ~ advertised on fx.dev, not yet in docs | ✗ | ✓ | ~ custom model base_url | ✓ Ollama and LM Studio | ✓ Ollama | ✓ Ollama and LM Studio, plus on-device Junie Local | ✓ Ollama and LM Studio | ✗ | ? | ✓ | ✓ LM Studio, Ollama, vLLM | ✓ llama.cpp | ✓ | ✗ | ✓ Ollama |
+| Local models | ✓ | ✗ | ✓ embedded llama.cpp | ✗ hosted models only | ✗ | ✓ | ✗ | ✓ | ~ OpenAI-compatible endpoints | ✗ | ~ custom model connections preview for Ollama, vLLM, and OpenRouter (requires a preview build) | ✗ | ✓ | ~ custom model base_url | ✓ Ollama and LM Studio | ✓ Ollama | ✓ Ollama and LM Studio, plus on-device Junie Local | ✓ Ollama and LM Studio | ✗ | ? | ✓ | ✓ LM Studio, Ollama, vLLM | ✓ llama.cpp | ✓ | ✗ | ✓ Ollama |
 | MCP | ✗ | ✓ | ✓ | ? | ✓ | ✓ | ✓ | ✓ | ? | ? | ✓ | ✓ | ✓ | ✓ | ~ stdio only | ✓ | ✓ | ✓ | ✓ | ? | ✓ | ✓ | ✗ by design | ✓ | ? | ~ compile-time feature |
 | AGENTS.md | ✗ | ✓ | ✓ | ? | ~ reads CLAUDE.md | ✓ plus .clinerules | ✓ | ✓ plus CRUSH.md | ? | ? | ✓ native | ~ GEMINI.md native | ✓ plus .goosehints | ✓ plus CLAUDE.md and .cursor rules | ✓ native plus ~/AGENTS.md | ? | ✗ uses guidelines.md | ✓ plus .kilocoderules | ? | ? | ✓ plus CLAUDE.md | ✗ uses .openhands | ? | ~ QWEN.md native | ? | ✓ plus ARCHITECTURE.md |
 | Subagents | ✗ | ✓ | ✓ | ? | ✓ | ✓ teams | ✓ | ? | ✓ | ~ agent clones and lineage | ✓ persistent children | ✗ | ✓ | ✓ built-in and custom types | ✓ swarm workers | ~ read-only | ✗ | ✓ custom and built-in | ✓ coder, explore, plan | ? | ✓ | ~ delegates via ACP | ~ via extensions | ✓ teams | ~ multi-agent orchestration | ✓ |
@@ -97,6 +97,7 @@ The six new columns spread across the same axis: Ante and Juggler take subscript
 - 2026-09-02 - Updated the Junie local-models cell for the Junie Local launch during the category-wide matrix re-verification.
 - 2026-09-13 - Updated the Amp column for the September 13 Free Agent change, free with your own compute, subscriptions, or keys and no BYOK token fees outside Enterprise.
 - 2026-09-13 - Added Pi to the local-models purist list, which its llama.cpp cell already supported.
+- 2026-09-16 - Moved the fx local-models cell from "advertised on fx.dev, not yet in docs" to the documented custom model connections preview for Ollama, vLLM, and OpenRouter, kept partial because it requires a preview build.
 
 ## See also
 
@@ -126,7 +127,8 @@ The six new columns spread across the same axis: Ante and Juggler take subscript
 - https://docs.warp.dev/agents/cli - CLI surface, cloud agents, and account model for the Warp Agent CLI column
 - https://github.com/vercel-labs/fx - license, scale, and releases for the fx column
 - https://fx.sh/docs/getting-started/authentication - the provider model behind the fx BYOK and subscription cells
-- https://fx.sh/docs/configure-fx/models - the fx local-models cell, whose docs still omit local support
+- https://fx.sh/docs/configure-fx/models - the fx local-models cell's catalog behavior on the built-in providers
+- https://fx.sh/docs/configure-fx/custom-model-connections - the custom model connections preview behind the fx local-models cell
 - https://github.com/1jehuang/jcode - license, scale, providers, MCP limits, and swarm for the jcode column
 - https://jcode.sh/docs - AGENTS.md, hooks, skills, local models, and remote daemon cells for the jcode column
 - https://github.com/juggler-ai/juggler - license, extensions, and session model for the Juggler column

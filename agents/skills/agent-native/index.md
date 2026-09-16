@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Agent-Native is Builder.io's two-piece ecosystem: an MIT TypeScript framework (github.com/BuilderIO/agent-native) for apps where the agent and the UI call the same actions, and a curated pack of fifteen skills (github.com/BuilderIO/skills) that wires coding agents into those apps and adds workflow disciplines.
-Facts below verified as of 2026-09-13.
+Facts below verified as of 2026-09-16.
 
 **The pack is the half harness users meet first: fifteen SKILL.md directories that install anywhere the Agent Skills standard reaches, part workflow doctrine, part on-ramp to Builder.io's stack.**
 
@@ -25,8 +25,8 @@ Install is `npx @agent-native/skills@latest add`, which writes to the shared `.a
 ## Status
 
 **Active and fast-moving, with a thin independent footprint.**
-Both repos are MIT: the skills catalog at 4.2k stars, 208 forks, and 136 commits, the framework at 4.8k stars, 448 forks, and 5,377 commits, as of 2026-09-13.
-The npm package was created 2026-06-10, sits at 0.2.724 with nightly builds shipping several times a day, and pulled 14,212 downloads in the week of 2026-09-05 to 2026-09-11.
+Both repos are MIT: the skills catalog at 4.3k stars, 210 forks, and 140 commits, the framework at 4.8k stars, 454 forks, and 5,573 commits, as of 2026-09-16.
+The npm package was created 2026-06-10, sits at 0.2.726 with nightly builds shipping several times a day, and pulled 15,617 downloads in the week of 2026-09-09 to 2026-09-15.
 No Hacker News threads and no independent coverage surfaced in this run's searches, so the audience so far is GitHub and npm.
 
 ## Strengths
@@ -40,12 +40,12 @@ No Hacker News threads and no independent coverage surfaced in this run's search
 - **The pack's gravity is Builder.io's stack: `/an` registers the hosted Dispatch MCP endpoint, `/visual-plan` defaults to hosted share links (plan content to a hosted database, local-files mode is opt-in), and the installer offers managed AGENTS.md/CLAUDE.md instruction blocks.**
 - 0.2.x with multiple nightlies a day is churn rather than stability, and the discipline skills are prompts, not enforcement, so whether `/plow-ahead` plows or stalls is model judgment.
 - `/rewind` needs the separate signed Clips Desktop app on macOS with screen capture on your workstation; the install flow gates it, but it is capture software.
-- The thin community footprint (no HN threads, no third-party reviews found as of 2026-09-13) means no independent security eyes yet.
+- The thin community footprint (no HN threads, no third-party reviews found as of 2026-09-16) means no independent security eyes yet.
 
 ## Pricing
 
 Free.
-Both repos are MIT, the hosted Dispatch endpoint and plans hosting cost nothing today, and I found no paid tier as of 2026-09-13.
+Both repos are MIT, the hosted Dispatch endpoint and plans hosting cost nothing today, and I found no paid tier as of 2026-09-16.
 
 ## Compared to
 
@@ -73,9 +73,9 @@ My disagreeable claim: the apps and the framework are the least durable half, th
 
 ## References
 
-- https://github.com/BuilderIO/skills - the catalog repo: the fifteen skills, installer options, marketplace packaging, 4.2k stars as of 2026-09-13
-- https://github.com/BuilderIO/agent-native - the framework repo: shared-action architecture, app gallery, MIT, 4.8k stars as of 2026-09-13
+- https://github.com/BuilderIO/skills - the catalog repo: the fifteen skills, installer options, marketplace packaging, 4.3k stars as of 2026-09-16
+- https://github.com/BuilderIO/agent-native - the framework repo: shared-action architecture, app gallery, MIT, 4.8k stars as of 2026-09-16
 - https://www.agent-native.com/ - the framework landing
-- https://registry.npmjs.org/@agent-native/skills - package metadata: created 2026-06-10, latest 0.2.724, MIT, published from the monorepo, as of 2026-09-13
-- https://api.npmjs.org/downloads/point/last-week/@agent-native/skills - 14,212 weekly downloads, 2026-09-05 to 2026-09-11
+- https://registry.npmjs.org/@agent-native/skills - package metadata: created 2026-06-10, latest 0.2.726, MIT, published from the monorepo, as of 2026-09-16
+- https://api.npmjs.org/downloads/range/2026-09-08:2026-09-16/@agent-native/skills - 15,617 weekly downloads, 2026-09-09 to 2026-09-15
 - https://hn.algolia.com/api/v1/search?query=%22builder.io%22%20skills&tags=story - the zero-hit search behind the missing-footprint statement

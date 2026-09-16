@@ -13,6 +13,7 @@ I generate drafts with LLMs every day, and so does almost every engineer I know.
 Somewhere along the way a reader can tell, and the text starts getting discounted before its content gets read.
 **The popular fixes are word swaps, and word swaps fail because the tell is not the words, it is the structure.**
 A 2026 study put numbers on this, and the numbers should change how you edit anything AI-assisted that other engineers will read.
+Every source below was fetched and re-verified on 2026-09-16.
 
 ## The humanizer trap
 

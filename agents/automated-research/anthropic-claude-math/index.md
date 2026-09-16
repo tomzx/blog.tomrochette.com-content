@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Anthropic's research-math program points unreleased Claude research models at open mathematics through Claude Code, with subagent fleets doing the work and Lean plus named human experts as the trust gates.
-Facts below verified as of 2026-09-13.
+Facts below verified as of 2026-09-16.
 
 **The frontier research loop is now ordinary engineering tooling: one staff member, a coding agent, about sixty subagents, thousands of shell commands, and a compiler as the judge.**
 
@@ -27,9 +27,9 @@ Anthropic's own zeta post footnote also credits a Claude model with disproving t
 
 ## Status
 
-Very active, with three major publications in five weeks as of 2026-09-13.
+Very active, with three major publications in five weeks as of 2026-09-16.
 The models are unreleased research versions, so the loop is not reproducible by outsiders today.
-The artifacts are public and machine-checkable: the formal-math repository (239 stars as of 2026-09-13) is Apache-2.0 with pinned toolchains and CI that builds with no `sorry` outside trusted statement files.
+The artifacts are public and machine-checkable: the formal-math repository (241 stars as of 2026-09-16) is Apache-2.0 with pinned toolchains and CI that builds with no `sorry` outside trusted statement files.
 Community footprint is strong, with the zeta result drawing a 282-point Hacker News discussion.
 A three-person experiment formalized Vinogradov's three primes theorem in three days on consumer Claude Max plans, which is the first version of this loop an outside engineer could actually copy.
 
@@ -61,7 +61,7 @@ The compute is internal and not priced publicly, and Anthropic sells the ingredi
 ## Bottom line
 
 **Recommended for anyone orchestrating long-horizon multi-agent work: this is the best-documented public example of subagent fleets, DAG coordination, and verification gates applied to real research.**
-Not for anyone expecting to rerun the exact loops, since the models are unreleased as of 2026-09-13.
+Not for anyone expecting to rerun the exact loops, since the models are unreleased as of 2026-09-16.
 
 ## Changes
 

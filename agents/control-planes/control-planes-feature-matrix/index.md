@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 This matrix compares the agent control planes profiled in this section: the flagship and the first stall record, so the category's consolidation story sits in one table.
-Everything below was verified against live sources on 2026-09-13.
+Everything below was verified against live sources on 2026-09-16.
 
 **A control plane is not a dashboard with more panels, it is an org (budgets, approvals, chain of command) wrapped around a heartbeat scheduler, and the second column below is the stall record proving the category fits exactly one open-source flagship.**
 
@@ -32,14 +32,14 @@ Legend: ✓ supported, ✗ not supported, ~ partial or conditional, ? not verifi
 | Multi-company | ✓ unlimited per deployment, data isolation | ✗ one company per install |
 | Channels | any heartbeat-capable agent surface | Discord, WhatsApp, Telegram |
 | Pricing | free self-hosted, cloud in waitlist, unpublished | free |
-| Current status | active, about 80k stars since 2026-03-02, 5,465 open issues | stalled March 2026, 3,614 stars, 75 open issues |
+| Current status | active, about 80k stars since 2026-03-02, 5,481 open issues | stalled March 2026, 3,614 stars, 75 open issues |
 
 ## Reading the matrix
 
 **The rows that separate a control plane from the orchestration category are governance, budgets, and multi-company isolation; a tool with parallel agents but none of those rows belongs in Orchestration, not here.**
 Paperclip fills all three, TinyAGI filled the team rows and none of the governance ones, and the gap plus the March 2026 stall is the consolidation story in two columns.
 
-The un-profiled long tail stays in prose until something clears the bar: claw-empire (1,373 stars, also stalled since March), desplega-ai's agent-swarm (759 stars, active, self-described company agentic operating system), multigent (66 stars), Cabinet (a knowledge-base product compared to Paperclip in its launch thread, a different problem), kastra (policy enforcement for harnesses, a governance slice rather than a plane), and OtoDock (scanned 2026-09-10: a 44-point Show HN on 2026-09-09 for its self-hosted company OS, but 111 stars, one maintainer, and a non-OSI license keep it below the bar for now).
+The un-profiled long tail stays in prose until something clears the bar: claw-empire (1,378 stars, also stalled since March), desplega-ai's agent-swarm (781 stars, active, self-described company agentic operating system), multigent (66 stars), Cabinet (a knowledge-base product compared to Paperclip in its launch thread, a different problem), kastra (policy enforcement for harnesses, a governance slice rather than a plane), and OtoDock (scanned 2026-09-10: a 44-point Show HN on 2026-09-09 for its self-hosted company OS, but 111 stars, one maintainer, and a non-OSI license keep it below the bar for now).
 The employee side has its own category, [Assistant runtimes](../../assistant-runtimes/assistant-runtimes-feature-matrix/index.md), anchored by OpenClaw, the -claw variants, and Hermes.
 
 ## Choosing from the matrix

@@ -1,7 +1,7 @@
 ---
 title: skills.sh
 created: 2026-08-24
-updated: 2026-09-12
+updated: 2026-09-16
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, skills, registries, vercel, agent-extensions]
 readability: 3
@@ -10,14 +10,14 @@ audience_notes: >
   Assumes familiarity with the Agent Skills format and npm-style CLIs.
 ---
 
-skills.sh is Vercel's directory and leaderboard for the open skills ecosystem: it ranks SKILL.md packages by install telemetry from its open-source CLI (`npx skills add <owner>/<repo>`), which installs into 79 agent harnesses as of 2026-09-13.
-Facts below verified as of 2026-09-13.
+skills.sh is Vercel's directory and leaderboard for the open skills ecosystem: it ranks SKILL.md packages by install telemetry from its open-source CLI (`npx skills add <owner>/<repo>`), which installs into 79 agent harnesses as of 2026-09-16.
+Facts below verified as of 2026-09-16.
 
 **It won the registry slot not through curation but by wrapping git: any repository is already a package, the CLI symlinks it into every harness, and the resulting install counts became the ecosystem's ranking, with security review still catching up.**
 
 ## What it is
 
-Launched 2026-01-20 by Vercel's labs team; the CLI is MIT-licensed with 31.5k stars, 2.7k forks, and 509 commits as of 2026-09-13.
+Launched 2026-01-20 by Vercel's labs team; the CLI is MIT-licensed with 31.7k stars, 2.7k forks, and 512 commits as of 2026-09-16.
 The CLI resolves GitHub shorthand and URLs, GitLab, any git URL, local paths, and direct archive URLs (downloads capped at 10 MiB by default), then symlinks or copies skills into per-agent directories.
 The site adds the leaderboard, per-agent and per-topic pages, badges, and packs (one install command bundling public and private skills).
 **Ranking comes from anonymous CLI telemetry (opt-out via `DISABLE_TELEMETRY`), not from vetting or ratings.**
@@ -25,10 +25,10 @@ The site adds the leaderboard, per-agent and per-topic pages, badges, and packs 
 ## Status
 
 **Active and dominant among third-party registries.**
-Top of the all-time leaderboard as of 2026-09-13: find-skills (vercel-labs) at 3.4M installs, grill-me (mattpocock/skills) at 1.1M, with the next three slots still held by mattpocock/skills entries (grill-with-docs, improve-codebase-architecture, and tdd, last read at 962.1K, 919.6K, and 891.6K on 2026-09-13), while frontend-design (anthropics/skills) now shows 881.1K in sixth, agent-browser (vercel-labs/agent-browser) 840.4K in seventh, and the newest top-ten entrant is setup-matt-pocock-skills (mattpocock/skills) at 823.2K in eighth.
+Top of the all-time leaderboard as of 2026-09-16: find-skills (vercel-labs) at 3.4M installs, grill-me (mattpocock/skills) at 1.2M, with the next three slots still held by mattpocock/skills entries (grill-with-docs, improve-codebase-architecture, and tdd, at 982.2K, 937.3K, and 909.7K), while frontend-design (anthropics/skills) shows 890.8K in sixth, agent-browser (vercel-labs/agent-browser) 862.5K in seventh, and setup-matt-pocock-skills (mattpocock/skills) rounds out the top eight at 839.7K.
 Official publisher entries include microsoft/azure-skills, supabase, prisma, and heygen-com/hyperframes.
-The publisher mix has gone enterprise: open.feishu.cn (Lark) is the largest publisher at 14.8M aggregate installs across 22 skills, larksuite/cli entries add 6.1M across 14, and prime-skills/runcomfy-agent-skills holds 4.6M across 11, all as of 2026-09-09.
-The nearest standalone competitor I had verified, skillregistry.io, listed 61 skills as of 2026-09-08, went dark by 2026-09-09, and is back online as of 2026-09-12 with 61 skills (still up with 61 skills as of 2026-09-13), 15,746 total downloads, and 18 contributors, still orders of magnitude behind skills.sh on installs.
+The publisher mix has gone enterprise: open.feishu.cn (Lark) is the largest publisher at 18.3M aggregate installs across 29 skills, larksuite/cli adds 11.2M across 34, and prime-skills/runcomfy-agent-skills has caught up at 11.2M across 30, all as of 2026-09-16.
+The nearest standalone competitor I had verified, skillregistry.io, listed 61 skills as of 2026-09-08, went dark by 2026-09-09, and is back online as of 2026-09-12 with 61 skills (still up as of 2026-09-16), 15,947 total downloads, and 18 contributors, still orders of magnitude behind skills.sh on installs.
 
 ## Strengths
 
@@ -39,7 +39,7 @@ The nearest standalone competitor I had verified, skillregistry.io, listed 61 sk
 ## Cautions
 
 - **Install counts measure fashion, not fitness: telemetry counts CLI runs, anyone can drive their own numbers, and the docs state plainly that the quality and security of listed skills are not guaranteed.**
-- The audit page shows the gap: as of 2026-09-13 it listed 78 Pending and 24 Safe entries with no remediation history, and the microsoft/azure-skills azure-validate entry Snyk flagged Critical in early September still shows Snyk Critical as of 2026-09-13, alongside a Safe Gen rating and zero Socket alerts.
+- The audit page shows the gap: as of 2026-09-16 the open.feishu.cn fleet still sat Pending across all three scanners (26 of the first 50 rows), with no remediation history, and the microsoft/azure-skills azure-validate entry Snyk flagged Critical in early September now reads Low Risk, alongside a Safe Gen rating and zero Socket alerts.
 - Skills are instructions and scripts that agents execute, a risk Anthropic's engineering post calls out for skills generally, so a leaderboard install is a supply-chain decision.
 - Telemetry is opt-out rather than opt-in, and one company controls the ranking surface of a nominally open ecosystem.
 
@@ -67,6 +67,7 @@ My disagreeable claim: marketplaces are the least interesting part of this ecosy
 - 2026-09-05 - Rewrote the audits caution after the Snyk-Critical azure-validate entry stopped appearing.
 - 2026-09-06 - Added the enterprise publisher mix with aggregate install figures.
 - 2026-09-07 - Updated the audits caution as azure-validate returned to the page marked Safe.
+- 2026-09-16 - azure-validate's Snyk rating cleared from Critical to Low Risk; the audits caution was rewritten around the still-Pending open.feishu.cn fleet.
 
 ## See also
 
@@ -78,10 +79,10 @@ My disagreeable claim: marketplaces are the least interesting part of this ecosy
 ## References
 
 - https://vercel.com/blog/introducing-skills - launch announcement (2026-01-20)
-- https://skills.sh/ - leaderboard, install counts, supported agents, as of 2026-09-13
+- https://skills.sh/ - leaderboard, install counts, supported agents, as of 2026-09-16
 - https://skills.sh/docs - ranking method (CLI telemetry) and the security disclaimer
-- https://skills.sh/audits - Gen/Socket/Snyk audit columns, azure-validate still Snyk-Critical, as of 2026-09-13
-- https://github.com/vercel-labs/skills - CLI source, agent path table, telemetry opt-out, 31.5k stars as of 2026-09-13
-- https://skillregistry.io/ - nearest standalone competitor, back online 2026-09-12 and still up with 61 skills as of 2026-09-13
+- https://skills.sh/audits - Gen/Socket/Snyk audit columns, azure-validate back to Snyk Low Risk, as of 2026-09-16
+- https://github.com/vercel-labs/skills - CLI source, agent path table, telemetry opt-out, 31.7k stars as of 2026-09-16
+- https://skillregistry.io/ - nearest standalone competitor, back online 2026-09-12 and still up with 61 skills and 15,947 downloads as of 2026-09-16
 - https://github.com/Fcmam5/skilleton - lockfile-style, no-telemetry alternative
 - https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills - the underlying untrusted-skill risk

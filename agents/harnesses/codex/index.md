@@ -1,7 +1,7 @@
 ---
 title: Codex
 created: 2026-08-22
-updated: 2026-09-12
+updated: 2026-09-16
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, coding-agents, harnesses, openai, developer-tools]
 readability: 3
@@ -12,7 +12,7 @@ audience_notes: >
 ---
 
 Codex is OpenAI's coding agent: a Rust CLI, an IDE extension, a desktop app, and a cloud service, all included in ChatGPT plans.
-Facts below verified as of 2026-09-13.
+Facts below verified as of 2026-09-16.
 
 **Codex is the only big-lab harness whose Apache-2.0 CLI an individual can still just run, and that matters more day to day than any single feature difference with Claude Code.**
 
@@ -25,7 +25,7 @@ Default models are the GPT-5.6 family (Sol for hard reasoning, Terra the workhor
 ## Status
 
 **Active.**
-`openai/codex` shows about 124k stars, about 19.0k forks, and about 10.7k commits under Apache-2.0 as of 2026-09-13.
+`openai/codex` shows about 125k stars, about 19.3k forks, and about 10.8k commits under Apache-2.0 as of 2026-09-16.
 The CLI launched April 2025 and has been rewritten and rebuilt since; the current docs position it as an open agent harness platform.
 
 ## Strengths
@@ -66,6 +66,7 @@ Not the cheapest path if your usage is light and token-based (aider or OpenCode 
 - 2026-08-23 - Bolded each section's key insight, named the launch-thread referent in the April 2025 caution, and set the updated field.
 - 2026-08-26 - Qualified the overbroad only-open-source-CLI thesis to what distinguishes it from Gemini CLI.
 - 2026-08-27 - Moved the three doc references to learn.chatgpt.com after the domain migration and reworded a banned-term phrase.
+- 2026-09-16 - Refreshed repository scale to about 125k stars, about 19.3k forks, and about 10.8k commits.
 
 ## See also
 
@@ -79,5 +80,5 @@ Not the cheapest path if your usage is light and token-based (aider or OpenCode 
 - https://learn.chatgpt.com/docs - product overview and surfaces
 - https://learn.chatgpt.com/docs/codex/cli - CLI features, plugins, review, exec
 - https://learn.chatgpt.com/docs/pricing - plans, usage windows, credit rate card
-- https://github.com/openai/codex - repository scale and Apache-2.0 license, as of 2026-09-13
+- https://github.com/openai/codex - repository scale and Apache-2.0 license, as of 2026-09-16
 - https://news.ycombinator.com/item?id=43708025 - launch discussion with early critical comparisons

@@ -1,7 +1,7 @@
 ---
 title: GitHub Agentic Workflows
 created: 2026-08-24
-updated: 2026-09-12
+updated: 2026-09-16
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, executions, github-actions, workflows]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 GitHub Agentic Workflows (gh-aw) define repository automation in Markdown with YAML frontmatter, compiled into a hardened GitHub Actions workflow that runs an AI coding agent with guardrails.
-Facts below verified as of 2026-09-13.
+Facts below verified as of 2026-09-16.
 
 **GitHub Actions is becoming the default execution substrate for code agents, and gh-aw is the mechanism that makes an untrusted LLM in CI survivable.**
 
@@ -24,9 +24,10 @@ It is built by GitHub Next with Microsoft Research, MIT-licensed, in public prev
 ## Status
 
 **Active preview with real traction.**
-About 5.1k stars, 540 forks, and roughly 17,700 commits in `github/gh-aw` as of 2026-09-13.
+About 5.1k stars, 541 forks, and roughly 17,800 commits in `github/gh-aw` as of 2026-09-16.
 The February 2026 Hacker News launch thread drew 302 points and 141 comments.
-The trust story has moved: an August 2026 billing bug forced the retirement of releases 0.68.4 through 0.71.3, and while that notice has since been cleared from the README, the release line keeps churning (v0.89.x runs as prereleases, latest v0.89.10 on 2026-09-13, with v0.88.7 the last stable-marked release on 2026-09-08), which shows how quickly this preview will break its users.
+The trust story has kept moving: an August 2026 billing bug forced the retirement of releases 0.68.4 through 0.71.3, and a critical security advisory published August 27 forced the pre-emptive retirement of releases 0.83.3 through 0.85.4, a notice that still sits in the README while the billing one was cleared.
+The release line keeps churning (v0.89.x runs as prereleases, latest v0.89.15 on 2026-09-14, with v0.88.7 the last stable-marked release on 2026-09-08), which shows how quickly this preview will break its users.
 
 ## Strengths
 
@@ -57,7 +58,7 @@ Self-hosted and ARC runners are supported, which can zero out the Actions-minute
 ## Bottom line
 
 **Recommended for maintainers automating issue triage, CI failure investigation, and documentation upkeep, provided a human still reviews every write.**
-Not for teams that need stability guarantees, since a billing bug forced release retirements as recently as August 2026.
+Not for teams that need stability guarantees, since a billing bug and a critical security advisory each forced release retirements as recently as August 2026.
 My disagreeable claim: even in preview, I would start here rather than hand-rolling a script that shells out to a coding agent, because the safe-outputs gate is worth more than any bespoke wrapper your team will write and abandon.
 
 ## Changes
@@ -65,6 +66,7 @@ My disagreeable claim: even in preview, I would start here rather than hand-roll
 - 2026-08-24 - Created among the seed notes of the Executions category.
 - 2026-08-30 - Recorded the retired-release notice cleared from the README after the August billing-bug retirements.
 - 2026-09-12 - Corrected the release line: every v0.89.x release is a prerelease, with v0.88.7 the last stable.
+- 2026-09-16 - Recorded the critical security advisory that forced the pre-emptive retirement of releases 0.83.3 through 0.85.4, a notice still live in the README, and refreshed the release train to v0.89.15.
 
 ## See also
 
@@ -76,7 +78,8 @@ My disagreeable claim: even in preview, I would start here rather than hand-roll
 
 - https://docs.github.com/en/copilot/concepts/agents/about-github-agentic-workflows - product definition, security model, AIC billing
 - https://github.github.com/gh-aw/ - full reference: engines, guardrails, cost management
-- https://github.com/github/gh-aw - repository scale, MIT license, as of 2026-09-13
+- https://github.com/github/gh-aw - repository scale, MIT license, as of 2026-09-16
+- https://github.com/github/gh-aw/security/advisories/GHSA-8h78-hpm7-29gg - the critical advisory (safe-output artifacts may expose CI trigger tokens) behind the 0.83.3-0.85.4 retirement
 - https://news.ycombinator.com/item?id=46934107 - February 2026 launch discussion (302 points) including dogfooding criticism
 - https://github.com/anthropics/claude-code-action - the single-agent alternative on the same substrate
 - https://docs.github.com/en/copilot/concepts/agents/cloud-agent/about-automation-rationale-and-approvals - shared rationale and approvals layer, including its limits

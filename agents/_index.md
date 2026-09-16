@@ -23,35 +23,35 @@ If the section turns into slop, the logs will show exactly where it went wrong, 
 
 # Essays and trackers
 
-- [Agentic Coding Tools Landscape](agentic-coding-tools-landscape/index.md) - maintained map of harnesses, editors, cloud agents, and orchestration as of 2026-09-13.
-- [Model Selection for Coding Tasks](model-selection-for-coding-tasks/index.md) - opinionated guide to choosing models by task class and per-token economics, as of 2026-09-13.
-- [Context Management Patterns](context-management-patterns/index.md) - the patterns that keep agent context windows small and fresh, re-verified 2026-09-13.
+- [Agentic Coding Tools Landscape](agentic-coding-tools-landscape/index.md) - maintained map of harnesses, editors, cloud agents, and orchestration as of 2026-09-16.
+- [Model Selection for Coding Tasks](model-selection-for-coding-tasks/index.md) - opinionated guide to choosing models by task class and per-token economics, as of 2026-09-16.
+- [Context Management Patterns](context-management-patterns/index.md) - the patterns that keep agent context windows small and fresh, re-verified 2026-09-16.
 - [The Tells Are Structural](the-tells-are-structural/index.md) - why word-swap humanizers fail (detection lives at the narrative-structure layer) and what a structural revision pass does instead, grounded in StoryScope.
 
 ## Comparison matrices
 
-- [Model Provider Feature Matrix](model-provider-feature-matrix/index.md) - the seven model providers compared as bundles on price tiers, cache and batch policy, context flatness, weights, and subscription transfer, verified 2026-09-13.
-- [Automated Research Feature Matrix](automated-research/automated-research-feature-matrix/index.md) - the six lab and product research loops divided on who runs the loop and who judges the output, verified 2026-09-13.
-- [Harness Feature Matrix](harnesses/harness-feature-matrix/index.md) - the twenty-six harnesses against eleven capability rows, Grok Build the newest, verified 2026-09-13.
-- [Surface Feature Matrix](surfaces/surface-feature-matrix/index.md) - the twelve surfaces (two of them death records) against eleven capability rows, verified 2026-09-13.
-- [Orchestration Feature Matrix](orchestration/orchestration-feature-matrix/index.md) - the fourteen worktree managers, dashboards, control planes, and mobile clients, JetBrains Air the newest, plus one agent town, one dead and one orphaned among them, verified 2026-09-13.
-- [Protocols Feature Matrix](protocols/protocols-feature-matrix/index.md) - the five protocols stack rather than compete, and adoption falls with every step up the stack.
-- [Context Engines Feature Matrix](context-engines/context-engines-feature-matrix/index.md) - the eight context vendors and tools against delivery, deployment, and scale rows, Graft the newest, verified 2026-09-13.
-- [Code Review Feature Matrix](code-review/code-review-feature-matrix/index.md) - the eight AI reviewers divided on where your code runs, with both Kudelski exploit records named, verified 2026-09-13.
+- [Model Provider Feature Matrix](model-provider-feature-matrix/index.md) - the seven model providers compared as bundles on price tiers, cache and batch policy, context flatness, weights, and subscription transfer, verified 2026-09-16.
+- [Automated Research Feature Matrix](automated-research/automated-research-feature-matrix/index.md) - the seven lab and product research loops divided on who runs the loop and who judges the output, Pion the newest, verified 2026-09-16.
+- [Harness Feature Matrix](harnesses/harness-feature-matrix/index.md) - the twenty-six harnesses against eleven capability rows, Grok Build the newest, verified 2026-09-16.
+- [Surface Feature Matrix](surfaces/surface-feature-matrix/index.md) - the twelve surfaces (two of them death records) against eleven capability rows, verified 2026-09-16.
+- [Orchestration Feature Matrix](orchestration/orchestration-feature-matrix/index.md) - the fourteen worktree managers, dashboards, control planes, and mobile clients, JetBrains Air the newest, plus one agent town, one dead and one orphaned among them, verified 2026-09-16.
+- [Protocols Feature Matrix](protocols/protocols-feature-matrix/index.md) - the six protocols stack rather than compete, AG-UI the newest, and adoption falls with every step up the stack.
+- [Context Engines Feature Matrix](context-engines/context-engines-feature-matrix/index.md) - the eight context vendors and tools against delivery, deployment, and scale rows, Graft the newest, verified 2026-09-16.
+- [Code Review Feature Matrix](code-review/code-review-feature-matrix/index.md) - the eight AI reviewers divided on where your code runs, with both Kudelski exploit records named, verified 2026-09-16.
 - [Skills Feature Matrix](skills/skills-feature-matrix/index.md) - the spec, vendor format, harness mechanism, optimizer, registry, and curated pack against runtime and stewardship rows.
-- [Retrieval Feature Matrix](retrieval/retrieval-feature-matrix/index.md) - the two frameworks and two patterns compared, with the harness-native counterargument engaged.
-- [Memory Feature Matrix](memory/memory-feature-matrix/index.md) - the file convention, the portable format, the capture plugin, and five services against memory-model and lock-in rows, Engrim the newest column, verified 2026-09-13.
+- [Retrieval Feature Matrix](retrieval/retrieval-feature-matrix/index.md) - the two frameworks, the chunking library, and two patterns compared, with the harness-native counterargument engaged.
+- [Memory Feature Matrix](memory/memory-feature-matrix/index.md) - the file convention, the portable format, the capture plugin, and five services against memory-model and lock-in rows, Engrim the newest column, verified 2026-09-16.
 - [Executions Feature Matrix](executions/executions-feature-matrix/index.md) - subscription features versus self-hostable infrastructure across trigger and execution rows.
 - [Hybrid Execution Feature Matrix](hybrid-execution/hybrid-execution-feature-matrix/index.md) - constrained decoding versus validate-and-retry, the guarantee mechanism as the deciding row.
-- [Task Management Feature Matrix](task-management/task-management-feature-matrix/index.md) - files versus database as the deciding row, with the PRD pipeline and its license cost.
-- [Spec Driven Development Feature Matrix](spec-driven-development/spec-driven-development-feature-matrix/index.md) - the four spec-first tools across the ownership and ceremony-sizing axes.
+- [Task Management Feature Matrix](task-management/task-management-feature-matrix/index.md) - files versus database as the deciding row, Ordewell's typed plan artifacts the newest column, with the PRD pipeline and its license cost, verified 2026-09-16.
+- [Spec Driven Development Feature Matrix](spec-driven-development/spec-driven-development-feature-matrix/index.md) - the five spec-first tools across the ownership and ceremony-sizing axes, GSD the newest, verified 2026-09-16.
 - [Control Planes Feature Matrix](control-planes/control-planes-feature-matrix/index.md) - governance, budgets, and multi-company rows that separate control planes from orchestration.
-- [Assistant Runtimes Feature Matrix](assistant-runtimes/assistant-runtimes-feature-matrix/index.md) - OpenClaw, Hermes, the shrinking variants, the Python core, and the two Cowork desktops, the trust ladder in one table, verified 2026-09-13.
-- [Software Factory Feature Matrix](software-factory/software-factory-feature-matrix/index.md) - the stamped Python loop, Fluent's learning loop, HAR's fleet harness, Machinist's controlled entrypoint, and Ouroboros' hidden grading on the who-owns-the-loop axis, verified 2026-09-13.
-- [Evaluation and Review Feature Matrix](evaluation-review/evaluation-review-feature-matrix/index.md) - the five quality-control columns divided on who judges, the agent, the metric suite, the benchmark, or the human, verified 2026-09-13.
-- [Sandboxing Feature Matrix](sandboxing/sandboxing-feature-matrix/index.md) - the six isolation layers divided into boundaries, an orchestrator, a framework, and provisioning, verified 2026-09-13.
-- [Session Analytics Feature Matrix](session-analytics/session-analytics-feature-matrix/index.md) - the archive and the attribution CLI versus the still-empty live-observation cells, verified 2026-09-13.
-- [People and Publications Feature Matrix](people-and-publications/people-and-publications-feature-matrix/index.md) - the thirteen voices compared on focus, cadence, and reader slot, verified 2026-09-13.
+- [Assistant Runtimes Feature Matrix](assistant-runtimes/assistant-runtimes-feature-matrix/index.md) - OpenClaw, Hermes, the shrinking variants, the Python core, and the two Cowork desktops, the trust ladder in one table, verified 2026-09-16.
+- [Software Factory Feature Matrix](software-factory/software-factory-feature-matrix/index.md) - the stamped Python loop, Fluent's learning loop, HAR's fleet harness, Machinist's controlled entrypoint, and Ouroboros' hidden grading on the who-owns-the-loop axis, verified 2026-09-16.
+- [Evaluation and Review Feature Matrix](evaluation-review/evaluation-review-feature-matrix/index.md) - the six quality-control columns divided on who judges, the agent, the metric suite, the benchmark, or the human, Langfuse the newest, verified 2026-09-16.
+- [Sandboxing Feature Matrix](sandboxing/sandboxing-feature-matrix/index.md) - the eight isolation layers divided into boundaries, an orchestrator, a framework, and provisioning, CubeSandbox and OpenSandbox the newest, verified 2026-09-16.
+- [Session Analytics Feature Matrix](session-analytics/session-analytics-feature-matrix/index.md) - the archive, the attribution CLI, and the live dashboard that filled the observation gap, verified 2026-09-16.
+- [People and Publications Feature Matrix](people-and-publications/people-and-publications-feature-matrix/index.md) - the thirteen voices compared on focus, cadence, and reader slot, verified 2026-09-16.
 
 Essays appear here as the daily agent runs publish them.
 The queue it works from is [the work queue](queue.md).
@@ -71,6 +71,7 @@ Where the research loop itself runs autonomously: the labs' science programs, th
 - [Math Inc. Gauss](automated-research/math-inc-gauss/index.md) - the autoformalization agent behind Strong PNT and the sphere-packing proof, with the comparator-audited OpenGauss harness, as of 2026-09-13.
 - [OpenAI Deep Research](automated-research/openai-deep-research/index.md) - the productized web-research agent, the breadth-first loop with no machine judge behind it.
 - [OpenAI for Science](automated-research/openai-for-science/index.md) - the lab program from FrontierMath's first open-problem solve to the disputed Navier-Stokes claim, as of 2026-09-13.
+- [Pion](automated-research/pion/index.md) - Andon Labs' closed research preview where persistent agents run a real business with payment tools, the Vending-Bench lineage made product.
 
 ## Harnesses
 
@@ -82,7 +83,7 @@ Where the research loop itself runs autonomously: the labs' science programs, th
 - [Cline](harnesses/cline/index.md) - the open-source agent that outgrew its VS Code extension into CLI, kanban, and SDK, 5.3 million installs deep.
 - [Codex](harnesses/codex/index.md) - OpenAI's ChatGPT-included agent, the Apache-2.0 big-lab CLI individuals can still just run.
 - [Crush](harnesses/crush/index.md) - Charm's Go-and-LSP terminal agent, FSL-licensed, from the original OpenCode repo.
-- [DeepSeek Harness](harnesses/deepseek-harness/index.md) - DeepSeek's everything-is-a-plugin harness, 221.5k stars in its first two months, MIT, second release candidate out and still no stable.
+- [DeepSeek Harness](harnesses/deepseek-harness/index.md) - DeepSeek's everything-is-a-plugin harness, 225k stars in its first two months, MIT, prerelease-only at v0.1.6-alpha.1.
 - [Exo](harnesses/exo/index.md) - the MIT self-modification bet, a harness the agent can rewrite at runtime, cheapest measured harness at $1.05 per task.
 - [fx](harnesses/fx/index.md) - Vercel Labs' ~6 MiB Zig harness built to be embedded, the first agent-as-a-dependency bet.
 - [Gemini CLI](harnesses/gemini-cli/index.md) - Google's open-source terminal agent, superseded for individuals by Antigravity CLI in June 2026.
@@ -137,6 +138,7 @@ Where the research loop itself runs autonomously: the labs' science programs, th
 
 - [A2A](protocols/a2a/index.md) - Google's open protocol for independent agents to interoperate, now under the Linux Foundation.
 - [ACP](protocols/acp/index.md) - Zed's protocol standardizing how editors talk to coding agents.
+- [AG-UI](protocols/ag-ui/index.md) - CopilotKit's agent-to-frontend event protocol, 15.9k stars and 7 million monthly npm downloads, the rendering half of the protocol stack.
 - [Agent Host Protocol](protocols/agent-host-protocol/index.md) - Microsoft's sessions-server spec with six-language SDKs, VS Code rebuilding its agent infrastructure on it, spec still at v0.9.0.
 - [AGENTS.md](protocols/agents-md/index.md) - the open convention for repo-level agent instruction files.
 - [MCP](protocols/mcp/index.md) - the open protocol standardizing how AI applications connect to tools and data.
@@ -163,6 +165,7 @@ Where the research loop itself runs autonomously: the labs' science programs, th
 
 ## Retrieval
 
+- [Chonkie](retrieval/chonkie/index.md) - the MIT chunking library (token, semantic, and neural chunkers) for RAG pipelines, its commercial arm dead and its maker pivoted to Feyn Labs.
 - [LlamaIndex](retrieval/llamaindex/index.md) - the MIT data framework for retrieval pipelines, now the open arm of LlamaParse.
 - [LangChain](retrieval/langchain/index.md) - the largest LLM framework, repositioned in 2026 as an agent engineering platform.
 - [Semantic code search](retrieval/semantic-code-search/index.md) - retrieval by meaning over embedded chunks, shipped as a workspace index.
@@ -170,7 +173,7 @@ Where the research loop itself runs autonomously: the labs' science programs, th
 
 ## Memory
 
-- [claude-mem](memory/claude-mem/index.md) - the 93k-star plugin that captures coding-agent sessions, compresses them with your tokens, and reinjects the context.
+- [claude-mem](memory/claude-mem/index.md) - the 94k-star plugin that captures coding-agent sessions, compresses them with your tokens, and reinjects the context.
 - [Cognee](memory/cognee/index.md) - the Apache-2.0 graph-memory pipeline with the whole engine self-hostable and a flat per-token cloud.
 - [Engrim](memory/engrim/index.md) - the local-first SQLite episodic memory engine for multiple AI CLIs on one machine, provenance-first, new this week.
 - [File-based agent memory](memory/file-based-agent-memory/index.md) - the CLAUDE.md and AGENTS.md conventions, memory as plain markdown files.
@@ -212,6 +215,7 @@ Where quality control lives in the agent workflow: CI gates, dashboards, machine
 
 - [deepeval](evaluation-review/deepeval/index.md) - the pytest-style eval framework with roughly fifty judge metrics that gates merges in CI.
 - [FrontierHarness Eval](evaluation-review/frontierharness-eval/index.md) - the public benchmark that held the model constant and varied nine harnesses in twelve configurations, cost spread 17.5x, vendor-run caveat attached.
+- [Langfuse](evaluation-review/langfuse/index.md) - the MIT-core tracing and eval platform, 34.7k stars, inside ClickHouse since January with the proprietary ee/ split as the caution.
 - [Phoenix](evaluation-review/phoenix/index.md) - Arize's OTel-native observability and eval platform, self-hostable under an Elastic license.
 - [Plannotator](evaluation-review/plannotator/index.md) - the local review surface that turns your annotations on agent plans and diffs into the agent's next instruction.
 - [Workshop](evaluation-review/workshop/index.md) - Raindrop's local debugger where the coding agent reads traces, writes evals, and fixes what fails.
@@ -224,13 +228,16 @@ Where agent isolation should live: the workstation, the cluster, the wrapper, th
 - [aigate](sandboxing/aigate/index.md) - the fourteen-star kernel-enforced wrapper, kept as the reference design for small-scale OS-level agent sandboxing.
 - [ArtifactFS](sandboxing/artifact-fs/index.md) - Cloudflare's FUSE driver that mounts big repos in seconds, the provisioning layer sandboxes need before isolation matters.
 - [Clawk](sandboxing/clawk/index.md) - the disposable-VM workstation tool, the agent gets its own Linux machine instead of yours, pre-1.0 on macOS.
+- [CubeSandbox](sandboxing/cubesandbox/index.md) - Tencent's E2B-compatible RustVMM/KVM microVM sandbox, sub-60ms boots, its traction built on launch announcements rather than community discussion.
 - [Flue](sandboxing/flue/index.md) - the Astro team's agent framework whose contribution is a three-tier sandbox taxonomy and durable execution.
+- [OpenSandbox](sandboxing/opensandbox/index.md) - the Apache-2.0 general sandbox platform (SDKs, CLI, MCP, K8s runtimes) that grew on GitHub trend charts, not Hacker News.
 - [OpenShell](sandboxing/openshell/index.md) - NVIDIA's container-and-MicroVM runtime where declarative policy and inference-proxy keys make the boundary credible.
 
 ## Spec-driven development
 
 - [BMad Method](spec-driven-development/bmad-method/index.md) - the agile method that sizes ceremony to the change, roles and retrospectives included.
 - [GitHub Spec Kit](spec-driven-development/spec-kit/index.md) - the MIT process-plus-CLI layer that made specs-before-agents a movement, agent-neutral, 136k stars in year one.
+- [GSD](spec-driven-development/gsd/index.md) - the 64k-star get-shit-done workflow system for Claude Code, archived and continuing as open-gsd/gsd-core.
 - [OpenSpec](spec-driven-development/openspec/index.md) - the brownfield spec toolkit whose delta proposals archive into a living ledger, 1.6M npm downloads a month.
 - [Tessl](spec-driven-development/tessl/index.md) - the $125M platform bet that spec-driven development is infrastructure you rent.
 
@@ -238,6 +245,7 @@ Where agent isolation should live: the workstation, the cluster, the wrapper, th
 
 - [Backlog.md](task-management/backlog-md/index.md) - the markdown-native task manager whose three review gates, spec, plan, code, make it the first line of code review.
 - [beads](task-management/beads/index.md) - Steve Yegge's Dolt-backed graph issue tracker, dependency-aware with atomic claims, the agent-memory thesis in running code.
+- [Ordewell](task-management/ordewell/index.md) - the CLI that turns one goal into typed plan artifacts with per-task runners and models, verified by completion markers rather than the model's word.
 - [Task Master](task-management/task-master/index.md) - the most-installed PRD-to-tasks pipeline, quiet since April 2026 as it became Hamster's Commons-Clause commercial engine.
 
 ## Control planes
@@ -248,7 +256,7 @@ Where agent isolation should live: the workstation, the cluster, the wrapper, th
 ## Assistant runtimes
 
 - [Eigent](assistant-runtimes/eigent/index.md) - the Apache-2.0 Cowork desktop with CAMEL-based multi-agent workforces and a corrected-benchmark history.
-- [Hermes](assistant-runtimes/hermes/index.md) - Nous Research's self-improving agent with the learning loop, 244k stars, new paid tiers, and the channels to match.
+- [Hermes](assistant-runtimes/hermes/index.md) - Nous Research's self-improving agent with the learning loop, 246k stars, new paid tiers, and the channels to match.
 - [NanoClaw](assistant-runtimes/nanoclaw/index.md) - the auditable containerized OpenClaw rewrite, one process you can read in an afternoon.
 - [Nanobot](assistant-runtimes/nanobot/index.md) - HKUDS' readable Python agent runtime with the WebUI and channels bundled, 47k stars at alpha.
 - [OpenClaw](assistant-runtimes/openclaw/index.md) - the self-hosted personal assistant root of the -claw family, 389k stars and the 2026 provider-restriction saga.
@@ -267,8 +275,9 @@ Where agent isolation should live: the workstation, the cluster, the wrapper, th
 
 ## Session analytics
 
-Tools that turn what coding agents already record into searchable history, cost reports, and audits.
+Tools that turn what coding agents already record into searchable history, cost reports, and audits, plus one that watches the sessions as they happen.
 
+- [agents-observe](session-analytics/agents-observe/index.md) - the live dashboard for Claude Code and Codex sessions, hooks feeding a local server, multi-agent trees and cost breakdowns in real time.
 - [agentsview](session-analytics/agentsview/index.md) - the local-first indexer for roughly 60 agents' session files, retrospective search and token-cost reporting in one SQLite store.
 - [ctx](session-analytics/ctx/index.md) - local search over the sessions agents already recorded, with pro blame attribution from any line of code back to its transcript.
 

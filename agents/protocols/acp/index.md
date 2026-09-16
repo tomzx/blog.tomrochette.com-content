@@ -1,7 +1,7 @@
 ---
 title: Agent Client Protocol (ACP)
 created: 2026-08-24
-updated: 2026-09-13
+updated: 2026-09-16
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, protocols, interoperability, editor-integration]
 readability: 3
@@ -12,7 +12,7 @@ audience_notes: >
 ---
 
 ACP is an open protocol that standardizes communication between code editors and coding agents.
-Facts below verified as of 2026-09-13.
+Facts below verified as of 2026-09-16.
 
 **It is pulling the same trick LSP pulled a decade ago, and it is working: editors are becoming interchangeable hosts for agents rather than agent vendors.**
 
@@ -26,7 +26,7 @@ The current stable protocol version is 1, with a v2 draft and a migration guide 
 ## Status
 
 **Active and compounding.**
-The repository shows about 4.2k stars as of 2026-09-13, with roughly 2,200 commits.
+The repository shows about 4.3k stars as of 2026-09-16, with roughly 2,200 commits.
 The official agents list has grown to 40 entries and now includes Codex CLI (via the protocol project's adapter), the Claude agent (via Zed's SDK adapter), Gemini CLI, Cursor, OpenCode, Goose, Junie, Kiro CLI, Factory Droid, Cline, Kimi CLI, Qwen Code, and GitHub Copilot in public preview since 2026-01-28.
 Clients include Zed, JetBrains IDEs (beta in the 25.3 release candidates, December 2025), Neovim and Emacs plugins, VS Code extensions, and Devin Desktop.
 In this index, [OpenCode](../../harnesses/opencode/index.md) ships `opencode acp`, and [JetBrains](../../surfaces/jetbrains/index.md), [Zed](../../surfaces/zed/index.md), [Junie](../../harnesses/junie/index.md), and [Windsurf's Devin Desktop](../../surfaces/windsurf/index.md) all host agents through it.
@@ -55,7 +55,7 @@ There is nothing to buy; the only cost is integration time.
 
 - **MCP: agent-to-tool, while ACP is editor-to-agent; the two compose rather than compete.**
 - Vendor IDE integrations (Claude Code's extensions, Cursor's built-in agent): deeper tailor-made UX, zero portability.
-- AG-UI: streams agent events to web frontends; overlapping goals but web-native rather than editor-native.
+- [AG-UI](../ag-ui/index.md): streams agent events to web frontends; overlapping goals but web-native rather than editor-native.
 
 ## Bottom line
 
@@ -65,6 +65,7 @@ The disagreeable part: I think ACP matters more than any single agent or editor 
 ## Changes
 
 - 2026-08-24 - Created in the Protocols category seed.
+- 2026-09-16 - Linked the Compared-to AG-UI mention to the new AG-UI note.
 
 ## See also
 
@@ -79,6 +80,6 @@ The disagreeable part: I think ACP matters more than any single agent or editor 
 - https://agentclientprotocol.com - official introduction: stdio model, MCP type reuse, protocol version 1
 - https://agentclientprotocol.com/get-started/agents - the agent list (40 entries: Codex CLI, Claude agent, Gemini CLI, Cursor, OpenCode, Copilot preview)
 - https://agentclientprotocol.com/overview/clients - the client list (Zed, JetBrains, Neovim, Emacs, VS Code, Devin Desktop)
-- https://github.com/agentclientprotocol/agent-client-protocol - Apache-2.0 repository, SDKs, stars as of 2026-09-13
+- https://github.com/agentclientprotocol/agent-client-protocol - Apache-2.0 repository, SDKs, stars as of 2026-09-16
 - https://blog.jetbrains.com/ai/2025/12/bring-your-own-ai-agent-to-jetbrains-ides/ - co-creation story, 25.3 beta, the UX trade-off admission
 - https://news.ycombinator.com/item?id=45074147 - launch thread criticism (LSP and MCP comparisons, protocol proliferation, name collision)

@@ -1,7 +1,7 @@
 ---
 title: beads
 created: 2026-08-27
-updated: 2026-09-13
+updated: 2026-09-16
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, task-management, issue-tracking, open-source, byok]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 beads is Steve Yegge's distributed graph issue tracker for AI agents (`bd`): a Dolt-backed database of tasks with dependencies, atomic claims, and cross-machine sync, designed as persistent memory for coding agents.
-Facts below verified as of 2026-09-13.
+Facts below verified as of 2026-09-16.
 
 **The dependency graph with atomic claims, not the markdown file, is the task interface agents actually need, and beads is the reference implementation of that claim even for people who end up choosing something simpler.**
 
@@ -26,7 +26,7 @@ It lives in the gastownhall organization (renamed from steveyegge, the old name 
 ## Status
 
 Active and moving fast.
-As of 2026-09-13: 27,115 stars, 1,845 forks, 1,148 open issues, created 2025-10-12, pushed 2026-09-13, latest stable release v1.2.2 on 2026-08-15 (a v1.3.0-rc.2 prerelease landed 2026-09-10), and 22,789 npm downloads last month.
+As of 2026-09-16: 27,188 stars, 1,848 forks, 1,194 open issues, created 2025-10-12, pushed 2026-09-16, latest stable release v1.3.0 on 2026-09-15 (after the v1.3.0-rc.1 and rc.2 prereleases of 2026-08-31 and 2026-09-10), and 22,789 npm downloads last month.
 **There is no Show HN launch thread; adoption ran through Yegge's audience and the ecosystem instead, which is itself the community signal.**
 That ecosystem is real: a community Rust port ([beads_rust](https://github.com/Dicklesworthstone/beads_rust), about 1.1k stars) froze the "classic" SQLite-plus-JSONL architecture, a [beads planner plugin](https://news.ycombinator.com/item?id=47263696) and web UIs exist, and the architecture has churned enough (SQLite to Dolt, schema migrations) that people built [drop-in replacements](https://news.ycombinator.com/item?id=46487580).
 
@@ -66,6 +66,7 @@ The disagreeable claim I will defend: every markdown task file is a beads databa
 - 2026-08-27 - Created in the Task management category seed, recording the gastownhall rename, the Dolt-backed architecture, and the missing Show HN launch thread.
 - 2026-09-04 - Refreshed the status sentence, noting the v1.3.0-rc.1 prerelease.
 - 2026-09-05 - Corrected the v1.3.0-rc.1 prerelease date to 2026-08-31.
+- 2026-09-16 - Recorded v1.3.0 shipping stable on 2026-09-15 after the rc prereleases.
 
 ## See also
 
@@ -77,7 +78,7 @@ The disagreeable claim I will defend: every markdown task file is a beads databa
 ## References
 
 - https://github.com/gastownhall/beads - README: commands, Dolt modes, setup, git-free usage
-- https://api.github.com/repos/gastownhall/beads - stars, forks, push dates, MIT license as of 2026-09-12
+- https://api.github.com/repos/gastownhall/beads - stars, forks, push dates, MIT license as of 2026-09-16
 - https://beads.gascity.com/ - official documentation site
 - https://github.com/Dicklesworthstone/beads_rust - the community Rust port freezing classic beads, and the Gas Town evolution note
 - https://news.ycombinator.com/item?id=46487580 - the 84-point replacement thread, the critical source

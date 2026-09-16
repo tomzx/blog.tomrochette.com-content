@@ -1,7 +1,7 @@
 ---
 title: "Context Engines Feature Matrix"
 created: 2026-08-24
-updated: 2026-09-13
+updated: 2026-09-16
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, comparison, context-engines, code-retrieval, developer-tools]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 This matrix compares the eight context tools profiled in this section, feature by feature, so the shortlisting step does not require reading eight notes.
-Everything below was re-verified against live sources on 2026-09-13, with the Greptile column removed on 2026-08-30 when the note moved to the Code review category.
+Everything below was re-verified against live sources on 2026-09-16, with the Greptile column removed on 2026-08-30 when the note moved to the Code review category.
 
 **The interesting question is not which engine is best but whether a repository needs one at all: most codebases sit below the only published payback threshold in the category, and I claim most buyers of these engines are paying for an index their own vendors' data cannot justify.**
 
@@ -31,7 +31,7 @@ Each column links to the full research note; every cell traces to a source cited
 | Delivery to agents | own harness only | instruction files in 9 agents, 6-tool MCP server, Claude Code hooks and statusline | skill in 20+ agents, MCP, CLI | CLI, MCP server, SDK, plugin | CLI pack, ~ MCP | hooks rewriting commands in 16 tools | MCP, CLI, AGENTS.md instructions, sub-agent installer | MCP server |
 | Scale where it pays | large private repos | large repos where agents re-explore, no published threshold | repo-scale Q&A and path tracing | personal docs and knowledge bases | under a few hundred K tokens | long interactive sessions with noisy commands | repos where grep-and-read burns tokens | 400K+ LOC |
 | Writes code | ✓ agents and factory | ✗ maps, queries, blast radius | ✗ graphs and queries | ✗ searches only | ✗ packs only | ✗ filters output | ✗ searches only | ~ migrations, beta |
-| Pricing model | $20/$100 flat tiers plus usage | free, MIT; Trail Brain from $20k/yr is the upsell | free core, $10/mo Pro, $20/seat/mo Teams, custom Enterprise | free, MIT | free, MIT | free CLI, Pro unpriced | free, MIT | from $16K/year |
+| Pricing model | $20/$100 flat tiers plus usage | free, MIT; Trail Brain from $20k/yr is the upsell | free core, Pro $10/mo yearly or $15 monthly, Teams $20/seat/mo yearly or $29 monthly, Enterprise early access | free, MIT | free, MIT | free CLI, Pro unpriced | free, MIT | from $16K/year |
 | Enterprise orientation | ✓ SOC 2, ISO 42001 | ~ Trail Brain: SOC 2 Type II all plans, HIPAA BAA on Large | ~ hosted Teams/Enterprise plans | ✗ | ✗ | ~ Pro tier, on-prem option | ✗ | ✓ SOC 2, ISO 27001 |
 
 ## Reading the matrix
@@ -74,6 +74,7 @@ Augment's 33% token savings, Sourcegraph's cost deltas, Semble's 99%-fewer-token
 - 2026-08-30 - Graphify, qmd, and rtk columns added, matrix at seven columns, kind-row prose and choosing list extended.
 - 2026-08-30 - Extended to eight columns with Semble inserted alphabetically, with reading, choosing, and references sections extended.
 - 2026-08-30 - Greptile column removed, back to seven columns, when the note moved to the Code review category.
+- 2026-09-16 - Re-dated the re-verification and updated the Graphify pricing cell for the new monthly billing options and the early-access Enterprise tier.
 
 ## See also
 

@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 This matrix compares the members of the Software factory category: repeatable agents-plus-code production pipelines, where deterministic code owns the loop and agents are bounded nodes inside it.
-Everything below was re-verified against live sources on 2026-09-13.
+Everything below was re-verified against live sources on 2026-09-16.
 
 **The deciding question for this category is who owns the loop: a factory puts phase sequencing, retries, and acceptance in code, and an agent owns only the work inside one bounded phase.**
 
@@ -35,7 +35,7 @@ Each column links to the full research note; every cell below traces to a source
 | License | Apache-2.0 | Apache-2.0 | MIT | MIT | MIT |
 | Pricing | free, no paid tier, no hosted cloud | core free; HAR HQ Team $400 per month up to 50 users with $100 monthly cloud credits, Enterprise custom (self-hosted or VPC, SSO/SAML/SCIM) | free, early access | free, GitHub Sponsors funded, enterprise offerings conditional | free, self-hosted |
 | Born | 2026-07-10 | 2026-06-28 | 2026-07-16 | 2026-01-14 | 2026-08-02 |
-| Stars | about 94 | about 90 | about 407 | about 5.8k | about 838 |
+| Stars | about 103 | about 90 | about 418 | about 5.9k | about 857 |
 
 ## Reading the matrix
 

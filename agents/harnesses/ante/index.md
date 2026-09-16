@@ -1,7 +1,7 @@
 ---
 title: Ante
 created: 2026-08-30
-updated: 2026-09-12
+updated: 2026-09-16
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agents, harnesses, rust, single-binary, local-models]
 readability: 3
@@ -12,7 +12,7 @@ audience_notes: >
 ---
 
 Ante is a self-contained coding harness from Antigma Labs that ships as one ~15MB Rust binary with an embedded llama.cpp engine, so it can drive cloud models or run GGUF models fully offline.
-Facts below verified as of 2026-09-13.
+Facts below verified as of 2026-09-16.
 
 **Ante is the first harness whose pitch is that footprint and offline capability are the product: the TUI, an embedded ripgrep, PDF/OCR, and a natively managed local inference engine all live inside one binary with zero runtime dependencies.**
 
@@ -26,10 +26,10 @@ Source is published under Apache-2.0 (crates: exec, llm, protocol-shape, ante-sd
 ## Status
 
 **Active, preview-stage, and growing fast for a five-month-old repo.**
-1,947 stars and 62 forks as of 2026-09-13, repo created December 23, 2025, with the latest release v0.preview.98 published September 12, 2026 (GitHub API).
+1,956 stars and 64 forks as of 2026-09-16, repo created December 23, 2025, with the latest release v0.preview.99 published September 15, 2026 (GitHub API).
 The Show HN launch on August 10, 2026 drew 169 points and 92 comments ([HN](https://news.ycombinator.com/item?id=49245437)).
 At launch commenters flagged that the repo hosted binaries without agent source; the Apache-2.0 core libraries published since narrow that gap, though the core harness itself remains closed during the alpha.
-The company publishes Terminal-Bench 2.1 runs at antigma.ai/eval, pinning every result to a public release and a raw Harbor run; its best self-reported score is 82.7% with DeepSeek V4 Flash, updated August 9, 2026.
+The company publishes Terminal-Bench 2.1 runs at antigma.ai/eval, pinning every result to a public release and a raw Harbor run; its best self-reported score is 83.9% with DeepSeek V4.1 Flash, as of 2026-09-16.
 
 ## Strengths
 
@@ -66,6 +66,7 @@ I expect the harness market to consolidate on footprint and cost per agent, and 
 
 - 2026-08-30 - Created in the Harnesses category seed.
 - 2026-09-12 - Folded the core harness's private-repository posture into the licensing caution.
+- 2026-09-16 - Refreshed stars and forks, moved the latest release to v0.preview.99, and updated the best self-reported eval score to 83.9% with DeepSeek V4.1 Flash.
 
 ## See also
 
@@ -76,10 +77,10 @@ I expect the harness market to consolidate on footprint and cost per agent, and 
 
 ## References
 
-- https://github.com/AntigmaLabs/ante - repository, Apache-2.0 source, 1,947 stars as of 2026-09-13
+- https://github.com/AntigmaLabs/ante - repository, Apache-2.0 source, 1,956 stars as of 2026-09-16
 - https://docs.antigma.ai/ - architecture, offline mode, providers, footprint claims
 - https://antigma.ai/eval - self-reported Terminal-Bench 2.1 results, pinned builds and Harbor runs
 - https://raw.githubusercontent.com/AntigmaLabs/ante/main/README.md - feature surface and provider list
 - https://raw.githubusercontent.com/AntigmaLabs/ante/main/BINARY-TERMS.md - the separate preview license for prebuilt binaries
 - https://news.ycombinator.com/item?id=49245437 - the August 10, 2026 launch thread, 169 points (verified via Algolia API)
-- https://github.com/AntigmaLabs/ante/releases - v0.preview.98, published 2026-09-12 (verified via GitHub API)
+- https://github.com/AntigmaLabs/ante/releases - v0.preview.99, published 2026-09-15 (verified via GitHub API)

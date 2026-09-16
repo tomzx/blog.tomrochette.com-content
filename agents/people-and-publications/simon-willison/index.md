@@ -1,7 +1,7 @@
 ---
 title: Simon Willison
 created: 2026-08-29
-updated: 2026-09-13
+updated: 2026-09-16
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=big-pickle, llm=glm-5.3-flash, people, publications, developer, llm-practitioner]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Simon Willison's Weblog is the densest real-time record of what software engineers can actually do with LLMs, published daily by someone who uses them in his own practice.
-Facts below verified as of 2026-09-13.
+Facts below verified as of 2026-09-16.
 
 **No other voice tracks the tool-and-model churn of agentic development day-by-day with the same density and the same willingness to name what is hype; if you follow one feed for this domain, this is the one.**
 
@@ -24,7 +24,7 @@ He coined the widely quoted framing of LLMs as a "weird, over-confident intern" 
 ## Status
 
 Active and as influential as ever.
-As of 2026-09-13 the homepage shows posts daily, sometimes several a day, through 12 September 2026, with dedicated tag streams for agentic-engineering, coding-agents, and ai-assisted-programming.
+As of 2026-09-16 the homepage shows posts daily, sometimes several a day, through 15 September 2026, with dedicated tag streams for agentic-engineering, coding-agents, and ai-assisted-programming.
 He ships code on the blog too: the sqlite-utils 4.0 release notes record that much of it was written by a coding agent, so the blog is documentation of his own agent loops, not just commentary on them.
 
 ## Strengths
@@ -59,6 +59,7 @@ Not for people who prefer periodic synthesis over daily volume, or who want a ve
 ## Changes
 
 - 2026-08-29 - Created in the People and publications category seed.
+- 2026-09-16 - Posting recency refreshed: the homepage now shows daily posts through 15 September 2026 (previously recorded through 12 September).
 
 ## See also
 

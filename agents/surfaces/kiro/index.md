@@ -1,7 +1,7 @@
 ---
 title: Kiro
 created: 2026-08-24
-updated: 2026-09-12
+updated: 2026-09-16
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, surfaces, ai-editors, aws]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Kiro is AWS's agentic IDE: spec-driven by default, with a CLI, web, mobile, and a multi-agent Crew, metered in credits from a 50-credit free tier to a $200/month Power plan.
-Facts below verified as of 2026-09-13.
+Facts below verified as of 2026-09-16.
 
 **Kiro is the only major IDE vendor that treats specs, requirements, and design documents as the primary artifact rather than chat, and that bet either matches how your team already works or will feel like bureaucracy.**
 
@@ -24,8 +24,9 @@ The default model router is Auto, mixing frontier and specialist models, with ex
 ## Status
 
 **Active and enterprise-ready.**
-The vendor changelog shows weekly releases, with the CLI at 2.21.0 (patched through 2.21.4 by September 11, 2026) and the IDE at 1.0.437 on September 1, 2026, the same day Kiro Web reached general availability and Kiro came under AWS ISO/IEC 27001:2022 certification, and Crew 0.6.0 added session harness selection (Claude Code, Codex, or KAS) and remote crews on September 5, 2026; pricing, GovCloud availability, and enterprise billing through AWS are all shipped.
-The public issue tracker (kirodotdev/Kiro, about 4.3k stars as of 2026-09-13) saw only README docs and Dependabot dependency commits on August 26-27, 2026, with no feature commits since June 22, 2026, so release evidence still lives on kiro.dev, not the repository.
+The vendor changelog shows weekly releases, with the CLI at 2.21.0 (patched through 2.21.4 by September 11, 2026) and the IDE at 1.1 since September 14, 2026 (durable agent artifacts and native ARM64 builds, up from the 1.0.437 line of September 1, the same day Kiro Web reached general availability and Kiro came under AWS ISO/IEC 27001:2022 certification), and Crew 0.6.0 added session harness selection (Claude Code, Codex, or KAS) and remote crews on September 5, 2026; pricing, GovCloud availability, and enterprise billing through AWS are all shipped.
+The September 14 changelog also raised the GPT-5.6 family to a 1M context window, billed at double the short-context rate above 272K tokens.
+The public issue tracker (kirodotdev/Kiro, about 4.3k stars as of 2026-09-16) saw only README docs and Dependabot dependency commits on August 26-27, 2026, with no feature commits since June 22, 2026, so release evidence still lives on kiro.dev, not the repository.
 Its spec workflow has been influential enough that community projects port it to other harnesses.
 
 ## Strengths
@@ -45,7 +46,7 @@ Its spec workflow has been influential enough that community projects port it to
 ## Pricing
 
 Free: $0 with 50 credits, open-weight models plus Claude Sonnet 4.5.
-Pro $20 (1,000 credits), Pro+ $40 (2,000), Pro Max $100 (5,000), Power $200 (10,000), add-on credits at $0.04 each, enterprise via AWS with SSO and overage controls, GovCloud priced about 20% higher, as of 2026-09-13.
+Pro $20 (1,000 credits), Pro+ $40 (2,000), Pro Max $100 (5,000), Power $200 (10,000), add-on credits at $0.04 each, enterprise via AWS with SSO and overage controls, GovCloud priced about 20% higher, as of 2026-09-16.
 
 ## Compared to
 
@@ -64,6 +65,7 @@ Not for credit-averse solo engineers or anyone who wants an open client.
 - 2026-08-25 - Corrected the status attribution, moving release-cadence evidence to the vendor changelog and adding it as a reference.
 - 2026-09-02 - Added Kiro Web general availability and the ISO 27001 certification.
 - 2026-09-12 - Recorded Crew 0.6.0 session-harness selection alongside CLI patch updates.
+- 2026-09-16 - Recorded IDE 1.1 (agent artifacts, native ARM64) and the GPT-5.6 1M-context upgrade, both September 14.
 
 ## See also
 
@@ -74,8 +76,8 @@ Not for credit-averse solo engineers or anyone who wants an open client.
 ## References
 
 - https://kiro.dev/ - product surfaces, modes, hooks
-- https://kiro.dev/pricing/ - tiers, credits, model multipliers, enterprise and GovCloud terms, as of 2026-09-13
-- https://kiro.dev/changelog/ - the weekly release cadence, CLI 2.21.0 and Web GA and ISO certification on September 1, 2026, Crew 0.6.0 on September 5, and CLI patches through 2.21.4 by September 11, as of 2026-09-13
-- https://github.com/kirodotdev/Kiro - issue tracker, only docs and dependency commits since June 22, 2026, about 4.3k stars as of 2026-09-13
+- https://kiro.dev/pricing/ - tiers, credits, model multipliers, enterprise and GovCloud terms, as of 2026-09-16
+- https://kiro.dev/changelog/ - the weekly release cadence, CLI 2.21.0 and Web GA and ISO certification on September 1, 2026, Crew 0.6.0 on September 5, CLI patches through 2.21.4 by September 11, and IDE 1.1 with the GPT-5.6 1M-context upgrade on September 14, as of 2026-09-16
+- https://github.com/kirodotdev/Kiro - issue tracker, only docs and dependency commits since June 22, 2026, about 4.3k stars as of 2026-09-16
 - https://news.ycombinator.com/item?id=45044061 - the prompt-injection code execution writeup
 - https://news.ycombinator.com/item?id=44654560 - the spec-workflow port that shows Kiro's influence

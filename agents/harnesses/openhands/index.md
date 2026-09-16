@@ -1,7 +1,7 @@
 ---
 title: OpenHands
 created: 2026-08-27
-updated: 2026-09-12
+updated: 2026-09-16
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agents, harnesses, open-source, agent-platforms]
 readability: 3
@@ -11,21 +11,21 @@ audience_notes: >
 ---
 
 OpenHands is the open-source (MIT) AI software development platform from All Hands AI: sandboxed agent conversations with code, shell, and browser access, runnable locally, in their cloud, or in your VPC.
-Facts below verified as of 2026-09-13.
+Facts below verified as of 2026-09-16.
 
 **OpenHands is the field's largest open bet on the platform camp of agentic development, and its architecture has just re-centered on a server-client split that demotes the local GUI and CLI to legacy.**
 
 ## What it is
 
 The project paper describes an open platform for AI software developers as generalist agents, built around conversations that can edit files, run commands, and drive a browser inside sandboxes.
-It began as OpenDevin in March 2024 and was renamed OpenHands mid-development; the repository now lives at the `OpenHands` organization with about 87.7k stars and 11.5k forks under MIT as of 2026-09-13.
+It began as OpenDevin in March 2024 and was renamed OpenHands mid-development; the repository now lives at the `OpenHands` organization with about 88.1k stars and 11.6k forks under MIT as of 2026-09-16.
 Today's component map per the docs is Agent Canvas (the open-source browser client), an Agent Server backend plus Software Agent SDK, OpenHands Cloud, Enterprise, and a Sandbox Server.
 **The docs place the old Local GUI and CLI in their Legacy section, the Local GUI explicitly deprecated**, and one unusual flex stands out: Agent Canvas can host Claude Code, Codex, or Gemini CLI as ACP agents instead of its own loop.
 
 ## Status
 
 **Active and venture-funded.**
-Latest tagged release v1.18.0 shipped September 11, 2026, and the default branch was pushed 2026-09-13.
+Latest tagged release v1.18.0 shipped September 11, 2026, and the default branch was pushed 2026-09-16.
 All Hands AI raised $18.8M in a Series A led by Madrona on November 18, 2025, alongside a collaboration with AMD on locally-run agents.
 
 ## Strengths
@@ -62,6 +62,7 @@ Not for someone who wants a zero-migration, opinionated coding workflow today, b
 ## Changes
 
 - 2026-08-27 - Created as a new-entrant harness note, recording the OpenDevin rename, the $18.8M Series A, and the Agent Canvas architecture.
+- 2026-09-16 - Refreshed repository scale (about 88.1k stars, 11.6k forks) and the pushed date; v1.18.0 still the latest release.
 
 ## See also
 
@@ -72,7 +73,7 @@ Not for someone who wants a zero-migration, opinionated coding workflow today, b
 
 ## References
 
-- https://github.com/OpenHands/OpenHands - repository scale, license, release cadence as of 2026-09-13
+- https://github.com/OpenHands/OpenHands - repository scale, license, release cadence as of 2026-09-16
 - https://docs.openhands.dev/overview/introduction - component map, Agent Canvas over Agent Server, V0 deprecation
 - https://www.openhands.dev/pricing - Free OSS, Individual free tier, Enterprise custom tiers
 - https://www.openhands.dev/blog/weve-just-raised-18-8m-to-build-the-open-standard-for-autonomous-software-development - Series A details, November 18, 2025

@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Ouroboros is an MIT-licensed Python "Agent OS" that turns a vague brief into verified code by running a Socratic interview, freezing an immutable spec, executing through one of 14 coding-agent runtimes, and verifying the result with a three-stage gate whose grading commands and expected outputs are withheld from the worker agent.
-Facts below verified as of 2026-09-13.
+Facts below verified as of 2026-09-16.
 
 **Ouroboros earns its anti-cheating tagline architecturally, not rhetorically: the worker's success contract omits the grading command and expected result, and the first verification stage is LLM-free, which is a cleaner separation than most self-improving agent systems attempt.**
 
@@ -20,13 +20,13 @@ Facts below verified as of 2026-09-13.
 A local-first workflow layer around existing coding agents: Interview produces a Seed (an immutable spec with an ambiguity gate at 0.2 or lower before any code is written), Execute decomposes work through a Double Diamond process, Evaluate runs the gate, and Evolve refines specs and accumulates reusable assets across generations within a budgeted loop (30-generation cap, stagnation detection, a three-tier cost router).
 The verification gate runs outside the worker: mechanical checks first (lint, build, tests, coverage at a 70 percent default, no LLM), then a semantic LLM judge against acceptance criteria at a 0.8 threshold, then multi-model consensus voting triggered only by six conditions such as seed modification or drift above 0.3.
 It drives 14 runtimes including Claude Code, Codex CLI, Copilot CLI, OpenCode, Gemini, Goose, Kiro, Pi, OMP, and Antigravity, installs as `ouroboros-ai` on PyPI or a Claude Code plugin, and ships an MCP server.
-MIT, by Ouro Labs (Q00), solo-maintained with around 75 contributors.
+MIT, by Ouro Labs (Q00), solo-maintained with around 80 contributors.
 
 ## Status
 
-Very young, very active: 5,831 stars, 595 forks, 90 open issues as of 2026-09-13, created 2026-01-14, pushed 2026-09-13.
-Latest release v0.54.4 on 2026-09-13, with about 25 PyPI releases in the last seven weeks; PyPI self-labels it Beta.
-**Headline results are self-reported, its Hacker News threads are self-submitted with single-digit points, and no independent evaluation exists as of 2026-09-13.**
+Very young, very active: 5,933 stars, 602 forks, 103 open issues as of 2026-09-16, created 2026-01-14, pushed 2026-09-15.
+Latest release v0.54.4 on 2026-09-13, with about 27 PyPI releases in the last seven weeks; PyPI self-labels it Beta.
+**Headline results are self-reported, its Hacker News threads are self-submitted with single-digit points, and no independent evaluation exists as of 2026-09-16.**
 
 ## Strengths
 
@@ -39,7 +39,7 @@ Latest release v0.54.4 on 2026-09-13, with about 25 PyPI releases in the last se
 
 - The semantic judge is an LLM, and consensus voting triggers only under six conditions, so a worker tuned to satisfy a predictable judge is not fully ruled out.
 - The ambiguity, drift, and similarity scores are LLM self-assessments and heuristics; the docs themselves call the thresholds defaults worth arguing with.
-- Beta churn: about 25 releases in seven weeks, documented breakage below specific versions, and an extras matrix with install warnings.
+- Beta churn: about 27 releases in seven weeks, documented breakage below specific versions, and an extras matrix with install warnings.
 - The loop spends real tokens on evaluation, which is the price of the gate.
 
 ## Pricing

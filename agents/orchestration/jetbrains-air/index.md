@@ -1,7 +1,7 @@
 ---
 title: JetBrains Air
 created: 2026-09-12
-updated: 2026-09-13
+updated: 2026-09-16
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, parallel-agents, jetbrains, agentic-development-environment]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 JetBrains Air is a standalone desktop (and organization-web) application from JetBrains that runs Codex, Claude Agent, Gemini CLI, and Junie as independent parallel task loops, each isolated in a git worktree, Docker container, or cloud environment.
-Facts below verified as of 2026-09-13.
+Facts below verified as of 2026-09-16.
 
 **Air is JetBrains conceding that the agentic workflow layer is a product category distinct from the IDE: it is a task orchestrator that belongs next to Conductor and Superset rather than in Surfaces, because the IDE stays a separate application by JetBrains' own design, and the orchestrator itself is sold as a subscription feature rather than a product.**
 
@@ -26,9 +26,9 @@ Built-in agents are Codex, Claude Agent, Gemini CLI, and Junie, and any ACP-comp
 ## Status
 
 Active, public preview.
-The latest release is 262.579.32 (2026-08-19) as of 2026-09-13, on a roughly monthly cadence since January 2026.
+The latest release is 262.834.41 (2026-09-11) as of 2026-09-16, on a roughly monthly cadence since January 2026; it removed the git-repository requirement (tasks can now run in any folder), added task list density and grouping controls, notification sounds, and agent interaction with website previews.
 Milestones: Codex support January 19, Gemini CLI and Junie with the Agent Review chain March 5, public preview March 9, Linux June 2, Windows June 29, ACP agents and Java/Kotlin intelligence July 15.
-Cloud execution, called tech preview at launch, has since shipped as documented cloud tasks, automations, and the org web version, governed through JetBrains Central Console, though the marketing homepage still files cloud and automations under "what's coming" as of 2026-09-13, so org-only availability runs ahead of the public pitch.
+Cloud execution, called tech preview at launch, has since shipped as documented cloud tasks, automations, and the org web version, governed through JetBrains Central Console, though the marketing homepage still files cloud and automations under "what's coming" as of 2026-09-16, so org-only availability runs ahead of the public pitch.
 **The community footprint is thin: Algolia lists exactly three "JetBrains Air" stories (26 points with 1 comment, 6 points, and 3 points), the June submission links to a Google-ads-tagged air.dev URL, and the December 2025 story about JetBrains abandoning Fleet for Air drew 3 points and 1 comment, a signal in a market where peers launch to 100+ point threads.**
 
 ## Strengths
@@ -40,7 +40,7 @@ Cloud execution, called tech preview at launch, has since shipped as documented 
 
 ## Cautions
 
-- Preview churn with sharp edges: Claude Agent in Docker refuses subscription credentials and requires Anthropic API billing, BYOK works only for local tasks, and Gemini CLI is temporarily unavailable for cloud tasks (docs as of 2026-09-10, homepage checked 2026-09-13).
+- Preview churn with sharp edges: Claude Agent in Docker refuses subscription credentials and requires Anthropic API billing, BYOK works only for local tasks, and Gemini CLI is temporarily unavailable for cloud tasks (docs re-checked 2026-09-16, with the Gemini cloud note still dated 18 August 2026; homepage checked 2026-09-16).
 - Cloud tasks always spend JetBrains AI credits, the metering the [Junie](../../harnesses/junie/index.md) note already found thin for subscription-only users.
 - The web version and org features require a JetBrains Central Console organization, and JetBrains AI Free and AI Enterprise are not supported at all.
 - Proprietary client, vendor-run cloud, and a community footprint that is a fraction of any peer's, so there is no exit path and little independent signal on quality.
@@ -68,6 +68,7 @@ My disagreeable claim: the isolation-plus-oversight bundle Air sells is now tabl
 
 - 2026-09-12 - Created in the Orchestration category from the same-day entrant resolution, placed there rather than Surfaces.
 - 2026-09-13 - Re-verified the subscription bundling claims on air.dev and noted the homepage still presents cloud and automations as upcoming while the docs ship them for organizations.
+- 2026-09-16 - Recorded release 262.834.41 (September 11), which removed the git-repository requirement, and refreshed the release, docs-check, and thin-HN-footprint dates.
 
 ## See also
 
@@ -78,12 +79,12 @@ My disagreeable claim: the isolation-plus-oversight bundle Air sells is now tabl
 
 ## References
 
-- https://air.dev/ - product claims, supported agents, isolation options, FAQ, and pricing terms, as of 2026-09-13
-- https://air.dev/changelog - version 262.579.32 (2026-08-19), platform dates, ACP support, and feature history, fetched 2026-09-13
+- https://air.dev/ - product claims, supported agents, isolation options, FAQ, and pricing terms, as of 2026-09-16
+- https://air.dev/changelog - version 262.834.41 (2026-09-11), platform dates, ACP support, and feature history, fetched 2026-09-16
 - https://www.jetbrains.com/help/air/execution-environments.html - the four run environments and the isolation model, as of 2026-08-18
 - https://www.jetbrains.com/help/air/supported-agents.html - the agent and provider-account matrix, as of 2026-08-25
 - https://www.jetbrains.com/help/air/cloud-tasks.html - cloud tasks, the org web version, lifecycle, and credits, as of 2026-08-20
 - https://www.jetbrains.com/help/air/set-up.html - desktop platforms, org setup, and Central Console governance, as of 2026-09-10
 - https://blog.jetbrains.com/air/2026/03/air-launches-as-public-preview-a-new-wave-of-dev-tooling-built-on-26-years-of-experience/ - the March 2026 public-preview announcement by Nik Tkachev
-- https://hn.algolia.com/api/v1/search?query=%22JetBrains+Air%22&tags=story - the three HN stories and their thin footprint, queried 2026-09-12
+- https://hn.algolia.com/api/v1/search?query=%22JetBrains+Air%22&tags=story - the three HN stories and their thin footprint, queried 2026-09-16
 - https://hn.algolia.com/api/v1/items/46350939 - the Fleet-abandonment story (2025-12-22, 3 points, 1 comment)

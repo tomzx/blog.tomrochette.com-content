@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Deep Research is OpenAI's ChatGPT agent that autonomously browses the web for five to thirty minutes and returns a cited report, making it the mass-market version of the automated research loop.
-Facts below verified as of 2026-09-13.
+Facts below verified as of 2026-09-16.
 
 **Deep Research is the breadth-first half of automated research, and its failure mode is exactly the one that matters: fluent synthesis with no verifier behind it, so the human stays the judge.**
 
@@ -20,7 +20,7 @@ Facts below verified as of 2026-09-13.
 An agent inside ChatGPT, launched February 3, 2025 on a specialized version of the o3 reasoning model.
 It finds, analyzes, and synthesizes hundreds of online sources across text, images, and PDFs, cites the source for each claim, and produces a structured report.
 A lightweight o4-mini-based variant followed in April 2025 for free users, and a February 2026 update rebased it on GPT-5.2 with source picking, site limiting, and connections to your own data through MCP servers.
-As of 2026-09-13, access is plan-gated: limited on Free and Go, included on Plus, Business, and Enterprise, and at a higher "maximum" allowance on Pro.
+As of 2026-09-16, access is plan-gated: limited on Free and Go, included on Plus, Business, and Enterprise, and at a higher "maximum" allowance on Pro.
 
 ## Status
 
@@ -45,7 +45,7 @@ GPT-5.4 (March 2026) further improved deep research behavior and cut factual err
 
 ## Pricing
 
-Included in ChatGPT plans with quotas that vary by tier, as of 2026-09-13.
+Included in ChatGPT plans with quotas that vary by tier, as of 2026-09-16.
 At launch, Pro ($200/month) got 100 queries per month; the June 2025 published table was 250 for Pro, 25 for Plus and Team, and 5 lightweight queries for free users, and OpenAI has since moved to in-product counters and plan-level descriptions.
 
 ## Compared to
@@ -57,7 +57,7 @@ At launch, Pro ($200/month) got 100 queries per month; the June 2025 published t
 ## Bottom line
 
 **Recommended for scoped literature recon where you will verify the load-bearing claims yourself anyway.**
-Not as a source of established fact: treat every report as a hypothesis list with references, as of 2026-09-13.
+Not as a source of established fact: treat every report as a hypothesis list with references, as of 2026-09-16.
 
 ## Changes
 

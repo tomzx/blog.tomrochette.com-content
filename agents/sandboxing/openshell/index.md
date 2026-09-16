@@ -1,7 +1,7 @@
 ---
 title: OpenShell
 created: 2026-08-30
-updated: 2026-09-13
+updated: 2026-09-16
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, sandboxing, isolation, security, nvidia, open-source]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 OpenShell is NVIDIA's Apache-2.0, Rust-based runtime that runs AI coding agents inside isolated containers or MicroVMs governed by declarative YAML policies enforced at the kernel and an L7 egress proxy, so agents work without unrestricted access to files, credentials, or the network.
-Facts below verified as of 2026-09-13.
+Facts below verified as of 2026-09-16.
 
 **OpenShell is the first sandbox built for the agent era by a hardware vendor rather than a harness vendor, and its most interesting idea is not the isolation but the credential architecture: provider keys are injected at an inference proxy and never enter the sandbox filesystem.**
 
@@ -24,9 +24,10 @@ Linux, macOS (Apple Silicon), and Windows via WSL 2 (experimental); Apache-2.0, 
 
 ## Status
 
-Fast adoption, self-declared alpha: 8,593 stars, 1,249 forks, 544 open issues and PRs as of 2026-09-13, created 2026-02-24.
-v0.0.116 released 2026-08-28 remains the latest stable, with a vm-runtime-capability-free prerelease on 2026-09-05 and a v0.1.0-pre.1 tag above it, 1,369 commits, 116 contributors.
+Fast adoption, self-declared alpha: 8,627 stars, 1,254 forks, 560 open issues and PRs as of 2026-09-16, created 2026-02-24.
+v0.0.116 released 2026-08-28 remains the latest stable, with a v0.1.0-pre.1 tag dated 2026-09-01 and rolling dev and vm-runtime prerelease channels alongside, 1,387 commits, 118 contributors.
 **NVIDIA's own blog calls it an early preview, and v0.0.x versioning plus experimental Kubernetes and GPU features say production use is a bet on the vendor staying in.**
+In September 2026 the team also published a formal-methods discussion of encoding the full OpenShell policy as formal logic and proving containment queries with SAT, SMT, and Z3, which reached 33 points on Hacker News.
 
 ## Strengths
 
@@ -40,7 +41,7 @@ v0.0.116 released 2026-08-28 remains the latest stable, with a vm-runtime-capabi
 - Alpha by its own badge, with breaking changes expected and the Kubernetes path explicitly experimental.
 - Telemetry is on by default in a tool whose pitch is privacy; anonymous, but verify it against your threat model.
 - Effective security equals the YAML policies you write and maintain, which is real ongoing work.
-- 544 open issues and PRs on a six-month-old codebase.
+- 560 open issues and PRs on a six-month-old codebase.
 
 ## Pricing
 
@@ -61,6 +62,8 @@ Not for production-critical paths this quarter, or shops that cannot run Docker 
 ## Changes
 
 - 2026-08-30 - Created in the Sandboxing category, recording NVIDIA's agent runtime with alpha and default-telemetry cautions.
+- 2026-09-16 - Growth refreshed (8,627 stars, 1,254 forks, 560 open issues and PRs, 118 contributors, 1,387 commits) and the unverifiable 2026-09-05 prerelease claim corrected to the verifiable v0.1.0-pre.1 tag of 2026-09-01 plus the dev and vm-runtime prerelease channels.
+- 2026-09-16 - Added the team's formal-methods policy-prover post and its 33-point HN discussion to Status and References.
 
 ## See also
 
@@ -77,3 +80,4 @@ Not for production-critical paths this quarter, or shops that cannot run Docker 
 - https://blogs.nvidia.com/blog/secure-autonomous-ai-agents-openshell/ - NVIDIA's positioning and early-preview status
 - https://code.claude.com/docs/en/sandboxing - the built-in sandboxing comparison
 - https://github.com/NVIDIA/OpenShell/releases/tag/v0.0.116 - release cadence evidence
+- https://hn.algolia.com/api/v1/items/49713261 - the 33-point HN discussion of the team's formal-methods policy-prover post

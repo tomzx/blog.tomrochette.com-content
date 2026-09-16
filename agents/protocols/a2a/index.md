@@ -12,7 +12,7 @@ audience_notes: >
 ---
 
 A2A is an open protocol for communication and interoperability between independent, opaque AI agents.
-Facts below verified as of 2026-09-13.
+Facts below verified as of 2026-09-16.
 
 **It is the enterprise answer to agent interoperability: adoption is real at the platform layer and nearly invisible in startup and coding-agent usage, and that split is the story.**
 
@@ -27,8 +27,8 @@ IBM's rival Agent Communication Protocol merged into A2A in August 2025, consoli
 ## Status
 
 **Active, spec-stable, unevenly adopted.**
-v1.0.0 shipped 2026-03-12 and v1.0.1 on 2026-05-28 (latest as of 2026-09-13), with breaking wire changes from 0.3 but backward-compatible Agent Cards.
-The repository shows about 25.7k stars as of 2026-09-13, and the launch coalition of 50+ partners passed 100 supporting companies by donation time.
+v1.0.0 shipped 2026-03-12 and v1.0.1 on 2026-05-28 (latest as of 2026-09-16), with breaking wire changes from 0.3 but backward-compatible Agent Cards.
+The repository shows about 25.8k stars as of 2026-09-16, and the launch coalition of 50+ partners passed 100 supporting companies by donation time.
 Support concentrates in enterprise suites (Gemini Enterprise, Agentforce, watsonx Orchestrate, SAP Joule, Azure AI Foundry).
 No coding harness in this index speaks it natively; the closest touchpoint is [Gemini CLI](../../harnesses/gemini-cli/index.md), where community setups attach remote A2A agents.
 
@@ -42,7 +42,7 @@ No coding harness in this index speaks it natively; the closest touchpoint is [G
 ## Cautions
 
 - **The usage gap with MCP is the signal**: an A2A ecosystem developer reported roughly 10.9M monthly a2a-sdk downloads versus about 257M for the MCP SDK (pypistats, mid-June 2026).
-- Critics argue MCP already covers the ground by treating agents as tools, and a June 2026 Ask HN thread (45 comments) found thin startup usage plus concrete complaints about identity assumptions and gRPC friction.
+- Critics argue MCP already covers the ground by treating agents as tools, and a June 2026 Ask HN thread (46 comments) found thin startup usage plus concrete complaints about identity assumptions and gRPC friction.
 - v1.0 broke wire compatibility with v0.3, so early adopters are mid-migration.
 - Prompt injection across agent boundaries remains unsolved at the protocol level.
 
@@ -78,7 +78,7 @@ The disagreeable part: I expect A2A to stay an enterprise convention, and if aut
 ## References
 
 - https://a2a-protocol.org/latest/ - official site: Agent Cards, MCP complementarity, TSC membership, Apache-2.0
-- https://github.com/a2aproject/A2A - repository, stars as of 2026-09-13, SDK list
+- https://github.com/a2aproject/A2A - repository, stars as of 2026-09-16, SDK list
 - https://a2a-protocol.org/latest/blog/2026/08/27/a-new-chapter-for-a2a-joining-the-agentic-ai-foundation/ - AAIF acceptance (2026-08-27), Growth Stage, 150+ organizations
 - https://developers.googleblog.com/en/a2a-a-new-era-of-agent-interoperability/ - launch announcement (2025-04-09), 50+ partners
 - https://developers.googleblog.com/en/google-cloud-donates-a2a-to-linux-foundation/ - Linux Foundation donation (2025-06-23), founding members

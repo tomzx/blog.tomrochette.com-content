@@ -1,7 +1,7 @@
 ---
 title: Google Antigravity
 created: 2026-08-24
-updated: 2026-09-07
+updated: 2026-09-16
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, surfaces, ai-editors, google]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Google Antigravity is Google's agentic development platform: the Antigravity 2.0 desktop command center, an IDE, a CLI, and an SDK, free to use with weekly rate limits.
-Facts below verified as of 2026-09-13.
+Facts below verified as of 2026-09-16.
 
 **Antigravity is the most generous free agent platform from any major lab right now, and its first year of security incidents is the checklist of what to verify before you point it at anything that matters.**
 
@@ -39,13 +39,14 @@ Enterprise access went live through Google Cloud and Gemini Enterprise subscript
 - **The incident record is the caution**: a November 2025 finding showed exfiltration via indirect prompt injection, December 2025 brought a report of Antigravity deleting an entire drive's contents, February 2026 brought waves of account bans, and a May 2026 thread with 771 points alleges a bait and switch on tiers.
 - Weekly (not daily) free-tier limits means a heavy Tuesday can idle you until Monday.
 - Account bans lock the whole Google identity, not just the product.
+- The terms are exposure too: a September 2026 HN thread (337 points) discusses the clause covering use of the service in connection with products Google does not provide, under which third-party harness usage can get the whole Google account suspended.
 - The client is closed; trust rests on Google's incident response, which the bans thread suggests is blunt.
 
 ## Pricing
 
 Individuals: $0/month with basic weekly rate limits.
 Google AI Pro and AI Ultra raise limits and add a flexible AI credit pool.
-Organizations: Google Cloud terms with consumption-based API pricing via the Gemini Enterprise Agent Platform, included in select Gemini Enterprise subscriptions, as of 2026-09-13.
+Organizations: Google Cloud terms with consumption-based API pricing via the Gemini Enterprise Agent Platform, included in select Gemini Enterprise subscriptions, as of 2026-09-16.
 
 ## Compared to
 
@@ -61,6 +62,7 @@ Not for proprietary-code environments that cannot absorb prompt-injection class 
 ## Changes
 
 - 2026-08-24 - Created in the owner-requested Surfaces expansion.
+- 2026-09-16 - Added the September 2026 terms-of-service thread (337 points) to Cautions and References, on third-party harness usage risking Google account suspension.
 
 ## See also
 
@@ -71,8 +73,9 @@ Not for proprietary-code environments that cannot absorb prompt-injection class 
 ## References
 
 - https://antigravity.google/ - product family, 2.0 command center, IDE, CLI, SDK
-- https://antigravity.google/pricing - tiers, model lists, weekly limits, enterprise terms, as of 2026-09-13
+- https://antigravity.google/pricing - tiers, model lists, weekly limits, enterprise terms, as of 2026-09-16
 - https://developers.googleblog.com/an-important-update-transitioning-gemini-cli-to-antigravity-cli/ - the Gemini CLI transition and June 18, 2026 cutoff
 - https://news.ycombinator.com/item?id=45967814 - the November 2025 launch thread
 - https://news.ycombinator.com/item?id=46048996 - the exfiltration-via-prompt-injection finding
 - https://news.ycombinator.com/item?id=48222529 - the May 2026 bait-and-switch thread
+- https://news.ycombinator.com/item?id=49548452 - the September 2026 terms-of-service thread, 337 points

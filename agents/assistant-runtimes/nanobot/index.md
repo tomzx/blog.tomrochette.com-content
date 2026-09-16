@@ -1,7 +1,7 @@
 ---
 title: Nanobot
 created: 2026-08-30
-updated: 2026-09-09
+updated: 2026-09-16
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, assistant-runtimes, python, self-hosted, open-source]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Nanobot is an MIT-licensed, self-hosted personal AI agent runtime in Python that packages a small agent core with a bundled WebUI, terminal UI, eight-plus chat channels, tools, long-term memory, MCP support, scheduled automations, and an OpenAI-compatible API, positioned openly as the lightweight alternative to OpenClaw.
-Facts below verified as of 2026-09-13.
+Facts below verified as of 2026-09-16.
 
 **Nanobot is the category's readability bet: an agent core small enough to read in an afternoon, at the price of alpha maturity and a bus factor of essentially one maintainer.**
 
@@ -24,8 +24,8 @@ Started by Xubin Ren as a personal project, now under the HKUDS lab banner (the 
 
 ## Status
 
-One of the fastest adoption curves in the category: 48,067 stars, 8,499 forks, 767 open issues as of 2026-09-13, created 2026-02-01, pushed today.
-Fifteen PyPI releases from February to July 2026 (v0.3.0 on 2026-07-25), and the launch HN thread drew 257 points.
+One of the fastest adoption curves in the category: 48,203 stars, 8,519 forks, 779 open issues as of 2026-09-16, created 2026-02-01, pushed today.
+Sixteen PyPI releases since February 2026, with v0.3.0 on 2026-07-25 followed by a seven-week quiet stretch that v0.3.5 ended on 2026-09-15, and the launch HN thread drew 257 points.
 **PyPI still classifies it Alpha, and one listed maintainer carries the release burden, the two facts I would weight against the star count.**
 
 ## Strengths
@@ -61,6 +61,7 @@ Not for production assistants unattended on the open internet, or anyone who nee
 ## Changes
 
 - 2026-08-30 - Created in the second owner-directed sweep, recording HKUDS' Python runtime with its alpha and bus-factor cautions.
+- 2026-09-16 - Recorded v0.3.5 on PyPI (2026-09-15), the first release since July, with refreshed adoption numbers.
 
 ## See also
 

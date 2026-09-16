@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 OpenClaw is the self-hosted personal AI assistant (Node.js, MIT, from the OpenClaw Foundation): one Gateway process on your own device connects model providers, tools, and a few dozen messaging channels, and it is the root the entire -claw variant family reacts to.
-Facts below verified as of 2026-09-13.
+Facts below verified as of 2026-09-16.
 
 **OpenClaw won by being the first assistant you could actually own, and its 2026 saga, Google and Anthropic restricting subscriptions for running it, is the definitive evidence that owning the runtime does not mean owning the model access; the whole variant family exists to shrink what you must trust.**
 
@@ -25,7 +25,7 @@ Security is pairing-based by default (unknown senders must be approved), and the
 ## Status
 
 The category's giant.
-As of 2026-09-13: 389,546 stars and 81,886 forks since creation on 2025-11-24, pushed daily, 7,078 open issues, npm-published.
+As of 2026-09-16: 389,821 stars and 81,937 forks since creation on 2025-11-24, pushed daily, 7,444 open issues, npm-published.
 OpenClaw 2.0 shipped 2026-08-30 (v2026.8.1), by far the largest release in the project's history, roughly half of all pull requests ever merged in one drop from 933 contributors, rebuilding the browser app as a first-class surface and shortening the first-run install, and the cadence has held since, with v2026.9.1 released 2026-09-03, v2026.9.2 on 2026-09-05, v2026.9.3 on 2026-09-08, and v2026.9.4 on 2026-09-11, plus a v2026.6.35 patch on the older June line released 2026-09-10.
 The v2026.9.2 notes turned Swarm on by default: concurrent sub-agent orchestration with structured results and live progress, with explicit opt-outs preserved.
 It was renamed twice in its first months (the 667-point "Moltbot Renamed Again" thread documents the path to the OpenClaw name).
@@ -43,7 +43,7 @@ It was renamed twice in its first months (the 667-point "Moltbot Renamed Again" 
 - Scale: the nanoclaw author's audit calls it nearly half a million lines, 53 config files, and 70+ dependencies, which is exactly the trust surface its variants reject.
 - Tools run on the host by default; read the sandboxing guide before connecting anyone else.
 - The provider saga shows subscription terms can be withdrawn from a popular open-source runtime at any time, budget for API keys, not just subscriptions.
-- 7,078 open issues means the tracker is a weather report, not a queue.
+- 7,444 open issues means the tracker is a weather report, not a queue.
 
 ## Pricing
 
@@ -80,7 +80,7 @@ The disagreeable claim I will defend: the restrictions saga, not the code, is Op
 ## References
 
 - https://github.com/openclaw/openclaw - README: Gateway model, channels, security posture, install
-- https://api.github.com/repos/openclaw/openclaw - stars, forks, issues, dates as of 2026-09-13
+- https://api.github.com/repos/openclaw/openclaw - stars, forks, issues, dates as of 2026-09-16
 - https://api.github.com/repos/openclaw/openclaw/releases - v2026.9.2 release notes, Swarm enabled by default (2026-09-05), through v2026.9.4 (2026-09-11)
 - https://openclaw.ai/blog/openclaw-2-accidentally - the OpenClaw 2.0 announcement (933 contributors, 16,000+ pull requests)
 - https://docs.openclaw.ai - official documentation

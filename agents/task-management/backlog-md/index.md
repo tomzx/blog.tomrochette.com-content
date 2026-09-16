@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Backlog.md is an MIT-licensed, markdown-native task manager and kanban visualizer for any git repository: a zero-config CLI where every task is a plain `.md` file and agents are steered through three human review checkpoints.
-Facts below verified as of 2026-09-13.
+Facts below verified as of 2026-09-16.
 
 **The tracker's real product is the review gates, spec, plan, then code, each a screenful a human can actually read, which makes it the first line of code review rather than a to-do list.**
 
@@ -25,7 +25,7 @@ It is maintained under the MrLesk identity, with conference talks ([Devoxx Belgi
 ## Status
 
 Active and healthy at mid-scale.
-As of 2026-09-13: 6,719 stars, 54 open issues, pushed 2026-09-12, MIT-licensed, 57,360 npm downloads last month.
+As of 2026-09-16: 6,743 stars, 55 open issues, pushed 2026-09-12, MIT-licensed, 57,360 npm downloads last month.
 The July 2025 [launch thread](https://news.ycombinator.com/item?id=44483530) reached 254 points, the largest HN footprint of the task trackers profiled in this section.
 
 ## Strengths
@@ -73,7 +73,7 @@ My disagreeable claim: its three checkpoints are what spec-driven development ac
 ## References
 
 - https://github.com/MrLesk/Backlog.md - README: checkpoints, commands, agent integrations, dogfooding claim
-- https://api.github.com/repos/MrLesk/Backlog.md - stars, issues, push date, MIT license as of 2026-09-12
+- https://api.github.com/repos/MrLesk/Backlog.md - stars, issues, push date, MIT license as of 2026-09-16
 - https://news.ycombinator.com/item?id=44483530 - the 254-point launch thread
 - https://api.npmjs.org/downloads/point/last-month/backlog.md - 57,360 downloads last month
 - https://mrlesk.com/talks - conference talks demonstrating the method
