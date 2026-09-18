@@ -1,7 +1,7 @@
 ---
 title: "Session Analytics Feature Matrix"
 created: 2026-08-30
-updated: 2026-09-16
+updated: 2026-09-18
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3-flash, comparison, session-analytics, observability, token-usage]
 readability: 3
@@ -12,7 +12,7 @@ audience_notes: >
 
 This matrix compares the three members of the Session analytics category: tools that turn what your coding agents record (or are recording right now) into live views, searchable history, cost reports, and audits.
 The category now covers both halves of the job: agents-observe, the live hook-fed dashboard, agentsview, the broad retrospective archive, and ctx, the search-and-attribution CLI.
-Everything below was verified against live sources on 2026-09-16.
+Everything below was verified against live sources on 2026-09-18.
 
 **The category's founding question, retrospective archive versus live observation, now has both answers: agentsview indexes what every agent already did and cost across 60-plus formats, ctx answers where did this line of code come from, and agents-observe answers what is my agent doing right now, though only for Claude Code and Codex.**
 
@@ -26,7 +26,7 @@ Each column links to the full research note; every cell traces to a source cited
 | Kind | real-time observability dashboard for live and replayed sessions | local session indexer, web UI + CLI + desktop | local session search CLI with a paid blame-attribution add-on |
 | Deployment | Claude Code plugin, hooks feeding a Dockerized local API server, dashboard on localhost:4981 | local daemon, Docker, optional PostgreSQL push for teams | single-binary CLI install, agent-callable skill |
 | Open source | ✓ MIT | ✓ MIT | ✓ Apache-2.0 core, pro add-on paid |
-| Agents covered | ~ Claude Code and Codex, with the plugin install Claude Code-native | 60+ formats auto-discovered (Claude Code, Codex, Gemini CLI, Copilot, Cursor, Zed, OpenCode, and more) | ~ major agents documented (Claude Code, Codex, Cursor, Pi, OpenCode, and more), full count unstated |
+| Agents covered | ~ Claude Code and Codex, with the plugin install Claude Code-native | 60+ formats auto-discovered (Claude Code, Codex, Gemini CLI, Copilot, Cursor, Zed, OpenCode, and more) | ~ about 40 agent harnesses documented (Claude Code, Codex, Cursor, Pi, OpenCode, and more) |
 | Token cost reporting | ✓ per-session token usage and cost breakdowns (since v0.9.7) | ✓ per-model pricing catalog, seconds over months of sessions | ✗ |
 | Search | ✓ filtering and search across live and stored events | ✓ FTS5 full text, semantic search opt-in | ✓ cross-agent message and tool-call search, subagent and fork aware |
 | Provenance | ✗ | ✗ | ✓ ctx pro maps a line, file, commit, or PR to the session that produced it |
@@ -62,6 +62,7 @@ ctx's moat is different: agent-facing retrieval, where the consumer of the searc
 - 2026-09-08 - Dropped the agentsview benchmark claim from the prose after the tool's docs removed it entirely.
 - 2026-09-13 - Added the agentsview usage-output schema version 6 churn note to the reading prose.
 - 2026-09-16 - Extended to three columns with agents-observe, filling the live-observation gap the prose used to name.
+- 2026-09-18 - ctx agents-covered cell updated after the docs began listing about 40 supported agent harnesses.
 
 ## See also
 

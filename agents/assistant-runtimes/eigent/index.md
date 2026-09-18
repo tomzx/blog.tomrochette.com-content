@@ -1,7 +1,7 @@
 ---
 title: Eigent
 created: 2026-08-30
-updated: 2026-09-09
+updated: 2026-09-18
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, assistant-runtimes, cowork, multi-agent, open-source]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Eigent is an Apache-2.0, Electron-based desktop app for building and running AI agent workforces, specialized worker agents executing tasks in parallel on the CAMEL-AI framework, with a large built-in MCP integration catalog, browser and terminal toolkits, human-in-the-loop escalation, and automations, positioned as the free and local alternative to Claude Cowork.
-Facts below verified as of 2026-09-16.
+Facts below verified as of 2026-09-18.
 
 **Eigent is the only Cowork-style desktop in this category with a permissive license and a real multi-agent architecture, and its history includes a corrected benchmark claim that should calibrate how much of the pitch you take on faith.**
 
@@ -25,7 +25,7 @@ By Eigent AI (EIGENT UK LTD), founded by Guohao Li, who also founded CAMEL-AI; f
 
 ## Status
 
-Active and maturing: 15,295 stars, 1,827 forks, 242 open issues as of 2026-09-16, created 2025-07-29, pushed 2026-09-16, v1.0.4 released 2026-09-04.
+Active and maturing: 15,304 stars, 1,828 forks, 234 open issues as of 2026-09-18, created 2025-07-29, pushed 2026-09-18, v1.0.4 released 2026-09-04.
 **The smallest community of the Cowork trio, and the launch thread matters: the "ranked top 1 on GAIA benchmark" claim referred to the predecessor project OWL, the founder acknowledged it, and 1-karma accounts posted praise.**
 
 ## Strengths
@@ -52,7 +52,7 @@ Ten percent of subscriptions is pledged to CAMEL-AI.org.
 
 - [OpenWork](../openwork/index.md): the larger, OpenCode-based Cowork alternative with an MCP portability story; choose Eigent for true multi-agent workforces and the permissive license, OpenWork for ecosystem and skills portability.
 - [OpenClaw](../openclaw/index.md): the messaging-first always-on assistant; choose OpenClaw for phone-driven personal assistance, Eigent for desktop-supervised work on files and tasks.
-- Claude Cowork: polished, sandboxed, subscription-tied; choose Cowork for turnkey security management, Eigent for model freedom, local deployment, and parallel agent teams.
+- Claude Cowork: polished, sandboxed, subscription-tied, and as of 2026-09-16 merging into Claude chat itself, so the baseline is now Claude the app; choose it for turnkey managed assistance, Eigent for model freedom, local deployment, and parallel agent teams.
 
 ## Bottom line
 
@@ -63,6 +63,7 @@ Not for buyers who need vendor accountability history, and not for the quick-sta
 
 - 2026-08-30 - Created as the assistant-runtimes note on the CAMEL workforce desktop, with the unverified built-in-tools count dropped.
 - 2026-09-07 - Cowork reference moved to claude.com/product/cowork.
+- 2026-09-18 - Recorded Claude Cowork merging into Claude chat itself (announced 2026-09-16), refreshing the comparison baseline and adoption numbers.
 
 ## See also
 

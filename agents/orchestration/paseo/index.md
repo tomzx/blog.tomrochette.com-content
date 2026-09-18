@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Paseo is a free, open-source, self-hosted orchestration layer that runs coding agents as local processes on your own machines and drives them from desktop, web, mobile, and CLI clients over one daemon.
-Facts below verified as of 2026-09-16.
+Facts below verified as of 2026-09-18.
 
 **Paseo's differentiator is not parallelism, which is now table stakes, but reach: it is the only orchestrator in its class with native iOS and Android clients at full feature parity, wrapped around your existing agent subscriptions instead of replacing them.**
 
@@ -25,8 +25,8 @@ Apache-2.0 (with a custom copyright notice), by Mohamed Boudra, an independent s
 
 ## Status
 
-Young and fast: about 17.4k stars, 1.9k forks, and 821 open issues and PRs (519 issues plus 302 pulls) as of 2026-09-16, created 2025-10-13, with more than 5,300 commits on main.
-The 0.8 line reached stable while I watched: v0.8.0 shipped 2026-09-10 with plugin header buttons, custom providers, and richer chat components, and remains the latest release as of 2026-09-16, alongside 165 contributors and an active subreddit and Discord.
+Young and fast: about 17.6k stars, 2k forks, and 854 open issues and PRs (529 issues plus 325 pulls) as of 2026-09-18, created 2025-10-13, with more than 5,300 commits on main.
+The 0.8 line reached stable while I watched: v0.8.0 shipped 2026-09-10 with plugin header buttons, custom providers, and richer chat components, and remains the latest release as of 2026-09-18, alongside 165 contributors and an active subreddit and Discord.
 **The structural risk is on the label: the maintainer described himself on Hacker News as a team of one, and monetization has now arrived as the hosted Hub at €15 per seat per month.**
 
 ## Strengths
@@ -38,7 +38,7 @@ The 0.8 line reached stable while I watched: v0.8.0 shipped 2026-09-10 with plug
 
 ## Cautions
 
-- Pre-1.0 with fast churn; the tracker crossed 1,200 open issues and PRs by 2026-09-07 before a cleanup wave closed roughly 400 of them in a day, down to 816 by 2026-09-08, 653 as of 2026-09-10, 724 as of 2026-09-12, and 821 as of 2026-09-16, and demand still outruns a tiny team.
+- Pre-1.0 with fast churn; the tracker crossed 1,200 open issues and PRs by 2026-09-07 before a cleanup wave closed roughly 400 of them in a day, down to 816 by 2026-09-08, 653 as of 2026-09-10, 724 as of 2026-09-12, 821 as of 2026-09-16, and 854 as of 2026-09-18, and demand still outruns a tiny team.
 - Subscription-billing friction: the maintainer confirmed Claude subscription usage through Paseo draws from a different, smaller credit pool than interactive use.
 - Solo-maintainer bus factor with a business model still pending.
 - Hacker News commenters noted it converges with Conductor, cmux, and Devin-style tools unless mobile-first steering is your actual need.

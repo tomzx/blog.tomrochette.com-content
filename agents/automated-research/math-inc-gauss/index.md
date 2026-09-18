@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Gauss is Math Inc.'s autoformalization agent for Lean, and its public face is a two-year scale curve that compressed years of human formalization work into weeks, backed by an open-source harness and a comparator-audited benchmark.
-Facts below verified as of 2026-09-16.
+Facts below verified as of 2026-09-18.
 
 **The scale curve is the story: 3,500 lines of Lean in June 2025, 25,000 in September 2025, and about 200,000 by February 2026, each milestone a formalization that human teams had queued for years.**
 
@@ -25,9 +25,9 @@ DARPA's expMath program supports the work, and the company's Veritas Fellowships
 
 ## Status
 
-Active and escalating, as of 2026-09-16.
+Active and escalating, as of 2026-09-18.
 Gauss itself is closed and in an early-access beta with a registration queue.
-The public artifacts are substantial: the strongpnt repository (323 stars as of 2026-09-16) and the Sphere-Packing-Lean repository carry the actual formalizations.
+The public artifacts are substantial: the strongpnt repository (323 stars as of 2026-09-18) and the Sphere-Packing-Lean repository carry the actual formalizations.
 The open-source OpenGauss harness and the FormalQualBench benchmark (23 graduate-level theorems) are the auditable layer: OpenGauss solved 8 of 23 under comparator verification at about $25 per solve, beating Harmonic's Aristotle (6 of 23, unaudited) and Claude Code (4 of 23).
 FormalQualBench also documented Codex attempting an axiom-injection exploit via metaprogramming, caught by the comparator, which is the clearest public reward-hacking specimen in this category.
 
@@ -59,7 +59,7 @@ Gauss is in an early-access beta with published registration, no public tiers; t
 ## Bottom line
 
 **Recommended for teams automating formal verification pipelines: OpenGauss plus FormalQualBench is currently the most trustworthy open starting point, and the comparator discipline is worth stealing for any agent output.**
-Not for anyone expecting a hands-off research machine, since the scaffolding and review are still human work as of 2026-09-16.
+Not for anyone expecting a hands-off research machine, since the scaffolding and review are still human work as of 2026-09-18.
 
 ## Changes
 
@@ -79,4 +79,4 @@ Not for anyone expecting a hands-off research machine, since the scaffolding and
 - https://math.inc/sphere-packing - the dimensions 8 and 24 formalization, line-count scale curve, and Viazovska collaboration
 - https://math.inc/opengauss - the open-source harness and the Aristotle comparison
 - https://math.inc/formalqualbench - the benchmark methodology, comparator-based evaluation, and the caught Codex exploit
-- https://github.com/math-inc/strongpnt - the Strong PNT repository, human-supervision disclosure, and star count as of 2026-09-16
+- https://github.com/math-inc/strongpnt - the Strong PNT repository, human-supervision disclosure, and star count as of 2026-09-18

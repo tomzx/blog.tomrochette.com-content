@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 CubeSandbox is Tencent's Apache-2.0, self-hosted sandbox service that builds each AI agent workload a dedicated-kernel microVM on RustVMM and KVM, boots it in tens of milliseconds, and exposes an E2B-compatible API so existing E2B client code migrates by changing a base URL.
-Facts below verified as of 2026-09-16.
+Facts below verified as of 2026-09-18.
 
 ## What it is
 
@@ -22,8 +22,8 @@ Documentation, changelogs, and examples (code execution, browser automation, Ope
 
 ## Status
 
-**Five months from first release to v0.7.1 with 12,537 stars, while the community discussion never escaped single digits on Hacker News.**
-Created 2026-04-10, first release v0.1.0 on 2026-04-20, latest v0.7.1 on 2026-09-11, pushed the day of verification, 1,123 forks, 143 open issues and PRs as of 2026-09-16.
+**Five months from first release to v0.7.1 with 12,569 stars, while the community discussion never escaped single digits on Hacker News.**
+Created 2026-04-10, first release v0.1.0 on 2026-04-20, latest v0.7.1 on 2026-09-11, pushed the day of verification, 1,128 forks, 133 open issues and PRs as of 2026-09-18.
 The team launched on HN themselves as "a less than 60ms, open-source alternative to E2B using RustVMM and KVM" (7 points), and the same project drew two more submissions from other accounts within four days at 5 and 3 points.
 The sub-60ms figure is single-concurrency on bare metal by the project's own benchmark, degrading to a 67ms average and 137ms P99 at 50 concurrent creations, and no independent benchmark, audit, or critical write-up exists that I could find.
 
@@ -43,7 +43,7 @@ The sub-60ms figure is single-concurrency on bare metal by the project's own ben
 
 ## Pricing
 
-Free and self-hosted; no hosted tier or pricing page found on cubesandbox.com or in the repo as of 2026-09-16.
+Free and self-hosted; no hosted tier or pricing page found on cubesandbox.com or in the repo as of 2026-09-18.
 Costs are the KVM-capable Linux fleet plus snapshot storage (S3 for cross-node resume).
 
 ## Compared to
@@ -72,7 +72,7 @@ Not for macOS or workstation use, and not for anyone who needs independently ver
 ## References
 
 - https://github.com/TencentCloud/CubeSandbox - repository README: architecture, component table, benchmarks, roadmap, community programs
-- https://api.github.com/repos/TencentCloud/CubeSandbox - stars, forks, license detection, creation and push dates as of 2026-09-16
+- https://api.github.com/repos/TencentCloud/CubeSandbox - stars, forks, license detection, creation and push dates as of 2026-09-18
 - https://api.github.com/repos/TencentCloud/CubeSandbox/license - the LICENSE text: Apache-2.0 plus the listed third-party component licenses
 - https://api.github.com/repos/TencentCloud/CubeSandbox/releases/latest - the v0.7.1 release of 2026-09-11
 - https://pypi.org/pypi/cubesandbox/json - the Python SDK on PyPI (0.7.0 at verification)

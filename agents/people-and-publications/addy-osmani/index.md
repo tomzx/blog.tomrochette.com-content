@@ -1,7 +1,7 @@
 ---
 title: Addy Osmani
 created: 2026-09-02
-updated: 2026-09-13
+updated: 2026-09-18
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, people, publications, enterprise, agentic-engineering, engineering-leadership]
 readability: 3
@@ -10,21 +10,21 @@ audience_notes: >
   Assumes you already use coding agents and want to see how a large engineering organization applies them without letting quality slip.
 ---
 
-Addy Osmani is the enterprise-hands-on voice on agentic engineering, a 14-year Google engineering leader (most recently Director at Google Cloud AI) who writes practitioner-level guidance on coding agents, harnesses, evals, and the engineering discipline that keeps agent output maintainable.
-Facts below verified as of 2026-09-16.
+Addy Osmani is the enterprise-hands-on voice on agentic engineering, a 14-year Google engineering leader (most recently Director at Google Cloud AI) who now works on Claude Code at Anthropic and writes practitioner-level guidance on coding agents, harnesses, evals, and the engineering discipline that keeps agent output maintainable.
+Facts below verified as of 2026-09-18.
 
 **He fills the enterprise-hands-on niche: where indie practitioners show what an agent can do and org analysts measure adoption, he writes from inside a hyperscaler about holding agent-built software to a production quality bar.**
 
 ## What it is
 
-A personal blog, books, and open-source repos by Addy Osmani, an engineering leader who spent over 14 years at Google, led developer experience across Chrome and then Gemini's developer experience, and served as a Director at Google Cloud AI running Cloud AI Developer Experience and Technical Evangelism before departing Google in 2026 after 14 years.
+A personal blog, books, and open-source repos by Addy Osmani, an engineering leader who spent over 14 years at Google, led developer experience across Chrome and then Gemini's developer experience, and served as a Director at Google Cloud AI running Cloud AI Developer Experience and Technical Evangelism before departing Google in 2026 after 14 years; his site now states he is a Member of Technical Staff at Anthropic working on Claude Code.
 His stated current focus is agentic engineering: coding agents, harnesses, evals and benchmarks, and code quality.
 His 2026 essays carry concrete theses, like "Agent Skills" (2026-05-03), which argues that the senior engineer's real job is the parts that do not show up in the diff, specs, tests, reviews, and refusing to ship what cannot be verified.
 He packages that argument into artifacts teams can adopt, notably the "Beyond Vibe Coding" book and the production-grade agent-skills repository.
 
 ## Status
 
-Active and high-reach as of 2026-09-13.
+Active and high-reach as of 2026-09-18, and newly a frontier-lab insider: after leaving Google in 2026, he joined Anthropic as a Member of Technical Staff on the Claude Code team, per his own site.
 "21 Lessons From 14 Years at Google" (2026-01-03) reached 1,678 points on Hacker News, "Agent Skills" 376 points, and "The next two years of software engineering" (2026-01-11) 328 points.
 He discussed "Beyond Vibe Coding" and enterprise AI engineering practice on The Pragmatic Engineer (2025-10-29).
 
@@ -62,6 +62,7 @@ Not for readers wanting frontier research depth or a terminal-level tool feed.
 
 - 2026-09-02 - Created in the People and publications category, filling the enterprise-hands-on gap the matrix named.
 - 2026-09-12 - Reframed around his departure from Google in 2026 after 14 years.
+- 2026-09-18 - His site now states he is a Member of Technical Staff at Anthropic working on Claude Code, so the enterprise-hands-on framing moved from ex-Google to frontier-lab insider.
 
 ## See also
 

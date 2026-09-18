@@ -1,7 +1,7 @@
 ---
 title: Engrim
 created: 2026-09-10
-updated: 2026-09-16
+updated: 2026-09-18
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, sqlite, local-first]
 readability: 3
@@ -12,7 +12,7 @@ audience_notes: >
 ---
 
 Engrim is a local-first, project-scoped episodic memory engine for AI coding CLIs: one MIT-licensed Python package that keeps decisions, constraints, and session state in a single SQLite file on your machine and re-injects a 4,000-character memory pack into whichever CLI (Antigravity, Claude Code, Cursor, Windsurf, Codex, OpenCode) you open next.
-Facts below verified as of 2026-09-16.
+Facts below verified as of 2026-09-18.
 
 **Its bet is that the unit of memory should be the project, not the model or the harness: one curated store that every agent CLI on your machine reads and writes, so switching models mid-project costs nothing.**
 
@@ -26,11 +26,11 @@ Every record carries an origin_agent field (antigravity, claude-code, cursor, cl
 ## Status
 
 **A fast mover, and one this section's own pass initially rejected.**
-The Show HN thread (2026-09-07) reached 93 points and 65 comments as of 2026-09-16, and the repo grew from 27 stars at launch to 264 by 2026-09-16.
+The Show HN thread (2026-09-07) reached 93 points as of 2026-09-18, and the repo grew from 27 stars at launch to 278 by 2026-09-18.
 I passed on it at launch at 19 points and 27 stars, and the category pass that surfaced it again on 2026-09-10 reversed that call.
-The cadence is unusual: 80 commits and 21 PyPI releases since 2026-06-23, with seven releases in the launch week (1.3.0 on 2026-09-07, 1.3.1 through 1.4.1 on 2026-09-10, and 1.4.2 on 2026-09-11) and three more since (1.4.3 and 1.4.5 on 2026-09-13, 1.4.6 on 2026-09-15, with no 1.4.4).
+The cadence is unusual: 81 commits and 22 PyPI releases since 2026-06-23, with seven releases in the launch week (1.3.0 on 2026-09-07, 1.3.1 through 1.4.1 on 2026-09-10, and 1.4.2 on 2026-09-11) and four more since (1.4.3 and 1.4.5 on 2026-09-13, 1.4.6 on 2026-09-15 with no 1.4.4, and 1.4.7 on 2026-09-17).
 Earlier releases folded in same-day fixes requested in the thread (an uninstall command, Codex auto-detection, stop-hook handling, a multi-store `engrim merge`), v1.4.2 adds native OpenAI Codex hook integration and parity, and v1.4.3 advertises explicit outputSchema declarations across the four core MCP tools so clients can introspect structured payloads, verified by a new schema regression test (234 tests passing).
-v1.4.5 adds an `engrim doctor` health check with self-repair and self-healing hook fallbacks, and v1.4.6 makes all four core MCP tools serve structured JSON payloads so strict clients like OpenCode stop rejecting the responses.
+v1.4.5 adds an `engrim doctor` health check with self-repair and self-healing hook fallbacks, v1.4.6 makes all four core MCP tools serve structured JSON payloads so strict clients like OpenCode stop rejecting the responses, and v1.4.7 adds an MCP result-size hint (`_meta: anthropic/maxResultSizeChars`) on `engrim_context` so Claude Code keeps the boot pack in model context instead of offloading it to a disk file, with the suite now at 259 passing tests.
 Single maintainer, no funding, no institutional backing.
 
 ## Strengths
@@ -69,6 +69,7 @@ My disagreeable claim: the provenance tracking, not the local-first storage, is 
 - 2026-09-10 - Created after the 2026-09-07 rejection's entry bar was met, with the Show HN thread kept as the critical source.
 - 2026-09-13 - Recorded v1.4.3 (explicit outputSchema declarations on the four core MCP tools), the nineteenth PyPI release, and refreshed stars to 241.
 - 2026-09-16 - Added OpenCode as a sixth supported CLI per the README and `engrim setup --opencode`, recorded v1.4.5 (`engrim doctor` with self-repair) and v1.4.6 (MCP structuredContent for strict hosts), and refreshed stars to 264 and commits to 80.
+- 2026-09-18 - Recorded v1.4.7 (the MCP result-size hint that keeps the boot pack in Claude Code's context) and refreshed stars to 278, commits to 81, and PyPI releases to 22.
 
 ## See also
 
@@ -80,10 +81,10 @@ My disagreeable claim: the provenance tracking, not the local-first storage, is 
 
 ## References
 
-- https://github.com/timgordontg/engrim - the repo: description, 264 stars, 16 forks, 80 commits, MIT, pushed 2026-09-15, as of 2026-09-16
-- https://hn.algolia.com/api/v1/items/49594008 - the Show HN thread (93 points, 65 comments as of 2026-09-16): launch claims, the in-repo-docs counterpoint, the moderator AI-content flag, and same-day fixes
-- https://news.ycombinator.com/item?id=49594008 - the thread's canonical page confirming 93 points as of 2026-09-16
+- https://github.com/timgordontg/engrim - the repo: description, 278 stars, 15 forks, 81 commits, MIT, pushed 2026-09-17, as of 2026-09-18
+- https://hn.algolia.com/api/v1/items/49594008 - the Show HN thread (93 points, 63 comments as of 2026-09-18): launch claims, the in-repo-docs counterpoint, the moderator AI-content flag, and same-day fixes
+- https://news.ycombinator.com/item?id=49594008 - the thread's canonical page confirming 93 points as of 2026-09-18
 - https://raw.githubusercontent.com/timgordontg/engrim/main/README.md - architecture (FTS5 plus model2vec), provenance, CLI surface, security notes, and the 105-session case study
-- https://pypi.org/pypi/engrim/json - 21 releases from 0.7.0 (2026-06-23) to 1.4.6 (2026-09-15), MIT classifier, Python 3.10+
-- https://api.github.com/repos/timgordontg/engrim/releases/latest - v1.4.6 notes: MCP structuredContent on all four core tools and strict-host interoperability with clients like OpenCode
+- https://pypi.org/pypi/engrim/json - 22 releases from 0.7.0 (2026-06-23) to 1.4.7 (2026-09-17), MIT classifier, Python 3.10+
+- https://api.github.com/repos/timgordontg/engrim/releases/latest - v1.4.7 notes: the MCP result-size hint on `engrim_context` and host interoperability for automated workflows; v1.4.6 had added MCP structuredContent for strict hosts like OpenCode
 - https://api.github.com/repos/timgordontg/engrim/license - the MIT LICENSE file, verified through the GitHub API

@@ -1,7 +1,7 @@
 ---
 title: GitHub Spec Kit
 created: 2026-08-26
-updated: 2026-09-16
+updated: 2026-09-18
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, spec-driven-development, github, ai-agents]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Spec Kit is GitHub's open-source toolkit for spec-driven development: a CLI that scaffolds constitution, spec, plan, and tasks files, then drives any of 30+ coding agents through implementing them.
-Facts below verified as of 2026-09-16.
+Facts below verified as of 2026-09-18.
 
 **Spec Kit hit 137k stars in one year by selling process, not product: it is markdown conventions plus a scaffolding CLI, and its popularity is the strongest signal yet that the industry wants review gates on agents more than it wants more agent autonomy.**
 
@@ -24,7 +24,7 @@ Extensions, presets, and role-based bundles let an organization customize the pr
 ## Status
 
 **Active, and it just declared adulthood.**
-First commit August 21, 2025; v1.0.0 and v1.0.1 both shipped August 21, 2026, and patch releases v1.0.2, v1.0.3, and v1.0.4 followed on August 31, September 1, and September 2, before v1.0.5 landed September 8, v1.0.6 followed on September 10, and v1.0.7 shipped September 15, with about 137.1k stars and about 12.3k forks as of 2026-09-16.
+First commit August 21, 2025; v1.0.0 and v1.0.1 both shipped August 21, 2026, and patch releases v1.0.2, v1.0.3, and v1.0.4 followed on August 31, September 1, and September 2, before v1.0.5 landed September 8, v1.0.6 followed on September 10, v1.0.7 shipped September 15, and v1.0.8 followed on September 17, with about 137.7k stars and about 12.3k forks as of 2026-09-18.
 The lead maintainer's anniversary post says the original creators have moved on to other projects and frames 1.0.0 as "just a number", arguing that as agents cheapen adaptation, value moves from stability to adaptability.
 
 ## Strengths
@@ -62,6 +62,7 @@ Not for solo work where the ceremony exceeds the blast radius of a bad change.
 - 2026-08-26 - Created as the note seeding the Spec-driven development category, citing eight fetched sources.
 - 2026-08-27 - Pointed the Compared-to Tessl line at the newly written Tessl note instead of deferring.
 - 2026-09-16 - Recorded the v1.0.7 release of September 15 and refreshed the star and fork counts.
+- 2026-09-18 - Recorded the v1.0.8 release of September 17 and refreshed the star count.
 
 ## See also
 
@@ -72,7 +73,7 @@ Not for solo work where the ceremony exceeds the blast radius of a bad change.
 
 ## References
 
-- https://github.com/github/spec-kit - source, MIT, workflow steps, integrations count, as of 2026-09-16
+- https://github.com/github/spec-kit - source, MIT, workflow steps, integrations count, as of 2026-09-18
 - https://github.github.io/spec-kit/ - official docs, integrations reference, extensions and presets
 - https://github.blog/ai-and-ml/generative-ai/spec-driven-development-with-ai-get-started-with-a-new-open-source-toolkit/ - the GitHub launch post
 - https://www.manorrock.com/blog/2026/08/21/spec_kit_turns_one.html - the lead maintainer's first-year and 1.0.0 post

@@ -1,7 +1,7 @@
 ---
 title: Agent Sandbox
 created: 2026-08-30
-updated: 2026-09-13
+updated: 2026-09-18
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, sandboxing, kubernetes, isolation, open-source]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Agent Sandbox is a Kubernetes SIG Apps project, announced by Google Cloud at KubeCon NA 2025, that provides a `Sandbox` CRD and controller for declaratively managing isolated, stateful, singleton pods with warm pools, aimed at AI agent runtimes and reinforcement learning, while delegating actual isolation to runtimes like gVisor or Kata.
-Facts below verified as of 2026-09-16.
+Facts below verified as of 2026-09-18.
 
 **Agent Sandbox is deliberately not an isolation boundary: it is the orchestration layer around one, and its own threat model says plainly that without gVisor or Kata configured, a sandbox is just an ordinary pod.**
 
@@ -24,8 +24,8 @@ Apache-2.0, developed under Kubernetes SIG Apps with Google Cloud backing, built
 
 ## Status
 
-Young but institutionally backed: 3,903 stars, 514 forks, 215 open issues and PRs as of 2026-09-16, created 2025-08-12, pushed 2026-09-15.
-v1.0.0 released 2026-08-28 with v1.0.1 on 2026-09-03 and v1.0.2 on 2026-09-11, twenty-two releases since October 2025, 987 commits.
+Young but institutionally backed: 3,936 stars, 515 forks, 206 open issues and PRs as of 2026-09-18, created 2025-08-12, pushed 2026-09-17.
+v1.0.0 released 2026-08-28 with v1.0.1 on 2026-09-03, v1.0.2 on 2026-09-11, and v1.0.3 on 2026-09-17, twenty-three releases since October 2025, 997 commits.
 **The v1.0.0 tag is not API stability: the API is `v1beta1`, v1alpha1 was removed in the same release, and upgrades from older versions require a documented four-step migration.**
 
 ## Strengths
@@ -61,6 +61,7 @@ Not for local developer sandboxing, and not for anyone expecting the 1.0 tag to 
 ## Changes
 
 - 2026-08-30 - Created in the Sandboxing category seed with the isolates-nothing-by-itself threat model.
+- 2026-09-18 - v1.0.3 released 2026-09-17 (configurable TLS controls, sandboxd process-group cleanup, execution-scoped credentials and egress-policy blueprints), the release count moving from twenty-two to twenty-three and commits from 987 to 997, with growth refreshed (3,936 stars, 206 open issues and PRs).
 
 ## See also
 

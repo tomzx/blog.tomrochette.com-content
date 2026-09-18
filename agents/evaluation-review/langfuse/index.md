@@ -1,7 +1,7 @@
 ---
 title: Langfuse
 created: 2026-09-16
-updated: 2026-09-16
+updated: 2026-09-18
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, evaluation, observability, llm-as-judge]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Langfuse is an open-source (MIT core) observability and evaluation platform for LLM applications and agents, covering tracing, LLM-as-judge and human evaluation, prompt management, and datasets and experiments, self-hostable or consumed as Langfuse Cloud, and part of ClickHouse since January 2026.
-Facts below verified as of 2026-09-16.
+Facts below verified as of 2026-09-18.
 
 **Langfuse is the MIT-licensed observability and evaluation column the category lacked, and its open-core boundary is drawn in the filesystem: MIT outside the `ee/` directories, proprietary inside them.**
 
@@ -24,7 +24,7 @@ Made by Langfuse (YC W23), acquired by ClickHouse in January 2026, with the root
 
 ## Status
 
-Mature and busy: 34,675 stars, 3,776 forks, created 2023-05-18, pushed 2026-09-16, v4.36.1 released 2026-09-15 as of 2026-09-16.
+Mature and busy: 34,761 stars, 3,794 forks, created 2023-05-18, pushed 2026-09-18, v4.38.0 released 2026-09-17 as of 2026-09-18.
 Announced ClickHouse acquisition landed on Hacker News on 2026-01-17 with 220 points, and the README says the team doubled in the six months before it.
 **Three years old, the largest community in this category, and now owned by a database vendor whose observability stack it slots into.**
 
@@ -45,7 +45,7 @@ Announced ClickHouse acquisition landed on Hacker News on 2026-01-17 with 220 po
 ## Pricing
 
 Self-hosted: free, MIT core, with the `ee/` directories under their separate license.
-Langfuse Cloud as of 2026-09-16: Hobby free (50k units/month, 30-day retention), Core $29/month, Pro $199/month (Teams add-on $300/month), Enterprise $2,499/month, plus graduated overage from $8 down to $6 per 100k units.
+Langfuse Cloud as of 2026-09-18: Hobby free (50k units/month, 30-day retention), Core $29/month, Pro $199/month (Teams add-on $300/month), Enterprise $2,499/month, plus graduated overage from $8 down to $6 per 100k units.
 
 ## Compared to
 
@@ -61,6 +61,7 @@ Not for pytest-style CI gating (use deepeval) or for observing coding-agent sess
 ## Changes
 
 - 2026-09-16 - Created.
+- 2026-09-18 - Recorded the v4.38.0 release and refreshed repository counts.
 
 ## See also
 
@@ -71,7 +72,7 @@ Not for pytest-style CI gating (use deepeval) or for observing coding-agent sess
 
 ## References
 
-- https://github.com/langfuse/langfuse - repository, description, stars and forks, pushed date as of 2026-09-16
+- https://github.com/langfuse/langfuse - repository, description, stars and forks, pushed date as of 2026-09-18
 - https://raw.githubusercontent.com/langfuse/langfuse/main/LICENSE - MIT core, the `ee/` carve-out, and the ClickHouse, Inc. copyright
 - https://raw.githubusercontent.com/langfuse/langfuse/main/README.md - feature set, self-hosting, integrations, and the January 2026 ClickHouse note
 - https://langfuse.com/docs - platform overview, OTel basis, evaluation methods, agent skill, CLI, and MCP server

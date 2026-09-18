@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 OpenSandbox is a general-purpose, Apache-2.0 sandbox platform for AI applications under the opensandbox-group GitHub organization, offering multi-language SDKs, a CLI, an MCP server, and Docker and Kubernetes runtimes for coding agents, GUI agents, evaluations, code execution, and RL training.
-Facts below verified as of 2026-09-16.
+Facts below verified as of 2026-09-18.
 
 ## What it is
 
@@ -23,7 +23,7 @@ An ingress gateway with per-sandbox egress controls handles network policy, a Cr
 ## Status
 
 **Very active and exceptionally fast-growing for a nine-month-old repo, with traction that is vendor-driven rather than organic Hacker News adoption.**
-15,337 stars and 1,401 forks as of 2026-09-16, repo created 2025-12-17, pushed the day of verification, latest release server/v0.2.3 on 2026-08-26.
+15,386 stars and 1,407 forks as of 2026-09-18, repo created 2025-12-17, pushed the day of verification, latest release server/v0.2.3 on 2026-08-26.
 The current organization was created 2026-06-04 as part of the transfer out of Alibaba.
 Hacker News is conspicuously absent: the threads are a 2-pointer from March 2026 linking the pre-transfer alibaba URL, a 1-pointer to the website, and a 4-pointer whose title borrows OpenSandbox's tagline but whose URL points at a competitor's repo (a submission error), while a 4-point January "Show HN: Open Sandbox" is an unrelated same-name project.
 
@@ -43,7 +43,7 @@ Hacker News is conspicuously absent: the threads are a 2-pointer from March 2026
 
 ## Pricing
 
-Free, Apache-2.0, self-hosted; no hosted offering or pricing page found on open-sandbox.ai or in the repo as of 2026-09-16.
+Free, Apache-2.0, self-hosted; no hosted offering or pricing page found on open-sandbox.ai or in the repo as of 2026-09-18.
 Costs are the Docker or Kubernetes infrastructure you run it on.
 
 ## Compared to
@@ -72,7 +72,7 @@ Not for anyone who needs hardened isolation by default, an independently audited
 ## References
 
 - https://github.com/opensandbox-group/OpenSandbox - repository README: platform scope, SDKs, CLI, MCP, Sandbox Protocol, registries, cosign signing, badges
-- https://api.github.com/repos/opensandbox-group/OpenSandbox - stars, forks, license, creation and push dates as of 2026-09-16
+- https://api.github.com/repos/opensandbox-group/OpenSandbox - stars, forks, license, creation and push dates as of 2026-09-18
 - https://api.github.com/repos/opensandbox-group/OpenSandbox/releases/latest - the server/v0.2.3 release of 2026-08-26
 - https://raw.githubusercontent.com/opensandbox-group/OpenSandbox/main/docs/guides/secure-container.md - the runc default plus gVisor, Kata, Firecracker, and Cloud Hypervisor runtimes
 - https://open-sandbox.ai - the live project site

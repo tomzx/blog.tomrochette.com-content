@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 agentsview is a local-first, MIT-licensed Go application that discovers the session files your coding agents already write on disk, indexes them into a searchable local SQLite archive, and serves a web UI, CLI, and desktop app for browsing, analytics, and token-cost reporting across more than 60 agent formats.
-Facts below verified as of 2026-09-16.
+Facts below verified as of 2026-09-18.
 
 **agentsview's premise is that your agents already write the telemetry; the missing piece was a tool that reads all of it in one place, locally, instead of each harness showing you only its own slice.**
 
@@ -25,7 +25,7 @@ Made by Kenn Software LLC; install via curl script, Homebrew cask, desktop build
 
 ## Status
 
-Young and active: about 5.9k stars, 670 forks, 126 open issues and PRs as of 2026-09-16, created 2026-02-19.
+Young and active: about 5.9k stars, 674 forks, 123 open issues and PRs as of 2026-09-18, created 2026-02-19.
 Latest release v0.43.0 on 2026-09-14 with steady releases since July; pre-1.0 with fast feature churn.
 
 ## Strengths
@@ -77,7 +77,7 @@ Not for single-agent users well served by built-in cost views, or teams wanting 
 
 - https://github.com/kenn-io/agentsview - repository, supported agents, architecture, license
 - https://www.agentsview.io - docs, architecture, install, and the Kenn Software attribution
-- https://www.agentsview.io/docs/token-usage/ - cost computation, the undercount disclosures, the removal of the earlier ccusage benchmark, and the schema version 6 JSON contract (re-verified 2026-09-16)
+- https://www.agentsview.io/docs/token-usage/ - cost computation, the undercount disclosures, the removal of the earlier ccusage benchmark, and the schema version 6 JSON contract (re-verified 2026-09-18)
 - https://github.com/kenn-io/agentsview/releases - release cadence and current version
 - https://github.com/simple10/agents-observe - comparison data for the live-observability alternative
 - https://code.claude.com/docs/en/costs - the built-in cost tracking this category extends

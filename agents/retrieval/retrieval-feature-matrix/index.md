@@ -1,7 +1,7 @@
 ---
 title: "Retrieval Feature Matrix"
 created: 2026-08-24
-updated: 2026-09-16
+updated: 2026-09-18
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, comparison, retrieval, rag, code-retrieval, llm=glm-5.3-flash]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 This matrix compares the five retrieval entries profiled in this section, two frameworks, two patterns, and one chunking library, feature by feature, so the shortlisting step does not require reading five notes.
-Everything below was re-verified against live sources on 2026-09-16.
+Everything below was re-verified against live sources on 2026-09-18.
 
 **Both frameworks are pivoting away from retrieval as their business, both patterns are being demoted by the tools that ship them, and the chunking library that won the niche has outlived its own maker's attention, which I read as evidence that the agent loop, not the index, is now the retrieval layer, a claim the enterprise platform bets are still arguing.**
 
@@ -29,7 +29,7 @@ Each column links to the full note; every cell traces to a source cited there or
 | AST-aware code splitting | ✓ CodeChunker | ✗ separators only | ✓ CodeSplitter | ? chunkers undisclosed | ✓ the technique |
 | Hosted or commercial arm | ✗ hosted API dead, OSS only | ✓ LangSmith SaaS | ✓ LlamaParse SaaS | ~ plan-gated indexes | ✗ was Chonkie Cloud, now dead |
 | Positioning drift in the notes | ~ maker moved to Feyn Labs, OSS continues | ~ climb to agent platform | ~ pivot to document OCR | ~ demoted to optional | ~ outsourced to Chonkie |
-| Maintenance status | ✓ active, 4.75k stars, 1.06M downloads/month | ✓ active, 146k stars | ✓ active, 52.1k stars | ~ active but demoted | ✓ mature, pervasive |
+| Maintenance status | ✓ active, 4.76k stars, 1.08M downloads/month | ✓ active, 146.6k stars | ✓ active, 52.2k stars | ~ active but demoted | ✓ mature, pervasive |
 | Displacement signal in the notes | ~ founder pivoted away, niche commoditized | ~ retrieval commoditized | ~ agentic search eats indexed RAG | ✓ pioneers shipped grep loops | ~ ranked below truncation |
 | What it replaces in a coding-agent stack | framework text splitters | hand-rolled agent loops | hand-rolled retrievers | grep-only lookups | line-count chunking |
 
@@ -68,6 +68,7 @@ LlamaIndex's newer Chunker node parser wraps Chonkie rather than reimplementing 
 - 2026-08-26 - Fixed a self-contradiction about the legacy LangChain code-splitter docs, reworded as frozen documentation.
 - 2026-08-30 - Re-sorted columns alphabetically with LangChain first per the new owner rule, and repaired the tags-line YAML the sort broke.
 - 2026-09-16 - Extended from four to five columns with Chonkie, corrected the tree-sitter hosted-arm cell now that Chonkie Cloud is dead, and updated the thesis, reading, and choosing prose for the library column.
+- 2026-09-18 - Refreshed the maintenance row numbers for the 2026-09-18 re-verification: Chonkie 4.76k stars and 1.08M downloads/month, LangChain 146.6k stars, LlamaIndex 52.2k stars.
 
 ## See also
 
@@ -78,9 +79,9 @@ LlamaIndex's newer Chunker node parser wraps Chonkie rather than reimplementing 
 
 ## References
 
-- https://github.com/chonkie-inc/chonkie - repository facts (4,751 stars, MIT, pushed 2026-09-02) for the Chonkie column (GitHub API, as of 2026-09-16)
+- https://github.com/chonkie-inc/chonkie - repository facts (4,755 stars, MIT, pushed 2026-09-18) for the Chonkie column (GitHub API, as of 2026-09-18)
 - https://raw.githubusercontent.com/chonkie-inc/chonkie/main/README.md - chunker table (CodeChunker, FastChunker) and the self-hosted API server for the Chonkie column
-- https://pypistats.org/api/packages/chonkie/recent - 1,064,494 downloads last month for the maintenance row
+- https://pypistats.org/api/packages/chonkie/recent - 1,081,591 downloads last month for the maintenance row, as of 2026-09-18
 - https://usefeyn.com - the Feyn Labs founder letter behind the chonkie.ai redirect, grounding the maker-moved-on cells
 - https://github.com/run-llama/llama_index - repository scale, MIT license, and the document-agent and OCR pivot wording for the LlamaIndex column
 - https://www.llamaindex.ai/pricing - LlamaParse tiers grounding the commercial-arm row

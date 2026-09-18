@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Interconnects, the Substack of former AI2 post-training lead Nathan Lambert, is the inside-the-labs newsletter for the models and reasoning layer under agentic development, minus the hype.
-Facts below verified as of 2026-09-16.
+Facts below verified as of 2026-09-18.
 
 **He explains the research and the open-model ecosystem from someone who built it, which makes him the direct bridge between the frontier labs and the engineer choosing a model or an agent today.**
 
@@ -23,8 +23,8 @@ His [Get Good at Agents](https://www.interconnects.ai/p/get-good-at-agents) (202
 
 ## Status
 
-Active and prolific as of 2026-09-16.
-The newsletter reports over 83,000 subscribers as of 2026-09-16, and his most recent posts ran September 8 to 11 (including an open-model reading list and a piece on open artifacts #24), with nothing newer as of this check.
+Active and prolific as of 2026-09-18.
+The newsletter reports over 83,000 subscribers as of 2026-09-18, and his most recent posts ran September 8 to 11 (including an open-model reading list and a piece on open artifacts #24), with nothing newer as of this check.
 He released the [RLHF Book](https://rlhfbook.com/) ('26) with a companion post-training course, and his site links to open-model tools he maintains: the Artifacts Hub, an Adoption Dashboard, and the ATOM Project.
 He announced he is "currently doing something new" after leaving Ai2.
 

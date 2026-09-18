@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 OpenAI for Science is the lab program, launched October 2025 under Kevin Weil, that points frontier models at scientific and mathematical research, and within a year it produced both a genuine first and the messiest credit dispute in the category.
-Facts below verified as of 2026-09-16.
+Facts below verified as of 2026-09-18.
 
 **The program shows the ceiling and the failure modes of lab-run automated research at once: real results exist, but every headline arrived wrapped in overclaims, deleted posts, or a dispute over who did the work.**
 
@@ -24,7 +24,7 @@ The program backs academic researchers with free and discounted access, and publ
 
 ## Status
 
-Active and escalating fast, as of 2026-09-16.
+Active and escalating fast, as of 2026-09-18.
 October 2025: senior OpenAI figures posted that GPT-5 had solved unsolved math problems; mathematicians showed the model had dug existing solutions out of old papers, and the posts were deleted.
 March 2026: GPT-5.4 solved the first open problem from Epoch AI's FrontierMath benchmark (a hypergraph-theory constant-factor bound), the benchmark of 14 bespoke unsolved problems explicitly built below Millennium scale.
 May 2026: OpenAI announced an internal model had disproved the Erdős unit distance conjecture, a result experts treated as genuinely productive.
@@ -47,7 +47,7 @@ September 2026: OpenAI published a claimed proof of forced blow-up in R3 and T3 
 ## Pricing
 
 A lab program, not a product, so no direct pricing.
-The surrounding stack is plan-based: the case studies feature GPT-5 Pro at $200 per month, and OpenAI grants academic researchers credits and discounted access, as of 2026-09-16.
+The surrounding stack is plan-based: the case studies feature GPT-5 Pro at $200 per month, and OpenAI grants academic researchers credits and discounted access, as of 2026-09-18.
 
 ## Compared to
 
@@ -58,7 +58,7 @@ The surrounding stack is plan-based: the case studies feature GPT-5 Pro at $200 
 ## Bottom line
 
 **Recommended watching for anyone who needs to calibrate how much a lab announcement is worth: this program is the case study in demanding artifacts, graders, and named reviewers before believing a research claim.**
-Not a source of settled results as of 2026-09-16; treat the Navier-Stokes claim as pending until someone independent checks it.
+Not a source of settled results as of 2026-09-18; treat the Navier-Stokes claim as pending until someone independent checks it.
 
 ## Changes
 

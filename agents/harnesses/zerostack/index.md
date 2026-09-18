@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Zerostack is a solo-maintained GPL-3.0 coding agent written in pure Rust that pitches a 26 MB binary and about 16 MB of average RAM against the hundreds of megabytes its JavaScript competitors consume.
-Facts below verified as of 2026-09-16.
+Facts below verified as of 2026-09-18.
 
 **Zerostack is the strongest community signal of any independently built harness in this section, and its rise says the harness argument has moved from features to resource footprint.**
 
@@ -26,11 +26,11 @@ An ARCHITECTURE.md file complements AGENTS.md with shared core knowledge for age
 
 ## Status
 
-Active: the repository was pushed 2026-09-14, created May 12, 2026, with the latest release v1.8.4 on September 7, 2026.
-1,672 stars and 135 forks as of 2026-09-16.
+Active: the repository was pushed 2026-09-16, created May 12, 2026, with the latest release v1.8.4 on September 7, 2026.
+1,679 stars and 136 forks as of 2026-09-18.
 The May 16, 2026 launch thread reached 575 points (item 48164287), the highest-signal uncovered harness candidate of this cycle, with follow-up release threads through June and a Show HN in July.
 v1.8.0, "The Great Cleanup", landed September 3, 2026 after a six-week release quiet stretch and credited several external contributors with a large TUI refactoring.
-3,460 crate downloads on crates.io (1,342 recent) as of 2026-09-16.
+3,466 crate downloads on crates.io (1,335 recent) as of 2026-09-18.
 It is a one-person project with a ko-fi jar and a public call for company sponsors.
 
 ## Strengths
@@ -80,9 +80,9 @@ I think the Rust-rewrite wave confuses a small memory footprint with a good agen
 
 ## References
 
-- https://github.com/gi-dellav/zerostack - repository state, license, stars, and activity as of 2026-09-16
+- https://github.com/gi-dellav/zerostack - repository state, license, stars, and activity as of 2026-09-18
 - https://raw.githubusercontent.com/gi-dellav/zerostack/main/README.md - feature list, performance claims, and inspirations
 - https://gi-dellav.github.io/zerostack/ - docs site: permission modes, prompts, commands, sandbox mode
-- https://crates.io/api/v1/crates/zerostack - crate version and download counts as of 2026-09-16
+- https://crates.io/api/v1/crates/zerostack - crate version and download counts as of 2026-09-18
 - https://github.com/gi-dellav/zerostack/releases - release cadence through v1.8.4
 - https://news.ycombinator.com/item?id=48164287 - 575-point launch thread and the author's no-benchmark admission

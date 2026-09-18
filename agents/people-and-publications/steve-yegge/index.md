@@ -1,7 +1,7 @@
 ---
 title: Steve Yegge
 created: 2026-08-29
-updated: 2026-09-13
+updated: 2026-09-18
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=big-pickle, llm=glm-5.3-flash, people, publications, developer, agent-pragmatist]
 readability: 3
@@ -11,20 +11,22 @@ audience_notes: >
 ---
 
 Steve Yegge is one of the loudest and most hands-on voices arguing that coding agents change not just how software is written but who writes it and how teams are run.
-Facts below verified as of 2026-09-16.
+Facts below verified as of 2026-09-18.
 
-**Yegge is the operative, not the commentator: he builds the systems he predicts, from Agentic Coding's brute-squad framing to the Gas Town multi-agent workspace that this section already profiles, so his claims are falsifiable against his own code.**
+**Yegge is the operative, not the commentator: he built the systems he predicted, from Agentic Coding's brute-squad framing to the Gas Town multi-agent workspace that this section already profiles, so his claims are falsifiable against his own code, and in September 2026 that falsifiability caught up with him when he shut Gas Town down.**
 
 ## What it is
 
 A prolific engineer (Amazon, Google, then Sourcegraph, now independent) whose site, yegge.ai, combines long-form essays with shipped agent projects.
 He coined or popularized the "death of the junior developer" and "revenge of the junior developer" agent-era framings, and wrote "Agentic Coding" laying out why developers must adopt agents.
-His creative output is the [Gas Town](../../orchestration/gastown/index.md) workspace manager, which implements his supervision-at-scale thesis directly.
+His best-known build is the [Gas Town](../../orchestration/gastown/index.md) workspace manager, which implemented his supervision-at-scale thesis directly; in September 2026 he shut it down.
 
 ## Status
 
-Active, with his writing centralized on his own site.
-As of 2026-09-13 the yegge.ai catalog holds 165 essays, roughly 699,000 words averaging about 4,200 per essay, with an RSS feed; it includes the "Future of Coding Agents" series, he builds Gas Town, and he appears on The Pragmatic Engineer and other podcasts.
+Active, with his writing centralized on his own site and a material reversal on his flagship build.
+As of 2026-09-18 the yegge.ai catalog still holds 165 essays, roughly 699,000 words averaging about 4,200 per essay, with an RSS feed; it includes the "Future of Coding Agents" series, and he appears on The Pragmatic Engineer and other podcasts.
+Per Latent Space's AINews roundup (2026-09-17), citing Dan Luu's 2026-09-15 post on X, Yegge shut Gas Town down and admitted he never successfully built anything with it, despite spending many thousands a month on coding agent subscriptions.
+The gastownhall/gastown repository remains public (18.1k stars as of 2026-09-18), so the code survives even though the project is abandoned by its author.
 His Substack still exists and its about page reports hundreds of subscribers, but its sitemap listed no published posts as of 2026-09-13, so the essays live on yegge.ai rather than the newsletter.
 He also released the book Vibe Coding with Gene Kim (IT Revolution, 2025), a Gold Medal winner at the 2026 Axiom Book Awards.
 
@@ -39,7 +41,7 @@ He also released the book Vibe Coding with Gene Kim (IT Revolution, 2025), a Gol
 
 - Provocation is part of the brand, so the strongest claims need the same skepticism the corpus applies to him.
 - His company-commentary swings wide (big-tech whatever, dooming takes) that are not engineering signal.
-- Much of the concrete practice now lives in Gas Town, which is contentious and cost-heavy to run.
+- Much of his concrete practice advice was embodied in Gas Town, which he shut down in September 2026 after admitting he never successfully built anything with it, so his supervision-at-scale thesis now lacks a working reference implementation.
 
 ## Pricing
 
@@ -62,6 +64,7 @@ Not for readers who prefer neutral synthesis or who object to the chaotic, credi
 - 2026-08-29 - Created in the People and publications category seed.
 - 2026-08-30 - Updated the gastown repo link after the project moved to the gastownhall org.
 - 2026-09-13 - Corrected the writing venue: the essays live on yegge.ai (165 essays, about 699,000 words) while the Substack shows no published posts, and added the Vibe Coding award.
+- 2026-09-18 - Recorded the Gas Town shutdown: per Latent Space AINews (2026-09-17), citing Dan Luu, Yegge shut the project down and admitted he never successfully built anything with it; the repo remains public (18.1k stars as of 2026-09-18).
 
 ## See also
 
@@ -76,6 +79,7 @@ Not for readers who prefer neutral synthesis or who object to the chaotic, credi
 - https://yegge.ai/ - his essay catalog, including "The Future of Coding Agents"
 - https://yegge.ai/atlas.html - the catalog numbers (165 essays, about 699,000 words) and the Vibe Coding book award
 - https://steve-yegge.blogspot.com/ - the long-running blog with the canonical essays
-- https://github.com/gastownhall/gastown - the Gas Town workspace manager he builds (the repo moved to the gastownhall org; the old steveyegge URL redirects)
+- https://github.com/gastownhall/gastown - the Gas Town workspace manager he builds (the repo moved to the gastownhall org; the old steveyegge URL redirects), still public with 18.1k stars as of 2026-09-18 after the shutdown
+- https://www.latent.space/p/ainews-reality-checks-on-ai-news - the AINews issue (2026-09-17) reporting the Gas Town shutdown and the Dan Luu exchange
 - https://sourcegraph.com/blog/revenge-of-the-junior-developer - the agent-era essay that set the discussion
 - https://newsletter.pragmaticengineer.com/p/steve-yegge-on-ai-agents-and-the - an independent interview that engages critically with his claims

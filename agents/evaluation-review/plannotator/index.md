@@ -1,7 +1,7 @@
 ---
 title: Plannotator
 created: 2026-08-30
-updated: 2026-09-16
+updated: 2026-09-18
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, evaluation, code-review, human-in-the-loop, open-source]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Plannotator is a free, open-source, local browser-based review surface that intercepts coding-agent plan proposals and code diffs so you can annotate them visually and send structured feedback straight back into the live agent session.
-Facts below verified as of 2026-09-16.
+Facts below verified as of 2026-09-18.
 
 **Plannotator closes the cheapest loop in agent work, the one between what you see wrong in a plan and what the agent receives, and its marketing outpaced its README exactly once, on the encryption claim, which the README itself corrects.**
 
@@ -21,13 +21,13 @@ A TypeScript installer that wires into nine harnesses, Claude Code, Codex, Copil
 Three surfaces: plan review with inline comments and deletion marks, code review of uncommitted changes or any GitHub and GitLab PR URL with side-by-side diffs and staging, and annotation of markdown, folders, URLs, and rendered HTML artifacts.
 Approve lets the agent proceed; deny sends annotations back as the agent's next instruction, no copy-paste, and plan revisions are diffed against each other.
 Local-first with no telemetry, an optional TUI, a VS Code extension, and supply-chain hygiene (SLSA provenance, SBOMs, Grype gating).
-Dual Apache-2.0 or MIT, written almost entirely by one developer (959 of 1,210 commits as of 2026-09-16) with 143 total commit contributors and only 10 with five or more, with a hosted Workspaces product now on a public waitlist.
+Dual Apache-2.0 or MIT, written almost entirely by one developer (969 of 1,222 commits as of 2026-09-18) with 144 total commit contributors and only 10 with five or more, with a hosted Workspaces product now on a public waitlist.
 
 ## Status
 
-Fast and growing: 8,708 stars, 652 forks, 157 open issues and PRs as of 2026-09-16, created 2025-12-28, pushed 2026-09-15, v0.27.15 released 2026-09-15.
+Fast and growing: 8,761 stars, 658 forks, 162 open issues and PRs as of 2026-09-18, created 2025-12-28, pushed 2026-09-18, v0.27.16 released 2026-09-18.
 **The 0.27.x line says pre-1.0 churn, and the growth came through social channels rather than press; its Show HN thread drew 5 points.**
-The author now ships a terminal sibling, Herdr Annotate under the plannotator GitHub org (475 stars as of 2026-09-16), which applies the same annotate-and-send-feedback loop to terminal text.
+The author now ships a terminal sibling, Herdr Annotate under the plannotator GitHub org (504 stars as of 2026-09-18), which applies the same annotate-and-send-feedback loop to terminal text.
 
 ## Strengths
 
@@ -66,6 +66,7 @@ Not for minimal-install purists, and not yet for teams whose review process requ
 - 2026-09-12 - Recorded Workspaces entering a public waitlist.
 - 2026-09-13 - Added Herdr Annotate, the author's terminal annotation sibling under the plannotator org.
 - 2026-09-16 - Recorded the v0.27.15 release and refreshed repository, contributor, and Herdr Annotate counts.
+- 2026-09-18 - Recorded the v0.27.16 release and refreshed repository, contributor, and Herdr Annotate counts.
 
 ## See also
 
@@ -82,4 +83,4 @@ Not for minimal-install purists, and not yet for teams whose review process requ
 - https://docs.plannotator.ai/open-source/start/installation - platforms and per-agent setup
 - https://github.com/backnotprop/plannotator/releases - release cadence evidence
 - https://news.ycombinator.com/item?id=48495970 - the Show HN thread with the encryption-claim discrepancy
-- https://github.com/plannotator/herdr-annotate - the terminal sibling project, 475 stars as of 2026-09-16
+- https://github.com/plannotator/herdr-annotate - the terminal sibling project, 504 stars as of 2026-09-18

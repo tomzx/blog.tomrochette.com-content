@@ -1,7 +1,7 @@
 ---
 title: "ctx"
 created: 2026-09-05
-updated: 2026-09-13
+updated: 2026-09-18
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, session-analytics, search, cli]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 **ctx is local search over the sessions your coding agents already recorded, and its pro add-on turns git blame around: from any line of code back to the transcript that produced it.**
-Facts below verified as of 2026-09-16.
+Facts below verified as of 2026-09-18.
 
 ## What it is
 
@@ -21,9 +21,9 @@ The paid add-on, ctx pro, is "git blame, but for agent sessions": from a line, f
 
 ## Status
 
-Active: created 2026-02-23, about 1.1k stars and 69 forks as of 2026-09-16.
-The docs site at ctx.rs is complete (concepts, supported agents including Claude Code, Codex, Cursor, Pi, OpenCode, and more, storage, comparisons, a changelog), and a `/ctx` skill lets agents call it directly.
-**The community footprint is nearly empty, a 5-point, one-comment Show HN on 2026-09-03, which I read as the product being discovered through agents rather than through forums, and as thin independent verification.**
+Active: created 2026-02-23, about 1.1k stars and 70 forks, latest release v1.4.10 on 2026-09-16 with two more releases shipped the same day, as of 2026-09-18.
+The docs site at ctx.rs is complete (concepts, about 40 supported agent harnesses including Claude Code, Codex, Cursor, Pi, and OpenCode, storage, comparisons, a changelog), and a `/ctx` skill lets agents call it directly.
+**The community footprint is nearly empty, a 5-point, one-comment Show HN on 2026-09-03 plus a 3-point re-launch on 2026-09-16, which I read as the product being discovered through agents rather than through forums, and as thin independent verification.**
 
 ## Strengths
 
@@ -33,14 +33,14 @@ The docs site at ctx.rs is complete (concepts, supported agents including Claude
 
 ## Cautions
 
-- The 50x token-efficiency claim is self-reported (917 versus 45,734 tokens in its own example, now shown on the site's home page after the comparisons pages were rewritten without it), with no independent benchmark as of 2026-09-16.
-- ctx pro's price was long unpublished and now is: $20 USD per month with a 14-day free trial as of 2026-09-16, and the free/pro split still means the headline capability is partially gated.
+- The 50x token-efficiency claim is self-reported (917 versus 45,734 tokens in its own example, now shown on the site's home page after the comparisons pages were rewritten without it), with no independent benchmark as of 2026-09-18.
+- ctx pro's price was long unpublished and now is: $20 USD per month with a 14-day free trial as of 2026-09-18, and the free/pro split still means the headline capability is partially gated.
 - It reads whatever the agents wrote: transcripts are only as complete as the harnesses' logs, and deleted local history is gone.
 
 ## Pricing
 
 The core CLI is free and open source under Apache-2.0.
-ctx pro is a paid add-on at $20 USD per month with a two-week free trial, no account or credit card required, as of 2026-09-16; a "For Teams" offering also exists.
+ctx pro is a paid add-on at $20 USD per month with a two-week free trial, no account or credit card required, as of 2026-09-18; a "For Teams" offering also exists.
 A referral program pays referrers $10 per month for each of a referred developer's first 12 paid pro months, and extends the referred trial to 30 days.
 
 ## Compared to
@@ -61,6 +61,7 @@ Not for anyone needing audited cost reporting (agentsview's job) or provenance g
 - 2026-09-07 - Comparisons link replaced with the per-topic path after the old path began returning 404s.
 - 2026-09-09 - Caution updated after comparison numbers moved from the comparisons page to the home page.
 - 2026-09-12 - Recorded the new paid referral program.
+- 2026-09-18 - Recorded the v1.4.10 release line (three releases on 2026-09-16), the 3-point re-launch thread of 2026-09-16, and the docs now listing about 40 supported agent harnesses.
 
 ## See also
 
@@ -76,3 +77,5 @@ Not for anyone needing audited cost reporting (agentsview's job) or provenance g
 - https://ctx.rs/pro - the blame-attribution add-on and its citation model
 - https://hn.algolia.com/api/v1/items/49550141 - the Show HN launch thread, cited as the thin-footprint signal
 - https://ctx.rs/comparisons/agent-memory - the project's own framing against agent memory, from the comparisons section that now splits per topic
+- https://api.github.com/repos/ctxrs/ctx/releases - v1.4.10 published 2026-09-16, with v1.4.9 and v1.4.8 the same day
+- https://news.ycombinator.com/item?id=49727859 - the 3-point Show HN re-launch on 2026-09-16

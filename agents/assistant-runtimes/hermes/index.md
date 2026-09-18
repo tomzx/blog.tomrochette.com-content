@@ -10,8 +10,8 @@ audience_notes: >
   Assumes you know what a cron scheduler and a model provider are.
 ---
 
-Hermes Agent is Nous Research's MIT-licensed self-improving personal agent: a Python gateway process that lives in your chat channels, builds skills from its own experience, and runs on everything from a $5 VPS to serverless sandboxes, at about 246k stars the biggest runtime launch since OpenClaw.
-Facts below verified as of 2026-09-16.
+Hermes Agent is Nous Research's MIT-licensed self-improving personal agent: a Python gateway process that lives in your chat channels, builds skills from its own experience, and runs on everything from a $5 VPS to serverless sandboxes, at about 247k stars the biggest runtime launch since OpenClaw.
+Facts below verified as of 2026-09-18.
 
 **Hermes' bet is that the runtime winner is decided by the learning loop, not the channel list: an agent that curates its own memory, writes its own skills, and models you across sessions compounds while the others merely answer.**
 
@@ -25,7 +25,7 @@ Execution spans seven backends (local, Docker, SSH, Singularity, Modal, Daytona,
 ## Status
 
 Massive and fast-moving.
-As of 2026-09-16: 245,961 stars and 51,337 forks since creation on 2025-07-22, pushed today, MIT, and 43,263 open issues, a support surface bigger than most projects' users.
+As of 2026-09-18: 246,653 stars and 51,678 forks since creation on 2025-07-22, pushed today, MIT, and 43,964 open issues, a support surface bigger than most projects' users.
 The [52-point launch thread](https://news.ycombinator.com/item?id=48419000) landed June 2026, and a real tool ecosystem followed (a 28-point Grafana observability integration, a Fleet console for managing Dockerized Hermes agents, XMPP interop with OpenClaw).
 **The governance record is the caution: a May 2026 thread documents Nous editing a GitHub issue to remove plagiarism claims about Hermes Agent ([issue 10232](https://github.com/NousResearch/hermes-agent/issues/10232)), so origin claims around this project deserve independent reading.**
 
@@ -38,7 +38,7 @@ The [52-point launch thread](https://news.ycombinator.com/item?id=48419000) land
 
 ## Cautions
 
-- 43,263 open issues is triage weather, not a queue; expect to read code when things break.
+- 43,964 open issues is triage weather, not a queue; expect to read code when things break.
 - The plagiarism-claim edit is a stewardship red flag worth weighing before making it your memory keeper.
 - A self-curating memory compounds errors as efficiently as insights; the loop needs supervision, not just trust.
 - Windows installs bundle a lot of machinery (uv, Node, Git Bash), which is surface area to audit.
@@ -46,7 +46,7 @@ The [52-point launch thread](https://news.ycombinator.com/item?id=48419000) land
 ## Pricing
 
 The runtime is free and open source under MIT.
-Paid plans now exist through Nous Portal, and as of 2026-09-16 the prices are public on the official site: Free at $0, Plus at $20/month, Super at $100/month, and Ultra at $200/month, where each paid tier bundles monthly credits with a 10 percent bonus ($22, $110, and $220 respectively), 200+ models, and hosted tool use.
+Paid plans now exist through Nous Portal, and as of 2026-09-18 the prices are public on the official site: Free at $0, Plus at $20/month, Super at $100/month, and Ultra at $200/month, where each paid tier bundles monthly credits with a 10 percent bonus ($22, $110, and $220 respectively), 200+ models, and hosted tool use.
 Or bring your own provider keys, with serverless backends billed by the platform when idle-cheap.
 
 ## Compared to
@@ -77,7 +77,7 @@ The disagreeable claim I will defend: the channel-list era of this category is o
 ## References
 
 - https://github.com/NousResearch/hermes-agent - README: learning loop, backends, channels, install
-- https://api.github.com/repos/NousResearch/hermes-agent - stars, forks, issues as of 2026-09-16
+- https://api.github.com/repos/NousResearch/hermes-agent - stars, forks, issues as of 2026-09-18
 - https://hermes-agent.nousresearch.com - official site and docs, including the Hermes Free/Plus/Super/Ultra plan tiers
 - https://news.ycombinator.com/item?id=48419000 - the 52-point launch thread
 - https://github.com/NousResearch/hermes-agent/issues/10232 - the edited plagiarism-claims issue

@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 SkillOpt is a Microsoft Research text-space optimizer that trains a reusable natural-language skill document for a frozen LLM agent the way deep learning trains weights: trajectory-driven bounded edits, a textual learning rate, and a held-out validation gate, exporting a deployable `best_skill.md`.
-Facts below verified as of 2026-09-16.
+Facts below verified as of 2026-09-18.
 
 **SkillOpt turns the skill file into a trainable parameter, and the part that matters is not the optimization loop but the gate: an edit is kept only when it strictly improves a held-out score, which is exactly the discipline hand-written skills never get.**
 
@@ -25,8 +25,8 @@ MIT, from Microsoft Research Asia with university collaborators, Python 3.10+.
 
 ## Status
 
-Research code with unusually strong product trappings: 17.1k stars, 1.6k forks, 41 open issues and pull requests, and 531 commits on main as of 2026-09-16, created 2026-05-08.
-Latest release v0.2.0 (2026-07-02) on PyPI, still the newest as of 2026-09-16; the arXiv paper (2605.23904) is a preprint with no peer-reviewed venue found, and all headline results are the authors' own.
+Research code with unusually strong product trappings: 17.2k stars, 1.6k forks, 42 open issues and pull requests, and 531 commits on main as of 2026-09-18, created 2026-05-08.
+Latest release v0.2.0 (2026-07-02) on PyPI, still the newest as of 2026-09-18; the arXiv paper (2605.23904) is a preprint with no peer-reviewed venue found, and all headline results are the authors' own.
 
 ## Strengths
 
@@ -40,7 +40,7 @@ Latest release v0.2.0 (2026-07-02) on PyPI, still the newest as of 2026-09-16; t
 - The guarantee is only as good as the automatic scorer: open-ended or subjective tasks weaken the gate, which the authors acknowledge.
 - Optimization is not free; training reached hundreds of millions of tokens on academic benchmarks, with community-quoted costs of a few dollars per task plus the engineering cost of a verifier and a representative held-out split.
 - Single-document scope: it trains one skill file, not a skill library.
-- All results are self-reported on the authors' benchmarks; no independent replication was found as of 2026-09-16.
+- All results are self-reported on the authors' benchmarks; no independent replication was found as of 2026-09-18.
 
 ## Pricing
 

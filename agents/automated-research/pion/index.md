@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Pion is Andon Labs' proprietary cloud platform where persistent agents run a business continuously and autonomously, provisioned with terminal, browser, email, phone, banking, and card tools under a managing agent called Andonos, announced 2026-09-14 as a research preview with a waitlist and no public code.
-Facts below verified as of 2026-09-16.
+Facts below verified as of 2026-09-18.
 
 **Pion is the Vending-Bench and Project Vend lineage made product: a capability-research instrument that happens to be a platform, and the launch thread's own contradiction, calling autonomous resource acquisition the most troubling capability while releasing exactly that, is the sharpest public statement of the tension this category carries.**
 
@@ -26,7 +26,7 @@ The company is YC-backed and is the team behind Vending-Bench 2 and Anthropic's 
 
 Research preview, closed, no pricing.
 Announced 2026-09-14 on the Andon Labs blog; access is waitlist-gated and gradual, with Andon funding selected ideas with seed tokens.
-The launch thread reached 483 points on Hacker News on 2026-09-14, the largest item in this section's September 13 to 16 window, submitted by Andon co-founder Lukas Petersson.
+The launch thread reached 490 points on Hacker News as of 2026-09-18, the largest item in this section's launch window, submitted by Andon co-founder Lukas Petersson.
 The underlying record is real: Project Vend's vending machine went from losing money in 2025 to profitable by late 2025 across three countries, and Andon reports its Market and Café (running since April 2026) are still not profitable.
 
 ## Strengths
@@ -46,7 +46,7 @@ The underlying record is real: Project Vend's vending machine went from losing m
 
 ## Pricing
 
-None published as of 2026-09-16.
+None published as of 2026-09-18.
 During the research preview Andon funds selected businesses with seed tokens and states it expects most users will never pay for tokens, taking a small share of the revenue the agent helps create instead.
 
 ## Compared to

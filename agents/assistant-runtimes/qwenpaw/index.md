@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 QwenPaw is the AgentScope team's Apache-2.0, self-hostable personal AI assistant in Python, deployable on your own machine or the cloud, reachable through seven chat apps plus a web console, TUI, and beta desktop app, with three-layer memory, scheduled tasks, and purpose-trained small Qwen models for offline use.
-Facts below verified as of 2026-09-16.
+Facts below verified as of 2026-09-18.
 
 **QwenPaw's edge is the channel matrix, DingTalk, Lark, WeChat, QQ, Discord, Telegram, and iMessage from one self-hosted instance, which no Western-centric runtime in this category matches, and its built-in five-layer security stack is the strongest default posture in the category.**
 
@@ -25,8 +25,8 @@ Apache-2.0, by the AgentScope team; Alibaba involvement is visible in the deploy
 
 ## Status
 
-Rapid and churny: 35,000 stars, 3,109 forks, 970 open issues and PRs as of 2026-09-16, created 2026-02-24, pushed today.
-v2.1.0 shipped 2026-08-13, v2.2.0 went stable on PyPI on 2026-09-03, and v2.2.1 followed on 2026-09-10 (PyPI upload 2026-09-11).
+Rapid and churny: 35,073 stars, 3,116 forks, 974 open issues and PRs as of 2026-09-18, created 2026-02-24, pushed today.
+v2.1.0 shipped 2026-08-13, v2.2.0 went stable on PyPI on 2026-09-03, and v2.2.1 followed on 2026-09-10 (PyPI upload 2026-09-11), with v2.2.2 betas landing on 2026-09-17 and 2026-09-18.
 **A ground-up rewrite two minor versions before the current line is the churn signature: adoption is real, stability is not yet the product.**
 
 ## Strengths

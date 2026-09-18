@@ -12,7 +12,7 @@ audience_notes: >
 ---
 
 dmux is an MIT-licensed terminal multiplexer for coding agents: a tmux-based TUI where each task pane gets its own git worktree and branch, from the standardagents project led by Justin Schroeder (FormKit) and Boyd.
-Facts below verified as of 2026-09-16.
+Facts below verified as of 2026-09-18.
 
 **It is the terminal-native answer to the GUI worktree dashboards, with the widest agent fan-out in the category, and a community footprint that is still an order of magnitude smaller than its ambition.**
 
@@ -27,8 +27,8 @@ Extras include lifecycle hooks (worktree create, pre-merge, post-merge), macOS n
 ## Status
 
 Active and shipping.
-The repository was created 2025-08-20, was last pushed 2026-08-16, and shows 747 commits, about 1,770 stars, and 138 forks as of 2026-09-16.
-npm recorded 1,591 downloads in the last month as of 2026-09-16.
+The repository was created 2025-08-20, was last pushed 2026-08-16, and shows 747 commits, about 1,772 stars, and 138 forks as of 2026-09-18.
+npm recorded 1,169 downloads in the last month as of 2026-09-18.
 **Community discussion is thin: the August 2025 launch thread got 3 points and the February 2026 thread got 9 points with zero comments on Hacker News.**
 That gap between repo activity and discussion footprint is the main signal to watch.
 
@@ -80,4 +80,4 @@ My disagreeable claim: multi-agent fan-out is mostly a gimmick, and dmux's genui
 - https://api.github.com/repos/standardagents/dmux - stars, commits, push dates, MIT license
 - https://dmux.ai - official site, authors, license and sponsorship credit
 - https://news.ycombinator.com/item?id=47075312 - February 2026 thread (9 points) showing the small discussion footprint
-- https://api.npmjs.org/downloads/point/last-month/dmux - 1,591 downloads in the last month
+- https://api.npmjs.org/downloads/point/last-month/dmux - 1,169 downloads in the last month

@@ -1,7 +1,7 @@
 ---
 title: "Agentic Coding Tools Landscape"
 created: 2026-08-22
-updated: 2026-09-16
+updated: 2026-09-18
 status: finished
 tags: [ai, llm, coding-agents, developer-tools, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 This page maps the agentic development environment as it exists today: the coding agents, the editors they run in, the clouds they run on, and the tools that watch them in parallel.
-Everything here was verified against live sources on 2026-09-04; the surfaces tail deaths on 2026-08-26, the orchestration exception sentence on 2026-08-27; the harness tail additions (Kilo Code, OpenHands) on 2026-08-27, (fx) on 2026-08-29, the harness tail additions (jcode, Ante, Bullet, Juggler, OneCLI, Warp Agent CLI, Zerostack) plus the orchestration addition (Omnara) on 2026-08-30, the Cursor model-access and Windsurf funding updates on 2026-09-02, and the Windsurf domain handover on 2026-09-04; re-verified on 2026-09-05 with the Orca star count the only moved number, and the harness tail additions (Kimi Code, Exo) dated 2026-09-05; re-verified on 2026-09-06, with the Kimi Code line updated for the CLI's Node.js rebuild; re-verified on 2026-09-07 with the Orca count moved to about 63k; re-verified on 2026-09-08 with the Orca count moved to about 64k and the OpenHands count to about 87k; re-verified on 2026-09-09 with the Orca count moved to about 65k, the Cline install count to about 5.3 million, and the Qwen Code line updated for the OAuth free tier's 2026-04-15 discontinuation; re-verified on 2026-09-10 with the Kimi Code star count moved to about 18.7k the only moved number; re-verified on 2026-09-12 with the OpenHands count moved to about 88k the only moved number; re-verified on 2026-09-13 with the Amp line updated for the Free Agent restructure and the Orca count moved to about 68k; re-verified on 2026-09-16 with the Orca count moved to about 70k the only moved number.
+Everything here was verified against live sources on 2026-09-04; the surfaces tail deaths on 2026-08-26, the orchestration exception sentence on 2026-08-27; the harness tail additions (Kilo Code, OpenHands) on 2026-08-27, (fx) on 2026-08-29, the harness tail additions (jcode, Ante, Bullet, Juggler, OneCLI, Warp Agent CLI, Zerostack) plus the orchestration addition (Omnara) on 2026-08-30, the Cursor model-access and Windsurf funding updates on 2026-09-02, and the Windsurf domain handover on 2026-09-04; re-verified on 2026-09-05 with the Orca star count the only moved number, and the harness tail additions (Kimi Code, Exo) dated 2026-09-05; re-verified on 2026-09-06, with the Kimi Code line updated for the CLI's Node.js rebuild; re-verified on 2026-09-07 with the Orca count moved to about 63k; re-verified on 2026-09-08 with the Orca count moved to about 64k and the OpenHands count to about 87k; re-verified on 2026-09-09 with the Orca count moved to about 65k, the Cline install count to about 5.3 million, and the Qwen Code line updated for the OAuth free tier's 2026-04-15 discontinuation; re-verified on 2026-09-10 with the Kimi Code star count moved to about 18.7k the only moved number; re-verified on 2026-09-12 with the OpenHands count moved to about 88k the only moved number; re-verified on 2026-09-13 with the Amp line updated for the Free Agent restructure and the Orca count moved to about 68k; re-verified on 2026-09-16 with the Orca count moved to about 70k the only moved number; re-verified on 2026-09-18 with the Gas Town line updated for Yegge's 2026-09-15 shutdown admission.
 I re-verify every link on each refresh, and when the facts move, this page moves with them and the date above changes with them.
 
 **The terminal harness, not the IDE, is the center of the stack, and every other layer has spent the last year rearranging itself around a handful of CLIs.**
@@ -97,7 +97,7 @@ On the GitHub [ade topic](https://github.com/topics/ade), Orca leads with about 
 [Omnara](../orchestration/omnara/index.md) (YC S25) pushes the category toward infrastructure: an Apache-2.0 Go control plane where an agent is a YAML config and execution and state live server-side, supervised from a dashboard, phone, CLI, REST API, or Slack, positioned as the open-source alternative to Claude Managed Agents.
 
 **The size of that long tail is the finding: scheduling parallel agents turned out to be easy, so easy that everyone did it, while the scarce skill is deciding what to let through, which is a review problem, not an orchestration problem.**
-The loudest exception is [Gas Town](../orchestration/gastown/index.md), Yegge's tmux town of 20-30 supervised agents with a Bors-style merge queue, running on [beads](../task-management/beads/index.md) as its work ledger, with the task-tracker layer (Backlog.md, beads, Task Master) consolidating underneath it.
+The loudest exception proved the rule: [Gas Town](../orchestration/gastown/index.md), Yegge's tmux town of 20-30 supervised agents with a Bors-style merge queue running on [beads](../task-management/beads/index.md) as its work ledger, was shut down on 2026-09-15 when Yegge admitted he never successfully built anything with it ([AINews](https://www.latent.space/p/ainews-reality-checks-on-ai-news), [Dan Luu](https://danluu.com/ai-coding/)), with the task-tracker layer (Backlog.md, beads, Task Master) consolidating underneath it surviving the town.
 Most of those hundred tools will not survive that realization.
 
 ## The conventions are the moat
@@ -130,6 +130,7 @@ A harness that adopts the open conventions is making a promise about your exit; 
 - 2026-08-30 - Added the jcode line to the harness tail and updated the article for the eleven new notes.
 - 2026-09-13 - Updated the Amp line for the Free Agent restructure (free on your own compute, subscriptions, or keys, BYOK token fees dropped outside Enterprise).
 - 2026-09-16 - Refreshed the verification chain, with the Orca ade-topic lead count moved to about 70k the only moved number.
+- 2026-09-18 - Updated the Gas Town line for the shutdown: Yegge's 2026-09-15 admission he never successfully built anything with it, per AINews and Dan Luu.
 
 ## See also
 

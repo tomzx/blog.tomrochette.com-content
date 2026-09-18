@@ -1,7 +1,7 @@
 ---
 title: OpenCodeReview
 created: 2026-08-30
-updated: 2026-09-16
+updated: 2026-09-18
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, evaluation, code-review, ci, open-source]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 OpenCodeReview (`ocr`) is Alibaba's Apache-2.0 Go CLI for AI code review that combines deterministic engineering pipelines, file selection, bundling, and rule matching, with an LLM agent to produce line-precise review comments, runnable locally, in CI, or inside coding agents.
-Facts below verified as of 2026-09-16.
+Facts below verified as of 2026-09-18.
 
 **OpenCodeReview's thesis is that a reviewer agent needs engineering around it, not just a prompt, and its own benchmark discloses the cost of that thesis: higher precision, deliberately lower recall, real defects will slip through.**
 
@@ -24,9 +24,9 @@ Apache-2.0, from Alibaba, open-sourced in May 2026 after two years of internal u
 
 ## Status
 
-High-velocity young: 29,564 stars, 2,108 forks, 164 open issues and PRs as of 2026-09-16, created 2026-05-18.
-That is up from 23,041 stars on 2026-09-13, a burst of roughly 28 percent in three days with no new HN catalyst on the launch thread, which sits at the same 284 points.
-At least 127 releases in under four months (v1.12.3 on 2026-09-16, following v1.12.1 and v1.12.2 on September 14 and 15), a 284-point Hacker News front-page thread in June.
+High-velocity young: 35,673 stars, 2,527 forks, 205 open issues and PRs as of 2026-09-18, created 2026-05-18.
+That is up from 23,041 stars on 2026-09-13 and 29,564 on 2026-09-16, a burst of roughly 55 percent in five days, still with no new HN catalyst on the launch thread, which sits at the same 284 points.
+At least 129 releases in four months (v1.12.5 on 2026-09-17), a 284-point Hacker News front-page thread in June.
 **Adoption outran polish visibly: GPT-5.x compatibility broke at launch and was fixed, and the lead has said parts of the codebase are not yet fully polished.**
 
 ## Strengths
@@ -65,6 +65,7 @@ Not for teams needing independently validated precision numbers today, or turnke
 - 2026-08-30 - Created as an evaluation note on Alibaba's hybrid reviewer.
 - 2026-08-30 - Moved into the new Code review category, with see-also links updated to the category matrix.
 - 2026-09-16 - Refreshed the growth record: 29.5k stars and 2.1k forks (up from 23k in three days), 127 releases with v1.12.3 shipping September 16.
+- 2026-09-18 - The star burst continued: 35.7k stars and 2.5k forks (up roughly 21 percent in two days), 129 releases with v1.12.5 shipping September 17, still with no new HN catalyst.
 
 ## See also
 
@@ -75,7 +76,7 @@ Not for teams needing independently validated precision numbers today, or turnke
 
 ## References
 
-- https://github.com/alibaba/open-code-review - repository, architecture, integrations, license, 29,564 stars as of 2026-09-16
+- https://github.com/alibaba/open-code-review - repository, architecture, integrations, license, 35,673 stars as of 2026-09-18
 - https://raw.githubusercontent.com/alibaba/open-code-review/HEAD/README.md - the hybrid design, benchmark claims, and recall trade-off
 - https://news.ycombinator.com/item?id=48406358 - the launch thread with the independent precision run and maintainer responses
 - https://huggingface.co/datasets/Alibaba-Aone/aacr-bench - the public benchmark backing the claims

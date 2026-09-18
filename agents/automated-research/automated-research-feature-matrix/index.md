@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 **Seven loops automate research today, and the row that separates them is not capability but judging: everything with a Lean kernel or an official grader behind it produces checkable artifacts, everything without one produces prose, and the newest column is the outlier judged by a bank account.**
-Verified as of 2026-09-16.
+Verified as of 2026-09-18.
 Every cell traces to its member note and that note's fetched references.
 
 ## The matrix
@@ -24,7 +24,7 @@ Every cell traces to its member note and that note's fetched references.
 | Who judges | Lean kernel plus official IMO graders | Lean comparator plus named human experts | The Lean kernel | Lean comparator, specification-based | No machine judge; the human reads | No machine judge; humans, currently in dispute | No machine judge; the bank account plus Andon's own monitoring |
 | Lean formal verification | 2024 yes, 2025 natural language | Yes (zeta and FLT artifacts) | Yes | Yes | No | No (the Euler results are checkable, the Navier-Stokes claim is not yet verified) | No |
 | Surface today | Research system; Deep Think rolling out to AI Ultra | Unreleased models; artifacts on GitHub | Free web agent with login | OpenGauss open source; Gauss in beta | ChatGPT plans | Subscriptions and academic credits | Proprietary research preview with waitlist, no repo |
-| Pricing as of 2026-09-16 | Bundled in the Ultra subscription | Free artifacts, internal compute | Free; $1,000,000 grant program | OpenGauss free; about $25 per benchmark solve | Plan quotas; Pro at $200/month | Program-level; GPT-5 Pro at $200/month in case studies | ? none published; seed tokens funded, planned revenue share |
+| Pricing as of 2026-09-18 | Bundled in the Ultra subscription | Free artifacts, internal compute | Free; $1,000,000 grant program | OpenGauss free; about $25 per benchmark solve | Plan quotas; Pro at $200/month | Program-level; GPT-5 Pro at $200/month in case studies | ? none published; seed tokens funded, planned revenue share |
 | Millennium-problem engagement | None claimed; IMO as the public proxy | Attempted the Riemann hypothesis, failed productively (41.6 to 67.2 percent zero bound) | None public | Strong PNT as the gateway toward the Riemann hypothesis | None | Navier-Stokes claimed, disputed, unverified | None; the eval lineage is Vending-Bench, not mathematics |
 
 ## How to read it

@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 This matrix compares the six Skills-category notes in this section, Builder.io's curated pack, the open standard, Anthropic's vendor format, OpenCode's native mechanism, Microsoft's skill optimizer, and Vercel's skills.sh registry, feature by feature, so choosing an extension path does not require reading six notes.
-Everything below was re-verified against live sources on 2026-09-16.
+Everything below was re-verified against live sources on 2026-09-18.
 
 **The format war is already over and SKILL.md won it, so every decision that remains lives above the format, who gates execution, who ranks discovery, and who versions what your agent runs, and the registry column worries me more than the vendor column.**
 
@@ -51,7 +51,7 @@ The spec leaves security to each harness (Gemini consent, OpenCode patterns, Cod
 The standard needs no registry at all, skills.sh won the slot by wrapping git and symlinking into more than 70 harnesses, its leaderboard counts opt-out CLI telemetry rather than ratings, and one company controls the ranking surface of a nominally open ecosystem, which is the cell I would watch.
 
 **The Agent-Native column is the first pack in the matrix, and it reads differently from the five infrastructure columns: it consumes the spec's portable core, adds no enforcement of its own, and its pull is toward Builder.io's own stack, the hosted Dispatch MCP endpoint and the hosted plans app its flagship skills default to.**
-The cell to watch is stewardship: two MIT repos at 4-5k stars with no independent coverage as of 2026-09-16, so the pack is one company's opinion on a multiple-nightlies-a-day cadence.
+The cell to watch is stewardship: two MIT repos at 4-5k stars with no independent coverage as of 2026-09-18, so the pack is one company's opinion on a multiple-nightlies-a-day cadence.
 
 **Everything is free, and the missing row is versioning.**
 No column costs anything to use, but the spec has no version or dependency story, OpenCode has none, Anthropic versions only through its Skills API, and pinning is left to git discipline or third parties like Skilleton.

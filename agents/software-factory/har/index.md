@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 HAR, the open agent harness from os-factory, is a CLI and MCP server that turns a repository into isolated per-agent worktrees with deterministic launch, verify, and teardown stages, so a fleet of coding agents can work concurrently and reviewers trust the output.
-Facts below verified as of 2026-09-16.
+Facts below verified as of 2026-09-18.
 
 ## What it is
 
@@ -22,7 +22,7 @@ It is harness-agnostic and works with Claude Code, Cursor, Codex, or any MCP-cap
 
 ## Status
 
-Active and shipping fast: 90 stars and 11 forks since creation on 2026-06-28, v1.14.2 released 2026-09-14 (v1.0.0 landed 2026-08-28, ten releases in the first week of September and one the following week), and the last main push on 2026-09-14 per the GitHub API as of 2026-09-16.
+Active and shipping fast: 91 stars and 12 forks since creation on 2026-06-28, v1.14.2 released 2026-09-14 (v1.0.0 landed 2026-08-28, ten releases in the first week of September and one the following week), and the last main push on 2026-09-14 per the GitHub API as of 2026-09-18.
 It carries a code of conduct, security policy, and a sponsor (Kerno, a runtime code tester for coding agents), which is a steadier footprint than the category's usual single-commit repo.
 
 ## Strengths
@@ -35,7 +35,7 @@ It carries a code of conduct, security policy, and a sponsor (Kerno, a runtime c
 ## Cautions
 
 - **It runs alongside a coding agent rather than replacing it**: HAR coordinates and verifies a fleet, but the agents themselves are the harnesses you already pay for, so it is a layer, not a factory that owns the whole loop like Fluent.
-- **Young at 90 stars**, though releases through v1.14.2 signal momentum, not abandonment.
+- **Young at 91 stars**, though releases through v1.14.2 signal momentum, not abandonment.
 - **The deterministic verify is only as strong as your contract**: a `.har/` that ships placeholder checks is theater, the same trap as the placeholder gates elsewhere in this category.
 - **It depends on the ecosystem staying open**: its value rests on a portable contract and MCP support holding across vendors in a landscape that keeps consolidating.
 
@@ -43,7 +43,7 @@ It carries a code of conduct, security policy, and a sponsor (Kerno, a runtime c
 
 Apache-2.0, free, installable from npm with no license cost.
 You bring the coding agents and their subscriptions, and Mission Control runs locally on your machine.
-HAR HQ, the hosted team layer, published its first pricing (as of 2026-09-16): Team at $400 per month for up to 50 users with $100 in monthly cloud credits included, and Enterprise custom with self-hosted or VPC deployment, SSO, SAML, SCIM, and SLAs.
+HAR HQ, the hosted team layer, published its first pricing (as of 2026-09-18): Team at $400 per month for up to 50 users with $100 in monthly cloud credits included, and Enterprise custom with self-hosted or VPC deployment, SSO, SAML, SCIM, and SLAs.
 
 ## Compared to
 
@@ -78,4 +78,4 @@ Not for a solo developer doing one agent at a time, where the harness alone is s
 - https://youtu.be/XKl4ZzWy7mQ - the introductory demo of the harness
 - https://github.com/os-factory/har/releases - the release cadence, v1.0.0 through v1.14.2
 - https://kerno.io - the sponsor that tests runtime code for coding agents, grounding the verification emphasis
-- https://harhq.com - the HAR HQ site, grounding the Team $400 per month and Enterprise custom tiers as of 2026-09-16
+- https://harhq.com - the HAR HQ site, grounding the Team $400 per month and Enterprise custom tiers as of 2026-09-18

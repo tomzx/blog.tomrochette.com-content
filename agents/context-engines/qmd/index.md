@@ -1,7 +1,7 @@
 ---
 title: qmd
 created: 2026-08-30
-updated: 2026-09-13
+updated: 2026-09-18
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, context-engines, retrieval, local-search, open-source]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 qmd is a local-first CLI search engine by Tobias Lütke that indexes your markdown notes, docs, and knowledge bases and searches them with a hybrid BM25 plus vector plus LLM-reranked pipeline, designed for humans and agents alike.
-Facts below verified as of 2026-09-16.
+Facts below verified as of 2026-09-18.
 
 **qmd is the argument that a single maintainer can ship production-grade local retrieval in one binary-plus-SQLite, and that most agent RAG does not need a framework, a server, or a cloud.**
 
@@ -25,7 +25,7 @@ MIT, by Tobias Lütke (Shopify CEO), who authored about three quarters of the co
 
 ## Status
 
-Young with unusual traction: 29,701 stars, 1,847 forks, 133 open issues and PRs as of 2026-09-13, created 2025-12-08.
+Young with unusual traction: 29,833 stars, 1,860 forks, 149 open issues and PRs as of 2026-09-18, created 2025-12-08.
 Latest release v2.8.3 on 2026-08-16, pushed 2026-09-09.
 **The maintainer concentration is the story: one high-profile author shipping v1 through v2.8 in nine months, with community PRs around the edge.**
 
@@ -62,6 +62,7 @@ Not for code-symbol search (use grep-class tools), constrained machines, or team
 ## Changes
 
 - 2026-08-30 - Created as a context-engines note on Tobias Lütke's local hybrid search, with the security-fix history recorded.
+- 2026-09-18 - Refreshed the growth numbers (29,833 stars, 1,860 forks, 149 open issues and PRs); latest release remains v2.8.3, with no push since 2026-09-09.
 
 ## See also
 
@@ -75,5 +76,5 @@ Not for code-symbol search (use grep-class tools), constrained machines, or team
 - https://github.com/tobi/qmd - repository, description, license
 - https://raw.githubusercontent.com/tobi/qmd/HEAD/README.md - architecture, install, models, MCP and SDK surfaces
 - https://raw.githubusercontent.com/tobi/qmd/HEAD/CHANGELOG.md - release cadence, security fixes, platform issues
-- https://api.github.com/repos/tobi/qmd - exact stars, forks, and dates as of 2026-09-13
+- https://api.github.com/repos/tobi/qmd - exact stars, forks, and dates as of 2026-09-18
 - https://news.ycombinator.com/item?id=46689289 - the author on design intent and local-first trade-offs

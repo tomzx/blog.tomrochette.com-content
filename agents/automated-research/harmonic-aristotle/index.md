@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Aristotle is Harmonic's agentic theorem prover, sold as mathematical superintelligence applied to formal verification of software, hardware, and mathematics, and it is the one system in this category a working engineer can use today for free.
-Facts below verified as of 2026-09-16.
+Facts below verified as of 2026-09-18.
 
 **Aristotle's real results are machine-checkable and independent, but the benchmark fight around it shows the judging layer has become the battleground: its own vendor claims are unauditable, and its loudest rival publishes comparator-audited numbers against it.**
 
@@ -24,7 +24,7 @@ The company calls its category "Mathematical Superintelligence"; funding and lea
 
 ## Status
 
-Live product, free with an account, as of 2026-09-16.
+Live product, free with an account, as of 2026-09-18.
 The strongest independent credential is a November 2025 result on Erdős problem #124: Aristotle produced a proof working only from the formal statement, Boris Alexeev formalized and cleaned the statement, Lean checked it, and the Erdős Problems site updated to record that a version of the problem was solved, with the community debate over exactly which version playing out in public.
 Independent third-party benchmarking in July 2026 (the OpenATP project) scored Aristotle 10/10 on the FATE-H theorem set for free, at roughly twice the wall-clock time of Claude Code and Codex.
 On Math Inc.'s FormalQualBench (March 2026), Aristotle solved 6 of 23 with no time limit, but those runs were not validated with the comparator tool and are excluded from the audited counts.
@@ -45,7 +45,7 @@ On Math Inc.'s FormalQualBench (March 2026), Aristotle solved 6 of 23 with no ti
 
 ## Pricing
 
-Free with an account as of 2026-09-16.
+Free with an account as of 2026-09-18.
 Harmonic advertises a $1,000,000 research grant program; no paid tiers are published on the fetched pages.
 
 ## Compared to
@@ -57,7 +57,7 @@ Harmonic advertises a $1,000,000 research grant program; no paid tiers are publi
 ## Bottom line
 
 **Recommended for engineers who want to feel what a proof agent is like this week, for free, with artifacts you can check.**
-Not for audit-sensitive verification work as of 2026-09-16, where the comparator-audited open harness is the defensible choice.
+Not for audit-sensitive verification work as of 2026-09-18, where the comparator-audited open harness is the defensible choice.
 
 ## Changes
 

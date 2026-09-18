@@ -1,7 +1,7 @@
 ---
 title: Qodo
 created: 2026-08-30
-updated: 2026-09-13
+updated: 2026-09-18
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, code-review, ai-review, open-source, developer-tools]
 readability: 3
@@ -13,7 +13,7 @@ audience_notes: >
 ---
 
 Qodo is an AI code review and governance platform (formerly CodiumAI) whose MIT-licensed PR-Agent was marketed as the original open-source AI PR reviewer, and which has now donated that reviewer to the community while selling the heavier product above it.
-Facts below verified as of 2026-09-16.
+Facts below verified as of 2026-09-18.
 
 ## What it is
 
@@ -21,15 +21,16 @@ Facts below verified as of 2026-09-16.
 The open-source half is PR-Agent (now under the PR-Agent GitHub organization), a community-maintained reviewer that runs /describe, /review, /improve, and /ask as PR comments or CLI calls against GitHub, GitLab, Bitbucket, Azure DevOps, and Gitea, self-hosted with any model LiteLLM can reach.
 The commercial half is Qodo (the former Qodo Merge), a hosted review platform with a context engine, rules mined from PR history, cross-repo review, and dashboards.
 On September 9, 2026 it launched the Agentic Toolbox, a CLI-installed pack of skills (codebase wisdom, pre-PR local review, rules retrieval, review-issue resolution) that puts that commercial engine inside Claude Code, Codex, and Kiro sessions.
+On September 15, 2026 it launched the Software Map in beta, an automatically derived map of repos, service contracts, and blast radius that layers review findings over the architecture and feeds its review agents.
 The repo description draws the line in one sentence: "This project is not the Qodo free tier."
 
 ## Status
 
 Active on both halves, and deliberately splitting apart.
-The repo counts 12,966 stars and 1,836 forks as of 2026-09-13, MIT-licensed, with v0.45.0 released September 5, 2026, and the former qodo-ai/pr-agent URL now redirects to the repo's new home in the standalone PR-Agent organization.
+The repo counts 13,054 stars and 1,851 forks as of 2026-09-18, MIT-licensed, with v0.45.0 released September 5, 2026, and the former qodo-ai/pr-agent URL now redirects to the repo's new home in the standalone PR-Agent organization.
 The company raised $11M in 2023, then $40M in September 2024 ($50M total), by which point TechCrunch already called it "Qodo, the startup previously known as CodiumAI".
 The README states Qodo donated PR-Agent to the community, the project has its first external maintainer, and it is being donated to an open-source foundation.
-The company's badges report 901.9K VS Code and 647.9K JetBrains extension installs plus roughly 12.9K Marketplace installs for the paid app, as of 2026-09-13.
+The company's badges report 903.9K VS Code and 648.6K JetBrains extension installs plus roughly 13K Marketplace installs for the paid app, as of 2026-09-18.
 On Hacker News the reviewer itself never caught fire (best thread 24 points, item 41500840), while company research posts reached 139 (item 44874736) and 87 points (item 41838348), and the Kudelski exploit write-up got 1 point (item 46824997).
 
 ## Strengths
@@ -53,7 +54,7 @@ On Hacker News the reviewer itself never caught fire (best thread 24 points, ite
 ## Pricing
 
 PR-Agent is free under MIT, self-hosted with your own LLM keys.
-The commercial product meters pooled credits at $0.012 each, with packs sized around 18, 36, or 144 reviews per month, under a Pro Team plan listed at $30 with monthly billing, no annual commitment, and up to 30 users, as of 2026-09-12.
+The commercial product meters pooled credits at $0.012 each, with packs sized around 18, 36, or 144 reviews per month, under a Pro Team plan listed at $30 with monthly billing, no annual commitment, and up to 30 users, as of 2026-09-18.
 Enterprise adds SSO/SAML, audit logs, BYOK, single-tenant SaaS or on-prem, cross-repo review, and negotiated pricing.
 Qualified open-source projects get the commercial reviewer free through a Marketplace app powered by Google.
 For history: in September 2024 the paid Chrome-extension tier was $19 per month for private repos (item 41443605), so the model has moved twice in two years.
@@ -74,6 +75,7 @@ I also think the PR-Agent donation is less a gift than a repositioning: the repo
 
 - 2026-08-30 - Created in the Code review category seed, recording the open-core PR-Agent split and the Kudelski security chains.
 - 2026-09-13 - Added the September 9 Agentic Toolbox launch, which moves Qodo review and rules inside coding-agent sessions.
+- 2026-09-18 - Added the September 15 Software Map beta (auto-derived repo, contract, and blast-radius map as review context), and refreshed repo and install counts.
 
 ## See also
 
@@ -85,12 +87,13 @@ I also think the PR-Agent donation is less a gift than a repositioning: the repo
 
 ## References
 
-- https://api.github.com/repos/qodo-ai/pr-agent - redirects to The-PR-Agent/pr-agent, the repo's new home; stars, forks, push date, MIT license, and the "This project is not the Qodo free tier" description, queried as of 2026-09-12.
+- https://api.github.com/repos/qodo-ai/pr-agent - redirects to The-PR-Agent/pr-agent, the repo's new home; stars, forks, push date, MIT license, and the "This project is not the Qodo free tier" description, queried as of 2026-09-18.
 - https://github.com/qodo-ai/pr-agent - README: donation to the community, tools table, platforms, release notes, sponsor status, "legacy project" wording.
 - https://docs.pr-agent.ai/tools/ - the full OSS command surface, including the /help_docs disabling.
 - https://www.qodo.ai/ - positioning, context engine, rules system, self-reported benchmark claim, credit FAQ, install badges.
 - https://www.qodo.ai/pricing/ - Pro Team $30, $0.012 per credit, pack sizes, plan comparison, no permanent free tier, credits expiring monthly.
 - https://www.qodo.ai/blog/introducing-qodos-agentic-toolbox/ - the Agentic Toolbox launch post, September 9, 2026, skills and plugin surface.
+- https://www.qodo.ai/blog/introducing-qodos-software-map/ - the Software Map beta launch post, September 15, 2026, blast radius and contracts as review-agent context.
 - https://www.qodo.ai/solutions/open-source/ - free commercial review for qualified OSS projects.
 - https://www.qodo.ai/blog/qodo-powered-by-testgpt-accounces-beta-and-raised-11m/ - the $11M seed and the original test-generation mission (the codium.ai URL now redirects here).
 - https://techcrunch.com/2024/09/30/qodo-raises-40m-series-a-to-bring-quality-first-code-generation-to-the-enterprise/ - the $40M Series A, $50M total, and the CodiumAI-to-Qodo rename.

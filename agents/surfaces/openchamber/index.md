@@ -1,7 +1,7 @@
 ---
 title: OpenChamber
 created: 2026-08-24
-updated: 2026-09-16
+updated: 2026-09-18
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, surfaces, agentic-development-environments, opencode, open-source]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 OpenChamber is a free, MIT-licensed agentic development environment built around the OpenCode SDK: desktop, browser, mobile, and a VS Code extension for steering parallel agent sessions.
-Facts below verified as of 2026-09-16.
+Facts below verified as of 2026-09-18.
 
 **OpenChamber is the open-source answer to "where do I run my many OpenCode sessions", and its differentiator is not polish but the fact that the whole surface, worktrees, chat, terminals, scheduling, is code you can read and fix.**
 
@@ -25,7 +25,8 @@ It runs on the OpenCode SDK today and is an independent project, not affiliated 
 ## Status
 
 **Very active.**
-About 9.9k stars (9,908) and 1,085 forks as of 2026-09-16, with v1.23.2 (September 14, 2026) now the latest release after v1.23.1 (September 11), v1.23.0 (September 9), and v1.22.2 (September 5), and commits landing September 16, 2026.
+About 10k stars (10,014) and 1,100 forks as of 2026-09-18, with v1.24.1 (September 18, 2026) now the latest release after v1.24.0 (September 17, which added third-party extensions and VS Code theme support), v1.23.2 (September 14), and v1.23.1 (September 11), and commits landing September 18, 2026.
+A v2-preview prerelease tag (September 14) carries test builds of the app on OpenCode v2.
 A 190-point Hacker News thread in August 2026 marks its arrival in general awareness.
 
 ## Strengths
@@ -45,7 +46,7 @@ A 190-point Hacker News thread in August 2026 marks its arrival in general aware
 ## Pricing
 
 Free, open source, MIT.
-Donations via Patreon fund development; there is no paid tier, as of 2026-09-16.
+Donations via Patreon fund development; there is no paid tier, as of 2026-09-18.
 
 ## Compared to
 
@@ -62,6 +63,7 @@ Not for anyone who wants a polished IDE experience or harness choice beyond Open
 
 - 2026-08-24 - Created among the five Surfaces notes after the owner-named OpenChamber verified real and Antimatter did not exist.
 - 2026-09-16 - Recorded v1.23.2 (September 14, faster startup and session browsing) as the latest release and refreshed stars to 9,908.
+- 2026-09-18 - Recorded v1.24.0 (third-party extensions, themes) and v1.24.1 as the latest releases, stars past 10,000, and the v2-preview test line on OpenCode v2.
 
 ## See also
 
@@ -73,7 +75,7 @@ Not for anyone who wants a polished IDE experience or harness choice beyond Open
 ## References
 
 - https://openchamber.dev/ - features, surfaces, privacy model, FAQ
-- https://github.com/openchamber/openchamber - source, repository scale, as of 2026-09-16
-- https://github.com/openchamber/openchamber/releases/tag/v1.23.2 - the September 14, 2026 release
+- https://github.com/openchamber/openchamber - source, repository scale, as of 2026-09-18
+- https://github.com/openchamber/openchamber/releases/tag/v1.24.1 - the September 18, 2026 release
 - https://docs.openchamber.dev/ - install and configuration documentation
 - https://news.ycombinator.com/item?id=49233448 - the August 2026 launch discussion

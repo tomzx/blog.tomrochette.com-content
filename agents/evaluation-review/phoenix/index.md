@@ -1,7 +1,7 @@
 ---
 title: Phoenix
 created: 2026-08-30
-updated: 2026-09-16
+updated: 2026-09-18
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, evaluation, observability, opentelemetry, tracing]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Phoenix is Arize AI's open-source AI observability and evaluation platform: OpenTelemetry-native tracing, LLM and code evals, versioned datasets and experiments, a prompt playground, and a built-in AI engineering agent, self-hostable or running on the Arize AX cloud.
-Facts below verified as of 2026-09-16.
+Facts below verified as of 2026-09-18.
 
 **Phoenix is the observability column of this category, and its defining trade is the ELv2 license: everything is inspectable and self-hostable, but you cannot offer Phoenix itself as a service, and Arize keeps the production-grade monitoring surface in the paid platform.**
 
@@ -25,8 +25,8 @@ Core platform under Elastic License 2.0 with the client and OTel packages Apache
 
 ## Status
 
-Mature and busy: 11,479 stars, 1,131 forks, 1,005 open issues and PRs as of 2026-09-16.
-Created 2022-11-09, pushed 2026-09-16, platform release arize-phoenix 20.12.0 on 2026-09-14, about 1.3 million PyPI downloads a month as of 2026-09-13.
+Mature and busy: 11,528 stars, 1,136 forks, 1,003 open issues and PRs as of 2026-09-18.
+Created 2022-11-09, pushed 2026-09-18, platform release arize-phoenix 20.14.0 on 2026-09-18, about 1.3 million PyPI downloads a month as of 2026-09-13.
 **Four years in, it is the oldest and most production-proven column in this category, with near-daily commits and weekly releases.**
 
 ## Strengths
@@ -41,7 +41,7 @@ Created 2022-11-09, pushed 2026-09-16, platform release arize-phoenix 20.12.0 on
 - Not truly open source: ELv2 bars offering Phoenix as a managed service, and a community issue calls the license overly restrictive for OSS compatibility.
 - Production monitoring (dashboards, alerting, issue grouping) lives in Arize AX, not the OSS project.
 - The Azure quick-deploy template serves plain HTTP and the Google Cloud button builds from source, per the README's own notes.
-- 1,005 open issues and PRs is a large queue even for a project this size.
+- 1,003 open issues and PRs is a large queue even for a project this size.
 
 ## Pricing
 
@@ -64,6 +64,7 @@ Not for anyone resampling hosted observability on top of it, or strictly open-so
 - 2026-08-30 - Created in the Evaluation category, recording Arize's OTel observability platform with an ELv2 license caution.
 - 2026-09-16 - Recorded the arize-phoenix 20.12.0 release and refreshed repository counts.
 - 2026-09-16 - Langfuse mention linked and expanded into a Compared-to entry.
+- 2026-09-18 - Recorded the arize-phoenix 20.14.0 release and refreshed repository counts.
 
 ## See also
 
