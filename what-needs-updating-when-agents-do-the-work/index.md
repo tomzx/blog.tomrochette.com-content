@@ -2,7 +2,7 @@
 title: "What Needs Updating When Agents Do the Work"
 created: 2026-09-19
 type: post
-status: draft
+status: finished
 tags: [ai, llm, agents, software-engineering, code-review, workflow, partially-ai-generated, llm=glm-5.3-flash]
 readability: 3
 audience_notes: >
