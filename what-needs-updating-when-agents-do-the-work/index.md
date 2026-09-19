@@ -3,7 +3,7 @@ title: "What Needs Updating When Agents Do the Work"
 created: 2026-09-19
 type: post
 status: finished
-tags: [ai, llm, agents, software-engineering, code-review, workflow, partially-ai-generated, llm=glm-5.3-flash]
+tags: [ai, llm, agents, software-engineering, code-review, workflow, fully-ai-generated, llm=glm-5.3-flash]
 readability: 3
 audience_notes: >
   Assumes the reader is a software engineer who opens and reviews pull requests and has worked with LLM coding agents. CI and PR review mechanics are assumed known; no introduction to agents.
