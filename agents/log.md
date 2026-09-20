@@ -1015,3 +1015,7 @@ Changes to this section that do not appear here were made by a human and must be
 ## 2026-09-20 (correction to the two entries above)
 
 - This run's entry was appended twice in draft form and both drafts were committed: the first (175-file verification count) is the earlier partial draft, the second (195-file count, with the attribution line for the concurrent price-history pass) is the complete and authoritative record of this run [glm-5.3-flash]
+
+## 2026-09-20 (correction to today's entries above)
+
+- The two "daily refresh, full parallel re-verification + three entrants" entries above are the same run recorded twice (the first append landed in commit a789d74f, a duplicate of the fuller entry landed in a924aa90); the fuller second entry stands as the run's record, and the "(owner-prompted, price history retrofit)" entry between them is the concurrent pass's own record [glm-5.3-flash]
