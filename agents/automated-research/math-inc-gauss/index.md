@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Gauss is Math Inc.'s autoformalization agent for Lean, and its public face is a two-year scale curve that compressed years of human formalization work into weeks, backed by an open-source harness and a comparator-audited benchmark.
-Facts below verified as of 2026-09-18.
+Facts below verified as of 2026-09-20.
 
 **The scale curve is the story: 3,500 lines of Lean in June 2025, 25,000 in September 2025, and about 200,000 by February 2026, each milestone a formalization that human teams had queued for years.**
 

@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 JetBrains Air is a standalone desktop (and organization-web) application from JetBrains that runs Codex, Claude Agent, Gemini CLI, and Junie as independent parallel task loops, each isolated in a git worktree, Docker container, or cloud environment.
-Facts below verified as of 2026-09-18.
+Facts below verified as of 2026-09-20.
 
 **Air is JetBrains conceding that the agentic workflow layer is a product category distinct from the IDE: it is a task orchestrator that belongs next to Conductor and Superset rather than in Surfaces, because the IDE stays a separate application by JetBrains' own design, and the orchestrator itself is sold as a subscription feature rather than a product.**
 
@@ -26,7 +26,7 @@ Built-in agents are Codex, Claude Agent, Gemini CLI, and Junie, and any ACP-comp
 ## Status
 
 Active, public preview.
-The latest release is 262.834.41 (2026-09-11) as of 2026-09-18, on a roughly monthly cadence since January 2026; it removed the git-repository requirement (tasks can now run in any folder), added task list density and grouping controls, notification sounds, and agent interaction with website previews.
+The latest release is 262.834.41 (2026-09-11) as of 2026-09-20, on a roughly monthly cadence since January 2026; it removed the git-repository requirement (tasks can now run in any folder), added task list density and grouping controls, notification sounds, and agent interaction with website previews.
 Milestones: Codex support January 19, Gemini CLI and Junie with the Agent Review chain March 5, public preview March 9, Linux June 2, Windows June 29, ACP agents and Java/Kotlin intelligence July 15.
 Cloud execution, called tech preview at launch, has since shipped as documented cloud tasks, automations, and the org web version, governed through JetBrains Central Console, though the marketing homepage still files cloud and automations under "what's coming" as of 2026-09-18, so org-only availability runs ahead of the public pitch.
 **The community footprint is thin: Algolia lists exactly three "JetBrains Air" stories (26 points with 1 comment, 6 points, and 3 points), the June submission links to a Google-ads-tagged air.dev URL, and the December 2025 story about JetBrains abandoning Fleet for Air drew 3 points and 1 comment, a signal in a market where peers launch to 100+ point threads.**

@@ -1,7 +1,7 @@
 ---
 title: Sourcery
 created: 2026-08-30
-updated: 2026-09-12
+updated: 2026-09-20
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, code-review, ai-review, developer-tools]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Sourcery is a hosted AI code reviewer for GitHub and GitLab (with IDE plugins and a security scanning layer) from the company behind the older Python refactoring tool of the same name.
-Facts below verified as of 2026-09-18.
+Facts below verified as of 2026-09-20.
 
 ## What it is
 
@@ -47,6 +47,12 @@ The community footprint is modest: a 15-point Show HN for the refactoring era (2
 Pro is $12 per seat per month for private repos, Team is $24 (the highlighted tier) adding repo analytics, security scans for 200+ repos, daily scans, 3x rate limits, and BYO LLM, and Enterprise adds self-hosting, priority support, a customer success manager, and invoice billing at custom pricing.
 Open source repos are fully free.
 
+## Price history
+
+| Date | Plan | Change | Source |
+| ---- | ---- | ------ | ------ |
+| 2026-09-18 | Pro, Team | Baseline: Pro $12/seat/mo for private repos, Team $24/seat/mo with BYO LLM, Enterprise custom; open source repos fully free. | [sourcery.ai/pricing](https://sourcery.ai/pricing/) |
+
 ## Compared to
 
 - [CodeRabbit](../coderabbit/index.md): the scale and funding leader; Sourcery competes at half the entry price ($12 vs $24) and with the same free-for-OSS hook rather than with features.
@@ -62,6 +68,7 @@ My disagreeable take: free-for-open-source is the most underrated go-to-market w
 ## Changes
 
 - 2026-08-30 - Created when the entrant candidate pile was processed, as a Code review note.
+- 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
 
 ## See also
 

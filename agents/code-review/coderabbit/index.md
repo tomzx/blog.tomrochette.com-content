@@ -1,7 +1,7 @@
 ---
 title: CodeRabbit
 created: 2026-08-30
-updated: 2026-09-04
+updated: 2026-09-20
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, code-review, ai-review, developer-tools]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 CodeRabbit is a commercial AI code review service (the coderabbitai GitHub and GitLab app, plus CLI and IDE surfaces) that reviews every pull request automatically and is expanding into triage, change explanation, and security under the banner of Agentic Change Management.
-Facts below verified as of 2026-09-18.
+Facts below verified as of 2026-09-20.
 
 ## What it is
 
@@ -51,6 +51,14 @@ The standalone $40 Security plan is gone: a new Advanced tier ($72 annual, $90 m
 The Slack agent remains usage-billed, at $0.40 per agent minute as of 2026-09-18 (down from $0.50 in early September), and usage-based reviews bill $0.25 per reviewed file beyond included limits.
 Public repositories get reviews free forever, no setup required.
 
+## Price history
+
+| Date | Plan | Change | Source |
+| ---- | ---- | ------ | ------ |
+| 2026-08 | Essentials, Team | Plans renamed from Pro and Pro Plus at unchanged prices: Essentials $24/user/mo, Team $48 (annual; $30 and $60 monthly). | [coderabbit.ai/pricing](https://www.coderabbit.ai/pricing) |
+| 2026-08 | Advanced | New Advanced tier ($72 annual, $90 monthly) replaced the standalone $40 Security plan. | [coderabbit.ai/pricing](https://www.coderabbit.ai/pricing) |
+| 2026-09 | Slack agent | Usage price cut from $0.50 to $0.40 per agent minute. | [coderabbit.ai/pricing](https://www.coderabbit.ai/pricing) |
+
 ## Compared to
 
 - [Greptile](../greptile/index.md): the review-only rival betting on learned rules and self-hosting in your own VPC; its founder concedes CodeRabbit is cheaper, Greptile's pitch is fewer and sharper comments.
@@ -68,6 +76,7 @@ My disagreeable take: the exploit history makes CodeRabbit more credible, not le
 - 2026-08-30 - Created in the owner-requested Code review category seed, recording the funding ladder, the Kudelski exploit record, and the Pullflow market analysis.
 - 2026-09-02 - Pricing restructured: Essentials and Team renames, plus a new Advanced tier replacing the $40 Security plan.
 - 2026-09-04 - Slack agent price cut from $0.50 to $0.40 per agent minute.
+- 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
 
 ## See also
 

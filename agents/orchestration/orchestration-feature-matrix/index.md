@@ -1,7 +1,7 @@
 ---
 title: "Orchestration Feature Matrix"
 created: 2026-08-24
-updated: 2026-09-18
+updated: 2026-09-20
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, comparison, orchestration, git-worktrees, parallel-agents]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 This matrix compares the fourteen orchestration tools profiled in this section, the parallel-agent dashboards, worktree managers, control planes, mobile clients, JetBrains' standalone agent environment, and the one agent town, feature by feature, so the shortlisting step does not require reading fourteen notes.
-Everything below was verified against live sources on 2026-08-30, a full re-verification that added the Omnara column on that date, re-verified on 2026-09-02, 2026-09-03, 2026-09-04, 2026-09-05, 2026-09-06, 2026-09-07, 2026-09-08, 2026-09-09, 2026-09-10, 2026-09-12, 2026-09-13, 2026-09-16, and 2026-09-18, the Happy Coder column was added on 2026-09-06, and the JetBrains Air column was added on 2026-09-12.
+Everything below was verified against live sources on 2026-08-30, a full re-verification that added the Omnara column on that date, re-verified on 2026-09-02, 2026-09-03, 2026-09-04, 2026-09-05, 2026-09-06, 2026-09-07, 2026-09-08, 2026-09-09, 2026-09-10, 2026-09-12, 2026-09-13, 2026-09-16, 2026-09-18, and 2026-09-20, the Happy Coder column was added on 2026-09-06, and the JetBrains Air column was added on 2026-09-12.
 
 **Parallelism is already the free commodity in this category: the only things anyone pays for are review ergonomics and remote execution, and I expect more of these fourteen to die or pivot before any of them becomes durable infrastructure.**
 
@@ -31,7 +31,7 @@ Each column links to the full research note; every cell below traces to a source
 | Remote or SSH execution | ? | ~ SSH sessions | ? | ? | ✗ local only | ✓ SSH-first | ~ Docker compose | ✓ E2E-encrypted relay | ✓ JetBrains cloud, org web | ✓ machine pools | ✓ encrypted relay, self-host | ~ remote workspaces beta | ~ Docker self-host | ✗ local git |
 | Built-in review tooling | ~ diff preview tab | ? | ✓ diffs, checks, PR, review | ~ diff viewer, rebase, squash | ~ merge and PR menu | ✓ diffs, PRs, CI checks | ✓ Refinery merge queue | ~ diffs and terminals beside conversations | ✓ language-aware diffs, Agent Review (agent reviews agent) | ~ approvals, questions, events, artifacts | ~ agent output and diffs | ✓ diffs, browser previews | ✓ diffs, comments, PR | ~ status table and merge pipeline |
 | Cloud execution option | ✗ no hosting | ✓ Pro, up to 50 cloud VMs | ✓ Vercel sandboxes | ? | ✗ | ~ contact-sales | ✗ self-host, Wasteland federation | ✗ your machine only | ✓ JetBrains-managed cloud environments | ✓ Omnara Cloud, or self-host | ~ self-host anywhere, no vendor cloud | ~ remote workspaces beta | ✗ services removed | ✗ |
-| Current status | active, slow burn | active, fast | active, $22M raised | deprecated Feb 2026 | active | active, YC W26 | active but cooling, 18k stars | active, 23.8k stars, community team | active, public preview, v262.834.41 | active, YC S25, 2,857 stars | active, v0.8, solo maintainer | active, YC P26, $11M raised | orphaned, community commits resumed 2026-09-16, no release | active, pre-1.0 fast |
+| Current status | active, slow burn | active, fast | active, $22M raised | deprecated Feb 2026 | active | active, YC W26 | shut down Sept 2026, repo kept as death record | active, 23.8k stars, community team | active, public preview, v262.834.41 | active, YC S25, 2,861 stars | active, v0.8, solo maintainer | active, YC P26, $11M raised | orphaned, community commits resumed 2026-09-16, 0.1.45 tagged but unpublished | active, pre-1.0 fast |
 
 ## Reading the matrix
 
@@ -48,7 +48,7 @@ Cloud execution exists only where a subscription or usage bill is attached, cmux
 
 **The status row is the most instructive one in the matrix: of fourteen tools, one is deprecated, one lost its vendor, and the counterexamples run on venture rounds and a very loud founder.**
 Crystal was deprecated in February 2026 in favor of Nimbalyst, the clearest signal yet that a pure worktree-session manager can be a feature rather than a product.
-Bloop shut down in April 2026 and Vibe Kanban is orphaned, local workspaces intact, eight commits on the default branch since 2026-09-15 (the first by a former Bloop maintainer, seven more with substantive fixes through 2026-09-18) but still no release, and nobody paid to fix bugs.
+Bloop shut down in April 2026 and Vibe Kanban is orphaned, local workspaces intact, ten commits on the default branch since the shutdown (the first a 2026-09-15 version bump by a former Bloop maintainer, nine more with substantive fixes through 2026-09-19), a v0.1.45 tag cut on 2026-09-19 with npm and the GitHub release list still stopping at 0.1.44, and nobody paid to fix bugs.
 Conductor staying a pure session manager and raising money is what keeps the feature-versus-product question contested instead of settled.
 **The three 2026 columns sharpen the funding split: Superset raised $11M, Paseo is a solo maintainer with a planned business, and Worktrunk is a single author with no company at all, which is the whole sustainability spectrum in one row.**
 **Omnara is the tenth column and the only one that wants to own execution and state:** agents become YAML configs in your repo, machine pools separate where code runs from who can invoke it, and supervision reaches you from a dashboard, phone, CLI, REST API, or Slack, the open-source counterpoint to Claude Managed Agents.
@@ -83,9 +83,11 @@ Claude Squad's preview tab and dmux's pane-menu PR cover the dispatch, wait, rev
 - 2026-09-06 - Extended from twelve to thirteen columns with Happy Coder.
 - 2026-09-13 - Corrected the Happy Coder and JetBrains Air columns, whose body cells had been transposed since the Air column was added on 2026-09-12.
 - 2026-09-13 - Reframed Gas Town's status to active but cooling (no default-branch commit since 2026-07-23, no release since v1.2.1 in June).
+- 2026-09-20 - Moved Gas Town's status cell to shut down (September 2026, Yegge's admission per Dan Luu via AINews), matching the note's death record.
 - 2026-09-13 - Corrected the Vibe Kanban orphan wording to no default-branch commit since 2026-04-24, named Omnara Cloud and JetBrains cloud tasks in the cloud-execution prose, and qualified Happy Coder's star ranking as second among maintained tools.
 - 2026-09-16 - Re-verification: recorded Vibe Kanban's first post-shutdown default-branch commit (2026-09-15), refreshed the Omnara star count to 2,851, and updated the JetBrains Air release to 262.834.41.
 - 2026-09-18 - Re-verification: recorded Vibe Kanban's community commits resuming (eight on the default branch since 2026-09-15, still no release), moved the cmux price cell to the new monthly-only Pro $50 and Max $200 tiers, refreshed the Omnara star count to 2,857, and corrected the stale Air changelog version in the references.
+- 2026-09-20 - Re-verification: moved the Vibe Kanban status cell to the community's 0.1.45 tag, which npm and the release list do not publish yet, and refreshed the Omnara star count to 2,861.
 
 ## See also
 

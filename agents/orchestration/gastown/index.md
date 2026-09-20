@@ -1,7 +1,7 @@
 ---
 title: Gas Town
 created: 2026-08-27
-updated: 2026-09-13
+updated: 2026-09-20
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, orchestration, multi-agent, git-worktrees, open-source, tmux]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Gas Town is Steve Yegge's MIT-licensed multi-agent workspace manager (`gt`): a tmux-driven town where a Mayor agent coordinates 20-30 worker agents (polecats) across project rigs, with git-worktree hooks for persistence, a Bors-style merge queue, and beads as the work ledger.
-Facts below verified as of 2026-09-18.
+Facts below verified as of 2026-09-20.
 
 **Gas Town is the first orchestration tool that treats agent supervision as a hierarchy of agents rather than a dashboard of panes, and its deliberately chaotic rollout is the experiment: whether a self-governing town of agents is governable at all.**
 
@@ -24,9 +24,10 @@ Claude Code is the default runtime with Codex, Copilot, Gemini, and Cursor confi
 
 ## Status
 
-Active but cooling, famous, and contested.
-As of 2026-09-18: 18,105 stars, 1,667 forks, 471 open issues, created 2025-12-16, latest release v1.2.1 on 2026-06-06.
-**The default branch has gone quiet: the commit feed shows no commit since 2026-07-23 and no release since June, the first long gap in the project's life, while repo-level push activity on side branches continued into September (metadata still moved on 2026-09-18).**
+**Shut down: Yegge killed the project in September 2026 and admitted he never successfully built anything with it, so the category's most famous experiment is now a death record that stays because deaths are information.**
+Per [Latent Space's AINews roundup](https://www.latent.space/p/ainews-reality-checks-on-ai-news) (2026-09-17), citing Dan Luu's 2026-09-15 post on X, Yegge shut Gas Town down despite spending many thousands a month on coding agent subscriptions.
+As of 2026-09-20: 18,124 stars, 1,672 forks, 471 open issues, created 2025-12-16, latest release v1.2.1 on 2026-06-06.
+The repo remains public and unfixed: the default branch shows no commit since 2026-07-23 and no release since June, which reads differently now that the shutdown explains the silence.
 **Its HN footprint dwarfs every tool in this section: the announcement thread (354 points), Maggie Appleton's field analysis (403 points), the v1.0 post (113 points), and the governance controversy (253 points).**
 That controversy, [issue #3649](https://github.com/gastownhall/gastown/issues/3649), asked whether the town improves itself using agents running on users' LLM credits, and Appleton's account records the texture: entirely vibecoded, thousands of dollars a month in API burn, and a $GAS meme coin the project did not authorize.
 
@@ -65,6 +66,7 @@ The disagreeable claim I will defend: strip the metaphors away and what remains 
 
 - 2026-08-27 - Created in the Orchestration category during the task-management placement run.
 - 2026-09-13 - Recorded the first long quiet spell on the default branch (no commit since July 23, no release since v1.2.1 in June) and refreshed counts.
+- 2026-09-20 - Status moved to shut down: per Latent Space AINews (2026-09-17), citing Dan Luu's 2026-09-15 post, Yegge shut Gas Town down and admitted he never successfully built anything with it; the repo stays public as the death record and the AINews issue joined the references.
 
 ## See also
 
@@ -78,6 +80,7 @@ The disagreeable claim I will defend: strip the metaphors away and what remains 
 - https://github.com/gastownhall/gastown - README: architecture, concepts, installation, prerequisites
 - https://api.github.com/repos/gastownhall/gastown - stars, forks, issues, push dates as of 2026-09-18
 - https://maggieappleton.com/gastown - the 403-point field analysis: patterns, bottlenecks, costs, the meme coin
+- https://www.latent.space/p/ainews-reality-checks-on-ai-news - the AINews issue (2026-09-17) reporting Yegge's shutdown of Gas Town, citing Dan Luu
 - https://news.ycombinator.com/item?id=46458936 - the 354-point announcement thread (Welcome to Gas Town)
 - https://github.com/gastownhall/gastown/issues/3649 - the credits-governance issue, 253-point HN discussion
 - https://api.github.com/repos/gastownhall/gastown/releases - v1.2.1, 2026-06-06

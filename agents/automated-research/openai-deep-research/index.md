@@ -1,7 +1,7 @@
 ---
 title: OpenAI Deep Research
 created: 2026-09-13
-updated: 2026-09-13
+updated: 2026-09-20
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, openai, research-agent]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Deep Research is OpenAI's ChatGPT agent that autonomously browses the web for five to thirty minutes and returns a cited report, making it the mass-market version of the automated research loop.
-Facts below verified as of 2026-09-18.
+Facts below verified as of 2026-09-20.
 
 **Deep Research is the breadth-first half of automated research, and its failure mode is exactly the one that matters: fluent synthesis with no verifier behind it, so the human stays the judge.**
 
@@ -48,6 +48,14 @@ GPT-5.4 (March 2026) further improved deep research behavior and cut factual err
 Included in ChatGPT plans with quotas that vary by tier, as of 2026-09-18.
 At launch, Pro ($200/month) got 100 queries per month; the June 2025 published table was 250 for Pro, 25 for Plus and Team, and 5 lightweight queries for free users, and OpenAI has since moved to in-product counters and plan-level descriptions.
 
+## Price history
+
+| Date | Plan | Change | Source |
+| ---- | ---- | ------ | ------ |
+| 2025-02 | ChatGPT Pro | Launch: included in ChatGPT plans, Pro ($200/mo) capped at 100 queries/month. | [Wikipedia: Deep research](https://en.wikipedia.org/wiki/Deep_research) |
+| 2025-06 | All tiers | Published quota table: 250 queries for Pro, 25 for Plus and Team, 5 lightweight for free users. | [Wikipedia: Deep research](https://en.wikipedia.org/wiki/Deep_research) |
+| 2026-09-18 | All tiers | Still included in ChatGPT plans; published tables replaced by in-product counters and plan-level descriptions. | [Wikipedia: Deep research](https://en.wikipedia.org/wiki/Deep_research) |
+
 ## Compared to
 
 - [OpenAI for Science](../openai-for-science/index.md): the lab program that uses models like this for actual discovery claims; Deep Research is the tool tier.
@@ -62,6 +70,7 @@ Not as a source of established fact: treat every report as a hypothesis list wit
 ## Changes
 
 - 2026-09-13 - Created as the productized-loop member of the new Automated research category.
+- 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
 
 ## See also
 

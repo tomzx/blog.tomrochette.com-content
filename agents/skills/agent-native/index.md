@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Agent-Native is Builder.io's two-piece ecosystem: an MIT TypeScript framework (github.com/BuilderIO/agent-native) for apps where the agent and the UI call the same actions, and a curated pack of fifteen skills (github.com/BuilderIO/skills) that wires coding agents into those apps and adds workflow disciplines.
-Facts below verified as of 2026-09-18.
+Facts below verified as of 2026-09-20.
 
 **The pack is the half harness users meet first: fifteen SKILL.md directories that install anywhere the Agent Skills standard reaches, part workflow doctrine, part on-ramp to Builder.io's stack.**
 

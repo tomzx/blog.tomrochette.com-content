@@ -1,7 +1,7 @@
 ---
 title: "Code Review Feature Matrix"
 created: 2026-08-30
-updated: 2026-09-18
+updated: 2026-09-20
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3-flash, comparison, code-review, ai-review, developer-tools]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 This matrix compares the eight AI code-review tools profiled in this section, feature by feature, so the shortlisting step does not require reading eight notes.
-Everything below was re-verified against live sources on 2026-09-18; the three columns added on 2026-08-30 were Graphite Diamond, Kodus, and Sourcery.
+Everything below was re-verified against the refreshed member notes and live sources on 2026-09-20; the three columns added on 2026-08-30 were Graphite Diamond, Kodus, and Sourcery.
 
 **The deciding row is not review quality, which nobody has independently benchmarked, but where your code runs: five columns are vendor clouds, one runs in your VPC, two run entirely on your infrastructure with your keys, Graphite Diamond arrives already consolidated as a Cursor property, and the category's most-repeated outside fact is that the two biggest commercial reviewers both have Kudelski-disclosed exploit histories.**
 
@@ -31,7 +31,7 @@ Each column links to the full research note; every cell traces to a source cited
 | Learns team rules | ✓ learnings | ~ agents-as-code config you write | ~ custom rules | ✓ from review comments, isolated per organization | ✓ plain-language rules, workflow learning | ✗ fixed rule pipeline | ~ best-practices files you curate | ? |
 | License | ✗ proprietary, free forever for public repos | ✗ closed core, small OSS tooling repos | ✗ proprietary, Cursor-owned | ✗ proprietary | ~ AGPL-3.0 core, ee/ paths commercial | ✓ Apache-2.0 | ~ PR-Agent MIT, Qodo Merge proprietary | ✗ reviewer proprietary, the MIT repo is the refactoring lineage |
 | Pricing anchor | Essentials (ex-Pro) $24, Team (ex-Pro Plus) $48 per user/mo annual, new Advanced $72 annual ($90 monthly) with variable-priced full scans, public repos free | tokens at cost plus a 10% fee, free for individuals on a Claude Code or Codex subscription, support packages from $5k/mo | Hobby free, Starter $20, Team $40 per user/mo | $30/seat plus credits, $1 per extra credit | Community free, Teams BYOK $10/dev/mo plus raw tokens, Enterprise custom with SOC 2, self-host free | free, your model tokens | $0.012 per credit packs, Pro Team $30, no permanent free tier | Pro $12, Team $24 per user/mo, open source repos free |
-| Maturity and scale | $143M Series C at a $1.5B valuation, 17k customers (2026-08) | pivoted 2026-07, $2M seed (2024) | ~$81M raised, $290M valuation, acquired by Cursor 2025-12 | $25M Series A (2025-09), v5 | 1,397 stars, no verified funding (2026-09-18) | 35.7k stars, 129 releases in 4 months (2026-09-18) | 13k-star OSS repo, $50M raised | repo since 2019, 1,866 stars, no verified funding |
+| Maturity and scale | $143M Series C at a $1.5B valuation, 17k customers (2026-08) | pivoted 2026-07, $2M seed (2024) | ~$81M raised, $290M valuation, acquired by Cursor 2025-12 | $25M Series A (2025-09), v5 | 1,397 stars, no verified funding (2026-09-18) | 37.9k stars, 131 releases in 4 months (2026-09-20) | 13,054 stars (2026-09-18), $50M raised | repo since 2019, 1,866 stars, no verified funding |
 
 ## Reading the matrix
 
@@ -68,6 +68,7 @@ Its pricing now leads with a free on-ramp for individuals who bring their own Ch
 - 2026-09-13 - Added the Qodo Agentic Toolbox (September 9 launch, review and rules skills inside Claude Code, Codex, and Kiro) to its deployment cell.
 - 2026-09-16 - Re-verified all cells against live sources; refreshed the Kodus, OpenCodeReview, and Sourcery maturity cells after their repo numbers moved.
 - 2026-09-18 - Re-verified all cells; refreshed the Kodus and OpenCodeReview maturity cells and updated the Ellipsis free-individual subscription wording.
+- 2026-09-20 - Refreshed the OpenCodeReview maturity cell to 37.9k stars and 131 releases and the Qodo cell to 13,054 stars; Kodus held at 1,397 stars.
 
 ## See also
 

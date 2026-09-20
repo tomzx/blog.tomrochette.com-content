@@ -1,7 +1,7 @@
 ---
 title: Greptile
 created: 2026-08-24
-updated: 2026-08-30
+updated: 2026-09-20
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, code-review, code-retrieval, developer-tools]
 readability: 3
@@ -12,7 +12,7 @@ audience_notes: >
 ---
 
 Greptile is an AI code review service that indexes your repositories into a graph (files, functions, dependencies) and runs a swarm of review agents over every pull request.
-Facts below verified as of 2026-09-18.
+Facts below verified as of 2026-09-20.
 
 **Greptile's durable asset is not its graph index, which is becoming commodity, but the standards it learns from your team's own review comments, a corpus no competitor can copy overnight.**
 
@@ -53,6 +53,12 @@ Starter is free for one active developer with 50 credits per month; Pro is $30 p
 Free usage for qualified open source projects and discounts for pre-Series A startups are advertised but, per the caution above, community reports dispute how this lands in practice.
 Self-hosted enterprise and bulk API pricing are custom.
 
+## Price history
+
+| Date | Plan | Change | Source |
+| ---- | ---- | ------ | ------ |
+| 2026-09-18 | Starter, Pro | Baseline: Starter free for one active developer (50 credits/mo), Pro $30/seat/mo with 50 credits included, extra credits $1 each, TREX reviews 3 credits. | [greptile.com](https://greptile.com/) |
+
 ## Compared to
 
 - [Sourcegraph code context platform](../../context-engines/sourcegraph-code-context/index.md): retrieval infrastructure priced at org level for any agent; choose Greptile when you want the reviewer and validator, not the index.
@@ -69,6 +75,7 @@ My disagreeable claim: the graph index everyone credits Greptile for is the leas
 
 - 2026-08-24 - Created among the seed notes of the Context engines category.
 - 2026-08-30 - Moved into the new Code review category on category-fit grounds, with see-also links updated to its new siblings.
+- 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: Tessl
 created: 2026-08-27
-updated: 2026-09-13
+updated: 2026-09-20
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, spec-driven-development, platform, venture-backed]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Tessl is Guy Podjarny's (Snyk founder) spec-centric AI-native development platform: a web-first product where specs drive AI-generated (and human-written) software, funded by a $125M Series A and extended in 2026 with a skills package manager.
-Facts below verified as of 2026-09-18.
+Facts below verified as of 2026-09-20.
 
 **Tessl is the bet that spec-driven development is a platform business rather than a CLI convention, and its $125M raise, while the open tools give the method away free, is the category's purest experiment in whether specs become infrastructure you rent.**
 
@@ -46,6 +46,12 @@ The CLI has not been pushed since 2026-03-05, which is consistent with a web-fir
 Platform tiers are now published on tessl.io (free since 2026-09-08, re-verified 2026-09-18): Free at $0 per month with 1,000 credits, Team at $100 per month with 5x the credits, and Enterprise custom.
 The credit model is subscription metering, not open source, as the raise implied.
 
+## Price history
+
+| Date | Plan | Change | Source |
+| ---- | ---- | ------ | ------ |
+| 2026-09-08 | All tiers | Platform pricing first published: Free $0/mo with 1,000 credits, Team $100/mo with 5x credits, Enterprise custom. | [tessl.io/pricing](https://tessl.io/pricing) |
+
 ## Compared to
 
 - [GitHub Spec Kit](../spec-kit/index.md) and [OpenSpec](../openspec/index.md): the free, repo-native toolkits; choose them when the specs must stay yours.
@@ -63,6 +69,7 @@ The disagreeable claim I will defend: Tessl will either prove specs are buyable 
 - 2026-08-27 - Created in the Spec-driven development expansion, recording the $125M Series A, Skills on Tessl, and the Fowler analysis; pricing left unverified.
 - 2026-09-08 - Recorded the first published platform pricing and rewrote the Pricing section (Free, Team $100 per month, Enterprise).
 - 2026-09-12 - Recorded the Tessl Code Review launch, with pricing tiers unchanged.
+- 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
 
 ## See also
 

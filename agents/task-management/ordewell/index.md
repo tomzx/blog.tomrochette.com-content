@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Ordewell is an Apache-2.0 TypeScript CLI, terminal UI, and VS Code extension that turns one goal into an ordered plan of coding-agent tasks, each with its own runner, model, thinking effort and mode, then executes the plan and completes a task only when that task's marker appears in the runner output.
-Facts below verified as of 2026-09-18.
+Facts below verified as of 2026-09-20.
 
 **The plan as a typed artifact you can rewrite before a token is spent, plus completion decided by markers rather than the model's own verdict, is the design worth stealing, and the launch thread's AI-written-replies episode is the caution this section exists to record.**
 
@@ -26,7 +26,7 @@ The planner's permissions are unusually explicit (ADR-0008): commands classify i
 ## Status
 
 Active, young, and small.
-As of 2026-09-18: 129 stars, 7 forks, 6 open issues, created 2026-07-31, pushed 2026-09-16, latest release v0.4.19 on 2026-09-10, and roughly 2,800 npm downloads last month across the `ordewell` and `@ordewell/cli` package names.
+As of 2026-09-20: 132 stars, 7 forks, 6 open issues, created 2026-07-31, pushed 2026-09-18, latest release v0.4.19 on 2026-09-10, and roughly 2,500 npm downloads last month across the `ordewell` and `@ordewell/cli` package names.
 The Show HN launch thread reached 50 points and 30 comments on 2026-09-15.
 
 ## Strengths
@@ -58,7 +58,7 @@ No paid tier exists; token costs follow your runner subscriptions or API keys.
 ## Bottom line
 
 **Recommended for engineers running mixed-model agent fleets who want per-task model assignment and evidence-based completion, and who accept a three-month-old project.**
-Not for shared multi-agent queues (that is beads) or for teams that need maturity signals 129 stars cannot give.
+Not for shared multi-agent queues (that is beads) or for teams that need maturity signals 132 stars cannot give.
 The disagreeable claim I will defend: the AI-written launch thread is not disqualifying here, but it is the exact failure mode this section's transparency rules exist to catch, and a tool that cannot surface its own authorship plainly should not be trusted to surface task completion either.
 
 ## Changes
@@ -76,10 +76,10 @@ The disagreeable claim I will defend: the AI-written launch thread is not disqua
 ## References
 
 - https://github.com/ordewell/ordewell - README: plan artifact, runners, marker verification, plugin manifests
-- https://api.github.com/repos/ordewell/ordewell - stars, forks, dates, Apache-2.0 as of 2026-09-18
+- https://api.github.com/repos/ordewell/ordewell - stars, forks, dates, Apache-2.0 as of 2026-09-20
 - https://ordewell.ai - the product site: surfaces, the plan-execute-verify loop, marker wording
 - https://ordewell.ai/docs.html - install, requirements, headless usage
 - https://github.com/ordewell/ordewell/blob/main/docs/adr/0002-planner-as-conversation-loop.md - the conversation-loop decision and the session wipe
 - https://github.com/ordewell/ordewell/blob/main/docs/adr/0008-planner-exploration-envelope.md - the auto/ask/refuse tiers and path confinement
 - https://news.ycombinator.com/item?id=49712276 - the launch thread: the AI-written exchange, the absorption objection, 50 points and 30 comments
-- https://api.npmjs.org/downloads/point/last-month/@ordewell/cli - 1,555 downloads last month for the scoped package
+- https://api.npmjs.org/downloads/point/last-month/@ordewell/cli - 1,374 downloads last month for the scoped package

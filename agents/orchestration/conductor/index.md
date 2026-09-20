@@ -1,7 +1,7 @@
 ---
 title: Conductor
 created: 2026-08-24
-updated: 2026-09-10
+updated: 2026-09-20
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, orchestration, git-worktrees, macos]
 readability: 3
@@ -12,7 +12,7 @@ audience_notes: >
 ---
 
 Conductor is a macOS app for running parallel coding-agent sessions (Claude Code, Codex, Cursor, OpenCode), each isolated in its own git worktree, with built-in diff review, checks, and PR flow.
-Facts below verified as of 2026-09-18.
+Facts below verified as of 2026-09-20.
 
 **It is the best-funded and most polished of the Mac worktree dashboards, and its friction-removing defaults, chiefly granting agents all permissions, are precisely the thing you must not forget.**
 
@@ -27,7 +27,7 @@ Conductor Cloud (July 2026) runs agents in Vercel sandboxes (8-core, 16GB, us-ea
 
 Active, fast, and well capitalized.
 A $22M Series A from Spark and Matrix closed on 2026-03-30, with YC and founders of Notion and Linear participating; the company claims 10x user growth since January 2026 and engineers at Google, Meta, Amazon, and others using it.
-Release cadence is extreme: 0.86.1, which added loadout sharing and cloud run scripts, became the latest on 2026-09-16, with dozens of releases since January 2026.
+Release cadence is extreme: 0.87.0, which added search across files and OpenCode 2.0 support, became the latest on 2026-09-18, with dozens of releases since January 2026.
 The team behind cmd joined in April 2026.
 
 ## Strengths
@@ -50,6 +50,12 @@ Free for local, unlimited parallel agents with your own keys and subscriptions.
 Pro at $50/month adds cloud workspace hours, multiplayer, and the API; Teams at $60/user/month adds admin and billing; Enterprise is custom.
 Usage-based pricing for cloud compute is planned but not charged yet as of 2026-09-18.
 
+## Price history
+
+| Date | Plan | Change | Source |
+| ---- | ---- | ------ | ------ |
+| 2026-09-18 | Pro, Teams | Baseline: local free and unlimited; Pro $50/mo (cloud workspace hours, multiplayer, API), Teams $60/user/mo, Enterprise custom; cloud usage-based pricing planned but not yet charged. | [conductor.build/pricing](https://conductor.build/pricing/) |
+
 ## Compared to
 
 - [Emdash](../emdash/index.md): open source, all desktop OSes, SSH remoting; choose it over Conductor for auditability and remote code.
@@ -65,6 +71,8 @@ My disagreeable claim: Conductor Cloud, not the local worktree manager, is the r
 ## Changes
 
 - 2026-08-24 - Created in the Orchestration category seed.
+- 2026-09-20 - Recorded release 0.87.0 (September 18), which added search across files and OpenCode 2.0 support.
+- 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
 
 ## See also
 

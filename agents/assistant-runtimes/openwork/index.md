@@ -1,7 +1,7 @@
 ---
 title: OpenWork
 created: 2026-08-30
-updated: 2026-09-18
+updated: 2026-09-20
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, assistant-runtimes, cowork, desktop, open-source]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 OpenWork is a free, MIT-licensed desktop app for macOS, Windows, and Linux that runs AI agent sessions on local files with shared skills, MCP connections, browser automation, and scheduled tasks, positioned as the open alternative to Anthropic's Claude Cowork and built on top of OpenCode.
-Facts below verified as of 2026-09-18.
+Facts below verified as of 2026-09-20.
 
 **OpenWork is the Cowork clone that outlived the clone jokes: seven and a half months of signed, weekly releases to 23.4k stars, an MCP gateway that makes its skills portable to any agent, and a license split that is the first thing a serious adopter should read.**
 
@@ -24,7 +24,7 @@ By different-ai (Benjamin Shafii), YC-backed.
 
 ## Status
 
-Alive and shipping hard: 23,623 stars, 2,372 forks, 535 open issues and PRs as of 2026-09-18, created 2026-01-14, pushed today.
+Alive and shipping hard: 23,655 stars, 2,378 forks, 519 open issues and PRs as of 2026-09-20, created 2026-01-14, pushed today.
 v0.18.42 on 2026-09-02 (signed Windows installers) through v0.18.48 on 2026-09-15, multiple releases per week.
 **It outlived its launch-week skepticism, but the founder still carries 2,911 of the top contributors' roughly 4,000 commits.**
 
@@ -44,11 +44,22 @@ v0.18.42 on 2026-09-02 (signed Windows installers) through v0.18.48 on 2026-09-1
 
 ## Pricing
 
-Solo: $0, the MIT desktop app with BYO keys and no seat cap on the app itself.
-Team Starter: $10 per seat per month with the first 5 seats free (API access, extension marketplace, distributed LLM keys), as of 2026-09-18.
-Enterprise: custom pricing (everything in Team Starter, plus SSO/SAML and SCIM, BYO inference with self-hosted or private models, desktop policies and version controls, managed deployment, custom skill development and MCP consulting, rollout support and custom commercial terms), as of 2026-09-18.
-Organizations already using SSO or desktop policies keep full access, grandfathered.
+Free: $0 for up to 5 users, the MIT desktop app with BYO keys, and the full platform including the org control plane self-hostable free at that size.
+Team: $10 per seat per month up to 100 users (extension marketplace, distributed LLM keys, standard support), as of 2026-09-20.
+Enterprise: $40 per user per month, the same price cloud or self-hosted (SSO/SAML and SCIM, usage analytics, desktop policies and version controls, white-labeling, OpenWork Web, spend observability, BYO inference with self-hosted or private models, SLA, volume pricing above 100 users), as of 2026-09-20.
 The Den control plane inside the repo stays free for organizations up to five users, free to evaluate for 30 days at any size, and each `ee/` release converts to MIT two years after publication.
+
+## Price history
+
+| Date | Plan | Change | Source |
+| ---- | ---- | ------ | ------ |
+| 2026-09-02 | All tiers | First recorded state: Free up to 5 users, Team $20 per seat, Enterprise $50 | https://openworklabs.com/pricing |
+| 2026-09-05 | All tiers | Solo $0, Team Starter $10 per seat, Enterprise custom | https://openworklabs.com/pricing |
+| 2026-09-07 | All tiers | Enterprise to $40 per user per month, Team Starter renamed to Team | https://openworklabs.com/pricing |
+| 2026-09-09 | All tiers | Team $10 per seat up to 100 users, Enterprise $40 per user per month | https://openworklabs.com/pricing |
+| 2026-09-12 | Enterprise | Enterprise back to custom pricing, per-user price and user caps dropped | https://openworklabs.com/pricing |
+| 2026-09-16 | All tiers | Free tier named Solo, team tier back to Team Starter at $10 per seat with the first 5 seats free | https://openworklabs.com/pricing |
+| 2026-09-20 | All tiers | Free tier back to Free at $0 up to 5 users, Team $10 per seat up to 100 users, Enterprise back to $40 per user per month | https://openworklabs.com/pricing |
 
 ## Compared to
 
@@ -71,6 +82,7 @@ Not for teams that need a sandboxed security boundary the product does not provi
 - 2026-09-12 - Dropped the $40 per user and 100-user caps, moving Enterprise back to custom pricing.
 - 2026-09-16 - Pricing page churned again: the free tier is named Solo and the paid team tier is back to Team Starter at $10 per seat with the first 5 seats free; releases through v0.18.48 recorded.
 - 2026-09-18 - Recorded Claude Cowork merging into Claude chat itself (announced 2026-09-16), updating the comparison baseline; pricing re-checked unchanged.
+- 2026-09-20 - Pricing churned a seventh time: the free tier is named Free and capped at 5 users, Team is $10 per seat up to 100 users, and Enterprise returned to $40 per user per month, the grandfather clause is gone from the pricing page, and a Price history table now records the full churn.
 
 ## See also
 

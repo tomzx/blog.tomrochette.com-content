@@ -23,35 +23,35 @@ If the section turns into slop, the logs will show exactly where it went wrong, 
 
 # Essays and trackers
 
-- [Agentic Coding Tools Landscape](agentic-coding-tools-landscape/index.md) - maintained map of harnesses, editors, cloud agents, and orchestration as of 2026-09-18.
-- [Model Selection for Coding Tasks](model-selection-for-coding-tasks/index.md) - opinionated guide to choosing models by task class and per-token economics, as of 2026-09-18.
-- [Context Management Patterns](context-management-patterns/index.md) - the patterns that keep agent context windows small and fresh, link-checked 2026-09-18.
+- [Agentic Coding Tools Landscape](agentic-coding-tools-landscape/index.md) - maintained map of harnesses, editors, cloud agents, and orchestration as of 2026-09-20.
+- [Model Selection for Coding Tasks](model-selection-for-coding-tasks/index.md) - opinionated guide to choosing models by task class and per-token economics, as of 2026-09-20.
+- [Context Management Patterns](context-management-patterns/index.md) - the patterns that keep agent context windows small and fresh, link-checked 2026-09-20.
 - [The Tells Are Structural](the-tells-are-structural/index.md) - why word-swap humanizers fail (detection lives at the narrative-structure layer) and what a structural revision pass does instead, grounded in StoryScope.
 
 ## Comparison matrices
 
-- [Model Provider Feature Matrix](model-provider-feature-matrix/index.md) - the seven model providers compared as bundles on price tiers, cache and batch policy, context flatness, weights, and subscription transfer, verified 2026-09-18.
-- [Automated Research Feature Matrix](automated-research/automated-research-feature-matrix/index.md) - the seven lab and product research loops divided on who runs the loop and who judges the output, Pion the newest, verified 2026-09-18.
-- [Harness Feature Matrix](harnesses/harness-feature-matrix/index.md) - the twenty-six harnesses against eleven capability rows, Grok Build the newest, verified 2026-09-18.
-- [Surface Feature Matrix](surfaces/surface-feature-matrix/index.md) - the twelve surfaces (two of them death records) against eleven capability rows, verified 2026-09-18.
-- [Orchestration Feature Matrix](orchestration/orchestration-feature-matrix/index.md) - the fourteen worktree managers, dashboards, control planes, and mobile clients, JetBrains Air the newest, plus one agent town, one dead and one orphaned among them, verified 2026-09-18.
+- [Model Provider Feature Matrix](model-provider-feature-matrix/index.md) - the seven model providers compared as bundles on price tiers, cache and batch policy, context flatness, weights, and subscription transfer, verified 2026-09-20.
+- [Automated Research Feature Matrix](automated-research/automated-research-feature-matrix/index.md) - the seven lab and product research loops divided on who runs the loop and who judges the output, Pion the newest, verified 2026-09-20.
+- [Harness Feature Matrix](harnesses/harness-feature-matrix/index.md) - the twenty-six harnesses against eleven capability rows, Grok Build the newest, verified 2026-09-20.
+- [Surface Feature Matrix](surfaces/surface-feature-matrix/index.md) - the twelve surfaces (two of them death records) against eleven capability rows, verified 2026-09-20.
+- [Orchestration Feature Matrix](orchestration/orchestration-feature-matrix/index.md) - the fourteen worktree managers, dashboards, control planes, and mobile clients, JetBrains Air the newest, plus one agent town now shut down, one deprecated and one orphaned among them, verified 2026-09-20.
 - [Protocols Feature Matrix](protocols/protocols-feature-matrix/index.md) - the six protocols stack rather than compete, AG-UI the newest, and adoption falls with every step up the stack.
-- [Context Engines Feature Matrix](context-engines/context-engines-feature-matrix/index.md) - the eight context vendors and tools against delivery, deployment, and scale rows, Graft the newest, verified 2026-09-18.
-- [Code Review Feature Matrix](code-review/code-review-feature-matrix/index.md) - the eight AI reviewers divided on where your code runs, with both Kudelski exploit records named, verified 2026-09-18.
-- [Skills Feature Matrix](skills/skills-feature-matrix/index.md) - the spec, vendor format, harness mechanism, optimizer, registry, and curated pack against runtime and stewardship rows.
-- [Retrieval Feature Matrix](retrieval/retrieval-feature-matrix/index.md) - the two frameworks, the chunking library, and two patterns compared, with the harness-native counterargument engaged.
-- [Memory Feature Matrix](memory/memory-feature-matrix/index.md) - the file convention, the portable format, the capture plugin, and five services against memory-model and lock-in rows, Engrim the newest column, verified 2026-09-18.
-- [Executions Feature Matrix](executions/executions-feature-matrix/index.md) - subscription features versus self-hostable infrastructure across trigger and execution rows.
-- [Hybrid Execution Feature Matrix](hybrid-execution/hybrid-execution-feature-matrix/index.md) - constrained decoding versus validate-and-retry versus a model born at the decision layer, the guarantee mechanism as the deciding row, Jev the newest, verified 2026-09-18.
-- [Task Management Feature Matrix](task-management/task-management-feature-matrix/index.md) - files versus database as the deciding row, Ordewell's typed plan artifacts the newest column, with the PRD pipeline and its license cost, verified 2026-09-18.
-- [Spec Driven Development Feature Matrix](spec-driven-development/spec-driven-development-feature-matrix/index.md) - the five spec-first tools across the ownership and ceremony-sizing axes, GSD the newest, verified 2026-09-18.
-- [Control Planes Feature Matrix](control-planes/control-planes-feature-matrix/index.md) - governance, budgets, and multi-company rows that separate control planes from orchestration.
-- [Assistant Runtimes Feature Matrix](assistant-runtimes/assistant-runtimes-feature-matrix/index.md) - OpenClaw, Hermes, the shrinking variants, the Python core, and the two Cowork desktops, the trust ladder in one table, verified 2026-09-18.
-- [Software Factory Feature Matrix](software-factory/software-factory-feature-matrix/index.md) - the stamped Python loop, Fluent's learning loop, HAR's fleet harness, Machinist's controlled entrypoint, and Ouroboros' hidden grading on the who-owns-the-loop axis, verified 2026-09-18.
-- [Evaluation and Review Feature Matrix](evaluation-review/evaluation-review-feature-matrix/index.md) - the seven quality-control columns divided on who judges, the agent, the metric suite, the benchmark, the human, or the academic study, HarnessTax the newest, verified 2026-09-18.
-- [Sandboxing Feature Matrix](sandboxing/sandboxing-feature-matrix/index.md) - the eight isolation layers divided into boundaries, an orchestrator, a framework, and provisioning, CubeSandbox and OpenSandbox the newest, verified 2026-09-18.
-- [Session Analytics Feature Matrix](session-analytics/session-analytics-feature-matrix/index.md) - the archive, the attribution CLI, and the live dashboard that filled the observation gap, verified 2026-09-18.
-- [People and Publications Feature Matrix](people-and-publications/people-and-publications-feature-matrix/index.md) - the thirteen voices compared on focus, cadence, and reader slot, verified 2026-09-18.
+- [Context Engines Feature Matrix](context-engines/context-engines-feature-matrix/index.md) - the eight context vendors and tools against delivery, deployment, and scale rows, Graft the newest, verified 2026-09-20.
+- [Code Review Feature Matrix](code-review/code-review-feature-matrix/index.md) - the eight AI reviewers divided on where your code runs, with both Kudelski exploit records named, verified 2026-09-20.
+- [Skills Feature Matrix](skills/skills-feature-matrix/index.md) - the spec, vendor format, harness mechanism, optimizer, registry, and curated pack against runtime and stewardship rows, verified 2026-09-20.
+- [Retrieval Feature Matrix](retrieval/retrieval-feature-matrix/index.md) - the hosted parsing pipeline, the chunking library, the two frameworks, and two patterns compared, Knowhere the newest, with the harness-native counterargument engaged, verified 2026-09-20.
+- [Memory Feature Matrix](memory/memory-feature-matrix/index.md) - the file convention, the portable format, the capture plugin, and five services against memory-model and lock-in rows, Engrim the newest column, verified 2026-09-20.
+- [Executions Feature Matrix](executions/executions-feature-matrix/index.md) - subscription features versus self-hostable infrastructure across trigger and execution rows, verified 2026-09-20.
+- [Hybrid Execution Feature Matrix](hybrid-execution/hybrid-execution-feature-matrix/index.md) - constrained decoding versus validate-and-retry versus models born at the decision layer, now including an open-weights one, the guarantee mechanism as the deciding row, CUA-S1 the newest, verified 2026-09-20.
+- [Task Management Feature Matrix](task-management/task-management-feature-matrix/index.md) - files versus database as the deciding row, Ordewell's typed plan artifacts the newest column, with the PRD pipeline and its license cost, verified 2026-09-20.
+- [Spec Driven Development Feature Matrix](spec-driven-development/spec-driven-development-feature-matrix/index.md) - the five spec-first tools across the ownership and ceremony-sizing axes, GSD the newest, verified 2026-09-20.
+- [Control Planes Feature Matrix](control-planes/control-planes-feature-matrix/index.md) - governance, budgets, and multi-company rows that separate control planes from orchestration, verified 2026-09-20.
+- [Assistant Runtimes Feature Matrix](assistant-runtimes/assistant-runtimes-feature-matrix/index.md) - OpenClaw, Hermes, the shrinking variants, the Python core, and the two Cowork desktops, the trust ladder in one table, verified 2026-09-20.
+- [Software Factory Feature Matrix](software-factory/software-factory-feature-matrix/index.md) - the stamped Python loop, Fluent's learning loop, HAR's fleet harness, Machinist's controlled entrypoint, and Ouroboros' hidden grading on the who-owns-the-loop axis, verified 2026-09-20.
+- [Evaluation and Review Feature Matrix](evaluation-review/evaluation-review-feature-matrix/index.md) - the seven quality-control columns divided on who judges, the agent, the metric suite, the benchmark, the human, or the academic study, HarnessTax the newest, verified 2026-09-20.
+- [Sandboxing Feature Matrix](sandboxing/sandboxing-feature-matrix/index.md) - the eight isolation layers divided into boundaries, an orchestrator, a framework, and provisioning, CubeSandbox and OpenSandbox the newest, verified 2026-09-20.
+- [Session Analytics Feature Matrix](session-analytics/session-analytics-feature-matrix/index.md) - the archive, the attribution CLI, the semantic-search resumer, and the live dashboard that filled the observation gap, Memex the newest, verified 2026-09-20.
+- [People and Publications Feature Matrix](people-and-publications/people-and-publications-feature-matrix/index.md) - the thirteen voices compared on focus, cadence, and reader slot, verified 2026-09-20.
 
 Essays appear here as the daily agent runs publish them.
 The queue it works from is [the work queue](queue.md).
@@ -166,8 +166,9 @@ Where the research loop itself runs autonomously: the labs' science programs, th
 ## Retrieval
 
 - [Chonkie](retrieval/chonkie/index.md) - the MIT chunking library (token, semantic, and neural chunkers) for RAG pipelines, its commercial arm dead and its maker pivoted to Feyn Labs.
-- [LlamaIndex](retrieval/llamaindex/index.md) - the MIT data framework for retrieval pipelines, now the open arm of LlamaParse.
+- [Knowhere](retrieval/knowhere/index.md) - Ontos AI's structure-preserving document parsing and retrieval pipeline, hosted per page or self-hosted, its self-reported benchmark and near-empty HN footprint attached.
 - [LangChain](retrieval/langchain/index.md) - the largest LLM framework, repositioned in 2026 as an agent engineering platform.
+- [LlamaIndex](retrieval/llamaindex/index.md) - the MIT data framework for retrieval pipelines, now the open arm of LlamaParse.
 - [Semantic code search](retrieval/semantic-code-search/index.md) - retrieval by meaning over embedded chunks, shipped as a workspace index.
 - [Tree-sitter chunking](retrieval/tree-sitter-chunking/index.md) - cutting files along syntax boundaries instead of fixed line counts.
 
@@ -192,6 +193,7 @@ Where the research loop itself runs autonomously: the labs' science programs, th
 ## Hybrid execution
 
 - [Anthropic structured outputs](hybrid-execution/anthropic-structured-outputs/index.md) - schema-constrained decoding for Claude responses and tool inputs.
+- [CUA-S1](hybrid-execution/cua-s1/index.md) - Cua's open-weights 706k-parameter System One checkpoint that scores form actions without generating text, the verifiable counterpart to Jev's closed contract.
 - [Instructor](hybrid-execution/instructor/index.md) - Pydantic in, validated objects out, with a re-ask when validation fails.
 - [Jev](hybrid-execution/jev/index.md) - TypeSafe's System One model that skips text generation entirely, typed decisions with calibrated confidence at 70-500ms, early access since September 2026.
 - [OpenAI Structured Outputs](hybrid-execution/openai-structured-outputs/index.md) - schema-guaranteed responses via constrained decoding.
@@ -282,6 +284,7 @@ Tools that turn what coding agents already record into searchable history, cost 
 - [agents-observe](session-analytics/agents-observe/index.md) - the live dashboard for Claude Code and Codex sessions, hooks feeding a local server, multi-agent trees and cost breakdowns in real time.
 - [agentsview](session-analytics/agentsview/index.md) - the local-first indexer for roughly 60 agents' session files, retrospective search and token-cost reporting in one SQLite store.
 - [ctx](session-analytics/ctx/index.md) - local search over the sessions agents already recorded, with pro blame attribution from any line of code back to its transcript.
+- [Memex](session-analytics/memex/index.md) - the Rust CLI that indexes multi-harness session transcripts locally with BM25 or embeddings and resumes the session you find.
 
 ## People and publications
 

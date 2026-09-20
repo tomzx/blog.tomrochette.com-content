@@ -1,7 +1,7 @@
 ---
 title: Letta
 created: 2026-08-24
-updated: 2026-09-13
+updated: 2026-09-20
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, agent-memory, agent-frameworks]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Letta is the company and platform built by the MemGPT creators: a memory-first coding agent (Letta Code), a cloud/API tier, and a research program on agents that learn.
-Facts below verified as of 2026-09-18.
+Facts below verified as of 2026-09-20.
 
 **Letta has the deepest research lineage in agent memory and the least settled product strategy, and I think the pattern it popularized will outlive its current packaging.**
 
@@ -50,6 +50,12 @@ Free: BYOK plus 3 stateful agents.
 Pro $20/month (up to 20 agents), API plan $20/month plus $0.10 per active agent per month and $0.00015 per second of tool execution, Teams $20 per seat, Enterprise custom, as of 2026-09-18.
 **The free tier is genuinely usable because the expensive part (models) is yours.**
 
+## Price history
+
+| Date | Plan | Change | Source |
+| ---- | ---- | ------ | ------ |
+| 2026-09-18 | Pro, API plan | Baseline: Free (BYOK, 3 stateful agents), Pro $20/mo (up to 20 agents), API plan $20/mo plus $0.10 per active agent/mo and $0.00015 per second of tool execution, Teams $20/seat, Enterprise custom. | [docs.letta.com/pricing](https://docs.letta.com/pricing) |
+
 ## Compared to
 
 - [Mem0](../mem0/index.md): a memory API you bolt on; choose it when your agent framework is already chosen.
@@ -65,6 +71,7 @@ Not for teams wanting stable infrastructure: the V1 server burial proves the roa
 
 - 2026-08-24 - Created among the four memory notes of the research index seeding run.
 - 2026-09-05 - Reconciled an internal star count inconsistency across the note.
+- 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: cmux
 created: 2026-08-24
-updated: 2026-09-18
+updated: 2026-09-20
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, orchestration, terminal, parallel-agents, macos]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 cmux is Manaflow's open-source macOS terminal built on libghostty for running many coding agents in parallel, with vertical tabs, workspaces, notification rings, and an open-core cloud tier.
-Facts below verified as of 2026-09-18.
+Facts below verified as of 2026-09-20.
 
 **cmux's real product is attention routing, not multiplexing, and its real business is cloud execution: the terminal is the free, GPL-3.0 funnel, and the subscription is where the company actually lives.**
 
@@ -24,7 +24,7 @@ A paid subscription (Pro or Max) adds Cloud VM agents and the iOS app; the CodeR
 ## Status
 
 **Active and remarkably fast.**
-About 27.2k stars and 2.4k forks as of 2026-09-18, created January 28, 2026, with commits landing the day of verification.
+About 27.3k stars and 2.4k forks as of 2026-09-20, created January 28, 2026, with commits landing the day of verification.
 The launch thread counted 18 releases in two days; the project is at v0.64.x (v0.64.25 on 2026-09-17) with a nightly channel.
 Three contributors dominate the history (about 5.2k, 3.8k, and 1.2k contributions), so this is a small funded team (Manaflow, Inc.) moving very quickly, not a broad community.
 
@@ -50,6 +50,16 @@ Pro $50/month: cloud agents on isolated VMs, capped at up to 50 Cloud VMs per us
 Max $200/month adds up to 64 GB RAM per machine (32 or 64 GB Cloud VMs on 16 vCPUs), where Free, Pro, and Team machines top out at 24 GB.
 Team $60/user/month adds centralized billing and priority support; Enterprise adds self-hosted, even air-gapped, cloud execution, SSO/SAML, audit logs, and SOC 2, as of 2026-09-18.
 
+## Price history
+
+| Date | Plan | Change | Source |
+| ---- | ---- | ------ | ------ |
+| 2026-09-05 | Pro | Shared-pool cloud VM resources, with totals differing from later descriptions. | [cmux.com/pricing](https://cmux.com/pricing) |
+| 2026-09-09 | Pro | Listed per-VM resources with a 256 GB disk ceiling. | [cmux.com/pricing](https://cmux.com/pricing) |
+| 2026-09-10 | Pro | Returned to shared-pool phrasing (up to 50 VMs sharing 24 GB RAM and 6 vCPUs). | [cmux.com/pricing](https://cmux.com/pricing) |
+| 2026-09-16 | Pro | Priced $50/mo, or $40 billed yearly. | [cmux.com/pricing](https://cmux.com/pricing) |
+| 2026-09-18 | All tiers | Yearly rate removed: Pro $50/mo monthly only; Max $200/mo adds 32 or 64 GB machines on 16 vCPUs; Team $60/user/mo; Free $0. | [cmux.com/pricing](https://cmux.com/pricing) |
+
 ## Compared to
 
 - [dmux](../dmux/index.md): tmux-based and cross-platform; pick dmux off macOS, cmux for notifications.
@@ -70,6 +80,7 @@ Not for Linux or Windows users, copyleft-restricted shops, or anyone who needs a
 - 2026-09-06 - Pricing page dropped the shared-pool cloud spec for per-VM resources with a 256 GB disk ceiling.
 - 2026-09-10 - Pricing page reverted to shared-pool phrasing (24 GB RAM, 6 vCPU shared).
 - 2026-09-18 - Pricing page moved to monthly-only billing and added a $200/month Max tier with up to 64 GB RAM per Cloud VM.
+- 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
 
 ## See also
 

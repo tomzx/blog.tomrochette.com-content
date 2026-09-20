@@ -1,7 +1,7 @@
 ---
 title: Langfuse
 created: 2026-09-16
-updated: 2026-09-18
+updated: 2026-09-20
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, evaluation, observability, llm-as-judge]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Langfuse is an open-source (MIT core) observability and evaluation platform for LLM applications and agents, covering tracing, LLM-as-judge and human evaluation, prompt management, and datasets and experiments, self-hostable or consumed as Langfuse Cloud, and part of ClickHouse since January 2026.
-Facts below verified as of 2026-09-18.
+Facts below verified as of 2026-09-20.
 
 **Langfuse is the MIT-licensed observability and evaluation column the category lacked, and its open-core boundary is drawn in the filesystem: MIT outside the `ee/` directories, proprietary inside them.**
 
@@ -47,6 +47,12 @@ Announced ClickHouse acquisition landed on Hacker News on 2026-01-17 with 220 po
 Self-hosted: free, MIT core, with the `ee/` directories under their separate license.
 Langfuse Cloud as of 2026-09-18: Hobby free (50k units/month, 30-day retention), Core $29/month, Pro $199/month (Teams add-on $300/month), Enterprise $2,499/month, plus graduated overage from $8 down to $6 per 100k units.
 
+## Price history
+
+| Date | Plan | Change | Source |
+| ---- | ---- | ------ | ------ |
+| 2026-09-18 | Langfuse Cloud | Baseline: Hobby free (50k units/mo, 30-day retention), Core $29/mo, Pro $199/mo (Teams add-on $300/mo), Enterprise $2,499/mo, graduated overage from $8 down to $6 per 100k units; self-hosted core free (MIT). | [langfuse.com/pricing](https://langfuse.com/pricing) |
+
 ## Compared to
 
 - [Phoenix](../phoenix/index.md): the closest feature peer; choose Langfuse when the MIT core matters and you want prompt management built in, Phoenix for OpenInference instrumentation breadth and the Arize AX upgrade path, remembering Phoenix's core is ELv2.
@@ -62,6 +68,7 @@ Not for pytest-style CI gating (use deepeval) or for observing coding-agent sess
 
 - 2026-09-16 - Created.
 - 2026-09-18 - Recorded the v4.38.0 release and refreshed repository counts.
+- 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
 
 ## See also
 

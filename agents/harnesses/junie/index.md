@@ -1,7 +1,7 @@
 ---
 title: Junie
 created: 2026-08-22
-updated: 2026-09-12
+updated: 2026-09-20
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, coding-agents, harnesses, jetbrains, byok]
 readability: 3
@@ -12,7 +12,7 @@ audience_notes: >
 ---
 
 Junie is JetBrains' coding agent: an LLM-agnostic CLI that also ships in JetBrains IDEs and CI, authenticating either to JetBrains or to your own model keys.
-Facts below verified as of 2026-09-18.
+Facts below verified as of 2026-09-20.
 
 **Junie quietly became the most vendor-flexible of the major agents (any provider, any local model, zero markup on keys), and its thin independent community, not its capability, is the actual adoption risk.**
 
@@ -53,6 +53,12 @@ JetBrains AI Pro $8.33 per user/month (annual) and AI Ultimate $25 per user/mont
 **BYOK bypasses metering at provider rates.**
 Junie Local (August 2026) is free: it runs inside Junie on an M5 Mac with the bundled model downloaded locally, no account or credits at all.
 
+## Price history
+
+| Date | Plan | Change | Source |
+| ---- | ---- | ------ | ------ |
+| 2026-09-09 | AI Pro, AI Ultimate | Baseline: free start (5 credits, no card), AI Pro $8.33/user/mo annual, AI Ultimate $25/user/mo, credit-metered; BYOK at provider rates; Junie Local free since August 2026. | [junie.jetbrains.com](https://junie.jetbrains.com/) |
+
 ## Compared to
 
 - [Claude Code](../claude-code/index.md) and [Codex](../codex/index.md): subscription-first, single-vendor model access; Junie is the model-agnostic counter.
@@ -69,6 +75,7 @@ Not for anyone who needs an open client or a large community ecosystem today.
 - 2026-08-22 - Created as one of the eight seed notes of the Harnesses category.
 - 2026-08-23 - Style conformance pass: bolded each section's key insight, split a combined sentence into one per line, and named the vague referent.
 - 2026-09-02 - Recorded the Junie Local on-device Mac launch.
+- 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
 
 ## See also
 

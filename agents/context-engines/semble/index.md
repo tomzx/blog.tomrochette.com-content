@@ -1,7 +1,7 @@
 ---
 title: Semble
 created: 2026-08-30
-updated: 2026-09-18
+updated: 2026-09-20
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, code-search, context-engines, local-first, developer-tools]
 readability: 3
@@ -12,7 +12,7 @@ audience_notes: >
 ---
 
 Semble is a MIT-licensed local code search tool built for coding agents: it chunks a repository along syntax boundaries, indexes it with static Model2Vec embeddings plus BM25, and answers natural-language queries with only the relevant snippets.
-Facts below verified as of 2026-09-18.
+Facts below verified as of 2026-09-20.
 
 **Semble's bet is that a code-specialized index small enough to run in under a second on any CPU can replace the most expensive thing an agent does, which is grep-failing its way through full-file reads.**
 
@@ -27,8 +27,8 @@ It is built by MinishLab, the two-person team (Stephan and Thomas, per the launc
 ## Status
 
 **Young, active, and unusually well received for a search tool.**
-6,105 stars and 268 forks since the repo appeared on 2026-04-06, with the last push 2026-09-18 and v0.6.0 released 2026-09-11 (GitHub API, as of 2026-09-18).
-89,861 PyPI downloads in the trailing month (PyPIstats, as of 2026-09-13; the PyPIstats API rate-limited re-verification on 2026-09-18, so the figure keeps its earlier date).
+6,112 stars and 269 forks since the repo appeared on 2026-04-06, with the last push 2026-09-18 and v0.6.0 released 2026-09-11 (GitHub API, as of 2026-09-20).
+82,697 PyPI downloads in the trailing month (PyPIstats, as of 2026-09-20).
 The launch Show HN (May 17, 2026) drew 445 points and 151 comments, on top of two quiet warm-up threads in April; a third-party VS Code extension appeared in August, which is the usual early-ecosystem signal.
 
 ## Strengths
@@ -48,7 +48,7 @@ The launch Show HN (May 17, 2026) drew 445 points and 151 comments, on top of tw
 ## Pricing
 
 **Free and MIT-licensed; there is nothing to buy.**
-No cloud tier or paid plan exists as of 2026-09-18, so the cost model is entirely the compute you already have and the model tokens the snippets displace.
+No cloud tier or paid plan exists as of 2026-09-20, so the cost model is entirely the compute you already have and the model tokens the snippets displace.
 
 ## Compared to
 
@@ -65,6 +65,7 @@ Not for small repos where a Repomix pack or plain grep is already enough, and no
 
 - 2026-08-30 - Created in the Context engines category from that day's entrant scan, citing six fetched sources.
 - 2026-09-18 - Refreshed the GitHub numbers (6,105 stars, 268 forks, pushed 2026-09-18); the PyPIstats download check was rate-limited, so the trailing-month figure keeps its 2026-09-13 date; the no-paid-plan claim re-verified against the README.
+- 2026-09-20 - Refreshed the GitHub numbers (6,112 stars, 269 forks) and replaced the rate-limited PyPI figure with a live trailing-month reading (82,697 as of 2026-09-20); v0.6.0 and the no-paid-plan claim unchanged.
 
 ## See also
 
@@ -75,9 +76,9 @@ Not for small repos where a Repomix pack or plain grep is already enough, and no
 
 ## References
 
-- https://github.com/MinishLab/semble - repo, README (architecture, installer, CLI, MCP, savings counter), stars and activity as of 2026-09-13
+- https://github.com/MinishLab/semble - repo, README (architecture, installer, CLI, MCP, savings counter), stars and activity as of 2026-09-20
 - https://news.ycombinator.com/item?id=48169874 - the 445-point launch thread, including the founders' no-agent-level-claim statement and the baseline criticisms (verified via the Algolia items API)
 - https://pypi.org/project/semble/ - the package surface
-- https://pypistats.org/api/packages/semble/recent - 89,861 downloads in the trailing month as of 2026-09-13
+- https://pypistats.org/api/packages/semble/recent - 82,697 downloads in the trailing month as of 2026-09-20
 - https://huggingface.co/minishlab/potion-code-16M-v2 - the embedding model the index runs on
 - https://github.com/MinishLab/semble/blob/main/benchmarks/README.md - benchmark methodology, NDCG@10, and the token-efficiency setup

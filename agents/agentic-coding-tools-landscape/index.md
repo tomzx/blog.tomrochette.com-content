@@ -1,7 +1,7 @@
 ---
 title: "Agentic Coding Tools Landscape"
 created: 2026-08-22
-updated: 2026-09-18
+updated: 2026-09-20
 status: finished
 tags: [ai, llm, coding-agents, developer-tools, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 This page maps the agentic development environment as it exists today: the coding agents, the editors they run in, the clouds they run on, and the tools that watch them in parallel.
-Everything here was verified against live sources on 2026-09-04; the surfaces tail deaths on 2026-08-26, the orchestration exception sentence on 2026-08-27; the harness tail additions (Kilo Code, OpenHands) on 2026-08-27, (fx) on 2026-08-29, the harness tail additions (jcode, Ante, Bullet, Juggler, OneCLI, Warp Agent CLI, Zerostack) plus the orchestration addition (Omnara) on 2026-08-30, the Cursor model-access and Windsurf funding updates on 2026-09-02, and the Windsurf domain handover on 2026-09-04; re-verified on 2026-09-05 with the Orca star count the only moved number, and the harness tail additions (Kimi Code, Exo) dated 2026-09-05; re-verified on 2026-09-06, with the Kimi Code line updated for the CLI's Node.js rebuild; re-verified on 2026-09-07 with the Orca count moved to about 63k; re-verified on 2026-09-08 with the Orca count moved to about 64k and the OpenHands count to about 87k; re-verified on 2026-09-09 with the Orca count moved to about 65k, the Cline install count to about 5.3 million, and the Qwen Code line updated for the OAuth free tier's 2026-04-15 discontinuation; re-verified on 2026-09-10 with the Kimi Code star count moved to about 18.7k the only moved number; re-verified on 2026-09-12 with the OpenHands count moved to about 88k the only moved number; re-verified on 2026-09-13 with the Amp line updated for the Free Agent restructure and the Orca count moved to about 68k; re-verified on 2026-09-16 with the Orca count moved to about 70k the only moved number; re-verified on 2026-09-18 with the Gas Town line updated for Yegge's 2026-09-15 shutdown admission.
+Everything here was verified against live sources on 2026-09-04; the surfaces tail deaths on 2026-08-26, the orchestration exception sentence on 2026-08-27; the harness tail additions (Kilo Code, OpenHands) on 2026-08-27, (fx) on 2026-08-29, the harness tail additions (jcode, Ante, Bullet, Juggler, OneCLI, Warp Agent CLI, Zerostack) plus the orchestration addition (Omnara) on 2026-08-30, the Cursor model-access and Windsurf funding updates on 2026-09-02, and the Windsurf domain handover on 2026-09-04; re-verified on 2026-09-05 with the Orca star count the only moved number, and the harness tail additions (Kimi Code, Exo) dated 2026-09-05; re-verified on 2026-09-06, with the Kimi Code line updated for the CLI's Node.js rebuild; re-verified on 2026-09-07 with the Orca count moved to about 63k; re-verified on 2026-09-08 with the Orca count moved to about 64k and the OpenHands count to about 87k; re-verified on 2026-09-09 with the Orca count moved to about 65k, the Cline install count to about 5.3 million, and the Qwen Code line updated for the OAuth free tier's 2026-04-15 discontinuation; re-verified on 2026-09-10 with the Kimi Code star count moved to about 18.7k the only moved number; re-verified on 2026-09-12 with the OpenHands count moved to about 88k the only moved number; re-verified on 2026-09-13 with the Amp line updated for the Free Agent restructure and the Orca count moved to about 68k; re-verified on 2026-09-16 with the Orca count moved to about 70k the only moved number; re-verified on 2026-09-18 with the Gas Town line updated for Yegge's 2026-09-15 shutdown admission; re-verified on 2026-09-20 with the Orca ade-topic count moved to about 73k, the Kimi Code line updated for the combined stars moving to about 18.9k, the Cline install count to about 5.4 million, and the OpenHands line rewritten for its move to the OpenHands org at about 89k stars.
 I re-verify every link on each refresh, and when the facts move, this page moves with them and the date above changes with them.
 
 **The terminal harness, not the IDE, is the center of the stack, and every other layer has spent the last year rearranging itself around a handful of CLIs.**
@@ -41,11 +41,11 @@ The independent tail matters more than its market share suggests.
 [Crush](../harnesses/crush/index.md) (Charm, FSL-1.1-MIT, about 28k stars) pulls context from language servers the way an IDE would, and it reads the same AGENTS.md files as the bigger tools.
 [Amp](../harnesses/amp/index.md) bets on remote execution, with "orbs" that keep working after you close the laptop, and as of September 13, 2026 it is free when you bring your own compute, subscriptions, or keys, with token fees on your own API keys dropped outside Enterprise.
 [Junie](../harnesses/junie/index.md) is JetBrains' agent, LLM-agnostic with bring-your-own-key, shipping from the terminal, the IDE, and CI.
-[Cline](../harnesses/cline/index.md) grew out of the VS Code extension generation into a full runtime, about 5.3 million marketplace installs deep.
+[Cline](../harnesses/cline/index.md) grew out of the VS Code extension generation into a full runtime, about 5.4 million marketplace installs deep.
 [goose](../harnesses/goose/index.md), Block's Rust agent, joined the Agentic AI Foundation at its formation in December 2025 and completed the migration to the foundation that April, the field's first foundation-governed agent exit.
 [Qwen Code](../harnesses/qwen-code/index.md), Alibaba's fork of Gemini CLI, made its name as the field's free-tier on-ramp and remains the open-weights showcase, though its Qwen OAuth free tier (2,000 requests per day) was discontinued on April 15, 2026.
 [Kilo Code](../harnesses/kilo-code/index.md) carries the Cline-and-Roo feature-merge forward with subagents, schedules, and cloud tasks bundled in, since July 2026 as part of Anaconda.
-[OpenHands](../harnesses/openhands/index.md), the renamed OpenDevin at about 88k stars, is the largest platform-camp bet: sandboxed code-shell-browser agents you can self-host behind its new Agent Canvas plus server architecture.
+[OpenHands](../harnesses/openhands/index.md), the renamed OpenDevin now living under its own OpenHands org at about 89k stars, is the largest platform-camp bet: sandboxed code-shell-browser agents you can self-host behind its new Agent Canvas plus server architecture.
 [fx](../harnesses/fx/index.md) (Vercel Labs, Apache-2.0) is the newest entrant and the first embed-first harness: a ~6 MiB Zig binary with subagents, MCP, and native AGENTS.md, built to live inside other programs and sandboxes rather than to be your environment.
 [jcode](../harnesses/jcode/index.md) (Solo Systems, MIT) is the resource-efficiency bet from a YC-backed solo founder: a Rust daemon with a measured RAM floor, a native memory graph, same-repo swarm coordination, and self-dev mode that rebuilds its own binary.
 [Ante](../harnesses/ante/index.md) (Antigma Labs, Apache-2.0 source) is the footprint-and-offline bet: one ~15MB Rust binary with an embedded llama.cpp engine that runs GGUF models with no account, alongside AGENTS.md, skills, subagents, MCP, and self-published Terminal-Bench runs pinned to public builds.
@@ -54,7 +54,7 @@ The independent tail matters more than its market share suggests.
 [OneCLI](../harnesses/onecli/index.md) (YC S26, Apache-2.0) is the team-security bet: a sandboxed agent per employee whose tool calls cross a credential-injecting gateway, so a stolen agent holds nothing worth stealing.
 [Warp Agent CLI](../harnesses/warp-agent-cli/index.md) (Warp, closed binary) is the vendor-unbundle bet: the same multi-model agent as Warp Terminal in any terminal, with built-in routing, cloud agents, and multi-agent orchestration behind Warp's credit meter.
 [Zerostack](../harnesses/zerostack/index.md) (solo, GPL-3.0) is the community footprint bet: a 26 MB pure-Rust binary at about 16 MB of RAM, with subagents, worktrees, sandboxing, hooks, and MCP behind compile-time flags.
-[Kimi Code](../harnesses/kimi-code/index.md) (Moonshot AI, MIT) is the challenger-vendor bet: a big-model vendor shipping the harness tuned for its own cheap models, with subagents, hooks, marketplace skills, and ACP in a single Node.js CLI, at about 18.7k combined stars across its two repositories.
+[Kimi Code](../harnesses/kimi-code/index.md) (Moonshot AI, MIT) is the challenger-vendor bet: a big-model vendor shipping the harness tuned for its own cheap models, with subagents, hooks, marketplace skills, and ACP in a single Node.js CLI, at about 18.9k combined stars across its two repositories.
 [Exo](../harnesses/exo/index.md) (Exo Labs, MIT) is the self-modification bet: a Rust-and-TypeScript harness with full visibility into its own code and logs, able to edit its prompts, tooling, and policy at runtime, cheapest measured harness in the FrontierHarness run at $1.05 per task.
 
 **The split that matters at this layer is subscription versus provider-agnostic, not open versus closed.**
@@ -93,7 +93,7 @@ Read the caps before you promise anyone a timeline.
 Run enough agents in parallel and your bottleneck stops being generation and starts being supervision.
 The vendors answer inside the harness: subagents in Claude Code and Codex, background agent views, git worktrees everywhere.
 A separate category answers from outside: agentic development environments that run any CLI agent in isolated worktrees and give you one surface to steer and review them all.
-On the GitHub [ade topic](https://github.com/topics/ade), Orca leads with about 70k stars as of 2026-09-16, ahead of Paseo and Superset, and the curated [awesome-agent-orchestrators](https://github.com/andyrewlee/awesome-agent-orchestrators) list tracks well over a hundred more across TUIs, desktop apps, swarms, loop runners, and task runners.
+On the GitHub [ade topic](https://github.com/topics/ade), Orca leads with about 73k stars as of 2026-09-20, ahead of Paseo and Superset, and the curated [awesome-agent-orchestrators](https://github.com/andyrewlee/awesome-agent-orchestrators) list tracks well over a hundred more across TUIs, desktop apps, swarms, loop runners, and task runners.
 [Omnara](../orchestration/omnara/index.md) (YC S25) pushes the category toward infrastructure: an Apache-2.0 Go control plane where an agent is a YAML config and execution and state live server-side, supervised from a dashboard, phone, CLI, REST API, or Slack, positioned as the open-source alternative to Claude Managed Agents.
 
 **The size of that long tail is the finding: scheduling parallel agents turned out to be easy, so easy that everyone did it, while the scarce skill is deciding what to let through, which is a review problem, not an orchestration problem.**
@@ -131,6 +131,8 @@ A harness that adopts the open conventions is making a promise about your exit; 
 - 2026-09-13 - Updated the Amp line for the Free Agent restructure (free on your own compute, subscriptions, or keys, BYOK token fees dropped outside Enterprise).
 - 2026-09-16 - Refreshed the verification chain, with the Orca ade-topic lead count moved to about 70k the only moved number.
 - 2026-09-18 - Updated the Gas Town line for the shutdown: Yegge's 2026-09-15 admission he never successfully built anything with it, per AINews and Dan Luu.
+- 2026-09-20 - Refreshed the verification chain, with the Orca ade-topic lead count moved to about 73k and the Kimi Code combined stars to about 18.9k.
+- 2026-09-20 - Folded the Cline install count to about 5.4 million and rewrote the OpenHands line for the repository's move to the OpenHands org at about 89k stars.
 
 ## See also
 

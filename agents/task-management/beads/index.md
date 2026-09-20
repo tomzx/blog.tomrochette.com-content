@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 beads is Steve Yegge's distributed graph issue tracker for AI agents (`bd`): a Dolt-backed database of tasks with dependencies, atomic claims, and cross-machine sync, designed as persistent memory for coding agents.
-Facts below verified as of 2026-09-18.
+Facts below verified as of 2026-09-20.
 
 **The dependency graph with atomic claims, not the markdown file, is the task interface agents actually need, and beads is the reference implementation of that claim even for people who end up choosing something simpler.**
 
@@ -26,7 +26,7 @@ It lives in the gastownhall organization (renamed from steveyegge, the old name 
 ## Status
 
 Active and moving fast.
-As of 2026-09-18: 27,274 stars, 1,848 forks, 1,209 open issues, created 2025-10-12, pushed 2026-09-16, latest stable release v1.3.0 on 2026-09-15 (after the v1.3.0-rc.1 and rc.2 prereleases of 2026-08-31 and 2026-09-10), and 22,811 npm downloads last month.
+As of 2026-09-20: 27,320 stars, 1,850 forks, 1,224 open issues, created 2025-10-12, pushed 2026-09-20, latest stable release v1.3.0 on 2026-09-15 (after the v1.3.0-rc.1 and rc.2 prereleases of 2026-08-31 and 2026-09-10), and 21,046 npm downloads last month.
 **There is no Show HN launch thread; adoption ran through Yegge's audience and the ecosystem instead, which is itself the community signal.**
 That ecosystem is real: a community Rust port ([beads_rust](https://github.com/Dicklesworthstone/beads_rust), about 1.1k stars) froze the "classic" SQLite-plus-JSONL architecture, a [beads planner plugin](https://news.ycombinator.com/item?id=47263696) and web UIs exist, and the architecture has churned enough (SQLite to Dolt, schema migrations) that people built [drop-in replacements](https://news.ycombinator.com/item?id=46487580).
 
@@ -42,7 +42,7 @@ That ecosystem is real: a community Rust port ([beads_rust](https://github.com/D
 - The architecture churned twice in a year, and the beads_rust fork exists precisely because early adopters needed to freeze it.
 - A SQL database inside your repo is a bigger bet than markdown files; schema-version guards and migration steps now exist for a reason.
 - The simplicity camp defected publicly: the top replacement thread ("faster, simpler Markdown-based task tracker", 84 points) is the standing rebuttal.
-- 1,209 open issues against a fast-moving core means the tracker itself gets triaged by attention, not process.
+- 1,224 open issues against a fast-moving core means the tracker itself gets triaged by attention, not process.
 
 ## Pricing
 
@@ -78,8 +78,8 @@ The disagreeable claim I will defend: every markdown task file is a beads databa
 ## References
 
 - https://github.com/gastownhall/beads - README: commands, Dolt modes, setup, git-free usage
-- https://api.github.com/repos/gastownhall/beads - stars, forks, push dates, MIT license as of 2026-09-18
+- https://api.github.com/repos/gastownhall/beads - stars, forks, push dates, MIT license as of 2026-09-20
 - https://beads.gascity.com/ - official documentation site
 - https://github.com/Dicklesworthstone/beads_rust - the community Rust port freezing classic beads, and the Gas Town evolution note
 - https://news.ycombinator.com/item?id=46487580 - the 84-point replacement thread, the critical source
-- https://api.npmjs.org/downloads/point/last-month/@beads/bd - 22,811 downloads last month
+- https://api.npmjs.org/downloads/point/last-month/@beads/bd - 21,046 downloads last month

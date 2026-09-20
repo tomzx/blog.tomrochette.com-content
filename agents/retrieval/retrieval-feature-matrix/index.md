@@ -1,7 +1,7 @@
 ---
 title: "Retrieval Feature Matrix"
 created: 2026-08-24
-updated: 2026-09-18
+updated: 2026-09-20
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, comparison, retrieval, rag, code-retrieval, llm=glm-5.3-flash]
 readability: 3
@@ -10,28 +10,28 @@ audience_notes: >
   Assumes you know what embeddings, vector stores, and RAG mean; each column links to a full note with sources.
 ---
 
-This matrix compares the five retrieval entries profiled in this section, two frameworks, two patterns, and one chunking library, feature by feature, so the shortlisting step does not require reading five notes.
-Everything below was re-verified against live sources on 2026-09-18.
+This matrix compares the six retrieval entries profiled in this section, two frameworks, two patterns, one chunking library, and one hosted document-parsing pipeline, feature by feature, so the shortlisting step does not require reading six notes.
+Everything below was re-verified against the refreshed member notes and live sources on 2026-09-20.
 
-**Both frameworks are pivoting away from retrieval as their business, both patterns are being demoted by the tools that ship them, and the chunking library that won the niche has outlived its own maker's attention, which I read as evidence that the agent loop, not the index, is now the retrieval layer, a claim the enterprise platform bets are still arguing.**
+**Both frameworks are pivoting away from retrieval as their business, both patterns are being demoted by the tools that ship them, and the chunking library that won the niche has outlived its own maker's attention, which I read as evidence that the agent loop, not the index, is now the retrieval layer, while the newest column bets against that demotion by selling structure-preserving parsing as a hosted service, with a star count that no independent discussion yet backs.**
 
 Legend: ✓ supported, ✗ not supported, ~ partial or conditional, ? not verified as of the date above.
 Each column links to the full note; every cell traces to a source cited there or in the references.
 
 ## The matrix
 
-| Feature | [Chonkie](../chonkie/index.md) | [LangChain](../langchain/index.md) | [LlamaIndex](../llamaindex/index.md) | [Semantic code search](../semantic-code-search/index.md) | [Tree-sitter chunking](../tree-sitter-chunking/index.md) |
-| --- | --- | --- | --- | --- | --- |
-| Kind | chunking library | agent framework | retrieval framework | shipped capability | parsing technique |
-| Open source license | ✓ MIT | ✓ MIT | ✓ MIT | ~ tool-dependent | ✓ MIT parsers |
-| Primary language | Python, TypeScript port | Python | Python | ~ varies by tool | C11 core |
-| Code-specific focus | ~ general text, one code chunker | ~ generic text RAG | ~ general data, code capable | ✓ code only | ✓ code only |
-| AST-aware code splitting | ✓ CodeChunker | ✗ separators only | ✓ CodeSplitter | ? chunkers undisclosed | ✓ the technique |
-| Hosted or commercial arm | ✗ hosted API dead, OSS only | ✓ LangSmith SaaS | ✓ LlamaParse SaaS | ~ plan-gated indexes | ✗ was Chonkie Cloud, now dead |
-| Positioning drift in the notes | ~ maker moved to Feyn Labs, OSS continues | ~ climb to agent platform | ~ pivot to document OCR | ~ demoted to optional | ~ outsourced to Chonkie |
-| Maintenance status | ✓ active, 4.76k stars, 1.08M downloads/month | ✓ active, 146.6k stars | ✓ active, 52.2k stars | ~ active but demoted | ✓ mature, pervasive |
-| Displacement signal in the notes | ~ founder pivoted away, niche commoditized | ~ retrieval commoditized | ~ agentic search eats indexed RAG | ✓ pioneers shipped grep loops | ~ ranked below truncation |
-| What it replaces in a coding-agent stack | framework text splitters | hand-rolled agent loops | hand-rolled retrievers | grep-only lookups | line-count chunking |
+| Feature | [Chonkie](../chonkie/index.md) | [Knowhere](../knowhere/index.md) | [LangChain](../langchain/index.md) | [LlamaIndex](../llamaindex/index.md) | [Semantic code search](../semantic-code-search/index.md) | [Tree-sitter chunking](../tree-sitter-chunking/index.md) |
+| --- | --- | --- | --- | --- | --- | --- |
+| Kind | chunking library | hosted document-parsing pipeline plus OSS engine | agent framework | retrieval framework | shipped capability | parsing technique |
+| Open source license | ✓ MIT | ~ Apache-2.0 engine and self-hosted stack, hosted API proprietary | ✓ MIT | ✓ MIT | ~ tool-dependent | ✓ MIT parsers |
+| Primary language | Python, TypeScript port | Python | Python | Python | ~ varies by tool | C11 core |
+| Code-specific focus | ~ general text, one code chunker | ✗ documents (PDFs, decks, spreadsheets), not code | ~ generic text RAG | ~ general data, code capable | ✓ code only | ✓ code only |
+| AST-aware code splitting | ✓ CodeChunker | ✗ document hierarchy, not AST | ✗ separators only | ✓ CodeSplitter | ? chunkers undisclosed | ✓ the technique |
+| Hosted or commercial arm | ✗ hosted API dead, OSS only | ✓ the hosted per-page API is the funnel | ✓ LangSmith SaaS | ✓ LlamaParse SaaS | ~ plan-gated indexes | ✗ was Chonkie Cloud, now dead |
+| Positioning drift in the notes | ~ maker moved to Feyn Labs, OSS continues | ✗ new entrant (2026-09), no drift yet | ~ climb to agent platform | ~ pivot to document OCR | ~ demoted to optional | ~ outsourced to Chonkie |
+| Maintenance status | ✓ active, 4.76k stars, 1.05M downloads/month | ✓ active, 3.39k stars, v1.2.13 (2026-09-20) | ✓ active, 146.7k stars | ✓ active, 52.2k stars | ~ active but demoted | ✓ mature, pervasive |
+| Displacement signal in the notes | ~ founder pivoted away, niche commoditized | ~ stars ran ahead of any discussion, two Show HNs, 2 points combined | ~ retrieval commoditized | ~ agentic search eats indexed RAG | ✓ pioneers shipped grep loops | ~ ranked below truncation |
+| What it replaces in a coding-agent stack | framework text splitters | hand-rolled OCR plus vector-store parsing | hand-rolled agent loops | hand-rolled retrievers | grep-only lookups | line-count chunking |
 
 ## Reading the matrix
 
@@ -39,6 +39,9 @@ Each column links to the full note; every cell traces to a source cited there or
 LlamaIndex's repository now calls itself a document agent and OCR platform, LlamaParse is the revenue, and legacy API pages such as the code splitter reference survive only as frozen documentation.
 LangChain repositioned as an agent engineering platform with its own terminal coding agent, and my own call in its note is to stop picking it purely for RAG.
 Chonkie completes the pattern from the other side: the library the frameworks outsource chunking to is still maintained and pulling over a million downloads a month, but its maker's domain now redirects to the founder's next venture and the paid API is dead.
+
+**Knowhere is the column betting against the demotion pattern: where every drift row above demotes local indexes, it sells parsing and structuring as a hosted, per-page service and hands the structured result to agents through MCP, which makes it the enterprise-bet side of the thesis made concrete.**
+Its own note carries the counter-signal, 3.39k stars behind two Show HNs with two combined points and a marketing benchmark that is entirely self-reported, so I would pilot it on your worst documents before believing any number on its site.
 
 **The pattern columns carry the shipped verdict: semantic indexes are being demoted inside the tools that pioneered them, and the chunking strategy called most exact is ranked last by the practitioners who documented their pipeline.**
 Cursor's retrieval docs lead with Instant Grep and an Explore subagent, Continue deprecated its `@Codebase` embeddings provider, and VS Code ships a no-index fallback.
@@ -59,6 +62,7 @@ LlamaIndex's newer Chunker node parser wraps Chonkie rather than reimplementing 
 - Want concept lookup in an editor today: use the shipped semantic search where present, but keep a grep-first workflow; do not design around the index existing.
 - Building your own code RAG: start with truncation and fixed-length chunking, and adopt tree-sitter chunking only when measurements on your corpus earn the complexity.
 - Need a chunker beyond truncation for document RAG: Chonkie, free and maintained, accepting that its hosted API is gone and roadmap risk comes from a pivoted maker.
+- RAG over dirty PDFs and decks with no parsing team to maintain: Knowhere, paying per page and spending the free credit on your worst documents first, while treating its self-reported benchmark as marketing until an independent run exists.
 - Repo below a few hundred thousand lines: skip the category and learn compaction, subagents, and memory files first.
 - Past that threshold: build on framework machinery or a dedicated chunker, and deliver the index to your harness via MCP.
 
@@ -69,6 +73,7 @@ LlamaIndex's newer Chunker node parser wraps Chonkie rather than reimplementing 
 - 2026-08-30 - Re-sorted columns alphabetically with LangChain first per the new owner rule, and repaired the tags-line YAML the sort broke.
 - 2026-09-16 - Extended from four to five columns with Chonkie, corrected the tree-sitter hosted-arm cell now that Chonkie Cloud is dead, and updated the thesis, reading, and choosing prose for the library column.
 - 2026-09-18 - Refreshed the maintenance row numbers for the 2026-09-18 re-verification: Chonkie 4.76k stars and 1.08M downloads/month, LangChain 146.6k stars, LlamaIndex 52.2k stars.
+- 2026-09-20 - Extended from five to six columns with Knowhere, refreshed the Chonkie downloads and LangChain stars cells, and extended the thesis, reading, and choosing prose for the hosted-parsing column.
 
 ## See also
 
@@ -80,6 +85,10 @@ LlamaIndex's newer Chunker node parser wraps Chonkie rather than reimplementing 
 ## References
 
 - https://github.com/chonkie-inc/chonkie - repository facts (4,755 stars, MIT, pushed 2026-09-18) for the Chonkie column (GitHub API, as of 2026-09-18)
+- https://github.com/Ontos-AI/knowhere - repository, tracks, and MCP server for the Knowhere column (3,391 stars, Python, Apache-2.0, pushed 2026-09-17, as of 2026-09-20)
+- https://docs.knowhereto.ai/pricing - the per-page pricing behind the Knowhere commercial-arm cell
+- https://docs.knowhereto.ai/mcp - the parse, list, outline, grep, and retrieval tools behind the Knowhere column's agent-facing surface
+- https://hn.algolia.com/api/v1/items/49738595 - the September 2026 Show HN grounding the Knowhere missing-discussion cell
 - https://raw.githubusercontent.com/chonkie-inc/chonkie/main/README.md - chunker table (CodeChunker, FastChunker) and the self-hosted API server for the Chonkie column
 - https://pypistats.org/api/packages/chonkie/recent - 1,081,591 downloads last month for the maintenance row, as of 2026-09-18
 - https://usefeyn.com - the Feyn Labs founder letter behind the chonkie.ai redirect, grounding the maker-moved-on cells

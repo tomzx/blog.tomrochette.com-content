@@ -1,7 +1,7 @@
 ---
 title: Hamel Husain
 created: 2026-08-29
-updated: 2026-09-13
+updated: 2026-09-20
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=big-pickle, llm=glm-5.3-flash, people, publications, evals, applied-ai, llm-practitioner]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Hamel Husain is the independent consultant and writer who turned AI evaluation, "evals", from an afterthought into the disciplined practice teams use to decide whether their agent works.
-Facts below verified as of 2026-09-18.
+Facts below verified as of 2026-09-20.
 
 **His core argument is that most AI teams focus on architecture when what decides success is measurement and iteration: the teams that win "obsess over measurement and iteration" rather than the vector database or framework.**
 
@@ -47,6 +47,12 @@ He is co-author of the forthcoming O'Reilly book [Evals for AI Engineers](https:
 Free to read on the blog and substack.
 The course is paid ($4,200 on Maven as of 2026-09-13), and Parlance Labs sells consulting and the O'Reilly book is forthcoming.
 
+## Price history
+
+| Date | Plan | Change | Source |
+| ---- | ---- | ------ | ------ |
+| 2026-09-13 | Maven course | Baseline: blog and substack free; the evals course $4,200 on Maven; Parlance Labs sells consulting. | [maven.com/parlance-labs/evals](https://maven.com/parlance-labs/evals) |
+
 ## Compared to
 
 - [Andrej Karpathy](../andrej-karpathy/index.md): the vocabulary-setter versus the practitioner; Karpathy names the concepts, Husain gives you the working method for verifying them.
@@ -62,6 +68,7 @@ Not for someone looking for survey-level breadth or for a tool recommendation; i
 
 - 2026-08-29 - Created in the People and publications expansion as the evaluation-and-verification note.
 - 2026-08-30 - Aligned the course claim to the current page wording.
+- 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
 
 ## See also
 

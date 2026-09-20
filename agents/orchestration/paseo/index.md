@@ -1,7 +1,7 @@
 ---
 title: Paseo
 created: 2026-08-30
-updated: 2026-09-12
+updated: 2026-09-20
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, parallel-agents, mobile, open-source]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Paseo is a free, open-source, self-hosted orchestration layer that runs coding agents as local processes on your own machines and drives them from desktop, web, mobile, and CLI clients over one daemon.
-Facts below verified as of 2026-09-18.
+Facts below verified as of 2026-09-20.
 
 **Paseo's differentiator is not parallelism, which is now table stakes, but reach: it is the only orchestrator in its class with native iOS and Android clients at full feature parity, wrapped around your existing agent subscriptions instead of replacing them.**
 
@@ -25,8 +25,8 @@ Apache-2.0 (with a custom copyright notice), by Mohamed Boudra, an independent s
 
 ## Status
 
-Young and fast: about 17.6k stars, 2k forks, and 854 open issues and PRs (529 issues plus 325 pulls) as of 2026-09-18, created 2025-10-13, with more than 5,300 commits on main.
-The 0.8 line reached stable while I watched: v0.8.0 shipped 2026-09-10 with plugin header buttons, custom providers, and richer chat components, and remains the latest release as of 2026-09-18, alongside 165 contributors and an active subreddit and Discord.
+Young and fast: about 17.7k stars, 2k forks, and 848 open issues and PRs (510 issues plus 338 pulls) as of 2026-09-20, created 2025-10-13, with more than 5,300 commits on main.
+The 0.8 line reached stable while I watched: v0.8.0 shipped 2026-09-10 with plugin header buttons, custom providers, and richer chat components, and remains the latest release as of 2026-09-20, alongside 165 contributors and an active subreddit and Discord.
 **The structural risk is on the label: the maintainer described himself on Hacker News as a team of one, and monetization has now arrived as the hosted Hub at €15 per seat per month.**
 
 ## Strengths
@@ -38,7 +38,7 @@ The 0.8 line reached stable while I watched: v0.8.0 shipped 2026-09-10 with plug
 
 ## Cautions
 
-- Pre-1.0 with fast churn; the tracker crossed 1,200 open issues and PRs by 2026-09-07 before a cleanup wave closed roughly 400 of them in a day, down to 816 by 2026-09-08, 653 as of 2026-09-10, 724 as of 2026-09-12, 821 as of 2026-09-16, and 854 as of 2026-09-18, and demand still outruns a tiny team.
+- Pre-1.0 with fast churn; the tracker crossed 1,200 open issues and PRs by 2026-09-07 before a cleanup wave closed roughly 400 of them in a day, down to 816 by 2026-09-08, 653 as of 2026-09-10, 724 as of 2026-09-12, 821 as of 2026-09-16, 854 as of 2026-09-18, and 848 as of 2026-09-20, and demand still outruns a tiny team.
 - Subscription-billing friction: the maintainer confirmed Claude subscription usage through Paseo draws from a different, smaller credit pool than interactive use.
 - Solo-maintainer bus factor with a business model still pending.
 - Hacker News commenters noted it converges with Conductor, cmux, and Devin-style tools unless mobile-first steering is your actual need.
@@ -47,6 +47,13 @@ The 0.8 line reached stable while I watched: v0.8.0 shipped 2026-09-10 with plug
 
 Free and open source under Apache-2.0; you bring your own agent CLIs, subscriptions, and API keys.
 The hosted Hub (managed GitHub, Slack, and Discord triggers) is now generally available at €15 per seat per month with a free trial, where late August still had registration closed; self-hosting Hub remains free.
+
+## Price history
+
+| Date | Plan | Change | Source |
+| ---- | ---- | ------ | ------ |
+| 2026-08 | Hub | Late August: hosted Hub registration closed, no pricing; core free (Apache-2.0). | [paseo.sh/hub](https://paseo.sh/hub) |
+| 2026-09 | Hub | Hub generally available at €15/seat/mo with a free trial; self-hosting Hub free. | [paseo.sh/hub](https://paseo.sh/hub) |
 
 ## Compared to
 
@@ -64,6 +71,7 @@ Not for teams needing a vendor's support contract, or Mac-only shops happy payin
 - 2026-08-30 - Created in the Orchestration category, recording cross-device daemon orchestration with a solo-maintainer risk.
 - 2026-09-02 - Recorded v0.7 shipping as stable.
 - 2026-09-12 - Recorded v0.8.0 shipping as stable (September 10) with plugin providers and Hub follow-ups.
+- 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
 
 ## See also
 

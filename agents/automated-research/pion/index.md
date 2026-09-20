@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Pion is Andon Labs' proprietary cloud platform where persistent agents run a business continuously and autonomously, provisioned with terminal, browser, email, phone, banking, and card tools under a managing agent called Andonos, announced 2026-09-14 as a research preview with a waitlist and no public code.
-Facts below verified as of 2026-09-18.
+Facts below verified as of 2026-09-20.
 
 **Pion is the Vending-Bench and Project Vend lineage made product: a capability-research instrument that happens to be a platform, and the launch thread's own contradiction, calling autonomous resource acquisition the most troubling capability while releasing exactly that, is the sharpest public statement of the tension this category carries.**
 
@@ -26,7 +26,7 @@ The company is YC-backed and is the team behind Vending-Bench 2 and Anthropic's 
 
 Research preview, closed, no pricing.
 Announced 2026-09-14 on the Andon Labs blog; access is waitlist-gated and gradual, with Andon funding selected ideas with seed tokens.
-The launch thread reached 490 points on Hacker News as of 2026-09-18, the largest item in this section's launch window, submitted by Andon co-founder Lukas Petersson.
+The launch thread reached 495 points on Hacker News as of 2026-09-20, the largest item in this section's launch window, submitted by Andon co-founder Lukas Petersson.
 The underlying record is real: Project Vend's vending machine went from losing money in 2025 to profitable by late 2025 across three countries, and Andon reports its Market and Café (running since April 2026) are still not profitable.
 
 ## Strengths
@@ -79,4 +79,4 @@ The disagreeable claim I will defend: whatever you think of the ethics, judging 
 - https://www.anthropic.com/research/project-vend-1 - the origin experiment: Claudius, the failures, the identity crisis
 - https://www.anthropic.com/research/project-vend-2 - the profitable phase: the CEO agent, three locations, the bureaucracy finding
 - https://andonlabs.com/evals/vending-bench-2 - the eval behind the platform: leaderboard, no-ceiling design
-- https://news.ycombinator.com/item?id=49700477 - the 483-point launch thread: the contradiction quote, the accountability question, the liability discussion
+- https://news.ycombinator.com/item?id=49700477 - the 495-point launch thread: the contradiction quote, the accountability question, the liability discussion

@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Zerostack is a solo-maintained GPL-3.0 coding agent written in pure Rust that pitches a 26 MB binary and about 16 MB of average RAM against the hundreds of megabytes its JavaScript competitors consume.
-Facts below verified as of 2026-09-18.
+Facts below verified as of 2026-09-20.
 
 **Zerostack is the strongest community signal of any independently built harness in this section, and its rise says the harness argument has moved from features to resource footprint.**
 

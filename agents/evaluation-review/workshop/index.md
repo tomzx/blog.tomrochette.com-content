@@ -1,7 +1,7 @@
 ---
 title: Workshop
 created: 2026-08-30
-updated: 2026-09-12
+updated: 2026-09-20
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, evaluation, observability, debugging, open-source]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Workshop is a free, MIT-licensed local debugger for AI agents from Raindrop that streams every token, tool call, and decision into a localhost web UI, and lets your coding agent read those traces, write evals against your codebase, and fix what fails.
-Facts below verified as of 2026-09-18.
+Facts below verified as of 2026-09-20.
 
 **Workshop's bet is that the eval writer should be the coding agent itself, inside the debug loop, and its weakest row is the one that decides enterprise adoption: nothing here touches CI.**
 
@@ -48,6 +48,12 @@ Young with a strong launch: 1,084 stars, 67 forks, 7 open issues as of 2026-09-1
 Workshop is free, local, MIT, no tiers.
 Raindrop Cloud is optional: Hobby $0 (1,000 events/month), Pro $299/month plus per-event overage, Enterprise custom.
 
+## Price history
+
+| Date | Plan | Change | Source |
+| ---- | ---- | ------ | ------ |
+| 2026-09 | Raindrop Cloud | Baseline: Workshop free, local, MIT; optional Raindrop Cloud Hobby $0 (1,000 events/mo), Pro $299/mo plus per-event overage, Enterprise custom. | [raindrop.ai](https://www.raindrop.ai/) |
+
 ## Compared to
 
 - [deepeval](../deepeval/index.md): a CI-run pytest-style eval framework with roughly 50 metrics; choose Workshop for the local agent-debug loop, deepeval to gate merges.
@@ -62,6 +68,7 @@ Not for teams needing CI-gated eval suites today, or Windows-primary shops hedge
 ## Changes
 
 - 2026-08-30 - Created as an evaluation note, recording Raindrop's local agent debugger and the CI-disconnect criticism.
+- 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
 
 ## See also
 

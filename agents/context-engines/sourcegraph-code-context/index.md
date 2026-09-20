@@ -1,7 +1,7 @@
 ---
 title: Sourcegraph code context platform
 created: 2026-08-24
-updated: 2026-09-13
+updated: 2026-09-20
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, code-search, code-retrieval, enterprise-tools, mcp, llm=glm-5.3-flash]
 readability: 3
@@ -12,7 +12,7 @@ audience_notes: >
 ---
 
 Sourcegraph is a code intelligence platform (Code Search, Deep Search, an MCP server with the Code Finder agent) that has repositioned itself as the retrieval layer both humans and coding agents use on large codebases.
-Facts below verified as of 2026-09-18.
+Facts below verified as of 2026-09-20.
 
 **Sourcegraph rebuilt itself around selling search to agents rather than assistants to humans, and its own benchmark data says the value only appears above roughly 400K lines of code, which is exactly the fact its sales motion will not volunteer.**
 
@@ -50,8 +50,14 @@ I found little independent 2026 community discussion of the post-split platform;
 ## Pricing
 
 **The floor is $16K a year before any AI usage, which prices out every team the product's own data says it cannot help.**
-Enterprise plan starting at $16K per year as of 2026-09-18, scaling with team size, including pooled AI credits (no monthly expiry, rollover on renewal), with volume credit buckets as an add-on and 24x5 support.
+Enterprise plan starting at $16K per year as of 2026-09-20, scaling with team size, including pooled AI credits (no monthly expiry, rollover on renewal), with volume credit buckets as an add-on and 24x5 support.
 No self-serve or free private tier; the public code search is free.
+
+## Price history
+
+| Date | Plan | Change | Source |
+| ---- | ---- | ------ | ------ |
+| 2026-09-18 | Enterprise | Baseline: starts at $16K/yr scaling with team size, pooled AI credits with rollover, volume credit buckets as an add-on; no self-serve tier; public code search free. | [sourcegraph.com/pricing](https://sourcegraph.com/pricing) |
 
 ## Compared to
 
@@ -68,6 +74,7 @@ My disagreeable claim: below roughly 400K LOC, buying Sourcegraph for your agent
 ## Changes
 
 - 2026-08-24 - Created in the Context engines category seed.
+- 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
 
 ## See also
 

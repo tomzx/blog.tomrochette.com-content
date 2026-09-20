@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 OpenAI for Science is the lab program, launched October 2025 under Kevin Weil, that points frontier models at scientific and mathematical research, and within a year it produced both a genuine first and the messiest credit dispute in the category.
-Facts below verified as of 2026-09-18.
+Facts below verified as of 2026-09-20.
 
 **The program shows the ceiling and the failure modes of lab-run automated research at once: real results exist, but every headline arrived wrapped in overclaims, deleted posts, or a dispute over who did the work.**
 

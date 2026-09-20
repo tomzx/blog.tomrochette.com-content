@@ -1,7 +1,7 @@
 ---
 title: Bullet
 created: 2026-08-30
-updated: 2026-09-16
+updated: 2026-09-20
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agents, harnesses, model-routing, benchmarks]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Bullet is a closed-source coding agent (desktop app plus npm CLI) from a YC S26 startup whose entire pitch is latency: route simple tasks to fast models, search instead of embedding the repo, run tool calls in parallel, and kill stuck loops.
-Facts below verified as of 2026-09-18.
+Facts below verified as of 2026-09-20.
 
 **Bullet is the first harness to compete on speed rather than capability, and its benchmark write-up is the most transparent vendor self-report in the category, which makes the closed source the only thing standing between it and a serious look.**
 
@@ -25,8 +25,8 @@ It is closed source: the npm package is marked UNLICENSED, its declared reposito
 
 ## Status
 
-v1.4.20 as of 2026-09-18, the newest build on both the CLI registry and the desktop releases repository, published September 14, 2026.
-The CLI shipped on npm on August 7, 2026 and did 767 downloads in the last week and 2,472 in the last month as of 2026-09-18 (the npm API's windows end September 16).
+v1.4.21 as of 2026-09-20, the newest build on both the CLI registry and the desktop releases repository, published September 19, 2026.
+The CLI shipped on npm on August 7, 2026 and did 735 downloads in the last week and 2,073 in the last month as of 2026-09-20 (the npm API's windows end September 19).
 Its Launch HN on August 13, 2026 reached 121 points (item 49283063), nine days after a quiet 9-point Show HN.
 Traction is real but early: thousands of installs, not millions, with YC backing as the deliberately stated signal behind it.
 
@@ -63,6 +63,7 @@ I think speed is the wrong axis for buying a coding agent, and a 119-second mean
 
 - 2026-08-30 - Created in the Harnesses category seed.
 - 2026-09-16 - Moved the current build to v1.4.20, published September 14, 2026 on both npm and the desktop release repository.
+- 2026-09-20 - Moved the current build to v1.4.21 (published September 19, 2026) and refreshed npm download counts.
 
 ## See also
 
@@ -73,10 +74,10 @@ I think speed is the wrong axis for buying a coding agent, and a 119-second mean
 
 ## References
 
-- https://www.codewithbullet.com - product surface, YC badge, CLI install, free access as of 2026-09-18
+- https://www.codewithbullet.com - product surface, YC badge, CLI install, free access as of 2026-09-20
 - https://www.codewithbullet.com/blog/benchmark-results.html - the SWE-bench Verified run: 479/500, 119 s mean, $0.73 per instance
 - https://registry.npmjs.org/@trybullet%2Fcli - CLI version, UNLICENSED marker, and dead repository URL
-- https://api.npmjs.org/downloads/point/last-month/@trybullet/cli - 2,472 monthly downloads as of 2026-09-18
-- https://github.com/trybullet/bullet-releases - desktop release channel, v1.4.20 published September 14, 2026
+- https://api.npmjs.org/downloads/point/last-month/@trybullet/cli - 2,073 monthly downloads as of 2026-09-20
+- https://github.com/trybullet/bullet-releases - desktop release channel, v1.4.21 published September 19, 2026
 - https://news.ycombinator.com/item?id=49283063 - 121-point Launch HN with YC S26 in the title and community skepticism
 - https://news.ycombinator.com/item?id=49173799 - the earlier 9-point Show HN nine days prior

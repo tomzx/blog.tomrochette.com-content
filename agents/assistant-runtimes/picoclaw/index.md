@@ -1,7 +1,7 @@
 ---
 title: PicoClaw
 created: 2026-08-27
-updated: 2026-09-09
+updated: 2026-09-20
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, assistant-runtimes, personal-assistants, golang, edge, risc-v, open-source]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 PicoClaw is Sipeed's ultra-light personal assistant in Go (MIT): one binary that runs on $10 RISC-V boards in 10-20MB of RAM, an independent implementation inspired by NanoBot rather than a fork of OpenClaw.
-Facts below verified as of 2026-09-18.
+Facts below verified as of 2026-09-20.
 
 **PicoClaw proves the assistant runtime has become a compile target: when an assistant fits in 10MB, the category stops being software you run and becomes hardware you buy, and Sipeed sells the board, which is a business model nobody else in the family has.**
 
@@ -24,8 +24,9 @@ It reached 20k stars in 17 days from a February 2026 start.
 ## Status
 
 Active, pre-1.0, and explicit about both.
-As of 2026-09-18: 29,997 stars and 4,454 forks since creation on 2026-02-04, last push 2026-09-17, only 39 open issues, v0.3.1 released 2026-07-03 after the v0.2.x line through May.
+As of 2026-09-20: 30,004 stars and 4,454 forks since creation on 2026-02-04, last push 2026-09-17, only 40 open issues, v0.3.1 still the latest release (2026-07-03) after the v0.2.x line through May.
 **The README carries two unusual banners: a do-not-deploy-to-production-before-v1.0 warning, and a scam notice that no official PicoClaw cryptocurrency exists and picoclaw.io is the only official domain, both signs of attention arriving faster than governance.**
+The official domain itself is currently broken: picoclaw.io's TLS certificate expired on 2026-09-10 and was still expired as of 2026-09-20, so the site fails certificate validation while docs.picoclaw.io keeps serving.
 The naming ladder keeps extending below it (SmolClaw microvm, FemtoClaw for ESP32 and Raspberry Pi Pico), which tells you the size race became a meme.
 
 ## Strengths
@@ -63,6 +64,7 @@ My disagreeable claim: the size race is now the category's main axis of progress
 
 - 2026-08-27 - Created in the Assistant runtimes category seed covering the OpenClaw variants, recording Sipeed's Go-from-scratch implementation.
 - 2026-08-30 - Corrected the release line to v0.3.1 of 2026-07-03.
+- 2026-09-20 - Recorded that picoclaw.io's TLS certificate expired on 2026-09-10 and remains expired, leaving docs.picoclaw.io as the working official entry point.
 
 ## See also
 
@@ -75,7 +77,7 @@ My disagreeable claim: the size race is now the category's main axis of progress
 
 - https://github.com/sipeed/picoclaw - README: footprint, architectures, security banners, release news
 - https://api.github.com/repos/sipeed/picoclaw - stars, forks, issues as of 2026-09-18
-- https://picoclaw.io - official site (the only official domain per the scam notice)
+- https://picoclaw.io - official site (the only official domain per the scam notice); its TLS certificate expired 2026-09-10 and was unresolved as of 2026-09-20, so the docs domain is the working entry point
 - https://docs.picoclaw.io/ - official documentation
 - https://news.ycombinator.com/item?id=46955793 - the launch-era Show HN (11 points)
 - https://github.com/HKUDS/nanobot - the stated inspiration (48,305 stars)

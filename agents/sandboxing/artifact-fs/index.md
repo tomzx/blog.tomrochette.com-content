@@ -1,7 +1,7 @@
 ---
 title: ArtifactFS
 created: 2026-08-30
-updated: 2026-09-13
+updated: 2026-09-20
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, sandboxing, workspace-provisioning, git, cloudflare, open-source]
 readability: 3
@@ -48,6 +48,12 @@ Tags run `1.0.0-rc.1` through `rc.10` with no GitHub Releases; 57 commits concen
 The driver is free, Apache-2.0.
 The Cloudflare Artifacts service it complements is usage-based on Workers Paid: 10,000 operations and 1 GB-month included, then $0.15 per additional 1,000 operations and $0.50 per GB-month, still in closed beta.
 
+## Price history
+
+| Date | Plan | Change | Source |
+| ---- | ---- | ------ | ------ |
+| 2026-09 | Cloudflare Artifacts | Baseline: driver free (Apache-2.0); Artifacts usage-based on Workers Paid with 10,000 operations and 1 GB-month included, then $0.15 per additional 1,000 operations and $0.50 per GB-month, closed beta. | [Cloudflare Artifacts pricing](https://developers.cloudflare.com/artifacts/platform/pricing/) |
+
 ## Compared to
 
 - Git sparse-checkout: built-in and FUSE-free when you know the paths you need up front.
@@ -62,6 +68,7 @@ Not for small or medium repos, Windows or locked-down CI environments, or anyone
 ## Changes
 
 - 2026-08-30 - Created as a sandboxing research note on Cloudflare's FUSE provisioning driver, with a vendor-benchmark caveat.
+- 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
 
 ## See also
 

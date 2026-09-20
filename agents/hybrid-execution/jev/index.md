@@ -1,7 +1,7 @@
 ---
 title: Jev
 created: 2026-09-18
-updated: 2026-09-18
+updated: 2026-09-20
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, hybrid-execution, structured-outputs, system-one-models, decision-models]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Jev is TypeSafe AI's first "System One model": a frontier-class model that generates no text at all and answers typed questions with structured values and calibrated probabilities, positioned as the architectural inversion of everything else in this category.
-Facts below verified as of 2026-09-18.
+Facts below verified as of 2026-09-20.
 
 **Every other mechanism here constrains or checks a text generator; Jev removes the text generator, and if its numbers survive third-party testing, the parse-validate-retry stack the other four columns sell becomes legacy glue.**
 
@@ -48,6 +48,12 @@ Active and brand new; the claims below are almost entirely vendor-run.
 $0.042 per million input tokens with output free, per the 2026-09-15 launch post, in early access with a waitlist.
 No published tiers beyond that; sustainability unproven by the vendor's own admission.
 
+## Price history
+
+| Date | Plan | Change | Source |
+| ---- | ---- | ------ | ------ |
+| 2026-09-15 | Launch | Baseline: $0.042 per million input tokens with output free, early access with a waitlist, no other published tiers. | [System One launch post](https://typesafe.ai/blog/introducing-system-one-models-and-jev) |
+
 ## Compared to
 
 - [Instructor](../instructor/index.md): validates a full LLM round trip and re-asks on failure; keep it when you need text generation and business rules, switch the decision layer to Jev when latency and cost dominate and the question decomposes.
@@ -63,6 +69,7 @@ The disagreeable claim I will defend: this category's four existing members all 
 ## Changes
 
 - 2026-09-18 - Created from the owner-prompted entrant resolution after the 2026-09-15 launch slipped between entrant-scan windows.
+- 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
 
 ## See also
 

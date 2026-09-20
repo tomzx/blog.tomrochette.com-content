@@ -1,7 +1,7 @@
 ---
 title: Worktrunk
 created: 2026-08-30
-updated: 2026-09-18
+updated: 2026-09-20
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, git-worktrees, cli, open-source]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Worktrunk (`wt`) is a Rust CLI that makes git worktrees as easy as branches so you can run many coding agents in parallel, with lifecycle hooks, LLM commit messages, and a one-command merge pipeline.
-Facts below verified as of 2026-09-18.
+Facts below verified as of 2026-09-20.
 
 **Worktrunk wins by staying out of the way: no TUI to learn, no daemon to run, just worktrees addressed by branch name plus hooks that automate the boring 80 percent of the parallel-agent workflow.**
 
@@ -24,8 +24,8 @@ Dual MIT or Apache-2.0 license, Homebrew, cargo, winget, and Arch (pacman) distr
 
 ## Status
 
-The leading worktree manager of the agent wave: about 8k stars, 273 forks, 43 open issues and PRs as of 2026-09-18, created 2025-10-17, more than 5,000 commits on main, latest release v0.78.0 on 2026-09-16.
-Roughly 78 releases in ten and a half months; still pre-1.0 with breaking changes per release, and effectively a single-maintainer project.
+The leading worktree manager of the agent wave: about 8.1k stars, 283 forks, 42 open issues and PRs as of 2026-09-20, created 2025-10-17, more than 5,000 commits on main, latest release v0.78.0 on 2026-09-16.
+About 150 releases in eleven months; still pre-1.0 with breaking changes per release, and effectively a single-maintainer project.
 
 ## Strengths
 
@@ -61,6 +61,7 @@ Not for GUI-first workflows, and not for anyone who needs a project to promise s
 - 2026-08-30 - Created as an Orchestration note with the single-maintainer risk flagged.
 - 2026-09-02 - Recorded the v0.76.0 release with its breaking -x flag change.
 - 2026-09-18 - Recorded v0.78.0 (September 16) and its breaking hook-context-key rename.
+- 2026-09-20 - Corrected the release count to about 150 (the earlier 78 was an undercount) and refreshed stars and tracker counts; v0.78.0 remains latest.
 
 ## See also
 

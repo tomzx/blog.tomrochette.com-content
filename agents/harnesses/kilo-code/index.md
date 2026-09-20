@@ -1,7 +1,7 @@
 ---
 title: Kilo Code
 created: 2026-08-27
-updated: 2026-09-16
+updated: 2026-09-20
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agents, harnesses, open-source, vscode, byok]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Kilo Code is an open-source (MIT) agentic coding assistant for VS Code, JetBrains IDEs, and the terminal, born in early 2025 as a feature-merge fork of Cline and Roo Code and acquired by Anaconda on July 15, 2026.
-Facts below verified as of 2026-09-18.
+Facts below verified as of 2026-09-20.
 
 **Kilo Code is the live continuation of the Roo-and-Cline extension lineage now folded into an enterprise Python vendor's portfolio, and the open question after that acquisition is whether extension-first users keep first-class status.**
 
@@ -25,7 +25,7 @@ Any-model BYOK works alongside Kilo's own metered credits, with local models via
 ## Status
 
 **Active under new ownership.**
-The repository shows about 27.3k stars under MIT as of 2026-09-18, most recently pushed 2026-09-18; component tags ship on their own clocks (the latest release is v7.7.4, published September 18, 2026).
+The repository shows about 27.3k stars under MIT as of 2026-09-18, most recently pushed 2026-09-18; component tags ship on their own clocks (the latest release is v7.7.5, published September 18, 2026).
 Anaconda announced the acquisition on July 15, 2026 and already lists Kilo among its products; kilocode.ai redirects to kilo.ai, where the vendor positions it as an all-in-one agentic engineering platform.
 
 ## Strengths
@@ -49,6 +49,12 @@ Teams: $15/user/month adding shared agent modes, analytics, centralized billing,
 Enterprise: custom SSO/OIDC/SCIM, audit logs, private gateway, SLAs.
 Costs split three ways (platform plan, AI inference, cloud compute), quoted separately.
 
+## Price history
+
+| Date | Plan | Change | Source |
+| ---- | ---- | ------ | ------ |
+| 2026-09 | Teams | Baseline: individuals free and open source (BYOK or prepaid credits), Teams $15/user/mo, Enterprise custom. | [kilo.ai/pricing](https://kilo.ai/pricing) |
+
 ## Compared to
 
 - [Roo Code](../../surfaces/roo-code/index.md): the ancestor kept here as a sunset record; where Roo pivoted away, Kilo carried the extension forward.
@@ -65,6 +71,8 @@ Not for teams needing a stable multi-year vendor story right now, because owners
 - 2026-08-27 - Created from the new-entrant scan, recording the Cline-Roo lineage, the Anaconda acquisition, and pricing.
 - 2026-09-02 - Recorded that the README no longer carries its popularity claim.
 - 2026-09-16 - Refreshed repository state (pushed 2026-09-16) and recorded the new latest release v7.7.2 (September 15).
+- 2026-09-20 - Recorded the new latest release v7.7.5 (September 18).
+- 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
 
 ## See also
 

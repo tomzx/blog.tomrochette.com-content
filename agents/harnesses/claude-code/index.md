@@ -1,7 +1,7 @@
 ---
 title: Claude Code
 created: 2026-08-22
-updated: 2026-09-12
+updated: 2026-09-20
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, coding-agents, harnesses, anthropic, developer-tools]
 readability: 3
@@ -12,7 +12,7 @@ audience_notes: >
 ---
 
 Claude Code is Anthropic's agentic coding tool: a terminal-first harness that also runs as IDE extensions, a desktop app, on the web, and from Slack.
-Facts below verified as of 2026-09-18.
+Facts below verified as of 2026-09-20.
 
 **It is the most complete harness platform shipping today, and also the most expensive way to run the same tokens, because you pay a large per-request baseline for orchestration whether you use it or not.**
 
@@ -27,7 +27,7 @@ The npm install is deprecated in favor of a native installer; third-party provid
 ## Status
 
 **Active and dominant.**
-The `anthropics/claude-code` repository shows about 146k stars and about 12.5k open issues and pull requests as of 2026-09-18; it hosts plugins, docs, and the issue tracker rather than the CLI source, which is proprietary.
+The `anthropics/claude-code` repository shows about 146.8k stars and about 12.3k open issues and pull requests as of 2026-09-20; it hosts plugins, docs, and the issue tracker rather than the CLI source, which is proprietary.
 Shipping pace in 2026 is high: projects for supervising groups of parallel agents (September 17), dynamic workflows across tens of parallel subagents (May 28), agent view (May 11), routines (April), computer use (March).
 
 ## Strengths
@@ -50,6 +50,12 @@ The same study measured mid-session cache re-writes up to 54x and a 4.2x token m
 Included in Claude Pro ($17/month annual, $20 monthly), Max 5x ($100/month), and Max 20x ($200/month), subject to usage limits.
 **Alternatively, pay per token through the Anthropic Console or a cloud provider.**
 Price and plan changes are at Anthropic's discretion, per the product page.
+
+## Price history
+
+| Date | Plan | Change | Source |
+| ---- | ---- | ------ | ------ |
+| 2026-09 | Claude plans | Baseline: included in Pro ($17/mo annual, $20 monthly), Max 5x $100/mo, Max 20x $200/mo, subject to usage limits; per-token billing via the Anthropic Console or cloud providers. | [claude.com/product/claude-code](https://claude.com/product/claude-code) |
 
 ## Compared to
 
@@ -74,6 +80,7 @@ Not for the token-frugal or for anyone who needs an open, auditable client.
 - 2026-09-08 - Corrected two feature-timeline months against the cited product page (routines in May, computer use in April).
 - 2026-09-10 - Canonicalized the sandboxing docs reference to code.claude.com.
 - 2026-09-12 - Corrected two more feature-timeline months against the live product page.
+- 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
 
 ## See also
 
@@ -86,7 +93,7 @@ Not for the token-frugal or for anyone who needs an open, auditable client.
 
 - https://code.claude.com/docs/en/overview - surfaces, skills, hooks, subagents, routines, installation
 - https://claude.com/product/claude-code - pricing tiers and 2026 feature timeline
-- https://github.com/anthropics/claude-code - repository scale (about 146k stars) and npm deprecation, as of 2026-09-18
+- https://github.com/anthropics/claude-code - repository scale (about 146.8k stars) and npm deprecation, as of 2026-09-20
 - http://web.archive.org/web/20260814104128/https://thereallo.dev/blog/claude-code-prompt-steganography - independent analysis of hidden prompt markers (archived; the live site blocks automated fetches)
 - https://systima.ai/blog/claude-code-vs-opencode-token-overhead - measured baseline, cache, and subagent token costs (July 2026)
 - https://news.ycombinator.com/item?id=47584540 - the March 31, 2026 npm sourcemap-leak discussion (2,095 points)

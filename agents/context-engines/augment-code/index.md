@@ -1,7 +1,7 @@
 ---
 title: Augment Code
 created: 2026-08-24
-updated: 2026-09-13
+updated: 2026-09-20
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, context-engines, coding-agents, enterprise-tools]
 readability: 3
@@ -12,7 +12,7 @@ audience_notes: >
 ---
 
 Augment Code is an AI coding platform whose core is the Context Engine, a real-time semantic index of the codebase that feeds its Auggie CLI agent and the Cosmos agent orchestration platform.
-Facts below verified as of 2026-09-18.
+Facts below verified as of 2026-09-20.
 
 **Augment makes the strongest documented claim in the context-engine space, that retrieval quality cuts agent token spend by a third at matched quality, and every number behind it is vendor-run, so buyer-side replication is the actual missing feature.**
 
@@ -27,9 +27,9 @@ Everything is closed-source SaaS with SOC 2 Type II, ISO 42001, zero data retent
 ## Status
 
 **Active and shipping fast, with a trust deficit from the 2025 pricing reset.**
-Blog cadence runs multiple posts per month through August 28, 2026 (Cosmos launch, GPT-5.6 Sol as default in July, the Auggie harness rebuild, further PR-to-merge loop optimization).
+Blog cadence runs multiple posts per month through September 11, 2026 (Cosmos launch, GPT-5.6 Sol as default in July, the Auggie harness rebuild, further PR-to-merge loop optimization, and a Software Factory buildout post).
 The October 20, 2025 pricing change triggered a community revolt; the company's own Reddit response admitted 22.5% of users were consuming 20x what they paid, and the HN thread documents broken grandfathering promises.
-There is no free tier as of 2026-09-18.
+There is no free tier as of 2026-09-20.
 I could not verify funding history from primary sources in this run (the company pages do not state it and Wikipedia has no article), which is itself a signal: the public record for this company is mostly its own marketing.
 
 ## Strengths
@@ -53,6 +53,12 @@ Standard is $20/month flat for up to 50 seats including $20/month of usage, and 
 Enterprise is custom (unlimited users, data residency, CMEK, SIEM, dedicated support).
 No free tier; trials get community support only.
 
+## Price history
+
+| Date | Plan | Change | Source |
+| ---- | ---- | ------ | ------ |
+| 2026-09-18 | Standard, Business | Baseline: Standard $20/mo flat (up to 50 seats, $20/mo usage included), Business $100/mo flat ($100/mo usage), 40% service fee on LLM usage, Enterprise custom, no free tier. | [augmentcode.com/pricing](https://www.augmentcode.com/pricing) |
+
 ## Compared to
 
 - [Sourcegraph code context platform](../sourcegraph-code-context/index.md): retrieval sold as infrastructure to any MCP agent; Augment's engine only drives Augment's own surfaces, but goes deeper into the harness loop.
@@ -70,6 +76,8 @@ My disagreeable claim: if the Context Engine numbers are even half right, harnes
 - 2026-08-24 - Created in the Context engines category seed.
 - 2026-08-30 - Extended the blog-cadence claim to August 28, 2026 and re-dated the no-free-tier claim.
 - 2026-09-04 - Added the new $20/month Standard plan to the pricing section.
+- 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
+- 2026-09-20 - Extended the blog-cadence claim to September 11, 2026 (the Software Factory buildout post) and re-dated the no-free-tier claim.
 
 ## See also
 
@@ -86,4 +94,5 @@ My disagreeable claim: if the Context Engine numbers are even half right, harnes
 - https://www.augmentcode.com/pricing - Business $100 flat plan, 40% service fee, usage mechanics
 - https://www.augmentcode.com/blog/cosmos-the-platform-for-ai-native-engineering-teams - Cosmos launch, Experts, Prism, compliance stack
 - https://docs.augmentcode.com/introduction - current product surfaces (Cosmos, Auggie CLI, IDE extensions)
+- https://www.augmentcode.com/blog - blog index, grounds the posting-cadence claim
 - https://news.ycombinator.com/item?id=45586110 - October 2025 pricing backlash thread with the 22.5%/20x admission

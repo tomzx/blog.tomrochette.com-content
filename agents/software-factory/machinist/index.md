@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 **Machinist is an open-source software factory whose whole design is one controlled entrypoint: workers expose named commands over named repositories, and nothing arbitrary crosses the boundary.**
-Facts below verified as of 2026-09-18.
+Facts below verified as of 2026-09-20.
 
 ## What it is
 

@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Anthropic's research-math program points unreleased Claude research models at open mathematics through Claude Code, with subagent fleets doing the work and Lean plus named human experts as the trust gates.
-Facts below verified as of 2026-09-18.
+Facts below verified as of 2026-09-20.
 
 **The frontier research loop is now ordinary engineering tooling: one staff member, a coding agent, about sixty subagents, thousands of shell commands, and a compiler as the judge.**
 

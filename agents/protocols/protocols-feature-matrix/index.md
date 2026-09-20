@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 This matrix compares the six protocols profiled in this section, A2A, ACP, AG-UI, Agent Host Protocol, AGENTS.md, and MCP, so the whole interoperability stack can be read in one table.
-Everything below was re-verified against live sources on 2026-09-18.
+Everything below was re-verified against live sources on 2026-09-20.
 
 **The six do not compete, they stack (repo-to-agent, editor-to-agent, agent-to-frontend, agent-to-tool, agent-to-agent, client-to-session), and adoption falls with every step up that stack, which is why I call AGENTS.md and MCP defaults, ACP a rising bet, AG-UI the quiet winner by raw download volume, AHP a bet underwritten by VS Code's own distribution, and A2A an enterprise convention the coding-agent world can keep ignoring.**
 
@@ -41,8 +41,8 @@ ACP is stewarded by Zed and JetBrains under a vendor-neutral organization with n
 I read this as governance following adoption, not causing it.
 
 **Adoption falls as the protocol climbs the stack, and the file convention beat every wire protocol to default status.**
-MCP is table stakes across the harness and surface matrices; AGENTS.md counts more than 60,000 carrying projects with one glaring holdout (Claude Code); ACP rides OpenCode, JetBrains, Zed, and a Copilot CLI preview; A2A has no native speaker among this index's harnesses, only community setups near Gemini CLI; AHP is just over six months old with 342 stars as of 2026-09-18, but its reference host ships inside VS Code and the VS Code team has said publicly it is rebuilding its agent infrastructure on the protocol.
-The SDK download ratio recorded in the A2A note, 10.9M monthly versus 257M for MCP, is the gap in one number, and AHP's roughly 313k combined downloads (about 230k crates plus 83k npm) show the same order-of-magnitude distance from the top.
+MCP is table stakes across the harness and surface matrices; AGENTS.md counts more than 60,000 carrying projects with one glaring holdout (Claude Code); ACP rides OpenCode, JetBrains, Zed, and a Copilot CLI preview; A2A has no native speaker among this index's harnesses, only community setups near Gemini CLI; AHP is just over six months old with 346 stars as of 2026-09-20, but its reference host ships inside VS Code and the VS Code team has said publicly it is rebuilding its agent infrastructure on the protocol.
+The SDK download ratio recorded in the A2A note, 10.9M monthly versus 257M for MCP, is the gap in one number, and AHP's roughly 337k combined downloads (about 234k crates plus 103k npm, the npm curve spiking mid-September) show the same order-of-magnitude distance from the top.
 AG-UI is the anomaly that proves the rule: none of this index's harnesses or surfaces speak it natively, yet its SDKs moved about 12.5M combined npm downloads in the last month as of 2026-09-18, because the frontend layer is where end-user products live even though coding tools never touch it.
 
 **The consolidations the notes record happened in opposite corners, and neither touched the other's territory.**

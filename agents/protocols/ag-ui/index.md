@@ -12,7 +12,7 @@ audience_notes: >
 ---
 
 AG-UI is an open, MIT-licensed, event-based protocol that standardizes how agent backends stream state, messages, tool calls, and human-in-the-loop controls into user-facing frontends, transport-agnostic over SSE, WebSockets, or webhooks.
-Facts below verified as of 2026-09-18.
+Facts below verified as of 2026-09-20.
 
 **MCP gave agents tools and A2A gave agents each other, and AG-UI is the bet that the missing layer is the one between the agent and the pixels, a bet whose SDK download counts dwarf every other protocol at this layer.**
 

@@ -1,7 +1,7 @@
 ---
 title: Cline
 created: 2026-08-24
-updated: 2026-09-16
+updated: 2026-09-20
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, coding-agents, harnesses, open-source, byok]
 readability: 3
@@ -12,7 +12,7 @@ audience_notes: >
 ---
 
 Cline is an open-source (Apache-2.0) coding agent from Cline Bot Inc. that began as a VS Code extension and now ships a CLI, a JetBrains plugin, a web-based kanban board, and an SDK off one runtime.
-Facts below verified as of 2026-09-18.
+Facts below verified as of 2026-09-20.
 
 **Cline is proof that the IDE-extension generation grew up into a full harness: about 5.3 million installs on the strength of one extension, and the closest thing to a vendor-neutral default inside VS Code.**
 
@@ -29,7 +29,7 @@ Any provider works: Anthropic, OpenAI, Google, OpenRouter, Bedrock, Azure, Verte
 
 **Active and large.**
 The repository shows about 68.6k stars and 7.4k forks as of 2026-09-18, with 250+ contributors and an Apache-2.0 license held by Cline Bot Inc.
-The VS Code Marketplace page shows 5,366,212 installs and a 4.1/5 average rating as of 2026-09-18; the product site claims 11M+ installs across the marketplace and Open VSX.
+The VS Code Marketplace page shows 5,386,010 installs and a 4.1/5 average rating as of 2026-09-20; the product site claims 11M+ installs across the marketplace and Open VSX.
 The project started as the "Claude Dev" extension in late 2024 and has been renamed and corporatized since.
 
 ## Strengths
@@ -52,6 +52,12 @@ Free and open source for individuals; you pay inference per use or bring keys.
 ClinePass ($9.99/month, currently sold at a promotional rate) bundles access to open-weight labs: Z.ai, Moonshot AI, DeepSeek, MiniMax, MiMo, and Qwen.
 Enterprise is custom (SSO, SLA, dedicated support).
 
+## Price history
+
+| Date | Plan | Change | Source |
+| ---- | ---- | ------ | ------ |
+| 2026-09 | ClinePass | Baseline: core free and open source; ClinePass $9.99/mo at a promotional rate bundling open-weight labs (Z.ai, Moonshot AI, DeepSeek, MiniMax, MiMo, Qwen); Enterprise custom. | [cline.bot/pricing](https://cline.bot/pricing) |
+
 ## Compared to
 
 - [OpenCode](../opencode/index.md): terminal-first and MIT with no extension history; choose it when the terminal is the primary surface.
@@ -71,6 +77,7 @@ Not for teams that require every client binary open or a coding-agnostic automat
 - 2026-09-08 - Revised ClinePass wording to "promotional rate" after the $4.99 first-month promo left the page.
 - 2026-09-10 - Dropped the unverifiable ratings count from the marketplace figures.
 - 2026-09-16 - Refreshed marketplace installs to 5,341,071 and repository scale, and recorded the vendor install claim moving from 8M+ to 11M+.
+- 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
 
 ## See also
 

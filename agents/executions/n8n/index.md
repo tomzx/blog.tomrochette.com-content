@@ -1,7 +1,7 @@
 ---
 title: n8n
 created: 2026-08-24
-updated: 2026-09-18
+updated: 2026-09-20
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, executions, webhooks, workflow-automation]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 n8n is a fair-code workflow automation platform with native AI capabilities, where webhook triggers, cron schedules, and chat channels start workflows and agents built on a visual canvas with code nodes.
-Facts below verified as of 2026-09-18.
+Facts below verified as of 2026-09-20.
 
 **n8n is the most credible webhook-triggered agent substrate with real engineering uptake, as long as you accept that it is not open source and your use of it is bounded by its license.**
 
@@ -47,6 +47,12 @@ Caveat on maturity: the agents layer is in preview, not yet supported on self-ho
 Cloud plans bill per full workflow execution with unlimited users and steps: Starter at 20 EUR/month annually for 2,500 executions, Pro at 50 EUR for 10,000, Business at 667 EUR for 40,000, Enterprise by quote (as of 2026-09-18).
 Self-hosting the Community Edition is free; Business-and-up self-hosted licenses ping n8n's license server daily and count your executions.
 
+## Price history
+
+| Date | Plan | Change | Source |
+| ---- | ---- | ------ | ------ |
+| 2026-09-18 | Cloud plans | Baseline: Starter 20 EUR/mo annually (2,500 executions), Pro 50 EUR (10,000), Business 667 EUR (40,000), Enterprise by quote; Community Edition self-hosting free. | [n8n.io/pricing](https://n8n.io/pricing/) |
+
 ## Compared to
 
 - [GitHub Agentic Workflows](../github-agentic-workflows/index.md): repository-centric execution with safe-output gates; n8n is integration-centric with the whole SaaS world as its toolbox.
@@ -65,6 +71,7 @@ My disagreeable claim: for scheduled and webhook-triggered coding-adjacent work,
 - 2026-08-26 - Added the launch and Series C Hacker News threads as references grounding the community-strengths claim.
 - 2026-09-09 - Moved the license reference to the sustainable-use-license path after the old URL began returning 404.
 - 2026-09-18 - Refreshed the repository counters (about 204k to about 205k stars, 60.6k to 60.8k forks) and re-confirmed the pricing tiers unchanged.
+- 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
 
 ## See also
 

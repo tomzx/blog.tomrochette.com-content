@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 HarnessTax is an academic benchmark study from UC Berkeley and the Arena team that measures how much a coding agent's harness matters by running 21 model-harness pairs across seven models and three harnesses (Claude Code, Codex CLI, and Pi) on SWE-bench Lite and Terminal-Bench 2.0.
-Facts below verified as of 2026-09-18.
+Facts below verified as of 2026-09-20.
 
 **HarnessTax is the independent counterweight to FrontierHarness Eval: where the vendor-run benchmark found harness choice moved cost 17.5x, this academic team finds the same model can cost up to 5x more for a success rate within a few points, and names the difference the harness tax.**
 
@@ -24,7 +24,7 @@ The authors promise a public release of profiling traces, and the repository car
 
 ## Status
 
-New and already the most-discussed artifact in this category's week: the study surfaced on Hacker News on 2026-09-16 and drew 217 points and 21 comments as of 2026-09-18.
+New and already the most-discussed artifact in this category's week: the study surfaced on Hacker News on 2026-09-16 and drew 229 points and 22 comments as of 2026-09-20.
 The repository was created 2026-09-14 and pushed 2026-09-16, with 1 star, because the study page is the artifact and the code is just its vehicle.
 **The traction here is academic credibility rather than community adoption: Ion Stoica and Matei Zaharia anchor the author list, and the thread argued the findings instead of the provenance.**
 
@@ -72,6 +72,6 @@ Not as a harness shopping leaderboard, since three harnesses and two contaminati
 
 - https://harnesstax.github.io/ - the study, its findings, and its methodology
 - https://github.com/HarnessTax/HarnessTax.github.io - the public repository holding the site and the study data
-- https://hn.algolia.com/api/v1/items/49733726 - the 217-point launch thread, including the security-framing criticism
+- https://hn.algolia.com/api/v1/items/49733726 - the 229-point launch thread, including the security-framing criticism
 - https://www.swebench.com/lite - the first ground benchmark
 - https://arxiv.org/abs/2601.11868 - Terminal-Bench, the second ground benchmark

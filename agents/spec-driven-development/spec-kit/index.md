@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Spec Kit is GitHub's open-source toolkit for spec-driven development: a CLI that scaffolds constitution, spec, plan, and tasks files, then drives any of 30+ coding agents through implementing them.
-Facts below verified as of 2026-09-18.
+Facts below verified as of 2026-09-20.
 
 **Spec Kit hit 137k stars in one year by selling process, not product: it is markdown conventions plus a scaffolding CLI, and its popularity is the strongest signal yet that the industry wants review gates on agents more than it wants more agent autonomy.**
 

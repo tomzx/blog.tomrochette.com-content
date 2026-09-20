@@ -1,7 +1,7 @@
 ---
 title: agentsview
 created: 2026-08-30
-updated: 2026-09-16
+updated: 2026-09-20
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, session-analytics, observability, token-usage, open-source]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 agentsview is a local-first, MIT-licensed Go application that discovers the session files your coding agents already write on disk, indexes them into a searchable local SQLite archive, and serves a web UI, CLI, and desktop app for browsing, analytics, and token-cost reporting across more than 60 agent formats.
-Facts below verified as of 2026-09-18.
+Facts below verified as of 2026-09-20.
 
 **agentsview's premise is that your agents already write the telemetry; the missing piece was a tool that reads all of it in one place, locally, instead of each harness showing you only its own slice.**
 
@@ -25,7 +25,7 @@ Made by Kenn Software LLC; install via curl script, Homebrew cask, desktop build
 
 ## Status
 
-Young and active: about 5.9k stars, 674 forks, 123 open issues and PRs as of 2026-09-18, created 2026-02-19.
+Young and active: 5,950 stars, 678 forks, 123 open issues and PRs as of 2026-09-20, created 2026-02-19.
 Latest release v0.43.0 on 2026-09-14 with steady releases since July; pre-1.0 with fast feature churn.
 
 ## Strengths
@@ -37,7 +37,7 @@ Latest release v0.43.0 on 2026-09-14 with steady releases since July; pre-1.0 wi
 
 ## Cautions
 
-- Pre-1.0 with breaking schema bumps (usage output is at schema version 6 in the docs' JSON contract), so scripts consuming its output churn.
+- Pre-1.0 with breaking schema bumps (the usage JSON contract is at schema version 5 and the session-export schema at version 6 in the current docs), so scripts consuming its output churn.
 - Token coverage is opportunistic: cost rows appear only when a transcript contains both token counts and a priceable model, and the docs admit known undercounts such as Claude WebSearch side-calls.
 - The 84-223x benchmark numbers the docs used to publish were vendor-supplied on vendor hardware, and their removal leaves no performance evidence in either direction.
 - The daemon, serve, DuckDB, and PostgreSQL surface is real operational weight if all you wanted was a cost report.
@@ -65,6 +65,7 @@ Not for single-agent users well served by built-in cost views, or teams wanting 
 - 2026-09-08 - Revised prose, caution, and references after the docs dropped the 84-223x ccusage benchmark entirely.
 - 2026-09-13 - The docs' usage JSON contract now documents schema version 6 (provider-specific billing identity), so the schema caution moved from version 5 to 6.
 - 2026-09-16 - Recorded the v0.43.0 release (new session formats including Tau, Evener v2, and Open Code Review, plus CJK full-text search) and refreshed repository counts.
+- 2026-09-20 - Corrected the schema caution: the docs' usage JSON contract is at schema version 5, with version 6 on the session-export schema.
 
 ## See also
 
@@ -77,7 +78,7 @@ Not for single-agent users well served by built-in cost views, or teams wanting 
 
 - https://github.com/kenn-io/agentsview - repository, supported agents, architecture, license
 - https://www.agentsview.io - docs, architecture, install, and the Kenn Software attribution
-- https://www.agentsview.io/docs/token-usage/ - cost computation, the undercount disclosures, the removal of the earlier ccusage benchmark, and the schema version 6 JSON contract (re-verified 2026-09-18)
+- https://www.agentsview.io/docs/token-usage/ - cost computation, the undercount disclosures, the removal of the earlier ccusage benchmark, and the schema version 5 JSON contract (re-verified 2026-09-20)
 - https://github.com/kenn-io/agentsview/releases - release cadence and current version
 - https://github.com/simple10/agents-observe - comparison data for the live-observability alternative
 - https://code.claude.com/docs/en/costs - the built-in cost tracking this category extends

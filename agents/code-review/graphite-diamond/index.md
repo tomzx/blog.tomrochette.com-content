@@ -1,7 +1,7 @@
 ---
 title: Graphite Diamond
 created: 2026-08-30
-updated: 2026-09-16
+updated: 2026-09-20
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, code-review, ai-review, developer-tools]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Graphite Diamond was the AI code review agent Graphite launched alongside its $52M Series B in March 2025; the Diamond name was deprecated on October 8, 2025 in favor of Graphite Agent, and Graphite itself joined Cursor on December 19, 2025.
-Facts below verified as of 2026-09-18.
+Facts below verified as of 2026-09-20.
 
 ## What it is
 
@@ -47,6 +47,12 @@ Hacker News reaction to the deal was large and skeptical: 276 points and 253 com
 **Per-seat, with AI review included from the paid tiers, as of 2026-09-18.**
 Hobby is free (personal repos, limited Graphite Chat and AI Reviews), Starter is $20 per user per month billed annually, Team is $40 with unlimited AI Reviews and Graphite Chat plus the merge queue and automations, and Enterprise is custom with SAML, GHES support, and audit logs.
 
+## Price history
+
+| Date | Plan | Change | Source |
+| ---- | ---- | ------ | ------ |
+| 2026-09-18 | All tiers | Baseline: Hobby free (personal repos), Starter $20/user/mo billed annually, Team $40 with unlimited AI Reviews and Chat, Enterprise custom. | [graphite.com/pricing](https://graphite.com/pricing) |
+
 ## Compared to
 
 - [CodeRabbit](../coderabbit/index.md): the independent incumbent, multi-forge and CLI-shipping; Graphite's reviewer rides platform lock-in to stacked PRs instead.
@@ -63,6 +69,7 @@ My disagreeable take: independent reviewers were always borrowing the code host'
 
 - 2026-08-30 - Created in the Code review category with the Diamond deprecation and Cursor acquisition recorded.
 - 2026-09-16 - Corrected the acquisition-thread reference comment count from 251 to 253, matching the live thread and the Status section.
+- 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
 
 ## See also
 

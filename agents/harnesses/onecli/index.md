@@ -1,7 +1,7 @@
 ---
 title: OneCLI
 created: 2026-08-30
-updated: 2026-09-16
+updated: 2026-09-20
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agents, harnesses, security, sandboxing, teams]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 OneCLI is an open-source YC S26 agent harness for teams that gives every employee a sandboxed personal agent whose tool calls pass through a credential-injecting gateway, so no agent ever holds a real secret.
-Facts below verified as of 2026-09-18.
+Facts below verified as of 2026-09-20.
 
 **OneCLI's bet is that enforcement belongs outside the model at the network layer, and after pivoting from vault to team harness it is the only entry in this section built for the security buyer first and the engineer second.**
 
@@ -54,6 +54,12 @@ Enterprise custom, and platform self-hosting (your cloud, VPC, or on-prem) is qu
 The Apache-2.0 core remains self-hostable from source without a commercial license per the README.
 All as of 2026-09-13.
 
+## Price history
+
+| Date | Plan | Change | Source |
+| ---- | ---- | ------ | ------ |
+| 2026-09-13 | All tiers | Baseline: Free $0 ($5 AI credits, 500 calls/mo, 3 seats), Team $149/mo BYOC or $499 with hosted models, Scale $499/$1,999, extra seats $49/$199 per user/mo, Enterprise custom. | [onecli.sh/pricing](https://onecli.sh/pricing) |
+
 ## Compared to
 
 - [NanoClaw](../../assistant-runtimes/nanoclaw/index.md): the personal multi-agent runtime that adopted OneCLI's vault; NanoClaw serves one operator, OneCLI v2 serves the whole org.
@@ -71,6 +77,7 @@ I think the prompt-based permission systems across every other harness in this s
 - 2026-08-30 - Created when the candidate-resolution run accepted it into Harnesses as the per-request credential-injection team harness.
 - 2026-09-02 - Recorded the restructured hosted tiers that arrived with v2.4.0.
 - 2026-09-16 - Refreshed repository counters (3,485 stars, 151 open issues and pull requests); pricing tiers re-verified unchanged.
+- 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
 
 ## See also
 

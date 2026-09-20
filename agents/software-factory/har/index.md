@@ -1,7 +1,7 @@
 ---
 title: "HAR"
 created: 2026-08-29
-updated: 2026-09-16
+updated: 2026-09-20
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=big-pickle, llm=glm-5.3-flash, software-factory, harness, multi-agent, worktrees]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 HAR, the open agent harness from os-factory, is a CLI and MCP server that turns a repository into isolated per-agent worktrees with deterministic launch, verify, and teardown stages, so a fleet of coding agents can work concurrently and reviewers trust the output.
-Facts below verified as of 2026-09-18.
+Facts below verified as of 2026-09-20.
 
 ## What it is
 
@@ -45,6 +45,12 @@ Apache-2.0, free, installable from npm with no license cost.
 You bring the coding agents and their subscriptions, and Mission Control runs locally on your machine.
 HAR HQ, the hosted team layer, published its first pricing (as of 2026-09-18): Team at $400 per month for up to 50 users with $100 in monthly cloud credits included, and Enterprise custom with self-hosted or VPC deployment, SSO, SAML, SCIM, and SLAs.
 
+## Price history
+
+| Date | Plan | Change | Source |
+| ---- | ---- | ------ | ------ |
+| 2026-09-18 | HAR HQ Team | First published pricing: Team $400/mo for up to 50 users with $100 monthly cloud credits, Enterprise custom; the core stays Apache-2.0 free. | [harhq.com](https://harhq.com) |
+
 ## Compared to
 
 - [Super Simple Software Factory](../super-simple-software-factory/index.md) stamps a Python loop into the repo and owns phases and gates in code; HAR is harness-side, isolating and verifying a fleet around a repo contract rather than stamping a single loop.
@@ -62,6 +68,7 @@ Not for a solo developer doing one agent at a time, where the harness alone is s
 - 2026-09-12 - Recorded HAR HQ, a hosted team layer with no published pricing, replacing the earlier no-cloud claim.
 - 2026-09-13 - Recorded HAR HQ's first published pricing (Team $400 per month up to 50 users, Enterprise custom), replacing the no-pricing note.
 - 2026-09-16 - Recorded the v1.14.2 release (2026-09-14) and re-verified HAR HQ pricing unchanged.
+- 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
 
 ## See also
 

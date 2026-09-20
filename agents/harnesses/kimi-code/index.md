@@ -1,7 +1,7 @@
 ---
 title: "Kimi Code"
 created: 2026-09-05
-updated: 2026-09-18
+updated: 2026-09-20
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, cli, coding-agent, moonshot, byok]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 **Kimi Code CLI is Moonshot AI's terminal coding agent, and it is the first big-model-vendor harness whose default path is a challenger model instead of Claude or GPT.**
-Facts below verified as of 2026-09-18.
+Facts below verified as of 2026-09-20.
 
 ## What it is
 
@@ -41,7 +41,14 @@ The Hacker News footprint is thin (a 5-point 2025-10-31 thread and a 1-point 202
 ## Pricing
 
 The harness is free and open source.
-Usage is Kimi Code OAuth (your Kimi subscription) or a Moonshot Open Platform API key: kimi-k3 at $2.10/$10.95 per million tokens (cache hits $0.23) and kimi-k2.7-code at $0.71/$3.21 as of 2026-09-18 (verified via [OpenRouter's model list](https://openrouter.ai/api/v1/models); Moonshot's CN platform listed the same models at ¥20/¥100 and ¥6.50/¥27 as of 2026-09-09), with other OpenAI-compatible providers configurable.
+Usage is Kimi Code OAuth (your Kimi subscription) or a Moonshot Open Platform API key: kimi-k3 at $1.70/$8.50 per million tokens (cache hits $0.17) and kimi-k2.7-code at $0.71/$3.21 as of 2026-09-20 (verified via [OpenRouter's model list](https://openrouter.ai/api/v1/models); Moonshot's CN platform listed the same models at ¥20/¥100 and ¥6.50/¥27 as of 2026-09-09), with other OpenAI-compatible providers configurable.
+
+## Price history
+
+| Date | Plan | Change | Source |
+| ---- | ---- | ------ | ------ |
+| 2026-09-09 | Moonshot CN platform | kimi-k3 at ¥20/¥100 and kimi-k2.7-code at ¥6.50/¥27 per million tokens; harness free and open source. | Moonshot CN platform listing, see References |
+| 2026-09-20 | API (OpenRouter) | kimi-k3 at $1.70/$8.50 per million tokens (cache hits $0.17), kimi-k2.7-code at $0.71/$3.21. | [OpenRouter model list](https://openrouter.ai/api/v1/models) |
 
 ## Compared to
 
@@ -60,6 +67,8 @@ Not for teams that need local models, or anyone who needs more than one independ
 - 2026-09-06 - Recorded the docs confirming the Node.js rebuild with the Python version unmaintained, and replaced the measured-cost comparison.
 - 2026-09-16 - Refreshed star counts (about 18.8k combined) and updated the kimi-k2.7-code output price to $3.21 per million tokens on OpenRouter.
 - 2026-09-18 - Refreshed star counts (about 18.9k combined) and recorded the kimi-k3 price drop on OpenRouter to $2.10/$10.95 per million tokens with cache hits at $0.23.
+- 2026-09-20 - Recorded the further kimi-k3 price drop on OpenRouter to $1.70/$8.50 per million tokens with cache hits at $0.17.
+- 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
 
 ## See also
 

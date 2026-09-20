@@ -1,7 +1,7 @@
 ---
 title: Emdash
 created: 2026-08-24
-updated: 2026-09-13
+updated: 2026-09-20
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, orchestration, git-worktrees, open-source, desktop-app]
 readability: 3
@@ -12,7 +12,7 @@ audience_notes: >
 ---
 
 Emdash is an Apache-2.0 "agentic development environment" from General Action (YC W26): a macOS, Windows, and Linux desktop app that runs parallel coding agents in git worktrees, locally or over SSH on remote machines.
-Facts below verified as of 2026-09-18 (domain moved from emdash.ai to emdash.com, the old host 301-redirects).
+Facts below verified as of 2026-09-20 (domain moved from emdash.ai to emdash.com, the old host 301-redirects).
 
 **It is currently the most credible open, cross-platform alternative to Conductor, with the deepest agent support (25+ CLIs), and its real risk is category risk: its own launch commenters reasonably ask whether harness CLIs will absorb this layer.**
 
@@ -26,7 +26,8 @@ State is local-first in SQLite, and the team kept a reserve pool of worktrees so
 ## Status
 
 Active and fast-moving.
-As of 2026-09-18 the repo shows about 5.8k stars and 592 forks, with pushes landing September 17; the site claims over 1M downloads.
+As of 2026-09-20 the repo shows about 5.8k stars and 596 forks; the site claims over 1M downloads.
+The v1.2.5 release shipped 2026-09-18, adding multiple accounts per integration and custom agent executable selection.
 Its February 2026 Show HN reached 206 points with 71 comments.
 Founders Arne and Raban described the business model as a possible bundled agent subscription plus enterprise, funded by YC W26; cloud workspaces and enterprise tiers are contact-sales today.
 
@@ -67,6 +68,7 @@ My disagreeable claim: Emdash's SSH support matters more than any feature matrix
 - 2026-08-24 - Reworded the banned-term phrase "laptop-shaped" out of the thesis.
 - 2026-08-26 - References moved to the canonical emdash.com domain after the old host began redirecting.
 - 2026-09-13 - Added scheduled automations to the feature list per the site refresh.
+- 2026-09-20 - Recorded the v1.2.5 release (September 18), which added multiple accounts per integration and custom agent executable selection.
 
 ## See also
 

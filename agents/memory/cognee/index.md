@@ -1,7 +1,7 @@
 ---
 title: Cognee
 created: 2026-08-26
-updated: 2026-09-13
+updated: 2026-09-20
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, memory, agent-memory, knowledge-graphs, open-source]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Cognee is Topoteretes' open-source AI memory platform: a pipeline that turns documents and interactions into graph-plus-vector memory you can run entirely yourself, with an optional flat-priced cloud.
-Facts below verified as of 2026-09-18.
+Facts below verified as of 2026-09-20.
 
 **Cognee is the self-hoster's memory platform: the entire engine, including the parts Mem0 and Zep keep behind the paid tier, is Apache-2.0, and the trade is that you operate the graph, vector, and relational backends yourself.**
 
@@ -24,7 +24,8 @@ Cognee Cloud runs the same engine managed, on gpt-oss-120b, OpenAI's open-weight
 ## Status
 
 **Active and fast-moving.**
-About 30.8k GitHub stars as of 2026-09-18, repository pushed 2026-09-18, and v1.5.4 (September 4, 2026) still the latest release per the PyPI JSON API.
+About 30.8k GitHub stars as of 2026-09-20, repository pushed 2026-09-19, and v1.6.0 (September 18, 2026) the latest release per the PyPI JSON API.
+v1.6.0 is the keyless-first release: many flows now run with no LLM key, pipelines stamp runs at start and recover after crashes, a cognee-mcp client/server package lands for integrations, and the default Docker image drops GLiNER, a breaking change self-hosters must patch around.
 The company is part of the Berkeley Xcelerator and claims 5M+ SDK runs per month (vendor figure).
 The community discussion footprint is thin for the star count: its two Show HN threads drew 9 and 6 points, so third-party scrutiny lags the repository's popularity.
 
@@ -47,6 +48,13 @@ The community discussion footprint is thin for the star count: its two Show HN t
 Open source: free, Apache-2.0.
 Cloud: Free $0 (one workspace, 1M tokens included, unlimited users), Standard $1.00 per 1M tokens processed plus $5 per additional workspace per month, Enterprise custom with BYO cloud and SLAs, as of 2026-09-18.
 
+## Price history
+
+| Date | Plan | Change | Source |
+| ---- | ---- | ------ | ------ |
+| 2026-09-09 | Cloud Standard | Standard rate cut to $1.00 per 1M tokens processed. | [cognee.ai/pricing](https://www.cognee.ai/pricing) |
+| 2026-09-18 | All tiers | Re-verified: Cloud Free $0 (one workspace, 1M tokens), Standard $1.00 per 1M plus $5 per additional workspace/mo, Enterprise custom; OSS free (Apache-2.0). | [cognee.ai/pricing](https://www.cognee.ai/pricing) |
+
 ## Compared to
 
 - [mem0](../mem0/index.md): both are memory APIs with an OSS story; cognee's openness is complete where Mem0's benchmarked brain is the paid platform.
@@ -63,6 +71,8 @@ Not for solo coding-agent work, where plain files win, or for anyone without the
 - 2026-08-26 - Created as a Memory note after an entrant scan, citing seven verified sources.
 - 2026-09-06 - Recorded that contradiction handling is now documented on the pricing page as an Enterprise BYOC feature.
 - 2026-09-09 - Standard cloud price cut from $2.50 to $1.00 per 1M tokens; note, matrix cell, and choosing bullet updated.
+- 2026-09-20 - Recorded v1.6.0 (September 18): keyless-first flows, crash-recovering pipelines, a cognee-mcp client/server package, and GLiNER removed from the default Docker image.
+- 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
 
 ## See also
 
@@ -73,10 +83,10 @@ Not for solo coding-agent work, where plain files win, or for anyone without the
 
 ## References
 
-- https://github.com/topoteretes/cognee - source, Apache-2.0, about 30.8k stars, as of 2026-09-18
+- https://github.com/topoteretes/cognee - source, Apache-2.0, about 30.8k stars, as of 2026-09-20
 - https://www.cognee.ai/ - v1 announcement, integration list, Berkeley Xcelerator, 5M+ SDK runs claim
-- https://www.cognee.ai/pricing - cloud tiers, per-token rate, workspace fee, gpt-oss-120b default, Enterprise bi-temporal memory listing, as of 2026-09-18 (the $1.00 Standard rate held since the 2026-09-09 cut)
+- https://www.cognee.ai/pricing - cloud tiers, per-token rate, workspace fee, gpt-oss-120b default, Enterprise bi-temporal memory listing, as of 2026-09-20 (the $1.00 Standard rate held since the 2026-09-09 cut)
 - https://docs.cognee.ai/ - architecture, multi-user mode, SDK and integration surfaces
-- https://pypi.org/pypi/cognee/json - v1.5.4 released September 4, 2026
+- https://pypi.org/pypi/cognee/json - v1.6.0 released September 18, 2026
 - https://news.ycombinator.com/item?id=44169594 - Show HN, June 2025, the 9-point thread
 - https://news.ycombinator.com/item?id=43031915 - Show HN, February 2025, the 6-point thread

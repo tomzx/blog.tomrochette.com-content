@@ -1,7 +1,7 @@
 ---
 title: Qodo
 created: 2026-08-30
-updated: 2026-09-18
+updated: 2026-09-20
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, code-review, ai-review, open-source, developer-tools]
 readability: 3
@@ -13,7 +13,7 @@ audience_notes: >
 ---
 
 Qodo is an AI code review and governance platform (formerly CodiumAI) whose MIT-licensed PR-Agent was marketed as the original open-source AI PR reviewer, and which has now donated that reviewer to the community while selling the heavier product above it.
-Facts below verified as of 2026-09-18.
+Facts below verified as of 2026-09-20.
 
 ## What it is
 
@@ -59,6 +59,13 @@ Enterprise adds SSO/SAML, audit logs, BYOK, single-tenant SaaS or on-prem, cross
 Qualified open-source projects get the commercial reviewer free through a Marketplace app powered by Google.
 For history: in September 2024 the paid Chrome-extension tier was $19 per month for private repos (item 41443605), so the model has moved twice in two years.
 
+## Price history
+
+| Date | Plan | Change | Source |
+| ---- | ---- | ------ | ------ |
+| 2024-09 | Chrome extension | Paid tier $19/month for private repos. | HN quote, see References |
+| 2026-09-18 | Pro Team | Current: $30/month billed monthly, pooled credits at $0.012 each, packs sized around 18/36/144 reviews; PR-Agent free under MIT. | [qodo.ai/pricing](https://www.qodo.ai/pricing/) |
+
 ## Compared to
 
 [Greptile](../greptile/index.md) and [CodeRabbit](../coderabbit/index.md) are commercial-first rivals; if you need an MIT-licensed core you can self-host, Qodo is the one in this series that still ships it, and Kudelski's research series covers exploit chains in both Qodo and CodeRabbit.
@@ -76,6 +83,7 @@ I also think the PR-Agent donation is less a gift than a repositioning: the repo
 - 2026-08-30 - Created in the Code review category seed, recording the open-core PR-Agent split and the Kudelski security chains.
 - 2026-09-13 - Added the September 9 Agentic Toolbox launch, which moves Qodo review and rules inside coding-agent sessions.
 - 2026-09-18 - Added the September 15 Software Map beta (auto-derived repo, contract, and blast-radius map as review context), and refreshed repo and install counts.
+- 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
 
 ## See also
 

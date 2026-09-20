@@ -1,7 +1,7 @@
 ---
 title: Kodus
 created: 2026-08-30
-updated: 2026-09-12
+updated: 2026-09-20
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, code-review, ai-review, open-source, developer-tools]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Kodus is an open-source AI code reviewer named Kody (AGPL-3.0 plus a commercial enterprise-edition dual license) that reviews pull requests on GitHub, GitLab, Bitbucket, and Azure Repos, self-hosted or via Kodus Cloud, with whatever model you bring.
-Facts below verified as of 2026-09-18.
+Facts below verified as of 2026-09-20.
 
 ## What it is
 
@@ -49,6 +49,12 @@ The tiers changed in early September 2026: Community is free for indie devs and 
 The BYOK calculator keeps the no-markup FAQ commitment and prices example stacks (for example $450 per month for 30 developers on Gemini Pro or ChatGPT 5.1).
 Self-hosting under AGPL-3.0 is free, minus your own model bills.
 
+## Price history
+
+| Date | Plan | Change | Source |
+| ---- | ---- | ------ | ------ |
+| 2026-09 | All tiers | Early-September tier restructure: Community free (up to 10 Kody rules), Teams BYOK $10/dev/mo ($8 annual) plus raw tokens, Enterprise custom; self-hosting free under AGPL-3.0. | [kodus.io/pricing](https://kodus.io/pricing/) |
+
 ## Compared to
 
 - [CodeRabbit](../coderabbit/index.md): the funded, polished default; choose Kodus when model choice, cost transparency, or self-hosting outranks polish.
@@ -66,6 +72,7 @@ My disagreeable take: I trust a reviewer whose business model survives zero toke
 - 2026-08-30 - Created in the Code review category as the AGPL dual-license BYOK reviewer note.
 - 2026-09-02 - Recorded the pricing restructure (Community free, Teams BYOK $10 per developer, Enterprise) and updated matrix pricing cells.
 - 2026-09-05 - Added the Teams $8 per developer annual option alongside the $10 monthly rate.
+- 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
 
 ## See also
 

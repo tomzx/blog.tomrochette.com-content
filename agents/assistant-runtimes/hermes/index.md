@@ -1,7 +1,7 @@
 ---
 title: Hermes Agent
 created: 2026-08-27
-updated: 2026-09-12
+updated: 2026-09-20
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, assistant-runtimes, personal-assistants, nous-research, open-source]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Hermes Agent is Nous Research's MIT-licensed self-improving personal agent: a Python gateway process that lives in your chat channels, builds skills from its own experience, and runs on everything from a $5 VPS to serverless sandboxes, at about 247k stars the biggest runtime launch since OpenClaw.
-Facts below verified as of 2026-09-18.
+Facts below verified as of 2026-09-20.
 
 **Hermes' bet is that the runtime winner is decided by the learning loop, not the channel list: an agent that curates its own memory, writes its own skills, and models you across sessions compounds while the others merely answer.**
 
@@ -49,6 +49,12 @@ The runtime is free and open source under MIT.
 Paid plans now exist through Nous Portal, and as of 2026-09-18 the prices are public on the official site: Free at $0, Plus at $20/month, Super at $100/month, and Ultra at $200/month, where each paid tier bundles monthly credits with a 10 percent bonus ($22, $110, and $220 respectively), 200+ models, and hosted tool use.
 Or bring your own provider keys, with serverless backends billed by the platform when idle-cheap.
 
+## Price history
+
+| Date | Plan | Change | Source |
+| ---- | ---- | ------ | ------ |
+| 2026-09-18 | Nous Portal | Paid plans introduced: Free $0, Plus $20/mo, Super $100/mo, Ultra $200/mo, each paid tier bundling monthly credits with a 10 percent bonus; the runtime stays MIT free. | [hermes-agent.nousresearch.com](https://hermes-agent.nousresearch.com) |
+
 ## Compared to
 
 - [OpenClaw](../openclaw/index.md): the other giant, ecosystem-first; choose OpenClaw for channels and companions, Hermes for the learning loop and model freedom.
@@ -66,6 +72,7 @@ The disagreeable claim I will defend: the channel-list era of this category is o
 - 2026-08-27 - Created as an Assistant runtimes note after the control-planes alternatives scan.
 - 2026-09-09 - Added paid tiers (Free, Plus, Super, Ultra via Nous Portal), retiring the no-paid-tier claim.
 - 2026-09-12 - Paid tier prices went public on the official site, retiring the bot-wall claim.
+- 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
 
 ## See also
 

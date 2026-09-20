@@ -1,7 +1,7 @@
 ---
 title: Eigent
 created: 2026-08-30
-updated: 2026-09-18
+updated: 2026-09-20
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, assistant-runtimes, cowork, multi-agent, open-source]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Eigent is an Apache-2.0, Electron-based desktop app for building and running AI agent workforces, specialized worker agents executing tasks in parallel on the CAMEL-AI framework, with a large built-in MCP integration catalog, browser and terminal toolkits, human-in-the-loop escalation, and automations, positioned as the free and local alternative to Claude Cowork.
-Facts below verified as of 2026-09-18.
+Facts below verified as of 2026-09-20.
 
 **Eigent is the only Cowork-style desktop in this category with a permissive license and a real multi-agent architecture, and its history includes a corrected benchmark claim that should calibrate how much of the pitch you take on faith.**
 
@@ -48,6 +48,12 @@ Free: BYOK and local models, 1,000 registration credits.
 Plus $19.99/month (2,000 task credits), Pro $99.99/month (10,000 credits), Teams coming soon, Enterprise custom with local deployment.
 Ten percent of subscriptions is pledged to CAMEL-AI.org.
 
+## Price history
+
+| Date | Plan | Change | Source |
+| ---- | ---- | ------ | ------ |
+| 2026-09 | Plus, Pro | Baseline: Free (BYOK, 1,000 registration credits), Plus $19.99/mo (2,000 task credits), Pro $99.99/mo (10,000 credits), Teams coming soon, Enterprise custom. | [eigent.ai/pricing](https://www.eigent.ai/pricing) |
+
 ## Compared to
 
 - [OpenWork](../openwork/index.md): the larger, OpenCode-based Cowork alternative with an MCP portability story; choose Eigent for true multi-agent workforces and the permissive license, OpenWork for ecosystem and skills portability.
@@ -64,6 +70,7 @@ Not for buyers who need vendor accountability history, and not for the quick-sta
 - 2026-08-30 - Created as the assistant-runtimes note on the CAMEL workforce desktop, with the unverified built-in-tools count dropped.
 - 2026-09-07 - Cowork reference moved to claude.com/product/cowork.
 - 2026-09-18 - Recorded Claude Cowork merging into Claude chat itself (announced 2026-09-16), refreshing the comparison baseline and adoption numbers.
+- 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
 
 ## See also
 

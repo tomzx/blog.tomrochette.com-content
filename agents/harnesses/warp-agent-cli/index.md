@@ -1,7 +1,7 @@
 ---
 title: Warp Agent CLI
 created: 2026-08-30
-updated: 2026-09-18
+updated: 2026-09-20
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agents, harnesses, terminal, model-routing]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 The Warp Agent CLI is Warp's terminal agent unbundled into a standalone binary that runs in any terminal, with built-in model routing, cloud agents, and multi-agent orchestration.
-Facts below verified as of 2026-09-18.
+Facts below verified as of 2026-09-20.
 
 **Warp is the first big terminal vendor to sell its agent separately from its own app, and that makes it the default enterprise answer unless you specifically want an open client.**
 
@@ -56,6 +56,12 @@ Business is $50/user/month with per-seat credits, SAML SSO, and BYOK.
 Enterprise is custom, adding BYOLLM routing, self-hosted cloud agents, and cross-harness memory (research preview).
 All tiers as of 2026-09-13.
 
+## Price history
+
+| Date | Plan | Change | Source |
+| ---- | ---- | ------ | ------ |
+| 2026-09-13 | All tiers | Baseline: Free $0 with BYO inference, Build from $20/mo ($18 annual, 1,500 credits), Max from $200/mo (18,000 credits), Business $50/user/mo, Enterprise custom. | [warp.dev/pricing](https://www.warp.dev/pricing) |
+
 ## Compared to
 
 - [Claude Code](../claude-code/index.md): the same subscription model; Claude Code has the deeper ecosystem, Warp has the orchestration and terminal pedigree.
@@ -74,6 +80,7 @@ I think the CLI exists to follow developers who fled Warp's AI-heavy terminal fo
 - 2026-09-06 - Added the Factories product line sentence and reference.
 - 2026-09-12 - Noted the any-harness cloud beta.
 - 2026-09-18 - Factories moved from closed early access to published pricing: pay-as-you-go factory usage at a 20% markup, factory credits inside the Build, Max, and Business tiers, and the $10,000 early-access allotment.
+- 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
 
 ## See also
 

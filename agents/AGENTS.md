@@ -43,6 +43,7 @@ Both content types share these rules.
 - Essays, `model-provider-feature-matrix` (which has no category), and the control files stay at the section root.
 - Front matter fields: `title`, `created` (YYYY-MM-DD), `status` (`draft` while writing, `finished` when complete), `tags`, `readability`, `updated` (set when you revise), and `audience_notes` (folded `>`, for finished pieces).
 - Every article ends with `## Changes`, `## See also`, `## References`, in that order; `## Changes` is the article's dated changelog (see Writing rules).
+- Any article whose `## Pricing` section states actual prices must also carry a separate `## Price history` section immediately after it, holding a table that tracks price changes over time: one row per dated change (columns: Date, Plan, Change, Source), oldest first, append-only, every row sourced. Seed the first row with the baseline price known when the article was created, append a row in the same run whenever a price or tier changes, and record that change in `## Changes`. Notes whose `## Pricing` section says pricing does not apply get no price history table.
 - Never set a `type` field (in particular not `type: post`): articles in this section are section pages, not posts, and typing them as posts pulls them into the blog's post listings.
 - Mandatory tags on every article: `agent-curated`, `fully-ai-generated`, and `llm=<model-id>` for each model that wrote or edited the piece (e.g. `llm=glm-5.3`). Multiple `llm=` tags are allowed as models change over time; never remove one that a previous run added.
 - Research notes additionally carry the `research-note` tag.
@@ -89,6 +90,14 @@ commit activity, stars or downloads as of the verification date, funding, shutdo
 ## Pricing
 
 <Tiers and licensing model, or why it does not apply.>
+
+## Price history
+
+<Include only when Pricing states actual prices; omit when pricing does not apply.>
+
+| Date | Plan | Change | Source |
+| ---- | ---- | ------ | ------ |
+| YYYY-MM-DD | <plan> | <introduced at $X, or $X -> $Y> | <url> |
 
 ## Compared to
 

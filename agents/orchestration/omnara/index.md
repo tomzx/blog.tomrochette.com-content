@@ -1,7 +1,7 @@
 ---
 title: Omnara
 created: 2026-08-30
-updated: 2026-09-12
+updated: 2026-09-20
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, agent-control-plane, mobile, self-hosted, yc]
 readability: 3
@@ -12,7 +12,7 @@ audience_notes: >
 ---
 
 Omnara (YC S25) is an open-source, model-agnostic control plane for managed agents: you define agents in YAML, it handles execution and state, and you drive them from a web dashboard, mobile apps, CLI, REST API, or Slack.
-Facts below verified as of 2026-09-18.
+Facts below verified as of 2026-09-20.
 
 **Omnara has quietly pivoted from "run Claude Code from your phone" into the open-source alternative to Claude Managed Agents, and that repositioning makes it infrastructure for serving agents, not just supervising them.**
 
@@ -27,7 +27,7 @@ It sits in the orchestration layer of this section's taxonomy (control plane and
 ## Status
 
 **Active, well-capitalized by YC standards, and shipping daily.**
-2,857 stars and 225 forks as of 2026-09-18 on a repo created July 9, 2025, with pushes landing September 18, 2026 (GitHub API).
+2,861 stars and 226 forks as of 2026-09-20 on a repo created July 9, 2025, with pushes landing September 19, 2026 (GitHub API).
 Two HN threads anchor its traction: a 310-point Show HN on August 12, 2025 ([HN](https://news.ycombinator.com/item?id=44878650)) and a 147-point Launch HN on February 12, 2026 ([HN](https://news.ycombinator.com/item?id=46991591)).
 The product's own framing moved between those dates, from "run Claude Code from anywhere" to "the API for production-grade agents" with managed-agent execution.
 
@@ -52,6 +52,12 @@ Omnara Cloud now publishes usage-based pricing, a change from the no-pricing-pag
 Enterprise adds deployment, integrations, and support at custom terms.
 You pay your own model costs when you bring your own keys.
 
+## Price history
+
+| Date | Plan | Change | Source |
+| ---- | ---- | ------ | ------ |
+| 2026-09-18 | Omnara Cloud | First published pricing, replacing the no-pricing-page state of 2026-08-30: $0 platform fee, managed models at token rates, machines $0.0414 per GiB per hour online, retention $0.20016 per GiB per 30 days; self-hosting free. | [omnara.com/pricing](https://www.omnara.com/pricing) |
+
 ## Compared to
 
 - [Paseo](../paseo/index.md): the closest sibling, also FOSS self-hosted supervision from your phone; Paseo wraps CLI agents you already run, while Omnara wants to own execution and state via its API.
@@ -68,6 +74,7 @@ I believe every serious agent deployment eventually needs exactly what Omnara is
 - 2026-08-30 - Created when the candidate-resolution run accepted it into Orchestration as a control plane rather than a harness.
 - 2026-09-08 - Recorded Omnara Cloud's newly published usage-based pricing and added the pricing page as a source.
 - 2026-09-09 - Added the machine-retention line item, $0.20016 per GiB per 30 days.
+- 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
 
 ## See also
 

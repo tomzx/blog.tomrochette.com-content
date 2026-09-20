@@ -1,7 +1,7 @@
 ---
 title: "Context Engines Feature Matrix"
 created: 2026-08-24
-updated: 2026-09-16
+updated: 2026-09-20
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, comparison, context-engines, code-retrieval, developer-tools]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 This matrix compares the eight context tools profiled in this section, feature by feature, so the shortlisting step does not require reading eight notes.
-Everything below was re-verified against live sources on 2026-09-18, with the Greptile column removed on 2026-08-30 when the note moved to the Code review category.
+Everything below was re-verified against live sources on 2026-09-20, with the Greptile column removed on 2026-08-30 when the note moved to the Code review category.
 
 **The interesting question is not which engine is best but whether a repository needs one at all: most codebases sit below the only published payback threshold in the category, and I claim most buyers of these engines are paying for an index their own vendors' data cannot justify.**
 
@@ -75,6 +75,7 @@ Augment's 33% token savings, Sourcegraph's cost deltas, Semble's 99%-fewer-token
 - 2026-08-30 - Extended to eight columns with Semble inserted alphabetically, with reading, choosing, and references sections extended.
 - 2026-08-30 - Greptile column removed, back to seven columns, when the note moved to the Code review category.
 - 2026-09-16 - Re-dated the re-verification and updated the Graphify pricing cell for the new monthly billing options and the early-access Enterprise tier.
+- 2026-09-20 - Repointed the Graft references to the canonical trailhq/Graft repository after the GitHub org rename; no cells moved.
 
 ## See also
 
@@ -96,8 +97,8 @@ Augment's 33% token savings, Sourcegraph's cost deltas, Semble's 99%-fewer-token
 - https://github.com/rtk-ai/rtk - the output-filtering strategies and agent integrations for the rtk column
 - https://github.com/MinishLab/semble - the hybrid static-embedding stack and installer surfaces for the Semble column
 - https://news.ycombinator.com/item?id=48169874 - the launch thread grounding the Semble column's self-published-benchmark caveat
-- https://github.com/NanoNets/Graft - repository, README architecture and claims, license, and adoption stats for the Graft column
+- https://github.com/trailhq/Graft - canonical repository (NanoNets/Graft redirects here), README architecture and claims, license, and adoption stats for the Graft column
 - https://graft.nanonets.ai - the product site and Trail attribution for the Graft column
-- https://raw.githubusercontent.com/NanoNets/context-graph-engine/main/TELEMETRY.md - the telemetry posture for the Graft column
+- https://raw.githubusercontent.com/trailhq/Graft/main/TELEMETRY.md - the telemetry posture for the Graft column
 - https://trailhq.com/pricing - Trail Brain plan pricing for the Graft column's pricing cell
 - https://hn.algolia.com/api/v1/items/49299985 - the launch thread grounding the Graft column's vendor-run-benchmark caveat

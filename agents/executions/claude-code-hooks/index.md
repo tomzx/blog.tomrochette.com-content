@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Claude Code hooks are user-defined shell commands, HTTP endpoints, or LLM prompts that Claude Code runs automatically at specific points in its lifecycle, turning the harness itself into an event-driven system.
-Facts below verified as of 2026-09-18.
+Facts below verified as of 2026-09-20.
 
 **Hooks are the only mechanism in Claude Code that gives you deterministic control, and I consider them mandatory before pointing the harness at anything you care about.**
 
@@ -25,7 +25,7 @@ The same hook events fire in the terminal, IDE extensions, the desktop app, and 
 ## Status
 
 **Active and heavily invested in.**
-The feature ships in the proprietary CLI tracked by the `anthropics/claude-code` repository (about 146k stars and roughly 12.5k open issues as of 2026-09-18).
+The feature ships in the proprietary CLI tracked by the `anthropics/claude-code` repository (about 147k stars and roughly 12.3k open issues as of 2026-09-20).
 A third-party ecosystem exists: an HN search surfaces roughly 480 stories mentioning Claude Code hooks, including dedicated tooling like Graft, whose August 2026 launch thread drew 44 comments.
 Anthropic's own security-guidance plugin is built entirely on hooks (SessionStart, UserPromptSubmit, PostToolUse, Stop), which signals production commitment.
 

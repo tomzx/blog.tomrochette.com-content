@@ -1,7 +1,7 @@
 ---
 title: OpenAI Structured Outputs
 created: 2026-08-24
-updated: 2026-09-12
+updated: 2026-09-20
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, structured-outputs, openai, json-schema]
 readability: 3
@@ -12,7 +12,7 @@ audience_notes: >
 ---
 
 OpenAI Structured Outputs is an API capability that guarantees model responses adhere to a JSON Schema you supply, enforced by constraining decoding rather than by prompting.
-Facts below verified as of 2026-09-18.
+Facts below verified as of 2026-09-20.
 
 **It is the strongest output guarantee available from a major vendor: schema adherence is enforced at generation time, so the classic parse-validate-retry loop collapses into a single call for anything your schema can express.**
 
@@ -49,6 +49,12 @@ Independent tooling built on it (SDK parse helpers, LLM schema layers) has been 
 Requests bill at the chosen model's token rates; for example gpt-5.6-luna lists at $0.20/1M input and $1.20/1M output (standard tier) as of 2026-09-18.
 Batch API use cuts those rates by 50% for offline extraction jobs.
 
+## Price history
+
+| Date | Plan | Change | Source |
+| ---- | ---- | ------ | ------ |
+| 2026-09-18 | Model token rates | Baseline: no feature surcharge; requests bill at model rates (gpt-5.6-luna $0.20/$1.20 per 1M input/output, standard tier), Batch API at half price. | [OpenAI pricing docs](https://platform.openai.com/docs/pricing) |
+
 ## Compared to
 
 - Anthropic structured outputs: the same constrained-decoding idea, but only GA since February 2026 with a narrower schema subset; OpenAI's surface is older and more battle-tested.
@@ -66,6 +72,7 @@ Not for schemas that genuinely need numeric ranges, pervasive optional keys, or 
 - 2026-08-24 - Created in the Hybrid execution category seed.
 - 2026-09-07 - Updated the status note as the docs began leading their examples with gpt-5.6 plus gpt-6-astra.
 - 2026-09-12 - Revised the examples claim again, with the docs now leading with gpt-6-astra.
+- 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
 
 ## See also
 

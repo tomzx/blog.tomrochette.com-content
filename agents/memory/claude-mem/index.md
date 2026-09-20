@@ -1,7 +1,7 @@
 ---
 title: claude-mem
 created: 2026-08-30
-updated: 2026-09-16
+updated: 2026-09-20
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, session-memory, compression, open-source]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 claude-mem is an open-source Apache-2.0 plugin that gives coding agents persistent cross-session memory by capturing session activity through lifecycle hooks, compressing it into observations with LLM calls, storing them in local SQLite, and injecting relevant context back into future sessions.
-Facts below verified as of 2026-09-18.
+Facts below verified as of 2026-09-20.
 
 **claude-mem is the strongest evidence yet that session memory has crossed from experiment to default expectation, and its cost model is the field's open question: it captures everything and pays your tokens to compress it.**
 
@@ -50,6 +50,12 @@ The engine is free and Apache-2.0, fully local.
 CMEM Cloud is $20/month for sync and one private MCP link; a Team tier lists $333/seat/month for 3-50 seats.
 The hidden cost is compression: those LLM calls draw on your own model subscription or API budget, and no official per-session figure is published.
 
+## Price history
+
+| Date | Plan | Change | Source |
+| ---- | ---- | ------ | ------ |
+| 2026-09 | CMEM Cloud | Baseline: engine free (Apache-2.0); CMEM Cloud $20/mo for sync and one private MCP link, Team $333/seat/mo for 3-50 seats. | [claude-mem.ai](https://claude-mem.ai) |
+
 ## Compared to
 
 - [File-based agent memory](../file-based-agent-memory/index.md): free, transparent, version-controlled, best for stable facts; claude-mem automates recall of what happened, which files cannot do.
@@ -66,6 +72,7 @@ Not for privacy-strict environments, anyone unwilling to run a local worker serv
 - 2026-08-30 - Created as a memory note covering session capture, compression, and reinjection, with 92,602 stars recorded.
 - 2026-09-06 - Recorded the README rebrand to Grok Mem and the added Cursor and Grok Bot marketplace plugins.
 - 2026-09-16 - Recorded the npm/GitHub release lag (npm at 13.25.1, the releases page still on v13.24.23) and refreshed stars to 94.0k with 191 open issues and PRs.
+- 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
 
 ## See also
 

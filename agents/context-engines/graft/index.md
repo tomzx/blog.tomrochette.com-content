@@ -1,7 +1,7 @@
 ---
 title: Graft
 created: 2026-09-12
-updated: 2026-09-18
+updated: 2026-09-20
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, context-engines, code-graphs, claude-code, open-source]
 readability: 3
@@ -12,9 +12,9 @@ audience_notes: >
 ---
 
 Graft is an MIT-licensed CLI from NanoNets (attributed on its own site to Trail) that builds a repo's context graph as a folder of linked markdown files plus a tree-sitter code graph, then wires itself into coding agents through skills, hooks, a six-tool MCP server, and a statusline so the map rides along in every session.
-Facts below verified as of 2026-09-18.
+Facts below verified as of 2026-09-20.
 
-**Graft collected 8,458 stars in eleven weeks on a story every agent user feels, yet every number behind that story, including the 54%-to-66% SWE-bench jump, is the vendor's own until someone replicates it, and distribution clearly ran ahead of independent validation.**
+**Graft collected 8,723 stars in eleven weeks on a story every agent user feels, yet every number behind that story, including the 54%-to-66% SWE-bench jump, is the vendor's own until someone replicates it, and distribution clearly ran ahead of independent validation.**
 
 ## What it is
 
@@ -26,7 +26,8 @@ The npm scope and telemetry endpoint are NanoNets-branded, the product site attr
 
 ## Status
 
-Young and very hot: created 2026-07-03, 8,458 stars and 766 forks by 2026-09-18, last push 2026-09-17, 169 open issues, v0.18.0 on npm with 49,422 downloads in the trailing month (the npm API's window runs 2026-08-18 to 2026-09-16), all as of 2026-09-18 (GitHub and npm APIs).
+Young and very hot: created 2026-07-03, 8,723 stars and 797 forks by 2026-09-20, last push 2026-09-19, 176 open issues, v0.18.0 on npm with 52,630 downloads in the trailing month (the npm API's window runs 2026-08-21 to 2026-09-19), all as of 2026-09-20 (GitHub and npm APIs).
+The GitHub organization itself has now completed the rename: the repository's canonical home is trailhq/Graft, and the old NanoNets/Graft URLs redirect.
 **The community footprint is thin for the star count: a third-party Show HN drew 3 points and 2 comments, the creator's own follow-up reached 39 points and 44 comments, and its most substantive comments were criticisms.**
 In that thread the creator confirmed the README's marketing register is model-written ("Opus 5 is very paranoid on giving proofs... so I let it keep this one line"), and the only cross-tool numbers anywhere (graft over Graphify, MRR 0.73 vs 0.38) are his own tests, not a published benchmark.
 No independent benchmark or third-party evaluation exists as of 2026-09-13.
@@ -44,12 +45,18 @@ No independent benchmark or third-party evaluation exists as of 2026-09-13.
 - The differentiating plain-English summaries are the part the creator calls experimental, writing on HN that they are "still testing whether the summaries are worth it at all".
 - The README's prose is LLM-written and commenters flagged the "empty calorie language" before the creator confirmed its origin, which tells you how much of the polish to discount.
 - The detailed benchmark tables behind the 4x headline cover only PocketBase (a 21% cost cut), so the "up to" is doing real work.
-- The Trail Brain upsell is aggressive ("a living skill file that learns from every task" is the hosted product, not this repo), 169 open issues is a lot for eleven weeks, and the rename trail (context-graph-engine to Graft, NanoNets to trailhq) scatters canonical links.
+- The Trail Brain upsell is aggressive ("a living skill file that learns from every task" is the hosted product, not this repo), 176 open issues is a lot for eleven weeks, and the rename trail (context-graph-engine to Graft, NanoNets to trailhq) scatters canonical links.
 
 ## Pricing
 
 Graft is free, MIT, no account; your only cost is the LLM usage the optional deep pass makes under your own key.
-The money is in Trail Brain (as of 2026-09-18): Free ($0, 100 rules, 1 editor, 10K agent reads/month), Small ($20k/year), Medium ($60k/year), and Large ($150k/year with in-VPC and HIPAA BAA), priced on rules, editors, and monthly agent reads.
+The money is in Trail Brain (as of 2026-09-20): Free ($0, 100 rules, 1 editor, 10K agent reads/month), Small ($20k/year), Medium ($60k/year), and Large ($150k/year with in-VPC and HIPAA BAA), priced on rules, editors, and monthly agent reads.
+
+## Price history
+
+| Date | Plan | Change | Source |
+| ---- | ---- | ------ | ------ |
+| 2026-09-18 | Trail Brain | Baseline: Graft free (MIT); Trail Brain Free $0 (100 rules), Small $20k/yr, Medium $60k/yr, Large $150k/yr with in-VPC and HIPAA BAA. | [trailhq.com/pricing](https://trailhq.com/pricing) |
 
 ## Compared to
 
@@ -67,6 +74,8 @@ I would not skip TELEMETRY.md for a compliance-sensitive team, and I would not b
 - 2026-09-12 - Created in the Context engines category during the three-entrant resolution run.
 - 2026-09-16 - Refreshed the growth numbers (8,121 stars, 735 forks, 165 open issues as of re-verification); npm package, download window, and Trail Brain pricing unchanged.
 - 2026-09-18 - Refreshed the growth numbers (8,458 stars, 766 forks, 169 open issues, 49,422 trailing-month npm downloads); package still v0.18.0 and Trail Brain pricing unchanged.
+- 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
+- 2026-09-20 - Recorded the repository's canonical move to the trailhq GitHub org and repointed the raw README and TELEMETRY reference links, alongside the growth-number refresh (8,723 stars, 52,630 trailing-month npm downloads).
 
 ## See also
 
@@ -76,13 +85,13 @@ I would not skip TELEMETRY.md for a compliance-sensitive team, and I would not b
 
 ## References
 
-- https://github.com/NanoNets/Graft - repository, stats, topics, and rename (answers to trailhq/Graft), as of 2026-09-18
-- https://raw.githubusercontent.com/NanoNets/Graft/main/README.md - architecture, benchmark tables, SWE-bench Verified numbers, delivery surfaces
+- https://github.com/trailhq/Graft - canonical repository (NanoNets/Graft redirects here), stats and activity as of 2026-09-20
+- https://raw.githubusercontent.com/trailhq/Graft/main/README.md - architecture, benchmark tables, SWE-bench Verified numbers, delivery surfaces
 - https://graft.nanonets.ai - product site, Trail attribution, and marketing claims
-- https://raw.githubusercontent.com/NanoNets/context-graph-engine/main/TELEMETRY.md - the telemetry allowlist contract
+- https://raw.githubusercontent.com/trailhq/Graft/main/TELEMETRY.md - the telemetry allowlist contract (the original NanoNets/context-graph-engine path still redirects)
 - https://registry.npmjs.org/@nanonets/graft/latest - package version 0.18.0 and metadata
-- https://api.npmjs.org/downloads/point/last-month/@nanonets/graft - 49,422 downloads, window 2026-08-18 to 2026-09-16, fetched 2026-09-18
+- https://api.npmjs.org/downloads/point/last-month/@nanonets/graft - 52,630 downloads, window 2026-08-21 to 2026-09-19, fetched 2026-09-20
 - https://hn.algolia.com/api/v1/items/49197687 - the 3-point Show HN and the creator's tree-sitter-only clarification
 - https://hn.algolia.com/api/v1/items/49299985 - the 39-point thread: staleness, README register critique, and the vendor-run Graphify comparison
-- https://trailhq.com/pricing - Trail Brain plans as of 2026-09-18
+- https://trailhq.com/pricing - Trail Brain plans as of 2026-09-20
 - https://trailhq.com - the vendor and the Trail Brain upsell positioning

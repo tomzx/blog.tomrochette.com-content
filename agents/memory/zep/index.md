@@ -1,7 +1,7 @@
 ---
 title: Zep
 created: 2026-08-24
-updated: 2026-09-13
+updated: 2026-09-20
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, agent-memory, knowledge-graphs]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Zep is an enterprise agent-memory service built on temporal knowledge graphs: facts carry validity windows, contradictions invalidate old facts instead of overwriting them, and everything traces back to source episodes.
-Facts below verified as of 2026-09-18.
+Facts below verified as of 2026-09-20.
 
 **Zep is the only major memory vendor whose core claim is handling change over time, and the market is slowly conceding the point as rivals bolt on entity links and temporal retrieval.**
 
@@ -50,6 +50,12 @@ Free: 10,000 credits per month, no rollover.
 Flex $104/month billed annually ($125 monthly) with 50,000 credits; Flex Plus $312/month annually ($375 monthly) with 200,000; Enterprise custom, as of 2026-09-18.
 A credit covers one episode up to 350 bytes; retrieval, storage, and users are unmetered.
 
+## Price history
+
+| Date | Plan | Change | Source |
+| ---- | ---- | ------ | ------ |
+| 2026-09-18 | Flex, Flex Plus | Baseline: Free (10k credits/mo, no rollover), Flex $104/mo annual or $125 monthly (50k credits), Flex Plus $312 annual or $375 monthly (200k), Enterprise custom. | [getzep.com/pricing](https://www.getzep.com/pricing) |
+
 ## Compared to
 
 - [Mem0](../mem0/index.md): simpler, cheaper, wider adoption; choose Zep when temporal accuracy and governance are non-negotiable, Mem0 for speed to market.
@@ -64,6 +70,7 @@ Not for solo builders or small budgets, and my disagreeable claim is that Mem0's
 ## Changes
 
 - 2026-08-24 - Created in the Memory category seed.
+- 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
 
 ## See also
 

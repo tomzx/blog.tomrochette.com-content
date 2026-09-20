@@ -1,7 +1,7 @@
 ---
 title: "Assistant Runtimes Feature Matrix"
 created: 2026-08-27
-updated: 2026-09-18
+updated: 2026-09-20
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, comparison, assistant-runtimes, personal-assistants]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 This matrix compares the nine assistant runtimes profiled in this section: the OpenClaw root, the three variants named after shrinking it, the learning-loop challenger, the readable Python core, the two Cowork-style desktops, and the channel-matrix newcomer.
-Everything below was verified against live sources on 2026-08-30 and re-verified on 2026-09-02, 2026-09-04, 2026-09-05, 2026-09-06, 2026-09-07, 2026-09-08, 2026-09-09, 2026-09-10, 2026-09-12, 2026-09-13, 2026-09-16, and 2026-09-18.
+Everything below was verified against live sources on 2026-08-30 and re-verified on 2026-09-02, 2026-09-04, 2026-09-05, 2026-09-06, 2026-09-07, 2026-09-08, 2026-09-09, 2026-09-10, 2026-09-12, 2026-09-13, 2026-09-16, 2026-09-18, and 2026-09-20.
 
 **The family ladder is a trust ladder: OpenClaw is an ecosystem, NanoClaw an auditable codebase, ZeroClaw a static binary, PicoClaw a firmware image, Hermes a memory that grows, and the 2026 columns stretch the ladder again, Nanobot bets on readable Python, QwenPaw on channels and security defaults, and OpenWork and Eigent carry the category onto the desktop as Cowork alternatives.**
 
@@ -32,8 +32,8 @@ Each column links to the full research note; every cell below traces to a source
 | Providers | BYOK, local Ollama/vLLM, cloud credits | any, Nous Portal, one-command switch | any OpenAI-compatible, Ollama, vLLM | Claude SDK plus codex, opencode, ollama skills | hosted plus local | any OpenCode provider (50+) | many incl. Kimi, MiMo, Bedrock | DashScope, major clouds, own small models offline | about 20 incl. Ollama |
 | Edge and mobile | ✗ desktop only | ~ $5 VPS, serverless idle on Modal, Daytona | ~ server deploys (Render) | ✗ Docker host only | companion apps | ✗ desktop only | ✓ Android APK, $10 RISC-V boards | ~ beta Tauri desktop | ~ Raspberry Pi |
 | Credentials | your keys or cloud credits | per-provider keys or Nous Portal | your keys on host | ✓ OneCLI Agent Vault | your keys on host | your keys BYO | your keys in workspace | your keys, or none offline | your keys in workspace |
-| Security record | GAIA claim corrected, astroturf flag | edited plagiarism-claim issue, 44k open issues | clean so far, category-skepticism thread | clean so far | provider saga plus a 514-point vuln report | HN boundary questions unresolved | pre-1.0 banner, scam-token notice | telemetry auto-accept default | clean so far, thin coverage |
-| Status | active, v1.0.4 | active, v2026.9.14, 44k open issues | active, PyPI alpha | active, 1.1k open issues | active, v2026.9.4, 7.8k open issues | active, weekly signed releases | active, 39 open issues, pre-1.0 | active, v2.2.1, post-rewrite churn | active, 801 open issues |
+| Security record | GAIA claim corrected, astroturf flag | edited plagiarism-claim issue, 44k open issues | clean so far, category-skepticism thread | clean so far | provider saga plus a 514-point vuln report | HN boundary questions unresolved | pre-1.0 banner, scam-token notice, expired picoclaw.io cert | telemetry auto-accept default | clean so far, thin coverage |
+| Status | active, v1.0.4 | active, 44k open issues | active, PyPI alpha | active, 1.1k open issues | active, v2026.9.5, 8.1k open issues | active, weekly signed releases | active, 40 open issues, pre-1.0 | active, v2.2.1, post-rewrite churn | active, 801 open issues |
 
 ## Reading the matrix
 
@@ -45,7 +45,7 @@ QwenPaw is the only column with a real offline path through its own trained smal
 
 **The desktop split is the new category line: OpenWork and Eigent do not do chat channels at all, which is why their cells go tilde there, and choosing between them and the messaging runtimes is really choosing between an assistant that lives in your chats and one that lives on your desktop.**
 
-**The status row's issue counts are inversely proportional to age, not quality: the root carries 7,772 open issues at scale, and the pre-1.0 PicoClaw carries 39, so read the column against its birthday.**
+**The status row's issue counts are inversely proportional to age, not quality: the root carries 8,071 open issues at scale, and the pre-1.0 PicoClaw carries 40, so read the column against its birthday.**
 
 **Hermes is the column that breaks the -claw pattern: it competes on the learning loop rather than the trust ladder, and its about 247k stars against a 44k-issue backlog is the trade in one row pair.**
 
@@ -67,6 +67,7 @@ QwenPaw is the only column with a real offline path through its own trained smal
 - 2026-08-27 - Extended to five columns with Hermes inserted, and the reading section gained the learning-loop-versus-trust-ladder line.
 - 2026-08-30 - Nanobot, OpenWork, Eigent, and QwenPaw columns added, matrix at nine columns, with desktop-split prose added.
 - 2026-09-13 - Removed the archived Android port from ZeroClaw's edge and mobile cell and corrected its open-issue count to 824.
+- 2026-09-20 - Re-verification: moved the OpenClaw status cell to v2026.9.5 with 8.1k open issues, dropped the note-ungrounded v2026.9.14 from the Hermes status cell, moved the PicoClaw status cell to 40 open issues, and recorded picoclaw.io's expired TLS certificate in its security-record cell.
 
 ## See also
 

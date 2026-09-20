@@ -1,7 +1,7 @@
 ---
 title: "Task Management Feature Matrix"
 created: 2026-08-27
-updated: 2026-09-16
+updated: 2026-09-20
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, comparison, task-management, task-tracking]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 This matrix compares the four task managers profiled in this section, feature by feature, so choosing between them does not require reading four notes.
-Everything below was verified against live sources on 2026-09-18.
+Everything below was verified against live sources on 2026-09-20.
 
 **Files versus database is the row that decides everything else: it determines whether your board survives multiple agents racing on it, and the planning layer the newest column adds sits above that choice rather than replacing it.**
 
@@ -29,9 +29,9 @@ Each column links to the full research note; every cell below traces to a source
 | Dependency graph | ~ milestones, no claim graph | ✓ graph plus auto-ready queue | ✓ ordered plan, dependencies respected | ✓ dependency chains, move with them |
 | Multi-agent concurrency | ✗ no atomic claims | ✓ atomic claim, hash IDs | ~ independent tasks run in parallel, no shared claims | ? not verified |
 | PRD ingestion | ✗ manual task creation | ✗ manual task creation | ~ opt-in PRD artifact inside the planner conversation | ✓ `parse-prd` pipeline |
-| Agent integrations | Claude Code, Codex, Gemini CLI, Kiro, Cursor, MCP | `bd setup` for Codex, Claude, Factory, Cursor, plus AGENTS.md and MCP | runners Claude Code, Codex, OpenCode built in, plugins beyond; planner can be a coding agent or one of 25 API providers | MCP server and CLI, documented for Cursor, Claude Code, Windsurf, VS Code, Q CLI |
+| Agent integrations | Claude Code, Codex, Gemini CLI, Kiro, Cursor, MCP | `bd init` for Codex, Claude, Factory, Cursor, plus AGENTS.md and MCP | runners Claude Code, Codex, OpenCode built in, plugins beyond; planner can be a coding agent or one of 25 API providers | MCP server and CLI, documented for Cursor, Claude Code, Windsurf, VS Code, Q CLI |
 | Pricing | free | free | free | CLI free, Hamster $40 per creator per month |
-| Current status | active, about 6.8k stars | active, about 27k stars | active, 129 stars, v0.4.19 (2026-09-10) | repo quiet since April 2026, product alive at Hamster |
+| Current status | active, about 6.8k stars | active, about 27k stars, 1,224 open issues | active, 132 stars, v0.4.19 (2026-09-10) | repo quiet since April 2026, product alive at Hamster |
 
 ## Reading the matrix
 
@@ -39,7 +39,7 @@ Each column links to the full research note; every cell below traces to a source
 Task Master's file storage sits between the two but its concurrency story is unverified, which is the cell I would resolve first before adopting it for shared queues.
 
 **Ordewell is the category's planner layer: where the other three track work, it decomposes a goal into an editable plan with per-task model assignment and refuses to take the agent's word for done, completing tasks on markers instead.**
-Its 129 stars and v0.4.x release line make it the least proven column, and its note records the launch thread's AI-written-replies episode as a transparency caution.
+Its 132 stars and v0.4.x release line make it the least proven column, and its note records the launch thread's AI-written-replies episode as a transparency caution.
 
 **PRD ingestion is the pipeline feature, and its provenance is the warning: the only tool with a full PRD pipeline is the one whose license stopped being OSI open source and whose repo went quiet as the method moved into a paid product, while Ordewell treats the PRD as an optional conversational artifact instead.**
 

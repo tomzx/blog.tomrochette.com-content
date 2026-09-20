@@ -1,7 +1,7 @@
 ---
 title: Trae
 created: 2026-08-24
-updated: 2026-09-18
+updated: 2026-09-20
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, surfaces, ai-editors, bytedance]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Trae is ByteDance's AI IDE, a closed-source VS Code fork with SOLO agent mode and TraeWork cloud tasks, priced from free to $200/month.
-Facts below verified as of 2026-09-18.
+Facts below verified as of 2026-09-20.
 
 **Trae's September 2026 repricing roughly doubled every paid tier and erased the price edge that justified the telemetry trade, so the decision is now purely about whether your code can live inside that trade.**
 
@@ -24,8 +24,8 @@ Enterprise sales run through BytePlus, ByteDance's enterprise arm.
 ## Status
 
 **Active.**
-Launched January 2025, shipping continuously since, with a free tier plus a three-run paid ladder after the September 2026 repricing and enterprise availability via BytePlus, as of 2026-09-18.
-The open-source sidecar went quiet: trae-agent's last commit landed February 5, 2026, with no tagged release ever published, as of 2026-09-18.
+Launched January 2025, shipping continuously since, with a free tier plus a three-run paid ladder after the September 2026 repricing and enterprise availability via BytePlus, as of 2026-09-20.
+The open-source sidecar went quiet: trae-agent's last commit landed February 5, 2026, with no tagged release ever published, as of 2026-09-20.
 The July 2025 telemetry analysis thread kept it in the discussion, not always favorably.
 
 ## Strengths
@@ -45,8 +45,15 @@ The July 2025 telemetry analysis thread kept it in the discussion, not always fa
 ## Pricing
 
 Free: 5,000 autocompletions a month, limited usage, 2 concurrent cloud tasks.
-Pro $20/month ($20 usage, unlimited autocomplete, 10 tasks), Pro+ $60/month ($60 usage, 15 tasks), Ultra $200/month ($200 usage, 20 tasks, model early access), as of 2026-09-18.
+Pro $20/month ($20 usage, unlimited autocomplete, 10 tasks), Pro+ $60/month ($60 usage, 15 tasks), Ultra $200/month ($200 usage, 20 tasks, model early access), as of 2026-09-20.
 A September 2026 repricing roughly doubled every paid tier and dropped the $3 Lite tier; as of 2026-09-16 the ladder was Lite $3 ($5 usage), Pro $10 ($20 usage, 10 tasks), Pro+ $30, Ultra $100.
+
+## Price history
+
+| Date | Plan | Change | Source |
+| ---- | ---- | ------ | ------ |
+| 2026-09-16 | All tiers | Prior ladder: Lite $3 ($5 usage), Pro $10 ($20 usage, 10 tasks), Pro+ $30, Ultra $100. | [trae.ai/pricing](https://www.trae.ai/pricing) |
+| 2026-09-18 | All tiers | September 2026 repricing roughly doubled every paid tier and dropped Lite: Pro $20 ($20 usage, 10 tasks), Pro+ $60 ($60 usage, 15 tasks), Ultra $200 ($200 usage, 20 tasks). | [trae.ai/pricing](https://www.trae.ai/pricing) |
 
 ## Compared to
 
@@ -64,6 +71,7 @@ Not for proprietary or regulated codebases, full stop.
 - 2026-08-24 - Created in the owner-requested Surfaces expansion, recording the ByteDance tiers, SOLO mode, and the telemetry analysis.
 - 2026-08-25 - Recorded the trae-agent stall (last commit February 2026, no tagged release) and reframed the sidecar as a snapshot.
 - 2026-09-18 - Recorded the September 2026 repricing: the $3 Lite tier is gone and paid tiers doubled (Pro $10 to $20, Pro+ $30 to $60, Ultra $100 to $200), with usage dollars raised to match.
+- 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
 
 ## See also
 
@@ -74,7 +82,7 @@ Not for proprietary or regulated codebases, full stop.
 ## References
 
 - https://www.trae.ai/ - product and download entry point
-- https://www.trae.ai/pricing - tiers, usage dollars, cloud task concurrency, as of 2026-09-18
-- https://github.com/bytedance/trae-agent - the MIT-licensed agent framework, last commit February 5, 2026, about 12k stars as of 2026-09-18
+- https://www.trae.ai/pricing - tiers, usage dollars, cloud task concurrency, as of 2026-09-20
+- https://github.com/bytedance/trae-agent - the MIT-licensed agent framework, last commit February 5, 2026, about 12k stars as of 2026-09-20
 - https://news.ycombinator.com/item?id=44703164 - the independent performance and telemetry analysis
 - https://news.ycombinator.com/item?id=42811502 - the January 2025 launch thread

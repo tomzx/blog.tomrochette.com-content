@@ -1,7 +1,7 @@
 ---
 title: Mem0
 created: 2026-08-24
-updated: 2026-09-13
+updated: 2026-09-20
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, agent-memory, developer-tools]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Mem0 is a hosted and self-hostable memory layer for AI agents: it extracts facts from conversations, stores them across vector, graph, and key-value backends, and retrieves the relevant slice into context on demand.
-Facts below verified as of 2026-09-18.
+Facts below verified as of 2026-09-20.
 
 **Mem0 has the widest adoption of any dedicated memory product, and its benchmark numbers are the part I trust least.**
 
@@ -51,6 +51,12 @@ Hobby (free) tier: 10,000 add and 1,000 retrieval requests per month.
 Starter $19/month, Pro $249/month (graph memory and Dream land at Pro), Enterprise custom with on-prem and SSO, as of 2026-09-18.
 **The OSS SDK is free but the benchmarked brain is the paid platform, which is the real price of the headline numbers.**
 
+## Price history
+
+| Date | Plan | Change | Source |
+| ---- | ---- | ------ | ------ |
+| 2026-09-18 | Starter, Pro | Baseline: Hobby free (10k add and 1k retrieval requests/mo), Starter $19/mo, Pro $249/mo, Enterprise custom; OSS SDK free. | [mem0.ai/pricing](https://mem0.ai/pricing) |
+
 ## Compared to
 
 - [Zep](../zep/index.md): temporal knowledge graphs and governance; choose it when facts change over time and audit matters.
@@ -66,6 +72,7 @@ I would not choose any memory vendor on benchmark leaderboards, this field's num
 
 - 2026-08-24 - Created among the four memory notes of the research index seeding run.
 - 2026-09-05 - Relabeled the free tier as Hobby on the pricing page's rename, quotas identical.
+- 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
 
 ## See also
 

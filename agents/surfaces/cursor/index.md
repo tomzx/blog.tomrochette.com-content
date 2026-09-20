@@ -1,7 +1,7 @@
 ---
 title: Cursor
 created: 2026-08-23
-updated: 2026-09-07
+updated: 2026-09-20
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, surfaces, ai-editors, anysphere]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Cursor is the AI-native editor by Anysphere: a VS Code fork grown into a platform with a CLI, cloud agents, and its own models, and since August 14, 2026 a part of SpaceX.
-Facts below verified as of 2026-09-18.
+Facts below verified as of 2026-09-20.
 
 **Cursor stopped being an editor company in 2026: it is now a compute-distribution play, and a team that standardizes on it is buying SpaceX's GPU fleet with an IDE attached.**
 
@@ -26,7 +26,7 @@ Model access spans Anthropic, Google, and xAI (whose Grok arrived through the Sp
 SpaceX completed the acquisition on August 14, 2026, closing a process that started with the SpaceXAI training partnership announced in April 2026, and the June 2026 announcement thread carried a $60 billion price.
 The vendor-announced 2026 record includes a Gartner Magic Quadrant Leader placement (May) and an agent-security certification (August).
 On August 31, 2026 the OpenAI split went public: OpenAI cited terms-of-service confidence after the acquisition, Cursor's CEO put OpenAI models at about 5% of user traffic, and Anthropic publicly committed to keep serving Claude models in Cursor.
-As of 2026-09-18 the November 12, 2026 shutoff stands unrevised: no later reporting moves the date and the pricing page still sells frontier-model access without an OpenAI removal notice.
+As of 2026-09-20 the November 12, 2026 shutoff stands unrevised: no later reporting moves the date and the pricing page still sells frontier-model access without an OpenAI removal notice.
 
 ## Strengths
 
@@ -46,7 +46,13 @@ As of 2026-09-18 the November 12, 2026 shutoff stands unrevised: no later report
 
 Hobby is free with limited agent requests and access to Composer.
 Individual plans are $20/month (Pro, with Pro+ at 3x and Ultra at 20x agent limits).
-Teams Standard and Premium are $40/user/month, Enterprise is custom, and on-demand usage bills in arrears on the paid tiers, as of 2026-09-18.
+Teams Standard and Premium are $40/user/month, Enterprise is custom, and on-demand usage bills in arrears on the paid tiers, as of 2026-09-20.
+
+## Price history
+
+| Date | Plan | Change | Source |
+| ---- | ---- | ------ | ------ |
+| 2026-09-18 | All tiers | Baseline: Hobby free with limited agent requests, Individual Pro $20/mo (Pro+ at 3x, Ultra at 20x limits), Teams Standard and Premium $40/user/mo, Enterprise custom, on-demand usage billed in arrears. | [cursor.com/pricing](https://cursor.com/pricing) |
 
 ## Compared to
 
@@ -64,6 +70,7 @@ Not for anyone who needs an open, auditable toolchain or a predictable bill.
 - 2026-08-23 - Created in the Surfaces category seed.
 - 2026-08-26 - Resolved the Grok ownership contradiction by tying Grok to the SpaceXAI partnership.
 - 2026-09-02 - Recorded the OpenAI wind-down (notice August 28, 2026, model access shutoff November 12, 2026).
+- 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
 
 ## See also
 
@@ -74,7 +81,7 @@ Not for anyone who needs an open, auditable toolchain or a predictable bill.
 
 ## References
 
-- https://cursor.com/pricing - tiers, limits language, privacy mode, as of 2026-09-18
+- https://cursor.com/pricing - tiers, limits language, privacy mode, as of 2026-09-20
 - https://cursor.com/blog/joining-spacex - the August 14, 2026 acquisition completion post
 - https://devops.com/openai-cuts-off-cursors-model-access-after-spacex-acquisition/ - the OpenAI wind-down, the November 12, 2026 shutoff, and the 5% traffic claim, September 2026
 - https://cursor.com/docs - product surfaces and configuration

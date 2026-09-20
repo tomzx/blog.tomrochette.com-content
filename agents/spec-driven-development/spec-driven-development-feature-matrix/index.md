@@ -1,7 +1,7 @@
 ---
 title: "Spec Driven Development Feature Matrix"
 created: 2026-08-27
-updated: 2026-09-16
+updated: 2026-09-20
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, comparison, spec-driven-development, process, llm=glm-5.3-flash]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 This matrix compares the five spec-driven development tools profiled in this section, feature by feature.
-Everything below was re-verified against live sources on 2026-09-18.
+Everything below was re-verified against live sources on 2026-09-20.
 
 **The category splits on two axes: who owns the specs (your repo or a platform) and whether the ceremony sizes itself to the change, and the waterfall critique is the standing judge of the second axis, while the new column adds a third question, whether the steward survives their own controversy.**
 
@@ -31,7 +31,7 @@ Each column links to the full research note; every cell below traces to a source
 | Brownfield support | ✓ establish-context path | ~ not the primary case | ✓ `/gsd-onboard` for existing repos | ✓ explicit design goal | ? not verified |
 | Convergence checking | ✓ verify and learn loop | ✓ converge step | ✓ verify phase walks the build before done | ~ archive keeps ledger current | ? not verified |
 | Unattended execution | ✓ BMad Loop module | ✗ | ~ parallel executor waves, human verify step, gsd-loop works a GitHub queue | ✗ | ? not verified |
-| Adoption | about 53k stars | about 137k stars | original archived at 64.5k stars; successor 9.6k stars, 44.5k npm downloads a month | about 69k stars, 1.9M npm downloads a month | 24-point raise thread, thin OSS surface |
+| Adoption | about 53k stars | about 138k stars | original archived at 64.5k stars; successor 9.6k stars, 44.5k npm downloads a month | about 69k stars, 1.9M npm downloads a month | 24-point raise thread, thin OSS surface |
 | Pricing | free | free | free | free | free tier plus Team at $100 per month, Enterprise custom |
 
 ## Reading the matrix

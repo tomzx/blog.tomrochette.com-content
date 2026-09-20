@@ -1,7 +1,7 @@
 ---
 title: Amp
 created: 2026-08-22
-updated: 2026-09-13
+updated: 2026-09-20
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, coding-agents, harnesses, remote-execution, developer-tools]
 readability: 3
@@ -12,7 +12,7 @@ audience_notes: >
 ---
 
 Amp is the coding agent from Amp Frontier Corporation ([spun out of Sourcegraph on December 2, 2025](https://ampcode.com/news/amp-frontier-corporation)): a CLI plus web and phone surfaces, with threads that run on remote machines called orbs.
-Facts below verified as of 2026-09-18.
+Facts below verified as of 2026-09-20.
 
 **Amp's orbs are the most direct answer in the field to "the agent should keep working when I close my laptop", and the product is priced exactly like something that believes its own value.**
 
@@ -50,6 +50,13 @@ Individual $20/month: 45,000 orb minutes (750 hours) of Megawatt orb time, with 
 Teams cost nothing extra beyond members' tiers and pool credits with SAML/OIDC SSO; Enterprise is custom, pooled credits only.
 Since the September 13, 2026 Free Agent change there is no monthly fee to use Amp at all on your own compute, runners, subscriptions, or keys (you can still buy inference through Amp with no markup), and the zero and minimal data retention policy is now contractually extended to every tier.
 
+## Price history
+
+| Date | Plan | Change | Source |
+| ---- | ---- | ------ | ------ |
+| 2026-08-22 | Individual | Baseline at note creation: Hobby free, Individual $20/mo for 45,000 Megawatt orb minutes, Teams and Enterprise pooling. | [ampcode.com/pricing](https://ampcode.com/pricing/) |
+| 2026-09-13 | All tiers | Free Agent change: no monthly fee to use Amp on your own compute, runners, subscriptions, or keys; Amp-sold inference stays at no markup, zero and minimal retention extended to every tier. | [ampcode.com/pricing](https://ampcode.com/pricing/) |
+
 ## Compared to
 
 - [Claude Code](../claude-code/index.md) and [Codex](../codex/index.md): subscription platforms whose cloud forms are bounded by session caps; **Amp's orbs are the more aggressive delegation model**.
@@ -72,6 +79,7 @@ Not for open-source-only teams or anyone metering their own tokens.
 - 2026-09-08 - Folded in September news (desktop orb client, Fable 5.1 powering ultra, iOS and macOS app).
 - 2026-09-12 - Recorded the pricing restructure (new free Hobby tier, Individual $20 with 45,000 orb minutes, seat-free Teams).
 - 2026-09-13 - Recorded the Free Agent announcement: free with your own compute or subscriptions, BYOK token fees dropped outside Enterprise, and nine more BYOK providers in early access.
+- 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
 
 ## See also
 

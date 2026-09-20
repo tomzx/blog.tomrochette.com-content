@@ -1,7 +1,7 @@
 ---
 title: Andrew Ng (The Batch, DeepLearning.AI)
 created: 2026-08-29
-updated: 2026-09-13
+updated: 2026-09-20
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=big-pickle, llm=glm-5.3-flash, people, publications, education, agents, agentic-ai]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Andrew Ng's The Batch weekly newsletter and DeepLearning.AI courses are the mainstream educator's view of AI and agentic development, the voice that popularized the four agentic design patterns and published the AI Engineering Skills Map.
-Facts below verified as of 2026-09-18.
+Facts below verified as of 2026-09-20.
 
 **He is the single highest-reaching educator in this category: where the others write for practitioners already inside the field, Ng is the on-ramp that also steers what the broader industry thinks agents are.**
 
@@ -24,7 +24,7 @@ His [agentic AI course](https://learn.deeplearning.ai/courses/agentic-ai) and [A
 ## Status
 
 Active and highly influential as of 2026-09-13.
-The Batch publishes weekly, with the latest numbered issue (370) on 2026-09-11, and the AI Engineering Skills Map letter is dated 2026-08-14.
+The Batch publishes weekly, with the latest numbered issue (371) on 2026-09-18, and the AI Engineering Skills Map letter is dated 2026-08-14.
 DeepLearning.AI reports courses taught to millions of learners and positions itself as the canonical AI education path.
 
 ## Strengths
@@ -46,6 +46,12 @@ DeepLearning.AI reports courses taught to millions of learners and positions its
 The Batch newsletter is free.
 DeepLearning.AI short courses are mostly free, while Coursera specializations and certificates are paid ($49/month or $399/year as of 2026-06 review).
 
+## Price history
+
+| Date | Plan | Change | Source |
+| ---- | ---- | ------ | ------ |
+| 2026-06 | Coursera specializations | Baseline: The Batch and most short courses free; Coursera specializations and certificates $49/mo or $399/yr. | [Coursera DeepLearning.AI specialization](https://www.coursera.org/specializations/deep-learning) |
+
 ## Compared to
 
 - [Latent Space](../latent-space/index.md): the industry-podcast-and-newsletter of record versus the educator's weekly; Latent Space is deeper and more technical, The Batch is broader and more accessible.
@@ -62,6 +68,7 @@ Not for a practitioner who wants deep technical detail, frontier-labs nuance, or
 - 2026-08-29 - Created as the education-and-on-ramp band, the voice that popularized the four agentic design patterns and published the AI Engineering Skills Map.
 - 2026-08-30 - Dropped an unverifiable jobpocalypse quote and a dead aiagentrank reference, replaced with the verified Coursera specialization page.
 - 2026-09-04 - Batch coverage extended past the note's "through August 2026" claim.
+- 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
 
 ## See also
 

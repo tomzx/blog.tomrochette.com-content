@@ -1,7 +1,7 @@
 ---
 title: "Evaluation and Review Feature Matrix"
 created: 2026-08-30
-updated: 2026-09-18
+updated: 2026-09-20
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3-flash, comparison, evaluation, code-review, human-in-the-loop]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 This matrix compares the seven members of the Evaluation and review category: the pytest-style eval framework, two public harness benchmarks (the vendor-run FrontierHarness Eval and the academic HarnessTax), two observability and evaluation platforms (Langfuse and Phoenix), the human annotation surface, and the agent-driven local debugger.
-Everything below was re-verified against live sources on 2026-09-18.
+Everything below was re-verified against the refreshed member notes and live sources on 2026-09-20.
 The hybrid machine reviewer that used to sit here, OpenCodeReview, moved to the Code review category when this matrix was created, on 2026-08-30.
 
 **The category divides on who judges: the agent itself (Workshop), a metric suite (deepeval), an observability platform's judges (Langfuse, Phoenix), a human (Plannotator), or a fixed public benchmark's official evaluator (FrontierHarness Eval, HarnessTax), and mature teams run more than one column at once.**
@@ -31,7 +31,7 @@ Each column links to the full research note; every cell below traces to a source
 | Harness integration | tracing integrations | 9 harnesses, 12 configs, agent-neutral re-run skill | 3 harnesses (Claude Code, Codex CLI, Pi) across 7 models | Python/JS SDKs, native OpenTelemetry, 100+ framework integrations, agent skill, CLI, MCP server | OTel auto-instrumentation, MCP server | hooks in 9 harnesses | skills and MCP for 5+ agents |
 | Team layer | Confident AI platform | ✗ | ✗ | cloud RBAC, SSO and Slack on the Teams add-on, Enterprise audit logs and SCIM | Arize AX cloud | encrypted links (caveat), Workspaces waitlist | Raindrop Cloud optional |
 | License | ✓ Apache-2.0 | ✗ repository unlicensed | ✗ repository unlicensed | ~ MIT core, proprietary ee/ modules, ClickHouse-owned | ~ ELv2 core, Apache clients | ✓ Apache-2.0 or MIT | ✓ MIT |
-| Maturity | mature, 3 years, v4.2 | new, first run 2026-08-31, 82-point HN launch | new, live 2026-09-16, 217-point HN launch | mature, 3 years, v4.38.0 | mature, 4 years, v20.14 | pre-1.0 (v0.27.x), fast churn | pre-1.0, 4 months |
+| Maturity | mature, 3 years, v4.2 | new, first run 2026-08-31, 82-point HN launch | new, live 2026-09-16, 229-point HN thread (2026-09-20) | mature, 3 years, v4.38.0 | mature, 4 years, v20.14 | pre-1.0 (v0.27.x), fast churn | pre-1.0, 4 months |
 | Pricing anchor | free, platform $200-2,000/mo | free to read, a re-run costs harness tokens | free to read, a re-run costs model tokens | free self-hosted, cloud $29-2,499/mo | free, AX $50/mo entry | free, Workspaces unpriced | free, Cloud $299/mo |
 
 ## Reading the matrix
@@ -68,6 +68,7 @@ Machine review of the pull requests themselves now lives in the [Code Review Fea
 - 2026-09-16 - Extended to six columns with Langfuse.
 - 2026-09-18 - Phoenix maturity cell moved to v20.14 and Langfuse's to v4.38.0 after new releases.
 - 2026-09-18 - Extended to seven columns with HarnessTax.
+- 2026-09-20 - Refreshed the HarnessTax maturity cell to the thread's 229-point total; the deepeval and Phoenix download corrections live in their notes, no matrix cells carried them.
 
 ## See also
 

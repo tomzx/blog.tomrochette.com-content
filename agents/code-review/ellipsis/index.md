@@ -1,7 +1,7 @@
 ---
 title: Ellipsis
 created: 2026-08-30
-updated: 2026-09-18
+updated: 2026-09-20
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, code-review, ai-review, developer-tools]
 readability: 3
@@ -13,7 +13,7 @@ audience_notes: >
 ---
 
 Ellipsis (ellipsis.dev) is a YC-backed company that launched in 2023 as an automated PR review and bug-fix bot and, as of July 2026, has pivoted to the Ellipsis Agent Cloud, a managed cloud platform for running coding agents such as Claude Code and Codex in governed sandboxes.
-Facts below verified as of 2026-09-18.
+Facts below verified as of 2026-09-20.
 
 ## What it is
 
@@ -58,6 +58,13 @@ The same published pricing covers the managed SaaS and a BYOC deployment into yo
 Optional enterprise support packages run $5,000 (Standard), $10,000 (Advanced), and $15,000 (Premier) per month as of 2026-09-18.
 This replaces the May 2024 model, which was $20/seat/month for the review bot.
 
+## Price history
+
+| Date | Plan | Change | Source |
+| ---- | ---- | ------ | ------ |
+| 2024-05 | Review bot | Original model: $20/seat/month for the review bot. | [ellipsis.dev/pricing](https://www.ellipsis.dev/pricing) |
+| 2026-09-18 | All tiers | Replaced with usage billing: tokens at cost plus a 10% platform fee, CPU $0.142/vCPU-hour, memory $0.024/GB-hour, $100 starting credit, no seat fees; enterprise support packages at $5,000/$10,000/$15,000 per month. | [ellipsis.dev/pricing](https://www.ellipsis.dev/pricing) |
+
 ## Compared to
 
 [Greptile](../greptile/index.md) is the closest sibling that stayed a review product: it reviews PRs against the whole codebase without you owning agent config, which is exactly what Ellipsis gave up.
@@ -78,6 +85,7 @@ I will take the unpopular position that leaving review was the right call: a fix
 - 2026-09-12 - Advanced support package raised from $7,500 to $10,000 per month.
 - 2026-09-13 - Added the free-for-individuals on-ramp (own ChatGPT or Claude subscription) to the pricing picture.
 - 2026-09-18 - The free-individual on-ramp now names Claude Code or Codex subscriptions (was ChatGPT or Claude), and the GitHub org grew to six public repos with the new blink codebase-search repo.
+- 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
 
 ## See also
 

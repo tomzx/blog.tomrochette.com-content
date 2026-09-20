@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 This matrix compares the twenty-six harnesses profiled in this section, feature by feature, so the shortlisting step does not require reading twenty-six notes.
-Everything below was re-verified against live sources on 2026-09-18.
+Everything below was re-verified against live sources on 2026-09-20.
 
 **No harness has everything, and the two axes that actually decide the purchase are client openness and who pays for tokens: everything else is converging.**
 
