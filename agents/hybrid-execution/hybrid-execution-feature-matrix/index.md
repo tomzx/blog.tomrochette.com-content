@@ -1,7 +1,7 @@
 ---
 title: "Hybrid Execution Feature Matrix"
 created: 2026-08-24
-updated: 2026-09-13
+updated: 2026-09-18
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, comparison, hybrid-execution, structured-outputs, constrained-decoding]
 readability: 3
@@ -10,36 +10,37 @@ audience_notes: >
   Assumes you know JSON Schema and have called at least one provider API; each column links to a full note.
 ---
 
-This matrix compares the four hybrid-execution notes profiled in this section, feature by feature: two vendor API features that constrain decoding and two libraries that validate or mask their way to typed output.
+This matrix compares the five hybrid-execution notes profiled in this section, feature by feature: two vendor API features that constrain decoding, two libraries that validate or mask their way to typed output, and one model that skips text generation entirely.
 Everything below was verified against live sources on 2026-09-18.
 
-**These four are less competitors than two mechanisms wearing four badges, and the decision that matters is whether the schema is enforced while tokens are sampled or checked after the fact: I would take decoding-time enforcement everywhere it exists, which leaves the libraries the portability and business-rules work, and makes most single-provider Instructor deployments written after 2025 incidental complexity.**
+**These five are less competitors than mechanisms on one spectrum, and the decision that matters is where the schema guarantee lives, in sampling, in post-hoc checks, or in the architecture itself: I would take decoding-time enforcement everywhere it exists, watch Jev's architectural guarantee for third-party confirmation, and treat most single-provider Instructor deployments written after 2025 as incidental complexity.**
 
 Legend: ✓ supported, ✗ not supported, ~ partial or conditional, ? not verified as of the date above.
 Each column links to the full research note; every cell below traces to a source cited there or in the references.
 
 ## The matrix
 
-| Feature | [Anthropic structured outputs](../anthropic-structured-outputs/index.md) | [Instructor](../instructor/index.md) | [OpenAI Structured Outputs](../openai-structured-outputs/index.md) | [Outlines](../outlines/index.md) |
-| --- | --- | --- | --- | --- |
-| Kind | API feature | Python library | API feature | Python library |
-| Guarantee mechanism | grammar-constrained decoding | validate plus reask | token masking at decode | logit masking |
-| API surface | REST, 7+ SDKs | Python, 5 ports | REST, SDK parse helpers | Python |
-| Open source | ✗ | ✓ MIT | ✗ | ✓ Apache-2.0 |
-| Provider breadth | ✗ Claude models only | ✓ 15+ providers | ✗ OpenAI only | ✓ local engines plus hosted APIs |
-| Local models | ✗ | ✓ via Ollama and vLLM | ✗ | ✓ core use case |
-| Strict tool calls | ✓ strict: true | ~ reask only | ✓ strict mode | ? |
-| Beyond-schema constraints | ✗ narrow subset | ✓ Pydantic rules | ✗ strict subset | ✓ regex and CFGs |
-| Retry behavior | ✗ none, guaranteed | ✓ reask, default 3 | ✗ none, guaranteed | ✗ none, guaranteed |
-| Maintenance status | GA since Feb 2026 | active since 2023 | default since Aug 2024 | active, engines moved on |
-| Cost implications | injected prompt tokens | retries bill full calls | compile latency, loop risk | free, microseconds overhead |
+| Feature | [Anthropic structured outputs](../anthropic-structured-outputs/index.md) | [Instructor](../instructor/index.md) | [Jev](../jev/index.md) | [OpenAI Structured Outputs](../openai-structured-outputs/index.md) | [Outlines](../outlines/index.md) |
+| --- | --- | --- | --- | --- | --- |
+| Kind | API feature | Python library | closed model | API feature | Python library |
+| Guarantee mechanism | grammar-constrained decoding | validate plus reask | no text generation at all | token masking at decode | logit masking |
+| API surface | REST, 7+ SDKs | Python, 5 ports | REST, MIT Python adapter | REST, SDK parse helpers | Python |
+| Open source | ✗ | ✓ MIT | ✗ (adapter only) | ✗ | ✓ Apache-2.0 |
+| Provider breadth | ✗ Claude models only | ✓ 15+ providers | ✗ TypeSafe only | ✗ OpenAI only | ✓ local engines plus hosted APIs |
+| Local models | ✗ | ✓ via Ollama and vLLM | ✗ | ✗ | ✓ core use case |
+| Strict tool calls | ✓ strict: true | ~ reask only | ✗ no tool-call surface | ✓ strict mode | ? |
+| Beyond-schema constraints | ✗ narrow subset | ✓ Pydantic rules | ~ confidence thresholds in caller code | ✗ strict subset | ✓ regex and CFGs |
+| Retry behavior | ✗ none, guaranteed | ✓ reask, default 3 | ✗ none, guaranteed | ✗ none, guaranteed | ✗ none, guaranteed |
+| Maintenance status | GA since Feb 2026 | active since 2023 | early access since Sep 2026 | default since Aug 2024 | active, engines moved on |
+| Cost implications | injected prompt tokens | retries bill full calls | $0.042/MTok in, output free (subsidy unproven) | compile latency, loop risk | free, microseconds overhead |
 
 ## Reading the matrix
 
 **The guarantee-mechanism row is the distinction that carries the most weight, and every other row is downstream of it.**
 OpenAI, Anthropic, and Outlines enforce the schema while the tokens are being sampled, so an invalid token is never drawn in the first place.
 Instructor inspects the finished output and re-asks when Pydantic rejects it.
-In plain words: one approach makes the mistake impossible to emit, the other catches the mistake after you have paid for it.
+Jev is the end of the spectrum the other four approach: with no text generation there is nothing to constrain and nothing to validate, which is why its row guarantees retries and type errors away the same way the decoding-time options do.
+In plain words: one approach makes the mistake impossible to emit, the other catches the mistake after you have paid for it, and the fifth never draws a token in the first place.
 
 **A decoding-time guarantee changes the failure mode rather than removing it.**
 OpenAI staff described a confused model looping in technically valid output until `max_tokens`, and you pay for every token of it.
@@ -68,10 +69,12 @@ Outlines compiles once per schema and then runs at microseconds of overhead, at 
 - Running a high-throughput serving stack: prefer the engine's own backend (xgrammar in vLLM) over Outlines' engine.
 - Agent loops where one malformed tool call wrecks a run: a vendor with strict tool use beats any library.
 - Zero tolerance for retry latency: any decoding-time option, budgeting for Anthropic's injected tokens and OpenAI's compile latency.
+- Many small decisions in latency- or cost-sensitive code paths (routing, scoring, guardrails) and no need for generated text: Jev is the only column priced and timed for that job, pending third-party confirmation of its claims.
 
 ## Changes
 
 - 2026-08-24 - Created with four columns and category rows including the guarantee-mechanism comparison.
+- 2026-09-18 - Extended from four to five columns with Jev, the first member that is a model rather than a mechanism around one, and updated the intro, reading, and choosing sections for the third guarantee class.
 
 ## See also
 
@@ -87,5 +90,8 @@ Outlines compiles once per schema and then runs at microseconds of overhead, at 
 - https://docs.claude.com/en/docs/agents-and-tools/tool-use/strict-tool-use - sampling-time guarantees behind the strict-tool-calls row
 - https://github.com/567-labs/instructor - license, reask retries, provider list for the Instructor column
 - https://dottxt-ai.github.io/outlines/latest/ - output types, integrations, pluggable backends for the Outlines column
+- https://typesafe.ai/blog/introducing-system-one-models-and-jev - primitives, pricing, and claims behind the Jev column
+- https://docs.typesafe.ai/ - the Choice, Score, and Noul surfaces behind the Jev column
+- https://news.ycombinator.com/item?id=49717558 - the launch thread and its skepticism behind the Jev column's early-access status
 - https://docs.vllm.ai/en/latest/features/structured_outputs.html - vLLM backend names behind the maintenance-status row
 - https://simonwillison.net/2024/Aug/6/openai-structured-outputs/ - independent record of failure modes and of Instructor's influence

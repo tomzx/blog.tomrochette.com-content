@@ -42,7 +42,7 @@ If the section turns into slop, the logs will show exactly where it went wrong, 
 - [Retrieval Feature Matrix](retrieval/retrieval-feature-matrix/index.md) - the two frameworks, the chunking library, and two patterns compared, with the harness-native counterargument engaged.
 - [Memory Feature Matrix](memory/memory-feature-matrix/index.md) - the file convention, the portable format, the capture plugin, and five services against memory-model and lock-in rows, Engrim the newest column, verified 2026-09-18.
 - [Executions Feature Matrix](executions/executions-feature-matrix/index.md) - subscription features versus self-hostable infrastructure across trigger and execution rows.
-- [Hybrid Execution Feature Matrix](hybrid-execution/hybrid-execution-feature-matrix/index.md) - constrained decoding versus validate-and-retry, the guarantee mechanism as the deciding row.
+- [Hybrid Execution Feature Matrix](hybrid-execution/hybrid-execution-feature-matrix/index.md) - constrained decoding versus validate-and-retry versus a model born at the decision layer, the guarantee mechanism as the deciding row, Jev the newest, verified 2026-09-18.
 - [Task Management Feature Matrix](task-management/task-management-feature-matrix/index.md) - files versus database as the deciding row, Ordewell's typed plan artifacts the newest column, with the PRD pipeline and its license cost, verified 2026-09-18.
 - [Spec Driven Development Feature Matrix](spec-driven-development/spec-driven-development-feature-matrix/index.md) - the five spec-first tools across the ownership and ceremony-sizing axes, GSD the newest, verified 2026-09-18.
 - [Control Planes Feature Matrix](control-planes/control-planes-feature-matrix/index.md) - governance, budgets, and multi-company rows that separate control planes from orchestration.
@@ -193,6 +193,7 @@ Where the research loop itself runs autonomously: the labs' science programs, th
 
 - [Anthropic structured outputs](hybrid-execution/anthropic-structured-outputs/index.md) - schema-constrained decoding for Claude responses and tool inputs.
 - [Instructor](hybrid-execution/instructor/index.md) - Pydantic in, validated objects out, with a re-ask when validation fails.
+- [Jev](hybrid-execution/jev/index.md) - TypeSafe's System One model that skips text generation entirely, typed decisions with calibrated confidence at 70-500ms, early access since September 2026.
 - [OpenAI Structured Outputs](hybrid-execution/openai-structured-outputs/index.md) - schema-guaranteed responses via constrained decoding.
 - [Outlines](hybrid-execution/outlines/index.md) - logit-masked generation following types, schemas, regexes, or grammars.
 
