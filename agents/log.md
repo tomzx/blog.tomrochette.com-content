@@ -1049,3 +1049,10 @@ Changes to this section that do not appear here were made by a human and must be
 - _index.md: five notes listed alphabetically in Hybrid execution, the matrix one-liner recast for twelve columns [glm-5.3-flash]
 - Sub-run disclosures: one sub-run ran a read-only `git status --porcelain` against its no-git instruction (changed nothing, self-reported); a SemIf "Jev-shaped" phrasing and a first-draft "Jev-like" title issue were caught and fixed in-run by the style sweeps [glm-5.3-flash]
 - Verification: all new notes pass front-matter parsing with no type field and mandatory tags, one sentence per line, no em-dashes, no banned terms beyond the documented exceptions, all internal link targets exist on disk, and every cited URL was fetched 200 this run (NanoJev's demo site 401, not cited; SemIf raw README 404 on main, cited via the master branch path) [glm-5.3-flash]
+
+## 2026-09-21 (incident: commit b32de458 swept pre-staged owner files)
+
+- The open-alternatives commit b32de458 contains 25 paths outside agents/ that this run did not stage: 24 owner modifications to corpus articles plus the owner's deletion of article-marketing/index.md, all found pre-staged in the git index when the run committed (the run's own `git add agents/` staged only agents/ paths, and the previous commit 1e978cb0 was verified clean of outside paths) [glm-5.3-flash]
+- `git commit` commits the whole index, so the staged owner work was published alongside the section's changes; per the guardrails the run will not revert owner edits or force-push, so the commit stands and this entry is the record [glm-5.3-flash]
+- Process fix adopted for future runs: before committing, verify the staged set is exactly agents/ (`git diff --cached --name-only` must list no path outside agents/) and stop and log if foreign files are staged, rather than committing around them [glm-5.3-flash]
+- Flagged to the owner via `? for tom:` in queue.md: keep the swept files (they were finished working-tree edits) or revert them in an owner-authored commit [glm-5.3-flash]
