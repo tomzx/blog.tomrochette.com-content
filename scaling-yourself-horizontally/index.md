@@ -66,7 +66,7 @@ The economics push the cheap layers toward machines.
 Teaching a machine your preferences takes an afternoon; teaching a person takes months.
 The rote layer of teaching, conventions, procedures, mechanics, migrates to machines for the same reason generation did: the cheap system wins on cost.
 What cannot migrate is the point of the expensive one.
-A person generalizes to situations you never saw, dissents when you are wrong, and eventually holds taste decisions in your stead, and no skill file does any of the three.
+A person generalizes to situations you never saw, dissents when you are wrong, and eventually holds taste decisions in your place, and no skill file does any of the three.
 **Teaching people does not disappear; it moves up, from transferring procedures to growing judgment.**
 
 The risk runs the other direction.
@@ -101,7 +101,7 @@ So the precise version of the claim reads: attention does not scale, and that is
 
 ## Scaling Horizontally Fails in Four Known Ways
 
-Replication looks like a free lunch, and the bill arrives on a delay.
+Replication looks free, and its costs arrive later.
 
 **Systems drift.**
 Every system is a snapshot of the decisions you made when you built it, and the world moves on.
@@ -117,7 +117,7 @@ At that point you are not scaling your throughput; you are scaling your error su
 Scale horizontally far enough and you stop being the producer and become the governor of a system of producers.
 Attention moves from doing the work to reviewing outputs, pruning systems, and deciding what to build next.
 The constraint did not disappear; it moved up to you, the textbook behavior of a system under the [theory of constraints](https://en.wikipedia.org/wiki/Theory_of_constraints).
-Govern badly and you industrialize your own mistakes at a speed no hand-made error ever reached.
+Govern badly and you reproduce your own mistakes at machine speed, faster than any hand-made error.
 
 **The source depletes.**
 Your judgment is the raw material the systems are built from, and judgment regenerates only through contact with real problems.
@@ -152,7 +152,7 @@ Spend the freed attention upstream, on specifications and on deciding what shoul
 That reallocation is the entire point of scaling horizontally, and [You Are the Bottleneck](../you-are-the-bottleneck/index.md) is what happens when you skip it and let the systems outproduce your review capacity.
 
 Keep a deliberate budget of attention that never gets handed to a system: the taste decisions, plus enough hands-on work to keep your judgment regenerating.
-You are protecting the seed stock, not being inefficient.
+You are protecting the source of future judgment, not being inefficient.
 
 Then measure yourself in output per unit of attention, not in hours, tasks, or sessions spawned.
 The number that defines a scaling engineer is how much ships per hour of focused judgment.

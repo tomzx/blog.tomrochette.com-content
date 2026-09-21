@@ -16,7 +16,7 @@ When I work with a coding agent, most of the wall clock time goes to waiting.
 The agent thinks and edits, I watch the spinner, then review the result, then queue the next task, and the whole loop runs serially all day.
 **The biggest speedup available in agentic coding is not a smarter model, it is running more of the work at the same time.**
 Almost every real codebase carries more independent work than one session can absorb: the bug in the parser, the new endpoint, the dependency upgrade, the flaky test.
-The hard part is not spawning extra sessions, it is keeping them from stepping on each other, and that is a git and workflow problem before it is an AI problem.
+The hard part is not spawning extra sessions, it is keeping them from conflicting with each other, and that is a git and workflow problem before it is an AI problem.
 
 ## Why One Session Is the Slow Configuration
 
@@ -105,7 +105,7 @@ Keep a fast test subset that agents run by default, parallelize the full suite, 
 Speed of iteration is a multiplier on every session you run.
 
 **Tell agents when to verify, not just how.**
-An instruction file that lists the lint, typecheck, and test commands is table stakes, and one that says when to run them is worth more.
+is the minimum baseline, and one that says when to run them is worth more.
 Left unsupervised, a diligent agent runs the whole suite after every small edit, and on a large project that habit converts hours of work into waiting.
 The instruction that pays is something like "make all your edits first, then run the full check suite once before you commit, and use targeted tests only while debugging a specific failure".
 **Verification is a batch job at commit time, not a reflex after every change.**

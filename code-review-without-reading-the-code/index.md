@@ -17,7 +17,7 @@ agent_sessions:
 The decision to approve is made before the diff opens.
 We keep the ritual, and quietly drop the part that is supposed to justify it.
 
-The gap between the ritual and the reading has a mirror on the other side of the pull request.
+The same gap between claim and verification exists on the author's side of the pull request.
 An LLM cannot vouch for its own output, because accepting a solution as done needs information the model does not have ([The Acceptance Gap](../the-acceptance-gap/index.md)).
 The reviewer has the same problem in reverse: vouching for code that was never read.
 
@@ -141,7 +141,7 @@ Then be plain with your team about what the rest of the approvals were already d
 
 **When a change is large, irreversible, or crosses a trust boundary, read it for real.**
 Budget the time.
-Treat it as the exception it is, not as the default dressed up as diligence.
+Treat it as the exception it is, not as the default presented as diligence.
 
 And measure the gap.
 Ask your approvers what they remember from the pull requests they approved.

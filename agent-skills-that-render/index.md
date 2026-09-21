@@ -63,7 +63,7 @@ It is text, so the agent generates it directly, the same way it generates any ot
 It renders natively where the work already lives, because GitHub renders ` ```mermaid ` blocks in Markdown and most static site generators do too.
 And it diffs cleanly, because the source is text, so a change to the plan shows up in the pull request as a diff you can review instead of a picture you have to compare by eye.
 
-## Text-based tools are the sweet spot for skills
+## Text-based tools are the best fit for skills
 
 The mermaid case generalizes into a rule I now follow.
 **When you pick a tool for a skill to drive, prefer a text-based one, because text is the medium the agent speaks, the medium git tracks, and the medium that renders to the artifact you inspect.**

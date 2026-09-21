@@ -77,7 +77,7 @@ These signals are the system's eyes.
 Without them, the project is blind to what needs attention.
 The richer the signal sources, the better the system can prioritize.
 
-A project that only monitors its own issue tracker is operating with tunnel vision.
+A project that only monitors its own issue tracker sees a narrow slice of what needs attention.
 A project that also monitors community discussions, ecosystem health, and downstream breakage has a much fuller picture of where to invest effort.
 
 ### 2. Decide
@@ -213,7 +213,7 @@ The quality question is the one most people get stuck on.
 The answer is the same one I gave in [The Future of Code Review](../the-future-of-code-review/index.md): you do not trust the code, you trust the verification system.
 
 A self-evolving repository needs a verification pipeline that is more rigorous than what most human-maintained projects have today.
-Not because the code is worse, but because there is no human backstop.
+Not because the code is worse, but because there is no human fallback.
 
 The pipeline should have multiple independent layers, each catching different classes of problems.
 

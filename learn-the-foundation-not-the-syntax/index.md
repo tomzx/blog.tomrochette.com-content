@@ -9,18 +9,18 @@ audience_notes: >
   Assumes the reader is a practicing engineer, senior developer, or educator deciding what fundamentals new developers still need now that LLMs produce most of the code. Comfortable with the idea that code generation is being automated; no formal CS background required.
 ---
 
-The question gets asked as a fork in the road: either drill new developers on low-level languages until they can write a kernel from memory, or accept that writing code is finished and retrain everyone into prompt-wielding product managers.
+The question gets asked as a binary choice: either drill new developers on low-level languages until they can write a kernel from memory, or accept that writing code is finished and retrain everyone into prompt-wielding product managers.
 It is a false dichotomy, and both branches are wrong for the same reason.
 **They both confuse the surface of programming with the thing programming was always meant to teach, and that thing is now the only part AI cannot do for you.**
 
 ## Two Errors, Shared Confusion
 
 The "teach them everything" camp treats low-level fluency as a production skill.
-It points at manual memory management, pointer arithmetic, and hand-rolled data structures as the price of admission to the profession, and it is right that these were once essential.
+It points at manual memory management, pointer arithmetic, and hand-rolled data structures as requirements for entering the profession, and it is right that these were once essential.
 It is wrong that they still are, as production.
 Writing C by hand stopped being the bottleneck the year a model could write it, read it, and port it faster than a careful senior could, and the market has already priced that in.
 
-The "writing code is over" camp takes the same observation and overruns with it.
+The "writing code is over" camp takes the same observation and extends it too far.
 If production is automated, the argument goes, the developer's job becomes specification and orchestration, and the foundation the code runs on is somebody else's problem, probably the machine's.
 This is the AI-maxxing error applied to education, and it is the more dangerous of the two, because it feels like foresight while quietly removing the one capability that becomes scarcer and more valuable exactly as production gets cheap: the mental model of how the system actually behaves.
 
@@ -40,7 +40,7 @@ It is the difference between an engineer who can read a stack trace and one who 
 
 A model of cost.
 Big-O is taught in school and forgotten because it is inert until you have felt a cache miss, an allocation storm, or an N-plus-one query at the boundary between the ORM and the database.
-Low-level work is the cheapest known way to make that cost felt in the body, and once it is felt it transfers to every higher language you will ever touch.
+Low-level work is the cheapest known way to experience that cost directly, and once experienced it transfers to every higher language you will ever use.
 When the model produces plausible code that is also quietly quadratic across a network boundary, the person with a cost model catches it and the person without ships it.
 
 A model of failure.
@@ -72,7 +72,7 @@ When the generated code is failing in production at three in the morning, there 
 You can build a mental model with an LLM as a tutor, over time, the same way you can build one with a good textbook or a patient colleague; the tool is not the obstacle, the hours of deliberate study are.
 **What you cannot do is prompt one into existence under time pressure, and using the model to debug its own output already presupposes the very model it would take weeks to grow.**
 
-This is the [shifting bottleneck](../the-shifting-bottleneck/index.md) wearing its sharpest face.
+This is the [shifting bottleneck](../the-shifting-bottleneck/index.md) in its clearest form.
 Production was the bottom of the stack, and automating it moved the constraint up to verification, and verification is precisely the layer that demands the foundation knowledge the "code is over" camp wants to skip.
 The preparation that says "we will not need this because writing is automated" is the preparation that makes you unable to do the job writing's automation created.
 You are optimizing away the exact layer the bottleneck landed on.
@@ -102,7 +102,7 @@ The resolution is not a midpoint between the two camps.
 It is a different axis entirely.
 
 Stop teaching new developers to produce low-level code as if they would ship it.
-Manual memory management as a daily craft, pointer arithmetic as a drill, hand-rolled allocators as a rite of passage: these are depreciating production skills, and spending years on them is the [two-year test](../ai-maxxing-vs-fighting-against-it/index.md) failing in slow motion.
+Manual memory management as a daily craft, pointer arithmetic as a drill, hand-rolled allocators as a traditional requirement: these are depreciating production skills, and spending years on them is the [two-year test](../ai-maxxing-vs-fighting-against-it/index.md) failing gradually and visibly.
 The surface area of low-level is large and mostly irrelevant to the work most developers will actually do, and Brooks's old split between [accidental and essential complexity](https://en.wikipedia.org/wiki/No_Silver_Bullet) still maps onto it cleanly: the syntax and the boilerplate are accidental, and the accident is exactly what the model now absorbs.
 
 Do teach them to read the foundation.

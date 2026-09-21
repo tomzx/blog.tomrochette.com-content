@@ -89,8 +89,8 @@ The cost was simply transferred, from one person's afternoon of objection to the
 By the time the shortcut finally breaks badly enough to force a rewrite, other code has been built on top of it, the original author has moved on, and the team is paying to redo work it already paid to do once.
 
 This is the cruel accounting of absorption.
-It looked like the cheap option only because its invoice came later and was addressed to someone else.
-Paid in full, with interest, by whoever is still standing near the code when it finally fails.
+It looked like the cheap option only because the cost arrived later and was borne by someone else.
+The full cost, plus interest, lands on whoever still works near the code when it finally fails.
 
 ## The Decision Was Usually Unsound for a Reason
 
@@ -127,7 +127,7 @@ A ten-minute "I would build this differently, here is why" is cheaper than a rew
 Most engineers respond well to a specific, early objection, and badly to a vague, late one, so timing matters more than wording.
 
 Make the shipper own the consequences for a window.
-The person who shipped the shortcut stays on the hook for the bugs it produces, instead of routing them to whoever happens to be nearby.
+The person who shipped the shortcut remains responsible for the bugs it produces, instead of routing them to whoever happens to be nearby.
 This does not require blame; it just re-attaches the cost of the decision to the person who captured the benefit of shipping it, which is the alignment the current default removes.
 
 And if you are the one who shipped, treat silence as the weak signal it is.

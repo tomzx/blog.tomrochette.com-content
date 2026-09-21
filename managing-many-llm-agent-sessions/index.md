@@ -37,7 +37,7 @@ The more complex each session's context, the more expensive the switch.
 **Attention residue accumulates.**
 When you switch from one task to another without fully completing the first, part of your attention remains stuck on the previous task.
 [The Zeigarnik effect](https://en.wikipedia.org/wiki/Zeigarnik_effect) describes how unfinished tasks persist in memory, consuming cognitive resources even when you are trying to focus on something else.
-With multiple agent sessions running concurrently, many are perpetually unfinished, creating a constant background hum of attention residue.
+With multiple agent sessions running concurrently, many are perpetually unfinished, creating constant attention residue.
 
 **Decision fatigue compounds.**
 Each agent session requires you to make decisions: approve this output, redirect this approach, answer this clarifying question.
@@ -325,7 +325,7 @@ The easiest session to manage is the one you never needed to start.
 **Write precise specifications.**
 A well-specified task runs autonomously and produces fewer questions.
 A vaguely specified task generates constant clarifying questions, each of which is a context switch.
-Investing in specification quality before launching a session pays dividends throughout the session's lifetime.
+Investing in specification quality before launching a session benefits the session for its entire lifetime.
 This is the same principle described in [The Importance of Context When Interacting with LLMs](../the-importance-of-context-when-interacting-with-llms/index.md): the quality of the context determines the quality of the output.
 
 **Merge related tasks.**
@@ -353,7 +353,7 @@ Did the status format make triage easy?
 These observations compound into better patterns over time.
 
 **Post-mortem failed sessions.**
-When a session goes off the rails, review why.
+When a session drifts from its instructions, review why.
 Did the agent lack critical context?
 Did the escalation threshold let it run too long without checking in?
 Did the state file fail to capture the information you needed to intervene effectively?

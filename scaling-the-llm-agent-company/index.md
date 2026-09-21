@@ -113,4 +113,3 @@ Agent companies optimize inference cost, error correlation, orchestration comple
 - [Exponential growth software company](../exponential-growth-software-company/index.md) -- original article on human company scaling constraints
 - [The Shifting Bottleneck](../the-shifting-bottleneck/index.md) -- how AI moves bottlenecks up the decision chain
 - [Software Engineering Teams in the Age of AI](../software-engineering-teams-in-the-age-of-ai/index.md) -- team design implications of AI-assisted development
-**Audience notes:** Assumes familiarity with LLM agents and basic organizational scaling concepts.

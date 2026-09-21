@@ -50,7 +50,7 @@ You end up exhausted, quietly resented, and still losing ground to the codebase.
 The worst part is that the work feels virtuous while you do it.
 Catching a misnamed variable in review feels like defending the standard.
 It is not.
-It is fighting a single ember while the forest is on fire.
+It is fixing one small problem while the codebase drifts as a whole.
 
 **Review is a per-unit activity, and per-unit activity cannot match entropy that is being produced faster than you can read it.**
 If your entire strategy is "I will catch the problems at review," the strategy has already lost.
@@ -80,7 +80,7 @@ An opinion dies the moment you go on vacation.
 
 This is the same point made, from the team's perspective, in [Bringing Everyone to the Same Level](../bringing-everyone-to-the-same-level/index.md): the senior engineer's edge was always a process they ran in their head, and a process in a head does not scale.
 Here the stakes are higher, because you are not trying to lift the team to your level.
-You are trying to hold the line while the team is actively, if innocently, pulling away from it.
+You are trying to keep the standard in place while the team is actively, if innocently, drifting from it.
 The mechanism is the same.
 Encode the process, and let the encoding do the defending.
 
@@ -131,7 +131,7 @@ Everything else should be a gate or a default, silently doing the work you used 
 Per-PR review is not the only way to fight decay, and in this era it is no longer even the best way.
 Some drift will always get through, because no gate is perfect and because some of what rots a codebase is not visible in any single diff.
 Naming conventions slide.
-Duplication accretes.
+Duplication accumulates.
 A module that was clean in isolation becomes a knot once three teammates have each extended it in a different direction.
 
 The answer is to operate the [Boy Scout rule](https://en.wikipedia.org/wiki/Robert_C._Martin) at the codebase level rather than at the commit level: run regular maintenance sweeps instead of trying to catch everything one pull request at a time.
@@ -169,7 +169,7 @@ When they are encoded only as your vigilance, the codebase is one two-week vacat
 
 ## Pick the Battles That Are Actually One-Way Doors
 
-You cannot hold every line, and trying to is the fastest route to burnout.
+You cannot defend every standard, and trying to is the fastest route to burnout.
 The discipline is to decide, in advance, which fights are worth your scarce attention, and the useful frame is the distinction between one-way and two-way doors, which I wrote about in [When Engineers Disagree on Best Practices](../when-engineers-disagree-on-best-practices/index.md).
 
 A one-way door is a decision that is hard or impossible to reverse.
@@ -187,10 +187,10 @@ A test that could have been structured better.
 Let these go, or fix them in a sweep later.
 **The solo defender who treats every diff as a one-way door exhausts themselves on reversible things and has nothing left for the decisions that actually compound.**
 
-This is also the cure for the resentment that otherwise eats this role alive.
+This is also the cure for the resentment that otherwise makes this role unsustainable.
 You will see things every day that are not how you would have done them.
 Most of them do not matter.
-Learn to feel the one-way doors in your stomach and let the rest pass, and you will last long enough to actually defend the things that count.
+Learn to recognize which decisions are irreversible, let the reversible ones pass, and you will last long enough to actually defend the things that count.
 
 ## The Real Limit
 

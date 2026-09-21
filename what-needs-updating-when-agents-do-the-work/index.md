@@ -146,7 +146,7 @@ The agent should rewrite the description after significant revisions, and update
 The human feedback in the loop enters as steering, not as typing.
 The human does not write the replies, fix the builds, or reword the PR titles and descriptions.
 The human reviews the agent's proposed resolutions and decides the contested suggestions.
-The human also ends disagreements, because an agent arguing with an automated reviewer can cycle forever, and only a human can call the argument.
+The human also ends disagreements, because an agent arguing with an automated reviewer can cycle forever, and only a human can decide the outcome.
 And the human answers what propagation cannot settle: an update either follows from the change or it does not, and when it does not, the upward walk stops and hands the human a decision instead of a diff.
 **The human's job is not to answer the comments, it is to decide what the answers mean.**
 Attention spent typing replies is attention not spent steering, and steering is the part of the loop a machine cannot do, which is the same division of labor argued in [The Acceptance Gap](../the-acceptance-gap/index.md).

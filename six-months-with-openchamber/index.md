@@ -15,7 +15,7 @@ agent_sessions:
 [OpenChamber 1.19.0](https://github.com/openchamber/openchamber/releases/tag/v1.19.0) was released today, which makes this a good moment to take stock.
 I have used it almost daily since February 8.
 Along the way I have opened 99 issues, and since April 16 I have had 29 pull requests merged.
-**I am still using it every day not because it is polished, but because its core loop earns the friction, and because when the friction gets bad enough, I can fix it myself.**
+**I am still using it every day not because it is polished, but because its core loop is worth the friction, and because when the friction gets bad enough, I can fix it myself.**
 
 ## What I use it for
 

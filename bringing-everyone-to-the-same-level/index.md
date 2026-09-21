@@ -16,7 +16,7 @@ agent_sessions:
 Every team has the same structure.
 A few engineers ship clean, well-tested, well-scoped work, and the rest ship work that mostly works.
 The gap between them is not typing speed.
-It is everything that happens before and after the typing: the steps they remember to run, the checks they know to perform, the conventions they have internalized through years of scar tissue.
+It is everything that happens before and after the typing: the steps they remember to run, the checks they know to perform, the conventions they learned by fixing past failures.
 **That knowledge has always been the real asset, and it has never scaled, because it lived inside a small number of heads.**
 
 LLMs alone do not fix this.
@@ -40,7 +40,7 @@ They write the edge case the junior would have forgotten.
 They run the linter, and they run it before opening the pull request, not after a reviewer asks.
 
 Each of these is a step, and a step can be written down.
-For most of the history of software, these steps were transmitted by osmosis.
+For most of the history of software, these steps were passed on informally, by watching and working alongside others.
 You learned them by pairing with someone better, by getting review comments on your seventh PR, by breaking production once and remembering forever.
 This is mentorship, and it works, but it is slow, expensive, and uneven.
 It cannot keep up with a team that is hiring, and it cannot keep up with a codebase that is changing.
@@ -96,8 +96,8 @@ They make everyone equally unable to skip the steps that matter, and skipping th
 
 This is the same logic I described, from the other direction, in [Developer Trust Profiles](../developer-trust-profiles/index.md).
 There I argued the ideal end state is one where "every contributor, senior engineer or new hire, funnels their work through agents that enforce the same standards," so that authorship stops carrying signal and "the output converges into something homogeneous."
-The trust profile was the bridge, and the point was to make itself obsolete.
-**Skills are how you actually walk across that bridge.
+The trust profile was a transitional step, and the point was to make itself obsolete.
+**Skills are the mechanism that completes that transition.
 They are the shared, enforced pipeline that makes the variance shrink in the first place.**
 
 ## The Leverage Moves Up, Again
@@ -111,7 +111,7 @@ The new seniority is not in running the skills.
 Anyone, and any agent, can do that.
 **The new seniority is in writing them.**
 Deciding what the process should be in the first place.
-Deciding which gate matters and which is theater.
+Deciding which gate matters and which only looks like a gate.
 Deciding what "done" means for this kind of task, precisely enough that a model can enforce it.
 The judgment that used to be applied privately, one pull request at a time, is now applied once, at the skill level, where it benefits every future execution.
 
@@ -145,7 +145,7 @@ Prefer several focused skills over one giant document, and cut anything the mode
 
 **Version and maintain it like the code it produces.**
 A skill that encodes a convention from two years ago is worse than no skill, because it enforces a stale standard on every run.
-Treat the skill library as part of the codebase, with owners, review, and the same "does this still earn its keep?" scrutiny you would give any dependency.
+Treat the skill library as part of the codebase, with owners, review, and the same "does this still justify its cost?" scrutiny you would give any dependency.
 
 ## The Realistic Limits
 

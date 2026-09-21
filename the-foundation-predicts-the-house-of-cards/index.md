@@ -30,9 +30,9 @@ The [DORA research program](https://dora.dev/) spent years measuring engineering
 Throughput is lead time and deployment frequency, how fast work gets out.
 Stability is change failure rate and time to restore, how often what you ship breaks and how long it takes to recover when it does.
 A team can score high on throughput and low on stability, and that team is not fast.
-It is a house of cards being shuffled quickly, and the bill comes due as [rework](../rethinking-code-review-in-the-age-of-llms/index.md), outages, and a codebase nobody is willing to touch.
+It is a house of cards being shuffled quickly, and the cost arrives as [rework](../rethinking-code-review-in-the-age-of-llms/index.md), outages, and a codebase nobody is willing to touch.
 
-LLMs supercharge the throughput axis for free.
+LLMs increase the throughput axis for free.
 They do nothing for the stability axis unless your engineering system is built to hold them accountable.
 **So the whole question of which teams ship effectively with LLMs collapses into a narrower one: which teams can absorb the throughput multiplier without their stability metrics collapsing?**
 That is a property of the team and a property of the code, and the team part is only half of it.
@@ -102,7 +102,7 @@ As I argued in [The Importance of Context When Interacting with LLMs](../the-imp
 
 This is why the same model, the same prompt, and the same engineer produce different quality output on different codebases.
 The codebase is doing most of the work, and a codebase that is already a house of cards is a context that asks the model to build more cards.
-**You cannot hand an LLM a cathedral built on sand and get back a cathedral built on bedrock; you get back a taller pile of sand.**
+**You cannot hand an LLM a weak codebase and get back a strong one; you get back more weak code.**
 The teams shipping safely are, more often than they realize, the teams whose codebase was already safe to extend, and the LLM is merely making that pre-existing health visible at higher speed.
 
 ### The factors that strengthen the foundation
@@ -167,7 +167,7 @@ A team spread thin across too many concerns generates five services where one wo
 On the second judgment, cheap implementation makes overbuilding the default temptation.
 Every generated feature is surface area for bugs, cognitive load, and future constraints, and the cost of maintaining a feature never approached zero the way the cost of writing it did.
 The team with the discipline to say "we do not need this, ship the smaller thing" survives longer than the team that ships everything the model can draft, and that discipline is a product judgment that maturity does not produce on its own.
-It comes from somewhere else, usually from someone at the table who has been burned by feature bloat before and is willing to be the friction.
+It comes from somewhere else, usually from someone in the room who has seen the cost of feature bloat before and is willing to push back against it.
 
 ## How Maturity and Foundation Interact
 
@@ -175,7 +175,7 @@ The fair synthesis is that these two layers reinforce each other, and the most e
 
 A performing team on a clean foundation with strong tests and written conventions is the team that wins this era.
 It absorbs new AI practices without friction, and when it ships, the foundation catches what the model gets wrong.
-A performing team on a brittle foundation hits a wall it cannot see, because the team dynamics are good and so nobody is arguing, and the stability metrics degrade quietly until a production incident makes them visible.
+A performing team on a brittle foundation fails in a way it cannot see, because the team dynamics are good and so nobody is arguing, and the stability metrics degrade quietly until a production incident makes them visible.
 A storming team on a clean foundation still wastes most of its energy on the wrong fights, but its code tends to survive the fights because the foundation holds.
 A storming team on a brittle foundation fails loudly and fast, which is at least easy to diagnose.
 
@@ -221,7 +221,7 @@ The codebase, the tests, the specifications, the written conventions, and the in
 
 ## See also
 
-- [Software Engineering Teams in the Age of AI](../software-engineering-teams-in-the-age-of-ai/index.md) - which processes earn their keep and which to eliminate once execution is cheap, including the case for specification as the highest-leverage skill
+- [Software Engineering Teams in the Age of AI](../software-engineering-teams-in-the-age-of-ai/index.md) - which processes are worth keeping and which to eliminate once execution is cheap, including the case for specification as the highest-leverage skill
 - [The Shifting Bottleneck](../the-shifting-bottleneck/index.md) - why automating production relocates the constraint to verification, the layer where the house of cards is built or caught
 - [Bringing Everyone to the Same Level](../bringing-everyone-to-the-same-level/index.md) - how written skills encode a team's process so the model and the new hire inherit the same standards
 - [When Engineers Disagree on Best Practices](../when-engineers-disagree-on-best-practices/index.md) - the forming-stage mechanics that make team maturity the dominant predictor of adoption friction

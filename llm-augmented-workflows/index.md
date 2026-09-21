@@ -68,7 +68,7 @@ the agent acts on GitHub (relabel, comment, open PR, close) -> emits new events
 The pipeline is the unit of work.
 A rule's `run` is an ordered list of steps, and the engine runs them in one pass: token-free label and shell steps can run before and after the agent, the agent step calls an opencode skill, and `on_outcome` maps the agent's verdict to labels, a close, or a comment.
 Because relabeling emits a new event, the next phase of the flow is just another rule that matches the new label.
-Terminal outcomes fall out naturally: an agent closes an issue (won't fix), or a PR merges and an `on-merge` rule closes the linked issue.
+Terminal outcomes emerge naturally: an agent closes an issue (won't fix), or a PR merges and an `on-merge` rule closes the linked issue.
 
 ## One config file, not one workflow per flow
 

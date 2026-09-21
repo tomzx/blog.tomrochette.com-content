@@ -93,7 +93,7 @@ Some tasks should be reserved for the person who would learn most from them, at 
 [Software engineering teams in the age of AI](../software-engineering-teams-in-the-age-of-ai/index.md) makes the general case for keeping friction that pays; this is the specific friction that pays in people.
 
 **Teach judgment directly, out loud.**
-The old pipeline taught judgment osmotically, through years of proximity.
+The old pipeline taught judgment through absorption, through years of proximity.
 The deliberate version is faster and demands more from seniors: decision reviews, where a junior predicts the call before hearing it; postmortems walked through live, not archived; the why behind every convention made explicit instead of encoded and forgotten.
 Encoding your judgment into a system, the move [Scaling Yourself Horizontally](../scaling-yourself-horizontally/index.md) argues for, and transferring it to a successor are not the same act, and only one of them renews the supply.
 

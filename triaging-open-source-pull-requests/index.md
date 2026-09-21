@@ -99,11 +99,11 @@ When the host carries the load, your job narrows to the gates the platform canno
 
 **Mark and close the stale, on a clock that forces a decision.**
 A pull request that has had no activity for twenty-eight days is not waiting for you.
-It is rotting, and rot is contagious, because a queue full of stale PRs signals to new contributors that nobody is home.
+A stale pull request drags down the whole queue, because a queue full of stale PRs signals to new contributors that the project is unmaintained.
 [actions/stale](https://github.com/actions/stale) marks a pull request stale after twenty-eight days, posts a warning, and closes it seven days later if the contributor does not respond.
 Twenty-eight is also the ceiling on a healthy open pull request, not just the stale timer.
 If a PR has been open more than twenty-eight days and is not merged, the right answer is almost never "keep waiting," it is one of two things: break it into smaller pieces that can each land on their own, or reject it.
-A large PR that lingers is usually a PR that was too big to review in the first place, dressed up as a PR that is waiting for a reply.
+A large PR that lingers is usually a PR that was too big to review in the first place, not a PR that is waiting for a reply.
 This is not cruelty.
 Letting a contributor's work sit unread for a year is cruelty.
 A fast, automatic close with a clear "reopen if you are still interested" is a kindness, and it is a kindness that costs you nothing.
@@ -219,7 +219,7 @@ The contributor gets a concrete path to merge instead of silence, and if they do
 A few cautions, because this is the part people get wrong.
 
 The LLM review is advisory, not authoritative.
-It hallucinates, it misses subtle bugs, and it is confidently wrong in exactly the register that makes you want to trust it.
+It hallucinates, it misses subtle bugs, and it is confidently wrong in exactly the way that makes you want to trust it.
 Never wire it to merge on its own verdict for anything that crosses a trust boundary, changes a public contract, or is hard to undo.
 Use it to route attention, not to replace it, and reserve the replaced attention for the small, reversible, low-risk changes where being wrong is cheap to fix.
 This is the same risk-based gating [The Merge Gate](../the-merge-gate/index.md) argues for: the unit of gating is the blast radius of the change, not the existence of the pull request.

@@ -148,7 +148,7 @@ The best investors hold enough positions to be diversified but few enough to und
 **The best software teams use enough technologies to avoid single points of failure but few enough to develop deep expertise in each.**
 
 The index fund approach (owning a little bit of everything) works in finance.
-In software, it's called using industry standards: well-supported languages, proven databases, battle-tested frameworks.
+In software, it's called using industry standards: well-supported languages, proven databases, widely adopted frameworks.
 You don't pick the most exciting technology.
 You pick the one that won't go to zero.
 
@@ -354,10 +354,10 @@ The system becomes incomprehensible.
 The solution in finance is regulation: insiders must disclose their trades.
 The solution in software is documentation: experts must disclose their knowledge.
 Run books, architecture decision records, onboarding guides, code comments: these are the SEC filings of software.
-They level the playing field.
+They give everyone the same information.
 
 Teams that don't document are teams where insider trading is the norm.
-And when the insider leaves, everyone else is left holding the bag.
+And when the insider leaves, everyone else inherits the undocumented system.
 
 ## Market Crashes: Cascading Failures
 
@@ -365,13 +365,13 @@ On October 19, 1987, [the Dow Jones dropped 22.6% in a single day](https://en.wi
 No single event caused it.
 Program trading, portfolio insurance, and panic selling created a feedback loop.
 Each drop triggered more selling, which triggered more drops.
-The system ate itself.
+The system destroyed itself through its own feedback loop.
 
 **Cascading production failures are market crashes.**
 
 A database slows down, which causes API timeouts, which cause retry storms, which overload the load balancer, which drops health checks, which trigger auto-scaling, which overwhelms the database further.
 No single component failed.
-The system ate itself.
+The system destroyed itself through its own feedback loop.
 
 The 1987 crash led to circuit breakers, automatic trading halts when the market drops too fast.
 They don't prevent the underlying problem.
@@ -400,7 +400,7 @@ They've outperformed most actively managed funds over any reasonable time period
 
 **Standardized infrastructure is the index fund of software.**
 
-You don't try to build the most optimized database layer, the most custom CI/CD pipeline, the most bespoke deployment system.
+You don't try to build the most optimized database layer, the most custom CI/CD pipeline, the most custom-built deployment system.
 You use the standard: Kubernetes for orchestration, GitHub Actions for CI/CD, Terraform for infrastructure as code.
 Not because they're the best in every dimension.
 Because they're good enough in every dimension and they free your team to focus on what actually differentiates your product.

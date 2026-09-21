@@ -14,10 +14,10 @@ agent_sessions:
 
 A well-managed backlog is the single most leveraged artifact in product development.
 When it works, teams ship the right things at a sustainable pace.
-When it doesn't, the organization drowns in a swamp of stale tickets, conflicting priorities, and interminable planning meetings.
+When it doesn't, the organization accumulates stale tickets, conflicting priorities, and endless planning meetings.
 **For large software products, where dozens of teams feed from the same corpus of work, the cost of poor backlog hygiene is enormous and mostly invisible.**
 
-## The Backlog at Scale Is a Different Animal
+## The Backlog at Scale Behaves Differently
 
 On a small team, the backlog is a conversation.
 The product owner and a handful of engineers look at a list, discuss what matters most, and pick up work.
@@ -87,7 +87,7 @@ Several frameworks exist to help teams rank backlog items:
 | [**ICE**](https://www.productplan.com/glossary/ice-scoring-model/) (Impact, Confidence, Ease) | Lightweight scoring for rapid triage | Fast-moving teams that need quick decisions |
 
 These frameworks are useful because they make the prioritization criteria explicit.
-They are dangerous when teams treat the resulting score as an oracle.
+They are dangerous when teams treat the resulting score as the final answer.
 A RICE score is only as good as the estimates that feed it, and those estimates are often wrong.
 
 The right approach is to pick one framework that matches your organization's needs, use it consistently, and revisit the scoring regularly.
@@ -111,7 +111,7 @@ At scale, this principle requires organizational courage.
 Every stakeholder believes their request is important.
 The product manager's job is to say no to the things that are less important than the current top priority, even when that is uncomfortable.
 [Cagan](https://www.svpg.com/books/) frames this as the difference between product teams (who are empowered to solve problems) and feature teams (who are handed a list to implement).
-Empowered teams can say no because they understand the problem they are solving and can judge whether a given request moves the needle.
+Empowered teams can say no because they understand the problem they are solving and can judge whether a given request advances the product's goals.
 
 ## Structural Patterns for Large Products
 
@@ -178,7 +178,7 @@ Product backlogs tend to favor features because features have visible stakeholde
 [Technical debt](https://martinfowler.com/bliki/TechnicalDebt.html) has no natural advocate.
 The solution is to allocate a fixed percentage of capacity (often 20-30%) to technical improvement and to make that allocation explicit in the backlog.
 
-**The estimation charade.**
+**Pointless early estimation.**
 Spending hours estimating items that are months away from being worked on is waste.
 Estimate just enough to support prioritization, and re-estimate when the item moves into the delivery backlog.
 [Ron Jeffries, "Story Points Revisited"](https://web.archive.org/web/2024/https://ronjeffries.com/articles/019-01ff/story-points/Index.html) argues, as one of the originators of story points, that estimation should serve planning, not become an end in itself.

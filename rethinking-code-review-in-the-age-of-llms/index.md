@@ -241,7 +241,7 @@ The distinction matters.
 
 The infrastructure for this exists.
 The gates are concrete.
-The approach works because the specification does the heavy lifting that code review used to do poorly.
+The approach works because the specification does the work that code review used to do poorly.
 The skills that implement this workflow are [publicly available](https://github.com/tomzx/agents).
 
 ## Who Is Responsible

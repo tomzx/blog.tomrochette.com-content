@@ -7,7 +7,7 @@ status: draft
 readability: 5
 ---
 
-The weekly routine brackets the work week with LLM-generated summaries.
+The weekly routine opens and closes the work week with LLM-generated summaries.
 **I correct last week's summaries at the start of the week and generate a new one at the end.**
 
 ## Trigger

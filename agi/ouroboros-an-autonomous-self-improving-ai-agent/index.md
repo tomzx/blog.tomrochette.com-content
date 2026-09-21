@@ -40,7 +40,7 @@ Ouroboros follows a structured nine-step cycle that repeats continuously:
 6. **Reflect**: analyzes what happened and identifies improvements, both task-related and self-related
 7. **Self-modify**: edits its own source code if improvements are found
 8. **Journal again**: records reflection and modification results
-9. **Repeat**: starts the cycle anew
+9. **Repeat**: starts the cycle again
 
 **The separation between execution and self-modification is crucial.**
 The agent will not modify its code while working on a task; reflections and improvements happen only during dedicated reflection cycles.

@@ -95,7 +95,7 @@ Once you have `impact × urgency × risk`, you need a policy for how the dimensi
 Does high impact + medium urgency + low risk come before medium impact + high urgency + low risk?
 Every disagreement becomes a debate about weights instead of a quick "this is P1" call.
 
-The P0-P5 scale is that policy pre-baked.
+The P0-P5 scale is that policy, decided in advance.
 Someone already decided the mapping.
 The team classifies and moves on.
 

@@ -67,7 +67,7 @@ A missing or wrong requirement affects every architecture that tries to satisfy 
 
 This fan-out is why a specification defect is not just "a bug, but earlier."
 It is a different category of problem, one whose blast radius grows with the distance from the source.
-A single ambiguity in a spec can be the common ancestor of a hundred production incidents, each of which looks like a separate bug to the engineer who responds to it, and each of which is, in fact, the same bug wearing different clothes.
+A single ambiguity in a spec can be the common ancestor of a hundred production incidents, each of which looks like a separate bug to the engineer who responds to it, and each of which is, in fact, the same defect.
 Treat them as separate bugs and you will fix a hundred symptoms.
 Treat them as one and you fix the spec once.
 
@@ -113,7 +113,7 @@ The two investments have almost nothing in common, and teams that confuse them s
 If consequences amplify downstream and fixes compound upstream, then the allocation of engineering effort across the lifecycle is exactly inverted from where most teams spend it.
 
 Most effort sits at the bottom of the pipeline.
-Writing code, reviewing code, fixing code, fighting fires in production: these are the stages with the smallest blast radius and the least compounding return.
+Writing code, reviewing code, fixing code, handling production incidents: these are the stages with the smallest blast radius and the least compounding return.
 They feel urgent because they are where the pain is visible, but they are also where an hour of effort buys the least durable improvement, because the upstream artifacts that produced the pain are still in place, still generating.
 
 The high-leverage stages are at the top.
@@ -151,7 +151,7 @@ Over a quarter the pattern will show which upstream stages are leaking the most,
 And when the model produces bad output in the same module twice, do not write a longer prompt.
 Fix the module, or fix the spec that describes it, because as [The Importance of Context When Interacting with LLMs](../the-importance-of-context-when-interacting-with-llms/index.md) argues, the upstream artifacts are the model's context, and bad output is the truest signal you will ever get about where that context is incoherent.
 The model is showing you the leak.
-The right response is to fix the pipe, not to mop the floor faster.
+The right response is to fix the source of the bad output, not to keep correcting it by hand.
 
 ## The Lifecycle Runs One Way
 

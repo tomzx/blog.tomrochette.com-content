@@ -113,7 +113,7 @@ When decisions are nearly free, the incoherence arrives faster than any human ca
 The deeper problem is that cheap decisions change who decides.
 When a product decision required a meeting, the decision belonged to whoever ran the meeting.
 When it requires only a prompt, the decision belongs to whoever types first.
-That is a change in governance disguised as a change in speed, and most teams have not noticed it happened.
+That is a change in governance that looks like a change in speed, and most teams have not noticed it happened.
 
 It is worth saying what this argument is not claiming.
 It is not claiming that engineers are bad at product judgment.

@@ -37,7 +37,7 @@ That leaves every creator competing for a fixed resource against a supply that h
 
 It used to mean something to publish clear, well-structured, useful writing, because producing it took time, skill, and effort, and that effort was itself a signal.
 When the median post can be generated in seconds and is, on the surface, as clean as anything a careful human would ship, clarity and structure stop signaling much.
-They become the default, the price of entry, the thing readers expect and immediately forget.
+They become the default, the minimum readers expect and immediately forget.
 
 This is [Sturgeon's law](https://en.wikipedia.org/wiki/Sturgeon%27s_law) ("ninety percent of everything is crud") with the dial turned up: not only is most content mediocre, but the mediocre is now polished enough to pass for good, which forces readers to assume everything is mediocre until proven otherwise.
 **The practical effect is that competence no longer earns attention; it merely avoids an immediate bounce.**
@@ -70,7 +70,7 @@ If readers now assume competence is fake by default, the only thing that reliabl
 Call it proof of work, borrowing a term from systems where trust is established by demonstrating costly effort rather than by asserting it ([proof of work](https://en.wikipedia.org/wiki/Proof_of_work)).
 
 The tempting version of this claim is that the right story reads as authentic and therefore cannot be faked.
-It does not survive contact with the models.
+That claim fails once models can fabricate the same story.
 A fabricated postmortem with specific-sounding numbers, a plausible failure chain, and the right tonal markers passes most readers' filters, because few will check whether the project existed, whether the numbers are real, or whether the author lived it.
 The cost asymmetry the argument depends on, expensive to produce but cheap to verify, inverts: the story is now nearly free to generate, verification still costs real effort, and readers rarely pay it.
 

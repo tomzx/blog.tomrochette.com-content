@@ -37,7 +37,7 @@ A human can absorb a conflicted PR by glancing and clicking; an automated merge 
 The second is the model-authored pull request.
 When the author is a model, the conflict round trip behaves differently at both ends.
 The bot never sleeps, so a resolve request adds no latency the way it does for a human.
-But the bot also has no private knowledge of what the code was meant to do, so its resolution is a guess about intent dressed up as a fix.
+But the bot also has no private knowledge of what the code was meant to do, so its resolution is a guess about intent presented as a fix.
 This is the plausibility problem, and it lands hardest exactly where the conflict is hardest.
 
 So the modern repository has a lane that wants every PR mergeable on green, and a growing share of PRs whose intent lives only in the code a model produced, with no description, linked issue, or spec that states it independently.
@@ -59,7 +59,7 @@ Resolve it, run the suite, and if the suite passes the resolution is, by constru
 Here the test acts as the independent oracle the model cannot be, the same role it plays in closing the bug gap when a fix claims to be done.
 A conflict whose wrongness a test can catch is a conflict the bot may resolve, because the test, not the model, is signing off.
 
-The semantic conflict is a different animal.
+The semantic conflict is a different kind of problem.
 Nothing external is left to disagree with the model's plausible stitch, because the definition of "correct" is the intent, and the intent is precisely what the model does not have.
 **A bot that resolves a semantic conflict is making an intent claim it cannot source, and the harder the disagreement, the more likely the claim is a confident fabrication.**
 
@@ -96,7 +96,7 @@ Labels are already how a modern triage layer expresses every other routing decis
 The label should express the thing that actually varies, which is not "is this PR rebased" but "who is allowed to resolve a semantic conflict on it."
 
 For a mechanical conflict there is no decision worth encoding: the bot resolves, the test gates, and a `conflict: auto-resolved` note is enough audit trail.
-The label earns its keep at the semantic tier.
+The label is worth having at the semantic tier.
 Something like `conflict: author-resolves` versus `conflict: bot-may-resolve`, defaulted per repository by the maintainers and overridable per PR, is the right form, and it is the form the question proposes.
 
 The interesting work is in the default, and the sound default routes on intent availability, not on author type.

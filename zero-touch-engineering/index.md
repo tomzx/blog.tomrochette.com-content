@@ -13,7 +13,7 @@ agent_sessions:
 ---
 
 "Zero touch" has been a goal in software-adjacent fields for over a decade.
-Networks provision themselves, deployments ship on green, and operations teams have been shrinking toward a vanishing point.
+Networks provision themselves, deployments ship on green, and operations teams have been shrinking toward zero.
 **The one stage that resisted zero touch was the engineering itself: deciding what to build, writing it, and deciding it is good enough to ship.**
 That is the part LLM agents are now closing.
 

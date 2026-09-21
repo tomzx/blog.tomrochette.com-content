@@ -48,7 +48,7 @@ The graph of things you could read grows faster than the list of things you have
 
 The cost is not only time.
 Constant context-switching between model announcements, framework launches, and benchmark debates produces the same attention residue and decision fatigue that come from managing too many concurrent tasks.
-The result is a state of feeling informed without being informed, a steady hum of awareness with no depth underneath it.
+The result is feeling informed without being informed, superficial awareness with nothing behind it.
 You know the names of ten new models and cannot explain how any of them differ in a way that matters.
 
 ## The Reframe: Optimize for Signal, Not Coverage
@@ -76,7 +76,7 @@ The ephemeral items are not worthless, but they should be consumed on demand, wh
 A reading list is a flat pile of undifferentiated "should read."
 A funnel is a staged filter that gets cheaper at each stage.
 
-At the top, cast a wide net through a small number of trusted curators and aggregators, and let them do the first pass.
+At the top, sample broadly through a small number of trusted curators and aggregators, and let them do the first pass.
 At the middle, use titles and one-paragraph summaries to decide what earns a closer look.
 At the bottom, read the few items that survive, deeply.
 Most items should die at the top of the funnel, never reaching your full attention.
@@ -132,7 +132,7 @@ What does not depreciate is the rate at which you can learn a new tool when you 
 A developer who has internalized the theory of constraints, the structure of an LLM pipeline, and the difference between evaluation and marketing can pick up this week's framework in an afternoon.
 A developer who chased every release for two years but never built that foundation knows a hundred tool names and cannot reason about any of them.
 The first developer is robust to the pace of change.
-The second is a hostage to it.
+The second is controlled by it.
 
 ## The Bottleneck Moves, Again
 

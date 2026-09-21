@@ -222,7 +222,7 @@ No single role can win the game alone.
 StarCraft demands multitasking.
 While your army fights at the front, your economy must keep producing at home.
 While you scout the enemy, your upgrades must keep researching.
-Drop one ball and the whole performance suffers.
+Neglect one task and the whole performance suffers.
 
 Software development demands the same.
 While you write code, production issues arise.

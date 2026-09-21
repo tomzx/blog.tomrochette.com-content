@@ -15,7 +15,7 @@ agent_sessions:
 
 Two camps have hardened around LLMs, and they sound like opposites.
 One wants AI in everything, automating every task that can be automated, measuring success by how little the human touches.
-The other wants AI held at arm's length, preserving the craft, the understanding, and the roles that made the field what it is.
+The other wants AI kept at a distance, preserving the craft, the understanding, and the roles that made the field what it is.
 **They are not opposites; they are the same mistake pointed in different directions, and the mistake is optimizing how much AI to use instead of where to spend the attention AI frees up.**
 
 ## Two Stances, One Error
@@ -43,11 +43,11 @@ Typing boilerplate, memorizing an API, writing the fifth CRUD endpoint of the we
 A compounding activity is one whose value rises the more of it you do, and that feeds back into everything else.
 Understanding a domain deeply, holding taste about what to build, judging whether a piece of code solves the right problem: these do not decay, and they make every other thing you do more effective.
 
-The right stance falls out of this distinction immediately.
+The right stance follows from this distinction immediately.
 **Delegate depreciating activities ruthlessly, and protect compounding activities ferociously.**
 
 The AI-maxxer breaks this by applying the delegation rule to everything, including the compounding activities, and slowly hollows out the judgment layer that makes the delegation produce anything worth having.
-The resistor breaks it by applying the protection rule to everything, including the depreciating activities, and slowly mortgages the future to preserve a capability the market no longer rewards.
+The resistor breaks it by applying the protection rule to everything, including the depreciating activities, and slowly trades future capability to preserve a skill the market no longer rewards.
 
 ## Why AI-Maxxing Is the More Insidious Error
 

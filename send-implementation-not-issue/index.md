@@ -22,7 +22,7 @@ The cost of creating an issue fell to almost nothing, the cost of clearing one d
 If you are the one filing those issues, the result is hard to hear but clear.
 The issue you just opened is no longer a contribution in any real sense.
 It is a request for someone else's work, and it is sitting in a queue next to nine hundred other requests for someone else's work, most of them produced just as cheaply as yours.
-**The only thing that still moves the needle is the implementation attached to the request, because the implementation is the one input whose cost has not fallen.**
+**The only thing that still changes the outcome is the implementation attached to the request, because the implementation is the one input whose cost has not fallen.**
 
 ## The Issue Tracker Was Always a Wish List
 
@@ -151,7 +151,7 @@ Spend the time you would have spent polishing the issue description on getting t
 If you maintain a project, change the default you invite.
 Rewrite your contributing guide to say, plainly, that feature requests without an accompanying PR will be closed, and that bug reports without a reproduction will be closed faster.
 Be clear that this is not hostility.
-It is the only way the queue stays a queue instead of a landfill.
+It is the only way the queue stays manageable.
 Make the pull request template the front door, and the issue template the side door for the narrow set of things only an issue can carry.
 **Raising the floor on contributions is, in this era, an act of respect for the contributors who are willing to meet it, because they are the ones whose work will otherwise be buried under the noise.**
 

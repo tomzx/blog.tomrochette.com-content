@@ -88,7 +88,7 @@ I've also fully switched to opencode, though support for other harnesses isn't t
 **Partial progress.**
 The SDLC status report got significant improvements, but a status script in [TomzxCode/sdlc](https://github.com/TomzxCode/sdlc) now duplicates the report and drifts out of sync with the agents-repo skill.
 Loops only run at the start and end of day, week, and month so far.
-The lowest-hanging fruit I haven't picked is auto-running [validate-pr](https://github.com/tomzx/agents/blob/main/skills/validate-pr/SKILL.md), [verify-pr](https://github.com/tomzx/agents/blob/main/skills/verify-pr/SKILL.md), and [review-pr](https://github.com/tomzx/agents/blob/main/skills/review-pr/SKILL.md) on PRs waiting on me.
+The easiest remaining task I have not picked up is auto-running [validate-pr](https://github.com/tomzx/agents/blob/main/skills/validate-pr/SKILL.md), [verify-pr](https://github.com/tomzx/agents/blob/main/skills/verify-pr/SKILL.md), and [review-pr](https://github.com/tomzx/agents/blob/main/skills/review-pr/SKILL.md) on PRs waiting on me.
 And validation of other people's changes is now covered by validate-pr and verify-pr, but for my own changes I still default to manual testing instead of delegating to an agent.
 
 ## What I Currently Need

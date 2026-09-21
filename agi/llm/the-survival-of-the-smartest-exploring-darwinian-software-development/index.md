@@ -33,7 +33,7 @@ The process generally follows four biological phases:
 
 ## Why Swarms Outperform Single Models
 
-**The "Darwinian" approach solves the two biggest headaches in AI-assisted coding: hallucinations and tunnel vision.**
+**The "Darwinian" approach solves the two biggest problems in AI-assisted coding: hallucinations and getting stuck on a single approach.**
 
 - **Error Correction:** If one agent introduces a bug, the likelihood that five other agents will make the exact same error is low. The swarm acts as a self-healing mechanism.
 - **Diverse Architectures:** One LLM might get stuck on a specific logic path. A swarm explores the entire [fitness landscape](https://en.wikipedia.org/wiki/Fitness_landscape), finding creative solutions a human (or a single AI) might never consider.

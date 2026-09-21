@@ -119,7 +119,7 @@ The bug gap shrinks to exactly the set of bugs for which I have not yet written 
 This is [test-driven development](https://en.wikipedia.org/wiki/Test-driven_development), rediscovered as the answer to "why don't I trust the model's fix."
 The discipline is to write the check before, or alongside, the fix, not after.
 A bug fixed without a check is a bug I will have to verify by hand, forever, because nothing is keeping it fixed.
-A bug fixed with a check stays fixed, because the check will scream if it regresses, whether or not I am looking.
+A bug fixed with a check stays fixed, because the check fails loudly if the bug regresses, whether or not I am looking.
 
 The feature gap is not closeable the same way, and this is the uncomfortable part.
 I cannot write a test for "this feels right," because I do not know the specification of my own taste until I see the result.

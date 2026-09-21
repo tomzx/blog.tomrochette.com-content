@@ -25,7 +25,7 @@ Autocomplete typed faster, and the human still wrote the code.
 An agent takes a ticket, plans, edits across files, runs the tests, and opens a pull request, and it can do that several times a day, in parallel with other agents doing the same.
 **When generation becomes a machine-rate activity, every human-rate step downstream becomes the constraint, and per-diff human approval is that step.**
 Nothing else in the pipeline caps throughput the way review does.
-The queue is the tell: once you supervise enough agents, review items arrive faster than you can clear them, and the surplus waits on you.
+The queue shows it: once you supervise enough agents, review items arrive faster than you can clear them, and the surplus waits on you.
 
 ## The throughput reasons
 
@@ -51,7 +51,7 @@ A check in CI is built once, maintained occasionally, and runs on every change i
 
 **5. Mandatory review converts machine failure into human exhaustion.**
 A misconfigured agent can open hundreds of pull requests in an afternoon.
-If every pull request needs a human, the agent's failure mode becomes your week.
+If every pull request needs a human, the agent's failure mode consumes your entire week.
 **Rate-limit the pipeline, not the people reading it.**
 
 **6. Human-in-the-loop approval pairs machine-rate generation with human-rate approval, and pays for both.**
@@ -70,7 +70,7 @@ An agent has no intent to consult, so the reviewer reconstructs meaning line by 
 
 **8. Attention collapses exactly where agents guarantee volume.**
 Studies of real review practice put the useful band of a diff around two to four hundred changed lines, and effectiveness falls off sharply beyond it ([SmartBear, "Best Kept Secrets of Peer Code Review"](https://smartbear.com/learn/code-review/best-practices-for-peer-code-review/)).
-Agents produce volume, and volume guarantees you live beyond the cliff.
+Agents produce volume, and volume guarantees you exceed the range where review stays effective.
 The conditions that make review worth doing are the conditions agents make impossible.
 
 **9. The diff is the wrong unit of correctness.**

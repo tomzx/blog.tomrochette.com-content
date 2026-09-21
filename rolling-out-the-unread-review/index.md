@@ -27,7 +27,7 @@ That story is mostly wrong, and believing it will cost you the rollout.
 The people who push back hardest on automated review are often your most careful engineers.
 They have seen the bugs a tired reviewer caught by instinct.
 They have been the person blamed when something slipped through.
-**Their objections are not noise to filter; they are a map of where your system is weakest.**
+**Their objections are not noise to filter; they show where your system is weakest.**
 Calling their discomfort "fear" loses the argument before it starts, because they can tell you are not listening.
 
 ## Three Concerns, Three Answers
@@ -51,7 +51,7 @@ Decompose the automation into three things people react to very differently.
 
 A bot that comments is basically a linter, and almost no one objects.
 A bot that blocks is accepted once the rules are legible and owned.
-A bot that approves is the real flashpoint.
+A bot that approves is the change people resist most.
 
 Ship them in that order, weeks apart, on a low-blast-radius lane first: documentation, tests, internal-only changes inside a single module.
 By the time you reach the approving bot, the team has weeks of evidence that the earlier layers work.

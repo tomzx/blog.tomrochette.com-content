@@ -415,7 +415,7 @@ Players who install every addon they find spend more time configuring their UI t
 The best players use a focused set of addons that solve specific problems.
 
 Developer tooling needs the same discipline.
-A developer who spends more time configuring tools than writing code has lost the plot.
+A developer who spends more time configuring tools than writing code has forgotten the purpose of the tools.
 The best toolchains are minimal, focused, and reliable.
 
 ## Professions: Side Projects and Tooling
@@ -485,7 +485,7 @@ These are fixed points in time after which the consequences escalate sharply.
 WoW teaches that enrage timers create two strategies: out-gear the fight or out-skill the fight.
 
 Out-gearing means coming back with better stats and burning the boss down before the timer.
-In software, out-gearing means adding more engineers, more resources, more hours, throwing bodies at the deadline.
+In software, out-gearing means adding more engineers, more resources, more hours to hit the deadline.
 
 Out-skilling means executing perfectly, minimizing wasted time, and maximizing output with the resources at hand.
 In software, out-skilling means good architecture, clean code, and efficient processes.

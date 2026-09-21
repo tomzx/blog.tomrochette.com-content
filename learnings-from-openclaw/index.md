@@ -20,7 +20,7 @@ It is its commit history, because the commit history is the one artifact the pro
 I spent time inside the git history of [OpenClaw](https://github.com/openclaw/openclaw), a self-hosted personal AI assistant that talks to you across roughly two dozen messaging channels.
 It is an extreme case, and extreme cases are the easiest to read.
 In about seven months it accumulated over sixty-two thousand commits from more than three thousand contributors, which is somewhere close to two hundred and ninety commits a day, every day, since its first commit.
-That is a throughput at which most projects would have collapsed into an unreadable knot, and it did not.
+That is a throughput at which most projects would have become impossible to follow, and it did not.
 The interesting question is why, and the commit history answers it more clearly than any roadmap could.
 
 This article is a reading of that history, and the throughline is a single observation that the data makes impossible to miss.
@@ -90,12 +90,12 @@ Past the two primary roles, the commit history surfaces two more contributors wh
 The third most prolific contributor, going by Shakker, has roughly four thousand commits, and about two thirds of them are `test:`.
 There is almost no feature work in the history.
 This is a person whose entire contribution is the safety net, the test fixtures, the regression coverage that lets everyone else move fast without the product silently breaking.
-A visionary cannot do this work, because it requires the patience to write the hundredth test for a path the fortieth test already almost covered, and a steward is usually too busy putting out active fires to write tests in advance.
+A visionary cannot do this work, because it requires the patience to write the hundredth test for a path the fortieth test already almost covered, and a steward is usually too busy handling urgent fixes to write tests in advance.
 The test author is a third role, and it is the role that converts the steward's fixes from one-off patches into guarantees that do not have to be re-earned.
 
 Further down the list, Tak Hoffman has a thousand-plus commits, and he owns a scope that appears in almost nobody else's history: `(regression)`.
 Of the hundred-plus commits in the repository tagged `fix(regression):`, almost all of them are his.
-Tak is a regression hunter, someone whose beat is not bugs in general but bugs in things that used to work, the specific class of defect that erodes user trust faster than any missing feature can build it.
+Tak is a regression hunter, someone whose focus is not bugs in general but bugs in things that used to work, the specific class of defect that erodes user trust faster than any missing feature can build it.
 Regression hunting is a discipline of its own, because it requires holding a mental model of how the system used to behave and noticing when a change has quietly violated it, and it is the kind of work that only gets staffed deliberately once a project is large enough that the founding maintainer can no longer hold the whole behavior graph in their head.
 
 The lesson is that the visionary-and-steward split is a starting frame, not a complete one.
@@ -132,7 +132,7 @@ Pull requests over roughly five thousand changed lines are reviewed "only in exc
 One pull request must equal one issue or topic.
 
 Taken in isolation, the rules read as pettiness.
-Read as a group they are the scars of a specific, recurring wound, and the wound is always the same.
+Read as a group they are responses to one specific, recurring problem, and the problem is always the same.
 **Every one of these rules is a response to something that once drained reviewer attention without producing proportional value, because reviewer attention is the single scarcest, least-elastic resource a project at this scale has.**
 
 The visionary can always produce more commits.
@@ -198,7 +198,7 @@ The partition is cheap to write early and expensive to write late.
 
 **Audit your contribution rules as a set, not individually.**
 Every rule that reads as harsh to a contributor should correspond to a specific class of work that once wasted your review time.
-Any rule you cannot trace back to such a wound is a rule that is probably driving contributors away without earning its cost, and it is a candidate for deletion.
+Any rule you cannot trace back to a specific class of wasted review time is a rule that is probably driving contributors away without being worth its cost, and it is a candidate for deletion.
 
 ## See also
 

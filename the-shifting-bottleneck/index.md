@@ -84,7 +84,7 @@ Not because AI became malevolent, but because we systematically removed every re
 Each step was rational.
 Each bottleneck was real.
 Each automation was justified.
-And yet the cumulative effect is a slow unwinding of human agency in the creative process.
+And yet the cumulative effect is a gradual loss of human agency in the creative process.
 
 ## The Bottleneck Elevator
 

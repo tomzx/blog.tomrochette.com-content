@@ -41,7 +41,7 @@ There is a common assumption that handing off nearly-finished work is cheap, bec
 This is almost always wrong.
 Code that someone else wrote carries their hidden decisions: names that made sense to them, assumptions they never wrote down, edge cases they handled in their head and nowhere else.
 
-**To get another person's work to a mergeable state, you have to reconstruct a mind you were never inside of.**
+**To get another person's work to a mergeable state, you have to reconstruct the intent of a person whose reasoning you never saw.**
 You become an archaeologist of their intent, reading commits like strata.
 And unlike your own code, where you remember why you wrote each line, here every unfamiliar line is a small investigation.
 

@@ -19,15 +19,15 @@ It is the moment the team actually starts becoming a team.
 
 ## Why the Forming Stage Produces Disagreement
 
-Every engineer arrives carrying a backpack full of practices that worked somewhere else.
+Every engineer arrives with a set of practices that worked somewhere else.
 The testing strategy that saved your last team from weekly regressions.
 The code review checklist that caught the security bug before it shipped.
 The branching model that kept releases sane.
 These are not random preferences.
-**They are scar tissue from real failures, and the engineer who brings them believes, correctly, that they matter.**
+**They are lessons from real failures, and the engineer who brings them believes, correctly, that they matter.**
 
-The problem is that every other engineer on the new team arrives with their own backpack, full of different scar tissue, formed by different failures.
-When these backpacks collide, you get the pattern Bruce Tuckman described in his 1965 study of small-group development: [forming, storming, norming, performing](https://en.wikipedia.org/wiki/Tuckman%27s_stages_of_group_development).
+The problem is that every other engineer on the new team arrives with their own set of practices, learned from different failures.
+When these differing practices meet, you get the pattern Bruce Tuckman described in his 1965 study of small-group development: [forming, storming, norming, performing](https://en.wikipedia.org/wiki/Tuckman%27s_stages_of_group_development).
 Teams do not skip from forming straight to performing.
 They pass through storming, the phase where members test each other, surface conflicting assumptions, and negotiate how work should be done.
 
@@ -49,11 +49,11 @@ So every disagreement is also, simultaneously, a negotiation about how disagreem
 
 ## Most "Best Practice" Debates Are Preference Debates
 
-The first thing to recognize is that the phrase "best practice" is doing a lot of misleading work.
+The first thing to recognize is that the phrase "best practice" misleads.
 A best practice is a practice that is demonstrably better than its alternatives across most contexts.
 Very few software engineering practices clear that bar.
 
-Consider the debates that consume the most oxygen on a new team.
+Consider the debates that take up the most discussion time on a new team.
 Tabs versus spaces.
 Git Flow versus trunk-based development.
 Story points versus no estimates.
@@ -111,7 +111,7 @@ Define success criteria before you start.
 If you wait until the experiment is over to decide what would count as success, you will re-litigate the original disagreement with data instead of opinions, which is only marginally better.
 
 Keep the cost of reversal low.
-If switching back after the experiment is expensive, the experiment is really a one-way door in disguise.
+If switching back after the experiment is expensive, the experiment is really an irreversible decision.
 
 Write down the result.
 A one-paragraph note recording what you tried, what you observed, and what you decided turns a single resolution into institutional memory that saves the next new team member from re-fighting the same battle.
@@ -127,9 +127,9 @@ A team that resolves its first disagreement well, with a clear process, shared e
 It has created the template for the next disagreement, and the one after that.
 Each resolved disagreement makes the next one easier, because the meta-process is now familiar.
 
-A team that resolves its first disagreement badly, by letting the loudest person win, or by avoiding the conflict until it festers, or by escalating to a manager who picks a winner, has also created a template.
+A team that resolves its first disagreement badly, by letting the loudest person win, or by avoiding the conflict until it grows worse, or by escalating to a manager who picks a winner, has also created a template.
 That template will repeat.
-**The first disagreement a new team faces is really a dress rehearsal for every disagreement that follows.**
+**The first disagreement a new team faces sets the pattern for every disagreement that follows.**
 
 That template is why the forming stage deserves deliberate attention rather than the hope that things will sort themselves out.
 The norms a team establishes in its first weeks are sticky.
@@ -166,7 +166,7 @@ Once the team has decided, even those who argued otherwise support the decision 
 
 There is a failure mode worth naming.
 
-Occasionally an engineer treats a practice debate as a hill to die on, refuses to accept the team's decision, and continues working the old way.
+Occasionally an engineer treats a practice debate as something they will not concede under any circumstance, refuses to accept the team's decision, and continues working the old way.
 This is no longer a disagreement about practice.
 It is a disagreement about whether the team's decision-making process has legitimacy.
 
@@ -197,7 +197,7 @@ That skill compounds for the life of the team.
 
 ## See also
 
-- [Software Engineering Teams in the Age of AI](../software-engineering-teams-in-the-age-of-ai/index.md) - team composition and which processes earn their keep under pressure
+- [Software Engineering Teams in the Age of AI](../software-engineering-teams-in-the-age-of-ai/index.md) - team composition and which processes are worth keeping under pressure
 - [Principles](../principles/index.md) -- decision-making principles, including separating structural friction from waste
 
 ## References

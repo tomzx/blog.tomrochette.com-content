@@ -85,7 +85,7 @@ A brief, rewritten each run, holding the current state of understanding.
 A log of dated updates, so the history of the topic is readable as a timeline.
 Snapshots of the sources, so every claim in the brief can be traced to the page it came from, even if that page moves or dies.
 
-The properties fall out of the format.
+The properties follow from the format.
 The brief answers "what is true now", the log answers "what changed", and the diff between the last two versions of the brief is your weekly digest, generated as a byproduct rather than assembled by hand.
 **The git log of the knowledge base becomes the changelog of your own understanding.**
 

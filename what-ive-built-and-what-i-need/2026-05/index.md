@@ -32,7 +32,7 @@ Writing those manually was slow and inconsistent; now the descriptions reflect w
 
 ## What I Currently Need
 
-**[Battle test the SDLC pipeline](https://github.com/tomzx/agents/issues/12).**
+**[Test the SDLC pipeline on real work](https://github.com/tomzx/agents/issues/12).**
 The [SDLC skill](https://github.com/tomzx/agents/blob/main/skills/sdlc/SKILL.md) is built but has not been stress-tested end to end on real feature work.
 I need to run it through enough real scenarios to surface the gaps between the design and practical use.
 
@@ -65,7 +65,7 @@ When I update a PR after the description is written, I need [create-pr-descripti
 
 **[Skill usage tracking](https://github.com/tomzx/agents/issues/7).**
 I need to know how often each skill is invoked and when.
-Without that data, I cannot tell which skills are earning their keep and which are dead weight.
+Without that data, I cannot tell which skills are worth keeping and which I never use.
 
 **Replying to inline PR comments.**
 `gh` does not support replying to inline review comments programmatically.

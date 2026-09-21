@@ -19,7 +19,7 @@ How would you use them?
 ## From Sequential Exploration to Parallel Search
 
 When you have one agent, you think carefully before acting, because going down dead ends is expensive.
-With thousands of agents, the calculus flips.
+With thousands of agents, the trade-off reverses.
 **Exploration becomes cheap, and convergence becomes the hard problem.**
 Your job shifts from "what should I try?" to "how do I synthesize thousands of results?"
 
@@ -36,7 +36,7 @@ It is like [fuzzing](https://en.wikipedia.org/wiki/Fuzzing), but semantically di
 
 **Full-stack consistency checking.**
 Have agents simultaneously hold the contract between every pair of services in your system, constantly verifying that implementations match specs, that error handling is symmetric, and that naming is consistent.
-These are the things that fall through the cracks in sequential review.
+Sequential review often misses these checks.
 
 **Competitive benchmarking of approaches.**
 For a problem like network latency or caching strategy, you could have 50 agents implement 50 different approaches against the same test harness, and just pick the winner.
@@ -62,8 +62,8 @@ The skill of writing tight, evaluable task specs becomes enormously valuable.
 
 **Evaluation functions become critical.**
 "Did the agent succeed?" needs a concrete, automated answer.
-You cannot eyeball 1,000 outputs.
-That constraint pushes you toward [test-driven development](https://en.wikipedia.org/wiki/Test-driven_development) in a serious way.
+You cannot manually review 1,000 outputs.
+That constraint pushes you toward [test-driven development](https://en.wikipedia.org/wiki/Test-driven_development).
 
 ## What This Implies For Infrastructure Work
 

@@ -157,7 +157,7 @@ Every skill is a bet that the model cannot do the task reliably on its own.
 The models keep getting better.
 The bet that was correct when the skill was written is incorrect now for some percentage of the library, and that percentage grows every model generation.
 
-When a skill's failures have stopped, and the agent produces the right output from a prompt alone, the skill is no longer carrying its weight.
+When a skill's failures have stopped, and the agent produces the right output from a prompt alone, the skill no longer justifies the cost of keeping it.
 The skill is scaffolding around a capability the model now holds on its own, and the right move is to take the scaffolding down, not maintain the skill.
 
 [My AI Workflow](../my-ai-workflow/index.md) makes the same argument: the skills are a temporary scaffold for the gap between what the model can do today and what the model will do on its own tomorrow, and a good chunk of the work is knowing which scaffold to take down next.

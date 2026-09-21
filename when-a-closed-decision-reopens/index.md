@@ -16,14 +16,14 @@ agent_sessions:
 A decision reached with your principal did not actually close the question.
 It closed the question in the room where it was made.
 When a new manager met the senior leader for the first time, the shared understanding that took weeks to build stayed behind, and the original ambiguity rushed back in to fill the gap.
-**The cycle you are trapped in is not a scope problem. It is a context-transfer problem wearing a scope problem's clothes.**
+**The cycle you are trapped in is not a scope problem. It is a context-transfer problem that looks like a scope problem.**
 
 ## The Decision Didn't Reopen. The Context Didn't Transfer.
 
 When leadership says "build this feature" without saying what "this" means, they have not given you a requirement.
-They have handed you a fog bank, and asked you to find a form inside it.
+They have given you a vague goal, and asked you to find a concrete target inside it.
 You did the right thing.
-You built a demo to turn the fog into something people could react to, you sat with the principal, and you negotiated a concrete, buildable target.
+You built a demo to make the vague goal concrete enough to react to, you sat with the principal, and you negotiated a concrete, buildable target.
 That work was real, and it was correct.
 
 Then a person who was not in the room walked into a different room with the senior leader, and the target moved.
@@ -78,8 +78,8 @@ Now the leader is not arguing with your willingness.
 They are looking at a menu, and the menu has prices on it.
 They can choose to accept the limit, fund the enabler, or descope, but whatever they choose, they are choosing with information instead of against a vibe.
 
-**"Impossible" is a wall. The list of what it would take is a door.**
-Leaders cannot walk through walls, but they will walk through doors all day, and often they will fund the hallway that leads to the next one.
+**Saying "impossible" stops the decision. An itemized list of what it would take lets the decision move forward.**
+Leaders cannot act on a flat refusal, but they will act on an itemized list, and often they will fund the capability that unlocks the next step.
 This reframing also protects you.
 The day the tools do catch up, your document already names the capability you were waiting for, and the path to the north star becomes a matter of executing a plan you wrote months ago instead of restarting the conversation from scratch.
 
@@ -105,7 +105,7 @@ The cost of not writing it down is the cycle you are currently living in, paid i
 
 ## The New Manager Is Not the Enemy. They Are a Missing Node.
 
-It is easy, and emotionally satisfying, to blame the new manager for reopening the wound.
+It is easy, and emotionally satisfying, to blame the new manager for reopening the settled question.
 Resist that story.
 Almost certainly, they walked into their first meeting with the senior leader underprepared, because nobody had handed them the history.
 They improvised from the leader's enthusiasm, which pointed at the north star, not at your milestone compromise.
@@ -137,11 +137,11 @@ That sentence is free, and it breaks the spiral.
 
 Second, write the decision record, if it does not already exist.
 Context, the north star, the agreed milestone, the specific technical constraints that forced the compromise, the people who agreed, and the date.
-This is the artifact that should have existed all along, and creating it now is not bureaucratic theater, it is the wall that holds up everything that follows.
+This is the artifact that should have existed all along, and creating it now is not empty procedure, it is what makes every later step work.
 
 Third, convert every "we can't" into a priced option.
 For each piece of the vision that is out of reach, write what it would take to reach it: which capability, which team, which rough timeline, which dependency.
-Hand leadership a menu, not a wall.
+Give leadership the itemized options, not a flat refusal.
 
 Fourth, brief the new manager before the next senior-leader conversation.
 Walk them through the record in person, make sure they understand the constraints, and explicitly invite them to bring their own objections now rather than in the room with the leader.

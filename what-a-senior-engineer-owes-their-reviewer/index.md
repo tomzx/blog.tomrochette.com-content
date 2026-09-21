@@ -9,7 +9,7 @@ audience_notes: >
   Assumes the reader works on a team that uses pull request review and has both authored and reviewed PRs. No explanation of what a PR or CI is.
 ---
 
-When a senior engineer opens a pull request, the reviewer should be able to start judging the change, not excavating it.
+When a senior engineer opens a pull request, not reconstruct what it does.
 **The standard is that everything which did not require a second brain is already done before the review request goes out.**
 CI is green, the diff is small and single-purpose, the description explains the change, the author has already read their own diff, and the proof that it works is in the PR.
 Anything less quietly converts review time into discovery time, and discovery is the most expensive way to use a reviewer.
@@ -73,7 +73,7 @@ The highest-leverage habit is also the dullest one: keep the diff small.
 [Google's engineering practices](https://google.github.io/eng-practices/review/developer/small-cls.html) make the case from experience, small changes get reviewed faster and more thoroughly, and reviewers miss fewer defects.
 Size is not the only variable though, purpose is.
 **A senior engineer separates refactoring from behavior changes, because a diff that does two things forces the reviewer to review both at once and catch neither.**
-If a PR needs a live walkthrough before anyone can understand it, that is usually a sign the PR is several PRs wearing a trench coat.
+If a PR needs a live walkthrough before anyone can understand it, that is usually a sign it should be several separate PRs.
 
 There are legitimate exceptions, a generated-code migration or a mechanical rename can be large and still easy to review.
 The mark of a senior engineer is knowing which kind of large diff they have, and saying so in the description.

@@ -122,7 +122,7 @@ Naming an inheritor, even informally, converts the orphan case into a handoff wa
 None of these fully solves it.
 **Ownership continuity for the solo operator is still an open problem, and pretending the fleet solves it is how systems get abandoned while they are still green.**
 
-Notice what this does to hiring logic.
+Notice what the seat decision does to hiring logic.
 Teams used to add humans for hands, and hands are now near-free, so the remaining reasons to add a human are direction, memory, and accountability.
 [Google's Project Aristotle](https://rework.withgoogle.com/print/guides/5727380657274880/) found that the strongest predictor of human team effectiveness is psychological safety, which is precisely the capacity for dissent to occur.
 The finding reads as a warning here: a human seat without safety produces agreement instead of judgment, and agreement is a contribution the fleet already supplies.
@@ -140,7 +140,7 @@ If the count is zero, you have found the gap, and it is in the design, not in th
 
 Then decide deliberately where judgment enters.
 If your work has an oracle, is reversible, and fits in one head, stay solo and stop feeling guilty about it; the fleet plus encoded process is a real team.
-If any of the three conditions bites, no oracle, context overflow, one-way doors, buy a human seat in whatever dose makes sense: a paid reviewer for the consequential changes, a community that will tell you the idea is bad while it is still cheap to kill, a co-founder for the direction itself.
+If any of the three conditions applies, no oracle, context overflow, one-way doors, buy a human seat in whatever dose makes sense: a paid reviewer for the consequential changes, a community that will tell you the idea is bad while it is still cheap to kill, a co-founder for the direction itself.
 
 For everything you own, write the handoff paragraph: what it is, why it exists, who inherits it.
 The paragraph converts ownership from a property of your presence into an artifact, the same move as every other practice in this piece, and it is the closest thing solo work currently has to succession.

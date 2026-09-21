@@ -189,7 +189,7 @@ I argued in [The Self-Evolving Repository](../the-self-evolving-repository/index
 **Every loop file should be able to answer three questions without ambiguity: how often can this run, how much can each run spend, and what happens when it fails.**
 **If a loop cannot answer those questions, the runtime should refuse to start it.**
 
-The `concurrency` field is the other one that earns its keep early.
+The `concurrency` field is the other one that proves necessary early.
 A loop that runs every five minutes and takes six minutes to finish will, without a concurrency policy, slowly consume every slot the runtime has.
 `cancel-previous`, `queue`, and `drop` cover the realistic cases, and the right default is `cancel-previous` for anything stateless.
 
@@ -238,7 +238,7 @@ That portability is what makes loops shareable across teams the way skills are s
 
 **Diffability.**
 The single most useful property of a file is that you can `git blame` it.
-When the on-call gets paged at 03:00 because the deployment loop has been firing every two minutes for an hour, the first question is "who changed the trigger, when, and why," and the answer should be one `git log` away, not an archaeological dig through a CI settings UI.
+When the on-call gets paged at 03:00 because the deployment loop has been firing every two minutes for an hour, the first question is "who changed the trigger, when, and why," and the answer should be one `git log` away, not a long manual search through a CI settings UI.
 
 The argument that applies only to loops is **co-location with the skill**.
 A skill file and the loop that schedules it are describing two facets of the same behavior, and when they live in the same repository, in the same format, in the same review pipeline, they evolve together.
@@ -291,7 +291,7 @@ Loops need the same periodic sweep that code needs, and the sweep is mechanical:
 
 **Cost runaway, again.**
 Worth saying twice.
-An event-driven loop with no budget, attached to a busy event source, is a direct line from "Slack got excited" to "the API bill is four digits."
+An event-driven loop with no budget, attached to a busy event source, can turn a busy Slack day into a four-digit API bill.
 The budget field in the frontmatter exists for exactly this reason, and the runtime must enforce it hard, not warn softly.
 
 ## The Naming Question

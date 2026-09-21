@@ -72,7 +72,7 @@ It used to cost real effort to produce that volume, which capped the abuse.
 LLMs removed the cap.
 Producing fifty variations, fifty justifications, and fifty follow-up questions now costs minutes and cents.
 **The producer can flood at marginal cost while demanding the reviewer meet each item with marginal human effort.**
-That is not a process; it is a [denial-of-service](https://en.wikipedia.org/wiki/Denial-of-service_attack) on your attention, dressed up as a quality standard.
+That is not a process; it is a [denial-of-service](https://en.wikipedia.org/wiki/Denial-of-service_attack) on your attention, presented as a quality standard.
 
 ## What Review Becomes on a Flood
 

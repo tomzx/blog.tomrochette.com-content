@@ -95,7 +95,7 @@ Encoding it converts a forgettable step into a reliable one, and a reliable one 
 Once the workflow lives in a repository, three things become true at once.
 
 First, it is reliable.
-The agent triages the issue, plans the work, reviews the PR, and closes the loop the same way today as it did yesterday, because the steps are written down and not reconstructed from vibes.
+The agent triages the issue, plans the work, reviews the PR, and closes the loop the same way today as it did yesterday, because the steps are written down and not reconstructed from guesswork.
 
 Second, it is improvable.
 When a step is weak, I edit one file and every session that passes through it gets better.

@@ -12,9 +12,9 @@ audience_notes: >
 **The traditional code review is dying.**
 Not because it is unnecessary, but because it is becoming unnecessary.
 
-For decades, code review has been a cornerstone of software engineering.
+For decades, code review has been a central practice of software engineering.
 Pull requests, peer reviews, endless rounds of comments: this is how we have maintained code quality.
-But AI is fundamentally changing this equation.
+But AI is fundamentally changing that practice.
 **In my view, the question is not whether AI will replace human code review, but how quickly.**
 
 ## The Problem With Human Code Review
@@ -53,7 +53,7 @@ That sounds expensive until you realize what they are shipping.
 ### 1. Competitive Generation
 
 Instead of one AI writing code, run three in parallel.
-Like a slot machine with three reels spinning, all generating different implementations.
+Three models run in parallel, each generating a different implementation.
 An automated evaluator selects the best output based on passing tests, minimal diffs, and fewer dependencies.
 The cost of running three models is trivial compared to the quality gain.
 

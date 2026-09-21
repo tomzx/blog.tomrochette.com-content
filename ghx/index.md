@@ -15,7 +15,7 @@ agent_sessions:
 
 I've been building AI agents that review pull requests, and the official `gh` CLI doesn't have what they need.
 Agents can't leave inline comments on specific lines, can't manage pending reviews, and can't edit or delete comments.
-These are table-stakes operations for any code review workflow, and they're only accessible through the GitHub web UI or the raw GraphQL API.
+These are basic operations for any code review workflow, and they're only accessible through the GitHub web UI or the raw GraphQL API.
 
 **So I built [ghx](https://github.com/tomzxcode/ghx), a CLI designed to make agentic code reviews practical.**
 

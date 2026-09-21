@@ -14,7 +14,7 @@ agent_sessions:
 ---
 
 It is a familiar observation by now that most code review happens without anyone reading the code ([the case is made in You Already Review Code Without Reading It](../code-review-without-reading-the-code/index.md)).
-That observation leaves a question hanging.
+That observation raises a question.
 If no human reads the diff, how do you still get correctness, maintainability, extensibility, and the rest of the things review was supposed to deliver?
 
 The short answer is that you stop trying to read, and start trying to verify.
@@ -31,7 +31,7 @@ Make those checks explicit, and a different picture appears.
 Correctness: does the code do what the task actually asked for?
 Tested: are the behaviors that matter covered by tests that would fail if the code were wrong?
 Maintainable: is the complexity bounded, the duplication low, the naming consistent, the dead code absent?
-Extensible: can the next change plug in without a rewrite, or has this change welded two things together that should stay apart?
+Extensible: can the next change plug in without a rewrite, or has this change coupled two things that should stay independent?
 Secure: does it cross a trust boundary, leak a secret, or open an injection path?
 Reversible: if this is wrong, can we undo it in minutes, or does it mutate data we cannot get back?
 
@@ -55,7 +55,7 @@ None of these requires a human to read the code.
 ## The LLM As Critic, Not Reader
 
 The LLM's role in this system is not to read the code for you.
-A summary of the diff is theater with a different font.
+A summary of the diff is not reading, however it is presented.
 The LLM's role is to act as a critic against a single, stated property.
 
 Give it the diff, the specification, and one question.
@@ -94,7 +94,7 @@ The human writes what the code must satisfy, and then watches what the code does
 There is one failure mode that will quietly ruin this system if you let it go unchecked.
 Do not let the same model, or the same prompt, both write the code and approve it.
 
-When the author and the verifier share a mind, the verifier inherits the author's blind spots.
+When the same model acts as both author and verifier, the verifier inherits the author's blind spots.
 A model that wrote a subtle bug will, asked to review its own work, tend to confirm that the work is fine.
 This is not malice; it is the same statistical process producing both answers.
 

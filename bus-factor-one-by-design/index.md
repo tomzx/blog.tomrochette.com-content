@@ -108,7 +108,7 @@ Taste, the reasons the roadmap bends where it does, the history of a negotiation
 
 Two habits keep more of it from escaping.
 Record rationale at decision time, while the alternatives are still alive, because a decision record written six months later is fiction.
-Occasionally have the owner defend direction to a peer: not the code, the choices, so judgment gets exercised against a counterparty instead of echoing inside one skull.
+Occasionally have the owner defend direction to a peer: not the code, the choices, so judgment gets exercised against a counterparty instead of staying inside one person's head.
 
 Then accept what remains.
 Some re-acquisition friction is irreducible, the same way some latency is.

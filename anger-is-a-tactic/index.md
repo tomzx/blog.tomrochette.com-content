@@ -14,7 +14,7 @@ agent_sessions:
 ---
 
 You know the person.
-The meeting gets tense, their voice rises, maybe a fist lands on the table, and within a minute the room folds and they get their way.
+The meeting gets tense, their voice rises, maybe a fist lands on the table, and within a minute the room gives in and they get their way.
 Later someone whispers "that's just how they are" and the decision stands.
 
 I never believed that framing.
@@ -63,10 +63,10 @@ Interview studies of workplace anger episodes found the same asymmetry from the 
 
 **Aggression survives on a power gradient and on the target's silence, which is why the people who use it are so often leaders and so rarely peers.**
 
-## The Bill You Do Not See
+## The Hidden Cost
 
 The defense of these people is always the same: they get results.
-The research says their results are borrowed against a balance sheet nobody reads.
+The research says those results carry costs nobody tracks.
 
 The founding study of abusive supervision followed 712 employees and found that those who perceived their supervisor as abusive were more likely to quit, and the ones who stayed showed lower job and life satisfaction, lower commitment, and depressed perceptions of justice ([Tepper, 2000](https://doi.org/10.5465/1556375)).
 Fifteen-plus years of follow-up research, synthesized in Tepper's [Annual Review](https://doi.org/10.1146/annurev-orgpsych-041015-062539), established the pattern as one of the most robust in organizational psychology.
@@ -83,7 +83,7 @@ Witnessing rudeness makes people more likely to judge ambiguous behavior as rude
 Witnesses of bullying report increased stress and fear of becoming targets ([Sutton](https://en.wikipedia.org/wiki/The_No_Asshole_Rule)).
 Prevalence data suggests nearly everyone experiences incivility: across 14 years of polling, 98 percent of workers reported uncivil behavior, and by 2011 half reported being treated rudely at least weekly, up from a quarter in 1998 ([Porath & Pearson, HBR](https://hbr.org/2013/01/the-price-of-incivility)).
 
-**The aggressor's visible win is real, but it is financed by invisible withdrawals from everyone else's judgment, information flow, and retention.**
+**The aggressor's visible win is real, but it is paid for by silent losses in everyone else's judgment, information flow, and retention.**
 
 ## Why They Do It
 

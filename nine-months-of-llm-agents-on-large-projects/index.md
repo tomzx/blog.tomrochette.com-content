@@ -11,9 +11,9 @@ agent_sessions:
   - ses_f55a7f737ffeh69b7Yc7vC9Gmj
 ---
 
-Over the past nine months I have run LLM agents against the largest projects I have ever worked on alone: a stable of open source tools I use and maintain daily, and the automated pipeline that publishes part of this blog.
+Over the past nine months I have run LLM agents against the largest projects I have ever worked on alone: the open source tools I use and maintain daily, and the automated pipeline that publishes part of this blog.
 The models improved underneath me the whole time, and that helped less than I expected.
-**What actually moved the needle was learning to handle four challenges: providing the right context, iterating through non-obvious design decisions, managing the scale of the work, and keeping artifacts consistent while decisions change.**
+**What actually helped was learning to handle four challenges: providing the right context, iterating through non-obvious design decisions, managing the scale of the work, and keeping artifacts consistent while decisions change.**
 None of the four is about getting a model to write better code.
 All four decide whether the code the model writes turns into a finished project.
 

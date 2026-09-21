@@ -61,7 +61,7 @@ Beyond the level, the profile keeps a running overview, lists of strengths and w
 Crucially, it is plain markdown in a git repo.
 That makes the system's memory auditable, diffable, and portable.
 You can see the exact review that tipped an author from `neutral` to `cautious`, and the reasoning behind it.
-**For a mechanism that gates code into production, that paper trail is not a nicety; it is a requirement.**
+**For a mechanism that gates code into production, that paper trail is not a nice-to-have; it is a requirement.**
 
 ## How earned trust changes review behavior
 
@@ -96,7 +96,7 @@ Each profile update is committed to the local git repo with a message like `Upda
 A single review does not move the trust level, unless it is egregious.
 Trust degrades through recurring patterns observed across many PRs, and the level only shifts when the weight of evidence demands it.
 That hysteresis is deliberate.
-**It prevents one bad day from branding a developer, and it prevents one lucky PR from buying unwarranted autonomy.**
+**It prevents one bad day from permanently labeling a developer, and it prevents one lucky PR from granting unwarranted autonomy.**
 
 ## Bootstrapping without survivorship bias
 

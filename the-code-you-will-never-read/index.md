@@ -90,7 +90,7 @@ In opaque code, that is the acceptance criteria written before implementation, p
 In ML, probing with held-out and adversarial inputs is how you find where the model breaks.
 In opaque code, that is property-based testing and fuzzing, generating inputs no human would think to write, exposing the edge cases reading would have missed anyway.
 
-In ML, you measure accuracy and failure rate on a benchmark, not vibes.
+In ML, you measure accuracy and failure rate on a benchmark, not intuition.
 In opaque code, that is defect escape rate, rollback rate, time-to-detect, and change failure rate, measured per change, in production.
 
 In ML, adversarial examples are how you stress the model before it ships.
