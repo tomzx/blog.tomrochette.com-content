@@ -12,7 +12,7 @@ audience_notes: >
 
 This matrix compares the four members of the Session analytics category: tools that turn what your coding agents record (or are recording right now) into live views, searchable history, cost reports, and audits.
 The category now covers both halves of the job: agents-observe, the live hook-fed dashboard, agentsview, the broad retrospective archive, ctx, the search-and-attribution CLI, and Memex, the search-and-resume TUI.
-Everything below was verified against live sources on 2026-09-20.
+Everything below was verified against live sources on 2026-09-21.
 
 **The category's founding question, retrospective archive versus live observation, now has both answers plus a closing move: agentsview indexes what every agent already did and cost across 60-plus formats, ctx answers where did this line of code come from, agents-observe answers what is my agent doing right now (though only for Claude Code and Codex), and Memex answers where did I already do this, then drops you back into the session that did it.**
 
@@ -42,7 +42,7 @@ The second row worth reading is provenance: ctx pro's blame attribution is the o
 
 **Token cost reporting is the row that pays for the tool**: harness-native cost views reset and see only their own sessions, while a pre-indexed store answers multi-tool, multi-month questions in seconds.
 An earlier version of the agentsview docs benchmarked its reports at 84 to 223 times faster than ad-hoc parsing (calling that an upper bound); the current docs have dropped that benchmark entirely, so the row should be read as "fast because pre-indexed", with no vendor number left to lean on.
-The docs' usage JSON contract sits at schema version 5, with version 6 on the session-export schema, so scripts consuming those reports should expect breaking churn.
+The docs' usage JSON contract and the session-export schema both sit at schema version 6, so scripts consuming those reports should expect breaking churn.
 
 **Memex adds the closing move the other archive tools lack: resume-in-place, where finding a session and re-entering it are one action in the TUI, plus the category's only local semantic search (BM25 by default, optional local embeddings, so the headline requires opt-in setup).**
 Its 15-engine support table is graded per capability and unevenly at that (some engines have no resume at all, token counting is missing for at least one), and its launch footprint is as thin as ctx's was, so read the column as promising and unproven.

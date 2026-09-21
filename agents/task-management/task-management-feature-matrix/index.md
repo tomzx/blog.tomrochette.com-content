@@ -1,7 +1,7 @@
 ---
 title: "Task Management Feature Matrix"
 created: 2026-08-27
-updated: 2026-09-20
+updated: 2026-09-21
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, comparison, task-management, task-tracking]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 This matrix compares the four task managers profiled in this section, feature by feature, so choosing between them does not require reading four notes.
-Everything below was verified against live sources on 2026-09-20.
+Everything below was verified against live sources on 2026-09-21.
 
 **Files versus database is the row that decides everything else: it determines whether your board survives multiple agents racing on it, and the planning layer the newest column adds sits above that choice rather than replacing it.**
 
@@ -31,7 +31,7 @@ Each column links to the full research note; every cell below traces to a source
 | PRD ingestion | ✗ manual task creation | ✗ manual task creation | ~ opt-in PRD artifact inside the planner conversation | ✓ `parse-prd` pipeline |
 | Agent integrations | Claude Code, Codex, Gemini CLI, Kiro, Cursor, MCP | `bd init` for Codex, Claude, Factory, Cursor, plus AGENTS.md and MCP | runners Claude Code, Codex, OpenCode built in, plugins beyond; planner can be a coding agent or one of 25 API providers | MCP server and CLI, documented for Cursor, Claude Code, Windsurf, VS Code, Q CLI |
 | Pricing | free | free | free | CLI free, Hamster $40 per creator per month |
-| Current status | active, about 6.8k stars | active, about 27k stars, 1,224 open issues | active, 132 stars, v0.4.19 (2026-09-10) | repo quiet since April 2026, product alive at Hamster |
+| Current status | active, about 6.8k stars | active, about 27.3k stars, 1,247 open issues, v1.3.1-rc.1 prerelease 2026-09-21 | active, 132 stars, v0.4.19 (2026-09-10) | repo quiet since April 2026, product alive at Hamster |
 
 ## Reading the matrix
 
@@ -56,6 +56,7 @@ Its 132 stars and v0.4.x release line make it the least proven column, and its n
 
 - 2026-08-27 - Created with three columns (Backlog.md, beads, Task Master) and ten rows, tracing every cell to the member notes.
 - 2026-09-16 - Extended from three to four columns with Ordewell (inserted alphabetically), every row gaining a cell traced to the new note, and the reading and choosing prose extended to the planner layer.
+- 2026-09-21 - Refreshed the beads status cell (new v1.3.1-rc.1 prerelease and issue count).
 
 ## See also
 
@@ -71,6 +72,6 @@ Its 132 stars and v0.4.x release line make it the least proven column, and its n
 - https://github.com/eyaltoledano/claude-task-master - MCP tools, parse-prd, dependency moves for the Task Master column
 - https://tryhamster.com/pricing - the commercial tier behind the Task Master method
 - https://github.com/ordewell/ordewell - plan artifact, runners, marker verification for the Ordewell column
-- https://api.github.com/repos/ordewell/ordewell - stars, dates, Apache-2.0 as of 2026-09-18
+- https://api.github.com/repos/ordewell/ordewell - stars, dates, Apache-2.0 as of 2026-09-21
 - https://ordewell.ai - surfaces and the plan-execute-verify loop for the Ordewell column
 - https://news.ycombinator.com/item?id=49712276 - the launch thread grounding the Ordewell caution cell

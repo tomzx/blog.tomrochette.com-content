@@ -1,7 +1,7 @@
 ---
 title: Worktrunk
 created: 2026-08-30
-updated: 2026-09-20
+updated: 2026-09-21
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, git-worktrees, cli, open-source]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Worktrunk (`wt`) is a Rust CLI that makes git worktrees as easy as branches so you can run many coding agents in parallel, with lifecycle hooks, LLM commit messages, and a one-command merge pipeline.
-Facts below verified as of 2026-09-20.
+Facts below verified as of 2026-09-21.
 
 **Worktrunk wins by staying out of the way: no TUI to learn, no daemon to run, just worktrees addressed by branch name plus hooks that automate the boring 80 percent of the parallel-agent workflow.**
 
@@ -24,7 +24,7 @@ Dual MIT or Apache-2.0 license, Homebrew, cargo, winget, and Arch (pacman) distr
 
 ## Status
 
-The leading worktree manager of the agent wave: about 8.1k stars, 283 forks, 42 open issues and PRs as of 2026-09-20, created 2025-10-17, more than 5,000 commits on main, latest release v0.78.0 on 2026-09-16.
+The leading worktree manager of the agent wave: about 8.2k stars, 284 forks, 43 open issues and PRs as of 2026-09-21, created 2025-10-17, more than 5,000 commits on main, latest release v0.79.0 on 2026-09-21.
 About 150 releases in eleven months; still pre-1.0 with breaking changes per release, and effectively a single-maintainer project.
 
 ## Strengths
@@ -37,7 +37,7 @@ About 150 releases in eleven months; still pre-1.0 with breaking changes per rel
 ## Cautions
 
 - Bus factor approximately one: nearly all human commits are from the maintainer.
-- Pre-1.0 churn is real; v0.75 raised the git minimum and broke both the list JSON schema and the library API, v0.76 changed `-x` from a shell string to a single program name, and v0.78 renamed the hook context keys, so scripts that read the hook JSON directly need updating (config templates migrate on load, raw scripts do not).
+- Pre-1.0 churn is real; v0.75 raised the git minimum and broke both the list JSON schema and the library API, v0.76 changed `-x` from a shell string to a single program name, v0.78 renamed the hook context keys, and v0.79 changed what `wt switch --no-cd -x` does (the launched program now starts in the worktree, so scripts that relied on the invoking directory need an explicit `cd`), so scripts that read the hook JSON or wrap `-x` need updating (config templates migrate on load, raw scripts do not).
 - Hooks execute arbitrary shell from project config; the approval system mitigates it, but review `.config/wt.toml` in unfamiliar repos.
 - No independent critical review exists yet, and the tool assumes you are comfortable in your own shell and editor.
 
@@ -62,6 +62,7 @@ Not for GUI-first workflows, and not for anyone who needs a project to promise s
 - 2026-09-02 - Recorded the v0.76.0 release with its breaking -x flag change.
 - 2026-09-18 - Recorded v0.78.0 (September 16) and its breaking hook-context-key rename.
 - 2026-09-20 - Corrected the release count to about 150 (the earlier 78 was an undercount) and refreshed stars and tracker counts; v0.78.0 remains latest.
+- 2026-09-21 - Recorded v0.79.0 (September 21) and its breaking `--no-cd -x` semantics change, and refreshed stars and tracker counts.
 
 ## See also
 
@@ -75,6 +76,6 @@ Not for GUI-first workflows, and not for anyone who needs a project to promise s
 - https://github.com/max-sixty/worktrunk - repository, README, commands, license
 - https://worktrunk.dev - documentation and agent-integration guides
 - https://worktrunk.dev/hook/ - hook types, blocking semantics, and the approval security model
-- https://github.com/max-sixty/worktrunk/releases/tag/v0.78.0 - latest release, cadence, and breaking changes
+- https://github.com/max-sixty/worktrunk/releases/tag/v0.79.0 - latest release, cadence, and breaking changes
 - https://raw.githubusercontent.com/max-sixty/worktrunk/HEAD/README.md - quick start and the maintainer's own positioning
 - https://github.com/smtg-ai/claude-squad - comparison data for the TUI alternative

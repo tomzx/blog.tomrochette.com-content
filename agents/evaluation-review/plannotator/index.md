@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Plannotator is a free, open-source, local browser-based review surface that intercepts coding-agent plan proposals and code diffs so you can annotate them visually and send structured feedback straight back into the live agent session.
-Facts below verified as of 2026-09-20.
+Facts below verified as of 2026-09-21.
 
 **Plannotator closes the cheapest loop in agent work, the one between what you see wrong in a plan and what the agent receives, and its marketing outpaced its README exactly once, on the encryption claim, which the README itself corrects.**
 
@@ -21,13 +21,13 @@ A TypeScript installer that wires into nine harnesses, Claude Code, Codex, Copil
 Three surfaces: plan review with inline comments and deletion marks, code review of uncommitted changes or any GitHub and GitLab PR URL with side-by-side diffs and staging, and annotation of markdown, folders, URLs, and rendered HTML artifacts.
 Approve lets the agent proceed; deny sends annotations back as the agent's next instruction, no copy-paste, and plan revisions are diffed against each other.
 Local-first with no telemetry, an optional TUI, a VS Code extension, and supply-chain hygiene (SLSA provenance, SBOMs, Grype gating).
-Dual Apache-2.0 or MIT, written almost entirely by one developer (969 of 1,222 commits as of 2026-09-18) with 144 total commit contributors and only 10 with five or more, with a hosted Workspaces product now on a public waitlist.
+Dual Apache-2.0 or MIT, written almost entirely by one developer (969 of 1,222 commits as of 2026-09-18) with 146 total commit contributors as of 2026-09-21 and only 10 with five or more, with a hosted Workspaces product now on a public waitlist.
 
 ## Status
 
-Fast and growing: 8,761 stars, 658 forks, 162 open issues and PRs as of 2026-09-18, created 2025-12-28, pushed 2026-09-18, v0.27.16 released 2026-09-18.
+Fast and growing: 8,838 stars, 668 forks, 144 open issues and PRs as of 2026-09-21, created 2025-12-28, pushed 2026-09-21, v0.27.16 released 2026-09-18.
 **The 0.27.x line says pre-1.0 churn, and the growth came through social channels rather than press; its Show HN thread drew 5 points.**
-The author now ships a terminal sibling, Herdr Annotate under the plannotator GitHub org (504 stars as of 2026-09-18), which applies the same annotate-and-send-feedback loop to terminal text.
+The author now ships a terminal sibling, Herdr Annotate under the plannotator GitHub org (525 stars as of 2026-09-21), which applies the same annotate-and-send-feedback loop to terminal text.
 
 ## Strengths
 

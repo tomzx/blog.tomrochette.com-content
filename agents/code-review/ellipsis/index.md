@@ -13,15 +13,15 @@ audience_notes: >
 ---
 
 Ellipsis (ellipsis.dev) is a YC-backed company that launched in 2023 as an automated PR review and bug-fix bot and, as of July 2026, has pivoted to the Ellipsis Agent Cloud, a managed cloud platform for running coding agents such as Claude Code and Codex in governed sandboxes.
-Facts below verified as of 2026-09-20.
+Facts below verified as of 2026-09-21.
 
 ## What it is
 
 Ellipsis AI Inc (New York, founded 2023, YC Winter 2024, founders Hunter Brooks and Nick Bradford) sells a platform where every coding agent is a YAML file in your repo, and each session runs in its own sandbox with scoped credentials, hard budget caps, and searchable transcripts.
 Sessions start from GitHub, Slack, Linear, or Sentry events, cron schedules, the `agent` CLI, or a REST API, and the platform fronts Claude Code, Codex, Copilot, Gemini, Cursor, Grok Code, Antigravity, OpenCode, and Pi.
 Code review survives as a configurable agent use case, not the fixed install-and-forget bot of 2024, and the platform deploys either in Ellipsis's cloud or into your own AWS VPC.
-The core product is proprietary: its GitHub org publishes only tooling, an agent CLI, a homebrew tap, an AWS installer, and Python plus TypeScript SDK mirrors, six public repos in total as of 2026-09-18.
-The sixth, blink (codebase search, 14 stars), was created on September 16, 2026.
+The core product is proprietary: its GitHub org publishes only tooling, an agent CLI, a homebrew tap, an AWS installer, and Python plus TypeScript SDK mirrors, six public repos in total as of 2026-09-21.
+The sixth, blink (codebase search, 31 stars as of 2026-09-21), was created on September 16, 2026.
 
 ## Status
 
@@ -51,11 +51,11 @@ The community footprint is one strong Show HN from May 9, 2024 (Algolia item 403
 
 ## Pricing
 
-Tokens are billed at cost with no markup, plus a 10% platform fee, with CPU at $0.142/vCPU-hour and memory at $0.024/GB-hour, as of 2026-09-18.
+Tokens are billed at cost with no markup, plus a 10% platform fee, with CPU at $0.142/vCPU-hour and memory at $0.024/GB-hour, as of 2026-09-21.
 There are no per-seat fees and no idle charges, and a $100 credit covers the start.
-Individuals on their own Claude Code or Codex subscription get the platform free, the on-ramp the homepage now leads with, as of 2026-09-18 (the page named ChatGPT or Claude subscriptions when I first recorded it on 2026-09-13).
+Individuals on their own Claude Code or Codex subscription get the platform free, the on-ramp the homepage now leads with, as of 2026-09-21 (the page named ChatGPT or Claude subscriptions when I first recorded it on 2026-09-13).
 The same published pricing covers the managed SaaS and a BYOC deployment into your own AWS account.
-Optional enterprise support packages run $5,000 (Standard), $10,000 (Advanced), and $15,000 (Premier) per month as of 2026-09-18.
+Optional enterprise support packages run $5,000 (Standard), $10,000 (Advanced), and $15,000 (Premier) per month as of 2026-09-21.
 This replaces the May 2024 model, which was $20/seat/month for the review bot.
 
 ## Price history

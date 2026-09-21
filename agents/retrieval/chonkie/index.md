@@ -12,7 +12,7 @@ audience_notes: >
 ---
 
 Chonkie is an MIT-licensed Python (with a TypeScript port) chunking library for RAG pipelines that packages token-based, sentence, recursive, semantic, late, code (AST), and neural chunkers behind one small, dependency-light interface.
-Facts below verified as of 2026-09-20.
+Facts below verified as of 2026-09-21.
 
 **It won the chunking niche on install size and speed, survived the niche's commoditization, and outlived its own company's attention: the library keeps shipping while the startup behind it has moved on to a new venture.**
 
@@ -25,7 +25,7 @@ It also ships refineries, pipelines stored in a local SQLite database, a self-ho
 ## Status
 
 The open source library is active and widely used; the company around it has visibly moved on.
-The repository shows 4,760 stars, a push on 2026-09-18, and PyPI shows version 1.7.0 released 2026-07-07 across 62 releases, with 1,046,347 downloads in the last month as of 2026-09-20; the TypeScript port, renamed alongside the org to feyninc/chonkiejs, was last pushed 2026-09-11.
+The repository shows 4,764 stars, a push on 2026-09-18, and PyPI shows version 1.7.0 released 2026-07-07 across 62 releases, with 1,020,031 downloads in the last month as of 2026-09-21; the TypeScript port, renamed alongside the org to feyninc/chonkiejs, was last pushed 2026-09-11.
 **The caution is the corporate trail: chonkie.ai, the domain in the Launch HN, now redirects to Feyn Labs, a venture whose founder letter is signed by Chonkie's co-founder Shreyash Nigam, the repository itself moved under the Feyn org (feyninc/chonkie, with the old chonkie-inc URL redirecting), the hosted endpoints (cloud.chonkie.ai, hub.chonkie.ai, labs.chonkie.ai) are dead or 404, and the README still links Cloud to the dead labs domain.**
 The community footprint earlier scans missed is real: two major HN threads (199 points in 2024, 151 in 2025) plus a 153-point technical post ("So, you want to chunk really fast?", December 2025) by co-founder Bhavnick Minhas on his delimiter-based memchunk approach.
 
@@ -76,10 +76,10 @@ My disagreeable claim: Chonkie's real innovation was packaging, not algorithms, 
 
 ## References
 
-- https://github.com/feyninc/chonkie - repository: 4,760 stars, MIT, created 2025-03-29, pushed 2026-09-18 (GitHub API, as of 2026-09-20)
+- https://github.com/feyninc/chonkie - repository: 4,764 stars, MIT, created 2025-03-29, pushed 2026-09-18 (GitHub API, as of 2026-09-21)
 - https://raw.githubusercontent.com/feyninc/chonkie/main/README.md - chunker table, 505KB core, self-hosted API server, stale Cloud link
 - https://pypi.org/pypi/chonkie/json - version 1.7.0 (2026-07-07), 62 releases, Python >=3.10, MIT
-- https://pypistats.org/api/packages/chonkie/recent - 1,046,347 downloads last month, as of 2026-09-20
+- https://pypistats.org/api/packages/chonkie/recent - 1,020,031 downloads last month, as of 2026-09-21
 - https://docs.chonkie.ai - official docs, Python and JavaScript support, agent skills distribution
 - https://news.ycombinator.com/item?id=44225930 - Launch HN (YC X25), 151 points, 2025-06-09: founders, 15MB versus 80-170MB, 33x token chunking claims (vendor tests)
 - https://news.ycombinator.com/item?id=42100819 - original Show HN, 199 points, 2024-11-10, under the now-deleted bhavnicksm/chonkie

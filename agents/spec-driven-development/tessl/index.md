@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Tessl is Guy Podjarny's (Snyk founder) spec-centric AI-native development platform: a web-first product where specs drive AI-generated (and human-written) software, funded by a $125M Series A and extended in 2026 with a skills package manager.
-Facts below verified as of 2026-09-20.
+Facts below verified as of 2026-09-21.
 
 **Tessl is the bet that spec-driven development is a platform business rather than a CLI convention, and its $125M raise, while the open tools give the method away free, is the category's purest experiment in whether specs become infrastructure you rent.**
 
@@ -43,7 +43,7 @@ The CLI has not been pushed since 2026-03-05, which is consistent with a web-fir
 
 ## Pricing
 
-Platform tiers are now published on tessl.io (free since 2026-09-08, re-verified 2026-09-18): Free at $0 per month with 1,000 credits, Team at $100 per month with 5x the credits, and Enterprise custom.
+Platform tiers are now published on tessl.io (free since 2026-09-08, re-verified 2026-09-21): Free at $0 per month with 1,000 credits, Team at $100 per month with 5x the credits, and Enterprise custom.
 The credit model is subscription metering, not open source, as the raise implied.
 
 ## Price history

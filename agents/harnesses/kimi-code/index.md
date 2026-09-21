@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 **Kimi Code CLI is Moonshot AI's terminal coding agent, and it is the first big-model-vendor harness whose default path is a challenger model instead of Claude or GPT.**
-Facts below verified as of 2026-09-20.
+Facts below verified as of 2026-09-21.
 
 ## What it is
 
@@ -22,7 +22,7 @@ The code lives in two repositories: the original `MoonshotAI/kimi-cli` (Apache-2
 
 ## Status
 
-Active and big-vendor backed, about 18.9k combined stars as of 2026-09-18: `kimi-code` at 7,453 stars pushed 2026-09-18, `kimi-cli` at 11,397 stars last pushed 2026-09-01.
+Active and big-vendor backed, about 19.0k combined stars as of 2026-09-21: `kimi-code` at 7,548 stars pushed 2026-09-21, `kimi-cli` at 11,416 stars last pushed 2026-09-01.
 **The independent FrontierHarness Eval pegs it mid-pack on quality and cheap on cost: 56.7 percent pass at a $3.65 median cost per task, with an 88 percent cache rate on Kimi K3.**
 The Hacker News footprint is thin (a 5-point 2025-10-31 thread and a 1-point 2026-01-27 one), which I read as distribution through Kimi's own channels rather than developer-mindshare gravity.
 
@@ -41,7 +41,7 @@ The Hacker News footprint is thin (a 5-point 2025-10-31 thread and a 1-point 202
 ## Pricing
 
 The harness is free and open source.
-Usage is Kimi Code OAuth (your Kimi subscription) or a Moonshot Open Platform API key: kimi-k3 at $1.70/$8.50 per million tokens (cache hits $0.17) and kimi-k2.7-code at $0.71/$3.21 as of 2026-09-20 (verified via [OpenRouter's model list](https://openrouter.ai/api/v1/models); Moonshot's CN platform listed the same models at ¥20/¥100 and ¥6.50/¥27 as of 2026-09-09), with other OpenAI-compatible providers configurable.
+Usage is Kimi Code OAuth (your Kimi subscription) or a Moonshot Open Platform API key: kimi-k3 at $1.70/$8.50 per million tokens (cache hits $0.17) and kimi-k2.7-code at $0.71/$3.21 as of 2026-09-21 (verified via [OpenRouter's model list](https://openrouter.ai/api/v1/models); Moonshot's CN platform listed the same models at ¥20/¥100 and ¥6.50/¥27 as of 2026-09-09), with other OpenAI-compatible providers configurable.
 
 ## Price history
 

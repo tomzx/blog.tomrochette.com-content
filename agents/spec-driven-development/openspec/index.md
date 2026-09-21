@@ -11,9 +11,9 @@ audience_notes: >
 ---
 
 OpenSpec is Fission AI's MIT-licensed spec-driven development toolkit for AI coding assistants: a lightweight CLI and slash-command workflow where every change is a delta proposal (proposal, specs, design, tasks) that implements, then archives into a living spec ledger under `openspec/`.
-Facts below verified as of 2026-09-20.
+Facts below verified as of 2026-09-21.
 
-**OpenSpec is the brownfield answer the spec movement was missing: instead of scaffolding a ceremony, it versions the spec itself as change proposals that accumulate, and about 69k stars plus 1.9 million npm downloads a month say the delta model is what iterative teams actually wanted.**
+**OpenSpec is the brownfield answer the spec movement was missing: instead of scaffolding a ceremony, it versions the spec itself as change proposals that accumulate, and about 70k stars plus 1.8 million npm downloads a month say the delta model is what iterative teams actually wanted.**
 
 ## What it is
 
@@ -24,7 +24,7 @@ The docs live at [openspec.dev](https://openspec.dev/), with a Discord for suppo
 ## Status
 
 Half of spec-kit's stars in a third of the time.
-As of 2026-09-18: about 69k stars and about 4.7k forks since creation on 2025-08-05, 228 open issues and pull requests, MIT, and 1,863,848 npm downloads last month (the 2026-08-18 to 2026-09-16 window).
+As of 2026-09-21: about 69.7k stars and about 4.8k forks since creation on 2025-08-05, 245 open issues and pull requests, MIT, and 1,760,795 npm downloads last month (the 2026-08-21 to 2026-09-19 window).
 **Its Hacker News footprint is effectively empty (no significant thread found this run), so adoption spread through X and Discord, and third-party verification is thinner than the install count implies.**
 The README's own superlative ("the most loved spec framework") is vendor framing, not a measured claim.
 
@@ -73,7 +73,7 @@ My disagreeable claim: the delta-archive idea is the one durable invention this 
 ## References
 
 - https://github.com/Fission-AI/OpenSpec - README: philosophy, opsx workflow, artifact layout
-- https://api.github.com/repos/Fission-AI/OpenSpec - stars, forks, issues as of 2026-09-18
+- https://api.github.com/repos/Fission-AI/OpenSpec - stars, forks, issues as of 2026-09-21
 - https://openspec.dev/ - official documentation site
-- https://api.npmjs.org/downloads/point/last-month/@fission-ai/openspec - 1,863,848 downloads last month
+- https://api.npmjs.org/downloads/point/last-month/@fission-ai/openspec - 1,760,795 downloads last month
 - https://github.com/Fission-AI/OpenSpec/blob/main/docs/opsx.md - the rebuilt artifact workflow

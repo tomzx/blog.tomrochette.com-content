@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 HarnessTax is an academic benchmark study from UC Berkeley and the Arena team that measures how much a coding agent's harness matters by running 21 model-harness pairs across seven models and three harnesses (Claude Code, Codex CLI, and Pi) on SWE-bench Lite and Terminal-Bench 2.0.
-Facts below verified as of 2026-09-20.
+Facts below verified as of 2026-09-21.
 
 **HarnessTax is the independent counterweight to FrontierHarness Eval: where the vendor-run benchmark found harness choice moved cost 17.5x, this academic team finds the same model can cost up to 5x more for a success rate within a few points, and names the difference the harness tax.**
 
@@ -20,11 +20,11 @@ Facts below verified as of 2026-09-20.
 A study by Melissa Z. Pan, Shuo Yang, Negar Arabzadeh, Wei-Lin Chiang, Ion Stoica, and Matei Zaharia of UC Berkeley and the Arena team, published free on the web with its data in a public GitHub Pages repository.
 Each pair runs 30 randomly sampled tasks per benchmark, three attempts per task, scored by each benchmark's official evaluator, with 95 percent confidence intervals from 10,000 bootstrap resamples and a fixed September 1, 2026 direct-API price list.
 The design crosses harnesses and models on purpose: three harnesses, seven models, a 100-agent-turn cap, and each harness's native high-effort configuration, so the harness effect can be separated from the model effect statistically rather than by holding one constant.
-The authors promise a public release of profiling traces, and the repository carries no license as of 2026-09-18.
+The authors promise a public release of profiling traces, and the repository carries no license as of 2026-09-21.
 
 ## Status
 
-New and already the most-discussed artifact in this category's week: the study surfaced on Hacker News on 2026-09-16 and drew 229 points and 22 comments as of 2026-09-20.
+New and already the most-discussed artifact in this category's week: the study surfaced on Hacker News on 2026-09-16 and drew 229 points and 22 comments as of 2026-09-21.
 The repository was created 2026-09-14 and pushed 2026-09-16, with 1 star, because the study page is the artifact and the code is just its vehicle.
 **The traction here is academic credibility rather than community adoption: Ion Stoica and Matei Zaharia anchor the author list, and the thread argued the findings instead of the provenance.**
 

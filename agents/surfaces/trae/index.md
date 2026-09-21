@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Trae is ByteDance's AI IDE, a closed-source VS Code fork with SOLO agent mode and TraeWork cloud tasks, priced from free to $200/month.
-Facts below verified as of 2026-09-20.
+Facts below verified as of 2026-09-21.
 
 **Trae's September 2026 repricing roughly doubled every paid tier and erased the price edge that justified the telemetry trade, so the decision is now purely about whether your code can live inside that trade.**
 
@@ -24,8 +24,8 @@ Enterprise sales run through BytePlus, ByteDance's enterprise arm.
 ## Status
 
 **Active.**
-Launched January 2025, shipping continuously since, with a free tier plus a three-run paid ladder after the September 2026 repricing and enterprise availability via BytePlus, as of 2026-09-20.
-The open-source sidecar went quiet: trae-agent's last commit landed February 5, 2026, with no tagged release ever published, as of 2026-09-20.
+Launched January 2025, shipping continuously since, with a free tier plus a three-run paid ladder after the September 2026 repricing and enterprise availability via BytePlus, as of 2026-09-21.
+The open-source sidecar went quiet: trae-agent's last commit landed February 5, 2026, with no tagged release ever published, as of 2026-09-21.
 The July 2025 telemetry analysis thread kept it in the discussion, not always favorably.
 
 ## Strengths
@@ -45,7 +45,7 @@ The July 2025 telemetry analysis thread kept it in the discussion, not always fa
 ## Pricing
 
 Free: 5,000 autocompletions a month, limited usage, 2 concurrent cloud tasks.
-Pro $20/month ($20 usage, unlimited autocomplete, 10 tasks), Pro+ $60/month ($60 usage, 15 tasks), Ultra $200/month ($200 usage, 20 tasks, model early access), as of 2026-09-20.
+Pro $20/month ($20 usage, unlimited autocomplete, 10 tasks), Pro+ $60/month ($60 usage, 15 tasks), Ultra $200/month ($200 usage, 20 tasks, model early access), as of 2026-09-21.
 A September 2026 repricing roughly doubled every paid tier and dropped the $3 Lite tier; as of 2026-09-16 the ladder was Lite $3 ($5 usage), Pro $10 ($20 usage, 10 tasks), Pro+ $30, Ultra $100.
 
 ## Price history
@@ -82,7 +82,7 @@ Not for proprietary or regulated codebases, full stop.
 ## References
 
 - https://www.trae.ai/ - product and download entry point
-- https://www.trae.ai/pricing - tiers, usage dollars, cloud task concurrency, as of 2026-09-20
-- https://github.com/bytedance/trae-agent - the MIT-licensed agent framework, last commit February 5, 2026, about 12k stars as of 2026-09-20
+- https://www.trae.ai/pricing - tiers, usage dollars, cloud task concurrency, as of 2026-09-21
+- https://github.com/bytedance/trae-agent - the MIT-licensed agent framework, last commit February 5, 2026, about 12k stars as of 2026-09-21
 - https://news.ycombinator.com/item?id=44703164 - the independent performance and telemetry analysis
 - https://news.ycombinator.com/item?id=42811502 - the January 2025 launch thread

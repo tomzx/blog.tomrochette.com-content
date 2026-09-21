@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 OpenSandbox is a general-purpose, Apache-2.0 sandbox platform for AI applications under the opensandbox-group GitHub organization, offering multi-language SDKs, a CLI, an MCP server, and Docker and Kubernetes runtimes for coding agents, GUI agents, evaluations, code execution, and RL training.
-Facts below verified as of 2026-09-18.
+Facts below verified as of 2026-09-21.
 
 ## What it is
 
@@ -23,7 +23,7 @@ An ingress gateway with per-sandbox egress controls handles network policy, a Cr
 ## Status
 
 **Very active and exceptionally fast-growing for a nine-month-old repo, with traction that is vendor-driven rather than organic Hacker News adoption.**
-15,386 stars and 1,407 forks as of 2026-09-18, repo created 2025-12-17, pushed the day of verification, latest release server/v0.2.3 on 2026-08-26.
+15,434 stars and 1,417 forks as of 2026-09-21, repo created 2025-12-17, pushed 2026-09-21, latest release server/v0.2.3 on 2026-08-26.
 The current organization was created 2026-06-04 as part of the transfer out of Alibaba.
 Hacker News is conspicuously absent: the threads are a 2-pointer from March 2026 linking the pre-transfer alibaba URL, a 1-pointer to the website, and a 4-pointer whose title borrows OpenSandbox's tagline but whose URL points at a competitor's repo (a submission error), while a 4-point January "Show HN: Open Sandbox" is an unrelated same-name project.
 

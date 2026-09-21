@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 This matrix compares the seven members of the Evaluation and review category: the pytest-style eval framework, two public harness benchmarks (the vendor-run FrontierHarness Eval and the academic HarnessTax), two observability and evaluation platforms (Langfuse and Phoenix), the human annotation surface, and the agent-driven local debugger.
-Everything below was re-verified against the refreshed member notes and live sources on 2026-09-20.
+Everything below was re-verified against the refreshed member notes and live sources on 2026-09-21.
 The hybrid machine reviewer that used to sit here, OpenCodeReview, moved to the Code review category when this matrix was created, on 2026-08-30.
 
 **The category divides on who judges: the agent itself (Workshop), a metric suite (deepeval), an observability platform's judges (Langfuse, Phoenix), a human (Plannotator), or a fixed public benchmark's official evaluator (FrontierHarness Eval, HarnessTax), and mature teams run more than one column at once.**

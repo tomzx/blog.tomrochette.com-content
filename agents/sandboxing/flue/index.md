@@ -1,7 +1,7 @@
 ---
 title: Flue
 created: 2026-08-30
-updated: 2026-09-18
+updated: 2026-09-21
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, sandboxing, agent-frameworks, typescript, open-source]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Flue is the Astro team's open-source TypeScript agent framework, pitched as the sandbox agent framework, where agents are React-style hook functions that run against pluggable sandboxes, from an in-memory virtual shell to remote provider VMs, with durable sessions that survive crashes and redeploys.
-Facts below verified as of 2026-09-18.
+Facts below verified as of 2026-09-21.
 
 **Flue's contribution to this category is a taxonomy, not a boundary: a documented three-tier sandbox model (virtual, local, remote) that names the trade every agent builder was making implicitly, and it will consume a sandbox like [OpenShell](../openshell/index.md) rather than replace one.**
 
@@ -25,8 +25,8 @@ Made by the Astro Technology Company team under Fred Schott, acquired by Cloudfl
 
 ## Status
 
-Young and fast: 8,274 stars, 496 forks, 35 open issues and PRs as of 2026-09-18, created 2026-02-07, 1,110 commits.
-Flue 2.0 (2026-07-31) is the first stable release after a ground-up hooks rewrite; npm `@flue/runtime` 2.0.8 on 2026-09-16 is the current package, with GitHub releases live (latest @flue/cli@2.0.8, also 2026-09-16) and git tags at v2.0.6.
+Young and fast: 8,327 stars, 498 forks, 35 open issues and PRs as of 2026-09-21, created 2026-02-07, 1,110 commits.
+Flue 2.0 (2026-07-31) is the first stable release after a ground-up hooks rewrite; npm `@flue/runtime` 2.1.0 is the current package, with the GitHub release latest at @flue/cli@2.1.0 (both 2026-09-18) and git tags still at v2.0.6.
 **The single-author concentration is stark, about 98 percent of commits, and the API was rebuilt within six months of going public.**
 
 ## Strengths
@@ -64,6 +64,7 @@ Not for anyone needing the framework itself to be the security boundary, or bett
 - 2026-08-30 - Created in the Sandboxing category seed, with the three-tier sandbox taxonomy and single-author risk recorded.
 - 2026-09-16 - Release train moved: npm @flue/runtime to 2.0.7 (2026-09-15), GitHub releases now live with @flue/cli@2.0.7 latest, tags at v2.0.6, open issues and PRs down from 57 to 41.
 - 2026-09-18 - Release train moved again: npm @flue/runtime and the GitHub releases latest both at 2.0.8 (2026-09-16), git tags still at v2.0.6, open issues and PRs down from 41 to 35.
+- 2026-09-21 - Release train moved again: npm @flue/runtime and the GitHub releases latest both at 2.1.0 (2026-09-18), git tags still at v2.0.6.
 
 ## See also
 

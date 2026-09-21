@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 agents-observe is an MIT-licensed real-time observability dashboard for Claude Code and Codex sessions: a Claude Code plugin whose hooks stream every agent event to a local Dockerized server that feeds a live web dashboard with multi-agent trees, replay, and token and cost breakdowns.
-Facts below verified as of 2026-09-20.
+Facts below verified as of 2026-09-21.
 
 **agents-observe is the live half of session analytics: it watches the hook stream while your agents run, where the category's other tools only parse what the agents already wrote to disk.**
 
@@ -24,7 +24,7 @@ Made by simple10, an independent developer, under MIT.
 
 ## Status
 
-Young and active: 677 stars, 68 forks, created 2026-03-26, pushed 2026-09-04, latest release v0.9.12 on 2026-07-22 as of 2026-09-20.
+Young and active: 679 stars, 68 forks, created 2026-03-26, pushed 2026-09-04, latest release v0.9.12 on 2026-07-22 as of 2026-09-21.
 Launched on Hacker News on 2026-04-01 with 77 points.
 **A single-maintainer project that found a real gap (live multi-agent visibility) and a real audience, but it is pre-1.0 with months between releases.**
 
@@ -71,7 +71,7 @@ Not for multi-harness archive analytics, code provenance, or anyone unwilling to
 
 ## References
 
-- https://github.com/simple10/agents-observe - repository, description, MIT license, stars and forks as of 2026-09-20
+- https://github.com/simple10/agents-observe - repository, description, MIT license, stars and forks as of 2026-09-21
 - https://raw.githubusercontent.com/simple10/agents-observe/main/README.md - architecture, plugin install, prerequisites, skills, token and cost breakdowns
 - https://github.com/simple10/agents-observe/releases - v0.9.12 release date
 - https://news.ycombinator.com/item?id=47602986 - the launch thread, 77 points on 2026-04-01

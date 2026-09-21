@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Mem0 is a hosted and self-hostable memory layer for AI agents: it extracts facts from conversations, stores them across vector, graph, and key-value backends, and retrieves the relevant slice into context on demand.
-Facts below verified as of 2026-09-20.
+Facts below verified as of 2026-09-21.
 
 **Mem0 has the widest adoption of any dedicated memory product, and its benchmark numbers are the part I trust least.**
 
@@ -26,7 +26,7 @@ The company (YC S24) was founded by Taranjeet Singh and Deshraj Yadav, previousl
 ## Status
 
 **Active and the adoption leader.**
-The repository shows about 65.6k stars and 2,631 commits as of 2026-09-18.
+The repository shows about 65.7k stars and 2,640 commits as of 2026-09-21.
 TechCrunch reported a $24M round (a $3.9M seed plus a $20M Series A led by Basis Set Ventures, with Peak XV and the GitHub Fund) in October 2025, 186M API calls in Q3 2025, and exclusive-memory-provider status for AWS's Agent SDK.
 The site claims 150,000+ developers.
 The 2024 Show HN drew 201 points and 61 comments, though moderators flagged booster comments in that thread.
@@ -48,7 +48,7 @@ The 2024 Show HN drew 201 points and 61 comments, though moderators flagged boos
 ## Pricing
 
 Hobby (free) tier: 10,000 add and 1,000 retrieval requests per month.
-Starter $19/month, Pro $249/month (graph memory and Dream land at Pro), Enterprise custom with on-prem and SSO, as of 2026-09-18.
+Starter $19/month, Pro $249/month (graph memory and Dream land at Pro), Enterprise custom with on-prem and SSO, as of 2026-09-21.
 **The OSS SDK is free but the benchmarked brain is the paid platform, which is the real price of the headline numbers.**
 
 ## Price history

@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Grok Build (`grok`) is SpaceXAI's (xAI's) open-source Rust terminal coding agent, a full-screen mouse-interactive TUI that understands your codebase, edits files, runs shell commands, searches the web, and manages long-running tasks, interactively, headlessly, or embedded in editors.
-Facts below verified as of 2026-09-20.
+Facts below verified as of 2026-09-21.
 
 **No harness in this section iterates faster, and none asks for more trust: the Apache-2.0 client ships through vendor channels that bypass the repository entirely, on a default auth path that a wire-level analysis caught uploading whole repositories to xAI infrastructure.**
 
@@ -24,8 +24,8 @@ The third-party notices disclose in-tree source ports of openai/codex and sst/op
 
 ## Status
 
-Active and extremely fast-moving: 26,829 stars and 5,049 forks as of 2026-09-18, roughly nine weeks after the repo was created on 2026-07-14, last pushed 2026-09-17.
-The changelog listed v1.0.30 as current as of 2026-09-11, with 138 releases logged between May 17 and September 9, and the npm distribution (@xai-official/grok, 218,625 downloads in the last month) confirms the roughly one-per-day cadence continues, with the latest stable tag at v1.0.34 (published 2026-09-16) and the alpha channel at v1.0.38 as of 2026-09-20.
+Active and extremely fast-moving: 26,942 stars and 5,080 forks as of 2026-09-21, roughly nine weeks after the repo was created on 2026-07-14, last pushed 2026-09-19.
+The changelog listed v1.0.30 as current as of 2026-09-11, with 138 releases logged between May 17 and September 9, and the npm distribution (@xai-official/grok, 219,305 downloads in the last month) confirms the roughly one-per-day cadence continues, with the stable and alpha dist-tags both at v1.0.40 (published 2026-09-20) as of 2026-09-21.
 There are no GitHub releases or tags (both API endpoints return empty arrays), so binaries ship from the install script at x.ai/cli, which pulls versioned binaries from a Cloudflare-fronted URL with a Google Cloud Storage fallback across stable, alpha, and enterprise channels; the docs also document `npm install -g @xai-official/grok` as the alternative that needs neither host.
 The HN footprint is heavy for a nine-week-old tool: a 100-point preview thread in May 2026, the wire-level analysis at 539 points on July 12, a 100-point follow-up on July 13 reporting the repo-upload behavior persisted under retest, and the open-source announcement at 590 points and 643 comments on July 15.
 I read the open-sourcing as reputational triage: top comments on the launch thread explicitly connect it to the privacy upset three days earlier.
@@ -85,7 +85,7 @@ I would not standardize on it while the default data path concentrates your code
 
 ## References
 
-- https://github.com/xai-org/grok-build - repository state, Apache-2.0 license, 26,829 stars and 5,049 forks as of 2026-09-18 (verified via the GitHub API)
+- https://github.com/xai-org/grok-build - repository state, Apache-2.0 license, 26,942 stars and 5,080 forks as of 2026-09-21 (verified via the GitHub API)
 - https://raw.githubusercontent.com/xai-org/grok-build/main/README.md - monorepo sync with SOURCE_REV, no external contributions, install commands, codex/opencode ports
 - https://docs.x.ai/build/overview - TUI, headless mode, ACP, authentication, custom models, grok-4.6 as the powering model
 - https://x.ai/cli/install.sh - channel-based binary distribution, GCS fallback, supported platforms, approximate binary size
@@ -93,8 +93,8 @@ I would not standardize on it while the default data path concentrates your code
 - https://docs.x.ai/build/enterprise - the four auth methods, required network hosts, data lifecycle, ZDR, and telemetry pinning
 - https://docs.x.ai/developers/pricing - grok-4.6 and grok-build-0.1 API prices as of 2026-09-13
 - https://docs.x.ai/build/features/sandbox - Landlock/Seatbelt profiles and the off-by-default posture
-- https://registry.npmjs.org/@xai-official/grok - the npm distribution's version history grounding v1.0.34 published 2026-09-16 (verified via the registry API)
-- https://api.npmjs.org/downloads/point/last-month/@xai-official/grok - 218,625 downloads in the last month as of 2026-09-20
+- https://registry.npmjs.org/@xai-official/grok - the npm distribution's version history grounding v1.0.40 published 2026-09-20 (verified via the registry API)
+- https://api.npmjs.org/downloads/point/last-month/@xai-official/grok - 219,305 downloads in the last month as of 2026-09-21
 - https://hn.algolia.com/api/v1/items/48877371 - the wire-level analysis thread, 539 points, 2026-07-12
 - https://hn.algolia.com/api/v1/items/48896493 - the GCS upload follow-up thread, 100 points, 2026-07-13
 - https://hn.algolia.com/api/v1/items/48926590 - the open-source launch thread, 590 points and 643 comments, 2026-07-15

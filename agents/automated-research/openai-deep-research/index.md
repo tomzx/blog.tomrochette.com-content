@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Deep Research is OpenAI's ChatGPT agent that autonomously browses the web for five to thirty minutes and returns a cited report, making it the mass-market version of the automated research loop.
-Facts below verified as of 2026-09-20.
+Facts below verified as of 2026-09-21.
 
 **Deep Research is the breadth-first half of automated research, and its failure mode is exactly the one that matters: fluent synthesis with no verifier behind it, so the human stays the judge.**
 
@@ -64,7 +64,7 @@ At launch, Pro ($200/month) got 100 queries per month; the June 2025 published t
 
 ## Bottom line
 
-**Recommended for scoped literature recon where you will verify the load-bearing claims yourself anyway.**
+**Recommended for scoped literature recon where you will verify the central claims yourself anyway.**
 Not as a source of established fact: treat every report as a hypothesis list with references, as of 2026-09-18.
 
 ## Changes

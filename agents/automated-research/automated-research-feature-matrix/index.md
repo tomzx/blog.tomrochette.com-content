@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 **Seven loops automate research today, and the row that separates them is not capability but judging: everything with a Lean kernel or an official grader behind it produces checkable artifacts, everything without one produces prose, and the newest column is the outlier judged by a bank account.**
-Verified as of 2026-09-20.
+Verified as of 2026-09-21.
 Every cell traces to its member note and that note's fetched references.
 
 ## The matrix

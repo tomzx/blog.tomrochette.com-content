@@ -12,7 +12,7 @@ audience_notes: >
 ---
 
 Conductor is a macOS app for running parallel coding-agent sessions (Claude Code, Codex, Cursor, OpenCode), each isolated in its own git worktree, with built-in diff review, checks, and PR flow.
-Facts below verified as of 2026-09-20.
+Facts below verified as of 2026-09-21.
 
 **It is the best-funded and most polished of the Mac worktree dashboards, and its friction-removing defaults, chiefly granting agents all permissions, are precisely the thing you must not forget.**
 
@@ -48,7 +48,7 @@ The team behind cmd joined in April 2026.
 
 Free for local, unlimited parallel agents with your own keys and subscriptions.
 Pro at $50/month adds cloud workspace hours, multiplayer, and the API; Teams at $60/user/month adds admin and billing; Enterprise is custom.
-Usage-based pricing for cloud compute is planned but not charged yet as of 2026-09-18.
+Usage-based pricing for cloud compute is planned but not charged yet as of 2026-09-21.
 
 ## Price history
 
@@ -88,6 +88,6 @@ My disagreeable claim: Conductor Cloud, not the local worktree manager, is the r
 - https://conductor.build/docs - workspace, workflow, and parallel-agent model
 - https://conductor.build/pricing/ - tiers, cloud sandbox specs, local vs cloud privacy terms
 - https://conductor.build/blog/series-a - $22M Series A and growth claims
-- https://conductor.build/changelog - release cadence through 0.86.1
+- https://conductor.build/changelog - release cadence through 0.87.0
 - https://news.ycombinator.com/item?id=44594584 - launch thread including OAuth and sandbox discussion
 - https://news.ycombinator.com/item?id=47256614 - the sandbox-escape report under Conductor defaults

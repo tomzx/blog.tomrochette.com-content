@@ -12,7 +12,7 @@ audience_notes: >
 
 Happy Coder is an MIT-licensed open-source client that wraps Claude Code and Codex sessions on your machine and syncs them end-to-end encrypted to native iOS, Android, macOS, and web apps.
 **It passed 23k stars as a thin wrapper around two harnesses, second only to cmux among the category's maintained tools, which says the phone screen, not the orchestrator, is what people install.**
-Facts below verified as of 2026-09-20.
+Facts below verified as of 2026-09-21.
 
 ## What it is
 
@@ -23,10 +23,10 @@ The README describes the makers as a community of engineers building for themsel
 
 ## Status
 
-Active and second only to cmux among maintained category tools on stars: 23,842 GitHub stars as of 2026-09-20 (the orphaned Vibe Kanban repo holds more, about 28k, but has shipped nothing since April), created July 2025, last pushed 2026-09-20.
+Active and second only to cmux among maintained category tools on stars: 23,854 GitHub stars as of 2026-09-21 (the orphaned Vibe Kanban repo holds more, about 28k, but has shipped nothing since April), created July 2025, last pushed 2026-09-21.
 The latest stable CLI release, cli-1.2.4, shipped 2026-09-13, with cli-1.2.5 betas following through 2026-09-20.
 Its August 2025 Show HN drew only 30 points, so the star count is bottom-up adoption rather than press traction.
-For scale, Paseo, the category's other mobile-first entrant, reports 17.7k stars against Happy's 23.8k.
+For scale, Paseo, the category's other mobile-first entrant, reports about 17.9k stars against Happy's 23.9k.
 
 ## Strengths
 
@@ -76,7 +76,7 @@ Not for multi-provider orchestration, worktree isolation, or Windows and Linux d
 
 ## References
 
-- https://github.com/slopus/happy - repository, 23,842 stars, MIT license, monorepo components, team description (GitHub API, 2026-09-20)
+- https://github.com/slopus/happy - repository, 23,854 stars, MIT license, monorepo components, team description (GitHub API, 2026-09-21)
 - https://happy.engineering/ - official site and product framing
 - https://github.com/slopus/happy/releases - cli-1.2.4 published 2026-09-13, cli-1.2.5 betas on 2026-09-14 (GitHub API)
 - https://news.ycombinator.com/item?id=44904039 - August 2025 Show HN, 30 points, the donation-IAP question and Windows sync bugs (Algolia-verified)

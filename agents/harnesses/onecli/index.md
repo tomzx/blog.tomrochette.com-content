@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 OneCLI is an open-source YC S26 agent harness for teams that gives every employee a sandboxed personal agent whose tool calls pass through a credential-injecting gateway, so no agent ever holds a real secret.
-Facts below verified as of 2026-09-20.
+Facts below verified as of 2026-09-21.
 
 **OneCLI's bet is that enforcement belongs outside the model at the network layer, and after pivoting from vault to team harness it is the only entry in this section built for the security buyer first and the engineer second.**
 
@@ -26,7 +26,7 @@ The Launch HN title calls it an "OSS sandboxed agent harness for teams", and tha
 ## Status
 
 Very active: v2.6.0 released September 8, 2026, five days after v2.5.0 on September 3, which itself followed v2.4.0, v2.3.1, and v2.3.0.
-3,493 stars and 228 forks as of 2026-09-18, on a repository created March 8, 2026.
+3,496 stars and 232 forks as of 2026-09-21, on a repository created March 8, 2026.
 Three Hacker News threads of record: 161 points for the vault (March 12), 110 for the credential gateway (July 23), and 88 for the YC launch (August 19).
 YC S26, San Francisco, founded by Jonathan Fishner (CEO) and Guy Ben Aharon (CTO).
 In its vault era it was adopted by NanoClaw, per the NanoClaw note in this section.

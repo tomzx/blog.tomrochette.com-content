@@ -11,21 +11,21 @@ audience_notes: >
 ---
 
 OpenHands is the open-source (MIT) AI software development platform from All Hands AI: sandboxed agent conversations with code, shell, and browser access, runnable locally, in their cloud, or in your VPC.
-Facts below verified as of 2026-09-20.
+Facts below verified as of 2026-09-21.
 
 **OpenHands is the field's largest open bet on the platform camp of agentic development, and its architecture has just re-centered on a server-client split that demotes the local GUI and CLI to legacy.**
 
 ## What it is
 
 The project paper describes an open platform for AI software developers as generalist agents, built around conversations that can edit files, run commands, and drive a browser inside sandboxes.
-It began as OpenDevin in March 2024 and was renamed OpenHands mid-development; the repository now lives at the `OpenHands` organization with about 88.4k stars and 11.6k forks under MIT as of 2026-09-18.
+It began as OpenDevin in March 2024 and was renamed OpenHands mid-development; the repository now lives at the `OpenHands` organization with about 88.7k stars and 11.7k forks under MIT as of 2026-09-21.
 Today's component map per the docs is Agent Canvas (the open-source browser client), an Agent Server backend plus Software Agent SDK, OpenHands Cloud, Enterprise, and a Sandbox Server.
 **The docs place the old Local GUI and CLI in their Legacy section, the Local GUI explicitly deprecated**, and one unusual flex stands out: Agent Canvas can host Claude Code, Codex, or Gemini CLI as ACP agents instead of its own loop.
 
 ## Status
 
 **Active and venture-funded.**
-Latest tagged release v1.20.0 shipped September 17, 2026, and the default branch was pushed 2026-09-18.
+Latest tagged release v1.20.0 shipped September 17, 2026, and the default branch was pushed 2026-09-21.
 All Hands AI raised $18.8M in a Series A led by Madrona on November 18, 2025, alongside a collaboration with AMD on locally-run agents.
 
 ## Strengths
@@ -73,7 +73,7 @@ Not for someone who wants a zero-migration, opinionated coding workflow today, b
 
 ## References
 
-- https://github.com/OpenHands/OpenHands - repository scale, license, release cadence as of 2026-09-18
+- https://github.com/OpenHands/OpenHands - repository scale, license, release cadence as of 2026-09-21
 - https://docs.openhands.dev/overview/introduction - component map, Agent Canvas over Agent Server, V0 deprecation
 - https://www.openhands.dev/pricing - Free OSS, Individual free tier, Enterprise custom tiers
 - https://www.openhands.dev/blog/weve-just-raised-18-8m-to-build-the-open-standard-for-autonomous-software-development - Series A details, November 18, 2025

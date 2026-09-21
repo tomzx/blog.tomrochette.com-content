@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Memoryfields is a portable file format for agent memory: a zip of flat Markdown pages with optional YAML frontmatter and an optional SQLite vector index, specified by Cal Paterson in August 2026.
-Facts below verified as of 2026-09-20.
+Facts below verified as of 2026-09-21.
 
 **Its thesis is that memory should be data, not a process, and the format is the argument, not the tooling.**
 
@@ -25,7 +25,7 @@ Tooling is minimal: memoryfield-tool, a Python CLI (AGPL-3.0, 40 stars), and mem
 ## Status
 
 **One high-traction essay, thin tooling adoption, draft spec.**
-The launch essay hit 191 points on Hacker News on 2026-08-31, while all three repositories together hold 98 stars as of 2026-09-18.
+The launch essay hit 191 points on Hacker News on 2026-08-31, while all three repositories together hold 98 stars as of 2026-09-21.
 The gap is the record: the format's traction is attention to its argument, not adoption of its artifacts.
 The spec is explicitly a draft soliciting review, and I found no independent implementation of it yet.
 

@@ -1,7 +1,7 @@
 ---
 title: "Spec Driven Development Feature Matrix"
 created: 2026-08-27
-updated: 2026-09-20
+updated: 2026-09-21
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, comparison, spec-driven-development, process, llm=glm-5.3-flash]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 This matrix compares the five spec-driven development tools profiled in this section, feature by feature.
-Everything below was re-verified against live sources on 2026-09-20.
+Everything below was re-verified against live sources on 2026-09-21.
 
 **The category splits on two axes: who owns the specs (your repo or a platform) and whether the ceremony sizes itself to the change, and the waterfall critique is the standing judge of the second axis, while the new column adds a third question, whether the steward survives their own controversy.**
 
@@ -31,7 +31,7 @@ Each column links to the full research note; every cell below traces to a source
 | Brownfield support | ✓ establish-context path | ~ not the primary case | ✓ `/gsd-onboard` for existing repos | ✓ explicit design goal | ? not verified |
 | Convergence checking | ✓ verify and learn loop | ✓ converge step | ✓ verify phase walks the build before done | ~ archive keeps ledger current | ? not verified |
 | Unattended execution | ✓ BMad Loop module | ✗ | ~ parallel executor waves, human verify step, gsd-loop works a GitHub queue | ✗ | ? not verified |
-| Adoption | about 53k stars | about 138k stars | original archived at 64.5k stars; successor 9.6k stars, 44.5k npm downloads a month | about 69k stars, 1.9M npm downloads a month | 24-point raise thread, thin OSS surface |
+| Adoption | about 53k stars | about 138k stars | original archived at 64.5k stars; successor 9.7k stars, 40.6k npm downloads a month | about 70k stars, 1.8M npm downloads a month | 24-point raise thread, thin OSS surface |
 | Pricing | free | free | free | free | free tier plus Team at $100 per month, Enterprise custom |
 
 ## Reading the matrix
@@ -59,6 +59,7 @@ If your changes are mostly small, that row alone picks your column.
 - 2026-08-27 - Rebuilt to four columns (BMad, OpenSpec, Spec Kit, Tessl) across the ownership and ceremony-sizing axes.
 - 2026-09-16 - Refreshed the Spec Kit adoption cell to about 137k stars after the v1.0.7 release.
 - 2026-09-16 - Extended from four to five columns with GSD (the archived get-shit-done lineage plus the active gsd-core successor), inserted alphabetically, every row gaining a cell, and the reading prose extended to the stewardship question.
+- 2026-09-21 - Refreshed the GSD and OpenSpec adoption cells after their star and npm-download counts moved.
 
 ## See also
 
@@ -76,7 +77,7 @@ If your changes are mostly small, that row alone picks your column.
 - https://www.tessl.io/blog/announcing-our-series-a-for-ai-native-software-development - the raise grounding the Tessl column
 - https://api.npmjs.org/downloads/point/last-month/@fission-ai/openspec - the OpenSpec install velocity
 - https://github.com/open-gsd/gsd-core - the successor loop, installer, and runtimes for the GSD column
-- https://api.github.com/repos/open-gsd/gsd-core - successor stars and dates as of 2026-09-18
+- https://api.github.com/repos/open-gsd/gsd-core - successor stars and dates as of 2026-09-21
 - https://api.github.com/repos/gsd-build/get-shit-done - the archived original, 64,514 stars
 - https://opengsd.net/origin - the origin credit acknowledging the broken chapter
 - https://blakewatson.com/journal/i-used-claude-code-and-gsd-to-build-the-accessibility-tool-ive-always-wanted/ - the 2026-07-31 update grounding the successor transition

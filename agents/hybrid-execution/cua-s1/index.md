@@ -1,7 +1,7 @@
 ---
 title: CUA-S1
 created: 2026-09-20
-updated: 2026-09-20
+updated: 2026-09-21
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, hybrid-execution, structured-outputs, computer-use, system-one-models, open-weights]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 CUA-S1 is Cua's research family of small, specialist "System One" models for computer use, and its first checkpoint, cua-s1-forms, is a 706,048-parameter open-weights scorer that assigns one probability to fill, check, click, or skip for each form element without generating any text.
-Facts below verified as of 2026-09-20.
+Facts below verified as of 2026-09-21.
 
 **This is the first open-weights take on the decision-model contract TypeSafe's Jev launched with: the same no-text-generation input/output deal, but 2.8 MB, MIT-licensed, and trained in public on synthetic forms data, which makes the category's core question, who can verify the numbers, suddenly answerable.**
 
@@ -25,9 +25,10 @@ It lives inside the trycua/cua monorepo (MIT) as a source component, with weight
 ## Status
 
 Early research artifact, days old, and unusually candid about it.
-The component README and model card still describe a source-only release whose checkpoint table reads "weights not distributed", while the main README and the checkpoint metadata point at the `cua-ai/cua-s1-forms` weights created on Hugging Face on 2026-09-18, a documentation wrinkle worth knowing before you cite either.
-The launch Show HN thread (2026-09-19) reached 75 points with 4 top-level comments, and the host repository shows 24,749 stars as of 2026-09-20, though nearly all of that is the surrounding Cua computer-use project, created 2025-01-31, not the model.
-The headline numbers are vendor-run and synthetic-only: 99.94% top-1 accuracy on a held-out 22,054-example synthetic split, ECE 0.000148, and 2,589 rows per second, all from the checkpoint's own metadata.
+The component README still describes a source-only release whose checkpoint table reads "weights not distributed", while the main README and the checkpoint metadata point at the `cua-ai/cua-s1-forms` weights created on Hugging Face on 2026-09-18, a documentation wrinkle worth knowing before you cite either.
+The launch Show HN thread (2026-09-19) reached 89 points as of 2026-09-21, and the host repository shows about 25,300 stars as of 2026-09-21, though nearly all of that is the surrounding Cua computer-use project, created 2025-01-31, not the model.
+The original headline numbers remain vendor-run and synthetic-only: 99.94% top-1 on a held-out 22,054-example synthetic split, ECE 0.000148, and 2,589 rows per second, all from the checkpoint's own metadata.
+The Hugging Face model card was materially expanded on 2026-09-21: the checkpoint now ships as a safetensors pair (the loader rejects pickled files by design), a first real-world demo eval landed (100% top-1 over 196 decisions on three real forms and three real PDFs, plus a 37% shuffled-context control), and a zero-fine-tuning head-to-head against the hosted Jev API scored 99.7% for this model against 83.6% for Jev, with the card conceding Jev was never trained on this project's no-op labeling convention.
 
 ## Strengths
 
@@ -38,7 +39,7 @@ The headline numbers are vendor-run and synthetic-only: 99.94% top-1 accuracy on
 
 ## Cautions
 
-- **Every performance number is vendor-run on synthetic forms; the model card itself states that no checkpoint performance claim is established by the release and warns that specialist models overfit their evaluation distribution.**
+- **The performance evidence is still vendor-run: synthetic-only at launch, now extended with a 196-decision real eval and a Jev head-to-head published on the model card itself, but no independent party has re-run any of it, and the model card still warns that specialist models overfit their evaluation distribution.**
 - Scope is one profile, form filling over `Label: value` documents, on a 706k-parameter model: it is a research checkpoint, not a computer-use agent, and there is no evidence yet of transfer to real interface variation.
 - The Show HN thread's sharpest question, whether the Jev nod implies RLCD training, went unanswered, and "System One" is by the project's own admission an engineering analogy, not an architecture class.
 - Downloads sit near zero and the API surface is days old, with the model card reserving the right to license future checkpoints separately for commercial production use.
@@ -63,6 +64,7 @@ The disagreeable claim I will defend: a 706k-parameter model trained in public o
 ## Changes
 
 - 2026-09-20 - Created from the entrant scan after the 2026-09-19 Show HN launch.
+- 2026-09-21 - Recorded the expanded Hugging Face model card: safetensors checkpoint format, a first real-world eval (196 decisions, 100% top-1, 37% shuffled-context control), and a head-to-head against hosted Jev (99.7% versus 83.6%); refreshed thread (89 points) and repository (about 25,300 stars) counts.
 
 ## See also
 
@@ -76,7 +78,7 @@ The disagreeable claim I will defend: a 706k-parameter model trained in public o
 - https://github.com/trycua/cua - host repository: 24,749 stars, MIT, created 2025-01-31, CUA-S1 announced in the main README (GitHub API, as of 2026-09-20)
 - https://github.com/trycua/cua/tree/main/libs/cua-s1 - component README: source-only framing, checkpoint table, safety boundary, MCP server caveats
 - https://github.com/trycua/cua/blob/main/libs/cua-s1/MODEL_CARD.md - model card: tinyx byte-level encoder, option-attention head, synthetic-only evaluation, licensing caveat
-- https://huggingface.co/cua-ai/cua-s1-forms - weights: MIT, created 2026-09-18, 706,048 parameters, 2.8 MB checkpoint, 60 likes and near-zero downloads as of 2026-09-20
+- https://huggingface.co/cua-ai/cua-s1-forms - weights: MIT, created 2026-09-18, 706,048 parameters, 85 likes as of 2026-09-21, now shipping a safetensors pair alongside the original pickle
 - https://huggingface.co/cua-ai/cua-s1-forms/raw/main/cua-s1-forms.json - checkpoint config and best-validation metrics (top1 0.9994, ECE 0.000148, 2,589 rows/s, source checkpoint jevform-best.pt)
 - https://news.ycombinator.com/item?id=49767564 - the Show HN thread (75 points, 4 top-level comments, 2026-09-19), including the unanswered RLCD question
 - https://github.com/trycua/cua/blob/main/libs/cua-s1/SECURITY.md - deployment threat model and least-privilege guidance

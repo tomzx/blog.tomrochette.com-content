@@ -12,7 +12,7 @@ audience_notes: >
 ---
 
 Cline is an open-source (Apache-2.0) coding agent from Cline Bot Inc. that began as a VS Code extension and now ships a CLI, a JetBrains plugin, a web-based kanban board, and an SDK off one runtime.
-Facts below verified as of 2026-09-20.
+Facts below verified as of 2026-09-21.
 
 **Cline is proof that the IDE-extension generation grew up into a full harness: about 5.3 million installs on the strength of one extension, and the closest thing to a vendor-neutral default inside VS Code.**
 
@@ -28,8 +28,8 @@ Any provider works: Anthropic, OpenAI, Google, OpenRouter, Bedrock, Azure, Verte
 ## Status
 
 **Active and large.**
-The repository shows about 68.6k stars and 7.4k forks as of 2026-09-18, with 250+ contributors and an Apache-2.0 license held by Cline Bot Inc.
-The VS Code Marketplace page shows 5,386,010 installs and a 4.1/5 average rating as of 2026-09-20; the product site claims 11M+ installs across the marketplace and Open VSX.
+The repository shows about 68.9k stars and 7.5k forks as of 2026-09-21, with 250+ contributors and an Apache-2.0 license held by Cline Bot Inc.
+The VS Code Marketplace page shows 5,396,407 installs and a 4.1/5 average rating as of 2026-09-21; the product site claims 11M+ installs across the marketplace and Open VSX.
 The project started as the "Claude Dev" extension in late 2024 and has been renamed and corporatized since.
 
 ## Strengths
@@ -88,7 +88,7 @@ Not for teams that require every client binary open or a coding-agnostic automat
 
 ## References
 
-- https://github.com/cline/cline - surfaces, rules, SDK, license, repository scale as of 2026-09-18
+- https://github.com/cline/cline - surfaces, rules, SDK, license, repository scale as of 2026-09-21
 - https://cline.bot/ - product overview, install and star claims
 - https://cline.bot/pricing - free core, usage billing, enterprise tiers
 - https://cline.bot/cline-pass - the open-weights subscription and its labs

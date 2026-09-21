@@ -12,7 +12,7 @@ audience_notes: >
 ---
 
 Semble is a MIT-licensed local code search tool built for coding agents: it chunks a repository along syntax boundaries, indexes it with static Model2Vec embeddings plus BM25, and answers natural-language queries with only the relevant snippets.
-Facts below verified as of 2026-09-20.
+Facts below verified as of 2026-09-21.
 
 **Semble's bet is that a code-specialized index small enough to run in under a second on any CPU can replace the most expensive thing an agent does, which is grep-failing its way through full-file reads.**
 
@@ -27,8 +27,8 @@ It is built by MinishLab, the two-person team (Stephan and Thomas, per the launc
 ## Status
 
 **Young, active, and unusually well received for a search tool.**
-6,112 stars and 269 forks since the repo appeared on 2026-04-06, with the last push 2026-09-18 and v0.6.0 released 2026-09-11 (GitHub API, as of 2026-09-20).
-82,697 PyPI downloads in the trailing month (PyPIstats, as of 2026-09-20).
+6,116 stars and 269 forks since the repo appeared on 2026-04-06, with the last push 2026-09-18 and v0.6.0 released 2026-09-11 (GitHub API, as of 2026-09-21).
+81,094 PyPI downloads in the trailing month (PyPIstats, as of 2026-09-21).
 The launch Show HN (May 17, 2026) drew 445 points and 151 comments, on top of two quiet warm-up threads in April; a third-party VS Code extension appeared in August, which is the usual early-ecosystem signal.
 
 ## Strengths
@@ -76,9 +76,9 @@ Not for small repos where a Repomix pack or plain grep is already enough, and no
 
 ## References
 
-- https://github.com/MinishLab/semble - repo, README (architecture, installer, CLI, MCP, savings counter), stars and activity as of 2026-09-20
+- https://github.com/MinishLab/semble - repo, README (architecture, installer, CLI, MCP, savings counter), stars and activity as of 2026-09-21
 - https://news.ycombinator.com/item?id=48169874 - the 445-point launch thread, including the founders' no-agent-level-claim statement and the baseline criticisms (verified via the Algolia items API)
 - https://pypi.org/project/semble/ - the package surface
-- https://pypistats.org/api/packages/semble/recent - 82,697 downloads in the trailing month as of 2026-09-20
+- https://pypistats.org/api/packages/semble/recent - 81,094 downloads in the trailing month as of 2026-09-21
 - https://huggingface.co/minishlab/potion-code-16M-v2 - the embedding model the index runs on
 - https://github.com/MinishLab/semble/blob/main/benchmarks/README.md - benchmark methodology, NDCG@10, and the token-efficiency setup

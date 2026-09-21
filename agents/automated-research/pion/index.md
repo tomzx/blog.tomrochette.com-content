@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Pion is Andon Labs' proprietary cloud platform where persistent agents run a business continuously and autonomously, provisioned with terminal, browser, email, phone, banking, and card tools under a managing agent called Andonos, announced 2026-09-14 as a research preview with a waitlist and no public code.
-Facts below verified as of 2026-09-20.
+Facts below verified as of 2026-09-21.
 
 **Pion is the Vending-Bench and Project Vend lineage made product: a capability-research instrument that happens to be a platform, and the launch thread's own contradiction, calling autonomous resource acquisition the most troubling capability while releasing exactly that, is the sharpest public statement of the tension this category carries.**
 

@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 This matrix compares the eight memory approaches profiled in this section, feature by feature: the file convention, the session-compression plugin, the cross-model episodic memory engine, the memory-first harness, the two memory APIs, the self-hostable graph pipeline, and the portable memory format.
-Everything below was re-verified against live sources on 2026-09-20, with the Cognee column first verified 2026-08-26, the Memoryfields column first verified 2026-09-04, and the Engrim column first verified 2026-09-10.
+Everything below was re-verified against live sources on 2026-09-21, with the Cognee column first verified 2026-08-26, the Memoryfields column first verified 2026-09-04, and the Engrim column first verified 2026-09-10.
 
 **For coding agents I would start with plain files and not buy any service on benchmark claims, because the only memory problem files cannot solve at any price is contradiction over time, and Zep is the only vendor whose architecture faces it head on.**
 
@@ -100,7 +100,7 @@ Mem0's $19 Starter undercuts everyone; Zep's credit metering prices the audit tr
 - https://claude-mem.ai - claude-mem pricing tiers for the pricing row
 - https://calpaterson.com/memoryfields.html - the Memoryfields column: format thesis, design decisions, objections FAQ
 - https://github.com/calpaterson/memoryfield-spec/blob/main/SPEC.md - the Memoryfields spec: flat directories, page limits, transports, embedding codes
-- https://github.com/timgordontg/engrim - the Engrim column: repo, MIT, 278 stars, 81 commits, release cadence (as of 2026-09-18)
+- https://github.com/timgordontg/engrim - the Engrim column: repo, MIT, 281 stars, 84 commits, release cadence (as of 2026-09-21)
 - https://raw.githubusercontent.com/timgordontg/engrim/main/README.md - Engrim architecture, provenance, CLI surface, and security notes
 - https://pypi.org/pypi/engrim/json - Engrim release history and license for the Engrim column
 - https://hn.algolia.com/api/v1/items/49594008 - the Engrim launch thread: traction and the in-repo-docs counterpoint

@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 claude-mem is an open-source Apache-2.0 plugin that gives coding agents persistent cross-session memory by capturing session activity through lifecycle hooks, compressing it into observations with LLM calls, storing them in local SQLite, and injecting relevant context back into future sessions.
-Facts below verified as of 2026-09-20.
+Facts below verified as of 2026-09-21.
 
 **claude-mem is the strongest evidence yet that session memory has crossed from experiment to default expectation, and its cost model is the field's open question: it captures everything and pays your tokens to compress it.**
 
@@ -25,8 +25,8 @@ Made by Alex Newman (thedotmack), a solo author in the Vercel OSS Program, with 
 
 ## Status
 
-Very large and fast: about 94.2k stars, 8.3k forks, and 210 open issues and pull requests as of 2026-09-18, with 78,827 npm downloads in the last month.
-Created 2025-08-31, pushed 2026-09-18, latest tagged release v13.24.23 on 2026-09-11, while npm still leads at 13.25.1 (published 2026-09-16) without a matching GitHub release.
+Very large and fast: about 94.4k stars, 8.3k forks, and 244 open issues and pull requests as of 2026-09-21, with 71,801 npm downloads in the last month.
+Created 2025-08-31, pushed 2026-09-20, latest tagged release v13.24.23 on 2026-09-11, while npm still leads at 13.25.1 (published 2026-09-16) without a matching GitHub release.
 The README now brands the project Grok Mem (the package is still `claude-mem`), and v13.24.0 shipped it as two independent Cursor and Grok Bot marketplace plugins alongside the Claude Code install path.
 **The v13.x version line tells you the churn rate: near-daily releases with major-version jumps, which is velocity and breakage risk in the same number.**
 

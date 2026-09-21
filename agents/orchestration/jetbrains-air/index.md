@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 JetBrains Air is a standalone desktop (and organization-web) application from JetBrains that runs Codex, Claude Agent, Gemini CLI, and Junie as independent parallel task loops, each isolated in a git worktree, Docker container, or cloud environment.
-Facts below verified as of 2026-09-20.
+Facts below verified as of 2026-09-21.
 
 **Air is JetBrains conceding that the agentic workflow layer is a product category distinct from the IDE: it is a task orchestrator that belongs next to Conductor and Superset rather than in Surfaces, because the IDE stays a separate application by JetBrains' own design, and the orchestrator itself is sold as a subscription feature rather than a product.**
 

@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 CodeRabbit is a commercial AI code review service (the coderabbitai GitHub and GitLab app, plus CLI and IDE surfaces) that reviews every pull request automatically and is expanding into triage, change explanation, and security under the banner of Agentic Change Management.
-Facts below verified as of 2026-09-20.
+Facts below verified as of 2026-09-21.
 
 ## What it is
 
@@ -45,10 +45,10 @@ Scale as of 2026-09-18: 17,000+ customers, 6M repositories, and more than 2M rev
 
 ## Pricing
 
-**Per-seat pricing with a genuinely free open source tier, as of 2026-09-18.**
+**Per-seat pricing with a genuinely free open source tier, as of 2026-09-21.**
 The plans were renamed in late August 2026: Essentials is the new name for Pro and Team the new name for Pro Plus, at the same prices, Essentials $24 per user per month and Team $48 (both billed annually, $30 and $60 monthly, 14-day free trial), with Enterprise adding SSO, RBAC, API access, EU SaaS, and self-hosting at custom pricing.
 The standalone $40 Security plan is gone: a new Advanced tier ($72 annual, $90 monthly) folds in continuous security monitoring and per-PR security review, and full codebase security scans outside it use variable pricing.
-The Slack agent remains usage-billed, at $0.40 per agent minute as of 2026-09-18 (down from $0.50 in early September), and usage-based reviews bill $0.25 per reviewed file beyond included limits.
+The Slack agent remains usage-billed, at $0.40 per agent minute as of 2026-09-21 (down from $0.50 in early September), and usage-based reviews bill $0.25 per reviewed file beyond included limits.
 Public repositories get reviews free forever, no setup required.
 
 ## Price history
@@ -88,8 +88,8 @@ My disagreeable take: the exploit history makes CodeRabbit more credible, not le
 
 ## References
 
-- https://www.coderabbit.ai/ - product surface, 17K customers and 6M repositories claims as of 2026-09-18
-- https://www.coderabbit.ai/pricing - Essentials/Team/Advanced tiers, prices, rate limits, and the $0.40 Slack agent minute as of 2026-09-18
+- https://www.coderabbit.ai/ - product surface, 17K customers and 6M repositories claims as of 2026-09-18, refetched 2026-09-21
+- https://www.coderabbit.ai/pricing - Essentials/Team/Advanced tiers, prices, rate limits, and the $0.40 Slack agent minute as of 2026-09-21
 - https://www.coderabbit.ai/blog/introducing-agentic-change-management - Series C: $143M at a $1.5B valuation, August 12, 2026, 2M weekly reviews, 17K customers, 150K OSS projects, Triage/Change Stack/Security launch
 - https://www.coderabbit.ai/blog/coderabbit-series-b-60-million-quality-gates-for-code-reviews - Series B: $60M led by Scale Venture Partners with NVentures, September 16, 2025, 2M repos, 13M PRs reviewed
 - https://www.coderabbit.ai/blog/coderabbit-announces-16m-series-a-funding-led-by-crv - Series A: $16M led by CRV, August 13, 2024

@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 GitHub Agentic Workflows (gh-aw) define repository automation in Markdown with YAML frontmatter, compiled into a hardened GitHub Actions workflow that runs an AI coding agent with guardrails.
-Facts below verified as of 2026-09-20.
+Facts below verified as of 2026-09-21.
 
 **GitHub Actions is becoming the default execution substrate for code agents, and gh-aw is the mechanism that makes an untrusted LLM in CI survivable.**
 
@@ -24,7 +24,7 @@ It is built by GitHub Next with Microsoft Research, MIT-licensed, in public prev
 ## Status
 
 **Active preview with real traction.**
-About 5.2k stars, 547 forks, and roughly 17,800 commits in `github/gh-aw` as of 2026-09-20.
+About 5.2k stars, 549 forks, and roughly 17,800 commits in `github/gh-aw` as of 2026-09-21.
 The February 2026 Hacker News launch thread drew 302 points and 141 comments.
 The trust story has kept moving: an August 2026 billing bug forced the retirement of releases 0.68.4 through 0.71.3, and a critical security advisory published August 27 forced the pre-emptive retirement of releases 0.83.3 through 0.85.4, a notice that still sits in the README while the billing one was cleared.
 The release line keeps churning (v0.89.x runs as prereleases, latest v0.89.17 on 2026-09-19, with v0.88.7 the last stable-marked release on 2026-09-08), which shows how quickly this preview will break its users.
@@ -80,7 +80,7 @@ My disagreeable claim: even in preview, I would start here rather than hand-roll
 
 - https://docs.github.com/en/copilot/concepts/agents/about-github-agentic-workflows - product definition, security model, AIC billing
 - https://github.github.com/gh-aw/ - full reference: engines, guardrails, cost management
-- https://github.com/github/gh-aw - repository scale, MIT license, as of 2026-09-20
+- https://github.com/github/gh-aw - repository scale, MIT license, as of 2026-09-21
 - https://github.com/github/gh-aw/security/advisories/GHSA-8h78-hpm7-29gg - the critical advisory (safe-output artifacts may expose CI trigger tokens) behind the 0.83.3-0.85.4 retirement
 - https://news.ycombinator.com/item?id=46934107 - February 2026 launch discussion (302 points) including dogfooding criticism
 - https://github.com/anthropics/claude-code-action - the single-agent alternative on the same substrate

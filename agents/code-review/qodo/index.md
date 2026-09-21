@@ -13,7 +13,7 @@ audience_notes: >
 ---
 
 Qodo is an AI code review and governance platform (formerly CodiumAI) whose MIT-licensed PR-Agent was marketed as the original open-source AI PR reviewer, and which has now donated that reviewer to the community while selling the heavier product above it.
-Facts below verified as of 2026-09-20.
+Facts below verified as of 2026-09-21.
 
 ## What it is
 
@@ -27,10 +27,10 @@ The repo description draws the line in one sentence: "This project is not the Qo
 ## Status
 
 Active on both halves, and deliberately splitting apart.
-The repo counts 13,054 stars and 1,851 forks as of 2026-09-18, MIT-licensed, with v0.45.0 released September 5, 2026, and the former qodo-ai/pr-agent URL now redirects to the repo's new home in the standalone PR-Agent organization.
+The repo counts 13,089 stars and 1,871 forks as of 2026-09-21, MIT-licensed, with v0.45.0 released September 5, 2026, and the former qodo-ai/pr-agent URL now redirects to the repo's new home in the standalone PR-Agent organization.
 The company raised $11M in 2023, then $40M in September 2024 ($50M total), by which point TechCrunch already called it "Qodo, the startup previously known as CodiumAI".
 The README states Qodo donated PR-Agent to the community, the project has its first external maintainer, and it is being donated to an open-source foundation.
-The company's badges report 903.9K VS Code and 648.6K JetBrains extension installs plus roughly 13K Marketplace installs for the paid app, as of 2026-09-18.
+The company's badges report 904.2K VS Code and 648.6K JetBrains extension installs plus roughly 13K Marketplace installs for the paid app, as of 2026-09-21.
 On Hacker News the reviewer itself never caught fire (best thread 24 points, item 41500840), while company research posts reached 139 (item 44874736) and 87 points (item 41838348), and the Kudelski exploit write-up got 1 point (item 46824997).
 
 ## Strengths
@@ -54,7 +54,7 @@ On Hacker News the reviewer itself never caught fire (best thread 24 points, ite
 ## Pricing
 
 PR-Agent is free under MIT, self-hosted with your own LLM keys.
-The commercial product meters pooled credits at $0.012 each, with packs sized around 18, 36, or 144 reviews per month, under a Pro Team plan listed at $30 with monthly billing, no annual commitment, and up to 30 users, as of 2026-09-18.
+The commercial product meters pooled credits at $0.012 each, with packs sized around 18, 36, or 144 reviews per month, under a Pro Team plan listed at $30 with monthly billing, no annual commitment, and up to 30 users, as of 2026-09-21.
 Enterprise adds SSO/SAML, audit logs, BYOK, single-tenant SaaS or on-prem, cross-repo review, and negotiated pricing.
 Qualified open-source projects get the commercial reviewer free through a Marketplace app powered by Google.
 For history: in September 2024 the paid Chrome-extension tier was $19 per month for private repos (item 41443605), so the model has moved twice in two years.
@@ -64,7 +64,7 @@ For history: in September 2024 the paid Chrome-extension tier was $19 per month 
 | Date | Plan | Change | Source |
 | ---- | ---- | ------ | ------ |
 | 2024-09 | Chrome extension | Paid tier $19/month for private repos. | HN quote, see References |
-| 2026-09-18 | Pro Team | Current: $30/month billed monthly, pooled credits at $0.012 each, packs sized around 18/36/144 reviews; PR-Agent free under MIT. | [qodo.ai/pricing](https://www.qodo.ai/pricing/) |
+| 2026-09-18 | Pro Team | Current: $30/month billed monthly, pooled credits at $0.012 each, packs sized around 18/36/144 reviews; PR-Agent free under MIT. Re-verified unchanged 2026-09-21. | [qodo.ai/pricing](https://www.qodo.ai/pricing/) |
 
 ## Compared to
 
@@ -95,7 +95,7 @@ I also think the PR-Agent donation is less a gift than a repositioning: the repo
 
 ## References
 
-- https://api.github.com/repos/qodo-ai/pr-agent - redirects to The-PR-Agent/pr-agent, the repo's new home; stars, forks, push date, MIT license, and the "This project is not the Qodo free tier" description, queried as of 2026-09-18.
+- https://api.github.com/repos/qodo-ai/pr-agent - redirects to The-PR-Agent/pr-agent, the repo's new home; stars, forks, push date, MIT license, and the "This project is not the Qodo free tier" description, queried as of 2026-09-21.
 - https://github.com/qodo-ai/pr-agent - README: donation to the community, tools table, platforms, release notes, sponsor status, "legacy project" wording.
 - https://docs.pr-agent.ai/tools/ - the full OSS command surface, including the /help_docs disabling.
 - https://www.qodo.ai/ - positioning, context engine, rules system, self-reported benchmark claim, credit FAQ, install badges.

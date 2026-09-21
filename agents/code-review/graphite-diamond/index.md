@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Graphite Diamond was the AI code review agent Graphite launched alongside its $52M Series B in March 2025; the Diamond name was deprecated on October 8, 2025 in favor of Graphite Agent, and Graphite itself joined Cursor on December 19, 2025.
-Facts below verified as of 2026-09-20.
+Facts below verified as of 2026-09-21.
 
 ## What it is
 
@@ -44,7 +44,7 @@ Hacker News reaction to the deal was large and skeptical: 276 points and 253 com
 
 ## Pricing
 
-**Per-seat, with AI review included from the paid tiers, as of 2026-09-18.**
+**Per-seat, with AI review included from the paid tiers, as of 2026-09-21.**
 Hobby is free (personal repos, limited Graphite Chat and AI Reviews), Starter is $20 per user per month billed annually, Team is $40 with unlimited AI Reviews and Graphite Chat plus the merge queue and automations, and Enterprise is custom with SAML, GHES support, and audit logs.
 
 ## Price history
@@ -86,7 +86,7 @@ My disagreeable take: independent reviewers were always borrowing the code host'
 - https://techcrunch.com/2025/12/19/cursor-continues-acquisition-spree-with-graphite-deal/ - the acquisition and Axios's "way over" $290M valuation report
 - https://graphite.com/blog/graphite-joins-cursor - the company's own announcement, December 19, 2025
 - https://graphite.com/features/ai-reviews - the current AI Reviews surface with legacy Diamond copy
-- https://graphite.com/pricing - Hobby free, Starter $20, Team $40, Enterprise custom, as of 2026-09-18
+- https://graphite.com/pricing - Hobby free, Starter $20, Team $40, Enterprise custom, as of 2026-09-21
 - https://graphite.com/docs - documentation hub
 - https://hn.algolia.com/api/v1/items/46327206 - acquisition thread, 276 points, 253 comments, December 19, 2025
 - https://hn.algolia.com/api/v1/items/46327325 - second acquisition thread, 167 points, December 19, 2025

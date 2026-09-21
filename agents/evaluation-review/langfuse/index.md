@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Langfuse is an open-source (MIT core) observability and evaluation platform for LLM applications and agents, covering tracing, LLM-as-judge and human evaluation, prompt management, and datasets and experiments, self-hostable or consumed as Langfuse Cloud, and part of ClickHouse since January 2026.
-Facts below verified as of 2026-09-20.
+Facts below verified as of 2026-09-21.
 
 **Langfuse is the MIT-licensed observability and evaluation column the category lacked, and its open-core boundary is drawn in the filesystem: MIT outside the `ee/` directories, proprietary inside them.**
 
@@ -24,7 +24,7 @@ Made by Langfuse (YC W23), acquired by ClickHouse in January 2026, with the root
 
 ## Status
 
-Mature and busy: 34,761 stars, 3,794 forks, created 2023-05-18, pushed 2026-09-18, v4.38.0 released 2026-09-17 as of 2026-09-18.
+Mature and busy: 34,872 stars, 3,823 forks, created 2023-05-18, pushed 2026-09-21, v4.38.0 released 2026-09-17 as of 2026-09-21.
 Announced ClickHouse acquisition landed on Hacker News on 2026-01-17 with 220 points, and the README says the team doubled in the six months before it.
 **Three years old, the largest community in this category, and now owned by a database vendor whose observability stack it slots into.**
 
@@ -45,13 +45,13 @@ Announced ClickHouse acquisition landed on Hacker News on 2026-01-17 with 220 po
 ## Pricing
 
 Self-hosted: free, MIT core, with the `ee/` directories under their separate license.
-Langfuse Cloud as of 2026-09-18: Hobby free (50k units/month, 30-day retention), Core $29/month, Pro $199/month (Teams add-on $300/month), Enterprise $2,499/month, plus graduated overage from $8 down to $6 per 100k units.
+Langfuse Cloud as of 2026-09-21: Hobby free (50k units/month, 30-day retention), Core $29/month, Pro $199/month (Teams add-on $300/month), Enterprise $2,499/month, plus graduated overage from $8 down to $6 per 100k units.
 
 ## Price history
 
 | Date | Plan | Change | Source |
 | ---- | ---- | ------ | ------ |
-| 2026-09-18 | Langfuse Cloud | Baseline: Hobby free (50k units/mo, 30-day retention), Core $29/mo, Pro $199/mo (Teams add-on $300/mo), Enterprise $2,499/mo, graduated overage from $8 down to $6 per 100k units; self-hosted core free (MIT). | [langfuse.com/pricing](https://langfuse.com/pricing) |
+| 2026-09-18 | Langfuse Cloud | Baseline: Hobby free (50k units/mo, 30-day retention), Core $29/mo, Pro $199/mo (Teams add-on $300/mo), Enterprise $2,499/mo, graduated overage from $8 down to $6 per 100k units; self-hosted core free (MIT). Re-verified unchanged 2026-09-21. | [langfuse.com/pricing](https://langfuse.com/pricing) |
 
 ## Compared to
 

@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Paperclip (paperclipai/paperclip) is an MIT-licensed, self-hostable control plane for a company of AI agents: a Node.js server and React UI where agents check work out of a ticket board via scheduled heartbeats, wrapped in org charts, budgets, approvals, skills, and an audit log.
-Facts below verified as of 2026-09-20.
+Facts below verified as of 2026-09-21.
 
 **The name is the thesis: an agent-company platform named after the paperclip maximizer is selling governance as the product (budgets that pause agents, approvals, chain of command, immutable audit trails), and about 80k stars in its first six months say the market wants exactly that.**
 
@@ -25,7 +25,7 @@ Any agent that can receive a heartbeat is hirable, OpenClaw, Claude Code, Codex,
 ## Status
 
 Active at extreme velocity.
-As of 2026-09-18: 80,962 stars and 14,862 forks since creation on 2026-03-02, 5,497 open issues, pushed the day of verification, latest release v2026.916.0 on 2026-09-16, date-versioned, cloud deployments in waitlist with multi-tenant isolation already shipped per the roadmap.
+As of 2026-09-21: 81,152 stars and 14,914 forks since creation on 2026-03-02, 5,566 open issues, pushed 2026-09-20, latest release v2026.916.0 on 2026-09-16, date-versioned, cloud deployments in waitlist with multi-tenant isolation already shipped per the roadmap.
 **Its Hacker News footprint is nearly empty: the April 2026 Show HN got 3 points, so the growth ran through X and Discord instead, which tells you who the audience is.**
 The roadmap is public about what does not exist yet: memory and knowledge, work queues, self-organization, CEO chat, and one item called MAXIMIZER MODE, the joke made explicit.
 
@@ -78,7 +78,7 @@ The disagreeable claim I will defend: "manage business goals, not pull requests"
 ## References
 
 - https://github.com/paperclipai/paperclip - README: pillars, quickstart defaults, FAQ, roadmap
-- https://api.github.com/repos/paperclipai/paperclip - stars, forks, issues, push dates as of 2026-09-18
+- https://api.github.com/repos/paperclipai/paperclip - stars, forks, issues, push dates as of 2026-09-21
 - https://paperclip.ing - homepage, release line, testimonials
 - https://docs.paperclip.ing - official documentation
 - https://api.github.com/repos/paperclipai/paperclip/releases - v2026.916.0, 2026-09-16

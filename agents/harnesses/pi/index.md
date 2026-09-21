@@ -1,7 +1,7 @@
 ---
 title: Pi
 created: 2026-08-30
-updated: 2026-09-20
+updated: 2026-09-21
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, harnesses, coding-agents, open-source, byok, extensibility]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Pi is an MIT-licensed TypeScript agent toolkit from Earendil whose flagship is a minimal, self-extensible terminal coding agent that you adapt through extensions rather than configuring a closed product.
-Facts below verified as of 2026-09-20.
+Facts below verified as of 2026-09-21.
 
 **Pi's thesis is that a coding agent should be a small frozen core plus your code, and it is the only harness at this scale whose author treats missing features as policy rather than backlog.**
 
@@ -26,9 +26,9 @@ Made by Earendil Inc., created by Mario Zechner with Armin Ronacher as the secon
 
 ## Status
 
-Active and ascending: 107,467 stars (past the 100k mark), 13,564 forks, 213 open issues and PRs as of 2026-09-20.
-Created 2025-08-09, pushed within a day of verification, releases roughly weekly (v0.86.0 on 2026-09-19).
-**The ecosystem is the strongest signal: OpenClaw runs on Pi, and oh-my-pi, a batteries-included fork with about 32.0k stars as of 2026-09-20, exists precisely because some users want the features Pi refuses to ship.**
+Active and ascending: 107,914 stars (past the 100k mark), 13,640 forks, 212 open issues and PRs as of 2026-09-21.
+Created 2025-08-09, pushed within a day of verification, releases roughly weekly (v0.86.1 on 2026-09-20, one day after v0.86.0).
+**The ecosystem is the strongest signal: OpenClaw runs on Pi, and oh-my-pi, a batteries-included fork with about 32.2k stars as of 2026-09-21, exists precisely because some users want the features Pi refuses to ship.**
 
 ## Strengths
 
@@ -65,6 +65,7 @@ Not for teams wanting turnkey guardrails, MCP-centric stacks, or a stable API su
 - 2026-08-30 - Created in the Harnesses category, recording Earendil's minimal extensible harness and its no-MCP policy.
 - 2026-09-16 - Refreshed counters (105,966 stars, 13,322 forks, 235 open issues and PRs) and the oh-my-pi fork count (about 31.3k stars); v0.85.1 still the latest release.
 - 2026-09-20 - Recorded the v0.86.0 release (September 19) and refreshed counters (107,467 stars, 13,564 forks, 213 open issues and PRs) plus the oh-my-pi fork at about 32k stars.
+- 2026-09-21 - Recorded the v0.86.1 release (September 20) and refreshed counters, including the oh-my-pi fork at about 32.2k stars.
 
 ## See also
 

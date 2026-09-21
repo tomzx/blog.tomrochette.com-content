@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Eigent is an Apache-2.0, Electron-based desktop app for building and running AI agent workforces, specialized worker agents executing tasks in parallel on the CAMEL-AI framework, with a large built-in MCP integration catalog, browser and terminal toolkits, human-in-the-loop escalation, and automations, positioned as the free and local alternative to Claude Cowork.
-Facts below verified as of 2026-09-20.
+Facts below verified as of 2026-09-21.
 
 **Eigent is the only Cowork-style desktop in this category with a permissive license and a real multi-agent architecture, and its history includes a corrected benchmark claim that should calibrate how much of the pitch you take on faith.**
 
@@ -25,7 +25,7 @@ By Eigent AI (EIGENT UK LTD), founded by Guohao Li, who also founded CAMEL-AI; f
 
 ## Status
 
-Active and maturing: 15,304 stars, 1,828 forks, 234 open issues as of 2026-09-18, created 2025-07-29, pushed 2026-09-18, v1.0.4 released 2026-09-04.
+Active and maturing: 15,354 stars, 1,828 forks, 239 open issues as of 2026-09-21, created 2025-07-29, pushed 2026-09-21, v1.0.4 released 2026-09-04.
 **The smallest community of the Cowork trio, and the launch thread matters: the "ranked top 1 on GAIA benchmark" claim referred to the predecessor project OWL, the founder acknowledged it, and 1-karma accounts posted praise.**
 
 ## Strengths

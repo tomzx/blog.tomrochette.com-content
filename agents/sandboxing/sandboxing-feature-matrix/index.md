@@ -1,7 +1,7 @@
 ---
 title: "Sandboxing Feature Matrix"
 created: 2026-08-30
-updated: 2026-09-20
+updated: 2026-09-21
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3-flash, comparison, sandboxing, isolation, security]
 readability: 3
@@ -12,7 +12,7 @@ audience_notes: >
 
 This matrix compares the eight members of the Sandboxing category: the Kubernetes orchestrator, the kernel-enforced wrapper, the provisioning driver, the disposable-VM workstation tool, the E2B-compatible microVM service, the framework with sandbox tiers, the general-purpose sandbox platform, and the policy runtime.
 The Kind row is what keeps this category legible: five columns are isolation boundaries (three workstation-scale, two platform-scale services), one is an orchestrator around boundaries, one is a framework that consumes boundaries, and one feeds repositories into all of them.
-Everything below was re-verified against live sources on 2026-09-20.
+Everything below was re-verified against live sources on 2026-09-21.
 
 **Isolation is cheap to claim and expensive to enforce, so the deciding rows are the mechanism and the maturity: a kernel boundary nobody has audited loses to a container boundary a vendor stands behind.**
 
@@ -31,7 +31,7 @@ Each column links to the full research note; every cell below traces to a source
 | Policy model | K8s RBAC plus RuntimeClass | per-project YAML deny rules | ✗ n/a, provisioning only | network allow-list, forge pre-allowed | eBPF inter-sandbox isolation plus L7 per-domain egress policy | tier choice plus env allowlist | ingress gateway plus per-sandbox egress controls | declarative YAML, auditable |
 | Credential handling | your K8s secrets | egress allowlist, stdout masking | ✗ n/a | secrets stay on host, ssh-agent forwarded | ✓ credential vault, keys injected at egress gateway | env allowlist per tier | ✓ credential vault for outbound requests | ✓ keys stay at inference proxy |
 | Maturity | v1.0.3 tag, v1beta1 API, breaking migrations | v1.0.0, 14 stars, no audit | 1.0.0-rc, no releases, beta | pre-1.0 (v0.4.0), own breaking-changes banner | pre-1.0 (v0.7.1), five months old | first stable v2.0 after rewrite | pre-1.0 (server/v0.2.3), component versioning | alpha, v0.0.x |
-| Community signal | 3.9k stars, Google-backed | 14 stars, 0 issues, footprint is the signal | 1.1k stars, 217-point HN launch | 1.0k stars, 226-point HN launch, quiet since August | 12.5k stars, best HN thread 7 points | 8.2k stars, single dominant author | 15.3k stars, no real HN launch, Trendshift-driven | 8.6k stars, ~119 contributors |
+| Community signal | 3.9k stars, Google-backed | 14 stars, 0 issues, footprint is the signal | 1.1k stars, 217-point HN launch | 1.0k stars, 226-point HN launch, quiet since August | 12.6k stars, best HN thread 7 points | 8.3k stars, single dominant author | 15.4k stars, no real HN launch, Trendshift-driven | 8.7k stars, ~120 contributors |
 | Pricing | free, cluster costs | free | free, Artifacts service metered | free | free, self-hosted fleet | free, provider costs | free, self-hosted | free |
 
 ## Reading the matrix
@@ -64,6 +64,7 @@ A matrix that pretended all eight were equivalent would be lying by layout.
 - 2026-09-05 - Extended from five to six columns with Clawk, making three boundary columns.
 - 2026-09-16 - Extended from six to eight columns (CubeSandbox, OpenSandbox), re-sorted alphabetically, with the boundary, backing, credential, and audit prose updated for eight members.
 - 2026-09-18 - Agent Sandbox maturity cell updated to the v1.0.3 tag (released 2026-09-17); every other cell re-verified against the refreshed notes and unchanged.
+- 2026-09-21 - Refreshed the community-signal cells for CubeSandbox (12.6k), Flue (8.3k), OpenSandbox (15.4k), and OpenShell (8.7k stars, ~120 contributors); all other cells re-verified unchanged.
 
 ## See also
 

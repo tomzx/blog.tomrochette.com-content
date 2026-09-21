@@ -1,7 +1,7 @@
 ---
 title: Paseo
 created: 2026-08-30
-updated: 2026-09-20
+updated: 2026-09-21
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, parallel-agents, mobile, open-source]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Paseo is a free, open-source, self-hosted orchestration layer that runs coding agents as local processes on your own machines and drives them from desktop, web, mobile, and CLI clients over one daemon.
-Facts below verified as of 2026-09-20.
+Facts below verified as of 2026-09-21.
 
 **Paseo's differentiator is not parallelism, which is now table stakes, but reach: it is the only orchestrator in its class with native iOS and Android clients at full feature parity, wrapped around your existing agent subscriptions instead of replacing them.**
 
@@ -25,8 +25,8 @@ Apache-2.0 (with a custom copyright notice), by Mohamed Boudra, an independent s
 
 ## Status
 
-Young and fast: about 17.7k stars, 2k forks, and 848 open issues and PRs (510 issues plus 338 pulls) as of 2026-09-20, created 2025-10-13, with more than 5,300 commits on main.
-The 0.8 line reached stable while I watched: v0.8.0 shipped 2026-09-10 with plugin header buttons, custom providers, and richer chat components, and remains the latest release as of 2026-09-20, alongside 165 contributors and an active subreddit and Discord.
+Young and fast: about 17.9k stars, 2k forks, and 869 open issues and PRs as of 2026-09-21, created 2025-10-13, with more than 5,300 commits on main.
+The 0.8 line reached stable while I watched: v0.8.0 shipped 2026-09-10 with plugin header buttons, custom providers, and richer chat components, and remains the latest stable release, with v0.9.0-beta.1 and v0.9.0-beta.2 prereleases following on 2026-09-17 and 2026-09-18, alongside 165 contributors and an active subreddit and Discord.
 **The structural risk is on the label: the maintainer described himself on Hacker News as a team of one, and monetization has now arrived as the hosted Hub at €15 per seat per month.**
 
 ## Strengths
@@ -72,6 +72,7 @@ Not for teams needing a vendor's support contract, or Mac-only shops happy payin
 - 2026-09-02 - Recorded v0.7 shipping as stable.
 - 2026-09-12 - Recorded v0.8.0 shipping as stable (September 10) with plugin providers and Hub follow-ups.
 - 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
+- 2026-09-21 - Recorded the v0.9.0 beta line (beta.1 and beta.2, September 17-18) following the v0.8.0 stable release, and refreshed star and tracker counts.
 
 ## See also
 

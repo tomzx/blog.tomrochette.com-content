@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 **Exo is an agent harness built so the agent can edit the harness itself, prompts, memory, tooling, and policy included, with an append-only event log as the brake.**
-Facts below verified as of 2026-09-20.
+Facts below verified as of 2026-09-21.
 
 ## What it is
 
@@ -22,9 +22,9 @@ The design philosophy is documented in the repository's RSI.md, "A Systems View 
 
 ## Status
 
-Active: created 2026-05-20, 1,434 stars and 105 forks, pushed 2026-09-19.
+Active: created 2026-05-20, 1,435 stars and 106 forks, pushed 2026-09-21.
 **The independent FrontierHarness Eval scores it near the bottom of nine harnesses on pass rate but first on cost: 53.3 percent pass at a $1.05 median cost per task, against Claude Code's $18.34 on the same model and tasks.**
-The community footprint is thin, a 3-point and a 2-point Hacker News thread, so the eval and the repository are nearly the whole evidence base as of 2026-09-20.
+The community footprint is thin, a 3-point and a 2-point Hacker News thread, so the eval and the repository are nearly the whole evidence base as of 2026-09-21.
 
 ## Strengths
 

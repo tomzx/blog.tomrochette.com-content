@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 AlphaProof is Google DeepMind's reinforcement-learning system for proving mathematical statements in Lean, and its lineage now runs from an IMO silver medal in 2024 to an officially graded IMO gold medal in 2025 through Gemini Deep Think.
-Facts below verified as of 2026-09-20.
+Facts below verified as of 2026-09-21.
 
 **The arc is the clearest public evidence that verified-reasoning loops scale: the 2024 result needed manual Lean translation and up to three days of compute, while the 2025 result ran end to end in natural language inside the 4.5-hour contest clock.**
 

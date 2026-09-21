@@ -1,7 +1,7 @@
 ---
 title: QwenPaw
 created: 2026-08-30
-updated: 2026-09-12
+updated: 2026-09-21
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, assistant-runtimes, python, self-hosted, open-source]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 QwenPaw is the AgentScope team's Apache-2.0, self-hostable personal AI assistant in Python, deployable on your own machine or the cloud, reachable through seven chat apps plus a web console, TUI, and beta desktop app, with three-layer memory, scheduled tasks, and purpose-trained small Qwen models for offline use.
-Facts below verified as of 2026-09-20.
+Facts below verified as of 2026-09-21.
 
 **QwenPaw's edge is the channel matrix, DingTalk, Lark, WeChat, QQ, Discord, Telegram, and iMessage from one self-hosted instance, which no Western-centric runtime in this category matches, and its built-in five-layer security stack is the strongest default posture in the category.**
 
@@ -25,8 +25,8 @@ Apache-2.0, by the AgentScope team; Alibaba involvement is visible in the deploy
 
 ## Status
 
-Rapid and churny: 35,073 stars, 3,116 forks, 974 open issues and PRs as of 2026-09-18, created 2026-02-24, pushed today.
-v2.1.0 shipped 2026-08-13, v2.2.0 went stable on PyPI on 2026-09-03, and v2.2.1 followed on 2026-09-10 (PyPI upload 2026-09-11), with v2.2.2 betas landing on 2026-09-17 and 2026-09-18.
+Rapid and churny: 35,174 stars, 3,119 forks, 996 open issues and PRs as of 2026-09-21, created 2026-02-24, pushed today.
+v2.1.0 shipped 2026-08-13, v2.2.0 went stable on PyPI on 2026-09-03, and v2.2.1 followed on 2026-09-10 (PyPI upload 2026-09-11), with v2.2.2 betas landing on 2026-09-17, 2026-09-18, and 2026-09-20 (2.2.2b3).
 **A ground-up rewrite two minor versions before the current line is the churn signature: adoption is real, stability is not yet the product.**
 
 ## Strengths
@@ -41,7 +41,7 @@ v2.1.0 shipped 2026-08-13, v2.2.0 went stable on PyPI on 2026-09-03, and v2.2.1 
 - `qwenpaw init --defaults` auto-accepts the telemetry prompt, which privacy-conscious users must opt out of explicitly.
 - Young and heavily rewritten, with much of the roadmap (voice, computer use, multi-workspace) still in progress.
 - The macOS desktop app is beta and unnotarized, requiring a Gatekeeper bypass.
-- 970 open issues and PRs, and the Alibaba-ecosystem gravity (ECS, DashScope, DingTalk) may bias defaults despite provider neutrality.
+- 996 open issues and PRs, and the Alibaba-ecosystem gravity (ECS, DashScope, DingTalk) may bias defaults despite provider neutrality.
 
 ## Pricing
 
@@ -63,6 +63,7 @@ Not for stability-first adopters mid-rewrite, or users who will not read the tel
 
 - 2026-08-30 - Created in the Assistant runtimes category, recording the AgentScope team assistant with a telemetry-auto-accept caution.
 - 2026-09-04 - Recorded v2.2.0 going stable on PyPI.
+- 2026-09-21 - Recorded the third v2.2.2 beta (2.2.2b3, PyPI 2026-09-20) and refreshed adoption numbers.
 
 ## See also
 
