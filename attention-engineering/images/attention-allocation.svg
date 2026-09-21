@@ -1,0 +1,25 @@
+<svg aria-labelledby="t" role="img" xmlns="http://www.w3.org/2000/svg" width="920" height="348" viewBox="0 0 920 348" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+  <title id="t">Human attention across the agent pipeline</title>
+  <desc>Bar chart of the human attention budget over the four stages. Specification takes a great deal, generation takes none, verification takes very little, and judgment takes all of it.</desc>
+  <defs>
+    <marker markerUnits="userSpaceOnUse" id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#94a3b8"/></marker>
+    <marker markerUnits="userSpaceOnUse" id="arrRed" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#dc2626"/></marker>
+    <marker markerUnits="userSpaceOnUse" id="arrGreen" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#16a34a"/></marker>
+  </defs>
+  <rect x="0" y="0" width="920" height="348" fill="#ffffff"/>
+<text x="60" y="40" font-size="14" font-weight="bold" fill="#0f172a">Where human attention goes in an agent pipeline</text>
+<text x="186" y="92.0" text-anchor="end" font-size="14" fill="#0f172a">Specification</text>
+<rect x="200" y="70" width="403.2" height="34" rx="4" fill="#2563eb" stroke="#2563eb" stroke-width="1.5"/>
+<text x="617.2" y="92.0" font-size="13" font-style="italic" fill="#2563eb">a great deal</text>
+<text x="186" y="148.0" text-anchor="end" font-size="14" fill="#0f172a">Generation</text>
+<rect x="200" y="126" width="4" height="34" fill="#64748b"/>
+<text x="222" y="148.0" font-size="13" font-style="italic" fill="#64748b">none</text>
+<text x="186" y="204.0" text-anchor="end" font-size="14" fill="#0f172a">Verification</text>
+<rect x="200" y="182" width="89.60000000000001" height="34" rx="4" fill="#2563eb" stroke="#2563eb" stroke-width="1.5"/>
+<text x="303.6" y="204.0" font-size="13" font-style="italic" fill="#2563eb">very little</text>
+<text x="186" y="260.0" text-anchor="end" font-size="14" fill="#0f172a">Judgment</text>
+<rect x="200" y="238" width="560.0" height="34" rx="4" fill="#16a34a" stroke="#16a34a" stroke-width="1.5"/>
+<text x="774.0" y="260.0" font-size="13" font-style="italic" fill="#16a34a">all of it</text>
+<line x1="200" y1="278" x2="780" y2="278" stroke="#94a3b8" stroke-width="1.2"/>
+<text x="480.0" y="318" text-anchor="middle" font-size="12" fill="#64748b">stages of the pipeline, in order</text>
+</svg>
