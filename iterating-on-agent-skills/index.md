@@ -47,6 +47,18 @@ The order matters, because each step is cheap only if the previous step ran.
 My part of the loop is the noticing and the judgment.
 The diagnosing and the patching belong to the agent, and the split is the point: I explain, the agent analyzes, and the skill gets fixed without me becoming the bottleneck the loop exists to remove.
 
+The cycle, and the split of labor inside it, looks like this.
+
+```mermaid
+flowchart LR
+    S1[1. Notice the failure] -->|correction becomes a session| S2[2. Fresh session diagnoses]
+    S2 -->|diagnosis picks the patch| S3[3. Iterate to a small patch]
+    S3 -->|patch the skill, not the output| S4[4. Verify against the failed run]
+    S4 -->|still failing| S1
+    S4 -->|periodic sweep| S5[5. Shrink or delete]
+    S5 -->|model catches up| S1
+```
+
 ### 1. Notice the failure
 
 A skill only improves when one of its failures gets explained, and most failures never get explained.

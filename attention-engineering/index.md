@@ -66,6 +66,10 @@ And attention collapses fastest on the work you had no investment in to begin wi
 Not every part of an agent workflow needs your attention equally, and the error is treating them the same.
 Rank them by how much they need a human mind.
 
+Here is the workflow as a pipeline with the attention budget laid over it:
+
+![Bar chart of human attention per pipeline stage: specification takes a great deal, generation none, verification very little, and judgment all of it](images/attention-allocation.svg)
+
 Generation needs none.
 Stop attending to it.
 Hand over a finished intent and walk away.

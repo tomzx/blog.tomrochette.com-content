@@ -153,5 +153,5 @@ Prepare accordingly.**
 - [Wikipedia, "Theory of Constraints"](https://en.wikipedia.org/wiki/Theory_of_constraints) - the framework for why automating code production relocates rather than removes the bottleneck, landing it on verification
 - [Wikipedia, "No Silver Bullet"](https://en.wikipedia.org/wiki/No_Silver_Bullet) - Brooks's split between accidental complexity (the syntax and boilerplate AI now handles) and essential complexity (the mental model of the problem it cannot)
 - [Wikipedia, "Accidental complexity"](https://en.wikipedia.org/wiki/Accidental_complexity) - the distinction that lets you sort low-level trivia, which is accidental and depreciating, from low-level mental models, which are essential and compounding
-- [Wikipedia, "Vibe coding"](https://en.wikipedia.org/wiki/Vibe_coding) - the extreme of the "writing code is over" posture, used here as the steelman argued against rather than a strawman
+- [Wikipedia, "Vibe coding"](https://en.wikipedia.org/wiki/Vibe_coding) - the extreme of the "writing code is over" position, used here as the steelman argued against rather than a strawman
 - [Willison, "Vibe coding"](https://simonwillison.net/2025/Mar/19/vibe-coding/) - a practitioner's account of what you can and cannot safely delegate, and why supervision still requires understanding the output

@@ -31,6 +31,10 @@ The targets were not scared into submission; they did the math.
 They read the anger as information about the opponent's limit, concluded the opponent would not move, and adjusted their demands to avoid impasse.
 Related experiments found that angry negotiators win larger concessions from their counterparts ([Sinaceur & Tiedens, 2006](https://doi.org/10.1016/j.jesp.2005.05.002)).
 
+The mechanism is a single inference on the target's side, and the inference carries its own break condition:
+
+![An angry outburst leads the target to infer no movement; if the target cannot walk away the target concedes and the tactic pays, and if the target has power the target retaliates and the tactic backfires](images/anger-tactic-payoff.svg)
+
 Anger also buys status.
 Across four studies, people who expressed anger were judged more competent than people who expressed sadness, and observers conferred higher status and even higher salary offers on them ([Tiedens, 2001](https://doi.org/10.1037/0022-3514.80.1.86)).
 We read anger as confidence, and we promote what reads as confidence.

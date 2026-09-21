@@ -27,6 +27,10 @@ The asymmetry is not accidental.
 One side of the pipeline is unbounded.
 **The other is capped at the speed of a single person reading.**
 
+The rigged pipeline looks like this:
+
+![Model-assisted drafting climbs steeply while hand review stays capped, and the shaded gap of unread volume grows every hour](images/review-race.svg)
+
 ## The Math Is the Problem
 
 Review is a queue.

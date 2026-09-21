@@ -45,6 +45,21 @@ A report answers a question once, but most questions that matter to your work ar
 
 The definition I use: **continuous research is a scheduled agent loop that incrementally maintains a versioned knowledge base about topics you have declared, so that your current understanding is a system property rather than an activity.**
 
+Here is the loop as a machine:
+
+```mermaid
+flowchart LR
+    TF[Topic file, written by you] --> L[Scheduled loop with a budget]
+    CP[Checkpoint, the last researched date] --> L
+    L -->|reads only the new material| U[Incremental update per run]
+    U -->|advances the checkpoint| CP
+    U --> KB[Versioned knowledge base]
+    KB --> B[Brief, the current state]
+    KB --> LG[Dated update log]
+    KB --> SN[Source snapshots]
+    B --> DG[Diff between versions, the weekly digest]
+```
+
 Four pieces, each of which already exists on its own.
 
 The first is the topic file.

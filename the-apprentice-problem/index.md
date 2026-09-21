@@ -34,6 +34,17 @@ A junior shipped a small change, the change broke something, and the feedback ar
 Small blast radius, real stakes, tight loop.
 [Deliberate practice](https://en.wikipedia.org/wiki/Deliberate_practice) works the same way in every field studied: repetition at the edge of ability, with immediate feedback, is the only known mechanism that builds expertise.
 
+The loop the old apprenticeship closed looks like this:
+
+```mermaid
+flowchart TD
+    X[Agent automates the junior work] -->|input cut| A[Junior ships a small change]
+    A --> B[Change meets real consequences]
+    B --> C[Feedback arrives fast enough to leave a mark]
+    C --> D[Judgment grows a case richer]
+    D -->|next task is a little harder| A
+```
+
 The junior work being automated is not adjacent to that mechanism.
 It is that mechanism.
 

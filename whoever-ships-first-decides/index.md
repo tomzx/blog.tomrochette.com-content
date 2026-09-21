@@ -71,6 +71,10 @@ The exception becomes the convention.
 A year later, nobody remembers that the pattern started as a shortcut someone shipped under deadline.
 Defending the shortcut has become the team's default position, because that is what defaults do.
 
+The drift compounds in one direction:
+
+![One-way timeline from a shortcut shipped under deadline to it becoming the default, being copied, becoming the convention, and being defended by default](images/shortcut-to-convention.svg)
+
 **Teams do not converge on their best engineer's standard.
 They converge on whatever the most active shipper leaves behind, and they call it the way things are done here.**
 

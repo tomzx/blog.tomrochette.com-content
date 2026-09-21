@@ -25,6 +25,17 @@ For bug fixes, the flow goes from triage into a fix PR rather than stopping at r
 Triage is handled end to end, which closes a point I'd written about in earlier posts.
 I'm building it to support both human-gated and fully autonomous modes from the start, so the same flow can run with or without checkpoints.
 
+The cycle is easiest to follow as a flow:
+
+```mermaid
+flowchart TD
+    I[Issue created] --> T[Triage]
+    T -->|feature request| P[Plan PR]
+    P --> R[Human review]
+    R -->|plan merges| IMP[Implementation PR]
+    T -->|bug fix| F[Fix PR]
+```
+
 **Building [github-board](https://github.com/TomzxCode/github-board).**
 github-board is a frontend-only web application, served directly via GitHub Pages, that lets you build columns and rows from any field on a GitHub issue or pull request.
 It turns issue and PR data into a configurable board view with no backend.

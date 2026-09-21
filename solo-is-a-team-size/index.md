@@ -74,6 +74,21 @@ An agent seat executes without needing alignment and pays no channel tax; a huma
 
 Three conditions cover most of the cases.
 
+Here is how I now run the seat decision for every opening on the team:
+
+```mermaid
+flowchart TD
+    S[A seat to fill] --> Q1{Does the work have an oracle}
+    Q1 -->|yes, correctness is checkable| A[Agent seat]
+    Q1 -->|no, it is judgment| H[Human seat]
+    S --> Q2{Does the context fit in one head}
+    Q2 -->|yes| A
+    Q2 -->|no, the product outgrew one head| H
+    S --> Q3{Are the stakes affordable and reversible}
+    Q3 -->|yes| A
+    Q3 -->|no, a one-way door| H
+```
+
 **The work has no oracle.**
 An agent can verify against a check: tests that pass, a spec that matches, a conflict with a mechanical resolution.
 When correctness is machine-checkable, fill the seat with an agent and sleep well.

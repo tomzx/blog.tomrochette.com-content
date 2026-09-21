@@ -36,6 +36,10 @@ My master mental model is the [Theory of Constraints](https://en.wikipedia.org/w
 The moment you relieve the constraint, it relocates: it does not disappear, it just moves.
 Automate code production and verification becomes the bottleneck; solve verification and feature selection becomes the bottleneck; solve feature selection and the question of what deserves to exist at all becomes the bottleneck.
 
+The chain I keep chasing looks like this, and it never terminates:
+
+![Staircase of the relocating constraint: code production is automated, then verification is solved, then feature selection is solved, leaving what deserves to exist as the frontier](images/shifting-bottleneck.svg)
+
 I find this frame everywhere, because it is everywhere.
 A team's output is bounded by its weakest coordination path, not by how hard anyone works.
 A career is bounded by the skill you keep avoiding, not by the one you keep sharpening.

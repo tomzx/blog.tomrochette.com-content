@@ -77,6 +77,17 @@ Since I find those changes useful regardless, I maintain a local branch where I 
 **The tool I use daily is therefore slightly my own build: official releases plus the fixes I was not willing to wait for.**
 It is a small patch queue, the same idea as a distro carrying packages ahead of upstream, and it comes with the same obligation to rebase and drop patches once they land for real.
 
+The path a fix takes from annoyance to the build I actually run looks like this:
+
+```mermaid
+flowchart LR
+    F[Friction in daily use] --> I[Issue filed]
+    I --> P[Pull request opened]
+    P -->|merged upstream| U[Official release]
+    P -->|still open| B[Local patch branch]
+    B -->|rebased and dropped once upstream lands| U
+```
+
 The relationship with the tool changes as well.
 I am no longer only a user deciding whether to stay or leave.
 I am a stakeholder: when a release like 1.19.0 ships with fixes from a handful of outside contributors, I read the notes looking for my corners of the app.

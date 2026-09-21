@@ -58,6 +58,10 @@ When you are working on something you care about, a notification is an annoyance
 When you are working on something you resent, a notification is a permission slip to step away, and you take it every time.
 The work expanded to fill three days in part because every ping, every message, every side question offered a more appealing place to put my attention, and nothing pulled me back.
 
+The same afternoon forks in two depending only on who chose the work:
+
+![Attention chart: chosen work holds a flat high line while assigned work decays in a sawtooth at every notification](images/focus-decay.svg)
+
 Distractions are not the enemy of focus.
 **They are the enemy of focus on work you do not want to do.**
 On work you want to do, focus defends itself.

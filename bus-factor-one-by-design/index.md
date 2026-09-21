@@ -70,6 +70,22 @@ During it, another engineer plus their agents must handle incidents and ship one
 Score the takeover and publish the time it took.
 The drill is chaos engineering applied to the org chart: you inject failure into the ownership layer while the stakes are a minor feature, not a resignation letter.
 
+The drill is a script, and it reads best written as one:
+
+```mermaid
+sequenceDiagram
+    participant C as Company
+    participant O as Owner
+    participant A as Artifact set
+    participant S as Successor and agents
+    C->>O: Mandatory uninterrupted absence begins
+    O-->>C: Unreachable for the duration
+    S->>A: Handle incidents and ship one scoped change
+    A-->>S: Tests, decision records, runbooks, architecture map
+    S-->>C: Scored takeover
+    C->>C: Publish the re-acquisition time
+```
+
 **Redundancy spend follows blast radius.**
 Not every internal script deserves a second person.
 Classify systems by blast radius and cap how much revenue-critical surface may exceed a re-acquisition threshold, say two weeks.

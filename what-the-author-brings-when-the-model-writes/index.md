@@ -24,6 +24,10 @@ The other was everything that made the writing worth a stranger's time: deciding
 The two jobs looked like one task because the same person did both, and because the judgment was invisible unless the prose was done well.
 **LLMs did not replace the author; they split the author in two and automated only the half that was always the easier one to learn.**
 
+The split looks like this:
+
+![Stacked bar splitting writing into the mechanical half that the model automates and the judgment half that stays with the author as the entire product](images/author-split.svg)
+
 ## The Model Is Fluent and Has Nothing to Say
 
 A model trained on the corpus of everything humans have written can generate plausible text on any subject, and that fluency looks like understanding from the outside.

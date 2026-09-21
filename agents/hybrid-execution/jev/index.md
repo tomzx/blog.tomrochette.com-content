@@ -40,7 +40,7 @@ Active and brand new; the claims below are almost entirely vendor-run.
 - The evidence is self-run: the launch post admits the workflow evals were built by its own capabilities team, benchmarked against an Astra-plus-Fable average (a bias it concedes), and measured from the founders' West Coast laptops; the HN thread's top responses note the receipts are demos, with one commenter writing they "realized the post wasn't satirical" only at the videos.
 - The lab explicitly declines public benchmarks ([antibenchmaxxing](https://typesafe.ai/blog/antibenchmaxxing)), which is a defensible position that nonetheless leaves no third-party verification of the 40-200x and cannot-hallucinate claims; the "can't hallucinate" figure is admitted to be non-empirical, schema-matching being mathematically guaranteed while factual correctness is not.
 - The pricing sustainability is self-admittedly unproven ("we can't prove it isn't subsidized"), and free output tokens is the kind of number that changes.
-- A community "Jev-like" model appeared within a day ([jevlike](https://github.com/vinnylarouge/jevlike), 164-point thread on 2026-09-16, about 1,100 stars by 2026-09-21), and the wave it started has become an ecosystem: Laya is now its own note in this category, curated lists of Jev projects passed 700 stars, and browser-use's jev-ultrafast agent built on the Jev API reached about 13,000 stars in five days, which reads two ways: the mechanism may be an efficient classification architecture others can copy, and the moat, if there is one, is calibration data rather than architecture.
+- A community "Jev-like" model appeared within a day ([jevlike](https://github.com/vinnylarouge/jevlike), 164-point thread on 2026-09-16, about 1,100 stars by 2026-09-21), and the wave it started has become an ecosystem with its own notes in this category ([Jevlike](../jevlike/index.md), [SemIf](../semif/index.md), [Kev](../kev/index.md), [NanoJev](../nanojev/index.md), and [Nimble](../nimble/index.md), alongside [Laya](../laya/index.md)), curated lists of Jev projects passed 700 stars, and browser-use's jev-ultrafast agent built on the Jev API reached about 13,000 stars in five days, which reads two ways: the mechanism may be an efficient classification architecture others can copy, and the moat, if there is one, is calibration data rather than architecture.
 - No text generation, no tool calls, no local weights: it cannot replace an LLM anywhere a string is needed, only the decision layer around one.
 
 ## Pricing
@@ -71,6 +71,7 @@ The disagreeable claim I will defend: this category's four existing members all 
 - 2026-09-18 - Created from the owner-prompted entrant resolution after the 2026-09-15 launch slipped between entrant-scan windows.
 - 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
 - 2026-09-21 - Recorded the open-model ecosystem wave around the Jev contract (Laya promoted to its own note, jevlike at about 1,100 stars, the 13,000-star jev-ultrafast agent), and refreshed thread and adapter counts.
+- 2026-09-21 - Linked the owner-prompted open-alternatives coverage: Jevlike, SemIf, Kev, NanoJev, and Nimble joined this category as their own notes.
 
 ## See also
 

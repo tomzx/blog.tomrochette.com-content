@@ -18,6 +18,10 @@ Six months later the feature breaks, and the ticket is assigned to you.
 You did not write it, you did not ask for it, and the person whose name is on the commits cannot explain it to you, because they did not write it either.
 **They prompted it, you inherit it, and that asymmetry is the whole problem.**
 
+The whole handoff runs like this:
+
+![Ledger: generated code sends credit back to the generator and costs forward to a maintainer who never consented and pays the full cost of understanding](images/slop-ledger.svg)
+
 The slop handoff is not the ordinary handoff, where someone moves on and leaves their code behind.
 It is a new and worse kind, because the thing being handed off carries less recoverable intent than human code ever did, and the person handing it off has less of that intent to offer than the author of human code ever had.
 The slop producer walks away with the reward.

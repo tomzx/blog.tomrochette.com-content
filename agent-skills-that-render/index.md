@@ -33,6 +33,17 @@ The fix is to give the skill a tool that turns text into something you can inspe
 The tool does the deterministic part, the layout, the rendering, the syntax checking, and the skill does the generative part, deciding what to put in the diagram.
 The concerns separate cleanly, and the output becomes inspectable in a way prose never is.
 
+The split of labor looks like this:
+
+```mermaid
+flowchart LR
+    S[Skill, the generative half] --> T[Text source, mermaid or DBML]
+    T --> R[Renderer, the deterministic half]
+    R --> A[Inspectable artifact]
+    A --> H[You, the fast checker]
+    T --> G[Git, so changes are reviewable]
+```
+
 Pairing a skill with a renderer is the same move as [Verifying Code Without Reading It](../verifying-code-without-reading-it/index.md), applied to the artifacts a skill produces: stop trying to read, start trying to verify, and pick for each artifact the cheapest checker that catches the failure you care about.
 **For a lot of artifacts, the cheapest checker is a picture.**
 

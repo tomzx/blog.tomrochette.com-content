@@ -42,7 +42,7 @@ If the section turns into slop, the logs will show exactly where it went wrong, 
 - [Retrieval Feature Matrix](retrieval/retrieval-feature-matrix/index.md) - the hosted parsing pipeline, the chunking library, the two frameworks, and two patterns compared, Knowhere the newest, with the harness-native counterargument engaged, verified 2026-09-21.
 - [Memory Feature Matrix](memory/memory-feature-matrix/index.md) - the file convention, the portable format, the capture plugin, and five services against memory-model and lock-in rows, Engrim the newest column, verified 2026-09-21.
 - [Executions Feature Matrix](executions/executions-feature-matrix/index.md) - subscription features versus self-hostable infrastructure across trigger and execution rows, verified 2026-09-21.
-- [Hybrid Execution Feature Matrix](hybrid-execution/hybrid-execution-feature-matrix/index.md) - constrained decoding versus validate-and-retry versus models born at the decision layer, now including two open-weights ones, the guarantee mechanism as the deciding row, Laya the newest, verified 2026-09-21.
+- [Hybrid Execution Feature Matrix](hybrid-execution/hybrid-execution-feature-matrix/index.md) - constrained decoding versus validate-and-retry versus models born at the decision layer, the launch week's seven open brackets columned around Jev's closed contract, the guarantee mechanism as the deciding row, SemIf the newest, verified 2026-09-21.
 - [Task Management Feature Matrix](task-management/task-management-feature-matrix/index.md) - files versus database as the deciding row, Ordewell's typed plan artifacts the newest column, with the PRD pipeline and its license cost, verified 2026-09-21.
 - [Spec Driven Development Feature Matrix](spec-driven-development/spec-driven-development-feature-matrix/index.md) - the five spec-first tools across the ownership and ceremony-sizing axes, GSD the newest, verified 2026-09-21.
 - [Control Planes Feature Matrix](control-planes/control-planes-feature-matrix/index.md) - governance, budgets, and multi-company rows that separate control planes from orchestration, verified 2026-09-21.
@@ -198,9 +198,14 @@ Where the research loop itself runs autonomously: the labs' science programs, th
 - [CUA-S1](hybrid-execution/cua-s1/index.md) - Cua's open-weights 706k-parameter System One checkpoint that scores form actions without generating text, the verifiable counterpart to Jev's closed contract.
 - [Instructor](hybrid-execution/instructor/index.md) - Pydantic in, validated objects out, with a re-ask when validation fails.
 - [Jev](hybrid-execution/jev/index.md) - TypeSafe's System One model that skips text generation entirely, typed decisions with calibrated confidence at 70-500ms, early access since September 2026.
+- [Jevlike](hybrid-execution/jevlike/index.md) - the community's one-day reverse-engineering of the Jev contract, an MIT option-attention starter, dormant since launch day, its head lifted by CUA-S1.
+- [Kev](hybrid-execution/kev/index.md) - Jared Palmer's Apache-2.0 Qwen3.5 LoRA family speaking the Jev API locally, with the wave's strongest pre-registered eval discipline.
 - [Laya](hybrid-execution/laya/index.md) - the Apache-2.0 open-weights decision-model family answering typed questions in a single pass, the open rival to Jev's contract with its limits stated on its own model card.
+- [NanoJev](hybrid-execution/nanojev/index.md) - the 0.6B game-task replica with the most complete pipeline and the least verification, every benchmark unreplicated.
+- [Nimble](hybrid-execution/nimble/index.md) - Bespoke Labs' one-day open Jev with the category's only human-labeled head-to-head (Jev wins by 1.2 macro points) and an unlicensed repo.
 - [OpenAI Structured Outputs](hybrid-execution/openai-structured-outputs/index.md) - schema-guaranteed responses via constrained decoding.
 - [Outlines](hybrid-execution/outlines/index.md) - logit-masked generation following types, schemas, regexes, or grammars.
+- [SemIf](hybrid-execution/semif/index.md) - frozen open models reading typed option probabilities straight from the logits, with a client-side WebGPU demo, until this week named OpenJev.
 
 ## Code review
 

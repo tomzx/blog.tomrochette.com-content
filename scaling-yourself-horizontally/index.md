@@ -45,6 +45,10 @@ Andy Grove did the accounting decades ago in [High Output Management](https://en
 The same math applies to any engineer with systems.
 **Your output is what you produce directly plus what your systems produce in your absence.**
 
+The leverage accounting, as I run it today, looks like this:
+
+![Line chart: output rises until you step away and goes flat when working alone, while with systems built once it keeps rising in your absence](images/leverage-output.svg)
+
 Building systems is an old menu: teach, hire, document, automate.
 What changed is the cost of building one.
 Teaching a person takes months and produces one system that generalizes.

@@ -136,6 +136,16 @@ What the product is, which problem it solves, which abstractions it commits to, 
 Once a thousand features depend on a data model, the model is no longer negotiable.
 These decisions need a single owner, not because the owner is smarter but because coherence requires that someone be able to choose the global over the local.
 
+The split is a routing rule, and it is easiest to apply as a decision:
+
+```mermaid
+flowchart TD
+    D[A product decision] --> Q{Is it reversible}
+    Q -->|yes, a two-way door| R[Distribute it to the team closest to the context]
+    Q -->|no, a one-way door| O[Single decision-maker plus a written record]
+    O --> G[Someone can choose the global over the local]
+```
+
 **The failure mode of distributed product management is not that it distributes decisions.
 It is that it distributes the irreversible ones along with the reversible ones.**
 Most teams that suffer from "no product owner" are actually suffering from no owner for the small set of trajectory-setting decisions, while the reversible ones are handled fine.

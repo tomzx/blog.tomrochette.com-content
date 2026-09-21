@@ -55,7 +55,7 @@ That is the easy part, and it was never the part that made a process touchless.
 A touchless process is a closed loop.
 
 ```mermaid
-graph LR
+flowchart LR
     Observe --> Decide
     Decide --> Implement
     Implement --> Verify

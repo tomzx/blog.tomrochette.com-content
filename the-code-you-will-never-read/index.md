@@ -149,6 +149,18 @@ Compilers taught us that illegible output is normal and suite-verified.
 Legacy systems taught us to operate on pinned behavior when comprehension is gone.
 **Stack those techniques and you have the full practice for a codebase no one reads: instrumented by design, rolled out in stages, characterized by behavior, stress-tested by adversaries, suite-verified, and pinned by contracts.**
 
+Stacked, the six lessons assemble into a single practice:
+
+```mermaid
+flowchart TD
+    HW[Silicon designs testability in before the artifact exists] --> P[Practice for a codebase no one reads]
+    PH[Pharmacology stages exposure with independent oversight] --> P
+    BE[Behaviorism characterizes what a thing does instead of opening it] --> P
+    CR[Cryptography trusts by attack rather than inspection] --> P
+    CO[Compilers treat illegible output as normal and suite-verified] --> P
+    LE[Legacy systems operate on pinned behavior when comprehension is gone] --> P
+```
+
 ## What Understanding Means When You Cannot Read
 
 Engineers are going to resist this, so it is worth being precise about what is lost and what is gained.

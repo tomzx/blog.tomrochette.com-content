@@ -29,6 +29,10 @@ Review is a queue.
 Changes arrive at your coworker's production rate and leave at your review rate.
 When arrival exceeds service, the queue grows without bound, which is the whole story of your inbox.
 
+The failure is one queue with a single server:
+
+![Arrival of pull requests at generation speed crosses the flat human review rate, and the shaded queue grows without bound until reviews become rubber stamps](images/review-queue.svg)
+
 The instinctive response is to raise your service rate: read faster, review longer hours, take fewer breaks.
 Queueing theory says why that response fails even when it works.
 [Kingman's formula](https://en.wikipedia.org/wiki/Kingman%27s_formula) says that waiting time grows with variability divided by spare capacity, so as your utilization approaches one hundred percent, waits explode nonlinearly.

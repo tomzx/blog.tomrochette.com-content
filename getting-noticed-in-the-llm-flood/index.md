@@ -79,6 +79,10 @@ A real project leaves a wide trail, commits, issues, deployed systems, other peo
 The postmortem itself is cheap to hallucinate; the artifacts it references are not.
 The durable signal is not "does this read like lived experience" but "can I trace it to something independent of the author's word," and that is a harder bar than most writing clears.
 
+The verification chain a claim has to survive looks like this.
+
+![Funnel: claims with a verification surface trace to commit history, incident reports, or people who remember the work and earn trust, while claims with nothing to check are assumed generated and skipped](images/proof-of-work-funnel.svg)
+
 That bar is why the familiar examples carry weight only when they are traceable.
 A postmortem of a project that failed, with real numbers and real reasons, matters if you can link the project, the commit that introduced the bug, the incident report.
 An experiment you actually ran, with setup and outcome, matters if the setup is reproducible and the data is there.
