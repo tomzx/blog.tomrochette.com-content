@@ -1,0 +1,70 @@
+<svg viewBox="0 0 720 432" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t d">
+  <title id="t">Routing table: risk by confidence decides the next action for a pull request</title>
+  <desc id="d">A three by three grid. Rows are risk (low, medium, high) and columns are confidence (low, medium, high). Each cell names the next action: investigate, confirm, fast-track, decide, hold, or block.</desc>
+
+  <!-- Title and axis labels -->
+  <text x="360" y="36" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="18" font-weight="600" fill="#0f172a" text-anchor="middle">How the two scores route a pull request</text>
+  <text x="398" y="64" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="11" fill="#64748b" text-anchor="middle">Confidence of the evidence</text>
+  <text x="56" y="256" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="12" fill="#64748b" text-anchor="middle" transform="rotate(-90 56 256)">Risk of the change</text>
+
+  <!-- Column headers -->
+  <text x="210" y="92" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#64748b" text-anchor="middle">Low</text>
+  <text x="398" y="92" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#64748b" text-anchor="middle">Medium</text>
+  <text x="586" y="92" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#64748b" text-anchor="middle">High</text>
+
+  <!-- Row headers -->
+  <text x="108" y="156" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#64748b" text-anchor="end">Low</text>
+  <text x="108" y="260" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#64748b" text-anchor="end">Medium</text>
+  <text x="108" y="364" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#64748b" text-anchor="end">High</text>
+
+  <!-- Row 1: low risk -->
+  <g>
+    <rect x="120" y="104" width="180" height="96" rx="8" fill="#cbd5e1" fill-opacity="0.08" stroke="#cbd5e1" stroke-width="1.5"/>
+    <text x="210" y="150" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#475569" text-anchor="middle">investigate</text>
+    <text x="210" y="170" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="11" fill="#64748b" text-anchor="middle">review, then re-score</text>
+  </g>
+  <g>
+    <rect x="308" y="104" width="180" height="96" rx="8" fill="#94a3b8" fill-opacity="0.08" stroke="#94a3b8" stroke-width="1.5"/>
+    <text x="398" y="150" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#334155" text-anchor="middle">confirm</text>
+    <text x="398" y="170" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="11" fill="#64748b" text-anchor="middle">quick review, then merge</text>
+  </g>
+  <g>
+    <rect x="496" y="104" width="180" height="96" rx="8" fill="#16a34a" fill-opacity="0.1" stroke="#16a34a" stroke-width="1.5"/>
+    <text x="586" y="150" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#15803d" text-anchor="middle">fast-track</text>
+    <text x="586" y="170" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="11" fill="#64748b" text-anchor="middle">merge once checks pass</text>
+  </g>
+
+  <!-- Row 2: medium risk -->
+  <g>
+    <rect x="120" y="208" width="180" height="96" rx="8" fill="#cbd5e1" fill-opacity="0.08" stroke="#cbd5e1" stroke-width="1.5"/>
+    <text x="210" y="254" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#475569" text-anchor="middle">investigate</text>
+    <text x="210" y="274" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="11" fill="#64748b" text-anchor="middle">review, then re-score</text>
+  </g>
+  <g>
+    <rect x="308" y="208" width="180" height="96" rx="8" fill="#cbd5e1" fill-opacity="0.08" stroke="#cbd5e1" stroke-width="1.5"/>
+    <text x="398" y="254" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#475569" text-anchor="middle">investigate</text>
+    <text x="398" y="274" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="11" fill="#64748b" text-anchor="middle">review, then re-score</text>
+  </g>
+  <g>
+    <rect x="496" y="208" width="180" height="96" rx="8" fill="#2563eb" fill-opacity="0.1" stroke="#2563eb" stroke-width="2"/>
+    <text x="586" y="254" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#1d4ed8" text-anchor="middle">decide</text>
+    <text x="586" y="274" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="11" fill="#64748b" text-anchor="middle">read drivers, then choose</text>
+  </g>
+
+  <!-- Row 3: high risk -->
+  <g>
+    <rect x="120" y="312" width="180" height="96" rx="8" fill="#d97706" fill-opacity="0.1" stroke="#d97706" stroke-width="1.5"/>
+    <text x="210" y="358" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#b45309" text-anchor="middle">hold</text>
+    <text x="210" y="378" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="11" fill="#64748b" text-anchor="middle">treat as high risk</text>
+  </g>
+  <g>
+    <rect x="308" y="312" width="180" height="96" rx="8" fill="#d97706" fill-opacity="0.1" stroke="#d97706" stroke-width="1.5"/>
+    <text x="398" y="358" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#b45309" text-anchor="middle">hold</text>
+    <text x="398" y="378" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="11" fill="#64748b" text-anchor="middle">treat as high risk</text>
+  </g>
+  <g>
+    <rect x="496" y="312" width="180" height="96" rx="8" fill="#dc2626" fill-opacity="0.1" stroke="#dc2626" stroke-width="1.5"/>
+    <text x="586" y="358" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#b91c1c" text-anchor="middle">block</text>
+    <text x="586" y="378" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="11" fill="#64748b" text-anchor="middle">fix the drivers first</text>
+  </g>
+</svg>
