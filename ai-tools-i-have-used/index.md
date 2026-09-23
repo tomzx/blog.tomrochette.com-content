@@ -84,16 +84,20 @@ gantt
     title Model usage
     dateFormat YYYY-MM-DD
     axisFormat %b %Y
+    section Composer
     Composer 1          :done,   2026-01-01, 2026-03-13
     Composer 1.5        :done,   2026-02-09, 2026-03-19
     Composer 2 Fast     :done,   2026-03-20, 2026-04-30
     Composer 2.5        :done,   2026-05-19, 2026-08-28
+    section Claude Opus
     Claude Opus 4.6     :done,   2026-03-05, 2026-04-11
     Claude Opus 4.7     :done,   2026-04-16, 2026-05-29
     Claude Opus 4.8     :done,   2026-05-28, 2026-07-29
     Claude Opus 5       :done,   2026-07-27, 2026-08-06
+    section DeepSeek
     DeepSeek v4 Flash   :done,   2026-06-04, 2026-08-12
     DeepSeek v4.1 Flash :active, 2026-09-10, 2026-09-23
+    section GLM
     GLM 4.7             :done,   2026-02-08, 2026-04-20
     GLM 5               :done,   2026-02-14, 2026-04-14
     GLM 5.1             :done,   2026-04-15, 2026-06-13
