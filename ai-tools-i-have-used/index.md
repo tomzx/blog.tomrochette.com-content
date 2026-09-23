@@ -78,10 +78,25 @@ Legend:
 * 🔴 [OpenWebUI](https://openwebui.com/)
 
 # Models
+
+```mermaid
+gantt
+    title Model usage
+    dateFormat YYYY-MM-DD
+    axisFormat %b %Y
+    GLM 4.7           :done,   2026-02-08, 2026-04-20
+    GLM 5             :done,   2026-02-14, 2026-04-14
+    GLM 5.1           :done,   2026-04-15, 2026-06-13
+    DeepSeek v4 Flash :done,   2026-06-04, 2026-08-12
+    GLM 5.2           :done,   2026-06-14, 2026-08-17
+    GLM 5.3           :done,   2026-08-14, 2026-08-28
+    GLM 5.3 Flash     :active, 2026-08-26, 2026-09-23
+```
+
 * 🔴 Composer-1
 * 🔴 Composer-1.5
 * 🔴 Composer-2
-* 🔴 Xomposer-2.5
+* 🔴 Composer-2.5
 * 🔴 Claude Fable 5
 * 🔴 Claude Opus 4.1
 * 🔴 Claude Opus 4.5
