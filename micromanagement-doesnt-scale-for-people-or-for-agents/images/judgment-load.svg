@@ -1,0 +1,75 @@
+<svg viewBox="0 0 720 432" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t d">
+  <title id="t">Judgment calls demanded of one human as parallel agents grow, by supervision style</title>
+  <desc id="d">A line chart. Approving every agent step demands about 200 judgment calls per agent per hour and crosses a human's sustainable rate of about 100 per hour at half of one agent. Reviewing outcomes only demands about 4 calls per agent-hour and stays under the human capacity line even at ten parallel agents.</desc>
+
+  <!-- Title and subtitle -->
+  <text x="360" y="36" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="18" font-weight="600" fill="#0f172a" text-anchor="middle">Judgment calls one human faces as parallel agents grow</text>
+  <text x="360" y="58" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="11" fill="#64748b" text-anchor="middle">Approval-gated supervision versus outcome review</text>
+
+  <!-- Gridlines -->
+  <g stroke="#e2e8f0" stroke-width="1">
+    <line x1="100" y1="94" x2="660" y2="94"/>
+    <line x1="100" y1="158" x2="660" y2="158"/>
+    <line x1="100" y1="222" x2="660" y2="222"/>
+    <line x1="100" y1="286" x2="660" y2="286"/>
+    <line x1="212" y1="90" x2="212" y2="350"/>
+    <line x1="324" y1="90" x2="324" y2="350"/>
+    <line x1="436" y1="90" x2="436" y2="350"/>
+    <line x1="548" y1="90" x2="548" y2="350"/>
+    <line x1="660" y1="90" x2="660" y2="350"/>
+  </g>
+
+  <!-- Axes -->
+  <line x1="100" y1="90" x2="100" y2="350" stroke="#94a3b8" stroke-width="1.5"/>
+  <line x1="100" y1="350" x2="660" y2="350" stroke="#94a3b8" stroke-width="1.5"/>
+
+  <!-- Y tick labels -->
+  <g font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="11" fill="#64748b" text-anchor="end">
+    <text x="92" y="354">0</text>
+    <text x="92" y="290">200</text>
+    <text x="92" y="226">400</text>
+    <text x="92" y="162">600</text>
+    <text x="92" y="98">800</text>
+  </g>
+
+  <!-- X tick labels -->
+  <g font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="11" fill="#64748b" text-anchor="middle">
+    <text x="100" y="368">0</text>
+    <text x="212" y="368">2</text>
+    <text x="324" y="368">4</text>
+    <text x="436" y="368">6</text>
+    <text x="548" y="368">8</text>
+    <text x="660" y="368">10</text>
+  </g>
+
+  <!-- Axis titles -->
+  <text x="380" y="390" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="12" fill="#64748b" text-anchor="middle">agents running in parallel</text>
+  <text x="38" y="220" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="12" fill="#64748b" text-anchor="middle" transform="rotate(-90 38 220)">judgment calls demanded per hour</text>
+
+  <!-- Human capacity line: ~100 calls per hour -->
+  <line x1="100" y1="318" x2="660" y2="318" stroke="#d97706" stroke-width="2" stroke-dasharray="6 5" stroke-linecap="round"/>
+
+  <!-- Outcome review line: ~4 calls per agent-hour -->
+  <line x1="100" y1="350" x2="660" y2="337" stroke="#94a3b8" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="660" cy="337" r="4" fill="#94a3b8"/>
+
+  <!-- Step-gated supervision line: 200 calls per agent-hour -->
+  <polyline points="100,350 156,286 212,222 268,158 324,94" fill="none" stroke="#2563eb" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="324" cy="94" r="4" fill="#2563eb"/>
+
+  <!-- Crossover annotation -->
+  <circle cx="128" cy="318" r="4.5" fill="#d97706" stroke="#ffffff" stroke-width="1.5"/>
+  <text x="140" y="334" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="11" fill="#b45309">crossed at half of one agent</text>
+
+  <!-- Legend -->
+  <rect x="388" y="96" width="268" height="78" rx="8" fill="#94a3b8" fill-opacity="0.06" stroke="#cbd5e1" stroke-width="1"/>
+  <line x1="398" y1="114" x2="434" y2="114" stroke="#2563eb" stroke-width="2.5" stroke-linecap="round"/>
+  <text x="442" y="118" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="10.5" fill="#334155">approval-gated: 200/agent-hour</text>
+  <line x1="398" y1="136" x2="434" y2="136" stroke="#94a3b8" stroke-width="2.5" stroke-linecap="round"/>
+  <text x="442" y="140" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="10.5" fill="#334155">outcome review: 4/agent-hour</text>
+  <line x1="398" y1="158" x2="434" y2="158" stroke="#d97706" stroke-width="2" stroke-dasharray="6 5"/>
+  <text x="442" y="162" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="10.5" fill="#334155">human capacity: ~100/hour</text>
+
+  <!-- Note -->
+  <text x="360" y="410" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="11" fill="#64748b" text-anchor="middle">Illustrative orders of magnitude, not measurements; the policies differ by roughly fifty-fold.</text>
+</svg>
