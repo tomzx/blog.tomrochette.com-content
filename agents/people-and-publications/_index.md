@@ -23,6 +23,7 @@ Profiles of the people and websites steering this domain as it evolves, and the 
 - [Geoffrey Huntley](geoffrey-huntley/index.md) - the Ralph-loop methodologist who reduces agentic coding to a bash while-loop plus prompt discipline and then forecasts what that does to the industry.
 - [Hamel Husain](hamel-husain/index.md) - the eval-driven method for deciding whether an AI product actually works.
 - [Harper Reed](harper-reed/index.md) - the Obama-campaign CTO whose spec-first LLM codegen workflow became the HN-cited best practice for building software with agents.
+- [IndyDevDan](indydevdan/index.md) - the weekly agentic-engineering channel that names the frameworks and ships the harness repos, the worldview slot of the video band.
 - [Jesse Vincent](jesse-vincent/index.md) - the Superpowers builder who documents a sustained personal coding-agent practice and turns it into an installable, eval-measured methodology.
 - [Kent Beck](kent-beck/index.md) - the XP creator reframing TDD and software design discipline for coding agents, from augmented coding to the economics of programming deflation.
 - [Latent Space](latent-space/index.md) - the AI engineering newsletter-podcast-conference of record, by swyx and Alessio.
@@ -30,8 +31,10 @@ Profiles of the people and websites steering this domain as it evolves, and the 
 - [Mario Zechner](mario-zechner/index.md) - the creator of pi and libgdx, the minimalist contrarian of harness design who argues in long benchmarked posts that most agent features are baggage.
 - [Matt Pocock](matt-pocock/index.md) - the TypeScript educator turned AI-workflow teacher, whose AI Hero posts and skills repo turn agentic coding into an installable, exercise-driven curriculum.
 - [Nathan Lambert](nathan-lambert/index.md) - the inside-the-labs voice on models, post-training, and the open ecosystem.
+- [Owain Lewis](owain-lewis/index.md) - the quiet software-factory builder channel where every video ships with a runnable repo.
 - [Paul Gauthier](paul-gauthier/index.md) - the creator of aider, the pioneering open-source terminal pair programmer whose repo map and polyglot benchmark set the field's template.
 - [Peter Steinberger](peter-steinberger/index.md) - the OpenClaw creator and PSPDFKit founder now at OpenAI, shipping a torrent of agent tooling while his commentary moved from a 2025 blog hot streak to X.
+- [Ray Amjad](ray-amjad/index.md) - the Claude Code release deep-dive channel with a verification-first thesis and no sponsors.
 - [Shreya Shankar](shreya-shankar/index.md) - the Berkeley data-systems researcher making agent reliability measurable through DocETL, semantic operators, and the DAB benchmark.
 - [Simon Willison](simon-willison/index.md) - the daily, hands-on chronicler of tools and agents.
 - [Steve Yegge](steve-yegge/index.md) - the operative who predicted the agent era in essays and then built in it, Gas Town included until he shut it down in September 2026.
@@ -69,3 +72,6 @@ Its members are compared on shared rows in the [People and Publications Feature 
 - 2026-09-24 - Added Kent Beck.
 - 2026-09-24 - Added Paul Gauthier.
 - 2026-09-24 - Added Shreya Shankar.
+- 2026-09-24 - Added IndyDevDan.
+- 2026-09-24 - Added Owain Lewis.
+- 2026-09-24 - Added Ray Amjad.

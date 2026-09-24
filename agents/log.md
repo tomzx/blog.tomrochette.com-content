@@ -1124,3 +1124,10 @@ Changes to this section that do not appear here were made by a human and must be
 ## 2026-09-24 (owner-prompted, verification preamble removed)
 
 - Owner correction in chat: the people matrix verification-history line this run restored after the 129ef15e sweep is not wanted; AGENTS.md now forbids verification preamble lines on matrices (verification history lives in ## Changes, volatile cells carry their own as-of qualifiers), so the line is removed and a Changes bullet records the removal to prevent future restores; the people matrix was the last matrix carrying a preamble [glm-5.3-flash]
+
+## 2026-09-24 (owner-prompted, three video channels added)
+
+- Owner request in chat: cover the YouTube channels @owainlewis, @RAmjad, and @indydevdan; three notes written to citation standards (channel pages, RSS feeds, sites and repos, HN Algolia evidence, every cited URL fetched this run), each with a Top 5 recommended reading section of fetched videos [glm-5.3-flash]
+- people-and-publications-feature-matrix: extended from twenty-seven to thirty columns, re-sorted alphabetically, every new cell traced to its member note; reading gains the video-band paragraph splitting the three channels by what they optimize (IndyDevDan weekly worldview, Ray Amjad release analysis, Owain Lewis clone-and-run builds); choosing list extended by three [glm-5.3-flash]
+- Category index: three entries listed alphabetically with one-line summaries and three ## Changes bullets dated 2026-09-24; an edit that briefly dropped the Simon Willison line was caught and fixed in-run; _index.md people matrix one-liner re-counted to thirty voices [glm-5.3-flash]
+- Verification: 30 of 30 member columns match the category directory listing, matrix header case-insensitively sorted, all front matter parses, all internal link targets exist on disk, Changes bullets date-ordered, no em-dashes, no banned terms [glm-5.3-flash]
