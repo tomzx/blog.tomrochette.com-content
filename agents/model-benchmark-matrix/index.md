@@ -11,6 +11,7 @@ audience_notes: >
 ---
 
 This matrix indexes the model benchmarks an engineer actually meets on model cards, vendor blogs, and leaderboards, as of 2026-09-24, with one or two sentences per benchmark on what it evaluates and a note on how far I trust the reading.
+It covers thirty-two benchmarks.
 The curation rule: each board has an official site or paper I fetched this run, publishes results someone other than the submitter can check, and appears in recent model comparisons.
 That rule excludes the harness benchmarks ([FrontierHarness Eval](../evaluation-review/frontierharness-eval/index.md) and [HarnessTax](../evaluation-review/harnesstax/index.md)), which hold the model constant and judge the harness instead, and decision-model boards like [JevBench](../hybrid-execution/jevbench/index.md), which live in their own category.
 
@@ -54,7 +55,9 @@ That rule excludes the harness benchmarks ([FrontierHarness Eval](../evaluation-
 
 | Benchmark | What it evaluates | Reading notes |
 | --- | --- | --- |
-| [ARC-AGI-2](https://arcprize.org/arc-agi/2/) | Novel visual rule-induction puzzles calibrated so at least two humans solve every eval task within two tries, stressing symbolic interpretation, compositional reasoning, and context-dependent rules, with cost now reported as an efficiency metric. | Designed to resist brute-force scale, the board where fluid (not memorized) reasoning shows, and ARC-AGI-3's interactive 2026 competitions are already queued behind it. |
+| [ARC-AGI-1](https://arcprize.org/arc-agi/1/) | The original 2019 grid-puzzle benchmark from Chollet's On the Measure of Intelligence: 800 tasks where the system must deduce a transformation rule from a handful of example pairs, with semi-private and private held-out sets. | Unbeaten from 2019 until December 2024, when o3-preview scored 75 to 87 percent, now effectively saturated and retained as the efficiency reference point ARC-AGI-2 was built to replace. |
+| [ARC-AGI-2](https://arcprize.org/arc-agi/2/) | Novel visual rule-induction puzzles calibrated so at least two humans solve every eval task within two tries, stressing symbolic interpretation, compositional reasoning, and context-dependent rules, with cost now reported as an efficiency metric. | Designed to resist brute-force scale, the board where fluid (not memorized) reasoning shows. |
+| [ARC-AGI-3](https://arcprize.org/arc-agi/3/) | The first interactive reasoning benchmark: agents explore novel game environments, acquire goals on the fly, and learn from experience without natural-language instructions, where a perfect score means beating every game as efficiently as a human. | Measures skill-acquisition efficiency over time rather than final answers, so it tests a different thing than the static grids, and its 2026 competition board is too new to rank models on yet. |
 | [GPQA Diamond](https://arxiv.org/abs/2311.12022) | 448 graduate-level, Google-proof multiple-choice questions in biology, physics, and chemistry, written so PhD experts reach about 65 percent while skilled non-experts with web access manage 34. | The established frontier-science discriminator, now near the top of every reasoning model card. |
 | [Humanity's Last Exam](https://lastexam.ai/) | 2,500 expert-written questions across more than a hundred subjects at the frontier of closed-ended academic knowledge, with a private held-out set to detect overfitting. | Built by CAIS and Scale AI with roughly 1,000 contributor experts, published in Nature in January 2026, and forked into a rolling variant plus HLE-Diamond (released 2026-09-22) as saturation creeps up. |
 | [MMLU-Pro](https://arxiv.org/abs/2406.01574) | The harder successor to MMLU: ten answer options instead of four, reasoning-focused questions, and noise removed, cutting prompt sensitivity from 4-5 percent to about 2. | Treat plain MMLU as retired (frontier models clear 90 percent) and read MMLU-Pro as its replacement. |
@@ -106,6 +109,7 @@ When two boards rank the same models differently, the gap tells you where the mo
 ## Changes
 
 - 2026-09-24 - Created on owner request with thirty benchmarks in six groups, each summarized in one or two sentences, every cited external URL fetched this run.
+- 2026-09-24 - Extended the ARC-AGI coverage from one row to three, adding ARC-AGI-1 (saturated history) and ARC-AGI-3 (interactive reasoning) after the owner asked whether the series was fully covered.
 
 ## See also
 
@@ -135,7 +139,9 @@ When two boards rank the same models differently, the gap tells you where the mo
 - https://webarena.dev/ - the WebArena family (WebArena, WebArena-Infinity, VisualWebArena, TheAgentCompany) and its venue record (fetched 2026-09-24)
 - https://the-agent-company.com/ - TheAgentCompany's simulated-company premise (fetched 2026-09-24)
 - https://huggingface.co/spaces/gaia-benchmark/leaderboard - GAIA's three levels, exact-match scoring, public dev and private test split (fetched 2026-09-24)
+- https://arcprize.org/arc-agi/1/ - ARC-AGI-1's 800 tasks, 2019 origin, and the December 2024 o3-preview breakthrough scores (fetched 2026-09-24)
 - https://arcprize.org/arc-agi/2/ - ARC-AGI-2's human calibration, capability targets, efficiency metric, and the ARC-AGI-3 pipeline (fetched 2026-09-24)
+- https://arcprize.org/arc-agi/3/ - ARC-AGI-3's interactive game environments, efficiency-over-time scoring, and human-solvable design (fetched 2026-09-24)
 - https://arxiv.org/abs/2311.12022 - GPQA's 448 google-proof questions and expert-versus-non-expert gap (fetched 2026-09-24)
 - https://lastexam.ai/ - HLE's 2,500 questions, expert contributor base, Nature publication, held-out set, HLE-Rolling and HLE-Diamond forks (fetched 2026-09-24)
 - https://arxiv.org/abs/2406.01574 - MMLU-Pro's ten options, prompt stability, and the MMLU plateau it responds to (fetched 2026-09-24)

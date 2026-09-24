@@ -1148,3 +1148,10 @@ Changes to this section that do not appear here were made by a human and must be
 - Category index created with six one-line entries and six dated Added bullets; _index.md gained the matrix one-liner in Comparison matrices and the category line in Research index, both alphabetical [glm-5.3-flash]
 - LLM Stats is the only member with published prices, so it alone carries a Price history table (seeded with the 2026-09-24 baseline rows) [glm-5.3-flash]
 - Verification: 6 of 6 member directories match the index and matrix columns, all front matter parses, section order Changes/See also/References holds in every note, internal link targets exist on disk, columns case-insensitively sorted, no em-dashes, no banned terms [glm-5.3-flash]
+
+## 2026-09-24 (owner-prompted, ARC-AGI series completed in benchmark matrix)
+
+- Owner follow-up in chat: did the new matrix cover all the ARC-AGI benchmarks; it did not, only ARC-AGI-2 had a row with ARC-AGI-3 mentioned in passing [glm-5.3-flash]
+- Fetched arcprize.org/arc-agi/1 and /arc-agi/3 this run and extended the reasoning group to three ARC rows: ARC-AGI-1 (800 tasks, unbeaten 2019 to December 2024, now saturated) and ARC-AGI-3 (interactive game environments, skill-acquisition efficiency scoring) join ARC-AGI-2, whose reading note lost the now-redundant ARC-AGI-3 pointer [glm-5.3-flash]
+- Intro states the total (thirty-two), two reference entries added, Changes bullet appended; _index.md one-liner re-counted to thirty-two [glm-5.3-flash]
+- Verification: new URLs fetched, internal links resolve, no em-dashes, no banned terms [glm-5.3-flash]
