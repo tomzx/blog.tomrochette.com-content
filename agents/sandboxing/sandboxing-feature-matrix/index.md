@@ -1,7 +1,7 @@
 ---
 title: "Sandboxing Feature Matrix"
 created: 2026-08-30
-updated: 2026-09-21
+updated: 2026-09-24
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3-flash, comparison, sandboxing, isolation, security]
 readability: 3
@@ -12,11 +12,10 @@ audience_notes: >
 
 This matrix compares the eight members of the Sandboxing category: the Kubernetes orchestrator, the kernel-enforced wrapper, the provisioning driver, the disposable-VM workstation tool, the E2B-compatible microVM service, the framework with sandbox tiers, the general-purpose sandbox platform, and the policy runtime.
 The Kind row is what keeps this category legible: five columns are isolation boundaries (three workstation-scale, two platform-scale services), one is an orchestrator around boundaries, one is a framework that consumes boundaries, and one feeds repositories into all of them.
-Everything below was re-verified against live sources on 2026-09-21.
 
 **Isolation is cheap to claim and expensive to enforce, so the deciding rows are the mechanism and the maturity: a kernel boundary nobody has audited loses to a container boundary a vendor stands behind.**
 
-Legend: ✓ supported, ✗ not supported, ~ partial or conditional, ? not verified as of the date above.
+Legend: ✓ supported, ✗ not supported, ~ partial or conditional, ? not verified.
 Each column links to the full research note; every cell below traces to a source cited there or in the references.
 
 ## The matrix
@@ -65,6 +64,7 @@ A matrix that pretended all eight were equivalent would be lying by layout.
 - 2026-09-16 - Extended from six to eight columns (CubeSandbox, OpenSandbox), re-sorted alphabetically, with the boundary, backing, credential, and audit prose updated for eight members.
 - 2026-09-18 - Agent Sandbox maturity cell updated to the v1.0.3 tag (released 2026-09-17); every other cell re-verified against the refreshed notes and unchanged.
 - 2026-09-21 - Refreshed the community-signal cells for CubeSandbox (12.6k), Flue (8.3k), OpenSandbox (15.4k), and OpenShell (8.7k stars, ~120 contributors); all other cells re-verified unchanged.
+- 2026-09-24 - Removed the verification preamble line on owner request.
 
 ## See also
 

@@ -55,9 +55,18 @@ I read the trajectory as: methodology in 2025, product in 2026, with the open me
 **Recommended for engineers designing their own agent runtime who want battle-tested principles for context ownership, state, and human checkpoints.**
 Not for people who want regular written analysis, model research, or a neutral survey of alternatives, since his job is now to sell the stack that implements the principles.
 
+## Top 5 recommended reading
+
+- [12-Factor Agents](https://github.com/humanlayer/12-factor-agents) - The methodology itself, twelve principles from owning your context window to stateless reducers, the vocabulary agent builders now share.
+- [12-Factor Agents: Patterns of reliable LLM applications (AI Engineer talk)](https://www.youtube.com/watch?v=8kMaTybvDUw) - His 17-minute AI Engineer World's Fair talk, the fastest way to hear the argument in his own voice.
+- [12-factor Agents: Patterns of reliable LLM applications (Show HN thread)](https://news.ycombinator.com/item?id=43699271) - The launch thread where he answered framework defenders, eval skeptics, and cost arguments point by point.
+- [AI That Works](https://github.com/ai-that-works/ai-that-works) - The weekly show he runs with Vaibhav Gupta, 76 numbered episodes with working code for every claim.
+- [A Brief History of Ralph](https://humanlayer.dev/blog/brief-history-of-ralph) - His first-person account of the viral Ralph Wiggum loop technique, his best durable blog post.
+
 ## Changes
 
 - 2026-09-24 - Created.
+- 2026-09-24 - Added the Top 5 recommended reading section.
 
 ## See also
 

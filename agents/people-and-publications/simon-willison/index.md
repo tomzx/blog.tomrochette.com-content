@@ -63,6 +63,14 @@ The blog is sponsor-funded (GitHub sponsors at $10/month buy a monthly curated d
 **Recommended for any engineer who works with LLMs daily and wants a low-DSP, high-signal feed plus a searchable archive of working patterns.**
 Not for people who prefer periodic synthesis over daily volume, or who want a vendor-neutral enterprise take.
 
+## Top 5 recommended reading
+
+- [Vibe engineering](https://simonwillison.net/2025/Oct/7/vibe-engineering/) - the essay that names the disciplined end of AI-assisted programming and lists the senior-engineering skills it rewards.
+- [Designing agentic loops](https://simonwillison.net/2025/Sep/30/designing-agentic-loops/) - the practical guide to YOLO mode, sandboxing, and picking the right tools for coding agents.
+- [The Dual LLM pattern for building AI assistants that can resist prompt injection](https://simonwillison.net/2023/Apr/25/dual-llm-pattern/) - the foundational writeup on prompt injection, confused-deputy attacks, and exfiltration defenses.
+- [LLM predictions for 2026, shared with Oxide and Friends](https://simonwillison.net/2026/Jan/8/llm-predictions-for-2026/) - his public predictions on code quality, sandboxing, and agent security, each with the reasoning behind it.
+- [Agentic Engineering Patterns](https://simonwillison.net/guides/agentic-engineering-patterns/) - his distilled, ongoing guide to the working practices the daily feed keeps testing.
+
 ## Changes
 
 - 2026-08-29 - Created in the People and publications category seed.
@@ -70,6 +78,7 @@ Not for people who prefer periodic synthesis over daily volume, or who want a ve
 - 2026-09-18 - Posting recency refreshed: the homepage now shows daily posts through 17 September 2026.
 - 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
 - 2026-09-22 - Posting recency refreshed: daily posts through 22 September 2026, led by the Opus 5.5/GPT-6 Sol/Luna price-war essay; he also announced a San Francisco agentic-engineering Birds of a Feather session with Jesse Vincent for 14 October.
+- 2026-09-24 - Added the Top 5 recommended reading section.
 
 ## See also
 

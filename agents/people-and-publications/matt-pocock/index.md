@@ -55,9 +55,18 @@ The trajectory is complete: TypeScript education is now the on-ramp, AI Hero and
 **Recommended for working engineers who want an opinionated, installable set of agent workflows and are comfortable with a TypeScript- and Claude Code-weighted lens.**
 Not for anyone seeking model research, benchmarks, or vendor-neutral evaluation of agent tooling.
 
+## Top 5 recommended reading
+
+- [My "Grill Me" Skill Went Viral](https://www.aihero.dev/my-grill-me-skill-has-gone-viral) - The intro to his most popular skill, a two-minute read showing his method of encoding engineering discipline as installable text.
+- [Skills for Real Engineers](https://github.com/mattpocock/skills) - The MIT-licensed skills repo behind the agent-skills wave, each skill small, composable, and forkable.
+- [5 Agent Skills I Use Every Day](https://www.aihero.dev/5-agent-skills-i-use-every-day) - His daily-driver workflows in his own words, the practical companion to the skills catalogue.
+- [A Complete Guide To AGENTS.md](https://www.aihero.dev/a-complete-guide-to-agents-md) - His deepest single practical guide, the reference piece for the file that structures agent work.
+- [Total TypeScript](https://www.totaltypescript.com/) - The exercise-driven TypeScript curriculum where his teaching method was built, the foundation under everything at AI Hero.
+
 ## Changes
 
 - 2026-09-24 - Created.
+- 2026-09-24 - Added the Top 5 recommended reading section.
 
 ## See also
 

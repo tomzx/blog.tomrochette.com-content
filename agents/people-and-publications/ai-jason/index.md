@@ -58,6 +58,14 @@ The AI Builder Club community is paid, and he sells a Claude Code playbook; past
 **Recommended for the practitioner who learns best by watching a working agent or AI-app workflow executed end to end, especially context engineering.**
 Not for someone who wants reference-grade depth, a durable archive, or a rigorous evaluation method.
 
+## Top 5 recommended reading
+
+- [I was using Claude Code wrong... The Ultimate Workflow](https://www.youtube.com/watch?v=UZb0if-7wGE) - The end-to-end Claude Code workflow the channel is known for, showing how scaffolding turns raw agent output into a repeatable production process.
+- [I was giving my coding agent context the wrong way...](https://www.youtube.com/watch?v=iWRmtPdFbGw) - His clearest context engineering lesson, showing that what you feed the agent matters more than the wording of the prompt.
+- [.agent folder is making claude code 10x better...](https://www.youtube.com/watch?v=MW3t6jP9AOs) - Shows how a simple folder of standing project context makes Claude Code dramatically more reliable on real codebases.
+- [Tmux + Fable = Cut 35% less token](https://www.youtube.com/watch?v=wCSPgHpcxdc) - The token cutting video, orchestrating a strong planner over cheap worker models through tmux to cut token spend by about a third.
+- [How to install and use Claude Code Agent Teams (Reverse-engineered)](https://www.youtube.com/watch?v=S2WTTMXYcYY) - He reverse engineers Claude Code agent teams and shows how to install and run them, the closest thing to his agent loops walkthrough.
+
 ## Changes
 
 - 2026-08-29 - Created as the video-practitioner band in People and publications, recording 230K subscribers and 99 videos.
@@ -65,6 +73,7 @@ Not for someone who wants reference-grade depth, a durable archive, or a rigorou
 - 2026-09-16 - Latest upload moved to 2026-09-15 ("How to run your first AI UGC campaign"), the first video since 2026-08-25.
 - 2026-09-18 - Video count moved to 101 (from 100); no new uploads since the 2026-09-15 video.
 - 2026-09-22 - Latest upload moved to 2026-09-21 ("Jev + Treg is a crazy combo for automation..."); video count moved to 102 with 9.1M total views per third-party stats.
+- 2026-09-24 - Added the Top 5 recommended reading section.
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: "Control Planes Feature Matrix"
 created: 2026-08-27
-updated: 2026-09-21
+updated: 2026-09-24
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, comparison, control-planes, agent-operations]
 readability: 3
@@ -11,11 +11,10 @@ audience_notes: >
 ---
 
 This matrix compares the agent control planes profiled in this section: the flagship and the first stall record, so the category's consolidation story sits in one table.
-Everything below was verified against live sources on 2026-09-21.
 
 **A control plane is not a dashboard with more panels, it is an org (budgets, approvals, chain of command) wrapped around a heartbeat scheduler, and the second column below is the stall record proving the category fits exactly one open-source flagship.**
 
-Legend: ✓ supported, ✗ not supported, ~ partial or conditional, ? not verified as of the date above.
+Legend: ✓ supported, ✗ not supported, ~ partial or conditional, ? not verified.
 
 ## The matrix
 
@@ -56,6 +55,7 @@ The employee side has its own category, [Assistant runtimes](../../assistant-run
 - 2026-09-10 - OtoDock added to the long tail on rejection.
 - 2026-09-18 - Paperclip status cell refreshed (about 81k stars, 5,497 open issues) and Blue added to the long tail on rejection.
 - 2026-09-21 - Paperclip and TinyAGI status cells refreshed (5,566 open issues; stall record unchanged).
+- 2026-09-24 - Removed the verification preamble line on owner request.
 
 ## See also
 

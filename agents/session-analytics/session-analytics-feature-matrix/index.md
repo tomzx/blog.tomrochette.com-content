@@ -1,7 +1,7 @@
 ---
 title: "Session Analytics Feature Matrix"
 created: 2026-08-30
-updated: 2026-09-20
+updated: 2026-09-24
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3-flash, comparison, session-analytics, observability, token-usage]
 readability: 3
@@ -12,11 +12,10 @@ audience_notes: >
 
 This matrix compares the four members of the Session analytics category: tools that turn what your coding agents record (or are recording right now) into live views, searchable history, cost reports, and audits.
 The category now covers both halves of the job: agents-observe, the live hook-fed dashboard, agentsview, the broad retrospective archive, ctx, the search-and-attribution CLI, and Memex, the search-and-resume TUI.
-Everything below was verified against live sources on 2026-09-21.
 
 **The category's founding question, retrospective archive versus live observation, now has both answers plus a closing move: agentsview indexes what every agent already did and cost across 60-plus formats, ctx answers where did this line of code come from, agents-observe answers what is my agent doing right now (though only for Claude Code and Codex), and Memex answers where did I already do this, then drops you back into the session that did it.**
 
-Legend: ✓ supported, ✗ not supported, ~ partial or conditional, ? not verified as of the date above.
+Legend: ✓ supported, ✗ not supported, ~ partial or conditional, ? not verified.
 Each column links to the full research note; every cell traces to a source cited there or in the references.
 
 ## The matrix
@@ -69,6 +68,7 @@ ctx's moat is different: agent-facing retrieval, where the consumer of the searc
 - 2026-09-18 - ctx agents-covered cell updated after the docs began listing about 40 supported agent harnesses.
 - 2026-09-20 - Extended from three to four columns with Memex, inserted last alphabetically, every row gaining a cell traced to the new note, with the reading and choosing prose extended.
 - 2026-09-20 - Corrected the schema caution in the reading prose: the docs' usage JSON contract is at schema version 5, version 6 is the session-export schema.
+- 2026-09-24 - Removed the verification preamble line on owner request.
 
 ## See also
 

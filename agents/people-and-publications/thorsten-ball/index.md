@@ -55,9 +55,18 @@ The books are stable but frozen at their May 2020 editions (v1.7 and v1.2), so t
 **Recommended for engineers who want to watch a working developer run production software through an agent, and for anyone who learns by building what the books build.**
 Not for readers who want vendor-neutral tool comparisons, budget harness options, or a newsletter of deep technical essays.
 
+## Top 5 recommended reading
+
+- [Writing An Interpreter In Go](https://interpreterbook.com) - the build-it-yourself path into what an agent is actually manipulating when it edits code.
+- [Writing A Compiler In Go](https://compilerbook.com) - the sequel that continues from interpreter to bytecode compiler and virtual machine.
+- [Working Day to Day in Amp](https://ampcode.com/docs/using-amp/a-day-in-amp) - his 26-minute screencast of a real working day running production software through agents.
+- [Amp Frontier Corporation](https://ampcode.com/news/amp-inc) - the spinout announcement he co-signed, with the profitability claim that set the terms of coverage.
+- [Register Spill](https://registerspill.thorstenball.com) - his weekly newsletter of engineering observations, the ongoing signal feed between the books and the product.
+
 ## Changes
 
 - 2026-09-24 - Created.
+- 2026-09-24 - Added the Top 5 recommended reading section.
 
 ## See also
 

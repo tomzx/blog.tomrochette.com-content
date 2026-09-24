@@ -1,7 +1,7 @@
 ---
 title: "Model Provider Feature Matrix"
 created: 2026-09-08
-updated: 2026-09-20
+updated: 2026-09-24
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3-flash, comparison, model-selection, llm-pricing]
 readability: 3
@@ -11,11 +11,10 @@ audience_notes: >
 ---
 
 This matrix compares the seven model providers behind every model in the [Model Selection guide](../model-selection-for-coding-tasks/index.md), provider by provider, so the vendor choice is as visible as the model choice.
-Everything below was re-verified against live sources on 2026-09-21: each cell traces to the guide's verified pricing table, to provider pages fetched during this run, or to the models.dev list reference the guide uses for model ids, release dates, and context windows.
 
 **Provider choice is a bundle decision, list price, cache discount, batch policy, context flatness, weights, and where your subscription does and does not transfer, and the challengers win that bundle on every axis except subscriptions.**
 
-Legend: ✓ supported, ✗ not supported, ~ partial or conditional, ? not verified as of the date above.
+Legend: ✓ supported, ✗ not supported, ~ partial or conditional, ? not verified.
 Each column links to the provider's canonical pricing page; every cell traces to the guide or to a source cited in its references.
 
 ## The matrix
@@ -63,6 +62,7 @@ The subscription row runs the other way: only OpenAI and Anthropic ship a first-
 - 2026-09-16 - Updated the Moonshot workhorse cell for OpenRouter's kimi-k2.7-code cut to $3.21 and moved its cache discount to one quarter.
 - 2026-09-18 - Updated the Moonshot flagship cell for OpenRouter's kimi-k3 cut to $2.10 / $10.95.
 - 2026-09-20 - Updated the Moonshot flagship cell again for OpenRouter's kimi-k3 cut to $1.70 / $8.50 with cache hits at $0.17, and moved its cache-discount cell from about one ninth to one tenth.
+- 2026-09-24 - Removed the verification preamble line on owner request.
 
 ## See also
 

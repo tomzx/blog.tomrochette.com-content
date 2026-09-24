@@ -58,11 +58,20 @@ Revenue is ad and sponsor-funded, with recurring sponsor reads (DevRev, Cline, M
 **Recommended for engineers who want current-events fluency on models and agentic concepts in minutes, and who will treat each video as a starting pointer rather than a verdict.**
 Not for someone who wants tool-tested practice, reference-grade depth, or an ad-free editorial voice.
 
+## Top 5 recommended reading
+
+- [Why harness is SO expensive..](https://www.youtube.com/watch?v=8ji5vURIllM) - His most instructive concept video, breaking down why system prompts, loops, and caching make agent harness overhead rival model cost.
+- [Graph Engineering explained in 8min..](https://www.youtube.com/watch?v=mBePcvqLX88) - Explains graph engineering as the step beyond linear agent workflows, one of the concept videos this note singles out.
+- [Agents are slower than LLMs?](https://www.youtube.com/watch?v=CHnyeYsN3ZA) - Explains why tool calls make agents slower than raw model inference, vocabulary every agent engineer now needs.
+- [Pi Agent explained in 6min..](https://www.youtube.com/watch?v=FJxgz5pN4wU) - A representative concept explainer and among his most watched, showing the speed and clarity that made the channel grow.
+- [AI News](https://www.youtube.com/playlist?list=PL-U65abzYqA9MXCq-8kwWSOQTGrIJIcSC) - His running AI news playlist, the fastest way to see the model-release coverage lane at a glance.
+
 ## Changes
 
 - 2026-08-29 - Created as a People and publications research note, with the sponsor-density and no-critical-community cautions recorded at creation.
 - 2026-09-18 - Counts refreshed to 112K subscribers, 120 videos, and 7,954,087 total views; latest upload moved to 2026-09-16 (DeepSeek V4.1 Flash); sponsor ratio recounted at 12 of the last 15, unchanged.
 - 2026-09-20 - Counts refreshed to 121 videos and 8,108,106 total views (112K subscribers held); latest upload moved to 2026-09-19 (Jev); sponsor ratio recounted at 13 of the last 15.
+- 2026-09-24 - Added the Top 5 recommended reading section.
 
 ## See also
 

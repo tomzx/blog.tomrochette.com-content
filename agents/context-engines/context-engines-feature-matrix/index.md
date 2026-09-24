@@ -11,11 +11,10 @@ audience_notes: >
 ---
 
 This matrix compares the eight context tools profiled in this section, feature by feature, so the shortlisting step does not require reading eight notes.
-Everything below was re-verified against live sources on 2026-09-22, with the Greptile column removed on 2026-08-30 when the note moved to the Code review category.
 
 **The interesting question is not which engine is best but whether a repository needs one at all: most codebases sit below the only published payback threshold in the category, and I claim most buyers of these engines are paying for an index their own vendors' data cannot justify.**
 
-Legend: ✓ supported, ✗ not supported, ~ partial or conditional, ? not verified as of the date above.
+Legend: ✓ supported, ✗ not supported, ~ partial or conditional, ? not verified.
 Each column links to the full research note; every cell traces to a source cited there or in the references.
 
 ## The matrix
@@ -77,6 +76,7 @@ Augment's 33% token savings, Sourcegraph's cost deltas, Semble's 99%-fewer-token
 - 2026-09-16 - Re-dated the re-verification and updated the Graphify pricing cell for the new monthly billing options and the early-access Enterprise tier.
 - 2026-09-20 - Repointed the Graft references to the canonical trailhq/Graft repository after the GitHub org rename; no cells moved.
 - 2026-09-24 - Renamed the Sourcegraph column to its listing title, Sourcegraph code context platform; no cells moved.
+- 2026-09-24 - Removed the verification preamble line on owner request.
 
 ## See also
 

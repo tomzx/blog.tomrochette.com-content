@@ -11,7 +11,6 @@ audience_notes: >
 ---
 
 This matrix compares the twenty-one people-and-publications profiled in this category, row by row, so deciding what to follow does not require reading twenty-one notes blind.
-Everything below was verified against live primary sources on 2026-08-29, re-verified on 2026-08-30, re-verified again on 2026-09-02, when Addy Osmani joined the columns, re-verified on 2026-09-04, re-verified on 2026-09-05 with no cell changes, re-verified on 2026-09-06 with no cell changes, re-verified on 2026-09-07 with no cell changes, re-verified on 2026-09-08 with no cell changes, re-verified on 2026-09-09 with no cell changes, re-verified on 2026-09-10 with no cell changes, and re-verified on 2026-09-12, updating the Osmani enterprise-vantage cell after his departure from Google, and re-verified on 2026-09-13, correcting the Yegge primary-platform cell to his yegge.ai site and the AI Jason cadence to two to three videos a month, and re-verified on 2026-09-16 with no cell changes, and re-verified on 2026-09-18, updating the Osmani enterprise-vantage cell after his move from Google to Anthropic and the Yegge builds-tools cell after he shut Gas Town down, and re-verified on 2026-09-20 with no cell changes, and re-verified on 2026-09-21 with no cell changes, and re-verified on 2026-09-22 with no cell changes, and extended from thirteen to twenty-one columns on 2026-09-24 with eight members commissioned by the owner (Boris Cherny, Thorsten Ball, Mario Zechner, Armin Ronacher, Peter Steinberger, Dax Raad, Dex Horthy, and Matt Pocock), every new cell traced to its member note.
 
 **The axis that actually segments the field is what each voice gives you: hands-on tool practice, an evaluation method, the model-and-research layer, industry-and-org analysis, or a structured on-ramp, and the personalities span all five, with the hands-on band now the largest, split between the harness builders, the chroniclers, and the enterprise vantage.**
 
@@ -90,6 +89,7 @@ Dex Horthy supplies the design principles (12-Factor Agents) and Matt Pocock the
 - 2026-09-13 - Corrected the Yegge primary-platform cell to his yegge.ai site (165 essays there, Substack carrying no published posts) and aligned the AI Jason cadence cell to two to three videos a month.
 - 2026-09-18 - Updated the Osmani enterprise-vantage cell after his move from Google to Anthropic and the Yegge builds-tools cell after he shut Gas Town down; no membership change, columns stay at thirteen.
 - 2026-09-24 - Extended from thirteen to twenty-one columns with the owner-commissioned harness-author wave (Boris Cherny, Thorsten Ball, Mario Zechner, Armin Ronacher, Peter Steinberger, Dax Raad, Dex Horthy, Matt Pocock), columns re-sorted alphabetically, thesis and reading rewritten for the harness-builder cluster, intro and choosing list extended, every new cell traced to its member note.
+- 2026-09-24 - Removed the verification preamble line on owner request.
 
 ## See also
 

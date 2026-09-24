@@ -1,7 +1,7 @@
 ---
 title: "Spec Driven Development Feature Matrix"
 created: 2026-08-27
-updated: 2026-09-21
+updated: 2026-09-24
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, comparison, spec-driven-development, process, llm=glm-5.3-flash]
 readability: 3
@@ -11,11 +11,10 @@ audience_notes: >
 ---
 
 This matrix compares the five spec-driven development tools profiled in this section, feature by feature.
-Everything below was re-verified against live sources on 2026-09-21.
 
 **The category splits on two axes: who owns the specs (your repo or a platform) and whether the ceremony sizes itself to the change, and the waterfall critique is the standing judge of the second axis, while the new column adds a third question, whether the steward survives their own controversy.**
 
-Legend: ✓ supported, ✗ not supported, ~ partial or conditional, ? not verified as of the date above.
+Legend: ✓ supported, ✗ not supported, ~ partial or conditional, ? not verified.
 Each column links to the full research note; every cell below traces to a source cited there or in the references.
 
 ## The matrix
@@ -60,6 +59,7 @@ If your changes are mostly small, that row alone picks your column.
 - 2026-09-16 - Refreshed the Spec Kit adoption cell to about 137k stars after the v1.0.7 release.
 - 2026-09-16 - Extended from four to five columns with GSD (the archived get-shit-done lineage plus the active gsd-core successor), inserted alphabetically, every row gaining a cell, and the reading prose extended to the stewardship question.
 - 2026-09-21 - Refreshed the GSD and OpenSpec adoption cells after their star and npm-download counts moved.
+- 2026-09-24 - Removed the verification preamble line on owner request.
 
 ## See also
 

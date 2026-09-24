@@ -52,9 +52,18 @@ The essays reliably reach the Hacker News front page: "996" drew 1,058 points, "
 **Recommended for engineers who want a measured, senior, skeptical counterweight to agent hype, grounded in published experiments.**
 Not for daily tool churn, model news, or anyone who wants enthusiasm without invoices.
 
+## Top 5 recommended reading
+
+- [Astra for Coding: Why Are We Doing This Again?](https://lucumr.pocoo.org/2026/9/7/astra-why/) - the quantified skeptical case, publishing his own runtime hours and API spend where nothing of value emerged.
+- [Better Models: Worse Tools](https://lucumr.pocoo.org/2026/7/4/better-models-worse-tools/) - the deep dive that traces a tool-call regression down to in-band encoding and training inside a forgiving harness, then questions the tool schema contract.
+- [The Tower Keeps Rising](https://lucumr.pocoo.org/2026/7/13/the-tower-keeps-rising/) - the argument that agents remove the coordination friction that kept a codebase's shared language alive.
+- [The Coming Loop](https://lucumr.pocoo.org/2026/6/23/the-coming-loop/) - his uneasy accounting of harness-level loops and what it means to ship code you cannot fully explain.
+- [Before GitHub](https://lucumr.pocoo.org/2026/4/28/before-github/) - the open-source history essay that shows the maintainer perspective underneath all his agent writing.
+
 ## Changes
 
 - 2026-09-24 - Created after two earlier runs deferred him as a duplicate voice; the owner commissioned this note to pin the skeptical senior-engineer slot.
+- 2026-09-24 - Added the Top 5 recommended reading section.
 
 ## See also
 

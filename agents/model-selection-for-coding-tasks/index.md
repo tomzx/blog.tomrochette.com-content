@@ -1,7 +1,7 @@
 ---
 title: "Model Selection for Coding Tasks"
 created: 2026-08-24
-updated: 2026-09-20
+updated: 2026-09-24
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, model-selection, coding-agents, llm-pricing]
 readability: 3
@@ -10,8 +10,7 @@ audience_notes: >
   Assumes you know what input and output tokens cost and what a prompt cache does.
 ---
 
-This is a maintained, opinionated guide to choosing models for coding, review, and agentic work.
-Everything below was verified against live pricing pages and benchmark sources on 2026-09-04; every provider price was re-checked on 2026-09-05, 2026-09-06, 2026-09-07, and 2026-09-08 and none moved; on 2026-09-09 Kimi cut kimi-k2.7-code's price on OpenRouter, and this page moved with it; on 2026-09-10 the GLM-5.3-Flash promo resolved into its list price and DeepSeek shipped the cheaper V4.1-Flash while announcing V4 Pro's retirement, and this page moved with both; on 2026-09-12 OpenRouter cut kimi-k3 to $2.65/$13.28 while Moonshot's own page still listed $3/$15, and DeepSeek's pricing page cancelled the planned 2026-09-14 V4 Pro routing, and this page moved with both; on 2026-09-13 every provider price was re-checked against live pages and none moved; on 2026-09-16 OpenRouter cut kimi-k2.7-code to $0.71/$3.21 with cache hits at $0.18 while Moonshot's own page still listed $0.95/$4.00, and this page moved with it; on 2026-09-18 OpenRouter cut kimi-k3 to $2.10/$10.95 with cache hits at $0.23 while Moonshot's own page still listed $3/$15, and this page moved with it; on 2026-09-20 OpenRouter cut kimi-k3 again, to $1.70/$8.50 with cache hits at $0.17, while Moonshot's own page still listed $3/$15 and every other provider price re-checked that day held, and this page moved with the one; on 2026-09-21 every provider price was re-checked against the live pages and none moved.
+This is a maintained, opinionated guide to choosing models for coding, review, and agentic work; prices and benchmarks below are as of 2026-09-21.
 
 **Model selection for coding is an economics decision before it is a capability decision: run the workhorse tier for the loop, buy the frontier by the minute, and give the reading to the cheap models.**
 The part most engineers get backwards: **for anyone paying per token, the harness you run moves your bill about as much as the model you pick, and sometimes more.**
@@ -145,6 +144,7 @@ A fact that cannot survive that re-fetch gets deleted rather than hedged.
 - 2026-09-16 - Recorded OpenRouter's kimi-k2.7-code cut to $0.71/$3.21 with cache hits at $0.18 while Moonshot's own page still lists $0.95/$4.00.
 - 2026-09-18 - Recorded OpenRouter's kimi-k3 cut to $2.10/$10.95 with cache hits at $0.23 while Moonshot's own page still lists $3/$15.
 - 2026-09-20 - Recorded OpenRouter's kimi-k3 cut to $1.70/$8.50 with cache hits at $0.17 while Moonshot's own page still lists $3/$15, and added Z.ai's GLM-5.3-FlashX, released 2026-09-18 at $0.37/$1.25, to the lineup table and the challengers section.
+- 2026-09-24 - Replaced the verification preamble with a single as-of clause in the intro on owner request.
 
 ## See also
 

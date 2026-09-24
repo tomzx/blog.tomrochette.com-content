@@ -1,7 +1,7 @@
 ---
 title: "Code Review Feature Matrix"
 created: 2026-08-30
-updated: 2026-09-21
+updated: 2026-09-24
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3-flash, comparison, code-review, ai-review, developer-tools]
 readability: 3
@@ -11,11 +11,10 @@ audience_notes: >
 ---
 
 This matrix compares the eight AI code-review tools profiled in this section, feature by feature, so the shortlisting step does not require reading eight notes.
-Everything below was re-verified against the refreshed member notes and live sources on 2026-09-21; the three columns added on 2026-08-30 were Graphite Diamond, Kodus, and Sourcery.
 
 **The deciding row is not review quality, which nobody has independently benchmarked, but where your code runs: five columns are vendor clouds, one runs in your VPC, two run entirely on your infrastructure with your keys, Graphite Diamond arrives already consolidated as a Cursor property, and the category's most-repeated outside fact is that the two biggest commercial reviewers both have Kudelski-disclosed exploit histories.**
 
-Legend: ✓ supported, ✗ not supported, ~ partial or conditional, ? not verified as of the date above.
+Legend: ✓ supported, ✗ not supported, ~ partial or conditional, ? not verified.
 Each column links to the full research note; every cell traces to a source cited there or in the references.
 
 ## The matrix
@@ -70,6 +69,7 @@ Its pricing now leads with a free on-ramp for individuals who bring their own Ch
 - 2026-09-18 - Re-verified all cells; refreshed the Kodus and OpenCodeReview maturity cells and updated the Ellipsis free-individual subscription wording.
 - 2026-09-20 - Refreshed the OpenCodeReview maturity cell to 37.9k stars and 131 releases and the Qodo cell to 13,054 stars; Kodus held at 1,397 stars.
 - 2026-09-21 - Refreshed the Kodus (1,409), OpenCodeReview (38.7k), Qodo (13,089), and Sourcery (1,869) maturity cells; all other cells re-verified unchanged.
+- 2026-09-24 - Removed the verification preamble line on owner request.
 
 ## See also
 

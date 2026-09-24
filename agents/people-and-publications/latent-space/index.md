@@ -57,6 +57,14 @@ The newsletter, podcast, and conference tickets carry their own price points; a 
 **Recommended for anyone who wants the industry-level, interview-driven view of AI engineering and the conference network that ties it together.**
 Not for people who want only hands-on tool notes and who will not filter past the evangelism.
 
+## Top 5 recommended reading
+
+- [The Rise of the AI Engineer](https://www.latent.space/p/ai-engineer) - The founding essay that named the AI Engineer role and predicted it would be the highest-demand engineering job of the decade.
+- [The Anatomy of Autonomy: Why Agents are the next AI Killer App after ChatGPT](https://www.latent.space/p/agents) - The executive summary that mapped the agent stack, memory, tools, and planning, before agents were mainstream.
+- [Claude Code: Anthropic's Agent in Your Terminal](https://www.latent.space/p/claude-code) - The interview with Boris Cherny and Cat Wu that explains the design choices behind the leading coding agent.
+- [Scaling without Slop](https://www.latent.space/p/2026) - The State of Latent Space 2026 post, laying out the newsletter, podcast, and conference plans from the inside.
+- [AINews](https://www.latent.space/s/ainews) - The daily roundup arm, the near-daily distillation that keeps the weekly signal in context.
+
 ## Changes
 
 - 2026-08-29 - Created as the newsletter-podcast-conference note of the people and publications category expansion.
@@ -65,6 +73,7 @@ Not for people who want only hands-on tool notes and who will not filter past th
 - 2026-09-16 - Latest-issue pointer refreshed: the Forward Deployed Engineer issue (2026-09-12) is now followed by two interview issues, Richard Socher of Recursive (2026-09-14) and "Can Skills Learned in Games Transfer to Real-World Work?" (2026-09-15).
 - 2026-09-18 - Latest-issue pointer refreshed again: the AIUC interview with Rune Kvist (2026-09-16) now leads the interview cadence; subscriber count held at over 200,000.
 - 2026-09-22 - Latest-issue pointer refreshed: the Jev podcast with Diogo Almeida (2026-09-19) and the John Platt AI-for-Science interview (2026-09-22) now lead; subscriber count moved to over 201,000.
+- 2026-09-24 - Added the Top 5 recommended reading section.
 
 ## See also
 

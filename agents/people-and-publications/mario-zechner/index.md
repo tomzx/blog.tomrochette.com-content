@@ -54,9 +54,18 @@ The Earendil arrangement is the open question: the MIT core is pledged as non-ne
 **Recommended for harness builders, capability minimalists, and anyone deciding what an agent should refuse to ship with.**
 Not for teams that want turnkey guardrails, MCP-centric stacks, or a maintainer who accepts outside direction.
 
+## Top 5 recommended reading
+
+- [What I learned building an opinionated and minimal coding agent](https://mariozechner.at/posts/2025-11-30-pi-coding-agent/) - the pi manifesto: a sub-1,000-token system prompt, four tools, YOLO defaults, and every refusal argued with evidence including a Terminal-Bench run.
+- [What if you don't need MCP at all?](https://mariozechner.at/posts/2025-11-02-what-if-you-dont-need-mcp/) - the token accounting that replaces a 13.7k-token MCP server with a 225-token CLI toolset.
+- [I've sold out](https://mariozechner.at/posts/2026-04-08-ive-sold-out/) - the Earendil move explained through his libGDX and RoboVM history, with the three licensing tiers named.
+- [Armin is wrong and here's why](https://mariozechner.at/posts/2025-11-22-armin-is-wrong/) - the debate with his Earendil colleague over whether LLM APIs are secretly a state synchronization problem.
+- [MCP vs CLI: Benchmarking Tools for Coding Agents](https://mariozechner.at/posts/2025-08-15-mcp-vs-cli/) - the 120-run evaluation showing tool design and documentation matter more than the protocol.
+
 ## Changes
 
 - 2026-09-24 - Created.
+- 2026-09-24 - Added the Top 5 recommended reading section.
 
 ## See also
 

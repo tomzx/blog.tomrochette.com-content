@@ -56,10 +56,19 @@ Essays, talks, and repositories are all public and free, with no newsletter payw
 **Recommended for engineers who want the durable concepts behind the daily tool churn, from the person who keeps naming the eras.**
 Not for people who need a current-events feed or want vendor-neutral, non-frontier framing.
 
+## Top 5 recommended reading
+
+- [Sequoia Ascent 2026 summary](https://karpathy.bearblog.dev/sequoia-ascent-2026/) - his Software 3.0 framing, the verifiability boundary, and the vibe coding versus agentic engineering line in one transcript.
+- [Verifiability](https://karpathy.bearblog.dev/verifiability/) - the short essay arguing AI automates what you can verify, which explains the jagged frontier.
+- [LLM Wiki](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f) - the pattern where an agent incrementally compiles sources into a persistent wiki instead of re-deriving answers.
+- [Neural Networks: Zero To Hero](https://karpathy.ai/zero-to-hero.html) - the build-it-from-scratch course that shows what the models agents drive actually are.
+- [nanoGPT](https://github.com/karpathy/nanoGPT) - the readable few-hundred-line training and model code that most hobby GPT reproduction work builds on.
+
 ## Changes
 
 - 2026-08-29 - Created in the People and publications category, profiling the vocabulary-setter behind vibe coding, Software 3.0, and agentic engineering.
 - 2026-09-02 - Corrected the verifiability essay reference to the 2025-11-17 "Verifiability" essay.
+- 2026-09-24 - Added the Top 5 recommended reading section.
 
 ## See also
 

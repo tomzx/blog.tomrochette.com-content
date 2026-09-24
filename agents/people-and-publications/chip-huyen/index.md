@@ -57,9 +57,18 @@ The books are paid via O'Reilly, Amazon, and retailers; "Machine Learning Interv
 **Recommended for the engineer or team lead who wants one structured overview of everything involved in shipping an LLM application, before specializing.**
 Not for the practitioner who wants current, hands-on tool walkthroughs.
 
+## Top 5 recommended reading
+
+- [AI Engineering](https://huyenchip.com/books/) - The book page for the survey that became the systems-design reference for building LLM applications, the most read book on O'Reilly in 2025.
+- [Building LLM applications for production](https://huyenchip.com/2023/04/11/llm-engineering.html) - Her canonical early essay on what breaks when LLM demos meet production, from cost and latency to task composability.
+- [Agents](https://huyenchip.com/2025/01/07/agents.html) - The AI Engineering chapter on agents as a standalone post, covering tools, planning, and the failure modes to evaluate for.
+- [Building A Generative AI Platform](https://huyenchip.com/2024/07/25/genai-platform.html) - The reference architecture of a generative AI platform, built up step by step from a bare model call.
+- [Common pitfalls when building generative AI applications](https://huyenchip.com/2025/01/16/ai-engineering-pitfalls.html) - Six recurring mistakes she sees across teams, from starting too complex to skipping human evaluation.
+
 ## Changes
 
 - 2026-08-29 - Created as the systems-survey note on the most-read O'Reilly AI book of 2025.
+- 2026-09-24 - Added the Top 5 recommended reading section.
 
 ## See also
 

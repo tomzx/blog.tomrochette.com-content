@@ -58,10 +58,19 @@ No paywall and no commercial model.
 **Recommended for any engineer who wants to understand the mechanism under an agent, a reasoning model, or a reward-hacking story, because the posts are the clearest written references available.**
 Not for practitioners who want current tooling guidance or a daily feed.
 
+## Top 5 recommended reading
+
+- [LLM Powered Autonomous Agents](https://lilianweng.github.io/posts/2023-06-23-agent/) - The canonical agent survey, the planning, memory, and tool use decomposition nearly every later engineering discussion of agents cites.
+- [Harness Engineering for Self-Improvement](https://lilianweng.github.io/posts/2026-07-04-harness/) - Her most current post, mapping harness design patterns and recursive self-improvement for coding agents.
+- [Prompt Engineering](https://lilianweng.github.io/posts/2023-03-15-prompt-engineering/) - The reference-quality map of prompting methods, from chain of thought to tool-augmented language models.
+- [Adversarial Attacks on LLMs](https://lilianweng.github.io/posts/2023-10-25-adv-attack-llm/) - The skeptical baseline on jailbreaks and adversarial attacks, frank about what models cannot be trusted to do.
+- [Scaling Laws, Carefully](https://lilianweng.github.io/posts/2026-06-24-scaling-laws/) - A careful treatment of scaling laws from Kaplan to Chinchilla and the data-limited regime, including where the fits break.
+
 ## Changes
 
 - 2026-08-29 - Created as the durable research-reference band of the people and publications category expansion.
 - 2026-09-13 - Documented the 2026 cadence with the second post of the year, "Scaling Laws, Carefully" (2026-06-24).
+- 2026-09-24 - Added the Top 5 recommended reading section.
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: "Assistant Runtimes Feature Matrix"
 created: 2026-08-27
-updated: 2026-09-22
+updated: 2026-09-24
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, comparison, assistant-runtimes, personal-assistants]
 readability: 3
@@ -11,11 +11,10 @@ audience_notes: >
 ---
 
 This matrix compares the nine assistant runtimes profiled in this section: the OpenClaw root, the three variants named after shrinking it, the learning-loop challenger, the readable Python core, the two Cowork-style desktops, and the channel-matrix newcomer.
-Everything below was verified against live sources on 2026-08-30 and re-verified on 2026-09-02, 2026-09-04, 2026-09-05, 2026-09-06, 2026-09-07, 2026-09-08, 2026-09-09, 2026-09-10, 2026-09-12, 2026-09-13, 2026-09-16, 2026-09-18, 2026-09-20, 2026-09-21, and 2026-09-22.
 
 **The family ladder is a trust ladder: OpenClaw is an ecosystem, NanoClaw an auditable codebase, ZeroClaw a static binary, PicoClaw a firmware image, Hermes a memory that grows, and the 2026 columns stretch the ladder again, Nanobot bets on readable Python, QwenPaw on channels and security defaults, and OpenWork and Eigent carry the category onto the desktop as Cowork alternatives.**
 
-Legend: ✓ supported, ✗ not supported, ~ partial or conditional, ? not verified as of the date above.
+Legend: ✓ supported, ✗ not supported, ~ partial or conditional, ? not verified.
 Each column links to the full research note; every cell below traces to a source cited there or in the references.
 
 ## The matrix
@@ -70,6 +69,7 @@ QwenPaw is the only column with a real offline path through its own trained smal
 - 2026-09-20 - Re-verification: moved the OpenClaw status cell to v2026.9.5 with 8.1k open issues, dropped the note-ungrounded v2026.9.14 from the Hermes status cell, moved the PicoClaw status cell to 40 open issues, and recorded picoclaw.io's expired TLS certificate in its security-record cell.
 - 2026-09-21 - Re-verification: refreshed drifted cells (Hermes 43k open issues, OpenClaw 8.2k, PicoClaw 38, ZeroClaw 762, OpenWork stars to about 23.7k).
 - 2026-09-22 - Re-verification: recorded OpenClaw's completed Trail of Bits audit (23 confirmed vulnerabilities, all fixed) in its security-record cell and refreshed drifted cells (Eigent about 15.4k stars, Hermes about 248k stars and 44k open issues, OpenClaw 8.3k, PicoClaw 33, ZeroClaw 740).
+- 2026-09-24 - Removed the verification preamble line on owner request.
 
 ## See also
 

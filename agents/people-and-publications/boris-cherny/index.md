@@ -55,9 +55,18 @@ Claude Code itself keeps a fast release pace, which our [Harnesses note](../../h
 **Recommended for engineers who want the creator's primary account of how Claude Code is designed and how Anthropic's AI-first team ships software.**
 Not for anyone looking for a regular feed, tool comparisons, or engagement with the cost and security critiques of the product he built.
 
+## Top 5 recommended reading
+
+- [How Claude Code is built](https://newsletter.pragmaticengineer.com/p/how-claude-code-is-built) - The interview he gave, the canonical account of the prototype origin, the stack, and the product-overhang insight behind Claude Code.
+- [I am often wrong](https://borischerny.com/management,/product/2026/09/19/I-am-often-wrong.html) - His rare current post, a compact framework for updating problem definitions as information changes, addressed to his team.
+- [Best practices for Claude Code](https://www.anthropic.com/engineering/claude-code-best-practices) - The official guide for the tool he created, encoding the minimal-scaffolding, verify-your-work philosophy he describes in interviews.
+- [Programming TypeScript answers](https://github.com/bcherny/programming-typescript-answers) - The official exercise-answers repository for his O'Reilly book, the durable pre-agent half of his record.
+- No fifth durable piece exists; his remaining record is a dormant TypeScript-era blog archive plus short posts on X and Threads (as of 2026-09-24).
+
 ## Changes
 
 - 2026-09-24 - Created.
+- 2026-09-24 - Added the Top 5 recommended reading section.
 
 ## See also
 

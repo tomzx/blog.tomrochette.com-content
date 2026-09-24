@@ -1,7 +1,7 @@
 ---
 title: "Orchestration Feature Matrix"
 created: 2026-08-24
-updated: 2026-09-22
+updated: 2026-09-24
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, comparison, orchestration, git-worktrees, parallel-agents]
 readability: 3
@@ -11,11 +11,10 @@ audience_notes: >
 ---
 
 This matrix compares the sixteen orchestration tools profiled in this section, the parallel-agent dashboards, worktree managers, control planes, mobile clients, a coordination protocol, a cluster-scale agent fleet orchestrator, JetBrains' standalone agent environment, and the one agent town, feature by feature, so the shortlisting step does not require reading sixteen notes.
-Everything below was verified against live sources on 2026-08-30, a full re-verification that added the Omnara column on that date, re-verified on 2026-09-02, 2026-09-03, 2026-09-04, 2026-09-05, 2026-09-06, 2026-09-07, 2026-09-08, 2026-09-09, 2026-09-10, 2026-09-12, 2026-09-13, 2026-09-16, 2026-09-18, 2026-09-20, 2026-09-21, and 2026-09-22, the Happy Coder column was added on 2026-09-06, the JetBrains Air column was added on 2026-09-12, the AX column was added on 2026-09-21, and the Foremerge column was added on 2026-09-22.
 
 **Parallelism is already the free commodity in this category: the only things anyone pays for are review ergonomics and remote execution, and I expect more of these sixteen to die or pivot before any of them becomes durable infrastructure.**
 
-Legend: ✓ supported, ✗ not supported, ~ partial or conditional, ? not verified as of the date above.
+Legend: ✓ supported, ✗ not supported, ~ partial or conditional, ? not verified.
 Each column links to the full research note; every cell below traces to a source cited there or in the references.
 
 ## The matrix
@@ -95,6 +94,7 @@ Claude Squad's preview tab and dmux's pane-menu PR cover the dispatch, wait, rev
 - 2026-09-20 - Re-verification: moved the Vibe Kanban status cell to the community's 0.1.45 tag, which npm and the release list do not publish yet, and refreshed the Omnara star count to 2,861.
 - 2026-09-21 - Extended from fourteen to fifteen columns with AX (Google's cluster-scale agent fleet orchestrator, added sorted into the first position), refreshed the Happy Coder star count to 23.9k, and moved the Paseo status cell to v0.8 with 0.9 betas.
 - 2026-09-22 - Extended from fifteen to sixteen columns with Foremerge (Nick Woodhead's coordination protocol for parallel agents, added sorted after Emdash), moved the Paseo status cell to v0.9.1, and refreshed the Omnara star count to 2,863.
+- 2026-09-24 - Removed the verification preamble line on owner request.
 
 ## See also
 

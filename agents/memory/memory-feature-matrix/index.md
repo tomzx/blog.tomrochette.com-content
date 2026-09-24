@@ -11,11 +11,10 @@ audience_notes: >
 ---
 
 This matrix compares the eight memory approaches profiled in this section, feature by feature: the file convention, the session-compression plugin, the cross-model episodic memory engine, the memory-first harness, the two memory APIs, the self-hostable graph pipeline, and the portable memory format.
-Everything below was re-verified against live sources on 2026-09-22, with the Cognee column first verified 2026-08-26, the Memoryfields column first verified 2026-09-04, and the Engrim column first verified 2026-09-10.
 
 **For coding agents I would start with plain files and not buy any service on benchmark claims, because the only memory problem files cannot solve at any price is contradiction over time, and Zep is the only vendor whose architecture faces it head on.**
 
-Legend: ✓ supported, ✗ not supported, ~ partial or conditional, ? not verified as of the date above.
+Legend: ✓ supported, ✗ not supported, ~ partial or conditional, ? not verified.
 Each column links to the full research note; every cell below traces to a source cited there or in the references.
 
 ## The matrix
@@ -76,6 +75,7 @@ Mem0's $19 Starter undercuts everyone; Zep's credit metering prices the audit tr
 - 2026-09-16 - Engrim's integration cell moved to six agent CLIs with the OpenCode addition, and Memoryfields' contradiction cell moved from not supported to partial with the spec's new page status flags.
 - 2026-09-22 - Engrim's integration cell moved to seven agent CLIs with the GitHub Copilot CLI adapter (v1.4.9).
 - 2026-09-24 - Renamed the Files column to its listing title, File-based agent memory, and the Mem0 column to mem0, matching the section index listing; no cells moved.
+- 2026-09-24 - Removed the verification preamble line on owner request.
 
 ## See also
 

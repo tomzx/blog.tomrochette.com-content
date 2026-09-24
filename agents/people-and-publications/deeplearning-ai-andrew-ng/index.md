@@ -63,12 +63,21 @@ DeepLearning.AI short courses are mostly free, while Coursera specializations an
 **Recommended as the balanced weekly scan and the best-structured way to pick up agentic skills when you are new to them.**
 Not for a practitioner who wants deep technical detail, frontier-labs nuance, or sustained skepticism.
 
+## Top 5 recommended reading
+
+- [The Batch](https://www.deeplearning.ai/the-batch/) - The weekly newsletter itself, a balanced scan of the AI landscape with an engineering takeaway in every issue.
+- [The AI Engineering Skills Map](https://www.deeplearning.ai/the-batch/the-ai-engineering-skills-map) - His concrete statement of the four skills an AI engineer needs in 2026, built from over 10,000 job postings and expert interviews.
+- [Agentic AI](https://learn.deeplearning.ai/courses/agentic-ai) - The course that teaches the four agentic design patterns and the eval-driven process for building agentic workflows.
+- [The AI Engineering Skills Map Part 4: Coding Agents](https://www.deeplearning.ai/the-batch/the-ai-engineering-skills-map-in-detail-using-coding-agents) - The most engineer-relevant part of the map, covering planning, execution, review, and agent customization.
+- [DeepSeek Sharpens Its Reasoning: DeepSeek-R1, an affordable rival to OpenAI's o1](https://www.deeplearning.ai/the-batch/deepseek-r1-an-affordable-rival-to-openais-o1) - The landmark issue that explained the open reasoning model moment while it was happening.
+
 ## Changes
 
 - 2026-08-29 - Created as the education-and-on-ramp band, the voice that popularized the four agentic design patterns and published the AI Engineering Skills Map.
 - 2026-08-30 - Dropped an unverifiable jobpocalypse quote and a dead aiagentrank reference, replaced with the verified Coursera specialization page.
 - 2026-09-04 - Batch coverage extended past the note's "through August 2026" claim.
 - 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
+- 2026-09-24 - Added the Top 5 recommended reading section.
 
 ## See also
 

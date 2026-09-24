@@ -1091,3 +1091,18 @@ Changes to this section that do not appear here were made by a human and must be
 - people-and-publications-feature-matrix: extended from thirteen to twenty-one columns, re-sorted alphabetically, every new cell traced to its member note, thesis and reading rewritten for the new harness-builder cluster, choosing list extended by eight, intro re-counted, updated bumped [glm-5.3-flash]
 - Category index: eight entries listed alphabetically with one-line summaries, eight ## Changes bullets appended dated 2026-09-24; _index.md people matrix one-liner re-counted to twenty-one voices and re-dated [glm-5.3-flash]
 - Verification: all twenty-one member columns match the category directory listing, all front matter parses, all internal link targets exist on disk, matrix header sorted case-insensitively, Changes bullets oldest first [glm-5.3-flash]
+
+## 2026-09-24 (owner-prompted, verification preambles removed)
+
+- Owner request in chat: remove the "Everything below was verified ..." preamble line from all matrix pages as low value [glm-5.3-flash]
+- Removed the preamble line from all twenty-one feature matrices and the two trackers it had spread to (model-selection-for-coding-tasks, context-management-patterns); the trackers keep a single as-of clause in their first paragraphs per the quality bar [glm-5.3-flash]
+- Matrix legends shortened from "? not verified as of the date above" to "? not verified", since the referenced verification date no longer exists above [glm-5.3-flash]
+- AGENTS.md updated: matrices are barred from verification preamble lines (verification history lives in ## Changes, the updated field carries the revision date, volatile cells self-date), and trackers must carry their as-of as one short clause, not a run log [glm-5.3-flash]
+- Each touched article gained a dated ## Changes bullet and an updated field bump to 2026-09-24; no matrix cells, membership, or sorting changed, editorial only [glm-5.3-flash]
+
+## 2026-09-24 (owner-prompted, top 5 recommended reading sections)
+
+- Owner request in chat: add a "top 5 recommended reading" section to the people and publications pages; AGENTS.md updated first with the section rule (between Bottom line and Changes, five pieces by or featuring the person, best first, one line each, third-party coverage excluded, thin-record voices may name the gap instead of padding, every URL fetched in the run that adds or edits it) [glm-5.3-flash]
+- All 21 member notes received the section, written by three parallel sub-runs; every recommended URL was fetched 200 this run, titles confirmed against the fetched sources, and the section's addition recorded as the last ## Changes bullet in each note [glm-5.3-flash]
+- Selections start from each note's own references and favor the pieces the category already cites (Willison's agentic-engineering patterns, Horthy's 12-factor repo and talk, Zechner's pi and MCP posts, Husain's eval field guide, Weng's agent survey, Lambert's agent posts, the Claude Code and Yegge interviews); boris-cherny exercises the documented fifth-line exception (no fifth durable piece exists, stated rather than padded) [glm-5.3-flash]
+- Verification: 21 of 21 notes carry the section in the correct position with five lines each, the dated bullet last in Changes, no em-dashes, no banned terms, all internal link targets still resolve; section order in every note is Bottom line, Top 5 recommended reading, Changes, See also, References [glm-5.3-flash]

@@ -11,11 +11,10 @@ audience_notes: >
 ---
 
 This matrix compares the twelve surfaces profiled in this section, feature by feature, from editors to agent platforms to session cockpits.
-Everything below was verified against live sources on 2026-08-24 and re-verified on 2026-09-18, 2026-09-20, 2026-09-21, and 2026-09-22.
 
 **The surfaces differ less in whether they have an agent and more in what they are: an editor with an agent inside, a platform that treats the editor as one client, or a cockpit for many agents, and the row that matters most is the one nobody advertises, who runs where.**
 
-Legend: ✓ supported, ✗ not supported, ~ partial or conditional, ? not verified as of the date above.
+Legend: ✓ supported, ✗ not supported, ~ partial or conditional, ? not verified.
 Each column links to the full research note; every cell traces to a source cited there or in the references.
 
 ## The matrix
@@ -64,6 +63,7 @@ Antigravity and OpenChamber are the extremes, a closed platform giving the most 
 - 2026-09-13 - Replaced the dead docs.windsurf.com reference (now 404) with docs.devin.ai, which now serves the Devin Desktop docs alone.
 - 2026-09-16 - Corrected the docs.devin.ai reference after docs.windsurf.com resumed redirecting into it instead of returning 404; no matrix cells moved.
 - 2026-09-24 - Renamed the JetBrains column to its listing title, JetBrains IDEs; no cells moved.
+- 2026-09-24 - Removed the verification preamble line on owner request.
 
 ## See also
 

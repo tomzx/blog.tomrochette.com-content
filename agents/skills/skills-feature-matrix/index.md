@@ -1,7 +1,7 @@
 ---
 title: "Skills Feature Matrix"
 created: 2026-08-24
-updated: 2026-09-22
+updated: 2026-09-24
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, comparison, skills, agent-extensions]
 readability: 3
@@ -11,11 +11,10 @@ audience_notes: >
 ---
 
 This matrix compares the six Skills-category notes in this section, Builder.io's curated pack, the open standard, Anthropic's vendor format, OpenCode's native mechanism, Microsoft's skill optimizer, and Vercel's skills.sh registry, feature by feature, so choosing an extension path does not require reading six notes.
-Everything below was re-verified against the refreshed member notes and live sources on 2026-09-22.
 
 **The format war is already over and SKILL.md won it, so every decision that remains lives above the format, who gates execution, who ranks discovery, and who versions what your agent runs, and the registry column worries me more than the vendor column.**
 
-Legend: ✓ supported, ✗ not supported, ~ partial or conditional, ? not verified as of the date above.
+Legend: ✓ supported, ✗ not supported, ~ partial or conditional, ? not verified.
 Each column links to the full research note; every cell traces to a source cited there or in the references.
 
 ## The matrix
@@ -72,6 +71,7 @@ No column costs anything to use, but the spec has no version or dependency story
 - 2026-08-30 - Extended from four to five columns with SkillOpt, the stack prose naming the new quality layer.
 - 2026-09-13 - Extended from five to six columns with Agent-Native, the first curated pack column.
 - 2026-09-22 - Agent-Native's open-source cell moved from supported to partial after the framework repo's GitHub license detection vanished and its package.json switched to ISC; star figures refreshed.
+- 2026-09-24 - Removed the verification preamble line on owner request.
 
 ## See also
 

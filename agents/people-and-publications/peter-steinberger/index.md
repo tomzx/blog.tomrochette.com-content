@@ -53,9 +53,18 @@ OpenClaw keeps shipping without his daily hand, and the section's note tracks it
 **Recommended for engineers who want working agent tooling and the practitioner culture growing around it.**
 Not for neutral analysis or anyone allergic to hype; his incentives follow his projects.
 
+## Top 5 recommended reading
+
+- [Just Talk To It - the no-bs Way of Agentic Engineering](https://steipete.me/posts/just-talk-to-it.md) - His philosophy essay for agentic engineering, the cleanest introduction to how he actually works with agents.
+- [Claude Code Anonymous](https://steipete.me/posts/2025/claude-code-anonymous.md) - The piece that named the practitioner obsession with coding agents and turned it into a meetup format now in six cities.
+- [OpenClaw, OpenAI and the future](https://steipete.me/posts/2026/openclaw.md) - His announcement joining OpenAI and handing OpenClaw to a foundation, the primary source for both facts.
+- [Shipping at Inference-Speed](https://steipete.me/posts/2025/shipping-at-inference-speed.md) - His account of building at model-speed, the clearest statement of his working method.
+- [CodexBar](https://github.com/steipete/codexbar) - His most-starred solo tool, usage stats for Codex and Claude Code in the menu bar, the working example of his ship-the-fix habit.
+
 ## Changes
 
 - 2026-09-24 - Created.
+- 2026-09-24 - Added the Top 5 recommended reading section.
 
 ## See also
 

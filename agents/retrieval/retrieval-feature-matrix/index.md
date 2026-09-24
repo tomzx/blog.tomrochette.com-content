@@ -1,7 +1,7 @@
 ---
 title: "Retrieval Feature Matrix"
 created: 2026-08-24
-updated: 2026-09-21
+updated: 2026-09-24
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, comparison, retrieval, rag, code-retrieval, llm=glm-5.3-flash]
 readability: 3
@@ -11,11 +11,10 @@ audience_notes: >
 ---
 
 This matrix compares the six retrieval entries profiled in this section, two frameworks, two patterns, one chunking library, and one hosted document-parsing pipeline, feature by feature, so the shortlisting step does not require reading six notes.
-Everything below was re-verified against the refreshed member notes and live sources on 2026-09-22.
 
 **Both frameworks are pivoting away from retrieval as their business, both patterns are being demoted by the tools that ship them, and the chunking library that won the niche has outlived its own maker's attention, which I read as evidence that the agent loop, not the index, is now the retrieval layer, while the newest column bets against that demotion by selling structure-preserving parsing as a hosted service, with a star count that no independent discussion yet backs.**
 
-Legend: ✓ supported, ✗ not supported, ~ partial or conditional, ? not verified as of the date above.
+Legend: ✓ supported, ✗ not supported, ~ partial or conditional, ? not verified.
 Each column links to the full note; every cell traces to a source cited there or in the references.
 
 ## The matrix
@@ -75,6 +74,7 @@ LlamaIndex's newer Chunker node parser wraps Chonkie rather than reimplementing 
 - 2026-09-18 - Refreshed the maintenance row numbers for the 2026-09-18 re-verification: Chonkie 4.76k stars and 1.08M downloads/month, LangChain 146.6k stars, LlamaIndex 52.2k stars.
 - 2026-09-20 - Extended from five to six columns with Knowhere, refreshed the Chonkie downloads and LangChain stars cells, and extended the thesis, reading, and choosing prose for the hosted-parsing column.
 - 2026-09-21 - Refreshed the maintenance row: Knowhere to 3.41k stars and release v1.2.15, Chonkie downloads to 1.02M, LangChain stars to 146.8k, and LlamaIndex stars to 52.3k.
+- 2026-09-24 - Removed the verification preamble line on owner request.
 
 ## See also
 

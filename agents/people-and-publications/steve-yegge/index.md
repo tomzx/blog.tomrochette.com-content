@@ -61,6 +61,14 @@ No meaningful paywall; the value is the essays and the open-source projects, not
 **Recommended for engineers who want an opinionated, builder-grounded take on where agent development is headed, and who will cross-check the hype.**
 Not for readers who prefer neutral synthesis or who object to the chaotic, credit-hungry rollout style.
 
+## Top 5 recommended reading
+
+- [The Death of the Junior Developer](https://sourcegraph.com/blog/the-death-of-the-junior-developer) - the 2024 essay that opened the junior-developer debate and set his chat-oriented-programming vocabulary.
+- [Revenge of the Junior Developer](https://sourcegraph.com/blog/revenge-of-the-junior-developer) - the sequel that lays out the six waves from chat coding to agent clusters and fleets.
+- [Welcome to Gas Town](https://yegge.ai/essays/welcome-to-gas-town/) - the launch essay of his supervision-at-scale thesis, written while building the orchestrator in public.
+- [Vibe Coding](https://yegge.ai/vibe-coding.html) - his 2025 book with Gene Kim, Gold Medal winner at the 2026 Axiom Book Awards.
+- [Steve Yegge on AI Agents and the Future of Software Engineering](https://newsletter.pragmaticengineer.com/p/steve-yegge-on-ai-agents-and-the) - the interview where the eight levels of AI adoption and the Dracula effect are laid out and challenged.
+
 ## Changes
 
 - 2026-08-29 - Created in the People and publications category seed.
@@ -68,6 +76,7 @@ Not for readers who prefer neutral synthesis or who object to the chaotic, credi
 - 2026-09-13 - Corrected the writing venue: the essays live on yegge.ai (165 essays, about 699,000 words) while the Substack shows no published posts, and added the Vibe Coding award.
 - 2026-09-18 - Recorded the Gas Town shutdown: per Latent Space AINews (2026-09-17), citing Dan Luu, Yegge shut the project down and admitted he never successfully built anything with it; the repo remains public (18.1k stars as of 2026-09-18).
 - 2026-09-22 - Post-shutdown check: no new essays (catalog still 165, about 699,000 words) and the site still presents Gas Town as current work with no shutdown mention.
+- 2026-09-24 - Added the Top 5 recommended reading section.
 
 ## See also
 

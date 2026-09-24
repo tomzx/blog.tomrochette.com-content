@@ -58,12 +58,21 @@ The RLHF Book is paid; parts of the course and companion materials are free.
 **Recommended for the engineer who wants to understand the reasoning-and-post-training layer behind the agents they use, and to pick open models with good information.**
 Not for anyone who wants a mostly-vendor-neutral or application-level overview; this is the model-side view, argued from an open-model vantage.
 
+## Top 5 recommended reading
+
+- [Get Good at Agents](https://www.interconnects.ai/p/get-good-at-agents) - His documented personal workflow for scoping and running coding agents, the piece most directly useful to engineers who use them daily.
+- [Claude Code Hits Different](https://www.interconnects.ai/p/claude-code-hits-different) - His hands-on review of the leading harness from a researcher who runs coding agents inside his own RL work.
+- [Reinforcement Learning from Human Feedback](https://rlhfbook.com/) - His RLHF and post-training textbook with its companion course, the durable curriculum behind everything he writes about the model layer.
+- [The current balance of power in open models](https://www.interconnects.ai/p/the-current-balance-of-power-in-open) - His September 2026 state-of-the-ecosystem report, expanded from Congressional testimony and the best current read for anyone choosing between open and proprietary models.
+- [Why I still haven't bought into true RSI](https://www.interconnects.ai/p/where-i-stand-on-rsi) - His most argued recent essay, showing how he reasons about frontier claims rather than repeating them.
+
 ## Changes
 
 - 2026-08-29 - Created as the model-and-post-training band of the people and publications category expansion.
 - 2026-09-16 - Subscriber count moved to over 83,000 (from over 82,000), with no new posts since the September 8 to 11 cluster.
 - 2026-09-20 - New essay "Why I still haven't bought into true RSI" (2026-09-19) ended the quiet stretch after the September 8 to 11 posts.
 - 2026-09-22 - Two posts after the RSI essay: "The current balance of power in open models" (2026-09-21, expanded Congressional testimony) and the Epoch AI podcast with JS Denain (2026-09-22).
+- 2026-09-24 - Added the Top 5 recommended reading section.
 
 ## See also
 

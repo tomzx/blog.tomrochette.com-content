@@ -1,7 +1,7 @@
 ---
 title: "Task Management Feature Matrix"
 created: 2026-08-27
-updated: 2026-09-21
+updated: 2026-09-24
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, comparison, task-management, task-tracking]
 readability: 3
@@ -11,11 +11,10 @@ audience_notes: >
 ---
 
 This matrix compares the four task managers profiled in this section, feature by feature, so choosing between them does not require reading four notes.
-Everything below was verified against live sources on 2026-09-21.
 
 **Files versus database is the row that decides everything else: it determines whether your board survives multiple agents racing on it, and the planning layer the newest column adds sits above that choice rather than replacing it.**
 
-Legend: ✓ supported, ✗ not supported, ~ partial or conditional, ? not verified as of the date above.
+Legend: ✓ supported, ✗ not supported, ~ partial or conditional, ? not verified.
 Each column links to the full research note; every cell below traces to a source cited there or in the references.
 
 ## The matrix
@@ -57,6 +56,7 @@ Its 132 stars and v0.4.x release line make it the least proven column, and its n
 - 2026-08-27 - Created with three columns (Backlog.md, beads, Task Master) and ten rows, tracing every cell to the member notes.
 - 2026-09-16 - Extended from three to four columns with Ordewell (inserted alphabetically), every row gaining a cell traced to the new note, and the reading and choosing prose extended to the planner layer.
 - 2026-09-21 - Refreshed the beads status cell (new v1.3.1-rc.1 prerelease and issue count).
+- 2026-09-24 - Removed the verification preamble line on owner request.
 
 ## See also
 

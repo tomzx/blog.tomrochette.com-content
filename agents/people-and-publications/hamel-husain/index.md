@@ -64,12 +64,21 @@ The course is paid ($4,200 on Maven as of 2026-09-13), and Parlance Labs sells c
 **Recommended for any engineer whose agent produces outputs nobody can verify, because the data-first evaluation loop is the highest-leverage improvement available.**
 Not for someone looking for survey-level breadth or for a tool recommendation; it is a process, not a product.
 
+## Top 5 recommended reading
+
+- [A Field Guide to Rapidly Improving AI Products](https://hamel.dev/blog/posts/field-guide/) - The canonical entry point, distilling the error-analysis-first method from 30+ production implementations.
+- [Your AI Product Needs Evals](https://hamel.dev/blog/posts/evals/) - The framing post that argues evaluation is the highest-leverage investment in any AI product.
+- [Using LLM-as-a-Judge For Evaluation: A Complete Guide](https://hamel.dev/blog/posts/llm-judge/) - The step-by-step critique shadowing method for building an LLM judge you can actually trust.
+- [AI Evals: Everything You Need to Know](https://hamel.dev/blog/posts/evals-faq/) - The comprehensive FAQ co-written with Shreya Shankar, curating answers from teaching 5,000+ engineers and PMs.
+- [Evals Skills for Coding Agents](https://hamel.dev/blog/posts/evals-skills/) - Shows how to give coding agents the eval workflow itself, from error discovery to judge validation.
+
 ## Changes
 
 - 2026-08-29 - Created in the People and publications expansion as the evaluation-and-verification note.
 - 2026-08-30 - Aligned the course claim to the current page wording.
 - 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
 - 2026-09-22 - New post "AI Evals: Everything You Need to Know" (2026-09-18) now leads the blog; the course page advertises an Oct 10 cohort at 25% off.
+- 2026-09-24 - Added the Top 5 recommended reading section.
 
 ## See also
 

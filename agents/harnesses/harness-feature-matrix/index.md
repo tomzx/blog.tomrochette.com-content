@@ -1,7 +1,7 @@
 ---
 title: "Harness Feature Matrix"
 created: 2026-08-24
-updated: 2026-09-22
+updated: 2026-09-24
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, comparison, harnesses, coding-agents]
 readability: 3
@@ -11,11 +11,10 @@ audience_notes: >
 ---
 
 This matrix compares the twenty-seven harnesses profiled in this section, feature by feature, so the shortlisting step does not require reading twenty-seven notes.
-Everything below was re-verified against live sources on 2026-09-22.
 
 **No harness has everything, and the two axes that actually decide the purchase are client openness and who pays for tokens: everything else is converging.**
 
-Legend: ✓ supported, ✗ not supported, ~ partial or conditional, ? not verified as of the date above.
+Legend: ✓ supported, ✗ not supported, ~ partial or conditional, ? not verified.
 Each column links to the full research note; every cell below traces to a source cited there or in the references.
 
 ## The matrix
@@ -100,6 +99,7 @@ The six new columns spread across the same axis: Ante and Juggler take subscript
 - 2026-09-13 - Added Pi to the local-models purist list, which its llama.cpp cell already supported.
 - 2026-09-16 - Moved the fx local-models cell from "advertised on fx.dev, not yet in docs" to the documented custom model connections preview for Ollama, vLLM, and OpenRouter, kept partial because it requires a preview build.
 - 2026-09-21 - Added the ZCode column (twenty-six to twenty-seven members), sorted after Warp Agent CLI, with all twelve cells traced to the new note, and added ZCode to the auditable-client list.
+- 2026-09-24 - Removed the verification preamble line on owner request.
 
 ## See also
 

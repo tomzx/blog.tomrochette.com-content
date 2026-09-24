@@ -54,9 +54,18 @@ He had 5.2k GitHub followers as of 2026-09-24.
 **Recommended for engineers evaluating OpenCode seriously and for anyone studying how harness authors handle public security criticism.**
 Not for readers who need a citable feed or essays, and not as a source on Exo Labs.
 
+## Top 5 recommended reading
+
+- [Show HN: OpenCode - TUI based coding agent](https://news.ycombinator.com/item?id=43988566) - His own launch announcement, the origin document of OpenCode with his answers on design choices in the thread.
+- [Annoying and alarming things about OpenCode](https://news.ycombinator.com/item?id=48978112) - The thread where he answered the sharpest security critique of his tool point by point, naming versions, defaults, and internal data.
+- [Building OpenCode with Dax Raad](https://www.youtube.com/watch?v=1VqKUrxR2C8) - The Pragmatic Engineer video interview, his most-watched long-form account of the terminal architecture and business model.
+- [Building the Future of coding, OpenCode with Dax Raad](https://www.youtube.com/watch?v=IGsbARhERqc) - The NeetCode interview covering the Claude Code drama, agent design, and where he thinks programming is heading.
+- [OpenCode](https://github.com/sst/opencode) - The tool itself, whose repository README is the canonical statement of what he built and why.
+
 ## Changes
 
 - 2026-09-24 - Created, with the commissioned Exo Labs founder premise marked unverified against fetched sources.
+- 2026-09-24 - Added the Top 5 recommended reading section.
 
 ## See also
 

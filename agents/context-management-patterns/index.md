@@ -1,7 +1,7 @@
 ---
 title: "Context Management Patterns"
 created: 2026-08-24
-updated: 2026-09-12
+updated: 2026-09-24
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, context-management, coding-agents, context-engineering, llm=glm-5.3-flash]
 readability: 3
@@ -10,8 +10,7 @@ audience_notes: >
   Assumes you know what a token budget is and have watched an agent degrade after its window filled.
 ---
 
-This is a maintained guide to the patterns that fit large codebases and long tasks into agent context windows: selective loading, packing, retrieval, compaction, and memory files.
-Everything below was verified against harness documentation and primary sources on 2026-09-16; when the tools move, this page moves with them.
+This is a maintained guide to the patterns that fit large codebases and long tasks into agent context windows: selective loading, packing, retrieval, compaction, and memory files; verified against harness documentation as of 2026-09-16.
 
 **Every working pattern does one thing, it keeps the window small and fresh, and in 2026 the harness-native features (compaction, subagents, memory files) deliver more of that value than any retrieval pipeline you can buy.**
 My disagreeable claim: below a few hundred thousand lines of code, a short memory file plus automatic compaction beats a bespoke RAG stack, and teams buying context engines before learning their harness's `/compact` are paying money to avoid learning a skill.
@@ -107,6 +106,7 @@ A pattern claim that no longer matches the docs gets deleted, not hedged.
 ## Changes
 
 - 2026-08-24 - Published as queue item 3, an essay of pattern families grounded in harness documentation.
+- 2026-09-24 - Replaced the verification preamble with a single as-of clause in the intro on owner request.
 
 ## See also
 

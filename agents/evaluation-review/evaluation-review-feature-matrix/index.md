@@ -1,7 +1,7 @@
 ---
 title: "Evaluation and Review Feature Matrix"
 created: 2026-08-30
-updated: 2026-09-20
+updated: 2026-09-24
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3-flash, comparison, evaluation, code-review, human-in-the-loop]
 readability: 3
@@ -11,12 +11,11 @@ audience_notes: >
 ---
 
 This matrix compares the seven members of the Evaluation and review category: the pytest-style eval framework, two public harness benchmarks (the vendor-run FrontierHarness Eval and the academic HarnessTax), two observability and evaluation platforms (Langfuse and Phoenix), the human annotation surface, and the agent-driven local debugger.
-Everything below was re-verified against the refreshed member notes and live sources on 2026-09-21.
 The hybrid machine reviewer that used to sit here, OpenCodeReview, moved to the Code review category when this matrix was created, on 2026-08-30.
 
 **The category divides on who judges: the agent itself (Workshop), a metric suite (deepeval), an observability platform's judges (Langfuse, Phoenix), a human (Plannotator), or a fixed public benchmark's official evaluator (FrontierHarness Eval, HarnessTax), and mature teams run more than one column at once.**
 
-Legend: ✓ supported, ✗ not supported, ~ partial or conditional, ? not verified as of the date above.
+Legend: ✓ supported, ✗ not supported, ~ partial or conditional, ? not verified.
 Each column links to the full research note; every cell below traces to a source cited there or in the references.
 
 ## The matrix
@@ -69,6 +68,7 @@ Machine review of the pull requests themselves now lives in the [Code Review Fea
 - 2026-09-18 - Phoenix maturity cell moved to v20.14 and Langfuse's to v4.38.0 after new releases.
 - 2026-09-18 - Extended to seven columns with HarnessTax.
 - 2026-09-20 - Refreshed the HarnessTax maturity cell to the thread's 229-point total; the deepeval and Phoenix download corrections live in their notes, no matrix cells carried them.
+- 2026-09-24 - Removed the verification preamble line on owner request.
 
 ## See also
 

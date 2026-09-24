@@ -1,7 +1,7 @@
 ---
 title: "Protocols Feature Matrix"
 created: 2026-08-24
-updated: 2026-09-21
+updated: 2026-09-24
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, comparison, protocols, interoperability]
 readability: 3
@@ -11,11 +11,10 @@ audience_notes: >
 ---
 
 This matrix compares the six protocols profiled in this section, A2A, ACP, AG-UI, Agent Host Protocol, AGENTS.md, and MCP, so the whole interoperability stack can be read in one table.
-Everything below was re-verified against live sources on 2026-09-21.
 
 **The six do not compete, they stack (repo-to-agent, editor-to-agent, agent-to-frontend, agent-to-tool, agent-to-agent, client-to-session), and adoption falls with every step up that stack, which is why I call AGENTS.md and MCP defaults, ACP a rising bet, AG-UI the quiet winner by raw download volume, AHP a bet underwritten by VS Code's own distribution, and A2A an enterprise convention the coding-agent world can keep ignoring.**
 
-Legend: ✓ supported, ✗ not supported, ~ partial or conditional, ? not verified as of the date above.
+Legend: ✓ supported, ✗ not supported, ~ partial or conditional, ? not verified.
 Each column links to the full research note; every cell below traces to a source cited there or in the references.
 
 ## The matrix
@@ -70,6 +69,7 @@ The mature protocols get attacked for their risks, the young ones for their reas
 - 2026-09-16 - Extended from five to six columns with AG-UI, re-sorted alphabetically, and updated the governance, adoption, criticism, and choosing prose for the agent-to-frontend layer.
 - 2026-09-18 - AG-UI maturity cell updated to 1.0.0 packages and a published 1.0 specification, and stars and download figures refreshed in the AG-UI and AHP prose.
 - 2026-09-21 - AGENTS.md adoption cell updated after Claude Code shipped native support in 2.1.277 (2026-09-18), ending the holdout the cell recorded; AG-UI and AHP download and star figures refreshed in the prose.
+- 2026-09-24 - Removed the verification preamble line on owner request.
 
 ## See also
 

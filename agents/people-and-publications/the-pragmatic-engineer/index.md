@@ -56,6 +56,14 @@ A substantial and growing share of AI-engineering content is paid; the free tier
 **Recommended for engineering leaders and senior engineers who need the data- and org-grounded view of how teams adopt agents.**
 Not for someone chasing pure hands-on tool detail who resents a paywall.
 
+## Top 5 recommended reading
+
+- [AI Tooling for Software Engineers in 2026](https://newsletter.pragmaticengineer.com/p/ai-tooling-2026) - The annual survey that quantifies what engineers actually use, the data backbone of the newsletter's AI coverage.
+- [How Claude Code is built](https://newsletter.pragmaticengineer.com/p/how-claude-code-is-built) - His interview with Boris Cherny, the primary account of how the dominant coding agent was designed and scales as a product.
+- [Steve Yegge on AI Agents and the Future of Software Engineering](https://newsletter.pragmaticengineer.com/p/steve-yegge-on-ai-agents-and-the) - The maximalist agent-future argument in long form, the position his adoption data tests against.
+- [Inside OpenAI's agentic software factory](https://newsletter.pragmaticengineer.com/p/openai-software-factory) - His September 2026 deep dive into an AI-first engineering organization, the org view that defines the newsletter.
+- [The AI Engineering Stack](https://newsletter.pragmaticengineer.com/p/the-ai-engineering-stack) - His framing with Chip Huyen of how the AI engineering layers fit together, the map for the rest of the coverage.
+
 ## Changes
 
 - 2026-08-29 - Created in the People and publications category seed as the org-and-data voice, noting the paywalled core and annual AI tooling surveys.
@@ -63,6 +71,7 @@ Not for someone chasing pure hands-on tool detail who resents a paywall.
 - 2026-09-16 - Added the "Inside OpenAI's agentic software factory" deep dive (2026-09-15) to the September agent-adoption coverage.
 - 2026-09-18 - Added the "AI Skills with Matt Pocock" episode (2026-09-17) to the September agent-adoption coverage; subscriber count held at over 1,100,000.
 - 2026-09-22 - Added "How will AI change operating systems? Part 2: Windows" (2026-09-22) to the September agent-adoption coverage; subscriber count held at over 1,100,000.
+- 2026-09-24 - Added the Top 5 recommended reading section.
 
 ## See also
 

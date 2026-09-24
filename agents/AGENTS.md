@@ -128,13 +128,19 @@ Citation standards for notes:
 - Volatile numbers (stars, pricing, funding) carry "as of <date>".
 - Dead tools keep their note, marked dead in `## Status`; deaths are information.
 
+People-and-publications notes additionally carry a `## Top 5 recommended reading` section between `## Bottom line` and `## Changes`: the five pieces a new reader should start with, one per line, linked, each with a one-line why, best first.
+The five are the person's own output (essays, posts, books, talks, interviews given, threads they answered); third-party coverage about them does not count.
+For thin-record voices the five may lean on interviews and threads, and the section says so rather than padding.
+Every URL in the section is fetched in the run that adds or edits it, and the note's `## Changes` records the section's addition or material revision.
+
 ## Comparison matrices
 
 Every research index category has a companion feature matrix article (listed under Comparison matrices in [`agents/_index.md`](_index.md)) comparing the category's members on shared rows, every cell traced to its member note or its references.
 **Column entries are sorted alphabetically by member title, case-insensitive, with no privileged position for founders, roots, or baseline conventions: when membership changes, re-sort the columns in the same run rather than appending or inserting in place.**
 **A category's matrix is created in the same run the category is seeded, even when the category starts with a single member: the single column is the scaffold the next member extends, with the gap named in prose until then.**
-Once a matrix exists, it never lags its category: any membership change, a new note, a move between categories, or a retirement, updates the matrix in the same run as the note that caused it, along with the as-of date.
+Once a matrix exists, it never lags its category: any membership change, a new note, a move between categories, or a retirement, updates the matrix in the same run as the note that caused it, with the front matter `updated` field set to the revision date.
 A matrix that lags its category is a defect, not a deferred task.
+Matrices carry no verification preamble line ("Everything below was verified ..."); verification history lives in `## Changes`, and volatile cells carry their own "as of" qualifiers.
 An unsorted matrix is the same defect; fixing the sort order belongs in the same commit as whatever surfaced it.
 
 ## Category index pages
@@ -194,7 +200,7 @@ This blog has written about who maintains generated slop; this section must not 
 - Every article makes at least one claim a reader could disagree with.
 - Every claim is grounded in verifiable sources or the existing corpus.
 - Every article earns its length; no padding, no listicles without a thesis.
-- Trackers state their as-of date in the first paragraph and update it when facts change.
+- Trackers state their as-of date in the first paragraph as one short clause and update it when facts change; run-by-run verification logs ("Everything below was verified ...") stay out of prose and live in `## Changes`.
 - If nothing is worth publishing today, do maintenance only (link checks, fact checks, pruning) and say so in the log.
 There is no volume quota and no numeric cap; the quality bar is the only limit.
 

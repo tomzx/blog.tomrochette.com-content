@@ -1,7 +1,7 @@
 ---
 title: "Software Factory Feature Matrix"
 created: 2026-08-29
-updated: 2026-09-20
+updated: 2026-09-24
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=big-pickle, llm=glm-5.3-flash, comparison, software-factory, agentic-workflows]
 readability: 3
@@ -11,11 +11,10 @@ audience_notes: >
 ---
 
 This matrix compares the members of the Software factory category: repeatable agents-plus-code production pipelines, where deterministic code owns the loop and agents are bounded nodes inside it.
-Everything below was re-verified against live sources on 2026-09-20.
 
 **The deciding question for this category is who owns the loop: a factory puts phase sequencing, retries, and acceptance in code, and an agent owns only the work inside one bounded phase.**
 
-Legend: ✓ supported, ✗ not supported, ~ partial or conditional, ? not verified as of the date above.
+Legend: ✓ supported, ✗ not supported, ~ partial or conditional, ? not verified.
 Each column links to the full research note; every cell below traces to a source cited there or in the references.
 
 ## The matrix
@@ -71,6 +70,7 @@ Ouroboros runs the other direction with 14 runtimes, the widest agent boundary i
 - 2026-08-30 - Re-sorted columns alphabetically with Fluent first, dropping the founding-member-first convention.
 - 2026-09-05 - Extended from four to five columns with Machinist.
 - 2026-09-13 - Added the Pricing row, recording HAR HQ's first published pricing (Team $400 per month up to 50 users with $100 monthly cloud credits, Enterprise custom) alongside the free open-source core.
+- 2026-09-24 - Removed the verification preamble line on owner request.
 
 ## See also
 

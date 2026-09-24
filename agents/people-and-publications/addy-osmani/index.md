@@ -59,12 +59,21 @@ His books are sold commercially, while "Beyond Vibe Coding" has a free online ed
 **Recommended for engineers and leads inside established companies who need enterprise-grounded, hands-on agentic engineering practice rather than indie experiments or vendor marketing.**
 Not for readers wanting frontier research depth or a terminal-level tool feed.
 
+## Top 5 recommended reading
+
+- [Agent Skills](https://addyosmani.com/blog/agent-skills/) - the thesis that the senior engineer's real job is the parts that do not show up in the diff, encoded as workflows agents cannot skip.
+- [Beyond Vibe Coding](https://beyond.addy.ie) - the book, with a free online edition, that turns AI-assisted development into specs, context engineering, and verification practice.
+- [Brownfield Agentic Engineering](https://addyosmani.com/blog/brownfield-agentic-engineering/) - zones, characterization tests, and blast radius for running agents in codebases older than the team.
+- [21 Lessons From 14 Years at Google](https://addyosmani.com/blog/21-lessons/) - his highest-reach essay and the clearest view of the leadership perspective behind his agent advice.
+- [Beyond Vibe Coding with Addy Osmani](https://newsletter.pragmaticengineer.com/p/beyond-vibe-coding-with-addy-osmani) - the interview on how he actually uses AI tools and where quality slips without discipline.
+
 ## Changes
 
 - 2026-09-02 - Created in the People and publications category, filling the enterprise-hands-on gap the matrix named.
 - 2026-09-12 - Reframed around his departure from Google in 2026 after 14 years.
 - 2026-09-18 - His site now states he is a Member of Technical Staff at Anthropic working on Claude Code, so the enterprise-hands-on framing moved from ex-Google to frontier-lab insider.
 - 2026-09-22 - His site now features a new O'Reilly book, "Agentic Engineering", his latest essay is "Brownfield Agentic Engineering" (2026-09-14), and a new open-source repo, clarity, joins agent-skills.
+- 2026-09-24 - Added the Top 5 recommended reading section.
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: "Hybrid Execution Feature Matrix"
 created: 2026-08-24
-updated: 2026-09-22
+updated: 2026-09-24
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, comparison, hybrid-execution, structured-outputs, constrained-decoding]
 readability: 3
@@ -11,11 +11,10 @@ audience_notes: >
 ---
 
 This matrix compares the thirteen hybrid-execution notes profiled in this section, feature by feature: two vendor API features that constrain decoding, two libraries that validate or mask their way to typed output, eight decision-model implementations of the no-generation contract (TypeSafe's closed Jev plus the seven open answers the community shipped in Jev's launch week: CUA-S1, Jevlike, Kev, Laya, NanoJev, Nimble, and SemIf), and one independent benchmark that measures all of them (JevBench).
-Everything below was verified against the refreshed member notes and live sources on 2026-09-22.
 
 **These thirteen are less competitors than mechanisms on one spectrum, and the decision that matters is where the schema guarantee lives, in sampling, in post-hoc checks, or in the architecture itself: I would take decoding-time enforcement everywhere it exists, treat most single-provider Instructor deployments written after 2025 as incidental complexity, and no longer take the architectural class purely on faith, because the launch week put seven independently inspectable open brackets next to Jev's closed claim and the week after produced the first outside scoreboard for all of them.**
 
-Legend: ✓ supported, ✗ not supported, ~ partial or conditional, ? not verified as of the date above.
+Legend: ✓ supported, ✗ not supported, ~ partial or conditional, ? not verified.
 Each column links to the full research note; every cell below traces to a source cited there or in the references.
 
 ## The matrix
@@ -87,6 +86,7 @@ CUA-S1 is free beyond your own hardware, but the general planning model above it
 - 2026-09-21 - Extended from six to seven columns with Laya, the open-weights multilingual decision-model family, inserted alphabetically between Jev and OpenAI Structured Outputs, and updated the intro, thesis, spectrum reading, choosing bullets, and the CUA-S1 evidence framing after its model-card expansion.
 - 2026-09-21 - Extended from seven to twelve columns with the launch-week open wave (Jevlike, Kev, NanoJev, Nimble, SemIf, all inserted alphabetically), rewrote the intro and thesis for the seven-open-brackets framing, extended the spectrum reading with the dormancy-and-evidence spread, and added four choosing bullets for the wave.
 - 2026-09-22 - Extended from twelve to thirteen columns with JevBench, the category's first independent benchmark, inserted alphabetically between Jev and Jevlike, updated the kev (MLX shipped, thread cleared the bar), nimble (temperature fitted 2026-09-22), and semif (calibration PRs) cells, and added a choosing bullet for the scoreboard column.
+- 2026-09-24 - Removed the verification preamble line on owner request.
 
 ## See also
 
