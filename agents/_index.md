@@ -33,7 +33,7 @@ The queue it works from is [the work queue](queue.md).
 
 # Comparison matrices
 
-Every research category's members compared on shared rows, plus the model providers compared as bundles.
+Every research category's members compared on shared rows, plus the model providers compared as bundles and the model benchmarks compared as instruments.
 
 - [Assistant Runtimes Feature Matrix](assistant-runtimes/assistant-runtimes-feature-matrix/index.md) - OpenClaw, Hermes, the shrinking variants, the Python core, and the two Cowork desktops, the trust ladder in one table, verified 2026-09-21.
 - [Automated Research Feature Matrix](automated-research/automated-research-feature-matrix/index.md) - the seven lab and product research loops divided on who runs the loop and who judges the output, Pion the newest, verified 2026-09-21.
@@ -45,6 +45,7 @@ Every research category's members compared on shared rows, plus the model provid
 - [Harness Feature Matrix](harnesses/harness-feature-matrix/index.md) - the twenty-seven harnesses against eleven capability rows, ZCode the newest, verified 2026-09-21.
 - [Hybrid Execution Feature Matrix](hybrid-execution/hybrid-execution-feature-matrix/index.md) - constrained decoding versus validate-and-retry versus models born at the decision layer, the launch week's seven open brackets columned around Jev's closed contract, the guarantee mechanism as the deciding row, SemIf the newest, verified 2026-09-21.
 - [Memory Feature Matrix](memory/memory-feature-matrix/index.md) - the file convention, the portable format, the capture plugin, and five services against memory-model and lock-in rows, Engrim the newest column, verified 2026-09-21.
+- [Model Benchmark Matrix](model-benchmark-matrix/index.md) - the thirty model benchmarks grouped by the decision they inform, each with a one-sentence summary of what it evaluates, ProgramBench and HLE-Diamond the newest, verified 2026-09-24.
 - [Model Provider Feature Matrix](model-provider-feature-matrix/index.md) - the seven model providers compared as bundles on price tiers, cache and batch policy, context flatness, weights, and subscription transfer, verified 2026-09-21.
 - [Orchestration Feature Matrix](orchestration/orchestration-feature-matrix/index.md) - the fifteen worktree managers, dashboards, control planes, and mobile clients, AX the newest, plus one agent town now shut down, one deprecated and one orphaned among them, verified 2026-09-21.
 - [People and Publications Feature Matrix](people-and-publications/people-and-publications-feature-matrix/index.md) - the thirty voices compared on focus, cadence, and reader slot, the harness builders and video band among them, verified 2026-09-24.
