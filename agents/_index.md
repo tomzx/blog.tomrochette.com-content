@@ -58,6 +58,7 @@ Every research category's members compared on shared rows, plus the model provid
 - [Spec Driven Development Feature Matrix](spec-driven-development/spec-driven-development-feature-matrix/index.md) - the five spec-first tools across the ownership and ceremony-sizing axes, GSD the newest, verified 2026-09-21.
 - [Surface Feature Matrix](surfaces/surface-feature-matrix/index.md) - the twelve surfaces (two of them death records) against eleven capability rows, verified 2026-09-21.
 - [Task Management Feature Matrix](task-management/task-management-feature-matrix/index.md) - files versus database as the deciding row, Ordewell's typed plan artifacts the newest column, with the PRD pipeline and its license cost, verified 2026-09-21.
+- [Trackers and Leaderboards Feature Matrix](trackers-and-leaderboards/trackers-and-leaderboards-feature-matrix/index.md) - the six field-watchers split on what their number measures, from launch-day records to crowd votes to revealed spend, with a verification-strength row that inverts the popularity order, verified 2026-09-24.
 
 # Research index
 
@@ -86,5 +87,6 @@ Each category keeps its own index page below, listing its entries alphabetically
 - [Spec-driven development](spec-driven-development/_index.md) - specification-first workflows, from brownfield toolkits to platform bets.
 - [Surfaces](surfaces/_index.md) - the editors and IDEs where agents meet your code.
 - [Task management](task-management/_index.md) - where agent work gets planned and tracked.
+- [Trackers and leaderboards](trackers-and-leaderboards/_index.md) - the release trackers, leaderboards, and open datasets that watch the AI field itself.
 
 Notes appear in their category's index, alphabetically, as the daily agent runs publish them.
