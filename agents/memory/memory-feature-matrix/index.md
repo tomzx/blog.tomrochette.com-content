@@ -1,7 +1,7 @@
 ---
 title: "Memory Feature Matrix"
 created: 2026-08-24
-updated: 2026-09-22
+updated: 2026-09-24
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, comparison, memory, agent-memory, ai-agents]
 readability: 3
@@ -20,7 +20,7 @@ Each column links to the full research note; every cell below traces to a source
 
 ## The matrix
 
-| Feature | [claude-mem](../claude-mem/index.md) | [Cognee](../cognee/index.md) | [Engrim](../engrim/index.md) | [Files](../file-based-agent-memory/index.md) | [Letta](../letta/index.md) | [Mem0](../mem0/index.md) | [Memoryfields](../memoryfields/index.md) | [Zep](../zep/index.md) |
+| Feature | [claude-mem](../claude-mem/index.md) | [Cognee](../cognee/index.md) | [Engrim](../engrim/index.md) | [File-based agent memory](../file-based-agent-memory/index.md) | [Letta](../letta/index.md) | [mem0](../mem0/index.md) | [Memoryfields](../memoryfields/index.md) | [Zep](../zep/index.md) |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Kind | local plugin, engine plus cloud | OSS platform, library plus cloud | local engine, CLI plus hooks and MCP | convention, no vendor | platform, harness plus cloud | hosted service, self-hostable | open file format, spec plus tooling | hosted service, enterprise |
 | Memory model | compressed observations, SQLite FTS5 plus optional vectors | graph plus vector plus relational | curated episodic records, SQLite FTS5 plus model2vec vectors, 4,000-char boot pack | plain markdown files | editable memory blocks, learned | vector plus graph plus KV | flat markdown pages plus optional SQLite vector index | temporal knowledge graph |
@@ -75,6 +75,7 @@ Mem0's $19 Starter undercuts everyone; Zep's credit metering prices the audit tr
 - 2026-09-10 - Extended from seven to eight columns with Engrim.
 - 2026-09-16 - Engrim's integration cell moved to six agent CLIs with the OpenCode addition, and Memoryfields' contradiction cell moved from not supported to partial with the spec's new page status flags.
 - 2026-09-22 - Engrim's integration cell moved to seven agent CLIs with the GitHub Copilot CLI adapter (v1.4.9).
+- 2026-09-24 - Renamed the Files column to its listing title, File-based agent memory, and the Mem0 column to mem0, matching the section index listing; no cells moved.
 
 ## See also
 
@@ -86,8 +87,8 @@ Mem0's $19 Starter undercuts everyone; Zep's credit metering prices the audit tr
 
 ## References
 
-- https://code.claude.com/docs/en/memory - CLAUDE.md hierarchy, auto memory limits, adherence caveats for the Files column
-- https://agents.md - the convention standard and adoption count for the Files column
+- https://code.claude.com/docs/en/memory - CLAUDE.md hierarchy, auto memory limits, adherence caveats for the File-based agent memory column
+- https://agents.md - the convention standard and adoption count for the File-based agent memory column
 - https://github.com/letta-ai/letta-code - the active Letta harness, memory blocks, license
 - https://docs.letta.com/pricing - Letta plan structure and per-agent metering
 - https://github.com/mem0ai/mem0 - Mem0 stars, April 2026 algorithm, OSS-versus-platform disclaimer

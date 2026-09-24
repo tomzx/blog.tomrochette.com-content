@@ -39,7 +39,7 @@ Out of scope:
 
 Both content types share these rules.
 
-- One directory per article, lowercase kebab-case slug, containing `index.md`, placed inside its category directory: `agents/<category>/<slug>/index.md`; the category directories are named for the `_index.md` sections (harnesses, surfaces, orchestration, protocols, context-engines, skills, retrieval, memory, executions, hybrid-execution, code-review, evaluation-review, sandboxing, spec-driven-development, task-management, control-planes, assistant-runtimes, software-factory, session-analytics, people-and-publications), and each category's feature matrix lives in the same directory.
+- One directory per article, lowercase kebab-case slug, containing `index.md`, placed inside its category directory: `agents/<category>/<slug>/index.md`; the category directories are named for the sections (automated-research, harnesses, surfaces, orchestration, protocols, context-engines, skills, retrieval, memory, executions, hybrid-execution, code-review, evaluation-review, sandboxing, spec-driven-development, task-management, control-planes, assistant-runtimes, software-factory, session-analytics, people-and-publications), and each category's feature matrix and its own `_index.md` index page live in the same directory (see Category index pages).
 - Essays, `model-provider-feature-matrix` (which has no category), and the control files stay at the section root.
 - Front matter fields: `title`, `created` (YYYY-MM-DD), `status` (`draft` while writing, `finished` when complete), `tags`, `readability`, `updated` (set when you revise), and `audience_notes` (folded `>`, for finished pieces).
 - Every article ends with `## Changes`, `## See also`, `## References`, in that order; `## Changes` is the article's dated changelog (see Writing rules).
@@ -137,6 +137,20 @@ Once a matrix exists, it never lags its category: any membership change, a new n
 A matrix that lags its category is a defect, not a deferred task.
 An unsorted matrix is the same defect; fixing the sort order belongs in the same commit as whatever surfaced it.
 
+## Category index pages
+
+Every category directory has its own index page at `agents/<category>/_index.md`, and that page is the canonical list of the section's entries; the section index links each category by its index page and lists no research notes itself.
+A category index page is a section page, not an article: no `type` field, no `menu` field, no article tags, no See also, no References.
+Its front matter: `showArticleList: false`, `title` (the category name), `created` (YYYY-MM-DD), `visible: true`, `status`, `tags: [agents, <category-tag>]`, `readability: 3`.
+The page opens with one or two sentences on the category's scope, then lists its research notes alphabetically with one-line summaries (same format as the section index uses), then links the category's feature matrix.
+
+**A category's index page is created in the same run the category is seeded, even with a single entry, and it never lags its category: any membership change updates the page's list in the same run as the note that caused it.**
+A missing or stale category index page is a defect, the same as a lagging matrix.
+
+Every category index page ends with `## Changes`, the section's append-only membership log: one `- YYYY-MM-DD - Added <Title>.` bullet per entry when it joins the category, one `- YYYY-MM-DD - Removed <Title>.` bullet when an entry is retired, and one `- YYYY-MM-DD - Moved <Title> to <Category>.` bullet when an entry changes category, oldest first, never deleted or rewritten.
+When a page is created for a category that already holds entries, seed it with one `Added <Title>.` bullet per entry, each dated to that entry's `created` date.
+The bullets are sourced from `agents/log.md` like article Changes; the log stays the audit trail, the page's Changes is the reader-facing summary.
+
 ## Writing rules
 
 Inherit the blog's style, with these specifics:
@@ -149,7 +163,7 @@ Inherit the blog's style, with these specifics:
 - Structure with `##` headers that each advance the argument; bold the key insight of each section.
 - Close with `## What to Do Next` when prescriptive, then `## Changes`, `## See also` (internal links), and `## References` (external sources), three to five items each for See also and References.
 - `## Changes` is the article's append-only changelog: one `- YYYY-MM-DD - <what changed>` bullet per material change, oldest first, the first bullet records creation, sourced from `agents/log.md` (the log stays the full audit trail; Changes is the reader-facing summary). Corrections, status moves, pricing changes, added or removed facts, category moves, and matrix membership changes are changes; verification-date bumps and routine volatile-number refreshes are not. Append the bullet in the same run as the change it records; never delete or rewrite old bullets.
-- Internal links: articles in the same category are `../<slug>/index.md`; articles in another category are `../<category>/<slug>/index.md`; section-root articles (essays, the model-provider matrix) are `../../<slug>/index.md`; the section index and control files are `../../` (for example `../../_index.md`, `../../AGENTS.md`); main corpus articles are `../../../<slug>/index.md`. Always verify the target directory exists before adding a link (CI fails on broken links).
+- Internal links: articles in the same category are `../<slug>/index.md`; articles in another category are `../<category>/<slug>/index.md`; a category index page is `<category>/_index.md` from the section index, `../../<category>/_index.md` from a section-root article (essays, the model-provider matrix), and `../_index.md` from a note in that category; section-root articles (essays, the model-provider matrix) are `../../<slug>/index.md`; the section index and control files are `../../` (for example `../../_index.md`, `../../AGENTS.md`); main corpus articles are `../../../<slug>/index.md`. Always verify the target directory exists before adding a link (CI fails on broken links).
 - External links must be durable and canonical (official docs, Wikipedia for concepts); verify the URL fetches before citing it.
 - All content must be compatible with CC BY-NC 4.0; quote sparingly, link generously.
 
@@ -190,10 +204,10 @@ A scheduled task runs this procedure once a day.
 
 1. Sync: `git pull --rebase --autostash origin master`. If it fails, stop and record the blocker in `agents/log.md`; never force anything.
 2. Read this file, `agents/log.md`, and `agents/queue.md`.
-3. Refresh every category each run, all in parallel: across research notes, essays, trackers, and matrices, check links, front matter, and as-of dates, and fix anything broken. Deep-refresh every category in the same run (no stalest ranking): re-verify status and volatile numbers, fix dead sources, scan for credible new entrants, re-check category fit (move or mark pivots), and keep every matrix matched to its category's membership and re-verified in the same run. Every entrant candidate resolves in the run that surfaces it: a note if it clears the citation bar, an explicit logged rejection with reasons if it does not; a candidate carried across runs as "pending" is a defect. Then work the queue top-down, then consider at most one self-directed essay.
-4. Verify before committing: every internal link target exists on disk, every external URL fetched during this run, front matter parses, style rules respected, and every feature matrix matches its category's current membership.
-5. Append one dated entry to `agents/log.md` (what changed and why), and append the matching bullet to each touched article's `## Changes` section.
-6. Update `agents/_index.md` if the article or research note lists changed (notes are listed alphabetically with one-line summaries), and update the affected category's feature matrix in the same run whenever membership changed (see Comparison matrices).
+3. Refresh every category each run, all in parallel: across research notes, essays, trackers, matrices, and category index pages, check links, front matter, and as-of dates, and fix anything broken. Deep-refresh every category in the same run (no stalest ranking): re-verify status and volatile numbers, fix dead sources, scan for credible new entrants, re-check category fit (move or mark pivots), and keep every matrix matched to its category's membership and every category index page's entry list current, all re-verified in the same run. Every entrant candidate resolves in the run that surfaces it: a note if it clears the citation bar, an explicit logged rejection with reasons if it does not; a candidate carried across runs as "pending" is a defect. Then work the queue top-down, then consider at most one self-directed essay.
+4. Verify before committing: every internal link target exists on disk, every external URL fetched during this run, front matter parses, style rules respected, and every feature matrix and category index page matches its category's current membership.
+5. Append one dated entry to `agents/log.md` (what changed and why), and append the matching bullet to each touched article's `## Changes` section, and to the affected category index page's `## Changes` whenever membership changed.
+6. Update `agents/_index.md` if the essay, tracker, or matrix lists changed; it links each category by its index page and lists no research notes itself. Update the affected category's `_index.md` entry list and append its `## Changes` bullet in the same run whenever membership changed (see Category index pages), and update the affected category's feature matrix in the same run whenever membership changed (see Comparison matrices).
 7. Commit scoped: stage only `agents/` (`git add agents/`). Commit message: short imperative, no prefixes, e.g. "Update agents model selection guide with August releases" or "Add agents article on context compaction".
 8. Push. If rejected, `git pull --rebase --autostash origin master` once and push again; if it fails again, stop and log.
 

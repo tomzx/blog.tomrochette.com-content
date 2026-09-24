@@ -59,257 +59,29 @@ The queue it works from is [the work queue](queue.md).
 # Research index
 
 One structured profile per tool or topic: what it is, status, strengths, cautions, pricing, and when to choose it over its rivals.
-All categories refreshed in parallel every run; dead tools keep their entries, marked.
+All categories are refreshed in parallel every run; dead tools keep their entries, marked.
+Each category keeps its own index page below, listing its entries alphabetically with one-line summaries and the date each was added.
 
-## Automated research
+- [Automated research](automated-research/_index.md) - where the research loop runs autonomously, from the labs' science programs to productized research agents and formal-proof engines.
+- [Harnesses](harnesses/_index.md) - the terminal and CLI agents that carry the model into your repo.
+- [Surfaces](surfaces/_index.md) - the editors and IDEs where agents meet your code.
+- [Orchestration](orchestration/_index.md) - worktree managers, kanbans, and dashboards for running many agents at once.
+- [Protocols](protocols/_index.md) - the open standards stacking agents, editors, tools, and frontends together.
+- [Context engines](context-engines/_index.md) - the engines, packers, and filters deciding what enters the context window.
+- [Skills](skills/_index.md) - the reusable capability format, from spec to registries.
+- [Retrieval](retrieval/_index.md) - chunking, parsing, and the frameworks feeding agents the right slices.
+- [Memory](memory/_index.md) - persistent memory, from file conventions to graph and temporal stores.
+- [Executions](executions/_index.md) - event-driven execution: hooks, schedules, and automation canvases.
+- [Hybrid execution](hybrid-execution/_index.md) - small fast models for typed decisions, and the benchmark that measures them.
+- [Code review](code-review/_index.md) - the machines that judge pull requests.
+- [Evaluation and review](evaluation-review/_index.md) - the gates, dashboards, and studies judging agent output and the harnesses themselves.
+- [Sandboxing](sandboxing/_index.md) - isolation layers from the workstation to the cluster.
+- [Spec-driven development](spec-driven-development/_index.md) - specification-first workflows, from brownfield toolkits to platform bets.
+- [Task management](task-management/_index.md) - where agent work gets planned and tracked.
+- [Control planes](control-planes/_index.md) - governance, budgets, and policy above the harness.
+- [Assistant runtimes](assistant-runtimes/_index.md) - personal assistant runtimes outside the editor.
+- [Software factory](software-factory/_index.md) - end-to-end factories owning the loop from spec to verified code.
+- [Session analytics](session-analytics/_index.md) - turning agent session logs into searchable history and cost reports.
+- [People and publications](people-and-publications/_index.md) - the voices steering the domain, and the lens each brings.
 
-Where the research loop itself runs autonomously: the labs' science programs, the productized research agent, and the formal-proof engines pointed at the hardest open problems.
-
-- [AlphaProof](automated-research/alphaproof/index.md) - DeepMind's Lean reinforcement-learning solver, from IMO silver in 2024 to officially graded IMO gold via Deep Think in 2025.
-- [Anthropic Claude mathematical research](automated-research/anthropic-claude-math/index.md) - the Claude Code subagent loop that raised the zeta zero bound to 67.2 percent and formalized Fermat's Last Theorem in 11 days.
-- [Harmonic Aristotle](automated-research/harmonic-aristotle/index.md) - the free agentic theorem prover with a Lean-checked Erdős result, now aimed at software correctness, judged and contested on FormalQualBench.
-- [Math Inc. Gauss](automated-research/math-inc-gauss/index.md) - the autoformalization agent behind Strong PNT and the sphere-packing proof, with the comparator-audited OpenGauss harness, as of 2026-09-13.
-- [OpenAI Deep Research](automated-research/openai-deep-research/index.md) - the productized web-research agent, the breadth-first loop with no machine judge behind it.
-- [OpenAI for Science](automated-research/openai-for-science/index.md) - the lab program from FrontierMath's first open-problem solve to the disputed Navier-Stokes claim, as of 2026-09-13.
-- [Pion](automated-research/pion/index.md) - Andon Labs' closed research preview where persistent agents run a real business with payment tools, the Vending-Bench lineage made product.
-
-## Harnesses
-
-- [aider](harnesses/aider/index.md) - the pre-agentic BYOK pair-programmer, cheapest precise-edit tool, development stalled since May 2026.
-- [Amp](harnesses/amp/index.md) - Sourcegraph-spun-out agent whose orbs keep working after you close the laptop, free on your own compute, subscriptions, or keys since September 13.
-- [Ante](harnesses/ante/index.md) - Antigma Labs' ~15MB Rust harness with an embedded llama.cpp engine, offline GGUF or 12+ cloud providers, footprint as the product.
-- [Bullet](harnesses/bullet/index.md) - TryBullet's closed-source YC S26 latency bet, free today, with a published 479-of-500 SWE-bench run.
-- [Claude Code](harnesses/claude-code/index.md) - Anthropic's everywhere-at-once harness, the platform benchmark and the token-cost cautionary tale.
-- [Cline](harnesses/cline/index.md) - the open-source agent that outgrew its VS Code extension into CLI, kanban, and SDK, 5.3 million installs deep.
-- [Codex](harnesses/codex/index.md) - OpenAI's ChatGPT-included agent, the Apache-2.0 big-lab CLI individuals can still just run.
-- [Crush](harnesses/crush/index.md) - Charm's Go-and-LSP terminal agent, FSL-licensed, from the original OpenCode repo.
-- [DeepSeek Harness](harnesses/deepseek-harness/index.md) - DeepSeek's everything-is-a-plugin harness, 228k stars in its first two months, MIT, prerelease-only at v0.1.6-alpha.2.
-- [Exo](harnesses/exo/index.md) - the MIT self-modification bet, a harness the agent can rewrite at runtime, cheapest measured harness at $1.05 per task.
-- [fx](harnesses/fx/index.md) - Vercel Labs' ~6 MiB Zig harness built to be embedded, the first agent-as-a-dependency bet.
-- [Gemini CLI](harnesses/gemini-cli/index.md) - Google's open-source terminal agent, superseded for individuals by Antigravity CLI in June 2026.
-- [goose](harnesses/goose/index.md) - Block's Rust agent turned Linux Foundation project, the field's first foundation-governed harness.
-- [Grok Build](harnesses/grok-build/index.md) - SpaceXAI's Apache-2.0 Rust TUI agent, open-sourced to a 590-point thread, daily releases synced from the monorepo, the wire-level privacy analysis attached.
-- [jcode](harnesses/jcode/index.md) - Solo Systems' Rust harness for parallel agents, RAM floor, native memory and swarm, self-dev included.
-- [Juggler](harnesses/juggler/index.md) - Julian Storer's AGPL Go GUI agent, conversations as branchable trees with every tool call inspectable.
-- [Junie](harnesses/junie/index.md) - JetBrains' plan-first agent with BYOK, IDE-grade grounding, and a free on-device Local mode for Mac.
-- [Kilo Code](harnesses/kilo-code/index.md) - the Cline-and-Roo feature-merge under MIT, subagents through cloud tasks bundled in, Anaconda's since July 2026.
-- [Kimi Code](harnesses/kimi-code/index.md) - Moonshot AI's terminal agent tuned for its own challenger-priced models, subagents through ACP in one Node.js CLI.
-- [OneCLI](harnesses/onecli/index.md) - the YC S26 Apache-2.0 team harness where a credential gateway injects secrets per request, so agents never hold them.
-- [OpenCode](harnesses/opencode/index.md) - the MIT, provider-neutral harness with the leanest measured token baseline.
-- [OpenHands](harnesses/openhands/index.md) - the renamed OpenDevin platform bet, sandboxed code-shell-browser agents you can self-host.
-- [Pi](harnesses/pi/index.md) - Earendil's minimal, self-extensible harness, a frozen core plus your TypeScript extensions, no MCP by design.
-- [Qwen Code](harnesses/qwen-code/index.md) - Alibaba's Gemini CLI fork and open-weights showcase, its OAuth free tier discontinued April 2026.
-- [Warp Agent CLI](harnesses/warp-agent-cli/index.md) - Warp's terminal agent unbundled into any terminal, model routing, cloud agents, and orchestration behind its credit meter.
-- [ZCode](harnesses/zcode/index.md) - Z.ai's official GLM workbench, caught silently uploading whole workspaces in September 2026 and open-sourced three days later as a flattened dump.
-- [Zerostack](harnesses/zerostack/index.md) - the solo GPL-3.0 Rust agent, 26 MB binary and ~16 MB RAM, subagents, worktrees, hooks, MCP behind compile flags.
-
-## Surfaces
-
-- [Antigravity](surfaces/antigravity/index.md) - Google's free multi-agent platform (2.0, IDE, CLI, SDK), generous tier, incident-heavy first year.
-- [Continue](surfaces/continue/index.md) - the open-source Copilot alternative across VS Code, JetBrains, and CLI, acquired by Cursor in June 2026, now read-only.
-- [Cursor](surfaces/cursor/index.md) - Anysphere's AI-native editor platform, acquired by SpaceX in August 2026, with OpenAI winding down its model access from November 12.
-- [JetBrains IDEs](surfaces/jetbrains/index.md) - the analysis-heavy IDEs whose AI layer, AI Assistant plus Junie, is removable and provider-agnostic.
-- [Kiro](surfaces/kiro/index.md) - AWS's spec-driven agentic IDE, credits-metered, from a 50-credit free tier to $200/month.
-- [OpenChamber](surfaces/openchamber/index.md) - the MIT open-source session cockpit around OpenCode, worktrees and multi-model fusion included.
-- [Roo Code](surfaces/roo-code/index.md) - the Cline-fork VS Code extension that sunset itself in May 2026 to chase cloud agents.
-- [Trae](surfaces/trae/index.md) - ByteDance's AI IDE, repriced in September 2026 to a $20/$60/$200 ladder, SOLO mode and cloud tasks included, telemetry questions attached.
-- [Void](surfaces/void/index.md) - the Apache-2.0 open-source Cursor alternative, demand proven, releases stalled since April 2025.
-- [VS Code + Copilot](surfaces/vscode-copilot/index.md) - the neutral default, hosting Copilot, Claude Code, and Codex as swappable harnesses.
-- [Windsurf](surfaces/windsurf/index.md) - the agentic IDE rescued by Cognition in 2025, fully absorbed into Devin Desktop, down to a redirect and Devin-hosted docs.
-- [Zed](surfaces/zed/index.md) - the Rust performance editor where AI is optional and BYOK is unlimited.
-
-## Orchestration
-
-- [AX](orchestration/ax/index.md) - Google's Kubernetes-native orchestrator that runs agent tasks, workspaces, and network gates as declarative cluster manifests, the category's first datacenter-scale control plane.
-- [Claude Squad](orchestration/claude-squad/index.md) - free AGPL terminal app running multiple coding agents in tmux, each in its own worktree.
-- [cmux](orchestration/cmux/index.md) - Manaflow's libghostty macOS terminal for parallel agents, notification rings free, cloud execution paid (Pro $50, Max $200 monthly).
-- [Conductor](orchestration/conductor/index.md) - the macOS app for parallel Claude Code, Codex, Cursor, and OpenCode sessions with diff review and PR flow.
-- [Crystal](orchestration/crystal/index.md) - Stravu's worktree manager, deprecated February 2026 for Nimbalyst, kept here as a death record.
-- [dmux](orchestration/dmux/index.md) - the MIT tmux TUI where every task pane gets its own worktree and branch.
-- [Emdash](orchestration/emdash/index.md) - the Apache-2.0 agentic development environment from General Action (YC W26), local or over SSH.
-- [Gas Town](orchestration/gastown/index.md) - Steve Yegge's tmux town of 20-30 supervised agents, shut down in September 2026 after Yegge admitted he never successfully built anything with it, kept as the category's cautionary record.
-- [Happy Coder](orchestration/happy-coder/index.md) - the MIT encrypted mobile client wrapping Claude Code and Codex sessions, 23.8k stars, second only to cmux in the category.
-- [JetBrains Air](orchestration/jetbrains-air/index.md) - the standalone agentic environment running Codex, Claude Agent, Gemini CLI, and Junie in parallel, isolated per task and bundled with the AI subscription.
-- [Omnara](orchestration/omnara/index.md) - the YC S25 Apache-2.0 Go control plane where agents are YAML and supervision happens from dashboard, phone, CLI, API, or Slack.
-- [Paseo](orchestration/paseo/index.md) - the open-source daemon driving coding agents from desktop, web, and native mobile apps, self-hosted and solo-maintained.
-- [Superset](orchestration/superset/index.md) - the YC-backed, source-available agentic IDE running parallel CLI agents in worktrees on your own subscriptions.
-- [Vibe Kanban](orchestration/vibe-kanban/index.md) - the Apache-2.0 kanban for parallel agents, orphaned by Bloop's April 2026 shutdown, community commits resumed in September 2026 but still no release.
-- [Worktrunk](orchestration/worktrunk/index.md) - the Rust `wt` CLI making worktrees as easy as branches, with lifecycle hooks and a one-command merge.
-
-## Protocols
-
-- [A2A](protocols/a2a/index.md) - Google's open protocol for independent agents to interoperate, now under the Linux Foundation.
-- [ACP](protocols/acp/index.md) - Zed's protocol standardizing how editors talk to coding agents.
-- [AG-UI](protocols/ag-ui/index.md) - CopilotKit's agent-to-frontend event protocol, 1.0 since September 2026 with 7.5 million monthly npm downloads, the rendering half of the protocol stack.
-- [Agent Host Protocol](protocols/agent-host-protocol/index.md) - Microsoft's sessions-server spec with six-language SDKs, VS Code rebuilding its agent infrastructure on it, spec still at v0.9.0.
-- [AGENTS.md](protocols/agents-md/index.md) - the open convention for repo-level agent instruction files.
-- [MCP](protocols/mcp/index.md) - the open protocol standardizing how AI applications connect to tools and data.
-
-## Context engines
-
-- [Augment Code](context-engines/augment-code/index.md) - the coding platform whose core is a real-time semantic Context Engine feeding Auggie and Cosmos.
-- [Graft](context-engines/graft/index.md) - NanoNets' MIT context layer feeding agents a code graph instead of grep, 8.4k stars in twelve weeks with every benchmark still the vendor's own.
-- [Graphify](context-engines/graphify/index.md) - the local AST knowledge graph exposed as a `/graphify` skill and MCP server, structure over similarity, no vectors.
-- [qmd](context-engines/qmd/index.md) - Tobias Lütke's local hybrid search engine for notes, docs, and knowledge bases, BM25 plus vectors plus reranking.
-- [Repomix](context-engines/repomix/index.md) - the MIT CLI that packs a whole repo into one AI-friendly file, retrieval-free by design.
-- [rtk](context-engines/rtk/index.md) - the Rust CLI proxy that filters agent command output before it enters the context window.
-- [Semble](context-engines/semble/index.md) - the local static-embedding-plus-BM25 code search index that indexes in under a second on any CPU, snippets instead of grep-and-read.
-- [Sourcegraph code context platform](context-engines/sourcegraph-code-context/index.md) - code search repositioned as the retrieval layer for agents, with value showing up above roughly 400K lines.
-
-## Skills
-
-- [Agent-Native](skills/agent-native/index.md) - Builder.io's curated pack of fifteen skills plus the app framework they bridge to, the discipline skills portable to any harness.
-- [Agent Skills open standard](skills/agent-skills-open-standard/index.md) - the agentskills.io spec for SKILL.md capability directories.
-- [Anthropic Agent Skills](skills/anthropic-agent-skills/index.md) - Anthropic's SKILL.md folder format for reusable agent capabilities.
-- [OpenCode skills and plugins](skills/opencode-skills-and-plugins/index.md) - OpenCode's two extension mechanisms: skills for the model, plugins for the harness.
-- [SkillOpt](skills/skillopt/index.md) - Microsoft Research's optimizer that trains skill markdown against held-out validation, skills as trainable parameters.
-- [skills.sh](skills/skills-sh/index.md) - Vercel's directory and leaderboard for the open skills ecosystem.
-
-## Retrieval
-
-- [Chonkie](retrieval/chonkie/index.md) - the MIT chunking library (token, semantic, and neural chunkers) for RAG pipelines, its commercial arm dead and its maker pivoted to Feyn Labs.
-- [Knowhere](retrieval/knowhere/index.md) - Ontos AI's structure-preserving document parsing and retrieval pipeline, hosted per page or self-hosted, its self-reported benchmark and near-empty HN footprint attached.
-- [LangChain](retrieval/langchain/index.md) - the largest LLM framework, repositioned in 2026 as an agent engineering platform.
-- [LlamaIndex](retrieval/llamaindex/index.md) - the MIT data framework for retrieval pipelines, now the open arm of LlamaParse.
-- [Semantic code search](retrieval/semantic-code-search/index.md) - retrieval by meaning over embedded chunks, shipped as a workspace index.
-- [Tree-sitter chunking](retrieval/tree-sitter-chunking/index.md) - cutting files along syntax boundaries instead of fixed line counts.
-
-## Memory
-
-- [claude-mem](memory/claude-mem/index.md) - the 94k-star plugin that captures coding-agent sessions, compresses them with your tokens, and reinjects the context.
-- [Cognee](memory/cognee/index.md) - the Apache-2.0 graph-memory pipeline with the whole engine self-hostable and a flat per-token cloud.
-- [Engrim](memory/engrim/index.md) - the local-first SQLite episodic memory engine for multiple AI CLIs on one machine, provenance-first, new this week.
-- [File-based agent memory](memory/file-based-agent-memory/index.md) - the CLAUDE.md and AGENTS.md conventions, memory as plain markdown files.
-- [Letta](memory/letta/index.md) - the MemGPT creators' memory-first platform, agent plus cloud tier.
-- [mem0](memory/mem0/index.md) - the hosted and self-hostable memory layer across vector, graph, and key-value backends.
-- [Memoryfields](memory/memoryfields/index.md) - Cal Paterson's portable memory-as-file-format spec, markdown pages plus a deletable vector index, the files-over-pipelines argument in RFC form.
-- [Zep](memory/zep/index.md) - temporal knowledge graphs where contradictions invalidate old facts.
-
-## Executions
-
-- [Claude Code hooks](executions/claude-code-hooks/index.md) - lifecycle triggers that turn the harness into an event-driven system.
-- [Copilot automations](executions/copilot-automations/index.md) - GitHub's cloud agent on schedules and repository events.
-- [GitHub Agentic Workflows](executions/github-agentic-workflows/index.md) - markdown-defined automation compiled into hardened Actions runs.
-- [n8n](executions/n8n/index.md) - the fair-code automation canvas where triggers start workflows and agents.
-
-## Hybrid execution
-
-- [Anthropic structured outputs](hybrid-execution/anthropic-structured-outputs/index.md) - schema-constrained decoding for Claude responses and tool inputs.
-- [CUA-S1](hybrid-execution/cua-s1/index.md) - Cua's open-weights 706k-parameter System One checkpoint that scores form actions without generating text, the verifiable counterpart to Jev's closed contract.
-- [Instructor](hybrid-execution/instructor/index.md) - Pydantic in, validated objects out, with a re-ask when validation fails.
-- [Jev](hybrid-execution/jev/index.md) - TypeSafe's System One model that skips text generation entirely, typed decisions with calibrated confidence at 70-500ms, early access since September 2026.
-- [Jevlike](hybrid-execution/jevlike/index.md) - the community's one-day reverse-engineering of the Jev contract, an MIT option-attention starter, dormant since launch day, its head lifted by CUA-S1.
-- [Kev](hybrid-execution/kev/index.md) - Jared Palmer's Apache-2.0 Qwen3.5 LoRA family speaking the Jev API locally, with the wave's strongest pre-registered eval discipline.
-- [Laya](hybrid-execution/laya/index.md) - the Apache-2.0 open-weights decision-model family answering typed questions in a single pass, the open rival to Jev's contract with its limits stated on its own model card.
-- [NanoJev](hybrid-execution/nanojev/index.md) - the 0.6B game-task replica with the most complete pipeline and the least verification, every benchmark unreplicated.
-- [Nimble](hybrid-execution/nimble/index.md) - Bespoke Labs' one-day open Jev with the category's only human-labeled head-to-head (Jev wins by 1.2 macro points) and an unlicensed repo.
-- [OpenAI Structured Outputs](hybrid-execution/openai-structured-outputs/index.md) - schema-guaranteed responses via constrained decoding.
-- [Outlines](hybrid-execution/outlines/index.md) - logit-masked generation following types, schemas, regexes, or grammars.
-- [SemIf](hybrid-execution/semif/index.md) - frozen open models reading typed option probabilities straight from the logits, with a client-side WebGPU demo, until this week named OpenJev.
-
-## Code review
-
-Where machines judge pull requests: the review bots, the open-source reviewers, and the one that pivoted into agent infrastructure.
-
-- [CodeRabbit](code-review/coderabbit/index.md) - the commercial anchor, $143M Series C at a $1.5B valuation, free forever on public repos, with a disclosed RCE history in its file.
-- [Ellipsis](code-review/ellipsis/index.md) - the 2024 review bot that pivoted to managed agent infrastructure in July 2026, review now one configurable use case.
-- [Graphite Diamond](code-review/graphite-diamond/index.md) - the deprecated Diamond reviewer, now Graphite Agent inside Cursor since the December 2025 acquisition.
-- [Greptile](code-review/greptile/index.md) - AI code review running a swarm of agents over a graph index of your repositories, learned house rules included.
-- [Kodus](code-review/kodus/index.md) - the AGPL-3.0 open-source reviewer with BYOK and zero token markup, self-hosted or on Kodus Cloud.
-- [OpenCodeReview](code-review/open-code-review/index.md) - Alibaba's hybrid reviewer where deterministic pipelines pick and rule-check what the LLM agent judges, precision over recall.
-- [Qodo](code-review/qodo/index.md) - the open-core reviewer, MIT PR-Agent you can self-host or paid Qodo Merge, both sides covered by Kudelski's exploit research.
-- [Sourcery](code-review/sourcery/index.md) - the MIT-lineage static-analysis tool turned proprietary AI reviewer, free for open source and $12 for private repos.
-
-## Evaluation and review
-
-Where quality control lives in the agent workflow: CI gates, dashboards, machine review, human annotation, and the academic studies that benchmark the harnesses themselves.
-
-- [deepeval](evaluation-review/deepeval/index.md) - the pytest-style eval framework with roughly fifty judge metrics that gates merges in CI.
-- [FrontierHarness Eval](evaluation-review/frontierharness-eval/index.md) - the public benchmark that held the model constant and varied nine harnesses in twelve configurations, cost spread 17.5x, vendor-run caveat attached.
-- [HarnessTax](evaluation-review/harnesstax/index.md) - the UC Berkeley study that held seven models constant across three harnesses on SWE-bench Lite and Terminal-Bench, finding harness swaps cost up to 5x while success barely moves.
-- [Langfuse](evaluation-review/langfuse/index.md) - the MIT-core tracing and eval platform, 34.7k stars, inside ClickHouse since January with the proprietary ee/ split as the caution.
-- [Phoenix](evaluation-review/phoenix/index.md) - Arize's OTel-native observability and eval platform, self-hostable under an Elastic license.
-- [Plannotator](evaluation-review/plannotator/index.md) - the local review surface that turns your annotations on agent plans and diffs into the agent's next instruction.
-- [Workshop](evaluation-review/workshop/index.md) - Raindrop's local debugger where the coding agent reads traces, writes evals, and fixes what fails.
-
-## Sandboxing
-
-Where agent isolation should live: the workstation, the cluster, the wrapper, the framework, or the provisioning layer.
-
-- [Agent Sandbox](sandboxing/agent-sandbox/index.md) - the Kubernetes SIG Apps CRD for declarative sandbox fleets, delegating isolation to gVisor or Kata.
-- [aigate](sandboxing/aigate/index.md) - the fourteen-star kernel-enforced wrapper, kept as the reference design for small-scale OS-level agent sandboxing.
-- [ArtifactFS](sandboxing/artifact-fs/index.md) - Cloudflare's FUSE driver that mounts big repos in seconds, the provisioning layer sandboxes need before isolation matters.
-- [Clawk](sandboxing/clawk/index.md) - the disposable-VM workstation tool, the agent gets its own Linux machine instead of yours, pre-1.0 on macOS.
-- [CubeSandbox](sandboxing/cubesandbox/index.md) - Tencent's E2B-compatible RustVMM/KVM microVM sandbox, sub-60ms boots, its traction built on launch announcements rather than community discussion.
-- [Flue](sandboxing/flue/index.md) - the Astro team's agent framework whose contribution is a three-tier sandbox taxonomy and durable execution.
-- [OpenSandbox](sandboxing/opensandbox/index.md) - the Apache-2.0 general sandbox platform (SDKs, CLI, MCP, K8s runtimes) that grew on GitHub trend charts, not Hacker News.
-- [OpenShell](sandboxing/openshell/index.md) - NVIDIA's container-and-MicroVM runtime where declarative policy and inference-proxy keys make the boundary credible.
-
-## Spec-driven development
-
-- [BMad Method](spec-driven-development/bmad-method/index.md) - the agile method that sizes ceremony to the change, roles and retrospectives included.
-- [GitHub Spec Kit](spec-driven-development/spec-kit/index.md) - the MIT process-plus-CLI layer that made specs-before-agents a movement, agent-neutral, 137.7k stars in year one.
-- [GSD](spec-driven-development/gsd/index.md) - the 64k-star get-shit-done workflow system for Claude Code, archived and continuing as open-gsd/gsd-core.
-- [OpenSpec](spec-driven-development/openspec/index.md) - the brownfield spec toolkit whose delta proposals archive into a living ledger, 1.6M npm downloads a month.
-- [Tessl](spec-driven-development/tessl/index.md) - the $125M platform bet that spec-driven development is infrastructure you rent.
-
-## Task management
-
-- [Backlog.md](task-management/backlog-md/index.md) - the markdown-native task manager whose three review gates, spec, plan, code, make it the first line of code review.
-- [beads](task-management/beads/index.md) - Steve Yegge's Dolt-backed graph issue tracker, dependency-aware with atomic claims, the agent-memory thesis in running code.
-- [Ordewell](task-management/ordewell/index.md) - the CLI that turns one goal into typed plan artifacts with per-task runners and models, verified by completion markers rather than the model's word.
-- [Task Master](task-management/task-master/index.md) - the most-installed PRD-to-tasks pipeline, quiet since April 2026 as it became Hamster's Commons-Clause commercial engine.
-
-## Control planes
-
-- [Paperclip](control-planes/paperclip/index.md) - the MIT self-hosted control plane for a company of agents, heartbeats, budgets, and governance, 80k stars in six months.
-- [TinyAGI](control-planes/tinyagi/index.md) - the one-person-company orchestrator that stalled in March 2026, kept as the category's first consolidation record.
-
-## Assistant runtimes
-
-- [Eigent](assistant-runtimes/eigent/index.md) - the Apache-2.0 Cowork desktop with CAMEL-based multi-agent workforces and a corrected-benchmark history.
-- [Hermes](assistant-runtimes/hermes/index.md) - Nous Research's self-improving agent with the learning loop, 246k stars, new paid tiers, and the channels to match.
-- [NanoClaw](assistant-runtimes/nanoclaw/index.md) - the auditable containerized OpenClaw rewrite, one process you can read in an afternoon.
-- [Nanobot](assistant-runtimes/nanobot/index.md) - HKUDS' readable Python agent runtime with the WebUI and channels bundled, 47k stars at alpha.
-- [OpenClaw](assistant-runtimes/openclaw/index.md) - the self-hosted personal assistant root of the -claw family, 389k stars and the 2026 provider-restriction saga.
-- [OpenWork](assistant-runtimes/openwork/index.md) - the MIT-core Cowork alternative built on OpenCode, whose MCP gateway makes skills portable across agents.
-- [PicoClaw](assistant-runtimes/picoclaw/index.md) - Sipeed's Go assistant on $10 RISC-V boards in 10-20MB of RAM, the category as a compile target.
-- [QwenPaw](assistant-runtimes/qwenpaw/index.md) - the AgentScope team's assistant with the broadest chat-channel matrix and five built-in security layers.
-- [ZeroClaw](assistant-runtimes/zeroclaw/index.md) - the single Rust binary runtime, ownership as a compile-time property.
-
-## Software factory
-
-- [Fluent](software-factory/fluent/index.md) - the self-improving factory with a deterministic final Tester and a learning loop, for teams that accept pre-1.0 ceremony.
-- [HAR](software-factory/har/index.md) - the open harness that isolates a fleet of coding agents in worktrees with deterministic verification and an evidence trail.
-- [Machinist](software-factory/machinist/index.md) - the Go control plane whose named-command entrypoint is the category's strictest agent boundary, early access, zero independent coverage.
-- [Ouroboros](software-factory/ouroboros/index.md) - the Agent OS that freezes a spec from an interview and verifies with the grading hidden from the worker, 14 runtimes.
-- [Super Simple Software Factory](software-factory/super-simple-software-factory/index.md) - a repeatable agents-plus-code pipeline stamped into any repo as a skill, where Python owns the loop and each agent owns one bounded phase.
-
-## Session analytics
-
-Tools that turn what coding agents already record into searchable history, cost reports, and audits, plus one that watches the sessions as they happen.
-
-- [agents-observe](session-analytics/agents-observe/index.md) - the live dashboard for Claude Code and Codex sessions, hooks feeding a local server, multi-agent trees and cost breakdowns in real time.
-- [agentsview](session-analytics/agentsview/index.md) - the local-first indexer for roughly 60 agents' session files, retrospective search and token-cost reporting in one SQLite store.
-- [ctx](session-analytics/ctx/index.md) - local search over the sessions agents already recorded, with pro blame attribution from any line of code back to its transcript.
-- [Memex](session-analytics/memex/index.md) - the Rust CLI that indexes multi-harness session transcripts locally with BM25 or embeddings and resumes the session you find.
-
-## People and publications
-
-Profiles of the people and websites steering this domain as it evolves, and the lens each brings: hands-on practice, industry synthesis, or conceptual vocabulary.
-
-- [Addy Osmani](people-and-publications/addy-osmani/index.md) - the enterprise-hands-on voice, fourteen years inside Google writing verification-first agentic engineering guidance, now at Anthropic on Claude Code.
-- [AI Jason](people-and-publications/ai-jason/index.md) - the video practitioner who shows agent workflows and context engineering working end to end.
-- [Andrej Karpathy](people-and-publications/andrej-karpathy/index.md) - the vocabulary-setter, from vibe coding to Software 3.0 and agentic engineering.
-- [Andrew Ng](people-and-publications/deeplearning-ai-andrew-ng/index.md) - the educator whose weekly The Batch and courses popularized agentic design patterns.
-- [Caleb Writes Code](people-and-publications/caleb-writes-code/index.md) - the video explainer that turns model releases and agentic-engineering concepts into same-week, illustrated shorts.
-- [Chip Huyen](people-and-publications/chip-huyen/index.md) - the systems-design author of the most-read O'Reilly AI book of 2025.
-- [Hamel Husain](people-and-publications/hamel-husain/index.md) - the eval-driven method for deciding whether an AI product actually works.
-- [Latent Space](people-and-publications/latent-space/index.md) - the AI engineering newsletter-podcast-conference of record, by swyx and Alessio.
-- [Lilian Weng](people-and-publications/lilian-weng/index.md) - the reference writer whose agent survey is the canonical map of planning, memory, and tool use.
-- [Nathan Lambert](people-and-publications/nathan-lambert/index.md) - the inside-the-labs voice on models, post-training, and the open ecosystem.
-- [Simon Willison](people-and-publications/simon-willison/index.md) - the daily, hands-on chronicler of tools and agents.
-- [Steve Yegge](people-and-publications/steve-yegge/index.md) - the operative who predicted the agent era in essays and then built in it, Gas Town included until he shut it down in September 2026.
-- [The Pragmatic Engineer](people-and-publications/the-pragmatic-engineer/index.md) - Gergely Orosz's org-and-data view of how engineering teams adopt agents.
-
-Notes appear here, alphabetically, as the daily agent runs publish them.
+Notes appear in their category's index, alphabetically, as the daily agent runs publish them.

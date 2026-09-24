@@ -1,7 +1,7 @@
 ---
 title: "Surface Feature Matrix"
 created: 2026-08-24
-updated: 2026-09-16
+updated: 2026-09-24
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, comparison, surfaces, ai-editors]
 readability: 3
@@ -20,7 +20,7 @@ Each column links to the full research note; every cell traces to a source cited
 
 ## The matrix
 
-| Feature | [Antigravity](../antigravity/index.md) | [Continue](../continue/index.md) | [Cursor](../cursor/index.md) | [JetBrains](../jetbrains/index.md) | [Kiro](../kiro/index.md) | [OpenChamber](../openchamber/index.md) | [Roo Code](../roo-code/index.md) | [Trae](../trae/index.md) | [Void](../void/index.md) | [VS Code + Copilot](../vscode-copilot/index.md) | [Windsurf](../windsurf/index.md) | [Zed](../zed/index.md) |
+| Feature | [Antigravity](../antigravity/index.md) | [Continue](../continue/index.md) | [Cursor](../cursor/index.md) | [JetBrains IDEs](../jetbrains/index.md) | [Kiro](../kiro/index.md) | [OpenChamber](../openchamber/index.md) | [Roo Code](../roo-code/index.md) | [Trae](../trae/index.md) | [Void](../void/index.md) | [VS Code + Copilot](../vscode-copilot/index.md) | [Windsurf](../windsurf/index.md) | [Zed](../zed/index.md) |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Kind | platform, IDE, CLI, SDK | extensions and CLI | VS Code fork | IDE suite | closed IDE | local session app | VS Code extension | VS Code fork | VS Code fork | editor plus extensions | VS Code fork | Rust editor |
 | Open source | ✗ | ✓ Apache-2.0 | ✗ | ~ Community IDEs | ✗ | ✓ MIT | ✓ Apache-2.0 | ✗ | ✓ Apache-2.0 | ~ MIT editor | ✗ | ~ mixed licenses |
@@ -63,6 +63,7 @@ Antigravity and OpenChamber are the extremes, a closed platform giving the most 
 - 2026-09-04 - Updated the Continue cell after its final release was corrected to 2.1.0-vscode.
 - 2026-09-13 - Replaced the dead docs.windsurf.com reference (now 404) with docs.devin.ai, which now serves the Devin Desktop docs alone.
 - 2026-09-16 - Corrected the docs.devin.ai reference after docs.windsurf.com resumed redirecting into it instead of returning 404; no matrix cells moved.
+- 2026-09-24 - Renamed the JetBrains column to its listing title, JetBrains IDEs; no cells moved.
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: "Context Engines Feature Matrix"
 created: 2026-08-24
-updated: 2026-09-20
+updated: 2026-09-24
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, comparison, context-engines, code-retrieval, developer-tools]
 readability: 3
@@ -20,7 +20,7 @@ Each column links to the full research note; every cell traces to a source cited
 
 ## The matrix
 
-| Feature | [Augment Code](../augment-code/index.md) | [Graft](../graft/index.md) | [Graphify](../graphify/index.md) | [qmd](../qmd/index.md) | [Repomix](../repomix/index.md) | [rtk](../rtk/index.md) | [Semble](../semble/index.md) | [Sourcegraph](../sourcegraph-code-context/index.md) |
+| Feature | [Augment Code](../augment-code/index.md) | [Graft](../graft/index.md) | [Graphify](../graphify/index.md) | [qmd](../qmd/index.md) | [Repomix](../repomix/index.md) | [rtk](../rtk/index.md) | [Semble](../semble/index.md) | [Sourcegraph code context platform](../sourcegraph-code-context/index.md) |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Kind | coding platform | local context-graph CLI | local knowledge-graph CLI | local search engine | local CLI | CLI output proxy | local search index | search platform |
 | Deployment | cloud SaaS | local CLI, MCP, and repo files; Trail Brain is the hosted upsell | local CLI, hosted plans or self-host | local CLI plus daemon | local CLI | local binary | local CLI, MCP, or library | single-tenant cloud or self-host |
@@ -76,6 +76,7 @@ Augment's 33% token savings, Sourcegraph's cost deltas, Semble's 99%-fewer-token
 - 2026-08-30 - Greptile column removed, back to seven columns, when the note moved to the Code review category.
 - 2026-09-16 - Re-dated the re-verification and updated the Graphify pricing cell for the new monthly billing options and the early-access Enterprise tier.
 - 2026-09-20 - Repointed the Graft references to the canonical trailhq/Graft repository after the GitHub org rename; no cells moved.
+- 2026-09-24 - Renamed the Sourcegraph column to its listing title, Sourcegraph code context platform; no cells moved.
 
 ## See also
 
@@ -90,7 +91,7 @@ Augment's 33% token savings, Sourcegraph's cost deltas, Semble's 99%-fewer-token
 - https://www.augmentcode.com/context-engine - Context Engine mechanics and efficiency claims for the Augment column
 - https://www.augmentcode.com/pricing - flat Business plan and the 40% service fee for the Augment column
 - https://github.com/yamadashy/repomix - CLI surface, output formats, token budgets, and MCP mode for the Repomix column
-- https://sourcegraph.com/pricing - enterprise entry price and credits model for the Sourcegraph column
+- https://sourcegraph.com/pricing - enterprise entry price and credits model for the Sourcegraph code context platform column
 - https://sourcegraph.com/blog/why-coding-agents-fail-large-codebases - the 400K LOC threshold and the cost/speed deltas
 - https://github.com/Graphify-Labs/graphify - the AST knowledge-graph architecture and license for the Graphify column
 - https://github.com/tobi/qmd - the hybrid local search stack for the qmd column
