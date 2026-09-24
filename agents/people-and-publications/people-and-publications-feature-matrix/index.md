@@ -11,7 +11,6 @@ audience_notes: >
 ---
 
 This matrix compares the twenty-seven people-and-publications profiled in this category, row by row, so deciding what to follow does not require reading twenty-seven notes blind.
-Everything below was verified against live primary sources on 2026-08-29 and re-verified through 2026-09-22, then extended from thirteen to twenty-one and twenty-seven columns on 2026-09-24, every new cell traced to its member note.
 
 **The axis that actually segments the field is what each voice gives you: hands-on tool practice, an evaluation method, the model-and-research layer, industry-and-org analysis, or a structured on-ramp, and the personalities span all five, with the hands-on band now the largest, split between the harness builders, the chroniclers, and the enterprise vantage.**
 
@@ -104,6 +103,7 @@ Shreya Shankar supplies the peer-reviewed measurement layer, making agent reliab
 - 2026-09-18 - Updated the Osmani enterprise-vantage cell after his move from Google to Anthropic and the Yegge builds-tools cell after he shut Gas Town down; no membership change, columns stay at thirteen.
 - 2026-09-24 - Extended from thirteen to twenty-one columns with the owner-commissioned harness-author wave (Boris Cherny, Thorsten Ball, Mario Zechner, Armin Ronacher, Peter Steinberger, Dax Raad, Dex Horthy, Matt Pocock), columns re-sorted alphabetically, thesis and reading rewritten for the harness-builder cluster, intro and choosing list extended, every new cell traced to its member note.
 - 2026-09-24 - Extended from twenty-one to twenty-seven columns with the owner-commissioned second wave (Geoffrey Huntley, Jesse Vincent, Kent Beck, Harper Reed, Shreya Shankar, Paul Gauthier), columns re-sorted alphabetically, reading and choosing extended for the workflow-and-methodology cluster, every new cell traced to its member note.
+- 2026-09-24 - Removed the verification preamble line per the no-preamble rule; verification history lives in this Changes list.
 - 2026-09-24 - Removed the verification preamble line on owner request.
 
 ## See also

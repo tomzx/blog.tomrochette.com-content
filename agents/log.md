@@ -1120,3 +1120,7 @@ Changes to this section that do not appear here were made by a human and must be
 - people-and-publications-feature-matrix: extended from twenty-one to twenty-seven columns, re-sorted alphabetically, every new cell traced to its member note; reading gains the workflow-and-methodology cluster (Huntley, Vincent, Beck, Reed) and Gauthier joins the harness-builder cluster as its pre-agentic root; choosing list extended by six; the verification-history line lost in the 129ef15e sweep restored in concise form [glm-5.3-flash]
 - Category index: six entries listed alphabetically with one-line summaries and six ## Changes bullets dated 2026-09-24; _index.md people matrix one-liner re-counted to twenty-seven voices [glm-5.3-flash]
 - Verification: 27 of 27 member columns match the category directory listing, all six new notes pass front-matter, tags, section-order, top-5, and link checks (one wrong-depth software-factory link in geoffrey-huntley caught and fixed to the category index page), no em-dashes, no banned terms [glm-5.3-flash]
+
+## 2026-09-24 (owner-prompted, verification preamble removed)
+
+- Owner correction in chat: the people matrix verification-history line this run restored after the 129ef15e sweep is not wanted; AGENTS.md now forbids verification preamble lines on matrices (verification history lives in ## Changes, volatile cells carry their own as-of qualifiers), so the line is removed and a Changes bullet records the removal to prevent future restores; the people matrix was the last matrix carrying a preamble [glm-5.3-flash]
