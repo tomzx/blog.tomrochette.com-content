@@ -1,7 +1,7 @@
 ---
 title: Engrim
 created: 2026-09-10
-updated: 2026-09-20
+updated: 2026-09-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, sqlite, local-first]
 readability: 3
@@ -11,8 +11,8 @@ audience_notes: >
   Assumes familiarity with MCP, lifecycle hooks, and at least one hosted memory service.
 ---
 
-Engrim is a local-first, project-scoped episodic memory engine for AI coding CLIs: one MIT-licensed Python package that keeps decisions, constraints, and session state in a single SQLite file on your machine and re-injects a 4,000-character memory pack into whichever CLI (Antigravity, Claude Code, Cursor, Windsurf, Codex, OpenCode) you open next.
-Facts below verified as of 2026-09-21.
+Engrim is a local-first, project-scoped episodic memory engine for AI coding CLIs: one MIT-licensed Python package that keeps decisions, constraints, and session state in a single SQLite file on your machine and re-injects a 4,000-character memory pack into whichever CLI (Antigravity, Claude Code, Cursor, Windsurf, Codex, OpenCode, GitHub Copilot CLI) you open next.
+Facts below verified as of 2026-09-22.
 
 **Its bet is that the unit of memory should be the project, not the model or the harness: one curated store that every agent CLI on your machine reads and writes, so switching models mid-project costs nothing.**
 
@@ -20,22 +20,23 @@ Facts below verified as of 2026-09-21.
 
 Engrim is a Python package by Tim Gordon (pip install engrim, Python 3.10+) that stores episodic records (decision, fact, feedback, state, user, reference) in ~/.engrim/memory.db.
 Retrieval is hybrid: SQLite FTS5 with bm25 and a porter stemmer, plus model2vec static embeddings, fused by reciprocal rank, all on CPU with a pure-lexical fallback (ENGRIM_EMBED=off).
-`engrim setup` auto-detects installed environments and wires lifecycle hooks (SessionStart, Stop, UserPromptSubmit), MCP servers, and skills for Google Antigravity, Claude Code, Cursor, Windsurf, Codex CLI, and OpenCode.
-Every record carries an origin_agent field (antigravity, claude-code, cursor, cli, user), and a flight-recorder log of turns powers `engrim review`, a heuristic "safe to clear" check run before wiping a session.
+`engrim setup` auto-detects installed environments and wires lifecycle hooks (SessionStart, Stop, UserPromptSubmit), MCP servers, and skills for Google Antigravity, Claude Code, Cursor, Windsurf, Codex CLI, OpenCode, and GitHub Copilot CLI.
+Every record carries an origin_agent field (antigravity, claude-code, cursor, codex, copilot, cli, user), and a flight-recorder log of turns powers `engrim review`, a heuristic "safe to clear" check run before wiping a session.
 
 ## Status
 
 **A fast mover, and one this section's own pass initially rejected.**
-The Show HN thread (2026-09-07) reached 93 points as of 2026-09-18, and the repo grew from 27 stars at launch to 281 as of 2026-09-21, with no release since v1.4.8 (2026-09-18).
+The Show HN thread (2026-09-07) reached 93 points as of 2026-09-22, and the repo grew from 27 stars at launch to 283 as of 2026-09-22, pushed the same day.
 I passed on it at launch at 19 points and 27 stars, and the category pass that surfaced it again on 2026-09-10 reversed that call.
-The cadence is unusual: 84 commits and 23 PyPI releases since 2026-06-23, with seven releases in the launch week (1.3.0 on 2026-09-07, 1.3.1 through 1.4.1 on 2026-09-10, and 1.4.2 on 2026-09-11) and five more since (1.4.3 and 1.4.5 on 2026-09-13, 1.4.6 on 2026-09-15 with no 1.4.4, 1.4.7 on 2026-09-17, and 1.4.8 on 2026-09-18).
+The cadence is unusual: 84-plus commits and 26 PyPI releases since 2026-06-23, with seven releases in the launch week (1.3.0 on 2026-09-07, 1.3.1 through 1.4.1 on 2026-09-10, and 1.4.2 on 2026-09-11) and nine more since (1.4.3 and 1.4.5 on 2026-09-13, 1.4.6 on 2026-09-15 with no 1.4.4, 1.4.7 on 2026-09-17, 1.4.8 on 2026-09-18, and three on 2026-09-22 alone).
 Earlier releases folded in same-day fixes requested in the thread (an uninstall command, Codex auto-detection, stop-hook handling, a multi-store `engrim merge`), v1.4.2 adds native OpenAI Codex hook integration and parity, and v1.4.3 advertises explicit outputSchema declarations across the four core MCP tools so clients can introspect structured payloads, verified by a new schema regression test (234 tests passing).
 v1.4.5 adds an `engrim doctor` health check with self-repair and self-healing hook fallbacks, v1.4.6 makes all four core MCP tools serve structured JSON payloads so strict clients like OpenCode stop rejecting the responses, v1.4.7 adds an MCP result-size hint (`_meta: anthropic/maxResultSizeChars`) on `engrim_context` so Claude Code keeps the boot pack in model context instead of offloading it to a disk file, and v1.4.8 moves the per-prompt minder slice out of the system prompt into a synthetic part attached to the user message for OpenCode, keeping the system prompt byte-identical across requests so provider prefix caches (vLLM, Anthropic prompt caching) survive new turns, with the suite at 259 tests green.
-Single maintainer, no funding, no institutional backing.
+On 2026-09-22 three releases landed in one day: v1.4.9 adds a GitHub Copilot CLI adapter (`engrim setup --copilot`, hooks plus MCP, attribution `copilot`) contributed by an outside committer, which the release notes bill as sixth-harness coverage and the README now presents as seven named CLIs under a rebranded "Universal Cross-Model & Cross-Agent Episodic Memory Standard" banner with an engrim.dev site, v1.4.10 hardens Windows CI across a seven-platform matrix, and v1.4.11 adds managed Codex guidance (an Engrim block injected into `$CODEX_HOME/AGENTS.md`) plus opt-in MCP registration (`--codex-mcp`) with `origin_agent="codex"` provenance, with the suite at 316 tests green.
+Single maintainer plus first outside contributors, no funding, no institutional backing.
 
 ## Strengths
 
-- **Cross-model memory is the actual differentiator**: claude-mem and the other local plugins bind memory to one harness, while engrim's single SQLite file is shared by five CLIs, which is the only design in this category built for people who switch models mid-project.
+- **Cross-model memory is the actual differentiator**: claude-mem and the other local plugins bind memory to one harness, while engrim's single SQLite file is shared by seven CLIs, which is the only design in this category built for people who switch models mid-project.
 - Provenance is built in, not gated: origin_agent tags every record and supersede chains retire conflicting decisions, a capability the hosted services mostly reserve for enterprise tiers.
 - The capture story is realistic: automatic engrim_add via MCP plus a manual `engrim add`, with `engrim review` and resume-pointer records making /clear recoverable.
 - Hygiene details show care: 0600 file permissions, *.db gitignored by default, an idempotent content-keyed merge for multi-machine stores, and pruning that is opt-in rather than automatic.
@@ -45,7 +46,7 @@ Single maintainer, no funding, no institutional backing.
 - **The flagship evidence is a self-reported case study, not a benchmark**: the 105-session, 50,000-line trading-system numbers ship without a methodology, and the thread's sharpest question (benchmark it against other memory plugins) went unanswered.
 - The launch drew an AI-generated-content flag from a HN moderator, and the author acknowledged drafting replies with LLM help, which is worth knowing when reading the thread's uniformly positive tone.
 - The 4,000-character pack is a compaction policy as much as a memory system, since what survives is whatever the agent chose to log, and the thread's in-repo-docs counterpoint covers most solo-developer needs with no new store.
-- Bus factor of one, a five-platform wiring surface, and hooks that rewrite settings files add moving parts the "it's just a SQLite file" pitch hides, so inspect the setup diff (there is a --dry-run) before trusting it.
+- Bus factor of one, a seven-platform wiring surface, and hooks that rewrite settings files add moving parts the "it's just a SQLite file" pitch hides, so inspect the setup diff (there is a --dry-run) before trusting it.
 
 ## Pricing
 
@@ -71,6 +72,7 @@ My disagreeable claim: the provenance tracking, not the local-first storage, is 
 - 2026-09-16 - Added OpenCode as a sixth supported CLI per the README and `engrim setup --opencode`, recorded v1.4.5 (`engrim doctor` with self-repair) and v1.4.6 (MCP structuredContent for strict hosts), and refreshed stars to 264 and commits to 80.
 - 2026-09-18 - Recorded v1.4.7 (the MCP result-size hint that keeps the boot pack in Claude Code's context) and refreshed stars to 278, commits to 81, and PyPI releases to 22.
 - 2026-09-20 - Recorded v1.4.8 (the OpenCode minder slice moved off the system prompt so provider prefix caches survive new turns) and refreshed stars to 281, commits to 84, and PyPI releases to 23.
+- 2026-09-22 - Recorded three same-day releases: v1.4.9 added GitHub Copilot CLI as a seventh supported CLI (first outside contribution), v1.4.10 hardened Windows CI, and v1.4.11 added managed Codex guidance plus optional MCP registration with codex provenance; refreshed stars to 283 and PyPI releases to 26.
 
 ## See also
 
@@ -82,10 +84,10 @@ My disagreeable claim: the provenance tracking, not the local-first storage, is 
 
 ## References
 
-- https://github.com/timgordontg/engrim - the repo: description, 281 stars, 15 forks, 84 commits, MIT, pushed 2026-09-18, as of 2026-09-21
-- https://hn.algolia.com/api/v1/items/49594008 - the Show HN thread (93 points, 63 comments as of 2026-09-18): launch claims, the in-repo-docs counterpoint, the moderator AI-content flag, and same-day fixes
-- https://news.ycombinator.com/item?id=49594008 - the thread's canonical page confirming 93 points as of 2026-09-18
-- https://raw.githubusercontent.com/timgordontg/engrim/main/README.md - architecture (FTS5 plus model2vec), provenance, CLI surface, security notes, and the 105-session case study
-- https://pypi.org/pypi/engrim/json - 23 releases from 0.7.0 (2026-06-23) to 1.4.8 (2026-09-18), MIT classifier, Python 3.10+
-- https://api.github.com/repos/timgordontg/engrim/releases/latest - v1.4.8 notes: the OpenCode minder prefix-cache fix that keeps system prompts byte-identical for provider caching; v1.4.7 had added the MCP result-size hint on `engrim_context`
+- https://github.com/timgordontg/engrim - the repo: description, 283 stars, 15 forks, MIT, pushed 2026-09-22, as of 2026-09-22
+- https://hn.algolia.com/api/v1/items/49594008 - the Show HN thread (93 points, 64 comments as of 2026-09-22): launch claims, the in-repo-docs counterpoint, the moderator AI-content flag, and same-day fixes
+- https://news.ycombinator.com/item?id=49594008 - the thread's canonical page confirming 93 points as of 2026-09-22
+- https://raw.githubusercontent.com/timgordontg/engrim/main/README.md - architecture (FTS5 plus model2vec), provenance, CLI surface, the seven-CLI banner, security notes, and the 105-session case study
+- https://pypi.org/pypi/engrim/json - 26 releases from 0.7.0 (2026-06-23) to 1.4.11 (2026-09-22), MIT classifier, Python 3.10+
+- https://api.github.com/repos/timgordontg/engrim/releases/latest - v1.4.11 notes: managed Codex guidance, optional `--codex-mcp` registration, and codex provenance; v1.4.9 had added the GitHub Copilot CLI adapter and v1.4.8 the OpenCode minder prefix-cache fix
 - https://api.github.com/repos/timgordontg/engrim/license - the MIT LICENSE file, verified through the GitHub API

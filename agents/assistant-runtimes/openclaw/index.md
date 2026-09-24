@@ -1,7 +1,7 @@
 ---
 title: OpenClaw
 created: 2026-08-27
-updated: 2026-09-20
+updated: 2026-09-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, assistant-runtimes, personal-assistants, open-source, self-hosting]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 OpenClaw is the self-hosted personal AI assistant (Node.js, MIT, from the OpenClaw Foundation): one Gateway process on your own device connects model providers, tools, and a few dozen messaging channels, and it is the root the entire -claw variant family reacts to.
-Facts below verified as of 2026-09-21.
+Facts below verified as of 2026-09-22.
 
 **OpenClaw won by being the first assistant you could actually own, and its 2026 saga, Google and Anthropic restricting subscriptions for running it, is the definitive evidence that owning the runtime does not mean owning the model access; the whole variant family exists to shrink what you must trust.**
 
@@ -25,9 +25,10 @@ Security is pairing-based by default (unknown senders must be approved), and the
 ## Status
 
 The category's giant.
-As of 2026-09-21: 390,164 stars and 82,056 forks since creation on 2025-11-24, pushed daily, 8,202 open issues, npm-published.
-OpenClaw 2.0 shipped 2026-08-30 (v2026.8.1), by far the largest release in the project's history, roughly half of all pull requests ever merged in one drop from 933 contributors, rebuilding the browser app as a first-class surface and shortening the first-run install, and the cadence has held since, with v2026.9.1 released 2026-09-03, v2026.9.2 on 2026-09-05, v2026.9.3 on 2026-09-08, v2026.9.4 on 2026-09-11, and v2026.9.5 on 2026-09-19, plus patches on the older June and July lines, v2026.6.35 released 2026-09-10 and v2026.7.33 released 2026-09-18.
+As of 2026-09-22: 390,287 stars and 82,100 forks since creation on 2025-11-24, pushed daily, 8,301 open issues, npm-published.
+OpenClaw 2.0 shipped 2026-08-30 (v2026.8.1), by far the largest release in the project's history, roughly half of all pull requests ever merged in one drop from 933 contributors, rebuilding the browser app as a first-class surface and shortening the first-run install, and the cadence has held since, with v2026.9.1 released 2026-09-03, v2026.9.2 on 2026-09-05, v2026.9.3 on 2026-09-08, v2026.9.4 on 2026-09-11, and v2026.9.5 on 2026-09-19, plus patches on the older June and July lines, v2026.6.35 released 2026-09-10, v2026.7.33 on 2026-09-18, and v2026.7.35 on 2026-09-21.
 The v2026.9.2 notes turned Swarm on by default: concurrent sub-agent orchestration with structured results and live progress, with explicit opt-outs preserved.
+On 2026-09-21 the project announced a completed Trail of Bits security audit run through OpenAI's Patch the Planet initiative: 27 private advisories plus 3 hardening pull requests, 23 confirmed vulnerabilities (0 critical, 2 high, 16 medium, 6 low), every actionable issue repaired and shipped in the v2026.8.1 and v2026.7.33 releases, with permission-carryover and check-what-you-use as the recurring finding classes.
 It was renamed twice in its first months (the 667-point "Moltbot Renamed Again" thread documents the path to the OpenClaw name).
 **The 2026 provider saga is its defining record: Google restricting AI Pro/Ultra subscribers in February (802 points), Anthropic disallowing Claude Code subscriptions for it in April (1,099 points), a same-week privilege-escalation report (514 points), and Claude Code refusing commits that mention OpenClaw (1,349 points).**
 
@@ -43,7 +44,7 @@ It was renamed twice in its first months (the 667-point "Moltbot Renamed Again" 
 - Scale: the nanoclaw author's audit calls it nearly half a million lines, 53 config files, and 70+ dependencies, which is exactly the trust surface its variants reject.
 - Tools run on the host by default; read the sandboxing guide before connecting anyone else.
 - The provider saga shows subscription terms can be withdrawn from a popular open-source runtime at any time, budget for API keys, not just subscriptions.
-- 8,202 open issues means the tracker is a weather report, not a queue.
+- 8,301 open issues means the tracker is a weather report, not a queue.
 
 ## Pricing
 
@@ -71,6 +72,7 @@ The disagreeable claim I will defend: the restrictions saga, not the code, is Op
 - 2026-09-10 - Recorded the v2026.6.35 patch to the June line, released while no v2026.9.4 existed.
 - 2026-09-18 - Recorded the v2026.7.33 patch to the July line, released 2026-09-18, extending the old-line patch pattern.
 - 2026-09-20 - Recorded v2026.9.5 (released 2026-09-19), the fifth September-line release in the watch window, with refreshed adoption numbers.
+- 2026-09-22 - Recorded the v2026.7.35 July-line patch (released 2026-09-21), the completed Trail of Bits audit announced 2026-09-21 (23 confirmed vulnerabilities, all repaired, shipped in v2026.8.1 and v2026.7.33), and refreshed adoption numbers.
 
 ## See also
 
@@ -82,8 +84,9 @@ The disagreeable claim I will defend: the restrictions saga, not the code, is Op
 ## References
 
 - https://github.com/openclaw/openclaw - README: Gateway model, channels, security posture, install
-- https://api.github.com/repos/openclaw/openclaw - stars, forks, issues, dates as of 2026-09-18
-- https://api.github.com/repos/openclaw/openclaw/releases - v2026.9.2 release notes, Swarm enabled by default (2026-09-05), through v2026.9.5 (2026-09-19), and the v2026.7.33 July-line patch (2026-09-18)
+- https://api.github.com/repos/openclaw/openclaw - stars, forks, issues, dates as of 2026-09-22
+- https://api.github.com/repos/openclaw/openclaw/releases - v2026.9.2 release notes, Swarm enabled by default (2026-09-05), through v2026.9.5 (2026-09-19), the v2026.7.33 July-line patch (2026-09-18), and v2026.7.35 (2026-09-21)
+- https://openclaw.ai/blog/openclaw-trail-of-bits-engagement-recap - the Trail of Bits audit recap (27 advisories, 23 confirmed vulnerabilities, all repaired)
 - https://openclaw.ai/blog/openclaw-2-accidentally - the OpenClaw 2.0 announcement (933 contributors, 16,000+ pull requests)
 - https://docs.openclaw.ai - official documentation
 - https://news.ycombinator.com/item?id=47633396 - Anthropic subscription restriction thread (1,099 points)

@@ -1,7 +1,7 @@
 ---
 title: "Memory Feature Matrix"
 created: 2026-08-24
-updated: 2026-09-16
+updated: 2026-09-22
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, comparison, memory, agent-memory, ai-agents]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 This matrix compares the eight memory approaches profiled in this section, feature by feature: the file convention, the session-compression plugin, the cross-model episodic memory engine, the memory-first harness, the two memory APIs, the self-hostable graph pipeline, and the portable memory format.
-Everything below was re-verified against live sources on 2026-09-21, with the Cognee column first verified 2026-08-26, the Memoryfields column first verified 2026-09-04, and the Engrim column first verified 2026-09-10.
+Everything below was re-verified against live sources on 2026-09-22, with the Cognee column first verified 2026-08-26, the Memoryfields column first verified 2026-09-04, and the Engrim column first verified 2026-09-10.
 
 **For coding agents I would start with plain files and not buy any service on benchmark claims, because the only memory problem files cannot solve at any price is contradiction over time, and Zep is the only vendor whose architecture faces it head on.**
 
@@ -28,7 +28,7 @@ Each column links to the full research note; every cell below traces to a source
 | Open source license | ✓ Apache-2.0 | ✓ Apache-2.0, whole engine | ✓ MIT, whole engine | ~ memU Apache-2.0 | ✓ Apache-2.0 | ✓ Apache-2.0 | ✓ AGPL-3.0 tool, MIT skill and spec | ~ Graphiti Apache-2.0 |
 | Contradiction and decay handling | ~ summaries and compaction | ~ bi-temporal memory on Enterprise BYOC only | ~ manual supersede, merge resolution, opt-in prune | ✗ manual pruning | ~ sleep-time consolidation | ~ Dream, temporal retrieval | ~ page status flags for outdated memories, no temporal model | ✓ bi-temporal invalidation |
 | Cross-user, cross-app memory | ✗ machine-local, cloud sync optional | ✓ documented multi-user mode | ~ cross-CLI on one machine, merge for multi-machine, not cross-user | ✗ machine-local, per-repo | ~ agent-scoped persistence | ✓ apps and thousands of users | ~ corpus is transport-portable (S3, git, HTTP), single-corpus | ✓ millions of per-user graphs |
-| Integration surface | hooks, MCP, skills, 8+ agents | Python/TS/Rust SDKs, MCP, HTTP, CLI | hooks, MCP, CLI, skills, 6 agent CLIs | file conventions, native everywhere | SDK, CLI, cloud API | API, MCP, CLI, skills | skill, CLI, any file transport | API, MCP, plugins |
+| Integration surface | hooks, MCP, skills, 8+ agents | Python/TS/Rust SDKs, MCP, HTTP, CLI | hooks, MCP, CLI, skills, 7 agent CLIs | file conventions, native everywhere | SDK, CLI, cloud API | API, MCP, CLI, skills | skill, CLI, any file transport | API, MCP, plugins |
 | Audit trail | ~ queryable observation store | ? | ~ origin-agent provenance and flight-recorder log | ~ git diffs only | ~ inspectable blocks | ? | ~ readable pages, sha256-pinnable, no provenance | ✓ fact-to-episode provenance |
 | Pricing model | free local, $20/mo cloud, $333/seat team | OSS free, cloud $1.00 per 1M tokens plus $5 per workspace | free, MIT, no hosted tier | free | free BYOK, $20/mo, per-agent metering | freemium, $19 to $249/mo | free | credits, $104/mo entry |
 | Lock-in risk | low-medium, SQLite local, cloud optional | low, engine is portable | low, plain SQLite file, bus factor one | none, plain text | medium, pivot churn | medium, paid-only brain | none, plain text zip | high, managed engine core |
@@ -74,6 +74,7 @@ Mem0's $19 Starter undercuts everyone; Zep's credit metering prices the audit tr
 - 2026-09-04 - Extended from six to seven columns with Memoryfields and extended the reading and choosing sections.
 - 2026-09-10 - Extended from seven to eight columns with Engrim.
 - 2026-09-16 - Engrim's integration cell moved to six agent CLIs with the OpenCode addition, and Memoryfields' contradiction cell moved from not supported to partial with the spec's new page status flags.
+- 2026-09-22 - Engrim's integration cell moved to seven agent CLIs with the GitHub Copilot CLI adapter (v1.4.9).
 
 ## See also
 
@@ -94,13 +95,13 @@ Mem0's $19 Starter undercuts everyone; Zep's credit metering prices the audit tr
 - https://www.getzep.com/pricing - Zep plans and credit metering for the pricing row
 - https://github.com/getzep/graphiti - the temporal graph engine, self-host requirements for the Zep column
 - https://github.com/topoteretes/cognee - the Cognee column: whole-engine Apache-2.0, backends, multi-user docs
-- https://www.cognee.ai/pricing - Cognee cloud per-token rate, workspace fee, and the Enterprise bi-temporal memory listing, as of 2026-09-18
+- https://www.cognee.ai/pricing - Cognee cloud per-token rate, workspace fee, and the Enterprise bi-temporal memory listing, as of 2026-09-22
 - https://github.com/thedotmack/claude-mem - the claude-mem column: hook architecture, SQLite storage, license, adoption
 - https://docs.claude-mem.ai/architecture/overview - the compression flow and integration surfaces for the claude-mem column
 - https://claude-mem.ai - claude-mem pricing tiers for the pricing row
 - https://calpaterson.com/memoryfields.html - the Memoryfields column: format thesis, design decisions, objections FAQ
 - https://github.com/calpaterson/memoryfield-spec/blob/main/SPEC.md - the Memoryfields spec: flat directories, page limits, transports, embedding codes
-- https://github.com/timgordontg/engrim - the Engrim column: repo, MIT, 281 stars, 84 commits, release cadence (as of 2026-09-21)
+- https://github.com/timgordontg/engrim - the Engrim column: repo, MIT, 283 stars, release cadence (as of 2026-09-22)
 - https://raw.githubusercontent.com/timgordontg/engrim/main/README.md - Engrim architecture, provenance, CLI surface, and security notes
 - https://pypi.org/pypi/engrim/json - Engrim release history and license for the Engrim column
 - https://hn.algolia.com/api/v1/items/49594008 - the Engrim launch thread: traction and the in-repo-docs counterpoint

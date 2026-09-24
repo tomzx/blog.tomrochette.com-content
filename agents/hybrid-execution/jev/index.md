@@ -1,7 +1,7 @@
 ---
 title: Jev
 created: 2026-09-18
-updated: 2026-09-21
+updated: 2026-09-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, hybrid-execution, structured-outputs, system-one-models, decision-models]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Jev is TypeSafe AI's first "System One model": a frontier-class model that generates no text at all and answers typed questions with structured values and calibrated probabilities, positioned as the architectural inversion of everything else in this category.
-Facts below verified as of 2026-09-21.
+Facts below verified as of 2026-09-22.
 
 **Every other mechanism here constrains or checks a text generator; Jev removes the text generator, and if its numbers survive third-party testing, the parse-validate-retry stack the other four columns sell becomes legacy glue.**
 
@@ -20,13 +20,14 @@ Facts below verified as of 2026-09-21.
 A closed early-access API from TypeSafe AI, a two-years-in-stealth lab founded by Diogo Almeida, whose prior work at OpenAI was the instruction-following research behind ChatGPT.
 You send a state and typed questions across three primitives, Choice (pick an option, cardinality up to 255), Score (grade against a rubric), and Noul (a 0-1 truth value), and one request evaluates every question in parallel against the same state, returning typed answers with probability distributions and confidence.
 The model was trained with a new method the lab calls Reinforcement Learning for Calibrated Decisions (RLCD), and the launch post claims 70-500ms end-to-end latency (40-200x faster than frontier LLM calls), $0.042 per million input tokens, and free output, with the workflow evals site claiming up to 193.6x faster and 444.6x cheaper than LLM reference calls.
-The only open artifact is the MIT [system-one-adapter-python](https://github.com/typesafe-ai/system-one-adapter-python) wrapper (about 210 stars, created 2026-08-08) that gives competing LLMs the same structured-decision API for benchmarking.
+The only open artifact is the MIT [system-one-adapter-python](https://github.com/typesafe-ai/system-one-adapter-python) wrapper (about 270 stars, created 2026-08-08) that gives competing LLMs the same structured-decision API for benchmarking.
 
 ## Status
 
-Early access, opened with the launch post on 2026-09-15 to a Hacker News thread that reached 1,930 points as of 2026-09-21.
-The adapter repo was pushed the day I verified, docs and the evals site both resolve, and the waitlist is draining through console.typesafe.ai.
-Active and brand new; the claims below are almost entirely vendor-run.
+Early access, opened with the launch post on 2026-09-15 to a Hacker News thread that reached 1,970 points as of 2026-09-22.
+The adapter repo was pushed within the last day, docs and the evals site both resolve, and the waitlist is draining through console.typesafe.ai.
+Two verification-relevant developments since launch: TypeSafe now publishes a jaggedness page for jev-1.13 documenting nine failure modes itself, and a third party ran [JevBench](../jevbench/index.md), the first cross-category benchmark, which ranks Jev first at 74.4 with SemIf's frozen-4B readout 1.3 points behind (methodology contested in that benchmark's own thread).
+Active and brand new; the claims below are still mostly vendor-run.
 
 ## Strengths
 
@@ -38,7 +39,8 @@ Active and brand new; the claims below are almost entirely vendor-run.
 ## Cautions
 
 - The evidence is self-run: the launch post admits the workflow evals were built by its own capabilities team, benchmarked against an Astra-plus-Fable average (a bias it concedes), and measured from the founders' West Coast laptops; the HN thread's top responses note the receipts are demos, with one commenter writing they "realized the post wasn't satirical" only at the videos.
-- The lab explicitly declines public benchmarks ([antibenchmaxxing](https://typesafe.ai/blog/antibenchmaxxing)), which is a defensible position that nonetheless leaves no third-party verification of the 40-200x and cannot-hallucinate claims; the "can't hallucinate" figure is admitted to be non-empirical, schema-matching being mathematically guaranteed while factual correctness is not.
+- The lab explicitly declines public benchmarks ([antibenchmaxxing](https://typesafe.ai/blog/antibenchmaxxing)), which is a defensible position that nonetheless left no third-party verification of the 40-200x and cannot-hallucinate claims; the "can't hallucinate" figure is admitted to be non-empirical, schema-matching being mathematically guaranteed while factual correctness is not.
+- The vendor's own jaggedness page (last reviewed 2026-09-17) concedes nine failure modes for jev-1.13: literal reading, unreliable counting and math, dates read as text rather than ordered quantities, indirection, distractor-filled state, adversarial content, contradictory instructions, broken structural invariants (on one ticket P(yes) for a Noul is 0.22 while the equivalent Choice probability is 0.01), and no generation.
 - The pricing sustainability is self-admittedly unproven ("we can't prove it isn't subsidized"), and free output tokens is the kind of number that changes.
 - A community "Jev-like" model appeared within a day ([jevlike](https://github.com/vinnylarouge/jevlike), 164-point thread on 2026-09-16, about 1,100 stars by 2026-09-21), and the wave it started has become an ecosystem with its own notes in this category ([Jevlike](../jevlike/index.md), [SemIf](../semif/index.md), [Kev](../kev/index.md), [NanoJev](../nanojev/index.md), and [Nimble](../nimble/index.md), alongside [Laya](../laya/index.md)), curated lists of Jev projects passed 700 stars, and browser-use's jev-ultrafast agent built on the Jev API reached about 13,000 stars in five days, which reads two ways: the mechanism may be an efficient classification architecture others can copy, and the moat, if there is one, is calibration data rather than architecture.
 - No text generation, no tool calls, no local weights: it cannot replace an LLM anywhere a string is needed, only the decision layer around one.
@@ -72,6 +74,7 @@ The disagreeable claim I will defend: this category's four existing members all 
 - 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
 - 2026-09-21 - Recorded the open-model ecosystem wave around the Jev contract (Laya promoted to its own note, jevlike at about 1,100 stars, the 13,000-star jev-ultrafast agent), and refreshed thread and adapter counts.
 - 2026-09-21 - Linked the owner-prompted open-alternatives coverage: Jevlike, SemIf, Kev, NanoJev, and Nimble joined this category as their own notes.
+- 2026-09-22 - Recorded the vendor's jaggedness page for jev-1.13 (nine conceded failure modes), the first third-party benchmark ([JevBench](../jevbench/index.md): Jev first at 74.4, methodology contested), and refreshed thread (1,970 points) and adapter (about 270 stars) counts.
 
 ## See also
 
@@ -79,6 +82,7 @@ The disagreeable claim I will defend: this category's four existing members all 
 - [Instructor](../instructor/index.md) - the validate-and-retry incumbent for the same decision workloads
 - [Outlines](../outlines/index.md) - the self-hosted path to the same no-invalid-token guarantee
 - [Laya](../laya/index.md) - the open-weights rival that answers the same typed questions on your own hardware
+- [JevBench](../jevbench/index.md) - the third-party benchmark that now ranks Jev first, with the caveats attached
 - [Model Selection for Coding Tasks](../../model-selection-for-coding-tasks/index.md) - where the text-generating model you keep alongside Jev gets chosen
 
 ## References
@@ -90,3 +94,4 @@ The disagreeable claim I will defend: this category's four existing members all 
 - https://news.ycombinator.com/item?id=49717558 - the launch thread (1,930 points as of 2026-09-21), its skepticism the critical source
 - https://github.com/vinnylarouge/jevlike - the community reverse-engineering of a Jev-like model within a day
 - https://typesafe.ai/blog/antibenchmaxxing - the lab's stated reasons for declining public benchmarks
+- https://docs.typesafe.ai/model-jaggedness/jev-1.13 - the vendor's own jaggedness page: nine documented failure modes for jev-1.13, including broken Noul-versus-Choice invariants

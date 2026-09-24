@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 OpenChamber is a free, MIT-licensed agentic development environment built around the OpenCode SDK: desktop, browser, mobile, and a VS Code extension for steering parallel agent sessions.
-Facts below verified as of 2026-09-21.
+Facts below verified as of 2026-09-22.
 
 **OpenChamber is the open-source answer to "where do I run my many OpenCode sessions", and its differentiator is not polish but the fact that the whole surface, worktrees, chat, terminals, scheduling, is code you can read and fix.**
 
@@ -25,7 +25,7 @@ It runs on the OpenCode SDK today and is an independent project, not affiliated 
 ## Status
 
 **Very active.**
-About 10k stars (10,199) and 1,100 forks as of 2026-09-21, with v1.24.2 (September 18, 2026, startup and reconnect memory fixes plus session groups that surface waiting agents) now the latest release after v1.24.1 (September 18, which added third-party extensions and VS Code theme support), v1.24.0 (September 17), and v1.23.2 (September 14), and commits landing September 20, 2026.
+About 10k stars (10,325) and 1,100 forks as of 2026-09-22, with v1.24.2 (September 18, 2026, startup and reconnect memory fixes plus session groups that surface waiting agents) now the latest release after v1.24.1 (September 18, which added third-party extensions and VS Code theme support), v1.24.0 (September 17), and v1.23.2 (September 14), and commits landing September 22, 2026.
 A v2-preview prerelease tag (September 14) carries test builds of the app on OpenCode v2.
 A 190-point Hacker News thread in August 2026 marks its arrival in general awareness.
 
@@ -46,7 +46,7 @@ A 190-point Hacker News thread in August 2026 marks its arrival in general aware
 ## Pricing
 
 Free, open source, MIT.
-Donations via Patreon fund development; there is no paid tier, as of 2026-09-21.
+Donations via Patreon fund development; there is no paid tier, as of 2026-09-22.
 
 ## Compared to
 
@@ -76,7 +76,7 @@ Not for anyone who wants a polished IDE experience or harness choice beyond Open
 ## References
 
 - https://openchamber.dev/ - features, surfaces, privacy model, FAQ
-- https://github.com/openchamber/openchamber - source, repository scale, as of 2026-09-21
+- https://github.com/openchamber/openchamber - source, repository scale, as of 2026-09-22
 - https://github.com/openchamber/openchamber/releases/tag/v1.24.2 - the September 18, 2026 release line, ending at v1.24.2
 - https://docs.openchamber.dev/ - install and configuration documentation
 - https://news.ycombinator.com/item?id=49233448 - the August 2026 launch discussion

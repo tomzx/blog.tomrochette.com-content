@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 SkillOpt is a Microsoft Research text-space optimizer that trains a reusable natural-language skill document for a frozen LLM agent the way deep learning trains weights: trajectory-driven bounded edits, a textual learning rate, and a held-out validation gate, exporting a deployable `best_skill.md`.
-Facts below verified as of 2026-09-21.
+Facts below verified as of 2026-09-22.
 
 **SkillOpt turns the skill file into a trainable parameter, and the part that matters is not the optimization loop but the gate: an edit is kept only when it strictly improves a held-out score, which is exactly the discipline hand-written skills never get.**
 
@@ -25,8 +25,8 @@ MIT, from Microsoft Research Asia with university collaborators, Python 3.10+.
 
 ## Status
 
-Research code with unusually strong product trappings: 17.3k stars, 1.6k forks, 49 open issues and pull requests, and 531 commits on main as of 2026-09-21, created 2026-05-08.
-Latest release v0.2.0 (2026-07-02) on PyPI, still the newest as of 2026-09-21; the arXiv paper (2605.23904) is a preprint with no peer-reviewed venue found, and all headline results are the authors' own.
+Research code with unusually strong product trappings: 17.4k stars, 1.6k forks, 51 open issues and pull requests, and 531 commits on main as of 2026-09-22, created 2026-05-08.
+Latest release v0.2.0 (2026-07-02) on PyPI, still the newest as of 2026-09-22; the arXiv paper (2605.23904) is a preprint with no peer-reviewed venue found, and all headline results are the authors' own.
 
 ## Strengths
 

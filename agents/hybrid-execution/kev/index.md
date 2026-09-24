@@ -1,7 +1,7 @@
 ---
 title: Kev
 created: 2026-09-21
-updated: 2026-09-21
+updated: 2026-09-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, hybrid-execution, structured-outputs, system-one-models, decision-models, open-weights, fine-tuning]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Kev is Jared Palmer's Apache-2.0 family of small decision models (0.8B, 4B, and 9B LoRA adapters on Qwen3.5 bases) that reimplements the Jev contract on your own GPU, serving the same typed questions over an endpoint the official TypeSafe SDK can target unchanged.
-Facts below verified as of 2026-09-21.
+Facts below verified as of 2026-09-22.
 
 **Kev is the first Jev replica whose evaluation discipline is stronger than the vendor it replicates: pre-registered criteria, a locked test set read once per checkpoint, and published gap tables against live Jev.**
 
@@ -24,11 +24,11 @@ The API tests run TypeSafe's own example requests against the local server, whic
 
 ## Status
 
-**Active and four days old, with traction that clears the bar on author standing and the eval ecosystem rather than on thread points.**
-The repository was created 2026-09-17 and pushed the day I verified, with 1,347 stars and 77 forks as of 2026-09-21, and two releases (the 0.5B prototype on 2026-09-17, the 0.8B/4B/9B family on 2026-09-20).
-The Hacker News thread (2026-09-21) sat at about 30 points and 16 comments, below this category's 100-point bar, and I state that gap explicitly.
-What carries it over: the author is the Turborepo founder, now VP of Engineering at Cognition, with 10,408 GitHub followers, and the thread drew substantive use-case discussion (coding-agent verifiers, spam filtering, knowledge-cutoff concerns) rather than drive-by upvotes.
-Most tellingly, the README converts two independent third-party test sets, SemIf's 144 authored decisions and scienthoon's 900-ticket Jev calibration, and scores its models against those projects' own published live-Jev results.
+**Active and five days old, now with traction on every axis I can measure.**
+The repository was created 2026-09-17 and pushed within the last day, with 4,766 stars and 259 forks as of 2026-09-22, and two releases (the 0.5B prototype on 2026-09-17, the 0.8B/4B/9B family on 2026-09-20).
+The Hacker News thread (2026-09-21) exploded from about 30 points when I first checked to 454 points as of 2026-09-22, clearing the bar this note originally recorded it failing, with the substantive use-case discussion (coding-agent verifiers, spam filtering, knowledge-cutoff concerns) now carrying far more weight than drive-by upvotes.
+A browser demo on Hugging Face Spaces (Kev-4B and Kev-0.8B, no install) and an MLX serving path for Apple Silicon landed in the same window, and kev-4b shows about 2,300 downloads as of 2026-09-22.
+What still carries the evidentiary weight: the README converts two independent third-party test sets, SemIf's 144 authored decisions and scienthoon's 900-ticket Jev calibration, and scores its models against those projects' own published live-Jev results.
 
 ## Strengths
 
@@ -40,8 +40,8 @@ Most tellingly, the README converts two independent third-party test sets, SemIf
 
 ## Cautions
 
-- Calibration is the gap that matters for threshold logic: on new-source data Kev-4B assigns at least 0.9 probability to a wrong answer on 8.2% of questions (7.5% for the 9B), so test on your own data before branching on confidence.
-- Mac latency regressed with the Qwen3.5 bases (4B: 779 ms versus 174 ms on the deprecated Qwen3 checkpoint), and the planned MLX backend is not shipped.
+- Calibration is the gap that matters for threshold logic: on new-source data Kev-4B assigns at least 0.9 probability to a wrong answer on 8.2% of questions (7.5% for the 9B), so test on your own data before branching on confidence, and the third-party JevBench board lands the same punch independently (Kev-4B 59.7 overall with a 42.0 calibration axis against Jev's 74.4).
+- Mac serving now runs through the shipped MLX backend (Kev-0.8B: 149 ms new state and 28 ms repeated through the prefix cache on an M5, a large recovery from the 779 ms PyTorch MPS path), but it is a different backbone execution than the CUDA fp32 path the evaluations use, so parity is claimed to bf16 rounding rather than proven end to end.
 - Option order can flip answers despite question isolation, training covered only 384-token states against the 8,192-token serving limit, and the single-threaded server has no authentication.
 - Every comparison to Jev is self-run and admittedly uncontrolled, since nobody knows what Jev was trained on.
 
@@ -65,6 +65,7 @@ The disagreeable claim I will defend: the weights are the second-most valuable a
 ## Changes
 
 - 2026-09-21 - Created from the owner-prompted open-alternative scan; accepted below the 100-point HN bar on author standing, star traction, and the external-eval ecosystem.
+- 2026-09-22 - Recorded the thread clearing the bar (454 points), the star and fork surge (4,766 and 259), the shipped MLX Apple Silicon path with its latency recovery, the Hugging Face Spaces browser demo, the JevBench third-party scores (Kev-4B 59.7), and refreshed kev-4b download counts.
 
 ## See also
 
@@ -76,11 +77,11 @@ The disagreeable claim I will defend: the weights are the second-most valuable a
 
 ## References
 
-- https://github.com/jaredpalmer/kev - repository: Apache-2.0, created 2026-09-17, 1,347 stars, 77 forks (GitHub API, as of 2026-09-21)
+- https://github.com/jaredpalmer/kev - repository: Apache-2.0, created 2026-09-17, 4,766 stars, 259 forks (GitHub API, as of 2026-09-22)
 - https://raw.githubusercontent.com/jaredpalmer/kev/main/README.md - the LoRA-plus-pointer-head architecture, question isolation, eval tables against Jev, serving and training limits
 - https://raw.githubusercontent.com/jaredpalmer/kev/main/PLAN.md - the pre-registered research log: gap table to Jev, locked-test discipline, the $475-of-$500 budget
-- https://news.ycombinator.com/item?id=49783999 - the launch thread (about 30 points, 16 comments as of 2026-09-21), its use-case confusion and bandwagon skepticism the critical signals
-- https://huggingface.co/collections/jaredpalmer/kev-6aad9d0ea49f2589665e07cd - the weight collection; kev-4b created 2026-09-19, Apache-2.0, 170 downloads (as of 2026-09-21)
+- https://news.ycombinator.com/item?id=49783999 - the launch thread (454 points as of 2026-09-22, from about 30 points a day earlier), its use-case confusion and bandwagon skepticism the critical signals
+- https://huggingface.co/collections/jaredpalmer/kev-6aad9d0ea49f2589665e07cd - the weight collection; kev-4b created 2026-09-19, Apache-2.0, about 2,300 downloads (as of 2026-09-22)
 - https://github.com/TheoLeeCJ/SemIf - the independent 144-decision test set (2,680 stars) whose live-Jev results kev converts and scores against
 - https://github.com/scienthoon/jev-ood-calibration - the independent 900-ticket Jev calibration whose test set appears in kev's external evals
 - https://archerhume.com/posts/jevs-architecture-unmasked - the architecture write-up kev credits for the design

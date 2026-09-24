@@ -1,7 +1,7 @@
 ---
 title: AI Jason
 created: 2026-08-29
-updated: 2026-09-18
+updated: 2026-09-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=big-pickle, llm=glm-5.3-flash, people, publications, youtube, context-engineering, agents, practitioner]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 AI Jason is the YouTube practitioner channel of product designer Jason Zhou, the highest-profile video source for working agent workflows, from context engineering to building production AI apps.
-Facts below verified as of 2026-09-21.
+Facts below verified as of 2026-09-22.
 
 **He is the video practitioner to follow because he builds and reverse-engineers the tools himself, which fills the YouTube-speed walkthrough niche none of the other voices here occupy.**
 
@@ -23,10 +23,9 @@ He is a VC-backed start-up founder who says he has shipped production AI agents 
 
 ## Status
 
-Active as of 2026-09-18.
-The channel reports 231K subscribers and 101 videos as of 2026-09-18.
-A third-party analytics site lists 230K subscribers and 9M total views.
-The RSS feed shows two to three uploads a month through mid-2026, with the latest upload on 2026-09-15 ("How to run your first AI UGC campaign").
+Active as of 2026-09-22.
+A third-party analytics site, last verified 2026-09-21, reports 231K subscribers, 102 videos, and 9.1M total views.
+The RSS feed shows two to three uploads a month through mid-2026, with the latest upload on 2026-09-21 ("Jev + Treg is a crazy combo for automation...").
 The channel is fully monetized, with past sponsors including Canva, Figma, and Vercel.
 
 ## Strengths
@@ -65,6 +64,7 @@ Not for someone who wants reference-grade depth, a durable archive, or a rigorou
 - 2026-09-12 - Upload cadence corrected to two-three uploads a month.
 - 2026-09-16 - Latest upload moved to 2026-09-15 ("How to run your first AI UGC campaign"), the first video since 2026-08-25.
 - 2026-09-18 - Video count moved to 101 (from 100); no new uploads since the 2026-09-15 video.
+- 2026-09-22 - Latest upload moved to 2026-09-21 ("Jev + Treg is a crazy combo for automation..."); video count moved to 102 with 9.1M total views per third-party stats.
 
 ## See also
 

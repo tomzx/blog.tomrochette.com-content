@@ -1,7 +1,7 @@
 ---
 title: Nathan Lambert (Interconnects)
 created: 2026-08-29
-updated: 2026-09-20
+updated: 2026-09-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=big-pickle, llm=glm-5.3-flash, people, publications, open-models, post-training, agents]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Interconnects, the Substack of former AI2 post-training lead Nathan Lambert, is the inside-the-labs newsletter for the models and reasoning layer under agentic development, minus the hype.
-Facts below verified as of 2026-09-21.
+Facts below verified as of 2026-09-22.
 
 **He explains the research and the open-model ecosystem from someone who built it, which makes him the direct bridge between the frontier labs and the engineer choosing a model or an agent today.**
 
@@ -23,8 +23,8 @@ His [Get Good at Agents](https://www.interconnects.ai/p/get-good-at-agents) (202
 
 ## Status
 
-Active and prolific as of 2026-09-18.
-The newsletter reports over 83,000 subscribers as of 2026-09-20, and his most recent essay is "Why I still haven't bought into true RSI" (2026-09-19), his first post since the September 8 to 11 cluster (an open-model reading list and a piece on open artifacts #24).
+Active and prolific as of 2026-09-22.
+The newsletter reports over 83,000 subscribers as of 2026-09-22, and his most recent posts are "The current balance of power in open models" (2026-09-21), the expanded form of testimony he prepared for Congress, and a podcast with JS Denain of Epoch AI (2026-09-22), following the RSI-skeptic essay "Why I still haven't bought into true RSI" (2026-09-19).
 He released the [RLHF Book](https://rlhfbook.com/) ('26) with a companion post-training course, and his site links to open-model tools he maintains: the Artifacts Hub, an Adoption Dashboard, and the ATOM Project.
 He announced he is "currently doing something new" after leaving Ai2.
 
@@ -63,6 +63,7 @@ Not for anyone who wants a mostly-vendor-neutral or application-level overview; 
 - 2026-08-29 - Created as the model-and-post-training band of the people and publications category expansion.
 - 2026-09-16 - Subscriber count moved to over 83,000 (from over 82,000), with no new posts since the September 8 to 11 cluster.
 - 2026-09-20 - New essay "Why I still haven't bought into true RSI" (2026-09-19) ended the quiet stretch after the September 8 to 11 posts.
+- 2026-09-22 - Two posts after the RSI essay: "The current balance of power in open models" (2026-09-21, expanded Congressional testimony) and the Epoch AI podcast with JS Denain (2026-09-22).
 
 ## See also
 
@@ -75,7 +76,8 @@ Not for anyone who wants a mostly-vendor-neutral or application-level overview; 
 
 - https://natolambert.com/ - his site with background, the RLHF Book, and the open-model tools
 - https://www.interconnects.ai/ - the newsletter, with subscriber and positioning claims
+- https://www.interconnects.ai/feed - the RSS feed grounding the latest posts and dates
 - https://www.interconnects.ai/p/get-good-at-agents - his documented agent workflow and scoping argument
 - https://rlhfbook.com/ - the RLHF and post-training book and course
 - https://aiweekly.co/alerts/nathan-lamberts-rlhf-course-reaches-tool-use-and-agents - a third-party note that grounds his course contents and its stated limits
-- https://www.interconnects.ai/p/where-i-stand-on-rsi - the RSI-skeptic essay (2026-09-19), his latest post
+- https://www.interconnects.ai/p/where-i-stand-on-rsi - the RSI-skeptic essay (2026-09-19), the post that ended his September quiet stretch

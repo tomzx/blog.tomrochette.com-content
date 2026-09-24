@@ -1,7 +1,7 @@
 ---
 title: Steve Yegge
 created: 2026-08-29
-updated: 2026-09-18
+updated: 2026-09-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=big-pickle, llm=glm-5.3-flash, people, publications, developer, agent-pragmatist]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Steve Yegge is one of the loudest and most hands-on voices arguing that coding agents change not just how software is written but who writes it and how teams are run.
-Facts below verified as of 2026-09-21.
+Facts below verified as of 2026-09-22.
 
 **Yegge is the operative, not the commentator: he built the systems he predicted, from Agentic Coding's brute-squad framing to the Gas Town multi-agent workspace that this section already profiles, so his claims are falsifiable against his own code, and in September 2026 that falsifiability caught up with him when he shut Gas Town down.**
 
@@ -24,7 +24,9 @@ His best-known build is the [Gas Town](../../orchestration/gastown/index.md) wor
 ## Status
 
 Active, with his writing centralized on his own site and a material reversal on his flagship build.
-As of 2026-09-18 the yegge.ai catalog still holds 165 essays, roughly 699,000 words averaging about 4,200 per essay, with an RSS feed; it includes the "Future of Coding Agents" series, and he appears on The Pragmatic Engineer and other podcasts.
+As of 2026-09-22 the yegge.ai catalog still holds 165 essays, roughly 699,000 words averaging about 4,200 per essay, with an RSS feed, so no new essay has appeared since the Gas Town shutdown.
+The site itself has not caught up with the shutdown: the homepage still presents Gas Town as "current work", a dark-factory orchestration system, and pitches AI-transformation consulting, keynotes, and workshops.
+It includes the "Future of Coding Agents" series, and he appears on The Pragmatic Engineer and other podcasts.
 Per Latent Space's AINews roundup (2026-09-17), citing Dan Luu's 2026-09-15 post on X, Yegge shut Gas Town down and admitted he never successfully built anything with it, despite spending many thousands a month on coding agent subscriptions.
 The gastownhall/gastown repository remains public (18.1k stars as of 2026-09-18), so the code survives even though the project is abandoned by its author.
 His Substack still exists and its about page reports hundreds of subscribers, but its sitemap listed no published posts as of 2026-09-13, so the essays live on yegge.ai rather than the newsletter.
@@ -65,6 +67,7 @@ Not for readers who prefer neutral synthesis or who object to the chaotic, credi
 - 2026-08-30 - Updated the gastown repo link after the project moved to the gastownhall org.
 - 2026-09-13 - Corrected the writing venue: the essays live on yegge.ai (165 essays, about 699,000 words) while the Substack shows no published posts, and added the Vibe Coding award.
 - 2026-09-18 - Recorded the Gas Town shutdown: per Latent Space AINews (2026-09-17), citing Dan Luu, Yegge shut the project down and admitted he never successfully built anything with it; the repo remains public (18.1k stars as of 2026-09-18).
+- 2026-09-22 - Post-shutdown check: no new essays (catalog still 165, about 699,000 words) and the site still presents Gas Town as current work with no shutdown mention.
 
 ## See also
 

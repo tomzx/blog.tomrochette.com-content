@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Nanobot is an MIT-licensed, self-hosted personal AI agent runtime in Python that packages a small agent core with a bundled WebUI, terminal UI, eight-plus chat channels, tools, long-term memory, MCP support, scheduled automations, and an OpenAI-compatible API, positioned openly as the lightweight alternative to OpenClaw.
-Facts below verified as of 2026-09-21.
+Facts below verified as of 2026-09-22.
 
 **Nanobot is the category's readability bet: an agent core small enough to read in an afternoon, at the price of alpha maturity and a bus factor of essentially one maintainer.**
 
@@ -24,7 +24,7 @@ Started by Xubin Ren as a personal project, now under the HKUDS lab banner (the 
 
 ## Status
 
-One of the fastest adoption curves in the category: 48,437 stars, 8,556 forks, 790 open issues as of 2026-09-21, created 2026-02-01, pushed 2026-09-21.
+One of the fastest adoption curves in the category: 48,497 stars, 8,571 forks, 801 open issues as of 2026-09-22, created 2026-02-01, pushed today.
 Sixteen PyPI releases since February 2026, with v0.3.0 on 2026-07-25 followed by a seven-week quiet stretch that v0.3.5 ended on 2026-09-15, and the launch HN thread drew 257 points.
 **PyPI still classifies it Alpha, and one listed maintainer carries the release burden, the two facts I would weight against the star count.**
 

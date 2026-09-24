@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 This matrix compares the twelve surfaces profiled in this section, feature by feature, from editors to agent platforms to session cockpits.
-Everything below was verified against live sources on 2026-08-24 and re-verified on 2026-09-18, 2026-09-20, and 2026-09-21.
+Everything below was verified against live sources on 2026-08-24 and re-verified on 2026-09-18, 2026-09-20, 2026-09-21, and 2026-09-22.
 
 **The surfaces differ less in whether they have an agent and more in what they are: an editor with an agent inside, a platform that treats the editor as one client, or a cockpit for many agents, and the row that matters most is the one nobody advertises, who runs where.**
 

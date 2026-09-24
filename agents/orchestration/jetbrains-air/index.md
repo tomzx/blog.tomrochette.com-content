@@ -1,7 +1,7 @@
 ---
 title: JetBrains Air
 created: 2026-09-12
-updated: 2026-09-16
+updated: 2026-09-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, parallel-agents, jetbrains, agentic-development-environment]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 JetBrains Air is a standalone desktop (and organization-web) application from JetBrains that runs Codex, Claude Agent, Gemini CLI, and Junie as independent parallel task loops, each isolated in a git worktree, Docker container, or cloud environment.
-Facts below verified as of 2026-09-21.
+Facts below verified as of 2026-09-22.
 
 **Air is JetBrains conceding that the agentic workflow layer is a product category distinct from the IDE: it is a task orchestrator that belongs next to Conductor and Superset rather than in Surfaces, because the IDE stays a separate application by JetBrains' own design, and the orchestrator itself is sold as a subscription feature rather than a product.**
 
@@ -26,7 +26,8 @@ Built-in agents are Codex, Claude Agent, Gemini CLI, and Junie, and any ACP-comp
 ## Status
 
 Active, public preview.
-The latest release is 262.834.41 (2026-09-11) as of 2026-09-20, on a roughly monthly cadence since January 2026; it removed the git-repository requirement (tasks can now run in any folder), added task list density and grouping controls, notification sounds, and agent interaction with website previews.
+The last verifiable release remains 262.834.41 (2026-09-11), on a roughly monthly cadence since January 2026; it removed the git-repository requirement (tasks can now run in any folder), added task list density and grouping controls, notification sounds, and agent interaction with website previews.
+**As of 2026-09-22 the changelog page no longer serves: air.dev/changelog redirects to a repositioned homepage that pitches Air as "one system for building software with agents" spanning a JetBrains IDE plugin, the org web, a new Air Gateway CLI, and mobile, and states Junie is now part of Air, a broader surface than the standalone desktop app this note was created around.**
 Milestones: Codex support January 19, Gemini CLI and Junie with the Agent Review chain March 5, public preview March 9, Linux June 2, Windows June 29, ACP agents and Java/Kotlin intelligence July 15.
 Cloud execution, called tech preview at launch, has since shipped as documented cloud tasks, automations, and the org web version, governed through JetBrains Central Console, though the marketing homepage still files cloud and automations under "what's coming" as of 2026-09-18, so org-only availability runs ahead of the public pitch.
 **The community footprint is thin: Algolia lists exactly three "JetBrains Air" stories (26 points with 1 comment, 6 points, and 3 points), the June submission links to a Google-ads-tagged air.dev URL, and the December 2025 story about JetBrains abandoning Fleet for Air drew 3 points and 1 comment, a signal in a market where peers launch to 100+ point threads.**
@@ -69,6 +70,7 @@ My disagreeable claim: the isolation-plus-oversight bundle Air sells is now tabl
 - 2026-09-12 - Created in the Orchestration category from the same-day entrant resolution, placed there rather than Surfaces.
 - 2026-09-13 - Re-verified the subscription bundling claims on air.dev and noted the homepage still presents cloud and automations as upcoming while the docs ship them for organizations.
 - 2026-09-16 - Recorded release 262.834.41 (September 11), which removed the git-repository requirement, and refreshed the release, docs-check, and thin-HN-footprint dates.
+- 2026-09-22 - Recorded the air.dev repositioning: the changelog page now redirects to a homepage pitching Air as one system across IDE plugin, org web, Gateway CLI, and mobile, with Junie absorbed, and 262.834.41 remains the last verifiable release.
 
 ## See also
 
@@ -80,7 +82,7 @@ My disagreeable claim: the isolation-plus-oversight bundle Air sells is now tabl
 ## References
 
 - https://air.dev/ - product claims, supported agents, isolation options, FAQ, and pricing terms, as of 2026-09-18
-- https://air.dev/changelog - version 262.834.41 (2026-09-11), platform dates, ACP support, and feature history, fetched 2026-09-18
+- https://air.dev/changelog - version 262.834.41 (2026-09-11), platform dates, ACP support, and feature history, fetched 2026-09-18; fetched again 2026-09-22, when the URL redirected to the repositioned homepage
 - https://www.jetbrains.com/help/air/execution-environments.html - the four run environments and the isolation model, as of 2026-08-18
 - https://www.jetbrains.com/help/air/supported-agents.html - the agent and provider-account matrix, as of 2026-08-25
 - https://www.jetbrains.com/help/air/cloud-tasks.html - cloud tasks, the org web version, lifecycle, and credits, as of 2026-08-20

@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Cognee is Topoteretes' open-source AI memory platform: a pipeline that turns documents and interactions into graph-plus-vector memory you can run entirely yourself, with an optional flat-priced cloud.
-Facts below verified as of 2026-09-21.
+Facts below verified as of 2026-09-22.
 
 **Cognee is the self-hoster's memory platform: the entire engine, including the parts Mem0 and Zep keep behind the paid tier, is Apache-2.0, and the trade is that you operate the graph, vector, and relational backends yourself.**
 
@@ -24,7 +24,7 @@ Cognee Cloud runs the same engine managed, on gpt-oss-120b, OpenAI's open-weight
 ## Status
 
 **Active and fast-moving.**
-About 30.9k GitHub stars as of 2026-09-21, repository pushed 2026-09-20, and v1.6.0 (September 18, 2026) the latest release per the PyPI JSON API.
+About 30.9k GitHub stars as of 2026-09-22, repository pushed 2026-09-23 UTC, and v1.6.0 (September 18, 2026) still the latest release per the PyPI JSON API.
 v1.6.0 is the keyless-first release: many flows now run with no LLM key, pipelines stamp runs at start and recover after crashes, a cognee-mcp client/server package lands for integrations, and the default Docker image drops GLiNER, a breaking change self-hosters must patch around.
 The company is part of the Berkeley Xcelerator and claims 5M+ SDK runs per month (vendor figure).
 The community discussion footprint is thin for the star count: its two Show HN threads drew 9 and 6 points, so third-party scrutiny lags the repository's popularity.
@@ -46,7 +46,7 @@ The community discussion footprint is thin for the star count: its two Show HN t
 ## Pricing
 
 Open source: free, Apache-2.0.
-Cloud: Free $0 (one workspace, 1M tokens included, unlimited users), Standard $1.00 per 1M tokens processed plus $5 per additional workspace per month, Enterprise custom with BYO cloud and SLAs, as of 2026-09-21.
+Cloud: Free $0 (one workspace, 1M tokens included, unlimited users), Standard $1.00 per 1M tokens processed plus $5 per additional workspace per month, Enterprise custom with BYO cloud and SLAs, as of 2026-09-22.
 
 ## Price history
 
@@ -83,9 +83,9 @@ Not for solo coding-agent work, where plain files win, or for anyone without the
 
 ## References
 
-- https://github.com/topoteretes/cognee - source, Apache-2.0, about 30.8k stars, as of 2026-09-20
+- https://github.com/topoteretes/cognee - source, Apache-2.0, about 30.9k stars, as of 2026-09-22
 - https://www.cognee.ai/ - v1 announcement, integration list, Berkeley Xcelerator, 5M+ SDK runs claim
-- https://www.cognee.ai/pricing - cloud tiers, per-token rate, workspace fee, gpt-oss-120b default, Enterprise bi-temporal memory listing, as of 2026-09-20 (the $1.00 Standard rate held since the 2026-09-09 cut)
+- https://www.cognee.ai/pricing - cloud tiers, per-token rate, workspace fee, gpt-oss-120b default, Enterprise bi-temporal memory listing, as of 2026-09-22 (the $1.00 Standard rate held since the 2026-09-09 cut)
 - https://docs.cognee.ai/ - architecture, multi-user mode, SDK and integration surfaces
 - https://pypi.org/pypi/cognee/json - v1.6.0 released September 18, 2026
 - https://news.ycombinator.com/item?id=44169594 - Show HN, June 2025, the 9-point thread

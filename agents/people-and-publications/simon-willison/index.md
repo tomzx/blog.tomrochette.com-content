@@ -1,7 +1,7 @@
 ---
 title: Simon Willison
 created: 2026-08-29
-updated: 2026-09-21
+updated: 2026-09-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=big-pickle, llm=glm-5.3-flash, people, publications, developer, llm-practitioner]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Simon Willison's Weblog is the densest real-time record of what software engineers can actually do with LLMs, published daily by someone who uses them in his own practice.
-Facts below verified as of 2026-09-21.
+Facts below verified as of 2026-09-22.
 
 **No other voice tracks the tool-and-model churn of agentic development day-by-day with the same density and the same willingness to name what is hype; if you follow one feed for this domain, this is the one.**
 
@@ -24,7 +24,8 @@ He coined the widely quoted framing of LLMs as a "weird, over-confident intern" 
 ## Status
 
 Active and as influential as ever.
-As of 2026-09-21 the homepage shows posts daily, sometimes several a day, through 20 September 2026, with dedicated tag streams for agentic-engineering, coding-agents, and ai-assisted-programming.
+As of 2026-09-22 the homepage shows posts daily, sometimes several a day, through 22 September 2026, led by the essay "Claude Opus 5.5, GPT-6 Sol, GPT-6 Luna, and a new price war" (2026-09-22), with dedicated tag streams for agentic-engineering, coding-agents, and ai-assisted-programming.
+He is also convening offline: a Birds of a Feather session on agentic engineering with Jesse Vincent in San Francisco (announced for 14 October) is the newest entry on the homepage.
 He ships code on the blog too: the sqlite-utils 4.0 release notes record that much of it was written by a coding agent, so the blog is documentation of his own agent loops, not just commentary on them.
 
 ## Strengths
@@ -68,6 +69,7 @@ Not for people who prefer periodic synthesis over daily volume, or who want a ve
 - 2026-09-16 - Posting recency refreshed: the homepage now shows daily posts through 15 September 2026 (previously recorded through 12 September).
 - 2026-09-18 - Posting recency refreshed: the homepage now shows daily posts through 17 September 2026.
 - 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
+- 2026-09-22 - Posting recency refreshed: daily posts through 22 September 2026, led by the Opus 5.5/GPT-6 Sol/Luna price-war essay; he also announced a San Francisco agentic-engineering Birds of a Feather session with Jesse Vincent for 14 October.
 
 ## See also
 

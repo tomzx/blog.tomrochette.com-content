@@ -1,7 +1,7 @@
 ---
 title: claude-mem
 created: 2026-08-30
-updated: 2026-09-20
+updated: 2026-09-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, session-memory, compression, open-source]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 claude-mem is an open-source Apache-2.0 plugin that gives coding agents persistent cross-session memory by capturing session activity through lifecycle hooks, compressing it into observations with LLM calls, storing them in local SQLite, and injecting relevant context back into future sessions.
-Facts below verified as of 2026-09-21.
+Facts below verified as of 2026-09-22.
 
 **claude-mem is the strongest evidence yet that session memory has crossed from experiment to default expectation, and its cost model is the field's open question: it captures everything and pays your tokens to compress it.**
 
@@ -25,8 +25,8 @@ Made by Alex Newman (thedotmack), a solo author in the Vercel OSS Program, with 
 
 ## Status
 
-Very large and fast: about 94.4k stars, 8.3k forks, and 244 open issues and pull requests as of 2026-09-21, with 71,801 npm downloads in the last month.
-Created 2025-08-31, pushed 2026-09-20, latest tagged release v13.24.23 on 2026-09-11, while npm still leads at 13.25.1 (published 2026-09-16) without a matching GitHub release.
+Very large and fast: about 94.5k stars, 8.4k forks, and 288 open issues and pull requests as of 2026-09-22, with 71,288 npm downloads in the last month.
+Created 2025-08-31, pushed 2026-09-22, latest tagged release v13.25.3 on 2026-09-21, with npm in sync at 13.25.3 (published minutes later the same evening), which closed the npm-versus-GitHub channel drift that had stood since 2026-09-16.
 The README now brands the project Grok Mem (the package is still `claude-mem`), and v13.24.0 shipped it as two independent Cursor and Grok Bot marketplace plugins alongside the Claude Code install path.
 **The v13.x version line tells you the churn rate: near-daily releases with major-version jumps, which is velocity and breakage risk in the same number.**
 
@@ -47,7 +47,7 @@ The README now brands the project Grok Mem (the package is still `claude-mem`), 
 ## Pricing
 
 The engine is free and Apache-2.0, fully local.
-CMEM Cloud is $20/month for sync and one private MCP link; a Team tier lists $333/seat/month for 3-50 seats.
+CMEM Cloud is $20/month for sync and one private MCP link (a 30-day free trial is advertised); a Team tier lists $333/seat/month for 3-50 seats.
 The hidden cost is compression: those LLM calls draw on your own model subscription or API budget, and no official per-session figure is published.
 
 ## Price history
@@ -73,6 +73,7 @@ Not for privacy-strict environments, anyone unwilling to run a local worker serv
 - 2026-09-06 - Recorded the README rebrand to Grok Mem and the added Cursor and Grok Bot marketplace plugins.
 - 2026-09-16 - Recorded the npm/GitHub release lag (npm at 13.25.1, the releases page still on v13.24.23) and refreshed stars to 94.0k with 191 open issues and PRs.
 - 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
+- 2026-09-22 - The npm-versus-GitHub channel drift closed: GitHub tagged v13.25.3 and npm published 13.25.3 within minutes on 2026-09-21, so the two release channels are back in sync.
 
 ## See also
 

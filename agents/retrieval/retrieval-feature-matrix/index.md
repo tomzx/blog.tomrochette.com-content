@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 This matrix compares the six retrieval entries profiled in this section, two frameworks, two patterns, one chunking library, and one hosted document-parsing pipeline, feature by feature, so the shortlisting step does not require reading six notes.
-Everything below was re-verified against the refreshed member notes and live sources on 2026-09-21.
+Everything below was re-verified against the refreshed member notes and live sources on 2026-09-22.
 
 **Both frameworks are pivoting away from retrieval as their business, both patterns are being demoted by the tools that ship them, and the chunking library that won the niche has outlived its own maker's attention, which I read as evidence that the agent loop, not the index, is now the retrieval layer, while the newest column bets against that demotion by selling structure-preserving parsing as a hosted service, with a star count that no independent discussion yet backs.**
 
@@ -29,7 +29,7 @@ Each column links to the full note; every cell traces to a source cited there or
 | AST-aware code splitting | ✓ CodeChunker | ✗ document hierarchy, not AST | ✗ separators only | ✓ CodeSplitter | ? chunkers undisclosed | ✓ the technique |
 | Hosted or commercial arm | ✗ hosted API dead, OSS only | ✓ the hosted per-page API is the funnel | ✓ LangSmith SaaS | ✓ LlamaParse SaaS | ~ plan-gated indexes | ✗ was Chonkie Cloud, now dead |
 | Positioning drift in the notes | ~ maker moved to Feyn Labs, OSS continues | ✗ new entrant (2026-09), no drift yet | ~ climb to agent platform | ~ pivot to document OCR | ~ demoted to optional | ~ outsourced to Chonkie |
-| Maintenance status | ✓ active, 4.76k stars, 1.02M downloads/month | ✓ active, 3.41k stars, v1.2.15 (2026-09-21) | ✓ active, 146.8k stars | ✓ active, 52.3k stars | ~ active but demoted | ✓ mature, pervasive |
+| Maintenance status | ✓ active, 4.76k stars, 1.02M downloads/month | ✓ active, 3.46k stars, v1.2.16 (2026-09-21) | ✓ active, 146.9k stars | ✓ active, 52.3k stars | ~ active but demoted | ✓ mature, pervasive |
 | Displacement signal in the notes | ~ founder pivoted away, niche commoditized | ~ stars ran ahead of any discussion, two Show HNs, 2 points combined | ~ retrieval commoditized | ~ agentic search eats indexed RAG | ✓ pioneers shipped grep loops | ~ ranked below truncation |
 | What it replaces in a coding-agent stack | framework text splitters | hand-rolled OCR plus vector-store parsing | hand-rolled agent loops | hand-rolled retrievers | grep-only lookups | line-count chunking |
 
@@ -41,7 +41,7 @@ LangChain repositioned as an agent engineering platform with its own terminal co
 Chonkie completes the pattern from the other side: the library the frameworks outsource chunking to is still maintained and pulling over a million downloads a month, but its maker's domain now redirects to the founder's next venture and the paid API is dead.
 
 **Knowhere is the column betting against the demotion pattern: where every drift row above demotes local indexes, it sells parsing and structuring as a hosted, per-page service and hands the structured result to agents through MCP, which makes it the enterprise-bet side of the thesis made concrete.**
-Its own note carries the counter-signal, 3.41k stars behind two Show HNs with two combined points and a marketing benchmark that is entirely self-reported, so I would pilot it on your worst documents before believing any number on its site.
+Its own note carries the counter-signal, 3.46k stars behind two Show HNs with two combined points and a marketing benchmark that is entirely self-reported, so I would pilot it on your worst documents before believing any number on its site.
 
 **The pattern columns carry the shipped verdict: semantic indexes are being demoted inside the tools that pioneered them, and the chunking strategy called most exact is ranked last by the practitioners who documented their pipeline.**
 Cursor's retrieval docs lead with Instant Grep and an Explore subagent, Continue deprecated its `@Codebase` embeddings provider, and VS Code ships a no-index fallback.

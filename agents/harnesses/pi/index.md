@@ -1,7 +1,7 @@
 ---
 title: Pi
 created: 2026-08-30
-updated: 2026-09-21
+updated: 2026-09-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, harnesses, coding-agents, open-source, byok, extensibility]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Pi is an MIT-licensed TypeScript agent toolkit from Earendil whose flagship is a minimal, self-extensible terminal coding agent that you adapt through extensions rather than configuring a closed product.
-Facts below verified as of 2026-09-21.
+Facts below verified as of 2026-09-22.
 
 **Pi's thesis is that a coding agent should be a small frozen core plus your code, and it is the only harness at this scale whose author treats missing features as policy rather than backlog.**
 
@@ -26,9 +26,9 @@ Made by Earendil Inc., created by Mario Zechner with Armin Ronacher as the secon
 
 ## Status
 
-Active and ascending: 107,914 stars (past the 100k mark), 13,640 forks, 212 open issues and PRs as of 2026-09-21.
-Created 2025-08-09, pushed within a day of verification, releases roughly weekly (v0.86.1 on 2026-09-20, one day after v0.86.0).
-**The ecosystem is the strongest signal: OpenClaw runs on Pi, and oh-my-pi, a batteries-included fork with about 32.2k stars as of 2026-09-21, exists precisely because some users want the features Pi refuses to ship.**
+Active and ascending: 108,645 stars (past the 100k mark), 13,790 forks, 221 open issues and PRs as of 2026-09-22.
+Created 2025-08-09, pushed within a day of verification, releases roughly weekly (v0.87.1 on 2026-09-22).
+**The ecosystem is the strongest signal: OpenClaw runs on Pi, and oh-my-pi, a batteries-included fork with about 32.8k stars as of 2026-09-22, exists precisely because some users want the features Pi refuses to ship.**
 
 ## Strengths
 
@@ -66,6 +66,7 @@ Not for teams wanting turnkey guardrails, MCP-centric stacks, or a stable API su
 - 2026-09-16 - Refreshed counters (105,966 stars, 13,322 forks, 235 open issues and PRs) and the oh-my-pi fork count (about 31.3k stars); v0.85.1 still the latest release.
 - 2026-09-20 - Recorded the v0.86.0 release (September 19) and refreshed counters (107,467 stars, 13,564 forks, 213 open issues and PRs) plus the oh-my-pi fork at about 32k stars.
 - 2026-09-21 - Recorded the v0.86.1 release (September 20) and refreshed counters, including the oh-my-pi fork at about 32.2k stars.
+- 2026-09-22 - Recorded the v0.87.1 release (September 22) and refreshed counters, including the oh-my-pi fork at about 32.8k stars.
 
 ## See also
 
@@ -81,4 +82,4 @@ Not for teams wanting turnkey guardrails, MCP-centric stacks, or a stable API su
 - https://pi.dev - positioning, extension model, and the list of features deliberately not built
 - https://mariozechner.at/posts/2025-11-30-pi-coding-agent/ - the author's rationale for the minimal prompt and YOLO default
 - https://news.ycombinator.com/item?id=46844822 - the 421-point thread with pushback on the security posture
-- https://github.com/can1357/oh-my-pi - the 32k-star batteries-included fork, the counterargument in running code
+- https://github.com/can1357/oh-my-pi - the batteries-included fork at about 32.8k stars, the counterargument in running code

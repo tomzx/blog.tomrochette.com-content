@@ -12,7 +12,7 @@ audience_notes: >
 ---
 
 Vibe Kanban is an Apache-2.0 kanban board for managing parallel coding agents in isolated workspaces, launched by Bloop AI in June 2025; the company shut down in April 2026 and the project continues community-maintained.
-Facts below verified as of 2026-09-21.
+Facts below verified as of 2026-09-22.
 
 **It is the category's most-adopted artifact and its clearest cautionary tale at once: about 28k GitHub stars, thousands of daily users, and no business model survived it.**
 
@@ -28,8 +28,8 @@ Self-hosting via Docker was documented for teams.
 Company dead, project alive.
 Bloop shut down on 2026-04-10, with CEO Louis Knight-Webb writing that "the vast majority are free users and we couldn't find a business model".
 Remote services (kanban issues, comments, projects, organisations) were removed 30 days after the announcement; refunds were issued and subscriptions terminated.
-**Local workspaces keep working, and the unpaid community has kept moving: as of 2026-09-21 the default branch shows ten commits since the shutdown, the first a 2026-09-15 Copilot version bump by a former Bloop maintainer, then nine more between 2026-09-16 and 2026-09-19 with substantive fixes (server startup routing, session-replay performance, swapped stream labels, an IME Enter fix, pnpm audit fixes, and a SECURITY.md).
-On 2026-09-19 the community committed a version bump to 0.1.45, but the only tags carrying that version are timestamped test tags (v0.1.45.1789713874 and a v0.1.45-permtest tag), no plain v0.1.45 tag exists, and no published release has shipped beyond 0.1.44: npm still serves 0.1.44 as latest and the GitHub release list still stops at the shutdown-era v0.1.44, while the tracker stands at 538 open issues and pull requests.**
+**Local workspaces keep working, and the unpaid community has kept moving: as of 2026-09-22 the default branch shows ten commits since the shutdown, the first a 2026-09-15 Copilot version bump by a former Bloop maintainer, then nine more between 2026-09-16 and 2026-09-19 with substantive fixes (server startup routing, session-replay performance, swapped stream labels, an IME Enter fix, pnpm audit fixes, and a SECURITY.md).
+On 2026-09-19 the community committed a version bump to 0.1.45, but the only tags carrying that version are timestamped test tags (v0.1.45.1789713874 and a v0.1.45-permtest tag), no plain v0.1.45 tag exists, and no published release has shipped beyond 0.1.44: npm still serves 0.1.44 as latest and the GitHub release list still stops at the shutdown-era v0.1.44, while the tracker stands at 539 open issues and pull requests.**
 
 ## Strengths
 

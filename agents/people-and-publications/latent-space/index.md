@@ -1,7 +1,7 @@
 ---
 title: Latent Space
 created: 2026-08-29
-updated: 2026-09-18
+updated: 2026-09-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=big-pickle, llm=glm-5.3-flash, people, publications, newsletter, podcast, community]
 readability: 3
@@ -11,13 +11,13 @@ audience_notes: >
 ---
 
 Latent Space is the AI engineering publication of record, a Substack newsletter plus a technical podcast hosted by swyx (Shawn Wang) and Alessio Fanelli, and the organizing brand behind the AI Engineer conference series.
-Facts below verified as of 2026-09-21.
+Facts below verified as of 2026-09-22.
 
 **Latent Space did not just cover the AI engineer, it named the role and built the conference around it, which makes it the closest thing this domain has to an institutional center of gravity.**
 
 ## What it is
 
-A Substack with more than 200,000 subscribers as of 2026-09-18 combining a weekly newsletter, a 1-2 hour interview podcast with lab founders, researchers, and tool makers, and a growing event business (AI Engineer Summits across SF and Europe).
+A Substack with more than 201,000 subscribers as of 2026-09-22 combining a weekly newsletter, a 1-2 hour interview podcast with lab founders, researchers, and tool makers, and a growing event business (AI Engineer Summits across SF and Europe).
 The founding essay, [The Rise of the AI Engineer](https://www.latent.space/p/ai-engineer), defined the discipline as distinct from ML research, and the household has extended into AINews daily roundups and an AI-for-science show.
 It is also, critically, the place where the tools profiled in this section get their field interviews: Claude Code, coding agents, and synthetic data all feature heavily.
 
@@ -25,7 +25,7 @@ It is also, critically, the place where the tools profiled in this section get t
 
 Active and expanding.
 As of 2026-09-13 the announcement month ran "The State of Latent Space" for 2026, adding shows, hosts, and more interview formats; the AI Engineer conference network grew to events in New York, San Francisco, Paris, and Europe.
-The latest interview issues, "Underwriting Superintelligence: Backing Agents you can Sue" with Rune Kvist of AIUC (2026-09-16), "Can Skills Learned in Games Transfer to Real-World Work?" (2026-09-15), and "Humanity's Last Invention" with Richard Socher of Recursive (2026-09-14), keep the weekly interview cadence running alongside the near-daily AINews roundups.
+The latest interview issues, "An Oscar, Two Asteroids, and the Algorithm in Your sklearn: John Platt on AI for Science" (2026-09-22) and "Jev: System One models for Prod, not God" with Diogo Almeida, CEO of TypeSafe AI (2026-09-19), keep the weekly interview cadence running alongside the near-daily AINews roundups, which currently lead with Claude Opus 5.5 coverage.
 The podcast regularly lands the people behind the harnesses this section tracks, and swyx's own notes continue to set trends (memory, filesystems, agent-eats-agent).
 
 ## Strengths
@@ -64,6 +64,7 @@ Not for people who want only hands-on tool notes and who will not filter past th
 - 2026-09-13 - Corrected the Interconnects link in Compared to, which pointed at The Pragmatic Engineer instead of the Nathan Lambert note.
 - 2026-09-16 - Latest-issue pointer refreshed: the Forward Deployed Engineer issue (2026-09-12) is now followed by two interview issues, Richard Socher of Recursive (2026-09-14) and "Can Skills Learned in Games Transfer to Real-World Work?" (2026-09-15).
 - 2026-09-18 - Latest-issue pointer refreshed again: the AIUC interview with Rune Kvist (2026-09-16) now leads the interview cadence; subscriber count held at over 200,000.
+- 2026-09-22 - Latest-issue pointer refreshed: the Jev podcast with Diogo Almeida (2026-09-19) and the John Platt AI-for-Science interview (2026-09-22) now lead; subscriber count moved to over 201,000.
 
 ## See also
 
@@ -75,6 +76,7 @@ Not for people who want only hands-on tool notes and who will not filter past th
 ## References
 
 - https://www.latent.space/ - the Substack home, newsletter and podcast archive
+- https://www.latent.space/feed - the RSS feed grounding the subscriber count and the latest issues
 - https://www.latent.space/p/ai-engineer - the founding essay that named the AI Engineer role
 - https://ai.engineer/ - the conference series brand
 - https://www.latent.space/s/ainews - the AINews daily roundup arm (the old news.smol.ai deployment was disabled; the roundup now lives as a section of the publication)

@@ -1,7 +1,7 @@
 ---
 title: SemIf
 created: 2026-09-21
-updated: 2026-09-21
+updated: 2026-09-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, hybrid-execution, structured-outputs, system-one-models, decision-models, open-source, webgpu]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 SemIf, until 2026-09-18 called OpenJev, is an MIT research project that reproduces Jev's interface pattern with open models: it reads typed option probabilities directly from the logits of frozen checkpoints such as Qwen3.5-4B, with no answer tokens, in a browser demo you can run today.
-Facts below verified as of 2026-09-21.
+Facts below verified as of 2026-09-22.
 
 **SemIf is the most verifiable entry in this category, and its own results document says the part no vendor will: the interface is reproduced, the calibrated probabilities are not, and that is the gap that matters.**
 
@@ -25,10 +25,12 @@ The rename is part of the artifact: after its launch thread debated trademark ri
 
 ## Status
 
-Days old and active, as of 2026-09-21.
-Created 2026-09-16, last push 2026-09-19, two contributors, no tags or releases, 164 forks.
-The community footprint is large but lives under the old name: the "OpenJev" thread linking openjev.com reached 713 points as of 2026-09-21, the second-largest thread in the Jev wave after Jev's own launch.
+Days old and active, as of 2026-09-22.
+Created 2026-09-16, last push 2026-09-21, two contributors, no tags or releases, 257 forks, about 3,900 stars.
+The community footprint is large but lives under the old name: the "OpenJev" thread linking openjev.com reached 720 points as of 2026-09-22, the second-largest thread in the Jev wave after Jev's own launch.
+Three community PRs merged on 2026-09-22: PyTorch/MPS scoring for Apple Silicon, a Qwen3.8-27B EXL3 bridge, and per-workload temperature calibration with calibrated prediction outputs.
 The headline numbers are self-run: on 102 aligned public rows, direct logit readout with Qwen3.5-4B agrees with TypeSafe's published values 0.845 of the time against Jev's published 0.883, with balanced accuracy of 0.813 on authored decisions and 0.766 under perturbation.
+The first third-party scoreboard of the category now exists and ranks SemIf (Qwen3.5-4B) second overall at 73.1 against Jev's 74.4, the wave's strongest independent showing, on a methodology contested in that benchmark's own thread.
 
 ## Strengths
 
@@ -41,7 +43,7 @@ The headline numbers are self-run: on 102 aligned public rows, direct logit read
 
 - **The rename is the cautionary tale for this whole wave: the launch thread's own commenters flagged "Jev" naming as confusing and legally dangerous, and the project capitulated with a disclaimer within a day, so every clone is one letter away from the same problem.**
 - Thread skeptics read the project as evidence about classifiers, not a breakthrough: one called the moment "mostly harness hype" around capabilities GLiNER2-style models and small local classifiers already served, and another posted a live failure where the model answered wrongly at 80% confidence.
-- The probabilities are explicitly not calibrated: RESULTS.md states the scores "cannot be treated as Jev-like operational calibration", option-order flips remain unsolved (10 flips on the reversal variant), and both systems made confident wrong choices when evidence was missing.
+- The probabilities shipped explicitly not calibrated, and RESULTS.md still states the core scores "cannot be treated as Jev-like operational calibration"; the 2026-09-22 per-workload temperature-calibration PR adds a calibration layer, but it is community work layered after the fact, not the RLCD-trained calibration the category actually wants, and option-order flips remain unsolved (10 flips on the reversal variant).
 - Every number is self-run on owned or small public workloads, Jev was never run live by the project, and no third party has replicated any of it.
 
 ## Pricing
@@ -66,6 +68,7 @@ I run the browser demo before I believe any latency claim in this category, and 
 ## Changes
 
 - 2026-09-21 - Created from the owner-prompted open-source alternatives sub-run.
+- 2026-09-22 - Recorded the 2026-09-22 community PRs (MPS scoring, a Qwen3.8-27B EXL3 bridge, per-workload temperature calibration), the third-party JevBench reading (SemIf second at 73.1 versus Jev's 74.4), and refreshed star (about 3,900), fork (257), and thread (720 points) counts.
 
 ## See also
 
@@ -77,9 +80,10 @@ I run the browser demo before I believe any latency claim in this category, and 
 
 ## References
 
-- https://github.com/TheoLeeCJ/SemIf - repository: MIT, 2,680 stars, 164 forks, created 2026-09-16, last push 2026-09-19 (GitHub API, as of 2026-09-21)
-- https://raw.githubusercontent.com/TheoLeeCJ/SemIf/master/README.md - the rename notice, speed tables, browser model ladder, and MLX backend
+- https://github.com/TheoLeeCJ/SemIf - repository: MIT, about 3,900 stars, 257 forks, created 2026-09-16, last push 2026-09-21 (GitHub API, as of 2026-09-22)
+- https://raw.githubusercontent.com/TheoLeeCJ/SemIf/master/README.md - the rename notice, speed tables, browser model ladder, MLX backend, and the 2026-09-22 PR log
 - https://openjev.com/ - the project site: WebGPU demo, quality table, and the independence notice
-- https://news.ycombinator.com/item?id=49752041 - the OpenJev thread (713 points as of 2026-09-21, 2026-09-18): the trademark debate, the hype and failure criticisms (fetched via the Algolia items API)
+- https://news.ycombinator.com/item?id=49752041 - the OpenJev thread (720 points as of 2026-09-22, 2026-09-18): the trademark debate, the hype and failure criticisms (fetched via the Algolia items API)
 - https://raw.githubusercontent.com/TheoLeeCJ/SemIf/master/docs/RESULTS.md - claim boundaries: what was and was not reproduced, TVD numbers, robustness flips
 - https://github.com/TheoLeeCJ/openjev - the pre-rename URL, verified to redirect to this repository (GitHub API)
+- https://raw.githubusercontent.com/fstandhartinger/jevbench/main/RESULTS-v1.2.md - the third-party board ranking SemIf second at 73.1 against Jev's 74.4

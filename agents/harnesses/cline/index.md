@@ -12,7 +12,7 @@ audience_notes: >
 ---
 
 Cline is an open-source (Apache-2.0) coding agent from Cline Bot Inc. that began as a VS Code extension and now ships a CLI, a JetBrains plugin, a web-based kanban board, and an SDK off one runtime.
-Facts below verified as of 2026-09-21.
+Facts below verified as of 2026-09-22.
 
 **Cline is proof that the IDE-extension generation grew up into a full harness: about 5.3 million installs on the strength of one extension, and the closest thing to a vendor-neutral default inside VS Code.**
 
@@ -28,8 +28,8 @@ Any provider works: Anthropic, OpenAI, Google, OpenRouter, Bedrock, Azure, Verte
 ## Status
 
 **Active and large.**
-The repository shows about 68.9k stars and 7.5k forks as of 2026-09-21, with 250+ contributors and an Apache-2.0 license held by Cline Bot Inc.
-The VS Code Marketplace page shows 5,396,407 installs and a 4.1/5 average rating as of 2026-09-21; the product site claims 11M+ installs across the marketplace and Open VSX.
+The repository shows about 69.1k stars and 7.5k forks as of 2026-09-22, with 250+ contributors and an Apache-2.0 license held by Cline Bot Inc.
+The VS Code Marketplace page shows 5,419,932 installs and a 4.1/5 average rating as of 2026-09-22; the product site claims 11M+ installs across the marketplace and Open VSX.
 The project started as the "Claude Dev" extension in late 2024 and has been renamed and corporatized since.
 
 ## Strengths
@@ -88,11 +88,11 @@ Not for teams that require every client binary open or a coding-agnostic automat
 
 ## References
 
-- https://github.com/cline/cline - surfaces, rules, SDK, license, repository scale as of 2026-09-21
+- https://github.com/cline/cline - surfaces, rules, SDK, license, repository scale as of 2026-09-22
 - https://cline.bot/ - product overview, install and star claims
 - https://cline.bot/pricing - free core, usage billing, enterprise tiers
 - https://cline.bot/cline-pass - the open-weights subscription and its labs
 - https://docs.cline.bot/ - agent overview and configuration documentation
-- https://marketplace.visualstudio.com/items?itemName=saoudrizwan.claude-dev - verifiable install count and ratings
+- https://marketplace.visualstudio.com/items?itemName=saoudrizwan.claude-dev - verifiable install count and ratings, as of 2026-09-22
 - https://news.ycombinator.com/item?id=43360564 - early community thread on Cline as an autonomous VS Code agent
 - https://news.ycombinator.com/item?id=48525711 - Ask HN thread on reducing Cline's token usage

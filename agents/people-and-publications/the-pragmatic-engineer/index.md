@@ -1,7 +1,7 @@
 ---
 title: The Pragmatic Engineer
 created: 2026-08-29
-updated: 2026-09-18
+updated: 2026-09-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=big-pickle, llm=glm-5.3-flash, people, publications, newsletter, engineering-org]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 The Pragmatic Engineer is Gergely Orosz's engineering newsletter that brings an engineer-first, data-grounded lens to how AI is changing software teams, tooling, and hiring.
-Facts below verified as of 2026-09-21.
+Facts below verified as of 2026-09-22.
 
 **Where the hands-on voices show you how to use an agent, The Pragmatic Engineer shows you how a whole engineering organization absorbs one, and that org view is what makes it distinct in this category.**
 
@@ -23,8 +23,8 @@ It consistently runs the data-gathering (AI tooling surveys) that individual too
 
 ## Status
 
-Active and heavily subscribed, with more than 1,100,000 subscribers as of 2026-09-18.
-As of 2026-09-18 it runs the AI tooling-for-2026 surveys and current agent-adoption coverage: AI Skills with Matt Pocock (2026-09-17), Inside OpenAI's agentic software factory (2026-09-15), Building Codex with Tibo Sottiaux (2026-09-09), and What is happening with code reviews? (2026-09-08).
+Active and heavily subscribed, with more than 1,100,000 subscribers as of 2026-09-22.
+As of 2026-09-22 it runs the AI tooling-for-2026 surveys and current agent-adoption coverage: How will AI change operating systems? Part 2: Windows, on making the OS AI-agent-friendly (2026-09-22), AI Skills with Matt Pocock (2026-09-17), Inside OpenAI's agentic software factory (2026-09-15), Building Codex with Tibo Sottiaux (2026-09-09), and What is happening with code reviews? (2026-09-08).
 A large share of AI-specific content sits behind the paid tier, which funds the survey and interview work.
 
 ## Strengths
@@ -62,6 +62,7 @@ Not for someone chasing pure hands-on tool detail who resents a paywall.
 - 2026-09-13 - Added the 1.1M subscriber figure and the September agent-adoption coverage (Codex interview, code-review report, Ramp's Inspect).
 - 2026-09-16 - Added the "Inside OpenAI's agentic software factory" deep dive (2026-09-15) to the September agent-adoption coverage.
 - 2026-09-18 - Added the "AI Skills with Matt Pocock" episode (2026-09-17) to the September agent-adoption coverage; subscriber count held at over 1,100,000.
+- 2026-09-22 - Added "How will AI change operating systems? Part 2: Windows" (2026-09-22) to the September agent-adoption coverage; subscriber count held at over 1,100,000.
 
 ## See also
 
@@ -73,6 +74,7 @@ Not for someone chasing pure hands-on tool detail who resents a paywall.
 ## References
 
 - https://newsletter.pragmaticengineer.com/ - the newsletter home and AI tag archive
+- https://newsletter.pragmaticengineer.com/feed - the RSS feed grounding the latest issues and dates
 - https://newsletter.pragmaticengineer.com/p/ai-tooling-2026 - the annual AI tooling survey for software engineers
 - https://newsletter.pragmaticengineer.com/p/steve-yegge-on-ai-agents-and-the - his interview with Steve Yegge on AI agents
 - https://newsletter.pragmaticengineer.com/p/the-ai-engineering-stack - his framing of the AI engineering stack

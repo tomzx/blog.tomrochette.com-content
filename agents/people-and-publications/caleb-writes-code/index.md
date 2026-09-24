@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Caleb Writes Code is the YouTube explainer channel of Caleb Eom, covering model releases, AI hardware, and agentic-engineering concepts in short, illustrated videos.
-Facts below verified as of 2026-09-21.
+Facts below verified as of 2026-09-22.
 
 **He is the fastest way to stay current in video form, because each release and agentic buzzword becomes a 7 to 13 minute illustrated explainer within days, a release-explainer slot no other member of this category fills.**
 
@@ -24,7 +24,7 @@ He is active on X as calebfoundry, on LinkedIn, and runs a Patreon.
 
 ## Status
 
-Active and fast-growing as of 2026-09-20.
+Active and fast-growing as of 2026-09-22.
 The channel reports 112K subscribers and 121 videos, the about page shows 8,109,153 total views as of 2026-09-21, and uploads run about twice a week, with the latest on 2026-09-19 covering Jev.
 All of that scale was reached in under 18 months from the 2025-03-16 start.
 

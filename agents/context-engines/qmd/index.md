@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 qmd is a local-first CLI search engine by Tobias Lütke that indexes your markdown notes, docs, and knowledge bases and searches them with a hybrid BM25 plus vector plus LLM-reranked pipeline, designed for humans and agents alike.
-Facts below verified as of 2026-09-21.
+Facts below verified as of 2026-09-22.
 
 **qmd is the argument that a single maintainer can ship production-grade local retrieval in one binary-plus-SQLite, and that most agent RAG does not need a framework, a server, or a cloud.**
 
@@ -25,7 +25,7 @@ MIT, by Tobias Lütke (Shopify CEO), who authored about three quarters of the co
 
 ## Status
 
-Young with unusual traction: 29,917 stars, 1,865 forks, 154 open issues and PRs as of 2026-09-21, created 2025-12-08.
+Young with unusual traction: 29,968 stars, 1,869 forks, 158 open issues and PRs as of 2026-09-22, created 2025-12-08.
 Latest release v2.8.3 on 2026-08-16, pushed 2026-09-09.
 **The maintainer concentration is the story: one high-profile author shipping v1 through v2.8 in nine months, with community PRs around the edge.**
 
@@ -76,5 +76,5 @@ Not for code-symbol search (use grep-class tools), constrained machines, or team
 - https://github.com/tobi/qmd - repository, description, license
 - https://raw.githubusercontent.com/tobi/qmd/HEAD/README.md - architecture, install, models, MCP and SDK surfaces
 - https://raw.githubusercontent.com/tobi/qmd/HEAD/CHANGELOG.md - release cadence, security fixes, platform issues
-- https://api.github.com/repos/tobi/qmd - exact stars, forks, and dates as of 2026-09-21
+- https://api.github.com/repos/tobi/qmd - exact stars, forks, and dates as of 2026-09-22
 - https://news.ycombinator.com/item?id=46689289 - the author on design intent and local-first trade-offs

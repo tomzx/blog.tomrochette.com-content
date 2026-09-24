@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Worktrunk (`wt`) is a Rust CLI that makes git worktrees as easy as branches so you can run many coding agents in parallel, with lifecycle hooks, LLM commit messages, and a one-command merge pipeline.
-Facts below verified as of 2026-09-21.
+Facts below verified as of 2026-09-22.
 
 **Worktrunk wins by staying out of the way: no TUI to learn, no daemon to run, just worktrees addressed by branch name plus hooks that automate the boring 80 percent of the parallel-agent workflow.**
 
@@ -24,7 +24,7 @@ Dual MIT or Apache-2.0 license, Homebrew, cargo, winget, and Arch (pacman) distr
 
 ## Status
 
-The leading worktree manager of the agent wave: about 8.2k stars, 284 forks, 43 open issues and PRs as of 2026-09-21, created 2025-10-17, more than 5,000 commits on main, latest release v0.79.0 on 2026-09-21.
+The leading worktree manager of the agent wave: about 8.4k stars, 293 forks, 42 open issues and PRs as of 2026-09-22, created 2025-10-17, more than 5,000 commits on main, latest release v0.79.0 on 2026-09-21.
 About 150 releases in eleven months; still pre-1.0 with breaking changes per release, and effectively a single-maintainer project.
 
 ## Strengths

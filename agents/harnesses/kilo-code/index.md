@@ -1,7 +1,7 @@
 ---
 title: Kilo Code
 created: 2026-08-27
-updated: 2026-09-20
+updated: 2026-09-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agents, harnesses, open-source, vscode, byok]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Kilo Code is an open-source (MIT) agentic coding assistant for VS Code, JetBrains IDEs, and the terminal, born in early 2025 as a feature-merge fork of Cline and Roo Code and acquired by Anaconda on July 15, 2026.
-Facts below verified as of 2026-09-21.
+Facts below verified as of 2026-09-22.
 
 **Kilo Code is the live continuation of the Roo-and-Cline extension lineage now folded into an enterprise Python vendor's portfolio, and the open question after that acquisition is whether extension-first users keep first-class status.**
 
@@ -25,7 +25,7 @@ Any-model BYOK works alongside Kilo's own metered credits, with local models via
 ## Status
 
 **Active under new ownership.**
-The repository shows about 27.4k stars under MIT as of 2026-09-21, most recently pushed 2026-09-21; component tags ship on their own clocks (the latest release is still v7.7.5, published September 18, 2026).
+The repository shows about 27.4k stars under MIT as of 2026-09-22, most recently pushed within a day of verification; component tags ship on their own clocks (the latest release is v7.7.7, published September 22, 2026).
 Anaconda announced the acquisition on July 15, 2026 and already lists Kilo among its products; kilocode.ai redirects to kilo.ai, where the vendor positions it as an all-in-one agentic engineering platform.
 
 ## Strengths
@@ -48,6 +48,7 @@ Free and open source for individuals; model usage is billed separately via your 
 Teams: $15/user/month adding shared agent modes, analytics, centralized billing, and shared BYOK.
 Enterprise: custom SSO/OIDC/SCIM, audit logs, private gateway, SLAs.
 Costs split three ways (platform plan, AI inference, cloud compute), quoted separately.
+Kilo Pass, an optional monthly credit subscription (Starter $19, Pro $49, Expert $199) with up to 50% bonus credits, now sits alongside pay-as-you-go Kilo Gateway on the pricing page, as of 2026-09-22.
 
 ## Price history
 
@@ -73,6 +74,8 @@ Not for teams needing a stable multi-year vendor story right now, because owners
 - 2026-09-16 - Refreshed repository state (pushed 2026-09-16) and recorded the new latest release v7.7.2 (September 15).
 - 2026-09-20 - Recorded the new latest release v7.7.5 (September 18).
 - 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
+- 2026-09-22 - Recorded the v7.7.7 release (September 22) and refreshed repository state.
+- 2026-09-22 - Documented the Kilo Pass credit subscription (Starter $19, Pro $49, Expert $199, up to 50% bonus credits) shown on the pricing page.
 
 ## See also
 
@@ -83,8 +86,8 @@ Not for teams needing a stable multi-year vendor story right now, because owners
 
 ## References
 
-- https://github.com/Kilo-Org/kilocode - repository scale, license, description as of 2026-09-21
-- https://kilo.ai/pricing - tiers, credit model, and the Anaconda acquisition banner
+- https://github.com/Kilo-Org/kilocode - repository scale, license, description as of 2026-09-22
+- https://kilo.ai/pricing - tiers, Kilo Pass, credit model, and the Anaconda acquisition banner, as of 2026-09-22
 - https://www.anaconda.com/blog/anaconda-acquires-kilo-code - the acquisition announcement primary source
 - https://news.ycombinator.com/item?id=43483802 - the launch-era community record (98 points)
 - https://news.ycombinator.com/item?id=43951329 - the feature-merge origin naming Cline and Roo

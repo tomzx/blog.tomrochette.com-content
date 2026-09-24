@@ -1,7 +1,7 @@
 ---
 title: Knowhere
 created: 2026-09-20
-updated: 2026-09-20
+updated: 2026-09-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, retrieval, rag, chunking, document-parsing, mcp, open-source]
 readability: 3
@@ -12,7 +12,7 @@ audience_notes: >
 ---
 
 Knowhere is a document parsing and retrieval system from Ontos AI that turns messy files (PDFs, decks, spreadsheets, images) into a persistent, navigable memory structure for agents, shipped as an Apache-2.0 open-source engine, a hosted per-page API, and an MCP server.
-Facts below verified as of 2026-09-21.
+Facts below verified as of 2026-09-22.
 
 **Knowhere's bet is that chunking should preserve document structure (hierarchy, tables, cross-references) instead of throwing it away, and that agents should traverse that structure like a map rather than re-parse files every session.**
 The bet is real and shipping, but the public discussion footprint is nearly invisible for the star count.
@@ -28,9 +28,9 @@ Made by Ontos AI, which open-sourced the full stack on May 7, 2026.
 ## Status
 
 **Active and shipping weekly, with a striking mismatch between stars and discussion.**
-3,413 stars since 2026-04-30, latest release v1.2.15 on 2026-09-21, pushed 2026-09-21 (GitHub API, as of 2026-09-21).
+3,456 stars since 2026-04-30, latest release v1.2.16 on 2026-09-21, pushed 2026-09-22 (GitHub API, as of 2026-09-22).
 Two Show HNs drew a combined 2 points and 1 comment (March and September 2026), so like graft and graphify, the star count ran far ahead of any independent technical discussion.
-The self-hosted stack repo has 12 stars and was last pushed 2026-08-11, so the self-hosting path looks far less trafficked than the hosted funnel.
+The self-hosted stack repo has 12 stars and was last pushed 2026-09-21, so the self-hosting path looks far less trafficked than the hosted funnel.
 
 ## Strengths
 
@@ -48,7 +48,7 @@ The self-hosted stack repo has 12 stars and was last pushed 2026-08-11, so the s
 
 ## Pricing
 
-**The hosted API bills per page: $0.015 per billable page ($1.50 per 100 pages), with rate-limit tiers unlocked by lifetime spend and a $5 free credit on signup (as of 2026-09-21).**
+**The hosted API bills per page: $0.015 per billable page ($1.50 per 100 pages), with rate-limit tiers unlocked by lifetime spend and a $5 free credit on signup (as of 2026-09-22).**
 Billable pages count physical PDF pages, slide counts, one page per image, and size-derived units for text and spreadsheets; jobs that fail after billing are refunded.
 The open-source engine and the self-hosted stack are free under Apache-2.0.
 
@@ -73,6 +73,7 @@ My disagreeable claim: the near-total absence of public discussion around a 3,41
 ## Changes
 
 - 2026-09-20 - Created from the 2026-09-20 entrant scan after the September 17 Show HN resurfaced the project.
+- 2026-09-22 - Recorded release v1.2.16 (2026-09-21) and refreshed the volatile numbers (3,456 stars, pushed 2026-09-22, the self-hosted stack pushed 2026-09-21); per-page pricing unchanged.
 
 ## See also
 
@@ -83,13 +84,13 @@ My disagreeable claim: the near-total absence of public discussion around a 3,41
 
 ## References
 
-- https://github.com/Ontos-AI/knowhere - repository, README (architecture, tracks, news timeline), stars and activity as of 2026-09-21
-- https://github.com/Ontos-AI/knowhere/releases - release cadence, v1.2.15 on 2026-09-21
+- https://github.com/Ontos-AI/knowhere - repository, README (architecture, tracks, news timeline), stars and activity as of 2026-09-22
+- https://github.com/Ontos-AI/knowhere/releases - release cadence, v1.2.16 on 2026-09-21
 - https://knowhereto.ai - hosted product surface, $5 free credit, and the self-reported comparison table
 - https://docs.knowhereto.ai/ - product docs: SDKs, CLI, retrieval query surface
 - https://docs.knowhereto.ai/pricing - per-page pricing, billable-page counting, refund policy, rate-limit tiers
 - https://docs.knowhereto.ai/mcp - MCP server tools, permission modes, host configuration
-- https://github.com/Ontos-AI/knowhere-self-hosted - the self-hosted stack, 12 stars as of 2026-09-21
+- https://github.com/Ontos-AI/knowhere-self-hosted - the self-hosted stack, 12 stars as of 2026-09-22
 - https://hn.algolia.com/api/v1/items/49738595 - the September 17, 2026 Show HN, 1 point, 0 comments
 - https://hn.algolia.com/api/v1/items/47505117 - the March 24, 2026 Show HN, 1 point, 1 comment
 - https://pypi.org/pypi/knowhere/json - the unrelated PyPI name-squat grounding the caution

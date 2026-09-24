@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 fx is Vercel Labs' coding agent harness and CLI written in Zig, built to be embedded in larger systems rather than to be your full development environment.
-Facts below verified as of 2026-09-21.
+Facts below verified as of 2026-09-22.
 
 **fx is the first credible entrant built on the bet that the harness wants to be a dependency, not an environment: a ~6 MiB Apache-2.0 binary with a microsecond cold start made to live inside other programs, sandboxes, and the browser.**
 
@@ -24,7 +24,7 @@ Feature surface: native [AGENTS.md](https://fx.sh/docs/configure-fx/project-inst
 ## Status
 
 **Active and very young.**
-The repository was created August 11, 2026 and shows 3,089 stars and 353 forks as of 2026-09-21, with v0.0.10 the latest release (published September 14, 2026; faster turn completion, clearer shell-failure recovery guidance, and stronger MCP secret protection) and pushes landing on 2026-09-21 (GitHub API).
+The repository was created August 11, 2026 and shows 3,131 stars and 353 forks as of 2026-09-22, with v0.0.10 the latest release (published September 14, 2026; faster turn completion, clearer shell-failure recovery guidance, and stronger MCP secret protection) and pushes landing within a day of verification (GitHub API).
 The launch thread drew 318 points on August 18, 2026 ([HN](https://news.ycombinator.com/item?id=49353339)).
 The README carries its own banner: "Status: Experimental. Use at your own risk."
 
@@ -76,7 +76,7 @@ Not for anyone who needs local models, provider-key BYOK, or a stable release li
 
 ## References
 
-- https://github.com/vercel-labs/fx - repository, Apache-2.0, scale and releases, as of 2026-09-21
+- https://github.com/vercel-labs/fx - repository, Apache-2.0, scale and releases, as of 2026-09-22
 - https://fx.sh/ - product claims, 6.17 MiB binary size, Wasm demo
 - https://fx.sh/docs/getting-started/authentication - the three-credential provider model and local token storage
 - https://fx.sh/docs/configure-fx/project-instructions - native AGENTS.md loading

@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 cmux is Manaflow's open-source macOS terminal built on libghostty for running many coding agents in parallel, with vertical tabs, workspaces, notification rings, and an open-core cloud tier.
-Facts below verified as of 2026-09-21.
+Facts below verified as of 2026-09-22.
 
 **cmux's real product is attention routing, not multiplexing, and its real business is cloud execution: the terminal is the free, GPL-3.0 funnel, and the subscription is where the company actually lives.**
 
@@ -24,7 +24,7 @@ A paid subscription (Pro or Max) adds Cloud VM agents and the iOS app; the CodeR
 ## Status
 
 **Active and remarkably fast.**
-About 27.3k stars and 2.4k forks as of 2026-09-21, created January 28, 2026, with commits landing the day of verification.
+About 27.3k stars and 2.4k forks as of 2026-09-22, created January 28, 2026, with commits landing the day of verification.
 The launch thread counted 18 releases in two days; the project is at v0.64.x (v0.64.25 on 2026-09-17) with a nightly channel.
 Three contributors dominate the history (about 5.2k, 3.8k, and 1.2k contributions), so this is a small funded team (Manaflow, Inc.) moving very quickly, not a broad community.
 
@@ -46,9 +46,9 @@ Three contributors dominate the history (about 5.2k, 3.8k, and 1.2k contribution
 ## Pricing
 
 Free $0: the full terminal, any CLI agent BYOK, notifications, browser panels, socket API, local history.
-Pro $50/month: cloud agents on isolated VMs, capped at up to 50 Cloud VMs per user with 24 GB RAM and 6 vCPUs shared across all of them, plus unlimited workspaces, the iOS app, and email support; as of 2026-09-21 the page bills monthly only (the tiers verified unchanged from 2026-09-18), with the $40 billed-yearly rate it showed on 2026-09-16 gone (the shared-pool phrasing dates to 2026-09-10, after the per-VM resources with a 256 GB disk ceiling it showed on 2026-09-09, and different shared-pool totals through 2026-09-05).
+Pro $50/month: cloud agents on isolated VMs, capped at up to 50 Cloud VMs per user with 24 GB RAM and 6 vCPUs shared across all of them, plus unlimited workspaces, the iOS app, and email support; as of 2026-09-22 the page bills monthly only (the tiers verified unchanged from 2026-09-18), with the $40 billed-yearly rate it showed on 2026-09-16 gone (the shared-pool phrasing dates to 2026-09-10, after the per-VM resources with a 256 GB disk ceiling it showed on 2026-09-09, and different shared-pool totals through 2026-09-05).
 Max $200/month adds up to 64 GB RAM per machine (32 or 64 GB Cloud VMs on 16 vCPUs), where Free, Pro, and Team machines top out at 24 GB.
-Team $60/user/month adds centralized billing and priority support; Enterprise adds self-hosted, even air-gapped, cloud execution, SSO/SAML, audit logs, and SOC 2, as of 2026-09-21.
+Team $60/user/month adds centralized billing and priority support; Enterprise adds self-hosted, even air-gapped, cloud execution, SSO/SAML, audit logs, and SOC 2, as of 2026-09-22.
 
 ## Price history
 
@@ -91,8 +91,8 @@ Not for Linux or Windows users, copyleft-restricted shops, or anyone who needs a
 
 ## References
 
-- https://github.com/manaflow-ai/cmux - source, license statement, repository scale, as of 2026-09-21
-- https://cmux.com/pricing - tiers, the Max tier, shared-pool cloud VM specs and their churn, CodeRouter removal, verified unchanged on 2026-09-21
+- https://github.com/manaflow-ai/cmux - source, license statement, repository scale, as of 2026-09-22
+- https://cmux.com/pricing - tiers, the Max tier, shared-pool cloud VM specs and their churn, CodeRouter removal, verified unchanged on 2026-09-22
 - https://cmux.com/blog/zen-of-cmux - the project's own design philosophy
 - https://news.ycombinator.com/item?id=47079718 - the February 2026 launch thread with author Q&A
 - https://www.bounds.dev/posts/teaching-claude-code-to-drive-cmux/ - third-party account of agents driving cmux programmatically

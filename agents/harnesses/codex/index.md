@@ -1,7 +1,7 @@
 ---
 title: Codex
 created: 2026-08-22
-updated: 2026-09-20
+updated: 2026-09-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, coding-agents, harnesses, openai, developer-tools]
 readability: 3
@@ -12,7 +12,7 @@ audience_notes: >
 ---
 
 Codex is OpenAI's coding agent: a Rust CLI, an IDE extension, a desktop app, and a cloud service, all included in ChatGPT plans.
-Facts below verified as of 2026-09-21.
+Facts below verified as of 2026-09-22.
 
 **Codex is the only big-lab harness whose Apache-2.0 CLI an individual can still just run, and that matters more day to day than any single feature difference with Claude Code.**
 
@@ -20,12 +20,12 @@ Facts below verified as of 2026-09-21.
 
 The `codex` CLI runs locally against your repository, with `/init` writing an AGENTS.md, sandboxed permissions, `/review` for local code review, skills and a plugin marketplace, subagents, and `codex exec` for scripts and CI.
 **Codex cloud runs the same agent** in cloud environments reachable from web, CLI, and GitHub (`@codex` on issues and PRs), and the SDK, app server, and MCP server expose the harness as a platform.
-Default models are the GPT-5.6 family (Sol for hard reasoning, Terra the workhorse, Luna cheap and fast), with GPT-5.3-Codex-Spark in research preview for Pro users.
+Default models are the GPT-6 family (Astra, Sol, and Luna) rolling out across plans alongside the GPT-5.6 family (Sol, Terra, Luna), with GPT-5.5 retiring from ChatGPT on October 14, 2026.
 
 ## Status
 
 **Active.**
-`openai/codex` shows about 125.6k stars, about 19.5k forks, and about 11.1k commits under Apache-2.0 as of 2026-09-21.
+`openai/codex` shows about 126.0k stars, about 19.6k forks, and about 11.1k commits under Apache-2.0 as of 2026-09-22.
 The CLI launched April 2025 and has been rewritten and rebuilt since; the current docs position it as an open agent harness platform.
 
 ## Strengths
@@ -74,6 +74,7 @@ Not the cheapest path if your usage is light and token-based (aider or OpenCode 
 - 2026-08-27 - Moved the three doc references to learn.chatgpt.com after the domain migration and reworded a banned-term phrase.
 - 2026-09-16 - Refreshed repository scale to about 125k stars, about 19.3k forks, and about 10.8k commits.
 - 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
+- 2026-09-22 - Recorded the GPT-6 family (Astra, Sol, Luna) arriving across ChatGPT plans alongside GPT-5.6 and the October 14, 2026 GPT-5.5 retirement, and refreshed repository scale.
 
 ## See also
 
@@ -86,6 +87,6 @@ Not the cheapest path if your usage is light and token-based (aider or OpenCode 
 
 - https://learn.chatgpt.com/docs - product overview and surfaces
 - https://learn.chatgpt.com/docs/codex/cli - CLI features, plugins, review, exec
-- https://learn.chatgpt.com/docs/pricing - plans, usage windows, credit rate card
-- https://github.com/openai/codex - repository scale and Apache-2.0 license, as of 2026-09-21
+- https://learn.chatgpt.com/docs/pricing - plans, usage windows, credit rate card, GPT-6 rollout, and the GPT-5.5 retirement date, as of 2026-09-22
+- https://github.com/openai/codex - repository scale and Apache-2.0 license, as of 2026-09-22
 - https://news.ycombinator.com/item?id=43708025 - launch discussion with early critical comparisons

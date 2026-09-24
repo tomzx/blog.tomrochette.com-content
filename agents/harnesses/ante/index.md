@@ -1,7 +1,7 @@
 ---
 title: Ante
 created: 2026-08-30
-updated: 2026-09-21
+updated: 2026-09-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agents, harnesses, rust, single-binary, local-models]
 readability: 3
@@ -12,7 +12,7 @@ audience_notes: >
 ---
 
 Ante is a self-contained coding harness from Antigma Labs that ships as one ~15MB Rust binary with an embedded llama.cpp engine, so it can drive cloud models or run GGUF models fully offline.
-Facts below verified as of 2026-09-21.
+Facts below verified as of 2026-09-22.
 
 **Ante is the first harness whose pitch is that footprint and offline capability are the product: the TUI, an embedded ripgrep, PDF/OCR, and a natively managed local inference engine all live inside one binary with zero runtime dependencies.**
 
@@ -26,8 +26,8 @@ Source is published under Apache-2.0 (crates: exec, llm, protocol-shape, ante-sd
 ## Status
 
 **Active, preview-stage, and growing fast for a five-month-old repo.**
-1,969 stars and 66 forks as of 2026-09-21, repo created December 23, 2025, with v0.2.0 (September 17, 2026) having closed the v0.preview.N series and started a within-minor compatibility promise, and v0.2.1 (September 19, 2026) as the release that added DeepSeek V4.1 Flash to its catalog and made the pinned TodoWrite task list opt-in.
-The latest release is v0.2.2 (published September 20, 2026, GitHub API), which added NVIDIA Nemotron and OpenRouter models to the catalog, a `max_concurrent_subagents` cap, and a split of the gateway into an external `ante-gateway` executable.
+1,974 stars and 67 forks as of 2026-09-22, repo created December 23, 2025, with v0.2.0 (September 17, 2026) having closed the v0.preview.N series and started a within-minor compatibility promise.
+The latest releases are v0.2.3 (published September 21, 2026), which added a direct `ante --resume` session picker, a first-class System message role, and subagent deliverable preservation in parent handoffs, and v0.2.4 (release notes dated September 22, 2026), which added GPT-6 Sol and Luna, Claude Opus 5.5, Grok 4.7, and MiMo 2.6 to the model catalogs and updated the embedded llama.cpp engine.
 The Show HN launch on August 10, 2026 drew 169 points and 92 comments ([HN](https://news.ycombinator.com/item?id=49245437)).
 At launch commenters flagged that the repo hosted binaries without agent source; the Apache-2.0 core libraries published since narrow that gap, though the core harness itself remains closed during the alpha.
 The company publishes Terminal-Bench 2.1 runs at antigma.ai/eval, pinning every result to a public release and a raw Harbor run; its best self-reported score is 83.9% with DeepSeek V4.1 Flash, as of 2026-09-18.
@@ -71,6 +71,7 @@ I expect the harness market to consolidate on footprint and cost per agent, and 
 - 2026-09-18 - Recorded the v0.2.0 release that closes the v0.preview series with a within-minor compatibility promise, and refreshed stars to 1,959.
 - 2026-09-20 - Recorded the v0.2.1 release (published September 19), which added DeepSeek V4.1 Flash to the Antix catalog and made the TodoWrite task list opt-in, and refreshed repository scale.
 - 2026-09-21 - Recorded the v0.2.2 release (published September 20), which added NVIDIA Nemotron and OpenRouter models, a subagent concurrency cap, and the external ante-gateway split, and refreshed repository scale.
+- 2026-09-22 - Recorded the v0.2.3 (September 21) and v0.2.4 (September 22) releases, which added a direct session-picker resume, first-class System messages, GPT-6 Sol and Luna, Claude Opus 5.5, Grok 4.7, and MiMo 2.6 catalog entries, and an embedded llama.cpp update, and refreshed repository scale.
 
 ## See also
 
@@ -81,10 +82,10 @@ I expect the harness market to consolidate on footprint and cost per agent, and 
 
 ## References
 
-- https://github.com/AntigmaLabs/ante - repository, Apache-2.0 source, 1,969 stars as of 2026-09-21
+- https://github.com/AntigmaLabs/ante - repository, Apache-2.0 source, 1,974 stars as of 2026-09-22
 - https://docs.antigma.ai/ - architecture, offline mode, providers, footprint claims
 - https://antigma.ai/eval - self-reported Terminal-Bench 2.1 results, pinned builds and Harbor runs
 - https://raw.githubusercontent.com/AntigmaLabs/ante/main/README.md - feature surface and provider list
 - https://raw.githubusercontent.com/AntigmaLabs/ante/main/BINARY-TERMS.md - the separate preview license for prebuilt binaries
 - https://news.ycombinator.com/item?id=49245437 - the August 10, 2026 launch thread, 169 points (verified via Algolia API)
-- https://github.com/AntigmaLabs/ante/releases - v0.2.2, published 2026-09-20, one day after v0.2.1 (verified via GitHub API)
+- https://github.com/AntigmaLabs/ante/releases - v0.2.4, release notes dated 2026-09-22, with v0.2.3 published 2026-09-21 (verified via GitHub API)

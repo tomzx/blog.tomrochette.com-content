@@ -1,7 +1,7 @@
 ---
 title: Addy Osmani
 created: 2026-09-02
-updated: 2026-09-18
+updated: 2026-09-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, people, publications, enterprise, agentic-engineering, engineering-leadership]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Addy Osmani is the enterprise-hands-on voice on agentic engineering, a 14-year Google engineering leader (most recently Director at Google Cloud AI) who now works on Claude Code at Anthropic and writes practitioner-level guidance on coding agents, harnesses, evals, and the engineering discipline that keeps agent output maintainable.
-Facts below verified as of 2026-09-21.
+Facts below verified as of 2026-09-22.
 
 **He fills the enterprise-hands-on niche: where indie practitioners show what an agent can do and org analysts measure adoption, he writes from inside a hyperscaler about holding agent-built software to a production quality bar.**
 
@@ -20,12 +20,13 @@ Facts below verified as of 2026-09-21.
 A personal blog, books, and open-source repos by Addy Osmani, an engineering leader who spent over 14 years at Google, led developer experience across Chrome and then Gemini's developer experience, and served as a Director at Google Cloud AI running Cloud AI Developer Experience and Technical Evangelism before departing Google in 2026 after 14 years; his site now states he is a Member of Technical Staff at Anthropic working on Claude Code.
 His stated current focus is agentic engineering: coding agents, harnesses, evals and benchmarks, and code quality.
 His 2026 essays carry concrete theses, like "Agent Skills" (2026-05-03), which argues that the senior engineer's real job is the parts that do not show up in the diff, specs, tests, reviews, and refusing to ship what cannot be verified.
-He packages that argument into artifacts teams can adopt, notably the "Beyond Vibe Coding" book and the production-grade agent-skills repository.
+He packages that argument into artifacts teams can adopt: his site now leads with a new O'Reilly book, "Agentic Engineering", on delegating work to agents without giving up control (designing harnesses, writing specs and skills, and building evals and review into the loop), alongside the "Beyond Vibe Coding" book and the production-grade agent-skills repository, now joined by a second repo, clarity, an agent skill for clearer writing.
 
 ## Status
 
-Active and high-reach as of 2026-09-18, and newly a frontier-lab insider: after leaving Google in 2026, he joined Anthropic as a Member of Technical Staff on the Claude Code team, per his own site.
+Active and high-reach as of 2026-09-22, and newly a frontier-lab insider: after leaving Google in 2026, he joined Anthropic as a Member of Technical Staff on the Claude Code team, per his own site.
 "21 Lessons From 14 Years at Google" (2026-01-03) reached 1,678 points on Hacker News, "Agent Skills" 376 points, and "The next two years of software engineering" (2026-01-11) 328 points.
+His most recent essay is "Brownfield Agentic Engineering" (2026-09-14), on running agents in codebases older than the team.
 He discussed "Beyond Vibe Coding" and enterprise AI engineering practice on The Pragmatic Engineer (2025-10-29).
 
 ## Strengths
@@ -63,6 +64,7 @@ Not for readers wanting frontier research depth or a terminal-level tool feed.
 - 2026-09-02 - Created in the People and publications category, filling the enterprise-hands-on gap the matrix named.
 - 2026-09-12 - Reframed around his departure from Google in 2026 after 14 years.
 - 2026-09-18 - His site now states he is a Member of Technical Staff at Anthropic working on Claude Code, so the enterprise-hands-on framing moved from ex-Google to frontier-lab insider.
+- 2026-09-22 - His site now features a new O'Reilly book, "Agentic Engineering", his latest essay is "Brownfield Agentic Engineering" (2026-09-14), and a new open-source repo, clarity, joins agent-skills.
 
 ## See also
 
@@ -72,7 +74,8 @@ Not for readers wanting frontier research depth or a terminal-level tool feed.
 
 ## References
 
-- https://addyosmani.com/ - his site and stated focus on agentic engineering and AI-assisted development
+- https://addyosmani.com/ - his site and stated focus on agentic engineering and AI-assisted development, plus the featured "Agentic Engineering" book and clarity repo
+- https://addyosmani.com/blog/ - the blog index grounding the latest post ("Brownfield Agentic Engineering", 2026-09-14) and recent cadence
 - https://addyosmani.com/bio/ - role history: Chrome developer experience, Gemini developer experience, Director at Google Cloud AI
 - https://addyosmani.com/blog/agent-skills/ - the "Agent Skills" essay and its verification-discipline thesis
 - https://addyosmani.com/blog/next-two-years/ - his 2026 view of where software engineering is headed
