@@ -1,0 +1,75 @@
+<svg viewBox="0 0 720 372" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t d">
+  <title id="t">Two paths after a bug report: keyword search versus agent search</title>
+  <desc id="d">Two horizontal flows. The top flow shows an English bug report going through a keyword search for "search provider save", which surfaces a Chinese-language report through its English identifiers, a match the reporter cannot confirm, and a duplicate issue that a maintainer merges weeks later. The bottom flow shows the same report going through an agent that reads the hit, confirms the match, and files no duplicate.</desc>
+
+  <defs>
+    <marker id="arrow-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#94a3b8"/>
+    </marker>
+    <marker id="arrow-accent" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#2563eb"/>
+    </marker>
+  </defs>
+
+  <!-- Title -->
+  <text x="360" y="34" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="18" font-weight="600" fill="#0f172a" text-anchor="middle">What happens to the same bug report</text>
+
+  <!-- Top lane label -->
+  <text x="40" y="72" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#64748b">Keyword search, strings only</text>
+
+  <!-- Top lane boxes -->
+  <g>
+    <rect x="40" y="84" width="130" height="64" rx="8" fill="#cbd5e1" fill-opacity="0.08" stroke="#94a3b8" stroke-width="1.5"/>
+    <text x="105" y="112" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#475569" text-anchor="middle">English report</text>
+    <text x="105" y="132" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="11" fill="#64748b" text-anchor="middle">"can't save choice"</text>
+  </g>
+  <line x1="170" y1="116" x2="198" y2="116" stroke="#94a3b8" stroke-width="1.5" marker-end="url(#arrow-muted)"/>
+  <g>
+    <rect x="202" y="84" width="130" height="64" rx="8" fill="#cbd5e1" fill-opacity="0.08" stroke="#94a3b8" stroke-width="1.5"/>
+    <text x="267" y="112" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#475569" text-anchor="middle">Keyword search</text>
+    <text x="267" y="132" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="11" fill="#64748b" text-anchor="middle">"search provider save"</text>
+  </g>
+  <line x1="332" y1="116" x2="360" y2="116" stroke="#94a3b8" stroke-width="1.5" marker-end="url(#arrow-muted)"/>
+  <g>
+    <rect x="364" y="84" width="130" height="64" rx="8" fill="#cbd5e1" fill-opacity="0.08" stroke="#94a3b8" stroke-width="1.5"/>
+    <text x="429" y="112" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#475569" text-anchor="middle">Hit dismissed</text>
+    <text x="429" y="132" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="11" fill="#64748b" text-anchor="middle">cannot confirm it</text>
+  </g>
+  <line x1="494" y1="116" x2="522" y2="116" stroke="#94a3b8" stroke-width="1.5" marker-end="url(#arrow-muted)"/>
+  <g>
+    <rect x="526" y="84" width="150" height="64" rx="8" fill="#d97706" fill-opacity="0.1" stroke="#d97706" stroke-width="1.5"/>
+    <text x="601" y="112" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#b45309" text-anchor="middle">Duplicate filed</text>
+    <text x="601" y="132" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="11" fill="#64748b" text-anchor="middle">merged weeks later</text>
+  </g>
+
+  <!-- Bottom lane label -->
+  <text x="40" y="204" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#2563eb">Agent search, meaning first</text>
+
+  <!-- Bottom lane boxes -->
+  <g>
+    <rect x="40" y="216" width="130" height="64" rx="8" fill="#2563eb" fill-opacity="0.06" stroke="#94a3b8" stroke-width="1.5"/>
+    <text x="105" y="244" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#475569" text-anchor="middle">English report</text>
+    <text x="105" y="264" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="11" fill="#64748b" text-anchor="middle">same bug, same day</text>
+  </g>
+  <line x1="170" y1="248" x2="198" y2="248" stroke="#2563eb" stroke-width="1.5" marker-end="url(#arrow-accent)"/>
+  <g>
+    <rect x="202" y="216" width="130" height="64" rx="8" fill="#2563eb" fill-opacity="0.1" stroke="#2563eb" stroke-width="2"/>
+    <text x="267" y="244" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#1d4ed8" text-anchor="middle">Agent search</text>
+    <text x="267" y="264" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="11" fill="#64748b" text-anchor="middle">retrieves and confirms</text>
+  </g>
+  <line x1="332" y1="248" x2="360" y2="248" stroke="#2563eb" stroke-width="1.5" marker-end="url(#arrow-accent)"/>
+  <g>
+    <rect x="364" y="216" width="130" height="64" rx="8" fill="#2563eb" fill-opacity="0.1" stroke="#2563eb" stroke-width="2"/>
+    <text x="429" y="244" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#1d4ed8" text-anchor="middle">Exact match</text>
+    <text x="429" y="264" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="11" fill="#64748b" text-anchor="middle">#3880, written in Chinese</text>
+  </g>
+  <line x1="494" y1="248" x2="522" y2="248" stroke="#2563eb" stroke-width="1.5" marker-end="url(#arrow-accent)"/>
+  <g>
+    <rect x="526" y="216" width="150" height="64" rx="8" fill="#16a34a" fill-opacity="0.1" stroke="#16a34a" stroke-width="1.5"/>
+    <text x="601" y="244" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#15803d" text-anchor="middle">No duplicate</text>
+    <text x="601" y="264" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="11" fill="#64748b" text-anchor="middle">join the existing thread</text>
+  </g>
+
+  <!-- Footnote -->
+  <text x="360" y="330" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="11" fill="#64748b" text-anchor="middle">The dedup moved from the maintainer's week to the reporter's minute.</text>
+</svg>
