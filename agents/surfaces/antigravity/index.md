@@ -1,7 +1,7 @@
 ---
 title: Google Antigravity
 created: 2026-08-24
-updated: 2026-09-16
+updated: 2026-09-25
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, surfaces, ai-editors, google]
 readability: 3
@@ -48,6 +48,12 @@ Individuals: $0/month with basic weekly rate limits.
 Google AI Pro and AI Ultra raise limits and add a flexible AI credit pool.
 Organizations: Google Cloud terms with consumption-based API pricing via the Gemini Enterprise Agent Platform, included in select Gemini Enterprise subscriptions, as of 2026-09-22.
 
+## Price history
+
+| Date | Plan | Change | Source |
+| ---- | ---- | ------ | ------ |
+| 2026-08-24 | Individuals | Free at launch, $0/month with basic weekly rate limits | https://antigravity.google/pricing |
+
 ## Compared to
 
 - [Cursor](../cursor/index.md): the commercial benchmark; Antigravity's free tier undercuts it, Cursor's polish and ecosystem still lead.
@@ -63,6 +69,7 @@ Not for proprietary-code environments that cannot absorb prompt-injection class 
 
 - 2026-08-24 - Created in the owner-requested Surfaces expansion.
 - 2026-09-16 - Added the September 2026 terms-of-service thread (337 points) to Cautions and References, on third-party harness usage risking Google account suspension.
+- 2026-09-25 - Added the Price history table the pricing rule requires, seeded with the $0/month individuals baseline.
 
 ## See also
 

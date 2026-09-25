@@ -19,20 +19,20 @@ Each column links to the full research note; every cell traces to a source cited
 
 ## The matrix
 
-| Feature | [Agent-Native](../agent-native/index.md) | [Agent Skills open standard](../agent-skills-open-standard/index.md) | [Anthropic Agent Skills](../anthropic-agent-skills/index.md) | [OpenCode skills and plugins](../opencode-skills-and-plugins/index.md) | [SkillOpt](../skillopt/index.md) | [skills.sh](../skills-sh/index.md) |
+| Feature | [Agent Skills open standard](../agent-skills-open-standard/index.md) | [Agent-Native](../agent-native/index.md) | [Anthropic Agent Skills](../anthropic-agent-skills/index.md) | [OpenCode skills and plugins](../opencode-skills-and-plugins/index.md) | [SkillOpt](../skillopt/index.md) | [skills.sh](../skills-sh/index.md) |
 | --- | --- | --- | --- | --- | --- | --- |
-| Kind | curated skill pack and app framework | open spec | vendor format | harness mechanism | skill optimizer | registry and CLI |
-| Steward | Builder.io | public GitHub org | Anthropic | anomalyco project | Microsoft Research | Vercel labs |
-| Open source | ~ READMEs say MIT, but the framework repo's GitHub license is undetected and its package.json says ISC | ✓ spec and validator | ~ mostly, doc skills closed | ✓ MIT | ✓ MIT | ✓ CLI MIT |
-| Runtimes | ✓ .agents-path agents (Codex, Pi, Cursor, OpenCode, Copilot), Claude Code, Cowork | ✓ dozens listed | Claude chat, Code, API | OpenCode only | ~ any SKILL.md harness, shells for 5 | ~ installs into 79 |
-| Frontmatter beyond spec | ~ spec fields only, plus managed AGENTS.md/CLAUDE.md instruction blocks | ✗ six fields, by design | ✓ ~20 in Claude Code | ✗ unknown fields ignored | ~ standard-compatible output | ~ indexes .claude-plugin |
-| Permissions or sandboxing | ~ readback-verify and stop-before-fallback conventions, no gating | ~ harness-defined | ~ API container | ✓ allow/deny/ask per skill | ✗ evaluation-gated, not sandboxed | ✗ audit columns only |
-| Distribution and install | ✓ npx installer, plugin marketplaces, git, skills CLI plain-copy | git, no registry needed | repo, upload, Skills API | git; npm for plugins | PyPI plus generated best_skill.md | ✓ npx into 79 agents |
-| Telemetry or ranking | ✗ none found first-party | ✗ out of scope | ~ curated partner directory | ✗ none first-party | ✗ none first-party | ✓ install counts, opt-out |
-| Versioning and pinning | ~ npm dist-tags and git refs, no lockfile | ✗ none | ~ Skills API versions | ✗ none | ✗ none | ~ git refs, no lockfile |
-| Explicit invocation | ✓ slash commands for every skill | ~ explicit or implicit | ~ slash commands in Code | ✗ model-judgment only | ~ trained skill invokes like any skill | n/a (registry) |
-| Vendor neutrality | ✗ pack runs anywhere, gravity is Builder.io's stack | ~ Anthropic-origin, public | ✗ Claude-coupled | ✗ OpenCode-only, portable files | ✓ model-agnostic | ~ all vendors, one ranker |
-| Cost | free (hosted surfaces free as of the date) | free | ~ included on plans, tokens on API | free (pay tokens) | free, training tokens on your bill | free |
+| Kind | open spec | curated skill pack and app framework | vendor format | harness mechanism | skill optimizer | registry and CLI |
+| Steward | public GitHub org | Builder.io | Anthropic | anomalyco project | Microsoft Research | Vercel labs |
+| Open source | ✓ spec and validator | ~ READMEs say MIT, but the framework repo's GitHub license is undetected and its package.json says ISC | ~ mostly, doc skills closed | ✓ MIT | ✓ MIT | ✓ CLI MIT |
+| Runtimes | ✓ dozens listed | ✓ .agents-path agents (Codex, Pi, Cursor, OpenCode, Copilot), Claude Code, Cowork | Claude chat, Code, API | OpenCode only | ~ any SKILL.md harness, shells for 5 | ~ installs into 79 |
+| Frontmatter beyond spec | ✗ six fields, by design | ~ spec fields only, plus managed AGENTS.md/CLAUDE.md instruction blocks | ✓ ~20 in Claude Code | ✗ unknown fields ignored | ~ standard-compatible output | ~ indexes .claude-plugin |
+| Permissions or sandboxing | ~ harness-defined | ~ readback-verify and stop-before-fallback conventions, no gating | ~ API container | ✓ allow/deny/ask per skill | ✗ evaluation-gated, not sandboxed | ✗ audit columns only |
+| Distribution and install | git, no registry needed | ✓ npx installer, plugin marketplaces, git, skills CLI plain-copy | repo, upload, Skills API | git; npm for plugins | PyPI plus generated best_skill.md | ✓ npx into 79 agents |
+| Telemetry or ranking | ✗ out of scope | ✗ none found first-party | ~ curated partner directory | ✗ none first-party | ✗ none first-party | ✓ install counts, opt-out |
+| Versioning and pinning | ✗ none | ~ npm dist-tags and git refs, no lockfile | ~ Skills API versions | ✗ none | ✗ none | ~ git refs, no lockfile |
+| Explicit invocation | ~ explicit or implicit | ✓ slash commands for every skill | ~ slash commands in Code | ✗ model-judgment only | ~ trained skill invokes like any skill | n/a (registry) |
+| Vendor neutrality | ~ Anthropic-origin, public | ✗ pack runs anywhere, gravity is Builder.io's stack | ✗ Claude-coupled | ✗ OpenCode-only, portable files | ✓ model-agnostic | ~ all vendors, one ranker |
+| Cost | free | free (hosted surfaces free as of the date) | ~ included on plans, tokens on API | free (pay tokens) | free, training tokens on your bill | free |
 
 ## Reading the matrix
 
@@ -73,6 +73,7 @@ No column costs anything to use, but the spec has no version or dependency story
 - 2026-09-22 - Agent-Native's open-source cell moved from supported to partial after the framework repo's GitHub license detection vanished and its package.json switched to ISC; star figures refreshed.
 - 2026-09-24 - Removed the verification preamble line on owner request.
 - 2026-09-25 - Refreshed the Agent-Native figures in the reading prose (framework at 6.8k stars and still climbing, license still undetected, npm now 0.3.1); no cells moved.
+- 2026-09-25 - Re-sorted the columns by member title, moving Agent Skills open standard ahead of Agent-Native (space before hyphen in the case-insensitive title ordering); no cell content changed.
 
 ## See also
 

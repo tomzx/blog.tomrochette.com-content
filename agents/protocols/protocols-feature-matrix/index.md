@@ -1,7 +1,7 @@
 ---
 title: "Protocols Feature Matrix"
 created: 2026-08-24
-updated: 2026-09-24
+updated: 2026-09-25
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, comparison, protocols, interoperability]
 readability: 3
@@ -19,18 +19,18 @@ Each column links to the full research note; every cell below traces to a source
 
 ## The matrix
 
-| Feature | [A2A](../a2a/index.md) | [ACP](../acp/index.md) | [AG-UI](../ag-ui/index.md) | [Agent Host Protocol](../agent-host-protocol/index.md) | [AGENTS.md](../agents-md/index.md) | [MCP](../mcp/index.md) |
+| Feature | [ACP](../acp/index.md) | [Agent Host Protocol](../agent-host-protocol/index.md) | [AG-UI](../ag-ui/index.md) | [A2A](../a2a/index.md) | [AGENTS.md](../agents-md/index.md) | [MCP](../mcp/index.md) |
 | --- | --- | --- | --- | --- | --- | --- |
 | Kind | wire protocol | wire protocol | wire protocol | wire protocol | file convention | wire protocol |
-| Originated by | Google (2025-04) | Zed, with JetBrains | CopilotKit (2025-05) | Microsoft (2026-03) | OpenAI-led (2025-08) | Anthropic (2024-11) |
-| Steward | AAIF (2026-08), TSC | vendor-neutral org | CopilotKit, no foundation | Microsoft, no foundation | AAIF | AAIF |
-| Spec license | Apache-2.0 | Apache-2.0 | MIT | MIT | MIT | MIT |
-| Maturity | v1.0.1 (2026-05) | version 1, v2 draft, remote WIP | packages 1.0.0 (2026-09-17), spec 1.0 | v0.9.0 (2026-08-28) | unversioned, de facto standard | dated revisions (2026-07-28) |
-| What it connects | agent-to-agent | editor-to-agent | agent-to-frontend | client-to-session | repo-to-agent | app-to-tools |
-| Adoption in this section | ✗ none native | ~ growing (OpenCode, JetBrains, Zed) | ✗ none native (CopilotKit ecosystem outside this index) | ~ VS Code reference host | ~ most; Claude Code shipped native support 2026-09-18 | ✓ near-universal |
-| Transport or location | HTTP, gRPC, JSON-RPC | JSON-RPC over stdio | SSE, WebSockets, webhooks | URI channels on a standalone sessions server | Markdown at repo root | JSON-RPC, stdio to sse |
-| Official SDKs | ✓ six | ✓ five | ✓ three (TypeScript, Python, .NET) | ✓ six | ✗ none needed | ✓ any language |
-| Criticism recorded | redundant with MCP | sprawl, flattened UX | single-vendor origin, pre-1.0 churn | more sprawl, one vendor's governance | weak efficacy evidence | tool poisoning, supply chain |
+| Originated by | Zed, with JetBrains | Microsoft (2026-03) | CopilotKit (2025-05) | Google (2025-04) | OpenAI-led (2025-08) | Anthropic (2024-11) |
+| Steward | vendor-neutral org | Microsoft, no foundation | CopilotKit, no foundation | AAIF (2026-08), TSC | AAIF | AAIF |
+| Spec license | Apache-2.0 | MIT | MIT | Apache-2.0 | MIT | MIT |
+| Maturity | version 1, v2 draft, remote WIP | v0.9.0 (2026-08-28) | packages 1.0.0 (2026-09-17), spec 1.0 | v1.0.1 (2026-05) | unversioned, de facto standard | dated revisions (2026-07-28) |
+| What it connects | editor-to-agent | client-to-session | agent-to-frontend | agent-to-agent | repo-to-agent | app-to-tools |
+| Adoption in this section | ~ growing (OpenCode, JetBrains, Zed) | ~ VS Code reference host | ✗ none native (CopilotKit ecosystem outside this index) | ✗ none native | ~ most; Claude Code shipped native support 2026-09-18 | ✓ near-universal |
+| Transport or location | JSON-RPC over stdio | URI channels on a standalone sessions server | SSE, WebSockets, webhooks | HTTP, gRPC, JSON-RPC | Markdown at repo root | JSON-RPC, stdio to sse |
+| Official SDKs | ✓ five | ✓ six | ✓ three (TypeScript, Python, .NET) | ✓ six | ✗ none needed | ✓ any language |
+| Criticism recorded | sprawl, flattened UX | more sprawl, one vendor's governance | single-vendor origin, pre-1.0 churn | redundant with MCP | weak efficacy evidence | tool poisoning, supply chain |
 
 ## Reading the matrix
 
@@ -71,6 +71,7 @@ The mature protocols get attacked for their risks, the young ones for their reas
 - 2026-09-21 - AGENTS.md adoption cell updated after Claude Code shipped native support in 2.1.277 (2026-09-18), ending the holdout the cell recorded; AG-UI and AHP download and star figures refreshed in the prose.
 - 2026-09-24 - Removed the verification preamble line on owner request.
 - 2026-09-24 - Re-verification: refreshed star and download figures in the AG-UI and AHP prose (AG-UI about 12.0M combined monthly downloads, AHP 363 stars and roughly 369k combined downloads).
+- 2026-09-25 - Re-sorted the columns by member title (ACP and Agent Host Protocol precede A2A under the case-insensitive title ordering the other matrices use); no cell content changed.
 
 ## See also
 

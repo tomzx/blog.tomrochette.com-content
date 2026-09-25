@@ -27,6 +27,7 @@ The only open artifact is the MIT [system-one-adapter-python](https://github.com
 Early access, opened with the launch post on 2026-09-15 to a Hacker News thread that reached 1,979 points as of 2026-09-25.
 The adapter repo was last pushed 2026-09-22, docs and the evals site both resolve, and the waitlist is draining through console.typesafe.ai.
 Two verification-relevant developments since launch: TypeSafe now publishes a jaggedness page for jev-1.13 documenting nine failure modes itself, and a third party ran [JevBench](../jevbench/index.md), the first cross-category benchmark, which ranks Jev first on both of its boards, at 74.4 on the v1.2 readout and 63.3 on the v1.4 sealed-decision revision that sent the open replicas down the table (methodology contested in that benchmark's own thread).
+A third arrived 2026-09-24: an independent deconstruction by a Fudan PhD candidate (65-point thread) reads RLCD as a schema-conditioned Plackett-Luce objective with Brier-score calibration and the "parallel sampler" as sequence packing plus tree attention masking, concludes no new sampler exists to verify, and ships its own open reproduction, [MoJev](https://github.com/MoLeMo-Lab/mojev) (MIT, a 0.85B checkpoint wire-compatible with the TypeSafe SDK, 93.23 percent accuracy at 0.79 expected calibration error on 12,000 decisions, 29 stars as of 2026-09-25); the thread's top comments question the piece's own AI-written style, which cuts both ways for a section that watches for exactly that.
 Active and brand new; the claims below are still mostly vendor-run.
 
 ## Strengths
@@ -76,6 +77,7 @@ The disagreeable claim I will defend: this category's four existing members all 
 - 2026-09-21 - Linked the owner-prompted open-alternatives coverage: Jevlike, SemIf, Kev, NanoJev, and Nimble joined this category as their own notes.
 - 2026-09-22 - Recorded the vendor's jaggedness page for jev-1.13 (nine conceded failure modes), the first third-party benchmark ([JevBench](../jevbench/index.md): Jev first at 74.4, methodology contested), and refreshed thread (1,970 points) and adapter (about 270 stars) counts.
 - 2026-09-25 - JevBench's sealed-decision v1.4 revision kept Jev first (63.3) while the open replicas fell; refreshed the thread (1,979 points), the adapter (about 290 stars), and jev-ultrafast (about 19,800 stars).
+- 2026-09-25 - Added the independent RLCD deconstruction (65-point thread, 2026-09-24) to Status and References: the mechanism read as Plackett-Luce plus Brier calibration over packing and masking, no new sampler, with its MoJev reproduction cited from its current MoLeMo-Lab home after the post's original links died.
 
 ## See also
 
@@ -96,3 +98,5 @@ The disagreeable claim I will defend: this category's four existing members all 
 - https://github.com/vinnylarouge/jevlike - the community reverse-engineering of a Jev-like model within a day
 - https://typesafe.ai/blog/antibenchmaxxing - the lab's stated reasons for declining public benchmarks
 - https://docs.typesafe.ai/model-jaggedness/jev-1.13 - the vendor's own jaggedness page: nine documented failure modes for jev-1.13, including broken Noul-versus-Choice invariants
+- https://di-zhang-llm.github.io/blog/what-is-rlcd-the-secret-behind-jev/ - the independent RLCD deconstruction (2026-09-21): RLCD as Plackett-Luce plus Brier calibration, the sampler as packing plus masking, no new sampler
+- https://github.com/MoLeMo-Lab/mojev - the deconstruction's open reproduction (MIT, 29 stars as of 2026-09-25, wire-compatible with the TypeSafe SDK; the post's original trotsky1997/jevre links are dead, the artifact now lives here)

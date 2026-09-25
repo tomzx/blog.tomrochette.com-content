@@ -1,7 +1,7 @@
 ---
 title: "Executions Feature Matrix"
 created: 2026-08-24
-updated: 2026-09-24
+updated: 2026-09-25
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, comparison, executions, scheduling, workflow-automation]
 readability: 3
@@ -19,17 +19,17 @@ Each column links to the full research note; every cell traces to a source cited
 
 ## The matrix
 
-| Feature | [Claude Code hooks](../claude-code-hooks/index.md) | [Copilot automations](../copilot-automations/index.md) | [GitHub Agentic Workflows](../github-agentic-workflows/index.md) | [n8n](../n8n/index.md) |
+| Feature | [Claude Code hooks](../claude-code-hooks/index.md) | [GitHub Agentic Workflows](../github-agentic-workflows/index.md) | [Copilot automations](../copilot-automations/index.md) | [n8n](../n8n/index.md) |
 | --- | --- | --- | --- | --- |
-| Kind | harness feature | cloud service | compiled framework | platform, self-host or cloud |
+| Kind | harness feature | compiled framework | cloud service | platform, self-host or cloud |
 | Trigger types | lifecycle events (~30) | repo events, schedules | repo events, schedules | webhooks, schedules, chat, app events |
-| Where execution runs | your machine, web sessions too | GitHub ephemeral runners | Actions runners, self-host ok | self-host or n8n Cloud |
-| Open source | ✗ proprietary CLI | ✗ | ✓ MIT | ~ fair-code license |
-| Agent lock-in | Claude Code only | Copilot agent only | 5 engines, more imported | any provider, BYOK |
-| Guardrails and permissions | permission system, managed hooks | least-privilege tools, no self-approval | safe outputs, firewall, threat scans | webhook auth, IP allowlists |
-| Versioned with the repo | ~ project-scope settings | ✗ not in git | ✓ Markdown in repo | ~ versioned publishes |
-| Scheduled runs | ✗ (routines separate) | ✓ hourly to weekly | ✓ Actions cron | ✓ hourly to custom cron |
-| Pricing | in plan, usage-metered handlers | paid plan, minutes and credits | free tool, minutes and inference | free self-host, per execution cloud |
+| Where execution runs | your machine, web sessions too | Actions runners, self-host ok | GitHub ephemeral runners | self-host or n8n Cloud |
+| Open source | ✗ proprietary CLI | ✓ MIT | ✗ | ~ fair-code license |
+| Agent lock-in | Claude Code only | 5 engines, more imported | Copilot agent only | any provider, BYOK |
+| Guardrails and permissions | permission system, managed hooks | safe outputs, firewall, threat scans | least-privilege tools, no self-approval | webhook auth, IP allowlists |
+| Versioned with the repo | ~ project-scope settings | ✓ Markdown in repo | ✗ not in git | ~ versioned publishes |
+| Scheduled runs | ✗ (routines separate) | ✓ Actions cron | ✓ hourly to weekly | ✓ hourly to custom cron |
+| Pricing | in plan, usage-metered handlers | free tool, minutes and inference | paid plan, minutes and credits | free self-host, per execution cloud |
 
 ## Reading the matrix
 
@@ -60,6 +60,7 @@ hooks sit in between, since project-scope settings can be committed and user sco
 
 - 2026-08-24 - Created with four columns and rows adapted to executions (trigger and execution location).
 - 2026-09-24 - Removed the verification preamble line on owner request.
+- 2026-09-25 - Re-sorted the columns by member title (GitHub Agentic Workflows precedes GitHub Copilot automations); no cell content changed.
 
 ## See also
 
