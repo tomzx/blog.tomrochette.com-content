@@ -1,7 +1,7 @@
 ---
 title: Jevlike
 created: 2026-09-21
-updated: 2026-09-22
+updated: 2026-09-25
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, hybrid-execution, structured-outputs, system-one-models, decision-models, open-weights]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Jevlike is the community's one-day reverse-engineering of the Jev decision contract: an MIT Python starter that trains a small model to return one probability per text option in a single forward pass, with no text generation anywhere.
-Facts below verified as of 2026-09-22.
+Facts below verified as of 2026-09-25.
 
 **Jevlike matters less as a model than as evidence about the category: the Jev interface was copied in hours by one person with AI coding tools, so the moat, if TypeSafe has one, cannot be the interface.**
 
@@ -25,9 +25,9 @@ A vision variant reuses the same head to score controller buttons from image pat
 
 ## Status
 
-Dormant since launch day by every number I can check, as of 2026-09-22.
-Created and last pushed 2026-09-16, 1,243 stars and 110 forks, six open issues, a single contributor, and no tags or releases to pin.
-The Show HN thread ("Reverse-engineered Jev-like model", 2026-09-16) reached 168 points as of 2026-09-22.
+Dormant since launch day by every number I can check, as of 2026-09-25.
+Created and last pushed 2026-09-16, 1,289 stars and 113 forks, six open issues, a single contributor, and no tags or releases to pin.
+The Show HN thread ("Reverse-engineered Jev-like model", 2026-09-16) reached 169 points as of 2026-09-25.
 The afterlife is elsewhere: Cua's CUA-S1 form-filling checkpoint documents that its option-attention head is lifted from jevlike's `AttentionHead`, so the code's real legacy is inside other projects rather than in this one, and the JevBench board ranks no jevlike checkpoint because the starter ships game demos rather than a served decision model.
 
 ## Strengths
@@ -76,8 +76,8 @@ I would not route a real decision through this repo today, but I would make ever
 
 ## References
 
-- https://github.com/vinnylarouge/jevlike - repository: MIT, 1,243 stars, 110 forks, created and last pushed 2026-09-16 (GitHub API, as of 2026-09-22)
+- https://github.com/vinnylarouge/jevlike - repository: MIT, 1,289 stars, 113 forks, created and last pushed 2026-09-16 (GitHub API, as of 2026-09-25)
 - https://raw.githubusercontent.com/vinnylarouge/jevlike/main/README.md - the option-attention architecture, data format, eval design, and the expectations section with the no-equal-quality admission
-- https://news.ycombinator.com/item?id=49731282 - the 168-point launch thread (2026-09-16), including the satire and panel-disagreement criticisms (fetched via the Algolia items API)
+- https://news.ycombinator.com/item?id=49731282 - the 169-point launch thread (2026-09-16), including the satire and panel-disagreement criticisms (fetched via the Algolia items API)
 - https://raw.githubusercontent.com/vinnylarouge/jevlike/main/examples/doom/README.md - the vision variant: 12-option table, DAgger-before-PPO training order, early-checkpoint caveat
 - https://huggingface.co/cua-ai/cua-s1-forms - downstream adoption: its README credits "jevlike's `AttentionHead`" as the lifted component

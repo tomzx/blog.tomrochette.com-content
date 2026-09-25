@@ -1,7 +1,7 @@
 ---
 title: rtk
 created: 2026-08-30
-updated: 2026-09-20
+updated: 2026-09-25
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, context-engines, token-efficiency, cli, open-source]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 rtk is a free, open-source Rust CLI proxy that intercepts shell commands run by coding agents and compresses their output before it enters the context window, claiming up to 90 percent fewer output bytes on supported commands.
-Facts below verified as of 2026-09-22.
+Facts below verified as of 2026-09-25.
 
 **rtk monetizes the least glamorous line in the agent budget, the command output nobody reads, and its own documentation admits the 90 percent headline is an output-bytes number, not a bill reduction.**
 That admission is why I trust the project and discount the marketing at the same time.
@@ -26,8 +26,8 @@ Apache-2.0, built by a small French team with a commercial Pro product alongside
 
 ## Status
 
-Young and hot: 81,486 stars, 5,159 forks, and 1,564 open issues and pull requests combined as of 2026-09-22, created 2026-01-22, pushed 2026-09-21.
-Latest stable is v0.49.0 (2026-09-11) with a near-daily v0.50.0 release-candidate train still running (rc.451 published 2026-09-21); the project is pre-1.0.
+Young and hot: 81,660 stars, 5,166 forks, and 1,576 open issues and pull requests combined as of 2026-09-25, created 2026-01-22, pushed 2026-09-24.
+The v0.50.0 release-candidate train has concluded: v0.50.0 went stable on 2026-09-24 after the near-daily run of candidates; the project is pre-1.0.
 The site claims 18,000+ developers, a marketing figure, and the Show HN thread shows users posting their own measured savings.
 
 ## Strengths
@@ -42,7 +42,7 @@ The site claims 18,000+ developers, a marketing figure, and the Show HN thread s
 - Lossy output is the product: an agent reading a condensed diff or collapsed test list can misread state, and the changelog shows a steady stream of filter-correctness bugs.
 - The hook only rewrites Bash tool calls, so built-in Read/Grep/Glob tools bypass filtering entirely, and unmatched commands pass through at zero savings; one user's own log showed 39 percent on their busiest day.
 - All savings numbers trace to the project or its users; no independent benchmark exists as of 2026-09-02.
-- A crates.io name collision is documented in its own README, and the combined open issues and PRs total around 1,560 as of 2026-09-22.
+- A crates.io name collision is documented in its own README, and the combined open issues and PRs total 1,576 as of 2026-09-25.
 
 ## Pricing
 
@@ -67,6 +67,7 @@ Not for sessions driven by built-in Read/Grep tools, or anyone whose agents cann
 - 2026-09-16 - Refreshed the volatile numbers (80,635 stars, 1,626 open issues and PRs, pushed 2026-09-15) and noted the v0.50.0 release-candidate train; latest stable remains v0.49.0.
 - 2026-09-18 - Refreshed the volatile numbers (80,868 stars, 1,641 open issues and PRs, pushed 2026-09-18); stable remains v0.49.0, with the v0.50.0 release-candidate train still running (rc.442).
 - 2026-09-20 - Refreshed the volatile numbers (81,065 stars, 5,138 forks, 1,572 open issues and PRs as of 2026-09-20, pushed 2026-09-19); stable remains v0.49.0 with the candidate train at rc.444, and the combined backlog dropped about 70 over two days.
+- 2026-09-25 - Recorded v0.50.0 going stable (2026-09-24), concluding the release-candidate train, and refreshed the volatile numbers (81,660 stars, 5,166 forks, 1,576 open issues and PRs, pushed 2026-09-24).
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: Mem0
 created: 2026-08-24
-updated: 2026-09-20
+updated: 2026-09-25
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, agent-memory, developer-tools]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Mem0 is a hosted and self-hostable memory layer for AI agents: it extracts facts from conversations, stores them across vector, graph, and key-value backends, and retrieves the relevant slice into context on demand.
-Facts below verified as of 2026-09-22.
+Facts below verified as of 2026-09-25.
 
 **Mem0 has the widest adoption of any dedicated memory product, and its benchmark numbers are the part I trust least.**
 
@@ -26,7 +26,7 @@ The company (YC S24) was founded by Taranjeet Singh and Deshraj Yadav, previousl
 ## Status
 
 **Active and the adoption leader.**
-The repository shows about 65.9k stars and 2,646 commits as of 2026-09-22.
+The repository shows about 65.9k stars and 2,656 commits as of 2026-09-25.
 TechCrunch reported a $24M round (a $3.9M seed plus a $20M Series A led by Basis Set Ventures, with Peak XV and the GitHub Fund) in October 2025, 186M API calls in Q3 2025, and exclusive-memory-provider status for AWS's Agent SDK.
 The site claims 150,000+ developers.
 The 2024 Show HN drew 201 points and 61 comments, though moderators flagged booster comments in that thread.

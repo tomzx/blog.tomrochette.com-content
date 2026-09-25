@@ -13,7 +13,7 @@ Where quality control lives in the agent workflow: CI gates, dashboards, machine
 - [deepeval](deepeval/index.md) - the pytest-style eval framework with roughly fifty judge metrics that gates merges in CI.
 - [FrontierHarness Eval](frontierharness-eval/index.md) - the public benchmark that held the model constant and varied nine harnesses in twelve configurations, cost spread 17.5x, vendor-run caveat attached.
 - [HarnessTax](harnesstax/index.md) - the UC Berkeley study that held seven models constant across three harnesses on SWE-bench Lite and Terminal-Bench, finding harness swaps cost up to 5x while success barely moves.
-- [Langfuse](langfuse/index.md) - the MIT-core tracing and eval platform, 34.7k stars, inside ClickHouse since January with the proprietary ee/ split as the caution.
+- [Langfuse](langfuse/index.md) - the MIT-core tracing and eval platform, 35.0k stars, inside ClickHouse since January with the proprietary ee/ split as the caution.
 - [Phoenix](phoenix/index.md) - Arize's OTel-native observability and eval platform, self-hostable under an Elastic license.
 - [Plannotator](plannotator/index.md) - the local review surface that turns your annotations on agent plans and diffs into the agent's next instruction.
 - [Workshop](workshop/index.md) - Raindrop's local debugger where the coding agent reads traces, writes evals, and fixes what fails.

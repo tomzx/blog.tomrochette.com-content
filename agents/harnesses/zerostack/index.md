@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Zerostack is a solo-maintained GPL-3.0 coding agent written in pure Rust that pitches a 26 MB binary and about 16 MB of average RAM against the hundreds of megabytes its JavaScript competitors consume.
-Facts below verified as of 2026-09-22.
+Facts below verified as of 2026-09-24.
 
 **Zerostack is the strongest community signal of any independently built harness in this section, and its rise says the harness argument has moved from features to resource footprint.**
 
@@ -26,11 +26,11 @@ An ARCHITECTURE.md file complements AGENTS.md with shared core knowledge for age
 
 ## Status
 
-Active: the repository was pushed 2026-09-22, created May 12, 2026, with the latest release v1.8.4 on September 7, 2026.
-1,686 stars and 137 forks as of 2026-09-22.
+Active: the repository was pushed 2026-09-23, created May 12, 2026, with the latest release v1.8.4 on September 7, 2026.
+1,687 stars and 137 forks as of 2026-09-24.
 The May 16, 2026 launch thread reached 575 points (item 48164287), the highest-signal uncovered harness candidate of this cycle, with follow-up release threads through June and a Show HN in July.
 v1.8.0, "The Great Cleanup", landed September 3, 2026 after a six-week release quiet stretch and credited several external contributors with a large TUI refactoring.
-3,497 crate downloads on crates.io (1,223 recent) as of 2026-09-22.
+3,501 crate downloads on crates.io (1,208 recent) as of 2026-09-24.
 It is a one-person project with a ko-fi jar and a public call for company sponsors.
 
 ## Strengths

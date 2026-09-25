@@ -1,7 +1,7 @@
 ---
 title: Juggler
 created: 2026-08-30
-updated: 2026-09-16
+updated: 2026-09-24
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agents, harnesses, gui, go]
 readability: 3
@@ -12,7 +12,7 @@ audience_notes: >
 ---
 
 Juggler is a free, open-source desktop GUI coding agent built by the developer behind JUCE, giving you a visual workbench where conversations branch into trees and every tool call and raw context message is inspectable.
-Facts below verified as of 2026-09-22.
+Facts below verified as of 2026-09-24.
 
 **Juggler is the strongest argument that the terminal is the wrong native surface for agent work: its whole bet is that reading diffs, editing multi-line prompts, and absorbing tool output are GUI problems.**
 
@@ -29,7 +29,7 @@ Made by Julian Storer (JUCE, Tracktion, Cmajor), distributed as signed installer
 **Young, active, and single-maintainer, with a strong launch.**
 The public Show HN on July 12, 2026 drew 280 points and 119 comments ([HN](https://news.ycombinator.com/item?id=48883305)).
 601 stars and 45 forks as of 2026-09-22 on a repo created June 19, 2026 (GitHub API).
-Shipping is steady: v0.6.4 published September 14, 2026, following v0.6.3 on September 12 and v0.6.1 on September 9.
+Shipping is steady: v0.7.0 published September 24, 2026, which added workspaces with git worktrees, throwaway scratch copies, or subfolders as session targets, following v0.6.4 on September 14 and v0.6.3 on September 12.
 One person builds it, which is both the reason it ships fast and the project's single point of failure.
 
 ## Strengths
@@ -67,6 +67,7 @@ I think the harnesses that win the GUI layer will be the ones that treat convers
 
 - 2026-08-30 - Created in the Harnesses category as one of six entrants accepted in the same run.
 - 2026-09-16 - Recorded the v0.6.4 release (September 14) and refreshed counters (596 stars, 45 forks).
+- 2026-09-24 - Recorded the v0.7.0 release (September 24), which added workspaces (git worktrees, scratch copies, or subfolders), and refreshed counters.
 
 ## See also
 
@@ -77,8 +78,8 @@ I think the harnesses that win the GUI layer will be the ones that treat convers
 
 ## References
 
-- https://github.com/juggler-ai/juggler - repository, AGPL-3.0 app code with Apache-2.0 extensions, 601 stars as of 2026-09-22
+- https://github.com/juggler-ai/juggler - repository, AGPL-3.0 app code with Apache-2.0 extensions, 600 stars as of 2026-09-24
 - https://juggler.studio/ - product claims, provider list, session model
 - https://raw.githubusercontent.com/juggler-ai/juggler/main/README.md - architecture, licensing map, build model
 - https://news.ycombinator.com/item?id=48883305 - the July 12, 2026 launch thread, 280 points (verified via Algolia API)
-- https://github.com/juggler-ai/juggler/releases - v0.6.4, published 2026-09-14 (verified via GitHub API)
+- https://github.com/juggler-ai/juggler/releases - v0.7.0, published 2026-09-24 (verified via GitHub API)

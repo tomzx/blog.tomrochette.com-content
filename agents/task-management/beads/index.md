@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 beads is Steve Yegge's distributed graph issue tracker for AI agents (`bd`): a Dolt-backed database of tasks with dependencies, atomic claims, and cross-machine sync, designed as persistent memory for coding agents.
-Facts below verified as of 2026-09-21.
+Facts below verified as of 2026-09-25.
 
 **The dependency graph with atomic claims, not the markdown file, is the task interface agents actually need, and beads is the reference implementation of that claim even for people who end up choosing something simpler.**
 

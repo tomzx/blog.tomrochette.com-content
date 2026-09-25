@@ -1,7 +1,7 @@
 ---
 title: Graphify
 created: 2026-08-30
-updated: 2026-09-22
+updated: 2026-09-25
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, context-engines, knowledge-graphs, code-intelligence, open-source]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Graphify is an open-source Python CLI that turns a codebase, plus its docs, SQL schemas, and PDFs, into a queryable knowledge graph exposed as a `/graphify` skill and MCP server for coding assistants, built on local deterministic tree-sitter parsing with no vector store.
-Facts below verified as of 2026-09-22.
+Facts below verified as of 2026-09-25.
 
 **Graphify's bet is that structure beats similarity: an agent that can traverse exact calls-and-imports edges with file:line citations needs less context than one searching embeddings, and the code path runs entirely on your machine.**
 The bet is young, self-benchmarked, and wrapped in a YC company's funnel.
@@ -21,13 +21,14 @@ The bet is young, self-benchmarked, and wrapped in a YC company's funnel.
 One command builds `graphify-out/`: an interactive `graph.html`, a `GRAPH_REPORT.md` with god nodes and communities, and `graph.json` with the full graph, which you then query through `graphify query`, `path`, and `explain` instead of grepping.
 Code is parsed with tree-sitter across 36 code languages (the project site's count as of 2026-09-18), resolving calls, imports, and inheritance edges deterministically with no LLM; docs, PDFs, and images go through a semantic pass using your assistant's model or a configured API key.
 Every edge is tagged EXTRACTED, INFERRED, or AMBIGUOUS, so readable facts are distinguishable from guessed ones, and queries return subgraphs with file:line citations.
-A skill installer targets Claude Code, Cursor, Codex, Gemini CLI, OpenCode, and 20+ other platforms, plus an MCP server and exports to Neo4j and Obsidian.
+A skill installer targets the 17 coding assistants the vendor documents (Claude Code, Cursor, Codex, Gemini CLI, OpenCode, and 12 more), plus an MCP server and exports to Neo4j and Obsidian.
 Made by Graphify Labs, a YC Summer 2026 company of two people in London, Apache-2.0, with the PyPI package named `graphifyy`.
 
 ## Status
 
-Growing absurdly fast for its age: 120,654 stars and 1,888 commits in about five months since 2026-04-03, latest release v0.9.66 on 2026-09-22, all as of 2026-09-22, with 273 contributors as of 2026-09-22.
+Growing absurdly fast for its age: 121,216 stars and 1,908 commits in about five months since 2026-04-03, latest release v0.9.67 on 2026-09-23, all as of 2026-09-25, with 260 contributors as of 2026-09-25.
 The YC page claims 5M+ downloads and named production users, all self-reported.
+**The Enterprise early-access tier now ships differential formal verification**: a solver ladder (Z3, CrossHair, CBMC, JBMC) that proves a changed function behavior-preserving or returns a concrete input that breaks it, alongside graph-aware PR review, per the vendor's full index (fetched 2026-09-25).
 The ecosystem is growing too: a third-party C# port, graphify-csharp, launched September 11, 2026 with a 46-point Show HN and 21 comments as of 2026-09-16, the largest discussion any Graphify-linked project has drawn.
 **The star count still outruns the discussion footprint: Hacker News stories linking the main repo drew two or three points with no comments, a mismatch I treat as a flag, not a slam dunk.**
 
@@ -42,7 +43,7 @@ The ecosystem is growing too: a third-party C# port, graphify-csharp, launched S
 
 - The benchmarks are self-published, and on the headline QA-accuracy metric graphify trails supermemory while winning on cost and recall, per its own BENCHMARKS.md.
 - Only code is local: docs, PDFs, and images are sent to whatever LLM backend is configured.
-- Pre-1.0 with 1,445 open issues and PRs as of 2026-09-22, a nonstandard default branch, and acknowledged PyPI name-squatting on `graphify*` packages.
+- Pre-1.0 with 1,464 open issues and PRs as of 2026-09-25, a nonstandard default branch, and acknowledged PyPI name-squatting on `graphify*` packages.
 - The free CLI is the top of an open-core funnel into a hosted product whose plans only recently gained public prices, so expect the monetization posture to keep moving.
 
 ## Pricing
@@ -76,6 +77,7 @@ Not for small repos where grep and packing are enough, or for buyers who need in
 - 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
 - 2026-09-20 - Recorded release v0.9.64 (2026-09-18) and refreshed the volatile numbers (119,720 stars, 1,843 commits, 1,425 open issues and PRs); hosted plans unchanged.
 - 2026-09-22 - Recorded release v0.9.66 (2026-09-22) and refreshed the volatile numbers (120,654 stars, 1,888 commits, 273 contributors, 1,445 open issues and PRs); hosted plans unchanged.
+- 2026-09-25 - Recorded release v0.9.67 (2026-09-23), refreshed the volatile numbers (121,216 stars, 1,908 commits, 260 contributors, 1,464 open issues and PRs), corrected the installer surface to the vendor's documented 17 assistants, and added the Enterprise early-access differential formal verification and graph-aware PR review; hosted plans unchanged.
 
 ## See also
 
@@ -90,7 +92,7 @@ Not for small repos where grep and packing are enough, or for buyers who need in
 - https://raw.githubusercontent.com/Graphify-Labs/graphify/v8/BENCHMARKS.md - the self-published benchmarks, including the supermemory trade-off
 - https://graphify.com/ - positioning and the no-embeddings claim
 - https://graphify.com/pricing - the four hosted plans above the free core
-- https://graphify.com/llms-full.txt - the full plan table grounding the pricing section (monthly and annual billing), fetched 2026-09-18
+- https://graphify.com/llms-full.txt - the full plan table grounding the pricing section (monthly and annual billing), fetched 2026-09-25
 - https://pypi.org/project/graphifyy/ - the distribution and current version
 - https://www.ycombinator.com/companies/graphify-labs - the maker, batch, and self-reported adoption claims
 - https://github.com/zachsaw/graphify-csharp - the third-party C# port, 67 stars as of 2026-09-18

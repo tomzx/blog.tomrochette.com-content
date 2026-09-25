@@ -1,7 +1,7 @@
 ---
 title: DeepSeek Harness
 created: 2026-08-30
-updated: 2026-09-22
+updated: 2026-09-24
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, harnesses, coding-agents, plugins, open-source]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 DeepSeek Harness (`dsh`) is DeepSeek's open-source, MIT-licensed coding-agent harness built on an everything-is-a-plugin kernel where the model, tools, UI, and even the agent loop are hot-swappable plugins.
-Facts below verified as of 2026-09-22.
+Facts below verified as of 2026-09-24.
 
 **The bet is not another agent but a harness with nothing built in: if the plugin architecture holds, forking a harness to change it becomes obsolete.**
 Four weeks in, the bet is unproven and the project says so itself.
@@ -26,10 +26,10 @@ It is local-first and BYOK: API keys stay in a local credentials file, with prov
 
 ## Status
 
-New and extremely loud: 233,762 stars and 28,093 forks as of 2026-09-22, nearly six weeks after the repo was created on 2026-08-13.
-No stable release exists, only alpha and rc prereleases (latest: dsh-v0.1.7-alpha.2 on 2026-09-22), and the README warns there will be compatibility-breaking changes.
+New and extremely loud: 235,140 stars and 28,290 forks as of 2026-09-24, about six weeks after the repo was created on 2026-08-13.
+No stable release exists, only alpha and rc prereleases (latest: dsh-v0.1.7-rc.2 on 2026-09-24), and the README warns there will be compatibility-breaking changes.
 The launch thread drew 747 points and 301 comments on Hacker News, with the author answering questions directly.
-An ecosystem is already forming: a Tauri desktop port with 2,000 stars, a plugin directory site, and an MCP plugin catalog.
+An ecosystem is already forming: a Tauri desktop port with about 2,600 stars, a plugin directory site, and an MCP plugin catalog.
 **I read the star count as attention, not adoption, and the safest status label is developer preview.**
 
 ## Strengths
@@ -68,6 +68,7 @@ Not for anyone whose threat model includes untrusted repos on day one, or who wa
 - 2026-09-09 - Recorded the desktop-port repo's move to the dsh-tauri-desk org and fixed the redirected link.
 - 2026-09-16 - Refreshed stars and forks, and recorded the dsh-v0.1.6-alpha.1 prerelease; the project remains prerelease-only.
 - 2026-09-22 - Recorded the dsh-v0.1.7-alpha.1 and dsh-v0.1.7-alpha.2 prereleases (both September 22) and refreshed repository scale.
+- 2026-09-24 - Recorded the dsh-v0.1.7-rc.1 (September 23) and dsh-v0.1.7-rc.2 (September 24) release candidates, which add a web terminal sidebar, session archiving, scheduled tasks with reminders, and desktop onboarding, and refreshed repository scale; the project remains prerelease-only.
 
 ## See also
 
@@ -78,7 +79,7 @@ Not for anyone whose threat model includes untrusted repos on day one, or who wa
 
 ## References
 
-- https://github.com/deepseek-ai/deepseek-harness - repository, README, install, MIT license, 233,762 stars as of 2026-09-22
+- https://github.com/deepseek-ai/deepseek-harness - repository, README, install, MIT license, 235,140 stars as of 2026-09-24
 - https://www.deepseek.com/harness/en/ - runtime modes and plugin architecture claims
 - https://raw.githubusercontent.com/deepseek-ai/deepseek-harness/HEAD/SAFETY.md - the project's own security warnings
 - https://news.ycombinator.com/item?id=49285244 - the 747-point launch thread, including critical takes on plugins and the Cordis paper

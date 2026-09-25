@@ -12,7 +12,7 @@ audience_notes: >
 ---
 
 Ante is a self-contained coding harness from Antigma Labs that ships as one ~15MB Rust binary with an embedded llama.cpp engine, so it can drive cloud models or run GGUF models fully offline.
-Facts below verified as of 2026-09-22.
+Facts below verified as of 2026-09-24.
 
 **Ante is the first harness whose pitch is that footprint and offline capability are the product: the TUI, an embedded ripgrep, PDF/OCR, and a natively managed local inference engine all live inside one binary with zero runtime dependencies.**
 
@@ -26,7 +26,7 @@ Source is published under Apache-2.0 (crates: exec, llm, protocol-shape, ante-sd
 ## Status
 
 **Active, preview-stage, and growing fast for a five-month-old repo.**
-1,974 stars and 67 forks as of 2026-09-22, repo created December 23, 2025, with v0.2.0 (September 17, 2026) having closed the v0.preview.N series and started a within-minor compatibility promise.
+1,980 stars and 68 forks as of 2026-09-24, repo created December 23, 2025, with v0.2.0 (September 17, 2026) having closed the v0.preview.N series and started a within-minor compatibility promise.
 The latest releases are v0.2.3 (published September 21, 2026), which added a direct `ante --resume` session picker, a first-class System message role, and subagent deliverable preservation in parent handoffs, and v0.2.4 (release notes dated September 22, 2026), which added GPT-6 Sol and Luna, Claude Opus 5.5, Grok 4.7, and MiMo 2.6 to the model catalogs and updated the embedded llama.cpp engine.
 The Show HN launch on August 10, 2026 drew 169 points and 92 comments ([HN](https://news.ycombinator.com/item?id=49245437)).
 At launch commenters flagged that the repo hosted binaries without agent source; the Apache-2.0 core libraries published since narrow that gap, though the core harness itself remains closed during the alpha.
@@ -82,7 +82,7 @@ I expect the harness market to consolidate on footprint and cost per agent, and 
 
 ## References
 
-- https://github.com/AntigmaLabs/ante - repository, Apache-2.0 source, 1,974 stars as of 2026-09-22
+- https://github.com/AntigmaLabs/ante - repository, Apache-2.0 source, 1,980 stars as of 2026-09-24
 - https://docs.antigma.ai/ - architecture, offline mode, providers, footprint claims
 - https://antigma.ai/eval - self-reported Terminal-Bench 2.1 results, pinned builds and Harbor runs
 - https://raw.githubusercontent.com/AntigmaLabs/ante/main/README.md - feature surface and provider list

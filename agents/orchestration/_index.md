@@ -24,7 +24,7 @@ Running many coding agents at once: worktree managers, kanbans, terminal multipl
 - [Omnara](omnara/index.md) - the YC S25 Apache-2.0 Go control plane where agents are YAML and supervision happens from dashboard, phone, CLI, API, or Slack.
 - [Paseo](paseo/index.md) - the open-source daemon driving coding agents from desktop, web, and native mobile apps, self-hosted and solo-maintained.
 - [Superset](superset/index.md) - the YC-backed, source-available agentic IDE running parallel CLI agents in worktrees on your own subscriptions.
-- [Vibe Kanban](vibe-kanban/index.md) - the Apache-2.0 kanban for parallel agents, orphaned by Bloop's April 2026 shutdown, community commits resumed in September 2026 but still no release.
+- [Vibe Kanban](vibe-kanban/index.md) - the Apache-2.0 kanban for parallel agents, orphaned by Bloop's April 2026 shutdown, community commits resumed in September 2026 but only a v0.1.45 prerelease, npm still at 0.1.44.
 - [Worktrunk](worktrunk/index.md) - the Rust `wt` CLI making worktrees as easy as branches, with lifecycle hooks and a one-command merge.
 
 Its members are compared on shared rows in the [Orchestration Feature Matrix](orchestration-feature-matrix/index.md).

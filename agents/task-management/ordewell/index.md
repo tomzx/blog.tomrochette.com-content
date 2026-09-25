@@ -1,7 +1,7 @@
 ---
 title: Ordewell
 created: 2026-09-16
-updated: 2026-09-16
+updated: 2026-09-25
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, task-management, planner, multi-agent, open-source]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Ordewell is an Apache-2.0 TypeScript CLI, terminal UI, and VS Code extension that turns one goal into an ordered plan of coding-agent tasks, each with its own runner, model, thinking effort and mode, then executes the plan and completes a task only when that task's marker appears in the runner output.
-Facts below verified as of 2026-09-21.
+Facts below verified as of 2026-09-25.
 
 **The plan as a typed artifact you can rewrite before a token is spent, plus completion decided by markers rather than the model's own verdict, is the design worth stealing, and the launch thread's AI-written-replies episode is the caution this section exists to record.**
 
@@ -26,7 +26,7 @@ The planner's permissions are unusually explicit (ADR-0008): commands classify i
 ## Status
 
 Active, young, and small.
-As of 2026-09-21: 132 stars, 9 forks, 7 open issues, created 2026-07-31, pushed 2026-09-20, latest release v0.4.19 on 2026-09-10, and roughly 2,450 npm downloads last month across the `ordewell` and `@ordewell/cli` package names.
+As of 2026-09-25: 144 stars, 11 forks, 8 open issues, created 2026-07-31, pushed 2026-09-24, latest release v0.4.23 on 2026-09-23, and roughly 2,400 npm downloads last month across the `ordewell` and `@ordewell/cli` package names.
 The Show HN launch thread reached 50 points and 30 comments on 2026-09-15.
 
 ## Strengths
@@ -41,7 +41,7 @@ The Show HN launch thread reached 50 points and 30 comments on 2026-09-15.
 - **The launch thread's defining exchange is the transparency record: a commenter observed that everything about the project, including author replies in the comments, is AI-written, and the maintainer confirmed heavy AI use for the docs and code while standing behind the design.**
 - Replying to people with AI-generated text drew a specific objection in the same thread, so treat the repo's discourse hygiene as part of the adoption decision.
 - The same thread carried the standing structural objection to meta-frameworks: any advance gets absorbed into Claude and Codex within months, and this tool's planner-plus-runners surface is exactly the kind that absorption targets.
-- v0.4.x and 129 stars mean churn is likely; ADR-0002 records saved sessions being wiped without migration on that rewrite.
+- v0.4.x and 144 stars mean churn is likely; ADR-0002 records saved sessions being wiped without migration on that rewrite.
 - The planner's shell control is a denylist classifier over a real shell, not a sandbox (ADR-0011 tracks that gap).
 
 ## Pricing
@@ -57,13 +57,14 @@ No paid tier exists; token costs follow your runner subscriptions or API keys.
 
 ## Bottom line
 
-**Recommended for engineers running mixed-model agent fleets who want per-task model assignment and evidence-based completion, and who accept a three-month-old project.**
-Not for shared multi-agent queues (that is beads) or for teams that need maturity signals 132 stars cannot give.
+**Recommended for engineers running mixed-model agent fleets who want per-task model assignment and evidence-based completion, and who accept a two-month-old project.**
+Not for shared multi-agent queues (that is beads) or for teams that need maturity signals 144 stars cannot give.
 The disagreeable claim I will defend: the AI-written launch thread is not disqualifying here, but it is the exact failure mode this section's transparency rules exist to catch, and a tool that cannot surface its own authorship plainly should not be trusted to surface task completion either.
 
 ## Changes
 
 - 2026-09-16 - Created.
+- 2026-09-25 - Recorded the v0.4.23 release (2026-09-23, four ships since v0.4.19) and refreshed counts.
 
 ## See also
 
@@ -82,4 +83,4 @@ The disagreeable claim I will defend: the AI-written launch thread is not disqua
 - https://github.com/ordewell/ordewell/blob/main/docs/adr/0002-planner-as-conversation-loop.md - the conversation-loop decision and the session wipe
 - https://github.com/ordewell/ordewell/blob/main/docs/adr/0008-planner-exploration-envelope.md - the auto/ask/refuse tiers and path confinement
 - https://news.ycombinator.com/item?id=49712276 - the launch thread: the AI-written exchange, the absorption objection, 50 points and 30 comments
-- https://api.npmjs.org/downloads/point/last-month/@ordewell/cli - 1,374 downloads last month for the scoped package
+- https://api.npmjs.org/downloads/point/last-month/@ordewell/cli - 1,354 downloads last month for the scoped package

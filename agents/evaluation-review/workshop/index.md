@@ -1,7 +1,7 @@
 ---
 title: Workshop
 created: 2026-08-30
-updated: 2026-09-20
+updated: 2026-09-25
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, evaluation, observability, debugging, open-source]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Workshop is a free, MIT-licensed local debugger for AI agents from Raindrop that streams every token, tool call, and decision into a localhost web UI, and lets your coding agent read those traces, write evals against your codebase, and fix what fails.
-Facts below verified as of 2026-09-21.
+Facts below verified as of 2026-09-25.
 
 **Workshop's bet is that the eval writer should be the coding agent itself, inside the debug loop, and its weakest row is the one that decides enterprise adoption: nothing here touches CI.**
 
@@ -25,7 +25,7 @@ Made by Raindrop, an agent-observability startup; Workshop is the free local tie
 
 ## Status
 
-Young with a strong launch: 1,093 stars, 67 forks, 7 open issues as of 2026-09-21, created 2026-05-01, latest release v0.1.21 on 2026-08-22.
+Young with a strong launch: 1,098 stars, 68 forks, 8 open issues as of 2026-09-25, created 2026-05-01, latest release v0.1.21 on 2026-08-22.
 39 commits, 9 contributors, 21 patch releases in four months.
 **The launch testimonials are real engineers but the vendor's scale claims (billions of traces per month, Fortune 100 customers) are unverified marketing, and a 9-point Hacker News thread is the entire independent discussion.**
 

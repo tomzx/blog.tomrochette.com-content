@@ -30,7 +30,7 @@ Each column links to the full research note; every cell below traces to a source
 | Remote or SSH execution | ✓ cluster-native, ax ssh into sandboxes | ? | ~ SSH sessions | ? | ? | ✗ local only | ✓ SSH-first | ✗ local, single machine | ~ Docker compose | ✓ E2E-encrypted relay | ✓ JetBrains cloud, org web | ✓ machine pools | ✓ encrypted relay, self-host | ~ remote workspaces beta | ~ Docker self-host | ✗ local git |
 | Built-in review tooling | ~ watch, logs, and ssh, no review surface | ~ diff preview tab | ? | ✓ diffs, checks, PR, review | ~ diff viewer, rebase, squash | ~ merge and PR menu | ✓ diffs, PRs, CI checks | ~ advisory conflict findings, verification-gated ChangeSets, no diff surface | ✓ Refinery merge queue | ~ diffs and terminals beside conversations | ✓ language-aware diffs, Agent Review (agent reviews agent) | ~ approvals, questions, events, artifacts | ~ agent output and diffs | ✓ diffs, browser previews | ✓ diffs, comments, PR | ~ status table and merge pipeline |
 | Cloud execution option | ✓ is the cloud execution layer | ✗ no hosting | ✓ Pro, up to 50 cloud VMs | ✓ Vercel sandboxes | ? | ✗ | ~ contact-sales | ✗ local only | ✗ self-host, Wasteland federation | ✗ your machine only | ✓ JetBrains-managed cloud environments | ✓ Omnara Cloud, or self-host | ~ self-host anywhere, no vendor cloud | ~ remote workspaces beta | ✗ services removed | ✗ |
-| Current status | active, Google team, v0.3.0, pre-stable | active, slow burn | active, fast | active, $22M raised | deprecated Feb 2026 | active | active, YC W26 | active, 498 stars, pre-1.0, v0.5.0 | shut down Sept 2026, repo kept as death record | active, 23.9k stars, community team | active, public preview, v262.834.41 | active, YC S25, 2,863 stars | active, v0.9.1, solo maintainer | active, YC P26, $11M raised | orphaned, community commits resumed 2026-09-16, 0.1.45 tagged but unpublished | active, pre-1.0 fast |
+| Current status | active, Google team, v0.3.0, pre-stable | active, slow burn | active, fast | active, $22M raised | deprecated Feb 2026 | active | active, YC W26 | active, 505 stars, pre-1.0, v0.5.0 | shut down Sept 2026, repo kept as death record | active, 23.9k stars, community team | active, public preview, v262.834.41 | active, YC S25, 2,863 stars | active, v0.9.2, solo maintainer | active, YC P26, $11M raised | orphaned, community commits resumed 2026-09-16, v0.1.45 prerelease on GitHub, npm still 0.1.44 | active, pre-1.0 fast |
 
 ## Reading the matrix
 
@@ -48,7 +48,7 @@ Cloud execution exists only where a subscription or usage bill is attached, cmux
 
 **The status row is the most instructive one in the matrix: of sixteen tools, one is deprecated, one lost its vendor, one is a cluster-scale platform entrant, one new column attacks the failure worktrees cannot see, and the counterexamples run on venture rounds and a very loud founder.**
 Crystal was deprecated in February 2026 in favor of Nimbalyst, the clearest signal yet that a pure worktree-session manager can be a feature rather than a product.
-Bloop shut down in April 2026 and Vibe Kanban is orphaned, local workspaces intact, ten commits on the default branch since the shutdown (the first a 2026-09-15 version bump by a former Bloop maintainer, nine more with substantive fixes through 2026-09-19), a v0.1.45 tag cut on 2026-09-19 with npm and the GitHub release list still stopping at 0.1.44, and nobody paid to fix bugs.
+Bloop shut down in April 2026 and Vibe Kanban is orphaned, local workspaces intact, ten commits on the default branch since the shutdown (the first a 2026-09-15 version bump by a former Bloop maintainer, nine more with substantive fixes through 2026-09-19), a v0.1.45 prerelease published on GitHub on 2026-09-19 with npm still serving 0.1.44 as latest, and nobody paid to fix bugs.
 Conductor staying a pure session manager and raising money is what keeps the feature-versus-product question contested instead of settled.
 **The three 2026 columns sharpen the funding split: Superset raised $11M, Paseo is a solo maintainer with a planned business, and Worktrunk is a single author with no company at all, which is the whole sustainability spectrum in one row.**
 **Omnara is the tenth column and the only one that wants to own execution and state:** agents become YAML configs in your repo, machine pools separate where code runs from who can invoke it, and supervision reaches you from a dashboard, phone, CLI, REST API, or Slack, the open-source counterpoint to Claude Managed Agents.
@@ -67,7 +67,7 @@ Claude Squad's preview tab and dmux's pane-menu PR cover the dispatch, wait, rev
 - Want an auditable client, Windows or Linux support, or agents running next to remote code: Emdash.
 - Live in the terminal: Claude Squad for the smallest footprint, dmux for multi-agent fan-out and resumable panes.
 - On macOS and drowning in sessions that need attention: cmux's notification rings and unread panel.
-- Want planning-first and vendor-less: Vibe Kanban, accepting that it is orphaned, with community commits resumed but no release since April 2026.
+- Want planning-first and vendor-less: Vibe Kanban, accepting that it is orphaned, with community commits resumed but no stable release since April 2026.
 - Want to supervise agents from your phone over an encrypted relay, self-hosted and FOSS: Paseo.
 - Want your existing Claude Code or Codex sessions on a phone, end-to-end encrypted, and nothing more: Happy Coder.
 - Want a control plane that owns agent execution and state behind one API, on your own hardware: Omnara.
@@ -95,6 +95,7 @@ Claude Squad's preview tab and dmux's pane-menu PR cover the dispatch, wait, rev
 - 2026-09-21 - Extended from fourteen to fifteen columns with AX (Google's cluster-scale agent fleet orchestrator, added sorted into the first position), refreshed the Happy Coder star count to 23.9k, and moved the Paseo status cell to v0.8 with 0.9 betas.
 - 2026-09-22 - Extended from fifteen to sixteen columns with Foremerge (Nick Woodhead's coordination protocol for parallel agents, added sorted after Emdash), moved the Paseo status cell to v0.9.1, and refreshed the Omnara star count to 2,863.
 - 2026-09-24 - Removed the verification preamble line on owner request.
+- 2026-09-24 - Refreshed the Vibe Kanban status cell to the GitHub v0.1.45 prerelease (npm still 0.1.44), moved Paseo's status cell to v0.9.2, and refreshed Foremerge's star count to 505.
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: Foremerge
 created: 2026-09-22
-updated: 2026-09-22
+updated: 2026-09-24
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, parallel-agents, coordination, git-worktrees, open-source]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Foremerge is an Apache-2.0 coordination protocol for coding agents, built above Git: agents publish what they are about to change before they change it, and a deterministic detector flags collisions between plans that Git merges without complaint.
-Facts below verified as of 2026-09-22.
+Facts below verified as of 2026-09-24.
 
 **Worktree isolation solved file collisions and left plan collisions untouched, and Foremerge is the first tool in this category to attack exactly that residue: two agents, two clean worktrees, zero textual conflicts, one stranded extension point.**
 
@@ -27,9 +27,9 @@ The author is Nick Woodhead, who built it as internal tooling at GPTree, a compa
 ## Status
 
 Active, young, and gaining traction fast.
-The repository was created 2026-08-21 and shows 498 stars and 20 forks as of 2026-09-22 (GitHub API; repository timestamps ran into the early hours of 2026-09-23 UTC, just after this verification).
+The repository was created 2026-08-21 and shows 505 stars and 21 forks as of 2026-09-24 (GitHub API).
 Its Show HN on 2026-09-21 drew 45 points and 16 comments, modest by this category's standards but substantive, with real pushback answered in the thread.
-v0.4.3 shipped 2026-09-18, and v0.5.0 was tagged in the early hours of 2026-09-23 UTC, hours after this note's verification, still pre-1.0 with public schemas that may change.
+v0.4.3 shipped 2026-09-18, and v0.5.0 became the latest published release on 2026-09-23, still pre-1.0 with public schemas that may change.
 The author reports it has been a critical part of GPTree's development flow since January, which makes it one of the few tools in this section dogfooded in production before it was a product.
 No published benchmark results exist yet; the project says so itself rather than claiming them.
 
@@ -69,6 +69,7 @@ My disagreeable claim: this is the missing layer the whole worktree-manager cate
 ## Changes
 
 - 2026-09-22 - Created from the same-day entrant resolution (45-point Show HN on 2026-09-21, 498 stars, six primary sources fetched this run).
+- 2026-09-24 - Refreshed: 505 stars and 21 forks, and v0.5.0 confirmed as the latest published release (2026-09-23).
 
 ## See also
 
@@ -79,9 +80,9 @@ My disagreeable claim: this is the missing layer the whole worktree-manager cate
 
 ## References
 
-- https://github.com/naw103/foremerge - repository, Apache-2.0, 498 stars, Rust, created 2026-08-21 (GitHub API, 2026-09-22)
+- https://github.com/naw103/foremerge - repository, Apache-2.0, 505 stars, Rust, created 2026-08-21 (GitHub API, 2026-09-24)
 - https://raw.githubusercontent.com/naw103/foremerge/HEAD/README.md - protocol, scope vocabulary, status banner, and the deterministic no-LLM design
 - https://foremerge.com - official site: MCP tools, the intent lifecycle, semantic scopes, and the "what it does not claim" section
-- https://github.com/naw103/foremerge/releases - v0.4.3 (2026-09-18) and v0.5.0 (tagged early 2026-09-23 UTC) (GitHub API)
+- https://github.com/naw103/foremerge/releases - v0.4.3 (2026-09-18) and v0.5.0, published 2026-09-23 (GitHub API, 2026-09-24)
 - https://naw103.substack.com/p/parallel-coding-agents-without-the - the founding post: the PaymentService failure, leased claims, verification gates, and limitations
 - https://hn.algolia.com/api/v1/items/49789356 - the 45-point Show HN thread (2026-09-21) with the determinism pushback and the author's answers

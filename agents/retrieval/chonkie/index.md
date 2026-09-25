@@ -1,7 +1,7 @@
 ---
 title: Chonkie
 created: 2026-09-16
-updated: 2026-09-20
+updated: 2026-09-25
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, chunking, rag, retrieval]
 readability: 3
@@ -12,7 +12,7 @@ audience_notes: >
 ---
 
 Chonkie is an MIT-licensed Python (with a TypeScript port) chunking library for RAG pipelines that packages token-based, sentence, recursive, semantic, late, code (AST), and neural chunkers behind one small, dependency-light interface.
-Facts below verified as of 2026-09-22.
+Facts below verified as of 2026-09-25.
 
 **It won the chunking niche on install size and speed, survived the niche's commoditization, and outlived its own company's attention: the library keeps shipping while the startup behind it has moved on to a new venture.**
 
@@ -25,7 +25,7 @@ It also ships refineries, pipelines stored in a local SQLite database, a self-ho
 ## Status
 
 The open source library is active and widely used; the company around it has visibly moved on.
-The repository shows 4,766 stars, a push on 2026-09-18, and PyPI shows version 1.7.0 released 2026-07-07 across 62 releases, with 1,020,031 downloads in the last month as of 2026-09-21 (the latest reading before this run's rate-limited check); the TypeScript port, renamed alongside the org to feyninc/chonkiejs, was last pushed 2026-09-11.
+The repository shows 4,770 stars, a push on 2026-09-18, and PyPI shows version 1.7.0 released 2026-07-07 across 62 releases, with 1,138,639 downloads in the last month as of 2026-09-25; the TypeScript port, renamed alongside the org to feyninc/chonkiejs, was last pushed 2026-09-11.
 **The caution is the corporate trail: chonkie.ai, the domain in the Launch HN, now redirects to Feyn Labs, a venture whose founder letter is signed by Chonkie's co-founder Shreyash Nigam, the repository itself moved under the Feyn org (feyninc/chonkie, with the old chonkie-inc URL redirecting), the hosted endpoints (cloud.chonkie.ai, hub.chonkie.ai, labs.chonkie.ai) are dead or 404, and the README still links Cloud to the dead labs domain.**
 The community footprint earlier scans missed is real: two major HN threads (199 points in 2024, 151 in 2025) plus a 153-point technical post ("So, you want to chunk really fast?", December 2025) by co-founder Bhavnick Minhas on his delimiter-based memchunk approach.
 
@@ -66,6 +66,7 @@ My disagreeable claim: Chonkie's real innovation was packaging, not algorithms, 
 - 2026-09-18 - Refreshed volatile facts for the 2026-09-18 verification: 4,755 stars, a push on 2026-09-18, and 1,081,591 PyPI downloads in the last month (pypistats answered again after the 2026-09-16 blocking).
 - 2026-09-20 - Recorded the repository's move under the Feyn Labs org (feyninc/chonkie, the chonkie-inc URL now redirects) and refreshed the star count to 4,760; PyPI, releases, and the stale Cloud link unchanged.
 - 2026-09-20 - Recorded the TypeScript port's matching rename to feyninc/chonkiejs and refreshed the trailing-month PyPI figure to 1,046,347 as of 2026-09-20.
+- 2026-09-25 - Refreshed the volatile facts: 4,770 stars and 1,138,639 trailing-month PyPI downloads as of 2026-09-25; version 1.7.0, the push date, and the JS port unchanged.
 
 ## See also
 
@@ -76,10 +77,10 @@ My disagreeable claim: Chonkie's real innovation was packaging, not algorithms, 
 
 ## References
 
-- https://github.com/feyninc/chonkie - repository: 4,766 stars, MIT, created 2025-03-29, pushed 2026-09-18 (GitHub API, as of 2026-09-22)
+- https://github.com/feyninc/chonkie - repository: 4,770 stars, MIT, created 2025-03-29, pushed 2026-09-18 (GitHub API, as of 2026-09-25)
 - https://raw.githubusercontent.com/feyninc/chonkie/main/README.md - chunker table, 505KB core, self-hosted API server, stale Cloud link
 - https://pypi.org/pypi/chonkie/json - version 1.7.0 (2026-07-07), 62 releases, Python >=3.10, MIT
-- https://pypistats.org/api/packages/chonkie/recent - 1,020,031 downloads last month, as of 2026-09-21 (rate-limited when re-checked 2026-09-22)
+- https://pypistats.org/api/packages/chonkie/recent - 1,138,639 downloads last month, as of 2026-09-25
 - https://docs.chonkie.ai - official docs, Python and JavaScript support, agent skills distribution
 - https://news.ycombinator.com/item?id=44225930 - Launch HN (YC X25), 151 points, 2025-06-09: founders, 15MB versus 80-170MB, 33x token chunking claims (vendor tests)
 - https://news.ycombinator.com/item?id=42100819 - original Show HN, 199 points, 2024-11-10, under the now-deleted bhavnicksm/chonkie

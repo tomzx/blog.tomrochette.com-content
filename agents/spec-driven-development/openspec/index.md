@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 OpenSpec is Fission AI's MIT-licensed spec-driven development toolkit for AI coding assistants: a lightweight CLI and slash-command workflow where every change is a delta proposal (proposal, specs, design, tasks) that implements, then archives into a living spec ledger under `openspec/`.
-Facts below verified as of 2026-09-21.
+Facts below verified as of 2026-09-25.
 
 **OpenSpec is the brownfield answer the spec movement was missing: instead of scaffolding a ceremony, it versions the spec itself as change proposals that accumulate, and about 70k stars plus 1.8 million npm downloads a month say the delta model is what iterative teams actually wanted.**
 

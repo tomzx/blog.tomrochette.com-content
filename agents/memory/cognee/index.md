@@ -1,7 +1,7 @@
 ---
 title: Cognee
 created: 2026-08-26
-updated: 2026-09-20
+updated: 2026-09-25
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, memory, agent-memory, knowledge-graphs, open-source]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Cognee is Topoteretes' open-source AI memory platform: a pipeline that turns documents and interactions into graph-plus-vector memory you can run entirely yourself, with an optional flat-priced cloud.
-Facts below verified as of 2026-09-22.
+Facts below verified as of 2026-09-25.
 
 **Cognee is the self-hoster's memory platform: the entire engine, including the parts Mem0 and Zep keep behind the paid tier, is Apache-2.0, and the trade is that you operate the graph, vector, and relational backends yourself.**
 
@@ -24,8 +24,9 @@ Cognee Cloud runs the same engine managed, on gpt-oss-120b, OpenAI's open-weight
 ## Status
 
 **Active and fast-moving.**
-About 30.9k GitHub stars as of 2026-09-22, repository pushed 2026-09-23 UTC, and v1.6.0 (September 18, 2026) still the latest release per the PyPI JSON API.
+About 31k GitHub stars as of 2026-09-25, repository pushed 2026-09-24 UTC, and v1.6.1 (September 24, 2026) the latest release per the PyPI JSON API.
 v1.6.0 is the keyless-first release: many flows now run with no LLM key, pipelines stamp runs at start and recover after crashes, a cognee-mcp client/server package lands for integrations, and the default Docker image drops GLiNER, a breaking change self-hosters must patch around.
+v1.6.1 (September 24) adds Google Drive and Gmail ingestion with the Google connectors bundled into the SDK, chunked graph-visualization streaming for large subgraphs, and a GLiNER installer that defers the CPU Torch download to first use, and it promotes dlt to a core dependency, which breaks source installs that manage dependencies manually.
 The company is part of the Berkeley Xcelerator and claims 5M+ SDK runs per month (vendor figure).
 The community discussion footprint is thin for the star count: its two Show HN threads drew 9 and 6 points, so third-party scrutiny lags the repository's popularity.
 
@@ -73,6 +74,7 @@ Not for solo coding-agent work, where plain files win, or for anyone without the
 - 2026-09-09 - Standard cloud price cut from $2.50 to $1.00 per 1M tokens; note, matrix cell, and choosing bullet updated.
 - 2026-09-20 - Recorded v1.6.0 (September 18): keyless-first flows, crash-recovering pipelines, a cognee-mcp client/server package, and GLiNER removed from the default Docker image.
 - 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
+- 2026-09-25 - Recorded v1.6.1 (September 24): Google Drive and Gmail sync with bundled connectors, chunked visualization streaming, a deferred-install GLiNER setup, and dlt promoted to a core dependency; refreshed stars to about 31k.
 
 ## See also
 
@@ -83,10 +85,10 @@ Not for solo coding-agent work, where plain files win, or for anyone without the
 
 ## References
 
-- https://github.com/topoteretes/cognee - source, Apache-2.0, about 30.9k stars, as of 2026-09-22
+- https://github.com/topoteretes/cognee - source, Apache-2.0, about 31k stars, as of 2026-09-25
 - https://www.cognee.ai/ - v1 announcement, integration list, Berkeley Xcelerator, 5M+ SDK runs claim
-- https://www.cognee.ai/pricing - cloud tiers, per-token rate, workspace fee, gpt-oss-120b default, Enterprise bi-temporal memory listing, as of 2026-09-22 (the $1.00 Standard rate held since the 2026-09-09 cut)
+- https://www.cognee.ai/pricing - cloud tiers, per-token rate, workspace fee, gpt-oss-120b default, Enterprise bi-temporal memory listing, as of 2026-09-25 (the $1.00 Standard rate held since the 2026-09-09 cut)
 - https://docs.cognee.ai/ - architecture, multi-user mode, SDK and integration surfaces
-- https://pypi.org/pypi/cognee/json - v1.6.0 released September 18, 2026
+- https://pypi.org/pypi/cognee/json - v1.6.1 released September 24, 2026
 - https://news.ycombinator.com/item?id=44169594 - Show HN, June 2025, the 9-point thread
 - https://news.ycombinator.com/item?id=43031915 - Show HN, February 2025, the 6-point thread

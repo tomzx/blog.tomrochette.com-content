@@ -1,7 +1,7 @@
 ---
 title: "Task Management Feature Matrix"
 created: 2026-08-27
-updated: 2026-09-24
+updated: 2026-09-25
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, comparison, task-management, task-tracking]
 readability: 3
@@ -30,7 +30,7 @@ Each column links to the full research note; every cell below traces to a source
 | PRD ingestion | ✗ manual task creation | ✗ manual task creation | ~ opt-in PRD artifact inside the planner conversation | ✓ `parse-prd` pipeline |
 | Agent integrations | Claude Code, Codex, Gemini CLI, Kiro, Cursor, MCP | `bd init` for Codex, Claude, Factory, Cursor, plus AGENTS.md and MCP | runners Claude Code, Codex, OpenCode built in, plugins beyond; planner can be a coding agent or one of 25 API providers | MCP server and CLI, documented for Cursor, Claude Code, Windsurf, VS Code, Q CLI |
 | Pricing | free | free | free | CLI free, Hamster $40 per creator per month |
-| Current status | active, about 6.8k stars | active, about 27.3k stars, 1,247 open issues, v1.3.1-rc.1 prerelease 2026-09-21 | active, 132 stars, v0.4.19 (2026-09-10) | repo quiet since April 2026, product alive at Hamster |
+| Current status | active, about 6.8k stars | active, about 27.3k stars, 1,247 open issues, v1.3.1-rc.1 prerelease 2026-09-21 | active, 144 stars, v0.4.23 (2026-09-23) | repo quiet since April 2026, product alive at Hamster |
 
 ## Reading the matrix
 
@@ -57,6 +57,7 @@ Its 132 stars and v0.4.x release line make it the least proven column, and its n
 - 2026-09-16 - Extended from three to four columns with Ordewell (inserted alphabetically), every row gaining a cell traced to the new note, and the reading and choosing prose extended to the planner layer.
 - 2026-09-21 - Refreshed the beads status cell (new v1.3.1-rc.1 prerelease and issue count).
 - 2026-09-24 - Removed the verification preamble line on owner request.
+- 2026-09-25 - Refreshed the Ordewell status cell (144 stars, v0.4.23 of 2026-09-23).
 
 ## See also
 

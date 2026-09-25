@@ -1,7 +1,7 @@
 ---
 title: Happy Coder
 created: 2026-09-06
-updated: 2026-09-22
+updated: 2026-09-24
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, mobile, claude-code, codex]
 readability: 3
@@ -12,7 +12,7 @@ audience_notes: >
 
 Happy Coder is an MIT-licensed open-source client that wraps Claude Code and Codex sessions on your machine and syncs them end-to-end encrypted to native iOS, Android, macOS, and web apps.
 **It passed 23k stars as a thin wrapper around two harnesses, second only to cmux among the category's maintained tools, which says the phone screen, not the orchestrator, is what people install.**
-Facts below verified as of 2026-09-22.
+Facts below verified as of 2026-09-24.
 
 ## What it is
 
@@ -26,7 +26,7 @@ The README describes the makers as a community of engineers building for themsel
 Active and second only to cmux among maintained category tools on stars: 23,875 GitHub stars as of 2026-09-22 (the orphaned Vibe Kanban repo holds more, about 28k, but has shipped nothing since April), created July 2025, last pushed 2026-09-22.
 cli-1.2.5 reached stable on 2026-09-22, following cli-1.2.4 (2026-09-13) and the 1.2.5 betas.
 Its August 2025 Show HN drew only 30 points, so the star count is bottom-up adoption rather than press traction.
-For scale, Paseo, the category's other mobile-first entrant, reports about 17.9k stars against Happy's 23.9k.
+For scale, Paseo, the category's other mobile-first entrant, reports about 18.5k stars against Happy's 23.9k.
 
 ## Strengths
 

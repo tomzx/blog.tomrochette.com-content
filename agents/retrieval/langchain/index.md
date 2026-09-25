@@ -1,7 +1,7 @@
 ---
 title: LangChain
 created: 2026-08-24
-updated: 2026-09-20
+updated: 2026-09-25
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, rag, agents, frameworks]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 LangChain is the largest open source LLM application framework, repositioned in 2026 as an "agent engineering platform" spanning the create_agent harness, LangGraph orchestration, Deep Agents, and a terminal coding agent called dcode.
-Facts below verified as of 2026-09-22.
+Facts below verified as of 2026-09-25.
 
 **The coding-agent angle is now real and first-party: LangChain ships its own terminal coding agent, which moves it from "tooling you might build on" to "competitor in your harness choice".**
 
@@ -24,7 +24,7 @@ The commercial side is LangSmith: tracing, evaluation, deployment, sandboxes, an
 ## Status
 
 Active and dominant by footprint.
-The `langchain-ai/langchain` repository shows 146.9k stars and 24.6k forks as of 2026-09-22, with 16,837 commits as of 2026-09-22.
+The `langchain-ai/langchain` repository shows 147.0k stars and 24.6k forks as of 2026-09-25, with 16,852 commits as of 2026-09-25.
 **The telling history: after the 2024 "death by abstraction" wave, the company publicly moved to lower-level primitives (LangGraph, then create_agent), and is now climbing back up with Deep Agents, dcode, and OpenWiki, a CLI that writes agent wikis for coding agents.**
 
 ## Strengths
@@ -70,6 +70,7 @@ Disagree if you like; the retrieval-first framing is my call, not the docs'.
 - 2026-08-24 - Created among the seed notes of the Retrieval category.
 - 2026-09-18 - Refreshed volatile facts for the 2026-09-18 verification: 146.6k stars, 24.5k forks, 16,782 commits, LangSmith pricing re-confirmed unchanged.
 - 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
+- 2026-09-25 - Refreshed volatile facts: 147.0k stars, 24.6k forks, 16,852 commits as of 2026-09-25; LangSmith pricing re-confirmed unchanged.
 
 ## See also
 
@@ -80,7 +81,7 @@ Disagree if you like; the retrieval-first framing is my call, not the docs'.
 
 ## References
 
-- https://github.com/langchain-ai/langchain - repository scale (146.9k stars), MIT license, platform positioning, as of 2026-09-22
+- https://github.com/langchain-ai/langchain - repository scale (147.0k stars), MIT license, platform positioning, as of 2026-09-25
 - https://docs.langchain.com/oss/deepagents/code/overview.md - dcode, the terminal coding agent built on Deep Agents
 - https://docs.langchain.com/oss/python/langchain/retrieval.md - RAG architectures: 2-step, agentic, hybrid, and the agentic-RAG-first framing
 - https://www.langchain.com/pricing - LangSmith tiers and LCU/LSU metering, as of 2026-09-22

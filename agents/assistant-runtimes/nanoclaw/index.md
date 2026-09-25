@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 NanoClaw is a MIT-licensed Node.js personal agent (nanocoai) that runs each agent in its own Linux container, born as a 500-line rewrite of the OpenClaw idea that now stands at about 30.8k stars.
-Facts below verified as of 2026-09-22.
+Facts below verified as of 2026-09-24.
 
 **NanoClaw's product is auditability: a codebase small enough to hold in your head and a container wall between the agent and your life, a direct rebuttal of the half-million-line root it responds to.**
 
@@ -25,7 +25,7 @@ Each agent group gets its own container, workspace, memory, and mounts; Slack pr
 ## Status
 
 Active and independently credible.
-As of 2026-09-22: 30,834 stars and 12,826 forks since creation on 2026-01-31, pushed today, 1,073 open issues.
+As of 2026-09-24: 30,843 stars and 12,820 forks since creation on 2026-01-31, pushed today, 1,073 open issues.
 The [533-point launch thread](https://news.ycombinator.com/item?id=46850205) pitched it as "Clawdbot in 500 lines of TS with Apple container isolation", followed by a 169-point thread on the move from Apple Containers to Docker and a 112-point thread on adopting the OneCLI Agent Vault.
 The family is real: microclaw (734 stars) describes itself as inspired by NanoClaw, and the prompt-security clawsec suite explicitly covers it.
 

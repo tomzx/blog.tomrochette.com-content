@@ -1,7 +1,7 @@
 ---
 title: "Sandboxing Feature Matrix"
 created: 2026-08-30
-updated: 2026-09-24
+updated: 2026-09-25
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3-flash, comparison, sandboxing, isolation, security]
 readability: 3
@@ -29,8 +29,8 @@ Each column links to the full research note; every cell below traces to a source
 | Agent integration | none specific, bring your own | tool-agnostic wrapper | any sandbox that mounts FUSE | wraps Claude Code, Codex, pi, or a shell | E2B SDK drop-in, base-URL swap | hooks, useSandbox API | 5 SDK languages, osb CLI, MCP server | 4 first-class, BYOC |
 | Policy model | K8s RBAC plus RuntimeClass | per-project YAML deny rules | ✗ n/a, provisioning only | network allow-list, forge pre-allowed | eBPF inter-sandbox isolation plus L7 per-domain egress policy | tier choice plus env allowlist | ingress gateway plus per-sandbox egress controls | declarative YAML, auditable |
 | Credential handling | your K8s secrets | egress allowlist, stdout masking | ✗ n/a | secrets stay on host, ssh-agent forwarded | ✓ credential vault, keys injected at egress gateway | env allowlist per tier | ✓ credential vault for outbound requests | ✓ keys stay at inference proxy |
-| Maturity | v1.0.3 tag, v1beta1 API, breaking migrations | v1.0.0, 14 stars, no audit | 1.0.0-rc, no releases, beta | pre-1.0 (v0.4.0), own breaking-changes banner | pre-1.0 (v0.7.1), five months old | first stable v2.0 after rewrite | pre-1.0 (server/v0.2.3), component versioning | alpha, v0.0.x |
-| Community signal | 3.9k stars, Google-backed | 14 stars, 0 issues, footprint is the signal | 1.1k stars, 217-point HN launch | 1.0k stars, 226-point HN launch, quiet since August | 12.6k stars, best HN thread 7 points | 8.3k stars, single dominant author | 15.4k stars, no real HN launch, Trendshift-driven | 8.7k stars, ~120 contributors |
+| Maturity | v1.0.4 tag, v1beta1 API, breaking migrations | v1.0.0, 14 stars, no audit | 1.0.0-rc, no releases, beta | pre-1.0 (v0.4.0), own breaking-changes banner | pre-1.0 (v0.7.2), five months old | first stable v2.0 after rewrite | first stable 1.1.0 umbrella release | alpha, v0.0.x |
+| Community signal | 4.0k stars, Google-backed | 14 stars, 0 issues, footprint is the signal | 1.1k stars, 217-point HN launch | 1.0k stars, 226-point HN launch, quiet since August | 12.7k stars, best HN thread 7 points | 8.4k stars, single dominant author | 15.5k stars, no real HN launch, Trendshift-driven | 8.8k stars, ~123 contributors |
 | Pricing | free, cluster costs | free | free, Artifacts service metered | free | free, self-hosted fleet | free, provider costs | free, self-hosted | free |
 
 ## Reading the matrix
@@ -65,6 +65,7 @@ A matrix that pretended all eight were equivalent would be lying by layout.
 - 2026-09-18 - Agent Sandbox maturity cell updated to the v1.0.3 tag (released 2026-09-17); every other cell re-verified against the refreshed notes and unchanged.
 - 2026-09-21 - Refreshed the community-signal cells for CubeSandbox (12.6k), Flue (8.3k), OpenSandbox (15.4k), and OpenShell (8.7k stars, ~120 contributors); all other cells re-verified unchanged.
 - 2026-09-24 - Removed the verification preamble line on owner request.
+- 2026-09-25 - Maturity cells refreshed: Agent Sandbox v1.0.4, CubeSandbox v0.7.2, OpenSandbox at its first stable 1.1.0 umbrella release; community-signal cells refreshed (Agent Sandbox 4.0k, CubeSandbox 12.7k, Flue 8.4k, OpenSandbox 15.5k, OpenShell 8.8k stars and about 123 contributors).
 
 ## See also
 

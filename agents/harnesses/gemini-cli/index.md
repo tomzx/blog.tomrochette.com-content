@@ -12,7 +12,7 @@ audience_notes: >
 ---
 
 Gemini CLI is Google's open-source terminal agent for Gemini, Apache-2.0, launched June 25, 2025, and superseded for individual users by Antigravity CLI on June 18, 2026.
-Facts below verified as of 2026-09-22.
+Facts below verified as of 2026-09-24.
 
 **Every 2025 recommendation of Gemini CLI as the free terminal agent is dead advice for individuals: Google stopped serving free and AI Pro/Ultra users on June 18, 2026, and moved the product to Antigravity.**
 
@@ -26,7 +26,7 @@ It authenticated three ways: **Google OAuth (the famous free tier of 60 requests
 **Superseded for consumers, alive for enterprises.**
 On May 19, 2026, Google announced it was unifying terminal agent work into Google Antigravity, whose Antigravity CLI (written in Go, multi-agent, sharing a harness with the Antigravity 2.0 desktop app) carries over skills, hooks, subagents, and extensions.
 On June 18, 2026, Gemini CLI and the Gemini Code Assist IDE extensions stopped serving requests for Google AI Pro and Ultra subscribers and free individual users.
-Enterprise Code Assist Standard/Enterprise licenses and paid API keys keep working, and the repository is still active: about 107.1k stars, 6,430 commits, nightly and preview release channels as of 2026-09-22.
+Enterprise Code Assist Standard/Enterprise licenses and paid API keys keep working, and the repository is still active: about 107.1k stars, 6,437 commits, nightly and preview release channels as of 2026-09-24.
 The README still advertises the free tier, which is stale for individuals; treat the README as the enterprise path's documentation.
 
 ## Strengths

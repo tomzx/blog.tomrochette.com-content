@@ -1,7 +1,7 @@
 ---
 title: Memex
 created: 2026-09-20
-updated: 2026-09-20
+updated: 2026-09-25
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, session-analytics, search, open-source]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Memex is an MIT-licensed Rust CLI and TUI that indexes the session transcripts your coding agents already wrote on disk, searches them with BM25 or optional local embeddings, and resumes a selected session in the harness that produced it.
-Facts below verified as of 2026-09-21.
+Facts below verified as of 2026-09-25.
 
 **Search quality plus resume is the combination this category lacked: agentsview archives and counts cost, ctx retrieves for agents, and Memex answers the human question, where did I already do this, then drops you back into the original session.**
 
@@ -24,7 +24,7 @@ Made by an independent developer, MIT-licensed, with no cloud service in the def
 
 ## Status
 
-Active and quietly growing: created 2026-01-01, 222 stars, 28 forks, pushed 2026-09-18, as of 2026-09-21.
+Active and quietly growing: created 2026-01-01, 228 stars, 30 forks, pushed 2026-09-22, as of 2026-09-25.
 Its Show HN on 2026-09-18 reached 2 points and a single comment, written by the author.
 **The launch footprint is nearly empty, which I read as adoption through word of mouth and through agents rather than through launches, the same reading this category applied to ctx, and as thin independent verification.**
 
@@ -39,7 +39,7 @@ Its Show HN on 2026-09-18 reached 2 points and a single comment, written by the 
 
 - Fifteen engines graded per capability means real unevenness: Cursor resume is CLI-only, Antigravity token counting is unsupported, and several engines have no resume at all.
 - Embeddings and token tracking are off by default, so the semantic-search headline requires opt-in setup and local model downloads.
-- The only community signal beyond 222 stars is an author-commented launch thread, so there is no independent verdict on reliability.
+- The only community signal beyond 228 stars is an author-commented launch thread, so there is no independent verdict on reliability.
 - Experimental session transfers and the announced object-storage sync are the roadmap promises most likely to churn.
 
 ## Pricing
@@ -73,7 +73,7 @@ My disagreeable claim: resume-in-place is the feature every archive tool in this
 ## References
 
 - https://github.com/nicosuave/memex - repository, description, engine support table, surfaces
-- https://api.github.com/repos/nicosuave/memex - stars, forks, dates, MIT license as of 2026-09-21
+- https://api.github.com/repos/nicosuave/memex - stars, forks, dates, MIT license as of 2026-09-25
 - https://raw.githubusercontent.com/nicosuave/memex/main/README.md - features, engine matrix, install, MCP server, herdr plugin
 - https://raw.githubusercontent.com/nicosuave/memex/main/docs/installation.md - brew, AUR, Nix, and cargo install paths
 - https://hn.algolia.com/api/v1/items/49754771 - the 2-point Show HN of 2026-09-18, cited as the thin-footprint signal

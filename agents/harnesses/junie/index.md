@@ -12,7 +12,7 @@ audience_notes: >
 ---
 
 Junie is JetBrains' coding agent: an LLM-agnostic CLI that also ships in JetBrains IDEs and CI, authenticating either to JetBrains or to your own model keys.
-Facts below verified as of 2026-09-22.
+Facts below verified as of 2026-09-24.
 
 **Junie quietly became the most vendor-flexible of the major agents (any provider, any local model, zero markup on keys), and its thin independent community, not its capability, is the actual adoption risk.**
 
@@ -28,7 +28,7 @@ BYOK covers Anthropic, OpenAI, Google, xAI, OpenRouter, Copilot, and local model
 
 **Active.**
 Junie started as an IDE agent in January 2025 (53.6% on SWE-bench Verified at announcement), went GA in April 2025, and the LLM-agnostic CLI followed into beta and beyond.
-The GitHub repository (installer and release channels: release, EAP, nightly, experimental) shows 458 stars as of 2026-09-22.
+The GitHub repository (installer and release channels: release, EAP, nightly, experimental) shows 460 stars as of 2026-09-24.
 In August 2026 JetBrains launched Junie Local, a free on-device build for M5 Macs that runs a bundled, tuned model entirely locally with no registration, subscription, or credits ([launch post](https://blog.jetbrains.com/junie/2026/08/junie-local-launch/)).
 The client is proprietary under JetBrains AI terms; the repo is distribution, not source.
 

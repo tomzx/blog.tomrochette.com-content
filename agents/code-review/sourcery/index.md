@@ -1,7 +1,7 @@
 ---
 title: Sourcery
 created: 2026-08-30
-updated: 2026-09-20
+updated: 2026-09-24
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, code-review, ai-review, developer-tools]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Sourcery is a hosted AI code reviewer for GitHub and GitLab (with IDE plugins and a security scanning layer) from the company behind the older Python refactoring tool of the same name.
-Facts below verified as of 2026-09-21.
+Facts below verified as of 2026-09-24.
 
 ## What it is
 
@@ -22,7 +22,7 @@ IDE surfaces cover PyCharm, VS Code, Sublime, and Vim, a wider editor spread tha
 
 ## Status
 
-**Old by category standards (repo since July 2019), active, and mid-size: 1,869 stars as of 2026-09-21, commits as recent as September 18, 2026.**
+**Old by category standards (repo since July 2019), active, and mid-size: 1,870 stars as of 2026-09-24, commits as recent as September 24, 2026.**
 The PyPI package confirms the refactoring origin ("Magically refactor Python", 23 releases, now at 1.46.0).
 Funding: not verifiable from primary sources, and TechCrunch's only "Sourcery" rounds belong to the unrelated 2014/2016 restaurant startup, so I record none.
 The community footprint is modest: a 15-point Show HN for the refactoring era (27760608, July 7, 2021), a 3-point user comparison against Copilot (43944576, May 10, 2025), and a 1-point criticism thread (44224690, June 9, 2025) accusing the reviewer of being wrong and refusing to admit it.
@@ -31,7 +31,7 @@ The community footprint is modest: a 15-point Show HN for the refactoring era (2
 
 - **Free forever on open source, the lowest-friction on-ramp of any hosted reviewer in this category.**
 - Security scanning folded into the same seat: scanners, findings triage, risk profiles, and agent fixes.
-- The Team tier allows bring-your-own LLM, rare below enterprise pricing.
+- The Team tier bundles security scanning with team analytics and higher review limits, and Enterprise keeps BYO LLM keys beside self-hosting.
 - Docs cover GitHub Enterprise Server and self-hosted GitLab, and Enterprise adds a self-hosting option, so it is not SaaS-only for locked-down shops.
 
 ## Cautions
@@ -39,12 +39,13 @@ The community footprint is modest: a 15-point Show HN for the refactoring era (2
 - **The MIT badge on the repo covers the refactoring tool, not the reviewer, so starring the repo says nothing about the product's openness.**
 - The one substantive independent user test I found on HN reports the reviewer confidently wrong and resistant to correction (44224690), which is exactly the failure mode that gets reviewers muted.
 - No verified funding and a modest community footprint make the long-term trajectory hard to read.
-- The paid tiers throttle usage (3x rate limits at Team), so the cheap tiers are cheap partly by being slower.
+- The paid tiers throttle usage (Team advertises higher review limits, no longer a fixed 3x multiple), so the cheap tiers are cheap partly by being slower.
+- **The tier contents moved in late September 2026: nightly security scans now cover 50 repos where the earlier page promised scans for 200+ repos, and bring-your-own LLM keys moved from Team up to Enterprise.**
 
 ## Pricing
 
-**Freemium per-seat with open source free, as of 2026-09-21.**
-Pro is $12 per seat per month for private repos, Team is $24 (the highlighted tier) adding repo analytics, security scans for 200+ repos, daily scans, 3x rate limits, and BYO LLM, and Enterprise adds self-hosting, priority support, a customer success manager, and invoice billing at custom pricing.
+**Freemium per-seat with open source free, as of 2026-09-24.**
+Pro is $12 per seat per month for private repos ($15 monthly), Team is $24 ($30 monthly) adding codebase security with nightly scans of 50 repos, a full issues dashboard, on-demand scans, team analytics, and higher review limits, and Enterprise adds self-hosting, GitHub Enterprise Server, SSO, bring-your-own LLM keys, a dedicated success manager, and invoice billing at custom pricing.
 Open source repos are fully free.
 
 ## Price history
@@ -52,6 +53,7 @@ Open source repos are fully free.
 | Date | Plan | Change | Source |
 | ---- | ---- | ------ | ------ |
 | 2026-09-18 | Pro, Team | Baseline: Pro $12/seat/mo for private repos, Team $24/seat/mo with BYO LLM, Enterprise custom; open source repos fully free. Re-verified unchanged 2026-09-21. | [sourcery.ai/pricing](https://sourcery.ai/pricing/) |
+| 2026-09-24 | Team, Enterprise | Tier contents reshuffled at unchanged prices: Team now includes nightly security scans of 50 repos (the earlier page promised scans for 200+ repos) and higher review limits (was 3x rate limits), and BYO LLM keys moved from Team to Enterprise. | [sourcery.ai/pricing](https://sourcery.ai/pricing/) |
 
 ## Compared to
 
@@ -69,6 +71,7 @@ My disagreeable take: free-for-open-source is the most underrated go-to-market w
 
 - 2026-08-30 - Created when the entrant candidate pile was processed, as a Code review note.
 - 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
+- 2026-09-24 - Recorded the tier-content reshuffle at unchanged prices: Team's security scans now cover 50 repos nightly (was 200+), the rate-limit wording became "higher review limits" (was 3x), and BYO LLM keys moved from Team to Enterprise.
 
 ## See also
 
@@ -80,9 +83,9 @@ My disagreeable take: free-for-open-source is the most underrated go-to-market w
 
 ## References
 
-- https://github.com/sourcery-ai/sourcery - repo, 1,869 stars, MIT, pushed September 18, 2026 (GitHub API, as of 2026-09-21)
+- https://github.com/sourcery-ai/sourcery - repo, 1,870 stars, MIT, pushed September 24, 2026 (GitHub API, as of 2026-09-24)
 - https://sourcery.ai/ - product page
-- https://sourcery.ai/pricing/ - tiers as of 2026-09-21
+- https://sourcery.ai/pricing/ - tiers as of 2026-09-24
 - https://docs.sourcery.ai/reference/faq/ - docs FAQ covering plans, security scanning, BYO LLM, self-hosting (the former Product/Plans page redirects here)
 - https://pypi.org/pypi/sourcery/json - the Python refactoring package, "Magically refactor Python", 23 releases
 - https://hn.algolia.com/api/v1/items/27760608 - Show HN for the refactoring era, 15 points, July 7, 2021

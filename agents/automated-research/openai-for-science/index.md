@@ -1,7 +1,7 @@
 ---
 title: OpenAI for Science
 created: 2026-09-13
-updated: 2026-09-13
+updated: 2026-09-25
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, openai, mathematics, science]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 OpenAI for Science is the lab program, launched October 2025 under Kevin Weil, that points frontier models at scientific and mathematical research, and within a year it produced both a genuine first and the messiest credit dispute in the category.
-Facts below verified as of 2026-09-21.
+Facts below verified as of 2026-09-25.
 
 **The program shows the ceiling and the failure modes of lab-run automated research at once: real results exist, but every headline arrived wrapped in overclaims, deleted posts, or a dispute over who did the work.**
 
@@ -24,11 +24,11 @@ The program backs academic researchers with free and discounted access, and publ
 
 ## Status
 
-Active and escalating fast, as of 2026-09-18.
+Active and escalating fast, as of 2026-09-25.
 October 2025: senior OpenAI figures posted that GPT-5 had solved unsolved math problems; mathematicians showed the model had dug existing solutions out of old papers, and the posts were deleted.
 March 2026: GPT-5.4 solved the first open problem from Epoch AI's FrontierMath benchmark (a hypergraph-theory constant-factor bound), the benchmark of 14 bespoke unsolved problems explicitly built below Millennium scale.
 May 2026: OpenAI announced an internal model had disproved the Erdős unit distance conjecture, a result experts treated as genuinely productive.
-September 2026: OpenAI published a claimed proof of forced blow-up in R3 and T3 for the Navier-Stokes equations, a Millennium Prize Problem, attributed to an internal model "with very little human input"; NYU's Tristan Buckmaster and Anthropic's Levent Alpöge, who had solved the related Euler problem with checkable proofs, disputed credit, OpenAI's Sébastien Bubeck denied trying to cut Alpöge from authorship and apologized for a remark about his career, Sam Altman backed Bubeck and confirmed OpenAI had started the project after rumors that Anthropic's models had solved Millennium problems, and no independent process has tested either account.
+September 2026: OpenAI published a claimed proof of forced blow-up in R3 and T3 for the Navier-Stokes equations, a Millennium Prize Problem, attributed to an internal model "with very little human input", and shipped it with a public Lean 4 formalization (about 616,000 lines, no extra axioms per a third-party audit, formalized in 17 hours via GPT-6 Astra per OpenAI); NYU's Tristan Buckmaster and Anthropic's Levent Alpöge, who published their own Lean-verified forced Euler proofs hours earlier, disputed credit, OpenAI's Sébastien Bubeck denied trying to cut Alpöge from authorship and apologized for a remark about his career, Sam Altman backed Bubeck and confirmed OpenAI had started the project after rumors that Anthropic's models had solved Millennium problems, and no independent process has adjudicated either account, while Clay still lists the problem as unsolved and OpenAI says it will not claim the prize.
 
 ## Strengths
 
@@ -40,7 +40,7 @@ September 2026: OpenAI published a claimed proof of forced blow-up in R3 and T3 
 ## Cautions
 
 - The overclaim pattern is documented: the October 2025 episode ended with deleted posts, and Weil now says models are "not there yet" for novel discovery.
-- The Navier-Stokes claim is vendor-published, unverified by any independent body, and entangled in a he-said-he-said credit dispute.
+- The Navier-Stokes claim ships with a checkable Lean artifact, but a Lean certificate only verifies the encoded statement: the fit to Clay's formulation is still being audited, and the credit dispute is unadjudicated.
 - OpenAI wrote that it "cannot rule out" that the mathematicians' own Codex usage data helped improve the models involved.
 - Independent scientists keep finding subtle errors in celebrated results, including a published paper whose core GPT-5-proposed idea tested the wrong property.
 
@@ -52,7 +52,7 @@ The surrounding stack is plan-based: the case studies feature GPT-5 Pro at $200 
 ## Compared to
 
 - [Anthropic Claude mathematical research](../anthropic-claude-math/index.md): the rival lab loop, which ships machine-checkable artifacts and named reviewers; OpenAI's disputed claims currently rest on vendor write-ups.
-- [AlphaProof](../alphaproof/index.md): DeepMind submits to official third-party grading (the IMO), the verification path OpenAI's Millennium claims have not yet faced.
+- [AlphaProof](../alphaproof/index.md): DeepMind submits to official third-party grading (the IMO); OpenAI's Millennium claim has a checkable artifact but no official grader.
 - [OpenAI Deep Research](../openai-deep-research/index.md): the productized tool tier the program sits above.
 
 ## Bottom line
@@ -63,6 +63,7 @@ Not a source of settled results as of 2026-09-18; treat the Navier-Stokes claim 
 ## Changes
 
 - 2026-09-13 - Created as the OpenAI lab-program member of the new Automated research category.
+- 2026-09-25 - Recorded that the Navier-Stokes claim shipped with a public Lean 4 formalization (audited at about 616,000 lines with no extra axioms), that Buckmaster and Alpöge published their own Lean-verified Euler certificates, and reworked the verification caution accordingly.
 
 ## See also
 
@@ -78,3 +79,4 @@ Not a source of settled results as of 2026-09-18; treat the Navier-Stokes claim 
 - https://en.wikipedia.org/wiki/FrontierMath - the Epoch AI benchmark, its below-Millennium scope, and the GPT-5.4 open-problem solve
 - https://en.wikipedia.org/wiki/GPT-5.4 - the March 2026 model generation behind the benchmark first
 - https://mashable.com/tech/anthropic-fable-5-disproves-jacobian-conjecture - the May 2026 unit-distance disproof context and expert reads on AI counterexamples
+- https://stanfordtechreview.com/articles/openai-buckmaster-navier-stokes-lean-proofs - the third-party audit of both sides' Lean certificates (line counts, zero extra axioms)

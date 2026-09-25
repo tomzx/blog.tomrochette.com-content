@@ -1,7 +1,7 @@
 ---
 title: OpenWork
 created: 2026-08-30
-updated: 2026-09-22
+updated: 2026-09-24
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, assistant-runtimes, cowork, desktop, open-source]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 OpenWork is a free, MIT-licensed desktop app for macOS, Windows, and Linux that runs AI agent sessions on local files with shared skills, MCP connections, browser automation, and scheduled tasks, positioned as the open alternative to Anthropic's Claude Cowork and built on top of OpenCode.
-Facts below verified as of 2026-09-22.
+Facts below verified as of 2026-09-24.
 
 **OpenWork is the Cowork clone that outlived the clone jokes: seven and a half months of signed, weekly releases to 23.7k stars, an MCP gateway that makes its skills portable to any agent, and a license split that is the first thing a serious adopter should read.**
 
@@ -24,8 +24,8 @@ By different-ai (Benjamin Shafii), YC-backed.
 
 ## Status
 
-Alive and shipping hard: 23,702 stars, 2,383 forks, 530 open issues and PRs as of 2026-09-22, created 2026-01-14, pushed today.
-v0.18.42 on 2026-09-02 (signed Windows installers) through v0.18.50 on 2026-09-22, multiple releases per week.
+Alive and shipping hard: 23,720 stars, 2,386 forks, 545 open issues and PRs as of 2026-09-24, created 2026-01-14, pushed today.
+v0.18.42 on 2026-09-02 (signed Windows installers) through v0.18.52 on 2026-09-24, multiple releases per week.
 **It outlived its launch-week skepticism, but the founder still carries 2,911 of the top contributors' roughly 4,000 commits.**
 
 ## Strengths
@@ -44,9 +44,9 @@ v0.18.42 on 2026-09-02 (signed Windows installers) through v0.18.50 on 2026-09-2
 
 ## Pricing
 
-Free (Solo): $0 forever, the MIT open-source desktop app with BYO keys, macOS and Linux downloads, no user cap stated on the pricing page, as of 2026-09-22.
-Team Starter: $10 per seat per month with the first 5 seats free (API access, extension marketplace, distributed LLM keys), as of 2026-09-22.
-Enterprise: custom pricing (everything in Team Starter plus SSO/SAML and SCIM, BYO inference with self-hosted or private models, desktop policies and version controls, managed deployment self-hosted or hosted, custom skill development and MCP consulting, rollout support), as of 2026-09-22, with existing organizations already using SSO or desktop policies grandfathered at full access.
+Free (Solo): $0 forever, the MIT open-source desktop app with BYO keys, macOS and Linux downloads, no user cap stated on the pricing page, as of 2026-09-24.
+Team Starter: $10 per seat per month with the first 5 seats free (API access, extension marketplace, distributed LLM keys), as of 2026-09-24.
+Enterprise: custom pricing (everything in Team Starter plus SSO/SAML and SCIM, BYO inference with self-hosted or private models, desktop policies and version controls, managed deployment self-hosted or hosted, custom skill development and MCP consulting, rollout support), as of 2026-09-24, with existing organizations already using SSO or desktop policies grandfathered at full access.
 The Den control plane inside the repo stays free for organizations up to five users, free to evaluate for 30 days at any size, and each `ee/` release converts to MIT two years after publication.
 
 ## Price history
@@ -86,6 +86,7 @@ Not for teams that need a sandboxed security boundary the product does not provi
 - 2026-09-20 - Pricing churned a seventh time: the free tier is named Free and capped at 5 users, Team is $10 per seat up to 100 users, and Enterprise returned to $40 per user per month, the grandfather clause is gone from the pricing page, and a Price history table now records the full churn.
 - 2026-09-21 - Pricing churned an eighth time: the free tier is renamed Solo (free forever, no user cap stated), the team tier is Team Starter at $10 per seat with the first 5 seats free, and Enterprise returned to custom pricing with the grandfather clause restored.
 - 2026-09-22 - Recorded releases through v0.18.50 (2026-09-22), with refreshed adoption numbers and pricing re-checked unchanged for a second consecutive day.
+- 2026-09-24 - Recorded releases through v0.18.52 (2026-09-24), with refreshed adoption numbers and pricing re-checked unchanged for a fourth consecutive day despite a pricing-presentation note in the v0.18.50 release notes.
 
 ## See also
 
@@ -100,6 +101,6 @@ Not for teams that need a sandboxed security boundary the product does not provi
 - https://raw.githubusercontent.com/different-ai/openwork/HEAD/README.md - the directory-split licensing terms and gateway
 - https://openworklabs.com - product scope and the built-on-OpenCode positioning
 - https://openworklabs.com/pricing - the tiers for the pricing rows
-- https://api.github.com/repos/different-ai/openwork/releases - the release tags through v0.18.50 (2026-09-22)
+- https://api.github.com/repos/different-ai/openwork/releases - the release tags through v0.18.52 (2026-09-24)
 - https://github.com/different-ai/openwork/releases/tag/v0.18.42 - release cadence and installer signing
 - https://news.ycombinator.com/item?id=46612494 - the launch thread with the security-boundary questions

@@ -1,7 +1,7 @@
 ---
 title: "Kimi Code"
 created: 2026-09-05
-updated: 2026-09-22
+updated: 2026-09-24
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, cli, coding-agent, moonshot, byok]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 **Kimi Code CLI is Moonshot AI's terminal coding agent, and it is the first big-model-vendor harness whose default path is a challenger model instead of Claude or GPT.**
-Facts below verified as of 2026-09-22.
+Facts below verified as of 2026-09-24.
 
 ## What it is
 
@@ -22,7 +22,7 @@ The code lives in two repositories: the original `MoonshotAI/kimi-cli` (Apache-2
 
 ## Status
 
-Active and big-vendor backed, about 19.0k combined stars as of 2026-09-22: `kimi-code` at 7,616 stars, `kimi-cli` at 11,423 stars last pushed 2026-09-22.
+Active and big-vendor backed, about 19.1k combined stars as of 2026-09-24: `kimi-code` at 7,661 stars, `kimi-cli` at 11,431 stars last pushed 2026-09-22.
 **The independent FrontierHarness Eval pegs it mid-pack on quality and cheap on cost: 56.7 percent pass at a $3.65 median cost per task, with an 88 percent cache rate on Kimi K3.**
 The Hacker News footprint is thin (a 5-point 2025-10-31 thread and a 1-point 2026-01-27 one), which I read as distribution through Kimi's own channels rather than developer-mindshare gravity.
 
@@ -42,7 +42,7 @@ The old codebase still shipped a 1.52.0 release on September 22, 2026, so treat 
 ## Pricing
 
 The harness is free and open source.
-Usage is Kimi Code OAuth (your Kimi subscription) or a Moonshot Open Platform API key: kimi-k3 at $3.00/$15.00 per million tokens (cache hits $0.30) and kimi-k2.7-code at $0.71/$3.30 (cache hits $0.18) as of 2026-09-22 (verified via [OpenRouter's model list](https://openrouter.ai/api/v1/models); Moonshot's CN platform listed the same models at ¥20/¥100 and ¥6.50/¥27 as of 2026-09-09), with other OpenAI-compatible providers configurable.
+Usage is Kimi Code OAuth (your Kimi subscription) or a Moonshot Open Platform API key: kimi-k3 at $3.00/$15.00 per million tokens (cache hits $0.30) and kimi-k2.7-code at $0.66/$3.30 (cache hits $0.18) as of 2026-09-24 (verified via [OpenRouter's model list](https://openrouter.ai/api/v1/models); Moonshot's CN platform listed the same models at ¥20/¥100 and ¥6.50/¥27 as of 2026-09-09), with other OpenAI-compatible providers configurable.
 
 ## Price history
 
@@ -51,6 +51,7 @@ Usage is Kimi Code OAuth (your Kimi subscription) or a Moonshot Open Platform AP
 | 2026-09-09 | Moonshot CN platform | kimi-k3 at ¥20/¥100 and kimi-k2.7-code at ¥6.50/¥27 per million tokens; harness free and open source. | Moonshot CN platform listing, see References |
 | 2026-09-20 | API (OpenRouter) | kimi-k3 at $1.70/$8.50 per million tokens (cache hits $0.17), kimi-k2.7-code at $0.71/$3.21. | [OpenRouter model list](https://openrouter.ai/api/v1/models) |
 | 2026-09-22 | API (OpenRouter) | kimi-k3 raised to $3.00/$15.00 per million tokens (cache hits $0.30); kimi-k2.7-code completion raised to $3.30 (cache hits $0.18). | [OpenRouter model list](https://openrouter.ai/api/v1/models) |
+| 2026-09-24 | API (OpenRouter) | kimi-k2.7-code input dropped to $0.66 per million tokens (completion $3.30 and cache $0.18 unchanged); kimi-k3 unchanged at $3.00/$15.00. | [OpenRouter model list](https://openrouter.ai/api/v1/models) |
 
 ## Compared to
 
@@ -73,6 +74,7 @@ Not for teams that need local models, or anyone who needs more than one independ
 - 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
 - 2026-09-22 - Recorded the kimi-k3 price rise on OpenRouter to $3.00/$15.00 per million tokens (cache hits $0.30) and the kimi-k2.7-code completion rise to $3.30 (cache hits $0.18).
 - 2026-09-22 - Noted kimi-cli shipping 1.52.0 on September 22 despite the migration notice, and refreshed repository counters.
+- 2026-09-24 - Recorded the kimi-k2.7-code input price drop on OpenRouter to $0.66 per million tokens (completion and cache unchanged, kimi-k3 unchanged) and refreshed repository counters.
 
 ## See also
 

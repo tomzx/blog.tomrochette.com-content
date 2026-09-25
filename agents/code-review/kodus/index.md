@@ -1,7 +1,7 @@
 ---
 title: Kodus
 created: 2026-08-30
-updated: 2026-09-20
+updated: 2026-09-24
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, code-review, ai-review, open-source, developer-tools]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Kodus is an open-source AI code reviewer named Kody (AGPL-3.0 plus a commercial enterprise-edition dual license) that reviews pull requests on GitHub, GitLab, Bitbucket, and Azure Repos, self-hosted or via Kodus Cloud, with whatever model you bring.
-Facts below verified as of 2026-09-21.
+Facts below verified as of 2026-09-24.
 
 ## What it is
 
@@ -22,8 +22,8 @@ BYOK covers OpenAI, Anthropic, Google Gemini, Vertex AI, Novita, and any OpenAI-
 
 ## Status
 
-**Active and small: commits this week, with 1,409 stars and 153 forks as of 2026-09-21.**
-The repo (kodustech/kodus-ai) was created March 28, 2025 and was pushed to on September 19, 2026.
+**Active and small: commits this week, with 1,416 stars and 159 forks as of 2026-09-24.**
+The repo (kodustech/kodus-ai) was created March 28, 2025 and was pushed to on September 24, 2026.
 Funding: I could not verify any funding round from a primary source, so I record none.
 The community footprint is thin, and I state that as a finding: five HN launches between 1 and 5 points, the largest being a 5-point Show HN for the CLI (47248299, March 4, 2026) and a 4-point one for the AGPL/BYOK repositioning (48049508, May 7, 2026).
 A Discord community exists, but I found no independent reviews or benchmarks corroborating the quality claims.
@@ -73,6 +73,7 @@ My disagreeable take: I trust a reviewer whose business model survives zero toke
 - 2026-09-02 - Recorded the pricing restructure (Community free, Teams BYOK $10 per developer, Enterprise) and updated matrix pricing cells.
 - 2026-09-05 - Added the Teams $8 per developer annual option alongside the $10 monthly rate.
 - 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
+- 2026-09-24 - Refreshed the repo numbers to 1,416 stars and 159 forks with a same-day push; tiers and prices unchanged.
 
 ## See also
 
@@ -84,9 +85,9 @@ My disagreeable take: I trust a reviewer whose business model survives zero toke
 
 ## References
 
-- https://github.com/kodustech/kodus-ai - repo, 1,409 stars, 153 forks, AGPL-3.0 + EE dual license, pushed September 19, 2026 (GitHub API, as of 2026-09-21)
+- https://github.com/kodustech/kodus-ai - repo, 1,416 stars, 159 forks, AGPL-3.0 + EE dual license, pushed September 24, 2026 (GitHub API, as of 2026-09-24)
 - https://kodus.io/ - product page and positioning
-- https://kodus.io/pricing/ - Community free, Teams BYOK $10/dev, Enterprise custom, no-markup FAQ, as of 2026-09-21
+- https://kodus.io/pricing/ - Community free, Teams BYOK $10/dev, Enterprise custom, no-markup FAQ, as of 2026-09-24
 - https://docs.kodus.io/ - documentation hub and self-host guide
 - https://docs.kodus.io/how_to_deploy/en/deploy_kodus/telemetry - self-hosted anonymous heartbeat and opt-out
 - https://hn.algolia.com/api/v1/items/43572816 - Show HN launch, 3 points, April 3, 2025

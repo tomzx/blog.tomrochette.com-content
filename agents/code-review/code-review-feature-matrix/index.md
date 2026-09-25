@@ -30,7 +30,7 @@ Each column links to the full research note; every cell traces to a source cited
 | Learns team rules | ✓ learnings | ~ agents-as-code config you write | ~ custom rules | ✓ from review comments, isolated per organization | ✓ plain-language rules, workflow learning | ✗ fixed rule pipeline | ~ best-practices files you curate | ? |
 | License | ✗ proprietary, free forever for public repos | ✗ closed core, small OSS tooling repos | ✗ proprietary, Cursor-owned | ✗ proprietary | ~ AGPL-3.0 core, ee/ paths commercial | ✓ Apache-2.0 | ~ PR-Agent MIT, Qodo Merge proprietary | ✗ reviewer proprietary, the MIT repo is the refactoring lineage |
 | Pricing anchor | Essentials (ex-Pro) $24, Team (ex-Pro Plus) $48 per user/mo annual, new Advanced $72 annual ($90 monthly) with variable-priced full scans, public repos free | tokens at cost plus a 10% fee, free for individuals on a Claude Code or Codex subscription, support packages from $5k/mo | Hobby free, Starter $20, Team $40 per user/mo | $30/seat plus credits, $1 per extra credit | Community free, Teams BYOK $10/dev/mo plus raw tokens, Enterprise custom with SOC 2, self-host free | free, your model tokens | $0.012 per credit packs, Pro Team $30, no permanent free tier | Pro $12, Team $24 per user/mo, open source repos free |
-| Maturity and scale | $143M Series C at a $1.5B valuation, 17k customers (2026-08) | pivoted 2026-07, $2M seed (2024) | ~$81M raised, $290M valuation, acquired by Cursor 2025-12 | $25M Series A (2025-09), v5 | 1,409 stars, no verified funding (2026-09-21) | 38.7k stars, 131 releases in 4 months (2026-09-21) | 13,089 stars (2026-09-21), $50M raised | repo since 2019, 1,869 stars, no verified funding |
+| Maturity and scale | $143M Series C at a $1.5B valuation, 17k customers (2026-08) | pivoted 2026-07, $2M seed (2024) | ~$81M raised, $290M valuation, acquired by Cursor 2025-12 | $25M Series A (2025-09), v5 | 1,416 stars, no verified funding (2026-09-24) | 40.8k stars, 133 releases in 4 months (2026-09-24) | 13,142 stars (2026-09-24), $50M raised | repo since 2019, 1,870 stars, no verified funding |
 
 ## Reading the matrix
 
@@ -70,6 +70,7 @@ Its pricing now leads with a free on-ramp for individuals who bring their own Ch
 - 2026-09-20 - Refreshed the OpenCodeReview maturity cell to 37.9k stars and 131 releases and the Qodo cell to 13,054 stars; Kodus held at 1,397 stars.
 - 2026-09-21 - Refreshed the Kodus (1,409), OpenCodeReview (38.7k), Qodo (13,089), and Sourcery (1,869) maturity cells; all other cells re-verified unchanged.
 - 2026-09-24 - Removed the verification preamble line on owner request.
+- 2026-09-24 - Refreshed the Kodus (1,416), OpenCodeReview (40.8k stars, 133 releases), and Qodo (13,142) maturity cells; all other cells re-verified unchanged.
 
 ## See also
 

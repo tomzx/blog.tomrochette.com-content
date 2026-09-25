@@ -32,7 +32,7 @@ Each column links to the full research note; every cell below traces to a source
 | Edge and mobile | ✗ desktop only | ~ $5 VPS, serverless idle on Modal, Daytona | ~ server deploys (Render) | ✗ Docker host only | companion apps | ✗ desktop only | ✓ Android APK, $10 RISC-V boards | ~ beta Tauri desktop | ~ Raspberry Pi |
 | Credentials | your keys or cloud credits | per-provider keys or Nous Portal | your keys on host | ✓ OneCLI Agent Vault | your keys on host | your keys BYO | your keys in workspace | your keys, or none offline | your keys in workspace |
 | Security record | GAIA claim corrected, astroturf flag | edited plagiarism-claim issue, 44k open issues | clean so far, category-skepticism thread | clean so far | provider saga, 514-point vuln report, Trail of Bits audit completed (23 confirmed vulnerabilities, all fixed) | HN boundary questions unresolved | pre-1.0 banner, scam-token notice, expired picoclaw.io cert | telemetry auto-accept default | clean so far, thin coverage |
-| Status | active, v1.0.4 | active, 44k open issues | active, PyPI alpha | active, 1.1k open issues | active, v2026.9.5, 8.3k open issues | active, weekly signed releases | active, 33 open issues, pre-1.0 | active, v2.2.1, post-rewrite churn | active, 740 open issues |
+| Status | active, v1.0.4 | active, 43k open issues | active, PyPI alpha | active, 1.1k open issues | active, v2026.9.6, 8.6k open issues | active, weekly signed releases | active, 38 open issues, pre-1.0 | active, v2.2.1, post-rewrite churn | active, 757 open issues |
 
 ## Reading the matrix
 
@@ -44,9 +44,9 @@ QwenPaw is the only column with a real offline path through its own trained smal
 
 **The desktop split is the new category line: OpenWork and Eigent do not do chat channels at all, which is why their cells go tilde there, and choosing between them and the messaging runtimes is really choosing between an assistant that lives in your chats and one that lives on your desktop.**
 
-**The status row's issue counts are inversely proportional to age, not quality: the root carries 8,301 open issues at scale, and the pre-1.0 PicoClaw carries 33, so read the column against its birthday.**
+**The status row's issue counts are inversely proportional to age, not quality: the root carries 8,610 open issues at scale, and the pre-1.0 PicoClaw carries 38, so read the column against its birthday.**
 
-**Hermes is the column that breaks the -claw pattern: it competes on the learning loop rather than the trust ladder, and its about 248k stars against a 44k-issue backlog is the trade in one row pair.**
+**Hermes is the column that breaks the -claw pattern: it competes on the learning loop rather than the trust ladder, and its about 248k stars against a 43k-issue backlog is the trade in one row pair.**
 
 ## Choosing from the matrix
 
@@ -70,6 +70,7 @@ QwenPaw is the only column with a real offline path through its own trained smal
 - 2026-09-21 - Re-verification: refreshed drifted cells (Hermes 43k open issues, OpenClaw 8.2k, PicoClaw 38, ZeroClaw 762, OpenWork stars to about 23.7k).
 - 2026-09-22 - Re-verification: recorded OpenClaw's completed Trail of Bits audit (23 confirmed vulnerabilities, all fixed) in its security-record cell and refreshed drifted cells (Eigent about 15.4k stars, Hermes about 248k stars and 44k open issues, OpenClaw 8.3k, PicoClaw 33, ZeroClaw 740).
 - 2026-09-24 - Removed the verification preamble line on owner request.
+- 2026-09-24 - Re-verification: refreshed drifted cells (Hermes 43k open issues, OpenClaw v2026.9.6 with 8.6k open issues, PicoClaw 38, ZeroClaw 757).
 
 ## See also
 

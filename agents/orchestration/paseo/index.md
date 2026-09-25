@@ -1,7 +1,7 @@
 ---
 title: Paseo
 created: 2026-08-30
-updated: 2026-09-22
+updated: 2026-09-24
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, parallel-agents, mobile, open-source]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Paseo is a free, open-source, self-hosted orchestration layer that runs coding agents as local processes on your own machines and drives them from desktop, web, mobile, and CLI clients over one daemon.
-Facts below verified as of 2026-09-22.
+Facts below verified as of 2026-09-24.
 
 **Paseo's differentiator is not parallelism, which is now table stakes, but reach: it is the only orchestrator in its class with native iOS and Android clients at full feature parity, wrapped around your existing agent subscriptions instead of replacing them.**
 
@@ -25,8 +25,8 @@ Apache-2.0 (with a custom copyright notice), by Mohamed Boudra, an independent s
 
 ## Status
 
-Young and fast: about 18.1k stars, 2.1k forks, and 903 open issues and PRs as of 2026-09-22, created 2025-10-13, with more than 5,300 commits on main.
-v0.9.0 went stable on 2026-09-22 with v0.9.1 following the same day, after the v0.9.0 betas of September 17-18 and v0.8.0 (2026-09-10, plugin header buttons, custom providers, and richer chat components), alongside 165 contributors and an active subreddit and Discord.
+Young and fast: about 18.5k stars, 2.1k forks, and 901 open issues and PRs as of 2026-09-24, created 2025-10-13, with more than 5,300 commits on main.
+v0.9.2 shipped on 2026-09-24, two days after v0.9.0 went stable with v0.9.1 the same day (September 22), following the v0.9.0 betas of September 17-18 and v0.8.0 (2026-09-10, plugin header buttons, custom providers, and richer chat components), alongside 165 contributors and an active subreddit and Discord.
 **The structural risk is on the label: the maintainer described himself on Hacker News as a team of one, and monetization has now arrived as the hosted Hub at €15 per seat per month.**
 
 ## Strengths
@@ -38,7 +38,7 @@ v0.9.0 went stable on 2026-09-22 with v0.9.1 following the same day, after the v
 
 ## Cautions
 
-- Pre-1.0 with fast churn; the tracker crossed 1,200 open issues and PRs by 2026-09-07 before a cleanup wave closed roughly 400 of them in a day, down to 816 by 2026-09-08, 653 as of 2026-09-10, 724 as of 2026-09-12, 821 as of 2026-09-16, 854 as of 2026-09-18, and 848 as of 2026-09-20, and demand still outruns a tiny team.
+- Pre-1.0 with fast churn; the tracker crossed 1,200 open issues and PRs by 2026-09-07 before a cleanup wave closed roughly 400 of them in a day, down to 816 by 2026-09-08, 653 as of 2026-09-10, 724 as of 2026-09-12, 821 as of 2026-09-16, 854 as of 2026-09-18, 848 as of 2026-09-20, and 901 as of 2026-09-24, and demand still outruns a tiny team.
 - Subscription-billing friction: the maintainer confirmed Claude subscription usage through Paseo draws from a different, smaller credit pool than interactive use.
 - Solo-maintainer bus factor with a business model still pending.
 - Hacker News commenters noted it converges with Conductor, cmux, and Devin-style tools unless mobile-first steering is your actual need.
@@ -74,6 +74,7 @@ Not for teams needing a vendor's support contract, or Mac-only shops happy payin
 - 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
 - 2026-09-21 - Recorded the v0.9.0 beta line (beta.1 and beta.2, September 17-18) following the v0.8.0 stable release, and refreshed star and tracker counts.
 - 2026-09-22 - Recorded v0.9.0 reaching stable and v0.9.1 shipping the same day (September 22), and refreshed star and tracker counts.
+- 2026-09-24 - Recorded v0.9.2 (September 24) and refreshed star and tracker counts.
 
 ## See also
 

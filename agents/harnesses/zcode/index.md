@@ -12,7 +12,7 @@ audience_notes: >
 ---
 
 ZCode is Z.ai's (Zhipu AI's) official AI coding workbench for GLM models: an Electron desktop app, a browser workspace, and a terminal CLI, open-sourced under Apache-2.0 on September 20, 2026, three days after a wire-level analysis caught it silently uploading whole workspaces to cloud storage.
-Facts below verified as of 2026-09-22.
+Facts below verified as of 2026-09-24.
 
 **ZCode is the fastest fall and forced opening in the harness field: launched July 1, caught exfiltrating Git history on September 18, and dumped as a flattened two-commit open-source repository on September 20 with 4,216 stars within a day.**
 
@@ -29,7 +29,7 @@ The repository publishes Apache-2.0 source, but as a two-commit dump with flatte
 The harness launched July 1, 2026 as the official harness for GLM-5.2 and drew a 511-point Hacker News thread the same day ([HN](https://hn.algolia.com/api/v1/items/48753715)).
 On September 18, 2026 a [wire-level analysis](https://blog.ferstar.org/en/posts/zcode-silent-workspace-snapshot-upload/) showed the logged-in client packaging entire workspaces (about 87% .git content) and uploading them encrypted to Aliyun OSS with a server-held key, a behavior no UI toggle stopped and no privacy-policy line disclosed (333- and 261-point threads that day).
 Z.ai admitted the uploads, attributed them to a Repo Wiki indexing feature, shipped client 3.14.0 with the pipeline removed, and open-sourced the workbench on September 20-21 with CAICT and NSFOCUS audits reporting the OSS bucket deleted ([HN](https://hn.algolia.com/api/v1/items/49782440)).
-The repository shows 6,400 stars and 1,880 forks as of 2026-09-22, pushed 2026-09-21 (GitHub API); desktop installers are at v3.14.3.
+The repository shows 6,708 stars and 2,003 forks as of 2026-09-24, pushed 2026-09-24 (GitHub API); desktop installers are at v3.14.3.
 Independent code review of the dump confirms the snapshot pipeline is gone and checkpoints run on purely local git, but deleting the bucket cannot answer what happened to data that left machines before September 18.
 
 ## Strengths

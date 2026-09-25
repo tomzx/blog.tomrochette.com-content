@@ -1,7 +1,7 @@
 ---
 title: Repomix
 created: 2026-08-24
-updated: 2026-09-22
+updated: 2026-09-25
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, context-packing, open-source, developer-tools]
 readability: 3
@@ -12,7 +12,7 @@ audience_notes: >
 ---
 
 Repomix is an MIT-licensed CLI (npm, Homebrew, Docker) that packs an entire repository into a single AI-friendly file for feeding to LLMs.
-Facts below verified as of 2026-09-22.
+Facts below verified as of 2026-09-25.
 
 **Repomix is the default answer to "how do I give the model my whole repo", and it wins by ignoring retrieval entirely, which is a legitimate engineering strategy that context-engine vendors keep pretending is not one.**
 
@@ -29,7 +29,7 @@ It is built by Kazuki Yamada (yamadashy), sponsored by Warp and CodeRabbit.
 ## Status
 
 **Active and quietly massive.**
-28k stars (28,472), 1.5k forks, and 4,585 commits on GitHub, plus 317,597 npm downloads in the last month (2026-08-23 to 2026-09-21), stars, forks, and downloads as of 2026-09-22, with v1.18.1 released 2026-09-21.
+28k stars (28,482), 1.5k forks, and 4,589 commits on GitHub, plus 317,597 npm downloads in the last month (2026-08-23 to 2026-09-21), stars, forks, and downloads as of 2026-09-25, with v1.18.1 released 2026-09-21.
 It was nominated in the Powered by AI category at the JSNation Open Source Awards 2025.
 The community footprint is the interesting signal: it inverts the usual pattern, with enormous usage but near-zero discourse (the largest HN story I found has 4 points), because a tool that just works generates no threads.
 A clone ecosystem (Gitingest for Python, Unify, Scribe) confirms the pattern is durable rather than incidental.
@@ -70,6 +70,7 @@ My disagreeable claim: for small and mid repos, a Repomix pack plus a good model
 - 2026-08-24 - Created in the Context engines category seed.
 - 2026-09-18 - Refreshed the volatile numbers (28,392 stars, 4,523 commits, 324,145 trailing-month npm downloads); latest release remains v1.18.0.
 - 2026-09-22 - Recorded release v1.18.1 (2026-09-21) and refreshed the volatile numbers (28,472 stars, 4,585 commits, 317,597 trailing-month npm downloads).
+- 2026-09-25 - Refreshed the volatile numbers (28,482 stars, 4,589 commits); release remains v1.18.1 and the npm download figure is unchanged.
 
 ## See also
 

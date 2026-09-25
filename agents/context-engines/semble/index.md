@@ -1,7 +1,7 @@
 ---
 title: Semble
 created: 2026-08-30
-updated: 2026-09-20
+updated: 2026-09-25
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, code-search, context-engines, local-first, developer-tools]
 readability: 3
@@ -12,7 +12,7 @@ audience_notes: >
 ---
 
 Semble is a MIT-licensed local code search tool built for coding agents: it chunks a repository along syntax boundaries, indexes it with static Model2Vec embeddings plus BM25, and answers natural-language queries with only the relevant snippets.
-Facts below verified as of 2026-09-22.
+Facts below verified as of 2026-09-25.
 
 **Semble's bet is that a code-specialized index small enough to run in under a second on any CPU can replace the most expensive thing an agent does, which is grep-failing its way through full-file reads.**
 
@@ -27,8 +27,8 @@ It is built by MinishLab, the two-person team (Stephan and Thomas, per the launc
 ## Status
 
 **Young, active, and unusually well received for a search tool.**
-6,132 stars and 270 forks since the repo appeared on 2026-04-06, with the last push 2026-09-18 and v0.6.0 released 2026-09-11 (GitHub API, as of 2026-09-22).
-82,697 PyPI downloads in the trailing month (PyPIstats, as of 2026-09-20, the latest reading before this run's rate-limited check).
+6,140 stars and 270 forks since the repo appeared on 2026-04-06, with the last push 2026-09-18 and v0.6.0 released 2026-09-11 (GitHub API, as of 2026-09-25).
+80,496 PyPI downloads in the trailing month (PyPIstats, as of 2026-09-25).
 The launch Show HN (May 17, 2026) drew 445 points and 151 comments, on top of two quiet warm-up threads in April; a third-party VS Code extension appeared in August, which is the usual early-ecosystem signal.
 
 ## Strengths
@@ -66,6 +66,7 @@ Not for small repos where a Repomix pack or plain grep is already enough, and no
 - 2026-08-30 - Created in the Context engines category from that day's entrant scan, citing six fetched sources.
 - 2026-09-18 - Refreshed the GitHub numbers (6,105 stars, 268 forks, pushed 2026-09-18); the PyPIstats download check was rate-limited, so the trailing-month figure keeps its 2026-09-13 date; the no-paid-plan claim re-verified against the README.
 - 2026-09-20 - Refreshed the GitHub numbers (6,112 stars, 269 forks) and replaced the rate-limited PyPI figure with a live trailing-month reading (82,697 as of 2026-09-20); v0.6.0 and the no-paid-plan claim unchanged.
+- 2026-09-25 - Refreshed the GitHub numbers (6,140 stars) and the trailing-month PyPI figure (80,496 as of 2026-09-25, a slight dip from the prior reading); v0.6.0 and the no-paid-plan claim unchanged.
 
 ## See also
 
@@ -79,6 +80,6 @@ Not for small repos where a Repomix pack or plain grep is already enough, and no
 - https://github.com/MinishLab/semble - repo, README (architecture, installer, CLI, MCP, savings counter), stars and activity as of 2026-09-22
 - https://news.ycombinator.com/item?id=48169874 - the 445-point launch thread, including the founders' no-agent-level-claim statement and the baseline criticisms (verified via the Algolia items API)
 - https://pypi.org/project/semble/ - the package surface
-- https://pypistats.org/api/packages/semble/recent - 82,697 downloads in the trailing month as of 2026-09-20 (rate-limited when re-checked 2026-09-22)
+- https://pypistats.org/api/packages/semble/recent - 80,496 downloads in the trailing month as of 2026-09-25
 - https://huggingface.co/minishlab/potion-code-16M-v2 - the embedding model the index runs on
 - https://github.com/MinishLab/semble/blob/main/benchmarks/README.md - benchmark methodology, NDCG@10, and the token-efficiency setup

@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Pi is an MIT-licensed TypeScript agent toolkit from Earendil whose flagship is a minimal, self-extensible terminal coding agent that you adapt through extensions rather than configuring a closed product.
-Facts below verified as of 2026-09-22.
+Facts below verified as of 2026-09-24.
 
 **Pi's thesis is that a coding agent should be a small frozen core plus your code, and it is the only harness at this scale whose author treats missing features as policy rather than backlog.**
 
@@ -26,9 +26,9 @@ Made by Earendil Inc., created by Mario Zechner with Armin Ronacher as the secon
 
 ## Status
 
-Active and ascending: 108,645 stars (past the 100k mark), 13,790 forks, 221 open issues and PRs as of 2026-09-22.
+Active and ascending: 109,180 stars (past the 100k mark), 13,874 forks, 215 open issues and PRs as of 2026-09-24.
 Created 2025-08-09, pushed within a day of verification, releases roughly weekly (v0.87.1 on 2026-09-22).
-**The ecosystem is the strongest signal: OpenClaw runs on Pi, and oh-my-pi, a batteries-included fork with about 32.8k stars as of 2026-09-22, exists precisely because some users want the features Pi refuses to ship.**
+**The ecosystem is the strongest signal: OpenClaw runs on Pi, and oh-my-pi, a batteries-included fork with about 33.2k stars as of 2026-09-24, exists precisely because some users want the features Pi refuses to ship.**
 
 ## Strengths
 
@@ -82,4 +82,4 @@ Not for teams wanting turnkey guardrails, MCP-centric stacks, or a stable API su
 - https://pi.dev - positioning, extension model, and the list of features deliberately not built
 - https://mariozechner.at/posts/2025-11-30-pi-coding-agent/ - the author's rationale for the minimal prompt and YOLO default
 - https://news.ycombinator.com/item?id=46844822 - the 421-point thread with pushback on the security posture
-- https://github.com/can1357/oh-my-pi - the batteries-included fork at about 32.8k stars, the counterargument in running code
+- https://github.com/can1357/oh-my-pi - the batteries-included fork at about 33.2k stars, the counterargument in running code

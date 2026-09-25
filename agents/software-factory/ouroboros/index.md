@@ -1,7 +1,7 @@
 ---
 title: Ouroboros
 created: 2026-08-30
-updated: 2026-09-13
+updated: 2026-09-25
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, software-factory, verification, self-improving-agents, open-source]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Ouroboros is an MIT-licensed Python "Agent OS" that turns a vague brief into verified code by running a Socratic interview, freezing an immutable spec, executing through one of 14 coding-agent runtimes, and verifying the result with a three-stage gate whose grading commands and expected outputs are withheld from the worker agent.
-Facts below verified as of 2026-09-20.
+Facts below verified as of 2026-09-25.
 
 **Ouroboros earns its anti-cheating tagline architecturally, not rhetorically: the worker's success contract omits the grading command and expected result, and the first verification stage is LLM-free, which is a cleaner separation than most self-improving agent systems attempt.**
 
@@ -24,8 +24,8 @@ MIT, by Ouro Labs (Q00), solo-maintained with around 80 contributors.
 
 ## Status
 
-Very young, very active: 6,016 stars, 605 forks, 103 open issues as of 2026-09-18, created 2026-01-14, pushed 2026-09-15.
-Latest release v0.54.4 on 2026-09-13, with about 27 PyPI releases in the last seven weeks; PyPI self-labels it Beta.
+Very young, very active: 6,092 stars, 612 forks, 105 open issues as of 2026-09-25, created 2026-01-14, pushed 2026-09-23.
+Latest release v0.54.5 on 2026-09-20, with about 26 PyPI releases in the last seven weeks; PyPI self-labels it Beta.
 **Headline results are self-reported, its Hacker News threads are self-submitted with single-digit points, and no independent evaluation exists as of 2026-09-18.**
 
 ## Strengths
@@ -39,7 +39,7 @@ Latest release v0.54.4 on 2026-09-13, with about 27 PyPI releases in the last se
 
 - The semantic judge is an LLM, and consensus voting triggers only under six conditions, so a worker tuned to satisfy a predictable judge is not fully ruled out.
 - The ambiguity, drift, and similarity scores are LLM self-assessments and heuristics; the docs themselves call the thresholds defaults worth arguing with.
-- Beta churn: about 27 releases in seven weeks, documented breakage below specific versions, and an extras matrix with install warnings.
+- Beta churn: about 26 releases in seven weeks, documented breakage below specific versions, and an extras matrix with install warnings.
 - The loop spends real tokens on evaluation, which is the price of the gate.
 
 ## Pricing
@@ -62,6 +62,7 @@ Not for quick edits, for teams needing proven evaluation rigor, or for anyone wh
 
 - 2026-08-30 - Created as a software-factory note on the hidden-grading verification loop, with a banned term caught and reworded the same day.
 - 2026-09-12 - Updated the count of supported coding-agent runtimes to 14.
+- 2026-09-25 - Recorded the v0.54.5 release (2026-09-20) and refreshed counts.
 
 ## See also
 

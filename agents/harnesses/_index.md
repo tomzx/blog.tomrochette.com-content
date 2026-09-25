@@ -18,7 +18,7 @@ The terminal and CLI agents that carry the model into your repository: the platf
 - [Cline](cline/index.md) - the open-source agent that outgrew its VS Code extension into CLI, kanban, and SDK, 5.3 million installs deep.
 - [Codex](codex/index.md) - OpenAI's ChatGPT-included agent, the Apache-2.0 big-lab CLI individuals can still just run.
 - [Crush](crush/index.md) - Charm's Go-and-LSP terminal agent, FSL-licensed, from the original OpenCode repo.
-- [DeepSeek Harness](deepseek-harness/index.md) - DeepSeek's everything-is-a-plugin harness, 228k stars in its first two months, MIT, prerelease-only at v0.1.6-alpha.2.
+- [DeepSeek Harness](deepseek-harness/index.md) - DeepSeek's everything-is-a-plugin harness, 235k stars in its first two months, MIT, prerelease-only at v0.1.7-rc.2.
 - [Exo](exo/index.md) - the MIT self-modification bet, a harness the agent can rewrite at runtime, cheapest measured harness at $1.05 per task.
 - [fx](fx/index.md) - Vercel Labs' ~6 MiB Zig harness built to be embedded, the first agent-as-a-dependency bet.
 - [Gemini CLI](gemini-cli/index.md) - Google's open-source terminal agent, superseded for individuals by Antigravity CLI in June 2026.
@@ -34,6 +34,7 @@ The terminal and CLI agents that carry the model into your repository: the platf
 - [OpenHands](openhands/index.md) - the renamed OpenDevin platform bet, sandboxed code-shell-browser agents you can self-host.
 - [Pi](pi/index.md) - Earendil's minimal, self-extensible harness, a frozen core plus your TypeScript extensions, no MCP by design.
 - [Qwen Code](qwen-code/index.md) - Alibaba's Gemini CLI fork and open-weights showcase, its OAuth free tier discontinued April 2026.
+- [Unreal Agent](unreal-agent/index.md) - Unreal Labs' async-first MIT Go harness, background tool calls as the cost thesis, exo-class traction at day three.
 - [Warp Agent CLI](warp-agent-cli/index.md) - Warp's terminal agent unbundled into any terminal, model routing, cloud agents, and orchestration behind its credit meter.
 - [ZCode](zcode/index.md) - Z.ai's official GLM workbench, caught silently uploading whole workspaces in September 2026 and open-sourced three days later as a flattened dump.
 - [Zerostack](zerostack/index.md) - the solo GPL-3.0 Rust agent, 26 MB binary and ~16 MB RAM, subagents, worktrees, hooks, MCP behind compile flags.
@@ -69,3 +70,4 @@ Its members are compared on shared rows in the [Harness Feature Matrix](harness-
 - 2026-09-05 - Added Kimi Code.
 - 2026-09-12 - Added Grok Build.
 - 2026-09-21 - Added ZCode.
+- 2026-09-25 - Added Unreal Agent.

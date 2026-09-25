@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Deep Research is OpenAI's ChatGPT agent that autonomously browses the web for five to thirty minutes and returns a cited report, making it the mass-market version of the automated research loop.
-Facts below verified as of 2026-09-21.
+Facts below verified as of 2026-09-25.
 
 **Deep Research is the breadth-first half of automated research, and its failure mode is exactly the one that matters: fluent synthesis with no verifier behind it, so the human stays the judge.**
 

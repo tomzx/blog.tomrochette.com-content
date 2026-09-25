@@ -12,7 +12,7 @@ audience_notes: >
 ---
 
 Crush is Charm's terminal coding agent: a single Go binary that pulls context from language servers, runs any provider including local models, and carries the [FSL-1.1-MIT](https://fsl.software/) license.
-Facts below verified as of 2026-09-22.
+Facts below verified as of 2026-09-24.
 
 **Crush is the best-looking and most portable harness in the field, and a license plus an origin story that community has not forgotten will keep it the second choice for teams that audit provenance.**
 
@@ -26,7 +26,7 @@ It runs on macOS, Linux, Windows, Android, and the BSDs.
 ## Status
 
 **Active.**
-About 28.2k stars, 2.3k forks, and 4,215 commits as of 2026-09-22, launched July 30, 2025.
+About 28.3k stars, 2.3k forks, and 4,220 commits as of 2026-09-24, launched July 30, 2025.
 It is the continuation of the original opencode-ai repository: creator Kujtim Hoxha joined Charm, and the repo moved with him.
 After the dispute that split the community, Charm renamed it Crush while the other developers kept the OpenCode name.
 Charm's own telling is ["Crush, come home"](https://charm.land/blog/crush-comes-home/); the other side's version lives in [the launch thread](https://news.ycombinator.com/item?id=44736176).

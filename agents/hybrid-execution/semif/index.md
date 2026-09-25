@@ -1,7 +1,7 @@
 ---
 title: SemIf
 created: 2026-09-21
-updated: 2026-09-22
+updated: 2026-09-25
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, hybrid-execution, structured-outputs, system-one-models, decision-models, open-source, webgpu]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 SemIf, until 2026-09-18 called OpenJev, is an MIT research project that reproduces Jev's interface pattern with open models: it reads typed option probabilities directly from the logits of frozen checkpoints such as Qwen3.5-4B, with no answer tokens, in a browser demo you can run today.
-Facts below verified as of 2026-09-22.
+Facts below verified as of 2026-09-25.
 
 **SemIf is the most verifiable entry in this category, and its own results document says the part no vendor will: the interface is reproduced, the calibrated probabilities are not, and that is the gap that matters.**
 
@@ -25,12 +25,12 @@ The rename is part of the artifact: after its launch thread debated trademark ri
 
 ## Status
 
-Days old and active, as of 2026-09-22.
-Created 2026-09-16, last push 2026-09-21, two contributors, no tags or releases, 257 forks, about 3,900 stars.
-The community footprint is large but lives under the old name: the "OpenJev" thread linking openjev.com reached 720 points as of 2026-09-22, the second-largest thread in the Jev wave after Jev's own launch.
+Days old and active, as of 2026-09-25.
+Created 2026-09-16, last push 2026-09-23, two contributors, no tags or releases, 285 forks, about 4,200 stars.
+The community footprint is large but lives under the old name: the "OpenJev" thread linking openjev.com reached 721 points as of 2026-09-25, the third-largest thread in the Jev wave after Jev's own launch and Laya's.
 Three community PRs merged on 2026-09-22: PyTorch/MPS scoring for Apple Silicon, a Qwen3.8-27B EXL3 bridge, and per-workload temperature calibration with calibrated prediction outputs.
 The headline numbers are self-run: on 102 aligned public rows, direct logit readout with Qwen3.5-4B agrees with TypeSafe's published values 0.845 of the time against Jev's published 0.883, with balanced accuracy of 0.813 on authored decisions and 0.766 under perturbation.
-The first third-party scoreboard of the category now exists and ranks SemIf (Qwen3.5-4B) second overall at 73.1 against Jev's 74.4, the wave's strongest independent showing, on a methodology contested in that benchmark's own thread.
+The first third-party scoreboard of the category initially ranked SemIf (Qwen3.5-4B) second overall at 73.1 against Jev's 74.4, the wave's strongest independent showing, but that benchmark's sealed-decision v1.4 revision dropped it to eighth at 47.7 while Jev held first, on a methodology contested in the benchmark's own thread.
 
 ## Strengths
 
@@ -69,6 +69,7 @@ I run the browser demo before I believe any latency claim in this category, and 
 
 - 2026-09-21 - Created from the owner-prompted open-source alternatives sub-run.
 - 2026-09-22 - Recorded the 2026-09-22 community PRs (MPS scoring, a Qwen3.8-27B EXL3 bridge, per-workload temperature calibration), the third-party JevBench reading (SemIf second at 73.1 versus Jev's 74.4), and refreshed star (about 3,900), fork (257), and thread (720 points) counts.
+- 2026-09-25 - Recorded the JevBench v1.4 sealed-decision re-scoring, which dropped SemIf from second (73.1) to eighth (47.7) while Jev held first, and refreshed star (about 4,200), fork (285), pushed date (2026-09-23), and thread (721 points); also corrected the thread-ranking claim (third-largest in the wave, after Laya's).
 
 ## See also
 
@@ -80,10 +81,10 @@ I run the browser demo before I believe any latency claim in this category, and 
 
 ## References
 
-- https://github.com/TheoLeeCJ/SemIf - repository: MIT, about 3,900 stars, 257 forks, created 2026-09-16, last push 2026-09-21 (GitHub API, as of 2026-09-22)
+- https://github.com/TheoLeeCJ/SemIf - repository: MIT, about 4,200 stars, 285 forks, created 2026-09-16, last push 2026-09-23 (GitHub API, as of 2026-09-25)
 - https://raw.githubusercontent.com/TheoLeeCJ/SemIf/master/README.md - the rename notice, speed tables, browser model ladder, MLX backend, and the 2026-09-22 PR log
 - https://openjev.com/ - the project site: WebGPU demo, quality table, and the independence notice
-- https://news.ycombinator.com/item?id=49752041 - the OpenJev thread (720 points as of 2026-09-22, 2026-09-18): the trademark debate, the hype and failure criticisms (fetched via the Algolia items API)
+- https://news.ycombinator.com/item?id=49752041 - the OpenJev thread (721 points as of 2026-09-25, 2026-09-18): the trademark debate, the hype and failure criticisms (fetched via the Algolia items API)
 - https://raw.githubusercontent.com/TheoLeeCJ/SemIf/master/docs/RESULTS.md - claim boundaries: what was and was not reproduced, TVD numbers, robustness flips
 - https://github.com/TheoLeeCJ/openjev - the pre-rename URL, verified to redirect to this repository (GitHub API)
-- https://raw.githubusercontent.com/fstandhartinger/jevbench/main/RESULTS-v1.2.md - the third-party board ranking SemIf second at 73.1 against Jev's 74.4
+- https://raw.githubusercontent.com/fstandhartinger/jevbench/main/RESULTS-v1.2.md - the third-party board that ranked SemIf second at 73.1 against Jev's 74.4 on v1.2; its v1.4 sealed revision moved SemIf to 47.7

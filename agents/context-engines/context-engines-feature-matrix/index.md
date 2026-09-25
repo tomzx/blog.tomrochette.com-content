@@ -1,7 +1,7 @@
 ---
 title: "Context Engines Feature Matrix"
 created: 2026-08-24
-updated: 2026-09-24
+updated: 2026-09-25
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, comparison, context-engines, code-retrieval, developer-tools]
 readability: 3
@@ -27,7 +27,7 @@ Each column links to the full research note; every cell traces to a source cited
 | Free tier | ✗ none | ✓ entirely | ✓ CLI entirely | ✓ entirely | ✓ entirely | ✓ CLI entirely | ✓ entirely | ~ public search only |
 | Index model | real-time semantic index | tree-sitter wiring graph plus optional LLM-written markdown nodes, no vectors | deterministic AST knowledge graph, no vectors | SQLite FTS5 plus vectors, markdown chunks | none, whole-repo pack | none, per-command output filtering | static embeddings plus BM25 fused, tree-sitter chunks | indexed search plus SCIP intel |
 | Index freshness | real-time | structural re-sync per query, background rebuild after edits | snapshot at build time | indexed, refreshed on update | snapshot at pack time | live per command | cached index, auto-invalidated on change | index-dependent |
-| Delivery to agents | own harness only | instruction files in 9 agents, 6-tool MCP server, Claude Code hooks and statusline | skill in 20+ agents, MCP, CLI | CLI, MCP server, SDK, plugin | CLI pack, ~ MCP | hooks rewriting commands in 16 tools | MCP, CLI, AGENTS.md instructions, sub-agent installer | MCP server |
+| Delivery to agents | own harness only | instruction files in 9 agents, 6-tool MCP server, Claude Code hooks and statusline | skill in 17 assistants (vendor count), MCP, CLI | CLI, MCP server, SDK, plugin | CLI pack, ~ MCP | hooks rewriting commands in 16 tools | MCP, CLI, AGENTS.md instructions, sub-agent installer | MCP server |
 | Scale where it pays | large private repos | large repos where agents re-explore, no published threshold | repo-scale Q&A and path tracing | personal docs and knowledge bases | under a few hundred K tokens | long interactive sessions with noisy commands | repos where grep-and-read burns tokens | 400K+ LOC |
 | Writes code | ✓ agents and factory | ✗ maps, queries, blast radius | ✗ graphs and queries | ✗ searches only | ✗ packs only | ✗ filters output | ✗ searches only | ~ migrations, beta |
 | Pricing model | $20/$100 flat tiers plus usage | free, MIT; Trail Brain from $20k/yr is the upsell | free core, Pro $10/mo yearly or $15 monthly, Teams $20/seat/mo yearly or $29 monthly, Enterprise early access | free, MIT | free, MIT | free CLI, Pro unpriced | free, MIT | from $16K/year |
@@ -77,6 +77,7 @@ Augment's 33% token savings, Sourcegraph's cost deltas, Semble's 99%-fewer-token
 - 2026-09-20 - Repointed the Graft references to the canonical trailhq/Graft repository after the GitHub org rename; no cells moved.
 - 2026-09-24 - Renamed the Sourcegraph column to its listing title, Sourcegraph code context platform; no cells moved.
 - 2026-09-24 - Removed the verification preamble line on owner request.
+- 2026-09-25 - Updated the Graphify delivery cell to the vendor's documented 17-assistant installer surface.
 
 ## See also
 

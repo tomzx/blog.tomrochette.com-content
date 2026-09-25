@@ -12,7 +12,7 @@ audience_notes: >
 ---
 
 Codex is OpenAI's coding agent: a Rust CLI, an IDE extension, a desktop app, and a cloud service, all included in ChatGPT plans.
-Facts below verified as of 2026-09-22.
+Facts below verified as of 2026-09-24.
 
 **Codex is the only big-lab harness whose Apache-2.0 CLI an individual can still just run, and that matters more day to day than any single feature difference with Claude Code.**
 
@@ -25,7 +25,7 @@ Default models are the GPT-6 family (Astra, Sol, and Luna) rolling out across pl
 ## Status
 
 **Active.**
-`openai/codex` shows about 126.0k stars, about 19.6k forks, and about 11.1k commits under Apache-2.0 as of 2026-09-22.
+`openai/codex` shows about 126.3k stars, about 19.7k forks, and about 11.4k commits under Apache-2.0 as of 2026-09-24.
 The CLI launched April 2025 and has been rewritten and rebuilt since; the current docs position it as an open agent harness platform.
 
 ## Strengths

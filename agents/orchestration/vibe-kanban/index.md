@@ -1,7 +1,7 @@
 ---
 title: Vibe Kanban
 created: 2026-08-24
-updated: 2026-09-21
+updated: 2026-09-24
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, orchestration, kanban, git-worktrees, open-source]
 readability: 3
@@ -12,7 +12,7 @@ audience_notes: >
 ---
 
 Vibe Kanban is an Apache-2.0 kanban board for managing parallel coding agents in isolated workspaces, launched by Bloop AI in June 2025; the company shut down in April 2026 and the project continues community-maintained.
-Facts below verified as of 2026-09-22.
+Facts below verified as of 2026-09-24.
 
 **It is the category's most-adopted artifact and its clearest cautionary tale at once: about 28k GitHub stars, thousands of daily users, and no business model survived it.**
 
@@ -28,8 +28,8 @@ Self-hosting via Docker was documented for teams.
 Company dead, project alive.
 Bloop shut down on 2026-04-10, with CEO Louis Knight-Webb writing that "the vast majority are free users and we couldn't find a business model".
 Remote services (kanban issues, comments, projects, organisations) were removed 30 days after the announcement; refunds were issued and subscriptions terminated.
-**Local workspaces keep working, and the unpaid community has kept moving: as of 2026-09-22 the default branch shows ten commits since the shutdown, the first a 2026-09-15 Copilot version bump by a former Bloop maintainer, then nine more between 2026-09-16 and 2026-09-19 with substantive fixes (server startup routing, session-replay performance, swapped stream labels, an IME Enter fix, pnpm audit fixes, and a SECURITY.md).
-On 2026-09-19 the community committed a version bump to 0.1.45, but the only tags carrying that version are timestamped test tags (v0.1.45.1789713874 and a v0.1.45-permtest tag), no plain v0.1.45 tag exists, and no published release has shipped beyond 0.1.44: npm still serves 0.1.44 as latest and the GitHub release list still stops at the shutdown-era v0.1.44, while the tracker stands at 539 open issues and pull requests.**
+**Local workspaces keep working, and the unpaid community has kept moving: as of 2026-09-24 the default branch shows ten commits since the shutdown, the first a 2026-09-15 Copilot version bump by a former Bloop maintainer, then nine more between 2026-09-16 and 2026-09-19 with substantive fixes (server startup routing, session-replay performance, swapped stream labels, an IME Enter fix, pnpm audit fixes, and a SECURITY.md).
+On 2026-09-19 the community committed a version bump to 0.1.45 and published a prerelease GitHub release named v0.1.45 from the timestamped tag v0.1.45-20260919085201, but no plain v0.1.45 tag exists, no stable release has shipped beyond 0.1.44, and npm still serves 0.1.44 as latest, while the tracker stands at 542 open issues and pull requests.**
 
 ## Strengths
 
@@ -40,7 +40,7 @@ On 2026-09-19 the community committed a version bump to 0.1.45, but the only tag
 
 ## Cautions
 
-- Nobody is paid to fix your bug anymore, and although commits have landed daily through 2026-09-19 and a 0.1.45 version bump is queued on the default branch, only timestamped test tags carry that version and no published release has shipped.
+- Nobody is paid to fix your bug anymore, and although commits landed daily through 2026-09-19 and a v0.1.45 prerelease exists on the GitHub release list, npm still serves 0.1.44 as latest and nothing stable has shipped since the shutdown.
 - At launch, telemetry defaulted to on and collected emails and GitHub usernames, switched to opt-in only after HN criticism (the fix shipped within hours, but the default tells you about the growth incentives).
 - The team features (shared issues, orgs) are exactly the part that died, which is the part companies would pay for.
 - GitHub integration historically asked for broad permissions, a recurring complaint across this whole category.
@@ -71,6 +71,7 @@ My disagreeable claim: bloop's failure is evidence that this orchestration layer
 - 2026-09-18 - Recorded the community commits resuming in earnest: seven default-branch commits between 2026-09-16 and 2026-09-18 with substantive fixes, though still no release beyond 0.1.44.
 - 2026-09-20 - Recorded the version-bump commit and v0.1.45 tag landing on 2026-09-19 while npm and the GitHub release list still stop at 0.1.44, and refreshed the tracker count.
 - 2026-09-21 - Corrected the tag record: no plain v0.1.45 tag exists, only timestamped v0.1.45 test tags, so the npm-versus-git-tag drift is wider than recorded, and the tracker count moved to 538.
+- 2026-09-24 - Corrected the release record: a prerelease named v0.1.45 (tag v0.1.45-20260919085201) was published on GitHub on 2026-09-19, while npm still serves 0.1.44 as latest and no stable release exists; default-branch commits stopped at 2026-09-19 and the tracker refreshed to 542.
 
 ## See also
 

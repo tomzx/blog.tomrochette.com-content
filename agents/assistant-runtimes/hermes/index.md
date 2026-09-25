@@ -1,7 +1,7 @@
 ---
 title: Hermes Agent
 created: 2026-08-27
-updated: 2026-09-22
+updated: 2026-09-24
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, assistant-runtimes, personal-assistants, nous-research, open-source]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Hermes Agent is Nous Research's MIT-licensed self-improving personal agent: a Python gateway process that lives in your chat channels, builds skills from its own experience, and runs on everything from a $5 VPS to serverless sandboxes, at about 248k stars the biggest runtime launch since OpenClaw.
-Facts below verified as of 2026-09-22.
+Facts below verified as of 2026-09-24.
 
 **Hermes' bet is that the runtime winner is decided by the learning loop, not the channel list: an agent that curates its own memory, writes its own skills, and models you across sessions compounds while the others merely answer.**
 
@@ -25,8 +25,8 @@ Execution spans seven backends (local, Docker, SSH, Singularity, Modal, Daytona,
 ## Status
 
 Massive and fast-moving.
-As of 2026-09-22: 248,186 stars and 52,406 forks since creation on 2025-07-22, pushed today, MIT, and 44,218 open issues, a support surface bigger than most projects' users.
-Releases ship as date-stamped tags at a near-daily cadence, v2026.9.7, v2026.9.11, v2026.9.14, and v2026.9.21 in September alone.
+As of 2026-09-24: 248,717 stars and 52,646 forks since creation on 2025-07-22, pushed today, MIT, and 43,425 open issues, a support surface bigger than most projects' users.
+Releases ship as date-stamped tags at a near-daily cadence, v2026.9.7, v2026.9.11, v2026.9.14, v2026.9.21, and v2026.9.24 in September alone.
 The [52-point launch thread](https://news.ycombinator.com/item?id=48419000) landed June 2026, and a real tool ecosystem followed (a 28-point Grafana observability integration, a Fleet console for managing Dockerized Hermes agents, XMPP interop with OpenClaw).
 **The governance record is the caution: a May 2026 thread documents Nous editing a GitHub issue to remove plagiarism claims about Hermes Agent ([issue 10232](https://github.com/NousResearch/hermes-agent/issues/10232)), so origin claims around this project deserve independent reading.**
 
@@ -39,7 +39,7 @@ The [52-point launch thread](https://news.ycombinator.com/item?id=48419000) land
 
 ## Cautions
 
-- 44,218 open issues is triage weather, not a queue; expect to read code when things break.
+- 43,425 open issues is triage weather, not a queue; expect to read code when things break.
 - The plagiarism-claim edit is a stewardship red flag worth weighing before making it your memory keeper.
 - A self-curating memory compounds errors as efficiently as insights; the loop needs supervision, not just trust.
 - Windows installs bundle a lot of machinery (uv, Node, Git Bash), which is surface area to audit.
@@ -75,6 +75,7 @@ The disagreeable claim I will defend: the channel-list era of this category is o
 - 2026-09-12 - Paid tier prices went public on the official site, retiring the bot-wall claim.
 - 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
 - 2026-09-22 - Recorded the near-daily release-tag cadence (v2026.9.7 through v2026.9.21 in September), with refreshed adoption numbers and portal tiers re-checked unchanged.
+- 2026-09-24 - Recorded v2026.9.24, the fifth September tag, with refreshed adoption numbers and the Portal tiers (Free, Plus $20, Super $100, Ultra $200) re-checked unchanged on the official site.
 
 ## See also
 
@@ -86,8 +87,8 @@ The disagreeable claim I will defend: the channel-list era of this category is o
 ## References
 
 - https://github.com/NousResearch/hermes-agent - README: learning loop, backends, channels, install
-- https://api.github.com/repos/NousResearch/hermes-agent - stars, forks, issues as of 2026-09-22
-- https://api.github.com/repos/NousResearch/hermes-agent/releases - the date-stamped release tags through v2026.9.21 (2026-09-21)
+- https://api.github.com/repos/NousResearch/hermes-agent - stars, forks, issues as of 2026-09-24
+- https://api.github.com/repos/NousResearch/hermes-agent/releases - the date-stamped release tags through v2026.9.24 (2026-09-24)
 - https://hermes-agent.nousresearch.com - official site and docs, including the Hermes Free/Plus/Super/Ultra plan tiers
 - https://news.ycombinator.com/item?id=48419000 - the 52-point launch thread
 - https://github.com/NousResearch/hermes-agent/issues/10232 - the edited plagiarism-claims issue

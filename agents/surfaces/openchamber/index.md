@@ -1,7 +1,7 @@
 ---
 title: OpenChamber
 created: 2026-08-24
-updated: 2026-09-20
+updated: 2026-09-24
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, surfaces, agentic-development-environments, opencode, open-source]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 OpenChamber is a free, MIT-licensed agentic development environment built around the OpenCode SDK: desktop, browser, mobile, and a VS Code extension for steering parallel agent sessions.
-Facts below verified as of 2026-09-22.
+Facts below verified as of 2026-09-24.
 
 **OpenChamber is the open-source answer to "where do I run my many OpenCode sessions", and its differentiator is not polish but the fact that the whole surface, worktrees, chat, terminals, scheduling, is code you can read and fix.**
 
@@ -25,8 +25,7 @@ It runs on the OpenCode SDK today and is an independent project, not affiliated 
 ## Status
 
 **Very active.**
-About 10k stars (10,325) and 1,100 forks as of 2026-09-22, with v1.24.2 (September 18, 2026, startup and reconnect memory fixes plus session groups that surface waiting agents) now the latest release after v1.24.1 (September 18, which added third-party extensions and VS Code theme support), v1.24.0 (September 17), and v1.23.2 (September 14), and commits landing September 22, 2026.
-A v2-preview prerelease tag (September 14) carries test builds of the app on OpenCode v2.
+About 10k stars (10,509) and 1,154 forks as of 2026-09-24, with v2.0.1 (September 24, 2026, diff file-tree mode, /fork with a message, and skill and startup fixes, on a bundled OpenCode 2.0.16) now the latest release after v2.0.0 (September 23, "OpenCode 2 and instant settings", the GA of the app on OpenCode v2 that the v2-preview test line of September 14 had been carrying), the v1.24 line just below it (v1.24.0 September 17 with third-party extensions and themes, v1.24.1 September 18, v1.24.2 September 18 with startup and reconnect memory fixes plus session groups that surface waiting agents), and commits landing September 24, 2026.
 A 190-point Hacker News thread in August 2026 marks its arrival in general awareness.
 
 ## Strengths
@@ -65,6 +64,7 @@ Not for anyone who wants a polished IDE experience or harness choice beyond Open
 - 2026-09-16 - Recorded v1.23.2 (September 14, faster startup and session browsing) as the latest release and refreshed stars to 9,908.
 - 2026-09-18 - Recorded v1.24.0 (third-party extensions, themes) and v1.24.1 as the latest releases, stars past 10,000, and the v2-preview test line on OpenCode v2.
 - 2026-09-20 - Recorded v1.24.2 (startup and reconnect memory fixes, session waiting indicators) as the latest release and refreshed stars to 10,100.
+- 2026-09-24 - Recorded the v2.0 GA: v2.0.0 shipped September 23 ("OpenCode 2 and instant settings", promoting the v2-preview line) and v2.0.1 followed September 24 as the new latest release; stars refreshed to 10,509 and forks to 1,154.
 
 ## See also
 
@@ -76,7 +76,7 @@ Not for anyone who wants a polished IDE experience or harness choice beyond Open
 ## References
 
 - https://openchamber.dev/ - features, surfaces, privacy model, FAQ
-- https://github.com/openchamber/openchamber - source, repository scale, as of 2026-09-22
-- https://github.com/openchamber/openchamber/releases/tag/v1.24.2 - the September 18, 2026 release line, ending at v1.24.2
+- https://github.com/openchamber/openchamber - source, repository scale, as of 2026-09-24
+- https://github.com/openchamber/openchamber/releases/tag/v2.0.1 - the latest release (September 24, 2026); the v1 release line ended at v1.24.2 on September 18
 - https://docs.openchamber.dev/ - install and configuration documentation
 - https://news.ycombinator.com/item?id=49233448 - the August 2026 launch discussion

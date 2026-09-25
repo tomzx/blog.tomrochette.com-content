@@ -1,7 +1,7 @@
 ---
 title: OpenSandbox
 created: 2026-09-16
-updated: 2026-09-16
+updated: 2026-09-25
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, sandboxing, isolation, kubernetes]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 OpenSandbox is a general-purpose, Apache-2.0 sandbox platform for AI applications under the opensandbox-group GitHub organization, offering multi-language SDKs, a CLI, an MCP server, and Docker and Kubernetes runtimes for coding agents, GUI agents, evaluations, code execution, and RL training.
-Facts below verified as of 2026-09-21.
+Facts below verified as of 2026-09-25.
 
 ## What it is
 
@@ -23,7 +23,7 @@ An ingress gateway with per-sandbox egress controls handles network policy, a Cr
 ## Status
 
 **Very active and exceptionally fast-growing for a nine-month-old repo, with traction that is vendor-driven rather than organic Hacker News adoption.**
-15,434 stars and 1,417 forks as of 2026-09-21, repo created 2025-12-17, pushed 2026-09-21, latest release server/v0.2.3 on 2026-08-26.
+15,504 stars and 1,425 forks as of 2026-09-25, repo created 2025-12-17, pushed 2026-09-24, latest release 1.1.0 on 2026-09-21, the first stable release of a unified umbrella version line that covers the server, component images, charts, CLI, and every SDK from one commit and a signed BOM.
 The current organization was created 2026-06-04 as part of the transfer out of Alibaba.
 Hacker News is conspicuously absent: the threads are a 2-pointer from March 2026 linking the pre-transfer alibaba URL, a 1-pointer to the website, and a 4-pointer whose title borrows OpenSandbox's tagline but whose URL points at a competitor's repo (a submission error), while a 4-point January "Show HN: Open Sandbox" is an unrelated same-name project.
 
@@ -39,7 +39,7 @@ Hacker News is conspicuously absent: the threads are a 2-pointer from March 2026
 - **The default boundary is an ordinary runc container, so an unconfigured deployment has container-grade isolation only, with the strong runtimes behind opt-in configuration.**
 - chenhunghan's March 2026 sandbox comparison rated OpenSandbox container yes, VM no, network yes; the comparison predates the current guide's Firecracker and Cloud Hypervisor options, but independent adversarial review of the platform itself is still thin.
 - The missing HN footprint alongside 15k stars, plus the Trendshift badge, Discord and DingTalk groups, and triple-registry presence, reads as deliberate promotion machinery; treat the stars as marketing reach, not field evidence.
-- Component-wise pre-1.0 versioning (server/v0.2.3) and a five-month-old organization mean API churn is likely.
+- Component versioning ended with the 1.1.0 umbrella release, but a nine-month-old repo with a five-month-old organization still means API churn is likely.
 
 ## Pricing
 
@@ -60,6 +60,7 @@ Not for anyone who needs hardened isolation by default, an independently audited
 ## Changes
 
 - 2026-09-16 - Created.
+- 2026-09-25 - Growth refreshed (15,504 stars, 1,425 forks), and the latest release recorded as the first stable 1.1.0 umbrella release of 2026-09-21, which retires the component-wise server/v0.2.3 versioning the note previously described.
 
 ## See also
 
@@ -72,8 +73,8 @@ Not for anyone who needs hardened isolation by default, an independently audited
 ## References
 
 - https://github.com/opensandbox-group/OpenSandbox - repository README: platform scope, SDKs, CLI, MCP, Sandbox Protocol, registries, cosign signing, badges
-- https://api.github.com/repos/opensandbox-group/OpenSandbox - stars, forks, license, creation and push dates as of 2026-09-18
-- https://api.github.com/repos/opensandbox-group/OpenSandbox/releases/latest - the server/v0.2.3 release of 2026-08-26
+- https://api.github.com/repos/opensandbox-group/OpenSandbox - stars, forks, license, creation and push dates as of 2026-09-25
+- https://api.github.com/repos/opensandbox-group/OpenSandbox/releases/latest - the first stable 1.1.0 umbrella release of 2026-09-21
 - https://raw.githubusercontent.com/opensandbox-group/OpenSandbox/main/docs/guides/secure-container.md - the runc default plus gVisor, Kata, Firecracker, and Cloud Hypervisor runtimes
 - https://open-sandbox.ai - the live project site
 - https://hn.algolia.com/api/v1/items/47464648 - chenhunghan's local-sandbox comparison rating OpenSandbox container yes, VM no, network yes (March 2026)
