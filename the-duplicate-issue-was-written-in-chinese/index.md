@@ -2,7 +2,7 @@
 title: "The Duplicate Issue Was Written in Chinese"
 created: 2026-09-24
 type: post
-status: draft
+status: finished
 tags: [ai, llm, agents, issues, triage, open-source, github, duplicate-detection, fully-ai-generated, llm=glm-5.3-flash]
 readability: 3
 audience_notes: >
