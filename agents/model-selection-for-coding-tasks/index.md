@@ -1,7 +1,7 @@
 ---
 title: "Model Selection for Coding Tasks"
 created: 2026-08-24
-updated: 2026-09-25
+updated: 2026-09-26
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, model-selection, coding-agents, llm-pricing]
 readability: 3
@@ -151,10 +151,12 @@ A fact that cannot survive that re-fetch gets deleted rather than hedged.
 - 2026-09-25 - Added GPT-6 Sol ($2/$10) and GPT-6 Luna ($0.10/$0.50), released 2026-09-22 per models.dev and launched to a 1,762-point thread, to the lineup table; the workhorse paragraph, cheap-tier bullets, and the price-category sentence updated.
 - 2026-09-25 - Re-grounded the Kimi rows on Moonshot's official prices after OpenRouter's endpoints API showed the previously recorded cuts were third-party host floors, not vendor list prices: kimi-k2.7-code back to $0.95/$4.00 (cache $0.19) and kimi-k3 to $3/$15 (cache $0.30), with the host floors named in prose and the re-verify list now including the endpoints API.
 - 2026-09-25 - Corrected the GLM-5.3-FlashX cached-read cell from $0.075 to the $0.090 Z.AI serves, and fixed the context-behavior row where the gpt-6-astra cell (doubles past threshold) and the Haiku 4.5 cell (200K) had been transposed.
+- 2026-09-26 - Linked the new Model Access Feature Matrix, the layer of gateways, coding plans, and flat subscriptions that packages the per-token prices this guide tracks.
 
 ## See also
 
 - [Model Provider Feature Matrix](../model-provider-feature-matrix/index.md) - this guide's prices regrouped into a provider-by-provider bundle comparison
+- [Model Access Feature Matrix](../model-access/model-access-feature-matrix/index.md) - the gateways, coding plans, and flat subscriptions you can buy these models through
 - [Agentic Coding Tools Landscape](../agentic-coding-tools-landscape/index.md) - the four-layer map this guide's harness claims sit inside
 - [Claude Code](../harnesses/claude-code/index.md) - the measured token overhead that anchors the harness-multiplier argument
 - [Codex](../harnesses/codex/index.md) - the Sol/Terra/Luna tiering as shipped defaults

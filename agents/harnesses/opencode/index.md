@@ -1,7 +1,7 @@
 ---
 title: OpenCode
 created: 2026-08-22
-updated: 2026-09-12
+updated: 2026-09-26
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, coding-agents, harnesses, open-source, developer-tools]
 readability: 3
@@ -65,10 +65,13 @@ Not for teams that need subscription billing simplicity or cannot audit a fast-m
 
 - 2026-08-22 - Created in the Harnesses category seed, recording CVE-2026-22812 and the Anthropic legal-request OAuth removal.
 - 2026-08-23 - Style pass: bolded each section's key insight, hyperlinked in-body sources, and clarified referents.
+- 2026-09-26 - Linked the new Model access notes for Zen and Go, where the gateway's billing and the token pack now have their own profiles.
 
 ## See also
 
 - [Agentic Coding Tools Landscape](../../agentic-coding-tools-landscape/index.md) - the vendor-neutral slot in the harness layer
+- [OpenCode Go](../../model-access/opencode-go/index.md) - the team's $10/month token pack, the subscription this harness's pricing note says it does not bundle
+- [OpenCode Zen](../../model-access/opencode-zen/index.md) - the billing and pricing detail behind the curated gateway this note names
 - [The Shifting Bottleneck](../../../the-shifting-bottleneck/index.md) - why lean harnesses matter as generation gets cheaper
 - [Managing Many Concurrent LLM Agent Sessions](../../../managing-many-llm-agent-sessions/index.md) - what running several OpenCode sessions looks like
 - [Claude Code](../claude-code/index.md) - the measured token-overhead comparison

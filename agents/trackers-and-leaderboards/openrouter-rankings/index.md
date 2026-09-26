@@ -1,7 +1,7 @@
 ---
 title: OpenRouter Rankings
 created: 2026-09-24
-updated: 2026-09-24
+updated: 2026-09-26
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, trackers-and-leaderboards, usage, market-share, open-data]
 readability: 3
@@ -61,9 +61,11 @@ My disagreeable claim: this is the most misused ranking in the category, cited a
 ## Changes
 
 - 2026-09-24 - Created.
+- 2026-09-26 - Linked the OpenRouter gateway profile in the new Model access category, where the fee structure and the Stripe acquisition are tracked.
 
 ## See also
 
+- [OpenRouter](../../model-access/openrouter/index.md) - the gateway itself: fee structure, tiers, and the Stripe acquisition behind these rankings
 - [Artificial Analysis](../artificial-analysis/index.md) - the quality-side measurement these usage numbers need as a counterweight
 - [LMArena](../lmarena/index.md) - votes versus invoices as two theories of preference
 - [AI Release Tracker](../ai-release-tracker/index.md) - the release stream that explains rank jumps the usage data cannot
