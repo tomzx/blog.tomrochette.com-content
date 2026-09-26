@@ -1,7 +1,7 @@
 ---
 title: Qwen Code
 created: 2026-08-24
-updated: 2026-09-12
+updated: 2026-09-26
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, coding-agents, harnesses, open-source, alibaba]
 readability: 3
@@ -65,12 +65,14 @@ Not for workflows where model behavior provenance or data residency is tightly g
 
 - 2026-08-24 - Created as a new-entrant harness note for Alibaba's Gemini CLI fork, with Taiwan-correction behavior and install/OAuth-routing cautions.
 - 2026-09-09 - Recorded the Qwen OAuth free tier's 2026-04-15 discontinuation, rewriting the pricing section and setting the thesis to past tense.
+- 2026-09-26 - Linked the Qwen Coding Plan note in the Model access category, where the flat-rate plan for these models is tracked.
 
 ## See also
 
 - [Agentic Coding Tools Landscape](../../agentic-coding-tools-landscape/index.md) - Qwen Code in the independent tail of the harness layer
 - [Gemini CLI](../gemini-cli/index.md) - the upstream whose shutdown of consumer access Qwen Code sidesteps
 - [Model Selection for Coding Tasks](../../model-selection-for-coding-tasks/index.md) - where Qwen coding models sit in the price-performance field
+- [Qwen Coding Plan](../../model-access/qwen-coding-plan/index.md) - the flat-rate way to buy the models this harness drives
 - [ai-tools-i-have-used](../../../ai-tools-i-have-used/index.md) - how fast tool allegiances rot, and why forks outlive their parents
 
 ## References

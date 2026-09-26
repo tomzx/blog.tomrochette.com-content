@@ -75,12 +75,14 @@ I would not standardize on it while the default data path concentrates your code
 - 2026-09-16 - Refreshed repository counters (26,776 stars, 5,039 forks, pushed 2026-09-15) and pinned the current version at v1.0.34 via npm after the x.ai changelog page returned 403 to non-browser agents.
 - 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
 - 2026-09-22 - Recorded the v1.0.41 npm release (September 22), the grok-4.7 model listing at the same $2.00/$6.00 rate as grok-4.6, and refreshed repository counters and download totals.
+- 2026-09-26 - Linked the SuperGrok note in the Model access category, where the subscription ladder that meters this harness is tracked.
 
 ## See also
 
 - [Harness Feature Matrix](../harness-feature-matrix/index.md) - the capability column this note adds
 - [Agentic Coding Tools Landscape](../../agentic-coding-tools-landscape/index.md) - where this lands in the harness layer
 - [Codex](../codex/index.md) - the other big-lab open terminal agent, and the source of ported tool code
+- [SuperGrok](../../model-access/supergrok/index.md) - the subscription ladder that meters this harness, tracked with its price history
 - [When AI Labs Stop Releasing Models](../../../when-ai-labs-stop-releasing-models/index.md) - the corpus argument this release stress-tests
 
 ## References

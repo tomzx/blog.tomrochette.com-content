@@ -16,13 +16,16 @@ Editors and harnesses live in their own categories; this is where the token bill
 - [Chutes](chutes/index.md) - decentralized inference with pay-as-you-go plus $10/$20 subscriptions capped at 5x pay-as-you-go value.
 - [Claude plans](claude-plans/index.md) - Anthropic's Free/Pro/Max subscriptions, the only non-API way to run Claude Code, from $20 to $200 per month.
 - [GLM Coding Plan](glm-coding-plan/index.md) - Z.AI's flat monthly quota for the GLM line, from $18, restructured twice since launch.
+- [Google AI plans](google-ai-plans/index.md) - the Google Plus/Pro/Ultra ladder carrying Antigravity and Gemini CLI, with credits over rate limits.
 - [Kimi Code](kimi-code/index.md) - Moonshot's membership ladder for coding, $19 to $199 monthly with Code from the second tier.
 - [MiniMax Coding Plan](minimax-coding-plan/index.md) - token-quota subscriptions for the MiniMax line, $22 to $132 per month, born from a silent plan replacement.
 - [NanoGPT](nanogpt/index.md) - the community aggregator: hundreds of routes pay-as-you-go plus a $12 open-weight subscription.
 - [OpenCode Go](opencode-go/index.md) - the OpenCode team's $10/month open-model token pack, usable from any agent.
 - [OpenCode Zen](opencode-zen/index.md) - the OpenCode team's curated pay-per-use gateway over benchmarked endpoints.
 - [OpenRouter](openrouter/index.md) - the largest model gateway, passthrough tokens plus a 5.5% credit fee, now joining Stripe.
+- [Qwen Coding Plan](qwen-coding-plan/index.md) - Alibaba Cloud's flat quota for the Qwen line plus bundled rivals, in transition to a Token Plan.
 - [Requesty](requesty/index.md) - EU-residency gateway charging a flat 5% markup on upstream spend.
+- [SuperGrok](supergrok/index.md) - xAI's subscription ladder from $30 to $300, one shared weekly pool across Grok chat, Grok Build, and API.
 - [Synthetic](synthetic/index.md) - a flat $30/month subscription for open-weight coding LLMs aimed at agent users.
 
 Its members are compared on shared rows in the [Model Access Feature Matrix](model-access-feature-matrix/index.md).
@@ -42,3 +45,6 @@ Its members are compared on shared rows in the [Model Access Feature Matrix](mod
 - 2026-09-26 - Added Synthetic.
 - 2026-09-26 - Added ChatGPT plans.
 - 2026-09-26 - Added Claude plans.
+- 2026-09-26 - Added Google AI plans.
+- 2026-09-26 - Added Qwen Coding Plan.
+- 2026-09-26 - Added SuperGrok.

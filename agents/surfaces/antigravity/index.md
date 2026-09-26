@@ -69,11 +69,13 @@ Not for proprietary-code environments that cannot absorb prompt-injection class 
 - 2026-08-24 - Created in the owner-requested Surfaces expansion.
 - 2026-09-16 - Added the September 2026 terms-of-service thread (337 points) to Cautions and References, on third-party harness usage risking Google account suspension.
 - 2026-09-25 - Added the Price history table the pricing rule requires, seeded with the $0/month individuals baseline.
+- 2026-09-26 - Linked the Google AI plans note in the Model access category, where the paid Pro/Ultra ladder behind the credit pool is tracked.
 
 ## See also
 
 - [Agentic Coding Tools Landscape](../../agentic-coding-tools-landscape/index.md) - where Antigravity sits across the surface and harness layers
 - [Gemini CLI](../../harnesses/gemini-cli/index.md) - the consumer shutdown that funneled users here
+- [Google AI plans](../../model-access/google-ai-plans/index.md) - the paid ladder behind the credit pool this note's free tier sits under
 - [Attention Engineering](../../../attention-engineering/index.md) - why grounding-heavy agents change what you verify
 
 ## References
