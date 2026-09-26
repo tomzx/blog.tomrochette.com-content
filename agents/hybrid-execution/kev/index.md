@@ -1,7 +1,7 @@
 ---
 title: Kev
 created: 2026-09-21
-updated: 2026-09-25
+updated: 2026-09-26
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, hybrid-execution, structured-outputs, system-one-models, decision-models, open-weights, fine-tuning]
 readability: 3
@@ -23,10 +23,10 @@ The API tests run TypeSafe's own example requests against the local server, whic
 
 ## Status
 
-**Active and eight days old, with traction on every axis I can measure.**
-The repository was created 2026-09-17 and pushed 2026-09-24, with 6,750 stars and 389 forks as of 2026-09-25, and two releases (the 0.5B prototype on 2026-09-17, the 0.8B/4B/9B family on 2026-09-20).
-The Hacker News thread (2026-09-21) exploded from about 30 points when I first checked to 460 points as of 2026-09-25, clearing the bar this note originally recorded it failing, with the substantive use-case discussion (coding-agent verifiers, spam filtering, knowledge-cutoff concerns) now carrying far more weight than drive-by upvotes.
-A browser demo on Hugging Face Spaces (Kev-4B and Kev-0.8B, no install) and an MLX serving path for Apple Silicon landed in the same window, and kev-4b shows about 6,100 downloads as of 2026-09-25.
+**Active and nine days old, with traction on every axis I can measure.**
+The repository was created 2026-09-17 and pushed 2026-09-26, with 7,079 stars and 418 forks as of 2026-09-26, and two releases (the 0.5B prototype on 2026-09-17, the 0.8B/4B/9B family on 2026-09-20).
+The Hacker News thread (2026-09-21) exploded from about 30 points when I first checked to 460 points as of 2026-09-26, clearing the bar this note originally recorded it failing, with the substantive use-case discussion (coding-agent verifiers, spam filtering, knowledge-cutoff concerns) now carrying far more weight than drive-by upvotes.
+A browser demo on Hugging Face Spaces (Kev-4B and Kev-0.8B, no install) and an MLX serving path for Apple Silicon landed in the same window, and kev-4b shows about 7,500 downloads as of 2026-09-26.
 What still carries the evidentiary weight: the README converts two independent third-party test sets, SemIf's 144 authored decisions and scienthoon's 900-ticket Jev calibration, and scores its models against those projects' own published live-Jev results.
 
 ## Strengths
@@ -77,11 +77,11 @@ The disagreeable claim I will defend: the weights are the second-most valuable a
 
 ## References
 
-- https://github.com/jaredpalmer/kev - repository: Apache-2.0, created 2026-09-17, 6,750 stars, 389 forks (GitHub API, as of 2026-09-25)
+- https://github.com/jaredpalmer/kev - repository: Apache-2.0, created 2026-09-17, 7,079 stars, 418 forks (GitHub API, as of 2026-09-26)
 - https://raw.githubusercontent.com/jaredpalmer/kev/main/README.md - the LoRA-plus-pointer-head architecture, question isolation, eval tables against Jev, serving and training limits
 - https://raw.githubusercontent.com/jaredpalmer/kev/main/PLAN.md - the pre-registered research log: gap table to Jev, locked-test discipline, the $475-of-$500 budget
-- https://news.ycombinator.com/item?id=49783999 - the launch thread (460 points as of 2026-09-25, from about 30 points a day earlier), its use-case confusion and bandwagon skepticism the critical signals
-- https://huggingface.co/collections/jaredpalmer/kev-6aad9d0ea49f2589665e07cd - the weight collection; kev-4b created 2026-09-19, Apache-2.0, about 6,100 downloads (as of 2026-09-25)
+- https://news.ycombinator.com/item?id=49783999 - the launch thread (460 points as of 2026-09-26, from about 30 points a day earlier), its use-case confusion and bandwagon skepticism the critical signals
+- https://huggingface.co/collections/jaredpalmer/kev-6aad9d0ea49f2589665e07cd - the weight collection; kev-4b created 2026-09-19, Apache-2.0, about 7,500 downloads (as of 2026-09-26)
 - https://github.com/TheoLeeCJ/SemIf - the independent 144-decision test set (2,680 stars) whose live-Jev results kev converts and scores against
 - https://github.com/scienthoon/jev-ood-calibration - the independent 900-ticket Jev calibration whose test set appears in kev's external evals
 - https://archerhume.com/posts/jevs-architecture-unmasked - the architecture write-up kev credits for the design

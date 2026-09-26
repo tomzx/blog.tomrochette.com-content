@@ -1,7 +1,7 @@
 ---
 title: dmux
 created: 2026-08-24
-updated: 2026-09-12
+updated: 2026-09-26
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, orchestration, git-worktrees, terminal, open-source]
 readability: 3
@@ -26,8 +26,8 @@ Extras include lifecycle hooks (worktree create, pre-merge, post-merge), macOS n
 ## Status
 
 Active and shipping.
-The repository was created 2025-08-20, was last pushed 2026-08-16, and shows 747 commits, about 1,775 stars, and 138 forks as of 2026-09-22.
-npm recorded 987 downloads in the last month as of 2026-09-22.
+The repository was created 2025-08-20, was last pushed 2026-08-16, and shows 747 commits, about 1,785 stars, and 138 forks as of 2026-09-26.
+npm recorded 938 downloads in the last month as of 2026-09-26.
 **Community discussion is thin: the August 2025 launch thread got 3 points and the February 2026 thread got 9 points with zero comments on Hacker News.**
 That gap between repo activity and discussion footprint is the main signal to watch.
 
@@ -79,4 +79,4 @@ My disagreeable claim: multi-agent fan-out is mostly a gimmick, and dmux's genui
 - https://api.github.com/repos/standardagents/dmux - stars, commits, push dates, MIT license
 - https://dmux.ai - official site, authors, license and sponsorship credit
 - https://news.ycombinator.com/item?id=47075312 - February 2026 thread (9 points) showing the small discussion footprint
-- https://api.npmjs.org/downloads/point/last-month/dmux - 987 downloads in the last month
+- https://api.npmjs.org/downloads/point/last-month/dmux - 938 downloads in the last month

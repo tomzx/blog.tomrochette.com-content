@@ -1,7 +1,7 @@
 ---
 title: rtk
 created: 2026-08-30
-updated: 2026-09-25
+updated: 2026-09-26
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, context-engines, token-efficiency, cli, open-source]
 readability: 3
@@ -25,8 +25,8 @@ Apache-2.0, built by a small French team with a commercial Pro product alongside
 
 ## Status
 
-Young and hot: 81,660 stars, 5,166 forks, and 1,576 open issues and pull requests combined as of 2026-09-25, created 2026-01-22, pushed 2026-09-24.
-The v0.50.0 release-candidate train has concluded: v0.50.0 went stable on 2026-09-24 after the near-daily run of candidates; the project is pre-1.0.
+Young and hot: 81,734 stars, 5,179 forks, and 1,591 open issues and pull requests combined as of 2026-09-26, created 2026-01-22, pushed 2026-09-26.
+v0.50.0 went stable on 2026-09-24, concluding that release-candidate train, and a follow-up 0.51.0 candidate train is already running (rc.465 by 2026-09-26); the project is pre-1.0.
 The site claims 18,000+ developers, a marketing figure, and the Show HN thread shows users posting their own measured savings.
 
 ## Strengths
@@ -41,7 +41,7 @@ The site claims 18,000+ developers, a marketing figure, and the Show HN thread s
 - Lossy output is the product: an agent reading a condensed diff or collapsed test list can misread state, and the changelog shows a steady stream of filter-correctness bugs.
 - The hook only rewrites Bash tool calls, so built-in Read/Grep/Glob tools bypass filtering entirely, and unmatched commands pass through at zero savings; one user's own log showed 39 percent on their busiest day.
 - All savings numbers trace to the project or its users; no independent benchmark exists as of 2026-09-02.
-- A crates.io name collision is documented in its own README, and the combined open issues and PRs total 1,576 as of 2026-09-25.
+- A crates.io name collision is documented in its own README, and the combined open issues and PRs total 1,591 as of 2026-09-26.
 
 ## Pricing
 
@@ -67,6 +67,7 @@ Not for sessions driven by built-in Read/Grep tools, or anyone whose agents cann
 - 2026-09-18 - Refreshed the volatile numbers (80,868 stars, 1,641 open issues and PRs, pushed 2026-09-18); stable remains v0.49.0, with the v0.50.0 release-candidate train still running (rc.442).
 - 2026-09-20 - Refreshed the volatile numbers (81,065 stars, 5,138 forks, 1,572 open issues and PRs as of 2026-09-20, pushed 2026-09-19); stable remains v0.49.0 with the candidate train at rc.444, and the combined backlog dropped about 70 over two days.
 - 2026-09-25 - Recorded v0.50.0 going stable (2026-09-24), concluding the release-candidate train, and refreshed the volatile numbers (81,660 stars, 5,166 forks, 1,576 open issues and PRs, pushed 2026-09-24).
+- 2026-09-26 - Recorded the follow-up 0.51.0 release-candidate train starting (rc.465 as of 2026-09-26) and refreshed the volatile numbers (81,734 stars, 5,179 forks, 1,591 open issues and PRs, pushed 2026-09-26).
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: Foremerge
 created: 2026-09-22
-updated: 2026-09-24
+updated: 2026-09-26
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, parallel-agents, coordination, git-worktrees, open-source]
 readability: 3
@@ -26,7 +26,7 @@ The author is Nick Woodhead, who built it as internal tooling at GPTree, a compa
 ## Status
 
 Active, young, and gaining traction fast.
-The repository was created 2026-08-21 and shows 505 stars and 21 forks as of 2026-09-24 (GitHub API).
+The repository was created 2026-08-21 and shows 507 stars and 21 forks as of 2026-09-26 (GitHub API).
 Its Show HN on 2026-09-21 drew 45 points and 16 comments, modest by this category's standards but substantive, with real pushback answered in the thread.
 v0.4.3 shipped 2026-09-18, and v0.5.0 became the latest published release on 2026-09-23, still pre-1.0 with public schemas that may change.
 The author reports it has been a critical part of GPTree's development flow since January, which makes it one of the few tools in this section dogfooded in production before it was a product.
@@ -79,7 +79,7 @@ My disagreeable claim: this is the missing layer the whole worktree-manager cate
 
 ## References
 
-- https://github.com/naw103/foremerge - repository, Apache-2.0, 505 stars, Rust, created 2026-08-21 (GitHub API, 2026-09-24)
+- https://github.com/naw103/foremerge - repository, Apache-2.0, 507 stars, Rust, created 2026-08-21 (GitHub API, 2026-09-26)
 - https://raw.githubusercontent.com/naw103/foremerge/HEAD/README.md - protocol, scope vocabulary, status banner, and the deterministic no-LLM design
 - https://foremerge.com - official site: MCP tools, the intent lifecycle, semantic scopes, and the "what it does not claim" section
 - https://github.com/naw103/foremerge/releases - v0.4.3 (2026-09-18) and v0.5.0, published 2026-09-23 (GitHub API, 2026-09-24)

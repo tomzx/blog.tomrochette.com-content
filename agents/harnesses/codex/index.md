@@ -1,7 +1,7 @@
 ---
 title: Codex
 created: 2026-08-22
-updated: 2026-09-22
+updated: 2026-09-26
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, coding-agents, harnesses, openai, developer-tools]
 readability: 3
@@ -24,7 +24,7 @@ Default models are the GPT-6 family (Astra, Sol, and Luna) rolling out across pl
 ## Status
 
 **Active.**
-`openai/codex` shows about 126.3k stars, about 19.7k forks, and about 11.4k commits under Apache-2.0 as of 2026-09-24.
+`openai/codex` shows about 126.5k stars, about 19.7k forks, and about 11.5k commits under Apache-2.0 as of 2026-09-26.
 The CLI launched April 2025 and has been rewritten and rebuilt since; the current docs position it as an open agent harness platform.
 
 ## Strengths
@@ -74,6 +74,7 @@ Not the cheapest path if your usage is light and token-based (aider or OpenCode 
 - 2026-09-16 - Refreshed repository scale to about 125k stars, about 19.3k forks, and about 10.8k commits.
 - 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
 - 2026-09-22 - Recorded the GPT-6 family (Astra, Sol, Luna) arriving across ChatGPT plans alongside GPT-5.6 and the October 14, 2026 GPT-5.5 retirement, and refreshed repository scale.
+- 2026-09-26 - Linked the ChatGPT plans note in the new Model access category, where the subscription that carries this harness is tracked with its price history.
 
 ## See also
 
@@ -81,6 +82,7 @@ Not the cheapest path if your usage is light and token-based (aider or OpenCode 
 - [Managing Many Concurrent LLM Agent Sessions](../../../managing-many-llm-agent-sessions/index.md) - what running Codex plus siblings in parallel looks like
 - [my-ai-workflow](../../../my-ai-workflow/index.md) - a practitioner's harness rotation that includes Codex
 - [Claude Code](../claude-code/index.md) - the direct subscription-first rival
+- [ChatGPT plans](../../model-access/chatgpt-plans/index.md) - the subscriptions that carry Codex, with their published limits and credit rates
 
 ## References
 

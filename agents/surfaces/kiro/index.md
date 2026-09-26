@@ -1,7 +1,7 @@
 ---
 title: Kiro
 created: 2026-08-24
-updated: 2026-09-24
+updated: 2026-09-26
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, surfaces, ai-editors, aws]
 readability: 3
@@ -23,10 +23,10 @@ The default model router is Auto, mixing frontier and specialist models, with ex
 ## Status
 
 **Active and enterprise-ready.**
-The vendor changelog shows weekly releases, with the CLI at 2.23.1 (September 23, 2026, reasoning controls in /model and V3 cloud sessions that start before connecting a repository, after 2.23.0 on September 21 and the 2.22.0 to 2.22.1 line of September 16 to 17, which added fullscreen chat and a streamlined session dashboard) and the IDE at 1.1.70 since September 24, 2026 (configurable terminal timeouts, clickable file links, and Agent Focus session restore, continuing the 1.1 line that began September 14 with durable agent artifacts and native ARM64 builds, up from the 1.0.437 line of September 1, the same day Kiro Web reached general availability and Kiro came under AWS ISO/IEC 27001:2022 certification), and Crew 0.6.0 added session harness selection (Claude Code, Codex, or KAS) and remote crews on September 5, 2026; pricing, GovCloud availability, and enterprise billing through AWS are all shipped.
+The vendor changelog shows weekly releases, with the CLI at 2.24.0 (September 23, 2026, session-wide tool approval in V3, combined session dashboard controls, and environment isolation that stops project .env files auto-loading, after the 2.23.0 and 2.23.1 pair of September 21 to 23 with reasoning controls in /model and V3 cloud sessions that start before connecting a repository, and the 2.22.0 to 2.22.1 line of September 16 to 17, which added fullscreen chat and a streamlined session dashboard) and the IDE at 1.1.70 since September 24, 2026 (configurable terminal timeouts, clickable file links, and Agent Focus session restore, continuing the 1.1 line that began September 14 with durable agent artifacts and native ARM64 builds, up from the 1.0.437 line of September 1, the same day Kiro Web reached general availability and Kiro came under AWS ISO/IEC 27001:2022 certification), while Crew 0.7.0 landed September 24, 2026 with live settings, durable queued work that survives Gateway restarts, pull request watches beyond GitHub (GitLab, Bitbucket Cloud, and Azure DevOps), OpenCode and goose agent backends, and AWS Fargate remote crews, building on Crew 0.6.0's September 5 session harness selection (Claude Code, Codex, or KAS); pricing, GovCloud availability, and enterprise billing through AWS are all shipped.
 The September 14 changelog also raised the GPT-5.6 family to a 1M context window, billed at double the short-context rate above 272K tokens.
 On September 16, 2026 the Claude Fable 5.1 Preview began rolling out to Kiro Enterprise clients: a 1M-context model billing at a 6x credit multiplier, with US-East-only inference and traffic retained up to 30 days for abuse detection.
-The public issue tracker (kirodotdev/Kiro, about 4.3k stars as of 2026-09-24) saw only README docs and Dependabot dependency commits on August 26-27, 2026, with no feature commits since June 22, 2026, so release evidence still lives on kiro.dev, not the repository.
+The public issue tracker (kirodotdev/Kiro, about 4.3k stars as of 2026-09-26) saw only README docs and Dependabot dependency commits on August 26-27, 2026, with no feature commits since June 22, 2026, so release evidence still lives on kiro.dev, not the repository.
 Its spec workflow has been influential enough that community projects port it to other harnesses.
 
 ## Strengths
@@ -75,6 +75,7 @@ Not for credit-averse solo engineers or anyone who wants an open client.
 - 2026-09-18 - Recorded CLI 2.22.0 (fullscreen chat, streamlined session dashboard) and the Claude Fable 5.1 Enterprise Preview (1M context, 6x multiplier), both September 16.
 - 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
 - 2026-09-24 - Recorded CLI 2.23.1 (reasoning controls, V3 cloud sessions before repo connection) and IDE 1.1.70 (terminal timeouts, clickable file links, Focus session restore), September 21 through 24; prices unchanged.
+- 2026-09-26 - Recorded CLI 2.24.0 (September 23, session-wide tool approval, dashboard controls, environment isolation) and Crew 0.7.0 (September 24, live settings, durable work, PR watches beyond GitHub, OpenCode and goose backends, Fargate remote crews) as the new latest releases.
 
 ## See also
 
@@ -86,7 +87,7 @@ Not for credit-averse solo engineers or anyone who wants an open client.
 
 - https://kiro.dev/ - product surfaces, modes, hooks
 - https://kiro.dev/pricing/ - tiers, credits, model multipliers, enterprise and GovCloud terms, as of 2026-09-24
-- https://kiro.dev/changelog/ - the weekly release cadence, CLI 2.21.0 and Web GA and ISO certification on September 1, 2026, Crew 0.6.0 on September 5, IDE 1.1 with the GPT-5.6 1M-context upgrade on September 14, CLI 2.22.0 with the Claude Fable 5.1 Enterprise Preview on September 16, CLI 2.23.0 on September 21, CLI 2.23.1 on September 23, and IDE 1.1.70 on September 24, as of 2026-09-24
-- https://github.com/kirodotdev/Kiro - issue tracker, only docs and dependency commits since June 22, 2026, about 4.3k stars as of 2026-09-24
+- https://kiro.dev/changelog/ - the weekly release cadence, CLI 2.21.0 and Web GA and ISO certification on September 1, 2026, Crew 0.6.0 on September 5, IDE 1.1 with the GPT-5.6 1M-context upgrade on September 14, CLI 2.22.0 with the Claude Fable 5.1 Enterprise Preview on September 16, CLI 2.23.0 on September 21, the Web reasoning-effort update on September 22, CLI 2.23.1 and 2.24.0 on September 23, and IDE 1.1.70 and Crew 0.7.0 on September 24, as of 2026-09-26
+- https://github.com/kirodotdev/Kiro - issue tracker, only docs and dependency commits since June 22, 2026, about 4.3k stars as of 2026-09-26
 - https://news.ycombinator.com/item?id=45044061 - the prompt-injection code execution writeup
 - https://news.ycombinator.com/item?id=44654560 - the spec-workflow port that shows Kiro's influence

@@ -24,7 +24,7 @@ Providers are configured by API key; OpenCode Zen is the team's curated, tested 
 ## Status
 
 **Very active.**
-The repository moved from `sst` to `anomalyco/opencode` and shows about 209.9k stars and 27.7k forks under MIT as of 2026-09-24.
+The repository moved from `sst` to `anomalyco/opencode` and shows about 210.1k stars and 27.8k forks under MIT as of 2026-09-26.
 It originated in the 2025 opencode-ai/Charm split that also produced Crush.
 OpenCode is the continuation that kept the name, the domain, and the community.
 

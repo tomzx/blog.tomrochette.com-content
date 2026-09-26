@@ -1,7 +1,7 @@
 ---
 title: Superset
 created: 2026-08-30
-updated: 2026-09-22
+updated: 2026-09-26
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, parallel-agents, ide, worktrees]
 readability: 3
@@ -24,7 +24,7 @@ Elastic License 2.0 (source-available, not OSI open source), by Superset Inc., t
 
 ## Status
 
-Fast and funded: about 14.5k stars, 1.3k forks, roughly 753 open issues and PRs as of 2026-09-22, created 2025-10-21, more than 4,290 commits, latest desktop release v1.30.2 on 2026-09-22, a second fix release on top of v1.30.1 (September 21) and v1.30.0 (2026-09-19), which had added explicit local workspaces on shared checkouts and clearer automation-creation options.
+Fast and funded: about 14.7k stars, 1.3k forks, roughly 780 open issues and PRs as of 2026-09-26, created 2025-10-21, more than 4,290 commits, latest desktop release v1.30.2 on 2026-09-22, a second fix release on top of v1.30.1 (September 21) and v1.30.0 (2026-09-19), which had added explicit local workspaces on shared checkouts and clearer automation-creation options.
 The Launch HN thread drew 108 points and 135 comments, and the founders say they ship daily.
 **Adoption claims beyond GitHub ("tens of thousands of engineers", big-company logos) are self-reported, and the codebase is still founder-dominated.**
 

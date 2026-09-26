@@ -1,7 +1,7 @@
 ---
 title: Continue
 created: 2026-08-26
-updated: 2026-09-24
+updated: 2026-09-26
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, surfaces, ai-editors, open-source, byok]
 readability: 3
@@ -16,7 +16,7 @@ Continue was an Apache-2.0 open-source coding agent shipped as a VS Code extensi
 
 ## What it is
 
-**One config-driven agent across three surfaces**: the VS Code extension (4,217,213 marketplace installs as of 2026-09-24), a JetBrains plugin, and a CLI, all configured through YAML with rules, MCP servers, and any model provider you point it at.
+**One config-driven agent across three surfaces**: the VS Code extension (4,225,275 marketplace installs as of 2026-09-26), a JetBrains plugin, and a CLI, all configured through YAML with rules, MCP servers, and any model provider you point it at.
 Local models were a first-class path, with official guides for [Ollama](https://docs.continue.dev/guides/ollama-guide) and for running fully offline.
 The final 2.x releases (2.0.0 and 2.1.0, both tagged 2026-06-19) removed anonymous telemetry and pulled out authentication entirely, leaving a self-hostable codebase with no account anywhere.
 
@@ -80,4 +80,4 @@ For the workflow it pioneered, use Cline or an ACP-speaking host.
 - https://news.ycombinator.com/item?id=48548758 - the June 15, 2026 acquisition thread
 - https://news.ycombinator.com/item?id=49398366 - the August 2026 "dead, alternatives?" thread
 - https://docs.continue.dev/guides/ollama-guide - the local-model path, still live
-- https://marketplace.visualstudio.com/items?itemName=Continue.continue - install count and rating, as of 2026-09-24
+- https://marketplace.visualstudio.com/items?itemName=Continue.continue - install count and rating, as of 2026-09-26

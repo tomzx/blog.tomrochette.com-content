@@ -1,7 +1,7 @@
 ---
 title: Cognee
 created: 2026-08-26
-updated: 2026-09-25
+updated: 2026-09-26
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, memory, agent-memory, knowledge-graphs, open-source]
 readability: 3
@@ -23,7 +23,7 @@ Cognee Cloud runs the same engine managed, on gpt-oss-120b, OpenAI's open-weight
 ## Status
 
 **Active and fast-moving.**
-About 31k GitHub stars as of 2026-09-25, repository pushed 2026-09-24 UTC, and v1.6.1 (September 24, 2026) the latest release per the PyPI JSON API.
+About 31k GitHub stars as of 2026-09-26, repository pushed 2026-09-26 UTC, and v1.6.1 (September 24, 2026) the latest release per the PyPI JSON API.
 v1.6.0 is the keyless-first release: many flows now run with no LLM key, pipelines stamp runs at start and recover after crashes, a cognee-mcp client/server package lands for integrations, and the default Docker image drops GLiNER, a breaking change self-hosters must patch around.
 v1.6.1 (September 24) adds Google Drive and Gmail ingestion with the Google connectors bundled into the SDK, chunked graph-visualization streaming for large subgraphs, and a GLiNER installer that defers the CPU Torch download to first use, and it promotes dlt to a core dependency, which breaks source installs that manage dependencies manually.
 The company is part of the Berkeley Xcelerator and claims 5M+ SDK runs per month (vendor figure).
@@ -84,7 +84,7 @@ Not for solo coding-agent work, where plain files win, or for anyone without the
 
 ## References
 
-- https://github.com/topoteretes/cognee - source, Apache-2.0, about 31k stars, as of 2026-09-25
+- https://github.com/topoteretes/cognee - source, Apache-2.0, about 31k stars, as of 2026-09-26
 - https://www.cognee.ai/ - v1 announcement, integration list, Berkeley Xcelerator, 5M+ SDK runs claim
 - https://www.cognee.ai/pricing - cloud tiers, per-token rate, workspace fee, gpt-oss-120b default, Enterprise bi-temporal memory listing, as of 2026-09-25 (the $1.00 Standard rate held since the 2026-09-09 cut)
 - https://docs.cognee.ai/ - architecture, multi-user mode, SDK and integration surfaces

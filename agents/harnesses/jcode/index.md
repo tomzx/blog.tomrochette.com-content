@@ -1,7 +1,7 @@
 ---
 title: jcode
 created: 2026-08-30
-updated: 2026-09-24
+updated: 2026-09-26
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agents, harnesses, rust, yc, memory, multi-agent]
 readability: 3
@@ -25,9 +25,9 @@ Its three distinctive systems are an embedding-based memory graph with passive r
 ## Status
 
 **Active and rising fast, with a bus factor of one.**
-Created January 5, 2026, it shows 20,106 stars and 2,330 forks with a push on the day of verification (GitHub API), and a release cadence that ran near-daily until v0.84.0 on September 7, 2026, followed by a twelve-day pause that v0.85.0 ended on September 19, 2026, v0.86.0 a day later on September 20, the v0.87 pair starting September 22 (v0.87.0, which added Claude Opus 5.5 with independent Anthropic model discovery and Claude Code 2.1.280 OAuth compatibility, with v0.87.1 following within hours), and v0.88.0 on September 23, which made Claude Opus 5.5 the default Anthropic model and added multi-browser support and banked resets for exhausted OpenAI usage.
+Created January 5, 2026, it shows 20,134 stars and 2,335 forks with a push on the day of verification (GitHub API), and a release cadence that ran near-daily until v0.84.0 on September 7, 2026, followed by a twelve-day pause that v0.85.0 ended on September 19, 2026, v0.86.0 a day later on September 20, the v0.87 pair starting September 22 (v0.87.0, which added Claude Opus 5.5 with independent Anthropic model discovery and Claude Code 2.1.280 OAuth compatibility, with v0.87.1 following within hours), and v0.88.0 on September 23, which made Claude Opus 5.5 the default Anthropic model and added multi-browser support and banked resets for exhausted OpenAI usage.
 It is Y Combinator-backed (S26), and the author reports 11,977 contributions in the last year ([about page](https://jcode.sh/about)).
-The independent footprint is thin so far: two Hacker News threads at 3 and 5 points with zero comments (April 30 and August 10, 2026) and one favorable third-party comparison; 19,953 stars against that little discussion is unusual and worth watching.
+The independent footprint is thin so far: two Hacker News threads at 3 and 5 points with zero comments (April 30 and August 10, 2026) and one favorable third-party comparison; 20,134 stars against that little discussion is unusual and worth watching.
 
 ## Strengths
 

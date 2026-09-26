@@ -1,7 +1,7 @@
 ---
 title: "Retrieval Feature Matrix"
 created: 2026-08-24
-updated: 2026-09-25
+updated: 2026-09-26
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, comparison, retrieval, rag, code-retrieval, llm=glm-5.3-flash]
 readability: 3
@@ -28,7 +28,7 @@ Each column links to the full note; every cell traces to a source cited there or
 | AST-aware code splitting | ✓ CodeChunker | ✗ document hierarchy, not AST | ✗ separators only | ✓ CodeSplitter | ? chunkers undisclosed | ✓ the technique |
 | Hosted or commercial arm | ✗ hosted API dead, OSS only | ✓ the hosted per-page API is the funnel | ✓ LangSmith SaaS | ✓ LlamaParse SaaS | ~ plan-gated indexes | ✗ was Chonkie Cloud, now dead |
 | Positioning drift in the notes | ~ maker moved to Feyn Labs, OSS continues | ✗ new entrant (2026-09), no drift yet | ~ climb to agent platform | ~ pivot to document OCR | ~ demoted to optional | ~ outsourced to Chonkie |
-| Maintenance status | ✓ active, 4.77k stars, 1.14M downloads/month | ✓ active, 3.49k stars, v1.2.17 (2026-09-23) | ✓ active, 147.0k stars | ✓ active, 52.3k stars | ~ active but demoted | ✓ mature, pervasive |
+| Maintenance status | ✓ active, 4.77k stars, 1.17M downloads/month | ✓ active, 3.51k stars, v1.2.17 (2026-09-23) | ✓ active, 147.1k stars | ✓ active, 52.3k stars | ~ active but demoted | ✓ mature, pervasive |
 | Displacement signal in the notes | ~ founder pivoted away, niche commoditized | ~ stars ran ahead of any discussion, two Show HNs, 2 points combined | ~ retrieval commoditized | ~ agentic search eats indexed RAG | ✓ pioneers shipped grep loops | ~ ranked below truncation |
 | What it replaces in a coding-agent stack | framework text splitters | hand-rolled OCR plus vector-store parsing | hand-rolled agent loops | hand-rolled retrievers | grep-only lookups | line-count chunking |
 

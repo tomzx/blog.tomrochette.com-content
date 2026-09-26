@@ -1,7 +1,7 @@
 ---
 title: Kilo Code
 created: 2026-08-27
-updated: 2026-09-24
+updated: 2026-09-26
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agents, harnesses, open-source, vscode, byok]
 readability: 3
@@ -24,7 +24,7 @@ Any-model BYOK works alongside Kilo's own metered credits, with local models via
 ## Status
 
 **Active under new ownership.**
-The repository shows about 27.4k stars under MIT as of 2026-09-24, most recently pushed within a day of verification; component tags ship on their own clocks (the newest tag is v7.7.12, published September 24, 2026, with v7.7.9 the latest stable release on September 23).
+The repository shows about 27.4k stars under MIT as of 2026-09-26, most recently pushed within a day of verification; component tags ship on their own clocks (the newest tag is v7.8.1, published September 25, 2026, and it is also the latest stable release, following the v7.8.0 prerelease earlier the same day).
 Anaconda announced the acquisition on July 15, 2026 and already lists Kilo among its products; kilocode.ai redirects to kilo.ai, where the vendor positions it as an all-in-one agentic engineering platform.
 
 ## Strengths
@@ -76,6 +76,7 @@ Not for teams needing a stable multi-year vendor story right now, because owners
 - 2026-09-22 - Recorded the v7.7.7 release (September 22) and refreshed repository state.
 - 2026-09-22 - Documented the Kilo Pass credit subscription (Starter $19, Pro $49, Expert $199, up to 50% bonus credits) shown on the pricing page.
 - 2026-09-24 - Recorded releases moving to v7.7.12 (September 24, prerelease) with v7.7.9 (September 23) the latest stable, and re-verified pricing unchanged.
+- 2026-09-26 - Recorded releases moving to v7.8.1 (September 25), now the latest stable after the v7.8.0 prerelease, and refreshed repository state; pricing re-verified unchanged.
 
 ## See also
 

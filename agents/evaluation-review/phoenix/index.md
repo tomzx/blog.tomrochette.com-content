@@ -1,7 +1,7 @@
 ---
 title: Phoenix
 created: 2026-08-30
-updated: 2026-09-25
+updated: 2026-09-26
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, evaluation, observability, opentelemetry, tracing]
 readability: 3
@@ -24,8 +24,8 @@ Core platform under Elastic License 2.0 with the client and OTel packages Apache
 
 ## Status
 
-Mature and busy: 11,605 stars, 1,153 forks, 1,070 open issues and PRs as of 2026-09-25.
-Created 2022-11-09, pushed 2026-09-25, platform release arize-phoenix 20.16.0 on 2026-09-23, about 650,000 PyPI downloads over the trailing 30 days ending 2026-09-25.
+Mature and busy: 11,623 stars, 1,160 forks, 1,093 open issues and PRs as of 2026-09-26.
+Created 2022-11-09, pushed 2026-09-26, platform release arize-phoenix 20.16.0 on 2026-09-23, about 650,000 PyPI downloads over the trailing 30 days ending 2026-09-26.
 **Four years in, it is the oldest and most production-proven column in this category, with near-daily commits and weekly releases.**
 
 ## Strengths
@@ -40,7 +40,7 @@ Created 2022-11-09, pushed 2026-09-25, platform release arize-phoenix 20.16.0 on
 - Not truly open source: ELv2 bars offering Phoenix as a managed service, and a community issue calls the license overly restrictive for OSS compatibility.
 - Production monitoring (dashboards, alerting, issue grouping) lives in Arize AX, not the OSS project.
 - The Azure quick-deploy template serves plain HTTP and the Google Cloud button builds from source, per the README's own notes.
-- 1,070 open issues and PRs is a large queue even for a project this size.
+- 1,093 open issues and PRs is a large queue even for a project this size.
 
 ## Pricing
 

@@ -1,7 +1,7 @@
 ---
 title: Unreal Agent
 created: 2026-09-25
-updated: 2026-09-25
+updated: 2026-09-26
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, harness, coding-agent, go, async]
 readability: 3
@@ -22,7 +22,7 @@ Unreal Labs says it was founded by engineers from CERN, Meta, Snap, Bloomberg, a
 ## Status
 
 Active and three days old at verification.
-The repo was created 2026-09-21, the launch thread landed 2026-09-22 at 242 points with 122 comments, and the repo stood at 1,879 stars and 97 forks with the default branch pushed 2026-09-23 (GitHub, as of 2026-09-25).
+The repo was created 2026-09-21, the launch thread landed 2026-09-22 at 242 points with 122 comments, and the repo stood at 1,946 stars and 103 forks with the default branch pushed 2026-09-23 (GitHub, as of 2026-09-26).
 Three tagged releases exist, v0.1.0 and v0.1.1 on launch day and v0.2.0 on 2026-09-23.
 That traction at day three is exo-class: exo entered this index at 1,919 stars on a 169-point thread.
 
@@ -71,7 +71,7 @@ The plain summary is that its one claim, async tool calls cut harness token over
 
 ## References
 
-- https://github.com/unreallabsai/unreal-agent - the repo, MIT license, releases, and star and fork counts as of 2026-09-25
+- https://github.com/unreallabsai/unreal-agent - the repo, MIT license, releases, and star and fork counts as of 2026-09-26
 - https://unreallabs.ai/blog/unreal-agent/ - the architecture, async tool-call model, Harbor-linked benchmark tables, and company backing
 - https://news.ycombinator.com/item?id=49805748 - the launch thread (242 points, 122 comments as of 2026-09-25) and the baseline-mismatch critique
 - https://unreallabs.ai/ - the company positioning and the Sequoia and First Round backing line

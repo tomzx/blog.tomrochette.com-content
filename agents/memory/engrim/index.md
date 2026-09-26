@@ -1,7 +1,7 @@
 ---
 title: Engrim
 created: 2026-09-10
-updated: 2026-09-22
+updated: 2026-09-26
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, sqlite, local-first]
 readability: 3
@@ -25,7 +25,7 @@ Every record carries an origin_agent field (antigravity, claude-code, cursor, co
 ## Status
 
 **A fast mover, and one this section's own pass initially rejected.**
-The Show HN thread (2026-09-07) reached 93 points as of 2026-09-22, and the repo grew from 27 stars at launch to 283 as of 2026-09-22, pushed the same day.
+The Show HN thread (2026-09-07) reached 93 points as of 2026-09-22, and the repo grew from 27 stars at launch to 290 as of 2026-09-26, pushed 2026-09-22.
 I passed on it at launch at 19 points and 27 stars, and the category pass that surfaced it again on 2026-09-10 reversed that call.
 The cadence is unusual: 84-plus commits and 26 PyPI releases since 2026-06-23, with seven releases in the launch week (1.3.0 on 2026-09-07, 1.3.1 through 1.4.1 on 2026-09-10, and 1.4.2 on 2026-09-11) and nine more since (1.4.3 and 1.4.5 on 2026-09-13, 1.4.6 on 2026-09-15 with no 1.4.4, 1.4.7 on 2026-09-17, 1.4.8 on 2026-09-18, and three on 2026-09-22 alone).
 Earlier releases folded in same-day fixes requested in the thread (an uninstall command, Codex auto-detection, stop-hook handling, a multi-store `engrim merge`), v1.4.2 adds native OpenAI Codex hook integration and parity, and v1.4.3 advertises explicit outputSchema declarations across the four core MCP tools so clients can introspect structured payloads, verified by a new schema regression test (234 tests passing).
@@ -83,7 +83,7 @@ My disagreeable claim: the provenance tracking, not the local-first storage, is 
 
 ## References
 
-- https://github.com/timgordontg/engrim - the repo: description, 283 stars, 15 forks, MIT, pushed 2026-09-22, as of 2026-09-22
+- https://github.com/timgordontg/engrim - the repo: description, 290 stars, 15 forks, MIT, pushed 2026-09-22, as of 2026-09-26
 - https://hn.algolia.com/api/v1/items/49594008 - the Show HN thread (93 points, 64 comments as of 2026-09-22): launch claims, the in-repo-docs counterpoint, the moderator AI-content flag, and same-day fixes
 - https://news.ycombinator.com/item?id=49594008 - the thread's canonical page confirming 93 points as of 2026-09-22
 - https://raw.githubusercontent.com/timgordontg/engrim/main/README.md - architecture (FTS5 plus model2vec), provenance, CLI surface, the seven-CLI banner, security notes, and the 105-session case study

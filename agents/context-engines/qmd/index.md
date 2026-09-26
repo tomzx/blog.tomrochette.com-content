@@ -1,7 +1,7 @@
 ---
 title: qmd
 created: 2026-08-30
-updated: 2026-09-25
+updated: 2026-09-26
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, context-engines, retrieval, local-search, open-source]
 readability: 3
@@ -24,7 +24,7 @@ MIT, by Tobias Lütke (Shopify CEO), who authored about three quarters of the co
 
 ## Status
 
-Young with unusual traction: 30,010 stars, 1,873 forks, 163 open issues and PRs as of 2026-09-25, created 2025-12-08.
+Young with unusual traction: 30,046 stars, 1,873 forks, 166 open issues and PRs as of 2026-09-26, created 2025-12-08.
 Latest release v2.8.3 on 2026-08-16, pushed 2026-09-09.
 **The maintainer concentration is the story: one high-profile author shipping v1 through v2.8 in nine months, with community PRs around the edge.**
 
@@ -76,5 +76,5 @@ Not for code-symbol search (use grep-class tools), constrained machines, or team
 - https://github.com/tobi/qmd - repository, description, license
 - https://raw.githubusercontent.com/tobi/qmd/HEAD/README.md - architecture, install, models, MCP and SDK surfaces
 - https://raw.githubusercontent.com/tobi/qmd/HEAD/CHANGELOG.md - release cadence, security fixes, platform issues
-- https://api.github.com/repos/tobi/qmd - exact stars, forks, and dates as of 2026-09-22
+- https://api.github.com/repos/tobi/qmd - exact stars, forks, and dates as of 2026-09-26
 - https://news.ycombinator.com/item?id=46689289 - the author on design intent and local-first trade-offs

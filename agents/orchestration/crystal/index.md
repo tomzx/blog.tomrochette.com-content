@@ -1,7 +1,7 @@
 ---
 title: Crystal
 created: 2026-08-24
-updated: 2026-09-12
+updated: 2026-09-26
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, orchestration, git-worktrees, desktop-app]
 readability: 3
@@ -26,7 +26,7 @@ Nimbalyst's desktop and iOS apps are MIT-licensed and free for individuals.
 
 Dead, superseded by design.
 The repository README says "Deprecated: February 2026", and the last push landed 2026-02-26, which matches.
-As of 2026-09-22 the repo shows 3,120 stars, 197 forks, and 672 commits, with 68 open issues that will not be worked on.
+As of 2026-09-26 the repo shows 3,122 stars, 197 forks, and 672 commits, with 68 open issues that will not be worked on.
 Nimbalyst itself is actively marketed, with team collaboration free during its beta and SOC-2 positioning on its site.
 
 ## Strengths

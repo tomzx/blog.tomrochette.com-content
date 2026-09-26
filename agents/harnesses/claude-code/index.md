@@ -1,7 +1,7 @@
 ---
 title: Claude Code
 created: 2026-08-22
-updated: 2026-09-20
+updated: 2026-09-26
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, coding-agents, harnesses, anthropic, developer-tools]
 readability: 3
@@ -26,7 +26,7 @@ The npm install is deprecated in favor of a native installer; third-party provid
 ## Status
 
 **Active and dominant.**
-The `anthropics/claude-code` repository shows about 148.0k stars and about 12.7k open issues and pull requests as of 2026-09-24; it hosts plugins, docs, and the issue tracker rather than the CLI source, which is proprietary.
+The `anthropics/claude-code` repository shows about 148.1k stars and about 13.1k open issues and pull requests as of 2026-09-26; it hosts plugins, docs, and the issue tracker rather than the CLI source, which is proprietary.
 Shipping pace in 2026 is high: projects for supervising groups of parallel agents (September 17), dynamic workflows across tens of parallel subagents (May 28), agent view (May 11), routines (April), computer use (March).
 
 ## Strengths
@@ -41,6 +41,7 @@ Shipping pace in 2026 is high: projects for supervising groups of parallel agent
 - **The harness baseline is heavy**: an independent proxy study measured about 33k input tokens sent before the user's prompt on a minimal task, versus about 7k for OpenCode.
 The same study measured mid-session cache re-writes up to 54x and a 4.2x token multiplier on a two-subagent fan-out (July 2026 snapshot).
 - The same study found 2.1.207 ignored `AGENTS.md` and only read `CLAUDE.md`, so cross-tool instruction files silently do nothing.
+- The September 2026 `AGENTS.md` rollout repeated the pattern of silent partial support: the 2.1.277 feature shipped as a built-in plugin gated behind a remote flag that telemetry-disabled sessions could not fetch, so those installs had no `AGENTS.md` support until 2.1.281 enabled it with telemetry off ([issue 95690](https://github.com/anthropics/claude-code/issues/95690), [changelog](https://raw.githubusercontent.com/anthropics/claude-code/main/CHANGELOG.md)).
 - The client binary is closed; a June 2026 reverse-engineering post found hidden Unicode markers in the system prompt encoding the user's API base URL and timezone classification, and the March 31, 2026 npm sourcemap leak exposed roughly 512k lines of internals Anthropic had not documented.
 - Cost complaints on API-billed usage are a running theme in community threads.
 
@@ -80,6 +81,8 @@ Not for the token-frugal or for anyone who needs an open, auditable client.
 - 2026-09-10 - Canonicalized the sandboxing docs reference to code.claude.com.
 - 2026-09-12 - Corrected two more feature-timeline months against the live product page.
 - 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
+- 2026-09-26 - Added the September 2026 caution that the 2.1.277 AGENTS.md rollout was gated behind a remote flag telemetry-disabled sessions could not fetch, fixed in 2.1.281, grounded in issue 95690 and the changelog, and refreshed repository scale.
+- 2026-09-26 - Linked the Claude plans note in the new Model access category, where the subscription that meters this harness is tracked with its price history.
 
 ## See also
 
@@ -87,12 +90,16 @@ Not for the token-frugal or for anyone who needs an open, auditable client.
 - [Rethinking Code Review in the Age of LLMs](../../../rethinking-code-review-in-the-age-of-llms/index.md) - the review surface this harness's output still has to survive
 - [agent-skills-that-render](../../../agent-skills-that-render/index.md) - making the skills layer of this harness render correctly
 - [OpenCode](../opencode/index.md) - the measured counterpoint on harness token overhead
+- [Claude plans](../../model-access/claude-plans/index.md) - the subscriptions that meter this harness, now tracked with their price history
 
 ## References
 
 - https://code.claude.com/docs/en/overview - surfaces, skills, hooks, subagents, routines, installation
 - https://claude.com/product/claude-code - pricing tiers and 2026 feature timeline
-- https://github.com/anthropics/claude-code - repository scale (about 148.0k stars) and npm deprecation, as of 2026-09-24
+- https://github.com/anthropics/claude-code - repository scale (about 148.1k stars) and npm deprecation, as of 2026-09-26
+- https://github.com/anthropics/claude-code/issues/95690 - the report that AGENTS.md support was gated behind a remote flag only fetched when telemetry was on
+- https://raw.githubusercontent.com/anthropics/claude-code/main/CHANGELOG.md - the 2.1.277 AGENTS.md addition and the 2.1.281 fix for telemetry-disabled sessions
+- https://news.ycombinator.com/item?id=49814947 - the 481-point September 23, 2026 thread that surfaced the telemetry gating
 - http://web.archive.org/web/20260814104128/https://thereallo.dev/blog/claude-code-prompt-steganography - independent analysis of hidden prompt markers (archived; the live site blocks automated fetches)
 - https://systima.ai/blog/claude-code-vs-opencode-token-overhead - measured baseline, cache, and subagent token costs (July 2026)
 - https://news.ycombinator.com/item?id=47584540 - the March 31, 2026 npm sourcemap-leak discussion (2,095 points)

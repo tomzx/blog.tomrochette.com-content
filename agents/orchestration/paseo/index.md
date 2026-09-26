@@ -1,7 +1,7 @@
 ---
 title: Paseo
 created: 2026-08-30
-updated: 2026-09-24
+updated: 2026-09-26
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, parallel-agents, mobile, open-source]
 readability: 3
@@ -24,7 +24,7 @@ Apache-2.0 (with a custom copyright notice), by Mohamed Boudra, an independent s
 
 ## Status
 
-Young and fast: about 18.5k stars, 2.1k forks, and 901 open issues and PRs as of 2026-09-24, created 2025-10-13, with more than 5,300 commits on main.
+Young and fast: about 18.6k stars, 2.1k forks, and 908 open issues and PRs as of 2026-09-26, created 2025-10-13, with more than 5,300 commits on main.
 v0.9.2 shipped on 2026-09-24, two days after v0.9.0 went stable with v0.9.1 the same day (September 22), following the v0.9.0 betas of September 17-18 and v0.8.0 (2026-09-10, plugin header buttons, custom providers, and richer chat components), alongside 165 contributors and an active subreddit and Discord.
 **The structural risk is on the label: the maintainer described himself on Hacker News as a team of one, and monetization has now arrived as the hosted Hub at €15 per seat per month.**
 
@@ -37,7 +37,7 @@ v0.9.2 shipped on 2026-09-24, two days after v0.9.0 went stable with v0.9.1 the 
 
 ## Cautions
 
-- Pre-1.0 with fast churn; the tracker crossed 1,200 open issues and PRs by 2026-09-07 before a cleanup wave closed roughly 400 of them in a day, down to 816 by 2026-09-08, 653 as of 2026-09-10, 724 as of 2026-09-12, 821 as of 2026-09-16, 854 as of 2026-09-18, 848 as of 2026-09-20, and 901 as of 2026-09-24, and demand still outruns a tiny team.
+- Pre-1.0 with fast churn; the tracker crossed 1,200 open issues and PRs by 2026-09-07 before a cleanup wave closed roughly 400 of them in a day, down to 816 by 2026-09-08, 653 as of 2026-09-10, 724 as of 2026-09-12, 821 as of 2026-09-16, 854 as of 2026-09-18, 848 as of 2026-09-20, 901 as of 2026-09-24, and 908 as of 2026-09-26, and demand still outruns a tiny team.
 - Subscription-billing friction: the maintainer confirmed Claude subscription usage through Paseo draws from a different, smaller credit pool than interactive use.
 - Solo-maintainer bus factor with a business model still pending.
 - Hacker News commenters noted it converges with Conductor, cmux, and Devin-style tools unless mobile-first steering is your actual need.

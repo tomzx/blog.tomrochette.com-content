@@ -1,7 +1,7 @@
 ---
 title: "Evaluation and Review Feature Matrix"
 created: 2026-08-30
-updated: 2026-09-25
+updated: 2026-09-26
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3-flash, comparison, evaluation, code-review, human-in-the-loop]
 readability: 3
@@ -30,7 +30,7 @@ Each column links to the full research note; every cell below traces to a source
 | Harness integration | tracing integrations | 9 harnesses, 12 configs, agent-neutral re-run skill | 3 harnesses (Claude Code, Codex CLI, Pi) across 7 models | Python/JS SDKs, native OpenTelemetry, 100+ framework integrations, agent skill, CLI, MCP server | OTel auto-instrumentation, MCP server | hooks in 9 harnesses | skills and MCP for 5+ agents |
 | Team layer | Confident AI platform | ✗ | ✗ | cloud RBAC, SSO and Slack on the Teams add-on, Enterprise audit logs and SCIM | Arize AX cloud | encrypted links (caveat), Workspaces waitlist | Raindrop Cloud optional |
 | License | ✓ Apache-2.0 | ✗ repository unlicensed | ✗ repository unlicensed | ~ MIT core, proprietary ee/ modules, ClickHouse-owned | ~ ELv2 core, Apache clients | ✓ Apache-2.0 or MIT | ✓ MIT |
-| Maturity | mature, 3 years, v4.2 | new, first run 2026-08-31, 82-point HN launch | new, live 2026-09-16, 232-point HN thread (2026-09-25) | mature, 3 years, v4.45.2 | mature, 4 years, v20.16 | pre-1.0 (v0.27.x), fast churn | pre-1.0, 4 months |
+| Maturity | mature, 3 years, v4.2 | new, first run 2026-08-31, 82-point HN launch | new, live 2026-09-16, 232-point HN thread (2026-09-25) | mature, 3 years, v4.46.0 | mature, 4 years, v20.16 | pre-1.0 (v0.27.x), fast churn | pre-1.0, 4 months |
 | Pricing anchor | free, platform $200-2,000/mo | free to read, a re-run costs harness tokens | free to read, a re-run costs model tokens | free self-hosted, cloud $29-2,499/mo | free, AX $50/mo entry | free, Workspaces unpriced | free, Cloud $299/mo |
 
 ## Reading the matrix

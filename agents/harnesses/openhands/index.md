@@ -1,7 +1,7 @@
 ---
 title: OpenHands
 created: 2026-08-27
-updated: 2026-09-24
+updated: 2026-09-26
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agents, harnesses, open-source, agent-platforms]
 readability: 3
@@ -17,14 +17,14 @@ OpenHands is the open-source (MIT) AI software development platform from All Han
 ## What it is
 
 The project paper describes an open platform for AI software developers as generalist agents, built around conversations that can edit files, run commands, and drive a browser inside sandboxes.
-It began as OpenDevin in March 2024 and was renamed OpenHands mid-development; the repository now lives at the `OpenHands` organization with about 89.1k stars and 11.7k forks under MIT as of 2026-09-24.
+It began as OpenDevin in March 2024 and was renamed OpenHands mid-development; the repository now lives at the `OpenHands` organization with about 89.2k stars and 11.7k forks under MIT as of 2026-09-26.
 Today's component map per the docs is Agent Canvas (the open-source browser client), an Agent Server backend plus Software Agent SDK, OpenHands Cloud, Enterprise, and a Sandbox Server.
 **The docs place the old Local GUI and CLI in their Legacy section, the Local GUI explicitly deprecated**, and one unusual flex stands out: Agent Canvas can host Claude Code, Codex, or Gemini CLI as ACP agents instead of its own loop.
 
 ## Status
 
 **Active and venture-funded.**
-Latest tagged release v1.23.0 shipped September 23, 2026, and the default branch was pushed within a day of verification.
+Latest tagged release v1.24.0 shipped September 25, 2026, and the default branch was pushed within a day of verification.
 All Hands AI raised $18.8M in a Series A led by Madrona on November 18, 2025, alongside a collaboration with AMD on locally-run agents.
 
 ## Strengths
@@ -64,6 +64,7 @@ Not for someone who wants a zero-migration, opinionated coding workflow today, b
 - 2026-09-16 - Refreshed repository scale (about 88.1k stars, 11.6k forks) and the pushed date; v1.18.0 still the latest release.
 - 2026-09-22 - Recorded the v1.22.0 release (September 22) and refreshed repository scale.
 - 2026-09-24 - Recorded the v1.23.0 release (September 23) and refreshed repository scale.
+- 2026-09-26 - Recorded the v1.24.0 release (September 25) and refreshed repository scale.
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: Worktrunk
 created: 2026-08-30
-updated: 2026-09-21
+updated: 2026-09-26
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, git-worktrees, cli, open-source]
 readability: 3
@@ -23,7 +23,7 @@ Dual MIT or Apache-2.0 license, Homebrew, cargo, winget, and Arch (pacman) distr
 
 ## Status
 
-The leading worktree manager of the agent wave: about 8.4k stars, 293 forks, 42 open issues and PRs as of 2026-09-22, created 2025-10-17, more than 5,000 commits on main, latest release v0.79.0 on 2026-09-21.
+The leading worktree manager of the agent wave: about 8.4k stars, 297 forks, 51 open issues and PRs as of 2026-09-26, created 2025-10-17, more than 5,000 commits on main, latest release v0.79.0 on 2026-09-21.
 About 150 releases in eleven months; still pre-1.0 with breaking changes per release, and effectively a single-maintainer project.
 
 ## Strengths

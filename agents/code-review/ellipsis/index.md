@@ -1,7 +1,7 @@
 ---
 title: Ellipsis
 created: 2026-08-30
-updated: 2026-09-20
+updated: 2026-09-26
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, code-review, ai-review, developer-tools]
 readability: 3
@@ -19,14 +19,14 @@ Ellipsis (ellipsis.dev) is a YC-backed company that launched in 2023 as an autom
 Ellipsis AI Inc (New York, founded 2023, YC Winter 2024, founders Hunter Brooks and Nick Bradford) sells a platform where every coding agent is a YAML file in your repo, and each session runs in its own sandbox with scoped credentials, hard budget caps, and searchable transcripts.
 Sessions start from GitHub, Slack, Linear, or Sentry events, cron schedules, the `agent` CLI, or a REST API, and the platform fronts Claude Code, Codex, Copilot, Gemini, Cursor, Grok Code, Antigravity, OpenCode, and Pi.
 Code review survives as a configurable agent use case, not the fixed install-and-forget bot of 2024, and the platform deploys either in Ellipsis's cloud or into your own AWS VPC.
-The core product is proprietary: its GitHub org publishes only tooling, an agent CLI, a homebrew tap, an AWS installer, and Python plus TypeScript SDK mirrors, six public repos in total as of 2026-09-21.
-The sixth, blink (codebase search, 31 stars as of 2026-09-21), was created on September 16, 2026.
+The core product is proprietary: its GitHub org publishes only tooling, an agent CLI, a homebrew tap, a Python and TypeScript SDK mirror, and the blink codebase-search repo, five public repos in total as of 2026-09-26, down from six on 2026-09-21 because the AWS installer repo is no longer public.
+Blink (81 stars as of 2026-09-26) was created on September 16, 2026.
 
 ## Status
 
 **Active and pivoted.**
 The July 28, 2026 post "Introducing the Ellipsis Agent Cloud" says it plainly: Ellipsis "launched in 2023 as one of the first AI Code Review bots", but teams no longer want a product that "just worked", so the company rebuilt itself as agent infrastructure and released the `agent` CLI.
-The homepage, docs, and pricing all describe the agent cloud as of 2026-09-18, and the GitHub org pushed to its CLI, SDK, and homebrew-tap repos on 2026-09-15 and 2026-09-16.
+The homepage, docs, and pricing all describe the agent cloud as of 2026-09-18, and the GitHub org pushed to its CLI repo on 2026-09-25.
 Funding is a $2M seed announced June 19, 2024, with YC partners and the Pioneer Fund among the investors; I found no later round on any page I fetched.
 The blog is thin, three original posts since January 2025 and a gap from April 2025 to July 2026, so public cadence evidence is sparse even though the product is clearly alive.
 The community footprint is one strong Show HN from May 9, 2024 (Algolia item 40309719, 121 points, 64 comments) and a quieter February 2024 one (item 39526616, 18 points, 11 comments).
@@ -42,7 +42,7 @@ The community footprint is one strong Show HN from May 9, 2024 (Algolia item 403
 ## Cautions
 
 - The 2024 review bot no longer exists as a product; the launch post says the install-and-forget model "is not the case anymore", so getting review out of Ellipsis means writing and maintaining YAML.
-- The public footprint is thin: a ten-month blog gap, six public repos, and an agent CLI at 3 stars as of 2026-09-18, so third-party validation is limited.
+- The public footprint is thin: a ten-month blog gap, five public repos, and an agent CLI at 3 stars as of 2026-09-26, so third-party validation is limited.
 - Headline claims are company data: "merge pull requests 13% faster" comes from the seed post, and "most popular AI Code Review agent among YC founders" comes from the company's own launch post.
 - HN critics were blunt about the review era, calling the PR summaries noise and telling maintainers "please stop making open source worse".
 - The founder admitted on that thread that the company had no hard numbers ("all our data is qualitative") as of May 2024.
@@ -85,6 +85,7 @@ I will take the unpopular position that leaving review was the right call: a fix
 - 2026-09-13 - Added the free-for-individuals on-ramp (own ChatGPT or Claude subscription) to the pricing picture.
 - 2026-09-18 - The free-individual on-ramp now names Claude Code or Codex subscriptions (was ChatGPT or Claude), and the GitHub org grew to six public repos with the new blink codebase-search repo.
 - 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
+- 2026-09-26 - The GitHub org dropped to five public repos (the AWS installer repo is no longer public) and blink grew from 31 to 81 stars; pricing re-verified unchanged.
 
 ## See also
 

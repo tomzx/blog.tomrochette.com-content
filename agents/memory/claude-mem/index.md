@@ -1,7 +1,7 @@
 ---
 title: claude-mem
 created: 2026-08-30
-updated: 2026-09-22
+updated: 2026-09-26
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, session-memory, compression, open-source]
 readability: 3
@@ -24,8 +24,8 @@ Made by Alex Newman (thedotmack), a solo author in the Vercel OSS Program, with 
 
 ## Status
 
-Very large and fast: about 94.6k stars, 8.4k forks, and 295 open issues and pull requests as of 2026-09-25, with 71,288 npm downloads in the last month.
-Created 2025-08-31, pushed 2026-09-24, latest tagged release v13.25.3 on 2026-09-21, with npm still in sync at 13.25.3 (published minutes later the same evening), which closed the npm-versus-GitHub channel drift that had stood since 2026-09-16.
+Very large and fast: about 94.7k stars, 8.4k forks, and 307 open issues and pull requests as of 2026-09-26, with 67,914 npm downloads in the last month.
+Created 2025-08-31, pushed 2026-09-26, latest tagged release v13.26.0 on 2026-09-26, with npm still in sync at 13.26.0 (published minutes later), the release channels having stayed aligned since the 2026-09-21 drift close.
 The README now brands the project Grok Mem (the package is still `claude-mem`), and v13.24.0 shipped it as two independent Cursor and Grok Bot marketplace plugins alongside the Claude Code install path.
 **The v13.x version line tells you the churn rate: near-daily releases with major-version jumps, which is velocity and breakage risk in the same number.**
 
@@ -88,5 +88,5 @@ Not for privacy-strict environments, anyone unwilling to run a local worker serv
 - https://docs.claude-mem.ai/architecture/overview - hook architecture and the compression flow behind the token-cost caution
 - https://docs.claude-mem.ai/cloud-sync - the documented privacy trade-off of the cloud tier
 - https://claude-mem.ai - pricing tiers and adoption stats
-- https://api.npmjs.org/downloads/point/last-month/claude-mem - the 71,288 monthly downloads as of 2026-09-25
+- https://api.npmjs.org/downloads/point/last-month/claude-mem - the 67,914 monthly downloads as of 2026-09-26
 - https://news.ycombinator.com/item?id=47422611 - the critical take from a competing memory author on the capture-everything approach

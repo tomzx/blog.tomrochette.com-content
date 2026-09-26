@@ -1,7 +1,7 @@
 ---
 title: "Orchestration Feature Matrix"
 created: 2026-08-24
-updated: 2026-09-24
+updated: 2026-09-26
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, comparison, orchestration, git-worktrees, parallel-agents]
 readability: 3
@@ -30,7 +30,7 @@ Each column links to the full research note; every cell below traces to a source
 | Remote or SSH execution | ✓ cluster-native, ax ssh into sandboxes | ? | ~ SSH sessions | ? | ? | ✗ local only | ✓ SSH-first | ✗ local, single machine | ~ Docker compose | ✓ E2E-encrypted relay | ✓ JetBrains cloud, org web | ✓ machine pools | ✓ encrypted relay, self-host | ~ remote workspaces beta | ~ Docker self-host | ✗ local git |
 | Built-in review tooling | ~ watch, logs, and ssh, no review surface | ~ diff preview tab | ? | ✓ diffs, checks, PR, review | ~ diff viewer, rebase, squash | ~ merge and PR menu | ✓ diffs, PRs, CI checks | ~ advisory conflict findings, verification-gated ChangeSets, no diff surface | ✓ Refinery merge queue | ~ diffs and terminals beside conversations | ✓ language-aware diffs, Agent Review (agent reviews agent) | ~ approvals, questions, events, artifacts | ~ agent output and diffs | ✓ diffs, browser previews | ✓ diffs, comments, PR | ~ status table and merge pipeline |
 | Cloud execution option | ✓ is the cloud execution layer | ✗ no hosting | ✓ Pro, up to 50 cloud VMs | ✓ Vercel sandboxes | ? | ✗ | ~ contact-sales | ✗ local only | ✗ self-host, Wasteland federation | ✗ your machine only | ✓ JetBrains-managed cloud environments | ✓ Omnara Cloud, or self-host | ~ self-host anywhere, no vendor cloud | ~ remote workspaces beta | ✗ services removed | ✗ |
-| Current status | active, Google team, v0.3.0, pre-stable | active, slow burn | active, fast | active, $22M raised | deprecated Feb 2026 | active | active, YC W26 | active, 505 stars, pre-1.0, v0.5.0 | shut down Sept 2026, repo kept as death record | active, 23.9k stars, community team | active, public preview, v262.834.41 | active, YC S25, 2,863 stars | active, v0.9.2, solo maintainer | active, YC P26, $11M raised | orphaned, community commits resumed 2026-09-16, v0.1.45 prerelease on GitHub, npm still 0.1.44 | active, pre-1.0 fast |
+| Current status | active, Google team, v0.3.1, pre-stable | active, slow burn | active, fast | active, $22M raised | deprecated Feb 2026 | active | active, YC W26 | active, 507 stars, pre-1.0, v0.5.0 | shut down Sept 2026, repo kept as death record | active, 23.9k stars, community team | active, public preview, v262.834.41 | active, YC S25, 2,871 stars | active, v0.9.2, solo maintainer | active, YC P26, $11M raised | orphaned, community commits resumed 2026-09-16, v0.1.45 prerelease on GitHub, npm still 0.1.44 | active, pre-1.0 fast |
 
 ## Reading the matrix
 

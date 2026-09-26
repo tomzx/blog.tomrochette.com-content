@@ -1,7 +1,7 @@
 ---
 title: deepeval
 created: 2026-08-30
-updated: 2026-09-25
+updated: 2026-09-26
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, evaluation, llm-as-judge, testing, open-source]
 readability: 3
@@ -23,9 +23,9 @@ Made by Confident AI, a seed-stage San Francisco company, Apache-2.0.
 
 ## Status
 
-The volume leader of Python eval frameworks: 18,433 stars, 1,978 forks, 656 open issues and PRs as of 2026-09-25.
-Created 2023-08-10, pushed 2026-09-24, Python 4.2.4 released 2026-09-22, about 2.5 million PyPI downloads a month as of 2026-09-25.
-**Three years old and commercially backed, it is the most mature column in this category, and the 656-item backlog reads as heavy usage rather than neglect.**
+The volume leader of Python eval frameworks: 18,445 stars, 1,982 forks, 665 open issues and PRs as of 2026-09-26.
+Created 2023-08-10, pushed 2026-09-25, Python 4.2.4 released 2026-09-22, about 2.5 million PyPI downloads a month as of 2026-09-26.
+**Three years old and commercially backed, it is the most mature column in this category, and the 665-item backlog reads as heavy usage rather than neglect.**
 
 ## Strengths
 
@@ -39,7 +39,7 @@ Created 2023-08-10, pushed 2026-09-24, Python 4.2.4 released 2026-09-22, about 2
 - Most flagship metrics are LLM-as-judge: non-deterministic, prompt-sensitive, and billed to your judge key on every run.
 - The open-core split is real: comparisons, regression tracking, datasets, and online evals live in the paid Confident AI platform, and `deepeval login` is "highly recommended" while auto-logging test cases to their cloud unless you opt out.
 - The TypeScript SDK is explicitly not score-parity-verified against Python.
-- Docs-quality criticism at launch has been addressed but 656 open issues and PRs signal friction.
+- Docs-quality criticism at launch has been addressed but 665 open issues and PRs signal friction.
 
 ## Pricing
 

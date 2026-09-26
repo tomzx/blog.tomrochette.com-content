@@ -1,7 +1,7 @@
 ---
 title: NanoJev
 created: 2026-09-21
-updated: 2026-09-25
+updated: 2026-09-26
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, hybrid-execution, structured-outputs, system-one-models, decision-models, open-weights, game-agents]
 readability: 3
@@ -23,9 +23,9 @@ The code is MIT, by an individual developer signing as Tianyu (43 GitHub followe
 
 ## Status
 
-**Active, six days old, mid-pack among the open replicas by stars, with the smallest community footprint.**
-The repository was created 2026-09-17, pushed 2026-09-21, and shows about 2,200 stars and 235 forks as of 2026-09-25.
-The weights show about 6,900 downloads and 83 likes, the dataset about 3,900 downloads, as of 2026-09-25.
+**Active, nine days old, mid-pack among the open replicas by stars, with the smallest community footprint.**
+The repository was created 2026-09-17, pushed 2026-09-21, and shows about 2,300 stars and 240 forks as of 2026-09-26.
+The weights show about 7,200 downloads and 82 likes, the dataset about 4,000 downloads, as of 2026-09-26.
 The author published a follow-up project, JevHarness, for letting an LLM build task-specific decision harnesses with rewards and execution traces.
 The Hacker News submission (2026-09-18) sits at 2 points and zero comments, the third-party JevBench board ranks no NanoJev checkpoint, and I found no independent discussion, evaluation, or runtime anywhere; **that silence is itself a signal, and it is why I weight every number below as unreplicated.**
 
@@ -74,9 +74,9 @@ The disagreeable claim I will defend: NanoJev beating hosted Jev at three of fou
 
 ## References
 
-- https://github.com/TianyuCodings/NanoJev - repository: MIT, created 2026-09-17, about 2,200 stars, 235 forks (GitHub API, as of 2026-09-25)
+- https://github.com/TianyuCodings/NanoJev - repository: MIT, created 2026-09-17, about 2,300 stars, 240 forks (GitHub API, as of 2026-09-26)
 - https://raw.githubusercontent.com/TianyuCodings/NanoJev/main/README.md - the four-game claims, dataset scale, and the roadmap with RLCD pending
 - https://raw.githubusercontent.com/TianyuCodings/NanoJev/main/docs/SONIC_PREDICT_POSITION_RESULTS.md - the detailed test and OOD tables, including the Maze losses and McNemar p-values
-- https://huggingface.co/C-Tianyu/NanoJev - weights: created 2026-09-17, about 6,900 downloads, 83 likes, no license tag (as of 2026-09-25)
-- https://huggingface.co/datasets/C-Tianyu/NanoJev-Data - the 18,760-question mixed-task dataset, about 3,900 downloads (as of 2026-09-25)
+- https://huggingface.co/C-Tianyu/NanoJev - weights: created 2026-09-17, about 7,200 downloads, 82 likes, no license tag (as of 2026-09-26)
+- https://huggingface.co/datasets/C-Tianyu/NanoJev-Data - the 18,760-question mixed-task dataset, about 4,000 downloads (as of 2026-09-26)
 - https://news.ycombinator.com/item?id=49757421 - the 2-point, zero-comment submission grounding the missing-footprint claim

@@ -1,7 +1,7 @@
 ---
 title: Happy Coder
 created: 2026-09-06
-updated: 2026-09-24
+updated: 2026-09-26
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, mobile, claude-code, codex]
 readability: 3
@@ -22,10 +22,10 @@ The README describes the makers as a community of engineers building for themsel
 
 ## Status
 
-Active and second only to cmux among maintained category tools on stars: 23,875 GitHub stars as of 2026-09-22 (the orphaned Vibe Kanban repo holds more, about 28k, but has shipped nothing since April), created July 2025, last pushed 2026-09-22.
+Active and second only to cmux among maintained category tools on stars: 23,913 GitHub stars as of 2026-09-26 (the orphaned Vibe Kanban repo holds more, about 28k, but has shipped nothing since April), created July 2025, last pushed 2026-09-22.
 cli-1.2.5 reached stable on 2026-09-22, following cli-1.2.4 (2026-09-13) and the 1.2.5 betas.
 Its August 2025 Show HN drew only 30 points, so the star count is bottom-up adoption rather than press traction.
-For scale, Paseo, the category's other mobile-first entrant, reports about 18.5k stars against Happy's 23.9k.
+For scale, Paseo, the category's other mobile-first entrant, reports about 18.6k stars against Happy's 23.9k.
 
 ## Strengths
 
@@ -76,7 +76,7 @@ Not for multi-provider orchestration, worktree isolation, or Windows and Linux d
 
 ## References
 
-- https://github.com/slopus/happy - repository, 23,875 stars, MIT license, monorepo components, team description (GitHub API, 2026-09-22)
+- https://github.com/slopus/happy - repository, 23,913 stars, MIT license, monorepo components, team description (GitHub API, 2026-09-26)
 - https://happy.engineering/ - official site and product framing
 - https://github.com/slopus/happy/releases - cli-1.2.5 stable published 2026-09-22, cli-1.2.4 on 2026-09-13 (GitHub API)
 - https://news.ycombinator.com/item?id=44904039 - August 2025 Show HN, 30 points, the donation-IAP question and Windows sync bugs (Algolia-verified)

@@ -1,7 +1,7 @@
 ---
 title: Pi
 created: 2026-08-30
-updated: 2026-09-22
+updated: 2026-09-26
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, harnesses, coding-agents, open-source, byok, extensibility]
 readability: 3
@@ -25,9 +25,9 @@ Made by Earendil Inc., created by Mario Zechner with Armin Ronacher as the secon
 
 ## Status
 
-Active and ascending: 109,180 stars (past the 100k mark), 13,874 forks, 215 open issues and PRs as of 2026-09-24.
+Active and ascending: 109,421 stars (past the 100k mark), 13,903 forks, 226 open issues and PRs as of 2026-09-26.
 Created 2025-08-09, pushed within a day of verification, releases roughly weekly (v0.87.1 on 2026-09-22).
-**The ecosystem is the strongest signal: OpenClaw runs on Pi, and oh-my-pi, a batteries-included fork with about 33.2k stars as of 2026-09-24, exists precisely because some users want the features Pi refuses to ship.**
+**The ecosystem is the strongest signal: OpenClaw runs on Pi, and oh-my-pi, a batteries-included fork with about 33.3k stars as of 2026-09-26, exists precisely because some users want the features Pi refuses to ship.**
 
 ## Strengths
 
@@ -81,4 +81,4 @@ Not for teams wanting turnkey guardrails, MCP-centric stacks, or a stable API su
 - https://pi.dev - positioning, extension model, and the list of features deliberately not built
 - https://mariozechner.at/posts/2025-11-30-pi-coding-agent/ - the author's rationale for the minimal prompt and YOLO default
 - https://news.ycombinator.com/item?id=46844822 - the 421-point thread with pushback on the security posture
-- https://github.com/can1357/oh-my-pi - the batteries-included fork at about 33.2k stars, the counterargument in running code
+- https://github.com/can1357/oh-my-pi - the batteries-included fork at about 33.3k stars, the counterargument in running code

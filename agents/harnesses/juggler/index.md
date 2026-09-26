@@ -1,7 +1,7 @@
 ---
 title: Juggler
 created: 2026-08-30
-updated: 2026-09-24
+updated: 2026-09-26
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agents, harnesses, gui, go]
 readability: 3
@@ -27,7 +27,7 @@ Made by Julian Storer (JUCE, Tracktion, Cmajor), distributed as signed installer
 
 **Young, active, and single-maintainer, with a strong launch.**
 The public Show HN on July 12, 2026 drew 280 points and 119 comments ([HN](https://news.ycombinator.com/item?id=48883305)).
-601 stars and 45 forks as of 2026-09-22 on a repo created June 19, 2026 (GitHub API).
+600 stars and 45 forks as of 2026-09-26 on a repo created June 19, 2026 (GitHub API).
 Shipping is steady: v0.7.0 published September 24, 2026, which added workspaces with git worktrees, throwaway scratch copies, or subfolders as session targets, following v0.6.4 on September 14 and v0.6.3 on September 12.
 One person builds it, which is both the reason it ships fast and the project's single point of failure.
 
@@ -77,7 +77,7 @@ I think the harnesses that win the GUI layer will be the ones that treat convers
 
 ## References
 
-- https://github.com/juggler-ai/juggler - repository, AGPL-3.0 app code with Apache-2.0 extensions, 600 stars as of 2026-09-24
+- https://github.com/juggler-ai/juggler - repository, AGPL-3.0 app code with Apache-2.0 extensions, 600 stars as of 2026-09-26
 - https://juggler.studio/ - product claims, provider list, session model
 - https://raw.githubusercontent.com/juggler-ai/juggler/main/README.md - architecture, licensing map, build model
 - https://news.ycombinator.com/item?id=48883305 - the July 12, 2026 launch thread, 280 points (verified via Algolia API)

@@ -1,7 +1,7 @@
 ---
 title: CUA-S1
 created: 2026-09-20
-updated: 2026-09-25
+updated: 2026-09-26
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, hybrid-execution, structured-outputs, computer-use, system-one-models, open-weights]
 readability: 3
@@ -25,10 +25,10 @@ It lives inside the trycua/cua monorepo (MIT) as a source component, with weight
 
 Early research artifact, days old, and unusually candid about it.
 The component README still describes a source-only release whose checkpoint table reads "weights not distributed", while the main README and the checkpoint metadata point at the `cua-ai/cua-s1-forms` weights created on Hugging Face on 2026-09-18, a documentation wrinkle worth knowing before you cite either.
-The launch Show HN thread (2026-09-19) reached 94 points as of 2026-09-25, and the host repository shows about 26,300 stars as of 2026-09-25, though nearly all of that is the surrounding Cua computer-use project, created 2025-01-31, not the model.
+The launch Show HN thread (2026-09-19) reached 94 points as of 2026-09-26, and the host repository shows about 26,500 stars as of 2026-09-26, though nearly all of that is the surrounding Cua computer-use project, created 2025-01-31, not the model.
 The original headline numbers remain vendor-run and synthetic-only: 99.94% top-1 on a held-out 22,054-example synthetic split, ECE 0.000148, and 2,589 rows per second, all from the checkpoint's own metadata.
 The Hugging Face model card was materially expanded on 2026-09-21: the checkpoint now ships as a safetensors pair (the loader rejects pickled files by design), a first real-world demo eval landed (100% top-1 over 196 decisions on three real forms and three real PDFs, plus a 37% shuffled-context control), and a zero-fine-tuning head-to-head against the hosted Jev API scored 99.7% for this model against 83.6% for Jev, with the card conceding Jev was never trained on this project's no-op labeling convention.
-The first independent artifacts appeared the following days: three community quantizations on Hugging Face and a browser-demo Space built on the checkpoint, with card likes at 109 as of 2026-09-25.
+The first independent artifacts appeared the following days: three community quantizations on Hugging Face and a browser-demo Space built on the checkpoint, with card likes at 111 as of 2026-09-26.
 
 ## Strengths
 
@@ -59,7 +59,7 @@ The model card reserves the right to attach artifact-specific terms, including s
 
 **Recommended for computer-use and form-automation researchers who want to inspect, retrain, or benchmark a real decision-model checkpoint instead of trusting a launch post.**
 Not for production form automation today: synthetic-only validation and a 706k-parameter scope make this a research artifact, not a dependency.
-The disagreeable claim I will defend: a 706k-parameter model trained in public on synthetic data answers the "can't hallucinate" question more usefully than Jev's 1,915-point thread did, because everything here can be checked by anyone, and the category's winners will be decided by verifiability, not launch-day points.
+The disagreeable claim I will defend: a 706k-parameter model trained in public on synthetic data answers the "can't hallucinate" question more usefully than Jev's 1,981-point thread did, because everything here can be checked by anyone, and the category's winners will be decided by verifiability, not launch-day points.
 
 ## Changes
 
@@ -76,10 +76,10 @@ The disagreeable claim I will defend: a 706k-parameter model trained in public o
 
 ## References
 
-- https://github.com/trycua/cua - host repository: 24,749 stars, MIT, created 2025-01-31, CUA-S1 announced in the main README (GitHub API, as of 2026-09-20)
+- https://github.com/trycua/cua - host repository: 26,483 stars, MIT, created 2025-01-31, CUA-S1 announced in the main README (GitHub API, as of 2026-09-26)
 - https://github.com/trycua/cua/tree/main/libs/cua-s1 - component README: source-only framing, checkpoint table, safety boundary, MCP server caveats
 - https://github.com/trycua/cua/blob/main/libs/cua-s1/MODEL_CARD.md - model card: tinyx byte-level encoder, option-attention head, synthetic-only evaluation, licensing caveat
-- https://huggingface.co/cua-ai/cua-s1-forms - weights: MIT, created 2026-09-18, 706,048 parameters, 109 likes as of 2026-09-25, downloads not tracked, now shipping a safetensors pair alongside the original pickle
+- https://huggingface.co/cua-ai/cua-s1-forms - weights: MIT, created 2026-09-18, 706,048 parameters, 111 likes as of 2026-09-26, downloads not tracked, now shipping a safetensors pair alongside the original pickle
 - https://huggingface.co/cua-ai/cua-s1-forms/raw/main/cua-s1-forms.json - checkpoint config and best-validation metrics (top1 0.9994, ECE 0.000148, 2,589 rows/s, source checkpoint jevform-best.pt)
-- https://news.ycombinator.com/item?id=49767564 - the Show HN thread (75 points, 4 top-level comments, 2026-09-19), including the unanswered RLCD question
+- https://news.ycombinator.com/item?id=49767564 - the Show HN thread (94 points as of 2026-09-26, 5 top-level comments, 2026-09-19), including the unanswered RLCD question
 - https://github.com/trycua/cua/blob/main/libs/cua-s1/SECURITY.md - deployment threat model and least-privilege guidance

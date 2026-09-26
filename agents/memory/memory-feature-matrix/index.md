@@ -1,7 +1,7 @@
 ---
 title: "Memory Feature Matrix"
 created: 2026-08-24
-updated: 2026-09-24
+updated: 2026-09-26
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, comparison, memory, agent-memory, ai-agents]
 readability: 3
@@ -102,7 +102,7 @@ Mem0's $19 Starter undercuts everyone; Zep's credit metering prices the audit tr
 - https://claude-mem.ai - claude-mem pricing tiers for the pricing row
 - https://calpaterson.com/memoryfields.html - the Memoryfields column: format thesis, design decisions, objections FAQ
 - https://github.com/calpaterson/memoryfield-spec/blob/main/SPEC.md - the Memoryfields spec: flat directories, page limits, transports, embedding codes
-- https://github.com/timgordontg/engrim - the Engrim column: repo, MIT, 283 stars, release cadence (as of 2026-09-22)
+- https://github.com/timgordontg/engrim - the Engrim column: repo, MIT, 290 stars, release cadence (as of 2026-09-26)
 - https://raw.githubusercontent.com/timgordontg/engrim/main/README.md - Engrim architecture, provenance, CLI surface, and security notes
 - https://pypi.org/pypi/engrim/json - Engrim release history and license for the Engrim column
 - https://hn.algolia.com/api/v1/items/49594008 - the Engrim launch thread: traction and the in-repo-docs counterpoint

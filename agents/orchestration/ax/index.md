@@ -1,7 +1,7 @@
 ---
 title: AX
 created: 2026-09-21
-updated: 2026-09-24
+updated: 2026-09-26
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, kubernetes, multi-agent, open-source, google]
 readability: 3
@@ -22,8 +22,9 @@ It runs on top of Agent Substrate (also Apache-2.0), a compute runtime built for
 
 ## Status
 
-Active and newly prominent: the repo was created 2026-03-30, but its public arrival was the launch HN thread, 662 points as of 2026-09-24 (657 on 2026-09-22, 414 on launch day 2026-09-20), and v0.3.0 shipped the same day.
-About 10.4k stars as of 2026-09-24 (10,392 per the GitHub API), up from about 8,000 on 2026-09-22 and 3,940 on 2026-09-21, with the README carrying an explicit warning that core concepts, protocols, and specifications will see major breaking changes before a stable release.
+Active and newly prominent: the repo was created 2026-03-30, but its public arrival was the launch HN thread, 664 points as of 2026-09-26 (662 on 2026-09-24, 657 on 2026-09-22, 414 on launch day 2026-09-20), and v0.3.0 shipped the same day.
+About 11.7k stars as of 2026-09-26 (11,652 per the GitHub API), up from 10,392 on 2026-09-24, about 8,000 on 2026-09-22, and 3,940 on 2026-09-21, with the README carrying an explicit warning that core concepts, protocols, and specifications will see major breaking changes before a stable release.
+v0.3.1 (September 25, 2026, a fix that includes runner binaries in the Docker context) is now the latest release.
 The site says it was born at Google from agentic-runtime research, though HN commenters caution that the Google label covers a team project, not a product line.
 
 ## Strengths
@@ -61,6 +62,7 @@ Not for developers who want a desktop app supervising a handful of sessions; pic
 - 2026-09-21 - Created from the same-day entrant resolution (414-point HN launch thread on 2026-09-20).
 - 2026-09-22 - Re-verified: stars more than doubled to about 8,000 in one day and the launch thread climbed from 450 to 657 points; v0.3.0 remains the latest release.
 - 2026-09-24 - Re-verified: stars passed 10,000 (10,392) and the launch thread reached 662 points; v0.3.0 remains the latest release.
+- 2026-09-26 - Recorded v0.3.1 (September 25, runner binaries in the Docker context) as the latest release, refreshed stars to 11,652 and the launch thread to 664 points.
 
 ## See also
 
@@ -71,9 +73,9 @@ Not for developers who want a desktop app supervising a handful of sessions; pic
 
 ## References
 
-- https://github.com/google/ax - repository, Apache-2.0, 10,392 stars, Go, created 2026-03-30 (GitHub API, 2026-09-24)
+- https://github.com/google/ax - repository, Apache-2.0, 11,652 stars, Go, created 2026-03-30 (GitHub API, 2026-09-26)
 - https://agentexecutor.io - official site: Task, Workspace, Gateway, and Model primitives, suspend/resume, Agent Substrate relationship
 - https://raw.githubusercontent.com/google/ax/HEAD/README.md - quick start, kubectl-style CLI, and the pre-stability warning
-- https://github.com/google/ax/releases/tag/v0.3.0 - latest release, published 2026-09-20 (GitHub API)
+- https://github.com/google/ax/releases/tag/v0.3.1 - latest release, published 2026-09-25 (GitHub API)
 - https://github.com/agent-substrate/substrate - the runtime underneath AX, Apache-2.0, about 3,112 stars (GitHub API, 2026-09-22)
-- https://hn.algolia.com/api/v1/items/49780797 - the launch thread (662 points as of 2026-09-24) and its skepticism (Google graveyard, branding, name collision)
+- https://hn.algolia.com/api/v1/items/49780797 - the launch thread (664 points as of 2026-09-26) and its skepticism (Google graveyard, branding, name collision)

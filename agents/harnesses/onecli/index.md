@@ -1,7 +1,7 @@
 ---
 title: OneCLI
 created: 2026-08-30
-updated: 2026-09-20
+updated: 2026-09-26
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agents, harnesses, security, sandboxing, teams]
 readability: 3
@@ -25,7 +25,7 @@ The Launch HN title calls it an "OSS sandboxed agent harness for teams", and tha
 ## Status
 
 Very active: v2.6.0 released September 8, 2026, five days after v2.5.0 on September 3, which itself followed v2.4.0, v2.3.1, and v2.3.0.
-3,513 stars and 235 forks as of 2026-09-24, on a repository created March 8, 2026.
+3,516 stars and 236 forks as of 2026-09-26, on a repository created March 8, 2026.
 Three Hacker News threads of record: 161 points for the vault (March 12), 110 for the credential gateway (July 23), and 88 for the YC launch (August 19).
 YC S26, San Francisco, founded by Jonathan Fishner (CEO) and Guy Ben Aharon (CTO).
 In its vault era it was adopted by NanoClaw, per the NanoClaw note in this section.
@@ -40,7 +40,7 @@ In its vault era it was adopted by NanoClaw, per the NanoClaw note in this secti
 
 - The coding-harness layer inside is deliberately thin; if you want a tunable local agent, this manages who may do what, not how well code gets written.
 - The platform is six months old and the API moved from vault to team harness inside that window, so integration code will churn.
-- 162 open issues and pull requests as of 2026-09-24.
+- 166 open issues and pull requests as of 2026-09-26.
 - Pricing jumps from $0 (3 seats, 500 calls/month) to $149/month, and BYOC starts only at the paid tiers.
 
 ## Pricing
@@ -51,7 +51,7 @@ Scale is $499/month for 10 users and 20 agents BYOC, or $1,999/month with hosted
 Extra seats are $49/user/month with your own key or $199 with hosted models.
 Enterprise custom, and platform self-hosting (your cloud, VPC, or on-prem) is quoted there.
 The Apache-2.0 core remains self-hostable from source without a commercial license per the README.
-All as of 2026-09-24.
+All as of 2026-09-26.
 
 ## Price history
 

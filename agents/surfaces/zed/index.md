@@ -1,7 +1,7 @@
 ---
 title: Zed
 created: 2026-08-23
-updated: 2026-09-20
+updated: 2026-09-26
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, surfaces, ai-editors, zed-industries]
 readability: 3
@@ -23,7 +23,7 @@ The AI stack supports Zed-hosted models, BYOK across Anthropic, OpenAI, Google, 
 ## Status
 
 **Active and fast-moving.**
-About 90k GitHub stars as of 2026-09-22, with commits landing daily.
+About 91k GitHub stars as of 2026-09-26, with commits landing daily.
 The engineering runs deep enough to swap graphics libraries mid-flight (the blade-to-wgpu switch, February 2026) without abandoning the product.
 
 ## Strengths

@@ -1,7 +1,7 @@
 ---
 title: Emdash
 created: 2026-08-24
-updated: 2026-09-24
+updated: 2026-09-26
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, orchestration, git-worktrees, open-source, desktop-app]
 readability: 3
@@ -25,7 +25,7 @@ State is local-first in SQLite, and the team kept a reserve pool of worktrees so
 ## Status
 
 Active and fast-moving.
-As of 2026-09-22 the repo shows about 5.8k stars and 605 forks; the site claims over 1M downloads.
+As of 2026-09-26 the repo shows about 5.8k stars and 608 forks; the site claims over 1M downloads.
 The v1.2.6 release shipped 2026-09-21, three days after v1.2.5 (2026-09-18), which added multiple accounts per integration and custom agent executable selection.
 Its February 2026 Show HN reached 206 points with 71 comments.
 Founders Arne and Raban described the business model as a possible bundled agent subscription plus enterprise, funded by YC W26; cloud workspaces and enterprise tiers are contact-sales today.

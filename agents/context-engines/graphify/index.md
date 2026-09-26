@@ -1,7 +1,7 @@
 ---
 title: Graphify
 created: 2026-08-30
-updated: 2026-09-25
+updated: 2026-09-26
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, context-engines, knowledge-graphs, code-intelligence, open-source]
 readability: 3
@@ -25,9 +25,9 @@ Made by Graphify Labs, a YC Summer 2026 company of two people in London, Apache-
 
 ## Status
 
-Growing absurdly fast for its age: 121,216 stars and 1,908 commits in about five months since 2026-04-03, latest release v0.9.67 on 2026-09-23, all as of 2026-09-25, with 260 contributors as of 2026-09-25.
+Growing absurdly fast for its age: 121,495 stars and 1,933 commits in about five months since 2026-04-03, latest release v0.9.68 on 2026-09-25, all as of 2026-09-26, with 263 contributors as of 2026-09-26.
 The YC page claims 5M+ downloads and named production users, all self-reported.
-**The Enterprise early-access tier now ships differential formal verification**: a solver ladder (Z3, CrossHair, CBMC, JBMC) that proves a changed function behavior-preserving or returns a concrete input that breaks it, alongside graph-aware PR review, per the vendor's full index (fetched 2026-09-25).
+**The Enterprise early-access tier now ships differential formal verification**: a solver ladder (Z3, CrossHair, CBMC, JBMC) that proves a changed function behavior-preserving or returns a concrete input that breaks it, alongside graph-aware PR review, per the vendor's full index (fetched 2026-09-26).
 The ecosystem is growing too: a third-party C# port, graphify-csharp, launched September 11, 2026 with a 46-point Show HN and 21 comments as of 2026-09-16, the largest discussion any Graphify-linked project has drawn.
 **The star count still outruns the discussion footprint: Hacker News stories linking the main repo drew two or three points with no comments, a mismatch I treat as a flag, not a slam dunk.**
 
@@ -36,13 +36,13 @@ The ecosystem is growing too: a third-party C# port, graphify-csharp, launched S
 - The code-only path is fully local and key-free, so the default workflow leaks nothing.
 - Edge-level provenance (EXTRACTED versus INFERRED with file:line) is a real answer to the trust problem in generated context.
 - One graph covers code and its non-code artifacts, and the skill installs across most harnesses your team already runs.
-- Shipping velocity is exceptional, with another release (v0.9.66) landing on this re-verification date and a published benchmark methodology.
+- Shipping velocity is exceptional, with releases landing near-daily (v0.9.68, a watcher shell-quoting security fix, on 2026-09-25) and a published benchmark methodology.
 
 ## Cautions
 
 - The benchmarks are self-published, and on the headline QA-accuracy metric graphify trails supermemory while winning on cost and recall, per its own BENCHMARKS.md.
 - Only code is local: docs, PDFs, and images are sent to whatever LLM backend is configured.
-- Pre-1.0 with 1,464 open issues and PRs as of 2026-09-25, a nonstandard default branch, and acknowledged PyPI name-squatting on `graphify*` packages.
+- Pre-1.0 with 1,478 open issues and PRs as of 2026-09-26, a nonstandard default branch, and acknowledged PyPI name-squatting on `graphify*` packages.
 - The free CLI is the top of an open-core funnel into a hosted product whose plans only recently gained public prices, so expect the monetization posture to keep moving.
 
 ## Pricing
@@ -77,6 +77,7 @@ Not for small repos where grep and packing are enough, or for buyers who need in
 - 2026-09-20 - Recorded release v0.9.64 (2026-09-18) and refreshed the volatile numbers (119,720 stars, 1,843 commits, 1,425 open issues and PRs); hosted plans unchanged.
 - 2026-09-22 - Recorded release v0.9.66 (2026-09-22) and refreshed the volatile numbers (120,654 stars, 1,888 commits, 273 contributors, 1,445 open issues and PRs); hosted plans unchanged.
 - 2026-09-25 - Recorded release v0.9.67 (2026-09-23), refreshed the volatile numbers (121,216 stars, 1,908 commits, 260 contributors, 1,464 open issues and PRs), corrected the installer surface to the vendor's documented 17 assistants, and added the Enterprise early-access differential formal verification and graph-aware PR review; hosted plans unchanged.
+- 2026-09-26 - Recorded release v0.9.68 (2026-09-25, a watcher shell-quoting security fix) and refreshed the volatile numbers (121,495 stars, 1,933 commits, 263 contributors, 1,478 open issues and PRs); hosted plans unchanged.
 
 ## See also
 
@@ -94,5 +95,5 @@ Not for small repos where grep and packing are enough, or for buyers who need in
 - https://graphify.com/llms-full.txt - the full plan table grounding the pricing section (monthly and annual billing), fetched 2026-09-25
 - https://pypi.org/project/graphifyy/ - the distribution and current version
 - https://www.ycombinator.com/companies/graphify-labs - the maker, batch, and self-reported adoption claims
-- https://github.com/zachsaw/graphify-csharp - the third-party C# port, 67 stars as of 2026-09-18
+- https://github.com/zachsaw/graphify-csharp - the third-party C# port, 68 stars as of 2026-09-26
 - https://news.ycombinator.com/item?id=49667188 - the port's Show HN thread, 46 points and 21 comments, verified via the Algolia API

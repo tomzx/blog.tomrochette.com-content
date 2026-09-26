@@ -1,7 +1,7 @@
 ---
 title: Tree-sitter code chunking
 created: 2026-08-24
-updated: 2026-09-16
+updated: 2026-09-26
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, code-retrieval, chunking, rag, llm=glm-5.3-flash]
 readability: 3
@@ -26,7 +26,7 @@ Aider ships tree-sitter support through the `tree-sitter-language-pack` distribu
 Mature and pervasive.
 Tree-sitter originated at GitHub (its docs still list the 2017 GitHub Universe talk) and now underpins editors, linters, and code retrieval alike.
 Aider documents repo-map support across dozens of languages with a per-language matrix.
-**The commercial frontier moved to dedicated chunkers: [Chonkie](../chonkie/index.md) (YC) sells an AST code chunker as a flagship feature, and LlamaIndex's newer `Chunker` node parser wraps Chonkie rather than reimplementing chunking, which tells you where maintainers think the effort should live.**
+**The commercial frontier moved to dedicated chunkers: [Chonkie](../chonkie/index.md) (YC) ships an AST code chunker as a flagship feature, and LlamaIndex's newer `Chunker` node parser wraps Chonkie rather than reimplementing chunking, which tells you where maintainers think the effort should live.**
 
 ## Strengths
 
@@ -63,6 +63,7 @@ Continue's own guide, written by people who shipped this at scale, effectively a
 
 - 2026-08-24 - Created in the Retrieval category seed.
 - 2026-09-16 - Linked the new Chonkie note at the existing dedicated-chunker mention.
+- 2026-09-26 - Corrected the Chonkie mention from "sells" to "ships", since the chunker is a free library feature and the hosted API it once sold is dead.
 
 ## See also
 

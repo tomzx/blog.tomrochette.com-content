@@ -1,7 +1,7 @@
 ---
 title: Workshop
 created: 2026-08-30
-updated: 2026-09-25
+updated: 2026-09-26
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, evaluation, observability, debugging, open-source]
 readability: 3
@@ -24,7 +24,8 @@ Made by Raindrop, an agent-observability startup; Workshop is the free local tie
 
 ## Status
 
-Young with a strong launch: 1,098 stars, 68 forks, 8 open issues as of 2026-09-25, created 2026-05-01, latest release v0.1.21 on 2026-08-22.
+Young with a strong launch: 1,099 stars, 69 forks, 8 open issues as of 2026-09-26, created 2026-05-01, latest release v0.1.21 on 2026-08-22.
+Funding: a $50M Series A led by CRV announced September 17, 2026, which the post counts as $50M in total funding, alongside a Simulations early-access product that replays production traffic against proposed agent changes.
 39 commits, 9 contributors, 21 patch releases in four months.
 **The launch testimonials are real engineers but the vendor's scale claims (billions of traces per month, Fortune 100 customers) are unverified marketing, and a 9-point Hacker News thread is the entire independent discussion.**
 
@@ -68,6 +69,7 @@ Not for teams needing CI-gated eval suites today, or Windows-primary shops hedge
 
 - 2026-08-30 - Created as an evaluation note, recording Raindrop's local agent debugger and the CI-disconnect criticism.
 - 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
+- 2026-09-26 - Recorded Raindrop's $50M Series A led by CRV ($50M total, September 17, 2026) and the Simulations early-access launch; cloud pricing re-verified unchanged.
 
 ## See also
 
@@ -82,4 +84,5 @@ Not for teams needing CI-gated eval suites today, or Windows-primary shops hedge
 - https://www.raindrop.ai/workshop/ - the self-healing eval loop pitch and launch testimonials
 - https://www.raindrop.ai/docs/workshop/overview - instrumentation, replay, and OTLP transport details
 - https://www.raindrop.ai/ - Raindrop Cloud pricing tiers behind the free tool
+- https://www.raindrop.ai/blog/series-a/ - the $50M Series A announcement led by CRV and the Simulations early-access launch, September 17, 2026
 - https://news.ycombinator.com/item?id=48196008 - the thin independent thread, including the CI-disconnect criticism

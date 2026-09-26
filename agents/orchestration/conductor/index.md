@@ -1,7 +1,7 @@
 ---
 title: Conductor
 created: 2026-08-24
-updated: 2026-09-22
+updated: 2026-09-26
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, orchestration, git-worktrees, macos]
 readability: 3
@@ -26,7 +26,7 @@ Conductor Cloud (July 2026) runs agents in Vercel sandboxes (8-core, 16GB, us-ea
 
 Active, fast, and well capitalized.
 A $22M Series A from Spark and Matrix closed on 2026-03-30, with YC and founders of Notion and Linear participating; the company claims 10x user growth since January 2026 and engineers at Google, Meta, Amazon, and others using it.
-Release cadence is extreme: 0.87.3, which added GPT-6 Sol and Luna models, became the latest on 2026-09-22, following 0.87.1 (Grok 4.7) and 0.87.2 (Claude Opus 5.5) on September 21 and 0.87.0, which added search across files and OpenCode 2.0 support, on September 18, with dozens of releases since January 2026.
+Release cadence is extreme: 0.87.5, which added model search, became the latest on 2026-09-25, following 0.87.3 (GPT-6 Sol and Luna models) on September 22, 0.87.1 (Grok 4.7) and 0.87.2 (Claude Opus 5.5) on September 21, and 0.87.0, which added search across files and OpenCode 2.0 support, on September 18, with dozens of releases since January 2026.
 The team behind cmd joined in April 2026.
 
 ## Strengths
@@ -73,6 +73,7 @@ My disagreeable claim: Conductor Cloud, not the local worktree manager, is the r
 - 2026-09-20 - Recorded release 0.87.0 (September 18), which added search across files and OpenCode 2.0 support.
 - 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
 - 2026-09-22 - Recorded releases 0.87.1 through 0.87.3 (September 21-22), a model-addition run (Grok 4.7, Claude Opus 5.5, GPT-6 Sol and Luna) on top of 0.87.0.
+- 2026-09-26 - Recorded 0.87.5 (September 25, model search) as the new latest release.
 
 ## See also
 
@@ -88,6 +89,6 @@ My disagreeable claim: Conductor Cloud, not the local worktree manager, is the r
 - https://conductor.build/docs - workspace, workflow, and parallel-agent model
 - https://conductor.build/pricing/ - tiers, cloud sandbox specs, local vs cloud privacy terms
 - https://conductor.build/blog/series-a - $22M Series A and growth claims
-- https://conductor.build/changelog - release cadence through 0.87.3
+- https://conductor.build/changelog - release cadence through 0.87.5
 - https://news.ycombinator.com/item?id=44594584 - launch thread including OAuth and sandbox discussion
 - https://news.ycombinator.com/item?id=47256614 - the sandbox-escape report under Conductor defaults

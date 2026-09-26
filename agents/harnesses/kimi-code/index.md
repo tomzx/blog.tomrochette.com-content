@@ -1,7 +1,7 @@
 ---
 title: "Kimi Code"
 created: 2026-09-05
-updated: 2026-09-24
+updated: 2026-09-26
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, cli, coding-agent, moonshot, byok]
 readability: 3
@@ -21,7 +21,7 @@ The code lives in two repositories: the original `MoonshotAI/kimi-cli` (Apache-2
 
 ## Status
 
-Active and big-vendor backed, about 19.1k combined stars as of 2026-09-24: `kimi-code` at 7,661 stars, `kimi-cli` at 11,431 stars last pushed 2026-09-22.
+Active and big-vendor backed, about 19.1k combined stars as of 2026-09-26: `kimi-code` at 7,672 stars, `kimi-cli` at 11,429 stars last pushed 2026-09-22.
 **The independent FrontierHarness Eval pegs it mid-pack on quality and cheap on cost: 56.7 percent pass at a $3.65 median cost per task, with an 88 percent cache rate on Kimi K3.**
 The Hacker News footprint is thin (a 5-point 2025-10-31 thread and a 1-point 2026-01-27 one), which I read as distribution through Kimi's own channels rather than developer-mindshare gravity.
 

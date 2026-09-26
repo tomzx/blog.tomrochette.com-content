@@ -1,7 +1,7 @@
 ---
 title: DeepSeek Harness
 created: 2026-08-30
-updated: 2026-09-24
+updated: 2026-09-26
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, harnesses, coding-agents, plugins, open-source]
 readability: 3
@@ -25,10 +25,10 @@ It is local-first and BYOK: API keys stay in a local credentials file, with prov
 
 ## Status
 
-New and extremely loud: 235,140 stars and 28,290 forks as of 2026-09-24, about six weeks after the repo was created on 2026-08-13.
+New and extremely loud: 236,285 stars and 28,413 forks as of 2026-09-26, about six weeks after the repo was created on 2026-08-13.
 No stable release exists, only alpha and rc prereleases (latest: dsh-v0.1.7-rc.2 on 2026-09-24), and the README warns there will be compatibility-breaking changes.
 The launch thread drew 747 points and 301 comments on Hacker News, with the author answering questions directly.
-An ecosystem is already forming: a Tauri desktop port with about 2,600 stars, a plugin directory site, and an MCP plugin catalog.
+An ecosystem is already forming: a Tauri desktop port with about 2,700 stars, a plugin directory site, and an MCP plugin catalog.
 **I read the star count as attention, not adoption, and the safest status label is developer preview.**
 
 ## Strengths
@@ -78,7 +78,7 @@ Not for anyone whose threat model includes untrusted repos on day one, or who wa
 
 ## References
 
-- https://github.com/deepseek-ai/deepseek-harness - repository, README, install, MIT license, 235,140 stars as of 2026-09-24
+- https://github.com/deepseek-ai/deepseek-harness - repository, README, install, MIT license, 236,285 stars as of 2026-09-26
 - https://www.deepseek.com/harness/en/ - runtime modes and plugin architecture claims
 - https://raw.githubusercontent.com/deepseek-ai/deepseek-harness/HEAD/SAFETY.md - the project's own security warnings
 - https://news.ycombinator.com/item?id=49285244 - the 747-point launch thread, including critical takes on plugins and the Cordis paper

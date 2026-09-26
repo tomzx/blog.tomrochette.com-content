@@ -1,7 +1,7 @@
 ---
 title: SkillOpt
 created: 2026-08-30
-updated: 2026-09-25
+updated: 2026-09-26
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, skills, self-improving-agents, research, microsoft]
 readability: 3
@@ -24,7 +24,7 @@ MIT, from Microsoft Research Asia with university collaborators, Python 3.10+.
 
 ## Status
 
-Research code with unusually strong product trappings: 17.5k stars, 1.6k forks, 53 open issues and pull requests, and 531 commits on main as of 2026-09-25, created 2026-05-08.
+Research code with unusually strong product trappings: 17.5k stars, 1.6k forks, 53 open issues and pull requests, and 531 commits on main as of 2026-09-26, created 2026-05-08.
 Latest release v0.2.0 (2026-07-02) on PyPI, still the newest as of 2026-09-25; the arXiv paper (2605.23904) is a preprint with no peer-reviewed venue found, and all headline results are the authors' own.
 
 ## Strengths

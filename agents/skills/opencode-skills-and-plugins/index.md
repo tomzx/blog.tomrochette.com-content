@@ -1,7 +1,7 @@
 ---
 title: OpenCode skills and plugins
 created: 2026-08-24
-updated: 2026-09-25
+updated: 2026-09-26
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, skills, plugins, opencode, agent-extensions]
 readability: 3
@@ -24,8 +24,8 @@ Plugins are JS/TS modules from `.opencode/plugins` or npm (installed via Bun at 
 ## Status
 
 **Active; the skills and plugins docs have been stable since February 2026.**
-The host project (anomalyco/opencode) shows about 210k stars under MIT as of 2026-09-25.
-The ecosystem page (itself updated 2026-09-24) lists roughly 40 community plugins (Helicone, Sentry, Firecrawl, Tavily, Daytona sandboxing, subscription-auth bridges) plus a smaller set of projects and agents.
+The host project (anomalyco/opencode) shows about 210k stars under MIT as of 2026-09-26.
+The ecosystem page (itself updated 2026-09-25) lists roughly 40 community plugins (Helicone, Sentry, Firecrawl, Tavily, Daytona sandboxing, subscription-auth bridges) plus a smaller set of projects and agents.
 There is no first-party skill marketplace; distribution rides plain git or third parties like skills.sh.
 
 ## Strengths

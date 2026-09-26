@@ -1,7 +1,7 @@
 ---
 title: ZCode
 created: 2026-09-21
-updated: 2026-09-22
+updated: 2026-09-26
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agents, harnesses, zai, desktop, open-source, security]
 readability: 3
@@ -28,7 +28,7 @@ The repository publishes Apache-2.0 source, but as a two-commit dump with flatte
 The harness launched July 1, 2026 as the official harness for GLM-5.2 and drew a 511-point Hacker News thread the same day ([HN](https://hn.algolia.com/api/v1/items/48753715)).
 On September 18, 2026 a [wire-level analysis](https://blog.ferstar.org/en/posts/zcode-silent-workspace-snapshot-upload/) showed the logged-in client packaging entire workspaces (about 87% .git content) and uploading them encrypted to Aliyun OSS with a server-held key, a behavior no UI toggle stopped and no privacy-policy line disclosed (333- and 261-point threads that day).
 Z.ai admitted the uploads, attributed them to a Repo Wiki indexing feature, shipped client 3.14.0 with the pipeline removed, and open-sourced the workbench on September 20-21 with CAICT and NSFOCUS audits reporting the OSS bucket deleted ([HN](https://hn.algolia.com/api/v1/items/49782440)).
-The repository shows 6,708 stars and 2,003 forks as of 2026-09-24, pushed 2026-09-24 (GitHub API); desktop installers are at v3.14.3.
+The repository shows 6,795 stars and 2,042 forks as of 2026-09-26, pushed 2026-09-24 (GitHub API); desktop installers are at v3.14.3.
 Independent code review of the dump confirms the snapshot pipeline is gone and checkpoints run on purely local git, but deleting the bucket cannot answer what happened to data that left machines before September 18.
 
 ## Strengths
@@ -82,7 +82,7 @@ I would watch whether the open repository becomes a real project or stays a pres
 
 ## References
 
-- https://github.com/zai-org/ZCode - repository, license, 6,400 stars as of 2026-09-22 (GitHub API)
+- https://github.com/zai-org/ZCode - repository, license, 6,795 stars as of 2026-09-26 (GitHub API)
 - https://raw.githubusercontent.com/zai-org/ZCode/main/README.en.md - surfaces and monorepo layout
 - https://zcode.z.ai/ - product claims, GLM Coding Plan prices, v3.14.3 installers
 - https://blog.ferstar.org/en/posts/zcode-silent-workspace-snapshot-upload/ - the wire-level analysis, Z.ai's response, and the open-source code verification
