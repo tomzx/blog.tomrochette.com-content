@@ -12,7 +12,6 @@ audience_notes: >
 
 NanoGPT (nano-gpt.com) is an independent model-access gateway combining pay-per-token API access at list prices with a flat subscription that bundles open-weight model usage at no per-token cost.
 **At $12 per month it is the cheapest flat-rate open-weight tier I can verify anywhere, but the deal quietly shrank over the past year.**
-Facts below verified as of 2026-09-26.
 
 ## What it is
 

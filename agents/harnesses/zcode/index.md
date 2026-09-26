@@ -12,7 +12,6 @@ audience_notes: >
 ---
 
 ZCode is Z.ai's (Zhipu AI's) official AI coding workbench for GLM models: an Electron desktop app, a browser workspace, and a terminal CLI, open-sourced under Apache-2.0 on September 20, 2026, three days after a wire-level analysis caught it silently uploading whole workspaces to cloud storage.
-Facts below verified as of 2026-09-24.
 
 **ZCode is the fastest fall and forced opening in the harness field: launched July 1, caught exfiltrating Git history on September 18, and dumped as a flattened two-commit open-source repository on September 20 with 4,216 stars within a day.**
 

@@ -11,7 +11,6 @@ audience_notes: >
 ---
 
 Laya is an Apache-2.0 family of open-weights "System 1" decision models from ConvAI Innovations that answers typed questions (choice, score, noul) over any state in a single forward pass, no text generation, 33 milliseconds per question on a T4, with a router that picks between an English, a multilingual, and a typed-decisions checkpoint.
-Facts below verified as of 2026-09-25.
 
 **Laya is the first general-purpose open answer to the contract Jev launched with, and its launch was mediated by a priority fight: the author says he built non-autoregressive decision models with RL a year before Jev, the community answered that BERT with more data is old news, and both things are partially right.**
 

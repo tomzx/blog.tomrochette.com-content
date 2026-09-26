@@ -11,7 +11,6 @@ audience_notes: >
 ---
 
 LangChain is the largest open source LLM application framework, repositioned in 2026 as an "agent engineering platform" spanning the create_agent harness, LangGraph orchestration, Deep Agents, and a terminal coding agent called dcode.
-Facts below verified as of 2026-09-25.
 
 **The coding-agent angle is now real and first-party: LangChain ships its own terminal coding agent, which moves it from "tooling you might build on" to "competitor in your harness choice".**
 

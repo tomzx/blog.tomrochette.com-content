@@ -11,7 +11,6 @@ audience_notes: >
 ---
 
 Paul Gauthier is the creator and maintainer of aider, the pioneering open-source terminal AI pair programmer, whose repo map, git-first workflow, and independent polyglot leaderboard set the template the agentic coding generation inherited.
-Facts below verified as of 2026-09-24.
 
 **He is the most recommended independent builder in terminal AI coding, and his docs, benchmark, and context essays are still the clearest writing in the field, but the project has stalled since May 2026, so read him as the reference archive of pre-agentic tool design rather than a live feed.**
 

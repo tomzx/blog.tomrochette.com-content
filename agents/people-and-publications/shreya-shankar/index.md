@@ -11,7 +11,6 @@ audience_notes: >
 ---
 
 Shreya Shankar is a UC Berkeley computer science researcher in the EPIC Data Lab, advised by Aditya Parameswaran, who joins Carnegie Mellon University as an assistant professor in 2027 and publishes and teaches on making LLM systems measurable.
-Facts below verified as of 2026-09-24.
 
 **She is the voice that turns agent and pipeline reliability from opinion into benchmarks and peer-reviewed systems: when you want measurement discipline grounded in review rather than vendor decks, start here, with the caveat that the cadence is academic and the center of gravity is data systems, not coding agents.**
 

@@ -11,7 +11,6 @@ audience_notes: >
 ---
 
 agentsview is a local-first, MIT-licensed Go application that discovers the session files your coding agents already write on disk, indexes them into a searchable local SQLite archive, and serves a web UI, CLI, and desktop app for browsing, analytics, and token-cost reporting across more than 60 agent formats.
-Facts below verified as of 2026-09-25.
 
 **agentsview's premise is that your agents already write the telemetry; the missing piece was a tool that reads all of it in one place, locally, instead of each harness showing you only its own slice.**
 

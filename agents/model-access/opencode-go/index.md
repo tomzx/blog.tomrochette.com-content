@@ -11,7 +11,6 @@ audience_notes: >
 ---
 
 OpenCode Go is a $10/month subscription from the OpenCode (Anomaly) team that bundles access to a curated set of open coding models, usable from OpenCode or any compatible coding agent.
-Facts below verified as of 2026-09-26.
 
 ## What it is
 

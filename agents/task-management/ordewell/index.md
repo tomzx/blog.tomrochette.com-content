@@ -11,7 +11,6 @@ audience_notes: >
 ---
 
 Ordewell is an Apache-2.0 TypeScript CLI, terminal UI, and VS Code extension that turns one goal into an ordered plan of coding-agent tasks, each with its own runner, model, thinking effort and mode, then executes the plan and completes a task only when that task's marker appears in the runner output.
-Facts below verified as of 2026-09-25.
 
 **The plan as a typed artifact you can rewrite before a token is spent, plus completion decided by markers rather than the model's own verdict, is the design worth stealing, and the launch thread's AI-written-replies episode is the caution this section exists to record.**
 

@@ -11,7 +11,6 @@ audience_notes: >
 ---
 
 OpenRouter Rankings ranks models by the tokens actually processed through the OpenRouter gateway, published with CC BY 4.0 licensing, a public Data API, and views by task, cost per session, market share, and app, and it is the only ranking in its category built on revealed spend rather than votes or benchmarks.
-Facts below verified as of 2026-09-24.
 
 **Every other leaderboard in this category measures opinion; this one measures invoices.**
 

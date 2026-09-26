@@ -11,7 +11,6 @@ audience_notes: >
 ---
 
 OneCLI is an open-source YC S26 agent harness for teams that gives every employee a sandboxed personal agent whose tool calls pass through a credential-injecting gateway, so no agent ever holds a real secret.
-Facts below verified as of 2026-09-24.
 
 **OneCLI's bet is that enforcement belongs outside the model at the network layer, and after pivoting from vault to team harness it is the only entry in this section built for the security buyer first and the engineer second.**
 

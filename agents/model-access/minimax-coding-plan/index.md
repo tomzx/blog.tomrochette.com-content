@@ -12,7 +12,6 @@ audience_notes: >
 
 The product sold as the MiniMax Coding Plan became the MiniMax Token Plan on June 1, 2026, a usage-based subscription on platform.minimax.io that meters the M-series models through a Subscription Key.
 **MiniMax converted a liked flat coding plan into token billing overnight, without notice, and the resulting trust deficit is still the product's largest liability.**
-Facts below verified as of 2026-09-26.
 
 ## What it is
 

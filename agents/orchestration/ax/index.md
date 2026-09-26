@@ -11,7 +11,6 @@ audience_notes: >
 ---
 
 AX is Google's open-source, Kubernetes-based orchestrator (Go, Apache-2.0) that runs agent workloads as sandboxed, declaratively configured tasks at cluster scale.
-Facts below verified as of 2026-09-24.
 
 **AX is the first orchestration entrant in this category that treats agents as a datacenter workload class rather than a desktop session problem, and its kubectl-style interface is the tell: it wants to be the Kubernetes of agents, not another dashboard.**
 

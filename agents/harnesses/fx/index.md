@@ -11,7 +11,6 @@ audience_notes: >
 ---
 
 fx is Vercel Labs' coding agent harness and CLI written in Zig, built to be embedded in larger systems rather than to be your full development environment.
-Facts below verified as of 2026-09-24.
 
 **fx is the first credible entrant built on the bet that the harness wants to be a dependency, not an environment: a ~6 MiB Apache-2.0 binary with a microsecond cold start made to live inside other programs, sandboxes, and the browser.**
 

@@ -11,7 +11,6 @@ audience_notes: >
 ---
 
 CubeSandbox is Tencent's Apache-2.0, self-hosted sandbox service that builds each AI agent workload a dedicated-kernel microVM on RustVMM and KVM, boots it in tens of milliseconds, and exposes an E2B-compatible API so existing E2B client code migrates by changing a base URL.
-Facts below verified as of 2026-09-25.
 
 ## What it is
 

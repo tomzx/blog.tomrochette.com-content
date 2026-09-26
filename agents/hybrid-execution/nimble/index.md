@@ -11,7 +11,6 @@ audience_notes: >
 ---
 
 Nimble is Bespoke Labs' one-day "open Jev": Bespoke-Nimble-9B, an Apache-2.0 LoRA fine-tune of Qwen3.5-9B that reads a flat schema of enum and boolean questions off the logits with no generated JSON, published together with the data, the training recipe, and a human-labeled benchmark suite run head-to-head against Jev.
-Facts below verified as of 2026-09-25.
 
 **The checkpoint is average for the replica wave, but its benchmark suite is the only place in this category where Jev has been measured against human labels, and Jev wins by just 1.2 macro points.**
 

@@ -11,7 +11,6 @@ audience_notes: >
 ---
 
 Owain Lewis is a UK-based AI engineer and engineering director whose YouTube channel walks through the agent infrastructure he builds and open sources.
-Facts below verified as of 2026-09-24.
 
 **He is the category's build-and-ship voice: every video is a working system (a software factory, a coding agent, a personal agent gateway) with the repo linked in the description, which makes him the member to clone from, and the boundary is that his scope is one-person and consultancy scale.**
 

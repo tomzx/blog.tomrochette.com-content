@@ -11,7 +11,6 @@ audience_notes: >
 ---
 
 Harper Reed is a Chicago technologist and entrepreneur (CTO of Obama's 2012 campaign, former CTO of Threadless, founder of Modest, now CEO of 2389.ai) who writes about shipping software with LLMs at harper.blog.
-Facts below verified as of 2026-09-24.
 
 **His essay "My LLM codegen workflow atm" became the reference spec-first codegen workflow that Hacker News threads cite as best practice, and its boundary is that it is one person's fast-aging loop, dated on purpose.**
 

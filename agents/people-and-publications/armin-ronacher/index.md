@@ -11,7 +11,6 @@ audience_notes: >
 ---
 
 Armin Ronacher is the creator of Flask and Jinja2, the founder of the agent company Earendil, and the author of lucumr.pocoo.org, a long-running engineering blog now focused on what AI coding agents are doing to the craft.
-Facts below verified as of 2026-09-24.
 
 **He is the skeptical senior engineer of the agent era: a builder who runs the experiments, publishes the costs and the failures, and then asks in essay form whether the whole trajectory still makes sense for working software teams.**
 

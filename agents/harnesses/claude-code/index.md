@@ -12,7 +12,6 @@ audience_notes: >
 ---
 
 Claude Code is Anthropic's agentic coding tool: a terminal-first harness that also runs as IDE extensions, a desktop app, on the web, and from Slack.
-Facts below verified as of 2026-09-24.
 
 **It is the most complete harness platform shipping today, and also the most expensive way to run the same tokens, because you pay a large per-request baseline for orchestration whether you use it or not.**
 

@@ -11,7 +11,6 @@ audience_notes: >
 ---
 
 Foremerge is an Apache-2.0 coordination protocol for coding agents, built above Git: agents publish what they are about to change before they change it, and a deterministic detector flags collisions between plans that Git merges without complaint.
-Facts below verified as of 2026-09-24.
 
 **Worktree isolation solved file collisions and left plan collisions untouched, and Foremerge is the first tool in this category to attack exactly that residue: two agents, two clean worktrees, zero textual conflicts, one stranded extension point.**
 

@@ -11,7 +11,6 @@ audience_notes: >
 ---
 
 Aristotle is Harmonic's agentic theorem prover, sold as mathematical superintelligence applied to formal verification of software, hardware, and mathematics, and it is the one system in this category a working engineer can use today for free.
-Facts below verified as of 2026-09-25.
 
 **Aristotle's real results are machine-checkable and independent, but the benchmark fight around it shows the judging layer has become the battleground: its own vendor claims are unauditable, and its loudest rival publishes comparator-audited numbers against it.**
 

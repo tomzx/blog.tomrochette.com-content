@@ -11,7 +11,6 @@ audience_notes: >
 ---
 
 OpenRouter is the largest multi-provider LLM gateway, one API key and one prepaid credit balance across hundreds of models from dozens of providers, with automatic routing and fallback.
-Facts below verified as of 2026-09-26.
 
 ## What it is
 

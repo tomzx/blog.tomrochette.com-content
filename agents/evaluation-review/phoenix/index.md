@@ -11,7 +11,6 @@ audience_notes: >
 ---
 
 Phoenix is Arize AI's open-source AI observability and evaluation platform: OpenTelemetry-native tracing, LLM and code evals, versioned datasets and experiments, a prompt playground, and a built-in AI engineering agent, self-hostable or running on the Arize AX cloud.
-Facts below verified as of 2026-09-25.
 
 **Phoenix is the observability column of this category, and its defining trade is the ELv2 license: everything is inspectable and self-hostable, but you cannot offer Phoenix itself as a service, and Arize keeps the production-grade monitoring surface in the paid platform.**
 

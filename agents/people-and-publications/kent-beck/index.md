@@ -11,7 +11,6 @@ audience_notes: >
 ---
 
 Kent Beck, creator of Extreme Programming and test-driven development, publishes his current thinking on software design and AI-era practice on the Software Design: Tidy First? newsletter.
-Facts below verified as of 2026-09-24.
 
 **He is the most credible methodology voice on which parts of classic software craft survive when agents write the code, and his boundary is process and economics: he tells you how to work, not which tool or model to buy.**
 

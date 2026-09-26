@@ -11,7 +11,6 @@ audience_notes: >
 
 Chutes is a model-access platform built on Bittensor (subnet 64) that sells per-token inference on open-weight models, optional monthly plans, and private GPU deployments.
 **Its per-token prices were the lowest I verified in this category, and price is the main reason to pick it.**
-Facts below verified as of 2026-09-26.
 
 ## What it is
 

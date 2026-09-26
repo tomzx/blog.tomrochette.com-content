@@ -11,7 +11,6 @@ audience_notes: >
 ---
 
 JevBench is Benchmark Heaven's MIT-licensed benchmark for Jev-class typed decision models: 534 English decisions per system in its v1.2 run plus 308 fresh sealed decisions in v1.4, scored on chance-corrected intelligence, calibration, speed, and cost, with public items, frozen and hashed artifacts, and per-task outcomes checked into the repository.
-Facts below verified as of 2026-09-25.
 
 **This is the first third-party scoreboard for this category, and its two readings now frame the whole debate: on the public v1.2 board Jev led at 74.4 with SemIf's frozen-4B logit readout 1.3 points behind, but the sealed-decision v1.4 revision kept Jev first (63.3) while the open replicas fell away, which is the closest thing the category has to independent verification, arrived at by one runner's contested methodology.**
 

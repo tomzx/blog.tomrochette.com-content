@@ -11,7 +11,6 @@ audience_notes: >
 ---
 
 Boris Cherny is the Anthropic engineer who created Claude Code, and his public record is thin by design: a rarely updated personal blog, X and Threads posts, interviews, and a TypeScript book.
-Facts below verified as of 2026-09-24.
 
 **There is no feed to follow here, but when he does speak, he is the primary source on the design philosophy behind the most widely used coding agent, so treat him as an occasional primary document rather than a regular voice.**
 

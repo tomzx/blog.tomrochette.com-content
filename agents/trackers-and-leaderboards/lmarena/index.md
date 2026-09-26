@@ -11,7 +11,6 @@ audience_notes: >
 ---
 
 LMArena ranks AI models by blind human preference votes: two anonymous models answer the same prompt, you pick the winner, and Bradley-Terry-style statistics turn millions of those picks into leaderboards spanning text, image, video, vision, search, web development, and agents.
-Facts below verified as of 2026-09-24; lmarena.ai is a client-rendered app, so vote and model counts beyond the founding paper's figures could not be read from its HTML.
 
 **It is the field's mood ring: the most cited signal of which model people prefer, and the easiest leaderboard in existence to game.**
 
@@ -61,6 +60,7 @@ My disagreeable claim: the leaderboard is the least valuable thing the arenas pr
 ## Changes
 
 - 2026-09-24 - Created.
+- 2026-09-26 - Removed the "Facts below verified as of" stamp per owner policy; the site is a client-rendered app, so vote and model counts beyond the founding paper's figures could not be read from its HTML.
 
 ## See also
 

@@ -11,7 +11,6 @@ audience_notes: >
 ---
 
 Mem0 is a hosted and self-hostable memory layer for AI agents: it extracts facts from conversations, stores them across vector, graph, and key-value backends, and retrieves the relevant slice into context on demand.
-Facts below verified as of 2026-09-25.
 
 **Mem0 has the widest adoption of any dedicated memory product, and its benchmark numbers are the part I trust least.**
 

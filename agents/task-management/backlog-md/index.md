@@ -11,7 +11,6 @@ audience_notes: >
 ---
 
 Backlog.md is an MIT-licensed, markdown-native task manager and kanban visualizer for any git repository: a zero-config CLI where every task is a plain `.md` file and agents are steered through three human review checkpoints.
-Facts below verified as of 2026-09-25.
 
 **The tracker's real product is the review gates, spec, plan, then code, each a screenful a human can actually read, which makes it the first line of code review rather than a to-do list.**
 

@@ -11,7 +11,6 @@ audience_notes: >
 ---
 
 Matt Pocock is a full-time developer educator who built Total TypeScript and now runs AI Hero, where the same exercise-driven teaching is aimed at coding with AI agents.
-Facts below verified as of 2026-09-24.
 
 **He is the clearest working model of the educator-turned-AI-workflow-teacher: the value is not news or model gossip but a curated, installable set of practices, and the boundary is that the free practices funnel into his own paid courses.**
 

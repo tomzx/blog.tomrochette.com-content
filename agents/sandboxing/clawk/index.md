@@ -11,7 +11,6 @@ audience_notes: >
 ---
 
 **Clawk gives a coding agent a disposable Linux VM instead of your laptop, so the permission prompt disappears because the blast radius already did.**
-Facts below verified as of 2026-09-25.
 
 ## What it is
 

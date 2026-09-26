@@ -11,7 +11,6 @@ audience_notes: >
 ---
 
 IndyDevDan (Dan, GitHub disler) runs the YouTube channel that named and normalized "agentic engineering," publishing weekly videos plus the open source repos behind them and the Tactical Agentic Coding course they sell.
-Facts below verified as of 2026-09-24.
 
 **He is the category's vocabulary engine on its most consistent weekly cadence, mapping prompt, context, and harness engineering into frameworks engineers actually reuse, with the boundary that the framing always climbs toward his course and the titles shout.**
 

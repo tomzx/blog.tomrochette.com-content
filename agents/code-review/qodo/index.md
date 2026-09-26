@@ -13,7 +13,6 @@ audience_notes: >
 ---
 
 Qodo is an AI code review and governance platform (formerly CodiumAI) whose MIT-licensed PR-Agent was marketed as the original open-source AI PR reviewer, and which has now donated that reviewer to the community while selling the heavier product above it.
-Facts below verified as of 2026-09-24.
 
 ## What it is
 

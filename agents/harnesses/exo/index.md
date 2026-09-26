@@ -11,7 +11,6 @@ audience_notes: >
 ---
 
 **Exo is an agent harness built so the agent can edit the harness itself, prompts, memory, tooling, and policy included, with an append-only event log as the brake.**
-Facts below verified as of 2026-09-24.
 
 ## What it is
 

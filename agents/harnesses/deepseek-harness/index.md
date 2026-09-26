@@ -11,7 +11,6 @@ audience_notes: >
 ---
 
 DeepSeek Harness (`dsh`) is DeepSeek's open-source, MIT-licensed coding-agent harness built on an everything-is-a-plugin kernel where the model, tools, UI, and even the agent loop are hot-swappable plugins.
-Facts below verified as of 2026-09-24.
 
 **The bet is not another agent but a harness with nothing built in: if the plugin architecture holds, forking a harness to change it becomes obsolete.**
 Four weeks in, the bet is unproven and the project says so itself.

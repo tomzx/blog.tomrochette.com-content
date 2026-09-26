@@ -11,7 +11,6 @@ audience_notes: >
 ---
 
 Unreal Agent is an async-first coding-agent harness whose tool calls run in the background, so the model never spends tokens managing waits, polls, or heartbeats.
-Facts below verified as of 2026-09-25.
 
 ## What it is
 

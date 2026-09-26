@@ -11,7 +11,6 @@ audience_notes: >
 ---
 
 Artificial Analysis is an independent benchmarking company whose site measures AI at four layers, agents, models, cloud inference providers, and chips, and publishes the results as leaderboards, price and speed comparisons, and a public changelog.
-Facts below verified as of 2026-09-24.
 
 **It is the closest thing the field has to a consumer reports for model inference: one place where quality, cost, and speed are measured the same way across 671 models.**
 

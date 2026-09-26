@@ -11,7 +11,6 @@ audience_notes: >
 ---
 
 GitHub Agentic Workflows (gh-aw) define repository automation in Markdown with YAML frontmatter, compiled into a hardened GitHub Actions workflow that runs an AI coding agent with guardrails.
-Facts below verified as of 2026-09-24.
 
 **GitHub Actions is becoming the default execution substrate for code agents, and gh-aw is the mechanism that makes an untrusted LLM in CI survivable.**
 

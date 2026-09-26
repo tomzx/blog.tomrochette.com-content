@@ -12,7 +12,6 @@ audience_notes: >
 
 Kimi Code is Moonshot AI's developer coding subscription, selling the K-series models through a CLI, desktop app, and VS Code extension under a membership quota.
 **The same membership is sold at a yen ladder on kimi.com and a dollar ladder on kimi.ai, and the entry tiers do not convert between them.**
-Facts below verified as of 2026-09-26.
 
 ## What it is
 

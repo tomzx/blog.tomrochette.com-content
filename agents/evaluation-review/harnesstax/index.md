@@ -11,7 +11,6 @@ audience_notes: >
 ---
 
 HarnessTax is an academic benchmark study from UC Berkeley and the Arena team that measures how much a coding agent's harness matters by running 21 model-harness pairs across seven models and three harnesses (Claude Code, Codex CLI, and Pi) on SWE-bench Lite and Terminal-Bench 2.0.
-Facts below verified as of 2026-09-25.
 
 **HarnessTax is the independent counterweight to FrontierHarness Eval: where the vendor-run benchmark found harness choice moved cost 17.5x, this academic team finds the same model can cost up to 5x more for a success rate within a few points, and names the difference the harness tax.**
 

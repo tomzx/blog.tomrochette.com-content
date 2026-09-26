@@ -11,7 +11,6 @@ audience_notes: >
 ---
 
 Dex Horthy is the founder of HumanLayer and author of 12-Factor Agents, the most-starred open methodology for building reliable LLM applications.
-Facts below verified as of 2026-09-24.
 
 **His sustained publication is not a blog but a methodology plus a weekly live show: 12-Factor Agents gave agent builders a shared vocabulary for owning context, and the weekly AI That Works recordings document the practice in public, while the written cadence is irregular and everything now routes into a commercial product.**
 

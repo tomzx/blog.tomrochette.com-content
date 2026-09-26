@@ -11,7 +11,6 @@ audience_notes: >
 ---
 
 SemIf, until 2026-09-18 called OpenJev, is an MIT research project that reproduces Jev's interface pattern with open models: it reads typed option probabilities directly from the logits of frozen checkpoints such as Qwen3.5-4B, with no answer tokens, in a browser demo you can run today.
-Facts below verified as of 2026-09-25.
 
 **SemIf is the most verifiable entry in this category, and its own results document says the part no vendor will: the interface is reproduced, the calibrated probabilities are not, and that is the gap that matters.**
 

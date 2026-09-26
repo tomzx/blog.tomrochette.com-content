@@ -11,7 +11,6 @@ audience_notes: >
 ---
 
 Dax Raad (GitHub and X handle thdxr) is the builder behind SST and the open-source coding agent OpenCode at Anomaly, whose public record lives in repositories, Hacker News threads, and X posts rather than in any publication he owns.
-Facts below verified as of 2026-09-24.
 
 **He is the harness author as terse public practitioner: one of the most instructive voices on what shipping and defending a top coding agent actually costs, and the hardest to follow because almost none of it is published in durable form.**
 

@@ -12,7 +12,6 @@ audience_notes: >
 ---
 
 Knowhere is a document parsing and retrieval system from Ontos AI that turns messy files (PDFs, decks, spreadsheets, images) into a persistent, navigable memory structure for agents, shipped as an Apache-2.0 open-source engine, a hosted per-page API, and an MCP server.
-Facts below verified as of 2026-09-25.
 
 **Knowhere's bet is that chunking should preserve document structure (hierarchy, tables, cross-references) instead of throwing it away, and that agents should traverse that structure like a map rather than re-parse files every session.**
 The bet is real and shipping, but the public discussion footprint is nearly invisible for the star count.

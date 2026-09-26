@@ -11,7 +11,6 @@ audience_notes: >
 ---
 
 Synthetic (synthetic.new) sells flat monthly subscriptions and pay-per-token billing for open-weight LLMs served on its own US and EU infrastructure, aimed squarely at coding-agent users.
-Facts below verified as of 2026-09-26.
 
 **It is the closest thing to Claude Pro for open-weight models: $30/month for 500 requests per 5 hours across models like DeepSeek-V4.1-Flash, GLM-5.3-Flash, and Kimi-K3, with prompts never stored longer than 14 days.**
 

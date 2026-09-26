@@ -11,7 +11,6 @@ audience_notes: >
 ---
 
 CodeRabbit is a commercial AI code review service (the coderabbitai GitHub and GitLab app, plus CLI and IDE surfaces) that reviews every pull request automatically and is expanding into triage, change explanation, and security under the banner of Agentic Change Management.
-Facts below verified as of 2026-09-24.
 
 ## What it is
 

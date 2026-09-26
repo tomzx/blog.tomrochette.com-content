@@ -11,7 +11,6 @@ audience_notes: >
 ---
 
 NanoJev is an individual developer's MIT-licensed nano replica of Jev: a 0.6B parallel decision model on a Qwen3-0.6B backbone that returns probability distributions over supplied candidates with zero output-token decoding, published end to end with weights, an 18,760-question dataset, and a replayable training pipeline.
-Facts below verified as of 2026-09-25.
 
 **A 0.6B model claims to beat hosted Jev at three of four ViZDoom-family games, and not one of its numbers has been checked by anyone other than the author.**
 

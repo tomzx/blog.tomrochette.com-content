@@ -11,7 +11,6 @@ audience_notes: >
 ---
 
 Peter Steinberger is the PSPDFKit founder who came out of retirement to create OpenClaw, joined OpenAI in February 2026, and publishes hands-on agent-engineering essays at steipete.me alongside a torrent of open-source agent tooling on GitHub.
-Facts below verified as of 2026-09-24.
 
 **He is the builder-evangelist of the agent wave: his value is working tools and first-person workflow writing at enormous volume, and his boundary is that he is always selling the future he is personally building.**
 

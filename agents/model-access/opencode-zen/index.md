@@ -11,7 +11,6 @@ audience_notes: >
 ---
 
 OpenCode Zen is the OpenCode (Anomaly) team's curated pay-per-use AI gateway, one API key over a tested catalog that spans open models and the Claude, GPT, Gemini, and Grok lines.
-Facts below verified as of 2026-09-26.
 
 ## What it is
 

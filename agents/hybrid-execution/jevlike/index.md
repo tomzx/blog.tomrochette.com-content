@@ -11,7 +11,6 @@ audience_notes: >
 ---
 
 Jevlike is the community's one-day reverse-engineering of the Jev decision contract: an MIT Python starter that trains a small model to return one probability per text option in a single forward pass, with no text generation anywhere.
-Facts below verified as of 2026-09-25.
 
 **Jevlike matters less as a model than as evidence about the category: the Jev interface was copied in hours by one person with AI coding tools, so the moat, if TypeSafe has one, cannot be the interface.**
 

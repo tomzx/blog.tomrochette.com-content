@@ -11,7 +11,6 @@ audience_notes: >
 ---
 
 Mario Zechner is the creator of pi, the minimal self-extensible coding agent he took with him to Earendil in April 2026, and a two-decade open-source game-tools developer who writes long, argumentative technical posts at mariozechner.at.
-Facts below verified as of 2026-09-24.
 
 **He is the sharpest contrarian voice in harness design, arguing in public and in code that most agent features are baggage rather than progress, which makes his posts required reading for harness builders and his governance style the part you accept or reject.**
 

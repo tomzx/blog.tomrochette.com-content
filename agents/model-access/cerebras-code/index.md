@@ -11,7 +11,6 @@ audience_notes: >
 
 Cerebras Code is a subscription from chipmaker Cerebras that sells fast inference on one open coding model at $50/month (Pro) and $200/month (Max).
 **The pitch is speed, and the record shows the speed claim and the quota fine print are the two things to verify before paying.**
-Facts below verified as of 2026-09-26.
 
 ## What it is
 

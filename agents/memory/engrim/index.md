@@ -12,7 +12,6 @@ audience_notes: >
 ---
 
 Engrim is a local-first, project-scoped episodic memory engine for AI coding CLIs: one MIT-licensed Python package that keeps decisions, constraints, and session state in a single SQLite file on your machine and re-injects a 4,000-character memory pack into whichever CLI (Antigravity, Claude Code, Cursor, Windsurf, Codex, OpenCode, GitHub Copilot CLI) you open next.
-Facts below verified as of 2026-09-25.
 
 **Its bet is that the unit of memory should be the project, not the model or the harness: one curated store that every agent CLI on your machine reads and writes, so switching models mid-project costs nothing.**
 

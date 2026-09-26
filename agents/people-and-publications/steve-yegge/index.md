@@ -11,7 +11,6 @@ audience_notes: >
 ---
 
 Steve Yegge is one of the loudest and most hands-on voices arguing that coding agents change not just how software is written but who writes it and how teams are run.
-Facts below verified as of 2026-09-22.
 
 **Yegge is the operative, not the commentator: he built the systems he predicted, from Agentic Coding's brute-squad framing to the Gas Town multi-agent workspace that this section already profiles, so his claims are falsifiable against his own code, and in September 2026 that falsifiability caught up with him when he shut Gas Town down.**
 

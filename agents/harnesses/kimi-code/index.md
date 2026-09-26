@@ -11,7 +11,6 @@ audience_notes: >
 ---
 
 **Kimi Code CLI is Moonshot AI's terminal coding agent, and it is the first big-model-vendor harness whose default path is a challenger model instead of Claude or GPT.**
-Facts below verified as of 2026-09-24.
 
 ## What it is
 

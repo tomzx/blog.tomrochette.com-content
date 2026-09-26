@@ -12,7 +12,6 @@ audience_notes: >
 
 Happy Coder is an MIT-licensed open-source client that wraps Claude Code and Codex sessions on your machine and syncs them end-to-end encrypted to native iOS, Android, macOS, and web apps.
 **It passed 23k stars as a thin wrapper around two harnesses, second only to cmux among the category's maintained tools, which says the phone screen, not the orchestrator, is what people install.**
-Facts below verified as of 2026-09-24.
 
 ## What it is
 

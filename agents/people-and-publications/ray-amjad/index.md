@@ -11,7 +11,6 @@ audience_notes: >
 ---
 
 Ray Amjad is an engineer-educator (ex-YC technical founder, Cambridge physics) whose YouTube channel turns each Claude Code and Codex release into a worked explanation with a verification-first argument attached.
-Facts below verified as of 2026-09-24.
 
 **He is the fastest way to understand a Claude Code feature drop in depth, and the only channel in this batch that states it has never accepted a sponsor, with the boundary that his videos are also the top of a cohort funnel and his own products are his demos.**
 

@@ -11,7 +11,6 @@ audience_notes: >
 ---
 
 Geoffrey Huntley is an Australian software engineer (near San Francisco per his now page) who writes at ghuntley.com and created the Ralph loop, the while-loop technique for running coding agents autonomously that spread across the community in 2025.
-Facts below verified as of 2026-09-24.
 
 **He is the voice that reduces agentic engineering to its smallest reproducible unit, one bash loop plus prompt discipline, and his value is the concrete method and the deliberate-practice mindset around it; his limit is a maximalist register that packages forecasts as settled facts.**
 

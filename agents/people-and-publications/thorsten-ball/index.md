@@ -11,7 +11,6 @@ audience_notes: >
 ---
 
 Thorsten Ball is the co-founder and co-creator of Amp and the author of the self-published Monkey interpreter and compiler books, writing through the weekly Register Spill newsletter and ampcode.com.
-Facts below verified as of 2026-09-24.
 
 **He is the rare harness builder whose public record spans a decade of systems writing, which makes him the best first-person source on what professional development inside an agent actually feels like, as long as you remember every Amp word is also Amp marketing.**
 

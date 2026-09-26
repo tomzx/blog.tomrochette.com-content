@@ -11,7 +11,6 @@ audience_notes: >
 ---
 
 LLM Stats is a model-comparison platform that ranks 398 canonical models on a composite "LLM Stats Score", publishes task-level leaderboards, pricing, and comparison pages, and exposes the whole dataset through a REST API and an MCP server aimed at agents.
-Facts below verified as of 2026-09-24.
 
 **It is the only member of this category that treats an agent, not a human, as the primary consumer of the leaderboard.**
 

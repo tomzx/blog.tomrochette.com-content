@@ -11,7 +11,6 @@ audience_notes: >
 ---
 
 Agent Sandbox is a Kubernetes SIG Apps project, announced by Google Cloud at KubeCon NA 2025, that provides a `Sandbox` CRD and controller for declaratively managing isolated, stateful, singleton pods with warm pools, aimed at AI agent runtimes and reinforcement learning, while delegating actual isolation to runtimes like gVisor or Kata.
-Facts below verified as of 2026-09-25.
 
 **Agent Sandbox is deliberately not an isolation boundary: it is the orchestration layer around one, and its own threat model says plainly that without gVisor or Kata configured, a sandbox is just an ordinary pod.**
 

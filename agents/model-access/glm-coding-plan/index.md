@@ -11,7 +11,6 @@ audience_notes: >
 
 The GLM Coding Plan is Z.ai's subscription that sells access to the GLM model family inside coding agents, currently $18/$80/$168 per month for Lite/Pro/Max.
 **It is the cheapest quota-per-dollar coding subscription I verified, but a multiplier system governs the quota, so the sticker price is only the start of the math.**
-Facts below verified as of 2026-09-26.
 
 ## What it is
 

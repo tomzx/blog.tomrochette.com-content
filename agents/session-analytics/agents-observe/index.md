@@ -11,7 +11,6 @@ audience_notes: >
 ---
 
 agents-observe is an MIT-licensed real-time observability dashboard for Claude Code and Codex sessions: a Claude Code plugin whose hooks stream every agent event to a local Dockerized server that feeds a live web dashboard with multi-agent trees, replay, and token and cost breakdowns.
-Facts below verified as of 2026-09-25.
 
 **agents-observe is the live half of session analytics: it watches the hook stream while your agents run, where the category's other tools only parse what the agents already wrote to disk.**
 

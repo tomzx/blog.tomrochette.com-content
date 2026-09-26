@@ -12,7 +12,6 @@ audience_notes: >
 ---
 
 Sourcegraph is a code intelligence platform (Code Search, Deep Search, an MCP server with the Code Finder agent) that has repositioned itself as the retrieval layer both humans and coding agents use on large codebases.
-Facts below verified as of 2026-09-25.
 
 **Sourcegraph rebuilt itself around selling search to agents rather than assistants to humans, and its own benchmark data says the value only appears above roughly 400K lines of code, which is exactly the fact its sales motion will not volunteer.**
 

@@ -11,7 +11,6 @@ audience_notes: >
 ---
 
 Epoch AI is a 501(c)(3) research nonprofit that maintains open datasets on AI models, compute, data centers, chips, and companies, runs its own benchmarks, and publishes research, a newsletter, and a podcast, all under a transparency policy that itemizes its funders and paid consultations.
-Facts below verified as of 2026-09-24.
 
 **Where the other sites in this category tell you what is winning this week, Epoch tells you how fast the whole field is moving, and lets you download the series behind the claim.**
 

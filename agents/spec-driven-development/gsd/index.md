@@ -11,7 +11,6 @@ audience_notes: >
 ---
 
 GSD (Get Shit Done) is the MIT meta-prompting, context-engineering, and spec-driven workflow system for Claude Code created by Lex Christopherson (TÂCHES), whose roughly 64.5k-star original repository is archived and whose development continues as the community-run open-gsd/gsd-core.
-Facts below verified as of 2026-09-25.
 
 **GSD is the cautionary lineage of the spec-driven movement: the most-starred workflow system in this category died with its creator's controversy, and the successor is one maintainer's attempt to keep the loop while returning the work to the people who show up.**
 

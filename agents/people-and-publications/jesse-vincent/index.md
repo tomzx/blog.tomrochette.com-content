@@ -11,7 +11,6 @@ audience_notes: >
 ---
 
 Jesse Vincent (obra) is a programmer with an open-source track record long enough to predate this blog (Request Tracker, Perl 5 pumpkins, K-9 Mail, Keyboardio) who now documents a sustained personal coding-agent practice at blog.fsck.com and builds Superpowers at Prime Radiant.
-Facts below verified as of 2026-09-24.
 
 **He is the practitioner who turned agentic coding from loose prompts into a codified, eval-measured methodology you can install today; the price of that discipline is tokens, speed, and a strong-opinions workflow that not every codebase or culture will accept.**
 

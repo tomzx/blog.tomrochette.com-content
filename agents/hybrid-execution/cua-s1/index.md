@@ -11,7 +11,6 @@ audience_notes: >
 ---
 
 CUA-S1 is Cua's research family of small, specialist "System One" models for computer use, and its first checkpoint, cua-s1-forms, is a 706,048-parameter open-weights scorer that assigns one probability to fill, check, click, or skip for each form element without generating any text.
-Facts below verified as of 2026-09-25.
 
 **This is the first open-weights take on the decision-model contract TypeSafe's Jev launched with: the same no-text-generation input/output deal, but 2.8 MB, MIT-licensed, and trained in public on synthetic forms data, which makes the category's core question, who can verify the numbers, suddenly answerable.**
 

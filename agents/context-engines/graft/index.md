@@ -12,7 +12,6 @@ audience_notes: >
 ---
 
 Graft is an MIT-licensed CLI from NanoNets (attributed on its own site to Trail) that builds a repo's context graph as a folder of linked markdown files plus a tree-sitter code graph, then wires itself into coding agents through skills, hooks, a six-tool MCP server, and a statusline so the map rides along in every session.
-Facts below verified as of 2026-09-25.
 
 **Graft collected 9,051 stars in twelve weeks on a story every agent user feels, yet every number behind that story, including the 54%-to-66% SWE-bench jump, is the vendor's own until someone replicates it, and distribution clearly ran ahead of independent validation.**
 

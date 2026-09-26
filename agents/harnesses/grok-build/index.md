@@ -11,7 +11,6 @@ audience_notes: >
 ---
 
 Grok Build (`grok`) is SpaceXAI's (xAI's) open-source Rust terminal coding agent, a full-screen mouse-interactive TUI that understands your codebase, edits files, runs shell commands, searches the web, and manages long-running tasks, interactively, headlessly, or embedded in editors.
-Facts below verified as of 2026-09-24.
 
 **No harness in this section iterates faster, and none asks for more trust: the Apache-2.0 client ships through vendor channels that bypass the repository entirely, on a default auth path that a wire-level analysis caught uploading whole repositories to xAI infrastructure.**
 

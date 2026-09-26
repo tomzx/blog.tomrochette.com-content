@@ -11,7 +11,6 @@ audience_notes: >
 ---
 
 Langfuse is an open-source (MIT core) observability and evaluation platform for LLM applications and agents, covering tracing, LLM-as-judge and human evaluation, prompt management, and datasets and experiments, self-hostable or consumed as Langfuse Cloud, and part of ClickHouse since January 2026.
-Facts below verified as of 2026-09-25.
 
 **Langfuse is the MIT-licensed observability and evaluation column the category lacked, and its open-core boundary is drawn in the filesystem: MIT outside the `ee/` directories, proprietary inside them.**
 

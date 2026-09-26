@@ -11,7 +11,6 @@ audience_notes: >
 ---
 
 skills.sh is Vercel's directory and leaderboard for the open skills ecosystem: it ranks SKILL.md packages by install telemetry from its open-source CLI (`npx skills add <owner>/<repo>`), which installs into 79 agent harnesses as of 2026-09-22.
-Facts below verified as of 2026-09-25.
 
 **It won the registry slot not through curation but by wrapping git: any repository is already a package, the CLI symlinks it into every harness, and the resulting install counts became the ecosystem's ranking, with security review still catching up.**
 

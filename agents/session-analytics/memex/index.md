@@ -11,7 +11,6 @@ audience_notes: >
 ---
 
 Memex is an MIT-licensed Rust CLI and TUI that indexes the session transcripts your coding agents already wrote on disk, searches them with BM25 or optional local embeddings, and resumes a selected session in the harness that produced it.
-Facts below verified as of 2026-09-25.
 
 **Search quality plus resume is the combination this category lacked: agentsview archives and counts cost, ctx retrieves for agents, and Memex answers the human question, where did I already do this, then drops you back into the original session.**
 

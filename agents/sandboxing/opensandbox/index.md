@@ -11,7 +11,6 @@ audience_notes: >
 ---
 
 OpenSandbox is a general-purpose, Apache-2.0 sandbox platform for AI applications under the opensandbox-group GitHub organization, offering multi-language SDKs, a CLI, an MCP server, and Docker and Kubernetes runtimes for coding agents, GUI agents, evaluations, code execution, and RL training.
-Facts below verified as of 2026-09-25.
 
 ## What it is
 

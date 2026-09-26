@@ -11,7 +11,6 @@ audience_notes: >
 ---
 
 Jev is TypeSafe AI's first "System One model": a frontier-class model that generates no text at all and answers typed questions with structured values and calibrated probabilities, positioned as the architectural inversion of everything else in this category.
-Facts below verified as of 2026-09-25.
 
 **Every other mechanism here constrains or checks a text generator; Jev removes the text generator, and if its numbers survive third-party testing, the parse-validate-retry stack the other four columns sell becomes legacy glue.**
 

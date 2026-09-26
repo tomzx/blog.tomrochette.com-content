@@ -11,7 +11,6 @@ audience_notes: >
 ---
 
 AI Release Tracker is a free, ad-free timeline of major frontier AI model releases since ChatGPT's launch on November 30, 2022, with launch-day benchmark scores, pricing, and machine-readable exports for each entry.
-Facts below verified as of 2026-09-24; the live site blocks automated fetchers (HTTP 429), so the current-content evidence comes from the 2026-08-26 archived copy.
 
 **It answers the one question every other site in this category layers something on top of: what shipped, when, with which launch-day numbers.**
 

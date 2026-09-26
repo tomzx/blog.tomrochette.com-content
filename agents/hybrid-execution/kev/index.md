@@ -11,7 +11,6 @@ audience_notes: >
 ---
 
 Kev is Jared Palmer's Apache-2.0 family of small decision models (0.8B, 4B, and 9B LoRA adapters on Qwen3.5 bases) that reimplements the Jev contract on your own GPU, serving the same typed questions over an endpoint the official TypeSafe SDK can target unchanged.
-Facts below verified as of 2026-09-25.
 
 **Kev is the first Jev replica whose evaluation discipline is stronger than the vendor it replicates: pre-registered criteria, a locked test set read once per checkpoint, and published gap tables against live Jev.**
 

@@ -11,7 +11,6 @@ audience_notes: >
 ---
 
 Requesty is an EU-hosted managed AI gateway that puts 600+ models behind one OpenAI-compatible endpoint and charges a flat 5% markup on upstream model spend.
-Facts below verified as of 2026-09-26.
 
 **The 5% markup is the whole business model: keep your OpenAI SDK code, point the base URL at router.requesty.ai/v1, and pay model cost plus 5% for routing, caching, and governance.**
 

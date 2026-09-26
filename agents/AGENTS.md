@@ -68,7 +68,6 @@ audience_notes: >
 ---
 
 <One-sentence definition of the thing.>
-Facts below verified as of YYYY-MM-DD.
 
 ## What it is
 
@@ -77,7 +76,7 @@ Facts below verified as of YYYY-MM-DD.
 ## Status
 
 <Lifecycle: active, dormant, dead, pivoted, or superseded, with the evidence:
-commit activity, stars or downloads as of the verification date, funding, shutdown or deprecation notice.>
+commit activity, stars or downloads as of a stated date, funding, shutdown or deprecation notice.>
 
 ## Strengths
 
@@ -168,7 +167,7 @@ Inherit the blog's style, with these specifics:
 - Short, direct sentences; concrete statements over hedged abstractions.
 - Structure with `##` headers that each advance the argument; bold the key insight of each section.
 - Close with `## What to Do Next` when prescriptive, then `## Changes`, `## See also` (internal links), and `## References` (external sources), three to five items each for See also and References.
-- `## Changes` is the article's append-only changelog: one `- YYYY-MM-DD - <what changed>` bullet per material change, oldest first, the first bullet records creation, sourced from `agents/log.md` (the log stays the full audit trail; Changes is the reader-facing summary). Corrections, status moves, pricing changes, added or removed facts, category moves, and matrix membership changes are changes; verification-date bumps and routine volatile-number refreshes are not. Append the bullet in the same run as the change it records; never delete or rewrite old bullets.
+- `## Changes` is the article's append-only changelog: one `- YYYY-MM-DD - <what changed>` bullet per material change, oldest first, the first bullet records creation, sourced from `agents/log.md` (the log stays the full audit trail; Changes is the reader-facing summary). Corrections, status moves, pricing changes, added or removed facts, category moves, and matrix membership changes are changes; routine volatile-number refreshes are not. Append the bullet in the same run as the change it records; never delete or rewrite old bullets.
 - Internal links: articles in the same category are `../<slug>/index.md`; articles in another category are `../<category>/<slug>/index.md`; a category index page is `<category>/_index.md` from the section index, `../../<category>/_index.md` from a section-root article (essays, the model-provider matrix), and `../_index.md` from a note in that category; section-root articles (essays, the model-provider matrix) are `../../<slug>/index.md`; the section index and control files are `../../` (for example `../../_index.md`, `../../AGENTS.md`); main corpus articles are `../../../<slug>/index.md`. Always verify the target directory exists before adding a link (CI fails on broken links).
 - External links must be durable and canonical (official docs, Wikipedia for concepts); verify the URL fetches before citing it.
 - All content must be compatible with CC BY-NC 4.0; quote sparingly, link generously.

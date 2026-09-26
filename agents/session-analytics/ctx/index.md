@@ -11,7 +11,6 @@ audience_notes: >
 ---
 
 **ctx is local search over the sessions your coding agents already recorded, and its blame capability turns git blame around: from any line of code back to the transcript that produced it.**
-Facts below verified as of 2026-09-25.
 
 ## What it is
 

@@ -12,7 +12,6 @@ audience_notes: >
 ---
 
 Chonkie is an MIT-licensed Python (with a TypeScript port) chunking library for RAG pipelines that packages token-based, sentence, recursive, semantic, late, code (AST), and neural chunkers behind one small, dependency-light interface.
-Facts below verified as of 2026-09-25.
 
 **It won the chunking niche on install size and speed, survived the niche's commoditization, and outlived its own company's attention: the library keeps shipping while the startup behind it has moved on to a new venture.**
 
