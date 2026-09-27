@@ -12,12 +12,12 @@ audience_notes: >
 
 MiMo Code is Xiaomi's MIT-licensed terminal coding agent, an OpenCode fork that adds a persistent memory layer, checkpoint-based context rebuilds, and goal-verified autonomous loops, released in June 2026.
 
-**MiMo Code's differentiator is not a better model but a runtime built to survive hundreds of steps, and the honest case for it today is auditable source plus cheap Xiaomi tokens, not its self-reported benchmark gap.**
+**MiMo Code's differentiator is not a better model but a runtime built to survive hundreds of steps, and the defensible case for it today is auditable source plus cheap Xiaomi tokens, not its self-reported benchmark gap.**
 
 ## What it is
 
 The `mimo` CLI is installed by a curl script or the `@mimo-ai/cli` npm package, and the same engine ships as the core of Xiaomi's MiMo Desktop app.
-It carries three primary agents (build, plan, and compose), an on-demand subagent system with parallel execution and lifecycle tracking, a tree-shaped task store (`T1`, `T1.1`), MCP with local, remote, and OAuth servers, LSP integration, and a plugin and skills surface inherited from OpenCode.
+It carries three primary agents (build, plan, and compose), an on-demand subagent system with parallel execution and lifecycle tracking, a tree-structured task store (`T1`, `T1.1`), MCP with local, remote, and OAuth servers, LSP integration, and a plugin and skills surface inherited from OpenCode.
 **The parts Xiaomi actually added are the long-horizon machinery:** a checkpoint-writer subagent that writes structured state at roughly 20, 45, and 70 percent of the context budget, a four-layer memory (session checkpoint, project `MEMORY.md`, global memory, and a full SQLite history), a rebuild step that reassembles the window from those files in about 65K tokens, `/dream` and `/distill` memory-maintenance passes, an independent judge behind the `/goal` stop condition, and best-of-N Max Mode.
 Provider access is the OpenCode posture: any of 75+ providers through the AI SDK and Models.dev, local models through an OpenAI-compatible endpoint, or Xiaomi's own platform.
 
