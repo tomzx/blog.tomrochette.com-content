@@ -8,8 +8,10 @@ tags: [agents, orchestration]
 readability: 3
 ---
 
-Running many coding agents at once: worktree managers, kanbans, terminal multiplexers, dashboards, and the mobile clients that supervise them from anywhere.
+Running many coding agents at once: worktree managers, kanbans, terminal multiplexers, dashboards, the mobile clients that supervise them from anywhere, and the multi-agent frameworks that coordinate the agents themselves.
 
+- [AutoGen](autogen/index.md) - Microsoft's conversational multi-agent framework, now in maintenance mode with Microsoft Agent Framework as the designated successor.
+- [AutoGPT](autogpt/index.md) - the 2023 autonomous-agent phenomenon rebuilt as an active hosted-plus-self-host workflow platform with a visual builder and marketplace.
 - [AX](ax/index.md) - Google's Kubernetes-native orchestrator that runs agent tasks, workspaces, and network gates as declarative cluster manifests, the category's first datacenter-scale control plane.
 - [Claude Squad](claude-squad/index.md) - free AGPL terminal app running multiple coding agents in tmux, each in its own worktree.
 - [cmux](cmux/index.md) - Manaflow's libghostty macOS terminal for parallel agents, notification rings free, cloud execution paid (Pro $50, Max $200 monthly).
@@ -21,6 +23,8 @@ Running many coding agents at once: worktree managers, kanbans, terminal multipl
 - [Gas Town](gastown/index.md) - Steve Yegge's tmux town of 20-30 supervised agents, shut down in September 2026 after Yegge admitted he never successfully built anything with it, kept as the category's cautionary record.
 - [Happy Coder](happy-coder/index.md) - the MIT encrypted mobile client wrapping Claude Code and Codex sessions, 23.8k stars, second only to cmux in the category.
 - [JetBrains Air](jetbrains-air/index.md) - the standalone agentic environment running Codex, Claude Agent, Gemini CLI, and Junie in parallel, isolated per task and bundled with the AI subscription.
+- [LobeHub](lobehub/index.md) - LobeChat's pivot into a Chief Agent Operator that hires, schedules, and reports on agents around the clock.
+- [MetaGPT](metagpt/index.md) - FoundationAgents' software-company-as-multi-agent framework, quiet since v0.8.2 with the energy moved to OpenManus.
 - [Omnara](omnara/index.md) - the YC S25 Apache-2.0 Go control plane where agents are YAML and supervision happens from dashboard, phone, CLI, API, or Slack.
 - [Paseo](paseo/index.md) - the open-source daemon driving coding agents from desktop, web, and native mobile apps, self-hosted and solo-maintained.
 - [Superset](superset/index.md) - the YC-backed, source-available agentic IDE running parallel CLI agents in worktrees on your own subscriptions.
@@ -47,3 +51,7 @@ Its members are compared on shared rows in the [Orchestration Feature Matrix](or
 - 2026-09-12 - Added JetBrains Air.
 - 2026-09-21 - Added AX.
 - 2026-09-22 - Added Foremerge.
+- 2026-09-27 - Added AutoGen.
+- 2026-09-27 - Added AutoGPT.
+- 2026-09-27 - Added LobeHub.
+- 2026-09-27 - Added MetaGPT.

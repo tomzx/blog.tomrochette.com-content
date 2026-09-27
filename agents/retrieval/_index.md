@@ -11,6 +11,7 @@ readability: 3
 Feeding agents the right slices of large corpora: chunking libraries, parsing pipelines, the two big frameworks, and the patterns built on them.
 
 - [Chonkie](chonkie/index.md) - the MIT chunking library (token, semantic, and neural chunkers) for RAG pipelines, its commercial arm dead and its maker pivoted to Feyn Labs.
+- [Docling](docling/index.md) - IBM-origin document parser turning PDF, Office, audio, and video into structured DoclingDocuments for RAG and agent pipelines.
 - [Knowhere](knowhere/index.md) - Ontos AI's structure-preserving document parsing and retrieval pipeline, hosted per page or self-hosted, its self-reported benchmark and near-empty HN footprint attached.
 - [LangChain](langchain/index.md) - the largest LLM framework, repositioned in 2026 as an agent engineering platform.
 - [LlamaIndex](llamaindex/index.md) - the MIT data framework for retrieval pipelines, now the open arm of LlamaParse.
@@ -27,3 +28,4 @@ Its members are compared on shared rows in the [Retrieval Feature Matrix](retrie
 - 2026-08-24 - Added Tree-sitter chunking.
 - 2026-09-16 - Added Chonkie.
 - 2026-09-20 - Added Knowhere.
+- 2026-09-27 - Added Docling.

@@ -19,18 +19,18 @@ Each column links to the full note; every cell traces to a source cited there or
 
 ## The matrix
 
-| Feature | [Chonkie](../chonkie/index.md) | [Knowhere](../knowhere/index.md) | [LangChain](../langchain/index.md) | [LlamaIndex](../llamaindex/index.md) | [Semantic code search](../semantic-code-search/index.md) | [Tree-sitter chunking](../tree-sitter-chunking/index.md) |
+| Feature | [Chonkie](../chonkie/index.md) | [Docling](../docling/index.md) | [Knowhere](../knowhere/index.md) | [LangChain](../langchain/index.md) | [LlamaIndex](../llamaindex/index.md) | [Semantic code search](../semantic-code-search/index.md) | [Tree-sitter chunking](../tree-sitter-chunking/index.md) |
 | --- | --- | --- | --- | --- | --- | --- |
-| Kind | chunking library | hosted document-parsing pipeline plus OSS engine | agent framework | retrieval framework | shipped capability | parsing technique |
-| Open source license | ✓ MIT | ~ Apache-2.0 engine and self-hosted stack, hosted API proprietary | ✓ MIT | ✓ MIT | ~ tool-dependent | ✓ MIT parsers |
-| Primary language | Python, TypeScript port | Python | Python | Python | ~ varies by tool | C11 core |
-| Code-specific focus | ~ general text, one code chunker | ✗ documents (PDFs, decks, spreadsheets), not code | ~ generic text RAG | ~ general data, code capable | ✓ code only | ✓ code only |
-| AST-aware code splitting | ✓ CodeChunker | ✗ document hierarchy, not AST | ✗ separators only | ✓ CodeSplitter | ? chunkers undisclosed | ✓ the technique |
-| Hosted or commercial arm | ✗ hosted API dead, OSS only | ✓ the hosted per-page API is the funnel | ✓ LangSmith SaaS | ✓ LlamaParse SaaS | ~ plan-gated indexes | ✗ was Chonkie Cloud, now dead |
-| Positioning drift in the notes | ~ maker moved to Feyn Labs, OSS continues | ✗ new entrant (2026-09), no drift yet | ~ climb to agent platform | ~ pivot to document OCR | ~ demoted to optional | ~ outsourced to Chonkie |
-| Maintenance status | ✓ active, 4.77k stars, 1.17M downloads/month | ✓ active, 3.51k stars, v1.2.17 (2026-09-23) | ✓ active, 147.1k stars | ✓ active, 52.3k stars | ~ active but demoted | ✓ mature, pervasive |
-| Displacement signal in the notes | ~ founder pivoted away, niche commoditized | ~ stars ran ahead of any discussion, two Show HNs, 2 points combined | ~ retrieval commoditized | ~ agentic search eats indexed RAG | ✓ pioneers shipped grep loops | ~ ranked below truncation |
-| What it replaces in a coding-agent stack | framework text splitters | hand-rolled OCR plus vector-store parsing | hand-rolled agent loops | hand-rolled retrievers | grep-only lookups | line-count chunking |
+| Kind | chunking library | document parsing library (PDF, Office, audio, video to structured output) | hosted document-parsing pipeline plus OSS engine | agent framework | retrieval framework | shipped capability | parsing technique |
+| Open source license | ✓ MIT | ✓ MIT | ~ Apache-2.0 engine and self-hosted stack, hosted API proprietary | ✓ MIT | ✓ MIT | ~ tool-dependent | ✓ MIT parsers |
+| Primary language | Python, TypeScript port | Python | Python | Python | Python | ~ varies by tool | C11 core |
+| Code-specific focus | ~ general text, one code chunker | ✗ documents, not code | ✗ documents (PDFs, decks, spreadsheets), not code | ~ generic text RAG | ~ general data, code capable | ✓ code only | ✓ code only |
+| AST-aware code splitting | ✓ CodeChunker | ✗ document layout models, not AST | ✗ document hierarchy, not AST | ✗ separators only | ✓ CodeSplitter | ? chunkers undisclosed | ✓ the technique |
+| Hosted or commercial arm | ✗ hosted API dead, OSS only | ~ Docling for IBM watsonx managed path, no published prices | ✓ the hosted per-page API is the funnel | ✓ LangSmith SaaS | ✓ LlamaParse SaaS | ~ plan-gated indexes | ✗ was Chonkie Cloud, now dead |
+| Positioning drift in the notes | ~ maker moved to Feyn Labs, OSS continues | ✗ new entrant (2026-09 scan), no drift yet | ✗ new entrant (2026-09), no drift yet | ~ climb to agent platform | ~ pivot to document OCR | ~ demoted to optional | ~ outsourced to Chonkie |
+| Maintenance status | ✓ active, 4.77k stars, 1.17M downloads/month | ✓ active, 68.0k stars, 2.74M downloads/month, PyPI 2.130.0 | ✓ active, 3.51k stars, v1.2.17 (2026-09-23) | ✓ active, 147.1k stars | ✓ active, 52.3k stars | ~ active but demoted | ✓ mature, pervasive |
+| Displacement signal in the notes | ~ founder pivoted away, niche commoditized | ~ none yet; the heavyweight torch dependency is the standing complaint | ~ stars ran ahead of any discussion, two Show HNs, 2 points combined | ~ retrieval commoditized | ~ agentic search eats indexed RAG | ✓ pioneers shipped grep loops | ~ ranked below truncation |
+| What it replaces in a coding-agent stack | framework text splitters | hand-rolled PDF and Office extraction | hand-rolled OCR plus vector-store parsing | hand-rolled agent loops | hand-rolled retrievers | grep-only lookups | line-count chunking |
 
 ## Reading the matrix
 

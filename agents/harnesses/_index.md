@@ -30,6 +30,7 @@ The terminal and CLI agents that carry the model into your repository: the platf
 - [Kilo Code](kilo-code/index.md) - the Cline-and-Roo feature-merge under MIT, subagents through cloud tasks bundled in, Anaconda's since July 2026.
 - [Kimi Code](kimi-code/index.md) - Moonshot AI's terminal agent tuned for its own challenger-priced models, subagents through ACP in one Node.js CLI.
 - [OneCLI](onecli/index.md) - the YC S26 Apache-2.0 team harness where a credential gateway injects secrets per request, so agents never hold them.
+- [Open Interpreter](openinterpreter/index.md) - a 2026 Rust fork of Codex CLI emulating provider harnesses for cheap open-weight models like Kimi K3 and GLM.
 - [OpenCode](opencode/index.md) - the MIT, provider-neutral harness with the leanest measured token baseline.
 - [OpenHands](openhands/index.md) - the renamed OpenDevin platform bet, sandboxed code-shell-browser agents you can self-host.
 - [Pi](pi/index.md) - Earendil's minimal, self-extensible harness, a frozen core plus your TypeScript extensions, no MCP by design.
@@ -71,3 +72,4 @@ Its members are compared on shared rows in the [Harness Feature Matrix](harness-
 - 2026-09-12 - Added Grok Build.
 - 2026-09-21 - Added ZCode.
 - 2026-09-25 - Added Unreal Agent.
+- 2026-09-27 - Added Open Interpreter.
