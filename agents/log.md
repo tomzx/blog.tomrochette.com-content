@@ -1284,3 +1284,7 @@ Changes to this section that do not appear here were made by a human and must be
 - harness-feature-matrix: added the MiMo Code column (twenty-nine to thirty members), sorted after Kimi Code, all twelve cells traced to the new note; also backfilled the missing Open Interpreter Changes bullet and corrected the intro count from twenty-eight to thirty, both existing defects surfaced while extending the table; added MiMo Code to the auditable-client and local-models lists and a long-horizon-memory reading paragraph, and appended four references [deepseek-v4.1-flash]
 - Note wording fix before commit: "honest case" to "defensible case" and "tree-shaped" to "tree-structured" to keep the banned-terms rule [deepseek-v4.1-flash]
 - Verification: matrix header, separator, and all twelve data rows at 31 cells each; all internal link targets exist on disk; front matter parses; no em-dashes or banned terms in the new note; every referenced URL fetched during this run [deepseek-v4.1-flash]
+
+## 2026-09-27 (owner-prompted, queue cleanup)
+
+- Owner instruction in chat: remove all the answered/resolved entries from queue.md as they are not useful to keep; the queue now holds only the standing research-index item and the Done list, with every answered question and its resolution line removed; the decisions themselves remain recorded in this log and in the rules file where applicable [glm-5.3-flash]
