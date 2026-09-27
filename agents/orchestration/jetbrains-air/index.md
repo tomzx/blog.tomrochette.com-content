@@ -1,7 +1,7 @@
 ---
 title: JetBrains Air
 created: 2026-09-12
-updated: 2026-09-22
+updated: 2026-09-27
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, parallel-agents, jetbrains, agentic-development-environment]
 readability: 3
@@ -73,6 +73,7 @@ My disagreeable claim: the isolation-plus-oversight bundle Air sells is now tabl
 
 ## See also
 
+- [The Agentic Development Environment Landscape](../../the-agentic-development-environment-landscape/index.md) - the mid-2026 landscape piece whose incumbent-leader analysis is JetBrains Air
 - [Orchestration Feature Matrix](../orchestration-feature-matrix/index.md) - the category comparison this note joins
 - [JetBrains IDEs](../../surfaces/jetbrains/index.md) - the IDE-family sibling in Surfaces, deliberately a different category from Air
 - [Junie](../../harnesses/junie/index.md) - the bundled JetBrains agent Air drives alongside its rivals
@@ -89,3 +90,4 @@ My disagreeable claim: the isolation-plus-oversight bundle Air sells is now tabl
 - https://blog.jetbrains.com/air/2026/03/air-launches-as-public-preview-a-new-wave-of-dev-tooling-built-on-26-years-of-experience/ - the March 2026 public-preview announcement by Nik Tkachev
 - https://hn.algolia.com/api/v1/search?query=%22JetBrains+Air%22&tags=story - the three HN stories and their thin footprint, queried 2026-09-18
 - https://hn.algolia.com/api/v1/items/46350939 - the Fleet-abandonment story (2025-12-22, 3 points, 1 comment)
+- 2026-09-27 - Linked the Agentic Development Environment Landscape tracker, the mid-2026 snapshot whose incumbent analysis is Air.

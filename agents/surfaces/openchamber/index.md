@@ -68,6 +68,7 @@ Not for anyone who wants a polished IDE experience or harness choice beyond Open
 
 ## See also
 
+- [The Agentic Development Environment Landscape](../../the-agentic-development-environment-landscape/index.md) - the landscape piece whose OpenCode-native section is this tool
 - [Agentic Coding Tools Landscape](../../agentic-coding-tools-landscape/index.md) - the surface layer this note belongs to
 - [Six Months with OpenChamber](../../../six-months-with-openchamber/index.md) - the owner's deep usage retrospective, including every friction named above
 - [Managing Many Concurrent LLM Agent Sessions](../../../managing-many-llm-agent-sessions/index.md) - the supervision problem OpenChamber exists for
@@ -80,3 +81,4 @@ Not for anyone who wants a polished IDE experience or harness choice beyond Open
 - https://github.com/openchamber/openchamber/releases/tag/v2.0.2 - the latest release (September 26, 2026); the v1 release line ended at v1.24.2 on September 18
 - https://docs.openchamber.dev/ - install and configuration documentation
 - https://news.ycombinator.com/item?id=49233448 - the August 2026 launch discussion
+- 2026-09-27 - Linked the Agentic Development Environment Landscape tracker, whose OpenCode-native section is OpenChamber.

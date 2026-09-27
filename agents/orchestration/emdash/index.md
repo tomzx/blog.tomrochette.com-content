@@ -73,6 +73,7 @@ My disagreeable claim: Emdash's SSH support matters more than any feature matrix
 
 ## See also
 
+- [The Agentic Development Environment Landscape](../../the-agentic-development-environment-landscape/index.md) - the mid-2026 landscape piece that named Emdash one of the open-source leaders
 - [Conductor](../conductor/index.md) - the closed-source funded counterpart to compare against
 - [Vibe Kanban](../vibe-kanban/index.md) - what happens to this category when the vendor exits
 - [Claude Squad](../claude-squad/index.md) - the minimal terminal version of the same pattern
@@ -85,3 +86,4 @@ My disagreeable claim: Emdash's SSH support matters more than any feature matrix
 - https://emdash.com/cloud - cloud workspaces positioning
 - https://news.ycombinator.com/item?id=47140322 - founders' launch thread: design, business model, skepticism
 - https://blog.cloudflare.com/emdash-wordpress/ - the unrelated Cloudflare EmDash name collision
+- 2026-09-27 - Linked the Agentic Development Environment Landscape tracker, the mid-2026 snapshot that named Emdash a leader.

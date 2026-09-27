@@ -77,6 +77,7 @@ Not for teams needing a vendor's support contract, or Mac-only shops happy payin
 
 ## See also
 
+- [The Agentic Development Environment Landscape](../../the-agentic-development-environment-landscape/index.md) - the mid-2026 landscape piece that named Paseo the privacy-first leader
 - [Orchestration Feature Matrix](../orchestration-feature-matrix/index.md) - the category comparison this note joins
 - [Conductor](../conductor/index.md) - the commercial macOS counterpart
 - [Vibe Kanban](../vibe-kanban/index.md) - the kanban-board alternative
@@ -91,3 +92,4 @@ Not for teams needing a vendor's support contract, or Mac-only shops happy payin
 - https://paseo.sh/hub - hosted Hub pricing, €15 per seat per month, free trial
 - https://news.ycombinator.com/item?id=48377250 - the launch thread with the solo-maintainer statement and the credit-pool admission
 - https://github.com/BloopAI/vibe-kanban - comparison data on the board alternative
+- 2026-09-27 - Linked the Agentic Development Environment Landscape tracker, the mid-2026 snapshot that named Paseo a leader.

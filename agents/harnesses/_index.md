@@ -29,6 +29,7 @@ The terminal and CLI agents that carry the model into your repository: the platf
 - [Junie](junie/index.md) - JetBrains' plan-first agent with BYOK, IDE-grade grounding, and a free on-device Local mode for Mac.
 - [Kilo Code](kilo-code/index.md) - the Cline-and-Roo feature-merge under MIT, subagents through cloud tasks bundled in, Anaconda's since July 2026.
 - [Kimi Code](kimi-code/index.md) - Moonshot AI's terminal agent tuned for its own challenger-priced models, subagents through ACP in one Node.js CLI.
+- [MiMo Code](mimo-code/index.md) - Xiaomi's MIT OpenCode fork, a terminal agent built around checkpointed memory and goal-verified long-horizon runs, priced on cheap MiMo tokens.
 - [OneCLI](onecli/index.md) - the YC S26 Apache-2.0 team harness where a credential gateway injects secrets per request, so agents never hold them.
 - [Open Interpreter](openinterpreter/index.md) - a 2026 Rust fork of Codex CLI emulating provider harnesses for cheap open-weight models like Kimi K3 and GLM.
 - [OpenCode](opencode/index.md) - the MIT, provider-neutral harness with the leanest measured token baseline.
@@ -73,3 +74,4 @@ Its members are compared on shared rows in the [Harness Feature Matrix](harness-
 - 2026-09-21 - Added ZCode.
 - 2026-09-25 - Added Unreal Agent.
 - 2026-09-27 - Added Open Interpreter.
+- 2026-09-27 - Added MiMo Code.

@@ -15,6 +15,7 @@ Editors and harnesses live in their own categories; this is where the token bill
 - [ChatGPT plans](chatgpt-plans/index.md) - OpenAI's subscription ladder from Go $8 to Pro 20x at $200, every tier carrying Codex.
 - [Chutes](chutes/index.md) - decentralized inference with pay-as-you-go plus $10/$20 subscriptions capped at 5x pay-as-you-go value.
 - [Claude plans](claude-plans/index.md) - Anthropic's Free/Pro/Max subscriptions, the only non-API way to run Claude Code, from $20 to $200 per month.
+- [Experiential](experiential/index.md) - a YC-backed Apache-2.0 gateway at zero markup that mines agent traces to train routers and, on enterprise, a model you own.
 - [GLM Coding Plan](glm-coding-plan/index.md) - Z.AI's flat monthly quota for the GLM line, from $18, restructured twice since launch.
 - [Google AI plans](google-ai-plans/index.md) - the Google Plus/Pro/Ultra ladder carrying Antigravity and Gemini CLI, with credits over rate limits.
 - [Kimi Code](kimi-code/index.md) - Moonshot's membership ladder for coding, $19 to $199 monthly with Code from the second tier.
@@ -52,3 +53,4 @@ Its members are compared on shared rows in the [Model Access Feature Matrix](mod
 - 2026-09-26 - Added SuperGrok.
 - 2026-09-27 - Added LiteLLM.
 - 2026-09-27 - Added Ollama.
+- 2026-09-27 - Added Experiential.

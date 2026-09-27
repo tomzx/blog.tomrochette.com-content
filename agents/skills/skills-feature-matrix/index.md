@@ -19,20 +19,20 @@ Each column links to the full research note; every cell traces to a source cited
 
 ## The matrix
 
-| Feature | [Agent Skills open standard](../agent-skills-open-standard/index.md) | [Agent-Native](../agent-native/index.md) | [Anthropic Agent Skills](../anthropic-agent-skills/index.md) | [OpenCode skills and plugins](../opencode-skills-and-plugins/index.md) | [SkillOpt](../skillopt/index.md) | [skills.sh](../skills-sh/index.md) |
-| --- | --- | --- | --- | --- | --- | --- |
-| Kind | open spec | curated skill pack and app framework | vendor format | harness mechanism | skill optimizer | registry and CLI |
-| Steward | public GitHub org | Builder.io | Anthropic | anomalyco project | Microsoft Research | Vercel labs |
-| Open source | ✓ spec and validator | ~ READMEs say MIT, but the framework repo's GitHub license is undetected and its package.json says ISC | ~ mostly, doc skills closed | ✓ MIT | ✓ MIT | ✓ CLI MIT |
-| Runtimes | ✓ dozens listed | ✓ .agents-path agents (Codex, Pi, Cursor, OpenCode, Copilot), Claude Code, Cowork | Claude chat, Code, API | OpenCode only | ~ any SKILL.md harness, shells for 5 | ~ installs into 79 |
-| Frontmatter beyond spec | ✗ six fields, by design | ~ spec fields only, plus managed AGENTS.md/CLAUDE.md instruction blocks | ✓ ~20 in Claude Code | ✗ unknown fields ignored | ~ standard-compatible output | ~ indexes .claude-plugin |
-| Permissions or sandboxing | ~ harness-defined | ~ readback-verify and stop-before-fallback conventions, no gating | ~ API container | ✓ allow/deny/ask per skill | ✗ evaluation-gated, not sandboxed | ✗ audit columns only |
-| Distribution and install | git, no registry needed | ✓ npx installer, plugin marketplaces, git, skills CLI plain-copy | repo, upload, Skills API | git; npm for plugins | PyPI plus generated best_skill.md | ✓ npx into 79 agents |
-| Telemetry or ranking | ✗ out of scope | ✗ none found first-party | ~ curated partner directory | ✗ none first-party | ✗ none first-party | ✓ install counts, opt-out |
-| Versioning and pinning | ✗ none | ~ npm dist-tags and git refs, no lockfile | ~ Skills API versions | ✗ none | ✗ none | ~ git refs, no lockfile |
-| Explicit invocation | ~ explicit or implicit | ✓ slash commands for every skill | ~ slash commands in Code | ✗ model-judgment only | ~ trained skill invokes like any skill | n/a (registry) |
-| Vendor neutrality | ~ Anthropic-origin, public | ✗ pack runs anywhere, gravity is Builder.io's stack | ✗ Claude-coupled | ✗ OpenCode-only, portable files | ✓ model-agnostic | ~ all vendors, one ranker |
-| Cost | free | free (hosted surfaces free as of the date) | ~ included on plans, tokens on API | free (pay tokens) | free, training tokens on your bill | free |
+| Feature | [Agent Skills open standard](../agent-skills-open-standard/index.md) | [Agent-Native](../agent-native/index.md) | [Anthropic Agent Skills](../anthropic-agent-skills/index.md) | [Headcount](../headcount/index.md) | [OpenCode skills and plugins](../opencode-skills-and-plugins/index.md) | [Sepia](../sepia/index.md) | [SkillOpt](../skillopt/index.md) | [skills.sh](../skills-sh/index.md) |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Kind | open spec | curated skill pack and app framework | vendor format | departmental skills org chart | harness mechanism | research-grounded de-AI writing skill | skill optimizer | registry and CLI |
+| Steward | public GitHub org | Builder.io | Anthropic | solo author (Chris Brock) | anomalyco project | solo author (Nanako0129) | Microsoft Research | Vercel labs |
+| Open source | ✓ spec and validator | ~ READMEs say MIT, but the framework repo's GitHub license is undetected and its package.json says ISC | ~ mostly, doc skills closed | ✓ MIT | ✓ MIT | ✓ MIT | ✓ MIT | ✓ CLI MIT |
+| Runtimes | ✓ dozens listed | ✓ .agents-path agents (Codex, Pi, Cursor, OpenCode, Copilot), Claude Code, Cowork | Claude chat, Code, API | ✓ Claude Code and ChatGPT | OpenCode only | ✓ portable across 77+ agents | ~ any SKILL.md harness, shells for 5 | ~ installs into 79 |
+| Frontmatter beyond spec | ✗ six fields, by design | ~ spec fields only, plus managed AGENTS.md/CLAUDE.md instruction blocks | ✓ ~20 in Claude Code | ~ department ownership and blocking gates per skill | ✗ unknown fields ignored | ? standard fields observed | ~ standard-compatible output | ~ indexes .claude-plugin |
+| Permissions or sandboxing | ~ harness-defined | ~ readback-verify and stop-before-fallback conventions, no gating | ~ API container | ✓ reviewer-class departments can block writes | ✓ allow/deny/ask per skill | ? none documented | ✗ evaluation-gated, not sandboxed | ✗ audit columns only |
+| Distribution and install | git, no registry needed | ✓ npx installer, plugin marketplaces, git, skills CLI plain-copy | repo, upload, Skills API | ~ plugin marketplace install | git; npm for plugins | git install | PyPI plus generated best_skill.md | ✓ npx into 79 agents |
+| Telemetry or ranking | ✗ out of scope | ✗ none found first-party | ~ curated partner directory | ✗ none found | ✗ none first-party | ✗ none found | ✗ none first-party | ✓ install counts, opt-out |
+| Versioning and pinning | ✗ none | ~ npm dist-tags and git refs, no lockfile | ~ Skills API versions | ~ git refs | ✗ none | ~ git refs | ✗ none | ~ git refs, no lockfile |
+| Explicit invocation | ~ explicit or implicit | ✓ slash commands for every skill | ~ slash commands in Code | ~ department-routed | ✗ model-judgment only | ~ invoked as a writing-repair pass | ~ trained skill invokes like any skill | n/a (registry) |
+| Vendor neutrality | ~ Anthropic-origin, public | ✗ pack runs anywhere, gravity is Builder.io's stack | ✗ Claude-coupled | ~ Claude Code and ChatGPT first | ✗ OpenCode-only, portable files | ✓ portable, agent-agnostic | ✓ model-agnostic | ~ all vendors, one ranker |
+| Cost | free | free (hosted surfaces free as of the date) | ~ included on plans, tokens on API | free | free (pay tokens) | free (maintainer costs on Patreon) | free, training tokens on your bill | free |
 
 ## Reading the matrix
 

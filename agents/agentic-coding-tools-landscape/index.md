@@ -1,7 +1,7 @@
 ---
 title: "Agentic Coding Tools Landscape"
 created: 2026-08-22
-updated: 2026-09-25
+updated: 2026-09-27
 status: finished
 tags: [ai, llm, coding-agents, developer-tools, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash]
 readability: 3
@@ -141,6 +141,7 @@ A harness that adopts the open conventions is making a promise about your exit; 
 
 ## See also
 
+- [The Agentic Development Environment Landscape](../the-agentic-development-environment-landscape/index.md) - the July ADE control-room snapshot, which moved into this section the same day
 - [Managing Many Concurrent LLM Agent Sessions](../../managing-many-llm-agent-sessions/index.md) - the supervision bottleneck that the orchestration layer exists to absorb
 - [Rethinking Code Review in the Age of LLMs](../../rethinking-code-review-in-the-age-of-llms/index.md) - the review surface every layer in this map has to rebuild
 - [Scaling the LLM Agent Company](../../scaling-the-llm-agent-company/index.md) - where multi-agent orchestration points once it leaves your laptop
@@ -153,3 +154,4 @@ A harness that adopts the open conventions is making a promise about your exit; 
 - [OpenCode documentation](https://opencode.ai/docs/) - the provider-agnostic open-source harness, with [ACP support](https://opencode.ai/docs/acp/) documented separately
 - [Agent Client Protocol](https://agentclientprotocol.com/) - the editor-agent interop standard from JetBrains and Zed
 - [awesome-agent-orchestrators](https://github.com/andyrewlee/awesome-agent-orchestrators) - the maintained map of the orchestration long tail
+- 2026-09-27 - Linked the Agentic Development Environment Landscape tracker, which moved into the section the same day.

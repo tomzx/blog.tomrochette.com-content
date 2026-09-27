@@ -78,6 +78,7 @@ Not for Windows or Linux-primary teams, and not for anyone who needs coordinated
 
 ## See also
 
+- [The Agentic Development Environment Landscape](../../the-agentic-development-environment-landscape/index.md) - the mid-2026 landscape piece that named Superset a category leader
 - [Orchestration Feature Matrix](../orchestration-feature-matrix/index.md) - the category comparison this note joins
 - [Paseo](../paseo/index.md) - the open-source, mobile-first counterpart
 - [Conductor](../conductor/index.md) - the SDK-based commercial incumbent
@@ -91,3 +92,4 @@ Not for Windows or Linux-primary teams, and not for anyone who needs coordinated
 - https://superset.sh/team - founders, batch, and the self-reported raise and adoption
 - https://docs.superset.sh - workspaces, CLI, SDK, MCP server, automations
 - https://news.ycombinator.com/item?id=48236770 - the launch thread with stability complaints and the Conductor-metering note
+- 2026-09-27 - Linked the Agentic Development Environment Landscape tracker, the mid-2026 snapshot that named Superset a leader.

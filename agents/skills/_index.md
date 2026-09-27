@@ -13,7 +13,9 @@ The reusable capability format and its ecosystem: the open spec, the vendor impl
 - [Agent Skills open standard](agent-skills-open-standard/index.md) - the agentskills.io spec for SKILL.md capability directories.
 - [Agent-Native](agent-native/index.md) - Builder.io's curated pack of fifteen skills plus the app framework they bridge to, the discipline skills portable to any harness.
 - [Anthropic Agent Skills](anthropic-agent-skills/index.md) - Anthropic's SKILL.md folder format for reusable agent capabilities.
+- [Headcount](headcount/index.md) - Chris Brock's 16-department plugin marketplace for Claude Code and ChatGPT, skills owned by write surface and reviewer-class departments that can block.
 - [OpenCode skills and plugins](opencode-skills-and-plugins/index.md) - OpenCode's two extension mechanisms: skills for the model, plugins for the harness.
+- [Sepia](sepia/index.md) - Nanako0129's research-grounded de-AI writing skill, repairing narrative structure instead of word choice, portable across 77+ agents.
 - [SkillOpt](skillopt/index.md) - Microsoft Research's optimizer that trains skill markdown against held-out validation, skills as trainable parameters.
 - [skills.sh](skills-sh/index.md) - Vercel's directory and leaderboard for the open skills ecosystem.
 
@@ -27,3 +29,5 @@ Its members are compared on shared rows in the [Skills Feature Matrix](skills-fe
 - 2026-08-24 - Added skills.sh.
 - 2026-08-30 - Added SkillOpt.
 - 2026-09-13 - Added Agent-Native.
+- 2026-09-27 - Added Headcount.
+- 2026-09-27 - Added Sepia.
