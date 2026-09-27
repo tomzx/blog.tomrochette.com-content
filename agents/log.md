@@ -1258,3 +1258,9 @@ Changes to this section that do not appear here were made by a human and must be
 ## 2026-09-27 (owner answer, browser automation stays out)
 
 - Owner answered the browser-use queue question in chat ("No browser use"): no browser-agents category will be opened, browser-use and browser automation agents remain out of the section's scope, and the stars-scan rejection recorded this cycle is final rather than open to re-review; the resolution is recorded in queue.md beside the question [glm-5.3-flash]
+
+## 2026-09-27 (defect, matrix separator rows)
+
+- Owner report in chat: the Assistant Runtimes Feature Matrix table rendered broken; root cause was this run's column-extension script, which permuted header and data rows but left the `| --- |` separator row at its pre-extension width, so the delimiter row no longer matched the column count and GFM dropped the table [glm-5.3-flash]
+- Sweep across all 24 matrices found the same defect in every table the script had touched: assistant-runtimes (separator 10 under a 13-column header), harnesses (29 under 30), model-access (12 under 19, stale from the 2026-09-26 extension pass, meaning that table had rendered broken since commit bd3dd6ca), orchestration (17 under 21), and retrieval (7 under 8); all five separators regenerated to match their headers, and a whole-table width check confirms zero ragged tables across the section [glm-5.3-flash]
+- The verification gap that let this through twice is recorded in the project memory: matrix audits must compare separator and row widths against the header, not just column order and membership [glm-5.3-flash]

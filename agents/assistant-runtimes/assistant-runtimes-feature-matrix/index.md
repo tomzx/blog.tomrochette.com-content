@@ -20,7 +20,7 @@ Each column links to the full research note; every cell below traces to a source
 ## The matrix
 
 | Feature | [AnythingLLM](../anything-llm/index.md) | [Eigent](../eigent/index.md) | [Hermes](../hermes/index.md) | [Nanobot](../nanobot/index.md) | [NanoClaw](../nanoclaw/index.md) | [Open WebUI](../open-webui/index.md) | [OpenClaw](../openclaw/index.md) | [OpenWork](../openwork/index.md) | [PicoClaw](../picoclaw/index.md) | [PrivateGPT](../private-gpt/index.md) | [QwenPaw](../qwenpaw/index.md) | [ZeroClaw](../zeroclaw/index.md) |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Runtime | Electron desktop plus multi-user Docker, Node | TypeScript Electron over Python (CAMEL) | Python (uv), single gateway | Python 3.11+ single core | TypeScript on Node | Python, Docker-first web UI | TypeScript on Node | TypeScript Electron over OpenCode | single Go binary | Python API server | Python on AgentScope 2.0 | single Rust binary |
 | License | ✓ MIT | ✓ Apache-2.0 | ✓ MIT | ✓ MIT | ✓ MIT | ~ custom Open WebUI License (branding clause; BSD-3 through v0.6.5) | ✓ MIT | ~ MIT core, EE source-available | ✓ MIT | ✓ Apache-2.0 | ✓ Apache-2.0 | ✓ MIT OR Apache-2.0 |
 | Born | 2023 (Show HN 2024-09-05) | 2025-07-29 | 2025-07-22 | 2026-02-01 | 2026-01-31 | 2023 (license change 2025-04-19) | 2025-11-24 | 2026-01-14 | 2026-02-04 | 2023 (1.0 on 2026-06-03) | 2026-02-24 | 2026-02-13 |

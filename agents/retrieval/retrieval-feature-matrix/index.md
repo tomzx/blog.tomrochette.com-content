@@ -20,7 +20,7 @@ Each column links to the full note; every cell traces to a source cited there or
 ## The matrix
 
 | Feature | [Chonkie](../chonkie/index.md) | [Docling](../docling/index.md) | [Knowhere](../knowhere/index.md) | [LangChain](../langchain/index.md) | [LlamaIndex](../llamaindex/index.md) | [Semantic code search](../semantic-code-search/index.md) | [Tree-sitter chunking](../tree-sitter-chunking/index.md) |
-| --- | --- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | --- | --- | --- |
 | Kind | chunking library | document parsing library (PDF, Office, audio, video to structured output) | hosted document-parsing pipeline plus OSS engine | agent framework | retrieval framework | shipped capability | parsing technique |
 | Open source license | ✓ MIT | ✓ MIT | ~ Apache-2.0 engine and self-hosted stack, hosted API proprietary | ✓ MIT | ✓ MIT | ~ tool-dependent | ✓ MIT parsers |
 | Primary language | Python, TypeScript port | Python | Python | Python | Python | ~ varies by tool | C11 core |
