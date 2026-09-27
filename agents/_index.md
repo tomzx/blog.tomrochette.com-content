@@ -37,10 +37,10 @@ The queue it works from is [the work queue](queue.md).
 Every research category's members compared on shared rows, plus the model providers compared as bundles and the model benchmarks compared as instruments.
 
 - [Assistant Runtimes Feature Matrix](assistant-runtimes/assistant-runtimes-feature-matrix/index.md) - OpenClaw, Hermes, the shrinking variants, the Python core, the two Cowork desktops, and the local-first platforms (Open WebUI, AnythingLLM, PrivateGPT), the trust ladder in one table, verified 2026-09-27.
-- [Automated Research Feature Matrix](automated-research/automated-research-feature-matrix/index.md) - the seven lab and product research loops divided on who runs the loop and who judges the output, Pion the newest, with the Lean-certificate column updates and linked headers, verified 2026-09-27.
+- [Automated Research Feature Matrix](automated-research/automated-research-feature-matrix/index.md) - the eight lab, product, and harness research loops divided on who runs the loop and who judges the output, Agon the newest, with the Lean-certificate column updates and linked headers, verified 2026-09-27.
 - [Code Review Feature Matrix](code-review/code-review-feature-matrix/index.md) - the eight AI reviewers divided on where your code runs, with both Kudelski exploit records named, verified 2026-09-27.
 - [Context Engines Feature Matrix](context-engines/context-engines-feature-matrix/index.md) - the eight context vendors and tools against delivery, deployment, and scale rows, Graft the newest, verified 2026-09-27.
-- [Control Planes Feature Matrix](control-planes/control-planes-feature-matrix/index.md) - governance, budgets, and multi-company rows that separate control planes from orchestration, verified 2026-09-27.
+- [Control Planes Feature Matrix](control-planes/control-planes-feature-matrix/index.md) - governance, budgets, approvals, trust, settlement, and audit rows across eight members, from Paperclip's agent company to Veto's pre-execution gate, verified 2026-09-27.
 - [Evaluation and Review Feature Matrix](evaluation-review/evaluation-review-feature-matrix/index.md) - the seven quality-control columns divided on who judges, the agent, the metric suite, the benchmark, the human, or the academic study, HarnessTax the newest, verified 2026-09-27.
 - [Executions Feature Matrix](executions/executions-feature-matrix/index.md) - subscription features versus self-hostable infrastructure across trigger and execution rows, verified 2026-09-27.
 - [Harness Feature Matrix](harnesses/harness-feature-matrix/index.md) - the thirty harnesses against eleven capability rows, MiMo Code the newest, verified 2026-09-27.
@@ -49,12 +49,12 @@ Every research category's members compared on shared rows, plus the model provid
 - [Model Access Feature Matrix](model-access/model-access-feature-matrix/index.md) - the nineteen model access providers (gateways, vendor plans including the Claude, ChatGPT, Google, and Grok subscriptions, flat subscriptions, and the self-hosted LiteLLM, Ollama, and Experiential layer) against billing, entry price, quota form, and price-trajectory rows, created 2026-09-26.
 - [Model Benchmark Matrix](model-benchmark-matrix/index.md) - the thirty-two model benchmarks grouped by the decision they inform, each with a one-sentence summary of what it evaluates, ProgramBench and HLE-Diamond the newest, verified 2026-09-27.
 - [Model Provider Feature Matrix](model-provider-feature-matrix/index.md) - the seven model providers compared as bundles on price tiers, cache and batch policy, context flatness, weights, and subscription transfer, verified 2026-09-27.
-- [Orchestration Feature Matrix](orchestration/orchestration-feature-matrix/index.md) - the twenty members: worktree managers, dashboards, control planes, mobile clients, and the multi-agent frameworks (AutoGPT, AutoGen, LobeHub, MetaGPT) the stars scan brought in, plus one agent town now shut down, one deprecated and one orphaned among them, verified 2026-09-27.
+- [Orchestration Feature Matrix](orchestration/orchestration-feature-matrix/index.md) - the thirty-one members: worktree managers, dashboards, mission controls, boards, CLI workflow runners, mobile clients, and the multi-agent frameworks (AutoGPT, AutoGen, LobeHub, MetaGPT) the stars scan brought in, plus one agent town now shut down, one deprecated and one orphaned among them, verified 2026-09-27.
 - [People and Publications Feature Matrix](people-and-publications/people-and-publications-feature-matrix/index.md) - the thirty voices compared on focus, cadence, and reader slot, the harness builders and video band among them, verified 2026-09-27.
 - [Protocols Feature Matrix](protocols/protocols-feature-matrix/index.md) - the six protocols stack rather than compete, AG-UI the newest, and adoption falls with every step up the stack, verified 2026-09-27.
 - [Retrieval Feature Matrix](retrieval/retrieval-feature-matrix/index.md) - the hosted parsing pipeline, the chunking library, the document parser, the two frameworks, and two patterns compared, Docling the newest, with the harness-native counterargument engaged, verified 2026-09-27.
 - [Sandboxing Feature Matrix](sandboxing/sandboxing-feature-matrix/index.md) - the eight isolation layers divided into boundaries, an orchestrator, a framework, and provisioning, CubeSandbox and OpenSandbox the newest, OpenSandbox now at its first stable release, verified 2026-09-27.
-- [Session Analytics Feature Matrix](session-analytics/session-analytics-feature-matrix/index.md) - the archive, the attribution CLI, the semantic-search resumer, and the live dashboard that filled the observation gap, Memex the newest, with ctx pro withdrawn, verified 2026-09-27.
+- [Session Analytics Feature Matrix](session-analytics/session-analytics-feature-matrix/index.md) - the archive, the attribution CLI, the semantic-search resumer, the live dashboard that filled the observation gap, the hosted OpenClaw tracer, and the agent-readable analytics layer, seven columns verified 2026-09-27.
 - [Skills Feature Matrix](skills/skills-feature-matrix/index.md) - the spec, the curated packs (Agent-Native, Headcount), the vendor format, the harness mechanism, the optimizer, the registry, and the de-AI writing skill against runtime and stewardship rows, Sepia the newest, verified 2026-09-27.
 - [Software Factory Feature Matrix](software-factory/software-factory-feature-matrix/index.md) - the stamped Python loop, Fluent's learning loop, HAR's fleet harness, Machinist's controlled entrypoint, and Ouroboros' hidden grading on the who-owns-the-loop axis, verified 2026-09-27.
 - [Spec Driven Development Feature Matrix](spec-driven-development/spec-driven-development-feature-matrix/index.md) - the five spec-first tools across the ownership and ceremony-sizing axes, GSD the newest, Spec Kit at v1.0.12 and about 139k stars, verified 2026-09-27.
@@ -69,22 +69,22 @@ All categories are refreshed in parallel every run; dead tools keep their entrie
 Each category keeps its own index page below, listing its entries alphabetically with one-line summaries and the date each was added.
 
 - [Assistant runtimes](assistant-runtimes/_index.md) - personal assistant runtimes outside the editor, and the local-first platforms they run on.
-- [Automated research](automated-research/_index.md) - where the research loop runs autonomously, from the labs' science programs to productized research agents and formal-proof engines.
+- [Automated research](automated-research/_index.md) - where the research loop runs autonomously, from the labs' science programs to productized research agents, formal-proof engines, and open harnesses.
 - [Code review](code-review/_index.md) - the machines that judge pull requests.
 - [Context engines](context-engines/_index.md) - the engines, packers, and filters deciding what enters the context window.
-- [Control planes](control-planes/_index.md) - governance, budgets, and policy above the harness.
+- [Control planes](control-planes/_index.md) - governance, budgets, approvals, trust, settlement, and audit above the harness.
 - [Evaluation and review](evaluation-review/_index.md) - the gates, dashboards, and studies judging agent output and the harnesses themselves.
 - [Executions](executions/_index.md) - event-driven execution: hooks, schedules, and automation canvases.
 - [Harnesses](harnesses/_index.md) - the terminal and CLI agents that carry the model into your repo.
 - [Hybrid execution](hybrid-execution/_index.md) - small fast models for typed decisions, and the benchmark that measures them.
 - [Memory](memory/_index.md) - persistent memory, from file conventions to graph and temporal stores.
 - [Model access](model-access/_index.md) - the gateways, coding plans, and flat subscriptions that sell access to models.
-- [Orchestration](orchestration/_index.md) - worktree managers, kanbans, dashboards, and multi-agent frameworks for running many agents at once.
+- [Orchestration](orchestration/_index.md) - worktree managers, kanbans, dashboards, boards, CLI workflow runners, and multi-agent frameworks for running many agents at once.
 - [People and publications](people-and-publications/_index.md) - the voices steering the domain, and the lens each brings.
 - [Protocols](protocols/_index.md) - the open standards stacking agents, editors, tools, and frontends together.
 - [Retrieval](retrieval/_index.md) - chunking, parsing, and the frameworks feeding agents the right slices.
 - [Sandboxing](sandboxing/_index.md) - isolation layers from the workstation to the cluster.
-- [Session analytics](session-analytics/_index.md) - turning agent session logs into searchable history and cost reports.
+- [Session analytics](session-analytics/_index.md) - turning agent session logs into searchable history, cost and latency audits, and live views.
 - [Skills](skills/_index.md) - the reusable capability format, from spec to registries.
 - [Software factory](software-factory/_index.md) - end-to-end factories owning the loop from spec to verified code.
 - [Spec-driven development](spec-driven-development/_index.md) - specification-first workflows, from brownfield toolkits to platform bets.

@@ -1,30 +1,30 @@
 ---
 title: Automated Research Feature Matrix
 created: 2026-09-13
-updated: 2026-09-25
+updated: 2026-09-27
 status: finished
-tags: [agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, feature-matrix, mathematics]
+tags: [agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=deepseek-v4.1-flash, automated-research, feature-matrix, mathematics]
 readability: 3
 audience_notes: >
   Engineers comparing the automated research systems labs and vendors actually run, on the axes that decide whether to trust the output.
   Assumes you have read at least one member note in this category.
 ---
 
-**Seven loops automate research today, and the row that separates them is not capability but judging: everything with a Lean kernel or an official grader behind it produces checkable artifacts, everything without one produces prose, and the newest column is the outlier judged by a bank account.**
+**Eight loops automate research today, and the row that separates them is not capability but judging: everything with a Lean kernel or an official grader behind it produces checkable artifacts, everything without one produces prose or artifacts an adversarial critic and a human must accept, and the newest columns split between a bank account and a producer-critic pair.**
 Every cell traces to its member note and that note's fetched references.
 
 ## The matrix
 
-| Row | [AlphaProof](../alphaproof/index.md) | [Anthropic Claude mathematical research](../anthropic-claude-math/index.md) | [Harmonic Aristotle](../harmonic-aristotle/index.md) | [Math Inc. Gauss](../math-inc-gauss/index.md) | [OpenAI Deep Research](../openai-deep-research/index.md) | [OpenAI for Science](../openai-for-science/index.md) | [Pion](../pion/index.md) |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| Operator | Google DeepMind | Anthropic | Harmonic | Math Inc. (DARPA expMath-supported) | OpenAI (product) | OpenAI (lab program) | Andon Labs (YC-backed) |
-| The loop produces | Competition-grade proofs and verified reasoning training | New theorems and formalized proofs | Machine-checked proofs of stated problems | Lean formalizations at record scale | Cited web-research reports | Benchmark firsts and claimed solutions, published with Lean artifacts | Real revenue-and-loss data from agents running actual businesses continuously |
-| Human input in the loop | 2024: manual Lean translation; 2025: none, end to end | One prompter, expert review after | A problem statement | Blueprints and scaffolding, review of key lemmas | A question | Case-study curation; disputed in the math claims | High-level direction only, through the Andonos managing agent |
-| Who judges | Lean kernel plus official IMO graders | Lean comparator plus named human experts | The Lean kernel | Lean comparator, specification-based | No machine judge; the human reads | Lean kernel on the published formalization; human acceptance and credit still in dispute | No machine judge; the bank account plus Andon's own monitoring |
-| Lean formal verification | 2024 yes, 2025 natural language | Yes (zeta and FLT artifacts) | Yes | Yes | No | Yes since 2026-09-08 (Lean 4 artifacts published; the statement-to-Clay fit is still being audited) | No |
-| Surface today | Research system; Deep Think rolling out to AI Ultra | Unreleased models; artifacts on GitHub | Free web agent with login | OpenGauss open source; Gauss in beta | ChatGPT plans | Subscriptions and academic credits | Proprietary research preview with waitlist, no repo |
-| Pricing as of 2026-09-18 | Bundled in the Ultra subscription | Free artifacts, internal compute | Free; $1,000,000 grant program | OpenGauss free; about $25 per benchmark solve | Plan quotas; Pro at $200/month | Program-level; GPT-5 Pro at $200/month in case studies | ? none published; seed tokens funded, planned revenue share |
-| Millennium-problem engagement | None claimed; IMO as the public proxy | Attempted the Riemann hypothesis, failed productively (41.6 to 67.2 percent zero bound) | None public | Strong PNT as the gateway toward the Riemann hypothesis | None | Navier-Stokes claimed with a Lean certificate, credit disputed, mathematical acceptance pending | None; the eval lineage is Vending-Bench, not mathematics |
+| Row | [Agon](../agon/index.md) | [AlphaProof](../alphaproof/index.md) | [Anthropic Claude mathematical research](../anthropic-claude-math/index.md) | [Harmonic Aristotle](../harmonic-aristotle/index.md) | [Math Inc. Gauss](../math-inc-gauss/index.md) | [OpenAI Deep Research](../openai-deep-research/index.md) | [OpenAI for Science](../openai-for-science/index.md) | [Pion](../pion/index.md) |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Operator | AutoResearch-Factory (University of Maryland and collaborators) | Google DeepMind | Anthropic | Harmonic | Math Inc. (DARPA expMath-supported) | OpenAI (product) | OpenAI (lab program) | Andon Labs (YC-backed) |
+| The loop produces | Reviewed ideas, proposals, experiment workspaces, and paper drafts from a one-line topic | Competition-grade proofs and verified reasoning training | New theorems and formalized proofs | Machine-checked proofs of stated problems | Lean formalizations at record scale | Cited web-research reports | Benchmark firsts and claimed solutions, published with Lean artifacts | Real revenue-and-loss data from agents running actual businesses continuously |
+| Human input in the loop | Topic and standards; built to run unattended for hours | 2024: manual Lean translation; 2025: none, end to end | One prompter, expert review after | A problem statement | Blueprints and scaffolding, review of key lemmas | A question | Case-study curation; disputed in the math claims | High-level direction only, through the Andonos managing agent |
+| Who judges | Independent producer-critic agent loops on fresh contexts, plus the human for invisible failures | Lean kernel plus official IMO graders | Lean comparator plus named human experts | The Lean kernel | Lean comparator, specification-based | No machine judge; the human reads | Lean kernel on the published formalization; human acceptance and credit still in dispute | No machine judge; the bank account plus Andon's own monitoring |
+| Lean formal verification | No | 2024 yes, 2025 natural language | Yes (zeta and FLT artifacts) | Yes | Yes | No | Yes since 2026-09-08 (Lean 4 artifacts published; the statement-to-Clay fit is still being audited) | No |
+| Surface today | MIT Claude Code plugin run from a separate artifacts workspace | Research system; Deep Think rolling out to AI Ultra | Unreleased models; artifacts on GitHub | Free web agent with login | OpenGauss open source; Gauss in beta | ChatGPT plans | Subscriptions and academic credits | Proprietary research preview with waitlist, no repo |
+| Pricing as of 2026-09-18 | Free and MIT, no paid tier | Bundled in the Ultra subscription | Free artifacts, internal compute | Free; $1,000,000 grant program | OpenGauss free; about $25 per benchmark solve | Plan quotas; Pro at $200/month | Program-level; GPT-5 Pro at $200/month in case studies | ? none published; seed tokens funded, planned revenue share |
+| Millennium-problem engagement | None claimed; mathematics is one of several domains, not the focus | None claimed; IMO as the public proxy | Attempted the Riemann hypothesis, failed productively (41.6 to 67.2 percent zero bound) | None public | Strong PNT as the gateway toward the Riemann hypothesis | None | Navier-Stokes claimed with a Lean certificate, credit disputed, mathematical acceptance pending | None; the eval lineage is Vending-Bench, not mathematics |
 
 ## How to read it
 
@@ -33,6 +33,7 @@ AlphaProof's 2024 result and Math Inc.'s formalizations carry kernel-level guara
 Aristotle's headline claims are real where Lean checked them and contested where only the vendor graded them.
 OpenAI's two entries are prose-only loops: Deep Research cites, the science program claims, and neither has a machine judge.
 Pion is the first proprietary column and the only one whose output is neither artifact nor prose but money: its agents run real businesses, its judge is a bank account plus the operator's own monitoring, and its launch thread's contradiction (the operator calling autonomous resource acquisition the most troubling capability while releasing exactly that) is recorded in its note.
+Agon is the first column whose judge is a critic agent on a fresh context rather than a kernel, a grader, or a full-time operator, and its paper's own taxonomy names the failure classes that oracle cannot see, which makes it the cheapest loop to run and the least verified.
 The Millennium column is uniformly no: nothing here has solved one, the closest engagement is a failed-but-productive Riemann attempt and a disputed Navier-Stokes claim, and FrontierMath's problems are explicitly built below Millennium scale.
 
 ## Changes
@@ -40,6 +41,7 @@ The Millennium column is uniformly no: nothing here has solved one, the closest 
 - 2026-09-13 - Created in the same run the Automated research category was seeded, with six columns.
 - 2026-09-16 - Extended from six to seven columns with Pion (Andon Labs), appended alphabetically after OpenAI for Science, with proprietary and no-repo cells marked as such and pricing marked unverified pending the revenue-share model.
 - 2026-09-25 - Updated the OpenAI for Science column for the published Lean certificates (Navier-Stokes claim now machine-checkable, acceptance and credit still pending), removed the verification preamble, linked the header row, and normalized the separator row.
+- 2026-09-27 - Extended from seven to eight columns with Agon, inserted first alphabetically, with the judging prose and the failure-taxonomy boundary updated.
 
 ## See also
 

@@ -10,6 +10,7 @@ readability: 3
 
 Where the research loop itself runs autonomously: the labs' science programs, the productized research agent, and the formal-proof engines pointed at the hardest open problems.
 
+- [Agon](agon/index.md) - the MIT Claude Code plugin running adversarial producer-critic factories from a one-line topic to experiments and a paper draft, with a candid failure-mode taxonomy.
 - [AlphaProof](alphaproof/index.md) - DeepMind's Lean reinforcement-learning solver, from IMO silver in 2024 to officially graded IMO gold via Deep Think in 2025.
 - [Anthropic Claude mathematical research](anthropic-claude-math/index.md) - the Claude Code subagent loop that raised the zeta zero bound to 67.2 percent and formalized Fermat's Last Theorem in 11 days.
 - [Harmonic Aristotle](harmonic-aristotle/index.md) - the free agentic theorem prover with a Lean-checked Erdős result, now aimed at software correctness, judged and contested on FormalQualBench.
@@ -29,3 +30,4 @@ Its members are compared on shared rows in the [Automated Research Feature Matri
 - 2026-09-13 - Added OpenAI Deep Research.
 - 2026-09-13 - Added OpenAI for Science.
 - 2026-09-16 - Added Pion.
+- 2026-09-27 - Added Agon.

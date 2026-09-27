@@ -3,50 +3,54 @@ title: "Session Analytics Feature Matrix"
 created: 2026-08-30
 updated: 2026-09-27
 status: finished
-tags: [agent-curated, fully-ai-generated, llm=glm-5.3-flash, comparison, session-analytics, observability, token-usage]
+tags: [agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=deepseek-v4.1-flash, comparison, session-analytics, observability, token-usage]
 readability: 3
 audience_notes: >
   Engineers choosing how to observe and audit their coding-agent sessions across tools.
   Assumes you know what a session transcript and token accounting are; each column links to a full note with sources.
 ---
 
-This matrix compares the four members of the Session analytics category: tools that turn what your coding agents record (or are recording right now) into live views, searchable history, cost reports, and audits.
-The category now covers both halves of the job: agents-observe, the live hook-fed dashboard, agentsview, the broad retrospective archive, ctx, the search-and-attribution CLI, and Memex, the search-and-resume TUI.
+This matrix compares the seven members of the Session analytics category: tools that turn what your coding agents record (or are recording right now) into live views, searchable history, cost reports, and audits, plus one that borrows the same agent-readable posture for product analytics.
+The category now spans three postures: the local retrospective archive (agentsview, ctx, Memex, AgentTrace), the live view (agents-observe, ClawTrace, and the real-time half of Agent Analytics), and the edge case, Agent Analytics, which measures your product's users rather than your agents.
 
-**The category's founding question, retrospective archive versus live observation, now has both answers plus a closing move: agentsview indexes what every agent already did and cost across 60-plus formats, ctx answers where did this line of code come from, agents-observe answers what is my agent doing right now (though only for Claude Code and Codex), and Memex answers where did I already do this, then drops you back into the session that did it.**
+**The category's founding question, retrospective archive versus live observation, now has both answers several times over: agentsview indexes what every agent already did and cost across 60-plus formats, ctx answers where did this line of code come from, AgentTrace answers what did this run cost and why was it slow, agents-observe answers what is my agent doing right now (Claude Code and Codex only), ClawTrace answers the same question for OpenClaw by uploading the run, Memex answers where did I already do this and drops you back into the session, and Agent Analytics answers a different question entirely, how are my product's users behaving, with the same agent-readable stance.**
 
 Legend: ✓ supported, ✗ not supported, ~ partial or conditional, ? not verified.
 Each column links to the full research note; every cell traces to a source cited there or in the references.
 
 ## The matrix
 
-| Feature | [agents-observe](../agents-observe/index.md) | [agentsview](../agentsview/index.md) | [ctx](../ctx/index.md) | [Memex](../memex/index.md) |
-| --- | --- | --- | --- | --- |
-| Kind | real-time observability dashboard for live and replayed sessions | local session indexer, web UI + CLI + desktop | local session search CLI with built-in blame attribution | local session search CLI and TUI with resume-in-place and an MCP server |
-| Deployment | Claude Code plugin, hooks feeding a Dockerized local API server, dashboard on localhost:4981 | local daemon, Docker, optional PostgreSQL push for teams | single-binary CLI install, agent-callable skill | single-binary CLI install (brew, AUR, Nix, cargo-binstall), TUI, local web UI, native desktop apps, MCP server |
-| Open source | ✓ MIT | ✓ MIT | ✓ Apache-2.0, blame included since 2.0 | ✓ MIT |
-| Agents covered | ~ Claude Code and Codex, with the plugin install Claude Code-native | 60+ formats auto-discovered (Claude Code, Codex, Gemini CLI, Copilot, Cursor, Zed, OpenCode, and more) | ~ about 40 agent harnesses documented (Claude Code, Codex, Cursor, Pi, OpenCode, and more) | ~ 15 engines graded per capability (Claude Code, Codex, Cursor, OpenCode, Pi, GitHub Copilot CLI, Grok, Antigravity, and more), support uneven |
-| Token cost reporting | ✓ per-session token usage and cost breakdowns (since v0.9.7) | ✓ per-model pricing catalog, seconds over months of sessions | ✗ | ~ per-engine token usage, off by default |
-| Search | ✓ filtering and search across live and stored events | ✓ FTS5 full text, semantic search opt-in | ✓ cross-agent message and tool-call search, subagent and fork aware | ✓ BM25 default, optional local embeddings for semantic and hybrid queries, saved memories searchable, SSH federation |
-| Provenance | ✗ | ✗ | ✓ blame maps a line, file, commit, or PR to the session that produced it | ✗ |
-| Live observation | ✓ hook events stream to the dashboard over websockets as agents run | ✗ retrospective only, parses files already written | ✗ retrospective only | ✗ retrospective only |
-| Team features | ✗ single-user local setup | ✓ PostgreSQL push, machine-labeled sync, S3 roots, versioned exports | no team offering listed since the pro withdrawal | ✗ single-user, SSH federation to your own machines, object-storage sync announced |
-| Privacy posture | local-first, events stay in a local SQLite store behind a local Docker server | local-first, one anonymous ping by default, disableable | local-first, attribution refuses data not on the machine | local-first, no cloud service in the default path, embeddings run locally |
-| Pricing | free, MIT, no paid tiers published | free, MIT, no accounts | free, Apache-2.0, the former $20/month pro add-on withdrawn from the site | free, MIT, no paid tier published |
+| Feature | [Agent Analytics](../agent-analytics/index.md) | [agents-observe](../agents-observe/index.md) | [agentsview](../agentsview/index.md) | [AgentTrace](../agenttrace/index.md) | [ClawTrace](../clawtrace/index.md) | [ctx](../ctx/index.md) | [Memex](../memex/index.md) |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Kind | agent-readable web product analytics, tracker.js events served to agents through CLI, MCP, and API | real-time observability dashboard for live and replayed sessions | local session indexer, web UI + CLI + desktop | local-first TUI/CLI audit of coding-agent session history (cost, tokens, latency, failures, health) | hosted trace and cost-attribution platform for OpenClaw runs, with an AI analyst | local session search CLI with built-in blame attribution | local session search CLI and TUI with resume-in-place and an MCP server |
+| Deployment | self-hosted OSS server (Cloudflare Workers + D1, Docker/Kubernetes + SQLite, plain Node) or hosted cloud at app.agentanalytics.sh | Claude Code plugin, hooks feeding a Dockerized local API server, dashboard on localhost:4981 | local daemon, Docker, optional PostgreSQL push for teams | single Rust binary, TUI plus CLI reports, Homebrew/npm/winget/curl/cargo installs | OpenClaw plugin streaming to a hosted cloud pipeline (Azure Blob, Databricks, PuppyGraph, Vercel UI), no documented self-host path | single-binary CLI install, agent-callable skill | single-binary CLI install (brew, AUR, Nix, cargo-binstall), TUI, local web UI, native desktop apps, MCP server |
+| Open source | ~ README claims MIT, no LICENSE file on the default branch as of 2026-09-27, sibling repos are MIT | ✓ MIT | ✓ MIT | ✓ MIT | ~ Apache-2.0 repository, hosted cloud is the product and no self-host path is documented | ✓ Apache-2.0, blame included since 2.0 | ✓ MIT |
+| Agents covered | any agent that can run commands or call HTTP, with documented installs for Claude Code, Codex, Cursor, OpenClaw, Paperclip, Hermes, Instinct, and OpenWork | ~ Claude Code and Codex, with the plugin install Claude Code-native | 60+ formats auto-discovered (Claude Code, Codex, Gemini CLI, Copilot, Cursor, Zed, OpenCode, and more) | ~ about 15 named formats plus generic JSON/JSONL (Claude Code, Codex, Gemini CLI, Qwen Code, OpenCode, OpenClaw, Cursor exports, and more) | ~ OpenClaw only, through its eight-hook plugin | ~ about 40 agent harnesses documented (Claude Code, Codex, Cursor, Pi, OpenCode, and more) | ~ 15 engines graded per capability (Claude Code, Codex, Cursor, OpenCode, Pi, GitHub Copilot CLI, Grok, Antigravity, and more), support uneven |
+| Token cost reporting | ✗ product events, not agent token cost | ✓ per-session token usage and cost breakdowns (since v0.9.7) | ✓ per-model pricing catalog, seconds over months of sessions | ✓ per-session tokens and estimated USD cost across sources, with pricing overrides and confidence levels | ✓ per-step tokens and USD cost, 80+ models with cache-aware pricing | ✗ | ~ per-engine token usage, off by default |
+| Search | ~ flexible analytics queries (metrics, group_by, filters), funnels, paths, retention, not transcript search | ✓ filtering and search across live and stored events | ✓ FTS5 full text, semantic search opt-in | ✓ sort and filter sessions by cost, duration, health, failures, anomalies, model, source, or text | ~ trace tree, call graph, timeline browse, and natural-language Ask Tracy queries over the trace graph, not transcript search | ✓ cross-agent message and tool-call search, subagent and fork aware | ✓ BM25 default, optional local embeddings for semantic and hybrid queries, saved memories searchable, SSH federation |
+| Provenance | ✗ | ✗ | ✗ | ~ heuristic Git delivery correlation only, no line-level attribution | ✗ | ✓ blame maps a line, file, commit, or PR to the session that produced it | ✗ |
+| Live observation | ✓ real-time terminal dashboard across projects, plus opt-in web session replay | ✓ hook events stream to the dashboard over websockets as agents run | ✗ retrospective only, parses files already written | ✗ retrospective only, reads logs already written | ✓ runs stream to the hosted dashboard through the eight-hook plugin | ✗ retrospective only | ✗ retrospective only |
+| Team features | ~ multi-agent access and cross-project portfolios, no team roles or SSO documented | ✗ single-user local setup | ✓ PostgreSQL push, machine-labeled sync, S3 roots, versioned exports | ~ CI reports and shared baseline artifacts, no hosted team sync | ~ multi-tenant accounts (Tenant to Agent to Trace to Span) with referrals, no team roles documented | no team offering listed since the pro withdrawal | ✗ single-user, SSH federation to your own machines, object-storage sync announced |
+| Privacy posture | self-host keeps events in your D1 or SQLite, hosted cloud stores them in the vendor database, replay is opt-in and PII-masked | local-first, events stay in a local SQLite store behind a local Docker server | local-first, one anonymous ping by default, disableable | local-first, prompt and result bodies are not stored in tool steps, history of derived metrics is opt-in | hosted, trace payloads including LLM inputs and outputs are uploaded to the vendor's data lake | local-first, attribution refuses data not on the machine | local-first, no cloud service in the default path, embeddings run locally |
+| Pricing | free cloud tier (100k events/month, 2 projects), metered cloud at $1 per 10k events, self-host free | free, MIT, no paid tiers published | free, MIT, no accounts | free, MIT, no paid tiers published | consumption credits; 100 free, packages $10 to $400, storage 1.35 credits/MB/day | free, Apache-2.0, the former $20/month pro add-on withdrawn from the site | free, MIT, no paid tier published |
 
 ## Reading the matrix
 
-**The live-observation row is the row this matrix existed to name, and agents-observe now fills it**: hook events stream into its dashboard while the agents run, which neither retrospective tool can do, though the cell covers only Claude Code and Codex today, so the remaining empty cells belong to the harnesses it does not hook.
+**The live-observation row is the row this matrix existed to name, and it now has two hosted and local answers**: agents-observe streams hook events into its dashboard while the agents run, ClawTrace fills the same row for OpenClaw by uploading the run, and Agent Analytics offers a real-time terminal dashboard for its own product events, though the coding-agent cells still cover only Claude Code, Codex, and OpenClaw, so the remaining empty cells belong to the harnesses none of them hook.
 The second row worth reading is provenance: ctx's blame attribution is the only cell in the category that answers "which session wrote this", which agentsview deliberately leaves to cost and history questions.
 
 **Token cost reporting is the row that pays for the tool**: harness-native cost views reset and see only their own sessions, while a pre-indexed store answers multi-tool, multi-month questions in seconds.
 An earlier version of the agentsview docs benchmarked its reports at 84 to 223 times faster than ad-hoc parsing (calling that an upper bound); the current docs have dropped that benchmark entirely, so the row should be read as "fast because pre-indexed", with no vendor number left to lean on.
 The docs' token-usage page is back to documenting schema version 5 as of 2026-09-27, with no version 6 mention left anywhere on the docs site, so scripts consuming those reports should expect churn either way.
+AgentTrace adds a cost cell the archive tools do not, with explicit estimate labeling and pricing overrides, while ClawTrace adds per-step cost inside a hosted trace, which is more granular than anything local but only for OpenClaw.
 
 **Memex adds the closing move the other archive tools lack: resume-in-place, where finding a session and re-entering it are one action in the TUI, plus the category's only local semantic search (BM25 by default, optional local embeddings, so the headline requires opt-in setup).**
 Its 15-engine support table is graded per capability and unevenly at that (some engines have no resume at all, token counting is missing for at least one), and its launch footprint is as thin as ctx's was, so read the column as promising and unproven.
 
-**Breadth of coverage is agentsview's moat**: roughly 60 supported sources against ctx's 40, Memex's 15, and agents-observe's two, which matters because most practitioners now run two or three harnesses at once.
+**The three new columns split the category's remaining questions**: AgentTrace is the local cost, latency, and failure auditor that adds slow-run diagnosis the archive tools skip, ClawTrace is the hosted answer that trades privacy for full LLM payloads and an AI analyst, and Agent Analytics tests where the category's boundary sits by serving product analytics to agents instead of session data.
+
+**Breadth of coverage is agentsview's moat**: roughly 60 supported sources against ctx's 40, AgentTrace's 15, Memex's 15, and the two harnesses agents-observe covers or the one ClawTrace hooks, which matters because most practitioners now run two or three harnesses at once.
+Agent Analytics is agent-agnostic by design, since any agent that can call HTTP is a client.
 ctx's moat is different: agent-facing retrieval, where the consumer of the search is your next session rather than you.
 
 ## Choosing from the matrix
@@ -54,7 +58,10 @@ ctx's moat is different: agent-facing retrieval, where the consumer of the searc
 - Running three or more different coding agents and wanting one private history and cost view: agentsview.
 - Wanting your agents to recall why code exists, from the session that wrote it: ctx, with its self-reported numbers accepted.
 - Living in the terminal and wanting semantic recall plus one action back into the session: Memex, accepting a few hundred stars and thin verification.
-- Needing to see what an agent is doing right now: agents-observe, if your agents are Claude Code or Codex; otherwise a harness-native view is still the fallback.
+- Auditing what a run cost and why it was slow, locally and with CI gates: AgentTrace.
+- Running OpenClaw and wanting full-payload traces plus an AI analyst, hosted: ClawTrace, accepting that the traces leave your machine.
+- Instrumenting a product your agents are building and reading its traffic through an agent: Agent Analytics.
+- Needing to see what an agent is doing right now: agents-observe for Claude Code or Codex, or ClawTrace if you run OpenClaw and can upload the run; otherwise a harness-native view is still the fallback.
 - Single-agent users: your harness's built-in usage views are probably enough.
 
 ## Changes
@@ -71,6 +78,7 @@ ctx's moat is different: agent-facing retrieval, where the consumer of the searc
 - 2026-09-24 - Removed the verification preamble line on owner request.
 - 2026-09-25 - Retired the ctx pro cells: the Kind, Open source, Team features, and Pricing cells now describe blame as built in, after v2.0.0 shipped it inside the single open-source executable and the site dropped every paid-tier listing.
 - 2026-09-27 - Re-verified all four columns: repository counts refreshed (agents-observe 684, agentsview 6,001, ctx 1,135, Memex 231 stars), the reading prose's schema line revised after the agentsview docs returned to version 5, and the Memex star count in the choosing prose generalized; no table cells moved.
+- 2026-09-27 - Extended from four to seven columns with Agent Analytics, AgentTrace, and ClawTrace, re-sorted all columns alphabetically, updated the intro member count and framing, and extended the reading and choosing prose.
 
 ## See also
 
@@ -91,3 +99,10 @@ ctx's moat is different: agent-facing retrieval, where the consumer of the searc
 - https://news.ycombinator.com/item?id=47602986 - the agents-observe launch thread behind the live-observation claim's community context
 - https://github.com/nicosuave/memex - the Memex column: repository, surfaces, engine support table, and license
 - https://raw.githubusercontent.com/nicosuave/memex/main/README.md - the Memex column: BM25 and local-embedding search, resume-in-place, MCP server, and install paths
+- https://github.com/luoyuctl/agenttrace - the agenttrace column: repository, MIT license, and coverage
+- https://raw.githubusercontent.com/luoyuctl/agenttrace/master/README.md - the agenttrace column: source formats, governance reports, CI gates, and privacy posture
+- https://github.com/epsilla-cloud/clawtrace - the ClawTrace column: repository, Apache-2.0 license, and adoption numbers
+- https://raw.githubusercontent.com/epsilla-cloud/clawtrace/main/README.md - the ClawTrace column: eight hooks, cloud pipeline, per-step cost, and self-evolve skill
+- https://www.clawtrace.ai/docs/billing/credits - the ClawTrace column: credit packages and consumption rates
+- https://github.com/Agent-Analytics/agent-analytics - the Agent Analytics column: repository, self-host routes, and license status
+- https://agentanalytics.sh/ - the Agent Analytics column: tracker, access surfaces, and cloud pricing tiers

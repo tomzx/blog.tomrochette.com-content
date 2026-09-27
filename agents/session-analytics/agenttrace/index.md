@@ -1,0 +1,85 @@
+---
+title: AgentTrace
+created: 2026-09-27
+updated: 2026-09-27
+status: finished
+tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, session-analytics, cost-tracking, cli, tui, open-source]
+readability: 3
+audience_notes: >
+  Engineers running several coding agents who want a local, terminal-first audit of session cost, latency, failures, and health.
+  Assumes you know where harnesses store session logs and what token accounting is.
+---
+
+AgentTrace is an MIT-licensed local-first Rust TUI and CLI that reads the session logs your coding agents already wrote and reports their cost, tokens, latency, failures, and health.
+
+**AgentTrace's bet is the narrow one this category keeps proving out: the useful telemetry is already on disk, and the product is a fast local query over it, with governance reports and CI gates bolted on top.**
+
+## What it is
+
+One Rust binary gives both interfaces: run `agenttrace` with no action to open the TUI, or pass flags such as `--overview`, `--audit`, `--recommend`, `--mcp-governance`, `--context-trends`, and `--delivery-evidence` for CLI and JSON output.
+It parses about 15 named coding-agent formats (Claude Code, Codex CLI, Gemini CLI, Qwen Code, Cline, Aider, Cursor exports, Hermes Agent, OpenCode, OpenClaw, Pi, Oh My Pi, Kimi CLI, Copilot-style logs) plus generic JSON and JSONL traces.
+Install paths are Homebrew, npm, winget, curl, and cargo.
+Everything runs locally: no hosted backend is required, and tool steps keep metadata and duration without storing prompt, response, result, or tool-argument bodies.
+Reports render as JSON, Markdown, or self-contained HTML, and `--overview` can gate a CI job on session health, critical sessions, and tool-failure rate.
+Made by an independent developer (luoyuctl) under MIT.
+
+## Status
+
+Young and active: 137 stars, 9 forks, 7 open issues, created 2026-05-01, last pushed 2026-09-14, latest release v0.8.1 on 2026-09-06, as of 2026-09-27.
+It is effectively a one-person project: 413 of 415 commits come from the owner, and the next contributor has a single commit.
+The community footprint is nearly empty: a Hacker News search for the author returns nothing, and I found no Reddit discussion.
+**A pre-1.0 single-maintainer tool with serious packaging but no independent verification, so read its roadmap and issue tracker rather than its README for what actually ships.**
+
+## Strengths
+
+- Breadth of local parsing is unusually wide for its age: about 15 named harness formats plus generic JSON and JSONL behind one binary.
+- Slow-run diagnosis is the differentiator: it surfaces long gaps, hanging sessions, retry loops, slow tool calls, large parameters, and context pressure, which the cost-first tools in this category do not.
+- Governance reports are deliberate about evidence quality, labeling cost and delivery numbers as estimates or heuristics and reporting parse and pricing confidence instead of hiding gaps.
+- CI integration is first class: `--overview` exits with code 2 on a failed health, critical-session, or tool-failure gate, and it can keep JSON on stdout while writing a Markdown or HTML artifact.
+- Distribution punches above its size: Homebrew tap, npm, winget, curl, and cargo, with a documented parser contribution flow.
+
+## Cautions
+
+- Cost and delivery evidence is self-labeled as estimated: unknown models fall back to pricing, and the README says outright these are not provider billing or proof a commit reached main.
+- Pre-1.0 with a fast-moving report schema, so scripts consuming the governance JSON should expect churn.
+- One maintainer and no third-party benchmark or discussion, so reliability claims rest on the README, the CI workflow, and the maintainer's own tests.
+- It reads logs, so coverage is only as complete as each harness writes, and unsupported formats degrade to `Limited` capability levels rather than a full trace.
+- There is no live view and no provenance: it answers what a run cost and why it was slow after the fact, not what an agent is doing now or which session wrote a line.
+
+## Pricing
+
+Free and open source under MIT.
+No paid tiers are published, and everything runs locally with no hosted service.
+
+## Compared to
+
+- [agentsview](../agentsview/index.md): the broader archive with more than 60 formats and a web and desktop UI; AgentTrace is narrower but terminal-first and adds latency and anomaly diagnosis plus CI gates, so choose AgentTrace for slow-run triage and agentsview for cross-harness history at scale.
+- [agents-observe](../agents-observe/index.md): the live hook-fed dashboard for Claude Code and Codex; AgentTrace is retrospective, so they answer different moments.
+- [ctx](../ctx/index.md): the search-and-blame CLI; AgentTrace does not do provenance, and ctx does not do cost or latency, so a cost-conscious engineer may run both.
+
+## Bottom line
+
+**Recommended for terminal-first engineers running several harnesses who want a local audit of session cost, latency, and failures with CI gates, and who value a private, no-backend setup.**
+Not for live observation, transcript search, or line-level provenance.
+
+## Changes
+
+- 2026-09-27 - Created.
+
+## See also
+
+- [Session Analytics Feature Matrix](../session-analytics-feature-matrix/index.md) - the category comparison this note joins
+- [agentsview](../agentsview/index.md) - the wider local archive for cross-harness history and cost
+- [agents-observe](../agents-observe/index.md) - the live dashboard that answers the question AgentTrace answers only after the run
+- [ctx](../ctx/index.md) - the provenance sibling that maps code back to the session that wrote it
+
+## References
+
+- https://github.com/luoyuctl/agenttrace - the repository, MIT license, description, and topics
+- https://raw.githubusercontent.com/luoyuctl/agenttrace/master/README.md - the coverage list, governance flags, install paths, privacy posture, and report formats
+- https://raw.githubusercontent.com/luoyuctl/agenttrace/master/docs/guides/ci-integration.md - the CI gate flags, exit code 2, and report artifacts
+- https://raw.githubusercontent.com/luoyuctl/agenttrace/master/ROADMAP.md - the local-first scope and explicit non-goals
+- https://api.github.com/repos/luoyuctl/agenttrace - stars, forks, dates, and license as of 2026-09-27
+- https://api.github.com/repos/luoyuctl/agenttrace/releases - the v0.8.1 release date
+- https://registry.npmjs.org/@zack78/agenttrace - the npm package at 0.8.1
+- https://hn.algolia.com/api/v1/search?query=luoyuctl - the empty Hacker News footprint behind the thin-community claim
