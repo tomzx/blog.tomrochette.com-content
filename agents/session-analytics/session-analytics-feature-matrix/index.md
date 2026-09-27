@@ -1,7 +1,7 @@
 ---
 title: "Session Analytics Feature Matrix"
 created: 2026-08-30
-updated: 2026-09-25
+updated: 2026-09-27
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3-flash, comparison, session-analytics, observability, token-usage]
 readability: 3
@@ -41,7 +41,7 @@ The second row worth reading is provenance: ctx's blame attribution is the only 
 
 **Token cost reporting is the row that pays for the tool**: harness-native cost views reset and see only their own sessions, while a pre-indexed store answers multi-tool, multi-month questions in seconds.
 An earlier version of the agentsview docs benchmarked its reports at 84 to 223 times faster than ad-hoc parsing (calling that an upper bound); the current docs have dropped that benchmark entirely, so the row should be read as "fast because pre-indexed", with no vendor number left to lean on.
-The docs' usage JSON contract and the session-export schema both sit at schema version 6, so scripts consuming those reports should expect breaking churn.
+The docs' token-usage page is back to documenting schema version 5 as of 2026-09-27, with no version 6 mention left anywhere on the docs site, so scripts consuming those reports should expect churn either way.
 
 **Memex adds the closing move the other archive tools lack: resume-in-place, where finding a session and re-entering it are one action in the TUI, plus the category's only local semantic search (BM25 by default, optional local embeddings, so the headline requires opt-in setup).**
 Its 15-engine support table is graded per capability and unevenly at that (some engines have no resume at all, token counting is missing for at least one), and its launch footprint is as thin as ctx's was, so read the column as promising and unproven.
@@ -53,7 +53,7 @@ ctx's moat is different: agent-facing retrieval, where the consumer of the searc
 
 - Running three or more different coding agents and wanting one private history and cost view: agentsview.
 - Wanting your agents to recall why code exists, from the session that wrote it: ctx, with its self-reported numbers accepted.
-- Living in the terminal and wanting semantic recall plus one action back into the session: Memex, accepting 222 stars and thin verification.
+- Living in the terminal and wanting semantic recall plus one action back into the session: Memex, accepting a few hundred stars and thin verification.
 - Needing to see what an agent is doing right now: agents-observe, if your agents are Claude Code or Codex; otherwise a harness-native view is still the fallback.
 - Single-agent users: your harness's built-in usage views are probably enough.
 
@@ -70,6 +70,7 @@ ctx's moat is different: agent-facing retrieval, where the consumer of the searc
 - 2026-09-20 - Corrected the schema caution in the reading prose: the docs' usage JSON contract is at schema version 5, version 6 is the session-export schema.
 - 2026-09-24 - Removed the verification preamble line on owner request.
 - 2026-09-25 - Retired the ctx pro cells: the Kind, Open source, Team features, and Pricing cells now describe blame as built in, after v2.0.0 shipped it inside the single open-source executable and the site dropped every paid-tier listing.
+- 2026-09-27 - Re-verified all four columns: repository counts refreshed (agents-observe 684, agentsview 6,001, ctx 1,135, Memex 231 stars), the reading prose's schema line revised after the agentsview docs returned to version 5, and the Memex star count in the choosing prose generalized; no table cells moved.
 
 ## See also
 

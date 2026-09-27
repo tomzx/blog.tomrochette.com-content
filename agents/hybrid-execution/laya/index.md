@@ -1,7 +1,7 @@
 ---
 title: Laya
 created: 2026-09-21
-updated: 2026-09-26
+updated: 2026-09-27
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, hybrid-execution, structured-outputs, system-one-models, decision-models, open-weights, multilingual]
 readability: 3
@@ -27,7 +27,7 @@ Days old and compounding fast, as of 2026-09-26.
 The main repository was created 2026-09-18 and shows about 25,000 stars, laya-mlx about 6,400 since 2026-09-19, with a CoreML port, third-party demo endpoints, and roughly ten community quantizations appearing within days.
 The author's launch story, "I built non-autoregressive decision models with RL a year ago" (2026-09-19), drew a 1,356-point Hacker News thread as of 2026-09-26, the largest community footprint of any Jev follow-up, and a follow-up gist thread on running Laya offline on an M4 Mac reached 177 points as of 2026-09-26.
 The first independent deployment account landed 2026-09-22: an engineer chose Laya over hosted Jev for local agent routing on a Mac Studio and measured 37 of 40 acceptable decisions on a frozen replay against 33 of 40 for his previous deterministic router, while stating plainly that it was not a Laya-versus-Jev head-to-head.
-On the third-party JevBench board Laya's 421M checkpoint ranks low on both readings (54.4 on v1.2, 30.3 on the current v1.4.2 revision, forty-first) and its about $0.0029 per 1,000 decisions is no longer the board's cheapest, two tiny-classifier entrants (Certo v1 and verdict-small) having undercut it in the v1.4.2 additions, but it remains near-free at scale, which is the trade its model card already advertised.
+On the third-party JevBench board Laya's 421M checkpoint ranks low on both readings (54.4 on v1.2, 30.3 on the current v1.4.2.1 revision, forty-second) and its about $0.0029 per 1,000 decisions is no longer the board's cheapest, two tiny-classifier entrants (Certo v1 and verdict-small) having undercut it in the v1.4.2 additions, but it remains near-free at scale, which is the trade its model card already advertised.
 The headline comparisons remain self-run, but unusually self-critical: the model card carries an "Honest Limits" section conceding that the base checkpoints score near chance on typed-decisions zero-shot (0.362 against a 0.461 majority-class baseline), that the 0.766 headline belongs to a checkpoint fine-tuned on that benchmark's own training split, and that the models ship over-confident until you fit a temperature on your own data.
 
 ## Strengths
@@ -69,6 +69,7 @@ The disagreeable claim I will defend: the priority fight is the least interestin
 - 2026-09-22 - Recorded the star surge (about 17,800), the 0.3.6 package, the first independent deployment account (astgl.com, chose Laya for local routing with explicit limits), the JevBench third-party reading (54.4 overall, cheapest cost per 1,000 decisions), and refreshed thread counts (1,338 and 173 points).
 - 2026-09-25 - Refreshed traction (about 23,000 stars, laya-mlx about 6,200, PyPI 0.3.20, threads 1,350 and 176 points) and recorded the JevBench v1.4 sealed re-scoring (Laya 30.3, from 54.4, still cheapest per 1,000 decisions).
 - 2026-09-26 - Refreshed traction (about 25,000 stars, laya-mlx about 6,400, threads 1,356 and 177 points) and updated the JevBench reading: Laya is ranked forty-first at 30.3 on the v1.4.2 board and no longer the cheapest ranked system, two tiny-classifier entrants (Certo v1, verdict-small) having undercut its about $0.0029 per 1,000 decisions.
+- 2026-09-27 - JevBench's v1.4.2.1 point release shifted Laya one rank to forty-second at the same 30.3.
 
 ## See also
 

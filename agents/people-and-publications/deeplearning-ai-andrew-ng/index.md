@@ -1,7 +1,7 @@
 ---
 title: Andrew Ng (The Batch, DeepLearning.AI)
 created: 2026-08-29
-updated: 2026-09-20
+updated: 2026-09-27
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=big-pickle, llm=glm-5.3-flash, people, publications, education, agents, agentic-ai]
 readability: 3
@@ -22,8 +22,8 @@ His [agentic AI course](https://learn.deeplearning.ai/courses/agentic-ai) and [A
 
 ## Status
 
-Active and highly influential as of 2026-09-22.
-The Batch publishes weekly, with the latest numbered issue (371) on 2026-09-18, and the AI Engineering Skills Map letter is dated 2026-08-14.
+Active and highly influential as of 2026-09-27.
+The Batch publishes weekly, with the latest numbered issue (372) on 2026-09-25, and the AI Engineering Skills Map letter is dated 2026-08-14.
 DeepLearning.AI reports courses taught to millions of learners and positions itself as the canonical AI education path.
 
 ## Strengths
@@ -77,6 +77,7 @@ Not for a practitioner who wants deep technical detail, frontier-labs nuance, or
 - 2026-09-04 - Batch coverage extended past the note's "through August 2026" claim.
 - 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
 - 2026-09-24 - Added the Top 5 recommended reading section.
+- 2026-09-27 - Batch recency refreshed to issue 372 (2026-09-25); replaced the dead zenvanriel.com review link with the Ask HN Coursera thread after the original page 404'd with no archive.
 
 ## See also
 
@@ -91,4 +92,4 @@ Not for a practitioner who wants deep technical detail, frontier-labs nuance, or
 - https://learn.deeplearning.ai/courses/agentic-ai - the Agentic AI course and its four design patterns
 - https://www.deeplearning.ai/the-batch/tag/deeplearning-ai-news - the AI Engineering Skills Map announcement
 - https://www.coursera.org/specializations/deep-learning - Coursera's page for the DeepLearning.AI specialization, grounding that the specializations and certificates are paid (the $49/month or $399/year figure keeps its 2026-06 as-of date, since Coursera renders prices client-side)
-- https://zenvanriel.com/job/andrew-ng-ai-course-review/ - a working-engineer's verdict that certificates alone do not get you hired
+- https://news.ycombinator.com/item?id=11461370 - the Ask HN thread on whether Coursera courses are worth paying for, grounding the caution that certificates do not substitute for shipped work (replaces a zenvanriel.com review that now 404s with no archive)

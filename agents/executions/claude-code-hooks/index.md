@@ -24,7 +24,7 @@ The same hook events fire in the terminal, IDE extensions, the desktop app, and 
 ## Status
 
 **Active and heavily invested in.**
-The feature ships in the proprietary CLI tracked by the `anthropics/claude-code` repository (about 148k stars and roughly 12.7k open issues as of 2026-09-24).
+The feature ships in the proprietary CLI tracked by the `anthropics/claude-code` repository (about 148k stars and roughly 13.3k open issues as of 2026-09-27).
 A third-party ecosystem exists: an HN search surfaces roughly 480 stories mentioning Claude Code hooks, including dedicated tooling like Graft, whose August 2026 launch thread drew 44 comments.
 Anthropic's own security-guidance plugin is built entirely on hooks (SessionStart, UserPromptSubmit, PostToolUse, Stop), which signals production commitment.
 

@@ -1,7 +1,7 @@
 ---
 title: Latent Space
 created: 2026-08-29
-updated: 2026-09-22
+updated: 2026-09-27
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=big-pickle, llm=glm-5.3-flash, people, publications, newsletter, podcast, community]
 readability: 3
@@ -16,7 +16,7 @@ Latent Space is the AI engineering publication of record, a Substack newsletter 
 
 ## What it is
 
-A Substack with more than 201,000 subscribers as of 2026-09-22 combining a weekly newsletter, a 1-2 hour interview podcast with lab founders, researchers, and tool makers, and a growing event business (AI Engineer Summits across SF and Europe).
+A Substack with more than 201,000 subscribers as of 2026-09-27 combining a weekly newsletter, a 1-2 hour interview podcast with lab founders, researchers, and tool makers, and a growing event business (AI Engineer Summits across SF and Europe).
 The founding essay, [The Rise of the AI Engineer](https://www.latent.space/p/ai-engineer), defined the discipline as distinct from ML research, and the household has extended into AINews daily roundups and an AI-for-science show.
 It is also, critically, the place where the tools profiled in this section get their field interviews: Claude Code, coding agents, and synthetic data all feature heavily.
 
@@ -24,7 +24,7 @@ It is also, critically, the place where the tools profiled in this section get t
 
 Active and expanding.
 As of 2026-09-13 the announcement month ran "The State of Latent Space" for 2026, adding shows, hosts, and more interview formats; the AI Engineer conference network grew to events in New York, San Francisco, Paris, and Europe.
-The latest interview issues, "An Oscar, Two Asteroids, and the Algorithm in Your sklearn: John Platt on AI for Science" (2026-09-22) and "Jev: System One models for Prod, not God" with Diogo Almeida, CEO of TypeSafe AI (2026-09-19), keep the weekly interview cadence running alongside the near-daily AINews roundups, which currently lead with Claude Opus 5.5 coverage.
+The latest interview issues, "OpenRouter: from Seed to Stripe, with OpenRouter's Alex Atallah and AMP's Anjney Midha" (2026-09-25) and "An Oscar, Two Asteroids, and the Algorithm in Your sklearn: John Platt on AI for Science" (2026-09-22), keep the interview cadence running alongside the near-daily AINews roundups, which currently lead with Claude Opus 5.5 coverage.
 The podcast regularly lands the people behind the harnesses this section tracks, and swyx's own notes continue to set trends (memory, filesystems, agent-eats-agent).
 
 ## Strengths
@@ -73,6 +73,7 @@ Not for people who want only hands-on tool notes and who will not filter past th
 - 2026-09-18 - Latest-issue pointer refreshed again: the AIUC interview with Rune Kvist (2026-09-16) now leads the interview cadence; subscriber count held at over 200,000.
 - 2026-09-22 - Latest-issue pointer refreshed: the Jev podcast with Diogo Almeida (2026-09-19) and the John Platt AI-for-Science interview (2026-09-22) now lead; subscriber count moved to over 201,000.
 - 2026-09-24 - Added the Top 5 recommended reading section.
+- 2026-09-27 - Latest-issue pointer refreshed: the OpenRouter from-Seed-to-Stripe interview (2026-09-25) now leads; subscriber count held at over 201,000.
 
 ## See also
 

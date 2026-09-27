@@ -21,7 +21,7 @@ Running many coding agents at once: worktree managers, kanbans, terminal multipl
 - [Emdash](emdash/index.md) - the Apache-2.0 agentic development environment from General Action (YC W26), local or over SSH.
 - [Foremerge](foremerge/index.md) - the Apache-2.0 protocol where parallel agents publish what they are about to change before they change it, catching the plan collisions Git merges without complaint, from GPTree's internal tooling.
 - [Gas Town](gastown/index.md) - Steve Yegge's tmux town of 20-30 supervised agents, shut down in September 2026 after Yegge admitted he never successfully built anything with it, kept as the category's cautionary record.
-- [Happy Coder](happy-coder/index.md) - the MIT encrypted mobile client wrapping Claude Code and Codex sessions, 23.8k stars, second only to cmux in the category.
+- [Happy Coder](happy-coder/index.md) - the MIT encrypted mobile client wrapping Claude Code and Codex sessions, 23.9k stars, second only to cmux in the category.
 - [JetBrains Air](jetbrains-air/index.md) - the standalone agentic environment running Codex, Claude Agent, Gemini CLI, and Junie in parallel, isolated per task and bundled with the AI subscription.
 - [LobeHub](lobehub/index.md) - LobeChat's pivot into a Chief Agent Operator that hires, schedules, and reports on agents around the clock.
 - [MetaGPT](metagpt/index.md) - FoundationAgents' software-company-as-multi-agent framework, quiet since v0.8.2 with the energy moved to OpenManus.

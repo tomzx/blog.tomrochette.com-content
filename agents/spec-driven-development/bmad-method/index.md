@@ -1,7 +1,7 @@
 ---
 title: BMad Method
 created: 2026-08-27
-updated: 2026-09-13
+updated: 2026-09-27
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, spec-driven-development, agile, multi-agent, open-source]
 readability: 3
@@ -24,7 +24,7 @@ The ecosystem is modular: BMad Builder, a Creative Intelligence Suite, an enterp
 ## Status
 
 Large, active, and quietly adopted.
-As of 2026-09-21: about 53.3k stars and about 6k forks since creation on 2025-04-13, 61 open issues and pull requests, with release v6.12.0 (published 2026-09-04) still the newest.
+As of 2026-09-27: about 53.5k stars and about 6k forks since creation on 2025-04-13, 46 open issues and pull requests, with release v6.12.0 (published 2026-09-04) still the newest.
 The derivative community is real (third-party skill packs and hybrids like boss-skill and bmalph, the latter at 406 stars), but its HN threads run 2 to 4 points, so the method spread through the ecosystem rather than the front page.
 
 ## Strengths
@@ -72,7 +72,7 @@ The disagreeable claim I will defend: within a year the waterfall critique will 
 ## References
 
 - https://github.com/bmad-code-org/BMAD-METHOD - README: loop, modules, prerequisites, licensing
-- https://api.github.com/repos/bmad-code-org/BMAD-METHOD - stars, forks, issues as of 2026-09-21
+- https://api.github.com/repos/bmad-code-org/BMAD-METHOD - stars, forks, issues as of 2026-09-27
 - https://docs.bmad-method.org/ - the documentation map
 - https://github.com/bmad-code-org/bmad-loop - the unattended epic module
 - https://news.ycombinator.com/item?id=44879862 - the 4-point launch-era thread, the thin-footprint evidence

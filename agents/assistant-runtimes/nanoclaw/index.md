@@ -24,7 +24,7 @@ Each agent group gets its own container, workspace, memory, and mounts; Slack pr
 ## Status
 
 Active and independently credible.
-As of 2026-09-24: 30,843 stars and 12,820 forks since creation on 2026-01-31, pushed today, 1,073 open issues.
+As of 2026-09-27: 30,849 stars and 12,813 forks since creation on 2026-01-31, pushed today, 1,119 open issues.
 The [533-point launch thread](https://news.ycombinator.com/item?id=46850205) pitched it as "Clawdbot in 500 lines of TS with Apple container isolation", followed by a 169-point thread on the move from Apple Containers to Docker and a 112-point thread on adopting the OneCLI Agent Vault.
 The family is real: microclaw (734 stars) describes itself as inspired by NanoClaw, and the prompt-security clawsec suite explicitly covers it.
 
@@ -73,7 +73,7 @@ My disagreeable claim: the container wall matters more than every permission sys
 ## References
 
 - https://github.com/nanocoai/nanoclaw - README: philosophy, channels, vault, isolation model
-- https://api.github.com/repos/nanocoai/nanoclaw - stars, forks, issues as of 2026-09-22
+- https://api.github.com/repos/nanocoai/nanoclaw - stars, forks, issues as of 2026-09-27
 - https://docs.nanoclaw.dev - official documentation
 - https://news.ycombinator.com/item?id=46850205 - the 533-point launch thread
 - https://news.ycombinator.com/item?id=47113731 - the Apple-Containers-to-Docker move (169 points)

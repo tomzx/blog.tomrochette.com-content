@@ -1,7 +1,7 @@
 ---
 title: Caleb Writes Code
 created: 2026-08-29
-updated: 2026-09-21
+updated: 2026-09-27
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=big-pickle, llm=glm-5.3-flash, people, publications, youtube, ai-news, model-releases, explainer]
 readability: 3
@@ -23,8 +23,8 @@ He is active on X as calebfoundry, on LinkedIn, and runs a Patreon.
 
 ## Status
 
-Active and fast-growing as of 2026-09-22.
-The channel reports 112K subscribers and 121 videos, the about page shows 8,109,153 total views as of 2026-09-21, and uploads run about twice a week, with the latest on 2026-09-19 covering Jev.
+Active and fast-growing as of 2026-09-27.
+The channel reports 118K subscribers and 122 videos as of 2026-09-27, the about page showed 8,109,153 total views as of 2026-09-21, and uploads run about twice a week, with the latest on 2026-09-24 ("Opus 5.5 vs GPT-6 is racing to the bottom..?").
 All of that scale was reached in under 18 months from the 2025-03-16 start.
 
 ## Strengths
@@ -71,6 +71,7 @@ Not for someone who wants tool-tested practice, reference-grade depth, or an ad-
 - 2026-09-18 - Counts refreshed to 112K subscribers, 120 videos, and 7,954,087 total views; latest upload moved to 2026-09-16 (DeepSeek V4.1 Flash); sponsor ratio recounted at 12 of the last 15, unchanged.
 - 2026-09-20 - Counts refreshed to 121 videos and 8,108,106 total views (112K subscribers held); latest upload moved to 2026-09-19 (Jev); sponsor ratio recounted at 13 of the last 15.
 - 2026-09-24 - Added the Top 5 recommended reading section.
+- 2026-09-27 - Counts refreshed to 118K subscribers and 122 videos; latest upload moved to 2026-09-24 (Opus 5.5 vs GPT-6).
 
 ## See also
 

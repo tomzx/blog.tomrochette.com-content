@@ -1,7 +1,7 @@
 ---
 title: "Protocols Feature Matrix"
 created: 2026-08-24
-updated: 2026-09-25
+updated: 2026-09-27
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, comparison, protocols, interoperability]
 readability: 3
@@ -40,9 +40,9 @@ ACP is stewarded by Zed and JetBrains under a vendor-neutral organization with n
 I read this as governance following adoption, not causing it.
 
 **Adoption falls as the protocol climbs the stack, and the file convention beat every wire protocol to default status.**
-MCP is table stakes across the harness and surface matrices; AGENTS.md counts more than 60,000 carrying projects, and its one glaring holdout closed on 2026-09-18 when Claude Code shipped native support in 2.1.277; ACP rides OpenCode, JetBrains, Zed, and a Copilot CLI preview; A2A has no native speaker among this index's harnesses, only community setups near Gemini CLI; AHP is just over six months old with 363 stars as of 2026-09-24, but its reference host ships inside VS Code and the VS Code team has said publicly it is rebuilding its agent infrastructure on the protocol.
-The SDK download ratio recorded in the A2A note, 10.9M monthly versus 257M for MCP, is the gap in one number, and AHP's roughly 369k combined downloads (about 246k crates plus 124k npm, the npm curve accelerating through mid-September) show the same order-of-magnitude distance from the top.
-AG-UI is the anomaly that proves the rule: none of this index's harnesses or surfaces speak it natively, yet its SDKs moved about 12.0M combined npm downloads in the last month as of 2026-09-24, because the frontend layer is where end-user products live even though coding tools never touch it.
+MCP is table stakes across the harness and surface matrices; AGENTS.md counts more than 60,000 carrying projects, and its one glaring holdout closed on 2026-09-18 when Claude Code shipped native support in 2.1.277; ACP rides OpenCode, JetBrains, Zed, and a Copilot CLI preview; A2A has no native speaker among this index's harnesses, only community setups near Gemini CLI; AHP is just over six months old with 368 stars as of 2026-09-27, but its reference host ships inside VS Code and the VS Code team has said publicly it is rebuilding its agent infrastructure on the protocol.
+The SDK download ratio recorded in the A2A note, 10.9M monthly versus 257M for MCP, is the gap in one number, and AHP's roughly 410k combined downloads (about 252.5k crates plus 157k npm, the npm curve accelerating through mid-September) show the same order-of-magnitude distance from the top.
+AG-UI is the anomaly that proves the rule: none of this index's harnesses or surfaces speak it natively, yet its SDKs moved about 12.9M combined npm downloads in the last month as of 2026-09-27, because the frontend layer is where end-user products live even though coding tools never touch it.
 
 **The consolidations the notes record happened in opposite corners, and neither touched the other's territory.**
 IBM's Agent Communication Protocol (the other ACP, the source of the name collision) merged into A2A in August 2025 under LF AI and Data.
@@ -72,6 +72,7 @@ The mature protocols get attacked for their risks, the young ones for their reas
 - 2026-09-24 - Removed the verification preamble line on owner request.
 - 2026-09-24 - Re-verification: refreshed star and download figures in the AG-UI and AHP prose (AG-UI about 12.0M combined monthly downloads, AHP 363 stars and roughly 369k combined downloads).
 - 2026-09-25 - Re-sorted the columns by member title (ACP and Agent Host Protocol precede A2A under the case-insensitive title ordering the other matrices use); no cell content changed.
+- 2026-09-27 - Re-verification: refreshed the AG-UI and AHP figures in the prose (AG-UI about 12.9M combined monthly downloads, AHP 368 stars and roughly 410k combined downloads); no cells changed.
 
 ## See also
 
@@ -89,8 +90,8 @@ The mature protocols get attacked for their risks, the young ones for their reas
 - https://github.com/ag-ui-protocol/ag-ui - repository facts (15,940 stars, MIT, created 2025-05-07, pushed 2026-09-18) for the AG-UI column (GitHub API, as of 2026-09-18)
 - https://raw.githubusercontent.com/ag-ui-protocol/ag-ui/main/README.md - origin by CopilotKit, around 16 event types, transports, and integration tables for the AG-UI column
 - https://docs.ag-ui.com - TypeScript, Python, and .NET SDKs and the published 1.0 specification for the AG-UI column
-- https://api.npmjs.org/downloads/point/last-month/@ag-ui/core - 7,497,024 downloads for the adoption paragraph
-- https://api.npmjs.org/downloads/point/last-month/@ag-ui/client - 5,030,868 downloads for the adoption paragraph
+- https://api.npmjs.org/downloads/point/last-month/@ag-ui/core - 7,776,207 downloads for the adoption paragraph
+- https://api.npmjs.org/downloads/point/last-month/@ag-ui/client - 5,096,334 downloads for the adoption paragraph
 - https://agents.md - format, nested scoping, and adoption count for the AGENTS.md column
 - https://aaif.io/press/linux-foundation-announces-the-formation-of-the-agentic-ai-foundation-aaif-anchored-by-new-project-contributions-including-model-context-protocol-mcp-goose-and-agents-md/ - same-day AAIF donations of MCP and AGENTS.md
 - https://modelcontextprotocol.io/specification/latest - spec revision 2026-07-28 for the MCP column

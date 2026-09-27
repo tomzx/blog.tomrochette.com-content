@@ -1,7 +1,7 @@
 ---
 title: "ctx"
 created: 2026-09-05
-updated: 2026-09-25
+updated: 2026-09-27
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, session-analytics, search, cli]
 readability: 3
@@ -21,7 +21,7 @@ Through the v2.0 release of 2026-09-24, search, blame, a new local code graph, a
 
 ## Status
 
-Active: created 2026-02-23, about 1.1k stars (1,132) and 71 forks, latest release v2.0.1 on 2026-09-24, after v2.0.0 the same day and a v1.6.x line on 2026-09-22, as of 2026-09-25.
+Active: created 2026-02-23, about 1.1k stars (1,135) and 71 forks, latest release v2.0.4 on 2026-09-27, after v2.0.2 on 2026-09-25 and a v1.6.4 maintenance release on 2026-09-26, as of 2026-09-27.
 The docs site at ctx.rs is complete (concepts, about 40 supported agent harnesses including Claude Code, Codex, Cursor, Pi, and OpenCode, storage, comparisons, a changelog), and a `/ctx` skill lets agents call it directly.
 **The community footprint is nearly empty, a 5-point, one-comment Show HN on 2026-09-03 plus a 3-point re-launch on 2026-09-16, which I read as the product being discovered through agents rather than through forums, and as thin independent verification.**
 
@@ -33,7 +33,7 @@ The docs site at ctx.rs is complete (concepts, about 40 supported agent harnesse
 
 ## Cautions
 
-- The 50x token-efficiency claim is self-reported (917 versus 45,734 tokens in its own example, still shown on the site's home page as of 2026-09-25), with no independent benchmark.
+- The 50x token-efficiency claim is self-reported (917 versus 45,734 tokens in its own example, still shown on the site's home page as of 2026-09-27), with no independent benchmark.
 - The pro subscription that once gated blame disappeared from the site with 2.0, so the business model behind a formerly paid capability is now unstated.
 - It reads whatever the agents wrote: transcripts are only as complete as the harnesses' logs, and deleted local history is gone.
 
@@ -71,6 +71,7 @@ Not for anyone needing audited cost reporting (agentsview's job) or provenance g
 - 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
 - 2026-09-21 - Release line moved to v1.4.12 (two releases shipped 2026-09-20); pro pricing re-verified unchanged.
 - 2026-09-25 - Release line moved to v2.0.1 (2026-09-24), which unified search, blame, a new code graph, and tool-output compaction in one executable, and the site stopped listing the ctx pro subscription entirely, so the Pricing section, its caution, and the Price history were revised.
+- 2026-09-27 - Release line moved to v2.0.4 (2026-09-27, memory-use and active-session fixes), with v2.0.2 (2026-09-25) and a v1.6.4 maintenance release (2026-09-26) between; repository counts refreshed (1,132 to 1,135 stars) and the home-page efficiency claim re-verified unchanged.
 
 ## See also
 
@@ -86,5 +87,5 @@ Not for anyone needing audited cost reporting (agentsview's job) or provenance g
 - https://ctx.rs/pro - now the blame documentation page; the former pro-pricing URL redirects into the docs
 - https://hn.algolia.com/api/v1/items/49550141 - the Show HN launch thread, cited as the thin-footprint signal
 - https://ctx.rs/comparisons/agent-memory - the project's own framing against agent memory, from the comparisons section that now splits per topic
-- https://api.github.com/repos/ctxrs/ctx/releases - v2.0.1 published 2026-09-24, with v2.0.0 and the v1.6.x line the days before
+- https://api.github.com/repos/ctxrs/ctx/releases - v2.0.4 published 2026-09-27, with v2.0.2 (2026-09-25) and the v1.6.4 maintenance line (2026-09-26) between
 - https://news.ycombinator.com/item?id=49727859 - the 3-point Show HN re-launch on 2026-09-16

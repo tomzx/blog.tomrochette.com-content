@@ -10,7 +10,7 @@ readability: 3
 
 Governance above the harness: heartbeats, budgets, and multi-company policy for a company of agents.
 
-- [Paperclip](paperclip/index.md) - the MIT self-hosted control plane for a company of agents, heartbeats, budgets, and governance, 80k stars in six months.
+- [Paperclip](paperclip/index.md) - the MIT self-hosted control plane for a company of agents, heartbeats, budgets, and governance, about 88k stars in seven months.
 - [TinyAGI](tinyagi/index.md) - the one-person-company orchestrator that stalled in March 2026, kept as the category's first consolidation record.
 
 Its members are compared on shared rows in the [Control Planes Feature Matrix](control-planes-feature-matrix/index.md).

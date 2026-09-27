@@ -1,7 +1,7 @@
 ---
 title: Memex
 created: 2026-09-20
-updated: 2026-09-25
+updated: 2026-09-27
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, session-analytics, search, open-source]
 readability: 3
@@ -23,7 +23,7 @@ Made by an independent developer, MIT-licensed, with no cloud service in the def
 
 ## Status
 
-Active and quietly growing: created 2026-01-01, 228 stars, 30 forks, pushed 2026-09-22, as of 2026-09-25.
+Active and quietly growing: created 2026-01-01, 231 stars, 30 forks, pushed 2026-09-22, as of 2026-09-27.
 Its Show HN on 2026-09-18 reached 2 points and a single comment, written by the author.
 **The launch footprint is nearly empty, which I read as adoption through word of mouth and through agents rather than through launches, the same reading this category applied to ctx, and as thin independent verification.**
 
@@ -61,6 +61,7 @@ My disagreeable claim: resume-in-place is the feature every archive tool in this
 ## Changes
 
 - 2026-09-20 - Created.
+- 2026-09-27 - Re-verified: repository counts refreshed (228 to 231 stars), releases, engine table, and launch thread all unchanged.
 
 ## See also
 
@@ -72,7 +73,7 @@ My disagreeable claim: resume-in-place is the feature every archive tool in this
 ## References
 
 - https://github.com/nicosuave/memex - repository, description, engine support table, surfaces
-- https://api.github.com/repos/nicosuave/memex - stars, forks, dates, MIT license as of 2026-09-25
+- https://api.github.com/repos/nicosuave/memex - stars, forks, dates, MIT license as of 2026-09-27
 - https://raw.githubusercontent.com/nicosuave/memex/main/README.md - features, engine matrix, install, MCP server, herdr plugin
 - https://raw.githubusercontent.com/nicosuave/memex/main/docs/installation.md - brew, AUR, Nix, and cargo install paths
 - https://hn.algolia.com/api/v1/items/49754771 - the 2-point Show HN of 2026-09-18, cited as the thin-footprint signal

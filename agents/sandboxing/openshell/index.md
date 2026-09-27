@@ -1,7 +1,7 @@
 ---
 title: OpenShell
 created: 2026-08-30
-updated: 2026-09-25
+updated: 2026-09-27
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, sandboxing, isolation, security, nvidia, open-source]
 readability: 3
@@ -23,9 +23,9 @@ Linux, macOS (Apple Silicon), and Windows via WSL 2 (experimental); Apache-2.0, 
 
 ## Status
 
-Fast adoption, self-declared alpha: 8,787 stars, 1,275 forks, 416 open issues and PRs as of 2026-09-25, created 2026-02-24.
-v0.0.116 released 2026-08-28 remains the latest stable, with the v0.1.0 pre-release train advancing through v0.1.0-pre.11 (2026-09-23) alongside rolling dev and vm-runtime prerelease channels, 1,512 commits, 123 contributors.
-**NVIDIA's own blog calls it an early preview, and v0.0.x versioning plus experimental Kubernetes and GPU features say production use is a bet on the vendor staying in.**
+Fast adoption, newly stable: 8,807 stars, 1,280 forks, 438 open issues and PRs as of 2026-09-27, created 2026-02-24.
+The v0.1.0 pre-release train graduated to stable v0.1.0 on 2026-09-25 with v0.1.1 following on 2026-09-26, and the README now advertises a stable release cadence for the 0.1.x line and no longer carries the alpha badge, at 1,536 commits and 123 contributors.
+**NVIDIA's own blog still calls it an early preview, and a stable line one point release deep plus experimental Kubernetes and GPU features say production use is a bet on the vendor staying in.**
 In September 2026 the team also published a formal-methods discussion of encoding the full OpenShell policy as formal logic and proving containment queries with SAT, SMT, and Z3, which reached 40 points on Hacker News.
 
 ## Strengths
@@ -37,10 +37,10 @@ In September 2026 the team also published a formal-methods discussion of encodin
 
 ## Cautions
 
-- Alpha by its own badge, with breaking changes expected and the Kubernetes path explicitly experimental.
+- Freshly stable (v0.1.0 on 2026-09-25), with breaking changes the base rate for a runtime this young and the Kubernetes path explicitly experimental.
 - Telemetry is on by default in a tool whose pitch is privacy; anonymous, but verify it against your threat model.
 - Effective security equals the YAML policies you write and maintain, which is real ongoing work.
-- 416 open issues and PRs as of 2026-09-25, down from 537 at the prior verification, on a six-month-old codebase.
+- 438 open issues and PRs as of 2026-09-27, down from 537 at the prior verification, on a seven-month-old codebase.
 
 ## Pricing
 
@@ -66,6 +66,7 @@ Not for production-critical paths this quarter, or shops that cannot run Docker 
 - 2026-09-18 - The v0.1.0 pre-release train advanced (pre.2 on 2026-09-16, pre.3 on 2026-09-17, stable still v0.0.116), the formal-methods HN thread rose from 33 to 39 points, and growth refreshed (8,683 stars, 1,261 forks, 528 open issues and PRs, 119 contributors, 1,430 commits).
 - 2026-09-21 - The pre-release train advanced again with v0.1.0-pre.4 (2026-09-18, stable still v0.0.116), and growth refreshed (8,715 stars, 1,268 forks, 537 open issues and PRs, 120 contributors), fixing a stale 560 in Cautions to the verified 537.
 - 2026-09-25 - The pre-release train reached v0.1.0-pre.11 (2026-09-23, stable still v0.0.116), the formal-methods HN thread rose from 39 to 40 points, and growth refreshed (8,787 stars, 1,275 forks, 416 open issues and PRs, 123 contributors, 1,512 commits).
+- 2026-09-27 - The pre-release train graduated to stable: v0.1.0 released 2026-09-25 and v0.1.1 on 2026-09-26, with the README dropping its alpha badge and advertising a stable release cadence; growth refreshed (8,807 stars, 1,280 forks, 438 open issues and PRs, 1,536 commits), and the two NVIDIA docs references moved to the current why-open-shell and architecture paths after the old overview and how-it-works URLs went dead.
 
 ## See also
 
@@ -77,8 +78,8 @@ Not for production-critical paths this quarter, or shops that cannot run Docker 
 ## References
 
 - https://github.com/NVIDIA/OpenShell - repository, protection layers, supported agents, license, alpha badge
-- https://docs.nvidia.com/openshell/about/overview - the Landlock, seccomp, and threat-model documentation
-- https://docs.nvidia.com/openshell/latest/about/how-it-works - the CLI, gateway, and supervisor architecture
+- https://docs.nvidia.com/openshell/about/why-open-shell - the Landlock, seccomp, and threat-model documentation (the former about/overview path, moved in the docs restructuring)
+- https://docs.nvidia.com/openshell/about/architecture - the CLI, gateway, and supervisor architecture (the former how-it-works path, moved in the docs restructuring)
 - https://blogs.nvidia.com/blog/secure-autonomous-ai-agents-openshell/ - NVIDIA's positioning and early-preview status
 - https://code.claude.com/docs/en/sandboxing - the built-in sandboxing comparison
 - https://github.com/NVIDIA/OpenShell/releases/tag/v0.0.116 - release cadence evidence

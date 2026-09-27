@@ -1,7 +1,7 @@
 ---
 title: "Orchestration Feature Matrix"
 created: 2026-08-24
-updated: 2026-09-26
+updated: 2026-09-27
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, comparison, orchestration, git-worktrees, parallel-agents]
 readability: 3
@@ -10,9 +10,9 @@ audience_notes: >
   Assumes you know what a git worktree is and already run at least one CLI coding agent; each column links to a full note.
 ---
 
-This matrix compares the sixteen orchestration tools profiled in this section, the parallel-agent dashboards, worktree managers, control planes, mobile clients, a coordination protocol, a cluster-scale agent fleet orchestrator, JetBrains' standalone agent environment, and the one agent town, feature by feature, so the shortlisting step does not require reading sixteen notes.
+This matrix compares the twenty orchestration tools profiled in this section, the parallel-agent dashboards, worktree managers, control planes, mobile clients, a coordination protocol, a cluster-scale agent fleet orchestrator, JetBrains' standalone agent environment, two conversational multi-agent frameworks, a dormant role-play framework, two hosted agent platforms, and the one agent town, feature by feature, so the shortlisting step does not require reading twenty notes.
 
-**Parallelism is already the free commodity in this category: the only things anyone pays for are review ergonomics and remote execution, and I expect more of these sixteen to die or pivot before any of them becomes durable infrastructure.**
+**Parallelism is already the free commodity in this category: the only things anyone pays for are review ergonomics and remote execution, and I expect more of these twenty to die or pivot before any of them becomes durable infrastructure.**
 
 Legend: ✓ supported, ✗ not supported, ~ partial or conditional, ? not verified.
 Each column links to the full research note; every cell below traces to a source cited there or in the references.
@@ -46,7 +46,7 @@ The wrapping pattern dominates (Emdash auto-detects installed CLIs, Claude Squad
 **Where your code lives is the quiet differentiator, and Emdash is alone in treating it as a design decision with SSH-first execution and credentials in the OS keychain.**
 Cloud execution exists only where a subscription or usage bill is attached, cmux Pro, Conductor Cloud, Omnara Cloud, and JetBrains-managed cloud tasks; dmux is explicitly local-only, Claude Squad ships no hosting at all, and Vibe Kanban's remote services were removed thirty days after its shutdown announcement.
 
-**The status row is the most instructive one in the matrix: of sixteen tools, one is deprecated, one lost its vendor, one is a cluster-scale platform entrant, one new column attacks the failure worktrees cannot see, and the counterexamples run on venture rounds and a very loud founder.**
+**The status row is the most instructive one in the matrix: of twenty tools, one is deprecated, one lost its vendor, one is a cluster-scale platform entrant, one new column attacks the failure worktrees cannot see, and the counterexamples run on venture rounds and a very loud founder.**
 Crystal was deprecated in February 2026 in favor of Nimbalyst, the clearest signal yet that a pure worktree-session manager can be a feature rather than a product.
 Bloop shut down in April 2026 and Vibe Kanban is orphaned, local workspaces intact, ten commits on the default branch since the shutdown (the first a 2026-09-15 version bump by a former Bloop maintainer, nine more with substantive fixes through 2026-09-19), a v0.1.45 prerelease published on GitHub on 2026-09-19 with npm still serving 0.1.44 as latest, and nobody paid to fix bugs.
 Conductor staying a pure session manager and raising money is what keeps the feature-versus-product question contested instead of settled.
@@ -56,6 +56,7 @@ Conductor staying a pure session manager and raising money is what keeps the fea
 **JetBrains Air is the vendor entry, and it is the only column whose price model is a bundle:** no standalone fee, four agent families unlocked by a JetBrains AI Pro or Ultimate subscription, with the deepest isolation menu in the table (worktree, Docker, or cloud per task) and org governance behind it, which makes it the strongest evidence yet that this layer is a feature incumbents will attach to existing subscriptions.
 **AX is the scale outlier at the front of the table:** Google's Kubernetes-based fleet orchestrator treats agents as a datacenter workload class with sandboxing, network fencing, and checkpoint-resume, which makes every other column here look like what it is, a desktop tool.
 **Foremerge is the newest column and the only one that coordinates plans instead of hosting sessions:** agents publish intents with semantic scopes before they edit, and a deterministic detector flags destructive-versus-additive collisions that git merges cleanly, which names the residue every worktree column here leaves behind.
+**The four framework columns are this category's museum wing and its adjacent business park:** AutoGen is in maintenance mode and MetaGPT dormant while AutoGPT and LobeHub run active hosted platforms, which is why I weight the parallel-agent columns as where the daily engineering work is.
 
 **Review is the bottleneck this category actually sells, and delivery tracks funding: Conductor has the deepest review surface (diffs, checks, PR page, code review), Emdash and Vibe Kanban carry full PR flows, and the terminal tools stop at diff tabs and merge menus.**
 Claude Squad's preview tab and dmux's pane-menu PR cover the dispatch, wait, review, merge loop, but nobody should expect checks or inline comments there.
@@ -96,6 +97,7 @@ Claude Squad's preview tab and dmux's pane-menu PR cover the dispatch, wait, rev
 - 2026-09-22 - Extended from fifteen to sixteen columns with Foremerge (Nick Woodhead's coordination protocol for parallel agents, added sorted after Emdash), moved the Paseo status cell to v0.9.1, and refreshed the Omnara star count to 2,863.
 - 2026-09-24 - Removed the verification preamble line on owner request.
 - 2026-09-24 - Refreshed the Vibe Kanban status cell to the GitHub v0.1.45 prerelease (npm still 0.1.44), moved Paseo's status cell to v0.9.2, and refreshed Foremerge's star count to 505.
+- 2026-09-27 - Extended from sixteen to twenty columns with AutoGen, AutoGPT, LobeHub, and MetaGPT, the multi-agent frameworks and hosted platforms, and updated the prose counts and the reading section to match.
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: Knowhere
 created: 2026-09-20
-updated: 2026-09-26
+updated: 2026-09-27
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, retrieval, rag, chunking, document-parsing, mcp, open-source]
 readability: 3
@@ -27,7 +27,7 @@ Made by Ontos AI, which open-sourced the full stack on May 7, 2026.
 ## Status
 
 **Active and shipping weekly, with a striking mismatch between stars and discussion.**
-3,510 stars since 2026-04-30, latest release v1.2.17 on 2026-09-23, pushed 2026-09-23 (GitHub API, as of 2026-09-26).
+3,528 stars since 2026-04-30, latest release v1.2.17 on 2026-09-23, pushed 2026-09-23 (GitHub API, as of 2026-09-27).
 Two Show HNs drew a combined 2 points and 1 comment (March and September 2026), so like graft and graphify, the star count ran far ahead of any independent technical discussion.
 The self-hosted stack repo has 12 stars and was last pushed 2026-09-21, so the self-hosting path looks far less trafficked than the hosted funnel.
 
@@ -75,6 +75,7 @@ My disagreeable claim: the near-total absence of public discussion around a 3,51
 - 2026-09-20 - Created from the 2026-09-20 entrant scan after the September 17 Show HN resurfaced the project.
 - 2026-09-22 - Recorded release v1.2.16 (2026-09-21) and refreshed the volatile numbers (3,456 stars, pushed 2026-09-22, the self-hosted stack pushed 2026-09-21); per-page pricing unchanged.
 - 2026-09-25 - Recorded release v1.2.17 (2026-09-23) and refreshed the volatile numbers (3,493 stars, pushed 2026-09-23); per-page pricing unchanged, while the $5 signup credit no longer appears and the site now advertises a 14-day free trial.
+- 2026-09-27 - Refreshed the volatile numbers (3,528 stars); release v1.2.17, the per-page pricing, and the 14-day free trial all re-confirmed unchanged.
 
 ## See also
 
@@ -85,7 +86,7 @@ My disagreeable claim: the near-total absence of public discussion around a 3,51
 
 ## References
 
-- https://github.com/Ontos-AI/knowhere - repository, README (architecture, tracks, news timeline), stars and activity as of 2026-09-26
+- https://github.com/Ontos-AI/knowhere - repository, README (architecture, tracks, news timeline), stars and activity as of 2026-09-27
 - https://github.com/Ontos-AI/knowhere/releases - release cadence, v1.2.17 on 2026-09-23
 - https://knowhereto.ai - hosted product surface, $5 free credit, and the self-reported comparison table
 - https://docs.knowhereto.ai/ - product docs: SDKs, CLI, retrieval query surface

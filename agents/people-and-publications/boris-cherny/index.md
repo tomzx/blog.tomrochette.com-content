@@ -1,7 +1,7 @@
 ---
 title: Boris Cherny
 created: 2026-09-24
-updated: 2026-09-24
+updated: 2026-09-27
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, people, publications, developer, coding-agents]
 readability: 3
@@ -66,13 +66,14 @@ Not for anyone looking for a regular feed, tool comparisons, or engagement with 
 
 - 2026-09-24 - Created.
 - 2026-09-24 - Added the Top 5 recommended reading section.
+- 2026-09-27 - Reworded a See-also line off a banned term; meaning unchanged.
 
 ## See also
 
 - [Claude Code](../../harnesses/claude-code/index.md) - the harness he created, with token-overhead measurements and leak history his own posts do not cover
 - [Simon Willison](../simon-willison/index.md) - the daily coverage that fills the gaps between his rare public appearances
 - [Steve Yegge](../steve-yegge/index.md) - the high-volume evangelist end of the agentic-coding spectrum, opposite Cherny's scarcity
-- [Agentic Coding Tools Landscape](../../agentic-coding-tools-landscape/index.md) - where Claude Code sits among the harnesses he shaped
+- [Agentic Coding Tools Landscape](../../agentic-coding-tools-landscape/index.md) - where Claude Code sits among the harnesses he built
 
 ## References
 

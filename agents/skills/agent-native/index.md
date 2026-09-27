@@ -1,7 +1,7 @@
 ---
 title: Agent-Native
 created: 2026-09-13
-updated: 2026-09-26
+updated: 2026-09-27
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, skills, agent-extensions, builder-io, app-frameworks]
 readability: 3
@@ -24,8 +24,8 @@ Install is `npx @agent-native/skills@latest add`, which writes to the shared `.a
 ## Status
 
 **Active and fast-moving, with a thin independent footprint.**
-Both repos claim MIT in their READMEs: the skills catalog at 4.4k stars, 222 forks, and 161 commits, the framework at 6.8k stars, 613 forks, and 6,114 commits, as of 2026-09-26, with the framework adding another 51 stars in the day before this verification.
-The npm package was created 2026-06-10, sits at 0.3.5 with builds shipping several times a day, and pulled 13,784 downloads in the week of 2026-09-18 to 2026-09-24 (fetched 2026-09-26).
+Both repos claim MIT in their READMEs: the skills catalog at 4.4k stars and 224 forks, the framework at 6.8k stars and 614 forks, as of 2026-09-27.
+The npm package was created 2026-06-10, sits at 0.3.7 with builds shipping several times a day, and pulled 17,974 downloads in the week of 2026-09-19 to 2026-09-25 (fetched 2026-09-27).
 No Hacker News threads and no independent coverage surfaced in this run's searches, so the audience so far is GitHub and npm.
 
 ## Strengths
@@ -65,6 +65,7 @@ My disagreeable claim: the apps and the framework are the least durable half, th
 - 2026-09-22 - The framework repo jumped from 5.4k to 6.3k stars in one day, and its license signal degraded: GitHub no longer detects a license file there and package.json now says ISC while the README still says MIT.
 - 2026-09-25 - Refreshed the volatile numbers (catalog 4,412 stars, framework 6,777 stars and 6,012 commits, GitHub license detection still absent) and recorded the npm package crossing to 0.3.1.
 - 2026-09-26 - Recorded the npm package crossing to 0.3.5 and refreshed the volatile numbers (catalog 4,434 stars and 161 commits, framework 6,828 stars, 613 forks, and 6,114 commits); the framework repo's GitHub license detection is still absent.
+- 2026-09-27 - Recorded the npm package crossing to 0.3.7 with weekly downloads up to 17,974 and refreshed the volatile numbers (catalog 4,443 stars, framework 6,849 stars, GitHub license detection still absent).
 
 ## See also
 
@@ -76,9 +77,9 @@ My disagreeable claim: the apps and the framework are the least durable half, th
 
 ## References
 
-- https://github.com/BuilderIO/skills - the catalog repo: the fifteen skills, installer options, marketplace packaging, 4.4k stars as of 2026-09-26
-- https://github.com/BuilderIO/agent-native - the framework repo: shared-action architecture, app gallery, README says MIT but GitHub license detection still returns nothing (package.json says ISC), 6.8k stars as of 2026-09-26
+- https://github.com/BuilderIO/skills - the catalog repo: the fifteen skills, installer options, marketplace packaging, 4.4k stars as of 2026-09-27
+- https://github.com/BuilderIO/agent-native - the framework repo: shared-action architecture, app gallery, README says MIT but GitHub license detection still returns nothing (package.json says ISC), 6.8k stars as of 2026-09-27
 - https://www.agent-native.com/ - the framework landing
-- https://registry.npmjs.org/@agent-native/skills - package metadata: created 2026-06-10, latest 0.3.5, published from the monorepo, as of 2026-09-26
-- https://api.npmjs.org/downloads/point/last-week/@agent-native/skills - 13,784 weekly downloads, window 2026-09-18 to 2026-09-24, fetched 2026-09-26
+- https://registry.npmjs.org/@agent-native/skills - package metadata: created 2026-06-10, latest 0.3.7, published from the monorepo, as of 2026-09-27
+- https://api.npmjs.org/downloads/point/last-week/@agent-native/skills - 17,974 weekly downloads, window 2026-09-19 to 2026-09-25, fetched 2026-09-27
 - https://hn.algolia.com/api/v1/search?query=%22builder.io%22%20skills&tags=story - the zero-hit search behind the missing-footprint statement

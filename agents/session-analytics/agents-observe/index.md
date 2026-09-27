@@ -1,7 +1,7 @@
 ---
 title: agents-observe
 created: 2026-09-16
-updated: 2026-09-25
+updated: 2026-09-27
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, session-analytics, observability, claude-code]
 readability: 3
@@ -23,7 +23,7 @@ Made by simple10, an independent developer, under MIT.
 
 ## Status
 
-Young and active: 682 stars, 69 forks, created 2026-03-26, pushed 2026-09-04, latest release v0.9.12 on 2026-07-22 as of 2026-09-25.
+Young and active: 684 stars, 69 forks, created 2026-03-26, pushed 2026-09-04, latest release v0.9.12 on 2026-07-22 as of 2026-09-27.
 Launched on Hacker News on 2026-04-01 with 77 points.
 **A single-maintainer project that found a real gap (live multi-agent visibility) and a real audience, but it is pre-1.0 with months between releases.**
 
@@ -60,6 +60,7 @@ Not for multi-harness archive analytics, code provenance, or anyone unwilling to
 ## Changes
 
 - 2026-09-16 - Created.
+- 2026-09-27 - Re-verified: repository counts refreshed (682 to 684 stars), releases, launch thread, and README all unchanged.
 
 ## See also
 
@@ -70,7 +71,7 @@ Not for multi-harness archive analytics, code provenance, or anyone unwilling to
 
 ## References
 
-- https://github.com/simple10/agents-observe - repository, description, MIT license, stars and forks as of 2026-09-21
+- https://github.com/simple10/agents-observe - repository, description, MIT license, stars and forks as of 2026-09-27
 - https://raw.githubusercontent.com/simple10/agents-observe/main/README.md - architecture, plugin install, prerequisites, skills, token and cost breakdowns
 - https://github.com/simple10/agents-observe/releases - v0.9.12 release date
 - https://news.ycombinator.com/item?id=47602986 - the launch thread, 77 points on 2026-04-01

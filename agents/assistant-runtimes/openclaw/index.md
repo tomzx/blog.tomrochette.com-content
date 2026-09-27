@@ -24,7 +24,7 @@ Security is pairing-based by default (unknown senders must be approved), and the
 ## Status
 
 The category's giant.
-As of 2026-09-24: 390,421 stars and 82,139 forks since creation on 2025-11-24, pushed daily, 8,610 open issues, npm-published.
+As of 2026-09-27: 390,616 stars and 82,164 forks since creation on 2025-11-24, pushed daily, 8,718 open issues, npm-published.
 OpenClaw 2.0 shipped 2026-08-30 (v2026.8.1), by far the largest release in the project's history, roughly half of all pull requests ever merged in one drop from 933 contributors, rebuilding the browser app as a first-class surface and shortening the first-run install, and the cadence has held since, with v2026.9.1 released 2026-09-03, v2026.9.2 on 2026-09-05, v2026.9.3 on 2026-09-08, v2026.9.4 on 2026-09-11, v2026.9.5 on 2026-09-19, and v2026.9.6 on 2026-09-23 (its crashing macOS build was rebuilt and notarized on 2026-09-24), plus patches on the older June and July lines, v2026.6.35 released 2026-09-10, v2026.7.33 on 2026-09-18, and v2026.7.35 on 2026-09-21.
 The v2026.9.2 notes turned Swarm on by default: concurrent sub-agent orchestration with structured results and live progress, with explicit opt-outs preserved.
 On 2026-09-21 the project announced a completed Trail of Bits security audit run through OpenAI's Patch the Planet initiative: 27 private advisories plus 3 hardening pull requests, 23 confirmed vulnerabilities (0 critical, 2 high, 16 medium, 6 low), every actionable issue repaired and shipped in the v2026.8.1 and v2026.7.33 releases, with permission-carryover and check-what-you-use as the recurring finding classes.
@@ -43,7 +43,7 @@ It was renamed twice in its first months (the 667-point "Moltbot Renamed Again" 
 - Scale: the nanoclaw author's audit calls it nearly half a million lines, 53 config files, and 70+ dependencies, which is exactly the trust surface its variants reject.
 - Tools run on the host by default; read the sandboxing guide before connecting anyone else.
 - The provider saga shows subscription terms can be withdrawn from a popular open-source runtime at any time, budget for API keys, not just subscriptions.
-- 8,610 open issues means the tracker is a weather report, not a queue.
+- 8,718 open issues means the tracker is a weather report, not a queue.
 
 ## Pricing
 
@@ -84,7 +84,7 @@ The disagreeable claim I will defend: the restrictions saga, not the code, is Op
 ## References
 
 - https://github.com/openclaw/openclaw - README: Gateway model, channels, security posture, install
-- https://api.github.com/repos/openclaw/openclaw - stars, forks, issues, dates as of 2026-09-24
+- https://api.github.com/repos/openclaw/openclaw - stars, forks, issues, dates as of 2026-09-27
 - https://api.github.com/repos/openclaw/openclaw/releases - v2026.9.2 release notes, Swarm enabled by default (2026-09-05), through v2026.9.5 (2026-09-19), the v2026.7.33 July-line patch (2026-09-18), v2026.7.35 (2026-09-21), and v2026.9.6 (2026-09-23)
 - https://openclaw.ai/blog/openclaw-trail-of-bits-engagement-recap - the Trail of Bits audit recap (27 advisories, 23 confirmed vulnerabilities, all repaired)
 - https://openclaw.ai/blog/openclaw-2-accidentally - the OpenClaw 2.0 announcement (933 contributors, 16,000+ pull requests)

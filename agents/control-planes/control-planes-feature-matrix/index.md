@@ -1,7 +1,7 @@
 ---
 title: "Control Planes Feature Matrix"
 created: 2026-08-27
-updated: 2026-09-25
+updated: 2026-09-27
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, comparison, control-planes, agent-operations]
 readability: 3
@@ -31,7 +31,7 @@ Legend: ✓ supported, ✗ not supported, ~ partial or conditional, ? not verifi
 | Multi-company | ✓ unlimited per deployment, data isolation | ✗ one company per install |
 | Channels | any heartbeat-capable agent surface | Discord, WhatsApp, Telegram |
 | Pricing | free self-hosted, cloud in waitlist, unpublished | free |
-| Current status | active, about 82.7k stars since 2026-03-02, 5,643 open issues, latest release v2026.916.1 (2026-09-21) | stalled March 2026, 3,616 stars, 75 open issues |
+| Current status | active, about 87.9k stars since 2026-03-02, 5,776 open issues, latest release v2026.916.1 (2026-09-21) | stalled March 2026, 3,621 stars, 75 open issues |
 
 ## Reading the matrix
 
@@ -57,6 +57,7 @@ The employee side has its own category, [Assistant runtimes](../../assistant-run
 - 2026-09-21 - Paperclip and TinyAGI status cells refreshed (5,566 open issues; stall record unchanged).
 - 2026-09-24 - Removed the verification preamble line on owner request.
 - 2026-09-25 - Refreshed the Paperclip status cell (about 82.7k stars, 5,643 open issues, v2026.916.1 of 2026-09-21).
+- 2026-09-27 - Refreshed the Paperclip status cell (about 87.9k stars, 5,776 open issues) and the TinyAGI star count (3,621).
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: Backlog.md
 created: 2026-08-27
-updated: 2026-09-13
+updated: 2026-09-27
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, task-management, kanban, markdown, open-source, byok]
 readability: 3
@@ -24,7 +24,7 @@ It is maintained under the MrLesk identity, with conference talks ([Devoxx Belgi
 ## Status
 
 Active and healthy at mid-scale.
-As of 2026-09-21: 6,800 stars, 66 open issues, pushed 2026-09-18, MIT-licensed, 57,908 npm downloads last month.
+As of 2026-09-27: 6,862 stars, 73 open issues, pushed 2026-09-24, MIT-licensed, latest release v1.53.0 on 2026-09-24, 64,043 npm downloads last month.
 The July 2025 [launch thread](https://news.ycombinator.com/item?id=44483530) reached 254 points, the largest HN footprint of the task trackers profiled in this section.
 
 ## Strengths
@@ -61,6 +61,7 @@ My disagreeable claim: its three checkpoints are what spec-driven development ac
 ## Changes
 
 - 2026-08-27 - Created in the Task management category seed with the three-checkpoint review model, dogfooding claim, and terminal kanban recorded.
+- 2026-09-27 - Refreshed scale numbers (6,862 stars, 73 open issues, 64,043 npm downloads) and recorded v1.53.0 (2026-09-24).
 
 ## See also
 
@@ -72,7 +73,7 @@ My disagreeable claim: its three checkpoints are what spec-driven development ac
 ## References
 
 - https://github.com/MrLesk/Backlog.md - README: checkpoints, commands, agent integrations, dogfooding claim
-- https://api.github.com/repos/MrLesk/Backlog.md - stars, issues, push date, MIT license as of 2026-09-21
+- https://api.github.com/repos/MrLesk/Backlog.md - stars, issues, push date, MIT license as of 2026-09-27
 - https://news.ycombinator.com/item?id=44483530 - the 254-point launch thread
-- https://api.npmjs.org/downloads/point/last-month/backlog.md - 57,908 downloads last month
+- https://api.npmjs.org/downloads/point/last-month/backlog.md - 64,043 downloads last month
 - https://mrlesk.com/talks - conference talks demonstrating the method

@@ -1,7 +1,7 @@
 ---
 title: Artificial Analysis
 created: 2026-09-24
-updated: 2026-09-24
+updated: 2026-09-27
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, trackers-and-leaderboards, ai, benchmarks, evaluation]
 readability: 3
@@ -12,13 +12,13 @@ audience_notes: >
 
 Artificial Analysis is an independent benchmarking company whose site measures AI at four layers, agents, models, cloud inference providers, and chips, and publishes the results as leaderboards, price and speed comparisons, and a public changelog.
 
-**It is the closest thing the field has to a consumer reports for model inference: one place where quality, cost, and speed are measured the same way across 671 models.**
+**It is the closest thing the field has to a consumer reports for model inference: one place where quality, cost, and speed are measured the same way across 673 models.**
 
 ## What it is
 
 A website and data business covering models (proprietary and open weights), coding agents, inference providers, and accelerator hardware.
 The flagship Artificial Analysis Intelligence Index (v4.3.2 as of 2026-09-24) incorporates ten evaluations with published weights (agents 30%, coding 20%, scientific reasoning 20%, general 30%), and a separate Coding Agent Index (v1.5) combines DeepSWE, Terminal-Bench, and SWE-Atlas-QnA.
-The homepage compares 671 models on price per token, output speed, and latency, and its Endpoint Accuracy Index re-runs the same evals against 16 third-party providers of one model to measure how much accuracy each endpoint loses to quantization or configuration.
+The homepage compares 673 models on price per token, output speed, and latency (as of 2026-09-27), and its Endpoint Accuracy Index re-runs the same evals against 16 third-party providers of one model to measure how much accuracy each endpoint loses to quantization or configuration.
 Products around the data include Optima (build-your-own benchmarks), MicroEvals, a Model Recommender, and a Data Playground.
 Scale claims from the about page: 500+ models benchmarked, 100+ inference providers, 1,000+ endpoints, 1T+ evaluation tokens.
 
@@ -61,6 +61,7 @@ My disagreeable claim: the Endpoint Accuracy Index is the most underrated page o
 ## Changes
 
 - 2026-09-24 - Created.
+- 2026-09-27 - Coverage refreshed: the homepage now compares 673 models (from 671); Intelligence Index still v4.3.2.
 
 ## See also
 

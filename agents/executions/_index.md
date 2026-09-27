@@ -12,7 +12,7 @@ Event-driven agent execution: lifecycle hooks, scheduled and repository-triggere
 
 - [Claude Code hooks](claude-code-hooks/index.md) - lifecycle triggers that turn the harness into an event-driven system.
 - [GitHub Agentic Workflows](github-agentic-workflows/index.md) - markdown-defined automation compiled into hardened Actions runs.
-- [Copilot automations](copilot-automations/index.md) - GitHub's cloud agent on schedules and repository events.
+- [GitHub Copilot automations](copilot-automations/index.md) - GitHub's cloud agent on schedules and repository events.
 - [n8n](n8n/index.md) - the fair-code automation canvas where triggers start workflows and agents.
 
 Its members are compared on shared rows in the [Executions Feature Matrix](executions-feature-matrix/index.md).

@@ -23,7 +23,7 @@ Started by Xubin Ren as a personal project, now under the HKUDS lab banner (the 
 
 ## Status
 
-One of the fastest adoption curves in the category: 48,552 stars, 8,577 forks, 791 open issues as of 2026-09-24, created 2026-02-01, pushed today.
+One of the fastest adoption curves in the category: 48,605 stars, 8,587 forks, 807 open issues as of 2026-09-27, created 2026-02-01, pushed 2026-09-26.
 Sixteen PyPI releases since February 2026, with v0.3.0 on 2026-07-25 followed by a seven-week quiet stretch that v0.3.5 ended on 2026-09-15, and the launch HN thread drew 257 points.
 **PyPI still classifies it Alpha, and one listed maintainer carries the release burden, the two facts I would weight against the star count.**
 
@@ -36,7 +36,7 @@ Sixteen PyPI releases since February 2026, with v0.3.0 on 2026-07-25 followed by
 
 ## Cautions
 
-- Alpha maturity: seven months old, breaking-speed releases, and a 791-issue backlog large for its age.
+- Alpha maturity: seven months old, breaking-speed releases, and an 807-issue backlog large for its age.
 - Single-maintainer concentration on PyPI.
 - The category-level security problem applies in full: shell access plus chat channels plus prompt injection is the surface HN called a security nightmare, and a sibling runtime had an RCE exploit.
 - Lineage questions from the community about NanoClaw inspiration were never clearly addressed.

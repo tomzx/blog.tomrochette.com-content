@@ -1,7 +1,7 @@
 ---
 title: Paseo
 created: 2026-08-30
-updated: 2026-09-26
+updated: 2026-09-27
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, parallel-agents, mobile, open-source]
 readability: 3
@@ -74,6 +74,7 @@ Not for teams needing a vendor's support contract, or Mac-only shops happy payin
 - 2026-09-21 - Recorded the v0.9.0 beta line (beta.1 and beta.2, September 17-18) following the v0.8.0 stable release, and refreshed star and tracker counts.
 - 2026-09-22 - Recorded v0.9.0 reaching stable and v0.9.1 shipping the same day (September 22), and refreshed star and tracker counts.
 - 2026-09-24 - Recorded v0.9.2 (September 24) and refreshed star and tracker counts.
+- 2026-09-27 - Linked the Agentic Development Environment Landscape tracker, the mid-2026 snapshot that named Paseo a leader.
 
 ## See also
 
@@ -92,4 +93,3 @@ Not for teams needing a vendor's support contract, or Mac-only shops happy payin
 - https://paseo.sh/hub - hosted Hub pricing, €15 per seat per month, free trial
 - https://news.ycombinator.com/item?id=48377250 - the launch thread with the solo-maintainer statement and the credit-pool admission
 - https://github.com/BloopAI/vibe-kanban - comparison data on the board alternative
-- 2026-09-27 - Linked the Agentic Development Environment Landscape tracker, the mid-2026 snapshot that named Paseo a leader.

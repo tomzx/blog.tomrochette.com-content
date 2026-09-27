@@ -1,7 +1,7 @@
 ---
 title: JevBench
 created: 2026-09-22
-updated: 2026-09-26
+updated: 2026-09-27
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, hybrid-execution, structured-outputs, system-one-models, decision-models, benchmarking, model-evaluation]
 readability: 3
@@ -12,7 +12,7 @@ audience_notes: >
 
 JevBench is Benchmark Heaven's MIT-licensed benchmark for Jev-class typed decision models: 534 English decisions per system in its v1.2 run plus 308 fresh sealed decisions in v1.4, scored on chance-corrected intelligence, calibration, speed, and cost, with public items, frozen and hashed artifacts, and per-task outcomes checked into the repository.
 
-**This is the first third-party scoreboard for this category, and its readings now frame the whole debate: on the public v1.2 board Jev led at 74.4 with SemIf's frozen-4B logit readout 1.3 points behind, the sealed-decision v1.4 revision kept Jev first (63.3) while the open replicas fell away, and the v1.4.2 point release then added eleven systems and a new #1, decider-4b v2 (64.13), with Jev second at 63.29, which is still the closest thing the category has to independent verification, arrived at by one runner's contested methodology.**
+**This is the first third-party scoreboard for this category, and its readings now frame the whole debate: on the public v1.2 board Jev led at 74.4 with SemIf's frozen-4B logit readout 1.3 points behind, the sealed-decision v1.4 revision kept Jev first (63.3) while the open replicas fell away, the v1.4.2 point release then added eleven systems and a new #1, decider-4b v2 (64.13), with Jev second at 63.29, and the v1.4.2.1 point release of 2026-09-27 added Plumb-4B (65.84) to push Jev to third, which is still the closest thing the category has to independent verification, arrived at by one runner's contested methodology.**
 
 ## What it is
 
@@ -22,22 +22,23 @@ The earlier v1.3.0 score weighted Intelligence, Calibration, Speed, and Cost at 
 Intelligence is measured above chance per tier (220 hard decisions written by Claude Opus 5 and GPT-5.6 Sol, cross-reviewed, frozen, and hashed before any system ran, plus easy, standard, and judge tiers, 534 decisions per system in total).
 Calibration combines ECE on the hard tier with fidelity to exact gold distributions.
 Cost is priced in dollars per 1,000 decisions, not per 1,000 tokens, which is the unit that actually matters for this contract.
-The v1.2 board holds 48 ranked rows spanning hosted APIs, the open replicas, rerankers, and GLiNER-style classifiers, with classifier.dev listed as an honorable mention because its fast tier is Jev itself, and the v1.4.2 board holds 93 measured systems, 89 of them ranked, with a v1.4.3 roster of latecomers already named.
+The v1.2 board holds 48 ranked rows spanning hosted APIs, the open replicas, rerankers, and GLiNER-style classifiers, with classifier.dev listed as an honorable mention because its fast tier is Jev itself, and the v1.4.2 board held 93 measured systems, 89 of them ranked, before the v1.4.2.1 point release took it to 94 and 90 with the single addition of Plumb-4B.
 
 ## Status
 
-Active and gaining traction, as of 2026-09-26.
-The repository was created 2026-09-19, pushed 2026-09-25, and shows 136 stars and 14 forks, with three scoring releases since my first check (v1.4.0 through v1.4.2, September 23-24).
-The Show HN thread (2026-09-22) climbed from 92 points when this note was created to 147 as of 2026-09-26, clearing the 100-point bar it originally sat under.
+Active and gaining traction, as of 2026-09-27.
+The repository was created 2026-09-19, pushed 2026-09-27, and shows 141 stars and 15 forks, with four scoring releases since my first check (v1.4.0 through v1.4.2.1, September 23-27).
+The Show HN thread (2026-09-22) climbed from 92 points when this note was created to 149 as of 2026-09-27, clearing the 100-point bar it originally sat under.
 The v1.4 sealed-decision revision is the significant event: re-scoring against 308 decisions the entrants had not seen dropped SemIf from second (73.1) to eighth (47.7), kev-4B from 59.7 to 36.1, and Nimble from 60.5 to 18.7, while Jev held first, which is either the benchmark working as designed or evidence the public half was being selected against, depending on whose thread comment you read.
-The v1.4.2 point release (September 24) then added eleven new systems and completed swanOne's sealed run, and the new #1 is not Jev: decider-4b v2 (Mapika) took the top spot at 64.13 with Jev second at 63.29, JevK5 third (62.04), Cygnet fourth (61.76), and Hopper fifth (59.43), though Jev keeps the best intelligence (53.1) and calibration (76.3) among the top five, and the new leader's row carries its own caveats (34.7% sealed accuracy, an estimated price basis, and unaudited private stage-2 training rows).
+The v1.4.2 point release (September 24) then added eleven new systems and completed swanOne's sealed run, and the new #1 was not Jev: decider-4b v2 (Mapika) took the top spot at 64.13 with Jev second at 63.29, JevK5 third (62.04), Cygnet fourth (61.76), and Hopper fifth (59.43), and the new leader's row carried its own caveats (34.7% sealed accuracy, an estimated price basis, and unaudited private stage-2 training rows).
+The v1.4.2.1 point release (2026-09-27) then added Plumb-4B, a JevK5 v0.2 plus LoRA rebuild by crh225, which took the top spot at 65.84 and pushed Jev to third, though Jev keeps the best intelligence (53.1) and calibration (76.3) of the new top five, and Plumb's row leans on an estimated price basis of its own (a bookable GPU rate, not a bill).
 The author has 36 GitHub followers and no prior public footprint I could find, so I weight the methodology criticisms heavily.
 
 ## Strengths
 
 - **The scoreboard exists, and it is replayable: public items, frozen per-task outcomes, scoring code, and a script that rebuilds the final artifact from the frozen measurements.**
 - The design anticipates this category's specific tricks: chance-corrected intelligence defeats tiny-model majority-class games, calibration is scored against full distributions rather than argmax only, and cost is per decision.
-- It measured the vendors too: on the v1.2 board Jev 1.13.0 scored 74.4, GPT-5.6 Luna 65.9 with the board's best intelligence at 95.3, Gemini 3.1 Flash-Lite 60.1, and DeepSeek V4.1 Flash 57.5 with the best calibration at 96.7 and the worst cost at $0.5937 per 1,000 decisions; the v1.4 sealed revision kept Jev first at 63.3 with two new entrants, JevK5 (62.0) and Hopper (59.4), directly behind it, and the v1.4.2 additions then put decider-4b v2 (64.13) at the top with Jev second at 63.29.
+- It measured the vendors too: on the v1.2 board Jev 1.13.0 scored 74.4, GPT-5.6 Luna 65.9 with the board's best intelligence at 95.3, Gemini 3.1 Flash-Lite 60.1, and DeepSeek V4.1 Flash 57.5 with the best calibration at 96.7 and the worst cost at $0.5937 per 1,000 decisions; the v1.4 sealed revision kept Jev first at 63.3 with two new entrants, JevK5 (62.0) and Hopper (59.4), directly behind it, and the v1.4.2 and v1.4.2.1 additions then put decider-4b v2 (64.13) and then Plumb-4B (65.84) at the top with Jev third at 63.29.
 - Combination experiments (confidence cascades, committees, best-of-n) are reported separately in RESULTS-COMBINATIONS.md, and none changed the ranked board, which is the negative result a lazy benchmark would have omitted.
 - The limitations are stated in the launch post itself: English-only, latency from one German server, a disclosed times-two adjustment for self-hosted and demo endpoints, held-out prompts still reaching evaluated services, and roughly one-point gaps being noise.
 
@@ -64,7 +65,7 @@ The benchmark is free to run; the systems it scores bill at their own rates.
 ## Bottom line
 
 **Recommended as the category's first-stop scoreboard, read with the thread open in another tab, and as the artifact to re-run if you want to check any of its rows yourself.**
-Not as grounds for a procurement decision, and not as a refutation of Jev: Jev held first across both boards, but a sealed-decision revision that erased most of the open replicas' standing in one pass is a reason to demand replication, not a conclusion.
+Not as grounds for a procurement decision, and not as a refutation of Jev: Jev held first until the v1.4.2.1 point release put two LoRA stacks ahead of it, and a sealed-decision revision that erased most of the open replicas' standing in one pass is a reason to demand replication, not a conclusion.
 The disagreeable claim I will defend: this benchmark's most important number is not Jev's 74.4, it is DeepSeek V4.1 Flash's 96.7 calibration and Luna's 95.3 intelligence, because they show the frontier models this category claims to beat are one score column away from competing, which should make everyone here uncomfortable.
 
 ## Changes
@@ -72,6 +73,7 @@ The disagreeable claim I will defend: this benchmark's most important number is 
 - 2026-09-22 - Created from the entrant scan after the 2026-09-22 Show HN thread reached 92 points; accepted as category infrastructure despite the sub-100-point thread, with the author-standing gap and the thread's methodology criticisms recorded.
 - 2026-09-25 - Recorded the v1.4.0-v1.4.2 releases (September 23-24): 308 fresh sealed decisions and a public-to-sealed gap penalty re-scored the board, Jev held first (63.3) with new entrants JevK5 and Hopper behind, SemIf fell from 73.1 to 47.7; refreshed stars (121), forks (13), pushed date (2026-09-24), and the thread (145 points, now over the bar).
 - 2026-09-26 - The v1.4.2 point release (September 24) added eleven systems and a new #1: decider-4b v2 (Mapika) 64.13, Jev second at 63.29 with the top five's best intelligence and calibration, JevK5, Cygnet, and Hopper rounding out the five; refreshed stars (136), forks (14), pushed date (2026-09-25), and the thread (147 points); the board now holds 93 systems, 89 ranked, with a v1.4.3 roster pending.
+- 2026-09-27 - The v1.4.2.1 point release added Plumb-4B (crh225, JevK5 v0.2 plus LoRA), which took the top spot at 65.84 and pushed Jev to third at 63.29, still the top five's best intelligence and calibration; refreshed stars (141), forks (15), pushed date (2026-09-27), and the thread (149 points); the board holds 94 systems, 90 ranked.
 
 ## See also
 
@@ -83,9 +85,10 @@ The disagreeable claim I will defend: this benchmark's most important number is 
 
 ## References
 
-- https://github.com/fstandhartinger/jevbench - repository: MIT, created 2026-09-19, 136 stars, 14 forks, pushed 2026-09-25 (GitHub API, as of 2026-09-26)
+- https://github.com/fstandhartinger/jevbench - repository: MIT, created 2026-09-19, 141 stars, 15 forks, pushed 2026-09-27 (GitHub API, as of 2026-09-27)
 - https://raw.githubusercontent.com/fstandhartinger/jevbench/main/README.md - the v1.4.1 score design, the 220 hard decisions frozen and hashed, the honorable-mention rule, and the option-order finding
 - https://raw.githubusercontent.com/fstandhartinger/jevbench/main/results/v1.4.2/jevbench-v1.4.2-results.json - the v1.4.2 aggregate board (93 systems, 89 ranked, sealed-decision blending), read together with its release notes in docs/RELEASE-v1.4.2.md
+- https://raw.githubusercontent.com/fstandhartinger/jevbench/main/results/v1.4.2.1/jevbench-v1.4.2.1-results.json - the v1.4.2.1 aggregate board (94 systems, 90 ranked) behind the Plumb-4B addition, read together with docs/RELEASE-v1.4.2.1.md
 - https://raw.githubusercontent.com/fstandhartinger/jevbench/main/RESULTS-v1.2.md - the full 48-row v1.2 board with per-axis scores, endpoints, and the times-two adjustment note
 - https://raw.githubusercontent.com/fstandhartinger/jevbench/main/results/v1.2/jevbench-v1.2-results.json - the frozen results artifact behind the board
-- https://news.ycombinator.com/item?id=49800574 - the launch thread (147 points as of 2026-09-26, 2026-09-22, 22 comments at creation), its methodology and model-set objections the critical source (fetched via the Algolia items API)
+- https://news.ycombinator.com/item?id=49800574 - the launch thread (149 points as of 2026-09-27, 2026-09-22, 22 comments at creation), its methodology and model-set objections the critical source (fetched via the Algolia items API)

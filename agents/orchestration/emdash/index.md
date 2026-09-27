@@ -1,7 +1,7 @@
 ---
 title: Emdash
 created: 2026-08-24
-updated: 2026-09-26
+updated: 2026-09-27
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, orchestration, git-worktrees, open-source, desktop-app]
 readability: 3
@@ -70,6 +70,7 @@ My disagreeable claim: Emdash's SSH support matters more than any feature matrix
 - 2026-09-20 - Recorded the v1.2.5 release (September 18), which added multiple accounts per integration and custom agent executable selection.
 - 2026-09-22 - Recorded the v1.2.6 release (September 21), landing one day after v1.2.5, and refreshed fork counts.
 - 2026-09-24 - Corrected the v1.2.6 gap to three days after v1.2.5 (2026-09-18), per the releases API; v1.2.6 remains the latest release.
+- 2026-09-27 - Linked the Agentic Development Environment Landscape tracker, the mid-2026 snapshot that named Emdash a leader.
 
 ## See also
 
@@ -86,4 +87,3 @@ My disagreeable claim: Emdash's SSH support matters more than any feature matrix
 - https://emdash.com/cloud - cloud workspaces positioning
 - https://news.ycombinator.com/item?id=47140322 - founders' launch thread: design, business model, skepticism
 - https://blog.cloudflare.com/emdash-wordpress/ - the unrelated Cloudflare EmDash name collision
-- 2026-09-27 - Linked the Agentic Development Environment Landscape tracker, the mid-2026 snapshot that named Emdash a leader.

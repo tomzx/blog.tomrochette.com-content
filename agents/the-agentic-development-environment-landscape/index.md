@@ -136,12 +136,13 @@ The ADE is not a passing fashion; it is the productized answer to a real bottlen
 
 - 2026-07-04 - Drafted as a corpus post in the owner's working tree, never committed.
 - 2026-09-27 - Moved into the agents section at the owner's instruction and published: draft and type markers dropped, link depths fixed for the section root, the leaderboard framed as the mid-2026 snapshot it is, and cross-links added to the Orchestration category that tracks the live membership.
+- 2026-09-27 - Fixed two malformed See also bullets (stray leading dashes) and re-verified every external link.
 
 ## See also
 
 - [Managing Many Concurrent LLM Agent Sessions](../../managing-many-llm-agent-sessions/index.md) - the human-supervision bottleneck that makes ADEs necessary
-- - - [Rethinking Code Review in the Age of LLMs](../../rethinking-code-review-in-the-age-of-llms/index.md) - the review surface ADEs have to rebuild
-- - [The Codebase Gardener](../../the-codebase-gardener/index.md) - the human role when agents do most of the writing
+- [Rethinking Code Review in the Age of LLMs](../../rethinking-code-review-in-the-age-of-llms/index.md) - the review surface ADEs have to rebuild
+- [The Codebase Gardener](../../the-codebase-gardener/index.md) - the human role when agents do most of the writing
 - [Orchestration category](../orchestration/_index.md) - the live membership this snapshot feeds into
 - [Agentic Coding Tools Landscape](../agentic-coding-tools-landscape/index.md) - the maintained tool map over the same ground
 - [OpenChamber](../surfaces/openchamber/index.md) - the OpenCode-native control room, tracked as a surface

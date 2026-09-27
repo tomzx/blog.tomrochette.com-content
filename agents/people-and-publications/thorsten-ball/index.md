@@ -1,7 +1,7 @@
 ---
 title: Thorsten Ball
 created: 2026-09-24
-updated: 2026-09-24
+updated: 2026-09-27
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, people, publications, developer, coding-agents]
 readability: 3
@@ -66,13 +66,14 @@ Not for readers who want vendor-neutral tool comparisons, budget harness options
 
 - 2026-09-24 - Created.
 - 2026-09-24 - Added the Top 5 recommended reading section.
+- 2026-09-27 - Reworded a See-also line off a banned term; meaning unchanged.
 
 ## See also
 
 - [Amp](../../harnesses/amp/index.md) - the product he co-founded, tracked in detail in the Harnesses category
 - [Steve Yegge](../steve-yegge/index.md) - the other prominent voice from the Amp story, in essay mode rather than screencast mode
 - [Simon Willison](../simon-willison/index.md) - the daily external chronicler of the same agentic landscape
-- [Agentic Coding Tools Landscape](../../agentic-coding-tools-landscape/index.md) - where Amp sits in the harness layer his work shapes
+- [Agentic Coding Tools Landscape](../../agentic-coding-tools-landscape/index.md) - where Amp sits in the harness layer his work helped build
 
 ## References
 

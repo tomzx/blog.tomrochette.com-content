@@ -1,7 +1,7 @@
 ---
 title: Windsurf
 created: 2026-08-23
-updated: 2026-09-20
+updated: 2026-09-27
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, surfaces, ai-editors, cognition, devin]
 readability: 3
@@ -27,7 +27,7 @@ May 2025: OpenAI reached agreement to buy Windsurf for $3 billion.
 July 11, 2025: that deal was off and the CEO went to Google; a July 24 thread from an early employee claimed a payout of about 1% of what the shares were worth.
 July 14, 2025: Cognition signed the definitive agreement for the IP, product, trademark, brand, and team, citing $82M ARR, 350+ enterprise customers, and hundreds of thousands of daily active users.
 June 2026: Devin Desktop shipped, and the documentation domain now describes a Devin product.
-As of 2026-09-22 the windsurf.com domain itself 308-redirects to devin.ai/desktop, the clearest sign yet that the brand is being retired, and the transitional docs domain now funnels there too: docs.windsurf.com 308-redirects through /windsurf/getting-started into docs.devin.ai, which serves the Devin Desktop docs alone.
+As of 2026-09-27 the windsurf.com domain itself 308-redirects to devin.ai/desktop, the clearest sign yet that the brand is being retired, and the transitional docs domain now funnels there too: docs.windsurf.com 308-redirects through /windsurf/getting-started into docs.devin.ai, which serves the Devin Desktop docs alone.
 On September 2, 2026, Bloomberg reported that Cognition is closing a round of about $1 billion at roughly a $47 billion valuation, up from $26 billion three months earlier, with annualized revenue above $900 million, so the owner funding this transition has more momentum than ever.
 
 ## Strengths
@@ -40,7 +40,7 @@ On September 2, 2026, Bloomberg reported that Cognition is closing a round of ab
 ## Cautions
 
 - **You cannot buy Windsurf anymore, you buy Devin**: check whether your workflow survives an owner whose flagship is a cloud autonomous agent.
-- windsurf.com now 308-redirects to devin.ai/desktop; its pricing route rejected automated fetches on 2026-09-16 (429) and 2026-09-18 (404) but serves normally as of 2026-09-22, and the prices it exposes are for the Devin product, not the retired Windsurf plans; the docs at docs.devin.ai fetch normally.
+- windsurf.com now 308-redirects to devin.ai/desktop; its pricing route rejected automated fetches on 2026-09-16 (429) and 2026-09-18 (404) but serves normally again as of 2026-09-27, and the prices it exposes are for the Devin product, not the retired Windsurf plans; the docs at docs.devin.ai fetch normally.
 - The equity dispute thread is a reminder of how much human turbulence this product absorbed in 2025.
 - A rebrand in progress means docs, packages, and repositories still say windsurf in places; expect transitional breakage.
 
@@ -48,7 +48,7 @@ On September 2, 2026, Bloomberg reported that Cognition is closing a round of ab
 
 **The classic Windsurf consumer plans are gone with the rebrand; Devin Desktop authenticates with a Devin account and meters usage as credits.**
 Enterprise relationships carry over through Cognition sales.
-The Devin pricing page, which 429ed automated fetches on 2026-09-16 and 404ed on 2026-09-18, now serves and exposes the Devin ladder: Free $0/month, Pro $20/month, Max $200/month, Team $80/month plus $40/month per full dev seat, and Enterprise by sales contact, as of 2026-09-22 (re-fetched, same ladder).
+The Devin pricing page, which 429ed automated fetches on 2026-09-16 and 404ed on 2026-09-18, now serves and exposes the Devin ladder: Free $0/month, Pro $20/month, Max $200/month, Team $80/month plus $40/month per full dev seat, and Enterprise by sales contact, as of 2026-09-27 (re-fetched, same ladder).
 
 ## Price history
 
@@ -76,6 +76,7 @@ Not for new adoption: picking a brand mid-retirement means betting on one compan
 - 2026-09-16 - Recorded docs.windsurf.com resuming service as a redirect (308 via /windsurf/getting-started) into docs.devin.ai instead of returning 404.
 - 2026-09-18 - Re-probed the devin.ai pricing route (429 on September 16, 404 on September 18); plan prices remain unverified.
 - 2026-09-20 - devin.ai/pricing resumed serving (200 after the September 16 429 and September 18 404) and exposed the Devin tier prices, recorded in Pricing with a baseline Price history row.
+- 2026-09-27 - Re-confirmed the windsurf.com and docs.windsurf.com redirects and the Devin ladder; unchanged.
 
 ## See also
 
@@ -87,8 +88,8 @@ Not for new adoption: picking a brand mid-retirement means betting on one compan
 
 - https://cognition.com/blog/windsurf - the July 14, 2025 acquisition agreement, ARR, and customer counts
 - https://cognition.com/blog/introducing-devin-desktop - the June 2, 2026 rebrand announcement
-- https://docs.devin.ai/desktop/getting-started - current product docs as Devin Desktop (package, harness, ACP, Cascade docs), now also the redirect target of docs.windsurf.com (308 through /windsurf/getting-started), as of 2026-09-22
-- https://devin.ai/pricing - the Devin tier prices re-observed on 2026-09-22, unchanged from the 2026-09-20 baseline
+- https://docs.devin.ai/desktop/getting-started - current product docs as Devin Desktop (package, harness, ACP, Cascade docs), now also the redirect target of docs.windsurf.com (308 through /windsurf/getting-started), as of 2026-09-27
+- https://devin.ai/pricing - the Devin tier prices re-observed on 2026-09-27, unchanged from the 2026-09-20 baseline
 - https://theedgemalaysia.com/node/816527 - Bloomberg's report via The Edge Malaysia, the $1 billion round at a $47 billion valuation, September 2, 2026
 - https://news.ycombinator.com/item?id=44536988 - the July 2025 deal-collapse and CEO-to-Google thread
 - https://news.ycombinator.com/item?id=44673296 - the early-employee equity dispute thread

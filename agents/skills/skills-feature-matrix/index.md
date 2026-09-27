@@ -1,7 +1,7 @@
 ---
 title: "Skills Feature Matrix"
 created: 2026-08-24
-updated: 2026-09-25
+updated: 2026-09-27
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, comparison, skills, agent-extensions]
 readability: 3
@@ -50,7 +50,7 @@ The spec leaves security to each harness (Gemini consent, OpenCode patterns, Cod
 The standard needs no registry at all, skills.sh won the slot by wrapping git and symlinking into more than 70 harnesses, its leaderboard counts opt-out CLI telemetry rather than ratings, and one company controls the ranking surface of a nominally open ecosystem, which is the cell I would watch.
 
 **The Agent-Native column is the first pack in the matrix, and it reads differently from the five infrastructure columns: it consumes the spec's portable core, adds no enforcement of its own, and its pull is toward Builder.io's own stack, the hosted Dispatch MCP endpoint and the hosted plans app its flagship skills default to.**
-The cell to watch is stewardship: two repos whose READMEs say MIT at 4.4k and 6.8k stars (the framework has kept climbing since, and GitHub still detects no license there) with still no independent coverage as of 2026-09-25, so the pack is one company's opinion on a multiple-releases-a-day cadence.
+The cell to watch is stewardship: two repos whose READMEs say MIT at 4.4k and 6.8k stars (the framework has kept climbing since, npm now 0.3.7, and GitHub still detects no license there) with still no independent coverage as of 2026-09-25, so the pack is one company's opinion on a multiple-releases-a-day cadence.
 
 **Everything is free, and the missing row is versioning.**
 No column costs anything to use, but the spec has no version or dependency story, OpenCode has none, Anthropic versions only through its Skills API, and pinning is left to git discipline or third parties like Skilleton.
@@ -74,6 +74,7 @@ No column costs anything to use, but the spec has no version or dependency story
 - 2026-09-24 - Removed the verification preamble line on owner request.
 - 2026-09-25 - Refreshed the Agent-Native figures in the reading prose (framework at 6.8k stars and still climbing, license still undetected, npm now 0.3.1); no cells moved.
 - 2026-09-25 - Re-sorted the columns by member title, moving Agent Skills open standard ahead of Agent-Native (space before hyphen in the case-insensitive title ordering); no cell content changed.
+- 2026-09-27 - Refreshed the Agent-Native figures in the reading prose (npm now 0.3.7); no cells moved.
 
 ## See also
 

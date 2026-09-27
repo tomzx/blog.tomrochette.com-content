@@ -1,7 +1,7 @@
 ---
 title: OpenChamber
 created: 2026-08-24
-updated: 2026-09-26
+updated: 2026-09-27
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, surfaces, agentic-development-environments, opencode, open-source]
 readability: 3
@@ -65,6 +65,7 @@ Not for anyone who wants a polished IDE experience or harness choice beyond Open
 - 2026-09-20 - Recorded v1.24.2 (startup and reconnect memory fixes, session waiting indicators) as the latest release and refreshed stars to 10,100.
 - 2026-09-24 - Recorded the v2.0 GA: v2.0.0 shipped September 23 ("OpenCode 2 and instant settings", promoting the v2-preview line) and v2.0.1 followed September 24 as the new latest release; stars refreshed to 10,509 and forks to 1,154.
 - 2026-09-26 - Recorded v2.0.2 (September 26, cleaner chat timeline rendering plus startup, worktree-config, and mobile relay fixes) as the new latest release and refreshed stars to 10,622.
+- 2026-09-27 - Linked the Agentic Development Environment Landscape tracker, whose OpenCode-native section is OpenChamber.
 
 ## See also
 
@@ -81,4 +82,3 @@ Not for anyone who wants a polished IDE experience or harness choice beyond Open
 - https://github.com/openchamber/openchamber/releases/tag/v2.0.2 - the latest release (September 26, 2026); the v1 release line ended at v1.24.2 on September 18
 - https://docs.openchamber.dev/ - install and configuration documentation
 - https://news.ycombinator.com/item?id=49233448 - the August 2026 launch discussion
-- 2026-09-27 - Linked the Agentic Development Environment Landscape tracker, whose OpenCode-native section is OpenChamber.

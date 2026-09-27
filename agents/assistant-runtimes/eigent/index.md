@@ -1,7 +1,7 @@
 ---
 title: Eigent
 created: 2026-08-30
-updated: 2026-09-20
+updated: 2026-09-27
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, assistant-runtimes, cowork, multi-agent, open-source]
 readability: 3
@@ -24,7 +24,7 @@ By Eigent AI (EIGENT UK LTD), founded by Guohao Li, who also founded CAMEL-AI; f
 
 ## Status
 
-Active and maturing: 15,418 stars, 1,836 forks, 236 open issues as of 2026-09-24, created 2025-07-29, pushed today, v1.0.4 released 2026-09-04.
+Active and maturing: 15,430 stars, 1,837 forks, 234 open issues as of 2026-09-27, created 2025-07-29, pushed 2026-09-26, v1.0.5 released 2026-09-25.
 **The smallest community of the Cowork trio, and the launch thread matters: the "ranked top 1 on GAIA benchmark" claim referred to the predecessor project OWL, the founder acknowledged it, and 1-karma accounts posted praise.**
 
 ## Strengths
@@ -70,6 +70,7 @@ Not for buyers who need vendor accountability history, and not for the quick-sta
 - 2026-09-07 - Cowork reference moved to claude.com/product/cowork.
 - 2026-09-18 - Recorded Claude Cowork merging into Claude chat itself (announced 2026-09-16), refreshing the comparison baseline and adoption numbers.
 - 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
+- 2026-09-27 - Recorded v1.0.5 (released 2026-09-25), the first release since v1.0.4, with refreshed adoption numbers.
 
 ## See also
 

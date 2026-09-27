@@ -18,12 +18,12 @@ ZeroClaw is zeroclaw-labs' personal agent runtime: a single Rust binary (dual MI
 
 Install with a curl script (or a Rust-free PowerShell path on Windows), run `zeroclaw quickstart`, and one binary becomes the assistant: providers span Anthropic, OpenAI, Ollama, and roughly twenty others, channels span Discord, Telegram, Matrix, email, voice, webhooks, and your own CLI, and tools cover shell, browser, HTTP, hardware, and custom MCP servers.
 Everything runs locally with your keys in your workspace, and the docs ship as a translated book with the architecture and a stated four-opinion philosophy.
-An Android port ([ZeroClaw-Android](https://github.com/Natfii/ZeroClaw-Android), 305 stars) ran agents 24/7 on your phone with a native Rust core and 25+ providers, but its owner archived the repository read-only in March 2026, judging the near-fully AI-generated codebase too unsafe to keep driving, and community threads still run ZeroClaw itself on a Raspberry Pi.
+An Android port ([ZeroClaw-Android](https://github.com/Natfii/ZeroClaw-Android), 308 stars) ran agents 24/7 on your phone with a native Rust core and 25+ providers, but its owner archived the repository read-only in March 2026, judging the near-fully AI-generated codebase too unsafe to keep driving, and community threads still run ZeroClaw itself on a Raspberry Pi.
 
 ## Status
 
 Active and large, but quietly so.
-As of 2026-09-24: 32,877 stars and 4,953 forks since creation on 2026-02-13, pushed today, 757 open issues, Apache-2.0/MIT dual licensed.
+As of 2026-09-27: 32,898 stars and 4,954 forks since creation on 2026-02-13, pushed today, 763 open issues, Apache-2.0/MIT dual licensed.
 **Its HN footprint is nearly empty (threads at 2 to 8 points), so the star growth ran through Discord and word of mouth, a missing community discussion record that is itself the signal to verify before relying on it.**
 
 ## Strengths
@@ -72,7 +72,7 @@ The disagreeable claim I will defend: an assistant you cannot read is safer as a
 ## References
 
 - https://github.com/zeroclaw-labs/zeroclaw - README: runtime model, providers, channels, tools
-- https://api.github.com/repos/zeroclaw-labs/zeroclaw - stars, forks, issues as of 2026-09-22
+- https://api.github.com/repos/zeroclaw-labs/zeroclaw - stars, forks, issues as of 2026-09-27
 - https://docs.zeroclaw.com/master/en/introduction.html - the documentation book
 - https://github.com/Natfii/ZeroClaw-Android - the Android port, archived read-only in March 2026 (305 stars)
 - https://news.ycombinator.com/item?id=47047192 - the launch-era thread (6 points, the thin-footprint evidence)

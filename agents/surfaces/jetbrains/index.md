@@ -1,7 +1,7 @@
 ---
 title: JetBrains IDEs
 created: 2026-08-23
-updated: 2026-09-20
+updated: 2026-09-27
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, surfaces, ai-editors, jetbrains]
 readability: 3
@@ -43,7 +43,7 @@ The AI layer was unbundled into a separate, removable plugin in March 2024 after
 
 ## Pricing
 
-AI Pro is $8.33 per user/month (annual) and AI Ultimate is $25 per user/month, metered in AI credits, re-observed on 2026-09-22, when the junie.jetbrains.com page again exposed both numbers to static fetch after briefly hiding them on 2026-09-20.
+AI Pro is $8.33 per user/month (annual) and AI Ultimate is $25 per user/month, metered in AI credits, re-observed on 2026-09-27 (the junie.jetbrains.com page again exposed both numbers to static fetch, as it also did on 2026-09-22 after briefly hiding them on 2026-09-20).
 **Junie BYOK bypasses metering at provider rates**, and the tier starts free with 5 credits and no card.
 
 ## Price history
@@ -67,6 +67,7 @@ Not for anyone who needs an open editor or a large community ecosystem.
 
 - 2026-08-23 - Created as one of the five seed notes of the Surfaces category.
 - 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
+- 2026-09-27 - Re-confirmed the AI Pro and AI Ultimate prices on junie.jetbrains.com; unchanged.
 
 ## See also
 
@@ -78,7 +79,7 @@ Not for anyone who needs an open editor or a large community ecosystem.
 ## References
 
 - https://www.jetbrains.com/ai/ - the AI product family entry point
-- https://junie.jetbrains.com/ - plans, credits, and BYOK, as of 2026-09-22
+- https://junie.jetbrains.com/ - plans, credits, and BYOK, as of 2026-09-27
 - https://blog.jetbrains.com/junie/2025/01/meet-junie-your-coding-agent-by-jetbrains/ - Junie's January 2025 launch
 - https://news.ycombinator.com/item?id=39238666 - the bundling outcry thread (February 2024)
 - https://news.ycombinator.com/item?id=39636060 - the March 2024 unbundling thread

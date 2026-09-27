@@ -19,7 +19,7 @@ Each column links to the full research note; every cell traces to a source cited
 
 ## The matrix
 
-| Feature | [Claude Code hooks](../claude-code-hooks/index.md) | [GitHub Agentic Workflows](../github-agentic-workflows/index.md) | [Copilot automations](../copilot-automations/index.md) | [n8n](../n8n/index.md) |
+| Feature | [Claude Code hooks](../claude-code-hooks/index.md) | [GitHub Agentic Workflows](../github-agentic-workflows/index.md) | [GitHub Copilot automations](../copilot-automations/index.md) | [n8n](../n8n/index.md) |
 | --- | --- | --- | --- | --- |
 | Kind | harness feature | compiled framework | cloud service | platform, self-host or cloud |
 | Trigger types | lifecycle events (~30) | repo events, schedules | repo events, schedules | webhooks, schedules, chat, app events |

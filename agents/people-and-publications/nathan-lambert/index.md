@@ -1,7 +1,7 @@
 ---
 title: Nathan Lambert (Interconnects)
 created: 2026-08-29
-updated: 2026-09-22
+updated: 2026-09-27
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=big-pickle, llm=glm-5.3-flash, people, publications, open-models, post-training, agents]
 readability: 3
@@ -22,8 +22,8 @@ His [Get Good at Agents](https://www.interconnects.ai/p/get-good-at-agents) (202
 
 ## Status
 
-Active and prolific as of 2026-09-22.
-The newsletter reports over 83,000 subscribers as of 2026-09-22, and his most recent posts are "The current balance of power in open models" (2026-09-21), the expanded form of testimony he prepared for Congress, and a podcast with JS Denain of Epoch AI (2026-09-22), following the RSI-skeptic essay "Why I still haven't bought into true RSI" (2026-09-19).
+Active and prolific as of 2026-09-27.
+The newsletter reports over 84,000 subscribers as of 2026-09-27, and his most recent posts are "The current balance of power in open models" (2026-09-21), the expanded form of testimony he prepared for Congress, and a podcast with JS Denain of Epoch AI (2026-09-22), following the RSI-skeptic essay "Why I still haven't bought into true RSI" (2026-09-19).
 He released the [RLHF Book](https://rlhfbook.com/) ('26) with a companion post-training course, and his site links to open-model tools he maintains: the Artifacts Hub, an Adoption Dashboard, and the ATOM Project.
 He announced he is "currently doing something new" after leaving Ai2.
 
@@ -72,6 +72,7 @@ Not for anyone who wants a mostly-vendor-neutral or application-level overview; 
 - 2026-09-20 - New essay "Why I still haven't bought into true RSI" (2026-09-19) ended the quiet stretch after the September 8 to 11 posts.
 - 2026-09-22 - Two posts after the RSI essay: "The current balance of power in open models" (2026-09-21, expanded Congressional testimony) and the Epoch AI podcast with JS Denain (2026-09-22).
 - 2026-09-24 - Added the Top 5 recommended reading section.
+- 2026-09-27 - Subscriber count moved to over 84,000; no new posts since the September 21 to 22 pair.
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: Agent Sandbox
 created: 2026-08-30
-updated: 2026-09-25
+updated: 2026-09-27
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, sandboxing, kubernetes, isolation, open-source]
 readability: 3
@@ -23,7 +23,7 @@ Apache-2.0, developed under Kubernetes SIG Apps with Google Cloud backing, built
 
 ## Status
 
-Young but institutionally backed: 4,021 stars, 526 forks, 200 open issues and PRs as of 2026-09-25, created 2025-08-12, pushed 2026-09-24.
+Young but institutionally backed: 4,037 stars, 528 forks, 202 open issues and PRs as of 2026-09-27, created 2025-08-12, pushed 2026-09-25.
 v1.0.0 released 2026-08-28 with v1.0.1 on 2026-09-03, v1.0.2 on 2026-09-11, v1.0.3 on 2026-09-17, and v1.0.4 on 2026-09-24, twenty-four releases since October 2025, 1,029 commits.
 **The v1.0.0 tag is not API stability: the API is `v1beta1`, v1alpha1 was removed in the same release, and upgrades from older versions require a documented four-step migration.**
 
@@ -62,6 +62,7 @@ Not for local developer sandboxing, and not for anyone expecting the 1.0 tag to 
 - 2026-08-30 - Created in the Sandboxing category seed with the isolates-nothing-by-itself threat model.
 - 2026-09-18 - v1.0.3 released 2026-09-17 (configurable TLS controls, sandboxd process-group cleanup, execution-scoped credentials and egress-policy blueprints), the release count moving from twenty-two to twenty-three and commits from 987 to 997, with growth refreshed (3,936 stars, 206 open issues and PRs).
 - 2026-09-25 - v1.0.4 released 2026-09-24, the release count moving to twenty-four and commits to 1,029, with growth refreshed (4,021 stars, 200 open issues and PRs).
+- 2026-09-27 - Growth refreshed (4,037 stars, 528 forks, 202 open issues and PRs, pushed 2026-09-25); v1.0.4 remains the latest release.
 
 ## See also
 

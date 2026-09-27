@@ -1,7 +1,7 @@
 ---
 title: "Fluent"
 created: 2026-08-29
-updated: 2026-09-13
+updated: 2026-09-27
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=big-pickle, llm=glm-5.3-flash, software-factory, self-improving, autonomous-agents]
 readability: 3
@@ -20,7 +20,7 @@ Each run of a Work Item is an Attempt that a Writer, parallel Reviewers, a deter
 
 ## Status
 
-Active and meaningfully developed: 104 stars and 5 forks since creation on 2026-07-10, 1,965 commits, and v0.4.0 released 2026-09-08 (still the newest release) per the GitHub API as of 2026-09-18.
+Active and meaningfully developed: 107 stars and 5 forks since creation on 2026-07-10, 1,965 commits, and v0.4.0 released 2026-09-08 (still the newest release) per the GitHub API as of 2026-09-27.
 v0.4.0 clarified which role owns each required action, improved how test evidence is matched, and made long-running work safer to resume and cancel; v0.3.0 (2026-08-31) had added durable Slack collaboration for planning, approvals, and candidate handoff.
 It is a focused single-author project with a real Discord community, not the biggest crowd but steadily shipped.
 The governance and self-improvement loop are unusually detailed for the category, which is the design bet the note weighs.
@@ -34,7 +34,7 @@ The governance and self-improvement loop are unusually detailed for the category
 
 ## Cautions
 
-- **Young and opinionated**: it is pre-1.0 with 104 stars, and its EARS behavior specs plus multi-layer pipeline are a heavier ceremony than most teams adopt.
+- **Young and opinionated**: it is pre-1.0 with 107 stars, and its EARS behavior specs plus multi-layer pipeline are a heavier ceremony than most teams adopt.
 - **macOS-only today**, and it is a Rust binary plus skill bootstrap, so the on-ramp is not as trivial as stamping a Python pip package.
 - **Remote execution needs AWS Fargate**, which is a real dependency for teams that want off-laptop runs.
 - **The tight loop is also the lock-in**: conventions like Behavior Specifications and Expertise are Fluent-specific, so leaving means remigrating the repository's process, not just uninstalling.

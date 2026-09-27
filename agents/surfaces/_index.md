@@ -10,9 +10,9 @@ readability: 3
 
 The editors and IDEs where agents meet your code, from AI-native platforms and agentic IDEs to the neutral defaults, with the acquisitions and sunsets recorded where they happened.
 
-- [Antigravity](antigravity/index.md) - Google's free multi-agent platform (2.0, IDE, CLI, SDK), generous tier, incident-heavy first year.
 - [Continue](continue/index.md) - the open-source Copilot alternative across VS Code, JetBrains, and CLI, acquired by Cursor in June 2026, now read-only.
 - [Cursor](cursor/index.md) - Anysphere's AI-native editor platform, acquired by SpaceX in August 2026, with OpenAI winding down its model access from November 12.
+- [Google Antigravity](antigravity/index.md) - Google's free multi-agent platform (2.0, IDE, CLI, SDK), generous tier, incident-heavy first year.
 - [JetBrains IDEs](jetbrains/index.md) - the analysis-heavy IDEs whose AI layer, AI Assistant plus Junie, is removable and provider-agnostic.
 - [Kiro](kiro/index.md) - AWS's spec-driven agentic IDE, credits-metered, from a 50-credit free tier to $200/month.
 - [OpenChamber](openchamber/index.md) - the MIT open-source session cockpit around OpenCode, worktrees and multi-model fusion included.

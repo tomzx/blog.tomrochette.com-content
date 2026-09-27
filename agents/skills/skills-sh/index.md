@@ -1,7 +1,7 @@
 ---
 title: skills.sh
 created: 2026-08-24
-updated: 2026-09-26
+updated: 2026-09-27
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, skills, registries, vercel, agent-extensions]
 readability: 3
@@ -24,11 +24,11 @@ The site adds the leaderboard, per-agent and per-topic pages, badges, and packs 
 ## Status
 
 **Active and dominant among third-party registries.**
-Top of the all-time leaderboard as of 2026-09-26: find-skills (vercel-labs) at 3.6M installs, grill-me (mattpocock/skills) at 1.2M, with the next three slots still held by mattpocock/skills entries (grill-with-docs, improve-codebase-architecture, and tdd), while agent-browser (vercel-labs/agent-browser) holds sixth at 946.3K, past frontend-design (anthropics/skills) at 924.0K in seventh, and setup-matt-pocock-skills (mattpocock/skills) rounds out the top eight at 893.6K.
+Top of the all-time leaderboard as of 2026-09-27: find-skills (vercel-labs) at 3.6M installs, grill-me (mattpocock/skills) at 1.2M, with the next three slots still held by mattpocock/skills entries (grill-with-docs, improve-codebase-architecture, and tdd), while agent-browser (vercel-labs/agent-browser) holds sixth at 952.5K, past frontend-design (anthropics/skills) at 926.8K in seventh, and setup-matt-pocock-skills (mattpocock/skills) rounds out the top eight at 897.1K.
 Official publisher entries include microsoft/azure-skills, supabase, prisma, and heygen-com/hyperframes.
-The publisher mix has gone enterprise: open.feishu.cn (Lark) is the largest publisher at 16.0M aggregate installs, larksuite/cli and microsoft/azure-skills both sit in the millions, and prime-skills/runcomfy-agent-skills adds several million more, all as of 2026-09-26.
+The publisher mix has gone enterprise: open.feishu.cn (Lark) is the largest publisher at 16.0M aggregate installs, larksuite/cli and microsoft/azure-skills both sit in the millions, and prime-skills/runcomfy-agent-skills adds several million more, all as of 2026-09-27.
 **Treat those publisher totals with suspicion: the page showed prime-skills with two different totals (4.2M and 2.9M) at the same moment, and azure-skills swung from 7.1M to 2.4M to 7.7M across the three days after the downward recompute first seen 2026-09-20, so the chips are view-scoped sums of whatever rows the leaderboard currently renders, not stable per-publisher aggregates.**
-The pattern held again on 2026-09-26: azure-skills swung to 9.0M, and larksuite/cli and runcomfy each still showed multiple different totals on one page.
+The pattern held again on 2026-09-27: azure-skills swung to 8.5M, and larksuite/cli (4.1M and 4.0M) and runcomfy (2.5M and 2.1M) each still showed two different totals on one page.
 The nearest standalone competitor I had verified, skillregistry.io, listed 61 skills as of 2026-09-08, went dark by 2026-09-09, and is back online as of 2026-09-12 with 61 skills (still up as of 2026-09-26), 16,665 total downloads, and 18 contributors, still orders of magnitude behind skills.sh on installs.
 
 ## Strengths
@@ -40,7 +40,7 @@ The nearest standalone competitor I had verified, skillregistry.io, listed 61 sk
 ## Cautions
 
 - **Install counts measure fashion, not fitness: telemetry counts CLI runs, anyone can drive their own numbers, and the docs state plainly that the quality and security of listed skills are not guaranteed.**
-- The audit page shows the gap: as of 2026-09-26 the open.feishu.cn fleet still sat Pending across all three scanners (25 of the first 50 rows), with no remediation history, and the Snyk-Critical entry from earlier this week (genmedia-labs/skills' image-to-video, Safe on Gen and clean on Socket but Critical on Snyk) now sits at row 45, while azure-validate, Snyk-flagged Critical in early September and remediated to Pass by 2026-09-18, remains below the audits page's 50-row window, its Pass status visible only on its own skill page.
+- The audit page shows the gap: as of 2026-09-27 the open.feishu.cn fleet still sat Pending across all three scanners (25 of the first 50 rows), with no remediation history, and the Snyk-Critical entry from earlier this week (genmedia-labs/skills' image-to-video, Safe on Gen and clean on Socket but Critical on Snyk) now sits at row 44, while azure-validate, Snyk-flagged Critical in early September and remediated to Pass by 2026-09-18, remains below the audits page's 50-row window, its Pass status visible only on its own skill page.
 - Skills are instructions and scripts that agents execute, a risk Anthropic's engineering post calls out for skills generally, so a leaderboard install is a supply-chain decision.
 - Telemetry is opt-out rather than opt-in, and one company controls the ranking surface of a nominally open ecosystem.
 
@@ -74,6 +74,7 @@ My disagreeable claim: marketplaces are the least interesting part of this ecosy
 - 2026-09-21 - The downward recompute extended to microsoft/azure-skills (7.1M to 2.4M aggregate installs), open.feishu.cn ticked back up to 16.4M, and the leaderboard and skillregistry.io figures were refreshed.
 - 2026-09-22 - Refreshed the leaderboard (frontend-design 913.6K, agent-browser 911.6K, setup-matt-pocock-skills 878.1K), reinterpreted the publisher chips as view-scoped sums after azure-skills swung back to 7.7M and prime-skills showed two totals on one page, and flagged a new Snyk-Critical skill (genmedia-labs image-to-video) in the audits window while the feishu fleet stays Pending.
 - 2026-09-25 - Refreshed the leaderboard (find-skills 3.6M; agent-browser 933.7K rose past frontend-design 919.9K), the publisher chips (open.feishu.cn 16.0M, azure-skills swinging again to 8.4M, larksuite/cli and runcomfy each showing two totals on one page), skillregistry.io (still up with 61 skills and 16,503 downloads), and the audits window (feishu fleet still Pending, the genmedia-labs image-to-video Snyk-Critical entry now at row 48).
+- 2026-09-27 - Refreshed the leaderboard (agent-browser 952.5K, frontend-design 926.8K, setup-matt-pocock-skills 897.1K; find-skills and grill-me unchanged), the publisher chips (azure-skills swinging again to 8.5M, larksuite/cli and runcomfy still showing two totals each), and the audits window (feishu fleet still Pending in 25 of the first 50 rows, the genmedia-labs image-to-video Snyk-Critical entry at row 44).
 
 ## See also
 
@@ -85,9 +86,9 @@ My disagreeable claim: marketplaces are the least interesting part of this ecosy
 ## References
 
 - https://vercel.com/blog/introducing-skills - launch announcement (2026-01-20)
-- https://skills.sh/ - leaderboard, install counts, supported agents, as of 2026-09-26
+- https://skills.sh/ - leaderboard, install counts, supported agents, as of 2026-09-27
 - https://skills.sh/docs - ranking method (CLI telemetry) and the security disclaimer
-- https://skills.sh/audits - Gen/Socket/Snyk audit columns, open.feishu.cn fleet still Pending in 25 of the first 50 rows and genmedia-labs image-to-video Snyk-Critical at row 45, as of 2026-09-26
+- https://skills.sh/audits - Gen/Socket/Snyk audit columns, open.feishu.cn fleet still Pending in 25 of the first 50 rows and genmedia-labs image-to-video Snyk-Critical at row 44, as of 2026-09-27
 - https://www.skills.sh/microsoft/azure-skills/azure-validate - azure-validate still Pass on all three scanners via its detail page, as of 2026-09-25
 - https://github.com/vercel-labs/skills - CLI source, agent path table, telemetry opt-out, 32,502 stars as of 2026-09-26
 - https://skillregistry.io/ - nearest standalone competitor, back online 2026-09-12 and still up with 61 skills and 16,665 downloads as of 2026-09-26

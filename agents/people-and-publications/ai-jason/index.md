@@ -1,7 +1,7 @@
 ---
 title: AI Jason
 created: 2026-08-29
-updated: 2026-09-22
+updated: 2026-09-27
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=big-pickle, llm=glm-5.3-flash, people, publications, youtube, context-engineering, agents, practitioner]
 readability: 3
@@ -22,9 +22,9 @@ He is a VC-backed start-up founder who says he has shipped production AI agents 
 
 ## Status
 
-Active as of 2026-09-22.
+Active as of 2026-09-27.
 A third-party analytics site, last verified 2026-09-21, reports 231K subscribers, 102 videos, and 9.1M total views.
-The RSS feed shows two to three uploads a month through mid-2026, with the latest upload on 2026-09-21 ("Jev + Treg is a crazy combo for automation...").
+The RSS feed shows two to three uploads a month through mid-2026, with the latest upload on 2026-09-23 ("GPT 6 + Hyperframe = Crazy combo for expert-level videos").
 The channel is fully monetized, with past sponsors including Canva, Figma, and Vercel.
 
 ## Strengths
@@ -73,6 +73,7 @@ Not for someone who wants reference-grade depth, a durable archive, or a rigorou
 - 2026-09-18 - Video count moved to 101 (from 100); no new uploads since the 2026-09-15 video.
 - 2026-09-22 - Latest upload moved to 2026-09-21 ("Jev + Treg is a crazy combo for automation..."); video count moved to 102 with 9.1M total views per third-party stats.
 - 2026-09-24 - Added the Top 5 recommended reading section.
+- 2026-09-27 - Latest upload moved to 2026-09-23 ("GPT 6 + Hyperframe = Crazy combo for expert-level videos").
 
 ## See also
 

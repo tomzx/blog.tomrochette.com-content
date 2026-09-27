@@ -1,7 +1,7 @@
 ---
 title: Superset
 created: 2026-08-30
-updated: 2026-09-26
+updated: 2026-09-27
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, parallel-agents, ide, worktrees]
 readability: 3
@@ -75,6 +75,7 @@ Not for Windows or Linux-primary teams, and not for anyone who needs coordinated
 - 2026-09-21 - Recorded the desktop v1.30.1 release (September 21), a fix release following v1.30.0, and refreshed star and tracker counts.
 - 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
 - 2026-09-22 - Recorded the desktop v1.30.2 release (September 22), the pricing page listing a mobile app among Pro features, and refreshed star and tracker counts.
+- 2026-09-27 - Linked the Agentic Development Environment Landscape tracker, the mid-2026 snapshot that named Superset a leader.
 
 ## See also
 
@@ -92,4 +93,3 @@ Not for Windows or Linux-primary teams, and not for anyone who needs coordinated
 - https://superset.sh/team - founders, batch, and the self-reported raise and adoption
 - https://docs.superset.sh - workspaces, CLI, SDK, MCP server, automations
 - https://news.ycombinator.com/item?id=48236770 - the launch thread with stability complaints and the Conductor-metering note
-- 2026-09-27 - Linked the Agentic Development Environment Landscape tracker, the mid-2026 snapshot that named Superset a leader.

@@ -70,6 +70,7 @@ My disagreeable claim: the isolation-plus-oversight bundle Air sells is now tabl
 - 2026-09-13 - Re-verified the subscription bundling claims on air.dev and noted the homepage still presents cloud and automations as upcoming while the docs ship them for organizations.
 - 2026-09-16 - Recorded release 262.834.41 (September 11), which removed the git-repository requirement, and refreshed the release, docs-check, and thin-HN-footprint dates.
 - 2026-09-22 - Recorded the air.dev repositioning: the changelog page now redirects to a homepage pitching Air as one system across IDE plugin, org web, Gateway CLI, and mobile, with Junie absorbed, and 262.834.41 remains the last verifiable release.
+- 2026-09-27 - Linked the Agentic Development Environment Landscape tracker, the mid-2026 snapshot whose incumbent analysis is Air.
 
 ## See also
 
@@ -90,4 +91,3 @@ My disagreeable claim: the isolation-plus-oversight bundle Air sells is now tabl
 - https://blog.jetbrains.com/air/2026/03/air-launches-as-public-preview-a-new-wave-of-dev-tooling-built-on-26-years-of-experience/ - the March 2026 public-preview announcement by Nik Tkachev
 - https://hn.algolia.com/api/v1/search?query=%22JetBrains+Air%22&tags=story - the three HN stories and their thin footprint, queried 2026-09-18
 - https://hn.algolia.com/api/v1/items/46350939 - the Fleet-abandonment story (2025-12-22, 3 points, 1 comment)
-- 2026-09-27 - Linked the Agentic Development Environment Landscape tracker, the mid-2026 snapshot whose incumbent analysis is Air.

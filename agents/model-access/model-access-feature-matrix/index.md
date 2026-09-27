@@ -1,7 +1,7 @@
 ---
 title: "Model Access Feature Matrix"
 created: 2026-09-26
-updated: 2026-09-26
+updated: 2026-09-27
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3-flash, comparison, model-access, llm-pricing]
 readability: 3
@@ -45,7 +45,7 @@ The catches cluster into two kinds: mechanical limits you can engineer around (c
 - Default BYOK loop across many providers: OpenRouter for breadth, Requesty if EU residency or budget governance is required.
 - First-party subscription loops: Claude plans, ChatGPT plans, Google AI plans, or SuperGrok, matched to the model family your daily driver uses.
 - One vendor's models all day: that vendor's plan (GLM, Kimi, MiniMax, Qwen), after checking the peak-hour mechanics against your working hours.
-- Open models at a flat ceiling: OpenCode Go or Synthetic for agent-shaped workloads, NanoGPT for breadth beyond coding, Chutes for the cheapest per-token open rates.
+- Open models at a flat ceiling: OpenCode Go or Synthetic for agentic workloads, NanoGPT for breadth beyond coding, Chutes for the cheapest per-token open rates.
 - Frontier models without a subscription: OpenCode Zen, paying the measured curation premium only where a mis-served provider would silently degrade your agent.
 - Raw speed: Cerebras Code, when it is in stock and your context fits the window.
 
@@ -54,6 +54,7 @@ The catches cluster into two kinds: mechanical limits you can engineer around (c
 - 2026-09-26 - Created with eleven columns when the owner-directed Model access category was seeded.
 - 2026-09-26 - Extended from eleven to thirteen columns with ChatGPT plans and Claude plans on owner instruction, re-sorted; the vendor consumer subscriptions that carry Claude Code and Codex joined the category.
 - 2026-09-26 - Extended from thirteen to sixteen columns with Qwen Coding Plan, Google AI plans, and SuperGrok on the owner's completeness question, re-sorted; every frontier vendor's subscription now has a column.
+- 2026-09-27 - Reworded a choosing bullet off a banned-term compound; meaning unchanged.
 
 ## See also
 

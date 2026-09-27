@@ -23,7 +23,7 @@ Deployment is self-hosted (free Community Edition) or n8n Cloud; the Webhook nod
 ## Status
 
 **Very active and heavily funded.**
-About 205k stars and 60.8k forks on GitHub as of 2026-09-24, with 24,000+ commits.
+About 206k stars and 60.9k forks on GitHub as of 2026-09-27, with 24,000+ commits.
 A $180M Series C (October 2025, led by Accel, with NVIDIA's NVentures) brought total funding to $240M at a $2.5B valuation.
 Caveat on maturity: the agents layer is in preview, not yet supported on self-hosted Enterprise, and queue mode does not work with agents.
 
@@ -81,7 +81,7 @@ My disagreeable claim: for scheduled and webhook-triggered coding-adjacent work,
 
 ## References
 
-- https://github.com/n8n-io/n8n - repository scale and fair-code licensing, as of 2026-09-24
+- https://github.com/n8n-io/n8n - repository scale and fair-code licensing, as of 2026-09-27
 - https://docs.n8n.io/build/build-and-manage-agents.md - agents feature: channels, schedules, sub-agents, preview limits
 - https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-base.webhook/ - webhook trigger semantics, auth, fail-open conditional
 - https://n8n.io/pricing/ - plan tiers and execution-based billing, as of 2026-09-24

@@ -1,7 +1,7 @@
 ---
 title: Epoch AI
 created: 2026-09-24
-updated: 2026-09-24
+updated: 2026-09-27
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, trackers-and-leaderboards, ai, datasets, trends]
 readability: 3
@@ -22,7 +22,7 @@ Its numbers are the citation of record for AI trend claims, used by Our World in
 
 ## Status
 
-Actively maintained at near-daily granularity: the data page was stamped "Updated Sep. 24, 2026", the day of verification, and its GitHub repositories show pushes the same day.
+Actively maintained at near-daily granularity: the data page was stamped "Updated Sep. 27, 2026" as of 2026-09-27, and its GitHub repositories show pushes as recent as the 2026-09-24 verification.
 HN traction is substantial and recurring: the FrontierMath launch drew 185 points in 2024, "FrontierMath was funded by OpenAI" drew 483 points in January 2025, and "Epoch confirms GPT5.4 Pro solved a frontier math open problem" drew 480 points in March 2026.
 Founded by Jaime Sevilla and collaborators; funding is donations (Coefficient Giving grants of $8.5M in 2025, $4.13M in 2024, and more, plus the Survival and Flourishing Fund, Jaan Tallinn, and Schmidt Sciences), with paid consultations disclosed on the transparency page.
 
@@ -58,6 +58,7 @@ My disagreeable claim: the FrontierMath episode made Epoch more trustworthy, not
 ## Changes
 
 - 2026-09-24 - Created.
+- 2026-09-27 - Data-page stamp refreshed to "Updated Sep. 27, 2026".
 
 ## See also
 

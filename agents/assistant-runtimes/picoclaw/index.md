@@ -23,9 +23,9 @@ It reached 20k stars in 17 days from a February 2026 start.
 ## Status
 
 Active, pre-1.0, and explicit about both.
-As of 2026-09-24: 30,012 stars and 4,454 forks since creation on 2026-02-04, pushed today, 38 open issues, v0.3.1 still the latest release (2026-07-03) after the v0.2.x line through May.
+As of 2026-09-27: 30,013 stars and 4,456 forks since creation on 2026-02-04, pushed 2026-09-24, 40 open issues, v0.3.1 still the latest release (2026-07-03) after the v0.2.x line through May.
 **The README carries two unusual banners: a do-not-deploy-to-production-before-v1.0 warning, and a scam notice that no official PicoClaw cryptocurrency exists and picoclaw.io is the only official domain, both signs of attention arriving faster than governance.**
-The official domain itself is currently broken: picoclaw.io's TLS certificate expired on 2026-09-10 and was still expired as of 2026-09-24, so the site fails certificate validation while docs.picoclaw.io keeps serving.
+The official domain itself is currently broken: picoclaw.io's TLS certificate expired on 2026-09-10 and was still expired as of 2026-09-27, so the site fails certificate validation while docs.picoclaw.io keeps serving.
 The naming ladder keeps extending below it (SmolClaw microvm, FemtoClaw for ESP32 and Raspberry Pi Pico), which tells you the size race became a meme.
 
 ## Strengths
@@ -33,7 +33,7 @@ The naming ladder keeps extending below it (SmolClaw microvm, FemtoClaw for ESP3
 - The footprint claim is real enough to change deployment thinking: 10-20MB RAM puts an assistant on hardware nothing else in the family can touch.
 - Hardware vendor stewardship means the software and the board ship as one story, including Android.
 - MCP support and a Web UI at this size is more surface than the memory number suggests.
-- 38 open issues at 30k stars is the tidiest tracker in the category.
+- 40 open issues at 30k stars is the tidiest tracker in the category.
 
 ## Cautions
 
@@ -75,8 +75,8 @@ My disagreeable claim: the size race is now the category's main axis of progress
 ## References
 
 - https://github.com/sipeed/picoclaw - README: footprint, architectures, security banners, release news
-- https://api.github.com/repos/sipeed/picoclaw - stars, forks, issues as of 2026-09-24
-- https://picoclaw.io - official site (the only official domain per the scam notice); its TLS certificate expired 2026-09-10 and remains expired as of 2026-09-24, so the docs domain is the working entry point
+- https://api.github.com/repos/sipeed/picoclaw - stars, forks, issues as of 2026-09-27
+- https://picoclaw.io - official site (the only official domain per the scam notice); its TLS certificate expired 2026-09-10 and remains expired as of 2026-09-27, so the docs domain is the working entry point
 - https://docs.picoclaw.io/ - official documentation
 - https://news.ycombinator.com/item?id=46955793 - the launch-era Show HN (11 points)
 - https://github.com/HKUDS/nanobot - the stated inspiration (48,437 stars)
