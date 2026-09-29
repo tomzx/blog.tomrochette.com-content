@@ -1,7 +1,7 @@
 ---
 title: "Agentic Coding Tools Landscape"
 created: 2026-08-22
-updated: 2026-09-27
+updated: 2026-09-29
 status: finished
 tags: [ai, llm, coding-agents, developer-tools, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 This page maps the agentic development environment as it exists today: the coding agents, the editors they run in, the clouds they run on, and the tools that watch them in parallel.
-Everything here was verified against live sources on 2026-09-27.
+Everything here was verified against live sources on 2026-09-29.
 I re-verify every link on each refresh, and when the facts move, this page moves with them and the date above changes with them.
 
 **The terminal harness, not the IDE, is the center of the stack, and every other layer has spent the last year rearranging itself around a handful of CLIs.**
@@ -31,10 +31,10 @@ Underneath all four sit the conventions that make the parts interchangeable: MCP
 ## Harnesses: the loop lives in the terminal
 
 **The harness, not the model, is the product you actually operate every day, and the big four have become platforms rather than tools.**
-[Claude Code](../harnesses/claude-code/index.md) runs in the terminal, in VS Code and JetBrains, as a desktop app, and on the web, with sessions that move between surfaces, subagents, skills, hooks, an Agent SDK, and scheduled cloud routines.
+[Claude Code](../harnesses/claude-code/index.md) runs in the terminal, in VS Code and JetBrains, as a desktop app, and on the web, with sessions that move between surfaces, subagents, skills, hooks, an Agent SDK, and scheduled cloud routines, at about 148.5k GitHub stars.
 [Codex](../harnesses/codex/index.md) covers the same spread, with a CLI, an IDE extension, desktop, web, and cloud forms, and it configures itself through AGENTS.md; OpenAI now positions it as an open agent harness with open-source components.
 [Gemini CLI](../harnesses/gemini-cli/index.md) was the open-source outlier from a major lab (Apache-2.0, about 107k GitHub stars), but Google moved individual users to Antigravity CLI on June 18, 2026, so its famous free tier is now limited to enterprise licenses and paid API keys.
-[OpenCode](../harnesses/opencode/index.md) is the vendor-neutral entry: open source, any provider, with a TUI, an IDE extension, a desktop app, and a web view built off one codebase.
+[OpenCode](../harnesses/opencode/index.md) is the vendor-neutral entry: open source, any provider, with a TUI, an IDE extension, a desktop app, and a web view built off one codebase, at about 210.7k GitHub stars the most-starred harness in the field.
 
 The independent tail matters more than its market share suggests.
 [aider](../harnesses/aider/index.md) predates the agentic wave and still does one thing well, pair programming against any LLM with a repo map and automatic commits.
@@ -57,6 +57,7 @@ The independent tail matters more than its market share suggests.
 [Kimi Code](../harnesses/kimi-code/index.md) (Moonshot AI, MIT) is the challenger-vendor bet: a big-model vendor shipping the harness tuned for its own cheap models, with subagents, hooks, marketplace skills, and ACP in a single Node.js CLI, at about 19.1k combined stars across its two repositories.
 [Exo](../harnesses/exo/index.md) (Exo Labs, MIT) is the self-modification bet: a Rust-and-TypeScript harness with full visibility into its own code and logs, able to edit its prompts, tooling, and policy at runtime, cheapest measured harness in the FrontierHarness run at $1.05 per task.
 [ZCode](../harnesses/zcode/index.md) (Z.ai, Apache-2.0) is the trust bet turned public exhibit: the official GLM workbench was caught silently uploading whole workspaces to cloud storage on September 18, 2026, and was open-sourced three days later as a flattened, process-free dump.
+[DeepSeek Harness](../harnesses/deepseek-harness/index.md) (DeepSeek, MIT) is the plugin-kernel bet at impossible scale: an everything-is-a-plugin design where the model, tools, UI, and agent loop are hot-swappable, at about 239k GitHub stars and only a dsh-v0.2.0-rc.1 prerelease in its second month, the loudest launch this layer has seen.
 [Unreal Agent](../harnesses/unreal-agent/index.md) (Unreal Labs, MIT, Sequoia and First Round backed) is the async bet: tool calls run as background operations so the model never manages waits or polls, the vendor's Harbor-linked runs claim up to 40 percent cost savings against Codex, and the launch hit 242 points with 1,879 stars in its first three days.
 
 **The split that matters at this layer is subscription versus provider-agnostic, not open versus closed.**
@@ -140,6 +141,7 @@ A harness that adopts the open conventions is making a promise about your exit; 
 - 2026-09-25 - Added the Unreal Agent line to the harness tail and updated the OpenChamber phrase for its v2.0.0 general-availability release of September 23, 2026.
 - 2026-09-27 - Linked the Agentic Development Environment Landscape tracker, which moved into the section the same day.
 - 2026-09-27 - Collapsed the first-paragraph verification chain into a single as-of clause per the quality bar, refreshed the volatile numbers (Orca to about 79k, Kimi Code combined to about 19.1k, Cline installs to about 5.5 million), and moved the stray tracker-link bullet from References into this section.
+- 2026-09-29 - Refreshed the star counts (Claude Code to about 148.5k, OpenCode to about 210.7k) and added the DeepSeek Harness line to the harness tail at about 239k stars with dsh-v0.2.0-rc.1.
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: JetBrains IDEs
 created: 2026-08-23
-updated: 2026-09-27
+updated: 2026-09-29
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, surfaces, ai-editors, jetbrains]
 readability: 3
@@ -25,6 +25,7 @@ Pricing runs through JetBrains AI Pro and AI Ultimate subscriptions metered in A
 
 **Active and shipping.**
 Junie went from IDE agent (January 2025) to GA (April 2025) to an LLM-agnostic CLI with plan files and CI integration; the harness side is profiled in the [Junie](../../harnesses/junie/index.md) note.
+On September 22, 2026 the vendor wrapped this stack into JetBrains Air, a system of products spanning Air in the IDEs, Air Teams for coordinating delivery workflows of developers and autonomous agents, and Air Governance (the former JetBrains Central) for organizational policy, cost, and audit, with Junie supported across all Air surfaces.
 The AI layer was unbundled into a separate, removable plugin in March 2024 after the backlash.
 
 ## Strengths
@@ -68,6 +69,7 @@ Not for anyone who needs an open editor or a large community ecosystem.
 - 2026-08-23 - Created as one of the five seed notes of the Surfaces category.
 - 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
 - 2026-09-27 - Re-confirmed the AI Pro and AI Ultimate prices on junie.jetbrains.com; unchanged.
+- 2026-09-29 - Recorded the September 22, 2026 JetBrains Air announcement (Air in IDEs, Air Teams, Air Governance ex-Central) as the system-of-products layer above the AI stack.
 
 ## See also
 
@@ -80,6 +82,7 @@ Not for anyone who needs an open editor or a large community ecosystem.
 
 - https://www.jetbrains.com/ai/ - the AI product family entry point
 - https://junie.jetbrains.com/ - plans, credits, and BYOK, as of 2026-09-27
+- https://blog.jetbrains.com/blog/2026/09/22/introducing-jetbrains-air/ - the Air announcement: Air in IDEs, Air Teams, Air Governance (formerly JetBrains Central), and the ACP Registry
 - https://blog.jetbrains.com/junie/2025/01/meet-junie-your-coding-agent-by-jetbrains/ - Junie's January 2025 launch
 - https://news.ycombinator.com/item?id=39238666 - the bundling outcry thread (February 2024)
 - https://news.ycombinator.com/item?id=39636060 - the March 2024 unbundling thread

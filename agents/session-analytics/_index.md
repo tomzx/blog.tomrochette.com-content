@@ -11,9 +11,9 @@ readability: 3
 Tools that turn what coding agents already record into searchable history, cost reports, and audits, plus the ones that watch the sessions as they happen.
 
 - [Agent Analytics](agent-analytics/index.md) - the agent-readable web analytics layer, tracker events in your own D1 or SQLite (or its cloud), queried through skill, MCP, CLI, or HTTP.
-- [AgentTrace](agenttrace/index.md) - the local Rust TUI and CLI that audits session cost, tokens, latency, failures, and health across about 15 coding-agent formats, with CI gates.
 - [agents-observe](agents-observe/index.md) - the live dashboard for Claude Code and Codex sessions, hooks feeding a local server, multi-agent trees and cost breakdowns in real time.
 - [agentsview](agentsview/index.md) - the local-first indexer for roughly 60 agents' session files, retrospective search and token-cost reporting in one SQLite store.
+- [AgentTrace](agenttrace/index.md) - the local Rust TUI and CLI that audits session cost, tokens, latency, failures, and health across about 15 coding-agent formats, with CI gates.
 - [ClawTrace](clawtrace/index.md) - the hosted tracing and cost-attribution platform for OpenClaw runs, with full-payload traces and an AI analyst named Tracy, billed in credits.
 - [ctx](ctx/index.md) - local search over the sessions agents already recorded, with blame attribution from any line of code back to its transcript.
 - [Memex](memex/index.md) - the Rust CLI that indexes multi-harness session transcripts locally with BM25 or embeddings and resumes the session you find.

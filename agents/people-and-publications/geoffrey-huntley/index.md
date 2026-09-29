@@ -1,7 +1,7 @@
 ---
 title: Geoffrey Huntley
 created: 2026-09-24
-updated: 2026-09-24
+updated: 2026-09-29
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, people, publications, coding-agents, agentic-engineering, automation]
 readability: 3
@@ -23,7 +23,7 @@ He frames the same idea at civilization scale with the slogan "AGI = artificial 
 
 ## Status
 
-Active, with a slower recent pulse: the homepage's newest post as of 2026-09-24 dates to July 2026 ("engineer away the slop"), after monthly-or-better output through the prior year, including "everything is a ralph loop" (2026-01-17), "Software development now costs less than the wage of a minimum wage worker" (2026-02-27), and several March-to-June 2026 essays and interviews.
+Active, with a slower recent pulse: the homepage's newest post as of 2026-09-29 is a September 2026 recap of his May 2026 AI Engineer Singapore talk ("the eighteen-month recap"), following "engineer away the slop" (July 2026), after monthly-or-better output through the prior year, including "everything is a ralph loop" (2026-01-17), "Software development now costs less than the wage of a minimum wage worker" (2026-02-27), and several March-to-June 2026 essays and interviews.
 He has been building The Weaving Loom (source on his GitHub), which he calls infrastructure for evolutionary software, and he reports running it under autonomous system-verification loops.
 Role: his August 2025 workshop post states he was tech lead for developer productivity at Canva before joining Sourcegraph to work on the Amp agent, and his disclosures page commits to no sponsored content, but the site names no current employer as of 2026-09-24.
 Reception is real but Hacker News undercounts it: an Algolia search returns 60 hits for "ghuntley ralph", the Ralph essay was submitted to Hacker News seven times (best: 18 points), derivative tools like ralph-addons appeared as Show HN posts crediting him, and mainstream outlets (VentureBeat, The Register, both linked from his pages) covered the technique.
@@ -65,6 +65,7 @@ Not for teams seeking a vetted brownfield process, and not for readers who canno
 ## Changes
 
 - 2026-09-24 - Created.
+- 2026-09-29 - Newest-post check refreshed: the homepage now leads with "the eighteen-month recap: AI Engineer, Singapore, May 2026" (posted September 2026), after the July 2026 essay noted previously.
 
 ## See also
 

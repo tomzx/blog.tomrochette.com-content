@@ -1,7 +1,7 @@
 ---
 title: Simon Willison
 created: 2026-08-29
-updated: 2026-09-27
+updated: 2026-09-29
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=big-pickle, llm=glm-5.3-flash, people, publications, developer, llm-practitioner]
 readability: 3
@@ -23,7 +23,7 @@ He coined the widely quoted framing of LLMs as a "weird, over-confident intern" 
 ## Status
 
 Active and as influential as ever.
-As of 2026-09-27 the homepage shows posts daily, sometimes several a day, through 26 September 2026, with the week's landmark essay "Claude Opus 5.5, GPT-6 Sol, GPT-6 Luna, and a new price war" (2026-09-22) and dedicated tag streams for agentic-engineering, coding-agents, and ai-assisted-programming.
+As of 2026-09-29 the homepage shows posts daily, sometimes several a day, through 28 September 2026, with the month's landmark essays "2026 in LLMs (so far)" (2026-09-27, his 7,771-word annotated keynote from the WeAreDevelopers World Congress North America) and "Claude Opus 5.5, GPT-6 Sol, GPT-6 Luna, and a new price war" (2026-09-22), plus dedicated tag streams for agentic-engineering, coding-agents, and ai-assisted-programming.
 He is also convening offline: a Birds of a Feather session on agentic engineering with Jesse Vincent in San Francisco, announced on the homepage 2026-09-22 for 14 October.
 He ships code on the blog too: the sqlite-utils 4.0 release notes record that much of it was written by a coding agent, so the blog is documentation of his own agent loops, not just commentary on them.
 
@@ -79,6 +79,7 @@ Not for people who prefer periodic synthesis over daily volume, or who want a ve
 - 2026-09-22 - Posting recency refreshed: daily posts through 22 September 2026, led by the Opus 5.5/GPT-6 Sol/Luna price-war essay; he also announced a San Francisco agentic-engineering Birds of a Feather session with Jesse Vincent for 14 October.
 - 2026-09-24 - Added the Top 5 recommended reading section.
 - 2026-09-27 - Posting recency refreshed: daily posts through 26 September 2026.
+- 2026-09-29 - Posting recency refreshed: daily posts through 28 September 2026, now led by the "2026 in LLMs (so far)" keynote writeup (2026-09-27) and Claude Sonnet 5.5 coverage (2026-09-28).
 
 ## See also
 

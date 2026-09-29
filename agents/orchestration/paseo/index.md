@@ -1,7 +1,7 @@
 ---
 title: Paseo
 created: 2026-08-30
-updated: 2026-09-27
+updated: 2026-09-29
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, parallel-agents, mobile, open-source]
 readability: 3
@@ -24,9 +24,9 @@ Apache-2.0 (with a custom copyright notice), by Mohamed Boudra, an independent s
 
 ## Status
 
-Young and fast: about 18.6k stars, 2.1k forks, and 908 open issues and PRs as of 2026-09-26, created 2025-10-13, with more than 5,300 commits on main.
-v0.9.2 shipped on 2026-09-24, two days after v0.9.0 went stable with v0.9.1 the same day (September 22), following the v0.9.0 betas of September 17-18 and v0.8.0 (2026-09-10, plugin header buttons, custom providers, and richer chat components), alongside 165 contributors and an active subreddit and Discord.
-**The structural risk is on the label: the maintainer described himself on Hacker News as a team of one, and monetization has now arrived as the hosted Hub at €15 per seat per month.**
+Young and fast: about 18.9k stars, 2.1k forks, and 998 open issues and PRs as of 2026-09-29, created 2025-10-13, with more than 5,300 commits on main.
+The v0.10 line went stable on 2026-09-28 with v0.10.0 and v0.10.1 shipping the same day, following v0.9.2 (2026-09-24), v0.9.0 going stable with v0.9.1 the same day (September 22), the v0.9.0 betas of September 17-18, and v0.8.0 (2026-09-10, plugin header buttons, custom providers, and richer chat components), alongside 165 contributors and an active subreddit and Discord.
+**The structural risk is on the label: the maintainer described himself on Hacker News as a team of one, and monetization has now arrived as the hosted Hub at $15 per seat per month.**
 
 ## Strengths
 
@@ -45,7 +45,7 @@ v0.9.2 shipped on 2026-09-24, two days after v0.9.0 went stable with v0.9.1 the 
 ## Pricing
 
 Free and open source under Apache-2.0; you bring your own agent CLIs, subscriptions, and API keys.
-The hosted Hub (managed GitHub, Slack, and Discord triggers) is now generally available at €15 per seat per month with a free trial, where late August still had registration closed; self-hosting Hub remains free.
+The hosted Hub (managed GitHub, Slack, and Discord triggers) is now generally available at $15 per seat per month with a free trial, where late August still had registration closed; self-hosting Hub remains free.
 
 ## Price history
 
@@ -53,6 +53,7 @@ The hosted Hub (managed GitHub, Slack, and Discord triggers) is now generally av
 | ---- | ---- | ------ | ------ |
 | 2026-08 | Hub | Late August: hosted Hub registration closed, no pricing; core free (Apache-2.0). | [paseo.sh/hub](https://paseo.sh/hub) |
 | 2026-09 | Hub | Hub generally available at €15/seat/mo with a free trial; self-hosting Hub free. | [paseo.sh/hub](https://paseo.sh/hub) |
+| 2026-09-29 | Hub | Price display moved from €15 to $15 per seat per month, the price level unchanged. | [paseo.sh/hub](https://paseo.sh/hub) |
 
 ## Compared to
 
@@ -75,6 +76,7 @@ Not for teams needing a vendor's support contract, or Mac-only shops happy payin
 - 2026-09-22 - Recorded v0.9.0 reaching stable and v0.9.1 shipping the same day (September 22), and refreshed star and tracker counts.
 - 2026-09-24 - Recorded v0.9.2 (September 24) and refreshed star and tracker counts.
 - 2026-09-27 - Linked the Agentic Development Environment Landscape tracker, the mid-2026 snapshot that named Paseo a leader.
+- 2026-09-29 - Recorded the v0.10 line going stable (v0.10.0 and v0.10.1, September 28), refreshed star and tracker counts, and moved the Hub price display from €15 to $15 per seat per month.
 
 ## See also
 
@@ -90,6 +92,6 @@ Not for teams needing a vendor's support contract, or Mac-only shops happy payin
 - https://paseo.sh - product claims, platforms, privacy posture
 - https://paseo.sh/docs/supported-providers - the native and ACP-catalog agent list
 - https://paseo.sh/docs/hub/hosted - the commercial layer's status
-- https://paseo.sh/hub - hosted Hub pricing, €15 per seat per month, free trial
+- https://paseo.sh/hub - hosted Hub pricing, $15 per seat per month, free trial
 - https://news.ycombinator.com/item?id=48377250 - the launch thread with the solo-maintainer statement and the credit-pool admission
 - https://github.com/BloopAI/vibe-kanban - comparison data on the board alternative

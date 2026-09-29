@@ -1,7 +1,7 @@
 ---
 title: "Model Benchmark Matrix"
 created: 2026-09-24
-updated: 2026-09-24
+updated: 2026-09-29
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3-flash, comparison, benchmarks, evaluation, model-selection]
 readability: 3
@@ -26,7 +26,7 @@ That rule excludes the harness benchmarks ([FrontierHarness Eval](../evaluation-
 | [PaperBench](https://arxiv.org/abs/2504.01848) | End-to-end replication of 20 ICML 2024 papers from scratch, graded by 8,316 rubric tasks with an LLM judge. | Best tested agent scored 21.0 percent against ML PhD humans at roughly double, the clearest ceiling on research-engineering claims. |
 | [ProgramBench](https://programbench.com/) | Rebuilding a whole program from its compiled binary and documentation alone, no source, no decompilation, no internet, across 200 tasks with 248,000 hidden behavioral tests. | Launched May 2026 by Meta, Stanford, and Harvard, the best model fully resolves 4.5 percent, effectively unsaturated. |
 | [SWE-bench](https://www.swebench.com/) | Resolving real GitHub issues in real repositories, graded by each repo's own fail-to-pass tests, in four official sizes (Lite 300, Verified 500, Multilingual 300, Multimodal 480) plus the 2,294-instance original. | The reference board; its default Verified view now runs every model in the same minimal mini-SWE-agent bash environment precisely so harnesses stop inflating scores. |
-| [SWE-bench Pro](https://scale.com/leaderboard/swe_bench_pro_public) | The same issue-resolution task on harder, longer-horizon material: 1,865 tasks from 41 repositories, copyleft-licensed to resist contamination, plus a private commercial subset. | Models that top Verified at 70 percent+ scored about 23 percent at launch, the fastest cure for Verified-driven overconfidence. |
+| [SWE-bench Pro](https://labs.scale.com/leaderboard/swe_bench_pro) | The same issue-resolution task on harder, longer-horizon material: 1,865 tasks from 41 repositories, copyleft-licensed to resist contamination, plus a private commercial subset. | Models that top Verified at 70 percent+ scored about 23 percent at launch, the fastest cure for Verified-driven overconfidence. |
 | [SWE-Lancer](https://arxiv.org/abs/2502.12115) | 1,488 real freelance jobs from Upwork (the Expensify codebase) worth $1M in actual payouts, spanning $50 bug fixes to $32,000 features plus managerial proposal selection. | Scores map to dollars, which makes it the board for economic questions, though ICML reviewers flagged the single-repo, single-platform generalization limits. |
 | [SWE-rebench](https://swe-rebench.com/) | A continuously refreshed issue-resolution task stream harvested from new pull requests, built so training-data contamination cannot inflate scores. | The board vendors quote when a static leaderboard would flatter them, apply the never-trust-self-reported-numbers rule doubly. |
 | [Terminal-Bench](https://www.tbench.ai/) | Agentic tasks executed end to end in real terminal and container environments, scored as resolution rate with 95 percent confidence intervals, currently at version 4.0. | Co-hosted by Stanford and the Laude Institute, the board for "which model survives a shell", and the one HarnessTax used to show harness swaps move scores up to 5x. |
@@ -46,7 +46,7 @@ That rule excludes the harness benchmarks ([FrontierHarness Eval](../evaluation-
 | --- | --- | --- |
 | [BFCL](https://gorilla.cs.berkeley.edu/leaderboard.html) | Function and tool-calling accuracy, from single-turn AST matching through multi-turn state tracking to the v4 holistic agentic evaluation, averaged unweighted across categories. | The Berkeley board for "will this model call my tools correctly", refreshed continuously with pinned evaluation commits. |
 | [GAIA](https://huggingface.co/spaces/gaia-benchmark/leaderboard) | General assistant questions with one exact-match answer each, across three levels that need web browsing, file handling, multimodal input, and tool chains. | Conceptually easy for humans (92 percent) and hard for agents at launch (GPT-4 with plugins scored 15), the most-submitted agent leaderboard in existence. |
-| [OSWorld](https://os-world.github.io/) | 369 real computer tasks inside Ubuntu VMs across real web and desktop apps, checked by execution-based scripts rather than screenshot matching. | The OSWorld-Verified refresh (July 2025) fixed community-reported task bugs, and 2.0 arrived in June 2026, so compare only same-version scores. |
+| [OSWorld](https://osworld-v1.xlang.ai/) | 369 real computer tasks inside Ubuntu VMs across real web and desktop apps, checked by execution-based scripts rather than screenshot matching. | The OSWorld-Verified refresh (July 2025) fixed community-reported task bugs, and 2.0 arrived in June 2026, so compare only same-version scores. |
 | [TAU-bench](https://github.com/sierra-research/tau2-bench) | Customer-service agents that must satisfy an LLM-simulated human user while following domain policy using tools, across airline, retail, telecom, and knowledge-retrieval domains, now with full-duplex voice evaluation in tau-3. | The user on the other side is simulated, so scores measure the pair, and the July 2026 v1.0.1 grading update broke comparability with older published numbers. |
 | [TheAgentCompany](https://the-agent-company.com/) | Consequential real-world tasks inside a simulated software company, from the WebArena group, published at ICML 2025. | The long-horizon autonomy board, tasks fail messily rather than cleanly, which is the point. |
 | [WebArena](https://webarena.dev/) | Long-horizon web tasks on self-hosted realistic sites (a GitLab instance, a shopping site, forums), graded by functional and URL checks, with VisualWebArena and WebArena-Infinity extending it. | Aging but foundational, most computer-use agents still report on it or its descendants. |
@@ -110,6 +110,7 @@ When two boards rank the same models differently, the gap tells you where the mo
 
 - 2026-09-24 - Created on owner request with thirty benchmarks in six groups, each summarized in one or two sentences, every cited external URL fetched this run.
 - 2026-09-24 - Extended the ARC-AGI coverage from one row to three, adding ARC-AGI-1 (saturated history) and ARC-AGI-3 (interactive reasoning) after the owner asked whether the series was fully covered.
+- 2026-09-29 - Link check: repointed SWE-bench Pro to labs.scale.com/leaderboard/swe_bench_pro and OSWorld to osworld-v1.xlang.ai after their old URLs began redirecting; every other cited board fetched 200.
 
 ## See also
 
@@ -122,7 +123,7 @@ When two boards rank the same models differently, the gap tells you where the mo
 ## References
 
 - https://www.swebench.com/ - SWE-bench family sizes (Lite 300, Verified 500, Multilingual 300, Multimodal 480, Full 2294), the bash-only mini-SWE-agent default view, CodeClash and ProgramBench launches (fetched 2026-09-24)
-- https://scale.com/leaderboard/swe_bench_pro_public - SWE-bench Pro's 1,865 tasks, 41 repositories, copyleft contamination defense, launch-era 23 percent frontier scores, current leaderboard (fetched 2026-09-24)
+- https://labs.scale.com/leaderboard/swe_bench_pro - SWE-bench Pro's 1,865 tasks, 41 repositories, copyleft contamination defense, launch-era 23 percent frontier scores, current leaderboard (fetched 2026-09-29; the scale.com/leaderboard/swe_bench_pro_public URL redirects here)
 - https://github.com/multi-swe-bench/multi-swe-bench - Multi-SWE-bench's seven languages, 1,632 instances, 68 annotators, Apache-2.0 license, NeurIPS 2025 acceptance (fetched 2026-09-24)
 - https://programbench.com/ - ProgramBench's binary-plus-docs task design, 200 tasks, 248,000 behavioral tests, 4.5 percent top resolution (fetched 2026-09-24)
 - https://arxiv.org/abs/2502.12115 - SWE-Lancer's 1,488 Upwork tasks, $1M payout mapping, IC and managerial splits, Diamond public split (fetched 2026-09-24)
@@ -135,7 +136,7 @@ When two boards rank the same models differently, the gap tells you where the mo
 - https://arxiv.org/abs/2108.07732 - MBPP's 974 entry-level Python tasks (fetched 2026-09-24)
 - https://github.com/sierra-research/tau2-bench - TAU-bench domains, simulated users, policy and tools, tau-3 voice and knowledge additions, v1.0.1 grading break (fetched 2026-09-24)
 - https://gorilla.cs.berkeley.edu/leaderboard.html - BFCL v4's agentic evaluation, unweighted category average, pinned evaluation commits (fetched 2026-09-24)
-- https://os-world.github.io/ - OSWorld's 369 execution-checked tasks, OSWorld-Verified refresh, 2.0 release (fetched 2026-09-24)
+- https://osworld-v1.xlang.ai/ - OSWorld's 369 execution-checked tasks, OSWorld-Verified refresh, 2.0 release (fetched 2026-09-29; the os-world.github.io URL redirects here)
 - https://webarena.dev/ - the WebArena family (WebArena, WebArena-Infinity, VisualWebArena, TheAgentCompany) and its venue record (fetched 2026-09-24)
 - https://the-agent-company.com/ - TheAgentCompany's simulated-company premise (fetched 2026-09-24)
 - https://huggingface.co/spaces/gaia-benchmark/leaderboard - GAIA's three levels, exact-match scoring, public dev and private test split (fetched 2026-09-24)

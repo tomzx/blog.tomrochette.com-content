@@ -1,7 +1,7 @@
 ---
 title: Superset
 created: 2026-08-30
-updated: 2026-09-27
+updated: 2026-09-29
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, parallel-agents, ide, worktrees]
 readability: 3
@@ -24,7 +24,7 @@ Elastic License 2.0 (source-available, not OSI open source), by Superset Inc., t
 
 ## Status
 
-Fast and funded: about 14.7k stars, 1.3k forks, roughly 780 open issues and PRs as of 2026-09-26, created 2025-10-21, more than 4,290 commits, latest desktop release v1.30.2 on 2026-09-22, a second fix release on top of v1.30.1 (September 21) and v1.30.0 (2026-09-19), which had added explicit local workspaces on shared checkouts and clearer automation-creation options.
+Fast and funded: about 14.7k stars, 1.3k forks, roughly 800 open issues and PRs as of 2026-09-29, created 2025-10-21, more than 4,290 commits, latest desktop release v1.31.0 on 2026-09-28, following the v1.30.x line (v1.30.0 on 2026-09-19, which added explicit local workspaces on shared checkouts and clearer automation-creation options, v1.30.1 on September 21, and v1.30.2 on September 22).
 The Launch HN thread drew 108 points and 135 comments, and the founders say they ship daily.
 **Adoption claims beyond GitHub ("tens of thousands of engineers", big-company logos) are self-reported, and the codebase is still founder-dominated.**
 
@@ -76,6 +76,7 @@ Not for Windows or Linux-primary teams, and not for anyone who needs coordinated
 - 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
 - 2026-09-22 - Recorded the desktop v1.30.2 release (September 22), the pricing page listing a mobile app among Pro features, and refreshed star and tracker counts.
 - 2026-09-27 - Linked the Agentic Development Environment Landscape tracker, the mid-2026 snapshot that named Superset a leader.
+- 2026-09-29 - Recorded the desktop v1.31.0 release (September 28) and refreshed star and tracker counts.
 
 ## See also
 

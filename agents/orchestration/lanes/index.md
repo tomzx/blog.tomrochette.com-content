@@ -1,9 +1,9 @@
 ---
 title: Lanes
 created: 2026-09-27
-updated: 2026-09-27
+updated: 2026-09-29
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, orchestration, macos, worktrees, issue-board]
+tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, llm=glm-5.3-flash, orchestration, macos, worktrees, issue-board]
 readability: 3
 audience_notes: >
   Mac-based engineers shortlisting a parallel-agent workspace that centers an issue board.
@@ -24,7 +24,7 @@ The app runs agents locally, never proxies model calls, and points sessions at w
 
 ## Status
 
-Active and iterating: version v0.49 shipped 2026-09-08, the macOS app is on Homebrew, and the changelog runs through September 2026.
+Active and iterating: version v0.49.5 shipped 2026-09-25, continuing the v0.49 line that shipped 2026-09-08, the macOS app is on Homebrew, and the changelog runs through September 2026.
 The public source repository, lanes-sh/app, shows about 271 stars as of 2026-09-27, created 2026-03-22, and is updated within days; the product also spans the Apache-2.0 lanes-sh/link endpoint and the hosted Lanes Forms and Compute services.
 **The open question is provenance: the site says "open source from day one" and links both repositories, but the app repository carries no license metadata on GitHub as of 2026-09-27, whereas the Link endpoint is explicitly Apache-2.0.**
 
@@ -71,6 +71,7 @@ Not for Windows or Linux shops, and not for anyone who needs a verifiably open l
 ## Changes
 
 - 2026-09-27 - Created.
+- 2026-09-29 - Recorded v0.49.5 (September 25) on the v0.49 line.
 
 ## See also
 

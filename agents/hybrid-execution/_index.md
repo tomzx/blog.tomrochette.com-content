@@ -13,8 +13,9 @@ Small fast models handling typed decisions beside the large model: constrained d
 - [Anthropic structured outputs](anthropic-structured-outputs/index.md) - schema-constrained decoding for Claude responses and tool inputs.
 - [CUA-S1](cua-s1/index.md) - Cua's open-weights 706k-parameter System One checkpoint that scores form actions without generating text, the verifiable counterpart to Jev's closed contract.
 - [Instructor](instructor/index.md) - Pydantic in, validated objects out, with a re-ask when validation fails.
+- [Jeff](jeff/index.md) - the AutoJev-fork fine-tune family (0.8B and 2B Qwen3.5, Gemma 4 E2B) speaking Jev's request format at 22 ms locally, with the frankest self-run benchmark table in the wave.
 - [Jev](jev/index.md) - TypeSafe's System One model that skips text generation entirely, typed decisions with calibrated confidence at 70-500ms, early access since September 2026.
-- [JevBench](jevbench/index.md) - Benchmark Heaven's MIT scoreboard for Jev-class decision models, scored on intelligence, calibration, speed, and cost, whose sealed-decision revisions and point releases keep reordering the board (Jev first through v1.4.2, third since Plumb-4B took the top spot).
+- [JevBench](jevbench/index.md) - Benchmark Heaven's MIT scoreboard for Jev-class decision models, scored on intelligence, calibration, speed, and cost, whose sealed-decision revisions and point releases keep reordering the board (Jev first through v1.4.2, fourth since the Plumb-4B and Imajev-4B point releases).
 - [Jevlike](jevlike/index.md) - the community's one-day reverse-engineering of the Jev contract, an MIT option-attention starter, dormant since launch day, its head lifted by CUA-S1.
 - [Kev](kev/index.md) - Jared Palmer's Apache-2.0 Qwen3.5 LoRA family speaking the Jev API locally, with the wave's strongest pre-registered eval discipline.
 - [Laya](laya/index.md) - the Apache-2.0 open-weights decision-model family answering typed questions in a single pass, the open rival to Jev's contract with its limits stated on its own model card.
@@ -41,3 +42,4 @@ Its members are compared on shared rows in the [Hybrid Execution Feature Matrix]
 - 2026-09-21 - Added Nimble.
 - 2026-09-21 - Added SemIf.
 - 2026-09-22 - Added JevBench.
+- 2026-09-29 - Added Jeff.

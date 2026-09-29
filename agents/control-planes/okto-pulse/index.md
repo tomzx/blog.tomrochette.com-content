@@ -1,9 +1,9 @@
 ---
 title: Okto Pulse
 created: 2026-09-27
-updated: 2026-09-27
+updated: 2026-09-29
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, spec-driven-development, governance-gates, coding-agents, mcp, local-first]
+tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, llm=glm-5.3-flash, spec-driven-development, governance-gates, coding-agents, mcp, local-first]
 readability: 3
 audience_notes: >
   Engineers running coding agents on long-lived codebases who want "done" to mean evidence rather than a plausible message from the agent.
@@ -17,6 +17,8 @@ Okto Pulse (OktoLabsAI/okto-pulse) is an Elastic-2.0 local-first SDLC workbench 
 ## What it is
 
 `pip install okto-pulse` starts one Python process serving a web UI and API on port 8100 and an MCP server on 8101, with all state local under `~/.okto-pulse/` in SQLite plus an embedded graph database.
+The same vendor ships a sibling product, [Okto Nexus](https://github.com/OktoLabsAI/okto-nexus) (`okto-nexus` 0.1.10 on PyPI, under the same Elastic License 2.0 plus SaaS/Branding Addendum): a local-first MCP coordination hub where agents in one repository get durable identities, presence, messages, inboxes, handoffs, artifacts, an event log, and governance controls without a cloud broker.
+One `okto-nexus serve` port exposes the whole hub (streamable-HTTP MCP at `/mcp`, operator REST and SSE, and a bundled React dashboard) over a SQLite database in WAL mode, with 43 MCP tools by default and 46 with memory enabled.
 The architecture splits into `okto-pulse-core`, which owns the SDLC domain, the governance gates, and knowledge-graph contracts as pure protocol seams, and `okto-pulse`, which supplies every concrete mechanism (SQLite, the Okto Grafx graph engine, the filesystem, scheduler, and MCP host); an unfilled slot fails closed rather than silently defaulting.
 The gates cover resource readiness, spec coverage across acceptance criteria, requirements, business rules, API contracts, decisions, and test scenarios, plus task validation, test evidence, architecture findings, and sprint closure.
 Tasks cannot start until the parent spec has the required scenario coverage, done transitions are held while unresolved issues remain, and test cards require evidence before being marked passed or failed.
@@ -61,6 +63,7 @@ The README describes a possible SaaS edition and a core-and-community split, but
 ## Changes
 
 - 2026-09-27 - Created.
+- 2026-09-29 - Added Okto Nexus as the vendor's sibling product (a local-first MCP coordination hub, okto-nexus 0.1.10, served from one `okto-nexus serve` port, same Elastic license).
 
 ## See also
 
@@ -76,4 +79,6 @@ The README describes a possible SaaS edition and a core-and-community split, but
 - https://api.github.com/repos/OktoLabsAI/okto-pulse - stars, forks, issues, push dates as of 2026-09-27
 - https://oktolabs.ai/platform/pulse/ - product site: workflow, gate and tool counts, value proposition
 - https://pypi.org/pypi/okto-pulse/json - current version 0.3.3 and Elastic-2.0 license metadata
+- https://github.com/OktoLabsAI/okto-nexus - the sibling product's README: serve ports, tool counts, SQLite/WAL storage, dashboard, licensing (60 stars, pushed 2026-09-24, as of 2026-09-29)
+- https://pypi.org/pypi/okto-nexus/json - okto-nexus 0.1.10 under Elastic License 2.0 plus the SaaS/Branding Addendum
 - https://docs.oktolabs.ai - documentation index: install, quickstart, MCP setup, knowledge graph

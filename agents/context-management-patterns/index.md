@@ -1,7 +1,7 @@
 ---
 title: "Context Management Patterns"
 created: 2026-08-24
-updated: 2026-09-24
+updated: 2026-09-29
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, context-management, coding-agents, context-engineering, llm=glm-5.3-flash]
 readability: 3
@@ -107,6 +107,7 @@ A pattern claim that no longer matches the docs gets deleted, not hedged.
 
 - 2026-08-24 - Published as queue item 3, an essay of pattern families grounded in harness documentation.
 - 2026-09-24 - Replaced the verification preamble with a single as-of clause in the intro on owner request.
+- 2026-09-29 - Link check: repointed the Codex slash-commands reference to learn.chatgpt.com/docs/reference/slash-commands after developers.openai.com began redirecting; every other cited page fetched 200.
 
 ## See also
 
@@ -120,7 +121,7 @@ A pattern claim that no longer matches the docs gets deleted, not hedged.
 
 - https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents - context rot, attention budgets, compaction mechanics, structured note-taking, sub-agent summaries, just-in-time retrieval
 - https://code.claude.com/docs/en/best-practices - Claude Code auto-compaction, /compact with instructions, /clear, /btw, memory-file pruning, compaction directives
-- https://developers.openai.com/codex/reference/slash-commands - Codex /compact, /status context usage, and /side
+- https://learn.chatgpt.com/docs/reference/slash-commands - Codex /compact, /status context usage, and /side (the developers.openai.com URL redirects here)
 - https://opencode.ai/docs/tui - OpenCode /compact (alias /summarize), /new (alias /clear), and @ file references
 - https://raw.githubusercontent.com/google-gemini/gemini-cli/main/docs/cli/auto-memory.md - Gemini CLI Auto Memory: review-gated extraction of memory patches and skills from past sessions
 - https://arxiv.org/abs/2307.03172 - Lost in the Middle: recall degrades for information in the middle of long contexts

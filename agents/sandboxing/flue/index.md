@@ -1,7 +1,7 @@
 ---
 title: Flue
 created: 2026-08-30
-updated: 2026-09-27
+updated: 2026-09-29
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, sandboxing, agent-frameworks, typescript, open-source]
 readability: 3
@@ -24,8 +24,8 @@ Made by the Astro Technology Company team under Fred Schott, acquired by Cloudfl
 
 ## Status
 
-Young and fast: 8,376 stars, 501 forks, 41 open issues and PRs as of 2026-09-27, created 2026-02-07, 1,129 commits.
-Flue 2.0 (2026-07-31) is the first stable release after a ground-up hooks rewrite; npm `@flue/runtime` 2.1.1 is still the current package, with the GitHub release latest at @flue/cli@2.1.1 (both 2026-09-23), git tags still at v2.0.6, and a 2.2.0-next prerelease wave rolling across the packages on 2026-09-25.
+Young and fast: 8,392 stars, 501 forks, 47 open issues and PRs as of 2026-09-29, created 2026-02-07, 1,134 commits.
+Flue 2.0 (2026-07-31) is the first stable release after a ground-up hooks rewrite; the 2.2.0-next prerelease wave has graduated to stable, with npm `@flue/runtime` and the GitHub release latest both at 2.2.2 (2026-09-28), while git tags remain at v2.0.6.
 **The single-author concentration is stark, about 98 percent of commits, and the API was rebuilt within six months of going public.**
 
 ## Strengths
@@ -66,6 +66,7 @@ Not for anyone needing the framework itself to be the security boundary, or bett
 - 2026-09-21 - Release train moved again: npm @flue/runtime and the GitHub releases latest both at 2.1.0 (2026-09-18), git tags still at v2.0.6.
 - 2026-09-25 - Release train moved again: npm @flue/runtime and the GitHub releases latest both at 2.1.1 (2026-09-23), git tags still at v2.0.6.
 - 2026-09-27 - Refreshed growth (8,376 stars, 41 open issues and PRs, 1,129 commits); the stable train held at 2.1.1 while a 2.2.0-next prerelease wave shipped across the packages on 2026-09-25.
+- 2026-09-29 - Release train moved again: the 2.2.0-next prerelease wave graduated to stable 2.2.x, npm @flue/runtime and the GitHub releases latest both at 2.2.2 (2026-09-28), git tags still at v2.0.6; growth refreshed (8,392 stars, 47 open issues and PRs, 1,134 commits).
 
 ## See also
 

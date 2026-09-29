@@ -1,7 +1,7 @@
 ---
 title: SkillOpt
 created: 2026-08-30
-updated: 2026-09-26
+updated: 2026-09-29
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, skills, self-improving-agents, research, microsoft]
 readability: 3
@@ -24,8 +24,8 @@ MIT, from Microsoft Research Asia with university collaborators, Python 3.10+.
 
 ## Status
 
-Research code with unusually strong product trappings: 17.5k stars, 1.6k forks, 53 open issues and pull requests, and 531 commits on main as of 2026-09-26, created 2026-05-08.
-Latest release v0.2.0 (2026-07-02) on PyPI, still the newest as of 2026-09-25; the arXiv paper (2605.23904) is a preprint with no peer-reviewed venue found, and all headline results are the authors' own.
+Research code with unusually strong product trappings: 17.8k stars, 1.7k forks, 55 open issues and pull requests, and 531 commits on main as of 2026-09-29, created 2026-05-08.
+Latest release v0.2.0 (2026-07-02) on PyPI, still the newest as of 2026-09-29; the arXiv paper (2605.23904) is a preprint with no peer-reviewed venue found, and all headline results are the authors' own.
 
 ## Strengths
 
@@ -61,6 +61,7 @@ Not for subjective domains without reliable scoring, or anyone expecting trained
 
 - 2026-08-30 - Created in the owner-directed star sweep as a Skills note.
 - 2026-09-25 - Refreshed the volatile numbers (17,456 stars, 1,630 forks, 53 open issues and PRs); release v0.2.0 and the commit count unchanged.
+- 2026-09-29 - Refreshed the volatile numbers (17,824 stars, 1,672 forks, 55 open issues and PRs); release v0.2.0 and the commit count unchanged.
 
 ## See also
 

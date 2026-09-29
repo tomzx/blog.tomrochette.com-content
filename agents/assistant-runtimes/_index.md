@@ -12,7 +12,7 @@ Personal assistant runtimes outside the editor: the -claw family and its auditab
 
 - [AnythingLLM](anything-llm/index.md) - the one-click local-first desktop workspace: RAG workspaces, agents, MCP, and multi-user Docker.
 - [Eigent](eigent/index.md) - the Apache-2.0 Cowork desktop with CAMEL-based multi-agent workforces and a corrected-benchmark history.
-- [Hermes](hermes/index.md) - Nous Research's self-improving agent with the learning loop, about 248k stars, paid tiers live, and the channels to match.
+- [Hermes](hermes/index.md) - Nous Research's self-improving agent with the learning loop, about 250k stars, paid tiers live, and the channels to match.
 - [Nanobot](nanobot/index.md) - HKUDS' readable Python agent runtime with the WebUI and channels bundled, 48k stars at alpha.
 - [NanoClaw](nanoclaw/index.md) - the auditable containerized OpenClaw rewrite, one process you can read in an afternoon.
 - [Open WebUI](open-webui/index.md) - the maximal self-hosted AI interface for Ollama and OpenAI-compatible backends, with the ecosystem's most consequential license story.

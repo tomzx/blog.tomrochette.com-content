@@ -1,7 +1,7 @@
 ---
 title: OpenWork
 created: 2026-08-30
-updated: 2026-09-27
+updated: 2026-09-29
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, assistant-runtimes, cowork, desktop, open-source]
 readability: 3
@@ -23,7 +23,7 @@ By different-ai (Benjamin Shafii), YC-backed.
 
 ## Status
 
-Alive and shipping hard: 23,748 stars, 2,392 forks, 551 open issues and PRs as of 2026-09-27, created 2026-01-14, pushed today.
+Alive and shipping hard: 23,783 stars, 2,392 forks, 559 open issues and PRs as of 2026-09-29, created 2026-01-14, pushed today.
 v0.18.42 on 2026-09-02 (signed Windows installers) through v0.18.54 on 2026-09-25, multiple releases per week.
 **It outlived its launch-week skepticism, but the founder still carries 2,911 of the top contributors' roughly 4,000 commits.**
 
@@ -43,9 +43,10 @@ v0.18.42 on 2026-09-02 (signed Windows installers) through v0.18.54 on 2026-09-2
 
 ## Pricing
 
-Free: $0, the MIT open-source desktop app with BYO keys, macOS, Windows, and Linux downloads, and the first 5 Cloud seats free at any team size, as of 2026-09-27.
-Team: $10 per seat per month (everything in Free, unlimited users, the extension marketplace, distributed LLM keys, Cloud automations, basic usage analytics, standard support), as of 2026-09-27.
-Enterprise: $20 per user per month billed annually (everything in Team plus SSO/SAML and SCIM provisioning, usage and adoption analytics, desktop policies and version controls, audit log and spend observability, internal white-labeling, and BYO inference self-hosted or private models), as of 2026-09-27, with no grandfather clause shown on the pricing page.
+Free: $0, the MIT open-source desktop app with BYO keys, macOS, Windows, and Linux downloads, and the first 5 Cloud seats free at any team size, as of 2026-09-29.
+Team: $10 per seat per month (everything in Free, unlimited users, SSO/SAML moved down from Enterprise, the extension marketplace, distributed LLM keys, Cloud automations, basic usage analytics, standard support), as of 2026-09-29.
+Enterprise: $20 per user per month billed annually (everything in Team plus SCIM provisioning, usage and adoption analytics, desktop policies and version controls, audit log and spend observability, internal white-labeling, and BYO inference self-hosted or private models), as of 2026-09-29, with no grandfather clause shown on the pricing page.
+Two add-ons joined the page on 2026-09-29: OpenWork Cloud Computer at $50 per member per month, a browser-accessible cloud computer for each member, and OpenWork models at $10 per user per month, managed inference with no keys to bring, both available on Team and Enterprise.
 The Den control plane inside the repo stays free for organizations up to five users, free to evaluate for 30 days at any size, and each `ee/` release converts to MIT two years after publication.
 
 ## Price history
@@ -61,6 +62,7 @@ The Den control plane inside the repo stays free for organizations up to five us
 | 2026-09-20 | All tiers | Free tier back to Free at $0 up to 5 users, Team $10 per seat up to 100 users, Enterprise back to $40 per user per month | https://openworklabs.com/pricing |
 | 2026-09-21 | All tiers | Free tier renamed Solo (free forever, no user cap stated), Team Starter $10 per seat with the first 5 seats free, Enterprise back to custom pricing with the grandfather clause restored for existing SSO and desktop-policy organizations | https://openworklabs.com/pricing |
 | 2026-09-27 | All tiers | Ninth churn: free tier renamed Free with the first 5 Cloud seats free at any team size, team tier renamed Team at $10 per seat with unlimited users, Enterprise fixed at $20 per user per month billed annually, grandfather clause gone from the page | https://openworklabs.com/pricing |
+| 2026-09-29 | Team, add-ons | Tenth churn: SSO/SAML moved from Enterprise into Team, and two add-ons introduced, Cloud Computer at $50 per member per month and managed OpenWork models at $10 per user per month; the three main tier prices unchanged | https://openworklabs.com/pricing |
 
 ## Compared to
 
@@ -88,6 +90,7 @@ Not for teams that need a sandboxed security boundary the product does not provi
 - 2026-09-22 - Recorded releases through v0.18.50 (2026-09-22), with refreshed adoption numbers and pricing re-checked unchanged for a second consecutive day.
 - 2026-09-24 - Recorded releases through v0.18.52 (2026-09-24), with refreshed adoption numbers and pricing re-checked unchanged for a fourth consecutive day despite a pricing-presentation note in the v0.18.50 release notes.
 - 2026-09-27 - Pricing churned a ninth time: the free tier is named Free with the first 5 Cloud seats free at any team size, the team tier is Team at $10 per seat with unlimited users, and Enterprise is fixed at $20 per user per month billed annually, with the grandfather clause gone from the page; releases through v0.18.54 (2026-09-25) recorded with refreshed adoption numbers.
+- 2026-09-29 - Pricing churned a tenth time: SSO/SAML moved from Enterprise into Team, and the page gained two add-ons, Cloud Computer at $50 per member per month and managed OpenWork models at $10 per user per month, with the three main tier prices unchanged; refreshed adoption numbers.
 
 ## See also
 

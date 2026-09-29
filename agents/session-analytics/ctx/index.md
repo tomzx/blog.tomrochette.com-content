@@ -1,7 +1,7 @@
 ---
 title: "ctx"
 created: 2026-09-05
-updated: 2026-09-27
+updated: 2026-09-29
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, session-analytics, search, cli]
 readability: 3
@@ -21,7 +21,7 @@ Through the v2.0 release of 2026-09-24, search, blame, a new local code graph, a
 
 ## Status
 
-Active: created 2026-02-23, about 1.1k stars (1,135) and 71 forks, latest release v2.0.4 on 2026-09-27, after v2.0.2 on 2026-09-25 and a v1.6.4 maintenance release on 2026-09-26, as of 2026-09-27.
+Active: created 2026-02-23, about 1.1k stars (1,141) and 71 forks, latest release v2.1.2 on 2026-09-29, after the v2.1.0 line of 2026-09-28 (paged blame indexing that scales past 16,384 sources, with installer and index-repair fixes through v2.1.1 and v2.1.2), v2.0.4 on 2026-09-27, v2.0.2 on 2026-09-25, and a v1.6.4 maintenance release on 2026-09-26, as of 2026-09-29.
 The docs site at ctx.rs is complete (concepts, about 40 supported agent harnesses including Claude Code, Codex, Cursor, Pi, and OpenCode, storage, comparisons, a changelog), and a `/ctx` skill lets agents call it directly.
 **The community footprint is nearly empty, a 5-point, one-comment Show HN on 2026-09-03 plus a 3-point re-launch on 2026-09-16, which I read as the product being discovered through agents rather than through forums, and as thin independent verification.**
 
@@ -72,6 +72,7 @@ Not for anyone needing audited cost reporting (agentsview's job) or provenance g
 - 2026-09-21 - Release line moved to v1.4.12 (two releases shipped 2026-09-20); pro pricing re-verified unchanged.
 - 2026-09-25 - Release line moved to v2.0.1 (2026-09-24), which unified search, blame, a new code graph, and tool-output compaction in one executable, and the site stopped listing the ctx pro subscription entirely, so the Pricing section, its caution, and the Price history were revised.
 - 2026-09-27 - Release line moved to v2.0.4 (2026-09-27, memory-use and active-session fixes), with v2.0.2 (2026-09-25) and a v1.6.4 maintenance release (2026-09-26) between; repository counts refreshed (1,132 to 1,135 stars) and the home-page efficiency claim re-verified unchanged.
+- 2026-09-29 - Release line moved to v2.1.2: v2.1.0 (2026-09-28) added paged blame indexing beyond 16,384 sources, and v2.1.1 and v2.1.2 (2026-09-29) fixed sift-hook execution and history-index maintenance; repository counts refreshed (1,135 to 1,141 stars).
 
 ## See also
 
@@ -87,5 +88,5 @@ Not for anyone needing audited cost reporting (agentsview's job) or provenance g
 - https://ctx.rs/pro - now the blame documentation page; the former pro-pricing URL redirects into the docs
 - https://hn.algolia.com/api/v1/items/49550141 - the Show HN launch thread, cited as the thin-footprint signal
 - https://ctx.rs/comparisons/agent-memory - the project's own framing against agent memory, from the comparisons section that now splits per topic
-- https://api.github.com/repos/ctxrs/ctx/releases - v2.0.4 published 2026-09-27, with v2.0.2 (2026-09-25) and the v1.6.4 maintenance line (2026-09-26) between
+- https://api.github.com/repos/ctxrs/ctx/releases - v2.1.2 published 2026-09-29, with the v2.1.0 line (2026-09-28), v2.0.4 (2026-09-27), v2.0.2 (2026-09-25), and the v1.6.4 maintenance line (2026-09-26) between
 - https://news.ycombinator.com/item?id=49727859 - the 3-point Show HN re-launch on 2026-09-16

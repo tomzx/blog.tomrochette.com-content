@@ -1,7 +1,7 @@
 ---
 title: OpenCodeReview
 created: 2026-08-30
-updated: 2026-09-27
+updated: 2026-09-29
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, evaluation, code-review, ci, open-source]
 readability: 3
@@ -23,9 +23,9 @@ Apache-2.0, from Alibaba, open-sourced in May 2026 after two years of internal u
 
 ## Status
 
-High-velocity young: 41,702 stars, 3,002 forks, 230 open issues and PRs as of 2026-09-27, created 2026-05-18.
-That is up from 23,041 stars on 2026-09-13, 29,564 on 2026-09-16, 35,673 on 2026-09-18, 37,926 on 2026-09-20, 38,670 on 2026-09-21, and 40,800 on 2026-09-24, roughly 80 percent in fourteen days, still with no new HN catalyst on the launch thread, which sits at the same 284 points.
-At least 133 releases in four months (v1.12.9 on 2026-09-22 remains latest, after v1.12.8 on September 21 and v1.12.7 on September 19), a 284-point Hacker News front-page thread in June.
+High-velocity young: 42,421 stars, 3,042 forks, 236 open issues and PRs as of 2026-09-29, created 2026-05-18.
+That is up from 23,041 stars on 2026-09-13, 29,564 on 2026-09-16, 35,673 on 2026-09-18, 37,926 on 2026-09-20, 38,670 on 2026-09-21, 40,800 on 2026-09-24, and 41,702 on 2026-09-27, roughly 84 percent in sixteen days, still with no new HN catalyst on the launch thread, which sits at the same 284 points.
+At least 134 releases in four months (v1.12.10 on 2026-09-28 remains latest, after v1.12.9 on September 22 and v1.12.8 on September 21), a 284-point Hacker News front-page thread in June.
 **Adoption outran polish visibly: GPT-5.x compatibility broke at launch and was fixed, and the lead has said parts of the codebase are not yet fully polished.**
 
 ## Strengths
@@ -69,6 +69,7 @@ Not for teams needing independently validated precision numbers today, or turnke
 - 2026-09-21 - Growth continued: 38.7k stars and 2.8k forks, v1.12.7 still latest, and the launch thread still stalled at 284 points with no new HN catalyst.
 - 2026-09-24 - The burst continues: 40.8k stars and 2.9k forks (up roughly 6 percent in three days), 133 releases with v1.12.9 shipping September 22, still with no new HN catalyst.
 - 2026-09-27 - The burst slows but continues: 41.7k stars and 3.0k forks (up roughly 2 percent in three days), v1.12.9 still latest, and the launch thread still at 284 points with no new HN catalyst.
+- 2026-09-29 - The burst continues: 42.4k stars and 3.0k forks (up roughly 2 percent in two days), 134 releases with v1.12.10 shipping September 28 (OpenRouter as a provider, an `ocr session rm` command), still with no new HN catalyst.
 
 ## See also
 
@@ -79,7 +80,7 @@ Not for teams needing independently validated precision numbers today, or turnke
 
 ## References
 
-- https://github.com/alibaba/open-code-review - repository, architecture, integrations, license, 41,702 stars as of 2026-09-27
+- https://github.com/alibaba/open-code-review - repository, architecture, integrations, license, 42,421 stars as of 2026-09-29
 - https://raw.githubusercontent.com/alibaba/open-code-review/HEAD/README.md - the hybrid design, benchmark claims, and recall trade-off
 - https://news.ycombinator.com/item?id=48406358 - the launch thread with the independent precision run and maintainer responses
 - https://huggingface.co/datasets/Alibaba-Aone/aacr-bench - the public benchmark backing the claims

@@ -1,7 +1,7 @@
 ---
 title: Shreya Shankar
 created: 2026-09-24
-updated: 2026-09-24
+updated: 2026-09-29
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, people, publications, evals, data-systems, llm-practitioner, academic]
 readability: 3
@@ -19,7 +19,7 @@ Shreya Shankar is a UC Berkeley computer science researcher in the EPIC Data Lab
 A personal site and blog, a stack of open-source research systems, and a growing set of benchmarks, all built on her PhD work on LLM-powered data processing.
 The flagship is DocETL (github.com/ucbepic/docetl), a system for complex document processing with semantic operators and agentic query rewrites, which her homepage reports at 3.7k+ GitHub stars with real use by public defenders and climate scientists as of 2026-09-24.
 With Hamel Husain she co-teaches and co-writes the evals material, including the free Maven mini-book Beyond Naive RAG.
-The newest instrument is Data Agent Bench (DAB), the first benchmark for data agents on realistic multi-database tasks.
+The newest instruments are Data Agent Bench (DAB), the first benchmark for data agents on realistic multi-database tasks, and Quail (announced 2026-09-24), her Full Stack Data Lab's query-aware inference engine for AI-SQL workloads, which the lab's blog reports at 1.84x the average speed of tuned vLLM baselines across its 29-query QUAIL-B benchmark and her homepage at over a billion tokens per minute on a single H100.
 
 ## Status
 
@@ -65,6 +65,7 @@ Not for someone hunting a daily news feed on coding-agent tools or quick prompt 
 ## Changes
 
 - 2026-09-24 - Created.
+- 2026-09-29 - Added Quail, the Full Stack Data Lab's query-aware AI-SQL inference engine announced 2026-09-24, as the newest instrument alongside DAB.
 
 ## See also
 
@@ -84,3 +85,4 @@ Not for someone hunting a daily news feed on coding-agent tools or quick prompt 
 - https://github.com/ucbepic/DataAgentBench - DAB repo, leaderboard entries, and submission activity as of 2026-09-24
 - https://maven.com/p/945082/beyond-naive-rag-practical-advanced-methods - the free mini-book with Hamel Husain, and her positioning as an applied evals researcher
 - https://hn.algolia.com/api/v1/search?query=%22shreya%20shankar%22&hitsPerPage=8 - HN footprint: the Weaviate Podcast episode on data agents, her 2022 ML engineering essay, and Hamel naming her a frequent collaborator
+- https://fsdatalab.github.io/blog/introducing-quail/ - the Full Stack Data Lab post introducing Quail (2026-09-24), grounding the newest-instrument claim and its 1.84x QUAIL-B result

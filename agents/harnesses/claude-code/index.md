@@ -1,7 +1,7 @@
 ---
 title: Claude Code
 created: 2026-08-22
-updated: 2026-09-26
+updated: 2026-09-29
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, coding-agents, harnesses, anthropic, developer-tools]
 readability: 3
@@ -26,7 +26,7 @@ The npm install is deprecated in favor of a native installer; third-party provid
 ## Status
 
 **Active and dominant.**
-The `anthropics/claude-code` repository shows about 148.1k stars and about 13.1k open issues and pull requests as of 2026-09-26; it hosts plugins, docs, and the issue tracker rather than the CLI source, which is proprietary.
+The `anthropics/claude-code` repository shows about 148.5k stars and about 13.6k open issues and pull requests as of 2026-09-29; it hosts plugins, docs, and the issue tracker rather than the CLI source, which is proprietary.
 Shipping pace in 2026 is high: projects for supervising groups of parallel agents (September 17), dynamic workflows across tens of parallel subagents (May 28), agent view (May 11), routines (April), computer use (March).
 
 ## Strengths
@@ -83,6 +83,7 @@ Not for the token-frugal or for anyone who needs an open, auditable client.
 - 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
 - 2026-09-26 - Added the September 2026 caution that the 2.1.277 AGENTS.md rollout was gated behind a remote flag telemetry-disabled sessions could not fetch, fixed in 2.1.281, grounded in issue 95690 and the changelog, and refreshed repository scale.
 - 2026-09-26 - Linked the Claude plans note in the new Model access category, where the subscription that meters this harness is tracked with its price history.
+- 2026-09-29 - Refreshed repository scale (about 148.5k stars, about 13.6k open issues and pull requests).
 
 ## See also
 
@@ -96,7 +97,7 @@ Not for the token-frugal or for anyone who needs an open, auditable client.
 
 - https://code.claude.com/docs/en/overview - surfaces, skills, hooks, subagents, routines, installation
 - https://claude.com/product/claude-code - pricing tiers and 2026 feature timeline
-- https://github.com/anthropics/claude-code - repository scale (about 148.1k stars) and npm deprecation, as of 2026-09-26
+- https://github.com/anthropics/claude-code - repository scale (about 148.5k stars) and npm deprecation, as of 2026-09-29
 - https://github.com/anthropics/claude-code/issues/95690 - the report that AGENTS.md support was gated behind a remote flag only fetched when telemetry was on
 - https://raw.githubusercontent.com/anthropics/claude-code/main/CHANGELOG.md - the 2.1.277 AGENTS.md addition and the 2.1.281 fix for telemetry-disabled sessions
 - https://news.ycombinator.com/item?id=49814947 - the 481-point September 23, 2026 thread that surfaced the telemetry gating

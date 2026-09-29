@@ -1,7 +1,7 @@
 ---
 title: OpenCode Go
 created: 2026-09-26
-updated: 2026-09-26
+updated: 2026-09-29
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, model-access, coding-subscription, open-models]
 readability: 3
@@ -10,20 +10,20 @@ audience_notes: >
   Assumes you know what an LLM API provider is and how coding agents consume one.
 ---
 
-OpenCode Go is a $10/month subscription from the OpenCode (Anomaly) team that bundles access to a curated set of open coding models, usable from OpenCode or any compatible coding agent.
+OpenCode Go is a subscription from the OpenCode (Anomaly) team that bundles access to a curated set of open coding models at $10/month, with a $40/month Go Plus tier above it, usable from OpenCode or any compatible coding agent.
 
 ## What it is
 
 Go sells model access, not an editor or a harness.
 You subscribe, copy an API key, and point any agent at OpenAI-compatible, Anthropic-compatible, or Responses endpoints under `opencode.ai/zen/go/v1`.
-The lineup is 32 open-weight coding models as of 2026-09-26 (Grok 4.7/4.6, GLM-5.3 family, Kimi K3, Qwen3.x, DeepSeek V4, MiniMax M3, MiMo, GPT 6 Luna), and only one member per workspace can hold a subscription.
+The lineup is 29 open-weight coding models as of 2026-09-29 (Grok 4.7/4.6, GLM-5.3 family, Kimi K3, Qwen3.8, DeepSeek V4, MiniMax M3, MiMo, GPT 6 Luna, LongCat, Hy3), and only one member per workspace can hold a subscription.
 
 ## Status
 
 Active and changing fast.
-The OpenCode repo shows about 208K GitHub stars as of 2026-09-26, the Go docs were last updated 2026-09-25, and the plan has grown from a three-model Beta in March 2026 to 32 models.
+The OpenCode repo shows about 208K GitHub stars as of 2026-09-26, the Go docs were last updated 2026-09-28, and the plan has grown from a three-model Beta in March 2026 to 29 models plus a $40 Go Plus tier.
 Churn is constant: GPT 6 Luna arrived 2026-09-22 and Space Bunny Free appeared as a limited-time unlimited model.
-**Go converts $10 into up to $60 of metered usage per month, and that 6x ratio is the entire value proposition.**
+**Go converts $10 into up to $60 of metered usage per month, Go Plus converts $40 into up to $180, and that ratio is the entire value proposition.**
 
 ## Strengths
 
@@ -43,8 +43,9 @@ Churn is constant: GPT 6 Luna arrived 2026-09-22 and Space Bunny Free appeared a
 
 ## Pricing
 
-$10/month, cancel any time, as of 2026-09-26.
-Each model carries a monthly dollar limit (mostly $60, some $30, $15 for flagships), with windows at 20% per rolling 5 hours (so $12 on a $60 model) and 50% weekly ($30).
+Go: $10/month, cancel any time, as of 2026-09-29.
+Go Plus: $40/month, same models with 2x to 4x the per-model monthly dollar limits (Kimi K3 and GPT 6 Luna $15 to $60, GLM-5.3-Flash and Kimi K2.7 Code $60 to $180, DeepSeek V4.1 Flash $60 to $120).
+Each model carries a monthly dollar limit on Go (mostly $60, some $30, $15 for flagships), with windows at 20% per rolling 5 hours (so $12 on a $60 model) and 50% weekly ($30).
 Exceeded limits fall back to free models, or to your Zen balance if you enable it.
 Top-ups draw on the shared Zen balance, where card fees are passed at cost (4.4% + $0.30).
 
@@ -56,6 +57,7 @@ Top-ups draw on the shared Zen balance, where card fees are passed at cost (4.4%
 | 2026-08-24 | Go | First-month $5 promo removed, flat $10/month | https://codingplan.org/en/plans/opencode-go |
 | 2026-09-02 | Go | $15 monthly limit became the standard for several flagship models (community-reported) | https://www.reddit.com/r/opencode/comments/1vo9j8l/opencode_go_15_is_now_the_standard/ |
 | 2026-09-24 | GLM-5.3-Flash | Monthly limit doubled to $60 (docs confirm $60 by 2026-09-25) | https://www.reddit.com/r/opencode/comments/1wc1cwe/glm_53_flash_now_gets_twice_the_limits_on/ |
+| 2026-09-29 | Go Plus | New $40/month plan added above the $10 Go plan, with 2x to 4x the per-model monthly dollar limits; docs republished 2026-09-28 | https://opencode.ai/docs/go |
 
 ## Compared to
 
@@ -73,6 +75,7 @@ My disagreeable claim: at roughly 50% usage Go is about break-even with direct A
 ## Changes
 
 - 2026-09-26 - Created.
+- 2026-09-29 - Go Plus added at $40/month with 2x to 4x the per-model monthly dollar limits, the catalog moved from 32 to 29 models (LongCat, Hy3, Hy4 preview, Qwen3.8, and GPT 5.6 Luna joined the roster), and the docs republished 2026-09-28; price history row appended.
 
 ## See also
 
@@ -83,8 +86,8 @@ My disagreeable claim: at roughly 50% usage Go is about break-even with direct A
 
 ## References
 
-- https://opencode.ai/go - product page, $10/month framing, model snapshot, GitHub star count (200).
-- https://opencode.ai/docs/go - full model/limit table, 20%/50%/100% windows, validated clients, header requirements (200).
+- https://opencode.ai/go - product page, two-tier $10/$40 framing, model snapshot, GitHub star count (200, 2026-09-29).
+- https://opencode.ai/docs/go - full model/limit table for both tiers, 20%/50%/100% windows, validated clients, header requirements (200, 2026-09-29, last updated 2026-09-28).
 - https://codingplan.org/en/plans/opencode-go - $5 first-month promo removal on 2026-08-24, catalog churn timeline (200).
 - https://help.apiyi.com/en/opencode-go-subscription-worth-it-review-en.html - March 2026 Beta state, dollar-window mechanics, critical take (200).
 - https://www.reddit.com/r/opencode/comments/1w9pyvq/opencode_go_is_no_longer_general_api_access/ - community reaction to session-header requirement (direct fetch 403; content read via search).

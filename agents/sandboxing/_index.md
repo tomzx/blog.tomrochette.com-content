@@ -15,6 +15,7 @@ Where agent isolation should live: the workstation, the cluster, the wrapper, th
 - [ArtifactFS](artifact-fs/index.md) - Cloudflare's FUSE driver that mounts big repos in seconds, the provisioning layer sandboxes need before isolation matters.
 - [Clawk](clawk/index.md) - the disposable-VM workstation tool, the agent gets its own Linux machine instead of yours, pre-1.0 on macOS.
 - [CubeSandbox](cubesandbox/index.md) - Tencent's E2B-compatible RustVMM/KVM microVM sandbox, sub-60ms boots, its traction built on launch announcements rather than community discussion.
+- [Drop](drop/index.md) - the rootless namespace sandbox that reuses your installed Linux distro instead of an image or VM, optional gVisor underneath.
 - [Flue](flue/index.md) - the Astro team's agent framework whose contribution is a three-tier sandbox taxonomy and durable execution.
 - [OpenSandbox](opensandbox/index.md) - the Apache-2.0 general sandbox platform (SDKs, CLI, MCP, K8s runtimes) that grew on GitHub trend charts, not Hacker News.
 - [OpenShell](openshell/index.md) - NVIDIA's container-and-MicroVM runtime where declarative policy and inference-proxy keys make the boundary credible.
@@ -31,3 +32,4 @@ Its members are compared on shared rows in the [Sandboxing Feature Matrix](sandb
 - 2026-09-05 - Added Clawk.
 - 2026-09-16 - Added CubeSandbox.
 - 2026-09-16 - Added OpenSandbox.
+- 2026-09-29 - Added Drop.

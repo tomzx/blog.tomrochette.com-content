@@ -1,9 +1,9 @@
 ---
 title: Multica
 created: 2026-09-27
-updated: 2026-09-27
+updated: 2026-09-29
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, orchestration, self-hosted, issue-tracking, agents-as-teammates]
+tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, llm=glm-5.3-flash, orchestration, self-hosted, issue-tracking, agents-as-teammates]
 readability: 3
 audience_notes: >
   Teams assigning work to coding agents on a shared board, weighing a source-available self-hosted platform.
@@ -23,7 +23,7 @@ It self-describes as supporting 26 agent CLIs (Claude Code, Codex, Cursor, Copil
 
 ## Status
 
-Actively shipped and unusually high-profile: about 51,451 stars and 6,668 forks as of 2026-09-27, created 2026-01-13, with 1,684 open issues and a latest release of v0.5.3 on 2026-09-24.
+Actively shipped and unusually high-profile: about 51,631 stars and 6,668 forks as of 2026-09-29, created 2026-01-13, with 1,703 open issues and a latest release of v0.6.0 on 2026-09-28.
 Releases land every one to three days, which corroborates real maintenance.
 **Two caveats travel with the headline number: the star count is extraordinary for an eight-month-old repo, and independent reviewers found at least eight near-identical zero-star clones carrying the same marketing description, a pattern associated with star farming, while the license is a custom Apache-2.0-derived "Multica License" that GitHub reports as NOASSERTION.**
 
@@ -40,7 +40,7 @@ Releases land every one to three days, which corroborates real maintenance.
 - The star count is a caveated signal: reviewers flag fast growth for the repo's age and multiple near-identical clones, though forks, issues, and commit volume suggest genuine activity underneath.
 - The license is not plain Apache-2.0: the Multica License adds conditions on hosted services and commercial embedding, so read it before either use.
 - Skills do not compound automatically yet; reviewers report most teams still hand-write them like runbooks.
-- Self-hosting means operating PostgreSQL with pgvector, and agent failure modes (loops, repeated state transitions) can swamp a human-shaped board.
+- Self-hosting means operating PostgreSQL with pgvector, and agent failure modes (loops, repeated state transitions) can swamp a human-run board.
 - No published pricing page was found; hosted pricing exists only behind a free trial and a sales conversation, and self-hosted images can lag the cloud by a release.
 
 ## Pricing
@@ -52,7 +52,7 @@ The source is available under the custom Multica License; agents run on your own
 
 - [Omnara](../omnara/index.md): an Apache-2.0 control plane where agents are YAML and supervision spans dashboard, phone, CLI, API, or Slack; choose Multica for an issue-board and teammate model with a desktop and mobile app.
 - [LobeHub](../lobehub/index.md): a Chief Agent Operator that hires, schedules, and reports on agents; choose Multica when the unit of work is a ticket assigned to a named agent.
-- [Superset](../superset/index.md): a local IDE for parallel worktree sessions; choose Multica when work is team-shaped and needs assignment, review gates, and an audit trail.
+- [Superset](../superset/index.md): a local IDE for parallel worktree sessions; choose Multica when work is team-scoped and needs assignment, review gates, and an audit trail.
 
 ## Bottom line
 
@@ -62,7 +62,9 @@ Not for solo developers running one agent, teams needing per-agent budget caps t
 ## Changes
 
 - 2026-09-27 - Created.
+- 2026-09-29 - Recorded v0.6.0 (September 28) and refreshed star and issue counts.
 
+- 2026-09-29 - Reworded two banned-term compounds ("team-shaped", "human-shaped") to plain wording, meaning unchanged.
 ## See also
 
 - [Orchestration Feature Matrix](../orchestration-feature-matrix/index.md) - the category comparison this note joins

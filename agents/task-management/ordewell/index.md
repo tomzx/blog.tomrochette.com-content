@@ -1,7 +1,7 @@
 ---
 title: Ordewell
 created: 2026-09-16
-updated: 2026-09-27
+updated: 2026-09-29
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, task-management, planner, multi-agent, open-source]
 readability: 3
@@ -25,8 +25,8 @@ The planner's permissions are unusually explicit (ADR-0008): commands classify i
 ## Status
 
 Active, young, and small.
-As of 2026-09-27: 162 stars, 13 forks, 42 open issues (most of them a single-day roadmap filing on 2026-09-26), created 2026-07-31, pushed 2026-09-26, latest release v0.5.4 on 2026-09-26, the v0.5.x line having opened 2026-09-25 and shipped five releases in two days after v0.4.23, and roughly 3,500 npm downloads last month across the `ordewell` and `@ordewell/cli` package names.
-The Show HN launch thread reached 50 points and 30 comments on 2026-09-15.
+As of 2026-09-29: 179 stars, 14 forks, 33 open issues (most of them a single-day roadmap filing on 2026-09-26), created 2026-07-31, pushed 2026-09-29, latest release v0.5.5 on 2026-09-28 (planner replies streaming with a reported-usage and context-fill line, prompts queueable mid-run, and run-robustness fixes where finished tasks stay finished on a plan rewrite and limit hits or failed merges pause a task instead of failing it), the v0.5.x line having opened 2026-09-25 and shipped six releases in four days after v0.4.23, and roughly 4,400 npm downloads last month across the `ordewell` and `@ordewell/cli` package names.
+The Show HN launch thread reached 56 points and 35 comments on 2026-09-15.
 
 ## Strengths
 
@@ -40,7 +40,7 @@ The Show HN launch thread reached 50 points and 30 comments on 2026-09-15.
 - **The launch thread's defining exchange is the transparency record: a commenter observed that everything about the project, including author replies in the comments, is AI-written, and the maintainer confirmed heavy AI use for the docs and code while standing behind the design.**
 - Replying to people with AI-generated text drew a specific objection in the same thread, so treat the repo's discourse hygiene as part of the adoption decision.
 - The same thread carried the standing structural objection to meta-frameworks: any advance gets absorbed into Claude and Codex within months, and this tool's planner-plus-runners surface is exactly the kind that absorption targets.
-- v0.5.x and 162 stars mean churn is likely; ADR-0002 records saved sessions being wiped without migration on that rewrite.
+- v0.5.x and 179 stars mean churn is likely; ADR-0002 records saved sessions being wiped without migration on that rewrite.
 - The planner's shell control is a denylist classifier over a real shell, not a sandbox (ADR-0011 tracks that gap).
 
 ## Pricing
@@ -57,7 +57,7 @@ No paid tier exists; token costs follow your runner subscriptions or API keys.
 ## Bottom line
 
 **Recommended for engineers running mixed-model agent fleets who want per-task model assignment and evidence-based completion, and who accept a two-month-old project.**
-Not for shared multi-agent queues (that is beads) or for teams that need maturity signals 144 stars cannot give.
+Not for shared multi-agent queues (that is beads) or for teams that need maturity signals 179 stars cannot give.
 The disagreeable claim I will defend: the AI-written launch thread is not disqualifying here, but it is the exact failure mode this section's transparency rules exist to catch, and a tool that cannot surface its own authorship plainly should not be trusted to surface task completion either.
 
 ## Changes
@@ -65,6 +65,7 @@ The disagreeable claim I will defend: the AI-written launch thread is not disqua
 - 2026-09-16 - Created.
 - 2026-09-25 - Recorded the v0.4.23 release (2026-09-23, four ships since v0.4.19) and refreshed counts.
 - 2026-09-27 - Recorded the v0.5.x line (v0.5.0 on 2026-09-25 through v0.5.4 on 2026-09-26, five ships in two days) and refreshed counts (162 stars, 42 open issues, about 3,500 npm downloads).
+- 2026-09-29 - Recorded v0.5.5 (2026-09-28, streaming planner replies and run-robustness fixes), refreshed counts (179 stars, 33 open issues, about 4,400 npm downloads), and updated the launch thread to 56 points and 35 comments.
 
 ## See also
 
@@ -77,10 +78,10 @@ The disagreeable claim I will defend: the AI-written launch thread is not disqua
 ## References
 
 - https://github.com/ordewell/ordewell - README: plan artifact, runners, marker verification, plugin manifests
-- https://api.github.com/repos/ordewell/ordewell - stars, forks, dates, Apache-2.0 as of 2026-09-27
+- https://api.github.com/repos/ordewell/ordewell - stars, forks, dates, Apache-2.0 as of 2026-09-29
 - https://ordewell.ai - the product site: surfaces, the plan-execute-verify loop, marker wording
 - https://ordewell.ai/docs.html - install, requirements, headless usage
 - https://github.com/ordewell/ordewell/blob/main/docs/adr/0002-planner-as-conversation-loop.md - the conversation-loop decision and the session wipe
 - https://github.com/ordewell/ordewell/blob/main/docs/adr/0008-planner-exploration-envelope.md - the auto/ask/refuse tiers and path confinement
-- https://news.ycombinator.com/item?id=49712276 - the launch thread: the AI-written exchange, the absorption objection, 50 points and 30 comments
-- https://api.npmjs.org/downloads/point/last-month/@ordewell/cli - 1,354 downloads last month for the scoped package
+- https://news.ycombinator.com/item?id=49712276 - the launch thread: the AI-written exchange, the absorption objection, 56 points and 35 comments
+- https://api.npmjs.org/downloads/point/last-month/@ordewell/cli - 2,286 downloads last month for the scoped package

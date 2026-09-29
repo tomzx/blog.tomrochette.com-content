@@ -1,7 +1,7 @@
 ---
 title: Claude Code hooks
 created: 2026-08-24
-updated: 2026-09-18
+updated: 2026-09-29
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, executions, claude-code, hooks]
 readability: 3
@@ -24,7 +24,7 @@ The same hook events fire in the terminal, IDE extensions, the desktop app, and 
 ## Status
 
 **Active and heavily invested in.**
-The feature ships in the proprietary CLI tracked by the `anthropics/claude-code` repository (about 148k stars and roughly 13.3k open issues as of 2026-09-27).
+The feature ships in the proprietary CLI tracked by the `anthropics/claude-code` repository (about 148.5k stars and roughly 13.6k open issues as of 2026-09-29).
 A third-party ecosystem exists: an HN search surfaces roughly 480 stories mentioning Claude Code hooks, including dedicated tooling like Graft, whose August 2026 launch thread drew 44 comments.
 Anthropic's own security-guidance plugin is built entirely on hooks (SessionStart, UserPromptSubmit, PostToolUse, Stop), which signals production commitment.
 
@@ -64,6 +64,7 @@ I would go further: a team that relies on prompt instructions instead of PreTool
 - 2026-08-24 - Created in the Executions category seed.
 - 2026-08-30 - Corrected the open-issue count from 5k+ to about 15k after it proved materially wrong.
 - 2026-09-18 - Refreshed the repository counters (about 145.2k to about 146k stars, roughly 12.4k to roughly 12.5k open issues).
+- 2026-09-29 - Refreshed the repository counters (about 148.5k stars, roughly 13.6k open issues) and re-dated the reference.
 
 ## See also
 
@@ -76,5 +77,5 @@ I would go further: a team that relies on prompt instructions instead of PreTool
 - https://code.claude.com/docs/en/hooks - event reference, handler types, matcher semantics, fail-open caution
 - https://code.claude.com/docs/en/hooks-guide - quickstart, deterministic-control framing, usage costs of model-backed hooks
 - https://code.claude.com/docs/en/security-guidance - the official plugin built entirely on hooks
-- https://github.com/anthropics/claude-code - repository scale, as of 2026-09-24
+- https://github.com/anthropics/claude-code - repository scale, as of 2026-09-29
 - https://news.ycombinator.com/item?id=49299985 - third-party hooks tooling (Graft) and community scrutiny of its benchmark claims

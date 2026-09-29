@@ -1,7 +1,7 @@
 ---
 title: "HAR"
 created: 2026-08-29
-updated: 2026-09-27
+updated: 2026-09-29
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=big-pickle, llm=glm-5.3-flash, software-factory, harness, multi-agent, worktrees]
 readability: 3
@@ -21,7 +21,7 @@ It is harness-agnostic and works with Claude Code, Cursor, Codex, or any MCP-cap
 
 ## Status
 
-Active and shipping fast: 95 stars and 13 forks since creation on 2026-06-28, v1.15.0 released 2026-09-26 (v1.0.0 landed 2026-08-28, ten releases in the first week of September alone), and the last main push on 2026-09-26 per the GitHub API as of 2026-09-27.
+Active and shipping fast: 96 stars and 13 forks since creation on 2026-06-28, v1.15.1 released 2026-09-28 (v1.0.0 landed 2026-08-28, ten releases in the first week of September alone), and the last main push on 2026-09-28 per the GitHub API as of 2026-09-29.
 It carries a code of conduct, security policy, and a sponsor (Kerno, a runtime code tester for coding agents), which is a steadier footprint than the category's usual single-commit repo.
 
 ## Strengths
@@ -34,7 +34,7 @@ It carries a code of conduct, security policy, and a sponsor (Kerno, a runtime c
 ## Cautions
 
 - **It runs alongside a coding agent rather than replacing it**: HAR coordinates and verifies a fleet, but the agents themselves are the harnesses you already pay for, so it is a layer, not a factory that owns the whole loop like Fluent.
-- **Young at about 95 stars**, though releases through v1.15.0 signal momentum, not abandonment.
+- **Young at about 96 stars**, though releases through v1.15.1 signal momentum, not abandonment.
 - **The deterministic verify is only as strong as your contract**: a `.har/` that ships placeholder checks is theater, the same trap as the placeholder gates elsewhere in this category.
 - **It depends on the ecosystem staying open**: its value rests on a portable contract and MCP support holding across vendors in a landscape that keeps consolidating.
 
@@ -42,7 +42,7 @@ It carries a code of conduct, security policy, and a sponsor (Kerno, a runtime c
 
 Apache-2.0, free, installable from npm with no license cost.
 You bring the coding agents and their subscriptions, and Mission Control runs locally on your machine.
-HAR HQ, the hosted team layer, published its first pricing (as of 2026-09-18, re-verified 2026-09-27): Team at $400 per month for up to 50 users with $100 in monthly cloud credits included, and Enterprise custom with self-hosted or VPC deployment, SSO, SAML, SCIM, and SLAs.
+HAR HQ, the hosted team layer, published its first pricing (as of 2026-09-18, re-verified 2026-09-29): Team at $400 per month for up to 50 users with $100 in monthly cloud credits included, and Enterprise custom with self-hosted or VPC deployment, SSO, SAML, SCIM, and SLAs.
 
 ## Price history
 
@@ -70,6 +70,7 @@ Not for a solo developer doing one agent at a time, where the harness alone is s
 - 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
 - 2026-09-25 - Recorded the v1.14.3 release (2026-09-24) and re-verified HAR HQ pricing unchanged.
 - 2026-09-27 - Recorded the v1.15.0 release (2026-09-26) and re-verified HAR HQ pricing unchanged.
+- 2026-09-29 - Recorded the v1.15.1 release (2026-09-28) and refreshed counts (96 stars, pushed 2026-09-28); HAR HQ pricing re-verified unchanged.
 
 ## See also
 

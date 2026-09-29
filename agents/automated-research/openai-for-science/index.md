@@ -1,7 +1,7 @@
 ---
 title: OpenAI for Science
 created: 2026-09-13
-updated: 2026-09-25
+updated: 2026-09-29
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, openai, mathematics, science]
 readability: 3
@@ -23,7 +23,7 @@ The program backs academic researchers with free and discounted access, and publ
 
 ## Status
 
-Active and escalating fast, as of 2026-09-25.
+Active and escalating fast, as of 2026-09-29.
 October 2025: senior OpenAI figures posted that GPT-5 had solved unsolved math problems; mathematicians showed the model had dug existing solutions out of old papers, and the posts were deleted.
 March 2026: GPT-5.4 solved the first open problem from Epoch AI's FrontierMath benchmark (a hypergraph-theory constant-factor bound), the benchmark of 14 bespoke unsolved problems explicitly built below Millennium scale.
 May 2026: OpenAI announced an internal model had disproved the Erdős unit distance conjecture, a result experts treated as genuinely productive.
@@ -39,7 +39,7 @@ September 2026: OpenAI published a claimed proof of forced blow-up in R3 and T3 
 ## Cautions
 
 - The overclaim pattern is documented: the October 2025 episode ended with deleted posts, and Weil now says models are "not there yet" for novel discovery.
-- The Navier-Stokes claim ships with a checkable Lean artifact, but a Lean certificate only verifies the encoded statement: the fit to Clay's formulation is still being audited, and the credit dispute is unadjudicated.
+- The Navier-Stokes claim ships with a checkable Lean artifact, but the encoded statement is option C of Charles Fefferman's 2000 Clay formulation, the variant that allows an external force: Luis Silvestre's summary is "the Clay problem is settled, but the main problem for the Navier-Stokes equations is not", three mathematicians posted a proof on September 17 that OpenAI's forced-blowup method can never extend to the unforced problem, and the credit dispute is unadjudicated.
 - OpenAI wrote that it "cannot rule out" that the mathematicians' own Codex usage data helped improve the models involved.
 - Independent scientists keep finding subtle errors in celebrated results, including a published paper whose core GPT-5-proposed idea tested the wrong property.
 
@@ -57,12 +57,13 @@ The surrounding stack is plan-based: the case studies feature GPT-5 Pro at $200 
 ## Bottom line
 
 **Recommended watching for anyone who needs to calibrate how much a lab announcement is worth: this program is the case study in demanding artifacts, graders, and named reviewers before believing a research claim.**
-Not a source of settled results as of 2026-09-18; treat the Navier-Stokes claim as pending until someone independent checks it.
+Not a source of settled results as of 2026-09-29; the Navier-Stokes certificate checks out against its own encoded statement, but leading fluid dynamicists dispute whether that statement is the problem anyone actually cared about.
 
 ## Changes
 
 - 2026-09-13 - Created as the OpenAI lab-program member of the new Automated research category.
 - 2026-09-25 - Recorded that the Navier-Stokes claim shipped with a public Lean 4 formalization (audited at about 616,000 lines with no extra axioms), that Buckmaster and Alpöge published their own Lean-verified Euler certificates, and reworked the verification caution accordingly.
+- 2026-09-29 - Recorded the formulation finding: the certificate covers Clay option C (forced blow-up), Silvestre and other experts name the unforced problem as the real one, and a September 17 three-mathematician proof shows OpenAI's method cannot extend to it (Scientific American, 2026-09-21).
 
 ## See also
 
@@ -79,3 +80,4 @@ Not a source of settled results as of 2026-09-18; treat the Navier-Stokes claim 
 - https://en.wikipedia.org/wiki/GPT-5.4 - the March 2026 model generation behind the benchmark first
 - https://mashable.com/tech/anthropic-fable-5-disproves-jacobian-conjecture - the May 2026 unit-distance disproof context and expert reads on AI counterexamples
 - https://stanfordtechreview.com/articles/openai-buckmaster-navier-stokes-lean-proofs - the third-party audit of both sides' Lean certificates (line counts, zero extra axioms)
+- https://www.scientificamerican.com/article/did-openai-solve-the-wrong-navier-stokes-problem/ - the formulation fight: Clay option C, Silvestre's "main problem is unsolved", and the September 17 no-extension proof

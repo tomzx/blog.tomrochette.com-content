@@ -1,7 +1,7 @@
 ---
 title: OpenShell
 created: 2026-08-30
-updated: 2026-09-27
+updated: 2026-09-29
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, sandboxing, isolation, security, nvidia, open-source]
 readability: 3
@@ -23,9 +23,9 @@ Linux, macOS (Apple Silicon), and Windows via WSL 2 (experimental); Apache-2.0, 
 
 ## Status
 
-Fast adoption, newly stable: 8,807 stars, 1,280 forks, 438 open issues and PRs as of 2026-09-27, created 2026-02-24.
-The v0.1.0 pre-release train graduated to stable v0.1.0 on 2026-09-25 with v0.1.1 following on 2026-09-26, and the README now advertises a stable release cadence for the 0.1.x line and no longer carries the alpha badge, at 1,536 commits and 123 contributors.
-**NVIDIA's own blog still calls it an early preview, and a stable line one point release deep plus experimental Kubernetes and GPU features say production use is a bet on the vendor staying in.**
+Fast adoption, newly stable and climbing: 9,707 stars, 1,358 forks, 455 open issues and PRs as of 2026-09-29, created 2026-02-24.
+The v0.1.0 pre-release train graduated to stable v0.1.0 on 2026-09-25, with v0.1.1 following on 2026-09-26 and v0.1.2 on 2026-09-28, and the README now advertises a stable release cadence for the 0.1.x line and no longer carries the alpha badge, at 1,557 commits and 124 contributors.
+**NVIDIA's own blog still calls it an early preview, and a stable line three point releases deep plus experimental Kubernetes and GPU features say production use is a bet on the vendor staying in.**
 In September 2026 the team also published a formal-methods discussion of encoding the full OpenShell policy as formal logic and proving containment queries with SAT, SMT, and Z3, which reached 40 points on Hacker News.
 
 ## Strengths
@@ -40,7 +40,7 @@ In September 2026 the team also published a formal-methods discussion of encodin
 - Freshly stable (v0.1.0 on 2026-09-25), with breaking changes the base rate for a runtime this young and the Kubernetes path explicitly experimental.
 - Telemetry is on by default in a tool whose pitch is privacy; anonymous, but verify it against your threat model.
 - Effective security equals the YAML policies you write and maintain, which is real ongoing work.
-- 438 open issues and PRs as of 2026-09-27, down from 537 at the prior verification, on a seven-month-old codebase.
+- 455 open issues and PRs as of 2026-09-29, down from a 537 September peak, on a seven-month-old codebase.
 
 ## Pricing
 
@@ -55,7 +55,7 @@ Costs are the local runtime and the policy authoring effort.
 
 ## Bottom line
 
-**Recommended for teams running multiple autonomous agents that need declarative egress and credential policy now, with alpha risk priced in.**
+**Recommended for teams running multiple autonomous agents that need declarative egress and credential policy now, with freshly stabilized, pre-1.0 risk priced in.**
 Not for production-critical paths this quarter, or shops that cannot run Docker or Podman on developer machines.
 
 ## Changes
@@ -67,6 +67,7 @@ Not for production-critical paths this quarter, or shops that cannot run Docker 
 - 2026-09-21 - The pre-release train advanced again with v0.1.0-pre.4 (2026-09-18, stable still v0.0.116), and growth refreshed (8,715 stars, 1,268 forks, 537 open issues and PRs, 120 contributors), fixing a stale 560 in Cautions to the verified 537.
 - 2026-09-25 - The pre-release train reached v0.1.0-pre.11 (2026-09-23, stable still v0.0.116), the formal-methods HN thread rose from 39 to 40 points, and growth refreshed (8,787 stars, 1,275 forks, 416 open issues and PRs, 123 contributors, 1,512 commits).
 - 2026-09-27 - The pre-release train graduated to stable: v0.1.0 released 2026-09-25 and v0.1.1 on 2026-09-26, with the README dropping its alpha badge and advertising a stable release cadence; growth refreshed (8,807 stars, 1,280 forks, 438 open issues and PRs, 1,536 commits), and the two NVIDIA docs references moved to the current why-open-shell and architecture paths after the old overview and how-it-works URLs went dead.
+- 2026-09-29 - The stable line advanced to v0.1.2 (2026-09-28) and growth refreshed (9,707 stars, 1,358 forks, 455 open issues and PRs, 1,557 commits, 124 contributors), a roughly 900-star two-day jump with no corresponding front-page thread found.
 
 ## See also
 

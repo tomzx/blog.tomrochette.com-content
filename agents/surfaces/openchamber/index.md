@@ -1,7 +1,7 @@
 ---
 title: OpenChamber
 created: 2026-08-24
-updated: 2026-09-27
+updated: 2026-09-29
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, surfaces, agentic-development-environments, opencode, open-source]
 readability: 3
@@ -24,7 +24,7 @@ It runs on the OpenCode SDK today and is an independent project, not affiliated 
 ## Status
 
 **Very active.**
-About 10.6k stars (10,622) and 1,154 forks as of 2026-09-26, with v2.0.2 (September 26, 2026, a cleaner chat timeline where compaction and shell commands render like the rest of the turn, plus startup, worktree-config, and mobile relay fixes) now the latest release after v2.0.1 (September 24, diff file-tree mode, /fork with a message, and skill and startup fixes, on a bundled OpenCode 2.0.16) and v2.0.0 (September 23, "OpenCode 2 and instant settings", the GA of the app on OpenCode v2 that the v2-preview test line of September 14 had been carrying), the v1.24 line just below it (v1.24.0 September 17 with third-party extensions and themes, v1.24.1 September 18, v1.24.2 September 18 with startup and reconnect memory fixes plus session groups that surface waiting agents), and commits landing September 26, 2026.
+About 10.9k stars (10,897) and 1,182 forks as of 2026-09-29, with v2.0.4 (September 28, 2026, enterprise mode for teams that an administrator turns on with a policy file or `OPENCHAMBER_ENTERPRISE_MODE=1`, keeping conversations with the configured providers, locking provider management to config, and restricting extensions to administrator-approved repositories, plus goal checking, an Excalidraw extension, a Dutch interface, and Jev off by default) now the latest release after v2.0.3 (September 28, per-session permission modes of ask, safety net, or accept all, an In work session section, multi-run from the composer, a token-stats page, and provider cards), the v2.0.0 GA of the app on OpenCode 2 (September 23), the v1.24 line just below it (v1.24.2 of September 18 ending it), and commits landing September 29, 2026.
 A 190-point Hacker News thread in August 2026 marks its arrival in general awareness.
 
 ## Strengths
@@ -66,6 +66,7 @@ Not for anyone who wants a polished IDE experience or harness choice beyond Open
 - 2026-09-24 - Recorded the v2.0 GA: v2.0.0 shipped September 23 ("OpenCode 2 and instant settings", promoting the v2-preview line) and v2.0.1 followed September 24 as the new latest release; stars refreshed to 10,509 and forks to 1,154.
 - 2026-09-26 - Recorded v2.0.2 (September 26, cleaner chat timeline rendering plus startup, worktree-config, and mobile relay fixes) as the new latest release and refreshed stars to 10,622.
 - 2026-09-27 - Linked the Agentic Development Environment Landscape tracker, whose OpenCode-native section is OpenChamber.
+- 2026-09-29 - Recorded v2.0.3 and v2.0.4 (both September 28, per-session permission modes, In work sessions, composer multi-run, and enterprise mode for teams) as the new latest releases and refreshed stars to 10,897.
 
 ## See also
 
@@ -78,7 +79,7 @@ Not for anyone who wants a polished IDE experience or harness choice beyond Open
 ## References
 
 - https://openchamber.dev/ - features, surfaces, privacy model, FAQ
-- https://github.com/openchamber/openchamber - source, repository scale, as of 2026-09-26
-- https://github.com/openchamber/openchamber/releases/tag/v2.0.2 - the latest release (September 26, 2026); the v1 release line ended at v1.24.2 on September 18
+- https://github.com/openchamber/openchamber - source, repository scale, as of 2026-09-29
+- https://github.com/openchamber/openchamber/releases/tag/v2.0.4 - the latest release (September 28, 2026); the v1 release line ended at v1.24.2 on September 18
 - https://docs.openchamber.dev/ - install and configuration documentation
 - https://news.ycombinator.com/item?id=49233448 - the August 2026 launch discussion

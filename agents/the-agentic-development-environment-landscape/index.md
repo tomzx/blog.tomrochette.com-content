@@ -1,7 +1,7 @@
 ---
 title: "The Agentic Development Environment Landscape"
 created: 2026-07-04
-updated: 2026-09-27
+updated: 2026-09-29
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.2, llm=glm-5.3-flash, ade, landscape, orchestration, opencode, claude-code, jetbrains]
 readability: 3
@@ -50,7 +50,7 @@ As of mid-2026 the top of the field was five products, and the gap between the l
 [Superset](https://github.com/superset-sh/superset) is the largest open-source entry by community, billing itself plainly as the code editor for the AI agents era and able to run a fleet of Claude Code, Codex, and similar CLIs on your own machine.
 It is an Electron desktop app with a CLI companion, and its positioning is the simplest of the group: bring your own agents, run them in parallel, review the results.
 
-[JetBrains Air](https://air.dev) is the incumbent's answer, and the one most likely to reshape the field by distribution alone.
+[JetBrains Air](https://www.jetbrains.com/air/) is the incumbent's answer, and the one most likely to reshape the field by distribution alone.
 JetBrains killed Fleet in late 2025 and replaced it with Air, an agentic development environment [launched as a public preview](https://blog.jetbrains.com/air/2026/03/air-launches-as-public-preview-a-new-wave-of-dev-tooling-built-on-26-years-of-experience/) in March 2026 on macOS, with Windows following in June and Linux still pending.
 Air is a standalone desktop application, not an IntelliJ plugin, and it supports Codex, Claude Agent, Gemini CLI, and Junie out of the box.
 Its distinguishing bet is code intelligence: because it inherits 26 years of IDE work, you can scope a task by referencing a specific class, method, or commit, and review changes against the whole codebase rather than a bare diff.
@@ -74,9 +74,9 @@ It rounds out a top five that already spans open source (Superset, Orca, Paseo, 
 
 **Below the leaders there is a busy middle, and it is where the next leader is most likely to come from.**
 Agent orchestrators built as CLIs and TUIs make up a large share, because the cheapest way to ship an ADE is to not build a GUI at all.
-[agent-orchestrator](https://github.com/AgentWrapper/agent-orchestrator) is a Go-based, tmux-driven orchestrator that plans tasks, spawns agents, and autonomously handles CI fixes and merge conflicts, and it has the reach of a leader without the surface area of one.
+[agent-orchestrator](https://github.com/Untrivial-ai/agent-orchestrator) is a Go-based, tmux-driven orchestrator that plans tasks, spawns agents, and autonomously handles CI fixes and merge conflicts, and it has the reach of a leader without the surface area of one.
 [Kandev](https://github.com/kdlbs/kandev) frames the same idea as an AI Kanban plus development environment, multi-provider and self-hostable with no telemetry, a framing that maps cleanly onto a team workflow.
-[Pane](https://github.com/dcouple/Pane), [lanes](https://github.com/lanes-sh/app), [Frame](https://github.com/kaanozhan/Frame), [genie](https://github.com/automagik-dev/genie), and workstreams each take a slightly different cut of the same problem: terminal-first, mobile-first, spec-driven, or PR-out-the-door.
+[Pane](https://github.com/greenfield-inc/Pane), [lanes](https://github.com/lanes-sh/app), [Frame](https://github.com/kaanozhan/Frame), [genie](https://github.com/automagik-dev/genie), and workstreams each take a slightly different cut of the same problem: terminal-first, mobile-first, spec-driven, or PR-out-the-door.
 
 The long tail is mostly Tauri and Rust experiments (Termote, AKA, codemux, BLXCode), which trade on being lightweight and locally owned, and a handful of IntelliJ-style control surfaces like Athena.
 None of these is a leader today, but the category is young enough that any one of them could break out if it found the right wedge, and the two curated lists, [awesome-agent-orchestrators](https://github.com/andyrewlee/awesome-agent-orchestrators) and awesome-multi-agent-orchestrators, are the best place to watch for movement.
@@ -137,6 +137,7 @@ The ADE is not a passing fashion; it is the productized answer to a real bottlen
 - 2026-07-04 - Drafted as a corpus post in the owner's working tree, never committed.
 - 2026-09-27 - Moved into the agents section at the owner's instruction and published: draft and type markers dropped, link depths fixed for the section root, the leaderboard framed as the mid-2026 snapshot it is, and cross-links added to the Orchestration category that tracks the live membership.
 - 2026-09-27 - Fixed two malformed See also bullets (stray leading dashes) and re-verified every external link.
+- 2026-09-29 - Link check: repointed JetBrains Air to jetbrains.com/air after air.dev began redirecting, followed the agent-orchestrator and Pane repository transfers (Untrivial-ai and greenfield-inc), and cleared the stale 429 notes on the two GitHub topic references (both fetched 200).
 
 ## See also
 
@@ -152,16 +153,16 @@ The ADE is not a passing fashion; it is the productized answer to a real bottlen
 - [stablyai/orca](https://github.com/stablyai/orca) - open-source ADE; any CLI agent, desktop and mobile, the feature reference
 - [getpaseo/paseo](https://github.com/getpaseo/paseo) - AGPL self-hosted ADE; multi-provider, zero telemetry
 - [superset-sh/superset](https://github.com/superset-sh/superset) - largest open-source ADE by community
-- [JetBrains Air](https://air.dev) - the incumbent's commercial ADE
+- [JetBrains Air](https://www.jetbrains.com/air/) - the incumbent's commercial ADE
 - [JetBrains, "Air Launches as Public Preview"](https://blog.jetbrains.com/air/2026/03/air-launches-as-public-preview-a-new-wave-of-dev-tooling-built-on-26-years-of-experience/) - Air's positioning, supported agents, and roadmap
 - [JetBrains + Zed, Agent Client Protocol](https://blog.jetbrains.com/ai/2025/10/jetbrains-zed-open-interoperability-for-ai-coding-agents-in-your-ide/) - the interop standard that makes vendor-neutral ADEs credible
 - [generalaction/emdash](https://github.com/generalaction/emdash) - open-source ADE, YC W26, enterprise-integration focus
-- [AgentWrapper/agent-orchestrator](https://github.com/AgentWrapper/agent-orchestrator) - tmux-driven CLI orchestrator with autonomous CI and merge handling
+- [Untrivial-ai/agent-orchestrator](https://github.com/Untrivial-ai/agent-orchestrator) - tmux-driven CLI orchestrator with autonomous CI and merge handling (moved from the AgentWrapper org)
 - [kdlbs/kandev](https://github.com/kdlbs/kandev) - AI Kanban plus development environment, self-hostable, no telemetry
-- [dcouple/Pane](https://github.com/dcouple/Pane) - terminal-first agent manager with remote phone access
+- [greenfield-inc/Pane](https://github.com/greenfield-inc/Pane) - terminal-first agent manager with remote phone access (moved from the dcouple org)
 - [kaanozhan/Frame](https://github.com/kaanozhan/Frame) - spec-driven ADE
 - [automagik-dev/genie](https://github.com/automagik-dev/genie) - CLI agent that dispatches parallel worktrees and reviews
 - [lanes-sh/app](https://github.com/lanes-sh/app) - mission control for parallel agents
 - [andyrewlee/awesome-agent-orchestrators](https://github.com/andyrewlee/awesome-agent-orchestrators) - curated list for tracking the long tail
-- [GitHub topic: ade](https://github.com/topics/ade) - the topic page that maps the category (429 to automated fetchers this run, live in browser)
-- [GitHub topic: parallel-agents](https://github.com/topics/parallel-agents) - the broader orchestration topic (429 to automated fetchers this run, live in browser)
+- [GitHub topic: ade](https://github.com/topics/ade) - the topic page that maps the category (fetched 200, 2026-09-29)
+- [GitHub topic: parallel-agents](https://github.com/topics/parallel-agents) - the broader orchestration topic (fetched 200, 2026-09-29)
