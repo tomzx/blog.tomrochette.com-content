@@ -1,7 +1,7 @@
 ---
 title: "Context Engines Feature Matrix"
 created: 2026-08-24
-updated: 2026-09-25
+updated: 2026-10-01
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, comparison, context-engines, code-retrieval, developer-tools]
 readability: 3
@@ -78,6 +78,7 @@ Augment's 33% token savings, Sourcegraph's cost deltas, Semble's 99%-fewer-token
 - 2026-09-24 - Renamed the Sourcegraph column to its listing title, Sourcegraph code context platform; no cells moved.
 - 2026-09-24 - Removed the verification preamble line on owner request.
 - 2026-09-25 - Updated the Graphify delivery cell to the vendor's documented 17-assistant installer surface.
+- 2026-10-01 - Reworded banned-term words out of the prose; meaning unchanged.
 
 ## See also
 
@@ -101,6 +102,6 @@ Augment's 33% token savings, Sourcegraph's cost deltas, Semble's 99%-fewer-token
 - https://news.ycombinator.com/item?id=48169874 - the launch thread grounding the Semble column's self-published-benchmark caveat
 - https://github.com/trailhq/Graft - canonical repository (NanoNets/Graft redirects here), README architecture and claims, license, and adoption stats for the Graft column
 - https://graft.nanonets.ai - the product site and Trail attribution for the Graft column
-- https://raw.githubusercontent.com/trailhq/Graft/main/TELEMETRY.md - the telemetry posture for the Graft column
+- https://raw.githubusercontent.com/trailhq/Graft/main/TELEMETRY.md - the telemetry policy for the Graft column
 - https://trailhq.com/pricing - Trail Brain plan pricing for the Graft column's pricing cell
 - https://hn.algolia.com/api/v1/items/49299985 - the launch thread grounding the Graft column's vendor-run-benchmark caveat

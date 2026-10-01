@@ -1,7 +1,7 @@
 ---
 title: GitHub Agentic Workflows
 created: 2026-08-24
-updated: 2026-09-29
+updated: 2026-10-01
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, executions, github-actions, workflows]
 readability: 3
@@ -12,7 +12,7 @@ audience_notes: >
 
 GitHub Agentic Workflows (gh-aw) define repository automation in Markdown with YAML frontmatter, compiled into a hardened GitHub Actions workflow that runs an AI coding agent with guardrails.
 
-**GitHub Actions is becoming the default execution substrate for code agents, and gh-aw is the mechanism that makes an untrusted LLM in CI survivable.**
+**GitHub Actions is becoming the default execution layer for code agents, and gh-aw is the mechanism that makes an untrusted LLM in CI survivable.**
 
 ## What it is
 
@@ -50,7 +50,7 @@ Self-hosted and ARC runners are supported, which can zero out the Actions-minute
 
 ## Compared to
 
-- [Claude Code Action](https://github.com/anthropics/claude-code-action): the mature single-agent incumbent on the same substrate (about 8.9k stars as of 2026-09-18), better for @claude PR review, weaker on multi-engine guardrails.
+- [Claude Code Action](https://github.com/anthropics/claude-code-action): the mature single-agent incumbent on the same platform (about 8.9k stars as of 2026-09-18), better for @claude PR review, weaker on multi-engine guardrails.
 - [Copilot automations](../copilot-automations/index.md): GitHub's hosted scheduled and event triggers, no files in your repo, Copilot-only.
 - [Claude Code hooks](../claude-code-hooks/index.md): event triggers inside one harness session, versus repository-level automation across engines.
 
@@ -71,10 +71,11 @@ My disagreeable claim: even in preview, I would start here rather than hand-roll
 - 2026-09-24 - Refreshed the release train to v0.89.21 (September 23) and re-confirmed v0.88.7 as the last stable release; fork count refreshed to 558.
 - 2026-09-27 - Recorded the prerelease-versus-stable flip: v0.89.21 (2026-09-23) is now the newest stable-marked release and v0.89.22 (2026-09-27) runs as a prerelease, retiring the v0.88.7-last-stable record; forks refreshed to 562.
 - 2026-09-29 - Refreshed the release train to v0.90.0 (2026-09-28, a prerelease) and re-confirmed v0.89.21 as the newest stable-marked release; forks refreshed to 564.
+- 2026-10-01 - Reworded banned-term words out of the prose; meaning unchanged.
 
 ## See also
 
-- [Copilot automations](../copilot-automations/index.md) - the hosted, Copilot-only sibling on the same substrate
+- [Copilot automations](../copilot-automations/index.md) - the hosted, Copilot-only sibling on the same platform
 - [Claude Code](../../harnesses/claude-code/index.md) - one of the five built-in engines
 - [Claude Code hooks](../claude-code-hooks/index.md) - in-harness event triggers versus repo-level automation
 
@@ -85,5 +86,5 @@ My disagreeable claim: even in preview, I would start here rather than hand-roll
 - https://github.com/github/gh-aw - repository scale, MIT license, as of 2026-09-29
 - https://github.com/github/gh-aw/security/advisories/GHSA-8h78-hpm7-29gg - the critical advisory (safe-output artifacts may expose CI trigger tokens) behind the 0.83.3-0.85.4 retirement
 - https://news.ycombinator.com/item?id=46934107 - February 2026 launch discussion (302 points) including dogfooding criticism
-- https://github.com/anthropics/claude-code-action - the single-agent alternative on the same substrate
+- https://github.com/anthropics/claude-code-action - the single-agent alternative on the same platform
 - https://docs.github.com/en/copilot/concepts/agents/cloud-agent/about-automation-rationale-and-approvals - shared rationale and approvals layer, including its limits

@@ -1,7 +1,7 @@
 ---
 title: n8n
 created: 2026-08-24
-updated: 2026-09-20
+updated: 2026-10-01
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, executions, webhooks, workflow-automation]
 readability: 3
@@ -12,7 +12,7 @@ audience_notes: >
 
 n8n is a fair-code workflow automation platform with native AI capabilities, where webhook triggers, cron schedules, and chat channels start workflows and agents built on a visual canvas with code nodes.
 
-**n8n is the most credible webhook-triggered agent substrate with real engineering uptake, as long as you accept that it is not open source and your use of it is bounded by its license.**
+**n8n is the most credible webhook-triggered agent platform with real engineering uptake, as long as you accept that it is not open source and your use of it is bounded by its license.**
 
 ## What it is
 
@@ -71,10 +71,11 @@ My disagreeable claim: for scheduled and webhook-triggered coding-adjacent work,
 - 2026-09-09 - Moved the license reference to the sustainable-use-license path after the old URL began returning 404.
 - 2026-09-18 - Refreshed the repository counters (about 204k to about 205k stars, 60.6k to 60.8k forks) and re-confirmed the pricing tiers unchanged.
 - 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
+- 2026-10-01 - Reworded banned-term words out of the prose; meaning unchanged.
 
 ## See also
 
-- [GitHub Agentic Workflows](../github-agentic-workflows/index.md) - the repo-centric execution substrate
+- [GitHub Agentic Workflows](../github-agentic-workflows/index.md) - the repo-centric execution platform
 - [Copilot automations](../copilot-automations/index.md) - hosted scheduling inside GitHub
 - [Claude Code](../../harnesses/claude-code/index.md) - an MCP client that can build and manage n8n agents
 - [OpenChamber](../../surfaces/openchamber/index.md) - local, self-hosted scheduling for coding sessions

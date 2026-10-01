@@ -1,7 +1,7 @@
 ---
 title: Windsurf
 created: 2026-08-23
-updated: 2026-09-27
+updated: 2026-10-01
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, surfaces, ai-editors, cognition, devin]
 readability: 3
@@ -33,7 +33,7 @@ On September 2, 2026, Bloomberg reported that Cognition is closing a round of ab
 ## Strengths
 
 - **The Cascade lineage survives inside a well-funded owner**: agentic IDE mechanics honed by that user base now back Devin's stack.
-- ACP support makes Devin Desktop a host for rival agents, an unusually open posture for an acquired product.
+- ACP support makes Devin Desktop a host for rival agents, an unusually open stance for an acquired product.
 - Full backwards compatibility with Windsurf settings and extensions meant existing teams were not stranded.
 - Cognition's own model line (SWE-1.6 preview, March 2026) continues underneath the editor.
 
@@ -77,6 +77,7 @@ Not for new adoption: picking a brand mid-retirement means betting on one compan
 - 2026-09-18 - Re-probed the devin.ai pricing route (429 on September 16, 404 on September 18); plan prices remain unverified.
 - 2026-09-20 - devin.ai/pricing resumed serving (200 after the September 16 429 and September 18 404) and exposed the Devin tier prices, recorded in Pricing with a baseline Price history row.
 - 2026-09-27 - Re-confirmed the windsurf.com and docs.windsurf.com redirects and the Devin ladder; unchanged.
+- 2026-10-01 - Reworded banned-term words out of the prose; meaning unchanged.
 
 ## See also
 

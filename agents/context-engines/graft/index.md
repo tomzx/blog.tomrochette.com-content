@@ -1,7 +1,7 @@
 ---
 title: Graft
 created: 2026-09-12
-updated: 2026-09-29
+updated: 2026-10-01
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, context-engines, code-graphs, claude-code, open-source]
 readability: 3
@@ -36,7 +36,7 @@ No independent benchmark or third-party evaluation exists as of 2026-09-13.
 - **The delivery is the deepest in this category**: per-agent instruction files across nine surfaces, six MCP tools, post-edit hooks with blast-radius warnings, a live statusline, and auto-resync, so the map actually gets used instead of ignored.
 - The structural layer is deterministic, key-free, and local, and the LLM layer is bring-your-own-provider, so the tool never sits between you and a model bill.
 - Freshness is engineered rather than promised: millisecond structural re-sync per query, content-hash caching, and a `graft check` drift report.
-- The telemetry posture is unusually explicit: a published allowlist contract with bucketed values, opt-out via `DO_NOT_TRACK=1`, and off by default in CI and source builds.
+- The telemetry policy is unusually explicit: a published allowlist contract with bucketed values, opt-out via `DO_NOT_TRACK=1`, and off by default in CI and source builds.
 
 ## Cautions
 
@@ -80,6 +80,7 @@ I would not skip TELEMETRY.md for a compliance-sensitive team, and I would not b
 - 2026-09-26 - Recorded the npm package moving to v0.20.0 (published 2026-09-25) and refreshed the growth numbers (9,234 stars, 842 forks, 215 open issues, pushed 2026-09-26, 59,444 trailing-month npm downloads); Trail Brain pricing unchanged.
 - 2026-09-27 - Refreshed the growth numbers (9,276 stars, 844 forks, 221 open issues, 66,248 trailing-month npm downloads); npm package v0.20.0 and Trail Brain pricing unchanged.
 - 2026-09-29 - Refreshed the growth numbers (9,381 stars, 862 forks, 239 open issues, pushed 2026-09-29, 72,419 trailing-month npm downloads); npm package v0.20.0 and Trail Brain pricing unchanged.
+- 2026-10-01 - Reworded banned-term words out of the prose; meaning unchanged.
 
 ## See also
 

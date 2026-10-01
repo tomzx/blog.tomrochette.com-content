@@ -1,7 +1,7 @@
 ---
 title: Ante
 created: 2026-08-30
-updated: 2026-09-29
+updated: 2026-10-01
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agents, harnesses, rust, single-binary, local-models]
 readability: 3
@@ -42,7 +42,7 @@ The company publishes Terminal-Bench 2.1 runs at antigma.ai/eval, pinning every 
 ## Cautions
 
 - **The binary and the source have different licenses**: prebuilt releases are governed by Binary Preview Terms (alpha research preview, distribution can be discontinued), so the Apache-2.0 repo does not mean the artifact you download is freely relicensed.
-- Preview posture persists past the renumbering: v0.2.0 promises compatibility within a minor series, but the README still warns of breaking changes and the prebuilt binaries remain under the Binary Preview Terms.
+- Preview status persists past the renumbering: v0.2.0 promises compatibility within a minor series, but the README still warns of breaking changes and the prebuilt binaries remain under the Binary Preview Terms.
 - The benchmark claims come from the vendor itself; the runs are auditable but independent replication is thin so far.
 - Launch-day trust was damaged by the binary-only debut; the correction is recent and worth remembering.
 
@@ -74,6 +74,7 @@ I expect the harness market to consolidate on footprint and cost per agent, and 
 - 2026-09-22 - Recorded the v0.2.3 (September 21) and v0.2.4 (September 22) releases, which added a direct session-picker resume, first-class System messages, GPT-6 Sol and Luna, Claude Opus 5.5, Grok 4.7, and MiMo 2.6 catalog entries, and an embedded llama.cpp update, and refreshed repository scale.
 - 2026-09-26 - Recorded the v0.2.5 release (September 25), which added in-place session provider switching and stricter MCP server startup, and refreshed repository scale.
 - 2026-09-29 - Recorded the v0.2.6 release (published September 28), which made DeepSeek V4.1 Flash the OpenRouter default, removed the V4 Flash preset and Nemotron 3.5 Lightning from that catalog, and capped output requests to remaining context, and refreshed repository scale.
+- 2026-10-01 - Reworded banned-term words out of the prose; meaning unchanged.
 
 ## See also
 

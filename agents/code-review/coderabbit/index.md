@@ -1,7 +1,7 @@
 ---
 title: CodeRabbit
 created: 2026-08-30
-updated: 2026-09-20
+updated: 2026-10-01
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, code-review, ai-review, developer-tools]
 readability: 3
@@ -31,7 +31,7 @@ Scale as of 2026-09-18: 17,000+ customers, 6M repositories, and more than 2M rev
 - One reviewer covers every surface code moves through (PR, IDE, CLI, agent handoffs), which is exactly what multi-agent teams need.
 - The per-team Learnings loop and 40+ context sources target the false-positive noise that gets these tools turned off.
 - Ranked #1 by online F1 in Martian's independent code review benchmark across nearly 300K PRs (vendor-reported, March 2026).
-- The open source posture is more than a free tier: $1.2M delivered on the first $1M pledge, and more than $10M committed on August 26, 2026.
+- The open source commitment is more than a free tier: $1.2M delivered on the first $1M pledge, and more than $10M committed on August 26, 2026.
 
 ## Cautions
 
@@ -76,6 +76,7 @@ My disagreeable take: the exploit history makes CodeRabbit more credible, not le
 - 2026-09-02 - Pricing restructured: Essentials and Team renames, plus a new Advanced tier replacing the $40 Security plan.
 - 2026-09-04 - Slack agent price cut from $0.50 to $0.40 per agent minute.
 - 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
+- 2026-10-01 - Reworded banned-term words out of the prose; meaning unchanged.
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: "Executions Feature Matrix"
 created: 2026-08-24
-updated: 2026-09-25
+updated: 2026-10-01
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, comparison, executions, scheduling, workflow-automation]
 readability: 3
@@ -10,7 +10,7 @@ audience_notes: >
   Assumes you know what GitHub Actions, webhooks, and BYOK mean; each column links to a full note with sources.
 ---
 
-This matrix compares the four execution substrates profiled in this section, the mechanisms that make an agent run without a person starting each task.
+This matrix compares the four execution mechanisms profiled in this section, the ways an agent runs without a person starting each task.
 
 **What decides between these four is not agent quality but where the trigger definition lives and who can inspect it, and on that axis Copilot automations fail for any team today, a stronger verdict than their zero-setup convenience deserves.**
 
@@ -61,6 +61,7 @@ hooks sit in between, since project-scope settings can be committed and user sco
 - 2026-08-24 - Created with four columns and rows adapted to executions (trigger and execution location).
 - 2026-09-24 - Removed the verification preamble line on owner request.
 - 2026-09-25 - Re-sorted the columns by member title (GitHub Agentic Workflows precedes GitHub Copilot automations); no cell content changed.
+- 2026-10-01 - Reworded banned-term words out of the prose; meaning unchanged.
 
 ## See also
 

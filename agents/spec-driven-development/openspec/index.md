@@ -1,7 +1,7 @@
 ---
 title: OpenSpec
 created: 2026-08-27
-updated: 2026-09-27
+updated: 2026-10-01
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, spec-driven-development, specs, open-source]
 readability: 3
@@ -36,7 +36,7 @@ The README's own superlative ("the most loved spec framework") is vendor framing
 
 ## Cautions
 
-- Corporate single-steward (Fission AI) with no foundation governance, unlike GitHub's spec-kit or BMad's LLC-plus-community posture.
+- Corporate single-steward (Fission AI) with no foundation governance, unlike GitHub's spec-kit or BMad's LLC-plus-community governance model.
 - The workflow was rebuilt once already (the opsx artifact flow replaced an older one), so expect vocabulary churn.
 - No significant independent writing to check marketing claims against.
 - Ceremony still depends on the assistant asking for it; a yolo-configured agent skips the gates as easily as anywhere else.
@@ -61,6 +61,7 @@ My disagreeable claim: the delta-archive idea is the one durable invention this 
 ## Changes
 
 - 2026-08-27 - Created as the Spec-driven development category expanded to four members, recording Fission AI's delta-proposal model and brownfield-first philosophy.
+- 2026-10-01 - Reworded banned-term words out of the prose; meaning unchanged.
 
 ## See also
 

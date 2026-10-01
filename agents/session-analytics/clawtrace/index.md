@@ -1,7 +1,7 @@
 ---
 title: ClawTrace
 created: 2026-09-27
-updated: 2026-09-27
+updated: 2026-10-01
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, session-analytics, observability, openclaw, cost-tracking]
 readability: 3
@@ -41,7 +41,7 @@ It also carries a paper, "ClawTrace: Cost-Aware Tracing for LLM Agent Skill Dist
 
 ## Cautions
 
-- It is hosted and cloud-only: trace payloads, including LLM inputs and outputs, stream to the vendor's data lake, the opposite of the local-first posture the rest of this category shares.
+- It is hosted and cloud-only: trace payloads, including LLM inputs and outputs, stream to the vendor's data lake, the opposite of the local-first stance the rest of this category shares.
 - Consumption billing meters storage continuously at 1.35 credits per MB per day, so idle traces keep drawing credits until they are deleted.
 - The vendor's own paper reports no aggregate cost saving across the full 84-task SkillsBench transfer and no aggregate cost reduction when prune patches are removed, which undercuts the cheapest-sounding promise.
 - Single-harness by design: OpenClaw only, and the data only exists if the OpenClaw plugin is installed and authenticated.
@@ -74,6 +74,7 @@ Not for anyone who needs traces to stay local, multi-harness coverage, or a self
 ## Changes
 
 - 2026-09-27 - Created.
+- 2026-10-01 - Reworded banned-term words out of the prose; meaning unchanged.
 
 ## See also
 

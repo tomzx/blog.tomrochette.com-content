@@ -1,7 +1,7 @@
 ---
 title: "Session Analytics Feature Matrix"
 created: 2026-08-30
-updated: 2026-09-27
+updated: 2026-10-01
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=deepseek-v4.1-flash, comparison, session-analytics, observability, token-usage]
 readability: 3
@@ -10,8 +10,8 @@ audience_notes: >
   Assumes you know what a session transcript and token accounting are; each column links to a full note with sources.
 ---
 
-This matrix compares the seven members of the Session analytics category: tools that turn what your coding agents record (or are recording right now) into live views, searchable history, cost reports, and audits, plus one that borrows the same agent-readable posture for product analytics.
-The category now spans three postures: the local retrospective archive (agentsview, ctx, Memex, AgentTrace), the live view (agents-observe, ClawTrace, and the real-time half of Agent Analytics), and the edge case, Agent Analytics, which measures your product's users rather than your agents.
+This matrix compares the seven members of the Session analytics category: tools that turn what your coding agents record (or are recording right now) into live views, searchable history, cost reports, and audits, plus one that borrows the same agent-readable interface for product analytics.
+The category now spans three arrangements: the local retrospective archive (agentsview, ctx, Memex, AgentTrace), the live view (agents-observe, ClawTrace, and the real-time half of Agent Analytics), and the edge case, Agent Analytics, which measures your product's users rather than your agents.
 
 **The category's founding question, retrospective archive versus live observation, now has both answers several times over: agentsview indexes what every agent already did and cost across 60-plus formats, ctx answers where did this line of code come from, AgentTrace answers what did this run cost and why was it slow, agents-observe answers what is my agent doing right now (Claude Code and Codex only), ClawTrace answers the same question for OpenClaw by uploading the run, Memex answers where did I already do this and drops you back into the session, and Agent Analytics answers a different question entirely, how are my product's users behaving, with the same agent-readable stance.**
 
@@ -79,6 +79,7 @@ ctx's moat is different: agent-facing retrieval, where the consumer of the searc
 - 2026-09-25 - Retired the ctx pro cells: the Kind, Open source, Team features, and Pricing cells now describe blame as built in, after v2.0.0 shipped it inside the single open-source executable and the site dropped every paid-tier listing.
 - 2026-09-27 - Re-verified all four columns: repository counts refreshed (agents-observe 684, agentsview 6,001, ctx 1,135, Memex 231 stars), the reading prose's schema line revised after the agentsview docs returned to version 5, and the Memex star count in the choosing prose generalized; no table cells moved.
 - 2026-09-27 - Extended from four to seven columns with Agent Analytics, AgentTrace, and ClawTrace, re-sorted all columns alphabetically, updated the intro member count and framing, and extended the reading and choosing prose.
+- 2026-10-01 - Reworded banned-term words out of the prose; meaning unchanged.
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: Graphify
 created: 2026-08-30
-updated: 2026-09-29
+updated: 2026-10-01
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, context-engines, knowledge-graphs, code-intelligence, open-source]
 readability: 3
@@ -43,7 +43,7 @@ The ecosystem is growing too: a third-party C# port, graphify-csharp, launched S
 - The benchmarks are self-published, and on the headline QA-accuracy metric graphify trails supermemory while winning on cost and recall, per its own BENCHMARKS.md.
 - Only code is local: docs, PDFs, and images are sent to whatever LLM backend is configured.
 - Pre-1.0 with 1,501 open issues and PRs as of 2026-09-29, a nonstandard default branch, and acknowledged PyPI name-squatting on `graphify*` packages.
-- The free CLI is the top of an open-core funnel into a hosted product whose plans only recently gained public prices, so expect the monetization posture to keep moving.
+- The free CLI is the top of an open-core funnel into a hosted product whose plans only recently gained public prices, so expect the monetization strategy to keep moving.
 
 ## Pricing
 
@@ -80,6 +80,7 @@ Not for small repos where grep and packing are enough, or for buyers who need in
 - 2026-09-26 - Recorded release v0.9.68 (2026-09-25, a watcher shell-quoting security fix) and refreshed the volatile numbers (121,495 stars, 1,933 commits, 263 contributors, 1,478 open issues and PRs); hosted plans unchanged.
 - 2026-09-27 - Recorded release v0.9.69 (2026-09-26) and refreshed the volatile numbers (121,718 stars, 1,961 commits, 264 contributors, 1,483 open issues and PRs); hosted plans unchanged.
 - 2026-09-29 - Recorded release v0.9.71 (2026-09-28) and refreshed the volatile numbers (122,219 stars, 1,984 commits, 267 contributors, 1,501 open issues and PRs); hosted plans unchanged.
+- 2026-10-01 - Reworded banned-term words out of the prose; meaning unchanged.
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: Grok Build
 created: 2026-09-12
-updated: 2026-09-29
+updated: 2026-10-01
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, harnesses, coding-agents, terminal, open-source]
 readability: 3
@@ -42,7 +42,7 @@ I read the open-sourcing as reputational triage: top comments on the launch thre
 - The default interactive path authenticates through auth.x.ai and sends inference through `cli-chat-proxy.grok.com`, so your code crosses xAI infrastructure; zero data retention is a team-level enterprise setting, not a default.
 - Open code, closed process: no external contributions, issues and discussions disabled, and PR creation restricted to collaborators, so forking is possible but upstreaming is not.
 - The sandbox that would contain an untrusted-repo incident is off by default.
-- A telemetry exporter ships in the client; opt-out exists and can be policy-pinned, but the default posture is set by the vendor, not by you.
+- A telemetry exporter ships in the client; opt-out exists and can be policy-pinned, but the default behavior is set by the vendor, not by you.
 
 ## Pricing
 
@@ -77,6 +77,7 @@ I would not standardize on it while the default data path concentrates your code
 - 2026-09-22 - Recorded the v1.0.41 npm release (September 22), the grok-4.7 model listing at the same $2.00/$6.00 rate as grok-4.6, and refreshed repository counters and download totals.
 - 2026-09-26 - Linked the SuperGrok note in the Model access category, where the subscription ladder that meters this harness is tracked.
 - 2026-09-29 - Recorded npm dist-tags moving to v1.0.44 stable (September 28) and v1.0.45 alpha (September 29), and refreshed download totals and repository counters; API pricing re-verified unchanged.
+- 2026-10-01 - Reworded banned-term words out of the prose; meaning unchanged.
 
 ## See also
 
@@ -95,7 +96,7 @@ I would not standardize on it while the default data path concentrates your code
 - https://x.ai/build/changelog - v1.0.30 current as of 2026-09-11 and the roughly-daily release cadence (fetched via a text-extraction proxy because x.ai blocks non-browser agents; returned 403 to both curl and webfetch on 2026-09-16, again on 2026-09-18, and again on 2026-09-20)
 - https://docs.x.ai/build/enterprise - the four auth methods, required network hosts, data lifecycle, ZDR, and telemetry pinning
 - https://docs.x.ai/developers/pricing - grok-4.6, grok-4.7, and grok-build-0.1 API prices as of 2026-09-24
-- https://docs.x.ai/build/features/sandbox - Landlock/Seatbelt profiles and the off-by-default posture
+- https://docs.x.ai/build/features/sandbox - Landlock/Seatbelt profiles and the off-by-default behavior
 - https://registry.npmjs.org/@xai-official/grok - the npm distribution's version history grounding v1.0.44 published 2026-09-28 and v1.0.45 published 2026-09-29 (verified via the registry API)
 - https://api.npmjs.org/downloads/point/last-month/@xai-official/grok - 246,225 downloads in the last month as of 2026-09-29
 - https://hn.algolia.com/api/v1/items/48877371 - the wire-level analysis thread, 539 points, 2026-07-12

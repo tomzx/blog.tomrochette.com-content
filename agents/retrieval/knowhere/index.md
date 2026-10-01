@@ -1,7 +1,7 @@
 ---
 title: Knowhere
 created: 2026-09-20
-updated: 2026-09-27
+updated: 2026-10-01
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, retrieval, rag, chunking, document-parsing, mcp, open-source]
 readability: 3
@@ -36,7 +36,7 @@ The self-hosted stack repo has 12 stars and was last pushed 2026-09-21, so the s
 - **Structure preservation is the differentiator**: hierarchy, merged-cell tables, and source-page traceability survive into the chunks, which flat chunkers discard.
 - The Vision track handles dirty scans and slide decks that text-only OCR pipelines garble, and both tracks emit the same schema.
 - The MCP server gives agents parse, list, outline, grep, and retrieval tools with read-only or full-access permission modes.
-- Failed jobs are automatically refunded before you notice, which is the right billing posture for a per-page API.
+- Failed jobs are automatically refunded before you notice, which is the right billing behavior for a per-page API.
 
 ## Cautions
 
@@ -76,6 +76,7 @@ My disagreeable claim: the near-total absence of public discussion around a 3,51
 - 2026-09-22 - Recorded release v1.2.16 (2026-09-21) and refreshed the volatile numbers (3,456 stars, pushed 2026-09-22, the self-hosted stack pushed 2026-09-21); per-page pricing unchanged.
 - 2026-09-25 - Recorded release v1.2.17 (2026-09-23) and refreshed the volatile numbers (3,493 stars, pushed 2026-09-23); per-page pricing unchanged, while the $5 signup credit no longer appears and the site now advertises a 14-day free trial.
 - 2026-09-27 - Refreshed the volatile numbers (3,528 stars); release v1.2.17, the per-page pricing, and the 14-day free trial all re-confirmed unchanged.
+- 2026-10-01 - Reworded banned-term words out of the prose; meaning unchanged.
 
 ## See also
 

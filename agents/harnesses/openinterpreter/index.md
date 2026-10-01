@@ -1,7 +1,7 @@
 ---
 title: Open Interpreter
 created: 2026-09-27
-updated: 2026-09-27
+updated: 2026-10-01
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, harnesses, coding-agents, open-source, harness-emulation]
 readability: 3
@@ -19,7 +19,7 @@ Open Interpreter is an Apache-2.0 terminal coding agent relaunched in July 2026 
 A terminal agent installed by a curl script and run as `interpreter` or `i`, built on the Codex CLI core and inheriting its interface, app-server protocol, and cross-platform sandboxing.
 Its distinguishing feature is `/harness`, which switches the active emulation among native, claude-code, kimi-code, qwen-code, deepseek-tui, swe-agent, and minimal profiles.
 The pitch is that Claude drives a Claude Code-like harness, GPT drives the Codex harness, and Kimi, Qwen, and DeepSeek drive emulations of their provider-recommended harnesses instead of one generic tool set.
-The portability posture is explicit: repository `AGENTS.md`, shared `.agents/skills` directories, MCP, ACP for editors, and a one-line `codexPathOverride` for existing Codex SDK users.
+The portability story is explicit: repository `AGENTS.md`, shared `.agents/skills` directories, MCP, ACP for editors, and a one-line `codexPathOverride` for existing Codex SDK users.
 A separate Open Interpreter Desktop app covers cross-app knowledge work (spreadsheets, PDFs, email, browsers) with profiles, voice mode, approvals, and subagents.
 The fork is documented rather than hidden: FORK_BRANDING.md defines the distribution as `variant: "open-interpreter"` on Codex internals, with `rust-v` release tags and `~/.openinterpreter` as the product home.
 
@@ -48,7 +48,7 @@ The README now opens with "Today: Kimi K3 is here", saying the project reimpleme
 
 ## Pricing
 
-Free and open source under Apache-2.0, and I found no Open Interpreter-operated hosted or metered tier anywhere I fetched: the sitemap scan of 2026-09-27 lists no pricing pages, and the desktop FAQ describes a pure BYOK posture where data goes only to the provider in your active profile.
+Free and open source under Apache-2.0, and I found no Open Interpreter-operated hosted or metered tier anywhere I fetched: the sitemap scan of 2026-09-27 lists no pricing pages, and the desktop FAQ describes a pure BYOK model where data goes only to the provider in your active profile.
 Usage therefore bills at whatever provider the profile points at (Z.AI, DeepSeek, OpenAI, Anthropic, Google, or a local Ollama or LM Studio endpoint), so no prices belong in this note and no price history table applies.
 
 ## Compared to
@@ -66,18 +66,19 @@ My disagreeable claim: harness emulation is a configuration layer rather than ne
 ## Changes
 
 - 2026-09-27 - Created when the owner's GitHub-stars scan surfaced it.
+- 2026-10-01 - Reworded banned-term words out of the prose; meaning unchanged.
 
 ## See also
 
 - [OpenCode](../opencode/index.md) - the category's reference open terminal agent, and the comparison point for original codebase versus fork
-- [Grok Build](../grok-build/index.md) - the other fork-lineage harness, with the opposite contribution posture
+- [Grok Build](../grok-build/index.md) - the other fork-lineage harness, with the opposite contribution model
 - [OpenRouter](../../model-access/openrouter/index.md) - the open-model access layer this agent's BYOK profiles typically bill through
 - [Model selection for coding tasks](../../model-selection-for-coding-tasks/index.md) - the section-root guide to picking the models these harnesses drive
 
 ## References
 
 - https://api.github.com/repos/openinterpreter/openinterpreter - 68,451 stars, 5,881 forks, Apache-2.0, pushed 2026-09-25, 4 open issues, as of 2026-09-27
-- https://raw.githubusercontent.com/openinterpreter/openinterpreter/main/README.md - the Kimi K3 note, the `/harness` list, ACP and Codex SDK compatibility, and the portability posture
+- https://raw.githubusercontent.com/openinterpreter/openinterpreter/main/README.md - the Kimi K3 note, the `/harness` list, ACP and Codex SDK compatibility, and the portability story
 - https://www.openinterpreter.com/blog/open-interpreter - the 2026-07-13 relaunch post: Apache-2.0, built on Codex CLI, and the harness-emulation rationale (the page is JS-rendered, so I extracted its text through a proxy; the direct fetch returned 200 with only the title)
 - https://raw.githubusercontent.com/openinterpreter/openinterpreter/main/RELEASE_NOTES.md - version 0.0.43 on the Codex rust-v0.154.0 baseline, with the Z.AI and other provider presets
 - https://raw.githubusercontent.com/openinterpreter/openinterpreter/main/FORK_BRANDING.md - the fork identity contract: variant open-interpreter, `interpreter`/`i` commands, rust-v tag prefix
@@ -86,5 +87,5 @@ My disagreeable claim: harness emulation is a configuration layer rather than ne
 - https://hn.algolia.com/api/v1/items/37315866 - the Show HN of 2023-08-30, 82 points, the original CodeLlama terminal CLI
 - https://hn.algolia.com/api/v1/items/38242343 - the 2023-11-12 thread, 117 points, carrying the early local-execution skepticism
 - https://hn.algolia.com/api/v1/search?query=%22open%20interpreter%22&tags=story - the HN footprint scan, including the 72-point thread of 2024-11-18
-- https://www.openinterpreter.com/docs/desktop/faq - the desktop app's BYOK data posture and local-model profiles
+- https://www.openinterpreter.com/docs/desktop/faq - the desktop app's BYOK data handling and local-model profiles
 - https://www.openinterpreter.com/sitemap.xml - the surface scan (terminal and desktop docs, downloads, no pricing pages) as of 2026-09-27

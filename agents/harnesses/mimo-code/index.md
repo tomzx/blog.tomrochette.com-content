@@ -1,7 +1,7 @@
 ---
 title: MiMo Code
 created: 2026-09-27
-updated: 2026-09-27
+updated: 2026-10-01
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, llm=glm-5.3-flash, harnesses, coding-agents, open-source, xiaomi, long-horizon]
 readability: 3
@@ -19,7 +19,7 @@ MiMo Code is Xiaomi's MIT-licensed terminal coding agent, an OpenCode fork that 
 The `mimo` CLI is installed by a curl script or the `@mimo-ai/cli` npm package, and the same engine ships as the core of Xiaomi's MiMo Desktop app.
 It carries three primary agents (build, plan, and compose), an on-demand subagent system with parallel execution and lifecycle tracking, a tree-structured task store (`T1`, `T1.1`), MCP with local, remote, and OAuth servers, LSP integration, and a plugin and skills surface inherited from OpenCode.
 **The parts Xiaomi actually added are the long-horizon machinery:** a checkpoint-writer subagent that writes structured state at roughly 20, 45, and 70 percent of the context budget, a four-layer memory (session checkpoint, project `MEMORY.md`, global memory, and a full SQLite history), a rebuild step that reassembles the window from those files in about 65K tokens, `/dream` and `/distill` memory-maintenance passes, an independent judge behind the `/goal` stop condition, and best-of-N Max Mode.
-Provider access is the OpenCode posture: any of 75+ providers through the AI SDK and Models.dev, local models through an OpenAI-compatible endpoint, or Xiaomi's own platform.
+Provider access follows the OpenCode approach: any of 75+ providers through the AI SDK and Models.dev, local models through an OpenAI-compatible endpoint, or Xiaomi's own platform.
 
 ## Status
 
@@ -78,6 +78,7 @@ My disagreeable claim: the co-evolution story is mostly packaging, since the mat
 
 - 2026-09-27 - Created.
 - 2026-09-27 - Corrected the latest-release fact: the newest release by publication time is v0.1.14 (published 2026-09-23), a day after v0.1.15 (2026-09-22); the 0.1.x status is unchanged.
+- 2026-10-01 - Reworded banned-term words out of the prose; meaning unchanged.
 
 ## See also
 
