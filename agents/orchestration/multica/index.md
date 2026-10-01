@@ -63,8 +63,8 @@ Not for solo developers running one agent, teams needing per-agent budget caps t
 
 - 2026-09-27 - Created.
 - 2026-09-29 - Recorded v0.6.0 (September 28) and refreshed star and issue counts.
-
 - 2026-09-29 - Reworded two banned-term compounds ("team-shaped", "human-shaped") to plain wording, meaning unchanged.
+
 ## See also
 
 - [Orchestration Feature Matrix](../orchestration-feature-matrix/index.md) - the category comparison this note joins

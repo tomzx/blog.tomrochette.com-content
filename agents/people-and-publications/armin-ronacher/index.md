@@ -1,7 +1,7 @@
 ---
 title: Armin Ronacher
 created: 2026-09-24
-updated: 2026-09-24
+updated: 2026-09-30
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, people, publications, coding-agents, skepticism, llm-tooling]
 readability: 3
@@ -23,7 +23,7 @@ He also ships agent tooling himself, including the agent-stuff repository of com
 ## Status
 
 Active and near the peak of his relevance.
-As of 2026-09-24 the homepage lists ten essays between 4 July and 14 September 2026, including "Astra for Coding: Why Are We Doing This Again?" (7 September), "The Tower Keeps Rising" on vibecoding and team coordination (13 July), and "Better Models: Worse Tools" on Claude tool-call regressions (4 July).
+As of 2026-09-30 the homepage lists eleven essays between 4 July and 29 September 2026, led by "Deser: Rethinking Rust Serialization" (29 September), and including "Astra for Coding: Why Are We Doing This Again?" (7 September), "The Tower Keeps Rising" on vibecoding and team coordination (13 July), and "Better Models: Worse Tools" on Claude tool-call regressions (4 July).
 He runs Earendil after a decade building Sentry, and is based in Vienna.
 The essays reliably reach the Hacker News front page: "996" drew 1,058 points, "Some things just take time" 853, "Before GitHub" 680, and "The Tower Keeps Rising" 558 points with 269 comments, while the Astra essay reached 456 points and 342 comments (all as of 2026-09-24).
 
@@ -63,6 +63,7 @@ Not for daily tool churn, model news, or anyone who wants enthusiasm without inv
 
 - 2026-09-24 - Created after two earlier runs deferred him as a duplicate voice; the owner commissioned this note to pin the skeptical senior-engineer slot.
 - 2026-09-24 - Added the Top 5 recommended reading section.
+- 2026-09-30 - Newest-post check refreshed: the homepage now leads with "Deser: Rethinking Rust Serialization" (2026-09-29), bringing the July-to-September essay count to eleven.
 
 ## See also
 

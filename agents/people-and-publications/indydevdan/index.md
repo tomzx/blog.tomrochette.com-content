@@ -1,7 +1,7 @@
 ---
 title: IndyDevDan
 created: 2026-09-24
-updated: 2026-09-24
+updated: 2026-09-30
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, people, publications, youtube, agentic-engineering, claude-code, harness-engineering]
 readability: 3
@@ -24,7 +24,7 @@ The commercial engine is agenticengineer.com, which sells Principled AI Coding (
 ## Status
 
 Active and metronomic as of 2026-09-24.
-Uploads run weekly, every Monday at 13:00 UTC, and the RSS feed shows 15 consecutive Mondays from 2026-06-15 to 2026-09-21 with no gaps.
+Uploads run weekly, every Monday at 13:00 UTC, and the RSS feed shows 16 consecutive Mondays from 2026-06-15 to 2026-09-28 with no gaps, the latest being "10 Levels of Jev For Agentic Engineers".
 Recent videos land between 12,700 and 127,800 views, with "FORGET Loop Engineering" at 127,800 and the agent-swarms takeaways at 79,785.
 Hacker News mentions him in six comment threads between 2025-04 and 2026-09, the only channel of this batch with third-party discussion at all.
 
@@ -64,6 +64,7 @@ Not for someone allergic to hype framing, or who wants vendor-neutral depth with
 ## Changes
 
 - 2026-09-24 - Created.
+- 2026-09-30 - Weekly streak extended to 16 consecutive Mondays (2026-06-15 to 2026-09-28), latest upload "10 Levels of Jev For Agentic Engineers".
 
 ## See also
 

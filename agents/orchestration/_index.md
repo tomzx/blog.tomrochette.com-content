@@ -47,7 +47,7 @@ Running many coding agents at once: worktree managers, kanbans, terminal multipl
 - [Squad](squad/index.md) - Brady Gaster's MIT CLI that runs a persistent, human-led agent team as versioned repo files inside GitHub Copilot CLI.
 - [Superset](superset/index.md) - the YC-backed, source-available agentic IDE running parallel CLI agents in worktrees on your own subscriptions.
 - [The Perfect Orchestrator](the-perfect-orchestrator/index.md) - the MIT bash and tmux harness where one lead Claude Code session adversarially verifies N worker sessions.
-- [Vibe Kanban](vibe-kanban/index.md) - the Apache-2.0 kanban for parallel agents, orphaned by Bloop's April 2026 shutdown, community commits resumed in September 2026 but only a v0.1.45 prerelease, npm still at 0.1.44.
+- [Vibe Kanban](vibe-kanban/index.md) - the Apache-2.0 kanban for parallel agents, orphaned by Bloop's April 2026 shutdown, community commits resumed in September 2026 but only a v0.1.45 tag, npm still at 0.1.44.
 - [Worktrunk](worktrunk/index.md) - the Rust `wt` CLI making worktrees as easy as branches, with lifecycle hooks and a one-command merge.
 
 Its members are compared on shared rows in the [Orchestration Feature Matrix](orchestration-feature-matrix/index.md).

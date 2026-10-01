@@ -1,7 +1,7 @@
 ---
 title: Sim
 created: 2026-09-29
-updated: 2026-09-29
+updated: 2026-09-30
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, multi-agent, workflow, low-code]
 readability: 3
@@ -22,7 +22,7 @@ The repo sits at 29,749 stars with 3,847 forks, Apache-2.0, created 2025-01-05, 
 
 ## Status
 
-Active: last push 2026-09-29, release v0.9.5 on 2026-09-29, the same day (GitHub API, as of 2026-09-29).
+Active: last push 2026-09-30, release v0.9.6 on 2026-09-29 (GitHub API, as of 2026-09-30).
 Three HN launches mark the trajectory: 196 points for the first Show HN (2025-04-28), 55 points for the YC Launch HN (2025-05-21), and 240 points for "Sim, Apache-2.0 n8n alternative" (2025-12-11).
 Pre-1.0 (v0.9.x) despite the scale, so the API surface is still moving.
 
@@ -35,7 +35,7 @@ Pre-1.0 (v0.9.x) despite the scale, so the API surface is still moving.
 
 ## Cautions
 
-- Pre-1.0 software at v0.9.5: expect breaking changes on a project this young.
+- Pre-1.0 software at v0.9.6: expect breaking changes on a project this young.
 - The genre risk is unchanged: Flowise's shutdown note argued coding agents erode rigid visual workflows, and Sim sits in exactly that lane.
 - Seat-based cloud pricing with credit metering will punish bursty experimentation the way most SaaS builders do.
 - "100,000+ builders" is a repo-description claim I could not independently verify.
@@ -68,6 +68,7 @@ Not for coding-agent orchestration, and not for anyone needing long-term API sta
 ## Changes
 
 - 2026-09-29 - Created when the deferred framework-tier pile from the 2026-09-27 triage resolved.
+- 2026-09-30 - Recorded v0.9.6 (September 29, library templates and opt-in workflow fork sync) as the latest release.
 
 ## See also
 
