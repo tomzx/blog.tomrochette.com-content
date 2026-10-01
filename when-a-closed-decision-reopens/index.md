@@ -158,7 +158,7 @@ Scope conversations are not avoidable, and they are not the enemy.
 The enemy is surprise relitigation, the version that ambushes you in someone else's calendar.
 A standing quarterly review where the north star, the milestone, and the priced options are revisited together turns the cycle into a rhythm, and a rhythm is something a team can plan around.
 
-## The Real Lesson
+## The Lesson
 
 You cannot build something that is impossible today, and you should not promise that you can.
 But you also cannot expect a vague wish, transmitted through a changing cast of people, to ever stop generating the scope conversation you dread.

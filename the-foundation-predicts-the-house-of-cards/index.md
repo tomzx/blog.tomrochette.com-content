@@ -19,7 +19,7 @@ When two teams hold the same tools and get wildly different outcomes, the first 
 **But it will not explain all of it, because team maturity governs how easily a team absorbs a new practice, not whether the software that practice produces stays standing.**
 Maturity is necessary and it is not sufficient, and most organizations are diagnosing only half the problem.
 
-## The Real Job Is Velocity Without Debt
+## The Job Is Velocity Without Debt
 
 Raw velocity stopped being interesting the year a model could draft a feature in an afternoon.
 Anyone can go fast now.

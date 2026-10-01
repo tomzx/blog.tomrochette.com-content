@@ -120,7 +120,7 @@ It is not claiming that engineers are bad at product judgment.
 Many are excellent at it, and the [bottleneck has moved toward exactly that judgment](../the-shifting-bottleneck/index.md) as implementation has been automated.
 It is claiming that good individual judgment, applied independently and at machine speed, with no coherence layer above it, produces a worse product than the same judgment applied inside a shared frame.
 
-## The Real Question Is Which Decisions to Distribute
+## The Question Is Which Decisions to Distribute
 
 The way out is not to bring back the single product manager as a gatekeeper.
 That would reintroduce the bottleneck distributed product management was right to remove.
@@ -182,7 +182,7 @@ The instinct, once implementation is cheap, is to ship more.
 The correct response is to decide more carefully, because the cost of being wrong has not come down even though the cost of acting has.
 Time spent on problem selection and direction now buys more than time spent on execution ever did.
 
-## The Dedicated Owner's Real Job Was Coherence
+## The Dedicated Owner's Job Was Coherence
 
 Distributed product management is not wrong.
 It removes a real bottleneck, it puts decisions close to the context, and it scales without growing an organization.

@@ -121,7 +121,7 @@ Strategy, market understanding, and user empathy are the current frontier.
 The question is not whether automation will continue climbing, it will.
 The question is what humans should do with the freedom that comes from not being the bottleneck.
 
-## The Real Answer
+## The Answer
 
 I don't have a clean answer for Stage 5.
 Neither does anyone else.

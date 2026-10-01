@@ -192,7 +192,7 @@ You will see things every day that are not how you would have done them.
 Most of them do not matter.
 Learn to recognize which decisions are irreversible, let the reversible ones pass, and you will last long enough to actually defend the things that count.
 
-## The Real Limit
+## The Limit
 
 Sometimes the team will not align, and no amount of infrastructure will fully save you.
 A teammate may insist on driving their own agent with their own skills, their own conventions, their own picture of the codebase, and treat your paved road as a suggestion rather than a default.

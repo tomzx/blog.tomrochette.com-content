@@ -66,7 +66,7 @@ Distractions are not the enemy of focus.
 **They are the enemy of focus on work you do not want to do.**
 On work you want to do, focus defends itself.
 
-## The Real Failure Was the Hand-off
+## The Failure Was the Hand-off
 
 The colleague is not the villain of this story.
 What failed was the assumption that a task could be moved from one person to another by declaration, without a conversation about whether it should be.

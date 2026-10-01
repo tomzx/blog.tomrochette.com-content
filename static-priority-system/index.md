@@ -120,7 +120,7 @@ By making priority a function of backlog state, a dynamic system loses the abili
 A task's priority no longer tells you what kind of work the task represents.
 The label only records where the task ranked at the moment of labeling.
 
-## Re-labeling has a real cost
+## Re-labeling has a cost
 
 Every time items are promoted after higher-priority work completes, the team pays a coordination cost.
 Someone has to decide which P1s become P0s.

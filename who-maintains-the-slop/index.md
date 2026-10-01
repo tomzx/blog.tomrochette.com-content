@@ -156,7 +156,7 @@ Before AI code can merge, there must be a named owner who will maintain it.
 No owner, no merge.
 This is a trivial rule and it eliminates the worst cases outright, the drive-by generation that lands in a shared module and becomes everyone's problem and no one's responsibility.
 
-## The Real Failure Is Upstream
+## The Failure Is Upstream
 
 The pattern underneath all of this is the one [Rethinking Code Review in the Age of LLMs](../rethinking-code-review-in-the-age-of-llms/index.md) reaches from a different direction: real responsibility lives upstream, in the decisions that guided the work, not in the person left holding the diff at the end.
 

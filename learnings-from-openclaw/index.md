@@ -102,7 +102,7 @@ The lesson is that the visionary-and-steward split is a starting frame, not a co
 As a project grows, the roles keep subdividing, and each subdivision is a person whose commits tell you, by their narrowness, exactly what the project is now too large to handle with generalists.
 Read the contributors with unusual scope concentrations and you read the project's growing pains written out in advance.
 
-## The Second Thing the Commits Show: The Real Architecture Is the Ownership Table
+## The Second Thing the Commits Show: The Ownership Table Is the Architecture
 
 Three thousand contributors is a number at which coordination by conversation breaks down completely.
 You cannot have a meeting with three thousand people.

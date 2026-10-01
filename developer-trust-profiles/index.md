@@ -113,7 +113,7 @@ By pulling closed-without-merge PRs as well, and by deriving the outcome from ac
 
 Processed oldest-first, each historical PR feeds into the same update pipeline as a live review, so a freshly initialized profile looks exactly like one that was built up review by review over time.
 
-## Real limitations
+## Limitations
 
 The design has real trade-offs, and they are worth naming.
 

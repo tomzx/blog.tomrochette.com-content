@@ -99,7 +99,7 @@ I am not mocking reviewers here.
 I have failed this test more often than I have passed it.
 The point is that the gap between what review is supposed to be and what it is, is large, and we never measure it because measuring it would force a conclusion we have already decided not to reach.
 
-## Two Real Paths
+## Two Paths
 
 Once you accept that most review does not involve reading, you have two defensible directions, and only two.
 

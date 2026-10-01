@@ -144,7 +144,7 @@ The human in a ZTE system does not write code, review changes, or approve deploy
 The human authors the system that does all of those things, and intervenes only when the system's judgment and the project's direction diverge.
 That is a different job from the one most engineers have today, but it is the job ZTE leaves behind.
 
-## The real question
+## The question
 
 The networking world reached zero touch because the stages it automated were procedures.
 ZTE is the claim that the remaining stages, the judgment stages, can be made procedural enough to automate too.
