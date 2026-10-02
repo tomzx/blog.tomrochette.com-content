@@ -4,7 +4,7 @@ title: "Loops as Files: The Scheduling Layer Skills Forgot"
 created: 2026-06-21
 type: post
 status: draft
-tags: [llm, ai-agents, skills, automation, loops, fully-ai-generated, llm=glm-5.2, llm=glm-5.3]
+tags: [llm, ai-agents, skills, automation, loops, fully-ai-generated, llm=glm-5.2, llm=glm-5.3, llm=deepseek-v4.1-flash]
 readability: 3
 audience_notes: >
   Assumes the reader already uses an LLM coding agent with skill or rule files (opencode, Claude Code, Cursor) and has at least seen a GitHub Actions workflow or a cron job. No introduction to LLMs.
@@ -23,8 +23,8 @@ They told the model nothing about *when* to run.
 **A skill is inert until something invokes it, and in practice that something is almost always a human typing a command.**
 
 That leaves the most experienced agent in your system doing nothing until you remember to ask it.
-It also leaves every event in your environment, the issue that was just opened, the Slack thread that just heated up, the dependency that just shipped a security patch, waiting for a human to notice and forward it to the right skill.
-The human has become the cron.
+It also leaves every event in your environment, the issue that was just opened, the Slack thread that just became active, the dependency that just shipped a security patch, waiting for a human to notice and forward it to the right skill.
+The human has become the scheduler.
 
 The fix is the same form as the fix for the variance problem in [Bringing Everyone to the Same Level](../bringing-everyone-to-the-same-level/index.md): take the invisible process out of someone's head and make it a file.
 Except the process to extract now is not "how do I triage an issue," it is "when do I triage issues, and what triggers that decision."
@@ -34,10 +34,10 @@ That belongs in a file too, and that file is a loop.
 
 Skills files normalized a useful idea.
 The prompt is the asset, the asset is text, text is versioned in git, and versioned text is reviewed, diffed, shared, and reused like code.
-The same model that made skills valuable applies cleanly to the trigger layer, but the trigger layer is still being treated as plumbing.
+The same model that made skills valuable applies cleanly to the trigger layer, but the trigger layer is still being treated as an implementation detail.
 It lives in crontabs nobody reads, in GitHub Action YAMLs that drift away from the skills they invoke, in shell scripts that bake agent invocations into system paths.
 
-The result is that the two halves of an autonomous workflow live in different worlds.
+The result is that the two halves of an autonomous workflow are managed in different places.
 The prompt is curated.
 The trigger is improvised.
 When the prompt changes, the trigger does not, and when the trigger breaks, nobody who understands the prompt finds out until the agent has been silent for a week.
@@ -165,12 +165,12 @@ on:
     secret: ${DEPLOY_WEBHOOK_SECRET}
 ```
 
-Anything that can hit an HTTP endpoint, from a monitoring tool to a ChatOps button to a physical device, can now trigger a skill, and the access control lives next to the prompt it gates.
+Anything that can hit an HTTP endpoint, from a monitoring tool to a ChatOps button to a physical device, can now trigger a skill, and the access control is defined next to the prompt it gates.
 
 ## The Frontmatter That Prevents the Loop From Eating Your Wallet
 
 Time and events say when to start.
-The loop also needs to say when to stop, and this is the part that existing skill files do not need and loop files cannot live without.
+The loop also needs to say when to stop, and this is the part that existing skill files do not need and loop files cannot exist without.
 
 ```yaml
 budget:
@@ -185,7 +185,7 @@ escalation:
   after: 3 failures
 ```
 
-I argued in [The Self-Evolving Repository](../the-self-evolving-repository/index.md) that cost runaway is one of the defining failure modes of autonomous systems, and a loop without a budget is one bad `while True` away from being a case study.
+I argued in [The Self-Evolving Repository](../the-self-evolving-repository/index.md) that cost runaway is one of the defining failure modes of autonomous systems, and a loop without a budget is one bad `while True` away from a runaway incident.
 **Every loop file should be able to answer three questions without ambiguity: how often can this run, how much can each run spend, and what happens when it fails.**
 **If a loop cannot answer those questions, the runtime should refuse to start it.**
 
@@ -212,7 +212,7 @@ The body of a loop is typically a short sequence of skill invocations, with just
 Three skills, one paragraph of orchestration, fully readable.
 The logic that is hard (what counts as a high-severity vulnerability, how to phrase an issue, who the on-call is) lives in the skills it invokes, where it can be improved independently, tested independently, and reused from other loops.
 
-This also keeps the loop file faithful to its job.
+This also keeps the loop file focused on its job.
 **A loop file that grows past a screen of text is probably doing the work of a skill and should be split.**
 The same length discipline that keeps skills effective, which I borrowed from the "lost in the middle" argument in [Bringing Everyone to the Same Level](../bringing-everyone-to-the-same-level/index.md), applies to loops.
 If the runtime has to parse a long preamble before it even reaches the trigger, the trigger is no longer the contract.
@@ -228,8 +228,8 @@ A trigger that lives in a crontab or a GitHub Actions YAML that nobody reviews i
 
 **Reviewability.**
 A loop file in git means every change goes through a pull request, which means the blast radius of the change is visible to the people who will be paged when it goes wrong.
-This is the same point I made, about code, in [The Codebase Gardener](../the-codebase-gardener/index.md): a standard that lives only in someone's head is a standard that dies when that person goes on vacation.
-A loop that lives only in someone's crontab has the same half-life.
+This is the same point I made, about code, in [The Codebase Gardener](../the-codebase-gardener/index.md): a standard that exists only in someone's head is lost when that person goes on vacation.
+A loop that exists only in someone's crontab will be forgotten just as quickly.
 
 **Portability.**
 A loop file describes what should happen, not where it runs.
@@ -246,7 +246,7 @@ A skill change that should have changed the trigger (say, "this skill is now exp
 
 ## What the Runtime Owes You
 
-A loop format without a runtime is a markdown opinion.
+A loop format without a runtime is only a proposal.
 The runtime is what makes loops safe to leave running, and it owes the operator a small, specific set of behaviors that are not optional.
 
 **Idempotency by default.**
@@ -282,7 +282,7 @@ This is Goodhart's law applied to ops automation, and the defense is the same as
 
 **Loops stepping on loops.**
 Once loops are cheap to write, people write a lot of them.
-Two loops that both touch the same issue tracker, both with their own opinions about labels and priorities, will quietly fight each other, and the issue tracker will lose.
+Two loops that both touch the same issue tracker, both with their own opinions about labels and priorities, will quietly conflict with each other, and the issue tracker's state will become inconsistent.
 The runtime needs loop-level isolation (separate working directories, separate state files, separate rate limits) and a registry that makes it easy to answer "which loops currently fire on this event," the same way a codebase makes it easy to answer "which tests currently exercise this function."
 
 **Trigger rot.**
@@ -301,7 +301,7 @@ But "loop" undersells the format.
 A loop that fires only on `slack.mention` is not really looping.
 It is reacting.
 
-The more accurate name is probably "routine," "trigger," or "automation," and the reason none of those quite land is that each one emphasizes one of the two trigger classes at the expense of the other.
+The more accurate name is probably "routine," "trigger," or "automation," and the reason none of those quite works is that each one emphasizes one of the two trigger classes at the expense of the other.
 "Loop" emphasizes time.
 "Trigger" emphasizes events.
 "Routine" emphasizes the work.

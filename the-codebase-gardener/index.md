@@ -4,7 +4,7 @@ title: "The Codebase Gardener: Keeping a Codebase Sane When Teammates and Their 
 created: 2026-06-20
 type: post
 status: finished
-tags: [ai, software-engineering, llm, code-review, tech-debt, productivity, fully-ai-generated, llm=glm-5.2, llm=glm-5.3]
+tags: [ai, software-engineering, llm, code-review, tech-debt, productivity, fully-ai-generated, llm=glm-5.2, llm=glm-5.3, llm=deepseek-v4.1-flash]
 readability: 3
 audience_notes: >
   Assumes the reader is an engineer on a team where LLM coding agents do most of the producing, and that they have at least seen a CI pipeline, a lint config, or a "skill"/"rule" file. No explanation of what an LLM is.
@@ -14,7 +14,7 @@ agent_sessions:
 ---
 
 You cannot review your way to a sane codebase when the code is being produced faster than you can read it.
-This is the new arithmetic of the LLM era, and it is brutal for the one engineer on the team who cares about consistency.
+That mismatch is the new arithmetic of the LLM era, and it is brutal for the one engineer on the team who cares about consistency.
 **The strategy that actually works is to stop fighting at the pull request and start fighting at the layer everyone, and every agent, is forced to pass through.**
 
 ## The Math Changed Under Us
@@ -41,7 +41,7 @@ No amount of discipline closes that gap.
 ## Reviewing Harder Is the Trap
 
 The instinct of the engineer who cares is to review more, longer, more strictly.
-This is exactly the wrong move, for reasons I laid out in [Rethinking Code Review in the Age of LLMs](../rethinking-code-review-in-the-age-of-llms/index.md).
+Reviewing harder is exactly the wrong move, for reasons I laid out in [Rethinking Code Review in the Age of LLMs](../rethinking-code-review-in-the-age-of-llms/index.md).
 Every hour you spend line-editing someone else's agent output is an hour the next three pull requests go unread.
 You become the bottleneck, and bottleneck reviewers do not stay bottleneck reviewers for long.
 Teammates start tagging each other for approvals, slicing changes to slip under your threshold, or simply waiting you out until you tire.
@@ -60,7 +60,7 @@ The question is how to make most of the review unnecessary.
 ## Move the Leverage From Review to Infrastructure
 
 The way one person defends a codebase against many producers is to stop operating on the units and start operating on the system that produces them.
-This is the [theory of constraints](https://en.wikipedia.org/wiki/Theory_of_constraints) applied to code quality: if you cannot keep up at the review station, do not add more reviewers.
+This strategy is the [theory of constraints](https://en.wikipedia.org/wiki/Theory_of_constraints) applied to code quality: if you cannot keep up at the review station, do not add more reviewers.
 Change the station.
 
 Concretely, it means every standard you care about has to live in one of the few places work is forced to pass through, rather than in your head or in your review comments.
@@ -74,11 +74,11 @@ The hooks that run on commit, on push, and on merge.
 
 If your standard is encoded in any of these, it executes on every change, forever, without you being present.
 **If it lives only in your review comments, it executes only when you are awake, looking, and willing to argue about it.**
-That is the whole difference between a standard and an opinion.
+Running without you is the whole difference between a standard and an opinion.
 A standard runs whether or not anyone agrees with it.
 An opinion dies the moment you go on vacation.
 
-This is the same point made, from the team's perspective, in [Bringing Everyone to the Same Level](../bringing-everyone-to-the-same-level/index.md): the senior engineer's edge was always a process they ran in their head, and a process in a head does not scale.
+The same point is made, from the team's perspective, in [Bringing Everyone to the Same Level](../bringing-everyone-to-the-same-level/index.md): the senior engineer's edge was always a process they ran in their head, and a process in a head does not scale.
 Here the stakes are higher, because you are not trying to lift the team to your level.
 You are trying to keep the standard in place while the team is actively, if innocently, drifting from it.
 The mechanism is the same.
@@ -87,10 +87,10 @@ Encode the process, and let the encoding do the defending.
 ## Make the Right Thing the Path of Least Resistance
 
 Most code in a codebase is the way it is because that was the easiest thing to type at the time.
-This is a feature, not a bug, for someone trying to steer a codebase alone.
+This predictability is an advantage, not a problem, for someone trying to steer a codebase alone.
 If the easiest path also happens to be the correct path, conformity is free, and nobody has to be persuaded of anything.
 
-This is the [paved road](https://en.wikipedia.org/wiki/Paved_road) idea, and it is the single highest-leverage intervention available to a solo defender.
+This alignment is the [paved road](https://en.wikipedia.org/wiki/Paved_road) idea, and it is the single highest-leverage intervention available to a solo defender.
 You do not get compliance by arguing for it.
 You get it by making the compliant thing the thing that happens when nobody is thinking.
 
@@ -99,11 +99,11 @@ Wire the migration linter into CI so that a non-backward-compatible migration fa
 **Friction for the wrong thing, zero friction for the right thing.**
 That asymmetry does more work than any amount of documentation, because it operates on the path of least resistance rather than against it.
 
-The flip side matters just as much.
+The reverse matters just as much.
 Remove friction from the behavior you want.
 If you want small, reversible changes, make small changes trivially easy to merge.
 If reviewing is expensive, people batch, and batching is exactly what produces the large, entangled, unreviewable pull requests that defeat you.
-Tax what you want less of, and subsidize what you want more of, and do both in the tooling rather than in the standup.
+Add friction to what you want less of, and remove friction from what you want more of, and do both in the tooling rather than in the standup.
 
 ## Invariants, Not Preferences
 
@@ -132,7 +132,7 @@ Per-PR review is not the only way to fight decay, and in this era it is no longe
 Some drift will always get through, because no gate is perfect and because some of what rots a codebase is not visible in any single diff.
 Naming conventions slide.
 Duplication accumulates.
-A module that was clean in isolation becomes a knot once three teammates have each extended it in a different direction.
+A module that was clean in isolation becomes tangled once three teammates have each extended it in a different direction.
 
 The answer is to operate the [Boy Scout rule](https://en.wikipedia.org/wiki/Robert_C._Martin) at the codebase level rather than at the commit level: run regular maintenance sweeps instead of trying to catch everything one pull request at a time.
 Once a week, run the dead-code analysis.
@@ -146,7 +146,7 @@ You are tidying, in batches, on your own time, against objective signals from th
 **The gardener does not follow every leaf as it falls.
 The gardener rakes.**
 
-This is also the frank acknowledgment that some entropy is the cost of speed, and that the goal is not zero drift.
+Sweeping is also the frank acknowledgment that some entropy is the cost of speed, and that the goal is not zero drift.
 The goal is a drift rate low enough that your weekly sweep runs net positive, so that over months the codebase gets cleaner rather than dirtier even as it grows.
 A codebase that gets slowly cleaner under load is a codebase you are successfully defending.
 A codebase that gets slowly dirtier no matter how hard you review is one you are losing, and the review is not the fix.
@@ -160,11 +160,11 @@ A "why this exists" header on the modules most likely to be misunderstood.
 
 The point of writing it down is not to win today's argument.
 Today's argument will be re-litigated regardless, because the engineer on the other side, or their agent, has not read it.
-The point is to ensure that the same argument does not have to be re-won from scratch every time, by you, in real time.
+The point is to ensure that the same argument does not have to be re-won from the beginning every time, by you, as it happens.
 
 **A decision that lives in a file is a decision the next agent can be pointed at.**
 A decision that lives only in your head dies the moment you switch teams, or take a week off, or simply get tired of explaining it for the fiftieth time.
-When your defenses are encoded as files, the codebase keeps its structure without you holding it together.
+When your defenses are encoded as files, the codebase keeps its structure without you maintaining it.
 When they are encoded only as your vigilance, the codebase is one two-week vacation away from drift you will spend a month undoing.
 
 ## Pick the Battles That Are Actually One-Way Doors
@@ -187,7 +187,7 @@ A test that could have been structured better.
 Let these go, or fix them in a sweep later.
 **The solo defender who treats every diff as a one-way door exhausts themselves on reversible things and has nothing left for the decisions that actually compound.**
 
-This is also the cure for the resentment that otherwise makes this role unsustainable.
+This discipline is also the cure for the resentment that otherwise makes this role unsustainable.
 You will see things every day that are not how you would have done them.
 Most of them do not matter.
 Learn to recognize which decisions are irreversible, let the reversible ones pass, and you will last long enough to actually defend the things that count.
@@ -203,9 +203,9 @@ At that point your job is no longer to win.
 Keep the trend reports.
 Keep the complexity numbers.
 Keep the record of which decisions were one-way doors that got walked through without the decision being made.
-Do this not to build a case against anyone, but because the most powerful thing a defender can produce, when defense fails, is a clear record of what was lost and when, so that the next attempt at sanity starts from evidence rather than from vibes.
+Do this not to build a case against anyone, but because the most powerful thing a defender can produce, when defense fails, is a clear record of what was lost and when, so that the next attempt at sanity starts from evidence rather than from impressions.
 
-And know when to stop defending a particular front.
+And know when to stop defending a particular part of the codebase.
 A codebase is not worth your health, and a team that has decided, collectively, to let the codebase rot will rot it with or without you.
 Your leverage is highest at the start of a codebase's life and lowest once the rot is structural.
 If you have encoded what you can, written down what you know, and the drift is still winning, the rational move is to spend less energy fighting and more energy deciding whether this is still the codebase you want to be responsible for.

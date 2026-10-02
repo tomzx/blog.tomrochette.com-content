@@ -4,7 +4,7 @@ title: "Rethinking Code Review in the Age of LLMs"
 created: 2026-06-12
 type: post
 status: finished
-tags: [ai, software-engineering, code-review, llm, productivity, fully-ai-generated, llm=glm-5.1, llm=glm-5.2, llm=glm-5.3]
+tags: [ai, software-engineering, code-review, llm, productivity, fully-ai-generated, llm=glm-5.1, llm=glm-5.2, llm=glm-5.3, llm=deepseek-v4.1-flash]
 readability: 3
 audience_notes: >
   Assumes the reader is a software engineer or team lead who writes pull requests and is familiar with LLM code generation, code review, CI, and basic verification tooling. No introduction to LLMs.
@@ -44,7 +44,7 @@ The loss of a human author changes the nature of the review fundamentally, and n
 
 When a human writes code, code review is a conversation between two people who share a mental model.
 The reviewer can trust that the author made deliberate choices, even imperfect ones.
-Differences between what the reviewer expects and what the code does are interesting signals, because they represent a gap between two human understandings of the same problem.
+Differences between what the reviewer expects and what the code does are informative, because they represent a difference between two human understandings of the same problem.
 
 **When an LLM writes code, there is no shared mental model.**
 The code is the output of a pattern-matching process.
@@ -58,8 +58,8 @@ The first question allows the reviewer to leverage the author's reasoning.
 The second question requires the reviewer to independently verify every assumption the code makes.
 
 **This is harder, more tedious, and less effective than reviewing human-written code.**
-The reviewer is not building on the author's thinking.
-They are reconstructing it from scratch, line by line.
+The reviewer cannot use the author's thinking.
+They are reconstructing it from the beginning, line by line.
 
 ## The Bottleneck Argument
 
@@ -96,14 +96,14 @@ An automated test suite does not lose focus after the third function.
 
 **The hours I spend reviewing code that an LLM wrote are hours I am not spending on the problems that only a human can solve.**
 That trade-off did not used to exist, because writing code and reviewing code were both human activities and the time allocation was roughly balanced.
-Now the balance is broken, and the opportunity cost of review is much higher.
+Now the balance has shifted, and the opportunity cost of review is much higher.
 
 ## Why Automatic Review and Approval Make Sense
 
 I have no objection to automated code review.
 I have no objection to automated PR approval.
 
-**The instinct to keep a human in the loop for every change is driven by fear, not by a rational assessment of what the human actually contributes at that point in the process.**
+**The instinct to involve a human in every change is driven by fear, not by a rational assessment of what the human actually contributes at that point in the process.**
 
 Consider what a good code reviewer does today.
 They check that tests pass.
@@ -121,7 +121,7 @@ Alignment with the stated goal can be checked by having an LLM compare the PR de
 
 The remaining argument for human review is that humans catch subtle issues that automated tools miss: architectural problems, subtle security vulnerabilities, misunderstandings of the domain.
 
-These are real concerns, but they are not best addressed at the PR level.
+These are legitimate concerns, but they are not best addressed at the PR level.
 They are best addressed at the specification level.
 If you write a precise specification, automated verification can confirm the implementation matches it.
 If the specification is vague, no amount of human review will save you from building the wrong thing.
@@ -130,7 +130,7 @@ Some would argue that catching these issues during review is better than not cat
 This is hard to disagree with in isolation.
 Of course a subtle bug caught at review is better than the same bug reaching production.
 
-But the better-late-than-never framing hides the real trade-off.
+But the better-late-than-never framing conceals the actual trade-off.
 The question is not whether review catches some problems.
 It is whether review is the best place to catch them, and whether the time spent reviewing could catch more problems if spent elsewhere.
 
@@ -170,7 +170,7 @@ The goal of code review is not just to check gates, it is to make the code the b
 A good reviewer suggests a cleaner abstraction, spots a performance issue the author missed, proposes a name that communicates intent better.
 Review is quality maximization, not just verification.
 
-This sounds right until you press on what "the best it can be" actually means.
+This sounds right until you examine what "the best it can be" actually means.
 
 It is subjective.
 It is unbounded.
@@ -178,8 +178,8 @@ There is always a cleaner abstraction, a faster algorithm, a better name.
 The pursuit has no natural stopping point, which is why code reviews so often devolve into bikeshedding over style preferences that do not measurably improve the outcome.
 
 When the code was written by a human, a second perspective genuinely improved the implementation.
-Two brains could find a better approach than one.
-**But when the code is generated by an LLM, the reviewer is the only brain in the loop, and their suggestions compete with the option of simply regenerating the code against a better specification.**
+Two people could find a better approach than one person.
+**But when the code is generated by an LLM, the reviewer is the only human involved, and their suggestions compete with the option of simply regenerating the code against a better specification.**
 
 If the code is not good enough, the answer is not to have a human improve it line by line during review.
 The answer is to improve the specification, the test suite, or the generation prompt, and let the machine produce a better version.
@@ -233,7 +233,7 @@ No human clicks approve.
 
 When the gates flag something, the PR is held for manual review.
 This is not the same as reviewing every change.
-It is reviewing the changes that carry real risk, which is a much smaller set.
+It is reviewing the changes that carry genuine risk, which is a much smaller set.
 
 The distinction matters.
 **I am not advocating for shipping unreviewed code.**
@@ -249,7 +249,7 @@ The skills that implement this workflow are [publicly available](https://github.
 The first objection is accountability.
 If no human reads the code before it ships, who owns the problems it creates?
 
-The real answer is that a human reviewing a pull request for ten minutes was never truly responsible for that code.
+The answer is that a human reviewing a pull request for ten minutes was never truly responsible for that code.
 They provided a rubber stamp.
 They glanced at the diff, checked that the tests passed, and clicked approve.
 When that code caused an outage six months later, nobody blamed the reviewer.
@@ -258,24 +258,24 @@ They blamed the author, the test suite, the deployment process, or the requireme
 What about the reviewer who spends thirty minutes, or an hour?
 They are doing substantive work, not rubber-stamping.
 The characterization above does not apply to them.
-They genuinely understand the change, question the design, and catch real issues.
+They genuinely understand the change, question the design, and catch actual issues.
 
 But the argument against mandatory review does not depend on reviews being shallow.
 It depends on where that hour of expert attention is best spent.
 
-An hour of review catches issues once, for one change, depending on that reviewer being sharp that day.
+An hour of review catches issues once, for one change, depending on that reviewer being alert that day.
 An hour spent improving the specification prevents the entire class of issue from reaching implementation.
 An hour spent writing a regression test catches the bug on every future run, not just the one time a human happened to read the code.
 
-The thorough review is real work.
+The thorough review is genuine work.
 It is just not the highest-leverage work that person could be doing with that hour.
 And at scale, it is unsustainable: if every PR requires an hour of human review and the LLM produces ten PRs a day, you need ten hours of review to keep up.
 That is not a process that scales.
 
 **Code review creates an illusion of accountability without delivering it.**
-The signature on the PR is accountability theater.
+The signature on the PR is a formality.
 
-**Real responsibility lives upstream.**
+**Responsibility belongs upstream.**
 The person who decided this problem was worth solving owns the outcome.
 The person who wrote the specification owns whether the implementation matches intent.
 The person who designed the deployment pipeline owns how quickly a bad change can be contained.
@@ -288,10 +288,10 @@ It forces you to locate responsibility where it actually belongs: in the decisio
 The second objection is safety.
 What if the LLM makes a decision that takes down production?
 
-**This is a real risk, but code review is the wrong tool to mitigate it.**
+**This is a genuine risk, but code review is the wrong tool to mitigate it.**
 
 Most production outages are not caused by bugs that a reviewer would catch.
-They are caused by configuration changes, unexpected data formats, load patterns, dependency failures, and integration issues that only surface under real traffic.
+They are caused by configuration changes, unexpected data formats, load patterns, dependency failures, and integration issues that only surface under actual traffic.
 A human reading a diff is making a guess about what might happen.
 Production behavior is the ground truth.
 
@@ -317,7 +317,7 @@ Reviewers focus on forward correctness.
 They ask "does this do what it should?"
 They rarely ask "can we undo this cleanly?"
 Even when they do, reversibility is hard to assess by reading a diff.
-It depends on what happens in production after the change lands, on data migrations that have already run, on other changes that build on top of it.
+It depends on what happens in production after the change is deployed, on data migrations that have already run, on other changes that depend on it.
 
 **The solution is to make reversibility a structural property of how changes are made, not a property enforced by review.**
 
@@ -334,9 +334,9 @@ They require discipline at the level where decisions are made.
 
 A third concern is that without human review, LLM-generated code will degrade into slop.
 Inconsistent naming, duplicated logic, unnecessary abstractions, dead code, patterns that do not match the rest of the codebase.
-Each individual change passes its tests, but the codebase slowly rots.
+Each individual change passes its tests, but the codebase slowly degrades.
 
-This is a real risk, and it deserves a real answer.
+This is a genuine risk, and it deserves a serious answer.
 The answer is not that review prevents it.
 The answer is that review catches it inconsistently, after the fact, one PR at a time.
 
@@ -359,14 +359,14 @@ A human reviewer might flag a function that is too complex.
 A complexity gate will flag every function that exceeds the threshold, every time, for as long as the rule exists.
 
 Slop also has an upstream cause.
-When the specification is vague about architecture, naming, and patterns, the LLM fills the gap with whatever it has seen most often in its training data.
+When the specification is vague about architecture, naming, and patterns, the LLM fills in the missing details with whatever it has seen most often in its training data.
 That output is generic by default.
 It will not match your codebase's conventions unless the specification tells it what those conventions are.
 
-This means the fight against slop is won at the specification level, not at the review level.
+This means slop is prevented at the specification level, not at the review level.
 A specification that includes the patterns to follow, the existing abstractions to reuse, and the naming conventions to respect produces cleaner code than a vague spec plus a human reviewer cleaning up the output.
 
-For what slips through the automated gates, frequent maintenance sweeps catch accumulated decay.
+For whatever the automated gates miss, frequent maintenance sweeps catch accumulated decay.
 Run a dead code analysis weekly.
 Run a duplication detector weekly.
 Review complexity trends after every merge.

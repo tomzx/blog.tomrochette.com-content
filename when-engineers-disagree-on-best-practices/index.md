@@ -4,7 +4,7 @@ title: "When Engineers Disagree on Best Practices: Surviving the Forming Stage"
 created: 2026-06-17
 type: post
 status: finished
-tags: [software-engineering, team-management, decision-making, conflict-resolution, fully-ai-generated, llm=glm-5.2, llm=glm-5.3]
+tags: [software-engineering, team-management, decision-making, conflict-resolution, fully-ai-generated, llm=glm-5.2, llm=glm-5.3, llm=deepseek-v4.1-flash]
 readability: 3
 audience_notes: >
   Assumes the reader is a software engineer or team lead on a new or forming team, familiar with common practices such as code review, branching models, and testing; no management background required.
@@ -24,7 +24,7 @@ The testing strategy that saved your last team from weekly regressions.
 The code review checklist that caught the security bug before it shipped.
 The branching model that kept releases sane.
 These are not random preferences.
-**They are lessons from real failures, and the engineer who brings them believes, correctly, that they matter.**
+**They are lessons from actual failures, and the engineer who brings them believes, correctly, that they matter.**
 
 The problem is that every other engineer on the new team arrives with their own set of practices, learned from different failures.
 When these differing practices meet, you get the pattern Bruce Tuckman described in his 1965 study of small-group development: [forming, storming, norming, performing](https://en.wikipedia.org/wiki/Tuckman%27s_stages_of_group_development).
@@ -40,7 +40,7 @@ A new team has no "always," so everything is up for debate at once.
 
 Second, there is no established trust.
 Disagreeing about code style feels low-stakes on a team where everyone has shipped together for a year, because everyone knows the argument is about the style, not about competence.
-On a new team, the same disagreement can feel like a referendum on someone's expertise, because no one has yet proven anything to anyone else.
+On a new team, the same disagreement can feel like a judgment of someone's expertise, because no one has yet proven anything to anyone else.
 
 Third, there is no shared vocabulary for resolving conflict.
 An established team has accumulated meta-norms: how they make decisions, who decides what, when to escalate, when to let something go.
@@ -51,7 +51,7 @@ So every disagreement is also, simultaneously, a negotiation about how disagreem
 
 The first thing to recognize is that the phrase "best practice" misleads.
 A best practice is a practice that is demonstrably better than its alternatives across most contexts.
-Very few software engineering practices clear that bar.
+Very few software engineering practices meet that standard.
 
 Consider the debates that take up the most discussion time on a new team.
 Tabs versus spaces.
@@ -65,7 +65,7 @@ They are conventions, and a convention's value comes almost entirely from being 
 
 This does not mean all practices are equal.
 Some debates involve genuine principles where the choice has lasting consequences: whether to build or buy a critical dependency, how much to invest in observability before shipping, whether a monolith or services is the right starting architecture.
-These deserve real deliberation.
+These deserve careful deliberation.
 The skill is in telling the convention debate from the principle debate, because they require completely different resolution mechanisms.
 
 ## Reversible Versus Irreversible Decisions
@@ -79,7 +79,7 @@ These deserve heavy deliberation, because the cost of being wrong is high and th
 Most practice debates on a new team are two-way doors.
 You can adopt trunk-based development, try it for six weeks, and switch back if it is not working.
 You can pick a linter configuration, discover it fights your codebase, and change it.
-**Two-way door decisions should be made quickly, because the fastest path to knowing is often to try.**
+**Two-way door decisions should be made quickly, because the fastest way to learn is often to try.**
 
 A new team that treats every practice debate as a one-way door will spend its first two months in meetings and produce nothing.
 A team that treats a genuine one-way door as reversible will make a choice it regrets for years.
@@ -90,7 +90,7 @@ The discipline is in classifying the decision before debating it.
 **The single most effective frame for resolving practice disagreement during forming is to treat practices as hypotheses, not as identities.**
 
 When two engineers disagree about whether to require code review before merge, the unproductive version of that conversation is an argument about whether code review is good.
-Both people dig in, cite their favorite blog posts, and the discussion becomes about winning.
+Both people hold their position, cite their favorite blog posts, and the discussion becomes about winning.
 
 The productive version converts the disagreement into an experiment.
 You require code review for the next month, track how many defects it catches in review versus in production, and look at the data together at the end.
@@ -98,8 +98,8 @@ Now the two engineers are not opponents.
 They are co-investigators running the same experiment.
 
 The experiment works because it removes the requirement that someone be wrong.
-An engineer who advocated for mandatory review does not lose face if the experiment shows it adds little value, because they ran the test in good faith.
-An engineer who opposed it does not lose face if the experiment shows it catches real bugs, because they agreed to look at the evidence.
+An engineer who advocated for mandatory review does not lose standing if the experiment shows it adds little value, because they ran the test in good faith.
+An engineer who opposed it does not lose standing if the experiment shows it catches actual bugs, because they agreed to look at the evidence.
 
 A few rules make experiments work.
 
@@ -111,10 +111,10 @@ Define success criteria before you start.
 If you wait until the experiment is over to decide what would count as success, you will re-litigate the original disagreement with data instead of opinions, which is only marginally better.
 
 Keep the cost of reversal low.
-If switching back after the experiment is expensive, the experiment is really an irreversible decision.
+If switching back after the experiment is expensive, the experiment is an irreversible decision.
 
 Write down the result.
-A one-paragraph note recording what you tried, what you observed, and what you decided turns a single resolution into institutional memory that saves the next new team member from re-fighting the same battle.
+A one-paragraph note recording what you tried, what you observed, and what you decided turns a single resolution into institutional memory that saves the next new team member from repeating the same debate.
 
 ## How You Decide Matters More Than What You Decide
 
@@ -132,12 +132,12 @@ That template will repeat.
 **The first disagreement a new team faces sets the pattern for every disagreement that follows.**
 
 That template is why the forming stage deserves deliberate attention rather than the hope that things will sort themselves out.
-The norms a team establishes in its first weeks are sticky.
+The norms a team establishes in its first weeks tend to persist.
 They become "how we do things here," and once that identity forms, it is far harder to change later than to set well at the start.
 
 ## A Playbook for the First Disagreement
 
-Concretely, when the first real practice disagreement surfaces on a new team, the following sequence works.
+Concretely, when the first genuine practice disagreement surfaces on a new team, the following sequence works.
 
 Name it.
 Say out loud that this is a disagreement about practice, that disagreements are expected, and that the goal is to find a resolution the team can commit to, not to identify who is right.
@@ -189,7 +189,7 @@ The first is a set of shared conventions, probably imperfect, that let the team 
 The second, and more important, is a shared process for handling the next thing they do not yet agree on.
 
 New disagreements never stop.
-The codebase grows, the team grows, the technology landscape shifts, and yesterday's settled practice becomes tomorrow's debate.
+The codebase grows, the team grows, technology changes, and yesterday's settled practice becomes tomorrow's debate.
 The teams that handle this well are not the ones that picked the best practices on day one.
 **They are the ones that learned, during forming, how to disagree productively, decide efficiently, and commit fully.**
 

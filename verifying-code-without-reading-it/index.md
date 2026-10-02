@@ -4,7 +4,7 @@ title: "Verifying Code Without Reading It"
 created: 2026-07-25
 type: post
 status: finished
-tags: [software-engineering, code-review, pull-request, testing, llm, productivity, fully-ai-generated, llm=glm-5.2, llm=glm-5.3]
+tags: [software-engineering, code-review, pull-request, testing, llm, productivity, fully-ai-generated, llm=glm-5.2, llm=glm-5.3, llm=deepseek-v4.1-flash]
 readability: 3
 audience_notes: >
   Assumes the reader accepts that human line-by-line review of LLM-generated code is not scaling, and now wants the concrete system that replaces it. Familiarity with tests, linters, static analysis, and CI is assumed.
@@ -26,17 +26,17 @@ Verification is many tools, each doing one job well.
 
 When a reviewer reads code, they are not doing one thing.
 They are running a dozen checks in their head at once, and doing each of them inconsistently.
-Make those checks explicit, and a different picture appears.
+Make those checks explicit, and you can see that they are separate.
 
 Correctness: does the code do what the task actually asked for?
 Tested: are the behaviors that matter covered by tests that would fail if the code were wrong?
 Maintainable: is the complexity bounded, the duplication low, the naming consistent, the dead code absent?
 Extensible: can the next change plug in without a rewrite, or has this change coupled two things that should stay independent?
 Secure: does it cross a trust boundary, leak a secret, or open an injection path?
-Reversible: if this is wrong, can we undo it in minutes, or does it mutate data we cannot get back?
+Reversible: if this change is wrong, can we undo it in minutes, or does it mutate data we cannot get back?
 
 A tired reviewer scans for all of these at once and catches each of them sometimes.
-**The move is to give each property its own check, run on every change, without getting tired.**
+**The approach is to give each property its own check, run on every change, without getting tired.**
 
 ## Match Each Property To Its Best Checker
 
@@ -72,14 +72,14 @@ A battery of critics tries to notice one thing each and notices it every time.**
 
 ## Verification Is Not Validation
 
-There is a distinction worth holding onto, because the system fails if you blur it.
+There is a distinction worth keeping, because the system fails if you confuse the two.
 
 [Verification](https://en.wikipedia.org/wiki/Verification_and_validation) asks: did we build the thing right, does the code meet its specification?
-Validation asks: did we build the right thing, does the specification solve the real problem?
+Validation asks: did we build the right thing, does the specification solve the actual problem?
 
 Reading a diff does verification badly and validation not at all.
 No amount of staring at code tells you whether the feature should exist.
-That judgment has to live somewhere, and the productive place for it is upstream, in the specification, and downstream, in production.
+That judgment has to be made somewhere, and the productive place for it is upstream, in the specification, and downstream, in production.
 
 So split the work.
 Put verification in the automated gates, where machines check the code against a precise spec on every change.
@@ -109,10 +109,10 @@ And run an adversarial pass whose only goal is to break the change, with no ince
 
 If the human is not reading diffs, what are they doing?
 
-They write the specification and its acceptance criteria, because that is where validation lives and where the LLM's verification is anchored.
+They write the specification and its acceptance criteria, because that is where validation belongs and where the LLM's verification is anchored.
 They review the rules the gates enforce, not the code the gates pass, because a bad rule approved once produces bad approvals forever, while a bad line of code is caught by a good rule.
-They respond to gate failures, which is where their judgment adds value, instead of spending it on changes that passed cleanly.
-And they read code only on the small, flagged minority of changes that carry real blast radius, where a deliberate read is still the best tool we have.
+They respond to gate failures, which is where their judgment adds value, instead of using it on changes that passed cleanly.
+And they read code only on the small, flagged minority of changes that carry significant blast radius, where a deliberate read is still the best tool we have.
 
 The new division of labor is more work at the top of the pipeline and less at the bottom, which is the right inversion.
 **You are trading a low-leverage activity that scaled poorly (reading every diff) for a high-leverage one that compounds (writing the rules and specs that check every diff).**
@@ -136,7 +136,7 @@ If they do not, you have a concrete gap to close, by tightening a rule or adding
 **The standard is not "a human looked at it."
 The standard is "the code behaves well in production, measurably, on every change."**
 A human looking at it was always a proxy for that standard, and a weak one.
-Replace the proxy with the thing it was standing in for.
+Replace the proxy with the measurement it represented.
 
 ## See also
 

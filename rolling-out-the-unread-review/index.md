@@ -4,7 +4,7 @@ title: "Rolling Out the Unread Review"
 created: 2026-07-25
 type: post
 status: finished
-tags: [software-engineering, code-review, pull-request, automation, teams, productivity, fully-ai-generated, llm=glm-5.2, llm=glm-5.3]
+tags: [software-engineering, code-review, pull-request, automation, teams, productivity, fully-ai-generated, llm=glm-5.2, llm=glm-5.3, llm=deepseek-v4.1-flash]
 readability: 3
 audience_notes: >
   Assumes the reader is already convinced by the case for reading-free, automated code review and now faces adoption resistance from their team. Written for an engineering lead or senior engineer driving the rollout.
@@ -13,7 +13,7 @@ agent_sessions:
 ---
 
 The [case for review without reading](../code-review-without-reading-the-code/index.md), and the [system that makes it safe](../verifying-code-without-reading-it/index.md), can both be sound and still fail to ship.
-I am writing about the part that actually decides whether any of it lands: your team.
+I am writing about the part that decides whether any of that work succeeds: your team.
 
 You can be right about review, right about the system that replaces review, and still lose, because you shipped the rollout as a decree instead of as a sequence.
 The rollout has its own logic, and it is not the logic of the technical argument.
@@ -21,7 +21,7 @@ The rollout has its own logic, and it is not the logic of the technical argument
 
 ## Treat The Resistance As Information
 
-The easy story is that skeptics are afraid of change, and that once they see the numbers they will come around.
+The easy story is that skeptics are afraid of change, and that once they see the numbers they will change their minds.
 That story is mostly wrong, and believing it will cost you the rollout.
 
 The people who push back hardest on automated review are often your most careful engineers.
@@ -42,7 +42,7 @@ You answer the accountability concern with ownership that lives upstream, in the
 
 The learning concern is the one nobody says out loud.
 Review is how juniors grow and how the team stays connected to its own codebase.
-**This loss is real, and it is the concern that will sink the rollout if you ignore it, because no defect metric addresses it.**
+**This loss is genuine, and it is the concern that will cause the rollout to fail if you ignore it, because no defect metric addresses it.**
 
 ## Sequence The Exposure
 
@@ -82,7 +82,7 @@ Give your skeptics the highest-leverage role in the new system, and most of them
 The strongest argument is not yours; it is the comparison the team runs itself.
 Let a team keep their human review while the automated lane runs silently beside it, recording what it would have caught and what it would have flagged wrongly.
 
-After a few weeks you have the only case that lands: "your reviewers missed these defects the gate caught; the gate's false positives were these, and they are fixed."
+After a few weeks you have the only case that is convincing: "your reviewers missed these defects the gate caught; the gate's false positives were these, and they are fixed."
 Run it on a low-risk slice so the stakes match the trust level.
 And let the skeptics be the ones who present the results.
 **Nothing converts a skeptic faster than being the person who found the data.**
@@ -125,10 +125,10 @@ That is the moment the rollout is won or lost.
 Run a blameless postmortem, find the gap, and add a rule.
 Then say the thing human review can never say: this exact defect class can never recur, because it is now checked on every change, for as long as the rule exists.
 
-That guarantee is the property that dissolves resistance on its own schedule.
+That guarantee is what removes resistance on its own schedule.
 The system gets strictly better over time; human review resets every morning.
 Each incident encoded into a rule is a permanent gain.
-**Show people that compounding curve, and most of the holdouts come around, not because you argued them down, but because the system stopped being the thing they distrusted.**
+**Show people that compounding curve, and most of the holdouts change their minds, not because you argued them down, but because the system stopped being the thing they distrusted.**
 
 ## What to Do Next
 
@@ -137,7 +137,7 @@ Run shadow mode beside the human lane, and let the skeptics be the ones who pres
 From the first automated action, publish the rule, the threshold, the owner, and the numbers: defect escape rate, rollback rate, time-to-detect, change failure rate.
 
 **Keep the escape hatch explicit, and rebuild the learning channel deliberately.**
-Reserve deliberate human reads for the changes with real blast radius.
+Reserve deliberate human reads for the changes with genuine blast radius.
 Pair juniors with seniors on specifications, and rotate rule-owner duty, so the apprenticeship continues off the critical path.
 
 When the gate lets its first defect through, run a blameless postmortem and encode the fix as a rule.

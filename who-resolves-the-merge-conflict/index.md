@@ -4,7 +4,7 @@ title: "Who Resolves the Merge Conflict? Why the Bot and the Author Are Not Inte
 created: 2026-07-06
 type: post
 status: finished
-tags: [software-engineering, pull-request, git, automation, llm, github-actions, productivity, fully-ai-generated, llm=glm-5.2, llm=glm-5.3]
+tags: [software-engineering, pull-request, git, automation, llm, github-actions, productivity, fully-ai-generated, llm=glm-5.2, llm=glm-5.3, llm=deepseek-v4.1-flash]
 readability: 3
 audience_notes: >
   Assumes the reader works on a repository that receives pull requests from humans and from LLM agents, runs an auto-merge lane or wants to, and is comfortable with git rebase, merge conflicts, and branch protection. Clean rebases are assumed solved and out of scope; the only question is who resolves a real conflict.
@@ -20,7 +20,7 @@ Who resolves the conflict, the bot or the author?
 The clean rebase is settled and out of scope; automate it on every push to main.
 The live question is the conflict, and the conflict is not one thing.
 Resolving a conflict means deciding what the code should now say, and that decision is a claim about what the author meant.
-Someone has to make it, and the interesting question is who can back it with intent they actually hold.
+Someone has to make it, and the interesting question is who can support it with intent they actually hold.
 **The choice depends entirely on whether the conflict has a unique correct answer an oracle can check, or whether its correctness lives only in the author's head.**
 
 ## Why the Question Got Loud
@@ -38,11 +38,11 @@ The second is the model-authored pull request.
 When the author is a model, the conflict round trip behaves differently at both ends.
 The bot never sleeps, so a resolve request adds no latency the way it does for a human.
 But the bot also has no private knowledge of what the code was meant to do, so its resolution is a guess about intent presented as a fix.
-This is the plausibility problem, and it lands hardest exactly where the conflict is hardest.
+This is the plausibility problem, and it is worst exactly where the conflict is hardest.
 
 So the modern repository has a lane that wants every PR mergeable on green, and a growing share of PRs whose intent lives only in the code a model produced, with no description, linked issue, or spec that states it independently.
 When the intent is encoded somewhere, a conflict has an oracle to check a resolution against.
-When it is not, there is nothing to verify the resolution by, and that, not the absence of an author to interrogate, is the actual problem.
+When it is not, there is nothing to verify the resolution by, and the absence of a way to verify the resolution, not the absence of an author to interrogate, is the actual problem.
 **The old default, the contributor resolves, is too slow for the merge lane, and the bot is too confident to stand in as the oracle, so the live question is not who authored the PR but whether the intent exists outside someone's head.**
 
 ## The Conflict Has a Gradient
@@ -57,10 +57,10 @@ At the other end is the semantic conflict: two people changed the same logic for
 The mechanical conflict is therefore still logistics, just logistics that needs an oracle.
 Resolve it, run the suite, and if the suite passes the resolution is, by construction, the one the project already trusted.
 Here the test acts as the independent oracle the model cannot be, the same role it plays in closing the bug gap when a fix claims to be done.
-A conflict whose wrongness a test can catch is a conflict the bot may resolve, because the test, not the model, is signing off.
+A conflict whose wrongness a test can catch is a conflict the bot may resolve, because the test, not the model, approves it.
 
 The semantic conflict is a different kind of problem.
-Nothing external is left to disagree with the model's plausible stitch, because the definition of "correct" is the intent, and the intent is precisely what the model does not have.
+Nothing external is left to disagree with the model's plausible resolution, because the definition of "correct" is the intent, and the intent is precisely what the model does not have.
 **A bot that resolves a semantic conflict is making an intent claim it cannot source, and the harder the disagreement, the more likely the claim is a confident fabrication.**
 
 ## Where the Intent Lives
@@ -71,7 +71,7 @@ Intent can live in two places.
 It can be encoded, written down in the PR description, a linked issue, an acceptance criterion, a failing test, anything a human authored to state what the change was supposed to do.
 Or it can be tacit, held in someone's head and never written down, surfacing only if you ask.
 **A conflict is safe for the bot to resolve when the intent is encoded and the encoded source covers the disputed region, because then the resolution has an oracle.**
-It is not safe when the intent is tacit, because then nothing external can falsify the bot's stitch, and the stitch will look right whether or not it is.
+It is not safe when the intent is tacit, because then nothing external can falsify the bot's resolution, and the resolution will look right whether or not it is.
 
 Author type matters, but only as a proxy for where the intent lives, and the proxy is worth stating because it inverts the naive assumption.
 
@@ -80,12 +80,12 @@ If the description covers the conflict, the bot may resolve against it, and the 
 If the description is thin or silent on the disputed region, the intent is effectively tacit, and the only defensible move is to ask the human who holds it.
 
 When the PR is bot-authored, the trap is that the bot's description is not an independent oracle.
-It was written by the same model that wrote the code, or a sibling of it, so checking the resolution against the description is checking the model against its own narration, which provides no real verification.
+It was written by the same model that wrote the code, or a sibling of it, so checking the resolution against the description is checking the model against its own narration, which provides no independent verification.
 The only trustworthy intent source for a bot-authored PR is something a human wrote upstream: the issue, the spec, the prompt, an acceptance test.
 When that upstream source exists and covers the conflict, the bot may re-derive against it, and the re-derivation is checkable.
 When it does not exist, the intent was never encoded by anyone, and the bot's resolution is a guess about intent no one ever wrote down.
 
-This is the refinement the flat "maintainer picks a default" framing misses.
+The distinction above is the refinement the flat "maintainer picks a default" framing misses.
 A single repository-wide default is too coarse, because the right default is a function of whether the PR carries an encoded, independent intent source, and that varies PR by PR, not repository by repository.
 **The PR that links a human-authored issue with acceptance criteria is safe for bot resolution regardless of who wrote the code; the PR that arrives as code and a self-description is not safe regardless of who wrote the code.**
 
@@ -101,8 +101,8 @@ Something like `conflict: author-resolves` versus `conflict: bot-may-resolve`, d
 
 The interesting work is in the default, and the sound default routes on intent availability, not on author type.
 A PR that links a human-authored issue or spec, with acceptance criteria that cover the change, defaults to `bot-may-resolve`, because the resolution has an oracle.
-A PR that arrives as code alone, with no independent statement of intent, defaults to `author-resolves`, because nothing can falsify the bot's stitch.
-The maintainer's real choice is not "auto or manual."
+A PR that arrives as code alone, with no independent statement of intent, defaults to `author-resolves`, because nothing can falsify the bot's resolution.
+The maintainer's actual choice is not "auto or manual."
 It is "what do we assume about a PR whose intent source we cannot verify."
 The conservative answer, treat the PR as unencoded and ask the author, costs a little latency where the bot could have handled it.
 The permissive answer, resolve and trust the model, costs intent claims that are silently wrong.
@@ -118,7 +118,7 @@ Both shrink the "no verifiable intent" bucket, and shrinking that bucket is what
 First, surface the conflict instead of hiding it.
 Add [eps1lon/actions-label-merge-conflict](https://github.com/eps1lon/actions-label-merge-conflict) so any PR that falls behind main gets a `merge-conflict` label the moment it conflicts, and loses it the moment it merges again.
 Your auto-merge lane can now filter `-label:merge-conflict` and only act on work that is actually ready.
-The author gets an automated nudge that a real decision is needed, without you being the one to say it.
+The author gets an automated nudge that a genuine decision is needed, without you being the one to say it.
 
 Second, classify the conflict before you route it.
 Mechanical conflicts (imports, formatting, adjacent non-overlapping edits) go to the bot behind the test gate, and the test is the oracle that makes the resolution trustworthy.

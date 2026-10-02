@@ -4,7 +4,7 @@ title: "My AI Workflow: The Skills Are the Part That Compounds"
 created: 2026-07-28
 type: post
 status: finished
-tags: [ai, llm, workflow, skills, opencode, openchamber, cursor, sdlc, fully-ai-generated, llm=glm-5.2, llm=glm-5.3]
+tags: [ai, llm, workflow, skills, opencode, openchamber, cursor, sdlc, fully-ai-generated, llm=glm-5.2, llm=glm-5.3, llm=deepseek-v4.1-flash]
 readability: 3
 audience_notes: >
   Assumes the reader already uses at least one coding agent (Cursor, Claude Code, OpenCode) and has felt the cost of re-explaining the same workflow to a fresh session. No introduction to what an LLM is.
@@ -12,12 +12,12 @@ agent_sessions:
   - ses_0593097e6ffeay4hzpl78jkctn
 ---
 
-When someone asks what my AI workflow looks like, the real answer is boring on the surface and surprising underneath.
+When someone asks what my AI workflow is, the obvious answer is boring and the answer that matters is surprising.
 I use a couple of coding tools and a couple of models, and none of them is the thing I would miss.
 What I would miss is the body of skills I have been writing, collecting, and refining for the better part of a year.
 
-This is a snapshot of that workflow as it stands today.
-The tools come first because they are the visible part, but the real argument is that the tools are the part I expect to replace, and the skills are the part I expect to keep.
+This article is a snapshot of my workflow as it stands today.
+The tools come first because they are the visible part, but the main argument is that the tools are the part I expect to replace, and the skills are the part I expect to keep.
 
 I run two coding surfaces and two models, and neither is the interesting part of my setup.
 At home I use [GLM 5.2](https://z.ai) from z.ai, and at work I use [GLM 5.2 fast](https://fireworks.ai/blog/glm-5p2-fast) from [Fireworks](https://fireworks.ai).
@@ -29,7 +29,7 @@ Everything else is interchangeable.
 ## The setup, in one paragraph
 
 Cursor or VS Code is where I read, navigate, and do small edits.
-The moment a task turns into a sequence of steps, create an issue, reproduce a bug, review a PR, open a PR, I move it to OpenChamber, because that is where the work can run to a natural stopping point without me holding the state.
+The moment a task turns into a sequence of steps, create an issue, reproduce a bug, review a PR, open a PR, I move it to OpenChamber, because OpenChamber is where the work can run to a natural stopping point without me holding the state.
 OpenChamber is built on OpenCode and is the control room on top of it: it gives me branchable sessions, worktree isolation, and a single surface to steer several sessions at once.
 The skills are not tied to any of these surfaces; because they follow the open Agent Skills format, **the same skill runs in Cursor, VS Code, OpenCode, or OpenChamber, so I pick the surface that fits the moment and the workflow does not change.**
 At home the editor is VS Code and the model is GLM 5.2 on z.ai, at work the editor is Cursor and the model is GLM 5.2 fast on Fireworks, and I switch between them without changing anything else about the workflow.
@@ -65,7 +65,7 @@ The agent performs it the same way every time, and the library gets better as th
 
 The SDLC pipeline is long, but my time is not spread evenly across it.
 Almost all of my attention goes to the top: needs, requirements, and specification.
-This is where defects fan out the widest and where fixes compound the longest, as [Defects Flow Downstream](../defects-flow-downstream/index.md) lays out, and it is where the work stays irreducibly human, deciding what to build and what "done" means.
+The top of the pipeline is where defects fan out the widest and where fixes compound the longest, as [Defects Flow Downstream](../defects-flow-downstream/index.md) lays out, and it is where the work stays irreducibly human, deciding what to build and what "done" means.
 A precise specification is the input every downstream skill consumes, and [Software Engineering Teams in the Age of AI](../software-engineering-teams-in-the-age-of-ai/index.md) argues it is now the highest-leverage skill in the field.
 
 Everything below the specification, I automate as far as I can.
@@ -83,7 +83,7 @@ It is remembering to do it, every time, in the right order, without skipping the
 
 My rule is simple.
 **Every time I catch myself remembering to do something, that is a skill that should exist.**
-The reminder to check for an existing PR before starting work, the instinct to link an issue to its plan, the habit of running the linter before committing, the reflex to write a learnings note after a painful bug, each of these was once tacit knowledge that lived in my head and showed up only when I was fresh.
+The reminder to check for an existing PR before starting work, the instinct to link an issue to its plan, the habit of running the linter before committing, the reflex to write a learnings note after a painful bug, each of these behaviors was once tacit knowledge that lived in my head and showed up only when I was fresh.
 Now each one is a skill, and the agent runs it whether I am fresh or not.
 
 The trigger is the remembering itself.
@@ -99,7 +99,7 @@ The agent triages the issue, plans the work, reviews the PR, and closes the loop
 
 Second, it is improvable.
 When a step is weak, I edit one file and every session that passes through it gets better.
-The compounding is real in a way that prompting never compounds, because the improvement is captured instead of evaporating.
+The compounding is genuine in a way that prompting never compounds, because the improvement is captured instead of lost.
 
 Third, it is shareable.
 The skills are public, so anyone on my team or on the internet can run the same workflow against their own repository.

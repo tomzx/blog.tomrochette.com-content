@@ -4,7 +4,7 @@ title: github-board - A kanban board for any GitHub search
 created: 2026-07-02
 type: post
 status: finished
-tags: [javascript, github, kanban, developer-tools, single-page-application, fully-ai-generated, llm=glm-5.2, llm=glm-5.3]
+tags: [javascript, github, kanban, developer-tools, single-page-application, fully-ai-generated, llm=glm-5.2, llm=glm-5.3, llm=deepseek-v4.1-flash]
 readability: 4
 audience_notes: >
   Assumes the reader works with GitHub issues and pull requests day to day and can create a personal access token. No kanban, GraphQL, or JavaScript knowledge is required.
@@ -19,7 +19,7 @@ GitHub Projects exists, but it demands manual triage and won't adapt to an ad-ho
 I built [github-board](https://github.com/TomzxCode/github-board) to fix this.
 **It turns any GitHub search into a customizable kanban board, defined entirely by small filter expressions.**
 There is no backend, no build step, and no framework.
-You open `index.html` in a browser, paste a token, and sketch a board in seconds against live data.
+You open `index.html` in a browser, paste a token, and build a board in seconds against live data.
 Try it live at [tomzxcode.github.io/github-board](https://tomzxcode.github.io/github-board/).
 
 ![github-board overview](overview.png)
@@ -92,7 +92,7 @@ You bring your own personal access token, which is stored only in your browser's
 There is no OAuth flow, no server logging, and no way for the tool to modify your issues or pull requests.
 
 **github-board is a view, not a project-management tool.**
-There is no drag-and-drop across columns, because the source of truth is your data, not where a card was dropped.
+There is no drag-and-drop across columns, because the board reflects your data, not where a card was dropped.
 
 ## Getting started
 

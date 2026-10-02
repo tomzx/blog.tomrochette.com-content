@@ -4,7 +4,7 @@ title: "slack-cached - Cache Slack threads, channels, and users to a local SQLit
 created: 2026-06-16
 type: post
 status: finished
-tags: [python, slack, cli, developer-tools, sqlite, fully-ai-generated, llm=glm-5.2, llm=glm-5.3]
+tags: [python, slack, cli, developer-tools, sqlite, fully-ai-generated, llm=glm-5.2, llm=glm-5.3, llm=deepseek-v4.1-flash]
 readability: 4
 audience_notes: >
   Assumes the reader is a developer comfortable with the CLI, SQLite, and Slack concepts like channels and threads. Modeled on the existing gh-cached post on this blog.
@@ -16,7 +16,7 @@ agent_sessions:
 > **Note (2026-07-02):** slack-cached has been renamed to [slackx](https://github.com/TomzxCode/slackx).
 
 Slack is where your team's decisions live, but the data doesn't belong to you.
-Search is slow, threads scroll out of reach, and the moment you leave a workspace the history is gone.
+Search is slow, threads become hard to find, and the moment you leave a workspace the history is gone.
 There's no official CLI, and the web client is the only first-class way to read anything.
 
 I built [slack-cached](https://github.com/TomzxCode/slack-cached) to fix this.
@@ -28,11 +28,11 @@ It's a small Python CLI that caches Slack threads, channel messages, users, and 
 Slack makes exporting and archival surprisingly hard.
 Export tools exist for admins, but most members aren't admins.
 The search box returns messages, but not in a form you can slice, join, or version.
-Important decisions get buried in threads that nobody scrolls back to.
+Important decisions get lost in threads that nobody scrolls back to.
 
 The problem gets worse when you want to do anything programmatic.
 Building a knowledge base, summarizing a channel, or tracking decisions all require raw access to the messages.
-**Hitting the Slack API on demand works, but you pay the latency and rate-limit cost every time, and edits disappear if you only ever fetch live.**
+**Hitting the Slack API on demand works, but you incur the latency and rate-limit cost every time, and edits disappear if you only ever fetch live.**
 
 ## How slack-cached works
 
@@ -78,7 +78,7 @@ Thread C0123ABCDEF/1700000000.123456
     Thanks!
 ```
 
-`show` auto-fetches if the thread isn't cached yet, and renders real names like `Alice Smith (alice)` instead of raw user ids once you've cached users.
+`show` auto-fetches if the thread isn't cached yet, and renders display names like `Alice Smith (alice)` instead of raw user ids once you've cached users.
 Pass `--json` to get the raw records for piping into other tools:
 
 ```bash
@@ -145,7 +145,7 @@ poll stopped after 1 cycle(s)
 
 **That stdout stream is easy to wire into a downstream pipeline or a knowledge-base builder.**
 
-Finally, cache the workspace's users and channels so threads can be rendered with real names:
+Finally, cache the workspace's users and channels so threads can be rendered with display names:
 
 ```bash
 $ slack-cached fetch-users
@@ -182,13 +182,13 @@ $ slack-cached show-channels --json
 
 ## The refresh strategy
 
-`fetch` always reaches out to Slack, but it's incremental.
+`fetch` always contacts Slack, but it's incremental.
 On a re-fetch, it calls `conversations.replies` with `oldest=<latest_cached_ts>`, so the API returns only new replies and any edits at the boundary.
 **Messages are upserted by `ts`, which means edits replace the old text in place instead of creating duplicates.**
 
 Rate limits are handled for you.
 HTTP 429 / `ratelimited` responses are retried with exponential backoff, up to five attempts, respecting the `Retry-After` header.
-That matters for `--full-threads` and `poll`, where you can easily fire hundreds of calls against a busy channel.
+That matters for `--full-threads` and `poll`, where you can easily make hundreds of calls against a busy channel.
 
 ## Where the cache lives
 
@@ -207,7 +207,7 @@ Bob Lee (bob)|87
 Carol Ng (carol)|53
 ```
 
-That query is the real point of the tool.
+That query is the main point of the tool.
 **The cache is not an opaque blob; it's a table of messages you can `SELECT` from, join against users and channels, and export however you like.**
 
 ## Authentication
@@ -225,7 +225,7 @@ Every command also accepts `--api-base-url`, which is how the built-in fake Slac
 
 ## A fake Slack server, for free
 
-The repo ships `slack-fake-server`, a deterministic fake Slack API for testing:
+The repo includes `slack-fake-server`, a deterministic fake Slack API for testing:
 
 ```bash
 $ uv run slack-fake-server --port 8199 --num-threads 50 --rate-limits
@@ -233,7 +233,7 @@ $ uv run slack-fake-server --port 8199 --num-threads 50 --rate-limits
 ```
 
 It serves `conversations.list`, `conversations.replies`, `conversations.history`, and `users.list`, and can simulate Slack-tier rate limiting.
-**Point slack-cached at the fake server and you can develop and test against a realistic API without touching your real workspace:**
+**Point slack-cached at the fake server and you can develop and test against a realistic API without touching your own workspace:**
 
 ```bash
 $ slack-cached fetch --api-base-url http://localhost:8199/api --channel C0123ABCDEF --full-threads

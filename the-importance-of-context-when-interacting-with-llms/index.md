@@ -4,7 +4,7 @@ title: "The Importance of Context When Interacting with LLMs"
 created: 2026-06-15
 type: post
 status: finished
-tags: [ai, llm, context-engineering, prompt-engineering, rag, fully-ai-generated, llm=glm-5.1, llm=glm-5.3]
+tags: [ai, llm, context-engineering, prompt-engineering, rag, fully-ai-generated, llm=glm-5.1, llm=glm-5.3, llm=deepseek-v4.1-flash]
 readability: 4
 audience_notes: >
   Assumes familiarity with transformer-based LLMs, basic prompt engineering concepts, and production ML systems. No attempt to explain what an LLM is or how attention works at the architectural level.
@@ -42,7 +42,7 @@ A model that does not know your company's style guide can adopt it verbatim if y
 The model is not truly "learning" in the statistical sense.
 The model is recognizing patterns in the provided context and extending them.
 
-**This means the quality of the context is the quality of the output.**
+**In-context learning means the quality of the context is the quality of the output.**
 Vague context produces vague output.
 Contradictory context produces contradictory output.
 Missing context produces plausible-sounding output that is wrong in ways specific to your situation.
@@ -105,7 +105,7 @@ Each implicit assumption is a potential bug in generated code or a hallucinated 
 
 ## Practical Context Design
 
-**For engineers building with LLMs, context design is the highest-leverage activity.**
+**For engineers building with LLMs, context design is the highest-impact activity.**
 Here are concrete patterns that work.
 
 **Layer your context deliberately.**
@@ -138,11 +138,11 @@ The test is a fast diagnostic that catches many context problems before the cont
 ## Context Engineering as a Discipline
 
 The shift from "prompt engineering" to "context engineering" reflects a maturation in how we think about LLM interactions.
-Prompt engineering suggests that the right magic words unlock better performance.
+Prompt engineering suggests that the right wording produces better performance.
 **Context engineering recognizes that the entire information environment determines the output.**
 
-The distinction matters because the distinction changes where you invest effort.
-If you believe in magic prompts, you spend your time iterating on wording.
+The distinction matters because it changes where you invest effort.
+If you believe that the right words are what matters, you spend your time iterating on wording.
 If you believe in context engineering, you invest in retrieval systems, example libraries, context ordering, and information architecture.
 
 The results from [Anthropic's work on contextual retrieval](https://www.anthropic.com/research/contextual-retrieval) illustrate the payoff well.
@@ -152,7 +152,7 @@ Not by changing the prompt.
 By changing how context was prepared and presented.
 
 [Chain-of-thought prompting](https://arxiv.org/abs/2201.11903) is another example.
-The model's reasoning improves not because you asked the model to "think step by step" as a magic incantation, but because you expanded the context window with intermediate reasoning steps.
+The model's reasoning improves not because you asked the model to "think step by step", but because you expanded the context window with intermediate reasoning steps.
 The model uses its own generated context as additional input for subsequent tokens.
 Context is not just what you provide.
 Context is also what the model generates and then consumes.

@@ -4,7 +4,7 @@ title: "The Self-Evolving Repository: Automating a GitHub Project End to End wit
 created: 2026-06-20
 type: post
 status: draft
-tags: [llm, ai-agents, automation, github, self-improving, fully-ai-generated, llm=glm-5.1, llm=glm-5.3]
+tags: [llm, ai-agents, automation, github, self-improving, fully-ai-generated, llm=glm-5.1, llm=glm-5.3, llm=deepseek-v4.1-flash]
 readability: 4
 audience_notes: >
   Assumes familiarity with LLM-based code generation, CI/CD pipelines, and basic concepts of autonomous agent systems.
@@ -17,24 +17,24 @@ It already can.
 The question is whether a project can continue to evolve, fix its own bugs, add its own features, and improve its own quality without you ever opening a terminal, writing a prompt, or reviewing a pull request.
 
 **This is the self-evolving repository: a GitHub project where every function of the maintainer has been replaced by an automated loop driven by LLMs.**
-No steering.
+No human control.
 No human-in-the-loop.
-The maintainer sets it up once, walks away, and the project keeps moving.
+The maintainer sets it up once, then does not intervene, and the project keeps making progress.
 
-I want to be precise about what this means, what it requires, and where it breaks.
+I want to be precise about what a self-evolving repository means, what it requires, and where it breaks.
 
 ## What Full Automation Means
 
 Most LLM-assisted development today is interactive.
 A developer describes a task, the LLM writes code, the developer reviews, requests changes, and merges.
-The developer is the steering wheel.
-The LLM is the engine.
+The developer controls what the LLM works on.
+The LLM does the work.
 
-**Full automation removes the steering wheel.**
+**Full automation removes the developer's control.**
 The project must decide for itself what to work on, implement the work, verify it, and ship it.
 The maintainer who set it up does not intervene in the loop.
 
-This is a fundamentally different problem from "use an LLM to write faster code."
+Full automation is a fundamentally different problem from "use an LLM to write faster code."
 It is the problem of encoding every judgment a maintainer makes into a system that can execute that judgment autonomously, reliably, and indefinitely.
 
 A maintainer of an active project does many things.
@@ -48,7 +48,7 @@ They write documentation.
 They make architectural decisions.
 They decline changes that would make the codebase worse.
 
-Each of these is a decision that currently requires human judgment.
+Each of these duties is a decision that currently requires human judgment.
 Full automation means building a system that makes each of these decisions without the human.
 
 ## The Autonomous Loop
@@ -73,28 +73,28 @@ Stack Overflow questions mentioning the project.
 Download and usage statistics.
 Error reports from production telemetry if the project is a library or service.
 
-These signals are the system's eyes.
-Without them, the project is blind to what needs attention.
+The system uses these signals to understand its state.
+Without them, the project does not know what needs attention.
 The richer the signal sources, the better the system can prioritize.
 
-A project that only monitors its own issue tracker sees a narrow slice of what needs attention.
-A project that also monitors community discussions, ecosystem health, and downstream breakage has a much fuller picture of where to invest effort.
+A project that only monitors its own issue tracker misses much of what needs attention.
+A project that also monitors community discussions, ecosystem health, and downstream breakage has much more information about where to invest effort.
 
 ### 2. Decide
 
-This is the hardest stage, and I will return to it.
+The decide stage is the hardest, and I will return to it.
 
 Given the observed signals, the system must decide what to work on next.
-This is not just "pick the highest priority issue."
+Deciding what to work on is not just "pick the highest priority issue."
 It is a sequence of judgments: which problems are worth solving, which are urgent, which can wait, which should be declined, which require architectural changes versus incremental fixes.
 
 The decision stage encodes the maintainer's judgment about what matters.
-If this encoding is poor, the project will be busy but not productive, shipping changes that do not move the project in a meaningful direction.
+If the system encodes the maintainer's judgment poorly, the project will be busy but not productive, shipping changes that do not move the project in a meaningful direction.
 
 ### 3. Implement
 
 The system decomposes the chosen work into tasks and generates code.
-This is the part that LLMs are already good at.
+Implementation is the part that LLMs are already good at.
 Given a clear specification and sufficient context about the codebase, current models can produce working implementations for most routine tasks.
 
 The implementation stage benefits from the same patterns that work in interactive LLM development: competitive generation (multiple attempts, best one selected), iterative refinement (generate, evaluate, regenerate), and specification-driven development (the spec is authored before the code).
@@ -122,7 +122,7 @@ This stage is mostly mechanical: merge the pull request, run the release pipelin
 
 The one non-obvious requirement is a rollback mechanism.
 If a shipped change introduces a regression that the verification pipeline missed, the system needs to detect the regression in production telemetry and automatically revert.
-Without this, errors compound.
+Without an automatic rollback, errors compound.
 
 ### 6. Learn
 
@@ -150,14 +150,14 @@ They know the project's trajectory, the community's needs, the competitive lands
 **They have taste.**
 They have a vision for what the project should become.
 
-Encoding this judgment into an autonomous system is the real challenge.
+Encoding the maintainer's judgment into an autonomous system is the central challenge.
 
 ### The roadmap as a steering mechanism
 
 The maintainer's initial setup must include a machine-readable roadmap.
 Not a vague vision statement, but a structured document that defines: the project's purpose and non-goals, the target user and their needs, the quality bar for changes, the architectural principles that must be respected, and the current priorities ranked by importance.
 
-This document is the project's constitution.
+This roadmap is the project's governing document.
 Every autonomous decision is evaluated against it.
 When the system decides what to work on, it checks the decision against the roadmap.
 When the system reviews a contribution, it checks whether the contribution moves the project toward a roadmap goal.
@@ -187,7 +187,7 @@ A self-evolving repository that only reacts to external signals will optimize fo
 If the signals are bug reports, the system will become excellent at fixing bugs and terrible at anything else.
 If the signals are feature requests, the system will accumulate features and lose coherence.
 
-This is [Goodhart's law](https://en.wikipedia.org/wiki/Goodhart%27s_law) applied to software maintenance: when a measure becomes the target of an autonomous system, it ceases to be a good measure.
+This drift is [Goodhart's law](https://en.wikipedia.org/wiki/Goodhart%27s_law) applied to software maintenance: when a measure becomes the target of an autonomous system, it ceases to be a good measure.
 
 The roadmap exists to counteract this drift.
 It is the fixed point that keeps the project aligned with its original purpose even as the system optimizes for observable signals.
@@ -198,10 +198,10 @@ The ecosystem evolves.
 A roadmap written in January may be wrong by July.
 
 A fully autonomous system needs a mechanism for updating its own roadmap.
-This is where the direction problem becomes genuinely difficult.
+Updating the roadmap is where the direction problem becomes genuinely difficult.
 Updating the roadmap means making a judgment about what the project should become, and that judgment requires understanding the project's users, ecosystem, and competitive position at a level that current LLMs can approximate but not fully replicate.
 
-The pragmatic solution is not to solve this perfectly but to bound it.
+The pragmatic solution is not to solve the stale-roadmap problem perfectly but to bound it.
 Let the system make small roadmap adjustments based on observed signals, but require large directional changes to go through a human review.
 This keeps the system autonomous for 95% of decisions while preserving human oversight for the 5% that determine the project's long-term trajectory.
 
@@ -229,10 +229,10 @@ Tools like [Semgrep](https://semgrep.dev/), [CodeQL](https://codeql.github.com/)
 
 **[Mutation testing](https://en.wikipedia.org/wiki/Mutation_testing)** verifies that the test suite is actually meaningful.
 If you can mutate the code and the tests still pass, the tests are not testing what you think they are.
-This is especially important when the tests themselves are LLM-generated.
+Mutation testing is especially important when the tests themselves are LLM-generated.
 
 **Scenario-based validation** uses an LLM to evaluate whether the implementation satisfies its specification.
-This is the layer that catches semantic problems that automated tests miss: the code works, but it solves the wrong problem.
+Scenario-based validation is the layer that catches semantic problems that automated tests miss: the code works, but it solves the wrong problem.
 
 **Adversarial verification** has a separate agent actively try to break the implementation.
 This agent writes tests designed to fail, probes edge cases, and attempts to find inputs that produce incorrect behavior.
@@ -259,7 +259,7 @@ Silent quality decay is the hardest failure mode to notice.
 Each individual change is defensible.
 The cumulative effect is a codebase that is harder to maintain, slower to evolve, and full of subtle interactions that no one understands.
 
-This happens when the verification pipeline measures immediate quality (does this change pass tests?) but not systemic quality (does this change make the codebase healthier?).
+Silent quality decay happens when the verification pipeline measures immediate quality (does this change pass tests?) but not systemic quality (does this change make the codebase healthier?).
 Metrics like cyclomatic complexity, coupling, and test coverage can help, but they are proxies, not ground truth.
 
 ### The complexity spiral
@@ -272,7 +272,7 @@ The codebase grows without bound because nothing in the autonomous loop says "st
 
 A self-evolving repository needs an explicit simplification loop.
 The system should periodically identify the most complex parts of the codebase and attempt to simplify them, even if no bug is forcing the change.
-This is technical debt reduction as an automated process.
+The simplification loop is technical debt reduction as an automated process.
 
 ### Specification drift
 
@@ -280,7 +280,7 @@ When the system writes its own specifications, the specifications can drift from
 The system optimizes for specifications it can satisfy, not specifications that matter.
 Over time, the project accumulates well-implemented features that nobody uses.
 
-This is the autonomous version of the problem I described in [The Shifting Bottleneck](../the-shifting-bottleneck/index.md): when implementation becomes free, deciding what to implement becomes the hard part.
+Specification drift is the autonomous version of the problem I described in [The Shifting Bottleneck](../the-shifting-bottleneck/index.md): when implementation becomes free, deciding what to implement becomes the hard part.
 In a self-evolving repository, the decision problem is fully automated, which means the drift can go unnoticed for longer.
 
 ### Cascading failures
@@ -288,16 +288,16 @@ In a self-evolving repository, the decision problem is fully automated, which me
 A single bad change that passes verification can break downstream functionality in ways that the verification pipeline does not catch.
 The system then generates fixes for the symptoms rather than reverting the cause.
 Each fix introduces new changes, each of which can introduce new problems.
-The system enters a fix loop, shipping increasingly desperate patches that make the situation worse.
+The system enters a fix loop, shipping more patches that make the situation worse.
 
-The defense against this is blast radius limitation.
+The defense against cascading failures is blast radius limitation.
 Changes should be small, merged incrementally, and monitored for downstream impact.
 The system should have a threshold: if more than N changes in a row require fixes, stop and flag for human attention rather than continuing to patch.
 
 ### Cost runaway
 
 Every iteration of the autonomous loop costs money: API calls for generation, verification, and decision-making.
-A system that is stuck in a fix loop, or that is attempting overly ambitious changes, can burn through significant compute before anyone notices.
+A system that is stuck in a fix loop, or that is attempting overly ambitious changes, can spend a large amount of compute before anyone notices.
 
 The system needs explicit budgets.
 A maximum number of iterations per change.
@@ -314,7 +314,7 @@ The setup has five components.
 
 **The roadmap.**
 A structured document defining the project's purpose, non-goals, priorities, quality standards, and architectural principles.
-This is the single most important artifact.
+The roadmap is the single most important artifact.
 It determines whether the autonomous system makes good decisions or busy decisions.
 
 **The verification pipeline.**

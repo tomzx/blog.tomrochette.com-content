@@ -4,7 +4,7 @@ title: "Bringing Everyone to the Same Level: How Skills and LLMs Collapse Code Q
 created: 2026-06-17
 type: post
 status: finished
-tags: [ai, software-engineering, llm, skills, productivity, fully-ai-generated, llm=glm-5.2, llm=glm-5.3]
+tags: [ai, software-engineering, llm, skills, productivity, fully-ai-generated, llm=glm-5.2, llm=glm-5.3, llm=deepseek-v4.1-flash]
 readability: 3
 audience_notes: >
   Assumes the reader is already using an LLM coding agent (opencode, Claude Code, Cursor) and has at least seen a "skill" or "rule" file. No explanation of what an LLM is.
@@ -17,13 +17,13 @@ Every team has the same structure.
 A few engineers ship clean, well-tested, well-scoped work, and the rest ship work that mostly works.
 The gap between them is not typing speed.
 It is everything that happens before and after the typing: the steps they remember to run, the checks they know to perform, the conventions they learned by fixing past failures.
-**That knowledge has always been the real asset, and it has never scaled, because it lived inside a small number of heads.**
+**That knowledge has always been the most valuable asset, and it has never scaled, because it existed in the heads of a small number of people.**
 
 LLMs alone do not fix this.
 They make everyone faster, which is a different thing from making everyone produce the same quality.
 Done naively, they widen the variance, because an LLM is a multiplier on the quality of the instructions it receives.
 The fix is to give every engineer, and every model, the same instructions.
-That is what a skill is, and it is why skills are the mechanism that finally brings everyone to the same level.
+A shared set of instructions is what a skill is, and it is why skills are the mechanism that finally brings everyone to the same level.
 
 ## The Variance Problem Has Always Been a Knowledge Problem
 
@@ -31,7 +31,7 @@ Ask yourself what actually separates the output of your strongest engineer from 
 It is rarely the language syntax.
 Both of them can write a function.
 
-The difference is that the strong engineer, before touching code, does a long list of invisible things.
+The difference is that the strong engineer, before touching code, performs a long list of steps they never write down.
 They look for an existing solution before building a new one.
 They write down what "done" means before they implement.
 They check whether the change can be undone.
@@ -44,11 +44,11 @@ For most of the history of software, these steps were passed on informally, by w
 You learned them by pairing with someone better, by getting review comments on your seventh PR, by breaking production once and remembering forever.
 This is mentorship, and it works, but it is slow, expensive, and uneven.
 It cannot keep up with a team that is hiring, and it cannot keep up with a codebase that is changing.
-**The senior engineer's edge was always a process they ran in their head, and a process in a head does not scale.**
+**The senior engineer's advantage was always a process they followed in their head, and a process in a head does not scale.**
 
 ## LLMs Raise the Floor but Not the Ceiling
 
-Drop an LLM into this situation and the naive expectation is that it levels the field.
+Drop an LLM into this situation and the naive expectation is that it makes everyone equal.
 It does not, at least not on its own.
 
 What an LLM actually does is amplify whatever it is given.
@@ -57,7 +57,7 @@ Give it a precise specification, the relevant files, the patterns to reuse, and 
 The model is the same in both cases.
 The difference is entirely in the context, which, as I argued in [The Importance of Context When Interacting with LLMs](../the-importance-of-context-when-interacting-with-llms/index.md), is the entire mechanism by which a frozen set of weights produces behavior relevant to your situation.
 
-This has an uncomfortable implication.
+The amplification effect has an uncomfortable implication.
 **Before skills, the LLM made the senior engineer better and the junior engineer faster, and the gap between them stayed roughly the same.**
 The senior engineer instinctively provides the context the model needs, because they know what good work requires.
 The junior engineer does not know what they do not know, so they ask for less, and they get less back.
@@ -70,7 +70,7 @@ Not a vague hint.
 The steps, in order, the checks to run before declaring success, the gates the output must pass, and the format the output should take.
 When the agent loads the skill, it stops improvising and follows the encoded process instead.
 
-This is where the comparison to a human matters.
+The difference between a skill and advice is where the comparison to a human matters.
 A junior engineer told to "go implement the feature" forgets half the steps, because they never fully learned them.
 A junior engineer, or even an autonomous agent, told to implement the feature *through a skill* cannot forget the steps, because the steps are in the prompt the model reads on every run.
 The skill is not advice the engineer might ignore.
@@ -89,12 +89,12 @@ Both run the same "have you checked for an existing solution?" step.
 Both end at the same verification step, with the same gates.
 The code they produce is not identical, but it converges toward a common standard, because the process that produced it is identical.
 
-The thing that used to vary, the invisible checklist inside each engineer's head, is now constant.
+The thing that used to vary, the unwritten checklist inside each engineer's head, is now constant.
 What varies is only the judgment applied at each step, and even that is bounded by the gates the skill enforces.
 **Skills do not make everyone equally brilliant.
 They make everyone equally unable to skip the steps that matter, and skipping the steps that matter is what produced most of the variance in the first place.**
 
-This is the same logic I described, from the other direction, in [Developer Trust Profiles](../developer-trust-profiles/index.md).
+The convergence logic is the same one I described, from the other direction, in [Developer Trust Profiles](../developer-trust-profiles/index.md).
 There I argued the ideal end state is one where "every contributor, senior engineer or new hire, funnels their work through agents that enforce the same standards," so that authorship stops carrying signal and "the output converges into something homogeneous."
 The trust profile was a transitional step, and the point was to make itself obsolete.
 **Skills are the mechanism that completes that transition.
@@ -115,7 +115,7 @@ Deciding which gate matters and which only looks like a gate.
 Deciding what "done" means for this kind of task, precisely enough that a model can enforce it.
 The judgment that used to be applied privately, one pull request at a time, is now applied once, at the skill level, where it benefits every future execution.
 
-This is why a good skill library is one of the most valuable assets a team can hold.
+This shift is why a good skill library is one of the most valuable assets a team can hold.
 It is the institutional memory of how the team does things well, written in a form that executes itself instead of sitting in a wiki nobody reads.
 **When a senior engineer leaves, the skills stay, and the standard stays with them.**
 When a new engineer joins, they do not spend a year absorbing the conventions through code review.
@@ -125,7 +125,7 @@ They load the skills on day one, and their first pull request already follows th
 
 Not every file labeled "skill" collapses the variance.
 Most do not.
-Writing a skill that genuinely raises everyone to the same level requires a few specific disciplines.
+Writing a skill that raises everyone to the same level requires a few specific disciplines.
 
 **Encode the steps that are actually forgotten, not the steps everyone already does.**
 A skill that says "write clean code" is worthless, because nobody sets out to write dirty code and the phrase carries no executable instruction.
@@ -135,7 +135,7 @@ A skill that says "before implementing, run a search for existing solutions and 
 "Make sure it is well tested" is an opinion.
 "Write tests for the empty input, the maximum value, and the concurrent case, then run the suite and confirm it passes" is a gate.
 The whole mechanism depends on the model being able to check its own work, and it can only do that against criteria it can test.
-This is the same reason I argued, in [Rethinking Code Review in the Age of LLMs](../rethinking-code-review-in-the-age-of-llms/index.md), that quality is a property of your constraints, not of your reviewers.
+The need for testable criteria is the same reason I argued, in [Rethinking Code Review in the Age of LLMs](../rethinking-code-review-in-the-age-of-llms/index.md), that quality is a property of your constraints, not of your reviewers.
 The constraints in a skill are where the quality actually lives.
 
 **Keep the skill shorter than the attention it will receive.**
@@ -149,7 +149,7 @@ Treat the skill library as part of the codebase, with owners, review, and the sa
 
 ## The Realistic Limits
 
-This only works for the part of the job that is describable, and it is worth being clear about where it stops.
+Skills only work for the part of the job that is describable, and it is worth being clear about where that stops.
 
 **Skills cannot encode taste that the writer cannot articulate.**
 If your best engineer's advantage is a feel for when an abstraction is about to collapse, and they cannot explain the signals they are reading, that advantage does not survive the translation into a file.
@@ -163,7 +163,7 @@ The mechanism is morally neutral.
 It collapses the variance in whichever direction the skill points, so a careless skill library can quietly lower a strong team to a lower common standard instead of raising the rest.
 The remedy is that the skills themselves have to be written by the people whose process you actually want to reproduce, and revisited when the process improves.
 
-Finally, this raises the floor for producing code, but producing code was never the only bottleneck.
+Finally, skills raise the standard for producing code, but producing code was never the only bottleneck.
 As [Software Engineering Teams in the Age of AI](../software-engineering-teams-in-the-age-of-ai/index.md) argues, deciding whether a feature should exist, and writing a precise specification for it, remain human and valuable.
 Skills make the execution layer homogeneous.
 They do not decide what to execute.
@@ -176,10 +176,10 @@ Pick the one task where your team's output varies the most, the one where the se
 Write down the steps your strongest engineer actually takes when they do it well, the steps they would never admit to because they seem obvious to them.
 Turn that into a skill, and run the next instance of that task through it, regardless of who is doing it.
 
-Watch the output converge.
+Watch the output converge toward the standard.
 Then do it again for the next task.
 The variance does not close all at once.
-It closes one encoded process at a time, and each skill you add is a piece of seniority that stops being a private habit and starts being a shared standard.
+It closes one encoded process at a time, and each skill you add moves a piece of seniority from a private habit to a shared standard.
 
 **The team that wins in this era is not the one with the most powerful model.
 It is the one whose best engineer's process runs, unchanged and unskipped, in every other engineer's session.**

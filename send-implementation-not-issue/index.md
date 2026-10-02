@@ -4,7 +4,7 @@ title: "Issues Are Free Now: Send the Implementation, Not the Idea"
 created: 2026-07-06
 type: post
 status: finished
-tags: [open-source, software-engineering, llm, pull-request, issues, ai, contribution, fully-ai-generated, llm=glm-5.2, llm=glm-5.3]
+tags: [open-source, software-engineering, llm, pull-request, issues, ai, contribution, fully-ai-generated, llm=glm-5.2, llm=glm-5.3, llm=deepseek-v4.1-flash]
 readability: 3
 audience_notes: >
   Assumes the reader files issues or pull requests against open source or internal projects, has watched an issue tracker fill up faster than it can be cleared, and uses AI coding agents well enough to produce a draft implementation. No introduction to what an issue tracker or a pull request is.
@@ -13,21 +13,21 @@ agent_sessions:
   - ses_0972b26e7ffetuoU6zH6d5S3ga
 ---
 
-For most of software's history, filing an issue took real work.
+For most of software's history, filing an issue took actual work.
 You had to reproduce the bug, narrow it down, write a clear description, and decide whether the request was worth the maintainer's time.
 That filter is gone.
 **An AI agent can read a README, a changelog, or spend ten minutes with the tool, and produce a polished, well-formatted issue in seconds, and it can do it a hundred times before lunch.**
 The cost of creating an issue fell to almost nothing, the cost of clearing one did not, and every issue tracker on the internet is now overflowing.
 
-If you are the one filing those issues, the result is hard to hear but clear.
-The issue you just opened is no longer a contribution in any real sense.
+If you are the one filing those issues, the result is unpleasant but clear.
+The issue you just opened is no longer a contribution in any practical sense.
 It is a request for someone else's work, and it is sitting in a queue next to nine hundred other requests for someone else's work, most of them produced just as cheaply as yours.
 **The only thing that still changes the outcome is the implementation attached to the request, because the implementation is the one input whose cost has not fallen.**
 
 ## The Issue Tracker Was Always a Wish List
 
 It is worth being clear about what an issue tracker actually was, even before AI.
-A well-written bug report was a real gift, because it gave the maintainer a reproduction and a starting point.
+A well-written bug report was a genuine gift, because it gave the maintainer a reproduction and a starting point.
 A feature request was almost always a wish.
 Someone else should do this.
 Someone else should want this.
@@ -38,11 +38,11 @@ The friction was the filter.
 **The issue tracker was tolerable only because filing an issue was mildly annoying, and the mildly annoyed filer self-selected for "I actually care."**
 
 Remove the friction and the wish list becomes the whole tracker.
-That is where we are.
+This is already true for most trackers.
 
 ## The Cost Imbalance Is the Whole Problem
 
-The math that kills the tracker is simple.
+The arithmetic that overwhelms the tracker is simple.
 It costs a filer roughly zero seconds and zero cents to open an issue with an AI agent.
 It costs a maintainer anywhere from five minutes to an afternoon to triage it: read the request, check whether it duplicates something, decide whether the project wants it, find the relevant code, and either close it, schedule it, or do it.
 **One side of that exchange is free; the other side is unpaid, and the unpaid side is the one you are asking to work.**
@@ -52,7 +52,7 @@ The triage queue grows faster than any single human can read it, the maintainer 
 Nobody is at fault.
 **The system is just balanced so that the cheap side produces faster than the expensive side can consume, and the buffer between them is a person.**
 
-This is the same dynamic I described for pull requests in [The Pull Request Queue Outgrew You](../triaging-open-source-pull-requests/index.md): the cost to create a change fell below the cost to review it, and the maintainer became the bottleneck in their own queue.
+This cost imbalance is the same dynamic I described for pull requests in [The Pull Request Queue Outgrew You](../triaging-open-source-pull-requests/index.md): the cost to create a change fell below the cost to review it, and the maintainer became the bottleneck in their own queue.
 What is true for code changes is now true for ideas, and ideas are even cheaper to produce.
 
 ## An Implementation Rewrites the Ask
@@ -88,12 +88,12 @@ This is the same shift [The Shifting Bottleneck](../the-shifting-bottleneck/inde
 Producing code is no longer the constraint.
 Deciding what to produce, and accepting what got produced, is the constraint.
 In an issue tracker, that means the scarce resource is no longer "someone willing to file the issue" or even "someone willing to write the code."
-The scarce resource is the maintainer's attention, and the only way to earn a slice of it is to bring the work to a state where saying yes costs them almost nothing.
+The scarce resource is the maintainer's attention, and the only way to earn a share of it is to bring the work to a state where saying yes costs them almost nothing.
 
 ## But I Am Not Sure My Implementation Is Good
 
 This is the second pushback, and it is more serious than the first.
-You worry that sending an AI-generated PR is dumping low-quality work on an already overloaded maintainer, and that is a real risk.
+You worry that sending an AI-generated PR is dumping low-quality work on an already overloaded maintainer, and that is a genuine risk.
 The answer is not to hold back the PR.
 The answer is to do the work that makes the PR cheap to evaluate.
 
@@ -103,7 +103,7 @@ Reproduce the bug you claim to fix, and show the test going red before your patc
 Keep the change small and focused on one thing.
 Link the issue you are closing.
 Write a PR description that lets the maintainer evaluate the change in thirty seconds.
-**Every one of these is an attempt to lower the cost of saying yes, and lowering the cost of saying yes is the entire game.**
+**Every one of these is an attempt to lower the cost of saying yes, and lowering the cost of saying yes is the entire point.**
 
 A small, tested, well-described PR is a gift.
 A large, untested, AI-generated diff with a one-line description is just a different kind of issue, and it will be treated like one.
@@ -112,7 +112,7 @@ The discipline is "send code that is cheaper to merge than to discuss, and if yo
 
 ## What the Maintainer Actually Wants
 
-It helps to look at the exchange from the maintainer's chair for a moment, because the request they are implicitly making is not unreasonable.
+It helps to look at the exchange from the maintainer's perspective for a moment, because the request they are implicitly making is not unreasonable.
 They want to spend their scarce attention on decisions only they can make: the architecture, the direction, the boundary between what the project is and is not.
 They do not want to spend it turning a feature description into code, because that is the part the LLM can do now.
 **The highest-value contribution you can make is one that arrives with every reversible decision already made and every test already green, so that the maintainer's job is reduced to a judgment call they were going to have to make anyway.**
@@ -124,7 +124,7 @@ A good contributor is someone who arrives with a concrete proposal, already impl
 
 ## What About Bugs You Cannot Reproduce
 
-There is a real exception, and it should be named so the argument does not go too far.
+There is a genuine exception, and it should be named so the argument does not go too far.
 Some issues are genuine bug reports where the value is in the reproduction, not in the fix.
 A crash that happens on a specific kernel version, a regression that only shows up under load, a data corruption bug that requires a particular sequence of inputs.
 These are gifts, when written carefully, because the maintainer could not have produced the reproduction themselves.
@@ -152,14 +152,14 @@ If you maintain a project, change the default you invite.
 Rewrite your contributing guide to say, plainly, that feature requests without an accompanying PR will be closed, and that bug reports without a reproduction will be closed faster.
 Be clear that this is not hostility.
 It is the only way the queue stays manageable.
-Make the pull request template the front door, and the issue template the side door for the narrow set of things only an issue can carry.
-**Raising the floor on contributions is, in this era, an act of respect for the contributors who are willing to meet it, because they are the ones whose work will otherwise be buried under the noise.**
+Make the pull request template the default path, and the issue template the exception for the narrow set of things only an issue can carry.
+**Setting a higher standard for contributions is, in this era, an act of respect for the contributors who are willing to meet it, because they are the ones whose work will otherwise be buried under the noise.**
 
 And for everyone, learn the new cost structure.
 Ideas are free.
 Descriptions are free.
 Issues are free.
-Implementations are the only currency left that buys maintainer attention, and the reason is not that maintainers are picky.
+Implementations are the only thing left that earns maintainer attention, and the reason is not that maintainers are picky.
 It is that implementations are the one input whose cost has not fallen to zero, which makes them the one input that still signals you meant it.
 **If you want a maintainer to take your request seriously, prove it the only way that still costs you something: by sending the code.**
 

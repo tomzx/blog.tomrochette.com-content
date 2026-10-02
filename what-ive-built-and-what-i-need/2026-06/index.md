@@ -4,7 +4,7 @@ title: "What I've built and what I need: June 2026"
 created: 2026-06-25
 type: post
 status: finished
-tags: [what-ive-built-and-what-i-need, personal-update, skills, ai, automation, fully-ai-generated, llm=glm-5.1, llm=glm-5.2, llm=glm-5.3]
+tags: [what-ive-built-and-what-i-need, personal-update, skills, ai, automation, fully-ai-generated, llm=glm-5.1, llm=glm-5.2, llm=glm-5.3, llm=deepseek-v4.1-flash]
 readability: 3
 audience_notes: >
   Assumes the reader is a software engineer familiar with LLM-based coding agents and with packaging agent workflows as skills; no prior exposure to the SDLC pipeline or the earlier monthly updates is required.
@@ -45,7 +45,7 @@ Each project's artifacts are reviewed weekly by [sync-sdlc](https://github.com/t
 
 **Shipped 7 maintenance skills for code quality.**
 A new "maintenance" skill category was added covering security auditing, code duplication detection, type gap analysis, churn analysis, and related diagnostics.
-These were integrated into the SDLC pipeline as a structured diagnose-harden-clean-document workflow, giving every feature a code health pass alongside the existing requirements-to-learnings flow.
+These maintenance skills were integrated into the SDLC pipeline as a structured diagnose-harden-clean-document workflow, giving every feature a code health pass alongside the existing requirements-to-learnings flow.
 
 **Polished PR and issue workflows.**
 Issue triage gained duplicate detection and smarter label management, and triage-issue was split out from triage-issues for single-issue versus batch processing.
@@ -84,11 +84,11 @@ The new needs for this month:
 **[Skill usage tracking](https://github.com/tomzx/agents/issues/7).**
 I started using [agentsview](https://github.com/kenn-io/agentsview), which lets you filter conversation logs on terms.
 Given a list of skill names over time, it is possible to filter on those names as long as they were not expanded.
-OpenCode only expands slash commands if they start a message, so prefixing them with a space prevents auto-expansion and would allow tracking, but that is an ugly hack that needs a cleaner solution.
+OpenCode only expands slash commands if they start a message, so prefixing them with a space prevents auto-expansion and would allow tracking, but that workaround is inelegant and needs a cleaner solution.
 
 **[Contextual Slack support](https://github.com/tomzx/agents/issues/4).**
 [slack-cached](https://github.com/TomzxCode/slack-cached) can already read Slack threads, and given the right working directory it may have enough relevant context to help users better than generic Q&A pairs.
-What remains is wiring it into an actual support workflow.
+What remains is connecting it to an actual support workflow.
 
 **[Automate issue triage follow-up conversations](https://github.com/tomzx/agents/issues/14).**
 The [triage-issues](https://github.com/tomzx/agents/blob/main/skills/triage-issues/SKILL.md) skill currently sends a single message when an issue is received.
@@ -100,12 +100,12 @@ The [reproduce-issue](https://github.com/tomzx/agents/blob/main/skills/reproduce
 
 **Introduce loops to automate skill usage.**
 As described in [Loops as Files](../../loops-as-files/index.md), loops provide a scheduling layer that can run skills on a recurring basis without manual triggering.
-Wiring skills into loops would enable workflows like automated issue triage, weekly repository syncs, and scheduled PR reviews to run unattended.
+Connecting skills to loops would enable workflows like automated issue triage, weekly repository syncs, and scheduled PR reviews to run unattended.
 
 **Explore routines, habits, and event-driven skill triggering.**
 Beyond loops, I want to investigate routines and event-driven triggers that fire skills when the right conditions occur.
-As the skill library grows past 130 skills, some are never used simply because nothing is wired to invoke them.
-Connecting those skills to the right trigger or schedule would unlock work that currently goes undone.
+As the skill library grows past 130 skills, some are never used simply because nothing is set up to invoke them.
+Connecting those skills to the right trigger or schedule would enable work that currently goes undone.
 
 **Improve the SDLC status report.**
 As I work on large features, iterating involves back and forth between SDLC stages that requires changes to be backported and then forward propagated.

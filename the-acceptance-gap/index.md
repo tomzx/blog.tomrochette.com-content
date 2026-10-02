@@ -4,7 +4,7 @@ title: "The Acceptance Gap: Why an LLM Solution Is Not a Shipped Solution"
 created: 2026-07-03
 type: post
 status: finished
-tags: [ai, software-engineering, llm, verification, taste, specification, fully-ai-generated, llm=glm-5.2, llm=glm-5.3]
+tags: [ai, software-engineering, llm, verification, taste, specification, fully-ai-generated, llm=glm-5.2, llm=glm-5.3, llm=deepseek-v4.1-flash]
 readability: 3
 audience_notes: >
   Assumes the reader is a technical practitioner who already uses LLM coding agents and has felt the moment where the model says "done" and the work is clearly not done. No explanation of what an LLM is.
@@ -51,9 +51,9 @@ Sometimes it fixes nothing at all, and merely rearranges the code into something
 
 The model cannot tell me which of those happened, because the model has no access to the ground truth that would let it verify its own claim.
 It optimized for "a plausible fix," not for "a verified fix."
-**Its confidence is not evidence, and nothing in the tone of the output distinguishes a real fix from a convincing one.**
+**Its confidence is not evidence, and nothing in the tone of the output distinguishes a genuine fix from a convincing one.**
 
-This is the dangerous kind of failure, which testers have always called the [oracle problem](https://en.wikipedia.org/wiki/Oracle_(software_testing)): without an independent way to decide what the correct output is, you cannot tell that a plausible output is wrong.
+This silent failure is the dangerous kind, which testers have always called the [oracle problem](https://en.wikipedia.org/wiki/Oracle_(software_testing)): without an independent way to decide what the correct output is, you cannot tell that a plausible output is wrong.
 The model has the problem in its most acute form, because it is both the thing producing the answer and the thing narrating why the answer is right.
 The narrator is not independent of the guess.
 
@@ -74,7 +74,7 @@ The expectation about a default.
 The sense that this control belongs here and not there, that the empty state should say this and not that, that the feature is finished when it feels light rather than heavy.
 
 I did not write any of that down, because I did not know I wanted it until I saw the result that lacked it.
-This is the nature of subjective requirements: they are discovered by contact with the artifact, not enumerated in advance.
+Subjective requirements work this way: they are discovered by contact with the artifact, not enumerated in advance.
 **A specification can carry the objective part of what you want; it cannot carry the taste, because the taste is a reaction you have not had yet.**
 
 So the loop for features is not "verify," it is "try."
@@ -99,7 +99,7 @@ The model can guess at it from my description, but it cannot feel it.
 In both cases the model can generate candidates freely, and in both cases it cannot sign off on them.
 **Signing off requires exactly the external information that was never in the prompt, which is why no amount of rephrasing the prompt closes the gap.**
 
-This is the same pattern I described in [The Shifting Bottleneck](../the-shifting-bottleneck/index.md): automating a layer does not remove the layer, it moves the constraint to the layer above it.
+This situation follows the same pattern I described in [The Shifting Bottleneck](../the-shifting-bottleneck/index.md): automating a layer does not remove the layer, it moves the constraint to the layer above it.
 Here the automated layer is generation, and the layer above it is acceptance.
 The work did not go away.
 It turned into deciding whether the generated thing is good enough.
@@ -116,14 +116,14 @@ A property the output must satisfy, stated before the fix is written.
 Once the check exists, the model can run it, and its claim of "fixed" becomes trustworthy only when the check agrees.
 The bug gap shrinks to exactly the set of bugs for which I have not yet written a check.
 
-This is [test-driven development](https://en.wikipedia.org/wiki/Test-driven_development), rediscovered as the answer to "why don't I trust the model's fix."
+This practice is [test-driven development](https://en.wikipedia.org/wiki/Test-driven_development), rediscovered as the answer to "why don't I trust the model's fix."
 The discipline is to write the check before, or alongside, the fix, not after.
 A bug fixed without a check is a bug I will have to verify by hand, forever, because nothing is keeping it fixed.
 A bug fixed with a check stays fixed, because the check fails loudly if the bug regresses, whether or not I am looking.
 
 The feature gap is not closeable the same way, and this is the uncomfortable part.
 I cannot write a test for "this feels right," because I do not know the specification of my own taste until I see the result.
-[Exploratory testing](https://en.wikipedia.org/wiki/Exploratory_testing) and [specification by example](https://en.wikipedia.org/wiki/Specification_by_example) help me surface more of what I want, but they cannot surface all of it, because the residual is a reaction, not a requirement.
+[Exploratory testing](https://en.wikipedia.org/wiki/Exploratory_testing) and [specification by example](https://en.wikipedia.org/wiki/Specification_by_example) help me identify more of what I want, but they cannot identify all of it, because the residual is a reaction, not a requirement.
 The feature gap closes only through iteration, and the terminal condition is a human saying "good enough, ship it."
 
 There is no encoding that removes the human from the feature loop, because the human's reaction is the signal the loop is measuring.
@@ -140,7 +140,7 @@ The question was whether the spec was the right spec, and no test answers that.
 
 Treat the verification gap as a taste problem, and you manually re-check, by hand, things the model could have checked for itself.
 You read a diff looking for whether the bug is really fixed, applying your eyes as a slow and unreliable [oracle](https://en.wikipedia.org/wiki/Oracle_(software_testing)), when a failing test would have answered in a second and answered the same way every time.
-**You burn the attention you should have been spending on taste on work the model could have done for you.**
+**You waste on work the model could have done for you attention you should have spent on taste.**
 
 The split is sharp once you see it.
 If the gap is "did it do the thing," that is a check, and the move is to encode the check so the model runs it without you.
@@ -159,7 +159,7 @@ The check is the thing that makes delegation safe.
 
 The feature pile gets a fast iteration loop.
 Cut anything that slows down the try-it-and-react cycle, because the cost of a feature is no longer the cost of building it, it is the cost of the number of tries it takes to match your taste.
-A model that builds cheaply makes many tries affordable, and that is the real lever.
+A model that builds cheaply makes many tries affordable, and that is what matters.
 
 Leave the "is this good enough to ship" judgment to yourself.
 **Generation is no longer the bottleneck, and neither, soon, is verification, once you encode it. The bottleneck is acceptance, and the half of acceptance that is taste is the last compounding thing you do.**

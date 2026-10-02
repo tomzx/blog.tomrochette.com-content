@@ -4,7 +4,7 @@ title: "The Pull Request Queue Outgrew You: A Triage Layer for Open Source Maint
 created: 2026-06-30
 type: post
 status: finished
-tags: [open-source, software-engineering, code-review, pull-request, llm, automation, github-actions, productivity, fully-ai-generated, llm=glm-5.2, llm=glm-5.3]
+tags: [open-source, software-engineering, code-review, pull-request, llm, automation, github-actions, productivity, fully-ai-generated, llm=glm-5.2, llm=glm-5.3, llm=deepseek-v4.1-flash]
 readability: 3
 audience_notes: >
   Assumes the reader maintains or co-maintains an open source repository, has dealt with a pull request backlog, and is comfortable with GitHub Actions, branch protection, and the basics of prompting an LLM. No introduction to what a pull request or an LLM is.
@@ -19,24 +19,24 @@ Open source always had a queue problem.
 For most of its history the threat was volume: more pull requests than a maintainer could read, arriving faster than one unpaid person could clear.
 **The pull request queue scales with the project's popularity, and a single maintainer's attention does not scale with anything at all.**
 
-That is still true, and it is no longer the worst of it.
+The volume threat is still present, and it is no longer the worst of it.
 The character of the queue changed.
 More than one in five code reviews on GitHub now [involve an agent](https://github.blog/ai-and-ml/generative-ai/agent-pull-requests-are-everywhere-heres-how-to-review-them/), and Copilot's automated review alone has run more than sixty million times, growing tenfold in under a year, so the machine-generated pull request is no longer a fringe of the queue.
-It is becoming the norm, and a machine-generated pull request is a different kind of problem than a human one.
+The machine-generated pull request is becoming the norm, and it is a different kind of problem than a human one.
 It looks correct, because plausibility is exactly what a language model optimizes for, and it may be subtly, uniformly wrong in ways that read as confident and clean.
 There is usually no author who thought about each line, so there is no intent for you to leverage as context, only output you have to verify from scratch.
 And almost never does the contributor tell you which model produced the code, what prompt generated it, or whether a human ever read it before it landed in your queue.
 **The flood is not just bigger now.
-It is full of plausible code with no provenance, and plausible, unprovenanced code is the hardest thing in the world to triage by reading it.**
+The flood is full of plausible code with no provenance, and plausible, unprovenanced code is the hardest thing to triage by reading it.**
 
 The instinct of a responsible maintainer is to read every pull request, carefully, and reply thoughtfully.
 That instinct is exactly what kills the project.
-Every half-hour spent reverse-engineering an AI-generated PR that looks reasonable until the third function is a half-hour not spent on the architectural change that keeps the library alive.
+Every half-hour spent reverse-engineering an AI-generated PR that looks reasonable until the third function is a half-hour not spent on the architectural change that keeps the library maintained.
 The queue grows while you sleep, and while you are polite, and while you are giving a stranger's model the benefit of the doubt.
 
 You cannot review your way out of this, for the same reason a team engineer cannot: [per-unit review scales linearly with your hours, and the entropy is produced faster than you can read it](../the-codebase-gardener/index.md).
 The difference is that on a team you can hire.
-In open source, you are usually alone, unpaid, and tired, and the code you are being asked to vet no longer carries the reasoning of the person who submitted it.
+In open source, you are usually alone, unpaid, and tired, and the code you are being asked to vet no longer contains the reasoning of the person who submitted it.
 **The only way out is to stop reviewing everything and start triaging everything, so that your scarce attention lands only on the pull requests that deserve it.**
 
 ## Triage Before Review
@@ -44,7 +44,7 @@ In open source, you are usually alone, unpaid, and tired, and the code you are b
 Review answers the question, "is this code correct?"
 Triage answers a cheaper question that comes first: "does this pull request deserve my attention at all, and if so, how much?"
 
-Most maintainers fuse the two.
+Most maintainers combine the two.
 They open a pull request, start reading the diff, and only then discover that it is stale, that it conflicts with main, that it has no tests, that it touches a file nobody asked it to touch, or that it is the fourth duplicate of a request they already declined.
 Every one of those discoveries was free to make before reading a single line of code, and making them up front is the entire difference between a queue you manage and a queue that manages you.
 
@@ -71,16 +71,16 @@ You could trust that the choices in the diff were deliberate, even imperfect one
 The code is the output of a pattern-matching process, internally coherent, consistent with nothing around it, and wrong about the domain in ways that look exactly like correctness.
 This is the argument from [Rethinking Code Review in the Age of LLMs](../rethinking-code-review-in-the-age-of-llms/index.md), and it lands hardest in open source, where the reviewer and the "author" have never spoken.
 
-What makes this crisis specific is the provenance gap.
+What makes the current crisis distinct is the provenance gap.
 Contributors almost never disclose that the code is generated, let alone which model generated it, what prompt produced it, or whether a human checked the output before opening the pull request.
 Without provenance, you cannot assess risk.
 A fifty-line patch from a contributor who tested it by hand and a fifty-line patch a model hallucinated in three seconds look identical in the diff, and the diff is all you have.
 **Plausible code with no origin story is the default input now, and it forces a worst-case assumption on every pull request: treat it as unverified until something proves otherwise.**
 
-The 2026 data shows how invisible this is by default.
+The 2026 data shows how invisible the provenance gap is by default.
 A census of 180 million repositories found that the obvious signal, a bot account, [recovers only about three percent](https://arxiv.org/abs/2606.24429) of the commits AI coding agents actually produced, so the overwhelming majority of machine-generated code reaches you with no detectable fingerprint.
 And the studies that watched what reviewers did with it found the same pattern: agent-generated pull requests carry [more redundancy and technical debt](https://arxiv.org/abs/2601.21276) than human ones, yet reviewers express more positive sentiment toward them, and the majority of AI-coauthored pull requests [merge with no explicit human review at all](https://arxiv.org/abs/2601.13754).
-Plausibility is doing exactly the work of hiding the problem.
+Plausibility is what hides the problem.
 
 The implication for triage is concrete.
 First, the durable defense against plausible code is not a sharper opinion but a machine-checkable gate, because opinion-based review loses against code that was designed to look right.
@@ -95,7 +95,7 @@ The first tier of triage is pure logistics, and all of it is solved.
 You should not be tracking any of this by hand, and in 2026 you increasingly do not even have to build it yourself.
 The most consequential shift is that GitHub started shipping these gates at the platform level, because the flood crossed a threshold unpaid maintainers could not hold: per-user caps on open pull requests, pull-request archiving, and ["smarter bypass" signals](https://github.blog/open-source/maintainers/how-pull-request-limits-are-cutting-down-the-noise/) based on account age and merge history.
 The stated rationale is the one this article rests on: the [cost to create a change has fallen below the cost to review it](https://github.blog/open-source/maintainers/welcome-to-the-eternal-september-of-open-source-heres-what-we-plan-to-do-for-maintainers/).
-When the host carries the load, your job narrows to the gates the platform cannot generalize.
+When the host handles the load, your job narrows to the gates the platform cannot generalize.
 
 **Mark and close the stale, on a clock that forces a decision.**
 A pull request that has had no activity for twenty-eight days is not waiting for you.
@@ -133,13 +133,13 @@ A review comment is a standard you enforce only when you are awake.
 A failing check is a standard that runs forever.
 
 **Gate at the trust boundary, before the diff.**
-The bluntest triage signal is whether you have any reason to trust the contributor at all, and in 2026 the canonical implementation of that idea is [mitchellh/vouch](https://github.com/mitchellh/vouch), built for the Ghostty terminal against a wave of AI slop.
-It auto-closes pull requests from unvouched contributors and routes them through a vouching issue, so the queue you actually read is the queue from people who have earned a hearing.
-It is a strong filter, and a truthful one to use carefully: the cost is friction for legitimate newcomers, which is why the vouching path has to be a real door, not a wall.
+The bluntest triage signal is whether you have any reason to trust the contributor at all, and in 2026 the canonical implementation of that idea is [mitchellh/vouch](https://github.com/mitchellh/vouch), built for the Ghostty terminal against a large volume of AI-generated pull requests.
+It auto-closes pull requests from unvouched contributors and routes them through a vouching issue, so the queue you actually read is the queue from people who have been vouched for.
+It is a strong filter, and a truthful one to use carefully: the cost is friction for legitimate newcomers, which is why the vouching path has to let legitimate newcomers through, not block them.
 
 Each of these is a small automation, and none of them review code.
 Together they collapse the queue from "everything that arrived" to "everything that is ready, relevant, and sized."
-That is most of the battle, and it cost you zero hours of reading diffs.
+That handles most of the work, and it cost you zero hours of reading diffs.
 
 ## Demand Provenance
 
@@ -167,9 +167,9 @@ An `ai-generated` patch with no model disclosed and no linked issue starts one g
 Be explicit that disclosure is not a penalty.
 The penalty is discovery, when you eventually realize a PR was generated and the contributor hid it, because at that point the trust that makes open source work is gone and the PR is closed on principle.
 Disclosure is what lets a generated contribution compete for your attention on its merits.
-Concealment is what makes every generated contribution read as an attempt to slip something past you.
+Concealment is what makes every generated contribution read as an attempt to hide something from you.
 
-One caution, because the obvious next step is to reach for cryptographic attestation: signed provenance is not the same as trustworthy provenance.
+One caution, because the obvious next step is to use cryptographic attestation: signed provenance is not the same as trustworthy provenance.
 In 2026, [cryptographically valid supply-chain attestations were produced for malicious packages](https://openssf.org/blog/2026/06/10/mini-shai-hulud-where-slsas-boundaries-fall/), which means a signature confirms a chain of custody, not that the code is safe.
 Demand disclosure, but verify the code on its own terms, not on the strength of the attestation alone.
 
@@ -234,7 +234,7 @@ Recursive self-training studies show that an AI reviewer gating its own output [
 The one direct measurement of the effect found that heterogeneous pairs, a Claude reviewer over Codex output, [flag a defect sixty-nine percent of the time](https://arxiv.org/abs/2606.14445), where homogeneous pairs flag it only fifty-three percent of the time.
 Same-family agreement is measurably weaker than cross-family agreement, which is the empirical form of the warning above.
 
-This is why provenance matters at the review layer as well: feed the disclosed model and prompt into the reviewer's context so it can target the failure modes that model is known for, rather than re-reading the diff through the same lens that produced it.
+This is why provenance matters at the review layer as well: feed the disclosed model and prompt into the reviewer's context so it can target the failure modes that model is known for, rather than re-reading the diff from the same perspective that produced it.
 And it is why, for `ai-generated` pull requests, you must discount the confidence score and default toward `needs-human-review` unless the change is independently verified by something that does not share the blind spot: a passing test, a type checker, a reproducible build, a specification the code is checked against.
 **The LLM review is one signal in the triage layer, never the only one, and against generated code its job is to surface hypotheses for a human or a gate to confirm, not to pronounce the code correct.**
 
@@ -242,16 +242,16 @@ Calibrate by reviewing the reviewer.
 For your first month, read the LLM's review on every pull request you also review yourself, and keep a tally of where it was right, where it was wrong, and where it missed something you caught.
 That tally tells you which criteria to strengthen in the prompt and which labels to distrust.
 An uncalibrated LLM gate is a liability.
-A calibrated one is a second pair of eyes that never gets tired, and that gets more accurate every time you adjust the criteria.
+A calibrated one is an extra reviewer that never tires, and that gets more accurate every time you adjust the criteria.
 
 Post the rationale, not just the label.
 Have the action leave the summary and findings as a comment on the pull request.
-The contributor sees what was flagged, the maintainer sees why a label was applied, and the verdict is auditable rather than a black box.
-Transparency is what keeps an automated review from feeling like a gatekeeping robot, and it is what lets a contributor fix the problem before you ever have to look.
+The contributor sees what was flagged, the maintainer sees why a label was applied, and the verdict is auditable rather than opaque.
+Transparency is what keeps an automated review from feeling arbitrary, and it is what lets a contributor fix the problem before you ever have to look.
 
 ## Route by Risk, Not by Arrival
 
-Once the triage layer is producing labels, the routing writes itself, and it should match the risk profile of each change rather than the order it was submitted.
+Once the triage layer is producing labels, the routing follows directly, and it should match the risk profile of each change rather than the order it was submitted.
 The tiering is no longer theoretical: the production system cited above classifies every change into trivial, lite, or full tiers and [spends twenty cents of review on a typo fix](https://blog.cloudflare.com/ai-code-review/) where it spends a dollar sixty-eight on a sprawling one, because the gate a change deserves is a function of its blast radius, not its existence.
 
 Low risk, high confidence, small, passing tests: auto-merge on green, or batch them into a single weekly pass where you glance and click.
@@ -261,8 +261,8 @@ First-time contributor: prioritize the response, because the speed of your first
 Conflicting: invisible until rebased.
 Stale: closed.
 
-Within the human-review queue, attack the oldest first.
-A pull request that has waited the longest is the one closest to going stale, and clearing it, by merging or by closing, is what keeps the queue from accumulating a tail that nobody will ever reach, so weight your attention toward age, not toward whatever happened to land on top today.
+Within the human-review queue, start with the oldest first.
+A pull request that has waited the longest is the one closest to going stale, and clearing it, by merging or by closing, is what keeps the queue from accumulating old pull requests that nobody will ever get to, so weight your attention toward age, not toward whatever arrived most recently.
 
 This is the open source version of the argument from [The Merge Gate](../the-merge-gate/index.md): treating every pull request as needing the same gate is a failure to think about risk, and most pull requests do not need a human at all.
 **The maintainer who wins is not the one who reads the most diffs.
@@ -270,7 +270,7 @@ The maintainer who wins is the one whose queue has been pre-sorted so that the d
 
 ## The Contributor Relationship Is the Hidden Triage
 
-There is a layer underneath all of this, and it is the one maintainers most often neglect, because it is not technical.
+There is a layer underneath the triage setup, and it is the one maintainers most often neglect, because it is not technical.
 Most of the pain of an overflowing queue is not the code.
 It is the guilt of unanswered contributors, the dread of opening the tab, and the slow resentment of work that is supposed to be voluntary but has started to feel like a debt.
 
@@ -284,13 +284,13 @@ State it, link it in every template, and let the automation reinforce it.
 
 The economics underneath this are shifting, slowly.
 The clearest 2026 voice on maintainer sustainability argues that the polite channels, sponsorship and pledge drives, have [failed](https://ossresistance.com/), and that maintainers should take open source work on company time rather than donate their evenings, because attention donated after hours is attention that does not scale.
-The funding is real but thin: sovereign and industry programs disbursed millions to individual projects this year, with a sovereign fund investing [over a million euros in a single project](https://www.theregister.com/oses/2026/05/14/kde-bags-13m-as-europe-realizes-it-might-need-an-os-of-its-own/5240562/) and the [open source pledge](https://opensourcepledge.com/) setting a two-thousand-dollar-per-engineer floor, yet no 2026 survey has measured whether maintainer burnout actually fell.
-Treat the automation and the expectations as the structure that carries the weight, and the funding as the still-insufficient subsidy.
+The funding is present but thin: sovereign and industry programs disbursed millions to individual projects this year, with a sovereign fund investing [over a million euros in a single project](https://www.theregister.com/oses/2026/05/14/kde-bags-13m-as-europe-realizes-it-might-need-an-os-of-its-own/5240562/) and the [open source pledge](https://opensourcepledge.com/) setting a two-thousand-dollar-per-engineer floor, yet no 2026 survey has measured whether maintainer burnout actually fell.
+Treat the automation and the expectations as the primary means of managing the queue, and the funding as the still-insufficient subsidy.
 
 And learn to close fast.
 A fast, clear "no, and here is why" is a gift.
 It respects the contributor's time, it keeps the queue fair, and it is almost always kinder than a silence that stretches into a year.
-The maintainer's fear of seeming ungrateful is what swells the queue past recoverability.
+The maintainer's fear of seeming ungrateful is what grows the queue beyond recovery.
 A no is not ungrateful.
 A no is an answer, and an answer is all a contributor is waiting for.
 
@@ -309,11 +309,11 @@ Then, and only then, wire in the LLM first-pass review.
 Start it in shadow mode, posting its summary as a comment without applying any labels, and read along with it for a month.
 When you trust its risk and confidence calls, turn the labels on.
 When you trust the labels, let the lowest-risk, highest-confidence, smallest changes merge on green.
-Each step is a slice of attention you stop spending by hand and start spending on the pull requests that actually need a human.
+Each step is attention you stop spending by hand and start spending on the pull requests that actually need a human.
 
 A sustainable open source project is not one where the maintainer reads everything.
 It is one where the maintainer has built a triage layer good enough that almost nothing needs to reach them unread, and what does reach them is exactly what was worth their time.
-Build that, one automation at a time, and the queue stops being the thing that owns you.
+Build that, one automation at a time, and the queue stops controlling your schedule.
 
 ## See also
 

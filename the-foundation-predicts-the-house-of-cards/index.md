@@ -4,7 +4,7 @@ title: "Team Maturity Explains the Friction, the Foundation Predicts the House o
 created: 2026-06-30
 type: post
 status: finished
-tags: [ai, software-engineering, llm, team-management, productivity, devops, fully-ai-generated, llm=glm-5.2, llm=glm-5.3]
+tags: [ai, software-engineering, llm, team-management, productivity, devops, fully-ai-generated, llm=glm-5.2, llm=glm-5.3, llm=deepseek-v4.1-flash]
 readability: 3
 audience_notes: >
   Assumes the reader is an engineering lead, tech lead, or senior engineer whose team already uses LLM coding tools and who is trying to understand why peer teams get very different results from the same tools.
@@ -35,7 +35,7 @@ It is a house of cards being shuffled quickly, and the cost arrives as [rework](
 LLMs increase the throughput axis for free.
 They do nothing for the stability axis unless your engineering system is built to hold them accountable.
 **So the whole question of which teams ship effectively with LLMs collapses into a narrower one: which teams can absorb the throughput multiplier without their stability metrics collapsing?**
-That is a property of the team and a property of the code, and the team part is only half of it.
+That is a property of the team and a property of the code, and the team part is only half of the problem.
 
 ## Why Tuckman Explains So Much of the Adoption Gap
 
@@ -46,12 +46,12 @@ Its members have already negotiated how decisions get made, so "which code revie
 Its conventions are settled and shared, so when an engineer introduces a prompt template or a skill, the rest of the team can tell whether it fits the way they already work.
 It has the psychological safety that [Project Aristotle](https://rework.withgoogle.com/print/guides/5727380657274880/) identified as the strongest predictor of team effectiveness, which means an engineer can say "the model's output is wrong here and I do not understand why" without that admission costing them status.
 
-A team still in forming or storming has none of these assets, and so it pays the adoption tax on every change.
+A team still in forming or storming has none of these assets, and so it pays the cost of adoption on every change.
 As I argued in [When Engineers Disagree on Best Practices](../when-engineers-disagree-on-best-practices/index.md), a team that has not yet built a repeatable process for resolving disagreements will relitigate the same practice debate over and over, and the debate is rarely about the practice.
 It is a proxy for unresolved questions about whose judgment the team trusts.
 LLM adoption surfaces a dozen of these questions at once, because it touches review, testing, specification, ownership, and onboarding simultaneously.
-A performing team processes all of that in the background.
-A storming team drowns in it.
+A performing team processes all those questions in the background.
+A storming team is overwhelmed by all of them.
 
 So if your observation is "some teams picked up the new AI workflows easily and others fought about it for two quarters," Tuckman is very likely your explanation.
 **Team maturity is the dominant predictor of adoption friction, and adoption friction is the dominant predictor of whether a team even gets to the starting line.**
@@ -80,9 +80,9 @@ Everything else in the foundation eventually feeds into one of these two.
 #### Verification is the throttle
 
 Once code writes itself, the bottleneck moves to checking whether the code is correct, and that move is the central claim of [The Shifting Bottleneck](../the-shifting-bottleneck/index.md).
-Verification is where the stability axis lives, and it is why two teams with identical throughput can have radically different change failure rates.
+Verification is where the stability axis lives, and verification is why two teams with identical throughput can have radically different change failure rates.
 
-The team with a fast, trustworthy test suite, a CI pipeline that catches real regressions, and a short feedback loop can let the model generate aggressively, because it can verify cheaply.
+The team with a fast, trustworthy test suite, a CI pipeline that catches actual regressions, and a short feedback loop can let the model generate aggressively, because it can verify cheaply.
 Every generation is a hypothesis and the test suite is the experiment, and the cost of a wrong generation is seconds.
 The team that verifies by reading the diff, or by running the feature once in a staging environment, cannot afford to let the model run.
 It hits a ceiling where the human reviewer becomes the bottleneck, and either it slows down to stay safe or it speeds up and ships unverified code.
@@ -100,7 +100,7 @@ A clean, well-factored codebase with clear naming, consistent patterns, and a si
 A tangled codebase with five competing styles, dead abstractions, and comments that contradict the code is terrible context, and the model faithfully extends the mess.
 As I argued in [The Importance of Context When Interacting with LLMs](../the-importance-of-context-when-interacting-with-llms/index.md), the context is the entire mechanism by which a frozen set of weights produces behavior relevant to your situation, and the codebase is the part of the context you control.
 
-This is why the same model, the same prompt, and the same engineer produce different quality output on different codebases.
+The codebase context is why the same model, the same prompt, and the same engineer produce different quality output on different codebases.
 The codebase is doing most of the work, and a codebase that is already a house of cards is a context that asks the model to build more cards.
 **You cannot hand an LLM a weak codebase and get back a strong one; you get back more weak code.**
 The teams shipping safely are, more often than they realize, the teams whose codebase was already safe to extend, and the LLM is merely making that pre-existing health visible at higher speed.
@@ -110,7 +110,7 @@ The teams shipping safely are, more often than they realize, the teams whose cod
 The next four factors do not replace the first two.
 They decide how much wrong output the verification layer has to catch, and how high the ceiling on the best possible generation sits.
 A team that is strong here and weak on verification still ships a house of cards, just a slightly smaller one.
-A team that is weak here and strong on verification stays safe, but slowly, because its loop drowns in bad output it has to reject.
+A team that is weak here and strong on verification stays safe, but slowly, because its loop has to reject so much bad output.
 
 #### Specification discipline separates amplifiers from noise
 
@@ -119,22 +119,22 @@ This is specification, and it is the skill that [Software Engineering Teams in t
 
 A team that writes a precise specification before it prompts, one that defines what done means, which invariants must hold, and which edge cases matter, gets an LLM that behaves like an effective pair programmer.
 A team that prompts first and specifies never gets a hallucination engine that produces plausible code solving the wrong problem, and the wrongness is often invisible until production.
-Specification is also where the human bottleneck genuinely lives now, because writing a precise spec is hard cognitive work that the model cannot do for you until you have done the thinking it depends on.
+Specification is also where the human bottleneck lives now, because writing a precise spec is hard cognitive work that the model cannot do for you until you have done the thinking it depends on.
 **Teams that institutionalize specification, through templates, through review of the spec before the implementation, through a skill that enforces the steps, pull away from teams that treat the prompt as the spec, and they pull away fast.**
 
 #### Conventions have to be written down to be inherited
 
 A performing team has settled conventions, and that is exactly what makes the team mature.
 But settled conventions that live only inside the senior engineers' heads are invisible to two important workers: the new hire, and the LLM.
-Neither of them received the osmosis.
+Neither of them absorbed the conventions by exposure.
 
 The teams that ship consistent, safe output at scale are the ones that have externalized their conventions into a form the model actually reads.
 That means lint rules the CI enforces, architecture decision records that capture why a choice was made, contribution guides that name the patterns to reuse, and, most powerfully, [skills](../bringing-everyone-to-the-same-level/index.md) that encode a team's process as executable steps the agent follows on every run.
 A convention in a head is advice the model will ignore.
 A convention in a skill or a lint rule is a constraint the model has to satisfy.
 
-This is the mechanism by which a mature team scales its maturity into the model.
-A storming team that somehow wrote its conventions down would get more out of the LLM than a performing team that left them tacit, which is a real inversion and a useful diagnostic.
+Externalizing conventions is the mechanism by which a mature team scales its maturity into the model.
+A storming team that somehow wrote its conventions down would get more out of the LLM than a performing team that left them tacit, which is a genuine inversion and a useful diagnostic.
 **If your team is mature and your LLM output is still inconsistent, the conventions are probably in the wrong place.**
 They are in people, and they need to be in files.
 
@@ -149,7 +149,7 @@ As [Rethinking Code Review in the Age of LLMs](../rethinking-code-review-in-the-
 **For the purpose of shipping without a house of cards, specification is the structural lever, and review is the non-compounding backstop behind it.**
 
 The backstop still has a job, but it is narrower than the one review used to claim.
-With generated code the reviewer is the only brain in the loop, so a light, intent-focused check still catches the occasional wrong assumption before it ships.
+With generated code the reviewer provides the only judgment in the loop, so a light, intent-focused check still catches the occasional wrong assumption before it ships.
 What it does not do is scale.
 If the model produces ten changes a day, ten hours of human review is not a process that survives, and the right response to a repeated class of review comment is to encode it as an automated gate so it never depends on a human noticing again.
 The teams that ship safely let the model handle style, keep a thin intent check as the backstop, and spend the freed review hours writing better specifications.
@@ -165,7 +165,7 @@ A team with deep domain ownership extends its system coherently.
 A team spread thin across too many concerns generates five services where one would do, and each of them is a card.
 
 On the second judgment, cheap implementation makes overbuilding the default temptation.
-Every generated feature is surface area for bugs, cognitive load, and future constraints, and the cost of maintaining a feature never approached zero the way the cost of writing it did.
+Every generated feature adds opportunities for bugs, cognitive load, and future constraints, and the cost of maintaining a feature never approached zero the way the cost of writing it did.
 The team with the discipline to say "we do not need this, ship the smaller thing" survives longer than the team that ships everything the model can draft, and that discipline is a product judgment that maturity does not produce on its own.
 It comes from somewhere else, usually from someone in the room who has seen the cost of feature bloat before and is willing to push back against it.
 
@@ -212,10 +212,10 @@ The spec is the highest-leverage artifact in the pipeline now, and the team that
 
 The teams that win this era are easy to misread.
 They look like the most mature teams, and they often are mature, but the maturity is doing a specific job.
-It is letting them adopt new practices without bleeding energy, so that they can spend that energy on the foundation that actually decides whether the software stands up.
+It is letting them adopt new practices without wasting energy, so that they can spend that energy on the foundation that actually decides whether the software stands up.
 
 Maturity is how you remove the friction of getting started.
-The codebase, the tests, the specifications, the written conventions, and the intent-level review are how you keep the result from collapsing under its own weight.
+The codebase, the tests, the specifications, the written conventions, and the intent-level review are how you keep the result from collapsing as it grows.
 **Study your teams, because Tuckman will tell you a lot.**
 **Then study the code they are standing on, because that is what determines whether the velocity they have earned is velocity they get to keep.**
 
