@@ -1,17 +1,17 @@
 ---
 title: "Model Benchmark Matrix"
 created: 2026-09-24
-updated: 2026-09-29
+updated: 2026-10-02
 status: finished
-tags: [agent-curated, fully-ai-generated, llm=glm-5.3-flash, comparison, benchmarks, evaluation, model-selection]
+tags: [agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=deepseek-v4.1-flash, comparison, benchmarks, evaluation, model-selection]
 readability: 3
 audience_notes: >
   Engineers scanning model cards and leaderboards to pick a model for coding, agent, or long-context work.
   Assumes you know what pass@1, a fail-to-pass test, and an agentic harness are; each row links the benchmark's own site or paper.
 ---
 
-This matrix indexes the model benchmarks an engineer actually meets on model cards, vendor blogs, and leaderboards, as of 2026-09-24, with one or two sentences per benchmark on what it evaluates and a note on how far I trust the reading.
-It covers thirty-two benchmarks.
+This matrix indexes the model benchmarks an engineer actually meets on model cards, vendor blogs, and leaderboards, as of 2026-10-02, with one or two sentences per benchmark on what it evaluates and a note on how far I trust the reading.
+It covers thirty-three benchmarks.
 The curation rule: each board has an official site or paper I fetched this run, publishes results someone other than the submitter can check, and appears in recent model comparisons.
 That rule excludes the harness benchmarks ([FrontierHarness Eval](../evaluation-review/frontierharness-eval/index.md) and [HarnessTax](../evaluation-review/harnesstax/index.md)), which hold the model constant and judge the harness instead, and decision-model boards like [JevBench](../hybrid-execution/jevbench/index.md), which live in their own category.
 
@@ -69,6 +69,7 @@ That rule excludes the harness benchmarks ([FrontierHarness Eval](../evaluation-
 | --- | --- | --- |
 | [AIME 2025](https://huggingface.co/datasets/math-ai/aime25) | The 30 American Invitational Mathematics Examination problems from 2025, whose integer answers make grading exact. | Fast, clean, and effectively saturated at the frontier, useful mainly as a floor check. |
 | [FrontierMath](https://epoch.ai/frontiermath/) | Several hundred unpublished problems authored by mathematicians across difficulty Tiers 1-4 (Tier 4 is research-level), now alongside Open Problems and Lean-formalized Erdős problems. | Epoch AI's unsaturated math board, the one that still separates frontier models in 2026. |
+| [Lean eval](https://lean-lang.org/eval/) | Comparator-checked Lean formalization problems across mathematics, software verification, and open problems, where a submission is accepted only if the comparator proof checker, replayed through the independent nanoda kernel in a sandbox, accepts it. | The only board here whose judge is a machine proof checker rather than a rubric or a human, and the [automated-research](../automated-research/_index.md) category covers the agents producing those proofs; it is submission-based, so ranks reflect what participants submitted under one model name, not every model run on every problem. |
 | [MATH-500](https://huggingface.co/datasets/HuggingFaceH4/MATH-500) | A 500-problem slice of the Hendrycks MATH test set spanning seven subjects and five difficulty levels with verifiable answers. | The quick comparable math signal most reasoning-model evals standardized on, above competition level but below AIME difficulty at the top end. |
 
 ## Context, instructions, and preference
@@ -91,7 +92,7 @@ The healthy boards are the ones built against decay: LiveCodeBench and SWE-reben
 
 **Saturation, not difficulty, is what retires a board.**
 HumanEval at 90 percent+ tells you a model is competent, not which model to pick.
-The still-discriminating set as of 2026-09-24 is small: SWE-bench Pro, ProgramBench, PaperBench, FrontierMath, ARC-AGI-2, HLE, and the agentic environment boards (OSWorld, GAIA, Terminal-Bench).
+The still-discriminating set as of 2026-10-02 is small: SWE-bench Pro, ProgramBench, PaperBench, FrontierMath, Lean eval, ARC-AGI-2, HLE, and the agentic environment boards (OSWorld, GAIA, Terminal-Bench).
 
 **Boards disagree on purpose, and that disagreement is the signal.**
 GAIA says average tasks are nearly solved, SWE-bench Pro says hard repo work is not, and both are true because they sample different difficulty distributions.
@@ -111,6 +112,7 @@ When two boards rank the same models differently, the gap tells you where the mo
 - 2026-09-24 - Created on owner request with thirty benchmarks in six groups, each summarized in one or two sentences, every cited external URL fetched this run.
 - 2026-09-24 - Extended the ARC-AGI coverage from one row to three, adding ARC-AGI-1 (saturated history) and ARC-AGI-3 (interactive reasoning) after the owner asked whether the series was fully covered.
 - 2026-09-29 - Link check: repointed SWE-bench Pro to labs.scale.com/leaderboard/swe_bench_pro and OSWorld to osworld-v1.xlang.ai after their old URLs began redirecting; every other cited board fetched 200.
+- 2026-10-02 - Added the Lean eval formalization benchmark (comparator-checked, submission-based leaderboard) to the Math group and linked the automated-research category producing those proofs, moving the count to thirty-three and the intro as-of date to today.
 
 ## See also
 
@@ -150,6 +152,8 @@ When two boards rank the same models differently, the gap tells you where the mo
 - https://huggingface.co/datasets/math-ai/aime25 - the AIME 2025 problem set with exact integer answers (fetched 2026-09-24)
 - https://huggingface.co/datasets/HuggingFaceH4/MATH-500 - MATH-500's subject and level structure (fetched 2026-09-24)
 - https://epoch.ai/frontiermath/ - FrontierMath's tiers, unpublished problems, Open Problems and Erdős components (fetched 2026-09-24)
+- https://lean-lang.org/eval/ - Lean eval's comparator-checked formalization benchmark, submission-based leaderboard, and the stated Aristotle handicap (fetched 2026-10-02)
+- https://github.com/leanprover/lean-eval - the Apache-2.0 benchmark repo and its comparator/landrun/nanoda trust chain, plus the v1 selection audit of 299 catalog problems and 1,281 accepted result records (fetched 2026-10-02)
 - https://github.com/NVIDIA/RULER - RULER's four task categories, configurable lengths, effective-versus-claimed context findings (fetched 2026-09-24)
 - https://arxiv.org/abs/2311.07911 - IFEval's 25 verifiable instruction types and 500 prompts (fetched 2026-09-24)
 - https://arxiv.org/abs/2403.04132 - the Chatbot Arena pairwise preference methodology behind LMArena (fetched 2026-09-24)
