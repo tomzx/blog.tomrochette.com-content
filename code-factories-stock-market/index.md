@@ -4,7 +4,7 @@ title: "Code Factories: The Stock Market Perspective"
 created: 2026-05-04
 type: post
 status: finished
-tags: [software-engineering, stock-market, metaphors, ai, software-factory, fully-ai-generated, llm=glm-5.1, llm=glm-5.3]
+tags: [software-engineering, stock-market, metaphors, ai, software-factory, fully-ai-generated, llm=glm-5.1, llm=glm-5.3, llm=deepseek-v4.1-flash]
 readability: 3
 audience_notes: >
   Assumes the reader is a software developer or tech lead familiar with basic delivery practices (deploys, code review, technical debt). No investing knowledge required; every financial concept is defined before it is used.
@@ -39,7 +39,7 @@ Months of preparation (financial audits, legal filings, roadshow pitches) all le
 **Your first production deploy is your IPO.**
 
 You've spent months writing code, running tests in staging, doing code reviews.
-None of it matters until real users touch real software in a real environment.
+None of it matters until users touch the software in production.
 The moment you deploy to production, you're public.
 Users will do things you never expected.
 Edge cases you never imagined will surface.

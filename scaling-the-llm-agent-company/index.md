@@ -4,7 +4,7 @@ title: "Scaling the LLM Agent Company"
 created: 2026-05-31
 type: post
 status: finished
-tags: [llm, ai-agents, company-growth, scaling, fully-ai-generated, llm=glm-5.1, llm=glm-5.3]
+tags: [llm, ai-agents, company-growth, scaling, fully-ai-generated, llm=glm-5.1, llm=glm-5.3, llm=deepseek-v4.1-flash]
 readability: 3
 audience_notes: >
   Assumes familiarity with LLM agents and basic organizational scaling concepts.
@@ -16,7 +16,7 @@ agent_sessions:
 In [Exponential growth software company](../exponential-growth-software-company/index.md) I explored the constraints that make scaling a human company hard: onboarding bottlenecks, culture dilution, coordination overhead, institutional knowledge decay.
 Each of these constraints grows with the number of people you employ.
 A company where the workforce is entirely composed of LLM agents inverts most of these problems.
-The old constraints evaporate, but new ones emerge from a different direction.
+The old constraints disappear, but new ones replace them.
 
 ## What Disappears
 
@@ -40,7 +40,7 @@ The team structures, single points of contact, and redundancy tradeoffs that hum
 
 **Institutional knowledge does not decay.**
 Everything an agent knows is explicit in its instructions, tools, and retrieved context.
-There is no tacit knowledge locked in someone's head, no risk of losing the person who understands the legacy system.
+There is no tacit knowledge that exists only in someone's memory, no risk of losing the person who understands the legacy system.
 When you replace an agent, the replacement has access to exactly the same information.
 
 ## What Replaces It
@@ -58,7 +58,7 @@ A human company that loses money on every employee-hour goes bankrupt.
 
 ### Correlated failures
 
-With humans, errors are diverse and partially self-correcting through independent judgment.
+With humans, errors are diverse and partially cancel out through independent judgment.
 Two engineers given the same task will produce different bugs.
 With agents sharing the same prompt, errors are correlated and systemic.
 A single flawed instruction propagated across 1,000 agents produces 1,000 instances of the same mistake at scale.
@@ -90,7 +90,7 @@ The company that cannot detect a degrading agent within seconds will compound th
 Your company's capacity is bounded by what the underlying models can do.
 If the model provider changes behavior, degrades performance, or raises prices, your entire workforce is affected at the same time.
 This is a vendor dependency unlike any single human employee leaving.
-It is more like all your employees sharing the same brain, and that brain being operated by a third party.
+It is more like all your employees depending on the same external model that a third party operates.
 Diversifying across models is a partial hedge, but it introduces the same coordination complexity as a multilingual workforce.
 
 ## Where the Moat Lives

@@ -4,7 +4,7 @@ title: "What I've built and what I need: May 2026"
 created: 2026-05-24
 type: post
 status: finished
-tags: [what-ive-built-and-what-i-need, personal-update, skills, ai, automation, fully-ai-generated, llm=glm-5.1, llm=glm-5.3]
+tags: [what-ive-built-and-what-i-need, personal-update, skills, ai, automation, fully-ai-generated, llm=glm-5.1, llm=glm-5.3, llm=deepseek-v4.1-flash]
 readability: 3
 audience_notes: >
   A monthly status update for anyone following my work on LLM-driven software development pipelines. Assumes familiarity with the agents skill library and basic SDLC concepts.
@@ -24,17 +24,17 @@ The pipeline tracks artifact status via YAML frontmatter and stores everything u
 
 **Made issue tracking actually useful.**
 I have been using [create-issue](https://github.com/tomzx/agents/blob/main/skills/create-issue/SKILL.md) heavily over the past month to track gaps in the software I am building.
-It is not perfect, but it beats not tracking the work, and it captures more context than I would take the time to write by hand.
+It is not perfect, but it is better than not tracking the work, and it captures more context than I would take the time to write by hand.
 
 **Automated PR descriptions.**
 I use [create-pr-description](https://github.com/tomzx/agents/blob/main/skills/create-pr-description/SKILL.md) to generate PR descriptions based on code changes and intent.
-Writing those manually was slow and inconsistent; now the descriptions reflect what actually changed without the manual effort.
+Writing those manually was slow and inconsistent; now the descriptions reflect what changed without the manual effort.
 
 ## What I Currently Need
 
 **[Test the SDLC pipeline on real work](https://github.com/tomzx/agents/issues/12).**
 The [SDLC skill](https://github.com/tomzx/agents/blob/main/skills/sdlc/SKILL.md) is built but has not been stress-tested end to end on real feature work.
-I need to run it through enough real scenarios to surface the gaps between the design and practical use.
+I need to run it through enough varied scenarios to surface the gaps between the design and practical use.
 
 **[Scheduled issue-to-PR automation in openchamber](https://github.com/tomzx/agents/issues/8).**
 Openchamber can already create a worktree per directory and execute a prompt, but it does not run on a regular schedule.

@@ -3,7 +3,7 @@ title: Learning - 2026
 created: 2026-01-19
 type: post
 status: draft
-tags: [learning, partially-ai-generated, llm=glm-5.3]
+tags: [learning, partially-ai-generated, llm=glm-5.3, llm=deepseek-v4.1-flash]
 readability: 1
 audience_notes: >
   Assumes the reader is me, tracking my own 2026 learning backlog; no prior context is needed.

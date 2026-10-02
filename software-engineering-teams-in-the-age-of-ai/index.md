@@ -4,7 +4,7 @@ title: "Software Engineering Teams in the Age of AI: Smaller, Sharper, Intention
 created: 2026-05-18
 type: post
 status: finished
-tags: [ai, software-engineering, llm, team-management, productivity, fully-ai-generated, llm=glm-5.1, llm=glm-5.3]
+tags: [ai, software-engineering, llm, team-management, productivity, fully-ai-generated, llm=glm-5.1, llm=glm-5.3, llm=deepseek-v4.1-flash]
 readability: 4
 audience_notes: >
   Assumes the reader is a software engineer, tech lead, or engineering manager who has used LLM coding assistants and worked on a team with code review, standups, and sprint planning. No management background required.
@@ -25,11 +25,11 @@ My answer is counterintuitive: the teams that thrive will not be the ones that a
 
 AI-assisted development compresses the time from idea to working code.
 An engineer with a capable LLM can prototype a feature in hours that used to take days.
-Boilerplate, tests, documentation scaffolding, and CRUD endpoints all move closer to free.
+Boilerplate, tests, documentation scaffolding, and CRUD endpoints all cost less and less time.
 
 **But the things that remain expensive have not changed at all.**
 Deciding whether to build a feature, choosing the right abstraction, understanding the domain deeply, and aligning technical work with business goals are as hard as they ever were.
-In many ways the expensive parts are harder now, because the temptation to just generate and ship is stronger.
+In many ways the expensive parts are harder now, because the temptation to just generate and ship without deciding is stronger.
 
 This creates a specific tension for teams.
 When individuals can produce more code, the bottleneck shifts from production to coordination and judgment.
@@ -38,7 +38,7 @@ Team design has to account for this shift, not ignore it.
 ## Team Size: Follow the Problem Boundary
 
 There is a persistent urge to declare an ideal team size.
-Amazon popularized the ["two-pizza team"](https://en.wikipedia.org/wiki/Amazon_%28company%29) heuristic.
+Amazon popularized the ["two-pizza team"](https://en.wikipedia.org/wiki/Amazon_%28company%29) rule.
 Agile methodology settled on [3 to 9](https://scrumguides.org/docs/scrumguide/v2017/2017-Scrum-Guide-US.pdf).
 Various management frameworks have their own magic numbers.
 
@@ -48,25 +48,25 @@ Here is why.
 Communication overhead [scales quadratically with team size](https://en.wikipedia.org/wiki/Brooks%27s_law).
 A team of 4 has 6 communication channels.
 A team of 8 has 28.
-When each individual ships faster because of AI assistance, the team hits the coordination ceiling sooner.
-The marginal output of the fifth or sixth engineer starts getting eaten by the cost of keeping everyone aligned.
+When each individual ships faster because of AI assistance, the team reaches its coordination limit sooner.
+The output added by the fifth or sixth engineer stops covering the cost of keeping everyone aligned.
 
 Smaller teams also benefit from clearer ownership.
-When three people own a service, there is no ambiguity about who is responsible for it.
+When three people own a service, it is clear who is responsible for it.
 When ten people own a service, everyone assumes someone else is handling the monitoring, the tests, the deployment pipeline.
 
 But smaller is not always better, and this is where the nuance matters.
 
 A team that is too small for its domain will fragment its attention across too many concerns.
 Three engineers trying to own a payments system, a notification platform, and a data pipeline will do none of them well.
-They will produce code quickly with AI assistance, but they will produce the wrong code, in the wrong abstractions, because no one has the mental space to think deeply about any one domain.
+They will produce code quickly with AI assistance, but they will produce the wrong code, in the wrong abstractions, because no one has the time to think deeply about any one domain.
 
-The heuristic I would use is not a fixed number.
+The rule I would use is not a fixed number.
 It is the smallest team that can own a coherent domain end-to-end.
 In practice this often lands between 3 and 5 people, but the number should follow the problem boundary, not the other way around.
 
 A team of 3 that owns a single well-bounded service is better than a team of 8 that owns six loosely related ones.
-But a team of 6 that owns a genuinely integrated platform is better than splitting that platform across two teams of 3 that now have to coordinate across a boundary that should not exist.
+But a team of 6 that owns a tightly integrated platform is better than splitting that platform across two teams of 3 that now have to coordinate across a boundary that should not exist.
 
 ## Friction: Some of It Is Structural
 
@@ -76,7 +76,7 @@ AI can summarize meetings, so why not eliminate them?
 AI can write documentation, so why not stop requiring it?
 
 **This instinct is partially right.**
-A lot of process friction is genuine waste.
+A lot of process friction is pure waste.
 Waiting three days for a manager to approve a deployment that could be automated.
 Holding a 30-minute standup where eleven people say "yesterday I worked on tickets, today I will work on tickets."
 Filing a Jira ticket for a one-line config change.
@@ -92,7 +92,7 @@ What AI cannot do is evaluate whether the code solves the right problem, whether
 In fact, code review becomes more important with AI-generated code, not less.
 When a human writes every line, you can assume the author thought about each line at some level, even if imperfectly.
 When an LLM generates code, the author may not have read every line carefully.
-The reviewer can no longer rely on the author's intent as a safety net.
+The reviewer can no longer rely on the author's intent as a safety check.
 The reviewer has to verify both correctness and intent independently.
 
 This is harder work than traditional code review.
@@ -126,27 +126,27 @@ AI can draft these from a conversation, but the team still needs to have the con
 
 **Incident retrospectives.**
 Retrospectives are one of the few processes that compound knowledge over time.
-When a production incident occurs, the team that writes down what happened, why, and what the team will change gets progressively harder to break.
+When a production incident occurs, the team that writes down what happened, why, and what the team will change makes fewer repeat mistakes over time.
 The team that fixes the bug and moves on repeats the same class of mistake forever.
 AI can assist with drafting the timeline from logs and alerts, but the insight about what to change has to come from the people who were in the room.
 
 **Onboarding.**
 Onboarding is paradoxically harder in AI-heavy teams.
-Historically, junior engineers built deep familiarity with a codebase by writing code in it, struggling with its conventions, and learning its quirks through repetition.
-When AI handles much of the writing, that struggle disappears, and with it, the learning.
+Historically, junior engineers built deep familiarity with a codebase by writing code in it, working through its conventions, and learning its quirks through repetition.
+When AI handles much of the writing, that repeated work disappears, and with it, the learning.
 Teams need to be more intentional about how they transfer knowledge.
 Structured pairing, documented design decisions, and explicit mentorship become more important, not less.
 
 **Specification before implementation.**
 The ability to write a clear specification is now the highest-leverage skill in software engineering.
 **A precise spec turns an LLM from a mediocre pair programmer into a highly effective one.**
-A vague spec turns the LLM into a hallucination engine.
-Teams that invest in specification quality will outproduce teams that skip straight to prompting.
+A vague spec makes the LLM hallucinate.
+Teams that invest in specification quality will produce more than teams that skip straight to prompting.
 
 ## Processes Worth Eliminating
 
-Some processes survive on inertia alone.
-AI gives permission to rethink them.
+Some processes continue only out of habit.
+AI gives teams a reason to rethink them.
 
 **Status meetings that are not decisions.**
 If a standup is just a round-robin of activity reports, replace the standup with an AI-generated summary of yesterday's commits, PRs, and tickets.
@@ -162,7 +162,7 @@ Replace granular estimation with outcome-level planning: what do we want to ship
 AI handles test scaffolding well.
 Engineers should focus on test design (what cases matter, what edge cases exist, what invariants must hold) and let the tooling handle the mechanical work of writing assertions and setup code.
 The test plan is the valuable artifact.
-The test file is increasingly a commodity.
+The test file is increasingly interchangeable.
 
 **Elaborate approval workflows.**
 If a change passes CI, passes automated security scanning, and passes peer review, the change should not also need approval from a manager who has not read the code.
@@ -174,14 +174,14 @@ Here is the team I would design for this era.
 
 Four or five people who own a clear domain.
 They spend less time writing boilerplate and more time debating trade-offs.
-Their code reviews are rigorous about intent and lightweight about style.
+Their code reviews are rigorous about intent and brief about style.
 They write ADRs for non-obvious decisions and skip ADRs for obvious ones.
 They do not hold meetings that could be a paragraph of text.
 They write specifications before they prompt.
 
-**They treat AI as an amplifier of judgment, not a replacement for it.**
+**They treat AI as a way to apply more judgment, not a replacement for it.**
 The judgment is still the team's job.
-The tooling just makes the execution of that judgment faster.
+The tooling just makes acting on that judgment faster.
 
 ## What Does Not Change
 
@@ -189,11 +189,11 @@ For all the shifts, some things do not change.
 
 Trust between team members cannot be generated by a language model.
 **[Psychological safety](https://en.wikipedia.org/wiki/Psychological_safety), the ability to say "I think this approach is wrong" without fear, remains the single strongest predictor of team performance.**
-A team of mediocre engineers who trust each other will outperform a team of brilliant engineers who do not trust each other, with or without AI assistance.
+A team of average engineers who trust each other will outperform a team of brilliant engineers who do not trust each other, with or without AI assistance.
 
 Shared understanding of the problem domain cannot be delegated to tooling.
 If no one on the team deeply understands the business context, the code will be technically correct and strategically wrong, faster than ever.
 
 And the discipline to build less, not more, remains the hardest skill.
-When implementation is nearly free, the temptation to overbuild is constant.
+When implementation costs almost nothing in time, the temptation to overbuild is constant.
 The teams that thrive will be the ones where someone at the table says "we don't need this," and the rest of the team listens.

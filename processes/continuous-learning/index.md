@@ -2,14 +2,14 @@
 title: Continuous learning
 created: 2026-01-04
 type: post
-tags: [processes, partially-ai-generated, llm=glm-5.3]
+tags: [processes, partially-ai-generated, llm=glm-5.3, llm=deepseek-v4.1-flash]
 status: draft
 readability: 5
 audience_notes: >
   Assumes the reader is a developer or knowledge worker who wants a simple way to keep learning, with no specialized background required.
 ---
 
-**Continuous learning only sticks for me when I treat it as a small set of manual habits repeated every day.**
+**Continuous learning only works for me when I treat it as a small set of manual habits repeated every day.**
 Waiting for free time or motivation does not work, because busy weeks always win.
 Five simple practices are enough to keep learning moving.
 
@@ -22,7 +22,7 @@ I collect articles shared on Slack that may be relevant to read.
 Shared links disappear quickly under newer messages, so grabbing the promising ones when I see them is the only reliable way to keep a reading pile.
 
 I identify tools and resources that can help me improve my skills.
-A better tool or a better explanation makes the same amount of learning time worth more.
+A better tool or a better explanation lets me learn more from the same amount of learning time.
 
 I set aside dedicated time for learning each day.
 **The reserved time is what turns collected links and found resources into actual learning, because neither gets read or used without a protected slot in the day.**
@@ -31,7 +31,7 @@ I experiment with new technologies and ideas.
 Trying an idea myself is the fastest way to find out whether the idea deserves more of my attention.
 
 I identify areas for improvement in my current skills and knowledge.
-The identified gaps tell the other practices where to aim, so my effort goes to real weaknesses instead of to whatever topic happens to be easiest to find.
+The identified gaps tell the other practices what to focus on, so my effort goes to actual weaknesses instead of to whatever topic happens to be easiest to find.
 
 ## What to Do Next
 

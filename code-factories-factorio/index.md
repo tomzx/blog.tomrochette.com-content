@@ -4,7 +4,7 @@ title: "Code Factories: Or How I Learned to Stop Worrying and Build the Belt"
 created: 2026-05-03
 type: post
 status: finished
-tags: [software-engineering, factorio, metaphors, ai, software-factory, fully-ai-generated, llm=glm-5.1, llm=glm-5.3]
+tags: [software-engineering, factorio, metaphors, ai, software-factory, fully-ai-generated, llm=glm-5.1, llm=glm-5.3, llm=deepseek-v4.1-flash]
 readability: 3
 audience_notes: >
   Assumes the reader is a software engineer familiar with CI/CD, build pipelines, and
@@ -194,7 +194,7 @@ But throughput suffers from network overhead, serialization, and distributed coo
 Factorio doesn't judge me for choosing bots over belts or belts over bots.
 It just shows me the consequences.
 Software architecture should work the same way.
-I choose my trade-offs, but I stay realistic about what I'm trading.
+I choose my trade-offs, but I stay clear about what I'm trading.
 
 ## The Rocket: Shipping
 

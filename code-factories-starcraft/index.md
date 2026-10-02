@@ -4,7 +4,7 @@ title: "Code Factories: The StarCraft Perspective"
 created: 2026-05-03
 type: post
 status: finished
-tags: [software-engineering, starcraft, metaphors, ai, software-factory, fully-ai-generated, llm=glm-5.1, llm=glm-5.3]
+tags: [software-engineering, starcraft, metaphors, ai, software-factory, fully-ai-generated, llm=glm-5.1, llm=glm-5.3, llm=deepseek-v4.1-flash]
 readability: 3
 audience_notes: >
   Assumes the reader is a software engineer or engineering leader familiar with software delivery basics such as CI/CD, code review, and hiring. No StarCraft knowledge required; every game concept is explained before it is used.
@@ -189,7 +189,7 @@ The business can't wait for your perfect Kubernetes setup.
 Ship something with simpler tech and upgrade later.
 
 Teching too wide means researching every upgrade simultaneously.
-In StarCraft, this spreads resources thin and leaves you weak everywhere.
+In StarCraft, this commits resources to too many upgrades at once and leaves you weak everywhere.
 In software, this means adopting every new framework, database, and tooling option.
 Your team can't be experts in everything.
 Pick a path through the tech tree and commit to it.
@@ -254,7 +254,7 @@ Not everything is a drop in your mineral line.
 ## Creep Spread: Codebase Quality
 
 The Zerg provide the clearest metaphor for codebase quality.
-Creep is the organic substance that Zerg structures generate, spreading across the ground like a living carpet.
+Creep is the organic substance that Zerg structures generate, spreading across the ground.
 Zerg units move faster on creep.
 Zerg structures can only be built on creep.
 Creep tumors extend the network, and a well-spread creep carpet gives the Zerg player vision, mobility, and territorial control.
@@ -269,7 +269,7 @@ Features ship faster when the interfaces are clean.
 Terran and Protoss players hate creep.
 It gives the Zerg vision and speed in territory that should be neutral.
 Technical debt is the reverse: it gives bugs and confusion territory that should be clean.
-Every hardcoded value, every undocumented assumption, every god class is an area where development moves slower and bugs move faster.
+Every hardcoded value, every undocumented assumption, every god class is an area where development slows down and more bugs appear.
 
 The Zerg lesson: invest in creep spread early and often.
 A Zerg player who tumors aggressively in the first five minutes controls the map in the tenth.

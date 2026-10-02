@@ -3,17 +3,17 @@ title: "The Future of Code Review: How AI Makes Human Review Obsolete"
 created: 2026-04-18
 type: post
 status: finished
-tags: [ai, software-engineering, code-review, llm, fully-ai-generated, llm=glm-5.1, llm=glm-5.3]
+tags: [ai, software-engineering, code-review, llm, fully-ai-generated, llm=glm-5.1, llm=glm-5.3, llm=deepseek-v4.1-flash]
 readability: 3
 audience_notes: >
   Assumes the reader is a software engineer or engineering lead familiar with pull requests, code review, and CI, who has at least tried an LLM coding assistant. No machine learning background required.
 ---
 
-**The traditional code review is dying.**
+**The traditional code review is ending.**
 Not because it is unnecessary, but because it is becoming unnecessary.
 
 For decades, code review has been a central practice of software engineering.
-Pull requests, peer reviews, endless rounds of comments: this is how we have maintained code quality.
+Pull requests, peer reviews, endless rounds of comments: these practices are how we have maintained code quality.
 But AI is fundamentally changing that practice.
 **In my view, the question is not whether AI will replace human code review, but how quickly.**
 
@@ -26,20 +26,20 @@ As teams grow, review backlogs grow.
 Developers wait days or weeks for feedback, blocking progress.
 
 2. **It is inconsistent**.
-Reviews vary wildly based on who is reviewing, when they are reviewing, and how much coffee they have had.
+Reviews vary widely based on who is reviewing, when they are reviewing, and how tired they are.
 
 3. **It is expensive**.
 Senior engineers spend significant time reviewing code instead of building features.
 In high-cost engineering organizations, this adds up to millions of dollars annually.
 
 The alternative, no reviews at all, is not viable either.
-Shipping unreviewed code is a recipe for security vulnerabilities, bugs, and technical debt.
+Shipping unreviewed code leads to security vulnerabilities, bugs, and technical debt.
 
 ## The AI Solution: Software Factories
 
 A new paradigm is emerging: the Software Factory.
 **Instead of humans reviewing code, AI systems verify, test, and heal code autonomously.**
-This is not theoretical, it is already running in production.
+The Software Factory is not theoretical, it is already running in production.
 
 Consider [StrongDM's Software Factory](https://factory.strongdm.ai/), which launched in July 2025.
 A team of three people (a CTO, a senior manager, and a new hire) built a system that autonomously clones core products like Okta, Jira, and Slack.
@@ -123,7 +123,7 @@ The future is Levels 4 and 5, where humans specify constraints and AI handles ev
 Your job is not to read code.
 Your job is to solve quality problems so the factory can run.
 
-This requires a philosophical shift.
+This approach requires a philosophical shift.
 Instead of "how do I review this code?", ask "why am I doing this?"
 If you can describe what is wrong, you can automate it.
 **If you can describe what quality looks like, you can codify it as a verification rule.**
@@ -134,7 +134,7 @@ Teams will consist of AI business analysts, AI DevOps engineers, AI QA specialis
 
 ## What to Do Next
 
-This does not happen overnight.
+The transition does not happen overnight.
 A realistic 16-week roadmap:
 
 **Weeks 1-2**: Install Trycycle skill and competitive generation pattern
@@ -150,7 +150,7 @@ By week 16, teams report 2x monthly speed improvements with compounding gains co
 
 ## Open Questions
 
-This is not a solved problem.
+The transition is not a solved problem.
 Key research questions remain:
 
 - Is $1,000/day per engineer in tokens realistic or an outlier?
@@ -159,7 +159,7 @@ Key research questions remain:
 - What specific patterns trigger unavoidable human review?
 - How do you validate security without human review of auth logic?
 
-These are not blockers, they are opportunities for teams to pioneer solutions.
+These questions are not blockers, they are opportunities for teams to pioneer solutions.
 
 ## The End of an Era
 

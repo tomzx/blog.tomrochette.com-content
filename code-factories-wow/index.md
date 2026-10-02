@@ -4,7 +4,7 @@ title: "Code Factories: The World of Warcraft Perspective"
 created: 2026-05-04
 type: post
 status: finished
-tags: [software-engineering, world-of-warcraft, metaphors, ai, software-factory, fully-ai-generated, llm=glm-5.1, llm=glm-5.3]
+tags: [software-engineering, world-of-warcraft, metaphors, ai, software-factory, fully-ai-generated, llm=glm-5.1, llm=glm-5.3, llm=deepseek-v4.1-flash]
 readability: 3
 audience_notes: >
   Assumes the reader is a software engineer familiar with code review, sprints, on-call,
@@ -107,7 +107,7 @@ The experienced player knows which quests to skip and which to prioritize.
 The experienced developer knows the same thing.
 Not every ticket deserves the same investment.
 Some are quick wins with high impact.
-Some are rabbit holes that consume days for negligible value.
+Some consume days for negligible value.
 **The skill isn't in completing the quest: it's in choosing the right quests.**
 
 ## Dungeons: Sprint Delivery
@@ -166,7 +166,7 @@ They adjust the strategy when something goes wrong.
 They decide who sits out when the group is too large.
 
 Good raid leaders don't micromanage individual players.
-They trust each player to execute their role while they focus on the big picture.
+They trust each player to execute their role while they focus on the overall plan.
 Good engineering managers do the same: they set direction, remove blockers, and let engineers engineer.
 
 WoW raids also teach preparation.
@@ -574,18 +574,18 @@ In WoW, heirloom items are special pieces of gear that scale with a character's 
 
 I earn them on my max-level character and mail them to my alts, my alternate characters.
 A level 1 alt wearing heirloom gear is dramatically stronger than a level 1 character in normal gear.
-The investment I made on my main character pays dividends on every alt.
+The investment I made on my main character benefits every alt.
 
 **Design systems and shared libraries are heirloom gear.**
 
 A component library built by one team makes every subsequent team faster.
-A shared authentication module, a common logging framework, a standardized deployment pipeline: these are investments that pay dividends across the entire organization.
+A shared authentication module, a common logging framework, a standardized deployment pipeline: these are investments that benefit the entire organization.
 
 The WoW lesson: invest in heirlooms early.
 
 Players who acquire full heirloom sets for their alts level twice as fast.
 Organizations that invest in shared infrastructure ship twice as fast.
-The upfront cost is real (farming the currency to buy heirlooms, or building a design system instead of shipping features) but the compound return is enormous.
+The upfront cost is significant (farming the currency to buy heirlooms, or building a design system instead of shipping features) but the compound return is enormous.
 
 ## The Late Game: Software Factories
 
@@ -606,7 +606,7 @@ I design verification systems that run automatically.
 I stop deploying manually.
 I build pipelines that ship code continuously.
 
-Like WoW's late game, this requires an enormous investment in infrastructure.
+Like WoW's late game, running a software factory requires an enormous investment in infrastructure.
 
 A guild can't sell raid carries without first clearing the raid dozens of times.
 A team can't run a software factory without first building the CI/CD, the testing infrastructure, the monitoring, and the AI tooling.
@@ -622,7 +622,7 @@ Then sell the carry.
 World of Warcraft is a game about progression through coordination.
 
 I start alone, killing boars in a starting zone.
-I end in a raid of twenty-five, executing a complex dance of mechanics that requires every player to perform their role flawlessly.
+I end in a raid of twenty-five, executing a complex sequence of mechanics that requires every player to perform their role flawlessly.
 The satisfaction isn't in the gear: it's in the coordination.
 
 Software development is the same game.

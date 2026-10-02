@@ -4,7 +4,7 @@ title: gh-cached - Browse GitHub issues and PRs without burning through your API
 created: 2026-04-30
 type: post
 status: finished
-tags: [go, github, cli, developer-tools, fully-ai-generated, llm=glm-5.1, llm=glm-5.3]
+tags: [go, github, cli, developer-tools, fully-ai-generated, llm=glm-5.1, llm=glm-5.3, llm=deepseek-v4.1-flash]
 readability: 4
 audience_notes: >
   Assumes the reader is a developer who uses the GitHub CLI regularly, has a GitHub token or `gh` installed, and has felt the API rate limit. No Go knowledge required.
@@ -31,7 +31,7 @@ Browsing hundreds of issues with their comments in a large repository burns thro
 
 The problem gets worse when AI coding assistants query GitHub on my behalf.
 Multiple agents, multiple tools, all hitting the same API.
-**The rate limit becomes a real bottleneck.**
+**The rate limit becomes a bottleneck.**
 
 ## How gh-cached works
 
@@ -72,11 +72,11 @@ When the cache is stale, gh-cached falls back to the GitHub API and updates the 
 Two reasons.
 
 First, gh-cached uses GraphQL under the hood, which lets the tool fetch issues and PRs with their comments in fewer round trips than the REST API the official CLI defaults to.
-**The cache-then-filter pattern also means one pre-fetch can be sliced many ways without going back to GitHub.**
+**The cache-then-filter pattern also means one pre-fetch can be queried many ways without going back to GitHub.**
 
 Second, independence.
 gh-cached works with just a `GH_TOKEN` environment variable, or falls back to `gh auth token` if the GitHub CLI is already installed.
-No plugin registration, no extension marketplace, just a binary to drop in your PATH.
+No plugin registration, no extension marketplace, just a binary you put in your PATH.
 
 ## The caching strategy
 
@@ -111,7 +111,7 @@ Or just have `gh` installed and authenticated: gh-cached will use `gh auth token
   One cache fetch, then instant in-memory filtering.
 - **Working with multiple repositories** where context switches are frequent.
   Cache each repo once and browse offline.
-- **Rate-limited environments** like CI pipelines or shared machines where every API call counts.
+- **Rate-limited environments** like CI pipelines or shared machines where every API call is limited.
 
 ## What to Do Next
 

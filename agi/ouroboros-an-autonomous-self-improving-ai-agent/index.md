@@ -3,7 +3,7 @@ title: "Ouroboros: An Autonomous Self-Improving AI Agent"
 created: 2026-01-02
 status: finished
 type: post
-tags: [artificial-general-intelligence, ouroboros, open-source, fully-ai-generated, llm=glm-4.7, llm=glm-5.3]
+tags: [artificial-general-intelligence, ouroboros, open-source, fully-ai-generated, llm=glm-4.7, llm=glm-5.3, llm=deepseek-v4.1-flash]
 readability: 3
 audience_notes: >
   Assumes the reader knows what an LLM-based agent is and how git works; no background in self-improving agents is required.
@@ -114,7 +114,7 @@ It incorporates feedback, adjusts course based on user suggestions, and explains
 
 ## What Makes It Interesting
 
-1. **True self-improvement**: the agent can and does modify its own implementation based on reflection
+1. **Self-improvement**: the agent can and does modify its own implementation based on reflection
 2. **Persistent memory**: git commits serve as a permanent, queryable history of everything tried
 3. **Graceful degradation**: failed modifications can be reverted; the agent learns and tries again
 4. **Tool extensibility**: new tools can be created dynamically as needs arise
@@ -123,7 +123,7 @@ It incorporates feedback, adjusts course based on user suggestions, and explains
 ## The Vision
 
 Ouroboros represents an experiment in autonomous AI agents.
-**Can an agent truly improve itself over time without human intervention, or with only limited intervention?**
+**Can an agent improve itself over time without human intervention, or with only limited intervention?**
 By maintaining a detailed journal, reflecting on its actions, and having the freedom to modify its own code, Ouroboros aims to answer this question.
 
 The name is fitting: the serpent eating its tail represents the continuous cycle of doing, learning, and improving that drives the agent forward.

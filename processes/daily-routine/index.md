@@ -2,7 +2,7 @@
 title: Daily routine
 created: 2026-01-04
 type: post
-tags: [processes, partially-ai-generated, llm=glm-5.3]
+tags: [processes, partially-ai-generated, llm=glm-5.3, llm=deepseek-v4.1-flash]
 status: draft
 readability: 5
 audience_notes: >

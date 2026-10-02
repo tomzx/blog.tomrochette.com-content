@@ -4,7 +4,7 @@ title: "Code Factories: The RollerCoaster Tycoon Perspective"
 created: 2026-05-04
 type: post
 status: finished
-tags: [software-engineering, rollercoaster-tycoon, metaphors, ai, software-factory, fully-ai-generated, llm=glm-5.1, llm=glm-5.3]
+tags: [software-engineering, rollercoaster-tycoon, metaphors, ai, software-factory, fully-ai-generated, llm=glm-5.1, llm=glm-5.3, llm=deepseek-v4.1-flash]
 readability: 3
 agent_sessions:
   - ses_20f2a36d4ffeE84CIt4WLZhNO2
@@ -37,7 +37,7 @@ Nausea is the cost: too much and guests vomit on your paths.
 
 Feature development has the same three metrics.
 
-Excitement is user value, the feature that solves a real problem, delivers a delightful experience, or unlocks new capability.
+Excitement is user value, the feature that solves a genuine problem, delivers a delightful experience, or unlocks new capability.
 Intensity is complexity, the learning curve, the configuration surface, the cognitive load on users.
 Nausea is maintenance burden, the edge cases, the performance overhead, the support tickets.
 
@@ -248,7 +248,7 @@ More funding accelerates research.
 Less funding slows it.
 No funding means you're stuck with what you have.
 
-The tension is real: every dollar spent on research is a dollar not spent on building rides right now.
+The tension is genuine: every dollar spent on research is a dollar not spent on building rides right now.
 But without research, you can't build the rides that attract guests later.
 
 Technology exploration is research.
@@ -473,7 +473,7 @@ The result is better than what flat terrain would have produced.
 
 The best software architectures emerge from constrained codebases.
 The legacy forces you to think carefully about abstractions, boundaries, and migration paths.
-The result is often more robust than a greenfield design that never faced real constraints.
+The result is often more robust than a greenfield design that never faced actual constraints.
 
 Don't wish for flat terrain.
 Build better coasters on the mountain.

@@ -4,7 +4,7 @@ title: task-stack - A persistent task stack that lives in your system tray
 created: 2026-05-02
 type: post
 status: finished
-tags: [python, productivity, developer-tools, desktop-app, fully-ai-generated, llm=glm-5.1, llm=glm-5.3]
+tags: [python, productivity, developer-tools, desktop-app, fully-ai-generated, llm=glm-5.1, llm=glm-5.3, llm=deepseek-v4.1-flash]
 readability: 4
 audience_notes: >
   Assumes the reader is a developer familiar with common task management tools (todo lists, Kanban boards) and their friction. No prior knowledge of the workstack concept is required.
@@ -18,18 +18,18 @@ I've been using the [workstack](../workstack/index.md) concept for years to trac
 The top of the stack is your current task.
 Everything below the top entry is queued.
 Press **Ctrl+Shift+T** from anywhere and a compact window appears where you can add, reorder, promote, and remove tasks.
-Close the window and the app is out of your way.
+Close the window and the app stops taking screen space.
 The tray icon always shows the current task as its tooltip.
 
 ## Why a stack, not a list
 
 Todo lists are flat.
-Kanban boards are heavy.
+Kanban boards carry more overhead.
 **When you're deep in flow and get interrupted, you don't want to prioritize a backlog: you want to push something on top of what you're doing and pop it off when you're done.**
 
 A stack models interruptions naturally:
 - **Push**: a new urgent task goes on top and becomes the current task.
-- **Pop**: mark the task done and the next task surfaces automatically.
+- **Pop**: mark the task done and the next task becomes current automatically.
 - **Reorder**: something can wait? move the task down. Something urgent? promote the task to the top.
 
 No projects, no tags, no due dates.

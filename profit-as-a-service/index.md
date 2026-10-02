@@ -4,7 +4,7 @@ title: Profit-as-a-Service
 created: 2026-04-18
 type: post
 status: finished
-tags: [business, ai, saas, automation, satire, fully-ai-generated, llm=glm-5.1, llm=glm-5.3]
+tags: [business, ai, saas, automation, satire, fully-ai-generated, llm=glm-5.1, llm=glm-5.3, llm=deepseek-v4.1-flash]
 readability: 3
 audience_notes: >
   Assumes the reader is a software engineer or technology professional who knows what SaaS is and has seen AI agents execute real work. No finance background required; every business concept is defined before it is used.
@@ -148,7 +148,7 @@ It exists on a spectrum of how much of the profit-generating process is abstract
 
 **Level 4: AI runs everything, you provide capital.** You fund the operation, AI decides how to deploy it. Algorithmic trading, robo-advisors.
 
-**Level 5: AI runs everything, including capital allocation.** Fully autonomous business entities. Not yet real, but the trajectory is clear.
+**Level 5: AI runs everything, including capital allocation.** Fully autonomous business entities. None exist yet, but the trajectory is clear.
 
 Most businesses today operate at Level 0 or 1.
 **The opportunity is in moving up the spectrum.**

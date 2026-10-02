@@ -4,7 +4,7 @@ title: The case for static priorities
 created: 2026-05-18
 type: post
 status: finished
-tags: [priority, prioritization, planning, software-engineering, fully-ai-generated, llm=glm-5.1, llm=glm-5.3]
+tags: [priority, prioritization, planning, software-engineering, fully-ai-generated, llm=glm-5.1, llm=glm-5.3, llm=deepseek-v4.1-flash]
 readability: 3
 audience_notes: >
   Assumes the reader is an engineer, tech lead, or product manager on a team that uses a P0-P5 priority scale and has watched priority labels drift over time. No framework knowledge beyond a priority scale is required.
@@ -34,11 +34,11 @@ Calling the task P0 adds no information and removes the ability to distinguish t
 
 **Priority inflation is the fastest way to destroy a prioritization system.**
 Once a team learns that P0 simply means "next thing we're working on," the label stops meaning anything.
-When a real P0 arrives and the database is on fire, the team needs everyone to drop what they are doing, but the word no longer carries weight because promotion has diluted the word.
+When a genuine P0 arrives, such as a corrupted production database, the team needs everyone to drop what they are doing, but the word no longer signals urgency because promotion has weakened the word.
 
 Consider what happens when you tell a team "this is P0" in a healthy system: people stop what they are doing, context-switch, and focus on the emergency.
 That response depends on P0 being rare and meaningfully different from everything else.
-If the backlog contains forty items that were "promoted" to P0, the next real emergency gets the same response as a feature request.
+If the backlog contains forty items that were "promoted" to P0, the next genuine emergency gets the same response as a feature request.
 
 ## A static system is a shared vocabulary
 
@@ -146,7 +146,7 @@ A static system forces the team to be realistic about what the team is not doing
 
 In a dynamic system, everything important eventually becomes P0, so nothing is ever explicitly deprioritized.
 A stakeholder asks "when will you do X?" and the answer is "it's P1, we'll get to it after the current P0s."
-The answer is real but uncomfortable.
+The answer is accurate but uncomfortable.
 **The discomfort is the point.**
 
 When a P2 feature stays P2 for three quarters, the organization has a clear signal: this work is not important enough to displace P1 work.
