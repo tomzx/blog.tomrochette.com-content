@@ -3,7 +3,7 @@ title: "What to Do When the Team Is Too Small and Hiring Is Frozen"
 created: 2026-09-13
 type: post
 status: finished
-tags: [software-engineering, sre, on-call, reliability, teams, org-design, fully-ai-generated, llm=glm-5.3-flash]
+tags: [software-engineering, sre, on-call, reliability, teams, org-design, fully-ai-generated, llm=glm-5.3-flash, llm=deepseek-v4.1-flash]
 readability: 3
 audience_notes: >
   Assumes the reader is a software engineer or tech lead who has done on-call duty and understands how a primary/secondary rotation works. No SRE background required.
@@ -11,7 +11,7 @@ audience_notes: >
 
 A team of six engineers runs the on-call rotation for an entire system, and the request for more people goes nowhere.
 The instinct is to treat this as a hiring problem and wait for management to fix it.
-**Hiring is the slowest and least controllable lever you have, so the rotation has to get lighter first, and the case for headcount has to become a business case instead of a complaint.**
+**Hiring is the slowest and least controllable option you have, so the rotation has to get lighter first, and the case for headcount has to become a business case instead of a complaint.**
 Here is what I would do in that position, in order.
 
 ## The Rotation Is a Relearning Machine
@@ -25,12 +25,12 @@ Memory of unfamiliar subsystems decays in days, not months, so by the time your 
 **When every shift requires remembering everything and the gaps between shifts let the memory rot, you have not designed a rotation, you have designed a scheduled relearning exercise.**
 
 The [Google SRE book, "Being On-Call"](https://sre.google/sre-book/being-on-call/) states the standard explicitly: an on-call engineer should feel capable of swift, effective action, and high page load or long post-shift recovery is treated as a defect of the system design, not of the person.
-The [SRE Workbook's on-call chapter](https://sre.google/workbook/on-call/) makes the same point operationally: burden has to be balanced, or the rotation quietly converts engineers into ex-engineers.
+The [SRE Workbook's on-call chapter](https://sre.google/workbook/on-call/) makes the same point operationally: burden has to be balanced, or the rotation quietly drives engineers to quit.
 A six-person full-system rotation where nobody feels capable of acting is not a staffing failure yet, it is a design failure.
 
 ## Count the Pain Before You Name the Cure
 
-Instrument the pain first, because adjectives do not move management and you need the numbers for the later steps anyway.
+Instrument the pain first, because adjectives do not persuade management and you need the numbers for the later steps anyway.
 Export four weeks of paging data and compute a handful of numbers:
 
 - Pages per shift, split by primary and secondary, and by day versus night.
@@ -48,16 +48,16 @@ With the data in hand, reduce what pages and what a page demands.
 
 Apply the alerting standard from the [SRE Workbook's "Alerting on SLOs"](https://sre.google/workbook/alerting-on-slos/): a page is for a user-visible symptom that needs human judgment right now.
 Everything else becomes a ticket, a dashboard entry, or nothing.
-The alert that fires twice a week and is always dismissed is not information, it is an alarm nobody heeds, and it is eroding the reflex you need at 3 a.m.
+The alert that fires twice a week and is always dismissed is not information, it is an alarm nobody heeds, and it is weakening the reflex you need at 3 a.m.
 
 For the pages that survive, write runbooks so the responder can act without tribal knowledge.
 A page with a runbook is a procedure, and a procedure survives the five-week memory gap.
-A page without one is a puzzle, and puzzles are what burn people out at night.
+A page without one forces the responder to work it out from scratch, and that is what causes burnout on night shifts.
 The [PagerDuty Incident Response guide's "Being On-Call"](https://response.pagerduty.com/oncall/being_oncall/) chapter treats runbooks and escalation paths as core equipment of the on-call, not nice-to-haves.
 
 Then standardize the machinery behind the alerts: one deployment path, one logging format, one dashboard layout per service.
 **Most of the weight of on-call is not the size of the system, it is the size of the system minus what is written down.**
-You do not control headcount this quarter, but you control this, and it compounds.
+You do not control headcount this quarter, but you control what is written down, and it compounds.
 
 ## Split the Territory Instead of Stretching the People
 
@@ -87,9 +87,9 @@ There is a second benefit that matters for the hiring fight: if the system genui
 
 ## Escalate as a Business Case, Not a Complaint
 
-Headcount requests die as complaints and survive as cost calculations.
+Headcount requests fail as complaints and succeed as cost calculations.
 Convert your measured pain into money: incident minutes multiplied by their revenue impact, engineer hours spent on re-entry ramps, and the replacement cost of an engineer who leaves, which [Gallup puts at half to two times annual salary](https://www.gallup.com/workplace/247391/fixable-problem-costs-businesses-trillion.aspx).
-Attrition is the number that lands, because a burned-out on-call engineer does not just handle pages badly, they take their context with them when they quit.
+Attrition is the number that gets attention, because a burned-out on-call engineer does not just handle pages badly, they take their context with them when they quit.
 
 Then present the ask as a trade-off management has to accept in writing, not a favor it has to grant.
 With current staffing, one of three things happens: the team accepts a higher incident risk, the team accepts reduced coverage or slowed delivery, or the team gets help.

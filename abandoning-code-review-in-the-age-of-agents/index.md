@@ -4,7 +4,7 @@ title: "Abandoning Code Review in the Age of Agents"
 created: 2026-09-12
 type: post
 status: finished
-tags: [ai, software-engineering, code-review, agents, llm, fully-ai-generated, llm=glm-5.3-flash]
+tags: [ai, software-engineering, code-review, agents, llm, fully-ai-generated, llm=glm-5.3-flash, llm=deepseek-v4.1-flash]
 readability: 3
 audience_notes: >
   Assumes the reader is a software engineer or engineering lead who runs pull request review and has used LLM coding agents. No introduction to agents or CI required.
@@ -41,13 +41,13 @@ When arrivals exceed service, the queue grows without bound, and no amount of di
 
 **3. Review latency destroys the value of agent speed.**
 An agent that finishes in twenty minutes and waits a day for approval delivers in a day and twenty minutes.
-The machine idles at the one station that cannot speed up.
+The machine idles at the one step that cannot speed up.
 **Buying speed at the generation stage and giving it back at the approval stage is paying twice for nothing.**
 
 **4. Review cost scales with output, and gate cost does not.**
-Every human review is rent, paid again on every pull request, forever.
+Every human review costs time on every pull request, forever.
 A check in CI is built once, maintained occasionally, and runs on every change in between.
-**The more the agents produce, the more the rent costs, and the more a gate saves.**
+**The more the agents produce, the more that review costs, and the more a gate saves.**
 
 **5. Mandatory review converts machine failure into human exhaustion.**
 A misconfigured agent can open hundreds of pull requests in an afternoon.
@@ -57,7 +57,7 @@ If every pull request needs a human, the agent's failure mode consumes your enti
 **6. Human-in-the-loop approval pairs machine-rate generation with human-rate approval, and pays for both.**
 All-human development was internally consistent: people wrote at human speed and approved at human speed, so the pipeline was slow but never mismatched.
 Fully autonomous development is consistent too: machines generate and gates approve, end to end.
-Mandatory human review glues the two together: fast cheap generation upstream, slow expensive approval downstream.
+Mandatory human review joins the two: fast cheap generation upstream, slow expensive approval downstream.
 The fast stage produces work that waits, and the slow stage spends senior attention clearing what waited.
 **You pay machine prices to produce and human prices to approve, and the pipeline still delivers at human pace.**
 
@@ -69,13 +69,13 @@ An agent has no intent to consult, so the reviewer reconstructs meaning line by 
 **That is not review; that is re-deriving the code from scratch with extra steps.**
 
 **8. Attention collapses exactly where agents guarantee volume.**
-Studies of real review practice put the useful band of a diff around two to four hundred changed lines, and effectiveness falls off sharply beyond it ([SmartBear, "Best Kept Secrets of Peer Code Review"](https://smartbear.com/learn/code-review/best-practices-for-peer-code-review/)).
+Studies of actual review practice put the useful band of a diff around two to four hundred changed lines, and effectiveness falls off sharply beyond it ([SmartBear, "Best Kept Secrets of Peer Code Review"](https://smartbear.com/learn/code-review/best-practices-for-peer-code-review/)).
 Agents produce volume, and volume guarantees you exceed the range where review stays effective.
 The conditions that make review worth doing are the conditions agents make impossible.
 
 **9. The diff is the wrong unit of correctness.**
 Review inspects a slice of code.
-Correctness is a property of the whole system: how the change behaves under load, against real data, alongside the other changes landing the same hour.
+Correctness is a property of the whole system: how the change behaves under load, against actual data, alongside the other changes landing the same hour.
 Staging and load tests approximate a few of those properties; production is where all of them show up at once.
 
 **10. Plausibility defeats skimming.**
@@ -87,32 +87,32 @@ A human skim pattern-matches "looks fine" and moves on.
 **11. Review comments no longer land anywhere.**
 With human authors, a review comment taught the author, and the lesson compounded over years.
 An agent does not carry the lesson out of the pull request.
-The loop that actually teaches the system is the specification and the test suite, so the comment is a cost with no memory.
+The loop that actually teaches the system is the specification and the test suite, so the comment is a cost that teaches nothing.
 
 ## The reliability reasons
 
-**12. Defect finding was never review's real output.**
+**12. Defect finding was never review's actual output.**
 When Microsoft studied its own review process, only about fifteen percent of review comments related to defects, and most of those were minor ([Czerwonka, Greiler, and Tilford, "Code Reviews Do Not Find Bugs"](https://dblp.org/rec/conf/icse/CzerwonkaGT15.html)).
 The bulk of the value developers reported was code improvement and awareness, not bug catching ([Bacchelli & Bird, "Expectations, Outcomes, and Challenges of Modern Code Review"](https://sback.it/publications/icse2013.pdf)).
 **The one thing review is famous for is the thing it does least.**
 
 **13. Review is a sample; a gate is a census.**
-A human reads some of the lines, once, on one Tuesday.
+A human reads some of the lines, once, on a single day.
 A check runs on every line, on every run, for as long as the codebase exists.
 When review finds an issue, the fix is one pull request; when a gate catches a class of issue, the fix is permanent.
 
 **14. A verdict that depends on the reviewer is not a verdict.**
 The same diff gets approved at 9 a.m. and rejected at 5 p.m., approved by one lead and nitpicked by another.
 CI gives the same answer every time.
-**Process decisions that matter should not hinge on who had coffee.**
+**Process decisions that matter should not depend on the reviewer's alertness.**
 
 **15. The approve click produces the feeling of safety.**
 Most approvals are decided by CI status, author reputation, diff size, and the description, before the code is read ([You Already Review Code Without Reading It](../code-review-without-reading-the-code/index.md)).
 The signature certifies that a person was present, not that the code was examined.
-**Feeling safe and being checked are different products, and review sells the first one.**
+**Feeling safe and being checked are different things, and review delivers the first one.**
 
 **16. Accountability theater allocates blame instead of preventing harm.**
-The approving signature exists so that, after an incident, someone can be pointed at.
+The approving signature exists so that, after an incident, someone can be blamed.
 In practice nobody blames the reviewer; they blame the author, the tests, or the process.
 **A mechanism whose output is blame allocation does not need to sit between your agents and production.**
 
@@ -126,14 +126,14 @@ An agent is not mentored by comments, does not build trust through diffs, and ha
 **18. Review is where bikeshedding lives.**
 Naming debates, brace placement, and abstraction preferences consume senior hours while the change waits.
 When output is cheap to regenerate, nitpicking the diff is the wrong loop; improve the spec and regenerate instead.
-Gates never argue about tabs.
+Gates never have opinions about tabs.
 
 **19. Approval is a permission slip, and permission is the bottleneck.**
 What review actually gates is not quality but permission to merge.
-When agents can produce the change in minutes, the scarce resource is the yes.
-**Queueing the yes is pure overhead: nothing is learned there, and little is checked that CI could not check.**
+When agents can produce the change in minutes, the scarce resource is the approval.
+**Queueing the approval is pure overhead: nothing is learned there, and little is checked that CI could not check.**
 
-**20. Knowledge diffusion is the one real loss, and it has cheaper substitutes.**
+**20. Knowledge diffusion is the one genuine loss, and it has cheaper substitutes.**
 Review did spread awareness of the codebase, and I count that as the strongest argument for keeping it.
 But the same awareness comes from spec review, design review, ownership docs, and rotation, where people learn decisions instead of skimming one diff.
 **Buy knowledge where it is cheap; do not price it in approvals.**
@@ -143,7 +143,7 @@ But the same awareness comes from spec review, design review, ownership docs, an
 **21. Production is the ground truth review pretends to be.**
 Google's SRE organization reports that 70% of outages are due to changes in a live system ([Google, "Site Reliability Engineering"](https://sre.google/sre-book/introduction/)).
 Most of those are configuration, data, load, and integration effects that no diff-reader can see.
-Canary deployments, feature flags, monitoring, and tested rollback observe the real system instead of predicting it.
+Canary deployments, feature flags, monitoring, and tested rollback observe the live system instead of predicting it.
 **A reviewer guesses; a canary measures.**
 
 **22. Reversibility beats pre-approval.**
@@ -152,7 +152,7 @@ Small, independent, backward-compatible changes with tested rollback paths cap t
 An undo button outperforms a gatekeeper.
 
 **23. Skimming misses security; gates do not.**
-A tired reviewer scanning a diff will not spot a subtle injection or an import that quietly resolves to a lookalike public package.
+A tired reviewer scanning a diff will not spot a subtle injection or an import that resolves to a lookalike public package.
 Static analysis, dependency policy gates, and a dedicated adversarial agent hunting the change will, on every pull request, at machine speed.
 
 **24. If review is worth doing, delegate it to a system.**
@@ -163,9 +163,9 @@ An ad hoc human reviewer catches what they happen to notice, once.
 ## Why reform does not rescue it
 
 **25. Every reform keeps the cost and shrinks the benefit.**
-Checklists, review SLAs, smaller pull requests, review budgets: each trims waste at the edges and preserves the ritual at the center.
+Checklists, review SLAs, smaller pull requests, review budgets: each reduces minor waste and keeps the core practice.
 The math is unchanged, because per-diff human attention cannot scale to machine-rate output.
-**Reforming review is spending effort to keep the bottleneck comfortable instead of removing the bottleneck.**
+**Reforming review is spending effort to accommodate the bottleneck instead of removing it.**
 
 **26. The judgment moves upstream, where it always belonged.**
 Abandoning review does not mean abandoning scrutiny.
@@ -179,11 +179,11 @@ Count agent pull requests arriving per day and the hours you actually spend revi
 If arrivals exceed service, you have already abandoned review; you just have not admitted it in policy.
 
 Then make the default explicit.
-Low blast radius changes merge on green: CI, gates, and the reviewer agent, no human click.
+Low-impact changes merge on a passing check: CI, gates, and the reviewer agent, no human click.
 Reserve deliberate human reading for irreversible changes, security boundaries, and the gating system itself.
 
 Convert every catch.
-Each time review or production surfaces an issue, encode it as a check before moving on.
+Each time review or production reveals an issue, encode it as a check before moving on.
 The list of checks is the review process you are actually running; the queue is just where its results used to wait.
 
 **Code review was the right process for software made at human speed.**

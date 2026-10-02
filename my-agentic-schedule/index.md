@@ -3,7 +3,7 @@ title: "My Agentic Schedule"
 created: 2026-09-22
 type: post
 status: finished
-tags: [ai, software-engineering, agents, llm, automation, code-review, ci, pull-request, fully-ai-generated, llm=glm-5.3-flash]
+tags: [ai, software-engineering, agents, llm, automation, code-review, ci, pull-request, fully-ai-generated, llm=glm-5.3-flash, llm=deepseek-v4.1-flash]
 readability: 3
 audience_notes: >
   Assumes the reader opens, reviews, and merges pull requests and already uses an LLM coding agent interactively. No introduction to agents, pull requests, or CI.
@@ -19,11 +19,11 @@ Each one is a skill file that fans out agents to do the reading, wired to a sche
 ## The trigger is the missing piece
 
 An interactive agent session starts when I remember to start it.
-That ordering makes the work wait for me, and it makes me the one component in the system that can forget.
+That ordering makes the work depend on me, and it makes me the one component in the system that can forget.
 [Loops as Files](../loops-as-files/index.md) makes the point generically: a skill with no trigger leaves the human as the trigger.
-These three loops are my version of taking the cron off me.
+These three loops are my way of making the scheduler the trigger instead of me.
 
-The waiting is the other half of the problem.
+The waiting is the other problem.
 An interactive session is synchronous: I trigger it, then I sit there while it reads, runs, and reports.
 A single analysis takes between 2 and 15 minutes depending on its complexity, and triggering them one at a time would spend my day waiting.
 The scheduled runs are asynchronous: they prepare the information a decision needs while I am away, and the decision is the only part left that happens with me in the room.
@@ -32,19 +32,19 @@ The scheduled runs are asynchronous: they prepare the information a decision nee
 A schedule, rather than GitHub events, is a deliberate choice.
 Most pull requests I touch live in repositories I do not control, so I cannot install workflows, webhooks, or bots there.
 A local scheduler is the one trigger I own everywhere.
-Hourly is the cadence that works: fast enough that queues never age overnight, slow enough that each run is cheap and usually finds nothing new to do.
+Hourly is the cadence that works: fast enough that queues never build up overnight, slow enough that each run is cheap and usually finds nothing new to do.
 (The triage loop could safely run every fifteen minutes; hourly keeps the three aligned.)
 
 ## The three hourly runs
 
 All three run from my [agent skill library](https://github.com/tomzx/agents/tree/main/skills), each as a markdown skill file plus a small deterministic discovery script.
-The skills are reusable by hand at any time; the schedule is just what keeps them from waiting for me to remember.
+The skills are reusable by hand at any time; the schedule is just what keeps them from depending on my memory.
 
 ### Preparing other people's code reviews
 
 The first run (`review-requested-prs`) prepares the pull requests waiting on my review, where I am the requested reviewer or already have.
 A script lists them all, then checks which review steps are already done for each pull request's current commit, because every finished step leaves a report keyed to the commit SHA.
-Only the stale steps get dispatched, one agent per pull request, running up to five checks: risk assessment, test-coverage analysis, product validation, conformance verification, and code-craft review.
+The run dispatches only the stale steps, one agent per pull request, running up to five checks: risk assessment, test-coverage analysis, product validation, conformance verification, and code-craft review.
 The agents run in parallel, so a slow build on one pull request never delays the others.
 When I sit down to review, the verdicts and findings are already there, computed against the exact commit I am about to look at.
 **The run does not approve anything; it does the reading so my part of the review starts at the decision.**
@@ -54,20 +54,20 @@ When I sit down to review, the verdicts and findings are already there, computed
 The second run (`handle-failing-pr-ci`) lists my open pull requests and their combined CI status.
 Every pull request with failing checks gets its own agent in its own [git worktree](https://git-scm.com/docs/git-worktree), so concurrent fixes never collide.
 The agent reads the failing logs, diagnoses the root cause, pushes the smallest fix that addresses it, and watches the checks settle.
-The autonomy is bounded: transient failures get a rerun, an unclear root cause comes back to me as a written diagnosis instead of a guess, and two failed fix attempts stop the loop.
+The autonomy is bounded: the agent reruns transient failures, returns an unclear root cause to me as a written diagnosis instead of a guess, and stops after two failed fix attempts.
 **My pull requests arrive green, or they arrive with an explanation of why they are not.**
 
 ### Drafting my replies to reviewer comments
 
 The third run (`triage-pr-feedback`) scans the pull requests I authored for reviewer comments still awaiting a response.
 For each pull request with new comments, a read-only agent checks out the pull request head and writes one recommendation file per comment: what the reviewer is asking, whether the claim holds against the code with file and line evidence, whether to implement or decline, how confident the analysis is, and a draft reply in my voice.
-State is one file per comment id, so a re-run only sees genuinely new feedback and never re-analyzes something I already decided.
+State is one file per comment id, so a re-run only processes genuinely new feedback and never re-analyzes something I already decided.
 I read the resulting decision table, choose implement, decline, or defer, and only then does an executor skill post replies or push changes.
 **Nothing reaches GitHub from this loop without my decision.**
 
 ## The pipeline they share
 
-The three runs look different from the outside, but they are the same pipeline wearing three sets of labels.
+The three runs look different from the outside, but they are the same pipeline with three different sets of labels.
 
 ![Flowchart of the shared hourly pipeline: a clock fans into three lanes, each running discovery script, one agent per pull request, and an output, all converging on a decision node labeled Me](images/hourly-pipeline.svg)
 
@@ -80,9 +80,9 @@ Discovery runs on every tick, so mistakes there compound, and judgment belongs i
 **Work is fanned out one agent per pull request.**
 Each pull request gets its own agent, its own worktree, and its own failure domain, so a slow or broken run stays contained.
 
-**State lives in files, not in an agent's memory.**
+**State is stored in files, not in an agent's memory.**
 Verdict reports keyed to commit SHAs and one file per comment id mean a re-run is a [no-op](https://en.wikipedia.org/wiki/Idempotence) unless something changed.
-That is the property that makes an hourly cadence quiet instead of expensive.
+That is the property that keeps an hourly cadence inexpensive.
 
 **Write access is bounded and layered.**
 The triage loop never writes to GitHub at all; it produces recommendation files.
@@ -92,8 +92,8 @@ Merging and replying stay mine.
 
 ## What changed in practice
 
-Review stopped being interrupt-driven: prepared material waits for me instead of the other way around, and I pick the moment to sit down to it.
-That is the batching [You Are the Bottleneck](../you-are-the-bottleneck/index.md) argues for, minus the fixed timetable.
+Review stopped being interrupt-driven: prepared material is ready before I start, and I pick the moment to start.
+The schedule is the batching [You Are the Bottleneck](../you-are-the-bottleneck/index.md) argues for, minus the fixed timetable.
 CI failures stopped interrupting me because an agent picks them up within the hour, and I hear about one only when its diagnosis needs a human.
 Replying to reviewer comments became choosing between prepared options, which takes minutes instead of a context switch per thread.
 
@@ -119,7 +119,7 @@ Add write access last, scoped, with abort conditions that route back to you.
 - [You Are the Bottleneck](../you-are-the-bottleneck/index.md) - the queue math that says review must batch; the schedule is the batching mechanism
 - [How Much Attention Does This Pull Request Deserve?](../how-much-attention-does-this-pull-request-deserve/index.md) - the risk and confidence scores the review-preparation run produces
 - [Managing Many Concurrent LLM Agent Sessions](../managing-many-llm-agent-sessions/index.md) - checking agent work at fixed intervals instead of watching it; the production version of that habit
-- [Scaling Yourself Horizontally](../scaling-yourself-horizontally/index.md) - the leverage argument for systems that act in your absence, which is what a schedule buys
+- [Scaling Yourself Horizontally](../scaling-yourself-horizontally/index.md) - the leverage argument for systems that act in your absence, which is what a schedule provides
 - [Continuous Research](../continuous-research/index.md) - the same scheduled-agent pattern applied to knowledge instead of pull requests
 
 ## References

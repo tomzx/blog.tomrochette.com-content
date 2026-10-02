@@ -3,7 +3,7 @@ title: "Micromanagement Doesn't Scale, for People or for Agents"
 created: 2026-09-23
 type: post
 status: finished
-tags: [ai, llm, ai-agents, management, micromanagement, delegation, scaling, fully-ai-generated, llm=glm-5.3-flash]
+tags: [ai, llm, ai-agents, management, micromanagement, delegation, scaling, fully-ai-generated, llm=glm-5.3-flash, llm=deepseek-v4.1-flash]
 readability: 3
 audience_notes: >
   Assumes the reader has worked under or beside a micromanager and has already run LLM coding agents themselves. No introduction to what an LLM agent is.
@@ -12,14 +12,14 @@ agent_sessions:
 ---
 
 Watch someone run an LLM agent for the first time and you will often see a familiar figure: the manager who initials every form.
-Management science named that figure decades ago, diagnosed the failure, and prescribed the cure, and none of that work expired when the reports stopped being human.
+Management science named that figure decades ago, identified the failure, and defined the fix, and all of that work still applies now that the workers are agents.
 **Micromanagement does not scale, and the worker it fails first is the agent.**
 
 ## The Same Behavior in Two Bodies
 
 [Micromanagement](https://en.wikipedia.org/wiki/Micromanagement) is the management pattern where the supervisor keeps decision rights over small steps instead of delegating outcomes and constraints.
 On a human team you recognize it instantly: the manager who approves every purchase, sits in every meeting, and rewrites every email before it ships.
-With agents you recognize it just as fast: the operator who approves every tool call, watches the output stream in real time, interrupts to argue about which file to read, and rewrites the plan twice before the first task finishes.
+With agents you recognize it just as fast: the operator who approves every tool call, watches the output stream live, interrupts to argue about which file to read, and rewrites the plan twice before the first task finishes.
 The behaviors map one to one across the two worlds:
 
 | Micromanaged employee | Micromanaged agent |
@@ -31,7 +31,7 @@ The behaviors map one to one across the two worlds:
 | Redoes the work at their own desk | Aborts the run and does it by hand |
 
 **The mapping is not a loose analogy.**
-In both cases one person inserts their judgment between every small decision and its execution, which is a statement about workflow structure, not about trust.
+In both cases one person decides every small step before it happens, which is a statement about workflow structure, not about trust.
 Anything true of that workflow for humans stays true when the executor is a model.
 
 ## The Arithmetic Kills It First
@@ -40,73 +40,73 @@ Management's own term for the limit is [span of control](https://en.wikipedia.or
 The limit exists because a supervisor's attention is a fixed budget, and every decision escalated to the supervisor spends some of that budget.
 Step-level delegation makes the team's throughput equal to the supervisor's evaluation throughput, since every step now waits on one person.
 
-Agents sharpen the arithmetic.
+Agents make the arithmetic harsher.
 One agent in a normal working hour issues on the order of two hundred small decisions in my sessions: which file to open, which command to run, whether a result is good enough to build on.
 A human evaluates meaningfully at one or two decisions per minute, and the quality of those evaluations collapses long before the count runs out.
 **Step-level supervision has a span of control below one agent: you cannot fully micromanage even a single one.**
 
-The two supervision styles pull apart as soon as more than one agent runs:
+The two supervision styles diverge as soon as more than one agent runs:
 
 ![Line chart: approval-gating demands roughly 200 judgment calls per agent-hour and crosses a human's sustainable rate of about 100 per hour at half of one agent, while outcome review at 4 calls per agent-hour stays under the line even at ten parallel agents](images/judgment-load.svg)
 
 The fatigue has a known endpoint.
-Once approval prompts outrun attention, people stop reading the prompts and start clicking allow, and step-level supervision ends in the rubber-stamp failure that [You Are the Bottleneck](../you-are-the-bottleneck/index.md) works out in queue-math form.
+Once approval prompts become more than attention can handle, people stop reading the prompts and start clicking allow, and step-level supervision ends in the failure of approving without reading, which [You Are the Bottleneck](../you-are-the-bottleneck/index.md) works out in queue-math form.
 
 The economics fail alongside the arithmetic.
-**An approval-gated agent runs at your evaluation speed, not the model's, so you have bought machine-speed execution and re-capped it at human speed.**
+**An approval-gated agent runs at your evaluation speed, not the model's, so you gained machine-speed execution and then limited it to human speed.**
 The reason to hire an agent was to break the link between your attention and the work's progress.
 Step-gating restores the link at every tool call.
 
 ## It Also Corrodes What It Touches
 
 Throughput is only the first cost.
-Micromanaged employees show the classic [learned helplessness](https://en.wikipedia.org/wiki/Learned_helplessness) pattern: initiative collapses, problems stay hidden until they are unhideable, and judgment never develops because it never gets exercised.
-The manager pays too: never observing unassisted results, the manager cannot learn which reports handle which autonomy, so distrust stays calibrated to nothing.
+Micromanaged employees show the classic [learned helplessness](https://en.wikipedia.org/wiki/Learned_helplessness) pattern: initiative collapses, problems stay hidden until they become impossible to hide, and judgment never develops because it never gets exercised.
+The manager pays too: never observing unassisted results, the manager cannot learn which reports handle which autonomy, so the manager's distrust is not based on any evidence.
 
-Agents reproduce every line of that, at higher frequency.
-Constant interruption churns the agent's context, output quality drops, and the drop seems to justify more hovering.
-An operator burned by mid-run questions starts specifying work in tiny increments, which guarantees the agent never runs long enough to produce a reviewable outcome.
-I caught myself doing exactly that after one bad run, tightening the loop until the agent could barely fetch a file, and the tightening felt like diligence the whole time.
+Agents repeat all of that, at higher frequency.
+Constant interruption disrupts the agent's context, output quality drops, and the quality drop seems to justify even closer supervision.
+An operator hurt by mid-run questions starts specifying work in tiny increments, which guarantees the agent never runs long enough to produce a reviewable outcome.
+I caught myself doing exactly that after one bad run, restricting the agent until it could barely fetch a file, and the restriction felt like diligence the whole time.
 And the operator never builds the one calibration that matters: which task types, which models, and which risk levels can run alone.
 **That calibration is the core skill of working with agents, and it can only form from watching end-to-end outcomes, the exact observations micromanagement prevents.**
-Micromanagement keeps the one activity that does not scale, per-step evaluation, and starves the two that do, the worker's initiative and the supervisor's calibration.
+Micromanagement keeps the one activity that does not scale, per-step evaluation, and neglects the two that do, the worker's initiative and the supervisor's calibration.
 
 ## Why Smart People Do It Anyway
 
 The justifications transfer intact.
 The worker is unproven: the new hire has no track record yet, and neither does the model you have never run on this task type.
-A past failure looms: the intern who dropped a production table, the agent that once deleted the wrong directory.
-The credit asymmetry pushes the same direction: catching a small error early is visible credit, while an outcome failure arrives late with your name attached, so hovering is individually rational at every moment even though it is collectively ruinous.
+A past failure weighs on the decision: the intern who dropped a production table, the agent that once deleted the wrong directory.
+The credit asymmetry points the same way: catching a small error early is visible credit, while an outcome failure arrives late and is blamed on you, so close supervision is individually rational at every moment even though it is collectively ruinous.
 
 The deepest cause is unfinished specification.
-When the supervisor can state what done looks like, steps are safe to delegate, because the check exists at the end.
+When the supervisor can state what finished work looks like, steps are safe to delegate, because the check exists at the end.
 When the supervisor cannot state it, steps are the only thing left to inspect.
 **Most micromanagement is not a trust problem with the report; it is a missing definition of done on the supervisor's side.**
 
 ## What Scales in Both Worlds
 
-The cure is decades old and ports without changes.
+The fix is decades old and applies without changes.
 [Management by objectives](https://en.wikipedia.org/wiki/Management_by_objectives) says define the outcome and the constraints, then let the report choose the steps; for an agent, that is the specification and the acceptance criteria, ideally the tests.
 Verify at boundaries instead of continuously: milestones for people, the pull request for agents.
 [Situational leadership](https://en.wikipedia.org/wiki/Situational_leadership_theory) says match supervision to demonstrated maturity, directing at first and delegating later.
 Agents deserve the same schedule: a new model on a new task type gets a tight loop, a proven pattern on a reversible task gets autonomy.
 Make autonomy affordable by scoping the blast radius: the unproven report gets the cheap, reversible work, and the agent gets the sandbox and the throwaway branch, so a failure costs a review cycle instead of an incident.
-Then reinvest the freed supervision hours upstream, into the specification, which is the act that multiplies rather than the act that caps.
+Then reinvest the freed supervision hours into the specification, which is the act that multiplies rather than the act that caps.
 
 Every item on that list was worked out on human teams, at human speeds, over decades of trial and error.
 Agents run the same experiment with faster workers and cheaper failures.
-**A fleet of agents is the cheapest management simulator ever built, and its first lesson is the oldest one: govern outcomes, not steps.**
+**A group of agents is the cheapest management simulator ever built, and its first lesson is the oldest one: govern outcomes, not steps.**
 
 ## But My People Are Not Experts
 
-The cure in the last section rests on delegation, and the first objection is always the same: the team is not staffed with world experts, just regular developers, and regular developers make mistakes.
+The fix in the last section rests on delegation, and the first objection is always the same: the team is not staffed with world experts, just regular developers, and regular developers make mistakes.
 Agents make more of them.
 The objection is legitimate, and it still does not justify step-level control, because the step-level trade fails on its own arithmetic.
 
 Start with what delegation actually assumes.
 **Delegation does not assume competence; it is the only way to observe it.**
 Span of control and situational leadership were worked out for ordinary people, and ordinary people make mistakes.
-A supervisor who never lets a regular developer run alone never learns what that developer can handle, so the supervision level never moves off maximum, and the corrosion loop keeps running on clean intentions.
+A supervisor who never lets a regular developer run alone never learns what that developer can handle, so the supervision level never moves off maximum, and the cycle continues despite good intentions.
 
 Then move the safety mechanism from the person to the system.
 **Step-watching is one way to catch mistakes, and the most expensive one ever tried.**
@@ -132,15 +132,15 @@ Count your interventions on your next agent run.
 Past a handful, the interruptions mark missing specification, not a failing agent, and each one belongs in the next prompt or the skill file ([Say It Once](../say-it-once/index.md) covers the conversion).
 
 Write the acceptance criteria before you launch anything.
-Every impulse to hover converts into a check: the test you would have eyeballed, the log line you would have watched, the property of the diff you would have scanned for.
+Every impulse to watch closely converts into a check: the test you would have eyeballed, the log line you would have watched, the property of the diff you would have scanned for.
 
 Give one low-stakes task a fully unsupervised run and grade the outcome.
-That grade is your first calibration point, and calibration points are how autonomy gets widened with a clear conscience.
+That grade is your first calibration point, and calibration points are how you widen autonomy without guilt.
 
 Widen autonomy the way you would with a junior: task type by task type, on evidence, never on faith.
 The manager who cannot say which reports run alone has been micromanaging, and the operator who cannot say which tasks run alone is in the same place.
 **Micromanagement is not a personality quirk, it is a supervision policy, and it stops working the moment the worker outproduces the supervisor's judgment.**
-Your agents crossed that line on day one.
+Your agents reached that threshold on day one.
 
 ## See also
 

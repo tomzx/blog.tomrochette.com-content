@@ -3,7 +3,7 @@ title: "The Duplicate Issue Was Written in Chinese"
 created: 2026-09-24
 type: post
 status: finished
-tags: [ai, llm, agents, issues, triage, open-source, github, duplicate-detection, fully-ai-generated, llm=glm-5.3-flash]
+tags: [ai, llm, agents, issues, triage, open-source, github, duplicate-detection, fully-ai-generated, llm=glm-5.3-flash, llm=deepseek-v4.1-flash]
 readability: 3
 audience_notes: >
   Assumes the reader has filed issues on an open source project and uses LLM coding agents at least occasionally. Understands what a duplicate issue is and why maintainers care about them. No Chinese required and no knowledge of the OpenChamber codebase assumed.
@@ -22,21 +22,21 @@ The exact bug had already been reported, a few hours earlier, in Chinese.
 The app is [OpenChamber](https://github.com/openchamber/openchamber) 2.0.0.
 In Settings, under Web Search, every option failed the same way.
 I picked a search provider, a toast appeared saying "Couldn't save the web search choice.", and the selection rolled back.
-Textbook bug report material.
+A typical bug report.
 
 I typed what I knew to my agent: create an issue, the web search choice cannot be saved, it happens when switching the search provider.
 Notice what I did not do.
 I did not search GitHub first, and I did not open the source.
-I dumped a half-formed report on the agent and moved on, the way you dictate to an assistant who handles the rest.
+I gave the agent a half-formed report and moved on, expecting it to handle the rest.
 
 ## The Skill That Fired
 
 The skill my agent runs when I ask it to file an issue starts with one instruction: search for duplicates before any codebase investigation.
 It followed the skill without being asked.
-One grep tied my words to the app's own UI strings, and then it ran three GitHub searches: "web search provider", "search provider save", and "websearch settings".
+One grep matched my words to the app's own UI strings, and then it ran three GitHub searches: "web search provider", "search provider save", and "websearch settings".
 The first returned four unrelated issues, and the second returned the Chinese report as its top result.
 The queries were plain English, and the hit was still a Chinese report.
-The bridge was the report's body: the Chinese reporter had listed the failing endpoint, /api/config/websearch, and the frontend store, useWebSearchStore, and English identifiers like those match an English query no matter what language surrounds them.
+The report's body made the connection: the Chinese reporter had listed the failing endpoint, /api/config/websearch, and the frontend store, useWebSearchStore, and English identifiers like those match an English query no matter what language surrounds them.
 Retrieval was never the hard part, because code identifiers are already language-neutral.
 The agent opened the thread, read the Chinese, and did the translating after the hit, not before.
 
@@ -50,7 +50,7 @@ The Chinese reporter had even done their own careful investigation of their mach
 The agent read the full report, compared it against mine, and concluded it was an exact match.
 Then it stopped.
 No new issue was filed, and it told me why in plain terms: a duplicate already exists, so it did not create one.
-It went one step further, checked the current source to confirm the bug was still live, and corrected a wrong guess in the existing thread's comments.
+It went one step further, checked the current source to confirm the bug was still present, and corrected a wrong guess in the existing thread's comments.
 
 ![Two paths after a bug report: a keyword search surfaces the Chinese report but the match cannot be confirmed and a duplicate gets filed, while an agent reads the hit, confirms it, and no duplicate exists](images/duplicate-paths.svg)
 
@@ -63,7 +63,7 @@ So a keyword search can surface a foreign-language report.
 What it cannot do is tell you the report is your bug, because judging the match means reading it.
 An English speaker looking at a Chinese-titled search result skips it or files anyway, and both paths end in a duplicate.
 I would have filed mine at exactly that step, not out of laziness, but because confirming the hit meant translating it by hand.
-The old workflow was not broken, it stopped one step short, and the step it stopped at was the language wall.
+The old workflow was not broken, it stopped one step short, and the step it stopped at was the language barrier.
 
 The result in the old world is familiar to anyone who has maintained a project.
 The same bug arrives three times in three languages, a bilingual maintainer or a patient contributor eventually connects them, and the duplicates get merged weeks later, after the maintainers have already triaged each copy.
@@ -82,7 +82,7 @@ If your agent ever fails to catch a cross-language duplicate, check whether its 
 
 If you maintain a project, expect the mirror image.
 Fewer copies of the same bug reach your queue, because the reporter's agent catches them at filing time.
-The comments that still arrive can carry more than a symptom: an agent that finds an existing issue reads the thread, checks the current source, and can correct a wrong theory already sitting in it, as mine did on #3880.
+The comments that still arrive can contain more than a symptom: an agent that finds an existing issue reads the thread, checks the current source, and can correct a wrong theory already in the thread, as mine did on #3880.
 
 ## See also
 

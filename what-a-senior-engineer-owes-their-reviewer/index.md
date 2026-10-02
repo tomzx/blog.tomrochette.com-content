@@ -3,25 +3,25 @@ title: "What a Senior Engineer Owes Their Reviewer"
 created: 2026-09-13
 type: post
 status: finished
-tags: [software-engineering, code-review, pull-requests, processes, fully-ai-generated, llm=glm-5.3-flash]
+tags: [software-engineering, code-review, pull-requests, processes, fully-ai-generated, llm=glm-5.3-flash, llm=deepseek-v4.1-flash]
 readability: 3
 audience_notes: >
   Assumes the reader works on a team that uses pull request review and has both authored and reviewed PRs. No explanation of what a PR or CI is.
 ---
 
 When a senior engineer opens a pull request, not reconstruct what it does.
-**The standard is that everything which did not require a second brain is already done before the review request goes out.**
+**The standard is that everything that did not require a second person is already done before the review request goes out.**
 CI is green, the diff is small and single-purpose, the description explains the change, the author has already read their own diff, and the proof that it works is in the PR.
 Anything less quietly converts review time into discovery time, and discovery is the most expensive way to use a reviewer.
 
 ## The Standard Expectations
 
-Stripped of argument, here is what a reviewer can assume when a senior engineer opens a PR:
+Setting aside the argument, here is what a reviewer can assume when a senior engineer opens a PR:
 
 - CI is green on the latest commit.
 - The diff does one thing; refactors and behavior changes live in their own PRs.
 - Stray logs, commented-out code, and unrelated reformatting are gone.
-- The author has read the full diff as a stranger would and annotated the lines that need context.
+- The author has read the full diff as if seeing it for the first time and annotated the lines that need context.
 - The description answers what changed, why, and how it was tested, and points at where to look closely and what is out of scope.
 - Proof that it works is in the PR: tests for new behavior, plus written manual verification when tests are impractical.
 - The requested reviewers own the subsystem you are touching, not whoever is idle.
@@ -36,9 +36,9 @@ One round trip costs four context switches, two per side, plus a wait for the ot
 The reviewer switches out of their own work to read the diff and back into it after commenting, and the author later switches out of their work to address the comment and back into it after pushing the fix.
 Because each switch means rebuilding the mental state you had before the interruption, a gap the author could have closed in minutes costs days of calendar time.
 **Every expectation in the standard above exists to delete one class of round trip.**
-A green build deletes the "your build is broken" loop, a single-purpose diff deletes the "split this up" loop, an annotated self-review deletes the "what is this line for" loop, and real proof deletes the most expensive loop of all, "your tests do not cover this", which costs a test rewrite plus a full second pass.
-Research on real reviews backs the self-review half of the deal: in industrial code review, most comments ask for improvements and clarifications rather than catching real defects ([Bacchelli and Bird, 2013](https://www.microsoft.com/en-us/research/publication/expectations-outcomes-and-challenges-of-modern-code-review/)), and Google's study of its own process treats small, fast changes as the mechanism that keeps review load sustainable ([Sadowski et al., 2018](https://research.google/pubs/modern-code-review-a-case-study-at-google/)).
-**Review latency is mostly queueing, not judging, and the standard is how you stop feeding the queue.**
+A green build deletes the "your build is broken" loop, a single-purpose diff deletes the "split this up" loop, an annotated self-review deletes the "what is this line for" loop, and actual proof deletes the most expensive loop of all, "your tests do not cover this", which costs a test rewrite plus a full second pass.
+Research on actual reviews backs the self-review obligation: in industrial code review, most comments ask for improvements and clarifications rather than catching actual defects ([Bacchelli and Bird, 2013](https://www.microsoft.com/en-us/research/publication/expectations-outcomes-and-challenges-of-modern-code-review/)), and Google's study of its own process treats small, fast changes as the mechanism that keeps review load sustainable ([Sadowski et al., 2018](https://research.google/pubs/modern-code-review-a-case-study-at-google/)).
+**Review latency is mostly queueing, not judging, and the standard is how you keep the queue from growing.**
 
 ## The Handoff Contract
 
@@ -76,7 +76,7 @@ Size is not the only variable though, purpose is.
 If a PR needs a live walkthrough before anyone can understand it, that is usually a sign it should be several separate PRs.
 
 There are legitimate exceptions, a generated-code migration or a mechanical rename can be large and still easy to review.
-The mark of a senior engineer is knowing which kind of large diff they have, and saying so in the description.
+What distinguishes a senior engineer is knowing which kind of large diff they have, and saying so in the description.
 
 ## Self-Review Before Anyone Else Reviews
 
@@ -100,15 +100,15 @@ The questions are predictable:
 
 Screenshots for UI changes, before-and-after output for behavior changes, and a link to the ticket all belong here.
 **The ticket link is a pointer, not a description.**
-A reviewer who has to read the ticket to know what the PR does has been given homework instead of a review request.
+A reviewer who has to read the ticket to know what the PR does has been given work to do instead of a review request.
 
 ## Proof That It Works
 
 The author's job is to demonstrate the change works, not to believe it works.
 That means tests for new behavior, updated tests for changed behavior, and a written note on manual verification when tests are impractical ("ran the migration against a copy of staging, 4.2M rows, 90 seconds").
 I put this in the description under "How I tested this".
-The reviewer's job is then to audit the proof: are the tests real assertions or tautologies, do they cover the failure modes, is the manual claim plausible.
-**An author who ships "seems to work" is asking the reviewer to do QA on a hunch, and most reviewers will price that in with a request for changes.**
+The reviewer's job is then to audit the proof: are the tests actual assertions or tautologies, do they cover the failure modes, is the manual claim plausible.
+**An author who ships "seems to work" is asking the reviewer to do QA on a hunch, and most reviewers respond to that with a request for changes.**
 
 ## After You Open It
 
@@ -117,15 +117,15 @@ Watch CI and fix failures immediately; a PR with a red build is blocking a revie
 Respond to comments within a day, even if the answer is "I'll get to this Thursday".
 Push fixes as commits so the reviewer can see what changed since their last pass, and say when the PR is ready for a re-review.
 When a comment thread passes about twenty back-and-forths, take it to a call and write the conclusion back into the PR.
-And when you disagree with a reviewer, either convince them, accept the change, or escalate; a senior engineer does not let a PR rot in a stalemate.
+And when you disagree with a reviewer, either convince them, accept the change, or escalate; a senior engineer does not leave a PR stuck in a stalemate.
 
 ## When You Cannot Meet the Standard Yet
 
-The standard has legitimate exceptions, and seniority shows in running the exception protocol instead of quietly lowering the bar.
-Sometimes the approach is still unsettled, sometimes a change cannot be split cleanly, and sometimes you need early eyes to avoid building the wrong thing for a week.
+The standard has legitimate exceptions, and seniority shows in running the exception protocol instead of quietly lowering the standard.
+Sometimes the approach is still unsettled, sometimes a change cannot be split cleanly, and sometimes you need early feedback to avoid building the wrong thing for a week.
 Each case has a protocol that keeps discovery on the author's side of the handoff:
 
-- **The approach is unsettled:** settle it in a short design note or issue before writing code; a paragraph of prose resolves an approach faster than three rounds of review comments on code headed for the trash.
+- **The approach is unsettled:** settle it in a short design note or issue before writing code; a paragraph of prose resolves an approach faster than three rounds of review comments on code that will be thrown away.
 - **You need early feedback:** open the PR as a draft and name the exact question and the lines that answer it, for example "design feedback on the cache interface only, ignore the internals".
 - **The diff is unavoidably large:** stack it, base each PR on the previous one, and keep every PR in the stack single-purpose so the reviewer can approve them in order.
 
@@ -141,30 +141,30 @@ flowchart TD
 
 **The difference between a draft and a premature PR is that the draft tells the reviewer what to look at, and what to ignore.**
 "Is this the right approach?" is a question a reviewer can answer in five minutes.
-"What is this PR doing?" is homework.
+"What is this PR doing?" is a request to do the author's work.
 
 ## Make the Standard the Default
 
 None of the seven expectations should depend on memory, because memory fails on exactly the days the standard matters most, the rushed ones.
-Encode it once and let the system carry it:
+Encode it once and let the system enforce it:
 
 - A PR template with the four description questions already written out.
-- Format and lint gates in CI, so reformatting noise never reaches a human-reviewed diff.
-- A draft-first habit: every PR is born as a draft and only flips to ready when the checklist passes.
+- Format and lint gates in CI, so reformatting changes never reach a human-reviewed diff.
+- A draft-first habit: every PR starts as a draft and only moves to ready when the checklist passes.
 - Reviewer assignment by code ownership, so requests route to the subsystem's owners instead of whoever is idle.
 
-There is a quieter reason a senior engineer holds this line.
+There is a quieter reason a senior engineer maintains this standard.
 **A senior engineer's PRs are the template the rest of the team copies, because people calibrate to what actually gets merged, not to what a wiki says.**
-The first time the team watches its most senior member ship a rushed PR to quick approvals, the written standard is dead.
+The first time the team watches its most senior member ship a rushed PR to quick approvals, the written standard stops being followed.
 If you want to change how a team reviews, change what its most visible engineers ship.
 
 ## What to Do Next
 
 Before you click "Request review" next time, walk the seven expectations in the list above one last time, in order.
 Then go a step further and audit your last three merged PRs: find the expectation you break most often under deadline pressure, and encode it once, as a template line, a CI gate, or a personal checklist item.
-A standard you re-derive from memory every time will erode; a standard encoded in the system survives your worst week.
+A standard you re-derive from memory every time will weaken; a standard encoded in the system keeps working even in your worst week.
 None of this requires talent.
-**It is the difference between treating review as a service you consume and a contract you enter, and seniority is mostly showing up on the right side of that contract.**
+**It is the difference between treating review as a service you consume and a contract you enter, and seniority is mostly about honoring that contract.**
 
 ## See also
 

@@ -3,7 +3,7 @@ title: "What Needs Updating When Agents Do the Work"
 created: 2026-09-19
 type: post
 status: finished
-tags: [ai, llm, agents, software-engineering, code-review, workflow, fully-ai-generated, llm=glm-5.3-flash]
+tags: [ai, llm, agents, software-engineering, code-review, workflow, fully-ai-generated, llm=glm-5.3-flash, llm=deepseek-v4.1-flash]
 readability: 3
 audience_notes: >
   Assumes the reader is a software engineer who opens and reviews pull requests and has worked with LLM coding agents. CI and PR review mechanics are assumed known; no introduction to agents.
@@ -26,7 +26,7 @@ Each push improves the code and invalidates the records describing the previous 
 **The diff updates itself on every push, the PR title and description do not.**
 
 That asymmetry is the whole problem.
-After three iterations, a pull request can contain correct code wrapped in a wrong story.
+After three iterations, a pull request can contain correct code and inaccurate records describing it.
 The PR title and description explain a feature that no longer exists.
 The comments hold questions the final code already answers.
 The last CI run failed before the final fix landed, and nothing explains why the failure no longer matters.
@@ -34,7 +34,7 @@ Nothing in the code is broken, and everything around the code is stale.
 
 ## A Graph of Artifacts, Not a Checklist
 
-These stale records present themselves as a checklist: walk the pull request and fix each one.
+These stale records look like a checklist: walk the pull request and fix each one.
 The checklist view fails because the records are not independent, each one was written from another.
 The artifacts around a change form a directed acyclic graph.
 The issue feeds the requirements, the requirements feed the specification, the specification feeds the code, and the code feeds the tests, the PR title and description, and the documentation, and no artifact feeds back into itself.
@@ -81,7 +81,7 @@ Writing the documentation is how you learn that nobody decided what the feature 
 
 ## The Update Loop
 
-The loop below is the graph in motion at the pull request node, the place where every agent-authored change lands first.
+The loop below shows the graph operating at the pull request node, the place where every agent-authored change lands first.
 Automated review reads the diff and produces feedback.
 An agent addresses that feedback, with a human steering when judgment is needed.
 The agent then brings the pull request back in sync: it replies to the review comments, handles the CI failures, and updates the PR title and description if the latest push made them outdated.
@@ -107,9 +107,9 @@ flowchart TD
     DOCS --> B
 ```
 
-**Every station in this loop has an owner, and the default owner is the agent.**
-Assigning any station to a human by default re-serializes work the machine could finish in minutes, the same mistake made at pipeline scale when human review gates machine-rate output in [Rethinking Code Review in the Age of LLMs](../rethinking-code-review-in-the-age-of-llms/index.md).
-The update loop runs several times per pull request, so any station handled by hand multiplies by the number of iterations, not the number of pull requests.
+**Every step in this loop has an owner, and the default owner is the agent.**
+Assigning any step to a human by default re-serializes work the machine could finish in minutes, the same mistake made at pipeline scale when human review gates machine-rate output in [Rethinking Code Review in the Age of LLMs](../rethinking-code-review-in-the-age-of-llms/index.md).
+The update loop runs several times per pull request, so any step handled by hand multiplies by the number of iterations, not the number of pull requests.
 
 ## The Three Update Jobs
 
@@ -131,7 +131,7 @@ For an agent, it is input to consume.
 The agent reads the failure, fixes the code, reruns the suite, and pushes.
 The loop continues without a human ever opening the log.
 Escalation stays reserved for the cases that need a decision: the same failure returning across pushes, a flaky test worth deleting, or a fix that changes behavior the specification did not authorize.
-**A CI failure routed to a human queue is a decision the pipeline refused to make.**
+**A CI failure routed to a human queue is a decision the pipeline did not make.**
 
 ### The PR title and description follow the code
 
@@ -139,7 +139,7 @@ The PR description is written when the pull request opens, which means it descri
 The title goes stale the same way: it names the purpose the change opened with, and the purpose may have moved by the third revision.
 By the time the code merges, both can be documents about a version that no longer exists.
 The agent should rewrite the description after significant revisions, and update the title whenever the purpose of the change moved, so both always describe the current diff: what changed, why, and which suggestions were rejected and why.
-**A PR title and description are a promise about what the diff does, and an agent that stops updating the promise is asking the reader to audit the diff to find out.**
+**A PR title and description state what the diff does, and an agent that stops updating them is asking the reader to audit the diff to find out.**
 
 ## Where the Human Fits
 
