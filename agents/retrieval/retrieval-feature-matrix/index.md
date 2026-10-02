@@ -1,7 +1,7 @@
 ---
 title: "Retrieval Feature Matrix"
 created: 2026-08-24
-updated: 2026-09-27
+updated: 2026-10-02
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, comparison, retrieval, rag, code-retrieval, llm=glm-5.3-flash]
 readability: 3
@@ -28,7 +28,7 @@ Each column links to the full note; every cell traces to a source cited there or
 | AST-aware code splitting | ✓ CodeChunker | ✗ document layout models, not AST | ✗ document hierarchy, not AST | ✗ separators only | ✓ CodeSplitter | ? chunkers undisclosed | ✓ the technique |
 | Hosted or commercial arm | ✗ hosted API dead, OSS only | ~ Docling for IBM watsonx managed path, no published prices | ✓ the hosted per-page API is the funnel | ✓ LangSmith SaaS | ✓ LlamaParse SaaS | ~ plan-gated indexes | ✗ was Chonkie Cloud, now dead |
 | Positioning drift in the notes | ~ maker moved to Feyn Labs, OSS continues | ✗ new entrant (2026-09 scan), no drift yet | ✗ new entrant (2026-09), no drift yet | ~ climb to agent platform | ~ pivot to document OCR | ~ demoted to optional | ~ outsourced to Chonkie |
-| Maintenance status | ✓ active, 4.77k stars, 1.17M downloads/month | ✓ active, 68.0k stars, 2.74M downloads/month, PyPI 2.130.0 | ✓ active, 3.53k stars, v1.2.17 (2026-09-23) | ✓ active, 147.1k stars | ✓ active, 52.3k stars | ~ active but demoted | ✓ mature, pervasive |
+| Maintenance status | ✓ active, 4.78k stars, 1.17M downloads/month | ✓ active, 68.3k stars, 2.74M downloads/month, PyPI 2.132.0 | ✓ active, 3.61k stars, v1.2.20 (2026-09-30) | ✓ active, 147.4k stars | ✓ active, 52.4k stars | ~ active but demoted | ✓ mature, pervasive |
 | Displacement signal in the notes | ~ founder pivoted away, niche commoditized | ~ none yet; the heavyweight torch dependency is the standing complaint | ~ stars ran ahead of any discussion, two Show HNs, 2 points combined | ~ retrieval commoditized | ~ agentic search eats indexed RAG | ✓ pioneers shipped grep loops | ~ ranked below truncation |
 | What it replaces in a coding-agent stack | framework text splitters | hand-rolled PDF and Office extraction | hand-rolled OCR plus vector-store parsing | hand-rolled agent loops | hand-rolled retrievers | grep-only lookups | line-count chunking |
 
@@ -78,6 +78,7 @@ LlamaIndex's newer Chunker node parser wraps Chonkie rather than reimplementing 
 - 2026-09-25 - Refreshed the maintenance row: Chonkie 4.77k stars and 1.14M downloads/month, Knowhere 3.49k stars and release v1.2.17 (2026-09-23), LangChain 147.0k stars.
 - 2026-09-27 - Refreshed the maintenance row: Knowhere to 3.53k stars, with release v1.2.17 unchanged, and aligned the reading prose to the same figure.
 - 2026-09-27 - Repaired the intro and thesis prose left stale by the 2026-09-27 Docling column: the count now reads seven entries and the hosted-parsing bet is attributed to Knowhere by name rather than as the newest column.
+- 2026-10-02 - Refreshed the maintenance row: Chonkie 4.78k stars, Docling 68.3k stars and PyPI 2.132.0, Knowhere 3.61k stars and release v1.2.20 (2026-09-30), LangChain 147.4k stars, LlamaIndex 52.4k stars.
 
 ## See also
 

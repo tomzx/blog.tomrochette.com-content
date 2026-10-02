@@ -1,7 +1,7 @@
 ---
 title: GitHub Agentic Workflows
 created: 2026-08-24
-updated: 2026-10-01
+updated: 2026-10-02
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, executions, github-actions, workflows]
 readability: 3
@@ -23,10 +23,10 @@ It is built by GitHub Next with Microsoft Research, MIT-licensed, in public prev
 ## Status
 
 **Active preview with real traction.**
-About 5.2k stars, 564 forks, and roughly 18,000 commits in `github/gh-aw` as of 2026-09-29.
+About 5.3k stars, 571 forks, and roughly 18,000 commits in `github/gh-aw` as of 2026-10-02.
 The February 2026 Hacker News launch thread drew 302 points and 141 comments.
 The trust story has kept moving: an August 2026 billing bug forced the retirement of releases 0.68.4 through 0.71.3, and a critical security advisory published August 27 forced the pre-emptive retirement of releases 0.83.3 through 0.85.4, a notice that still sits in the README while the billing one was cleared.
-The release line keeps churning (latest v0.90.0 on 2026-09-28 as a prerelease, with v0.89.21 still the newest stable-marked release since 2026-09-23), which shows how quickly this preview will break its users.
+The release line keeps churning (latest v0.90.1 on 2026-09-30 as a prerelease, with v0.89.21 still the newest stable-marked release since 2026-09-23), which shows how quickly this preview will break its users.
 
 ## Strengths
 
@@ -50,7 +50,7 @@ Self-hosted and ARC runners are supported, which can zero out the Actions-minute
 
 ## Compared to
 
-- [Claude Code Action](https://github.com/anthropics/claude-code-action): the mature single-agent incumbent on the same platform (about 8.9k stars as of 2026-09-18), better for @claude PR review, weaker on multi-engine guardrails.
+- [Claude Code Action](https://github.com/anthropics/claude-code-action): the mature single-agent incumbent on the same platform (about 9.3k stars as of 2026-10-02), better for @claude PR review, weaker on multi-engine guardrails.
 - [Copilot automations](../copilot-automations/index.md): GitHub's hosted scheduled and event triggers, no files in your repo, Copilot-only.
 - [Claude Code hooks](../claude-code-hooks/index.md): event triggers inside one harness session, versus repository-level automation across engines.
 
@@ -72,6 +72,7 @@ My disagreeable claim: even in preview, I would start here rather than hand-roll
 - 2026-09-27 - Recorded the prerelease-versus-stable flip: v0.89.21 (2026-09-23) is now the newest stable-marked release and v0.89.22 (2026-09-27) runs as a prerelease, retiring the v0.88.7-last-stable record; forks refreshed to 562.
 - 2026-09-29 - Refreshed the release train to v0.90.0 (2026-09-28, a prerelease) and re-confirmed v0.89.21 as the newest stable-marked release; forks refreshed to 564.
 - 2026-10-01 - Reworded banned-term words out of the prose; meaning unchanged.
+- 2026-10-02 - Release train refreshed to v0.90.1 (2026-09-30, a prerelease) with v0.89.21 still the newest stable-marked release, the README advisory notice re-confirmed live, and growth refreshed (about 5.3k stars, 571 forks).
 
 ## See also
 

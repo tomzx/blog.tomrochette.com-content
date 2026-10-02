@@ -1,7 +1,7 @@
 ---
 title: Drop
 created: 2026-09-29
-updated: 2026-09-29
+updated: 2026-10-02
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, sandboxing, isolation, linux, open-source]
 readability: 3
@@ -25,8 +25,9 @@ Install is a curl of a release binary for amd64 or arm64 plus the passt/pasta pa
 
 ## Status
 
-Young tool, older project, one strong launch: 331 stars, 10 forks, 6 open issues as of 2026-09-29, created 2025-07-25, pushed 2026-09-28, latest release v0.2.1 on 2026-08-24.
+Young tool, older project, one strong launch: 350 stars, 10 forks, 5 open issues as of 2026-10-02, created 2025-07-25, pushed 2026-09-29, latest release v0.3.0 on 2026-09-29.
 The Show HN thread on 2026-09-22 drew 193 points with substantive comparisons to bubblewrap and proot in the top replies.
+v0.3.0 added a `drop edit` command for the TOML config, a reorganized documentation site at droprun.sh/docs/, and base.toml defaults for uv, pipx, go install, and Cargo that expose host-installed packages read-only while sandbox-only installs stay contained.
 **The repository sat for fourteen months before the launch found it its audience, so the traction is one good Hacker News day, not a community, and the maintainer list is one person.**
 
 ## Strengths
@@ -38,7 +39,7 @@ The Show HN thread on 2026-09-22 drew 193 points with substantive comparisons to
 
 ## Cautions
 
-- Pre-1.0 (v0.2.1), solo-maintained, and fourteen months old with a community measured in one launch thread.
+- Pre-1.0 (v0.3.0), solo-maintained, and fourteen months old with a community measured in one launch thread.
 - Namespace isolation shares the host kernel unless gVisor is enabled, which is the difference between containing a confused agent and containing a kernel exploit.
 - Distro hardening is on you: Ubuntu 24+ needs an AppArmor profile change and Fedora an SELinux one, and skipping either weakens the setup.
 - Linux-only (amd64 and arm64), with no macOS story at all, the opposite bet from Clawk.
@@ -62,6 +63,7 @@ Not for macOS, and not as a hardened boundary for hostile code until the solo-ma
 ## Changes
 
 - 2026-09-29 - Created from the entrant-resolution run, profiling the rootless namespace sandbox that uses the host distribution.
+- 2026-10-02 - Recorded the v0.3.0 release of 2026-09-29 (drop edit command, reorganized docs site, package-manager base.toml defaults) and refreshed counts (350 stars, 5 open issues, pushed 2026-09-29).
 
 ## See also
 

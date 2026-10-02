@@ -1,7 +1,7 @@
 ---
 title: beads
 created: 2026-08-27
-updated: 2026-09-27
+updated: 2026-10-02
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, task-management, issue-tracking, open-source, byok]
 readability: 3
@@ -25,7 +25,7 @@ It lives in the gastownhall organization (renamed from steveyegge, the old name 
 ## Status
 
 Active and moving fast.
-As of 2026-09-27: 27,460 stars, 1,859 forks, 1,270 open issues, created 2025-10-12, pushed 2026-09-27, latest stable release v1.3.0 on 2026-09-15 (after the v1.3.0-rc.1 and rc.2 prereleases of 2026-08-31 and 2026-09-10), 23,924 npm downloads last month, and the v1.3.1-rc.1 prerelease of 2026-09-21 still opening the next stable train.
+As of 2026-10-02: 27,574 stars, 1,874 forks, 1,266 open issues, created 2025-10-12, pushed 2026-10-01, latest stable release v1.3.1 on 2026-09-30 (after the v1.3.1-rc.1 and rc.2 prereleases of 2026-09-21 and 2026-09-29, which followed v1.3.0 of 2026-09-15), and 28,681 npm downloads last month.
 **There is no Show HN launch thread; adoption ran through Yegge's audience and the ecosystem instead, which is itself the community signal.**
 That ecosystem is real: a community Rust port ([beads_rust](https://github.com/Dicklesworthstone/beads_rust), about 1.1k stars) froze the "classic" SQLite-plus-JSONL architecture, a [beads planner plugin](https://news.ycombinator.com/item?id=47263696) and web UIs exist, and the architecture has churned enough (SQLite to Dolt, schema migrations) that people built [drop-in replacements](https://news.ycombinator.com/item?id=46487580).
 
@@ -68,6 +68,7 @@ The disagreeable claim I will defend: every markdown task file is a beads databa
 - 2026-09-16 - Recorded v1.3.0 shipping stable on 2026-09-15 after the rc prereleases.
 - 2026-09-21 - Recorded the v1.3.1-rc.1 prerelease (published 2026-09-21), the first release after v1.3.0 stable, and refreshed repository counts.
 - 2026-09-27 - Refreshed counts (27,460 stars, 1,270 open issues, 23,924 npm downloads); v1.3.1-rc.1 still the newest release.
+- 2026-10-02 - Recorded v1.3.1 shipping stable on 2026-09-30 after the rc prereleases and refreshed counts (27,574 stars, 1,266 open issues, 28,681 npm downloads last month).
 
 ## See also
 
@@ -83,4 +84,4 @@ The disagreeable claim I will defend: every markdown task file is a beads databa
 - https://beads.gascity.com/ - official documentation site
 - https://github.com/Dicklesworthstone/beads_rust - the community Rust port freezing classic beads, and the Gas Town evolution note
 - https://news.ycombinator.com/item?id=46487580 - the 84-point replacement thread, the critical source
-- https://api.npmjs.org/downloads/point/last-month/@beads/bd - 23,924 downloads last month
+- https://api.npmjs.org/downloads/point/last-month/@beads/bd - 28,681 downloads last month

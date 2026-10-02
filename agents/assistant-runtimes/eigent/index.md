@@ -24,7 +24,7 @@ By Eigent AI (EIGENT UK LTD), founded by Guohao Li, who also founded CAMEL-AI; f
 
 ## Status
 
-Active and maturing: 15,430 stars, 1,837 forks, 234 open issues as of 2026-09-27, created 2025-07-29, pushed 2026-09-26, v1.0.5 released 2026-09-25.
+Active and maturing: 15,457 stars, 1,840 forks, 260 open issues as of 2026-10-02, created 2025-07-29, pushed 2026-10-01, v1.0.5 still the latest release (2026-09-25).
 **The smallest community of the Cowork trio, and the launch thread matters: the "ranked top 1 on GAIA benchmark" claim referred to the predecessor project OWL, the founder acknowledged it, and 1-karma accounts posted praise.**
 
 ## Strengths
@@ -44,7 +44,7 @@ Active and maturing: 15,430 stars, 1,837 forks, 234 open issues as of 2026-09-27
 ## Pricing
 
 Free: BYOK and local models, 1,000 registration credits.
-Plus $19.99/month (2,000 task credits), Pro $99.99/month (10,000 credits), Teams coming soon, Enterprise custom with local deployment.
+Plus $19.99/month (2,000 task credits) and Pro $99.99/month (10,000 credits), each after a 7-day free trial shown on the pricing page, Teams coming soon, Enterprise custom with local deployment.
 Ten percent of subscriptions is pledged to CAMEL-AI.org.
 
 ## Price history
@@ -81,7 +81,7 @@ Not for buyers who need vendor accountability history, and not for the quick-sta
 
 ## References
 
-- https://github.com/eigent-ai/eigent - repository, stack, license, adoption numbers
+- https://github.com/eigent-ai/eigent - repository, stack, license, adoption numbers (re-checked 2026-10-02 via the repo API)
 - https://raw.githubusercontent.com/eigent-ai/eigent/HEAD/README.md - features and deployment paths
 - https://www.eigent.ai/pricing - the tiers and credits for the pricing rows
 - https://www.eigent.ai/about - the company and CAMEL-AI relationship

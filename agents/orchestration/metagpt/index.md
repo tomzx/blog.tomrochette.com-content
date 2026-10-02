@@ -24,10 +24,10 @@ The framework itself is free software; MGX is the hosted product.
 
 ## Status
 
-Dormant in everything but stars: the repo shows 70,637 stars, about 9k forks, and a last push of 2026-01-21, roughly eight months before this note (GitHub API, as of 2026-09-27).
+Dormant in everything but stars: the repo shows 70,717 stars, about 9k forks, and a last push of 2026-01-21, roughly eight and a half months before this check (GitHub API, as of 2026-10-02).
 The latest release is v0.8.2, published 2025-03-09, eighteen months old at writing.
 The README news section stops at March 2025, when MGX topped Product Hunt, and nothing newer was added since.
-The FoundationAgents org is not dead: OpenManus, its open reproduction of Manus, holds 58,421 stars with a push on 2026-08-22, and smaller research repos (AOrchestra, ReCode, AutoEnv) keep landing.
+The FoundationAgents org is not dead: OpenManus, its open reproduction of Manus, holds 58,454 stars with a push on 2026-09-30, and smaller research repos (AOrchestra, ReCode, AutoEnv) keep landing.
 I read that pattern as the team building a next generation while leaving the framework that made them famous in maintenance.
 
 ## Strengths

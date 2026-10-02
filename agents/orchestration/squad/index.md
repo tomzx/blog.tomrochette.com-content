@@ -12,20 +12,20 @@ audience_notes: >
 
 Squad is Brady Gaster's MIT-licensed CLI that assembles persistent, human-led AI agent teams, frontend, backend, tester, lead, as files inside your repository and runs them through GitHub Copilot CLI.
 
-**Squad's bet is that the right multi-agent primitive for coding is a roster of teammate files versioned in the repo, not a framework import, and 3,237 stars in eight months suggest the bet lands.**
+**Squad's bet is that the right multi-agent primitive for coding is a roster of teammate files versioned in the repo, not a framework import, and 3,249 stars in eight months suggest the bet lands.**
 
 ## What it is
 
 A CLI (`npm install -g @bradygaster/squad-cli`) whose `squad init` creates a `.squad/` directory holding `team.md`, member files, charters, and routing rules; each member runs in its own context, reads only its own knowledge, and writes back what it learned so the work stays inspectable (README).
 Sessions run inside GitHub Copilot CLI (`copilot --agent squad`), with GitHub authentication wired for issues, PRs, and a workflow the README calls Ralph; a `--preset default` flag gives a configured team instantly.
-The repo sits at 3,237 stars with 497 forks, MIT, created 2026-02-06, TypeScript (GitHub API, as of 2026-09-29).
+The repo sits at 3,249 stars with 502 forks, MIT, created 2026-02-06, TypeScript (GitHub API, as of 2026-10-02).
 It entered this pile from the Awesome Multi-Agent Orchestrators directory's new entries.
 
 ## Status
 
-Active alpha: last push 2026-09-29, latest release v0.13.1 on 2026-08-26 (GitHub API, as of 2026-09-29).
+Active alpha: last push 2026-10-01, latest release v0.13.1 on 2026-08-26 (GitHub API, as of 2026-10-02).
 The README badges it as alpha and warns that APIs and CLI commands may change between releases.
-Traction is real but concentrated: npm recorded 7,323 downloads of `@bradygaster/squad-cli` in the month ending 2026-09-27 (2,575 in the last week).
+Traction is real but concentrated: npm recorded 7,684 downloads of `@bradygaster/squad-cli` in the month ending 2026-09-30.
 Independent discussion is nearly absent: the largest HN thread I found has 2 points, so the footprint is GitHub plus npm alone, which is itself a signal.
 
 ## Strengths

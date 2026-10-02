@@ -1,7 +1,7 @@
 ---
 title: Sim
 created: 2026-09-29
-updated: 2026-09-30
+updated: 2026-10-02
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, multi-agent, workflow, low-code]
 readability: 3
@@ -18,11 +18,11 @@ Sim is the Apache-2.0, YC X25-backed open-source workspace for building, deployi
 
 A collaborative workspace where agent systems are built visually on a canvas, through chat, or in code, with a knowledge base, tables, files, and block-by-block run logs (sim.ai, docs.sim.ai).
 It is TypeScript, self-hosted via Docker or rented as Sim Cloud, built by the Sim Studio team out of Y Combinator X25 (Launch HN, 2025-05-21).
-The repo sits at 29,749 stars with 3,847 forks, Apache-2.0, created 2025-01-05, and its description claims 100,000+ builders (GitHub API, as of 2026-09-29).
+The repo sits at 29,765 stars with 3,851 forks, Apache-2.0, created 2025-01-05, and its description claims 100,000+ builders (GitHub API, as of 2026-10-02).
 
 ## Status
 
-Active: last push 2026-09-30, release v0.9.6 on 2026-09-29 (GitHub API, as of 2026-09-30).
+Active: last push 2026-10-02, release v0.9.9 on 2026-10-01 (GitHub API, as of 2026-10-02).
 Three HN launches mark the trajectory: 196 points for the first Show HN (2025-04-28), 55 points for the YC Launch HN (2025-05-21), and 240 points for "Sim, Apache-2.0 n8n alternative" (2025-12-11).
 Pre-1.0 (v0.9.x) despite the scale, so the API surface is still moving.
 
@@ -69,6 +69,7 @@ Not for coding-agent orchestration, and not for anyone needing long-term API sta
 
 - 2026-09-29 - Created when the deferred framework-tier pile from the 2026-09-27 triage resolved.
 - 2026-09-30 - Recorded v0.9.6 (September 29, library templates and opt-in workflow fork sync) as the latest release.
+- 2026-10-02 - Recorded v0.9.9 (October 1) as the new latest release and refreshed star, fork, and push counts.
 
 ## See also
 

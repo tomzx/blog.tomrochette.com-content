@@ -1,7 +1,7 @@
 ---
 title: ChatGPT plans
 created: 2026-09-26
-updated: 2026-09-26
+updated: 2026-10-02
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, model-access, subscriptions, codex, openai]
 readability: 3
@@ -16,19 +16,20 @@ ChatGPT plans are OpenAI's consumer and team subscriptions, and every tier from 
 
 ## What it is
 
-The 2026 lineup: Free ($0), Go ($8/month), Plus ($20/month), Pro from $100/month in 5x and 20x versions, Business ($25/user/month, $20 annual, minimum 2 seats), and Enterprise custom.
+The 2026 lineup: Free ($0), Go ($8/month), Plus ($20/month), Pro from $100/month in 5x, 20x, and $500 versions, Business ($25/user/month, $20 annual, minimum 2 seats), and Enterprise custom.
 Codex ships on web, CLI, IDE extension, and iOS, with cloud integrations (GitHub code review, Slack, Linear) from Plus up, and ChatGPT Work usage draws the same pool and rates as Codex.
-The GPT-6 lineup (Astra, Sol, Luna) carries the plans; GPT-5.5 retires from ChatGPT, Work, and Codex on all plans on October 14, 2026.
+The GPT-6 lineup (Astra, Sol, Luna) carries the plans, with GPT-6.1 Sol added to the rate table by October 2026 (available in Work and Codex, not Chat); GPT-5.5 retires from ChatGPT, Work, and Codex on all plans on October 14, 2026.
 
 ## Status
 
-Active, with the developer pricing page fetched and current as of 2026-09-26, and the widest subscription reach of any vendor here.
+Active, with the developer pricing page fetched and current as of 2026-10-02, and the widest subscription reach of any vendor here.
 The 2026 lineup changed materially: Business replaced the Team plan on April 2, the same day Codex billing moved from per-message to token-based credits, and the Go tier appeared below Plus.
 The current GPT-6 lineup (Astra, Sol, Luna) carries the plans, with Sol and Luna launched 2026-09-22 per the [Model Selection guide](../../model-selection-for-coding-tasks/index.md) and already listed as included on Plus and Pro in the fetched plan documentation.
+By 2026-10-02 the Pro plan lists three price points ($100, $200, $500) and the page states Pro plans currently have no five-hour limit, with the published message-range tables now covering Plus and Standard Business only.
 
 ## Strengths
 
-- The most published mechanics in the category: official per-model message ranges per 5-hour window, for example GPT-6 Luna at 350-3,000 local messages on Plus versus 7,000-56,000 on Pro 20x.
+- The most published mechanics in the category: official per-model message ranges per 5-hour window, for example GPT-6 Luna at 350-3,000 local messages on Plus, with Pro plans currently stated to have no five-hour limit at all.
 - Credits extend usage past included limits without upgrading, and Business sits at $25/user with SSO and no training on your data, the sensible team floor.
 - The Go tier at $8 is the cheapest named subscription carrying an agentic coder in this category.
 - Cloud tasks open pull requests end to end, the strongest hosted-agent story among the vendor plans.
@@ -46,7 +47,7 @@ The current GPT-6 lineup (Astra, Sol, Luna) carries the plans, with Sol and Luna
 Free: $0, Codex for quick tasks with limited usage.
 Go: $8/month, lightweight coding.
 Plus: $20/month, a few focused sessions a week, GPT-6 Sol and Luna included.
-Pro: $100/month for 5x Plus usage, $200/month for 20x.
+Pro: $100/month for 5x Plus usage, $200/month for 20x, and a $500/month tier with GPT-6 Astra Ultrafast access (all three listed as of 2026-10-02).
 Business: $25/user/month ($20 annual, minimum 2 seats), Codex via workspace credits.
 Enterprise: custom, flexible credit pricing.
 Credits purchase past included limits; API-key Codex usage bills at API rates outside any plan.
@@ -59,6 +60,7 @@ Credits purchase past included limits; API-key Codex usage bills at API rates ou
 | 2026 | Pro | Split into the $100 (5x) and $200 (20x) usage tiers; a single-tier Pro preceded it | https://automationatlas.io/answers/chatgpt-codex-pricing-explained-2026 |
 | 2026-04-02 | Business | Team at $30/user replaced by Business at $25/user ($20 annual, minimum 2 seats) | https://automationatlas.io/answers/chatgpt-codex-pricing-explained-2026 |
 | 2026-04-02 | Billing | Codex usage moved from per-message to token-based credit billing across Plus, Pro, Business, and Enterprise | https://automationatlas.io/answers/chatgpt-codex-pricing-explained-2026 |
+| 2026-10-02 | Pro | Third Pro tier listed at $500/month with GPT-6 Astra Ultrafast access; page states Pro plans currently have no five-hour limit, message ranges now published for Plus and Standard Business only | https://developers.openai.com/codex/pricing |
 
 ## Compared to
 
@@ -75,6 +77,7 @@ My disagreeable claim: the published message ranges are more concrete than Anthr
 ## Changes
 
 - 2026-09-26 - Created when the owner asked why the Claude and OpenAI subscriptions were missing from this category.
+- 2026-10-02 - Pro gained a third tier at $500/month with GPT-6 Astra Ultrafast access, the page now states Pro plans have no five-hour limit (message ranges published for Plus and Standard Business only), and GPT-6.1 Sol joined the credit rate table; price history row appended.
 
 ## See also
 
@@ -85,7 +88,7 @@ My disagreeable claim: the published message ranges are more concrete than Anthr
 
 ## References
 
-- https://developers.openai.com/codex/pricing - plan prices, per-model message ranges, credit rates, GPT-5.5 retirement, feature availability matrix (fetched 200, 2026-09-26)
+- https://developers.openai.com/codex/pricing - plan prices including the $500 Pro tier, per-model message ranges, credit rates, GPT-5.5 retirement, feature availability matrix (fetched 200, 2026-10-02)
 - https://automationatlas.io/answers/chatgpt-codex-pricing-explained-2026 - the April 2 Business replacement, the credit-billing switch, Business seat pricing, the real-world cost range and shared-window practitioner note (fetched 200, updated 2026-07-31)
 - https://www.simplemetrics.xyz/chatgpt-codex-limits-2026 - independent limit analysis, the ranges-vs-fixed-caps framing, GPT-5.6 family tables (fetched via search extraction, updated 2026-09-09)
 - https://help.openai.com/en/articles/11481834-chatgpt-rate-card-business-enterpriseedu - the business credit rate card and the August 31 GPT-5.4 retirement note (linked from the fetched developer pricing page; not separately fetched)

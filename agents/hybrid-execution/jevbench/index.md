@@ -1,7 +1,7 @@
 ---
 title: JevBench
 created: 2026-09-22
-updated: 2026-09-29
+updated: 2026-10-02
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, hybrid-execution, structured-outputs, system-one-models, decision-models, benchmarking, model-evaluation]
 readability: 3
@@ -26,9 +26,10 @@ The v1.2 board holds 48 ranked rows spanning hosted APIs, the open replicas, rer
 
 ## Status
 
-Active and gaining traction, as of 2026-09-29.
-The repository was created 2026-09-19, pushed 2026-09-28, and shows 175 stars and 18 forks, with five scoring releases since my first check (v1.4.0 through v1.4.2.2, September 23-27).
-The Show HN thread (2026-09-22) climbed from 92 points when this note was created to 151 as of 2026-09-29, clearing the 100-point bar it originally sat under.
+Active and gaining traction, as of 2026-10-02.
+The repository was created 2026-09-19, pushed 2026-09-29, and shows 195 stars and 22 forks, with five scoring releases since my first check (v1.4.0 through v1.4.2.2, September 23-27).
+The Show HN thread (2026-09-22) climbed from 92 points when this note was created to 153 as of 2026-10-02, clearing the 100-point bar it originally sat under.
+The author has also opened a second front: an ImageJevBench v0.1.x image-modality track now lives in the repository under results/imagejevbench, with a frozen 228-public plus 456-sealed split, and its v0.1.3 candidate re-measured Imajev-4B first of 49 at 76.39 on a paid fast-serving GPU run, a separate board from the unchanged text ranking.
 The v1.4 sealed-decision revision is the significant event: re-scoring against 308 decisions the entrants had not seen dropped SemIf from second (73.1) to eighth (47.7), kev-4B from 59.7 to 36.1, and Nimble from 60.5 to 18.7, while Jev held first, which is either the benchmark working as designed or evidence the public half was being selected against, depending on whose thread comment you read.
 The v1.4.2 point release (September 24) then added eleven new systems and completed swanOne's sealed run, and the new #1 was not Jev: decider-4b v2 (Mapika) took the top spot at 64.13 with Jev second at 63.29, JevK5 third (62.04), Cygnet fourth (61.76), and Hopper fifth (59.43), and the new leader's row carried its own caveats (34.7% sealed accuracy, an estimated price basis, and unaudited private stage-2 training rows).
 The v1.4.2.1 point release (2026-09-27) then added Plumb-4B, a JevK5 v0.2 plus LoRA rebuild by crh225, which took the top spot at 65.84 and pushed Jev to third, though Jev keeps the best intelligence (53.1) and calibration (76.3) of the new top five, and Plumb's row leans on an estimated price basis of its own (a bookable GPU rate, not a bill).
@@ -76,6 +77,7 @@ The disagreeable claim I will defend: this benchmark's most important number is 
 - 2026-09-26 - The v1.4.2 point release (September 24) added eleven systems and a new #1: decider-4b v2 (Mapika) 64.13, Jev second at 63.29 with the top five's best intelligence and calibration, JevK5, Cygnet, and Hopper rounding out the five; refreshed stars (136), forks (14), pushed date (2026-09-25), and the thread (147 points); the board now holds 93 systems, 89 ranked, with a v1.4.3 roster pending.
 - 2026-09-27 - The v1.4.2.1 point release added Plumb-4B (crh225, JevK5 v0.2 plus LoRA), which took the top spot at 65.84 and pushed Jev to third at 63.29, still the top five's best intelligence and calibration; refreshed stars (141), forks (15), pushed date (2026-09-27), and the thread (149 points); the board holds 94 systems, 90 ranked.
 - 2026-09-29 - The v1.4.2.2 point release added Imajev-4B (mohit67890, priced on a public DeepInfra Qwen3.5-4B rate estimate), which took the top spot at 67.37 and pushed Jev to fourth at 63.29, and recorded that Laya Vision stays off the board under an author-confirmation hold; refreshed stars (175), forks (18), pushed date (2026-09-28), and the thread (151 points); the board holds 95 systems, 91 ranked.
+- 2026-10-02 - Recorded the ImageJevBench v0.1.x image-modality track (frozen 228-public plus 456-sealed split; its v0.1.3 candidate re-measured Imajev-4B first of 49 at 76.39 on a paid fast-serving GPU run, a second board beside the unchanged text ranking); refreshed stars (195), forks (22), pushed date (2026-09-29), and the thread (153 points).
 
 ## See also
 
@@ -87,10 +89,11 @@ The disagreeable claim I will defend: this benchmark's most important number is 
 
 ## References
 
-- https://github.com/fstandhartinger/jevbench - repository: MIT, created 2026-09-19, 175 stars, 18 forks, pushed 2026-09-28 (GitHub API, as of 2026-09-29)
+- https://github.com/fstandhartinger/jevbench - repository: MIT, created 2026-09-19, 195 stars, 22 forks, pushed 2026-09-29 (GitHub API, as of 2026-10-02)
+- https://raw.githubusercontent.com/fstandhartinger/jevbench/main/results/imagejevbench/v0.1.3/README.md - the ImageJevBench v0.1.x candidate: 228-public plus 456-sealed image split, Imajev-4B re-measured first of 49 at 76.39
 - https://raw.githubusercontent.com/fstandhartinger/jevbench/main/README.md - the v1.4.1 score design, the 220 hard decisions frozen and hashed, the honorable-mention rule, and the option-order finding
 - https://raw.githubusercontent.com/fstandhartinger/jevbench/main/results/v1.4.2.2/jevbench-v1.4.2.2-results.json - the v1.4.2.2 aggregate board (95 systems, 91 ranked) behind the Imajev-4B addition, read together with docs/RELEASE-v1.4.2.2.md and its 2026-09-28 text-only cost-basis correction
 - https://raw.githubusercontent.com/fstandhartinger/jevbench/main/results/v1.4.2.1/jevbench-v1.4.2.1-results.json - the v1.4.2.1 aggregate board (94 systems, 90 ranked) behind the Plumb-4B addition, read together with docs/RELEASE-v1.4.2.1.md
 - https://raw.githubusercontent.com/fstandhartinger/jevbench/main/RESULTS-v1.2.md - the full 48-row v1.2 board with per-axis scores, endpoints, and the times-two adjustment note
 - https://raw.githubusercontent.com/fstandhartinger/jevbench/main/results/v1.2/jevbench-v1.2-results.json - the frozen results artifact behind the board
-- https://news.ycombinator.com/item?id=49800574 - the launch thread (151 points as of 2026-09-29, 2026-09-22, 22 comments at creation), its methodology and model-set objections the critical source (fetched via the Algolia items API)
+- https://news.ycombinator.com/item?id=49800574 - the launch thread (153 points as of 2026-10-02, 2026-09-22, 22 comments at creation), its methodology and model-set objections the critical source (fetched via the Algolia items API)

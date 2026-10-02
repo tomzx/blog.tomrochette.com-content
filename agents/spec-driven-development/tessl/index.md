@@ -24,7 +24,7 @@ Its open-source surface is deliberately thin: the [tesslio/cli](https://github.c
 Funded and building, quiet on GitHub.
 The Series A announcement (November 2024) declared $125M for the platform; the founding announcement (October 2024) frames Podjarny's pivot from Snyk's security mission to AI-native development.
 **The strongest third-party signal is Martin Fowler's October 2025 analysis naming Tessl one of the three SDD pillars alongside Kiro and Spec Kit (the 128-point thread), which treats it as a serious approach while noting it was then the least mature of the three.**
-The CLI has not been pushed since 2026-03-05, which is consistent with a web-first roadmap and worth re-checking before adopting (re-confirmed unchanged, now at 70 stars, on 2026-09-27).
+The CLI has not been pushed since 2026-03-05, which is consistent with a web-first roadmap and worth re-checking before adopting (re-confirmed unchanged, now at 70 stars, on 2026-10-02).
 
 ## Strengths
 
@@ -36,13 +36,13 @@ The CLI has not been pushed since 2026-03-05, which is consistent with a web-fir
 ## Cautions
 
 - Web-first means your specs live in someone else's platform; export and portability are the questions to ask before committing.
-- Venture-scale expectations in a category where the free tools (spec-kit 137k stars, OpenSpec 68k, BMad 53k) set the price anchor at zero.
+- Venture-scale expectations in a category where the free tools (spec-kit about 140k stars, OpenSpec about 71k, BMad about 54k) set the price anchor at zero.
 - The Vibe Kanban shutdown record in this section shows what happens to agent-layer SaaS without a business model; Tessl's counter-bet is that specs are stickier than boards.
 - Third-party coverage beyond the Fowler piece is thin, and its GitHub surface is too small to audit.
 
 ## Pricing
 
-Platform tiers are now published on tessl.io (free since 2026-09-08, re-verified 2026-09-27): Free at $0 per month with 1,000 credits, Team at $100 per month with 5x the credits, and Enterprise custom.
+Platform tiers are now published on tessl.io (free since 2026-09-08, re-verified 2026-10-02): Free at $0 per month with 1,000 credits, Team at $100 per month with 5x the credits, and Enterprise custom.
 The credit model is subscription metering, not open source, as the raise implied.
 
 ## Price history

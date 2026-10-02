@@ -1,7 +1,7 @@
 ---
 title: Experiential
 created: 2026-09-27
-updated: 2026-09-27
+updated: 2026-10-02
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, model-access, llm-gateway, self-hosted, model-routing]
 readability: 3
@@ -24,10 +24,10 @@ The GitHub repo language reads Python; the Rust data plane claim comes from the 
 
 ## Status
 
-Very active and compounding fast: 7,088 stars and 210 forks as of 2026-09-27, pushed the same day, created 2026-06-24.
+Very active and compounding fast: 7,592 stars and 217 forks as of 2026-10-02, pushed the same day, created 2026-06-24.
 The Show HN launch ("We built open OpenRouter that turns usage into a better model") reached 222 points on 2026-08-27 with 47 comments, and the star count has since grown roughly an order of magnitude past the ~820 the entrant data recorded around 2026-09-21.
-PyPI shows 137 releases since first upload on 2026-08-20, latest 0.7.125 on 2026-09-26, requiring Python 3.12+.
-Eighty-five open issues, a Discord, and YC backing as of 2026-09-27.
+PyPI shows 153 releases since first upload on 2026-08-20, latest 0.7.141, requiring Python 3.12+, with GitHub releases now at v0.7.143 (2026-10-02).
+One hundred open issues, a Discord, and YC backing as of 2026-10-02.
 
 ## Strengths
 
@@ -44,20 +44,22 @@ Eighty-five open issues, a Discord, and YC backing as of 2026-09-27.
 - `exp capture` is certificate-installing interception software on your own machine, experimental, and macOS-only.
 - Router switches can forfeit provider prompt-cache discounts, the thread's sharpest technical objection, and semantic caching is explicitly not planned.
 - The dashboard shown in the README is the hosted platform, not something the open repo gives you, as one commenter discovered.
-- 0.7.x with 137 releases in five weeks and 85 open issues is churn, not stability.
+- 0.7.x with 153 releases in six weeks and 100 open issues is churn, not stability.
 
 ## Pricing
 
 Free plan: $0 per month, 500 hosted credits monthly after a one-time $1 card verification.
-Pro plan: $20 per month for 2,000 credits (1 cent per credit, scalable to 500,000), adding BYOK, local models, caching, model suggestions, and auto routing.
+Pro is a credit ladder from $20 to $199 per month (2,000 credits at the $20 floor, scalable to 1,000,000), and above it sit self-serve Max ($200 to $1,999 per month) and Ultra ($2,000 and up) tiers with higher rate limits (Free Tier 1, Pro Tier 2, Max Tier 3, Ultra Tier 4, Tier 5 by request).
+Model discounts (up to 100% off select models, for example 50% off DeepSeek V4 Flash) apply to the first 2,000 credits of usage each month, then list price.
 Enterprise: custom committed credits at the lowest rate, adding SSO/SAML/SCIM, advanced RBAC, private networking, data residency, security reviews, and a model trained on your traffic.
-Routed tokens stay at provider cost with 0% markup on every plan, and self-hosting the gateway is free, as of 2026-09-27.
+Routed tokens stay at provider cost with 0% markup on every plan, and self-hosting the gateway is free, as of 2026-10-02.
 
 ## Price history
 
 | Date | Plan | Change | Source |
 | ---- | ---- | ------ | ------ |
 | 2026-09-27 | Free / Pro / Enterprise | Baseline: Free $0 (500 credits after $1 verification), Pro introduced at $20 per month (2,000 credits), Enterprise custom committed credits | https://www.experientiallabs.ai/pricing |
+| 2026-10-02 | Pro / Max / Ultra | Credit ladder documented from $20 to $199 per month (to 1,000,000 credits), with self-serve Max ($200 to $1,999) and Ultra ($2,000+) tiers and per-model discounts on the first 2,000 credits each month | https://www.experientiallabs.ai/pricing |
 
 ## Compared to
 
@@ -74,6 +76,7 @@ My disagreeable claim: the traffic-trained router is the demo rather than the pr
 ## Changes
 
 - 2026-09-27 - Created when the owner's GitHub-stars candidates were processed.
+- 2026-10-02 - Pricing page expanded: Pro became a credit ladder from $20 to $199 per month and self-serve Max ($200 to $1,999) and Ultra ($2,000+) tiers appeared above it, with model discounts on the first 2,000 credits each month; price history row appended, plus refreshed adoption numbers (7,592 stars, PyPI 0.7.141).
 
 ## See also
 
@@ -85,9 +88,9 @@ My disagreeable claim: the traffic-trained router is the demo rather than the pr
 
 ## References
 
-- https://api.github.com/repos/experientiallabs/experiential - 7,088 stars, 210 forks, Apache-2.0, pushed 2026-09-27 (200, fetched 2026-09-27)
+- https://api.github.com/repos/experientiallabs/experiential - 7,592 stars, 217 forks, Apache-2.0, pushed 2026-10-02 (200, fetched 2026-10-02)
 - https://raw.githubusercontent.com/experientiallabs/experiential/main/README.md - architecture, capture mode, PostHog telemetry enabled by default, optimize workflow (200)
 - https://hn.algolia.com/api/v1/items/49471407 - Show HN thread, 222 points, created 2026-08-27, caching objection, telemetry contradiction, rug-pull accusation (200)
-- https://www.experientiallabs.ai/pricing - Free $0, Pro $20, Enterprise custom, 0% markup, YC backing (200)
-- https://pypi.org/pypi/experiential/json - 0.7.125, first upload 2026-08-20, 137 releases, Python 3.12+ (200)
+- https://www.experientiallabs.ai/pricing - Free $0, Pro credit ladder $20 to $199, Max $200 to $1,999, Ultra $2,000+, 0% markup, YC backing (200, fetched 2026-10-02)
+- https://pypi.org/pypi/experiential/json - 0.7.141, first upload 2026-08-20, 153 releases, Python 3.12+ (200, re-checked 2026-10-02)
 - https://platform.experientiallabs.ai/docs - fetched with status 200 but renders as an empty JavaScript shell, so nothing citable was taken from it

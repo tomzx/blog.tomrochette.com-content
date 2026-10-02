@@ -23,8 +23,8 @@ The training data itself is not released (some sources are share-alike), and the
 
 ## Status
 
-One day old and loud: the launch Show HN thread (2026-09-28) reached 471 points as of 2026-09-29.
-The repository was created 2026-09-28 and pushed 2026-09-29, with 674 stars and 23 forks; Hugging Face had not yet registered meaningful checkpoint downloads at check time.
+Four days old and loud: the launch Show HN thread (2026-09-28) reached 573 points as of 2026-10-02.
+The repository was created 2026-09-28 and pushed 2026-10-01, with about 1,260 stars and 56 forks; Hugging Face had registered no meaningful checkpoint downloads at creation check and now shows about 1,270 for the 0.8B and about 560 for the 2B as of 2026-10-02.
 Latency is the headline: about 22 ms per decision on an RTX PRO 6000, 28 ms on an M4 Max through MLX, 463 ms on a 32-thread CPU, against Jev's published 114-212 ms per API call in its Doom runs (not measured on the same hardware).
 The self-run benchmarks cover 4,599 questions from five public suites (BBH, Financial PhraseBank, JudgeBench, RAGTruth, WinoGrande) plus JevBench's public hard tier scored separately: Jeff-2B posts 83.1 overall against Jev's published 83.0 and AutoJev-27B's 84.9, winning Financial PhraseBank (96.3 versus 77.0) and RAGTruth (88.9 versus 77.3) while staying well below Jev on BBH (68.0 versus 94.3), JudgeBench, WinoGrande, and the JevBench hard tier (53.3 versus 73.3).
 Zero-shot games back the generality claim: Jeff-0.8B took 57.0 of 98 Pac-Man pellets against 11.2 for random moves, and Doom kills matching a hand-coded rule bot.
@@ -54,7 +54,7 @@ The cost is your own GPU and, if you retrain, the synthetic-data generation run.
 
 - [Jev](../jev/index.md): the closed original wins every reasoning-heavy benchmark and carries no weights; Jeff wins the classification slices and runs at 22 ms on your own machine, which is exactly the trade its README states.
 - [Kev](../kev/index.md): the other Jev-API-compatible family; kev ships the pre-registered locked-test eval discipline and delta fine-tunes, Jeff ships the frankest benchmark table and the cheaper training recipe.
-- [NanoJev](../nanojev/index.md): the other small self-run replica; NanoJev benchmarked games with zero community attention, Jeff arrived with a 471-point thread on day one.
+- [NanoJev](../nanojev/index.md): the other small self-run replica; NanoJev benchmarked games with zero community attention, Jeff arrived with a 573-point thread in its first week.
 
 ## Bottom line
 
@@ -76,8 +76,8 @@ The disagreeable claim I will defend: matching Jev's published overall while con
 
 ## References
 
-- https://github.com/firelex/jeff - repository: MIT, created 2026-09-28, 674 stars, 23 forks, pushed 2026-09-29 (GitHub API, as of 2026-09-29)
+- https://github.com/firelex/jeff - repository: MIT, created 2026-09-28, about 1,260 stars, 56 forks, pushed 2026-10-01 (GitHub API, as of 2026-10-02)
 - https://raw.githubusercontent.com/firelex/jeff/main/README.md - the benchmark table, games, speed table, caveats, and the AutoJev lineage
-- https://huggingface.co/mstrasser/Jeff-Qwen3.5-0.8B - the 0.8B checkpoint: Apache-2.0, created 2026-09-28
-- https://news.ycombinator.com/item?id=49883844 - the launch thread (471 points as of 2026-09-29, 2026-09-28), including the negative real-world classification reports
+- https://huggingface.co/mstrasser/Jeff-Qwen3.5-0.8B - the 0.8B checkpoint: Apache-2.0, created 2026-09-28, about 1,270 downloads as of 2026-10-02
+- https://news.ycombinator.com/item?id=49883844 - the launch thread (573 points as of 2026-10-02, 2026-09-28), including the negative real-world classification reports
 - https://github.com/denis-pplx/autojev - the parent recipe: MIT, 93 stars, fine-tunes Qwen3.8-27B for Jev-style decisions

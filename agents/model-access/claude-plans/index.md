@@ -22,7 +22,7 @@ Team seats run $25 per month ($20 annual) for Standard and $100 ($125 monthly, $
 
 ## Status
 
-Active and the default way engineers pay for Claude Code, with the pricing page fetched and current as of 2026-09-26.
+Active and the default way engineers pay for Claude Code, with the pricing page fetched and current as of 2026-10-02.
 The 2026 record is lively: an April pricing-page test briefly removed Claude Code from Pro and was reverted within a day, a caching bug behind spring "usage drain" complaints was postmortemed on April 23 with limits reset, 5-hour limits were permanently doubled on May 6, and the weekly-limit promotion of May 13 was extended through August 19, 2026.
 **The subscription has been repricing its value, not its price: the dollar figures are stable while the quota they buy keeps moving, which makes old guides the main hazard.**
 

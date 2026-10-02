@@ -1,7 +1,7 @@
 ---
 title: LangChain
 created: 2026-08-24
-updated: 2026-09-26
+updated: 2026-10-02
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, rag, agents, frameworks]
 readability: 3
@@ -23,7 +23,7 @@ The commercial side is LangSmith: tracing, evaluation, deployment, sandboxes, an
 ## Status
 
 Active and dominant by footprint.
-The `langchain-ai/langchain` repository shows 147.1k stars and 24.6k forks as of 2026-09-26, with 16,856 commits as of 2026-09-26.
+The `langchain-ai/langchain` repository shows 147.4k stars and 24.7k forks as of 2026-10-02, with 16,908 commits as of 2026-10-02.
 **The telling history: after the 2024 "death by abstraction" wave, the company publicly moved to lower-level primitives (LangGraph, then create_agent), and is now climbing back up with Deep Agents, dcode, and OpenWiki, a CLI that writes agent wikis for coding agents.**
 
 ## Strengths
@@ -43,7 +43,7 @@ The `langchain-ai/langchain` repository shows 147.1k stars and 24.6k forks as of
 ## Pricing
 
 OSS (LangChain, LangGraph, Deep Agents, dcode): free, MIT.
-LangSmith as of 2026-09-22: Developer $0 with 5k base traces/month, Plus $39/seat/month with 10k base traces, Enterprise custom, plus metered units (LCU at $1.50, LSU at $1.00) for deployments, sandboxes, Engine, and Fleet.
+LangSmith as of 2026-10-02: Developer $0 with 5k base traces/month, Plus $39/seat/month with 10k base traces, Enterprise custom, with usage metered in LangChain Standard Units at $1.00 per LSU across Deployment, Sandboxes, Engine, and Fleet.
 **The framework is free forever; the operations layer around it is where the bill lives.**
 
 ## Price history
@@ -51,6 +51,7 @@ LangSmith as of 2026-09-22: Developer $0 with 5k base traces/month, Plus $39/sea
 | Date | Plan | Change | Source |
 | ---- | ---- | ------ | ------ |
 | 2026-09-18 | LangSmith | Baseline: OSS free (MIT); LangSmith Developer $0 (5k traces/mo), Plus $39/seat/mo (10k traces), Enterprise custom, metered units LCU $1.50 and LSU $1.00. | [langchain.com/pricing](https://www.langchain.com/pricing) |
+| 2026-10-02 | LangSmith | The LCU ($1.50) line item no longer appears on the pricing page; usage metering is consolidated in LSUs at $1.00, plan prices unchanged. | [langchain.com/pricing](https://www.langchain.com/pricing) |
 
 ## Compared to
 
@@ -70,6 +71,7 @@ Disagree if you like; the retrieval-first framing is my call, not the docs'.
 - 2026-09-18 - Refreshed volatile facts for the 2026-09-18 verification: 146.6k stars, 24.5k forks, 16,782 commits, LangSmith pricing re-confirmed unchanged.
 - 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
 - 2026-09-25 - Refreshed volatile facts: 147.0k stars, 24.6k forks, 16,852 commits as of 2026-09-25; LangSmith pricing re-confirmed unchanged.
+- 2026-10-02 - Recorded the LangSmith pricing page consolidating metering in LSUs at $1.00 with the LCU ($1.50) line item gone, appended the price history row, and refreshed the repository numbers (147.4k stars, 24.7k forks, 16,908 commits).
 
 ## See also
 
@@ -80,9 +82,9 @@ Disagree if you like; the retrieval-first framing is my call, not the docs'.
 
 ## References
 
-- https://github.com/langchain-ai/langchain - repository scale (147.1k stars), MIT license, platform positioning, as of 2026-09-26
+- https://github.com/langchain-ai/langchain - repository scale (147.4k stars), MIT license, platform positioning, as of 2026-10-02
 - https://docs.langchain.com/oss/deepagents/code/overview.md - dcode, the terminal coding agent built on Deep Agents
 - https://docs.langchain.com/oss/python/langchain/retrieval.md - RAG architectures: 2-step, agentic, hybrid, and the agentic-RAG-first framing
-- https://www.langchain.com/pricing - LangSmith tiers and LCU/LSU metering, as of 2026-09-22
+- https://www.langchain.com/pricing - LangSmith tiers and LSU metering, as of 2026-10-02
 - https://news.ycombinator.com/item?id=40739982 - the Octomind critique thread with the CEO's response acknowledging over-abstraction
 - https://python.langchain.com/api_reference/text_splitters/text_splitters/code_splitter.html - current text splitters catalog, showing separator-based code splitting only

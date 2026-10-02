@@ -24,7 +24,7 @@ Made by Kenn Software LLC; install via curl script, Homebrew cask, desktop build
 
 ## Status
 
-Young and active: 6,001 stars, 684 forks, 189 open issues and PRs as of 2026-09-27, created 2026-02-19.
+Young and active: 6,035 stars, 683 forks, 159 open issues and PRs as of 2026-10-02, created 2026-02-19.
 Latest release v0.44.0 on 2026-09-21 with steady releases since July; pre-1.0 with fast feature churn.
 
 ## Strengths

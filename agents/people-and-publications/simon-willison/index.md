@@ -23,7 +23,7 @@ He coined the widely quoted framing of LLMs as a "weird, over-confident intern" 
 ## Status
 
 Active and as influential as ever.
-As of 2026-09-30 the homepage shows posts daily, sometimes several a day, through 29 September 2026, with the month's landmark essays "2026 in LLMs (so far)" (2026-09-27, his 7,771-word annotated keynote from the WeAreDevelopers World Congress North America), the OpenAI DevDay 2026 live blog (2026-09-29, filed from the keynote at Fort Mason), and "Claude Opus 5.5, GPT-6 Sol, GPT-6 Luna, and a new price war" (2026-09-22), plus dedicated tag streams for agentic-engineering, coding-agents, and ai-assisted-programming.
+As of 2026-10-02 the homepage shows posts daily, sometimes several a day, through 1 October 2026, with the month's landmark essays "2026 in LLMs (so far)" (2026-09-27, his 7,771-word annotated keynote from the WeAreDevelopers World Congress North America), the OpenAI DevDay 2026 live blog (2026-09-29, filed from the keynote at Fort Mason), and "Claude Opus 5.5, GPT-6 Sol, GPT-6 Luna, and a new price war" (2026-09-22), plus dedicated tag streams for agentic-engineering, coding-agents, and ai-assisted-programming.
 He is also convening offline: a Birds of a Feather session on agentic engineering with Jesse Vincent in San Francisco, announced on the homepage 2026-09-22 for 14 October.
 He ships code on the blog too: the sqlite-utils 4.0 release notes record that much of it was written by a coding agent, so the blog is documentation of his own agent loops, not just commentary on them.
 

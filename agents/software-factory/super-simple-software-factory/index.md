@@ -1,7 +1,7 @@
 ---
 title: "Super Simple Software Factory"
 created: 2026-08-29
-updated: 2026-09-27
+updated: 2026-10-02
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=big-pickle, llm=glm-5.3-flash, software-factory, agentic-workflows, sdlc]
 readability: 3
@@ -21,7 +21,7 @@ It is built on the `pi` coding agent plus `uv`, and there is a Vue-and-Bun visua
 
 ## Status
 
-Active, young, and deliberately small: 898 stars and 234 forks since creation on 2026-08-02, with the last push on 2026-08-04, as of 2026-09-27.
+Young, deliberately small, and quiet since launch: 918 stars and 237 forks since creation on 2026-08-02, with no push since 2026-08-04, nearly two months before 2026-10-02.
 The repository has a single commit on `main`, no releases, and a separate `example` branch that holds a demo repo with the factory already stamped in and real traces.
 This is a one-author starting point ("nothing here is meant to survive contact with your codebase unchanged"), not an actively multiplying ecosystem.
 
@@ -61,6 +61,7 @@ Not for one-off features, which a single agent prompt handles cheaper, and not f
 
 - 2026-08-29 - Created as the founding member of the new Software factory category.
 - 2026-08-29 - Compared-to rewritten to name Fluent and HAR as peers.
+- 2026-10-02 - Marked the repository quiet since 2026-08-04 (no push in nearly two months as of 2026-10-02) and refreshed counts.
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: "Harness Feature Matrix"
 created: 2026-08-24
-updated: 2026-09-27
+updated: 2026-10-02
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, comparison, harnesses, coding-agents]
 readability: 3
@@ -26,7 +26,7 @@ Each column links to the full research note; every cell below traces to a source
 | BYOK | ✓ | ✓ fee-free outside Enterprise | ✓ | ? | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ~ AI Gateway key only | ✓ paid keys | ✓ | ✓ custom models via base_url | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ~ BYOC at paid tiers | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ provider-agnostic adapter | ✓ | ? | ✓ |
 | Included subscription usage | ✗ | ✓ | ✓ | ✗ free, no subscriptions | ✓ | ~ via ClinePass | ✓ | ~ via Hyper | ✗ BYO keys only | ✗ API keys only | ~ Codex and Grok OAuth | ✗ enterprise only | ~ via ACP subs | ~ OIDC login default, terms undocumented | ✓ OAuth and multi-account | ✓ | ✓ | ~ kilo credits | ~ via Kimi OAuth | ✓ Xiaomi Token Plan and Claude/Codex import | ~ $5 credits at $0 tier | ✗ BYO keys only | ~ via Zen | ~ ChatGPT Plus/Pro for Codex models | ✓ Claude, ChatGPT, Copilot | ~ Coding Plan weekly quota | ? | ✓ | ✓ GLM Coding Plan | ✗ |
 | Local models | ✓ | ✗ | ✓ embedded llama.cpp | ✗ hosted models only | ✗ | ✓ | ✗ | ✓ | ~ OpenAI-compatible endpoints | ✗ | ~ custom model connections for Ollama, vLLM, and OpenRouter (shipped in v0.0.11, OpenAI Chat Completions endpoints only) | ✗ | ✓ | ~ custom model base_url | ✓ Ollama and LM Studio | ✓ Ollama | ✓ Ollama and LM Studio, plus on-device Junie Local | ✓ Ollama and LM Studio | ✗ | ✓ custom OpenAI-compatible endpoints | ? | ✓ targets open models (Kimi K3, GLM) | ✓ | ✓ LM Studio, Ollama, vLLM | ✓ llama.cpp | ✓ | ~ provider-agnostic adapter, none named | ✗ | ✗ | ✓ Ollama |
-| MCP | ✗ | ✓ | ✓ | ? | ✓ | ✓ | ✓ | ✓ | ? | ? | ✓ | ✓ | ✓ | ✓ | ~ stdio only | ✓ | ✓ | ✓ | ✓ | ✓ local, remote, and OAuth | ? | ~ Codex CLI lineage | ✓ | ✓ | ✗ by design | ✓ | ? | ~ curated MCP tools on paid plans | ? | ~ compile-time feature |
+| MCP | ✗ | ✓ | ✓ | ? | ✓ | ✓ | ✓ | ✓ | ? | ? | ✓ | ✓ | ✓ | ✓ | ~ stdio only | ✓ | ✓ | ✓ | ✓ | ✓ local, remote, and OAuth | ? | ~ Codex CLI lineage | ✓ | ✓ | ~ built-in extension since v0.99.0, config-driven | ✓ | ? | ~ curated MCP tools on paid plans | ? | ~ compile-time feature |
 | AGENTS.md | ✗ | ✓ | ✓ | ? | ~ reads CLAUDE.md | ✓ plus .clinerules | ✓ | ✓ plus CRUSH.md | ? | ? | ✓ native | ~ GEMINI.md native | ✓ plus .goosehints | ✓ plus CLAUDE.md and .cursor rules | ✓ native plus ~/AGENTS.md | ? | ✗ uses guidelines.md | ✓ plus .kilocoderules | ? | ✓ plus CLAUDE.md | ? | ~ Codex CLI lineage | ✓ plus CLAUDE.md | ✗ uses .openhands | ? | ~ QWEN.md native | ? | ? | ? | ✓ plus ARCHITECTURE.md |
 | Subagents | ✗ | ✓ | ✓ | ? | ✓ | ✓ teams | ✓ | ? | ✓ | ~ agent clones and lineage | ✓ persistent children | ✗ | ✓ | ✓ built-in and custom types | ✓ swarm workers | ~ read-only | ✗ | ✓ custom and built-in | ✓ coder, explore, plan | ✓ on-demand, parallel, tracked | ? | ? | ✓ | ~ delegates via ACP | ~ via extensions | ✓ teams | ✗ none by design | ~ multi-agent orchestration | ~ multi-agent framing | ✓ |
 | Hooks, skills, plugins | ~ lint and test only | ✓ plugins gate tools | ~ skills only | ? | ✓ hooks and skills | ✓ skills and SDK plugins | ✓ skills and marketplace | ✓ skills | ✓ plugins and skills | ~ self-editing tooling | ~ skills only | ? | ✓ hooks and plugins | ✓ all three, plus marketplaces | ✓ hooks and embedding-gated skills | ~ extension SDK | ~ execution allowlists | ✓ skills and hooks | ✓ hooks and marketplace skills | ✓ skills, plugins, workflows | ? | ~ /harness per-model emulation (claude-code, kimi-code, qwen-code, deepseek-tui, swe-agent, minimal) | ✓ skills and plugins | ✓ hooks, skills, plugins | ✓ extensions and skills | ✓ hooks and auto-skills | ~ skill-use tool, no hooks by stance | ? | ~ skills | ~ hooks, prompt modes replace skills |
@@ -39,7 +39,7 @@ Each column links to the full research note; every cell below traces to a source
 I read this table by columns rather than rows: pick the two rows you actually care about, then let the rest fall away.
 The Company row is context, not a feature axis: it names the maker (or, for goose, the foundation that now stewards the code) and links each site.
 **The open-client column splits the field into three groups, and each group answers a different buyer.**
-aider, Cline, Codex, Exo, fx, Gemini CLI, goose, Grok Build, Juggler, jcode, Kimi Code, Kilo Code, MiMo Code, OneCLI, OpenCode, OpenHands, Qwen Code, Unreal Agent, ZCode, and Zerostack hand you auditable code; Crush is source-available with a competing-use restriction that expires per version, and Ante publishes Apache-2.0 source whose prebuilt binaries answer to separate preview terms; Amp, Bullet, Claude Code, Junie, and Warp Agent CLI are binaries you trust.
+aider, Cline, Codex, Exo, fx, Gemini CLI, goose, Grok Build, Juggler, jcode, Kimi Code, Kilo Code, MiMo Code, OneCLI, OpenCode, OpenHands, Pi, Qwen Code, Unreal Agent, ZCode, and Zerostack hand you auditable code; Crush is source-available with a competing-use restriction that expires per version, and Ante publishes Apache-2.0 source whose prebuilt binaries answer to separate preview terms; Amp, Bullet, Claude Code, Junie, and Warp Agent CLI are binaries you trust.
 MiMo Code carries an extra `USE_RESTRICTIONS.md` addendum on top of its MIT grant, which its own paragraph below names.
 
 **Subscription versus keys is the second axis, and it is orthogonal to openness.**
@@ -53,7 +53,7 @@ The six new columns spread across the same axis: Ante and Juggler take subscript
 **fx, the fourteenth column at the time it joined, redelines the axis itself:** it is the only harness here built to be a dependency instead of an environment, and the only open one whose tokens must cross its sponsor's gateway.
 **jcode bets the constraint is hardware, not intelligence:** it is the only entry whose measured RAM floor, native memory graph, and same-repo swarm all assume you will run dozens of agents at once, and the only one that rebuilds its own binary on request.
 **DeepSeek Harness is the everything-is-a-plugin bet:** fully open with subagents, skills, and ACP editor support already filled in, and question marks on MCP and AGENTS.md that a developer-preview project earns.
-**Pi is the deliberate-omission bet:** the only entry with no MCP by design and no built-in subagents, paired with the widest subscription reuse in the table and local models through llama.cpp.
+**Pi is the deliberate-omission bet:** a frozen core plus extensions you can read, with the widest subscription reuse in the table and local models through llama.cpp; its v0.99.0 line bent the policy by shipping MCP and codemode as built-in extensions, though subagents and plan mode remain extension territory.
 **Ante takes the footprint bet furthest:** the only column whose local inference engine lives inside the binary itself, though its prebuilt releases answer to preview terms the Apache-2.0 repo does not carry.
 **Bullet is the latency bet:** free, closed, and the most transparent vendor self-report in the table, with question marks wherever its note cannot see.
 **Juggler is the GUI bet:** conversation trees, durable sessions, and inspectable everything from a solo Go author, AGPL app code included.
@@ -70,7 +70,7 @@ The six new columns spread across the same axis: Ante and Juggler take subscript
 ## Choosing from the matrix
 
 - Need an auditable client plus a subscription: Codex or Juggler, with Ante close if you build its Apache-2.0 source.
-- Need local models plus MCP: Ante, Cline, Crush, goose, Junie, Kilo Code, OpenCode, OpenHands, or Qwen Code.
+- Need local models plus MCP: Ante, Cline, Crush, goose, Junie, Kilo Code, OpenCode, OpenHands, Pi, or Qwen Code.
 - Need scheduled autonomous work in the cloud: Amp, Claude Code, Kilo Code, or OpenHands.
 - Need editor-embedded agents with deep analysis: Junie or Claude Code.
 - Need rules portability across tools: Amp, Ante, Cline, Codex, Crush, fx, goose, Kilo Code, OpenCode, and Zerostack read AGENTS.md natively.
@@ -109,6 +109,7 @@ The six new columns spread across the same axis: Ante and Juggler take subscript
 - 2026-09-25 - Added the Unreal Agent column (twenty-seven to twenty-eight members), sorted after Qwen Code, with all twelve cells traced to the new note, and added it to the auditable-client list.
 - 2026-09-27 - Added the Open Interpreter column (twenty-eight to twenty-nine members), sorted after OneCLI, with all twelve cells traced to the new note; the column shipped in the 2026-09-27 stars-candidates pass but its intro count and this bullet were missed, both fixed here.
 - 2026-09-27 - Added the MiMo Code column (twenty-nine to thirty members), sorted after Kimi Code, with all twelve cells traced to the new note, and added it to the auditable-client and local-models lists.
+- 2026-10-02 - Moved the Pi MCP cell from "✗ by design" to "built-in extension since v0.99.0, config-driven" against the v0.99.0 release notes, updated the Pi and local-models-plus-MCP prose to match, and added the missing Pi entry to the auditable-client list.
 
 ## See also
 

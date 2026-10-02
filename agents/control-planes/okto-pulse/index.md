@@ -1,7 +1,7 @@
 ---
 title: Okto Pulse
 created: 2026-09-27
-updated: 2026-09-29
+updated: 2026-10-02
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, llm=glm-5.3-flash, spec-driven-development, governance-gates, coding-agents, mcp, local-first]
 readability: 3
@@ -18,6 +18,7 @@ Okto Pulse (OktoLabsAI/okto-pulse) is an Elastic-2.0 local-first SDLC workbench 
 
 `pip install okto-pulse` starts one Python process serving a web UI and API on port 8100 and an MCP server on 8101, with all state local under `~/.okto-pulse/` in SQLite plus an embedded graph database.
 The same vendor ships a sibling product, [Okto Nexus](https://github.com/OktoLabsAI/okto-nexus) (`okto-nexus` 0.1.10 on PyPI, under the same Elastic License 2.0 plus SaaS/Branding Addendum): a local-first MCP coordination hub where agents in one repository get durable identities, presence, messages, inboxes, handoffs, artifacts, an event log, and governance controls without a cloud broker.
+The platform page now lists a third product alongside them, [Okto Neuron](https://oktolabs.ai/platform/neuron/) (formerly Marginalia, 0.3.1, Elastic-2.0 source-available): a local-first knowledge-graph memory that extracts claims from Markdown notes and serves them over MCP with byte-range citations.
 One `okto-nexus serve` port exposes the whole hub (streamable-HTTP MCP at `/mcp`, operator REST and SSE, and a bundled React dashboard) over a SQLite database in WAL mode, with 43 MCP tools by default and 46 with memory enabled.
 The architecture splits into `okto-pulse-core`, which owns the SDLC domain, the governance gates, and knowledge-graph contracts as pure protocol seams, and `okto-pulse`, which supplies every concrete mechanism (SQLite, the Okto Grafx graph engine, the filesystem, scheduler, and MCP host); an unfilled slot fails closed rather than silently defaulting.
 The gates cover resource readiness, spec coverage across acceptance criteria, requirements, business rules, API contracts, decisions, and test scenarios, plus task validation, test evidence, architecture findings, and sprint closure.
@@ -26,7 +27,7 @@ An embedded knowledge graph keeps decisions, constraints, bugs, and learnings qu
 
 ## Status
 
-Active and young: 99 stars, 4 forks, and 7 open issues as of 2026-09-27, created 2026-04-22, last pushed 2026-09-24, current PyPI version 0.3.3.
+Active and young: 111 stars, 4 forks, and 7 open issues as of 2026-10-02, created 2026-04-22, last pushed 2026-10-02, current PyPI version 0.3.3.
 No GitHub releases are published, so the PyPI package is the release channel, and the website still advertises v0.2.6 while the repository README documents v0.3.3.
 **The internal numbers do not agree across surfaces: the README prose and the website both say 17 governance gates while the README's own platform table says 18, and the README says 340 core MCP tools while the product page says 215.**
 The community footprint is thin: a Hacker News search for Okto Pulse returns nothing, so the evidence is the repository and the product site alone.
@@ -64,6 +65,7 @@ The README describes a possible SaaS edition and a core-and-community split, but
 
 - 2026-09-27 - Created.
 - 2026-09-29 - Added Okto Nexus as the vendor's sibling product (a local-first MCP coordination hub, okto-nexus 0.1.10, served from one `okto-nexus serve` port, same Elastic license).
+- 2026-10-02 - Added Okto Neuron as the vendor's third product (formerly Marginalia, 0.3.1, Elastic-2.0, local-first knowledge-graph memory served over MCP with byte-range citations).
 
 ## See also
 
@@ -76,9 +78,10 @@ The README describes a possible SaaS edition and a core-and-community split, but
 ## References
 
 - https://github.com/OktoLabsAI/okto-pulse - README: gates, MCP surface, architecture, licensing, local data layout
-- https://api.github.com/repos/OktoLabsAI/okto-pulse - stars, forks, issues, push dates as of 2026-09-27
-- https://oktolabs.ai/platform/pulse/ - product site: workflow, gate and tool counts, value proposition
-- https://pypi.org/pypi/okto-pulse/json - current version 0.3.3 and Elastic-2.0 license metadata
-- https://github.com/OktoLabsAI/okto-nexus - the sibling product's README: serve ports, tool counts, SQLite/WAL storage, dashboard, licensing (60 stars, pushed 2026-09-24, as of 2026-09-29)
+- https://api.github.com/repos/OktoLabsAI/okto-pulse - stars, forks, issues, push dates as of 2026-10-02
+- https://pypi.org/pypi/okto-pulse/json - current version 0.3.3 and Elastic-2.0 license metadata (re-checked 2026-10-02)
+- https://oktolabs.ai/platform/pulse/ - product site: workflow, gate and tool counts, value proposition (re-fetched 2026-10-02, still advertising v0.2.6 and 17 gates)
+- https://oktolabs.ai/platform/neuron/ - the Neuron product page: Marginalia rename, 0.3.1, ELv2, byte-range provenance, five MCP tools
+- https://github.com/OktoLabsAI/okto-nexus - the sibling product's README: serve ports, tool counts, SQLite/WAL storage, dashboard, licensing (65 stars, pushed 2026-10-02, as of 2026-10-02)
 - https://pypi.org/pypi/okto-nexus/json - okto-nexus 0.1.10 under Elastic License 2.0 plus the SaaS/Branding Addendum
 - https://docs.oktolabs.ai - documentation index: install, quickstart, MCP setup, knowledge graph

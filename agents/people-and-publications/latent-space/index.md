@@ -16,7 +16,7 @@ Latent Space is the AI engineering publication of record, a Substack newsletter 
 
 ## What it is
 
-A Substack with more than 201,000 subscribers as of 2026-09-27 combining a weekly newsletter, a 1-2 hour interview podcast with lab founders, researchers, and tool makers, and a growing event business (AI Engineer Summits across SF and Europe).
+A Substack with more than 202,000 subscribers as of 2026-10-02 combining a weekly newsletter, a 1-2 hour interview podcast with lab founders, researchers, and tool makers, and a growing event business (AI Engineer Summits across SF and Europe).
 The founding essay, [The Rise of the AI Engineer](https://www.latent.space/p/ai-engineer), defined the discipline as distinct from ML research, and the household has extended into AINews daily roundups and an AI-for-science show.
 It is also, critically, the place where the tools profiled in this section get their field interviews: Claude Code, coding agents, and synthetic data all feature heavily.
 
@@ -24,7 +24,7 @@ It is also, critically, the place where the tools profiled in this section get t
 
 Active and expanding.
 As of 2026-09-13 the announcement month ran "The State of Latent Space" for 2026, adding shows, hosts, and more interview formats; the AI Engineer conference network grew to events in New York, San Francisco, Paris, and Europe.
-The latest interview issue, "Claude Code's Next Era" with Anthropic's Thariq Shihipar ([2026-09-29](https://www.latent.space/p/thariq), ninety minutes on Opus/Sonnet 5.5, Mods, Plugins, and Projects), follows "OpenRouter: from Seed to Stripe, with OpenRouter's Alex Atallah and AMP's Anjney Midha" (2026-09-25), and the near-daily AINews roundups currently lead with OpenAI DevDay 2026 coverage (GPT-6.1 Sol, Dots, the Decisions API).
+The latest interview issue, "Academia is for Ambition" with MIT's Alex Zhang ([2026-10-02](https://www.latent.space/p/rlm)), follows "Claude Code's Next Era" with Anthropic's Thariq Shihipar (2026-09-29, ninety minutes on Opus/Sonnet 5.5, Mods, Plugins, and Projects), and the near-daily AINews roundups currently lead with Gemini 4 Argon coverage (GDM's answer to Astra/Fable, with 1M output) after the OpenAI DevDay 2026 run.
 The podcast regularly lands the people behind the harnesses this section tracks, and swyx's own notes continue to set trends (memory, filesystems, agent-eats-agent).
 
 ## Strengths

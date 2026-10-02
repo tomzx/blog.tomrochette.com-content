@@ -16,7 +16,7 @@ Continue was an Apache-2.0 open-source coding agent shipped as a VS Code extensi
 
 ## What it is
 
-**One config-driven agent across three surfaces**: the VS Code extension (4,225,275 marketplace installs as of 2026-09-26), a JetBrains plugin, and a CLI, all configured through YAML with rules, MCP servers, and any model provider you point it at.
+**One config-driven agent across three surfaces**: the VS Code extension (4,262,739 marketplace installs as of 2026-10-02), a JetBrains plugin, and a CLI, all configured through YAML with rules, MCP servers, and any model provider you point it at.
 Local models were a first-class path, with official guides for [Ollama](https://docs.continue.dev/guides/ollama-guide) and for running fully offline.
 The final 2.x releases (2.0.0 and 2.1.0, both tagged 2026-06-19) removed anonymous telemetry and pulled out authentication entirely, leaving a self-hostable codebase with no account anywhere.
 
@@ -25,7 +25,7 @@ The final 2.x releases (2.0.0 and 2.1.0, both tagged 2026-06-19) removed anonymo
 Dead as an independent, by acquisition.
 The [homepage](https://www.continue.dev/) reads "Continue was acquired by Cursor", announced 2026-06-15 (the [HN thread](https://news.ycombinator.com/item?id=48548758) dates it).
 The README states the repository "is no longer actively maintained and is read-only for all users", a notice that still stands even though the repo API recorded metadata pushes as recently as September 2026.
-As of 2026-09-24 the repo shows about 36k stars and 5.4k forks, the docs remain online, and the marketplace extension still installs at a 3.3 average rating.
+As of 2026-10-02 the repo shows about 36k stars and 5.4k forks, the docs remain online, and the marketplace extension still installs at a 3.2 average rating.
 **A 2026-08-22 Ask HN titled "Continue coding agent is dead. Alternatives?" ([4 points](https://news.ycombinator.com/item?id=49398366)) is a fittingly quiet funeral for a tool with four million installs.**
 
 ## Strengths
@@ -80,4 +80,4 @@ For the workflow it pioneered, use Cline or an ACP-speaking host.
 - https://news.ycombinator.com/item?id=48548758 - the June 15, 2026 acquisition thread
 - https://news.ycombinator.com/item?id=49398366 - the August 2026 "dead, alternatives?" thread
 - https://docs.continue.dev/guides/ollama-guide - the local-model path, still live
-- https://marketplace.visualstudio.com/items?itemName=Continue.continue - install count and rating, as of 2026-09-26
+- https://marketplace.visualstudio.com/items?itemName=Continue.continue - install count and rating, as of 2026-10-02

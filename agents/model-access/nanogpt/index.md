@@ -41,7 +41,7 @@ Its own Hacker News footprint is nearly nil: two stories in late 2024 with zero 
 
 ## Pricing
 
-Pro is $12/month as of 2026-09-26, including 60M input tokens per week, the 5% paid-text-model discount, and web plus API access.
+Pro is $12/month as of 2026-10-02, including 60M input tokens per week, the 5% paid-text-model discount, and web plus API access.
 Pay-as-you-go needs no subscription: a free tier with one web-only model, list-price API billing, and $0.10 crypto or $1 card deposit minimums.
 In September 2025, Pro was $8/month with unlimited personal open-weight usage capped at 60,000 generations per month and 2,000 per day.
 

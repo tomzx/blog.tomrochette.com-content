@@ -1,7 +1,7 @@
 ---
 title: AlphaProof
 created: 2026-09-13
-updated: 2026-09-13
+updated: 2026-10-02
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, deepmind, mathematics, formal-verification]
 readability: 3
@@ -28,6 +28,7 @@ At IMO 2024, AlphaProof plus AlphaGeometry 2 solved four of six problems for 28 
 At IMO 2025, Gemini Deep Think solved five of six problems perfectly for 35 of 42 points, graded by IMO coordinators under the same criteria as student solutions, within the official time limit.
 The IMO stated its review did not extend to validating the system, processes, or underlying model.
 DeepMind published the AlphaProof methodology in Nature on November 12, 2025, and says it believes agents combining natural-language fluency with verified formal reasoning are the path forward.
+In February 2026, Google shipped the updated Deep Think as Gemini 3 Deep Think, which again reached gold-medal level on the IMO 2025 problems and, for the first time, opened a Gemini API early-access path for select researchers, engineers, and enterprises.
 
 ## Strengths
 
@@ -57,11 +58,12 @@ Deep Think access ships through the Google AI Ultra subscription tier as it roll
 ## Bottom line
 
 **Recommended reading for anyone designing verification-gated agent systems: this is the reference implementation of "the judge is a kernel, the worker is trained on verdicts".**
-Not for practitioners who need a runnable tool today, since nothing here is self-hostable or API-accessible as of 2026-09-18.
+Not for practitioners who need a runnable tool today: nothing here is self-hostable, and the Deep Think API path is early-access gated rather than open, as of 2026-10-02.
 
 ## Changes
 
 - 2026-09-13 - Created as the DeepMind member of the new Automated research category.
+- 2026-10-02 - Recorded the February 2026 Gemini 3 Deep Think update: the lineage now has a first Gemini API early-access path, so the bottom line no longer calls it strictly non-API.
 
 ## See also
 
@@ -76,3 +78,4 @@ Not for practitioners who need a runnable tool today, since nothing here is self
 - https://deepmind.google/blog/advanced-version-of-gemini-with-deep-think-officially-achieves-gold-medal-standard-at-the-international-mathematical-olympiad/ - the 2025 official gold, parallel thinking, rollout, and the IMO validation disclaimer
 - https://en.wikipedia.org/wiki/AlphaGeometry - AlphaGeometry and AlphaGeometry 2 lineage, Gemini-based autoformalization, and the applicability caution
 - https://www.technologyreview.com/2026/01/26/1131728/inside-openais-big-play-for-science/ - independent framing of the IMO gold claims and their caveats in the landscape context
+- https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-deep-think/ - the February 2026 Gemini 3 Deep Think update, its repeat IMO gold, and the first Gemini API early-access path

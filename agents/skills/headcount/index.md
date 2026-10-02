@@ -24,7 +24,7 @@ Each department also ships an agent charter in `.claude/agents/`, so a departmen
 
 ## Status
 
-Active: 1,680 stars and 253 forks as of 2026-09-27, created 2026-08-28, repo pushed 2026-09-17, no releases or version tags yet.
+Active: 1,779 stars and 267 forks as of 2026-10-02, created 2026-08-28, repo pushed 2026-09-17, no releases or version tags yet.
 The skill count keeps moving: a third-party count found 143 skills on August 30, press coverage said 146 on August 31, and the README now claims 172 across the same 16 departments.
 No Hacker News thread surfaced under its name in my searches as of 2026-09-27; traction is GitHub, the org chart page, and third-party writeups.
 One external contribution (ChatGPT and Codex manifests) is credited in the README.
@@ -43,7 +43,7 @@ One external contribution (ChatGPT and Codex manifests) is credited in the READM
 - The counted numbers drift between the GitHub description (15+ departments, 125+ skills), the badges (16 and 172), and third-party counts, so quote the README tables, not the description.
 - The value is unproven without the boring test: run a task with and without a department installed and diff the transcripts; several skills may restate what the model already does.
 - Installing all sixteen departments rebuilds the context bloat the per-department design was meant to avoid.
-- Single maintainer, no releases, ten days without a push as of 2026-09-27, so treat it as a snapshot, not a product.
+- Single maintainer, no releases, fifteen days without a push as of 2026-10-02, so treat it as a snapshot, not a product.
 
 ## Pricing
 
@@ -77,7 +77,7 @@ My disagreeable claim: the sixteen-department metaphor is mostly packaging, the 
 
 ## References
 
-- https://api.github.com/repos/cbrock84/headcount - 1,680 stars, 253 forks, MIT, pushed 2026-09-17 (200, fetched 2026-09-27)
+- https://api.github.com/repos/cbrock84/headcount - 1,779 stars, 267 forks, MIT, pushed 2026-09-17 (200, fetched 2026-10-02)
 - https://raw.githubusercontent.com/cbrock84/headcount/main/README.md - 16 departments, 172 skills, 184 cited sources, reviewer-class rules, CI checks (200)
 - https://zentor.ai/blog/headcount-claude-code - third-party review (August 30, updated September 24) with critical readings of reviewer-class and star counts (200)
 - https://cbrock84.github.io/headcount/org-chart.html - the searchable org chart page, generated from the repo tree (200)

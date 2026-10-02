@@ -1,7 +1,7 @@
 ---
 title: "Sandboxing Feature Matrix"
 created: 2026-08-30
-updated: 2026-09-29
+updated: 2026-10-02
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3-flash, comparison, sandboxing, isolation, security]
 readability: 3
@@ -29,8 +29,8 @@ Each column links to the full research note; every cell below traces to a source
 | Agent integration | none specific, bring your own | tool-agnostic wrapper | any sandbox that mounts FUSE | wraps Claude Code, Codex, pi, or a shell | E2B SDK drop-in, base-URL swap | tool-agnostic wrapper, docs tour uses Claude Code | hooks, useSandbox API | 5 SDK languages, osb CLI, MCP server | 4 first-class, BYOC |
 | Policy model | K8s RBAC plus RuntimeClass | per-project YAML deny rules | ✗ n/a, provisioning only | network allow-list, forge pre-allowed | eBPF inter-sandbox isolation plus L7 per-domain egress policy | TOML config, shared base plus per-environment overrides | tier choice plus env allowlist | ingress gateway plus per-sandbox egress controls | declarative YAML, auditable |
 | Credential handling | your K8s secrets | egress allowlist, stdout masking | ✗ n/a | secrets stay on host, ssh-agent forwarded | ✓ credential vault, keys injected at egress gateway | original home hidden, selected host files read-only | env allowlist per tier | ✓ credential vault for outbound requests | ✓ keys stay at inference proxy |
-| Maturity | v1.0.4 tag, v1beta1 API, breaking migrations | v1.0.0, 14 stars, no audit | 1.0.0-rc, no releases, beta | pre-1.0 (v0.4.0), own breaking-changes banner | pre-1.0 (v0.7.2), five months old | pre-1.0 (v0.2.1), solo maintainer | first stable v2.0 after rewrite | first stable 1.1.0 umbrella release | stable 0.1.x line at v0.1.2, self-declared alpha dropped |
-| Community signal | 4.0k stars, Google-backed | 14 stars, 0 issues, footprint is the signal | 1.1k stars, 217-point HN launch | 1.0k stars, 226-point HN launch, quiet since August | 12.7k stars, best HN thread 7 points | 331 stars, 193-point HN launch | 8.4k stars, single dominant author | 15.6k stars, no real HN launch, Trendshift-driven | 9.7k stars, ~124 contributors |
+| Maturity | v1.0.5 tag, v1beta1 API, breaking migrations | v1.0.0, 14 stars, no audit | 1.0.0-rc, no releases, beta | pre-1.0 (v0.4.0), own breaking-changes banner | pre-1.0 (v0.7.2), five months old | pre-1.0 (v0.3.0), solo maintainer | first stable v2.0 after rewrite | first stable 1.1.0 umbrella release | stable 0.1.x line at v0.1.2, self-declared alpha dropped |
+| Community signal | 4.1k stars, Google-backed | 14 stars, 0 issues, footprint is the signal | 1.2k stars, 217-point HN launch | 1.0k stars, 226-point HN launch, quiet since August | 12.8k stars, best HN thread 7 points | 350 stars, 193-point HN launch | 8.4k stars, single dominant author | 15.6k stars, no real HN launch, Trendshift-driven | 14.0k stars, ~126 contributors |
 | Pricing | free, cluster costs | free | free, Artifacts service metered | free | free, self-hosted fleet | free | free, provider costs | free, self-hosted | free |
 
 ## Reading the matrix
@@ -70,6 +70,7 @@ A matrix that pretended all nine were equivalent would be lying by layout.
 - 2026-09-27 - OpenShell maturity cell moved to its first stable v0.1.1 release (v0.1.0 on 2026-09-25, alpha badge dropped), and the audit prose updated to match.
 - 2026-09-29 - Extended to nine columns with Drop (rootless namespace wrapper), inserted alphabetically, with the backing, boundary, credential, and audit prose updated for nine members.
 - 2026-09-29 - Cell refreshes: OpenShell maturity to the stable 0.1.x line at v0.1.2 and community to 9.7k stars with about 124 contributors, OpenSandbox community to 15.6k stars, and the OpenShell choosing bullet reworded from alpha to pre-1.0 risk after the stable graduation.
+- 2026-10-02 - Cell refreshes: Agent Sandbox maturity to v1.0.5 and community to 4.1k stars, Drop maturity to v0.3.0 and community to 350 stars, ArtifactFS community to 1.2k stars, CubeSandbox community to 12.8k stars, and OpenShell community to 14.0k stars with about 126 contributors after the Open Agent Safety Platform push.
 
 ## See also
 

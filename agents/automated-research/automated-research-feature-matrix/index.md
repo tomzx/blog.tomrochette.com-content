@@ -1,7 +1,7 @@
 ---
 title: Automated Research Feature Matrix
 created: 2026-09-13
-updated: 2026-09-29
+updated: 2026-10-02
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=deepseek-v4.1-flash, automated-research, feature-matrix, mathematics]
 readability: 3
@@ -22,7 +22,7 @@ Every cell traces to its member note and that note's fetched references.
 | Human input in the loop | Topic and standards; built to run unattended for hours | 2024: manual Lean translation; 2025: none, end to end | One prompter, expert review after | A problem statement | Blueprints and scaffolding, review of key lemmas | A question | Case-study curation; disputed in the math claims | High-level direction only, through the Andonos managing agent |
 | Who judges | Independent producer-critic agent loops on fresh contexts, plus the human for invisible failures | Lean kernel plus official IMO graders | Lean comparator plus named human experts | The Lean kernel | Lean comparator, specification-based | No machine judge; the human reads | Lean kernel on the published formalization; human acceptance and credit still in dispute | No machine judge; the bank account plus Andon's own monitoring |
 | Lean formal verification | No | 2024 yes, 2025 natural language | Yes (zeta and FLT artifacts) | Yes | Yes | No | Yes since 2026-09-08 (Lean 4 artifacts published; they cover Clay's forced-blowup option, the weaker of the two formulations) | No |
-| Surface today | MIT Claude Code plugin run from a separate artifacts workspace | Research system; Deep Think rolling out to AI Ultra | Unreleased models; artifacts on GitHub | Free web agent with login | OpenGauss open source; Gauss in beta | ChatGPT plans | Subscriptions and academic credits | Proprietary research preview with waitlist, no repo |
+| Surface today | MIT Claude Code plugin run from a separate artifacts workspace | Research system; Gemini 3 Deep Think on AI Ultra plus Gemini API early access | Unreleased models; artifacts on GitHub | Free web agent with login | OpenGauss open source; Gauss in beta | ChatGPT plans | Subscriptions and academic credits | Proprietary research preview with waitlist, no repo |
 | Pricing as of 2026-09-18 | Free and MIT, no paid tier | Bundled in the Ultra subscription | Free artifacts, internal compute | Free; $1,000,000 grant program | OpenGauss free; about $25 per benchmark solve | Plan quotas; Pro at $200/month | Program-level; GPT-5 Pro at $200/month in case studies | ? none published; seed tokens funded, planned revenue share |
 | Millennium-problem engagement | None claimed; mathematics is one of several domains, not the focus | None claimed; IMO as the public proxy | Attempted the Riemann hypothesis, failed productively (41.6 to 67.2 percent zero bound) | None public | Strong PNT as the gateway toward the Riemann hypothesis | None | Navier-Stokes claimed with a Lean certificate covering the forced-blowup option, credit and formulation both disputed | None; the eval lineage is Vending-Bench, not mathematics |
 
@@ -43,6 +43,7 @@ The Millennium column is uniformly no: nothing here has solved one, the closest 
 - 2026-09-25 - Updated the OpenAI for Science column for the published Lean certificates (Navier-Stokes claim now machine-checkable, acceptance and credit still pending), removed the verification preamble, linked the header row, and normalized the separator row.
 - 2026-09-27 - Extended from seven to eight columns with Agon, inserted first alphabetically, with the judging prose and the failure-taxonomy boundary updated.
 - 2026-09-29 - The OpenAI for Science cells moved to the documented formulation fight (Scientific American, 2026-09-21): the certificate covers Clay option C, and a September 17 three-mathematician proof shows the method cannot extend to the unforced problem.
+- 2026-10-02 - Moved the AlphaProof Surface today cell for the February 2026 Gemini 3 Deep Think update, which added the first Gemini API early-access path alongside the AI Ultra rollout.
 
 ## See also
 

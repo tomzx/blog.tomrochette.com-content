@@ -24,8 +24,8 @@ It is closed source: the npm package is marked UNLICENSED, its declared reposito
 
 ## Status
 
-v1.4.23 as of 2026-09-26, the newest build on both the CLI registry and the desktop releases repository, published September 23, 2026.
-The CLI shipped on npm on August 7, 2026 and did 629 downloads in the last week and 1,865 in the last month as of 2026-09-26 (the npm API's windows end September 24).
+v1.4.23 as of 2026-10-02, still the newest build on both the CLI registry and the desktop releases repository, published September 23, 2026.
+The CLI shipped on npm on August 7, 2026 and did 1,881 downloads in the last month (the API window covering September 1-30) and 241 in the week ending September 30 as of 2026-10-02.
 Its Launch HN on August 13, 2026 reached 121 points (item 49283063), nine days after a quiet 9-point Show HN.
 Traction is real but early: thousands of installs, not millions, with YC backing as the deliberately stated signal behind it.
 
@@ -78,7 +78,7 @@ I think speed is the wrong axis for buying a coding agent, and a 119-second mean
 - https://www.codewithbullet.com - product surface, YC badge, CLI install, free access as of 2026-09-20
 - https://www.codewithbullet.com/blog/benchmark-results.html - the SWE-bench Verified run: 479/500, 119 s mean, $0.73 per instance
 - https://registry.npmjs.org/@trybullet%2Fcli - CLI version, UNLICENSED marker, and dead repository URL
-- https://api.npmjs.org/downloads/point/last-month/@trybullet/cli - 1,865 monthly downloads as of 2026-09-26
+- https://api.npmjs.org/downloads/point/last-month/@trybullet/cli - 1,881 monthly downloads as of 2026-10-02
 - https://github.com/trybullet/bullet-releases - desktop release channel, v1.4.23 published September 23, 2026
 - https://news.ycombinator.com/item?id=49283063 - 121-point Launch HN with YC S26 in the title and community skepticism
 - https://news.ycombinator.com/item?id=49173799 - the earlier 9-point Show HN nine days prior

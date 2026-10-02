@@ -1,7 +1,7 @@
 ---
 title: Pi
 created: 2026-08-30
-updated: 2026-09-26
+updated: 2026-10-02
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, harnesses, coding-agents, open-source, byok, extensibility]
 readability: 3
@@ -25,9 +25,9 @@ Made by Earendil Inc., created by Mario Zechner with Armin Ronacher as the secon
 
 ## Status
 
-Active and ascending: 109,421 stars (past the 100k mark), 13,903 forks, 226 open issues and PRs as of 2026-09-26.
-Created 2025-08-09, pushed within a day of verification, releases roughly weekly (v0.87.1 on 2026-09-22).
-**The ecosystem is the strongest signal: OpenClaw runs on Pi, and oh-my-pi, a batteries-included fork with about 33.3k stars as of 2026-09-26, exists precisely because some users want the features Pi refuses to ship.**
+Active and ascending: 111,218 stars, 14,132 forks, 249 open issues and PRs as of 2026-10-02.
+Created 2025-08-09, pushed within a day of verification, releases roughly weekly, reaching v1.0.0 on October 1, 2026; the v0.99 line (September 29-30) shipped the biggest capability change in the project's history, codemode, tool search, and MCP support as built-in extensions, and v1.0.0 made the TUI fullscreen by default, cut codemode prompt tokens by about 40 percent, and hardened MCP OAuth.
+**The ecosystem is the strongest signal: OpenClaw runs on Pi, and oh-my-pi, a batteries-included fork with about 34.0k stars as of 2026-10-02, exists precisely because some users want the features Pi refuses to ship.**
 
 ## Strengths
 
@@ -39,7 +39,7 @@ Created 2025-08-09, pushed within a day of verification, releases roughly weekly
 ## Cautions
 
 - No sandbox: the README says it runs with full user permissions, and isolation is your job (containers, micro-VMs), which was the most contested point in its Hacker News thread.
-- Opinionated omissions are policy: no MCP, no sub-agents, no plan mode, no built-in todos by design; you build or install them.
+- Opinionated omissions remain policy, but the list shrank: v0.99.0 (September 29, 2026) shipped codemode, tool search, and MCP as built-in extensions (stdio and streamable HTTP with OAuth, configured from `mcp.json`, managed with `/mcp`, and disable-able per project), so the no-MCP stance this note recorded for a year no longer holds; subagents, plan mode, and built-in todos are still extension territory.
 - Contribution gatekeeping: new contributors' issues and PRs are auto-closed by default, and the author is explicit about dictatorial scope control.
 - 84 minor versions in a year means real breakage risk, and the name is nearly unsearchable.
 
@@ -66,6 +66,7 @@ Not for teams wanting turnkey guardrails, MCP-centric stacks, or a stable API su
 - 2026-09-20 - Recorded the v0.86.0 release (September 19) and refreshed counters (107,467 stars, 13,564 forks, 213 open issues and PRs) plus the oh-my-pi fork at about 32k stars.
 - 2026-09-21 - Recorded the v0.86.1 release (September 20) and refreshed counters, including the oh-my-pi fork at about 32.2k stars.
 - 2026-09-22 - Recorded the v0.87.1 release (September 22) and refreshed counters, including the oh-my-pi fork at about 32.8k stars.
+- 2026-10-02 - Corrected the no-MCP claim: v0.99.0 (September 29) shipped codemode, tool search, and MCP as built-in extensions, so MCP is now supported, not refused; recorded the v1.0.0 release (October 1, fullscreen TUI by default, leaner codemode, MCP OAuth hardening) and refreshed counters, including the oh-my-pi fork at about 34.0k stars.
 
 ## See also
 
@@ -81,4 +82,4 @@ Not for teams wanting turnkey guardrails, MCP-centric stacks, or a stable API su
 - https://pi.dev - positioning, extension model, and the list of features deliberately not built
 - https://mariozechner.at/posts/2025-11-30-pi-coding-agent/ - the author's rationale for the minimal prompt and YOLO default
 - https://news.ycombinator.com/item?id=46844822 - the 421-point thread with pushback on the security posture
-- https://github.com/can1357/oh-my-pi - the batteries-included fork at about 33.3k stars, the counterargument in running code
+- https://github.com/can1357/oh-my-pi - the batteries-included fork at about 34.0k stars, the counterargument in running code

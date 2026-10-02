@@ -1,7 +1,7 @@
 ---
 title: Cognee
 created: 2026-08-26
-updated: 2026-09-27
+updated: 2026-10-02
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, memory, agent-memory, knowledge-graphs, open-source]
 readability: 3
@@ -23,9 +23,10 @@ Cognee Cloud runs the same engine managed, on gpt-oss-120b, OpenAI's open-weight
 ## Status
 
 **Active and fast-moving.**
-About 31k GitHub stars as of 2026-09-27, repository pushed 2026-09-27 UTC, and v1.6.1 (September 24, 2026) the latest release per the PyPI JSON API.
+About 31.3k GitHub stars as of 2026-10-02, repository pushed 2026-10-02 UTC, and v1.6.2 (September 29, 2026) the latest release per the PyPI JSON API.
 v1.6.0 is the keyless-first release: many flows now run with no LLM key, pipelines stamp runs at start and recover after crashes, a cognee-mcp client/server package lands for integrations, and the default Docker image drops GLiNER, a breaking change self-hosters must patch around.
 v1.6.1 (September 24) adds Google Drive and Gmail ingestion with the Google connectors bundled into the SDK, chunked graph-visualization streaming for large subgraphs, and a GLiNER installer that defers the CPU Torch download to first use, and it promotes dlt to a core dependency, which breaks source installs that manage dependencies manually.
+v1.6.2 (September 29) makes embedding failures explicit instead of silently truncating, sizes chunks by each model's token limit, adds Slack conversation import and sync, and moves skills storage to a new .agents/skills location.
 The company is part of the Berkeley Xcelerator and claims 5M+ SDK runs per month (vendor figure).
 The community discussion footprint is thin for the star count: its two Show HN threads drew 9 and 6 points, so third-party scrutiny lags the repository's popularity.
 
@@ -46,7 +47,7 @@ The community discussion footprint is thin for the star count: its two Show HN t
 ## Pricing
 
 Open source: free, Apache-2.0.
-Cloud: Free $0 (one workspace, 1M tokens included, unlimited users), Standard $1.00 per 1M tokens processed plus $5 per additional workspace per month, Enterprise custom with BYO cloud and SLAs, as of 2026-09-22.
+Cloud: Free $0 (one workspace, 1M tokens included, unlimited users), Standard $1.00 per 1M tokens processed plus $5 per additional workspace per month, Enterprise custom with BYO cloud and SLAs, as of 2026-10-02.
 
 ## Price history
 
@@ -75,6 +76,7 @@ Not for solo coding-agent work, where plain files win, or for anyone without the
 - 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
 - 2026-09-25 - Recorded v1.6.1 (September 24): Google Drive and Gmail sync with bundled connectors, chunked visualization streaming, a deferred-install GLiNER setup, and dlt promoted to a core dependency; refreshed stars to about 31k.
 - 2026-09-27 - Refreshed the volatile facts: about 31k stars, pushed 2026-09-27; v1.6.1 and the $1.00 per 1M token Standard rate unchanged.
+- 2026-10-02 - Recorded v1.6.2 (September 29): explicit embedding failures instead of silent truncation, model-token-limit chunk sizing, Slack import and sync, and the skills move to .agents/skills; refreshed stars to about 31.3k.
 
 ## See also
 
@@ -85,10 +87,10 @@ Not for solo coding-agent work, where plain files win, or for anyone without the
 
 ## References
 
-- https://github.com/topoteretes/cognee - source, Apache-2.0, about 31k stars, as of 2026-09-27
+- https://github.com/topoteretes/cognee - source, Apache-2.0, about 31.3k stars, as of 2026-10-02
 - https://www.cognee.ai/ - v1 announcement, integration list, Berkeley Xcelerator, 5M+ SDK runs claim
-- https://www.cognee.ai/pricing - cloud tiers, per-token rate, workspace fee, gpt-oss-120b default, Enterprise bi-temporal memory listing, as of 2026-09-25 (the $1.00 Standard rate held since the 2026-09-09 cut)
+- https://www.cognee.ai/pricing - cloud tiers, per-token rate, workspace fee, gpt-oss-120b default, Enterprise bi-temporal memory listing, as of 2026-10-02 (the $1.00 Standard rate held since the 2026-09-09 cut)
 - https://docs.cognee.ai/ - architecture, multi-user mode, SDK and integration surfaces
-- https://pypi.org/pypi/cognee/json - v1.6.1 released September 24, 2026
+- https://pypi.org/pypi/cognee/json - v1.6.2 released September 29, 2026
 - https://news.ycombinator.com/item?id=44169594 - Show HN, June 2025, the 9-point thread
 - https://news.ycombinator.com/item?id=43031915 - Show HN, February 2025, the 6-point thread

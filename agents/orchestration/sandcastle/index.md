@@ -3,7 +3,7 @@ title: Sandcastle
 created: 2026-09-27
 updated: 2026-09-27
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, orchestration, sandboxing, typescript, library]
+tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, llm=glm-5.3-flash, orchestration, sandboxing, typescript, library]
 readability: 3
 audience_notes: >
   Engineers who want to script coding agents from their own TypeScript rather than adopt a GUI.
@@ -24,8 +24,8 @@ Hooks are declared per location (`host` and `sandbox`, for example `onWorktreeRe
 
 ## Status
 
-Small but well-known: about 8,162 stars and 878 forks as of 2026-09-27, created 2026-03-17, and 1,193 commits.
-The warning sign is activity: the last commit and the latest release (v0.12.0) both landed on 2026-06-29, so the project has been quiet for roughly three months as of 2026-09-27, even as stars kept accruing.
+Small but well-known: about 8,215 stars and 886 forks as of 2026-10-02, created 2026-03-17, and 1,193 commits.
+The warning sign is activity: the last commit and the latest release (v0.12.0) both landed on 2026-06-29, so the project has been quiet for more than three months as of 2026-10-02, even as stars kept accruing.
 The npm package reached 0.12.0 across 44 versions.
 **A popular library that stops shipping while its category moves daily is a bet on stability over feature parity, and an open issue about broken global `npm install` for the Pi and Codex Dockerfiles (#223) has sat unresolved since April 2026.**
 

@@ -24,7 +24,7 @@ Since April 2026 pi is owned by Earendil with him at the helm, planned as three 
 ## Status
 
 Active, well-resourced, and newly commercial as of 2026-09-24.
-The pi repository shows about 109k stars and 13.8k forks as of 2026-09-24, with roughly weekly releases (v0.87.1 on 2026-09-22 per our [Harnesses note](../../harnesses/pi/index.md)), and OpenClaw, the breakout assistant runtime, is built on it, which is exactly the attention he says drove acquisition offers and 3-5 calls a day before he sold to Earendil.
+The pi repository shows about 111k stars and 14.1k forks as of 2026-10-02, with roughly weekly releases (v0.87.1 on 2026-09-22 per our [Harnesses note](../../harnesses/pi/index.md)), and OpenClaw, the breakout assistant runtime, is built on it, which is exactly the attention he says drove acquisition offers and 3-5 calls a day before he sold to Earendil.
 His blog slowed after the 2025 agent-post burst (eight agent-era posts between June and November 2025, then three in 2026 through the May 30 robot post), so the repository and release notes now carry more signal than the blog.
 The Earendil arrangement is the open question: the MIT core is pledged as non-negotiable, but tiers two and three existed only as promises when he wrote about them in April 2026.
 

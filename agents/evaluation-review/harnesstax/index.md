@@ -23,7 +23,7 @@ The authors promise a public release of profiling traces, and the repository car
 
 ## Status
 
-New and already the most-discussed artifact in this category's week: the study surfaced on Hacker News on 2026-09-16 and drew 232 points and 97 comments as of 2026-09-25.
+New and already the most-discussed artifact in this category's week: the study surfaced on Hacker News on 2026-09-16 and drew 233 points and 99 comments as of 2026-10-02.
 The repository was created 2026-09-14 and pushed 2026-09-22, with 1 star, because the study page is the artifact and the code is just its vehicle, and its GitHub description now brands it AgentBRANE, a benchmark dashboard for harness-and-model pairs.
 **The traction here is academic credibility rather than community adoption: Ion Stoica and Matei Zaharia anchor the author list, and the thread argued the findings instead of the provenance.**
 
@@ -72,6 +72,6 @@ Not as a harness shopping leaderboard, since three harnesses and two contaminati
 
 - https://harnesstax.github.io/ - the study, its findings, and its methodology
 - https://github.com/HarnessTax/HarnessTax.github.io - the public repository holding the site and the study data
-- https://hn.algolia.com/api/v1/items/49733726 - the 232-point launch thread, including the security-framing criticism
+- https://hn.algolia.com/api/v1/items/49733726 - the 233-point launch thread, including the security-framing criticism
 - https://www.swebench.com/lite - the first ground benchmark
 - https://arxiv.org/abs/2601.11868 - Terminal-Bench, the second ground benchmark

@@ -23,8 +23,8 @@ Made by Confident AI, a seed-stage San Francisco company, Apache-2.0.
 
 ## Status
 
-The volume leader of Python eval frameworks: 18,458 stars, 1,984 forks, 668 open issues and PRs as of 2026-09-27.
-Created 2023-08-10, pushed 2026-09-25, Python 4.2.6 released 2026-09-24, about 2.5 million PyPI downloads a month as of 2026-09-27.
+The volume leader of Python eval frameworks: 18,558 stars, 2,007 forks, 694 open issues and PRs as of 2026-10-02.
+Created 2023-08-10, pushed 2026-10-01, Python 4.2.7 released 2026-09-29, about 2.5 million PyPI downloads a month as of 2026-10-02.
 **Three years old and commercially backed, it is the most mature column in this category, and the 668-item backlog reads as heavy usage rather than neglect.**
 
 ## Strengths
@@ -86,6 +86,6 @@ Not for teams that cannot tolerate LLM-judge variance, or that need score parity
 - https://deepeval.com/ - the docs and metric taxonomy (docs.confident-ai.com now redirects here)
 - https://www.confident-ai.com/pricing - the platform tiers behind the open-core split
 - https://deepeval.com/blog/introducing-deepeval-typescript - the TypeScript beta scope and parity caveat
-- https://pypistats.org/api/packages/deepeval/recent - the download figures as of 2026-09-27
+- https://pypistats.org/api/packages/deepeval/recent - the download figures as of 2026-10-02
 - https://pypi.org/project/deepeval/ - the current Python version and its release date
 - https://news.ycombinator.com/item?id=37157323 - the launch thread with early criticism and maintainer response

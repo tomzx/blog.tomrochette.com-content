@@ -23,7 +23,7 @@ It positions itself as "AI agents that finish the work", with file-aware agents,
 
 ## Status
 
-Active and shipping: the repo shows 187,620 stars and was pushed 2026-09-30, the day I checked (GitHub API).
+Active and shipping: the repo shows 187,649 stars and was pushed 2026-10-02, the day I checked (GitHub API, as of 2026-10-02).
 The platform releases on a cadence: beta v0.8.2 published 2026-09-30 (AutoPilot action gating modes: Ask First, Auto, and Unsupervised), v0.8.1 on 2026-09-24, v0.8.0 on 2026-09-19, v0.7.4 on 2026-09-04, v0.7.3 on 2026-08-28.
 The repo was created 2023-03-16 and the launch thread pulled 153 points with 174 comments in April 2023, at the peak of the autonomous-agent craze.
 License is dual: the platform folder is Polyform Shield (source-available, not OSI open source), everything outside is MIT.

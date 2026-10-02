@@ -24,7 +24,7 @@ Apache-2.0, Go 1.26+, source build only, no packaged releases.
 
 ## Status
 
-Early beta: 1,149 stars, 48 forks, 6 open issues as of 2026-09-25, created 2026-03-29, last push 2026-09-11.
+Early beta: 1,153 stars, 48 forks, 6 open issues as of 2026-10-02, created 2026-03-29, last push 2026-09-11.
 Tags run `1.0.0-rc.1` through `rc.10` with no GitHub Releases; 57 commits concentrated in two Cloudflare engineers, and the repo ships its own AGENTS.md.
 **The launch drew a 217-point Hacker News thread, but "Used by" is empty and the parent Artifacts service is still in closed beta.**
 

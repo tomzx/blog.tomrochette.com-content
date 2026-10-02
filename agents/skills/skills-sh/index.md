@@ -10,13 +10,13 @@ audience_notes: >
   Assumes familiarity with the Agent Skills format and npm-style CLIs.
 ---
 
-skills.sh is Vercel's directory and leaderboard for the open skills ecosystem: it ranks SKILL.md packages by install telemetry from its open-source CLI (`npx skills add <owner>/<repo>`), which installs into 79 agent harnesses as of 2026-09-22.
+skills.sh is Vercel's directory and leaderboard for the open skills ecosystem: it ranks SKILL.md packages by install telemetry from its open-source CLI (`npx skills add <owner>/<repo>`), which installs into 79 agent harnesses as of 2026-10-02.
 
 **It won the registry slot not through curation but by wrapping git: any repository is already a package, the CLI symlinks it into every harness, and the resulting install counts became the ecosystem's ranking, with security review still catching up.**
 
 ## What it is
 
-Launched 2026-01-20 by Vercel's labs team; the CLI is MIT-licensed with 32.5k stars, 2.8k forks, and 520 commits as of 2026-09-26.
+Launched 2026-01-20 by Vercel's labs team; the CLI is MIT-licensed with 32.9k stars, 2.8k forks, and 529 commits as of 2026-10-02.
 The CLI resolves GitHub shorthand and URLs, GitLab, any git URL, local paths, and direct archive URLs (downloads capped at 10 MiB by default), then symlinks or copies skills into per-agent directories.
 The site adds the leaderboard, per-agent and per-topic pages, badges, and packs (one install command bundling public and private skills).
 **Ranking comes from anonymous CLI telemetry (opt-out via `DISABLE_TELEMETRY`), not from vetting or ratings.**
@@ -24,12 +24,12 @@ The site adds the leaderboard, per-agent and per-topic pages, badges, and packs 
 ## Status
 
 **Active and dominant among third-party registries.**
-Top of the all-time leaderboard as of 2026-09-27: find-skills (vercel-labs) at 3.6M installs, grill-me (mattpocock/skills) at 1.2M, with the next three slots still held by mattpocock/skills entries (grill-with-docs, improve-codebase-architecture, and tdd), while agent-browser (vercel-labs/agent-browser) holds sixth at 952.5K, past frontend-design (anthropics/skills) at 926.8K in seventh, and setup-matt-pocock-skills (mattpocock/skills) rounds out the top eight at 897.1K.
+Top of the all-time leaderboard as of 2026-10-02: find-skills (vercel-labs) at 3.7M installs, grill-me (mattpocock/skills) at 1.3M, followed by mattpocock/skills entries grill-with-docs and improve-codebase-architecture at 1.1M and 1.0M, then agent-browser (vercel-labs/agent-browser) at 1.0M in fifth, past tdd (1.0M) in sixth, with frontend-design (anthropics/skills) seventh at 944.2K and setup-matt-pocock-skills (mattpocock/skills) rounding out the top eight at 923.8K.
 Official publisher entries include microsoft/azure-skills, supabase, prisma, and heygen-com/hyperframes.
-The publisher mix has gone enterprise: open.feishu.cn (Lark) is the largest publisher at 16.0M aggregate installs, larksuite/cli and microsoft/azure-skills both sit in the millions, and prime-skills/runcomfy-agent-skills adds several million more, all as of 2026-09-27.
+The publisher mix has gone enterprise: open.feishu.cn (Lark) is the largest publisher (chips reading 4.4M and 11.8M on one page), larksuite/cli and microsoft/azure-skills both sit in the millions (7.3M and 5.5M), and prime-skills/runcomfy-agent-skills adds several million more (4.4M), all as of 2026-10-02.
 **Treat those publisher totals with suspicion: the page showed prime-skills with two different totals (4.2M and 2.9M) at the same moment, and azure-skills swung from 7.1M to 2.4M to 7.7M across the three days after the downward recompute first seen 2026-09-20, so the chips are view-scoped sums of whatever rows the leaderboard currently renders, not stable per-publisher aggregates.**
-The pattern held again on 2026-09-27: azure-skills swung to 8.5M, and larksuite/cli (4.1M and 4.0M) and runcomfy (2.5M and 2.1M) each still showed two different totals on one page.
-The nearest standalone competitor I had verified, skillregistry.io, listed 61 skills as of 2026-09-08, went dark by 2026-09-09, and is back online as of 2026-09-12 with 61 skills (still up as of 2026-09-26), 16,665 total downloads, and 18 contributors, still orders of magnitude behind skills.sh on installs.
+The pattern held again on 2026-10-02: the azure-skills chip read 5.5M, and open.feishu.cn showed two different totals on one page (4.4M and 11.8M).
+The nearest standalone competitor I had verified, skillregistry.io, listed 61 skills as of 2026-09-08, went dark by 2026-09-09, and is back online as of 2026-09-12 with 61 skills (still up as of 2026-10-02), 16,665 total downloads, and 18 contributors, still orders of magnitude behind skills.sh on installs.
 
 ## Strengths
 
@@ -40,7 +40,7 @@ The nearest standalone competitor I had verified, skillregistry.io, listed 61 sk
 ## Cautions
 
 - **Install counts measure fashion, not fitness: telemetry counts CLI runs, anyone can drive their own numbers, and the docs state plainly that the quality and security of listed skills are not guaranteed.**
-- The audit page shows the gap: as of 2026-09-27 the open.feishu.cn fleet still sat Pending across all three scanners (25 of the first 50 rows), with no remediation history, and the Snyk-Critical entry from earlier this week (genmedia-labs/skills' image-to-video, Safe on Gen and clean on Socket but Critical on Snyk) now sits at row 44, while azure-validate, Snyk-flagged Critical in early September and remediated to Pass by 2026-09-18, remains below the audits page's 50-row window, its Pass status visible only on its own skill page.
+- The audit page shows the gap: as of 2026-10-02 the open.feishu.cn fleet still sat Pending across all three scanners (24 of the first 50 rows), with no remediation history, and the Snyk-Critical entry from September (genmedia-labs/skills' image-to-video, Safe on Gen and clean on Socket but Critical on Snyk) has climbed to row 16, while azure-validate, Snyk-flagged Critical in early September and remediated to Pass by 2026-09-18, remains below the audits page's 50-row window, its Pass status visible only on its own skill page.
 - Skills are instructions and scripts that agents execute, a risk Anthropic's engineering post calls out for skills generally, so a leaderboard install is a supply-chain decision.
 - Telemetry is opt-out rather than opt-in, and one company controls the ranking surface of a nominally open ecosystem.
 
@@ -86,11 +86,11 @@ My disagreeable claim: marketplaces are the least interesting part of this ecosy
 ## References
 
 - https://vercel.com/blog/introducing-skills - launch announcement (2026-01-20)
-- https://skills.sh/ - leaderboard, install counts, supported agents, as of 2026-09-27
+- https://skills.sh/ - leaderboard, install counts, supported agents, as of 2026-10-02
 - https://skills.sh/docs - ranking method (CLI telemetry) and the security disclaimer
-- https://skills.sh/audits - Gen/Socket/Snyk audit columns, open.feishu.cn fleet still Pending in 25 of the first 50 rows and genmedia-labs image-to-video Snyk-Critical at row 44, as of 2026-09-27
+- https://skills.sh/audits - Gen/Socket/Snyk audit columns, open.feishu.cn fleet still Pending in 24 of the first 50 rows and genmedia-labs image-to-video Snyk-Critical at row 16, as of 2026-10-02
 - https://www.skills.sh/microsoft/azure-skills/azure-validate - azure-validate still Pass on all three scanners via its detail page, as of 2026-09-25
-- https://github.com/vercel-labs/skills - CLI source, agent path table, telemetry opt-out, 32,502 stars as of 2026-09-26
-- https://skillregistry.io/ - nearest standalone competitor, back online 2026-09-12 and still up with 61 skills and 16,665 downloads as of 2026-09-26
+- https://github.com/vercel-labs/skills - CLI source, agent path table, telemetry opt-out, 32,940 stars as of 2026-10-02
+- https://skillregistry.io/ - nearest standalone competitor, back online 2026-09-12 and still up as of 2026-10-02 with the last counted 61 skills and 16,665 downloads
 - https://github.com/Fcmam5/skilleton - lockfile-style, no-telemetry alternative
 - https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills - the underlying untrusted-skill risk

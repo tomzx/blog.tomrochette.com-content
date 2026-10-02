@@ -10,7 +10,7 @@ audience_notes: >
   Assumes you know what a drag-and-drop LLM builder is.
 ---
 
-Flowise was the drag-and-drop visual builder for LLM applications that reached 55,489 stars, was acquired by Workday in August 2025, and was archived in August 2026 (GitHub API, as of 2026-09-29).
+Flowise was the drag-and-drop visual builder for LLM applications that reached 55,492 stars, was acquired by Workday in August 2025, and was archived in August 2026 (GitHub API, as of 2026-10-02).
 
 **Flowise's shutdown note is the clearest public post-mortem of the visual-workflow genre: its own team wrote that coding agents made rigid low-code workflows obsolete.**
 

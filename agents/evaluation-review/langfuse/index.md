@@ -23,7 +23,7 @@ Made by Langfuse (YC W23), acquired by ClickHouse in January 2026, with the root
 
 ## Status
 
-Mature and busy: 35,056 stars, 3,848 forks, created 2023-05-18, pushed 2026-09-26, v4.46.0 released 2026-09-25 as of 2026-09-26.
+Mature and busy: 35,287 stars, 3,903 forks, created 2023-05-18, pushed 2026-10-01, v4.49.0 released 2026-10-01 as of 2026-10-02.
 Announced ClickHouse acquisition landed on Hacker News on 2026-01-17 with 220 points, and the README says the team doubled in the six months before it.
 **Three years old, the largest community in this category, and now owned by a database vendor whose observability stack it slots into.**
 
@@ -44,7 +44,7 @@ Announced ClickHouse acquisition landed on Hacker News on 2026-01-17 with 220 po
 ## Pricing
 
 Self-hosted: free, MIT core, with the `ee/` directories under their separate license.
-Langfuse Cloud as of 2026-09-25: Hobby free (50k units/month, 30-day retention), Core $29/month, Pro $199/month (Teams add-on $300/month), Enterprise $2,499/month, plus graduated overage from $8 down to $6 per 100k units.
+Langfuse Cloud as of 2026-10-02: Hobby free (50k units/month, 30-day retention), Core $29/month, Pro $199/month (Teams add-on $300/month), Enterprise $2,499/month, plus graduated overage from $8 down to $6 per 100k units.
 
 ## Price history
 
@@ -79,12 +79,12 @@ Not for pytest-style CI gating (use deepeval) or for observing coding-agent sess
 
 ## References
 
-- https://github.com/langfuse/langfuse - repository, description, stars and forks, pushed date as of 2026-09-26
+- https://github.com/langfuse/langfuse - repository, description, stars and forks, pushed date as of 2026-10-02
 - https://raw.githubusercontent.com/langfuse/langfuse/main/LICENSE - MIT core, the `ee/` carve-out, and the ClickHouse, Inc. copyright
 - https://raw.githubusercontent.com/langfuse/langfuse/main/README.md - feature set, self-hosting, integrations, and the January 2026 ClickHouse note
 - https://langfuse.com/docs - platform overview, OTel basis, evaluation methods, agent skill, CLI, and MCP server
 - https://langfuse.com/pricing - cloud tiers, billable units, graduated overage, self-host FAQ, named customers
-- https://github.com/langfuse/langfuse/releases - v4.46.0 release date
+- https://github.com/langfuse/langfuse/releases - v4.49.0 release date
 - https://news.ycombinator.com/item?id=46656552 - the acquisition thread, 220 points, with the open-core and consolidation concerns
 - https://news.ycombinator.com/item?id=42441258 - the 2024 Launch HN thread, 215 points, including the LangSmith comparison
 - https://news.ycombinator.com/item?id=37310070 - the 2023 Show HN thread, 143 points

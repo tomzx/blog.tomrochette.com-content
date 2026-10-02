@@ -1,7 +1,7 @@
 ---
 title: Orca
 created: 2026-09-27
-updated: 2026-09-30
+updated: 2026-10-02
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, llm=glm-5.3-flash, orchestration, agent-ide, worktrees, mobile]
 readability: 3
@@ -24,7 +24,7 @@ MIT licensed, TypeScript and Electron, and the repo's README carries translation
 
 ## Status
 
-Fast and well-funded: about 81.9k stars as of 2026-09-30 and 5,198 forks as of 2026-09-29, created 2026-03-17, more than 11,900 commits, with v1.4.217 (2026-09-29, a patch that gets Codex workers starting again on Codex 0.158) the latest release.
+Fast and well-funded: about 83.2k stars and 5,384 forks as of 2026-10-02, created 2026-03-17, more than 11,900 commits, with v1.4.218 (2026-09-30) the latest release.
 The changelog shows daily shipping through September 2026, including OpenCode 2 support (2026-09-20), a Muse Code harness and Codex goals in native chat (2026-09-25), and a Design Mode and browser stack.
 Stably is a YC W22 company with a separate revenue product (Stably testing), so Orca does not have to monetize itself yet, which is why it can stay free and MIT.
 **The caution is scale: 7,014 open issues and pull requests against a repository roughly six months old, and the loudest proof of adoption is a wall of self-selected X quotes rather than independent field reports.**
@@ -39,7 +39,7 @@ Stably is a YC W22 company with a separate revenue product (Stably testing), so 
 
 ## Cautions
 
-- The open-issue count is very high (7,014 as of 2026-09-29); expect rough edges and duplicates, and read the issue tracker before trusting a workflow.
+- The open-issue count is very high (7,303 open issues and pull requests as of 2026-10-02); expect rough edges and duplicates, and read the issue tracker before trusting a workflow.
 - "Ship 100x" and "hundreds of agents" are marketing framing; the practical unit is still a worktree per task and a human reviewing diffs.
 - Adoption evidence is largely self-reported (X quotes, company logos); the Hacker News footprint is thin (a three-point story and a small third-party review as of 2026-09-27).
 - Enterprise features (SOC 2 readiness, SAML, org defaults) are behind a sales conversation, so regulated teams cannot self-serve.
@@ -67,6 +67,7 @@ Not for teams that need a closed, vendor-supported enterprise product today, or 
 - 2026-09-27 - Created.
 - 2026-09-29 - Recorded v1.4.216 (September 28) and refreshed star and tracker counts.
 - 2026-09-30 - Recorded v1.4.217 (September 29, Codex workers start again on Codex 0.158) as the latest release and refreshed the star count.
+- 2026-10-02 - Recorded v1.4.218 (September 30) as the latest release and refreshed star, fork, and tracker counts.
 
 ## See also
 

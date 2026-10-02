@@ -21,7 +21,7 @@ Claude Code reads a CLAUDE.md hierarchy (managed, user, project, local) plus pat
 AGENTS.md is the cross-tool standard, adopted by Codex, Cursor, Amp, Jules, Gemini CLI (via config), opencode, Zed, Junie, and the GitHub Copilot coding agent, and now stewarded by the Agentic AI Foundation under the Linux Foundation.
 Cursor supports both `.cursor/rules` (frontmattered `.mdc` files) and plain AGENTS.md, including nested files per directory.
 **Interop is by bridge, not standard: Claude Code reads CLAUDE.md and not AGENTS.md, so teams symlink or `@import` one into the other, and `/init` ingests rivals' rule files.**
-Products are forming around the convention, notably memU (14.4k stars as of 2026-09-25), which stores memory as a wiki of markdown files shared across Codex, Claude Code, and Cursor.
+Products are forming around the convention, notably memU (14.5k stars as of 2026-10-02), which stores memory as a wiki of markdown files shared across Codex, Claude Code, and Cursor.
 
 ## Status
 
@@ -79,5 +79,5 @@ Reach for a memory service only for cross-user or cross-app memory; my disagreea
 - https://agents.md - the standard, adoption count, and stewardship as of 2026-09-25
 - https://cursor.com/docs/rules - rules types, AGENTS.md support, path scoping
 - https://www.anthropic.com/engineering/claude-code-best-practices - guidance on keeping instruction files short enough to be obeyed
-- https://github.com/NevaMind-AI/memU - a markdown-wiki memory product with real traction (14.4k stars as of 2026-09-25)
+- https://github.com/NevaMind-AI/memU - a markdown-wiki memory product with real traction (14.5k stars as of 2026-10-02)
 - https://news.ycombinator.com/item?id=46294274 - the Letta Code launch thread, where hosted-memory practice meets file-first practitioners

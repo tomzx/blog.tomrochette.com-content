@@ -16,7 +16,7 @@ SemIf, until 2026-09-18 called OpenJev, is an MIT research project that reproduc
 
 ## What it is
 
-An MIT repository by TheoLeeCJ (2,680 stars as of 2026-09-21) plus a WebGPU site at openjev.com whose tagline, "Wow! No waitlist", aims directly at Jev's early-access queue.
+An MIT repository by TheoLeeCJ (about 4,650 stars as of 2026-10-02) plus a WebGPU site at openjev.com whose tagline, "Wow! No waitlist", aims directly at Jev's early-access queue.
 The method needs no training: runtime criteria and typed options go into a frozen open model (Qwen3 0.6B, MiniCPM5 2B, or Qwen3.5 4B), one forward pass per question reads the declared option logits, and a shared state is prefilled once, then branched across many criteria in parallel.
 Every output row carries timing, the exact model revision, and a prompt hash, and the fixtures, runners, and raw results are committed to the repository.
 An Apple Silicon MLX backend landed as a community PR on 2026-09-19, and the browser demo runs the same comparison entirely client-side with weights cached in the browser.
@@ -24,8 +24,8 @@ The rename is part of the artifact: after its launch thread debated trademark ri
 
 ## Status
 
-Days old and active, as of 2026-09-29.
-Created 2026-09-16, last push 2026-09-23, two contributors, no tags or releases, 315 forks, about 4,500 stars.
+Days old and active, as of 2026-10-02.
+Created 2026-09-16, last push 2026-09-23, two contributors, no tags or releases, 328 forks, about 4,650 stars.
 The community footprint is large but lives under the old name: the "OpenJev" thread linking openjev.com reached 722 points as of 2026-09-26, the third-largest thread in the Jev wave after Jev's own launch and Laya's.
 Three community PRs merged on 2026-09-22: PyTorch/MPS scoring for Apple Silicon, a Qwen3.8-27B EXL3 bridge, and per-workload temperature calibration with calibrated prediction outputs.
 The headline numbers are self-run: on 102 aligned public rows, direct logit readout with Qwen3.5-4B agrees with TypeSafe's published values 0.845 of the time against Jev's published 0.883, with balanced accuracy of 0.813 on authored decisions and 0.766 under perturbation.
@@ -83,7 +83,7 @@ I run the browser demo before I believe any latency claim in this category, and 
 
 ## References
 
-- https://github.com/TheoLeeCJ/SemIf - repository: MIT, about 4,500 stars, 315 forks, created 2026-09-16, last push 2026-09-23 (GitHub API, as of 2026-09-29)
+- https://github.com/TheoLeeCJ/SemIf - repository: MIT, about 4,650 stars, 328 forks, created 2026-09-16, last push 2026-09-23 (GitHub API, as of 2026-10-02)
 - https://raw.githubusercontent.com/TheoLeeCJ/SemIf/master/README.md - the rename notice, speed tables, browser model ladder, MLX backend, and the 2026-09-22 PR log
 - https://openjev.com/ - the project site: WebGPU demo, quality table, and the independence notice
 - https://news.ycombinator.com/item?id=49752041 - the OpenJev thread (722 points as of 2026-09-26, 2026-09-18): the trademark debate, the hype and failure criticisms (fetched via the Algolia items API)

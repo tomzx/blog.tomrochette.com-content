@@ -1,7 +1,7 @@
 ---
 title: OpenSandbox
 created: 2026-09-16
-updated: 2026-09-27
+updated: 2026-10-02
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, sandboxing, isolation, kubernetes]
 readability: 3
@@ -22,7 +22,7 @@ An ingress gateway with per-sandbox egress controls handles network policy, a Cr
 ## Status
 
 **Very active and exceptionally fast-growing for a nine-month-old repo, with traction that is vendor-driven rather than organic Hacker News adoption.**
-15,529 stars and 1,429 forks as of 2026-09-27, repo created 2025-12-17, pushed 2026-09-27, latest release 1.1.0 on 2026-09-21, the first stable release of a unified umbrella version line that covers the server, component images, charts, CLI, and every SDK from one commit and a signed BOM.
+15,641 stars and 1,443 forks as of 2026-10-02, repo created 2025-12-17, pushed 2026-10-01, latest stable release 1.1.0 on 2026-09-21, the first stable release of a unified umbrella version line that covers the server, component images, charts, CLI, and every SDK from one commit and a signed BOM, with a 1.1.1-rc.1 prerelease of 2026-09-28 opening the patch line to fix a broken 1.1.0 opensandbox-server wheel on PyPI.
 The current organization was created 2026-06-04 as part of the transfer out of Alibaba.
 Hacker News is conspicuously absent: the threads are a 2-pointer from March 2026 linking the pre-transfer alibaba URL, a 1-pointer to the website, and a 4-pointer whose title borrows OpenSandbox's tagline but whose URL points at a competitor's repo (a submission error), while a 4-point January "Show HN: Open Sandbox" is an unrelated same-name project.
 
@@ -38,11 +38,11 @@ Hacker News is conspicuously absent: the threads are a 2-pointer from March 2026
 - **The default boundary is an ordinary runc container, so an unconfigured deployment has container-grade isolation only, with the strong runtimes behind opt-in configuration.**
 - chenhunghan's March 2026 sandbox comparison rated OpenSandbox container yes, VM no, network yes; the comparison predates the current guide's Firecracker and Cloud Hypervisor options, but independent adversarial review of the platform itself is still thin.
 - The missing HN footprint alongside 15k stars, plus the Trendshift badge, Discord and DingTalk groups, and triple-registry presence, reads as deliberate promotion machinery; treat the stars as marketing reach, not field evidence.
-- Component versioning ended with the 1.1.0 umbrella release, but a nine-month-old repo with a five-month-old organization still means API churn is likely.
+- Component versioning ended with the 1.1.0 umbrella release, but a nine-month-old repo with a five-month-old organization still means API churn is likely, and the umbrella process already shipped one dud: the 1.1.0 server wheel on PyPI was broken at import time and patched on the 1.1.1 line.
 
 ## Pricing
 
-Free, Apache-2.0, self-hosted; no hosted offering or pricing page found on open-sandbox.ai or in the repo as of 2026-09-18.
+Free, Apache-2.0, self-hosted; no hosted offering or pricing page found on open-sandbox.ai or in the repo as of 2026-10-02.
 Costs are the Docker or Kubernetes infrastructure you run it on.
 
 ## Compared to
@@ -61,6 +61,7 @@ Not for anyone who needs hardened isolation by default, an independently audited
 - 2026-09-16 - Created.
 - 2026-09-25 - Growth refreshed (15,504 stars, 1,425 forks), and the latest release recorded as the first stable 1.1.0 umbrella release of 2026-09-21, which retires the component-wise server/v0.2.3 versioning the note previously described.
 - 2026-09-27 - Growth refreshed (15,529 stars, 1,429 forks, pushed 2026-09-27); 1.1.0 remains the latest release, holding the umbrella line steady.
+- 2026-10-02 - Recorded the 1.1.1-rc.1 prerelease (2026-09-28), cut to fix the broken 1.1.0 opensandbox-server wheel on PyPI, added that fact to Cautions, and refreshed growth (15,641 stars, 1,443 forks, pushed 2026-10-01).
 
 ## See also
 

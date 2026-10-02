@@ -23,9 +23,9 @@ Uploads run about weekly, and descriptions read like engineering writeups that s
 
 ## Status
 
-Active and steady at modest scale as of 2026-09-24.
-The channel was created 2014-07-20 and shows 18.7K subscribers; the RSS feed shows 15 uploads between 2026-05-15 and 2026-09-21, roughly one per week.
-The latest upload (2026-09-21, "Inside OpenAI's Agentic Software Factory") had 12,960 views and 180 ratings within three days.
+Active and steady at modest scale as of 2026-10-02.
+The channel was created 2014-07-20 and shows 18.7K subscribers; the RSS feed shows 16 uploads between 2026-05-15 and 2026-09-28, roughly one per week.
+The latest upload is "JEV Explained (Real Use Cases)" (2026-09-28); the 2026-09-21 upload ("Inside OpenAI's Agentic Software Factory") had 12,960 views and 180 ratings within three days.
 Reach concentrates in the factory videos: "I Built an Agentic Software Factory" (2026-07-25) is his biggest recent at 68,787 views, while most uploads land between 3,000 and 20,000.
 Trajectory is upward without a breakout, and his roughly 1.2K combined GitHub stars across the pinned repos carry more durable weight than the sub count suggests.
 

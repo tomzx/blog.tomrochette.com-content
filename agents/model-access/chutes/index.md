@@ -41,7 +41,7 @@ I could not verify funding or traffic figures.
 
 ## Pricing
 
-PAYG is the default as of 2026-09-26: GLM-5.2 $1.25 in / $3.95 out per 1M, Kimi-K3 $3.00/$15.00, Qwen3-235B-A22B-Thinking $0.2989/$1.1957, DeepSeek-V3.2 $1.00/$1.00.
+PAYG is the default as of 2026-10-02: GLM-5.2 $1.25 in / $3.95 out per 1M, Kimi-K3 $3.00/$15.00, Qwen3-235B-A22B-Thinking $0.2989/$1.1957, DeepSeek-V3.2 $1.00/$1.00.
 Plus costs $10/month for a bundled daily quota plus 6% off PAYG beyond it, and Pro costs $20/month for a larger quota plus 10% off.
 Since February 27, 2026, every subscription is capped at 5x the equivalent PAYG value, with overflow billing at standard PAYG.
 Private chutes run on an RTX Pro 6000 at $1.80/hour plus a $5.40 one-time deployment fee (3x the hourly rate).
@@ -80,7 +80,7 @@ Claim to disagree with: after the 5x cap, Plus and Pro make little sense for cod
 
 ## References
 
-- https://chutes.ai/pricing - current PAYG model rates, Plus $10 / Pro $20 with 6%/10% PAYG discounts, private GPU pricing (fetched, HTTP 200, as of 2026-09-26).
+- https://chutes.ai/pricing - current PAYG model rates, Plus $10 / Pro $20 with 6%/10% PAYG discounts, private GPU pricing (fetched, HTTP 200, re-verified unchanged 2026-10-02).
 - https://chutes.ai/news/community-announcement-february - February 27, 2026 changes: Early Access retirement, 5x subscription cap, Base tier model removals, abuse tables (fetched, HTTP 200).
 - https://chutes.ai/news/from-volume-to-value-building-a-sustainable-ai-inference-platform-2 - March 20, 2026 economics: tokens down 45%, revenue per token up 37.7%, free-tier costs (fetched, HTTP 200).
 - https://chutes.ai/news/coming-soon - July 31, 2025 post announcing the first pricing tiers (fetched, HTTP 200).

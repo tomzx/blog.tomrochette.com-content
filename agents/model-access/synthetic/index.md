@@ -40,7 +40,7 @@ Any OpenAI-compatible tool works against api.synthetic.new/v1 (Anthropic-compati
 
 ## Pricing
 
-- Subscription pack: $30/month ($1/day) for 500 requests per 5 hours, advertised as 3x the rate limits of Claude's $20/month plan, with 1 concurrent request per model and UI plus API access (as of 2026-09-26).
+- Subscription pack: $30/month ($1/day) for 500 requests per 5 hours, advertised as 3x the rate limits of Claude's $20/month plan, with 1 concurrent request per model and UI plus API access (as of 2026-10-02).
 - Usage-based: pay-per-token on always-on models and pay-per-minute on-demand, pitched at enterprise.
 - All always-on models plus embeddings are included in every subscription, and embeddings do not count against the rate limit.
 

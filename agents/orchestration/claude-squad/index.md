@@ -26,7 +26,7 @@ Prerequisites are just tmux and the GitHub CLI.
 ## Status
 
 Active but slow-burning.
-The repository was created in March 2025, was last pushed to on 2026-08-20, and shows 222 commits, 8,533 stars, and 621 forks as of 2026-09-26.
+The repository was created in March 2025, was last pushed to on 2026-08-20, and shows 222 commits, 8,558 stars, and 624 forks as of 2026-10-02.
 Homebrew reports 5,168 installs over the last 365 days as of 2026-09-26, which is real but modest usage for its star count.
 **Its Hacker News footprint is nearly empty (a 5-point launch thread in April 2025), so adoption spread through GitHub and word of mouth, not press.**
 

@@ -1,7 +1,7 @@
 ---
 title: Happy Coder
 created: 2026-09-06
-updated: 2026-09-26
+updated: 2026-10-02
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, mobile, claude-code, codex]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 Happy Coder is an MIT-licensed open-source client that wraps Claude Code and Codex sessions on your machine and syncs them end-to-end encrypted to native iOS, Android, macOS, and web apps.
-**It passed 23k stars as a thin wrapper around two harnesses, second only to cmux among the category's maintained tools, which says the phone screen, not the orchestrator, is what people install.**
+**It passed 23k stars as a thin wrapper around two harnesses, second only to cmux among the category's maintained session-multiplexing tools, which says the phone screen, not the orchestrator, is what people install.**
 
 ## What it is
 
@@ -22,7 +22,7 @@ The README describes the makers as a community of engineers building for themsel
 
 ## Status
 
-Active and second only to cmux among maintained category tools on stars: 23,913 GitHub stars as of 2026-09-26 (the orphaned Vibe Kanban repo holds more, about 28k, but has shipped nothing since April), created July 2025, last pushed 2026-09-22.
+Active and second only to cmux among maintained session-multiplexing tools on stars: 23,973 GitHub stars as of 2026-10-02 (the Codex workflow layer oh-my-codex holds more, 33.4k, but it is a skills-and-workflows layer rather than a session multiplexer, and the orphaned Vibe Kanban repo holds about 28k, but has shipped nothing since April), created July 2025, last pushed 2026-09-28.
 cli-1.2.5 reached stable on 2026-09-22, following cli-1.2.4 (2026-09-13) and the 1.2.5 betas.
 Its August 2025 Show HN drew only 30 points, so the star count is bottom-up adoption rather than press traction.
 For scale, Paseo, the category's other mobile-first entrant, reports about 18.6k stars against Happy's 23.9k.
@@ -65,6 +65,7 @@ Not for multi-provider orchestration, worktree isolation, or Windows and Linux d
 - 2026-09-13 - Refined the star ranking to second among maintained tools (the orphaned Vibe Kanban repo outranks it but is dormant) and refreshed counts.
 - 2026-09-16 - Recorded the cli-1.2.4 stable release (September 13) and the 1.2.5 betas, and refreshed star and push counts.
 - 2026-09-22 - Recorded cli-1.2.5 reaching stable (September 22) and refreshed star and push counts.
+- 2026-10-02 - Qualified the star ranking (oh-my-codex, a Codex workflow layer rather than a session multiplexer, holds more stars) and refreshed star and push counts.
 
 ## See also
 

@@ -25,7 +25,7 @@ The app runs agents locally, never proxies model calls, and points sessions at w
 ## Status
 
 Active and iterating: version v0.49.5 shipped 2026-09-25, continuing the v0.49 line that shipped 2026-09-08, the macOS app is on Homebrew, and the changelog runs through September 2026.
-The public source repository, lanes-sh/app, shows about 271 stars as of 2026-09-27, created 2026-03-22, and is updated within days; the product also spans the Apache-2.0 lanes-sh/link endpoint and the hosted Lanes Forms and Compute services.
+The public source repository, lanes-sh/app, shows about 271 stars as of 2026-10-02, created 2026-03-22, last pushed 2026-09-25; the product also spans the Apache-2.0 lanes-sh/link endpoint and the hosted Lanes Forms and Compute services.
 **The open question is provenance: the site says "open source from day one" and links both repositories, but the app repository carries no license metadata on GitHub as of 2026-09-27, whereas the Link endpoint is explicitly Apache-2.0.**
 
 ## Strengths

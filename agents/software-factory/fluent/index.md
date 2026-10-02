@@ -20,7 +20,7 @@ Each run of a Work Item is an Attempt that a Writer, parallel Reviewers, a deter
 
 ## Status
 
-Active and meaningfully developed: 107 stars and 5 forks since creation on 2026-07-10, 1,965 commits, and v0.4.0 released 2026-09-08 (still the newest release) per the GitHub API as of 2026-09-27.
+Active and meaningfully developed: 108 stars and 5 forks since creation on 2026-07-10, 1,965 commits, and v0.4.0 released 2026-09-08 (still the newest release) per the GitHub API as of 2026-10-02.
 v0.4.0 clarified which role owns each required action, improved how test evidence is matched, and made long-running work safer to resume and cancel; v0.3.0 (2026-08-31) had added durable Slack collaboration for planning, approvals, and candidate handoff.
 It is a focused single-author project with a real Discord community, not the biggest crowd but steadily shipped.
 The governance and self-improvement loop are unusually detailed for the category, which is the design bet the note weighs.

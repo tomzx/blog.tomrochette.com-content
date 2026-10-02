@@ -1,7 +1,7 @@
 ---
 title: Kev
 created: 2026-09-21
-updated: 2026-09-29
+updated: 2026-10-02
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, hybrid-execution, structured-outputs, system-one-models, decision-models, open-weights, fine-tuning]
 readability: 3
@@ -10,23 +10,24 @@ audience_notes: >
   Assumes you know what a LoRA adapter and a Brier score are.
 ---
 
-Kev is Jared Palmer's Apache-2.0 family of small decision models (0.8B, 4B, and 9B LoRA adapters on Qwen3.5 bases) that reimplements the Jev contract on your own GPU, serving the same typed questions over an endpoint the official TypeSafe SDK can target unchanged.
+Kev is Jared Palmer's Apache-2.0 family of decision models that reimplements the Jev contract on your own GPU, three LoRA adapters on Qwen3.5 bases (0.8B, 4B, 9B) plus a full-weights Kev-27B fine-tune of Qwen3.8-27B, serving the same typed questions over an endpoint the official TypeSafe SDK can target unchanged.
 
 **Kev is the first Jev replica whose evaluation discipline is stronger than the vendor it replicates: pre-registered criteria, a locked test set read once per checkpoint, and published gap tables against live Jev.**
 
 ## What it is
 
-A repository with training code, a serving server exposing `POST /v1/systemone` (noul, choice, and score questions), a web playground for option-order probes, and frozen eval suites, plus three Qwen3.5 checkpoints in a Hugging Face collection, with the earlier Qwen3 generation and a 0.5B prototype kept published.
-Each checkpoint is a rank-16 LoRA adapter and a small pointer head on a fixed base, with an attention mask giving question isolation (the Qwen3.5 models' recurrent DeltaNet layers run each question as its own row against a shared state cache).
+A repository with training code, a serving server exposing `POST /v1/systemone` (noul, choice, and score questions), a web playground for option-order probes, and frozen eval suites, plus four checkpoints in a Hugging Face collection now versioned together as Kev 1.0: the 0.8B, 4B, and 9B LoRA adapters on Qwen3.5 bases and a full-weights Kev-27B, a complete fine-tune of Qwen's post-trained Qwen3.8-27B, with the earlier Qwen3 generation and a 0.5B prototype kept published.
+Each of the three small checkpoints is a rank-16 LoRA adapter and a small pointer head on a fixed base, with an attention mask giving question isolation (the Qwen3.5 models' recurrent DeltaNet layers run each question as its own row against a shared state cache); Kev-27B trains every backbone weight and ships as 51 GB of bf16 full weights plus the pointer head.
 Code and weights are Apache-2.0, matching the Qwen bases, and the author credits the [Jev's Architecture Unmasked](https://archerhume.com/posts/jevs-architecture-unmasked) write-up for the design and notes the project was built with Devin.
 The API tests run TypeSafe's own example requests against the local server, which is the compatibility claim made testable.
 
 ## Status
 
-**Active and eleven days old, with traction on every axis I can measure.**
-The repository was created 2026-09-17 and pushed 2026-09-29, with 7,732 stars and 480 forks as of 2026-09-29, and two releases (the 0.5B prototype on 2026-09-17, the 0.8B/4B/9B family on 2026-09-20).
-The Hacker News thread (2026-09-21) exploded from about 30 points when I first checked to 462 points as of 2026-09-29, clearing the bar this note originally recorded it failing, with the substantive use-case discussion (coding-agent verifiers, spam filtering, knowledge-cutoff concerns) now carrying far more weight than drive-by upvotes.
-A browser demo on Hugging Face Spaces (Kev-4B and Kev-0.8B, no install) and an MLX serving path for Apple Silicon landed in the same window, and kev-4b shows about 10,800 downloads as of 2026-09-29.
+**Active and sixteen days old, with traction on every axis I can measure.**
+The repository was created 2026-09-17 and pushed 2026-10-01, with 8,196 stars and 523 forks as of 2026-10-02, and three releases (the 0.5B prototype on 2026-09-17, the 0.8B/4B/9B family on 2026-09-20, and kev-1.0 on 2026-10-01, which versions the four checkpoints as one family with `v1.0` tags on every Hub repo and pins cards, eval suites, and serving code for the next generation to be measured against, training nothing new).
+The family grew a flagship in the same window: Kev-9B v2 shipped 2026-09-30 (a refitted temperature, v1 kept at a Hub tag) and Kev-27B v2 joined it, with a 65,536-token validated context against 8,192 for the small family and README-claimed numbers within three points of Jev, or ahead of it, on 9 of 11 new-source categories while matching Jev's 0.90 MMLU, at the cost of needing an 80 GB GPU.
+The Hacker News thread (2026-09-21) exploded from about 30 points when I first checked to 462 points as of 2026-10-02, clearing the bar this note originally recorded it failing, with the substantive use-case discussion (coding-agent verifiers, spam filtering, knowledge-cutoff concerns) now carrying far more weight than drive-by upvotes.
+A browser demo on Hugging Face Spaces (Kev-4B and Kev-0.8B, no install) and an MLX serving path for Apple Silicon landed in the same window, and kev-4b shows about 14,100 downloads as of 2026-10-02.
 What still carries the evidentiary weight: the README converts two independent third-party test sets, SemIf's 144 authored decisions and scienthoon's 900-ticket Jev calibration, and scores its models against those projects' own published live-Jev results.
 
 ## Strengths
@@ -40,8 +41,8 @@ What still carries the evidentiary weight: the README converts two independent t
 ## Cautions
 
 - Calibration is the gap that matters for threshold logic: on new-source data Kev-4B assigns at least 0.9 probability to a wrong answer on 8.2% of questions (7.5% for the 9B), so test on your own data before branching on confidence, and the third-party JevBench board lands the same punch independently (Kev-4B 59.7 overall with a 42.0 calibration axis against Jev's 74.4 on the v1.2 board, falling to 36.1 against Jev's 63.3 on the sealed v1.4 revision).
-- Mac serving now runs through the shipped MLX backend (Kev-0.8B: 149 ms new state and 28 ms repeated through the prefix cache on an M5, a large recovery from the 779 ms PyTorch MPS path), but it is a different backbone execution than the CUDA fp32 path the evaluations use, so parity is claimed to bf16 rounding rather than proven end to end.
-- Option order can flip answers despite question isolation, training covered only 384-token states against the 8,192-token serving limit, and the single-threaded server has no authentication.
+- Mac serving now runs through the shipped MLX backend (Kev-0.8B: 149 ms new state and 28 ms repeated through the prefix cache on an M5, a large recovery from the 779 ms PyTorch MPS path), but it is a different backbone execution than the CUDA fp32 path the evaluations use, so parity is claimed to bf16 rounding rather than proven end to end, and the Kev-27B Apple Silicon path is expected to need a 96-128 GB Mac and is unmeasured.
+- Option order can flip answers despite question isolation, the small family trained mostly on 384-token states with fine-tunes reaching 7,552 tokens against its 8,192-token validated limit (only Kev-27B is validated at 65,536), and the single-threaded server has no authentication.
 - Every comparison to Jev is self-run and admittedly uncontrolled, since nobody knows what Jev was trained on.
 
 ## Pricing
@@ -58,7 +59,7 @@ The real cost is hardware and training spend if you reproduce the family; the au
 ## Bottom line
 
 **Recommended for engineers who want the System One contract running on their own hardware with a real evaluation harness, and who will fit decision thresholds on their own data rather than trusting the shipped calibration.**
-Not for low-latency Mac serving today, for long-context states, or for anyone who needs Jev-level calibration out of the box.
+Not for low-latency Mac serving today, for long-context states on modest hardware (only the 27B is validated past 8k tokens, and it wants an 80 GB GPU), or for anyone who needs Jev-level calibration out of the box.
 The disagreeable claim I will defend: the weights are the second-most valuable artifact here, and the pre-registered, locked-test research log is the first, because it is a higher evidentiary standard than the closed vendor it replicates, and the rest of this category should be judged against it.
 
 ## Changes
@@ -67,6 +68,7 @@ The disagreeable claim I will defend: the weights are the second-most valuable a
 - 2026-09-22 - Recorded the thread clearing the bar (454 points), the star and fork surge (4,766 and 259), the shipped MLX Apple Silicon path with its latency recovery, the Hugging Face Spaces browser demo, the JevBench third-party scores (Kev-4B 59.7), and refreshed kev-4b download counts.
 - 2026-09-25 - Recorded the continuing traction surge (6,750 stars, 389 forks, kev-4b at about 6,100 downloads) and the JevBench v1.4 sealed-board re-scoring (Kev-4B 36.1 against Jev's 63.3).
 - 2026-09-29 - Refreshed traction (7,732 stars, 480 forks, kev-4b at about 10,800 downloads, thread 462 points).
+- 2026-10-02 - Recorded the family's growth and the Kev 1.0 release (2026-10-01, `v1.0` tags on every Hub repo pinning cards, suites, and serving code): Kev-9B v2 shipped 2026-09-30 and the new Kev-27B v2 flagship (full bf16 weights on Qwen3.8-27B, 65,536-token validated context, README-claimed within three points of Jev or ahead on 9 of 11 new-source categories, MMLU 0.90 matching Jev, an 80 GB GPU requirement); refreshed stars (8,196), forks (523), kev-4b downloads (about 14,100), and the release count to three.
 
 ## See also
 
@@ -78,11 +80,12 @@ The disagreeable claim I will defend: the weights are the second-most valuable a
 
 ## References
 
-- https://github.com/jaredpalmer/kev - repository: Apache-2.0, created 2026-09-17, 7,732 stars, 480 forks (GitHub API, as of 2026-09-29)
+- https://github.com/jaredpalmer/kev - repository: Apache-2.0, created 2026-09-17, 8,196 stars, 523 forks, pushed 2026-10-01 (GitHub API, as of 2026-10-02)
+- https://github.com/jaredpalmer/kev/releases/tag/kev-1.0 - the Kev 1.0 family release (2026-10-01): four checkpoints, `v1.0` Hub tags, pinned weights revisions and validated-context table
 - https://raw.githubusercontent.com/jaredpalmer/kev/main/README.md - the LoRA-plus-pointer-head architecture, question isolation, eval tables against Jev, serving and training limits
 - https://raw.githubusercontent.com/jaredpalmer/kev/main/PLAN.md - the pre-registered research log: gap table to Jev, locked-test discipline, the $475-of-$500 budget
-- https://news.ycombinator.com/item?id=49783999 - the launch thread (462 points as of 2026-09-29, from about 30 points a day earlier), its use-case confusion and bandwagon skepticism the critical signals
-- https://huggingface.co/collections/jaredpalmer/kev-6aad9d0ea49f2589665e07cd - the weight collection; kev-4b created 2026-09-19, Apache-2.0, about 10,800 downloads (as of 2026-09-29)
+- https://news.ycombinator.com/item?id=49783999 - the launch thread (462 points as of 2026-10-02, from about 30 points a day earlier), its use-case confusion and bandwagon skepticism the critical signals
+- https://huggingface.co/collections/jaredpalmer/kev-6aad9d0ea49f2589665e07cd - the weight collection; kev-4b created 2026-09-19, Apache-2.0, about 14,100 downloads (as of 2026-10-02)
 - https://github.com/TheoLeeCJ/SemIf - the independent 144-decision test set (2,680 stars) whose live-Jev results kev converts and scores against
 - https://github.com/scienthoon/jev-ood-calibration - the independent 900-ticket Jev calibration whose test set appears in kev's external evals
 - https://archerhume.com/posts/jevs-architecture-unmasked - the architecture write-up kev credits for the design

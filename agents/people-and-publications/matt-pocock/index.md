@@ -18,7 +18,7 @@ Matt Pocock is a full-time developer educator who built Total TypeScript and now
 
 Total TypeScript is the original business: five professional workshops (Pro Essentials, Type Transformations, Generics, Advanced Patterns, Advanced React with TypeScript) taught exercise-first, plus free tutorials, a book, tips, and articles, run by an ex-XState core team member and ex-Vercel developer advocate.
 AI Hero is the newer property: posts, a skills catalogue, an AI Coding Dictionary, workshops, cohorts, and events, concentrated on Claude Code, MCP, evals, and the Vercel AI SDK.
-On GitHub (46.5k followers as of 2026-09-24) the flagship is the skills repo, "Skills for Real Engineers", MIT-licensed, at 268.6k stars, alongside sandcastle (sandboxed coding agents in TypeScript, 8.1k stars), dictionary-of-ai-coding (4.7k stars), and ts-reset (8.6k stars).
+On GitHub (46.5k followers as of 2026-09-24) the flagship is the skills repo, "Skills for Real Engineers", MIT-licensed, at 273.9k stars as of 2026-10-02, alongside sandcastle (sandboxed coding agents in TypeScript, 8.1k stars), dictionary-of-ai-coding (4.7k stars), and ts-reset (8.6k stars).
 The skills are deliberately small, composable, and forkable: grill-me, grill-with-docs, wayfinder, to-spec, to-tickets, tdd, code-review, and a setup skill, organized around four failure modes of agentic coding.
 
 ## Status

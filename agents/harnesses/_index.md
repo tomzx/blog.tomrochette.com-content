@@ -18,7 +18,7 @@ The terminal and CLI agents that carry the model into your repository: the platf
 - [Cline](cline/index.md) - the open-source agent that outgrew its VS Code extension into CLI, kanban, and SDK, 5.5 million installs deep.
 - [Codex](codex/index.md) - OpenAI's ChatGPT-included agent, the Apache-2.0 big-lab CLI individuals can still just run.
 - [Crush](crush/index.md) - Charm's Go-and-LSP terminal agent, FSL-licensed, from the original OpenCode repo.
-- [DeepSeek Harness](deepseek-harness/index.md) - DeepSeek's everything-is-a-plugin harness, 239k stars in its first two months, MIT, prerelease-only at v0.2.0-rc.1.
+- [DeepSeek Harness](deepseek-harness/index.md) - DeepSeek's everything-is-a-plugin harness, 242k stars in its first two months, MIT, prerelease-only at v0.2.0-rc.2.
 - [Exo](exo/index.md) - the MIT self-modification bet, a harness the agent can rewrite at runtime, cheapest measured harness at $1.05 per task.
 - [fx](fx/index.md) - Vercel Labs' ~6 MiB Zig harness built to be embedded, the first agent-as-a-dependency bet.
 - [Gemini CLI](gemini-cli/index.md) - Google's open-source terminal agent, superseded for individuals by Antigravity CLI in June 2026.
@@ -34,7 +34,7 @@ The terminal and CLI agents that carry the model into your repository: the platf
 - [Open Interpreter](openinterpreter/index.md) - a 2026 Rust fork of Codex CLI emulating provider harnesses for cheap open-weight models like Kimi K3 and GLM.
 - [OpenCode](opencode/index.md) - the MIT, provider-neutral harness with the leanest measured token baseline.
 - [OpenHands](openhands/index.md) - the renamed OpenDevin platform bet, sandboxed code-shell-browser agents you can self-host.
-- [Pi](pi/index.md) - Earendil's minimal, self-extensible harness, a frozen core plus your TypeScript extensions, no MCP by design.
+- [Pi](pi/index.md) - Earendil's minimal, self-extensible harness, a frozen core plus your TypeScript extensions, MCP arriving as a built-in extension in the v0.99 line.
 - [Qwen Code](qwen-code/index.md) - Alibaba's Gemini CLI fork and open-weights showcase, its OAuth free tier discontinued April 2026.
 - [Unreal Agent](unreal-agent/index.md) - Unreal Labs' async-first MIT Go harness, background tool calls as the cost thesis, exo-class traction at day three.
 - [Warp Agent CLI](warp-agent-cli/index.md) - Warp's terminal agent unbundled into any terminal, model routing, cloud agents, and orchestration behind its credit meter.

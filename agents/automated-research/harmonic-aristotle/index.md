@@ -1,7 +1,7 @@
 ---
 title: Harmonic Aristotle
 created: 2026-09-13
-updated: 2026-09-13
+updated: 2026-10-02
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, harmonic, mathematics, formal-verification]
 readability: 3
@@ -18,12 +18,12 @@ Aristotle is Harmonic's agentic theorem prover, sold as mathematical superintell
 
 A web agent at aristotle.harmonic.fun: give it an English problem and it proves and formalizes from scratch, or point it at your Lean project or code repository and it works on files directly.
 The marketing leads with "the reasoning that earned IMO gold" applied to software correctness, and positions output as backed by machine-checked proof.
-Harmonic also runs a $1,000,000 research grant program and accepts applications.
-The company calls its category "Mathematical Superintelligence"; funding and leadership are not stated on the pages fetched for this note.
+Harmonic runs a $1,000,000 Mathematician Sponsorships program (announced 2026-01-22) that takes applications at aristotle.harmonic.fun/sponsorships.
+The company calls its category "Mathematical Superintelligence"; it raised a $120 million Series C at a $1.45 billion valuation led by Ribbit Capital in November 2025, and is led by co-founders Tudor Achim (CEO) and Vlad Tenev (executive chairman).
 
 ## Status
 
-Live product, free with an account, as of 2026-09-18.
+Live product, free with an account, as of 2026-10-02.
 The strongest independent credential is a November 2025 result on Erdős problem #124: Aristotle produced a proof working only from the formal statement, Boris Alexeev formalized and cleaned the statement, Lean checked it, and the Erdős Problems site updated to record that a version of the problem was solved, with the community debate over exactly which version playing out in public.
 Independent third-party benchmarking in July 2026 (the OpenATP project) scored Aristotle 10/10 on the FATE-H theorem set for free, at roughly twice the wall-clock time of Claude Code and Codex.
 On Math Inc.'s FormalQualBench (March 2026), Aristotle solved 6 of 23 with no time limit, but those runs were not validated with the comparator tool and are excluded from the audited counts.
@@ -44,8 +44,8 @@ On Math Inc.'s FormalQualBench (March 2026), Aristotle solved 6 of 23 with no ti
 
 ## Pricing
 
-Free with an account as of 2026-09-18.
-Harmonic advertises a $1,000,000 research grant program; no paid tiers are published on the fetched pages.
+Free with an account as of 2026-10-02.
+Harmonic's $1,000,000 Mathematician Sponsorships program takes applications; no paid tiers are published on the fetched pages.
 
 ## Compared to
 
@@ -61,6 +61,7 @@ Not for audit-sensitive verification work as of 2026-09-18, where the comparator
 ## Changes
 
 - 2026-09-13 - Created as the Harmonic member of the new Automated research category.
+- 2026-10-02 - Named the $1,000,000 program (Mathematician Sponsorships, announced 2026-01-22) and added the funding and leadership facts the note previously lacked (Series C, Achim and Tenev).
 
 ## See also
 
@@ -71,8 +72,10 @@ Not for audit-sensitive verification work as of 2026-09-18, where the comparator
 
 ## References
 
-- https://aristotle.harmonic.fun/ - the product page: agentic surfaces, IMO-gold positioning, grant program, free access
+- https://aristotle.harmonic.fun/ - the product page: agentic surfaces, IMO-gold positioning, and free signup
 - https://math.inc/opengauss - the rival claim that OpenGauss beats Aristotle on FormalQualBench
 - https://math.inc/formalqualbench - Aristotle's unaudited 6/23 column, the comparator exclusion, and the FATE-adjacent cost table
 - https://www.erdosproblems.com/forum/thread/124 - the Lean-checked Erdős #124 result, the version-of-the-problem debate, and Tao's tooling experiments
 - https://hn.algolia.com/api/v1/search?query=Harmonic%20Aristotle&tags=story&hitsPerPage=10 - community footprint and the independent OpenATP benchmark numbers
+- https://www.harmonic.fun/news/mathematician-sponsorships - the $1,000,000 Mathematician Sponsorships announcement (2026-01-22) and the application link
+- https://www.harmonic.fun/news/series-c - the $120 million Series C at a $1.45 billion valuation (November 2025)

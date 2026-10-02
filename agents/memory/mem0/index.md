@@ -25,7 +25,7 @@ The company (YC S24) was founded by Taranjeet Singh and Deshraj Yadav, previousl
 ## Status
 
 **Active and the adoption leader.**
-The repository shows about 66.0k stars and 2,666 commits as of 2026-09-26.
+The repository shows about 66.4k stars and 2,667 commits as of 2026-10-02.
 TechCrunch reported a $24M round (a $3.9M seed plus a $20M Series A led by Basis Set Ventures, with Peak XV and the GitHub Fund) in October 2025, 186M API calls in Q3 2025, and exclusive-memory-provider status for AWS's Agent SDK.
 The site claims 150,000+ developers.
 The 2024 Show HN drew 201 points and 61 comments, though moderators flagged booster comments in that thread.
@@ -47,7 +47,7 @@ The 2024 Show HN drew 201 points and 61 comments, though moderators flagged boos
 ## Pricing
 
 Hobby (free) tier: 10,000 add and 1,000 retrieval requests per month.
-Starter $19/month, Pro $249/month (graph memory and Dream land at Pro), Enterprise custom with on-prem and SSO, as of 2026-09-22.
+Starter $19/month, Pro $249/month (graph memory and Dream land at Pro), Enterprise custom with on-prem and SSO, as of 2026-10-02.
 **The OSS SDK is free but the benchmarked brain is the paid platform, which is the real price of the headline numbers.**
 
 ## Price history
@@ -82,8 +82,8 @@ I would not choose any memory vendor on benchmark leaderboards, this field's num
 ## References
 
 - https://mem0.ai/ - product surfaces, developer-count claim, deployment options
-- https://github.com/mem0ai/mem0 - stars and commits as of 2026-09-26, April 2026 algorithm, OSS-vs-platform disclaimer
-- https://mem0.ai/pricing - tier and quota structure as of 2026-09-22 (Hobby free, Starter $19, Pro $249)
+- https://github.com/mem0ai/mem0 - stars and commits as of 2026-10-02, April 2026 algorithm, OSS-vs-platform disclaimer
+- https://mem0.ai/pricing - tier and quota structure as of 2026-10-02 (Hobby free, Starter $19, Pro $249)
 - https://arxiv.org/abs/2504.19413 - the paper behind the SOTA claims
 - https://techcrunch.com/2025/10/28/mem0-raises-24m-from-yc-peak-xv-and-basis-set-to-build-the-memory-layer-for-ai-apps/ - funding, traction, AWS Agent SDK deal
 - https://blog.getzep.com/lies-damn-lies-statistics-is-mem0-really-sota-in-agent-memory/ - competitor rebuttal of the benchmark claims

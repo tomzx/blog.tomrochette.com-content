@@ -45,7 +45,7 @@ As of 2026-09-26 the coding-plan docs (updated 2026-09-11) still headline the $5
 
 ## Pricing
 
-As of 2026-09-26 two price sheets coexist.
+As of 2026-10-02 two price sheets coexist.
 Coding Plan Pro: $50/month, capped at 6,000 requests per 5 hours, 45,000 per week, and 90,000 per month, whichever hits first (official docs, updated 2026-09-11).
 Token Plan Personal (Singapore region): Lite $6 (list $8), Essential $10 (list $16), Standard $18 (list $25), Pro $68 (list $80) per month for 11,500/25,500/45,000/180,000 Credits, with team seats at $20/$75/$200 and extra bundles at $15 per 20,000 Credits.
 A third-party tracker (data updated 2026-09-24) reports China-side early-bird pricing of ¥39/¥139/¥499 per month, a limited-time night rate of 40% of normal Credits from 22:00, and 88% over-limit billing.

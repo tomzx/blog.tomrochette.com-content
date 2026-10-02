@@ -23,7 +23,7 @@ It consistently runs the data-gathering (AI tooling surveys) that individual too
 ## Status
 
 Active and heavily subscribed, with more than 1,100,000 subscribers as of 2026-09-22.
-As of 2026-09-22 it runs the AI tooling-for-2026 surveys and current agent-adoption coverage: How will AI change operating systems? Part 2: Windows, on making the OS AI-agent-friendly (2026-09-22), AI Skills with Matt Pocock (2026-09-17), Inside OpenAI's agentic software factory (2026-09-15), Building Codex with Tibo Sottiaux (2026-09-09), and What is happening with code reviews? (2026-09-08).
+As of 2026-10-02 it runs the AI tooling-for-2026 surveys and current agent-adoption coverage: The Pulse on the Ruby-on-Rails creator sparking a new "death of coding by hand" debate (2026-09-24), How will AI change operating systems? Part 2: Windows, on making the OS AI-agent-friendly (2026-09-22), AI Skills with Matt Pocock (2026-09-17), Inside OpenAI's agentic software factory (2026-09-15), Building Codex with Tibo Sottiaux (2026-09-09), and What is happening with code reviews? (2026-09-08).
 A large share of AI-specific content sits behind the paid tier, which funds the survey and interview work.
 
 ## Strengths

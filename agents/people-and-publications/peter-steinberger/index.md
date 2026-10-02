@@ -16,7 +16,7 @@ Peter Steinberger is the PSPDFKit founder who came out of retirement to create O
 
 ## What it is
 
-A personal blog with practitioner essays ("Just Talk To It", "Claude Code Anonymous", "Shipping at Inference-Speed") plus a GitHub fleet of dozens of single-purpose agent tools: CodexBar (21.8k stars as of 2026-09-24), Peekaboo, mcporter, oracle, agent-scripts, and many more, 67k+ stars across personal projects by his own count.
+A personal blog with practitioner essays ("Just Talk To It", "Claude Code Anonymous", "Shipping at Inference-Speed") plus a GitHub fleet of dozens of single-purpose agent tools: CodexBar (22.1k stars as of 2026-10-02), Peekaboo, mcporter, oracle, agent-scripts, and many more, 67k+ stars across personal projects by his own count.
 He created OpenClaw, which the section's OpenClaw note records at about 390k stars with near-daily releases as of 2026-09-22, bootstrapped PSPDFKit to a nine-figure exit, burned out, retired, and then says AI pulled him back in.
 Since February 2026 he has worked at OpenAI on bringing agents to everyone, while OpenClaw moved to an independent foundation he stewards.
 The audience is builders: his Claude Code Anonymous meetups spread to at least six cities on the rule "show us what you learned, not what you sell".
@@ -25,7 +25,7 @@ The audience is builders: his Claude Code Anonymous meetups spread to at least s
 
 Active, but the venue shifted in 2026.
 The blog published more than thirty posts between June and December 2025, then one in 2026, the 15 February OpenAI announcement, which drew a 1,449-point Hacker News thread with 1,131 comments as of 2026-09-24.
-He had 52.9k GitHub followers as of 2026-09-24, a TED 2026 talk on OpenClaw, and a Pragmatic Engineer feature in his recognition list.
+He had 53.1k GitHub followers as of 2026-10-02, a TED 2026 talk on OpenClaw, and a Pragmatic Engineer feature in his recognition list.
 OpenClaw keeps shipping without his daily hand, and the section's note tracks its releases and its 2026 provider-restriction saga.
 
 ## Strengths
@@ -80,5 +80,5 @@ Not for neutral analysis or anyone allergic to hype; his incentives follow his p
 - https://steipete.me/posts.md - the full post archive grounding the 2025 density and the 2026 drop
 - https://steipete.me/posts/2026/openclaw.md - the OpenAI announcement and the OpenClaw foundation handoff
 - https://steipete.me/posts/2025/claude-code-anonymous.md - the meetup format and its culture diagnosis
-- https://github.com/steipete - profile: 52.9k followers, the tool fleet, star counts, TED talk, Pragmatic Engineer feature
+- https://github.com/steipete - profile: 53.1k followers, the tool fleet, star counts, TED talk, Pragmatic Engineer feature
 - https://hn.algolia.com/api/v1/search?query=steipete&tags=story&hitsPerPage=10 - the 1,449-point announcement thread, the CodexBar ports, and the critical replies

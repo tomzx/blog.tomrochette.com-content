@@ -1,7 +1,7 @@
 ---
 title: GitHub Spec Kit
 created: 2026-08-26
-updated: 2026-09-27
+updated: 2026-10-02
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, spec-driven-development, github, ai-agents]
 readability: 3
@@ -23,7 +23,7 @@ Extensions, presets, and role-based bundles let an organization customize the pr
 ## Status
 
 **Active, and it just declared adulthood.**
-First commit August 21, 2025; v1.0.0 and v1.0.1 both shipped August 21, 2026, and patch releases v1.0.2, v1.0.3, and v1.0.4 followed on August 31, September 1, and September 2, before v1.0.5 landed September 8, v1.0.6 followed on September 10, v1.0.7 shipped September 15, v1.0.8 followed on September 17, and v1.0.9, v1.0.10, and v1.0.11 closed out September 21, 22, and 24, v1.0.12 landed September 25, and the count stands at about 139k stars and about 12.4k forks as of 2026-09-27.
+First commit August 21, 2025; v1.0.0 and v1.0.1 both shipped August 21, 2026, and patch releases v1.0.2, v1.0.3, and v1.0.4 followed on August 31, September 1, and September 2, before v1.0.5 landed September 8, v1.0.6 followed on September 10, v1.0.7 shipped September 15, v1.0.8 followed on September 17, and v1.0.9, v1.0.10, and v1.0.11 closed out September 21, 22, and 24, v1.0.12 landed September 25, v1.0.13 followed on 2026-09-29, and the count stands at about 139k stars and about 12.5k forks as of 2026-10-02.
 The lead maintainer's anniversary post says the original creators have moved on to other projects and frames 1.0.0 as "just a number", arguing that as agents cheapen adaptation, value moves from stability to adaptability.
 
 ## Strengths
@@ -64,6 +64,7 @@ Not for solo work where the ceremony exceeds the blast radius of a bad change.
 - 2026-09-18 - Recorded the v1.0.8 release of September 17 and refreshed the star count.
 - 2026-09-25 - Recorded the v1.0.9, v1.0.10, and v1.0.11 releases (September 21 to 24) and refreshed the star count.
 - 2026-09-27 - Recorded the v1.0.12 release of September 25 and re-verified the star count.
+- 2026-10-02 - Recorded the v1.0.13 release of 2026-09-29 and refreshed the star and fork counts.
 
 ## See also
 
@@ -74,7 +75,7 @@ Not for solo work where the ceremony exceeds the blast radius of a bad change.
 
 ## References
 
-- https://github.com/github/spec-kit - source, MIT, workflow steps, integrations count, as of 2026-09-27
+- https://github.com/github/spec-kit - source, MIT, workflow steps, integrations count, as of 2026-10-02
 - https://github.github.io/spec-kit/ - official docs, integrations reference, extensions and presets
 - https://github.blog/ai-and-ml/generative-ai/spec-driven-development-with-ai-get-started-with-a-new-open-source-toolkit/ - the GitHub launch post
 - https://www.manorrock.com/blog/2026/08/21/spec_kit_turns_one.html - the lead maintainer's first-year and 1.0.0 post

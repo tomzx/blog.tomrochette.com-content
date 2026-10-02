@@ -1,7 +1,7 @@
 ---
 title: "Session Analytics Feature Matrix"
 created: 2026-08-30
-updated: 2026-10-01
+updated: 2026-10-02
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=deepseek-v4.1-flash, comparison, session-analytics, observability, token-usage]
 readability: 3
@@ -30,7 +30,7 @@ Each column links to the full research note; every cell traces to a source cited
 | Search | ~ flexible analytics queries (metrics, group_by, filters), funnels, paths, retention, not transcript search | ✓ filtering and search across live and stored events | ✓ FTS5 full text, semantic search opt-in | ✓ sort and filter sessions by cost, duration, health, failures, anomalies, model, source, or text | ~ trace tree, call graph, timeline browse, and natural-language Ask Tracy queries over the trace graph, not transcript search | ✓ cross-agent message and tool-call search, subagent and fork aware | ✓ BM25 default, optional local embeddings for semantic and hybrid queries, saved memories searchable, SSH federation |
 | Provenance | ✗ | ✗ | ✗ | ~ heuristic Git delivery correlation only, no line-level attribution | ✗ | ✓ blame maps a line, file, commit, or PR to the session that produced it | ✗ |
 | Live observation | ✓ real-time terminal dashboard across projects, plus opt-in web session replay | ✓ hook events stream to the dashboard over websockets as agents run | ✗ retrospective only, parses files already written | ✗ retrospective only, reads logs already written | ✓ runs stream to the hosted dashboard through the eight-hook plugin | ✗ retrospective only | ✗ retrospective only |
-| Team features | ~ multi-agent access and cross-project portfolios, no team roles or SSO documented | ✗ single-user local setup | ✓ PostgreSQL push, machine-labeled sync, S3 roots, versioned exports | ~ CI reports and shared baseline artifacts, no hosted team sync | ~ multi-tenant accounts (Tenant to Agent to Trace to Span) with referrals, no team roles documented | no team offering listed since the pro withdrawal | ✗ single-user, SSH federation to your own machines, object-storage sync announced |
+| Team features | ~ multi-agent access and cross-project portfolios, no team roles or SSO documented | ✗ single-user local setup | ✓ PostgreSQL push, machine-labeled sync, S3 roots, versioned exports | ~ CI reports and shared baseline artifacts, no hosted team sync | ~ multi-tenant accounts (Tenant to Agent to Trace to Span) with referrals, no team roles documented | ~ beta history sharing through a self-hosted ctx server with collection permissions and revocable access since v2.2.0, no hosted team product | ✗ single-user, SSH federation to your own machines, object-storage sync announced |
 | Privacy posture | self-host keeps events in your D1 or SQLite, hosted cloud stores them in the vendor database, replay is opt-in and PII-masked | local-first, events stay in a local SQLite store behind a local Docker server | local-first, one anonymous ping by default, disableable | local-first, prompt and result bodies are not stored in tool steps, history of derived metrics is opt-in | hosted, trace payloads including LLM inputs and outputs are uploaded to the vendor's data lake | local-first, attribution refuses data not on the machine | local-first, no cloud service in the default path, embeddings run locally |
 | Pricing | free cloud tier (100k events/month, 2 projects), metered cloud at $1 per 10k events, self-host free | free, MIT, no paid tiers published | free, MIT, no accounts | free, MIT, no paid tiers published | consumption credits; 100 free, packages $10 to $400, storage 1.35 credits/MB/day | free, Apache-2.0, the former $20/month pro add-on withdrawn from the site | free, MIT, no paid tier published |
 
@@ -80,6 +80,7 @@ ctx's moat is different: agent-facing retrieval, where the consumer of the searc
 - 2026-09-27 - Re-verified all four columns: repository counts refreshed (agents-observe 684, agentsview 6,001, ctx 1,135, Memex 231 stars), the reading prose's schema line revised after the agentsview docs returned to version 5, and the Memex star count in the choosing prose generalized; no table cells moved.
 - 2026-09-27 - Extended from four to seven columns with Agent Analytics, AgentTrace, and ClawTrace, re-sorted all columns alphabetically, updated the intro member count and framing, and extended the reading and choosing prose.
 - 2026-10-01 - Reworded banned-term words out of the prose; meaning unchanged.
+- 2026-10-02 - Moved the ctx Team features cell after v2.2.0 shipped opt-in history backup plus beta sharing through a self-hosted ctx server; the other six columns re-verified unchanged.
 
 ## See also
 

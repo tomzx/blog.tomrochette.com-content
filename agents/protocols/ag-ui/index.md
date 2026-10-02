@@ -25,8 +25,8 @@ Scaffolding an app is one command (`npx create-ag-ui-app`), and the project ship
 ## Status
 
 Very active and already the de facto standard at its layer.
-The repository shows about 16,000 stars, a push on 2026-09-29, and dated releases landing near-daily (latest `release/2026-09-23`).
-**The download signal is the strongest part: `@ag-ui/core` pulled 7.46M and `@ag-ui/client` 4.86M downloads in the last month as of 2026-09-29, numbers that beat every editor- or agent-to-agent protocol in this index, and the packages graduated from 0.0.59 to 1.0.0 on 2026-09-17.**
+The repository shows about 16,200 stars, a push on 2026-10-02, and dated releases landing near-daily (latest `release/2026-10-01`).
+**The download signal is the strongest part: `@ag-ui/core` pulled 7.97M and `@ag-ui/client` 5.13M downloads in the month ending 2026-10-02, numbers that beat every editor- or agent-to-agent protocol in this index, and the packages graduated from 0.0.59 to 1.0.0 on 2026-09-17.**
 Integration coverage per the docs: partnership integrations with LangChain/LangGraph and CrewAI, first-party integrations with Microsoft Agent Framework, Google ADK, AWS Strands Agents, AWS Bedrock AgentCore, Mastra, Pydantic AI, Agno, LlamaIndex, and AG2, community integrations for the Claude Agent SDK, Claude Managed Agents, and Langroid, with the OpenAI Agent SDK and Cloudflare Agents marked in progress.
 Microsoft adopted the protocol in its Agent Framework (November 2025), Google positioned its A2UI interface project alongside it (December 2025), and Oracle shipped an AG-UI integration for its Agent Specification (December 2025).
 
@@ -78,14 +78,14 @@ My disagreeable claim: AG-UI is the most adopted protocol in this index that nob
 
 ## References
 
-- https://github.com/ag-ui-protocol/ag-ui - repository: about 16,000 stars, MIT, created 2025-05-07, pushed 2026-09-24 (GitHub API, as of 2026-09-24)
+- https://github.com/ag-ui-protocol/ag-ui - repository: about 16,200 stars, MIT, created 2025-05-07, pushed 2026-10-02 (GitHub API, as of 2026-10-02)
 - https://raw.githubusercontent.com/ag-ui-protocol/ag-ui/main/README.md - definition, around 16 event types, transport list, middleware, and the full integration tables
 - https://docs.ag-ui.com - official docs: TypeScript, Python, and .NET SDKs, concepts (state, interrupts, subagents, generative UI), the published 1.0 specification, production support offer
 - https://docs.ag-ui.com/spec/1.0 - the 1.0 specification page
 - https://docs.ag-ui.com/agentic-protocols - the MCP, A2A, and AG-UI complementarity page
-- https://github.com/ag-ui-protocol/ag-ui/releases - dated release series, latest `release/2026-09-23` published 2026-09-23 (GitHub API)
-- https://api.npmjs.org/downloads/point/last-month/@ag-ui/core - 7,460,416 downloads 2026-08-29 to 2026-09-27
-- https://api.npmjs.org/downloads/point/last-month/@ag-ui/client - 4,861,067 downloads 2026-08-29 to 2026-09-27
+- https://github.com/ag-ui-protocol/ag-ui/releases - dated release series, latest `release/2026-10-01` published 2026-10-01 (GitHub API)
+- https://api.npmjs.org/downloads/point/last-month/@ag-ui/core - 7,967,455 downloads 2026-09-03 to 2026-10-02
+- https://api.npmjs.org/downloads/point/last-month/@ag-ui/client - 5,132,412 downloads 2026-09-03 to 2026-10-02
 - https://registry.npmjs.org/@ag-ui/client - latest version 1.0.0, published 2026-09-17
 - https://news.ycombinator.com/item?id=43974484 - Show HN launch, 36 points and 5 comments, 2025-05-13
 - https://hn.algolia.com/api/v1/search?query=AG-UI - the footprint scan: 55 raw hits dominated by false positives, Microsoft adoption story 7 points (2025-11-20), Google A2UI and Oracle integration stories

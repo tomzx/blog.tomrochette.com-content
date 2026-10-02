@@ -23,7 +23,7 @@ Made by an independent developer, MIT-licensed, with no cloud service in the def
 
 ## Status
 
-Active and quietly growing: created 2026-01-01, 231 stars, 30 forks, pushed 2026-09-22, as of 2026-09-27.
+Active and quietly growing: created 2026-01-01, 239 stars, 33 forks, pushed 2026-10-01, as of 2026-10-02.
 Its Show HN on 2026-09-18 reached 2 points and a single comment, written by the author.
 **The launch footprint is nearly empty, which I read as adoption through word of mouth and through agents rather than through launches, the same reading this category applied to ctx, and as thin independent verification.**
 
@@ -38,7 +38,7 @@ Its Show HN on 2026-09-18 reached 2 points and a single comment, written by the 
 
 - Fifteen engines graded per capability means real unevenness: Cursor resume is CLI-only, Antigravity token counting is unsupported, and several engines have no resume at all.
 - Embeddings and token tracking are off by default, so the semantic-search headline requires opt-in setup and local model downloads.
-- The only community signal beyond 228 stars is an author-commented launch thread, so there is no independent verdict on reliability.
+- The only community signal beyond 239 stars is an author-commented launch thread, so there is no independent verdict on reliability.
 - Experimental session transfers and the announced object-storage sync are the roadmap promises most likely to churn.
 
 ## Pricing

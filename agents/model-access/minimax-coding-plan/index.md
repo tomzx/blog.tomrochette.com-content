@@ -41,7 +41,7 @@ The June 2 apology and compensation package followed developer complaints after 
 
 ## Pricing
 
-As of 2026-09-26: Plus $22/month, Max $55/month, Ultra $132/month, all with 5-hour rolling and weekly windows.
+As of 2026-10-02: Plus $22/month, Max $55/month, Ultra $132/month, all with 5-hour rolling and weekly windows.
 Typical peak-hour capacity is 3-4 (Plus), 4-5 (Max), and 6-7 (Ultra) agents.
 Credits cost $5, $25, or $100 at 1,000 per dollar, valid 365 days, and a 10% referral discount applies at checkout.
 

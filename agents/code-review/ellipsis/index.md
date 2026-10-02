@@ -1,7 +1,7 @@
 ---
 title: Ellipsis
 created: 2026-08-30
-updated: 2026-09-27
+updated: 2026-10-02
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, code-review, ai-review, developer-tools]
 readability: 3
@@ -19,14 +19,14 @@ Ellipsis (ellipsis.dev) is a YC-backed company that launched in 2023 as an autom
 Ellipsis AI Inc (New York, founded 2023, YC Winter 2024, founders Hunter Brooks and Nick Bradford) sells a platform where every coding agent is a YAML file in your repo, and each session runs in its own sandbox with scoped credentials, hard budget caps, and searchable transcripts.
 Sessions start from GitHub, Slack, Linear, or Sentry events, cron schedules, the `agent` CLI, or a REST API, and the platform fronts Claude Code, Codex, Copilot, Gemini, Cursor, Grok Code, Antigravity, OpenCode, and Pi.
 Code review survives as a configurable agent use case, not the fixed install-and-forget bot of 2024, and the platform deploys either in Ellipsis's cloud or into your own AWS VPC.
-The core product is proprietary: its GitHub org publishes only tooling, an agent CLI, a homebrew tap, a Python and TypeScript SDK mirror, and the blink codebase-search repo, five public repos in total as of 2026-09-26, down from six on 2026-09-21 because the AWS installer repo is no longer public.
-Blink (84 stars as of 2026-09-27) was created on September 16, 2026.
+The core product is proprietary: its GitHub org publishes only tooling, an agent CLI, a homebrew tap, a Python and TypeScript SDK mirror, and the blink codebase-search repo, five public repos in total as of 2026-10-02, down from six on 2026-09-21 because the AWS installer repo is no longer public.
+Blink (92 stars as of 2026-10-02) was created on September 16, 2026.
 
 ## Status
 
 **Active and pivoted.**
 The July 28, 2026 post "Introducing the Ellipsis Agent Cloud" says it plainly: Ellipsis "launched in 2023 as one of the first AI Code Review bots", but teams no longer want a product that "just worked", so the company rebuilt itself as agent infrastructure and released the `agent` CLI.
-The homepage, docs, and pricing all describe the agent cloud as of 2026-09-18, and the GitHub org pushed to its CLI repo on 2026-09-25.
+The homepage, docs, and pricing all describe the agent cloud as of 2026-10-02, and the GitHub org pushed to its CLI repo on 2026-09-28.
 Funding is a $2M seed announced June 19, 2024, with YC partners and the Pioneer Fund among the investors; I found no later round on any page I fetched.
 The blog is thin, three original posts since January 2025 and a gap from April 2025 to July 2026, so public cadence evidence is sparse even though the product is clearly alive.
 The community footprint is one strong Show HN from May 9, 2024 (Algolia item 40309719, 121 points, 64 comments) and a quieter February 2024 one (item 39526616, 18 points, 11 comments).
@@ -42,7 +42,7 @@ The community footprint is one strong Show HN from May 9, 2024 (Algolia item 403
 ## Cautions
 
 - The 2024 review bot no longer exists as a product; the launch post says the install-and-forget model "is not the case anymore", so getting review out of Ellipsis means writing and maintaining YAML.
-- The public footprint is thin: a ten-month blog gap, five public repos, and an agent CLI at 3 stars as of 2026-09-26, so third-party validation is limited.
+- The public footprint is thin: a ten-month blog gap, five public repos, and an agent CLI at 3 stars as of 2026-10-02, so third-party validation is limited.
 - Headline claims are company data: "merge pull requests 13% faster" comes from the seed post, and "most popular AI Code Review agent among YC founders" comes from the company's own launch post.
 - HN critics were blunt about the review era, calling the PR summaries noise and telling maintainers "please stop making open source worse".
 - The founder admitted on that thread that the company had no hard numbers ("all our data is qualitative") as of May 2024.
@@ -50,12 +50,12 @@ The community footprint is one strong Show HN from May 9, 2024 (Algolia item 403
 
 ## Pricing
 
-Tokens are billed at cost with no markup, plus a 10% platform fee, with CPU at $0.142/vCPU-hour and memory at $0.024/GB-hour, as of 2026-09-21.
+Tokens are billed at cost with no markup, plus a 20% platform fee, with CPU at $0.142/vCPU-hour and memory at $0.024/GB-hour, as of 2026-10-02.
 There are no per-seat fees and no idle charges, and a $100 credit covers the start.
-Individuals on their own coding-agent subscription get the platform free, the on-ramp the homepage leads with, as of 2026-09-27.
-The subscription wording flip-flops: the hero badge titled the free tier "ChatGPT or Claude" when I first recorded it on 2026-09-13, "Claude Code or Codex" by 2026-09-18, and "ChatGPT or Claude" again on 2026-09-27, while the FAQ question has named Claude Code or Codex throughout.
+Individuals on their own coding-agent subscription get the platform free, the on-ramp the homepage leads with, as of 2026-10-02.
+The subscription wording flip-flops: the hero badge titled the free tier "ChatGPT or Claude" when I first recorded it on 2026-09-13, "Claude Code or Codex" by 2026-09-18, and "ChatGPT or Claude" again on 2026-09-27, while by 2026-10-02 the badge read only "FREE FOR INDIVIDUALS" and the FAQ question has named Claude Code or Codex throughout.
 The same published pricing covers the managed SaaS and a BYOC deployment into your own AWS account.
-Optional enterprise support packages run $5,000 (Standard), $10,000 (Advanced), and $15,000 (Premier) per month as of 2026-09-21.
+Optional enterprise support packages run $5,000 (Standard), $10,000 (Advanced), and $15,000 (Premier) per month as of 2026-10-02.
 This replaces the May 2024 model, which was $20/seat/month for the review bot.
 
 ## Price history
@@ -64,12 +64,13 @@ This replaces the May 2024 model, which was $20/seat/month for the review bot.
 | ---- | ---- | ------ | ------ |
 | 2024-05 | Review bot | Original model: $20/seat/month for the review bot. | [ellipsis.dev/pricing](https://www.ellipsis.dev/pricing) |
 | 2026-09-18 | All tiers | Replaced with usage billing: tokens at cost plus a 10% platform fee, CPU $0.142/vCPU-hour, memory $0.024/GB-hour, $100 starting credit, no seat fees; enterprise support packages at $5,000/$10,000/$15,000 per month. | [ellipsis.dev/pricing](https://www.ellipsis.dev/pricing) |
+| 2026-10 | All tiers | Platform fee raised from 10% to 20% of token cost; CPU, memory, and support-package prices unchanged. | [ellipsis.dev/pricing](https://www.ellipsis.dev/pricing) |
 
 ## Compared to
 
 [Greptile](../greptile/index.md) is the closest sibling that stayed a review product: it reviews PRs against the whole codebase without you owning agent config, which is exactly what Ellipsis gave up.
 [CodeRabbit](../coderabbit/index.md) and [Qodo](../qodo/index.md) sell finished review and test agents, so try them first if you want zero YAML.
-Ellipsis's real 2026 competition is not review bots but agent infrastructure: the company itself publishes compare pages against running Claude Code on GitHub Actions, which is the option many teams will try first because their organization already pays for it.
+Ellipsis's 2026 competition is not review bots but agent infrastructure: the company itself publishes compare pages against running Claude Code on GitHub Actions, which is the option many teams will try first because their organization already pays for it.
 
 ## Bottom line
 
@@ -88,6 +89,7 @@ I will take the unpopular position that leaving review was the right call: a fix
 - 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
 - 2026-09-26 - The GitHub org dropped to five public repos (the AWS installer repo is no longer public) and blink grew from 31 to 81 stars; pricing re-verified unchanged.
 - 2026-09-27 - The homepage's free-tier badge wording flipped back to ChatGPT or Claude (the FAQ keeps Claude Code or Codex) and blink grew from 81 to 84 stars; prices re-verified unchanged.
+- 2026-10-02 - The platform fee doubled from 10% to 20% of token cost (CPU, memory, and support packages unchanged), with a price-history row added; the homepage badge now reads FREE FOR INDIVIDUALS with the FAQ keeping Claude Code or Codex, blink grew to 92 stars, and a banned-term word was reworded out of the Compared-to prose.
 
 ## See also
 
@@ -98,8 +100,8 @@ I will take the unpopular position that leaving review was the right call: a fix
 
 ## References
 
-- https://www.ellipsis.dev/ - current product surface: agent cloud framing, $100 credit, SOC 2 status, supported agents, fetched 2026-09-18.
-- https://www.ellipsis.dev/pricing - the token-plus-10% model, compute rates, BYOC terms, and support package tiers, fetched 2026-09-18.
+- https://www.ellipsis.dev/ - current product surface: agent cloud framing, $100 credit, SOC 2 status, supported agents, fetched 2026-10-02.
+- https://www.ellipsis.dev/pricing - the token-plus-20% model, compute rates, BYOC terms, and support package tiers, fetched 2026-10-02.
 - https://www.ellipsis.dev/docs - docs on environments, sandboxes, sessions, the CLI, and the API, fetched 2026-09-18.
 - https://www.ellipsis.dev/blog - publishing cadence and post dates, fetched 2026-09-18.
 - https://www.ellipsis.dev/blog/the-ellipsis-agent-cloud - the July 28, 2026 pivot announcement by the founder, fetched 2026-09-18.

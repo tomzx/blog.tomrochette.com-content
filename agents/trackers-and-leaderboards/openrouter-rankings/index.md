@@ -23,7 +23,7 @@ Data access is unusually open: rankings are CC BY 4.0 with a required citation f
 
 ## Status
 
-Fresh and commercially central: the page showed "Usage data through Sep 23, 2026" on the day of verification, a one-day lag, and updates flow live as traffic arrives.
+Fresh and commercially central: the page showed "Usage data through Oct 1, 2026" as of 2026-10-02, a one-day lag, and updates flow live as traffic arrives.
 The underlying gateway is a top-of-category business: $113M Series B led by CapitalG in May 2026 at a reported $1.3B valuation, then an announced acquisition by Stripe on August 19, 2026 at a reported price above $7B, with the company claiming 10T+ tokens per day.
 Its numbers are routinely quoted as market signal in press and on HN, and OpenRouter itself turned the dataset into research (a 100T-token empirical study that drew 207 points on HN).
 
@@ -73,7 +73,7 @@ My disagreeable claim: this is the most misused ranking in the category, cited a
 
 ## References
 
-- https://openrouter.ai/rankings - methodology, caveats, windows, top apps, CC BY 4.0 note, data-through date (fetched 200, 2026-09-24)
+- https://openrouter.ai/rankings - methodology, caveats, windows, top apps, CC BY 4.0 note, data-through date (fetched 200, 2026-10-02)
 - https://openrouter.ai/docs/cookbook/administration/data-api - Data API endpoints, limits, citation format, dataset history from 2025-01-01 (fetched 200, 2026-09-24)
 - https://openrouter.ai/about - company scale claims and founding date (fetched 200, 2026-09-24)
 - https://openrouter.ai/blog/announcements/series-b/ - $113M Series B and investors, May 2026 (fetched 200, 2026-09-24)

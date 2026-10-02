@@ -25,7 +25,7 @@ The Launch HN title calls it an "OSS sandboxed agent harness for teams", and tha
 ## Status
 
 Very active: v2.6.0 released September 8, 2026, five days after v2.5.0 on September 3, which itself followed v2.4.0, v2.3.1, and v2.3.0.
-3,516 stars and 236 forks as of 2026-09-26, on a repository created March 8, 2026.
+3,535 stars and 236 forks as of 2026-10-02, on a repository created March 8, 2026.
 Three Hacker News threads of record: 161 points for the vault (March 12), 110 for the credential gateway (July 23), and 88 for the YC launch (August 19).
 YC S26, San Francisco, founded by Jonathan Fishner (CEO) and Guy Ben Aharon (CTO).
 In its vault era it was adopted by NanoClaw, per the NanoClaw note in this section.

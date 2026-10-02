@@ -20,7 +20,7 @@ AGENTS.md is an open convention for a Markdown file at the repository root that 
 Plain Markdown with no required fields: build and test commands, code style, PR conventions, anything you would tell a new teammate.
 Nested AGENTS.md files scope instructions per package, the nearest file wins, and explicit chat prompts override everything.
 It emerged from collaboration across OpenAI Codex, Amp, Jules, Cursor, and Factory, went public on 2025-08-20, and **OpenAI donated it to the Linux Foundation's Agentic AI Foundation on 2025-12-09, where it is stewarded as an open format**.
-The reference repository (MIT, about 24.6k stars as of 2026-09-24) mostly holds the website; the format itself is the convention.
+The reference repository (MIT, about 24.7k stars as of 2026-10-02) mostly holds the website; the format itself is the convention.
 
 ## Status
 
@@ -78,7 +78,7 @@ The disagreeable part: I suspect most AGENTS.md prose is wasted tokens, and the 
 ## References
 
 - https://agents.md - official site: format, nested scoping, adopter list, AAIF stewardship
-- https://github.com/agentsmd/agents.md - MIT repository, stars as of 2026-09-24
+- https://github.com/agentsmd/agents.md - MIT repository, stars as of 2026-10-02
 - https://aaif.io/press/linux-foundation-announces-the-formation-of-the-agentic-ai-foundation-aaif-anchored-by-new-project-contributions-including-model-context-protocol-mcp-goose-and-agents-md/ - OpenAI donation, 60,000+ project adoption
 - https://arxiv.org/abs/2602.11988 - empirical evaluation: no general success-rate gain, over 20% added inference cost
 - https://vercel.com/blog/agents-md-outperforms-skills-in-our-agent-evals - counter-evidence: 100% versus 53% with a compressed docs index

@@ -26,7 +26,7 @@ The repository is Apache-2.0, but the hosted cloud is the product and no self-ho
 
 ## Status
 
-Active but with the thinnest footprint in the category: 48 stars, 10 forks, 3 open issues, created 2026-04-10, last pushed 2026-08-15, with the npm plugin at version 0.1.23 published 2026-04-16, as of 2026-09-27.
+Active but with the thinnest footprint in the category: 47 stars, 11 forks, 3 open issues, created 2026-04-10, last pushed 2026-08-15, with the npm plugin at version 0.1.23 published 2026-04-16, as of 2026-10-02.
 It launched on Hacker News twice in April 2026 (a 2-point post and a 1-point Show HN, neither with a comment beyond the author's own), and I found no Reddit discussion.
 It also carries a paper, "ClawTrace: Cost-Aware Tracing for LLM Agent Skill Distillation" (arXiv 2604.23853), which is unusually rigorous for a tool at this stage.
 **A hosted product from a small org with an academic paper and almost no community discussion, so treat the roadmap's self-evolving-agent promises as research rather than shipped features.**

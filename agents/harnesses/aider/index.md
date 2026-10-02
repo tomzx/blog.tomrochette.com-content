@@ -25,7 +25,7 @@ It connects to nearly any LLM, including local models.
 ## Status
 
 **Development stalled; the tool itself still works.**
-About 49.2k stars and 5.0k forks as of 2026-09-27, but the default branch has had no commits since May 22, 2026, and the last tagged release (v0.86.0) dates to August 2025.
+About 49.3k stars and 5.0k forks as of 2026-10-02, but the default branch has had no commits since May 22, 2026, and the last tagged release (v0.86.0) dates to August 2025.
 The polyglot leaderboard (225 Exercism exercises) is still published, but its headline results date to August 2025, and the site's "works best with" copy still names Claude 3.7 Sonnet-era models.
 
 ## Strengths
@@ -77,7 +77,7 @@ Not for long autonomous tasks, hands-off refactors, or teams that need an active
 ## References
 
 - https://aider.chat/ - features, install stats, model recommendations
-- https://github.com/Aider-AI/aider - repository scale and license, as of 2026-09-27
+- https://github.com/Aider-AI/aider - repository scale and license, as of 2026-10-02
 - https://aider.chat/docs/leaderboards/ - the polyglot benchmark, results dated August 2025
 - https://news.ycombinator.com/item?id=39995725 - launch-era discussion of strengths and failure modes
 - https://news.ycombinator.com/item?id=43672712 - critical thread on aider's wasted inference spend against agentic rivals

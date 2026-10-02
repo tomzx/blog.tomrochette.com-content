@@ -24,7 +24,7 @@ It is maintained under the MrLesk identity, with conference talks ([Devoxx Belgi
 ## Status
 
 Active and healthy at mid-scale.
-As of 2026-09-27: 6,862 stars, 73 open issues, pushed 2026-09-24, MIT-licensed, latest release v1.53.0 on 2026-09-24, 64,043 npm downloads last month.
+As of 2026-10-02: 6,920 stars, 69 open issues, pushed 2026-09-28, MIT-licensed, latest release v1.53.0 on 2026-09-24, 70,424 npm downloads last month.
 The July 2025 [launch thread](https://news.ycombinator.com/item?id=44483530) reached 254 points, the largest HN footprint of the task trackers profiled in this section.
 
 ## Strengths
@@ -75,5 +75,5 @@ My disagreeable claim: its three checkpoints are what spec-driven development ac
 - https://github.com/MrLesk/Backlog.md - README: checkpoints, commands, agent integrations, dogfooding claim
 - https://api.github.com/repos/MrLesk/Backlog.md - stars, issues, push date, MIT license as of 2026-09-27
 - https://news.ycombinator.com/item?id=44483530 - the 254-point launch thread
-- https://api.npmjs.org/downloads/point/last-month/backlog.md - 64,043 downloads last month
+- https://api.npmjs.org/downloads/point/last-month/backlog.md - 70,424 downloads last month
 - https://mrlesk.com/talks - conference talks demonstrating the method

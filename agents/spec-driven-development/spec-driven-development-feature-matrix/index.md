@@ -1,7 +1,7 @@
 ---
 title: "Spec Driven Development Feature Matrix"
 created: 2026-08-27
-updated: 2026-09-29
+updated: 2026-10-02
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, comparison, spec-driven-development, process, llm=glm-5.3-flash]
 readability: 3
@@ -30,14 +30,14 @@ Each column links to the full research note; every cell below traces to a source
 | Brownfield support | ✓ establish-context path | ~ not the primary case | ✓ `/gsd-onboard` for existing repos | ✓ explicit design goal | ? not verified |
 | Convergence checking | ✓ verify and learn loop | ✓ converge step | ✓ verify phase walks the build before done | ~ archive keeps ledger current | ? not verified |
 | Unattended execution | ✓ BMad Loop module | ✗ | ~ parallel executor waves, human verify step, gsd-loop works a GitHub queue | ✗ | ? not verified |
-| Adoption | about 54k stars | about 139k stars | original archived at 64.5k stars; successor 9.9k stars, 41.9k npm downloads a month | about 71k stars, 2M npm downloads a month | 24-point raise thread, thin OSS surface |
+| Adoption | about 53.7k stars | about 139k stars | original archived at 64.4k stars; successor 10.1k stars, 43k npm downloads a month | about 71k stars, 2M npm downloads a month | 24-point raise thread, thin OSS surface |
 | Pricing | free | free | free | free | free tier plus Team at $100 per month, Enterprise custom |
 
 ## Reading the matrix
 
 **The license and steward rows tell the ownership story: four repo-native MIT toolkits against one closed, funded platform, and the free tools set the price anchor at zero while Tessl spends $125M betting specs are rentable.**
 The adoption row inverts the funding row, which is the tension to watch.
-GSD adds the stewardship question the category had not faced: the archived original out-stars every column except Spec Kit, and its 9.9k-star successor is rebuilding trust in public.
+GSD adds the stewardship question the category had not faced: the archived original out-stars every column except Spec Kit, and its 10.1k-star successor is rebuilding trust in public.
 
 **Ceremony sizing is the design axis the waterfall critique created: only BMad sends small changes straight to build, and the artifact-first tools pay for their simplicity with fixed ceremony (GSD at least ships a lighter quick-task mode).**
 If your changes are mostly small, that row alone picks your column.
@@ -63,6 +63,7 @@ If your changes are mostly small, that row alone picks your column.
 - 2026-09-25 - Refreshed the Spec Kit (about 139k stars) and GSD (successor 9.8k stars, 40.9k npm downloads) adoption cells.
 - 2026-09-27 - Refreshed the GSD (successor 9.9k stars, 41.2k npm downloads) and OpenSpec (2M npm downloads) adoption cells.
 - 2026-09-29 - Refreshed the BMad (about 54k stars), GSD (41.9k npm downloads), and OpenSpec (about 71k stars) adoption cells; all other cells re-verified unchanged.
+- 2026-10-02 - Refreshed the BMad (about 53.7k stars) and GSD (successor 10.1k stars, 43k npm downloads a month) adoption cells; all other cells re-verified unchanged.
 
 ## See also
 
@@ -81,7 +82,7 @@ If your changes are mostly small, that row alone picks your column.
 - https://api.npmjs.org/downloads/point/last-month/@fission-ai/openspec - the OpenSpec install velocity
 - https://github.com/open-gsd/gsd-core - the successor loop, installer, and runtimes for the GSD column
 - https://api.github.com/repos/open-gsd/gsd-core - successor stars and dates as of 2026-09-21
-- https://api.github.com/repos/gsd-build/get-shit-done - the archived original, 64,514 stars
+- https://api.github.com/repos/gsd-build/get-shit-done - the archived original, 64,411 stars
 - https://opengsd.net/origin - the origin credit acknowledging the broken chapter
 - https://blakewatson.com/journal/i-used-claude-code-and-gsd-to-build-the-accessibility-tool-ive-always-wanted/ - the 2026-07-31 update grounding the successor transition
 - https://api.npmjs.org/downloads/point/last-month/@opengsd/gsd-core - the successor's install velocity

@@ -3,7 +3,7 @@ title: The Perfect Orchestrator
 created: 2026-09-27
 updated: 2026-09-27
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, orchestration, tmux, verification, claude-code]
+tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, llm=glm-5.3-flash, orchestration, tmux, verification, claude-code]
 readability: 3
 audience_notes: >
   Engineers who run Claude Code and want a minimal, scriptable multi-agent harness with adversarial verification.

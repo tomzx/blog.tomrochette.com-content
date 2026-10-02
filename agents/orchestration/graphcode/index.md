@@ -24,7 +24,7 @@ It bundles no agents and drives five backends (Claude Code, GitHub Copilot CLI, 
 
 ## Status
 
-New and fast-moving: about 133 stars and 19 forks as of 2026-09-30, created 2026-07-26, with v0.1.77 (2026-09-29, loops come back after a codespace or remote-host restart) following the first stable v0.1.76 of 2026-09-28, still a pre-1.0 line.
+New and fast-moving: about 133 stars and 19 forks as of 2026-10-02, created 2026-07-26, with v0.1.77 (2026-09-29, loops come back after a codespace or remote-host restart) following the first stable v0.1.76 of 2026-09-28, still a pre-1.0 line.
 It is maintained by one developer, scgopi, on top of Ghostty's terminal engine and the zmx session daemon.
 **Two months old, one maintainer, and a 0.1.x version mean GraphCode is an idea to try, not infrastructure to depend on, and its FSL-1.1-MIT license is source-available rather than OSI open source until the future license converts.**
 

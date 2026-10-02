@@ -16,12 +16,12 @@ OpenCode Go is a subscription from the OpenCode (Anomaly) team that bundles acce
 
 Go sells model access, not an editor or a harness.
 You subscribe, copy an API key, and point any agent at OpenAI-compatible, Anthropic-compatible, or Responses endpoints under `opencode.ai/zen/go/v1`.
-The lineup is 29 open-weight coding models as of 2026-09-29 (Grok 4.7/4.6, GLM-5.3 family, Kimi K3, Qwen3.8, DeepSeek V4, MiniMax M3, MiMo, GPT 6 Luna, LongCat, Hy3), and only one member per workspace can hold a subscription.
+The lineup is 30 open-weight coding models as of 2026-10-02 (Grok 4.7/4.6, GLM-5.3 family, Kimi K3, Qwen3.8, DeepSeek V4, MiniMax M3, MiMo, GPT 6 Luna, LongCat, Hy3, Hy4 preview), and only one member per workspace can hold a subscription.
 
 ## Status
 
 Active and changing fast.
-The OpenCode repo shows about 208K GitHub stars as of 2026-09-26, the Go docs were last updated 2026-09-28, and the plan has grown from a three-model Beta in March 2026 to 29 models plus a $40 Go Plus tier.
+The OpenCode repo shows about 208K GitHub stars as of 2026-09-26, the Go docs were last updated 2026-09-28, and the plan has grown from a three-model Beta in March 2026 to 30 models plus a $40 Go Plus tier.
 Churn is constant: GPT 6 Luna arrived 2026-09-22 and Space Bunny Free appeared as a limited-time unlimited model.
 **Go converts $10 into up to $60 of metered usage per month, Go Plus converts $40 into up to $180, and that ratio is the entire value proposition.**
 

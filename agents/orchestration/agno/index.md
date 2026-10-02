@@ -1,7 +1,7 @@
 ---
 title: Agno
 created: 2026-09-29
-updated: 2026-09-29
+updated: 2026-10-02
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, multi-agent, python]
 readability: 3
@@ -18,11 +18,12 @@ Agno is the Apache-2.0 Python agent framework formerly known as Phidata, reposit
 
 A framework plus runtime for building agents and multi-agent teams with memory, knowledge, tools, and reasoning, serving them through AgentOS, and managing them from a control plane with sessions, traces, and a no-code studio.
 It came out of the Phidata project (repo created 2022-05-04) and rebranded to Agno in early 2025, declaring general availability on 2025-04-01 (agno.com).
-The repo sits at 42,377 stars with 6,032 forks, Apache-2.0, Python 3.9+ (GitHub API, PyPI, as of 2026-09-29).
+The repo sits at 42,474 stars with 6,063 forks, Apache-2.0, Python 3.9+ (GitHub API, PyPI, as of 2026-10-02).
 
 ## Status
 
-Active: last push 2026-09-29, latest release v3.0.11 on 2026-09-23, `agno` 3.0.11 on PyPI (GitHub API, PyPI, as of 2026-09-29).
+Active: last push 2026-10-01, latest release v3.1.0 on 2026-10-01, `agno` 3.1.0 on PyPI (GitHub API, PyPI, as of 2026-10-02).
+v3.1.0 added role-based access control to AgentOS (a role store, scope policies, and an audit log) and a database-backed AgentOS filesystem, with a breaking re-key of the filesystem table that requires a manual upgrade script.
 The GA announcement claimed 1M+ new agents created weekly and 22k stars at the time (company claim).
 The pricing page now positions the control plane as framework-agnostic, connecting to AgentOS from Agno, LangGraph, or Claude Code.
 No disclosed funding round surfaced in my search, which is unusual at this star scale and worth rechecking.
@@ -68,6 +69,7 @@ Not for teams allergic to benchmark-driven marketing, or anyone needing a vendor
 ## Changes
 
 - 2026-09-29 - Created when the deferred framework-tier pile from the 2026-09-27 triage resolved.
+- 2026-10-02 - Recorded v3.1.0 (October 1, RBAC authorization and an AgentOS filesystem, with a breaking filesystem-table re-key) as the new latest release and refreshed star, fork, and push counts.
 
 ## See also
 

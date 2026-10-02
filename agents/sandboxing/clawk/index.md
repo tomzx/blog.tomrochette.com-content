@@ -20,9 +20,9 @@ There is no Dockerfile or devcontainer: the first boot builds a rootfs from any 
 
 ## Status
 
-Launched July 2026 with real traction and currently paused in a pre-1.0 state: 1,022 stars and 40 forks, last push 2026-08-13 at v0.4.0, with the README carrying its own "pre-1.0, expect breaking changes" banner.
+Launched July 2026 with real traction and currently paused in a pre-1.0 state: 1,023 stars and 40 forks, last push 2026-08-13 at v0.4.0, with the README carrying its own "pre-1.0, expect breaking changes" banner.
 **The 226-point Show HN thread is the strongest community signal in the Sandboxing category's tail, and the discussion plus the README agree on the limits rather than hiding them.**
-Forty-seven days without a push after a fast launch cadence is worth watching, but it is not yet a stall at these timescales.
+Fifty days without a push after a fast launch cadence is worth watching, but it is not yet a stall at these timescales.
 
 ## Strengths
 
@@ -33,7 +33,7 @@ Forty-seven days without a push after a fast launch cadence is worth watching, b
 ## Cautions
 
 - The sandbox is only as closed as its allow-list: github.com is pre-allowed, so exfiltration through the very forge you push to is in scope by design.
-- Pre-1.0 with forty-seven days of quiet as of 2026-09-29, on a single primary platform (macOS), from a small team.
+- Pre-1.0 with fifty days of quiet as of 2026-10-02, on a single primary platform (macOS), from a small team.
 - The VM disk is lost on destroy by design; only host-side code and conversations survive.
 
 ## Pricing

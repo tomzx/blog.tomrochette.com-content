@@ -24,8 +24,8 @@ The vendor is LobeHub LLC, which grew the product from the LobeChat project crea
 
 ## Status
 
-Active and shipping fast: the repo shows 82,839 stars, about 15.9k forks, and a push on 2026-09-27, the day I checked (GitHub API).
-The release train is canary-grade desktop builds published several times a day; v2.2.19-canary.28 landed 2026-09-26 and five more canaries followed within hours.
+Active and shipping fast: the repo shows 82,951 stars, about 16k forks, and a push on 2026-10-01 (GitHub API, as of 2026-10-02).
+The release train is canary-grade desktop builds published several times a day; v2.2.19-canary.35 landed 2026-10-01.
 The rebrand from LobeChat is visible in the license text itself, which reads "From 1.0, LobeChat is licensed under the LobeHub Community License".
 Community footprint outside its own channels is thin: the best HN thread about it (as LobeChat) reached 7 points in July 2024, and my HN search for the current name returned nothing above noise.
 A Product Hunt "top post" badge for the multi-agent-work launch and a Trendshift badge suggest its audience lives on Product Hunt and Chinese-language channels, not HN.

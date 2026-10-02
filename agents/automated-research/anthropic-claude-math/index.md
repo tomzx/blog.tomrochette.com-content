@@ -28,7 +28,7 @@ Anthropic's own zeta post footnote also credits a Claude model with disproving t
 
 Very active, with three major publications in five weeks as of 2026-09-18.
 The models are unreleased research versions, so the loop is not reproducible by outsiders today.
-The artifacts are public and machine-checkable: the formal-math repository (241 stars as of 2026-09-18) is Apache-2.0 with pinned toolchains and CI that builds with no `sorry` outside trusted statement files.
+The artifacts are public and machine-checkable: the formal-math repository (249 stars as of 2026-10-02) is Apache-2.0 with pinned toolchains and CI that builds with no `sorry` outside trusted statement files.
 Community footprint is strong, with the zeta result drawing a 282-point Hacker News discussion.
 A three-person experiment formalized Vinogradov's three primes theorem in three days on consumer Claude Max plans, which is the first version of this loop an outside engineer could actually copy.
 

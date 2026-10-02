@@ -1,7 +1,7 @@
 ---
 title: "Kimi Code"
 created: 2026-09-05
-updated: 2026-09-26
+updated: 2026-10-02
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, cli, coding-agent, moonshot, byok]
 readability: 3
@@ -17,11 +17,11 @@ audience_notes: >
 A terminal AI coding agent that reads and edits code, runs shell commands, searches files, fetches pages, and picks its next step from the feedback.
 It works out of the box with Moonshot's Kimi models and can be pointed at other compatible providers.
 Distribution is a single binary (install script or npm), with a purpose-built TUI, video input in chat, conversational `/mcp-config` editing, a plugin marketplace with per-install trust levels, built-in `coder`, `explore`, and `plan` subagents, lifecycle hooks, and ACP support so Zed or JetBrains can drive a session.
-The code lives in two repositories: the original `MoonshotAI/kimi-cli` (Apache-2.0, created 2025-10-15) and the newer canonical `MoonshotAI/kimi-code` (MIT, created 2026-05-22).
+The code lives in two repositories: the original `MoonshotAI/kimi-cli` (Apache-2.0, created 2025-10-15, archived on GitHub as of 2026-10-02) and the newer canonical `MoonshotAI/kimi-code` (MIT, created 2026-05-22).
 
 ## Status
 
-Active and big-vendor backed, about 19.1k combined stars as of 2026-09-26: `kimi-code` at 7,672 stars, `kimi-cli` at 11,429 stars last pushed 2026-09-22.
+Active and big-vendor backed, about 19.2k combined stars as of 2026-10-02: `kimi-code` at 7,753 stars, `kimi-cli` at 11,435 stars, with the older repository now archived by Moonshot (its last push was 2026-09-22).
 **The independent FrontierHarness Eval pegs it mid-pack on quality and cheap on cost: 56.7 percent pass at a $3.65 median cost per task, with an 88 percent cache rate on Kimi K3.**
 The Hacker News footprint is thin (a 5-point 2025-10-31 thread and a 1-point 2026-01-27 one), which I read as distribution through Kimi's own channels rather than developer-mindshare gravity.
 
@@ -33,15 +33,15 @@ The Hacker News footprint is thin (a 5-point 2025-10-31 thread and a 1-point 202
 
 ## Cautions
 
-- The repository split (Apache-2.0 `kimi-cli` versus MIT `kimi-code`) is resolving toward `kimi-code`: the official docs now state the CLI was rebuilt on Node.js and that the old Python version will no longer be maintained, with a migration guide pointing at the new codebase ([docs](https://www.kimi.com/code/docs/), as of 2026-09-12).
-The old codebase still shipped a 1.52.0 release on September 22, 2026, so treat the wind-down as gradual.
+- The repository split (Apache-2.0 `kimi-cli` versus MIT `kimi-code`) has resolved toward `kimi-code`: the official docs state the CLI was rebuilt on Node.js and that the old Python version will no longer be maintained, with a migration guide pointing at the new codebase ([docs](https://www.kimi.com/code/docs/), as of 2026-09-12).
+The wind-down is now complete: GitHub shows the `kimi-cli` repository archived as of 2026-10-02, after its final 1.52.0 release on September 22, 2026.
 - Your tokens flow to Moonshot's API in the default path, the same vendor-dependency trade Claude Code and Codex make, just with a cheaper vendor.
 - Thin independent coverage means the FrontierHarness numbers are nearly the only third-party evidence available.
 
 ## Pricing
 
 The harness is free and open source.
-Usage is Kimi Code OAuth (your Kimi subscription) or a Moonshot Open Platform API key: kimi-k3 at $3.00/$15.00 per million tokens (cache hits $0.30) and kimi-k2.7-code at $0.66/$3.30 (cache hits $0.18) as of 2026-09-24 (verified via [OpenRouter's model list](https://openrouter.ai/api/v1/models); Moonshot's CN platform listed the same models at ¥20/¥100 and ¥6.50/¥27 as of 2026-09-09), with other OpenAI-compatible providers configurable.
+Usage is Kimi Code OAuth (your Kimi subscription) or a Moonshot Open Platform API key: kimi-k3 at $0.43/$10.00 per million tokens (cache reads listed at $0.43, equal to input) and kimi-k2.7-code at $0.67/$3.35 (cache hits $0.18) as of 2026-10-02 (verified via [OpenRouter's model list](https://openrouter.ai/api/v1/models); Moonshot's CN platform listed the same models at ¥20/¥100 and ¥6.50/¥27 as of 2026-09-09), with other OpenAI-compatible providers configurable.
 
 ## Price history
 
@@ -51,6 +51,7 @@ Usage is Kimi Code OAuth (your Kimi subscription) or a Moonshot Open Platform AP
 | 2026-09-20 | API (OpenRouter) | kimi-k3 at $1.70/$8.50 per million tokens (cache hits $0.17), kimi-k2.7-code at $0.71/$3.21. | [OpenRouter model list](https://openrouter.ai/api/v1/models) |
 | 2026-09-22 | API (OpenRouter) | kimi-k3 raised to $3.00/$15.00 per million tokens (cache hits $0.30); kimi-k2.7-code completion raised to $3.30 (cache hits $0.18). | [OpenRouter model list](https://openrouter.ai/api/v1/models) |
 | 2026-09-24 | API (OpenRouter) | kimi-k2.7-code input dropped to $0.66 per million tokens (completion $3.30 and cache $0.18 unchanged); kimi-k3 unchanged at $3.00/$15.00. | [OpenRouter model list](https://openrouter.ai/api/v1/models) |
+| 2026-10-02 | API (OpenRouter) | kimi-k3 dropped sharply to $0.4255/$10.00 per million tokens (cache reads listed at $0.4255, equal to input); kimi-k2.7-code at $0.67/$3.35 (cache hits $0.18). | [OpenRouter model list](https://openrouter.ai/api/v1/models) |
 
 ## Compared to
 
@@ -74,6 +75,7 @@ Not for teams that need local models, or anyone who needs more than one independ
 - 2026-09-22 - Recorded the kimi-k3 price rise on OpenRouter to $3.00/$15.00 per million tokens (cache hits $0.30) and the kimi-k2.7-code completion rise to $3.30 (cache hits $0.18).
 - 2026-09-22 - Noted kimi-cli shipping 1.52.0 on September 22 despite the migration notice, and refreshed repository counters.
 - 2026-09-24 - Recorded the kimi-k2.7-code input price drop on OpenRouter to $0.66 per million tokens (completion and cache unchanged, kimi-k3 unchanged) and refreshed repository counters.
+- 2026-10-02 - Recorded Moonshot archiving the original `kimi-cli` repository on GitHub, and the kimi-k3 price dropping on OpenRouter to $0.4255/$10.00 per million tokens (cache reads listed at the input price) with kimi-k2.7-code at $0.67/$3.35, and refreshed repository counters.
 
 ## See also
 
@@ -85,9 +87,9 @@ Not for teams that need local models, or anyone who needs more than one independ
 ## References
 
 - https://github.com/MoonshotAI/kimi-code - the canonical repository: license, features, subagents, ACP
-- https://github.com/MoonshotAI/kimi-cli - the original repository and its Apache-2.0 history
+- https://github.com/MoonshotAI/kimi-cli - the original repository and its Apache-2.0 history, archived since 2026-09-22 (verified via the GitHub API)
 - https://moonshotai.github.io/kimi-code/en/ - official documentation
 - https://www.kimi.com/code/docs/ - product docs, login paths, and the Node.js migration notice naming the old CLI as unmaintained
 - https://frontierharness.org - the independent pass-rate and cost-per-task numbers
 - https://hn.algolia.com/api/v1/items/45767884 - the largest HN thread, cited as the thin-footprint signal
-- https://openrouter.ai/api/v1/models - live per-token prices grounding the kimi-k3 and kimi-k2.7-code figures
+- https://openrouter.ai/api/v1/models - live per-token prices grounding the kimi-k3 and kimi-k2.7-code figures, as of 2026-10-02

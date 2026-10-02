@@ -1,7 +1,7 @@
 ---
 title: "Software Factory Feature Matrix"
 created: 2026-08-29
-updated: 2026-09-29
+updated: 2026-10-02
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=big-pickle, llm=glm-5.3-flash, comparison, software-factory, agentic-workflows]
 readability: 3
@@ -34,7 +34,7 @@ Each column links to the full research note; every cell below traces to a source
 | License | Apache-2.0 | Apache-2.0 | MIT | MIT | MIT |
 | Pricing | free, no paid tier, no hosted cloud | core free; HAR HQ Team $400 per month up to 50 users with $100 monthly cloud credits, Enterprise custom (self-hosted or VPC, SSO/SAML/SCIM) | free, early access | free, GitHub Sponsors funded, enterprise offerings conditional | free, self-hosted |
 | Born | 2026-07-10 | 2026-06-28 | 2026-07-16 | 2026-01-14 | 2026-08-02 |
-| Stars | about 105 | about 95 | about 470 | about 6k | about 900 |
+| Stars | about 110 | about 95 | about 480 | about 6.2k | about 920 |
 
 ## Reading the matrix
 
@@ -74,6 +74,7 @@ Ouroboros runs the other direction with 14 runtimes, the widest agent boundary i
 - 2026-09-25 - Refreshed the HAR (about 95, after v1.14.3) and Machinist (about 460) star cells.
 - 2026-09-27 - Refreshed the SSSF star cell (about 900).
 - 2026-09-29 - Refreshed the Machinist star cell (about 470); all other cells re-verified unchanged.
+- 2026-10-02 - Refreshed the star cells (Fluent about 110, Machinist about 480, Ouroboros about 6.2k, SSSF about 920); HAR and all other cells re-verified unchanged.
 
 ## See also
 

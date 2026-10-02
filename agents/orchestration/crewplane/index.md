@@ -3,7 +3,7 @@ title: Crewplane
 created: 2026-09-27
 updated: 2026-09-27
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, orchestration, workflows, cli, markdown]
+tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, llm=glm-5.3-flash, orchestration, workflows, cli, markdown]
 readability: 3
 audience_notes: >
   Engineers who want their agent process versioned in the repository and auditable on disk.

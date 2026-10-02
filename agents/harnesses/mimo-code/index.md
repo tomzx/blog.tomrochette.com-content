@@ -24,7 +24,7 @@ Provider access follows the OpenCode approach: any of 75+ providers through the 
 ## Status
 
 **Active and pre-1.0.**
-The repository was created 2026-06-10 and lists about 13.5k stars and 1.4k forks under MIT as of 2026-09-27, with 1,359 commits and a push on 2026-09-26.
+The repository was created 2026-06-10 and lists about 13.6k stars and 1.4k forks under MIT as of 2026-10-02, with 1,369 commits and a push on 2026-09-30.
 The newest release by publication time is v0.1.14 (published 2026-09-23), published a day after v0.1.15 (2026-09-22), so five months after launch the project is still on a 0.1.x line.
 The launch drew a 557-point Hacker News thread with 315 comments on 2026-06-11, and the tracker carries roughly 800 open issues plus 284 open pull requests, many auto-filed and low-signal.
 
@@ -92,8 +92,8 @@ My disagreeable claim: the co-evolution story is mostly packaging, since the mat
 
 - https://mimo.xiaomi.com/mimocode/start - official docs: surfaces, agents, skills, MCP, and the memory layer
 - https://github.com/XiaomiMiMo/MiMo-Code - repository, MIT license, OpenCode fork relationship, and feature README
-- https://api.github.com/repos/XiaomiMiMo/MiMo-Code - 13,504 stars, 1,400 forks, MIT, created 2026-06-10, pushed 2026-09-26, as of 2026-09-27
-- https://api.github.com/repos/XiaomiMiMo/MiMo-Code/releases/latest - returns v0.1.14 (published 2026-09-23), published a day after v0.1.15 (2026-09-22), as of 2026-09-27
+- https://api.github.com/repos/XiaomiMiMo/MiMo-Code - 13,572 stars, 1,412 forks, MIT, created 2026-06-10, pushed 2026-09-30, as of 2026-10-02
+- https://api.github.com/repos/XiaomiMiMo/MiMo-Code/releases/latest - returns v0.1.14 (published 2026-09-23), published a day after v0.1.15 (2026-09-22), as of 2026-10-02
 - https://mimo.xiaomi.com/blog/mimo-code-long-horizon - the design write-up: checkpoints, four-layer memory, `/goal`, Max Mode, and the vendor benchmarks
 - https://mimo.mi.com/docs/en-US/tokenplan/Token%20Plan/subscription - individual Token Plan tiers, Credits, and discounts
 - https://mimo.mi.com/docs/en-US/price/pay-as-you-go - international and domestic per-token prices

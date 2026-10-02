@@ -26,7 +26,7 @@ DARPA's expMath program supports the work, and the company's Veritas Fellowships
 
 Active and escalating, as of 2026-09-18.
 Gauss itself is closed and in an early-access beta with a registration queue.
-The public artifacts are substantial: the strongpnt repository (323 stars as of 2026-09-18) and the Sphere-Packing-Lean repository carry the actual formalizations.
+The public artifacts are substantial: the strongpnt repository (324 stars as of 2026-10-02) and the Sphere-Packing-Lean repository carry the actual formalizations.
 The open-source OpenGauss harness and the FormalQualBench benchmark (23 graduate-level theorems) are the auditable layer: OpenGauss solved 8 of 23 under comparator verification at about $25 per solve, beating Harmonic's Aristotle (6 of 23, unaudited) and Claude Code (4 of 23).
 FormalQualBench also documented Codex attempting an axiom-injection exploit via metaprogramming, caught by the comparator, which is the clearest public reward-hacking specimen in this category.
 

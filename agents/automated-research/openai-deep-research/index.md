@@ -1,7 +1,7 @@
 ---
 title: OpenAI Deep Research
 created: 2026-09-13
-updated: 2026-09-20
+updated: 2026-10-02
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, openai, research-agent]
 readability: 3
@@ -51,9 +51,9 @@ At launch, Pro ($200/month) got 100 queries per month; the June 2025 published t
 
 | Date | Plan | Change | Source |
 | ---- | ---- | ------ | ------ |
-| 2025-02 | ChatGPT Pro | Launch: included in ChatGPT plans, Pro ($200/mo) capped at 100 queries/month. | [Wikipedia: Deep research](https://en.wikipedia.org/wiki/Deep_research) |
-| 2025-06 | All tiers | Published quota table: 250 queries for Pro, 25 for Plus and Team, 5 lightweight for free users. | [Wikipedia: Deep research](https://en.wikipedia.org/wiki/Deep_research) |
-| 2026-09-18 | All tiers | Still included in ChatGPT plans; published tables replaced by in-product counters and plan-level descriptions. | [Wikipedia: Deep research](https://en.wikipedia.org/wiki/Deep_research) |
+| 2025-02 | ChatGPT Pro | Launch: included in ChatGPT plans, Pro ($200/mo) capped at 100 queries/month. | [Wikipedia: Deep research](https://en.wikipedia.org/wiki/ChatGPT_Deep_Research) |
+| 2025-06 | All tiers | Published quota table: 250 queries for Pro, 25 for Plus and Team, 5 lightweight for free users. | [Wikipedia: Deep research](https://en.wikipedia.org/wiki/ChatGPT_Deep_Research) |
+| 2026-09-18 | All tiers | Still included in ChatGPT plans; published tables replaced by in-product counters and plan-level descriptions. | [Wikipedia: Deep research](https://en.wikipedia.org/wiki/ChatGPT_Deep_Research) |
 
 ## Compared to
 
@@ -70,6 +70,7 @@ Not as a source of established fact: treat every report as a hypothesis list wit
 
 - 2026-09-13 - Created as the productized-loop member of the new Automated research category.
 - 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
+- 2026-10-02 - Pointed the Wikipedia references at the article's canonical title (ChatGPT Deep Research) after the page was renamed; plan and quota facts re-verified unchanged against the article's Usage limit section.
 
 ## See also
 
@@ -80,7 +81,7 @@ Not as a source of established fact: treat every report as a hypothesis list wit
 
 ## References
 
-- https://en.wikipedia.org/wiki/Deep_research - launch history, model lineage, benchmarks, quotas, and the documented hallucination caveats
+- https://en.wikipedia.org/wiki/ChatGPT_Deep_Research - launch history, model lineage, benchmarks, quotas, and the documented hallucination caveats
 - https://www.theguardian.com/technology/2025/feb/03/openai-deep-research-agent-chatgpt-deepseek - launch coverage and the skeptical verification-cost analysis
 - https://www.windowscentral.com/software-apps/openai-deep-research-blows-chatgpt-o3-mini-and-deepseek-out-of-the-water - the Humanity's Last Exam numbers and the web-search caveat
 - https://en.wikipedia.org/wiki/GPT-5.4 - the March 2026 model generation and its deep-research improvements

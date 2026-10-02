@@ -1,9 +1,9 @@
 ---
 title: SettleBridge
 created: 2026-09-27
-updated: 2026-09-27
+updated: 2026-10-02
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, agent-settlement, trust, escrow, policy-enforcement, audit]
+tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, llm=glm-5.3-flash, agent-settlement, trust, escrow, policy-enforcement, audit]
 readability: 3
 audience_notes: >
   Engineers building agent-to-agent commerce who need to know whether value should move, and who must confirm licensing before adopting an open-core product.
@@ -25,7 +25,7 @@ The vendor is Truthsetter LLC.
 ## Status
 
 Early and low-traffic but actively maintained.
-The gateway repository was created 2026-03-08 and sits at 1 star, 0 forks, and 1 open issue as of 2026-09-27, with 76 commits and a last push on 2026-09-25; the A2A-SE standard repository has 2 stars.
+The gateway repository was created 2026-03-08 and sits at 1 star, 0 forks, and 1 open issue as of 2026-10-02, with 76 commits and a last push on 2026-09-25; the A2A-SE standard repository has 2 stars.
 The website, pricing page, marketplace, and documentation are live and detailed, so this is a product with a real surface rather than an abandoned experiment.
 **The community footprint is effectively absent: a Hacker News search for SettleBridge returns nothing, and the whole organization is in the low single digits of stars.**
 One comparison worth naming: this is a young, standards-first effort where the software is secondary to the spec, so its survival depends more on A2A-SE adoption than on the gateway's own traction.
@@ -71,6 +71,7 @@ The Exchange charges 0.25% of each settled transaction as an ATE treasury fee.
 ## Changes
 
 - 2026-09-27 - Created.
+- 2026-10-02 - Added the missing llm=glm-5.3-flash tag from this maintenance run; license metadata re-checked and still unresolved (GitHub reports none, the LICENSE path still returns 404).
 
 ## See also
 
@@ -85,7 +86,7 @@ The Exchange charges 0.25% of each settled transaction as an ATE treasury fee.
 - https://settlebridge.ai/ - product framing, gateway components, open-core claim
 - https://settlebridge.ai/pricing - Community, Enterprise, and Exchange pricing with dollar and percentage amounts
 - https://github.com/a2a-settlement/settlebridge-ai - README: architecture, configuration, bounty marketplace, license statement
-- https://api.github.com/repos/a2a-settlement/settlebridge-ai - stars, forks, issues, push dates, and the null license field as of 2026-09-27
+- https://api.github.com/repos/a2a-settlement/settlebridge-ai - stars, forks, issues, push dates, and the null license field as of 2026-10-02
 - https://docs.a2a-settlement.org/docs/agent-settlement/ - A2A-SE: settlement lifecycle, three-layer model, interoperability
 - https://api.github.com/repos/a2a-settlement/a2a-settlement - the MIT-licensed standard repository behind the gateway
 - https://raw.githubusercontent.com/Agent-Analytics/awesome-multi-agent-orchestrators/main/README.md - the curated directory that flags the license metadata as inconsistent

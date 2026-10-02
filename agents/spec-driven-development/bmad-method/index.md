@@ -24,7 +24,7 @@ The ecosystem is modular: BMad Builder, a Creative Intelligence Suite, an enterp
 ## Status
 
 Large, active, and quietly adopted.
-As of 2026-09-27: about 53.5k stars and about 6k forks since creation on 2025-04-13, 46 open issues and pull requests, with release v6.12.0 (published 2026-09-04) still the newest.
+As of 2026-10-02: about 53.7k stars and about 6k forks since creation on 2025-04-13, 46 open issues and pull requests, with release v6.12.0 (published 2026-09-04) still the newest.
 The derivative community is real (third-party skill packs and hybrids like boss-skill and bmalph, the latter at 406 stars), but its HN threads run 2 to 4 points, so the method spread through the ecosystem rather than the front page.
 
 ## Strengths

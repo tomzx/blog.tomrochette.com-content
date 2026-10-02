@@ -41,7 +41,7 @@ Their own comparison post says the gateway is built in Rust, and EU residency in
 ## Pricing
 
 - Free: $0, free models only, 200 requests/day, routing, caching, spend tracking, and EU residency included.
-- Pay as you go: flat 5% markup on upstream model cost, all 600+ models, budget caps, and MCP gateway, with BYOK carrying 0% markup per their docs (as of 2026-09-26).
+- Pay as you go: flat 5% markup on upstream model cost, all 600+ models, budget caps, and MCP gateway, with BYOK carrying 0% markup per their docs (as of 2026-10-02).
 - Enterprise: custom, with SSO (Okta, Azure AD, Google Workspace, custom OIDC), RBAC, approved-model policies, and custom SLAs.
 
 ## Price history

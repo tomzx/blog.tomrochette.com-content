@@ -1,7 +1,7 @@
 ---
 title: "Task Management Feature Matrix"
 created: 2026-08-27
-updated: 2026-09-29
+updated: 2026-10-02
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, comparison, task-management, task-tracking]
 readability: 3
@@ -30,7 +30,7 @@ Each column links to the full research note; every cell below traces to a source
 | PRD ingestion | ✗ manual task creation | ✗ manual task creation | ~ opt-in PRD artifact inside the planner conversation | ✓ `parse-prd` pipeline |
 | Agent integrations | Claude Code, Codex, Gemini CLI, Kiro, Cursor, MCP | `bd init` for Codex, Claude, Factory, Cursor, plus AGENTS.md and MCP | runners Claude Code, Codex, OpenCode built in, plugins beyond; planner can be a coding agent or one of 25 API providers | MCP server and CLI, documented for Cursor, Claude Code, Windsurf, VS Code, Q CLI |
 | Pricing | free | free | free | CLI free, Hamster $40 per creator per month |
-| Current status | active, about 6.9k stars | active, about 27.5k stars, 1,270 open issues, v1.3.1-rc.1 prerelease 2026-09-21 | active, 179 stars, v0.5.5 (2026-09-28) | repo quiet since April 2026, product alive at Hamster |
+| Current status | active, about 6.9k stars | active, about 27.6k stars, 1,266 open issues, v1.3.1 stable 2026-09-30 | active, 183 stars, v0.5.6 (2026-09-30) | repo quiet since April 2026, product alive at Hamster |
 
 ## Reading the matrix
 
@@ -38,7 +38,7 @@ Each column links to the full research note; every cell below traces to a source
 Task Master's file storage sits between the two but its concurrency story is unverified, which is the cell I would resolve first before adopting it for shared queues.
 
 **Ordewell is the category's planner layer: where the other three track work, it decomposes a goal into an editable plan with per-task model assignment and refuses to take the agent's word for done, completing tasks on markers instead.**
-Its 162 stars and v0.5.x release line make it the least proven column, and its note records the launch thread's AI-written-replies episode as a transparency caution.
+Its 183 stars and v0.5.x release line make it the least proven column, and its note records the launch thread's AI-written-replies episode as a transparency caution.
 
 **PRD ingestion is the pipeline feature, and its provenance is the warning: the only tool with a full PRD pipeline is the one whose license stopped being OSI open source and whose repo went quiet as the method moved into a paid product, while Ordewell treats the PRD as an optional conversational artifact instead.**
 
@@ -60,6 +60,7 @@ Its 162 stars and v0.5.x release line make it the least proven column, and its n
 - 2026-09-25 - Refreshed the Ordewell status cell (144 stars, v0.4.23 of 2026-09-23).
 - 2026-09-27 - Refreshed the Backlog.md, beads, and Ordewell status cells (about 6.9k stars; about 27.5k stars and 1,270 open issues; 162 stars and v0.5.4 of 2026-09-26).
 - 2026-09-29 - Refreshed the Ordewell status cell (179 stars, v0.5.5 of 2026-09-28); all other cells re-verified unchanged.
+- 2026-10-02 - Refreshed the beads status cell (v1.3.1 stable of 2026-09-30, about 27.6k stars, 1,266 open issues) and the Ordewell status cell (183 stars, v0.5.6 of 2026-09-30), plus the matching prose figure.
 
 ## See also
 

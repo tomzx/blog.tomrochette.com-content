@@ -23,7 +23,7 @@ Deployment is self-hosted (free Community Edition) or n8n Cloud; the Webhook nod
 ## Status
 
 **Very active and heavily funded.**
-About 206k stars and 60.9k forks on GitHub as of 2026-09-27, with 24,000+ commits.
+About 206.5k stars and 61.0k forks on GitHub as of 2026-10-02, with 24,000+ commits.
 A $180M Series C (October 2025, led by Accel, with NVIDIA's NVentures) brought total funding to $240M at a $2.5B valuation.
 Caveat on maturity: the agents layer is in preview, not yet supported on self-hosted Enterprise, and queue mode does not work with agents.
 
@@ -43,7 +43,7 @@ Caveat on maturity: the agents layer is in preview, not yet supported on self-ho
 
 ## Pricing
 
-Cloud plans bill per full workflow execution with unlimited users and steps: Starter at 20 EUR/month annually for 2,500 executions, Pro at 50 EUR for 10,000, Business at 667 EUR for 40,000, Enterprise by quote (as of 2026-09-24).
+Cloud plans bill per full workflow execution with unlimited users and steps: Starter at 20 EUR/month annually for 2,500 executions, Pro at 50 EUR for 10,000, Business at 667 EUR for 40,000, Enterprise by quote (as of 2026-10-02).
 Self-hosting the Community Edition is free; Business-and-up self-hosted licenses ping n8n's license server daily and count your executions.
 
 ## Price history
@@ -82,10 +82,10 @@ My disagreeable claim: for scheduled and webhook-triggered coding-adjacent work,
 
 ## References
 
-- https://github.com/n8n-io/n8n - repository scale and fair-code licensing, as of 2026-09-27
+- https://github.com/n8n-io/n8n - repository scale and fair-code licensing, as of 2026-10-02
 - https://docs.n8n.io/build/build-and-manage-agents.md - agents feature: channels, schedules, sub-agents, preview limits
 - https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-base.webhook/ - webhook trigger semantics, auth, fail-open conditional
-- https://n8n.io/pricing/ - plan tiers and execution-based billing, as of 2026-09-24
+- https://n8n.io/pricing/ - plan tiers and execution-based billing, as of 2026-10-02
 - https://docs.n8n.io/n8n-community-license/sustainable-use-license.md - license terms and the not-open-source statement
 - https://blog.n8n.io/series-c/ - $180M Series C, $2.5B valuation, October 2025
 - https://news.ycombinator.com/item?id=21191676 - the 2019 launch thread (728 points)

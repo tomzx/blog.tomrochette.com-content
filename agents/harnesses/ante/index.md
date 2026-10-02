@@ -1,7 +1,7 @@
 ---
 title: Ante
 created: 2026-08-30
-updated: 2026-10-01
+updated: 2026-10-02
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agents, harnesses, rust, single-binary, local-models]
 readability: 3
@@ -25,8 +25,8 @@ Source is published under Apache-2.0 (crates: exec, llm, protocol-shape, ante-sd
 ## Status
 
 **Active, preview-stage, and growing fast for a five-month-old repo.**
-1,985 stars and 69 forks as of 2026-09-29, repo created December 23, 2025, with v0.2.0 (September 17, 2026) having closed the v0.preview.N series and started a within-minor compatibility promise.
-The latest release is v0.2.6 (release notes dated September 27, 2026, published September 28), which made DeepSeek V4.1 Flash the OpenRouter default, removed the older V4 Flash preset and NVIDIA Nemotron 3.5 Lightning from that catalog, and capped output requests to the remaining context.
+1,992 stars and 69 forks as of 2026-10-02, repo created December 23, 2025, with v0.2.0 (September 17, 2026) having closed the v0.preview.N series and started a within-minor compatibility promise.
+The latest release is v0.2.7 (release notes dated September 29, 2026, published September 30), which added Claude Sonnet 5.5 on Anthropic and OpenRouter, Qwen 3.8 Max and GLM 5.3 FlashX on its catalog, moved xAI to Grok 4.7, made resumed sessions keep the system prompts they started with, and bumped the embedded llama.cpp engine.
 v0.2.5 (published September 25) added in-place session provider switching that keeps the session's ID, messages, title, and permission state and made MCP server startup and protocol compatibility stricter.
 The Show HN launch on August 10, 2026 drew 169 points and 92 comments ([HN](https://news.ycombinator.com/item?id=49245437)).
 At launch commenters flagged that the repo hosted binaries without agent source; the Apache-2.0 core libraries published since narrow that gap, though the core harness itself remains closed during the alpha.
@@ -75,6 +75,7 @@ I expect the harness market to consolidate on footprint and cost per agent, and 
 - 2026-09-26 - Recorded the v0.2.5 release (September 25), which added in-place session provider switching and stricter MCP server startup, and refreshed repository scale.
 - 2026-09-29 - Recorded the v0.2.6 release (published September 28), which made DeepSeek V4.1 Flash the OpenRouter default, removed the V4 Flash preset and Nemotron 3.5 Lightning from that catalog, and capped output requests to remaining context, and refreshed repository scale.
 - 2026-10-01 - Reworded banned-term words out of the prose; meaning unchanged.
+- 2026-10-02 - Recorded the v0.2.7 release (published September 30), which added Claude Sonnet 5.5, Qwen 3.8 Max, and GLM 5.3 FlashX catalog entries, moved xAI to Grok 4.7, kept resumed sessions on their original system prompts, and bumped the embedded llama.cpp, and refreshed repository scale.
 
 ## See also
 
@@ -85,10 +86,10 @@ I expect the harness market to consolidate on footprint and cost per agent, and 
 
 ## References
 
-- https://github.com/AntigmaLabs/ante - repository, Apache-2.0 source, 1,985 stars as of 2026-09-29
+- https://github.com/AntigmaLabs/ante - repository, Apache-2.0 source, 1,992 stars as of 2026-10-02
 - https://docs.antigma.ai/ - architecture, offline mode, providers, footprint claims
 - https://antigma.ai/eval - self-reported Terminal-Bench 2.1 results, pinned builds and Harbor runs
 - https://raw.githubusercontent.com/AntigmaLabs/ante/main/README.md - feature surface and provider list
 - https://raw.githubusercontent.com/AntigmaLabs/ante/main/BINARY-TERMS.md - the separate preview license for prebuilt binaries
 - https://news.ycombinator.com/item?id=49245437 - the August 10, 2026 launch thread, 169 points (verified via Algolia API)
-- https://github.com/AntigmaLabs/ante/releases - v0.2.6, release notes dated 2026-09-27, published 2026-09-28 (verified via GitHub API)
+- https://github.com/AntigmaLabs/ante/releases - v0.2.7, release notes dated 2026-09-29, published 2026-09-30 (verified via GitHub API)

@@ -12,7 +12,7 @@ audience_notes: >
 
 Paperclip (paperclipai/paperclip) is an MIT-licensed, self-hostable control plane for a company of AI agents: a Node.js server and React UI where agents check work out of a ticket board via scheduled heartbeats, wrapped in org charts, budgets, approvals, skills, and an audit log.
 
-**The name is the thesis: an agent-company platform named after the paperclip maximizer is selling governance as the product (budgets that pause agents, approvals, chain of command, immutable audit trails), and about 93k stars in its first seven months say the market wants exactly that.**
+**The name is the thesis: an agent-company platform named after the paperclip maximizer is selling governance as the product (budgets that pause agents, approvals, chain of command, immutable audit trails), and about 96k stars in its first seven months say the market wants exactly that.**
 
 ## What it is
 
@@ -24,7 +24,7 @@ Any agent that can receive a heartbeat is hirable, OpenClaw, Claude Code, Codex,
 ## Status
 
 Active at extreme velocity.
-As of 2026-09-29: 93,464 stars and 15,941 forks since creation on 2026-03-02, 6,019 open issues, pushed 2026-09-29, latest release v2026.916.1 on 2026-09-21, date-versioned, cloud deployments in waitlist with multi-tenant isolation already shipped per the roadmap.
+As of 2026-10-02: 95,852 stars and 16,249 forks since creation on 2026-03-02, 6,227 open issues, pushed 2026-10-02, latest release v2026.916.1 on 2026-09-21, date-versioned, cloud deployments in waitlist with multi-tenant isolation already shipped per the roadmap.
 **Its Hacker News footprint is nearly empty: the April 2026 Show HN got 3 points, so the growth ran through X and Discord instead, which tells you who the audience is.**
 The roadmap is public about what does not exist yet: memory and knowledge, work queues, self-organization, CEO chat, and one item called MAXIMIZER MODE, the joke made explicit.
 
@@ -38,7 +38,7 @@ The roadmap is public about what does not exist yet: memory and knowledge, work 
 ## Cautions
 
 - The quickstart defaults to a trusted local loopback mode, and the README itself tells you to pick an authenticated bind preset for anything beyond the first run; read before you expose.
-- 6,019 open issues seven months in is a support surface growing as fast as the star count.
+- 6,227 open issues seven months in is a support surface growing as fast as the star count.
 - Date-versioned near-daily releases mean you are always upgrading; pin deliberately.
 - The pitch says autonomous businesses while the memory, work-queue, and self-organization pillars are still roadmap items, so expect to supervise more than the landing page implies.
 - Name collisions: desktop Clippy-style tools also call themselves paperclip (agent-paperclip, clippyai-desktop); search carefully.
@@ -80,7 +80,7 @@ The disagreeable claim I will defend: "manage business goals, not pull requests"
 ## References
 
 - https://github.com/paperclipai/paperclip - README: pillars, quickstart defaults, FAQ, roadmap
-- https://api.github.com/repos/paperclipai/paperclip - stars, forks, issues, push dates as of 2026-09-27
+- https://api.github.com/repos/paperclipai/paperclip - stars, forks, issues, push dates as of 2026-10-02
 - https://paperclip.ing - homepage, release line, testimonials
 - https://docs.paperclip.ing - official documentation
 - https://api.github.com/repos/paperclipai/paperclip/releases - v2026.916.1, 2026-09-21

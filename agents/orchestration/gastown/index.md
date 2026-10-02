@@ -25,7 +25,7 @@ Claude Code is the default runtime with Codex, Copilot, Gemini, and Cursor confi
 
 **Shut down: Yegge killed the project in September 2026 and admitted he never successfully built anything with it, so the category's most famous experiment is now a death record that stays because deaths are information.**
 Per [Latent Space's AINews roundup](https://www.latent.space/p/ainews-reality-checks-on-ai-news) (2026-09-17), citing Dan Luu's 2026-09-15 post on X, Yegge shut Gas Town down despite spending many thousands a month on coding agent subscriptions.
-As of 2026-09-26: 18,193 stars, 1,673 forks, 483 open issues, created 2025-12-16, latest release v1.2.1 on 2026-06-06.
+As of 2026-10-02: 18,230 stars, 1,678 forks, 502 open issues, created 2025-12-16, latest release v1.2.1 on 2026-06-06.
 The repo remains public and unfixed: the default branch shows no commit since 2026-07-23 and no release since June, which reads differently now that the shutdown explains the silence.
 **Its HN footprint dwarfs every tool in this section: the announcement thread (354 points), Maggie Appleton's field analysis (403 points), the v1.0 post (113 points), and the governance controversy (253 points).**
 That controversy, [issue #3649](https://github.com/gastownhall/gastown/issues/3649), asked whether the town improves itself using agents running on users' LLM credits, and Appleton's account records the texture: entirely vibecoded, thousands of dollars a month in API burn, and a $GAS meme coin the project did not authorize.

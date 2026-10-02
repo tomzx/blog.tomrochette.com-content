@@ -18,12 +18,12 @@ Atlas is the Apache-2.0 Rust desktop app, for macOS and Windows, that bills itse
 
 A desktop workspace where you run Claude Code, Codex, Atlas's own native agent, or anything from the ACP registry side by side against the same codebase, with shared memory so switching agents mid-task does not reset context (README, docs.tryatlas.cc).
 Around the agents it adds an Explorer, a Spaces spatial board for notes and their connections, up to three resizable split-view columns, and a filterable activity log that survives restarts.
-The repo sits at 8,320 stars with 338 forks, Apache-2.0, created 2026-05-14, built in Rust with a web-technology UI, built from source with Bun and Rust (GitHub API, README, as of 2026-09-29).
+The repo sits at 8,558 stars with 341 forks, Apache-2.0, created 2026-05-14, built in Rust with a web-technology UI, built from source with Bun and Rust (GitHub API, README, as of 2026-10-02).
 It surfaced as an entrant from the owner's GitHub stars.
 
 ## Status
 
-Active and growing fast: 8,320 stars in roughly 4.5 months, last push 2026-09-28, latest release alpha-0.3.4 on 2026-09-27 (GitHub API, as of 2026-09-29).
+Active and growing fast: 8,558 stars in under five months, last push 2026-09-30, latest release alpha-0.3.4 on 2026-09-27 (GitHub API, as of 2026-10-02).
 Official installers ship as macOS .app/.dmg and Windows .msi; Linux is build-from-source with GTK and WebKitGTK dependencies.
 The README carries Trendshift badges for Rust, and feature work targets version branches rather than main, a sign of release discipline inside alpha.
 I found no HN launch thread and no third-party coverage: the community footprint so far is GitHub stars alone, which is itself a signal.

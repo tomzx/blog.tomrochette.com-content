@@ -26,7 +26,7 @@ It sits in the orchestration layer of this section's taxonomy (control plane and
 ## Status
 
 **Active, well-capitalized by YC standards, and shipping daily.**
-2,871 stars and 227 forks as of 2026-09-26 on a repo created July 9, 2025, with pushes landing within a day of verification (GitHub API).
+2,879 stars and 231 forks as of 2026-10-02 on a repo created July 9, 2025, with pushes landing within a day of verification (GitHub API).
 Two HN threads anchor its traction: a 310-point Show HN on August 12, 2025 ([HN](https://news.ycombinator.com/item?id=44878650)) and a 147-point Launch HN on February 12, 2026 ([HN](https://news.ycombinator.com/item?id=46991591)).
 The product's own framing moved between those dates, from "run Claude Code from anywhere" to "the API for production-grade agents" with managed-agent execution.
 
@@ -47,7 +47,7 @@ The product's own framing moved between those dates, from "run Claude Code from 
 ## Pricing
 
 The platform is open source under Apache-2.0 and self-hostable at no cost.
-Omnara Cloud now publishes usage-based pricing, a change from the no-pricing-page state I recorded on 2026-08-30: $0 platform fee with no per-seat charges, Omnara-managed models at provider token rates, and Omnara-managed machines at $0.0414 per GiB of memory per hour online (idle machines auto-sleep) plus $0.20016 per GiB of memory per 30 days of retention, re-verified unchanged as of 2026-09-26.
+Omnara Cloud now publishes usage-based pricing, a change from the no-pricing-page state I recorded on 2026-08-30: $0 platform fee with no per-seat charges, Omnara-managed models at provider token rates, and Omnara-managed machines at $0.0414 per GiB of memory per hour online (idle machines auto-sleep) plus $0.20016 per GiB of memory per 30 days of retention, re-verified unchanged as of 2026-10-02.
 Enterprise adds deployment, integrations, and support at custom terms.
 You pay your own model costs when you bring your own keys.
 

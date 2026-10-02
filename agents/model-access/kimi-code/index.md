@@ -40,7 +40,7 @@ Independent guides multiplied through 2026, which I read as real adoption.
 
 ## Pricing
 
-On kimi.ai: Moderato $19, Allegretto $39, Allegro $99, Vivace $199 per month, annual effective $15/$31/$79/$159 (as of 2026-09-26).
+On kimi.ai: Moderato $19, Allegretto $39, Allegro $99, Vivace $199 per month, annual effective $15/$31/$79/$159 (as of 2026-10-02).
 On kimi.com: Andante ¥49, Moderato ¥99, Allegretto ¥199, Allegro ¥699 per month (as of 2026-09-26).
 Under the new ladder, Go has no coding quota, Plus and above include Kimi Code, and Pro and above unlock K3 at 1M context.
 Extra Usage is pay-as-you-go overflow with a ¥25 minimum top-up, generally non-refundable.

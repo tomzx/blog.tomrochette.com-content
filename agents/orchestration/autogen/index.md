@@ -18,14 +18,14 @@ AutoGen is Microsoft's Python framework for applications where multiple agents, 
 
 A framework where AssistantAgent and UserProxyAgent converse, execute code, and iterate, with the v0.4+ architecture splitting an AgentChat high-level API from a Core event-driven runtime and shipping extensions per model provider.
 It is Python (3.10+), installable as `autogen-agentchat` plus `autogen-ext`, with AutoGen Studio as the no-code GUI on top.
-The repo sits at 61,179 stars with about 9.3k forks, created 2023-08-18 (GitHub API, as of 2026-09-27).
+The repo sits at 61,253 stars with about 9.3k forks, created 2023-08-18 (GitHub API, as of 2026-10-02).
 The published packages remain MIT (autogen-agentchat 0.7.5 on PyPI), while GitHub's license detection on the repo root now reports CC-BY-4.0, a quirk worth knowing before you vendor anything.
 Its research lineage is real: the framework came out of Microsoft Research and Pennsylvania State University work on multi-agent conversations.
 
 ## Status
 
 Maintenance mode, by its own declaration: the README carries an orange maintenance-mode badge and a caution box stating AutoGen "will not receive new features or enhancements and is community managed going forward".
-New users are pointed to Microsoft Agent Framework (MAF), the enterprise successor that merged the AutoGen and Semantic Kernel lines; MAF shows 13,816 stars, MIT, and a push on 2026-09-25 (GitHub API).
+New users are pointed to Microsoft Agent Framework (MAF), the enterprise successor that merged the AutoGen and Semantic Kernel lines; MAF shows 13,899 stars, MIT, and a push on 2026-10-01 (GitHub API, as of 2026-10-02).
 AutoGen's own repo was last pushed 2026-04-15 and its latest release is python-v0.7.5 from 2025-09-30, so the code is stable but frozen.
 Microsoft ships a migration guide on Learn, and the README also still carries the v0.2-to-v0.4 migration path, a reminder that this project already survived one breaking rewrite.
 The successor is production-ready per the README, which calls MAF 1.0 stable with long-term support and A2A plus MCP interoperability.

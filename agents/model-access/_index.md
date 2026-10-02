@@ -12,7 +12,7 @@ The layer that sells access to models themselves: gateways and routers metering 
 Editors and harnesses live in their own categories; this is where the token bill gets paid.
 
 - [Cerebras Code](cerebras-code/index.md) - wafer-scale inference sold as speed, $50/$200 per month, currently sold out.
-- [ChatGPT plans](chatgpt-plans/index.md) - OpenAI's subscription ladder from Go $8 to Pro 20x at $200, every tier carrying Codex.
+- [ChatGPT plans](chatgpt-plans/index.md) - OpenAI's subscription ladder from Go $8 to Pro tiers up to $500 per month, every tier carrying Codex.
 - [Chutes](chutes/index.md) - decentralized inference with pay-as-you-go plus $10/$20 subscriptions capped at 5x pay-as-you-go value.
 - [Claude plans](claude-plans/index.md) - Anthropic's Free/Pro/Max subscriptions, the only non-API way to run Claude Code, from $20 to $200 per month.
 - [Experiential](experiential/index.md) - a YC-backed Apache-2.0 gateway at zero markup that mines agent traces to train routers and, on enterprise, a model you own.

@@ -3,7 +3,7 @@ title: Agon
 created: 2026-09-27
 updated: 2026-09-27
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, automated-research, multi-agent, autonomous-research, claude-code]
+tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, llm=glm-5.3-flash, automated-research, multi-agent, autonomous-research, claude-code]
 readability: 3
 audience_notes: >
   Engineers and researchers studying fully autonomous research loops and their failure modes.
@@ -24,9 +24,9 @@ It runs from a separate data workspace (commonly `agon-artifacts`) through the c
 
 ## Status
 
-Active and small: 50 stars, 4 forks, 1 open issue, 75 commits, created 2026-06-18, last push 2026-09-25, as of 2026-09-27.
+Active and small: 53 stars, 5 forks, 1 open issue, 76 commits, created 2026-06-18, last push 2026-09-30, as of 2026-10-02.
 The companion arXiv paper ([2606.24177](https://arxiv.org/abs/2606.24177)) was submitted 2026-06-23 and reports 444 iterations of Prompt Economy loops across more than ten scientific domains, thousands of scientist-coder-auditor iterations over three months, and a longest uninterrupted run the project page puts at 30 days.
-**That adoption record is self-reported by the authors with no independent replication, and the public community footprint is essentially absent: an HN Algolia search for Agon autonomous research returns zero hits as of 2026-09-27.**
+**That adoption record is self-reported by the authors with no independent replication, and the public community footprint is essentially absent: an HN Algolia search for Agon autonomous research returns zero hits as of 2026-10-02.**
 
 ## Strengths
 
@@ -39,7 +39,7 @@ The companion arXiv paper ([2606.24177](https://arxiv.org/abs/2606.24177)) was s
 ## Cautions
 
 - It runs on Claude Code with permissions disabled; treat it as untrusted autonomous code and isolate it accordingly.
-- 50 stars, one main repository, and no independent evaluation; the 444-iteration and ten-domain claims rest on the authors' word.
+- 53 stars, one main repository, and no independent evaluation; the 444-iteration and ten-domain claims rest on the authors' word.
 - The paper's own taxonomy concedes invisible failures (anomaly blindness, plausible false attribution, premature abandonment) that no loop catches and only a human scientist can.
 - It is a research artifact, not a maintained product: no releases, no support commitment, and a plugin that tracks Claude Code's moving extension points.
 - Novelty collisions are an explicit risk it manages through a deep-literature loop, which the paper concedes can still miss the 101st paper.
@@ -81,4 +81,4 @@ Not for anyone who needs a supported product, formal guarantees, or verified ben
 - https://arxiv.org/html/2606.24177v1 - design principles, architecture, prompt-surface comparison, and the failure-mode taxonomy
 - https://haizhaoyang.github.io/research/autoresearch.html - project-page framing, the six principles, and the 30-day unattended run
 - https://api.github.com/repos/AutoResearch-Factory/Agon - stars, forks, creation and push dates, and MIT license for the as-of status
-- https://hn.algolia.com/api/v1/search?query=%22Agon%22%20autonomous%20research - the absent community footprint as of 2026-09-27
+- https://hn.algolia.com/api/v1/search?query=%22Agon%22%20autonomous%20research - the absent community footprint as of 2026-10-02

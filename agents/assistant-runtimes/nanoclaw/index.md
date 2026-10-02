@@ -24,7 +24,7 @@ Each agent group gets its own container, workspace, memory, and mounts; Slack pr
 ## Status
 
 Active and independently credible.
-As of 2026-09-27: 30,849 stars and 12,813 forks since creation on 2026-01-31, pushed today, 1,119 open issues.
+As of 2026-10-02: 30,864 stars and 12,792 forks since creation on 2026-01-31, pushed today, 1,105 open issues.
 The [533-point launch thread](https://news.ycombinator.com/item?id=46850205) pitched it as "Clawdbot in 500 lines of TS with Apple container isolation", followed by a 169-point thread on the move from Apple Containers to Docker and a 112-point thread on adopting the OneCLI Agent Vault.
 The family is real: microclaw (734 stars) describes itself as inspired by NanoClaw, and the prompt-security clawsec suite explicitly covers it.
 
@@ -39,8 +39,7 @@ The family is real: microclaw (734 stars) describes itself as inspired by NanoCl
 
 - Container requirement means no native Windows and a Docker dependency the single-binary variants skip.
 - The fork-and-modify philosophy means your install drifts from trunk by design; updates become your problem.
-- The 12.8k forks against a small core team is a lot of divergence for one codebase to carry.
-- It inherits the family's provider politics (see the OpenClaw saga) while standardizing on Anthropic's SDK.
+- The 12.8k forks against a small core team is a lot of divergence for one codebase to carry.- It inherits the family's provider politics (see the OpenClaw saga) while standardizing on Anthropic's SDK.
 
 ## Pricing
 

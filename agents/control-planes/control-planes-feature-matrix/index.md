@@ -1,7 +1,7 @@
 ---
 title: "Control Planes Feature Matrix"
 created: 2026-08-27
-updated: 2026-09-29
+updated: 2026-10-02
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, llm=deepseek-v4.1-flash, comparison, control-planes, agent-operations]
 readability: 3
@@ -33,7 +33,7 @@ Legend: ✓ supported, ✗ not supported, ~ partial or conditional, ? not verifi
 | Channels | ✗ API and CLI only | ✗ framework adapters, not messaging | ✗ web UI and MCP | any heartbeat-capable agent surface | ✗ | Discord, Email, Telegram, CLI, REST, WebSocket, Slack and WhatsApp in beta | Discord, WhatsApp, Telegram | ✗ |
 | Audit and evidence | ✓ HMAC-chained append-only Postgres, Ed25519 signatures, Article 12 report | ✓ tamper-evident Merkle audit and decision records | ✓ evidence gates and knowledge graph provenance | ✓ immutable activity log, run ids, artifacts on issues | ✓ Merkle-linked append-only audit, CSV and JSON export | ✓ integrity-verified write-ahead log with SHA-256 checks | ✗ none recorded | ✓ offline-verifiable decision receipts |
 | Pricing | free MIT, hosted bridge unpriced | free MIT | free local, SaaS planned and unpriced | free self-hosted, cloud in waitlist, unpublished | Community free, Enterprise $2,500/month per gateway, Exchange 0.25% per settlement | free AGPL-3.0, commercial and enterprise by contact, unpriced | free | Developer $0, Hosted $299/month for 100K checks, Enterprise custom |
-| Current status | active, 0 stars, v0.7.3, last push 2026-07-23 | active, 6,349 stars, 91 open issues, v4.1.0 (2026-06-09), public preview | active, 99 stars, v0.3.3, last push 2026-09-24 | active, about 93.5k stars since 2026-03-02, 6,019 open issues, v2026.916.1 (2026-09-21) | early, 1 star, 76 commits, last push 2026-09-25 | dormant, 26 stars, downloads frozen since April 2026, reopen date missed | stalled March 2026, 3,621 stars, 75 open issues | active product, 14 stars, veto-sdk@2.9.3 (2026-05-07) |
+| Current status | dormant since July 2026, 0 stars, v0.7.3, last push 2026-07-23 | active, 6,375 stars, 74 open issues, v4.1.0 (2026-06-09), public preview | active, 111 stars, v0.3.3, last push 2026-10-02 | active, about 95.9k stars since 2026-03-02, 6,227 open issues, v2026.916.1 (2026-09-21) | early, 1 star, 76 commits, last push 2026-09-25 | dormant, 26 stars, downloads frozen since April 2026, reopen date missed | stalled March 2026, 3,620 stars, 72 open issues | active product, repo dormant since June 2026, 14 stars, veto-sdk@2.9.3 (2026-05-07) |
 
 ## Reading the matrix
 
@@ -67,6 +67,7 @@ The employee side has its own category, [Assistant runtimes](../../assistant-run
 - 2026-09-27 - Refreshed the Paperclip status cell (about 87.9k stars, 5,776 open issues) and the TinyAGI star count (3,621).
 - 2026-09-27 - Added columns for Code Atelier Governance SDK, Microsoft Agent Governance Toolkit, Okto Pulse, SettleBridge, SIDJUA, and Veto; re-sorted all columns alphabetically; added enforcement-point and audit-and-evidence rows; rewrote the intro and reading-the-matrix prose for eight members.
 - 2026-09-29 - Refreshed the Paperclip status cell (about 93.5k stars, 6,019 open issues) and resolved the kastra and Blue candidates as explicit rejections.
+- 2026-10-02 - Refreshed the volatile status cells (Paperclip, Microsoft Agent Governance Toolkit, Okto Pulse, TinyAGI) and moved Code Atelier Governance SDK to dormant (no push since 2026-07-23) and Veto's repository to dormant (no push since 2026-06-18); no membership change.
 
 ## See also
 

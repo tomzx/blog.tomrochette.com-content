@@ -17,7 +17,7 @@ Small fast models handling typed decisions beside the large model: constrained d
 - [Jev](jev/index.md) - TypeSafe's System One model that skips text generation entirely, typed decisions with calibrated confidence at 70-500ms, early access since September 2026.
 - [JevBench](jevbench/index.md) - Benchmark Heaven's MIT scoreboard for Jev-class decision models, scored on intelligence, calibration, speed, and cost, whose sealed-decision revisions and point releases keep reordering the board (Jev first through v1.4.2, fourth since the Plumb-4B and Imajev-4B point releases).
 - [Jevlike](jevlike/index.md) - the community's one-day reverse-engineering of the Jev contract, an MIT option-attention starter, dormant since launch day, its head lifted by CUA-S1.
-- [Kev](kev/index.md) - Jared Palmer's Apache-2.0 Qwen3.5 LoRA family speaking the Jev API locally, with the wave's strongest pre-registered eval discipline.
+- [Kev](kev/index.md) - Jared Palmer's Apache-2.0 decision-model family (0.8B to a full-weights 27B, versioned together as Kev 1.0) speaking the Jev API locally, with the wave's strongest pre-registered eval discipline.
 - [Laya](laya/index.md) - the Apache-2.0 open-weights decision-model family answering typed questions in a single pass, the open rival to Jev's contract with its limits stated on its own model card.
 - [NanoJev](nanojev/index.md) - the 0.6B game-task replica with the most complete pipeline and the least verification, every benchmark unreplicated.
 - [Nimble](nimble/index.md) - Bespoke Labs' one-day open Jev with the category's only human-labeled head-to-head (Jev wins by 1.2 macro points) and an unlicensed repo.

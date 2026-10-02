@@ -24,8 +24,8 @@ Core platform under Elastic License 2.0 with the client and OTel packages Apache
 
 ## Status
 
-Mature and busy: 11,623 stars, 1,160 forks, 1,093 open issues and PRs as of 2026-09-26.
-Created 2022-11-09, pushed 2026-09-26, platform release arize-phoenix 20.16.0 on 2026-09-23, about 650,000 PyPI downloads over the trailing 30 days ending 2026-09-26.
+Mature and busy: 11,674 stars, 1,177 forks, 1,063 open issues and PRs as of 2026-10-02.
+Created 2022-11-09, pushed 2026-10-02, platform release arize-phoenix 20.19.0 on 2026-10-01, about 650,000 PyPI downloads over the trailing 30 days ending 2026-10-02.
 **Four years in, it is the oldest and most production-proven column in this category, with near-daily commits and weekly releases.**
 
 ## Strengths

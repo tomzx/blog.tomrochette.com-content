@@ -24,8 +24,8 @@ MIT licensed, TypeScript, under the `microsoft` GitHub org, created 2026-03-12.
 
 ## Status
 
-**Active and shipping: 375 stars, 66 open issues as of 2026-09-29, with commits landing that week and spec v0.9.0 tagged 2026-08-28 still the latest release.**
-Adoption is real where it counts: the `ahp` crate records about 257,700 lifetime downloads and the npm package about 175,200 (2026-08-29 to 2026-09-28), both as of 2026-09-29, with the npm curve accelerating through mid-September (daily downloads jumped from a few thousand to 15,681 on 2026-09-18).
+**Active and shipping: 382 stars, 62 open issues as of 2026-10-02, with commits landing that week and spec v0.9.0 tagged 2026-08-28 still the latest release.**
+Adoption is real where it counts: the `ahp` crate records about 265,900 lifetime downloads and the npm package about 331,400 (2026-09-02 to 2026-10-01), both as of 2026-10-02, with the npm curve roughly doubling every two weeks since mid-September (daily downloads jumped from a few thousand to 15,681 on 2026-09-18).
 A member of the VS Code team stated publicly in June 2026 that the team is rebuilding its agent infrastructure on AHP, and the reference host lives at `src/vs/platform/agentHost/node` in the `microsoft/vscode` repository.
 Pre-1.0 in the exact sense: the spec sits at v0.9.0 and wire churn is expected.
 
@@ -84,7 +84,7 @@ The disagreeable part: I think AHP will matter more to daily coding work than A2
 - https://microsoft.github.io/agent-host-protocol/guide/what-is-ahp - channel abstraction, URI schemes, agent-agnostic stance, planned MCP and LSP relay
 - https://microsoft.github.io/agent-host-protocol/specification/overview - RFC 2119 conventions and the x- extension rule
 - https://registry.npmjs.org/@microsoft%2Fagent-host-protocol - TypeScript client, 10 versions, latest 0.9.0
-- https://api.npmjs.org/downloads/point/2026-08-29:2026-09-28/@microsoft/agent-host-protocol - TypeScript client, 175,239 downloads 2026-08-29 to 2026-09-28
-- https://crates.io/api/v1/crates/ahp - Rust client, 257,714 downloads and repository pointer as of 2026-09-29
+- https://api.npmjs.org/downloads/point/2026-09-02:2026-10-01/@microsoft/agent-host-protocol - TypeScript client, 331,369 downloads 2026-09-02 to 2026-10-01
+- https://crates.io/api/v1/crates/ahp - Rust client, 265,907 downloads and repository pointer as of 2026-10-02
 - https://hn.algolia.com/api/v1/items/48582679 - the Ask HN A2A thread containing the VS Code team's AHP announcement comment (2026-06-18)
 - https://github.com/microsoft/vscode/tree/main/src/vs/platform/agentHost/node - the reference host implementation inside the VS Code tree

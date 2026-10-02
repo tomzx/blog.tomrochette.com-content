@@ -23,9 +23,9 @@ Apache-2.0, from Alibaba, open-sourced in May 2026 after two years of internal u
 
 ## Status
 
-High-velocity young: 42,421 stars, 3,042 forks, 236 open issues and PRs as of 2026-09-29, created 2026-05-18.
-That is up from 23,041 stars on 2026-09-13, 29,564 on 2026-09-16, 35,673 on 2026-09-18, 37,926 on 2026-09-20, 38,670 on 2026-09-21, 40,800 on 2026-09-24, and 41,702 on 2026-09-27, roughly 84 percent in sixteen days, still with no new HN catalyst on the launch thread, which sits at the same 284 points.
-At least 134 releases in four months (v1.12.10 on 2026-09-28 remains latest, after v1.12.9 on September 22 and v1.12.8 on September 21), a 284-point Hacker News front-page thread in June.
+High-velocity young: 43,189 stars, 3,109 forks, 257 open issues and PRs as of 2026-10-02, created 2026-05-18.
+That is up from 23,041 stars on 2026-09-13, 29,564 on 2026-09-16, 35,673 on 2026-09-18, 37,926 on 2026-09-20, 38,670 on 2026-09-21, 40,800 on 2026-09-24, 41,702 on 2026-09-27, and 42,421 on 2026-09-29, roughly 87 percent in nineteen days, still with no new HN catalyst on the launch thread, which sits at the same 284 points.
+At least 135 releases in five months (v1.12.11 on 2026-09-29 is latest, after v1.12.10 on September 28 and v1.12.9 on September 22), a 284-point Hacker News front-page thread in June.
 **Adoption outran polish visibly: GPT-5.x compatibility broke at launch and was fixed, and the lead has said parts of the codebase are not yet fully polished.**
 
 ## Strengths
@@ -80,7 +80,7 @@ Not for teams needing independently validated precision numbers today, or turnke
 
 ## References
 
-- https://github.com/alibaba/open-code-review - repository, architecture, integrations, license, 42,421 stars as of 2026-09-29
+- https://github.com/alibaba/open-code-review - repository, architecture, integrations, license, 43,189 stars as of 2026-10-02
 - https://raw.githubusercontent.com/alibaba/open-code-review/HEAD/README.md - the hybrid design, benchmark claims, and recall trade-off
 - https://news.ycombinator.com/item?id=48406358 - the launch thread with the independent precision run and maintainer responses
 - https://huggingface.co/datasets/Alibaba-Aone/aacr-bench - the public benchmark backing the claims

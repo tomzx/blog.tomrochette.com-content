@@ -1,7 +1,7 @@
 ---
 title: DeepSeek Harness
 created: 2026-08-30
-updated: 2026-09-29
+updated: 2026-10-02
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, harnesses, coding-agents, plugins, open-source]
 readability: 3
@@ -25,10 +25,10 @@ It is local-first and BYOK: API keys stay in a local credentials file, with prov
 
 ## Status
 
-New and extremely loud: 239,125 stars and 28,732 forks as of 2026-09-29, about seven weeks after the repo was created on 2026-08-13.
-No stable release exists, only alpha and rc prereleases (latest: dsh-v0.2.0-rc.1 on 2026-09-28, the first candidate of the 0.2.0 series, aggregating user and developer changes since v0.1.7-rc.2), and the README warns there will be compatibility-breaking changes.
+New and extremely loud: 241,744 stars and 28,900 forks as of 2026-10-02, about seven weeks after the repo was created on 2026-08-13.
+No stable release exists, only alpha and rc prereleases (latest: dsh-v0.2.0-rc.2 on 2026-09-29, adding desktop menu-bar management and installation of the dsh command with plugin management that needs no separate Node or pnpm, plus a batch of fixes), and the README warns there will be compatibility-breaking changes.
 The launch thread drew 747 points and 301 comments on Hacker News, with the author answering questions directly.
-An ecosystem is already forming: a Tauri desktop port with about 2,700 stars, a plugin directory site, and an MCP plugin catalog.
+An ecosystem is already forming: a Tauri desktop port with about 2,900 stars, a plugin directory site, and an MCP plugin catalog.
 **I read the star count as attention, not adoption, and the safest status label is developer preview.**
 
 ## Strengths
@@ -69,6 +69,7 @@ Not for anyone whose threat model includes untrusted repos on day one, or who wa
 - 2026-09-22 - Recorded the dsh-v0.1.7-alpha.1 and dsh-v0.1.7-alpha.2 prereleases (both September 22) and refreshed repository scale.
 - 2026-09-24 - Recorded the dsh-v0.1.7-rc.1 (September 23) and dsh-v0.1.7-rc.2 (September 24) release candidates, which add a web terminal sidebar, session archiving, scheduled tasks with reminders, and desktop onboarding, and refreshed repository scale; the project remains prerelease-only.
 - 2026-09-29 - Recorded the dsh-v0.2.0-rc.1 prerelease (September 28), the first candidate of the 0.2.0 series, and refreshed repository scale; the project remains prerelease-only.
+- 2026-10-02 - Recorded the dsh-v0.2.0-rc.2 prerelease (September 29), which added desktop menu-bar management of the dsh command and plugins without a separate Node or pnpm install, and refreshed repository scale; the project remains prerelease-only.
 
 ## See also
 
@@ -79,7 +80,7 @@ Not for anyone whose threat model includes untrusted repos on day one, or who wa
 
 ## References
 
-- https://github.com/deepseek-ai/deepseek-harness - repository, README, install, MIT license, 239,125 stars as of 2026-09-29
+- https://github.com/deepseek-ai/deepseek-harness - repository, README, install, MIT license, 241,744 stars as of 2026-10-02
 - https://www.deepseek.com/harness/en/ - runtime modes and plugin architecture claims
 - https://raw.githubusercontent.com/deepseek-ai/deepseek-harness/HEAD/SAFETY.md - the project's own security warnings
 - https://news.ycombinator.com/item?id=49285244 - the 747-point launch thread, including critical takes on plugins and the Cordis paper

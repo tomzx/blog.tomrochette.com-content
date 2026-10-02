@@ -22,7 +22,7 @@ Unreal Labs says it was founded by engineers from CERN, Meta, Snap, Bloomberg, a
 ## Status
 
 Active and three days old at verification.
-The repo was created 2026-09-21, the launch thread landed 2026-09-22 at 242 points with 122 comments, and the repo stood at 2,018 stars and 113 forks with the default branch pushed 2026-09-23 (GitHub, as of 2026-09-29).
+The repo was created 2026-09-21, the launch thread landed 2026-09-22 at 242 points with 122 comments, and the repo stood at 2,049 stars and 118 forks with the default branch pushed 2026-09-23 (GitHub, as of 2026-10-02).
 Three tagged releases exist, v0.1.0 and v0.1.1 on launch day and v0.2.0 on 2026-09-23.
 That traction at day three is exo-class: exo entered this index at 1,919 stars on a 169-point thread.
 

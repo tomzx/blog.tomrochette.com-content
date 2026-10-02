@@ -22,7 +22,7 @@ Its numbers are the citation of record for AI trend claims, used by Our World in
 
 ## Status
 
-Actively maintained at near-daily granularity: the data page was stamped "Updated Sep. 29, 2026" as of 2026-09-29, and its GitHub repositories show pushes as recent as 2026-09-28.
+Actively maintained at near-daily granularity: the data page was stamped "Updated Oct. 1, 2026" as of 2026-10-02, and its GitHub repositories show pushes as recent as 2026-09-30.
 HN traction is substantial and recurring: the FrontierMath launch drew 185 points in 2024, "FrontierMath was funded by OpenAI" drew 483 points in January 2025, and "Epoch confirms GPT5.4 Pro solved a frontier math open problem" drew 480 points in March 2026.
 Founded by Jaime Sevilla and collaborators; funding is donations (Coefficient Giving grants of $8.5M in 2025, $4.13M in 2024, and more, plus the Survival and Flourishing Fund, Jaan Tallinn, and Schmidt Sciences), with paid consultations disclosed on the transparency page.
 
@@ -73,7 +73,7 @@ My disagreeable claim: the FrontierMath episode made Epoch more trustworthy, not
 - https://epoch.ai/ - homepage: tagline, 3,200+ model dataset, product map, update stamps (fetched 200, 2026-09-24)
 - https://epoch.ai/about - "data-first research nonprofit" self-description and mission (fetched 200, 2026-09-24)
 - https://epoch.ai/about/transparency - 501(c)(3) status, itemized funders, disclosed OpenAI and DeepMind consultations, the 2026 FrontierMath data audit (fetched 200, 2026-09-24)
-- https://epoch.ai/data - data explorers, CC BY licensing, "Updated Sep. 29, 2026" stamp (fetched 200, 2026-09-29)
+- https://epoch.ai/data - data explorers, CC BY licensing, "Updated Oct. 1, 2026" stamp (fetched 200, 2026-10-02)
 - https://epoch.ai/team - team size and leadership including Jaime Sevilla (fetched 200, 2026-09-24)
 - https://epoch.ai/frontiermath - the FrontierMath benchmark surface (fetched 200, 2026-09-24)
 - https://techcrunch.com/2025/01/19/ai-benchmarking-organization-criticized-for-waiting-to-disclose-funding-from-openai/ - the funding-disclosure controversy (fetched 200, 2026-09-24)

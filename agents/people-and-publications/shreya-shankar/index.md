@@ -17,7 +17,7 @@ Shreya Shankar is a UC Berkeley computer science researcher in the EPIC Data Lab
 ## What it is
 
 A personal site and blog, a stack of open-source research systems, and a growing set of benchmarks, all built on her PhD work on LLM-powered data processing.
-The flagship is DocETL (github.com/ucbepic/docetl), a system for complex document processing with semantic operators and agentic query rewrites, which her homepage reports at 3.7k+ GitHub stars with real use by public defenders and climate scientists as of 2026-09-24.
+The flagship is DocETL (github.com/ucbepic/docetl), a system for complex document processing with semantic operators and agentic query rewrites, which her homepage reports at 4.1k+ GitHub stars with real use by public defenders and climate scientists as of 2026-10-02.
 With Hamel Husain she co-teaches and co-writes the evals material, including the free Maven mini-book Beyond Naive RAG.
 The newest instruments are Data Agent Bench (DAB), the first benchmark for data agents on realistic multi-database tasks, and Quail (announced 2026-09-24), her Full Stack Data Lab's query-aware inference engine for AI-SQL workloads, which the lab's blog reports at 1.84x the average speed of tuned vLLM baselines across its 29-query QUAIL-B benchmark and her homepage at over a billion tokens per minute on a single H100.
 

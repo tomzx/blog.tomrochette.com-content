@@ -48,7 +48,7 @@ Free: $0, 25+ free models, 20 requests/minute, 50 requests/day (1,000/day with $
 Standard: 5.5% fee per credit purchase, $0.80 minimum, crypto 5.0% flat, no subscription, workspace limit 5.
 Business: 8% fee, inference locked to EU or US providers with no cross-region fallback, workspace limit 1,000 (launched 2026-09-07).
 Enterprise: custom, volume commitments, SSO/SAML, contractual SLAs, $200,000/month free BYOK allowance.
-BYOK: 5% of equivalent cost above the free allowance, as of 2026-09-26.
+BYOK: 5% of equivalent cost above the free allowance, as of 2026-10-02 (fee state re-verified on the official FAQ).
 
 ## Price history
 

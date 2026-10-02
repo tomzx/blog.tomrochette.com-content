@@ -23,7 +23,7 @@ It began life as jlia0's TinyClaw, a tiny Claude Code wrapper for a 24/7 persona
 ## Status
 
 Stalled, kept here as the record.
-Created 2026-02-09, last release v0.0.20 on 2026-03-26, last push 2026-03-30, with 3,621 stars, 505 forks, and 75 open issues accumulating since (stall unchanged when re-checked 2026-09-27).
+Created 2026-02-09, last release v0.0.20 on 2026-03-26, last push 2026-03-30, with 3,620 stars, 505 forks, and 72 open issues accumulating since (stall unchanged when re-checked 2026-10-02).
 The original TinyClaw launch thread got 1 point on HN, so its growth was pure word of mouth in the one-person-company wave.
 **Five months of silence while Paperclip reached 80k stars in the same window is the whole story: the audience consolidated on the bigger, faster-moving control plane.**
 

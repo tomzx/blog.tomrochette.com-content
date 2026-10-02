@@ -26,7 +26,7 @@ The author is Nick Woodhead, who built it as internal tooling at GPTree, a compa
 ## Status
 
 Active, young, and gaining traction fast.
-The repository was created 2026-08-21 and shows 507 stars and 21 forks as of 2026-09-26 (GitHub API).
+The repository was created 2026-08-21 and shows 520 stars and 22 forks as of 2026-10-02 (GitHub API).
 Its Show HN on 2026-09-21 drew 45 points and 16 comments, modest by this category's standards but substantive, with real pushback answered in the thread.
 v0.4.3 shipped 2026-09-18, and v0.5.0 became the latest published release on 2026-09-23, still pre-1.0 with public schemas that may change.
 The author reports it has been a critical part of GPTree's development flow since January, which makes it one of the few tools in this section dogfooded in production before it was a product.

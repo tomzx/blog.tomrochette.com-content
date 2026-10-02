@@ -1,7 +1,7 @@
 ---
 title: Conductor
 created: 2026-08-24
-updated: 2026-09-30
+updated: 2026-10-02
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, orchestration, git-worktrees, macos]
 readability: 3
@@ -26,7 +26,7 @@ Conductor Cloud (July 2026) runs agents in Vercel sandboxes (8-core, 16GB, us-ea
 
 Active, fast, and well capitalized.
 A $22M Series A from Spark and Matrix closed on 2026-03-30, with YC and founders of Notion and Linear participating; the company claims 10x user growth since January 2026 and engineers at Google, Meta, Amazon, and others using it.
-Release cadence is extreme: 0.89.1 (GPT-6.1 Sol) and 0.89.0 (Sign in with ChatGPT) became the latest on 2026-09-29, following 0.87.6 (Claude Sonnet 5.5) on September 28, 0.87.5 (model search) on September 25, 0.87.3 (GPT-6 Sol and Luna models) on September 22, and 0.87.0, which added search across files and OpenCode 2.0 support, on September 18, with dozens of releases since January 2026.
+Release cadence is extreme: 0.89.3 (fixes for chats stuck in progress and model settings locked on older macOS) closed out the 0.89 line on September 29, following 0.89.2 (a GitHub Enterprise Server PR-info fix), 0.89.1 (GPT-6.1 Sol), and 0.89.0 (Sign in with ChatGPT) the same day, and 0.87.6 (Claude Sonnet 5.5) on September 28, 0.87.5 (model search) on September 25, 0.87.3 (GPT-6 Sol and Luna models) on September 22, and 0.87.0, which added search across files and OpenCode 2.0 support, on September 18, with dozens of releases since January 2026.
 The team behind cmd joined in April 2026.
 
 ## Strengths
@@ -76,6 +76,7 @@ My disagreeable claim: Conductor Cloud, not the local worktree manager, is the r
 - 2026-09-26 - Recorded 0.87.5 (September 25, model search) as the new latest release.
 - 2026-09-29 - Recorded 0.87.6 (September 28, Claude Sonnet 5.5) as the new latest release.
 - 2026-09-30 - Recorded 0.89.0 (Sign in with ChatGPT) and 0.89.1 (GPT-6.1 Sol), both September 29, as the new latest releases.
+- 2026-10-02 - Recorded 0.89.2 and 0.89.3 (both September 29, per the changelog) as the new latest releases.
 
 ## See also
 

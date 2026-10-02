@@ -16,7 +16,7 @@ Personal assistant runtimes outside the editor: the -claw family and its auditab
 - [Nanobot](nanobot/index.md) - HKUDS' readable Python agent runtime with the WebUI and channels bundled, 48k stars at alpha.
 - [NanoClaw](nanoclaw/index.md) - the auditable containerized OpenClaw rewrite, one process you can read in an afternoon.
 - [Open WebUI](open-webui/index.md) - the maximal self-hosted AI interface for Ollama and OpenAI-compatible backends, with the ecosystem's most consequential license story.
-- [OpenClaw](openclaw/index.md) - the self-hosted personal assistant root of the -claw family, 390k stars and the 2026 provider-restriction saga.
+- [OpenClaw](openclaw/index.md) - the self-hosted personal assistant root of the -claw family, 391k stars and the 2026 provider-restriction saga.
 - [OpenWork](openwork/index.md) - the MIT-core Cowork alternative built on OpenCode, whose MCP gateway makes skills portable across agents.
 - [PicoClaw](picoclaw/index.md) - Sipeed's Go assistant on $10 RISC-V boards in 10-20MB of RAM, the category as a compile target.
 - [PrivateGPT](private-gpt/index.md) - Zylon's Apache-2.0 API layer turning any local inference server into a Claude-style application backend.

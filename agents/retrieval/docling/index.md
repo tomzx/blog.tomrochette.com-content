@@ -24,8 +24,8 @@ The repository was created 2024-07-09 as IBM's ds4sd/docling and now lives under
 
 ## Status
 
-Very active and very large: 68,002 stars, 4,934 forks, 945 open issues, and a push on 2026-09-25 as of 2026-09-27.
-PyPI shows version 2.130.0 released 2026-09-22 across 218 releases, with Python 3.9 support dropped at 2.70.0, and pypistats reports 2,743,116 downloads in the last month as of 2026-09-27.
+Very active and very large: 68,277 stars, 4,981 forks, 972 open issues, and a push on 2026-10-01 as of 2026-10-02.
+PyPI shows version 2.132.0 released 2026-10-01 across 220 releases, with Python 3.9 support dropped at 2.70.0, and pypistats reports 2,743,116 downloads in the last month as of 2026-10-02 (re-read at the same cached value as the prior run).
 The HN footprint is thin for that scale: the largest story thread I found is 13 points from 2024-11-03, which says adoption flows through framework integrations and tutorials rather than launch-driven attention.
 The project's docs now advertise a managed path, Docling for IBM watsonx, exposing the same REST API as the self-hosted server.
 
@@ -42,7 +42,7 @@ The project's docs now advertise a managed path, Docling for IBM watsonx, exposi
 - Quality on hard documents is contested: practitioners in a June 2026 HN thread report marker with forced OCR outperforming it on long or complex scans, with one reporting that docling gives them garbage on exactly those documents.
 - A May 2026 HN comparison describes it as the heavier, GPU-leaning side of the local-parsing trade-off, which matters for CPU-only deployments.
 - The managed path routes through IBM watsonx, so the zero-ops option is also a lock-in option.
-- 945 open issues is the cost of being the default: bugs across dozens of formats and platforms all land here.
+- 972 open issues is the cost of being the default: bugs across dozens of formats and platforms all land here.
 
 ## Pricing
 
@@ -74,11 +74,11 @@ My disagreeable claim: Docling's dominance owes as much to IBM's distribution an
 
 ## References
 
-- https://api.github.com/repos/docling-project/docling - 68,002 stars, 4,934 forks, MIT, created 2024-07-09, pushed 2026-09-25, 945 open issues, as of 2026-09-27
+- https://api.github.com/repos/docling-project/docling - 68,277 stars, 4,981 forks, MIT, created 2024-07-09, pushed 2026-10-01, 972 open issues, as of 2026-10-02
 - https://raw.githubusercontent.com/docling-project/docling/main/README.md - format list, DoclingDocument, exports, integrations, MCP server, docling-serve, LF AI & Data badge
 - https://arxiv.org/abs/2408.09869 - the technical report grounding the DocLayNet layout and TableFormer table models and the MIT, commodity-hardware claims
 - https://docling-project.github.io/docling/getting_started/installation/ - the PyTorch dependency, install extras, and the Python 3.9 cutoff at 2.70.0
-- https://pypi.org/pypi/docling/json - version 2.130.0 (2026-09-22), 218 releases, Python >=3.10
+- https://pypi.org/pypi/docling/json - version 2.132.0 (2026-10-01), 220 releases, Python >=3.10
 - https://pypistats.org/api/packages/docling/recent - 2,743,116 downloads in the last month, as of 2026-09-27
 - https://api.github.com/search/issues?q=repo:docling-project/docling+install+size+OR+heavy+OR+torch+in:title - issues #3997, #4100, and #3793, the slim-install and lazy-import work
 - https://hn.algolia.com/api/v1/search?query=docling&tags=comment - practitioner comments: the GPU-heavy comparison, the marker-plus-forced-OCR preference, and the wrapper question

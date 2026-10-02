@@ -24,7 +24,7 @@ Default models are the GPT-6 family (Astra, Sol, and Luna) rolling out across pl
 ## Status
 
 **Active.**
-`openai/codex` shows about 126.5k stars, about 19.7k forks, and about 11.5k commits under Apache-2.0 as of 2026-09-26.
+`openai/codex` shows about 127.5k stars, about 19.9k forks, and about 11.7k commits under Apache-2.0 as of 2026-10-02.
 The CLI launched April 2025 and has been rewritten and rebuilt since; the current docs position it as an open agent harness platform.
 
 ## Strengths
@@ -89,5 +89,5 @@ Not the cheapest path if your usage is light and token-based (aider or OpenCode 
 - https://learn.chatgpt.com/docs - product overview and surfaces
 - https://learn.chatgpt.com/docs/codex/cli - CLI features, plugins, review, exec
 - https://learn.chatgpt.com/docs/pricing - plans, usage windows, credit rate card, GPT-6 rollout, and the GPT-5.5 retirement date, as of 2026-09-22
-- https://github.com/openai/codex - repository scale and Apache-2.0 license, as of 2026-09-22
+- https://github.com/openai/codex - repository scale and Apache-2.0 license, as of 2026-10-02
 - https://news.ycombinator.com/item?id=43708025 - launch discussion with early critical comparisons

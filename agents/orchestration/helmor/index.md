@@ -3,7 +3,7 @@ title: Helmor
 created: 2026-09-27
 updated: 2026-09-27
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, orchestration, worktrees, local-first, desktop]
+tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, llm=glm-5.3-flash, orchestration, worktrees, local-first, desktop]
 readability: 3
 audience_notes: >
   Engineers deciding between local-first desktop workbenches for parallel coding agents.
@@ -23,9 +23,9 @@ macOS (Apple Silicon and Intel) and Windows x64 are the supported desktop platfo
 
 ## Status
 
-Active but cooling: about 1,307 stars and 119 forks as of 2026-09-27, created 2026-04-02, with 1,831 commits.
-The latest release, v0.46.0 (which added Codex 1.0 and Claude Code 2.0 support), landed 2026-07-24, and the last default-branch commit was 2026-08-22, roughly five weeks before this note, so momentum has slowed even as the feature set matured.
-**For a tool still advertising forthcoming plan mode and Slack and GitHub context, a five-week quiet spell is the first data point to watch between now and the next release.**
+Active but cooling: about 1,308 stars and 120 forks as of 2026-10-02, created 2026-04-02, with 1,831 commits.
+The latest release, v0.46.0 (which added Codex 1.0 and Claude Code 2.0 support), landed 2026-07-24, and the last default-branch commit was 2026-08-22, roughly six weeks before this check, so momentum has slowed even as the feature set matured.
+**For a tool still advertising forthcoming plan mode and Slack and GitHub context, a six-week quiet spell is the first data point to watch between now and the next release.**
 
 ## Strengths
 
@@ -37,8 +37,7 @@ The latest release, v0.46.0 (which added Codex 1.0 and Claude Code 2.0 support),
 
 ## Cautions
 
-- Five weeks without a commit and the last release in July 2026 as of 2026-09-27; treat the roadmap items as unshipped.
-- Desktop only, and no Linux build; the macOS DMG is around 462 MB.
+- Six weeks without a commit and the last release in July 2026 as of 2026-10-02; treat the roadmap items as unshipped.- Desktop only, and no Linux build; the macOS DMG is around 462 MB.
 - Its documentation site (docs.helmor.ai) did not resolve during this run, so the README and releases are the practical documentation.
 - Review is local and Git-host-facing; there is no fleet-scale issue board or cloud execution.
 - Independent coverage is thin and mostly directory listings; the recurring open question is whether teams want another orchestration surface rather than better defaults inside the agents they already use.

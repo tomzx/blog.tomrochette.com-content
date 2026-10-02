@@ -25,7 +25,7 @@ It runs on macOS, Linux, Windows, Android, and the BSDs.
 ## Status
 
 **Active.**
-About 28.3k stars, 2.3k forks, and 4,225 commits as of 2026-09-26, launched July 30, 2025.
+About 28.4k stars, 2.3k forks, and 4,253 commits as of 2026-10-02, launched July 30, 2025.
 It is the continuation of the original opencode-ai repository: creator Kujtim Hoxha joined Charm, and the repo moved with him.
 After the dispute that split the community, Charm renamed it Crush while the other developers kept the OpenCode name.
 Charm's own telling is ["Crush, come home"](https://charm.land/blog/crush-comes-home/); the other side's version lives in [the launch thread](https://news.ycombinator.com/item?id=44736176).
@@ -78,7 +78,7 @@ Not for license-restricted organizations or communities that relitigate 2025.
 
 ## References
 
-- https://github.com/charmbracelet/crush - features, license, provider matrix, as of 2026-09-22
+- https://github.com/charmbracelet/crush - features, license, provider matrix, as of 2026-10-02
 - https://news.ycombinator.com/item?id=44736176 - launch thread with the full origin story and early comparisons
 - https://fsl.software/ - what FSL-1.1-MIT permits and when it converts
 - https://charm.land/blog/crush-comes-home/ - Charm's account of the project joining the company
