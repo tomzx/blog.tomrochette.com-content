@@ -40,6 +40,7 @@ Running many coding agents at once: worktree managers, kanbans, terminal multipl
 - [oh-my-codex](oh-my-codex/index.md) - the MIT workflow layer for OpenAI Codex CLI adding skills, hooks, HUD, memory, and worktree team execution.
 - [Omnara](omnara/index.md) - the YC S25 Apache-2.0 Go control plane where agents are YAML and supervision happens from dashboard, phone, CLI, API, or Slack.
 - [Open Swarm](open-swarm/index.md) - the AGPL-3.0 local mission-control canvas for launching and approving several Claude agents with per-session cost tracking.
+- [OpenRig](openrig/index.md) - the Apache-2.0 local control plane turning Claude Code, Codex, and Pi sessions into a YAML-defined, snapshot-restorable team.
 - [Orca](orca/index.md) - the MIT agent development environment running 27+ coding agents in worktrees across desktop, mobile, and remote.
 - [Paseo](paseo/index.md) - the open-source daemon driving coding agents from desktop, web, and native mobile apps, self-hosted and solo-maintained.
 - [Sandcastle](sandcastle/index.md) - the MIT TypeScript library and CLI orchestrating agents in Docker, Podman, or Vercel sandboxes with merge-back.
@@ -93,3 +94,4 @@ Its members are compared on shared rows in the [Orchestration Feature Matrix](or
 - 2026-09-29 - Added Mastra.
 - 2026-09-29 - Added Sim.
 - 2026-09-29 - Added Squad.
+- 2026-10-02 - Added OpenRig.
