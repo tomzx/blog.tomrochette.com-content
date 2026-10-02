@@ -4,7 +4,7 @@ title: "What I've built and what I need: July 2026"
 created: 2026-08-06
 type: post
 status: finished
-tags: [what-ive-built-and-what-i-need, personal-update, llm, ai-agents, automation, sdlc, workflows, fully-ai-generated, llm=glm-5.2, llm=glm-5.3]
+tags: [what-ive-built-and-what-i-need, personal-update, llm, ai-agents, automation, sdlc, workflows, fully-ai-generated, llm=glm-5.2, llm=glm-5.3, llm=deepseek-v4.1-flash]
 readability: 3
 audience_notes: >
   A monthly status update for anyone following my work on LLM-driven software development pipelines. Assumes familiarity with the SDLC skills and with human-gated versus autonomous agent workflows.
@@ -13,12 +13,12 @@ agent_sessions:
 ---
 
 The headline this month was **llm-augmented-workflows carrying an issue all the way through to a human gate**.
-Underneath the headline, the month spread into maturing the SDLC pipeline, reworking PR validation around visual proof, and shipping a wave of new skills.
+I also spent the month maturing the SDLC pipeline, reworking PR validation around visual proof, and shipping several new skills.
 
 ## What I Have Been Working On
 
 **Iterating on [llm-augmented-workflows](https://github.com/TomzxCode/llm-augmented-workflows).**
-The project is still rough, but it now moves an issue through real stages instead of demoing a single one.
+The project is still rough, but it now moves an issue through actual stages instead of demoing a single one.
 A cycle looks like this: an issue is created, it gets triaged, and the appropriate workflow runs until it hits a stage that requires a human.
 For feature requests, the workflow runs triage into a plan PR for review, and once the plan merges, continues to an implementation PR.
 For bug fixes, the flow goes from triage into a fix PR rather than stopping at reproduction.
@@ -43,8 +43,8 @@ It turns issue and PR data into a configurable board view with no backend.
 **Adding the [resolve-pr-conflicts](https://github.com/tomzx/agents/blob/main/skills/resolve-pr-conflicts/SKILL.md) skill.**
 I now run the skill daily across the repositories I contribute to.
 It scans for my open pull requests that have merge conflicts and resolves each one in parallel, fanning out a separate agent session per PR into its own worktree.
-Each session merges the base branch, resolves the conflict markers, runs the project's verification, and pushes, while ambiguous or verify-failing resolutions get aborted rather than guessed.
-The practical effect is that my PRs stay mergeable without me babysitting rebase loops.
+Each session merges the base branch, resolves the conflict markers, runs the project's verification, and pushes, aborting ambiguous or verify-failing resolutions rather than guessing them.
+The practical effect is that my PRs stay mergeable without me managing rebase loops by hand.
 
 **Refactored the SDLC pipeline.**
 Feature directories dropped the `FEAT-NNNN-` prefix for `N-<slug>`, and pending items now carry a `p` prefix with a promotion flow through [create-placeholder-issue](https://github.com/tomzx/agents/blob/main/skills/create-placeholder-issue/SKILL.md).
@@ -57,7 +57,7 @@ Visual proof capture moved out of [create-pr](https://github.com/tomzx/agents/bl
 Bug fixes now capture before/after recordings via [reproduce-issue](https://github.com/tomzx/agents/blob/main/skills/reproduce-issue/SKILL.md) and [fix-issue](https://github.com/tomzx/agents/blob/main/skills/fix-issue/SKILL.md).
 And [validate-pr](https://github.com/tomzx/agents/blob/main/skills/validate-pr/SKILL.md) and [verify-pr](https://github.com/tomzx/agents/blob/main/skills/verify-pr/SKILL.md) now check against the issue's acceptance criteria rather than the PR's own claims, with body and footer split for GitHub attribution.
 
-**Shipped a wave of new skills.**
+**Shipped several new skills.**
 Slack and memory support landed with [slackx](https://github.com/tomzx/agents/blob/main/skills/slackx/SKILL.md) and [sessions-memory](https://github.com/tomzx/agents/blob/main/skills/sessions-memory/SKILL.md), which turns archived sessions into PARA memory.
 Team docs gained [create-team-api](https://github.com/tomzx/agents/blob/main/skills/create-team-api/SKILL.md) and [create-team-charter](https://github.com/tomzx/agents/blob/main/skills/create-team-charter/SKILL.md).
 Codebase upkeep got [improve-codebase](https://github.com/tomzx/agents/blob/main/skills/improve-codebase/SKILL.md), [improve-skill](https://github.com/tomzx/agents/blob/main/skills/improve-skill/SKILL.md), [sync-documentation](https://github.com/tomzx/agents/blob/main/skills/sync-documentation/SKILL.md), and [sync-opinions](https://github.com/tomzx/agents/blob/main/skills/sync-opinions/SKILL.md).
@@ -95,7 +95,7 @@ And validation of other people's changes is now covered by validate-pr and verif
 
 **Five needs from earlier months are still open.**
 
-- [Memory that agents manage automatically](https://github.com/tomzx/agents/issues/6), which I keep delaying for reasons I can't pin down.
+- [Memory that agents manage automatically](https://github.com/tomzx/agents/issues/6), which I keep delaying for reasons I can't identify.
 - The [accuracy pass on daily summaries](https://github.com/tomzx/agents/issues/5), where nothing has moved.
 - [Contextual Slack support](https://github.com/tomzx/agents/issues/4), which still has no workflow.
 - [Automated triage follow-up conversations](https://github.com/tomzx/agents/issues/14), untouched because I rarely use that skill.
@@ -114,7 +114,7 @@ For feature work, I need to figure out which SDLC steps can be safely skipped or
 The full chain is thorough but slow, and it's still unclear which steps are essential and which are ceremonial.
 
 **State tracking for an orchestrator-only llm-augmented-workflows.**
-Resolving the context-clearing need surfaced a bigger question: the engine could run as its own orchestrator instead of always anchoring on a GitHub issue.
+Resolving the context-clearing need surfaced a bigger question: the engine could run as its own orchestrator instead of always depending on a GitHub issue.
 The blocker is that without an issue to hold state, the engine needs another way to track where a run is, and I haven't decided what that state store should be.
 
 **A set of PDLC skills, mirroring the SDLC ones.**

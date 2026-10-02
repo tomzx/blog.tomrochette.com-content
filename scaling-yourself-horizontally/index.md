@@ -4,7 +4,7 @@ title: "Scaling Yourself Horizontally: Attention Does Not Scale, Leverage Does"
 created: 2026-08-25
 type: post
 status: finished
-tags: [ai, software-engineering, llm, agents, productivity, scaling, leverage, fully-ai-generated, llm=glm-5.3]
+tags: [ai, software-engineering, llm, agents, productivity, scaling, leverage, fully-ai-generated, llm=glm-5.3, llm=deepseek-v4.1-flash]
 readability: 3
 audience_notes: >
   Assumes the reader is a software engineer who already automates some of their own work and has started to wonder where their personal ceiling is. Comfortable with delegating to LLM agents; no introduction to LLMs here.
@@ -12,7 +12,7 @@ agent_sessions:
   - ses_fc86479fbffeFATCXXl5ZqLUNX
 ---
 
-Every engineer I know eventually hits the same wall: the amount of valuable queued work exceeds the hours in a day.
+Every engineer I know eventually reaches the same limit: the amount of valuable queued work exceeds the hours in a day.
 The instinct is to scale vertically, to work longer, read faster, and switch contexts harder.
 That direction has a hard ceiling, and the ceiling is low.
 **When you cannot scale vertically, you scale horizontally: you build systems that do things for you.**
@@ -22,7 +22,7 @@ The resource everyone names as the unscalable one is attention, and I want to pu
 
 Scaling vertically means adding capacity to the node itself: more hours, more speed, more skill.
 The day has twenty-four hours, working memory holds a handful of items at once, and energy refills at a fixed rate.
-You can buy maybe two or three times more effective attention by sleeping properly and working in focused blocks, which is real but constant-order.
+You can buy maybe two or three times more effective attention by sleeping properly and working in focused blocks, which is a genuine gain but constant-order.
 No amount of discipline buys a tenth of you.
 **Vertical scaling tops out around a factor of two; everything past that has to come from replication.**
 
@@ -39,7 +39,7 @@ A lint rule is a preference of yours, enforced on every change.
 A runbook is a decision procedure captured at the moment you understood the system best.
 A specification is your intent, written down once and executed against many times.
 An agent skill is a whole procedure of yours, replayable at any hour, in any number of instances.
-**A colleague you coach is the most expensive system of all, the only one that eventually outgrows your judgment.**
+**A colleague you coach is the most expensive system of all, the only one that eventually exceeds your judgment.**
 
 Andy Grove did the accounting decades ago in [High Output Management](https://en.wikipedia.org/wiki/High_Output_Management): a manager's output is the output of their organization plus the output under their influence.
 The same math applies to any engineer with systems.
@@ -49,17 +49,17 @@ The leverage accounting, as I run it today, looks like this:
 
 ![Line chart: output rises until you step away and goes flat when working alone, while with systems built once it keeps rising in your absence](images/leverage-output.svg)
 
-Building systems is an old menu: teach, hire, document, automate.
+Building systems is an old set of options: teach, hire, document, automate.
 What changed is the cost of building one.
 Teaching a person takes months and produces one system that generalizes.
 Writing an agent skill takes an afternoon and produces unlimited instances that never generalize.
-Cheap narrow systems for procedures, expensive general ones for judgment, and the current game is knowing which decisions belong in a system and which must stay with you.
-The scheduled tasks in my own repositories already work this way: triage, review, and daily curation are systems built out of decisions I once made manually, and they do not sleep.
+Cheap narrow systems for procedures, expensive general ones for judgment, and the current challenge is knowing which decisions belong in a system and which must stay with you.
+The scheduled tasks in my own repositories already work this way: triage, review, and daily curation are systems built out of decisions I once made manually, and they run continuously.
 
 ## The Most Expensive System
 
 One item on that list behaves differently from all the others.
-A person you coach is the most expensive system to build and the only one that eventually outgrows your judgment.
+A person you coach is the most expensive system to build and the only one that eventually exceeds your judgment.
 **Every other system can only replay decisions you already made, so none of them can tell you that you are wrong.**
 
 The economics push the cheap layers toward machines.
@@ -67,23 +67,23 @@ Teaching a machine your preferences takes an afternoon; teaching a person takes 
 The rote layer of teaching, conventions, procedures, mechanics, migrates to machines for the same reason generation did: the cheap system wins on cost.
 What cannot migrate is the point of the expensive one.
 A person generalizes to situations you never saw, dissents when you are wrong, and eventually holds taste decisions in your place, and no skill file does any of the three.
-**Teaching people does not disappear; it moves up, from transferring procedures to growing judgment.**
+**Teaching people does not disappear; it shifts from transferring procedures to growing judgment.**
 
 The risk runs the other direction.
-Judgment grows only through contact with real problems, and apprenticeship was where most people got that contact.
+Judgment grows only through contact with actual problems, and apprenticeship was where most people got that contact.
 If everyone teaches machines their current preferences and nobody teaches people, the supply of judgment that the next generation of systems is built from depletes.
-**Cheap systems consume the very training ground that produces the general ones.**
+**Cheap systems consume the very apprenticeship that produces the general ones.**
 
 ## So Does Attention Scale or Not?
 
-The claim I keep hearing, including from myself, is that attention is the only resource you cannot really scale.
+The claim I keep hearing, including from myself, is that attention is the only resource you cannot scale.
 Three answers, in increasing order of usefulness.
 
 In quantity, no.
-The stock is fixed: one serial consciousness, a small working memory, a day that does not extend, and a decision pipe that handles one thing at a time ([Attention Engineering](../attention-engineering/index.md) covers what that means in practice).
+The stock is fixed: one serial consciousness, a small working memory, a day that does not extend, and a decision process that handles one thing at a time ([Attention Engineering](../attention-engineering/index.md) covers what that means in practice).
 
 In quality, slightly.
-Focus, sleep, and single-tasking buy a real multiplier over a frazzled baseline.
+Focus, sleep, and single-tasking produce a genuine multiplier over a frazzled baseline.
 That factor of two is worth claiming, and almost nobody has claimed it.
 But a constant is not a curve.
 
@@ -93,7 +93,7 @@ A test attends so that you do not have to; verification substitutes for supervis
 A check written once removes a minute of checking on every future use, forever.
 A system built this year raises the return on every hour of attention you will ever spend afterward.
 The attention itself does not compound.
-The artifacts do, and the artifacts all live outside your head.
+The artifacts do, and the artifacts all exist outside your head.
 
 What never scales is the deciding itself.
 You can multiply what a moment of attention produces, but the moment of judgment, the taste call on whether a thing is good enough, stays serial and stays yours, which is [the acceptance gap](../the-acceptance-gap/index.md) restated as a scaling law.
@@ -120,7 +120,7 @@ The constraint did not disappear; it moved up to you, the textbook behavior of a
 Govern badly and you reproduce your own mistakes at machine speed, faster than any hand-made error.
 
 **The source depletes.**
-Your judgment is the raw material the systems are built from, and judgment regenerates only through contact with real problems.
+Your judgment is the raw material the systems are built from, and judgment regenerates only through contact with actual problems.
 Automate away all the doing and you cut off the supply of experience that made your systems worth building, the terminal worry of [The Shifting Bottleneck](../the-shifting-bottleneck/index.md).
 **The systems are only as good as the freshest judgment that went into them, so a slice of attention must stay spent on hands-on work even when a system could do it.**
 
@@ -136,17 +136,17 @@ Style and implementation details are preferences, and preferences belong in the 
 Read the diff itself only when the evidence is missing or the blast radius is large, the classification [The Merge Gate](../the-merge-gate/index.md) argues for.
 And when the evidence is missing, treat that absence as the review finding, rather than reconstructing the answer by reading the code.
 
-This is how one serial consciousness survives a fleet of producers.
+This is how one serial consciousness keeps up with many producers.
 You audit results and sample implementation, because the day you read every diff is the day the systems outproduce your review capacity ([You Are the Bottleneck](../you-are-the-bottleneck/index.md)).
 
 ## What to Do Next
 
 Audit the last two weeks of your work and list every recurring manual action.
-Anything done three times or more is a system waiting to be built, and the order matters: gates and skills first, one-off scripts second, docs third, memory last, because the earlier items compound and memory evaporates.
+Anything done three times or more is a system waiting to be built, and the order matters: gates and skills first, one-off scripts second, docs third, memory last, because the earlier items compound and memory does not last.
 
 Prefer systems with an oracle.
 Automate the checkable, where correctness can be tested mechanically.
-The taste decisions, whether a thing is good enough or should exist at all, have no oracle and stay yours, so give them protected time on your calendar instead of letting them be squeezed out by reviewing more output.
+The taste decisions, whether a thing is good enough or should exist at all, have no oracle and stay yours, so give them protected time on your calendar instead of letting reviewing more output crowd them out.
 
 Spend the freed attention upstream, on specifications and on deciding what should exist at all, not on reviewing more output faster.
 That reallocation is the entire point of scaling horizontally, and [You Are the Bottleneck](../you-are-the-bottleneck/index.md) is what happens when you skip it and let the systems outproduce your review capacity.

@@ -1,0 +1,21 @@
+<svg aria-labelledby="t" role="img" xmlns="http://www.w3.org/2000/svg" width="920" height="410" viewBox="0 0 920 410" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+  <title id="t">The rigged review race</title>
+  <desc>Line chart of the race. Model-assisted drafting climbs steeply while hand review crawls on a capped slope, and the shaded area between them is unread volume that grows every hour. The rule forbidding the reviewer LLM binds only the reviewer, never the producer.</desc>
+  <defs>
+    <marker markerUnits="userSpaceOnUse" id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#94a3b8"/></marker>
+    <marker markerUnits="userSpaceOnUse" id="arrRed" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#dc2626"/></marker>
+    <marker markerUnits="userSpaceOnUse" id="arrGreen" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#16a34a"/></marker>
+  </defs>
+  <rect x="0" y="0" width="920" height="410" fill="#ffffff"/>
+<line x1="90" y1="60" x2="90" y2="310" stroke="#94a3b8" stroke-width="1.5"/>
+<line x1="90" y1="310" x2="790" y2="310" stroke="#94a3b8" stroke-width="1.5"/>
+<text x="78" y="74" text-anchor="end" font-size="12" fill="#64748b">items</text>
+<text x="440.0" y="346" text-anchor="middle" font-size="12" fill="#64748b">time</text>
+<polygon points="90,290 790,84 790,160 335.0,250" fill="#fbe9e9" opacity="0.4"/>
+<path d="M 90 290 L 790 84" fill="none" stroke="#dc2626" stroke-width="2.5"/>
+<text x="782" y="104" text-anchor="end" font-size="13" fill="#dc2626">drafted with a model</text>
+<path d="M 90 286 L 335.0 250 L 790 160" fill="none" stroke="#16a34a" stroke-width="2.5" stroke-dasharray="7 5"/>
+<text x="782" y="182" text-anchor="end" font-size="13" fill="#16a34a">reviewed by hand, capped</text>
+<text x="496.0" y="270" text-anchor="middle" font-size="12" font-style="italic" fill="#dc2626">unread volume grows every hour</text>
+<text x="440.0" y="374" text-anchor="middle" font-size="12" fill="#64748b">the rule forbids the reviewer LLM, so it binds only the reader, never the producer</text>
+</svg>

@@ -1,0 +1,26 @@
+<svg aria-labelledby="t" role="img" xmlns="http://www.w3.org/2000/svg" width="936" height="364" viewBox="0 0 936 364" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+  <title id="t">The shifting bottleneck</title>
+  <desc>A staircase of constraints. Code production is automated, so the bottleneck relocates to verification. Verification is solved, so it relocates to feature selection. Feature selection is solved, so what deserves to exist at all becomes the frontier.</desc>
+  <defs>
+    <marker markerUnits="userSpaceOnUse" id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#94a3b8"/></marker>
+    <marker markerUnits="userSpaceOnUse" id="arrRed" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#dc2626"/></marker>
+    <marker markerUnits="userSpaceOnUse" id="arrGreen" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#16a34a"/></marker>
+  </defs>
+  <rect x="0" y="0" width="936" height="364" fill="#ffffff"/>
+<rect x="60" y="250" width="190" height="54" rx="8" fill="#e9effd" stroke="#2563eb" stroke-width="1.5"/>
+<text x="155.0" y="274.0" text-anchor="middle" font-size="13" font-weight="normal" fill="#0f172a">Code production</text>
+<text x="155.0" y="294" text-anchor="middle" font-size="11" font-style="italic" fill="#64748b">automated</text>
+<line x1="254" y1="271.0" x2="272" y2="224" stroke="#94a3b8" stroke-width="1.8" marker-end="url(#arr)"/>
+<rect x="280" y="194" width="190" height="54" rx="8" fill="#e9effd" stroke="#2563eb" stroke-width="1.5"/>
+<text x="375.0" y="218.0" text-anchor="middle" font-size="13" font-weight="normal" fill="#0f172a">Verification</text>
+<text x="375.0" y="238" text-anchor="middle" font-size="11" font-style="italic" fill="#64748b">solved</text>
+<line x1="474" y1="215.0" x2="492" y2="168" stroke="#94a3b8" stroke-width="1.8" marker-end="url(#arr)"/>
+<rect x="500" y="138" width="190" height="54" rx="8" fill="#e9effd" stroke="#2563eb" stroke-width="1.5"/>
+<text x="595.0" y="162.0" text-anchor="middle" font-size="13" font-weight="normal" fill="#0f172a">Feature selection</text>
+<text x="595.0" y="182" text-anchor="middle" font-size="11" font-style="italic" fill="#64748b">solved</text>
+<line x1="694" y1="159.0" x2="712" y2="112" stroke="#94a3b8" stroke-width="1.8" marker-end="url(#arr)"/>
+<rect x="720" y="82" width="190" height="54" rx="8" fill="#e7f6ed" stroke="#16a34a" stroke-width="1.5"/>
+<text x="815.0" y="106.0" text-anchor="middle" font-size="13" font-weight="normal" fill="#0f172a">What deserves to exist</text>
+<text x="815.0" y="126" text-anchor="middle" font-size="11" font-style="italic" fill="#64748b">the frontier</text>
+<text x="460" y="334" text-anchor="middle" font-size="12" fill="#64748b">the constraint never disappears, it moves to the next step</text>
+</svg>

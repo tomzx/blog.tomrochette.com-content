@@ -1,0 +1,22 @@
+<svg aria-labelledby="t" role="img" xmlns="http://www.w3.org/2000/svg" width="920" height="360" viewBox="0 0 920 360" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+  <title id="t">Output over time with and without systems</title>
+  <desc>Line chart. Working alone, output rises until you step away, then goes flat. With systems, gates, skills, and agents built once, output keeps rising in your absence, and the gap between the lines is the work produced without you.</desc>
+  <defs>
+    <marker markerUnits="userSpaceOnUse" id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#94a3b8"/></marker>
+    <marker markerUnits="userSpaceOnUse" id="arrRed" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#dc2626"/></marker>
+    <marker markerUnits="userSpaceOnUse" id="arrGreen" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#16a34a"/></marker>
+  </defs>
+  <rect x="0" y="0" width="920" height="360" fill="#ffffff"/>
+<line x1="90" y1="60" x2="90" y2="280" stroke="#94a3b8" stroke-width="1.5"/>
+<line x1="90" y1="280" x2="850" y2="280" stroke="#94a3b8" stroke-width="1.5"/>
+<text x="78" y="74" text-anchor="end" font-size="12" fill="#64748b">output</text>
+<text x="470.0" y="320" text-anchor="middle" font-size="12" fill="#64748b">calendar time</text>
+<line x1="508.00000000000006" y1="60" x2="508.00000000000006" y2="280" stroke="#cbd5e1" stroke-width="1" stroke-dasharray="4 5"/>
+<text x="508.00000000000006" y="52" text-anchor="middle" font-size="12" font-style="italic" fill="#64748b">you step away</text>
+<path d="M 90 250 L 508.00000000000006 100" fill="none" stroke="#dc2626" stroke-width="2.5"/>
+<path d="M 508.00000000000006 100 L 850 102" fill="none" stroke="#dc2626" stroke-width="2.5" stroke-dasharray="6 5"/>
+<text x="840" y="118" text-anchor="end" font-size="13" fill="#dc2626">me alone</text>
+<path d="M 90 260 L 508.00000000000006 130 L 850 66" fill="none" stroke="#16a34a" stroke-width="2.5"/>
+<text x="522.0" y="152" font-size="13" fill="#16a34a">me + systems, gates, skills, agents</text>
+<text x="679.0" y="190" text-anchor="middle" font-size="12" font-style="italic" fill="#16a34a">produced in my absence</text>
+</svg>

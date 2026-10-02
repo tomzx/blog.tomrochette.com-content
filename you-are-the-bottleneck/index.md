@@ -4,7 +4,7 @@ title: "You Are the Bottleneck: What to Do When Your Coworker's LLMs Outproduce 
 created: 2026-08-19
 type: post
 status: finished
-tags: [ai, software-engineering, code-review, llm, pull-request, productivity, fully-ai-generated, llm=glm-5.3]
+tags: [ai, software-engineering, code-review, llm, pull-request, productivity, fully-ai-generated, llm=glm-5.3, llm=deepseek-v4.1-flash]
 readability: 3
 audience_notes: >
   Assumes the reader works on a team where a colleague generates LLM-assisted pull requests faster than anyone can review them, and knows how pull requests and CI work. No introduction to LLMs.
@@ -14,7 +14,7 @@ agent_sessions:
 
 Your coworker opens pull requests faster than you can read them.
 Every morning the queue is longer than when you left.
-Their work piles up behind your name, and everyone can see whose approval is missing.
+Their work accumulates behind your name, and everyone can see whose approval is missing.
 **You are not the bottleneck.**
 **The process that routes every change through one human reader is the bottleneck, and no amount of reading faster will fix it.**
 
@@ -27,7 +27,7 @@ The gap is the new steady state, and it needs a structural answer from both side
 
 Review is a queue.
 Changes arrive at your coworker's production rate and leave at your review rate.
-When arrival exceeds service, the queue grows without bound, which is the whole story of your inbox.
+When arrival exceeds service, the queue grows without bound, which is what happens to your inbox.
 
 The failure is one queue with a single server:
 
@@ -35,23 +35,23 @@ The failure is one queue with a single server:
 
 The instinctive response is to raise your service rate: read faster, review longer hours, take fewer breaks.
 Queueing theory says why that response fails even when it works.
-[Kingman's formula](https://en.wikipedia.org/wiki/Kingman%27s_formula) says that waiting time grows with variability divided by spare capacity, so as your utilization approaches one hundred percent, waits explode nonlinearly.
+[Kingman's formula](https://en.wikipedia.org/wiki/Kingman%27s_formula) says that waiting time grows with variability divided by spare capacity, so as your utilization approaches one hundred percent, waits increase nonlinearly.
 A reviewer at eighty percent capacity has a manageable queue.
 The same reviewer at ninety-seven percent, which is what "keeping up" actually demands, has waits measured in days.
-**A process that only functions when you are never tired, never in a meeting, and never sick is not a process; it is a countdown.**
+**A process that only functions when you are never tired, never in a meeting, and never sick is not a process; it is a delayed failure.**
 
-There is a second failure hiding behind the first.
+There is a second failure that follows the first.
 An overloaded reviewer does not stop reviewing, the reviewer degrades first.
 You skim.
 You approve what the tests already cover.
 You rubber-stamp the fourth pull request of the evening.
-**The queue does not just grow, it silently stops protecting anything, because code merged by a rubber stamp feels reviewed without being reviewed.**
+**The queue does not just grow, it silently stops protecting anything, because code merged by a rubber stamp appears reviewed without being reviewed.**
 Rubber-stamped merges are worse than a visible backlog: the backlog at least admits the work is not being checked.
 
 ## The Reframe
 
-The useful lens here is the [theory of constraints](https://en.wikipedia.org/wiki/Theory_of_constraints).
-A system's throughput is set by its constraint, and the prescribed moves are to exploit the constraint (spend constraint time only on work only the constraint can do), elevate the constraint (add capacity or automation), and subordinate everything else to the constraint (upstream steps keep the constraint fed with work worth its time).
+The useful way to look at this is the [theory of constraints](https://en.wikipedia.org/wiki/Theory_of_constraints).
+A system's constraint sets its throughput, and the prescribed moves are to exploit the constraint (spend constraint time only on work only the constraint can do), elevate the constraint (add capacity or automation), and subordinate everything else to the constraint (upstream steps keep the constraint fed with work worth its time).
 
 Read that list again with names attached.
 The constraint is you.
@@ -69,7 +69,7 @@ When generation is cheap, producing more changes is trivial and producing mergea
 **Your coworker's job is no longer to produce changes; the job is to produce changes that are cheap to say yes to.**
 
 Measure time-to-merge, not pull requests opened.
-A pull request that sits for a week is not output, it is inventory, and inventory that waits long enough rots into rebase conflicts and stale specs.
+A pull request that sits for a week is not output, it is inventory, and inventory that waits long enough turns into rebase conflicts and stale specs.
 
 Concretely, every pull request should arrive with four things.
 
@@ -84,7 +84,7 @@ Evidence converts your review from "verify by hand" to "check the verification",
 
 **An annotation of the risk.**
 A self-review pass that flags the dangerous hunks, states the blast radius, and says which parts the coworker is unsure about.
-The risk annotation is the single highest-leverage habit of the four, because it tells you where your scarce attention belongs and proves a human actually read the output before demanding that you do.
+The risk annotation is the single most effective habit of the four, because it tells you where your scarce attention belongs and proves a human actually read the output before demanding that you do.
 
 **A summary that enables a thirty-second judgment.**
 What changed, why, what could break, how to roll it back.
@@ -93,7 +93,7 @@ Beyond per-PR discipline, two structural commitments matter more.
 
 **Respect a work-in-progress limit.**
 At most two or three open pull requests at a time.
-When the cap is reached, the surplus capacity goes to writing tests, improving gates, and sharpening the next spec, not to opening a fourth PR that will age out in the queue.
+When the cap is reached, the surplus capacity goes to writing tests, improving gates, and refining the next spec, not to opening a fourth PR that will age out in the queue.
 **The most productive use of a fast producer's spare time is reducing the review burden itself: gates, encoded conventions, and tooling that make every future change cheaper to judge, not just the producer's own.**
 
 **Stay attached after merge.**
@@ -106,7 +106,7 @@ Your side of the contract is to stop being a per-diff reader and become the desi
 **Classify instead of read.**
 A README typo and a schema migration are both pull requests and do not need the same gate.
 Compute blast radius and reversibility per change, auto-merge the low-risk class on green, and hold only the risky minority for human eyes.
-The majority of a flood is routine, and routine work is what machines are for.
+The majority of what arrives is routine, and routine work is what machines are for.
 
 **Encode your recurring comments.**
 Every review comment you have written more than twice is a gate you have not built yet.

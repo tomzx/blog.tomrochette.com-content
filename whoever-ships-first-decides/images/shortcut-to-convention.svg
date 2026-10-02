@@ -1,0 +1,60 @@
+<svg aria-labelledby="t" role="img" xmlns="http://www.w3.org/2000/svg" width="936" height="310" viewBox="-16 0 936 310" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+  <title id="t">From shipped shortcut to defended convention</title>
+  <desc>A one-way timeline. A shortcut shipped under a deadline becomes the default version, other people copy it, the exception becomes the convention, and defending it becomes the team&#x27;s default position. The ratchet only turns one way.</desc>
+  <defs>
+    <marker markerUnits="userSpaceOnUse" id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#94a3b8"/></marker>
+    <marker markerUnits="userSpaceOnUse" id="arrRed" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#dc2626"/></marker>
+    <marker markerUnits="userSpaceOnUse" id="arrGreen" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#16a34a"/></marker>
+  </defs>
+  <rect x="-16" y="0" width="936" height="310" fill="#ffffff"/>
+<rect x="8" y="84" width="184" height="72" rx="8" fill="#ffffff" stroke="#2563eb" stroke-width="1.5"/>
+<rect x="8" y="84" width="184" height="34" rx="8" fill="#e9effd" stroke="#2563eb" stroke-width="1.5"/>
+<rect x="9" y="110" width="182" height="8" fill="#e9effd" stroke="none"/>
+<text x="100.0" y="106" text-anchor="middle" font-size="14" font-weight="bold" fill="#0f172a">Shortcut ships</text>
+<circle cx="26" cy="136" r="2.5" fill="#2563eb"/>
+<text x="36" y="140.0" text-anchor="start" font-size="13" font-weight="normal" fill="#0f172a">under deadline</text>
+<line x1="100" y1="156" x2="100" y2="177" stroke="#94a3b8" stroke-width="1.2"/>
+<circle cx="100" cy="182" r="5" fill="#2563eb"/>
+<path d="M 114 173 l 9 9 l -9 9" fill="none" stroke="#cbd5e1" stroke-width="1.5"/>
+<rect x="173" y="208" width="184" height="72" rx="8" fill="#ffffff" stroke="#2563eb" stroke-width="1.5"/>
+<rect x="173" y="208" width="184" height="34" rx="8" fill="#e9effd" stroke="#2563eb" stroke-width="1.5"/>
+<rect x="174" y="234" width="182" height="8" fill="#e9effd" stroke="none"/>
+<text x="265.0" y="230" text-anchor="middle" font-size="14" font-weight="bold" fill="#0f172a">Becomes</text>
+<circle cx="191" cy="260" r="2.5" fill="#2563eb"/>
+<text x="201" y="264.0" text-anchor="start" font-size="13" font-weight="normal" fill="#0f172a">the default</text>
+<text x="201" y="282.9" text-anchor="start" font-size="13" font-weight="normal" fill="#0f172a">version</text>
+<line x1="265" y1="208" x2="265" y2="187" stroke="#94a3b8" stroke-width="1.2"/>
+<circle cx="265" cy="182" r="5" fill="#2563eb"/>
+<path d="M 279 173 l 9 9 l -9 9" fill="none" stroke="#cbd5e1" stroke-width="1.5"/>
+<rect x="338" y="84" width="184" height="72" rx="8" fill="#ffffff" stroke="#2563eb" stroke-width="1.5"/>
+<rect x="338" y="84" width="184" height="34" rx="8" fill="#e9effd" stroke="#2563eb" stroke-width="1.5"/>
+<rect x="339" y="110" width="182" height="8" fill="#e9effd" stroke="none"/>
+<text x="430.0" y="106" text-anchor="middle" font-size="14" font-weight="bold" fill="#0f172a">Others copy</text>
+<circle cx="356" cy="136" r="2.5" fill="#2563eb"/>
+<text x="366" y="140.0" text-anchor="start" font-size="13" font-weight="normal" fill="#0f172a">the shortcut</text>
+<line x1="430" y1="156" x2="430" y2="177" stroke="#94a3b8" stroke-width="1.2"/>
+<circle cx="430" cy="182" r="5" fill="#2563eb"/>
+<path d="M 444 173 l 9 9 l -9 9" fill="none" stroke="#cbd5e1" stroke-width="1.5"/>
+<rect x="503" y="208" width="184" height="72" rx="8" fill="#ffffff" stroke="#dc2626" stroke-width="1.5"/>
+<rect x="503" y="208" width="184" height="34" rx="8" fill="#fbe9e9" stroke="#dc2626" stroke-width="1.5"/>
+<rect x="504" y="234" width="182" height="8" fill="#fbe9e9" stroke="none"/>
+<text x="595.0" y="230" text-anchor="middle" font-size="14" font-weight="bold" fill="#0f172a">The exception becomes</text>
+<circle cx="521" cy="260" r="2.5" fill="#dc2626"/>
+<text x="531" y="264.0" text-anchor="start" font-size="13" font-weight="normal" fill="#0f172a">the convention</text>
+<line x1="595" y1="208" x2="595" y2="187" stroke="#94a3b8" stroke-width="1.2"/>
+<circle cx="595" cy="182" r="5" fill="#dc2626"/>
+<path d="M 609 173 l 9 9 l -9 9" fill="none" stroke="#cbd5e1" stroke-width="1.5"/>
+<rect x="668" y="84" width="184" height="72" rx="8" fill="#ffffff" stroke="#dc2626" stroke-width="1.5"/>
+<rect x="668" y="84" width="184" height="34" rx="8" fill="#fbe9e9" stroke="#dc2626" stroke-width="1.5"/>
+<rect x="669" y="110" width="182" height="8" fill="#fbe9e9" stroke="none"/>
+<text x="760.0" y="106" text-anchor="middle" font-size="14" font-weight="bold" fill="#0f172a">Defending it is</text>
+<circle cx="686" cy="136" r="2.5" fill="#dc2626"/>
+<text x="696" y="140.0" text-anchor="start" font-size="13" font-weight="normal" fill="#0f172a">the default</text>
+<text x="696" y="158.8" text-anchor="start" font-size="13" font-weight="normal" fill="#0f172a">position</text>
+<line x1="760" y1="156" x2="760" y2="177" stroke="#94a3b8" stroke-width="1.2"/>
+<circle cx="760" cy="182" r="5" fill="#dc2626"/>
+<line x1="50" y1="182" x2="878" y2="182" stroke="#94a3b8" stroke-width="2" marker-end="url(#arr)"/>
+<text x="872" y="278" text-anchor="end" font-size="12" font-style="italic" fill="#64748b">time</text>
+<text x="60" y="48" font-size="14" font-weight="bold" fill="#0f172a">The ratchet only turns one way</text>
+<text x="60" y="70" font-size="12" fill="#64748b">no station offers a step back; unwinding costs more than shipping it did</text>
+</svg>

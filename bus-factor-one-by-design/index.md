@@ -4,7 +4,7 @@ title: "Bus Factor One by Design"
 created: 2026-08-22
 type: post
 status: finished
-tags: [ai, software-engineering, llm, agents, team-management, ownership, fully-ai-generated, llm=ox-alpha, llm=glm-5.3]
+tags: [ai, software-engineering, llm, agents, team-management, ownership, fully-ai-generated, llm=ox-alpha, llm=glm-5.3, llm=deepseek-v4.1-flash]
 readability: 3
 audience_notes: >
   Assumes the reader works in or leads a software organization, knows the term bus factor, and has felt the pull of one-person ownership in the agent era. No management theory background required.
@@ -12,21 +12,21 @@ agent_sessions:
   - ses_fd873033dffejb7EeWRkxMUUFj
 ---
 
-Picture a company where every system belongs to exactly one person.
-No colleague reviews their changes, no meeting syncs anyone on what they built, and no second person carries the context needed to touch it.
-A few years ago that description would have read as negligence.
-Today it reads like an efficiency proposal, because agents have absorbed most of what colleagues used to contribute during implementation.
+Consider a company where every system belongs to exactly one person.
+No colleague reviews their changes, no meeting brings anyone up to date on what they built, and no second person has the context needed to work on it.
+A few years ago that description would have been called negligence.
+Today people describe it as an efficiency proposal, because agents now do most of what colleagues used to contribute during implementation.
 **The model can work, but only for companies that answer one question before adopting it: what happens when the owner goes on vacation, or quits?**
 
 ## Why Single-Owner Systems Are Coming
 
-The economics of coordination flipped before the model did.
-[Brooks counted it in 1975](https://en.wikipedia.org/wiki/The_Mythical_Man-Month): n people create n(n-1)/2 communication channels, and every channel taxes alignment.
-When implementation was expensive, that tax bought reliability, because colleagues caught each other's mistakes while catching up on context.
-Now agents produce the code and verification pipelines judge it, so [human review of generated changes](../rethinking-code-review-in-the-age-of-llms/index.md) has become the lowest-leverage gate in the loop, and the specification replaces the meeting as the unit of coordination.
-What remains of the channel tax is mostly cost.
+The economics of coordination changed before the model did.
+[Brooks counted it in 1975](https://en.wikipedia.org/wiki/The_Mythical_Man-Month): n people create n(n-1)/2 communication channels, and every channel adds a cost to alignment.
+When implementation was expensive, that cost produced reliability, because colleagues caught each other's mistakes while catching up on context.
+Now agents produce the code and verification pipelines judge it, so [human review of generated changes](../rethinking-code-review-in-the-age-of-llms/index.md) has become the least valuable step in the process, and the specification replaces the meeting as the unit of coordination.
+What remains of the channel cost is mostly expense.
 
-Against that cost, a single owner buys three things teams struggle to produce at any price.
+Against that cost, a single owner provides three things that teams struggle to produce otherwise.
 Coherence, because one taste decides every abstraction instead of a committee averaging its members.
 Speed, because nothing waits on sync.
 Accountability, because when something breaks there is exactly one person who answers for it.
@@ -38,21 +38,21 @@ The difference is that companies now have an economic reason to stop pretending 
 
 ## The Question Hides an Assumption
 
-"What if nobody else knows the system?" assumes knowledge lives in heads.
+"What if nobody else knows the system?" assumes knowledge is stored in people's memory.
 For most of software history it did, because writing it down served nobody's daily work.
-Documentation rotted because the only people able to maintain it were busy maintaining the system.
+Documentation went out of date because the only people able to maintain it were busy maintaining the system.
 
 Agents change the cost of the alternative.
-Decision records, runbooks, architecture maps, and executable specifications can now be produced and refreshed continuously as a byproduct of the work itself.
-The fleet that builds the system keeps its own paper trail current, the same way CI keeps tests green.
+Agents can now produce and refresh decision records, runbooks, architecture maps, and executable specifications continuously as a byproduct of the work itself.
+The agents that build the system keep its documentation current, the same way CI keeps tests green.
 
 **The metric stops being how many heads know the system and becomes how fast a competent outsider plus their agents can re-acquire it from artifacts alone.**
 Call it re-acquisition time.
 Bus factor measured the redundancy of memory.
 Re-acquisition time measures the recoverability of understanding.
 
-That inversion is why the model deserves a fair hearing.
-**A team of five who never write anything down can be harder to take over than a single owner whose repository documents itself, because five heads of unspoken context is just bus factor five with better manners.**
+That inversion is why the model deserves serious consideration.
+**A team of five who never write anything down can be harder to take over than a single owner whose repository documents itself, because five people holding unspoken context is still bus factor five, just less obvious.**
 
 ## How a Company Runs on Owners of One
 
@@ -60,7 +60,7 @@ The mechanisms are organizational, not technical.
 
 **Ownership is conditional on legibility.**
 An owner keeps the system as long as it stays handover-ready without them.
-Definition of done includes the artifacts: tests that read like specifications, decision records with alternatives considered, runbooks, an architecture map that reflects reality.
+Definition of done includes the artifacts: tests written as specifications, decision records with alternatives considered, runbooks, an architecture map that reflects reality.
 Agents draft and refresh these continuously, so legibility stops being a chore and becomes a property of the pipeline.
 Think of it as [source code escrow](https://en.wikipedia.org/wiki/Source_code_escrow) applied to understanding rather than code: the company holds the knowledge outside the person who operates it.
 
@@ -70,7 +70,7 @@ During it, another engineer plus their agents must handle incidents and ship one
 Score the takeover and publish the time it took.
 The drill is chaos engineering applied to the org chart: you inject failure into the ownership layer while the stakes are a minor feature, not a resignation letter.
 
-The drill is a script, and it reads best written as one:
+Here is the drill written as a script:
 
 ```mermaid
 sequenceDiagram
@@ -88,7 +88,7 @@ sequenceDiagram
 
 **Redundancy spend follows blast radius.**
 Not every internal script deserves a second person.
-Classify systems by blast radius and cap how much revenue-critical surface may exceed a re-acquisition threshold, say two weeks.
+Classify systems by blast radius and cap how many revenue-critical systems may exceed a re-acquisition threshold, say two weeks.
 This is portfolio management: concentrate risk where you choose, hedge where loss would be unrecoverable, and know which is which.
 
 **Succession is scheduled, not emergent.**
@@ -97,36 +97,36 @@ For the few systems whose takeover would hurt most, name a shadow owner who runs
 The handoff paragraph from [Solo Is a Team Size](../solo-is-a-team-size/index.md) (what the system is, why it exists, who inherits it) becomes a required field in the service registry rather than advice for solo operators.
 
 **Incentives reward survivable systems.**
-Promotion criteria should include "your system passed your absence", and managers should treat "only I can touch this" as a liability, not leverage.
+Promotion criteria should include "your system passed your absence", and managers should treat "only I can touch this" as a liability, not an advantage.
 The irreplaceable engineer is not an asset the company enjoys; it is concentrated risk the company funds.
 Pay people to make themselves unnecessary and indispensability stops being a career strategy.
 
 ## What Still Does Not Transfer
 
-Some knowledge refuses to become artifacts.
-Taste, the reasons the roadmap bends where it does, the history of a negotiation with a key customer: deliberation leaves traces but rarely conclusions.
+Some knowledge does not become artifacts.
+Taste, the reasons the roadmap takes the direction it does, the history of a negotiation with a key customer: deliberation leaves traces but rarely conclusions.
 
 Two habits keep more of it from escaping.
-Record rationale at decision time, while the alternatives are still alive, because a decision record written six months later is fiction.
-Occasionally have the owner defend direction to a peer: not the code, the choices, so judgment gets exercised against a counterparty instead of staying inside one person's head.
+Record rationale at decision time, while you still remember the alternatives, because a decision record written six months later will be inaccurate.
+Occasionally have the owner defend direction to a peer: not the code, the choices, so judgment gets exercised against a counterparty instead of remaining private to one person.
 
 Then accept what remains.
-Some re-acquisition friction is irreducible, the same way some latency is.
+Some re-acquisition cost is irreducible, the same way some latency is.
 Budget it like depreciation rather than promising zero, and nobody gets surprised when a departure costs three weeks instead of none.
 
 ## What to Do Next
 
 Pick your most critical system and measure its re-acquisition time this month.
 Hand it to another competent engineer plus their agents with a scoped feature request and no access to the owner.
-Whatever number comes back is your real exposure, and it is almost certainly larger than management believes.
+Whatever number comes back is your actual exposure, and it is almost certainly larger than management believes.
 
 Set thresholds by blast radius and drill vacations against everything above them.
 Change one line of promotion criteria to reward owners whose systems survive their absence.
-And when someone next argues a system needs a second head, ask whether they mean memory redundancy, which agents and artifacts now supply cheaply, or judgment redundancy, which only a second person supplies.
+And when someone next argues a system needs a second person, ask whether they mean memory redundancy, which agents and artifacts now supply cheaply, or judgment redundancy, which only a second person supplies.
 **The first is solved; budget for the second only where the stakes are directional.**
 
 A company can run on owners of one indefinitely.
-What it cannot survive is letting knowledge live in only one place.
+What it cannot survive is letting knowledge exist in only one place.
 **People operate the systems, the artifacts are the asset, and the company's job is to keep the asset independent of any operator, including the ones it wishes it could keep forever.**
 
 ## See also

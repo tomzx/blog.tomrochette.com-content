@@ -4,7 +4,7 @@ title: "Distributed Product Management: Cheap to Decide, Costly to Undo"
 created: 2026-08-06
 type: post
 status: finished
-tags: [product-management, software-engineering, ai, llm, decision-making, team-management, fully-ai-generated, llm=glm-5.2, llm=glm-5.3]
+tags: [product-management, software-engineering, ai, llm, decision-making, team-management, fully-ai-generated, llm=glm-5.2, llm=glm-5.3, llm=deepseek-v4.1-flash]
 readability: 3
 audience_notes: >
   Assumes the reader is an engineer, tech lead, or engineering manager on a team where there is no dedicated product owner and engineers set product direction themselves. No formal product-management background required.
@@ -14,7 +14,7 @@ agent_sessions:
 
 Distributed product management is what happens when there is no dedicated product owner, and the people building the product also decide what the product should be.
 Each engineer, or each small team, makes product calls inside their own area, and those calls aggregate into the product without anyone coordinating the whole.
-**The arrangement removes a real bottleneck, the single product manager, and it removes something less obvious at the same time: the friction that used to force independent decisions to agree with each other.
+**The arrangement removes a genuine bottleneck, the single product manager, and it removes something less obvious at the same time: the friction that used to force independent decisions to agree with each other.
 In the age of LLMs that friction is already gone, which is why a structure that used to be merely risky has become quietly destructive.**
 
 ## What Distributed Product Management Actually Is
@@ -33,7 +33,7 @@ In all of these, the same property holds.
 
 ## The Case For It
 
-The merits are real, and I do not want to understate them, because they explain why the arrangement is so common.
+The merits are genuine, and I do not want to understate them, because they explain why the arrangement is so common.
 
 **It removes a genuine bottleneck.**
 A single product manager is a single point of coordination.
@@ -41,8 +41,8 @@ When they are slow, blocked, or absent, the whole team waits.
 When there is no owner in the path, decisions move at the speed of engineering.
 
 **Decisions sit with the people closest to the problem.**
-The engineer implementing the feature usually has more context about the technical reality and the user's actual behavior than a product owner who learned the domain second-hand.
-Moving the decision to where the context already lives avoids a translation step, and it avoids the gap between a spec and what the spec was supposed to mean.
+The engineer implementing the feature usually has more context about the technical reality and the user's actual behavior than a product owner who learned the domain indirectly.
+Moving the decision to the people who already have the context avoids a translation step, and it avoids the gap between a spec and what the spec was supposed to mean.
 
 **Ownership produces motivation.**
 People who decide what they work on care about the work in a way that people handed a task do not, a cost I have felt directly [in finishing work I did not choose](../the-cost-of-work-you-did-not-choose/index.md).
@@ -58,7 +58,7 @@ Together they explain why the structure keeps reappearing, and why it often work
 
 ## The Case Against It
 
-The problems are also real, and they take longer to show up, which is why they are consistently underestimated.
+The problems are also genuine, and they take longer to show up, which is why they are consistently underestimated.
 
 **The product loses coherence.**
 A product is a system of decisions that have to agree with each other.
@@ -98,7 +98,7 @@ Here is the part that has changed.
 The friction that used to keep distributed product management tolerable was the cost of implementation.
 Building a feature took days or weeks, and that cost forced a conversation before the work started.
 An engineer who wanted to ship something had to justify the time, coordinate with the people whose work it touched, and get the change reviewed.
-The friction was accidental, but it was doing useful work: it throttled the rate at which independent decisions could accumulate.
+The friction was accidental, but it had a useful effect: it throttled the rate at which independent decisions could accumulate.
 
 LLMs have removed that friction.
 An engineer who wants to ship a feature can now spec it, generate it, and open a pull request in an afternoon, without asking anyone whether the feature should exist.
@@ -153,11 +153,11 @@ Diagnosing which set is causing the pain is more useful than arguing about wheth
 
 ## What to Do Next
 
-If your team operates without a dedicated product owner and the product is starting to feel like a patchwork, a few concrete moves help.
+If your team operates without a dedicated product owner and the product is becoming inconsistent, a few concrete moves help.
 
 **Write the product direction down, in one place, and keep it current.**
-This is the single highest-leverage action, and it is the same lesson as [breaking the scope relitigation cycle](../when-a-closed-decision-reopens/index.md): a direction that lives in heads cannot survive contact with the next person or the next quarter.
-A short, written north star, the milestones you are committing to now, and the constraints that forced the compromise, give distributed decisions something to check themselves against.
+This is the single highest-leverage action, and it is the same lesson as [breaking the scope relitigation cycle](../when-a-closed-decision-reopens/index.md): a direction that is not written down cannot outlast the next person or the next quarter.
+A short, written statement of direction, the milestones you are committing to now, and the constraints that forced the compromise, give distributed decisions something to check themselves against.
 Without it, every engineer is optimizing for a slightly different product that exists only in their head.
 
 **Separate the two questions explicitly.**
@@ -169,13 +169,13 @@ The role matters less than the fact that someone owns it.
 **Encode product-level invariants the way you encode engineering conventions.**
 The teams that keep coherence without a full-time owner are the ones that have externalized their standards into a form the work has to satisfy: style guides for the product surface, principles for which features are in scope, a definition of what the product is not.
 This is the same mechanism that lets a mature team [scale its conventions into the model](../bringing-everyone-to-the-same-level/index.md).
-A convention in a head is advice that gets ignored.
+A convention that is not written down is advice that gets ignored.
 A convention in a written principle is a constraint that gets enforced.
 
 **Keep a thin, intent-level review for product decisions, as a backstop and not a bottleneck.**
 The point is not to gate every change.
 The point is to catch the small fraction of changes that are individually reasonable and collectively incoherent, the second implementation of an existing feature, the new pattern that contradicts the established one, the locally optimal choice that breaks a global invariant.
-This is the product equivalent of the intent check I keep on [LLM-generated code](../rethinking-code-review-in-the-age-of-llms/index.md): light by default, held back for the changes that carry real risk.
+This is the product equivalent of the intent check I keep on [LLM-generated code](../rethinking-code-review-in-the-age-of-llms/index.md): light by default, held back for the changes that carry genuine risk.
 
 **Reallocate the time you saved on implementation into judgment.**
 The instinct, once implementation is cheap, is to ship more.
@@ -185,11 +185,11 @@ Time spent on problem selection and direction now buys more than time spent on e
 ## The Dedicated Owner's Job Was Coherence
 
 Distributed product management is not wrong.
-It removes a real bottleneck, it puts decisions close to the context, and it scales without growing an organization.
+It removes a genuine bottleneck, it puts decisions close to the context, and it scales without growing an organization.
 The mistake is concluding that because the dedicated owner was unnecessary, the thing the owner was doing is also unnecessary.
 
 It was not.
-The owner's real job was coherence: holding the whole product in one head, killing the features that did not fit, and choosing the global over the local when the two disagreed.
+The owner's actual job was coherence: understanding the whole product, killing the features that did not fit, and choosing the global over the local when the two disagreed.
 Remove the person and you still have to keep the function, or accept that the product will be built faster than anyone can keep it coherent.
 
 **In an era when a product decision costs an afternoon and its consequences last for years, the scarce resource is no longer the ability to decide.

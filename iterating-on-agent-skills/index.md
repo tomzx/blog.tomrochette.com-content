@@ -4,7 +4,7 @@ title: "Iterating on Agent Skills: The Loop That Keeps Them Improving"
 created: 2026-08-16
 type: post
 status: draft
-tags: [ai, llm, agent-skills, workflow, skills, software-engineering, fully-ai-generated, llm=glm-5.2, llm=glm-5.3]
+tags: [ai, llm, agent-skills, workflow, skills, software-engineering, fully-ai-generated, llm=glm-5.2, llm=glm-5.3, llm=deepseek-v4.1-flash]
 readability: 3
 audience_notes: >
   Assumes the reader already writes or maintains agent skills (a SKILL.md or similar) inside a coding agent like OpenCode, Cursor, or Claude Code, and has shipped at least one skill they no longer touch. No introduction to what an LLM is or what a skill is.
@@ -37,7 +37,7 @@ Six months after writing the skill, you know a shorter, cleaner way to express t
 [Keeping Up With AI Is a Losing Strategy](../keeping-up-with-ai/index.md) makes the same argument about filters: the asset you built at the last model generation may be miscalibrated for the current generation, and you will not notice because the failure is silent.
 Skills fail silently the same way.
 The agent still produces output.
-The output is just a little more wrong, a little more verbose, a little more off, and you compensate for the drift in your head without ever feeding the fix back into the file.
+The output is just a little more wrong, a little more verbose, a little more off, and you compensate for the drift in your head without ever writing the fix back into the file.
 
 ## The loop
 
@@ -69,7 +69,7 @@ The hand fix is the failure mode, because the next run will produce the same bad
 I do not keep failure notes, and I do not stop to work out what went wrong.
 When the agent produces something I have to correct, I open a new agent session and explain what happened: the bad output, what I expected instead, and which skill produced the run.
 The explanation is the whole capture.
-Explaining takes a minute, needs no template, and the session holds the failure so my head does not have to.
+Explaining takes a minute, needs no template, and the session holds the failure so I do not have to remember it.
 
 **The rule is simple: if I had to correct the output, the skill has to hear about the correction.**
 
@@ -80,7 +80,7 @@ Both rules turn a private, forgettable moment into a durable, improvable artifac
 
 ### 2. Explain it to a fresh session
 
-The session has to be new, and the newness is doing real work.
+The session has to be new, and the newness does useful work.
 The session that produced the bad output is the worst investigator of the bad output, because the agent in that session is attached to the reasoning that went wrong.
 A fresh session reads the skill the way a new maintainer would, with no stake in the run that failed.
 
@@ -139,8 +139,8 @@ A patched skill is another hypothesis, and a hypothesis that is not tested is a 
 The cheapest verification is to re-run the skill against the run that failed, and to read the new output for the specific problem the session was asked to fix.
 If the explanation captured the failure well, the check takes a minute.
 
-For skills whose output can render, the pattern from [Teach Your Agent Skills to Use Tools That Render](../agent-skills-that-render/index.md) pays for itself here.
-A skill that emits a diagram, a table, or a diff is a skill I can verify by looking, and looking stays cheap when reading the prose would bury me.
+For skills whose output can render, the pattern from [Teach Your Agent Skills to Use Tools That Render](../agent-skills-that-render/index.md) is worth it here.
+A skill that emits a diagram, a table, or a diff is a skill I can verify by looking, and looking stays cheap when reading the prose would take too long.
 A skill that emits only paragraphs is a skill I can only verify by reading, and reading is the bottleneck that started the whole problem.
 
 For skills that touch code, the verification runs the project's own checks.
@@ -165,10 +165,10 @@ The skill is scaffolding around a capability the model now holds on its own, and
 Shrinking applies within a single skill too.
 A step that the model now does reliably on its own is a step that should leave.
 An instruction that only existed to work around an old model limitation is an instruction whose time is up.
-A skill that has not been shortened in six months is almost certainly carrying dead weight from a weaker model generation.
+A skill that has not been shortened in six months is almost certainly carrying unnecessary instructions from a weaker model generation.
 
 **Deletion is not loss.
-Deletion is the most positive outcome a skill can have, because deletion means the model grew into the capability the skill was propping up.**
+Deletion is the most positive outcome a skill can have, because deletion means the model now has the capability the skill was supporting.**
 
 ## The review sweep
 
@@ -192,21 +192,21 @@ A skill that is never invoked is either redundant or forgotten, and both states 
 Which skills did I run but correct every time?
 Skills that need correcting every run are the candidates for the next session.
 
-A sweep takes an hour and pays for a quarter, because each finding is an iteration the per-failure loop would have taken months to surface.
+A sweep takes an hour and its value lasts a quarter, because each finding is an iteration the per-failure loop would have taken months to surface.
 
 ## Skills about skills
 
-The loop has a recursive quality worth naming, because the recursion is where the compounding really lives.
+The loop has a recursive quality, because the compounding happens in the recursion.
 
 The act of iterating on a skill is itself a repeatable task, and repeatable tasks become skills.
 I run a `review-skills` pass that does the sweep described above.
 I run an `improve-skill` pass that takes a single skill and proposes high-value, low-risk patches to the skill.
 The failure session from step 2 is the same move, held by hand: I supply the failure and the judgment, the agent supplies the analysis and the patch.
 
-The recursion is the real multiplier.
+The recursion is the multiplier.
 **Once the iteration loop is itself a skill, the library improves itself at the pace the agent can run, not the pace I can read.**
 I still make the calls, because deciding which patch lands and which skill gets deleted is a judgment the model does not yet make well.
-But the surface I have to hold in my head shrinks every time an iteration step is encoded, and the part I do myself narrows to the calls that genuinely need judgment.
+But the amount I have to remember shrinks every time an iteration step is encoded, and the part I do myself narrows to the calls that genuinely need judgment.
 
 The end state matches what [The Self-Evolving Repository](../the-self-evolving-repository/index.md) describes for codebases, applied one layer up: a library of skills that observes its own failures, proposes its own patches, and shrinks itself as the model grows, with the human left only at the checkpoint that needs taste.
 

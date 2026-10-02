@@ -4,7 +4,7 @@ title: "Whoever Ships First Decides"
 created: 2026-08-07
 type: post
 status: draft
-tags: [software-engineering, team-management, decision-making, code-quality, productivity, fully-ai-generated, llm=glm-5.2, llm=glm-5.3]
+tags: [software-engineering, team-management, decision-making, code-quality, productivity, fully-ai-generated, llm=glm-5.2, llm=glm-5.3, llm=deepseek-v4.1-flash]
 readability: 4
 audience_notes: >
   Assumes the reader is a software engineer who has watched a colleague's weaker work become the version the team ended up supporting. No specific framework or tooling knowledge required.
@@ -24,13 +24,13 @@ The interesting question is why bad work, once shipped, almost never gets undone
 
 ## "Done" Changes the Question
 
-Before the work exists, the question on the table is "is this the right approach?"
+Before the work exists, the question the team is asking is "is this the right approach?"
 Once it ships, the question quietly becomes "is it worth fighting to change this?"
 Those are different questions, and the second one is almost always answered no.
 
 The reason is not that the work got better when it merged.
 It is that reversing it now costs something it did not cost before.
-You have to schedule a conversation, justify the rework to someone who already feels they finished, and spend a credibility budget you were saving for your own work.
+You have to schedule a conversation, justify the rework to someone who already feels they finished, and spend credibility you were saving for your own work.
 Letting it stand costs nothing in the hour you notice it.
 So you let it stand, and so does everyone else who noticed.
 
@@ -39,11 +39,11 @@ It only has to be done, because done work turns a technical judgment into a poli
 
 ## The Cost to Object Is Concentrated. The Cost to Absorb Is Hidden.
 
-The whole pattern rests on this one asymmetry.
+The whole pattern depends on this one asymmetry.
 
 Objecting to bad work is expensive in the moment, and you pay the full bill yourself.
 It is your afternoon, your difficult conversation, your reputation as the person who slows things down.
-The benefit of objecting, if you win, is spread across the team and across the next year, and most of it lands on people who will never know you fought the fight.
+The benefit of objecting, if you win, is spread across the team and across the next year, and most of it lands on people who will never know you objected.
 
 Absorbing the bad work is the opposite.
 It is free in the moment, and its cost is distributed across the whole team and deferred into the future, where it shows up as the friction of working around a decision nobody loved.
@@ -56,20 +56,20 @@ It is a rational response to badly priced incentives.
 
 ## The Bar Drifts to the Most Willing Shipper
 
-Once you accept that done work is sticky and objection is expensive, a consequence follows that most teams never state out loud.
+Once you accept that done work is hard to undo and objection is expensive, a consequence follows that most teams never state out loud.
 
 The effective quality bar is not set by what the team agrees is correct.
 It is set by whoever has the lowest bar and the highest willingness to act first.
 
-If you ship before anyone can object, your version becomes the default, and the default is what everyone else now has to spend energy to dislodge.
+If you ship before anyone can object, your version becomes the default, and the default is what everyone else now has to spend energy to change.
 The person who cares about doing it right is at a structural disadvantage.
-Doing it right takes longer than doing it fast, and by the time the careful version is ready, the fast version is already the reality.
+Doing it right takes longer than doing it fast, and by the time the careful version is ready, the fast version is already in place.
 
 The disadvantage compounds.
 Other people copy the shortcut, because the shortcut is now the pattern the codebase rewards.
 The exception becomes the convention.
 A year later, nobody remembers that the pattern started as a shortcut someone shipped under deadline.
-Defending the shortcut has become the team's default position, because that is what defaults do.
+Defending the shortcut has become the team's default position.
 
 The drift compounds in one direction:
 
@@ -102,7 +102,7 @@ The costs they are creating live somewhere they cannot see: in the downstream ma
 They made a locally reasonable decision that is globally wrong.
 Nobody was in the room to add the global view, because the work was already done by the time the people who held that view heard about it.
 
-**The person closest to the keyboard is rarely the person closest to the consequences, and shipping first lets them decide for everyone without ever holding the cost.**
+**The person who does the work is rarely the person the consequences land on, and shipping first lets them decide for everyone without ever bearing the cost.**
 
 The pattern is not only a problem with AI-generated code, though [cheap generation has made it worse](../who-maintains-the-slop/index.md).
 It is the older and more general problem of whoever acts first setting the default for everyone who acts later, and it applies just as cleanly to a human's rushed pull request as to a model's confident output.
@@ -110,7 +110,7 @@ It is the older and more general problem of whoever acts first setting the defau
 ## What to Do Next
 
 You cannot make objection free.
-You can make it cheap enough that it happens before the bad work hardens into the default, and that is where the leverage is.
+You can make it cheap enough that it happens before the bad work becomes the default, and that is where the leverage is.
 
 Object in writing the moment you see it, even if you cannot fix it now.
 A single line saying "this shortcut will cost us in X" takes two minutes, costs almost no political capital, and does two things at once.
@@ -120,19 +120,19 @@ It is a measure of how busy everyone was, and writing it down stops that absence
 
 Price the absorption out loud.
 When you absorb bad work to keep moving, say so, and say who will pay: "I am taking this as-is to hit the date, and we will redo it next quarter, and that rewrite is the cost of shipping it now."
-Naming the tax prevents the team from pretending the absorption was free, which is the fiction that lets the pattern repeat.
+Naming that cost prevents the team from pretending the absorption was free, which is the pretense that lets the pattern repeat.
 
 Lower the cost of the conversation.
 A ten-minute "I would build this differently, here is why" is cheaper than a rework, and cheaper than the resentment that builds when you say nothing for six months.
 Most engineers respond well to a specific, early objection, and badly to a vague, late one, so timing matters more than wording.
 
-Make the shipper own the consequences for a window.
+Make the shipper own the consequences for a period.
 The person who shipped the shortcut remains responsible for the bugs it produces, instead of routing them to whoever happens to be nearby.
 This does not require blame; it just re-attaches the cost of the decision to the person who captured the benefit of shipping it, which is the alignment the current default removes.
 
 And if you are the one who shipped, treat silence as the weak signal it is.
 "Nobody objected" does not mean everyone agreed.
-It means everyone was busy, and the most accurate reading of a quiet merge is that you got away with it, not that you were right.
+It means everyone was busy, and the most accurate reading of a quiet merge is that no one stopped you, not that you were right.
 
 **The standard on a team is set by what survives, and what survives is whatever was too expensive to undo.
 If you want a higher standard, do not ask people to object harder.

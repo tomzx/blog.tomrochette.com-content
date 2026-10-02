@@ -4,7 +4,7 @@ title: "The Code You Will Never Read"
 created: 2026-08-01
 type: post
 status: finished
-tags: [software-engineering, ai, llm, machine-learning, code-review, productivity, fully-ai-generated, llm=glm-5.2, llm=glm-5.3]
+tags: [software-engineering, ai, llm, machine-learning, code-review, productivity, fully-ai-generated, llm=glm-5.2, llm=glm-5.3, llm=deepseek-v4.1-flash]
 readability: 3
 audience_notes: >
   Assumes the reader writes software in a world where LLMs and agents produce much of the code, and has at least a lay picture of how a trained neural network works (weights, training, evaluation). No hands-on ML experience required.
@@ -17,7 +17,7 @@ Code that no human wrote, line by line.
 Code that no human will read, line by line.
 Code that no human will review, because the verification system passed and the change shipped on green.
 If you are an engineer, this is supposed to make you uncomfortable.
-But the discomfort is something you can get past, because we have gotten past it before, in several fields next door, and their tricks transfer.
+But you can get past the discomfort, because we have gotten past it before, in several other fields, and their tricks transfer.
 
 Machine learning practitioners have been comfortable with opacity for a decade.
 The trained neural network sitting behind your favorite model is, at the bottom, billions of floating-point numbers.
@@ -25,9 +25,9 @@ Nobody reads them.
 Nobody can.
 There is no "go to definition" for a weight.
 You cannot trace a decision through the layers by opening the matrix in your editor and following the logic.
-The entire artifact is illegible to a human by construction, and the field that built it made its peace with that a long time ago.
+The entire artifact is illegible to a human by construction, and the field that built it accepted that a long time ago.
 
-**The code now being produced by agents is heading toward the same property, and the comfort ML people found is the comfort software engineers need to find next.**
+**The code agents now produce is heading toward the same property, and the comfort ML people found is the comfort software engineers need to find next.**
 
 ## The Model We Already Live With
 
@@ -41,7 +41,7 @@ The model is a black box.
 You probe it with inputs and watch the outputs.
 You assemble a test set that captures the behaviors you care about, the happy paths and the adversarial ones.
 You measure accuracy, calibration, latency, and failure modes on the edge cases that would embarrass you in production.
-You characterize the artifact from the outside, and the characterization is the thing you trust.
+You characterize the artifact from the outside, and you trust that characterization.
 
 Nobody on a model team ever says "let me read the weights to see if this is correct."
 That sentence is nonsense in that world.
@@ -51,7 +51,7 @@ It is becoming nonsense in ours, and the people who notice last will be the ones
 
 The parallel is not exact, but it is close, and it is closing.
 
-A neural network is opaque because its meaning is smeared across billions of parameters, none of which means anything alone.
+A neural network is opaque because its meaning is spread across billions of parameters, none of which means anything alone.
 Agent-written code is opaque for a different reason and a more mundane one: there is simply too much of it, it was produced too fast, and no human has the hours to reconstruct what it does from the source.
 
 **The end state is the same from the operator's point of view.**
@@ -59,8 +59,8 @@ You are handed an artifact that does something.
 You cannot hold its behavior in your head by reading it.
 You have to find out what it does the way you find out what a model does, by running it and watching.
 
-This is already the lived reality for the engineers defending codebases where agents produce faster than humans can read ([The Codebase Gardener](../the-codebase-gardener/index.md) describes that arithmetic).
-It will be the reality for everyone soon enough.
+This is already the situation for the engineers defending codebases where agents produce faster than humans can read ([The Codebase Gardener](../the-codebase-gardener/index.md) describes that arithmetic).
+It will be the situation for everyone soon enough.
 The code you depend on, the code in your dependencies, the code that ships from the team across the hall, is increasingly code whose source you will never open, because opening it would tell you less than running it would.
 
 ## Why Code Felt Different (And Why It Should Not)
@@ -117,7 +117,7 @@ For code, that means the architecture carries probes, hooks, and test seams by d
 **Pharmacology.**
 A drug interacts with a body no one fully models.
 The field answered with phased clinical trials, a tiny reversible exposure first, then efficacy, then population scale, all run double-blind and followed by post-market surveillance.
-The transferable pattern is staged rollout with independent evaluation and production watchfulness, which is exactly canary deployments, feature flags, a verifier separate from the author, and monitoring that treats production behavior as the real verdict.
+The transferable pattern is staged rollout with independent evaluation and production watchfulness, which is exactly canary deployments, feature flags, a verifier separate from the author, and monitoring that treats production behavior as the actual verdict.
 
 **Behaviorism.**
 Psychology met an opaque artifact earliest of all, the mind itself, and built a whole epistemology around it.
@@ -163,7 +163,7 @@ flowchart TD
 
 ## What Understanding Means When You Cannot Read
 
-Engineers are going to resist this, so it is worth being precise about what is lost and what is gained.
+Engineers are going to resist this shift, so it is worth being precise about what is lost and what is gained.
 
 Reading code gives you one kind of understanding, causal and local.
 You trace a branch, follow a call, and build a mental model of why the code behaves the way it does on the inputs you happened to trace.
@@ -189,7 +189,7 @@ Here is the part nobody puts in the engineering blog posts.
 This shift is hardest for the people it should be easiest for.
 The senior engineer, the staff engineer, the person whose entire professional identity is built on being able to open any file in the codebase and understand it, is the person being asked to surrender the exact skill that made them senior.
 
-That is a loss, and it is real, and pretending it is not is why so many of the arguments against unread code sound rational but run on fear.
+That is a loss, and it is genuine, and pretending it is not is why so many of the arguments against unread code sound rational but run on fear.
 It is not irrational fear.
 If the thing you are best at is reading code, and reading code stops being the valuable thing, then you are being asked to become a beginner again, and beginners are slow and uncertain and uncomfortable.
 
@@ -217,7 +217,7 @@ Let those merge on green, with no human in the middle, and watch what happens.
 
 Then build the probing muscles.
 Write the behavioral tests before you let an agent write the code.
-Add a fuzzer to the paths that carry real risk.
+Add a fuzzer to the paths that carry genuine risk.
 Put a blast-radius classifier on the gate, and reserve your attention for the small set of changes that actually deserve a human, the irreversible and the trust-boundary-crossing.
 Measure the outcomes, and let the measurements argue for you when your instincts object.
 
@@ -235,7 +235,7 @@ The opacity is settled ground, the same way it is settled ground in chip design,
 The work happens entirely at the boundary, in the inputs you choose and the outputs you measure, because that is where understanding of an opaque artifact can live.
 
 Software engineering is arriving at the same place, later and more reluctantly, because it had something to lose that those fields never had.
-The legibility of source code was a gift, and it was a gift that lasted a few decades, and it is ending, and the ending feels like a demotion when it is really a relocation.
+The legibility of source code was a gift, and it was a gift that lasted a few decades, and it is ending, and the ending feels like a demotion when it is actually a relocation.
 
 **The code you will never read is coming regardless.
 The only question is whether you learn to be comfortable with it the way half a dozen fields already are, by building the cage of tests and probes and staged rollouts and adversarial checks around it, or whether you keep insisting on reading until the volume of unread code makes the insistence irrelevant.**

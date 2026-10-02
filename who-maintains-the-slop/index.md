@@ -4,7 +4,7 @@ title: "Who Maintains the Slop?"
 created: 2026-08-05
 type: post
 status: finished
-tags: [ai, software-engineering, llm, code-quality, team-management, productivity, fully-ai-generated, llm=glm-5.2, llm=glm-5.3]
+tags: [ai, software-engineering, llm, code-quality, team-management, productivity, fully-ai-generated, llm=glm-5.2, llm=glm-5.3, llm=deepseek-v4.1-flash]
 readability: 3
 audience_notes: >
   Assumes the reader is an engineer, tech lead, or manager who has inherited AI-generated code they did not author, choose, or agree to. No specific tooling or framework knowledge required.
@@ -25,7 +25,7 @@ The whole handoff runs like this:
 The slop handoff is not the ordinary handoff, where someone moves on and leaves their code behind.
 It is a new and worse kind, because the thing being handed off carries less recoverable intent than human code ever did, and the person handing it off has less of that intent to offer than the author of human code ever had.
 The slop producer walks away with the reward.
-The maintainer is left with the cost, and was never asked whether they wanted to absorb it.
+The maintainer is left with the cost, and no one asked whether they wanted to absorb it.
 
 ## Generation Is Cheap. Understanding Is Not.
 
@@ -37,9 +37,9 @@ Maintenance is dominated by understanding, and understanding, even with help, is
 When the cost of producing something collapses while the cost of owning it stays fixed, you get a predictable result.
 People produce a great deal more of it than they are willing to maintain.
 This is the same dynamic economists call a [negative externality](https://en.wikipedia.org/wiki/Externality): the producer captures the benefit and passes the cost to someone else who never agreed to pay it.
-**In software, the river the cost gets dumped into is the codebase, and the people downstream are the maintainers.**
+**In software, the cost lands on the codebase, and the maintainers pay it.**
 
-The old discipline that held this in check was effort.
+The old discipline that limited the cost-shifting was effort.
 Writing a feature by hand cost days, and that cost forced a conversation about whether the feature was worth building and whether the author was ready to live with it.
 Remove that cost and the conversation disappears, because the friction that produced the conversation is gone.
 The feature still costs days to maintain.
@@ -55,7 +55,7 @@ The person who wrote the code was also the cheapest person to maintain it, becau
 "You build it, you run it" was efficient as well as just.
 The accountability aligned with the economics.
 
-**AI slop severs that alignment.**
+**AI slop breaks that alignment.**
 The person who generated the code did not build a model of it in their head, because they did not build it.
 They saw the output, checked that it ran, verified that it did what they wanted, and moved on.
 They are not the cheapest maintainer anymore.
@@ -75,10 +75,10 @@ It is that the code carries no intent anyone can recover.
 Human code, even messy human code, is full of traces of the mind that wrote it.
 Variable names that betray a mental model, comments that record a half-thought, a function split in a way that reflects how the author decomposed the problem.
 These are imperfect signals, and they are often misleading, but they are signals.
-When you inherit human code, you are an archaeologist working through strata left by a civilization that existed.
+When you inherit human code, you can work backward from it to the decisions the author made.
 This is what [The Code You Will Never Read](../the-code-you-will-never-read/index.md) describes from the maintainer's side: a growing body of code whose internals are opaque by construction.
 
-AI slop is archaeology without the civilization.
+AI slop leaves no such decisions to reconstruct.
 The patterns in it were not chosen by a mind that held the problem; they were chosen by a model selecting the most probable next token.
 The names are plausible, the structure is conventional, and none of it is evidence of a decision you can reconstruct, because no decision was made in the way a human makes one.
 **You cannot ask the code what it meant, and increasingly you cannot ask the author either, because the author's answer is the same guess you would make yourself.**
@@ -89,7 +89,7 @@ The hard part is that the mess came with nobody attached to it.
 
 ## The Missing Ingredient Is Consent
 
-The sting in the slop handoff is not only that the work is hard.
+The problem with the slop handoff is not only that the work is hard.
 It is that the maintainer had no say in any of the decisions that produced it.
 
 They did not choose to build the feature.
@@ -98,14 +98,14 @@ They did not choose the abstractions it imposes on the codebase, or the patterns
 All of those choices were made by a person and a model who will not be present when the consequences arrive, and they were made without the person who will carry the consequences in the room.
 **The maintainer inherits a set of decisions they were never party to, and is asked to own outcomes they could not influence.**
 
-The missing consent is the part that goes beyond "the task is annoying," and it is why slop handoffs corrode teams faster than ordinary ones.
+The missing consent is the part that goes beyond "the task is annoying," and it is why slop handoffs damage teams faster than ordinary ones.
 I wrote about the motivation tax on unchosen work in [The Cost of Work You Did Not Choose](../the-cost-of-work-you-did-not-choose/index.md).
 The slop version of that tax is heavier, because the work is harder to understand and the handoff is more frequent.
-When being handed other people's AI output becomes the norm, the people who maintain the codebase start to feel like janitors in a building they did not design and are not allowed to redesign, and that feeling is a leading indicator of people leaving.
+When being handed other people's AI output becomes the norm, the people who maintain the codebase start to feel that they are only there to clean up after others, in a system they did not design and are not allowed to redesign, and that feeling is a leading indicator of people leaving.
 
 ## The Generator Is Rational, Not Villainous
 
-It is tempting to tell this story with a villain, the lazy coworker dumping their slop on the team.
+It is tempting to tell this story with a villain, the lazy coworker handing their slop to the team.
 That story is satisfying and it is mostly wrong, and believing it will stop you from fixing the actual problem.
 
 The generator is responding rationally to the incentives the team has set.
@@ -154,11 +154,11 @@ Charge the handoff in the currency the generator tried to skip, which is underst
 **Gate generation on ownership.**
 Before AI code can merge, there must be a named owner who will maintain it.
 No owner, no merge.
-This is a trivial rule and it eliminates the worst cases outright, the drive-by generation that lands in a shared module and becomes everyone's problem and no one's responsibility.
+This is a trivial rule and it eliminates the worst cases outright, the casual generation that lands in a shared module and becomes everyone's problem and no one's responsibility.
 
 ## The Failure Is Upstream
 
-The pattern underneath all of this is the one [Rethinking Code Review in the Age of LLMs](../rethinking-code-review-in-the-age-of-llms/index.md) reaches from a different direction: real responsibility lives upstream, in the decisions that guided the work, not in the person left holding the diff at the end.
+The pattern underneath all of this is the one [Rethinking Code Review in the Age of LLMs](../rethinking-code-review-in-the-age-of-llms/index.md) also arrives at from a different starting point: actual responsibility lives upstream, in the decisions that guided the work, not in the person left holding the diff at the end.
 
 The slop handoff is what happens when responsibility is allowed to drift downstream and settle on whoever is standing there when the code breaks.
 The generator made the decision to generate.
@@ -170,7 +170,7 @@ They will not keep paying it quietly.
 They will either push the price back upstream, where it belongs, or they will leave for a codebase where someone else has already done it.
 
 **AI did not invent the handoff.**
-It made generation so cheap that handing the result off became the path of least resistance.
+It made generation so cheap that handing the result off became the easiest option.
 The slop producer is not a villain; they are a rational actor in a system that prices generation at zero and maintenance at full cost.
 **The fix is not to scold them.**
 **It is to put the price back where it was captured, in the currency that was skipped, which is understanding.**
@@ -180,7 +180,7 @@ The slop producer is not a villain; they are a rational actor in a system that p
 - [The Cost of Work You Did Not Choose](../the-cost-of-work-you-did-not-choose/index.md) - the motivation tax on work handed to you by declaration, which the slop handoff makes heavier and more frequent
 - [The Code You Will Never Read](../the-code-you-will-never-read/index.md) - maintaining code whose internals are opaque, the condition that makes AI slop harder to inherit than the human mess it resembles
 - [Defects Flow Downstream, Fixes Must Flow Upstream](../defects-flow-downstream/index.md) - the rule that the durable fix is upstream, which is why the spec must travel with the code so the maintainer inherits the source and not just the symptom
-- [Rethinking Code Review in the Age of LLMs](../rethinking-code-review-in-the-age-of-llms/index.md) - the argument that real responsibility lives in the decisions that guided the work, not in the person scanning the diff at the end
+- [Rethinking Code Review in the Age of LLMs](../rethinking-code-review-in-the-age-of-llms/index.md) - the argument that actual responsibility lives in the decisions that guided the work, not in the person scanning the diff at the end
 - [Who Resolves the Merge Conflict?](../who-resolves-the-merge-conflict/index.md) - the intent-source test for who is qualified to act on a change, which is the same test that decides who should own the slop
 
 ## References

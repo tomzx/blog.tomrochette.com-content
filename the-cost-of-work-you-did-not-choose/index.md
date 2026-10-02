@@ -4,7 +4,7 @@ title: "The Cost of Work You Did Not Choose"
 created: 2026-08-05
 type: post
 status: finished
-tags: [software-engineering, team-management, productivity, motivation, communication, fully-ai-generated, llm=glm-5.2, llm=glm-5.3]
+tags: [software-engineering, team-management, productivity, motivation, communication, fully-ai-generated, llm=glm-5.2, llm=glm-5.3, llm=deepseek-v4.1-flash]
 readability: 4
 audience_notes: >
   Assumes the reader is an engineer or team lead who has been handed a task they did not volunteer for. No specific framework knowledge required.
@@ -19,21 +19,21 @@ I did not volunteer for it, and nobody asked whether I wanted it.
 It took me almost three days.
 
 I want to be careful here, because the easy reading of this story is a complaint about a colleague, and that is not the interesting part.
-The interesting part is why a piece of work that should have taken hours stretched into days, and what that says about how work gets assigned.
-**Work you did not choose takes longer, not because it is harder, but because nothing pulls you through it.**
+The interesting part is why a piece of work that should have taken hours took days instead, and what that delay says about how work gets assigned.
+**Work you did not choose takes longer, not because it is harder, but because nothing motivates you to finish it.**
 
 ## The Task Was Not Hard. The Task Was Not Mine.
 
 The work itself was not especially complex.
-What made it slow was that I had no investment in it.
-I had not chosen the problem, I had not designed the solution, and I stood to gain nothing from its completion except the relief of being done with it.
+What made it slow was that I had no reason to care about it.
+I had not chosen the problem, I had not designed the solution, and I had nothing to gain from its completion except the relief of being done with it.
 
 **There is a motivation tax on work you did not choose, and it is larger than most people account for.**
-When a task is yours, the friction of a confusing codebase or a failing test is a puzzle you want to solve.
-When a task has been dropped on you, that same friction is an obstacle between you and being somewhere else, and every obstacle feels twice as tall.
+When a task is yours, the friction of a confusing codebase or a failing test is something you want to work through.
+When a task has been given to you, that same friction is an obstacle between you and being somewhere else, and every obstacle feels harder to get past.
 
 The three days were not a measure of the task's difficulty.
-They were a measure of the distance between me and any reason to care.
+They were a measure of how little reason I had to care.
 
 ## Finishing Someone Else's Work Is Not Half the Job
 
@@ -42,7 +42,7 @@ This is almost always wrong.
 Code that someone else wrote carries their hidden decisions: names that made sense to them, assumptions they never wrote down, edge cases they handled in their head and nowhere else.
 
 **To get another person's work to a mergeable state, you have to reconstruct the intent of a person whose reasoning you never saw.**
-You become an archaeologist of their intent, reading commits like strata.
+You can only infer their intent from the commits.
 And unlike your own code, where you remember why you wrote each line, here every unfamiliar line is a small investigation.
 
 "Get this merged" sounds like a small favor.
@@ -52,30 +52,30 @@ It is a request to absorb someone else's unfinished thinking, under a deadline y
 
 I noticed something during those three days that I would have missed if I had been excited about the work.
 Distractions did not just interrupt me.
-They rescued me.
+They gave me relief.
 
 When you are working on something you care about, a notification is an annoyance you dismiss.
-When you are working on something you resent, a notification is a permission slip to step away, and you take it every time.
+When you are working on something you resent, a notification is a reason to step away, and you take it every time.
 The work expanded to fill three days in part because every ping, every message, every side question offered a more appealing place to put my attention, and nothing pulled me back.
 
-The same afternoon forks in two depending only on who chose the work:
+The same afternoon turns out two ways depending only on who chose the work:
 
 ![Attention chart: chosen work holds a flat high line while assigned work decays in a sawtooth at every notification](images/focus-decay.svg)
 
 Distractions are not the enemy of focus.
 **They are the enemy of focus on work you do not want to do.**
-On work you want to do, focus defends itself.
+On work you want to do, focus holds.
 
 ## The Failure Was the Hand-off
 
 The colleague is not the villain of this story.
 What failed was the assumption that a task could be moved from one person to another by declaration, without a conversation about whether it should be.
 
-When you assign work without asking, you are gambling that the person receiving it has the context, the capacity, and the motivation to carry it.
+When you assign work without asking, you are guessing that the person receiving it has the context, the capacity, and the motivation to carry it.
 You have checked none of those things.
 You have simply moved an item on a board and assumed the work would move with it.
 
-The cost of that gamble does not show up on the board.
+The cost of that guess does not show up on the board.
 It shows up in the three days, in the half-attention, in the quiet resentment that makes the next hand-off harder to accept.
 **A task assigned without consent arrives already taxed, and the tax is paid in time.**
 
@@ -87,9 +87,9 @@ The lesson is narrower and more useful.
 
 When work arrives by declaration rather than by agreement, I will name the motivation cost out loud, early.
 I will ask for the context I am missing instead of reconstructing it silently.
-And I will be candid, with myself and with the person handing it off, about what "get this merged" actually entails, because the favor is rarely as small as it sounds from the side that is handing it off.
+And I will be direct, with myself and with the person handing it off, about what "get this merged" actually entails, because the favor is rarely as small as it sounds from the side that is handing it off.
 
-**Work you did not choose takes longer, not because it is harder, but because nothing pulls you through it.**
+**Work you did not choose takes longer, not because it is harder, but because nothing motivates you to finish it.**
 The friction was not in the task.
 It was in the absence of a reason to care.
 

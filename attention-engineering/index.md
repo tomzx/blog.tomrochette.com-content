@@ -4,7 +4,7 @@ title: "Attention Engineering: Your Attention Is the Bottleneck"
 created: 2026-08-08
 type: post
 status: finished
-tags: [ai, llm, attention-engineering, productivity, cognitive-load, fully-ai-generated, llm=glm-5.2, llm=glm-5.3]
+tags: [ai, llm, attention-engineering, productivity, cognitive-load, fully-ai-generated, llm=glm-5.2, llm=glm-5.3, llm=deepseek-v4.1-flash]
 readability: 4
 audience_notes: >
   Assumes the reader already delegates work to LLM coding agents and has felt the difference between spawning a task and actually judging its output. No introduction to LLMs; builds on the acceptance and bottleneck pieces already on this blog.
@@ -19,9 +19,9 @@ You describe, the model produces, and a plausible answer arrives in seconds.
 We kept the habits from when writing the code was the hard part.
 We hover over the agent while it works, we read every diff it produces, we re-check by hand what a check could check for us, and we call the exhaustion that follows "using AI well."
 It is not.
-It is attention spent on the half of the problem that is already solved, while the half that still needs a human mind gets the leftovers.
+It is attention spent on the half of the problem that is already solved, while the half that still needs a human mind gets whatever attention is left.
 
-Attention engineering is the deliberate practice of treating your own attention as the scarce resource, and allocating it to the parts of an agent workflow where a mind is actually required.
+Attention engineering is the deliberate practice of treating your own attention as the scarce resource, and allocating it to the parts of an agent workflow where a mind is required.
 
 ## Attention Is Not Time
 
@@ -34,11 +34,11 @@ The part that needs you, deciding what is good enough, is strictly serial and st
 This is why [spawning more sessions](../managing-many-llm-agent-sessions/index.md) often makes you slower, not faster.
 Each open session is a claim on working memory, and working memory is small and slow to refill after a switch.
 The literature on [cognitive load](https://en.wikipedia.org/wiki/Cognitive_load) has been clear about this for decades: heavy switching fragments attention and produces shallow processing, and the cost is paid by the task you switched into, not the one you left.
-**Parallel agents widen the generation pipe and narrow the decision pipe at the same time, and the decision pipe is the one that matters.**
+**Parallel agents increase generation capacity and reduce decision capacity at the same time, and decision capacity is the one that matters.**
 
 ## Where Attention Leaks
 
-**Most of the fatigue people blame on AI is really misallocated attention.**
+**Most of the fatigue people blame on AI is misallocated attention.**
 It leaks in four predictable places.
 
 Watching the agent generate.
@@ -84,7 +84,7 @@ Attention spent writing the spec pays a higher dividend than attention spent edi
 Judgment, the question of whether the result is the thing you wanted, needs all of it, and it cannot be delegated.
 This is the taste decision, the "good enough, ship it" moment, and it is the last compounding thing you do.
 
-**The skill is to starve the first two and feed the last two.**
+**The skill is to spend little attention on the first two and most of it on the last two.**
 
 ## Attention Engineering, In Practice
 
@@ -101,7 +101,7 @@ The goal is to shrink the "verify by hand" pile to the set of things that genuin
 Parallelize generation, serialize judgment.
 Let many sessions run at once, but do all your deciding in one focused pass, one session at a time, with the others closed or paused.
 The model is the part that benefits from parallelism.
-Your judgment does not, and pretending otherwise is how you ship work you never actually read.
+Your judgment does not, and pretending otherwise is how you ship work you never read.
 
 Refuse to supervise.
 If you find yourself watching the agent work, you have either failed to specify the task well enough to walk away, or you have not built the check that would let you trust the result without watching.
@@ -123,7 +123,7 @@ The people who get the most out of LLMs are not the ones with the cleverest prom
 They are the ones who learned to walk away from generation, to encode everything checkable, and to save their finite attention for the specification and the taste that only they can supply.
 
 Working with agents is not a prompting skill.
-It is an attention skill, and the sooner you treat your attention as the bottleneck it has become, the more of it you will have for the work that is actually yours to do.
+It is an attention skill, and the sooner you treat your attention as the bottleneck it has become, the more of it you will have for the work that is yours to do.
 
 ## See also
 

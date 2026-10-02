@@ -4,7 +4,7 @@ title: "Solo Is a Team Size: When Humans Still Earn a Seat in the Agentic Era"
 created: 2026-08-20
 type: post
 status: finished
-tags: [ai, software-engineering, llm, agents, team-management, collaboration, fully-ai-generated, llm=glm-5.3]
+tags: [ai, software-engineering, llm, agents, team-management, collaboration, fully-ai-generated, llm=glm-5.3, llm=deepseek-v4.1-flash]
 readability: 3
 audience_notes: >
   Assumes the reader is an engineer or founder who can already delegate most implementation to LLM agents and has wondered whether colleagues are now more cost than benefit. No management background required.
@@ -18,8 +18,8 @@ The question I ask myself is whether working in a team still makes sense at all.
 The question assumes that going solo means leaving teams behind.
 It does not.
 A solo operator running a fleet of agents is already working in a team, one human and N machines, with assignments, reviews, conventions, and all the coordination that implies.
-The real question is not team or no team.
-**The real question is when a seat at that table should be filled by a human.**
+The question is not team or no team.
+**The question is when a human should fill a seat at that table.**
 
 ## Your Fleet Is Already a Team
 
@@ -91,13 +91,13 @@ flowchart TD
 
 **The work has no oracle.**
 An agent can verify against a check: tests that pass, a spec that matches, a conflict with a mechanical resolution.
-When correctness is machine-checkable, fill the seat with an agent and sleep well.
+When correctness is machine-checkable, fill the seat with an agent and not worry.
 When the work is direction, intent, or taste, when the question is whether the thing should exist, there is no oracle, only judgment.
 An agent executes the plan it is given; a human can question the plan itself.
 [Who Resolves the Merge Conflict?](../who-resolves-the-merge-conflict/index.md) draws the same line inside a single pull request: mechanical conflicts go to the bot, semantic ones need someone who holds intent.
 
 **The context exceeds one head.**
-A real product accumulates more surface than any single person holds, and past some size the single node becomes the constraint no matter how fast the fleet executes.
+A product accumulates more surface than any single person holds, and past some size the single node becomes the constraint no matter how fast the fleet executes.
 A second head is replication: another copy of the why, the failure modes, and the customer reality, which is why the node can finally take a vacation.
 Below that size, the second head mostly duplicates what you already know, and the channel tax buys little.
 
@@ -120,7 +120,7 @@ Decision records, runbooks, and specifications make the why inheritable, so a su
 Opening the source turns the community into a container of last resort.
 Naming an inheritor, even informally, converts the orphan case into a handoff waiting to happen.
 None of these fully solves it.
-**Ownership continuity for the solo operator is still an open problem, and pretending the fleet solves it is how systems get abandoned while they are still green.**
+**Ownership continuity for the solo operator is still an open problem, and pretending the fleet solves it is how systems get abandoned while they still appear to be working.**
 
 Notice what the seat decision does to hiring logic.
 Teams used to add humans for hands, and hands are now near-free, so the remaining reasons to add a human are direction, memory, and accountability.
@@ -139,7 +139,7 @@ Trace the path your worst current idea would take through it, station by station
 If the count is zero, you have found the gap, and it is in the design, not in the agents.
 
 Then decide deliberately where judgment enters.
-If your work has an oracle, is reversible, and fits in one head, stay solo and stop feeling guilty about it; the fleet plus encoded process is a real team.
+If your work has an oracle, is reversible, and fits in one head, stay solo and stop feeling guilty about it; the fleet plus encoded process is genuinely a team.
 If any of the three conditions applies, no oracle, context overflow, one-way doors, buy a human seat in whatever dose makes sense: a paid reviewer for the consequential changes, a community that will tell you the idea is bad while it is still cheap to kill, a co-founder for the direction itself.
 
 For everything you own, write the handoff paragraph: what it is, why it exists, who inherits it.

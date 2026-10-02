@@ -1,0 +1,38 @@
+<svg aria-labelledby="t" role="img" xmlns="http://www.w3.org/2000/svg" width="920" height="370" viewBox="0 0 920 370" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+  <title id="t">Who maintains the slop</title>
+  <desc>A ledger view. Generated code that works and demos well but misses intent sends credit back to the generator, who receives prompt credit and the moving metric and pays nothing after the handoff. The costs flow forward to a maintainer who never consented, who inherits the code when it breaks, pays the full cost of understanding, and cannot recover intent that was never written down.</desc>
+  <defs>
+    <marker markerUnits="userSpaceOnUse" id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#94a3b8"/></marker>
+    <marker markerUnits="userSpaceOnUse" id="arrRed" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#dc2626"/></marker>
+    <marker markerUnits="userSpaceOnUse" id="arrGreen" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#16a34a"/></marker>
+  </defs>
+  <rect x="0" y="0" width="920" height="370" fill="#ffffff"/>
+<rect x="330" y="36" width="260" height="64" rx="8" fill="#e9effd" stroke="#2563eb" stroke-width="1.5"/>
+<text x="460" y="62.0" text-anchor="middle" font-size="14" font-weight="normal" fill="#0f172a">Generated code</text>
+<text x="460" y="84.0" text-anchor="middle" font-size="11" font-weight="normal" fill="#64748b">works, demos well, misses intent</text>
+<line x1="330" y1="68" x2="254" y2="126" stroke="#16a34a" stroke-width="1.8" marker-end="url(#arrGreen)"/>
+<line x1="590" y1="68" x2="666" y2="126" stroke="#dc2626" stroke-width="1.8" marker-end="url(#arrRed)"/>
+<text x="272" y="100" font-size="12" font-style="italic" fill="#16a34a">credit flows back</text>
+<text x="648" y="100" text-anchor="end" font-size="12" font-style="italic" fill="#dc2626">costs flow forward</text>
+<rect x="40" y="132" width="400" height="128" rx="8" fill="#ffffff" stroke="#16a34a" stroke-width="1.5"/>
+<rect x="40" y="132" width="400" height="34" rx="8" fill="#e7f6ed" stroke="#16a34a" stroke-width="1.5"/>
+<rect x="41" y="158" width="398" height="8" fill="#e7f6ed" stroke="none"/>
+<text x="240.0" y="154" text-anchor="middle" font-size="14" font-weight="bold" fill="#0f172a">Generator</text>
+<circle cx="58" cy="184" r="2.5" fill="#16a34a"/>
+<text x="68" y="188.0" text-anchor="start" font-size="13" font-weight="normal" fill="#0f172a">Gets the prompt credit and the moving metric.</text>
+<circle cx="58" cy="194.0" r="2.5" fill="#16a34a"/>
+<text x="68" y="198.0" text-anchor="start" font-size="13" font-weight="normal" fill="#0f172a">Pays nothing after the handoff.</text>
+<rect x="480" y="132" width="400" height="150" rx="8" fill="#ffffff" stroke="#dc2626" stroke-width="1.5"/>
+<rect x="480" y="132" width="400" height="34" rx="8" fill="#fbe9e9" stroke="#dc2626" stroke-width="1.5"/>
+<rect x="481" y="158" width="398" height="8" fill="#fbe9e9" stroke="none"/>
+<text x="680.0" y="154" text-anchor="middle" font-size="14" font-weight="bold" fill="#0f172a">Maintainer who never consented</text>
+<circle cx="498" cy="184" r="2.5" fill="#dc2626"/>
+<text x="508" y="188.0" text-anchor="start" font-size="13" font-weight="normal" fill="#0f172a">Inherits the code when it breaks six months</text>
+<text x="508" y="206.8" text-anchor="start" font-size="13" font-weight="normal" fill="#0f172a">later.</text>
+<circle cx="498" cy="212.85" r="2.5" fill="#dc2626"/>
+<text x="508" y="216.8" text-anchor="start" font-size="13" font-weight="normal" fill="#0f172a">Pays the full cost of understanding.</text>
+<circle cx="498" cy="222.85" r="2.5" fill="#dc2626"/>
+<text x="508" y="226.8" text-anchor="start" font-size="13" font-weight="normal" fill="#0f172a">Cannot recover the intent, it was never</text>
+<text x="508" y="245.7" text-anchor="start" font-size="13" font-weight="normal" fill="#0f172a">written down.</text>
+<text x="460" y="330" text-anchor="middle" font-size="12" font-style="italic" fill="#64748b">the loop closes only if someone chooses to stop generating and start maintaining</text>
+</svg>

@@ -4,7 +4,7 @@ title: "My Philosophy"
 created: 2026-08-08
 type: post
 status: finished
-tags: [philosophy, thoughts, fully-ai-generated, llm=glm-5.2, llm=glm-5.3]
+tags: [philosophy, thoughts, fully-ai-generated, llm=glm-5.2, llm=glm-5.3, llm=deepseek-v4.1-flash]
 readability: 2
 audience_notes: >
   Assumes the reader has browsed at least a few of the author's prior essays on software,
@@ -21,7 +21,7 @@ The artifacts change, the principle does not.
 A blog post is such an artifact.
 A skill file is one.
 The principles file I keep is one.
-The form runs from the trivial to the sacred, and the same instinct produces all of them: I do not trust my attention to be present when it matters, so I put the judgment somewhere it can survive without me.
+These artifacts range from trivial to deeply meaningful, and the same instinct produces all of them: I do not trust my attention to be present when it matters, so I put the judgment somewhere it can survive without me.
 
 This is not a philosophy of throughput, though it can look like one.
 I am not trying to do more.
@@ -36,7 +36,7 @@ My master mental model is the [Theory of Constraints](https://en.wikipedia.org/w
 The moment you relieve the constraint, it relocates: it does not disappear, it just moves.
 Automate code production and verification becomes the bottleneck; solve verification and feature selection becomes the bottleneck; solve feature selection and the question of what deserves to exist at all becomes the bottleneck.
 
-The chain I keep chasing looks like this, and it never terminates:
+The sequence I keep working through looks like this, and it never ends:
 
 ![Staircase of the relocating constraint: code production is automated, then verification is solved, then feature selection is solved, leaving what deserves to exist as the frontier](images/shifting-bottleneck.svg)
 
@@ -50,7 +50,7 @@ The people who look calm and effective have simply learned to feel where it is.
 
 Games are one of the places I reach for when I want an analogy, because they externalize the thing I am trying to say.
 Factorio, StarCraft, World of Warcraft, RollerCoaster Tycoon: each is a simulation with a binding constraint, a compounding resource, and a goal that is easy to forget while you optimize a sub-goal, which is why I wrote a [series mapping each onto software](../code-factories-factorio/index.md).
-The factory exists to launch the rocket, not the other way around, and every optimization that does not serve the product is a belt to nowhere.
+The factory exists to launch the rocket, not the other way around, and every optimization that does not serve the product is wasted.
 Analogies are not how I think all day; they are how I explain, and sometimes how I notice a pattern I had not named yet.
 A trade-off that sounds abstract in software can become obvious when you see its equivalent in a game: you spent the minerals on the wrong unit, you hit the supply cap, you optimized a belt that leads nowhere.
 
@@ -59,22 +59,22 @@ A trade-off that sounds abstract in software can become obvious when you see its
 If the constraint frame tells me where to push, **the compounding axis tells me what is worth pushing on at all**.
 Every activity, skill, fix, and artifact is either compounding or depreciating.
 Compounding things leave future me more valuable for having done them: foundation knowledge, taste, specifications, encoded standards, durable mental models, relationships with people who grow.
-Depreciating things melt as the environment moves: boilerplate, syntax, one-off patches, anything the next model release will do for free.
+Depreciating things lose value as the environment moves: boilerplate, syntax, one-off patches, anything the next model release will do for free.
 
 My decision tool is the two-year test: if I let this continue for two more years, does the me that emerges become more or less valuable?
-This looks like a time-management question, but it is an ethical one in disguise.
+This looks like a time-management question, but it is actually an ethical one.
 It encodes a belief that a life is something you invest in, not something you spend.
 
 The discipline is asymmetric, and I state it as a rule: **delegate depreciating activities ruthlessly, and protect compounding activities ferociously**.
-Protecting a depreciating activity in the name of craft is not craft; it is nostalgia with a deadline.
-But delegating a compounding activity in the name of efficiency is not efficiency; it is capability suicide by installments.
+Protecting a depreciating activity in the name of craft is not craft; it is nostalgia, and the environment will end it.
+But delegating a compounding activity in the name of efficiency is not efficiency; it destroys your capability a little at a time.
 The number to watch is not how much I delegate; it is how much of my remaining time lands on compounding work.
 
 ## The method: write everything down
 
 I do not trust my brain to hold anything important, because I have watched it drop too many important things.
 So I externalize compulsively: notes, daily questions, workstacks, process documents, this blog.
-Anything that lives only in a head dies the moment you switch teams, or get tired, or get interrupted.
+Anything you keep only in your head is lost the moment you switch teams, or get tired, or get interrupted.
 Writing does not degrade as it passes through people; speech does, so I write decisions down.
 
 Writing also does something the brain cannot: **it makes what is implicit explicit, so it can be iterated on instead of left unrecorded**.
@@ -84,15 +84,15 @@ An unrecorded thought cannot be revised; it can only be had again, slightly diff
 
 And, finally, I write because I do not know what I think until I do.
 The first beneficiary of anything I write is me, because the act of writing is the act of finding out what I believe.
-A verbal decision is just an opinion that hasn't been overwritten yet; a written one travels to the rooms I am not in and makes its case without me.
-This is why the blog exists, why the [principles file](../principles/index.md) exists, why the daily questions exist.
+A verbal decision is just an opinion that has not been replaced yet; a written decision reaches people I am not with and argues for itself without me.
+Writing is why the blog exists, why the [principles file](../principles/index.md) exists, why the daily questions exist.
 They are not records of conclusions I had already reached.
-They are the instrument that reaches them.
+They are how I reach those conclusions.
 
 Then I encode.
-If a rule lives only in my review comments, it runs only when I am awake, looking, and willing to argue.
-If it lives in a gate, a template, a paved path, it runs always.
-**A standard runs whether or not anyone agrees with it. An opinion dies the moment you go on vacation.**
+If a rule exists only in my review comments, it runs only when I am awake, looking, and willing to argue.
+If it is recorded in a gate, a template, a supported default, it runs always.
+**A standard runs whether or not anyone agrees with it. An opinion stops applying the moment you go on vacation.**
 
 ## Verify, do not trust
 
@@ -114,28 +114,28 @@ Consistently wrong is worse than inconsistently right, and the only way to avoid
 Keeping up is a losing strategy; the target moves faster than any consumption can match.
 
 **The move is not to consume more but to build a funnel that throws almost everything away, confidently and without guilt.**
-Treat urgency as a sales pitch from someone with an incentive to inflate it.
+Treat urgency as something someone benefits from exaggerating.
 Prefer pull over push: knowing where to find something when I need it beats knowing it now.
 Re-audit the filter periodically, because filters are themselves depreciating assets.
 
 **Asymmetry favors the tighter filter.**
-I would rather miss something than be drowned by it, and I would rather be surprised by a concept I can reuse for a decade than briefed on ten things I will forget next week.
+I would rather miss something than be overwhelmed by it, and I would rather be surprised by a concept I can reuse for a decade than briefed on ten things I will forget next week.
 
 ## The moral register
 
 I keep this part out of most of my writing, because it does not look like the rest, but it is central.
-My philosophical home is Stoic.
+My philosophy is Stoic.
 The happiness of your life depends upon the quality of your thoughts.
 People are frugal in guarding their property but wasteful of the one thing in which it is right to be stingy, which is time.
 He who spares the wicked injures the good.
 These are not decorative quotes to me; they are the axioms the rest has to be consistent with.
 
-From which: tolerate bad behavior and you harm the good; never discourage anyone who continually makes progress no matter how slow; a fast, clear no is a gift, not an injury; skip the blame during the incident and save it for the post-mortem; a father who can admit in writing where he fell short gives his children permission to be imperfect too.
-I keep a register of my own failures, not as self-punishment, but because a rule without its wound is a slogan, and the wound is the part that is actually useful to inherit.
+From which: tolerate bad behavior and you harm the good; never discourage anyone who continually makes progress no matter how slow; a fast, clear no is a gift, not an injury; skip the blame during the incident and save it for the post-mortem; a father who can admit in writing where he failed gives his children permission to be imperfect too.
+I keep a register of my own failures, not as self-punishment, but because a rule without the failure that produced it is a slogan, and that failure is the part worth passing on.
 
 I am existentialist about meaning and utilitarian about consequences, and I see no contradiction.
 **Life does not have a meaning. You define the meaning of your life.**
-From there, the reasonable project is to reduce pain or increase capability for the largest population you can reach, accepting that capitalism will mostly reward you for producing work whose purpose is, in the grand scheme, about survival.
+From there, the reasonable goal is to reduce pain or increase capability for the largest population you can reach, accepting that capitalism will mostly reward you for producing work whose purpose is, in the end, about survival.
 I do not find this grim; I find it clarifying.
 It means the meaning is mine to assign and the assignment is allowed to be revised.
 
@@ -144,7 +144,7 @@ It means the meaning is mine to assign and the assignment is allowed to be revis
 **Do not define your identity by what the people around you do.**
 If their standards are lower than yours and they do things you do not want to see done, that is not permission to lower yours to match.
 Most people drift toward the average of their environment without noticing, and the excuse is always that everyone else is doing it.
-The fact that someone else cuts a corner does not make the corner straight.
+The fact that someone else does something wrong does not make it right.
 
 Be your own standard setter.
 Be what you would want others to be, regardless of whether they are.

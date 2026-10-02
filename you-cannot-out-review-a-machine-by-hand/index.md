@@ -4,7 +4,7 @@ title: "You Cannot Out-Review a Machine by Hand"
 created: 2026-08-19
 type: post
 status: finished
-tags: [ai, llm, software-engineering, review, productivity, negotiation, fully-ai-generated, llm=glm-5.2, llm=glm-5.3]
+tags: [ai, llm, software-engineering, review, productivity, negotiation, fully-ai-generated, llm=glm-5.2, llm=glm-5.3, llm=deepseek-v4.1-flash]
 readability: 3
 audience_notes: >
   Assumes the reader already uses LLMs for production work (writing, coding, drafting) and has felt the gap between how fast a counterparty can generate documents and how fast a human can read them. No introduction to LLMs.
@@ -40,10 +40,10 @@ Items arrive at the producer's production rate and leave at your review rate.
 The only tool that could lift your review rate to match is the one being banned.
 A model can triage a hundred documents, flag the three that matter, and summarize the rest in the time it takes you to open the first one.
 That is exactly the capacity the rule removes from your side.
-**Forbid the reviewer's LLM and you have not protected quality; you have guaranteed the reviewer loses the race.**
+**Forbid the reviewer's LLM and you have not protected quality; you have guaranteed the reviewer cannot keep up.**
 
 This is not a question of effort or discipline.
-No amount of reading faster, staying later, or caring more will close a gap between a human's reading speed and a machine's generation speed.
+No amount of reading faster, working longer hours, or caring more will close a gap between a human's reading speed and a machine's generation speed.
 The two rates are different categories.
 
 ## The Rule Is Never Applied to Production
@@ -51,7 +51,7 @@ The two rates are different categories.
 Every time I ask what justifies the rule, I get the same reasons.
 Quality.
 Confidentiality.
-"I want a real human looking at this."
+"I want an actual human looking at this."
 Trust.
 
 None of those reasons are applied to the producer.
@@ -59,15 +59,15 @@ If quality required a human, the producer's output would be human-written too.
 If confidentiality forbade a model, it would forbid the model on both sides.
 **A rule that binds only the reviewer is not a rule about quality; it is a rule about leverage.**
 
-The tell is the asymmetry itself.
+The giveaway is the asymmetry itself.
 A counterparty who genuinely believed human attention was the safeguard would insist on it for the work they send you, not only for the work you send back.
 When the standard runs in one direction, the standard is a tactic.
 
 ## Flood Is an Old Tactic; LLMs Made It Cheap
 
 Overwhelming a reviewer with volume is one of the oldest leverage moves in negotiation and review.
-Bury the clause, exhaust the reader, let fatigue do the accepting.
-It used to cost real effort to produce that volume, which capped the abuse.
+Hide the clause in the volume, and exhaust the reader until they accept.
+It used to cost considerable effort to produce that volume, which capped the abuse.
 
 LLMs removed the cap.
 Producing fifty variations, fifty justifications, and fifty follow-up questions now costs minutes and cents.
@@ -79,7 +79,7 @@ That is not a process; it is a [denial-of-service](https://en.wikipedia.org/wiki
 Once the queue exceeds what a human can read carefully, the review degrades in one of two directions, and both favor the producer.
 
 You triage, skimming for flags, and the unflagged majority passes unread.
-Or you tire, and you rubber-stamp.
+Or you tire, and you approve without checking.
 Either way, the work ships with less scrutiny than a smaller, human-paced batch would have received.
 **The flood does not get reviewed more rigorously for being human-reviewed; it gets reviewed less, because humans have a finite attention budget and the producer is spending it for them.**
 

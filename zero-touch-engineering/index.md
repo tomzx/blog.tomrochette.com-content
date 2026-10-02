@@ -4,7 +4,7 @@ title: "Zero Touch Engineering"
 created: 2026-08-04
 type: post
 status: finished
-tags: [llm, ai-agents, automation, software-engineering, zero-touch, fully-ai-generated, llm=glm-5.2, llm=glm-5.3]
+tags: [llm, ai-agents, automation, software-engineering, zero-touch, fully-ai-generated, llm=glm-5.2, llm=glm-5.3, llm=deepseek-v4.1-flash]
 readability: 4
 audience_notes: >
   Assumes the reader ships software through a CI/CD pipeline, has used an LLM coding agent, and is comfortable with continuous deployment. No introduction to LLMs or DevOps.
@@ -13,7 +13,7 @@ agent_sessions:
 ---
 
 "Zero touch" has been a goal in software-adjacent fields for over a decade.
-Networks provision themselves, deployments ship on green, and operations teams have been shrinking toward zero.
+Networks provision themselves, deployments go out when the checks pass, and operations teams have been shrinking toward zero.
 **The one stage that resisted zero touch was the engineering itself: deciding what to build, writing it, and deciding it is good enough to ship.**
 That is the part LLM agents are now closing.
 
@@ -22,14 +22,14 @@ Zero touch engineering has a clear lineage in networking and operations, and tha
 
 ## Where "zero touch" already lives
 
-The phrase has a precise home, and it is not software development.
+The phrase comes from a precise field, and it is not software development.
 
 **Zero-touch provisioning (ZTP)** remotely configures network devices (switches, routers, access points) with no per-device manual setup, standardized by the IETF as Secure ZTP in [RFC 8572](https://datatracker.ietf.org/doc/rfc8572/).
 Plug a device in and it fetches its configuration, authenticates, and joins the network on its own ([Wikipedia, "Zero-touch provisioning"](https://en.wikipedia.org/wiki/Zero-touch_provisioning)).
 
 The telecom world generalized the idea into [ETSI's Zero-touch network and Service Management (ZSM)](https://www.etsi.org/committee/zsm), a standards group formed in 2017 with the explicit goal of "100% automation" of operational processes, now actively working on closed-loop, AI-agent-driven architectures.
 
-Closer to software, two more ideas occupy the same ground.
+Closer to software, two more ideas share the same theme.
 [NoOps](https://web.archive.org/web/20260418062521/https://www.techtarget.com/searchitoperations/definition/NoOps), coined by Forrester in 2011, is the vision that IT operations becomes so automated that developers never need to talk to an operations engineer again.
 [Continuous deployment](https://en.wikipedia.org/wiki/Continuous_deployment) removes the last human gate from delivery: every change that passes its checks goes to production, automatically.
 
@@ -41,7 +41,7 @@ Deploy this artifact.
 Page this on-call.
 There is no judgment left to encode, because the procedure was already mechanical and we just had humans performing it.
 
-That is exactly why none of them touched engineering.
+That is exactly why none of them applied to engineering.
 **Engineering is the stage that is not deterministic.**
 Deciding what to work on, judging whether a change is worth shipping, choosing between two reasonable designs: these are judgments, not procedures.
 You cannot automate a judgment you cannot first write down.
@@ -83,11 +83,11 @@ The holdout was Decide.
 
 Deciding what to work on is a sequence of judgments: which problems are worth solving, which are urgent, which should be declined, which need an architectural change versus an incremental fix.
 As I argued in [The Shifting Bottleneck](../the-shifting-bottleneck/index.md), every time AI removes a constraint at one stage, the next constraint appears one level higher up the decision chain.
-Producing code dissolved into verification.
-Verification dissolved into deciding what to implement.
-Deciding what to implement dissolved into deciding what to build.
+The constraint moved from producing code to verification.
+The constraint moved from verification to deciding what to implement.
+The constraint moved from deciding what to implement to deciding what to build.
 
-The bottleneck climbed until it landed on the one thing that could not be mechanized: judgment about direction.
+The bottleneck moved up until it reached the one thing that could not be mechanized: judgment about direction.
 That judgment is the gate ZTE has to remove, and removing it is a different kind of change from removing a deploy button.
 A deploy button is a procedure.
 Direction is taste, context, and tradeoff.
@@ -98,7 +98,7 @@ So ZTE is not a tool you install.
 ## ZTE is proportional to encoded judgment
 
 The encoded-judgment measure gives a useful test for how close a team or project is to zero touch engineering.
-**Measure how much of the decision loop is encoded versus sitting in someone's head.**
+**Measure how much of the decision loop is encoded versus kept only in someone's head.**
 
 The projects closest to ZTE encode five things: the same five I described in [The Self-Evolving Repository](../the-self-evolving-repository/index.md), because that article was about ZTE without using the word.
 
@@ -119,12 +119,12 @@ You trust the verification system.
 **A learning loop** that turns every failed change into a future constraint.
 
 When all five are in place, the loop closes and the process is touchless.
-When any one is missing, a human has to step back in at that gap.
+When any one is missing, a human has to fill that gap.
 **The degree of zero touch is exactly the degree of encoded judgment, nothing more.**
 
 ## Where the human re-enters
 
-A fully closed loop still has a leak, and the leak is direction.
+A fully closed loop still has one gap, and that gap is direction.
 
 A ZTE system that only reacts to observable signals will optimize for whatever those signals measure.
 Bug reports as the only signal produce a system excellent at fixing bugs and terrible at anything else.
