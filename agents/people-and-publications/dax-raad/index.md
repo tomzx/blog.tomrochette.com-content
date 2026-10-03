@@ -1,7 +1,7 @@
 ---
 title: Dax Raad
 created: 2026-09-24
-updated: 2026-09-24
+updated: 2026-10-03
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, people, publications, coding-agents, opencode, practitioner]
 readability: 3
@@ -16,7 +16,7 @@ Dax Raad (GitHub and X handle thdxr) is the builder behind SST and the open-sour
 
 ## What it is
 
-A serial infrastructure builder's trail: SST (about 26.3k stars as of 2026-09-24), OpenAuth, OpenNext, and OpenCode, the MIT coding agent he launched with a Show HN in May 2025 and which now shows about 210k stars under Anomaly as of 2026-09-24.
+A serial infrastructure builder's trail: SST (about 26.3k stars as of 2026-10-03), OpenAuth, OpenNext, and OpenCode, the MIT coding agent he launched with a Show HN in May 2025 and which now shows about 212k stars under Anomaly as of 2026-10-03.
 The section's OpenCode note documents the tool's measured token leanness and its 2026 CVE and Anthropic-OAuth history.
 His GitHub bio currently reads "building SST and @withbumi", pointing at Bumi, a healthcare software product.
 There is no blog to subscribe to: his personal site thdxr.com has been dormant since October 2021 and its bio is stale.
@@ -26,7 +26,7 @@ There is no blog to subscribe to: his personal site thdxr.com has been dormant s
 Active as a maintainer, defender, and occasional poster, with a scattered publication footprint.
 He answered a detailed July 2026 security takedown of OpenCode (wren.wtf's "Stop Using OpenCode") point by point in the Hacker News thread himself, citing v2 beta fixes, pruning disabled by default, and a cache-friendly system-prompt design.
 He still submits stories to Hacker News (Rebase, July 2026) and surfaces in third-party accounts: commenters call him "creator of opencode" and "behind OC", and he has given podcast interviews (Pragmatic Engineer and Pragmatic Programmer, per commenters) plus YouTube interviews on OpenCode's architecture and business model.
-He had 5.2k GitHub followers as of 2026-09-24.
+He had 5.3k GitHub followers as of 2026-10-03.
 
 ## Strengths
 
@@ -59,12 +59,13 @@ Not for readers who need a citable feed or essays, and not as a source on Exo La
 - [Annoying and alarming things about OpenCode](https://news.ycombinator.com/item?id=48978112) - The thread where he answered the sharpest security critique of his tool point by point, naming versions, defaults, and internal data.
 - [Building OpenCode with Dax Raad](https://www.youtube.com/watch?v=1VqKUrxR2C8) - The Pragmatic Engineer video interview, his most-watched long-form account of the terminal architecture and business model.
 - [Building the Future of coding, OpenCode with Dax Raad](https://www.youtube.com/watch?v=IGsbARhERqc) - The NeetCode interview covering the Claude Code drama, agent design, and where he thinks programming is heading.
-- [OpenCode](https://github.com/sst/opencode) - The tool itself, whose repository README is the canonical statement of what he built and why.
+- [OpenCode](https://github.com/anomalyco/opencode) - The tool itself, whose repository README is the canonical statement of what he built and why (the repository moved from the sst org to anomalyco).
 
 ## Changes
 
 - 2026-09-24 - Created, with the commissioned Exo Labs founder premise marked unverified against fetched sources.
 - 2026-09-24 - Added the Top 5 recommended reading section.
+- 2026-10-02 - Updated the Top 5 OpenCode link to github.com/anomalyco/opencode after the repository's 301 redirect from sst/opencode.
 
 ## See also
 
@@ -76,7 +77,7 @@ Not for readers who need a citable feed or essays, and not as a source on Exo La
 
 ## References
 
-- https://github.com/thdxr - profile: bio, 5.2k followers, pinned SST, OpenCode, OpenAuth, and OpenNext repositories
+- https://github.com/thdxr - profile: bio, 5.3k followers, pinned SST, OpenCode, OpenAuth, and OpenNext repositories
 - https://thdxr.com/ - his personal site, dormant since October 2021, grounding the no-blog caution
 - https://hn.algolia.com/api/v1/search?query=%22dax+raad%22&hitsPerPage=20 - third-party record: OpenCode creator, podcast and YouTube interviews, quoted posts
 - https://hn.algolia.com/api/v1/search?tags=author_thdxr&hitsPerPage=15 - his Show HN launch of OpenCode and his own replies to critics

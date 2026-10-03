@@ -1,7 +1,7 @@
 ---
 title: LobeHub
 created: 2026-09-27
-updated: 2026-09-27
+updated: 2026-10-03
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, agent-platform, source-available, self-hosted]
 readability: 3
@@ -24,7 +24,7 @@ The vendor is LobeHub LLC, which grew the product from the LobeChat project crea
 
 ## Status
 
-Active and shipping fast: the repo shows 82,951 stars, about 16k forks, and a push on 2026-10-01 (GitHub API, as of 2026-10-02).
+Active and shipping fast: the repo shows 82,957 stars, about 16k forks, and a push on 2026-10-03 (GitHub API, as of 2026-10-03).
 The release train is canary-grade desktop builds published several times a day; v2.2.19-canary.35 landed 2026-10-01.
 The rebrand from LobeChat is visible in the license text itself, which reads "From 1.0, LobeChat is licensed under the LobeHub Community License".
 Community footprint outside its own channels is thin: the best HN thread about it (as LobeChat) reached 7 points in July 2024, and my HN search for the current name returned nothing above noise.

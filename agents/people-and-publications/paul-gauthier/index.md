@@ -1,7 +1,7 @@
 ---
 title: Paul Gauthier
 created: 2026-09-24
-updated: 2026-09-24
+updated: 2026-10-02
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, people, publications, coding-agents, open-source, pair-programming, cli-tools]
 readability: 3

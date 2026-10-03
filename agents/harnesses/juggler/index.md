@@ -1,7 +1,7 @@
 ---
 title: Juggler
 created: 2026-08-30
-updated: 2026-10-02
+updated: 2026-10-03
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agents, harnesses, gui, go]
 readability: 3
@@ -27,8 +27,8 @@ Made by Julian Storer (JUCE, Tracktion, Cmajor), distributed as signed installer
 
 **Young, active, and single-maintainer, with a strong launch.**
 The public Show HN on July 12, 2026 drew 280 points and 119 comments ([HN](https://news.ycombinator.com/item?id=48883305)).
-604 stars and 46 forks as of 2026-10-02 on a repo created June 19, 2026 (GitHub API).
-Shipping is steady: v0.7.3 published September 30, 2026, adding a "Group" workspace type that organizes conversations without a worktree or copy, usage meters that redden by pace against the window rather than by quota consumed, touch-device fixes, and an LM Studio provider that reads each model's loaded context window; v0.7.2 (September 28) added a first-launch setup walk-through that detects installed providers, folder drop-to-open, and a welcome panel listing recent projects, and v0.7.1 added side-by-side diffs with adjustable context, workspace panel polish, and OpenRouter presets in the model list; v0.7.0 (September 24) added workspaces with git worktrees, throwaway scratch copies, or subfolders as session targets, and v0.6.4 followed on September 14.
+732 stars and 51 forks as of 2026-10-03 on a repo created June 19, 2026 (GitHub API), over a hundred stars more than the day before.
+Shipping is steady: v0.7.4 published October 2, 2026, adding per-provider toggles for Codex and Copilot subscriptions, thinking levels for Ollama models, a file viewer that plays video and audio and opens more image formats, and a fix for slow-starting WSL sessions on Windows; v0.7.3 (September 30) added a "Group" workspace type that organizes conversations without a worktree or copy, usage meters that redden by pace against the window rather than by quota consumed, touch-device fixes, and an LM Studio provider that reads each model's loaded context window.
 One person builds it, which is both the reason it ships fast and the project's single point of failure.
 
 ## Strengths
@@ -69,6 +69,7 @@ I think the harnesses that win the GUI layer will be the ones that treat convers
 - 2026-09-24 - Recorded the v0.7.0 release (September 24), which added workspaces (git worktrees, scratch copies, or subfolders), and refreshed counters.
 - 2026-09-29 - Recorded the v0.7.1 (September 27, side-by-side diffs, workspace polish, OpenRouter presets) and v0.7.2 (September 28, first-launch provider setup, folder drop-to-open, welcome panel) releases and refreshed counters.
 - 2026-10-02 - Recorded the v0.7.3 release (September 30), which added a Group workspace type, pace-based usage meters, touch fixes, and an LM Studio provider reading each model's context window, and refreshed counters.
+- 2026-10-03 - Recorded the v0.7.4 release (October 2), which added per-provider Codex and Copilot subscription toggles, Ollama thinking levels, media playback in the file viewer, and a Windows WSL fix, and refreshed counters (732 stars, 51 forks), over a hundred new stars in a day.
 
 ## See also
 
@@ -79,8 +80,8 @@ I think the harnesses that win the GUI layer will be the ones that treat convers
 
 ## References
 
-- https://github.com/juggler-ai/juggler - repository, AGPL-3.0 app code with Apache-2.0 extensions, 604 stars as of 2026-10-02
+- https://github.com/juggler-ai/juggler - repository, AGPL-3.0 app code with Apache-2.0 extensions, 732 stars as of 2026-10-03
 - https://juggler.studio/ - product claims, provider list, session model
 - https://raw.githubusercontent.com/juggler-ai/juggler/main/README.md - architecture, licensing map, build model
 - https://news.ycombinator.com/item?id=48883305 - the July 12, 2026 launch thread, 280 points (verified via Algolia API)
-- https://github.com/juggler-ai/juggler/releases - v0.7.3, published 2026-09-30 (verified via GitHub API)
+- https://github.com/juggler-ai/juggler/releases - v0.7.4, published 2026-10-02 (verified via GitHub API)

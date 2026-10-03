@@ -10,11 +10,15 @@ readability: 3
 
 Running many coding agents at once: worktree managers, kanbans, terminal multiplexers, dashboards, the mobile clients that supervise them from anywhere, and the multi-agent frameworks that coordinate the agents themselves.
 
+- [Agent Swarm](agent-swarm/index.md) - the MIT self-hosted lead/worker platform turning Slack, GitHub, GitLab, Linear, and email intake into pull requests from Docker-isolated workers.
+- [AgentGrid](agentgrid/index.md) - the closed-source desktop canvas arranging agents, terminals, browsers, and diffs as panes, with a master agent delegating to workers over MCP.
+- [AgentsMesh](agentsmesh/index.md) - the BSL-1.1 self-hosted fleet console turning registered machines into AgentPods with tickets, channels, and automated loops.
 - [Agno](agno/index.md) - the Apache-2.0 Python agent platform, formerly Phidata, pairing a self-hosted AgentOS runtime with a $150-per-month control plane.
 - [Atlas](atlas/index.md) - the Apache-2.0 Rust desktop app that treats source control as the product, turning every agent run into a checkpoint linking commits to prompts, tool calls, and reasoning.
 - [AutoGen](autogen/index.md) - Microsoft's conversational multi-agent framework, now in maintenance mode with Microsoft Agent Framework as the designated successor.
 - [AutoGPT](autogpt/index.md) - the 2023 autonomous-agent phenomenon rebuilt as an active hosted-plus-self-host workflow platform with a visual builder and marketplace.
 - [AX](ax/index.md) - Google's Kubernetes-native orchestrator that runs agent tasks, workspaces, and network gates as declarative cluster manifests, the category's first datacenter-scale control plane.
+- [Buzz](buzz/index.md) - Block's Apache-2.0 Nostr-relay team communication platform where humans and agents are first-class equals, carrying search, workflows, and git hosting on one signed event log.
 - [Claude Squad](claude-squad/index.md) - free AGPL terminal app running multiple coding agents in tmux, each in its own worktree.
 - [cmux](cmux/index.md) - Manaflow's libghostty macOS terminal for parallel agents, notification rings free, cloud execution paid (Pro $50, Max $200 monthly).
 - [Conductor](conductor/index.md) - the macOS app for parallel Claude Code, Codex, Cursor, and OpenCode sessions with diff review and PR flow.
@@ -36,7 +40,7 @@ Running many coding agents at once: worktree managers, kanbans, terminal multipl
 - [LoopTroop](looptroop/index.md) - the MIT local GUI orchestrator using multi-model council planning, atomic beads, and fresh-context Ralph loops over OpenCode.
 - [Mastra](mastra/index.md) - the TypeScript agent framework from the Gatsby team, 7.1M npm downloads a month and $35M raised, scarred by a June 2026 npm supply-chain attack.
 - [MetaGPT](metagpt/index.md) - FoundationAgents' software-company-as-multi-agent framework, quiet since v0.8.2 with the energy moved to OpenManus.
-- [Multica](multica/index.md) - the source-available, self-hostable workspace that assigns issues to coding agents as teammates, 51.8k stars as of 2026-10-02.
+- [Multica](multica/index.md) - the source-available, self-hostable workspace that assigns issues to coding agents as teammates, 51.9k stars as of 2026-10-03.
 - [oh-my-codex](oh-my-codex/index.md) - the MIT workflow layer for OpenAI Codex CLI adding skills, hooks, HUD, memory, and worktree team execution.
 - [Omnara](omnara/index.md) - the YC S25 Apache-2.0 Go control plane where agents are YAML and supervision happens from dashboard, phone, CLI, API, or Slack.
 - [Open Swarm](open-swarm/index.md) - the AGPL-3.0 local mission-control canvas for launching and approving several Claude agents with per-session cost tracking.
@@ -95,3 +99,7 @@ Its members are compared on shared rows in the [Orchestration Feature Matrix](or
 - 2026-09-29 - Added Sim.
 - 2026-09-29 - Added Squad.
 - 2026-10-02 - Added OpenRig.
+- 2026-10-03 - Added Agent Swarm.
+- 2026-10-03 - Added AgentGrid.
+- 2026-10-03 - Added AgentsMesh.
+- 2026-10-03 - Added Buzz.

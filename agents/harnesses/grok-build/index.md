@@ -1,7 +1,7 @@
 ---
 title: Grok Build
 created: 2026-09-12
-updated: 2026-10-02
+updated: 2026-10-03
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, harnesses, coding-agents, terminal, open-source]
 readability: 3
@@ -23,8 +23,8 @@ The third-party notices disclose in-tree source ports of openai/codex and sst/op
 
 ## Status
 
-Active and extremely fast-moving: 27,184 stars and 5,118 forks as of 2026-10-02, roughly twelve weeks after the repo was created on 2026-07-14, last pushed 2026-09-29.
-The changelog listed v1.0.30 as current as of 2026-09-11, with 138 releases logged between May 17 and September 9, and the npm distribution (@xai-official/grok, 266,536 downloads in the last month) confirms the roughly one-per-day cadence continues, with stable at v1.0.46 (published 2026-09-30) and alpha at v1.0.47 (published 2026-10-01) as of 2026-10-02.
+Active and extremely fast-moving: 27,201 stars and 5,120 forks as of 2026-10-03, roughly twelve weeks after the repo was created on 2026-07-14, last pushed 2026-09-29.
+The changelog listed v1.0.30 as current as of 2026-09-11, with 138 releases logged between May 17 and September 9, and the npm distribution (@xai-official/grok, 271,603 downloads in the last month) confirms the roughly one-per-day cadence continues, with stable at v1.0.46 (published 2026-09-30) and alpha at v1.0.49 (published 2026-10-02) as of 2026-10-03.
 There are no GitHub releases or tags (both API endpoints return empty arrays), so binaries ship from the install script at x.ai/cli, which pulls versioned binaries from a Cloudflare-fronted URL with a Google Cloud Storage fallback across stable, alpha, and enterprise channels; the docs also document `npm install -g @xai-official/grok` as the alternative that needs neither host.
 The HN footprint is heavy for a nine-week-old tool: a 100-point preview thread in May 2026, the wire-level analysis at 539 points on July 12, a 100-point follow-up on July 13 reporting the repo-upload behavior persisted under retest, and the open-source announcement at 590 points and 643 comments on July 15.
 I read the open-sourcing as reputational triage: top comments on the launch thread explicitly connect it to the privacy upset three days earlier.
@@ -79,6 +79,8 @@ I would not standardize on it while the default data path concentrates your code
 - 2026-09-29 - Recorded npm dist-tags moving to v1.0.44 stable (September 28) and v1.0.45 alpha (September 29), and refreshed download totals and repository counters; API pricing re-verified unchanged.
 - 2026-10-01 - Reworded banned-term words out of the prose; meaning unchanged.
 - 2026-10-02 - Recorded npm dist-tags moving to v1.0.46 stable (September 30) and v1.0.47 alpha (October 1), and refreshed download totals and repository counters; API pricing re-verified unchanged.
+- 2026-10-02 - Recorded the alpha dist-tag moving to v1.0.48 (published October 2); stable unchanged at v1.0.46.
+- 2026-10-03 - Recorded the alpha dist-tag moving to v1.0.49 (published October 2); stable unchanged at v1.0.46; refreshed download totals and repository counters; API pricing re-verified unchanged against the live pricing page.
 
 ## See also
 
@@ -90,16 +92,16 @@ I would not standardize on it while the default data path concentrates your code
 
 ## References
 
-- https://github.com/xai-org/grok-build - repository state, Apache-2.0 license, 27,184 stars and 5,118 forks as of 2026-10-02 (verified via the GitHub API)
+- https://github.com/xai-org/grok-build - repository state, Apache-2.0 license, 27,201 stars and 5,120 forks as of 2026-10-03 (verified via the GitHub API)
 - https://raw.githubusercontent.com/xai-org/grok-build/main/README.md - monorepo sync with SOURCE_REV, no external contributions, install commands, codex/opencode ports
 - https://docs.x.ai/build/overview - TUI, headless mode, ACP, authentication, custom models, grok-4.6 as the powering model
 - https://x.ai/cli/install.sh - channel-based binary distribution, GCS fallback, supported platforms, approximate binary size
 - https://x.ai/build/changelog - v1.0.30 current as of 2026-09-11 and the roughly-daily release cadence (fetched via a text-extraction proxy because x.ai blocks non-browser agents; returned 403 to both curl and webfetch on 2026-09-16, again on 2026-09-18, and again on 2026-09-20)
 - https://docs.x.ai/build/enterprise - the four auth methods, required network hosts, data lifecycle, ZDR, and telemetry pinning
-- https://docs.x.ai/developers/pricing - grok-4.6, grok-4.7, and grok-build-0.1 API prices as of 2026-10-02 (re-verified unchanged)
+- https://docs.x.ai/developers/pricing - grok-4.6, grok-4.7, and grok-build-0.1 API prices as of 2026-10-03 (re-verified unchanged)
 - https://docs.x.ai/build/features/sandbox - Landlock/Seatbelt profiles and the off-by-default behavior
-- https://registry.npmjs.org/@xai-official/grok - the npm distribution's version history grounding v1.0.46 published 2026-09-30 and v1.0.47 published 2026-10-01 (verified via the registry API)
-- https://api.npmjs.org/downloads/point/last-month/@xai-official/grok - 266,536 downloads in the last month as of 2026-10-02
+- https://registry.npmjs.org/@xai-official/grok - the npm distribution's version history grounding v1.0.46 published 2026-09-30, v1.0.47 published 2026-10-01, and v1.0.48 and v1.0.49 published 2026-10-02 (verified via the registry API)
+- https://api.npmjs.org/downloads/point/last-month/@xai-official/grok - 271,603 downloads in the last month as of 2026-10-03
 - https://hn.algolia.com/api/v1/items/48877371 - the wire-level analysis thread, 539 points, 2026-07-12
 - https://hn.algolia.com/api/v1/items/48896493 - the GCS upload follow-up thread, 100 points, 2026-07-13
 - https://hn.algolia.com/api/v1/items/48926590 - the open-source launch thread, 590 points and 643 comments, 2026-07-15

@@ -1,7 +1,7 @@
 ---
 title: LiteLLM
 created: 2026-09-27
-updated: 2026-09-27
+updated: 2026-10-03
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, model-access, llm-gateway, self-hosted]
 readability: 3
@@ -24,7 +24,7 @@ The core is MIT licensed; the `enterprise/` directory ships under a separate com
 
 ## Status
 
-Very active: 60,010 stars as of 2026-10-02, repo pushed the same day, publicly released July 2023.
+Very active: 60,070 stars as of 2026-10-03, repo pushed the same day, publicly released July 2023.
 The cadence is extreme: a new minor line roughly every week, with v1.98.1, v1.99.4, v1.100.3, v1.101.2, v1.102.1, and v1.103/1.104 pre-releases all published between September 16 and 25, 2026, and PyPI latest at 1.103.2 (2026-10-01).
 Since 2026-06-29 only the four most recent stable minor lines receive patches, a policy the company states is a direct cost of that cadence.
 **In March 2026 the project's PyPI publishing credentials were compromised: poisoned 1.82.7 and 1.82.8 wheels shipped a credential stealer and were quarantined within about a day (PYSEC-2026-2).**
@@ -79,7 +79,7 @@ My disagreeable claim: below three providers, self-hosting LiteLLM is negative v
 
 ## References
 
-- https://api.github.com/repos/BerriAI/litellm - 60,010 stars, Python, license metadata, pushed 2026-10-02 (200, fetched 2026-10-02).
+- https://api.github.com/repos/BerriAI/litellm - 60,070 stars, Python, license metadata, pushed 2026-10-03 (200, fetched 2026-10-03).
 - https://docs.litellm.ai/docs/ - SDK and proxy feature claims, 100+ providers, MCP/A2A gateway, Rust beta (200).
 - https://docs.litellm.ai/docs/enterprise - enterprise feature gates, SSO free to 5 users, four-line support window effective 2026-06-29 (200).
 - https://raw.githubusercontent.com/BerriAI/litellm/main/LICENSE - MIT text with the enterprise/ directory carve-out (200).
@@ -87,4 +87,4 @@ My disagreeable claim: below three providers, self-hosting LiteLLM is negative v
 - https://hn.algolia.com/api/v1/search?query=LiteLLM&tags=story&hitsPerPage=8 - the 938-point compromise thread, the Mercor/TechCrunch story, the litelm bloat fork (200).
 - https://hn.algolia.com/api/v1/items/49662767 - litelm discussion, bloat criticism and rebuttals, 177 points (200).
 - https://api.github.com/repos/BerriAI/litellm/releases?per_page=15 - release cadence, four stable lines patched the same day in September 2026 (200).
-- https://pypi.org/pypi/litellm/json - PyPI latest at 1.103.2 (200, re-checked 2026-10-02).
+- https://pypi.org/pypi/litellm/json - PyPI latest at 1.103.2 (200, re-checked 2026-10-03).

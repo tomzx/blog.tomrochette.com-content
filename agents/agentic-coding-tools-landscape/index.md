@@ -1,7 +1,7 @@
 ---
 title: "Agentic Coding Tools Landscape"
 created: 2026-08-22
-updated: 2026-10-02
+updated: 2026-10-03
 status: finished
 tags: [ai, llm, coding-agents, developer-tools, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 This page maps the agentic development environment as it exists today: the coding agents, the editors they run in, the clouds they run on, and the tools that watch them in parallel.
-Everything here was verified against live sources on 2026-10-02.
+Everything here was verified against live sources on 2026-10-03.
 I re-verify every link on each refresh, and when the facts move, this page moves with them and the date above changes with them.
 
 **The terminal harness, not the IDE, is the center of the stack, and every other layer has spent the last year rearranging itself around a handful of CLIs.**
@@ -34,11 +34,11 @@ Underneath all four sit the conventions that make the parts interchangeable: MCP
 [Claude Code](../harnesses/claude-code/index.md) runs in the terminal, in VS Code and JetBrains, as a desktop app, and on the web, with sessions that move between surfaces, subagents, skills, hooks, an Agent SDK, and scheduled cloud routines, at about 148.5k GitHub stars.
 [Codex](../harnesses/codex/index.md) covers the same spread, with a CLI, an IDE extension, desktop, web, and cloud forms, and it configures itself through AGENTS.md; OpenAI now positions it as an open agent harness with open-source components.
 [Gemini CLI](../harnesses/gemini-cli/index.md) was the open-source outlier from a major lab (Apache-2.0, about 107k GitHub stars), but Google moved individual users to Antigravity CLI on June 18, 2026, so its famous free tier is now limited to enterprise licenses and paid API keys.
-[OpenCode](../harnesses/opencode/index.md) is the vendor-neutral entry: open source, any provider, with a TUI, an IDE extension, a desktop app, and a web view built off one codebase, at about 210.7k GitHub stars the most-starred harness in the field.
+[OpenCode](../harnesses/opencode/index.md) is the vendor-neutral entry: open source, any provider, with a TUI, an IDE extension, a desktop app, and a web view built off one codebase, at about 210.7k GitHub stars the most-starred vendor-neutral harness in the field.
 
 The independent tail matters more than its market share suggests.
 [aider](../harnesses/aider/index.md) predates the agentic wave and still does one thing well, pair programming against any LLM with a repo map and automatic commits.
-[Crush](../harnesses/crush/index.md) (Charm, FSL-1.1-MIT, about 28k stars) pulls context from language servers the way an IDE would, and it reads the same AGENTS.md files as the bigger tools.
+[Crush](../harnesses/crush/index.md) (Charm, FSL-1.1-MIT, about 28.5k stars) pulls context from language servers the way an IDE would, and it reads the same AGENTS.md files as the bigger tools.
 [Amp](../harnesses/amp/index.md) bets on remote execution, with "orbs" that keep working after you close the laptop, and as of September 13, 2026 it is free when you bring your own compute, subscriptions, or keys, with token fees on your own API keys dropped outside Enterprise.
 [Junie](../harnesses/junie/index.md) is JetBrains' agent, LLM-agnostic with bring-your-own-key, shipping from the terminal, the IDE, and CI.
 [Cline](../harnesses/cline/index.md) grew out of the VS Code extension generation into a full runtime, about 5.5 million marketplace installs deep.
@@ -96,7 +96,7 @@ Read the caps before you promise anyone a timeline.
 Run enough agents in parallel and your bottleneck stops being generation and starts being supervision.
 The vendors answer inside the harness: subagents in Claude Code and Codex, background agent views, git worktrees everywhere.
 A separate category answers from outside: agentic development environments that run any CLI agent in isolated worktrees and give you one surface to steer and review them all.
-On the GitHub [ade topic](https://github.com/topics/ade), Orca leads with about 83.2k stars as of 2026-10-02, ahead of Paseo and Superset, and the curated [awesome-agent-orchestrators](https://github.com/andyrewlee/awesome-agent-orchestrators) list tracks well over a hundred more across TUIs, desktop apps, swarms, loop runners, and task runners.
+On the GitHub [ade topic](https://github.com/topics/ade), Orca leads with about 84.1k stars as of 2026-10-03, ahead of Paseo and Superset, and the curated [awesome-agent-orchestrators](https://github.com/andyrewlee/awesome-agent-orchestrators) list tracks well over a hundred more across TUIs, desktop apps, swarms, loop runners, and task runners.
 [Omnara](../orchestration/omnara/index.md) (YC S25) pushes the category toward infrastructure: an Apache-2.0 Go control plane where an agent is a YAML config and execution and state live server-side, supervised from a dashboard, phone, CLI, REST API, or Slack, positioned as the open-source alternative to Claude Managed Agents.
 [AX](../orchestration/ax/index.md) (Google) pushes the same direction up to the datacenter: an Apache-2.0 Kubernetes-native control plane where agent tasks, workspaces, and network gates are declarative manifests, with checkpoint-resume measured in about a second.
 
@@ -143,6 +143,8 @@ A harness that adopts the open conventions is making a promise about your exit; 
 - 2026-09-27 - Collapsed the first-paragraph verification chain into a single as-of clause per the quality bar, refreshed the volatile numbers (Orca to about 79k, Kimi Code combined to about 19.1k, Cline installs to about 5.5 million), and moved the stray tracker-link bullet from References into this section.
 - 2026-09-29 - Refreshed the star counts (Claude Code to about 148.5k, OpenCode to about 210.7k) and added the DeepSeek Harness line to the harness tail at about 239k stars with dsh-v0.2.0-rc.1.
 - 2026-10-02 - Refreshed the verification chain, with the Orca ade-topic lead count moved to about 83.2k and the DeepSeek Harness stars to about 241.7k; every other cited count moved under one percent.
+- 2026-10-02 - Narrowed OpenCode's superlative to most-starred vendor-neutral harness, which the DeepSeek Harness line (about 241.7k stars, added 2026-09-29) had made self-contradictory.
+- 2026-10-03 - Refreshed the verification chain, with the Orca ade-topic lead count moved to about 84.1k and the Crush stars to about 28.5k; every other cited count moved under one percent.
 
 ## See also
 

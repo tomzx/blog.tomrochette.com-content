@@ -1,7 +1,7 @@
 ---
 title: Laya
 created: 2026-09-21
-updated: 2026-09-29
+updated: 2026-10-03
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, hybrid-execution, structured-outputs, system-one-models, decision-models, open-weights, multilingual]
 readability: 3
@@ -18,14 +18,14 @@ Laya is an Apache-2.0 family of open-weights "System 1" decision models from Con
 
 Three checkpoints on Hugging Face under the convaiinnovations org: `laya` (ModernBERT-large, 421M parameters, 512-token context, English), `laya-multilingual` (mmBERT-base, 322M parameters, 1024-token context, 100+ languages), and `laya-typed-decisions` (421M, 1024 context, the Jev-style workflows), plus a built-in Router that detects language in sub-milliseconds and dispatches each request to the right checkpoint.
 The question vocabulary mirrors Jev's primitives: `choice` over enumerated criteria, `score` against a rubric, and `noul`, a 0-1 truth value, all answered with calibrated probabilities in one non-autoregressive pass.
-Training uses reinforcement learning against strictly proper scoring rules, the method both this lab and TypeSafe call RLCD, and the models ship as a `pip install laya` package (0.3.23 as of 2026-10-02) rather than a hosted API.
+Training uses reinforcement learning against strictly proper scoring rules, the method both this lab and TypeSafe call RLCD, and the models ship as a `pip install laya` package (0.3.24 as of 2026-10-03) rather than a hosted API.
 Community runtimes extend it past PyTorch: laya-mlx reports 7-14 ms decisions on an M3 Max, and a CoreML port runs offline on Apple Neural Engine.
 
 ## Status
 
-Days old and compounding fast, as of 2026-10-02.
-The main repository was created 2026-09-18 and shows about 29,900 stars, laya-mlx about 6,700 since 2026-09-19, with a CoreML port, third-party demo endpoints, and roughly ten community quantizations appearing within days.
-The author's launch story, "I built non-autoregressive decision models with RL a year ago" (2026-09-19), drew a 1,362-point Hacker News thread as of 2026-10-02, the largest community footprint of any Jev follow-up, and a follow-up gist thread on running Laya offline on an M4 Mac reached 178 points as of 2026-10-02.
+Days old and compounding fast, as of 2026-10-03.
+The main repository was created 2026-09-18 and shows about 30,300 stars, laya-mlx about 6,700 since 2026-09-19, with a CoreML port, third-party demo endpoints, and roughly ten community quantizations appearing within days.
+The author's launch story, "I built non-autoregressive decision models with RL a year ago" (2026-09-19), drew a 1,363-point Hacker News thread as of 2026-10-03, the largest community footprint of any Jev follow-up, and a follow-up gist thread on running Laya offline on an M4 Mac reached 178 points as of 2026-10-03.
 The first independent deployment account landed 2026-09-22: an engineer chose Laya over hosted Jev for local agent routing on a Mac Studio and measured 37 of 40 acceptable decisions on a frozen replay against 33 of 40 for his previous deterministic router, while stating plainly that it was not a Laya-versus-Jev head-to-head.
 On the third-party JevBench board Laya's 421M checkpoint ranks low on both readings (54.4 on v1.2, 30.3 on the current v1.4.2.2 revision, forty-third) and its about $0.0029 per 1,000 decisions is no longer the board's cheapest, two tiny-classifier entrants (Certo v1 and verdict-small) having undercut it in the v1.4.2 additions, but it remains near-free at scale, which is the trade its model card already advertised.
 The headline comparisons remain self-run, but unusually self-critical: the model card carries an "Honest Limits" section conceding that the base checkpoints score near chance on typed-decisions zero-shot (0.362 against a 0.461 majority-class baseline), that the 0.766 headline belongs to a checkpoint fine-tuned on that benchmark's own training split, and that the models ship over-confident until you fit a temperature on your own data.
@@ -71,6 +71,7 @@ The disagreeable claim I will defend: the priority fight is the least interestin
 - 2026-09-26 - Refreshed traction (about 25,000 stars, laya-mlx about 6,400, threads 1,356 and 177 points) and updated the JevBench reading: Laya is ranked forty-first at 30.3 on the v1.4.2 board and no longer the cheapest ranked system, two tiny-classifier entrants (Certo v1, verdict-small) having undercut its about $0.0029 per 1,000 decisions.
 - 2026-09-27 - JevBench's v1.4.2.1 point release shifted Laya one rank to forty-second at the same 30.3.
 - 2026-09-29 - Refreshed traction (about 28,000 stars, laya-mlx about 6,600, PyPI 0.3.21, threads 1,361 and 178 points) and moved the JevBench reading to the v1.4.2.2 board, forty-third at the same 30.3.
+- 2026-10-03 - Recorded the 0.3.24 PyPI release and refreshed traction (about 30,300 stars, the HF card at 5,016 likes, the launch thread at 1,363 points).
 
 ## See also
 
@@ -81,11 +82,11 @@ The disagreeable claim I will defend: the priority fight is the least interestin
 
 ## References
 
-- https://github.com/NandhaKishorM/laya - repository: Apache-2.0, created 2026-09-18, about 29,900 stars, checkpoint table and Router docs (GitHub API, as of 2026-10-02)
+- https://github.com/NandhaKishorM/laya - repository: Apache-2.0, created 2026-09-18, about 30,300 stars, checkpoint table and Router docs (GitHub API, as of 2026-10-03)
 - https://laya.convaiinnovations.com/ - the launch site: 33 ms single-pass and 7.2 ms batched claims, benchmark framing
-- https://news.ycombinator.com/item?id=49765348 - the launch thread (1,362 points as of 2026-10-02, 2026-09-19): context-limit, novelty, and GLiNER criticisms
-- https://pypi.org/project/laya/ - the package: 0.3.23 as of 2026-10-02 (0.3.21 on 09-29, 0.3.20 on 09-25, 0.3.6 on 09-22)
-- https://huggingface.co/convaiinnovations/laya - the primary checkpoint (ModernBERT-large, 421M parameters, 4,864 likes as of 2026-10-02)
-- https://github.com/mizorewww/laya-mlx - the MLX runtime: 7-14 ms on M3 Max, about 6,700 stars as of 2026-10-02
+- https://news.ycombinator.com/item?id=49765348 - the launch thread (1,363 points as of 2026-10-03, 2026-09-19): context-limit, novelty, and GLiNER criticisms
+- https://pypi.org/project/laya/ - the package: 0.3.24 as of 2026-10-03 (0.3.23 on 10-02, 0.3.21 on 09-29, 0.3.20 on 09-25, 0.3.6 on 09-22)
+- https://huggingface.co/convaiinnovations/laya - the primary checkpoint (ModernBERT-large, 421M parameters, 5,016 likes as of 2026-10-03)
+- https://github.com/mizorewww/laya-mlx - the MLX runtime: 7-14 ms on M3 Max, about 6,700 stars as of 2026-10-03
 - https://news.ycombinator.com/item?id=49777106 - the 178-point offline-Mac thread (2026-09-20) grounding the local-runtimes claim
 - https://astgl.com/p/local-laya-vs-hosted-jev-typed-decisions - the independent deployment account: chose Laya for local routing on a Mac Studio, 37/40 versus 33/40 on a frozen replay, explicitly not a Jev head-to-head

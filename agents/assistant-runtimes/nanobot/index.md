@@ -1,7 +1,7 @@
 ---
 title: Nanobot
 created: 2026-08-30
-updated: 2026-09-16
+updated: 2026-10-03
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, assistant-runtimes, python, self-hosted, open-source]
 readability: 3
@@ -23,7 +23,7 @@ Started by Xubin Ren as a personal project, now under the HKUDS lab banner (the 
 
 ## Status
 
-One of the fastest adoption curves in the category: 48,735 stars, 8,598 forks, 808 open issues as of 2026-10-02, created 2026-02-01, pushed the same day.
+One of the fastest adoption curves in the category: 48,749 stars, 8,600 forks, 812 open issues as of 2026-10-03, created 2026-02-01, pushed the same day.
 Sixteen PyPI releases since February 2026, with v0.3.0 on 2026-07-25 followed by a seven-week quiet stretch that v0.3.5 ended on 2026-09-15, and the launch HN thread drew 257 points.
 **PyPI still classifies it Alpha, and one listed maintainer carries the release burden, the two facts I would weight against the star count.**
 
@@ -36,7 +36,7 @@ Sixteen PyPI releases since February 2026, with v0.3.0 on 2026-07-25 followed by
 
 ## Cautions
 
-- Alpha maturity: seven months old, breaking-speed releases, and an 808-issue backlog large for its age.
+- Alpha maturity: seven months old, breaking-speed releases, and an 812-issue backlog large for its age.
 - Single-maintainer concentration on PyPI.
 - The category-level security problem applies in full: shell access plus chat channels plus prompt injection is the surface HN called a security nightmare, and a sibling runtime had an RCE exploit.
 - Lineage questions from the community about NanoClaw inspiration were never clearly addressed.
@@ -73,7 +73,7 @@ Not for production assistants unattended on the open internet, or anyone who nee
 
 - https://github.com/HKUDS/nanobot - repository, features, license, adoption numbers
 - https://raw.githubusercontent.com/HKUDS/nanobot/HEAD/README.md - surfaces, install paths, and the OpenClaw positioning
-- https://pypi.org/project/nanobot-ai/ - the Alpha classification, release cadence, and maintainer record (re-checked 2026-10-02, v0.3.5 still latest)
+- https://pypi.org/project/nanobot-ai/ - the Alpha classification, release cadence, and maintainer record (re-checked 2026-10-03, v0.3.5 still latest)
 - https://news.ycombinator.com/item?id=46897737 - the 257-point launch thread, including the security critique
 - https://github.com/openclaw/openclaw - the comparison baseline
 - https://github.com/zeroclaw-labs/zeroclaw - the comparison data

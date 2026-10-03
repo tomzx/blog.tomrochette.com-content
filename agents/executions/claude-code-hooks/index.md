@@ -1,7 +1,7 @@
 ---
 title: Claude Code hooks
 created: 2026-08-24
-updated: 2026-09-29
+updated: 2026-10-03
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, executions, claude-code, hooks]
 readability: 3
@@ -24,8 +24,8 @@ The same hook events fire in the terminal, IDE extensions, the desktop app, and 
 ## Status
 
 **Active and heavily invested in.**
-The feature ships in the proprietary CLI tracked by the `anthropics/claude-code` repository (about 148.9k stars and roughly 14.0k open issues as of 2026-10-02).
-A third-party ecosystem exists: an HN search surfaces roughly 480 stories mentioning Claude Code hooks, including dedicated tooling like Graft, whose August 2026 launch thread drew 44 comments.
+The feature ships in the proprietary CLI tracked by the `anthropics/claude-code` repository (about 149k stars and roughly 14.1k open issues as of 2026-10-03).
+A third-party ecosystem exists: an HN search surfaces roughly 500 stories mentioning Claude Code hooks, including dedicated tooling like Graft, whose August 2026 launch thread drew 44 comments.
 Anthropic's own security-guidance plugin is built entirely on hooks (SessionStart, UserPromptSubmit, PostToolUse, Stop), which signals production commitment.
 
 ## Strengths
@@ -77,5 +77,5 @@ I would go further: a team that relies on prompt instructions instead of PreTool
 - https://code.claude.com/docs/en/hooks - event reference, handler types, matcher semantics, fail-open caution
 - https://code.claude.com/docs/en/hooks-guide - quickstart, deterministic-control framing, usage costs of model-backed hooks
 - https://code.claude.com/docs/en/security-guidance - the official plugin built entirely on hooks
-- https://github.com/anthropics/claude-code - repository scale, as of 2026-10-02
+- https://github.com/anthropics/claude-code - repository scale, as of 2026-10-03
 - https://news.ycombinator.com/item?id=49299985 - third-party hooks tooling (Graft) and community scrutiny of its benchmark claims

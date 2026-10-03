@@ -1,7 +1,7 @@
 ---
 title: fx
 created: 2026-08-29
-updated: 2026-10-02
+updated: 2026-10-03
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agents, harnesses, zig, vercel, embedding]
 readability: 3
@@ -23,7 +23,7 @@ Feature surface: native [AGENTS.md](https://fx.sh/docs/configure-fx/project-inst
 ## Status
 
 **Active and very young.**
-The repository was created August 11, 2026 and shows 3,249 stars and 360 forks as of 2026-10-02, with v0.0.12 the latest release (published September 30, 2026; session listing up to 560x faster so large stores resume in under a second, better GitHub-flavored Markdown rendering throughout the terminal, and a breaking libfx error-code change) and pushes landing within a day of verification (GitHub API).
+The repository was created August 11, 2026 and shows 3,264 stars and 367 forks as of 2026-10-03, with v0.0.12 the latest release (published September 30, 2026; session listing up to 560x faster so large stores resume in under a second, better GitHub-flavored Markdown rendering throughout the terminal, and a breaking libfx error-code change) and pushes landing within a day of verification (GitHub API).
 The launch thread drew 318 points on August 18, 2026 ([HN](https://news.ycombinator.com/item?id=49353339)).
 The README carries its own banner: "Status: Experimental. Use at your own risk."
 

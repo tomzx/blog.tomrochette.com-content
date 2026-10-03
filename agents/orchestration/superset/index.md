@@ -1,7 +1,7 @@
 ---
 title: Superset
 created: 2026-08-30
-updated: 2026-10-02
+updated: 2026-10-03
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, parallel-agents, ide, worktrees]
 readability: 3
@@ -24,7 +24,7 @@ Elastic License 2.0 (source-available, not OSI open source), by Superset Inc., t
 
 ## Status
 
-Fast and funded: about 14.8k stars, 1.3k forks, 849 open issues and PRs as of 2026-10-02, created 2025-10-21, more than 4,290 commits, latest desktop release v1.33.0 on 2026-09-30 (shared cloud-workspace records with presence, comments, labels, and mentions, plus Claude Sonnet 5.5 in model pickers), following v1.32.0 on 2026-09-29, which let coworkers set up their own cloud environment from the CLI, and v1.31.0 on 2026-09-28, after the v1.30.x line (v1.30.0 on 2026-09-19, which added explicit local workspaces on shared checkouts and clearer automation-creation options, v1.30.1 on September 21, and v1.30.2 on September 22).
+Fast and funded: about 14.8k stars, 1.3k forks, 852 open issues and PRs as of 2026-10-03, created 2025-10-21, more than 4,290 commits, latest desktop release v1.35.0 on 2026-10-02 (a visible host-connection banner, fixed cloud-wake copy, and a task_imports table), following v1.34.0 the same day (per-screen headers that keep window controls in the collapsed sidebar band, and a privacy disclosure of Google user data handling) and v1.33.0 on 2026-09-30 (shared cloud-workspace records with presence, comments, labels, and mentions, plus Claude Sonnet 5.5 in model pickers), following v1.32.0 on 2026-09-29, which let coworkers set up their own cloud environment from the CLI, and v1.31.0 on 2026-09-28, after the v1.30.x line (v1.30.0 on 2026-09-19, which added explicit local workspaces on shared checkouts and clearer automation-creation options, v1.30.1 on September 21, and v1.30.2 on September 22).
 The Launch HN thread drew 108 points and 135 comments, and the founders say they ship daily.
 **Adoption claims beyond GitHub ("tens of thousands of engineers", big-company logos) are self-reported, and the codebase is still founder-dominated.**
 
@@ -75,6 +75,7 @@ Not for Windows or Linux-primary teams, and not for anyone who needs coordinated
 - 2026-09-21 - Recorded the desktop v1.30.1 release (September 21), a fix release following v1.30.0, and refreshed star and tracker counts.
 - 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
 - 2026-09-22 - Recorded the desktop v1.30.2 release (September 22), the pricing page listing a mobile app among Pro features, and refreshed star and tracker counts.
+- 2026-10-03 - Recorded desktop v1.34.0 and v1.35.0 (both October 2: per-screen headers plus a Google user-data privacy disclosure, then the host-connection banner, cloud-wake copy, and a task_imports table) as the new latest releases and refreshed star and tracker counts.
 - 2026-09-27 - Linked the Agentic Development Environment Landscape tracker, the mid-2026 snapshot that named Superset a leader.
 - 2026-09-29 - Recorded the desktop v1.31.0 release (September 28) and refreshed star and tracker counts.
 - 2026-09-30 - Recorded the desktop v1.32.0 release (September 29, CLI setup for coworker cloud environments).

@@ -1,7 +1,7 @@
 ---
 title: ZCode
 created: 2026-09-21
-updated: 2026-09-29
+updated: 2026-10-03
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agents, harnesses, zai, desktop, open-source, security]
 readability: 3
@@ -28,7 +28,7 @@ The repository publishes Apache-2.0 source, but as a two-commit dump with flatte
 The harness launched July 1, 2026 as the official harness for GLM-5.2 and drew a 511-point Hacker News thread the same day ([HN](https://hn.algolia.com/api/v1/items/48753715)).
 On September 18, 2026 a [wire-level analysis](https://blog.ferstar.org/en/posts/zcode-silent-workspace-snapshot-upload/) showed the logged-in client packaging entire workspaces (about 87% .git content) and uploading them encrypted to Aliyun OSS with a server-held key, a behavior no UI toggle stopped and no privacy-policy line disclosed (333- and 261-point threads that day).
 Z.ai admitted the uploads, attributed them to a Repo Wiki indexing feature, shipped client 3.14.0 with the pipeline removed, and open-sourced the workbench on September 20-21 with CAICT and NSFOCUS audits reporting the OSS bucket deleted ([HN](https://hn.algolia.com/api/v1/items/49782440)).
-The repository shows 7,296 stars and 2,219 forks as of 2026-10-02, pushed 2026-09-29 (GitHub API); desktop installers are at v3.14.3.
+The repository shows 7,343 stars and 2,240 forks as of 2026-10-03, pushed 2026-09-29 (GitHub API); desktop installers are at v3.14.4.
 Independent code review of the dump confirms the snapshot pipeline is gone and checkpoints run on purely local git, but deleting the bucket cannot answer what happened to data that left machines before September 18.
 
 ## Strengths
@@ -73,6 +73,7 @@ I would watch whether the open repository becomes a real project or stays a pres
 - 2026-09-21 - Created after three sub-runs flagged the entrant, recording the July launch, the September 18 telemetry disclosure, and the September 20-21 open-source dump.
 - 2026-09-22 - Recorded the star count rising from 4,216 to 6,400 and forks from 1,127 to 1,880 in the day after the dump, and desktop installers moving to v3.14.3.
 - 2026-09-29 - Refreshed repository counters (7,097 stars, 2,147 forks).
+- 2026-10-02 - Recorded desktop installers moving to v3.14.4 and refreshed repository counters; the GLM Coding Plan prices re-verified unchanged.
 
 ## See also
 
@@ -83,9 +84,9 @@ I would watch whether the open repository becomes a real project or stays a pres
 
 ## References
 
-- https://github.com/zai-org/ZCode - repository, license, 7,296 stars as of 2026-10-02 (GitHub API)
+- https://github.com/zai-org/ZCode - repository, license, 7,343 stars as of 2026-10-03 (GitHub API)
 - https://raw.githubusercontent.com/zai-org/ZCode/main/README.en.md - surfaces and monorepo layout
-- https://zcode.z.ai/ - product claims, GLM Coding Plan prices, v3.14.3 installers
+- https://zcode.z.ai/ - product claims, GLM Coding Plan prices, v3.14.4 installers
 - https://blog.ferstar.org/en/posts/zcode-silent-workspace-snapshot-upload/ - the wire-level analysis, Z.ai's response, and the open-source code verification
 - https://hn.algolia.com/api/v1/items/48753715 - the July 1, 2026 launch thread, 511 points
 - https://hn.algolia.com/api/v1/items/49750694 - the 333-point disclosure thread, September 18

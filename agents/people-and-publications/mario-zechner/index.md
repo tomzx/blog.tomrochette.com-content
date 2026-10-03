@@ -1,7 +1,7 @@
 ---
 title: Mario Zechner
 created: 2026-09-24
-updated: 2026-09-24
+updated: 2026-10-03
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, people, publications, developer, coding-agents, open-source]
 readability: 3
@@ -23,8 +23,8 @@ Since April 2026 pi is owned by Earendil with him at the helm, planned as three 
 
 ## Status
 
-Active, well-resourced, and newly commercial as of 2026-09-24.
-The pi repository shows about 111k stars and 14.1k forks as of 2026-10-02, with roughly weekly releases (v0.87.1 on 2026-09-22 per our [Harnesses note](../../harnesses/pi/index.md)), and OpenClaw, the breakout assistant runtime, is built on it, which is exactly the attention he says drove acquisition offers and 3-5 calls a day before he sold to Earendil.
+Active, well-resourced, and newly commercial as of 2026-10-03.
+The pi repository shows about 112k stars and 14.2k forks as of 2026-10-03, and releases stayed roughly weekly through a v0.99 sprint to the 1.0 milestone: v1.0.0 shipped 2026-10-01 (per the repo's releases; our [Harnesses note](../../harnesses/pi/index.md) tracks the detail), and OpenClaw, the breakout assistant runtime, is built on it, which is exactly the attention he says drove acquisition offers and 3-5 calls a day before he sold to Earendil.
 His blog slowed after the 2025 agent-post burst (eight agent-era posts between June and November 2025, then three in 2026 through the May 30 robot post), so the repository and release notes now carry more signal than the blog.
 The Earendil arrangement is the open question: the MIT core is pledged as non-negotiable, but tiers two and three existed only as promises when he wrote about them in April 2026.
 
@@ -65,6 +65,7 @@ Not for teams that want turnkey guardrails, MCP-centric stacks, or a maintainer 
 
 - 2026-09-24 - Created.
 - 2026-09-24 - Added the Top 5 recommended reading section.
+- 2026-10-03 - pi hit 1.0: v1.0.0 released 2026-10-01 after the v0.99.x sprint (repo releases fetched this run); star count refreshed to about 112k as of 2026-10-03.
 
 ## See also
 
@@ -80,4 +81,5 @@ Not for teams that want turnkey guardrails, MCP-centric stacks, or a maintainer 
 - https://mariozechner.at/posts/2026-04-08-ive-sold-out/ - the Earendil move: governance, three licensing tiers, OpenClaw-driven interest, libGDX and RoboVM history
 - https://mariozechner.at/posts/2025-11-02-what-if-you-dont-need-mcp/ - the anti-MCP argument with the 225-token CLI toolset versus 13.7k-token MCP server comparison
 - https://github.com/badlogic - his GitHub profile as of 2026-09-24: 7.7k followers, pinned pi and libgdx repositories
+- https://github.com/earendil-works/pi/releases - the pi release history, grounding the v1.0.0 release of 2026-10-01 and the weekly cadence
 - https://hn.algolia.com/api/v1/items/46844822 - the Hacker News thread on his pi post, dominated by the sandboxing dispute

@@ -1,7 +1,7 @@
 ---
 title: Artificial Analysis
 created: 2026-09-24
-updated: 2026-09-29
+updated: 2026-10-02
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, trackers-and-leaderboards, ai, benchmarks, evaluation]
 readability: 3
@@ -19,6 +19,7 @@ Artificial Analysis is an independent benchmarking company whose site measures A
 A website and data business covering models (proprietary and open weights), coding agents, inference providers, and accelerator hardware.
 The flagship Artificial Analysis Intelligence Index (v4.3.2 as of 2026-09-24) incorporates ten evaluations with published weights (agents 30%, coding 20%, scientific reasoning 20%, general 30%), and a separate Coding Agent Index (v1.5) combines DeepSWE, Terminal-Bench, and SWE-Atlas-QnA.
 The homepage compares 689 models on price per token, output speed, and latency (as of 2026-10-02), and its Endpoint Accuracy Index re-runs the same evals against 16 third-party providers of one model to measure how much accuracy each endpoint loses to quantization or configuration.
+A Cyber Index (v1) joined the catalog in late September 2026, combining three partner-contributed benchmarks on enterprise cyber defense and launching alongside an industry Alliance.
 Products around the data include Optima (build-your-own benchmarks), MicroEvals, a Model Recommender, and a Data Playground.
 Scale claims from the about page: 500+ models benchmarked, 100+ inference providers, 1,000+ endpoints, 1T+ evaluation tokens.
 
@@ -63,6 +64,7 @@ My disagreeable claim: the Endpoint Accuracy Index is the most underrated page o
 - 2026-09-24 - Created.
 - 2026-09-27 - Coverage refreshed: the homepage now compares 673 models (from 671); Intelligence Index still v4.3.2.
 - 2026-09-29 - Coverage refreshed: the homepage now compares 679 models (from 673).
+- 2026-10-02 - Added the Cyber Index (v1), the three-benchmark enterprise cyber defense index launched in late September 2026 alongside an industry Alliance, and corrected two dead Hacker News reference URLs (the astra-blunder comment moved to item 49571632, the benchmarks-are-bunk comment to item 45702363; neither previously cited item resolves).
 
 ## See also
 
@@ -78,9 +80,9 @@ My disagreeable claim: the Endpoint Accuracy Index is the most underrated page o
 - https://artificialanalysis.ai/about - founders, backers, scale claims, four-layer scope (fetched 200, 2026-09-24)
 - https://artificialanalysis.ai/methodology - methodology hub: scope, blended-price definition, benchmark inventory (fetched 200, 2026-09-24)
 - https://artificialanalysis.ai/methodology/intelligence-benchmarking - the ten evaluations, weights, and scoring detail (fetched 200, 2026-09-24)
-- https://artificialanalysis.ai/changelog - update cadence, entries dated 23 September 2026 (fetched 200, 2026-09-24)
+- https://artificialanalysis.ai/changelog - update cadence, entries dated 23 September 2026, and the Cyber Index Alliance announcement from late September 2026 (re-fetched 200, 2026-10-02)
 - https://www.latent.space/p/artificialanalysis - founding story, seed round, revenue model, mystery-shopper policy (fetched 200, 2026-09-24)
-- https://news.ycombinator.com/item?id=48567759 - 916-point HN thread showing citation scale (fetched 200, 2026-09-24)
-- https://news.ycombinator.com/item?id=49586403 - the "astra blunder" criticism on the v4.2 thread (fetched 200, 2026-09-24)
-- https://news.ycombinator.com/item?id=45706969 - the "benchmarks are bunk" skeptical take (fetched 200, 2026-09-24)
+- https://news.ycombinator.com/item?id=48567759 - 916-point HN thread showing citation scale (points re-verified 2026-10-02 via hn.algolia.com/api/v1/items/48567759; the site itself bot-walls this client with 419)
+- https://news.ycombinator.com/item?id=49571632 - the "astra blunder" criticism on the v4.2 thread (found via Algolia comment search and re-verified 2026-10-02; the previously cited item 49586403 does not resolve)
+- https://news.ycombinator.com/item?id=45702363 - the "benchmarks are bunk" skeptical comment and its thread (found via Algolia comment search and re-verified 2026-10-02; the previously cited item 45706969 does not resolve)
 - https://artificialanalysiscdn.com/legal/ProDataPlatformTerms.pdf - existence of the paid data platform terms (fetched 200, 2026-09-24)

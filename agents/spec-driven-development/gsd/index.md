@@ -1,7 +1,7 @@
 ---
 title: GSD
 created: 2026-09-16
-updated: 2026-09-27
+updated: 2026-10-03
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, spec-driven-development, context-engineering, workflow, open-source]
 readability: 3
@@ -24,8 +24,8 @@ Open GSD has grown an ecosystem around the loop: gsd-pi (a standalone harness), 
 ## Status
 
 Split between a dead root and a live successor.
-The original gsd-build/get-shit-done is archived at 64,411 stars and 5,439 forks, last pushed 2026-05-31, with its README now a redirect notice to open-gsd/gsd-core.
-The successor, created 2026-05-22, is actively developed: 10,077 stars, 722 forks, pushed 2026-10-01, release v1.15.0 on 2026-09-26, and 42,979 npm downloads last month for @opengsd/gsd-core, while the legacy get-shit-done-cc package records 56,872.
+The original gsd-build/get-shit-done is archived at 64,391 stars and 5,434 forks, last pushed 2026-05-31, with its README now a redirect notice to open-gsd/gsd-core.
+The successor, created 2026-05-22, is actively developed: 10,120 stars, 723 forks, pushed 2026-10-03, release v1.15.0 on 2026-09-26, and 42,599 npm downloads last month for @opengsd/gsd-core, while the legacy get-shit-done-cc package records 57,206.
 **The transition was not clean: Blake Watson's widely-linked build story added a 2026-07-31 update telling readers not to install the original, reporting that people say a crypto scam took place around the creator, and naming OpenGSD the consensus successor.**
 Open GSD's own origin page confirms the chapter without specifics, stating trust was damaged, people were hurt, public channels disappeared, and crediting Christopherson with the original idea.
 
@@ -58,7 +58,7 @@ No paid tier exists today; the coming gsd-cloud is listed as a hosted surface wi
 
 **Recommended for engineers who want a disciplined phase loop that quarantines heavy work in fresh-context subagents, and who accept adopting a project whose governance is weeks old.**
 Not for anyone who needs the community's trust problems fully in the past, or who wants ceremony right-sized per change out of the box.
-The disagreeable claim I will defend: 64,411 stars is the strongest evidence the discuss-plan-execute-verify-ship loop works, and the same number is now the category's loudest warning that a workflow system dies with its steward's credibility, not with its code.
+The disagreeable claim I will defend: 64,391 stars is the strongest evidence the discuss-plan-execute-verify-ship loop works, and the same number is now the category's loudest warning that a workflow system dies with its steward's credibility, not with its code.
 
 ## Changes
 
@@ -77,8 +77,8 @@ The disagreeable claim I will defend: 64,411 stars is the strongest evidence the
 ## References
 
 - https://github.com/open-gsd/gsd-core - successor README: the loop, installer, runtimes, docs structure
-- https://api.github.com/repos/open-gsd/gsd-core - successor stars, forks, push date, MIT as of 2026-10-02
-- https://api.github.com/repos/gsd-build/get-shit-done - the archived original: 64,411 stars, last push 2026-05-31
+- https://api.github.com/repos/open-gsd/gsd-core - successor stars, forks, push date, MIT as of 2026-10-03
+- https://api.github.com/repos/gsd-build/get-shit-done - the archived original: 64,391 stars, last push 2026-05-31
 - https://github.com/gsd-build/get-shit-done - the redirect README naming gsd-core the continuation
 - https://opengsd.net - the ecosystem site and product family
 - https://opengsd.net/origin - the origin-credit page acknowledging the broken chapter
@@ -86,4 +86,4 @@ The disagreeable claim I will defend: 64,411 stars is the strongest evidence the
 - https://docs.opengsd.net/ - the documentation: three tools, 65-plus commands
 - https://blakewatson.com/journal/i-used-claude-code-and-gsd-to-build-the-accessibility-tool-ive-always-wanted/ - the firsthand account and its 2026-07-31 do-not-install update, the critical source
 - https://news.ycombinator.com/item?id=47086847 - the largest GSD thread, 24 points, February 2026
-- https://api.npmjs.org/downloads/point/last-month/@opengsd/gsd-core - 42,979 downloads last month
+- https://api.npmjs.org/downloads/point/last-month/@opengsd/gsd-core - 42,599 downloads last month

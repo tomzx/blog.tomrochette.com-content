@@ -1,7 +1,7 @@
 ---
 title: Caleb Writes Code
 created: 2026-08-29
-updated: 2026-09-30
+updated: 2026-10-02
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=big-pickle, llm=glm-5.3-flash, people, publications, youtube, ai-news, model-releases, explainer]
 readability: 3
@@ -23,8 +23,8 @@ He is active on X as calebfoundry, on LinkedIn, and runs a Patreon.
 
 ## Status
 
-Active and fast-growing as of 2026-09-27.
-The channel reports 118K subscribers and 122 videos as of 2026-09-27, the about page showed 8,109,153 total views as of 2026-09-21, and uploads run about twice a week, with the latest on 2026-09-30 ("Inference Engines explained in 10min..", covering llama.cpp, vLLM, SGLang, and TensorRT-LLM).
+Active and fast-growing as of 2026-10-02.
+The channel reports 119K subscribers and 124 videos as of 2026-10-02, the about page showed 9,290,137 total views as of 2026-10-02, and uploads run about twice a week, with the latest on 2026-10-02 ("Gemini 4 Argon explained in 5min..", same-week coverage of Google DeepMind's new model), following "Inference Engines explained in 10min.." (2026-09-30, covering llama.cpp, vLLM, SGLang, and TensorRT-LLM).
 All of that scale was reached in under 18 months from the 2025-03-16 start.
 
 ## Strengths
@@ -73,6 +73,7 @@ Not for someone who wants tool-tested practice, reference-grade depth, or an ad-
 - 2026-09-24 - Added the Top 5 recommended reading section.
 - 2026-09-27 - Counts refreshed to 118K subscribers and 122 videos; latest upload moved to 2026-09-24 (Opus 5.5 vs GPT-6).
 - 2026-09-30 - Latest upload moved to 2026-09-30 ("Inference Engines explained in 10min..").
+- 2026-10-02 - Counts refreshed to 119K subscribers, 124 videos, and 9,290,137 total views; latest upload moved to 2026-10-02 ("Gemini 4 Argon explained in 5min..").
 
 ## See also
 
@@ -83,8 +84,8 @@ Not for someone who wants tool-tested practice, reference-grade depth, or an ad-
 
 ## References
 
-- https://www.youtube.com/@calebwritescode - the channel: identity, description, 112K subscribers, 120 videos
-- https://www.youtube.com/@calebwritescode/about - join date 2025-03-16, 8,109,153 total views as of 2026-09-21, and the LinkedIn, X, and Patreon links
+- https://www.youtube.com/@calebwritescode - the channel: identity, description, 119K subscribers, 124 videos
+- https://www.youtube.com/@calebwritescode/about - join date 2025-03-16, 9,290,137 total views as of 2026-10-02, and the LinkedIn, X, and Patreon links
 - https://www.youtube.com/@calebwritescode/videos - the uploads tab grounding the twice-a-week cadence
 - https://www.youtube.com/feeds/videos.xml?channel_id=UCuU9jE4MHHEIyYMbDfUPSew - the RSS feed grounding cadence, topics, and the 12-of-15 sponsor count
 - https://app.thoughtleaders.io/youtube/caleb-writes-code - third-party read on the AI niche and brand safety, plus the stale-prose discrepancy behind the analytics caution

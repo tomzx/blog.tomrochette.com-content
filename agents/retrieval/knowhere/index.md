@@ -1,7 +1,7 @@
 ---
 title: Knowhere
 created: 2026-09-20
-updated: 2026-10-02
+updated: 2026-10-03
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, retrieval, rag, chunking, document-parsing, mcp, open-source]
 readability: 3
@@ -27,7 +27,7 @@ Made by Ontos AI, which open-sourced the full stack on May 7, 2026.
 ## Status
 
 **Active and shipping weekly, with a striking mismatch between stars and discussion.**
-3,606 stars since 2026-04-30, latest release v1.2.20 on 2026-09-30, pushed 2026-09-30 (GitHub API, as of 2026-10-02).
+3,626 stars since 2026-04-30, latest release v1.2.20 on 2026-09-30, pushed 2026-10-03 (GitHub API, as of 2026-10-03).
 Two Show HNs drew a combined 2 points and 1 comment (March and September 2026), so like graft and graphify, the star count ran far ahead of any independent technical discussion.
 The self-hosted stack repo has 12 stars and was last pushed 2026-09-21, so the self-hosting path looks far less trafficked than the hosted funnel.
 
@@ -88,7 +88,7 @@ My disagreeable claim: the near-total absence of public discussion around a 3,60
 
 ## References
 
-- https://github.com/Ontos-AI/knowhere - repository, README (architecture, tracks, news timeline), stars and activity as of 2026-10-02
+- https://github.com/Ontos-AI/knowhere - repository, README (architecture, tracks, news timeline), stars and activity as of 2026-10-03
 - https://github.com/Ontos-AI/knowhere/releases - release cadence, v1.2.20 on 2026-09-30
 - https://knowhereto.ai - hosted product surface, $5 free credit, and the self-reported comparison table
 - https://docs.knowhereto.ai/ - product docs: SDKs, CLI, retrieval query surface

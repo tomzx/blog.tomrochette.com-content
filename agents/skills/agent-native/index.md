@@ -1,7 +1,7 @@
 ---
 title: Agent-Native
 created: 2026-09-13
-updated: 2026-09-29
+updated: 2026-10-03
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, skills, agent-extensions, builder-io, app-frameworks]
 readability: 3
@@ -24,8 +24,8 @@ Install is `npx @agent-native/skills@latest add`, which writes to the shared `.a
 ## Status
 
 **Active and fast-moving, with a thin independent footprint.**
-Both repos claim MIT in their READMEs: the skills catalog at 4.5k stars and 226 forks, the framework at 7.0k stars and 634 forks, as of 2026-10-02.
-The npm package was created 2026-06-10, sits at 0.3.20 with builds shipping several times a day, and pulled 26,815 downloads in the week of 2026-09-24 to 2026-09-30 (fetched 2026-10-02).
+Both repos claim MIT in their READMEs: the skills catalog at 4.5k stars and 227 forks, the framework at 7.0k stars and 636 forks, as of 2026-10-03.
+The npm package was created 2026-06-10, sits at 0.3.22 with builds shipping several times a day, and pulled 27,350 downloads in the week of 2026-09-25 to 2026-10-01 (fetched 2026-10-03).
 No Hacker News threads and no independent coverage surfaced in this run's searches, so the audience so far is GitHub and npm.
 
 ## Strengths
@@ -67,6 +67,7 @@ My disagreeable claim: the apps and the framework are the least durable half, th
 - 2026-09-26 - Recorded the npm package crossing to 0.3.5 and refreshed the volatile numbers (catalog 4,434 stars and 161 commits, framework 6,828 stars, 613 forks, and 6,114 commits); the framework repo's GitHub license detection is still absent.
 - 2026-09-27 - Recorded the npm package crossing to 0.3.7 with weekly downloads up to 17,974 and refreshed the volatile numbers (catalog 4,443 stars, framework 6,849 stars, GitHub license detection still absent).
 - 2026-09-29 - Recorded the npm package crossing to 0.3.10 with weekly downloads up to 24,886 and refreshed the volatile numbers (catalog 4,462 stars, framework 6,898 stars and 622 forks); the framework repo's GitHub license detection is still absent and its package.json still says ISC.
+- 2026-10-03 - Recorded the npm package crossing to 0.3.22 with weekly downloads at 27,350 and refreshed the volatile numbers (catalog 4,511 stars and 227 forks, framework 7,043 stars and 636 forks); the framework repo's GitHub license detection is still absent and its package.json still says ISC.
 
 ## See also
 
@@ -78,9 +79,9 @@ My disagreeable claim: the apps and the framework are the least durable half, th
 
 ## References
 
-- https://github.com/BuilderIO/skills - the catalog repo: the fifteen skills, installer options, marketplace packaging, 4.5k stars as of 2026-10-02
-- https://github.com/BuilderIO/agent-native - the framework repo: shared-action architecture, app gallery, README says MIT but GitHub license detection still returns nothing (package.json says ISC), 7.0k stars as of 2026-10-02
+- https://github.com/BuilderIO/skills - the catalog repo: the fifteen skills, installer options, marketplace packaging, 4.5k stars as of 2026-10-03
+- https://github.com/BuilderIO/agent-native - the framework repo: shared-action architecture, app gallery, README says MIT but GitHub license detection still returns nothing (package.json says ISC), 7.0k stars as of 2026-10-03
 - https://www.agent-native.com/ - the framework landing
-- https://registry.npmjs.org/@agent-native/skills - package metadata: created 2026-06-10, latest 0.3.20, published from the monorepo, as of 2026-10-02
-- https://api.npmjs.org/downloads/point/last-week/@agent-native/skills - 26,815 weekly downloads, window 2026-09-24 to 2026-09-30, fetched 2026-10-02
+- https://registry.npmjs.org/@agent-native/skills - package metadata: created 2026-06-10, latest 0.3.22, published from the monorepo, as of 2026-10-03
+- https://api.npmjs.org/downloads/point/last-week/@agent-native/skills - 27,350 weekly downloads, window 2026-09-25 to 2026-10-01, fetched 2026-10-03
 - https://hn.algolia.com/api/v1/search?query=%22builder.io%22%20skills&tags=story - the zero-hit search behind the missing-footprint statement

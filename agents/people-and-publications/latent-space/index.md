@@ -1,7 +1,7 @@
 ---
 title: Latent Space
 created: 2026-08-29
-updated: 2026-09-30
+updated: 2026-10-03
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=big-pickle, llm=glm-5.3-flash, people, publications, newsletter, podcast, community]
 readability: 3
@@ -24,7 +24,7 @@ It is also, critically, the place where the tools profiled in this section get t
 
 Active and expanding.
 As of 2026-09-13 the announcement month ran "The State of Latent Space" for 2026, adding shows, hosts, and more interview formats; the AI Engineer conference network grew to events in New York, San Francisco, Paris, and Europe.
-The latest interview issue, "Academia is for Ambition" with MIT's Alex Zhang ([2026-10-02](https://www.latent.space/p/rlm)), follows "Claude Code's Next Era" with Anthropic's Thariq Shihipar (2026-09-29, ninety minutes on Opus/Sonnet 5.5, Mods, Plugins, and Projects), and the near-daily AINews roundups currently lead with Gemini 4 Argon coverage (GDM's answer to Astra/Fable, with 1M output) after the OpenAI DevDay 2026 run.
+The latest interview issue, "Inside-Out AI: Rebuilding Airbnb Behind the Scenes and Across the Guest Experience" ([2026-10-02](https://www.latent.space/p/airbnb)), follows "Academia is for Ambition" with MIT's Alex Zhang ([2026-10-02](https://www.latent.space/p/rlm)) and "Claude Code's Next Era" with Anthropic's Thariq Shihipar (2026-09-29, ninety minutes on Opus/Sonnet 5.5, Mods, Plugins, and Projects), and the near-daily AINews roundups currently lead with Pi 1.0 coverage after the Gemini 4 Argon and OpenAI DevDay 2026 runs.
 The podcast regularly lands the people behind the harnesses this section tracks, and swyx's own notes continue to set trends (memory, filesystems, agent-eats-agent).
 
 ## Strengths
@@ -75,6 +75,7 @@ Not for people who want only hands-on tool notes and who will not filter past th
 - 2026-09-24 - Added the Top 5 recommended reading section.
 - 2026-09-27 - Latest-issue pointer refreshed: the OpenRouter from-Seed-to-Stripe interview (2026-09-25) now leads; subscriber count held at over 201,000.
 - 2026-09-30 - Latest-issue pointer refreshed: the Claude Code's Next Era interview with Anthropic's Thariq Shihipar (2026-09-29) now leads, and AINews leads with OpenAI DevDay 2026 coverage.
+- 2026-10-03 - Latest-issue pointer refreshed: the "Inside-Out AI" Airbnb interview (2026-10-02) now leads the interview cadence and AINews leads with Pi 1.0 coverage; both URLs fetched this run.
 
 ## See also
 

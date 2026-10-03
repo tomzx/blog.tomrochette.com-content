@@ -1,7 +1,7 @@
 ---
 title: deepeval
 created: 2026-08-30
-updated: 2026-09-27
+updated: 2026-10-03
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, evaluation, llm-as-judge, testing, open-source]
 readability: 3
@@ -23,9 +23,9 @@ Made by Confident AI, a seed-stage San Francisco company, Apache-2.0.
 
 ## Status
 
-The volume leader of Python eval frameworks: 18,558 stars, 2,007 forks, 694 open issues and PRs as of 2026-10-02.
-Created 2023-08-10, pushed 2026-10-01, Python 4.2.7 released 2026-09-29, about 2.5 million PyPI downloads a month as of 2026-10-02.
-**Three years old and commercially backed, it is the most mature column in this category, and the 668-item backlog reads as heavy usage rather than neglect.**
+The volume leader of Python eval frameworks: 18,589 stars, 2,013 forks, 698 open issues and PRs as of 2026-10-03.
+Created 2023-08-10, pushed 2026-10-02, Python 4.2.8 released 2026-10-02, about 2.5 million PyPI downloads a month as of 2026-10-03.
+**Three years old and commercially backed, it is the most mature column in this category, and the 698-item backlog reads as heavy usage rather than neglect.**
 
 ## Strengths
 
@@ -39,7 +39,7 @@ Created 2023-08-10, pushed 2026-10-01, Python 4.2.7 released 2026-09-29, about 2
 - Most flagship metrics are LLM-as-judge: non-deterministic, prompt-sensitive, and billed to your judge key on every run.
 - The open-core split is real: comparisons, regression tracking, datasets, and online evals live in the paid Confident AI platform, and `deepeval login` is "highly recommended" while auto-logging test cases to their cloud unless you opt out.
 - The TypeScript SDK is explicitly not score-parity-verified against Python.
-- Docs-quality criticism at launch has been addressed but 668 open issues and PRs signal friction.
+- Docs-quality criticism at launch has been addressed but 698 open issues and PRs signal friction.
 
 ## Pricing
 
@@ -72,6 +72,7 @@ Not for teams that cannot tolerate LLM-judge variance, or that need score parity
 - 2026-09-20 - Corrected the monthly PyPI download figure to about 2.8 million per the cited pypistats source and refreshed repository counts.
 - 2026-09-25 - Recorded the Python 4.2.4 release and refreshed repository counts.
 - 2026-09-27 - Recorded the Python 4.2.6 release (4.2.5 shipped the same day as 4.2.4) and refreshed repository counts.
+- 2026-10-03 - Recorded the Python 4.2.8 release (2026-10-02) and refreshed repository counts.
 
 ## See also
 
@@ -86,6 +87,6 @@ Not for teams that cannot tolerate LLM-judge variance, or that need score parity
 - https://deepeval.com/ - the docs and metric taxonomy (docs.confident-ai.com now redirects here)
 - https://www.confident-ai.com/pricing - the platform tiers behind the open-core split
 - https://deepeval.com/blog/introducing-deepeval-typescript - the TypeScript beta scope and parity caveat
-- https://pypistats.org/api/packages/deepeval/recent - the download figures as of 2026-10-02
+- https://pypistats.org/api/packages/deepeval/recent - the download figures as of 2026-10-03
 - https://pypi.org/project/deepeval/ - the current Python version and its release date
 - https://news.ycombinator.com/item?id=37157323 - the launch thread with early criticism and maintainer response

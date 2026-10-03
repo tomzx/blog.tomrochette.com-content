@@ -1,7 +1,7 @@
 ---
 title: Sandcastle
 created: 2026-09-27
-updated: 2026-09-27
+updated: 2026-10-03
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, llm=glm-5.3-flash, orchestration, sandboxing, typescript, library]
 readability: 3
@@ -24,10 +24,10 @@ Hooks are declared per location (`host` and `sandbox`, for example `onWorktreeRe
 
 ## Status
 
-Small but well-known: about 8,215 stars and 886 forks as of 2026-10-02, created 2026-03-17, and 1,193 commits.
-The warning sign is activity: the last commit and the latest release (v0.12.0) both landed on 2026-06-29, so the project has been quiet for more than three months as of 2026-10-02, even as stars kept accruing.
+Small but well-known: about 8,237 stars and 889 forks as of 2026-10-03, created 2026-03-17, and more than 1,193 commits.
+The warning sign is activity: the latest release (v0.12.0) landed 2026-06-29 and the default branch then went quiet for three months, until two maintenance commits resumed on 2026-10-02 (a Docker-based issue-triage skill merged through PR #1013), with no new release.
 The npm package reached 0.12.0 across 44 versions.
-**A popular library that stops shipping while its category moves daily is a bet on stability over feature parity, and an open issue about broken global `npm install` for the Pi and Codex Dockerfiles (#223) has sat unresolved since April 2026.**
+**A popular library that ships maintenance without shipping releases while its category moves daily is still a bet on stability over feature parity, and an open issue about broken global `npm install` for the Pi and Codex Dockerfiles (#223) has sat unresolved since April 2026.**
 
 ## Strengths
 
@@ -39,7 +39,7 @@ The npm package reached 0.12.0 across 44 versions.
 
 ## Cautions
 
-- No activity since 2026-06-29; treat it as a maintenance risk and pin a version.
+- No release since 2026-06-29, and the October 2026 default-branch activity was issue triage, not feature work; treat it as a maintenance risk and pin a version.
 - It is a library, not a product: no board, no diff review UI, no PR flow, no notifications.
 - You must provide and pay for your own sandbox runtime; Vercel sandboxes carry their own usage bill.
 - The default Dockerfile installs Claude Code as a specific non-root `agent` user, and the documented Pi and Codex installs are reported broken (#223).
@@ -60,11 +60,12 @@ Agent access runs on your own subscriptions or keys.
 ## Bottom line
 
 **Recommended for teams that want to script sandboxed coding agents from TypeScript and own the pipeline, not adopt a GUI.**
-Not for anyone who wants a board, diff review, or a maintained app, given the quiet repository.
+Not for anyone who wants a board, diff review, or a maintained app, given a repository that ships no releases.
 
 ## Changes
 
 - 2026-09-27 - Created.
+- 2026-10-03 - Status move: recorded the default branch waking on 2026-10-02 with two maintenance commits (a Docker-based issue-triage skill, PR #1013) after three quiet months, with no new release, and refreshed star and fork counts.
 
 ## See also
 

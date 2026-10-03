@@ -1,7 +1,7 @@
 ---
 title: Graft
 created: 2026-09-12
-updated: 2026-10-02
+updated: 2026-10-03
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, context-engines, code-graphs, claude-code, open-source]
 readability: 3
@@ -25,7 +25,7 @@ The npm scope and telemetry endpoint are NanoNets-branded, the product site attr
 
 ## Status
 
-Young and very hot: created 2026-07-03, 9,483 stars and 871 forks by 2026-10-02, last push 2026-10-01, 199 open issues and pull requests, v0.21.1 on npm (published 2026-09-29) with 88,838 downloads in the trailing month (window 2026-09-01 to 2026-09-30), all as of 2026-10-02 (GitHub and npm APIs).
+Young and very hot: created 2026-07-03, 9,515 stars and 874 forks by 2026-10-03, last push 2026-10-02, 205 open issues and pull requests, v0.21.1 on npm (published 2026-09-29) with 93,925 downloads in the trailing month (window 2026-09-02 to 2026-10-01), all as of 2026-10-03 (GitHub and npm APIs).
 The GitHub organization itself has now completed the rename: the repository's canonical home is trailhq/Graft, and the old NanoNets/Graft URLs redirect.
 **The community footprint is thin for the star count: a third-party Show HN drew 3 points and 2 comments, the creator's own follow-up reached 39 points and 44 comments, and its most substantive comments were criticisms.**
 In that thread the creator confirmed the README's marketing register is model-written ("Opus 5 is very paranoid on giving proofs... so I let it keep this one line"), and the only cross-tool numbers anywhere (graft over Graphify, MRR 0.73 vs 0.38) are his own tests, not a published benchmark.
@@ -91,12 +91,12 @@ I would not skip TELEMETRY.md for a compliance-sensitive team, and I would not b
 
 ## References
 
-- https://github.com/trailhq/Graft - canonical repository (NanoNets/Graft redirects here), stats and activity as of 2026-10-02
+- https://github.com/trailhq/Graft - canonical repository (NanoNets/Graft redirects here), stats and activity as of 2026-10-03
 - https://raw.githubusercontent.com/trailhq/Graft/main/README.md - architecture, benchmark tables, SWE-bench Verified numbers, delivery surfaces
 - https://graft.nanonets.ai - product site, Trail attribution, and marketing claims
 - https://raw.githubusercontent.com/trailhq/Graft/main/TELEMETRY.md - the telemetry allowlist contract (the original NanoNets/context-graph-engine path still redirects)
 - https://registry.npmjs.org/@nanonets/graft/latest - package version 0.21.1 and metadata
-- https://api.npmjs.org/downloads/point/last-month/@nanonets/graft - 88,838 downloads, window 2026-09-01 to 2026-09-30, fetched 2026-10-02
+- https://api.npmjs.org/downloads/point/last-month/@nanonets/graft - 93,925 downloads, window 2026-09-02 to 2026-10-01, fetched 2026-10-03
 - https://hn.algolia.com/api/v1/items/49197687 - the 3-point Show HN and the creator's tree-sitter-only clarification
 - https://hn.algolia.com/api/v1/items/49299985 - the 39-point thread: staleness, README register critique, and the vendor-run Graphify comparison
 - https://trailhq.com/pricing - Trail Brain plans as of 2026-09-22

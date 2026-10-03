@@ -1,7 +1,7 @@
 ---
 title: OpenCode skills and plugins
 created: 2026-08-24
-updated: 2026-09-26
+updated: 2026-10-03
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, skills, plugins, opencode, agent-extensions]
 readability: 3
@@ -24,8 +24,8 @@ Plugins are JS/TS modules from `.opencode/plugins` or npm (installed via Bun at 
 ## Status
 
 **Active; the skills and plugins docs have been stable since February 2026.**
-The host project (anomalyco/opencode) shows about 211k stars under MIT as of 2026-10-02.
-The ecosystem page (itself updated 2026-10-01) lists roughly 40 community plugins (Helicone, Sentry, Firecrawl, Tavily, Daytona sandboxing, subscription-auth bridges) plus a smaller set of projects and agents.
+The host project (anomalyco/opencode) shows about 211k stars under MIT as of 2026-10-03.
+The ecosystem page (itself updated 2026-10-03) lists roughly 40 community plugins (Helicone, Sentry, Firecrawl, Tavily, Daytona sandboxing, subscription-auth bridges) plus a smaller set of projects and agents.
 There is no first-party skill marketplace; distribution rides plain git or third parties like skills.sh.
 
 ## Strengths
@@ -77,7 +77,7 @@ My disagreeable claim: plugins, not skills, are OpenCode's actual differentiator
 
 - https://opencode.ai/docs/skills/ - skill paths, frontmatter, permissions, the skill tool
 - https://opencode.ai/docs/plugins/ - plugin model, event hooks, npm installation, custom tools
-- https://opencode.ai/docs/ecosystem/ - community plugin inventory
-- https://github.com/anomalyco/opencode - host project scale and MIT license, as of 2026-10-02
+- https://opencode.ai/docs/ecosystem/ - community plugin inventory, page updated 2026-10-03
+- https://github.com/anomalyco/opencode - host project scale and MIT license, as of 2026-10-03
 - https://agentskills.io/ - lists OpenCode among the standard's clients
 - https://github.com/vercel-labs/skills - compatibility matrix (`context: fork` and hooks unsupported in OpenCode)

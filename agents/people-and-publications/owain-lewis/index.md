@@ -1,7 +1,7 @@
 ---
 title: Owain Lewis
 created: 2026-09-24
-updated: 2026-09-24
+updated: 2026-10-02
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, people, publications, youtube, agentic-coding, software-factory, claude-code]
 readability: 3
@@ -65,6 +65,7 @@ Not for someone who wants model-release news, enterprise-scale case studies, or 
 ## Changes
 
 - 2026-09-24 - Created.
+- 2026-10-02 - Status recency refreshed: 16 uploads between May 15 and September 28, 2026, the latest "JEV Explained (Real Use Cases)" (2026-09-28).
 
 ## See also
 

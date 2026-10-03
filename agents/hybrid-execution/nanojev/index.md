@@ -1,7 +1,7 @@
 ---
 title: NanoJev
 created: 2026-09-21
-updated: 2026-09-29
+updated: 2026-10-03
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, hybrid-execution, structured-outputs, system-one-models, decision-models, open-weights, game-agents]
 readability: 3
@@ -23,9 +23,9 @@ The code is MIT, by an individual developer signing as Tianyu (43 GitHub followe
 
 ## Status
 
-**Active, nine days old, mid-pack among the open replicas by stars, with the smallest community footprint.**
-The repository was created 2026-09-17, pushed 2026-09-21, and shows about 2,500 stars and 254 forks as of 2026-10-02.
-The weights show about 8,100 downloads and 84 likes, the dataset about 4,900 downloads, as of 2026-10-02.
+**Active, sixteen days old, mid-pack among the open replicas by stars, with the smallest community footprint.**
+The repository was created 2026-09-17, pushed 2026-09-21, and shows about 2,500 stars and 255 forks as of 2026-10-03.
+The weights show about 8,400 downloads and 85 likes, the dataset about 5,100 downloads, as of 2026-10-03.
 The author published a follow-up project, JevHarness, for letting an LLM build task-specific decision harnesses with rewards and execution traces.
 The Hacker News submission (2026-09-18) sits at 2 points and zero comments, the third-party JevBench board ranks no NanoJev checkpoint, and I found no independent discussion, evaluation, or runtime anywhere; **that silence is itself a signal, and it is why I weight every number below as unreplicated.**
 
@@ -39,7 +39,7 @@ The Hacker News submission (2026-09-18) sits at 2 points and zero comments, the 
 
 - Every benchmark is self-run on tasks the author chose, against a Jev API whose version and sampling setup only he can confirm, and no independent party has re-run any of it.
 - The most-shared evidence, the browser replays, is access-gated (the development site returned 401 when I fetched it), so the flashiest demos are unverifiable.
-- The Hugging Face weights carry no license tag as of 2026-10-02 (the code repo is MIT), so the licensing of the weights themselves is ambiguous.
+- The Hugging Face weights carry no license tag as of 2026-10-03 (the code repo is MIT), so the licensing of the weights themselves is ambiguous.
 - The headline tables lead with the widest gaps (Basic 128/128 against 56/128) while the weighted totals are nearly level (66.85% against Jev's 65.39%), which is marketing by selection.
 
 ## Pricing
@@ -75,9 +75,9 @@ The disagreeable claim I will defend: NanoJev beating hosted Jev at three of fou
 
 ## References
 
-- https://github.com/TianyuCodings/NanoJev - repository: MIT, created 2026-09-17, about 2,500 stars, 254 forks (GitHub API, as of 2026-10-02)
+- https://github.com/TianyuCodings/NanoJev - repository: MIT, created 2026-09-17, about 2,500 stars, 255 forks (GitHub API, as of 2026-10-03)
 - https://raw.githubusercontent.com/TianyuCodings/NanoJev/main/README.md - the four-game claims, dataset scale, and the roadmap with RLCD pending
 - https://raw.githubusercontent.com/TianyuCodings/NanoJev/main/docs/SONIC_PREDICT_POSITION_RESULTS.md - the detailed test and OOD tables, including the Maze losses and McNemar p-values
-- https://huggingface.co/C-Tianyu/NanoJev - weights: created 2026-09-17, about 8,100 downloads, 84 likes, no license tag (as of 2026-10-02)
-- https://huggingface.co/datasets/C-Tianyu/NanoJev-Data - the 18,760-question mixed-task dataset, about 4,900 downloads (as of 2026-10-02)
+- https://huggingface.co/C-Tianyu/NanoJev - weights: created 2026-09-17, about 8,400 downloads, 85 likes, no license tag (as of 2026-10-03)
+- https://huggingface.co/datasets/C-Tianyu/NanoJev-Data - the 18,760-question mixed-task dataset, about 5,100 downloads (as of 2026-10-03)
 - https://news.ycombinator.com/item?id=49757421 - the 2-point, zero-comment submission grounding the missing-footprint claim

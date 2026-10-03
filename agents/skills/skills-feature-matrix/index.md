@@ -1,7 +1,7 @@
 ---
 title: "Skills Feature Matrix"
 created: 2026-08-24
-updated: 2026-09-27
+updated: 2026-10-03
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, comparison, skills, agent-extensions]
 readability: 3
@@ -10,7 +10,7 @@ audience_notes: >
   Assumes you have written a SKILL.md or configured at least one harness; each column links to a full note with sources.
 ---
 
-This matrix compares the six Skills-category notes in this section, Builder.io's curated pack, the open standard, Anthropic's vendor format, OpenCode's native mechanism, Microsoft's skill optimizer, and Vercel's skills.sh registry, feature by feature, so choosing an extension path does not require reading six notes.
+This matrix compares the eight Skills-category notes in this section, the open standard, Builder.io's curated pack, Anthropic's vendor format, Chris Brock's departmental skills org chart, OpenCode's native mechanism, Nanako0129's de-AI writing skill, Microsoft's skill optimizer, and Vercel's skills.sh registry, feature by feature, so choosing an extension path does not require reading eight notes.
 
 **The format war is already over and SKILL.md won it, so every decision that remains lives above the format, who gates execution, who ranks discovery, and who versions what your agent runs, and the registry column worries me more than the vendor column.**
 
@@ -36,7 +36,7 @@ Each column links to the full research note; every cell traces to a source cited
 
 ## Reading the matrix
 
-**The Kind row says this is not six competitors but one stack: a spec, a vendor implementation, a harness implementation, a quality gate, a distributor, and a curated pack.**
+**The Kind row says this is not eight competitors but one stack: a spec, a vendor format, a harness mechanism, a quality gate, a distributor, and three content columns (a vendor app pack, a departmental org chart, and a single writing skill).**
 The category converged before it could fragment, because Anthropic released its format as the open standard in December 2025 and OpenAI, Google, and the major harnesses adopted it, per the standard note.
 **SkillOpt is the stack's quality layer: it treats the other columns' artifacts as trainable parameters, so the question shifts from who distributes skills to who validates them.**
 
@@ -49,8 +49,8 @@ The spec leaves security to each harness (Gemini consent, OpenCode patterns, Cod
 **Distribution is git all the way down, and the registry added ranking, not vetting.**
 The standard needs no registry at all, skills.sh won the slot by wrapping git and symlinking into more than 70 harnesses, its leaderboard counts opt-out CLI telemetry rather than ratings, and one company controls the ranking surface of a nominally open ecosystem, which is the cell I would watch.
 
-**The Agent-Native column is the first pack in the matrix, and it reads differently from the five infrastructure columns: it consumes the spec's portable core, adds no enforcement of its own, and its pull is toward Builder.io's own stack, the hosted Dispatch MCP endpoint and the hosted plans app its flagship skills default to.**
-The cell to watch is stewardship: two repos whose READMEs say MIT at 4.4k and 6.8k stars (the framework has kept climbing since, npm now 0.3.7, and GitHub still detects no license there) with still no independent coverage as of 2026-09-25, so the pack is one company's opinion on a multiple-releases-a-day cadence.
+**The Agent-Native column is the first pack in the matrix, and it reads differently from the five infrastructure columns and from the two content columns that joined later: it consumes the spec's portable core, adds no enforcement of its own, and its pull is toward Builder.io's own stack, the hosted Dispatch MCP endpoint and the hosted plans app its flagship skills default to.**
+The cell to watch is stewardship: two repos whose READMEs say MIT at 4.5k and 7.0k stars (the framework has kept climbing since, npm now 0.3.22, and GitHub still detects no license there) with still no independent coverage as of 2026-10-03, so the pack is one company's opinion on a multiple-releases-a-day cadence.
 
 **Everything is free, and the missing row is versioning.**
 No column costs anything to use, but the spec has no version or dependency story, OpenCode has none, Anthropic versions only through its Skills API, and pinning is left to git discipline or third parties like Skilleton.
@@ -75,6 +75,8 @@ No column costs anything to use, but the spec has no version or dependency story
 - 2026-09-25 - Refreshed the Agent-Native figures in the reading prose (framework at 6.8k stars and still climbing, license still undetected, npm now 0.3.1); no cells moved.
 - 2026-09-25 - Re-sorted the columns by member title, moving Agent Skills open standard ahead of Agent-Native (space before hyphen in the case-insensitive title ordering); no cell content changed.
 - 2026-09-27 - Refreshed the Agent-Native figures in the reading prose (npm now 0.3.7); no cells moved.
+- 2026-10-02 - Corrected the intro and reading prose, which still said six columns after Headcount and Sepia joined on 2026-09-27; no cells moved.
+- 2026-10-03 - Refreshed the Agent-Native figures in the reading prose (catalog 4.5k and framework 7.0k stars, npm now 0.3.22); no cells moved.
 
 ## See also
 

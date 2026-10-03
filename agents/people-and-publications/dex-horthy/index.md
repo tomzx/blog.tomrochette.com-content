@@ -1,7 +1,7 @@
 ---
 title: Dex Horthy
 created: 2026-09-24
-updated: 2026-09-24
+updated: 2026-10-03
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, people, publications, developer, agents, context-engineering]
 readability: 3
@@ -16,7 +16,7 @@ Dex Horthy is the founder of HumanLayer and author of 12-Factor Agents, the most
 
 ## What it is
 
-12-Factor Agents (github.com/humanlayer/12-factor-agents) states twelve principles, including own your prompts, own your context window, tools are just structured outputs, contact humans with tool calls, and make your agent a stateless reducer, under a CC BY-SA 4.0 content license, with 26.4k stars and 2.0k forks as of 2026-09-24.
+12-Factor Agents (github.com/humanlayer/12-factor-agents) states twelve principles, including own your prompts, own your context window, tools are just structured outputs, contact humans with tool calls, and make your agent a stateless reducer, under a CC BY-SA 4.0 content license, with 26.5k stars and 2.0k forks as of 2026-10-03.
 AI That Works is his weekly Zoom show and podcast with Vaibhav Gupta (BAML), every Tuesday at 10 AM PST, 76 numbered episodes dated from 2025-03-31 through 2026-09-29, each with code in a public repo.
 The Outer Loop is his Substack ("AI Agents, Human in the Loop, maybe-agi", launched about two years ago), with the archive behind the subscribe wall.
 HumanLayer itself pivoted from a human-approval API into a multiplayer coding-agent workspace (local daemons, cloud daemons, tasks and artifacts, an RPI-to-QRSPI workflow), with a free Starter tier for teams of up to three, Pro at $100/user/month, and BYOK for Claude Code, Codex, and Copilot.
@@ -76,7 +76,7 @@ Not for people who want regular written analysis, model research, or a neutral s
 
 ## References
 
-- https://github.com/humanlayer/12-factor-agents - the guide: all twelve factors, licenses, 26.4k stars and 2.0k forks as of 2026-09-24, related resources and talks
+- https://github.com/humanlayer/12-factor-agents - the guide: all twelve factors, licenses, 26.5k stars and 2.0k forks as of 2026-10-03, related resources and talks
 - https://humanlayer.dev/ - the product pivot, tier pricing (Starter free to 3 members, Pro $100/user/mo), BYOK, and the "team that brought you context engineering" positioning
 - https://github.com/ai-that-works/ai-that-works - the weekly show: episode list #1 through #76 with dates, hosts' bios, and per-episode code
 - https://news.ycombinator.com/item?id=43699271 - the April 2025 Show HN (475 points, 78 comments) with his in-thread responses to critics

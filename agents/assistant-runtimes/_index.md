@@ -18,6 +18,7 @@ Personal assistant runtimes outside the editor: the -claw family and its auditab
 - [Open WebUI](open-webui/index.md) - the maximal self-hosted AI interface for Ollama and OpenAI-compatible backends, with the ecosystem's most consequential license story.
 - [OpenClaw](openclaw/index.md) - the self-hosted personal assistant root of the -claw family, 391k stars and the 2026 provider-restriction saga.
 - [OpenWork](openwork/index.md) - the MIT-core Cowork alternative built on OpenCode, whose MCP gateway makes skills portable across agents.
+- [OpenWorker](openworker/index.md) - the Andrew Ng team's governed MIT desktop coworker for security-review tasks, sandboxed through NVIDIA OpenShell, in open beta.
 - [PicoClaw](picoclaw/index.md) - Sipeed's Go assistant on $10 RISC-V boards in 10-20MB of RAM, the category as a compile target.
 - [PrivateGPT](private-gpt/index.md) - Zylon's Apache-2.0 API layer turning any local inference server into a Claude-style application backend.
 - [QwenPaw](qwenpaw/index.md) - the AgentScope team's assistant with the broadest chat-channel matrix and five built-in security layers.
@@ -39,3 +40,4 @@ Its members are compared on shared rows in the [Assistant Runtimes Feature Matri
 - 2026-09-27 - Added AnythingLLM.
 - 2026-09-27 - Added Open WebUI.
 - 2026-09-27 - Added PrivateGPT.
+- 2026-10-03 - Added OpenWorker.

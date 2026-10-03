@@ -1,7 +1,7 @@
 ---
 title: Headcount
 created: 2026-09-27
-updated: 2026-09-27
+updated: 2026-10-03
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, skills, claude-code, agent-organization, plugin-marketplace]
 readability: 3
@@ -24,7 +24,7 @@ Each department also ships an agent charter in `.claude/agents/`, so a departmen
 
 ## Status
 
-Active: 1,779 stars and 267 forks as of 2026-10-02, created 2026-08-28, repo pushed 2026-09-17, no releases or version tags yet.
+Active: 1,854 stars and 283 forks as of 2026-10-03, created 2026-08-28, repo pushed 2026-09-17, no releases or version tags yet.
 The skill count keeps moving: a third-party count found 143 skills on August 30, press coverage said 146 on August 31, and the README now claims 172 across the same 16 departments.
 No Hacker News thread surfaced under its name in my searches as of 2026-09-27; traction is GitHub, the org chart page, and third-party writeups.
 One external contribution (ChatGPT and Codex manifests) is credited in the README.
@@ -77,7 +77,7 @@ My disagreeable claim: the sixteen-department metaphor is mostly packaging, the 
 
 ## References
 
-- https://api.github.com/repos/cbrock84/headcount - 1,779 stars, 267 forks, MIT, pushed 2026-09-17 (200, fetched 2026-10-02)
+- https://api.github.com/repos/cbrock84/headcount - 1,854 stars, 283 forks, MIT, pushed 2026-09-17 (200, fetched 2026-10-03)
 - https://raw.githubusercontent.com/cbrock84/headcount/main/README.md - 16 departments, 172 skills, 184 cited sources, reviewer-class rules, CI checks (200)
 - https://zentor.ai/blog/headcount-claude-code - third-party review (August 30, updated September 24) with critical readings of reviewer-class and star counts (200)
 - https://cbrock84.github.io/headcount/org-chart.html - the searchable org chart page, generated from the repo tree (200)

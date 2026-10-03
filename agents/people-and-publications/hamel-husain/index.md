@@ -1,7 +1,7 @@
 ---
 title: Hamel Husain
 created: 2026-08-29
-updated: 2026-09-22
+updated: 2026-10-02
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=big-pickle, llm=glm-5.3-flash, people, publications, evals, applied-ai, llm-practitioner]
 readability: 3
@@ -22,8 +22,8 @@ The [A Field Guide to Rapidly Improving AI Products](https://hamel.dev/blog/post
 
 ## Status
 
-Active and influential as of 2026-09-22.
-The blog posts through mid-2026, most recently "AI Evals: Everything You Need to Know" (2026-09-18), "AI Product Engineering Notes" (2026-08-12), and "Do Automated Evals Work?" (2026-07-11).
+Active and influential as of 2026-10-02.
+The blog posts through early October, most recently "Claude's new auto eval tool" (2026-09-30), his review of Anthropic's first-party eval plugin for Claude Code (the claude-api plugin's build_eval and hill-climb commands), where he names what the tool gets wrong, starting an eval before looking at data and asking you to validate judgments without enough context, ahead of "AI Evals: Everything You Need to Know" (2026-09-18), "AI Product Engineering Notes" (2026-08-12), and "Do Automated Evals Work?" (2026-07-11).
 He co-teaches the [AI Evals for Engineers and PMs](https://maven.com/parlance-labs/evals) course with Shreya Shankar, reporting over 5,000 engineers and PMs from teams like OpenAI, Google, Meta, Amazon, and Microsoft as of 2026-09-22, with an Oct 10 cohort advertised at 25% off.
 He is co-author of the forthcoming O'Reilly book [Evals for AI Engineers](https://www.oreilly.com/library/view/evals-for-ai/9798341660717/).
 
@@ -78,6 +78,7 @@ Not for someone looking for survey-level breadth or for a tool recommendation; i
 - 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
 - 2026-09-22 - New post "AI Evals: Everything You Need to Know" (2026-09-18) now leads the blog; the course page advertises an Oct 10 cohort at 25% off.
 - 2026-09-24 - Added the Top 5 recommended reading section.
+- 2026-10-02 - New post "Claude's new auto eval tool" (2026-09-30) now leads the blog, his review of Anthropic's first-party Claude Code eval plugin; added to References.
 
 ## See also
 
@@ -93,3 +94,4 @@ Not for someone looking for survey-level breadth or for a tool recommendation; i
 - https://hamel.dev/blog/posts/evals/ - "Your AI Product Needs Evals", the framing post
 - https://maven.com/parlance-labs/evals - the course with subscriber and student counts
 - https://arize.com/blog/rise-of-the-ai-engineer-why-ai-evals-fail-before-the-evaluation-begins/ - a critical look at why evals fail, featuring his views
+- https://hamel.dev/blog/posts/claude-auto-evals/ - his 2026-09-30 review of Anthropic's first-party eval plugin for Claude Code, grounding the newest-post claim

@@ -1,7 +1,7 @@
 ---
 title: Ellipsis
 created: 2026-08-30
-updated: 2026-10-02
+updated: 2026-10-03
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, code-review, ai-review, developer-tools]
 readability: 3
@@ -20,13 +20,13 @@ Ellipsis AI Inc (New York, founded 2023, YC Winter 2024, founders Hunter Brooks 
 Sessions start from GitHub, Slack, Linear, or Sentry events, cron schedules, the `agent` CLI, or a REST API, and the platform fronts Claude Code, Codex, Copilot, Gemini, Cursor, Grok Code, Antigravity, OpenCode, and Pi.
 Code review survives as a configurable agent use case, not the fixed install-and-forget bot of 2024, and the platform deploys either in Ellipsis's cloud or into your own AWS VPC.
 The core product is proprietary: its GitHub org publishes only tooling, an agent CLI, a homebrew tap, a Python and TypeScript SDK mirror, and the blink codebase-search repo, five public repos in total as of 2026-10-02, down from six on 2026-09-21 because the AWS installer repo is no longer public.
-Blink (92 stars as of 2026-10-02) was created on September 16, 2026.
+Blink (93 stars as of 2026-10-03) was created on September 16, 2026.
 
 ## Status
 
 **Active and pivoted.**
 The July 28, 2026 post "Introducing the Ellipsis Agent Cloud" says it plainly: Ellipsis "launched in 2023 as one of the first AI Code Review bots", but teams no longer want a product that "just worked", so the company rebuilt itself as agent infrastructure and released the `agent` CLI.
-The homepage, docs, and pricing all describe the agent cloud as of 2026-10-02, and the GitHub org pushed to its CLI repo on 2026-09-28.
+The homepage, docs, and pricing all describe the agent cloud as of 2026-10-03, and the GitHub org pushed to its CLI repo on 2026-10-02.
 Funding is a $2M seed announced June 19, 2024, with YC partners and the Pioneer Fund among the investors; I found no later round on any page I fetched.
 The blog is thin, three original posts since January 2025 and a gap from April 2025 to July 2026, so public cadence evidence is sparse even though the product is clearly alive.
 The community footprint is one strong Show HN from May 9, 2024 (Algolia item 40309719, 121 points, 64 comments) and a quieter February 2024 one (item 39526616, 18 points, 11 comments).
@@ -50,7 +50,7 @@ The community footprint is one strong Show HN from May 9, 2024 (Algolia item 403
 
 ## Pricing
 
-Tokens are billed at cost with no markup, plus a 20% platform fee, with CPU at $0.142/vCPU-hour and memory at $0.024/GB-hour, as of 2026-10-02.
+Tokens are billed at cost with no markup, plus a 10% platform fee, with CPU at $0.142/vCPU-hour and memory at $0.024/GB-hour, as of 2026-10-03.
 There are no per-seat fees and no idle charges, and a $100 credit covers the start.
 Individuals on their own coding-agent subscription get the platform free, the on-ramp the homepage leads with, as of 2026-10-02.
 The subscription wording flip-flops: the hero badge titled the free tier "ChatGPT or Claude" when I first recorded it on 2026-09-13, "Claude Code or Codex" by 2026-09-18, and "ChatGPT or Claude" again on 2026-09-27, while by 2026-10-02 the badge read only "FREE FOR INDIVIDUALS" and the FAQ question has named Claude Code or Codex throughout.
@@ -65,6 +65,7 @@ This replaces the May 2024 model, which was $20/seat/month for the review bot.
 | 2024-05 | Review bot | Original model: $20/seat/month for the review bot. | [ellipsis.dev/pricing](https://www.ellipsis.dev/pricing) |
 | 2026-09-18 | All tiers | Replaced with usage billing: tokens at cost plus a 10% platform fee, CPU $0.142/vCPU-hour, memory $0.024/GB-hour, $100 starting credit, no seat fees; enterprise support packages at $5,000/$10,000/$15,000 per month. | [ellipsis.dev/pricing](https://www.ellipsis.dev/pricing) |
 | 2026-10 | All tiers | Platform fee raised from 10% to 20% of token cost; CPU, memory, and support-package prices unchanged. | [ellipsis.dev/pricing](https://www.ellipsis.dev/pricing) |
+| 2026-10-03 | All tiers | Platform fee returned to 10% of token cost, reversing the 20% rate recorded the previous day; CPU, memory, and support-package prices unchanged. | [ellipsis.dev/pricing](https://www.ellipsis.dev/pricing) |
 
 ## Compared to
 
@@ -90,6 +91,8 @@ I will take the unpopular position that leaving review was the right call: a fix
 - 2026-09-26 - The GitHub org dropped to five public repos (the AWS installer repo is no longer public) and blink grew from 31 to 81 stars; pricing re-verified unchanged.
 - 2026-09-27 - The homepage's free-tier badge wording flipped back to ChatGPT or Claude (the FAQ keeps Claude Code or Codex) and blink grew from 81 to 84 stars; prices re-verified unchanged.
 - 2026-10-02 - The platform fee doubled from 10% to 20% of token cost (CPU, memory, and support packages unchanged), with a price-history row added; the homepage badge now reads FREE FOR INDIVIDUALS with the FAQ keeping Claude Code or Codex, blink grew to 92 stars, and a banned-term word was reworded out of the Compared-to prose.
+- 2026-10-02 - Repaired the References section, which a previous run had left truncated mid-line, completing the Show HN citation, and re-fetched every cited URL, all 200 this run.
+- 2026-10-03 - The platform fee returned to 10% of token cost, reversing the 20% rate recorded the previous day, with a price-history row added, and blink grew from 92 to 93 stars while the CLI repo was pushed again on 2026-10-02.
 
 ## See also
 
@@ -107,4 +110,4 @@ I will take the unpopular position that leaving review was the right call: a fix
 - https://www.ellipsis.dev/blog/the-ellipsis-agent-cloud - the July 28, 2026 pivot announcement by the founder, fetched 2026-09-18.
 - https://www.ellipsis.dev/blog/ellipsis-raises-a-2m-seed-round - the $2M seed, investor list, and the 13% faster-merge claim, fetched 2026-09-18.
 - https://www.ycombinator.com/companies/ellipsis - YC batch (W24), founding date, founders, team size, and active status, fetched 2026-09-18.
-- https://hn.algolia.com/api/v1/items/40309719 - the May 9, 2024 Show HN (121 points, 64 comments) with the prai
+- https://hn.algolia.com/api/v1/items/40309719 - the May 9, 2024 Show HN (121 points, 64 comments) with the praise and the blunt criticism that greeted the launch

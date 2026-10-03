@@ -1,7 +1,7 @@
 ---
 title: "People and Publications Feature Matrix"
 created: 2026-08-29
-updated: 2026-10-02
+updated: 2026-10-03
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=big-pickle, comparison, people, publications, voices, llm=glm-5.3-flash]
 readability: 3
@@ -117,6 +117,7 @@ Shreya Shankar supplies the peer-reviewed measurement layer, making agent reliab
 - 2026-09-27 - Reworded a cell off a banned-term compound; meaning unchanged.
 - 2026-09-30 - Refreshed the Ronacher cadence cell to eleven essays between July 4 and September 29, 2026 and the IndyDevDan cadence cell to 16 consecutive Mondays; no membership change, columns stay at thirty.
 - 2026-10-02 - Refreshed the Owain Lewis cadence cell to 16 uploads between May 15 and September 28, 2026; no membership change, columns stay at thirty.
+- 2026-10-03 - Replaced the dead karpathy.bearblog.dev Sequoia Ascent reference (the Bear blog 404s as of 2026-10-03) with the Internet Archive snapshot; no cadence cell moved on re-verification, columns stay at thirty.
 
 ## See also
 
@@ -134,7 +135,7 @@ Shreya Shankar supplies the peer-reviewed measurement layer, making agent reliab
 - https://www.youtube.com/@AIJasonZ - platform and video focus for the AI Jason column
 - https://www.interconnects.ai/ - model and post-training focus for the Lambert column
 - https://lilianweng.github.io/ - the research-reference focus for the Weng column
-- https://karpathy.bearblog.dev/sequoia-ascent-2026/ - the Software 3.0 essay grounding the Karpathy column
+- https://web.archive.org/web/20260925165449/https://karpathy.bearblog.dev/sequoia-ascent-2026/ - the Software 3.0 essay grounding the Karpathy column (Internet Archive snapshot; the live Bear blog 404s as of 2026-10-03)
 - https://huyenchip.com/ - the systems-survey focus grounding the Huyen column
 - https://www.latent.space/ - platform, subscribers, and conference for the Latent Space column
 - https://newsletter.pragmaticengineer.com/ - cadence, paywall, and org focus for the Pragmatic Engineer column

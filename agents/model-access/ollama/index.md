@@ -1,7 +1,7 @@
 ---
 title: Ollama
 created: 2026-09-27
-updated: 2026-09-27
+updated: 2026-10-03
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, model-access, local-inference, model-registry]
 readability: 3
@@ -22,7 +22,7 @@ The registry curates quantizations of each model, and `ollama run <model>` is th
 
 ## Status
 
-Very active: 182,026 stars as of 2026-10-02, repo pushed the same day, among the largest repositories in the AI ecosystem.
+Very active: 182,078 stars as of 2026-10-03, repo pushed the same day, among the largest repositories in the AI ecosystem.
 The surface is expanding fast: MLX acceleration on Apple silicon arrived in preview with 0.19 in March 2026, and NVFP4 quantization is now supported alongside the GGUF classics.
 Cloud models launched as Ollama Turbo in August 2025, and the plans were rebuilt into Free, Pro, Max, and Team tiers by late September 2026.
 **The pivot is real: a tool whose brand was local and private now sells US, Europe, and Singapore-hosted cloud inference through NVIDIA cloud partners, with the local runtime free underneath.**
@@ -84,7 +84,7 @@ My disagreeable claim: for coding agents on 16GB laptops, local quantized models
 
 ## References
 
-- https://api.github.com/repos/ollama/ollama - 182,026 stars, Go, MIT, pushed 2026-10-02 (200, fetched 2026-10-02).
+- https://api.github.com/repos/ollama/ollama - 182,078 stars, Go, MIT, pushed 2026-10-03 (200, fetched 2026-10-03).
 - https://ollama.com/ - current positioning: 9M developers, coding-agent integrations, Pro/Max teaser, cloud regions (200).
 - https://ollama.com/pricing - all tiers, included credits, per-token model table, off-peak terms, concurrency caps, FAQ (200).
 - https://docs.ollama.com/ - local API surface: Ollama, OpenAI, and Anthropic-compatible clients, cloud vs local split (200).

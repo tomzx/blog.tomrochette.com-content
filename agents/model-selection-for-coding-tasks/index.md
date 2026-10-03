@@ -1,7 +1,7 @@
 ---
 title: "Model Selection for Coding Tasks"
 created: 2026-08-24
-updated: 2026-10-02
+updated: 2026-10-03
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, model-selection, coding-agents, llm-pricing]
 readability: 3
@@ -10,7 +10,7 @@ audience_notes: >
   Assumes you know what input and output tokens cost and what a prompt cache does.
 ---
 
-This is a maintained, opinionated guide to choosing models for coding, review, and agentic work; prices and benchmarks below are as of 2026-10-02.
+This is a maintained, opinionated guide to choosing models for coding, review, and agentic work; prices and benchmarks below are as of 2026-10-03.
 
 **Model selection for coding is an economics decision before it is a capability decision: run the workhorse tier for the loop, buy the frontier by the minute, and give the reading to the cheap models.**
 The part most engineers get backwards: **for anyone paying per token, the harness you run moves your bill about as much as the model you pick, and sometimes more.**
@@ -25,7 +25,7 @@ The part most engineers get backwards: **for anyone paying per token, the harnes
 
 Escalate by task class inside a session instead of picking one model for everything; Amp's low/medium/high/ultra modes and Codex's Sol/Terra/Luna defaults are this idea shipped as product (see the [Amp](../harnesses/amp/index.md) and [Codex](../harnesses/codex/index.md) notes).
 
-## The lineup as of 2026-10-02
+## The lineup as of 2026-10-03
 
 **The workhorse tier has converged to roughly $2 in and $10-12 out per million tokens at every major provider, which means switching costs are now measured in harness integration, not price.**
 GPT-6 Sol joined the club on 2026-09-22 at exactly $2/$10, the first OpenAI model to price at the converged rate, while gpt-5.6-sol stays at $4/$20 behind its promotion.
@@ -59,7 +59,7 @@ GLM-5.3, 5.2, and 5.1 sit at $1.40 in and $4.40 out per million tokens, with GLM
 Kimi's coding-specialized kimi-k2.7-code lists at $0.95/$4.00 with a 256K context and multimodal input, and Moonshot's own pricing and its official OpenRouter endpoint agree on that price as of 2026-09-25.
 Third-party OpenRouter hosts serve the same model id from $0.67/$3.35, but that floor is hosts undercutting each other weekly, not a Moonshot list price.
 Its HighSpeed variant lists at $1.90/$8.00 for about 180-260 tokens per second of output.
-Kimi K3 takes the other flank: $3/$15 list, which Moonshot's page and its official endpoint both state, always reasoning with a configurable effort, and a flat-price 1M context that only Claude otherwise offers, with the same host floor running from $0.38/$10.00 for token-payers who accept cheap-host variance.
+Kimi K3 takes the other flank: $3/$15 list, which Moonshot's page and its official endpoint both state, always reasoning with a configurable effort, and a flat-price 1M context that only Claude otherwise offers, with the same host floor running from $0.98/$13.00 for token-payers who accept cheap-host variance.
 Z.ai even keeps GLM-4.7-Flash free, which makes it the zero-dollar candidate for inline completion and routing experiments.
 GLM-5.3-Flash fills the gap between free and $1.40: its 50 percent launch promo expired at 24:00 on 2026-09-09 Singapore time exactly as scheduled, and Z.ai's page billed the $0.15/$0.50 list price with cached reads at $0.03 when I re-checked on 2026-09-29.
 On 2026-09-18 Z.ai wedged a new rung between Flash and GLM-5.3: GLM-5.3-FlashX, a high-speed Flash serving option for coding and agent workflows at $0.37/$1.25 with cached reads at $0.075.
@@ -108,10 +108,10 @@ One fence to remember: Anthropic's March 2026 legal requests removed Claude subs
 
 **Everything above collapses into one sentence per situation, and every price claim in it is dated in the table above.**
 
-- Daily loop default: Claude Sonnet 5.5, gpt-6-sol, or Gemini 3.1 Pro Preview; pick by harness fit, they price the same, and Kimi K3 at $3/$15 official (the OpenRouter host floor is far lower, with cheap-host caveats) is the token-payer's challenger option in that class.
+- Daily loop default: Claude Sonnet 5.5, gpt-6-sol, or Gemini 3.1 Pro Preview; pick by harness fit, they price the same, and Kimi K3 at $3/$15 official (the OpenRouter host floor is roughly a third on input, with cheap-host caveats) is the token-payer's challenger option in that class.
 - High-volume loops where cost leads: deepseek-flash at $0.30 peak and $0.15 off-peak with no expiry announced, gpt-6-luna at $0.10/$0.50, GLM-5.3-Flash at $0.15/$0.50, or Gemini 3.8/3.7/3.6 Flash at the shared $0.75/$3.75 intro rate (calendar the 2026-12-31 end).
 - Price-floor loops, BYOK: deepseek-flash, kimi-k2.7-code, or GLM-5.3 through OpenCode, all native providers; nothing credible stays cheaper.
-- Whole-repository reads: DeepSeek from $0.30 in, a 1M-context Claude or Qwen3.8-Max at $2, or Kimi K3 at $3 flat (host floor $0.40); all four keep 1M pricing flat.
+- Whole-repository reads: DeepSeek from $0.30 in, a 1M-context Claude or Qwen3.8-Max at $2, or Kimi K3 at $3 flat (host floor $0.98); all four keep 1M pricing flat.
 - Frontier minutes only: gpt-6-astra, gpt-5.6-sol, Claude Opus 5.5, or Claude Opus 5 for planning and stuck debugging; Fable 5.1 when nothing else resolves.
 - Inline completion and edits: gpt-6-luna, Gemini 3.1 Flash-Lite, Claude Haiku 4.5, or GLM-5.3-Flash.
 - Review passes and doc reading: cheap tier in batch mode, or a 1M-context Claude for whole-repo reads at standard price.
@@ -124,7 +124,7 @@ One fence to remember: Anthropic's March 2026 legal requests removed Claude subs
 **Everything volatile in this guide is dated, and four clocks are running.**
 GLM-5.3-Flash's half-price launch promo expired at 24:00 on 2026-09-09 Singapore time as scheduled, and Z.ai's page billed the $0.15/$0.50 list price when I re-checked on 2026-09-29.
 DeepSeek cancelled the planned 2026-09-14 routing of v4-pro requests to V4.1-Flash and V4 Pro keeps billing at $1.32/$3.96 peak, Sol's promotional pricing runs at least through 2026-11-21, the Gemini Flash intro rate ends 2026-12-31, and benchmark relevance decays on roughly a quarterly cycle (CodeClash, then ProgramBench within six months).
-The fourth clock is impersonal: OpenRouter's third-party host floors on the Kimi models moved again this week (K3's floor is now $0.38/$10.00 on Relace), so treat those floors as spot prices and anchor purchasing decisions to the list prices.
+The fourth clock is impersonal: OpenRouter's third-party host floors on the Kimi models moved again this week (K3's floor is now $0.98/$13.00 on Relace, with InferenceNet at $0.99/$13.00 and Wafer at $0.99/$14.00), so treat those floors as spot prices and anchor purchasing decisions to the list prices.
 Sonnet 5 shows the other direction: a scheduled September 2026 increase to $3/$15 was cancelled weeks before taking effect, so scheduled changes are announcements, not facts.
 On each refresh I re-fetch the seven provider pricing pages (OpenAI, Anthropic, Google, Moonshot, Z.ai, DeepSeek, Alibaba) plus OpenRouter's models and endpoints APIs and the models.dev list, the SWE-bench leaderboards, and one current harness-overhead measurement, and I update the table above and the as-of date together.
 A fact that cannot survive that re-fetch gets deleted rather than hedged.
@@ -158,6 +158,8 @@ A fact that cannot survive that re-fetch gets deleted rather than hedged.
 - 2026-09-27 - Refreshed every provider price: added Claude Opus 5.5 (2026-09-22, $4/$20, 5% cache) as a column, recorded gpt-5.6-terra and gpt-5.6-luna leaving OpenAI's pricing page plus the new gpt-5.6-cyber and Gemini 3.8 Flash Cyber, corrected GLM-5.3-FlashX's cached read back to $0.075, moved the Kimi K3 host floor to $0.88/$4.90, fixed the context-behavior row (Haiku 4.5 to 200K, Sonnet 5 and the Gemini Flash group to 1M flat), and corrected the re-verify list to seven provider pages including Alibaba.
 - 2026-09-29 - Added Claude Sonnet 5.5 (2026-09-28, $2/$10, standard one-tenth cache) as a column, corrected the gpt-5.6-terra and gpt-5.6-luna cells after both returned to OpenAI's pricing page at their launch prices, and moved the Kimi K3 OpenRouter host floor to $0.40/$10.00 (Relace).
 - 2026-10-02 - Added gpt-6.1-sol (released 2026-09-29 per models.dev, $2/$10 with the cache hit halved to $0.10) as a column, re-verified all seven provider pricing pages with zero other vendor moves, and moved the OpenRouter host floors to their current spot readings (kimi-k2.7-code $0.67/$3.35, K3 $0.38/$10.00 on Relace).
+- 2026-10-02 - Moved the Kimi K3 OpenRouter host floor from $0.38/$10.00 (Relace) to $1.44/$14.00 (Wafer) and the aggregator listing to $2.70/$13.50 within the same day; Moonshot's official $3/$15 and every other provider anchor re-verified unchanged.
+- 2026-10-03 - Moved the Kimi K3 OpenRouter host floor again, from $1.44/$14.00 (Wafer) to $0.98/$13.00 (Relace) with InferenceNet at $0.99/$13.00; Moonshot's official $3/$15, the aggregator listing ($2.70/$13.50), the k2.7-code floor ($0.67/$3.35), and all seven provider anchors re-verified unchanged.
 
 ## See also
 
@@ -184,6 +186,6 @@ A fact that cannot survive that re-fetch gets deleted rather than hedged.
 - https://api-docs.deepseek.com/quick_start/pricing/ - DeepSeek lineup including V4.1-Flash and the notice that V4 Pro service continues past 2026-09-14 with billing unchanged, peak and off-peak rates, 1M context and 384K output, cache-hit prices, peak-hour definition (the trailing slash matters: without it the URL serves the first-API-call page)
 - https://api-docs.deepseek.com/news/news260910 - the DeepSeek-V4.1-Flash release announcement of 2026-09-10: model id, V4-Flash retirement, the original 2026-09-14 V4 Pro routing plan since superseded by the pricing page's continuation notice, and open weights
 - https://help.aliyun.com/zh/model-studio/billing-for-model-studio - Qwen3.8-Max and Qwen3.8-Flash official per-token prices, batch half price on Max, context-cache discount, the 0-1M token tier, and the new-account free quota
-- https://openrouter.ai/api/v1/models - aggregator listings for qwen3.8-max-0902 ($2/$6), qwen3.8-flash ($0.15/$0.47), the GPT-6 pair, and gpt-6.1-sol ($2/$10), re-checked 2026-10-02; kimi-k2.7-code's listing there is the third-party host floor ($0.67/$3.35), not Moonshot's list price, and kimi-k3's listing ($0.43/$10.00) has dropped back into host-floor territory
-- https://openrouter.ai/api/v1/models/moonshotai/kimi-k3/endpoints - per-provider endpoint prices separating Moonshot's official $3/$15 (cache $0.30) from the host floor at $0.38/$10.00 (Relace), re-checked 2026-10-02
+- https://openrouter.ai/api/v1/models - aggregator listings for qwen3.8-max-0902 ($2/$6), qwen3.8-flash ($0.15/$0.47), the GPT-6 pair, and gpt-6.1-sol ($2/$10), re-checked 2026-10-03; kimi-k2.7-code's listing there is the third-party host floor ($0.67/$3.35), not Moonshot's list price, and kimi-k3's listing ($2.70/$13.50) sits between the host floor and Moonshot's list price
+- https://openrouter.ai/api/v1/models/moonshotai/kimi-k3/endpoints - per-provider endpoint prices separating Moonshot's official $3/$15 (cache $0.30) from the host floor at $0.98/$13.00 (Relace), re-checked 2026-10-03
 - https://models.dev - the community model list used as the lineup reference: model ids, release dates, and context windows for every model in the table, including the GPT-6 pair's and Opus 5.5's 2026-09-22 release dates, Sonnet 5.5's 2026-09-28, and gpt-6.1-sol's 2026-09-29 (fetched 2026-10-02)

@@ -1,7 +1,7 @@
 ---
 title: OpenCode Go
 created: 2026-09-26
-updated: 2026-09-29
+updated: 2026-10-03
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, model-access, coding-subscription, open-models]
 readability: 3
@@ -16,12 +16,12 @@ OpenCode Go is a subscription from the OpenCode (Anomaly) team that bundles acce
 
 Go sells model access, not an editor or a harness.
 You subscribe, copy an API key, and point any agent at OpenAI-compatible, Anthropic-compatible, or Responses endpoints under `opencode.ai/zen/go/v1`.
-The lineup is 30 open-weight coding models as of 2026-10-02 (Grok 4.7/4.6, GLM-5.3 family, Kimi K3, Qwen3.8, DeepSeek V4, MiniMax M3, MiMo, GPT 6 Luna, LongCat, Hy3, Hy4 preview), and only one member per workspace can hold a subscription.
+The lineup is 29 open-weight coding models as of 2026-10-03 (Grok 4.7/4.6, GLM-5.3 family, Kimi K3, Qwen3.8, DeepSeek V4, MiniMax M3, MiMo, GPT 6 Luna, LongCat, Hy3, Hy4 preview), and only one member per workspace can hold a subscription.
 
 ## Status
 
 Active and changing fast.
-The OpenCode repo shows about 208K GitHub stars as of 2026-09-26, the Go docs were last updated 2026-09-28, and the plan has grown from a three-model Beta in March 2026 to 30 models plus a $40 Go Plus tier.
+The OpenCode repo shows about 208K GitHub stars as of 2026-09-26, the Go docs were last updated 2026-09-28, and the plan has grown from a three-model Beta in March 2026 to 29 models plus a $40 Go Plus tier.
 Churn is constant: GPT 6 Luna arrived 2026-09-22 and Space Bunny Free appeared as a limited-time unlimited model.
 **Go converts $10 into up to $60 of metered usage per month, Go Plus converts $40 into up to $180, and that ratio is the entire value proposition.**
 
@@ -76,6 +76,7 @@ My disagreeable claim: at roughly 50% usage Go is about break-even with direct A
 
 - 2026-09-26 - Created.
 - 2026-09-29 - Go Plus added at $40/month with 2x to 4x the per-model monthly dollar limits, the catalog moved from 32 to 29 models (LongCat, Hy3, Hy4 preview, Qwen3.8, and GPT 5.6 Luna joined the roster), and the docs republished 2026-09-28; price history row appended.
+- 2026-10-03 - Corrected the model-count claim from 30 to 29, matching the product page's own count and the 2026-09-29 catalog bullet, with the $10/$40 tiers re-verified unchanged.
 
 ## See also
 

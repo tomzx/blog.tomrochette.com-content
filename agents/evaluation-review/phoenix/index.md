@@ -1,7 +1,7 @@
 ---
 title: Phoenix
 created: 2026-08-30
-updated: 2026-09-26
+updated: 2026-10-03
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, evaluation, observability, opentelemetry, tracing]
 readability: 3
@@ -24,8 +24,8 @@ Core platform under Elastic License 2.0 with the client and OTel packages Apache
 
 ## Status
 
-Mature and busy: 11,674 stars, 1,177 forks, 1,063 open issues and PRs as of 2026-10-02.
-Created 2022-11-09, pushed 2026-10-02, platform release arize-phoenix 20.19.0 on 2026-10-01, about 650,000 PyPI downloads over the trailing 30 days ending 2026-10-02.
+Mature and busy: 11,689 stars, 1,178 forks, 1,091 open issues and PRs as of 2026-10-03.
+Created 2022-11-09, pushed 2026-10-03, platform release arize-phoenix 20.19.0 on 2026-10-01, about 650,000 PyPI downloads over the trailing 30 days ending 2026-10-03.
 **Four years in, it is the oldest and most production-proven column in this category, with near-daily commits and weekly releases.**
 
 ## Strengths
@@ -40,7 +40,7 @@ Created 2022-11-09, pushed 2026-10-02, platform release arize-phoenix 20.19.0 on
 - Not truly open source: ELv2 bars offering Phoenix as a managed service, and a community issue calls the license overly restrictive for OSS compatibility.
 - Production monitoring (dashboards, alerting, issue grouping) lives in Arize AX, not the OSS project.
 - The Azure quick-deploy template serves plain HTTP and the Google Cloud button builds from source, per the README's own notes.
-- 1,093 open issues and PRs is a large queue even for a project this size.
+- 1,091 open issues and PRs is a large queue even for a project this size.
 
 ## Pricing
 
@@ -74,6 +74,7 @@ Not for anyone resampling hosted observability on top of it, or strictly open-so
 - 2026-09-20 - Corrected the monthly PyPI download figure to about 840,000 per the pypistats source and refreshed repository counts.
 - 2026-09-25 - Recorded the arize-phoenix 20.16.0 release and refreshed repository counts.
 - 2026-09-25 - Re-measured the monthly PyPI figure at about 650,000 for the trailing 30 days ending 2026-09-25, after readings of about 840,000 (2026-09-20) and 770,000 (2026-09-21) on the same source.
+- 2026-10-03 - Refreshed repository counts and corrected the Status open-issues figure, which had drifted from the Cautions line (both now the same 1,091 count as of 2026-10-03).
 
 ## See also
 
@@ -84,7 +85,7 @@ Not for anyone resampling hosted observability on top of it, or strictly open-so
 
 ## References
 
-- https://github.com/Arize-ai/phoenix - repository, README, license, adoption numbers
+- https://github.com/Arize-ai/phoenix - repository, README, license, adoption numbers as of 2026-10-03
 - https://arize.com/docs/phoenix - the OTel and OpenInference basis, features
 - https://arize.com/docs/phoenix/resources/frequently-asked-questions/what-is-the-difference-between-phoenix-and-arize - the Phoenix versus AX split
 - https://arize.com/pricing/ - the AX tiers for the pricing rows

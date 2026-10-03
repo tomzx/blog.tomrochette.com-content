@@ -1,7 +1,7 @@
 ---
 title: Docling
 created: 2026-09-27
-updated: 2026-09-27
+updated: 2026-10-03
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, retrieval, document-parsing, rag]
 readability: 3
@@ -24,8 +24,8 @@ The repository was created 2024-07-09 as IBM's ds4sd/docling and now lives under
 
 ## Status
 
-Very active and very large: 68,277 stars, 4,981 forks, 972 open issues, and a push on 2026-10-01 as of 2026-10-02.
-PyPI shows version 2.132.0 released 2026-10-01 across 220 releases, with Python 3.9 support dropped at 2.70.0, and pypistats reports 2,743,116 downloads in the last month as of 2026-10-02 (re-read at the same cached value as the prior run).
+Very active and very large: 68,326 stars, 4,989 forks, 987 open issues, and a push on 2026-10-03 as of 2026-10-03.
+PyPI shows version 2.132.0 released 2026-10-01 across 220 releases, with Python 3.9 support dropped at 2.70.0, and pypistats reports 2,743,116 downloads in the last month as of 2026-10-03 (re-read at the same cached value as the prior run).
 The HN footprint is thin for that scale: the largest story thread I found is 13 points from 2024-11-03, which says adoption flows through framework integrations and tutorials rather than launch-driven attention.
 The project's docs now advertise a managed path, Docling for IBM watsonx, exposing the same REST API as the self-hosted server.
 
@@ -74,7 +74,7 @@ My disagreeable claim: Docling's dominance owes as much to IBM's distribution an
 
 ## References
 
-- https://api.github.com/repos/docling-project/docling - 68,277 stars, 4,981 forks, MIT, created 2024-07-09, pushed 2026-10-01, 972 open issues, as of 2026-10-02
+- https://api.github.com/repos/docling-project/docling - 68,326 stars, 4,989 forks, MIT, created 2024-07-09, pushed 2026-10-03, 987 open issues, as of 2026-10-03
 - https://raw.githubusercontent.com/docling-project/docling/main/README.md - format list, DoclingDocument, exports, integrations, MCP server, docling-serve, LF AI & Data badge
 - https://arxiv.org/abs/2408.09869 - the technical report grounding the DocLayNet layout and TableFormer table models and the MIT, commodity-hardware claims
 - https://docling-project.github.io/docling/getting_started/installation/ - the PyTorch dependency, install extras, and the Python 3.9 cutoff at 2.70.0

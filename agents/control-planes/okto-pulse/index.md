@@ -1,7 +1,7 @@
 ---
 title: Okto Pulse
 created: 2026-09-27
-updated: 2026-10-02
+updated: 2026-10-03
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, llm=glm-5.3-flash, spec-driven-development, governance-gates, coding-agents, mcp, local-first]
 readability: 3
@@ -27,7 +27,7 @@ An embedded knowledge graph keeps decisions, constraints, bugs, and learnings qu
 
 ## Status
 
-Active and young: 111 stars, 4 forks, and 7 open issues as of 2026-10-02, created 2026-04-22, last pushed 2026-10-02, current PyPI version 0.3.3.
+Active and young: 110 stars, 4 forks, and 7 open issues as of 2026-10-03, created 2026-04-22, last pushed 2026-10-02, current PyPI version 0.3.3.
 No GitHub releases are published, so the PyPI package is the release channel, and the website still advertises v0.2.6 while the repository README documents v0.3.3.
 **The internal numbers do not agree across surfaces: the README prose and the website both say 17 governance gates while the README's own platform table says 18, and the README says 340 core MCP tools while the product page says 215.**
 The community footprint is thin: a Hacker News search for Okto Pulse returns nothing, so the evidence is the repository and the product site alone.
@@ -82,6 +82,6 @@ The README describes a possible SaaS edition and a core-and-community split, but
 - https://pypi.org/pypi/okto-pulse/json - current version 0.3.3 and Elastic-2.0 license metadata (re-checked 2026-10-02)
 - https://oktolabs.ai/platform/pulse/ - product site: workflow, gate and tool counts, value proposition (re-fetched 2026-10-02, still advertising v0.2.6 and 17 gates)
 - https://oktolabs.ai/platform/neuron/ - the Neuron product page: Marginalia rename, 0.3.1, ELv2, byte-range provenance, five MCP tools
-- https://github.com/OktoLabsAI/okto-nexus - the sibling product's README: serve ports, tool counts, SQLite/WAL storage, dashboard, licensing (65 stars, pushed 2026-10-02, as of 2026-10-02)
+- https://github.com/OktoLabsAI/okto-nexus - the sibling product's README: serve ports, tool counts, SQLite/WAL storage, dashboard, licensing (67 stars, pushed 2026-10-03, as of 2026-10-03)
 - https://pypi.org/pypi/okto-nexus/json - okto-nexus 0.1.10 under Elastic License 2.0 plus the SaaS/Branding Addendum
 - https://docs.oktolabs.ai - documentation index: install, quickstart, MCP setup, knowledge graph

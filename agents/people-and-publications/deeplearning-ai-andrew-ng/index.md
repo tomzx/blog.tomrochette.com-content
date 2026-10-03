@@ -1,7 +1,7 @@
 ---
 title: Andrew Ng (The Batch, DeepLearning.AI)
 created: 2026-08-29
-updated: 2026-09-27
+updated: 2026-10-03
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=big-pickle, llm=glm-5.3-flash, people, publications, education, agents, agentic-ai]
 readability: 3
@@ -22,8 +22,8 @@ His [agentic AI course](https://learn.deeplearning.ai/courses/agentic-ai) and [A
 
 ## Status
 
-Active and highly influential as of 2026-09-27.
-The Batch publishes weekly, with the latest numbered issue (372) on 2026-09-25, and the AI Engineering Skills Map letter is dated 2026-08-14.
+Active and highly influential as of 2026-10-03.
+The Batch publishes weekly, with the latest numbered issue (373, "GLM-5.3's ExploitBench Score is Good News for Cybersecurity") on 2026-10-02, and the AI Engineering Skills Map letter is dated 2026-08-14.
 DeepLearning.AI reports courses taught to millions of learners and positions itself as the canonical AI education path.
 
 ## Strengths
@@ -78,6 +78,7 @@ Not for a practitioner who wants deep technical detail, frontier-labs nuance, or
 - 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
 - 2026-09-24 - Added the Top 5 recommended reading section.
 - 2026-09-27 - Batch recency refreshed to issue 372 (2026-09-25); replaced the dead zenvanriel.com review link with the Ask HN Coursera thread after the original page 404'd with no archive.
+- 2026-10-03 - Batch recency refreshed to issue 373 (2026-10-02, "GLM-5.3's ExploitBench Score is Good News for Cybersecurity"); issue URL fetched this run.
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: Codex
 created: 2026-08-22
-updated: 2026-09-26
+updated: 2026-10-03
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, coding-agents, harnesses, openai, developer-tools]
 readability: 3
@@ -44,7 +44,7 @@ The CLI launched April 2025 and has been rewritten and rebuilt since; the curren
 
 ## Pricing
 
-**Included in ChatGPT Free**, Go ($8/month), Plus ($20/month), Pro 5x ($100/month), Pro 20x ($200/month), Business ($20-25 per user), Enterprise and Edu.
+**Included in ChatGPT Free**, Go ($8/month), Plus ($20/month), Pro (three tiers at $100, $200, and $500/month, the $500 tier carrying Ultrafast Astra access), Business ($20-25 per user), Enterprise and Edu.
 Overage is sold as credits; API-key usage is plain token pricing.
 
 ## Price history
@@ -52,6 +52,7 @@ Overage is sold as credits; API-key usage is plain token pricing.
 | Date | Plan | Change | Source |
 | ---- | ---- | ------ | ------ |
 | 2026-09 | ChatGPT plans | Baseline: included from Free up, Go $8/mo, Plus $20/mo, Pro 5x $100/mo, Pro 20x $200/mo, Business $20-25 per user, Enterprise and Edu custom; overage sold as credits. | [learn.chatgpt.com/docs/pricing](https://learn.chatgpt.com/docs/pricing) |
+| 2026-10-03 | Pro | The pricing page now lists Pro as three tiers at $100, $200, and $500 per month, where the note previously carried Pro 5x $100 and Pro 20x $200; the $500 tier is listed with Ultrafast Astra access. | [learn.chatgpt.com/docs/pricing](https://learn.chatgpt.com/docs/pricing) |
 
 ## Compared to
 
@@ -75,6 +76,7 @@ Not the cheapest path if your usage is light and token-based (aider or OpenCode 
 - 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
 - 2026-09-22 - Recorded the GPT-6 family (Astra, Sol, Luna) arriving across ChatGPT plans alongside GPT-5.6 and the October 14, 2026 GPT-5.5 retirement, and refreshed repository scale.
 - 2026-09-26 - Linked the ChatGPT plans note in the new Model access category, where the subscription that carries this harness is tracked with its price history.
+- 2026-10-03 - Recorded the pricing page listing Pro as three tiers at $100, $200, and $500 per month (previously Pro 5x $100 and Pro 20x $200), with the $500 tier carrying Ultrafast Astra access, and appended the matching Price history row.
 
 ## See also
 
@@ -88,6 +90,6 @@ Not the cheapest path if your usage is light and token-based (aider or OpenCode 
 
 - https://learn.chatgpt.com/docs - product overview and surfaces
 - https://learn.chatgpt.com/docs/codex/cli - CLI features, plugins, review, exec
-- https://learn.chatgpt.com/docs/pricing - plans, usage windows, credit rate card, GPT-6 rollout, and the GPT-5.5 retirement date, as of 2026-09-22
+- https://learn.chatgpt.com/docs/pricing - plans, usage windows, credit rate card, GPT-6 rollout, the GPT-5.5 retirement date, and the Pro tier ladder at $100, $200, and $500, as of 2026-10-03
 - https://github.com/openai/codex - repository scale and Apache-2.0 license, as of 2026-10-02
 - https://news.ycombinator.com/item?id=43708025 - launch discussion with early critical comparisons

@@ -1,7 +1,7 @@
 ---
 title: OpenChamber
 created: 2026-08-24
-updated: 2026-10-02
+updated: 2026-10-03
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, surfaces, agentic-development-environments, opencode, open-source]
 readability: 3
@@ -24,7 +24,7 @@ It runs on the OpenCode SDK today and is an independent project, not affiliated 
 ## Status
 
 **Very active.**
-About 11,000 stars (11,008) and 1,202 forks as of 2026-10-02, with v2.1.0 (October 1, 2026, cross-conversation message search over every session with the index kept on-machine, background commands and subagents that stay visible with live logs while they run, and a rebuilt file editor with changed-line markers, folding, multi-cursor, and a symbol outline) now the latest release after v2.0.4 (September 28, enterprise mode for teams that an administrator turns on with a policy file or `OPENCHAMBER_ENTERPRISE_MODE=1`, keeping conversations with the configured providers, locking provider management to config, and restricting extensions to administrator-approved repositories, plus goal checking, an Excalidraw extension, a Dutch interface, and Jev off by default), the v2.0.3 to v2.0.4 pair of September 28 (per-session permission modes of ask, safety net, or accept all, an In work session section, multi-run from the composer, a token-stats page, and provider cards), the v2.0.0 GA of the app on OpenCode 2 (September 23), the v1.24 line just below it (v1.24.2 of September 18 ending it), and commits landing October 1, 2026.
+About 11,000 stars (11,046) and 1,213 forks as of 2026-10-03, with v2.1.0 (October 1, 2026, cross-conversation message search over every session with the index kept on-machine, background commands and subagents that stay visible with live logs while they run, and a rebuilt file editor with changed-line markers, folding, multi-cursor, and a symbol outline) now the latest release after v2.0.4 (September 28, enterprise mode for teams that an administrator turns on with a policy file or `OPENCHAMBER_ENTERPRISE_MODE=1`, keeping conversations with the configured providers, locking provider management to config, and restricting extensions to administrator-approved repositories, plus goal checking, an Excalidraw extension, a Dutch interface, and Jev off by default), the v2.0.3 to v2.0.4 pair of September 28 (per-session permission modes of ask, safety net, or accept all, an In work session section, multi-run from the composer, a token-stats page, and provider cards), the v2.0.0 GA of the app on OpenCode 2 (September 23), the v1.24 line just below it (v1.24.2 of September 18 ending it), and commits landing October 3, 2026.
 A 190-point Hacker News thread in August 2026 marks its arrival in general awareness.
 
 ## Strengths
@@ -80,7 +80,7 @@ Not for anyone who wants a polished IDE experience or harness choice beyond Open
 ## References
 
 - https://openchamber.dev/ - features, surfaces, privacy model, FAQ
-- https://github.com/openchamber/openchamber - source, repository scale, as of 2026-10-02
+- https://github.com/openchamber/openchamber - source, repository scale, as of 2026-10-03
 - https://github.com/openchamber/openchamber/releases/tag/v2.1.0 - the latest release (October 1, 2026, message search, background commands, rebuilt editor); v2.0.4 of September 28 sits just below it
 - https://docs.openchamber.dev/ - install and configuration documentation
 - https://news.ycombinator.com/item?id=49233448 - the August 2026 launch discussion

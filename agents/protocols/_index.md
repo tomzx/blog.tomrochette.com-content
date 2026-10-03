@@ -12,8 +12,8 @@ The open standards that let agents, editors, tools, and frontends interoperate, 
 
 - [A2A](a2a/index.md) - Google's open protocol for independent agents to interoperate, now under the Linux Foundation.
 - [ACP](acp/index.md) - Zed's protocol standardizing how editors talk to coding agents.
-- [AG-UI](ag-ui/index.md) - CopilotKit's agent-to-frontend event protocol, 1.0 since September 2026 with about 13 million monthly npm downloads, the rendering half of the protocol stack.
-- [Agent Host Protocol](agent-host-protocol/index.md) - Microsoft's sessions-server spec with six-language SDKs, VS Code rebuilding its agent infrastructure on it, spec still at v0.9.0.
+- [AG-UI](ag-ui/index.md) - CopilotKit's agent-to-frontend event protocol, 1.0 since September 2026 with about 14.6 million monthly npm downloads, the rendering half of the protocol stack.
+- [Agent Host Protocol](agent-host-protocol/index.md) - Microsoft's sessions-server spec with six-language SDKs, VS Code rebuilding its agent infrastructure on it, spec at v1.0.0 since 2026-10-02.
 - [AGENTS.md](agents-md/index.md) - the open convention for repo-level agent instruction files.
 - [MCP](mcp/index.md) - the open protocol standardizing how AI applications connect to tools and data.
 

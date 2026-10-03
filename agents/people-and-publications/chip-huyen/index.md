@@ -1,7 +1,7 @@
 ---
 title: Chip Huyen
 created: 2026-08-29
-updated: 2026-09-13
+updated: 2026-09-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=big-pickle, llm=glm-5.3-flash, people, publications, ai-engineering, systems, llm]
 readability: 3

@@ -1,7 +1,7 @@
 ---
 title: Multica
 created: 2026-09-27
-updated: 2026-10-02
+updated: 2026-10-03
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, llm=glm-5.3-flash, orchestration, self-hosted, issue-tracking, agents-as-teammates]
 readability: 3
@@ -23,7 +23,7 @@ It self-describes as supporting 26 agent CLIs (Claude Code, Codex, Cursor, Copil
 
 ## Status
 
-Actively shipped and unusually high-profile: about 51,820 stars and 6,732 forks as of 2026-10-02, created 2026-01-13, with 1,744 open issues and a latest release of v0.6.1 on 2026-10-01.
+Actively shipped and unusually high-profile: about 51,865 stars and 6,739 forks as of 2026-10-03, created 2026-01-13, with 1,757 open issues and a latest release of v0.6.1 on 2026-10-01.
 Releases land every one to three days, which corroborates real maintenance.
 **Two caveats travel with the headline number: the star count is extraordinary for an eight-month-old repo, and independent reviewers found at least eight near-identical zero-star clones carrying the same marketing description, a pattern associated with star farming, while the license is a custom Apache-2.0-derived "Multica License" that GitHub reports as NOASSERTION.**
 

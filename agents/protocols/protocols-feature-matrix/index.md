@@ -1,7 +1,7 @@
 ---
 title: "Protocols Feature Matrix"
 created: 2026-08-24
-updated: 2026-10-02
+updated: 2026-10-03
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, comparison, protocols, interoperability]
 readability: 3
@@ -25,7 +25,7 @@ Each column links to the full research note; every cell below traces to a source
 | Originated by | Google (2025-04) | Zed, with JetBrains | CopilotKit (2025-05) | Microsoft (2026-03) | OpenAI-led (2025-08) | Anthropic (2024-11) |
 | Steward | AAIF (2026-08), TSC | vendor-neutral org | CopilotKit, no foundation | Microsoft, no foundation | AAIF | AAIF |
 | Spec license | Apache-2.0 | Apache-2.0 | MIT | MIT | MIT | MIT |
-| Maturity | v1.0.1 (2026-05) | version 1, v2 draft, remote WIP | packages 1.0.0 (2026-09-17), spec 1.0 | v0.9.0 (2026-08-28) | unversioned, de facto standard | dated revisions (2026-07-28) |
+| Maturity | v1.0.1 (2026-05) | version 1, v2 draft, remote WIP | packages 1.0.1 (2026-09-29), spec 1.0 | v1.0.0 (2026-10-02) | unversioned, de facto standard | dated revisions (2026-07-28) |
 | What it connects | agent-to-agent | editor-to-agent | agent-to-frontend | client-to-session | repo-to-agent | app-to-tools |
 | Adoption in this section | ✗ none native | ~ growing (OpenCode, JetBrains, Zed) | ✗ none native (CopilotKit ecosystem outside this index) | ~ VS Code reference host | ~ most; Claude Code shipped native support 2026-09-18 | ✓ near-universal |
 | Transport or location | HTTP, gRPC, JSON-RPC | JSON-RPC over stdio | SSE, WebSockets, webhooks | URI channels on a standalone sessions server | Markdown at repo root | JSON-RPC, stdio to sse |
@@ -40,9 +40,9 @@ ACP is stewarded by Zed and JetBrains under a vendor-neutral organization with n
 I read this as governance following adoption, not causing it.
 
 **Adoption falls as the protocol climbs the stack, and the file convention beat every wire protocol to default status.**
-MCP is table stakes across the harness and surface matrices; AGENTS.md counts more than 60,000 carrying projects, and its one glaring holdout closed on 2026-09-18 when Claude Code shipped native support in 2.1.277; ACP rides OpenCode, JetBrains, Zed, and a Copilot CLI preview; A2A has no native speaker among this index's harnesses, only community setups near Gemini CLI; AHP is just over six months old with 382 stars as of 2026-10-02, but its reference host ships inside VS Code and the VS Code team has said publicly it is rebuilding its agent infrastructure on the protocol.
-The SDK download ratio recorded in the A2A note, 10.9M monthly versus 257M for MCP, is the gap in one number, and AHP's roughly 597k combined downloads (about 265.9k crates plus 331.4k npm, the npm curve roughly doubling every two weeks since mid-September) show the same order-of-magnitude distance from the top.
-AG-UI is the anomaly that proves the rule: none of this index's harnesses or surfaces speak it natively, yet its SDKs moved about 13.1M combined npm downloads in the month ending 2026-10-02, because the frontend layer is where end-user products live even though coding tools never touch it.
+MCP is table stakes across the harness and surface matrices; AGENTS.md counts more than 60,000 carrying projects, and its one glaring holdout closed on 2026-09-18 when Claude Code shipped native support in 2.1.277; ACP rides OpenCode, JetBrains, Zed, and a Copilot CLI preview; A2A has no native speaker among this index's harnesses, only community setups near Gemini CLI; AHP is just over six months old with 384 stars and a fresh 1.0.0 spec (2026-10-02) as of 2026-10-03, and its reference host ships inside VS Code while the VS Code team has said publicly it is rebuilding its agent infrastructure on the protocol.
+The SDK download ratio recorded in the A2A note, 10.9M monthly versus 257M for MCP, is the gap in one number, and AHP's roughly 681k combined downloads (about 268.8k crates plus 412.4k npm, weekly npm downloads doubling or better through late September) show the same order-of-magnitude distance from the top.
+AG-UI is the anomaly that proves the rule: none of this index's harnesses or surfaces speak it natively, yet its SDKs moved about 14.6M combined npm downloads in the month ending 2026-10-01, because the frontend layer is where end-user products live even though coding tools never touch it.
 
 **The consolidations the notes record happened in opposite corners, and neither touched the other's territory.**
 IBM's Agent Communication Protocol (the other ACP, the source of the name collision) merged into A2A in August 2025 under LF AI and Data.
@@ -60,7 +60,7 @@ The mature protocols get attacked for their risks, the young ones for their reas
 - Streaming an agent into a product frontend: AG-UI, accepting CopilotKit's stewardship and dated-release churn (1.0.0 only landed 2026-09-17).
 - Any repository an agent touches: commit a short AGENTS.md, commands and conventions first.
 - Delegating work across vendors or departments: A2A, provided both sides run enterprise platforms.
-- Attaching a second client to a live agent session: AHP, provided v0.9.0 churn and Microsoft's stewardship are acceptable.
+- Attaching a second client to a live agent session: AHP, provided v1.0.0's short track record and Microsoft's stewardship are acceptable.
 - Wiring sub-agents inside one framework: none of these, native primitives or MCP are simpler.
 
 ## Changes
@@ -76,6 +76,7 @@ The mature protocols get attacked for their risks, the young ones for their reas
 - 2026-09-29 - Re-verification: refreshed the AG-UI and AHP figures in the prose (AG-UI about 12.3M combined monthly downloads, AHP 375 stars and roughly 433k combined downloads); no cells changed.
 - 2026-09-29 - Re-sorted the columns to the section-wide case-insensitive title sort (A2A, ACP, AG-UI, Agent Host Protocol, AGENTS.md, MCP), correcting the 2026-09-25 arrangement that had placed ACP and Agent Host Protocol ahead of A2A and AG-UI; the category page list was brought to the same order in the same run; no cell content changed.
 - 2026-10-02 - Re-verification: refreshed the AG-UI and AHP figures in the prose (AG-UI about 13.1M combined monthly downloads, AHP 382 stars and roughly 597k combined downloads); no cells changed.
+- 2026-10-03 - AHP maturity cell moved to v1.0.0 (2026-10-02) and the AG-UI maturity cell to packages 1.0.1 (2026-09-29), with star and download figures refreshed in the prose (AG-UI about 14.6M combined monthly downloads, AHP 384 stars and roughly 681k combined downloads).
 
 ## See also
 

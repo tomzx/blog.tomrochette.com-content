@@ -1,7 +1,7 @@
 ---
 title: Jevlike
 created: 2026-09-21
-updated: 2026-09-26
+updated: 2026-10-03
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, hybrid-execution, structured-outputs, system-one-models, decision-models, open-weights]
 readability: 3
@@ -24,9 +24,9 @@ A vision variant reuses the same head to score controller buttons from image pat
 
 ## Status
 
-Dormant since launch day by every number I can check, as of 2026-10-02.
-Created and last pushed 2026-09-16, 1,338 stars and 116 forks, six open issues, a single contributor, and no tags or releases to pin.
-The Show HN thread ("Reverse-engineered Jev-like model", 2026-09-16) reached 169 points as of 2026-09-26.
+Dormant since launch day by every number I can check, as of 2026-10-03.
+Created and last pushed 2026-09-16, 1,340 stars and 117 forks, seven open issues, a single contributor, and no tags or releases to pin.
+The Show HN thread ("Reverse-engineered Jev-like model", 2026-09-16) reached 169 points as of 2026-10-03.
 The afterlife is elsewhere: Cua's CUA-S1 form-filling checkpoint documents that its option-attention head is lifted from jevlike's `AttentionHead`, so the code's real legacy is inside other projects rather than in this one, and the JevBench board ranks no jevlike checkpoint because the starter ships game demos rather than a served decision model.
 
 ## Strengths
@@ -75,7 +75,7 @@ I would not route a real decision through this repo today, but I would make ever
 
 ## References
 
-- https://github.com/vinnylarouge/jevlike - repository: MIT, 1,338 stars, 116 forks, created and last pushed 2026-09-16 (GitHub API, as of 2026-10-02)
+- https://github.com/vinnylarouge/jevlike - repository: MIT, 1,340 stars, 117 forks, created and last pushed 2026-09-16 (GitHub API, as of 2026-10-03)
 - https://raw.githubusercontent.com/vinnylarouge/jevlike/main/README.md - the option-attention architecture, data format, eval design, and the expectations section with the no-equal-quality admission
 - https://news.ycombinator.com/item?id=49731282 - the 169-point launch thread (2026-09-16), including the satire and panel-disagreement criticisms (fetched via the Algolia items API)
 - https://raw.githubusercontent.com/vinnylarouge/jevlike/main/examples/doom/README.md - the vision variant: 12-option table, DAgger-before-PPO training order, early-checkpoint caveat

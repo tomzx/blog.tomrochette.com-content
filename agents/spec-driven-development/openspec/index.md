@@ -1,7 +1,7 @@
 ---
 title: OpenSpec
 created: 2026-08-27
-updated: 2026-10-01
+updated: 2026-10-03
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, spec-driven-development, specs, open-source]
 readability: 3
@@ -23,7 +23,7 @@ The docs live at [openspec.dev](https://openspec.dev/), with a Discord for suppo
 ## Status
 
 Half of spec-kit's stars in a third of the time.
-As of 2026-10-02: about 70.9k stars and about 4.9k forks since creation on 2025-08-05, 175 open issues and pull requests, MIT, and 2,317,591 npm downloads last month (the 2026-09-01 to 2026-09-30 window).
+As of 2026-10-03: about 70.9k stars and about 4.9k forks since creation on 2025-08-05, 181 open issues and pull requests, MIT, and 2,376,738 npm downloads last month (the 2026-09-02 to 2026-10-01 window).
 **Its Hacker News footprint is effectively empty (no significant thread found this run), so adoption spread through X and Discord, and third-party verification is thinner than the install count implies.**
 The README's own superlative ("the most loved spec framework") is vendor framing, not a measured claim.
 
@@ -75,5 +75,5 @@ My disagreeable claim: the delta-archive idea is the one durable invention this 
 - https://github.com/Fission-AI/OpenSpec - README: philosophy, opsx workflow, artifact layout
 - https://api.github.com/repos/Fission-AI/OpenSpec - stars, forks, issues as of 2026-10-02
 - https://openspec.dev/ - official documentation site
-- https://api.npmjs.org/downloads/point/last-month/@fission-ai/openspec - 2,317,591 downloads last month
+- https://api.npmjs.org/downloads/point/last-month/@fission-ai/openspec - 2,376,738 downloads last month
 - https://github.com/Fission-AI/OpenSpec/blob/main/docs/opsx.md - the rebuilt artifact workflow

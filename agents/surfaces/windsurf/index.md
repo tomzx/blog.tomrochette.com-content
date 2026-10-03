@@ -1,7 +1,7 @@
 ---
 title: Windsurf
 created: 2026-08-23
-updated: 2026-10-01
+updated: 2026-10-02
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, surfaces, ai-editors, cognition, devin]
 readability: 3
@@ -35,7 +35,7 @@ On September 2, 2026, Bloomberg reported that Cognition is closing a round of ab
 - **The Cascade lineage survives inside a well-funded owner**: agentic IDE mechanics honed by that user base now back Devin's stack.
 - ACP support makes Devin Desktop a host for rival agents, an unusually open stance for an acquired product.
 - Full backwards compatibility with Windsurf settings and extensions meant existing teams were not stranded.
-- Cognition's own model line (SWE-1.6 preview, March 2026) continues underneath the editor.
+- Cognition's own model line continues underneath the editor (SWE-1.6 preview in March 2026, SWE-2 shipping as of 2026-10-02 with free use in Devin Desktop and CLI through October 16, 2026).
 
 ## Cautions
 
@@ -48,7 +48,7 @@ On September 2, 2026, Bloomberg reported that Cognition is closing a round of ab
 
 **The classic Windsurf consumer plans are gone with the rebrand; Devin Desktop authenticates with a Devin account and meters usage as credits.**
 Enterprise relationships carry over through Cognition sales.
-The Devin pricing page, which 429ed automated fetches on 2026-09-16 and 404ed on 2026-09-18, now serves and exposes the Devin ladder: Free $0/month, Pro $20/month, Max $200/month, Team $80/month plus $40/month per full dev seat, and Enterprise by sales contact, as of 2026-09-27 (re-fetched, same ladder).
+The Devin pricing page, which 429ed automated fetches on 2026-09-16 and 404ed on 2026-09-18, now serves and exposes the Devin ladder: Free $0/month, Pro $20/month, Max $200/month, Team $80/month plus $40/month per full dev seat, and Enterprise by sales contact, as of 2026-10-02 (re-fetched, same ladder).
 
 ## Price history
 
@@ -78,6 +78,7 @@ Not for new adoption: picking a brand mid-retirement means betting on one compan
 - 2026-09-20 - devin.ai/pricing resumed serving (200 after the September 16 429 and September 18 404) and exposed the Devin tier prices, recorded in Pricing with a baseline Price history row.
 - 2026-09-27 - Re-confirmed the windsurf.com and docs.windsurf.com redirects and the Devin ladder; unchanged.
 - 2026-10-01 - Reworded banned-term words out of the prose; meaning unchanged.
+- 2026-10-02 - Recorded SWE-2 as Cognition's latest model (free in Devin Desktop and CLI through October 16, 2026) per the Devin pricing page; tier prices unchanged.
 
 ## See also
 
@@ -90,7 +91,7 @@ Not for new adoption: picking a brand mid-retirement means betting on one compan
 - https://cognition.com/blog/windsurf - the July 14, 2025 acquisition agreement, ARR, and customer counts
 - https://cognition.com/blog/introducing-devin-desktop - the June 2, 2026 rebrand announcement
 - https://docs.devin.ai/desktop/getting-started - current product docs as Devin Desktop (package, harness, ACP, Cascade docs), now also the redirect target of docs.windsurf.com (308 through /windsurf/getting-started), as of 2026-09-27
-- https://devin.ai/pricing - the Devin tier prices re-observed on 2026-09-27, unchanged from the 2026-09-20 baseline
+- https://devin.ai/pricing - the Devin tier prices re-observed on 2026-10-02, unchanged from the 2026-09-20 baseline; the page also advertises SWE-2 as the latest model
 - https://theedgemalaysia.com/node/816527 - Bloomberg's report via The Edge Malaysia, the $1 billion round at a $47 billion valuation, September 2, 2026
 - https://news.ycombinator.com/item?id=44536988 - the July 2025 deal-collapse and CEO-to-Google thread
 - https://news.ycombinator.com/item?id=44673296 - the early-employee equity dispute thread

@@ -1,7 +1,7 @@
 ---
 title: Experiential
 created: 2026-09-27
-updated: 2026-10-02
+updated: 2026-10-03
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, model-access, llm-gateway, self-hosted, model-routing]
 readability: 3
@@ -24,10 +24,10 @@ The GitHub repo language reads Python; the Rust data plane claim comes from the 
 
 ## Status
 
-Very active and compounding fast: 7,592 stars and 217 forks as of 2026-10-02, pushed the same day, created 2026-06-24.
+Very active and compounding fast: 8,032 stars and 219 forks as of 2026-10-03, pushed the same day, created 2026-06-24.
 The Show HN launch ("We built open OpenRouter that turns usage into a better model") reached 222 points on 2026-08-27 with 47 comments, and the star count has since grown roughly an order of magnitude past the ~820 the entrant data recorded around 2026-09-21.
-PyPI shows 153 releases since first upload on 2026-08-20, latest 0.7.141, requiring Python 3.12+, with GitHub releases now at v0.7.143 (2026-10-02).
-One hundred open issues, a Discord, and YC backing as of 2026-10-02.
+PyPI shows 156 releases since first upload on 2026-08-20, latest 0.7.147, requiring Python 3.12+, with GitHub releases now at v0.7.147 (2026-10-03).
+One hundred five open issues, a Discord, and YC backing as of 2026-10-03.
 
 ## Strengths
 
@@ -44,7 +44,7 @@ One hundred open issues, a Discord, and YC backing as of 2026-10-02.
 - `exp capture` is certificate-installing interception software on your own machine, experimental, and macOS-only.
 - Router switches can forfeit provider prompt-cache discounts, the thread's sharpest technical objection, and semantic caching is explicitly not planned.
 - The dashboard shown in the README is the hosted platform, not something the open repo gives you, as one commenter discovered.
-- 0.7.x with 153 releases in six weeks and 100 open issues is churn, not stability.
+- 0.7.x with 156 releases in six weeks and 105 open issues is churn, not stability.
 
 ## Pricing
 
@@ -77,6 +77,7 @@ My disagreeable claim: the traffic-trained router is the demo rather than the pr
 
 - 2026-09-27 - Created when the owner's GitHub-stars candidates were processed.
 - 2026-10-02 - Pricing page expanded: Pro became a credit ladder from $20 to $199 per month and self-serve Max ($200 to $1,999) and Ultra ($2,000+) tiers appeared above it, with model discounts on the first 2,000 credits each month; price history row appended, plus refreshed adoption numbers (7,592 stars, PyPI 0.7.141).
+- 2026-10-03 - Adoption refresh: 8,032 stars, PyPI at 0.7.147 (156 releases), GitHub releases at v0.7.147, and pricing re-checked unchanged on the vendor page (Free $0, Pro $20-$199 ladder, Max $200-$1,999, Ultra $2,000+).
 
 ## See also
 
@@ -88,9 +89,9 @@ My disagreeable claim: the traffic-trained router is the demo rather than the pr
 
 ## References
 
-- https://api.github.com/repos/experientiallabs/experiential - 7,592 stars, 217 forks, Apache-2.0, pushed 2026-10-02 (200, fetched 2026-10-02)
+- https://api.github.com/repos/experientiallabs/experiential - 8,032 stars, 219 forks, Apache-2.0, pushed 2026-10-03 (200, fetched 2026-10-03)
 - https://raw.githubusercontent.com/experientiallabs/experiential/main/README.md - architecture, capture mode, PostHog telemetry enabled by default, optimize workflow (200)
 - https://hn.algolia.com/api/v1/items/49471407 - Show HN thread, 222 points, created 2026-08-27, caching objection, telemetry contradiction, rug-pull accusation (200)
 - https://www.experientiallabs.ai/pricing - Free $0, Pro credit ladder $20 to $199, Max $200 to $1,999, Ultra $2,000+, 0% markup, YC backing (200, fetched 2026-10-02)
-- https://pypi.org/pypi/experiential/json - 0.7.141, first upload 2026-08-20, 153 releases, Python 3.12+ (200, re-checked 2026-10-02)
+- https://pypi.org/pypi/experiential/json - 0.7.147, first upload 2026-08-20, 156 releases, Python 3.12+ (200, re-checked 2026-10-03)
 - https://platform.experientiallabs.ai/docs - fetched with status 200 but renders as an empty JavaScript shell, so nothing citable was taken from it

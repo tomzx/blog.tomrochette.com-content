@@ -1,7 +1,7 @@
 ---
 title: Jesse Vincent
 created: 2026-09-24
-updated: 2026-09-24
+updated: 2026-10-03
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, people, publications, coding-agents, agentic-engineering, skills, tdd]
 readability: 3
@@ -24,6 +24,8 @@ He is founder and CEO of Prime Radiant, the applied research lab behind Superpow
 
 Very active and shipping on a cadence: Superpowers 6.4 landed 2026-09-21 (adding Meta Muse, OpenCode 2.0, and Qwen Code support), a Birds-of-a-Feather on agentic engineering with Simon Willison was announced 2026-09-22 for San Francisco, and recent months brought a vibe-coded C compiler that builds SQLite (2026-08-21), Superpowers 6 (2026-06-15, 50 percent faster and 60 percent cheaper by their evals), a hiring post (2026-06-12), and 5.1.0 (2026-05-04).
 His writeups say users' most common lament is that Superpowers burns many tokens and takes longer than going without it, and 6.4 concedes that bare-metal builds are faster and cheaper while arguing they are significantly buggier per his eval suite.
+A 2026-09-29 writeup, "I asked muse to tell me about updates to its skills", opens a new front: he is spelunking the Muse agent (muse.ai), finds it well put together and especially good at web browsing, and now publishes obra/muse-skills, a public repo where a scheduled job on a Hatch container snapshots Muse's shipped skill collection daily.
+The newest post, "A quick trip to the uncanny valley" (2026-10-02), opens yet another: Prime Radiant is building Sen, an "agentic" colleague platform that is not an agent on behalf of one human, and the post counts about 550 publicly shipped coding agents at alltheagents.org.
 Third-party pull is visible: HN threads recommend Superpowers as the fix for bad agent experiences, Willison cites it as the reference implementation of TDD-with-agents, OpenAI's Codex announcements were read as bundling it, and orchestration stacks like metaswarm declare it, alongside Yegge's beads, an essential foundation.
 
 ## Strengths
@@ -63,6 +65,8 @@ Not for token-budget-tight users, TDD-averse codebases, or readers who want mini
 ## Changes
 
 - 2026-09-24 - Created.
+- 2026-10-02 - Added his 2026-09-29 post "I asked muse to tell me about updates to its skills" and the obra/muse-skills repo it publishes to Status and References.
+- 2026-10-03 - Added his 2026-10-02 post "A quick trip to the uncanny valley" (Prime Radiant's Sen agentic-colleague platform and the ~550-agent census at alltheagents.org) to Status and References; both URLs fetched this run.
 
 ## See also
 
@@ -83,3 +87,6 @@ Not for token-budget-tight users, TDD-averse codebases, or readers who want mini
 - https://github.com/obra/superpowers - the repo: MIT license, 294k stars and 26.3k forks as of 2026-10-02, 16 documented harness installs, commercial support, and telemetry disclosure
 - https://en.wikipedia.org/wiki/Jesse_Vincent - biography: RT, Best Practical, Perl roles, K-9 Mail, Keyboardio, Prime Radiant CEO, and the SKILL.md-before-Anthropic timeline
 - https://hn.algolia.com/api/v1/search?query=jesse%20vincent%20superpowers&hitsPerPage=8 - third-party reception: HN recommendations, the Superpowers 6 thread, metaswarm's reliance on it, and Willison citing it as the TDD reference
+- https://blog.fsck.com/2026/09/29/I-asked-muse-to-tell-me-about-updates-to-its-skills/ - the 2026-09-29 post on exploring the Muse agent and automating daily skill snapshots
+- https://github.com/obra/muse-skills - the public repo his scheduled job populates with Muse's daily skill-collection state
+- https://blog.fsck.com/2026/10/02/a-quick-trip-to-the-uncanny-valley/ - the 2026-10-02 post introducing Prime Radiant's Sen platform and the alltheagents.org census

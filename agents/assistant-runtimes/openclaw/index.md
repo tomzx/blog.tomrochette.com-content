@@ -1,7 +1,7 @@
 ---
 title: OpenClaw
 created: 2026-08-27
-updated: 2026-10-02
+updated: 2026-10-03
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, assistant-runtimes, personal-assistants, open-source, self-hosting]
 readability: 3
@@ -24,8 +24,8 @@ Security is pairing-based by default (unknown senders must be approved), and the
 ## Status
 
 The category's giant.
-As of 2026-10-02: 391,165 stars and 82,240 forks since creation on 2025-11-24, pushed daily, 9,155 open issues, npm-published.
-OpenClaw 2.0 shipped 2026-08-30 (v2026.8.1), by far the largest release in the project's history, roughly half of all pull requests ever merged in one drop from 933 contributors, rebuilding the browser app as a first-class surface and shortening the first-run install, and the cadence has held since, with v2026.9.1 released 2026-09-03, v2026.9.2 on 2026-09-05, v2026.9.3 on 2026-09-08, v2026.9.4 on 2026-09-11, v2026.9.5 on 2026-09-19, and v2026.9.6 on 2026-09-23 (its crashing macOS build was rebuilt and notarized on 2026-09-24), plus patches on the older lines, v2026.6.35 released 2026-09-10, v2026.7.33 on 2026-09-18, and v2026.7.35 on 2026-09-21, and on 2026-09-29 the project shipped v2026.8.33, a gateway-only extended-stable release it describes as its LTS equivalent, OpenClaw as of the end of August 2026 plus critical security updates, reliability and performance fixes, and new model support; the cadence has continued with v2026.9.7 released 2026-09-30 (518 direct commits, 334 contributors) as the current latest, and a second extended-stable patch, v2026.8.34, released 2026-10-02.
+As of 2026-10-03: 391,200 stars and 82,234 forks since creation on 2025-11-24, pushed daily, 9,157 open issues, npm-published.
+OpenClaw 2.0 shipped 2026-08-30 (v2026.8.1), by far the largest release in the project's history, roughly half of all pull requests ever merged in one drop from 933 contributors, rebuilding the browser app as a first-class surface and shortening the first-run install, and the cadence has held since, with v2026.9.1 released 2026-09-03, v2026.9.2 on 2026-09-05, v2026.9.3 on 2026-09-08, v2026.9.4 on 2026-09-11, v2026.9.5 on 2026-09-19, and v2026.9.6 on 2026-09-23 (its crashing macOS build was rebuilt and notarized on 2026-09-24), plus patches on the older lines, v2026.6.35 released 2026-09-10, v2026.7.33 on 2026-09-18, and v2026.7.35 on 2026-09-21, and on 2026-09-29 the project shipped v2026.8.33, a gateway-only extended-stable release it describes as its LTS equivalent, OpenClaw as of the end of August 2026 plus critical security updates, reliability and performance fixes, and new model support; the cadence has continued with v2026.9.7 released 2026-09-30 (518 direct commits, 334 contributors), a second extended-stable patch, v2026.8.34, released 2026-10-02, and v2026.9.8 released 2026-10-03 (58 commits, 43 pull requests, 21 contributors) as the current latest alongside a third extended-stable patch, v2026.8.35, released the same day.
 The v2026.9.2 notes turned Swarm on by default: concurrent sub-agent orchestration with structured results and live progress, with explicit opt-outs preserved.
 On 2026-09-21 the project announced a completed Trail of Bits security audit run through OpenAI's Patch the Planet initiative: 27 private advisories plus 3 hardening pull requests, 23 confirmed vulnerabilities (0 critical, 2 high, 16 medium, 6 low), every actionable issue repaired and shipped in the v2026.8.1 and v2026.7.33 releases, with permission-carryover and check-what-you-use as the recurring finding classes.
 It was renamed twice in its first months (the 667-point "Moltbot Renamed Again" thread documents the path to the OpenClaw name).
@@ -43,7 +43,7 @@ It was renamed twice in its first months (the 667-point "Moltbot Renamed Again" 
 - Scale: the nanoclaw author's audit calls it nearly half a million lines, 53 config files, and 70+ dependencies, which is exactly the trust surface its variants reject.
 - Tools run on the host by default; read the sandboxing guide before connecting anyone else.
 - The provider saga shows subscription terms can be withdrawn from a popular open-source runtime at any time, budget for API keys, not just subscriptions.
-- 9,155 open issues means the tracker is a weather report, not a queue.
+- 9,157 open issues means the tracker is a weather report, not a queue.
 
 ## Pricing
 
@@ -75,6 +75,7 @@ The disagreeable claim I will defend: the restrictions saga, not the code, is Op
 - 2026-09-24 - Recorded v2026.9.6 (released 2026-09-23, macOS build rebuilt and notarized 2026-09-24), the sixth September-line release in the watch window, with refreshed adoption numbers.
 - 2026-09-29 - Recorded v2026.8.33 (2026-09-29), the first gateway-only extended-stable release (the project's stated LTS equivalent: end-of-August state plus critical security, reliability, and new-model fixes), with refreshed adoption numbers.
 - 2026-10-02 - Recorded v2026.9.7 (released 2026-09-30, 518 direct commits, 334 contributors), now the current latest, and the second extended-stable patch v2026.8.34 (released 2026-10-02), with refreshed adoption numbers.
+- 2026-10-03 - Recorded v2026.9.8 (released 2026-10-03, 58 commits, 43 pull requests, 21 contributors), now the current latest, and the third extended-stable patch v2026.8.35 (released the same day), with refreshed adoption numbers.
 
 ## See also
 
@@ -86,8 +87,8 @@ The disagreeable claim I will defend: the restrictions saga, not the code, is Op
 ## References
 
 - https://github.com/openclaw/openclaw - README: Gateway model, channels, security posture, install
-- https://api.github.com/repos/openclaw/openclaw - stars, forks, issues, dates as of 2026-10-02
-- https://api.github.com/repos/openclaw/openclaw/releases - v2026.9.2 release notes, Swarm enabled by default (2026-09-05), through v2026.9.5 (2026-09-19), the v2026.7.33 July-line patch (2026-09-18), v2026.7.35 (2026-09-21), v2026.9.6 (2026-09-23), and v2026.8.33 (2026-09-29), the first gateway-only extended-stable release, plus v2026.9.7 (2026-09-30) and the v2026.8.34 extended-stable patch (2026-10-02)
+- https://api.github.com/repos/openclaw/openclaw - stars, forks, issues, dates as of 2026-10-03
+- https://api.github.com/repos/openclaw/openclaw/releases - v2026.9.2 release notes, Swarm enabled by default (2026-09-05), through v2026.9.5 (2026-09-19), the v2026.7.33 July-line patch (2026-09-18), v2026.7.35 (2026-09-21), v2026.9.6 (2026-09-23), and v2026.8.33 (2026-09-29), the first gateway-only extended-stable release, plus v2026.9.7 (2026-09-30), the v2026.8.34 extended-stable patch (2026-10-02), v2026.9.8 (2026-10-03, current latest), and the v2026.8.35 extended-stable patch (2026-10-03)
 - https://openclaw.ai/blog/openclaw-trail-of-bits-engagement-recap - the Trail of Bits audit recap (27 advisories, 23 confirmed vulnerabilities, all repaired)
 - https://openclaw.ai/blog/openclaw-2-accidentally - the OpenClaw 2.0 announcement (933 contributors, 16,000+ pull requests)
 - https://docs.openclaw.ai - official documentation

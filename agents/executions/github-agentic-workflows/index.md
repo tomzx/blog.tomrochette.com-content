@@ -1,7 +1,7 @@
 ---
 title: GitHub Agentic Workflows
 created: 2026-08-24
-updated: 2026-10-02
+updated: 2026-10-03
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, executions, github-actions, workflows]
 readability: 3
@@ -23,10 +23,10 @@ It is built by GitHub Next with Microsoft Research, MIT-licensed, in public prev
 ## Status
 
 **Active preview with real traction.**
-About 5.3k stars, 571 forks, and roughly 18,000 commits in `github/gh-aw` as of 2026-10-02.
+About 5.3k stars, 572 forks, and roughly 18,000 commits in `github/gh-aw` as of 2026-10-03.
 The February 2026 Hacker News launch thread drew 302 points and 141 comments.
-The trust story has kept moving: an August 2026 billing bug forced the retirement of releases 0.68.4 through 0.71.3, and a critical security advisory published August 27 forced the pre-emptive retirement of releases 0.83.3 through 0.85.4, a notice that still sits in the README while the billing one was cleared.
-The release line keeps churning (latest v0.90.1 on 2026-09-30 as a prerelease, with v0.89.21 still the newest stable-marked release since 2026-09-23), which shows how quickly this preview will break its users.
+The trust story has kept moving: an August 2026 billing bug forced the retirement of releases 0.68.4 through 0.71.3, and a critical security advisory published August 27 forced the pre-emptive retirement of releases 0.83.3 through 0.85.3 (patched in 0.85.4), a notice that still sits in the README while the billing one was cleared.
+The release line keeps churning (latest v0.90.3 on 2026-10-03 as a prerelease, with v0.89.21 still the newest stable-marked release since 2026-09-23), which shows how quickly this preview will break its users.
 
 ## Strengths
 
@@ -73,6 +73,7 @@ My disagreeable claim: even in preview, I would start here rather than hand-roll
 - 2026-09-29 - Refreshed the release train to v0.90.0 (2026-09-28, a prerelease) and re-confirmed v0.89.21 as the newest stable-marked release; forks refreshed to 564.
 - 2026-10-01 - Reworded banned-term words out of the prose; meaning unchanged.
 - 2026-10-02 - Release train refreshed to v0.90.1 (2026-09-30, a prerelease) with v0.89.21 still the newest stable-marked release, the README advisory notice re-confirmed live, and growth refreshed (about 5.3k stars, 571 forks).
+- 2026-10-03 - Corrected the retired-release range to 0.83.3 through 0.85.3, since the advisory patches in 0.85.4 rather than retiring it, refreshed the release train to v0.90.3 (2026-10-03, a prerelease) with v0.89.21 still the newest stable-marked release, and refreshed forks to 572.
 
 ## See also
 
@@ -84,8 +85,8 @@ My disagreeable claim: even in preview, I would start here rather than hand-roll
 
 - https://docs.github.com/en/copilot/concepts/agents/about-github-agentic-workflows - product definition, security model, AIC billing
 - https://github.github.com/gh-aw/ - full reference: engines, guardrails, cost management
-- https://github.com/github/gh-aw - repository scale, MIT license, as of 2026-09-29
-- https://github.com/github/gh-aw/security/advisories/GHSA-8h78-hpm7-29gg - the critical advisory (safe-output artifacts may expose CI trigger tokens) behind the 0.83.3-0.85.4 retirement
+- https://github.com/github/gh-aw - repository scale, MIT license, as of 2026-10-03
+- https://github.com/github/gh-aw/security/advisories/GHSA-8h78-hpm7-29gg - the critical advisory (safe-output artifacts may expose CI trigger tokens) behind the 0.83.3-0.85.3 retirement, patched in 0.85.4
 - https://news.ycombinator.com/item?id=46934107 - February 2026 launch discussion (302 points) including dogfooding criticism
 - https://github.com/anthropics/claude-code-action - the single-agent alternative on the same platform
 - https://docs.github.com/en/copilot/concepts/agents/cloud-agent/about-automation-rationale-and-approvals - shared rationale and approvals layer, including its limits

@@ -1,7 +1,7 @@
 ---
 title: Langfuse
 created: 2026-09-16
-updated: 2026-09-26
+updated: 2026-10-03
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, evaluation, observability, llm-as-judge]
 readability: 3
@@ -23,7 +23,7 @@ Made by Langfuse (YC W23), acquired by ClickHouse in January 2026, with the root
 
 ## Status
 
-Mature and busy: 35,287 stars, 3,903 forks, created 2023-05-18, pushed 2026-10-01, v4.49.0 released 2026-10-01 as of 2026-10-02.
+Mature and busy: 35,327 stars, 3,911 forks, created 2023-05-18, pushed 2026-10-02, v4.50.0 released 2026-10-02 as of 2026-10-03.
 Announced ClickHouse acquisition landed on Hacker News on 2026-01-17 with 220 points, and the README says the team doubled in the six months before it.
 **Three years old, the largest community in this category, and now owned by a database vendor whose observability stack it slots into.**
 
@@ -69,6 +69,7 @@ Not for pytest-style CI gating (use deepeval) or for observing coding-agent sess
 - 2026-09-18 - Recorded the v4.38.0 release and refreshed repository counts.
 - 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
 - 2026-09-25 - Recorded the v4.45.2 release and refreshed repository counts; cloud pricing re-verified unchanged.
+- 2026-10-03 - Recorded the v4.50.0 release (2026-10-02) and refreshed repository counts.
 
 ## See also
 
@@ -79,12 +80,12 @@ Not for pytest-style CI gating (use deepeval) or for observing coding-agent sess
 
 ## References
 
-- https://github.com/langfuse/langfuse - repository, description, stars and forks, pushed date as of 2026-10-02
+- https://github.com/langfuse/langfuse - repository, description, stars and forks, pushed date as of 2026-10-03
 - https://raw.githubusercontent.com/langfuse/langfuse/main/LICENSE - MIT core, the `ee/` carve-out, and the ClickHouse, Inc. copyright
 - https://raw.githubusercontent.com/langfuse/langfuse/main/README.md - feature set, self-hosting, integrations, and the January 2026 ClickHouse note
 - https://langfuse.com/docs - platform overview, OTel basis, evaluation methods, agent skill, CLI, and MCP server
 - https://langfuse.com/pricing - cloud tiers, billable units, graduated overage, self-host FAQ, named customers
-- https://github.com/langfuse/langfuse/releases - v4.49.0 release date
+- https://github.com/langfuse/langfuse/releases - v4.50.0 release date
 - https://news.ycombinator.com/item?id=46656552 - the acquisition thread, 220 points, with the open-core and consolidation concerns
 - https://news.ycombinator.com/item?id=42441258 - the 2024 Launch HN thread, 215 points, including the LangSmith comparison
 - https://news.ycombinator.com/item?id=37310070 - the 2023 Show HN thread, 143 points

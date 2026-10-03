@@ -1,9 +1,9 @@
 ---
 title: OpenRig
 created: 2026-10-02
-updated: 2026-10-02
+updated: 2026-10-03
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, orchestration, control-plane, cross-harness, tmux, persistent-agents]
+tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, llm=glm-5.3-flash, orchestration, control-plane, cross-harness, tmux, persistent-agents]
 readability: 3
 audience_notes: >
   Engineers who already run several Claude Code and Codex terminal sessions and want to define, boot, and restore the whole team as one managed unit.
@@ -25,7 +25,7 @@ It ships no model and holds no API keys: it drives the Claude Code and Codex log
 
 ## Status
 
-Active and early: about 3,873 stars and 256 forks as of 2026-10-02, created 2026-04-01, 24 contributors, 124 open issues and pull requests, and v0.6.4 published 2026-10-02, with npm `@openrig/cli` at 0.6.4 after 54 versions since 2026-04-06.
+Active and early: about 4,470 stars and 305 forks as of 2026-10-03, created 2026-04-01, 24 contributors, 94 open issues and pull requests, and v0.6.4 published 2026-10-02, with npm `@openrig/cli` at 0.6.4 after 54 versions since 2026-04-06.
 **The adoption signal is thin where it matters: GitHub traction is respectable, but the Hacker News footprint is a pair of Show HN threads at 8 and 6 points plus a 2-point repost, and the documentation index still names release 0.5.14 while npm ships 0.6.4.**
 The project describes itself as built by its own network of agent teams since March 2026, a self-reported claim that independent field reports do not yet corroborate.
 
@@ -65,6 +65,7 @@ Not for anyone who needs agent sandboxing, a Windows desktop, or a managed cloud
 ## Changes
 
 - 2026-10-02 - Created.
+- 2026-10-02 - Re-verified the note against the GitHub API, npm, and openrig.dev hours after creation: v0.6.4, 24 contributors, 39 releases, npm 0.6.4 across 54 versions since 2026-04-06, the 0.5.14 docs lag, and both HN thread point counts all confirmed, and the MCP server, discover and adopt, RigBundle integrity, and permission-override claims all checked against the live site.
 
 ## See also
 
