@@ -24,8 +24,8 @@ MIT, from Microsoft Research Asia with university collaborators, Python 3.10+.
 
 ## Status
 
-Research code with unusually strong product trappings: 18.0k stars, 1.7k forks, 45 open issues and pull requests, and 570 commits on main as of 2026-10-03, created 2026-05-08.
-Latest release v0.2.0 (2026-07-02) on PyPI, still the newest as of 2026-10-03; the arXiv paper (2605.23904) is a preprint with no peer-reviewed venue found, and all headline results are the authors' own.
+Research code with unusually strong product trappings: 18.0k stars, 1.7k forks, 45 open issues and pull requests, and 570 commits on main as of 2026-10-04, created 2026-05-08.
+Latest release v0.2.0 (2026-07-02) on PyPI, still the newest as of 2026-10-04; the arXiv paper (2605.23904) is a preprint with no peer-reviewed venue found, and all headline results are the authors' own.
 
 ## Strengths
 

@@ -1,7 +1,7 @@
 ---
 title: Flue
 created: 2026-08-30
-updated: 2026-10-03
+updated: 2026-10-04
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, sandboxing, agent-frameworks, typescript, open-source]
 readability: 3
@@ -24,7 +24,7 @@ Made by the Astro Technology Company team under Fred Schott, acquired by Cloudfl
 
 ## Status
 
-Young and fast: 8,417 stars, 507 forks, 63 open issues and PRs as of 2026-10-03, created 2026-02-07, 1,134 commits.
+Young and fast: 8,420 stars, 506 forks, 64 open issues and PRs as of 2026-10-04, created 2026-02-07, 1,134 commits.
 Flue 2.0 (2026-07-31) is the first stable release after a ground-up hooks rewrite; the 2.2.0-next prerelease wave has graduated to stable, with npm `@flue/runtime` and the GitHub release latest both at 2.2.2 (2026-09-28), while git tags remain at v2.0.6.
 **The single-author concentration is stark, about 98 percent of commits, and the API was rebuilt within six months of going public.**
 

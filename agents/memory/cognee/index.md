@@ -1,7 +1,7 @@
 ---
 title: Cognee
 created: 2026-08-26
-updated: 2026-10-02
+updated: 2026-10-04
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, memory, agent-memory, knowledge-graphs, open-source]
 readability: 3
@@ -23,7 +23,7 @@ Cognee Cloud runs the same engine managed, on gpt-oss-120b, OpenAI's open-weight
 ## Status
 
 **Active and fast-moving.**
-About 31.3k GitHub stars as of 2026-10-02, repository pushed 2026-10-02 UTC, and v1.6.2 (September 29, 2026) the latest release per the PyPI JSON API.
+About 31.3k GitHub stars as of 2026-10-04, repository pushed 2026-10-04 UTC, and v1.6.2 (September 29, 2026) the latest release per the PyPI JSON API.
 v1.6.0 is the keyless-first release: many flows now run with no LLM key, pipelines stamp runs at start and recover after crashes, a cognee-mcp client/server package lands for integrations, and the default Docker image drops GLiNER, a breaking change self-hosters must patch around.
 v1.6.1 (September 24) adds Google Drive and Gmail ingestion with the Google connectors bundled into the SDK, chunked graph-visualization streaming for large subgraphs, and a GLiNER installer that defers the CPU Torch download to first use, and it promotes dlt to a core dependency, which breaks source installs that manage dependencies manually.
 v1.6.2 (September 29) makes embedding failures explicit instead of silently truncating, sizes chunks by each model's token limit, adds Slack conversation import and sync, and moves skills storage to a new .agents/skills location.

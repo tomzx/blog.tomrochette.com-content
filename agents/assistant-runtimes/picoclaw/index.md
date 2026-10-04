@@ -1,7 +1,7 @@
 ---
 title: PicoClaw
 created: 2026-08-27
-updated: 2026-10-03
+updated: 2026-10-04
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, assistant-runtimes, personal-assistants, golang, edge, risc-v, open-source]
 readability: 3
@@ -23,7 +23,7 @@ It reached 20k stars in 17 days from a February 2026 start.
 ## Status
 
 Active, pre-1.0, and explicit about both.
-As of 2026-10-03: 30,018 stars and 4,456 forks since creation on 2026-02-04, pushed 2026-09-24, 59 open issues, v0.3.1 still the latest release (2026-07-03) after the v0.2.x line through May.
+As of 2026-10-04: 30,017 stars and 4,458 forks since creation on 2026-02-04, pushed 2026-09-24, 59 open issues, v0.3.1 still the latest release (2026-07-03) after the v0.2.x line through May.
 **The README carries two unusual banners: a do-not-deploy-to-production-before-v1.0 warning, and a scam notice that no official PicoClaw cryptocurrency exists and picoclaw.io is the only official domain, both signs of attention arriving faster than governance.**
 The official domain's TLS certificate, expired on 2026-09-10 and still broken as of 2026-09-27, was renewed by 2026-09-29 (valid through 2027-04-14), so picoclaw.io serves normally again and docs.picoclaw.io is no longer the only working entry point.
 The naming ladder keeps extending below it (SmolClaw microvm, FemtoClaw for ESP32 and Raspberry Pi Pico), which tells you the size race became a meme.
@@ -76,7 +76,7 @@ My disagreeable claim: the size race is now the category's main axis of progress
 ## References
 
 - https://github.com/sipeed/picoclaw - README: footprint, architectures, security banners, release news
-- https://api.github.com/repos/sipeed/picoclaw - stars, forks, issues as of 2026-10-03
+- https://api.github.com/repos/sipeed/picoclaw - stars, forks, issues as of 2026-10-04
 - https://picoclaw.io - official site (the only official domain per the scam notice); its TLS certificate expired 2026-09-10, was renewed by 2026-09-29 with validity through 2027-04-14, and the site serves normally
 - https://docs.picoclaw.io/ - official documentation
 - https://news.ycombinator.com/item?id=46955793 - the launch-era Show HN (11 points)

@@ -1,7 +1,7 @@
 ---
 title: Agent Swarm
 created: 2026-10-02
-updated: 2026-10-03
+updated: 2026-10-04
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, lead-worker, docker, slack, multi-agent]
 readability: 3
@@ -23,7 +23,7 @@ Around that core it layers a dashboard UI, DAG workflows with human-in-the-loop 
 
 ## Status
 
-Active and shipping fast: 851 stars, 106 forks, 25 contributors, and 14 open issues and pull requests as of 2026-10-03, created 2025-12-19, with the default branch pushed the same day and docs updated October 2, 2026 at v1.161.0.
+Active and shipping fast: 854 stars, 107 forks, 25 contributors, and 14 open issues and pull requests as of 2026-10-04, created 2025-12-19, with the default branch pushed the same day and docs updated October 2, 2026 at v1.161.0.
 **The adoption evidence is real but early: a 63-point Show HN thread in February 2026 and a live public demo, with the production claims (a customer with 80% of its team onboarded and over 800 human-initiated tasks weekly) self-reported by the vendor.**
 The README's own tip that the repo "evolves every single day" is the plain read of the risk: this is a high-velocity single-vendor product, not a community project.
 

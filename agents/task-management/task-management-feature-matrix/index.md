@@ -1,7 +1,7 @@
 ---
 title: "Task Management Feature Matrix"
 created: 2026-08-27
-updated: 2026-10-03
+updated: 2026-10-04
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, comparison, task-management, task-tracking]
 readability: 3
@@ -30,7 +30,7 @@ Each column links to the full research note; every cell below traces to a source
 | PRD ingestion | ✗ manual task creation | ✗ manual task creation | ~ opt-in PRD artifact inside the planner conversation | ✓ `parse-prd` pipeline |
 | Agent integrations | Claude Code, Codex, Gemini CLI, Kiro, Cursor, MCP | `bd init` for Codex, Claude, Factory, Cursor, plus AGENTS.md and MCP | runners Claude Code, Codex, OpenCode built in, plugins beyond; planner can be a coding agent or one of 25 API providers | MCP server and CLI, documented for Cursor, Claude Code, Windsurf, VS Code, Q CLI |
 | Pricing | free | free | free | CLI free, Hamster $40 per creator per month |
-| Current status | active, about 6.9k stars | active, about 27.6k stars, 1,299 open issues, v1.3.1 stable 2026-09-30 | active, 183 stars, v0.6.1 (2026-10-02) | repo quiet since April 2026, product alive at Hamster |
+| Current status | active, about 6.9k stars | active, about 27.6k stars, 1,320 open issues, v1.3.1 stable 2026-09-30 | active, 183 stars, v0.6.1 (2026-10-02) | repo quiet since April 2026, product alive at Hamster |
 
 ## Reading the matrix
 

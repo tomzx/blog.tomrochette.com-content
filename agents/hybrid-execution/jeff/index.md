@@ -23,8 +23,8 @@ The training data itself is not released (some sources are share-alike), and the
 
 ## Status
 
-Five days old and loud: the launch Show HN thread (2026-09-28) reached 574 points as of 2026-10-03.
-The repository was created 2026-09-28 and pushed 2026-10-01, with about 1,335 stars and 63 forks; Hugging Face had registered no meaningful checkpoint downloads at creation check and now shows about 1,580 for the 0.8B and about 700 for the 2B as of 2026-10-03.
+Five days old and loud: the launch Show HN thread (2026-09-28) reached 574 points as of 2026-10-04.
+The repository was created 2026-09-28 and pushed 2026-10-01, with about 1,350 stars and 65 forks; Hugging Face had registered no meaningful checkpoint downloads at creation check and now shows about 1,870 for the 0.8B and about 760 for the 2B as of 2026-10-04.
 Latency is the headline: about 22 ms per decision on an RTX PRO 6000, 28 ms on an M4 Max through MLX, 463 ms on a 32-thread CPU, against Jev's published 114-212 ms per API call in its Doom runs (not measured on the same hardware).
 The self-run benchmarks cover 4,599 questions from five public suites (BBH, Financial PhraseBank, JudgeBench, RAGTruth, WinoGrande) plus JevBench's public hard tier scored separately: Jeff-2B posts 83.1 overall against Jev's published 83.0 and AutoJev-27B's 84.9, winning Financial PhraseBank (96.3 versus 77.0) and RAGTruth (88.9 versus 77.3) while staying well below Jev on BBH (68.0 versus 94.3), JudgeBench, WinoGrande, and the JevBench hard tier (53.3 versus 73.3).
 Zero-shot games back the generality claim: Jeff-0.8B took 57.0 of 98 Pac-Man pellets against 11.2 for random moves, and Doom kills matching a hand-coded rule bot.
@@ -76,8 +76,8 @@ The disagreeable claim I will defend: matching Jev's published overall while con
 
 ## References
 
-- https://github.com/firelex/jeff - repository: MIT, created 2026-09-28, about 1,335 stars, 63 forks, pushed 2026-10-01 (GitHub API, as of 2026-10-03)
+- https://github.com/firelex/jeff - repository: MIT, created 2026-09-28, about 1,350 stars, 65 forks, pushed 2026-10-01 (GitHub API, as of 2026-10-04)
 - https://raw.githubusercontent.com/firelex/jeff/main/README.md - the benchmark table, games, speed table, caveats, and the AutoJev lineage
-- https://huggingface.co/mstrasser/Jeff-Qwen3.5-0.8B - the 0.8B checkpoint: Apache-2.0, created 2026-09-28, about 1,580 downloads as of 2026-10-03
+- https://huggingface.co/mstrasser/Jeff-Qwen3.5-0.8B - the 0.8B checkpoint: Apache-2.0, created 2026-09-28, about 1,870 downloads as of 2026-10-04
 - https://news.ycombinator.com/item?id=49883844 - the launch thread (574 points as of 2026-10-03, 2026-09-28), including the negative real-world classification reports
 - https://github.com/denis-pplx/autojev - the parent recipe: MIT, 120 stars, fine-tunes Qwen3.8-27B for Jev-style decisions

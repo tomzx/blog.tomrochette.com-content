@@ -1,7 +1,7 @@
 ---
 title: "Assistant Runtimes Feature Matrix"
 created: 2026-08-27
-updated: 2026-10-03
+updated: 2026-10-04
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, comparison, assistant-runtimes, personal-assistants]
 readability: 3
@@ -24,7 +24,7 @@ Each column links to the full research note; every cell below traces to a source
 | Runtime | Electron desktop plus multi-user Docker, Node | TypeScript Electron over Python (CAMEL) | Python (uv), single gateway | Python 3.11+ single core | TypeScript on Node | Python, Docker-first web UI | TypeScript on Node | TypeScript Electron over OpenCode | Python agent server (aisuite) under a native desktop shell | single Go binary | Python API server | Python on AgentScope 2.0 | single Rust binary |
 | License | ✓ MIT | ✓ Apache-2.0 | ✓ MIT | ✓ MIT | ✓ MIT | ~ custom Open WebUI License (branding clause; BSD-3 through v0.6.5) | ✓ MIT | ~ MIT core, EE source-available | ✓ MIT | ✓ MIT | ✓ Apache-2.0 | ✓ Apache-2.0 | ✓ MIT OR Apache-2.0 |
 | Born | 2023 (Show HN 2024-09-05) | 2025-07-29 | 2025-07-22 | 2026-02-01 | 2026-01-31 | 2023 (license change 2025-04-19) | 2025-11-24 | 2026-01-14 | 2026-07-20 | 2026-02-04 | 2023 (1.0 on 2026-06-03) | 2026-02-24 | 2026-02-13 |
-| Stars | about 66.7k | about 15.5k | about 250k | about 49k | about 31k | about 153.8k | about 391k | about 23.8k | about 18.4k | about 30k | about 57.6k | about 35k | about 33k |
+| Stars | about 66.7k | about 15.5k | about 251k | about 49k | about 31k | about 153.9k | about 391k | about 23.8k | about 18.4k | about 30k | about 57.6k | about 35k | about 33k |
 | Footprint | desktop app, Docker, Cloud, Android | Electron plus local backend | single gateway, seven backends | small readable core, WebUI in wheel | one process, containerized | self-hosted Docker deployment, web UI | large, 70+ dependencies per the NanoClaw audit | Electron app wrapping OpenCode | desktop app with a local agent server and 25+ connectors | one binary, 10-20MB RAM | API server plus demo UI | full stack, local models included | one binary, any machine |
 | Isolation model | ✗ desktop app on the host | ~ host by default, cloud sandbox optional | ✓ isolated subagents, sandboxed backends | ~ localhost-first, config-driven | ✓ per-agent Linux containers | ~ your server, your infra | app-level, sandboxing optional | ✗ host access by design | ~ host by default, NVIDIA OpenShell sandbox for commands | ~ v0.2.6 isolation support | ~ self-hosted, local models | ✓ five security layers, kernel sandbox | ~ own machine, tool grants |
 | Channels | ~ desktop and web UI, Docker multi-user | ~ desktop UI, no chat apps | Telegram, Discord, Slack, WhatsApp, Signal, CLI | 8+ incl. Telegram, Discord, Slack, WeChat | 13+ installed as skills | ~ web UI, multi-user | dozens incl. Signal, iMessage | ~ desktop app, web alpha | ~ desktop app and standing automations, no chat apps | many incl. WeCom, WeChat, IRC | ~ API-first, the UI is a demonstrator | 7 incl. DingTalk, WeChat, QQ, iMessage | 30+ incl. voice, webhooks |
@@ -32,7 +32,7 @@ Each column links to the full research note; every cell below traces to a source
 | Edge and mobile | ✓ Android app | ✗ desktop only | ~ $5 VPS, serverless idle on Modal, Daytona | ~ server deploys (Render) | ✗ Docker host only | ~ responsive web and PWA | companion apps | ✗ desktop only | ✗ macOS and Windows desktop only | ✓ Android APK, $10 RISC-V boards | ✗ server only | ~ beta Tauri desktop | ~ Raspberry Pi |
 | Credentials | your keys | your keys or cloud credits | per-provider keys or Nous Portal | your keys on host | ✓ OneCLI Agent Vault | your keys | your keys on host | your keys BYO | your keys | your keys in workspace | your keys, local by default | your keys, or none offline | your keys in workspace |
 | Security record | clean so far | GAIA claim corrected, astroturf flag | edited plagiarism-claim issue, 48k open issues | clean so far, category-skepticism thread | clean so far | clean so far, license controversy | provider saga, 514-point vuln report, Trail of Bits audit completed (23 confirmed vulnerabilities, all fixed) | HN boundary questions unresolved | open beta, macOS builds signed and notarized while Windows builds are unsigned, thin independent footprint | pre-1.0 banner, scam-token notice, picoclaw.io cert renewed after its 2026-09-10 expiry | clean so far | telemetry auto-accept default | clean so far, thin coverage |
-| Status | active, v1.17.0 | active, v1.0.5 | active, 48k open issues | active, PyPI alpha | active, 1.1k open issues | active, v0.11.4 | active, v2026.9.8, 9.2k open issues | active, weekly signed releases | active, v0.3.0, open beta | active, 59 open issues, pre-1.0 | active, v1.0.1, pushed 2026-10-02 | active, v2.2.1, post-rewrite churn | active, 902 open issues |
+| Status | active, v1.17.0 | active, v1.0.5 | active, 48k open issues | active, PyPI alpha | active, 1.0k open issues | active, v0.11.4 | active, v2026.9.8, 9.3k open issues | active, weekly signed releases | active, v0.3.0, open beta | active, 59 open issues, pre-1.0 | active, v1.0.1, pushed 2026-10-02 | active, v2.2.1, post-rewrite churn | active, 926 open issues |
 
 ## Reading the matrix
 
@@ -44,9 +44,9 @@ QwenPaw is the only column with a real offline path through its own trained smal
 
 **The desktop split is the new category line: OpenWork, Eigent, and OpenWorker do not do chat channels at all, which is why their cells go tilde there, and choosing between them and the messaging runtimes is really choosing between an assistant that lives in your chats and one that lives on your desktop.**
 
-**The status row's issue counts are inversely proportional to age, not quality: the root carries 9,157 open issues at scale, and the pre-1.0 PicoClaw carries 59, so read the column against its birthday.**
+**The status row's issue counts are inversely proportional to age, not quality: the root carries 9,285 open issues at scale, and the pre-1.0 PicoClaw carries 59, so read the column against its birthday.**
 
-**Hermes is the column that breaks the -claw pattern: it competes on the learning loop rather than the trust ladder, and its about 250k stars against a 48k-issue backlog is the trade in one row pair.**
+**Hermes is the column that breaks the -claw pattern: it competes on the learning loop rather than the trust ladder, and its about 251k stars against a 48k-issue backlog is the trade in one row pair.**
 
 ## Choosing from the matrix
 

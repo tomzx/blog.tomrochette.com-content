@@ -18,7 +18,7 @@ Matt Pocock is a full-time developer educator who built Total TypeScript and now
 
 Total TypeScript is the original business: five professional workshops (Pro Essentials, Type Transformations, Generics, Advanced Patterns, Advanced React with TypeScript) taught exercise-first, plus free tutorials, a book, tips, and articles, run by an ex-XState core team member and ex-Vercel developer advocate.
 AI Hero is the newer property: posts, a skills catalogue, an AI Coding Dictionary, workshops, cohorts, and events, concentrated on Claude Code, MCP, evals, and the Vercel AI SDK.
-On GitHub (47.7k followers as of 2026-10-03) the flagship is the skills repo, "Skills for Real Engineers", MIT-licensed, at 274.9k stars as of 2026-10-03, alongside sandcastle (sandboxed coding agents in TypeScript, 8.2k stars), dictionary-of-ai-coding (4.9k stars), and ts-reset (8.6k stars).
+On GitHub (47.8k followers as of 2026-10-04) the flagship is the skills repo, "Skills for Real Engineers", MIT-licensed, at 275.4k stars as of 2026-10-04, alongside sandcastle (sandboxed coding agents in TypeScript, 8.3k stars), dictionary-of-ai-coding (4.9k stars), and ts-reset (8.6k stars).
 The skills are deliberately small, composable, and forkable: grill-me, grill-with-docs, wayfinder, to-spec, to-tickets, tdd, code-review, and a setup skill, organized around four failure modes of agentic coding.
 
 ## Status
@@ -79,7 +79,7 @@ Not for anyone seeking model research, benchmarks, or vendor-neutral evaluation 
 - https://www.totaltypescript.com/ - the TypeScript business: five workshops, exercise-driven format, his bio (ex-XState core team, ex-Vercel)
 - https://www.aihero.dev/sitemap.md - the AI Hero public content inventory: posts, skills pages, AI Coding Dictionary, cohorts, events
 - https://www.aihero.dev/my-grill-me-skill-has-gone-viral.md - the grill-me skill text, its design, and his viral-reach claim
-- https://github.com/mattpocock - profile and pinned repos as of 2026-10-03 (47.7k followers; skills, sandcastle, dictionary-of-ai-coding, ts-reset)
+- https://github.com/mattpocock - profile and pinned repos as of 2026-10-04 (47.8k followers; skills, sandcastle, dictionary-of-ai-coding, ts-reset)
 - https://github.com/mattpocock/skills - the skills repo: MIT license, four failure modes, full skill list, ~60,000-person newsletter claim
 - https://news.ycombinator.com/item?id=48321838 - the skeptical HN thread quoting his own cohort-size and revenue numbers
 - https://hn.algolia.com/api/v1/search?query=%22matt+pocock%22&tags=story - the third-party build evidence: multiple Show HNs around his workflow and skills, including the September 2026 grill-me Ask HN

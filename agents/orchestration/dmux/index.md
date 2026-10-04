@@ -1,7 +1,7 @@
 ---
 title: dmux
 created: 2026-08-24
-updated: 2026-09-26
+updated: 2026-10-04
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, orchestration, git-worktrees, terminal, open-source]
 readability: 3
@@ -26,8 +26,8 @@ Extras include lifecycle hooks (worktree create, pre-merge, post-merge), macOS n
 ## Status
 
 Active and shipping.
-The repository was created 2025-08-20, was last pushed 2026-08-16, and shows 747 commits, about 1,791 stars, and 138 forks as of 2026-10-02.
-npm recorded 1,025 downloads in the month ending 2026-09-30.
+The repository was created 2025-08-20, was last pushed 2026-08-16, and shows 747 commits, about 1,793 stars, and 138 forks as of 2026-10-04.
+npm recorded 1,004 downloads in the month ending 2026-10-01.
 **Community discussion is thin: the August 2025 launch thread got 3 points and the February 2026 thread got 9 points with zero comments on Hacker News.**
 That gap between repo activity and discussion footprint is the main signal to watch.
 

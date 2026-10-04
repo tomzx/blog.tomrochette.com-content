@@ -24,7 +24,7 @@ On the Amp side he publishes docs, news posts, and a 26-minute working-day scree
 ## Status
 
 Active on both fronts as of 2026-09-24.
-Register Spill is near-weekly: the homepage lists issues 91 through 100 between July 11 and September 20, 2026, the centenary issue being "Joy & Curiosity #100" on September 20.
+Register Spill is near-weekly: his index page lists issues 91 through 100 between July 11 and September 20, 2026, the centenary issue being "Joy & Curiosity #100" on September 20, and the Substack feed shows #101 following on September 26.
 Amp ships visibly: news items through September 22, 2026 ("One Runner, Many Worktrees"), a Free Agent tier (September 13) making Amp free when you bring your own compute and model subscriptions, and his own screencast embedded front and center on the product homepage.
 The spinout announcement he co-signed describes Amp as profitable; the Hacker News thread on it drew 90 points and the pricing pushback noted below.
 The books are stable but frozen at their May 2020 editions (v1.7 and v1.2), so they teach the Go of that era.
@@ -78,8 +78,8 @@ Not for readers who want vendor-neutral tool comparisons, budget harness options
 ## References
 
 - https://thorstenball.com - his bio: Amp co-founder, Zed and Sourcegraph history, books, and newsletter
-- https://thorstenball.com/register-spill - the newsletter's own index page: weekly since April 2023, issues through #100 on 2026-09-20
-- https://registerspill.thorstenball.com - the canonical Substack home, over 9,000 subscribers as of 2026-09-24
+- https://thorstenball.com/register-spill - the newsletter's own index page: weekly since April 2023, issues through #101 on 2026-09-26
+- https://registerspill.thorstenball.com - the canonical Substack home, over 9,000 subscribers as of 2026-09-24, with "Joy & Curiosity #101" (2026-09-26) latest per its feed
 - https://ampcode.com - the Amp homepage: his working-day screencast, Orbs, and news through 2026-09-22
 - https://ampcode.com/news/amp-inc - the spinout announcement with the co-founder list including him, and the profitability claim
 - https://interpreterbook.com - Writing An Interpreter In Go: pricing, current version 1.7 (May 2020), and testimonials

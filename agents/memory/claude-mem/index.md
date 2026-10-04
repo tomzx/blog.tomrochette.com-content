@@ -1,7 +1,7 @@
 ---
 title: claude-mem
 created: 2026-08-30
-updated: 2026-10-03
+updated: 2026-10-04
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, session-memory, compression, open-source]
 readability: 3
@@ -24,8 +24,8 @@ Made by Alex Newman (thedotmack), a solo author in the Vercel OSS Program, with 
 
 ## Status
 
-Very large and fast: about 95.2k stars, 8.4k forks, and 109 open issues and pull requests as of 2026-10-03, with 68,674 npm downloads in the last month (2026-09-02 to 2026-10-01).
-Created 2025-08-31, pushed 2026-10-03, latest tagged release v13.29.0 on 2026-10-03, with npm still on 13.28.0 at fetch time, the first channel drift since the 2026-09-21 close.
+Very large and fast: about 95.6k stars, 8.5k forks, and 128 open issues and pull requests as of 2026-10-04, with 68,674 npm downloads in the last month (2026-09-02 to 2026-10-01).
+Created 2025-08-31, pushed 2026-10-04, latest tagged release v13.29.0 on 2026-10-03, with npm at 13.29.0 as of 2026-10-04, closing the one-day channel drift.
 The README now brands the project Grok Mem (the package is still `claude-mem`), and v13.24.0 shipped it as two independent Cursor and Grok Bot marketplace plugins alongside the Claude Code install path.
 **The v13.x version line tells you the churn rate: near-daily releases with major-version jumps, which is velocity and breakage risk in the same number.**
 
@@ -75,6 +75,7 @@ Not for privacy-strict environments, anyone unwilling to run a local worker serv
 - 2026-09-22 - The npm-versus-GitHub channel drift closed: GitHub tagged v13.25.3 and npm published 13.25.3 within minutes on 2026-09-21, so the two release channels are back in sync.
 - 2026-09-27 - Refreshed the volatile facts: about 94.8k stars, 312 open issues and PRs, 68,101 trailing-month npm downloads, and release v13.28.0 (2026-09-26) with npm in sync.
 - 2026-10-03 - Recorded GitHub release v13.29.0 (2026-10-03) with npm lagging at 13.28.0 at fetch time, the first channel drift since 2026-09-21; refreshed stars to about 95.2k, 109 open issues and PRs, and 68,674 trailing-month npm downloads.
+- 2026-10-04 - The npm-versus-GitHub channel drift closed: npm published 13.29.0, matching the v13.29.0 GitHub tag; refreshed stars to about 95.6k, 8.5k forks, and 128 open issues and PRs.
 
 ## See also
 

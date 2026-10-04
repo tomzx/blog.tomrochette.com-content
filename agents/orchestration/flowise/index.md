@@ -1,7 +1,7 @@
 ---
 title: Flowise
 created: 2026-09-29
-updated: 2026-09-29
+updated: 2026-10-04
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, multi-agent, workflow, low-code]
 readability: 3
@@ -25,7 +25,7 @@ The license was Apache 2.0 with the enterprise directory under a commercial lice
 Dead, archived by its maintainers.
 The README carries the banner "Flowise has been archived. Refer to Future of Flowise discussion 6727", and that discussion states the reason: developers increasingly rely on coding agents for complex tasks, and "the typical rigid workflow low-code approach quickly hits the limit when it comes to complexity" (GitHub API, 2026-08).
 The last release was flowise@3.1.4 on 2026-07-29 and the last push 2026-08-13; the HN thread "Flowise is shutting down" drew 58 points on 2026-08-05.
-npm still recorded 11,923 downloads in the month before 2026-09-27, residual installs from a user base with nowhere to go.
+npm still recorded 11,150 downloads in the month ending 2026-10-01, residual installs from a user base with nowhere to go.
 
 ## Strengths
 
@@ -77,5 +77,5 @@ Recommended only for existing self-hosters planning an exit to Dify or Sim, and 
 - https://newsroom.workday.com/2025-08-14-Workday-Acquires-Flowise,-Bringing-Powerful-AI-Agent-Builder-Capabilities-to-the-Workday-Platform - Workday acquisition press release (200)
 - https://hn.algolia.com/api/v1/items/44905403 - acquisition thread (200): 10 points, 2025-08-14
 - https://registry.npmjs.org/flowise - npm metadata (200): flowise 3.1.4, license "SEE LICENSE IN LICENSE.md"
-- https://api.npmjs.org/downloads/point/last-month/flowise - npm downloads API (200): 11,923 downloads, month ending 2026-09-27
+- https://api.npmjs.org/downloads/point/last-month/flowise - npm downloads API (200): 11,150 downloads, month ending 2026-10-01
 - https://raw.githubusercontent.com/FlowiseAI/Flowise/main/LICENSE.md - license text (200): Apache 2.0 plus commercial-license portions

@@ -1,7 +1,7 @@
 ---
 title: OpenCode Go
 created: 2026-09-26
-updated: 2026-10-03
+updated: 2026-10-04
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, model-access, coding-subscription, open-models]
 readability: 3
@@ -21,7 +21,7 @@ The lineup is 29 open-weight coding models as of 2026-10-03 (Grok 4.7/4.6, GLM-5
 ## Status
 
 Active and changing fast.
-The OpenCode repo shows about 208K GitHub stars as of 2026-09-26, the Go docs were last updated 2026-09-28, and the plan has grown from a three-model Beta in March 2026 to 29 models plus a $40 Go Plus tier.
+The OpenCode repo shows about 212K GitHub stars as of 2026-10-04, the Go docs were last updated 2026-09-28, and the plan has grown from a three-model Beta in March 2026 to 29 models plus a $40 Go Plus tier.
 Churn is constant: GPT 6 Luna arrived 2026-09-22 and Space Bunny Free appeared as a limited-time unlimited model.
 **Go converts $10 into up to $60 of metered usage per month, Go Plus converts $40 into up to $180, and that ratio is the entire value proposition.**
 

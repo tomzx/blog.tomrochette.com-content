@@ -1,7 +1,7 @@
 ---
 title: cmux
 created: 2026-08-24
-updated: 2026-09-27
+updated: 2026-10-04
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, orchestration, terminal, parallel-agents, macos]
 readability: 3
@@ -23,8 +23,8 @@ A paid subscription (Pro or Max) adds Cloud VM agents and the iOS app; the CodeR
 ## Status
 
 **Active and remarkably fast.**
-About 27.6k stars and 2.4k forks as of 2026-10-02, created January 28, 2026, with commits landing the day of verification.
-The launch thread counted 18 releases in two days; the project is at v0.64.x (v0.64.25 on 2026-09-17) with a nightly channel.
+About 27.6k stars and 2.4k forks as of 2026-10-04, created January 28, 2026, with commits landing the day of verification.
+The launch thread counted 18 releases in two days; the public changelog still tops out at v0.64.25 (2026-09-17) as of 2026-10-04, with a nightly channel alongside the release line.
 Three contributors dominate the history (about 5.2k, 3.8k, and 1.2k contributions), so this is a small funded team (Manaflow, Inc.) moving very quickly, not a broad community.
 
 ## Strengths
@@ -45,9 +45,10 @@ Three contributors dominate the history (about 5.2k, 3.8k, and 1.2k contribution
 ## Pricing
 
 Free $0: the full terminal, any CLI agent BYOK, notifications, browser panels, socket API, local history.
-Pro $50/month: cloud agents on isolated VMs, capped at up to 50 Cloud VMs per user with 24 GB RAM and 6 vCPUs shared across all of them, plus unlimited workspaces, the iOS app, and email support; as of 2026-09-27 the page bills monthly only (the dollar tiers unchanged from 2026-09-18), with the $40 billed-yearly rate it showed on 2026-09-16 gone (the shared-pool phrasing dates to 2026-09-10, after the per-VM resources with a 256 GB disk ceiling it showed on 2026-09-09, and different shared-pool totals through 2026-09-05).
-Max $200/month moves the shared cloud pool up to 64 GB RAM and 16 vCPUs across up to 50 Cloud VMs, where the Free, Pro, and Team pools are 24 GB RAM and 6 vCPUs (as of 2026-09-27 the per-machine resources it listed on 2026-09-18, 32 or 64 GB Cloud VMs, are gone).
-Team $60/user/month adds centralized billing and priority support; Enterprise adds self-hosted, even air-gapped, cloud execution, SSO/SAML, audit logs, and SOC 2, as of 2026-09-27.
+Pro $50/month: cloud agents on isolated VMs, up to 5 Cloud VMs per user with up to 4 vCPUs and 8 GB RAM per VM, plus unlimited workspaces, the iOS app, and email support, as of 2026-10-04.
+Max $200/month raises the per-VM ceiling to 16 vCPUs and 32 GB RAM, still up to 5 Cloud VMs per user, as of 2026-10-04.
+Team $60/user/month gives each user the Pro allowance (5 VMs, 4 vCPUs and 8 GB RAM per VM) plus centralized billing and priority support; Enterprise adds self-hosted, even air-gapped, cloud execution, SSO/SAML, audit logs, custom VM limits, and SOC 2 with an SLA, as of 2026-10-04.
+The dollar tiers are unchanged since 2026-09-18, but the packaging moved again on 2026-10-04: the shared pools (up to 50 VMs sharing 24 GB RAM and 6 vCPUs on Pro, 64 GB RAM and 16 vCPUs on Max) are gone, replaced by a per-user count of 5 VMs with per-VM resource caps, and the page now describes Cloud VMs as persistent pets rather than cattle.
 
 ## Price history
 
@@ -59,6 +60,7 @@ Team $60/user/month adds centralized billing and priority support; Enterprise ad
 | 2026-09-16 | Pro | Priced $50/mo, or $40 billed yearly. | [cmux.com/pricing](https://cmux.com/pricing) |
 | 2026-09-18 | All tiers | Yearly rate removed: Pro $50/mo monthly only; Max $200/mo adds 32 or 64 GB machines on 16 vCPUs; Team $60/user/mo; Free $0. | [cmux.com/pricing](https://cmux.com/pricing) |
 | 2026-09-27 | Max | At $200/mo unchanged, the per-machine resources (32 or 64 GB VMs) were replaced by a shared pool of 64 GB RAM and 16 vCPUs across up to 50 Cloud VMs. | [cmux.com/pricing](https://cmux.com/pricing) |
+| 2026-10-04 | Pro, Max, Team | Cloud packaging restructured at unchanged dollar tiers: up to 5 Cloud VMs per user with per-VM caps (Pro 4 vCPUs/8 GB, Max 16 vCPUs/32 GB, Team same as Pro) replaced the shared pools of up to 50 VMs (Pro 24 GB RAM/6 vCPUs, Max 64 GB/16 vCPUs). | [cmux.com/pricing](https://cmux.com/pricing) |
 
 ## Compared to
 
@@ -82,6 +84,7 @@ Not for Linux or Windows users, copyleft-restricted shops, or anyone who needs a
 - 2026-09-18 - Pricing page moved to monthly-only billing and added a $200/month Max tier with up to 64 GB RAM per Cloud VM.
 - 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
 - 2026-09-27 - Max tier packaging moved from per-machine resources to a shared 64 GB RAM and 16 vCPU pool across up to 50 Cloud VMs at the same $200/mo.
+- 2026-10-04 - Cloud packaging moved again: 5 Cloud VMs per user with per-VM resource caps (Pro 4 vCPUs/8 GB, Max 16 vCPUs/32 GB, Team same as Pro) replaced the shared 50-VM pools at unchanged dollar tiers, and I corrected the front matter date, which a prior run had left at 2026-09-27 after refreshing numbers.
 
 ## See also
 
@@ -92,8 +95,8 @@ Not for Linux or Windows users, copyleft-restricted shops, or anyone who needs a
 
 ## References
 
-- https://github.com/manaflow-ai/cmux - source, license statement, repository scale, as of 2026-09-26
-- https://cmux.com/pricing - tiers, the Max tier, shared-pool cloud VM specs and their churn, CodeRouter removal, re-verified 2026-09-27
+- https://github.com/manaflow-ai/cmux - source, license statement, repository scale, as of 2026-10-04
+- https://cmux.com/pricing - tiers, the Max tier, shared-pool cloud VM specs and their churn, the 2026-10-04 move to 5 VMs per user, CodeRouter removal, re-verified 2026-10-04
 - https://cmux.com/blog/zen-of-cmux - the project's own design philosophy
 - https://news.ycombinator.com/item?id=47079718 - the February 2026 launch thread with author Q&A
 - https://www.bounds.dev/posts/teaching-claude-code-to-drive-cmux/ - third-party account of agents driving cmux programmatically

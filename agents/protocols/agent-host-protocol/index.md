@@ -1,7 +1,7 @@
 ---
 title: Agent Host Protocol
 created: 2026-08-30
-updated: 2026-10-03
+updated: 2026-10-04
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.3, protocols, agent-sessions, state-synchronization, microsoft, open-source]
 readability: 3
@@ -24,8 +24,8 @@ MIT licensed, TypeScript, under the `microsoft` GitHub org, created 2026-03-12.
 
 ## Status
 
-**Active and shipping: 384 stars, 64 open issues as of 2026-10-03, with commits landing that week and v1.0.0 the latest release (spec, clients, and SDK packages all tagged 1.0.0 on 2026-10-02).**
-Adoption is real where it counts: the `ahp` crate records about 268,800 lifetime downloads and the npm package about 412,400 (2026-09-03 to 2026-10-02), both as of 2026-10-03, with weekly npm downloads of 16,160, 46,637, 91,693, and 254,241 across the four weeks ending 2026-10-02.
+**Active and shipping: 384 stars, 61 open issues as of 2026-10-04, with commits landing that week and v1.0.0 the latest release (spec, clients, and SDK packages all tagged 1.0.0 on 2026-10-02).**
+Adoption is real where it counts: the `ahp` crate records about 269,800 lifetime downloads and the npm package about 412,400 (2026-09-03 to 2026-10-02), both as of 2026-10-04, with weekly npm downloads of 16,160, 46,637, 91,693, and 254,241 across the four weeks ending 2026-10-02.
 A member of the VS Code team stated publicly in June 2026 that the team is rebuilding its agent infrastructure on AHP, and the reference host lives at `src/vs/platform/agentHost/node` in the `microsoft/vscode` repository.
 1.0 shipped on 2026-10-02: the spec, every client, and the SDK packages tagged v1.0.0 the same day, closing the pre-1.0 caveat this note carried since creation.
 

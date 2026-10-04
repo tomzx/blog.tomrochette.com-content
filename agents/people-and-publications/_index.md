@@ -15,6 +15,7 @@ Profiles of the people and websites steering this domain as it evolves, and the 
 - [Andrej Karpathy](andrej-karpathy/index.md) - the vocabulary-setter, from vibe coding to Software 3.0 and agentic engineering.
 - [Andrew Ng](deeplearning-ai-andrew-ng/index.md) - the educator whose weekly The Batch and courses popularized agentic design patterns.
 - [Armin Ronacher](armin-ronacher/index.md) - the Flask creator turned skeptical agent-tooling essayist, publishing measured, invoice-backed doubts about long-horizon models and vibecoding at lucumr.pocoo.org.
+- [Birgitta Böckeler](birgitta-bockeler/index.md) - the Thoughtworks distinguished engineer whose martinfowler.com experiments test which craft practices, TDD included, survive coding agents inside large non-AI companies.
 - [Boris Cherny](boris-cherny/index.md) - the creator of Claude Code at Anthropic, a primary source on how the dominant harness is built, published in rare interviews and posts rather than a feed.
 - [Caleb Writes Code](caleb-writes-code/index.md) - the video explainer that turns model releases and agentic-engineering concepts into same-week, illustrated shorts.
 - [Chip Huyen](chip-huyen/index.md) - the systems-design author of the most-read O'Reilly AI book of 2025.
@@ -75,3 +76,4 @@ Its members are compared on shared rows in the [People and Publications Feature 
 - 2026-09-24 - Added IndyDevDan.
 - 2026-09-24 - Added Owain Lewis.
 - 2026-09-24 - Added Ray Amjad.
+- 2026-10-04 - Added Birgitta Böckeler.

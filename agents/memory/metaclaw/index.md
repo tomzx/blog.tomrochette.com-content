@@ -1,7 +1,7 @@
 ---
 title: MetaClaw
 created: 2026-10-02
-updated: 2026-10-03
+updated: 2026-10-04
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, meta-learning, skill-evolution, assistant-runtime]
 readability: 3
@@ -23,8 +23,8 @@ The memory side persists cross-session context per user and project (facts, pref
 
 ## Status
 
-Dormant-leaning: v0.4.1 released 2026-04-11 and no repository push since 2026-06-07 as of 2026-10-03, roughly four months quiet.
-**The attention record is unusual: first place on Hugging Face Daily Papers and 3,455 stars, but no Hacker News discussion at all, so the buzz came from the paper ranking rather than user adoption.**
+Dormant-leaning: v0.4.1 released 2026-04-11 and no repository push since 2026-06-07 as of 2026-10-04, roughly four months quiet.
+**The attention record is unusual: first place on Hugging Face Daily Papers and 3,456 stars, but no Hacker News discussion at all, so the buzz came from the paper ranking rather than user adoption.**
 A research artifact with a real feature history through April, then silence; treat it as a promising experiment on pause, not maintained infrastructure.
 
 ## Strengths

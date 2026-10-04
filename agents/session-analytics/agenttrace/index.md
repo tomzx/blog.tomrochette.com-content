@@ -1,7 +1,7 @@
 ---
 title: AgentTrace
 created: 2026-09-27
-updated: 2026-10-02
+updated: 2026-10-04
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, llm=glm-5.3-flash, session-analytics, cost-tracking, cli, tui, open-source]
 readability: 3
@@ -25,7 +25,7 @@ Made by an independent developer (luoyuctl) under MIT.
 
 ## Status
 
-Young and active: 137 stars, 9 forks, 7 open issues, created 2026-05-01, last pushed 2026-10-01, latest release v0.9.0 on 2026-09-29, as of 2026-10-02.
+Young and active: 138 stars, 9 forks, 7 open issues, created 2026-05-01, last pushed 2026-10-01, latest release v0.9.0 on 2026-09-29, as of 2026-10-04.
 It is effectively a one-person project: 424 of 426 commits come from the owner, and the next contributor has a single commit, merged in v0.9.0.
 The community footprint is nearly empty: a Hacker News search for the author returns nothing, and I found no Reddit discussion.
 **A pre-1.0 single-maintainer tool with serious packaging but no independent verification, so read its roadmap and issue tracker rather than its README for what actually ships.**
@@ -80,7 +80,7 @@ Not for live observation, transcript search, or line-level provenance.
 - https://raw.githubusercontent.com/luoyuctl/agenttrace/master/README.md - the coverage list, governance flags, install paths, privacy posture, and report formats
 - https://raw.githubusercontent.com/luoyuctl/agenttrace/master/docs/guides/ci-integration.md - the CI gate flags, exit code 2, and report artifacts
 - https://raw.githubusercontent.com/luoyuctl/agenttrace/master/ROADMAP.md - the local-first scope and explicit non-goals
-- https://api.github.com/repos/luoyuctl/agenttrace - stars, forks, dates, and license as of 2026-10-02
+- https://api.github.com/repos/luoyuctl/agenttrace - stars, forks, dates, and license as of 2026-10-04
 - https://api.github.com/repos/luoyuctl/agenttrace/releases - the v0.9.0 release date
 - https://registry.npmjs.org/@zack78/agenttrace - the npm package at 0.9.0
 - https://hn.algolia.com/api/v1/search?query=luoyuctl - the empty Hacker News footprint behind the thin-community claim

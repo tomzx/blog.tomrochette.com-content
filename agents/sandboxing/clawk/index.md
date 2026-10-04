@@ -1,7 +1,7 @@
 ---
 title: "Clawk"
 created: 2026-09-05
-updated: 2026-10-03
+updated: 2026-10-04
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, sandboxing, vm, security]
 readability: 3
@@ -22,7 +22,7 @@ There is no Dockerfile or devcontainer: the first boot builds a rootfs from any 
 
 Launched July 2026 with real traction and currently paused in a pre-1.0 state: 1,024 stars and 40 forks, last push 2026-08-13 at v0.4.0, with the README carrying its own "pre-1.0, expect breaking changes" banner.
 **The 226-point Show HN thread is the strongest community signal in the Sandboxing category's tail, and the discussion plus the README agree on the limits rather than hiding them.**
-Fifty-one days without a push after a fast launch cadence is worth watching, but it is not yet a stall at these timescales.
+Fifty-two days without a push after a fast launch cadence is worth watching, but it is not yet a stall at these timescales.
 
 ## Strengths
 
@@ -33,7 +33,7 @@ Fifty-one days without a push after a fast launch cadence is worth watching, but
 ## Cautions
 
 - The sandbox is only as closed as its allow-list: github.com is pre-allowed, so exfiltration through the very forge you push to is in scope by design.
-- Pre-1.0 with fifty-one days of quiet as of 2026-10-03, on a single primary platform (macOS), from a small team.
+- Pre-1.0 with fifty-two days of quiet as of 2026-10-04, on a single primary platform (macOS), from a small team.
 - The VM disk is lost on destroy by design; only host-side code and conversations survive.
 
 ## Pricing
@@ -61,6 +61,7 @@ Not for Linux-primary teams (yet), and not for anyone threat-modeling a determin
 - 2026-09-27 - Quiet window extended to forty-five days (last push still 2026-08-13 at v0.4.0); stars refreshed (1,021), forks and the 226-point thread unchanged.
 - 2026-09-29 - Quiet window extended to forty-seven days (last push still 2026-08-13 at v0.4.0); stars refreshed (1,022), forks and the 226-point thread unchanged.
 - 2026-10-03 - Quiet window extended to fifty-one days (last push still 2026-08-13 at v0.4.0); stars refreshed (1,024), forks and the 226-point thread unchanged.
+- 2026-10-04 - Quiet window extended to fifty-two days (last push still 2026-08-13 at v0.4.0); stars, forks, and the 226-point thread unchanged.
 
 ## See also
 

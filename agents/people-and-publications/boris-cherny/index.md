@@ -18,7 +18,7 @@ Boris Cherny is the Anthropic engineer who created Claude Code, and his public r
 
 A software engineer at Anthropic who, per his own about page, created Claude Code and previously worked at Instagram.
 He is the author of O'Reilly's Programming TypeScript and maintains the book's official exercise-answers repository alongside older TypeScript tools like json-schema-to-typescript.
-His GitHub profile lists 11.2k followers as of 2026-09-24 and links an X account and a Threads account, which are where his actual day-to-day output goes.
+His GitHub profile lists 11.3k followers as of 2026-10-04 and links an X account and a Threads account, which are where his actual day-to-day output goes.
 His interviews and rare posts are aimed at engineers who want to understand how Claude Code is built, not at people shopping for opinions on the harness landscape.
 
 ## Status
@@ -79,7 +79,7 @@ Not for anyone looking for a regular feed, tool comparisons, or engagement with 
 
 - https://borischerny.com/about - his role at Anthropic, Claude Code creation credit, Instagram history, book, and social links
 - https://borischerny.com/management,/product/2026/09/19/I-am-often-wrong.html - his latest post (2026-09-19) and the team-facing management signal
-- https://github.com/bcherny - GitHub profile, follower count, and pinned repositories as of 2026-09-24
+- https://github.com/bcherny - GitHub profile, follower count, and pinned repositories as of 2026-10-04
 - https://newsletter.pragmaticengineer.com/p/how-claude-code-is-built - the founding-engineer interview: prototype origin, stack, self-written code, run-rate revenue
 - https://www.anthropic.com/engineering/claude-code-best-practices - the official best-practices document encoding the minimal-scaffolding, verify-your-work philosophy
 - https://systima.ai/blog/claude-code-vs-opencode-token-overhead - the measured critical analysis of Claude Code's token overhead (July 2026)

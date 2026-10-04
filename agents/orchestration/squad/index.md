@@ -1,7 +1,7 @@
 ---
 title: Squad
 created: 2026-09-29
-updated: 2026-10-03
+updated: 2026-10-04
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, multi-agent, coding-agents, copilot]
 readability: 3
@@ -25,7 +25,7 @@ It entered this pile from the Awesome Multi-Agent Orchestrators directory's new 
 
 Active: last push 2026-10-03, latest release v1.0.0 on 2026-10-03, which promoted the dev line to main (GitHub API, as of 2026-10-03).
 The 1.0.0 wave caps the alpha period: the README no longer carries the alpha badge that earlier releases warned about, though the project is still a solo-maintainer CLI and the API caveats deserve re-reading before you script against it.
-Traction is real but concentrated: npm recorded 7,684 downloads of `@bradygaster/squad-cli` in the month ending 2026-09-30.
+Traction is real but concentrated: npm recorded 9,823 downloads of `@bradygaster/squad-cli` in the month ending 2026-10-01, up from 7,684 in the window ending 2026-09-30.
 Independent discussion is nearly absent: the largest HN thread I found has 2 points, so the footprint is GitHub plus npm alone, which is itself a signal.
 
 ## Strengths

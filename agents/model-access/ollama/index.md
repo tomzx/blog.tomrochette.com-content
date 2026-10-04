@@ -1,7 +1,7 @@
 ---
 title: Ollama
 created: 2026-09-27
-updated: 2026-10-03
+updated: 2026-10-04
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, model-access, local-inference, model-registry]
 readability: 3
@@ -17,12 +17,12 @@ Ollama is the most popular local model runtime, a free open-source app that runs
 ## What it is
 
 A Go server (MIT) that downloads and runs open models such as Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, and Gemma on laptop and desktop hardware, fronted by a CLI, a desktop app, and a local API that speaks Ollama, OpenAI, and Anthropic formats.
-It launched in 2023 as "Docker for LLMs" out of a Y Combinator W21 team, and ollama.com now claims more than 9 million developers.
+It launched in 2023 as "Docker for LLMs" out of a Y Combinator W21 team, and ollama.com now claims 9M+ monthly installs, 1B+ model downloads, and 200T+ tokens served (as of 2026-10-04).
 The registry curates quantizations of each model, and `ollama run <model>` is the one-command experience that agent integrations (Claude Code, Codex, OpenCode) build on.
 
 ## Status
 
-Very active: 182,078 stars as of 2026-10-03, repo pushed the same day, among the largest repositories in the AI ecosystem.
+Very active: 182,128 stars as of 2026-10-04, repo pushed the same day, among the largest repositories in the AI ecosystem.
 The surface is expanding fast: MLX acceleration on Apple silicon arrived in preview with 0.19 in March 2026, and NVFP4 quantization is now supported alongside the GGUF classics.
 Cloud models launched as Ollama Turbo in August 2025, and the plans were rebuilt into Free, Pro, Max, and Team tiers by late September 2026.
 **The pivot is real: a tool whose brand was local and private now sells US, Europe, and Singapore-hosted cloud inference through NVIDIA cloud partners, with the local runtime free underneath.**
@@ -73,6 +73,7 @@ My disagreeable claim: for coding agents on 16GB laptops, local quantized models
 ## Changes
 
 - 2026-09-27 - Created when the owner's GitHub-stars scan surfaced it.
+- 2026-10-04 - Homepage claim corrected from more than 9 million developers to 9M+ monthly installs (with 1B+ model downloads and 200T+ tokens served); stars refreshed.
 
 ## See also
 

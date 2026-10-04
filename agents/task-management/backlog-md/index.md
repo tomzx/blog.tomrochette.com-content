@@ -1,7 +1,7 @@
 ---
 title: Backlog.md
 created: 2026-08-27
-updated: 2026-10-03
+updated: 2026-10-04
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, task-management, kanban, markdown, open-source, byok]
 readability: 3
@@ -24,7 +24,7 @@ It is maintained under the MrLesk identity, with conference talks ([Devoxx Belgi
 ## Status
 
 Active and healthy at mid-scale.
-As of 2026-10-03: 6,928 stars, 71 open issues, pushed 2026-09-28, MIT-licensed, latest release v1.53.0 on 2026-09-24, 72,498 npm downloads last month.
+As of 2026-10-04: 6,933 stars, 71 open issues, pushed 2026-09-28, MIT-licensed, latest release v1.53.0 on 2026-09-24, 72,498 npm downloads last month.
 The July 2025 [launch thread](https://news.ycombinator.com/item?id=44483530) reached 254 points, the largest HN footprint of the task trackers profiled in this section.
 
 ## Strengths

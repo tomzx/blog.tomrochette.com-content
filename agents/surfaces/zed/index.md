@@ -1,7 +1,7 @@
 ---
 title: Zed
 created: 2026-08-23
-updated: 2026-09-26
+updated: 2026-10-04
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, surfaces, ai-editors, zed-industries]
 readability: 3
@@ -67,9 +67,11 @@ Not for teams needing enterprise identity plumbing or a turnkey agentic platform
 
 - 2026-08-23 - Created in the Surfaces category seed among its five founding notes.
 - 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
+- 2026-10-04 - Linked the new Delta note, Zed Industries' thread-based agentic environment.
 
 ## See also
 
+- [Delta](../delta/index.md) - Zed Industries' thread-based agentic environment built beside this editor, sharing its account and plans
 - [Agentic Coding Tools Landscape](../../agentic-coding-tools-landscape/index.md) - the surface layer this note belongs to
 - [OpenCode](../../harnesses/opencode/index.md) - the ACP-aligned harness that runs inside Zed
 - [The Shifting Bottleneck](../../../the-shifting-bottleneck/index.md) - why raw editing speed stopped being the constraint for agent work

@@ -16,7 +16,7 @@ Peter Steinberger is the PSPDFKit founder who came out of retirement to create O
 
 ## What it is
 
-A personal blog with practitioner essays ("Just Talk To It", "Claude Code Anonymous", "Shipping at Inference-Speed") plus a GitHub fleet of dozens of single-purpose agent tools: CodexBar (22.1k stars as of 2026-10-02), Peekaboo, mcporter, oracle, agent-scripts, and many more, 67k+ stars across personal projects by his own count.
+A personal blog with practitioner essays ("Just Talk To It", "Claude Code Anonymous", "Shipping at Inference-Speed") plus a GitHub fleet of dozens of single-purpose agent tools: CodexBar (22.2k stars as of 2026-10-04), Peekaboo, mcporter, oracle, agent-scripts, and many more, 67k+ stars across personal projects by his own count.
 He created OpenClaw, which the section's OpenClaw note records at about 390k stars with near-daily releases as of 2026-09-22, bootstrapped PSPDFKit to a nine-figure exit, burned out, retired, and then says AI pulled him back in.
 Since February 2026 he has worked at OpenAI on bringing agents to everyone, while OpenClaw moved to an independent foundation he stewards.
 The audience is builders: his Claude Code Anonymous meetups spread to at least six cities on the rule "show us what you learned, not what you sell".
@@ -58,7 +58,7 @@ Not for neutral analysis or anyone allergic to hype; his incentives follow his p
 - [Claude Code Anonymous](https://steipete.me/posts/2025/claude-code-anonymous.md) - The piece that named the practitioner obsession with coding agents and turned it into a meetup format now in six cities.
 - [OpenClaw, OpenAI and the future](https://steipete.me/posts/2026/openclaw.md) - His announcement joining OpenAI and handing OpenClaw to a foundation, the primary source for both facts.
 - [Shipping at Inference-Speed](https://steipete.me/posts/2025/shipping-at-inference-speed.md) - His account of building at model-speed, the clearest statement of his working method.
-- [CodexBar](https://github.com/steipete/codexbar) - His most-starred solo tool, usage stats for Codex and Claude Code in the menu bar, the working example of his ship-the-fix habit.
+- [CodexBar](https://github.com/steipete/codexbar) - His most-starred solo tool (22.2k stars as of 2026-10-04), usage stats for Codex and Claude Code in the menu bar, the working example of his ship-the-fix habit.
 
 ## Changes
 

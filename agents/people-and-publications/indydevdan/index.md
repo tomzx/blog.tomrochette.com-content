@@ -16,15 +16,15 @@ IndyDevDan (Dan, GitHub disler) runs the YouTube channel that named and normaliz
 
 ## What it is
 
-A YouTube channel (149K subscribers as of 2026-09-24, created 2020-12-23) run by Dan, a 15+ year engineer whose GitHub bio reads "Betting the next 10 years of my career on AGENTIC software."
+A YouTube channel (150K subscribers as of 2026-10-04, created 2020-12-23) run by Dan, a 15+ year engineer whose GitHub bio reads "Betting the next 10 years of my career on AGENTIC software."
 Videos fall into three lanes: concept frameworks (the core four of context, model, prompt, and tools, the operating-level model, software factories, agent swarms, model fusion), release-adjacent builds (fixing Opus 5's verbosity with system prompts, benchmark re-rankings), and devlogs that ship a real repo such as a self-compacting Pi agent.
 Every video pairs with open source under github.com/disler, including claude-code-hooks-mastery (3.9K stars), pi-vs-claude-code (1.7K stars), and super-simple-software-factory (887 stars).
 The commercial engine is agenticengineer.com, which sells Principled AI Coding (phase 1) and Tactical Agentic Coding (phase 2).
 
 ## Status
 
-Active and metronomic as of 2026-09-24.
-Uploads run weekly, every Monday at 13:00 UTC, and the RSS feed shows 16 consecutive Mondays from 2026-06-15 to 2026-09-28 with no gaps, the latest being "10 Levels of Jev For Agentic Engineers".
+Active and metronomic as of 2026-10-04.
+Uploads run weekly, every Monday at 13:00 UTC, with 16 consecutive Mondays from 2026-06-15 to 2026-09-28 verified while the channel's RSS feed was live, the latest being "10 Levels of Jev For Agentic Engineers" (nothing newer as of 2026-10-04 per the uploads tab; the RSS feed began returning 404 this run).
 Recent videos land between 12,700 and 127,800 views, with "FORGET Loop Engineering" at 127,800 and the agent-swarms takeaways at 79,785.
 Hacker News mentions him in six comment threads between 2025-04 and 2026-09, the only channel of this batch with third-party discussion at all.
 
@@ -76,8 +76,8 @@ Not for someone allergic to hype framing, or who wants vendor-neutral depth with
 
 ## References
 
-- https://www.youtube.com/@indydevdan - the channel: identity and 149K subscribers as of 2026-09-24
-- https://www.youtube.com/feeds/videos.xml?channel_id=UC_x36zCEGilGpB1m-V4gmjg - the RSS feed grounding the weekly Monday cadence, titles, dates, view counts, and the 2020-12-23 channel creation
+- https://www.youtube.com/@indydevdan - the channel: identity and 150K subscribers as of 2026-10-04
+- https://www.youtube.com/feeds/videos.xml?channel_id=UC_x36zCEGilGpB1m-V4gmjg - the RSS feed that grounded the weekly Monday cadence, titles, dates, and view counts through 2026-09-28 (it began returning 404 on 2026-10-04; the uploads tab replaces it)
 - https://agenticengineer.com/ - the course site: both paid phases, the founder letter's rhetoric, and the blog
 - https://github.com/disler - the GitHub profile confirming the IndyDevDan identity, follower count, and repo star counts
 - https://hn.algolia.com/api/v1/search?query=indydevdan&hitsPerPage=8 - the Hacker News record: the sensationalism critique, the command attribution, and the prompting-series recommendation

@@ -1,7 +1,7 @@
 ---
 title: qmd
 created: 2026-08-30
-updated: 2026-10-03
+updated: 2026-10-04
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, context-engines, retrieval, local-search, open-source]
 readability: 3
@@ -24,7 +24,7 @@ MIT, by Tobias Lütke (Shopify CEO), who authored about three quarters of the co
 
 ## Status
 
-Young with unusual traction: 30,165 stars, 1,883 forks, 207 open issues and PRs as of 2026-10-03, created 2025-12-08.
+Young with unusual traction: 30,177 stars, 1,886 forks, 209 open issues and PRs as of 2026-10-04, created 2025-12-08.
 Latest release v2.8.3 on 2026-08-16, pushed 2026-10-02.
 **The maintainer concentration is the story: one high-profile author shipping v1 through v2.8 in nine months, with community PRs around the edge.**
 

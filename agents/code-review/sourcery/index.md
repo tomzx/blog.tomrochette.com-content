@@ -21,7 +21,7 @@ IDE surfaces cover PyCharm, VS Code, Sublime, and Vim, a wider editor spread tha
 
 ## Status
 
-**Old by category standards (repo since July 2019), active, and mid-size: 1,870 stars as of 2026-10-03, commits as recent as October 2, 2026.**
+**Old by category standards (repo since July 2019), active, and mid-size: 1,871 stars as of 2026-10-04, commits as recent as October 2, 2026.**
 The PyPI package confirms the refactoring origin ("Magically refactor Python", 23 releases, now at 1.46.0).
 Funding: not verifiable from primary sources, and TechCrunch's only "Sourcery" rounds belong to the unrelated 2014/2016 restaurant startup, so I record none.
 The community footprint is modest: a 15-point Show HN for the refactoring era (27760608, July 7, 2021), a 3-point user comparison against Copilot (43944576, May 10, 2025), and a 1-point criticism thread (44224690, June 9, 2025) accusing the reviewer of being wrong and refusing to admit it.
@@ -82,7 +82,7 @@ My disagreeable take: free-for-open-source is the most underrated go-to-market w
 
 ## References
 
-- https://github.com/sourcery-ai/sourcery - repo, 1,870 stars, MIT, pushed October 2, 2026 (GitHub API, as of 2026-10-03)
+- https://github.com/sourcery-ai/sourcery - repo, 1,871 stars, MIT, pushed October 2, 2026 (GitHub API, as of 2026-10-04)
 - https://sourcery.ai/ - product page
 - https://sourcery.ai/pricing/ - tiers as of 2026-10-02
 - https://docs.sourcery.ai/reference/faq/ - docs FAQ covering plans, security scanning, BYO LLM, self-hosting (the former Product/Plans page redirects here)

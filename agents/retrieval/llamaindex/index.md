@@ -1,7 +1,7 @@
 ---
 title: LlamaIndex
 created: 2026-08-24
-updated: 2026-10-03
+updated: 2026-10-04
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, rag, retrieval, frameworks]
 readability: 3
@@ -25,7 +25,7 @@ In February 2026 the same team also open-sourced [LiteParse](https://github.com/
 ## Status
 
 Active and heavily used.
-The `run-llama/llama_index` repository shows 52.4k stars, 8.3k forks, and 254 open issues (848 counting pull requests) as of 2026-10-03, with 7,953 commits as of 2026-10-03.
+The `run-llama/llama_index` repository shows 52.4k stars, 8.3k forks, and 255 open issues (854 counting pull requests) as of 2026-10-04, with 7,953 commits as of 2026-10-04.
 **The strategic signal is the pivot: the repository now describes itself as "the leading document agent and OCR platform", and the docs split between the legacy `docs.llamaindex.ai` site and the new `developers.llamaindex.ai` home, where some legacy API pages (the code splitter reference among them) no longer resolve.**
 
 ## Strengths
@@ -85,7 +85,7 @@ That claim is arguable, which is the point.
 ## References
 
 - https://github.com/run-llama/llama_index - repository scale (52.4k stars), MIT license, pivot to "document agent and OCR platform", as of 2026-10-02
-- https://github.com/run-llama/liteparse - the open-source Rust parser sibling, 12,769 stars, Apache-2.0, pushed 2026-10-02 (GitHub API, as of 2026-10-03)
+- https://github.com/run-llama/liteparse - the open-source Rust parser sibling, 12,778 stars, Apache-2.0, pushed 2026-10-04 (GitHub API, as of 2026-10-04)
 - https://docs.llamaindex.ai/en/stable/ - framework documentation structure: RAG pipeline, agents, workflows, LlamaCloud
 - https://developers.llamaindex.ai/python/framework/module_guides/loading/node_parsers/modules/ - CodeSplitter (tree-sitter) and Chunker (Chonkie) node parsers
 - https://www.llamaindex.ai/pricing - LlamaParse tiers, credit pricing, VPC and compliance options, as of 2026-10-03

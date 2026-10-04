@@ -1,7 +1,7 @@
 ---
 title: OpenCode Zen
 created: 2026-09-26
-updated: 2026-09-29
+updated: 2026-10-04
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, model-access, ai-gateway, pay-per-use]
 readability: 3
@@ -27,7 +27,7 @@ The Reddit thread "Opencode Zen is astoundingly more expensive than OpenRouter" 
 ## Strengths
 
 - Every endpoint is benchmarked for coding-agent use, so you avoid badly served providers.
-- A stable of free models (Big Pickle, Space Bunny Free, MiMo-V2.6-Flash Free, Nemotron 3 Ultra Free, among ten free rows) with documented data caveats.
+- A stable of free models (Big Pickle, Space Bunny Free, MiMo-V2.6-Flash Free, Nemotron 3 Ultra Free, among twelve free rows) with documented data caveats.
 - Markups are claimed to be zero beyond pass-through processing fees (4.4% + $0.30 per card transaction).
 - US-hosted with zero-retention on most models, exceptions listed per model.
 - Same balance backs the Go subscription's overflow, and the key works from any agent.
@@ -43,7 +43,7 @@ The Reddit thread "Opencode Zen is astoundingly more expensive than OpenRouter" 
 
 Pay-as-you-go per 1M tokens, as of 2026-10-02: GLM-5.3 $1.40/$4.40, GLM-5.3-Flash $0.15/$0.50, Kimi K3 $3/$15, Qwen3.7 Plus $0.40/$1.60, DeepSeek V4.1 Flash $0.30/$1.20, MiniMax M3 $0.30/$1.20.
 Frontier lines: Claude Sonnet 5 $2/$10, Claude Opus 5.5 $4/$20, Claude Fable 5.1 $10/$50, GPT 5.5 $5/$30, GPT 6 Astra $10/$50, GPT 6 Sol $2/$10, GPT 6.1 Sol $2/$10, Gemini 3.8 Flash $1.50/$7.50, Grok 4.7 $2/$6, with long-context surcharge tiers documented per model.
-Jev 1.13 charges $0.042 per input with free output, and ten models are free including the Big Pickle and Space Bunny stealth models, all for a limited time.
+Jev 1.13 charges $0.042 per input with free output, and twelve models are free including the Big Pickle and Space Bunny stealth models, all for a limited time.
 Auto-reload charges $20 when the balance falls below $5, and OpenCode itself uses low-cost models to generate session titles on your bill.
 
 ## Price history
@@ -68,6 +68,7 @@ My disagreeable claim: the curation premium is worth paying only when a mis-serv
 
 - 2026-09-26 - Created.
 - 2026-09-29 - Catalog check: the free roster grew from nine to ten models (LongCat 2.5 Preview Free joined), Claude Fable 5.1 and the GPT 6 line appeared on the price table, and the docs republished 2026-09-28; every previously listed per-token rate is unchanged.
+- 2026-10-04 - Free roster moved from ten to twelve models on the live price table (Fledge Alpha Free newly listed as limited-time); every per-token rate re-verified unchanged.
 
 ## See also
 

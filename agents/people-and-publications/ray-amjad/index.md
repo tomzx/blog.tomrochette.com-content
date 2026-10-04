@@ -16,15 +16,15 @@ Ray Amjad is an engineer-educator (ex-YC technical founder, Cambridge physics) w
 
 ## What it is
 
-A YouTube channel (49.8K subscribers as of 2026-09-24) run by Ray Amjad, who builds agent-first software under his holding company 21 Dreams (AgentStack, Impello AI, and the open-source HyperWhisper).
+A YouTube channel (50K subscribers as of 2026-10-04) run by Ray Amjad, who builds agent-first software under his holding company 21 Dreams (AgentStack, Impello AI, and the open-source HyperWhisper).
 Coverage is Claude Code centric: hooks, forked and nested subagents, output styles, dynamic workflows, and the monitor tool, each explained with a working demo within days of release, plus concept videos on loop engineering and verification.
 Every description states that he has never accepted a sponsor and that his own products keep the channel running.
 The funnel is agenticcoding.school: a two-week Agent-Era Engineer cohort (237 lessons, next run 2026-09-28 to 2026-10-09), evergreen Claude Code and Codex classes, company training, and consulting.
 
 ## Status
 
-Active and growing as of 2026-09-24.
-The channel was created 2019-08-09 and shows 49.8K subscribers; the RSS feed shows 15 uploads between 2026-04-09 and 2026-09-18, a steady two to three per month with bursts around Anthropic releases.
+Active and growing as of 2026-10-04.
+The channel was created 2019-08-09 and shows 50K subscribers; the uploads tab shows no upload newer than "Jev + Claude Code = The Cheapest Agentic Coding Loop Yet" (2026-09-18), after 15 uploads between 2026-04-09 and 2026-09-18 while the channel's RSS feed was live, a steady two to three per month with bursts around Anthropic releases (the RSS feed began returning 404 this run).
 Reach is concentrated and rising: "Jev + Claude Code = The Cheapest Agentic Coding Loop Yet" (2026-09-18) passed 150,259 views within a week, the Opus 5 output-styles video passed 102,888, and typical uploads run 10,000 to 46,000.
 His cohort page claims 4,000+ engineers taught and 5,000+ hours in Claude Code and Codex, self-reported figures I found nowhere else.
 
@@ -74,8 +74,8 @@ Not for someone who wants vendor-agnostic coverage, or who minds that the demos 
 
 ## References
 
-- https://www.youtube.com/@RAmjad - the channel: identity and 49.8K subscribers as of 2026-09-24
-- https://www.youtube.com/feeds/videos.xml?channel_id=UCLA7cJBnqr0nLF2bQBD9uUg - the RSS feed grounding cadence, titles, dates, view counts, the no-sponsor statement, and the 2019-08-09 channel creation
+- https://www.youtube.com/@RAmjad - the channel: identity and 50K subscribers as of 2026-10-04
+- https://www.youtube.com/feeds/videos.xml?channel_id=UCLA7cJBnqr0nLF2bQBD9uUg - the RSS feed that grounded cadence, titles, dates, view counts, the no-sponsor statement, and the 2019-08-09 channel creation through 2026-09-18 (it began returning 404 on 2026-10-04; the uploads tab replaces it)
 - https://www.rayamjad.com/ - the personal site: 21 Dreams studio, consulting, and company registration
 - https://github.com/ray-amjad - the GitHub profile (Tokyo) whose pinned repos match the video-description links, closing the identity loop
 - https://www.agenticcoding.school/cohort - the cohort page: positioning claims, syllabus, products, and the commercial model

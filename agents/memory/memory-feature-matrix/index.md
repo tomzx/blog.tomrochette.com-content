@@ -1,7 +1,7 @@
 ---
 title: "Memory Feature Matrix"
 created: 2026-08-24
-updated: 2026-10-03
+updated: 2026-10-04
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, comparison, memory, agent-memory, ai-agents]
 readability: 3
@@ -10,7 +10,7 @@ audience_notes: >
   Assumes you know what a knowledge graph, BYOK, and MCP mean; each column links to a full note with sources.
 ---
 
-This matrix compares the ten memory approaches profiled in this section, feature by feature: the two file-rooted members (the file convention and the knowledge base that productizes it), the session-compression plugin, the cross-model episodic memory engine, the memory-first harness, the two memory APIs, the self-hostable graph pipeline, the portable memory format, and the meta-learning layer that trains on conversations.
+This matrix compares the eleven memory approaches profiled in this section, feature by feature: the two file-rooted members (the file convention and the knowledge base that productizes it), the session-compression plugin, the cross-model episodic memory engine, the memory-first harness, the three memory APIs, the self-hostable graph pipeline, the portable memory format, and the meta-learning layer that trains on conversations.
 
 **For coding agents I would start with plain files and not buy any service on benchmark claims, because the only memory problem files cannot solve at any price is contradiction over time, and Zep is the only vendor whose architecture faces it head on.**
 
@@ -19,27 +19,27 @@ Each column links to the full research note; every cell below traces to a source
 
 ## The matrix
 
-| Feature | [Cabinet](../cabinet/index.md) | [claude-mem](../claude-mem/index.md) | [Cognee](../cognee/index.md) | [Engrim](../engrim/index.md) | [File-based agent memory](../file-based-agent-memory/index.md) | [Letta](../letta/index.md) | [mem0](../mem0/index.md) | [Memoryfields](../memoryfields/index.md) | [MetaClaw](../metaclaw/index.md) | [Zep](../zep/index.md) |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Kind | self-hosted knowledge base and scheduled agent team over markdown files | local plugin, engine plus cloud | OSS platform, library plus cloud | local engine, CLI plus hooks and MCP | convention, no vendor | platform, harness plus cloud | hosted service, self-hostable | open file format, spec plus tooling | meta-learning layer over OpenClaw-family assistants, skills plus scheduled RL | hosted service, enterprise |
-| Memory model | markdown files and folders on disk, the knowledge base doubles as agent memory | compressed observations, SQLite FTS5 plus optional vectors | graph plus vector plus relational | curated episodic records, SQLite FTS5 plus model2vec vectors, 4,000-char boot pack | plain markdown files | editable memory blocks, learned | vector plus graph plus KV | flat markdown pages plus optional SQLite vector index | incrementally extracted turns plus cross-session Contexture facts injected into prompts | temporal knowledge graph |
-| Self-host | ✓ free self-host, complete product locally | ✓ fully local by default | ✓ full engine, BYO backends | ✓ fully local, one SQLite file | ✓ no infra needed | ~ V1 server archived | ✓ OSS SDK and server | ✓ fully local, it is just files | ✓ runs locally beside the wrapped harness | ~ Graphiti engine only |
-| Open source license | ✓ MIT | ✓ Apache-2.0 | ✓ Apache-2.0, whole engine | ✓ MIT, whole engine | ~ memU Apache-2.0 | ✓ Apache-2.0 | ✓ Apache-2.0 | ✓ AGPL-3.0 tool, MIT skill and spec | ✓ MIT | ~ Graphiti Apache-2.0 |
-| Contradiction and decay handling | ~ source history on operating views, no automated decay or contradiction pass | ~ summaries and compaction | ~ bi-temporal memory on Enterprise BYOC only | ~ manual supersede, merge resolution, opt-in prune | ✗ manual pruning | ~ sleep-time consolidation | ~ Dream, temporal retrieval | ~ page status flags for outdated memories, no temporal model | ~ support/query separation against stale rewards, no contradiction detector | ✓ bi-temporal invalidation |
-| Cross-user, cross-app memory | ~ one shared team workspace, not per-user or per-app memory APIs | ✗ machine-local, cloud sync optional | ✓ documented multi-user mode | ~ cross-CLI on one machine, merge for multi-machine, not cross-user | ✗ machine-local, per-repo | ~ agent-scoped persistence | ✓ apps and thousands of users | ~ corpus is transport-portable (S3, git, HTTP), single-corpus | ~ per-user and per-project context, scoped to the wrapped claws | ✓ millions of per-user graphs |
-| Integration surface | web workspace, onboarding wizard, Drive, Gmail, Slack, Notion connectors | hooks, MCP, skills, 8+ agents | Python/TS/Rust SDKs, MCP, HTTP, CLI | hooks, MCP, CLI, skills, 7 agent CLIs | file conventions, native everywhere | SDK, CLI, cloud API | API, MCP, CLI, skills | skill, CLI, any file transport | CLI, OpenClaw extension, Tinker/MinT RL backends | API, MCP, plugins |
-| Audit trail | ~ document source history visible in the UI, no formal audit log | ~ queryable observation store | ? | ~ origin-agent provenance and flight-recorder log | ~ git diffs only | ~ inspectable blocks | ? | ~ readable pages, sha256-pinnable, no provenance | ~ conversation transcripts persist, no audit log | ✓ fact-to-episode provenance |
-| Pricing model | free self-host; Cloud Pro $20/mo and Max $49/mo waitlist, Cabinet AI from $10/mo | free local, $20/mo cloud, $333/seat team | OSS free, cloud $1.00 per 1M tokens plus $5 per workspace | free, MIT, no hosted tier | free | free BYOK, $20/mo, per-agent metering | freemium, $19 to $249/mo | free | free OSS; RL mode bills the Tinker or MinT training API | credits, $104/mo entry |
-| Lock-in risk | low, files on disk with a documented export path | low-medium, SQLite local, cloud optional | low, engine is portable | low, plain SQLite file, bus factor one | none, plain text | medium, pivot churn | medium, paid-only brain | none, plain text zip | moderate, value concentrated in the wrapper, harnesses run without it | high, managed engine core |
+| Feature | [Cabinet](../cabinet/index.md) | [claude-mem](../claude-mem/index.md) | [Cognee](../cognee/index.md) | [Engrim](../engrim/index.md) | [File-based agent memory](../file-based-agent-memory/index.md) | [Letta](../letta/index.md) | [mem0](../mem0/index.md) | [Memoryfields](../memoryfields/index.md) | [MetaClaw](../metaclaw/index.md) | [Supermemory](../supermemory/index.md) | [Zep](../zep/index.md) |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Kind | self-hosted knowledge base and scheduled agent team over markdown files | local plugin, engine plus cloud | OSS platform, library plus cloud | local engine, CLI plus hooks and MCP | convention, no vendor | platform, harness plus cloud | hosted service, self-hostable | open file format, spec plus tooling | meta-learning layer over OpenClaw-family assistants, skills plus scheduled RL | hosted memory API plus MIT local binary | hosted service, enterprise |
+| Memory model | markdown files and folders on disk, the knowledge base doubles as agent memory | compressed observations, SQLite FTS5 plus optional vectors | graph plus vector plus relational | curated episodic records, SQLite FTS5 plus model2vec vectors, 4,000-char boot pack | plain markdown files | editable memory blocks, learned | vector plus graph plus KV | flat markdown pages plus optional SQLite vector index | incrementally extracted turns plus cross-session Contexture facts injected into prompts | extracted facts, user profiles, and RAG chunks in one graph-backed store, contradictions resolved and stale facts expired | temporal knowledge graph |
+| Self-host | ✓ free self-host, complete product locally | ✓ fully local by default | ✓ full engine, BYO backends | ✓ fully local, one SQLite file | ✓ no infra needed | ~ V1 server archived | ✓ OSS SDK and server | ✓ fully local, it is just files | ✓ runs locally beside the wrapped harness | ✓ local binary (MIT), same API as the platform; Scale adds a self-host option | ~ Graphiti engine only |
+| Open source license | ✓ MIT | ✓ Apache-2.0 | ✓ Apache-2.0, whole engine | ✓ MIT, whole engine | ~ memU Apache-2.0 | ✓ Apache-2.0 | ✓ Apache-2.0 | ✓ AGPL-3.0 tool, MIT skill and spec | ✓ MIT | ✓ MIT | ~ Graphiti Apache-2.0 |
+| Contradiction and decay handling | ~ source history on operating views, no automated decay or contradiction pass | ~ summaries and compaction | ~ bi-temporal memory on Enterprise BYOC only | ~ manual supersede, merge resolution, opt-in prune | ✗ manual pruning | ~ sleep-time consolidation | ~ Dream, temporal retrieval | ~ page status flags for outdated memories, no temporal model | ~ support/query separation against stale rewards, no contradiction detector | ~ documented auto-resolution and expiry, vendor-claimed | ✓ bi-temporal invalidation |
+| Cross-user, cross-app memory | ~ one shared team workspace, not per-user or per-app memory APIs | ✗ machine-local, cloud sync optional | ✓ documented multi-user mode | ~ cross-CLI on one machine, merge for multi-machine, not cross-user | ✗ machine-local, per-repo | ~ agent-scoped persistence | ✓ apps and thousands of users | ~ corpus is transport-portable (S3, git, HTTP), single-corpus | ~ per-user and per-project context, scoped to the wrapped claws | ✓ hosted multi-user by design, tens of millions of end users claimed | ✓ millions of per-user graphs |
+| Integration surface | web workspace, onboarding wizard, Drive, Gmail, Slack, Notion connectors | hooks, MCP, skills, 8+ agents | Python/TS/Rust SDKs, MCP, HTTP, CLI | hooks, MCP, CLI, skills, 7 agent CLIs | file conventions, native everywhere | SDK, CLI, cloud API | API, MCP, CLI, skills | skill, CLI, any file transport | CLI, OpenClaw extension, Tinker/MinT RL backends | TS and Python SDKs, REST, hosted MCP, CLI plugins, skills | API, MCP, plugins |
+| Audit trail | ~ document source history visible in the UI, no formal audit log | ~ queryable observation store | ? | ~ origin-agent provenance and flight-recorder log | ~ git diffs only | ~ inspectable blocks | ? | ~ readable pages, sha256-pinnable, no provenance | ~ conversation transcripts persist, no audit log | ? | ✓ fact-to-episode provenance |
+| Pricing model | free self-host; Cloud Pro $20/mo and Max $49/mo waitlist, Cabinet AI from $10/mo | free local, $20/mo cloud, $333/seat team | OSS free, cloud $1.00 per 1M tokens plus $5 per workspace | free, MIT, no hosted tier | free | free BYOK, $20/mo, per-agent metering | freemium, $19 to $249/mo | free | free OSS; RL mode bills the Tinker or MinT training API | credits (SM tokens), free tier, $19 to $399/mo | credits, $104/mo entry |
+| Lock-in risk | low, files on disk with a documented export path | low-medium, SQLite local, cloud optional | low, engine is portable | low, plain SQLite file, bus factor one | none, plain text | medium, pivot churn | medium, paid-only brain | none, plain text zip | moderate, value concentrated in the wrapper, harnesses run without it | medium, MIT local binary and same-API exit, proprietary metering | high, managed engine core |
 
 ## Reading the matrix
 
-**The Kind row is really an architecture row: the five non-convention members each put memory in a different place, beside the agent as a plugin (claude-mem) or a cross-model engine (Engrim), inside the harness (Letta), beside it as an API (Mem0), or under it as governed infrastructure (Zep), and the convention puts it in your repo.**
+**The Kind row is really an architecture row: the non-convention members each put memory in a different place, beside the agent as a plugin (claude-mem) or a cross-model engine (Engrim), inside the harness (Letta), beside it as an API (Mem0 or Supermemory), or under it as governed infrastructure (Zep), and the convention puts it in your repo.**
 That placement decision drives every other row, from integration surface to lock-in.
 **Memoryfields is the new extremum on the same axis: it removes the architecture entirely by shipping memory as a spec'd data format, which is why its row is the cheapest and the thinnest at once.**
 
 **The contradiction row is the only one with a clean winner, and it is the row I would weight most.**
-Zep's bi-temporal invalidation marks old facts invalid instead of overwriting them; Mem0's April 2026 rewrite added entity linking and temporal retrieval, a convergence its own note reads as Zep validating the architecture first; Letta consolidates at sleep time; files just rot, and conflicting rules get resolved arbitrarily.
+Zep's bi-temporal invalidation marks old facts invalid instead of overwriting them; Mem0's April 2026 rewrite added entity linking and temporal retrieval, a convergence its own note reads as Zep validating the architecture first; Supermemory claims automatic resolution and expiry, but at README level, and the one independent run I found scored it below plain BM25 on LoCoMo at a matched budget; Letta consolidates at sleep time; files just rot, and conflicting rules get resolved arbitrarily.
 
 **The file column wins every row it appears in on price, and loses exactly two: cross-user memory and audit.**
 Auto memory is machine-local and per-repository, so the moment memory must follow users across apps and machines, the free option drops out, which is the precise boundary where the services earn their keep.
@@ -50,13 +50,14 @@ Letta's 25.0k-star repo is a landing page with the V1 server archived unsupporte
 **Cognee and Engrim are the exceptions the row now proves: Cognee's entire engine is Apache-2.0 with no paid-only core, and Engrim is MIT over a plain SQLite file, which is why their lock-in cells are the only lows among the tools.**
 **The only column with no gap between what is open and what runs is the convention, because there is nothing to close.**
 
-**Pricing spreads from zero to $104/month at entry, a 5.5x gap between the two services at their first paid tier, and what the premium buys is governance (provenance, access control, compliance), not memory quality.**
-Mem0's $19 Starter undercuts everyone; Zep's credit metering prices the audit trail, not the tokens.
+**Pricing spreads from zero to $104/month at entry, and the three hosted services bracket each other: Mem0 and Supermemory both start at $19, Zep at $104, a 5.5x gap between cheapest and priciest first paid tier, and what the premium buys is governance (provenance, access control, compliance), not memory quality.**
+Supermemory meters every layer in its own SM tokens; Mem0's $19 Starter undercuts everyone at the low end; Zep's credit metering prices the audit trail, not the tokens.
 
 ## Choosing from the matrix
 
 - Coding agent in one repo, one machine: write the AGENTS.md/CLAUDE.md pair, prune monthly, pay nothing.
 - User-facing personalization across apps and thousands of users: Mem0, accepting a managed dependency.
+- The same job with the engine runnable on your own disk and benchmark tooling included: Supermemory, after running its MemoryBench on your own workload.
 - Facts change over time (preferences, roles, prices) and "why did the agent say that" needs an auditable answer: Zep.
 - Always-on agents that must accumulate a self, or you want to hack on where memory is going: Letta, or steal its memory-block and sleep-time patterns into a harness you already run.
 - Must self-host everything: Cognee (the whole engine runs on your backends), files, or Mem0 OSS, or Graphiti plus your own graph database if you can operate one.
@@ -78,6 +79,7 @@ Mem0's $19 Starter undercuts everyone; Zep's credit metering prices the audit tr
 - 2026-09-24 - Removed the verification preamble line on owner request.
 - 2026-10-02 - Extended from eight to ten columns with Cabinet (the markdown-file knowledge base with a scheduled agent team) and MetaClaw (the meta-learning layer over OpenClaw-family assistants), inserted in sorted position, traced both columns to the new notes, and updated the intro count and list.
 - 2026-10-03 - Moved the MetaClaw column to its case-insensitive sorted position between Memoryfields and Zep (the 2026-10-02 insert had placed it after Cabinet); no cell values moved, and the Engrim reference's star figure was refreshed.
+- 2026-10-04 - Extended from ten to eleven columns with Supermemory (the benchmark-forward memory API with an MIT local binary), inserted in sorted position between MetaClaw and Zep and traced to the new note; the intro, reading, and choosing sections updated for the third hosted column.
 
 ## See also
 
@@ -108,3 +110,5 @@ Mem0's $19 Starter undercuts everyone; Zep's credit metering prices the audit tr
 - https://raw.githubusercontent.com/timgordontg/engrim/main/README.md - Engrim architecture, provenance, CLI surface, and security notes
 - https://pypi.org/pypi/engrim/json - Engrim release history and license for the Engrim column
 - https://hn.algolia.com/api/v1/items/49594008 - the Engrim launch thread: traction and the in-repo-docs counterpoint
+- https://github.com/supermemoryai/supermemory - the Supermemory column: engine architecture, local binary, MIT license, adoption (as of 2026-10-04)
+- https://supermemory.ai/pricing - Supermemory plan ladder and SM-token metering for the pricing row (as of 2026-10-04)

@@ -24,7 +24,7 @@ He also built the field's independent yardstick: the polyglot leaderboard of 225
 ## Status
 
 **Development stalled; the writing and the tool still matter.**
-The repo shows 49.3k stars, 5.0k forks, and 13,138 commits as of 2026-10-02, and his site claims 6.8M installs and 15B tokens processed per week.
+The repo shows 49.4k stars, 5.0k forks, and 13,138 commits as of 2026-10-04, and his site claims 6.8M installs and 15B tokens processed per week.
 Per the section's aider note and the repo, the default branch has had no commits since May 22, 2026, and the last tagged release is v0.86.0 from August 2025.
 The release history tells the story: v0.86.0 notes that aider itself wrote 88% of its code (the usual share is 70 to 80 percent), and the main-branch notes (Claude 4.5/4.6 and GPT-5.x support) never shipped as a tagged release.
 The polyglot leaderboard is still published, but its newest dated submissions are from October 2025.
@@ -77,7 +77,7 @@ Not for teams that need an actively maintained tool or current-model guidance, a
 ## References
 
 - https://aider.chat/ - homepage: features, install and token stats as of 2026-09-24
-- https://github.com/Aider-AI/aider - repository scale, license, and commit count as of 2026-09-24
+- https://github.com/Aider-AI/aider - repository scale, license, and commit count as of 2026-10-04
 - https://aider.chat/2023/10/22/repomap.html - his repo map essay
 - https://aider.chat/docs/repomap.html - the repo map documentation he maintains
 - https://aider.chat/HISTORY.html - release history: v0.86.0 (August 2025), self-written code percentages, unshipped main-branch work

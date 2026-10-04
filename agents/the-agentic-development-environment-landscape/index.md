@@ -1,7 +1,7 @@
 ---
 title: "The Agentic Development Environment Landscape"
 created: 2026-07-04
-updated: 2026-09-29
+updated: 2026-10-04
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.2, llm=glm-5.3-flash, ade, landscape, orchestration, opencode, claude-code, jetbrains]
 readability: 3
@@ -13,7 +13,7 @@ agent_sessions:
 
 The terminal coding agent answered the question of whether an AI can edit a real repository.
 The next problem is harder: how do you run several of them, watch what they are doing, and keep them from colliding on the same files.
-In the space of roughly a year, **a new product category has condensed around exactly that problem**, picked up a name (the Agentic Development Environment, or ADE), earned its own [GitHub topic](https://github.com/topics/ade), and produced a leaderboard anyone evaluating tools should know about.
+In the space of roughly a year, **a new product category has condensed around exactly that problem**, picked up a name (the Agentic Development Environment, or ADE), earned its own [GitHub topic](https://github.com/topics/ade), and produced a leaderboard anyone evaluating tools should know about; live product claims below were re-verified on 2026-10-04.
 
 ## What an ADE is, and what it is not
 
@@ -55,7 +55,7 @@ JetBrains killed Fleet in late 2025 and replaced it with Air, an agentic develop
 Air is a standalone desktop application, not an IntelliJ plugin, and it supports Codex, Claude Agent, Gemini CLI, and Junie out of the box.
 Its distinguishing bet is code intelligence: because it inherits 26 years of IDE work, you can scope a task by referencing a specific class, method, or commit, and review changes against the whole codebase rather than a bare diff.
 It is also closed-source and tied to a JetBrains AI subscription or bring-your-own-key, which is the cleanest point of contrast with the open-source entrants.
-**Notably, Air does not list OpenCode among its supported agents, which leaves a seam for OpenCode-native tools.**
+**The seam I flagged in the first draft has closed: Air's site now lists OpenCode among its supported agents, alongside Claude Agent, Codex, Junie, Copilot, and anything connectable via ACP, so agent-agnostic coverage is no longer a differentiator anyone can own.**
 
 [Orca](https://github.com/stablyai/orca) is the open-source ADE with the most feature surface and the clearest mobile story.
 It runs any CLI agent on macOS, Windows, and Linux, ships an iOS and Android companion app for monitoring agents from your phone, and adds the kind of polish that comes from daily shipping: Ghostty-class terminals, a Design Mode that ships a clicked DOM element straight into an agent prompt, native GitHub and Linear boards, and SSH worktrees for running agents on a remote box.
@@ -92,8 +92,9 @@ Both positions are defensible; the mistake is pretending to be both.
 
 The second axis is surface coverage.
 Desktop support is the minimum expectation; the real arguments are about mobile, web, and remote.
-Orca, Paseo, and OpenChamber all treat "start at your desk, check in from your phone" as a first-class story, while Air is desktop-only as of mid-2026 and has said cloud execution is coming.
-For anyone who wants to steer agents from outside the office, the mobile and tunnel story is not a nice-to-have; it is the feature.
+Orca, Paseo, and OpenChamber all treat "start at your desk, check in from your phone" as a first-class story.
+Air closed much of that gap between my mid-2026 snapshot and the 2026-10-04 re-check: its site now advertises IDE, web, CLI, and mobile surfaces, and says cloud runs are already available to some customers in JetBrains IDEs and the browser.
+For anyone who wants to steer agents from outside the office, the mobile and tunnel story is not a nice-to-have; it is the feature, and it is no longer open-source-only territory.
 
 The third axis is license and pricing, and it splits the field cleanly.
 The open-source tools (Superset, Orca, Emdash; Paseo under AGPL; OpenChamber under MIT) cost nothing and run against your own provider keys.
@@ -106,7 +107,7 @@ Every ADE picks one or two of these as primary, and the choice constrains everyt
 
 The fifth axis is protocol.
 ACP is the only credible interop standard, and a tool built on it can claim vendor-neutrality with a straight face; a tool that talks to each agent through its own SDK can be equally capable but has to maintain N integrations and inherits N sets of breakage.
-Whether OpenCode gains an ACP adapter is one of the more consequential questions for the OpenCode-native niche.
+The question this piece originally asked, whether OpenCode would gain an ACP adapter, resolved: OpenCode ships one ([`opencode acp`](https://opencode.ai/docs/acp/)), so an ACP-speaking control room hosts it next to Claude Code and Codex unchanged.
 
 The sixth axis is code intelligence depth, and it is where Air's IDE lineage shows.
 Symbol-aware task scoping (reference a class, not a file path) and whole-codebase review are real productivity gains, and most of the open-source ADEs offer only diff review today.
@@ -124,8 +125,8 @@ The risk is that ACP makes agent-neutrality cheap enough that "agnostic" stops b
 ## What to watch
 
 Three things will move this category over the next year.
-The first is ACP adoption: if OpenCode ships an ACP adapter, the line between agent-native and agent-agnostic blurs fast, and the agnostic tools gain OpenCode support for free.
-The second is Air on Linux and mobile: JetBrains closing those gaps removes the surface-coverage argument that the open-source tools currently win on.
+The first is ACP adoption: with OpenCode shipping an adapter and Air accepting ACP agents, the line between agent-native and agent-agnostic blurs fast, and the surviving differentiator is integration depth rather than breadth.
+The second is Air's platform and cloud rollout: mobile and web are on the page now, so the remaining questions are Linux desktop and how far cloud runs reach beyond "some customers".
 The third is whether the mid-tier consolidates or whether one of Kandev, Pane, agent-os, or agent-orchestrator breaks into the top flight, because the category is small enough that a single breakout reshapes the leaderboard.
 
 The safer prediction is the structural one.
@@ -138,6 +139,7 @@ The ADE is not a passing fashion; it is the productized answer to a real bottlen
 - 2026-09-27 - Moved into the agents section at the owner's instruction and published: draft and type markers dropped, link depths fixed for the section root, the leaderboard framed as the mid-2026 snapshot it is, and cross-links added to the Orchestration category that tracks the live membership.
 - 2026-09-27 - Fixed two malformed See also bullets (stray leading dashes) and re-verified every external link.
 - 2026-09-29 - Link check: repointed JetBrains Air to jetbrains.com/air after air.dev began redirecting, followed the agent-orchestrator and Pane repository transfers (Untrivial-ai and greenfield-inc), and cleared the stale 429 notes on the two GitHub topic references (both fetched 200).
+- 2026-10-04 - Added the as-of clause to the intro and corrected three stale claims against the re-fetched JetBrains Air and OpenCode pages: Air now lists OpenCode and ACP connectivity among its supported agents (the old seam is closed), Air advertises IDE, web, CLI, and mobile surfaces with cloud runs in rollout (no longer desktop-only), and OpenCode has shipped its ACP adapter, resolving the protocol-axis question.
 
 ## See also
 
@@ -166,3 +168,4 @@ The ADE is not a passing fashion; it is the productized answer to a real bottlen
 - [andyrewlee/awesome-agent-orchestrators](https://github.com/andyrewlee/awesome-agent-orchestrators) - curated list for tracking the long tail
 - [GitHub topic: ade](https://github.com/topics/ade) - the topic page that maps the category (fetched 200, 2026-09-29)
 - [GitHub topic: parallel-agents](https://github.com/topics/parallel-agents) - the broader orchestration topic (fetched 200, 2026-09-29)
+- [OpenCode ACP documentation](https://opencode.ai/docs/acp/) - the shipped adapter that resolved the protocol-axis question (fetched 200, 2026-10-04)

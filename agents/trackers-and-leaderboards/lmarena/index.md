@@ -1,7 +1,7 @@
 ---
 title: LMArena
 created: 2026-09-24
-updated: 2026-09-24
+updated: 2026-10-04
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, trackers-and-leaderboards, evaluation, leaderboards, human-feedback]
 readability: 3
@@ -19,7 +19,7 @@ LMArena ranks AI models by blind human preference votes: two anonymous models an
 A website (lmarena.ai), a family of leaderboards (Agent Overall, Text, WebDev, Image, Video, Vision, Document, Search), a WebDev arena (web.lmarena.ai), a blog, and open methodology repositories, run by Arena Intelligence Inc., the company that grew out of the UC Berkeley and LMSYS Chatbot Arena project.
 The founding paper (arXiv:2403.04132, March 2024) describes the pairwise crowdsourcing method and 240K+ votes at the time; the leaderboard methodology source is published as the `arena-rank` repository, pushed August 2026.
 The company raised $100M at a $600M valuation in May 2025, led by Andreessen Horowitz and UC Investments, and labs including OpenAI, Google, and Anthropic partner with it to put flagship models in front of voters.
-Recent product motion includes AutoEval scores added to the leaderboards (to complement slowly collected human votes), agent leaderboard categories with task costs (August 2026), and a HarnessTax research post (September 2026).
+Recent product motion includes AutoEval scores added to the leaderboards (to complement slowly collected human votes), agent leaderboard categories with task costs (August 2026), a HarnessTax research post (September 2026), and an October 2026 research post that post-trains a text-to-image model on 5 million Arena preference votes plus rubric rewards, which is direct evidence for the training-asset claim below.
 
 ## Status
 
@@ -61,6 +61,7 @@ My disagreeable claim: the leaderboard is the least valuable thing the arenas pr
 
 - 2026-09-24 - Created.
 - 2026-09-26 - Removed the "Facts below verified as of" stamp per owner policy; the site is a client-rendered app, so vote and model counts beyond the founding paper's figures could not be read from its HTML.
+- 2026-10-04 - Added the 2026-10-02 research post on post-training text-to-image models with 5 million Arena preference votes to the product-motion record, the first documented case of the vote stream training a model.
 
 ## See also
 
@@ -73,7 +74,7 @@ My disagreeable claim: the leaderboard is the least valuable thing the arenas pr
 ## References
 
 - https://lmarena.ai/ - homepage meta: blind comparison, vote-driven leaderboards across text, image, and code (fetched 200, 2026-09-24)
-- https://blog.lmarena.ai/ - Arena Intelligence Inc. identity, leaderboard families, 2026 post dates (fetched 200, 2026-09-24)
+- https://blog.lmarena.ai/ - Arena Intelligence Inc. identity, leaderboard families, and 2026 post dates including the 2026-10-02 post-training research post (fetched 200, 2026-10-04)
 - https://blog.lmarena.ai/how-it-works/ - the vote flow and identity reveal procedure (fetched 200, 2026-09-24)
 - https://arxiv.org/abs/2403.04132 - the founding paper: method and 240K+ votes (fetched 200, 2026-09-24)
 - https://arxiv.org/abs/2504.20879 - The Leaderboard Illusion: private testing, 27 Meta variants, sampling asymmetries (fetched 200, 2026-09-24)

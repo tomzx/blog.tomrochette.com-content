@@ -1,7 +1,7 @@
 ---
 title: Open Swarm
 created: 2026-09-27
-updated: 2026-10-02
+updated: 2026-10-04
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, llm=glm-5.3-flash, orchestration, mission-control, human-in-the-loop, worktrees]
 readability: 3
@@ -24,7 +24,7 @@ It currently targets macOS; Windows and Linux builds are documented as planned.
 
 ## Status
 
-Active but small: about 824 stars and 171 forks as of 2026-10-02, created 2026-03-13, with development through 2026-10-02.
+Active but small: about 825 stars and 171 forks as of 2026-10-04, created 2026-03-13, with development through 2026-10-02.
 The current release line is explicitly experimental (v1.8.0-exp.5 on 2026-10-02, after exp.4 on 2026-09-29, exp.3 on 2026-09-28, and exp.2 on 2026-09-23), with a stable v1.7.11 before it.
 **The signal is a license inconsistency: the README and the curated directory call it MIT, but the repository's LICENSE file is AGPL-3.0 and GitHub's API reports AGPL-3.0, so the permissive badge is the one piece of documentation not to trust.**
 

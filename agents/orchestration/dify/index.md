@@ -1,7 +1,7 @@
 ---
 title: Dify
 created: 2026-09-29
-updated: 2026-10-03
+updated: 2026-10-04
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, multi-agent, workflow, low-code]
 readability: 3
@@ -10,7 +10,7 @@ audience_notes: >
   Assumes you know what a visual LLM workflow builder is and why the Flowise shutdown matters to the genre.
 ---
 
-Dify is LangGenius's open-source platform for building agentic workflows and RAG pipelines on a visual collaborative workspace, deployable on cloud, VPC, or self-hosted, and at 157,697 stars it is the largest repository in this category (GitHub API, as of 2026-10-02).
+Dify is LangGenius's open-source platform for building agentic workflows and RAG pipelines on a visual collaborative workspace, deployable on cloud, VPC, or self-hosted, and at 157,786 stars it is the largest repository in this category (GitHub API, as of 2026-10-04).
 
 **Scale is Dify's moat: it is the surviving giant of the visual LLM-workflow genre, the same genre whose weakest incumbent, Flowise, just archived itself.**
 
@@ -19,7 +19,7 @@ Dify is LangGenius's open-source platform for building agentic workflows and RAG
 A visual workflow studio plus knowledge pipeline, agent strategies, and a marketplace of tools and models, shipped as a TypeScript and Python application.
 Deployment is a choice of Dify Cloud (hosted SaaS), Enterprise (private deployment), or Community Edition (self-hosted with Docker).
 The license is a modified Apache 2.0: commercial use is allowed, but multi-tenant SaaS and some other conditions require a commercial license from LangGenius, which is why GitHub reports NOASSERTION.
-The repo sits at 157,697 stars with 24,878 forks, created 2023-04-12 (GitHub API, as of 2026-10-02).
+The repo sits at 157,786 stars with 24,900 forks, created 2023-04-12 (GitHub API, as of 2026-10-04).
 
 ## Status
 

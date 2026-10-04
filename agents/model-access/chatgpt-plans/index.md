@@ -1,7 +1,7 @@
 ---
 title: ChatGPT plans
 created: 2026-09-26
-updated: 2026-10-02
+updated: 2026-10-04
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, model-access, subscriptions, codex, openai]
 readability: 3
@@ -22,7 +22,7 @@ The GPT-6 lineup (Astra, Sol, Luna) carries the plans, with GPT-6.1 Sol added to
 
 ## Status
 
-Active, with the developer pricing page fetched and current as of 2026-10-02, and the widest subscription reach of any vendor here.
+Active, with the developer pricing page fetched and current as of 2026-10-04, and the widest subscription reach of any vendor here.
 The 2026 lineup changed materially: Business replaced the Team plan on April 2, the same day Codex billing moved from per-message to token-based credits, and the Go tier appeared below Plus.
 The current GPT-6 lineup (Astra, Sol, Luna) carries the plans, with Sol and Luna launched 2026-09-22 per the [Model Selection guide](../../model-selection-for-coding-tasks/index.md) and already listed as included on Plus and Pro in the fetched plan documentation.
 By 2026-10-02 the Pro plan lists three price points ($100, $200, $500) and the page states Pro plans currently have no five-hour limit, with the published message-range tables now covering Plus and Standard Business only.
@@ -40,7 +40,7 @@ By 2026-10-02 the Pro plan lists three price points ($100, $200, $500) and the p
 - A practitioner's note from real engagements: two engineers on one shared window exhausted it by early afternoon, the April switch to credits changed budgeting for everyone.
 - Real-world cost lands near $100-$200 per active developer per month once usage is heavy, which is Pro territory, not Plus.
 - Speed configurations and fast mode multiply credit burn, so the same prompt costs differently depending on settings you may not remember touching.
-- The consumer pricing page blocks automated fetches (403 this run), so plan verification runs through the developer docs.
+- The consumer pricing page returned 200 to automated fetches this run but still renders its dollar figures client-side per region, so plan verification runs through the developer docs.
 
 ## Pricing
 
@@ -78,6 +78,7 @@ My disagreeable claim: the published message ranges are more concrete than Anthr
 
 - 2026-09-26 - Created when the owner asked why the Claude and OpenAI subscriptions were missing from this category.
 - 2026-10-02 - Pro gained a third tier at $500/month with GPT-6 Astra Ultrafast access, the page now states Pro plans have no five-hour limit (message ranges published for Plus and Standard Business only), and GPT-6.1 Sol joined the credit rate table; price history row appended.
+- 2026-10-04 - Consumer pricing page re-check: it now returns 200 to automated fetches (403 in earlier runs) while still rendering prices client-side; every plan price re-verified unchanged on the developer docs.
 
 ## See also
 
@@ -92,4 +93,4 @@ My disagreeable claim: the published message ranges are more concrete than Anthr
 - https://automationatlas.io/answers/chatgpt-codex-pricing-explained-2026 - the April 2 Business replacement, the credit-billing switch, Business seat pricing, the real-world cost range and shared-window practitioner note (fetched 200, updated 2026-07-31)
 - https://www.simplemetrics.xyz/chatgpt-codex-limits-2026 - independent limit analysis, the ranges-vs-fixed-caps framing, GPT-5.6 family tables (fetched via search extraction, updated 2026-09-09)
 - https://help.openai.com/en/articles/11481834-chatgpt-rate-card-business-enterpriseedu - the business credit rate card and the August 31 GPT-5.4 retirement note (linked from the fetched developer pricing page; not separately fetched)
-- https://chatgpt.com/pricing - the consumer plan page (403 to automated fetchers this run; plan prices verified through the developer docs instead)
+- https://chatgpt.com/pricing - the consumer plan page (200 as of 2026-10-04, client-side rendered; plan prices verified through the developer docs)

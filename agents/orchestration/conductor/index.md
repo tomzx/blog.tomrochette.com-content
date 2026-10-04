@@ -1,7 +1,7 @@
 ---
 title: Conductor
 created: 2026-08-24
-updated: 2026-10-03
+updated: 2026-10-04
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, orchestration, git-worktrees, macos]
 readability: 3
@@ -47,7 +47,7 @@ The team behind cmd joined in April 2026.
 
 Free for local, unlimited parallel agents with your own keys and subscriptions.
 Pro at $50/month adds cloud workspace hours, multiplayer, and the API; Teams at $60/user/month adds admin and billing; Enterprise is custom.
-Usage-based pricing for cloud compute is planned but not charged yet as of 2026-09-22.
+Usage-based pricing for cloud compute is planned but not charged yet as of 2026-10-04.
 
 ## Price history
 

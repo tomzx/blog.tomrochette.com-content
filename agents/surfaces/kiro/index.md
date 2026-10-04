@@ -1,7 +1,7 @@
 ---
 title: Kiro
 created: 2026-08-24
-updated: 2026-10-03
+updated: 2026-10-04
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, surfaces, ai-editors, aws]
 readability: 3
@@ -24,6 +24,8 @@ The default model router is Auto, mixing frontier and specialist models, with ex
 
 **Active and enterprise-ready.**
 The vendor changelog shows weekly releases, with the CLI at 2.27.0 (October 1, 2026, control over how V3 delegates when Workflows are enabled, live file and folder context in Steering, and saved prompts exposed as slash commands) above the 2.26.0 release of September 30 (opt-in Workflows for reusable multi-step tasks in V3, Classic migration guidance, and stricter V3 approval safeguards) above the 2.25.0 release of September 28 (Powers management from chat or the command line, V3 output styles, fullscreen scroll tuning, and a SessionEnd Hook) and the 2.24.0 release of September 23 (session-wide tool approval in V3, combined session dashboard controls, and environment isolation that stops project .env files auto-loading, after the 2.23.0 and 2.23.1 pair of September 21 to 23 with reasoning controls in /model and V3 cloud sessions that start before connecting a repository, and the 2.22.0 to 2.22.1 line of September 16 to 17, which added fullscreen chat and a streamlined session dashboard) and the IDE at 1.2.4 since September 30, 2026 (IDE Workflows, safeguards for untrusted workspaces, and enterprise sign-in controls), up from the 1.1.70 release of September 24 (configurable terminal timeouts, clickable file links, and Agent Focus session restore, continuing the 1.1 line that began September 14 with durable agent artifacts and native ARM64 builds, up from the 1.0.437 line of September 1, the same day Kiro Web reached general availability and Kiro came under AWS ISO/IEC 27001:2022 certification), while Crew 0.7.0 landed September 24, 2026 with live settings, durable queued work that survives Gateway restarts, pull request watches beyond GitHub (GitLab, Bitbucket Cloud, and Azure DevOps), OpenCode and goose agent backends, and AWS Fargate remote crews, building on Crew 0.6.0's September 5 session harness selection (Claude Code, Codex, or KAS); pricing, GovCloud availability, and enterprise billing through AWS are all shipped.
+On September 30, 2026 Workflows reached Kiro Web: opt-in reusable multi-step agent plans running in cloud sessions, with investigate, feature-pipeline, and publish-pr bundled recipes.
+On October 2, 2026 Claude Sonnet 5.5 joined the model list across the IDE, CLI, Crew, and Web for paid tiers in us-east-1 and eu-central-1, a 1M-token context window at a 1.3x credit multiplier, two days after CLI 2.27.0.
 The September 14 changelog also raised the GPT-5.6 family to a 1M context window, billed at double the short-context rate above 272K tokens.
 On September 16, 2026 the Claude Fable 5.1 Preview began rolling out to Kiro Enterprise clients: a 1M-context model billing at a 6x credit multiplier, with US-East-only inference and traffic retained up to 30 days for abuse detection.
 On September 28, 2026 Claude Opus 5.5 joined the model list across the IDE, CLI, Crew, and Web at a 2.0x credit multiplier, down from Opus 5's 2.2x.
@@ -80,6 +82,7 @@ Not for credit-averse solo engineers or anyone who wants an open client.
 - 2026-10-02 - Recorded CLI 2.26.0 (September 30, opt-in Workflows for reusable multi-step tasks in V3, Classic migration guidance, stricter V3 approval safeguards) as the new latest CLI release.
 - 2026-10-02 - Recorded the releases the 2.26.0 pass missed: CLI 2.25.0 (September 28, Powers management, V3 output styles, SessionEnd Hook), IDE 1.2.4 (September 30, IDE Workflows, untrusted-workspace safeguards, enterprise sign-in controls) as the new latest IDE, and the Claude Opus 5.5 model addition (September 28, 2.0x multiplier); prices unchanged.
 - 2026-10-03 - Recorded CLI 2.27.0 (October 1, control over how V3 delegates when Workflows are enabled, live file and folder context in Steering, saved prompts as slash commands) as the new latest CLI release; prices unchanged.
+- 2026-10-04 - Recorded Kiro Web Workflows (September 30, opt-in multi-step plans in cloud sessions with three bundled recipes) and the Claude Sonnet 5.5 model addition (October 2, 1M context, 1.3x multiplier, paid tiers, us-east-1 and eu-central-1); prices unchanged.
 
 ## See also
 
@@ -91,7 +94,7 @@ Not for credit-averse solo engineers or anyone who wants an open client.
 
 - https://kiro.dev/ - product surfaces, modes, hooks
 - https://kiro.dev/pricing/ - tiers, credits, model multipliers, enterprise and GovCloud terms, as of 2026-09-24
-- https://kiro.dev/changelog/ - the weekly release cadence, CLI 2.21.0 and Web GA and ISO certification on September 1, 2026, Crew 0.6.0 on September 5, IDE 1.1 with the GPT-5.6 1M-context upgrade on September 14, CLI 2.22.0 with the Claude Fable 5.1 Enterprise Preview on September 16, CLI 2.23.0 on September 21, the Web reasoning-effort update on September 22, CLI 2.23.1 and 2.24.0 on September 23, IDE 1.1.70 and Crew 0.7.0 on September 24, Crew patches 0.7.1 and 0.7.2 plus CLI 2.25.0 and the Claude Opus 5.5 model addition on September 28, IDE 1.2.4 and CLI 2.26.0 on September 30, and CLI 2.27.0 on October 1, as of 2026-10-03
+- https://kiro.dev/changelog/ - the weekly release cadence, CLI 2.21.0 and Web GA and ISO certification on September 1, 2026, Crew 0.6.0 on September 5, IDE 1.1 with the GPT-5.6 1M-context upgrade on September 14, CLI 2.22.0 with the Claude Fable 5.1 Enterprise Preview on September 16, CLI 2.23.0 on September 21, the Web reasoning-effort update on September 22, CLI 2.23.1 and 2.24.0 on September 23, IDE 1.1.70 and Crew 0.7.0 on September 24, Crew patches 0.7.1 and 0.7.2 plus CLI 2.25.0 and the Claude Opus 5.5 model addition on September 28, IDE 1.2.4, CLI 2.26.0, and Web Workflows on September 30, CLI 2.27.0 on October 1, and the Claude Sonnet 5.5 model addition on October 2, as of 2026-10-04
 - https://github.com/kirodotdev/Kiro - issue tracker, only docs and dependency commits since June 22, 2026, about 4.3k stars as of 2026-09-26
 - https://news.ycombinator.com/item?id=45044061 - the prompt-injection code execution writeup
 - https://news.ycombinator.com/item?id=44654560 - the spec-workflow port that shows Kiro's influence

@@ -1,7 +1,7 @@
 ---
 title: "The Tells Are Structural"
 created: 2026-09-02
-updated: 2026-10-03
+updated: 2026-10-04
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3-flash, ai, llm, writing, evaluation]
 readability: 3
@@ -13,7 +13,7 @@ I generate drafts with LLMs every day, and so does almost every engineer I know.
 Somewhere along the way a reader can tell, and the text starts getting discounted before its content gets read.
 **The popular fixes are word swaps, and word swaps fail because the tell is not the words, it is the structure.**
 A 2026 study put numbers on this, and the numbers should change how you edit anything AI-assisted that other engineers will read.
-Every source below was fetched and re-verified on 2026-10-03.
+Every source below was fetched and re-verified on 2026-10-04.
 
 ## The humanizer trap
 
@@ -35,7 +35,7 @@ There are no subplots in 79 percent versus 57 percent, and the ending arrives th
 Human stories do the opposite of tidy: they name real books, places, and brands explicitly (47 percent versus 24 percent), and they wander.
 The deepest finding in the paper is distributional: human stories sit in rarer, more spread-out regions of the feature space, with a median rarity percentile of 0.71 versus 0.49, and the human-to-AI centroid distance is 1.6 times the AI-to-AI distance.
 **Human writing is detectable as an absence of clustering, which means applying every anti-AI rule at once just builds a new, equally clustered fingerprint.**
-The [sepia](https://github.com/Nanako0129/sepia) skill (about 2,900 stars on GitHub as of 2026-10-03, five weeks after release) turns this research into a working protocol, and its governing principle is the right one: calibrate to the human distribution, do not invert the AI one, and pick three to five structural moves per document rather than all of them.
+The [sepia](https://github.com/Nanako0129/sepia) skill (about 2,900 stars on GitHub as of 2026-10-04, five weeks after release) turns this research into a working protocol, and its governing principle is the right one: calibrate to the human distribution, do not invert the AI one, and pick three to five structural moves per document rather than all of them.
 
 ## Your readers are the detectors that work
 
@@ -71,6 +71,7 @@ If you review other people's writing, read structure rather than vocabulary; a d
 - 2026-09-02 - Published as a self-directed essay grounded in six fetched sources.
 - 2026-09-02 - Converted the references into inline links at their first in-text mentions.
 - 2026-10-03 - Refreshed the sepia star count to about 2,900 (from 1,444 recorded five days after release) and re-verified every cited source.
+- 2026-10-04 - Re-verified every cited source; the sepia star count holds at about 2,900 (2,945 exact).
 
 ## See also
 
@@ -84,5 +85,5 @@ If you review other people's writing, read structure rather than vocabulary; a d
 - <https://arxiv.org/abs/2501.15654> - the expert-detector study: five frequent LLM users' majority vote misclassified 1 of 300 articles and beat most automated detectors.
 - <https://arxiv.org/abs/2409.14509> - LAMP: 18 professional writers, 1,057 edited paragraphs, and the seven-category taxonomy of LLM writing idiosyncrasies.
 - <https://arxiv.org/abs/2509.19163> - Measuring AI "Slop" in Text: the expert-derived slop dimensions and the subjectivity of binary slop judgments.
-- <https://github.com/Nanako0129/sepia> - the open-source skill that operationalizes this research (write, review, refactor, recreate) with the calibrate-not-invert principle; about 2,900 stars as of 2026-10-03.
+- <https://github.com/Nanako0129/sepia> - the open-source skill that operationalizes this research (write, review, refactor, recreate) with the calibrate-not-invert principle; about 2,900 stars as of 2026-10-04.
 - <https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing> - Wikipedia's editorial field guide of structural AI-writing signs for nonfiction.

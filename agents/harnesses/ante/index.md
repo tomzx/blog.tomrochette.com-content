@@ -1,7 +1,7 @@
 ---
 title: Ante
 created: 2026-08-30
-updated: 2026-10-03
+updated: 2026-10-04
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agents, harnesses, rust, single-binary, local-models]
 readability: 3
@@ -25,7 +25,7 @@ Source is published under Apache-2.0 (crates: exec, llm, protocol-shape, ante-sd
 ## Status
 
 **Active, preview-stage, and growing fast for a five-month-old repo.**
-1,995 stars and 68 forks as of 2026-10-03, repo created December 23, 2025, with v0.2.0 (September 17, 2026) having closed the v0.preview.N series and started a within-minor compatibility promise.
+1,998 stars and 68 forks as of 2026-10-04, repo created December 23, 2025, with v0.2.0 (September 17, 2026) having closed the v0.preview.N series and started a within-minor compatibility promise.
 The latest release is v0.2.8 (release notes dated October 2, 2026, published October 3), which added `/rewind` conversation rewinding and `/fork` session forking with parent links, and made `ante serve` print readable connection, session, tool-call, and turn-status transcripts.
 Before it, v0.2.7 (published September 30) added Claude Sonnet 5.5 on Anthropic and OpenRouter, Qwen 3.8 Max and GLM 5.3 FlashX on its catalog, moved xAI to Grok 4.7, made resumed sessions keep the system prompts they started with, and bumped the embedded llama.cpp engine.
 v0.2.5 (published September 25) added in-place session provider switching that keeps the session's ID, messages, title, and permission state and made MCP server startup and protocol compatibility stricter.
@@ -88,7 +88,7 @@ I expect the harness market to consolidate on footprint and cost per agent, and 
 
 ## References
 
-- https://github.com/AntigmaLabs/ante - repository, Apache-2.0 source, 1,995 stars as of 2026-10-03
+- https://github.com/AntigmaLabs/ante - repository, Apache-2.0 source, 1,998 stars as of 2026-10-04
 - https://docs.antigma.ai/ - architecture, offline mode, providers, footprint claims
 - https://antigma.ai/eval - self-reported Terminal-Bench 2.1 results, pinned builds and Harbor runs
 - https://raw.githubusercontent.com/AntigmaLabs/ante/main/README.md - feature surface and provider list

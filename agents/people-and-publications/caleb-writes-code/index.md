@@ -23,8 +23,8 @@ He is active on X as calebfoundry, on LinkedIn, and runs a Patreon.
 
 ## Status
 
-Active and fast-growing as of 2026-10-02.
-The channel reports 119K subscribers and 124 videos as of 2026-10-02, the about page showed 9,290,137 total views as of 2026-10-02, and uploads run about twice a week, with the latest on 2026-10-02 ("Gemini 4 Argon explained in 5min..", same-week coverage of Google DeepMind's new model), following "Inference Engines explained in 10min.." (2026-09-30, covering llama.cpp, vLLM, SGLang, and TensorRT-LLM).
+Active and fast-growing as of 2026-10-04.
+The channel reports 120K subscribers and 124 videos as of 2026-10-04, the about page showed 9,290,137 total views as of 2026-10-02, and uploads run about twice a week, with the latest on 2026-10-02 ("Gemini 4 Argon explained in 5min..", same-week coverage of Google DeepMind's new model), following "Inference Engines explained in 10min.." (2026-09-30, covering llama.cpp, vLLM, SGLang, and TensorRT-LLM).
 All of that scale was reached in under 18 months from the 2025-03-16 start.
 
 ## Strengths
@@ -84,8 +84,8 @@ Not for someone who wants tool-tested practice, reference-grade depth, or an ad-
 
 ## References
 
-- https://www.youtube.com/@calebwritescode - the channel: identity, description, 119K subscribers, 124 videos
+- https://www.youtube.com/@calebwritescode - the channel: identity, description, 120K subscribers, 124 videos
 - https://www.youtube.com/@calebwritescode/about - join date 2025-03-16, 9,290,137 total views as of 2026-10-02, and the LinkedIn, X, and Patreon links
 - https://www.youtube.com/@calebwritescode/videos - the uploads tab grounding the twice-a-week cadence
-- https://www.youtube.com/feeds/videos.xml?channel_id=UCuU9jE4MHHEIyYMbDfUPSew - the RSS feed grounding cadence, topics, and the 12-of-15 sponsor count
+- https://www.youtube.com/feeds/videos.xml?channel_id=UCuU9jE4MHHEIyYMbDfUPSew - the RSS feed that grounded cadence, topics, and the 12-of-15 sponsor count through 2026-10-02 (it began returning 404 on 2026-10-04; the uploads tab replaces it)
 - https://app.thoughtleaders.io/youtube/caleb-writes-code - third-party read on the AI niche and brand safety, plus the stale-prose discrepancy behind the analytics caution

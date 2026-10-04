@@ -1,7 +1,7 @@
 ---
 title: Superset
 created: 2026-08-30
-updated: 2026-10-03
+updated: 2026-10-04
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, parallel-agents, ide, worktrees]
 readability: 3
@@ -24,7 +24,7 @@ Elastic License 2.0 (source-available, not OSI open source), by Superset Inc., t
 
 ## Status
 
-Fast and funded: about 14.8k stars, 1.3k forks, 852 open issues and PRs as of 2026-10-03, created 2025-10-21, more than 4,290 commits, latest desktop release v1.35.0 on 2026-10-02 (a visible host-connection banner, fixed cloud-wake copy, and a task_imports table), following v1.34.0 the same day (per-screen headers that keep window controls in the collapsed sidebar band, and a privacy disclosure of Google user data handling) and v1.33.0 on 2026-09-30 (shared cloud-workspace records with presence, comments, labels, and mentions, plus Claude Sonnet 5.5 in model pickers), following v1.32.0 on 2026-09-29, which let coworkers set up their own cloud environment from the CLI, and v1.31.0 on 2026-09-28, after the v1.30.x line (v1.30.0 on 2026-09-19, which added explicit local workspaces on shared checkouts and clearer automation-creation options, v1.30.1 on September 21, and v1.30.2 on September 22).
+Fast and funded: about 14.9k stars, 1.3k forks, 852 open issues and PRs as of 2026-10-04, created 2025-10-21, more than 4,290 commits, latest desktop release v1.35.0 on 2026-10-02 (a visible host-connection banner, fixed cloud-wake copy, and a task_imports table), following v1.34.0 the same day (per-screen headers that keep window controls in the collapsed sidebar band, and a privacy disclosure of Google user data handling) and v1.33.0 on 2026-09-30 (shared cloud-workspace records with presence, comments, labels, and mentions, plus Claude Sonnet 5.5 in model pickers), following v1.32.0 on 2026-09-29, which let coworkers set up their own cloud environment from the CLI, and v1.31.0 on 2026-09-28, after the v1.30.x line (v1.30.0 on 2026-09-19, which added explicit local workspaces on shared checkouts and clearer automation-creation options, v1.30.1 on September 21, and v1.30.2 on September 22).
 The Launch HN thread drew 108 points and 135 comments, and the founders say they ship daily.
 **Adoption claims beyond GitHub ("tens of thousands of engineers", big-company logos) are self-reported, and the codebase is still founder-dominated.**
 

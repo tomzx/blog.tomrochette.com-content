@@ -22,17 +22,17 @@ Running many coding agents at once: worktree managers, kanbans, terminal multipl
 - [Claude Squad](claude-squad/index.md) - free AGPL terminal app running multiple coding agents in tmux, each in its own worktree.
 - [cmux](cmux/index.md) - Manaflow's libghostty macOS terminal for parallel agents, notification rings free, cloud execution paid (Pro $50, Max $200 monthly).
 - [Conductor](conductor/index.md) - the macOS app for parallel Claude Code, Codex, Cursor, and OpenCode sessions with diff review and PR flow.
-- [CrewAI](crewai/index.md) - the MIT Python role-and-crew framework, 59.2k stars, now funded by an $18M enterprise platform.
+- [CrewAI](crewai/index.md) - the MIT Python role-and-crew framework, 59.3k stars, now funded by an $18M enterprise platform.
 - [Crewplane](crewplane/index.md) - the Apache-2.0 CLI workflow runner that turns coding-agent stages into resumable Markdown with on-disk run records.
 - [Crystal](crystal/index.md) - Stravu's worktree manager, deprecated February 2026 for Nimbalyst, kept here as a death record.
-- [Dify](dify/index.md) - LangGenius's 157k-star visual workflow and RAG platform, self-hostable under a modified Apache 2.0 with commercial conditions.
+- [Dify](dify/index.md) - LangGenius's 157.8k-star visual workflow and RAG platform, self-hostable under a modified Apache 2.0 with commercial conditions.
 - [dmux](dmux/index.md) - the MIT tmux TUI where every task pane gets its own worktree and branch.
 - [Emdash](emdash/index.md) - the Apache-2.0 agentic development environment from General Action (YC W26), local or over SSH.
 - [Flowise](flowise/index.md) - the Workday-acquired visual LLM builder archived in August 2026, kept here as the genre's clearest post-mortem.
 - [Foremerge](foremerge/index.md) - the Apache-2.0 protocol where parallel agents publish what they are about to change before they change it, catching the plan collisions Git merges without complaint, from GPTree's internal tooling.
 - [Gas Town](gastown/index.md) - Steve Yegge's tmux town of 20-30 supervised agents, shut down in September 2026 after Yegge admitted he never successfully built anything with it, kept as the category's cautionary record.
 - [GraphCode](graphcode/index.md) - the FSL-licensed native macOS workspace arranging live agent loops into a graph with hand-off, message, and spawn edges.
-- [Happy Coder](happy-coder/index.md) - the MIT encrypted mobile client wrapping Claude Code and Codex sessions, 23.9k stars, second only to cmux among the category's session multiplexers.
+- [Happy Coder](happy-coder/index.md) - the MIT encrypted mobile client wrapping Claude Code and Codex sessions, 24k stars, second only to cmux among the category's session multiplexers.
 - [Helmor](helmor/index.md) - the Apache-2.0 local-first desktop workbench running agents across worktrees through review, test, merge, and one-click PR.
 - [JetBrains Air](jetbrains-air/index.md) - the standalone agentic environment running Codex, Claude Agent, Gemini CLI, and Junie in parallel, isolated per task and bundled with the AI subscription.
 - [Lanes](lanes/index.md) - the macOS board workspace running parallel PTY agent sessions on worktrees, with a self-hostable MCP access layer.
@@ -40,7 +40,7 @@ Running many coding agents at once: worktree managers, kanbans, terminal multipl
 - [LoopTroop](looptroop/index.md) - the MIT local GUI orchestrator using multi-model council planning, atomic beads, and fresh-context Ralph loops over OpenCode.
 - [Mastra](mastra/index.md) - the TypeScript agent framework from the Gatsby team, 7.1M npm downloads a month and $35M raised, scarred by a June 2026 npm supply-chain attack.
 - [MetaGPT](metagpt/index.md) - FoundationAgents' software-company-as-multi-agent framework, quiet since v0.8.2 with the energy moved to OpenManus.
-- [Multica](multica/index.md) - the source-available, self-hostable workspace that assigns issues to coding agents as teammates, 51.9k stars as of 2026-10-03.
+- [Multica](multica/index.md) - the source-available, self-hostable workspace that assigns issues to coding agents as teammates, 51.9k stars as of 2026-10-04.
 - [oh-my-codex](oh-my-codex/index.md) - the MIT workflow layer for OpenAI Codex CLI adding skills, hooks, HUD, memory, and worktree team execution.
 - [Omnara](omnara/index.md) - the YC S25 Apache-2.0 Go control plane where agents are YAML and supervision happens from dashboard, phone, CLI, API, or Slack.
 - [Open Swarm](open-swarm/index.md) - the AGPL-3.0 local mission-control canvas for launching and approving several Claude agents with per-session cost tracking.

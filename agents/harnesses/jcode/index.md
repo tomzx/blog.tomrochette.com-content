@@ -1,7 +1,7 @@
 ---
 title: jcode
 created: 2026-08-30
-updated: 2026-10-02
+updated: 2026-10-04
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agents, harnesses, rust, yc, memory, multi-agent]
 readability: 3
@@ -25,7 +25,7 @@ Its three distinctive systems are an embedding-based memory graph with passive r
 ## Status
 
 **Active and rising fast, with a bus factor of one.**
-Created January 5, 2026, it shows 20,257 stars and 2,347 forks with a push on the day of verification (GitHub API), and a release cadence that ran near-daily until v0.84.0 on September 7, 2026, followed by a twelve-day pause that v0.85.0 ended on September 19, 2026, v0.86.0 a day later on September 20, the v0.87 pair starting September 22 (v0.87.0, which added Claude Opus 5.5 with independent Anthropic model discovery and Claude Code 2.1.280 OAuth compatibility, with v0.87.1 following within hours), and v0.88.0 on September 23, which made Claude Opus 5.5 the default Anthropic model and added multi-browser support and banked resets for exhausted OpenAI usage.
+Created January 5, 2026, it shows 20,294 stars and 2,356 forks with a push on the day of verification (GitHub API, as of 2026-10-04), and a release cadence that ran near-daily until v0.84.0 on September 7, 2026, followed by a twelve-day pause that v0.85.0 ended on September 19, 2026, v0.86.0 a day later on September 20, the v0.87 pair starting September 22 (v0.87.0, which added Claude Opus 5.5 with independent Anthropic model discovery and Claude Code 2.1.280 OAuth compatibility, with v0.87.1 following within hours), and v0.88.0 on September 23, which made Claude Opus 5.5 the default Anthropic model and added multi-browser support and banked resets for exhausted OpenAI usage.
 v0.89.0 followed on September 28, adding built-in voice input with native microphone capture, interactive agent applets, a pinned session status line, and cross-swarm messaging with unique labels, and v0.90.0 landed October 1, making web search provider-native (Anthropic and OpenAI server-side search by default instead of scraping from your machine, with an opt-out back to local search engines) and keeping mid-session skill installs from busting the prompt cache.
 It is Y Combinator-backed (S26), and the author reports 11,977 contributions in the last year ([about page](https://jcode.sh/about)).
 The independent footprint is thin so far: two Hacker News threads at 3 and 5 points with zero comments (April 30 and August 10, 2026) and one favorable third-party comparison; 20,134 stars against that little discussion is unusual and worth watching.
@@ -51,7 +51,7 @@ The independent footprint is thin so far: two Hacker News threads at 3 and 5 poi
 ## Pricing
 
 The software is free under MIT with no feature gates.
-Hosted inference is $10/month for $20 of credit (the first $20 effectively 50% off provider API price), then usage at 10% off provider API prices, hard-capped by default at $100/month ([pricing](https://jcode.sh/pricing)).
+Hosted inference starts at $10/month for $20 of credit (the first $20 effectively half provider price), on a plan ladder from $10 to $1,000 where every plan grants double its price in credit plus 50 Jcode Cloud machine hours per $10 of plan; after the credit, usage bills at provider API prices, automatically capped at 10x the plan ($100 of usage on the $10 plan) ([pricing](https://jcode.sh/pricing), as of 2026-10-04).
 Enterprise is custom.
 
 ## Price history
@@ -59,6 +59,7 @@ Enterprise is custom.
 | Date | Plan | Change | Source |
 | ---- | ---- | ------ | ------ |
 | 2026-09 | Hosted inference | Baseline: software free (MIT); hosted $10/mo for $20 of credit, then usage at 10% off provider API prices, hard-capped by default at $100/mo; Enterprise custom. | [jcode.sh/pricing](https://jcode.sh/pricing) |
+| 2026-10-04 | Hosted inference | The page now lists plans from $10 to $1,000 per month, every plan granting double its price in credit plus 50 Jcode Cloud machine hours per $10 of plan; post-credit usage is billed at provider API prices (the earlier 10%-off description no longer appears), capped at 10x the plan. | [jcode.sh/pricing](https://jcode.sh/pricing) |
 
 ## Compared to
 
@@ -84,6 +85,7 @@ Not for teams needing IDE integration, HTTP MCP, or independent benchmarking tod
 - 2026-09-24 - Recorded v0.88.0 (September 23), which made Claude Opus 5.5 the default Anthropic model and added multi-browser support and banked usage resets, and refreshed repository counters; hosted pricing re-verified unchanged.
 - 2026-09-29 - Recorded v0.89.0 (September 28), which added built-in voice input, agent applets, a pinned session status line, and cross-swarm messaging, and refreshed repository counters.
 - 2026-10-02 - Recorded v0.90.0 (October 1), which made web search provider-native by default with an opt-out, and stopped mid-session skill installs from busting the prompt cache, and refreshed repository counters.
+- 2026-10-04 - Corrected the hosted-inference terms against the live pricing page: post-credit usage bills at provider API prices (the page no longer describes a 10 percent discount), every plan now grants double its price in credit plus 50 Jcode Cloud machine hours per $10 of plan, and the plan ladder runs $10 to $1,000; appended the Price history row and refreshed repository counters.
 
 ## See also
 
@@ -94,11 +96,11 @@ Not for teams needing IDE integration, HTTP MCP, or independent benchmarking tod
 
 ## References
 
-- https://github.com/1jehuang/jcode - repository, MIT license, Rust, scale, release cadence, feature README, as of 2026-10-02
+- https://github.com/1jehuang/jcode - repository, MIT license, Rust, scale, release cadence, feature README, as of 2026-10-04
 - https://jcode.sh/ - mission, RAM and startup benchmarks, memory, swarm, self-dev, prompt-size study, changelog
 - https://jcode.sh/docs - AGENTS.md loading, hooks, skills, stdio-only MCP, remote daemon, ambient config
 - https://jcode.sh/about - Solo Systems, Jeremy Huang, solo founder, YC S26
-- https://jcode.sh/pricing - hosted inference and enterprise terms
+- https://jcode.sh/pricing - hosted inference plans, credit doubling, Jcode Cloud hours, and enterprise terms, as of 2026-10-04
 - https://grigio.org/jcode-the-coding-agent-that-raises-the-skill-ceiling-vs-opencode-and-pi/ - independent three-way comparison and the ambient-mode caveat
 - https://news.ycombinator.com/item?id=49249151 - the August 10, 2026 thread, 5 points, zero comments
 - https://news.ycombinator.com/item?id=47961940 - the April 30, 2026 Show HN, 3 points, zero comments

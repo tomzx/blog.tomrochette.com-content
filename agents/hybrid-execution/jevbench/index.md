@@ -27,7 +27,7 @@ The v1.2 board holds 48 ranked rows spanning hosted APIs, the open replicas, rer
 ## Status
 
 Active and gaining traction, as of 2026-10-03.
-The repository was created 2026-09-19, pushed 2026-09-29, and shows 203 stars and 22 forks, with five scoring releases since my first check (v1.4.0 through v1.4.2.2, September 23-27).
+The repository was created 2026-09-19, pushed 2026-09-29, and shows 209 stars and 22 forks, with five scoring releases since my first check (v1.4.0 through v1.4.2.2, September 23-27).
 The Show HN thread (2026-09-22) climbed from 92 points when this note was created to 153 as of 2026-10-03, clearing the 100-point bar it originally sat under.
 The author has also opened a second front: an ImageJevBench v0.1.x image-modality track now lives in the repository under results/imagejevbench, with a frozen 228-public plus 456-sealed split, and its v0.1.3 candidate re-measured Imajev-4B first of 49 at 76.39 on a paid fast-serving GPU run, a separate board from the unchanged text ranking.
 A third front is the next text board itself: on 2026-09-29 the author published the frozen v1.5 scoring method with its disclosed addenda (an equal-axis, equal-type headline amendment over the byte-identical frozen method, pricing addenda including a DeepInfra disclosure correction, and a SHA-256 manifest), with the v1.4.2.2 board still current and no v1.5 results published yet.
@@ -91,7 +91,7 @@ The disagreeable claim I will defend: this benchmark's most important number is 
 
 ## References
 
-- https://github.com/fstandhartinger/jevbench - repository: MIT, created 2026-09-19, 203 stars, 22 forks, pushed 2026-09-29 (GitHub API, as of 2026-10-03)
+- https://github.com/fstandhartinger/jevbench - repository: MIT, created 2026-09-19, 209 stars, 22 forks, pushed 2026-09-29 (GitHub API, as of 2026-10-04)
 - https://raw.githubusercontent.com/fstandhartinger/jevbench/main/results/imagejevbench/v0.1.3/README.md - the ImageJevBench v0.1.x candidate: 228-public plus 456-sealed image split, Imajev-4B re-measured first of 49 at 76.39
 - https://raw.githubusercontent.com/fstandhartinger/jevbench/main/docs/METHOD-v1.5-README.md - the frozen v1.5 method index: the byte-identical frozen method, the equal-axis equal-type headline amendment, the pricing addenda, and the SHA-256 manifest
 - https://raw.githubusercontent.com/fstandhartinger/jevbench/main/README.md - the v1.4.1 score design, the 220 hard decisions frozen and hashed, the honorable-mention rule, and the option-order finding

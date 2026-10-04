@@ -22,9 +22,9 @@ He is a VC-backed start-up founder who says he has shipped production AI agents 
 
 ## Status
 
-Active as of 2026-09-27.
-A third-party analytics site, last verified 2026-09-21, reports 231K subscribers, 102 videos, and 9.1M total views.
-The RSS feed shows two to three uploads a month through mid-2026, with the latest upload on 2026-09-23 ("GPT 6 + Hyperframe = Crazy combo for expert-level videos").
+Active as of 2026-10-04.
+The channel shows 233K subscribers and 103 videos as of 2026-10-04; a third-party analytics site, last verified 2026-09-21, reported 231K subscribers, 102 videos, and 9.1M total views.
+Uploads run two to three a month, with the latest on 2026-09-23 ("GPT 6 + Hyperframe = Crazy combo for expert-level videos") and nothing newer as of 2026-10-04 per the channel's uploads tab (the channel's RSS feed began returning 404 this run).
 The channel is fully monetized, with past sponsors including Canva, Figma, and Vercel.
 
 ## Strengths
@@ -85,7 +85,7 @@ Not for someone who wants reference-grade depth, a durable archive, or a rigorou
 ## References
 
 - https://www.youtube.com/@AIJasonZ - the channel with subscriber count and video catalog
-- https://www.youtube.com/feeds/videos.xml?channel_id=UCrXSVX9a1mj8l0CMLwKgMVw - the RSS feed grounding the upload cadence and the latest video
+- https://www.youtube.com/@AIJasonZ/videos - the channel's uploads tab grounding the upload cadence and the latest video (the former RSS feed URL began returning 404 as of 2026-10-04)
 - https://www.ai-jason.com/ - his site and email list
 - https://developereducators.com/channel/aijasonz/ - independent channel stats, sponsors, and engagement
 - https://app.thoughtleaders.io/youtube/ai-jason - third-party analytics on the channel's scale and content focus

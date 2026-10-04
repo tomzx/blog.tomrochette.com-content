@@ -23,7 +23,7 @@ Deployment is self-hosted (free Community Edition) or n8n Cloud; the Webhook nod
 ## Status
 
 **Very active and heavily funded.**
-About 206.5k stars and 61.0k forks on GitHub as of 2026-10-02, with 24,000+ commits.
+About 206.6k stars and 61.0k forks on GitHub as of 2026-10-04, with 24,000+ commits.
 A $180M Series C (October 2025, led by Accel, with NVIDIA's NVentures) brought total funding to $240M at a $2.5B valuation.
 Caveat on maturity: the agents layer is in preview, not yet supported on self-hosted Enterprise, and queue mode does not work with agents.
 

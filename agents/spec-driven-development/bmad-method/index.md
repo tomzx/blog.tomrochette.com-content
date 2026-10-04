@@ -1,7 +1,7 @@
 ---
 title: BMad Method
 created: 2026-08-27
-updated: 2026-10-03
+updated: 2026-10-04
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, spec-driven-development, agile, multi-agent, open-source]
 readability: 3
@@ -24,7 +24,7 @@ The ecosystem is modular: BMad Builder, a Creative Intelligence Suite, an enterp
 ## Status
 
 Large, active, and quietly adopted.
-As of 2026-10-03: about 53.7k stars and about 6k forks since creation on 2025-04-13, 51 open issues and pull requests, with release v6.12.0 (published 2026-09-04) still the newest.
+As of 2026-10-04: about 53.8k stars and about 6k forks since creation on 2025-04-13, 54 open issues and pull requests, with release v6.12.0 (published 2026-09-04) still the newest.
 The derivative community is real (third-party skill packs and hybrids like boss-skill and bmalph, the latter at 406 stars), but its HN threads run 2 to 4 points, so the method spread through the ecosystem rather than the front page.
 
 ## Strengths

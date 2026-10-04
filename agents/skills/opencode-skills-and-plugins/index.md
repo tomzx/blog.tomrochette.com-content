@@ -24,7 +24,7 @@ Plugins are JS/TS modules from `.opencode/plugins` or npm (installed via Bun at 
 ## Status
 
 **Active; the skills and plugins docs have been stable since February 2026.**
-The host project (anomalyco/opencode) shows about 211k stars under MIT as of 2026-10-03.
+The host project (anomalyco/opencode) shows about 211k stars under MIT as of 2026-10-04.
 The ecosystem page (itself updated 2026-10-03) lists roughly 40 community plugins (Helicone, Sentry, Firecrawl, Tavily, Daytona sandboxing, subscription-auth bridges) plus a smaller set of projects and agents.
 There is no first-party skill marketplace; distribution rides plain git or third parties like skills.sh.
 
@@ -78,6 +78,6 @@ My disagreeable claim: plugins, not skills, are OpenCode's actual differentiator
 - https://opencode.ai/docs/skills/ - skill paths, frontmatter, permissions, the skill tool
 - https://opencode.ai/docs/plugins/ - plugin model, event hooks, npm installation, custom tools
 - https://opencode.ai/docs/ecosystem/ - community plugin inventory, page updated 2026-10-03
-- https://github.com/anomalyco/opencode - host project scale and MIT license, as of 2026-10-03
+- https://github.com/anomalyco/opencode - host project scale and MIT license, as of 2026-10-04
 - https://agentskills.io/ - lists OpenCode among the standard's clients
 - https://github.com/vercel-labs/skills - compatibility matrix (`context: fork` and hooks unsupported in OpenCode)

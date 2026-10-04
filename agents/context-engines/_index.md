@@ -17,6 +17,7 @@ The tools that decide what enters the context window: semantic engines, code gra
 - [Repomix](repomix/index.md) - the MIT CLI that packs a whole repo into one AI-friendly file, retrieval-free by design.
 - [rtk](rtk/index.md) - the Rust CLI proxy that filters agent command output before it enters the context window.
 - [Semble](semble/index.md) - the local static-embedding-plus-BM25 code search index that indexes in under a second on any CPU, snippets instead of grep-and-read.
+- [Serena](serena/index.md) - the LSP-backed MCP toolkit giving agents IDE-grade symbol retrieval and editing for free, with a paid JetBrains backend, about 30k stars.
 - [Sourcegraph code context platform](sourcegraph-code-context/index.md) - code search repositioned as the retrieval layer for agents, with value showing up above roughly 400K lines.
 
 Its members are compared on shared rows in the [Context Engines Feature Matrix](context-engines-feature-matrix/index.md).
@@ -31,3 +32,4 @@ Its members are compared on shared rows in the [Context Engines Feature Matrix](
 - 2026-08-30 - Added rtk.
 - 2026-08-30 - Added Semble.
 - 2026-09-12 - Added Graft.
+- 2026-10-04 - Added Serena.

@@ -1,7 +1,7 @@
 ---
 title: OpenWorker
 created: 2026-10-02
-updated: 2026-10-03
+updated: 2026-10-04
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, assistant-runtime, desktop, security, sandboxing]
 readability: 3
@@ -23,7 +23,7 @@ Every action an agent takes is governed and logged, approvals are configurable, 
 
 ## Status
 
-Early and moving fast: about 18,400 stars in its first ten weeks as of 2026-10-03 (created 2026-07-20, pushed 2026-10-02), with v0.3.0 released 2026-09-30 and a public beta disclaimer on the README.
+Early and moving fast: about 18,400 stars in its first eleven weeks as of 2026-10-04 (created 2026-07-20, pushed today), with v0.3.0 released 2026-09-30 and a public beta disclaimer on the README.
 **The star count is an audience effect as much as an adoption signal: Andrew Ng's announcement drove the attention, while the independent Hacker News footprint is one 5-point thread plus a pair of 2-point follow-ups, so the tool's actual field usage is unproven.**
 The project says rough edges are being polished; treat it as beta in fact, not just label.
 

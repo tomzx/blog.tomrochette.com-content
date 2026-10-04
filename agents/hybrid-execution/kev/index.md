@@ -23,11 +23,11 @@ The API tests run TypeSafe's own example requests against the local server, whic
 
 ## Status
 
-**Active and sixteen days old, with traction on every axis I can measure.**
-The repository was created 2026-09-17 and pushed 2026-10-02, with 8,339 stars and 541 forks as of 2026-10-03, and three releases (the 0.5B prototype on 2026-09-17, the 0.8B/4B/9B family on 2026-09-20, and kev-1.0 on 2026-10-01, which versions the four checkpoints as one family with `v1.0` tags on every Hub repo and pins cards, eval suites, and serving code for the next generation to be measured against, training nothing new).
+**Active and seventeen days old, with traction on every axis I can measure.**
+The repository was created 2026-09-17 and pushed 2026-10-03, with 8,371 stars and 548 forks as of 2026-10-04, and three releases (the 0.5B prototype on 2026-09-17, the 0.8B/4B/9B family on 2026-09-20, and kev-1.0 on 2026-10-01, which versions the four checkpoints as one family with `v1.0` tags on every Hub repo and pins cards, eval suites, and serving code for the next generation to be measured against, training nothing new).
 The family grew a flagship in the same window: Kev-9B v2 shipped 2026-09-30 (a refitted temperature, v1 kept at a Hub tag) and Kev-27B v2 joined it, with a 65,536-token validated context against 8,192 for the small family and README-claimed numbers within three points of Jev, or ahead of it, on 9 of 11 new-source categories while matching Jev's 0.90 MMLU, at the cost of needing an 80 GB GPU.
 The Hacker News thread (2026-09-21) exploded from about 30 points when I first checked to 462 points as of 2026-10-03, clearing the bar this note originally recorded it failing, with the substantive use-case discussion (coding-agent verifiers, spam filtering, knowledge-cutoff concerns) now carrying far more weight than drive-by upvotes.
-A browser demo on Hugging Face Spaces (Kev-4B and Kev-0.8B, no install) and an MLX serving path for Apple Silicon landed in the same window, and kev-4b shows about 15,200 downloads as of 2026-10-03.
+A browser demo on Hugging Face Spaces (Kev-4B and Kev-0.8B, no install) and an MLX serving path for Apple Silicon landed in the same window, and kev-4b shows about 16,100 downloads as of 2026-10-04.
 What still carries the evidentiary weight: the README converts two independent third-party test sets, SemIf's 144 authored decisions and scienthoon's 900-ticket Jev calibration, and scores its models against those projects' own published live-Jev results.
 
 ## Strengths
@@ -80,13 +80,13 @@ The disagreeable claim I will defend: the weights are the second-most valuable a
 
 ## References
 
-- https://github.com/jaredpalmer/kev - repository: Apache-2.0, created 2026-09-17, 8,339 stars, 541 forks, pushed 2026-10-02 (GitHub API, as of 2026-10-03)
+- https://github.com/jaredpalmer/kev - repository: Apache-2.0, created 2026-09-17, 8,371 stars, 548 forks, pushed 2026-10-03 (GitHub API, as of 2026-10-04)
 - https://github.com/jaredpalmer/kev/releases/tag/kev-1.0 - the Kev 1.0 family release (2026-10-01): four checkpoints, `v1.0` Hub tags, pinned weights revisions and validated-context table
 - https://raw.githubusercontent.com/jaredpalmer/kev/main/README.md - the LoRA-plus-pointer-head architecture, question isolation, eval tables against Jev, serving and training limits
 - https://raw.githubusercontent.com/jaredpalmer/kev/main/PLAN.md - the pre-registered research log: gap table to Jev, locked-test discipline, the $475-of-$500 budget
 - https://news.ycombinator.com/item?id=49783999 - the launch thread (462 points as of 2026-10-03, from about 30 points a day earlier), its use-case confusion and bandwagon skepticism the critical signals
-- https://huggingface.co/collections/jaredpalmer/kev-6aad9d0ea49f2589665e07cd - the weight collection; kev-4b created 2026-09-19, Apache-2.0, about 15,200 downloads (as of 2026-10-03)
-- https://github.com/TheoLeeCJ/SemIf-OpenJev - the independent 144-decision test set (4,663 stars; the /SemIf URL redirects here after the rename) whose live-Jev results kev converts and scores against
+- https://huggingface.co/collections/jaredpalmer/kev-6aad9d0ea49f2589665e07cd - the weight collection; kev-4b created 2026-09-19, Apache-2.0, about 16,100 downloads (as of 2026-10-04)
+- https://github.com/TheoLeeCJ/SemIf-OpenJev - the independent 144-decision test set (4,677 stars; the /SemIf URL redirects here after the rename) whose live-Jev results kev converts and scores against
 - https://github.com/scienthoon/jev-ood-calibration - the independent 900-ticket Jev calibration whose test set appears in kev's external evals
 - https://archerhume.com/posts/jevs-architecture-unmasked - the architecture write-up kev credits for the design
 - https://github.com/jaredpalmer - the author's profile grounding the Turborepo and Cognition standing

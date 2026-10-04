@@ -1,7 +1,7 @@
 ---
 title: Memex
 created: 2026-09-20
-updated: 2026-10-03
+updated: 2026-10-04
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, session-analytics, search, open-source]
 readability: 3
@@ -18,12 +18,13 @@ Memex is an MIT-licensed Rust CLI and TUI that indexes the session transcripts y
 
 A Rust CLI (brew, AUR, Nix, or cargo-binstall) that auto-discovers supported sources and indexes them locally, with a TUI browser, a local web UI, native macOS and Qt apps, and an MCP server so agents can search transcripts as a tool.
 Its engine support table covers seventeen harnesses, including Claude Code, Codex, Cursor, OpenCode, Pi, GitHub Copilot CLI, Grok, Hermes, and KiloCode CLI, each graded separately for history, token usage, resume, saved memories, and experimental import into another tool.
-Search is BM25 by default with optional local embeddings for semantic and hybrid queries; saved Claude and Codex memories are searchable alongside transcripts, and federated search queries history on other machines over SSH.
+Search is BM25 by default with optional embeddings for semantic and hybrid queries, local by default, with an opt-in OpenAI-compatible remote path (v0.26.0) whose docs warn that remote embeddings send transcript text and memory documents to that API; saved Claude and Codex memories are searchable alongside transcripts, and federated search queries history on other machines over SSH.
 Made by an independent developer, MIT-licensed, with no cloud service in the default path.
 
 ## Status
 
-Active and quietly growing: created 2026-01-01, 239 stars, 33 forks, pushed 2026-10-02, as of 2026-10-03.
+Active and quietly growing: created 2026-01-01, 241 stars, 33 forks, pushed 2026-10-04, as of 2026-10-04.
+Releases ship in bursts: v0.25.0 (2026-10-02) added the Hermes and KiloCode CLI engines (fifteen to seventeen harnesses), then v0.26.0, v0.26.1, and v0.27.0 all landed 2026-10-03 (OpenAI-compatible remote embeddings plus the full fastembed catalog, Homebrew tap updates, and conversation-search relevance improvements).
 Its Show HN on 2026-09-18 reached 2 points and a single comment, written by the author.
 **The launch footprint is nearly empty, which I read as adoption through word of mouth and through agents rather than through launches, the same reading this category applied to ctx, and as thin independent verification.**
 
@@ -37,14 +38,14 @@ Its Show HN on 2026-09-18 reached 2 points and a single comment, written by the 
 ## Cautions
 
 - Seventeen engines graded per capability means real unevenness: Cursor resume is CLI-only, Antigravity token counting is unsupported, and several engines have no resume at all.
-- Embeddings and token tracking are off by default, so the semantic-search headline requires opt-in setup and local model downloads.
-- The only community signal beyond 239 stars is an author-commented launch thread, so there is no independent verdict on reliability.
+- Embeddings and token tracking are off by default, so the semantic-search headline requires opt-in setup, and since v0.26.0 that setup can point at a remote OpenAI-compatible API that receives transcript text, not only at local models.
+- The only community signal beyond 241 stars is an author-commented launch thread, so there is no independent verdict on reliability.
 - Experimental session transfers and the announced object-storage sync are the roadmap promises most likely to churn.
 
 ## Pricing
 
 Free and open source under MIT.
-No paid tier is published; embeddings run locally on your own hardware.
+No paid tier is published; embeddings run locally by default, and the remote-embedding path is opt-in.
 
 ## Compared to
 
@@ -63,6 +64,7 @@ My disagreeable claim: resume-in-place is the feature every archive tool in this
 - 2026-09-20 - Created.
 - 2026-09-27 - Re-verified: repository counts refreshed (228 to 231 stars), releases, engine table, and launch thread all unchanged.
 - 2026-10-03 - Recorded the v0.25.0 release (2026-10-02), which added Hermes and KiloCode CLI engine support (fifteen to seventeen harnesses) alongside index-statistics and daemon fixes; the push date moved to 2026-10-02 with star and fork counts unchanged (239 stars, 33 forks).
+- 2026-10-04 - Recorded the v0.26.0, v0.26.1, and v0.27.0 releases (all 2026-10-03: opt-in OpenAI-compatible remote embeddings plus the full fastembed catalog, Homebrew tap updates, conversation-search relevance improvements), qualified the local-embeddings claims in What it is, Cautions, and Pricing accordingly, and refreshed repository counts (241 stars, pushed 2026-10-04).
 
 ## See also
 
@@ -74,7 +76,8 @@ My disagreeable claim: resume-in-place is the feature every archive tool in this
 ## References
 
 - https://github.com/nicosuave/memex - repository, description, engine support table, surfaces
-- https://api.github.com/repos/nicosuave/memex - stars, forks, dates, MIT license as of 2026-10-03
-- https://raw.githubusercontent.com/nicosuave/memex/main/README.md - features, engine matrix, install, MCP server, herdr plugin
+- https://api.github.com/repos/nicosuave/memex - stars, forks, dates, MIT license as of 2026-10-04
+- https://raw.githubusercontent.com/nicosuave/memex/main/README.md - features, engine matrix, install, MCP server, herdr plugin, and the remote-embeddings warning that transcript text and memory documents are sent to the configured API (fetched 2026-10-04)
+- https://github.com/nicosuave/memex/releases - v0.25.0 (2026-10-02) and the v0.26.0, v0.26.1, v0.27.0 releases of 2026-10-03
 - https://raw.githubusercontent.com/nicosuave/memex/main/docs/installation.md - brew, AUR, Nix, and cargo install paths
 - https://hn.algolia.com/api/v1/items/49754771 - the 2-point Show HN of 2026-09-18, cited as the thin-footprint signal

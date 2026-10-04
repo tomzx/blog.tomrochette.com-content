@@ -1,7 +1,7 @@
 ---
 title: NanoClaw
 created: 2026-08-27
-updated: 2026-10-03
+updated: 2026-10-04
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, assistant-runtimes, personal-assistants, containers, open-source]
 readability: 3
@@ -24,7 +24,7 @@ Each agent group gets its own container, workspace, memory, and mounts; Slack pr
 ## Status
 
 Active and independently credible.
-As of 2026-10-03: 30,863 stars and 12,787 forks since creation on 2026-01-31, pushed 2026-10-02, 1,032 open issues.
+As of 2026-10-04: 30,874 stars and 12,785 forks since creation on 2026-01-31, pushed 2026-10-04, 1,027 open issues.
 The [533-point launch thread](https://news.ycombinator.com/item?id=46850205) pitched it as "Clawdbot in 500 lines of TS with Apple container isolation", followed by a 169-point thread on the move from Apple Containers to Docker and a 112-point thread on adopting the OneCLI Agent Vault.
 The family is real: microclaw (734 stars) describes itself as inspired by NanoClaw, and the prompt-security clawsec suite explicitly covers it.
 
@@ -72,7 +72,7 @@ My disagreeable claim: the container wall matters more than every permission sys
 ## References
 
 - https://github.com/nanocoai/nanoclaw - README: philosophy, channels, vault, isolation model
-- https://api.github.com/repos/nanocoai/nanoclaw - stars, forks, issues as of 2026-10-03
+- https://api.github.com/repos/nanocoai/nanoclaw - stars, forks, issues as of 2026-10-04
 - https://docs.nanoclaw.dev - official documentation
 - https://news.ycombinator.com/item?id=46850205 - the 533-point launch thread
 - https://news.ycombinator.com/item?id=47113731 - the Apple-Containers-to-Docker move (169 points)

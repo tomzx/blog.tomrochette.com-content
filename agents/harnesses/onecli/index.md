@@ -1,7 +1,7 @@
 ---
 title: OneCLI
 created: 2026-08-30
-updated: 2026-10-03
+updated: 2026-10-04
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agents, harnesses, security, sandboxing, teams]
 readability: 3
@@ -24,8 +24,8 @@ The Launch HN title calls it an "OSS sandboxed agent harness for teams", and tha
 
 ## Status
 
-Very active: v2.6.0 released September 8, 2026, five days after v2.5.0 on September 3, which itself followed v2.4.0, v2.3.1, and v2.3.0.
-3,547 stars and 248 forks as of 2026-10-03, on a repository created March 8, 2026.
+Very active: v2.7.0 released October 3, 2026, adding Salesforce and new app integrations, readable approval cards, `send_file`, and agent-to-agent messaging, five months after the v2.3-2.4 series, with v2.5.0 on September 3 and v2.6.0 five days after it.
+3,555 stars and 248 forks as of 2026-10-04, on a repository created March 8, 2026.
 Three Hacker News threads of record: 161 points for the vault (March 12), 110 for the credential gateway (July 23), and 88 for the YC launch (August 19).
 YC S26, San Francisco, founded by Jonathan Fishner (CEO) and Guy Ben Aharon (CTO).
 In its vault era it was adopted by NanoClaw, per the NanoClaw note in this section.
@@ -40,7 +40,7 @@ In its vault era it was adopted by NanoClaw, per the NanoClaw note in this secti
 
 - The coding-harness layer inside is deliberately thin; if you want a tunable local agent, this manages who may do what, not how well code gets written.
 - The platform is six months old and the API moved from vault to team harness inside that window, so integration code will churn.
-- 179 open issues and pull requests as of 2026-10-03.
+- 178 open issues and pull requests as of 2026-10-04.
 - Pricing jumps from $0 (3 seats, 500 calls/month) to $149/month, and BYOC starts only at the paid tiers.
 
 ## Pricing
@@ -51,7 +51,7 @@ Scale is $499/month for 10 users and 20 agents BYOC, or $1,999/month with hosted
 Extra seats are $49/user/month with your own key or $199 with hosted models.
 Enterprise custom, and platform self-hosting (your cloud, VPC, or on-prem) is quoted there.
 The Apache-2.0 core remains self-hostable from source without a commercial license per the README.
-All as of 2026-09-26.
+All as of 2026-09-26, re-verified unchanged against the live pricing page on 2026-10-04.
 
 ## Price history
 
@@ -77,6 +77,7 @@ I think the prompt-based permission systems across every other harness in this s
 - 2026-09-02 - Recorded the restructured hosted tiers that arrived with v2.4.0.
 - 2026-09-16 - Refreshed repository counters (3,485 stars, 151 open issues and pull requests); pricing tiers re-verified unchanged.
 - 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
+- 2026-10-04 - Recorded the v2.7.0 release (October 3), which added Salesforce and new app integrations, readable approval cards, send_file, and agent-to-agent messaging, and refreshed repository scale; pricing re-verified unchanged.
 
 ## See also
 
@@ -88,8 +89,8 @@ I think the prompt-based permission systems across every other harness in this s
 
 ## References
 
-- https://github.com/onecli/onecli - repository state, license, stars, and v2 pivot story as of 2026-09-22
-- https://github.com/onecli/onecli/releases - release cadence through v2.6.0 on September 8, 2026
+- https://github.com/onecli/onecli - repository state, license, stars, and v2 pivot story as of 2026-10-04
+- https://github.com/onecli/onecli/releases - release cadence through v2.7.0 on October 3, 2026
 - https://onecli.sh - product positioning, gateway model, and free tier as of 2026-09-22
 - https://onecli.sh/pricing - tiers, BYOC versus hosted-model pricing, and seat limits as of 2026-09-22
 - https://onecli.sh/docs - architecture: sandbox, gateway, policy, self-hosting

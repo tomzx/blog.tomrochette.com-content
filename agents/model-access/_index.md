@@ -20,6 +20,7 @@ Editors and harnesses live in their own categories; this is where the token bill
 - [Google AI plans](google-ai-plans/index.md) - the Google Plus/Pro/Ultra ladder carrying Antigravity and Gemini CLI, with credits over rate limits.
 - [Kimi Code](kimi-code/index.md) - Moonshot's membership ladder for coding, $19 to $199 monthly with Code from the second tier.
 - [LiteLLM](litellm/index.md) - a self-hosted MIT gateway unifying 100+ provider APIs behind one OpenAI-compatible endpoint, with routing, budgets, and spend tracking.
+- [LLM Gateway](llm-gateway/index.md) - an open-source gateway charging 5% on credit top-ups with free BYOK, plus DevPass flat-rate coding plans from $29.
 - [MiniMax Coding Plan](minimax-coding-plan/index.md) - token-quota subscriptions for the MiniMax line, $22 to $132 per month, born from a silent plan replacement.
 - [NanoGPT](nanogpt/index.md) - the community aggregator: hundreds of routes pay-as-you-go plus a $12 open-weight subscription.
 - [Ollama](ollama/index.md) - the free local runtime and registry for open models, now paired with paid cloud tiers.
@@ -54,3 +55,4 @@ Its members are compared on shared rows in the [Model Access Feature Matrix](mod
 - 2026-09-27 - Added LiteLLM.
 - 2026-09-27 - Added Ollama.
 - 2026-09-27 - Added Experiential.
+- 2026-10-04 - Added LLM Gateway.

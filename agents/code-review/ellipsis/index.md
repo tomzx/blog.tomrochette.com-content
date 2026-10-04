@@ -26,7 +26,7 @@ Blink (93 stars as of 2026-10-03) was created on September 16, 2026.
 
 **Active and pivoted.**
 The July 28, 2026 post "Introducing the Ellipsis Agent Cloud" says it plainly: Ellipsis "launched in 2023 as one of the first AI Code Review bots", but teams no longer want a product that "just worked", so the company rebuilt itself as agent infrastructure and released the `agent` CLI.
-The homepage, docs, and pricing all describe the agent cloud as of 2026-10-03, and the GitHub org pushed to its CLI repo on 2026-10-02.
+The homepage, docs, and pricing all describe the agent cloud as of 2026-10-03 (pricing re-verified 2026-10-04), and the GitHub org pushed to its CLI repo on 2026-10-03.
 Funding is a $2M seed announced June 19, 2024, with YC partners and the Pioneer Fund among the investors; I found no later round on any page I fetched.
 The blog is thin, three original posts since January 2025 and a gap from April 2025 to July 2026, so public cadence evidence is sparse even though the product is clearly alive.
 The community footprint is one strong Show HN from May 9, 2024 (Algolia item 40309719, 121 points, 64 comments) and a quieter February 2024 one (item 39526616, 18 points, 11 comments).
@@ -50,12 +50,12 @@ The community footprint is one strong Show HN from May 9, 2024 (Algolia item 403
 
 ## Pricing
 
-Tokens are billed at cost with no markup, plus a 10% platform fee, with CPU at $0.142/vCPU-hour and memory at $0.024/GB-hour, as of 2026-10-03.
+Tokens are billed at cost with no markup, plus a 10% platform fee, with CPU at $0.142/vCPU-hour and memory at $0.024/GB-hour, as of 2026-10-04.
 There are no per-seat fees and no idle charges, and a $100 credit covers the start.
-Individuals on their own coding-agent subscription get the platform free, the on-ramp the homepage leads with, as of 2026-10-02.
+Individuals on their own coding-agent subscription get the platform free, the on-ramp the homepage leads with, as of 2026-10-04 (the pricing page today again names Claude Code or Codex subscriptions for interactive sessions).
 The subscription wording flip-flops: the hero badge titled the free tier "ChatGPT or Claude" when I first recorded it on 2026-09-13, "Claude Code or Codex" by 2026-09-18, and "ChatGPT or Claude" again on 2026-09-27, while by 2026-10-02 the badge read only "FREE FOR INDIVIDUALS" and the FAQ question has named Claude Code or Codex throughout.
 The same published pricing covers the managed SaaS and a BYOC deployment into your own AWS account.
-Optional enterprise support packages run $5,000 (Standard), $10,000 (Advanced), and $15,000 (Premier) per month as of 2026-10-02.
+Optional enterprise support packages run $5,000 (Standard), $10,000 (Advanced), and $15,000 (Premier) per month as of 2026-10-04.
 This replaces the May 2024 model, which was $20/seat/month for the review bot.
 
 ## Price history

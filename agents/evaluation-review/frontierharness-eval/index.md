@@ -1,7 +1,7 @@
 ---
 title: "FrontierHarness Eval"
 created: 2026-09-05
-updated: 2026-09-25
+updated: 2026-10-04
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, evaluation, benchmark, coding-agents]
 readability: 3
@@ -44,6 +44,7 @@ Reproducing a run costs whatever your chosen harness's tokens cost.
 ## Compared to
 
 - SWE-bench and its variants: repository-grounded but model-confounded, since harness and model change together; FrontierHarness's value is precisely the held-constant model.
+- The Scaffold Effect study (arXiv 2607.22585): an academic two-model, three-harness experiment on a 50-task Terminal-Bench Pro subset finding up to 40x token-per-solved-task spread with pass-rate gaps of 0-8 points and harness failure fingerprints that replicate across models; independent of any vendor, but a preliminary workshop submission covering two models and one benchmark.
 - [deepeval](../deepeval/index.md): a framework for evaluating your own LLM app, not a public leaderboard of third-party harnesses.
 - [Phoenix](../phoenix/index.md): observability for your own traces, complementary rather than competing.
 
@@ -57,6 +58,7 @@ Not as a final ranking, and not for teams whose tasks look nothing like its 30.
 - 2026-09-05 - Created from the entrant-resolution run, profiling Runta's nine-harness same-model benchmark.
 - 2026-09-08 - Reference point count corrected from 81 to 82.
 - 2026-09-12 - Quality spread corrected from about 13 to about 17 points, with publisher attribution folded in and Claude Code second on quality.
+- 2026-10-04 - Added the Scaffold Effect arXiv study to Compared to and References as the independent academic counterpart on harness variance.
 
 ## See also
 
@@ -69,6 +71,7 @@ Not as a final ranking, and not for teams whose tasks look nothing like its 30.
 
 - https://frontierharness.org - the live results and interactive report
 - https://github.com/frontier-harness-eval/eval - public tasks, metadata, results, and the evaluation skill
+- https://arxiv.org/abs/2607.22585 - the independent academic harness-variance study (Vats and Golev, submitted 2026-06-08, under review at the DL4C Workshop at ICML 2026), fetched 2026-10-04
 - https://runta.com/blog/introducing-frontierharness-eval/ - the launch article and evaluation design
 - https://hn.algolia.com/api/v1/items/49538490 - the 82-point launch thread and its methodological criticism
 - https://runta.com - the publisher and its funding context

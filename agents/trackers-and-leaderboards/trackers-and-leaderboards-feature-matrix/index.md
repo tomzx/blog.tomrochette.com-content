@@ -1,7 +1,7 @@
 ---
 title: "Trackers and Leaderboards Feature Matrix"
 created: 2026-09-24
-updated: 2026-10-02
+updated: 2026-10-04
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3-flash, comparison, trackers-and-leaderboards, benchmarks, leaderboards, open-data]
 readability: 3
@@ -25,7 +25,7 @@ Each column links to the full research note; every cell traces to a source cited
 | Kind | release timeline plus flat-file corpus | independent benchmarking site and data business | research nonprofit with open datasets | composite aggregator with agent-facing API | blind preference arena | gateway usage rankings |
 | The number measures | launch-day facts: what shipped, when, with which claimed scores | the operator's own controlled evals, prices, and speed runs | long-run trends: compute, cost, capability over time | public benchmark evidence, normalized with uncertainty | blind human preference votes | tokens processed through one gateway |
 | Run by | To sider ApS, a Danish side project (one visible operator) | venture-backed independent company (AI Grant seed) | 501(c)(3) nonprofit, itemized donors, about 50 people | ZeroEval Inc. (self-displayed YC backing) | Arena Intelligence Inc. ($100M seed at $600M) | OpenRouter, a gateway acquired-by-Stripe (announced 2026-08-19) |
-| Coverage | 231 releases, 10 labs (as of 2026-08-26) | 689 models, 100+ providers, 1,000+ endpoints, chips | 3,200+ models since 1950, data centers, chips, companies | 400 canonical models, 50+ benchmarks claimed | text, image, video, vision, search, webdev, agent arenas | 500+ models via the gateway, 80+ providers |
+| Coverage | 231 releases, 10 labs (as of 2026-08-26) | 690 models, 100+ providers, 1,000+ endpoints, chips | over 3,600 models since 1950, data centers, chips, companies | 400 canonical models, 50+ benchmarks claimed | text, image, video, vision, search, webdev, agent arenas | 500+ models via the gateway, 80+ providers |
 | Update cadence | on each release; dataset last updated 2026-08-26 | daily changelog; index versions iterate weekly | near-daily data updates, page-stamped | continuously; "within hours of release" claimed | continuous votes; product posts within days | daily UTC buckets, about one day of lag |
 | Methodology published | ~ FAQ and data notes, no formal methodology | ✓ methodology hub with evaluation lists and weights | ✓ transparency page, papers, and data documentation | ~ score construction published, details gated | ✓ methodology repo (arena-rank) plus founding paper | ✓ on-page caveats plus Data API docs |
 | Data access | ✓ /models.json and llms-full.txt, free with attribution | ~ web charts free, data platform paid, no public API documented | ✓ CC BY datasets and a Python client | ✓ REST plus 11 MCP tools, free tier | ~ arenas open, methodology open, raw votes not re-offered | ✓ CC BY 4.0 JSON via Data API, history to 2025-01-01 |
@@ -69,12 +69,13 @@ Epoch's FrontierMath episode and LMArena's Maverick episode are the two document
 ## References
 
 - https://web.archive.org/web/20260826134434/https://aireleasetracker.com/ - AI Release Tracker column: scope, footprint, alerts, operator (fetched 200, 2026-09-24)
-- https://artificialanalysis.ai/ - Artificial Analysis column: model count, indexes, provider coverage (fetched 200, 2026-09-29)
+- https://artificialanalysis.ai/ - Artificial Analysis column: model count, indexes, provider coverage (fetched 200, 2026-10-04)
+- https://epoch.ai/data - Epoch AI column: update stamps and the models explorer's over-3,600 count (fetched 200, 2026-10-04)
 - https://artificialanalysis.ai/methodology/intelligence-benchmarking - Artificial Analysis column: published evaluation weights (fetched 200, 2026-09-24)
 - https://epoch.ai/about/transparency - Epoch AI column: nonprofit status, funders, consultations (fetched 200, 2026-09-24)
-- https://llm-stats.com/developer - LLM Stats column: API tiers, MCP tools, quotas (fetched 200, 2026-09-29)
+- https://llm-stats.com/developer - LLM Stats column: API tiers, MCP tools, quotas (re-fetched 200, 2026-10-04, tiers unchanged)
 - https://techcrunch.com/2025/05/21/lm-arena-the-organization-behind-popular-ai-leaderboards-lands-100m/ - LMArena column: funding and company identity (fetched 200, 2026-09-24)
 - https://arxiv.org/abs/2504.20879 - LMArena column: the private-testing findings (fetched 200, 2026-09-24)
-- https://openrouter.ai/rankings - OpenRouter Rankings column: methodology, caveats, licensing (fetched 200, 2026-09-24)
+- https://openrouter.ai/rankings - OpenRouter Rankings column: methodology, caveats, licensing (re-fetched 200, 2026-10-04, data through Oct 3)
 - https://openrouter.ai/blog/announcements/openrouter-is-joining-stripe/ - OpenRouter Rankings column: the ownership question (fetched 200, 2026-09-24)
 - https://minimaxir.com/2026/05/openrouter-hy3/ - OpenRouter Rankings column: the free-tier distortion evidence (fetched 200, 2026-09-24)

@@ -21,8 +21,8 @@ BYOK covers OpenAI, Anthropic, Google Gemini, Vertex AI, Novita, and any OpenAI-
 
 ## Status
 
-**Active and small: commits this week, with 1,442 stars and 167 forks as of 2026-10-03.**
-The repo (kodustech/kodus-ai) was created March 28, 2025 and was pushed to on October 2, 2026.
+**Active and small: commits this week, with 1,443 stars and 167 forks as of 2026-10-04.**
+The repo (kodustech/kodus-ai) was created March 28, 2025 and was pushed to on October 4, 2026.
 Funding: I could not verify any funding round from a primary source, so I record none.
 The community footprint is thin, and I state that as a finding: five HN launches between 1 and 5 points, the largest being a 5-point Show HN for the CLI (47248299, March 4, 2026) and a 4-point one for the AGPL/BYOK repositioning (48049508, May 7, 2026).
 A Discord community exists, but I found no independent reviews or benchmarks corroborating the quality claims.
@@ -84,7 +84,7 @@ My disagreeable take: I trust a reviewer whose business model survives zero toke
 
 ## References
 
-- https://github.com/kodustech/kodus-ai - repo, 1,442 stars, 167 forks, AGPL-3.0 + EE dual license, pushed October 2, 2026 (GitHub API, as of 2026-10-03)
+- https://github.com/kodustech/kodus-ai - repo, 1,443 stars, 167 forks, AGPL-3.0 + EE dual license, pushed October 4, 2026 (GitHub API, as of 2026-10-04)
 - https://kodus.io/ - product page and positioning
 - https://kodus.io/pricing/ - Community free, Teams BYOK $10/dev, Enterprise custom, no-markup FAQ, as of 2026-10-02
 - https://docs.kodus.io/ - documentation hub and self-host guide

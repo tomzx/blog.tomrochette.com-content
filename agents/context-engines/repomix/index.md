@@ -1,7 +1,7 @@
 ---
 title: Repomix
 created: 2026-08-24
-updated: 2026-10-03
+updated: 2026-10-04
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, context-packing, open-source, developer-tools]
 readability: 3
@@ -28,7 +28,7 @@ It is built by Kazuki Yamada (yamadashy), sponsored by Warp and CodeRabbit.
 ## Status
 
 **Active and quietly massive.**
-28k stars (28,659), 1.5k forks, and 4,619 commits on GitHub, plus 396,460 npm downloads in the last month (2026-09-02 to 2026-10-01), stars, forks, and downloads as of 2026-10-03, with v1.18.1 released 2026-09-21.
+28k stars (28,674), 1.5k forks, and 4,619 commits on GitHub, plus 396,460 npm downloads in the last month (2026-09-02 to 2026-10-01), stars, forks, and downloads as of 2026-10-04, with v1.18.1 released 2026-09-21.
 It was nominated in the Powered by AI category at the JSNation Open Source Awards 2025.
 The community footprint is the interesting signal: it inverts the usual pattern, with enormous usage but near-zero discourse (the largest HN story I found has 4 points), because a tool that just works generates no threads.
 A clone ecosystem (Gitingest for Python, Unify, Scribe) confirms the pattern is durable rather than incidental.

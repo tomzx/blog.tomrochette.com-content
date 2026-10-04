@@ -16,15 +16,15 @@ Owain Lewis is a UK-based AI engineer and engineering director whose YouTube cha
 
 ## What it is
 
-A YouTube channel (18.7K subscribers as of 2026-09-24) run by Owain Lewis, who describes himself as a principal AI engineer and engineering director with 20 years in software, now running his own AI consultancy.
+A YouTube channel (19K subscribers as of 2026-10-04) run by Owain Lewis, who describes himself as a principal AI engineer and engineering director with 20 years in software, now running his own AI consultancy.
 Coverage is practical agentic engineering: agent loops, nested subagents, software factories, coding agents built from scratch, and Claude Code and Codex workflows.
 Each video pairs with open source he maintains: Machinist (factory infrastructure, 455 stars), blueprint (agent skills, 403 stars), Push (a coding-agent gateway, 196 stars), Neo (a minimal multi-agent harness, 144 stars), and a youtube-tutorials companion repo.
 Uploads run about weekly, and descriptions read like engineering writeups that state token costs, failure modes, and when he would not use his own build.
 
 ## Status
 
-Active and steady at modest scale as of 2026-10-02.
-The channel was created 2014-07-20 and shows 18.7K subscribers; the RSS feed shows 16 uploads between 2026-05-15 and 2026-09-28, roughly one per week.
+Active and steady at modest scale as of 2026-10-04.
+The channel was created 2014-07-20 and shows 19K subscribers; the uploads tab shows no upload newer than "JEV Explained (Real Use Cases)" (2026-09-28), after 16 uploads between 2026-05-15 and 2026-09-28 while the channel's RSS feed was live, roughly one per week (the RSS feed began returning 404 this run).
 The latest upload is "JEV Explained (Real Use Cases)" (2026-09-28); the 2026-09-21 upload ("Inside OpenAI's Agentic Software Factory") had 12,960 views and 180 ratings within three days.
 Reach concentrates in the factory videos: "I Built an Agentic Software Factory" (2026-07-25) is his biggest recent at 68,787 views, while most uploads land between 3,000 and 20,000.
 Trajectory is upward without a breakout, and his roughly 1.2K combined GitHub stars across the pinned repos carry more durable weight than the sub count suggests.
@@ -76,8 +76,8 @@ Not for someone who wants model-release news, enterprise-scale case studies, or 
 
 ## References
 
-- https://www.youtube.com/@owainlewis - the channel: identity and 18.7K subscribers as of 2026-09-24
-- https://www.youtube.com/feeds/videos.xml?channel_id=UC08YjBHjjPFu8T1KbHGomnQ - the RSS feed grounding cadence, titles, dates, view counts, and the 2014-07-20 channel creation
+- https://www.youtube.com/@owainlewis - the channel: identity and 19K subscribers as of 2026-10-04
+- https://www.youtube.com/feeds/videos.xml?channel_id=UC08YjBHjjPFu8T1KbHGomnQ - the RSS feed that grounded cadence, titles, dates, view counts, and the 2014-07-20 channel creation through 2026-09-28 (it began returning 404 on 2026-10-04; the uploads tab replaces it)
 - https://github.com/owainlewis - the GitHub profile linking this channel, with bio, location, and pinned repo star counts
 - https://owainlewis.com - the personal site: positioning, newsletter, and community links
 - https://aiengineer.co/start - the free starter pack and email funnel behind every video description

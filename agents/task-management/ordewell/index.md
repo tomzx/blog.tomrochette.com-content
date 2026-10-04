@@ -1,7 +1,7 @@
 ---
 title: Ordewell
 created: 2026-09-16
-updated: 2026-10-03
+updated: 2026-10-04
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, task-management, planner, multi-agent, open-source]
 readability: 3
@@ -25,7 +25,7 @@ The planner's permissions are unusually explicit (ADR-0008): commands classify i
 ## Status
 
 Active, young, and small.
-As of 2026-10-03: 183 stars, 14 forks, 32 open issues (most of them a single-day roadmap filing on 2026-09-26), created 2026-07-31, pushed 2026-10-02, latest release v0.6.1 on 2026-10-02, and roughly 4,700 npm downloads last month across the `ordewell` and `@ordewell/cli` package names.
+As of 2026-10-04: 183 stars, 14 forks, 30 open issues (most of them a single-day roadmap filing on 2026-09-26), created 2026-07-31, pushed 2026-10-03, latest release v0.6.1 on 2026-10-02, and roughly 4,700 npm downloads last month across the `ordewell` and `@ordewell/cli` package names.
 The v0.6 pair landed one day after v0.5.6 closed a five-day, seven-release v0.5.x line: v0.6.0 made the structured transport the default with Codex and OpenCode connectors, added Full auto and Auto modes, and a task log that keeps a scrolled-back reader's place, while v0.6.1 added ops tasks and merge gates (ADR-0020), so a task that acts on the world runs once the work it depends on is merged.
 The Show HN launch thread reached 56 points and 30 comments on 2026-09-15.
 

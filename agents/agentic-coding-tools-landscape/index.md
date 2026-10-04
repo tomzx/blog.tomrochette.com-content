@@ -1,7 +1,7 @@
 ---
 title: "Agentic Coding Tools Landscape"
 created: 2026-08-22
-updated: 2026-10-03
+updated: 2026-10-04
 status: finished
 tags: [ai, llm, coding-agents, developer-tools, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 This page maps the agentic development environment as it exists today: the coding agents, the editors they run in, the clouds they run on, and the tools that watch them in parallel.
-Everything here was verified against live sources on 2026-10-03.
+Everything here was verified against live sources on 2026-10-04.
 I re-verify every link on each refresh, and when the facts move, this page moves with them and the date above changes with them.
 
 **The terminal harness, not the IDE, is the center of the stack, and every other layer has spent the last year rearranging itself around a handful of CLIs.**
@@ -45,7 +45,7 @@ The independent tail matters more than its market share suggests.
 [goose](../harnesses/goose/index.md), Block's Rust agent, joined the Agentic AI Foundation at its formation in December 2025 and completed the migration to the foundation that April, the field's first foundation-governed agent exit.
 [Qwen Code](../harnesses/qwen-code/index.md), Alibaba's fork of Gemini CLI, made its name as the field's free-tier on-ramp and remains the open-weights showcase, though its Qwen OAuth free tier (2,000 requests per day) was discontinued on April 15, 2026.
 [Kilo Code](../harnesses/kilo-code/index.md) carries the Cline-and-Roo feature-merge forward with subagents, schedules, and cloud tasks bundled in, since July 2026 as part of Anaconda.
-[OpenHands](../harnesses/openhands/index.md), the renamed OpenDevin now living under its own OpenHands org at about 89k stars, is the largest platform-camp bet: sandboxed code-shell-browser agents you can self-host behind its new Agent Canvas plus server architecture.
+[OpenHands](../harnesses/openhands/index.md), the renamed OpenDevin now living under its own OpenHands org at about 89.9k stars, is the largest platform-camp bet: sandboxed code-shell-browser agents you can self-host behind its new Agent Canvas plus server architecture.
 [fx](../harnesses/fx/index.md) (Vercel Labs, Apache-2.0) is the newest entrant and the first embed-first harness: a ~6 MiB Zig binary with subagents, MCP, and native AGENTS.md, built to live inside other programs and sandboxes rather than to be your environment.
 [jcode](../harnesses/jcode/index.md) (Solo Systems, MIT) is the resource-efficiency bet from a YC-backed solo founder: a Rust daemon with a measured RAM floor, a native memory graph, same-repo swarm coordination, and self-dev mode that rebuilds its own binary.
 [Ante](../harnesses/ante/index.md) (Antigma Labs, Apache-2.0 source) is the footprint-and-offline bet: one ~15MB Rust binary with an embedded llama.cpp engine that runs GGUF models with no account, alongside AGENTS.md, skills, subagents, MCP, and self-published Terminal-Bench runs pinned to public builds.
@@ -96,7 +96,7 @@ Read the caps before you promise anyone a timeline.
 Run enough agents in parallel and your bottleneck stops being generation and starts being supervision.
 The vendors answer inside the harness: subagents in Claude Code and Codex, background agent views, git worktrees everywhere.
 A separate category answers from outside: agentic development environments that run any CLI agent in isolated worktrees and give you one surface to steer and review them all.
-On the GitHub [ade topic](https://github.com/topics/ade), Orca leads with about 84.1k stars as of 2026-10-03, ahead of Paseo and Superset, and the curated [awesome-agent-orchestrators](https://github.com/andyrewlee/awesome-agent-orchestrators) list tracks well over a hundred more across TUIs, desktop apps, swarms, loop runners, and task runners.
+On the GitHub [ade topic](https://github.com/topics/ade), Orca leads with about 84.5k stars as of 2026-10-04, ahead of Paseo and Superset, and the curated [awesome-agent-orchestrators](https://github.com/andyrewlee/awesome-agent-orchestrators) list tracks well over a hundred more across TUIs, desktop apps, swarms, loop runners, and task runners.
 [Omnara](../orchestration/omnara/index.md) (YC S25) pushes the category toward infrastructure: an Apache-2.0 Go control plane where an agent is a YAML config and execution and state live server-side, supervised from a dashboard, phone, CLI, REST API, or Slack, positioned as the open-source alternative to Claude Managed Agents.
 [AX](../orchestration/ax/index.md) (Google) pushes the same direction up to the datacenter: an Apache-2.0 Kubernetes-native control plane where agent tasks, workspaces, and network gates are declarative manifests, with checkpoint-resume measured in about a second.
 
@@ -145,6 +145,7 @@ A harness that adopts the open conventions is making a promise about your exit; 
 - 2026-10-02 - Refreshed the verification chain, with the Orca ade-topic lead count moved to about 83.2k and the DeepSeek Harness stars to about 241.7k; every other cited count moved under one percent.
 - 2026-10-02 - Narrowed OpenCode's superlative to most-starred vendor-neutral harness, which the DeepSeek Harness line (about 241.7k stars, added 2026-09-29) had made self-contradictory.
 - 2026-10-03 - Refreshed the verification chain, with the Orca ade-topic lead count moved to about 84.1k and the Crush stars to about 28.5k; every other cited count moved under one percent.
+- 2026-10-04 - Refreshed the verification chain, with the Orca ade-topic lead count moved to about 84.5k and OpenHands to about 89.9k; every other cited count moved under one percent.
 
 ## See also
 

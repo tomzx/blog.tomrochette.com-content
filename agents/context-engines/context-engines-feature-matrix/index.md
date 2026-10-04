@@ -1,7 +1,7 @@
 ---
 title: "Context Engines Feature Matrix"
 created: 2026-08-24
-updated: 2026-10-01
+updated: 2026-10-04
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, comparison, context-engines, code-retrieval, developer-tools]
 readability: 3
@@ -10,7 +10,7 @@ audience_notes: >
   Assumes you know what MCP, code intelligence, and token budgets mean; each column links to a full note with sources.
 ---
 
-This matrix compares the eight context tools profiled in this section, feature by feature, so the shortlisting step does not require reading eight notes.
+This matrix compares the nine context tools profiled in this section, feature by feature, so the shortlisting step does not require reading nine notes.
 
 **The interesting question is not which engine is best but whether a repository needs one at all: most codebases sit below the only published payback threshold in the category, and I claim most buyers of these engines are paying for an index their own vendors' data cannot justify.**
 
@@ -19,26 +19,26 @@ Each column links to the full research note; every cell traces to a source cited
 
 ## The matrix
 
-| Feature | [Augment Code](../augment-code/index.md) | [Graft](../graft/index.md) | [Graphify](../graphify/index.md) | [qmd](../qmd/index.md) | [Repomix](../repomix/index.md) | [rtk](../rtk/index.md) | [Semble](../semble/index.md) | [Sourcegraph code context platform](../sourcegraph-code-context/index.md) |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Kind | coding platform | local context-graph CLI | local knowledge-graph CLI | local search engine | local CLI | CLI output proxy | local search index | search platform |
-| Deployment | cloud SaaS | local CLI, MCP, and repo files; Trail Brain is the hosted upsell | local CLI, hosted plans or self-host | local CLI plus daemon | local CLI | local binary | local CLI, MCP, or library | single-tenant cloud or self-host |
-| Open source | ~ harness forks OSS Pi | ✓ MIT | ✓ Apache-2.0 | ✓ MIT | ✓ MIT | ✓ Apache-2.0 | ✓ MIT | ~ SCIP only |
-| Free tier | ✗ none | ✓ entirely | ✓ CLI entirely | ✓ entirely | ✓ entirely | ✓ CLI entirely | ✓ entirely | ~ public search only |
-| Index model | real-time semantic index | tree-sitter wiring graph plus optional LLM-written markdown nodes, no vectors | deterministic AST knowledge graph, no vectors | SQLite FTS5 plus vectors, markdown chunks | none, whole-repo pack | none, per-command output filtering | static embeddings plus BM25 fused, tree-sitter chunks | indexed search plus SCIP intel |
-| Index freshness | real-time | structural re-sync per query, background rebuild after edits | snapshot at build time | indexed, refreshed on update | snapshot at pack time | live per command | cached index, auto-invalidated on change | index-dependent |
-| Delivery to agents | own harness only | instruction files in 9 agents, 6-tool MCP server, Claude Code hooks and statusline | skill in 17 assistants (vendor count), MCP, CLI | CLI, MCP server, SDK, plugin | CLI pack, ~ MCP | hooks rewriting commands in 16 tools | MCP, CLI, AGENTS.md instructions, sub-agent installer | MCP server |
-| Scale where it pays | large private repos | large repos where agents re-explore, no published threshold | repo-scale Q&A and path tracing | personal docs and knowledge bases | under a few hundred K tokens | long interactive sessions with noisy commands | repos where grep-and-read burns tokens | 400K+ LOC |
-| Writes code | ✓ agents and factory | ✗ maps, queries, blast radius | ✗ graphs and queries | ✗ searches only | ✗ packs only | ✗ filters output | ✗ searches only | ~ migrations, beta |
-| Pricing model | $20/$100 flat tiers plus usage | free, MIT; Trail Brain from $20k/yr is the upsell | free core, Pro $10/mo yearly or $15 monthly, Teams $20/seat/mo yearly or $29 monthly, Enterprise early access | free, MIT | free, MIT | free CLI, Pro unpriced | free, MIT | from $16K/year |
-| Enterprise orientation | ✓ SOC 2, ISO 42001 | ~ Trail Brain: SOC 2 Type II all plans, HIPAA BAA on Large | ~ hosted Teams/Enterprise plans | ✗ | ✗ | ~ Pro tier, on-prem option | ✗ | ✓ SOC 2, ISO 27001 |
+| Feature | [Augment Code](../augment-code/index.md) | [Graft](../graft/index.md) | [Graphify](../graphify/index.md) | [qmd](../qmd/index.md) | [Repomix](../repomix/index.md) | [rtk](../rtk/index.md) | [Semble](../semble/index.md) | [Serena](../serena/index.md) | [Sourcegraph code context platform](../sourcegraph-code-context/index.md) |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Kind | coding platform | local context-graph CLI | local knowledge-graph CLI | local search engine | local CLI | CLI output proxy | local search index | MCP semantic-code toolkit | search platform |
+| Deployment | cloud SaaS | local CLI, MCP, and repo files; Trail Brain is the hosted upsell | local CLI, hosted plans or self-host | local CLI plus daemon | local CLI | local binary | local CLI, MCP, or library | local MCP server (stdio or HTTP), paid JetBrains plugin backend | single-tenant cloud or self-host |
+| Open source | ~ harness forks OSS Pi | ✓ MIT | ✓ Apache-2.0 | ✓ MIT | ✓ MIT | ✓ Apache-2.0 | ✓ MIT | ~ application GPL-3.0-or-later, SolidLSP MIT | ~ SCIP only |
+| Free tier | ✗ none | ✓ entirely | ✓ CLI entirely | ✓ entirely | ✓ entirely | ✓ CLI entirely | ✓ entirely | ✓ core entirely; JetBrains backend paid | ~ public search only |
+| Index model | real-time semantic index | tree-sitter wiring graph plus optional LLM-written markdown nodes, no vectors | deterministic AST knowledge graph, no vectors | SQLite FTS5 plus vectors, markdown chunks | none, whole-repo pack | none, per-command output filtering | static embeddings plus BM25 fused, tree-sitter chunks | none, live language-server parse (40+ languages); optional JetBrains analysis | indexed search plus SCIP intel |
+| Index freshness | real-time | structural re-sync per query, background rebuild after edits | snapshot at build time | indexed, refreshed on update | snapshot at pack time | live per command | cached index, auto-invalidated on change | live parse of the working tree, no index | index-dependent |
+| Delivery to agents | own harness only | instruction files in 9 agents, 6-tool MCP server, Claude Code hooks and statusline | skill in 17 assistants (vendor count), MCP, CLI | CLI, MCP server, SDK, plugin | CLI pack, ~ MCP | hooks rewriting commands in 16 tools | MCP, CLI, AGENTS.md instructions, sub-agent installer | MCP server (stdio or HTTP) | MCP server |
+| Scale where it pays | large private repos | large repos where agents re-explore, no published threshold | repo-scale Q&A and path tracing | personal docs and knowledge bases | under a few hundred K tokens | long interactive sessions with noisy commands | repos where grep-and-read burns tokens | large polyglot repos, reference hunts and refactors | 400K+ LOC |
+| Writes code | ✓ agents and factory | ✗ maps, queries, blast radius | ✗ graphs and queries | ✗ searches only | ✗ packs only | ✗ filters output | ✗ searches only | ✓ symbol-level edits and renames | ~ migrations, beta |
+| Pricing model | $20/$100 flat tiers plus usage | free, MIT; Trail Brain from $20k/yr is the upsell | free core, Pro $10/mo yearly or $15 monthly, Teams $20/seat/mo yearly or $29 monthly, Enterprise early access | free, MIT | free, MIT | free CLI, Pro unpriced | free, MIT | free core; paid JetBrains plugin, price unpublished | from $16K/year |
+| Enterprise orientation | ✓ SOC 2, ISO 42001 | ~ Trail Brain: SOC 2 Type II all plans, HIPAA BAA on Large | ~ hosted Teams/Enterprise plans | ✗ | ✗ | ~ Pro tier, on-prem option | ✗ | ~ paid JetBrains backend, no enterprise plan | ✓ SOC 2, ISO 27001 |
 
 ## Reading the matrix
 
-**This is not one market: a platform, a code-map CLI, a graph CLI, a search engine, a packer CLI, an output proxy, an on-demand search index, and a search platform share a category label but sell eight different jobs.**
-Augment sells the author-review-verify loop around its engine; Graft sells a readable map the agent opens like any other file; Graphify sells structural reasoning about one codebase; qmd sells local retrieval over your documents; Repomix sells one deterministic file; rtk sells cheaper command output; Semble sells instant query-time snippets with no standing service; Sourcegraph sells retrieval to whatever agent you already run.
+**This is not one market: a platform, a code-map CLI, a graph CLI, a search engine, a packer CLI, an output proxy, an on-demand search index, an LSP symbol toolkit, and a search platform share a category label but sell nine different jobs.**
+Augment sells the author-review-verify loop around its engine; Graft sells a readable map the agent opens like any other file; Graphify sells structural reasoning about one codebase; qmd sells local retrieval over your documents; Repomix sells one deterministic file; rtk sells cheaper command output; Semble sells instant query-time snippets with no standing service; Serena sells the IDE's own symbol tools to whatever agent you already run; Sourcegraph sells retrieval to whatever agent you already run.
 The review service that used to sit in this table, Greptile, moved to the Code review category, because what it sells is judgment on the PR stream, not retrieval.
-The Writes code row makes the split visible: only Augment ships authoring agents, while Sourcegraph's Agentic Batch Changes stays in the migration lane, and the 2026 columns refuse the code-writing job entirely.
+The Writes code row makes the split visible: Augment ships authoring agents, Sourcegraph's Agentic Batch Changes stays in the migration lane, Serena edits at the symbol level when the task asks, and the other 2026 columns refuse the code-writing job entirely.
 
 **I read the delivery row as the lock-in axis the marketing never names.**
 Sourcegraph speaks MCP (plus API and CLI surfaces) to any agent; Repomix hands a plain file to anything that reads; Semble installs itself into whatever agents it finds, MCP, AGENTS.md instructions, or a sub-agent; Graft goes furthest, committing hooks, a statusline, and MCP config into the repo so the wiring travels with the code; Augment's Context Engine only drives Augment's own surfaces, so its documented token savings are purchasable only inside its own harness.
@@ -49,7 +49,7 @@ Repomix inverts that curve: it pays off under a few hundred thousand tokens, the
 Augment and Graft claim the large-private-repo end but publish no size threshold.
 
 **Freshness splits real-time from snapshot, and it bites exactly when an agent is mid-edit.**
-Augment indexes in real time; Repomix is a snapshot invalidated by every edit; Sourcegraph depends on index lag it inherits from its architecture.
+Augment indexes in real time; Repomix is a snapshot invalidated by every edit; Sourcegraph depends on index lag it inherits from its architecture; Serena sidesteps the axis entirely by parsing the working tree live with no index at all.
 
 **Every efficiency number in this matrix is vendor-run, and the pricing floors span free to $150K.**
 Augment's 33% token savings, Sourcegraph's cost deltas, Semble's 99%-fewer-tokens benchmark, and Graft's 42% token savings and 54%-to-66% SWE-bench jump all come from the vendors themselves; Augment, Semble, and Graft at least publish methodology alongside the numbers, which is the category's best practice even if no third party has replicated any of it, and Semble's founders explicitly decline to claim end-to-end agent improvements.
@@ -64,6 +64,7 @@ Augment's 33% token savings, Sourcegraph's cost deltas, Semble's 99%-fewer-token
 - Local search over personal docs, notes, and knowledge bases for humans and agents: qmd, it is free and local.
 - Small or mid repo, one-shot whole-repo questions, onboarding packs, or a CI guard on context budget: Repomix, it is free.
 - Repo too big to pack, agents burning tokens on grep-and-read, no appetite for a standing service: Semble, measuring with `semble savings` before believing the benchmark.
+- IDE-grade navigation, reference hunts, and symbol edits on a large polyglot repo, free and local: Serena, keeping grep for the vague concept queries symbol tools cannot answer.
 - Metered-API sessions dominated by noisy test, git, and search output: rtk, measuring with `rtk gain` before believing the savings.
 - Code must stay on-device: Graphify, Repomix, and Graft's structural layer locally, qmd and rtk entirely, or Sourcegraph self-hosted; Augment's engine stays in its cloud.
 
@@ -79,6 +80,7 @@ Augment's 33% token savings, Sourcegraph's cost deltas, Semble's 99%-fewer-token
 - 2026-09-24 - Removed the verification preamble line on owner request.
 - 2026-09-25 - Updated the Graphify delivery cell to the vendor's documented 17-assistant installer surface.
 - 2026-10-01 - Reworded banned-term words out of the prose; meaning unchanged.
+- 2026-10-04 - Extended from eight to nine columns with Serena (the LSP-backed MCP semantic-code toolkit), inserted in sorted position between Semble and Sourcegraph and traced to the new note; the intro, reading, and choosing sections updated for the ninth job and the live-parse freshness column.
 
 ## See also
 
@@ -105,3 +107,5 @@ Augment's 33% token savings, Sourcegraph's cost deltas, Semble's 99%-fewer-token
 - https://raw.githubusercontent.com/trailhq/Graft/main/TELEMETRY.md - the telemetry policy for the Graft column
 - https://trailhq.com/pricing - Trail Brain plan pricing for the Graft column's pricing cell
 - https://hn.algolia.com/api/v1/items/49299985 - the launch thread grounding the Graft column's vendor-run-benchmark caveat
+- https://github.com/oraios/serena - the Serena column: tool surface, backends, licensing, adoption (as of 2026-10-04)
+- https://raw.githubusercontent.com/oraios/serena/main/LICENSE - the per-component license behind the Serena column's open-source cell

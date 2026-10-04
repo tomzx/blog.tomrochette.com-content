@@ -1,7 +1,7 @@
 ---
 title: OpenRouter Rankings
 created: 2026-09-24
-updated: 2026-10-03
+updated: 2026-10-04
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, trackers-and-leaderboards, usage, market-share, open-data]
 readability: 3
@@ -18,12 +18,12 @@ OpenRouter Rankings ranks models by the tokens actually processed through the Op
 
 A rankings surface inside openrouter.ai, the LLM gateway founded in early 2023 that claims 500T+ monthly tokens, 10M+ users, 80+ providers, and 500+ models.
 The page states plainly what it does not measure: "They do not rank models by accuracy, reasoning ability, or benchmark performance", and it excludes private requests while bucketing usage into daily UTC aggregates per model variant.
-Views include top models (today, week, month), top models by task share of spend, cost per session for coding agents, market share by model author, fastest models, and top apps (Hermes Agent, Claude Code, Kilo Code, and Cline led in tokens as of 2026-09-24).
+Views include top models (today, week, month), top models by task share of spend, cost per session for coding agents, market share by model author, fastest models, and top apps (Hermes Agent, Claude Code, Kilo Code, and Cline led in tokens as of 2026-10-04).
 Data access is unusually open: rankings are CC BY 4.0 with a required citation format, and the Data API serves `rankings-daily` (top 50 public models per day, history back to 2025-01-01, 30 requests/minute, live-updating) to any inference key.
 
 ## Status
 
-Fresh and commercially central: the page showed "Usage data through Oct 2, 2026" as of 2026-10-03, a one-day lag, and updates flow live as traffic arrives.
+Fresh and commercially central: the page showed "Usage data through Oct 3, 2026" as of 2026-10-04, a one-day lag, and updates flow live as traffic arrives.
 The underlying gateway is a top-of-category business: $113M Series B led by CapitalG in May 2026 at a reported $1.3B valuation, then an announced acquisition by Stripe on August 19, 2026 at a reported price above $7B, with the company claiming 10T+ tokens per day.
 Its numbers are routinely quoted as market signal in press and on HN, and OpenRouter itself turned the dataset into research (a 100T-token empirical study that drew 207 points on HN).
 
@@ -73,7 +73,7 @@ My disagreeable claim: this is the most misused ranking in the category, cited a
 
 ## References
 
-- https://openrouter.ai/rankings - methodology, caveats, windows, top apps, CC BY 4.0 note, data-through date (fetched 200, 2026-10-03)
+- https://openrouter.ai/rankings - methodology, caveats, windows, top apps, CC BY 4.0 note, data-through date (fetched 200, 2026-10-04)
 - https://openrouter.ai/docs/cookbook/administration/data-api - Data API endpoints, limits, citation format, dataset history from 2025-01-01 (fetched 200, 2026-09-24)
 - https://openrouter.ai/about - company scale claims and founding date (fetched 200, 2026-09-24)
 - https://openrouter.ai/blog/announcements/series-b/ - $113M Series B and investors, May 2026 (fetched 200, 2026-09-24)

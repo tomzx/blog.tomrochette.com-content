@@ -26,7 +26,7 @@ It also streams partial objects, iterates lists, exposes hooks for logging and m
 
 **Active and mainstream.**
 The repository shows about 13.9k stars and 1,656 commits as of 2026-10-02, and PyPI shows release 1.17.0 uploaded September 9, 2026, following 1.16.0 on August 27, in a cadence of monthly-plus releases stretching back to 2023.
-The README claims 3M+ monthly downloads and use inside OpenAI, Google, Microsoft, and AWS teams; PyPI counters with roughly 8.4M downloads over the last month as of 2026-10-02, flat against the September 25 reading after a steep September slide from roughly 22M, so the README claim remains conservative but the collapse has paused rather than continued.
+The README claims 3M+ monthly downloads and use inside OpenAI, Google, Microsoft, and AWS teams; PyPI counters with roughly 8.5M downloads over the last month as of 2026-10-04, flat against the September 25 reading of roughly 8.4M after a steep September slide from roughly 22M, so the README claim remains conservative but the collapse has paused rather than continued.
 OpenAI publicly credited Instructor as inspiration for its native SDK structured-output helpers at the August 2024 Structured Outputs launch, and the project's own README now steers agent use cases to PydanticAI, the Pydantic team's agent runtime.
 
 ## Strengths

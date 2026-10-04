@@ -1,7 +1,7 @@
 ---
 title: "Surface Feature Matrix"
 created: 2026-08-24
-updated: 2026-09-27
+updated: 2026-10-04
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, comparison, surfaces, ai-editors]
 readability: 3
@@ -10,7 +10,7 @@ audience_notes: >
   Assumes you know what MCP, AGENTS.md, cloud agents, and BYOK mean; each column links to a full note.
 ---
 
-This matrix compares the twelve surfaces profiled in this section, feature by feature, from editors to agent platforms to session cockpits.
+This matrix compares the thirteen surfaces profiled in this section, feature by feature, from editors to agent platforms to session cockpits.
 
 **The surfaces differ less in whether they have an agent and more in what they are: an editor with an agent inside, a platform that treats the editor as one client, or a cockpit for many agents, and the row that matters most is the one nobody advertises, who runs where.**
 
@@ -19,19 +19,19 @@ Each column links to the full research note; every cell traces to a source cited
 
 ## The matrix
 
-| Feature | [Continue](../continue/index.md) | [Cursor](../cursor/index.md) | [Google Antigravity](../antigravity/index.md) | [JetBrains IDEs](../jetbrains/index.md) | [Kiro](../kiro/index.md) | [OpenChamber](../openchamber/index.md) | [Roo Code](../roo-code/index.md) | [Trae](../trae/index.md) | [Void](../void/index.md) | [VS Code + Copilot](../vscode-copilot/index.md) | [Windsurf](../windsurf/index.md) | [Zed](../zed/index.md) |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Kind | platform, IDE, CLI, SDK | extensions and CLI | VS Code fork | IDE suite | closed IDE | local session app | VS Code extension | VS Code fork | VS Code fork | editor plus extensions | VS Code fork | Rust editor |
-| Open source | ✗ | ✓ Apache-2.0 | ✗ | ~ Community IDEs | ✗ | ✓ MIT | ✓ Apache-2.0 | ✗ | ✓ Apache-2.0 | ~ MIT editor | ✗ | ~ mixed licenses |
-| Free tier | ✓ unlimited completions | ✓ final 2.1.0 | ✓ Hobby | ✓ 5 credits | ✓ 50 credits | ✓ | ✓ BYOK extension | ✓ | ✓ | ✓ Copilot Free | ✓ Devin account | ✓ |
-| BYOK | ✗ | ✓ | ✓ | ✓ Junie | ✗ | ✓ via OpenCode | ✓ | ? | ✓ | ✓ | ✗ Devin key only | ✓ |
-| Local models | ✗ | ✓ Ollama | ? | ✓ Junie | ✗ | ✓ via OpenCode | ✓ | ? | ? | ✓ | ? | ✓ |
-| MCP | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ? | ✓ | ✓ | ✓ |
-| AGENTS.md | ? | ✗ own rules | ✓ | ✗ guidelines.md | ✓ | ✓ | ✓ if enabled | ✓ | ? | ✓ | ✓ | ✓ |
-| Cloud agents | ~ remote control | ✗ | ✓ | ~ | ✓ web and Crew | ✗ local machine only | ~ Cloud sunset 2026-05 | ✓ TraeWork | ✗ | ✓ Copilot agent | ✓ Devin | ✗ |
-| Parallel agent management | ✓ command center | ✗ | ✓ fleets | ? | ✓ Crew | ✓ core loop | ~ orchestrator mode | ✓ concurrent tasks | ✗ | ✓ Agents window | ✓ Command Center | ~ agent panel |
-| Scheduled work | ✓ scheduled messages | ✗ | ✓ automations | ? | ✓ hooks | ✓ cron | ? | ? | ✗ | ~ via GitHub | ? | ✗ |
-| Mobile surface | ✓ remote control | ✗ | ✓ | ✓ | ✓ | ✓ beta | ? | ? | ✗ | ✓ Copilot app | ? | ✗ |
+| Feature | [Continue](../continue/index.md) | [Cursor](../cursor/index.md) | [Delta](../delta/index.md) | [Google Antigravity](../antigravity/index.md) | [JetBrains IDEs](../jetbrains/index.md) | [Kiro](../kiro/index.md) | [OpenChamber](../openchamber/index.md) | [Roo Code](../roo-code/index.md) | [Trae](../trae/index.md) | [Void](../void/index.md) | [VS Code + Copilot](../vscode-copilot/index.md) | [Windsurf](../windsurf/index.md) | [Zed](../zed/index.md) |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Kind | platform, IDE, CLI, SDK | extensions and CLI | multiplayer agent environment over DeltaDB | VS Code fork | IDE suite | closed IDE | local session app | VS Code extension | VS Code fork | VS Code fork | editor plus extensions | VS Code fork | Rust editor |
+| Open source | ✗ | ✓ Apache-2.0 | ✗ | ✗ | ~ Community IDEs | ✗ | ✓ MIT | ✓ Apache-2.0 | ✗ | ✓ Apache-2.0 | ~ MIT editor | ✗ | ~ mixed licenses |
+| Free tier | ✓ unlimited completions | ✓ Hobby | ✓ beta free | ✓ Individuals $0 | ✓ 5 credits | ✓ 50 credits | ✓ | ✓ BYOK extension | ✓ | ✓ | ✓ Copilot Free | ✓ Devin account | ✓ |
+| BYOK | ✗ | ✓ | ✓ | ✓ | ✓ Junie | ✗ | ✓ via OpenCode | ✓ | ? | ✓ | ✓ | ✗ Devin key only | ✓ |
+| Local models | ✗ | ✓ Ollama | ~ via external agents | ? | ✓ Junie | ✗ | ✓ via OpenCode | ✓ | ? | ? | ✓ | ? | ✓ |
+| MCP | ✓ | ✓ | ? | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ? | ✓ | ✓ | ✓ |
+| AGENTS.md | ? | ✗ own rules | ? | ✓ | ✗ guidelines.md | ✓ | ✓ | ✓ if enabled | ✓ | ? | ✓ | ✓ | ✓ |
+| Cloud agents | ~ remote control | ✗ | ~ web and cloud runners | ✓ | ~ | ✓ web and Crew | ✗ local machine only | ~ Cloud sunset 2026-05 | ✓ TraeWork | ✗ | ✓ Copilot agent | ✓ Devin | ✗ |
+| Parallel agent management | ✓ command center | ✗ | ✓ threads | ✓ fleets | ? | ✓ Crew | ✓ core loop | ~ orchestrator mode | ✓ concurrent tasks | ✗ | ✓ Agents window | ✓ Command Center | ~ agent panel |
+| Scheduled work | ✓ scheduled messages | ✗ | ? | ✓ automations | ? | ✓ hooks | ✓ cron | ? | ? | ✗ | ~ via GitHub | ? | ✗ |
+| Mobile surface | ✓ remote control | ✗ | ✓ mobile browser | ✓ | ✓ | ✓ | ✓ beta | ? | ? | ✗ | ✓ Copilot app | ? | ✗ |
 
 ## Reading the matrix
 
@@ -41,16 +41,19 @@ Antigravity and OpenChamber are the extremes, a closed platform giving the most 
 
 **MCP support is table stakes and effectively universal**, which moves the differentiation to AGENTS.md, where JetBrains (guidelines.md) is now the lone vendor-convention holdout after Kiro added AGENTS.md support.
 
-**The cloud-agents row separates three philosophies:** platforms with their own cloud (Cursor, Kiro, Trae, Windsurf under Devin, VS Code via GitHub), tools that only reach your own machine (OpenChamber, Zed, Void), and Antigravity's remote-control middle path.
+**The cloud-agents row separates three philosophies:** platforms with their own cloud (Cursor, Delta, Kiro, Trae, Windsurf under Devin, VS Code via GitHub), tools that only reach your own machine (OpenChamber, Zed, Void), and Antigravity's remote-control middle path.
+
+**Delta is the only column that is not an editor or a host at all: it is a thread with its own worktree, recorded in a version-control layer that keeps the conversation beside the code, which is why its review row is strongest where every other column leans on a forge.**
 
 **BYOK plus local models is the sovereignty column pair, and only JetBrains (via Junie), OpenChamber (via OpenCode), VS Code, and Zed fill both cells today.**
 
-**Two of the twelve columns are death records, Continue acquired by Cursor in June 2026 and Roo Code sunset by its own team in May 2026, so their cells read as as-they-were snapshots; both exits point at [Cline](../../harnesses/cline/index.md), which tells you where the extension generation's value consolidated.**
+**Two of the thirteen columns are death records, Continue acquired by Cursor in June 2026 and Roo Code sunset by its own team in May 2026, so their cells read as as-they-were snapshots; both exits point at [Cline](../../harnesses/cline/index.md), which tells you where the extension generation's value consolidated.**
 
 ## Choosing from the matrix
 
 - Want the editor to stay dumb and own the agents: OpenChamber, Zed, or VS Code with an ACP harness.
 - Want the surface to also be the cloud: Cursor, Kiro, or Windsurf under Devin.
+- Want review fused into the work instead of filed afterward, and can accept hosted history: Delta, free while in beta, betting your team will read threads.
 - Want zero budget: Antigravity's free tier or Void, accepting the incident record or the stall respectively.
 - Must keep code on-device: OpenChamber, Void, or Zed with BYOK.
 
@@ -65,6 +68,8 @@ Antigravity and OpenChamber are the extremes, a closed platform giving the most 
 - 2026-09-24 - Renamed the JetBrains column to its listing title, JetBrains IDEs; no cells moved.
 - 2026-09-24 - Removed the verification preamble line on owner request.
 - 2026-09-27 - Renamed the Antigravity column to its member title, Google Antigravity, and re-sorted the columns by member title (it now sorts under G); no cell content moved.
+- 2026-10-04 - Corrected the Free tier row, where the Cursor column carried Continue's final-release marker and the Antigravity column carried Cursor's Hobby tier name, a misalignment dating to the original ten-column row being one cell short; Cursor now reads Hobby and Antigravity reads Individuals $0, per the member notes.
+- 2026-10-04 - Extended from twelve to thirteen columns with Delta, Zed Industries' multiplayer agent environment over DeltaDB (public beta 2026-09-16), inserted alphabetically between Cursor and Google Antigravity, and updated the intro, reading, and choosing sections.
 
 ## See also
 
@@ -85,3 +90,5 @@ Antigravity and OpenChamber are the extremes, a closed platform giving the most 
 - https://roocodeinc.github.io/Roo-Code/features/custom-instructions - AGENTS.md and .roorules for the Roo Code column
 - https://roocodeinc.github.io/Roo-Code/features/mcp/overview - MCP for the Roo Code column
 - https://docs.devin.ai/desktop/getting-started - product direction and MCP for the Windsurf column, also the redirect target of docs.windsurf.com (308 through /windsurf/getting-started) since September 16, 2026
+- https://zed.dev/blog/delta-public-beta - the public beta announcement, PR replacement, and free-during-beta status behind the Delta column
+- https://delta.dev/pricing - Personal and Pro tiers, BYOK, and the Zed-shared account behind the Delta column's free-tier and BYOK cells

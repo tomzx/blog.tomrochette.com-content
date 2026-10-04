@@ -1,7 +1,7 @@
 ---
 title: GraphCode
 created: 2026-09-27
-updated: 2026-09-30
+updated: 2026-10-04
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, llm=glm-5.3-flash, orchestration, macos, graph, loops]
 readability: 3
@@ -24,7 +24,7 @@ It bundles no agents and drives five backends (Claude Code, GitHub Copilot CLI, 
 
 ## Status
 
-New and fast-moving: about 133 stars and 19 forks as of 2026-10-02, created 2026-07-26, with v0.1.77 (2026-09-29, loops come back after a codespace or remote-host restart) following the first stable v0.1.76 of 2026-09-28, still a pre-1.0 line.
+New and fast-moving: about 134 stars and 19 forks as of 2026-10-04, created 2026-07-26, with v0.1.77 (2026-09-29, loops come back after a codespace or remote-host restart) following the first stable v0.1.76 of 2026-09-28, still a pre-1.0 line, and a 0.1.78 beta line (three betas on October 3) already running on top of it.
 It is maintained by one developer, scgopi, on top of Ghostty's terminal engine and the zmx session daemon.
 **Two months old, one maintainer, and a 0.1.x version mean GraphCode is an idea to try, not infrastructure to depend on, and its FSL-1.1-MIT license is source-available rather than OSI open source until the future license converts.**
 
@@ -65,6 +65,7 @@ Not for Intel Macs, Linux, or Windows, and not for anyone who requires an OSI op
 - 2026-09-27 - Created.
 - 2026-09-29 - Recorded the first stable release, v0.1.76 (September 28), after the 0.1.76-beta2 prerelease, and refreshed star counts.
 - 2026-09-30 - Recorded v0.1.77 (September 29, loops reopen their conversations after a codespace or remote-host restart) and refreshed star counts.
+- 2026-10-04 - Added the 0.1.78 beta line (three prereleases on October 3) to the status, and refreshed star counts.
 
 ## See also
 
