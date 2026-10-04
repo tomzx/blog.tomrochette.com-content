@@ -1,7 +1,7 @@
 ---
 title: Harper Reed
 created: 2026-09-24
-updated: 2026-09-24
+updated: 2026-10-04
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, people, publications, llm-codegen, spec-first, agentic-coding, workflows]
 readability: 3
@@ -24,9 +24,9 @@ Everything ships with the actual prompts inline, and posts carry his "written 98
 ## Status
 
 Active and still iterating in public.
-As of 2026-09-24 the homepage leads with "Why Don't My Agents Break Containment?" (2026-09-22), an agent-containment experiment out of his 2389.ai research, with recent long-form posts in January, March, August, and September 2026 and near-daily notes.
+As of 2026-10-04 the homepage leads with "Why Don't My Agents Break Containment?" (2026-09-22), an agent-containment experiment out of his 2389.ai research, with recent long-form posts in January, March, August, and September 2026 and near-daily notes.
 He is CEO of 2389.ai, where his whole team adopted the Claude Code workflow, and his history page records the arc: CTO of Obama for America from April 2011, Modest sold to PayPal in 2015, 2389 started in 2024.
-The workflow post's footprint is verifiable on Hacker News: commenters in the Kiro IDE launch, the Claude 4, and the GitHub Copilot Coding Agent threads point to it as the popular workflow, one calling it "basically best practice today" (as of 2026-09-24).
+The workflow post's footprint is verifiable on Hacker News: commenters in the Kiro IDE launch, the Claude 4, and the GitHub Copilot Coding Agent threads point to it as the popular workflow, one calling it "basically best practice today" (as of 2026-10-04).
 He also translates major posts into Japanese, Spanish, Korean, and Chinese.
 
 ## Strengths
@@ -40,7 +40,7 @@ He also translates major posts into Japanese, Spanish, Korean, and Chinese.
 
 - Shelf life is short by his own admission: the original post was Aider-centric, Claude Code landed eight days later, and his current work has moved on to agent containment experiments.
 - Greenfield and small-team skew: the multiplayer problem ("the bots collide, the merges are horrific") is named, not solved.
-- Skeptics exist in the same threads that praise him: one engineer reports never succeeding at building a complete feature or prototype with the technique (visible in the HN results as of 2026-09-24).
+- Skeptics exist in the same threads that praise him: one engineer reports never succeeding at building a complete feature or prototype with the technique (visible in the HN results as of 2026-10-04).
 - The signal is buried in a personal blog: profanity, photography, and a high-volume notes stream mean RSS or targeted visits beat casual scrolling.
 
 ## Compared to
@@ -84,4 +84,4 @@ Not for readers wanting evaluation methodology, organization-level platform stra
 - https://harper.blog/2025/05/08/basic-claude-code/ - the Claude Code port and team adoption
 - https://harper.blog/2025/04/10/waterfall-in-15-minutes-or-your-money-back/ - the micro-waterfall framing and team pilot advice
 - https://harper.blog/2026/09/22/break-away/ - the current agent-containment work
-- https://hn.algolia.com/api/v1/search?query=harper%20reed%20llm%20codegen&hitsPerPage=8 - third-party HN evidence: cited as best practice across Kiro, Claude 4, and Copilot Coding Agent threads, plus one skeptic (as of 2026-09-24)
+- https://hn.algolia.com/api/v1/search?query=harper%20reed%20llm%20codegen&hitsPerPage=8 - third-party HN evidence: cited as best practice across Kiro, Claude 4, and Copilot Coding Agent threads, plus one skeptic (as of 2026-10-04)

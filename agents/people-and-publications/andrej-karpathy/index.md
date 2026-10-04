@@ -1,7 +1,7 @@
 ---
 title: Andrej Karpathy
 created: 2026-08-29
-updated: 2026-10-03
+updated: 2026-10-04
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=big-pickle, llm=glm-5.3-flash, people, publications, developer, model-researcher]
 readability: 3
@@ -23,9 +23,10 @@ His public output is the canonical reference for how software engineering itself
 ## Status
 
 Active and central.
-As of 2026-10-03 he is at Anthropic's pre-training team, refreshing his thesis in the Sequoia Ascent 2026 essay that defines Software 3.0.
+As of 2026-10-04 he is at Anthropic's pre-training team, refreshing his thesis in the Sequoia Ascent 2026 essay that defines Software 3.0.
 His Verifiability essay (2025-11-17) lays out verifiability as the automation boundary, and his AutoResearch project demonstrates agents running research loops overnight, so his writing and his builds move together.
-His Bear blog went dark: as of 2026-10-03 every karpathy.bearblog.dev URL, including the Sequoia Ascent and Verifiability essays, returns 404 while karpathy.ai still calls it his current blog, so both essays are now read through Internet Archive copies (snapshot 2026-09-25 and 2026-08-30).
+His Bear blog had an outage: on 2026-10-03 every karpathy.bearblog.dev URL, including the Sequoia Ascent and Verifiability essays, returned 404 while karpathy.ai still called it his current blog.
+By 2026-10-04 the blog was serving again with all posts intact, so both essays read at their live URLs, and the restored post list still ends at the Sequoia Ascent essay (2026-04-30), so nothing new surfaced on it in the recent window.
 
 ## Strengths
 
@@ -58,8 +59,8 @@ Not for people who need a current-events feed or want vendor-neutral, non-fronti
 
 ## Top 5 recommended reading
 
-- [Sequoia Ascent 2026 summary](https://web.archive.org/web/20260925165449/https://karpathy.bearblog.dev/sequoia-ascent-2026/) - his Software 3.0 framing, the verifiability boundary, and the vibe coding versus agentic engineering line in one transcript (the live Bear blog 404s as of 2026-10-03, so this is the archive copy).
-- [Verifiability](https://web.archive.org/web/20260830203738/https://karpathy.bearblog.dev/verifiability/) - the short essay arguing AI automates what you can verify, which explains the jagged frontier (archive copy, same reason).
+- [Sequoia Ascent 2026 summary](https://karpathy.bearblog.dev/sequoia-ascent-2026/) - his Software 3.0 framing, the verifiability boundary, and the vibe coding versus agentic engineering line in one transcript (the live Bear blog again as of 2026-10-04 after a one-day outage).
+- [Verifiability](https://karpathy.bearblog.dev/verifiability/) - the short essay arguing AI automates what you can verify, which explains the jagged frontier.
 - [LLM Wiki](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f) - the pattern where an agent incrementally compiles sources into a persistent wiki instead of re-deriving answers.
 - [Neural Networks: Zero To Hero](https://karpathy.ai/zero-to-hero.html) - the build-it-from-scratch course that shows what the models agents drive actually are.
 - [nanoGPT](https://github.com/karpathy/nanoGPT) - the readable few-hundred-line training and model code that most hobby GPT reproduction work builds on.
@@ -70,6 +71,7 @@ Not for people who need a current-events feed or want vendor-neutral, non-fronti
 - 2026-09-02 - Corrected the verifiability essay reference to the 2025-11-17 "Verifiability" essay.
 - 2026-09-24 - Added the Top 5 recommended reading section.
 - 2026-10-03 - His karpathy.bearblog.dev went dark (404 on the homepage, /blog/, and both essays) while karpathy.ai still lists it as his current blog; the Sequoia Ascent and Verifiability links in Status, Top 5, and References now point to Internet Archive snapshots (2026-09-25 and 2026-08-30), both fetched this run.
+- 2026-10-04 - The Bear blog returned: karpathy.bearblog.dev serves again with no posts lost, so the Sequoia Ascent and Verifiability links in Status, Top 5, and References point at the live URLs again, the restored post list re-verified (newest remains the Sequoia Ascent essay, 2026-04-30), and GitHub, karpathy.ai, and the Hacker News record showed nothing new from him in the 2026-09-24 to 2026-10-04 window.
 
 ## See also
 
@@ -81,8 +83,9 @@ Not for people who need a current-events feed or want vendor-neutral, non-fronti
 ## References
 
 - https://karpathy.ai/ - his main site and the canonical reading list
-- https://web.archive.org/web/20260925165449/https://karpathy.bearblog.dev/sequoia-ascent-2026/ - the Sequoia Ascent 2026 essay defining Software 3.0 (Internet Archive snapshot; the live Bear blog 404s as of 2026-10-03)
-- https://web.archive.org/web/20260830203738/https://karpathy.bearblog.dev/verifiability/ - the Verifiability essay (2025-11-17), the automation-boundary argument (Internet Archive snapshot)
+- https://karpathy.bearblog.dev/blog/ - the live Bear blog index, grounding the post list and its newest entry (the Sequoia Ascent essay, 2026-04-30)
+- https://karpathy.bearblog.dev/sequoia-ascent-2026/ - the Sequoia Ascent 2026 essay defining Software 3.0 (live again as of 2026-10-04; it 404ed during a 2026-10-03 outage)
+- https://karpathy.bearblog.dev/verifiability/ - the Verifiability essay (2025-11-17), the automation-boundary argument
 - https://karpathy.medium.com/software-2-0-a64152b37c35 - the original Software 2.0 essay
 - https://github.com/karpathy/autoresearch - the overnight agent research project
 - https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f - the LLM-Wiki knowledge-base pattern

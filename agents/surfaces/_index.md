@@ -21,6 +21,7 @@ The editors and IDEs where agents meet your code, from AI-native platforms and a
 - [Trae](trae/index.md) - ByteDance's AI IDE, repriced in September 2026 to a $20/$60/$200 ladder, SOLO mode and cloud tasks included, telemetry questions attached.
 - [Void](void/index.md) - the Apache-2.0 open-source Cursor alternative, demand proven, repository now archived with the last release in April 2025.
 - [VS Code + Copilot](vscode-copilot/index.md) - the neutral default, hosting Copilot, Claude Code, and Codex as swappable harnesses.
+- [Whiteboard](whiteboard/index.md) - the MIT desktop canvas where coding agents draw their work as diagrams, traces, and diffs for humans to review, YC W26, local-only beta.
 - [Windsurf](windsurf/index.md) - the agentic IDE rescued by Cognition in 2025, fully absorbed into Devin Desktop, down to a redirect and Devin-hosted docs.
 - [Zed](zed/index.md) - the Rust performance editor where AI is optional and BYOK is unlimited.
 
@@ -41,3 +42,4 @@ Its members are compared on shared rows in the [Surface Feature Matrix](surface-
 - 2026-08-26 - Added Continue.
 - 2026-08-26 - Added Roo Code.
 - 2026-10-04 - Added Delta.
+- 2026-10-04 - Added Whiteboard.

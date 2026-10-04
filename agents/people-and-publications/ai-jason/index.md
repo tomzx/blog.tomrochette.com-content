@@ -1,7 +1,7 @@
 ---
 title: AI Jason
 created: 2026-08-29
-updated: 2026-09-27
+updated: 2026-10-04
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=big-pickle, llm=glm-5.3-flash, people, publications, youtube, context-engineering, agents, practitioner]
 readability: 3
@@ -23,8 +23,9 @@ He is a VC-backed start-up founder who says he has shipped production AI agents 
 ## Status
 
 Active as of 2026-10-04.
-The channel shows 233K subscribers and 103 videos as of 2026-10-04; a third-party analytics site, last verified 2026-09-21, reported 231K subscribers, 102 videos, and 9.1M total views.
-Uploads run two to three a month, with the latest on 2026-09-23 ("GPT 6 + Hyperframe = Crazy combo for expert-level videos") and nothing newer as of 2026-10-04 per the channel's uploads tab (the channel's RSS feed began returning 404 this run).
+The channel shows 233K subscribers and 103 videos as of 2026-10-04; a third-party analytics site, last verified 2026-10-01, reported 233K subscribers, 103 videos, and 9.3M total views.
+Uploads run two to three a month, and the latest upload I can confirm is 2026-09-23 ("GPT 6 + Hyperframe = Crazy combo for expert-level videos").
+The 103-video count corroborates that nothing newer was published through 2026-10-01; as of 2026-10-04 I could not confirm anything either way on YouTube itself, because the channel's RSS feed returns 404 and a direct uploads-tab fetch returned only a JavaScript shell, so if an upload landed after 2026-10-01 it is not yet visible to this note.
 The channel is fully monetized, with past sponsors including Canva, Figma, and Vercel.
 
 ## Strengths
@@ -74,6 +75,7 @@ Not for someone who wants reference-grade depth, a durable archive, or a rigorou
 - 2026-09-22 - Latest upload moved to 2026-09-21 ("Jev + Treg is a crazy combo for automation..."); video count moved to 102 with 9.1M total views per third-party stats.
 - 2026-09-24 - Added the Top 5 recommended reading section.
 - 2026-09-27 - Latest upload moved to 2026-09-23 ("GPT 6 + Hyperframe = Crazy combo for expert-level videos").
+- 2026-10-04 - Window recheck found no newer upload, and the Status wording now says exactly what is verified: the 2026-09-23 video is the latest confirmable one (103-video third-party count through 2026-10-01), while YouTube's own surfaces (RSS 404, uploads-tab JavaScript shell) and X stayed unfetchable, so nothing after 2026-10-01 is confirmable from this run.
 
 ## See also
 
@@ -85,8 +87,8 @@ Not for someone who wants reference-grade depth, a durable archive, or a rigorou
 ## References
 
 - https://www.youtube.com/@AIJasonZ - the channel with subscriber count and video catalog
-- https://www.youtube.com/@AIJasonZ/videos - the channel's uploads tab grounding the upload cadence and the latest video (the former RSS feed URL began returning 404 as of 2026-10-04)
+- https://www.youtube.com/@AIJasonZ/videos - the channel's uploads tab grounding the upload cadence and the latest video (the former RSS feed URL began returning 404 as of 2026-10-04; a direct fetch of this page on 2026-10-04 returned a JavaScript shell)
 - https://www.ai-jason.com/ - his site and email list
-- https://developereducators.com/channel/aijasonz/ - independent channel stats, sponsors, and engagement
+- https://developereducators.com/channel/aijasonz/ - independent channel stats, sponsors, and engagement, last verified 2026-10-01 with 233K subscribers, 103 videos, and 9.3M views
 - https://app.thoughtleaders.io/youtube/ai-jason - third-party analytics on the channel's scale and content focus
 - https://offers.hubspot.com/claude-code-playbook - his product, documenting the production-agent framing and background

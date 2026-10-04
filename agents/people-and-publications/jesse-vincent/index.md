@@ -1,7 +1,7 @@
 ---
 title: Jesse Vincent
 created: 2026-09-24
-updated: 2026-10-03
+updated: 2026-10-04
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, people, publications, coding-agents, agentic-engineering, skills, tdd]
 readability: 3
@@ -16,7 +16,7 @@ Jesse Vincent (obra) is a programmer with an open-source track record long enoug
 
 ## What it is
 
-A long-running personal blog (543 posts as of 2026-10-04) where he publishes point-in-time writeups of how he works with agents, plus Superpowers, an MIT-licensed skill suite (294.9k stars, 26.4k forks, 683 commits as of 2026-10-04) that packages his brainstorm, plan, worktree, subagent-driven development, TDD, and two-axis code review loop as mandatory workflows for 16 coding-agent harnesses.
+A long-running personal blog (543 posts as of 2026-10-04) where he publishes point-in-time writeups of how he works with agents, plus Superpowers, an MIT-licensed skill suite (295.1k stars, 26.4k forks, 683 commits as of 2026-10-04) that packages his brainstorm, plan, worktree, subagent-driven development, TDD, and two-axis code review loop as mandatory workflows for 16 coding-agent harnesses.
 Wikipedia credits him with publishing the Architect/Implementer pattern and a SKILL.md-formatted skills approach about a week before Anthropic shipped its native skills framework.
 He is founder and CEO of Prime Radiant, the applied research lab behind Superpowers, which sells commercial support around it and maintains a public eval suite.
 
@@ -78,13 +78,13 @@ Not for token-budget-tight users, TDD-averse codebases, or readers who want mini
 
 ## References
 
-- https://blog.fsck.com/ - the blog homepage: cadence, recent posts, 541-post archive, and the Prime Radiant/Best Practical/Keyboardio work links
+- https://blog.fsck.com/ - the blog homepage: cadence, recent posts, 543-post archive, and the Prime Radiant/Best Practical/Keyboardio work links
 - https://blog.fsck.com/2025/10/05/how-im-using-coding-agents-in-september-2025/ - the September 2025 methodology writeup
 - https://blog.fsck.com/2025/10/09/superpowers/ - the Superpowers release announcement and skills philosophy
 - https://blog.fsck.com/2026/06/15/Superpowers-6/ - the Superpowers 6 release: eval-driven 50/60 percent improvements and the token-cost admission
 - https://blog.fsck.com/2026/09/21/superpowers-6.4/ - the 6.4 release: new harness support, bare-metal comparison, diagnosing-superpowers skill
 - https://blog.fsck.com/2026/08/21/i-vibe-coded-a-c-compiler/ - the autonomous C-compiler experiment grounding his long-horizon loop practice
-- https://github.com/obra/superpowers - the repo: MIT license, 294.9k stars and 26.4k forks as of 2026-10-04, 683 commits, 16 documented harness installs, commercial support, and telemetry disclosure
+- https://github.com/obra/superpowers - the repo: MIT license, 295.1k stars and 26.4k forks as of 2026-10-04, 683 commits, 16 documented harness installs, commercial support, and telemetry disclosure
 - https://en.wikipedia.org/wiki/Jesse_Vincent - biography: RT, Best Practical, Perl roles, K-9 Mail, Keyboardio, Prime Radiant CEO, and the SKILL.md-before-Anthropic timeline
 - https://hn.algolia.com/api/v1/search?query=jesse%20vincent%20superpowers&hitsPerPage=8 - third-party reception: HN recommendations, the Superpowers 6 thread, metaswarm's reliance on it, and Willison citing it as the TDD reference
 - https://blog.fsck.com/2026/09/29/I-asked-muse-to-tell-me-about-updates-to-its-skills/ - the 2026-09-29 post on exploring the Muse agent and automating daily skill snapshots

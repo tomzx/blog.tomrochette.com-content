@@ -1,7 +1,7 @@
 ---
 title: Addy Osmani
 created: 2026-09-02
-updated: 2026-09-22
+updated: 2026-10-04
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, people, publications, enterprise, agentic-engineering, engineering-leadership]
 readability: 3
@@ -16,16 +16,18 @@ Addy Osmani is the enterprise-hands-on voice on agentic engineering, a 14-year G
 
 ## What it is
 
-A personal blog, books, and open-source repos by Addy Osmani, an engineering leader who spent over 14 years at Google, led developer experience across Chrome and then Gemini's developer experience, and served as a Director at Google Cloud AI running Cloud AI Developer Experience and Technical Evangelism before departing Google in 2026 after 14 years; his site now states he is a Member of Technical Staff at Anthropic working on Claude Code.
+A personal blog, a Substack newsletter, books, and open-source repos by Addy Osmani, an engineering leader who spent over 14 years at Google, led developer experience across Chrome and then Gemini's developer experience, and served as a Director at Google Cloud AI running Cloud AI Developer Experience and Technical Evangelism before departing Google in 2026 after 14 years; his site now states he is a Member of Technical Staff at Anthropic working on Claude Code.
+His newest AI engineering essays land on the Substack (addyo.substack.com) and are mirrored to the personal blog, so the two surfaces together are the current record.
 His stated current focus is agentic engineering: coding agents, harnesses, evals and benchmarks, and code quality.
 His 2026 essays carry concrete theses, like "Agent Skills" (2026-05-03), which argues that the senior engineer's real job is the parts that do not show up in the diff, specs, tests, reviews, and refusing to ship what cannot be verified.
 He packages that argument into artifacts teams can adopt: his site now leads with a new O'Reilly book, "Agentic Engineering", on delegating work to agents without giving up control (designing harnesses, writing specs and skills, and building evals and review into the loop), alongside the "Beyond Vibe Coding" book and the production-grade agent-skills repository, now joined by a second repo, clarity, an agent skill for clearer writing.
 
 ## Status
 
-Active and high-reach as of 2026-09-22, and newly a frontier-lab insider: after leaving Google in 2026, he joined Anthropic as a Member of Technical Staff on the Claude Code team, per his own site.
+Active and high-reach as of 2026-10-04, and newly a frontier-lab insider: after leaving Google in 2026, he joined Anthropic as a Member of Technical Staff on the Claude Code team, per his own site.
 "21 Lessons From 14 Years at Google" (2026-01-03) reached 1,678 points on Hacker News, "Agent Skills" 376 points, and "The next two years of software engineering" (2026-01-11) 328 points.
-His most recent essay is "Brownfield Agentic Engineering" (2026-09-14), on running agents in codebases older than the team.
+His most recent essay is "The Code Nobody Reads" (2026-09-28, on his Substack), which revises his own two-year-old advice to review every line: he now argues line-by-line reading is going away for most code, that the trust reading used to provide must come from independent checks around an untrusted author, and that a person still owns the ship decision.
+Before it came "Brownfield Agentic Engineering" (2026-09-14), on running agents in codebases older than the team, still his latest on the personal blog.
 He discussed "Beyond Vibe Coding" and enterprise AI engineering practice on The Pragmatic Engineer (2025-10-29).
 
 ## Strengths
@@ -73,6 +75,7 @@ Not for readers wanting frontier research depth or a terminal-level tool feed.
 - 2026-09-18 - His site now states he is a Member of Technical Staff at Anthropic working on Claude Code, so the enterprise-hands-on framing moved from ex-Google to frontier-lab insider.
 - 2026-09-22 - His site now features a new O'Reilly book, "Agentic Engineering", his latest essay is "Brownfield Agentic Engineering" (2026-09-14), and a new open-source repo, clarity, joins agent-skills.
 - 2026-09-24 - Added the Top 5 recommended reading section.
+- 2026-10-04 - Added his Substack essay "The Code Nobody Reads" (2026-09-28), which revises his review-every-line advice, as his most recent piece, and named the Substack as a surface in What it is.
 
 ## See also
 
@@ -83,7 +86,9 @@ Not for readers wanting frontier research depth or a terminal-level tool feed.
 ## References
 
 - https://addyosmani.com/ - his site and stated focus on agentic engineering and AI-assisted development, plus the featured "Agentic Engineering" book and clarity repo
-- https://addyosmani.com/blog/ - the blog index grounding the latest post ("Brownfield Agentic Engineering", 2026-09-14) and recent cadence
+- https://addyosmani.com/blog/ - the blog index grounding the personal-blog cadence (latest there: "Brownfield Agentic Engineering", 2026-09-14)
+- https://addyo.substack.com/archive - the Substack archive grounding his newest essays, including "The Code Nobody Reads" (2026-09-28)
+- https://addyo.substack.com/p/the-code-nobody-reads - the essay revising his review-every-line advice into a trust-shifted account of review
 - https://addyosmani.com/bio/ - role history: Chrome developer experience, Gemini developer experience, Director at Google Cloud AI
 - https://addyosmani.com/blog/agent-skills/ - the "Agent Skills" essay and its verification-discipline thesis
 - https://addyosmani.com/blog/next-two-years/ - his 2026 view of where software engineering is headed

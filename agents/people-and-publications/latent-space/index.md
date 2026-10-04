@@ -1,7 +1,7 @@
 ---
 title: Latent Space
 created: 2026-08-29
-updated: 2026-10-03
+updated: 2026-10-04
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=big-pickle, llm=glm-5.3-flash, people, publications, newsletter, podcast, community]
 readability: 3
@@ -25,6 +25,7 @@ It is also, critically, the place where the tools profiled in this section get t
 Active and expanding.
 As of 2026-09-13 the announcement month ran "The State of Latent Space" for 2026, adding shows, hosts, and more interview formats; the AI Engineer conference network grew to events in New York, San Francisco, Paris, and Europe.
 The latest interview issue, "Inside-Out AI: Rebuilding Airbnb Behind the Scenes and Across the Guest Experience" ([2026-10-02](https://www.latent.space/p/airbnb)), follows "Academia is for Ambition" with MIT's Alex Zhang ([2026-10-02](https://www.latent.space/p/rlm)) and "Claude Code's Next Era" with Anthropic's Thariq Shihipar (2026-09-29, ninety minutes on Opus/Sonnet 5.5, Mods, Plugins, and Projects), and the near-daily AINews roundups run through 2026-10-03, after the Pi 1.0, Gemini 4 Argon, and OpenAI DevDay 2026 runs.
+Between those interviews sits the DevDay episode "Why Dwarkesh is Wrong about Computer Use + How OpenAI shipped its Jev competitor in 1 Week" ([2026-09-30](https://www.latent.space/p/devday-2026)), the first pod on the DevDay lineup, where OpenAI's Ari Weinstein argues computer use is "180 degrees different" and Nikunj Handa walks through the Jev-inspired Decisions API.
 The podcast regularly lands the people behind the harnesses this section tracks, and swyx's own notes continue to set trends (memory, filesystems, agent-eats-agent).
 
 ## Strengths
@@ -76,6 +77,7 @@ Not for people who want only hands-on tool notes and who will not filter past th
 - 2026-09-27 - Latest-issue pointer refreshed: the OpenRouter from-Seed-to-Stripe interview (2026-09-25) now leads; subscriber count held at over 201,000.
 - 2026-09-30 - Latest-issue pointer refreshed: the Claude Code's Next Era interview with Anthropic's Thariq Shihipar (2026-09-29) now leads, and AINews leads with OpenAI DevDay 2026 coverage.
 - 2026-10-03 - Latest-issue pointer refreshed: the "Inside-Out AI" Airbnb interview (2026-10-02) now leads the interview cadence and AINews leads with Pi 1.0 coverage; both URLs fetched this run.
+- 2026-10-04 - Window audit added the missed DevDay podcast episode "Why Dwarkesh is Wrong about Computer Use" with OpenAI's Ari Weinstein and Nikunj Handa (2026-09-30) to Status; the rest of the window (issues and AINews through 2026-10-03) verified current against the archive.
 
 ## See also
 
@@ -92,4 +94,5 @@ Not for people who want only hands-on tool notes and who will not filter past th
 - https://ai.engineer/ - the conference series brand
 - https://www.latent.space/s/ainews - the AINews daily roundup arm (the old news.smol.ai deployment was disabled; the roundup now lives as a section of the publication)
 - https://www.latent.space/p/2026 - the 2026 plans post (State of Latent Space)
+- https://www.latent.space/p/devday-2026 - the DevDay episode (2026-09-30) with OpenAI's Ari Weinstein (computer use) and Nikunj Handa (API), grounding the Jev-inspired Decisions API claim
 - https://www.cognitiverevolution.ai/ai-engineers-pendants-and-competition-between-openai-and-developers-with-swyx-of-latent-space - an independent interview where swyx discusses the brand's commercial stake

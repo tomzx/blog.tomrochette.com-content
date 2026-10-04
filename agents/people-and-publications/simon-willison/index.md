@@ -1,7 +1,7 @@
 ---
 title: Simon Willison
 created: 2026-08-29
-updated: 2026-09-30
+updated: 2026-10-04
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=big-pickle, llm=glm-5.3-flash, people, publications, developer, llm-practitioner]
 readability: 3
@@ -23,8 +23,9 @@ He coined the widely quoted framing of LLMs as a "weird, over-confident intern" 
 ## Status
 
 Active and as influential as ever.
-As of 2026-10-04 the homepage shows posts daily, sometimes several a day, through 3 October 2026, with the month's landmark essays "2026 in LLMs (so far)" (2026-09-27, his 7,771-word annotated keynote from the WeAreDevelopers World Congress North America), the OpenAI DevDay 2026 live blog (2026-09-29, filed from the keynote at Fort Mason), and "Claude Opus 5.5, GPT-6 Sol, GPT-6 Luna, and a new price war" (2026-09-22), plus dedicated tag streams for agentic-engineering, coding-agents, and ai-assisted-programming.
-He is also convening offline: a Birds of a Feather session on agentic engineering with Jesse Vincent in San Francisco, announced on the homepage 2026-09-22 for 14 October.
+As of 2026-10-04 the homepage shows posts daily, sometimes several a day, through 3 October 2026, with the recent landmark essays "We're going to need default hard budget caps on pretty much everything" (2026-10-03, his case for hard, default spending limits on pay-by-usage services now that agents can run up surprise bills), "2026 in LLMs (so far)" (2026-09-27, his 7,771-word annotated keynote from the WeAreDevelopers World Congress North America), the OpenAI DevDay 2026 live blog (2026-09-29, filed from the keynote at Fort Mason), and "Claude Opus 5.5, GPT-6 Sol, GPT-6 Luna, and a new price war" (2026-09-22), plus dedicated tag streams for agentic-engineering, coding-agents, and ai-assisted-programming.
+Around the landmarks the security-and-cost thread keeps running: quotes on Meta's Muse agent (2026-09-25 and 2026-09-28), the Anthropic red team's GLM-5.3 cyber-capability report (2026-09-29), and Matthew Green's sandboxing-versus-agent-worms essay (2026-10-01).
+He is also convening offline: a Birds of a Feather session on agentic engineering with Jesse Vincent in San Francisco, announced 2026-09-23 for 14 October.
 He ships code on the blog too: the sqlite-utils 4.0 release notes record that much of it was written by a coding agent, so the blog is documentation of his own agent loops, not just commentary on them.
 
 ## Strengths
@@ -81,6 +82,7 @@ Not for people who prefer periodic synthesis over daily volume, or who want a ve
 - 2026-09-27 - Posting recency refreshed: daily posts through 26 September 2026.
 - 2026-09-29 - Posting recency refreshed: daily posts through 28 September 2026, now led by the "2026 in LLMs (so far)" keynote writeup (2026-09-27) and Claude Sonnet 5.5 coverage (2026-09-28).
 - 2026-09-30 - Posting recency refreshed: daily posts through 29 September 2026, led by the OpenAI DevDay 2026 live blog.
+- 2026-10-04 - Posting recency refreshed through 3 October 2026, added the 3 October default-hard-budget-caps essay as the newest landmark with the Muse-to-sandboxing quote thread around it, and corrected the BoF announcement date to 2026-09-23.
 
 ## See also
 

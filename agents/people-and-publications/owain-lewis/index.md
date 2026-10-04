@@ -1,7 +1,7 @@
 ---
 title: Owain Lewis
 created: 2026-09-24
-updated: 2026-10-02
+updated: 2026-10-04
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, people, publications, youtube, agentic-coding, software-factory, claude-code]
 readability: 3
@@ -77,7 +77,7 @@ Not for someone who wants model-release news, enterprise-scale case studies, or 
 ## References
 
 - https://www.youtube.com/@owainlewis - the channel: identity and 19K subscribers as of 2026-10-04
-- https://www.youtube.com/feeds/videos.xml?channel_id=UC08YjBHjjPFu8T1KbHGomnQ - the RSS feed that grounded cadence, titles, dates, view counts, and the 2014-07-20 channel creation through 2026-09-28 (it began returning 404 on 2026-10-04; the uploads tab replaces it)
+- https://www.youtube.com/feeds/videos.xml?channel_id=UC08YjBHjjPFu8T1KbHGomnQ - the RSS feed that grounded cadence, titles, dates, view counts, and the 2014-07-20 channel creation through 2026-09-28 (it began returning 404 on 2026-10-04, and the same day the uploads tab and channel pages rendered only as JavaScript shells in our fetch, so the latest-upload claim stands as of 2026-10-02; the uploads tab replaces the feed when it renders)
 - https://github.com/owainlewis - the GitHub profile linking this channel, with bio, location, and pinned repo star counts
 - https://owainlewis.com - the personal site: positioning, newsletter, and community links
 - https://aiengineer.co/start - the free starter pack and email funnel behind every video description

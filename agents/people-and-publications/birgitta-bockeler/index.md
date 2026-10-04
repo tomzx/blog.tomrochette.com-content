@@ -17,7 +17,7 @@ Birgitta Böckeler is a Distinguished Engineer for AI-assisted delivery at Thoug
 ## What it is
 
 A memo series, a set of long-form articles, and a constant talk circuit, backed by more than 20 years as a developer, architect, and technical leader.
-The memo series has run on martinfowler.com since 2026-07-23-era posts like "The toolchain", with roughly 30 memos by mid-2026, most authored by her and the rest by Thoughtworks colleagues under the same franchise.
+The memo series has run on martinfowler.com since the first memo, "The toolchain" (2023-07-26), and holds 32 memos as of 2026-10-04, most authored by her and the rest by Thoughtworks colleagues under the same franchise.
 Her 2026 solo pieces are the substantive layer: "Context Engineering for Coding Agents" (2026-02-05), "Harness engineering for coding agent users" (2026-04-02), "Maintainability sensors for coding agents" (2026-05-07), the local-models pair (2026-07-07 and 2026-07-08), and "TDD inside the agent loop - theater or actual value?" (2026-08-10).
 She iterates a "State of Play: AI Coding" talk at QCon London, AI DevCon London, and other stages, and reached practitioners through a June 2025 guest post on The Pragmatic Engineer and interviews including Software Engineering Radio 730 (July 2026).
 Her own site, birgitta.info, indexes all of it by topic.

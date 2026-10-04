@@ -1,7 +1,7 @@
 ---
 title: Matt Pocock
 created: 2026-09-24
-updated: 2026-10-03
+updated: 2026-10-04
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, people, publications, developer, education, ai-coding]
 readability: 3
@@ -18,13 +18,14 @@ Matt Pocock is a full-time developer educator who built Total TypeScript and now
 
 Total TypeScript is the original business: five professional workshops (Pro Essentials, Type Transformations, Generics, Advanced Patterns, Advanced React with TypeScript) taught exercise-first, plus free tutorials, a book, tips, and articles, run by an ex-XState core team member and ex-Vercel developer advocate.
 AI Hero is the newer property: posts, a skills catalogue, an AI Coding Dictionary, workshops, cohorts, and events, concentrated on Claude Code, MCP, evals, and the Vercel AI SDK.
-On GitHub (47.8k followers as of 2026-10-04) the flagship is the skills repo, "Skills for Real Engineers", MIT-licensed, at 275.4k stars as of 2026-10-04, alongside sandcastle (sandboxed coding agents in TypeScript, 8.3k stars), dictionary-of-ai-coding (4.9k stars), and ts-reset (8.6k stars).
-The skills are deliberately small, composable, and forkable: grill-me, grill-with-docs, wayfinder, to-spec, to-tickets, tdd, code-review, and a setup skill, organized around four failure modes of agentic coding.
+On GitHub (47.8k followers as of 2026-10-04) the flagship is the skills repo, "Skills for Real Engineers", MIT-licensed, at 275.6k stars as of 2026-10-04, alongside sandcastle (sandboxed coding agents in TypeScript, 8.3k stars), dictionary-of-ai-coding (4.9k stars), and ts-reset (8.6k stars).
+The skills are deliberately small, composable, and forkable: grill-me, grill-with-docs, wayfinder, to-spec, to-tickets, tdd, code-review, and a setup skill at the core, organized around four failure modes of agentic coding, and the September 2026 batch graduated implement-spec, pr, and retro into the engineering set while renaming the shared-language convention from CONTEXT.md to GLOSSARY.md.
 
 ## Status
 
 Active and at the center of the agent-skills wave.
-The AI Hero discovery index lists well over a hundred public items, including roughly two dozen documented skills with per-skill pages and a changelog, and the skills repo shows 472 commits.
+The AI Hero discovery index lists well over a hundred public items, including roughly two dozen documented skills with per-skill pages and a changelog, and the skills repo shows 493 commits as of 2026-10-04.
+The repo merged its release/v1.3 branch on 2026-09-29, capping the September 24 batch that graduated implement-spec, pr, and retro to the engineering set and renamed the CONTEXT.md convention to GLOSSARY.md; the site's own skills changelog still tops out at v1.2 (2026-08-05).
 His /grill-me skill went viral by his own account (his post on it was last updated 2026-03-23), and an Ask HN thread from 2026-09-08 names it as the one skill a respondent "found gets regular mileage".
 Scale is real: in a May 2026 video he said his AI-coding cohort starting June 1 had around 4,000 to 4,500 students, his most subscribed course ever.
 The trajectory is complete: TypeScript education is now the on-ramp, AI Hero and the skills repo are the main event.
@@ -66,20 +67,23 @@ Not for anyone seeking model research, benchmarks, or vendor-neutral evaluation 
 
 - 2026-09-24 - Created.
 - 2026-09-24 - Added the Top 5 recommended reading section.
+- 2026-10-04 - Window audit: added the skills repo's release/v1.3 merge (2026-09-29) and the September 24 graduation of implement-spec, pr, and retro with the CONTEXT.md-to-GLOSSARY.md rename; commit count refreshed to 493 and skills stars to 275.6k as of 2026-10-04.
 
 ## See also
 
 - [Simon Willison](../simon-willison/index.md) - the daily firehose his curriculum distills into practices
 - [Addy Osmani](../addy-osmani/index.md) - the enterprise-scale counterpart on holding agent output to a production bar
 - [Skills and plugins for OpenCode](../../skills/opencode-skills-and-plugins/index.md) - the packaging format his skills repo helped popularize
-- [Context management patterns](../../context-management-patterns/index.md) - the practice his shared-language, handoff, and CONTEXT.md skills operationalize
+- [Context management patterns](../../context-management-patterns/index.md) - the practice his shared-language, handoff, and GLOSSARY.md skills operationalize
 
 ## References
 
 - https://www.totaltypescript.com/ - the TypeScript business: five workshops, exercise-driven format, his bio (ex-XState core team, ex-Vercel)
 - https://www.aihero.dev/sitemap.md - the AI Hero public content inventory: posts, skills pages, AI Coding Dictionary, cohorts, events
+- https://www.aihero.dev/skills.md - the skills catalogue and changelog, grounding the v1.2 (2026-08-05) top entry and the installer instructions
 - https://www.aihero.dev/my-grill-me-skill-has-gone-viral.md - the grill-me skill text, its design, and his viral-reach claim
 - https://github.com/mattpocock - profile and pinned repos as of 2026-10-04 (47.8k followers; skills, sandcastle, dictionary-of-ai-coding, ts-reset)
 - https://github.com/mattpocock/skills - the skills repo: MIT license, four failure modes, full skill list, ~60,000-person newsletter claim
+- https://github.com/mattpocock/skills/commits/main/ - the commit history grounding the release/v1.3 merge (2026-09-29) and the September 24 graduation of implement-spec, pr, and retro
 - https://news.ycombinator.com/item?id=48321838 - the skeptical HN thread quoting his own cohort-size and revenue numbers
 - https://hn.algolia.com/api/v1/search?query=%22matt+pocock%22&tags=story - the third-party build evidence: multiple Show HNs around his workflow and skills, including the September 2026 grill-me Ask HN

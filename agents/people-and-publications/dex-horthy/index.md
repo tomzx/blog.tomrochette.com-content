@@ -1,7 +1,7 @@
 ---
 title: Dex Horthy
 created: 2026-09-24
-updated: 2026-10-03
+updated: 2026-10-04
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, people, publications, developer, agents, context-engineering]
 readability: 3
@@ -24,7 +24,7 @@ HumanLayer itself pivoted from a human-approval API into a multiplayer coding-ag
 ## Status
 
 Active on a talk-first cadence.
-AI That Works ran weekly through #74 (2026-09-15) with #75 and #76 scheduled for 2026-09-22 and 2026-09-29, so the dependable publication is the weekly recorded conversation.
+AI That Works ran weekly through #76 (2026-09-29, GTM Engineering and AI at Rippling, with #75, All About Jev, aired 2026-09-22), and #77 (Building a Memory Pipeline) is scheduled for 2026-10-06, so the dependable publication is the weekly recorded conversation.
 The 12-factor repo moves slowly now: 273 commits across roughly seventeen months, mostly refinements, and 2026 re-posts of it on HN drew 2 to 3 points, indicating maintenance-mode mindshare after the April 2025 spike (the original Show HN took 475 points and 78 comments).
 His own show bio reads: founder at HumanLayer, 10+ years building devops tools at Replicated, Sprout Social, and JPL, "coiner of the term Context Engineering".
 I read the trajectory as: methodology in 2025, product in 2026, with the open methodology now serving as the top of the funnel for the commercial workspace.

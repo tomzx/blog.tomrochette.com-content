@@ -55,7 +55,7 @@ Not for someone who wants vendor-agnostic coverage, or who minds that the demos 
 
 ## Top 5 recommended reading
 
-- [Jev + Claude Code = The Cheapest Agentic Coding Loop Yet](https://www.youtube.com/watch?v=ScvXFi4MUSc) - His biggest video (150,259 views) and the best single tour of his current thinking: skill selection, feedback loops, adversarial testing, and code review on the newest cheap model.
+- [Jev + Claude Code = The Cheapest Agentic Coding Loop Yet](https://www.youtube.com/watch?v=ScvXFi4MUSc) - His biggest video (167k views as of 2026-10-04) and the best single tour of his current thinking: skill selection, feedback loops, adversarial testing, and code review on the newest cheap model.
 - [Anthropic Just Dropped the Biggest Claude Code Update Yet](https://www.youtube.com/watch?v=B-YQANvDOq0) - The hooks release explained with the undocumented enable flag, a secret redactor, and deploy gating, the video to copy settings from.
 - [Claude Code Just Made Subagents Feel Obsolete](https://www.youtube.com/watch?v=oqp6D-ugtX4) - His argument against in-process subagents, using cmux peer sessions and stacked pull requests as the alternative architecture.
 - [Loop Engineering: The Future of AI Coding?](https://www.youtube.com/watch?v=2-0lxK2wgJ8) - The concept video that frames inner and outer loops and Slack as a memory layer, his vocabulary at its most useful.

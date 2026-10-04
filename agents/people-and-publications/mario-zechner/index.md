@@ -1,7 +1,7 @@
 ---
 title: Mario Zechner
 created: 2026-09-24
-updated: 2026-10-03
+updated: 2026-10-04
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, people, publications, developer, coding-agents, open-source]
 readability: 3
@@ -18,13 +18,14 @@ Mario Zechner is the creator of pi, the minimal self-extensible coding agent he 
 
 An Austrian (Graz-based) developer, coach, and angel investor who created libgdx, the most used Java game framework of the Android era (25.4k stars on GitHub as of 2026-09-24), handed it to contributors in 2016, and lived through the RoboVM acquisition that turned closed-source under Xamarin.
 His current work is pi, formerly badlogic/pi-mono, now earendil-works/pi: an MIT-licensed TypeScript toolkit (unified LLM API, agent loop, TUI, coding agent CLI) whose flagship philosophy is a system prompt under 1,000 tokens, four tools, YOLO-by-default permissions, and deliberate refusal to ship MCP, plan mode, todos, or subagents.
+The MCP refusal has since softened into mediation: the v0.99.0 release (2026-09-29) shipped codemode, tool search, and MCP support as built-in extensions, with MCP tools hidden behind codemode exposure and a one-line system prompt section instead of declared to the model.
 He documents every refusal in long posts with benchmarks, most notably the November 2025 "What I learned building an opinionated and minimal coding agent" and the November 2025 anti-MCP essay showing a 225-token CLI toolset replacing a 13.7k-token MCP server.
 Since April 2026 pi is owned by Earendil with him at the helm, planned as three tiers: MIT core forever, Fair Source value-adds, proprietary enterprise features not yet built.
 
 ## Status
 
-Active, well-resourced, and newly commercial as of 2026-10-03.
-The pi repository shows about 112k stars and 14.2k forks as of 2026-10-03, and releases stayed roughly weekly through a v0.99 sprint to the 1.0 milestone: v1.0.0 shipped 2026-10-01 (per the repo's releases; our [Harnesses note](../../harnesses/pi/index.md) tracks the detail), and OpenClaw, the breakout assistant runtime, is built on it, which is exactly the attention he says drove acquisition offers and 3-5 calls a day before he sold to Earendil.
+Active, well-resourced, and newly commercial as of 2026-10-04.
+The pi repository shows about 112k stars and 14.2k forks as of 2026-10-04, and the release cadence tightened from roughly weekly to nearly daily through the 1.0 sprint: v0.99.0 and v0.99.1 on 2026-09-29 (codemode plus MCP landed in v0.99.0), v0.99.2 on 2026-09-30, v1.0.0 on 2026-10-01 (per the repo's releases; our [Harnesses note](../../harnesses/pi/index.md) tracks the detail), then v1.0.1 on 2026-10-03 and v1.0.2 on 2026-10-04, and OpenClaw, the breakout assistant runtime, is built on it, which is exactly the attention he says drove acquisition offers and 3-5 calls a day before he sold to Earendil.
 His blog slowed after the 2025 agent-post burst (eight agent-era posts between June and November 2025, then three in 2026 through the May 30 robot post), so the repository and release notes now carry more signal than the blog.
 The Earendil arrangement is the open question: the MIT core is pledged as non-negotiable, but tiers two and three existed only as promises when he wrote about them in April 2026.
 
@@ -66,6 +67,7 @@ Not for teams that want turnkey guardrails, MCP-centric stacks, or a maintainer 
 - 2026-09-24 - Created.
 - 2026-09-24 - Added the Top 5 recommended reading section.
 - 2026-10-03 - pi hit 1.0: v1.0.0 released 2026-10-01 after the v0.99.x sprint (repo releases fetched this run); star count refreshed to about 112k as of 2026-10-03.
+- 2026-10-04 - Window audit: added the v0.99.0 codemode-plus-MCP launch (2026-09-29), which turns the MCP refusal into MCP-behind-codemode mediation, and the post-1.0 releases v1.0.1 (2026-10-03) and v1.0.2 (2026-10-04); star count re-verified at about 112k as of 2026-10-04.
 
 ## See also
 

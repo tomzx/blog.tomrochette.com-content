@@ -1,7 +1,7 @@
 ---
 title: Thorsten Ball
 created: 2026-09-24
-updated: 2026-09-27
+updated: 2026-10-04
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, people, publications, developer, coding-agents]
 readability: 3
@@ -23,9 +23,10 @@ On the Amp side he publishes docs, news posts, and a 26-minute working-day scree
 
 ## Status
 
-Active on both fronts as of 2026-09-24.
-Register Spill is near-weekly: his index page lists issues 91 through 100 between July 11 and September 20, 2026, the centenary issue being "Joy & Curiosity #100" on September 20, and the Substack feed shows #101 following on September 26.
-Amp ships visibly: news items through September 22, 2026 ("One Runner, Many Worktrees"), a Free Agent tier (September 13) making Amp free when you bring your own compute and model subscriptions, and his own screencast embedded front and center on the product homepage.
+Active on both fronts as of 2026-10-04.
+Register Spill is near-weekly: his index page lists issues 91 through 100 between July 11 and September 20, 2026, the centenary issue being "Joy & Curiosity #100" on September 20, and the Substack feed shows #101 following on September 26 and #102 on October 4.
+Amp ships visibly: news items through September 29, 2026 ("Plaid Speed", 6x faster GPT-6 Astra inference, after "Opus 5.5" taking over the medium mode on September 28, "Less Noise" on September 25, and "Shared Runners" plus "The Mac App Is Your Runner" on September 24), a Free Agent tier (September 13) making Amp free when you bring your own compute and model subscriptions, and his own screencast embedded front and center on the product homepage.
+The Raising an Agent podcast reached season 2 episode 5 on September 25.
 The spinout announcement he co-signed describes Amp as profitable; the Hacker News thread on it drew 90 points and the pricing pushback noted below.
 The books are stable but frozen at their May 2020 editions (v1.7 and v1.2), so they teach the Go of that era.
 
@@ -67,6 +68,7 @@ Not for readers who want vendor-neutral tool comparisons, budget harness options
 - 2026-09-24 - Created.
 - 2026-09-24 - Added the Top 5 recommended reading section.
 - 2026-09-27 - Reworded a See-also line off a banned term; meaning unchanged.
+- 2026-10-04 - Added the September 24 to 29 Amp news run (Shared Runners, Less Noise, Opus 5.5 on medium, Plaid Speed) and the Raising an Agent season 2 episode 5 date to the Status, and refreshed Register Spill to #102 (2026-10-04).
 
 ## See also
 
@@ -78,9 +80,9 @@ Not for readers who want vendor-neutral tool comparisons, budget harness options
 ## References
 
 - https://thorstenball.com - his bio: Amp co-founder, Zed and Sourcegraph history, books, and newsletter
-- https://thorstenball.com/register-spill - the newsletter's own index page: weekly since April 2023, issues through #101 on 2026-09-26
-- https://registerspill.thorstenball.com - the canonical Substack home, over 9,000 subscribers as of 2026-09-24, with "Joy & Curiosity #101" (2026-09-26) latest per its feed
-- https://ampcode.com - the Amp homepage: his working-day screencast, Orbs, and news through 2026-09-22
+- https://thorstenball.com/register-spill - the newsletter's own index page: weekly since April 2023, issues 91 through 100 between July 11 and September 20, 2026
+- https://registerspill.thorstenball.com - the canonical Substack home, over 9,000 subscribers as of 2026-09-24, with "Joy & Curiosity #102" (2026-10-04) latest per its feed
+- https://ampcode.com/news - the Amp news index: news items with dates through 2026-09-29 (Shared Runners, Less Noise, Opus 5.5, Plaid Speed), the Orbing Screencasts time capsule, and the Raising an Agent season 2 episode 5 date
 - https://ampcode.com/news/amp-inc - the spinout announcement with the co-founder list including him, and the profitability claim
 - https://interpreterbook.com - Writing An Interpreter In Go: pricing, current version 1.7 (May 2020), and testimonials
 - https://compilerbook.com - Writing A Compiler In Go: pricing, current version 1.2 (May 2020)

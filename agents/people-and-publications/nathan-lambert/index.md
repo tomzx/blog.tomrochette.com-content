@@ -1,7 +1,7 @@
 ---
 title: Nathan Lambert (Interconnects)
 created: 2026-08-29
-updated: 2026-09-27
+updated: 2026-10-04
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=big-pickle, llm=glm-5.3-flash, people, publications, open-models, post-training, agents]
 readability: 3
@@ -22,10 +22,10 @@ His [Get Good at Agents](https://www.interconnects.ai/p/get-good-at-agents) (202
 
 ## Status
 
-Active and prolific as of 2026-09-27.
-The newsletter reports over 84,000 subscribers as of 2026-09-27, and his most recent posts are "The current balance of power in open models" (2026-09-21), the expanded form of testimony he prepared for Congress, and a podcast with JS Denain of Epoch AI (2026-09-22), following the RSI-skeptic essay "Why I still haven't bought into true RSI" (2026-09-19).
+Active and prolific as of 2026-10-04.
+The newsletter reports over 85,000 subscribers as of 2026-10-04, and his most recent posts are "The current balance of power in open models" (2026-09-21), the expanded form of testimony he prepared for Congress, and a podcast with JS Denain of Epoch AI (2026-09-22), following the RSI-skeptic essay "Why I still haven't bought into true RSI" (2026-09-19).
 He released the [RLHF Book](https://rlhfbook.com/) ('26) with a companion post-training course, and his site links to open-model tools he maintains: the Artifacts Hub, an Adoption Dashboard, and the ATOM Project.
-He announced he is "currently doing something new" after leaving Ai2.
+The "currently doing something new" tease after leaving Ai2 has landed: on 2026-10-01 he co-founded [Trillium Labs](https://blog.trilliumlabs.org/cp/218529442) with Tom Zick, a nonprofit for the open science of frontier AI that will build fully open post-training recipes and open infrastructure to study RSI, reward hacking, and multi-agent systems, with early support from Halcyon Futures and Schmidt Sciences.
 
 ## Strengths
 
@@ -73,6 +73,7 @@ Not for anyone who wants a mostly-vendor-neutral or application-level overview; 
 - 2026-09-22 - Two posts after the RSI essay: "The current balance of power in open models" (2026-09-21, expanded Congressional testimony) and the Epoch AI podcast with JS Denain (2026-09-22).
 - 2026-09-24 - Added the Top 5 recommended reading section.
 - 2026-09-27 - Subscriber count moved to over 84,000; no new posts since the September 21 to 22 pair.
+- 2026-10-04 - Window audit: added the Trillium Labs launch (2026-10-01), the nonprofit he co-founded with Tom Zick for open post-training science, resolving the "doing something new" teaser; subscriber count refreshed to over 85,000 as of 2026-10-04.
 
 ## See also
 
@@ -90,3 +91,4 @@ Not for anyone who wants a mostly-vendor-neutral or application-level overview; 
 - https://rlhfbook.com/ - the RLHF and post-training book and course
 - https://aiweekly.co/alerts/nathan-lamberts-rlhf-course-reaches-tool-use-and-agents - a third-party note that grounds his course contents and its stated limits
 - https://www.interconnects.ai/p/where-i-stand-on-rsi - the RSI-skeptic essay (2026-09-19), the post that ended his September quiet stretch
+- https://blog.trilliumlabs.org/cp/218529442 - the Trillium Labs launch announcement (2026-10-01), grounding the nonprofit, its co-founder Tom Zick, and its open post-training mission

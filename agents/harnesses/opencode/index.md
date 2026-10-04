@@ -38,9 +38,11 @@ OpenCode is the continuation that kept the name, the domain, and the community.
 ## Cautions
 
 - **[CVE-2026-22812](https://cy.md/opencode-rce/)**: before v1.0.216 any website could execute code on your machine via the auto-started server; before v1.1.10 the server started silently; since v1.1.10 the server is off by default but still unauthenticated when enabled, with some vectors unfixed at disclosure.
+- **[GHSA-632h-h47v-g4x4](https://securitylabs.datadoghq.com/articles/opencode-upgrade-remote-code-execution/)**: Datadog's September 24, 2026 disclosure of a second upgrade-path RCE, a content-type confusion in the `/global/upgrade` endpoint of the web interface exploitable cross-origin, fixed in 1.18.22; Anomaly declined to request a CVE, saying GitHub Security Advisories already cover the ground.
 - Pin your version and read the config.
 - In March 2026 [Anthropic legal requests](https://github.com/anomalyco/opencode/pull/18186) removed the Claude Pro/Max OAuth login and Anthropic-branded defaults, so your Claude subscription will not drive OpenCode; use API keys or Zen.
 - Fast-moving config surface; the docs carry 'versions older than 0.1.x' style of breaking-change warnings.
+- The docs now carry a "v2 is now available" banner linking to a v2 page, while GitHub releases remain on the v1.18.x train (v1.18.34, 2026-09-30), so the v2 launch is a docs-and-marketing channel ahead of a tagged release.
 - Windows works best under WSL.
 
 ## Pricing
@@ -65,6 +67,7 @@ Not for teams that need subscription billing simplicity or cannot audit a fast-m
 - 2026-08-22 - Created in the Harnesses category seed, recording CVE-2026-22812 and the Anthropic legal-request OAuth removal.
 - 2026-08-23 - Style pass: bolded each section's key insight, hyperlinked in-body sources, and clarified referents.
 - 2026-09-26 - Linked the new Model access notes for Zen and Go, where the gateway's billing and the token pack now have their own profiles.
+- 2026-10-04 - Added the GHSA-632h-h47v-g4x4 upgrade-path RCE from Datadog's September 24 disclosure (fixed in 1.18.22, no CVE requested) and the v2-banner-versus-v1.18.x-releases versioning fact.
 
 ## See also
 
@@ -81,4 +84,5 @@ Not for teams that need subscription billing simplicity or cannot audit a fast-m
 - https://github.com/anomalyco/opencode - repository scale, MIT license, desktop builds, as of 2026-10-04
 - https://github.com/anomalyco/opencode/pull/18186 - the March 2026 Anthropic legal-request removals
 - https://cy.md/opencode-rce/ - CVE-2026-22812 disclosure with versions and mitigations
+- https://securitylabs.datadoghq.com/articles/opencode-upgrade-remote-code-execution/ - the GHSA-632h-h47v-g4x4 disclosure (2026-09-24): attack flow, the 1.18.22 fix, and Anomaly's no-CVE reasoning, fetched 2026-10-04
 - https://systima.ai/blog/claude-code-vs-opencode-token-overhead - the measured baseline and cache comparison
