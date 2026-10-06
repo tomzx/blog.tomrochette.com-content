@@ -1,7 +1,7 @@
 ---
 title: Delta
 created: 2026-10-04
-updated: 2026-10-04
+updated: 2026-10-06
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, surfaces, agentic-development-environments, version-control, code-review, multiplayer]
 readability: 3
@@ -48,7 +48,7 @@ The beta requires signing in and accepting beta terms, and the product is the fo
 ## Pricing
 
 Free during the public beta, with paid plans promised for individuals and teams and a stated permanent free version.
-The published ladder shares accounts and credits with Zed: Personal at $0/month (bring your own keys or external agents) and Pro at $10/month ($5 of tokens included, Zed-hosted models, usage-based beyond), as of 2026-10-04.
+The published ladder shares accounts and credits with Zed: Personal at $0/month (bring your own keys or external agents) and Pro at $10/month ($5 of tokens included, Zed-hosted models, usage-based beyond), as of 2026-10-06 (re-verified, unchanged).
 
 ## Price history
 
@@ -86,5 +86,5 @@ The disagreeable claim I will defend: the durable idea here is not replacing Git
 - https://zed.dev/blog/introducing-deltadb - the 2026-06-11 DeltaDB announcement: deltas with stable identities, message-and-edit pairing, CRDT worktrees
 - https://delta.dev/docs/concepts/core-concepts - threads, projects, and Delta worktrees, and the Git-compatibility guarantee
 - https://delta.dev/docs/privacy-and-security/data-storage - what is stored server-side, the Cloudflare backend, email-only deletion, and what Delete Locally does not remove
-- https://delta.dev/pricing - Personal $0 and Pro $10/month, accounts and credits shared with Zed, as of 2026-10-04
+- https://delta.dev/pricing - Personal $0 and Pro $10/month, accounts and credits shared with Zed, as of 2026-10-06
 - https://news.ycombinator.com/item?id=49727245 - the beta thread (154 points, 102 comments as of 2026-10-04): the merge-gating, privacy-upload, and why-not-a-PR criticisms, plus positive beta-user reports

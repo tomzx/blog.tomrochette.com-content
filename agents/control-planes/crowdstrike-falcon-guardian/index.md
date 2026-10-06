@@ -1,7 +1,7 @@
 ---
 title: CrowdStrike Falcon Guardian
 created: 2026-10-04
-updated: 2026-10-04
+updated: 2026-10-06
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, governance, security]
 readability: 3
@@ -22,7 +22,7 @@ There is no public repo, no version number, and no public price; distribution is
 
 ## Status
 
-New and vendor-controlled: announced at Fal.Con 2026 (September 2026) with product pages, a launch blog, and documentation paths live as of 2026-10-04.
+New and vendor-controlled: announced at Fal.Con 2026 (September 2026) with product pages, a launch blog, and documentation paths live as of 2026-10-06.
 The marketing page claims 99 percent detection efficacy against prompt attacks and sub-100-millisecond detection latency, figures an independent party has not tested.
 Community response started skeptical: the r/crowdstrike thread asks what happens to agents that do not run on managed endpoints and reads the product as sensor-bound, which is the objection this category's endpoint-anchored entrants always face.
 

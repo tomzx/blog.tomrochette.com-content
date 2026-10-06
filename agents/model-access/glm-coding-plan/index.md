@@ -1,7 +1,7 @@
 ---
 title: GLM Coding Plan
 created: 2026-09-26
-updated: 2026-10-04
+updated: 2026-10-06
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, model-access, subscription, coding]
 readability: 3
@@ -42,10 +42,10 @@ I found no reliable subscriber counts.
 
 ## Pricing
 
-Current tiers as of 2026-10-04: Lite $18/month (per Z.ai docs), Pro $80 and Max $168 per August 2026 snapshots of the subscribe page, with 20% off quarterly and 30% off yearly billing (effective $12.60/$56/$117.60 per month).
+Current tiers as of 2026-10-06: Lite $18/month (per Z.ai docs), Pro $80 and Max $168 per August 2026 snapshots of the subscribe page, with 20% off quarterly and 30% off yearly billing (effective $12.60/$56/$117.60 per month).
 The July 2026 credits system allocates 2,000/10,000 credits per 5 hours/week on Lite, 12,000/60,000 on Pro, 28,000/140,000 on Max.
 Credits deduct per token type with multipliers (GLM-5.3: input 6.9, cached input 1.7, output 24; GLM-5.3-Flash: 2.3/0.56/8, divided by 10,000), plus per-call charges for bundled MCP tools.
-Peak hours (Mon-Fri 14:00-18:00 UTC+8) bill at 1x and off-peak at 0.5x on the credits plan, weekends bill at the off-peak rate, and a promotion charges all usage at the off-peak rate from September 25 to October 7, 2026 (docs.z.ai, fetched 2026-10-04).
+Peak hours (Mon-Fri 14:00-18:00 UTC+8) bill at 1x and off-peak at 0.5x on the credits plan, weekends bill at the off-peak rate, and a promotion charges all usage at the off-peak rate from September 25 to October 7, 2026 (docs.z.ai, fetched 2026-10-06).
 Under the legacy prompts system, Z.ai documented quota as roughly 80/400/1,600 prompts per 5-hour window, with the flagship burning at 3x during peak hours, and one prompt estimated at 15-20 model invocations.
 
 ## Price history
@@ -59,8 +59,8 @@ Under the legacy prompts system, Z.ai documented quota as roughly 80/400/1,600 p
 
 ## Compared to
 
-- [- Cerebras Code](../cerebras-code/index.md) sells speed at $50/$200; choose it when latency dominates, GLM when volume per dollar dominates.
-- [- Chutes](../chutes/index.md) sells cheap pay-as-you-go across many model families; choose it for flexibility, GLM for a large fixed quota on one frontier family.
+- [Cerebras Code](../cerebras-code/index.md) sells speed at $50/$200; choose it when latency dominates, GLM when volume per dollar dominates.
+- [Chutes](../chutes/index.md) sells cheap pay-as-you-go across many model families; choose it for flexibility, GLM for a large fixed quota on one frontier family.
 - Z.ai's own [ZCode](../../harnesses/zcode/index.md) is the intended surface, but any supported harness works with the same quota.
 
 ## Bottom line
@@ -73,14 +73,15 @@ Claim to disagree with: the rational entry is a single month of $18 Lite and nev
 
 - 2026-09-26 - Created.
 - 2026-10-04 - Corrected the peak-burn mechanics: the 3x flagship multiplier belongs to the legacy prompt plans, while the July credits plan bills 1x at peak and 0.5x off-peak (weekends off-peak all day, and an all-day off-peak promotion runs September 25 to October 7, 2026); GLM-5.3-Flash multipliers added.
+- 2026-10-06 - Cleaned the Compared-to and See also link labels (stray leading dashes inside the link text), with the docs re-verified unchanged.
 
 ## See also
 
-- [- Cerebras Code](../cerebras-code/index.md) - the speed-first alternative subscription.
-- [- Chutes](../chutes/index.md) - the cheap multi-model alternative.
-- [- ZCode](../../harnesses/zcode/index.md) - Z.ai's own coding surface for this plan.
-- [- Cline](../../harnesses/cline/index.md) - one of the first tools the plan targeted.
-- [- Model selection for coding tasks](../../model-selection-for-coding-tasks/index.md) - how to decide whether GLM models fit your tasks.
+- [Cerebras Code](../cerebras-code/index.md) - the speed-first alternative subscription.
+- [Chutes](../chutes/index.md) - the cheap multi-model alternative.
+- [ZCode](../../harnesses/zcode/index.md) - Z.ai's own coding surface for this plan.
+- [Cline](../../harnesses/cline/index.md) - one of the first tools the plan targeted.
+- [Model selection for coding tasks](../../model-selection-for-coding-tasks/index.md) - how to decide whether GLM models fit your tasks.
 
 ## References
 

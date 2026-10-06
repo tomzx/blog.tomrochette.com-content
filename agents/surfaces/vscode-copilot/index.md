@@ -1,7 +1,7 @@
 ---
 title: VS Code + Copilot
 created: 2026-08-23
-updated: 2026-10-05
+updated: 2026-10-06
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, surfaces, ai-editors, microsoft, github]
 readability: 3
@@ -16,7 +16,7 @@ VS Code plus GitHub Copilot is Microsoft's agent surface: an MIT-licensed editor
 
 ## What it is
 
-The editor is open source (MIT, about 193k GitHub stars as of 2026-10-05) with AI built in.
+The editor is open source (MIT, about 193k GitHub stars, 193,564, as of 2026-10-06) with AI built in.
 The 2026 docs reorganize everything around agents: an Agents window for managing multiple sessions, a Chat view, browser tools, subagents, memory, hooks, skills, and MCP.
 **Sessions hand off across surfaces, and VS Code discovers sessions created by Copilot CLI, Claude Code, and Codex.**
 Cloud agents run on GitHub, where assigning an issue to Copilot produces a pull request from an ephemeral Actions environment.
@@ -24,7 +24,7 @@ Cloud agents run on GitHub, where assigning an issue to Copilot produces a pull 
 ## Status
 
 **Active and default.**
-The repository shows commits landing daily and about 193k stars as of 2026-10-05.
+The repository shows commits landing daily and about 193k stars as of 2026-10-06.
 Every Copilot plan now includes Copilot CLI and the Copilot desktop app, and the agent docs are the editor documentation's front door as of August 2026.
 One contraction is ending: new self-serve Copilot Business and Copilot Enterprise purchases were paused on April 22, 2026, and on September 3, 2026 GitHub announced it is gradually reopening self-serve sign-ups for card and PayPal payers over the following weeks.
 The same changelog moved card and PayPal Business and Enterprise customers to prepaid seats from October 1, 2026: every seat must be paid before its user gains access, and existing customers' seats incur an upfront charge at the start of the billing cycle.
@@ -87,5 +87,5 @@ Not for teams that want the editor itself to come with strong opinions.
 - https://docs.github.com/en/copilot/get-started/plans - plan prices and AI credit allotments, as of 2026-10-05
 - https://docs.github.com/en/copilot/concepts/agents/cloud-agent/about-cloud-agent - the cloud agent and issue assignment (formerly /concepts/about-copilot-coding-agent, moved)
 - https://github.blog/changelog/2026-09-03-reopening-copilot-business-and-enterprise-signups - the September 3, 2026 reopening announcement for self-serve Business and Enterprise sign-ups, and the prepaid-seat billing it introduced effective October 1, 2026
-- https://github.com/microsoft/vscode - MIT license and repository scale, as of 2026-09-27
+- https://github.com/microsoft/vscode - MIT license and repository scale, as of 2026-10-06
 - https://news.ycombinator.com/item?id=44031432 - coding-agent launch discussion with early skepticism

@@ -1,7 +1,7 @@
 ---
 title: OpenResearch
 created: 2026-10-05
-updated: 2026-10-05
+updated: 2026-10-06
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, open-source, autoresearch, multi-agent, alphaXiv]
 readability: 3
@@ -24,7 +24,7 @@ The agent-facing surface is first-class: `orx install-skills` installs a skill i
 
 ## Status
 
-Active and fast-moving: 6,579 stars, 419 forks, 66 open issues and pull requests, created 2026-06-07, last push 2026-10-05, with releases v0.2.13 through v0.2.15 landing between September 29 and October 2, as of 2026-10-05.
+Active and fast-moving: 6,642 stars, 420 forks, 66 open issues and pull requests, created 2026-06-07, last push 2026-10-06, with releases v0.2.13 through v0.2.16 landing between September 29 and October 5, as of 2026-10-06.
 Traction is GitHub-native rather than press-driven: Trendshift records the repository reaching #1 on GitHub Trending on September 11, then #1 Repository of the Day and #2 Repository of the Week in week 38, with 33 contributors.
 **The Hacker News footprint is nearly absent, and that is itself the signal: a 6-point June story and a 1-point September 30 story with zero comments, as of 2026-10-05, so adoption is spreading through GitHub without any critical public debate yet.**
 

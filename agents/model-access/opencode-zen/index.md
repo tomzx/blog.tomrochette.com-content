@@ -20,7 +20,7 @@ It also sells to teams (workspaces, roles, member spending caps, model toggles, 
 
 ## Status
 
-Active, with heavy catalog churn managed through a public deprecation table (docs updated 2026-09-28), and workspaces free during the beta with team pricing unannounced.
+Active, with heavy catalog churn managed through a public deprecation table (docs updated 2026-10-06), and workspaces free during the beta with team pricing unannounced.
 The Reddit thread "Opencode Zen is astoundingly more expensive than OpenRouter" (July 2026) is the sharpest public criticism and remains the note's key stress test.
 **Zen sells curation and reliability, and community measurements say that premium can exceed 4x the cheapest gateway on identical models.**
 
@@ -41,7 +41,7 @@ The Reddit thread "Opencode Zen is astoundingly more expensive than OpenRouter" 
 
 ## Pricing
 
-Pay-as-you-go per 1M tokens, as of 2026-10-02: GLM-5.3 $1.40/$4.40, GLM-5.3-Flash $0.15/$0.50, Kimi K3 $3/$15, Qwen3.7 Plus $0.40/$1.60, DeepSeek V4.1 Flash $0.30/$1.20, MiniMax M3 $0.30/$1.20.
+Pay-as-you-go per 1M tokens, as of 2026-10-06: GLM-5.3 $1.40/$4.40, GLM-5.3-Flash $0.15/$0.50, Kimi K3 $3/$15, Qwen3.7 Plus $0.40/$1.60, DeepSeek V4.1 Flash $0.30/$1.20, MiniMax M3 $0.30/$1.20.
 Frontier lines: Claude Sonnet 5 $2/$10, Claude Opus 5.5 $4/$20, Claude Fable 5.1 $10/$50, GPT 5.5 $5/$30, GPT 6 Astra $10/$50, GPT 6 Sol $2/$10, GPT 6.1 Sol $2/$10, Gemini 3.8 Flash $1.50/$7.50, Grok 4.7 $2/$6, with long-context surcharge tiers documented per model.
 Jev 1.13 charges $0.042 per input with free output, and twelve models are free including the Big Pickle and Space Bunny stealth models, all for a limited time.
 Auto-reload charges $20 when the balance falls below $5, and OpenCode itself uses low-cost models to generate session titles on your bill.

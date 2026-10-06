@@ -1,7 +1,7 @@
 ---
 title: Nanobot
 created: 2026-08-30
-updated: 2026-10-04
+updated: 2026-10-06
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, assistant-runtimes, python, self-hosted, open-source]
 readability: 3
@@ -23,7 +23,7 @@ Started by Xubin Ren as a personal project, now under the HKUDS lab banner (the 
 
 ## Status
 
-One of the fastest adoption curves in the category: 48,763 stars, 8,601 forks, 806 open issues as of 2026-10-04, created 2026-02-01, pushed the same day.
+One of the fastest adoption curves in the category: 48,812 stars, 8,610 forks, 832 open issues as of 2026-10-06, created 2026-02-01, pushed the same day.
 Sixteen PyPI releases since February 2026, with v0.3.0 on 2026-07-25 followed by a seven-week quiet stretch that v0.3.5 ended on 2026-09-15, and the launch HN thread drew 257 points.
 **PyPI still classifies it Alpha, and one listed maintainer carries the release burden, the two facts I would weight against the star count.**
 
@@ -48,7 +48,7 @@ You supply LLM keys and infrastructure; the only money path is third-party hosti
 
 ## Compared to
 
-- [OpenClaw](../openclaw/index.md): the 389k-star root with the largest ecosystem and heaviest codebase; choose OpenClaw for ecosystem, nanobot for readable Python.
+- [OpenClaw](../openclaw/index.md): the 391k-star root with the largest ecosystem and heaviest codebase; choose OpenClaw for ecosystem, nanobot for readable Python.
 - [ZeroClaw](../zeroclaw/index.md): the Rust single-binary performance bet; choose ZeroClaw for footprint, nanobot for hackability.
 - [NanoClaw](../nanoclaw/index.md): the containerized, auditable security-first rewrite; choose NanoClaw when isolation is the priority, nanobot when extensibility in Python is.
 
@@ -73,7 +73,7 @@ Not for production assistants unattended on the open internet, or anyone who nee
 
 - https://github.com/HKUDS/nanobot - repository, features, license, adoption numbers
 - https://raw.githubusercontent.com/HKUDS/nanobot/HEAD/README.md - surfaces, install paths, and the OpenClaw positioning
-- https://pypi.org/project/nanobot-ai/ - the Alpha classification, release cadence, and maintainer record (re-checked 2026-10-04, v0.3.5 still latest)
+- https://pypi.org/project/nanobot-ai/ - the Alpha classification, release cadence, and maintainer record (re-checked 2026-10-06 via the registry API, v0.3.5 still latest)
 - https://news.ycombinator.com/item?id=46897737 - the 257-point launch thread, including the security critique
 - https://github.com/openclaw/openclaw - the comparison baseline
 - https://github.com/zeroclaw-labs/zeroclaw - the comparison data

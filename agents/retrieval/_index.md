@@ -8,7 +8,7 @@ tags: [agents, retrieval]
 readability: 3
 ---
 
-Feeding agents the right slices of large corpora: chunking libraries, parsing pipelines, search-engine libraries, the two big frameworks, and the patterns built on them.
+Feeding agents the right slices of large corpora: chunking libraries, parsing pipelines, search-engine libraries, a full RAG engine, the two big frameworks, and the patterns built on them.
 
 - [Chonkie](chonkie/index.md) - the MIT chunking library (token, semantic, and neural chunkers) for RAG pipelines, its commercial arm dead and its maker pivoted to Feyn Labs.
 - [Docling](docling/index.md) - IBM-origin document parser turning PDF, Office, audio, and video into structured DoclingDocuments for RAG and agent pipelines.
@@ -17,8 +17,10 @@ Feeding agents the right slices of large corpora: chunking libraries, parsing pi
 - [LlamaIndex](llamaindex/index.md) - the MIT data framework for retrieval pipelines, now the open arm of LlamaParse.
 - [open-codebase-index](open-codebase-index/index.md) - the MIT self-hosted semantic code index (embeddings, BM25, call graph) served to OpenCode, Claude Code, Codex, Pi, and MCP clients.
 - [Orama](orama/index.md) - the Apache-2.0 embeddable search engine and RAG pipeline for JS/TS, 1.5M weekly installs on a stalled release train.
+- [RAGFlow](ragflow/index.md) - InfiniFlow's Apache-2.0 RAG engine (DeepDoc parsing, template chunking, citations, agentic retrieval), 91.7k stars, self-hosted or clouded, with a disruptive 1.0 Go rewrite.
 - [Semantic code search](semantic-code-search/index.md) - retrieval by meaning over embedded chunks, shipped as a workspace index.
 - [Tree-sitter chunking](tree-sitter-chunking/index.md) - cutting files along syntax boundaries instead of fixed line counts.
+- [Unstructured](unstructured/index.md) - the Apache-2.0 parsing incumbent Docling displaced, now funneling to a hosted Transform MCP server and quote-priced Pipelines.
 
 Its members are compared on shared rows in the [Retrieval Feature Matrix](retrieval-feature-matrix/index.md).
 
@@ -33,3 +35,5 @@ Its members are compared on shared rows in the [Retrieval Feature Matrix](retrie
 - 2026-09-27 - Added Docling.
 - 2026-10-05 - Added open-codebase-index.
 - 2026-10-06 - Added Orama.
+- 2026-10-06 - Added RAGFlow.
+- 2026-10-06 - Added Unstructured.

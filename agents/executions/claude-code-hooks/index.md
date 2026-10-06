@@ -17,7 +17,7 @@ Claude Code hooks are user-defined shell commands, HTTP endpoints, or LLM prompt
 ## What it is
 
 Hooks live in JSON settings files at four scopes (user, project, local, and organization-managed policy) plus plugin manifests, skill frontmatter, and subagent frontmatter.
-**The event surface has grown to roughly 30 lifecycle points**: session start and end, prompt submit, before and after every tool call, permission requests, compaction, subagent start and stop, file changes on disk, and config changes.
+**The event surface has grown to 33 lifecycle points**: session start and end, prompt submit, before and after every tool call, permission requests, compaction, subagent start and stop, file changes on disk, and config changes.
 Handlers come in five types: shell commands, HTTP POSTs, MCP tool calls, single-turn prompt evaluations, and experimental multi-turn agent hooks.
 The same hook events fire in the terminal, IDE extensions, the desktop app, and Claude Code on the web, and they also fire inside subagents.
 
@@ -38,7 +38,7 @@ Anthropic's own security-guidance plugin is built entirely on hooks (SessionStar
 ## Cautions
 
 - **The `if` filter fails open**: the docs say plainly that because it is best-effort, you should use the permission system, not a hook, to enforce a hard allow or deny.
-- Matcher semantics are version-gated (comma separators need v2.1.191+, hyphens v2.1.195+), so a config can silently change meaning across client versions, and agent hooks are experimental.
+- Matcher semantics are version-gated and event-specific (FileChanged and StopFailure accept only pipe separators while every other event also accepts commas, and the `if` directory-pattern meaning changed in v2.1.214), so a config can silently change meaning across client versions, and agent hooks are experimental.
 - Cloud sessions do not read `~/.claude/settings.json`, so your personal hooks quietly disappear on the web.
 - Prompt and agent handlers add model calls: Anthropic's own plugin docs estimate roughly one review call per turn that changes files plus a deeper review per commit.
 
@@ -50,7 +50,7 @@ There is no separate hooks tier.
 ## Compared to
 
 - GitHub Copilot hooks: the same lifecycle-trigger idea in Copilot cloud agent and CLI, but bound to GitHub's ecosystem rather than your local shell.
-- Claude Code routines: scheduled execution in Claude's cloud; hooks are event-triggered inside a session, routines are cron outside it.
+- [Claude Code routines](../claude-code-routines/index.md): scheduled execution in Claude's cloud; hooks are event-triggered inside a session, routines are cron outside it.
 - [OpenChamber](../../surfaces/openchamber/index.md): schedules prompts on cron across sessions, but does not intercept the tool loop itself.
 
 ## Bottom line
@@ -65,12 +65,14 @@ I would go further: a team that relies on prompt instructions instead of PreTool
 - 2026-08-30 - Corrected the open-issue count from 5k+ to about 15k after it proved materially wrong.
 - 2026-09-18 - Refreshed the repository counters (about 145.2k to about 146k stars, roughly 12.4k to roughly 12.5k open issues).
 - 2026-09-29 - Refreshed the repository counters (about 148.5k stars, roughly 13.6k open issues) and re-dated the reference.
+- 2026-10-06 - Refreshed the event count to 33 per the current reference table, re-grounded the matcher version-gating caution on the current docs after the older version claims left the page, and linked the new Claude Code routines note.
 
 ## See also
 
 - [Claude Code](../../harnesses/claude-code/index.md) - the harness these triggers live inside
 - [Agentic Coding Tools Landscape](../../agentic-coding-tools-landscape/index.md) - where the harness sits in the four-layer map
 - [OpenChamber](../../surfaces/openchamber/index.md) - the cron-style counterpart for scheduled runs outside the session
+- [Claude Code routines](../claude-code-routines/index.md) - the hosted scheduler that fires whole sessions where hooks fire inside one
 
 ## References
 

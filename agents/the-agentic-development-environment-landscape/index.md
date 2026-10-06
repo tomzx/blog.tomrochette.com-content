@@ -74,7 +74,7 @@ It rounds out a top five that already spans open source (Superset, Orca, Paseo, 
 
 **Below the leaders there is a busy middle, and it is where the next leader is most likely to come from.**
 Agent orchestrators built as CLIs and TUIs make up a large share, because the cheapest way to ship an ADE is to not build a GUI at all.
-[agent-orchestrator](https://github.com/Untrivial-ai/agent-orchestrator) is a Go-based, tmux-driven orchestrator that plans tasks, spawns agents, and autonomously handles CI fixes and merge conflicts, and it has the reach of a leader without the surface area of one.
+[Agent Orchestrator](../orchestration/agent-orchestrator/index.md) is a Go-daemon desktop kanban that supervises 26-plus coding CLIs, one worktree and one session per worker with CI and review feedback routed back into the same agent, and it has the reach of a leader without the surface area of one, though it has lived under four organizations in eight months.
 [Kandev](https://github.com/kdlbs/kandev) frames the same idea as an AI Kanban plus development environment, multi-provider and self-hostable with no telemetry, a framing that maps cleanly onto a team workflow.
 [Pane](https://github.com/greenfield-inc/Pane), [lanes](https://github.com/lanes-sh/app), [Frame](https://github.com/kaanozhan/Frame), [genie](https://github.com/automagik-dev/genie), and workstreams each take a slightly different cut of the same problem: terminal-first, mobile-first, spec-driven, or PR-out-the-door.
 
@@ -140,6 +140,7 @@ The ADE is not a passing fashion; it is the productized answer to a real bottlen
 - 2026-09-27 - Fixed two malformed See also bullets (stray leading dashes) and re-verified every external link.
 - 2026-09-29 - Link check: repointed JetBrains Air to jetbrains.com/air after air.dev began redirecting, followed the agent-orchestrator and Pane repository transfers (Untrivial-ai and greenfield-inc), and cleared the stale 429 notes on the two GitHub topic references (both fetched 200).
 - 2026-10-04 - Added the as-of clause to the intro and corrected three stale claims against the re-fetched JetBrains Air and OpenCode pages: Air now lists OpenCode and ACP connectivity among its supported agents (the old seam is closed), Air advertises IDE, web, CLI, and mobile surfaces with cloud runs in rollout (no longer desktop-only), and OpenCode has shipped its ACP adapter, resolving the protocol-axis question.
+- 2026-10-06 - Rewrote the Agent Orchestrator line against its new section note: the tool is a Go-daemon desktop kanban supervising 26-plus CLIs, not the tmux-driven runner this snapshot recorded, its repository moved to the OrchestratorInc org (fourth move in eight months), and the line now links the note; the ade-topic reference annotated with this run's 429 and the search-API re-check of Orca's lead.
 
 ## See also
 
@@ -159,13 +160,13 @@ The ADE is not a passing fashion; it is the productized answer to a real bottlen
 - [JetBrains, "Air Launches as Public Preview"](https://blog.jetbrains.com/air/2026/03/air-launches-as-public-preview-a-new-wave-of-dev-tooling-built-on-26-years-of-experience/) - Air's positioning, supported agents, and roadmap
 - [JetBrains + Zed, Agent Client Protocol](https://blog.jetbrains.com/ai/2025/10/jetbrains-zed-open-interoperability-for-ai-coding-agents-in-your-ide/) - the interop standard that makes vendor-neutral ADEs credible
 - [generalaction/emdash](https://github.com/generalaction/emdash) - open-source ADE, YC W26, enterprise-integration focus
-- [Untrivial-ai/agent-orchestrator](https://github.com/Untrivial-ai/agent-orchestrator) - tmux-driven CLI orchestrator with autonomous CI and merge handling (moved from the AgentWrapper org)
+- [OrchestratorInc/agent-orchestrator](https://github.com/OrchestratorInc/agent-orchestrator) - desktop kanban orchestrator supervising 26-plus CLIs, now profiled in the section (four org moves: ComposioHQ, AgentWrapper, Untrivial-ai, OrchestratorInc)
 - [kdlbs/kandev](https://github.com/kdlbs/kandev) - AI Kanban plus development environment, self-hostable, no telemetry
 - [greenfield-inc/Pane](https://github.com/greenfield-inc/Pane) - terminal-first agent manager with remote phone access (moved from the dcouple org)
 - [kaanozhan/Frame](https://github.com/kaanozhan/Frame) - spec-driven ADE
 - [automagik-dev/genie](https://github.com/automagik-dev/genie) - CLI agent that dispatches parallel worktrees and reviews
 - [lanes-sh/app](https://github.com/lanes-sh/app) - mission control for parallel agents
 - [andyrewlee/awesome-agent-orchestrators](https://github.com/andyrewlee/awesome-agent-orchestrators) - curated list for tracking the long tail
-- [GitHub topic: ade](https://github.com/topics/ade) - the topic page that maps the category (fetched 200, 2026-09-29)
+- [GitHub topic: ade](https://github.com/topics/ade) - the topic page that maps the category (fetched 200, 2026-09-29; the page 429'd this run, so the leaderboard was re-confirmed through the GitHub search API, 2026-10-06)
 - [GitHub topic: parallel-agents](https://github.com/topics/parallel-agents) - the broader orchestration topic (fetched 200, 2026-09-29)
 - [OpenCode ACP documentation](https://opencode.ai/docs/acp/) - the shipped adapter that resolved the protocol-axis question (fetched 200, 2026-10-06)

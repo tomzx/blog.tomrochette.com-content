@@ -1,7 +1,7 @@
 ---
 title: SuperGrok
 created: 2026-09-26
-updated: 2026-09-26
+updated: 2026-10-06
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, model-access, grok, subscriptions, xai]
 readability: 3
@@ -52,7 +52,7 @@ SuperGrok Lite: $10/month, announced 2026-03-25, basic creation tools, 480p vide
 SuperGrok: $30/month, Grok 4.6, higher rate limits across all features, image and video generation.
 SuperGrok Plus: $100/month, everything in SuperGrok plus 1080p video, significantly higher usage across Chat, Imagine, Voice, and Build, priority access at peak times.
 SuperGrok Heavy: $300/month per third-party guides as of 2026-07-06, the multi-agent Grok 4 Heavy tier.
-API escape hatch, billed separately: grok-4.6 and grok-4.7 at $2.00/$6.00 per 1M tokens under 200k prompt ($4.00/$12.00 above), $0.50 cached input; grok-build-0.1 at $1.00/$2.00; Grok 4.7 Fast at 2x rates, exclusive to Cursor and Grok Build and excluded from Grok Build's free tier.
+API escape hatch, billed separately: grok-4.6 and grok-4.7 at $2.00/$6.00 per 1M tokens under 200k prompt ($4.00/$12.00 above), $0.50 cached input; grok-build-0.1 at $1.00/$2.00; Grok 4.7 Fast at 2x rates, exclusive to Cursor and Grok Build and excluded from Grok Build's free tier (all re-verified on the API pricing page as of 2026-10-06).
 
 ## Price history
 
@@ -87,9 +87,9 @@ My disagreeable claim: SuperGrok Plus at $100 is a media-creator tier wearing an
 
 ## References
 
-- https://x.ai/pricing - official plan cards (Free $0, SuperGrok $30, Plus $100) and the plan comparison carrying Lite, Heavy, and Grok Build rows (fetched 200, 2026-09-26)
+- https://x.ai/pricing - official plan cards (Free $0, SuperGrok $30, Plus $100) and the plan comparison carrying Lite, Heavy, and Grok Build rows (fetched 200, re-verified 2026-10-06; Lite and Heavy still carry no dollar figures on the card)
 - https://docs.warp.dev/agents/inference/grok-subscription - the one weekly pool shared across Grok chat, Grok Build, and API access, pause-on-empty behavior, third-party-harness ZDR caveat (fetched 200, page updated 2026-09-24)
-- https://docs.x.ai/developers/pricing - API escape hatch: grok-4.6/4.7 at $2/$6 under 200k prompt, $0.50 cached, $4/$12 above, grok-build-0.1 at $1/$2, Grok 4.7 Fast exclusivity (fetched 200, 2026-09-26)
+- https://docs.x.ai/developers/pricing - API escape hatch: grok-4.6/4.7 at $2/$6 under 200k prompt, $0.50 cached, $4/$12 above, grok-build-0.1 at $1/$2, Grok 4.7 Fast exclusivity (fetched 200, re-verified 2026-10-06)
 - https://www.businesstoday.in/technology/story/xai-makes-grok-affordable-with-new-supergrok-lite-plan-check-price-and-what-it-offers-522462-2026-03-26 - Lite announcement: $10/month, testing phase with selected users, 480p 6-second video, 2x chats, one agent (fetched 200, 2026-09-26)
 - https://aitoolanalysis.com/supergrok-subscription-price-2026/ - critical guide: full tier table including Heavy $300, the coding-benchmarks caveat, and the safety litigation section (fetched 200, updated 2026-07-06)
 - https://codeagentswarm.com/en/guides/grok-build-pricing - independent Grok Build plan-table guide, attempted four times this run and rate-limited (429) on every attempt, so nothing here is cited from it

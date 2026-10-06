@@ -1,7 +1,7 @@
 ---
 title: AgentTrace
 created: 2026-09-27
-updated: 2026-10-05
+updated: 2026-10-06
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, llm=glm-5.3-flash, session-analytics, cost-tracking, cli, tui, open-source]
 readability: 3
@@ -17,7 +17,7 @@ AgentTrace is an MIT-licensed local-first Rust TUI and CLI that reads the sessio
 ## What it is
 
 One Rust binary gives both interfaces: run `agenttrace` with no action to open the TUI, or pass flags such as `--overview`, `--audit`, `--recommend`, `--mcp-governance`, `--context-trends`, and `--delivery-evidence` for CLI and JSON output.
-It parses about 15 named coding-agent formats (Claude Code, Codex CLI, Gemini CLI, Qwen Code, Cline, Aider, Cursor exports, Hermes Agent, OpenCode, OpenClaw, Pi, Oh My Pi, Kimi CLI, Copilot-style logs) plus generic JSON and JSONL traces.
+It parses about 13 named coding-agent formats (Claude Code, Codex CLI, Qwen Code, Cline, Aider, Cursor exports, Hermes Agent, OpenCode, OpenClaw, Pi, Oh My Pi, Kimi CLI, Copilot-style logs) plus generic JSON and JSONL traces; v0.10.1 removed Gemini CLI (discontinued upstream), and Antigravity sessions under `~/.gemini/antigravity-cli` are still read.
 Install paths are Homebrew, npm, curl, and cargo; v0.10.0 dropped winget, added checksum-verified installers, and added an `agenttrace update` self-updater.
 Everything runs locally: no hosted backend is required, and tool steps keep metadata and duration without storing prompt, response, result, or tool-argument bodies.
 Reports render as JSON, Markdown, or self-contained HTML, and `--overview` can gate a CI job on session health, critical sessions, and tool-failure rate.
@@ -25,10 +25,11 @@ Made by an independent developer (luoyuctl) under MIT.
 
 ## Status
 
-Young and active: 138 stars, 9 forks, 9 open issues, created 2026-05-01, last pushed 2026-10-05, latest release v0.10.0 on 2026-10-04 after v0.9.1 the same day, as of 2026-10-05.
+Young and active: 139 stars, 9 forks, 5 open issues, created 2026-05-01, last pushed 2026-10-06, latest release v0.10.1 on 2026-10-05 after v0.10.0 and v0.9.1 on 2026-10-04, as of 2026-10-06.
 It is effectively a one-person project: the v0.9.0 and v0.10.0 changelists credit every feature pull request to the owner, with the one outside contributor's commit merged in v0.9.0.
 The community footprint is nearly empty: a Hacker News search for the author returns nothing, and I found no Reddit discussion.
 v0.9.1 and v0.10.0 (both 2026-10-04) rebuilt the session cache (schema v24, so the first launch after upgrading re-parses history), fixed Claude Code transcripts being misclassified as Qwen Code, attributed Claude Code subagent cost and tokens to the parent session, added --daily/--weekly/--monthly reports with a --timezone flag and 5-hour --blocks, and shipped the self-updater.
+v0.10.1 (2026-10-05) corrected token accounting across agents (Claude Code and Codex totals move down, WorkBuddy up), rebuilt the cache again at schema v26, and removed Gemini CLI support because Gemini CLI was discontinued upstream.
 **A pre-1.0 single-maintainer tool with serious packaging but no independent verification, so read its roadmap and issue tracker rather than its README for what actually ships.**
 
 ## Strengths
@@ -68,6 +69,7 @@ Not for live observation, transcript search, or line-level provenance.
 - 2026-09-27 - Created.
 - 2026-10-02 - Recorded the v0.9.0 release (an Oh My Pi parser fix from the project's first outside contributor, static CRT linking on Windows, and a Codex cost double-counting fix) and refreshed repository counts.
 - 2026-10-05 - Recorded v0.9.1 and v0.10.0 (2026-10-04): the schema-v24 cache rebuild, the Qwen-misclassification fix, subagent cost attribution to parent sessions, timezone-aware period reports and 5-hour blocks, and the self-updater with winget dropped; refreshed repository counts.
+- 2026-10-06 - Recorded v0.10.1 (2026-10-05): cross-agent token-accounting corrections (lower Claude Code and Codex totals), the schema-v26 cache rebuild, and Gemini CLI support removed as discontinued upstream, with Antigravity sessions still read; the format count and the matrix's agents-covered cell updated, repository counts refreshed, and the ROADMAP reference repointed to docs/ROADMAP.md after the file moved from the repository root.
 
 ## See also
 
@@ -81,8 +83,8 @@ Not for live observation, transcript search, or line-level provenance.
 - https://github.com/luoyuctl/agenttrace - the repository, MIT license, description, and topics
 - https://raw.githubusercontent.com/luoyuctl/agenttrace/master/README.md - the coverage list, governance flags, install paths, privacy posture, and report formats
 - https://raw.githubusercontent.com/luoyuctl/agenttrace/master/docs/guides/ci-integration.md - the CI gate flags, exit code 2, and report artifacts
-- https://raw.githubusercontent.com/luoyuctl/agenttrace/master/ROADMAP.md - the local-first scope and explicit non-goals
-- https://api.github.com/repos/luoyuctl/agenttrace - stars, forks, dates, and license as of 2026-10-05
-- https://api.github.com/repos/luoyuctl/agenttrace/releases - the v0.9.0 release date, plus v0.9.1 and v0.10.0 on 2026-10-04
-- https://registry.npmjs.org/@zack78/agenttrace - the npm package at 0.9.0
+- https://raw.githubusercontent.com/luoyuctl/agenttrace/master/docs/ROADMAP.md - the local-first scope and explicit non-goals (moved from the repository root)
+- https://api.github.com/repos/luoyuctl/agenttrace - stars, forks, dates, and license as of 2026-10-06
+- https://api.github.com/repos/luoyuctl/agenttrace/releases - the v0.9.0 release date, v0.9.1 and v0.10.0 on 2026-10-04, and v0.10.1 on 2026-10-05
+- https://registry.npmjs.org/@zack78/agenttrace - the npm package, latest 0.10.1
 - https://hn.algolia.com/api/v1/search?query=luoyuctl - the empty Hacker News footprint behind the thin-community claim

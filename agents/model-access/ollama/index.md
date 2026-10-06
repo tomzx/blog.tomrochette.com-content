@@ -22,7 +22,7 @@ The registry curates quantizations of each model, and `ollama run <model>` is th
 
 ## Status
 
-Very active: 182,128 stars as of 2026-10-04, repo pushed the same day, among the largest repositories in the AI ecosystem.
+Very active: 182,302 stars as of 2026-10-06, repo pushed the same day, among the largest repositories in the AI ecosystem.
 The surface is expanding fast: MLX acceleration on Apple silicon arrived in preview with 0.19 in March 2026, and NVFP4 quantization is now supported alongside the GGUF classics.
 Cloud models launched as Ollama Turbo in August 2025, and the plans were rebuilt into Free, Pro, Max, and Team tiers by late September 2026.
 **The pivot is real: a tool whose brand was local and private now sells US, Europe, and Singapore-hosted cloud inference through NVIDIA cloud partners, with the local runtime free underneath.**
@@ -47,7 +47,7 @@ Cloud models launched as Ollama Turbo in August 2025, and the plans were rebuilt
 ## Pricing
 
 Local runtime: free and unlimited, MIT licensed, no account needed.
-Cloud plans (as of 2026-10-02): Free $0 with starter credits, Pro $20/month ($200/year) including $60 of usage credits, Max $100/month including $300, Team $500/month including $1,000 shared, Enterprise custom.
+Cloud plans (as of 2026-10-06): Free $0 with starter credits, Pro $20/month ($200/year) including $60 of usage credits, Max $100/month including $300, Team $500/month including $1,000 shared, Enterprise custom.
 Cloud models bill per million tokens (glm-5.3 $1.40 in / $4.40 out, deepseek-v4.1-flash $0.30/$1.20, kimi-k3 $3/$15), with roughly half-price off-peak rates outside 12:00-18:00 UTC on weekdays and all weekend.
 Concurrency caps: Free 1 request, Pro 3, Max and Team 10, and unused included credits do not roll over.
 
@@ -86,9 +86,9 @@ My disagreeable claim: for coding agents on 16GB laptops, local quantized models
 
 ## References
 
-- https://api.github.com/repos/ollama/ollama - 182,078 stars, Go, MIT, pushed 2026-10-03 (200, fetched 2026-10-03).
+- https://api.github.com/repos/ollama/ollama - 182,302 stars, Go, MIT, pushed 2026-10-06 (fetched via the GitHub API, 2026-10-06).
 - https://ollama.com/ - current positioning: 9M developers, coding-agent integrations, Pro/Max teaser, cloud regions (200).
-- https://ollama.com/pricing - all tiers, included credits, per-token model table, off-peak terms, concurrency caps, FAQ (200).
+- https://ollama.com/pricing - all tiers, included credits, per-token model table, off-peak terms, concurrency caps, FAQ (200, re-fetched unchanged 2026-10-06).
 - https://docs.ollama.com/ - local API surface: Ollama, OpenAI, and Anthropic-compatible clients, cloud vs local split (200).
 - https://ollama.com/blog/mlx - MLX preview in 0.19, M5 benchmarks, NVFP4 support, 32GB+ memory requirement (200).
 - https://sleepingrobots.com/dreams/stop-using-ollama/ - critical history: llama.cpp attribution, ggml fork, model naming, registry limits, CVE-2025-51471 (200).

@@ -1,7 +1,7 @@
 ---
 title: Agent Network Protocol (ANP)
 created: 2026-10-05
-updated: 2026-10-05
+updated: 2026-10-06
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, protocols, interoperability, decentralized-identity, multi-agent]
 readability: 3
@@ -25,7 +25,7 @@ Working code exists around the spec: the `anp` implementation repository, an ope
 ## Status
 
 **Active but unanswered by the market.**
-The main repository (created 2024-10-23) shows 1,441 stars, 105 forks, and a push on 2026-10-01, with the companion `anp` repo at 351 stars and the spec hub serving ANP 1.2, all as of 2026-10-05 (GitHub API and the spec site).
+The main repository (created 2024-10-23) shows 1,439 stars, 105 forks, and a push on 2026-10-01, with the companion `anp` repo at 350 stars and the spec hub serving ANP 1.2, all as of 2026-10-06 (GitHub API and the spec site).
 The community footprint is the weak signal: the only Hacker News stories are 2 points (2025-08) and 1 point (2025-11), and the only third-party comparative coverage I found is a 2026-02 survey published by the OSSA project, which scores ANP under 1 percent production use while promoting its own contract layer, so even the comparative source is self-interested.
 No enterprise platform ships ANP support; adoption evidence is confined to the project's own examples, SDKs, and bridge tools.
 
@@ -73,10 +73,10 @@ My disagreeable claim: if autonomous agents on the open web ever emerge, ANP's D
 
 ## References
 
-- https://github.com/agent-network-protocol/AgentNetworkProtocol - repository, 1,441 stars, Apache-2.0, activity as of 2026-10-05 (GitHub API)
+- https://github.com/agent-network-protocol/AgentNetworkProtocol - repository, 1,439 stars, Apache-2.0, activity as of 2026-10-06 (GitHub API)
 - https://raw.githubusercontent.com/agent-network-protocol/AgentNetworkProtocol/master/README.md - vision, protocol-suite framing, the digital-currency disclaimer
 - https://agent-network-protocol.com/ - spec hub: ANP 1.2 latest, 1.0 and 1.1 archived, core protocols and messaging profiles
 - https://agent-network-protocol.com/specs/1.2/white-paper - the ANP 1.2 technical white paper
-- https://api.github.com/orgs/agent-network-protocol/repos - the companion implementations (anp 351 stars, open-did-server, mcp2anp, anp-open-sdk), fetched 2026-10-05
+- https://api.github.com/orgs/agent-network-protocol/repos - the companion implementations (anp 350 stars, open-did-server, mcp2anp, anp-open-sdk), fetched 2026-10-06
 - https://hn.algolia.com/api/v1/search?query=%22Agent%20Network%20Protocol%22&tags=story - the footprint scan: stories at 2, 1, and 1 points (2025-08 to 2026-01)
 - https://openstandardagents.org/research/agent-communication-protocol-survey/ - the only third-party comparative coverage found, itself published by a competing project (2026-02-20)

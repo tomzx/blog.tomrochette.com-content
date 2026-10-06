@@ -1,7 +1,7 @@
 ---
 title: Code Atelier Governance SDK
 created: 2026-09-27
-updated: 2026-10-02
+updated: 2026-10-06
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, llm=glm-5.3-flash, agent-governance, policy-enforcement, audit-trail, postgres, human-in-the-loop]
 readability: 3
@@ -25,7 +25,7 @@ The vendor is Code Atelier, and the source lives at imleopereira/agentic-governa
 ## Status
 
 Dormant since July 2026 and essentially unadopted.
-The SDK is at version 0.7.3 with 11 PyPI releases, and the repository was created 2026-04-09 with its last source push on 2026-07-23, more than two months before this check (as of 2026-10-02).
+The SDK is at version 0.7.3 with 11 PyPI releases, and the repository was created 2026-04-09 with its last source push on 2026-07-23, more than two months before this check (as of 2026-10-06).
 The repository has 0 stars, 0 forks, and no description or topics, which is unusual for a project with a polished documentation site and a hosted platform bridge.
 **The community footprint is absent: a Hacker News search for Code Atelier governance returns nothing, so every claim here rests on the vendor's own pages and the repository.**
 **What earns the note despite the silence is the threat model, which states plainly what the SDK does not protect against instead of implying it is a complete security boundary.**
@@ -79,6 +79,6 @@ A hosted platform exists through an opt-in bridge that dual-writes audit events 
 - https://www.codeatelier.tech/governance - overview: modules, comparison table, Article 12 framing
 - https://www.codeatelier.tech/governance/quickstart - quickstart: install, schema, gates, console, sync wrapper
 - https://github.com/imleopereira/agentic-governance - README: modules, threat model, configuration, standards
-- https://api.github.com/repos/imleopereira/agentic-governance - stars, forks, creation and push dates as of 2026-10-02
+- https://api.github.com/repos/imleopereira/agentic-governance - stars, forks, creation and push dates as of 2026-10-06
 - https://pypi.org/pypi/code-atelier-governance/json - version 0.7.3, MIT license, 11 releases
 - https://raw.githubusercontent.com/imleopereira/agentic-governance/production/CHANGELOG.md - release notes: fail-closed defaults and the AGT recipe scaffolder

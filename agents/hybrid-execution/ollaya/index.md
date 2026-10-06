@@ -23,8 +23,8 @@ It runs on ONNX Runtime over the CPU or an NVIDIA GPU (CUDA 13 or 12, Vulkan), w
 
 ## Status
 
-**Three weeks old, beta, and already the wave's default front door.**
-The repository was created 2026-09-23 and shows 1,207 stars and 69 forks as of 2026-10-06, pushed 2026-10-05.
+**Thirteen days old, beta, and already the wave's default front door.**
+The repository was created 2026-09-23 and shows 1,209 stars and 69 forks as of 2026-10-06, pushed 2026-10-05.
 The launch Show HN thread (2026-09-25) reached 618 points, the third-largest of the whole Jev wave.
 The results page reports 26 models measured, 73,720 benchmark answers scored against human labels, 41,352 parity checks against the authors' own code, and 2,015 timed requests, with the newest measurement dated 2026-10-02 on two disclosed machines (RTX 5090 and RTX 4090 desktops).
 Its head-to-head numbers are self-run but use Bespoke Labs' public benchmark with Ollama on the same GPU: winnow:12b scores 0.773 against Ollama 0.35's best 0.749, and on the same Nimble weights Ollaya reports 5.5x lower calibration error (ECE 0.022 against 0.122) while conceding speed to Ollama's GGUF path (310 ms against 210 ms).
@@ -63,6 +63,7 @@ The disagreeable claim I will defend: runtimes, not models, decide which open ec
 ## Changes
 
 - 2026-10-06 - Created from the entrant scan after the 2026-09-25 Show HN thread cleared the bar (618 points, 1.2k stars in ten days, and a parity-checked results page).
+- 2026-10-06 - Corrected the age claim (created 2026-09-23, thirteen days old, not three weeks) and refreshed stars to 1,209.
 
 ## See also
 
@@ -75,7 +76,7 @@ The disagreeable claim I will defend: runtimes, not models, decide which open ec
 ## References
 
 - https://ollaya.dev/ - product surface: endpoints, model families, platforms, the Ollama comparison table, Apache-2.0 licensing
-- https://github.com/ollaya-dev/ollaya - repository: Apache-2.0, created 2026-09-23, 1,207 stars, 69 forks, pushed 2026-10-05 (GitHub API, as of 2026-10-06)
+- https://github.com/ollaya-dev/ollaya - repository: Apache-2.0, created 2026-09-23, 1,209 stars, 69 forks, pushed 2026-10-05 (GitHub API, as of 2026-10-06)
 - https://ollaya.dev/results - the measurement page: 26 models, 73,720 benchmark answers, 41,352 parity checks, disclosed machines, newest measurement 2026-10-02
 - https://ollaya.dev/docs/typesafe-compatibility - the wire-identical TypeSafe API documentation, including SDK 0.7.1 compatibility
 - https://news.ycombinator.com/item?id=49848269 - the 618-point launch thread (2026-09-25)

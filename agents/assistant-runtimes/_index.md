@@ -11,6 +11,7 @@ readability: 3
 Personal assistant runtimes outside the editor: the -claw family and its auditable rewrites, the self-improving agents, the compile targets down to RISC-V boards, and the local-first platforms assistants run on.
 
 - [AnythingLLM](anything-llm/index.md) - the one-click local-first desktop workspace: RAG workspaces, agents, MCP, and multi-user Docker.
+- [AstrBot](astrbot/index.md) - the AGPL-3.0 IM-platform veteran from 2022: 14-plus official chat platforms, a 1,000-plus-plugin marketplace, and an agent sandbox at 41.5k stars.
 - [Eigent](eigent/index.md) - the Apache-2.0 Cowork desktop with CAMEL-based multi-agent workforces and a corrected-benchmark history.
 - [Hermes](hermes/index.md) - Nous Research's self-improving agent with the learning loop, about 251k stars, paid tiers live, and the channels to match.
 - [Nanobot](nanobot/index.md) - HKUDS' readable Python agent runtime with the WebUI and channels bundled, 48k stars at alpha.
@@ -41,3 +42,4 @@ Its members are compared on shared rows in the [Assistant Runtimes Feature Matri
 - 2026-09-27 - Added Open WebUI.
 - 2026-09-27 - Added PrivateGPT.
 - 2026-10-03 - Added OpenWorker.
+- 2026-10-06 - Added AstrBot.

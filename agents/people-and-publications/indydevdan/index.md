@@ -1,7 +1,7 @@
 ---
 title: IndyDevDan
 created: 2026-09-24
-updated: 2026-10-05
+updated: 2026-10-06
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, people, publications, youtube, agentic-engineering, claude-code, harness-engineering]
 readability: 3
@@ -23,9 +23,9 @@ The commercial engine is agenticengineer.com, which sells Principled AI Coding (
 
 ## Status
 
-Active and metronomic as of 2026-10-05.
-Uploads run weekly, every Monday at 13:00 UTC, with 16 consecutive Mondays from 2026-06-15 to 2026-09-28 verified via the channel's RSS feed (it 404ed briefly on 2026-10-04 and serves again as of 2026-10-05, reconfirming no newer upload), the latest being "10 Levels of Jev For Agentic Engineers".
-Recent videos land between 12,700 and 133,189 views, with "10 Levels of Jev" at 133,189 and "FORGET Loop Engineering" at 127,800 (both as of 2026-10-05) and the agent-swarms takeaways at 79,785.
+Active and metronomic as of 2026-10-06.
+Uploads run weekly, every Monday at 13:00 UTC, with 17 consecutive Mondays from 2026-06-15 to 2026-10-05 verified via the channel's RSS feed, the latest being "OpenRouter State Of Models: Jev, Open-Weights, and Tokenomic" (2026-10-05).
+Recent videos land between 21,000 and 147,000 views, with "10 Levels of Jev" at 147,248 and the newest OpenRouter video at 21,078 within a day (both as of 2026-10-06).
 Hacker News mentions him in six comment threads between 2025-04 and 2026-09, the only channel of this batch with third-party discussion at all.
 
 ## Strengths
@@ -66,6 +66,7 @@ Not for someone allergic to hype framing, or who wants vendor-neutral depth with
 - 2026-09-24 - Created.
 - 2026-09-30 - Weekly streak extended to 16 consecutive Mondays (2026-06-15 to 2026-09-28), latest upload "10 Levels of Jev For Agentic Engineers".
 - 2026-10-05 - The RSS feed serves again after its brief 2026-10-04 outage and reconfirms nothing newer than the 2026-09-28 video; "10 Levels of Jev" passed "FORGET Loop Engineering" as the most-watched recent video (133,189 views as of 2026-10-05).
+- 2026-10-06 - The weekly Monday streak extended to 17 (2026-06-15 to 2026-10-05) with the new upload "OpenRouter State Of Models: Jev, Open-Weights, and Tokenomic" (2026-10-05); Status and the RSS reference line updated (feed fetched this run).
 
 ## See also
 
@@ -78,7 +79,7 @@ Not for someone allergic to hype framing, or who wants vendor-neutral depth with
 ## References
 
 - https://www.youtube.com/@indydevdan - the channel: identity and 150K subscribers as of 2026-10-04
-- https://www.youtube.com/feeds/videos.xml?channel_id=UC_x36zCEGilGpB1m-V4gmjg - the RSS feed that grounds the weekly Monday cadence, titles, dates, and view counts through 2026-09-28 (it 404ed briefly on 2026-10-04 and serves again as of 2026-10-05, reconfirming the newest upload)
+- https://www.youtube.com/feeds/videos.xml?channel_id=UC_x36zCEGilGpB1m-V4gmjg - the RSS feed that grounds the weekly Monday cadence, titles, dates, and view counts through the 2026-10-05 upload
 - https://agenticengineer.com/ - the course site: both paid phases, the founder letter's rhetoric, and the blog
 - https://github.com/disler - the GitHub profile confirming the IndyDevDan identity, follower count, and repo star counts
 - https://hn.algolia.com/api/v1/search?query=indydevdan&hitsPerPage=8 - the Hacker News record: the sensationalism critique, the command attribution, and the prompting-series recommendation

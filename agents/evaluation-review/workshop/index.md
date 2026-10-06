@@ -1,7 +1,7 @@
 ---
 title: Workshop
 created: 2026-08-30
-updated: 2026-10-03
+updated: 2026-10-06
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, evaluation, observability, debugging, open-source]
 readability: 3
@@ -24,7 +24,7 @@ Made by Raindrop, an agent-observability startup; Workshop is the free local tie
 
 ## Status
 
-Young with a strong launch: 1,104 stars, 69 forks, 8 open issues as of 2026-10-03, created 2026-05-01, latest release v0.1.21 on 2026-08-22.
+Young with a strong launch: 1,103 stars, 69 forks, 8 open issues as of 2026-10-06, created 2026-05-01, latest release v0.1.21 on 2026-08-22.
 Funding: a $50M Series A led by CRV announced September 17, 2026, which the post counts as $50M in total funding, alongside a Simulations early-access product that replays production traffic against proposed agent changes.
 39 commits, 9 contributors, 21 patch releases in four months.
 **The launch testimonials are real engineers but the vendor's scale claims (billions of traces per month, Fortune 100 customers) are unverified marketing, and a 9-point Hacker News thread is the entire independent discussion.**

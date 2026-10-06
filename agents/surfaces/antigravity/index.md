@@ -1,7 +1,7 @@
 ---
 title: Google Antigravity
 created: 2026-08-24
-updated: 2026-10-05
+updated: 2026-10-06
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, surfaces, ai-editors, google]
 readability: 3
@@ -45,7 +45,7 @@ Enterprise access went live through Google Cloud and Gemini Enterprise subscript
 
 Individuals: $0/month with basic weekly rate limits.
 Google AI Pro and AI Ultra raise limits and add a flexible AI credit pool.
-Organizations: Google Cloud terms with consumption-based API pricing via the Gemini Enterprise Agent Platform, included in select Gemini Enterprise subscriptions, Standard and Plus from $30/seat/month or pay-as-you-go with a $0 seat fee, as of 2026-10-05.
+Organizations: Google Cloud terms with consumption-based API pricing via the Gemini Enterprise Agent Platform, included in select Gemini Enterprise subscriptions, Standard and Plus from $30/seat/month or pay-as-you-go with a $0 seat fee, as of 2026-10-06 (re-verified, unchanged).
 
 ## Price history
 
@@ -83,7 +83,7 @@ Not for proprietary-code environments that cannot absorb prompt-injection class 
 ## References
 
 - https://antigravity.google/ - product family, 2.0 command center, IDE, CLI, SDK
-- https://antigravity.google/pricing - tiers, model lists, weekly limits, enterprise terms, as of 2026-09-22
+- https://antigravity.google/pricing - tiers, model lists, weekly limits, enterprise terms, as of 2026-10-06
 - https://developers.googleblog.com/an-important-update-transitioning-gemini-cli-to-antigravity-cli/ - the Gemini CLI transition and June 18, 2026 cutoff
 - https://news.ycombinator.com/item?id=45967814 - the November 2025 launch thread
 - https://news.ycombinator.com/item?id=46048996 - the exfiltration-via-prompt-injection finding

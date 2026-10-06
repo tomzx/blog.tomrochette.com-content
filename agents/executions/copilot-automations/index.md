@@ -1,7 +1,7 @@
 ---
 title: GitHub Copilot automations
 created: 2026-08-24
-updated: 2026-08-24
+updated: 2026-10-06
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, executions, github-copilot, scheduling, llm=glm-5.3-flash]
 readability: 3
@@ -16,7 +16,7 @@ Copilot automations run GitHub's Copilot cloud agent automatically, on a schedul
 
 ## What it is
 
-You create an automation from a repository's Agents tab or the GitHub Copilot app by naming it, writing a prompt, picking triggers, a model, and the tools it may use.
+You create an automation from a repository's Agents tab or the GitHub Copilot app by naming it, writing a prompt, picking triggers, a model, and the tools it may use, with optional search-query and files-changed filters narrowing the event triggers.
 Runs start Copilot cloud agent sessions in GitHub's ephemeral, Actions-powered environments, and can label issues, open draft pull requests, or push fixes to one repository.
 It ships with GitHub, on Copilot Pro, Pro+, Max, Business, and Enterprise plans, and requires only write access to create.
 
@@ -49,7 +49,7 @@ There is no separate automation fee, but a nightly test-fix automation is a recu
 ## Compared to
 
 - [GitHub Agentic Workflows](../github-agentic-workflows/index.md): versioned in your repo, multi-engine, guardrail-heavy; choose it when automation logic should be reviewed like code.
-- Claude Code routines: Anthropic's equivalent scheduled runs inside the Claude ecosystem.
+- [Claude Code routines](../claude-code-routines/index.md): Anthropic's equivalent scheduled runs inside the Claude ecosystem, with the same creator-private visibility model.
 - [OpenChamber](../../surfaces/openchamber/index.md): cron-scheduled prompts on your own machine with your own harness, no vendor metering.
 
 ## Bottom line
@@ -61,6 +61,7 @@ My disagreeable claim: creator-private automations are disqualifying for team ad
 ## Changes
 
 - 2026-08-24 - Created in the Executions category during the research index seeding.
+- 2026-10-06 - Recorded the event-trigger filters (search query and files changed), linked the new Claude Code routines note as the Claude-side equivalent, and re-verified all five sources; the core claims hold unchanged.
 
 ## See also
 

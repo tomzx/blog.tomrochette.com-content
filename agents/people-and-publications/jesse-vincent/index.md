@@ -1,7 +1,7 @@
 ---
 title: Jesse Vincent
 created: 2026-09-24
-updated: 2026-10-04
+updated: 2026-10-06
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, people, publications, coding-agents, agentic-engineering, skills, tdd]
 readability: 3
@@ -16,7 +16,7 @@ Jesse Vincent (obra) is a programmer with an open-source track record long enoug
 
 ## What it is
 
-A long-running personal blog (543 posts as of 2026-10-04) where he publishes point-in-time writeups of how he works with agents, plus Superpowers, an MIT-licensed skill suite (295.1k stars, 26.4k forks, 683 commits as of 2026-10-04) that packages his brainstorm, plan, worktree, subagent-driven development, TDD, and two-axis code review loop as mandatory workflows for 16 coding-agent harnesses.
+A long-running personal blog (544 posts as of 2026-10-06) where he publishes point-in-time writeups of how he works with agents, plus Superpowers, an MIT-licensed skill suite (295.8k stars, 26.4k forks, 683 commits as of 2026-10-06) that packages his brainstorm, plan, worktree, subagent-driven development, TDD, and two-axis code review loop as mandatory workflows for 16 coding-agent harnesses.
 Wikipedia credits him with publishing the Architect/Implementer pattern and a SKILL.md-formatted skills approach about a week before Anthropic shipped its native skills framework.
 He is founder and CEO of Prime Radiant, the applied research lab behind Superpowers, which sells commercial support around it and maintains a public eval suite.
 
@@ -26,6 +26,7 @@ Very active and shipping on a cadence: Superpowers 6.4 landed 2026-09-21 (adding
 His writeups say users' most common lament is that Superpowers burns many tokens and takes longer than going without it, and 6.4 concedes that bare-metal builds are faster and cheaper while arguing they are significantly buggier per his eval suite.
 A 2026-09-29 writeup, "I asked muse to tell me about updates to its skills", opens a new front: he is spelunking the Muse agent (muse.ai), finds it well put together and especially good at web browsing, and now publishes obra/muse-skills, a public repo where a scheduled job on a Hatch container snapshots Muse's shipped skill collection daily.
 The newest post, "A quick trip to the uncanny valley" (2026-10-02), opens yet another: Prime Radiant is building Sen, an "agentic" colleague platform that is not an agent on behalf of one human, and the post counts about 550 publicly shipped coding agents at alltheagents.org.
+"Today at work" (2026-10-05) continues the Sen thread from the inside, a first-person account of managing AI colleagues after one merged to main a little too quickly against his review advice.
 Third-party pull is visible: HN threads recommend Superpowers as the fix for bad agent experiences, Willison cites it as the reference implementation of TDD-with-agents, OpenAI's Codex announcements were read as bundling it, and orchestration stacks like metaswarm declare it, alongside Yegge's beads, an essential foundation.
 
 ## Strengths
@@ -67,6 +68,7 @@ Not for token-budget-tight users, TDD-averse codebases, or readers who want mini
 - 2026-09-24 - Created.
 - 2026-10-02 - Added his 2026-09-29 post "I asked muse to tell me about updates to its skills" and the obra/muse-skills repo it publishes to Status and References.
 - 2026-10-03 - Added his 2026-10-02 post "A quick trip to the uncanny valley" (Prime Radiant's Sen agentic-colleague platform and the ~550-agent census at alltheagents.org) to Status and References; both URLs fetched this run.
+- 2026-10-06 - Added his 2026-10-05 post "Today at work", a day-in-the-life account of managing Sen colleagues after one merged to main a little too quickly, to Status and References (URL fetched this run); blog count refreshed to 544 and Superpowers stars to 295.8k as of 2026-10-06.
 
 ## See also
 
@@ -90,3 +92,4 @@ Not for token-budget-tight users, TDD-averse codebases, or readers who want mini
 - https://blog.fsck.com/2026/09/29/I-asked-muse-to-tell-me-about-updates-to-its-skills/ - the 2026-09-29 post on exploring the Muse agent and automating daily skill snapshots
 - https://github.com/obra/muse-skills - the public repo his scheduled job populates with Muse's daily skill-collection state
 - https://blog.fsck.com/2026/10/02/a-quick-trip-to-the-uncanny-valley/ - the 2026-10-02 post introducing Prime Radiant's Sen platform and the alltheagents.org census
+- https://blog.fsck.com/2026/10/05/today-at-work/ - the 2026-10-05 post on managing AI colleagues after a too-quick merge to main

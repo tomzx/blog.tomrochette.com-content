@@ -1,7 +1,7 @@
 ---
 title: Graphify
 created: 2026-08-30
-updated: 2026-10-05
+updated: 2026-10-06
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, context-engines, knowledge-graphs, code-intelligence, open-source]
 readability: 3
@@ -25,7 +25,7 @@ Made by Graphify Labs, a YC Summer 2026 company of two people in London, Apache-
 
 ## Status
 
-Growing absurdly fast for its age: 123,872 stars and 2,105 commits in about six months since 2026-04-03, latest release v0.9.76 on 2026-10-04, all as of 2026-10-05, with 287 contributors as of 2026-10-05.
+Growing absurdly fast for its age: 124,118 stars and 2,132 commits in about six months since 2026-04-03, latest release v0.9.77 on 2026-10-05, all as of 2026-10-06, with 294 contributors as of 2026-10-06.
 The YC page claims 5M+ downloads and named production users, all self-reported.
 **The Enterprise early-access tier now ships differential formal verification**: a solver ladder (Z3, CrossHair, CBMC, JBMC) that proves a changed function behavior-preserving or returns a concrete input that breaks it, alongside graph-aware PR review, per the vendor's full index (fetched 2026-09-26).
 The ecosystem is growing too: a third-party C# port, graphify-csharp, launched September 11, 2026 with a 46-point Show HN and 21 comments as of 2026-09-16, the largest discussion any Graphify-linked project has drawn.
@@ -42,13 +42,13 @@ The ecosystem is growing too: a third-party C# port, graphify-csharp, launched S
 
 - The benchmarks are self-published, and on the headline QA-accuracy metric graphify trails supermemory while winning on cost and recall, per its own BENCHMARKS.md.
 - Only code is local: docs, PDFs, and images are sent to whatever LLM backend is configured.
-- Pre-1.0 with 1,522 open issues and PRs as of 2026-10-05, a nonstandard default branch, and acknowledged PyPI name-squatting on `graphify*` packages.
+- Pre-1.0 with 1,506 open issues and PRs as of 2026-10-06, a nonstandard default branch, and acknowledged PyPI name-squatting on `graphify*` packages.
 - The free CLI is the top of an open-core funnel into a hosted product whose plans only recently gained public prices, so expect the monetization strategy to keep moving.
 
 ## Pricing
 
 The core CLI is free, Apache-2.0, no account.
-The hosted side now publishes four plans (re-verified 2026-10-05): Free ($0, one developer, no card, with node, build, and review allowances), Pro ($10/month billed yearly or $15 billed monthly, one developer, uncapped graphs), Teams ($20 per seat/month billed yearly or $29 billed monthly, minimum 2 seats, rising to $28 yearly and $40 monthly after the first 100 teams), and Enterprise (early access, self-hosted, licensed per seat, with the price scoped on a call instead of published), plus free access for qualified MIT and Apache licensed OSS projects.
+The hosted side now publishes four plans (re-verified 2026-10-06): Free ($0, one developer, no card, with node, build, and review allowances), Pro ($10/month billed yearly or $15 billed monthly, one developer, uncapped graphs), Teams ($20 per seat/month billed yearly or $29 billed monthly, minimum 2 seats, rising to $28 yearly and $40 monthly after the first 100 teams), and Enterprise (early access, self-hosted, licensed per seat, with the price scoped on a call instead of published), plus free access for qualified MIT and Apache licensed OSS projects.
 
 ## Price history
 
@@ -85,6 +85,7 @@ Not for small repos where grep and packing are enough, or for buyers who need in
 - 2026-10-03 - Recorded release v0.9.74 (2026-10-02) and refreshed the volatile numbers (123,390 stars, 2,043 commits, 280 contributors, 1,531 open issues and PRs); hosted plans re-verified unchanged.
 - 2026-10-04 - Recorded release v0.9.75 (2026-10-04) and refreshed the volatile numbers (123,562 stars, 2,080 commits, 1,503 open issues and PRs); hosted plans re-verified unchanged.
 - 2026-10-05 - Recorded release v0.9.76 (2026-10-04) and refreshed the volatile numbers (123,872 stars, 2,105 commits, 287 contributors, 1,522 open issues and PRs); hosted plans re-verified unchanged against the live pricing page.
+- 2026-10-06 - Recorded release v0.9.77 (2026-10-05) and refreshed the volatile numbers (124,118 stars, 2,132 commits, 294 contributors, 1,506 open issues and PRs); hosted plans re-verified unchanged against the live pricing page and the full plan index.
 
 ## See also
 
@@ -98,8 +99,8 @@ Not for small repos where grep and packing are enough, or for buyers who need in
 - https://github.com/Graphify-Labs/graphify - repository, README, architecture, license, adoption numbers
 - https://raw.githubusercontent.com/Graphify-Labs/graphify/v8/BENCHMARKS.md - the self-published benchmarks, including the supermemory trade-off
 - https://graphify.com/ - positioning and the no-embeddings claim
-- https://graphify.com/pricing - the four hosted plans above the free core, re-verified unchanged 2026-10-05
-- https://graphify.com/llms-full.txt - the full plan table grounding the pricing section (monthly and annual billing), fetched 2026-09-25
+- https://graphify.com/pricing - the four hosted plans above the free core, re-verified unchanged 2026-10-06
+- https://graphify.com/llms-full.txt - the full plan table grounding the pricing section (monthly and annual billing), fetched 2026-10-06
 - https://pypi.org/project/graphifyy/ - the distribution and current version
 - https://www.ycombinator.com/companies/graphify-labs - the maker, batch, and self-reported adoption claims
 - https://github.com/zachsaw/graphify-csharp - the third-party C# port, 72 stars as of 2026-10-03

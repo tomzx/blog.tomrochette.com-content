@@ -1,7 +1,7 @@
 ---
 title: Agent Control
 created: 2026-10-05
-updated: 2026-10-05
+updated: 2026-10-06
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, control-planes, policy-enforcement, runtime-governance, open-source]
 readability: 3
@@ -24,7 +24,7 @@ The launch blog (March 11, 2026) frames the product against Forrester's agent co
 
 ## Status
 
-Active and young: 320 stars, 54 forks, 41 open issues, and 19 contributors as of 2026-10-05, created 2026-01-30, pushed 2026-10-05, with a fast release train (v8.8.0 on 2026-09-22, v8.9.0 and v8.10.0 on 2026-10-01, v8.11.0 on 2026-10-02, mirrored by agent-control-sdk 8.11.0 on PyPI and agent-control 3.3.0 on npm).
+Active and young: 320 stars, 55 forks, 45 open issues, and 19 contributors as of 2026-10-06, created 2026-01-30, pushed 2026-10-06, with a fast release train (v8.8.0 on 2026-09-22, v8.9.0 and v8.10.0 on 2026-10-01, v8.11.0 on 2026-10-02, mirrored by agent-control-sdk 8.11.0 on PyPI and agent-control 3.3.0 on npm).
 **The community footprint is thin for the backing it carries: the Hacker News launch thread drew 2 points and zero comments, so the adoption evidence is the release cadence, the contributor count, and the launch-partner list rather than organic discussion.**
 A version line already at v8 eight months in says the API moves; the README's own quickstart warns that the default compose file starts without API keys configured, which it calls dangerous for any real-world usage.
 
@@ -75,7 +75,7 @@ Not for local-first or latency-critical enforcement, and not for anyone who need
 - https://github.com/agentcontrol/agent-control - README: quickstart, SDKs, evaluator model, framework support, and the insecure-defaults warning
 - https://galileo.ai/blog/announcing-agent-control - launch post: the @control() design, deny/steer/warn/log/allow decisions, launch partners, and the Forrester framing
 - https://agentcontrol.dev/ - project site: Control Store, audit logs, and the Galileo maintenance commitment
-- https://api.github.com/repos/agentcontrol/agent-control - stars, forks, issues, contributors, creation and push dates as of 2026-10-05
+- https://api.github.com/repos/agentcontrol/agent-control - stars, forks, issues, contributors, creation and push dates as of 2026-10-06
 - https://api.github.com/repos/agentcontrol/agent-control/releases - the v8.8.0 through v8.11.0 release train
 - https://pypi.org/pypi/agent-control-sdk/json - agent-control-sdk 8.11.0, Apache-2.0
 - https://thenewstack.io/galileo-agent-control-open-source/ - independent coverage of the launch

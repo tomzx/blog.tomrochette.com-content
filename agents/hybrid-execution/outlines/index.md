@@ -1,7 +1,7 @@
 ---
 title: Outlines
 created: 2026-08-24
-updated: 2026-09-25
+updated: 2026-10-06
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, structured-outputs, constrained-decoding, open-source, llm=glm-5.3-flash]
 readability: 3
@@ -25,7 +25,7 @@ It began at Normal Computing (Brandon Willard and Remi Louf) and is maintained b
 ## Status
 
 **Active, with an asterisk on where its own engine still runs.**
-The repository shows about 15.9k stars and 1,325 commits as of 2026-09-25, and the docs claim adoption by the major serving frameworks and by companies from Amazon to Shopify (self-reported where not public).
+The repository shows about 15.9k stars and 1,325 commits as of 2026-10-06, and the docs claim adoption by the major serving frameworks and by companies from Amazon to Shopify (self-reported where not public).
 But vLLM's current structured-outputs docs name xgrammar and guidance as its backends, and vLLM removed the old `guided_*` request fields in v0.12.0, so the engine-level default no longer runs Outlines' compiler there.
 XGrammar's November 2024 benchmarks (competitor-run) measured existing solutions, Outlines included, at up to 3.5x slower mask generation on JSON schemas and more than 10x slower on context-free grammars.
 

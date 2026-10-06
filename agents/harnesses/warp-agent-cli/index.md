@@ -53,7 +53,7 @@ Build starts at $20/month ($18 annual) with 1,500 credits ($20 of included usage
 Max starts at $200/month with 18,000 credits.
 Business is $50/user/month with per-seat credits, SAML SSO, and BYOK.
 Enterprise is custom, adding BYOLLM routing, self-hosted cloud agents, and cross-harness memory (research preview).
-All tiers as of 2026-09-26, re-verified unchanged against the live pricing page on 2026-10-04.
+All tiers as of 2026-09-26, re-verified unchanged against the live pricing page on 2026-10-06.
 
 ## Price history
 
@@ -92,7 +92,7 @@ I think the CLI exists to follow developers who fled Warp's AI-heavy terminal fo
 ## References
 
 - https://www.warp.dev/blog/introducing-the-warp-agent-cli-coding-agent - launch post: scope, model routing, session muxing, cloud agents
-- https://www.warp.dev/pricing - tiers, credits, and enterprise features, re-verified 2026-10-04
+- https://www.warp.dev/pricing - tiers, credits, and enterprise features, re-verified 2026-10-06
 - https://docs.warp.dev/agents/cli - CLI overview and documentation structure
 - https://docs.warp.dev/agents/cli/quickstart.md - install methods, account requirement, self-update behavior
 - https://github.com/warpdotdev/warp - codebase state, AGPL-3.0 license, stars as of 2026-10-04

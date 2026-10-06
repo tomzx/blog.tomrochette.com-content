@@ -25,8 +25,8 @@ The company raised a $5 million seed led by Tom Preston-Werner, with Amjad Masad
 ## Status
 
 **Active and fast-growing in distribution, with an evidence base that is mostly the vendor's own.**
-The npm package's latest build is 1.74.1 (published October 3, 2026), the site's changelog counts 390 releases, and the package did 226,416 downloads in the last month (the API window covering September 4 to October 3, as of 2026-10-05).
-The `CommandCodeAI/command-code` repository has 4,094 stars as of 2026-10-05 (GitHub API) but hosts issues only: no source, no license, the client is closed.
+The npm package's latest build is 1.74.3 (published October 5, 2026), the site's changelog counts 390 releases, and the package did 219,535 downloads in the last month (the API window covering September 5 to October 4, as of 2026-10-06).
+The `CommandCodeAI/command-code` repository has 4,097 stars as of 2026-10-06 (GitHub API) but hosts issues only: no source, no license, the client is closed.
 The first public release dates to about May 2026 (a 3-point Show HN on May 6), and the GOAT plan announcement drew 6 points in August; the site claims 100,000-plus developers and 40,000-plus paying customers, numbers I cannot verify from anywhere independent.
 I treat the install count as the one solid signal and the discussion vacuum as a warning: a genuinely adopted tool usually leaves more community trace than this.
 
@@ -47,7 +47,7 @@ I treat the install count as the one solid signal and the discussion vacuum as a
 
 ## Pricing
 
-Individual plans as of 2026-10-05: Go $1/month ($10 of credits, open models), GOAT $10/month ($70 of credits, roughly 50 models including GPT-5.6 Sol), Pro $20/month ($80 of credits, premium models), Max 10x $100/month ($150 of credits), and Max 20x $200/month ($300 of credits), each plus a processing fee.
+Individual plans as of 2026-10-06 (re-verified unchanged): Go $1/month ($10 of credits, open models), GOAT $10/month ($70 of credits, roughly 50 models including GPT-5.6 Sol), Pro $20/month ($80 of credits, premium models), Max 10x $100/month ($150 of credits), and Max 20x $200/month ($300 of credits), each plus a processing fee.
 The Provider plan at $15/month is an OpenAI- and Anthropic-compatible API with zero markup; Teams is $40/month with pooled credits; Enterprise is custom.
 Top-up credits are bought at model cost, roll over, and never expire; free stealth-preview models consume no credits while they last.
 
@@ -84,10 +84,10 @@ Not for open-client mandates, and not for anyone who needs independent evaluatio
 ## References
 
 - https://commandcode.ai/ - product surface, taste-1 claims, company positioning, and the $5M seed line (fetched 2026-10-05)
-- https://commandcode.ai/pricing - plan ladder, credits, Provider API plan, and Teams pricing, as of 2026-10-05
-- https://registry.npmjs.org/command-code - latest build 1.74.1 published 2026-10-03, package created 2025-08-07 (verified via the registry API)
-- https://api.npmjs.org/downloads/point/last-month/command-code - 226,416 downloads, window September 4 to October 3, as of 2026-10-05
-- https://github.com/CommandCodeAI/command-code - issues-only repository, 4,094 stars, no source or license, as of 2026-10-05 (verified via the GitHub API)
+- https://commandcode.ai/pricing - plan ladder, credits, Provider API plan, and Teams pricing, as of 2026-10-06 (re-verified unchanged)
+- https://registry.npmjs.org/command-code - latest build 1.74.3 published 2026-10-05, package created 2025-08-07 (verified via the registry API)
+- https://api.npmjs.org/downloads/point/last-month/command-code - 219,535 downloads, window September 5 to October 4, as of 2026-10-06
+- https://github.com/CommandCodeAI/command-code - issues-only repository, 4,097 stars, no source or license, as of 2026-10-06 (verified via the GitHub API)
 - https://techstackups.com/comparisons/coding-agent-harness-comparison-2026/ - the critical source: closed-source classification, funding details, ex-Langbase history, and the 48-hour launch-issue record (fetched 2026-10-05)
 - https://hn.algolia.com/api/v1/items/48031887 - the May 6, 2026 Show HN, 3 points (verified via the Algolia API)
 - https://hn.algolia.com/api/v1/items/49188656 - the August 5, 2026 GOAT-plan Show HN, 6 points

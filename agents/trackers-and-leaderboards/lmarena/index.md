@@ -1,7 +1,7 @@
 ---
 title: LMArena
 created: 2026-09-24
-updated: 2026-10-04
+updated: 2026-10-06
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, trackers-and-leaderboards, evaluation, leaderboards, human-feedback]
 readability: 3
@@ -19,13 +19,13 @@ LMArena ranks AI models by blind human preference votes: two anonymous models an
 A website (lmarena.ai), a family of leaderboards (Agent Overall, Text, WebDev, Image, Video, Vision, Document, Search), a WebDev arena (web.lmarena.ai), a blog, and open methodology repositories, run by Arena Intelligence Inc., the company that grew out of the UC Berkeley and LMSYS Chatbot Arena project.
 The founding paper (arXiv:2403.04132, March 2024) describes the pairwise crowdsourcing method and 240K+ votes at the time; the leaderboard methodology source is published as the `arena-rank` repository, pushed August 2026.
 The company raised $100M at a $600M valuation in May 2025, led by Andreessen Horowitz and UC Investments, and labs including OpenAI, Google, and Anthropic partner with it to put flagship models in front of voters.
-Recent product motion includes AutoEval scores added to the leaderboards (to complement slowly collected human votes), agent leaderboard categories with task costs (August 2026), a HarnessTax research post (September 2026), and an October 2026 research post that post-trains a text-to-image model on 5 million Arena preference votes plus rubric rewards, which is direct evidence for the training-asset claim below.
+Recent product motion includes AutoEval scores added to the leaderboards (to complement slowly collected human votes), agent leaderboard categories with task costs (August 2026), a HarnessTax research post (September 2026), a research post showing LLM judges prefer their own responses 70% more often than humans do (30 September 2026), and an October 2026 research post that post-trains a text-to-image model on 5 million Arena preference votes plus rubric rewards, which is direct evidence for the training-asset claim below.
 
 ## Status
 
 The most-cited leaderboard in the field: a critical paper describing Chatbot Arena as "the go-to leaderboard for ranking the most capable AI systems" is itself the best evidence of that status.
 The blog posts within days of verification, the arenas run continuously, and HN threads routinely open with its rankings as the premise.
-The company is well capitalized and has converted the academic project into a venture-scale business, which is also the source of its hardest questions.
+The company is well capitalized and has converted the academic project into a venture-scale business, which is also the source of its hardest questions, and it reported a $100M annualized run rate in June 2026, eight months in, with 10M+ monthly users and 82M+ votes contributed.
 
 ## Strengths
 
@@ -62,6 +62,7 @@ My disagreeable claim: the leaderboard is the least valuable thing the arenas pr
 - 2026-09-24 - Created.
 - 2026-09-26 - Removed the "Facts below verified as of" stamp per owner policy; the site is a client-rendered app, so vote and model counts beyond the founding paper's figures could not be read from its HTML.
 - 2026-10-04 - Added the 2026-10-02 research post on post-training text-to-image models with 5 million Arena preference votes to the product-motion record, the first documented case of the vote stream training a model.
+- 2026-10-06 - Added the company's June 2026 disclosure of a $100M annualized run rate (10M+ monthly users, 82M+ votes) and the 30 September 2026 research post finding LLM judges prefer their own responses 70% more often than humans do.
 
 ## See also
 
@@ -74,7 +75,7 @@ My disagreeable claim: the leaderboard is the least valuable thing the arenas pr
 ## References
 
 - https://lmarena.ai/ - homepage meta: blind comparison, vote-driven leaderboards across text, image, and code (fetched 200, 2026-09-24)
-- https://blog.lmarena.ai/ - Arena Intelligence Inc. identity, leaderboard families, and 2026 post dates including the 2026-10-02 post-training research post (fetched 200, 2026-10-04)
+- https://blog.lmarena.ai/ - Arena Intelligence Inc. identity, leaderboard families, and 2026 post dates including the 30 September judge self-preference post and the 2026-10-02 post-training research post (re-fetched 200, 2026-10-06, newest post still 2 October 2026)
 - https://blog.lmarena.ai/how-it-works/ - the vote flow and identity reveal procedure (fetched 200, 2026-09-24)
 - https://arxiv.org/abs/2403.04132 - the founding paper: method and 240K+ votes (fetched 200, 2026-09-24)
 - https://arxiv.org/abs/2504.20879 - The Leaderboard Illusion: private testing, 27 Meta variants, sampling asymmetries (fetched 200, 2026-09-24)

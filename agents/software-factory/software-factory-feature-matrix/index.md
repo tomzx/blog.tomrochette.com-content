@@ -1,7 +1,7 @@
 ---
 title: "Software Factory Feature Matrix"
 created: 2026-08-29
-updated: 2026-10-04
+updated: 2026-10-06
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=big-pickle, llm=glm-5.3-flash, comparison, software-factory, agentic-workflows]
 readability: 3
@@ -34,7 +34,7 @@ Each column links to the full research note; every cell below traces to a source
 | License | Apache-2.0 | Apache-2.0 | MIT | MIT | MIT |
 | Pricing | free, no paid tier, no hosted cloud | core free; HAR HQ Team $400 per month up to 50 users with $100 monthly cloud credits, Enterprise custom (self-hosted or VPC, SSO/SAML/SCIM) | free, early access | free, GitHub Sponsors funded, enterprise offerings conditional | free, self-hosted |
 | Born | 2026-07-10 | 2026-06-28 | 2026-07-16 | 2026-01-14 | 2026-08-02 |
-| Stars | about 110 | about 100 | about 480 | about 6.2k | about 930 |
+| Stars | about 110 | about 100 | about 490 | about 6.2k | about 950 |
 
 ## Reading the matrix
 
@@ -51,6 +51,10 @@ The difference is what compounds: Fluent compounds lessons about the code, Ourob
 **The narrow columns are candid**: SSSF's pi-only dependency versus the open agent matrix of Fluent and HAR is the single biggest reason to look past the founding member's headline ease.
 Ouroboros runs the other direction with 14 runtimes, the widest agent boundary in the category, paid for in evaluation tokens and beta churn.
 **Machinist narrows the boundary in the other direction: its named-command entrypoint is the category's strictest agent interface, paid for with no built-in isolation and restart-from-zero failure semantics.**
+
+**The pattern has independent practitioner validation beyond this category's tools.**
+Will Larson's Imprint runs a Linear-project factory loop in production and finds it compounds only when the surrounding pieces exist: one source of task state, metric access, and a harness that works without a laptop.
+The term's AI-era origin traces, by Larson's own attribution, to Justin McCarthy's February 2026 StrongDM essay, which describes the same bet from the inside: specs and scenarios drive agents, and no human writes or reviews the code.
 
 **The rejected long tail**: agentic-software-factory (1 star, inflated agent counts), ai-factory (4 stars, no license), and Takk8IS/software-factory (0 stars, no license) did not clear the citation or credibility bar and are named here so no future run re-adds them silently.
 
@@ -75,6 +79,7 @@ Ouroboros runs the other direction with 14 runtimes, the widest agent boundary i
 - 2026-09-27 - Refreshed the SSSF star cell (about 900).
 - 2026-09-29 - Refreshed the Machinist star cell (about 470); all other cells re-verified unchanged.
 - 2026-10-02 - Refreshed the star cells (Fluent about 110, Machinist about 480, Ouroboros about 6.2k, SSSF about 920); HAR and all other cells re-verified unchanged.
+- 2026-10-06 - Added the independent-practitioner paragraph grounding the loop-owner thesis (Will Larson's production factory loop, Justin McCarthy's term-origin essay) with two references; refreshed the Machinist and SSSF star cells.
 
 ## See also
 
@@ -94,3 +99,5 @@ Ouroboros runs the other direction with 14 runtimes, the widest agent boundary i
 - https://github.com/owainlewis/machinist - the Machinist column: named commands, executors, recording, license
 - https://github.com/Q00/ouroboros - the Ouroboros column: the loop, the three-stage gate, and the hidden-grading design
 - https://ouroboros.page/learn/en/evaluate/ - the gate stages and consensus triggers grounding the acceptance row
+- https://lethain.com/software-factory-experiment/ - Will Larson's production factory loop, the independent practitioner validation of the compounding claim
+- https://factory.strongdm.ai/ - Justin McCarthy's February 2026 essay, the term's origin and the spec-plus-scenario loop grounding the thesis

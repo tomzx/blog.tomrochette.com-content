@@ -1,7 +1,7 @@
 ---
 title: Experiential
 created: 2026-09-27
-updated: 2026-10-05
+updated: 2026-10-06
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, model-access, llm-gateway, self-hosted, model-routing]
 readability: 3
@@ -24,10 +24,10 @@ The GitHub repo language reads Python; the Rust data plane claim comes from the 
 
 ## Status
 
-Very active and compounding fast: 9,018 stars and 228 forks as of 2026-10-05, pushed the same day, created 2026-06-24.
+Very active and compounding fast: 9,303 stars and 231 forks as of 2026-10-06, pushed the same day, created 2026-06-24.
 The Show HN launch ("We built open OpenRouter that turns usage into a better model") reached 222 points on 2026-08-27 with 47 comments, and the star count has since grown roughly an order of magnitude past the ~820 the entrant data recorded around 2026-09-21.
-PyPI shows 163 releases since first upload on 2026-08-20, latest 0.7.154, requiring Python 3.12+, with GitHub releases now at v0.7.154 (2026-10-05).
-One hundred sixteen open issues, a Discord, and YC backing as of 2026-10-05.
+PyPI shows 166 releases since first upload on 2026-08-20, latest 0.7.157, requiring Python 3.12+ (as of 2026-10-06).
+One hundred eighteen open issues, a Discord, and YC backing as of 2026-10-06.
 
 ## Strengths
 
@@ -52,7 +52,7 @@ Free plan: $0 per month, 500 hosted credits monthly after a one-time $1 card ver
 Pro is a credit ladder from $20 to $199 per month (2,000 credits at the $20 floor, scalable to 1,000,000), and above it sit self-serve Max ($200 to $1,999 per month) and Ultra ($2,000 and up) tiers with higher rate limits (Free Tier 1, Pro Tier 2, Max Tier 3, Ultra Tier 4, Tier 5 by request).
 Model discounts (up to 100% off select models, for example 50% off DeepSeek V4 Flash) apply to the first 2,000 credits of usage each month, then list price.
 Enterprise: custom committed credits at the lowest rate, adding SSO/SAML/SCIM, advanced RBAC, private networking, data residency, security reviews, and a model trained on your traffic.
-Routed tokens stay at provider cost with 0% markup on every plan, and self-hosting the gateway is free, as of 2026-10-02.
+Routed tokens stay at provider cost with 0% markup on every plan, and self-hosting the gateway is free, as of 2026-10-06.
 
 ## Price history
 
@@ -89,9 +89,9 @@ My disagreeable claim: the traffic-trained router is the demo rather than the pr
 
 ## References
 
-- https://api.github.com/repos/experientiallabs/experiential - 9,018 stars, 228 forks, Apache-2.0, pushed 2026-10-05 (200, fetched 2026-10-05)
+- https://api.github.com/repos/experientiallabs/experiential - 9,303 stars, 231 forks, Apache-2.0, pushed 2026-10-06 (fetched via the GitHub API, 2026-10-06)
 - https://raw.githubusercontent.com/experientiallabs/experiential/main/README.md - architecture, capture mode, PostHog telemetry enabled by default, optimize workflow (200)
 - https://hn.algolia.com/api/v1/items/49471407 - Show HN thread, 222 points, created 2026-08-27, caching objection, telemetry contradiction, rug-pull accusation (200)
-- https://www.experientiallabs.ai/pricing - Free $0, Pro credit ladder $20 to $199, Max $200 to $1,999, Ultra $2,000+, 0% markup, YC backing (200, fetched 2026-10-02)
-- https://pypi.org/pypi/experiential/json - 0.7.154, first upload 2026-08-20, 163 releases, Python 3.12+ (200, re-checked 2026-10-05)
+- https://www.experientiallabs.ai/pricing - Free $0, Pro credit ladder $20 to $199, Max $200 to $1,999, Ultra $2,000+, 0% markup, YC backing (200, re-fetched unchanged 2026-10-06)
+- https://pypi.org/pypi/experiential/json - 0.7.157, first upload 2026-08-20, 166 releases, Python 3.12+ (200, re-checked 2026-10-06)
 - https://platform.experientiallabs.ai/docs - fetched with status 200 but renders as an empty JavaScript shell, so nothing citable was taken from it

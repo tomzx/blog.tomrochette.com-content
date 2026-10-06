@@ -85,7 +85,7 @@ Not for anyone who needs an open client or a large community ecosystem today.
 
 ## References
 
-- https://junie.jetbrains.com/ - features and BYOK providers as of 2026-09-22, plan pricing as of 2026-09-09
+- https://junie.jetbrains.com/ - features, BYOK providers, and plan pricing, re-verified unchanged 2026-10-06 (the home page serves the plan prices; the standalone pricing page still 404s)
 - https://blog.jetbrains.com/junie/2026/08/junie-local-launch/ - the Junie Local on-device launch, free with no credits
 - https://github.com/JetBrains/junie - install channels, GitHub Action, license terms
 - https://www.jetbrains.com/junie/ - the product entry point

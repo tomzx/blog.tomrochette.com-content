@@ -1,7 +1,7 @@
 ---
 title: Kilo Code
 created: 2026-08-27
-updated: 2026-10-04
+updated: 2026-10-06
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agents, harnesses, open-source, vscode, byok]
 readability: 3
@@ -47,7 +47,7 @@ Free and open source for individuals; model usage is billed separately via your 
 Teams: $15/user/month adding shared agent modes, analytics, centralized billing, and shared BYOK.
 Enterprise: custom SSO/OIDC/SCIM, audit logs, private gateway, SLAs.
 Costs split three ways (platform plan, AI inference, cloud compute), quoted separately.
-Kilo Pass, an optional monthly credit subscription (Starter $19, Pro $49, Expert $199) with up to 50% bonus credits, now sits alongside pay-as-you-go Kilo Gateway on the pricing page, as of 2026-09-24.
+Kilo Pass, an optional monthly credit subscription (Starter $19, Pro $49, Expert $199) with up to 50% bonus credits, now sits alongside pay-as-you-go Kilo Gateway on the pricing page, as of 2026-10-06 (re-verified unchanged).
 
 ## Price history
 
@@ -78,18 +78,19 @@ Not for teams needing a stable multi-year vendor story right now, because owners
 - 2026-09-24 - Recorded releases moving to v7.7.12 (September 24, prerelease) with v7.7.9 (September 23) the latest stable, and re-verified pricing unchanged.
 - 2026-09-26 - Recorded releases moving to v7.8.1 (September 25), now the latest stable after the v7.8.0 prerelease, and refreshed repository state; pricing re-verified unchanged.
 - 2026-10-02 - Recorded releases moving to v7.8.3 (October 1), now the latest stable after the v7.8.2 prerelease, and refreshed repository state; pricing re-verified unchanged against the live pricing page.
+- 2026-10-06 - Corrected the stale harness count in the See-also matrix line.
 
 ## See also
 
 - [Roo Code](../../surfaces/roo-code/index.md) - the ancestor's sunset record, the before-picture of this note
 - [Cline](../cline/index.md) - the sibling lineage that stayed independent
-- [Harness Feature Matrix](../harness-feature-matrix/index.md) - where this column sits against the other twelve harnesses
+- [Harness Feature Matrix](../harness-feature-matrix/index.md) - where this column sits against the category's other members
 - [Agentic Coding Tools Landscape](../../agentic-coding-tools-landscape/index.md) - the map that places this consolidation
 
 ## References
 
 - https://github.com/Kilo-Org/kilocode - repository scale, license, description as of 2026-10-04
-- https://kilo.ai/pricing - tiers, Kilo Pass, credit model, and the Anaconda acquisition banner, as of 2026-10-04 (re-verified unchanged)
+- https://kilo.ai/pricing - tiers, Kilo Pass, credit model, and the Anaconda acquisition banner, as of 2026-10-06 (re-verified unchanged)
 - https://www.anaconda.com/blog/anaconda-acquires-kilo-code - the acquisition announcement primary source
 - https://news.ycombinator.com/item?id=43483802 - the launch-era community record (98 points)
 - https://news.ycombinator.com/item?id=43951329 - the feature-merge origin naming Cline and Roo

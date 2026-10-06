@@ -1,9 +1,9 @@
 ---
 title: Zed
 created: 2026-08-23
-updated: 2026-10-04
+updated: 2026-10-06
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, surfaces, ai-editors, zed-industries]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, surfaces, ai-editors, zed-industries]
 readability: 3
 audience_notes: >
   Engineers who care about editor latency and want AI optional rather than mandatory.
@@ -23,7 +23,7 @@ The AI stack supports Zed-hosted models, BYOK across Anthropic, OpenAI, Google, 
 ## Status
 
 **Active and fast-moving.**
-About 91k GitHub stars as of 2026-10-05, with commits landing daily.
+About 91k GitHub stars (91,338) as of 2026-10-06, with commits landing daily.
 The engineering runs deep enough to swap graphics libraries mid-flight (the blade-to-wgpu switch, February 2026) without abandoning the product.
 
 ## Strengths
@@ -36,7 +36,7 @@ The engineering runs deep enough to swap graphics libraries mid-flight (the blad
 ## Cautions
 
 - **The trust file is not spotless**: a 2024 thread documented the editor downloading binaries and NPM packages without consent, and teams with strict egress policies remember.
-- Business at $30/seat still lacks SSO, SAML, and SCIM, documented as planned rather than shipped, as of 2026-09-22.
+- Business at $30/seat still lacks SSO, SAML, and SCIM, documented as planned rather than shipped, as of 2026-10-06.
 - AI features trail the dedicated platforms; there is no Cursor-style cloud fleet here.
 - The licensing is mixed (the repository's root LICENSE file is Apache-2.0 while GitHub reports multiple licenses), so policy reviews take longer than the words "open source" suggest.
 
@@ -44,7 +44,7 @@ The engineering runs deep enough to swap graphics libraries mid-flight (the blad
 
 Personal is $0 forever, with 2,000 accepted edit predictions and unlimited use with your own keys or external agents.
 Pro is $10/month including $5 of tokens, with usage beyond at API list price plus 10%.
-Business is $30/seat/month for org model policies, data governance, and spend visibility, as of 2026-09-22.
+Business is $30/seat/month for org model policies, data governance, and spend visibility, as of 2026-10-06.
 
 ## Price history
 
@@ -79,8 +79,8 @@ Not for teams needing enterprise identity plumbing or a turnkey agentic platform
 
 ## References
 
-- https://zed.dev/pricing - tiers, edit prediction counts, list+10% hosting, SSO status, as of 2026-09-22
-- https://github.com/zed-industries/zed - repository scale and license, as of 2026-09-22
+- https://zed.dev/pricing - tiers, edit prediction counts, list+10% hosting, SSO status, as of 2026-10-06
+- https://github.com/zed-industries/zed - repository scale and license, as of 2026-10-06
 - https://zed.dev/docs/ai/llm-providers - the BYOK provider list
 - https://news.ycombinator.com/item?id=40902826 - the 2024 auto-download consent thread
 - https://news.ycombinator.com/item?id=47002825 - the 2026 graphics-stack switch thread

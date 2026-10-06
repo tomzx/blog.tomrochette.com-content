@@ -1,7 +1,7 @@
 ---
 title: Atlas
 created: 2026-09-29
-updated: 2026-10-05
+updated: 2026-10-06
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, multi-agent, coding-agents, source-control, rust]
 readability: 3
@@ -23,7 +23,7 @@ It surfaced as an entrant from the owner's GitHub stars.
 
 ## Status
 
-Active and growing fast: 9,024 stars in under five months, last push 2026-10-04, latest release alpha-0.3.4 on 2026-09-27 (GitHub API, as of 2026-10-05).
+Active and growing fast: 9,154 stars in five months, last push 2026-10-04, latest release alpha-0.3.4 on 2026-09-27 (GitHub API, as of 2026-10-06).
 Official installers ship as macOS .app/.dmg and Windows .msi; Linux is build-from-source with GTK and WebKitGTK dependencies.
 The README carries Trendshift badges for Rust, and feature work targets version branches rather than main, a sign of release discipline inside alpha.
 I found no HN launch thread and no third-party coverage: the community footprint so far is GitHub stars alone, which is itself a signal.

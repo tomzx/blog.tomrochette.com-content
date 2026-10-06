@@ -1,7 +1,7 @@
 ---
 title: Cline
 created: 2026-08-24
-updated: 2026-10-04
+updated: 2026-10-06
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, coding-agents, harnesses, open-source, byok]
 readability: 3
@@ -17,9 +17,9 @@ Cline is an open-source (Apache-2.0) coding agent from Cline Bot Inc. that began
 
 ## What it is
 
-**One agent runtime, four delivery surfaces.**
+**One agent runtime, five delivery surfaces.**
 The `cline` CLI (npm) runs interactive or fully headless with JSON output for CI.
-The VS Code extension and the JetBrains plugin host the same agent in the editor, and `@cline/sdk` embeds it in your own tools.
+The VS Code extension and the JetBrains plugin host the same agent in the editor, `@cline/sdk` embeds it in your own tools, and a native Cline Desktop app (macOS, Windows, Linux) runs it with no editor at all.
 The separate kanban app runs task cards in parallel, each in its own worktree with auto-commit and dependency chains.
 Core mechanics: Plan and Act modes, per-edit terminal command approval with opt-in auto-approve, checkpoints, `.clinerules` project rules, skills, MCP servers, SDK plugins, multi-agent teams, cron-scheduled agents, and connectors for Slack, Telegram, Discord, WhatsApp, and Linear.
 Any provider works: Anthropic, OpenAI, Google, OpenRouter, Bedrock, Azure, Vertex, Cerebras, Groq, Ollama, LM Studio, or any OpenAI-compatible endpoint.
@@ -27,9 +27,10 @@ Any provider works: Anthropic, OpenAI, Google, OpenRouter, Bedrock, Azure, Verte
 ## Status
 
 **Active and large.**
-The repository shows about 69.7k stars and 7.6k forks as of 2026-10-04, with 250+ contributors and an Apache-2.0 license held by Cline Bot Inc.
-The VS Code Marketplace page shows 5,522,656 installs as of 2026-10-04 and a 4.1/5 average rating as of 2026-09-22; the product site claims 11M+ installs across the marketplace and Open VSX.
+The repository shows about 69.9k stars and 7.6k forks as of 2026-10-06, with 250+ contributors and an Apache-2.0 license held by Cline Bot Inc.
+The VS Code Marketplace page shows 5,540,608 installs as of 2026-10-06 and a 4.1/5 average rating as of 2026-09-22; the product site claims 11M+ installs across the marketplace and Open VSX.
 The project started as the "Claude Dev" extension in late 2024 and has been renamed and corporatized since.
+Beyond the open harness, the vendor now sells Cline Spec Driven, an enterprise agent platform built with LG CNS that runs a specialized-agent pipeline over a licensed, self-hostable deployment, listed on the product site as of 2026-10-06.
 
 ## Strengths
 
@@ -77,6 +78,7 @@ Not for teams that require every client binary open or a coding-agnostic automat
 - 2026-09-10 - Dropped the unverifiable ratings count from the marketplace figures.
 - 2026-09-16 - Refreshed marketplace installs to 5,341,071 and repository scale, and recorded the vendor install claim moving from 8M+ to 11M+.
 - 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
+- 2026-10-06 - Recorded the native Cline Desktop app as a fifth delivery surface, the Cline Spec Driven enterprise platform built with LG CNS, and refreshed repository and marketplace counters.
 
 ## See also
 
@@ -92,6 +94,6 @@ Not for teams that require every client binary open or a coding-agnostic automat
 - https://cline.bot/pricing - free core, usage billing, enterprise tiers
 - https://cline.bot/cline-pass - the open-weights subscription and its labs
 - https://docs.cline.bot/ - agent overview and configuration documentation
-- https://marketplace.visualstudio.com/items?itemName=saoudrizwan.claude-dev - verifiable install count, 5,522,656 as of 2026-10-04, and ratings
+- https://marketplace.visualstudio.com/items?itemName=saoudrizwan.claude-dev - verifiable install count, 5,540,608 as of 2026-10-06, and ratings
 - https://news.ycombinator.com/item?id=43360564 - early community thread on Cline as an autonomous VS Code agent
 - https://news.ycombinator.com/item?id=48525711 - Ask HN thread on reducing Cline's token usage

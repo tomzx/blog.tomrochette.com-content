@@ -1,7 +1,7 @@
 ---
 title: Chutes
 created: 2026-09-26
-updated: 2026-09-26
+updated: 2026-10-06
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, model-access, inference, pay-as-you-go, bittensor]
 readability: 3
@@ -41,7 +41,7 @@ I could not verify funding or traffic figures.
 
 ## Pricing
 
-PAYG is the default as of 2026-10-02: GLM-5.2 $1.25 in / $3.95 out per 1M, Kimi-K3 $3.00/$15.00, Qwen3-235B-A22B-Thinking $0.2989/$1.1957, DeepSeek-V3.2 $1.00/$1.00.
+PAYG is the default as of 2026-10-06: GLM-5.2 $1.25 in / $3.95 out per 1M, Kimi-K3 $3.00/$15.00, Qwen3-235B-A22B-Thinking $0.2989/$1.1957, DeepSeek-V3.2 $1.00/$1.00.
 Plus costs $10/month for a bundled daily quota plus 6% off PAYG beyond it, and Pro costs $20/month for a larger quota plus 10% off.
 Since February 27, 2026, every subscription is capped at 5x the equivalent PAYG value, with overflow billing at standard PAYG.
 Private chutes run on an RTX Pro 6000 at $1.80/hour plus a $5.40 one-time deployment fee (3x the hourly rate).
@@ -58,8 +58,8 @@ Private chutes run on an RTX Pro 6000 at $1.80/hour plus a $5.40 one-time deploy
 
 ## Compared to
 
-- [- Cerebras Code](../cerebras-code/index.md) sells raw speed on one coding model at $50/$200; choose it when latency dominates, Chutes when price dominates.
-- [- GLM Coding Plan](../glm-coding-plan/index.md) sells a large fixed quota on one model family; choose it if you will burn the quota, Chutes for variety without commitment.
+- [Cerebras Code](../cerebras-code/index.md) sells raw speed on one coding model at $50/$200; choose it when latency dominates, Chutes when price dominates.
+- [GLM Coding Plan](../glm-coding-plan/index.md) sells a large fixed quota on one model family; choose it if you will burn the quota, Chutes for variety without commitment.
 
 ## Bottom line
 
@@ -70,17 +70,18 @@ Claim to disagree with: after the 5x cap, Plus and Pro make little sense for cod
 ## Changes
 
 - 2026-09-26 - Created.
+- 2026-10-06 - Cleaned the Compared-to and See also link labels (stray leading dashes inside the link text), with the pricing page re-verified unchanged.
 
 ## See also
 
-- [- Cerebras Code](../cerebras-code/index.md) - the speed-first subscription alternative.
-- [- GLM Coding Plan](../glm-coding-plan/index.md) - the fixed-quota rival that wins on coding throughput per dollar.
-- [- OpenRouter rankings](../../trackers-and-leaderboards/openrouter-rankings/index.md) - where provider model traffic becomes visible.
-- [- Model provider feature matrix](../../model-provider-feature-matrix/index.md) - how access providers compare feature by feature.
+- [Cerebras Code](../cerebras-code/index.md) - the speed-first subscription alternative.
+- [GLM Coding Plan](../glm-coding-plan/index.md) - the fixed-quota rival that wins on coding throughput per dollar.
+- [OpenRouter rankings](../../trackers-and-leaderboards/openrouter-rankings/index.md) - where provider model traffic becomes visible.
+- [Model provider feature matrix](../../model-provider-feature-matrix/index.md) - how access providers compare feature by feature.
 
 ## References
 
-- https://chutes.ai/pricing - current PAYG model rates, Plus $10 / Pro $20 with 6%/10% PAYG discounts, private GPU pricing (fetched, HTTP 200, re-verified unchanged 2026-10-02).
+- https://chutes.ai/pricing - current PAYG model rates, Plus $10 / Pro $20 with 6%/10% PAYG discounts, private GPU pricing (fetched, HTTP 200, re-verified unchanged 2026-10-06).
 - https://chutes.ai/news/community-announcement-february - February 27, 2026 changes: Early Access retirement, 5x subscription cap, Base tier model removals, abuse tables (fetched, HTTP 200).
 - https://chutes.ai/news/from-volume-to-value-building-a-sustainable-ai-inference-platform-2 - March 20, 2026 economics: tokens down 45%, revenue per token up 37.7%, free-tier costs (fetched, HTTP 200).
 - https://chutes.ai/news/coming-soon - July 31, 2025 post announcing the first pricing tiers (fetched, HTTP 200).

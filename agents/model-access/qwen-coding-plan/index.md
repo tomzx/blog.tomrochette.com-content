@@ -1,7 +1,7 @@
 ---
 title: Qwen Coding Plan
 created: 2026-09-26
-updated: 2026-09-26
+updated: 2026-10-06
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, model-access, qwen, subscriptions, alibaba]
 readability: 3
@@ -45,8 +45,8 @@ As of 2026-09-26 the coding-plan docs (updated 2026-09-11) still headline the $5
 
 ## Pricing
 
-As of 2026-10-02 two price sheets coexist.
-Coding Plan Pro: $50/month, capped at 6,000 requests per 5 hours, 45,000 per week, and 90,000 per month, whichever hits first (official docs, updated 2026-09-11).
+As of 2026-10-06 two price sheets coexist.
+Coding Plan Pro: $50/month, capped at 6,000 requests per 5 hours, 45,000 per week, and 90,000 per month, whichever hits first (official docs, page updated 2026-09-28, re-verified 2026-10-06 with slots still first-come, first-served).
 Token Plan Personal (Singapore region): Lite $6 (list $8), Essential $10 (list $16), Standard $18 (list $25), Pro $68 (list $80) per month for 11,500/25,500/45,000/180,000 Credits, with team seats at $20/$75/$200 and extra bundles at $15 per 20,000 Credits.
 A third-party tracker (data updated 2026-09-24) reports China-side early-bird pricing of ¥39/¥139/¥499 per month, a limited-time night rate of 40% of normal Credits from 22:00, and 88% over-limit billing.
 
@@ -62,9 +62,9 @@ A third-party tracker (data updated 2026-09-24) reports China-side early-bird pr
 
 ## Compared to
 
-- [- GLM Coding Plan](../glm-coding-plan/index.md) wins on quota per dollar; choose Qwen when one subscription covering several vendors' models matters more.
-- [- MiniMax Coding Plan](../minimax-coding-plan/index.md) follows the same China flat-fee pattern with a narrower roster and similar interactivity terms.
-- [- OpenRouter](../openrouter/index.md) sells the opposite contract: pay per token, no interactivity restrictions, no suspension risk.
+- [GLM Coding Plan](../glm-coding-plan/index.md) wins on quota per dollar; choose Qwen when one subscription covering several vendors' models matters more.
+- [MiniMax Coding Plan](../minimax-coding-plan/index.md) follows the same China flat-fee pattern with a narrower roster and similar interactivity terms.
+- [OpenRouter](../openrouter/index.md) sells the opposite contract: pay per token, no interactivity restrictions, no suspension risk.
 
 ## Bottom line
 
@@ -75,14 +75,15 @@ Claim to disagree with: the $50 Coding Plan Pro that Alibaba's docs still headli
 ## Changes
 
 - 2026-09-26 - Created when the owner asked for any remaining subscription providers.
+- 2026-10-06 - Cleaned the Compared-to and See also link labels (stray leading dashes inside the link text), and the Coding Plan Pro quota terms re-verified on the official docs.
 
 ## See also
 
-- [- GLM Coding Plan](../glm-coding-plan/index.md) - the structural twin: same 5-hour window design, cleaner quota math.
-- [- MiniMax Coding Plan](../minimax-coding-plan/index.md) - the other China flat-fee plan in this category.
-- [- OpenRouter](../openrouter/index.md) - the pay-as-you-go alternative without usage-pattern enforcement.
-- [- Model provider feature matrix](../../model-provider-feature-matrix/index.md) - cross-provider comparison where this plan's rows live.
-- [- Model selection for coding tasks](../../model-selection-for-coding-tasks/index.md) - how to judge whether Qwen models fit the work.
+- [GLM Coding Plan](../glm-coding-plan/index.md) - the structural twin: same 5-hour window design, cleaner quota math.
+- [MiniMax Coding Plan](../minimax-coding-plan/index.md) - the other China flat-fee plan in this category.
+- [OpenRouter](../openrouter/index.md) - the pay-as-you-go alternative without usage-pattern enforcement.
+- [Model provider feature matrix](../../model-provider-feature-matrix/index.md) - cross-provider comparison where this plan's rows live.
+- [Model selection for coding tasks](../../model-selection-for-coding-tasks/index.md) - how to judge whether Qwen models fit the work.
 
 ## References
 

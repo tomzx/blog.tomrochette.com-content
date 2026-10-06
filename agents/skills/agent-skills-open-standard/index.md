@@ -1,7 +1,7 @@
 ---
 title: Agent Skills open standard
 created: 2026-08-24
-updated: 2026-10-05
+updated: 2026-10-06
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, skills, agent-extensions, open-standards, llm=glm-5.3-flash]
 readability: 3
@@ -25,7 +25,7 @@ Discovery is by directory convention: each harness scans its own skills paths (`
 
 **Active, and effectively the winner.**
 The agentskills.io client showcase lists Claude and Claude Code, ChatGPT and Codex, Gemini CLI, Cursor, GitHub Copilot and VS Code, OpenCode, Amp, Goose, Junie, Roo, Kiro, Trae, and dozens more.
-Vercel's skills CLI installs into 79 agents as of 2026-10-02 (its README table names exactly 79, OpenCode, Claude Code, Codex, Cursor, and 75 more).
+Vercel's skills CLI installs into 79 agents as of 2026-10-06 (its README table names exactly 79, OpenCode, Claude Code, Codex, Cursor, and 75 more).
 Mintlify now auto-generates a skill at `.well-known/skills/default/skill.md` for every docs site it hosts and deprecated its January 2026 install.md convention in favor of skills.
 
 ## Strengths
@@ -63,9 +63,11 @@ My disagreeable claim: SKILL.md is quietly becoming the interface between softwa
 - 2026-08-24 - Created in the Skills category seed.
 - 2026-08-26 - Restored the mandatory not-for bottom-line clause and added Anthropic's untrusted-skills engineering post as its critical source.
 - 2026-10-05 - Cursor's own docs now document native Agent Skills support (`.agents/skills` plus `.cursor/`, `.claude/`, and `.codex/` paths, `paths` and `disable-model-invocation` frontmatter, `/skill` invocation, and a `/migrate-to-skills` built-in in 2.4), so the discovery sentence no longer treats Cursor as a Vercel-CLI-only adopter and the fragmentation caution reflects Cursor's beyond-spec fields.
+- 2026-10-06 - Added Agent Plugins to See also: the multi-vendor packaging standard that bundles this format with MCP servers into one installable plugin; the 79-agent README count re-verified.
 
 ## See also
 
+- [Agent Plugins](../agent-plugins/index.md) - the multi-vendor packaging standard that bundles this format with MCP servers into one installable plugin
 - [Anthropic Agent Skills](../anthropic-agent-skills/index.md) - the product this standard was extracted from
 - [Claude Code](../../harnesses/claude-code/index.md) - the harness with the richest skill extensions beyond the spec
 - [Codex](../../harnesses/codex/index.md) - OpenAI's harness and its 2%-of-context skill budget
@@ -80,5 +82,5 @@ My disagreeable claim: SKILL.md is quietly becoming the interface between softwa
 - https://opencode.ai/docs/skills/ - Claude-compatible and .agents paths, unknown-field behavior
 - https://www.mintlify.com/blog/skill-md - third-party adoption, .well-known convention, install.md deprecation
 - https://github.com/vercel-labs/skills - cross-harness compatibility matrix
-- https://cursor.com/docs/context/skills - Cursor's native Agent Skills docs: directories, beyond-spec frontmatter, invocation, migration skill (fetched 2026-10-05)
+- https://cursor.com/docs/context/skills - Cursor's native Agent Skills docs: directories, beyond-spec frontmatter, invocation, migration skill (fetched 2026-10-06)
 - https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills - the untrusted-skill security risk behind the caution above

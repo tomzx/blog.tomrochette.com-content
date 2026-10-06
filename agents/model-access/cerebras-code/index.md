@@ -1,7 +1,7 @@
 ---
 title: Cerebras Code
 created: 2026-09-26
-updated: 2026-10-04
+updated: 2026-10-06
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, model-access, inference, coding]
 readability: 3
@@ -21,7 +21,7 @@ As of 2026-10-02 the product page promotes GLM 4.7 at "1,000 tokens+ per second"
 ## Status
 
 Launched August 1, 2025 and drew 449 points and 172 comments on Hacker News the same day.
-Launch windows sold out repeatedly, and as of 2026-10-04 both Pro and Max are still marked "sold out" on cerebras.ai/code, with a limited free trial still open.
+Launch windows sold out repeatedly, and as of 2026-10-06 both Pro and Max are still marked "sold out" on cerebras.ai/code, with a limited free trial still open.
 The model changed from Qwen3-Coder to GLM 4.7 between launch and now, which shows the plan follows whichever open model is fastest rather than committing to one family.
 I could not verify funding or subscriber counts.
 
@@ -43,7 +43,7 @@ I could not verify funding or subscriber counts.
 ## Pricing
 
 Pro costs $50/month with up to 24M tokens/day, and Max costs $200/month with up to 120M tokens/day.
-Both plans were marked sold out as of 2026-10-04; a free tier with limited tokens remains for connection testing.
+Both plans were marked sold out as of 2026-10-06; a free tier with limited tokens remains for connection testing.
 The underlying API price at launch was $2 per 1M input and $2 per 1M output on Qwen3-Coder.
 The current per-token table on cerebras.ai/pricing renders client-side and I could not extract it, so treat current API rates as unverified.
 
@@ -58,8 +58,8 @@ The current per-token table on cerebras.ai/pricing renders client-side and I cou
 
 ## Compared to
 
-- [- Chutes](../chutes/index.md) is the cheap multi-model pay-as-you-go option; choose Chutes for price and variety, Cerebras when seconds per response matter.
-- [- GLM Coding Plan](../glm-coding-plan/index.md) undercuts Cerebras on quota per dollar and now serves the same GLM family; choose it for volume, Cerebras for raw tokens per second.
+- [Chutes](../chutes/index.md) is the cheap multi-model pay-as-you-go option; choose Chutes for price and variety, Cerebras when seconds per response matter.
+- [GLM Coding Plan](../glm-coding-plan/index.md) undercuts Cerebras on quota per dollar and now serves the same GLM family; choose it for volume, Cerebras for raw tokens per second.
 
 ## Bottom line
 
@@ -70,20 +70,21 @@ Claim to disagree with: at the documented throttles, Max at $200 was worse value
 ## Changes
 
 - 2026-09-26 - Created.
+- 2026-10-06 - Cleaned the Compared-to and See also link labels (stray leading dashes inside the link text), and the sold-out status re-verified on the product page.
 
 ## See also
 
-- [- Chutes](../chutes/index.md) - the low-price multi-model alternative.
-- [- GLM Coding Plan](../glm-coding-plan/index.md) - the quota-heavy alternative now running the same model family.
-- [- Cline](../../harnesses/cline/index.md) - the editor integration Cerebras documents first.
-- [- OpenCode](../../harnesses/opencode/index.md) - a terminal harness that consumes Cerebras keys.
-- [- Model provider feature matrix](../../model-provider-feature-matrix/index.md) - where Cerebras Code sits among access providers.
+- [Chutes](../chutes/index.md) - the low-price multi-model alternative.
+- [GLM Coding Plan](../glm-coding-plan/index.md) - the quota-heavy alternative now running the same model family.
+- [Cline](../../harnesses/cline/index.md) - the editor integration Cerebras documents first.
+- [OpenCode](../../harnesses/opencode/index.md) - a terminal harness that consumes Cerebras keys.
+- [Model provider feature matrix](../../model-provider-feature-matrix/index.md) - where Cerebras Code sits among access providers.
 
 ## References
 
 - https://www.cerebras.ai/blog/introducing-cerebras-code - launch post: $50/$200 tiers, 24M/120M tokens/day, 2,000 tok/s claim, 131k context (fetched, HTTP 200).
 - https://www.cerebras.ai/blog/qwen3-coder-480b-is-live-on-cerebras - Qwen3-Coder launch, $2/1M API rate, "20x higher coding speed" claim (fetched, HTTP 200).
-- https://www.cerebras.ai/code - current product page: GLM 4.7 at 1,000+ tok/s, Pro and Max both marked "sold out" (fetched, HTTP 200, as of 2026-10-04).
+- https://www.cerebras.ai/code - current product page: GLM 4.7 at 1,000+ tok/s, Pro and Max both marked "sold out" (fetched, HTTP 200, as of 2026-10-06).
 - https://news.ycombinator.com/item?id=44762959 - launch-day reception: 449 points, 172 comments, top comment flags missing caching (fetched, HTTP 200).
 - https://www.infoworld.com/article/4055909/ - critical review, Sep 15, 2025: disputed tok/s claims, TPM caps, 131k context, billing mixups, no vendor comment (fetched, HTTP 200).
 - https://www.infoworld.com/article/4075825/how-to-vibe-code-for-free-or-almost-free.html - follow-up: caps improved, Qwen3 deprecated for GLM-4.6, "fastest bar none" (fetched, HTTP 200).

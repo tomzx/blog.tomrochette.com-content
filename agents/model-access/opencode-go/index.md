@@ -21,7 +21,7 @@ The lineup is 29 open-weight coding models as of 2026-10-03 (Grok 4.7/4.6, GLM-5
 ## Status
 
 Active and changing fast.
-The OpenCode repo shows about 212K GitHub stars as of 2026-10-04, the Go docs were last updated 2026-09-28, and the plan has grown from a three-model Beta in March 2026 to 29 models plus a $40 Go Plus tier.
+The OpenCode repo shows about 212K GitHub stars as of 2026-10-04, the Go docs were last updated 2026-10-06, and the plan has grown from a three-model Beta in March 2026 to 29 models plus a $40 Go Plus tier.
 Churn is constant: GPT 6 Luna arrived 2026-09-22 and Space Bunny Free appeared as a limited-time unlimited model.
 **Go converts $10 into up to $60 of metered usage per month, Go Plus converts $40 into up to $180, and that ratio is the entire value proposition.**
 
@@ -43,8 +43,9 @@ Churn is constant: GPT 6 Luna arrived 2026-09-22 and Space Bunny Free appeared a
 
 ## Pricing
 
-Go: $10/month, cancel any time, as of 2026-09-29.
+Go: $10/month, cancel any time, as of 2026-10-06.
 Go Plus: $40/month, same models with 2x to 4x the per-model monthly dollar limits (Kimi K3 and GPT 6 Luna $15 to $60, GLM-5.3-Flash and Kimi K2.7 Code $60 to $180, DeepSeek V4.1 Flash $60 to $120).
+The DeepSeek V4-family models now bill at peak and off-peak token rates, off-peak half price, with peak at 01:00-04:00 and 06:00-10:00 UTC Monday to Friday and the dollar limits unchanged.
 Each model carries a monthly dollar limit on Go (mostly $60, some $30, $15 for flagships), with windows at 20% per rolling 5 hours (so $12 on a $60 model) and 50% weekly ($30).
 Exceeded limits fall back to free models, or to your Zen balance if you enable it.
 Top-ups draw on the shared Zen balance, where card fees are passed at cost (4.4% + $0.30).
@@ -78,6 +79,7 @@ My disagreeable claim: at roughly 50% usage Go is about break-even with direct A
 - 2026-09-29 - Go Plus added at $40/month with 2x to 4x the per-model monthly dollar limits, the catalog moved from 32 to 29 models (LongCat, Hy3, Hy4 preview, Qwen3.8, and GPT 5.6 Luna joined the roster), and the docs republished 2026-09-28; price history row appended.
 - 2026-10-03 - Corrected the model-count claim from 30 to 29, matching the product page's own count and the 2026-09-29 catalog bullet, with the $10/$40 tiers re-verified unchanged.
 - 2026-10-06 - Converted the Compared-to cross-references from plain-text paths into working links.
+- 2026-10-06 - Docs check (republished 2026-10-06): the DeepSeek V4 family gained peak and off-peak token pricing (off-peak half price, peak 01:00-04:00 and 06:00-10:00 UTC Mon-Fri), while the $10/$40 tiers, the 29-model product-page count, and the per-model dollar limits re-verified unchanged.
 
 ## See also
 

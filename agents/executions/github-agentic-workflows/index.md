@@ -26,12 +26,12 @@ It is built by GitHub Next with Microsoft Research, MIT-licensed, in public prev
 About 5.3k stars, 574 forks, and roughly 18,000 commits in `github/gh-aw` as of 2026-10-06.
 The February 2026 Hacker News launch thread drew 302 points and 141 comments.
 The trust story has kept moving: an August 2026 billing bug forced the retirement of releases 0.68.4 through 0.71.3, and a critical security advisory published August 27 forced the pre-emptive retirement of releases 0.83.3 through 0.85.3 (patched in 0.85.4), a notice that still sits in the README while the billing one was cleared.
-The release line keeps churning (latest v0.91.0 on 2026-10-05 as a prerelease, with v0.89.21 still the newest stable-marked release since 2026-09-23), which shows how quickly this preview will break its users.
+The release line keeps churning (latest v0.91.1 on 2026-10-06 as a prerelease, with v0.89.21 still the newest stable-marked release since 2026-09-23), which shows how quickly this preview will break its users.
 
 ## Strengths
 
 - **The guardrail stack is the product**: read-only tokens by default, secrets isolated from the agent runtime, an agent workflow firewall, validated safe-output jobs that apply writes with scoped permissions, threat detection scans, and prompt-injection integrity filtering.
-- Cost controls are first-class: `max-ai-credits` caps a run (default 1,000 AIC, where 1 AIC = $0.01), with `gh aw logs` and `gh aw audit` for spend visibility.
+- Cost controls are first-class: `max-ai-credits` caps a run (default 1,000 AIC, where 1 AIC = $0.01), `max-daily-ai-credits` caps a workflow per day (default 5,000 AIC), and `gh aw logs` and `gh aw audit` give spend visibility.
 - Engine choice means you are not locked to one model vendor inside your CI.
 - It complements rather than replaces deterministic Actions: use Actions for builds, agentic workflows for triage, CI investigation, and docs drift.
 
@@ -50,7 +50,7 @@ Self-hosted and ARC runners are supported, which can zero out the Actions-minute
 
 ## Compared to
 
-- [Claude Code Action](https://github.com/anthropics/claude-code-action): the mature single-agent incumbent on the same platform (about 9.3k stars as of 2026-10-02), better for @claude PR review, weaker on multi-engine guardrails.
+- [Claude Code Action](https://github.com/anthropics/claude-code-action): the mature single-agent incumbent on the same platform (about 9.4k stars as of 2026-10-06), better for @claude PR review, weaker on multi-engine guardrails.
 - [Copilot automations](../copilot-automations/index.md): GitHub's hosted scheduled and event triggers, no files in your repo, Copilot-only.
 - [Claude Code hooks](../claude-code-hooks/index.md): event triggers inside one harness session, versus repository-level automation across engines.
 
@@ -75,6 +75,7 @@ My disagreeable claim: even in preview, I would start here rather than hand-roll
 - 2026-10-02 - Release train refreshed to v0.90.1 (2026-09-30, a prerelease) with v0.89.21 still the newest stable-marked release, the README advisory notice re-confirmed live, and growth refreshed (about 5.3k stars, 571 forks).
 - 2026-10-03 - Corrected the retired-release range to 0.83.3 through 0.85.3, since the advisory patches in 0.85.4 rather than retiring it, refreshed the release train to v0.90.3 (2026-10-03, a prerelease) with v0.89.21 still the newest stable-marked release, and refreshed forks to 572.
 - 2026-10-06 - Refreshed the release train to v0.91.0 (2026-10-05, a prerelease) with v0.89.21 still the newest stable-marked release, re-confirmed the security-advisory notice still live in the README, and refreshed forks to 574.
+- 2026-10-06 - Release train refreshed again to v0.91.1 (2026-10-06, a prerelease), and the daily cost cap (`max-daily-ai-credits`, 5,000 AIC default) added to the cost-controls strength; the claude-code-action star count moved to about 9.4k as a routine refresh.
 
 ## See also
 

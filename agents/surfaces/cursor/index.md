@@ -1,7 +1,7 @@
 ---
 title: Cursor
 created: 2026-08-23
-updated: 2026-10-05
+updated: 2026-10-06
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, surfaces, ai-editors, anysphere]
 readability: 3
@@ -46,7 +46,7 @@ As of 2026-10-05 the November 12, 2026 shutoff stands unrevised: OpenAI's own an
 
 Hobby is free with limited agent requests and access to Composer.
 Individual plans are $20/month (Pro, with Pro+ at 3x and Ultra at 20x agent limits).
-Teams Standard is $40/user/month and Teams Premium is $120/user/month with 5x the Standard agent limits, Enterprise is custom, and on-demand usage bills in arrears on the paid tiers, as of 2026-10-05.
+Teams Standard is $40/user/month and Teams Premium is $120/user/month with 5x the Standard agent limits, Enterprise is custom, and on-demand usage bills in arrears on the paid tiers, as of 2026-10-06.
 A Start plan for developers in India costs ₹649/month, tax inclusive, covering the first-party model pool and cloud agents.
 
 ## Price history
@@ -85,7 +85,7 @@ Not for anyone who needs an open, auditable toolchain or a predictable bill.
 
 ## References
 
-- https://cursor.com/pricing - tiers, limits language, privacy mode, as of 2026-10-05
+- https://cursor.com/pricing - tiers, limits language, privacy mode, as of 2026-10-06
 - https://cursor.com/docs/models-and-pricing - plan ladder including Teams Premium $120 and the India Start plan, cloud agents, automations, and Cursor for iOS, as of 2026-10-05
 - https://cursor.com/docs/rules - the rules system and AGENTS.md support in project root and subdirectories, as of 2026-10-05
 - https://cursor.com/blog/joining-spacex - the August 14, 2026 acquisition completion post

@@ -1,7 +1,7 @@
 ---
 title: Agent Client Protocol (ACP)
 created: 2026-08-24
-updated: 2026-09-16
+updated: 2026-10-06
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, protocols, interoperability, editor-integration]
 readability: 3
@@ -20,13 +20,13 @@ ACP is an open protocol that standardizes communication between code editors and
 Agents run as editor subprocesses speaking JSON-RPC over stdio, with message types for the coding UX that matters (session lifecycle, permission requests, diffs).
 The protocol reuses MCP's JSON representations where it can and keeps user-readable text in Markdown.
 **Zed originated it, JetBrains co-developed it after merging its own internal Junie protocol effort, and the repository now lives under the vendor-neutral `agentclientprotocol` organization, Apache-2.0.**
-The current stable protocol version is 1, with a v2 draft and a migration guide already published, and official Kotlin, Java, Python, Rust, and TypeScript SDKs.
+The current stable protocol version is 1, with a v2 draft and a migration guide already published, and official Kotlin, Java, Python, Rust, and TypeScript SDKs, with the Rust and TypeScript SDKs at 1.0.0 since June 2026.
 
 ## Status
 
 **Active and compounding.**
-The repository shows about 4.4k stars as of 2026-10-02, with roughly 2,300 commits.
-The official agents list has grown to 40 entries (re-counted 2026-10-02) and now includes Codex CLI (via the protocol project's adapter), the Claude agent (via Zed's SDK adapter), Gemini CLI, Cursor, OpenCode, Goose, Junie, Kiro CLI, Factory Droid, Cline, Kimi CLI, Qwen Code, and GitHub Copilot in public preview since 2026-01-28.
+The repository shows about 4.4k stars as of 2026-10-06, with roughly 2,300 commits.
+The official agents list has grown to 41 entries (re-counted 2026-10-06) and now includes Codex CLI (via the protocol project's adapter), the Claude agent (via Zed's SDK adapter), Gemini CLI, Cursor, OpenCode, Goose, Junie, Kiro CLI, Factory Droid, Cline, Kimi CLI, Qwen Code, and GitHub Copilot in public preview since 2026-01-28.
 Clients include Zed, JetBrains IDEs (beta in the 25.3 release candidates, December 2025), Neovim and Emacs plugins, VS Code extensions, and Devin Desktop.
 In this index, [OpenCode](../../harnesses/opencode/index.md) ships `opencode acp`, and [JetBrains](../../surfaces/jetbrains/index.md), [Zed](../../surfaces/zed/index.md), [Junie](../../harnesses/junie/index.md), and [Windsurf's Devin Desktop](../../surfaces/windsurf/index.md) all host agents through it.
 Remote, cloud-hosted agents are explicitly still work in progress.
@@ -65,6 +65,7 @@ The disagreeable part: I think ACP matters more than any single agent or editor 
 
 - 2026-08-24 - Created in the Protocols category seed.
 - 2026-09-16 - Linked the Compared-to AG-UI mention to the new AG-UI note.
+- 2026-10-06 - Recorded the Rust and TypeScript SDKs reaching 1.0.0 (June 2026) and re-counted the official agents list at 41 entries.
 
 ## See also
 
@@ -77,8 +78,9 @@ The disagreeable part: I think ACP matters more than any single agent or editor 
 ## References
 
 - https://agentclientprotocol.com - official introduction: stdio model, MCP type reuse, protocol version 1
-- https://agentclientprotocol.com/get-started/agents - the agent list (40 entries: Codex CLI, Claude agent, Gemini CLI, Cursor, OpenCode, Copilot preview)
+- https://agentclientprotocol.com/get-started/agents - the agent list (41 entries: Codex CLI, Claude agent, Gemini CLI, Cursor, OpenCode, Copilot preview)
 - https://agentclientprotocol.com/overview/clients - the client list (Zed, JetBrains, Neovim, Emacs, VS Code, Devin Desktop)
-- https://github.com/agentclientprotocol/agent-client-protocol - Apache-2.0 repository, SDKs, stars as of 2026-10-02
+- https://github.com/agentclientprotocol/agent-client-protocol - Apache-2.0 repository, SDKs, stars as of 2026-10-06
+- https://agentclientprotocol.com/announcements/sdk-1-0-releases - the Rust and TypeScript SDKs at 1.0.0 (June 2026), fetched via the site's markdown mirror
 - https://blog.jetbrains.com/ai/2025/12/bring-your-own-ai-agent-to-jetbrains-ides/ - co-creation story, 25.3 beta, the UX trade-off admission
 - https://news.ycombinator.com/item?id=45074147 - launch thread criticism (LSP and MCP comparisons, protocol proliferation, name collision)

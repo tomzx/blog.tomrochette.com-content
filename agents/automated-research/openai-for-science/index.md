@@ -1,7 +1,7 @@
 ---
 title: OpenAI for Science
 created: 2026-09-13
-updated: 2026-10-05
+updated: 2026-10-06
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, openai, mathematics, science]
 readability: 3
@@ -23,15 +23,17 @@ The program backs academic researchers with free and discounted access, and publ
 
 ## Status
 
-Active and escalating fast, as of 2026-10-05.
+Active and escalating fast, as of 2026-10-06.
 October 2025: senior OpenAI figures posted that GPT-5 had solved unsolved math problems; mathematicians showed the model had dug existing solutions out of old papers, and the posts were deleted.
 March 2026: GPT-5.4 solved the first open problem from Epoch AI's FrontierMath benchmark (a hypergraph-theory constant-factor bound), the benchmark of 14 bespoke unsolved problems explicitly built below Millennium scale.
 May 2026: OpenAI announced an internal model had disproved the Erdős unit distance conjecture, a result experts treated as genuinely productive.
+August 2026: OpenAI announced ten results across mathematics and theoretical computer science from an unreleased internal version of Astra, each shipped with a machine-checkable Lean 4 certificate in the Apache-2.0 openai/ten-proofs repository plus a 249-page manuscript: the first construction of a non-sofic group (open since Gromov defined soficity in 1999), a disproof of Connes's rigidity conjecture, Erdős problems 146, 180, and 183, the first improvement to the general sphere-packing bound since 1978, and a circuit lower bound for the permanent, at a claimed token cost of about $2,000, with erdosproblems.com's Thomas Bloom calling the set "big news" and bigger than the unit-distance disproof.
 September 2026: OpenAI published a claimed proof of forced blow-up in R3 and T3 for the Navier-Stokes equations, a Millennium Prize Problem, attributed to an internal model "with very little human input", and shipped it with a public Lean 4 formalization (about 616,000 lines, no extra axioms per a third-party audit, formalized in 17 hours via GPT-6 Astra per OpenAI); NYU's Tristan Buckmaster and Anthropic's Levent Alpöge, who published their own Lean-verified forced Euler proofs hours earlier, disputed credit, OpenAI's Sébastien Bubeck denied trying to cut Alpöge from authorship and apologized for a remark about his career, Sam Altman backed Bubeck and confirmed OpenAI had started the project after rumors that Anthropic's models had solved Millennium problems, and no independent process has adjudicated either account, while Clay's September 11 statement says the problem "has apparently been settled", now badges it Active on its site, and calls verification "deliberately unhurried", and OpenAI says it will not claim the prize.
+At DevDay on September 29, research lead Tejal Patwardhan said OpenAI's models have already helped solve more than 100 mathematics problems that had been open for decades, and Altman confirmed the September "automated research intern" goal set a year earlier was met.
 
 ## Strengths
 
-- Real benchmark firsts: the FrontierMath open-problem solve and the unit-distance disproof are substantive, not vapor.
+- Substantive firsts: the FrontierMath open-problem solve, the unit-distance disproof, and the ten Lean-certificated results of August are not vapor, and anyone can build the certificates.
 - The generator-critic loop Weil describes is the transferable engineering pattern here.
 - The academic access program lowers the cost of reproducing lab claims for outside researchers.
 - Speed: from team launch to a Millennium-problem claim in under a year.
@@ -67,6 +69,7 @@ Not a source of settled results as of 2026-09-29; the Navier-Stokes certificate 
 - 2026-09-29 - Recorded the formulation finding: the certificate covers Clay option C (forced blow-up), Silvestre and other experts name the unforced problem as the real one, and a September 17 three-mathematician proof shows OpenAI's method cannot extend to it (Scientific American, 2026-09-21).
 - 2026-10-02 - Recorded OpenAI's follow-up investigation claim that Buckmaster's Codex prompts could not have influenced the system in any way, including through training, superseding its earlier "cannot rule out" line, and added the Wikipedia priority-controversy article as a reference.
 - 2026-10-05 - Corrected the Clay status (its September 11 statement says the problem has "apparently been settled", the problem page now reads Active, verification "deliberately unhurried"), recorded the 28-Fields-Medalist declaration of September 11, and the September 13 extension of OpenAI's data-influence claims to "no user inputs past July 3rd".
+- 2026-10-06 - Recorded the August 1 ten-results release (unreleased Astra, public Lean certificates in the openai/ten-proofs repository, Bloom's "big news" read, about $2,000 of claimed compute) and DevDay's September 29 claims (more than 100 long-open mathematics problems helped solved, the September "research intern" goal met).
 
 ## See also
 
@@ -87,3 +90,6 @@ Not a source of settled results as of 2026-09-29; the Navier-Stokes certificate 
 - https://en.wikipedia.org/wiki/Navier%E2%80%93Stokes_priority_controversy - the consolidated timeline of the credit dispute, both sides' statements, the Clay status change, and the Fields Medalist declaration (fetched 200, 2026-10-05)
 - https://www.claymath.org/news/navier-stokes-announcement - Clay's September 11 statement: "apparently been settled" and "deliberately unhurried" verification (fetched 200, 2026-10-05)
 - https://mathandai.org/ - "A Severe Misalignment of AI in Mathematics", the declaration text and its 28 Fields Medalist signatories, DOI 10.5281/zenodo.22737750 (fetched 200, 2026-10-05)
+- https://github.com/openai/ten-proofs - the Apache-2.0 repository of Lean certificates for the ten August results, created 2026-08-05 (fetched via GitHub API, 2026-10-06)
+- https://thenextweb.com/news/openai-astra-model-ten-math-proofs-non-sofic-groups - the ten-results release: non-sofic group, Connes rigidity disproof, Erdős 146/180/183, the sphere-packing bound, and Bloom's reaction (fetched 200, 2026-10-06)
+- https://thenextweb.com/news/sam-altman-openai-ai-research-intern-devday-keynote - DevDay September 29: the research-intern milestone and Patwardhan's more-than-100-problems claim (fetched 200, 2026-10-06)

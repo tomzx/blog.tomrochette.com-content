@@ -29,7 +29,7 @@ Active: the repository was pushed 2026-10-04, created May 12, 2026, with the lat
 1,700 stars and 138 forks as of 2026-10-05.
 The May 16, 2026 launch thread reached 575 points (item 48164287), the highest-signal uncovered harness candidate of this cycle, with follow-up release threads through June and a Show HN in July.
 v1.8.0, "The Great Cleanup", landed September 3, 2026 after a six-week release quiet stretch and credited several external contributors with a large TUI refactoring.
-3,558 crate downloads on crates.io (940 recent) as of 2026-10-05.
+3,561 crate downloads on crates.io (916 recent) as of 2026-10-06.
 It is a one-person project with a ko-fi jar and a public call for company sponsors.
 
 ## Strengths
@@ -82,6 +82,6 @@ I think the Rust-rewrite wave confuses a small memory footprint with a good agen
 - https://github.com/gi-dellav/zerostack - repository state, license, stars, and activity as of 2026-10-04
 - https://raw.githubusercontent.com/gi-dellav/zerostack/main/README.md - feature list, performance claims, and inspirations
 - https://gi-dellav.github.io/zerostack/ - docs site: permission modes, prompts, commands, sandbox mode
-- https://crates.io/api/v1/crates/zerostack - crate version and download counts as of 2026-10-04
+- https://crates.io/api/v1/crates/zerostack - crate version and download counts as of 2026-10-06
 - https://github.com/gi-dellav/zerostack/releases - release cadence through v1.8.4
 - https://news.ycombinator.com/item?id=48164287 - 575-point launch thread and the author's no-benchmark admission

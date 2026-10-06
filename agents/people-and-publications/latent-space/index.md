@@ -1,7 +1,7 @@
 ---
 title: Latent Space
 created: 2026-08-29
-updated: 2026-10-04
+updated: 2026-10-06
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=big-pickle, llm=glm-5.3-flash, people, publications, newsletter, podcast, community]
 readability: 3
@@ -24,7 +24,7 @@ It is also, critically, the place where the tools profiled in this section get t
 
 Active and expanding.
 As of 2026-09-13 the announcement month ran "The State of Latent Space" for 2026, adding shows, hosts, and more interview formats; the AI Engineer conference network grew to events in New York, San Francisco, Paris, and Europe.
-The latest interview issue, "Inside-Out AI: Rebuilding Airbnb Behind the Scenes and Across the Guest Experience" ([2026-10-02](https://www.latent.space/p/airbnb)), follows "Academia is for Ambition" with MIT's Alex Zhang ([2026-10-02](https://www.latent.space/p/rlm)) and "Claude Code's Next Era" with Anthropic's Thariq Shihipar (2026-09-29, ninety minutes on Opus/Sonnet 5.5, Mods, Plugins, and Projects), and the near-daily AINews roundups run through 2026-10-03, after the Pi 1.0, Gemini 4 Argon, and OpenAI DevDay 2026 runs.
+The latest interview issue, "Inside-Out AI: Rebuilding Airbnb Behind the Scenes and Across the Guest Experience" ([2026-10-02](https://www.latent.space/p/airbnb)), follows "Academia is for Ambition" with MIT's Alex Zhang ([2026-10-02](https://www.latent.space/p/rlm)) and "Claude Code's Next Era" with Anthropic's Thariq Shihipar (2026-09-29, ninety minutes on Opus/Sonnet 5.5, Mods, Plugins, and Projects), and the near-daily AINews roundups run through 2026-10-06, after the Pi 1.0, Gemini 4 Argon, and OpenAI DevDay 2026 runs.
 Between those interviews sits the DevDay episode "Why Dwarkesh is Wrong about Computer Use + How OpenAI shipped its Jev competitor in 1 Week" ([2026-09-30](https://www.latent.space/p/devday-2026)), the first pod on the DevDay lineup, where OpenAI's Ari Weinstein argues computer use is "180 degrees different" and Nikunj Handa walks through the Jev-inspired Decisions API.
 The podcast regularly lands the people behind the harnesses this section tracks, and swyx's own notes continue to set trends (memory, filesystems, agent-eats-agent).
 

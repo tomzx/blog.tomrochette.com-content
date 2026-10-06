@@ -1,7 +1,7 @@
 ---
 title: Ante
 created: 2026-08-30
-updated: 2026-10-04
+updated: 2026-10-06
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agents, harnesses, rust, single-binary, local-models]
 readability: 3
@@ -25,9 +25,10 @@ Source is published under Apache-2.0 (crates: exec, llm, protocol-shape, ante-sd
 ## Status
 
 **Active, preview-stage, and growing fast for a five-month-old repo.**
-1,998 stars and 68 forks as of 2026-10-04, repo created December 23, 2025, with v0.2.0 (September 17, 2026) having closed the v0.preview.N series and started a within-minor compatibility promise.
-The latest release is v0.2.8 (release notes dated October 2, 2026, published October 3), which added `/rewind` conversation rewinding and `/fork` session forking with parent links, and made `ante serve` print readable connection, session, tool-call, and turn-status transcripts.
-Before it, v0.2.7 (published September 30) added Claude Sonnet 5.5 on Anthropic and OpenRouter, Qwen 3.8 Max and GLM 5.3 FlashX on its catalog, moved xAI to Grok 4.7, made resumed sessions keep the system prompts they started with, and bumped the embedded llama.cpp engine.
+2,000 stars and 69 forks as of 2026-10-06, repo created December 23, 2025, with v0.2.0 (September 17, 2026) having closed the v0.preview.N series and started a within-minor compatibility promise.
+The latest release is v0.2.9 (published October 5, 2026), which added a split-view option in the `/fork` picker, an opt-in `context-tokens` status line item, per-session `{session_id}` templating for provider headers, `/rewind` and `/fork` reaching prompts from before a resume, one shared transport-level timeout per provider call, a pruned catalog (GPT-5.4 Pro removed from direct OpenAI), an embedded llama.cpp bump to b11379, and recovery of Responses-API context overflows through compaction.
+Before it, v0.2.8 (release notes dated October 2, 2026, published October 3) added `/rewind` conversation rewinding and `/fork` session forking with parent links, and made `ante serve` print readable connection, session, tool-call, and turn-status transcripts.
+Before that, v0.2.7 (published September 30) added Claude Sonnet 5.5 on Anthropic and OpenRouter, Qwen 3.8 Max and GLM 5.3 FlashX on its catalog, moved xAI to Grok 4.7, made resumed sessions keep the system prompts they started with, and bumped the embedded llama.cpp engine.
 v0.2.5 (published September 25) added in-place session provider switching that keeps the session's ID, messages, title, and permission state and made MCP server startup and protocol compatibility stricter.
 The Show HN launch on August 10, 2026 drew 169 points and 92 comments ([HN](https://news.ycombinator.com/item?id=49245437)).
 At launch commenters flagged that the repo hosted binaries without agent source; the Apache-2.0 core libraries published since narrow that gap, though the core harness itself remains closed during the alpha.
@@ -78,20 +79,21 @@ I expect the harness market to consolidate on footprint and cost per agent, and 
 - 2026-10-01 - Reworded banned-term words out of the prose; meaning unchanged.
 - 2026-10-02 - Recorded the v0.2.7 release (published September 30), which added Claude Sonnet 5.5, Qwen 3.8 Max, and GLM 5.3 FlashX catalog entries, moved xAI to Grok 4.7, kept resumed sessions on their original system prompts, and bumped the embedded llama.cpp, and refreshed repository scale.
 - 2026-10-03 - Recorded the v0.2.8 release (published October 3), which added `/rewind` conversation rewinding, `/fork` session forking with parent links, and readable `ante serve` connection and tool-call transcripts, and refreshed repository scale.
+- 2026-10-06 - Recorded the v0.2.9 release (published October 5), which added the `/fork` split-view option, an opt-in `context-tokens` status line item, per-session provider header templating, pre-resume reach for `/rewind` and `/fork`, one transport timeout per provider call, a pruned catalog, an embedded llama.cpp bump, and Responses-API overflow recovery, and refreshed repository scale.
 
 ## See also
 
 - [Agentic Coding Tools Landscape](../../agentic-coding-tools-landscape/index.md) - where Ante lands in the harness layer's independent tail
 - [fx](../fx/index.md) - the other minimal single-binary harness, with the opposite embedding thesis
-- [Harness Feature Matrix](../harness-feature-matrix/index.md) - Ante not yet a column; the incumbents it is measured against are
+- [Harness Feature Matrix](../harness-feature-matrix/index.md) - Ante measured against the field on shared rows
 - [Claude Code](../claude-code/index.md) - the incumbent whose resource profile Ante claims to beat
 
 ## References
 
-- https://github.com/AntigmaLabs/ante - repository, Apache-2.0 source, 1,998 stars as of 2026-10-04
+- https://github.com/AntigmaLabs/ante - repository, Apache-2.0 source, 2,000 stars as of 2026-10-06
 - https://docs.antigma.ai/ - architecture, offline mode, providers, footprint claims
 - https://antigma.ai/eval - self-reported Terminal-Bench 2.1 results, pinned builds and Harbor runs
 - https://raw.githubusercontent.com/AntigmaLabs/ante/main/README.md - feature surface and provider list
 - https://raw.githubusercontent.com/AntigmaLabs/ante/main/BINARY-TERMS.md - the separate preview license for prebuilt binaries
 - https://news.ycombinator.com/item?id=49245437 - the August 10, 2026 launch thread, 169 points (verified via Algolia API)
-- https://github.com/AntigmaLabs/ante/releases - v0.2.8, release notes dated 2026-10-02, published 2026-10-03 (verified via GitHub API)
+- https://github.com/AntigmaLabs/ante/releases - v0.2.9, published 2026-10-05 (verified via GitHub API)

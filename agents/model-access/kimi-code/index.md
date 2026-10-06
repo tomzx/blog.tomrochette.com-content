@@ -40,9 +40,10 @@ Independent guides multiplied through 2026, which I read as real adoption.
 
 ## Pricing
 
-On kimi.ai: Moderato $19, Allegretto $39, Allegro $99, Vivace $199 per month, annual effective $15/$31/$79/$159 (as of 2026-10-02).
-On kimi.com: Andante ¥49, Moderato ¥99, Allegretto ¥199, Allegro ¥699 per month (as of 2026-09-26).
+On kimi.ai: Moderato $19, Allegretto $39, Allegro $99, Vivace $199 per month, annual effective $15/$31/$79/$159 (as of 2026-10-06).
+On kimi.com: Andante ¥49, Moderato ¥99, Allegretto ¥199, Allegro ¥699 per month (as of 2026-10-06).
 Under the new ladder, Go has no coding quota, Plus and above include Kimi Code, and Pro and above unlock K3 at 1M context.
+The monthly pool is credits shared across every Kimi feature, and Kimi Code additionally runs under its own usage limit (a rolling 5-hour rate window for new members, the weekly window having been removed) that applies only to Kimi Code.
 Extra Usage is pay-as-you-go overflow with a ¥25 minimum top-up, generally non-refundable.
 
 ## Price history
@@ -68,6 +69,7 @@ I will claim something arguable: the ¥49 China-market ladder proves this produc
 
 - 2026-09-26 - Created.
 - 2026-10-06 - Converted the Compared-to cross-references from plain-text paths into working links.
+- 2026-10-06 - Pricing re-verified on both membership pages; the help docs now state that Kimi Code carries its own usage limit (a rolling 5-hour rate window, the weekly window removed for new members) on top of the shared monthly credit pool, and both ladder as-of dates moved to 2026-10-06.
 
 ## See also
 

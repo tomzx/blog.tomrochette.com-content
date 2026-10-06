@@ -17,6 +17,7 @@ Where machines judge pull requests: the review bots, the open-source reviewers, 
 - [Kodus](kodus/index.md) - the AGPL-3.0 open-source reviewer with BYOK and zero token markup, self-hosted or on Kodus Cloud.
 - [OpenCodeReview](open-code-review/index.md) - Alibaba's hybrid reviewer where deterministic pipelines pick and rule-check what the LLM agent judges, precision over recall.
 - [Qodo](qodo/index.md) - the open-core reviewer, MIT PR-Agent you can self-host or paid Qodo Merge, both sides covered by Kudelski's exploit research.
+- [roborev](roborev/index.md) - Wes McKinney's MIT background review daemon that reviews every commit with your own coding agents and holds findings in a ledger until addressed.
 - [Sourcery](sourcery/index.md) - the MIT-lineage static-analysis tool turned proprietary AI reviewer, free for open source and $12 for private repos.
 
 Its members are compared on shared rows in the [Code Review Feature Matrix](code-review-feature-matrix/index.md).
@@ -31,3 +32,4 @@ Its members are compared on shared rows in the [Code Review Feature Matrix](code
 - 2026-08-30 - Added OpenCodeReview.
 - 2026-08-30 - Added Qodo.
 - 2026-08-30 - Added Sourcery.
+- 2026-10-06 - Added roborev.

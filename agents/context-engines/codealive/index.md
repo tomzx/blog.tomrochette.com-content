@@ -1,7 +1,7 @@
 ---
 title: CodeAlive
 created: 2026-10-05
-updated: 2026-10-05
+updated: 2026-10-06
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, context-engines, code-search, code-graphs, mcp, saas]
 readability: 3
@@ -21,14 +21,15 @@ CodeAlive is a hosted context engine that builds a code graph and hybrid retriev
 A cloud service that indexes connected repositories into a code graph (files, symbols, calls, dependencies, tests) refreshed on every push, then answers queries with hybrid retrieval, semantic search plus lexical match plus graph traversal, returning cited results.
 Agents reach it through a hosted MCP endpoint (`https://mcp.codealive.ai/api/`, OAuth or API key), a local Docker MCP server that still authenticates to the cloud, or a REST API; an `npx @codealive/installer` command wires Claude Code, Cursor, VS Code, Windsurf, Cline, and Codex.
 Tool API v3 (shipped 2026-07-11) exposes eleven read-only operations from search through relationship traversal to a stateless `chat` synthesis fallback, and CodeAlive 3.0 (announced 2026-07-17) added a read-only ContextResearchAgent and the vendor's own RepoContextBench.
-The core is closed-source SaaS from a small London company; only the MCP server container is self-hostable, and the index stays cloud-side.
+The core is closed-source software from a small London company, sold as cloud SaaS by default.
+A sales-assisted self-hosted deployment (Docker Compose or Kubernetes/Helm inside your VPC, bring-your-own OpenAI-compatible LLM, indexing against your own Git server) is also offered as of 2026-10-06, while the cloud product's local Docker MCP server still authenticates to the cloud.
 
 ## Status
 
 **Active and shipping, with an unverifiable user base.**
 The public surfaces are current (docs, changelog, MCP v3 with a v1/v2 migration guide, all fetched 2026-10-05), and the `@codealive/installer` package sits at 1.0.8 on npm.
-The adoption record is the problem: a Hacker News search returns zero stories about the product, I found no practitioner threads, no reviews, and no customer logos beyond the site's own claims, and the company's headcount is not published anywhere I could fetch.
-Every performance claim (45 percent fewer tokens, about 25 times lower model cost, RepoContextBench results) is vendor-run.
+The adoption record is the problem: a Hacker News search returns zero stories about the product, I found no practitioner threads, no reviews, and no customer evidence beyond the site's own testimonials, and the company's headcount is not published anywhere I could fetch.
+Every performance claim (45 percent fewer tokens, about 25 times lower model cost, plus 6.5 points of claimed answer quality, on RepoContextBench and the vendor's named RepoQA run) is vendor-run.
 
 ## Strengths
 
@@ -39,9 +40,9 @@ Every performance claim (45 percent fewer tokens, about 25 times lower model cos
 
 ## Cautions
 
-- **No independent evidence exists as of 2026-10-05**: zero Hacker News footprint, no third-party evaluation, and RepoContextBench is the vendor's own benchmark.
+- **No independent evidence exists as of 2026-10-06**: zero Hacker News footprint (re-checked 2026-10-06), no third-party evaluation, and RepoContextBench is the vendor's own benchmark.
 - The published tiers cap repository size (25 MB free, 100 MB Hobby and Pro, 100-500 MB Team), which sits far below the 1M-plus-LOC pitch; large monorepos are a sales conversation, not a plan.
-- Your code indexes server-side by default; the "local Docker" deployment only runs the MCP client side and still sends your API key to the cloud.
+- Your code indexes server-side by default on the cloud product; the self-hosted path avoids that but is demo-gated, ships with no SOC 2 badge yet by the vendor's own page, and gates SSO/SAML behind Enterprise.
 - A tiny single-product company is a durability risk for infrastructure you would wire into every agent session.
 
 ## Pricing
@@ -70,6 +71,7 @@ My disagreeable claim: CodeAlive's pricing model, the engine unbundled from the 
 ## Changes
 
 - 2026-10-05 - Created from the 2026-10-05 entrant scan (the hosted agent-agnostic context-engine slot), with the vendor-only-evidence caveat recorded.
+- 2026-10-06 - Recorded the sales-assisted self-hosted deployment (Docker Compose or Kubernetes/Helm, bring-your-own LLM, demo-gated, no SOC 2 badge yet), correcting the cloud-only reading; the tier table and per-action rates re-verified unchanged.
 
 ## See also
 
@@ -80,7 +82,8 @@ My disagreeable claim: CodeAlive's pricing model, the engine unbundled from the 
 
 ## References
 
-- https://codealive.ai/en - homepage: positioning, tier table, per-action rates, and the vendor-run efficiency claims
+- https://codealive.ai/en - homepage: positioning, tier table, per-action rates, and the vendor-run efficiency claims (re-verified unchanged 2026-10-06)
+- https://codealive.ai/en/self-hosted - the self-hosted deployment surface: Docker Compose or Kubernetes/Helm, bring-your-own OpenAI-compatible LLM, demo-gated, no SOC 2 badge yet (fetched 2026-10-06)
 - https://codealive.ai/en/pricing - the pricing page (redirects to the homepage; content live 2026-10-05)
 - https://docs.codealive.ai/quickstart - installer, API keys, indexing flow, and example queries
 - https://docs.codealive.ai/integrations/mcp - MCP v3 tools, hosted endpoint, OAuth and Docker deployments, migration guide

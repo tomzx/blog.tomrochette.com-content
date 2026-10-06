@@ -1,7 +1,7 @@
 ---
 title: Semble
 created: 2026-08-30
-updated: 2026-10-04
+updated: 2026-10-06
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, code-search, context-engines, local-first, developer-tools]
 readability: 3
@@ -26,8 +26,8 @@ It is built by MinishLab, the two-person team (Stephan and Thomas, per the launc
 ## Status
 
 **Young, active, and unusually well received for a search tool.**
-6,178 stars and 271 forks since the repo appeared on 2026-04-06, with the last push 2026-10-03 and v0.6.1 released 2026-09-25 (GitHub API, as of 2026-10-04).
-92,893 PyPI downloads in the trailing month (PyPIstats, as of 2026-10-04).
+6,183 stars and 273 forks since the repo appeared on 2026-04-06, with the last push 2026-10-06 and v0.6.2 released 2026-10-05 (GitHub API, as of 2026-10-06).
+97,003 PyPI downloads in the trailing month (PyPIstats, as of 2026-10-06).
 The launch Show HN (May 17, 2026) drew 445 points and 151 comments, on top of two quiet warm-up threads in April; a third-party VS Code extension appeared in August, which is the usual early-ecosystem signal.
 
 ## Strengths
@@ -68,6 +68,7 @@ Not for small repos where a Repomix pack or plain grep is already enough, and no
 - 2026-09-25 - Refreshed the GitHub numbers (6,140 stars) and the trailing-month PyPI figure (80,496 as of 2026-09-25, a slight dip from the prior reading); v0.6.0 and the no-paid-plan claim unchanged.
 - 2026-09-27 - Refreshed the GitHub numbers (6,145 stars, 271 forks); the trailing-month PyPI figure held at 85,062, and v0.6.0 and the no-paid-plan claim are unchanged.
 - 2026-09-29 - Recorded release v0.6.1 (2026-09-25) and refreshed the GitHub numbers (6,157 stars); the trailing-month PyPI figure re-read at the same 85,062, and the no-paid-plan claim is unchanged.
+- 2026-10-06 - Recorded release v0.6.2 (2026-10-05) and refreshed the numbers (6,183 stars, 273 forks, pushed 2026-10-06, 97,003 trailing-month PyPI downloads); the no-paid-plan claim is unchanged.
 
 ## See also
 
@@ -80,7 +81,7 @@ Not for small repos where a Repomix pack or plain grep is already enough, and no
 
 - https://github.com/MinishLab/semble - repo, README (architecture, installer, CLI, MCP, savings counter), stars and activity as of 2026-10-03
 - https://news.ycombinator.com/item?id=48169874 - the 445-point launch thread, including the founders' no-agent-level-claim statement and the baseline criticisms (verified via the Algolia items API)
-- https://pypi.org/project/semble/ - the package surface, version 0.6.1 (fetched 2026-09-29)
-- https://pypistats.org/api/packages/semble/recent - 92,893 downloads in the trailing month as of 2026-10-04
+- https://pypi.org/project/semble/ - the package surface, version 0.6.2 (fetched 2026-10-06)
+- https://pypistats.org/api/packages/semble/recent - 97,003 downloads in the trailing month as of 2026-10-06
 - https://huggingface.co/minishlab/potion-code-16M-v2 - the embedding model the index runs on
 - https://github.com/MinishLab/semble/blob/main/benchmarks/README.md - benchmark methodology, NDCG@10, and the token-efficiency setup

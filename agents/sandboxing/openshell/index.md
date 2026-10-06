@@ -1,7 +1,7 @@
 ---
 title: OpenShell
 created: 2026-08-30
-updated: 2026-10-05
+updated: 2026-10-06
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, sandboxing, isolation, security, nvidia, open-source]
 readability: 3
@@ -23,7 +23,7 @@ Linux, macOS (Apple Silicon), and Windows via WSL 2 (experimental); Apache-2.0, 
 
 ## Status
 
-Fast adoption, newly stable and surging: 14,917 stars, 1,699 forks, 527 open issues and PRs as of 2026-10-05, created 2026-02-24.
+Fast adoption, newly stable and surging: 15,029 stars, 1,711 forks, 533 open issues and PRs as of 2026-10-06, created 2026-02-24.
 The v0.1.0 pre-release train graduated to stable v0.1.0 on 2026-09-25, with v0.1.1 following on 2026-09-26 and v0.1.2 on 2026-09-28, and the README now advertises a stable release cadence for the 0.1.x line and no longer carries the alpha badge, at about 1,600 commits (1,625) and 128 contributors.
 **Late September 2026 NVIDIA folded OpenShell into a branded Open Agent Safety Platform reference design alongside NVIDIA Sentry and BlueField-4 in-silicon enforcement on a dedicated product page, and stars jumped roughly 4,300 in the following three days, a vendor push rather than a Hacker News wave, whose debut threads drew only 2 or 3 points.**
 NVIDIA's own blog still calls it an early preview, and a stable line three point releases deep plus experimental Kubernetes and GPU features say production use is a bet on the vendor staying in.
@@ -41,7 +41,7 @@ In September 2026 the team also published a formal-methods discussion of encodin
 - Freshly stable (v0.1.0 on 2026-09-25), with breaking changes the base rate for a runtime this young and the Kubernetes path explicitly experimental.
 - Telemetry is on by default in a tool whose pitch is privacy; anonymous, but verify it against your threat model.
 - Effective security equals the YAML policies you write and maintain, which is real ongoing work.
-- 527 open issues and PRs as of 2026-10-05, down from the 536 peak after the platform launch but still well above the 455 late-September level, on a seven-month-old codebase.
+- 533 open issues and PRs as of 2026-10-06, a few under the 536 platform-launch peak and still well above the 455 late-September level, on a seven-month-old codebase.
 
 ## Pricing
 

@@ -1,7 +1,7 @@
 ---
 title: AI Release Tracker
 created: 2026-09-24
-updated: 2026-09-24
+updated: 2026-10-06
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, trackers-and-leaderboards, ai, releases, open-data]
 readability: 3
@@ -24,7 +24,7 @@ Surfaces: the timeline, per-benchmark ranking pages, model compare pages, analyt
 
 ## Status
 
-Active but nearly invisible: the dataset was last updated 2026-08-26 (newest tracked release Qwen3.8-Flash-Next), and Wayback captures through June, July, and August 2026 show the corpus growing month over month.
+Active but nearly invisible: the dataset was last observed 2026-08-26 (newest tracked release Qwen3.8-Flash-Next), Wayback captures through June, July, and August 2026 showed the corpus growing month over month, and the archive holds no newer capture of the site or its corpus file through 2026-10-06, so whether the tracker recorded the September-October release wave (GPT-6, Claude Opus 5.5, Gemini 4 Argon) cannot be confirmed, and the live site kept bot-blocking this run's fetches.
 It was Show HN'd on 2025-12-02 by user curlii and drew 2 points and 6 comments; that thread is still the site's entire public footprint, and no GitHub repository exists.
 The footer reads "© 2026 To sider ApS · CVR DK42753491", a Danish private limited company, so it is a side-project-grade operation with corporate paperwork.
 **Treat it as alive, useful, and one person away from dormant.**
@@ -62,6 +62,7 @@ My disagreeable claim: this is the most valuable site in the category for agents
 ## Changes
 
 - 2026-09-24 - Created.
+- 2026-10-06 - Recorded the observability gap: no Wayback captures of the site or llms-full.txt after 2026-08-26, and the live site 429'd this run's models.json fetch, so coverage of the September-October release wave is unconfirmed.
 
 ## See also
 
@@ -80,3 +81,5 @@ My disagreeable claim: this is the most valuable site in the category for agents
 - https://hn.algolia.com/api/v1/items/46119002 - full thread JSON backing the footprint claim (fetched 200, 2026-09-24)
 - https://hn.algolia.com/api/v1/search?query=aireleasetracker&tags=story - the single-story footprint evidence (fetched 200, 2026-09-24)
 - https://web.archive.org/cdx/search/cdx?url=aireleasetracker.com&matchType=domain - snapshot cadence and subpage inventory through 2026-08-26 (fetched 200, 2026-09-24)
+- https://web.archive.org/cdx/search/cdx?url=aireleasetracker.com&matchType=domain&from=20260901&to=20261006&fl=timestamp,original,statuscode&limit=40 - empty result: no captures of any site page after 2026-08-26 (fetched 200, 2026-10-06)
+- https://web.archive.org/cdx/search/cdx?url=aireleasetracker.com/llms-full.txt&from=20260801&to=20261006&fl=timestamp,statuscode&limit=40 - corpus file captured only 2026-08-25 and 2026-08-26 (fetched 200, 2026-10-06)

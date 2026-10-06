@@ -73,7 +73,7 @@ The disagreeable claim I will defend: within a year the waterfall critique will 
 ## References
 
 - https://github.com/bmad-code-org/BMAD-METHOD - README: loop, modules, prerequisites, licensing
-- https://api.github.com/repos/bmad-code-org/BMAD-METHOD - stars, forks, issues as of 2026-09-27
+- https://api.github.com/repos/bmad-code-org/BMAD-METHOD - stars, forks, issues as of 2026-10-06
 - https://docs.bmad-method.org/ - the documentation map
 - https://github.com/bmad-code-org/bmad-loop - the unattended epic module
 - https://news.ycombinator.com/item?id=44879862 - the 4-point launch-era thread, the thin-footprint evidence

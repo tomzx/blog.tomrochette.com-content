@@ -1,7 +1,7 @@
 ---
 title: "Context Engines Feature Matrix"
 created: 2026-08-24
-updated: 2026-10-05
+updated: 2026-10-06
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, comparison, context-engines, code-retrieval, developer-tools]
 readability: 3
@@ -22,7 +22,7 @@ Each column links to the full research note; every cell traces to a source cited
 | Feature | [Augment Code](../augment-code/index.md) | [CodeAlive](../codealive/index.md) | [Graft](../graft/index.md) | [Graphify](../graphify/index.md) | [qmd](../qmd/index.md) | [Repomix](../repomix/index.md) | [rtk](../rtk/index.md) | [Semble](../semble/index.md) | [Serena](../serena/index.md) | [Sourcegraph code context platform](../sourcegraph-code-context/index.md) |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Kind | coding platform | hosted context-engine API | local context-graph CLI | local knowledge-graph CLI | local search engine | local CLI | CLI output proxy | local search index | MCP semantic-code toolkit | search platform |
-| Deployment | cloud SaaS | cloud SaaS; local Docker MCP server that still authenticates to the cloud | local CLI, MCP, and repo files; Trail Brain is the hosted upsell | local CLI, hosted plans or self-host | local CLI plus daemon | local CLI | local binary | local CLI, MCP, or library | local MCP server (stdio or HTTP), paid JetBrains plugin backend | single-tenant cloud or self-host |
+| Deployment | cloud SaaS | cloud SaaS; demo-gated self-hosted (Docker Compose or Kubernetes/Helm, BYO-LLM); Docker MCP for the cloud product | local CLI, MCP, and repo files; Trail Brain is the hosted upsell | local CLI, hosted plans or self-host | local CLI plus daemon | local CLI | local binary | local CLI, MCP, or library | local MCP server (stdio or HTTP), paid JetBrains plugin backend | single-tenant cloud or self-host |
 | Open source | ~ harness forks OSS Pi | ✗ closed core; self-hostable MCP server only | ✓ MIT | ✓ Apache-2.0 | ✓ MIT | ✓ MIT | ✓ Apache-2.0 | ✓ MIT | ~ application GPL-3.0-or-later, SolidLSP MIT | ~ SCIP only |
 | Free tier | ✗ none | ✓ free tier with MCP access (25 MB repos, 100 chats/month) | ✓ entirely | ✓ CLI entirely | ✓ entirely | ✓ entirely | ✓ CLI entirely | ✓ entirely | ✓ core entirely; JetBrains backend paid | ~ public search only |
 | Index model | real-time semantic index | server-side code graph plus hybrid semantic, lexical, and graph-traversal retrieval | tree-sitter wiring graph plus optional LLM-written markdown nodes, no vectors | deterministic AST knowledge graph, no vectors | SQLite FTS5 plus vectors, markdown chunks | none, whole-repo pack | none, per-command output filtering | static embeddings plus BM25 fused, tree-sitter chunks | none, live language-server parse (40+ languages); optional JetBrains analysis | indexed search plus SCIP intel |
@@ -31,7 +31,7 @@ Each column links to the full research note; every cell traces to a source cited
 | Scale where it pays | large private repos | multi-repo exploration on a metered budget; published tiers cap repos at 25-500 MB | large repos where agents re-explore, no published threshold | repo-scale Q&A and path tracing | personal docs and knowledge bases | under a few hundred K tokens | long interactive sessions with noisy commands | repos where grep-and-read burns tokens | large polyglot repos, reference hunts and refactors | 400K+ LOC |
 | Writes code | ✓ agents and factory | ~ review agent comments on PRs | ✗ maps, queries, blast radius | ✗ graphs and queries | ✗ searches only | ✗ packs only | ✗ filters output | ✗ searches only | ✓ symbol-level edits and renames | ~ migrations, beta |
 | Pricing model | $20/$100 flat tiers plus usage | free tier, $15/$50/from-$100 monthly usage balances, per-action rates ($0.02 search to $0.50 review) | free, MIT; Trail Brain from $20k/yr is the upsell | free core, Pro $10/mo yearly or $15 monthly, Teams $20/seat/mo yearly or $29 monthly, Enterprise early access | free, MIT | free, MIT | free CLI, Pro unpriced | free, MIT | free core; paid JetBrains plugin, price unpublished | from $16K/year |
-| Enterprise orientation | ✓ SOC 2, ISO 42001 | ~ on-prem MCP option, DPA, no-training claims; tiny vendor | ~ Trail Brain: SOC 2 Type II all plans, HIPAA BAA on Large | ~ hosted Teams/Enterprise plans | ✗ | ✗ | ~ Pro tier, on-prem option | ✗ | ~ paid JetBrains backend, no enterprise plan | ✓ SOC 2, ISO 27001 |
+| Enterprise orientation | ✓ SOC 2, ISO 42001 | ~ self-hosted option, DPA, no-training claims; tiny vendor, no SOC 2 yet | ~ Trail Brain: SOC 2 Type II all plans, HIPAA BAA on Large | ~ hosted Teams/Enterprise plans | ✗ | ✗ | ~ Pro tier, on-prem option | ✗ | ~ paid JetBrains backend, no enterprise plan | ✓ SOC 2, ISO 27001 |
 
 ## Reading the matrix
 
@@ -83,6 +83,7 @@ Augment's 33% token savings, Sourcegraph's cost deltas, Semble's 99%-fewer-token
 - 2026-10-01 - Reworded banned-term words out of the prose; meaning unchanged.
 - 2026-10-04 - Extended from eight to nine columns with Serena (the LSP-backed MCP semantic-code toolkit), inserted in sorted position between Semble and Sourcegraph and traced to the new note; the intro, reading, and choosing sections updated for the ninth job and the live-parse freshness column.
 - 2026-10-05 - Extended from nine to ten columns with CodeAlive (the hosted agent-agnostic context-engine API), inserted in sorted position after Augment Code and traced to the new note; the intro, reading, and choosing sections updated for the tenth job.
+- 2026-10-06 - Moved the CodeAlive deployment and enterprise-orientation cells to record the demo-gated self-hosted deployment (Docker Compose or Kubernetes/Helm, BYO-LLM) with no SOC 2 badge yet; no membership change.
 
 ## See also
 

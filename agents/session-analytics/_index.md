@@ -15,10 +15,13 @@ Tools that turn what coding agents already record into searchable history, cost 
 - [agentsview](agentsview/index.md) - the local-first indexer for roughly 60 agents' session files, retrospective search and token-cost reporting in one SQLite store.
 - [AgentTrace](agenttrace/index.md) - the local Rust TUI and CLI that audits session cost, tokens, latency, failures, and health across about 15 coding-agent formats, with CI gates.
 - [ccusage](ccusage/index.md) - the zero-install CLI that turns eighteen coding agents' local usage files into daily-to-session cost reports, the incumbent every tool here benchmarks against.
+- [claude-devtools](claude-devtools/index.md) - the local desktop DevTools that reconstruct Claude Code sessions from ~/.claude logs, with per-turn token attribution across seven context categories, tool-call inspection, and subagent trees.
 - [ClawTrace](clawtrace/index.md) - the hosted tracing and cost-attribution platform for OpenClaw runs, with full-payload traces and an AI analyst named Tracy, billed in credits.
 - [CodeBurn](codeburn/index.md) - the local desktop app and CLI that cuts AI coding spend by task, branch, and project, with plan-quota tracking, config optimization, and session spend guards.
 - [ctx](ctx/index.md) - local search over the sessions agents already recorded, with blame attribution from any line of code back to its transcript.
 - [Memex](memex/index.md) - the Rust CLI that indexes multi-harness session transcripts locally with BM25 or embeddings and resumes the session you find.
+- [Token Monitor](token-monitor/index.md) - the live desktop usage widget across 43-plus AI coding tools, with provider-limit tracking, retention archiving, and self-hosted multi-device sync.
+- [Tokscale](tokscale/index.md) - the terminal CLI and TUI that reads about 50 agents' local usage stores into one token and cost report, with an opt-in public leaderboard.
 
 Its members are compared on shared rows in the [Session Analytics Feature Matrix](session-analytics-feature-matrix/index.md).
 
@@ -33,3 +36,6 @@ Its members are compared on shared rows in the [Session Analytics Feature Matrix
 - 2026-09-27 - Added ClawTrace.
 - 2026-10-05 - Added ccusage.
 - 2026-10-05 - Added CodeBurn.
+- 2026-10-06 - Added claude-devtools.
+- 2026-10-06 - Added Token Monitor.
+- 2026-10-06 - Added Tokscale.

@@ -8,7 +8,7 @@ tags: [agents, model-access]
 readability: 3
 ---
 
-The layer that sells access to models themselves: gateways and routers metering a percentage, vendor plans selling a quota (including the consumer subscriptions that carry Claude Code and Codex), flat subscriptions selling a ceiling, and the self-hosted software (LiteLLM, Ollama, Magnitude) that routes and serves the same access for free.
+The layer that sells access to models themselves: gateways and routers taking a percentage or, in Vercel's case, nothing on the token itself, vendor plans selling a quota (including the consumer subscriptions that carry Claude Code and Codex), flat subscriptions selling a ceiling, and the self-hosted software (LiteLLM, Ollama, Magnitude) that routes and serves the same access for free.
 Editors and harnesses live in their own categories; this is where the token bill gets paid.
 
 - [Cerebras Code](cerebras-code/index.md) - wafer-scale inference sold as speed, $50/$200 per month, currently sold out.
@@ -32,6 +32,7 @@ Editors and harnesses live in their own categories; this is where the token bill
 - [Requesty](requesty/index.md) - EU-residency gateway charging a flat 5% markup on upstream spend.
 - [SuperGrok](supergrok/index.md) - xAI's subscription ladder from $30 to $300, one shared weekly pool across Grok chat, Grok Build, and API.
 - [Synthetic](synthetic/index.md) - a flat $30/month subscription for open-weight coding LLMs aimed at agent users.
+- [Vercel AI Gateway](vercel-ai-gateway/index.md) - Vercel's hosted gateway at provider list prices with 0% token markup, one-command setup for 29 coding agents, and no flat tier.
 
 Its members are compared on shared rows in the [Model Access Feature Matrix](model-access-feature-matrix/index.md).
 
@@ -58,3 +59,4 @@ Its members are compared on shared rows in the [Model Access Feature Matrix](mod
 - 2026-09-27 - Added Experiential.
 - 2026-10-04 - Added LLM Gateway.
 - 2026-10-06 - Added Magnitude.
+- 2026-10-06 - Added Vercel AI Gateway.

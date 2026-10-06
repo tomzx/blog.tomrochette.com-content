@@ -1,7 +1,7 @@
 ---
 title: Google AI plans
 created: 2026-09-26
-updated: 2026-09-26
+updated: 2026-10-06
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, model-access, google, subscriptions, gemini]
 readability: 3
@@ -23,7 +23,7 @@ The FAQ confirms the ladder's churn: the old Google AI Premium plan was renamed 
 
 ## Status
 
-Active and restructured repeatedly, with the tiers, multipliers, and storage allotments verified from Google's own pages on 2026-09-26.
+Active and restructured repeatedly, with the tiers, multipliers, and storage allotments verified from Google's own pages on 2026-09-26 and re-verified unchanged on 2026-10-06.
 Plus is available in over 160 countries, Pro and Ultra in over 150.
 The 2026 record shows a rename (AI Premium to Plus) and an Ultra split into 5x and 20x columns, both visible on the current comparison table.
 **Prices are the weak point of the product surface: the marketing pages render the dollar figure client-side per region, so my US and Canada fetches returned the ladder with the price stripped, and third-party guides are the only place the US numbers appear in text.**

@@ -1,7 +1,7 @@
 ---
 title: "Exo"
 created: 2026-09-05
-updated: 2026-10-04
+updated: 2026-10-06
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agent, self-improvement, rust]
 readability: 3
@@ -21,7 +21,7 @@ The design philosophy is documented in the repository's RSI.md, "A Systems View 
 
 ## Status
 
-Active: created 2026-05-20, 1,483 stars and 111 forks, pushed within a day of verification as of 2026-10-04.
+Active: created 2026-05-20, 1,486 stars and 111 forks, pushed within a day of verification as of 2026-10-06.
 **The independent FrontierHarness Eval scores it near the bottom of nine harnesses on pass rate but first on cost: 53.3 percent pass at a $1.05 median cost per task, against Claude Code's $18.34 on the same model and tasks.**
 The community footprint is thin, a 3-point and a 2-point Hacker News thread, so the eval and the repository are nearly the whole evidence base as of 2026-10-04.
 
@@ -40,7 +40,7 @@ The community footprint is thin, a 3-point and a 2-point Hacker News thread, so 
 ## Pricing
 
 Free and open source under MIT.
-You pay model tokens directly to OpenAI or OpenRouter; the FrontierHarness run measured a $1.05 median cost per completed task on Kimi K3 pricing.
+You pay model tokens directly to OpenAI or OpenRouter; the FrontierHarness run measured the lowest median token cost per completed task in the field on Kimi K3 pricing (the figure lives in Status above, where the benchmark that produced it is cited).
 
 ## Compared to
 
@@ -59,10 +59,12 @@ Not for production work or anyone who cannot tolerate a harness changing its own
 - 2026-09-06 - Rewrote the FrontierHarness sentence, correcting a mathematically wrong pass-rate claim while keeping the $1.05-per-task cost figure.
 - 2026-09-08 - Reverted a sub-run error that had claimed twelve FrontierHarness harnesses instead of nine.
 - 2026-09-16 - Refreshed repository scale to 1,413 stars and 106 forks; the FrontierHarness cost and pass-rate figures are unchanged.
+- 2026-10-06 - Refreshed repository counters (1,486 stars) and corrected the stale harness count in the See-also matrix line.
+- 2026-10-06 - Moved the FrontierHarness dollar figure out of the Pricing section, leaving it in Status where the benchmark is cited, so the note conforms to the price-history rule.
 
 ## See also
 
-- [Harness Feature Matrix](../harness-feature-matrix/index.md) - where the self-modification bet sits among twenty-five harnesses
+- [Harness Feature Matrix](../harness-feature-matrix/index.md) - where the self-modification bet sits among the category's members
 - [Pi](../pi/index.md) - the human-directed counterpart to agent-directed extension
 - [Software Factory Feature Matrix](../../software-factory/software-factory-feature-matrix/index.md) - deterministic loop owners versus a harness that lets the agent own its own loop
 - [Agentic Coding Tools Landscape](../../agentic-coding-tools-landscape/index.md) - the map this harness sits in

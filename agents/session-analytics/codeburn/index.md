@@ -1,7 +1,7 @@
 ---
 title: CodeBurn
 created: 2026-10-05
-updated: 2026-10-05
+updated: 2026-10-06
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, session-analytics, cost-tracking, open-source]
 readability: 3
@@ -25,8 +25,8 @@ Made by AgentSeal (the repository moved from the AgentSeal org to getagentseal, 
 
 ## Status
 
-Young and fast: 11,339 stars and 872 forks as of 2026-10-05, created 2026-04-13, pushed 2026-10-04 (GitHub API).
-The npm package pulled 38,725 downloads in the trailing month (2026-09-04 to 2026-10-03).
+Young and fast: 11,345 stars and 876 forks as of 2026-10-06, created 2026-04-13, pushed 2026-10-06 (GitHub API).
+The npm package pulled 36,881 downloads in the trailing month (2026-09-05 to 2026-10-04).
 The current release line is desktop/CLI v0.9.25 (2026-09-21, tagged separately per platform), and the repository description still says 37 tools where the README says 41, a drift to read as the README being newer.
 Its Show HN launch reached 112 points and 15 top-level comments on 2026-04-13, and it also launched on Product Hunt.
 
@@ -73,9 +73,9 @@ Not for anyone who wants plain unclassified numbers (ccusage is the simpler inst
 
 ## References
 
-- https://github.com/getagentseal/codeburn - repository, 11,339 stars and 872 forks as of 2026-10-05, MIT license, created 2026-04-13 (the AgentSeal/codeburn URL redirects here)
+- https://github.com/getagentseal/codeburn - repository, 11,345 stars and 876 forks as of 2026-10-06, MIT license, created 2026-04-13 (the AgentSeal/codeburn URL redirects here)
 - https://raw.githubusercontent.com/getagentseal/codeburn/main/README.md - surfaces, the four spend cuts, optimize/quota/guard behavior, the MCP server, the 41-tool claim, and the desktop install matrix
-- https://api.npmjs.org/downloads/point/last-month/codeburn - 38,725 trailing-month downloads (2026-09-04 to 2026-10-03), fetched 2026-10-05
+- https://api.npmjs.org/downloads/point/last-month/codeburn - 36,881 trailing-month downloads (2026-09-05 to 2026-10-04), fetched 2026-10-06
 - https://registry.npmjs.org/codeburn - npm latest 0.9.25
 - https://api.github.com/repos/getagentseal/codeburn/releases - the v0.9.25, windows-v0.9.25, mac-v0.9.25, and desktop-v0.9.25 tags of 2026-09-21
 - https://hn.algolia.com/api/v1/items/47759035 - the 112-point launch thread: the API-equivalent-cost fight, the Cursor Agent CLI gap, and the author's answers

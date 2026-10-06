@@ -1,7 +1,7 @@
 ---
 title: Vibe Kanban
 created: 2026-08-24
-updated: 2026-09-30
+updated: 2026-10-06
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, orchestration, kanban, git-worktrees, open-source]
 readability: 3
@@ -27,8 +27,8 @@ Self-hosting via Docker was documented for teams.
 Company dead, project alive.
 Bloop shut down on 2026-04-10, with CEO Louis Knight-Webb writing that "the vast majority are free users and we couldn't find a business model".
 Remote services (kanban issues, comments, projects, organisations) were removed 30 days after the announcement; refunds were issued and subscriptions terminated.
-**Local workspaces keep working, and the unpaid community has kept moving: as of 2026-09-30 the default branch shows ten commits since the shutdown, the first a 2026-09-15 Copilot version bump by a former Bloop maintainer, then nine more between 2026-09-16 and 2026-09-19 with substantive fixes (server startup routing, session-replay performance, swapped stream labels, an IME Enter fix, pnpm audit fixes, and a SECURITY.md).
-On 2026-09-19 the community committed a version bump to 0.1.45 and published a prerelease GitHub release named v0.1.45 from the timestamped tag v0.1.45-20260919085201; that prerelease release is no longer listed on GitHub as of 2026-09-30 (the release URL returns 404 and the release list stops at 0.1.44), though the timestamped tag remains, no plain v0.1.45 tag exists, no stable release has shipped beyond 0.1.44, npm still serves 0.1.44 as latest, and nothing has landed since September 19, while the tracker stands at 544 open issues and pull requests.**
+**Local workspaces keep working, and the unpaid community has kept moving: as of 2026-10-06 the default branch shows ten commits since the shutdown, the first a 2026-09-15 Copilot version bump by a former Bloop maintainer, then nine more between 2026-09-16 and 2026-09-19 with substantive fixes (server startup routing, session-replay performance, swapped stream labels, an IME Enter fix, pnpm audit fixes, and a SECURITY.md), and nothing since September 19, a seventeen-day silence on top of the quiet.
+On 2026-09-19 the community committed a version bump to 0.1.45 and published a prerelease GitHub release named v0.1.45 from the timestamped tag v0.1.45-20260919085201; that prerelease release is no longer listed on GitHub as of 2026-09-30 (the release URL returns 404 and the release list stops at 0.1.44), though the timestamped tag remains, no plain v0.1.45 tag exists, no stable release has shipped beyond 0.1.44, npm still serves 0.1.44 as latest, and nothing has landed since September 19 as of 2026-10-06, while the tracker stands at 544 open issues and pull requests.**
 
 ## Strengths
 

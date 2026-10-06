@@ -1,7 +1,7 @@
 ---
 title: Anthropic structured outputs
 created: 2026-08-24
-updated: 2026-09-29
+updated: 2026-10-06
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, structured-outputs, anthropic, tool-calling]
 readability: 3
@@ -26,7 +26,7 @@ Before the native feature, the documented workaround was forcing a tool via `too
 
 **Active, GA since February 4, 2026.**
 The beta (header `structured-outputs-2025-11-13`) launched November 14, 2025 on Sonnet 4.5 and Opus 4.1, Haiku 4.5 followed on December 4, 2025, and GA brought Sonnet 4.5, Opus 4.5, and Haiku 4.5 to the platform and Bedrock with support for more complex schemas.
-Current docs lead their examples with Opus 5.5 and list the feature across the fable-5, mythos-5, and opus-5 families (5.1 variants plus a Mythos Preview tier included) plus their 4.5- through 4.8-generation predecessors, with Sonnet 5.5 the newest addition alongside Opus 5.5, Opus 4.6, Sonnet 5, Sonnet 4.6, and Sonnet 4.5, on the Claude API, Amazon Bedrock, Google Cloud, and Microsoft Foundry (as of 2026-09-29), and the earlier note limiting Foundry to Anthropic-hosted deployments is gone from the docs.
+Current docs lead their examples with Opus 5.5 and list the feature across the fable-5, mythos-5, and opus-5 families (5.1 variants plus a Mythos Preview tier included) plus their 4.5- through 4.8-generation predecessors, with Sonnet 5.5 the newest addition alongside Opus 5.5, Opus 4.6, Sonnet 5, Sonnet 4.6, and Sonnet 4.5, on the Claude API, Amazon Bedrock, Google Cloud, and Microsoft Foundry (as of 2026-10-06, the supported list unchanged since 2026-09-29), and the earlier note limiting Foundry to Anthropic-hosted deployments is gone from the docs.
 Independent tooling tracked it immediately: Simon Willison's llm-anthropic plugin added support within a day of the beta and kept the tool-call workaround for older models.
 
 ## Strengths
@@ -47,7 +47,7 @@ Independent tooling tracked it immediately: Simon Willison's llm-anthropic plugi
 ## Pricing
 
 **No feature surcharge, but the meter runs in the small print.**
-You pay normal per-model token rates plus the injected prompt tokens; the tool-use docs quantify the tool-use system prompt alone at roughly 286 to 675 input tokens per request depending on model and `tool_choice` (for example 286 for Opus 5 and Opus 5.5 with `auto`, 675 for Opus 4.7) as of 2026-09-22.
+You pay normal per-model token rates plus the injected prompt tokens; the tool-use docs quantify the tool-use system prompt alone at roughly 286 to 675 input tokens per request depending on model and `tool_choice` (for example 286 for Opus 5 and Opus 5.5 with `auto`, 675 for Opus 4.7) as of 2026-10-06.
 Batch discounts structured output requests by 50%.
 
 ## Compared to

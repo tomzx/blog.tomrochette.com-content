@@ -27,7 +27,7 @@ AGENTS.md is the guidance convention, and a linked ChatGPT subscription can supp
 Amp was built inside Sourcegraph, was made free in October 2025, launched subscriptions, and spun out as a profitable separate company in December 2025 with a twenty-person founding team.
 Shipping cadence in August and September 2026 is weekly (voice control via Puck and an iOS and macOS app in late August, a desktop orb client and Fable 5.1 powering ultra in early September, a customizable Dial and sooner steering on September 8-10, runners that serve many directories on September 17, runner-created worktrees and workspace-shared runners on September 22-24, and the Mac app acting as a runner on September 24, as of 2026-09-26).
 On September 13, 2026 the [Free Agent announcement](https://ampcode.com/news/free-agent) made Amp free to use with your own compute, subscriptions, or keys, removed BYOK token fees for everyone outside Enterprise, and opened early access to nine more BYOK providers (OpenRouter, Bedrock, Google Cloud Agent Platform, Azure Foundry, Vercel AI Gateway, Cloudflare AI Gateway, Ollama Cloud, OpenCode Go, custom endpoints).
-The cadence ran through September's end: Opus 5.5 took over the medium setting on September 28 and Plaid Speed claimed 6x faster inference for GPT-6 Astra on September 29 ([news index](https://ampcode.com/news)), still the newest items as of 2026-10-04, with the pricing page re-verified unchanged the same day.
+The cadence ran through September's end: Opus 5.5 took over the medium setting on September 28 and Plaid Speed claimed 6x faster inference for GPT-6 Astra on September 29 ([news index](https://ampcode.com/news)), still the newest items as of 2026-10-06, with the pricing page re-verified unchanged the same day.
 
 ## Strengths
 
@@ -49,6 +49,7 @@ Hobby: free tier with all product features, pay-as-you-go orb time or your own r
 Individual $20/month: 45,000 orb minutes (750 hours) of Megawatt orb time, with a Gigawatt step-up behind the same toggle; a linked ChatGPT subscription still powers the low, medium, and high Dial settings instead of Amp credits.
 Teams cost nothing extra beyond members' tiers and pool credits with SAML/OIDC SSO; Enterprise is custom, pooled credits only.
 Since the September 13, 2026 Free Agent change there is no monthly fee to use Amp at all on your own compute, runners, subscriptions, or keys (you can still buy inference through Amp with no markup), and the zero and minimal data retention policy is now contractually extended to every tier.
+All tiers re-verified unchanged on 2026-10-06.
 
 ## Price history
 
@@ -93,7 +94,7 @@ Not for open-source-only teams or anyone metering their own tokens.
 ## References
 
 - https://ampcode.com/ - product overview, orbs, news cadence as of 2026-10-04
-- https://ampcode.com/pricing/ - Hobby, Megawatt, Gigawatt, teams, enterprise, linked subscriptions, as of 2026-10-04 (re-verified unchanged)
+- https://ampcode.com/pricing/ - Hobby, Megawatt, Gigawatt, teams, enterprise, linked subscriptions, as of 2026-10-06 (re-verified unchanged)
 - https://ampcode.com/news/free-agent - the September 13, 2026 free-with-your-own-compute and expanded-BYOK announcement
 - https://ampcode.com/news/amp-frontier-corporation - the December 2, 2025 spinout announcement
 - https://ampcode.com/manual/ - modes, oracle, librarian, skills, plugins, permissions

@@ -24,10 +24,10 @@ The rename is part of the artifact: after its launch thread debated trademark ri
 
 ## Status
 
-Days old and active, as of 2026-10-06.
+Three weeks old and active, as of 2026-10-06.
 Created 2026-09-16, last push 2026-09-23, two contributors, no tags or releases, 341 forks, about 4,700 stars.
 By 2026-10-03 the repository itself is named TheoLeeCJ/SemIf-OpenJev, with the /SemIf and /openjev URLs redirecting to it, so the OpenJev rename now lives in the repository name as well.
-The community footprint is large but lives under the old name: the "OpenJev" thread linking openjev.com reached 722 points as of 2026-10-03, the third-largest thread in the Jev wave after Jev's own launch and Laya's.
+The community footprint is large but lives under the old name: the "OpenJev" thread linking openjev.com reached 722 points as of 2026-10-06, the third-largest thread in the Jev wave after Jev's own launch and Laya's.
 Three community PRs merged on 2026-09-22: PyTorch/MPS scoring for Apple Silicon, a Qwen3.8-27B EXL3 bridge, and per-workload temperature calibration with calibrated prediction outputs.
 The headline numbers are self-run: on 102 aligned public rows, direct logit readout with Qwen3.5-4B agrees with TypeSafe's published values 0.845 of the time against Jev's published 0.883, with balanced accuracy of 0.813 on authored decisions and 0.766 under perturbation.
 The first third-party scoreboard of the category initially ranked SemIf (Qwen3.5-4B) second overall at 73.1 against Jev's 74.4, the wave's strongest independent showing, but that benchmark's sealed-decision v1.4 revision dropped it to 47.7, thirteenth on the current v1.4.2.2 board after the benchmark's additions, where Jev itself has slipped to fourth behind Imajev-4B (67.37), Plumb-4B (65.84), and decider-4b v2 (64.13), on a methodology contested in the benchmark's own thread.

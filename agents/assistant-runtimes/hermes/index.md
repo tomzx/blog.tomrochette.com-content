@@ -1,7 +1,7 @@
 ---
 title: Hermes Agent
 created: 2026-08-27
-updated: 2026-10-04
+updated: 2026-10-06
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, assistant-runtimes, personal-assistants, nous-research, open-source]
 readability: 3
@@ -24,8 +24,8 @@ Execution spans seven backends (local, Docker, SSH, Singularity, Modal, Daytona,
 ## Status
 
 Massive and fast-moving.
-As of 2026-10-04: 250,997 stars and 53,822 forks since creation on 2025-07-22, pushed today, MIT, and 47,871 open issues, a support surface bigger than most projects' users.
-Releases ship as date-stamped tags, and September alone saw v2026.9.7, v2026.9.11, v2026.9.14, v2026.9.21, and v2026.9.24, though no tag had shipped in the first four days of October as of 2026-10-04.
+As of 2026-10-06: 251,515 stars and 54,028 forks since creation on 2025-07-22, pushed today, MIT, and 48,046 open issues, a support surface bigger than most projects' users.
+Releases ship as date-stamped tags, and September alone saw v2026.9.7, v2026.9.11, v2026.9.14, v2026.9.21, and v2026.9.24, though no tag had shipped in the first six days of October as of 2026-10-06.
 The [52-point launch thread](https://news.ycombinator.com/item?id=48419000) landed June 2026, and a real tool ecosystem followed (a 28-point Grafana observability integration, a Fleet console for managing Dockerized Hermes agents, XMPP interop with OpenClaw).
 **The governance record is the caution: a May 2026 thread documents Nous editing a GitHub issue to remove plagiarism claims about Hermes Agent ([issue 10232](https://github.com/NousResearch/hermes-agent/issues/10232)), so origin claims around this project deserve independent reading.**
 
@@ -38,7 +38,7 @@ The [52-point launch thread](https://news.ycombinator.com/item?id=48419000) land
 
 ## Cautions
 
-- 47,864 open issues is triage weather, not a queue; expect to read code when things break.
+- 48,046 open issues is triage weather, not a queue; expect to read code when things break.
 - The plagiarism-claim edit is a stewardship red flag worth weighing before making it your memory keeper.
 - A self-curating memory compounds errors as efficiently as insights; the loop needs supervision, not just trust.
 - Windows installs bundle a lot of machinery (uv, Node, Git Bash), which is surface area to audit.
@@ -86,7 +86,7 @@ The disagreeable claim I will defend: the channel-list era of this category is o
 ## References
 
 - https://github.com/NousResearch/hermes-agent - README: learning loop, backends, channels, install
-- https://api.github.com/repos/NousResearch/hermes-agent - stars, forks, issues as of 2026-10-04
+- https://api.github.com/repos/NousResearch/hermes-agent - stars, forks, issues as of 2026-10-06
 - https://api.github.com/repos/NousResearch/hermes-agent/releases - the date-stamped release tags through v2026.9.24 (2026-09-24)
 - https://hermes-agent.nousresearch.com - official site and docs, including the Hermes Free/Plus/Super/Ultra plan tiers
 - https://news.ycombinator.com/item?id=48419000 - the 52-point launch thread

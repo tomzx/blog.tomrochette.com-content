@@ -1,7 +1,7 @@
 ---
 title: Knowhere
 created: 2026-09-20
-updated: 2026-10-05
+updated: 2026-10-06
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, retrieval, rag, chunking, document-parsing, mcp, open-source]
 readability: 3
@@ -27,7 +27,7 @@ Made by Ontos AI, which open-sourced the full stack on May 7, 2026.
 ## Status
 
 **Active and shipping weekly, with a striking mismatch between stars and discussion.**
-3,661 stars since 2026-04-30, latest release v1.2.22 on 2026-10-05 (following v1.2.21 the same day, and v1.2.20 on 2026-09-30), pushed 2026-10-05 (GitHub API, as of 2026-10-05).
+3,674 stars since 2026-04-30, latest release v1.2.22 on 2026-10-05 (following v1.2.21 the same day, and v1.2.20 on 2026-09-30), pushed 2026-10-05 (GitHub API, as of 2026-10-06).
 Two Show HNs drew a combined 2 points and 1 comment (March and September 2026), so like graft and graphify, the star count ran far ahead of any independent technical discussion.
 The self-hosted stack repo has 12 stars and was last pushed 2026-09-21, so the self-hosting path looks far less trafficked than the hosted funnel.
 
@@ -47,7 +47,7 @@ The self-hosted stack repo has 12 stars and was last pushed 2026-09-21, so the s
 
 ## Pricing
 
-**The hosted API bills per page: $0.015 per billable page ($1.50 per 100 pages), with rate-limit tiers unlocked by lifetime spend (re-verified unchanged 2026-10-05).**
+**The hosted API bills per page: $0.015 per billable page ($1.50 per 100 pages), with rate-limit tiers unlocked by lifetime spend (re-verified unchanged 2026-10-06).**
 The $5 signup credit the site showed on 2026-09-22 no longer appears; the current signup offer is a 14-day free trial (re-verified 2026-09-26).
 Billable pages count physical PDF pages, slide counts, one page per image, and size-derived units for text and spreadsheets; jobs that fail after billing are refunded.
 The open-source engine and the self-hosted stack are free under Apache-2.0.
@@ -89,7 +89,7 @@ My disagreeable claim: the near-total absence of public discussion around a 3,60
 
 ## References
 
-- https://github.com/Ontos-AI/knowhere - repository, README (architecture, tracks, news timeline), 3,661 stars and activity as of 2026-10-05
+- https://github.com/Ontos-AI/knowhere - repository, README (architecture, tracks, news timeline), 3,674 stars and activity as of 2026-10-06
 - https://github.com/Ontos-AI/knowhere/releases - release cadence, v1.2.22 on 2026-10-05
 - https://knowhereto.ai - hosted product surface, $5 free credit, and the self-reported comparison table
 - https://docs.knowhereto.ai/ - product docs: SDKs, CLI, retrieval query surface

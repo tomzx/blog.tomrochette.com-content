@@ -1,7 +1,7 @@
 ---
 title: Orca
 created: 2026-09-27
-updated: 2026-10-05
+updated: 2026-10-06
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, llm=glm-5.3-flash, orchestration, agent-ide, worktrees, mobile]
 readability: 3
@@ -24,8 +24,8 @@ MIT licensed, TypeScript and Electron, and the repo's README carries translation
 
 ## Status
 
-Fast and well-funded: about 85.2k stars and 5,493 forks as of 2026-10-05, created 2026-03-17, more than 11,900 commits, with v1.4.220 (2026-10-04) the latest release.
-v1.4.220 is another patch from the October 2 daily build plus fixes picked from main: a native-chat Stop button that ends Claude's process, chat polish, Antigravity quota meters, faster workspace creation in large repositories, and an optional Node-free Orca runtime for SSH hosts.
+Fast and well-funded: about 86.1k stars and 5,493 forks as of 2026-10-06, created 2026-03-17, more than 11,900 commits, with v1.4.221 (2026-10-05) the latest release.
+v1.4.221 is a security fix plus platform repair release: it closes a bug where marking a folder trusted for GitHub Copilot left `~/.copilot/config.json` (which can hold Copilot login tokens) readable by other users on shared SSH hosts, and it points Codex on Windows at the user's own `~/.codex` folder, following v1.4.220's native-chat Stop button and faster workspace creation in large repositories.
 The changelog shows daily shipping through September 2026, including OpenCode 2 support (2026-09-20), a Muse Code harness and Codex goals in native chat (2026-09-25), and a Design Mode and browser stack.
 Stably is a YC W22 company with a separate revenue product (Stably testing), so Orca does not have to monetize itself yet, which is why it can stay free and MIT.
 **The caution is scale: 7,452 open issues and pull requests against a repository roughly six months old, and the loudest proof of adoption is a wall of self-selected X quotes rather than independent field reports.**

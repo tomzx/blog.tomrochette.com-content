@@ -22,7 +22,7 @@ The company reports SOC 2 Type II, a 30-day enterprise pilot with a 99.9% SLA, a
 
 ## Status
 
-Active and young: the repo was created 2025-04-12 and shows 1,671 stars and 192 forks as of 2026-10-04, pushed the previous night.
+Active and young: the repo was created 2025-04-12 and shows 1,671 stars and 191 forks as of 2026-10-06, pushed the same day.
 DevPass shipped across Q2 2026 with annual billing and integration guides, and the Q2 roundup puts deepseek-v4-pro at the top of its quarterly token table.
 A Hacker News search this run returned no stories about the product, so the footprint is SEO and docs, not community debate.
 On 2026-10-04 the DevPass page announced its first devaluation: from October 15, 2026 the monthly allowance falls from 3x to 2x the plan price.
@@ -37,14 +37,14 @@ On 2026-10-04 the DevPass page announced its first devaluation: from October 15,
 ## Cautions
 
 - The community footprint is thin: no Hacker News stories, and the company's "best AI coding plans" post ranks DevPass first against Claude Max, OpenCode Go, and the GLM plan, which is marketing, not measurement.
-- DevPass value drops on October 15, 2026, from 3x to 2x the plan price at renewal, the first cut since launch, and the weekly frontier fair-use cap means heavy premium-model users exhaust headroom before the allowance runs out.
+- DevPass value drops on October 15, 2026, from 3x to 2x the plan price at renewal, the first cut since launch, and the notice adds daily caps and tighter weekly premium caps that apply even inside existing billing cycles; the weekly frontier fair-use share means heavy premium-model users exhaust headroom before the allowance runs out.
 - The 5% is charged per top-up, so the small-purchase math that punishes OpenRouter's $0.80 minimum applies here too for frequent small reloads.
 - A one-year-old repo with 1,671 stars is early to hold custody of every provider key you own.
 
 ## Pricing
 
-PAYG: free tier with 3 rate-limited free models, provider list prices, 5% fee on credit top-ups, BYOK free, non-US cards add 1.5%, and optional full payload retention costs $0.01 per 1M tokens, as of 2026-10-04.
-DevPass: Lite $29/month (about $87 of usage), Pro $79/month (about $237), Max $179/month (about $537), 14-day self-serve refund, weekly frontier fair-use, worth 3x the plan price until October 15, 2026 and 2x after.
+PAYG: free tier with 3 rate-limited free models, provider list prices, 5% fee on credit top-ups, BYOK free, non-US cards add 1.5%, and optional full payload retention costs $0.01 per 1M tokens, as of 2026-10-06.
+DevPass: Lite $29/month (about $87 of usage), Pro $79/month (about $237), Max $179/month (about $537), 14-day self-serve refund, weekly frontier fair-use at 12% of credits on Lite, 15% on Pro, and 18% on Max, worth 3x the plan price until October 15, 2026 and 2x after.
 Lounge chat plans: fast models from $9/month, flagship models from $19/month.
 Enterprise: custom, 30-day pilot, SAML SSO and SCIM, 99.9% SLA.
 
@@ -71,6 +71,7 @@ My disagreeable claim: DevPass at 3x (soon 2x) buys less leverage than OpenCode 
 
 - 2026-10-04 - Created when the new-entrant scan surfaced DevPass marketed against this category's members; added with the announced October 15 usage cut already on the price table.
 - 2026-10-06 - Converted the Compared-to cross-references from plain-text paths into working links.
+- 2026-10-06 - DevPass re-check ahead of the October 15 change: the notice now also adds daily caps and tighter premium weekly caps applying inside existing billing cycles, and the cards publish the frontier fair-use share per tier (Lite 12%, Pro 15%, Max 18% of credits); plan prices and the 3x-to-2x cut re-verified unchanged.
 
 ## See also
 

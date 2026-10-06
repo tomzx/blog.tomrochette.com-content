@@ -25,7 +25,7 @@ It is local-first and BYOK: API keys stay in a local credentials file, with prov
 
 ## Status
 
-New and extremely loud: 242,920 stars and 29,122 forks as of 2026-10-04, about eight weeks after the repo was created on 2026-08-13.
+New and extremely loud: 244,191 stars and 29,255 forks as of 2026-10-06, about eight weeks after the repo was created on 2026-08-13.
 No stable release exists, only alpha and rc prereleases (latest: dsh-v0.2.1-alpha.1 on 2026-10-03, adding an experimental Claude Code Mods compatibility layer, an agent-driven plugin-creation entry in the plugin manager, prefilled unsent prompts in new sessions, and reverse-proxy support via `--public-url`, plus a batch of fixes), and the README warns there will be compatibility-breaking changes.
 The launch thread drew 747 points and 301 comments on Hacker News, with the author answering questions directly.
 An ecosystem is already forming: a Tauri desktop port with about 2,900 stars, a plugin directory site, and an MCP plugin catalog.
@@ -81,7 +81,7 @@ Not for anyone whose threat model includes untrusted repos on day one, or who wa
 
 ## References
 
-- https://github.com/deepseek-ai/deepseek-harness - repository, README, install, MIT license, 242,920 stars as of 2026-10-04
+- https://github.com/deepseek-ai/deepseek-harness - repository, README, install, MIT license, 244,191 stars as of 2026-10-06
 - https://www.deepseek.com/harness/en/ - runtime modes and plugin architecture claims
 - https://raw.githubusercontent.com/deepseek-ai/deepseek-harness/HEAD/SAFETY.md - the project's own security warnings
 - https://news.ycombinator.com/item?id=49285244 - the 747-point launch thread, including critical takes on plugins and the Cordis paper

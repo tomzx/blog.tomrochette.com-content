@@ -10,7 +10,9 @@ readability: 3
 
 Running many coding agents at once: worktree managers, kanbans, terminal multiplexers, dashboards, the mobile clients that supervise them from anywhere, and the multi-agent frameworks that coordinate the agents themselves.
 
+- [1Code](1code/index.md) - the Apache-2.0 Cursor-like agent client that pulled 5.6k stars in two months and went silent in March 2026, kept as a dormancy record.
 - [Agent Manager](agent-manager/index.md) - the Apache-2.0 Go tmux TUI running nine coding CLIs with per-CLI status detection and review comments that reach the agent.
+- [Agent Orchestrator](agent-orchestrator/index.md) - the Apache-2.0 Electron kanban workspace over a Go daemon supervising 26-plus coding CLIs, at 12.8k stars under its fourth organization name.
 - [Agent Swarm](agent-swarm/index.md) - the MIT self-hosted lead/worker platform turning Slack, GitHub, GitLab, Linear, and email intake into pull requests from Docker-isolated workers.
 - [AgentGrid](agentgrid/index.md) - the closed-source desktop canvas arranging agents, terminals, browsers, and diffs as panes, with a master agent delegating to workers over MCP.
 - [AgentsMesh](agentsmesh/index.md) - the BSL-1.1 self-hosted fleet console turning registered machines into AgentPods with tickets, channels, and automated loops.
@@ -19,6 +21,7 @@ Running many coding agents at once: worktree managers, kanbans, terminal multipl
 - [AutoGen](autogen/index.md) - Microsoft's conversational multi-agent framework, now in maintenance mode with Microsoft Agent Framework as the designated successor.
 - [AutoGPT](autogpt/index.md) - the 2023 autonomous-agent phenomenon rebuilt as an active hosted-plus-self-host workflow platform with a visual builder and marketplace.
 - [AX](ax/index.md) - Google's Kubernetes-native orchestrator that runs agent tasks, workspaces, and network gates as declarative cluster manifests, the category's first datacenter-scale control plane.
+- [Bernstein](bernstein/index.md) - the Apache-2.0 Python governance layer running parallel agents in worktrees behind merge gates on a deterministic, replayable, offline-auditable scheduler.
 - [Buzz](buzz/index.md) - Block's Apache-2.0 Nostr-relay team communication platform where humans and agents are first-class equals, carrying search, workflows, and git hosting on one signed event log.
 - [Claude Squad](claude-squad/index.md) - free AGPL terminal app running multiple coding agents in tmux, each in its own worktree.
 - [cmux](cmux/index.md) - Manaflow's libghostty macOS terminal for parallel agents, notification rings free, cloud execution paid (Pro $50, Max $200 monthly).
@@ -59,6 +62,7 @@ Running many coding agents at once: worktree managers, kanbans, terminal multipl
 - [The Perfect Orchestrator](the-perfect-orchestrator/index.md) - the MIT bash and tmux harness where one lead Claude Code session adversarially verifies N worker sessions.
 - [Vibe Kanban](vibe-kanban/index.md) - the Apache-2.0 kanban for parallel agents, orphaned by Bloop's April 2026 shutdown, community commits resumed in September 2026 but only a v0.1.45 tag, npm still at 0.1.44.
 - [Worktrunk](worktrunk/index.md) - the Rust `wt` CLI making worktrees as easy as branches, with lifecycle hooks and a one-command merge.
+- [Yao](yao/index.md) - Infinite Wisdom Software's cross-device agent workspace on the five-year Yao Engine, 8.1k stars mostly inherited from its 2021 low-code era.
 
 Its members are compared on shared rows in the [Orchestration Feature Matrix](orchestration-feature-matrix/index.md).
 
@@ -113,3 +117,7 @@ Its members are compared on shared rows in the [Orchestration Feature Matrix](or
 - 2026-10-06 - Added Raven.
 - 2026-10-06 - Added Ruflo.
 - 2026-10-06 - Added Scion.
+- 2026-10-06 - Added 1Code.
+- 2026-10-06 - Added Agent Orchestrator.
+- 2026-10-06 - Added Yao.
+- 2026-10-06 - Added Bernstein.

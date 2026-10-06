@@ -1,7 +1,7 @@
 ---
 title: OpenSpec
 created: 2026-08-27
-updated: 2026-10-04
+updated: 2026-10-06
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, spec-driven-development, specs, open-source]
 readability: 3
@@ -73,7 +73,7 @@ My disagreeable claim: the delta-archive idea is the one durable invention this 
 ## References
 
 - https://github.com/Fission-AI/OpenSpec - README: philosophy, opsx workflow, artifact layout
-- https://api.github.com/repos/Fission-AI/OpenSpec - stars, forks, issues as of 2026-10-02
+- https://api.github.com/repos/Fission-AI/OpenSpec - stars, forks, issues as of 2026-10-06
 - https://openspec.dev/ - official documentation site
 - https://api.npmjs.org/downloads/point/last-month/@fission-ai/openspec - 2,453,826 downloads last month
 - https://github.com/Fission-AI/OpenSpec/blob/main/docs/opsx.md - the rebuilt artifact workflow

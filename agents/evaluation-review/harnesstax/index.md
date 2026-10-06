@@ -49,6 +49,7 @@ Not applicable; the study is free to read, and reproducing its matrix costs what
 
 - [FrontierHarness Eval](../frontierharness-eval/index.md): the same harness-cost question with the opposite design and publisher; HarnessTax is academic, crosses harness with model, and scores benchmark-native tasks, FrontierHarness is vendor-run, holds the model constant, and runs custom tasks, and the overlap in their conclusions (Claude Code as the expensive default) is the signal worth trusting.
 - Harness-Bench (arXiv 2605.27922): a May 2026 academic diagnostic benchmark that varies harness configurations across model backends over 106 sandboxed tasks and 5,194 recorded trajectories, concluding that capability should be reported at the model-harness configuration level; closest in design to this study, but so far without a public leaderboard or a community thread.
+- What Does a Harness Buy? Tokens, Mostly (arXiv 2610.04433): an October 2026 study running five models through three production harnesses (Claude Code, mini-SWE-agent, OpenCode) on SWE-bench Verified, finding the heaviest and lightest harness equivalent within five points and that swapping harnesses flips about 13 percent of tasks while rerunning the same harness flips about the same share, so single-run leaderboard gaps partly measure run-to-run noise; the sharpest stress test of this study's tax framing, and it shares the finding that Claude Code is the expensive default.
 - SWE-bench Lite and Terminal-Bench 2.0: the ground benchmarks it varies harnesses on; used normally they confound harness with model, which is exactly the confound HarnessTax prices rather than removes.
 - [deepeval](../deepeval/index.md): a CI framework for gating your own application's outputs, a different object than a public study of third-party harnesses.
 
@@ -62,6 +63,7 @@ Not as a harness shopping leaderboard, since three harnesses and two contaminati
 - 2026-09-18 - Created from the entrant-resolution run after the 217-point Hacker News thread.
 - 2026-09-25 - The launch thread grew to 232 points and 97 comments, the repository pushed 2026-09-22 with its study data regenerated, and its GitHub description now brands it AgentBRANE.
 - 2026-10-06 - Added the Harness-Bench arXiv study (2605.27922) to Compared to and References as a second independent academic harness-variance study.
+- 2026-10-06 - Added the What Does a Harness Buy arXiv study (2610.04433) to Compared to and References as a third academic harness-variance study whose rerun-variance finding stress-tests the tax framing.
 
 ## See also
 
@@ -75,6 +77,7 @@ Not as a harness shopping leaderboard, since three harnesses and two contaminati
 - https://harnesstax.github.io/ - the study, its findings, and its methodology
 - https://github.com/HarnessTax/HarnessTax.github.io - the public repository holding the site and the study data
 - https://arxiv.org/abs/2605.27922 - the Harness-Bench study (submitted 2026-05-27), fetched 2026-10-06
+- https://arxiv.org/abs/2610.04433 - the What Does a Harness Buy study (submitted 2026-10-03), fetched 2026-10-06
 - https://hn.algolia.com/api/v1/items/49733726 - the 233-point launch thread, including the security-framing criticism
 - https://www.swebench.com/lite - the first ground benchmark
 - https://arxiv.org/abs/2601.11868 - Terminal-Bench, the second ground benchmark

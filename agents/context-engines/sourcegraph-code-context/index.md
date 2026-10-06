@@ -1,7 +1,7 @@
 ---
 title: Sourcegraph code context platform
 created: 2026-08-24
-updated: 2026-09-20
+updated: 2026-10-06
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, code-search, code-retrieval, enterprise-tools, mcp, llm=glm-5.3-flash]
 readability: 3
@@ -49,7 +49,7 @@ I found little independent 2026 community discussion of the post-split platform;
 ## Pricing
 
 **The floor is $16K a year before any AI usage, which prices out every team the product's own data says it cannot help.**
-Enterprise plan starting at $16K per year as of 2026-10-02, scaling with team size, including pooled AI credits (no monthly expiry, rollover on renewal), with volume credit buckets as an add-on and 24x5 support.
+Enterprise plan starting at $16K per year as of 2026-10-06, scaling with team size, including pooled AI credits (no monthly expiry, rollover on renewal), with volume credit buckets as an add-on and 24x5 support.
 No self-serve or free private tier; the public code search is free.
 
 ## Price history

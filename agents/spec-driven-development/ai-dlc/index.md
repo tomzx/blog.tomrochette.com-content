@@ -24,7 +24,7 @@ Amazon's own docs position it as the successor to retrofitting AI onto human pro
 ## Status
 
 Large and fast-moving for an eighteen-month-old methodology repo.
-As of 2026-10-06: 4,999 stars, 910 forks, 295 open issues, created 2025-11-13, pushed 2026-10-06, stable release v2.10.0 with near-daily v2.10.1-preview builds, MIT-0 licensed, documented at [awslabs.github.io/aidlc-workflows](https://awslabs.github.io/aidlc-workflows/).
+As of 2026-10-06: 5,002 stars, 910 forks, 334 open issues, created 2025-11-13, pushed 2026-10-06, stable release v2.10.0 with near-daily v2.10.1-preview builds, MIT-0 licensed, documented at [awslabs.github.io/aidlc-workflows](https://awslabs.github.io/aidlc-workflows/).
 **Its Hacker News footprint is thin (the methodology's threads run 2 to 5 points), so adoption signals rest on the star count and AWS's institutional push rather than independent discussion.**
 
 ## Strengths
@@ -70,7 +70,7 @@ Not for solo work, and not for anyone who wants a process layer with no vendor's
 
 ## References
 
-- https://github.com/awslabs/aidlc-workflows - repository, README: profiles, phases, agents, audit trail, harness table (4,999 stars as of 2026-10-06)
+- https://github.com/awslabs/aidlc-workflows - repository, README: profiles, phases, agents, audit trail, harness table (5,002 stars as of 2026-10-06)
 - https://raw.githubusercontent.com/awslabs/aidlc-workflows/main/README.md - the installer, harness runtimes, and provider story
 - https://awslabs.github.io/aidlc-workflows/ - the documentation site: guides, stage reference, agent deep dives
 - https://aws.amazon.com/blogs/devops/ai-driven-development-life-cycle/ - the methodology announcement by Raja SP, July 31, 2025

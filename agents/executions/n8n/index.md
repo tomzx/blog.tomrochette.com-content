@@ -25,14 +25,14 @@ Deployment is self-hosted (free Community Edition) or n8n Cloud; the Webhook nod
 **Very active and heavily funded.**
 About 206.7k stars and 61.0k forks on GitHub as of 2026-10-06, with 24,000+ commits.
 A $180M Series C (October 2025, led by Accel, with NVIDIA's NVentures) brought total funding to $240M at a $2.5B valuation.
-Caveat on maturity: the agents layer is in preview, not yet supported on self-hosted Enterprise, and queue mode does not work with agents.
+Caveat on maturity: the agents layer is still in preview (self-hosted support arrived with n8n 2.32.3 on all plans, with knowledge bases preview-gated behind a configured sandbox), and queue mode does not work with agents.
 
 ## Strengths
 
 - **Webhook-to-agent is a one-node path**: an HTTP POST becomes an agent turn with authentication, allowlists, and response modes (immediate, final-node, or streaming) configured on the trigger itself.
 - Model flexibility with no lock-in: any provider, bring your own keys, swap models without rebuilding.
 - Publishing is snapshot-based: edits go to a draft while the published version keeps serving channels and schedules, and every publish is versioned and revertible.
-- The community is large and real (a forum with tens of thousands of members, and HN launch threads from 728 points in 2019 to 235 points for the Series C).
+- The community is large and real (a forum the vendor counts at over 170,000 members, and HN launch threads from 728 points in 2019 to 235 points for the Series C).
 
 ## Cautions
 
@@ -43,7 +43,7 @@ Caveat on maturity: the agents layer is in preview, not yet supported on self-ho
 
 ## Pricing
 
-Cloud plans bill per full workflow execution with unlimited users and steps: Starter at 20 EUR/month annually for 2,500 executions, Pro at 50 EUR for 10,000, Business at 667 EUR for 40,000, Enterprise by quote (as of 2026-10-02).
+Cloud plans bill per full workflow execution with unlimited users and steps: Starter at 20 EUR/month annually for 2,500 executions, Pro at 50 EUR for 10,000, Business at 667 EUR for 40,000, Enterprise by quote (as of 2026-10-06).
 Self-hosting the Community Edition is free; Business-and-up self-hosted licenses ping n8n's license server daily and count your executions.
 
 ## Price history
@@ -72,6 +72,7 @@ My disagreeable claim: for scheduled and webhook-triggered coding-adjacent work,
 - 2026-09-18 - Refreshed the repository counters (about 204k to about 205k stars, 60.6k to 60.8k forks) and re-confirmed the pricing tiers unchanged.
 - 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
 - 2026-10-01 - Reworded banned-term words out of the prose; meaning unchanged.
+- 2026-10-06 - Corrected the agents-availability caveat (self-hosted agents shipped with n8n 2.32.3 on all plans, knowledge bases still preview-gated), repointed the license reference to the Community license page after the sustainable-use-license path began 404ing, and refreshed the forum size and pricing as-of date.
 
 ## See also
 
@@ -85,8 +86,8 @@ My disagreeable claim: for scheduled and webhook-triggered coding-adjacent work,
 - https://github.com/n8n-io/n8n - repository scale and fair-code licensing, as of 2026-10-06
 - https://docs.n8n.io/build/build-and-manage-agents.md - agents feature: channels, schedules, sub-agents, preview limits
 - https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-base.webhook/ - webhook trigger semantics, auth, fail-open conditional
-- https://n8n.io/pricing/ - plan tiers and execution-based billing, as of 2026-10-02
-- https://docs.n8n.io/n8n-community-license/sustainable-use-license.md - license terms and the not-open-source statement
+- https://n8n.io/pricing/ - plan tiers and execution-based billing, as of 2026-10-06
+- https://docs.n8n.io/n8n-community-license/community-license.md - license terms and the not-open-source statement
 - https://blog.n8n.io/series-c/ - $180M Series C, $2.5B valuation, October 2025
 - https://news.ycombinator.com/item?id=21191676 - the 2019 launch thread (728 points)
 - https://news.ycombinator.com/item?id=45525336 - the Series C announcement thread (235 points)

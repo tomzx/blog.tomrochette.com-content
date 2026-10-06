@@ -1,7 +1,7 @@
 ---
 title: Synthetic
 created: 2026-09-26
-updated: 2026-09-26
+updated: 2026-10-06
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, model-access, open-weight-models, llm-subscription, coding-agents]
 readability: 3
@@ -40,7 +40,7 @@ Any OpenAI-compatible tool works against api.synthetic.new/v1 (Anthropic-compati
 
 ## Pricing
 
-- Subscription pack: $30/month ($1/day) for 500 requests per 5 hours, advertised as 3x the rate limits of Claude's $20/month plan, with 1 concurrent request per model and UI plus API access (as of 2026-10-02).
+- Subscription pack: $30/month ($1/day) for 500 requests per 5 hours, advertised as 3x the rate limits of Claude's $20/month plan, with 1 concurrent request per model and UI plus API access (as of 2026-10-06).
 - Usage-based: pay-per-token on always-on models and pay-per-minute on-demand, pitched at enterprise.
 - All always-on models plus embeddings are included in every subscription, and embeddings do not count against the rate limit.
 
@@ -54,7 +54,7 @@ Any OpenAI-compatible tool works against api.synthetic.new/v1 (Anthropic-compati
 
 ## Compared to
 
-- Requesty ([../requesty/index.md](../requesty/index.md)): a general gateway metered at 5% of spend; pick Synthetic when you want a fixed bill and open-weight models only.
+- [Requesty](../requesty/index.md): a general gateway metered at 5% of spend; pick Synthetic when you want a fixed bill and open-weight models only.
 - Claude Pro / Claude Code: 1.5x the price ($30 vs $20) for closed frontier models; pick Claude for peak quality, Synthetic for privacy and flat cost.
 - Direct open-model hosts (DeepSeek, Z.ai): pay per token and often cheaper at low volume; Synthetic wins when agent request volume would blow past token budgets.
 
@@ -67,6 +67,7 @@ My most contestable claim: the "3x Claude limits" line is the weakest reason to 
 ## Changes
 
 - 2026-09-26 - Created.
+- 2026-10-06 - Repaired the Compared-to Requesty link, which was double-wrapped and rendered its file path as the link text; pricing page re-verified unchanged.
 
 ## See also
 

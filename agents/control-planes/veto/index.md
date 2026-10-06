@@ -1,7 +1,7 @@
 ---
 title: Veto
 created: 2026-09-27
-updated: 2026-10-02
+updated: 2026-10-06
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, llm=glm-5.3-flash, agent-authorization, policy-enforcement, tool-calls, human-in-the-loop, open-source]
 readability: 3
@@ -25,8 +25,8 @@ It is made by Plaw, Inc. (US), which lists Veto as an EU AI Pact signatory.
 ## Status
 
 Active product, dormant open-source repository.
-The repository was created 2026-01-02 and sits at 14 stars, 2 forks, and 1 open issue as of 2026-10-02, with no source push since 2026-06-18 (106 days) and the latest published SDK release `veto-sdk@2.9.3` on 2026-05-07.
-The website, docs, and pricing pages remain live with prices unchanged (verified 2026-10-02), and the company markets to agent vendors and regulated buyers, so the commercial product is clearly alive while the public source is not.
+The repository was created 2026-01-02 and sits at 14 stars, 2 forks, and 1 open issue as of 2026-10-06, with no source push since 2026-06-18 (110 days) and the latest published SDK release `veto-sdk@2.9.3` on 2026-05-07.
+The website, docs, and pricing pages remain live with prices unchanged (verified 2026-10-06), and the company markets to agent vendors and regulated buyers, so the commercial product is clearly alive while the public source is not.
 **The public footprint is small: a Hacker News search for Veto returns nothing relevant, and the starred count is in the low tens, so adoption evidence comes from the product surfaces rather than the community.**
 One operational wrinkle the README states plainly: Plaw does not yet control the unscoped `veto` npm name, so installs use the `veto-cli` package form until the transfer completes.
 
@@ -85,6 +85,6 @@ Enterprise is custom, covering cloud, BYOC, on-prem, or isolated networks with H
 - https://veto.so/ - product framing, supported frameworks, EU AI Pact claim
 - https://veto.so/pricing - Developer, Hosted, and Enterprise plans with dollar amounts
 - https://github.com/PlawIO/veto - README: `protect()`, rules, adapter matrix, benchmarks, BYOC boundary
-- https://api.github.com/repos/PlawIO/veto - stars, forks, issues, push dates as of 2026-10-02
+- https://api.github.com/repos/PlawIO/veto - stars, forks, issues, push dates as of 2026-10-06
 - https://docs.veto.so - documentation: MAP artifacts, local runtime, receipts, adapters
 - https://api.github.com/repos/PlawIO/veto/releases - veto-sdk@2.9.3, 2026-05-07

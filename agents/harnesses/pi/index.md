@@ -1,7 +1,7 @@
 ---
 title: Pi
 created: 2026-08-30
-updated: 2026-10-04
+updated: 2026-10-06
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, harnesses, coding-agents, open-source, byok, extensibility]
 readability: 3
@@ -25,9 +25,9 @@ Made by Earendil Inc., created by Mario Zechner with Armin Ronacher as the secon
 
 ## Status
 
-Active and ascending: 112,176 stars, 14,230 forks, 265 open issues and PRs as of 2026-10-04.
-Created 2025-08-09, pushed within a day of verification, releases roughly weekly, reaching v1.0.0 on October 1, 2026, then v1.0.1 (October 3: a Nix flake install, project-level MCP server overrides, MCP OAuth client-ID metadata documents, tool renderers for tools that are not registered yet, and Cloudflare Clef classifiers usable from codemode) and v1.0.2 (October 4: sampling parameters configurable per thinking level on OpenAI-compatible APIs); the v0.99 line (September 29-30) shipped the biggest capability change in the project's history, codemode, tool search, and MCP support as built-in extensions, and v1.0.0 made the TUI fullscreen by default, cut codemode prompt tokens by about 40 percent, and hardened MCP OAuth.
-**The ecosystem is the strongest signal: OpenClaw runs on Pi, and oh-my-pi, a batteries-included fork with about 34.2k stars as of 2026-10-04, exists precisely because some users want the features Pi refuses to ship.**
+Active and ascending: 112,804 stars, 14,315 forks, 280 open issues and PRs as of 2026-10-06.
+Created 2025-08-09, pushed within a day of verification, releases roughly weekly, reaching v1.0.0 on October 1, 2026, then v1.0.1 (October 3: a Nix flake install, project-level MCP server overrides, MCP OAuth client-ID metadata documents, tool renderers for tools that are not registered yet, and Cloudflare Clef classifiers usable from codemode), v1.0.2 (October 4: sampling parameters configurable per thinking level on OpenAI-compatible APIs), v1.0.3 (October 5: the Azure provider renamed from `azure-openai-responses` to `azure` with Foundry Chat Completions deployments starting at `azure/deepseek-v4-pro`, codemode images saved to files, output files locked to the user), and v1.0.4 (October 5: `*` patterns for `--tools` and `--exclude-tools`, a per-run `--no-mcp` flag, and codemode image read-back); the v0.99 line (September 29-30) shipped the biggest capability change in the project's history, codemode, tool search, and MCP support as built-in extensions, and v1.0.0 made the TUI fullscreen by default, cut codemode prompt tokens by about 40 percent, and hardened MCP OAuth.
+**The ecosystem is the strongest signal: OpenClaw runs on Pi, and oh-my-pi, a batteries-included fork with about 34.4k stars as of 2026-10-06, exists precisely because some users want the features Pi refuses to ship.**
 
 ## Strengths
 
@@ -68,6 +68,7 @@ Not for teams wanting turnkey guardrails, MCP-centric stacks, or a stable API su
 - 2026-09-22 - Recorded the v0.87.1 release (September 22) and refreshed counters, including the oh-my-pi fork at about 32.8k stars.
 - 2026-10-02 - Corrected the no-MCP claim: v0.99.0 (September 29) shipped codemode, tool search, and MCP as built-in extensions, so MCP is now supported, not refused; recorded the v1.0.0 release (October 1, fullscreen TUI by default, leaner codemode, MCP OAuth hardening) and refreshed counters, including the oh-my-pi fork at about 34.0k stars.
 - 2026-10-04 - Recorded the v1.0.1 (October 3) and v1.0.2 (October 4) releases, which added a Nix flake, project-level MCP server overrides, MCP OAuth CIMD registration, tool renderers for unregistered tools, Cloudflare Clef classifier access from codemode, and per-thinking-level sampling parameters, and refreshed counters, including the oh-my-pi fork at about 34.2k stars.
+- 2026-10-06 - Recorded the v1.0.3 (October 5) and v1.0.4 (October 5) releases, which renamed the Azure provider to `azure` with Foundry Chat Completions deployments, saved codemode images to files, added `*` patterns for tool selection and a per-run `--no-mcp` flag, and locked output files to the user, and refreshed counters, including the oh-my-pi fork at about 34.4k stars.
 
 ## See also
 
@@ -83,4 +84,4 @@ Not for teams wanting turnkey guardrails, MCP-centric stacks, or a stable API su
 - https://pi.dev - positioning, extension model, and the list of features deliberately not built
 - https://mariozechner.at/posts/2025-11-30-pi-coding-agent/ - the author's rationale for the minimal prompt and YOLO default
 - https://news.ycombinator.com/item?id=46844822 - the 421-point thread with pushback on the security posture
-- https://github.com/can1357/oh-my-pi - the batteries-included fork at about 34.2k stars, the counterargument in running code
+- https://github.com/can1357/oh-my-pi - the batteries-included fork at about 34.4k stars, the counterargument in running code

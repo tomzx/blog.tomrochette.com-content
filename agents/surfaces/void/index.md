@@ -1,7 +1,7 @@
 ---
 title: Void
 created: 2026-08-24
-updated: 2026-09-27
+updated: 2026-10-06
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, surfaces, ai-editors, open-source]
 readability: 3
@@ -10,7 +10,7 @@ audience_notes: >
   Assumes you know what a VS Code fork is and what BYOK means.
 ---
 
-Void is the open-source Cursor alternative: an Apache-2.0 VS Code fork with BYOK AI, about 28.8k GitHub stars as of 2026-09-27, and a repository that has now been archived.
+Void is the open-source Cursor alternative: an Apache-2.0 VS Code fork with BYOK AI, about 28.8k GitHub stars (28,774) as of 2026-10-06, and a repository that has now been archived.
 
 **Void proved the demand for an open AI editor (948 points on its breakout thread) and then demonstrated the second lesson: in this category, open source does not keep pace with funded velocity.**
 
@@ -22,7 +22,7 @@ A VS Code fork with AI features integrated directly: chat, completion, and agent
 ## Status
 
 **Dead as a maintained project; the repository is archived.**
-As of 2026-09-27 the GitHub repository carries the archived (read-only) flag, with the last push landing June 2, 2026 and the last tagged release still v1.3.4 from April 2025, over a year before this verification date.
+As of 2026-10-06 the GitHub repository carries the archived (read-only) flag, with the last push landing June 2, 2026 and the last tagged release still v1.3.4 from April 2025, over a year before this verification date.
 A December 2025 Show HN appeared titled "after Void slowed down", which is the community recording the same fact independently.
 
 ## Strengths
@@ -67,7 +67,7 @@ Not for anyone who wants the project's best days ahead of it.
 ## References
 
 - https://voideditor.com/ - product page and download
-- https://github.com/voideditor/void - source, about 28.8k stars, Apache-2.0, archived as of 2026-09-27
+- https://github.com/voideditor/void - source, about 28.8k stars, Apache-2.0, archived as of 2026-10-06
 - https://github.com/voideditor/void/releases - release history ending at v1.3.4, April 2025
 - https://news.ycombinator.com/item?id=43927926 - the 948-point breakout thread, May 2025
 - https://news.ycombinator.com/item?id=46274927 - the "after Void slowed down" thread, December 2025

@@ -1,7 +1,7 @@
 ---
 title: Foremerge
 created: 2026-09-22
-updated: 2026-10-04
+updated: 2026-10-06
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, parallel-agents, coordination, git-worktrees, open-source]
 readability: 3
@@ -26,7 +26,7 @@ The author is Nick Woodhead, who built it as internal tooling at GPTree, a compa
 ## Status
 
 Active, young, and gaining traction fast.
-The repository was created 2026-08-21 and shows 522 stars and 22 forks as of 2026-10-04 (GitHub API).
+The repository was created 2026-08-21 and shows 525 stars and 22 forks as of 2026-10-06 (GitHub API).
 Its Show HN on 2026-09-21 drew 45 points and 16 comments, modest by this category's standards but substantive, with real pushback answered in the thread.
 v0.4.3 shipped 2026-09-18, v0.5.0 on 2026-09-23, and v0.5.1 became the latest published release on 2026-10-03, still pre-1.0 with public schemas that may change.
 v0.5.1 is a ledger-compatible patch: it fixes `doctor` on Windows and for setups installed as `fmg`, and keeps `foremerge mcp` answering when the CLI binary is renamed.

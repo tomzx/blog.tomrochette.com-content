@@ -1,7 +1,7 @@
 ---
 title: Ouroboros
 created: 2026-08-30
-updated: 2026-10-05
+updated: 2026-10-06
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, software-factory, verification, self-improving-agents, open-source]
 readability: 3
@@ -23,9 +23,9 @@ MIT, by Ouro Labs (Q00), solo-maintained with around 80 contributors.
 
 ## Status
 
-Very young, very active: 6,181 stars, 622 forks, 90 open issues as of 2026-10-05, created 2026-01-14, pushed 2026-10-05.
+Very young, very active: 6,184 stars, 622 forks, 91 open issues as of 2026-10-06, created 2026-01-14, pushed 2026-10-05.
 Latest release v0.55.4 on 2026-10-02, three patch bumps past the 0.55.0 minor release of 2026-09-28, with about 26 PyPI releases in the last seven weeks; PyPI self-labels it Beta.
-**Headline results are self-reported, its Hacker News threads are self-submitted with single-digit points, and no independent evaluation exists as of 2026-10-04.**
+**Headline results are self-reported, its Hacker News threads are self-submitted with single-digit points, and no independent evaluation exists as of 2026-10-06.**
 
 ## Strengths
 

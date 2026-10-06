@@ -41,7 +41,7 @@ Its own Hacker News footprint is nearly nil: two stories in late 2024 with zero 
 
 ## Pricing
 
-Pro is $12/month as of 2026-10-02, including 60M input tokens per week, the 5% paid-text-model discount, and web plus API access.
+Pro is $12/month as of 2026-10-06, including 60M input tokens per week, the 5% paid-text-model discount, and web plus API access.
 Pay-as-you-go needs no subscription: a free tier with one web-only model, list-price API billing, and $0.10 crypto or $1 card deposit minimums.
 In September 2025, Pro was $8/month with unlimited personal open-weight usage capped at 60,000 generations per month and 2,000 per day.
 
@@ -78,7 +78,7 @@ I will claim something arguable: at $12 with open weights included, this beats a
 
 ## References
 
-- https://nano-gpt.com/pricing - current Pro pricing ($12/month, 60M input tokens/week), PAYG minimums, 5% BYOK and pinning fees, as of 2026-09-26.
+- https://nano-gpt.com/pricing - current Pro pricing ($12/month, 60M input tokens/week), PAYG minimums, 5% BYOK and pinning fees, as of 2026-10-06.
 - http://web.archive.org/web/20250901063827/https://nano-gpt.com/subscription - September 2025 capture showing $8/month with unlimited personal open-weight usage.
 - https://nano-gpt.com/blog - activity evidence: September 2026 posts, ZDR routing, monthly crypto-payment statistics.
 - https://hn.algolia.com/api/v1/search?query=nano-gpt.com&restrictSearchableAttributes=url&tags=story&hitsPerPage=10 - the service's thin HN footprint (two 0-comment stories, 2024).

@@ -1,7 +1,7 @@
 ---
 title: "Surface Feature Matrix"
 created: 2026-08-24
-updated: 2026-10-05
+updated: 2026-10-06
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, comparison, surfaces, ai-editors]
 readability: 3
@@ -10,7 +10,7 @@ audience_notes: >
   Assumes you know what MCP, AGENTS.md, cloud agents, and BYOK mean; each column links to a full note.
 ---
 
-This matrix compares the fourteen surfaces profiled in this section, feature by feature, from editors to agent platforms to session cockpits.
+This matrix compares the fifteen surfaces profiled in this section, feature by feature, from editors to agent platforms to session cockpits.
 
 **The surfaces differ less in whether they have an agent and more in what they are: an editor with an agent inside, a platform that treats the editor as one client, or a cockpit for many agents, and the row that matters most is the one nobody advertises, who runs where.**
 
@@ -19,19 +19,19 @@ Each column links to the full research note; every cell traces to a source cited
 
 ## The matrix
 
-| Feature | [Continue](../continue/index.md) | [Cursor](../cursor/index.md) | [Delta](../delta/index.md) | [Google Antigravity](../antigravity/index.md) | [JetBrains IDEs](../jetbrains/index.md) | [Kiro](../kiro/index.md) | [OpenChamber](../openchamber/index.md) | [Roo Code](../roo-code/index.md) | [Trae](../trae/index.md) | [Void](../void/index.md) | [VS Code + Copilot](../vscode-copilot/index.md) | [Whiteboard](../whiteboard/index.md) | [Windsurf](../windsurf/index.md) | [Zed](../zed/index.md) |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Kind | platform, IDE, CLI, SDK | extensions and CLI | multiplayer agent environment over DeltaDB | VS Code fork | IDE suite | closed IDE | local session app | VS Code extension | VS Code fork | VS Code fork | editor plus extensions | desktop canvas app where agents draw and humans review | VS Code fork | Rust editor |
-| Open source | ✗ | ✓ Apache-2.0 | ✗ | ✗ | ~ Community IDEs | ✗ | ✓ MIT | ✓ Apache-2.0 | ✗ | ✓ Apache-2.0 | ~ MIT editor | ✓ MIT app and SDK | ✗ | ~ mixed licenses |
-| Free tier | ✓ unlimited completions | ✓ Hobby | ✓ beta free | ✓ Individuals $0 | ✓ 5 credits | ✓ 50 credits | ✓ | ✓ BYOK extension | ✓ | ✓ | ✓ Copilot Free | ✓ free and local-only in beta | ✓ Devin account | ✓ |
-| BYOK | ✗ | ✓ | ✓ | ✓ | ✓ Junie | ✗ | ✓ via OpenCode | ✓ | ? | ✓ | ✓ | ✓ brings your own harness (Claude Code, Codex) | ✗ Devin key only | ✓ |
-| Local models | ✗ | ✗ not documented | ~ via external agents | ? | ✓ Junie | ✗ | ✓ via OpenCode | ✓ | ? | ? | ✓ | ✓ local-only today | ? | ✓ |
-| MCP | ✓ | ✓ | ? | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ? | ✓ | ? not verified | ✓ | ✓ |
-| AGENTS.md | ? | ✓ plus own rules | ? | ✓ | ✗ guidelines.md | ✓ | ✓ | ✓ if enabled | ✓ | ? | ✓ | ? not verified | ✓ | ✓ |
-| Cloud agents | ~ remote control | ✓ cloud agents | ~ web and cloud runners | ✓ | ~ | ✓ web and Crew | ✗ local machine only | ~ Cloud sunset 2026-05 | ✓ TraeWork | ✗ | ✓ Copilot agent | ✗ review surface, not a host | ✓ Devin | ✗ |
-| Parallel agent management | ✓ command center | ~ cloud agents | ✓ threads | ✓ fleets | ? | ✓ Crew | ✓ core loop | ~ orchestrator mode | ✓ concurrent tasks | ✗ | ✓ Agents window | ✗ none advertised | ✓ Command Center | ~ agent panel |
-| Scheduled work | ✓ scheduled messages | ✓ automations | ? | ✓ automations | ? | ✓ hooks | ✓ cron | ? | ? | ✗ | ~ via GitHub | ✗ none advertised | ? | ✗ |
-| Mobile surface | ✓ remote control | ✓ iOS app | ✓ mobile browser | ✓ | ✓ | ✓ | ✓ beta | ? | ? | ✗ | ✓ Copilot app | ✗ desktop app only | ? | ✗ |
+| Feature | [Continue](../continue/index.md) | [Cursor](../cursor/index.md) | [Delta](../delta/index.md) | [Google Antigravity](../antigravity/index.md) | [JetBrains IDEs](../jetbrains/index.md) | [Kiro](../kiro/index.md) | [OpenChamber](../openchamber/index.md) | [Roo Code](../roo-code/index.md) | [Trae](../trae/index.md) | [Visual Studio 2026](../visual-studio-2026/index.md) | [Void](../void/index.md) | [VS Code + Copilot](../vscode-copilot/index.md) | [Whiteboard](../whiteboard/index.md) | [Windsurf](../windsurf/index.md) | [Zed](../zed/index.md) |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Kind | platform, IDE, CLI, SDK | extensions and CLI | multiplayer agent environment over DeltaDB | VS Code fork | IDE suite | closed IDE | local session app | VS Code extension | VS Code fork | Windows IDE | VS Code fork | editor plus extensions | desktop canvas app where agents draw and humans review | VS Code fork | Rust editor |
+| Open source | ✗ | ✓ Apache-2.0 | ✗ | ✗ | ~ Community IDEs | ✗ | ✓ MIT | ✓ Apache-2.0 | ✗ | ✗ | ✓ Apache-2.0 | ~ MIT editor | ✓ MIT app and SDK | ✗ | ~ mixed licenses |
+| Free tier | ✓ unlimited completions | ✓ Hobby | ✓ beta free | ✓ Individuals $0 | ✓ 5 credits | ✓ 50 credits | ✓ | ✓ BYOK extension | ✓ | ✓ Community | ✓ | ✓ Copilot Free | ✓ free and local-only in beta | ✓ Devin account | ✓ |
+| BYOK | ✗ | ✓ | ✓ | ✓ | ✓ Junie | ✗ | ✓ via OpenCode | ✓ | ? | ✓ preview (Foundry, OpenAI, Anthropic, Ollama) | ✓ | ✓ | ✓ brings your own harness (Claude Code, Codex) | ✗ Devin key only | ✓ |
+| Local models | ✗ | ✗ not documented | ~ via external agents | ? | ✓ Junie | ✗ | ✓ via OpenCode | ✓ | ? | ✓ Ollama in BYOK preview | ? | ✓ | ✓ local-only today | ? | ✓ |
+| MCP | ✓ | ✓ | ? | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ in agent mode | ? | ✓ | ? not verified | ✓ | ✓ |
+| AGENTS.md | ? | ✓ plus own rules | ? | ✓ | ✗ guidelines.md | ✓ | ✓ | ✓ if enabled | ✓ | ✗ copilot-instructions.md | ? | ✓ | ? not verified | ✓ | ✓ |
+| Cloud agents | ~ remote control | ✓ cloud agents | ~ web and cloud runners | ✓ | ~ | ✓ web and Crew | ✗ local machine only | ~ Cloud sunset 2026-05 | ✓ TraeWork | ✓ Copilot cloud since 18.1 | ✗ | ✓ Copilot agent | ✗ review surface, not a host | ✓ Devin | ✗ |
+| Parallel agent management | ✓ command center | ~ cloud agents | ✓ threads | ✓ fleets | ? | ✓ Crew | ✓ core loop | ~ orchestrator mode | ✓ concurrent tasks | ✗ none documented | ✗ | ✓ Agents window | ✗ none advertised | ✓ Command Center | ~ agent panel |
+| Scheduled work | ✓ scheduled messages | ✓ automations | ? | ✓ automations | ? | ✓ hooks | ✓ cron | ? | ? | ✗ none documented | ✗ | ~ via GitHub | ✗ none advertised | ? | ✗ |
+| Mobile surface | ✓ remote control | ✓ iOS app | ✓ mobile browser | ✓ | ✓ | ✓ | ✓ beta | ? | ? | ✗ | ✗ | ✓ Copilot app | ✗ desktop app only | ? | ✗ |
 
 ## Reading the matrix
 
@@ -45,9 +45,9 @@ Antigravity and OpenChamber are the extremes, a closed platform giving the most 
 
 **Delta and Whiteboard are the columns that are neither editors nor hosts: Delta is a thread with its own worktree, recorded in a version-control layer that keeps the conversation beside the code, and Whiteboard is a canvas the agent draws onto while your own harness does the running, which is why both review rows work without the pull request every other column ends at.**
 
-**BYOK plus local models is the sovereignty column pair, and JetBrains (via Junie), OpenChamber (via OpenCode), VS Code, Zed, Whiteboard (its own harnesses, local-only), and the departed Roo Code fill both cells today.**
+**BYOK plus local models is the sovereignty column pair, and JetBrains (via Junie), OpenChamber (via OpenCode), VS Code, Zed, Whiteboard (its own harnesses, local-only), Visual Studio 2026 (Ollama through the BYOK preview), and the departed Roo Code fill both cells today.**
 
-**Two of the fourteen columns are death records, Continue acquired by Cursor in June 2026 and Roo Code sunset by its own team in May 2026, so their cells read as as-they-were snapshots; both exits point at [Cline](../../harnesses/cline/index.md), which tells you where the extension generation's value consolidated.**
+**Two of the fifteen columns are death records, Continue acquired by Cursor in June 2026 and Roo Code sunset by its own team in May 2026, so their cells read as as-they-were snapshots; both exits point at [Cline](../../harnesses/cline/index.md), which tells you where the extension generation's value consolidated.**
 
 ## Choosing from the matrix
 
@@ -55,6 +55,7 @@ Antigravity and OpenChamber are the extremes, a closed platform giving the most 
 - Want the surface to also be the cloud: Cursor, Kiro, or Windsurf under Devin.
 - Want review fused into the work instead of filed afterward, and can accept hosted history: Delta, free while in beta, betting your team will read threads.
 - Want zero budget: Antigravity's free tier or Void, accepting the incident record or the stall respectively.
+- Live in .NET or C++ on Windows: Visual Studio 2026, whose agents meet the debugger and profiler instead of an editor plugin, if the per-seat subscription reads as fair to you.
 - Must keep code on-device: OpenChamber, Void, or Zed with BYOK.
 
 ## Changes
@@ -72,6 +73,7 @@ Antigravity and OpenChamber are the extremes, a closed platform giving the most 
 - 2026-10-04 - Extended from twelve to thirteen columns with Delta, Zed Industries' multiplayer agent environment over DeltaDB (public beta 2026-09-16), inserted alphabetically between Cursor and Google Antigravity, and updated the intro, reading, and choosing sections.
 - 2026-10-04 - Extended from thirteen to fourteen columns with Whiteboard, the MIT agent-drawing review canvas, inserted in sorted position with every cell traced to the new note.
 - 2026-10-05 - Corrected six Cursor cells against the vendor's live docs and pricing page: AGENTS.md is supported alongside Cursor's own rules, cloud agents, automations, the iOS app, and parallel cloud agents are shipped, and local models are not documented (the old Ollama claim traced to nothing current); also fixed the death-records count, which still said thirteen after Delta and Whiteboard brought the matrix to fourteen columns, extended the neither-editor-nor-host reading to Whiteboard, and corrected the sovereignty pair's column list, which missed Roo Code's as-they-were cells and Whiteboard's harness-plus-local pair.
+- 2026-10-06 - Extended from fourteen to fifteen columns with Visual Studio 2026, Microsoft's Windows IDE whose Copilot stack (agent mode with MCP, cloud agents since 18.1, the 18.10 BYOK preview) ships inside the incumbent, inserted in sorted position between Trae and Void; updated the intro, reading, and choosing sections.
 
 ## See also
 

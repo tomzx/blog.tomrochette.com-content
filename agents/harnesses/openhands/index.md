@@ -24,7 +24,7 @@ Today's component map per the docs is Agent Canvas (the open-source browser clie
 ## Status
 
 **Active and venture-funded.**
-Latest tagged release v1.24.0 shipped September 25, 2026, and the default branch was pushed within a day of verification.
+Latest tagged release v1.25.0 shipped October 6, 2026, adding Model Router settings with a run-at-conversation-start toggle, bulk provider-model addition as LLM profiles, per-profile personas, Canvas App updates, automation templates with native git integrations, and optional voice dictation; the default branch was pushed within a day of verification.
 All Hands AI raised $18.8M in a Series A led by Madrona on November 18, 2025, alongside a collaboration with AMD on locally-run agents.
 
 ## Strengths
@@ -65,6 +65,7 @@ Not for someone who wants a zero-migration, opinionated coding workflow today, b
 - 2026-09-22 - Recorded the v1.22.0 release (September 22) and refreshed repository scale.
 - 2026-09-24 - Recorded the v1.23.0 release (September 23) and refreshed repository scale.
 - 2026-09-26 - Recorded the v1.24.0 release (September 25) and refreshed repository scale.
+- 2026-10-06 - Recorded the v1.25.0 release (October 6), which added Model Router settings with a run-at-conversation-start toggle, bulk LLM profile creation, per-profile personas, Canvas App updates, automation templates with native git integrations, and optional voice dictation.
 
 ## See also
 
@@ -75,7 +76,7 @@ Not for someone who wants a zero-migration, opinionated coding workflow today, b
 
 ## References
 
-- https://github.com/OpenHands/OpenHands - repository scale, license, release cadence as of 2026-10-05
+- https://github.com/OpenHands/OpenHands - repository scale, license, release cadence as of 2026-10-06
 - https://docs.openhands.dev/overview/introduction - component map, Agent Canvas over Agent Server, V0 deprecation
 - https://www.openhands.dev/pricing - Free OSS, Individual free tier, Enterprise custom tiers
 - https://www.openhands.dev/blog/weve-just-raised-18-8m-to-build-the-open-standard-for-autonomous-software-development - Series A details, November 18, 2025

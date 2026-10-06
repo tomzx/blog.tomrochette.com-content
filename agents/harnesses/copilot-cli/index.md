@@ -29,8 +29,8 @@ Distribution is npm (`@github/copilot`), a Homebrew cask, WinGet, an install scr
 
 **Active and enormous in distribution.**
 Public preview launched September 25, 2025, and general availability followed on February 25, 2026.
-The npm package's latest build is 1.0.91 (published October 1, 2026), and it did 7,614,102 downloads in the last month (the API window covering September 4 to October 3, as of 2026-10-05), among the largest npm install bases of any harness in this section.
-The `github/copilot-cli` repository shows 11,237 stars as of 2026-10-05 (GitHub API), and it is a distribution and issues repository, with no open-source license.
+The npm package's latest build is 1.0.92 (published October 5, 2026), and it did 7,045,866 downloads in the last month (the API window covering September 5 to October 4, as of 2026-10-06), among the largest npm install bases of any harness in this section.
+The `github/copilot-cli` repository shows 11,243 stars as of 2026-10-06 (GitHub API), and it is a distribution and issues repository, with no open-source license.
 Community discussion is thinner than the install count would suggest: the public-preview launch thread drew 24 points, and the general-availability thread 7, which I read as distribution through Copilot seats rather than terminal-community gravity.
 
 ## Strengths
@@ -88,9 +88,9 @@ Not for teams with open-client mandates, and not for untrusted repositories unti
 - https://docs.github.com/en/copilot/concepts/agents/copilot-cli/about-copilot-cli - modes, sandboxing, MCP, hooks, skills, memory, BYOK providers, and security guidance (fetched 2026-10-05)
 - https://docs.github.com/en/copilot/how-tos/set-up/install-copilot-cli - install paths, subscription prerequisite, and token authentication (fetched 2026-10-05)
 - https://github.com/features/copilot/plans - plan prices, AI Credits structure, model roster, and third-party delegation gating, as of 2026-10-05
-- https://github.com/github/copilot-cli - distribution repository, 11,237 stars, no open-source license, as of 2026-10-05 (verified via the GitHub API)
-- https://registry.npmjs.org/@github%2Fcopilot - latest build 1.0.91 published 2026-10-01, package created 2025-09-25 (verified via the registry API)
-- https://api.npmjs.org/downloads/point/last-month/@github/copilot - 7,614,102 downloads, window September 4 to October 3, as of 2026-10-05
+- https://github.com/github/copilot-cli - distribution repository, 11,243 stars, no open-source license, as of 2026-10-06 (verified via the GitHub API)
+- https://registry.npmjs.org/@github%2Fcopilot - latest build 1.0.92 published 2026-10-05, package created 2025-09-25 (verified via the registry API)
+- https://api.npmjs.org/downloads/point/last-month/@github/copilot - 7,045,866 downloads, window September 5 to October 4, as of 2026-10-06
 - https://hn.algolia.com/api/v1/items/47183940 - the February 27, 2026 malware-execution thread, 62 points (verified via the Algolia API)
 - https://hn.algolia.com/api/v1/items/45810658 - the November 2025 Docker-sandboxing guide thread, 59 points
 - https://hn.algolia.com/api/v1/items/45377734 - the September 25, 2025 public-preview launch thread, 24 points

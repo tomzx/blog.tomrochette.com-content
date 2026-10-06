@@ -1,7 +1,7 @@
 ---
 title: Graphite Diamond
 created: 2026-08-30
-updated: 2026-09-20
+updated: 2026-10-06
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, code-review, ai-review, developer-tools]
 readability: 3
@@ -25,7 +25,7 @@ The page still carries legacy copy ("Diamond analyzes every pull request in seco
 Graphite raised a $52M Series B led by Accel in March 2025, with the Anthology Fund (Anthropic and Menlo Ventures), Shopify Ventures, Figma Ventures, a16z, and The General Partnership, bringing it to roughly $81M raised and a $290M valuation.
 Cursor announced the acquisition on December 19, 2025; terms were undisclosed, and Axios reported a price "way over" the $290M last valuation.
 Cursor itself joined SpaceX on August 14, 2026 per this section's Cursor note, so Graphite now sits two acquisitions deep.
-Hacker News reaction to the deal was large and skeptical: 276 points and 253 comments (46327206), including direct questions about whether the product would be maintained, versus 5 points for the original Diamond launch (43402826).
+Hacker News reaction to the deal was large and skeptical: 276 points and 251 comments (46327206), including direct questions about whether the product would be maintained, versus 5 points for the original Diamond launch (43402826).
 
 ## Strengths
 
@@ -87,6 +87,6 @@ My disagreeable take: independent reviewers were always borrowing the code host'
 - https://graphite.com/features/ai-reviews - the current AI Reviews surface with legacy Diamond copy
 - https://graphite.com/pricing - Hobby free, Starter $20, Team $40, Enterprise custom, as of 2026-10-02
 - https://graphite.com/docs - documentation hub
-- https://hn.algolia.com/api/v1/items/46327206 - acquisition thread, 276 points, 253 comments, December 19, 2025
+- https://hn.algolia.com/api/v1/items/46327206 - acquisition thread, 276 points, 251 comments as of 2026-10-06, December 19, 2025
 - https://hn.algolia.com/api/v1/items/46327325 - second acquisition thread, 167 points, December 19, 2025
 - https://hn.algolia.com/api/v1/items/43402826 - the original $52M and Diamond launch, 5 points, March 18, 2025

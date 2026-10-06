@@ -1,7 +1,7 @@
 ---
 title: ChatGPT plans
 created: 2026-09-26
-updated: 2026-10-04
+updated: 2026-10-06
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, model-access, subscriptions, codex, openai]
 readability: 3
@@ -22,7 +22,7 @@ The GPT-6 lineup (Astra, Sol, Luna) carries the plans, with GPT-6.1 Sol added to
 
 ## Status
 
-Active, with the developer pricing page fetched and current as of 2026-10-04, and the widest subscription reach of any vendor here.
+Active, with the developer pricing page fetched and current as of 2026-10-06, and the widest subscription reach of any vendor here.
 The 2026 lineup changed materially: Business replaced the Team plan on April 2, the same day Codex billing moved from per-message to token-based credits, and the Go tier appeared below Plus.
 The current GPT-6 lineup (Astra, Sol, Luna) carries the plans, with Sol and Luna launched 2026-09-22 per the [Model Selection guide](../../model-selection-for-coding-tasks/index.md) and already listed as included on Plus and Pro in the fetched plan documentation.
 By 2026-10-02 the Pro plan lists three price points ($100, $200, $500) and the page states Pro plans currently have no five-hour limit, with the published message-range tables now covering Plus and Standard Business only.
@@ -47,7 +47,7 @@ By 2026-10-02 the Pro plan lists three price points ($100, $200, $500) and the p
 Free: $0, Codex for quick tasks with limited usage.
 Go: $8/month, lightweight coding.
 Plus: $20/month, a few focused sessions a week, GPT-6 Sol and Luna included.
-Pro: $100/month for 5x Plus usage, $200/month for 20x, and a $500/month tier with GPT-6 Astra Ultrafast access (all three listed as of 2026-10-02).
+Pro: $100/month for 5x Plus usage, $200/month for 20x, and a $500/month tier with GPT-6 Astra Ultrafast access (all three re-verified as of 2026-10-06).
 Business: $25/user/month ($20 annual, minimum 2 seats), Codex via workspace credits.
 Enterprise: custom, flexible credit pricing.
 Credits purchase past included limits; API-key Codex usage bills at API rates outside any plan.

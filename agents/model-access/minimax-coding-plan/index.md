@@ -41,7 +41,7 @@ The June 2 apology and compensation package followed developer complaints after 
 
 ## Pricing
 
-As of 2026-10-02: Plus $22/month, Max $55/month, Ultra $132/month, all with 5-hour rolling and weekly windows.
+As of 2026-10-06: Plus $22/month, Max $55/month, Ultra $132/month, all with 5-hour rolling and weekly windows.
 Typical peak-hour capacity is 3-4 (Plus), 4-5 (Max), and 6-7 (Ultra) agents.
 Credits cost $5, $25, or $100 at 1,000 per dollar, valid 365 days, and a 10% referral discount applies at checkout.
 
@@ -79,7 +79,7 @@ I will claim something arguable: until the quota denominator and per-call billin
 
 ## References
 
-- https://platform.minimax.io/docs/guides/pricing-token-plan - current tiers $22/$55/$132, quota windows, agent counts, Credits packages, as of 2026-09-26.
+- https://platform.minimax.io/docs/guides/pricing-token-plan - current tiers $22/$55/$132, quota windows, agent counts, Credits packages, as of 2026-10-06.
 - https://platform.minimax.io/docs/token-plan/faq - Subscription Key mechanics, no-refund policy, production guidance, peak-hour rate limiting.
 - https://github.com/MiniMax-AI/MiniMax-M2.7/issues/47 - critical billing-bug report: passive quota drain, unverifiable cache discount, $20 Plus in June 2026.
 - https://news.aibase.com/news/28699 - the June 2, 2026 apology, compensation package, and Coding Plan to Token Plan switch.

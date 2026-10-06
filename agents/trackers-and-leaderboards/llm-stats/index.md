@@ -1,7 +1,7 @@
 ---
 title: LLM Stats
 created: 2026-09-24
-updated: 2026-09-29
+updated: 2026-10-06
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, trackers-and-leaderboards, llm, benchmarks, api]
 readability: 3
@@ -79,7 +79,7 @@ My disagreeable claim: the MCP server is the most consequential feature introduc
 
 ## References
 
-- https://llm-stats.com/ - homepage: 400 canonical models, composite score, task boards, newsletter (fetched 200, 2026-10-02)
+- https://llm-stats.com/ - homepage: 400 canonical models, composite score, task boards, newsletter (re-fetched 200, 2026-10-06, still 400 canonical models, leaderboard showing 1-15 of 400)
 - https://llm-stats.com/methodology/llm-stats-score - score v3.1 construction, evidence policy, limitations, 2026-09-02 modification date (fetched 200, 2026-09-24)
 - https://llm-stats.com/developer - API and MCP endpoints, plan tiers and quotas, "updated within hours" claim (fetched 200, 2026-09-24)
 - https://llm-stats.com/about-us - founder Jonathan Chavez and the zeroeval relationship (fetched 200, 2026-09-24)

@@ -30,7 +30,7 @@ Each column links to the full research note; every cell below traces to a source
 | PRD ingestion | ✗ manual task creation | ✗ manual task creation | ~ opt-in PRD artifact inside the planner conversation | ✓ `parse-prd` pipeline |
 | Agent integrations | Claude Code, Codex, Gemini CLI, Kiro, Cursor, MCP | `bd init` for Codex, Claude, Factory, Cursor, plus AGENTS.md and MCP | runners Claude Code, Codex, OpenCode built in, plugins beyond; planner can be a coding agent or one of 25 API providers | MCP server and CLI, documented for Cursor, Claude Code, Windsurf, VS Code, Q CLI |
 | Pricing | free | free | free | CLI free, Hamster $40 per creator per month |
-| Current status | active, about 6.9k stars | active, about 27.7k stars, 1,358 open issues, v1.3.1 stable 2026-09-30 | active, 185 stars, v0.7.0 (2026-10-05) | repo quiet since April 2026, product alive at Hamster |
+| Current status | active, about 6.9k stars | active, about 27.7k stars, 1,373 open issues, v1.3.2-rc.1 prerelease 2026-10-05 after v1.3.1 stable 2026-09-30 | active, 184 stars, v0.7.0 (2026-10-05) | repo quiet since April 2026, product alive at Hamster |
 
 ## Reading the matrix
 
@@ -38,7 +38,7 @@ Each column links to the full research note; every cell below traces to a source
 Task Master's file storage sits between the two but its concurrency story is unverified, which is the cell I would resolve first before adopting it for shared queues.
 
 **Ordewell is the category's planner layer: where the other three track work, it decomposes a goal into an editable plan with per-task model assignment and refuses to take the agent's word for done, completing tasks on markers instead.**
-Its 185 stars and v0.7.x release line make it the least proven column, and its note records the launch thread's AI-written-replies episode as a transparency caution.
+Its 184 stars and v0.7.x release line make it the least proven column, and its note records the launch thread's AI-written-replies episode as a transparency caution.
 
 **PRD ingestion is the pipeline feature, and its provenance is the warning: the only tool with a full PRD pipeline is the one whose license stopped being OSI open source and whose repo went quiet as the method moved into a paid product, while Ordewell treats the PRD as an optional conversational artifact instead.**
 
@@ -63,6 +63,7 @@ Its 185 stars and v0.7.x release line make it the least proven column, and its n
 - 2026-10-02 - Refreshed the beads status cell (v1.3.1 stable of 2026-09-30, about 27.6k stars, 1,266 open issues) and the Ordewell status cell (183 stars, v0.5.6 of 2026-09-30), plus the matching prose figure.
 - 2026-10-03 - Refreshed the beads status cell (1,299 open issues) and the Ordewell status cell (v0.6.1 of 2026-10-02), plus the matching prose release-line figure.
 - 2026-10-06 - Refreshed the beads status cell (about 27.7k stars, 1,358 open issues) and the Ordewell status cell (185 stars, v0.7.0 of 2026-10-05), plus the matching prose release-line figure; all other cells re-verified unchanged.
+- 2026-10-06 - Refreshed the beads status cell (1,373 open issues, v1.3.2-rc.1 prerelease of 2026-10-05) and the Ordewell status cell (184 stars), plus the matching prose figure; all other cells re-verified unchanged.
 
 ## See also
 
@@ -78,6 +79,6 @@ Its 185 stars and v0.7.x release line make it the least proven column, and its n
 - https://github.com/eyaltoledano/claude-task-master - MCP tools, parse-prd, dependency moves for the Task Master column
 - https://tryhamster.com/pricing - the commercial tier behind the Task Master method
 - https://github.com/ordewell/ordewell - plan artifact, runners, marker verification for the Ordewell column
-- https://api.github.com/repos/ordewell/ordewell - stars, dates, Apache-2.0 as of 2026-09-21
+- https://api.github.com/repos/ordewell/ordewell - stars, dates, Apache-2.0 as of 2026-10-06
 - https://ordewell.ai - surfaces and the plan-execute-verify loop for the Ordewell column
 - https://news.ycombinator.com/item?id=49712276 - the launch thread grounding the Ordewell caution cell

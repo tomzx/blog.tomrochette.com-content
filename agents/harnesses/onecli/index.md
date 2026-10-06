@@ -51,7 +51,7 @@ Scale is $499/month for 10 users and 20 agents BYOC, or $1,999/month with hosted
 Extra seats are $49/user/month with your own key or $199 with hosted models.
 Enterprise custom, and platform self-hosting (your cloud, VPC, or on-prem) is quoted there.
 The Apache-2.0 core remains self-hostable from source without a commercial license per the README.
-All as of 2026-09-26, re-verified unchanged against the live pricing page on 2026-10-04.
+All as of 2026-09-26, re-verified unchanged against the live pricing page on 2026-10-06.
 
 ## Price history
 
@@ -92,7 +92,7 @@ I think the prompt-based permission systems across every other harness in this s
 - https://github.com/onecli/onecli - repository state, license, stars, and v2 pivot story as of 2026-10-04
 - https://github.com/onecli/onecli/releases - release cadence through v2.7.0 on October 3, 2026
 - https://onecli.sh - product positioning, gateway model, and free tier as of 2026-09-22
-- https://onecli.sh/pricing - tiers, BYOC versus hosted-model pricing, and seat limits as of 2026-09-22
+- https://onecli.sh/pricing - tiers, BYOC versus hosted-model pricing, and seat limits as of 2026-10-06 (re-verified unchanged)
 - https://onecli.sh/docs - architecture: sandbox, gateway, policy, self-hosting
 - https://www.ycombinator.com/companies/onecli - YC S26 batch, founders, and launch description
 - https://news.ycombinator.com/item?id=49363710 - 88-point Launch HN, August 19, 2026

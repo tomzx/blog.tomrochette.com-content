@@ -24,7 +24,7 @@ Since 2026-10-05 the project has been organized around v1.3: an adapter-first ba
 
 ## Status
 
-Five days old and loud, now three weeks old and shipping: the launch Show HN thread (2026-09-28) reached 575 points as of 2026-10-06.
+Eight days old and shipping: the launch Show HN thread (2026-09-28) reached 575 points as of 2026-10-06.
 The repository was created 2026-09-28 and pushed 2026-10-05, with about 1,400 stars and 68 forks; the v1.2 checkpoints on Hugging Face now live under a jeff-legacy org that the README's original links redirect to, with about 2,100 downloads registered for the 0.8B as of 2026-10-06.
 Latency is the headline: about 22 ms per decision on an RTX PRO 6000, 28 ms on an M4 Max through MLX, 463 ms on a 32-thread CPU, against Jev's published 114-212 ms per API call in its Doom runs (not measured on the same hardware); the v1.3 base and adapters measure 26.6 to 31.8 ms per decision on the same idle GPU as v1.2 (October 5 table).
 The self-run benchmarks cover 4,599 questions from five public suites (BBH, Financial PhraseBank, JudgeBench, RAGTruth, WinoGrande) plus JevBench's public hard tier scored separately: Jeff-2B posts 83.1 overall against Jev's published 83.0 and AutoJev-27B's 84.9, winning Financial PhraseBank (96.3 versus 77.0) and RAGTruth (88.9 versus 77.3) while staying well below Jev on BBH (68.0 versus 94.3), JudgeBench, WinoGrande, and the JevBench hard tier (53.3 versus 73.3).
@@ -68,6 +68,7 @@ The disagreeable claim I will defend: matching Jev's published overall while con
 
 - 2026-09-29 - Created from the entrant scan after the 2026-09-28 Show HN thread cleared the bar (471 points, the frankest benchmark table in the wave).
 - 2026-10-06 - Recorded the v1.3 restructure (adapter-first base, fifteen adapters with GGUF exports, Jeff-Code's paired-equal-quality-at-47-percent-less-time claim, the v1.2 checkpoints' move to a jeff-legacy Hugging Face org) and refreshed traction (about 1,400 stars, 575-point thread, pushed 2026-10-05).
+- 2026-10-06 - Corrected the age claim (created 2026-09-28, eight days old, not three weeks).
 
 ## See also
 

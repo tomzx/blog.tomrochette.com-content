@@ -1,7 +1,7 @@
 ---
 title: claude-mem
 created: 2026-08-30
-updated: 2026-10-05
+updated: 2026-10-06
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, session-memory, compression, open-source]
 readability: 3
@@ -24,11 +24,12 @@ Made by Alex Newman (thedotmack), a solo author in the Vercel OSS Program, with 
 
 ## Status
 
-Very large and fast: about 96.3k stars, 8.5k forks, and 105 open issues and pull requests as of 2026-10-05, with 68,891 npm downloads in the last month (2026-09-04 to 2026-10-03).
-Created 2025-08-31, pushed 2026-10-05, latest tagged release v13.31.0 on 2026-10-05 with npm in sync at 13.31.0 as of 2026-10-05.
+Very large and fast: about 96.7k stars, 8.5k forks, and 87 open issues and pull requests as of 2026-10-06, with 69,573 npm downloads in the last month (2026-09-05 to 2026-10-04).
+Created 2025-08-31, pushed 2026-10-06, latest tagged release v13.32.0 on 2026-10-06 with npm in sync at 13.32.0 as of 2026-10-06.
 The README now brands the project Grok Mem (the package is still `claude-mem`), and v13.24.0 shipped it as two independent Cursor and Grok Bot marketplace plugins alongside the Claude Code install path.
 **The v13.x version line tells you the churn rate: near-daily releases with major-version jumps, which is velocity and breakage risk in the same number.**
 v13.30.0 (2026-10-04) reworked hook delivery so hooks spool each event to disk and return without waiting on the worker, made observer prompts provider-cache-friendly, and dropped the separate per-prompt observer call, and v13.31.0 (2026-10-05) cut SessionStart's newest-memories query from seconds to milliseconds with new indexes.
+v13.31.1 (2026-10-06) fixed cloud sync stalling behind Supabase's firewall (uploads are now compressed before forwarding, and HTML blocks are retried instead of read as bad tokens), and v13.32.0 (2026-10-06) restored the File Read Gate on by default: full-file Reads of observed code files are blocked and served the observation timeline plus outline tools instead, with partial reads exempt so edits never deadlock.
 
 ## Strengths
 
@@ -47,7 +48,8 @@ v13.30.0 (2026-10-04) reworked hook delivery so hooks spool each event to disk a
 ## Pricing
 
 The engine is free and Apache-2.0, fully local.
-CMEM Cloud is $20/month for sync and one private MCP link (a 30-day free trial is advertised); a Team tier lists $333/seat/month for 3-50 seats.
+The commercial arm restructured on 2026-10-06: CMEM Pro is $30/month for hosted observation and cloud sync (private MCP link, memory generation on the hosted observer), Heavy is $70/month with more included usage, and CMEM Max is $100/month with the largest allowance plus billed overages, each with a usage allowance and automatic upgrade settings.
+The former CMEM Cloud $20/month plan and the $333/seat/month Team tier are gone; the team product (TeamBrain) is a design-partner pilot whose price is set on a fit call, with no public price.
 The hidden cost is compression: those LLM calls draw on your own model subscription or API budget, and no official per-session figure is published.
 
 ## Price history
@@ -55,6 +57,7 @@ The hidden cost is compression: those LLM calls draw on your own model subscript
 | Date | Plan | Change | Source |
 | ---- | ---- | ------ | ------ |
 | 2026-09 | CMEM Cloud | Baseline: engine free (Apache-2.0); CMEM Cloud $20/mo for sync and one private MCP link, Team $333/seat/mo for 3-50 seats. | [claude-mem.ai](https://claude-mem.ai) |
+| 2026-10-06 | CMEM Pro, Heavy, CMEM Max | CMEM Cloud $20/mo and Team $333/seat/mo replaced: CMEM Pro $30/mo, Heavy $70/mo, CMEM Max $100/mo (allowance tiers with billed overages); TeamBrain pilot has no public price. | [cmem.ai/pricing](https://cmem.ai/pricing) |
 
 ## Compared to
 
@@ -78,6 +81,8 @@ Not for privacy-strict environments, anyone unwilling to run a local worker serv
 - 2026-10-03 - Recorded GitHub release v13.29.0 (2026-10-03) with npm lagging at 13.28.0 at fetch time, the first channel drift since 2026-09-21; refreshed stars to about 95.2k, 109 open issues and PRs, and 68,674 trailing-month npm downloads.
 - 2026-10-04 - The npm-versus-GitHub channel drift closed: npm published 13.29.0, matching the v13.29.0 GitHub tag; refreshed stars to about 95.6k, 8.5k forks, and 128 open issues and PRs.
 - 2026-10-05 - Recorded the v13.30.0, v13.30.1, and v13.31.0 releases (spooled hooks, cacheable observer prompts, indexed SessionStart) with npm in sync at 13.31.0; refreshed stars to about 96.3k, 105 open issues and PRs, and 68,891 trailing-month downloads.
+- 2026-10-06 - Recorded the v13.31.1 and v13.32.0 releases (the cloud-sync firewall fix, and the File Read Gate restored on by default) with npm in sync at 13.32.0; refreshed stars to about 96.7k, 87 open issues and PRs, and 69,573 trailing-month downloads.
+- 2026-10-06 - The commercial arm restructured its pricing: CMEM Cloud $20/mo and Team $333/seat/mo replaced by CMEM Pro $30/mo, Heavy $70/mo, and CMEM Max $100/mo, with TeamBrain a design-partner pilot without a public price (Price history row); the pricing reference repointed to cmem.ai, which claude-mem.ai now redirects to.
 
 ## See also
 
@@ -92,6 +97,7 @@ Not for privacy-strict environments, anyone unwilling to run a local worker serv
 - https://docs.claude-mem.ai/ - feature set, pipeline, supported IDEs
 - https://docs.claude-mem.ai/architecture/overview - hook architecture and the compression flow behind the token-cost caution
 - https://docs.claude-mem.ai/cloud-sync - the documented privacy trade-off of the cloud tier
-- https://claude-mem.ai - pricing tiers and adoption stats
+- https://claude-mem.ai - pricing tiers and adoption stats (now redirects to cmem.ai)
+- https://cmem.ai/pricing - the restructured CMEM ladder ($30/$70/$100) and the TeamBrain pilot terms, as of 2026-10-06
 - https://api.npmjs.org/downloads/point/last-month/claude-mem - the 68,891 monthly downloads (2026-09-04 to 2026-10-03) as of 2026-10-05
 - https://news.ycombinator.com/item?id=47422611 - the critical take from a competing memory author on the capture-everything approach

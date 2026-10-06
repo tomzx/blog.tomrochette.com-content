@@ -17,7 +17,7 @@ Governance above the harness: policy, permissions, approvals, budgets, trust, se
 - [Jamf AI Governance](jamf-ai-governance/index.md) - the Mac-native capability that turns AI usage policy into enforced vendor configurations for Claude Code, Codex, and their neighbors through Apple device management.
 - [Microsoft Agent Governance Toolkit](microsoft-agent-governance-toolkit/index.md) - the MIT multi-language toolkit for deterministic policy, identity, sandboxing, SRE, and compliance, with a critical authentication writeup to read first.
 - [Okto Pulse](okto-pulse/index.md) - the Elastic-2.0 local-first SDLC workbench that blocks coding-agent status transitions until spec coverage and delivery evidence are met.
-- [Paperclip](paperclip/index.md) - the MIT self-hosted control plane for a company of agents, heartbeats, budgets, and governance, about 97.3k stars in seven months.
+- [Paperclip](paperclip/index.md) - the MIT self-hosted control plane for a company of agents, heartbeats, budgets, and governance, about 97.8k stars in seven months.
 - [SettleBridge](settlebridge/index.md) - the trust and policy gateway for agent-to-agent settlement, with escrow, reputation, and Merkle audit trails, and unresolved license metadata.
 - [SIDJUA](sidjua/index.md) - the governance-first orchestrator with a five-stage pre-action pipeline, frozen since April 2026 with its announced reopening date missed.
 - [TinyAGI](tinyagi/index.md) - the one-person-company orchestrator that stalled in March 2026, kept as the category's first consolidation record.

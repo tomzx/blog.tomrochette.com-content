@@ -1,7 +1,7 @@
 ---
 title: The Perfect Orchestrator
 created: 2026-09-27
-updated: 2026-09-27
+updated: 2026-10-06
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, llm=glm-5.3-flash, orchestration, tmux, verification, claude-code]
 readability: 3
@@ -26,6 +26,7 @@ The README includes a comparison table against SDK and headless approaches, a se
 
 Quiet and tiny: about 1 star and 1 fork as of 2026-09-27, created 2026-06-05, with the last commit on 2026-06-30 and a latest release of v0.2.0 (2026-06-06).
 It is a single-author project with no community footprint on Hacker News or Reddit during this run; the README notes the recorded fleet run and a website that it says were themselves built and QA'd by the tool's own fleet.
+The Awesome Multi-Agent Orchestrators directory removed it on 2026-10-05 (PR 64, among seven low-star players), which a 1-star repository will not feel, but which records the curator's verdict.
 **A one-star repository with a three-month-old last commit is best read as a well-documented pattern to copy, not a dependency to adopt.**
 
 ## Strengths
@@ -63,6 +64,7 @@ Not for anyone who needs a maintained tool, multiple harnesses, worktree isolati
 ## Changes
 
 - 2026-09-27 - Created.
+- 2026-10-06 - Recorded the Awesome Multi-Agent Orchestrators directory's removal of the entry on 2026-10-05 (PR 64, among seven low-star players) as a second status signal.
 
 ## See also
 

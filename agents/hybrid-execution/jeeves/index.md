@@ -56,12 +56,13 @@ The cost is a CUDA GPU (or a large Mac) and the patience to wait out the thinkin
 ## Bottom line
 
 **Recommended for researchers of the decision contract who want to test whether brief reasoning generalizes, and for PostHog-scale teams with GPUs to spare.**
-Not as a production dependency today: three weeks old, one company behind it, and no number a second party has confirmed.
+Not as a production dependency today: seven days old, one company behind it, and no number a second party has confirmed.
 The disagreeable claim I will defend: if brief reasoning generalizes across the wave, the single-pass architecture stops being the point and the contract becomes any calibrated classifier with a thinking budget, which is bad news for everyone selling speed as the moat.
 
 ## Changes
 
 - 2026-10-06 - Created from the entrant scan after the 2026-09-29 Show HN thread cleared the bar (242 points, PostHog standing, full training artifacts shipped).
+- 2026-10-06 - Corrected the bottom-line age claim (created 2026-09-29, seven days old, not three weeks).
 
 ## See also
 

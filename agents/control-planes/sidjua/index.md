@@ -1,7 +1,7 @@
 ---
 title: SIDJUA
 created: 2026-09-27
-updated: 2026-10-02
+updated: 2026-10-06
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, llm=glm-5.3-flash, agent-governance, pre-action-enforcement, budgets, self-hosted, stall-record]
 readability: 3
@@ -25,10 +25,11 @@ It is dual-licensed AGPL-3.0 plus a commercial license, with an enterprise tier 
 ## Status
 
 Dormant, with the stated restart date missed.
-The repository was created 2026-03-02 and sits at 26 stars, 2 forks, and 4 open issues as of 2026-09-27, with the last push on 2026-04-21 and the last release v1.1.1 on 2026-04-17.
-The website announces a development freeze and says public downloads are "scheduled to reopen in July 2026", but it is now early October 2026 with no source activity for over five months and the freeze notice still showing the same date (re-checked 2026-10-02).
+The repository was created 2026-03-02 and sits at 26 stars, 2 forks, and 4 open issues as of 2026-10-06, with the last push on 2026-04-21 and the last release v1.1.1 on 2026-04-17.
+The website announces a development freeze and says public downloads are "scheduled to reopen in July 2026", but it is now early October 2026 with no source activity for over five months and the freeze notice still showing the same date (re-checked 2026-10-06).
 **This is the category's second stall record after TinyAGI, and the pattern is the same: a compelling governance pitch and a young codebase that ran out of maintainer momentum.**
 The owner is a single GitHub user account, not an organization, and the site's "we move fast" framing sits awkwardly next to five months of silence.
+The Awesome Multi-Agent Orchestrators directory removed its entry on 2026-10-05 (PR 64, citing low-star directory players), the second independent signal after the missed restart date.
 
 ## Strengths
 
@@ -64,6 +65,7 @@ No dollar prices are published, so there is nothing to track yet.
 
 - 2026-09-27 - Created.
 - 2026-10-02 - Added the missing llm=glm-5.3-flash tag from this maintenance run; the freeze and the missed reopen date re-verified unchanged on the live site.
+- 2026-10-06 - Recorded the Awesome Multi-Agent Orchestrators directory's removal of the entry on 2026-10-05 (PR 64, citing low-star directory players) as a second stall signal after the missed restart date.
 
 ## See also
 
@@ -76,7 +78,7 @@ No dollar prices are published, so there is nothing to track yet.
 ## References
 
 - https://github.com/GoetzKohlberg/sidjua - README: five-stage pipeline, divisions and tiers, audit WAL, licensing, roadmap
-- https://api.github.com/repos/GoetzKohlberg/sidjua - stars, forks, issues, last push 2026-04-21 as of 2026-10-02
+- https://api.github.com/repos/GoetzKohlberg/sidjua - stars, forks, issues, last push 2026-04-21 as of 2026-10-06
 - https://www.sidjua.com/ - homepage: development freeze notice, reopen-in-July claim, self-reported audits
 - https://sidjua.com/docs - the same freeze and release-status surface
 - https://api.github.com/repos/GoetzKohlberg/sidjua/releases - v1.1.1, 2026-04-17, the final release

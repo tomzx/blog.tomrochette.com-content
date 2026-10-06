@@ -1,7 +1,7 @@
 ---
 title: agents-observe
 created: 2026-09-16
-updated: 2026-09-27
+updated: 2026-10-06
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, session-analytics, observability, claude-code]
 readability: 3
@@ -23,7 +23,7 @@ Made by simple10, an independent developer, under MIT.
 
 ## Status
 
-Young and active: 688 stars, 69 forks, created 2026-03-26, pushed 2026-09-04, latest release v0.9.12 on 2026-07-22 as of 2026-10-02.
+Young and active: 690 stars, 70 forks, created 2026-03-26, pushed 2026-09-04, latest release v0.9.12 on 2026-07-22 as of 2026-10-06.
 Launched on Hacker News on 2026-04-01 with 77 points.
 **A single-maintainer project that found a real gap (live multi-agent visibility) and a real audience, but it is pre-1.0 with months between releases.**
 

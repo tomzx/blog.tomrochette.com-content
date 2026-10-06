@@ -1,7 +1,7 @@
 ---
 title: File-based agent memory
 created: 2026-08-24
-updated: 2026-09-13
+updated: 2026-10-06
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, agent-memory, context-engineering]
 readability: 3
@@ -21,7 +21,7 @@ Claude Code reads a CLAUDE.md hierarchy (managed, user, project, local) plus pat
 AGENTS.md is the cross-tool standard, adopted by Codex, Cursor, Amp, Jules, Gemini CLI (via config), opencode, Zed, Junie, and the GitHub Copilot coding agent, and now stewarded by the Agentic AI Foundation under the Linux Foundation.
 Cursor supports both `.cursor/rules` (frontmattered `.mdc` files) and plain AGENTS.md, including nested files per directory.
 **Interop is by bridge, not standard: Claude Code reads CLAUDE.md and not AGENTS.md, so teams symlink or `@import` one into the other, and `/init` ingests rivals' rule files.**
-Products are forming around the convention, notably memU (14.5k stars as of 2026-10-02), which stores memory as a wiki of markdown files shared across Codex, Claude Code, and Cursor.
+Products are forming around the convention, notably [memU](../memu/index.md) (14.5k stars as of 2026-10-06), which stores memory as a wiki of markdown files the agent distills itself, shared across Codex, Claude Code, and Cursor.
 
 ## Status
 
@@ -53,6 +53,7 @@ Products layered on it vary: memU is Apache 2.0 with a hosted option, and harnes
 - [Mem0](../mem0/index.md): choose it over files when memory must span applications and thousands of users.
 - [Zep](../zep/index.md): choose it when facts change over time and require audit; files have no validity windows.
 - [Letta](../letta/index.md): its memory blocks are file-based ideas with an editing discipline bolted on, a middle point worth studying.
+- Kevin Liao's essay ([Agents Don't Need Memory. They Need Documentation.](https://liao.gg/blog/agents-dont-need-memory), 2026-10-03): the public, sharper-tipped form of this note's thesis, every recall-based memory plugin is a RAG lottery over transcripts so agents need an agent-maintained documentation brain, shipped as [Operator Memory](https://github.com/aerovato/operator-memory), with the [373-point HN thread](https://news.ycombinator.com/item?id=49945933) as the best critical set on the position ("docs rot too", "the code is the documentation", "agents need both") that this note's pruning caution already answers.
 
 ## Bottom line
 
@@ -63,6 +64,8 @@ Reach for a memory service only for cross-user or cross-app memory; my disagreea
 
 - 2026-08-24 - Created as one of the Memory category's seed notes.
 - 2026-08-26 - Corrected the HN thread label to the Letta Code launch and replaced the trimming analogy with a grounded pruning sentence.
+- 2026-10-06 - Linked the new memU note in place of the plain-text memU mention and refreshed its star count (14.5k as of 2026-10-06); the AGENTS.md 60k adoption figure and the Claude Code auto-memory limits re-verified unchanged this run.
+- 2026-10-06 - Folded the liao.gg documentation-over-recall essay (373-point HN thread, grounded in aerovato/operator-memory) into Compared to and References as the public counterpart to this note's thesis.
 
 ## See also
 
@@ -79,5 +82,8 @@ Reach for a memory service only for cross-user or cross-app memory; my disagreea
 - https://agents.md - the standard, adoption count, and stewardship as of 2026-09-25
 - https://cursor.com/docs/rules - rules types, AGENTS.md support, path scoping
 - https://www.anthropic.com/engineering/claude-code-best-practices - guidance on keeping instruction files short enough to be obeyed
-- https://github.com/NevaMind-AI/memU - a markdown-wiki memory product with real traction (14.5k stars as of 2026-10-02)
+- https://github.com/NevaMind-AI/memU - a markdown-wiki memory product with real traction (14,499 stars as of 2026-10-06)
 - https://news.ycombinator.com/item?id=46294274 - the Letta Code launch thread, where hosted-memory practice meets file-first practitioners
+- https://liao.gg/blog/agents-dont-need-memory - the documentation-over-recall essay (2026-10-03, updated 2026-10-05) grounding the Compared-to entry; it 403s to curl (Cloudflare challenge) and fetched via the fetch tool this run
+- https://news.ycombinator.com/item?id=49945933 - the essay's 373-point HN thread, the critical engagement with the documentation-over-recall position
+- https://github.com/aerovato/operator-memory - the essay's grounded implementation, BSD-3-Clause, 354 stars as of 2026-10-06

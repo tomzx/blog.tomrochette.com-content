@@ -23,7 +23,7 @@ One-click connectors target Pi, OpenCode, Hermes, OpenClaw, Codex, Claude Code, 
 
 ## Status
 
-Active and young: 6,442 stars, 439 forks, 38 open issues, repo pushed 2026-10-06 (as of 2026-10-06).
+Active and young: 6,447 stars, 441 forks, 37 open issues, repo pushed 2026-10-06 (as of 2026-10-06).
 The Launch HN post on 2026-09-30 drew 194 points and 99 comments.
 The product pivoted: the same domain hosted "Magnitude: A coding agent that runs on open models" in June 2026 before the team turned the engine underneath it into the product.
 The founders told the launch thread that a hybrid inference cloud with per-token billing is planned, with the free engine underneath.
@@ -75,7 +75,7 @@ My disagreeable claim: on current evidence the 2x marketing is narrower than the
 
 ## References
 
-- https://api.github.com/repos/magnitudedev/magnitude - 6,442 stars, 439 forks, Rust, Apache-2.0, pushed 2026-10-06, homepage (200, fetched 2026-10-06).
+- https://api.github.com/repos/magnitudedev/magnitude - 6,447 stars, 441 forks, Rust, Apache-2.0, pushed 2026-10-06, homepage (fetched via the GitHub API, 2026-10-06).
 - https://magnitude.dev/ - positioning, benchmark table (Metal 92% faster decode, CUDA 19%), memory and connector claims, FAQ (200, fetched 2026-10-06).
 - https://hn.algolia.com/api/v1/items/49911995 - launch thread: founders, tuning time, benchmark methodology, critical speed measurements, planned per-token cloud (200, fetched 2026-10-06).
 - https://hn.algolia.com/api/v1/search?query=magnitude&tags=story&numericFilters=created_at_i%3E1758900000 - launch points and date, plus the June 2026 coding-agent pivot story (200, fetched 2026-10-06).

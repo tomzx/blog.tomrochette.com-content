@@ -1,7 +1,7 @@
 ---
 title: Windsurf
 created: 2026-08-23
-updated: 2026-10-02
+updated: 2026-10-06
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, surfaces, ai-editors, cognition, devin]
 readability: 3
@@ -48,7 +48,7 @@ On September 2, 2026, Bloomberg reported that Cognition is closing a round of ab
 
 **The classic Windsurf consumer plans are gone with the rebrand; Devin Desktop authenticates with a Devin account and meters usage as credits.**
 Enterprise relationships carry over through Cognition sales.
-The Devin pricing page, which 429ed automated fetches on 2026-09-16 and 404ed on 2026-09-18, now serves and exposes the Devin ladder: Free $0/month, Pro $20/month, Max $200/month, Team $80/month plus $40/month per full dev seat, and Enterprise by sales contact, as of 2026-10-02 (re-fetched, same ladder).
+The Devin pricing page, which 429ed automated fetches on 2026-09-16 and 404ed on 2026-09-18, now serves and exposes the Devin ladder: Free $0/month, Pro $20/month, Max $200/month, Team $80/month plus $40/month per full dev seat, and Enterprise by sales contact, as of 2026-10-06 (re-fetched, same ladder).
 
 ## Price history
 
@@ -91,7 +91,7 @@ Not for new adoption: picking a brand mid-retirement means betting on one compan
 - https://cognition.com/blog/windsurf - the July 14, 2025 acquisition agreement, ARR, and customer counts
 - https://cognition.com/blog/introducing-devin-desktop - the June 2, 2026 rebrand announcement
 - https://docs.devin.ai/desktop/getting-started - current product docs as Devin Desktop (package, harness, ACP, Cascade docs), now also the redirect target of docs.windsurf.com (308 through /windsurf/getting-started), as of 2026-09-27
-- https://devin.ai/pricing - the Devin tier prices re-observed on 2026-10-02, unchanged from the 2026-09-20 baseline; the page also advertises SWE-2 as the latest model
+- https://devin.ai/pricing - the Devin tier prices re-observed on 2026-10-06, unchanged from the 2026-09-20 baseline; the page also advertises SWE-2 as the latest model
 - https://theedgemalaysia.com/node/816527 - Bloomberg's report via The Edge Malaysia, the $1 billion round at a $47 billion valuation, September 2, 2026
 - https://news.ycombinator.com/item?id=44536988 - the July 2025 deal-collapse and CEO-to-Google thread
 - https://news.ycombinator.com/item?id=44673296 - the early-employee equity dispute thread

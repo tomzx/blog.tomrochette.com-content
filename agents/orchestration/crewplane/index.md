@@ -1,7 +1,7 @@
 ---
 title: Crewplane
 created: 2026-09-27
-updated: 2026-10-04
+updated: 2026-10-06
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, llm=glm-5.3-flash, orchestration, workflows, cli, markdown]
 readability: 3
@@ -24,7 +24,7 @@ Optional features include a tmux dashboard, Git-backed workspace isolation, revi
 
 ## Status
 
-Very early but shipping: about 41 stars and 6 forks as of 2026-10-04, created 2026-06-24, and active development through v0.3.5 on 2026-09-25 with default-branch commits through October 3.
+Very early but shipping: about 41 stars and 6 forks as of 2026-10-06, created 2026-06-24, and active development through v0.3.6 on 2026-10-05 (bug-fix and change-review example workflows, review loops resuming from completed phase checkpoints) with default-branch commits through October 5.
 The repository is Python, passes an OpenSSF Best Practices badge, and documents an install-to-inspect path that runs a mock invoker before any real provider call.
 **At roughly three months old and 41 stars, Crewplane is a cohort-of-one tool from a single vendor; its value depends on whether the Markdown-as-workflow idea outlives the project.**
 

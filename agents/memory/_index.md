@@ -10,14 +10,17 @@ readability: 3
 
 Persistent memory for agents: the file conventions, the portable format, the capture plugins, and the hosted and self-hostable services, from graph pipelines to temporal stores.
 
+- [Basic Memory](basic-memory/index.md) - the AGPL-3.0 MCP server that grows a knowledge graph from agent conversations in Obsidian-compatible markdown, with a $15/mo beta cloud.
 - [Cabinet](cabinet/index.md) - the MIT self-hosted knowledge base where every artifact is a markdown file on disk and an onboarded agent team works it on a schedule, quiet since August.
-- [claude-mem](claude-mem/index.md) - the 96.3k-star plugin that captures coding-agent sessions, compresses them with your tokens, and reinjects the context.
+- [claude-mem](claude-mem/index.md) - the 96.7k-star plugin that captures coding-agent sessions, compresses them with your tokens, and reinjects the context.
 - [Cognee](cognee/index.md) - the Apache-2.0 graph-memory pipeline with the whole engine self-hostable and a flat per-token cloud.
 - [Engrim](engrim/index.md) - the local-first SQLite episodic memory engine for multiple AI CLIs on one machine, provenance-first.
 - [File-based agent memory](file-based-agent-memory/index.md) - the CLAUDE.md and AGENTS.md conventions, memory as plain markdown files.
 - [Letta](letta/index.md) - the MemGPT creators' memory-first platform, agent plus cloud tier.
 - [mem0](mem0/index.md) - the hosted and self-hostable memory layer across vector, graph, and key-value backends.
 - [Memoryfields](memoryfields/index.md) - Cal Paterson's portable memory-as-file-format spec, markdown pages plus a deletable vector index, the files-over-pipelines argument in RFC form.
+- [MemOS](memos/index.md) - MemTensor's Apache-2.0 memory OS with official OpenClaw, Hermes, and DeepSeek Harness plugins, a Neo4j-plus-Qdrant self-host, and an unpriced hosted API.
+- [memU](memu/index.md) - the Apache-2.0 memory wiki that turns agent history into markdown skills shared across ChatGPT, Claude Code, Cursor, and OpenClaw, hosted free with a single-device self-host.
 - [MetaClaw](metaclaw/index.md) - the MIT meta-learning layer that evolves OpenClaw-family agents' skills and memory from conversations, dormant since June.
 - [Supermemory](supermemory/index.md) - the benchmark-forward memory API (facts, profiles, and RAG in one engine) with an MIT one-binary local mode and a $19-$399/mo hosted ladder.
 - [Zep](zep/index.md) - temporal knowledge graphs where contradictions invalidate old facts.
@@ -37,3 +40,6 @@ Its members are compared on shared rows in the [Memory Feature Matrix](memory-fe
 - 2026-10-02 - Added Cabinet.
 - 2026-10-02 - Added MetaClaw.
 - 2026-10-04 - Added Supermemory.
+- 2026-10-06 - Added Basic Memory.
+- 2026-10-06 - Added MemOS.
+- 2026-10-06 - Added memU.

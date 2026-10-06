@@ -1,7 +1,7 @@
 ---
 title: Matt Pocock
 created: 2026-09-24
-updated: 2026-10-05
+updated: 2026-10-06
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, people, publications, developer, education, ai-coding]
 readability: 3
@@ -18,14 +18,14 @@ Matt Pocock is a full-time developer educator who built Total TypeScript and now
 
 Total TypeScript is the original business: five professional workshops (Pro Essentials, Type Transformations, Generics, Advanced Patterns, Advanced React with TypeScript) taught exercise-first, plus free tutorials, a book, tips, and articles, run by an ex-XState core team member and ex-Vercel developer advocate.
 AI Hero is the newer property: posts, a skills catalogue, an AI Coding Dictionary, workshops, cohorts, and events, concentrated on Claude Code, MCP, evals, and the Vercel AI SDK.
-On GitHub (47.8k followers as of 2026-10-04) the flagship is the skills repo, "Skills for Real Engineers", MIT-licensed, at 276.4k stars as of 2026-10-05, alongside sandcastle (sandboxed coding agents in TypeScript, 8.3k stars), dictionary-of-ai-coding (4.9k stars), and ts-reset (8.6k stars).
+On GitHub (47.8k followers as of 2026-10-04) the flagship is the skills repo, "Skills for Real Engineers", MIT-licensed, at 277.3k stars as of 2026-10-06, alongside sandcastle (sandboxed coding agents in TypeScript, 8.3k stars), dictionary-of-ai-coding (4.9k stars), and ts-reset (8.6k stars).
 The skills are deliberately small, composable, and forkable: grill-me, grill-with-docs, wayfinder, to-spec, to-tickets, tdd, code-review, and a setup skill at the core, organized around four failure modes of agentic coding, and the September 2026 batch graduated implement-spec, pr, and retro into the engineering set while renaming the shared-language convention from CONTEXT.md to GLOSSARY.md.
 
 ## Status
 
 Active and at the center of the agent-skills wave.
-The AI Hero discovery index lists well over a hundred public items, including roughly two dozen documented skills with per-skill pages and a changelog, and the skills repo shows 499 commits as of 2026-10-05.
-The repo merged its release/v1.3 branch on 2026-09-29, capping the September 24 batch that graduated implement-spec, pr, and retro to the engineering set and renamed the CONTEXT.md convention to GLOSSARY.md, and shipped that work as tagged releases v1.3.0 and v1.3.1 on 2026-10-04 (per the repo's releases), while the site's own skills changelog still tops out at v1.2 (2026-08-05).
+The AI Hero discovery index lists well over a hundred public items, including roughly two dozen documented skills with per-skill pages and a changelog, and the skills repo shows 503 commits as of 2026-10-06.
+The repo merged its release/v1.3 branch on 2026-09-29, capping the September 24 batch that graduated implement-spec, pr, and retro to the engineering set and renamed the CONTEXT.md convention to GLOSSARY.md, and shipped that work as tagged releases v1.3.0 and v1.3.1 on 2026-10-04 (per the repo's releases), with the site's own skills changelog catching up on 2026-10-06 to list v1.3 as its newest entry.
 His /grill-me skill went viral by his own account (his post on it was last updated 2026-03-23), and an Ask HN thread from 2026-09-08 names it as the one skill a respondent "found gets regular mileage".
 Scale is real: in a May 2026 video he said his AI-coding cohort starting June 1 had around 4,000 to 4,500 students, his most subscribed course ever.
 The trajectory is complete: TypeScript education is now the on-ramp, AI Hero and the skills repo are the main event.
@@ -69,6 +69,7 @@ Not for anyone seeking model research, benchmarks, or vendor-neutral evaluation 
 - 2026-09-24 - Added the Top 5 recommended reading section.
 - 2026-10-04 - Window audit: added the skills repo's release/v1.3 merge (2026-09-29) and the September 24 graduation of implement-spec, pr, and retro with the CONTEXT.md-to-GLOSSARY.md rename; commit count refreshed to 493 and skills stars to 275.6k as of 2026-10-04.
 - 2026-10-05 - Window check: the v1.3 work shipped as tagged releases v1.3.0 and v1.3.1 on 2026-10-04 while the site's skills changelog still lists v1.2 as newest; commits refreshed to 499 and skills stars to 276.4k as of 2026-10-05.
+- 2026-10-06 - The site's skills changelog caught up and now lists v1.3 as its newest entry, closing the repo-versus-site lag recorded yesterday; commits refreshed to 503 and skills stars to 277.3k as of 2026-10-06.
 
 ## See also
 

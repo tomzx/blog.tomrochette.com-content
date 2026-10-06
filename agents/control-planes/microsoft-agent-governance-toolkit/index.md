@@ -1,7 +1,7 @@
 ---
 title: Microsoft Agent Governance Toolkit
 created: 2026-09-27
-updated: 2026-10-05
+updated: 2026-10-06
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, llm=glm-5.3-flash, agent-governance, policy-enforcement, zero-trust, compliance, microsoft]
 readability: 3
@@ -23,7 +23,7 @@ It is published under the Microsoft organization, but the team states an intent 
 
 ## Status
 
-Active, wide, and fast-moving: 6,392 stars, 1,131 forks, and 74 open issues as of 2026-10-05, created 2026-03-02, last pushed 2026-10-04, latest release v4.1.0 on 2026-06-09.
+Active, wide, and fast-moving: 6,395 stars, 1,125 forks, and 76 open issues as of 2026-10-06, created 2026-03-02, last pushed 2026-10-05, latest release v4.1.0 on 2026-06-09.
 **The community footprint is thin relative to the star count: the Hacker News submissions I found top out at 6 points, and the most substantive third-party writeup is a security critique rather than a tutorial.**
 That critique (April 26, 2026) found a caller-controlled `X-Agent-ID` header flowing into audit, policy, and rate-limit consumers with no verification, six exported security primitives with zero production callers, and an in-memory audit log that breaks its own integrity check on overflow.
 The project has since shipped several breaking refactors, but I could not confirm from primary sources that the specific wiring gaps are closed, so treat the critique as a pre-adoption checklist rather than a resolved incident.
@@ -73,7 +73,7 @@ Deployment guides cover Azure, AWS, GCP, and Docker Compose.
 ## References
 
 - https://github.com/microsoft/agent-governance-toolkit - README: packages, quickstart, specs, preview notice, security boundaries
-- https://api.github.com/repos/microsoft/agent-governance-toolkit - stars, forks, issues, push date as of 2026-10-05
+- https://api.github.com/repos/microsoft/agent-governance-toolkit - stars, forks, issues, push date as of 2026-10-06
 - https://opensource.microsoft.com/blog/2026/04/02/introducing-the-agent-governance-toolkit-open-source-runtime-security-for-ai-agents/ - launch post: seven packages, OWASP mapping, foundation intent
 - https://www.flyingpenguin.com/authentication-bypass-in-microsoft-agent-governance-toolkit-at-573f989/ - critical security review of identity wiring and audit durability
 - https://api.github.com/repos/microsoft/agent-governance-toolkit/releases - v4.1.0, 2026-06-09

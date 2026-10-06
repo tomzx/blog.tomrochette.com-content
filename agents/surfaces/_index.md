@@ -19,6 +19,7 @@ The editors and IDEs where agents meet your code, from AI-native platforms and a
 - [OpenChamber](openchamber/index.md) - the MIT open-source session cockpit around OpenCode, worktrees and multi-model fusion included.
 - [Roo Code](roo-code/index.md) - the Cline-fork VS Code extension that sunset itself in May 2026 to chase cloud agents.
 - [Trae](trae/index.md) - ByteDance's AI IDE, repriced in September 2026 to a $20/$60/$200 ladder, SOLO mode and cloud tasks included, telemetry questions attached.
+- [Visual Studio 2026](visual-studio-2026/index.md) - Microsoft's Windows IDE gone AI-native, Copilot agent mode with MCP, cloud agents, and a BYOK preview, Community free to $250/month Enterprise.
 - [Void](void/index.md) - the Apache-2.0 open-source Cursor alternative, demand proven, repository now archived with the last release in April 2025.
 - [VS Code + Copilot](vscode-copilot/index.md) - the neutral default, hosting Copilot, Claude Code, and Codex as swappable harnesses.
 - [Whiteboard](whiteboard/index.md) - the MIT desktop canvas where coding agents draw their work as diagrams, traces, and diffs for humans to review, YC W26, local-only beta.
@@ -43,3 +44,4 @@ Its members are compared on shared rows in the [Surface Feature Matrix](surface-
 - 2026-08-26 - Added Roo Code.
 - 2026-10-04 - Added Delta.
 - 2026-10-04 - Added Whiteboard.
+- 2026-10-06 - Added Visual Studio 2026.

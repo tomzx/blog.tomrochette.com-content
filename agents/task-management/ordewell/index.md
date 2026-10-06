@@ -25,8 +25,8 @@ The planner's permissions are unusually explicit (ADR-0008): commands classify i
 ## Status
 
 Active, young, and small.
-As of 2026-10-06: 185 stars, 14 forks, 29 open issues (most of them a single-day roadmap filing on 2026-09-26), created 2026-07-31, pushed 2026-10-05, latest release v0.7.0 on 2026-10-05, and roughly 6,200 npm downloads last month across the `ordewell` and `@ordewell/cli` package names.
-v0.7.0 shipped an MCP server exposing task and planner tools, wired into Codex and OpenCode, with a runner that cannot inject the server demoted to a plugin runner; it landed three days after the v0.6 pair, which had made the structured transport the default with Codex and OpenCode connectors and added ops tasks and merge gates (ADR-0020), so a task that acts on the world runs once the work it depends on is merged.
+As of 2026-10-06: 184 stars, 14 forks, 29 open issues (most of them a single-day roadmap filing on 2026-09-26), created 2026-07-31, pushed 2026-10-05, latest release v0.7.0 on 2026-10-05, and roughly 6,200 npm downloads last month across the `ordewell` and `@ordewell/cli` package names.
+v0.7.0 moved completion and planning onto Ordewell's own tools: a task reports done with `task_complete` and asks with `checkpoint` instead of printing markers, the planner reads the live runner catalog and submits the plan through tools, and the printed marker stays as the fallback for the terminal transport, plugin runners, and sessions where the server did not attach; it landed a day after the three 0.6.x fix releases of 2026-10-04, which completed a five-release v0.6.x line begun by the 2026-10-02 pair that made the structured transport the default with Codex and OpenCode connectors and added ops tasks and merge gates (ADR-0020), so a task that acts on the world runs once the work it depends on is merged.
 The Show HN launch thread reached 56 points and 30 comments on 2026-09-15.
 
 ## Strengths
@@ -41,7 +41,7 @@ The Show HN launch thread reached 56 points and 30 comments on 2026-09-15.
 - **The launch thread's defining exchange is the transparency record: a commenter observed that everything about the project, including author replies in the comments, is AI-written, and the maintainer confirmed heavy AI use for the docs and code while standing behind the design.**
 - Replying to people with AI-generated text drew a specific objection in the same thread, so treat the repo's discourse hygiene as part of the adoption decision.
 - The same thread carried the standing structural objection to meta-frameworks: any advance gets absorbed into Claude and Codex within months, and this tool's planner-plus-runners surface is exactly the kind that absorption targets.
-- v0.6.x and 183 stars mean churn is likely; ADR-0002 records saved sessions being wiped without migration on that rewrite.
+- The v0.7.x line and a star count under 200 mean churn is likely; ADR-0002 records saved sessions being wiped without migration on that rewrite.
 - The planner's shell control is a denylist classifier over a real shell, not a sandbox (ADR-0011 tracks that gap).
 
 ## Pricing
@@ -58,7 +58,7 @@ No paid tier exists; token costs follow your runner subscriptions or API keys.
 ## Bottom line
 
 **Recommended for engineers running mixed-model agent fleets who want per-task model assignment and evidence-based completion, and who accept a two-month-old project.**
-Not for shared multi-agent queues (that is beads) or for teams that need maturity signals 183 stars cannot give.
+Not for shared multi-agent queues (that is beads) or for teams that need maturity signals a project this small cannot give.
 The disagreeable claim I will defend: the AI-written launch thread is not disqualifying here, but it is the exact failure mode this section's transparency rules exist to catch, and a tool that cannot surface its own authorship plainly should not be trusted to surface task completion either.
 
 ## Changes
@@ -70,6 +70,7 @@ The disagreeable claim I will defend: the AI-written launch thread is not disqua
 - 2026-10-02 - Recorded v0.5.6 (2026-09-30, the seventh v0.5.x release in five days) and refreshed counts (183 stars, pushed 2026-10-01, about 4,700 npm downloads across both package names).
 - 2026-10-03 - Recorded the v0.6.0 and v0.6.1 releases (both 2026-10-02: structured transport as the default with Codex and OpenCode connectors, then ops tasks and merge gates per ADR-0020), refreshed counts (32 open issues, pushed 2026-10-02), and updated the launch thread to 30 comments.
 - 2026-10-06 - Recorded the v0.7.0 release (2026-10-05, the MCP server for task and planner tools) and refreshed counts; corrected the launch-thread comment count in References to 30.
+- 2026-10-06 - Corrected the v0.7.0 characterization against the changelog (Ordewell's own task and planner tools over the structured transport, not an MCP server, with the printed marker as the documented fallback for the terminal transport, plugin runners, and unattached sessions) and fixed the release-chain arithmetic (five v0.6.x releases including the three fixes of 2026-10-04); refreshed counts (184 stars) and added the changelog reference.
 
 ## See also
 
@@ -82,7 +83,8 @@ The disagreeable claim I will defend: the AI-written launch thread is not disqua
 ## References
 
 - https://github.com/ordewell/ordewell - README: plan artifact, runners, marker verification, plugin manifests
-- https://api.github.com/repos/ordewell/ordewell - stars, forks, dates, Apache-2.0 as of 2026-10-03
+- https://api.github.com/repos/ordewell/ordewell - stars, forks, dates, Apache-2.0 as of 2026-10-06
+- https://github.com/ordewell/ordewell/blob/main/CHANGELOG.md - the v0.7.0 entry: `task_complete` and `checkpoint` tools, tool-based planning, the marker fallback scope
 - https://ordewell.ai - the product site: surfaces, the plan-execute-verify loop, marker wording
 - https://ordewell.ai/docs.html - install, requirements, headless usage
 - https://github.com/ordewell/ordewell/blob/main/docs/adr/0002-planner-as-conversation-loop.md - the conversation-loop decision and the session wipe
