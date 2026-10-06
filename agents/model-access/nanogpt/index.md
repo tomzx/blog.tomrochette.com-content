@@ -1,7 +1,7 @@
 ---
 title: NanoGPT
 created: 2026-09-26
-updated: 2026-09-26
+updated: 2026-10-06
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, model-access, model-gateway, open-weights, privacy]
 readability: 3
@@ -54,8 +54,8 @@ In September 2025, Pro was $8/month with unlimited personal open-weight usage ca
 
 ## Compared to
 
-Kimi Code (../kimi-code/index.md) is the pick when you want one lab's frontier open-weight models with quota predictability at a similar monthly price.
-MiniMax Coding Plan (../minimax-coding-plan/index.md) covers multimodal token volume cheaply but locks you out in 5-hour windows, which NanoGPT never does.
+[Kimi Code](../kimi-code/index.md) is the pick when you want one lab's frontier open-weight models with quota predictability at a similar monthly price.
+[MiniMax Coding Plan](../minimax-coding-plan/index.md) covers multimodal token volume cheaply but locks you out in 5-hour windows, which NanoGPT never does.
 The free PAYG path also makes NanoGPT the lowest-commitment way to test a model before any subscription.
 
 ## Bottom line
@@ -67,6 +67,7 @@ I will claim something arguable: at $12 with open weights included, this beats a
 ## Changes
 
 - 2026-09-26 - Created.
+- 2026-10-06 - Converted the Compared-to cross-references from plain-text paths into working links.
 
 ## See also
 

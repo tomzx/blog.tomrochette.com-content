@@ -1,7 +1,7 @@
 ---
 title: OpenCode Zen
 created: 2026-09-26
-updated: 2026-10-04
+updated: 2026-10-06
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, model-access, ai-gateway, pay-per-use]
 readability: 3
@@ -54,8 +54,8 @@ Auto-reload charges $20 when the balance falls below $5, and OpenCode itself use
 
 ## Compared to
 
-OpenCode Go (../opencode-go/index.md) is the sibling subscription: $10/month for capped open-model usage, no frontier models, same balance; choose it when you want a ceiling.
-OpenRouter (../openrouter/index.md) is the breadth play: hundreds of models, passthrough pricing, 5.5% credit fee; choose it when price per token on open models matters more than curation.
+[OpenCode Go](../opencode-go/index.md) is the sibling subscription: $10/month for capped open-model usage, no frontier models, same balance; choose it when you want a ceiling.
+[OpenRouter](../openrouter/index.md) is the breadth play: hundreds of models, passthrough pricing, 5.5% credit fee; choose it when price per token on open models matters more than curation.
 Holding your own provider keys is cheapest for a single provider, and Zen's BYOK only covers OpenAI and Anthropic.
 
 ## Bottom line
@@ -69,6 +69,7 @@ My disagreeable claim: the curation premium is worth paying only when a mis-serv
 - 2026-09-26 - Created.
 - 2026-09-29 - Catalog check: the free roster grew from nine to ten models (LongCat 2.5 Preview Free joined), Claude Fable 5.1 and the GPT 6 line appeared on the price table, and the docs republished 2026-09-28; every previously listed per-token rate is unchanged.
 - 2026-10-04 - Free roster moved from ten to twelve models on the live price table (Fledge Alpha Free newly listed as limited-time); every per-token rate re-verified unchanged.
+- 2026-10-06 - Converted the Compared-to cross-references from plain-text paths into working links.
 
 ## See also
 

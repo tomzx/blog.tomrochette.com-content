@@ -1,7 +1,7 @@
 ---
 title: OpenCode Go
 created: 2026-09-26
-updated: 2026-10-04
+updated: 2026-10-06
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, model-access, coding-subscription, open-models]
 readability: 3
@@ -61,9 +61,9 @@ Top-ups draw on the shared Zen balance, where card fees are passed at cost (4.4%
 
 ## Compared to
 
-OpenCode Zen (../opencode-zen/index.md) is the sibling pay-per-use gateway: no subscription, huge catalog including Claude and GPT, but per-token prices that can exceed OpenRouter's.
+[OpenCode Zen](../opencode-zen/index.md) is the sibling pay-per-use gateway: no subscription, huge catalog including Claude and GPT, but per-token prices that can exceed OpenRouter's.
 Choose Go when you want a capped, predictable bill for open models.
-OpenRouter (../openrouter/index.md) has hundreds of models with routing and fallback at passthrough prices plus a 5.5% credit fee; choose it when you need frontier or long-tail models Go does not carry.
+[OpenRouter](../openrouter/index.md) has hundreds of models with routing and fallback at passthrough prices plus a 5.5% credit fee; choose it when you need frontier or long-tail models Go does not carry.
 Direct DeepSeek API beats Go unless you fully use the $60 cap, per a community breakdown that pegs Go at 33% cheaper only at full usage.
 
 ## Bottom line
@@ -77,6 +77,7 @@ My disagreeable claim: at roughly 50% usage Go is about break-even with direct A
 - 2026-09-26 - Created.
 - 2026-09-29 - Go Plus added at $40/month with 2x to 4x the per-model monthly dollar limits, the catalog moved from 32 to 29 models (LongCat, Hy3, Hy4 preview, Qwen3.8, and GPT 5.6 Luna joined the roster), and the docs republished 2026-09-28; price history row appended.
 - 2026-10-03 - Corrected the model-count claim from 30 to 29, matching the product page's own count and the 2026-09-29 catalog bullet, with the $10/$40 tiers re-verified unchanged.
+- 2026-10-06 - Converted the Compared-to cross-references from plain-text paths into working links.
 
 ## See also
 

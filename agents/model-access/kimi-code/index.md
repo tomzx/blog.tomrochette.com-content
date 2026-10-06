@@ -1,7 +1,7 @@
 ---
 title: Kimi Code
 created: 2026-09-26
-updated: 2026-09-26
+updated: 2026-10-06
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, model-access, coding-subscription, moonshot-ai, pricing]
 readability: 3
@@ -54,8 +54,8 @@ Extra Usage is pay-as-you-go overflow with a ¥25 minimum top-up, generally non-
 
 ## Compared to
 
-MiniMax Coding Plan (../minimax-coding-plan/index.md) meters tokens across modalities instead of time windows, cheaper at the top end but carrying 2026 billing-change baggage.
-NanoGPT (../nanogpt/index.md) fits when open-weight breadth matters more than one lab's flagship.
+[MiniMax Coding Plan](../minimax-coding-plan/index.md) meters tokens across modalities instead of time windows, cheaper at the top end but carrying 2026 billing-change baggage.
+[NanoGPT](../nanogpt/index.md) fits when open-weight breadth matters more than one lab's flagship.
 Claude Code or Cursor remain the picks when reliability per hour beats price per hour.
 
 ## Bottom line
@@ -67,6 +67,7 @@ I will claim something arguable: the ¥49 China-market ladder proves this produc
 ## Changes
 
 - 2026-09-26 - Created.
+- 2026-10-06 - Converted the Compared-to cross-references from plain-text paths into working links.
 
 ## See also
 

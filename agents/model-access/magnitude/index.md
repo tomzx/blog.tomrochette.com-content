@@ -50,7 +50,7 @@ Pricing does not apply: the engine is free and open source under Apache-2.0 with
 
 ## Compared to
 
-Ollama (../ollama/index.md) is the incumbent: broader model coverage, a far larger community, and its own paid cloud; choose it for breadth and ecosystem maturity, Magnitude for speed on the families it tunes for.
+[Ollama](../ollama/index.md) is the incumbent: broader model coverage, a far larger community, and its own paid cloud; choose it for breadth and ecosystem maturity, Magnitude for speed on the families it tunes for.
 llama.cpp is the baseline engine with the widest hardware and model support, and launch-thread measurements show it still winning on some M5 and NVIDIA setups; choose Magnitude when its tuned kernels win on your chip and you want agent-oriented memory management in a desktop app.
 vLLM serves batched multi-user inference on datacenter GPUs; choose it for shared servers, Magnitude for single-session local agent workloads.
 
@@ -63,6 +63,7 @@ My disagreeable claim: on current evidence the 2x marketing is narrower than the
 ## Changes
 
 - 2026-10-06 - Created.
+- 2026-10-06 - Converted the Compared-to cross-references from plain-text paths into working links.
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: LiteLLM
 created: 2026-09-27
-updated: 2026-10-04
+updated: 2026-10-06
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, model-access, llm-gateway, self-hosted]
 readability: 3
@@ -55,9 +55,9 @@ No model-access fees: providers bill tokens directly and LiteLLM takes no cut, a
 
 ## Compared to
 
-OpenRouter (../openrouter/index.md) is the hosted counterpart: the same multi-provider idea, but someone else runs it and takes a 5.5% credit fee; choose LiteLLM when data residency or key custody rules out a third party.
-OpenCode Zen (../opencode-zen/index.md) sells curation of benchmarked endpoints; LiteLLM sells control, with no curation guarantee.
-Requesty (../requesty/index.md) is the category's other hosted gateway, lighter to adopt; LiteLLM wins on self-hosting and enterprise controls.
+[OpenRouter](../openrouter/index.md) is the hosted counterpart: the same multi-provider idea, but someone else runs it and takes a 5.5% credit fee; choose LiteLLM when data residency or key custody rules out a third party.
+[OpenCode Zen](../opencode-zen/index.md) sells curation of benchmarked endpoints; LiteLLM sells control, with no curation guarantee.
+[Requesty](../requesty/index.md) is the category's other hosted gateway, lighter to adopt; LiteLLM wins on self-hosting and enterprise controls.
 
 ## Bottom line
 
@@ -68,6 +68,7 @@ My disagreeable claim: below three providers, self-hosting LiteLLM is negative v
 ## Changes
 
 - 2026-09-27 - Created when the owner's GitHub-stars scan surfaced it.
+- 2026-10-06 - Converted the Compared-to cross-references from plain-text paths into working links.
 
 ## See also
 

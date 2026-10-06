@@ -1,7 +1,7 @@
 ---
 title: LLM Gateway
 created: 2026-10-04
-updated: 2026-10-04
+updated: 2026-10-06
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, model-access, llm-gateway, coding-subscription]
 readability: 3
@@ -57,9 +57,9 @@ Enterprise: custom, 30-day pilot, SAML SSO and SCIM, 99.9% SLA.
 
 ## Compared to
 
-OpenRouter (../openrouter/index.md) is the same pay-as-you-go gateway idea with the deeper catalog and track record at 5.5% per credit purchase; choose LLM Gateway for the lower fee or for DevPass, OpenRouter for maturity and reach.
-Requesty (../requesty/index.md) meters 5% of upstream spend with EU residency; LLM Gateway's 5% sits on top-ups instead, which is kinder to steady spend but carries no residency story.
-LiteLLM (../litellm/index.md) is the self-hosted zero-fee incumbent; pick it when keys cannot leave your perimeter, LLM Gateway when you want someone else to run the gateway.
+[OpenRouter](../openrouter/index.md) is the same pay-as-you-go gateway idea with the deeper catalog and track record at 5.5% per credit purchase; choose LLM Gateway for the lower fee or for DevPass, OpenRouter for maturity and reach.
+[Requesty](../requesty/index.md) meters 5% of upstream spend with EU residency; LLM Gateway's 5% sits on top-ups instead, which is kinder to steady spend but carries no residency story.
+[LiteLLM](../litellm/index.md) is the self-hosted zero-fee incumbent; pick it when keys cannot leave your perimeter, LLM Gateway when you want someone else to run the gateway.
 
 ## Bottom line
 
@@ -70,6 +70,7 @@ My disagreeable claim: DevPass at 3x (soon 2x) buys less leverage than OpenCode 
 ## Changes
 
 - 2026-10-04 - Created when the new-entrant scan surfaced DevPass marketed against this category's members; added with the announced October 15 usage cut already on the price table.
+- 2026-10-06 - Converted the Compared-to cross-references from plain-text paths into working links.
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: OpenRouter
 created: 2026-09-26
-updated: 2026-09-27
+updated: 2026-10-06
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, model-access, llm-gateway, pay-per-token]
 readability: 3
@@ -62,8 +62,8 @@ BYOK: 5% of equivalent cost above the free allowance, as of 2026-10-02 (fee stat
 
 ## Compared to
 
-OpenCode Go (../opencode-go/index.md) is a $10 subscription for open coding models with hard caps; choose OpenRouter when your usage is spiky or you need frontier models.
-OpenCode Zen (../opencode-zen/index.md) is the curated coding gateway, usually pricier per token on open models; choose Zen when benchmarked endpoints and free stealth models matter more than unit cost.
+[OpenCode Go](../opencode-go/index.md) is a $10 subscription for open coding models with hard caps; choose OpenRouter when your usage is spiky or you need frontier models.
+[OpenCode Zen](../opencode-zen/index.md) is the curated coding gateway, usually pricier per token on open models; choose Zen when benchmarked endpoints and free stealth models matter more than unit cost.
 Direct provider accounts are cheapest for one dominant model at scale, at the cost of N billing relationships and no cross-provider fallback.
 
 ## Bottom line
@@ -76,6 +76,7 @@ My disagreeable claim: I would pay the 5.5% rather than run the same multi-provi
 
 - 2026-09-26 - Created.
 - 2026-09-27 - Link check: the usagepricing blueprint now blocks automated fetches (403), facts carried from the 2026-09-24 check; the credit-fee state re-verified unchanged on the official FAQ (5.5%, $0.80 minimum, crypto 5%).
+- 2026-10-06 - Converted the Compared-to cross-references from plain-text paths into working links.
 
 ## See also
 

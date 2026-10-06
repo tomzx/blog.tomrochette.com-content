@@ -1,7 +1,7 @@
 ---
 title: MiniMax Coding Plan
 created: 2026-09-26
-updated: 2026-09-26
+updated: 2026-10-06
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, model-access, coding-subscription, minimax, pricing]
 readability: 3
@@ -55,8 +55,8 @@ Credits cost $5, $25, or $100 at 1,000 per dollar, valid 365 days, and a 10% ref
 
 ## Compared to
 
-Kimi Code (../kimi-code/index.md) sells time-windowed quota of one lab's models and fits steady daily coders better than bursty multimodal users.
-NanoGPT (../nanogpt/index.md) has no quota windows at all, removing the mid-sprint lockout risk at the cost of per-token metering.
+[Kimi Code](../kimi-code/index.md) sells time-windowed quota of one lab's models and fits steady daily coders better than bursty multimodal users.
+[NanoGPT](../nanogpt/index.md) has no quota windows at all, removing the mid-sprint lockout risk at the cost of per-token metering.
 MiniMax's own pay-as-you-go API is the right choice for production, by the company's own documentation.
 
 ## Bottom line
@@ -68,6 +68,7 @@ I will claim something arguable: until the quota denominator and per-call billin
 ## Changes
 
 - 2026-09-26 - Created.
+- 2026-10-06 - Converted the Compared-to cross-references from plain-text paths into working links.
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: Ollama
 created: 2026-09-27
-updated: 2026-10-04
+updated: 2026-10-06
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, model-access, local-inference, model-registry]
 readability: 3
@@ -60,7 +60,7 @@ Concurrency caps: Free 1 request, Pro 3, Max and Team 10, and unused included cr
 
 ## Compared to
 
-Hosted gateways like OpenRouter (../openrouter/index.md) give frontier quality with zero hardware; choose Ollama local when privacy or offline use dominates, and Ollama cloud when you want one bill for open models.
+Hosted gateways like [OpenRouter](../openrouter/index.md) give frontier quality with zero hardware; choose Ollama local when privacy or offline use dominates, and Ollama cloud when you want one bill for open models.
 llama.cpp and LM Studio cover the same local niche with more quantization choice and (per community benchmarks) higher throughput, at the cost of more setup.
 As a gateway, Ollama is narrow: it fronts its own registry and cloud, not 100+ providers.
 
@@ -74,6 +74,7 @@ My disagreeable claim: for coding agents on 16GB laptops, local quantized models
 
 - 2026-09-27 - Created when the owner's GitHub-stars scan surfaced it.
 - 2026-10-04 - Homepage claim corrected from more than 9 million developers to 9M+ monthly installs (with 1B+ model downloads and 200T+ tokens served); stars refreshed.
+- 2026-10-06 - Converted the Compared-to cross-references from plain-text paths into working links.
 
 ## See also
 
