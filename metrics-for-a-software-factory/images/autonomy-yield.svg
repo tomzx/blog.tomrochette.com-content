@@ -1,0 +1,54 @@
+<svg viewBox="0 0 760 580" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="at ad">
+  <title id="at">Autonomy and yield place a software factory in one of four quadrants</title>
+  <desc id="ad">A two by two grid. The horizontal axis is autonomy, from a human at each gate to unattended work. The vertical axis is yield, from output that does not survive to output that does. The quadrants are manual shop, unverified volume, careful assistant, and software factory, with the factory as the target at high autonomy and high yield.</desc>
+  <defs>
+    <marker id="ax" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto">
+      <path d="M0 0 L10 5 L0 10 Z" fill="#94a3b8"/>
+    </marker>
+  </defs>
+  <g font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+    <text x="380" y="42" font-size="20" font-weight="700" fill="#0f172a" text-anchor="middle">Autonomy without yield produces unverified volume</text>
+    <text x="380" y="68" font-size="12.5" fill="#64748b" text-anchor="middle">The two are independent, so a factory has to hold both</text>
+
+    <!-- Column headers -->
+    <text x="285" y="90" font-size="12" font-weight="600" fill="#64748b" text-anchor="middle">Low autonomy</text>
+    <text x="585" y="90" font-size="12" font-weight="600" fill="#64748b" text-anchor="middle">High autonomy</text>
+
+    <!-- Row labels -->
+    <text x="130" y="185" font-size="12" font-weight="600" fill="#64748b" text-anchor="middle" transform="rotate(-90 130 185)">High yield</text>
+    <text x="130" y="365" font-size="12" font-weight="600" fill="#64748b" text-anchor="middle" transform="rotate(-90 130 365)">Low yield</text>
+
+    <!-- Quadrant: low autonomy, high yield -->
+    <rect x="140" y="100" width="290" height="170" rx="12" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1.5"/>
+    <text x="285" y="176" font-size="16" font-weight="600" fill="#334155" text-anchor="middle">Careful assistant</text>
+    <text x="285" y="200" font-size="11" fill="#64748b" text-anchor="middle">a person still at every gate</text>
+
+    <!-- Quadrant: high autonomy, high yield (target) -->
+    <rect x="440" y="100" width="290" height="170" rx="12" fill="#2563eb" fill-opacity="0.1" stroke="#2563eb" stroke-width="2"/>
+    <rect x="658" y="112" width="60" height="20" rx="10" fill="#2563eb"/>
+    <text x="688" y="126" font-size="9.5" font-weight="700" fill="#ffffff" text-anchor="middle" letter-spacing="1">TARGET</text>
+    <text x="585" y="176" font-size="16" font-weight="600" fill="#1d4ed8" text-anchor="middle">Software factory</text>
+    <text x="585" y="200" font-size="11" fill="#64748b" text-anchor="middle">unattended work you can keep</text>
+
+    <!-- Quadrant: low autonomy, low yield -->
+    <rect x="140" y="280" width="290" height="170" rx="12" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1.5"/>
+    <text x="285" y="356" font-size="16" font-weight="600" fill="#334155" text-anchor="middle">Manual shop</text>
+    <text x="285" y="380" font-size="11" fill="#64748b" text-anchor="middle">the process you had before agents</text>
+
+    <!-- Quadrant: high autonomy, low yield -->
+    <rect x="440" y="280" width="290" height="170" rx="12" fill="#dc2626" fill-opacity="0.07" stroke="#dc2626" stroke-width="1.5"/>
+    <text x="585" y="356" font-size="16" font-weight="600" fill="#b91c1c" text-anchor="middle">Unverified volume</text>
+    <text x="585" y="380" font-size="11" fill="#64748b" text-anchor="middle">volume no one can verify</text>
+
+    <!-- Axes -->
+    <line x1="140" y1="480" x2="724" y2="480" stroke="#94a3b8" stroke-width="1.5" marker-end="url(#ax)"/>
+    <text x="432" y="504" font-size="12.5" font-weight="600" fill="#475569" text-anchor="middle">Autonomy</text>
+    <text x="432" y="522" font-size="10.5" fill="#64748b" text-anchor="middle">share of accepted changes with no human involved</text>
+
+    <line x1="134" y1="450" x2="134" y2="100" stroke="#94a3b8" stroke-width="1.5" marker-end="url(#ax)"/>
+    <text x="110" y="275" font-size="12.5" font-weight="600" fill="#475569" text-anchor="middle" transform="rotate(-90 110 275)">Yield</text>
+    <text x="94" y="275" font-size="10.5" fill="#64748b" text-anchor="middle" transform="rotate(-90 94 275)">share that survives</text>
+
+    <text x="380" y="556" font-size="11" fill="#64748b" text-anchor="middle">The factory's job is to raise both together; most attempts raise autonomy first</text>
+  </g>
+</svg>
