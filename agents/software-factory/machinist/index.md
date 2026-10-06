@@ -1,7 +1,7 @@
 ---
 title: "Machinist"
 created: 2026-09-05
-updated: 2026-10-04
+updated: 2026-10-05
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, software-factory, orchestration, go]
 readability: 3
@@ -20,7 +20,7 @@ Scripts are deliberately opaque to the controller: no invented child runs, graph
 
 ## Status
 
-Active and early: created 2026-07-16, 483 stars and 91 forks, pushed 2026-10-03, releases v0.1.0 through v0.4.0 (v0.4.0 on 2026-08-31 still the newest, with 53 commits on main since), with the README labeling it early-access software.
+Active and early: created 2026-07-16, 485 stars and 91 forks, pushed 2026-10-04, releases v0.1.0 through v0.4.0 (v0.4.0 on 2026-08-31 still the newest, with 53 commits on main since), with the README labeling it early-access software, all per the GitHub API as of 2026-10-05.
 **There is no Hacker News thread or independent coverage as of 2026-10-04, so the missing community footprint is itself the signal, and the repository plus the docs site at machinist.sh are the whole evidence base.**
 The velocity (five releases in eight weeks) says maintained; the single-author commit history says bus-factor one.
 

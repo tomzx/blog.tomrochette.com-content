@@ -1,7 +1,7 @@
 ---
 title: GSD
 created: 2026-09-16
-updated: 2026-10-04
+updated: 2026-10-06
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, spec-driven-development, context-engineering, workflow, open-source]
 readability: 3
@@ -24,8 +24,8 @@ Open GSD has grown an ecosystem around the loop: gsd-pi (a standalone harness), 
 ## Status
 
 Split between a dead root and a live successor.
-The original gsd-build/get-shit-done is archived at 64,384 stars and 5,434 forks, last pushed 2026-05-31, with its README now a redirect notice to open-gsd/gsd-core.
-The successor, created 2026-05-22, is actively developed: 10,139 stars, 726 forks, pushed 2026-10-04, release v1.15.0 on 2026-09-26, and 42,599 npm downloads last month for @opengsd/gsd-core, while the legacy get-shit-done-cc package records 57,206.
+The original gsd-build/get-shit-done is archived at 64,369 stars and 5,433 forks, last pushed 2026-05-31, with its README now a redirect notice to open-gsd/gsd-core.
+The successor, created 2026-05-22, is actively developed: 10,207 stars, 732 forks, pushed 2026-10-05, release v1.16.0 on 2026-10-05, and 43,409 npm downloads last month for @opengsd/gsd-core, while the legacy get-shit-done-cc package records 56,342.
 **The transition was not clean: Blake Watson's widely-linked build story added a 2026-07-31 update telling readers not to install the original, reporting that people say a crypto scam took place around the creator, and naming OpenGSD the consensus successor.**
 Open GSD's own origin page confirms the chapter without specifics, stating trust was damaged, people were hurt, public channels disappeared, and crediting Christopherson with the original idea.
 
@@ -65,6 +65,7 @@ The disagreeable claim I will defend: 64,384 stars is the strongest evidence the
 - 2026-09-16 - Created.
 - 2026-09-25 - Refreshed counts (archived original at 64,462 stars, successor at 9,827) and corrected the successor's share to about 15 percent.
 - 2026-09-27 - Recorded the successor's v1.15.0 release (2026-09-26) and refreshed counts (archived original at 64,451 stars, successor at 9,885).
+- 2026-10-06 - Recorded the successor's v1.16.0 release (2026-10-05) and refreshed counts.
 
 ## See also
 

@@ -11,6 +11,7 @@ readability: 3
 The tools that decide what enters the context window: semantic engines, code graphs, repo packers, output filters, and local search indexes.
 
 - [Augment Code](augment-code/index.md) - the coding platform whose core is a real-time semantic Context Engine feeding Auggie and Cosmos.
+- [CodeAlive](codealive/index.md) - the hosted context-engine API serving a code graph and hybrid retrieval to any MCP agent on metered per-action pricing, from a small London company with no independent coverage yet.
 - [Graft](graft/index.md) - Trail's MIT context layer feeding agents a code graph instead of grep, 9.5k stars in thirteen weeks with every benchmark still the vendor's own.
 - [Graphify](graphify/index.md) - the local AST knowledge graph exposed as a `/graphify` skill and MCP server, structure over similarity, no vectors.
 - [qmd](qmd/index.md) - Tobias Lütke's local hybrid search engine for notes, docs, and knowledge bases, BM25 plus vectors plus reranking.
@@ -33,3 +34,4 @@ Its members are compared on shared rows in the [Context Engines Feature Matrix](
 - 2026-08-30 - Added Semble.
 - 2026-09-12 - Added Graft.
 - 2026-10-04 - Added Serena.
+- 2026-10-05 - Added CodeAlive.

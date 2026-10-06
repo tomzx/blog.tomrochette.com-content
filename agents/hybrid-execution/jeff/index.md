@@ -1,7 +1,7 @@
 ---
 title: Jeff
 created: 2026-09-29
-updated: 2026-10-03
+updated: 2026-10-06
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, hybrid-execution, structured-outputs, system-one-models, decision-models, open-weights, fine-tuning]
 readability: 3
@@ -20,13 +20,15 @@ A fork-line of AutoJev, Denis Yarats' MIT recipe that fine-tunes Qwen3.8-27B for
 Three checkpoints on Hugging Face under mstrasser (Apache-2.0 weights), a local server exposing `/v1/systemone` with Jev's choice, noul, and score questions, and an independence disclaimer ("not affiliated with or endorsed by TypeSafe") in the README.
 Training ran entirely on local hardware: one RTX PRO 6000 workstation GPU (the 0.8B trains in about 2 hours, the 2B in about 3.5), synthetic data written by an open model (Qwen3.8-Flash-Next) on two DGX Sparks, and no closed-model output in the training data.
 The training data itself is not released (some sources are share-alike), and the roadmap records retrained models that lift the 26-option ceiling in progress.
+Since 2026-10-05 the project has been organized around v1.3: an adapter-first base (deliberately weaker zero-shot on long option lists, with a prompt layout built for caching), fifteen task adapters with GGUF exports for llama.cpp, and Jeff-Code, two adapters that let the 0.8B decide when a paired Qwen3.8-27B should think.
 
 ## Status
 
-Five days old and loud: the launch Show HN thread (2026-09-28) reached 574 points as of 2026-10-04.
-The repository was created 2026-09-28 and pushed 2026-10-01, with about 1,350 stars and 65 forks; Hugging Face had registered no meaningful checkpoint downloads at creation check and now shows about 1,870 for the 0.8B and about 760 for the 2B as of 2026-10-04.
-Latency is the headline: about 22 ms per decision on an RTX PRO 6000, 28 ms on an M4 Max through MLX, 463 ms on a 32-thread CPU, against Jev's published 114-212 ms per API call in its Doom runs (not measured on the same hardware).
+Five days old and loud, now three weeks old and shipping: the launch Show HN thread (2026-09-28) reached 575 points as of 2026-10-06.
+The repository was created 2026-09-28 and pushed 2026-10-05, with about 1,400 stars and 68 forks; the v1.2 checkpoints on Hugging Face now live under a jeff-legacy org that the README's original links redirect to, with about 2,100 downloads registered for the 0.8B as of 2026-10-06.
+Latency is the headline: about 22 ms per decision on an RTX PRO 6000, 28 ms on an M4 Max through MLX, 463 ms on a 32-thread CPU, against Jev's published 114-212 ms per API call in its Doom runs (not measured on the same hardware); the v1.3 base and adapters measure 26.6 to 31.8 ms per decision on the same idle GPU as v1.2 (October 5 table).
 The self-run benchmarks cover 4,599 questions from five public suites (BBH, Financial PhraseBank, JudgeBench, RAGTruth, WinoGrande) plus JevBench's public hard tier scored separately: Jeff-2B posts 83.1 overall against Jev's published 83.0 and AutoJev-27B's 84.9, winning Financial PhraseBank (96.3 versus 77.0) and RAGTruth (88.9 versus 77.3) while staying well below Jev on BBH (68.0 versus 94.3), JudgeBench, WinoGrande, and the JevBench hard tier (53.3 versus 73.3).
+The v1.3 Jeff-Code claim is the agent-facing headline: paired-equal quality (62.4 percent against 62.8 percent pass rate over 1,242 paired tasks) at 47 percent less task time, with no clear speed-up on Terminal-Bench 2.0 or SkillsBench, all self-run.
 Zero-shot games back the generality claim: Jeff-0.8B took 57.0 of 98 Pac-Man pellets against 11.2 for random moves, and Doom kills matching a hand-coded rule bot.
 None of it has been checked by a third party, and JevBench's board does not yet list any Jeff checkpoint.
 
@@ -65,6 +67,7 @@ The disagreeable claim I will defend: matching Jev's published overall while con
 ## Changes
 
 - 2026-09-29 - Created from the entrant scan after the 2026-09-28 Show HN thread cleared the bar (471 points, the frankest benchmark table in the wave).
+- 2026-10-06 - Recorded the v1.3 restructure (adapter-first base, fifteen adapters with GGUF exports, Jeff-Code's paired-equal-quality-at-47-percent-less-time claim, the v1.2 checkpoints' move to a jeff-legacy Hugging Face org) and refreshed traction (about 1,400 stars, 575-point thread, pushed 2026-10-05).
 
 ## See also
 
@@ -76,8 +79,8 @@ The disagreeable claim I will defend: matching Jev's published overall while con
 
 ## References
 
-- https://github.com/firelex/jeff - repository: MIT, created 2026-09-28, about 1,350 stars, 65 forks, pushed 2026-10-01 (GitHub API, as of 2026-10-04)
+- https://github.com/firelex/jeff - repository: MIT, created 2026-09-28, about 1,400 stars, 68 forks, pushed 2026-10-05 (GitHub API, as of 2026-10-06)
 - https://raw.githubusercontent.com/firelex/jeff/main/README.md - the benchmark table, games, speed table, caveats, and the AutoJev lineage
-- https://huggingface.co/mstrasser/Jeff-Qwen3.5-0.8B - the 0.8B checkpoint: Apache-2.0, created 2026-09-28, about 1,870 downloads as of 2026-10-04
-- https://news.ycombinator.com/item?id=49883844 - the launch thread (574 points as of 2026-10-03, 2026-09-28), including the negative real-world classification reports
+- https://huggingface.co/mstrasser/Jeff-Qwen3.5-0.8B - the 0.8B checkpoint: Apache-2.0, created 2026-09-28, now redirecting to the jeff-legacy org, about 2,100 downloads as of 2026-10-06
+- https://news.ycombinator.com/item?id=49883844 - the launch thread (575 points as of 2026-10-06, 2026-09-28), including the negative reports from classification use outside the benchmark suites
 - https://github.com/denis-pplx/autojev - the parent recipe: MIT, 120 stars, fine-tunes Qwen3.8-27B for Jev-style decisions

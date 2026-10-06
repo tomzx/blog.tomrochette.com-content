@@ -1,7 +1,7 @@
 ---
 title: Augment Code
 created: 2026-08-24
-updated: 2026-09-20
+updated: 2026-10-06
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, context-engines, coding-agents, enterprise-tools]
 readability: 3
@@ -21,6 +21,7 @@ Augment Code is an AI coding platform whose core is the Context Engine, a real-t
 The Context Engine indexes code, dependencies, docs, and commit history, and retrieves "the slice the task touches" before the model spends tokens exploring, with permission-aware access.
 Auggie CLI is the terminal agent; its v2 (2026) is a fork of the open-source Pi harness with the Context Engine plugged in as an extension that registers a single `codebase-retrieval` tool.
 Cosmos (launched June 3, 2026) runs fleets of "Expert" agents on triggers (PR opened, alert fired, cron), with the Prism model router, sandboxed VMs, a self-hosted daemon option, and YAML-as-code review of the whole factory.
+Intent, the newest surface, is a MacOS app for large-scale agent coordination: every task runs in its own isolated workspace, a Coordinator agent writes a living spec per task so all agents in the workspace build from the same plan, and the CLI agents underneath are swappable (product page as of 2026-10-06).
 Everything is closed-source SaaS with SOC 2 Type II, ISO 42001, zero data retention options, and a no-training-on-your-code commitment; enterprise logos include Adobe, MongoDB, and Webflow.
 
 ## Status
@@ -76,6 +77,7 @@ My disagreeable claim: if the Context Engine numbers are even half right, harnes
 - 2026-08-30 - Extended the blog-cadence claim to August 28, 2026 and re-dated the no-free-tier claim.
 - 2026-09-04 - Added the new $20/month Standard plan to the pricing section.
 - 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
+- 2026-10-06 - Named the Intent product in What it is (coordinated agents, isolated workspaces, living specs).
 - 2026-09-20 - Extended the blog-cadence claim to September 11, 2026 (the Software Factory buildout post) and re-dated the no-free-tier claim.
 
 ## See also
@@ -93,5 +95,6 @@ My disagreeable claim: if the Context Engine numbers are even half right, harnes
 - https://www.augmentcode.com/pricing - Business $100 flat plan, 40% service fee, usage mechanics
 - https://www.augmentcode.com/blog/cosmos-the-platform-for-ai-native-engineering-teams - Cosmos launch, Experts, Prism, compliance stack
 - https://docs.augmentcode.com/introduction - current product surfaces (Cosmos, Auggie CLI, IDE extensions)
+- https://www.augmentcode.com/product/intent - the Intent product page: tasks isolated in workspaces, Coordinator-written living specs, swappable CLI agents
 - https://www.augmentcode.com/blog - blog index, grounds the posting-cadence claim
 - https://news.ycombinator.com/item?id=45586110 - October 2025 pricing backlash thread with the 22.5%/20x admission

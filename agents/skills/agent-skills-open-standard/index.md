@@ -1,7 +1,7 @@
 ---
 title: Agent Skills open standard
 created: 2026-08-24
-updated: 2026-09-09
+updated: 2026-10-05
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, skills, agent-extensions, open-standards, llm=glm-5.3-flash]
 readability: 3
@@ -18,7 +18,7 @@ The Agent Skills open standard (agentskills.io) defines an agent capability as a
 
 The format was developed by Anthropic, released as an open standard on 2025-12-18, and is stewarded publicly on GitHub (agentskills/agentskills) with a Discord and a `skills-ref` validation library.
 Packaging rules are minimal: name is 1-64 lowercase-hyphen characters matching the directory, description is 1-1024 characters, and the body is unrestricted markdown, recommended under 500 lines and 5k tokens.
-Discovery is by directory convention: each harness scans its own skills paths (`.claude/skills`, `.opencode/skills`, `.gemini/skills`), with `.agents/skills` emerging as the cross-tool path (Codex repo and user locations, Gemini CLI aliases, Cursor and Copilot via the Vercel CLI).
+Discovery is by directory convention: each harness scans its own skills paths (`.claude/skills`, `.opencode/skills`, `.gemini/skills`), with `.agents/skills` emerging as the cross-tool path (Codex repo and user locations, Gemini CLI aliases), and Cursor now scans it natively alongside `.cursor/skills` plus the Claude and Codex directories per its own docs (fetched 2026-10-05).
 **Invocation is either explicit (slash commands, `$`, `@`) or implicit, the model matching the task against one description line.**
 
 ## Status
@@ -37,7 +37,7 @@ Mintlify now auto-generates a skill at `.well-known/skills/default/skill.md` for
 ## Cautions
 
 - **The spec standardizes packaging, not behavior: whether a skill fires is model judgment over one description line, so the same skill behaves differently per harness and per model.**
-- Frontmatter fragmentation: Claude Code-only fields (`context: fork`, hooks in skills, `disable-model-invocation`) and Codex's `agents/openai.yaml` live outside the spec, and the Vercel CLI's compatibility matrix shows `context: fork` working in Claude Code alone.
+- Frontmatter fragmentation: Claude Code-only fields (`context: fork`, hooks in skills) and Codex's `agents/openai.yaml` live outside the spec, the Vercel CLI's compatibility matrix shows `context: fork` working in Claude Code alone, and Cursor now accepts its own extras (`paths`, `disable-model-invocation`, `icon`, `color`) beyond the spec's six, so the portable core keeps shrinking relative to what each harness actually reads.
 - Security posture varies wildly: Gemini CLI asks user consent before injecting a skill and granting it file access, OpenCode supports per-skill allow/deny/ask patterns, Claude Code sanitizes synced skills, and Codex adds enterprise skill controls; Anthropic's own engineering post frames the underlying problem as executing untrusted packages.
 - The spec has no versioning or dependency story; third parties (skills.sh, Skilleton) bolt their own on top.
 
@@ -62,6 +62,7 @@ My disagreeable claim: SKILL.md is quietly becoming the interface between softwa
 
 - 2026-08-24 - Created in the Skills category seed.
 - 2026-08-26 - Restored the mandatory not-for bottom-line clause and added Anthropic's untrusted-skills engineering post as its critical source.
+- 2026-10-05 - Cursor's own docs now document native Agent Skills support (`.agents/skills` plus `.cursor/`, `.claude/`, and `.codex/` paths, `paths` and `disable-model-invocation` frontmatter, `/skill` invocation, and a `/migrate-to-skills` built-in in 2.4), so the discovery sentence no longer treats Cursor as a Vercel-CLI-only adopter and the fragmentation caution reflects Cursor's beyond-spec fields.
 
 ## See also
 
@@ -79,4 +80,5 @@ My disagreeable claim: SKILL.md is quietly becoming the interface between softwa
 - https://opencode.ai/docs/skills/ - Claude-compatible and .agents paths, unknown-field behavior
 - https://www.mintlify.com/blog/skill-md - third-party adoption, .well-known convention, install.md deprecation
 - https://github.com/vercel-labs/skills - cross-harness compatibility matrix
+- https://cursor.com/docs/context/skills - Cursor's native Agent Skills docs: directories, beyond-spec frontmatter, invocation, migration skill (fetched 2026-10-05)
 - https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills - the untrusted-skill security risk behind the caution above

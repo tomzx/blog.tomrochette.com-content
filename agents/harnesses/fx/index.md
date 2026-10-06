@@ -1,7 +1,7 @@
 ---
 title: fx
 created: 2026-08-29
-updated: 2026-10-04
+updated: 2026-10-05
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agents, harnesses, zig, vercel, embedding]
 readability: 3
@@ -23,7 +23,7 @@ Feature surface: native [AGENTS.md](https://fx.sh/docs/configure-fx/project-inst
 ## Status
 
 **Active and very young.**
-The repository was created August 11, 2026 and shows 3,269 stars and 368 forks as of 2026-10-04, with v0.0.12 the latest release (published September 30, 2026; session listing up to 560x faster so large stores resume in under a second, better GitHub-flavored Markdown rendering throughout the terminal, and a breaking libfx error-code change) and pushes landing within a day of verification (GitHub API).
+The repository was created August 11, 2026 and shows 3,286 stars and 369 forks as of 2026-10-05, with v0.0.13 the latest release (published October 4, 2026; Ultrafast inference on supported OpenAI models through the AI Gateway at a higher-priced tier, launch up to 23x faster, shell calls up to 8.6x faster, `/mcp add slack` one-step setup, a configurable `auto_compact_percent`, and ACP clients that can steer running turns and host MCP servers over the connection, plus a breaking libfx checkpoint-format change) and pushes landing within a day of verification (GitHub API).
 The launch thread drew 318 points on August 18, 2026 ([HN](https://news.ycombinator.com/item?id=49353339)).
 The README carries its own banner: "Status: Experimental. Use at your own risk."
 
@@ -68,6 +68,7 @@ Not for anyone who needs local models, provider-key BYOK, or a stable release li
 - 2026-09-16 - Updated to v0.0.10 (turn speed and MCP secret protection), refreshed repository scale, and rewrote the credentials caution for the custom model connections preview.
 - 2026-09-24 - Recorded the v0.0.11 release (September 24), which ships custom model connections and themes, makes Grok 4.7 the default model, and adds libfx steering and web search, and refreshed repository scale.
 - 2026-10-02 - Recorded the v0.0.12 release (September 30), which sped session listing up to 560x (large stores resume in under a second), improved GitHub-flavored Markdown rendering, and broke libfx error-code compatibility, and refreshed repository scale.
+- 2026-10-05 - Recorded the v0.0.13 release (October 4), which added Ultrafast inference on supported OpenAI models through the AI Gateway, up to 23x faster launch, one-step Slack MCP setup, configurable auto-compaction, and ACP turn steering and MCP hosting, with a breaking libfx checkpoint format, and refreshed repository scale.
 
 ## See also
 
@@ -78,7 +79,7 @@ Not for anyone who needs local models, provider-key BYOK, or a stable release li
 
 ## References
 
-- https://github.com/vercel-labs/fx - repository, Apache-2.0, scale and releases, as of 2026-10-04
+- https://github.com/vercel-labs/fx - repository, Apache-2.0, scale and releases, as of 2026-10-05
 - https://fx.sh/ - product claims, 6.17 MiB binary size, Wasm demo
 - https://fx.sh/docs/getting-started/authentication - the three-credential provider model and local token storage
 - https://fx.sh/docs/configure-fx/project-instructions - native AGENTS.md loading

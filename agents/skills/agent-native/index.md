@@ -1,7 +1,7 @@
 ---
 title: Agent-Native
 created: 2026-09-13
-updated: 2026-10-03
+updated: 2026-10-05
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, skills, agent-extensions, builder-io, app-frameworks]
 readability: 3
@@ -24,8 +24,8 @@ Install is `npx @agent-native/skills@latest add`, which writes to the shared `.a
 ## Status
 
 **Active and fast-moving, with a thin independent footprint.**
-Both repos claim MIT in their READMEs: the skills catalog at 4.5k stars and 227 forks, the framework at 7.0k stars and 638 forks, as of 2026-10-04.
-The npm package was created 2026-06-10, sits at 0.3.22 with builds shipping several times a day, and pulled 27,350 downloads in the week of 2026-09-25 to 2026-10-01 (fetched 2026-10-03).
+Both repos claim MIT in their READMEs: the skills catalog at 4.5k stars and 227 forks, the framework at 7.1k stars and 640 forks, as of 2026-10-05.
+The npm package was created 2026-06-10, sits at 0.3.22 with builds shipping several times a day, and pulled 20,893 downloads in the week of 2026-09-27 to 2026-10-03 (fetched 2026-10-05).
 No Hacker News threads and no independent coverage surfaced in this run's searches, so the audience so far is GitHub and npm.
 
 ## Strengths
@@ -79,9 +79,9 @@ My disagreeable claim: the apps and the framework are the least durable half, th
 
 ## References
 
-- https://github.com/BuilderIO/skills - the catalog repo: the fifteen skills, installer options, marketplace packaging, 4.5k stars as of 2026-10-04
-- https://github.com/BuilderIO/agent-native - the framework repo: shared-action architecture, app gallery, README says MIT but GitHub license detection still returns nothing (package.json says ISC), 7.0k stars as of 2026-10-04
+- https://github.com/BuilderIO/skills - the catalog repo: the fifteen skills, installer options, marketplace packaging, 4.5k stars as of 2026-10-05
+- https://github.com/BuilderIO/agent-native - the framework repo: shared-action architecture, app gallery, README says MIT but GitHub license detection still returns nothing (package.json says ISC), 7.1k stars as of 2026-10-05
 - https://www.agent-native.com/ - the framework landing
-- https://registry.npmjs.org/@agent-native/skills - package metadata: created 2026-06-10, latest 0.3.22, published from the monorepo, as of 2026-10-04
-- https://api.npmjs.org/downloads/point/last-week/@agent-native/skills - 27,350 weekly downloads, window 2026-09-25 to 2026-10-01, fetched 2026-10-04
+- https://registry.npmjs.org/@agent-native/skills - package metadata: created 2026-06-10, latest 0.3.22, published from the monorepo, as of 2026-10-05
+- https://api.npmjs.org/downloads/point/last-week/@agent-native/skills - 20,893 weekly downloads, window 2026-09-27 to 2026-10-03, fetched 2026-10-05
 - https://hn.algolia.com/api/v1/search?query=%22builder.io%22%20skills&tags=story - the zero-hit search behind the missing-footprint statement

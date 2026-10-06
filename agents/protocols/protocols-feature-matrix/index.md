@@ -1,7 +1,7 @@
 ---
 title: "Protocols Feature Matrix"
 created: 2026-08-24
-updated: 2026-10-04
+updated: 2026-10-05
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, comparison, protocols, interoperability]
 readability: 3
@@ -10,39 +10,40 @@ audience_notes: >
   Assumes you know what JSON-RPC, stdio, and a repository instruction file are; each column links to a full note with sources.
 ---
 
-This matrix compares the six protocols profiled in this section, A2A, ACP, AG-UI, Agent Host Protocol, AGENTS.md, and MCP, so the whole interoperability stack can be read in one table.
+This matrix compares the seven protocols profiled in this section, A2A, ACP, AG-UI, Agent Host Protocol, AGENTS.md, ANP, and MCP, so the whole interoperability stack can be read in one table.
 
-**The six do not compete, they stack (repo-to-agent, editor-to-agent, agent-to-frontend, agent-to-tool, agent-to-agent, client-to-session), and adoption falls with every step up that stack, which is why I call AGENTS.md and MCP defaults, ACP a rising bet, AG-UI the quiet winner by raw download volume, AHP a bet underwritten by VS Code's own distribution, and A2A an enterprise convention the coding-agent world can keep ignoring.**
+**The seven do not compete, they stack (repo-to-agent, editor-to-agent, agent-to-frontend, agent-to-tool, agent-to-agent, client-to-session, open-web identity and discovery), and adoption falls with every step up that stack, which is why I call AGENTS.md and MCP defaults, ACP a rising bet, AG-UI the quiet winner by raw download volume, AHP a bet underwritten by VS Code's own distribution, A2A an enterprise convention the coding-agent world can keep ignoring, and ANP the decentralized open-web bet the market has not bought yet.**
 
 Legend: ✓ supported, ✗ not supported, ~ partial or conditional, ? not verified.
 Each column links to the full research note; every cell below traces to a source cited there or in the references.
 
 ## The matrix
 
-| Feature | [A2A](../a2a/index.md) | [ACP](../acp/index.md) | [AG-UI](../ag-ui/index.md) | [Agent Host Protocol](../agent-host-protocol/index.md) | [AGENTS.md](../agents-md/index.md) | [MCP](../mcp/index.md) |
-| --- | --- | --- | --- | --- | --- | --- |
-| Kind | wire protocol | wire protocol | wire protocol | wire protocol | file convention | wire protocol |
-| Originated by | Google (2025-04) | Zed, with JetBrains | CopilotKit (2025-05) | Microsoft (2026-03) | OpenAI-led (2025-08) | Anthropic (2024-11) |
-| Steward | AAIF (2026-08), TSC | vendor-neutral org | CopilotKit, no foundation | Microsoft, no foundation | AAIF | AAIF |
-| Spec license | Apache-2.0 | Apache-2.0 | MIT | MIT | MIT | MIT |
-| Maturity | v1.0.1 (2026-05) | version 1, v2 draft, remote WIP | packages 1.0.1 (2026-09-29), spec 1.0 | v1.0.0 (2026-10-02) | unversioned, de facto standard | dated revisions (2026-07-28) |
-| What it connects | agent-to-agent | editor-to-agent | agent-to-frontend | client-to-session | repo-to-agent | app-to-tools |
-| Adoption in this section | ✗ none native | ~ growing (OpenCode, JetBrains, Zed) | ✗ none native (CopilotKit ecosystem outside this index) | ~ VS Code reference host | ~ most; Claude Code shipped native support 2026-09-18 | ✓ near-universal |
-| Transport or location | HTTP, gRPC, JSON-RPC | JSON-RPC over stdio | SSE, WebSockets, webhooks | URI channels on a standalone sessions server | Markdown at repo root | JSON-RPC, stdio to sse |
-| Official SDKs | ✓ six | ✓ five | ✓ three (TypeScript, Python, .NET) | ✓ six | ✗ none needed | ✓ any language |
-| Criticism recorded | redundant with MCP | sprawl, flattened UX | single-vendor origin, pre-1.0 churn | more sprawl, one vendor's governance | weak efficacy evidence | tool poisoning, supply chain |
+| Feature | [A2A](../a2a/index.md) | [ACP](../acp/index.md) | [AG-UI](../ag-ui/index.md) | [Agent Host Protocol](../agent-host-protocol/index.md) | [AGENTS.md](../agents-md/index.md) | [ANP](../anp/index.md) | [MCP](../mcp/index.md) |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Kind | wire protocol | wire protocol | wire protocol | wire protocol | file convention | wire protocol suite | wire protocol |
+| Originated by | Google (2025-04) | Zed, with JetBrains | CopilotKit (2025-05) | Microsoft (2026-03) | OpenAI-led (2025-08) | community working group (2024-10) | Anthropic (2024-11) |
+| Steward | AAIF (2026-08), TSC | vendor-neutral org | CopilotKit, no foundation | Microsoft, no foundation | AAIF | community working group, no foundation | AAIF |
+| Spec license | Apache-2.0 | Apache-2.0 | MIT | MIT | MIT | Apache-2.0 | MIT |
+| Maturity | v1.0.1 (2026-05) | version 1, v2 draft, remote WIP | packages 1.0.1 (2026-09-29), spec 1.0 | v1.0.0 (2026-10-02) | unversioned, de facto standard | specs 1.2 latest (1.0, 1.1 archived), two drafts open | dated revisions (2026-07-28) |
+| What it connects | agent-to-agent | editor-to-agent | agent-to-frontend | client-to-session | repo-to-agent | agent-to-agent, open-web | app-to-tools |
+| Adoption in this section | ✗ none native | ~ growing (OpenCode, JetBrains, Zed) | ✗ none native (CopilotKit ecosystem outside this index) | ~ VS Code reference host | ~ most; Claude Code shipped native support 2026-09-18 | ✗ none native (MCP bridge exists) | ✓ near-universal |
+| Transport or location | HTTP, gRPC, JSON-RPC | JSON-RPC over stdio | SSE, WebSockets, webhooks | URI channels on a standalone sessions server | Markdown at repo root | HTTPS, DID documents, messaging profiles | JSON-RPC, stdio to sse |
+| Official SDKs | ✓ six | ✓ five | ✓ three (TypeScript, Python, .NET) | ✓ six | ✗ none needed | ~ community SDKs and an MCP bridge | ✓ any language |
+| Criticism recorded | redundant with MCP | sprawl, flattened UX | single-vendor origin, pre-1.0 churn | more sprawl, one vendor's governance | weak efficacy evidence | near-zero adoption, complexity | tool poisoning, supply chain |
 
 ## Reading the matrix
 
 **Governance converged faster than adoption, and every protocol that went neutral did so only after it had already won or stalled.**
-Google donated A2A to the Linux Foundation in June 2025, Anthropic and OpenAI donated MCP and AGENTS.md to the AAIF the same day (2025-12-09), and A2A itself joined the AAIF as a Growth Stage project on 2026-08-27, so three of the six now sit in the same foundation.
-ACP is stewarded by Zed and JetBrains under a vendor-neutral organization with no foundation home, AHP stays inside the `microsoft` org with repo-first governance, and AG-UI, the newest column, is the one still closest to its corporate parent, CopilotKit, which also sells commercial support for it, so the stack now has three non-foundation columns, and ACP remains the one compounding fastest in editors.
+Google donated A2A to the Linux Foundation in June 2025, Anthropic and OpenAI donated MCP and AGENTS.md to the AAIF the same day (2025-12-09), and A2A itself joined the AAIF as a Growth Stage project on 2026-08-27, so three of the seven now sit in the same foundation.
+ACP is stewarded by Zed and JetBrains under a vendor-neutral organization with no foundation home, AHP stays inside the `microsoft` org with repo-first governance, AG-UI remains closest to its corporate parent, CopilotKit, which also sells commercial support for it, and ANP, the newest column, has no governance above its working group at all, so the stack now has four non-foundation columns, and ACP remains the one compounding fastest in editors.
 I read this as governance following adoption, not causing it.
 
 **Adoption falls as the protocol climbs the stack, and the file convention beat every wire protocol to default status.**
-MCP is table stakes across the harness and surface matrices; AGENTS.md counts more than 60,000 carrying projects, and its one glaring holdout closed on 2026-09-18 when Claude Code shipped native support in 2.1.277; ACP rides OpenCode, JetBrains, Zed, and a Copilot CLI preview; A2A has no native speaker among this index's harnesses, only community setups near Gemini CLI; AHP is just over six months old with 384 stars and a fresh 1.0.0 spec (2026-10-02) as of 2026-10-04, and its reference host ships inside VS Code while the VS Code team has said publicly it is rebuilding its agent infrastructure on the protocol.
-The SDK download ratio recorded in the A2A note, 10.9M monthly versus 257M for MCP, is the gap in one number, and AHP's roughly 682k combined downloads (about 269.8k crates plus 412.4k npm, weekly npm downloads doubling or better through late September) show the same order-of-magnitude distance from the top.
-AG-UI is the anomaly that proves the rule: none of this index's harnesses or surfaces speak it natively, yet its SDKs moved about 14.6M combined npm downloads in the month ending 2026-10-01, because the frontend layer is where end-user products live even though coding tools never touch it.
+MCP is table stakes across the harness and surface matrices; AGENTS.md counts more than 60,000 carrying projects, and its one glaring holdout closed on 2026-09-18 when Claude Code shipped native support in 2.1.277; ACP rides OpenCode, JetBrains, Zed, and a Copilot CLI preview; A2A has no native speaker among this index's harnesses, only community setups near Gemini CLI; AHP is just over six months old with 386 stars and a fresh 1.0.0 spec (2026-10-02) as of 2026-10-05, and its reference host ships inside VS Code while the VS Code team has said publicly it is rebuilding its agent infrastructure on the protocol.
+The SDK download ratio recorded in the A2A note, about 11.2M monthly versus about 231M for MCP as of 2026-10-05, is the gap in one number, and AHP's roughly 733k combined downloads (about 271.5k crates plus 461.1k npm, weekly npm downloads doubling or better through late September) show the same order-of-magnitude distance from the top.
+AG-UI is the anomaly that proves the rule: none of this index's harnesses or surfaces speak it natively, yet its SDKs moved about 15.0M combined npm downloads in the month ending 2026-10-03, because the frontend layer is where end-user products live even though coding tools never touch it.
+ANP sits below even A2A: 1.4k stars after two years and Hacker News stories at 2 and 1 points are the footprint of a protocol whose network effect has not started.
 
 **The consolidations the notes record happened in opposite corners, and neither touched the other's territory.**
 IBM's Agent Communication Protocol (the other ACP, the source of the name collision) merged into A2A in August 2025 under LF AI and Data.
@@ -50,7 +51,7 @@ JetBrains folded its internal Junie protocol into the Agent Client Protocol inst
 Both mergers cut the rival count in 2025 while leaving the enterprise-remote and local-editor layers separate.
 
 **Each recorded criticism is a different species of doubt, and the pattern favors the incumbents.**
-MCP is criticized for risks it creates (tool poisoning, rug pulls, a 10,000-server supply chain); AGENTS.md for whether it helps at all (an ETH Zurich study found no success-rate gain and over 20% added inference cost, against Vercel's counter-evidence); ACP for UX flattening and protocol sprawl; AHP for being a fifth protocol to track under one vendor's governance; A2A for whether it should exist at all; AG-UI for provenance and maturity, a CopilotKit-originated stack that only graduated to 1.0.0 packages on 2026-09-17 and whose adoption story lives in vendor blogs.
+MCP is criticized for risks it creates (tool poisoning, rug pulls, a 10,000-server supply chain); AGENTS.md for whether it helps at all (an ETH Zurich study found no success-rate gain and over 20% added inference cost, against Vercel's counter-evidence); ACP for UX flattening and protocol sprawl; AHP for being a fifth protocol to track under one vendor's governance; A2A for whether it should exist at all; AG-UI for provenance and maturity, a CopilotKit-originated stack that only graduated to 1.0.0 packages on 2026-09-17 and whose adoption story lives in vendor blogs; ANP for building infrastructure for a network that does not exist yet.
 The mature protocols get attacked for their risks, the young ones for their reason to exist or their provenance.
 
 ## Choosing from the matrix
@@ -60,6 +61,7 @@ The mature protocols get attacked for their risks, the young ones for their reas
 - Streaming an agent into a product frontend: AG-UI, accepting CopilotKit's stewardship and dated-release churn (1.0.0 only landed 2026-09-17).
 - Any repository an agent touches: commit a short AGENTS.md, commands and conventions first.
 - Delegating work across vendors or departments: A2A, provided both sides run enterprise platforms.
+- Betting on open-web agent discovery before platforms mediate everything: ANP, as a research bet, not a production choice.
 - Attaching a second client to a live agent session: AHP, provided v1.0.0's short track record and Microsoft's stewardship are acceptable.
 - Wiring sub-agents inside one framework: none of these, native primitives or MCP are simpler.
 
@@ -77,6 +79,7 @@ The mature protocols get attacked for their risks, the young ones for their reas
 - 2026-09-29 - Re-sorted the columns to the section-wide case-insensitive title sort (A2A, ACP, AG-UI, Agent Host Protocol, AGENTS.md, MCP), correcting the 2026-09-25 arrangement that had placed ACP and Agent Host Protocol ahead of A2A and AG-UI; the category page list was brought to the same order in the same run; no cell content changed.
 - 2026-10-02 - Re-verification: refreshed the AG-UI and AHP figures in the prose (AG-UI about 13.1M combined monthly downloads, AHP 382 stars and roughly 597k combined downloads); no cells changed.
 - 2026-10-03 - AHP maturity cell moved to v1.0.0 (2026-10-02) and the AG-UI maturity cell to packages 1.0.1 (2026-09-29), with star and download figures refreshed in the prose (AG-UI about 14.6M combined monthly downloads, AHP 384 stars and roughly 681k combined downloads).
+- 2026-10-05 - Extended from six to seven columns with ANP (the community DID-based agent-interop suite), inserted in sorted position between AGENTS.md and MCP and traced to the new note; the intro, reading, and choosing sections updated for the seventh protocol; AG-UI and AHP figures refreshed in the prose (AG-UI about 15.0M combined monthly downloads, AHP 386 stars and roughly 733k combined downloads).
 
 ## See also
 
@@ -97,6 +100,9 @@ The mature protocols get attacked for their risks, the young ones for their reas
 - https://api.npmjs.org/downloads/point/last-month/@ag-ui/core - 7,967,455 downloads in the month ending 2026-10-02 for the adoption paragraph
 - https://api.npmjs.org/downloads/point/last-month/@ag-ui/client - 5,132,412 downloads in the month ending 2026-10-02 for the adoption paragraph
 - https://agents.md - format, nested scoping, and adoption count for the AGENTS.md column
+- https://github.com/agent-network-protocol/AgentNetworkProtocol - repository facts (1,441 stars, Apache-2.0, created 2024-10-23, pushed 2026-10-01) for the ANP column (GitHub API, as of 2026-10-05)
+- https://agent-network-protocol.com/ - the ANP spec hub (ANP 1.2 latest, 1.0 and 1.1 archived, messaging profiles) for the ANP column
+- https://hn.algolia.com/api/v1/search?query=%22Agent%20Network%20Protocol%22&tags=story - the adoption-footprint scan behind the ANP column's criticism cell
 - https://aaif.io/press/linux-foundation-announces-the-formation-of-the-agentic-ai-foundation-aaif-anchored-by-new-project-contributions-including-model-context-protocol-mcp-goose-and-agents-md/ - same-day AAIF donations of MCP and AGENTS.md
 - https://modelcontextprotocol.io/specification/latest - spec revision 2026-07-28 for the MCP column
 - https://arxiv.org/abs/2602.11988 - the efficacy critique in the AGENTS.md column

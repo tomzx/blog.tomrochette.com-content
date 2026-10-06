@@ -1,7 +1,7 @@
 ---
 title: Paseo
 created: 2026-08-30
-updated: 2026-10-03
+updated: 2026-10-05
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, parallel-agents, mobile, open-source]
 readability: 3
@@ -24,8 +24,8 @@ Apache-2.0 (with a custom copyright notice), by Mohamed Boudra, an independent s
 
 ## Status
 
-Young and fast: about 19.3k stars, 2.3k forks, and 997 open issues and PRs as of 2026-10-03, created 2025-10-13, with more than 5,300 commits on main.
-The v0.10 line went stable on 2026-09-28 with v0.10.0 and v0.10.1 shipping the same day, v0.10.2 (OpenCode v2 header-timeout, context-meter, and question-card fixes) followed on 2026-09-30, and v0.10.3 (October 2) added a confirmation before a pairing link connects to a new or changed host, a supply-chain-style hardening for the relay, while the v0.11.0 beta line continued on October 1-2 (beta.3 up by October 2, Usage window row pinning), after v0.9.2 (2026-09-24), v0.9.0 going stable with v0.9.1 the same day (September 22), the v0.9.0 betas of September 17-18, and v0.8.0 (2026-09-10, plugin header buttons, custom providers, and richer chat components), alongside 165 contributors and an active subreddit and Discord.
+Young and fast: about 19.5k stars, 2.3k forks, and 1,026 open issues and PRs as of 2026-10-05, created 2025-10-13, with more than 5,300 commits on main.
+The v0.10 line went stable on 2026-09-28 with v0.10.0 and v0.10.1 shipping the same day, v0.10.2 (OpenCode v2 header-timeout, context-meter, and question-card fixes) followed on 2026-09-30, and v0.10.3 (October 2) added a confirmation before a pairing link connects to a new or changed host, a supply-chain-style hardening for the relay, while the v0.11.0 beta line continued into October (beta.4 up by October 5), after v0.9.2 (2026-09-24), v0.9.0 going stable with v0.9.1 the same day (September 22), the v0.9.0 betas of September 17-18, and v0.8.0 (2026-09-10, plugin header buttons, custom providers, and richer chat components), alongside 165 contributors and an active subreddit and Discord.
 **The structural risk is on the label: the maintainer described himself on Hacker News as a team of one, and monetization has now arrived as the hosted Hub at $15 per seat per month.**
 
 ## Strengths

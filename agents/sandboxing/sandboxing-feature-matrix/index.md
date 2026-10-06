@@ -1,7 +1,7 @@
 ---
 title: "Sandboxing Feature Matrix"
 created: 2026-08-30
-updated: 2026-10-04
+updated: 2026-10-05
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3-flash, comparison, sandboxing, isolation, security]
 readability: 3
@@ -30,7 +30,7 @@ Each column links to the full research note; every cell below traces to a source
 | Policy model | K8s RBAC plus RuntimeClass | per-project YAML deny rules | ✗ n/a, provisioning only | network allow-list, forge pre-allowed | eBPF inter-sandbox isolation plus L7 per-domain egress policy | TOML config, shared base plus per-environment overrides | tier choice plus env allowlist | ingress gateway plus per-sandbox egress controls | declarative YAML, auditable |
 | Credential handling | your K8s secrets | egress allowlist, stdout masking | ✗ n/a | secrets stay on host, ssh-agent forwarded | ✓ credential vault, keys injected at egress gateway | original home hidden, selected host files read-only | env allowlist per tier | ✓ credential vault for outbound requests | ✓ keys stay at inference proxy |
 | Maturity | v1.0.5 tag, v1beta1 API, breaking migrations | v1.0.0, 14 stars, no audit | 1.0.0-rc, no releases, beta | pre-1.0 (v0.4.0), own breaking-changes banner | pre-1.0 (v0.7.2), five months old | pre-1.0 (v0.3.0), solo maintainer | first stable v2.0 after rewrite | first stable 1.1.0 umbrella release | stable 0.1.x line at v0.1.2, self-declared alpha dropped |
-| Community signal | 4.1k stars, Google-backed | 14 stars, 0 issues, footprint is the signal | 1.2k stars, 217-point HN launch | 1.0k stars, 226-point HN launch, quiet since August | 12.8k stars, best HN thread 7 points | 369 stars, 193-point HN launch | 8.4k stars, single dominant author | 15.6k stars, no real HN launch, Trendshift-driven | 14.7k stars, ~128 contributors |
+| Community signal | 4.1k stars, Google-backed | 14 stars, 0 issues, footprint is the signal | 1.2k stars, 217-point HN launch | 1.0k stars, 226-point HN launch, quiet since August | 12.8k stars, best HN thread 7 points | 372 stars, 193-point HN launch | 8.4k stars, single dominant author | 15.6k stars, no real HN launch, Trendshift-driven | 14.9k stars, ~128 contributors |
 | Pricing | free, cluster costs | free | free, Artifacts service metered | free | free, self-hosted fleet | free | free, provider costs | free, self-hosted | free |
 
 ## Reading the matrix

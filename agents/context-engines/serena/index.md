@@ -1,7 +1,7 @@
 ---
 title: Serena
 created: 2026-10-04
-updated: 2026-10-04
+updated: 2026-10-05
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, context-engines, code-search, lsp, mcp, open-source]
 readability: 3
@@ -25,7 +25,7 @@ Distributed as `serena-agent` on PyPI; the application is GPL-3.0-or-later and t
 ## Status
 
 **Active and very large.**
-About 30.0k stars and 2,041 forks as of 2026-10-04, created 2025-03-23, pushed 2026-09-30, latest release v1.7.0 on 2026-08-09 (GitHub API), with the PyPI package at 1.7.0 across 15 releases and 148,555 downloads in the trailing month (as of 2026-10-04).
+About 30.0k stars and 2,043 forks as of 2026-10-05, created 2025-03-23, pushed 2026-10-04, latest release v1.7.0 on 2026-08-09 (GitHub API), with the PyPI package at 1.7.0 across 15 releases and 147,111 downloads in the trailing month (as of 2026-10-05).
 The JetBrains plugin shows about 19.5k installs on the JetBrains marketplace.
 There was no big launch moment: the tool accumulated stars through practitioner word of mouth, and its Hacker News presence is comment-level, not story-level, with users naming it the indexing layer in OpenCode and Cursor-exit setups.
 
@@ -81,5 +81,5 @@ My disagreeable claim: Serena's growth proves the embedding-index era of code co
 - https://oraios.github.io/serena/ - official documentation hub (tools, clients, configuration, evaluation pages)
 - https://plugins.jetbrains.com/api/plugins/28946 - the JetBrains plugin: Oraios Software (Munich), about 19.5k installs, 7-day trial, no published price, fetched 2026-10-04
 - https://pypi.org/pypi/serena-agent/json - the distribution, version 1.7.0, 15 releases
-- https://pypistats.org/api/packages/serena-agent/recent - 148,555 downloads in the trailing month as of 2026-10-04
+- https://pypistats.org/api/packages/serena-agent/recent - 147,111 downloads in the trailing month as of 2026-10-05
 - https://hn.algolia.com/api/v1/search?query=serena+mcp&tags=comment - the comment-level HN footprint: OpenCode indexing setups and the symbolic-search recommendation

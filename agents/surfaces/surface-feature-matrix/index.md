@@ -1,7 +1,7 @@
 ---
 title: "Surface Feature Matrix"
 created: 2026-08-24
-updated: 2026-10-04
+updated: 2026-10-05
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, comparison, surfaces, ai-editors]
 readability: 3
@@ -25,13 +25,13 @@ Each column links to the full research note; every cell traces to a source cited
 | Open source | ✗ | ✓ Apache-2.0 | ✗ | ✗ | ~ Community IDEs | ✗ | ✓ MIT | ✓ Apache-2.0 | ✗ | ✓ Apache-2.0 | ~ MIT editor | ✓ MIT app and SDK | ✗ | ~ mixed licenses |
 | Free tier | ✓ unlimited completions | ✓ Hobby | ✓ beta free | ✓ Individuals $0 | ✓ 5 credits | ✓ 50 credits | ✓ | ✓ BYOK extension | ✓ | ✓ | ✓ Copilot Free | ✓ free and local-only in beta | ✓ Devin account | ✓ |
 | BYOK | ✗ | ✓ | ✓ | ✓ | ✓ Junie | ✗ | ✓ via OpenCode | ✓ | ? | ✓ | ✓ | ✓ brings your own harness (Claude Code, Codex) | ✗ Devin key only | ✓ |
-| Local models | ✗ | ✓ Ollama | ~ via external agents | ? | ✓ Junie | ✗ | ✓ via OpenCode | ✓ | ? | ? | ✓ | ✓ local-only today | ? | ✓ |
+| Local models | ✗ | ✗ not documented | ~ via external agents | ? | ✓ Junie | ✗ | ✓ via OpenCode | ✓ | ? | ? | ✓ | ✓ local-only today | ? | ✓ |
 | MCP | ✓ | ✓ | ? | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ? | ✓ | ? not verified | ✓ | ✓ |
-| AGENTS.md | ? | ✗ own rules | ? | ✓ | ✗ guidelines.md | ✓ | ✓ | ✓ if enabled | ✓ | ? | ✓ | ? not verified | ✓ | ✓ |
-| Cloud agents | ~ remote control | ✗ | ~ web and cloud runners | ✓ | ~ | ✓ web and Crew | ✗ local machine only | ~ Cloud sunset 2026-05 | ✓ TraeWork | ✗ | ✓ Copilot agent | ✗ review surface, not a host | ✓ Devin | ✗ |
-| Parallel agent management | ✓ command center | ✗ | ✓ threads | ✓ fleets | ? | ✓ Crew | ✓ core loop | ~ orchestrator mode | ✓ concurrent tasks | ✗ | ✓ Agents window | ✗ none advertised | ✓ Command Center | ~ agent panel |
-| Scheduled work | ✓ scheduled messages | ✗ | ? | ✓ automations | ? | ✓ hooks | ✓ cron | ? | ? | ✗ | ~ via GitHub | ✗ none advertised | ? | ✗ |
-| Mobile surface | ✓ remote control | ✗ | ✓ mobile browser | ✓ | ✓ | ✓ | ✓ beta | ? | ? | ✗ | ✓ Copilot app | ✗ desktop app only | ? | ✗ |
+| AGENTS.md | ? | ✓ plus own rules | ? | ✓ | ✗ guidelines.md | ✓ | ✓ | ✓ if enabled | ✓ | ? | ✓ | ? not verified | ✓ | ✓ |
+| Cloud agents | ~ remote control | ✓ cloud agents | ~ web and cloud runners | ✓ | ~ | ✓ web and Crew | ✗ local machine only | ~ Cloud sunset 2026-05 | ✓ TraeWork | ✗ | ✓ Copilot agent | ✗ review surface, not a host | ✓ Devin | ✗ |
+| Parallel agent management | ✓ command center | ~ cloud agents | ✓ threads | ✓ fleets | ? | ✓ Crew | ✓ core loop | ~ orchestrator mode | ✓ concurrent tasks | ✗ | ✓ Agents window | ✗ none advertised | ✓ Command Center | ~ agent panel |
+| Scheduled work | ✓ scheduled messages | ✓ automations | ? | ✓ automations | ? | ✓ hooks | ✓ cron | ? | ? | ✗ | ~ via GitHub | ✗ none advertised | ? | ✗ |
+| Mobile surface | ✓ remote control | ✓ iOS app | ✓ mobile browser | ✓ | ✓ | ✓ | ✓ beta | ? | ? | ✗ | ✓ Copilot app | ✗ desktop app only | ? | ✗ |
 
 ## Reading the matrix
 
@@ -43,11 +43,11 @@ Antigravity and OpenChamber are the extremes, a closed platform giving the most 
 
 **The cloud-agents row separates three philosophies:** platforms with their own cloud (Cursor, Delta, Kiro, Trae, Windsurf under Devin, VS Code via GitHub), tools that only reach your own machine (OpenChamber, Zed, Void), and Antigravity's remote-control middle path.
 
-**Delta is the only column that is not an editor or a host at all: it is a thread with its own worktree, recorded in a version-control layer that keeps the conversation beside the code, which is why its review row is strongest where every other column leans on a forge.**
+**Delta and Whiteboard are the columns that are neither editors nor hosts: Delta is a thread with its own worktree, recorded in a version-control layer that keeps the conversation beside the code, and Whiteboard is a canvas the agent draws onto while your own harness does the running, which is why both review rows work without the pull request every other column ends at.**
 
-**BYOK plus local models is the sovereignty column pair, and only JetBrains (via Junie), OpenChamber (via OpenCode), VS Code, and Zed fill both cells today.**
+**BYOK plus local models is the sovereignty column pair, and JetBrains (via Junie), OpenChamber (via OpenCode), VS Code, Zed, Whiteboard (its own harnesses, local-only), and the departed Roo Code fill both cells today.**
 
-**Two of the thirteen columns are death records, Continue acquired by Cursor in June 2026 and Roo Code sunset by its own team in May 2026, so their cells read as as-they-were snapshots; both exits point at [Cline](../../harnesses/cline/index.md), which tells you where the extension generation's value consolidated.**
+**Two of the fourteen columns are death records, Continue acquired by Cursor in June 2026 and Roo Code sunset by its own team in May 2026, so their cells read as as-they-were snapshots; both exits point at [Cline](../../harnesses/cline/index.md), which tells you where the extension generation's value consolidated.**
 
 ## Choosing from the matrix
 
@@ -66,11 +66,12 @@ Antigravity and OpenChamber are the extremes, a closed platform giving the most 
 - 2026-09-13 - Replaced the dead docs.windsurf.com reference (now 404) with docs.devin.ai, which now serves the Devin Desktop docs alone.
 - 2026-09-16 - Corrected the docs.devin.ai reference after docs.windsurf.com resumed redirecting into it instead of returning 404; no matrix cells moved.
 - 2026-09-24 - Renamed the JetBrains column to its listing title, JetBrains IDEs; no cells moved.
-- 2026-10-04 - Extended from thirteen to fourteen columns with Whiteboard, the MIT agent-drawing review canvas, inserted in sorted position with every cell traced to the new note.
 - 2026-09-24 - Removed the verification preamble line on owner request.
 - 2026-09-27 - Renamed the Antigravity column to its member title, Google Antigravity, and re-sorted the columns by member title (it now sorts under G); no cell content moved.
 - 2026-10-04 - Corrected the Free tier row, where the Cursor column carried Continue's final-release marker and the Antigravity column carried Cursor's Hobby tier name, a misalignment dating to the original ten-column row being one cell short; Cursor now reads Hobby and Antigravity reads Individuals $0, per the member notes.
 - 2026-10-04 - Extended from twelve to thirteen columns with Delta, Zed Industries' multiplayer agent environment over DeltaDB (public beta 2026-09-16), inserted alphabetically between Cursor and Google Antigravity, and updated the intro, reading, and choosing sections.
+- 2026-10-04 - Extended from thirteen to fourteen columns with Whiteboard, the MIT agent-drawing review canvas, inserted in sorted position with every cell traced to the new note.
+- 2026-10-05 - Corrected six Cursor cells against the vendor's live docs and pricing page: AGENTS.md is supported alongside Cursor's own rules, cloud agents, automations, the iOS app, and parallel cloud agents are shipped, and local models are not documented (the old Ollama claim traced to nothing current); also fixed the death-records count, which still said thirteen after Delta and Whiteboard brought the matrix to fourteen columns, extended the neither-editor-nor-host reading to Whiteboard, and corrected the sovereignty pair's column list, which missed Roo Code's as-they-were cells and Whiteboard's harness-plus-local pair.
 
 ## See also
 
@@ -83,7 +84,9 @@ Antigravity and OpenChamber are the extremes, a closed platform giving the most 
 ## References
 
 - https://antigravity.google/pricing - free tier scope for the Antigravity column
-- https://cursor.com/docs/rules - AGENTS.md support for the Cursor column (formerly /docs/context/rules, moved)
+- https://cursor.com/docs/rules - the rules system and AGENTS.md support for the Cursor column (formerly /docs/context/rules, moved)
+- https://cursor.com/docs/models-and-pricing - cloud agents, Automations, Cursor for iOS, and the Teams Premium price for the Cursor column, as of 2026-10-05
+- https://cursor.com/pricing - plan features and tiers for the Cursor column, re-verified 2026-10-05
 - https://code.visualstudio.com/docs/agent-customization/custom-instructions - AGENTS.md support for the VS Code column
 - https://zed.dev/docs/ai/agents - agent and AGENTS.md support for the Zed column
 - https://docs.trae.ai/ide/agent-rules - AGENTS.md support for the Trae column (currently redirects through a Trae promo page mid-site-restructure)

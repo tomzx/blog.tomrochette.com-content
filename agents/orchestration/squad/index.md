@@ -1,7 +1,7 @@
 ---
 title: Squad
 created: 2026-09-29
-updated: 2026-10-04
+updated: 2026-10-05
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, multi-agent, coding-agents, copilot]
 readability: 3
@@ -23,9 +23,9 @@ It entered this pile from the Awesome Multi-Agent Orchestrators directory's new 
 
 ## Status
 
-Active: last push 2026-10-03, latest release v1.0.0 on 2026-10-03, which promoted the dev line to main (GitHub API, as of 2026-10-03).
+Active: last push 2026-10-05, latest release v1.0.1 on 2026-10-04, a release-packaging fix for the Homebrew and WinGet publish credentials, one day after v1.0.0 promoted the dev line to main (GitHub API, as of 2026-10-05).
 The 1.0.0 wave caps the alpha period: the README no longer carries the alpha badge that earlier releases warned about, though the project is still a solo-maintainer CLI and the API caveats deserve re-reading before you script against it.
-Traction is real but concentrated: npm recorded 9,823 downloads of `@bradygaster/squad-cli` in the month ending 2026-10-01, up from 7,684 in the window ending 2026-09-30.
+Traction is real but concentrated: npm recorded 13,452 downloads of `@bradygaster/squad-cli` in the month ending 2026-10-03, up from 9,823 in the window ending 2026-10-01.
 Independent discussion is nearly absent: the largest HN thread I found has 2 points, so the footprint is GitHub plus npm alone, which is itself a signal.
 
 ## Strengths
@@ -62,6 +62,7 @@ Not for teams on other agent runtimes, or anyone who needs a stable, community-v
 
 - 2026-09-29 - Created when the new-entries list from the Awesome Multi-Agent Orchestrators directory resolved.
 - 2026-10-03 - Status move: v1.0.0 published October 3 (dev line promoted to main), the README no longer badges the project alpha, and star count refreshed to 3,251.
+- 2026-10-05 - Recorded v1.0.1 (October 4, Homebrew and WinGet publish-auth fix) as the latest release and refreshed the npm monthly downloads.
 
 ## See also
 

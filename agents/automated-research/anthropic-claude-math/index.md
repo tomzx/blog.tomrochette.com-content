@@ -1,7 +1,7 @@
 ---
 title: Anthropic Claude mathematical research
 created: 2026-09-13
-updated: 2026-10-03
+updated: 2026-10-05
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, anthropic, mathematics, formal-verification]
 readability: 3
@@ -26,11 +26,11 @@ Anthropic's own zeta post footnote also credits a Claude model with disproving t
 
 ## Status
 
-Very active, with three major publications in five weeks as of 2026-09-18.
+Very active and widening, as of 2026-10-05: September alone brought the nine-loop amplitude in N=4 super Yang-Mills (September 25, guest-posted by the physicist who issued the challenge) and, beyond mathematics, a new life-sciences laboratory whose agents discovered a novel CRISPR-like enzyme system (September 23).
 The models are unreleased research versions, so the loop is not reproducible by outsiders today.
-The artifacts are public and machine-checkable: the formal-math repository (251 stars as of 2026-10-03) is Apache-2.0 with pinned toolchains and CI that builds with no `sorry` outside trusted statement files.
+The artifacts are public and machine-checkable: the formal-math repository (253 stars as of 2026-10-05) is Apache-2.0 with pinned toolchains and CI that builds with no `sorry` outside trusted statement files.
 Community footprint is strong, with the zeta result drawing a 282-point Hacker News discussion.
-A three-person experiment formalized Vinogradov's three primes theorem in three days on consumer Claude Max plans, which is the first version of this loop an outside engineer could actually copy.
+A three-person experiment formalized Vinogradov's three primes theorem in three days on consumer Claude Max plans, and the October 1 Claude-shaped science post documents the loop's most copyable instance yet: 36 manuscripts in 18 fields in three months, driven through Claude Code sessions on cloud VMs and an open-source harness (BootLoops), with human collaborators supplying taste and expert review.
 
 ## Strengths
 
@@ -38,6 +38,7 @@ A three-person experiment formalized Vinogradov's three primes theorem in three 
 - The methodology notes read like engineering postmortems: failed attempts, state loss, and the DAG fix are documented.
 - Novelty checking is built into the loop, including downloading and reading prior work before claiming a result.
 - Failures still contributed: about 7 percent of the final FLT lines came from abandoned attempts.
+- The nine-loop solve stayed inside an academic budget, about $100 of compute on 96 CPUs for a week on the bootstrap path, and was validated by Lance Dixon, the researcher whose team had queued the problem.
 
 ## Cautions
 
@@ -45,6 +46,8 @@ A three-person experiment formalized Vinogradov's three primes theorem in three 
 - A counterexample-style disproof can be a weak result: mathematician Andrew Blumberg called the Jacobian counterexample unilluminating even while granting the achievement.
 - The encouraging-prompt detail (a non-mathematician telling Claude to keep going) is charming but also a reminder that the model's own calibration failed here.
 - Everything comes from the vendor's own write-ups; independent reproduction awaits the released models.
+- The independent reads cut against the breakthrough framing: von Hippel's own takeaway is that Claude solved his challenge with known methods on more compute, and Song He's group matched most of the nine-loop result days later with GPT-6 assistance, so the low-hanging-fruit reading beats the new-capability reading.
+- The Claude-shaped science post is also a failure-mode catalog: the author documents Claude declaring victory with an unproven lemma, having no sense of time, and needing every result looked at by a human.
 
 ## Pricing
 
@@ -65,6 +68,7 @@ Not for anyone expecting to rerun the exact loops, since the models are unreleas
 ## Changes
 
 - 2026-09-13 - Created as the Anthropic member of the new Automated research category.
+- 2026-10-05 - Recorded the September-to-October widening: the nine-loop N=4 super Yang-Mills amplitude (September 25, Fable 5.1 in Claude Science, Dixon-validated), the life-sciences laboratory and its ART enzyme discovery (September 23), and the 36-manuscript BootLoops campaign (October 1); formal-math stars refreshed to 253.
 
 ## See also
 
@@ -81,3 +85,6 @@ Not for anyone expecting to rerun the exact loops, since the models are unreleas
 - https://github.com/anthropics/formal-math - the public Apache-2.0 Lean formalizations, Palomar/comparator CI, and the Alpoge-Furman arXiv reference
 - https://mashable.com/tech/anthropic-fable-5-disproves-jacobian-conjecture - press account of the Jacobian disproof and the skeptical expert read
 - https://hn.algolia.com/api/v1/search?query=Anthropic%20mathematics&tags=story&hitsPerPage=20 - the community footprint, including the 282-point zeta discussion
+- https://www.anthropic.com/research/yes-claude-can-do-nine-loops - the nine-loop challenge and solve: budgets, Dixon's validation, and the concurrent GPT-6-assisted human result (fetched 200, 2026-10-05)
+- https://www.anthropic.com/research/claude-shaped-science - the BootLoops campaign: 36 manuscripts in 18 fields, the coordination setup, and the failure-mode catalog (fetched 200, 2026-10-05)
+- https://www.anthropic.com/news/claude-discovers-novel-enzyme-system - the life-sciences lab and the ART discovery, about 950 agents over 21 hours (fetched 200, 2026-10-05)

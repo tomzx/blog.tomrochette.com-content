@@ -1,7 +1,7 @@
 ---
 title: Supermemory
 created: 2026-10-04
-updated: 2026-10-04
+updated: 2026-10-05
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, agent-memory, context-engine, open-source]
 readability: 3
@@ -25,8 +25,8 @@ The company describes itself as a research lab; the repository began under found
 ## Status
 
 **Active and large, with adoption that outruns its discussion footprint.**
-About 31.1k stars, 2,732 forks, and 97 open issues and pull requests as of 2026-10-04, created 2024-02-27, pushed 2026-10-03 (GitHub API).
-The npm SDK pulled 464,149 downloads in the trailing month (2026-09-02 to 2026-10-01) and PyPI shows SDK version 3.62.0.
+About 31.1k stars, 2,734 forks, and 97 open issues and pull requests as of 2026-10-05, created 2024-02-27, pushed 2026-10-05 (GitHub API).
+The npm SDK pulled 484,006 downloads in the trailing month (2026-09-04 to 2026-10-03) and PyPI shows SDK version 3.62.0.
 The hosted platform claims 1T+ tokens processed per month and tens of millions of end users (vendor figures).
 The community record is thin for the star count: its largest Hacker News story threads sit at 5 points or fewer, and the README's three first-place benchmark claims have not been independently replicated in any source I could verify, though a competing project's preliminary run (below) tested it and published a worse-than-claimed number.
 
@@ -82,11 +82,11 @@ My disagreeable claim: Supermemory's local binary is strategically more interest
 
 ## References
 
-- https://github.com/supermemoryai/supermemory - repository, MIT license, 31.1k stars and activity as of 2026-10-04 (the Dhravya/supermemory URL redirects here)
+- https://github.com/supermemoryai/supermemory - repository, MIT license, 31.1k stars and activity as of 2026-10-05 (the Dhravya/supermemory URL redirects here)
 - https://raw.githubusercontent.com/supermemoryai/supermemory/main/README.md - engine architecture, local mode, benchmark claims, MemoryBench, plugin and MCP surfaces
 - https://supermemory.ai/pricing - the four hosted plans, SM-token metering rates, and the Scale-tier compliance stack, as of 2026-10-04
 - https://supermemory.ai - platform claims (1T+ tokens per month, 187ms median recall) and the benchmark figure positioning
-- https://api.npmjs.org/downloads/point/last-month/supermemory - 464,149 trailing-month SDK downloads (2026-09-02 to 2026-10-01), fetched 2026-10-04
+- https://api.npmjs.org/downloads/point/last-month/supermemory - 484,006 trailing-month SDK downloads (2026-09-04 to 2026-10-03), fetched 2026-10-05
 - https://pypi.org/pypi/supermemory/json - Python SDK version 3.62.0
 - https://news.ycombinator.com/item?id=48995181 - the CodeAlmanac thread carrying the one independent LoCoMo datapoint (Supermemory 47.6 percent at a 2k budget)
 - https://hn.algolia.com/api/v1/search?query=supermemory&tags=story - the footprint scan grounding the thin-HN observation (top tool-related thread 5 points, 2024)

@@ -1,7 +1,7 @@
 ---
 title: Agno
 created: 2026-09-29
-updated: 2026-10-03
+updated: 2026-10-05
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, multi-agent, python]
 readability: 3
@@ -18,11 +18,11 @@ Agno is the Apache-2.0 Python agent framework formerly known as Phidata, reposit
 
 A framework plus runtime for building agents and multi-agent teams with memory, knowledge, tools, and reasoning, serving them through AgentOS, and managing them from a control plane with sessions, traces, and a no-code studio.
 It came out of the Phidata project (repo created 2022-05-04) and rebranded to Agno in early 2025, declaring general availability on 2025-04-01 (agno.com).
-The repo sits at 42,520 stars with 6,073 forks, Apache-2.0, Python 3.9+ (GitHub API, PyPI, as of 2026-10-03).
+The repo sits at 42,559 stars with 6,100 forks, Apache-2.0, Python 3.9+ (GitHub API, PyPI, as of 2026-10-05).
 
 ## Status
 
-Active: last push 2026-10-03, latest release v3.1.1 on 2026-10-02, `agno` 3.1.1 on PyPI (GitHub API, PyPI, as of 2026-10-03).
+Active: last push 2026-10-05, latest release v3.1.1 on 2026-10-02, `agno` 3.1.1 on PyPI (GitHub API, PyPI, as of 2026-10-05).
 v3.1.0 added role-based access control to AgentOS (a role store, scope policies, and an audit log) and a database-backed AgentOS filesystem, with a breaking re-key of the filesystem table that requires a manual upgrade script.
 v3.1.1 followed a day later with live progress and cancellation for knowledge page sync (typed `PageSyncProgress` snapshots and a terminal `SyncReport`).
 The GA announcement claimed 1M+ new agents created weekly and 22k stars at the time (company claim).

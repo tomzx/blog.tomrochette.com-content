@@ -1,7 +1,7 @@
 ---
 title: "Agentic Coding Tools Landscape"
 created: 2026-08-22
-updated: 2026-10-04
+updated: 2026-10-06
 status: finished
 tags: [ai, llm, coding-agents, developer-tools, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash]
 readability: 3
@@ -11,7 +11,7 @@ audience_notes: >
 ---
 
 This page maps the agentic development environment as it exists today: the coding agents, the editors they run in, the clouds they run on, and the tools that watch them in parallel.
-Everything here was verified against live sources on 2026-10-04.
+Everything here was verified against live sources on 2026-10-06.
 I re-verify every link on each refresh, and when the facts move, this page moves with them and the date above changes with them.
 
 **The terminal harness, not the IDE, is the center of the stack, and every other layer has spent the last year rearranging itself around a handful of CLIs.**
@@ -31,10 +31,10 @@ Underneath all four sit the conventions that make the parts interchangeable: MCP
 ## Harnesses: the loop lives in the terminal
 
 **The harness, not the model, is the product you actually operate every day, and the big four have become platforms rather than tools.**
-[Claude Code](../harnesses/claude-code/index.md) runs in the terminal, in VS Code and JetBrains, as a desktop app, and on the web, with sessions that move between surfaces, subagents, skills, hooks, an Agent SDK, and scheduled cloud routines, at about 149.3k GitHub stars.
+[Claude Code](../harnesses/claude-code/index.md) runs in the terminal, in VS Code and JetBrains, as a desktop app, and on the web, with sessions that move between surfaces, subagents, skills, hooks, an Agent SDK, and scheduled cloud routines, at about 149.5k GitHub stars.
 [Codex](../harnesses/codex/index.md) covers the same spread, with a CLI, an IDE extension, desktop, web, and cloud forms, and it configures itself through AGENTS.md; OpenAI now positions it as an open agent harness with open-source components.
 [Gemini CLI](../harnesses/gemini-cli/index.md) was the open-source outlier from a major lab (Apache-2.0, about 107k GitHub stars), but Google moved individual users to Antigravity CLI on June 18, 2026, so its famous free tier is now limited to enterprise licenses and paid API keys.
-[OpenCode](../harnesses/opencode/index.md) is the vendor-neutral entry: open source, any provider, with a TUI, an IDE extension, a desktop app, and a web view built off one codebase, at about 211.7k GitHub stars the most-starred vendor-neutral harness in the field.
+[OpenCode](../harnesses/opencode/index.md) is the vendor-neutral entry: open source, any provider, with a TUI, an IDE extension, a desktop app, and a web view built off one codebase, at about 211.9k GitHub stars the most-starred vendor-neutral harness in the field.
 
 The independent tail matters more than its market share suggests.
 [aider](../harnesses/aider/index.md) predates the agentic wave and still does one thing well, pair programming against any LLM with a repo map and automatic commits.
@@ -45,7 +45,7 @@ The independent tail matters more than its market share suggests.
 [goose](../harnesses/goose/index.md), Block's Rust agent, joined the Agentic AI Foundation at its formation in December 2025 and completed the migration to the foundation that April, the field's first foundation-governed agent exit.
 [Qwen Code](../harnesses/qwen-code/index.md), Alibaba's fork of Gemini CLI, made its name as the field's free-tier on-ramp and remains the open-weights showcase, though its Qwen OAuth free tier (2,000 requests per day) was discontinued on April 15, 2026.
 [Kilo Code](../harnesses/kilo-code/index.md) carries the Cline-and-Roo feature-merge forward with subagents, schedules, and cloud tasks bundled in, since July 2026 as part of Anaconda.
-[OpenHands](../harnesses/openhands/index.md), the renamed OpenDevin now living under its own OpenHands org at about 89.9k stars, is the largest platform-camp bet: sandboxed code-shell-browser agents you can self-host behind its new Agent Canvas plus server architecture.
+[OpenHands](../harnesses/openhands/index.md), the renamed OpenDevin now living under its own OpenHands org at about 90.1k stars, is the largest platform-camp bet: sandboxed code-shell-browser agents you can self-host behind its new Agent Canvas plus server architecture.
 [fx](../harnesses/fx/index.md) (Vercel Labs, Apache-2.0) is the first embed-first harness: a ~6 MiB Zig binary with subagents, MCP, and native AGENTS.md, built to live inside other programs and sandboxes rather than to be your environment.
 [jcode](../harnesses/jcode/index.md) (Solo Systems, MIT) is the resource-efficiency bet from a YC-backed solo founder: a Rust daemon with a measured RAM floor, a native memory graph, same-repo swarm coordination, and self-dev mode that rebuilds its own binary.
 [Ante](../harnesses/ante/index.md) (Antigma Labs, Apache-2.0 source) is the footprint-and-offline bet: one ~15MB Rust binary with an embedded llama.cpp engine that runs GGUF models with no account, alongside AGENTS.md, skills, subagents, MCP, and self-published Terminal-Bench runs pinned to public builds.
@@ -57,7 +57,7 @@ The independent tail matters more than its market share suggests.
 [Kimi Code](../harnesses/kimi-code/index.md) (Moonshot AI, MIT) is the challenger-vendor bet: a big-model vendor shipping the harness tuned for its own cheap models, with subagents, hooks, marketplace skills, and ACP in a single Node.js CLI, at about 19.2k combined stars across its two repositories.
 [Exo](../harnesses/exo/index.md) (Exo Labs, MIT) is the self-modification bet: a Rust-and-TypeScript harness with full visibility into its own code and logs, able to edit its prompts, tooling, and policy at runtime, cheapest measured harness in the FrontierHarness run at $1.05 per task.
 [ZCode](../harnesses/zcode/index.md) (Z.ai, Apache-2.0) is the trust bet turned public exhibit: the official GLM workbench was caught silently uploading whole workspaces to cloud storage on September 18, 2026, and was open-sourced three days later as a flattened, process-free dump.
-[DeepSeek Harness](../harnesses/deepseek-harness/index.md) (DeepSeek, MIT) is the plugin-kernel bet at impossible scale: an everything-is-a-plugin design where the model, tools, UI, and agent loop are hot-swappable, at about 243.1k GitHub stars and still prerelease-only (the newest is dsh-v0.2.1-alpha.1) in its second month, the loudest launch this layer has seen.
+[DeepSeek Harness](../harnesses/deepseek-harness/index.md) (DeepSeek, MIT) is the plugin-kernel bet at impossible scale: an everything-is-a-plugin design where the model, tools, UI, and agent loop are hot-swappable, at about 244.1k GitHub stars and still prerelease-only (the newest is dsh-v0.2.1-alpha.1) in its second month, the loudest launch this layer has seen.
 [Unreal Agent](../harnesses/unreal-agent/index.md) (Unreal Labs, MIT, Sequoia and First Round backed) is the async bet: tool calls run as background operations so the model never manages waits or polls, the vendor's Harbor-linked runs claim up to 40 percent cost savings against Codex, and the launch hit 242 points with 1,879 stars in its first three days.
 
 **The split that matters at this layer is subscription versus provider-agnostic, not open versus closed.**
@@ -96,7 +96,7 @@ Read the caps before you promise anyone a timeline.
 Run enough agents in parallel and your bottleneck stops being generation and starts being supervision.
 The vendors answer inside the harness: subagents in Claude Code and Codex, background agent views, git worktrees everywhere.
 A separate category answers from outside: agentic development environments that run any CLI agent in isolated worktrees and give you one surface to steer and review them all.
-On the GitHub [ade topic](https://github.com/topics/ade), Orca leads with about 84.6k stars as of 2026-10-04, ahead of Paseo and Superset, and the curated [awesome-agent-orchestrators](https://github.com/andyrewlee/awesome-agent-orchestrators) list tracks well over a hundred more across TUIs, desktop apps, swarms, loop runners, and task runners.
+On the GitHub [ade topic](https://github.com/topics/ade), Orca leads with about 85.9k stars as of 2026-10-06, ahead of Paseo and Superset, and the curated [awesome-agent-orchestrators](https://github.com/andyrewlee/awesome-agent-orchestrators) list tracks well over a hundred more across TUIs, desktop apps, swarms, loop runners, and task runners.
 [Omnara](../orchestration/omnara/index.md) (YC S25) pushes the category toward infrastructure: an Apache-2.0 Go control plane where an agent is a YAML config and execution and state live server-side, supervised from a dashboard, phone, CLI, REST API, or Slack, positioned as the open-source alternative to Claude Managed Agents.
 [AX](../orchestration/ax/index.md) (Google) pushes the same direction up to the datacenter: an Apache-2.0 Kubernetes-native control plane where agent tasks, workspaces, and network gates are declarative manifests, with checkpoint-resume measured in about a second.
 
@@ -147,6 +147,7 @@ A harness that adopts the open conventions is making a promise about your exit; 
 - 2026-10-03 - Refreshed the verification chain, with the Orca ade-topic lead count moved to about 84.1k and the Crush stars to about 28.5k; every other cited count moved under one percent.
 - 2026-10-04 - Refreshed the verification chain, with the Orca ade-topic lead count moved to about 84.5k and OpenHands to about 89.9k; every other cited count moved under one percent.
 - 2026-10-04 - Recorded Claude Code's native AGENTS.md reading (v2.1.277, shipped 2026-09-18) in the conventions section and dropped fx's stale newest-entrant superlative; a same-pass refresh moved Claude Code to about 149.3k, OpenCode to about 211.7k, DeepSeek Harness to about 243.1k (latest prerelease dsh-v0.2.1-alpha.1), Kimi Code combined to about 19.2k, and Orca to about 84.6k.
+- 2026-10-06 - Refreshed the verification chain, with the Orca ade-topic lead count moved to about 85.9k, OpenHands to about 90.1k, DeepSeek Harness to about 244.1k, Claude Code to about 149.5k, and OpenCode to about 211.9k; Kimi Code combined (about 19.2k), Cline installs (about 5.5 million), Gemini CLI (about 107k), and Crush (about 28.5k) re-verified unchanged, and the newest DeepSeek Harness prerelease is still dsh-v0.2.1-alpha.1.
 
 ## See also
 

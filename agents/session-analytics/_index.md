@@ -14,7 +14,9 @@ Tools that turn what coding agents already record into searchable history, cost 
 - [agents-observe](agents-observe/index.md) - the live dashboard for Claude Code and Codex sessions, hooks feeding a local server, multi-agent trees and cost breakdowns in real time.
 - [agentsview](agentsview/index.md) - the local-first indexer for roughly 60 agents' session files, retrospective search and token-cost reporting in one SQLite store.
 - [AgentTrace](agenttrace/index.md) - the local Rust TUI and CLI that audits session cost, tokens, latency, failures, and health across about 15 coding-agent formats, with CI gates.
+- [ccusage](ccusage/index.md) - the zero-install CLI that turns eighteen coding agents' local usage files into daily-to-session cost reports, the incumbent every tool here benchmarks against.
 - [ClawTrace](clawtrace/index.md) - the hosted tracing and cost-attribution platform for OpenClaw runs, with full-payload traces and an AI analyst named Tracy, billed in credits.
+- [CodeBurn](codeburn/index.md) - the local desktop app and CLI that cuts AI coding spend by task, branch, and project, with plan-quota tracking, config optimization, and session spend guards.
 - [ctx](ctx/index.md) - local search over the sessions agents already recorded, with blame attribution from any line of code back to its transcript.
 - [Memex](memex/index.md) - the Rust CLI that indexes multi-harness session transcripts locally with BM25 or embeddings and resumes the session you find.
 
@@ -29,3 +31,5 @@ Its members are compared on shared rows in the [Session Analytics Feature Matrix
 - 2026-09-27 - Added Agent Analytics.
 - 2026-09-27 - Added AgentTrace.
 - 2026-09-27 - Added ClawTrace.
+- 2026-10-05 - Added ccusage.
+- 2026-10-05 - Added CodeBurn.

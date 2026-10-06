@@ -1,7 +1,7 @@
 ---
 title: OpenAI for Science
 created: 2026-09-13
-updated: 2026-10-02
+updated: 2026-10-05
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, openai, mathematics, science]
 readability: 3
@@ -23,11 +23,11 @@ The program backs academic researchers with free and discounted access, and publ
 
 ## Status
 
-Active and escalating fast, as of 2026-09-29.
+Active and escalating fast, as of 2026-10-05.
 October 2025: senior OpenAI figures posted that GPT-5 had solved unsolved math problems; mathematicians showed the model had dug existing solutions out of old papers, and the posts were deleted.
 March 2026: GPT-5.4 solved the first open problem from Epoch AI's FrontierMath benchmark (a hypergraph-theory constant-factor bound), the benchmark of 14 bespoke unsolved problems explicitly built below Millennium scale.
 May 2026: OpenAI announced an internal model had disproved the Erdős unit distance conjecture, a result experts treated as genuinely productive.
-September 2026: OpenAI published a claimed proof of forced blow-up in R3 and T3 for the Navier-Stokes equations, a Millennium Prize Problem, attributed to an internal model "with very little human input", and shipped it with a public Lean 4 formalization (about 616,000 lines, no extra axioms per a third-party audit, formalized in 17 hours via GPT-6 Astra per OpenAI); NYU's Tristan Buckmaster and Anthropic's Levent Alpöge, who published their own Lean-verified forced Euler proofs hours earlier, disputed credit, OpenAI's Sébastien Bubeck denied trying to cut Alpöge from authorship and apologized for a remark about his career, Sam Altman backed Bubeck and confirmed OpenAI had started the project after rumors that Anthropic's models had solved Millennium problems, and no independent process has adjudicated either account, while Clay still lists the problem as unsolved and OpenAI says it will not claim the prize.
+September 2026: OpenAI published a claimed proof of forced blow-up in R3 and T3 for the Navier-Stokes equations, a Millennium Prize Problem, attributed to an internal model "with very little human input", and shipped it with a public Lean 4 formalization (about 616,000 lines, no extra axioms per a third-party audit, formalized in 17 hours via GPT-6 Astra per OpenAI); NYU's Tristan Buckmaster and Anthropic's Levent Alpöge, who published their own Lean-verified forced Euler proofs hours earlier, disputed credit, OpenAI's Sébastien Bubeck denied trying to cut Alpöge from authorship and apologized for a remark about his career, Sam Altman backed Bubeck and confirmed OpenAI had started the project after rumors that Anthropic's models had solved Millennium problems, and no independent process has adjudicated either account, while Clay's September 11 statement says the problem "has apparently been settled", now badges it Active on its site, and calls verification "deliberately unhurried", and OpenAI says it will not claim the prize.
 
 ## Strengths
 
@@ -40,7 +40,8 @@ September 2026: OpenAI published a claimed proof of forced blow-up in R3 and T3 
 
 - The overclaim pattern is documented: the October 2025 episode ended with deleted posts, and Weil now says models are "not there yet" for novel discovery.
 - The Navier-Stokes claim ships with a checkable Lean artifact, but the encoded statement is option C of Charles Fefferman's 2000 Clay formulation, the variant that allows an external force: Luis Silvestre's summary is "the Clay problem is settled, but the main problem for the Navier-Stokes equations is not", three mathematicians posted a proof on September 17 that OpenAI's forced-blowup method can never extend to the unforced problem, and the credit dispute is unadjudicated.
-- OpenAI first wrote that it "cannot rule out" that the mathematicians' own Codex usage data helped improve the models involved, then said a follow-up investigation confirmed those Codex prompts "could not have influenced the system in any way, including through training", a claim the mathematicians' camp has not accepted.
+- OpenAI first wrote that it "cannot rule out" that the mathematicians' own Codex usage data helped improve the models involved, then said a follow-up investigation confirmed those Codex prompts "could not have influenced the system in any way, including through training", then extended the claim on September 13 to "no user inputs past July 3rd", and the period before July 3, when the use was heaviest, has not been addressed.
+- Twenty-eight Fields Medalists published "A Severe Misalignment of AI in Mathematics" on September 11, warning that treating unsolved problems as benchmarks is "detrimental to the science of mathematics", the strongest institutional criticism this program has drawn.
 - Independent scientists keep finding subtle errors in celebrated results, including a published paper whose core GPT-5-proposed idea tested the wrong property.
 
 ## Pricing
@@ -65,6 +66,7 @@ Not a source of settled results as of 2026-09-29; the Navier-Stokes certificate 
 - 2026-09-25 - Recorded that the Navier-Stokes claim shipped with a public Lean 4 formalization (audited at about 616,000 lines with no extra axioms), that Buckmaster and Alpöge published their own Lean-verified Euler certificates, and reworked the verification caution accordingly.
 - 2026-09-29 - Recorded the formulation finding: the certificate covers Clay option C (forced blow-up), Silvestre and other experts name the unforced problem as the real one, and a September 17 three-mathematician proof shows OpenAI's method cannot extend to it (Scientific American, 2026-09-21).
 - 2026-10-02 - Recorded OpenAI's follow-up investigation claim that Buckmaster's Codex prompts could not have influenced the system in any way, including through training, superseding its earlier "cannot rule out" line, and added the Wikipedia priority-controversy article as a reference.
+- 2026-10-05 - Corrected the Clay status (its September 11 statement says the problem has "apparently been settled", the problem page now reads Active, verification "deliberately unhurried"), recorded the 28-Fields-Medalist declaration of September 11, and the September 13 extension of OpenAI's data-influence claims to "no user inputs past July 3rd".
 
 ## See also
 
@@ -82,4 +84,6 @@ Not a source of settled results as of 2026-09-29; the Navier-Stokes certificate 
 - https://mashable.com/tech/anthropic-fable-5-disproves-jacobian-conjecture - the May 2026 unit-distance disproof context and expert reads on AI counterexamples
 - https://stanfordtechreview.com/articles/openai-buckmaster-navier-stokes-lean-proofs - the third-party audit of both sides' Lean certificates (line counts, zero extra axioms)
 - https://www.scientificamerican.com/article/did-openai-solve-the-wrong-navier-stokes-problem/ - the formulation fight: Clay option C, Silvestre's "main problem is unsolved", and the September 17 no-extension proof
-- https://en.wikipedia.org/wiki/Navier%E2%80%93Stokes_priority_controversy - the consolidated timeline of the credit dispute and both sides' statements
+- https://en.wikipedia.org/wiki/Navier%E2%80%93Stokes_priority_controversy - the consolidated timeline of the credit dispute, both sides' statements, the Clay status change, and the Fields Medalist declaration (fetched 200, 2026-10-05)
+- https://www.claymath.org/news/navier-stokes-announcement - Clay's September 11 statement: "apparently been settled" and "deliberately unhurried" verification (fetched 200, 2026-10-05)
+- https://mathandai.org/ - "A Severe Misalignment of AI in Mathematics", the declaration text and its 28 Fields Medalist signatories, DOI 10.5281/zenodo.22737750 (fetched 200, 2026-10-05)

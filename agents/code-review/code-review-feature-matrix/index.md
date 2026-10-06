@@ -1,7 +1,7 @@
 ---
 title: "Code Review Feature Matrix"
 created: 2026-08-30
-updated: 2026-10-04
+updated: 2026-10-06
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3-flash, comparison, code-review, ai-review, developer-tools]
 readability: 3
@@ -30,7 +30,7 @@ Each column links to the full research note; every cell traces to a source cited
 | Learns team rules | ✓ learnings | ~ agents-as-code config you write | ~ custom rules | ✓ from review comments, isolated per organization | ✓ plain-language rules, workflow learning | ✗ fixed rule pipeline | ~ best-practices files you curate | ? |
 | License | ✗ proprietary, free forever for public repos | ✗ closed core, small OSS tooling repos | ✗ proprietary, Cursor-owned | ✗ proprietary | ~ AGPL-3.0 core, ee/ paths commercial | ✓ Apache-2.0 | ~ PR-Agent MIT, Qodo Merge proprietary | ✗ reviewer proprietary, the MIT repo is the refactoring lineage |
 | Pricing anchor | Essentials (ex-Pro) $24, Team (ex-Pro Plus) $48 per user/mo annual, new Advanced $72 annual ($90 monthly) with variable-priced full scans, public repos free | tokens at cost plus a 10% fee, free for individuals on a Claude Code or Codex subscription, support packages from $5k/mo | Hobby free, Starter $20, Team $40 per user/mo | $30/seat plus credits, $1 per extra credit | Community free, Teams BYOK $10/dev/mo plus raw tokens, Enterprise custom with SOC 2, self-host free | free, your model tokens | $0.012 per credit packs, Pro Team $30, no permanent free tier | Pro $12, Team $24 per user/mo, open source repos free |
-| Maturity and scale | $143M Series C at a $1.5B valuation, 17k customers (2026-08) | pivoted 2026-07, $2M seed (2024) | ~$81M raised, $290M valuation, acquired by Cursor 2025-12 | $25M Series A (2025-09), v5 | 1,443 stars, no verified funding (2026-10-04) | 43.5k stars, 135 releases in 5 months (2026-10-04) | 13,254 stars (2026-10-04), $50M raised | repo since 2019, 1,871 stars, no verified funding |
+| Maturity and scale | $143M Series C at a $1.5B valuation, 17k customers (2026-08) | pivoted 2026-07, $2M seed (2024) | ~$81M raised, $290M valuation, acquired by Cursor 2025-12 | $25M Series A (2025-09), v5 | 1,449 stars, no verified funding (2026-10-06) | 43.9k stars, 136 releases in 5 months (2026-10-06) | 13,274 stars (2026-10-06), $50M raised | repo since 2019, 1,870 stars, no verified funding |
 
 ## Reading the matrix
 
@@ -75,6 +75,7 @@ Its pricing now leads with a free on-ramp for individuals who bring their own Cl
 - 2026-09-29 - Refreshed the OpenCodeReview maturity cell to 42.4k stars and 134 releases; all other cells re-verified unchanged.
 - 2026-10-02 - Ellipsis's platform fee doubled to 20% of token cost (pricing cell and the Ellipsis paragraph updated); refreshed the Kodus, OpenCodeReview, and Qodo maturity cells to their 2026-10-02 repo numbers.
 - 2026-10-03 - Ellipsis's platform fee reverted to 10% of token cost (pricing cell and the Ellipsis paragraph updated); refreshed the Kodus (1,442), OpenCodeReview (43.4k), and Qodo (13,246) maturity cells to their 2026-10-03 repo numbers.
+- 2026-10-06 - Refreshed the Kodus (1,449), OpenCodeReview (43.9k stars, 136 releases), Qodo (13,274), and Sourcery (1,870) maturity cells to their 2026-10-06 repo numbers; all other cells re-verified unchanged, with every pricing page re-fetched.
 
 ## See also
 

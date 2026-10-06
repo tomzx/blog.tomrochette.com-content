@@ -1,7 +1,7 @@
 ---
 title: CubeSandbox
 created: 2026-09-16
-updated: 2026-10-04
+updated: 2026-10-05
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, sandboxing, microvm, security]
 readability: 3
@@ -21,8 +21,8 @@ Documentation, changelogs, and examples (code execution, browser automation, Ope
 
 ## Status
 
-**Five months from first release to v0.7.2 with 12,797 stars as of 2026-10-04, while the community discussion never escaped single digits on Hacker News.**
-Created 2026-04-10, first release v0.1.0 on 2026-04-20, latest v0.7.2 on 2026-09-24, pushed 2026-09-30, 1,170 forks, 166 open issues and PRs as of 2026-10-04.
+**Five months from first release to v0.7.2 with 12,806 stars as of 2026-10-05, while the community discussion never escaped single digits on Hacker News.**
+Created 2026-04-10, first release v0.1.0 on 2026-04-20, latest v0.7.2 on 2026-09-24, pushed 2026-09-30, 1,171 forks, 167 open issues and PRs as of 2026-10-05.
 The team launched on HN themselves as "a less than 60ms, open-source alternative to E2B using RustVMM and KVM" (7 points), and the same project drew two more submissions from other accounts within four days at 5 and 3 points.
 The sub-60ms figure is single-concurrency on bare metal by the project's own benchmark, degrading to a 67ms average and 137ms P99 at 50 concurrent creations, and no independent benchmark, audit, or critical write-up exists that I could find.
 

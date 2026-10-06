@@ -1,7 +1,7 @@
 ---
 title: "Spec Driven Development Feature Matrix"
 created: 2026-08-27
-updated: 2026-10-04
+updated: 2026-10-06
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, comparison, spec-driven-development, process, llm=glm-5.3-flash]
 readability: 3
@@ -10,36 +10,37 @@ audience_notes: >
   Assumes you know what a review gate is, already run a coding agent, and can tell a repo-native toolkit from a hosted platform.
 ---
 
-This matrix compares the five spec-driven development tools profiled in this section, feature by feature.
+This matrix compares the seven spec-driven development tools profiled in this section, feature by feature.
 
-**The category splits on two axes: who owns the specs (your repo or a platform) and whether the ceremony sizes itself to the change, and the waterfall critique is the standing judge of the second axis, while the new column adds a third question, whether the steward survives their own controversy.**
+**The category splits on two axes: who owns the specs (your repo or a platform) and whether the ceremony sizes itself to the change, and the waterfall critique is the standing judge of the second axis, while the GSD lineage adds a third question, whether the steward survives their own controversy, and the two October additions extend the field to a vendor-backed lifecycle engine and an installable skill set.**
 
 Legend: ✓ supported, ✗ not supported, ~ partial or conditional, ? not verified.
 Each column links to the full research note; every cell below traces to a source cited there or in the references.
 
 ## The matrix
 
-| Feature | [BMad Method](../bmad-method/index.md) | [GitHub Spec Kit](../spec-kit/index.md) | [GSD](../gsd/index.md) | [OpenSpec](../openspec/index.md) | [Tessl](../tessl/index.md) |
-| --- | --- | --- | --- | --- | --- |
-| Kind | method plus agent workflows, npm install | Python CLI plus slash-command templates | npm command-and-prompt framework, multi-runtime, ecosystem growing around the loop | spec toolkit CLI, npm install | hosted platform, thin CLI |
-| Steward | BMad Code, LLC | GitHub | original archived at TÂCHES (gsd-build), active as Open GSD community | Fission AI | Tessl (Podjarny), $125M raised |
-| License | ✓ MIT | ✓ MIT | ✓ MIT | ✓ MIT | ✗ closed platform |
-| Artifact model | briefs, specs, architecture carried forward | constitution, spec, plan, tasks files | milestone state persisted as STATE.md, CONTEXT.md, PLAN.md; heavy work in fresh-context subagents | delta proposals archived into a living ledger | specs live on the platform |
-| Workflow entry | `bmad-build` with right-sized depth | `/speckit-constitution` then specify | `/gsd-new-project` or `/gsd-onboard`, then discuss-plan-execute-verify-ship per milestone | `/opsx:propose` then apply and archive | web workflow |
-| Ceremony sizing | ✓ right-sizes to the change | ✗ fixed ceremony | ~ same five-step loop each milestone, lighter quick-task mode | ~ fixed but light | ? not verified |
-| Brownfield support | ✓ establish-context path | ~ not the primary case | ✓ `/gsd-onboard` for existing repos | ✓ explicit design goal | ? not verified |
-| Convergence checking | ✓ verify and learn loop | ✓ converge step | ✓ verify phase walks the build before done | ~ archive keeps ledger current | ? not verified |
-| Unattended execution | ✓ BMad Loop module | ✗ | ~ parallel executor waves, human verify step, gsd-loop works a GitHub queue | ✗ | ? not verified |
-| Adoption | about 53.8k stars | about 140k stars | original archived at 64.4k stars; successor 10.1k stars, 43k npm downloads a month | about 71k stars, 2M npm downloads a month | 24-point raise thread, thin OSS surface |
-| Pricing | free | free | free | free | free tier plus Team at $100 per month, Enterprise custom |
+| Feature | [AI-DLC](../ai-dlc/index.md) | [BMad Method](../bmad-method/index.md) | [cc-sdd](../cc-sdd/index.md) | [GitHub Spec Kit](../spec-kit/index.md) | [GSD](../gsd/index.md) | [OpenSpec](../openspec/index.md) | [Tessl](../tessl/index.md) |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Kind | vendor methodology plus native CLI engine, installer per harness | method plus agent workflows, npm install | 17-skill SDD workflow installed into each agent's native skills, npm installer | Python CLI plus slash-command templates | npm command-and-prompt framework, multi-runtime, ecosystem growing around the loop | spec toolkit CLI, npm install | hosted platform, thin CLI |
+| Steward | AWS Labs (methodology by Raja SP, AWS principal solutions architect) | BMad Code, LLC | solo (Gota, gotalab) | GitHub | original archived at TÂCHES (gsd-build), active as Open GSD community | Fission AI | Tessl (Podjarny), $125M raised |
+| License | ✓ MIT-0 | ✓ MIT | ✓ MIT | ✓ MIT | ✓ MIT | ✓ MIT | ✗ closed platform |
+| Artifact model | plans, units, and decisions in repo state, 113-event audit trail, learned team rules | briefs, specs, architecture carried forward | brief, roadmap, requirements/design/tasks per spec with `_Boundary:_` and `_Depends:_` annotations, per-task implementation notes | constitution, spec, plan, tasks files | milestone state persisted as STATE.md, CONTEXT.md, PLAN.md; heavy work in fresh-context subagents | delta proposals archived into a living ledger | specs live on the platform |
+| Workflow entry | `/aidlc <request>`, routed into one of 11 workflow profiles | `bmad-build` with right-sized depth | `/kiro-discovery` routes to spec, multi-spec batch, or direct implementation | `/speckit-constitution` then specify | `/gsd-new-project` or `/gsd-onboard`, then discuss-plan-execute-verify-ship per milestone | `/opsx:propose` then apply and archive | web workflow |
+| Ceremony sizing | ~ Classic, Express, and focused profiles; all 33 stages remain available | ✓ right-sizes to the change | ✓ discovery can route to no-spec direct implementation | ✗ fixed ceremony | ~ same five-step loop each milestone, lighter quick-task mode | ~ fixed but light | ? not verified |
+| Brownfield support | ~ bug-fix, infrastructure, and security profiles target existing systems; no explicit brownfield onboarding path | ✓ establish-context path | ✓ `/kiro-steering` captures existing project context; Kiro specs import | ~ not the primary case | ✓ `/gsd-onboard` for existing repos | ✓ explicit design goal | ? not verified |
+| Convergence checking | ~ human approval gates plus source-bound review evidence at every stage | ✓ verify and learn loop | ✓ per-task independent reviewer plus `/kiro-validate-impl` GO/NO-GO verdict | ✓ converge step | ✓ verify phase walks the build before done | ~ archive keeps ledger current | ? not verified |
+| Unattended execution | ✗ approval gates require human decisions by design | ✓ BMad Loop module | ~ autonomous `/kiro-impl` per task, humans hold the phase gates | ✗ | ~ parallel executor waves, human verify step, gsd-loop works a GitHub queue | ✗ | ? not verified |
+| Adoption | about 5k stars | about 53.8k stars | about 3.7k stars, 24k npm downloads a month | about 140k stars | original archived at 64.4k stars; successor 10.2k stars, 43k npm downloads a month | about 71k stars, 2.5M npm downloads a month | 24-point raise thread, thin OSS surface |
+| Pricing | free | free | free | free | free | free | free tier plus Team at $100 per month, Enterprise custom |
 
 ## Reading the matrix
 
-**The license and steward rows tell the ownership story: four repo-native MIT toolkits against one closed, funded platform, and the free tools set the price anchor at zero while Tessl spends $125M betting specs are rentable.**
+**The license and steward rows tell the ownership story: six repo-native MIT-licensed toolkits against one closed, funded platform, and the free tools set the price anchor at zero while Tessl spends $125M betting specs are rentable.**
 The adoption row inverts the funding row, which is the tension to watch.
-GSD adds the stewardship question the category had not faced: the archived original out-stars every column except Spec Kit, and its 10.1k-star successor is rebuilding trust in public.
+GSD adds the stewardship question the category had not faced: the archived original out-stars every column except Spec Kit, and its 10.2k-star successor is rebuilding trust in public.
+The two newest columns extend the steward axis: AI-DLC is the first column owned by a cloud vendor's methodology org, and cc-sdd is the first owned by one person.
 
-**Ceremony sizing is the design axis the waterfall critique created: only BMad sends small changes straight to build, and the artifact-first tools pay for their simplicity with fixed ceremony (GSD at least ships a lighter quick-task mode).**
+**Ceremony sizing is the design axis the waterfall critique created: only BMad and cc-sdd let small changes skip the ceremony (BMad by design, cc-sdd by discovery routing), and the artifact-first tools pay for their simplicity with fixed ceremony (GSD at least ships a lighter quick-task mode).**
 If your changes are mostly small, that row alone picks your column.
 
 **Brownfield is the sleeper row: OpenSpec is explicitly built for existing code, BMad has an establish-context path, GSD's onboard command covers it, and spec-kit's scaffolding still assumes a fresher repo than most of us have.**
@@ -49,6 +50,8 @@ If your changes are mostly small, that row alone picks your column.
 - Existing codebase, want the spec ledger to stay current: OpenSpec.
 - Want a whole delivery process with roles and retrospectives: BMad Method.
 - Heterogeneous org, zero cost, constitution ceremony acceptable: Spec Kit.
+- Want a whole-lifecycle, vendor-backed engine with gates and an audit trail: AI-DLC, accepting the AWS gravity.
+- Want review machinery installed as skills in the agent you already run: cc-sdd, on its two stable hosts.
 - Want a phase loop that quarantines heavy work in fresh-context subagents: GSD, accepting the young successor's governance.
 - Want specs as a managed product and accept portability questions: Tessl.
 
@@ -64,6 +67,7 @@ If your changes are mostly small, that row alone picks your column.
 - 2026-09-27 - Refreshed the GSD (successor 9.9k stars, 41.2k npm downloads) and OpenSpec (2M npm downloads) adoption cells.
 - 2026-09-29 - Refreshed the BMad (about 54k stars), GSD (41.9k npm downloads), and OpenSpec (about 71k stars) adoption cells; all other cells re-verified unchanged.
 - 2026-10-02 - Refreshed the BMad (about 53.7k stars) and GSD (successor 10.1k stars, 43k npm downloads a month) adoption cells; all other cells re-verified unchanged.
+- 2026-10-06 - Extended from five to seven columns with AI-DLC and cc-sdd (inserted alphabetically), every row gaining cells, the reading and choosing prose extended to the vendor-backed and skill-set columns, and the GSD (successor 10.2k stars) and OpenSpec (2.5M npm downloads) adoption cells refreshed.
 
 ## See also
 
@@ -75,6 +79,8 @@ If your changes are mostly small, that row alone picks your column.
 ## References
 
 - https://github.com/bmad-code-org/BMAD-METHOD - loop, modules, licensing for the BMad column
+- https://github.com/awslabs/aidlc-workflows - profiles, phases, agents, and audit trail for the AI-DLC column
+- https://github.com/gotalab/cc-sdd - skill set, hosts, and dispatch internals for the cc-sdd column
 - https://github.com/Fission-AI/OpenSpec - opsx workflow and philosophy for the OpenSpec column
 - https://github.com/github/spec-kit - workflow steps and integrations for the Spec Kit column
 - https://martinfowler.com/articles/exploring-gen-ai/sdd-3-tools.html - the third-party analysis covering Kiro, Spec Kit, and Tessl

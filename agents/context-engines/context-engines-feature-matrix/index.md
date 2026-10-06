@@ -1,7 +1,7 @@
 ---
 title: "Context Engines Feature Matrix"
 created: 2026-08-24
-updated: 2026-10-04
+updated: 2026-10-05
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, comparison, context-engines, code-retrieval, developer-tools]
 readability: 3
@@ -10,7 +10,7 @@ audience_notes: >
   Assumes you know what MCP, code intelligence, and token budgets mean; each column links to a full note with sources.
 ---
 
-This matrix compares the nine context tools profiled in this section, feature by feature, so the shortlisting step does not require reading nine notes.
+This matrix compares the ten context tools profiled in this section, feature by feature, so the shortlisting step does not require reading ten notes.
 
 **The interesting question is not which engine is best but whether a repository needs one at all: most codebases sit below the only published payback threshold in the category, and I claim most buyers of these engines are paying for an index their own vendors' data cannot justify.**
 
@@ -19,26 +19,26 @@ Each column links to the full research note; every cell traces to a source cited
 
 ## The matrix
 
-| Feature | [Augment Code](../augment-code/index.md) | [Graft](../graft/index.md) | [Graphify](../graphify/index.md) | [qmd](../qmd/index.md) | [Repomix](../repomix/index.md) | [rtk](../rtk/index.md) | [Semble](../semble/index.md) | [Serena](../serena/index.md) | [Sourcegraph code context platform](../sourcegraph-code-context/index.md) |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Kind | coding platform | local context-graph CLI | local knowledge-graph CLI | local search engine | local CLI | CLI output proxy | local search index | MCP semantic-code toolkit | search platform |
-| Deployment | cloud SaaS | local CLI, MCP, and repo files; Trail Brain is the hosted upsell | local CLI, hosted plans or self-host | local CLI plus daemon | local CLI | local binary | local CLI, MCP, or library | local MCP server (stdio or HTTP), paid JetBrains plugin backend | single-tenant cloud or self-host |
-| Open source | ~ harness forks OSS Pi | ✓ MIT | ✓ Apache-2.0 | ✓ MIT | ✓ MIT | ✓ Apache-2.0 | ✓ MIT | ~ application GPL-3.0-or-later, SolidLSP MIT | ~ SCIP only |
-| Free tier | ✗ none | ✓ entirely | ✓ CLI entirely | ✓ entirely | ✓ entirely | ✓ CLI entirely | ✓ entirely | ✓ core entirely; JetBrains backend paid | ~ public search only |
-| Index model | real-time semantic index | tree-sitter wiring graph plus optional LLM-written markdown nodes, no vectors | deterministic AST knowledge graph, no vectors | SQLite FTS5 plus vectors, markdown chunks | none, whole-repo pack | none, per-command output filtering | static embeddings plus BM25 fused, tree-sitter chunks | none, live language-server parse (40+ languages); optional JetBrains analysis | indexed search plus SCIP intel |
-| Index freshness | real-time | structural re-sync per query, background rebuild after edits | snapshot at build time | indexed, refreshed on update | snapshot at pack time | live per command | cached index, auto-invalidated on change | live parse of the working tree, no index | index-dependent |
-| Delivery to agents | own harness only | instruction files in 9 agents, 6-tool MCP server, Claude Code hooks and statusline | skill in 17 assistants (vendor count), MCP, CLI | CLI, MCP server, SDK, plugin | CLI pack, ~ MCP | hooks rewriting commands in 16 tools | MCP, CLI, AGENTS.md instructions, sub-agent installer | MCP server (stdio or HTTP) | MCP server |
-| Scale where it pays | large private repos | large repos where agents re-explore, no published threshold | repo-scale Q&A and path tracing | personal docs and knowledge bases | under a few hundred K tokens | long interactive sessions with noisy commands | repos where grep-and-read burns tokens | large polyglot repos, reference hunts and refactors | 400K+ LOC |
-| Writes code | ✓ agents and factory | ✗ maps, queries, blast radius | ✗ graphs and queries | ✗ searches only | ✗ packs only | ✗ filters output | ✗ searches only | ✓ symbol-level edits and renames | ~ migrations, beta |
-| Pricing model | $20/$100 flat tiers plus usage | free, MIT; Trail Brain from $20k/yr is the upsell | free core, Pro $10/mo yearly or $15 monthly, Teams $20/seat/mo yearly or $29 monthly, Enterprise early access | free, MIT | free, MIT | free CLI, Pro unpriced | free, MIT | free core; paid JetBrains plugin, price unpublished | from $16K/year |
-| Enterprise orientation | ✓ SOC 2, ISO 42001 | ~ Trail Brain: SOC 2 Type II all plans, HIPAA BAA on Large | ~ hosted Teams/Enterprise plans | ✗ | ✗ | ~ Pro tier, on-prem option | ✗ | ~ paid JetBrains backend, no enterprise plan | ✓ SOC 2, ISO 27001 |
+| Feature | [Augment Code](../augment-code/index.md) | [CodeAlive](../codealive/index.md) | [Graft](../graft/index.md) | [Graphify](../graphify/index.md) | [qmd](../qmd/index.md) | [Repomix](../repomix/index.md) | [rtk](../rtk/index.md) | [Semble](../semble/index.md) | [Serena](../serena/index.md) | [Sourcegraph code context platform](../sourcegraph-code-context/index.md) |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Kind | coding platform | hosted context-engine API | local context-graph CLI | local knowledge-graph CLI | local search engine | local CLI | CLI output proxy | local search index | MCP semantic-code toolkit | search platform |
+| Deployment | cloud SaaS | cloud SaaS; local Docker MCP server that still authenticates to the cloud | local CLI, MCP, and repo files; Trail Brain is the hosted upsell | local CLI, hosted plans or self-host | local CLI plus daemon | local CLI | local binary | local CLI, MCP, or library | local MCP server (stdio or HTTP), paid JetBrains plugin backend | single-tenant cloud or self-host |
+| Open source | ~ harness forks OSS Pi | ✗ closed core; self-hostable MCP server only | ✓ MIT | ✓ Apache-2.0 | ✓ MIT | ✓ MIT | ✓ Apache-2.0 | ✓ MIT | ~ application GPL-3.0-or-later, SolidLSP MIT | ~ SCIP only |
+| Free tier | ✗ none | ✓ free tier with MCP access (25 MB repos, 100 chats/month) | ✓ entirely | ✓ CLI entirely | ✓ entirely | ✓ entirely | ✓ CLI entirely | ✓ entirely | ✓ core entirely; JetBrains backend paid | ~ public search only |
+| Index model | real-time semantic index | server-side code graph plus hybrid semantic, lexical, and graph-traversal retrieval | tree-sitter wiring graph plus optional LLM-written markdown nodes, no vectors | deterministic AST knowledge graph, no vectors | SQLite FTS5 plus vectors, markdown chunks | none, whole-repo pack | none, per-command output filtering | static embeddings plus BM25 fused, tree-sitter chunks | none, live language-server parse (40+ languages); optional JetBrains analysis | indexed search plus SCIP intel |
+| Index freshness | real-time | refreshed on every push | structural re-sync per query, background rebuild after edits | snapshot at build time | indexed, refreshed on update | snapshot at pack time | live per command | cached index, auto-invalidated on change | live parse of the working tree, no index | index-dependent |
+| Delivery to agents | own harness only | hosted MCP endpoint, Docker MCP, REST API, npx installer | instruction files in 9 agents, 6-tool MCP server, Claude Code hooks and statusline | skill in 17 assistants (vendor count), MCP, CLI | CLI, MCP server, SDK, plugin | CLI pack, ~ MCP | hooks rewriting commands in 16 tools | MCP, CLI, AGENTS.md instructions, sub-agent installer | MCP server (stdio or HTTP) | MCP server |
+| Scale where it pays | large private repos | multi-repo exploration on a metered budget; published tiers cap repos at 25-500 MB | large repos where agents re-explore, no published threshold | repo-scale Q&A and path tracing | personal docs and knowledge bases | under a few hundred K tokens | long interactive sessions with noisy commands | repos where grep-and-read burns tokens | large polyglot repos, reference hunts and refactors | 400K+ LOC |
+| Writes code | ✓ agents and factory | ~ review agent comments on PRs | ✗ maps, queries, blast radius | ✗ graphs and queries | ✗ searches only | ✗ packs only | ✗ filters output | ✗ searches only | ✓ symbol-level edits and renames | ~ migrations, beta |
+| Pricing model | $20/$100 flat tiers plus usage | free tier, $15/$50/from-$100 monthly usage balances, per-action rates ($0.02 search to $0.50 review) | free, MIT; Trail Brain from $20k/yr is the upsell | free core, Pro $10/mo yearly or $15 monthly, Teams $20/seat/mo yearly or $29 monthly, Enterprise early access | free, MIT | free, MIT | free CLI, Pro unpriced | free, MIT | free core; paid JetBrains plugin, price unpublished | from $16K/year |
+| Enterprise orientation | ✓ SOC 2, ISO 42001 | ~ on-prem MCP option, DPA, no-training claims; tiny vendor | ~ Trail Brain: SOC 2 Type II all plans, HIPAA BAA on Large | ~ hosted Teams/Enterprise plans | ✗ | ✗ | ~ Pro tier, on-prem option | ✗ | ~ paid JetBrains backend, no enterprise plan | ✓ SOC 2, ISO 27001 |
 
 ## Reading the matrix
 
-**This is not one market: a platform, a code-map CLI, a graph CLI, a search engine, a packer CLI, an output proxy, an on-demand search index, an LSP symbol toolkit, and a search platform share a category label but sell nine different jobs.**
-Augment sells the author-review-verify loop around its engine; Graft sells a readable map the agent opens like any other file; Graphify sells structural reasoning about one codebase; qmd sells local retrieval over your documents; Repomix sells one deterministic file; rtk sells cheaper command output; Semble sells instant query-time snippets with no standing service; Serena sells the IDE's own symbol tools to whatever agent you already run; Sourcegraph sells retrieval to whatever agent you already run.
+**This is not one market: a platform, a hosted context-engine API, a code-map CLI, a graph CLI, a search engine, a packer CLI, an output proxy, an on-demand search index, an LSP symbol toolkit, and a search platform share a category label but sell ten different jobs.**
+Augment sells the author-review-verify loop around its engine; CodeAlive sells metered access to a hosted multi-repo index to whatever agent you already run; Graft sells a readable map the agent opens like any other file; Graphify sells structural reasoning about one codebase; qmd sells local retrieval over your documents; Repomix sells one deterministic file; rtk sells cheaper command output; Semble sells instant query-time snippets with no standing service; Serena sells the IDE's own symbol tools to whatever agent you already run; Sourcegraph sells retrieval to whatever agent you already run.
 The review service that used to sit in this table, Greptile, moved to the Code review category, because what it sells is judgment on the PR stream, not retrieval.
-The Writes code row makes the split visible: Augment ships authoring agents, Sourcegraph's Agentic Batch Changes stays in the migration lane, Serena edits at the symbol level when the task asks, and the other 2026 columns refuse the code-writing job entirely.
+The Writes code row makes the split visible: Augment ships authoring agents, Sourcegraph's Agentic Batch Changes stays in the migration lane, Serena edits at the symbol level when the task asks, CodeAlive's review agent only comments on PRs, and the other 2026 columns refuse the code-writing job entirely.
 
 **I read the delivery row as the lock-in axis the marketing never names.**
 Sourcegraph speaks MCP (plus API and CLI surfaces) to any agent; Repomix hands a plain file to anything that reads; Semble installs itself into whatever agents it finds, MCP, AGENTS.md instructions, or a sub-agent; Graft goes furthest, committing hooks, a statusline, and MCP config into the repo so the wiring travels with the code; Augment's Context Engine only drives Augment's own surfaces, so its documented token savings are purchasable only inside its own harness.
@@ -58,6 +58,7 @@ Augment's 33% token savings, Sourcegraph's cost deltas, Semble's 99%-fewer-token
 
 - Multi-repo organization past 400K LOC with agents thrashing on local search and an enterprise budget: Sourcegraph.
 - Token-heavy team on one large private repo wanting a single vendor for authoring and review: Augment, after re-running its benchmark on your own repo first.
+- Metered hosted indexing for any MCP agent on a small-team budget: CodeAlive, starting from the free tier and believing none of its numbers until replicated on your repos.
 - AI review of pull requests rather than retrieval: the Code review category, compared in its own [feature matrix](../../code-review/code-review-feature-matrix/index.md).
 - Agents re-discovering how one large codebase connects, with structure and citations preferred: Graphify, after verifying its self-published benchmarks on your repo.
 - Agents starting every session blind on a large repo, and a team that wants the map committed as wiring and regenerated per machine: Graft, keeping the free structural layer and re-running its vendor benchmarks on your repo first.
@@ -81,6 +82,7 @@ Augment's 33% token savings, Sourcegraph's cost deltas, Semble's 99%-fewer-token
 - 2026-09-25 - Updated the Graphify delivery cell to the vendor's documented 17-assistant installer surface.
 - 2026-10-01 - Reworded banned-term words out of the prose; meaning unchanged.
 - 2026-10-04 - Extended from eight to nine columns with Serena (the LSP-backed MCP semantic-code toolkit), inserted in sorted position between Semble and Sourcegraph and traced to the new note; the intro, reading, and choosing sections updated for the ninth job and the live-parse freshness column.
+- 2026-10-05 - Extended from nine to ten columns with CodeAlive (the hosted agent-agnostic context-engine API), inserted in sorted position after Augment Code and traced to the new note; the intro, reading, and choosing sections updated for the tenth job.
 
 ## See also
 
@@ -94,6 +96,8 @@ Augment's 33% token savings, Sourcegraph's cost deltas, Semble's 99%-fewer-token
 
 - https://www.augmentcode.com/context-engine - Context Engine mechanics and efficiency claims for the Augment column
 - https://www.augmentcode.com/pricing - flat Business plan and the 40% service fee for the Augment column
+- https://codealive.ai/en - the tier table, per-action rates, and MCP delivery surfaces for the CodeAlive column
+- https://docs.codealive.ai/integrations/mcp - the MCP v3 tools and hosted-endpoint deployment behind the CodeAlive column's delivery cell
 - https://github.com/yamadashy/repomix - CLI surface, output formats, token budgets, and MCP mode for the Repomix column
 - https://sourcegraph.com/pricing - enterprise entry price and credits model for the Sourcegraph code context platform column
 - https://sourcegraph.com/blog/why-coding-agents-fail-large-codebases - the 400K LOC threshold and the cost/speed deltas

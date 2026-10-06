@@ -1,7 +1,7 @@
 ---
 title: agentsview
 created: 2026-08-30
-updated: 2026-10-04
+updated: 2026-10-05
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, session-analytics, observability, token-usage, open-source]
 readability: 3
@@ -18,13 +18,13 @@ agentsview is a local-first, MIT-licensed Go application that discovers the sess
 
 A Go daemon that watches known per-agent session directories (Claude Code, Codex, Gemini CLI, Copilot, Cursor, Zed, Windsurf, OpenCode, Qwen Code, Goose, Kiro, and more, more than 60 sources listed), parses their JSONL and database logs, and syncs them into a local SQLite database with FTS5 full-text search.
 Surfaces: a web UI on loopback, a CLI (`agentsview usage daily`, `session search`, `stats`), a Tauri desktop app, Docker, plus optional PostgreSQL push for shared team dashboards, S3-backed session roots, and a DuckDB mirror.
-Token-cost reporting uses a model-pricing catalog; an earlier version of the docs benchmarked reports at 84 to 223 times faster than re-parsing with ccusage (called an upper bound by the docs themselves), but the current docs have dropped that benchmark and now simply note ccusage covers the same core job.
+Token-cost reporting uses a model-pricing catalog; an earlier version of the docs benchmarked reports at 84 to 223 times faster than re-parsing with ccusage (called an upper bound by the docs themselves), but the current docs have dropped that benchmark and now simply note [ccusage](../ccusage/index.md) covers the same core job.
 Pure local file parsing: no cloud service, no accounts, no LLM calls required; an anonymous activity ping fires by default and can be disabled.
 Made by Kenn Software LLC; install via curl script, Homebrew cask, desktop builds, or Docker.
 
 ## Status
 
-Young and active: 6,044 stars, 683 forks, 151 open issues and PRs as of 2026-10-04, created 2026-02-19.
+Young and active: 6,055 stars, 683 forks, 138 open issues and PRs as of 2026-10-05, created 2026-02-19.
 Latest release v0.44.0 on 2026-09-21 with steady releases since July; pre-1.0 with fast feature churn.
 
 ## Strengths
@@ -48,6 +48,7 @@ No paid tiers are published.
 
 ## Compared to
 
+- [ccusage](../ccusage/index.md): the zero-install, report-first comparator the docs themselves name; agentsview adds the pre-indexed archive, search, and the team push story.
 - Built-in harness commands (Claude Code's usage and cost views): zero-install and authoritative for the current session, but single-agent, single-machine, and history-free; choose agentsview for retrospective multi-agent analytics.
 - simple10/agents-observe: a Claude Code plugin capturing live hook events for in-flight dashboards; choose it for what my agent is doing right now, agentsview for a passive index of everything already written.
 - xintaofei/codeg: a full multi-agent workspace where aggregation is a byproduct of running agents inside it; choose agentsview when you keep your existing setups and want a read-only analytics layer.
@@ -68,6 +69,7 @@ Not for single-agent users well served by built-in cost views, or teams wanting 
 - 2026-09-21 - The docs' usage JSON contract moved to schema version 6 (provider-specific billing identity), so the schema caution now reads both contracts at version 6.
 - 2026-09-25 - Recorded the v0.44.0 release (new formats including Cline CLI, Tencent CodeBuddy CN, Augure Code, Augure Desktop 3 beta, Charm Crush, and DeepSeek Harness v3) and refreshed repository counts; the schema caution re-verified unchanged at version 6.
 - 2026-09-27 - Refreshed repository counts (5,988 to 6,001 stars, 157 to 189 open issues and PRs) and revised the schema caution: the token-usage docs document schema version 5 again, with no version 6 mention left anywhere on the docs site.
+- 2026-10-05 - Added ccusage to Compared to as the report-first comparator the docs name, and linked its new note at first mention; refreshed repository counts (6,044 to 6,055 stars, 151 to 138 open issues and PRs).
 
 ## See also
 

@@ -17,6 +17,7 @@ Where the research loop itself runs autonomously: the labs' science programs, th
 - [Math Inc. Gauss](math-inc-gauss/index.md) - the autoformalization agent behind Strong PNT and the sphere-packing proof, with the comparator-audited OpenGauss harness, as of 2026-09-13.
 - [OpenAI Deep Research](openai-deep-research/index.md) - the productized web-research agent, the breadth-first loop with no machine judge behind it.
 - [OpenAI for Science](openai-for-science/index.md) - the lab program from FrontierMath's first open-problem solve to the disputed Navier-Stokes claim, as of 2026-09-13.
+- [OpenResearch](openresearch/index.md) - alphaXiv's MIT local-first workspace that turns Claude Code, Codex, OpenCode, Cursor, or Antigravity into research agents with an experiment tree and an autonomous loop, 6,579 stars as of 2026-10-05.
 - [Pion](pion/index.md) - Andon Labs' closed research preview where persistent agents run a real business with payment tools, the Vending-Bench lineage made product.
 
 Its members are compared on shared rows in the [Automated Research Feature Matrix](automated-research-feature-matrix/index.md).
@@ -31,3 +32,4 @@ Its members are compared on shared rows in the [Automated Research Feature Matri
 - 2026-09-13 - Added OpenAI for Science.
 - 2026-09-16 - Added Pion.
 - 2026-09-27 - Added Agon.
+- 2026-10-05 - Added OpenResearch.

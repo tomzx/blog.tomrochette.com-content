@@ -8,7 +8,7 @@ tags: [agents, model-access]
 readability: 3
 ---
 
-The layer that sells access to models themselves: gateways and routers metering a percentage, vendor plans selling a quota (including the consumer subscriptions that carry Claude Code and Codex), flat subscriptions selling a ceiling, and the self-hosted software (LiteLLM, Ollama) that routes and serves the same access for free.
+The layer that sells access to models themselves: gateways and routers metering a percentage, vendor plans selling a quota (including the consumer subscriptions that carry Claude Code and Codex), flat subscriptions selling a ceiling, and the self-hosted software (LiteLLM, Ollama, Magnitude) that routes and serves the same access for free.
 Editors and harnesses live in their own categories; this is where the token bill gets paid.
 
 - [Cerebras Code](cerebras-code/index.md) - wafer-scale inference sold as speed, $50/$200 per month, currently sold out.
@@ -21,6 +21,7 @@ Editors and harnesses live in their own categories; this is where the token bill
 - [Kimi Code](kimi-code/index.md) - Moonshot's membership ladder for coding, $19 to $199 monthly with Code from the second tier.
 - [LiteLLM](litellm/index.md) - a self-hosted MIT gateway unifying 100+ provider APIs behind one OpenAI-compatible endpoint, with routing, budgets, and spend tracking.
 - [LLM Gateway](llm-gateway/index.md) - an open-source gateway charging 5% on credit top-ups with free BYOK, plus DevPass flat-rate coding plans from $29.
+- [Magnitude](magnitude/index.md) - a self-optimizing local inference engine (YC S25) that tunes its kernels on your device, free under Apache-2.0.
 - [MiniMax Coding Plan](minimax-coding-plan/index.md) - token-quota subscriptions for the MiniMax line, $22 to $132 per month, born from a silent plan replacement.
 - [NanoGPT](nanogpt/index.md) - the community aggregator: hundreds of routes pay-as-you-go plus a $12 open-weight subscription.
 - [Ollama](ollama/index.md) - the free local runtime and registry for open models, now paired with paid cloud tiers.
@@ -56,3 +57,4 @@ Its members are compared on shared rows in the [Model Access Feature Matrix](mod
 - 2026-09-27 - Added Ollama.
 - 2026-09-27 - Added Experiential.
 - 2026-10-04 - Added LLM Gateway.
+- 2026-10-06 - Added Magnitude.

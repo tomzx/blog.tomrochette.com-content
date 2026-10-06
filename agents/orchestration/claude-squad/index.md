@@ -1,7 +1,7 @@
 ---
 title: Claude Squad
 created: 2026-08-24
-updated: 2026-10-03
+updated: 2026-10-05
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, orchestration, git-worktrees, terminal]
 readability: 3
@@ -26,7 +26,7 @@ Prerequisites are just tmux and the GitHub CLI.
 ## Status
 
 Active but slow-burning.
-The repository was created in March 2025, was last pushed to on 2026-08-20, and shows 222 commits, 8,562 stars, and 625 forks as of 2026-10-03.
+The repository was created in March 2025, was last pushed to on 2026-08-20, and shows 222 commits, 8,570 stars, and 627 forks as of 2026-10-05.
 Homebrew reports 5,168 installs over the last 365 days as of 2026-09-26, which is real but modest usage for its star count.
 **Its Hacker News footprint is nearly empty (a 5-point launch thread in April 2025), so adoption spread through GitHub and word of mouth, not press.**
 

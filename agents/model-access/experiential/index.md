@@ -1,7 +1,7 @@
 ---
 title: Experiential
 created: 2026-09-27
-updated: 2026-10-04
+updated: 2026-10-05
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, model-access, llm-gateway, self-hosted, model-routing]
 readability: 3
@@ -24,10 +24,10 @@ The GitHub repo language reads Python; the Rust data plane claim comes from the 
 
 ## Status
 
-Very active and compounding fast: 8,608 stars and 226 forks as of 2026-10-04, pushed the same day, created 2026-06-24.
+Very active and compounding fast: 9,018 stars and 228 forks as of 2026-10-05, pushed the same day, created 2026-06-24.
 The Show HN launch ("We built open OpenRouter that turns usage into a better model") reached 222 points on 2026-08-27 with 47 comments, and the star count has since grown roughly an order of magnitude past the ~820 the entrant data recorded around 2026-09-21.
-PyPI shows 159 releases since first upload on 2026-08-20, latest 0.7.150, requiring Python 3.12+, with GitHub releases now at v0.7.150 (2026-10-03).
-One hundred ten open issues, a Discord, and YC backing as of 2026-10-04.
+PyPI shows 163 releases since first upload on 2026-08-20, latest 0.7.154, requiring Python 3.12+, with GitHub releases now at v0.7.154 (2026-10-05).
+One hundred sixteen open issues, a Discord, and YC backing as of 2026-10-05.
 
 ## Strengths
 
@@ -89,9 +89,9 @@ My disagreeable claim: the traffic-trained router is the demo rather than the pr
 
 ## References
 
-- https://api.github.com/repos/experientiallabs/experiential - 8,608 stars, 226 forks, Apache-2.0, pushed 2026-10-04 (200, fetched 2026-10-04)
+- https://api.github.com/repos/experientiallabs/experiential - 9,018 stars, 228 forks, Apache-2.0, pushed 2026-10-05 (200, fetched 2026-10-05)
 - https://raw.githubusercontent.com/experientiallabs/experiential/main/README.md - architecture, capture mode, PostHog telemetry enabled by default, optimize workflow (200)
 - https://hn.algolia.com/api/v1/items/49471407 - Show HN thread, 222 points, created 2026-08-27, caching objection, telemetry contradiction, rug-pull accusation (200)
 - https://www.experientiallabs.ai/pricing - Free $0, Pro credit ladder $20 to $199, Max $200 to $1,999, Ultra $2,000+, 0% markup, YC backing (200, fetched 2026-10-02)
-- https://pypi.org/pypi/experiential/json - 0.7.150, first upload 2026-08-20, 159 releases, Python 3.12+ (200, re-checked 2026-10-04)
+- https://pypi.org/pypi/experiential/json - 0.7.154, first upload 2026-08-20, 163 releases, Python 3.12+ (200, re-checked 2026-10-05)
 - https://platform.experientiallabs.ai/docs - fetched with status 200 but renders as an empty JavaScript shell, so nothing citable was taken from it

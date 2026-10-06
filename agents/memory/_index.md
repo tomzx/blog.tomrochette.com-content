@@ -11,7 +11,7 @@ readability: 3
 Persistent memory for agents: the file conventions, the portable format, the capture plugins, and the hosted and self-hostable services, from graph pipelines to temporal stores.
 
 - [Cabinet](cabinet/index.md) - the MIT self-hosted knowledge base where every artifact is a markdown file on disk and an onboarded agent team works it on a schedule, quiet since August.
-- [claude-mem](claude-mem/index.md) - the 95.6k-star plugin that captures coding-agent sessions, compresses them with your tokens, and reinjects the context.
+- [claude-mem](claude-mem/index.md) - the 96.3k-star plugin that captures coding-agent sessions, compresses them with your tokens, and reinjects the context.
 - [Cognee](cognee/index.md) - the Apache-2.0 graph-memory pipeline with the whole engine self-hostable and a flat per-token cloud.
 - [Engrim](engrim/index.md) - the local-first SQLite episodic memory engine for multiple AI CLIs on one machine, provenance-first.
 - [File-based agent memory](file-based-agent-memory/index.md) - the CLAUDE.md and AGENTS.md conventions, memory as plain markdown files.

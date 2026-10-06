@@ -1,7 +1,7 @@
 ---
 title: Plannotator
 created: 2026-08-30
-updated: 2026-10-03
+updated: 2026-10-06
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, evaluation, code-review, human-in-the-loop, open-source]
 readability: 3
@@ -20,13 +20,13 @@ A TypeScript installer that wires into nine harnesses, Claude Code, Codex, Copil
 Three surfaces: plan review with inline comments and deletion marks, code review of uncommitted changes or any GitHub and GitLab PR URL with side-by-side diffs and staging, and annotation of markdown, folders, URLs, and rendered HTML artifacts.
 Approve lets the agent proceed; deny sends annotations back as the agent's next instruction, no copy-paste, and plan revisions are diffed against each other.
 Local-first with no telemetry, an optional TUI, a VS Code extension, and supply-chain hygiene (SLSA provenance, SBOMs, Grype gating).
-Dual Apache-2.0 or MIT, written almost entirely by one developer (1,044 of 1,320 commits as of 2026-10-04) with 150 total commit contributors as of 2026-10-04 and only 11 with five or more, with a hosted Workspaces product now on a public waitlist.
+Dual Apache-2.0 or MIT, written almost entirely by one developer (1,084 of 1,363 commits as of 2026-10-06) with 151 total commit contributors as of 2026-10-06 and only 11 with five or more, with a hosted Workspaces product now on a public waitlist.
 
 ## Status
 
-Fast and growing: 9,124 stars, 683 forks, 131 open issues and PRs as of 2026-10-04, created 2025-12-28, pushed 2026-10-03, v0.27.25 released 2026-10-02.
-**The 0.27.x line says pre-1.0 churn, and the growth came through social channels rather than press; its Show HN thread drew 5 points.**
-The author now ships a terminal sibling, Herdr Annotate under the plannotator GitHub org (613 stars as of 2026-10-04), which applies the same annotate-and-send-feedback loop to terminal text.
+Fast and growing: 9,155 stars, 689 forks, 135 open issues and PRs as of 2026-10-06, created 2025-12-28, pushed 2026-10-06, v0.28.4 released 2026-10-05.
+**The 0.27.x line gave way to 0.28.x on 2026-10-05 (five releases that day alone), which says pre-1.0 churn, and the growth came through social channels rather than press; its Show HN thread drew 5 points.**
+The author now ships a terminal sibling, Herdr Annotate under the plannotator GitHub org (623 stars as of 2026-10-06), which applies the same annotate-and-send-feedback loop to terminal text.
 
 ## Strengths
 
@@ -68,6 +68,7 @@ Not for minimal-install purists, and not yet for teams whose review process requ
 - 2026-09-18 - Recorded the v0.27.16 release and refreshed repository, contributor, and Herdr Annotate counts.
 - 2026-09-25 - Recorded the v0.27.20 release and refreshed repository, contributor, and Herdr Annotate counts.
 - 2026-09-29 - Recorded the v0.27.22 release (2026-09-29) and refreshed repository, contributor, and Herdr Annotate counts.
+- 2026-10-06 - Recorded the 0.28.x line (v0.28.0 through v0.28.4, all 2026-10-05) and refreshed repository, contributor, and Herdr Annotate counts.
 
 ## See also
 

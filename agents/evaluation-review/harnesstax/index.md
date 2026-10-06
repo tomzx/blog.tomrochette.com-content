@@ -1,7 +1,7 @@
 ---
 title: HarnessTax
 created: 2026-09-18
-updated: 2026-09-25
+updated: 2026-10-06
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, evaluation, benchmark, coding-agents]
 readability: 3
@@ -23,8 +23,8 @@ The authors promise a public release of profiling traces, and the repository car
 
 ## Status
 
-New and already the most-discussed artifact in this category's week: the study surfaced on Hacker News on 2026-09-16 and drew 233 points and 99 comments as of 2026-10-02.
-The repository was created 2026-09-14 and pushed 2026-09-22, with 1 star, because the study page is the artifact and the code is just its vehicle, and its GitHub description now brands it AgentBRANE, a benchmark dashboard for harness-and-model pairs.
+New and already the most-discussed artifact in this category's week: the study surfaced on Hacker News on 2026-09-16 and drew 233 points and 98 comments as of 2026-10-06.
+The repository was created 2026-09-14 and pushed 2026-10-05 (a dashboard build republication; the profiling traces remain unpublished), with 1 star, because the study page is the artifact and the code is just its vehicle, and its GitHub description now brands it AgentBRANE, a benchmark dashboard for harness-and-model pairs.
 **The traction here is academic credibility rather than community adoption: Ion Stoica and Matei Zaharia anchor the author list, and the thread argued the findings instead of the provenance.**
 
 ## Strengths
@@ -48,6 +48,7 @@ Not applicable; the study is free to read, and reproducing its matrix costs what
 ## Compared to
 
 - [FrontierHarness Eval](../frontierharness-eval/index.md): the same harness-cost question with the opposite design and publisher; HarnessTax is academic, crosses harness with model, and scores benchmark-native tasks, FrontierHarness is vendor-run, holds the model constant, and runs custom tasks, and the overlap in their conclusions (Claude Code as the expensive default) is the signal worth trusting.
+- Harness-Bench (arXiv 2605.27922): a May 2026 academic diagnostic benchmark that varies harness configurations across model backends over 106 sandboxed tasks and 5,194 recorded trajectories, concluding that capability should be reported at the model-harness configuration level; closest in design to this study, but so far without a public leaderboard or a community thread.
 - SWE-bench Lite and Terminal-Bench 2.0: the ground benchmarks it varies harnesses on; used normally they confound harness with model, which is exactly the confound HarnessTax prices rather than removes.
 - [deepeval](../deepeval/index.md): a CI framework for gating your own application's outputs, a different object than a public study of third-party harnesses.
 
@@ -60,6 +61,7 @@ Not as a harness shopping leaderboard, since three harnesses and two contaminati
 
 - 2026-09-18 - Created from the entrant-resolution run after the 217-point Hacker News thread.
 - 2026-09-25 - The launch thread grew to 232 points and 97 comments, the repository pushed 2026-09-22 with its study data regenerated, and its GitHub description now brands it AgentBRANE.
+- 2026-10-06 - Added the Harness-Bench arXiv study (2605.27922) to Compared to and References as a second independent academic harness-variance study.
 
 ## See also
 
@@ -72,6 +74,7 @@ Not as a harness shopping leaderboard, since three harnesses and two contaminati
 
 - https://harnesstax.github.io/ - the study, its findings, and its methodology
 - https://github.com/HarnessTax/HarnessTax.github.io - the public repository holding the site and the study data
+- https://arxiv.org/abs/2605.27922 - the Harness-Bench study (submitted 2026-05-27), fetched 2026-10-06
 - https://hn.algolia.com/api/v1/items/49733726 - the 233-point launch thread, including the security-framing criticism
 - https://www.swebench.com/lite - the first ground benchmark
 - https://arxiv.org/abs/2601.11868 - Terminal-Bench, the second ground benchmark

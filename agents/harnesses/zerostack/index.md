@@ -1,7 +1,7 @@
 ---
 title: Zerostack
 created: 2026-08-30
-updated: 2026-10-04
+updated: 2026-10-05
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agents, harnesses, rust, terminal]
 readability: 3
@@ -25,11 +25,11 @@ An ARCHITECTURE.md file complements AGENTS.md with shared core knowledge for age
 
 ## Status
 
-Active: the repository was pushed 2026-09-30, created May 12, 2026, with the latest release v1.8.4 on September 7, 2026.
-1,697 stars and 138 forks as of 2026-10-04.
+Active: the repository was pushed 2026-10-04, created May 12, 2026, with the latest release v1.8.4 on September 7, 2026.
+1,700 stars and 138 forks as of 2026-10-05.
 The May 16, 2026 launch thread reached 575 points (item 48164287), the highest-signal uncovered harness candidate of this cycle, with follow-up release threads through June and a Show HN in July.
 v1.8.0, "The Great Cleanup", landed September 3, 2026 after a six-week release quiet stretch and credited several external contributors with a large TUI refactoring.
-3,557 crate downloads on crates.io (985 recent) as of 2026-10-04.
+3,558 crate downloads on crates.io (940 recent) as of 2026-10-05.
 It is a one-person project with a ko-fi jar and a public call for company sponsors.
 
 ## Strengths

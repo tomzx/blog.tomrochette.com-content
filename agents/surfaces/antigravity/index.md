@@ -1,7 +1,7 @@
 ---
 title: Google Antigravity
 created: 2026-08-24
-updated: 2026-09-26
+updated: 2026-10-05
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, surfaces, ai-editors, google]
 readability: 3
@@ -45,13 +45,14 @@ Enterprise access went live through Google Cloud and Gemini Enterprise subscript
 
 Individuals: $0/month with basic weekly rate limits.
 Google AI Pro and AI Ultra raise limits and add a flexible AI credit pool.
-Organizations: Google Cloud terms with consumption-based API pricing via the Gemini Enterprise Agent Platform, included in select Gemini Enterprise subscriptions, as of 2026-09-22.
+Organizations: Google Cloud terms with consumption-based API pricing via the Gemini Enterprise Agent Platform, included in select Gemini Enterprise subscriptions, Standard and Plus from $30/seat/month or pay-as-you-go with a $0 seat fee, as of 2026-10-05.
 
 ## Price history
 
 | Date | Plan | Change | Source |
 | ---- | ---- | ------ | ------ |
 | 2026-08-24 | Individuals | Free at launch, $0/month with basic weekly rate limits | https://antigravity.google/pricing |
+| 2026-10-05 | Gemini Enterprise Standard/Plus | First observed org-side prices: Standard/Plus from $30 USD per seat per month, or pay-as-you-go with a $0 seat fee and consumption-based API pricing; Individuals unchanged at $0/month. | https://antigravity.google/pricing |
 
 ## Compared to
 
@@ -70,6 +71,7 @@ Not for proprietary-code environments that cannot absorb prompt-injection class 
 - 2026-09-16 - Added the September 2026 terms-of-service thread (337 points) to Cautions and References, on third-party harness usage risking Google account suspension.
 - 2026-09-25 - Added the Price history table the pricing rule requires, seeded with the $0/month individuals baseline.
 - 2026-09-26 - Linked the Google AI plans note in the Model access category, where the paid Pro/Ultra ladder behind the credit pool is tracked.
+- 2026-10-05 - Recorded the org-side prices the pricing page now exposes: Gemini Enterprise Standard/Plus from $30/seat/month or pay-as-you-go at a $0 seat fee; the individual $0 tier unchanged.
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: "The Agentic Development Environment Landscape"
 created: 2026-07-04
-updated: 2026-10-04
+updated: 2026-10-06
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.2, llm=glm-5.3-flash, ade, landscape, orchestration, opencode, claude-code, jetbrains]
 readability: 3
@@ -13,7 +13,7 @@ agent_sessions:
 
 The terminal coding agent answered the question of whether an AI can edit a real repository.
 The next problem is harder: how do you run several of them, watch what they are doing, and keep them from colliding on the same files.
-In the space of roughly a year, **a new product category has condensed around exactly that problem**, picked up a name (the Agentic Development Environment, or ADE), earned its own [GitHub topic](https://github.com/topics/ade), and produced a leaderboard anyone evaluating tools should know about; live product claims below were re-verified on 2026-10-04.
+In the space of roughly a year, **a new product category has condensed around exactly that problem**, picked up a name (the Agentic Development Environment, or ADE), earned its own [GitHub topic](https://github.com/topics/ade), and produced a leaderboard anyone evaluating tools should know about; live product claims below were re-verified on 2026-10-06.
 
 ## What an ADE is, and what it is not
 
@@ -93,7 +93,7 @@ Both positions are defensible; the mistake is pretending to be both.
 The second axis is surface coverage.
 Desktop support is the minimum expectation; the real arguments are about mobile, web, and remote.
 Orca, Paseo, and OpenChamber all treat "start at your desk, check in from your phone" as a first-class story.
-Air closed much of that gap between my mid-2026 snapshot and the 2026-10-04 re-check: its site now advertises IDE, web, CLI, and mobile surfaces, and says cloud runs are already available to some customers in JetBrains IDEs and the browser.
+Air closed much of that gap between my mid-2026 snapshot and the 2026-10-06 re-check: its site now advertises IDE, web, CLI, and mobile surfaces, and says cloud runs are already available to some customers in JetBrains IDEs and the browser.
 For anyone who wants to steer agents from outside the office, the mobile and tunnel story is not a nice-to-have; it is the feature, and it is no longer open-source-only territory.
 
 The third axis is license and pricing, and it splits the field cleanly.
@@ -168,4 +168,4 @@ The ADE is not a passing fashion; it is the productized answer to a real bottlen
 - [andyrewlee/awesome-agent-orchestrators](https://github.com/andyrewlee/awesome-agent-orchestrators) - curated list for tracking the long tail
 - [GitHub topic: ade](https://github.com/topics/ade) - the topic page that maps the category (fetched 200, 2026-09-29)
 - [GitHub topic: parallel-agents](https://github.com/topics/parallel-agents) - the broader orchestration topic (fetched 200, 2026-09-29)
-- [OpenCode ACP documentation](https://opencode.ai/docs/acp/) - the shipped adapter that resolved the protocol-axis question (fetched 200, 2026-10-04)
+- [OpenCode ACP documentation](https://opencode.ai/docs/acp/) - the shipped adapter that resolved the protocol-axis question (fetched 200, 2026-10-06)

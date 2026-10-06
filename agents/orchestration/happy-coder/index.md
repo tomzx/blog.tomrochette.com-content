@@ -1,7 +1,7 @@
 ---
 title: Happy Coder
 created: 2026-09-06
-updated: 2026-10-04
+updated: 2026-10-05
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, mobile, claude-code, codex]
 readability: 3
@@ -22,10 +22,10 @@ The README describes the makers as a community of engineers building for themsel
 
 ## Status
 
-Active and second only to cmux among maintained session-multiplexing tools on stars: 23,999 GitHub stars as of 2026-10-04 (the Codex workflow layer oh-my-codex holds more, 33.4k, but it is a skills-and-workflows layer rather than a session multiplexer, and the orphaned Vibe Kanban repo holds about 28k, but has shipped nothing since April), created July 2025, last pushed 2026-10-04.
+Active and second only to cmux among maintained session-multiplexing tools on stars: 24,018 GitHub stars as of 2026-10-05 (the Codex workflow layer oh-my-codex holds more, 33.5k, but it is a skills-and-workflows layer rather than a session multiplexer, and the orphaned Vibe Kanban repo holds about 28k, but has shipped nothing since April), created July 2025, last pushed 2026-10-04.
 cli-1.2.5 reached stable on 2026-09-22, following cli-1.2.4 (2026-09-13) and the 1.2.5 betas.
 Its August 2025 Show HN drew only 30 points, so the star count is bottom-up adoption rather than press traction.
-For scale, Paseo, the category's other mobile-first entrant, reports about 19.4k stars against Happy's 24.0k.
+For scale, Paseo, the category's other mobile-first entrant, reports about 19.5k stars against Happy's 24.0k.
 
 ## Strengths
 

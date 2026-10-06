@@ -16,6 +16,7 @@ The reusable capability format and its ecosystem: the open spec, the vendor impl
 - [Headcount](headcount/index.md) - Chris Brock's 16-department plugin marketplace for Claude Code and ChatGPT, skills owned by write surface and reviewer-class departments that can block.
 - [OpenCode skills and plugins](opencode-skills-and-plugins/index.md) - OpenCode's two extension mechanisms: skills for the model, plugins for the harness.
 - [Sepia](sepia/index.md) - Nanako0129's research-grounded de-AI writing skill, repairing narrative structure instead of word choice, portable across 77+ agents.
+- [SkillMD](skillmd/index.md) - the verification-first open registry, publishing lint and scanner verdicts per skill, 1,948 of its about 1.13M listed skills safety-reviewed.
 - [SkillOpt](skillopt/index.md) - Microsoft Research's optimizer that trains skill markdown against held-out validation, skills as trainable parameters.
 - [skills.sh](skills-sh/index.md) - Vercel's directory and leaderboard for the open skills ecosystem.
 
@@ -31,3 +32,4 @@ Its members are compared on shared rows in the [Skills Feature Matrix](skills-fe
 - 2026-09-13 - Added Agent-Native.
 - 2026-09-27 - Added Headcount.
 - 2026-09-27 - Added Sepia.
+- 2026-10-05 - Added SkillMD.

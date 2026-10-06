@@ -1,7 +1,7 @@
 ---
 title: OpenChamber
 created: 2026-08-24
-updated: 2026-10-03
+updated: 2026-10-05
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, surfaces, agentic-development-environments, opencode, open-source]
 readability: 3
@@ -24,7 +24,7 @@ It runs on the OpenCode SDK today and is an independent project, not affiliated 
 ## Status
 
 **Very active.**
-About 11,100 stars (11,078) and 1,221 forks as of 2026-10-04, with v2.1.0 (October 1, 2026, cross-conversation message search over every session with the index kept on-machine, background commands and subagents that stay visible with live logs while they run, and a rebuilt file editor with changed-line markers, folding, multi-cursor, and a symbol outline) now the latest release after v2.0.4 (September 28, enterprise mode for teams that an administrator turns on with a policy file or `OPENCHAMBER_ENTERPRISE_MODE=1`, keeping conversations with the configured providers, locking provider management to config, and restricting extensions to administrator-approved repositories, plus goal checking, an Excalidraw extension, a Dutch interface, and Jev off by default), the v2.0.3 to v2.0.4 pair of September 28 (per-session permission modes of ask, safety net, or accept all, an In work session section, multi-run from the composer, a token-stats page, and provider cards), the v2.0.0 GA of the app on OpenCode 2 (September 23), the v1.24 line just below it (v1.24.2 of September 18 ending it), and commits landing October 4, 2026.
+About 11,100 stars (11,126) and 1,226 forks as of 2026-10-05, with v2.1.1 (October 4, 2026, GitLab support end to end with merge requests in the Git panel and sidebar, one composer picker for GitHub issues, pull requests, and Linear items, per-repository git identities, and automatic cleanup of worktrees whose pull request merged) now the latest release after v2.1.0 (October 1, cross-conversation message search over every session with the index kept on-machine, background commands and subagents that stay visible with live logs while they run, and a rebuilt file editor with changed-line markers, folding, multi-cursor, and a symbol outline) after v2.0.4 (September 28, enterprise mode for teams that an administrator turns on with a policy file or `OPENCHAMBER_ENTERPRISE_MODE=1`, keeping conversations with the configured providers, locking provider management to config, and restricting extensions to administrator-approved repositories, plus goal checking, an Excalidraw extension, a Dutch interface, and Jev off by default), the v2.0.3 to v2.0.4 pair of September 28 (per-session permission modes of ask, safety net, or accept all, an In work session section, multi-run from the composer, a token-stats page, and provider cards), the v2.0.0 GA of the app on OpenCode 2 (September 23), the v1.24 line just below it (v1.24.2 of September 18 ending it), and commits landing October 4, 2026.
 A 190-point Hacker News thread in August 2026 marks its arrival in general awareness.
 
 ## Strengths
@@ -68,6 +68,7 @@ Not for anyone who wants a polished IDE experience or harness choice beyond Open
 - 2026-09-27 - Linked the Agentic Development Environment Landscape tracker, whose OpenCode-native section is OpenChamber.
 - 2026-09-29 - Recorded v2.0.3 and v2.0.4 (both September 28, per-session permission modes, In work sessions, composer multi-run, and enterprise mode for teams) as the new latest releases and refreshed stars to 10,897.
 - 2026-10-02 - Recorded v2.1.0 (October 1, cross-conversation message search, visible background commands and subagents, a rebuilt file editor) as the new latest release and refreshed stars to 11,008.
+- 2026-10-05 - Recorded v2.1.1 (October 4, GitLab integration, unified references picker, per-repository git identities, merged-worktree cleanup) as the new latest release and refreshed stars to 11,126 and forks to 1,226.
 
 ## See also
 
@@ -80,7 +81,7 @@ Not for anyone who wants a polished IDE experience or harness choice beyond Open
 ## References
 
 - https://openchamber.dev/ - features, surfaces, privacy model, FAQ
-- https://github.com/openchamber/openchamber - source, repository scale, as of 2026-10-03
-- https://github.com/openchamber/openchamber/releases/tag/v2.1.0 - the latest release (October 1, 2026, message search, background commands, rebuilt editor); v2.0.4 of September 28 sits just below it
+- https://github.com/openchamber/openchamber - source, repository scale, as of 2026-10-05
+- https://github.com/openchamber/openchamber/releases/tag/v2.1.1 - the latest release (October 4, 2026, GitLab support, references picker, git identities, worktree cleanup); v2.1.0 of October 1 sits just below it
 - https://docs.openchamber.dev/ - install and configuration documentation
 - https://news.ycombinator.com/item?id=49233448 - the August 2026 launch discussion

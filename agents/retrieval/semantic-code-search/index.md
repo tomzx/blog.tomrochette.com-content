@@ -1,7 +1,7 @@
 ---
 title: Semantic code search in coding tools
 created: 2026-08-24
-updated: 2026-09-13
+updated: 2026-10-05
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, code-retrieval, embeddings, rag, llm=glm-5.3-flash]
 readability: 3
@@ -18,14 +18,15 @@ Semantic code search is retrieval over a codebase by meaning (vector similarity 
 ## What it is
 
 Each shipping implementation differs in where the index lives.
-Cursor embeds code chunks server-side with encrypted chunks and client-side decryption, but its retrieval docs now lead with Instant Grep (a custom engine claimed to outperform ripgrep) and an Explore subagent that runs parallel searches in its own context window.
-VS Code Copilot exposes `#codebase` semantic search backed by an index built either remotely by GitHub (per repository, shared) or locally, while the same agent also runs grep, text search, file search, and usages tools.
+Cursor's retrieval docs (the former codebase-indexing page, retitled Search) lead with Instant Grep, a custom local index claimed to outperform ripgrep, plus an Explore subagent that runs parallel searches in its own context window, and the page now states Cursor does not store embeddings of your codebase for search; the encrypted server-side embeddings design this note originally documented is gone from the docs as of 2026-10-05.
+VS Code Copilot exposes `#codebase` semantic search backed by an index built remotely by GitHub (per repository, shared) or Azure DevOps (automatic), or locally for other workspaces, while the same agent also runs grep, text search, file search, and usages tools.
 Continue's legacy `@Codebase` provider computed embeddings locally with transformers.js, hybrid keyword search, and LLM reranking (25 retrieved, 5 final) into a local sqlite index.
 Devin Desktop (the former Windsurf) documents a RAG context engine that indexes the local codebase and, for Teams and Enterprise, remote repositories, using M-Query retrieval.
 
 ## Status
 
 **Active as a capability, demoted as a default.**
+Cursor is the sharpest case: as of 2026-10-05 its retrieval docs document no semantic codebase index at all, only the local Instant Grep index and the Explore subagent.
 Continue deprecated `@Codebase` in favor of agent file-exploration tools, rules files, and MCP servers, keeping code RAG only as an advanced build-your-own path.
 VS Code states that when no semantic index is ready, the other tools "still provide great results".
 Aider never shipped embeddings at all, ranking tree-sitter symbols by graph references instead.
@@ -66,6 +67,7 @@ The Devin and VS Code platform bets are the counterargument, and they may well w
 
 - 2026-08-24 - Created in the Retrieval category seed.
 - 2026-08-26 - Stated the missing independent-footprint signal explicitly per the citation standard and added the updated field.
+- 2026-10-05 - Cursor's retrieval docs (the former codebase-indexing page, retitled Search) no longer document the encrypted server-side embeddings index and state Cursor does not store codebase embeddings for search, and VS Code's workspace-context page (updated 2026-09-30) added automatically built Azure DevOps indexes as a second platform-side source.
 
 ## See also
 
@@ -77,8 +79,8 @@ The Devin and VS Code platform bets are the counterargument, and they may well w
 
 ## References
 
-- https://cursor.com/docs/context/codebase-indexing - Instant Grep, Explore subagent, and the encrypted-embeddings privacy model
-- https://code.visualstudio.com/docs/agents/reference/workspace-context - Copilot's search tool set, semantic index sources, and no-index fallback
+- https://cursor.com/docs/context/codebase-indexing - retitled Search: Instant Grep, the Explore subagent, and the statement that Cursor does not store codebase embeddings for search (fetched 2026-10-05)
+- https://code.visualstudio.com/docs/agents/reference/workspace-context - Copilot's search tool set, the GitHub, Azure DevOps, and local index sources, and the no-index fallback (page updated 2026-09-30, fetched 2026-10-05)
 - https://docs.continue.dev/reference/deprecated-codebase - the deprecated local embeddings pipeline (transformers.js, hybrid retrieval, LLM reranking)
 - https://docs.continue.dev/guides/codebase-documentation-awareness - the replacement model: agent tools, rules, and MCP servers
 - https://docs.devin.ai/desktop/context-awareness/windsurf-overview - the RAG context engine and plan-gated indexing in Devin Desktop

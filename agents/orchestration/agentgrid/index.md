@@ -1,7 +1,7 @@
 ---
 title: AgentGrid
 created: 2026-10-02
-updated: 2026-10-02
+updated: 2026-10-05
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, desktop, canvas, closed-source]
 readability: 3
@@ -24,7 +24,8 @@ A built-in source-control view and an agent review bot put worktree state, pull 
 
 ## Status
 
-Active and fast-moving: v2.9.2 shipped 2026-09-29 with Coordinator history compaction and in-composer login commands, on top of near-daily releases through September.
+Active and fast-moving: v2.9.3 shipped 2026-10-04 (a guided canvas tour, self-serve @mentions project configuration, and Windows test builds that run side-by-side without replacing an install), two days after v2.9.2 added Coordinator history compaction and in-composer login commands, on top of near-daily releases through September and October.
+The vendor's pricing page, which returned HTTP 500 on 2026-10-03, serves again as of 2026-10-05 with the same Free $0 and Pro $16/month tiers.
 **The community footprint is the weakest part of the story: a Show HN thread from 2026-08-25 that sits at 1 point with 0 comments, no public repository, and a "5,000+ AI builders" community claim that only the vendor's own site corroborates.**
 Treat the traction numbers as marketing until an independent source confirms them.
 
@@ -70,6 +71,7 @@ Not for anyone who requires open source, an auditable supply chain, or pricing t
 ## Changes
 
 - 2026-10-02 - Created.
+- 2026-10-05 - Recorded v2.9.3 (October 4) from the vendor changelog, and re-verified the pricing page serving again with unchanged tiers after the 2026-10-03 HTTP 500.
 
 ## See also
 
@@ -83,6 +85,6 @@ Not for anyone who requires open source, an auditable supply chain, or pricing t
 
 - https://agentgrid.sh/ - product positioning, platform support, the harness list, and the vendor's community-size claim
 - https://agentgrid.sh/docs - the canvas, space, pane, master, and worker mental model and MCP delegation tools
-- https://agentgrid.sh/pricing - the Free and Pro tiers, the early-adopter price against the stated regular value, and the BYO-subscription note, fetched 2026-10-02
+- https://agentgrid.sh/pricing - the Free and Pro tiers, the early-adopter price against the stated regular value, and the BYO-subscription note, fetched 2026-10-02 and re-fetched 2026-10-05 (HTTP 500 on 2026-10-03)
 - https://agentgrid.sh/changelog - the release cadence through v2.9.2 (2026-09-29)
 - https://news.ycombinator.com/item?id=49436219 - the 2026-08-25 Show HN thread (1 point, 0 comments), evidence of the missing community footprint

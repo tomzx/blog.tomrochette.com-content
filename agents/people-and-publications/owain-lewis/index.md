@@ -1,7 +1,7 @@
 ---
 title: Owain Lewis
 created: 2026-09-24
-updated: 2026-10-04
+updated: 2026-10-05
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, people, publications, youtube, agentic-coding, software-factory, claude-code]
 readability: 3
@@ -24,7 +24,7 @@ Uploads run about weekly, and descriptions read like engineering writeups that s
 ## Status
 
 Active and steady at modest scale as of 2026-10-04.
-The channel was created 2014-07-20 and shows 19K subscribers; the uploads tab shows no upload newer than "JEV Explained (Real Use Cases)" (2026-09-28), after 16 uploads between 2026-05-15 and 2026-09-28 while the channel's RSS feed was live, roughly one per week (the RSS feed began returning 404 this run).
+The channel was created 2014-07-20 and shows 19K subscribers; the uploads tab shows no upload newer than "JEV Explained (Real Use Cases)" (2026-09-28), after 16 uploads between 2026-05-15 and 2026-09-28, roughly one per week, reconfirmed against the RSS feed as of 2026-10-05 after its brief 2026-10-04 outage.
 The latest upload is "JEV Explained (Real Use Cases)" (2026-09-28); the 2026-09-21 upload ("Inside OpenAI's Agentic Software Factory") had 12,960 views and 180 ratings within three days.
 Reach concentrates in the factory videos: "I Built an Agentic Software Factory" (2026-07-25) is his biggest recent at 68,787 views, while most uploads land between 3,000 and 20,000.
 Trajectory is upward without a breakout, and his roughly 1.2K combined GitHub stars across the pinned repos carry more durable weight than the sub count suggests.
@@ -66,6 +66,7 @@ Not for someone who wants model-release news, enterprise-scale case studies, or 
 
 - 2026-09-24 - Created.
 - 2026-10-02 - Status recency refreshed: 16 uploads between May 15 and September 28, 2026, the latest "JEV Explained (Real Use Cases)" (2026-09-28).
+- 2026-10-05 - The RSS feed serves again after its 2026-10-04 outage and reconfirms no upload newer than "JEV Explained (Real Use Cases)" (2026-09-28); the reference line updated to match.
 
 ## See also
 
@@ -77,7 +78,7 @@ Not for someone who wants model-release news, enterprise-scale case studies, or 
 ## References
 
 - https://www.youtube.com/@owainlewis - the channel: identity and 19K subscribers as of 2026-10-04
-- https://www.youtube.com/feeds/videos.xml?channel_id=UC08YjBHjjPFu8T1KbHGomnQ - the RSS feed that grounded cadence, titles, dates, view counts, and the 2014-07-20 channel creation through 2026-09-28 (it began returning 404 on 2026-10-04, and the same day the uploads tab and channel pages rendered only as JavaScript shells in our fetch, so the latest-upload claim stands as of 2026-10-02; the uploads tab replaces the feed when it renders)
+- https://www.youtube.com/feeds/videos.xml?channel_id=UC08YjBHjjPFu8T1KbHGomnQ - the RSS feed that grounds cadence, titles, dates, view counts, and the 2014-07-20 channel creation through the 2026-09-28 upload (it 404ed on 2026-10-04 and serves again as of 2026-10-05, reconfirming no newer upload; uploads-tab fetches still render as JavaScript shells)
 - https://github.com/owainlewis - the GitHub profile linking this channel, with bio, location, and pinned repo star counts
 - https://owainlewis.com - the personal site: positioning, newsletter, and community links
 - https://aiengineer.co/start - the free starter pack and email funnel behind every video description

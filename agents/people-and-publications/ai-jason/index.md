@@ -1,7 +1,7 @@
 ---
 title: AI Jason
 created: 2026-08-29
-updated: 2026-10-04
+updated: 2026-10-05
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=big-pickle, llm=glm-5.3-flash, people, publications, youtube, context-engineering, agents, practitioner]
 readability: 3
@@ -22,10 +22,10 @@ He is a VC-backed start-up founder who says he has shipped production AI agents 
 
 ## Status
 
-Active as of 2026-10-04.
+Active as of 2026-10-05.
 The channel shows 233K subscribers and 103 videos as of 2026-10-04; a third-party analytics site, last verified 2026-10-01, reported 233K subscribers, 103 videos, and 9.3M total views.
-Uploads run two to three a month, and the latest upload I can confirm is 2026-09-23 ("GPT 6 + Hyperframe = Crazy combo for expert-level videos").
-The 103-video count corroborates that nothing newer was published through 2026-10-01; as of 2026-10-04 I could not confirm anything either way on YouTube itself, because the channel's RSS feed returns 404 and a direct uploads-tab fetch returned only a JavaScript shell, so if an upload landed after 2026-10-01 it is not yet visible to this note.
+Uploads run two to three a month, and the latest upload is 2026-09-23 ("GPT 6 + Hyperframe = Crazy combo for expert-level videos").
+On 2026-10-05 the channel's RSS feed serves again (it 404ed on 2026-10-04) and confirms the 2026-09-23 video is still the newest; a direct uploads-tab fetch still renders only a JavaScript shell.
 The channel is fully monetized, with past sponsors including Canva, Figma, and Vercel.
 
 ## Strengths
@@ -76,6 +76,7 @@ Not for someone who wants reference-grade depth, a durable archive, or a rigorou
 - 2026-09-24 - Added the Top 5 recommended reading section.
 - 2026-09-27 - Latest upload moved to 2026-09-23 ("GPT 6 + Hyperframe = Crazy combo for expert-level videos").
 - 2026-10-04 - Window recheck found no newer upload, and the Status wording now says exactly what is verified: the 2026-09-23 video is the latest confirmable one (103-video third-party count through 2026-10-01), while YouTube's own surfaces (RSS 404, uploads-tab JavaScript shell) and X stayed unfetchable, so nothing after 2026-10-01 is confirmable from this run.
+- 2026-10-05 - The channel's RSS feed serves again after its 2026-10-04 outage (channel id UCrXSVX9a1mj8l0CMLwKgMVw resolved from the channel page) and confirms the 2026-09-23 video remains the newest upload; Status and References updated to match.
 
 ## See also
 
@@ -87,7 +88,8 @@ Not for someone who wants reference-grade depth, a durable archive, or a rigorou
 ## References
 
 - https://www.youtube.com/@AIJasonZ - the channel with subscriber count and video catalog
-- https://www.youtube.com/@AIJasonZ/videos - the channel's uploads tab grounding the upload cadence and the latest video (the former RSS feed URL began returning 404 as of 2026-10-04; a direct fetch of this page on 2026-10-04 returned a JavaScript shell)
+- https://www.youtube.com/@AIJasonZ/videos - the channel's uploads tab (a direct fetch renders only a JavaScript shell, so the RSS feed grounds the cadence)
+- https://www.youtube.com/feeds/videos.xml?channel_id=UCrXSVX9a1mj8l0CMLwKgMVw - the channel's RSS feed, with the channel id resolved from the channel page's metadata on 2026-10-05 after the feed briefly 404ed on 2026-10-04; it grounds the newest upload (2026-09-23) and the two-to-three-a-month cadence
 - https://www.ai-jason.com/ - his site and email list
 - https://developereducators.com/channel/aijasonz/ - independent channel stats, sponsors, and engagement, last verified 2026-10-01 with 233K subscribers, 103 videos, and 9.3M views
 - https://app.thoughtleaders.io/youtube/ai-jason - third-party analytics on the channel's scale and content focus

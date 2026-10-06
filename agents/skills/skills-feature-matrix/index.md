@@ -1,7 +1,7 @@
 ---
 title: "Skills Feature Matrix"
 created: 2026-08-24
-updated: 2026-10-03
+updated: 2026-10-05
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, comparison, skills, agent-extensions]
 readability: 3
@@ -10,33 +10,33 @@ audience_notes: >
   Assumes you have written a SKILL.md or configured at least one harness; each column links to a full note with sources.
 ---
 
-This matrix compares the eight Skills-category notes in this section, the open standard, Builder.io's curated pack, Anthropic's vendor format, Chris Brock's departmental skills org chart, OpenCode's native mechanism, Nanako0129's de-AI writing skill, Microsoft's skill optimizer, and Vercel's skills.sh registry, feature by feature, so choosing an extension path does not require reading eight notes.
+This matrix compares the nine Skills-category notes in this section, the open standard, Builder.io's curated pack, Anthropic's vendor format, Chris Brock's departmental skills org chart, OpenCode's native mechanism, Nanako0129's de-AI writing skill, Microsoft's skill optimizer, Vercel's skills.sh registry, and SkillMD's verification-first registry, feature by feature, so choosing an extension path does not require reading nine notes.
 
-**The format war is already over and SKILL.md won it, so every decision that remains lives above the format, who gates execution, who ranks discovery, and who versions what your agent runs, and the registry column worries me more than the vendor column.**
+**The format war is already over and SKILL.md won it, so every decision that remains lives above the format, who gates execution, who ranks discovery, and who versions what your agent runs, and the two registry columns worry me more than the vendor column.**
 
 Legend: ✓ supported, ✗ not supported, ~ partial or conditional, ? not verified.
 Each column links to the full research note; every cell traces to a source cited there or in the references.
 
 ## The matrix
 
-| Feature | [Agent Skills open standard](../agent-skills-open-standard/index.md) | [Agent-Native](../agent-native/index.md) | [Anthropic Agent Skills](../anthropic-agent-skills/index.md) | [Headcount](../headcount/index.md) | [OpenCode skills and plugins](../opencode-skills-and-plugins/index.md) | [Sepia](../sepia/index.md) | [SkillOpt](../skillopt/index.md) | [skills.sh](../skills-sh/index.md) |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Kind | open spec | curated skill pack and app framework | vendor format | departmental skills org chart | harness mechanism | research-grounded de-AI writing skill | skill optimizer | registry and CLI |
-| Steward | public GitHub org | Builder.io | Anthropic | solo author (Chris Brock) | anomalyco project | solo author (Nanako0129) | Microsoft Research | Vercel labs |
-| Open source | ✓ spec and validator | ~ READMEs say MIT, but the framework repo's GitHub license is undetected and its package.json says ISC | ~ mostly, doc skills closed | ✓ MIT | ✓ MIT | ✓ MIT | ✓ MIT | ✓ CLI MIT |
-| Runtimes | ✓ dozens listed | ✓ .agents-path agents (Codex, Pi, Cursor, OpenCode, Copilot), Claude Code, Cowork | Claude chat, Code, API | ✓ Claude Code and ChatGPT | OpenCode only | ✓ portable across 77+ agents | ~ any SKILL.md harness, shells for 5 | ~ installs into 79 |
-| Frontmatter beyond spec | ✗ six fields, by design | ~ spec fields only, plus managed AGENTS.md/CLAUDE.md instruction blocks | ✓ ~20 in Claude Code | ~ department ownership and blocking gates per skill | ✗ unknown fields ignored | ? standard fields observed | ~ standard-compatible output | ~ indexes .claude-plugin |
-| Permissions or sandboxing | ~ harness-defined | ~ readback-verify and stop-before-fallback conventions, no gating | ~ API container | ✓ reviewer-class departments can block writes | ✓ allow/deny/ask per skill | ? none documented | ✗ evaluation-gated, not sandboxed | ✗ audit columns only |
-| Distribution and install | git, no registry needed | ✓ npx installer, plugin marketplaces, git, skills CLI plain-copy | repo, upload, Skills API | ~ plugin marketplace install | git; npm for plugins | git install | PyPI plus generated best_skill.md | ✓ npx into 79 agents |
-| Telemetry or ranking | ✗ out of scope | ✗ none found first-party | ~ curated partner directory | ✗ none found | ✗ none first-party | ✗ none found | ✗ none first-party | ✓ install counts, opt-out |
-| Versioning and pinning | ✗ none | ~ npm dist-tags and git refs, no lockfile | ~ Skills API versions | ~ git refs | ✗ none | ~ git refs | ✗ none | ~ git refs, no lockfile |
-| Explicit invocation | ~ explicit or implicit | ✓ slash commands for every skill | ~ slash commands in Code | ~ department-routed | ✗ model-judgment only | ~ invoked as a writing-repair pass | ~ trained skill invokes like any skill | n/a (registry) |
-| Vendor neutrality | ~ Anthropic-origin, public | ✗ pack runs anywhere, gravity is Builder.io's stack | ✗ Claude-coupled | ~ Claude Code and ChatGPT first | ✗ OpenCode-only, portable files | ✓ portable, agent-agnostic | ✓ model-agnostic | ~ all vendors, one ranker |
-| Cost | free | free (hosted surfaces free as of the date) | ~ included on plans, tokens on API | free | free (pay tokens) | free (maintainer costs on Patreon) | free, training tokens on your bill | free |
+| Feature | [Agent Skills open standard](../agent-skills-open-standard/index.md) | [Agent-Native](../agent-native/index.md) | [Anthropic Agent Skills](../anthropic-agent-skills/index.md) | [Headcount](../headcount/index.md) | [OpenCode skills and plugins](../opencode-skills-and-plugins/index.md) | [Sepia](../sepia/index.md) | [SkillMD](../skillmd/index.md) | [SkillOpt](../skillopt/index.md) | [skills.sh](../skills-sh/index.md) |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Kind | open spec | curated skill pack and app framework | vendor format | departmental skills org chart | harness mechanism | research-grounded de-AI writing skill | verification-first registry | skill optimizer | registry and CLI |
+| Steward | public GitHub org | Builder.io | Anthropic | solo author (Chris Brock) | anomalyco project | solo author (Nanako0129) | SkillMD (the skillmds org) | Microsoft Research | Vercel labs |
+| Open source | ✓ spec and validator | ~ READMEs say MIT, but the framework repo's GitHub license is undetected and its package.json says ISC | ~ mostly, doc skills closed | ✓ MIT | ✓ MIT | ✓ MIT | ~ toolchain MIT, hosted registry proprietary | ✓ MIT | ✓ CLI MIT |
+| Runtimes | ✓ dozens listed | ✓ .agents-path agents (Codex, Pi, Cursor, OpenCode, Copilot), Claude Code, Cowork | Claude chat, Code, API | ✓ Claude Code and ChatGPT | OpenCode only | ✓ portable across 77+ agents | ~ installs into per-agent dirs for 60+ agents | ~ any SKILL.md harness, shells for 5 | ~ installs into 79 |
+| Frontmatter beyond spec | ✗ six fields, by design | ~ spec fields only, plus managed AGENTS.md/CLAUDE.md instruction blocks | ✓ ~20 in Claude Code | ~ department ownership and blocking gates per skill | ✗ unknown fields ignored | ? standard fields observed | ~ lints against the format and publishes capability flags | ~ standard-compatible output | ~ indexes .claude-plugin |
+| Permissions or sandboxing | ~ harness-defined | ~ readback-verify and stop-before-fallback conventions, no gating | ~ API container | ✓ reviewer-class departments can block writes | ✓ allow/deny/ask per skill | ? none documented | ~ publishes lint and scanner verdicts per skill, 1,948 of about 1.13M listed reviewed as of 2026-10-05 | ✗ evaluation-gated, not sandboxed | ✗ audit columns only |
+| Distribution and install | git, no registry needed | ✓ npx installer, plugin marketplaces, git, skills CLI plain-copy | repo, upload, Skills API | ~ plugin marketplace install | git; npm for plugins | git install | ✓ CLI, MCP server, plugin marketplace, GitHub Action | PyPI plus generated best_skill.md | ✓ npx into 79 agents |
+| Telemetry or ranking | ✗ out of scope | ✗ none found first-party | ~ curated partner directory | ✗ none found | ✗ none first-party | ✗ none found | ~ top-rated leaderboard, not install telemetry | ✗ none first-party | ✓ install counts, opt-out |
+| Versioning and pinning | ✗ none | ~ npm dist-tags and git refs, no lockfile | ~ Skills API versions | ~ git refs | ✗ none | ~ git refs | ~ skills pinned to commits | ✗ none | ~ git refs, no lockfile |
+| Explicit invocation | ~ explicit or implicit | ✓ slash commands for every skill | ~ slash commands in Code | ~ department-routed | ✗ model-judgment only | ~ invoked as a writing-repair pass | n/a (registry) | ~ trained skill invokes like any skill | n/a (registry) |
+| Vendor neutrality | ~ Anthropic-origin, public | ✗ pack runs anywhere, gravity is Builder.io's stack | ✗ Claude-coupled | ~ Claude Code and ChatGPT first | ✗ OpenCode-only, portable files | ✓ portable, agent-agnostic | ~ indexes public GitHub, one team runs it | ✓ model-agnostic | ~ all vendors, one ranker |
+| Cost | free | free (hosted surfaces free as of the date) | ~ included on plans, tokens on API | free | free (pay tokens) | free (maintainer costs on Patreon) | free, no account needed | free, training tokens on your bill | free |
 
 ## Reading the matrix
 
-**The Kind row says this is not eight competitors but one stack: a spec, a vendor format, a harness mechanism, a quality gate, a distributor, and three content columns (a vendor app pack, a departmental org chart, and a single writing skill).**
+**The Kind row says this is not nine competitors but one stack: a spec, a vendor format, a harness mechanism, a quality gate, a distributor, two registries, and three content columns (a vendor app pack, a departmental org chart, and a single writing skill).**
 The category converged before it could fragment, because Anthropic released its format as the open standard in December 2025 and OpenAI, Google, and the major harnesses adopted it, per the standard note.
 **SkillOpt is the stack's quality layer: it treats the other columns' artifacts as trainable parameters, so the question shifts from who distributes skills to who validates them.**
 
@@ -45,6 +45,9 @@ Anthropic accepts roughly twenty frontmatter fields in Claude Code while the spe
 
 **The permissions row is where the columns genuinely diverge, and no cell wins.**
 The spec leaves security to each harness (Gemini consent, OpenCode patterns, Codex enterprise controls), Anthropic couples API skills to its own container, OpenCode alone gates skill loads with per-pattern allow/deny/ask, and skills.sh aggregates scanner columns after the fact.
+
+**The two registry columns are the newest split in the matrix, and they do opposite jobs: skills.sh ranks what people install while SkillMD grades what it indexes, and neither does the other's work.**
+The permissions row tells the story: SkillMD's published verdicts cover 1,948 of its about 1.13 million listed skills as of 2026-10-05, so its verification badge is currently a curated subset rather than a property of the catalog, while skills.sh's audit columns aggregate third-party scanners after the fact with no gate at all.
 
 **Distribution is git all the way down, and the registry added ranking, not vetting.**
 The standard needs no registry at all, skills.sh won the slot by wrapping git and symlinking into more than 70 harnesses, its leaderboard counts opt-out CLI telemetry rather than ratings, and one company controls the ranking surface of a nominally open ecosystem, which is the cell I would watch.
@@ -60,7 +63,7 @@ No column costs anything to use, but the spec has no version or dependency story
 - Skills must run in several harnesses: target the spec subset and skip Claude Code-only frontmatter (`context: fork`, skill hooks, `disable-model-invocation`).
 - All-Claude team wanting the richest behavior: Anthropic's format with Code extensions, accepting that claude.ai upload and the API hard-reject those fields.
 - Need enforced policy, not just prompts: OpenCode, with skills for procedure and plugins for policy under per-skill allow/deny/ask.
-- Discovering third-party skills: skills.sh, then pin commits and read the SKILL.md before it touches a repo with production secrets.
+- Discovering third-party skills: skills.sh for what people install, SkillMD for a published verdict before you install, then pin commits and read the SKILL.md before it touches a repo with production secrets.
 - Want a curated starter set with workflow opinions: Agent-Native's pack, cherry-picking the discipline skills and declining the managed AGENTS.md/CLAUDE.md blocks if vendor-managed instructions are not your thing.
 - Need managed versions across an organization: Anthropic's Skills API is the only first-party versioning in the matrix.
 - Shipping skills for your own product: publish them in your repo or docs (`.well-known`), since the standard note argues docs teams without a skill will be invisible to agents by 2027.
@@ -77,6 +80,7 @@ No column costs anything to use, but the spec has no version or dependency story
 - 2026-09-27 - Refreshed the Agent-Native figures in the reading prose (npm now 0.3.7); no cells moved.
 - 2026-10-02 - Corrected the intro and reading prose, which still said six columns after Headcount and Sepia joined on 2026-09-27; no cells moved.
 - 2026-10-03 - Refreshed the Agent-Native figures in the reading prose (catalog 4.5k and framework 7.0k stars, npm now 0.3.22); no cells moved.
+- 2026-10-05 - Extended from eight to nine columns with SkillMD, the verification-first registry, sorted between Sepia and SkillOpt; the intro, thesis, and stack prose updated for the second registry column, with a new reading paragraph on the telemetry-versus-verification split.
 
 ## See also
 
@@ -93,6 +97,7 @@ No column costs anything to use, but the spec has no version or dependency story
 - https://opencode.ai/docs/skills/ - skill paths, permission patterns, and the skill tool
 - https://opencode.ai/docs/plugins/ - the plugin half of the OpenCode column
 - https://skills.sh/docs - telemetry ranking method and the security disclaimer
+- https://skillmd.com/ - the SkillMD column: the registry surface, its 1,948-of-about-1.13M review coverage, and the agent-facing API and MCP endpoints
 - https://github.com/vercel-labs/skills - agent path table, 70+ install targets, telemetry opt-out
 - https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills - the untrusted-skill security framing behind the permissions row
 - https://github.com/microsoft/SkillOpt - the SkillOpt column: the training loop, the validation gate, and the best_skill.md artifact

@@ -23,7 +23,7 @@ The AI stack supports Zed-hosted models, BYOK across Anthropic, OpenAI, Google, 
 ## Status
 
 **Active and fast-moving.**
-About 91k GitHub stars as of 2026-09-26, with commits landing daily.
+About 91k GitHub stars as of 2026-10-05, with commits landing daily.
 The engineering runs deep enough to swap graphics libraries mid-flight (the blade-to-wgpu switch, February 2026) without abandoning the product.
 
 ## Strengths

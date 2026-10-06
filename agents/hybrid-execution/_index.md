@@ -13,6 +13,7 @@ Small fast models handling typed decisions beside the large model: constrained d
 - [Anthropic structured outputs](anthropic-structured-outputs/index.md) - schema-constrained decoding for Claude responses and tool inputs.
 - [CUA-S1](cua-s1/index.md) - Cua's open-weights 706k-parameter System One checkpoint that scores form actions without generating text, the verifiable counterpart to Jev's closed contract.
 - [Instructor](instructor/index.md) - Pydantic in, validated objects out, with a re-ask when validation fails.
+- [Jeeves](jeeves/index.md) - PostHog's 9B reasoning decision model that thinks before it answers typed questions, beating Jev's published numbers on its own tests at ten times the latency.
 - [Jeff](jeff/index.md) - the AutoJev-fork fine-tune family (0.8B and 2B Qwen3.5, Gemma 4 E2B) speaking Jev's request format at 22 ms locally, with the frankest self-run benchmark table in the wave.
 - [Jev](jev/index.md) - TypeSafe's System One model that skips text generation entirely, typed decisions with calibrated confidence at 70-500ms, early access since September 2026.
 - [JevBench](jevbench/index.md) - Benchmark Heaven's MIT scoreboard for Jev-class decision models, scored on intelligence, calibration, speed, and cost, whose sealed-decision revisions and point releases keep reordering the board (Jev first through v1.4.2, fourth since the Plumb-4B and Imajev-4B point releases).
@@ -21,6 +22,7 @@ Small fast models handling typed decisions beside the large model: constrained d
 - [Laya](laya/index.md) - the Apache-2.0 open-weights decision-model family answering typed questions in a single pass, the open rival to Jev's contract with its limits stated on its own model card.
 - [NanoJev](nanojev/index.md) - the 0.6B game-task replica with the most complete pipeline and the least verification, every benchmark unreplicated.
 - [Nimble](nimble/index.md) - Bespoke Labs' one-day open Jev with the category's only human-labeled head-to-head (Jev wins by 1.2 macro points) and an unlicensed repo.
+- [Ollaya](ollaya/index.md) - the Apache-2.0 local runtime serving sixteen open decision-model families behind a wire-identical Jev API, with parity checks against each author's own code.
 - [OpenAI Structured Outputs](openai-structured-outputs/index.md) - schema-guaranteed responses via constrained decoding.
 - [Outlines](outlines/index.md) - logit-masked generation following types, schemas, regexes, or grammars.
 - [SemIf](semif/index.md) - frozen open models reading typed option probabilities straight from the logits, with a client-side WebGPU demo, called OpenJev until 2026-09-18.
@@ -43,3 +45,5 @@ Its members are compared on shared rows in the [Hybrid Execution Feature Matrix]
 - 2026-09-21 - Added SemIf.
 - 2026-09-22 - Added JevBench.
 - 2026-09-29 - Added Jeff.
+- 2026-10-06 - Added Jeeves.
+- 2026-10-06 - Added Ollaya.

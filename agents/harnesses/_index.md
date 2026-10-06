@@ -17,6 +17,8 @@ The terminal and CLI agents that carry the model into your repository: the platf
 - [Claude Code](claude-code/index.md) - Anthropic's everywhere-at-once harness, the platform benchmark and the token-cost cautionary tale.
 - [Cline](cline/index.md) - the open-source agent that outgrew its VS Code extension into CLI, kanban, and SDK, 5.5 million installs deep.
 - [Codex](codex/index.md) - OpenAI's ChatGPT-included agent, the Apache-2.0 big-lab CLI individuals can still just run.
+- [Command Code](command-code/index.md) - the ex-Langbase closed harness whose taste-1 model learns your conventions, credit plans from $1 a month built on open models.
+- [Copilot CLI](copilot-cli/index.md) - GitHub's proprietary terminal agent included in every Copilot plan, first-party GitHub.com reach, preview sandboxes, multi-model credits.
 - [Crush](crush/index.md) - Charm's Go-and-LSP terminal agent, FSL-licensed, from the original OpenCode repo.
 - [DeepSeek Harness](deepseek-harness/index.md) - DeepSeek's everything-is-a-plugin harness, 242k stars in its first two months, MIT, prerelease-only at v0.2.1-alpha.1.
 - [Exo](exo/index.md) - the MIT self-modification bet, a harness the agent can rewrite at runtime, cheapest measured harness at $1.05 per task.
@@ -30,6 +32,7 @@ The terminal and CLI agents that carry the model into your repository: the platf
 - [Kilo Code](kilo-code/index.md) - the Cline-and-Roo feature-merge under MIT, subagents through cloud tasks bundled in, Anaconda's since July 2026.
 - [Kimi Code](kimi-code/index.md) - Moonshot AI's terminal agent tuned for its own challenger-priced models, subagents through ACP in one Node.js CLI.
 - [MiMo Code](mimo-code/index.md) - Xiaomi's MIT OpenCode fork, a terminal agent built around checkpointed memory and goal-verified long-horizon runs, priced on cheap MiMo tokens.
+- [Omnigent](omnigent/index.md) - Databricks' Apache-2.0 meta-harness wrapping Claude Code, Codex, Cursor, OpenCode, Pi, and custom YAML agents behind one API, with policies, sandboxes, and live session sharing.
 - [OneCLI](onecli/index.md) - the YC S26 Apache-2.0 team harness where a credential gateway injects secrets per request, so agents never hold them.
 - [Open Interpreter](openinterpreter/index.md) - a 2026 Rust fork of Codex CLI emulating provider harnesses for cheap open-weight models like Kimi K3 and GLM.
 - [OpenCode](opencode/index.md) - the MIT, provider-neutral harness with the leanest measured token baseline.
@@ -75,3 +78,6 @@ Its members are compared on shared rows in the [Harness Feature Matrix](harness-
 - 2026-09-25 - Added Unreal Agent.
 - 2026-09-27 - Added Open Interpreter.
 - 2026-09-27 - Added MiMo Code.
+- 2026-10-05 - Added Command Code.
+- 2026-10-05 - Added Copilot CLI.
+- 2026-10-06 - Added Omnigent.

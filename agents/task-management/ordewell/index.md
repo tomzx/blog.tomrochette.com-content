@@ -1,7 +1,7 @@
 ---
 title: Ordewell
 created: 2026-09-16
-updated: 2026-10-04
+updated: 2026-10-06
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, task-management, planner, multi-agent, open-source]
 readability: 3
@@ -25,8 +25,8 @@ The planner's permissions are unusually explicit (ADR-0008): commands classify i
 ## Status
 
 Active, young, and small.
-As of 2026-10-04: 183 stars, 14 forks, 30 open issues (most of them a single-day roadmap filing on 2026-09-26), created 2026-07-31, pushed 2026-10-03, latest release v0.6.1 on 2026-10-02, and roughly 4,700 npm downloads last month across the `ordewell` and `@ordewell/cli` package names.
-The v0.6 pair landed one day after v0.5.6 closed a five-day, seven-release v0.5.x line: v0.6.0 made the structured transport the default with Codex and OpenCode connectors, added Full auto and Auto modes, and a task log that keeps a scrolled-back reader's place, while v0.6.1 added ops tasks and merge gates (ADR-0020), so a task that acts on the world runs once the work it depends on is merged.
+As of 2026-10-06: 185 stars, 14 forks, 29 open issues (most of them a single-day roadmap filing on 2026-09-26), created 2026-07-31, pushed 2026-10-05, latest release v0.7.0 on 2026-10-05, and roughly 6,200 npm downloads last month across the `ordewell` and `@ordewell/cli` package names.
+v0.7.0 shipped an MCP server exposing task and planner tools, wired into Codex and OpenCode, with a runner that cannot inject the server demoted to a plugin runner; it landed three days after the v0.6 pair, which had made the structured transport the default with Codex and OpenCode connectors and added ops tasks and merge gates (ADR-0020), so a task that acts on the world runs once the work it depends on is merged.
 The Show HN launch thread reached 56 points and 30 comments on 2026-09-15.
 
 ## Strengths
@@ -69,6 +69,7 @@ The disagreeable claim I will defend: the AI-written launch thread is not disqua
 - 2026-09-29 - Recorded v0.5.5 (2026-09-28, streaming planner replies and run-robustness fixes), refreshed counts (179 stars, 33 open issues, about 4,400 npm downloads), and updated the launch thread to 56 points and 35 comments.
 - 2026-10-02 - Recorded v0.5.6 (2026-09-30, the seventh v0.5.x release in five days) and refreshed counts (183 stars, pushed 2026-10-01, about 4,700 npm downloads across both package names).
 - 2026-10-03 - Recorded the v0.6.0 and v0.6.1 releases (both 2026-10-02: structured transport as the default with Codex and OpenCode connectors, then ops tasks and merge gates per ADR-0020), refreshed counts (32 open issues, pushed 2026-10-02), and updated the launch thread to 30 comments.
+- 2026-10-06 - Recorded the v0.7.0 release (2026-10-05, the MCP server for task and planner tools) and refreshed counts; corrected the launch-thread comment count in References to 30.
 
 ## See also
 
@@ -86,5 +87,5 @@ The disagreeable claim I will defend: the AI-written launch thread is not disqua
 - https://ordewell.ai/docs.html - install, requirements, headless usage
 - https://github.com/ordewell/ordewell/blob/main/docs/adr/0002-planner-as-conversation-loop.md - the conversation-loop decision and the session wipe
 - https://github.com/ordewell/ordewell/blob/main/docs/adr/0008-planner-exploration-envelope.md - the auto/ask/refuse tiers and path confinement
-- https://news.ycombinator.com/item?id=49712276 - the launch thread: the AI-written exchange, the absorption objection, 56 points and 35 comments
-- https://api.npmjs.org/downloads/point/last-month/@ordewell/cli - 2,401 downloads last month for the scoped package
+- https://news.ycombinator.com/item?id=49712276 - the launch thread: the AI-written exchange, the absorption objection, 56 points and 30 comments
+- https://api.npmjs.org/downloads/point/last-month/@ordewell/cli - 3,220 downloads last month for the scoped package

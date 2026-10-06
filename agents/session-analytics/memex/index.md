@@ -1,7 +1,7 @@
 ---
 title: Memex
 created: 2026-09-20
-updated: 2026-10-04
+updated: 2026-10-05
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, session-analytics, search, open-source]
 readability: 3
@@ -23,8 +23,8 @@ Made by an independent developer, MIT-licensed, with no cloud service in the def
 
 ## Status
 
-Active and quietly growing: created 2026-01-01, 241 stars, 33 forks, pushed 2026-10-04, as of 2026-10-04.
-Releases ship in bursts: v0.25.0 (2026-10-02) added the Hermes and KiloCode CLI engines (fifteen to seventeen harnesses), then v0.26.0, v0.26.1, and v0.27.0 all landed 2026-10-03 (OpenAI-compatible remote embeddings plus the full fastembed catalog, Homebrew tap updates, and conversation-search relevance improvements).
+Active and quietly growing: created 2026-01-01, 243 stars, 33 forks, pushed 2026-10-05, as of 2026-10-05.
+Releases ship in bursts: v0.25.0 (2026-10-02) added the Hermes and KiloCode CLI engines (fifteen to seventeen harnesses), then v0.26.0, v0.26.1, and v0.27.0 all landed 2026-10-03 (OpenAI-compatible remote embeddings plus the full fastembed catalog, Homebrew tap updates, and conversation-search relevance improvements), and v0.27.1 followed on 2026-10-04 without release notes.
 Its Show HN on 2026-09-18 reached 2 points and a single comment, written by the author.
 **The launch footprint is nearly empty, which I read as adoption through word of mouth and through agents rather than through launches, the same reading this category applied to ctx, and as thin independent verification.**
 
@@ -65,6 +65,7 @@ My disagreeable claim: resume-in-place is the feature every archive tool in this
 - 2026-09-27 - Re-verified: repository counts refreshed (228 to 231 stars), releases, engine table, and launch thread all unchanged.
 - 2026-10-03 - Recorded the v0.25.0 release (2026-10-02), which added Hermes and KiloCode CLI engine support (fifteen to seventeen harnesses) alongside index-statistics and daemon fixes; the push date moved to 2026-10-02 with star and fork counts unchanged (239 stars, 33 forks).
 - 2026-10-04 - Recorded the v0.26.0, v0.26.1, and v0.27.0 releases (all 2026-10-03: opt-in OpenAI-compatible remote embeddings plus the full fastembed catalog, Homebrew tap updates, conversation-search relevance improvements), qualified the local-embeddings claims in What it is, Cautions, and Pricing accordingly, and refreshed repository counts (241 stars, pushed 2026-10-04).
+- 2026-10-05 - Recorded v0.27.1 (2026-10-04, released without notes); refreshed stars to 243 and the push date to 2026-10-05.
 
 ## See also
 
@@ -76,8 +77,8 @@ My disagreeable claim: resume-in-place is the feature every archive tool in this
 ## References
 
 - https://github.com/nicosuave/memex - repository, description, engine support table, surfaces
-- https://api.github.com/repos/nicosuave/memex - stars, forks, dates, MIT license as of 2026-10-04
+- https://api.github.com/repos/nicosuave/memex - stars, forks, dates, MIT license as of 2026-10-05
 - https://raw.githubusercontent.com/nicosuave/memex/main/README.md - features, engine matrix, install, MCP server, herdr plugin, and the remote-embeddings warning that transcript text and memory documents are sent to the configured API (fetched 2026-10-04)
-- https://github.com/nicosuave/memex/releases - v0.25.0 (2026-10-02) and the v0.26.0, v0.26.1, v0.27.0 releases of 2026-10-03
+- https://github.com/nicosuave/memex/releases - v0.25.0 (2026-10-02), the v0.26.0, v0.26.1, v0.27.0 releases of 2026-10-03, and v0.27.1 (2026-10-04, no notes published)
 - https://raw.githubusercontent.com/nicosuave/memex/main/docs/installation.md - brew, AUR, Nix, and cargo install paths
 - https://hn.algolia.com/api/v1/items/49754771 - the 2-point Show HN of 2026-09-18, cited as the thin-footprint signal

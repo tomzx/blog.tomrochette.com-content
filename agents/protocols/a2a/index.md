@@ -1,7 +1,7 @@
 ---
 title: Agent2Agent Protocol (A2A)
 created: 2026-08-24
-updated: 2026-09-13
+updated: 2026-10-05
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, protocols, interoperability, multi-agent]
 readability: 3
@@ -40,7 +40,7 @@ No coding harness in this index speaks it natively; the closest touchpoint is [G
 
 ## Cautions
 
-- **The usage gap with MCP is the signal**: an A2A ecosystem developer reported roughly 10.9M monthly a2a-sdk downloads versus about 257M for the MCP SDK (pypistats, mid-June 2026).
+- **The usage gap with MCP is the signal**: pypistats records about 11.2M monthly a2a-sdk downloads versus about 231M for the MCP SDK as of 2026-10-05 (the mid-June 2026 report an ecosystem developer shared read 10.9M versus 257M).
 - Critics argue MCP already covers the ground by treating agents as tools, and a June 2026 Ask HN thread (46 comments) found thin startup usage plus concrete complaints about identity assumptions and gRPC friction.
 - v1.0 broke wire compatibility with v0.3, so early adopters are mid-migration.
 - Prompt injection across agent boundaries remains unsolved at the protocol level.
@@ -85,3 +85,5 @@ The disagreeable part: I expect A2A to stay an enterprise convention, and if aut
 - https://lfaidata.foundation/communityblog/2025/08/29/acp-joins-forces-with-a2a-under-the-linux-foundations-lf-ai-data/ - IBM ACP merge and TSC composition
 - https://blog.fka.dev/blog/2025-04-15-why-googles-a2a-protocol-doesnt-make-sense/ - the MCP-redundancy critique
 - https://news.ycombinator.com/item?id=48582679 - Ask HN usage thread: thin startup adoption, the download-ratio report
+- https://pypistats.org/api/packages/a2a-sdk/recent - 11,217,881 downloads in the trailing month as of 2026-10-05
+- https://pypistats.org/api/packages/mcp/recent - 231,325,069 downloads in the trailing month as of 2026-10-05

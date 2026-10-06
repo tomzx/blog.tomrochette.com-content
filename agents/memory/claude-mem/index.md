@@ -1,7 +1,7 @@
 ---
 title: claude-mem
 created: 2026-08-30
-updated: 2026-10-04
+updated: 2026-10-05
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, session-memory, compression, open-source]
 readability: 3
@@ -24,10 +24,11 @@ Made by Alex Newman (thedotmack), a solo author in the Vercel OSS Program, with 
 
 ## Status
 
-Very large and fast: about 95.6k stars, 8.5k forks, and 128 open issues and pull requests as of 2026-10-04, with 68,674 npm downloads in the last month (2026-09-02 to 2026-10-01).
-Created 2025-08-31, pushed 2026-10-04, latest tagged release v13.29.0 on 2026-10-03, with npm at 13.29.0 as of 2026-10-04, closing the one-day channel drift.
+Very large and fast: about 96.3k stars, 8.5k forks, and 105 open issues and pull requests as of 2026-10-05, with 68,891 npm downloads in the last month (2026-09-04 to 2026-10-03).
+Created 2025-08-31, pushed 2026-10-05, latest tagged release v13.31.0 on 2026-10-05 with npm in sync at 13.31.0 as of 2026-10-05.
 The README now brands the project Grok Mem (the package is still `claude-mem`), and v13.24.0 shipped it as two independent Cursor and Grok Bot marketplace plugins alongside the Claude Code install path.
 **The v13.x version line tells you the churn rate: near-daily releases with major-version jumps, which is velocity and breakage risk in the same number.**
+v13.30.0 (2026-10-04) reworked hook delivery so hooks spool each event to disk and return without waiting on the worker, made observer prompts provider-cache-friendly, and dropped the separate per-prompt observer call, and v13.31.0 (2026-10-05) cut SessionStart's newest-memories query from seconds to milliseconds with new indexes.
 
 ## Strengths
 
@@ -76,6 +77,7 @@ Not for privacy-strict environments, anyone unwilling to run a local worker serv
 - 2026-09-27 - Refreshed the volatile facts: about 94.8k stars, 312 open issues and PRs, 68,101 trailing-month npm downloads, and release v13.28.0 (2026-09-26) with npm in sync.
 - 2026-10-03 - Recorded GitHub release v13.29.0 (2026-10-03) with npm lagging at 13.28.0 at fetch time, the first channel drift since 2026-09-21; refreshed stars to about 95.2k, 109 open issues and PRs, and 68,674 trailing-month npm downloads.
 - 2026-10-04 - The npm-versus-GitHub channel drift closed: npm published 13.29.0, matching the v13.29.0 GitHub tag; refreshed stars to about 95.6k, 8.5k forks, and 128 open issues and PRs.
+- 2026-10-05 - Recorded the v13.30.0, v13.30.1, and v13.31.0 releases (spooled hooks, cacheable observer prompts, indexed SessionStart) with npm in sync at 13.31.0; refreshed stars to about 96.3k, 105 open issues and PRs, and 68,891 trailing-month downloads.
 
 ## See also
 
@@ -91,5 +93,5 @@ Not for privacy-strict environments, anyone unwilling to run a local worker serv
 - https://docs.claude-mem.ai/architecture/overview - hook architecture and the compression flow behind the token-cost caution
 - https://docs.claude-mem.ai/cloud-sync - the documented privacy trade-off of the cloud tier
 - https://claude-mem.ai - pricing tiers and adoption stats
-- https://api.npmjs.org/downloads/point/last-month/claude-mem - the 68,674 monthly downloads (2026-09-02 to 2026-10-01) as of 2026-10-03
+- https://api.npmjs.org/downloads/point/last-month/claude-mem - the 68,891 monthly downloads (2026-09-04 to 2026-10-03) as of 2026-10-05
 - https://news.ycombinator.com/item?id=47422611 - the critical take from a competing memory author on the capture-everything approach

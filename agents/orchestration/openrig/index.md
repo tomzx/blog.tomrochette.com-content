@@ -1,7 +1,7 @@
 ---
 title: OpenRig
 created: 2026-10-02
-updated: 2026-10-04
+updated: 2026-10-05
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, llm=glm-5.3-flash, orchestration, control-plane, cross-harness, tmux, persistent-agents]
 readability: 3
@@ -25,8 +25,8 @@ It ships no model and holds no API keys: it drives the Claude Code and Codex log
 
 ## Status
 
-Active and early: about 4.7k stars and 329 forks as of 2026-10-04, created 2026-04-01, 24 contributors, 94 open issues and pull requests, and v0.6.4 published 2026-10-02, with npm `@openrig/cli` at 0.6.4 after 54 versions since 2026-04-06.
-**The adoption signal is thin where it matters: GitHub traction is respectable, but the Hacker News footprint is a pair of Show HN threads at 8 and 6 points plus a 2-point repost, and the documentation index still names release 0.5.14 while npm ships 0.6.4.**
+Active and early: about 5.0k stars and 366 forks as of 2026-10-05, created 2026-04-01, 24 contributors, 94 open issues and pull requests, and v0.6.5 published 2026-10-04, with npm `@openrig/cli` at 0.6.5 after 55 versions since 2026-04-06.
+**The adoption signal is thin where it matters: GitHub traction is respectable, but the Hacker News footprint is a pair of Show HN threads at 8 and 6 points plus a 2-point repost, and the documentation index still names release 0.5.14 while npm ships 0.6.5.**
 The project describes itself as built by its own network of agent teams since March 2026, a self-reported claim that independent field reports do not yet corroborate.
 
 ## Strengths
@@ -66,6 +66,7 @@ Not for anyone who needs agent sandboxing, a Windows desktop, or a managed cloud
 
 - 2026-10-02 - Created.
 - 2026-10-02 - Re-verified the note against the GitHub API, npm, and openrig.dev hours after creation: v0.6.4, 24 contributors, 39 releases, npm 0.6.4 across 54 versions since 2026-04-06, the 0.5.14 docs lag, and both HN thread point counts all confirmed, and the MCP server, discover and adopt, RigBundle integrity, and permission-override claims all checked against the live site.
+- 2026-10-05 - Recorded v0.6.5 (October 4) as the latest release on GitHub and npm, and refreshed star and fork counts.
 
 ## See also
 
@@ -81,7 +82,7 @@ Not for anyone who needs agent sandboxing, a Windows desktop, or a managed cloud
 - https://openrig.dev/docs/getting-started - prerequisites, starters, seat and pod concepts, and the human-and-agent user model
 - https://openrig.dev/what-is - architecture, primitives, and the software-factory framing
 - https://github.com/mvschwarz/openrig - repository, Apache-2.0 license, stars, and the what-it-changes-on-your-machine table
-- https://www.npmjs.com/package/@openrig/cli - package version 0.6.4 and the release history
+- https://www.npmjs.com/package/@openrig/cli - package version 0.6.5 and the release history
 - https://openrig.dev/blog/orchestrator - launch demo, the two-orchestrator high-availability pair, and the September 2026 permission-override update
 - https://openrig.dev/blog/cross-harness-agents - the cross-harness thesis and the terminal-as-transport mechanism
 - https://esoteric.run/blog/why-i-built-openrig - the author's design rationale and the restore-everything motivation

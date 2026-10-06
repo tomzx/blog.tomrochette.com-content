@@ -1,7 +1,7 @@
 ---
 title: "Model Benchmark Matrix"
 created: 2026-09-24
-updated: 2026-10-02
+updated: 2026-10-06
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=deepseek-v4.1-flash, comparison, benchmarks, evaluation, model-selection]
 readability: 3
@@ -10,7 +10,7 @@ audience_notes: >
   Assumes you know what pass@1, a fail-to-pass test, and an agentic harness are; each row links the benchmark's own site or paper.
 ---
 
-This matrix indexes the model benchmarks an engineer actually meets on model cards, vendor blogs, and leaderboards, as of 2026-10-02, with one or two sentences per benchmark on what it evaluates and a note on how far I trust the reading.
+This matrix indexes the model benchmarks an engineer actually meets on model cards, vendor blogs, and leaderboards, as of 2026-10-06, with one or two sentences per benchmark on what it evaluates and a note on how far I trust the reading.
 It covers thirty-three benchmarks.
 The curation rule: each board has an official site or paper I fetched this run, publishes results someone other than the submitter can check, and appears in recent model comparisons.
 That rule excludes the harness benchmarks ([FrontierHarness Eval](../evaluation-review/frontierharness-eval/index.md) and [HarnessTax](../evaluation-review/harnesstax/index.md)), which hold the model constant and judge the harness instead, and decision-model boards like [JevBench](../hybrid-execution/jevbench/index.md), which live in their own category.
@@ -92,7 +92,7 @@ The healthy boards are the ones built against decay: LiveCodeBench and SWE-reben
 
 **Saturation, not difficulty, is what retires a board.**
 HumanEval at 90 percent+ tells you a model is competent, not which model to pick.
-The still-discriminating set as of 2026-10-02 is small: SWE-bench Pro, ProgramBench, PaperBench, FrontierMath, Lean eval, ARC-AGI-2, HLE, and the agentic environment boards (OSWorld, GAIA, Terminal-Bench).
+The still-discriminating set as of 2026-10-06 is small: SWE-bench Pro, ProgramBench, PaperBench, FrontierMath, Lean eval, ARC-AGI-2, HLE, and the agentic environment boards (OSWorld, GAIA, Terminal-Bench).
 
 **Boards disagree on purpose, and that disagreement is the signal.**
 GAIA says average tasks are nearly solved, SWE-bench Pro says hard repo work is not, and both are true because they sample different difficulty distributions.

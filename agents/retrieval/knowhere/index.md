@@ -1,7 +1,7 @@
 ---
 title: Knowhere
 created: 2026-09-20
-updated: 2026-10-04
+updated: 2026-10-05
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, retrieval, rag, chunking, document-parsing, mcp, open-source]
 readability: 3
@@ -27,7 +27,7 @@ Made by Ontos AI, which open-sourced the full stack on May 7, 2026.
 ## Status
 
 **Active and shipping weekly, with a striking mismatch between stars and discussion.**
-3,646 stars since 2026-04-30, latest release v1.2.20 on 2026-09-30, pushed 2026-10-03 (GitHub API, as of 2026-10-04).
+3,661 stars since 2026-04-30, latest release v1.2.22 on 2026-10-05 (following v1.2.21 the same day, and v1.2.20 on 2026-09-30), pushed 2026-10-05 (GitHub API, as of 2026-10-05).
 Two Show HNs drew a combined 2 points and 1 comment (March and September 2026), so like graft and graphify, the star count ran far ahead of any independent technical discussion.
 The self-hosted stack repo has 12 stars and was last pushed 2026-09-21, so the self-hosting path looks far less trafficked than the hosted funnel.
 
@@ -47,7 +47,7 @@ The self-hosted stack repo has 12 stars and was last pushed 2026-09-21, so the s
 
 ## Pricing
 
-**The hosted API bills per page: $0.015 per billable page ($1.50 per 100 pages), with rate-limit tiers unlocked by lifetime spend (re-verified unchanged 2026-10-04).**
+**The hosted API bills per page: $0.015 per billable page ($1.50 per 100 pages), with rate-limit tiers unlocked by lifetime spend (re-verified unchanged 2026-10-05).**
 The $5 signup credit the site showed on 2026-09-22 no longer appears; the current signup offer is a 14-day free trial (re-verified 2026-09-26).
 Billable pages count physical PDF pages, slide counts, one page per image, and size-derived units for text and spreadsheets; jobs that fail after billing are refunded.
 The open-source engine and the self-hosted stack are free under Apache-2.0.
@@ -78,6 +78,7 @@ My disagreeable claim: the near-total absence of public discussion around a 3,60
 - 2026-09-27 - Refreshed the volatile numbers (3,528 stars); release v1.2.17, the per-page pricing, and the 14-day free trial all re-confirmed unchanged.
 - 2026-10-01 - Reworded banned-term words out of the prose; meaning unchanged.
 - 2026-10-02 - Recorded release v1.2.20 (2026-09-30, following v1.2.18 and v1.2.19 on 2026-09-29) and refreshed the volatile numbers (3,606 stars, pushed 2026-09-30); per-page pricing and the 14-day free trial unchanged.
+- 2026-10-05 - Recorded releases v1.2.21 and v1.2.22 (both 2026-10-05) and refreshed the volatile numbers (3,661 stars, pushed 2026-10-05); per-page pricing re-verified unchanged.
 
 ## See also
 
@@ -88,8 +89,8 @@ My disagreeable claim: the near-total absence of public discussion around a 3,60
 
 ## References
 
-- https://github.com/Ontos-AI/knowhere - repository, README (architecture, tracks, news timeline), stars and activity as of 2026-10-03
-- https://github.com/Ontos-AI/knowhere/releases - release cadence, v1.2.20 on 2026-09-30
+- https://github.com/Ontos-AI/knowhere - repository, README (architecture, tracks, news timeline), 3,661 stars and activity as of 2026-10-05
+- https://github.com/Ontos-AI/knowhere/releases - release cadence, v1.2.22 on 2026-10-05
 - https://knowhereto.ai - hosted product surface, $5 free credit, and the self-reported comparison table
 - https://docs.knowhereto.ai/ - product docs: SDKs, CLI, retrieval query surface
 - https://docs.knowhereto.ai/pricing - per-page pricing, billable-page counting, refund policy, rate-limit tiers

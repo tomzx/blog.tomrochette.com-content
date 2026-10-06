@@ -1,7 +1,7 @@
 ---
 title: oh-my-codex
 created: 2026-09-27
-updated: 2026-10-02
+updated: 2026-10-05
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, llm=glm-5.3-flash, orchestration, codex, skills, workflows]
 readability: 3
@@ -24,7 +24,7 @@ Notifications route to Discord, Slack, Telegram, or custom webhooks through an O
 
 ## Status
 
-Actively shipped and very popular: about 33,434 stars and 2,544 forks as of 2026-10-02, created 2026-02-02, with the latest release v0.21.7 on 2026-10-01 and npm at the same version across 136 published versions.
+Actively shipped and very popular: about 33,451 stars and 2,543 forks as of 2026-10-05, created 2026-02-02, with the latest release v0.21.7 on 2026-10-01 and npm at the same version across 136 published versions.
 The 0.21 line was a consolidation: it retired legacy keywords behind a sunset-stub resolver (`$ralph` to `$ultragoal`, `$ultrawork` to `$team`) and removed writable MCP state tools.
 **The popularity is harness-specific: OMX is a Codex CLI layer, and the README itself warns that native Windows and the Codex App are not the default experience and may break, and that third-party "OMX v2" forks are not official.**
 

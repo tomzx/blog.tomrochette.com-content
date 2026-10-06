@@ -1,7 +1,7 @@
 ---
 title: NanoJev
 created: 2026-09-21
-updated: 2026-10-03
+updated: 2026-10-06
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, hybrid-execution, structured-outputs, system-one-models, decision-models, open-weights, game-agents]
 readability: 3
@@ -25,7 +25,7 @@ The code is MIT, by an individual developer signing as Tianyu (43 GitHub followe
 
 **Active, sixteen days old, mid-pack among the open replicas by stars, with the smallest community footprint.**
 The repository was created 2026-09-17, pushed 2026-09-21, and shows about 2,500 stars and 255 forks as of 2026-10-03.
-The weights show about 8,400 downloads and 85 likes, the dataset about 5,100 downloads, as of 2026-10-03.
+The weights show about 8,600 downloads and 85 likes, the dataset about 5,200 downloads, as of 2026-10-06.
 The author published a follow-up project, JevHarness, for letting an LLM build task-specific decision harnesses with rewards and execution traces.
 The Hacker News submission (2026-09-18) sits at 2 points and zero comments, the third-party JevBench board ranks no NanoJev checkpoint, and I found no independent discussion, evaluation, or runtime anywhere; **that silence is itself a signal, and it is why I weight every number below as unreplicated.**
 

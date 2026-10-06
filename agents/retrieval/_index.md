@@ -8,13 +8,15 @@ tags: [agents, retrieval]
 readability: 3
 ---
 
-Feeding agents the right slices of large corpora: chunking libraries, parsing pipelines, the two big frameworks, and the patterns built on them.
+Feeding agents the right slices of large corpora: chunking libraries, parsing pipelines, search-engine libraries, the two big frameworks, and the patterns built on them.
 
 - [Chonkie](chonkie/index.md) - the MIT chunking library (token, semantic, and neural chunkers) for RAG pipelines, its commercial arm dead and its maker pivoted to Feyn Labs.
 - [Docling](docling/index.md) - IBM-origin document parser turning PDF, Office, audio, and video into structured DoclingDocuments for RAG and agent pipelines.
 - [Knowhere](knowhere/index.md) - Ontos AI's structure-preserving document parsing and retrieval pipeline, hosted per page or self-hosted, its self-reported benchmark and near-empty HN footprint attached.
 - [LangChain](langchain/index.md) - the largest LLM framework, repositioned in 2026 as an agent engineering platform.
 - [LlamaIndex](llamaindex/index.md) - the MIT data framework for retrieval pipelines, now the open arm of LlamaParse.
+- [open-codebase-index](open-codebase-index/index.md) - the MIT self-hosted semantic code index (embeddings, BM25, call graph) served to OpenCode, Claude Code, Codex, Pi, and MCP clients.
+- [Orama](orama/index.md) - the Apache-2.0 embeddable search engine and RAG pipeline for JS/TS, 1.5M weekly installs on a stalled release train.
 - [Semantic code search](semantic-code-search/index.md) - retrieval by meaning over embedded chunks, shipped as a workspace index.
 - [Tree-sitter chunking](tree-sitter-chunking/index.md) - cutting files along syntax boundaries instead of fixed line counts.
 
@@ -29,3 +31,5 @@ Its members are compared on shared rows in the [Retrieval Feature Matrix](retrie
 - 2026-09-16 - Added Chonkie.
 - 2026-09-20 - Added Knowhere.
 - 2026-09-27 - Added Docling.
+- 2026-10-05 - Added open-codebase-index.
+- 2026-10-06 - Added Orama.

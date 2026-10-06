@@ -1,7 +1,7 @@
 ---
 title: Orca
 created: 2026-09-27
-updated: 2026-10-03
+updated: 2026-10-05
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, llm=glm-5.3-flash, orchestration, agent-ide, worktrees, mobile]
 readability: 3
@@ -24,8 +24,8 @@ MIT licensed, TypeScript and Electron, and the repo's README carries translation
 
 ## Status
 
-Fast and well-funded: about 84k stars and 5,417 forks as of 2026-10-03, created 2026-03-17, more than 11,900 commits, with v1.4.219 (2026-10-02) the latest release.
-v1.4.219 is a patch built from the September 30 daily build plus fixes picked from main.
+Fast and well-funded: about 85.2k stars and 5,493 forks as of 2026-10-05, created 2026-03-17, more than 11,900 commits, with v1.4.220 (2026-10-04) the latest release.
+v1.4.220 is another patch from the October 2 daily build plus fixes picked from main: a native-chat Stop button that ends Claude's process, chat polish, Antigravity quota meters, faster workspace creation in large repositories, and an optional Node-free Orca runtime for SSH hosts.
 The changelog shows daily shipping through September 2026, including OpenCode 2 support (2026-09-20), a Muse Code harness and Codex goals in native chat (2026-09-25), and a Design Mode and browser stack.
 Stably is a YC W22 company with a separate revenue product (Stably testing), so Orca does not have to monetize itself yet, which is why it can stay free and MIT.
 **The caution is scale: 7,452 open issues and pull requests against a repository roughly six months old, and the loudest proof of adoption is a wall of self-selected X quotes rather than independent field reports.**
@@ -71,6 +71,7 @@ Not for teams that need a closed, vendor-supported enterprise product today, or 
 - 2026-10-03 - Recorded v1.4.219 (October 2, a patch from the September 30 daily build plus fixes from main) as the latest release and refreshed star, fork, and tracker counts.
 - 2026-10-02 - Recorded v1.4.218 (September 30) as the latest release and refreshed star, fork, and tracker counts.
 - 2026-10-02 - Reconciled the Status and Cautions tracker counts, which disagreed (7,014 versus 7,303), to the verified 7,355 open issues and pull requests, and refreshed star and fork counts.
+- 2026-10-05 - Recorded v1.4.220 (October 4, a Stop button for native chat, chat polish, Antigravity quota meters, and a Node-free SSH runtime option) as the latest release and refreshed star and fork counts.
 
 ## See also
 
