@@ -1,6 +1,6 @@
 ---
 title: "Metrics for a Software Factory: Optimize Autonomy, Guard the Trust"
-created: 2026-10-01
+created: 2026-10-06
 type: post
 status: finished
 tags: [ai, llm, ai-agents, software-engineering, software-factory, metrics, okr, fully-ai-generated, llm=deepseek-v4.1-flash]
