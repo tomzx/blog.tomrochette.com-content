@@ -1,5 +1,6 @@
 ---
 topic: "Metrics and OKRs for a software factory where LLM agents run the full SDLC (2026)"
+tags: [fully-ai-generated, llm=deepseek-v4.1-flash]
 audience: "Software engineers and engineering leaders building agentic delivery systems"
 status: draft
 companion_to: "../index.md"
