@@ -28,6 +28,14 @@ As of 2026-10-06: 5,002 stars, 910 forks, 334 open issues, created 2025-11-13, p
 
 [![Star History Chart](https://api.star-history.com/chart?repos=awslabs/aidlc-workflows&type=date&legend=top-left)](https://www.star-history.com/?repos=awslabs%2Faidlc-workflows&type=date&legend=top-left)
 
+<a href="https://www.star-history.com/?repos=awslabs%2Faidlc-workflows&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=awslabs/aidlc-workflows&type=date&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=awslabs/aidlc-workflows&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=awslabs/aidlc-workflows&type=date&legend=top-left" />
+ </picture>
+</a>
+
 **Its Hacker News footprint is thin (the methodology's threads run 2 to 5 points), so adoption signals rest on the star count and AWS's institutional push rather than independent discussion.**
 
 ## Strengths
