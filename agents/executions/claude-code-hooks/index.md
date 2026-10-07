@@ -1,7 +1,7 @@
 ---
 title: Claude Code hooks
 created: 2026-08-24
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, executions, claude-code, hooks]
 readability: 3
@@ -25,6 +25,9 @@ The same hook events fire in the terminal, IDE extensions, the desktop app, and 
 
 **Active and heavily invested in.**
 The feature ships in the proprietary CLI tracked by the `anthropics/claude-code` repository (about 149.5k stars and roughly 14.3k open issues as of 2026-10-06).
+
+[![Star History Chart](https://api.star-history.com/chart?repos=anthropics/claude-code&type=date&legend=top-left)](https://www.star-history.com/?repos=anthropics%2Fclaude-code&type=date&legend=top-left)
+
 A third-party ecosystem exists: an HN search surfaces roughly 500 stories mentioning Claude Code hooks, including dedicated tooling like Graft, whose August 2026 launch thread drew 44 comments.
 Anthropic's own security-guidance plugin is built entirely on hooks (SessionStart, UserPromptSubmit, PostToolUse, Stop), which signals production commitment.
 
@@ -66,6 +69,7 @@ I would go further: a team that relies on prompt instructions instead of PreTool
 - 2026-09-18 - Refreshed the repository counters (about 145.2k to about 146k stars, roughly 12.4k to roughly 12.5k open issues).
 - 2026-09-29 - Refreshed the repository counters (about 148.5k stars, roughly 13.6k open issues) and re-dated the reference.
 - 2026-10-06 - Refreshed the event count to 33 per the current reference table, re-grounded the matcher version-gating caution on the current docs after the older version claims left the page, and linked the new Claude Code routines note.
+- 2026-10-07 - Added the anthropics/claude-code star history chart to the Status section.
 
 ## See also
 

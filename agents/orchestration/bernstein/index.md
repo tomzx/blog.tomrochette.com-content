@@ -1,7 +1,7 @@
 ---
 title: Bernstein
 created: 2026-10-06
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, deterministic-scheduling, policy-as-code, worktrees, audit]
 readability: 3
@@ -22,6 +22,9 @@ It ships as a CLI, TUI, and web UI on PyPI (`bernstein`), drives 50-plus CLI age
 ## Status
 
 Active and fast-releasing: 1,404 stars, 30 contributors, and a push on 2026-10-06 as of 2026-10-06, created 2026-03-22, with v3.21.0 published 2026-10-05 (GitHub API, PyPI, as of 2026-10-06).
+
+[![Star History Chart](https://api.star-history.com/chart?repos=sipyourdrink-ltd/bernstein&type=date&legend=top-left)](https://www.star-history.com/?repos=sipyourdrink-ltd%2Fbernstein&type=date&legend=top-left)
+
 The README calls the project beta and solo-maintained, and warns that minor versions may change interfaces, so pinning is advised.
 **The community footprint is thin for the ambition: a 1-point Show HN in August 2026 and a 3-point story in May are the whole independent record, and the strongest third-party coverage is a commercial roundup (Augment Code, updated 2026-08-12) whose hands-on test praised the design, calling it the most architecturally interesting tool in its survey and noting its Janitor verification caught a type error before the merge queue.**
 The governance framing puts it next to control-plane products, but its unit of work is the parallel coding-agent session in a worktree, which is this category's daily work.
@@ -56,6 +59,7 @@ Not for teams that want LLM-driven planning, a GUI-first experience, or a projec
 ## Changes
 
 - 2026-10-06 - Created after the entrant scan surfaced the active v3.21.0 repository with no note in the section.
+- 2026-10-07 - Added the sipyourdrink-ltd/bernstein star history chart to the Status section.
 
 ## See also
 

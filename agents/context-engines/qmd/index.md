@@ -1,7 +1,7 @@
 ---
 title: qmd
 created: 2026-08-30
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, context-engines, retrieval, local-search, open-source]
 readability: 3
@@ -25,6 +25,9 @@ MIT, by Tobias Lütke (Shopify CEO), who authored about three quarters of the co
 ## Status
 
 Young with unusual traction: 30,222 stars, 1,891 forks, 210 open issues and PRs as of 2026-10-06, created 2025-12-08.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=tobi/qmd&type=date&legend=top-left)](https://www.star-history.com/?repos=tobi%2Fqmd&type=date&legend=top-left)
+
 Latest release v2.8.3 on 2026-08-16, pushed 2026-10-02.
 **The maintainer concentration is the story: one high-profile author shipping v1 through v2.8 in nine months, with community PRs around the edge.**
 
@@ -64,6 +67,7 @@ Not for code-symbol search (use grep-class tools), constrained machines, or team
 - 2026-09-18 - Refreshed the growth numbers (29,833 stars, 1,860 forks, 149 open issues and PRs); latest release remains v2.8.3, with no push since 2026-09-09.
 - 2026-09-25 - Refreshed the growth numbers (30,010 stars, 1,873 forks, 163 open issues and PRs); latest release remains v2.8.3, with no push since 2026-09-09.
 - 2026-09-27 - Refreshed the growth numbers (30,063 stars, 1,878 forks, 185 open issues and PRs); latest release remains v2.8.3, with no push since 2026-09-09.
+- 2026-10-07 - Added the tobi/qmd star history chart to the Status section.
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: Experiential
 created: 2026-09-27
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, model-access, llm-gateway, self-hosted, model-routing]
 readability: 3
@@ -25,6 +25,9 @@ The GitHub repo language reads Python; the Rust data plane claim comes from the 
 ## Status
 
 Very active and compounding fast: 9,303 stars and 231 forks as of 2026-10-06, pushed the same day, created 2026-06-24.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=experientiallabs/experiential&type=date&legend=top-left)](https://www.star-history.com/?repos=experientiallabs%2Fexperiential&type=date&legend=top-left)
+
 The Show HN launch ("We built open OpenRouter that turns usage into a better model") reached 222 points on 2026-08-27 with 47 comments, and the star count has since grown roughly an order of magnitude past the ~820 the entrant data recorded around 2026-09-21.
 PyPI shows 166 releases since first upload on 2026-08-20, latest 0.7.157, requiring Python 3.12+ (as of 2026-10-06).
 One hundred eighteen open issues, a Discord, and YC backing as of 2026-10-06.
@@ -78,6 +81,7 @@ My disagreeable claim: the traffic-trained router is the demo rather than the pr
 - 2026-09-27 - Created when the owner's GitHub-stars candidates were processed.
 - 2026-10-02 - Pricing page expanded: Pro became a credit ladder from $20 to $199 per month and self-serve Max ($200 to $1,999) and Ultra ($2,000+) tiers appeared above it, with model discounts on the first 2,000 credits each month; price history row appended, plus refreshed adoption numbers (7,592 stars, PyPI 0.7.141).
 - 2026-10-03 - Adoption refresh: 8,032 stars, PyPI at 0.7.147 (156 releases), GitHub releases at v0.7.147, and pricing re-checked unchanged on the vendor page (Free $0, Pro $20-$199 ladder, Max $200-$1,999, Ultra $2,000+).
+- 2026-10-07 - Added the experientiallabs/experiential star history chart to the Status section.
 
 ## See also
 

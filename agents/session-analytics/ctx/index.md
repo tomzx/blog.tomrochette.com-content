@@ -1,7 +1,7 @@
 ---
 title: "ctx"
 created: 2026-09-05
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, session-analytics, search, cli]
 readability: 3
@@ -23,6 +23,9 @@ Search is BM25 by default with an opt-in semantic mode that embeds locally (the 
 ## Status
 
 Active: created 2026-02-23, about 1.1k stars (1,149) and 76 forks, pushed 2026-10-05, latest release v2.2.8 on 2026-10-05 (incremental-import and blame-worker fixes), after the v2.2.7 line of 2026-10-02 (incremental-import fixes, a day after v2.2.6 added `ctx import --all --incremental` for one-pass catch-up imports), after the v2.2.0 line of 2026-09-30 (opt-in history backup plus beta sharing through a self-hosted ctx server, with installer-recovery, history-import, and telemetry fixes through v2.2.5 on 2026-10-01), the v2.1.3 and v2.1.4 patches of 2026-09-29 and 2026-09-30, and the v2.1.0 line of 2026-09-28 (paged blame indexing that scales past 16,384 sources), as of 2026-10-06.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=ctxrs/ctx&type=date&legend=top-left)](https://www.star-history.com/?repos=ctxrs%2Fctx&type=date&legend=top-left)
+
 The docs site at ctx.rs is complete (concepts, about 40 supported agent harnesses including Claude Code, Codex, Cursor, Pi, and OpenCode, storage, comparisons, a changelog), and a `/ctx` skill lets agents call it directly.
 **The community footprint is nearly empty, a 5-point, one-comment Show HN on 2026-09-03 plus a 3-point re-launch on 2026-09-16, which I read as the product being discovered through agents rather than through forums, and as thin independent verification.**
 
@@ -77,6 +80,7 @@ Not for anyone needing audited cost reporting (agentsview's job) or provenance g
 - 2026-10-02 - Release line moved to v2.2.5 (2026-10-01): v2.2.0 (2026-09-30) added opt-in history backup plus beta sharing through a self-hosted ctx server with collection permissions and revocable access, and v2.2.1 through v2.2.5 fixed installer recovery, history imports, and telemetry before restoring the skill's search-first guidance; repository counts refreshed (1,141 to 1,145 stars, 71 to 72 forks).
 - 2026-10-03 - Release line moved to v2.2.7 (2026-10-02): v2.2.6 added `ctx import --all --incremental` for one-pass catch-up imports and v2.2.7 fixed incremental Codex-rollout imports and Sift output-hook telemetry; repository counts refreshed (1,145 to 1,147 stars).
 - 2026-10-06 - Release line moved to v2.2.8 (2026-10-05, incremental-import and blame-worker fixes); repository counts refreshed (1,148 to 1,149 stars, 74 to 76 forks).
+- 2026-10-07 - Added the ctxrs/ctx star history chart to the Status section.
 
 ## See also
 

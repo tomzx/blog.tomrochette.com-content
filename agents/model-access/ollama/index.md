@@ -1,7 +1,7 @@
 ---
 title: Ollama
 created: 2026-09-27
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, model-access, local-inference, model-registry]
 readability: 3
@@ -23,6 +23,9 @@ The registry curates quantizations of each model, and `ollama run <model>` is th
 ## Status
 
 Very active: 182,302 stars as of 2026-10-06, repo pushed the same day, among the largest repositories in the AI ecosystem.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=ollama/ollama&type=date&legend=top-left)](https://www.star-history.com/?repos=ollama%2Follama&type=date&legend=top-left)
+
 The surface is expanding fast: MLX acceleration on Apple silicon arrived in preview with 0.19 in March 2026, and NVFP4 quantization is now supported alongside the GGUF classics.
 Cloud models launched as Ollama Turbo in August 2025, and the plans were rebuilt into Free, Pro, Max, and Team tiers by late September 2026.
 **The pivot is real: a tool whose brand was local and private now sells US, Europe, and Singapore-hosted cloud inference through NVIDIA cloud partners, with the local runtime free underneath.**
@@ -75,6 +78,7 @@ My disagreeable claim: for coding agents on 16GB laptops, local quantized models
 - 2026-09-27 - Created when the owner's GitHub-stars scan surfaced it.
 - 2026-10-04 - Homepage claim corrected from more than 9 million developers to 9M+ monthly installs (with 1B+ model downloads and 200T+ tokens served); stars refreshed.
 - 2026-10-06 - Converted the Compared-to cross-references from plain-text paths into working links.
+- 2026-10-07 - Added the ollama/ollama star history chart to the Status section.
 
 ## See also
 

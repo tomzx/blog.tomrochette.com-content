@@ -1,7 +1,7 @@
 ---
 title: Token Monitor
 created: 2026-10-06
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, session-analytics, cost-tracking, desktop, open-source]
 readability: 3
@@ -26,6 +26,9 @@ Made by Javis603, MIT-licensed.
 ## Status
 
 Young and shipping daily: 2,634 stars, 266 forks, 104 open issues, created 2026-05-19, pushed 2026-10-06, with v0.67.0 released 2026-10-06, v0.66.0 on 2026-10-04, and v0.65.0 on 2026-10-02, as of 2026-10-06.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=Javis603/token-monitor&type=date&legend=top-left)](https://www.star-history.com/?repos=Javis603%2Ftoken-monitor&type=date&legend=top-left)
+
 I found no Hacker News thread for the project; the only search hit for the name is an unrelated ESP32 desk display.
 **A four-month-old tool with a release cadence this category has never seen and zero independent discussion, which is exactly the profile to verify before trusting.**
 
@@ -62,6 +65,7 @@ Not for transcript search or provenance, and not for anyone who needs a settled,
 ## Changes
 
 - 2026-10-06 - Created from the 2026-10-06 entrant scan: the category's first live multi-tool widget, with retention archiving and self-hosted sync, with five fetched sources.
+- 2026-10-07 - Added the Javis603/token-monitor star history chart to the Status section.
 
 ## See also
 

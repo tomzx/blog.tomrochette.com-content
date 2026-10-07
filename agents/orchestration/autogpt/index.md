@@ -1,7 +1,7 @@
 ---
 title: AutoGPT
 created: 2026-09-27
-updated: 2026-10-05
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, agent-platform, workflows, source-available]
 readability: 3
@@ -24,6 +24,9 @@ It positions itself as "AI agents that finish the work", with file-aware agents,
 ## Status
 
 Active and shipping: the repo shows 187,658 stars and was pushed 2026-10-05, the day I checked (GitHub API, as of 2026-10-05).
+
+[![Star History Chart](https://api.star-history.com/chart?repos=Significant-Gravitas/AutoGPT&type=date&legend=top-left)](https://www.star-history.com/?repos=Significant-Gravitas%2FAutoGPT&type=date&legend=top-left)
+
 The platform releases on a cadence: beta v0.8.2 published 2026-09-30 (AutoPilot action gating modes: Ask First, Auto, and Unsupervised), v0.8.1 on 2026-09-24, v0.8.0 on 2026-09-19, v0.7.4 on 2026-09-04, v0.7.3 on 2026-08-28.
 The repo was created 2023-03-16 and the launch thread pulled 153 points with 174 comments in April 2023, at the peak of the autonomous-agent craze.
 License is dual: the platform folder is Polyform Shield (source-available, not OSI open source), everything outside is MIT.
@@ -71,6 +74,7 @@ My disagreeable claim: the 187k stars are a liability now, because they attract 
 
 - 2026-09-27 - Created when the owner's GitHub-stars scan surfaced it.
 - 2026-09-30 - Recorded beta v0.8.2 (September 30, AutoPilot action gating modes) as the new latest release and refreshed star and push counts.
+- 2026-10-07 - Added the Significant-Gravitas/AutoGPT star history chart to the Status section.
 
 ## See also
 

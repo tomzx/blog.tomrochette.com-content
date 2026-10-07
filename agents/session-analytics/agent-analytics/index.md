@@ -1,7 +1,7 @@
 ---
 title: Agent Analytics
 created: 2026-09-27
-updated: 2026-09-27
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, session-analytics, analytics, mcp, open-source]
 readability: 3
@@ -26,6 +26,9 @@ The README claims MIT, but I could not find a LICENSE file on the default branch
 ## Status
 
 The hosted product has moved faster than the open-source server: the main repository has 17 stars and was created 2026-02-06 and last pushed 2026-05-06, while the CLI is a published npm package and sibling repos in the org were pushed through September 2026, as of 2026-09-27.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=Agent-Analytics/agent-analytics&type=date&legend=top-left)](https://www.star-history.com/?repos=Agent-Analytics%2Fagent-analytics&type=date&legend=top-left)
+
 Community signal is thin and concentrated in the org's own plugins, the most prominent being the Hermes dashboard plugin at 27 stars and the Paperclip live analytics plugin at 14 stars, as of 2026-09-27; I found no Hacker News thread for the site.
 The README claims MIT and links a LICENSE file that is absent from the default branch, which returned 404 when I fetched it.
 **A young hosted product whose open-source server already looks quieter than its cloud, with the open-source claim itself unfinished at the repository level.**
@@ -72,6 +75,7 @@ Not for observing coding-agent sessions, token cost, or provenance, despite livi
 ## Changes
 
 - 2026-09-27 - Created.
+- 2026-10-07 - Added the Agent-Analytics/agent-analytics star history chart to the Status section.
 
 ## See also
 

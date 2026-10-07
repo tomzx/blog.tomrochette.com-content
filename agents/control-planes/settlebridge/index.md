@@ -1,7 +1,7 @@
 ---
 title: SettleBridge
 created: 2026-09-27
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, llm=glm-5.3-flash, agent-settlement, trust, escrow, policy-enforcement, audit]
 readability: 3
@@ -26,6 +26,9 @@ The vendor is Truthsetter LLC.
 
 Early and low-traffic but actively maintained.
 The gateway repository was created 2026-03-08 and sits at 1 star, 0 forks, and 1 open issue as of 2026-10-06, with 76 commits and a last push on 2026-09-25; the A2A-SE standard repository has 2 stars.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=a2a-settlement/settlebridge-ai&type=date&legend=top-left)](https://www.star-history.com/?repos=a2a-settlement%2Fsettlebridge-ai&type=date&legend=top-left)
+
 The website, pricing page, marketplace, and documentation are live and detailed, so this is a product with a real surface rather than an abandoned experiment.
 **The community footprint is effectively absent: a Hacker News search for SettleBridge returns nothing, and the whole organization is in the low single digits of stars.**
 One comparison worth naming: this is a young, standards-first effort where the software is secondary to the spec, so its survival depends more on A2A-SE adoption than on the gateway's own traction.
@@ -72,6 +75,7 @@ The Exchange charges 0.25% of each settled transaction as an ATE treasury fee.
 
 - 2026-09-27 - Created.
 - 2026-10-02 - Added the missing llm=glm-5.3-flash tag from this maintenance run; license metadata re-checked and still unresolved (GitHub reports none, the LICENSE path still returns 404).
+- 2026-10-07 - Added the a2a-settlement/settlebridge-ai star history chart to the Status section.
 
 ## See also
 

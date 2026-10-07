@@ -1,7 +1,7 @@
 ---
 title: Backlog.md
 created: 2026-08-27
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, task-management, kanban, markdown, open-source, byok]
 readability: 3
@@ -25,6 +25,9 @@ It is maintained under the MrLesk identity, with conference talks ([Devoxx Belgi
 
 Active and healthy at mid-scale.
 As of 2026-10-06: 6,938 stars, 81 open issues, pushed 2026-09-28, MIT-licensed, latest release v1.53.0 on 2026-09-24, 76,873 npm downloads last month.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=MrLesk/Backlog.md&type=date&legend=top-left)](https://www.star-history.com/?repos=MrLesk%2FBacklog.md&type=date&legend=top-left)
+
 The July 2025 [launch thread](https://news.ycombinator.com/item?id=44483530) reached 254 points, the largest HN footprint of the task trackers profiled in this section.
 
 ## Strengths
@@ -62,6 +65,7 @@ My disagreeable claim: its three checkpoints are what spec-driven development ac
 
 - 2026-08-27 - Created in the Task management category seed with the three-checkpoint review model, dogfooding claim, and terminal kanban recorded.
 - 2026-09-27 - Refreshed scale numbers (6,862 stars, 73 open issues, 64,043 npm downloads) and recorded v1.53.0 (2026-09-24).
+- 2026-10-07 - Added the MrLesk/Backlog.md star history chart to the Status section.
 
 ## See also
 

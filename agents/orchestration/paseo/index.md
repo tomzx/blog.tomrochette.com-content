@@ -1,7 +1,7 @@
 ---
 title: Paseo
 created: 2026-08-30
-updated: 2026-10-05
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, parallel-agents, mobile, open-source]
 readability: 3
@@ -25,6 +25,9 @@ Apache-2.0 (with a custom copyright notice), by Mohamed Boudra, an independent s
 ## Status
 
 Young and fast: about 19.5k stars, 2.3k forks, and 1,026 open issues and PRs as of 2026-10-05, created 2025-10-13, with more than 5,300 commits on main.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=getpaseo/paseo&type=date&legend=top-left)](https://www.star-history.com/?repos=getpaseo%2Fpaseo&type=date&legend=top-left)
+
 The v0.10 line went stable on 2026-09-28 with v0.10.0 and v0.10.1 shipping the same day, v0.10.2 (OpenCode v2 header-timeout, context-meter, and question-card fixes) followed on 2026-09-30, and v0.10.3 (October 2) added a confirmation before a pairing link connects to a new or changed host, a supply-chain-style hardening for the relay, while the v0.11.0 beta line continued into October (beta.4 up by October 5), after v0.9.2 (2026-09-24), v0.9.0 going stable with v0.9.1 the same day (September 22), the v0.9.0 betas of September 17-18, and v0.8.0 (2026-09-10, plugin header buttons, custom providers, and richer chat components), alongside 165 contributors and an active subreddit and Discord.
 **The structural risk is on the label: the maintainer described himself on Hacker News as a team of one, and monetization has now arrived as the hosted Hub at $15 per seat per month.**
 
@@ -83,6 +86,7 @@ Not for teams needing a vendor's support contract, or Mac-only shops happy payin
 - 2026-10-03 - Recorded v0.10.3 (October 2, pairing-link confirmation before connecting to a new or changed host) as the new latest stable and refreshed star, fork, and tracker counts; Hub pricing re-verified unchanged (paseo.sh/hub, fetched 2026-10-03).
 - 2026-10-02 - Recorded the v0.11.0 beta line (beta.1 on October 1, beta.3 on October 2) following the v0.10 stabilization.
 - 2026-10-02 - Moved the Hub pricing record from a free trial to a published Free tier ($0 per month, 50 agent runs, 1 seat) alongside the unchanged Pro $15 per seat per month.
+- 2026-10-07 - Added the getpaseo/paseo star history chart to the Status section.
 
 ## See also
 

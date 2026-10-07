@@ -1,7 +1,7 @@
 ---
 title: Drop
 created: 2026-09-29
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, sandboxing, isolation, linux, open-source]
 readability: 3
@@ -26,6 +26,9 @@ Install is a curl of a release binary for amd64 or arm64 plus the passt/pasta pa
 ## Status
 
 Young tool, older project, one strong launch: 375 stars, 12 forks, 6 open issues as of 2026-10-06, created 2025-07-25, pushed 2026-10-02, latest release v0.3.0 on 2026-09-29.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=wrr/drop&type=date&legend=top-left)](https://www.star-history.com/?repos=wrr%2Fdrop&type=date&legend=top-left)
+
 The Show HN thread on 2026-09-22 drew 193 points with substantive comparisons to bubblewrap and proot in the top replies.
 v0.3.0 added a `drop edit` command for the TOML config, a reorganized documentation site at droprun.sh/docs/, and base.toml defaults for uv, pipx, go install, and Cargo that expose host-installed packages read-only while sandbox-only installs stay contained.
 **The repository sat for fourteen months before the launch found it its audience, so the traction is one good Hacker News day, not a community, and the maintainer list is one person.**
@@ -64,6 +67,7 @@ Not for macOS, and not as a hardened boundary for hostile code until the solo-ma
 
 - 2026-09-29 - Created from the entrant-resolution run, profiling the rootless namespace sandbox that uses the host distribution.
 - 2026-10-02 - Recorded the v0.3.0 release of 2026-09-29 (drop edit command, reorganized docs site, package-manager base.toml defaults) and refreshed counts (350 stars, 5 open issues, pushed 2026-09-29).
+- 2026-10-07 - Added the wrr/drop star history chart to the Status section.
 
 ## See also
 

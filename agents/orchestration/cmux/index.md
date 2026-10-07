@@ -1,7 +1,7 @@
 ---
 title: cmux
 created: 2026-08-24
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, orchestration, terminal, parallel-agents, macos]
 readability: 3
@@ -24,6 +24,9 @@ A paid subscription (Pro or Max) adds Cloud VM agents and the iOS app; the CodeR
 
 **Active and remarkably fast.**
 About 27.7k stars and 2.4k forks as of 2026-10-06, created January 28, 2026, with commits landing the day of verification.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=manaflow-ai/cmux&type=date&legend=top-left)](https://www.star-history.com/?repos=manaflow-ai%2Fcmux&type=date&legend=top-left)
+
 The launch thread counted 18 releases in two days; the public changelog still tops out at v0.64.25 (2026-09-17) as of 2026-10-06, while the GitHub release line has moved to v0.65.0 (2026-10-05), with a nightly channel alongside the release line.
 Three contributors dominate the history (about 5.2k, 3.8k, and 1.2k contributions), so this is a small funded team (Manaflow, Inc.) moving very quickly, not a broad community.
 
@@ -87,6 +90,7 @@ Not for Linux or Windows users, copyleft-restricted shops, or anyone who needs a
 - 2026-09-27 - Max tier packaging moved from per-machine resources to a shared 64 GB RAM and 16 vCPU pool across up to 50 Cloud VMs at the same $200/mo.
 - 2026-10-04 - Cloud packaging moved again: 5 Cloud VMs per user with per-VM resource caps (Pro 4 vCPUs/8 GB, Max 16 vCPUs/32 GB, Team same as Pro) replaced the shared 50-VM pools at unchanged dollar tiers, and I corrected the front matter date, which a prior run had left at 2026-09-27 after refreshing numbers.
 - 2026-10-06 - Cloud packaging moved a third time in three weeks: the per-VM caps were replaced by shared pools (Pro and Team 20 vCPUs/40 GB, Max 80 vCPUs/160 GB, still 5 Cloud VMs) at unchanged dollar tiers, recorded with a Price history row, and the status line now separates the lagging public changelog from the GitHub release line at v0.65.0.
+- 2026-10-07 - Added the manaflow-ai/cmux star history chart to the Status section.
 
 ## See also
 

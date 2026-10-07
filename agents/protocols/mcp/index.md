@@ -1,7 +1,7 @@
 ---
 title: Model Context Protocol (MCP)
 created: 2026-08-24
-updated: 2026-09-13
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, protocols, interoperability, agent-tools]
 readability: 3
@@ -26,6 +26,9 @@ Anthropic created it (David Soria Parra and Justin Spahr-Summers), open-sourced 
 
 **Active and dominant.**
 The specification repository shows about 9.4k stars and roughly 4,800 commits as of 2026-10-02.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=modelcontextprotocol/modelcontextprotocol&type=date&legend=top-left)](https://www.star-history.com/?repos=modelcontextprotocol%2Fmodelcontextprotocol&type=date&legend=top-left)
+
 The AAIF announcement claimed more than 10,000 published MCP servers and adoption by Claude, Cursor, Microsoft Copilot, Gemini, VS Code, and ChatGPT.
 In this index, [Claude Code](../../harnesses/claude-code/index.md), [Cursor](../../surfaces/cursor/index.md), [VS Code Copilot](../../surfaces/vscode-copilot/index.md), [Gemini CLI](../../harnesses/gemini-cli/index.md), and [Crush](../../harnesses/crush/index.md) all speak it.
 Governance is now neutral, with AWS, Anthropic, Block, Bloomberg, Cloudflare, Google, Microsoft, and OpenAI as AAIF platinum members.
@@ -64,6 +67,7 @@ The disagreeable part: MCP's security story lags its adoption story, and teams a
 ## Changes
 
 - 2026-08-24 - Created among the four protocol notes of the research index seeding run.
+- 2026-10-07 - Added the modelcontextprotocol/modelcontextprotocol star history chart to the Status section.
 
 ## See also
 

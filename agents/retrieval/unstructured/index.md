@@ -1,7 +1,7 @@
 ---
 title: Unstructured
 created: 2026-10-06
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, retrieval, document-parsing, rag, mcp]
 readability: 3
@@ -24,6 +24,9 @@ The open-source docs are one of three product tabs on the documentation site, be
 ## Status
 
 Active and still shipping: 15,529 stars, 1,350 forks since 2022-09-26, pushed 2026-10-05 (GitHub API, as of 2026-10-06), with PyPI at 0.27.16 released 2026-10-05 and five releases between 2026-09-14 and 2026-10-05.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=Unstructured-IO/unstructured&type=date&legend=top-left)](https://www.star-history.com/?repos=Unstructured-IO%2Funstructured&type=date&legend=top-left)
+
 Adoption remains large: about 2M downloads a month (pepy badge, as of 2026-10-06).
 The displacement is the story: Docling, this category's current default, has 4.4x the stars (68.4k versus 15.5k) and roughly 1.5x the monthly downloads, and the largest dedicated Hacker News thread for Unstructured is 141 points from July 2023, with nothing comparable since.
 
@@ -61,6 +64,7 @@ My disagreeable claim: leading your README with the hosted MCP server is the uns
 ## Changes
 
 - 2026-10-06 - Created in the daily refresh's retrieval entrant scan.
+- 2026-10-07 - Added the Unstructured-IO/unstructured star history chart to the Status section.
 
 ## See also
 

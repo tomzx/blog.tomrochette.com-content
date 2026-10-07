@@ -1,7 +1,7 @@
 ---
 title: Continue
 created: 2026-08-26
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, surfaces, ai-editors, open-source, byok]
 readability: 3
@@ -26,6 +26,9 @@ Dead as an independent, by acquisition.
 The [homepage](https://www.continue.dev/) reads "Continue was acquired by Cursor", announced 2026-06-15 (the [HN thread](https://news.ycombinator.com/item?id=48548758) dates it).
 The README states the repository "is no longer actively maintained and is read-only for all users", a notice that still stands even though the repo API recorded metadata pushes as recently as October 2026.
 As of 2026-10-06 the repo shows about 36.1k stars and 5.5k forks, the docs remain online, and the marketplace extension still installs at a 3.3 average rating.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=continuedev/continue&type=date&legend=top-left)](https://www.star-history.com/?repos=continuedev%2Fcontinue&type=date&legend=top-left)
+
 **A 2026-08-22 Ask HN titled "Continue coding agent is dead. Alternatives?" ([4 points](https://news.ycombinator.com/item?id=49398366)) is a fittingly quiet funeral for a tool with four million installs.**
 
 ## Strengths
@@ -65,6 +68,7 @@ For the workflow it pioneered, use Cline or an ACP-speaking host.
 - 2026-09-04 - Corrected the final release to 2.1.0-vscode, both releases tagged 2026-06-19, where the note said 2.0.0.
 - 2026-09-24 - Refreshed the marketplace install count to 4,217,213 and the average rating to 3.3, both counters still ticking on the read-only project.
 - 2026-10-03 - Refreshed the install counter to 4,269,878 and corrected the average rating back to 3.3, where the Status and Cautions lines had drifted to 3.2.
+- 2026-10-07 - Added the continuedev/continue star history chart to the Status section.
 
 ## See also
 

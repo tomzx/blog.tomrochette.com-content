@@ -1,7 +1,7 @@
 ---
 title: OneCLI
 created: 2026-08-30
-updated: 2026-10-04
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agents, harnesses, security, sandboxing, teams]
 readability: 3
@@ -26,6 +26,9 @@ The Launch HN title calls it an "OSS sandboxed agent harness for teams", and tha
 
 Very active: v2.7.0 released October 3, 2026, adding Salesforce and new app integrations, readable approval cards, `send_file`, and agent-to-agent messaging, five months after the v2.3-2.4 series, with v2.5.0 on September 3 and v2.6.0 five days after it.
 3,555 stars and 248 forks as of 2026-10-04, on a repository created March 8, 2026.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=onecli/onecli&type=date&legend=top-left)](https://www.star-history.com/?repos=onecli%2Fonecli&type=date&legend=top-left)
+
 Three Hacker News threads of record: 161 points for the vault (March 12), 110 for the credential gateway (July 23), and 88 for the YC launch (August 19).
 YC S26, San Francisco, founded by Jonathan Fishner (CEO) and Guy Ben Aharon (CTO).
 In its vault era it was adopted by NanoClaw, per the NanoClaw note in this section.
@@ -78,6 +81,7 @@ I think the prompt-based permission systems across every other harness in this s
 - 2026-09-16 - Refreshed repository counters (3,485 stars, 151 open issues and pull requests); pricing tiers re-verified unchanged.
 - 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
 - 2026-10-04 - Recorded the v2.7.0 release (October 3), which added Salesforce and new app integrations, readable approval cards, send_file, and agent-to-agent messaging, and refreshed repository scale; pricing re-verified unchanged.
+- 2026-10-07 - Added the onecli/onecli star history chart to the Status section.
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: Cline
 created: 2026-08-24
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, coding-agents, harnesses, open-source, byok]
 readability: 3
@@ -28,6 +28,9 @@ Any provider works: Anthropic, OpenAI, Google, OpenRouter, Bedrock, Azure, Verte
 
 **Active and large.**
 The repository shows about 69.9k stars and 7.6k forks as of 2026-10-06, with 250+ contributors and an Apache-2.0 license held by Cline Bot Inc.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=cline/cline&type=date&legend=top-left)](https://www.star-history.com/?repos=cline%2Fcline&type=date&legend=top-left)
+
 The VS Code Marketplace page shows 5,540,608 installs as of 2026-10-06 and a 4.1/5 average rating as of 2026-09-22; the product site claims 11M+ installs across the marketplace and Open VSX.
 The project started as the "Claude Dev" extension in late 2024 and has been renamed and corporatized since.
 Beyond the open harness, the vendor now sells Cline Spec Driven, an enterprise agent platform built with LG CNS that runs a specialized-agent pipeline over a licensed, self-hostable deployment, listed on the product site as of 2026-10-06.
@@ -79,6 +82,7 @@ Not for teams that require every client binary open or a coding-agnostic automat
 - 2026-09-16 - Refreshed marketplace installs to 5,341,071 and repository scale, and recorded the vendor install claim moving from 8M+ to 11M+.
 - 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
 - 2026-10-06 - Recorded the native Cline Desktop app as a fifth delivery surface, the Cline Spec Driven enterprise platform built with LG CNS, and refreshed repository and marketplace counters.
+- 2026-10-07 - Added the cline/cline star history chart to the Status section.
 
 ## See also
 

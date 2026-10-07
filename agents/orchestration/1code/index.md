@@ -1,7 +1,7 @@
 ---
 title: 1Code
 created: 2026-10-06
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, desktop, worktrees, dormant]
 readability: 3
@@ -21,6 +21,9 @@ The feature list also carried BYOK model selection, MCP servers and a plugin mar
 ## Status
 
 Dormant: the repository shows 5,582 stars, 611 forks, and 45 open issues, but its last push and its last release (v0.0.84) both landed 2026-03-06, seven months before this check (GitHub API, as of 2026-10-06).
+
+[![Star History Chart](https://api.star-history.com/chart?repos=21st-dev/1code&type=date&legend=top-left)](https://www.star-history.com/?repos=21st-dev%2F1code&type=date&legend=top-left)
+
 The launch Show HN drew 75 points and 49 comments on 2026-01-15, and the thread's sharpest exchange was about price: commenters called the $20/month hosted web tier expensive for "a web interface and a sandbox", and the founders answered that the paid tier was about signal, not monetization.
 **The product domain now redirects to the GitHub repository, so the hosted surface this note's pricing discussed is gone from the public web, and nothing in the repo records a handoff, an archive notice, or a successor.**
 I read the record as an abandoned open-source client rather than a pivot: no successor product is announced, and the team's other properties continued separately.
@@ -61,6 +64,7 @@ Not for adoption; if the idea appeals, evaluate Emdash or the maintained closed 
 ## Changes
 
 - 2026-10-06 - Created after the entrant scan confirmed the repository has been silent since 2026-03-06; recorded as dormant with the launch-thread pricing record.
+- 2026-10-07 - Added the 21st-dev/1code star history chart to the Status section.
 
 ## See also
 

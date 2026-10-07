@@ -1,7 +1,7 @@
 ---
 title: Open Interpreter
 created: 2026-09-27
-updated: 2026-10-04
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, harnesses, coding-agents, open-source, harness-emulation]
 readability: 3
@@ -26,6 +26,9 @@ The fork is documented rather than hidden: FORK_BRANDING.md defines the distribu
 ## Status
 
 Active and fast-moving again after roughly nineteen quiet months: 68,500 stars, 5,886 forks, and a push on 2026-10-02 as of 2026-10-04, with only 13 open issues, which tells you issue intake is tightly curated.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=openinterpreter/openinterpreter&type=date&legend=top-left)](https://www.star-history.com/?repos=openinterpreter%2Fopeninterpreter&type=date&legend=top-left)
+
 The latest releases are rust-v0.0.54 and rust-v0.0.55, both published 2026-09-30: 0.0.54 bundles the maintained Codex 0.156.1 client with GPT-6 Astra, Sol, and Luna metadata and refreshes the Kimi, Qwen, DeepSeek, and Anthropic model catalogs, and 0.0.55 fixes offline model listing for configured non-OpenAI providers, with the 0.0.43 notes still describing the "stable upstream Codex rust-v0.154.0 compatibility baseline" and presets for GLM, Gemini, Claude, and OpenAI IDs.
 The legacy Python line is stranded: PyPI shows open-interpreter 0.4.3, the last of 130 releases, uploaded 2024-10-26.
 The history matters: a Show HN on 2023-08-30 (82 points), a 117-point thread in November 2023, a 72-point "natural language interface for computers" thread in November 2024, then silence until the relaunch post of 2026-07-13.
@@ -68,6 +71,7 @@ My disagreeable claim: harness emulation is a configuration layer rather than ne
 - 2026-09-27 - Created when the owner's GitHub-stars scan surfaced it.
 - 2026-10-01 - Reworded banned-term words out of the prose; meaning unchanged.
 - 2026-10-02 - Recorded the rust-v0.0.54 and rust-v0.0.55 releases (both September 30), which bundled the maintained Codex 0.156.1 client with GPT-6 model metadata, refreshed the provider model catalogs, and fixed offline model listing, and refreshed repository counters.
+- 2026-10-07 - Added the openinterpreter/openinterpreter star history chart to the Status section.
 
 ## See also
 

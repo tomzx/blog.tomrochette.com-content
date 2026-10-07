@@ -1,7 +1,7 @@
 ---
 title: roborev
 created: 2026-10-06
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, code-review, ai-review, open-source, developer-tools]
 readability: 3
@@ -25,6 +25,9 @@ It is a Go binary from Kenn Software LLC, the company led by Wes McKinney (the c
 
 **Active and unusually fast-moving, with adoption concentrated around its author's reputation.**
 The repo (kenn-io/roborev) was created January 5, 2026 and shows 1,745 stars, 165 forks, and 30 contributors as of 2026-10-06, pushed the same day.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=kenn-io/roborev&type=date&legend=top-left)](https://www.star-history.com/?repos=kenn-io%2Froborev&type=date&legend=top-left)
+
 The release train ran from v0.33 (2026-02-17) to v0.71.0 (2026-10-03), 120 releases in nine months.
 The project moved twice: both wesm/roborev and roborev-dev/roborev now redirect to kenn-io/roborev, and Kenn's site pairs it with the sibling tools AgentsView and msgvault.
 The HN record is thin, and I state that as a finding: a 4-point, zero-comment launch thread (46515428, January 2026) and two 1-point resubmits since, so the visible validation lives in the author's blog, a Posit profile, and podcast appearances rather than in independent discussion.
@@ -62,6 +65,7 @@ My disagreeable take: the PR is a legacy interface for agent-written code, and c
 ## Changes
 
 - 2026-10-06 - Created after the entrant scan resolved the owner's 2026-09-20 star of kenn-io/roborev, which no earlier run had resolved; twelve sources fetched this run, including the critical LinkedIn hallucination report.
+- 2026-10-07 - Added the kenn-io/roborev star history chart to the Status section.
 
 ## See also
 

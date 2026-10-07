@@ -1,7 +1,7 @@
 ---
 title: MemOS
 created: 2026-10-06
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, agent-memory, knowledge-graphs, open-source]
 readability: 3
@@ -26,6 +26,9 @@ The plugin line is the distribution strategy: official OpenClaw plugins (cloud a
 
 **Active and mid-scale.**
 11,713 stars with the repository pushed 2026-09-29, created 2025-07-06, as of 2026-10-06 (GitHub API).
+
+[![Star History Chart](https://api.star-history.com/chart?repos=MemTensor/MemOS&type=date&legend=top-left)](https://www.star-history.com/?repos=MemTensor%2FMemOS&type=date&legend=top-left)
+
 Latest engine release v2.0.34 (2026-09-23) and local-plugin release v2.0.20 (2026-09-21) per the GitHub releases API; the PyPI package is at 0.37.0, Apache-2.0.
 The benchmark table is the vendor's own: LoCoMo 88.83 and LongMemEval 89.20 via OmniMemEval, the company's self-published evaluation framework spanning 14 commercial memory products.
 The Hacker News footprint is nearly absent: a 2-point story in August 2025, no discussion since.
@@ -63,6 +66,7 @@ Not for anyone needing published hosted pricing, independent benchmark evidence,
 ## Changes
 
 - 2026-10-06 - Created from the 2026-10-06 entrant scan, with seven fetched sources and the vendor-run-benchmark caveat recorded as the critical angle.
+- 2026-10-07 - Added the MemTensor/MemOS star history chart to the Status section.
 
 ## See also
 

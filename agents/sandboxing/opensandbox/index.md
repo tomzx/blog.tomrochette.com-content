@@ -1,7 +1,7 @@
 ---
 title: OpenSandbox
 created: 2026-09-16
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, sandboxing, isolation, kubernetes]
 readability: 3
@@ -23,6 +23,9 @@ An ingress gateway with per-sandbox egress controls handles network policy, a Cr
 
 **Very active and exceptionally fast-growing for a nine-month-old repo, with traction that is vendor-driven rather than organic Hacker News adoption.**
 15,687 stars and 1,442 forks as of 2026-10-06, repo created 2025-12-17, pushed 2026-10-01, latest stable release 1.1.0 on 2026-09-21, the first stable release of a unified umbrella version line that covers the server, component images, charts, CLI, and every SDK from one commit and a signed BOM, with a 1.1.1-rc.1 prerelease of 2026-09-28 opening the patch line to fix a broken 1.1.0 opensandbox-server wheel on PyPI.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=opensandbox-group/OpenSandbox&type=date&legend=top-left)](https://www.star-history.com/?repos=opensandbox-group%2FOpenSandbox&type=date&legend=top-left)
+
 The current organization was created 2026-06-04 as part of the transfer out of Alibaba.
 Hacker News is conspicuously absent: the threads are a 2-pointer from March 2026 linking the pre-transfer alibaba URL, a 1-pointer to the website, and a 4-pointer whose title borrows OpenSandbox's tagline but whose URL points at a competitor's repo (a submission error), while a 4-point January "Show HN: Open Sandbox" is an unrelated same-name project.
 
@@ -62,6 +65,7 @@ Not for anyone who needs hardened isolation by default, an independently audited
 - 2026-09-25 - Growth refreshed (15,504 stars, 1,425 forks), and the latest release recorded as the first stable 1.1.0 umbrella release of 2026-09-21, which retires the component-wise server/v0.2.3 versioning the note previously described.
 - 2026-09-27 - Growth refreshed (15,529 stars, 1,429 forks, pushed 2026-09-27); 1.1.0 remains the latest release, holding the umbrella line steady.
 - 2026-10-02 - Recorded the 1.1.1-rc.1 prerelease (2026-09-28), cut to fix the broken 1.1.0 opensandbox-server wheel on PyPI, added that fact to Cautions, and refreshed growth (15,641 stars, 1,443 forks, pushed 2026-10-01).
+- 2026-10-07 - Added the opensandbox-group/OpenSandbox star history chart to the Status section.
 
 ## See also
 

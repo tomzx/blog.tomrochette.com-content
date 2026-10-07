@@ -1,7 +1,7 @@
 ---
 title: Agent Control
 created: 2026-10-05
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, control-planes, policy-enforcement, runtime-governance, open-source]
 readability: 3
@@ -25,6 +25,9 @@ The launch blog (March 11, 2026) frames the product against Forrester's agent co
 ## Status
 
 Active and young: 320 stars, 55 forks, 45 open issues, and 19 contributors as of 2026-10-06, created 2026-01-30, pushed 2026-10-06, with a fast release train (v8.8.0 on 2026-09-22, v8.9.0 and v8.10.0 on 2026-10-01, v8.11.0 on 2026-10-02, mirrored by agent-control-sdk 8.11.0 on PyPI and agent-control 3.3.0 on npm).
+
+[![Star History Chart](https://api.star-history.com/chart?repos=agentcontrol/agent-control&type=date&legend=top-left)](https://www.star-history.com/?repos=agentcontrol%2Fagent-control&type=date&legend=top-left)
+
 **The community footprint is thin for the backing it carries: the Hacker News launch thread drew 2 points and zero comments, so the adoption evidence is the release cadence, the contributor count, and the launch-partner list rather than organic discussion.**
 A version line already at v8 eight months in says the API moves; the README's own quickstart warns that the default compose file starts without API keys configured, which it calls dangerous for any real-world usage.
 
@@ -61,6 +64,7 @@ Not for local-first or latency-critical enforcement, and not for anyone who need
 ## Changes
 
 - 2026-10-05 - Created from the entrant-resolution run, profiling Galileo's open-source control plane as the category's centralized-policy-server entrant.
+- 2026-10-07 - Added the agentcontrol/agent-control star history chart to the Status section.
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: Open WebUI
 created: 2026-09-27
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, assistant-runtimes, self-hosting, rag, licensing]
 readability: 3
@@ -26,6 +26,9 @@ The ecosystem now includes a native desktop app, an Open Terminal sandboxed exec
 ## Status
 
 Very active and huge for the category: 154,047 stars, 22,515 forks, and 260 open issues as of 2026-10-06, created 2023-10-06, pushed 2026-10-05.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=open-webui/open-webui&type=date&legend=top-left)](https://www.star-history.com/?repos=open-webui%2Fopen-webui&type=date&legend=top-left)
+
 Releases are frequent: v0.11.4 shipped 2026-09-21 (notably a much slimmer Docker image), v0.11.3 and v0.11.2 on 2026-08-31, and v0.11.1 on 2026-08-25.
 The README now markets it as "a home for AI" rather than a UI, which matches the expansion into the desktop app, Open Terminal, Computer, and knowledge base sync.
 **The license history is the defining fact: MIT until December 2024, BSD-3 until v0.6.5, then the custom Open WebUI License from v0.6.6, which forbids removing or altering the branding unless you stay at or below 50 users in any 30-day window, are a substantive contributor with written permission, or buy an enterprise license, with a CLA required for new contributions.**
@@ -67,6 +70,7 @@ The disagreeable claim I will defend: most of the license outrage is disproporti
 ## Changes
 
 - 2026-09-27 - Created when the owner's GitHub-stars scan surfaced it.
+- 2026-10-07 - Added the open-webui/open-webui star history chart to the Status section.
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: Ouroboros
 created: 2026-08-30
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, software-factory, verification, self-improving-agents, open-source]
 readability: 3
@@ -24,6 +24,9 @@ MIT, by Ouro Labs (Q00), solo-maintained with around 80 contributors.
 ## Status
 
 Very young, very active: 6,184 stars, 622 forks, 91 open issues as of 2026-10-06, created 2026-01-14, pushed 2026-10-05.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=Q00/ouroboros&type=date&legend=top-left)](https://www.star-history.com/?repos=Q00%2Fouroboros&type=date&legend=top-left)
+
 Latest release v0.55.4 on 2026-10-02, three patch bumps past the 0.55.0 minor release of 2026-09-28, with about 26 PyPI releases in the last seven weeks; PyPI self-labels it Beta.
 **Headline results are self-reported, its Hacker News threads are self-submitted with single-digit points, and no independent evaluation exists as of 2026-10-06.**
 
@@ -66,6 +69,7 @@ Not for quick edits, for teams needing proven evaluation rigor, or for anyone wh
 - 2026-09-29 - Recorded the v0.55.0 release (2026-09-28) and refreshed counts (6,130 stars, 617 forks, 95 open issues).
 - 2026-10-02 - Recorded the v0.55.3 release (2026-09-30) and refreshed counts (6,165 stars, 620 forks, 87 open issues).
 - 2026-10-03 - Recorded the v0.55.4 release (2026-10-02) and refreshed counts (6,174 stars, 622 forks, 88 open issues).
+- 2026-10-07 - Added the Q00/ouroboros star history chart to the Status section.
 
 ## See also
 

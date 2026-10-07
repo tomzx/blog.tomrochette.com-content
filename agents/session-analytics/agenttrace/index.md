@@ -1,7 +1,7 @@
 ---
 title: AgentTrace
 created: 2026-09-27
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, llm=glm-5.3-flash, session-analytics, cost-tracking, cli, tui, open-source]
 readability: 3
@@ -26,6 +26,9 @@ Made by an independent developer (luoyuctl) under MIT.
 ## Status
 
 Young and active: 139 stars, 9 forks, 5 open issues, created 2026-05-01, last pushed 2026-10-06, latest release v0.10.1 on 2026-10-05 after v0.10.0 and v0.9.1 on 2026-10-04, as of 2026-10-06.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=luoyuctl/agenttrace&type=date&legend=top-left)](https://www.star-history.com/?repos=luoyuctl%2Fagenttrace&type=date&legend=top-left)
+
 It is effectively a one-person project: the v0.9.0 and v0.10.0 changelists credit every feature pull request to the owner, with the one outside contributor's commit merged in v0.9.0.
 The community footprint is nearly empty: a Hacker News search for the author returns nothing, and I found no Reddit discussion.
 v0.9.1 and v0.10.0 (both 2026-10-04) rebuilt the session cache (schema v24, so the first launch after upgrading re-parses history), fixed Claude Code transcripts being misclassified as Qwen Code, attributed Claude Code subagent cost and tokens to the parent session, added --daily/--weekly/--monthly reports with a --timezone flag and 5-hour --blocks, and shipped the self-updater.
@@ -70,6 +73,7 @@ Not for live observation, transcript search, or line-level provenance.
 - 2026-10-02 - Recorded the v0.9.0 release (an Oh My Pi parser fix from the project's first outside contributor, static CRT linking on Windows, and a Codex cost double-counting fix) and refreshed repository counts.
 - 2026-10-05 - Recorded v0.9.1 and v0.10.0 (2026-10-04): the schema-v24 cache rebuild, the Qwen-misclassification fix, subagent cost attribution to parent sessions, timezone-aware period reports and 5-hour blocks, and the self-updater with winget dropped; refreshed repository counts.
 - 2026-10-06 - Recorded v0.10.1 (2026-10-05): cross-agent token-accounting corrections (lower Claude Code and Codex totals), the schema-v26 cache rebuild, and Gemini CLI support removed as discontinued upstream, with Antigravity sessions still read; the format count and the matrix's agents-covered cell updated, repository counts refreshed, and the ROADMAP reference repointed to docs/ROADMAP.md after the file moved from the repository root.
+- 2026-10-07 - Added the luoyuctl/agenttrace star history chart to the Status section.
 
 ## See also
 

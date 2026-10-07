@@ -1,7 +1,7 @@
 ---
 title: "Kimi Code"
 created: 2026-09-05
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, cli, coding-agent, moonshot, byok]
 readability: 3
@@ -22,6 +22,9 @@ The code lives in two repositories: the original `MoonshotAI/kimi-cli` (Apache-2
 ## Status
 
 Active and big-vendor backed, about 19.2k combined stars as of 2026-10-05: `kimi-code` at 7,771 stars, `kimi-cli` at 11,433 stars, with the older repository now archived by Moonshot (its last push was 2026-09-22).
+
+[![Star History Chart](https://api.star-history.com/chart?repos=MoonshotAI/kimi-code&type=date&legend=top-left)](https://www.star-history.com/?repos=MoonshotAI%2Fkimi-code&type=date&legend=top-left)
+
 **The independent FrontierHarness Eval pegs it mid-pack on quality and cheap on cost: 56.7 percent pass at a $3.65 median cost per task, with an 88 percent cache rate on Kimi K3.**
 The Hacker News footprint is thin (a 5-point 2025-10-31 thread and a 1-point 2026-01-27 one), which I read as distribution through Kimi's own channels rather than developer-mindshare gravity.
 
@@ -88,6 +91,7 @@ Not for teams that need local models, or anyone who needs more than one independ
 - 2026-10-06 - Recorded the kimi-k3 price moving again on OpenRouter to $0.95/$14.00 per million tokens (cache reads $0.31), with the endpoint floor at $0.96/$13.00 on Relace, and kimi-k2.7-code unchanged.
 - 2026-10-06 - Recorded the kimi-k3 listing moving again the same day to $0.83/$14.00 per million tokens (cache reads $0.27) with the endpoint floor at $0.82/$13.00 on Relace, and appended the matching Price history row.
 - 2026-10-06 - Recorded the Relace endpoint floor dropping to $0.66/$13.00 per million tokens (input down from $0.82, output unchanged, endpoint cache read $0.30), with the main listing re-verified unchanged at $0.83/$14.00 on OpenRouter's endpoints API.
+- 2026-10-07 - Added the MoonshotAI/kimi-code star history chart to the Status section.
 
 ## See also
 

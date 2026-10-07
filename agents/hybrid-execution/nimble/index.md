@@ -1,7 +1,7 @@
 ---
 title: Nimble
 created: 2026-09-21
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, hybrid-execution, structured-outputs, system-one-models, decision-models, open-weights, data-curation, model-evaluation]
 readability: 3
@@ -25,6 +25,9 @@ The authors are Bespoke Labs with Maheswaran Sathiamoorthy, whose earlier Bespok
 
 **Active and eighteen days old, with a near-zero HN footprint and the strongest verification artifacts of any project in the wave.**
 The repository was created 2026-09-18 and shows about 2,060 stars and 160 forks as of 2026-10-06 (the API reports a push on 2026-10-05, while the default branch's last commit is 2026-09-24); the weights were created 2026-09-18 and show about 5,600 downloads and 231 likes.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=bespokelabsai/nimble&type=date&legend=top-left)](https://www.star-history.com/?repos=bespokelabsai%2Fnimble&type=date&legend=top-left)
+
 The Hacker News submission (2026-09-18) sits at 7 points and zero comments, so I state plainly that the community footprint is absent.
 What substitutes is in the repo: a 13-subset, 3,880-record human-labeled suite (VitaminC, MASSIVE in English and German, BoolQ, SQuAD 2.0, PAWS, MultiNLI, Civil Comments, Aegis 2, HelpSteer2, two SummEval slices, PubMedQA) run against Jev 1.13.0, which no vendor and no other replica has done.
 The project has kept shipping: the 2,676 training examples and the 324-example holdout were published on 2026-09-20 (they had been left out of the first release by mistake), the hosted deployment's prompt limit rose to 8,192 tokens on 2026-09-19, and on 2026-09-22 a temperature was fitted for the checkpoint (same picked answers, better-matching probabilities).
@@ -67,6 +70,7 @@ The disagreeable claim I will defend: this note's most valuable artifact is not 
 - 2026-09-22 - Recorded the fitted temperature (2026-09-22, same answers, shifted probabilities), the published 2,676 training and 324 holdout examples, the 8,192-token hosted prompt limit, the JevBench reading (60.5), and refreshed star and download counts; license file still absent.
 - 2026-09-25 - Refreshed traction (about 1,700 stars, about 2,600 weight downloads, license file still absent) and recorded the JevBench v1.4 sealed re-scoring (Nimble 18.7, from 60.5, the steepest drop among the named replicas).
 - 2026-09-29 - Refreshed traction (about 1,900 stars, 151 forks, about 3,500 weight downloads, 202 likes); license file still absent.
+- 2026-10-07 - Added the bespokelabsai/nimble star history chart to the Status section.
 
 ## See also
 

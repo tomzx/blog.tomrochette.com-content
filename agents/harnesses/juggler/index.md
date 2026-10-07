@@ -1,7 +1,7 @@
 ---
 title: Juggler
 created: 2026-08-30
-updated: 2026-10-04
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agents, harnesses, gui, go]
 readability: 3
@@ -28,6 +28,9 @@ Made by Julian Storer (JUCE, Tracktion, Cmajor), distributed as signed installer
 **Young, active, and single-maintainer, with a strong launch.**
 The public Show HN on July 12, 2026 drew 280 points and 119 comments ([HN](https://news.ycombinator.com/item?id=48883305)).
 751 stars and 51 forks as of 2026-10-04 on a repo created June 19, 2026 (GitHub API); it had crossed 732 by October 3, over a hundred stars more than the day before, and stood at 768 stars and 52 forks as of 2026-10-06.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=juggler-ai/juggler&type=date&legend=top-left)](https://www.star-history.com/?repos=juggler-ai%2Fjuggler&type=date&legend=top-left)
+
 Shipping is steady: v0.7.4 published October 2, 2026, adding per-provider toggles for Codex and Copilot subscriptions, thinking levels for Ollama models, a file viewer that plays video and audio and opens more image formats, and a fix for slow-starting WSL sessions on Windows; v0.7.3 (September 30) added a "Group" workspace type that organizes conversations without a worktree or copy, usage meters that redden by pace against the window rather than by quota consumed, touch-device fixes, and an LM Studio provider that reads each model's loaded context window.
 One person builds it, which is both the reason it ships fast and the project's single point of failure.
 
@@ -70,6 +73,7 @@ I think the harnesses that win the GUI layer will be the ones that treat convers
 - 2026-09-29 - Recorded the v0.7.1 (September 27, side-by-side diffs, workspace polish, OpenRouter presets) and v0.7.2 (September 28, first-launch provider setup, folder drop-to-open, welcome panel) releases and refreshed counters.
 - 2026-10-02 - Recorded the v0.7.3 release (September 30), which added a Group workspace type, pace-based usage meters, touch fixes, and an LM Studio provider reading each model's context window, and refreshed counters.
 - 2026-10-03 - Recorded the v0.7.4 release (October 2), which added per-provider Codex and Copilot subscription toggles, Ollama thinking levels, media playback in the file viewer, and a Windows WSL fix, and refreshed counters (732 stars, 51 forks), over a hundred new stars in a day.
+- 2026-10-07 - Added the juggler-ai/juggler star history chart to the Status section.
 
 ## See also
 

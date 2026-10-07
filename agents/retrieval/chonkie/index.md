@@ -1,7 +1,7 @@
 ---
 title: Chonkie
 created: 2026-09-16
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, chunking, rag, retrieval]
 readability: 3
@@ -25,6 +25,9 @@ It also ships refineries, pipelines stored in a local SQLite database, a self-ho
 
 The open source library is active and widely used; the company around it has visibly moved on.
 The repository shows 4,783 stars, a push on 2026-10-03, and PyPI shows version 1.7.0 released 2026-07-07 across 62 releases, with 1,255,276 downloads in the last month (as of 2026-10-06); the TypeScript port, renamed alongside the org to feyninc/chonkiejs, was last pushed 2026-10-03.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=feyninc/chonkie&type=date&legend=top-left)](https://www.star-history.com/?repos=feyninc%2Fchonkie&type=date&legend=top-left)
+
 **The caution is the corporate trail: chonkie.ai, the domain in the Launch HN, now redirects to Feyn Labs, a venture whose founder letter is signed by Chonkie's co-founder Shreyash Nigam, the repository itself moved under the Feyn org (feyninc/chonkie, with the old chonkie-inc URL redirecting), the hosted endpoints (cloud.chonkie.ai, hub.chonkie.ai, labs.chonkie.ai) are dead or 404, and the README still links Cloud to the dead labs domain.**
 The community footprint earlier scans missed is real: two major HN threads (199 points in 2024, 151 in 2025) plus a 153-point technical post ("So, you want to chunk really fast?", December 2025) by co-founder Bhavnick Minhas on his delimiter-based memchunk approach.
 
@@ -66,6 +69,7 @@ My disagreeable claim: Chonkie's real innovation was packaging, not algorithms, 
 - 2026-09-20 - Recorded the repository's move under the Feyn Labs org (feyninc/chonkie, the chonkie-inc URL now redirects) and refreshed the star count to 4,760; PyPI, releases, and the stale Cloud link unchanged.
 - 2026-09-20 - Recorded the TypeScript port's matching rename to feyninc/chonkiejs and refreshed the trailing-month PyPI figure to 1,046,347 as of 2026-09-20.
 - 2026-09-25 - Refreshed the volatile facts: 4,770 stars and 1,138,639 trailing-month PyPI downloads as of 2026-09-25; version 1.7.0, the push date, and the JS port unchanged.
+- 2026-10-07 - Added the feyninc/chonkie star history chart to the Status section.
 
 ## See also
 

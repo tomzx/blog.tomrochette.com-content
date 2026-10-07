@@ -1,7 +1,7 @@
 ---
 title: Junie
 created: 2026-08-22
-updated: 2026-10-04
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, coding-agents, harnesses, jetbrains, byok]
 readability: 3
@@ -28,6 +28,9 @@ BYOK covers Anthropic, OpenAI, Google, xAI, OpenRouter, Copilot, and local model
 **Active.**
 Junie started as an IDE agent in January 2025 (53.6% on SWE-bench Verified at announcement), went GA in April 2025, and the LLM-agnostic CLI followed into beta and beyond.
 The GitHub repository (installer and release channels: release, EAP, nightly, experimental) shows 468 stars as of 2026-10-04.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=JetBrains/junie&type=date&legend=top-left)](https://www.star-history.com/?repos=JetBrains%2Fjunie&type=date&legend=top-left)
+
 In August 2026 JetBrains launched Junie Local, a free on-device build for M5 Macs that runs a bundled, tuned model entirely locally with no registration, subscription, or credits ([launch post](https://blog.jetbrains.com/junie/2026/08/junie-local-launch/)).
 The client is proprietary under JetBrains AI terms; the repo is distribution, not source.
 
@@ -75,6 +78,7 @@ Not for anyone who needs an open client or a large community ecosystem today.
 - 2026-08-23 - Style conformance pass: bolded each section's key insight, split a combined sentence into one per line, and named the vague referent.
 - 2026-09-02 - Recorded the Junie Local on-device Mac launch.
 - 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
+- 2026-10-07 - Added the JetBrains/junie star history chart to the Status section.
 
 ## See also
 

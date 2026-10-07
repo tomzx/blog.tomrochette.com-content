@@ -1,7 +1,7 @@
 ---
 title: Sourcery
 created: 2026-08-30
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, code-review, ai-review, developer-tools]
 readability: 3
@@ -22,6 +22,9 @@ IDE surfaces cover PyCharm, VS Code, Sublime, and Vim, a wider editor spread tha
 ## Status
 
 **Old by category standards (repo since July 2019), active, and mid-size: 1,870 stars as of 2026-10-06, commits as recent as October 6, 2026.**
+
+[![Star History Chart](https://api.star-history.com/chart?repos=sourcery-ai/sourcery&type=date&legend=top-left)](https://www.star-history.com/?repos=sourcery-ai%2Fsourcery&type=date&legend=top-left)
+
 The PyPI package confirms the refactoring origin ("Magically refactor Python", 23 releases, now at 1.46.0).
 Funding: not verifiable from primary sources, and TechCrunch's only "Sourcery" rounds belong to the unrelated 2014/2016 restaurant startup, so I record none.
 The community footprint is modest: a 15-point Show HN for the refactoring era (27760608, July 7, 2021), a 3-point user comparison against Copilot (43944576, May 10, 2025), and a 1-point criticism thread (44224690, June 9, 2025) accusing the reviewer of being wrong and refusing to admit it.
@@ -71,6 +74,7 @@ My disagreeable take: free-for-open-source is the most underrated go-to-market w
 - 2026-08-30 - Created when the entrant candidate pile was processed, as a Code review note.
 - 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
 - 2026-09-24 - Recorded the tier-content reshuffle at unchanged prices: Team's security scans now cover 50 repos nightly (was 200+), the rate-limit wording became "higher review limits" (was 3x), and BYO LLM keys moved from Team to Enterprise.
+- 2026-10-07 - Added the sourcery-ai/sourcery star history chart to the Status section.
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: Spec Kitty
 created: 2026-10-06
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, spec-driven-development, governance, worktrees, open-source]
 readability: 3
@@ -25,6 +25,9 @@ Slash commands or skills integrate Claude Code, Codex, Cursor, Gemini, Copilot, 
 
 Active, company-backed, and mid-adoption.
 As of 2026-10-06: 1,668 stars and 177 forks since creation on 2025-10-09, pushed 2026-10-06, MIT, stable PyPI release 3.2.7 (2026-09-09) and 3,251 PyPI downloads last month, with a 4.x release-candidate line in qualification (v4.0.0rc5, 2026-10-02) whose README says stable launch acceptance remains pending.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=spec-kitty/spec-kitty&type=date&legend=top-left)](https://www.star-history.com/?repos=spec-kitty%2Fspec-kitty&type=date&legend=top-left)
+
 The repository moved from its original Priivacy-ai org to the spec-kitty org, which GitHub's redirect confirmed this run.
 **Its Hacker News footprint is one 5-point thread (January 2026), so its adoption case rests on stars, installs, and the company's own surfaces, not on independent discussion.**
 Creator Robert Douglass presented the workflow at FrOSCon 2026 on 2026-08-16.
@@ -64,6 +67,7 @@ The disagreeable claim I will defend: two members reaching delta specs from oppo
 ## Changes
 
 - 2026-10-06 - Created from the entrant-resolution run, profiling spec-kitty/spec-kitty as the category's first company-born governance column.
+- 2026-10-07 - Added the spec-kitty/spec-kitty star history chart to the Status section.
 
 ## See also
 

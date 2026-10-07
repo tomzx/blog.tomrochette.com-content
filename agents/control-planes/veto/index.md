@@ -1,7 +1,7 @@
 ---
 title: Veto
 created: 2026-09-27
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, llm=glm-5.3-flash, agent-authorization, policy-enforcement, tool-calls, human-in-the-loop, open-source]
 readability: 3
@@ -26,6 +26,9 @@ It is made by Plaw, Inc. (US), which lists Veto as an EU AI Pact signatory.
 
 Active product, dormant open-source repository.
 The repository was created 2026-01-02 and sits at 14 stars, 2 forks, and 1 open issue as of 2026-10-06, with no source push since 2026-06-18 (110 days) and the latest published SDK release `veto-sdk@2.9.3` on 2026-05-07.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=PlawIO/veto&type=date&legend=top-left)](https://www.star-history.com/?repos=PlawIO%2Fveto&type=date&legend=top-left)
+
 The website, docs, and pricing pages remain live with prices unchanged (verified 2026-10-06), and the company markets to agent vendors and regulated buyers, so the commercial product is clearly alive while the public source is not.
 **The public footprint is small: a Hacker News search for Veto returns nothing relevant, and the starred count is in the low tens, so adoption evidence comes from the product surfaces rather than the community.**
 One operational wrinkle the README states plainly: Plaw does not yet control the unscoped `veto` npm name, so installs use the `veto-cli` package form until the transfer completes.
@@ -71,6 +74,7 @@ Enterprise is custom, covering cloud, BYOC, on-prem, or isolated networks with H
 
 - 2026-09-27 - Created.
 - 2026-10-02 - Moved the repository status to dormant (no source push since 2026-06-18) while re-verifying the commercial site and pricing as unchanged; added the missing llm=glm-5.3-flash tag.
+- 2026-10-07 - Added the PlawIO/veto star history chart to the Status section.
 
 ## See also
 

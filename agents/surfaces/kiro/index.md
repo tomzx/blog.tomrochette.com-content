@@ -1,7 +1,7 @@
 ---
 title: Kiro
 created: 2026-08-24
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, surfaces, ai-editors, aws]
 readability: 3
@@ -30,6 +30,9 @@ The September 14 changelog also raised the GPT-5.6 family to a 1M context window
 On September 16, 2026 the Claude Fable 5.1 Preview began rolling out to Kiro Enterprise clients: a 1M-context model billing at a 6x credit multiplier, with US-East-only inference and traffic retained up to 30 days for abuse detection.
 On September 28, 2026 Claude Opus 5.5 joined the model list across the IDE, CLI, Crew, and Web at a 2.0x credit multiplier, down from Opus 5's 2.2x.
 The public issue tracker (kirodotdev/Kiro, about 4.3k stars as of 2026-10-06) saw only README docs and Dependabot dependency commits on August 26-27, 2026, with no feature commits since June 22, 2026, so release evidence still lives on kiro.dev, not the repository.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=kirodotdev/Kiro&type=date&legend=top-left)](https://www.star-history.com/?repos=kirodotdev%2FKiro&type=date&legend=top-left)
+
 Its spec workflow has been influential enough that community projects port it to other harnesses.
 
 ## Strengths
@@ -83,6 +86,7 @@ Not for credit-averse solo engineers or anyone who wants an open client.
 - 2026-10-02 - Recorded the releases the 2.26.0 pass missed: CLI 2.25.0 (September 28, Powers management, V3 output styles, SessionEnd Hook), IDE 1.2.4 (September 30, IDE Workflows, untrusted-workspace safeguards, enterprise sign-in controls) as the new latest IDE, and the Claude Opus 5.5 model addition (September 28, 2.0x multiplier); prices unchanged.
 - 2026-10-03 - Recorded CLI 2.27.0 (October 1, control over how V3 delegates when Workflows are enabled, live file and folder context in Steering, saved prompts as slash commands) as the new latest CLI release; prices unchanged.
 - 2026-10-04 - Recorded Kiro Web Workflows (September 30, opt-in multi-step plans in cloud sessions with three bundled recipes) and the Claude Sonnet 5.5 model addition (October 2, 1M context, 1.3x multiplier, paid tiers, us-east-1 and eu-central-1); prices unchanged.
+- 2026-10-07 - Added the kirodotdev/Kiro star history chart to the Status section.
 
 ## See also
 

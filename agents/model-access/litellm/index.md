@@ -1,7 +1,7 @@
 ---
 title: LiteLLM
 created: 2026-09-27
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, model-access, llm-gateway, self-hosted]
 readability: 3
@@ -25,6 +25,9 @@ The core is MIT licensed; the `enterprise/` directory ships under a separate com
 ## Status
 
 Very active: 60,198 stars as of 2026-10-06, repo pushed the same day, publicly released July 2023.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=BerriAI/litellm&type=date&legend=top-left)](https://www.star-history.com/?repos=BerriAI%2Flitellm&type=date&legend=top-left)
+
 The cadence is extreme: a new minor line roughly every week, with v1.98.1, v1.99.4, v1.100.3, v1.101.2, v1.102.1, and v1.103/1.104 pre-releases all published between September 16 and 25, 2026, and PyPI latest at 1.104.0 (2026-10-04).
 Since 2026-06-29 only the four most recent stable minor lines receive patches, a policy the company states is a direct cost of that cadence.
 **In March 2026 the project's PyPI publishing credentials were compromised: poisoned 1.82.7 and 1.82.8 wheels shipped a credential stealer and were quarantined within about a day (PYSEC-2026-2).**
@@ -69,6 +72,7 @@ My disagreeable claim: below three providers, self-hosting LiteLLM is negative v
 
 - 2026-09-27 - Created when the owner's GitHub-stars scan surfaced it.
 - 2026-10-06 - Converted the Compared-to cross-references from plain-text paths into working links.
+- 2026-10-07 - Added the BerriAI/litellm star history chart to the Status section.
 
 ## See also
 

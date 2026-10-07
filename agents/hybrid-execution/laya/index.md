@@ -1,7 +1,7 @@
 ---
 title: Laya
 created: 2026-09-21
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, hybrid-execution, structured-outputs, system-one-models, decision-models, open-weights, multilingual]
 readability: 3
@@ -25,6 +25,9 @@ Community runtimes extend it past PyTorch: laya-mlx reports 7-14 ms decisions on
 
 Eighteen days old and compounding fast, as of 2026-10-06.
 The main repository was created 2026-09-18 and shows about 31,000 stars, laya-mlx about 6,800 since 2026-09-19, with a CoreML port, third-party demo endpoints, and roughly ten community quantizations appearing within days.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=NandhaKishorM/laya&type=date&legend=top-left)](https://www.star-history.com/?repos=NandhaKishorM%2Flaya&type=date&legend=top-left)
+
 The author's launch story, "I built non-autoregressive decision models with RL a year ago" (2026-09-19), drew a 1,363-point Hacker News thread as of 2026-10-06, the largest community footprint of any Jev follow-up, and a follow-up gist thread on running Laya offline on an M4 Mac reached 178 points as of 2026-10-06.
 The first independent deployment account landed 2026-09-22: an engineer chose Laya over hosted Jev for local agent routing on a Mac Studio and measured 37 of 40 acceptable decisions on a frozen replay against 33 of 40 for his previous deterministic router, while stating plainly that it was not a Laya-versus-Jev head-to-head.
 On the third-party JevBench board Laya's 421M checkpoint ranks low on both readings (54.4 on v1.2, 30.3 on the current v1.4.2.2 revision, forty-third) and its about $0.0029 per 1,000 decisions is no longer the board's cheapest, two tiny-classifier entrants (Certo v1 and verdict-small) having undercut it in the v1.4.2 additions, but it remains near-free at scale, which is the trade its model card already advertised.
@@ -73,6 +76,7 @@ The disagreeable claim I will defend: the priority fight is the least interestin
 - 2026-09-29 - Refreshed traction (about 28,000 stars, laya-mlx about 6,600, PyPI 0.3.21, threads 1,361 and 178 points) and moved the JevBench reading to the v1.4.2.2 board, forty-third at the same 30.3.
 - 2026-10-03 - Recorded the 0.3.24 PyPI release and refreshed traction (about 30,300 stars, the HF card at 5,016 likes, the launch thread at 1,363 points).
 - 2026-10-04 - Recorded the 0.3.25 and 0.3.26 PyPI releases (both October 3) and refreshed traction (about 30,500 stars, the HF card at 5,079 likes).
+- 2026-10-07 - Added the NandhaKishorM/laya star history chart to the Status section.
 
 ## See also
 

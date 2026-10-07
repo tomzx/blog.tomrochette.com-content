@@ -1,7 +1,7 @@
 ---
 title: Whiteboard
 created: 2026-10-04
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, surface, review, open-source]
 readability: 3
@@ -26,6 +26,8 @@ New with real traction: the Show HN launch on 2026-09-24 drew 424 points, and th
 The team is four (Sid, Alex, Ketan, and Milan), YC W26-backed, and built the app for themselves first.
 Distribution is free, open source, and local-only in beta; the product site now advertises a hosted Whiteboard as coming soon, though no plans or prices exist yet, so there is no revenue model today.
 The category question is unresolved even in its own launch thread, where commenters reached for orchestrator, control plane, and agent multiplexer before the authors placed it as deliberately not opinionated about where your agent runs.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=devdotfast/whiteboard&type=date&legend=top-left)](https://www.star-history.com/?repos=devdotfast%2Fwhiteboard&type=date&legend=top-left)
 
 ## Strengths
 
@@ -63,6 +65,7 @@ Not for teams that need a supported, priced, categorized tool, and not for anyon
 - 2026-10-05 - Recorded the product site's move to dev.fast (whiteboard.dev.fast 301-redirects there), the hosted-Whiteboard coming-soon notice on that site, the diffr semantic-diff library, and refreshed stars to 2,791 and forks to 131.
 - 2026-10-06 - Corrected the site-direction claim: whiteboard.dev.fast serves the dev.fast-hosted product page directly again (the GitHub homepage field points there), where the 10-05 entry recorded a 301-redirect; the claim stands for 2026-10-05.
 - 2026-10-06 - Corrected the open-work count in Cautions from fifty open issues to ten open issues plus twenty-three open pull requests per the GitHub API, where the earlier figure had counted both; stars refreshed to 2,860 and forks to 134, with the repository pushed October 6.
+- 2026-10-07 - Added the devdotfast/whiteboard star history chart to the Status section.
 
 ## See also
 

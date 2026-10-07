@@ -1,7 +1,7 @@
 ---
 title: Instructor
 created: 2026-08-24
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, structured-outputs, pydantic, validation]
 readability: 3
@@ -26,6 +26,9 @@ It also streams partial objects, iterates lists, exposes hooks for logging and m
 
 **Active and mainstream.**
 The repository shows about 14.0k stars and 1,656 commits as of 2026-10-06, and PyPI shows release 1.17.0 uploaded September 9, 2026, following 1.16.0 on August 27, in a cadence of monthly-plus releases stretching back to 2023.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=567-labs/instructor&type=date&legend=top-left)](https://www.star-history.com/?repos=567-labs%2Finstructor&type=date&legend=top-left)
+
 The README claims 3M+ monthly downloads and use inside OpenAI, Google, Microsoft, and AWS teams; PyPI counters with roughly 8.5M downloads over the last month as of 2026-10-06, flat against the September 25 reading of roughly 8.4M after a steep September slide from roughly 22M, so the README claim remains conservative but the collapse has paused rather than continued.
 OpenAI publicly credited Instructor as inspiration for its native SDK structured-output helpers at the August 2024 Structured Outputs launch, and the project's own README now steers agent use cases to PydanticAI, the Pydantic team's agent runtime.
 
@@ -69,6 +72,7 @@ Not for teams that need agents, evals, or hard latency budgets.
 - 2026-09-22 - Refreshed the monthly PyPI download count from roughly 14.2M to roughly 10.0M, continuing the decline.
 - 2026-09-25 - Refreshed the monthly PyPI download count from roughly 10.0M to roughly 8.4M, continuing the decline.
 - 2026-10-02 - Revised the download-trend claim: monthly PyPI downloads read roughly 8.4M for a second consecutive check, flat against September 25, so the steep September decline has paused.
+- 2026-10-07 - Added the 567-labs/instructor star history chart to the Status section.
 
 ## See also
 

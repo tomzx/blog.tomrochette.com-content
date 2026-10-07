@@ -1,7 +1,7 @@
 ---
 title: Sim
 created: 2026-09-29
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, multi-agent, workflow, low-code]
 readability: 3
@@ -26,6 +26,8 @@ Active: last push 2026-10-05, release v0.9.14 on 2026-10-05 (GitHub API, as of 2
 v0.9.11 (October 2) tightened audit rules across console, helper, render-path, persist, and deployment-flag checks, v0.9.12 (October 3) added last-synced deployment comparison for forks and a You.com integration, v0.9.13 (October 4) added library templates while fixing webhook path-owner claims and hosted-key usage-limit enforcement, and v0.9.14 (October 5) preserved workflow identity in background confirmations and kept file lineage through binary exports and extraction.
 Three HN launches mark the trajectory: 196 points for the first Show HN (2025-04-28), 55 points for the YC Launch HN (2025-05-21), and 240 points for "Sim, Apache-2.0 n8n alternative" (2025-12-11).
 Pre-1.0 (v0.9.x) despite the scale, so the API surface is still moving.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=simstudioai/sim&type=date&legend=top-left)](https://www.star-history.com/?repos=simstudioai%2Fsim&type=date&legend=top-left)
 
 ## Strengths
 
@@ -73,6 +75,7 @@ Not for coding-agent orchestration, and not for anyone needing long-term API sta
 - 2026-10-03 - Recorded v0.9.11 (October 2, stricter audit rules) and v0.9.12 (October 3, fork deployment comparison and a You.com integration) as the new latest releases.
 - 2026-10-02 - Recorded v0.9.9 (October 1) as the new latest release and refreshed star, fork, and push counts.
 - 2026-10-05 - Recorded v0.9.13 (October 4, library templates plus webhook path-owner and hosted-key usage-limit fixes) as the latest release.
+- 2026-10-07 - Added the simstudioai/sim star history chart to the Status section.
 
 ## See also
 

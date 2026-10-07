@@ -1,7 +1,7 @@
 ---
 title: Qodo
 created: 2026-08-30
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, code-review, ai-review, open-source, developer-tools]
 readability: 3
@@ -27,6 +27,9 @@ The repo description draws the line in one sentence: "This project is not the Qo
 
 Active on both halves, and deliberately splitting apart.
 The repo counts 13,276 stars and 1,942 forks as of 2026-10-06, MIT-licensed, with v0.47.0 released October 2, 2026 (after v0.46.0 on September 21), and the former qodo-ai/pr-agent URL now redirects to the repo's new home in the standalone PR-Agent organization.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=qodo-ai/pr-agent&type=date&legend=top-left)](https://www.star-history.com/?repos=qodo-ai%2Fpr-agent&type=date&legend=top-left)
+
 v0.47.0 hardens the tool: Gitea webhooks now fail closed without a configured secret, the GitHub Action fails on swallowed tool errors, GitLab and Bitbucket comment commands require a leading slash, extra_config_url became host-only, and model support added Claude Opus 5.5 and Bedrock Kimi K3.
 The company raised $11M in 2023, then $40M in September 2024 ($50M total), by which point TechCrunch already called it "Qodo, the startup previously known as CodiumAI".
 The README states Qodo donated PR-Agent to the community, the project has its first external maintainer, and it is being donated to an open-source foundation.
@@ -86,6 +89,7 @@ I also think the PR-Agent donation is less a gift than a repositioning: the repo
 - 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
 - 2026-09-24 - Refreshed the repo to 13,142 stars and 1,890 forks with v0.46.0 (September 21) as the latest release, and the VS Code badge to 905.7K; verified the qodo-ai/pr-agent redirect into The-PR-Agent/pr-agent.
 - 2026-10-03 - Recorded v0.47.0 (October 2): fail-closed Gitea webhook secrets, the GitHub Action failing on tool errors, leading-slash comment commands on GitLab and Bitbucket, host-only extra_config_url, and Claude Opus 5.5 plus Bedrock Kimi K3 model support.
+- 2026-10-07 - Added the qodo-ai/pr-agent star history chart to the Status section.
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: agentsview
 created: 2026-08-30
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, session-analytics, observability, token-usage, open-source]
 readability: 3
@@ -25,6 +25,9 @@ Made by Kenn Software LLC; install via curl script, Homebrew cask, desktop build
 ## Status
 
 Young and active: 6,056 stars, 677 forks, 137 open issues and PRs as of 2026-10-06, created 2026-02-19.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=kenn-io/agentsview&type=date&legend=top-left)](https://www.star-history.com/?repos=kenn-io%2Fagentsview&type=date&legend=top-left)
+
 Latest release v0.44.0 on 2026-09-21 with steady releases since July; pre-1.0 with fast feature churn.
 
 ## Strengths
@@ -71,6 +74,7 @@ Not for single-agent users well served by built-in cost views, or teams wanting 
 - 2026-09-27 - Refreshed repository counts (5,988 to 6,001 stars, 157 to 189 open issues and PRs) and revised the schema caution: the token-usage docs document schema version 5 again, with no version 6 mention left anywhere on the docs site.
 - 2026-10-05 - Added ccusage to Compared to as the report-first comparator the docs name, and linked its new note at first mention; refreshed repository counts (6,044 to 6,055 stars, 151 to 138 open issues and PRs).
 - 2026-10-06 - The docs' token-usage page flipped back to schema version 6 (it carried version 5 from 2026-09-27 through 2026-10-05), so the schema caution now records the third flip; refreshed repository counts (6,055 to 6,056 stars, 683 to 677 forks).
+- 2026-10-07 - Added the kenn-io/agentsview star history chart to the Status section.
 
 ## See also
 

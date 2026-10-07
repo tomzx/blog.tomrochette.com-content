@@ -1,7 +1,7 @@
 ---
 title: oh-my-codex
 created: 2026-09-27
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, llm=glm-5.3-flash, orchestration, codex, skills, workflows]
 readability: 3
@@ -25,6 +25,9 @@ Notifications route to Discord, Slack, Telegram, or custom webhooks through an O
 ## Status
 
 Actively shipped and very popular: about 33,455 stars and 2,543 forks as of 2026-10-06, created 2026-02-02, with the latest release v0.21.8 on 2026-10-06 (a bugfix and compatibility release for the frozen v0.21.7 range: Windows binary path handling, session export, and legacy configuration support) and npm at the same version across 137 published versions.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=Yeachan-Heo/oh-my-codex&type=date&legend=top-left)](https://www.star-history.com/?repos=Yeachan-Heo%2Foh-my-codex&type=date&legend=top-left)
+
 The 0.21 line was a consolidation: it retired legacy keywords behind a sunset-stub resolver (`$ralph` to `$ultragoal`, `$ultrawork` to `$team`) and removed writable MCP state tools.
 **The popularity is harness-specific: OMX is a Codex CLI layer, and the README itself warns that native Windows and the Codex App are not the default experience and may break, and that third-party "OMX v2" forks are not official.**
 
@@ -64,6 +67,7 @@ Not for Windows-first users, non-Codex harnesses, or anyone who needs a stable, 
 
 - 2026-09-27 - Created.
 - 2026-10-02 - Recorded v0.21.7 (October 1) as the new latest release and refreshed star, fork, and version counts.
+- 2026-10-07 - Added the Yeachan-Heo/oh-my-codex star history chart to the Status section.
 
 ## See also
 

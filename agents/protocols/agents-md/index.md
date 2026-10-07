@@ -1,7 +1,7 @@
 ---
 title: AGENTS.md
 created: 2026-08-24
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, protocols, conventions, context-files]
 readability: 3
@@ -30,6 +30,8 @@ Adopters include Codex, Gemini CLI, Cursor, GitHub Copilot's coding agent, Amp, 
 In this index, [Codex](../../harnesses/codex/index.md) treats it as first-class, [OpenCode](../../harnesses/opencode/index.md) reads it alongside CLAUDE.md, and [Crush](../../harnesses/crush/index.md) initializes projects with one.
 The last big holdout fell on 2026-09-18: Claude Code 2.1.277 added native AGENTS.md support, reading the file in any project without a CLAUDE.md, implemented as a built-in "mod" and not yet available on Bedrock, Vertex, or Foundry.
 The history matters: the support request only reached the HN front page in August 2026, was closed as completed on 2026-08-17 with only a community binary patch linked, and commenters quoted an Anthropic engineer promising easy AGENTS.md use, which arrived a month later in the changelog.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=agentsmd/agents.md&type=date&legend=top-left)](https://www.star-history.com/?repos=agentsmd%2Fagents.md&type=date&legend=top-left)
 
 ## Strengths
 
@@ -67,6 +69,7 @@ The disagreeable part: I suspect most AGENTS.md prose is wasted tokens, and the 
 - 2026-08-24 - Created in the Protocols category seed.
 - 2026-08-26 - Fixed the our-note antecedent to name the July 2026 proxy study and the Claude Code note, indented the ETH Zurich continuation, and added the updated field.
 - 2026-09-21 - Claude Code shipped native AGENTS.md support in 2.1.277 (2026-09-18), so the holdout record moved from "no native support" to shipped-as-of-this-date, with the changelog and announcement added as references.
+- 2026-10-07 - Added the agentsmd/agents.md star history chart to the Status section.
 
 ## See also
 

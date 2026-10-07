@@ -1,7 +1,7 @@
 ---
 title: LangChain
 created: 2026-08-24
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, rag, agents, frameworks]
 readability: 3
@@ -24,6 +24,9 @@ The commercial side is LangSmith: tracing, evaluation, deployment, sandboxes, an
 
 Active and dominant by footprint.
 The `langchain-ai/langchain` repository shows 147.5k stars and 24.7k forks as of 2026-10-06, with 16,922 commits as of 2026-10-06.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=langchain-ai/langchain&type=date&legend=top-left)](https://www.star-history.com/?repos=langchain-ai%2Flangchain&type=date&legend=top-left)
+
 **The telling history: after the 2024 "death by abstraction" wave, the company publicly moved to lower-level primitives (LangGraph, then create_agent), and is now climbing back up with Deep Agents, dcode, and OpenWiki, a CLI that writes agent wikis for coding agents.**
 
 ## Strengths
@@ -72,6 +75,7 @@ Disagree if you like; the retrieval-first framing is my call, not the docs'.
 - 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
 - 2026-09-25 - Refreshed volatile facts: 147.0k stars, 24.6k forks, 16,852 commits as of 2026-09-25; LangSmith pricing re-confirmed unchanged.
 - 2026-10-02 - Recorded the LangSmith pricing page consolidating metering in LSUs at $1.00 with the LCU ($1.50) line item gone, appended the price history row, and refreshed the repository numbers (147.4k stars, 24.7k forks, 16,908 commits).
+- 2026-10-07 - Added the langchain-ai/langchain star history chart to the Status section.
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: Basic Memory
 created: 2026-10-06
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, mcp, knowledge-base, markdown]
 readability: 3
@@ -27,6 +27,9 @@ The cloud adds cross-device sync, browser and mobile access, and a shared Teams 
 
 **Active and mid-scale, with a thin public-discussion footprint.**
 4,104 stars with the repository pushed 2026-10-06, created 2024-12-02, as of 2026-10-06 (GitHub API).
+
+[![Star History Chart](https://api.star-history.com/chart?repos=basicmachines-co/basic-memory&type=date&legend=top-left)](https://www.star-history.com/?repos=basicmachines-co%2Fbasic-memory&type=date&legend=top-left)
+
 The PyPI release (0.23.2) dates to 2026-08-25, so the registry lags the active repository.
 The Hacker News record is a 4-point Show HN in March 2025 (0 comments) and a 2-point third-party story in February 2026, so the 4.1k stars came through the MCP-ecosystem channels (registry listings, Discord) rather than public debate.
 
@@ -70,6 +73,7 @@ Not for products embedding a memory engine (AGPL), or teams needing multi-user g
 ## Changes
 
 - 2026-10-06 - Created from the 2026-10-06 entrant scan, with six fetched sources and the thin-discussion footprint plus the beta-pricing terms recorded as the critical angles.
+- 2026-10-07 - Added the basicmachines-co/basic-memory star history chart to the Status section.
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: VS Code + Copilot
 created: 2026-08-23
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, surfaces, ai-editors, microsoft, github]
 readability: 3
@@ -25,6 +25,9 @@ Cloud agents run on GitHub, where assigning an issue to Copilot produces a pull 
 
 **Active and default.**
 The repository shows commits landing daily and about 193k stars as of 2026-10-06.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=microsoft/vscode&type=date&legend=top-left)](https://www.star-history.com/?repos=microsoft%2Fvscode&type=date&legend=top-left)
+
 Every Copilot plan now includes Copilot CLI and the Copilot desktop app, and the agent docs are the editor documentation's front door as of August 2026.
 One contraction is ending: new self-serve Copilot Business and Copilot Enterprise purchases were paused on April 22, 2026, and on September 3, 2026 GitHub announced it is gradually reopening self-serve sign-ups for card and PayPal payers over the following weeks.
 The same changelog moved card and PayPal Business and Enterprise customers to prepaid seats from October 1, 2026: every seat must be paid before its user gains access, and existing customers' seats incur an upfront charge at the start of the billing cycle.
@@ -73,6 +76,7 @@ Not for teams that want the editor itself to come with strong opinions.
 - 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
 - 2026-09-27 - Re-confirmed the plan prices and the self-serve reopening; counts refreshed.
 - 2026-10-05 - Recorded the prepaid-seat billing in force from October 1, 2026 for card and PayPal Business and Enterprise customers, per the September 3 changelog; plan prices and credit allotments re-verified unchanged.
+- 2026-10-07 - Added the microsoft/vscode star history chart to the Status section.
 
 ## See also
 

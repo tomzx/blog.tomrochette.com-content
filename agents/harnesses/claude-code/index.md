@@ -1,7 +1,7 @@
 ---
 title: Claude Code
 created: 2026-08-22
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, coding-agents, harnesses, anthropic, developer-tools]
 readability: 3
@@ -27,6 +27,9 @@ The npm install is deprecated in favor of a native installer; third-party provid
 
 **Active and dominant.**
 The `anthropics/claude-code` repository shows about 149.5k stars and about 14.4k open issues and pull requests as of 2026-10-06; it hosts plugins, docs, and the issue tracker rather than the CLI source, which is proprietary.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=anthropics/claude-code&type=date&legend=top-left)](https://www.star-history.com/?repos=anthropics%2Fclaude-code&type=date&legend=top-left)
+
 Shipping pace in 2026 is high: projects for supervising groups of parallel agents (September 17), dynamic workflows across tens of parallel subagents (May 28), agent view (May 11), routines (April), computer use (March).
 
 ## Strengths
@@ -84,6 +87,7 @@ Not for the token-frugal or for anyone who needs an open, auditable client.
 - 2026-09-26 - Added the September 2026 caution that the 2.1.277 AGENTS.md rollout was gated behind a remote flag telemetry-disabled sessions could not fetch, fixed in 2.1.281, grounded in issue 95690 and the changelog, and refreshed repository scale.
 - 2026-09-26 - Linked the Claude plans note in the new Model access category, where the subscription that meters this harness is tracked with its price history.
 - 2026-09-29 - Refreshed repository scale (about 148.5k stars, about 13.6k open issues and pull requests).
+- 2026-10-07 - Added the anthropics/claude-code star history chart to the Status section.
 
 ## See also
 

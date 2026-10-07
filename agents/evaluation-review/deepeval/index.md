@@ -1,7 +1,7 @@
 ---
 title: deepeval
 created: 2026-08-30
-updated: 2026-10-03
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, evaluation, llm-as-judge, testing, open-source]
 readability: 3
@@ -24,6 +24,9 @@ Made by Confident AI, a seed-stage San Francisco company, Apache-2.0.
 ## Status
 
 The volume leader of Python eval frameworks: 18,649 stars, 2,027 forks, 707 open issues and PRs as of 2026-10-06.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=confident-ai/deepeval&type=date&legend=top-left)](https://www.star-history.com/?repos=confident-ai%2Fdeepeval&type=date&legend=top-left)
+
 Created 2023-08-10, pushed 2026-10-05, Python 4.2.8 released 2026-10-02 (still the newest), about 2.6 million PyPI downloads a month as of 2026-10-06.
 **Three years old and commercially backed, it is the most mature column in this category, and the 707-item backlog reads as heavy usage rather than neglect.**
 
@@ -73,6 +76,7 @@ Not for teams that cannot tolerate LLM-judge variance, or that need score parity
 - 2026-09-25 - Recorded the Python 4.2.4 release and refreshed repository counts.
 - 2026-09-27 - Recorded the Python 4.2.6 release (4.2.5 shipped the same day as 4.2.4) and refreshed repository counts.
 - 2026-10-03 - Recorded the Python 4.2.8 release (2026-10-02) and refreshed repository counts.
+- 2026-10-07 - Added the confident-ai/deepeval star history chart to the Status section.
 
 ## See also
 

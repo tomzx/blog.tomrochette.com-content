@@ -1,7 +1,7 @@
 ---
 title: cc-sdd
 created: 2026-10-06
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, spec-driven-development, agent-skills, multi-agent, open-source]
 readability: 3
@@ -26,6 +26,9 @@ Made by Gota (gotalab), an agentic-AI engineer in Japan; the project is Kiro-ins
 
 Established and mid-scale, with adoption that bypassed Hacker News entirely.
 As of 2026-10-06: 3,701 stars, 290 forks, created 2025-07-17, pushed 2026-09-23, release v3.1.0 (2026-09-23, the same day as the last push), 24,272 npm downloads last month, MIT.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=gotalab/cc-sdd&type=date&legend=top-left)](https://www.star-history.com/?repos=gotalab%2Fcc-sdd&type=date&legend=top-left)
+
 The v3.0 rework (spring 2026) moved everything to Agent Skills and added the autonomous implementation loop; the older `/kiro:*` command modes still install but are deprecated.
 **No significant Hacker News thread exists, so like OpenSpec its traction is measured in installs, and its claims rest on its own documentation.**
 
@@ -63,6 +66,7 @@ The disagreeable claim I will defend: a fresh-context reviewer per task is a str
 ## Changes
 
 - 2026-10-06 - Created from the entrant-resolution run, profiling gotalab/cc-sdd as the category's first installable skill-set column.
+- 2026-10-07 - Added the gotalab/cc-sdd star history chart to the Status section.
 
 ## See also
 

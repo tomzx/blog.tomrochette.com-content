@@ -1,7 +1,7 @@
 ---
 title: CodeBurn
 created: 2026-10-05
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, session-analytics, cost-tracking, open-source]
 readability: 3
@@ -26,6 +26,9 @@ Made by AgentSeal (the repository moved from the AgentSeal org to getagentseal, 
 ## Status
 
 Young and fast: 11,345 stars and 876 forks as of 2026-10-06, created 2026-04-13, pushed 2026-10-06 (GitHub API).
+
+[![Star History Chart](https://api.star-history.com/chart?repos=getagentseal/codeburn&type=date&legend=top-left)](https://www.star-history.com/?repos=getagentseal%2Fcodeburn&type=date&legend=top-left)
+
 The npm package pulled 36,881 downloads in the trailing month (2026-09-05 to 2026-10-04).
 The current release line is desktop/CLI v0.9.25 (2026-09-21, tagged separately per platform), and the repository description still says 37 tools where the README says 41, a drift to read as the README being newer.
 Its Show HN launch reached 112 points and 15 top-level comments on 2026-04-13, and it also launched on Product Hunt.
@@ -63,6 +66,7 @@ Not for anyone who wants plain unclassified numbers (ccusage is the simpler inst
 ## Changes
 
 - 2026-10-05 - Created from the 2026-10-05 entrant scan: a 112-point launch, 11.3k stars in six months, and a by-task cost angle the category lacked, with six fetched sources.
+- 2026-10-07 - Added the getagentseal/codeburn star history chart to the Status section.
 
 ## See also
 

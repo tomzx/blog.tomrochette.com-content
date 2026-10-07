@@ -1,7 +1,7 @@
 ---
 title: Tessl
 created: 2026-08-27
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, spec-driven-development, platform, venture-backed]
 readability: 3
@@ -25,6 +25,8 @@ Funded and building, quiet on GitHub.
 The Series A announcement (November 2024) declared $125M for the platform; the founding announcement (October 2024) frames Podjarny's pivot from Snyk's security mission to AI-native development.
 **The strongest third-party signal is Martin Fowler's October 2025 analysis naming Tessl one of the three SDD pillars alongside Kiro and Spec Kit (the 128-point thread), which treats it as a serious approach while noting it was then the least mature of the three.**
 The CLI has not been pushed since 2026-03-05, which is consistent with a web-first roadmap and worth re-checking before adopting (re-confirmed unchanged, now at 70 stars, on 2026-10-06).
+
+[![Star History Chart](https://api.star-history.com/chart?repos=tesslio/cli&type=date&legend=top-left)](https://www.star-history.com/?repos=tesslio%2Fcli&type=date&legend=top-left)
 
 ## Strengths
 
@@ -69,6 +71,7 @@ The disagreeable claim I will defend: Tessl will either prove specs are buyable 
 - 2026-09-08 - Recorded the first published platform pricing and rewrote the Pricing section (Free, Team $100 per month, Enterprise).
 - 2026-09-12 - Recorded the Tessl Code Review launch, with pricing tiers unchanged.
 - 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
+- 2026-10-07 - Added the tesslio/cli star history chart to the Status section.
 
 ## See also
 

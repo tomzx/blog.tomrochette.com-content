@@ -1,7 +1,7 @@
 ---
 title: LiveBench
 created: 2026-10-06
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, trackers-and-leaderboards, benchmarks, open-data]
 readability: 3
@@ -29,6 +29,8 @@ Active, but its defining cadence has slipped: the repository was pushed 2026-09-
 That gap matters because the September-October release wave (GPT-6, Claude Opus 5.5, Gemini 4 Argon) shipped onto a question set that has been frozen for nine months.
 Community footprint is thin on HN (the launch thread drew 6 points and 0 comments) even though model cards and release posts cite LiveBench scores routinely.
 The leaderboard site is a client-rendered app, so automated fetchers see only the title; the fetchable surfaces are the repository, the changelog, and the Hugging Face datasets.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=LiveBench/LiveBench&type=date&legend=top-left)](https://www.star-history.com/?repos=LiveBench%2FLiveBench&type=date&legend=top-left)
 
 ## Strengths
 
@@ -62,6 +64,7 @@ My disagreeable claim: the rotation gap is the number that matters most in this 
 ## Changes
 
 - 2026-10-06 - Created.
+- 2026-10-07 - Added the LiveBench/LiveBench star history chart to the Status section.
 
 ## See also
 

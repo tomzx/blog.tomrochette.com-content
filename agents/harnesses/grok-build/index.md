@@ -1,7 +1,7 @@
 ---
 title: Grok Build
 created: 2026-09-12
-updated: 2026-10-05
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, harnesses, coding-agents, terminal, open-source]
 readability: 3
@@ -24,6 +24,9 @@ The third-party notices disclose in-tree source ports of openai/codex and sst/op
 ## Status
 
 Active and extremely fast-moving: 27,229 stars and 5,124 forks as of 2026-10-06, roughly twelve weeks after the repo was created on 2026-07-14, last pushed 2026-09-29.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=xai-org/grok-build&type=date&legend=top-left)](https://www.star-history.com/?repos=xai-org%2Fgrok-build&type=date&legend=top-left)
+
 The changelog listed v1.0.30 as current as of 2026-09-11, with 138 releases logged between May 17 and September 9, and the npm distribution (@xai-official/grok, 271,488 downloads in the last month, window September 5 to October 4) carried the roughly one-per-day cadence through v1.0.46 stable (published 2026-09-30) and v1.0.49 alpha (published 2026-10-02), which both still stand as of 2026-10-06, stretching the first multi-day gap in the release train this note has recorded to four days.
 There are no GitHub releases or tags (both API endpoints return empty arrays), so binaries ship from the install script at x.ai/cli, which pulls versioned binaries from a Cloudflare-fronted URL with a Google Cloud Storage fallback across stable, alpha, and enterprise channels; the docs also document `npm install -g @xai-official/grok` as the alternative that needs neither host.
 The HN footprint is heavy for a nine-week-old tool: a 100-point preview thread in May 2026, the wire-level analysis at 539 points on July 12, a 100-point follow-up on July 13 reporting the repo-upload behavior persisted under retest, and the open-source announcement at 590 points and 643 comments on July 15.
@@ -83,6 +86,7 @@ I would not standardize on it while the default data path concentrates your code
 - 2026-10-02 - Recorded the alpha dist-tag moving to v1.0.48 (published October 2); stable unchanged at v1.0.46.
 - 2026-10-03 - Recorded the alpha dist-tag moving to v1.0.49 (published October 2); stable unchanged at v1.0.46; refreshed download totals and repository counters; API pricing re-verified unchanged against the live pricing page.
 - 2026-10-05 - Recorded the pricing page's Grok 4.7 Fast listing (Cursor and Grok Build only, double rates) and its first acknowledgment of a Grok Build free tier, refreshed download totals to 278,730 and repository counters, and noted npm dist-tags unchanged through October 5, the first multi-day release gap this note has recorded.
+- 2026-10-07 - Added the xai-org/grok-build star history chart to the Status section.
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: OpenHands
 created: 2026-08-27
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agents, harnesses, open-source, agent-platforms]
 readability: 3
@@ -26,6 +26,8 @@ Today's component map per the docs is Agent Canvas (the open-source browser clie
 **Active and venture-funded.**
 Latest tagged release v1.25.0 shipped October 6, 2026, adding Model Router settings with a run-at-conversation-start toggle, bulk provider-model addition as LLM profiles, per-profile personas, Canvas App updates, automation templates with native git integrations, and optional voice dictation; the default branch was pushed within a day of verification.
 All Hands AI raised $18.8M in a Series A led by Madrona on November 18, 2025, alongside a collaboration with AMD on locally-run agents.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=OpenHands/OpenHands&type=date&legend=top-left)](https://www.star-history.com/?repos=OpenHands%2FOpenHands&type=date&legend=top-left)
 
 ## Strengths
 
@@ -66,6 +68,7 @@ Not for someone who wants a zero-migration, opinionated coding workflow today, b
 - 2026-09-24 - Recorded the v1.23.0 release (September 23) and refreshed repository scale.
 - 2026-09-26 - Recorded the v1.24.0 release (September 25) and refreshed repository scale.
 - 2026-10-06 - Recorded the v1.25.0 release (October 6), which added Model Router settings with a run-at-conversation-start toggle, bulk LLM profile creation, per-profile personas, Canvas App updates, automation templates with native git integrations, and optional voice dictation.
+- 2026-10-07 - Added the OpenHands/OpenHands star history chart to the Status section.
 
 ## See also
 

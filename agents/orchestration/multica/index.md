@@ -1,7 +1,7 @@
 ---
 title: Multica
 created: 2026-09-27
-updated: 2026-10-05
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, llm=glm-5.3-flash, orchestration, self-hosted, issue-tracking, agents-as-teammates]
 readability: 3
@@ -24,6 +24,9 @@ It self-describes as supporting 26 agent CLIs (Claude Code, Codex, Cursor, Copil
 ## Status
 
 Actively shipped and unusually high-profile: about 51,967 stars and 6,751 forks as of 2026-10-05, created 2026-01-13, with 1,780 open issues and pull requests and a latest release of v0.6.1 on 2026-10-01.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=multica-ai/multica&type=date&legend=top-left)](https://www.star-history.com/?repos=multica-ai%2Fmultica&type=date&legend=top-left)
+
 Releases land every one to three days, which corroborates real maintenance.
 **Two caveats travel with the headline number: the star count is extraordinary for an eight-month-old repo, and independent reviewers found at least eight near-identical zero-star clones carrying the same marketing description, a pattern associated with star farming, while the license is a custom Apache-2.0-derived "Multica License" that GitHub reports as NOASSERTION.**
 
@@ -65,6 +68,7 @@ Not for solo developers running one agent, teams needing per-agent budget caps t
 - 2026-09-29 - Recorded v0.6.0 (September 28) and refreshed star and issue counts.
 - 2026-09-29 - Reworded two banned-term compounds ("team-shaped", "human-shaped") to plain wording, meaning unchanged.
 - 2026-10-02 - Recorded v0.6.1 (October 1) as the new latest release and refreshed star, fork, and issue counts.
+- 2026-10-07 - Added the multica-ai/multica star history chart to the Status section.
 
 ## See also
 

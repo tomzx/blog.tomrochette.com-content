@@ -1,7 +1,7 @@
 ---
 title: Cabinet
 created: 2026-10-02
-updated: 2026-10-03
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, knowledge-base, file-based, self-hosted]
 readability: 3
@@ -24,6 +24,9 @@ Desktop downloads exist for Mac and Windows (Linux coming soon), with hosted Cab
 ## Status
 
 Popular but quiet: 2,879 stars and 302 forks as of 2026-10-03, created 2026-04-03, with the last release v0.6.0 on 2026-08-25 and no push since late August.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=cabinetai/cabinet&type=date&legend=top-left)](https://www.star-history.com/?repos=cabinetai%2Fcabinet&type=date&legend=top-left)
+
 The repository has moved from the founder's personal account to the cabinetai organization (the old hilash/cabinet URL redirects).
 **The star count outruns the community record: one founder-posted Show HN thread from April 2026 (16 points, 6 comments), which makes this one of the larger repos in the category whose adoption story rests on GitHub stars alone.**
 Cloud Pro and Cloud Max are waitlist stage, so the product today is the self-hosted free tier.
@@ -73,6 +76,7 @@ Not for Linux-first teams, or anyone who needs an actively shipping dependency, 
 
 - 2026-10-02 - Created.
 - 2026-10-03 - Corrected the community record: a founder-posted Show HN thread (April 2026, 16 points, 6 comments) exists, so the no-HN-discussion claim was wrong; recorded the repository's move from the hilash account to the cabinetai organization; refreshed stars to 2,879.
+- 2026-10-07 - Added the cabinetai/cabinet star history chart to the Status section.
 
 ## See also
 

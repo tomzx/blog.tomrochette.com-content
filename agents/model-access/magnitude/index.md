@@ -1,7 +1,7 @@
 ---
 title: Magnitude
 created: 2026-10-06
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, model-access, local-inference, inference-engine]
 readability: 3
@@ -24,6 +24,9 @@ One-click connectors target Pi, OpenCode, Hermes, OpenClaw, Codex, Claude Code, 
 ## Status
 
 Active and young: 6,447 stars, 441 forks, 37 open issues, repo pushed 2026-10-06 (as of 2026-10-06).
+
+[![Star History Chart](https://api.star-history.com/chart?repos=magnitudedev/magnitude&type=date&legend=top-left)](https://www.star-history.com/?repos=magnitudedev%2Fmagnitude&type=date&legend=top-left)
+
 The Launch HN post on 2026-09-30 drew 194 points and 99 comments.
 The product pivoted: the same domain hosted "Magnitude: A coding agent that runs on open models" in June 2026 before the team turned the engine underneath it into the product.
 The founders told the launch thread that a hybrid inference cloud with per-token billing is planned, with the free engine underneath.
@@ -64,6 +67,7 @@ My disagreeable claim: on current evidence the 2x marketing is narrower than the
 
 - 2026-10-06 - Created.
 - 2026-10-06 - Converted the Compared-to cross-references from plain-text paths into working links.
+- 2026-10-07 - Added the magnitudedev/magnitude star history chart to the Status section.
 
 ## See also
 

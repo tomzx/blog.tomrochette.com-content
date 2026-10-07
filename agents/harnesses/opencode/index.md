@@ -1,7 +1,7 @@
 ---
 title: OpenCode
 created: 2026-08-22
-updated: 2026-10-04
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, coding-agents, harnesses, open-source, developer-tools]
 readability: 3
@@ -25,6 +25,9 @@ Providers are configured by API key; OpenCode Zen is the team's curated, tested 
 
 **Very active.**
 The repository moved from `sst` to `anomalyco/opencode` and shows about 211.9k stars and 28.2k forks under MIT as of 2026-10-06.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=anomalyco/opencode&type=date&legend=top-left)](https://www.star-history.com/?repos=anomalyco%2Fopencode&type=date&legend=top-left)
+
 It originated in the 2025 opencode-ai/Charm split that also produced Crush.
 OpenCode is the continuation that kept the name, the domain, and the community.
 
@@ -68,6 +71,7 @@ Not for teams that need subscription billing simplicity or cannot audit a fast-m
 - 2026-08-23 - Style pass: bolded each section's key insight, hyperlinked in-body sources, and clarified referents.
 - 2026-09-26 - Linked the new Model access notes for Zen and Go, where the gateway's billing and the token pack now have their own profiles.
 - 2026-10-04 - Added the GHSA-632h-h47v-g4x4 upgrade-path RCE from Datadog's September 24 disclosure (fixed in 1.18.22, no CVE requested) and the v2-banner-versus-v1.18.x-releases versioning fact.
+- 2026-10-07 - Added the anomalyco/opencode star history chart to the Status section.
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: "Machinist"
 created: 2026-09-05
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, software-factory, orchestration, go]
 readability: 3
@@ -21,6 +21,9 @@ Scripts are deliberately opaque to the controller: no invented child runs, graph
 ## Status
 
 Active and early: created 2026-07-16, 487 stars and 92 forks, pushed 2026-10-04, releases v0.1.0 through v0.4.0 (v0.4.0 on 2026-08-31 still the newest, with 53 commits on main since), with the README labeling it early-access software, all per the GitHub API as of 2026-10-06.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=owainlewis/machinist&type=date&legend=top-left)](https://www.star-history.com/?repos=owainlewis%2Fmachinist&type=date&legend=top-left)
+
 **There is no Hacker News thread or independent coverage as of 2026-10-06, so the missing community footprint is itself the signal, and the repository plus the docs site at machinist.sh are the whole evidence base.**
 The velocity (five releases in eight weeks) says maintained; the single-author commit history says bus-factor one.
 
@@ -58,6 +61,7 @@ Not for teams needing proven scale, resumable pipelines, or a community to escal
 - 2026-09-16 - Re-verified the zero-coverage claim and recorded growth to 418 stars with no new release.
 - 2026-09-25 - Re-verified the zero-coverage claim and refreshed counts (458 stars, pushed 2026-09-24, 53 commits past v0.4.0, no new release).
 - 2026-09-27 - Re-verified the zero-coverage claim and refreshed counts (463 stars, no new release).
+- 2026-10-07 - Added the owainlewis/machinist star history chart to the Status section.
 
 ## See also
 

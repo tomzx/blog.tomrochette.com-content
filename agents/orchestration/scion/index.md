@@ -1,7 +1,7 @@
 ---
 title: Scion
 created: 2026-10-06
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, containers, isolation, control-plane, google]
 readability: 3
@@ -24,6 +24,9 @@ It ships Gemini CLI and Claude Code harnesses by default, with Codex, OpenCode, 
 ## Status
 
 Active and early: 1,730 stars and 272 forks as of 2026-10-06, created 2026-03-10, with 32 contributors and nightly releases.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=GoogleCloudPlatform/scion&type=date&legend=top-left)](https://www.star-history.com/?repos=GoogleCloudPlatform%2Fscion&type=date&legend=top-left)
+
 The README states plainly that Scion is not an officially supported Google product and is not eligible for Google's support programs.
 InfoQ's April 2026 coverage framed it as an experimental testbed with partial Codex and OpenCode support and documented its idiosyncratic lexicon (grove, hub, runtime broker).
 The 230-point, 62-comment Hacker News thread from April 2026 is the largest practitioner debate in this category.
@@ -62,6 +65,7 @@ Not for anyone who needs a supported product with a roadmap commitment, or whose
 ## Changes
 
 - 2026-10-06 - Created.
+- 2026-10-07 - Added the GoogleCloudPlatform/scion star history chart to the Status section.
 
 ## See also
 

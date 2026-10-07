@@ -1,7 +1,7 @@
 ---
 title: Helmor
 created: 2026-09-27
-updated: 2026-10-04
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, llm=glm-5.3-flash, orchestration, worktrees, local-first, desktop]
 readability: 3
@@ -24,6 +24,9 @@ macOS (Apple Silicon and Intel) and Windows x64 are the supported desktop platfo
 ## Status
 
 Active but cooling: about 1,306 stars and 120 forks as of 2026-10-04, created 2026-04-02, with 1,831 commits.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=dohooo/helmor&type=date&legend=top-left)](https://www.star-history.com/?repos=dohooo%2Fhelmor&type=date&legend=top-left)
+
 The latest release, v0.46.0 (which added Codex 1.0 and Claude Code 2.0 support), landed 2026-07-24, and the last default-branch commit was 2026-08-22, roughly six weeks before this check, so momentum has slowed even as the feature set matured.
 **For a tool still advertising forthcoming plan mode and Slack and GitHub context, a six-week quiet spell is the first data point to watch between now and the next release.**
 
@@ -61,6 +64,7 @@ Not for Linux users, and not for anyone who needs fleet-scale orchestration or a
 ## Changes
 
 - 2026-09-27 - Created.
+- 2026-10-07 - Added the dohooo/helmor star history chart to the Status section.
 
 ## See also
 

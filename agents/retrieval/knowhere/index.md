@@ -1,7 +1,7 @@
 ---
 title: Knowhere
 created: 2026-09-20
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, retrieval, rag, chunking, document-parsing, mcp, open-source]
 readability: 3
@@ -27,6 +27,9 @@ Made by Ontos AI, which open-sourced the full stack on May 7, 2026.
 ## Status
 
 **Active and shipping weekly, with a striking mismatch between stars and discussion.**
+
+[![Star History Chart](https://api.star-history.com/chart?repos=Ontos-AI/knowhere&type=date&legend=top-left)](https://www.star-history.com/?repos=Ontos-AI%2Fknowhere&type=date&legend=top-left)
+
 3,674 stars since 2026-04-30, latest release v1.2.22 on 2026-10-05 (following v1.2.21 the same day, and v1.2.20 on 2026-09-30), pushed 2026-10-05 (GitHub API, as of 2026-10-06).
 Two Show HNs drew a combined 2 points and 1 comment (March and September 2026), so like graft and graphify, the star count ran far ahead of any independent technical discussion.
 The self-hosted stack repo has 12 stars and was last pushed 2026-09-21, so the self-hosting path looks far less trafficked than the hosted funnel.
@@ -79,6 +82,7 @@ My disagreeable claim: the near-total absence of public discussion around a 3,60
 - 2026-10-01 - Reworded banned-term words out of the prose; meaning unchanged.
 - 2026-10-02 - Recorded release v1.2.20 (2026-09-30, following v1.2.18 and v1.2.19 on 2026-09-29) and refreshed the volatile numbers (3,606 stars, pushed 2026-09-30); per-page pricing and the 14-day free trial unchanged.
 - 2026-10-05 - Recorded releases v1.2.21 and v1.2.22 (both 2026-10-05) and refreshed the volatile numbers (3,661 stars, pushed 2026-10-05); per-page pricing re-verified unchanged.
+- 2026-10-07 - Added the Ontos-AI/knowhere star history chart to the Status section.
 
 ## See also
 

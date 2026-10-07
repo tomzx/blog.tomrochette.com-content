@@ -1,7 +1,7 @@
 ---
 title: Plannotator
 created: 2026-08-30
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, evaluation, code-review, human-in-the-loop, open-source]
 readability: 3
@@ -25,6 +25,9 @@ Dual Apache-2.0 or MIT, written almost entirely by one developer (1,090 of 1,368
 ## Status
 
 Fast and growing: 9,161 stars, 689 forks, 135 open issues and PRs as of 2026-10-06, created 2025-12-28, pushed 2026-10-06, v0.28.4 released 2026-10-05.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=backnotprop/plannotator&type=date&legend=top-left)](https://www.star-history.com/?repos=backnotprop%2Fplannotator&type=date&legend=top-left)
+
 **The 0.27.x line gave way to 0.28.x on 2026-10-05 (five releases that day alone), which says pre-1.0 churn, and the growth came through social channels rather than press; its Show HN thread drew 5 points.**
 The author now ships a terminal sibling, Herdr Annotate under the plannotator GitHub org (624 stars as of 2026-10-06), which applies the same annotate-and-send-feedback loop to terminal text.
 
@@ -69,6 +72,7 @@ Not for minimal-install purists, and not yet for teams whose review process requ
 - 2026-09-25 - Recorded the v0.27.20 release and refreshed repository, contributor, and Herdr Annotate counts.
 - 2026-09-29 - Recorded the v0.27.22 release (2026-09-29) and refreshed repository, contributor, and Herdr Annotate counts.
 - 2026-10-06 - Recorded the 0.28.x line (v0.28.0 through v0.28.4, all 2026-10-05) and refreshed repository, contributor, and Herdr Annotate counts.
+- 2026-10-07 - Added the backnotprop/plannotator star history chart to the Status section.
 
 ## See also
 

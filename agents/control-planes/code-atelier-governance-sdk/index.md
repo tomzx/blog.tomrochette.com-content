@@ -1,7 +1,7 @@
 ---
 title: Code Atelier Governance SDK
 created: 2026-09-27
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, llm=glm-5.3-flash, agent-governance, policy-enforcement, audit-trail, postgres, human-in-the-loop]
 readability: 3
@@ -27,6 +27,9 @@ The vendor is Code Atelier, and the source lives at imleopereira/agentic-governa
 Dormant since July 2026 and essentially unadopted.
 The SDK is at version 0.7.3 with 11 PyPI releases, and the repository was created 2026-04-09 with its last source push on 2026-07-23, more than two months before this check (as of 2026-10-06).
 The repository has 0 stars, 0 forks, and no description or topics, which is unusual for a project with a polished documentation site and a hosted platform bridge.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=imleopereira/agentic-governance&type=date&legend=top-left)](https://www.star-history.com/?repos=imleopereira%2Fagentic-governance&type=date&legend=top-left)
+
 **The community footprint is absent: a Hacker News search for Code Atelier governance returns nothing, so every claim here rests on the vendor's own pages and the repository.**
 **What earns the note despite the silence is the threat model, which states plainly what the SDK does not protect against instead of implying it is a complete security boundary.**
 The vendor also publishes a scaffolder that wires a Microsoft Agent Governance Toolkit agent through these gates, which is a rare, concrete interoperability gesture in this category.
@@ -65,6 +68,7 @@ A hosted platform exists through an opt-in bridge that dual-writes audit events 
 
 - 2026-09-27 - Created.
 - 2026-10-02 - Moved the status to dormant (no source push since 2026-07-23) and added the missing llm=glm-5.3-flash tag; version 0.7.3 re-verified as current on PyPI.
+- 2026-10-07 - Added the imleopereira/agentic-governance star history chart to the Status section.
 
 ## See also
 

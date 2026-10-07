@@ -1,7 +1,7 @@
 ---
 title: "Exo"
 created: 2026-09-05
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agent, self-improvement, rust]
 readability: 3
@@ -22,6 +22,9 @@ The design philosophy is documented in the repository's RSI.md, "A Systems View 
 ## Status
 
 Active: created 2026-05-20, 1,486 stars and 111 forks, pushed within a day of verification as of 2026-10-06.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=exoharness/exo&type=date&legend=top-left)](https://www.star-history.com/?repos=exoharness%2Fexo&type=date&legend=top-left)
+
 **The independent FrontierHarness Eval scores it near the bottom of nine harnesses on pass rate but first on cost: 53.3 percent pass at a $1.05 median cost per task, against Claude Code's $18.34 on the same model and tasks.**
 The community footprint is thin, a 3-point and a 2-point Hacker News thread, so the eval and the repository are nearly the whole evidence base as of 2026-10-04.
 
@@ -61,6 +64,7 @@ Not for production work or anyone who cannot tolerate a harness changing its own
 - 2026-09-16 - Refreshed repository scale to 1,413 stars and 106 forks; the FrontierHarness cost and pass-rate figures are unchanged.
 - 2026-10-06 - Refreshed repository counters (1,486 stars) and corrected the stale harness count in the See-also matrix line.
 - 2026-10-06 - Moved the FrontierHarness dollar figure out of the Pricing section, leaving it in Status where the benchmark is cited, so the note conforms to the price-history rule.
+- 2026-10-07 - Added the exoharness/exo star history chart to the Status section.
 
 ## See also
 

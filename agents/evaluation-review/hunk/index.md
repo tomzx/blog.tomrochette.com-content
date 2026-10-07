@@ -1,7 +1,7 @@
 ---
 title: Hunk
 created: 2026-10-06
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, evaluation, code-review, terminal, diff, human-in-the-loop]
 readability: 3
@@ -25,6 +25,9 @@ The maker is Modem (modem.dev), the company credited in hunk.dev's footer.
 ## Status
 
 Fast-growing and young: 9,515 stars and 310 forks as of 2026-10-06, created 2026-03-17, pushed 2026-10-06, v0.23.0 (2026-09-30) with 741 merged pull requests.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=modem-dev/hunk&type=date&legend=top-left)](https://www.star-history.com/?repos=modem-dev%2Fhunk&type=date&legend=top-left)
+
 hunkdiff npm installs ran about 4.6k in the week of 2026-09-28 to 2026-10-04.
 Endorsements from Mitchell Hashimoto and DHH are quoted on the site (the X posts themselves did not fetch this run), while the HN footprint is three stories totaling 7 points with almost no comments, the same social-channel growth pattern Plannotator recorded.
 
@@ -61,6 +64,7 @@ Not for CI gating and not for anyone expecting a machine verdict; Hunk deliberat
 ## Changes
 
 - 2026-10-06 - Created.
+- 2026-10-07 - Added the modem-dev/hunk star history chart to the Status section.
 
 ## See also
 

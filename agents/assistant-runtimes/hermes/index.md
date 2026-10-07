@@ -1,7 +1,7 @@
 ---
 title: Hermes Agent
 created: 2026-08-27
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, assistant-runtimes, personal-assistants, nous-research, open-source]
 readability: 3
@@ -25,6 +25,9 @@ Execution spans seven backends (local, Docker, SSH, Singularity, Modal, Daytona,
 
 Massive and fast-moving.
 As of 2026-10-06: 251,515 stars and 54,028 forks since creation on 2025-07-22, pushed today, MIT, and 48,046 open issues, a support surface bigger than most projects' users.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=NousResearch/hermes-agent&type=date&legend=top-left)](https://www.star-history.com/?repos=NousResearch%2Fhermes-agent&type=date&legend=top-left)
+
 Releases ship as date-stamped tags, and September alone saw v2026.9.7, v2026.9.11, v2026.9.14, v2026.9.21, and v2026.9.24, though no tag had shipped in the first six days of October as of 2026-10-06.
 The [52-point launch thread](https://news.ycombinator.com/item?id=48419000) landed June 2026, and a real tool ecosystem followed (a 28-point Grafana observability integration, a Fleet console for managing Dockerized Hermes agents, XMPP interop with OpenClaw).
 **The governance record is the caution: a May 2026 thread documents Nous editing a GitHub issue to remove plagiarism claims about Hermes Agent ([issue 10232](https://github.com/NousResearch/hermes-agent/issues/10232)), so origin claims around this project deserve independent reading.**
@@ -75,6 +78,7 @@ The disagreeable claim I will defend: the channel-list era of this category is o
 - 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
 - 2026-09-22 - Recorded the near-daily release-tag cadence (v2026.9.7 through v2026.9.21 in September), with refreshed adoption numbers and portal tiers re-checked unchanged.
 - 2026-09-24 - Recorded v2026.9.24, the fifth September tag, with refreshed adoption numbers and the Portal tiers (Free, Plus $20, Super $100, Ultra $200) re-checked unchanged on the official site.
+- 2026-10-07 - Added the NousResearch/hermes-agent star history chart to the Status section.
 
 ## See also
 

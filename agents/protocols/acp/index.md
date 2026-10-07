@@ -1,7 +1,7 @@
 ---
 title: Agent Client Protocol (ACP)
 created: 2026-08-24
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, protocols, interoperability, editor-integration]
 readability: 3
@@ -26,6 +26,9 @@ The current stable protocol version is 1, with a v2 draft and a migration guide 
 
 **Active and compounding.**
 The repository shows about 4.4k stars as of 2026-10-06, with roughly 2,300 commits.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=agentclientprotocol/agent-client-protocol&type=date&legend=top-left)](https://www.star-history.com/?repos=agentclientprotocol%2Fagent-client-protocol&type=date&legend=top-left)
+
 The official agents list has grown to 41 entries (re-counted 2026-10-06) and now includes Codex CLI (via the protocol project's adapter), the Claude agent (via Zed's SDK adapter), Gemini CLI, Cursor, OpenCode, Goose, Junie, Kiro CLI, Factory Droid, Cline, Kimi CLI, Qwen Code, and GitHub Copilot in public preview since 2026-01-28.
 Clients include Zed, JetBrains IDEs (beta in the 25.3 release candidates, December 2025), Neovim and Emacs plugins, VS Code extensions, and Devin Desktop.
 In this index, [OpenCode](../../harnesses/opencode/index.md) ships `opencode acp`, and [JetBrains](../../surfaces/jetbrains/index.md), [Zed](../../surfaces/zed/index.md), [Junie](../../harnesses/junie/index.md), and [Windsurf's Devin Desktop](../../surfaces/windsurf/index.md) all host agents through it.
@@ -66,6 +69,7 @@ The disagreeable part: I think ACP matters more than any single agent or editor 
 - 2026-08-24 - Created in the Protocols category seed.
 - 2026-09-16 - Linked the Compared-to AG-UI mention to the new AG-UI note.
 - 2026-10-06 - Recorded the Rust and TypeScript SDKs reaching 1.0.0 (June 2026) and re-counted the official agents list at 41 entries.
+- 2026-10-07 - Added the agentclientprotocol/agent-client-protocol star history chart to the Status section.
 
 ## See also
 

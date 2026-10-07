@@ -1,7 +1,7 @@
 ---
 title: Sandcastle
 created: 2026-09-27
-updated: 2026-10-03
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, llm=glm-5.3-flash, orchestration, sandboxing, typescript, library]
 readability: 3
@@ -25,6 +25,9 @@ Hooks are declared per location (`host` and `sandbox`, for example `onWorktreeRe
 ## Status
 
 Small but well-known: about 8,237 stars and 889 forks as of 2026-10-03, created 2026-03-17, and more than 1,193 commits.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=mattpocock/sandcastle&type=date&legend=top-left)](https://www.star-history.com/?repos=mattpocock%2Fsandcastle&type=date&legend=top-left)
+
 The warning sign is activity: the latest release (v0.12.0) landed 2026-06-29 and the default branch then went quiet for three months, until two maintenance commits resumed on 2026-10-02 (a Docker-based issue-triage skill merged through PR #1013), with no new release.
 The npm package reached 0.12.0 across 44 versions.
 **A popular library that ships maintenance without shipping releases while its category moves daily is still a bet on stability over feature parity, and an open issue about broken global `npm install` for the Pi and Codex Dockerfiles (#223) has sat unresolved since April 2026.**
@@ -66,6 +69,7 @@ Not for anyone who wants a board, diff review, or a maintained app, given a repo
 
 - 2026-09-27 - Created.
 - 2026-10-03 - Status move: recorded the default branch waking on 2026-10-02 with two maintenance commits (a Docker-based issue-triage skill, PR #1013) after three quiet months, with no new release, and refreshed star and fork counts.
+- 2026-10-07 - Added the mattpocock/sandcastle star history chart to the Status section.
 
 ## See also
 

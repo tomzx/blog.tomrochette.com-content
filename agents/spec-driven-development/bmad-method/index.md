@@ -1,7 +1,7 @@
 ---
 title: BMad Method
 created: 2026-08-27
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, spec-driven-development, agile, multi-agent, open-source]
 readability: 3
@@ -25,6 +25,9 @@ The ecosystem is modular: BMad Builder, a Creative Intelligence Suite, an enterp
 
 Large, active, and quietly adopted.
 As of 2026-10-06: about 53.8k stars and about 6k forks since creation on 2025-04-13, 60 open issues and pull requests, with release v6.12.1 (published 2026-10-04) now the newest.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=bmad-code-org/BMAD-METHOD&type=date&legend=top-left)](https://www.star-history.com/?repos=bmad-code-org%2FBMAD-METHOD&type=date&legend=top-left)
+
 The derivative community is real (third-party skill packs and hybrids like boss-skill and bmalph, the latter at 406 stars), but its HN threads run 2 to 4 points, so the method spread through the ecosystem rather than the front page.
 
 ## Strengths
@@ -62,6 +65,7 @@ The disagreeable claim I will defend: within a year the waterfall critique will 
 
 - 2026-08-27 - Created in the Spec-driven development category after the owner asked for the alternatives, recording the agile right-sizing thesis.
 - 2026-10-06 - Recorded the v6.12.1 release (2026-10-04) and refreshed counts.
+- 2026-10-07 - Added the bmad-code-org/BMAD-METHOD star history chart to the Status section.
 
 ## See also
 

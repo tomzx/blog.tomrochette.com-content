@@ -1,7 +1,7 @@
 ---
 title: fx
 created: 2026-08-29
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agents, harnesses, zig, vercel, embedding]
 readability: 3
@@ -24,6 +24,9 @@ Feature surface: native [AGENTS.md](https://fx.sh/docs/configure-fx/project-inst
 
 **Active and very young.**
 The repository was created August 11, 2026 and shows 3,302 stars and 370 forks as of 2026-10-06, with v0.0.13 the latest release (published October 4, 2026; Ultrafast inference on supported OpenAI models through the AI Gateway at a higher-priced tier, launch up to 23x faster, shell calls up to 8.6x faster, `/mcp add slack` one-step setup, a configurable `auto_compact_percent`, and ACP clients that can steer running turns and host MCP servers over the connection, plus a breaking libfx checkpoint-format change) and pushes landing within a day of verification (GitHub API).
+
+[![Star History Chart](https://api.star-history.com/chart?repos=vercel-labs/fx&type=date&legend=top-left)](https://www.star-history.com/?repos=vercel-labs%2Ffx&type=date&legend=top-left)
+
 The launch thread drew 318 points on August 18, 2026 ([HN](https://news.ycombinator.com/item?id=49353339)).
 The README carries its own banner: "Status: Experimental. Use at your own risk."
 
@@ -70,6 +73,7 @@ Not for anyone who needs local models, provider-key BYOK, or a stable release li
 - 2026-10-02 - Recorded the v0.0.12 release (September 30), which sped session listing up to 560x (large stores resume in under a second), improved GitHub-flavored Markdown rendering, and broke libfx error-code compatibility, and refreshed repository scale.
 - 2026-10-05 - Recorded the v0.0.13 release (October 4), which added Ultrafast inference on supported OpenAI models through the AI Gateway, up to 23x faster launch, one-step Slack MCP setup, configurable auto-compaction, and ACP turn steering and MCP hosting, with a breaking libfx checkpoint format, and refreshed repository scale.
 - 2026-10-06 - Refreshed repository counters (3,302 stars) and corrected the stale harness count in the See-also matrix line.
+- 2026-10-07 - Added the vercel-labs/fx star history chart to the Status section.
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: Emdash
 created: 2026-08-24
-updated: 2026-10-04
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, orchestration, git-worktrees, open-source, desktop-app]
 readability: 3
@@ -26,6 +26,9 @@ State is local-first in SQLite, and the team kept a reserve pool of worktrees so
 
 Active and fast-moving.
 As of 2026-10-02 the repo shows about 5.9k stars and 622 forks; the site claims over 1M downloads.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=generalaction/emdash&type=date&legend=top-left)](https://www.star-history.com/?repos=generalaction%2Femdash&type=date&legend=top-left)
+
 The v1.2.7 release shipped 2026-09-27, six days after v1.2.6 (2026-09-21), which itself followed v1.2.5 (2026-09-18) by three days; v1.2.5 added multiple accounts per integration and custom agent executable selection.
 Its February 2026 Show HN reached 206 points with 71 comments.
 Founders Arne and Raban described the business model as a possible bundled agent subscription plus enterprise, funded by YC W26; cloud workspaces and enterprise tiers are contact-sales today.
@@ -72,6 +75,7 @@ My disagreeable claim: Emdash's SSH support matters more than any feature matrix
 - 2026-09-24 - Corrected the v1.2.6 gap to three days after v1.2.5 (2026-09-18), per the releases API; v1.2.6 remains the latest release.
 - 2026-09-27 - Linked the Agentic Development Environment Landscape tracker, the mid-2026 snapshot that named Emdash a leader.
 - 2026-09-29 - Recorded the v1.2.7 release (September 27).
+- 2026-10-07 - Added the generalaction/emdash star history chart to the Status section.
 
 ## See also
 

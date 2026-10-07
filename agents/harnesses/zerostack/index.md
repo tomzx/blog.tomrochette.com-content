@@ -1,7 +1,7 @@
 ---
 title: Zerostack
 created: 2026-08-30
-updated: 2026-10-05
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agents, harnesses, rust, terminal]
 readability: 3
@@ -27,6 +27,9 @@ An ARCHITECTURE.md file complements AGENTS.md with shared core knowledge for age
 
 Active: the repository was pushed 2026-10-04, created May 12, 2026, with the latest release v1.8.4 on September 7, 2026.
 1,700 stars and 138 forks as of 2026-10-05.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=gi-dellav/zerostack&type=date&legend=top-left)](https://www.star-history.com/?repos=gi-dellav%2Fzerostack&type=date&legend=top-left)
+
 The May 16, 2026 launch thread reached 575 points (item 48164287), the highest-signal uncovered harness candidate of this cycle, with follow-up release threads through June and a Show HN in July.
 v1.8.0, "The Great Cleanup", landed September 3, 2026 after a six-week release quiet stretch and credited several external contributors with a large TUI refactoring.
 3,561 crate downloads on crates.io (916 recent) as of 2026-10-06.
@@ -68,6 +71,7 @@ I think the Rust-rewrite wave confuses a small memory footprint with a good agen
 - 2026-08-30 - Created in the candidate-pile sweep, recording the solo GPL-3.0 Rust agent and its 575-point launch.
 - 2026-09-04 - Recorded v1.8.1 ending the six-week release quiet gap, with external contributors credited.
 - 2026-09-16 - Refreshed repository counters (1,672 stars, 135 forks, pushed 2026-09-14) and crates.io downloads (3,460 total, 1,342 recent).
+- 2026-10-07 - Added the gi-dellav/zerostack star history chart to the Status section.
 
 ## See also
 

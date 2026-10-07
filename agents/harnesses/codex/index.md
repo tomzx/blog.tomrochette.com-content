@@ -1,7 +1,7 @@
 ---
 title: Codex
 created: 2026-08-22
-updated: 2026-10-04
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, coding-agents, harnesses, openai, developer-tools]
 readability: 3
@@ -25,6 +25,9 @@ Default models are the GPT-6 family (Astra, Sol, and Luna) rolling out across pl
 
 **Active.**
 `openai/codex` shows about 128.0k stars, about 20.0k forks, and about 11.9k commits under Apache-2.0 as of 2026-10-06.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=openai/codex&type=date&legend=top-left)](https://www.star-history.com/?repos=openai%2Fcodex&type=date&legend=top-left)
+
 The CLI launched April 2025 and has been rewritten and rebuilt since; the current docs position it as an open agent harness platform.
 
 ## Strengths
@@ -77,6 +80,7 @@ Not the cheapest path if your usage is light and token-based (aider or OpenCode 
 - 2026-09-22 - Recorded the GPT-6 family (Astra, Sol, Luna) arriving across ChatGPT plans alongside GPT-5.6 and the October 14, 2026 GPT-5.5 retirement, and refreshed repository scale.
 - 2026-09-26 - Linked the ChatGPT plans note in the new Model access category, where the subscription that carries this harness is tracked with its price history.
 - 2026-10-03 - Recorded the pricing page listing Pro as three tiers at $100, $200, and $500 per month (previously Pro 5x $100 and Pro 20x $200), with the $500 tier carrying Ultrafast Astra access, and appended the matching Price history row.
+- 2026-10-07 - Added the openai/codex star history chart to the Status section.
 
 ## See also
 

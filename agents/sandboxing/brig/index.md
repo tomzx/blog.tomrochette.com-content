@@ -1,7 +1,7 @@
 ---
 title: Brig
 created: 2026-10-06
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, sandboxing, microvm, isolation, macos, linux, open-source]
 readability: 3
@@ -24,6 +24,9 @@ Built by NOFire AI, the team behind urunc, a CNCF Sandbox project; images, boot 
 ## Status
 
 Young but professionally built: 207 stars, 21 forks as of 2026-10-06, created 2026-08-12, pushed 2026-10-06, Apache-2.0.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=brig-sh/brig&type=date&legend=top-left)](https://www.star-history.com/?repos=brig-sh%2Fbrig&type=date&legend=top-left)
+
 v0.2.0 shipped 2026-09-15 and v0.3.0 on 2026-09-26, with channel-main 0.3.1 prereleases cutting almost daily since.
 The Show HN launch on 2026-09-22 drew 9 points, and the maintainer's introduction is most of the thread's substance, so the community footprint is thin and the documentation is where the evidence lives.
 **A nine-point launch against 207 stars in eight weeks reads as quiet, deliberate adoption rather than a wave, and no independent audit or benchmark exists yet.**
@@ -62,6 +65,7 @@ Not for Intel Macs, for anyone needing enforced egress policy on Linux today, or
 ## Changes
 
 - 2026-10-06 - Created from the entrant-resolution run, profiling the actively maintained microVM workstation sandbox with the category's most detailed published security claims.
+- 2026-10-07 - Added the brig-sh/brig star history chart to the Status section.
 
 ## See also
 

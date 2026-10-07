@@ -1,7 +1,7 @@
 ---
 title: Warp Agent CLI
 created: 2026-08-30
-updated: 2026-10-04
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agents, harnesses, terminal, model-routing]
 readability: 3
@@ -28,6 +28,9 @@ Warp's Rust codebase is public under AGPL-3.0 at [warpdotdev/warp](https://githu
 Active and freshly launched: announced August 4, 2026, with docs last updated September 2, 2026.
 The launch thread reached 111 points on Hacker News (item 49171766).
 Vendor traction is real: the terminal repository counts about 65.3k stars as of 2026-10-04, and Anthropic published a Warp engineering story on August 26, 2026.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=warpdotdev/warp&type=date&legend=top-left)](https://www.star-history.com/?repos=warpdotdev%2Fwarp&type=date&legend=top-left)
+
 The CLI itself ships as a managed binary with no separate public repository.
 Warp has also opened a Factories line: factories-as-code cloud software factories (factory.yaml defining repos, agents, models, and approval gates) with evals, benchmarks, and self-improvement loops, now in early access with published pricing (pay-as-you-go factory usage at a 20% markup with no subscription, factory credits inside the Build, Max, and Business tiers) and up to $10,000 in free usage for select teams as of 2026-09-22.
 
@@ -80,6 +83,7 @@ I think the CLI exists to follow developers who fled Warp's AI-heavy terminal fo
 - 2026-09-12 - Noted the any-harness cloud beta.
 - 2026-09-18 - Factories moved from closed early access to published pricing: pay-as-you-go factory usage at a 20% markup, factory credits inside the Build, Max, and Business tiers, and the $10,000 early-access allotment.
 - 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
+- 2026-10-07 - Added the warpdotdev/warp star history chart to the Status section.
 
 ## See also
 

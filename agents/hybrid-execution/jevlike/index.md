@@ -1,7 +1,7 @@
 ---
 title: Jevlike
 created: 2026-09-21
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, hybrid-execution, structured-outputs, system-one-models, decision-models, open-weights]
 readability: 3
@@ -26,6 +26,9 @@ A vision variant reuses the same head to score controller buttons from image pat
 
 Dormant since launch day by every number I can check, as of 2026-10-06.
 Created and last pushed 2026-09-16, 1,346 stars and 118 forks, seven open issues, a single contributor, and no tags or releases to pin.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=vinnylarouge/jevlike&type=date&legend=top-left)](https://www.star-history.com/?repos=vinnylarouge%2Fjevlike&type=date&legend=top-left)
+
 The Show HN thread ("Reverse-engineered Jev-like model", 2026-09-16) reached 169 points as of 2026-10-06.
 The afterlife is elsewhere: Cua's CUA-S1 form-filling checkpoint documents that its option-attention head is lifted from jevlike's `AttentionHead`, so the code's real legacy is inside other projects rather than in this one, and the JevBench board ranks no jevlike checkpoint because the starter ships game demos rather than a served decision model.
 
@@ -64,6 +67,7 @@ I would not route a real decision through this repo today, but I would make ever
 
 - 2026-09-21 - Created from the owner-prompted open-source alternatives sub-run.
 - 2026-09-22 - Refreshed traction counts (1,243 stars, 110 forks, 168 thread points) and noted the repository remains frozen at launch day.
+- 2026-10-07 - Added the vinnylarouge/jevlike star history chart to the Status section.
 
 ## See also
 

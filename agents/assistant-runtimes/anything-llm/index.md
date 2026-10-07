@@ -1,7 +1,7 @@
 ---
 title: AnythingLLM
 created: 2026-09-27
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, assistant-runtimes, local-first, rag, desktop-apps]
 readability: 3
@@ -25,6 +25,9 @@ Beta features push it toward an OS-level assistant: AI computer use and live doc
 ## Status
 
 Active and steadily shipped: 66,739 stars, 7,451 forks, and 321 open issues as of 2026-10-06, created 2023-06-04, pushed the same day.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=Mintplex-Labs/anything-llm&type=date&legend=top-left)](https://www.star-history.com/?repos=Mintplex-Labs%2Fanything-llm&type=date&legend=top-left)
+
 v1.17.0 was released 2026-10-01, following v1.16.2 (2026-09-22), and the docs changelog shows an unbroken cadence back through v1.6.x.
 The founder Tim Carambat introduced the desktop app on Hacker News in September 2024 (368 points), framing the mission as layperson-accessible private AI, and the thread is a useful record of both praise and the first round of critiques.
 The repo's own topics now include computer use and agent harness terms, which tells you the center of gravity has moved from document chat to agents.
@@ -69,6 +72,7 @@ The disagreeable claim I will defend: the layperson focus that made AnythingLLM 
 ## Changes
 
 - 2026-09-27 - Created when the owner's GitHub-stars scan surfaced it.
+- 2026-10-07 - Added the Mintplex-Labs/anything-llm star history chart to the Status section.
 
 ## See also
 

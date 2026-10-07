@@ -1,7 +1,7 @@
 ---
 title: Crystal
 created: 2026-08-24
-updated: 2026-10-04
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, orchestration, git-worktrees, desktop-app]
 readability: 3
@@ -27,6 +27,9 @@ Nimbalyst's desktop and iOS apps are MIT-licensed and free for individuals.
 Dead, superseded by design.
 The repository README says "Deprecated: February 2026", and the last push landed 2026-02-26, which matches.
 As of 2026-10-02 the repo shows 3,123 stars, 196 forks, and 672 commits, with 68 open issues that will not be worked on.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=stravu/crystal&type=date&legend=top-left)](https://www.star-history.com/?repos=stravu%2Fcrystal&type=date&legend=top-left)
+
 Nimbalyst itself is actively marketed, with team collaboration free during its beta and SOC-2 positioning on its site.
 
 ## Strengths
@@ -62,6 +65,7 @@ My disagreeable claim: Stravu read the market correctly, because harness CLIs we
 ## Changes
 
 - 2026-08-24 - Created in the Orchestration category seed, kept as a death record for the February 2026 deprecation.
+- 2026-10-07 - Added the stravu/crystal star history chart to the Status section.
 
 ## See also
 

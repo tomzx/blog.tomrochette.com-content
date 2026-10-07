@@ -1,7 +1,7 @@
 ---
 title: Roo Code
 created: 2026-08-26
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, surfaces, ai-editors, open-source, byok]
 readability: 3
@@ -26,6 +26,9 @@ MCP servers were supported throughout, with [dedicated docs](https://roocodeinc.
 Dead, sunset on a published schedule.
 The [announcement](http://web.archive.org/web/20260508092828/https://roocode.com/blog/sunsetting-roo-code-extension-cloud-and-router) (2026-04-20, the live URL now serves the pivot product) committed to supporting everything through May 15, shutting down Roo Code Cloud and Router with refunds, and archiving the extension repo.
 The evidence matches: the last release (v3.54.0) and the last push both landed 2026-05-15, the repository now carries GitHub's archived flag, and the repo shows 24,287 stars and 1,033 open issues as of 2026-10-06.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=RooCodeInc/Roo-Code&type=date&legend=top-left)](https://www.star-history.com/?repos=RooCodeInc%2FRoo-Code&type=date&legend=top-left)
+
 The announcement claimed "past 3m extension downloads" and pointed users to Cline, which "incorporated much of what we built".
 **The team's new product is [roomote.dev](https://roomote.dev/), a cloud coding agent, and roocode.com now sells that instead.**
 
@@ -65,6 +68,7 @@ The disagreeable claim I will defend: Roo's death was not failure, its team corr
 - 2026-08-26 - Created as a Surfaces death record covering the scheduled sunset, the May 2026 support end, and the pivot to roomote.dev.
 - 2026-09-12 - Added ZooCode alongside Cline as community forks carrying the code forward.
 - 2026-09-24 - Refreshed the marketplace install counter to 2,032,553, still ticking on the dead extension; repository state unchanged (archived, last push and final release May 15, 2026).
+- 2026-10-07 - Added the RooCodeInc/Roo-Code star history chart to the Status section.
 
 ## See also
 

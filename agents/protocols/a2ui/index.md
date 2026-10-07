@@ -1,7 +1,7 @@
 ---
 title: A2UI
 created: 2026-10-06
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, protocols, generative-ui, frontend, google]
 readability: 3
@@ -25,6 +25,9 @@ Google created it and opened it on 2025-12-15, and the repository now lives in i
 
 **Active and adopted ahead of its spec maturity.**
 The repository shows about 16,600 stars and 1,322 forks with a push on 2026-10-06, roughly ten months after launch, all as of 2026-10-06 (GitHub API).
+
+[![Star History Chart](https://api.star-history.com/chart?repos=a2ui-project/a2ui&type=date&legend=top-left)](https://www.star-history.com/?repos=a2ui-project%2Fa2ui&type=date&legend=top-left)
+
 The adoption is product-anchored: Google's Opal team is a core contributor and uses A2UI in its mini-app builder, Gemini Enterprise is integrating it, and Flutter's GenUI SDK (about 1,780 stars) uses A2UI as its declaration format between server-side agents and the app.
 At the protocol layer, AG-UI documents A2UI as a supported generative-UI spec it natively carries, and A2A is a listed transport, so the two protocols above it in this index both move it.
 The launch Show HN drew 164 points and 75 comments (2025-12-16), and the v1.0 specification is a release candidate that adds client-to-server action responses.
@@ -63,6 +66,7 @@ My disagreeable claim: A2UI will matter more to what end users see than AG-UI do
 ## Changes
 
 - 2026-10-06 - Created from the 2026-10-06 entrant scan (the generative-UI payload slot), with the four-version spec churn and the single-org stewardship recorded as the central cautions.
+- 2026-10-07 - Added the a2ui-project/a2ui star history chart to the Status section.
 
 ## See also
 

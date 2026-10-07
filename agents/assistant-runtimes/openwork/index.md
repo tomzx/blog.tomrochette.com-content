@@ -1,7 +1,7 @@
 ---
 title: OpenWork
 created: 2026-08-30
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, assistant-runtimes, cowork, desktop, open-source]
 readability: 3
@@ -24,6 +24,9 @@ By different-ai (Benjamin Shafii), YC-backed.
 ## Status
 
 Alive and shipping hard: 23,880 stars, 2,405 forks, 622 open issues and PRs as of 2026-10-06, created 2026-01-14, pushed 2026-10-06.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=different-ai/openwork&type=date&legend=top-left)](https://www.star-history.com/?repos=different-ai%2Fopenwork&type=date&legend=top-left)
+
 v0.18.42 on 2026-09-02 (signed Windows installers) through v0.18.54 on 2026-09-25, multiple releases per week, then v0.18.55 and v0.18.56 on 2026-10-03 after a week-long pause.
 **It outlived its launch-week skepticism, but the founder still carries 2,911 of the top contributors' roughly 4,000 commits.**
 
@@ -96,6 +99,7 @@ Not for teams that need a sandboxed security boundary the product does not provi
 - 2026-10-02 - Pricing churned an eleventh time: Enterprise returned to custom pricing on an annual contract with a 60-day opt-out, undoing the fixed $20 per user per month set on 2026-09-29; Free, Team, and both add-ons unchanged; refreshed adoption numbers.
 - 2026-10-03 - Recorded releases resuming after a week: v0.18.55 and v0.18.56 (both 2026-10-03), ending v0.18.54's run as latest, with refreshed adoption numbers and pricing re-checked unchanged (Free $0, Team $10 per seat, Enterprise custom, both add-ons intact).
 - 2026-10-06 - Pricing churned a twelfth time: the grandfather clause returned to the Enterprise tier and the first-5-seats-free OpenWork Cloud offer moved from the Free tier to the Team tier, with the three main prices unchanged; refreshed adoption numbers.
+- 2026-10-07 - Added the different-ai/openwork star history chart to the Status section.
 
 ## See also
 

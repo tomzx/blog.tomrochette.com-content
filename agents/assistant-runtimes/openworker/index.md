@@ -1,7 +1,7 @@
 ---
 title: OpenWorker
 created: 2026-10-02
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, assistant-runtime, desktop, security, sandboxing]
 readability: 3
@@ -24,6 +24,9 @@ Every action an agent takes is governed and logged, approvals are configurable, 
 ## Status
 
 Early and moving fast: about 18,400 stars in its first twelve weeks as of 2026-10-06 (created 2026-07-20, pushed today), with v0.3.1 released 2026-10-05 and a public beta disclaimer on the README.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=andrewyng/openworker&type=date&legend=top-left)](https://www.star-history.com/?repos=andrewyng%2Fopenworker&type=date&legend=top-left)
+
 v0.3.1 publishes the CLI as a container image on ghcr.io, so a coworker runs entirely inside an NVIDIA OpenShell sandbox with one command, and pins the desktop app's OpenShell option to OpenShell 0.1.2.
 **The star count is an audience effect as much as an adoption signal: Andrew Ng's announcement drove the attention, while the independent Hacker News footprint is one 5-point thread plus a pair of 2-point follow-ups, so the tool's actual field usage is unproven.**
 The project says rough edges are being polished; treat it as beta in fact, not just label.
@@ -65,6 +68,7 @@ Not for anyone needing a mature, broadly capable assistant today, or Windows-fir
 - 2026-10-02 - Created.
 - 2026-10-03 - Corrected the Hacker News footprint claim to one 5-point thread plus a pair of 2-point follow-ups (the Algolia search returned a third thread the creation run missed), and refreshed the as-of numbers (about 18,400 stars, pushed 2026-10-02, v0.3.0 still latest).
 - 2026-10-06 - Recorded v0.3.1 (2026-10-05), which publishes the CLI as a ghcr.io image so a coworker runs inside an OpenShell sandbox with one command and requires OpenShell 0.1.2, with refreshed adoption numbers.
+- 2026-10-07 - Added the andrewyng/openworker star history chart to the Status section.
 
 ## See also
 

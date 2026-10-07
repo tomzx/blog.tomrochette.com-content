@@ -1,7 +1,7 @@
 ---
 title: Repomix
 created: 2026-08-24
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, context-packing, open-source, developer-tools]
 readability: 3
@@ -29,6 +29,9 @@ It is built by Kazuki Yamada (yamadashy), sponsored by Warp and CodeRabbit.
 
 **Active and quietly massive.**
 28k stars (28,716), 1.5k forks, and 4,619 commits on GitHub, plus 397,834 npm downloads in the last month (2026-09-05 to 2026-10-04), stars, forks, and downloads as of 2026-10-06, with v1.18.1 released 2026-09-21.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=yamadashy/repomix&type=date&legend=top-left)](https://www.star-history.com/?repos=yamadashy%2Frepomix&type=date&legend=top-left)
+
 It was nominated in the Powered by AI category at the JSNation Open Source Awards 2025.
 The community footprint is the interesting signal: it inverts the usual pattern, with enormous usage but near-zero discourse (the largest HN story I found has 4 points), because a tool that just works generates no threads.
 A clone ecosystem (Gitingest for Python, Unify, Scribe) confirms the pattern is durable rather than incidental.
@@ -72,6 +75,7 @@ My disagreeable claim: for small and mid repos, a Repomix pack plus a good model
 - 2026-09-25 - Refreshed the volatile numbers (28,482 stars, 4,589 commits); release remains v1.18.1 and the npm download figure is unchanged.
 - 2026-09-27 - Refreshed the volatile numbers (28,503 stars, 341,825 trailing-month npm downloads); release remains v1.18.1 and the commit count is unchanged at 4,599.
 - 2026-09-29 - Refreshed the volatile numbers (28,546 stars, 354,371 trailing-month npm downloads); release remains v1.18.1.
+- 2026-10-07 - Added the yamadashy/repomix star history chart to the Status section.
 
 ## See also
 

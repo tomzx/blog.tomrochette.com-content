@@ -1,7 +1,7 @@
 ---
 title: Nanobot
 created: 2026-08-30
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, assistant-runtimes, python, self-hosted, open-source]
 readability: 3
@@ -24,6 +24,9 @@ Started by Xubin Ren as a personal project, now under the HKUDS lab banner (the 
 ## Status
 
 One of the fastest adoption curves in the category: 48,812 stars, 8,610 forks, 832 open issues as of 2026-10-06, created 2026-02-01, pushed the same day.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=HKUDS/nanobot&type=date&legend=top-left)](https://www.star-history.com/?repos=HKUDS%2Fnanobot&type=date&legend=top-left)
+
 Sixteen PyPI releases since February 2026, with v0.3.0 on 2026-07-25 followed by a seven-week quiet stretch that v0.3.5 ended on 2026-09-15, and the launch HN thread drew 257 points.
 **PyPI still classifies it Alpha, and one listed maintainer carries the release burden, the two facts I would weight against the star count.**
 
@@ -61,6 +64,7 @@ Not for production assistants unattended on the open internet, or anyone who nee
 
 - 2026-08-30 - Created in the second owner-directed sweep, recording HKUDS' Python runtime with its alpha and bus-factor cautions.
 - 2026-09-16 - Recorded v0.3.5 on PyPI (2026-09-15), the first release since July, with refreshed adoption numbers.
+- 2026-10-07 - Added the HKUDS/nanobot star history chart to the Status section.
 
 ## See also
 

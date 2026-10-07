@@ -1,7 +1,7 @@
 ---
 title: Agent-Native
 created: 2026-09-13
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, skills, agent-extensions, builder-io, app-frameworks]
 readability: 3
@@ -25,6 +25,9 @@ Install is `npx @agent-native/skills@latest add`, which writes to the shared `.a
 
 **Active and fast-moving, with a thin independent footprint.**
 Both repos claim MIT in their READMEs: the skills catalog at 4.5k stars and 228 forks, the framework at 7.1k stars and 642 forks, as of 2026-10-06.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=BuilderIO/agent-native&type=date&legend=top-left)](https://www.star-history.com/?repos=BuilderIO%2Fagent-native&type=date&legend=top-left)
+
 The npm package was created 2026-06-10, sits at 0.3.24 with builds shipping several times a day, and pulled 16,552 downloads in the week of 2026-09-28 to 2026-10-04 (fetched 2026-10-06).
 No Hacker News threads and no independent coverage surfaced in this run's searches, so the audience so far is GitHub and npm.
 
@@ -68,6 +71,7 @@ My disagreeable claim: the apps and the framework are the least durable half, th
 - 2026-09-27 - Recorded the npm package crossing to 0.3.7 with weekly downloads up to 17,974 and refreshed the volatile numbers (catalog 4,443 stars, framework 6,849 stars, GitHub license detection still absent).
 - 2026-09-29 - Recorded the npm package crossing to 0.3.10 with weekly downloads up to 24,886 and refreshed the volatile numbers (catalog 4,462 stars, framework 6,898 stars and 622 forks); the framework repo's GitHub license detection is still absent and its package.json still says ISC.
 - 2026-10-03 - Recorded the npm package crossing to 0.3.22 with weekly downloads at 27,350 and refreshed the volatile numbers (catalog 4,511 stars and 227 forks, framework 7,043 stars and 636 forks); the framework repo's GitHub license detection is still absent and its package.json still says ISC.
+- 2026-10-07 - Added the BuilderIO/agent-native star history chart to the Status section.
 
 ## See also
 

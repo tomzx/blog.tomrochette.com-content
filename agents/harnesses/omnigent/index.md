@@ -1,7 +1,7 @@
 ---
 title: Omnigent
 created: 2026-10-06
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, harnesses, meta-harness, orchestration, policies, sandboxing]
 readability: 3
@@ -25,6 +25,9 @@ Apache-2.0, Python 3.12+, installed via installer, uv, pip, or Homebrew; built b
 
 **Active, well-resourced, and young, with traction that far outruns its independent discussion.**
 10,601 stars and 1,695 forks as of 2026-10-06 (repository created 2026-06-11), PyPI 0.17.0 published 2026-10-06 after 40+ releases, and the default branch was pushed the same day.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=omnigent-ai/omnigent&type=date&legend=top-left)](https://www.star-history.com/?repos=omnigent-ai%2Fomnigent&type=date&legend=top-left)
+
 The HN footprint is thin: the top thread (the Databricks announcement, June 2026) reached 15 points with 4 comments, and resubmits stayed at 1 to 6 points.
 The 1,814 open issues against 10.6k stars read as heavy use plus heavy traffic, under an alpha badge the README still wears.
 
@@ -60,6 +63,7 @@ Not for developers happy inside one harness, and not for Windows-first setups th
 ## Changes
 
 - 2026-10-06 - Created.
+- 2026-10-07 - Added the omnigent-ai/omnigent star history chart to the Status section.
 
 ## See also
 

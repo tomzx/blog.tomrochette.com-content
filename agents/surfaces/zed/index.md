@@ -1,7 +1,7 @@
 ---
 title: Zed
 created: 2026-08-23
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, surfaces, ai-editors, zed-industries]
 readability: 3
@@ -24,6 +24,9 @@ The AI stack supports Zed-hosted models, BYOK across Anthropic, OpenAI, Google, 
 
 **Active and fast-moving.**
 About 91k GitHub stars (91,338) as of 2026-10-06, with commits landing daily.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=zed-industries/zed&type=date&legend=top-left)](https://www.star-history.com/?repos=zed-industries%2Fzed&type=date&legend=top-left)
+
 The engineering runs deep enough to swap graphics libraries mid-flight (the blade-to-wgpu switch, February 2026) without abandoning the product.
 
 ## Strengths
@@ -68,6 +71,7 @@ Not for teams needing enterprise identity plumbing or a turnkey agentic platform
 - 2026-08-23 - Created in the Surfaces category seed among its five founding notes.
 - 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
 - 2026-10-04 - Linked the new Delta note, Zed Industries' thread-based agentic environment.
+- 2026-10-07 - Added the zed-industries/zed star history chart to the Status section.
 
 ## See also
 

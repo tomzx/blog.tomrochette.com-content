@@ -1,7 +1,7 @@
 ---
 title: NanoClaw
 created: 2026-08-27
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, assistant-runtimes, personal-assistants, containers, open-source]
 readability: 3
@@ -25,6 +25,9 @@ Each agent group gets its own container, workspace, memory, and mounts; Slack pr
 
 Active and independently credible.
 As of 2026-10-06: 30,879 stars and 12,777 forks since creation on 2026-01-31, pushed 2026-10-06, 1,035 open issues.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=nanocoai/nanoclaw&type=date&legend=top-left)](https://www.star-history.com/?repos=nanocoai%2Fnanoclaw&type=date&legend=top-left)
+
 The [533-point launch thread](https://news.ycombinator.com/item?id=46850205) pitched it as "Clawdbot in 500 lines of TS with Apple container isolation", followed by a 169-point thread on the move from Apple Containers to Docker and a 112-point thread on adopting the OneCLI Agent Vault.
 The versioning just moved to calendar dates: v2.4.0 (2026-09-23) is the last of the 2.x line, 2026.10.0 is in release candidates (rc.1 on 2026-10-04, rc.2 on 2026-10-05), and `/update-nanoclaw` now follows published releases instead of the tip of main, with the beta channel on candidates and stable holding at 2.4.0 until 2026.10.0 publishes.
 The family is real: microclaw (734 stars) describes itself as inspired by NanoClaw, and the prompt-security clawsec suite explicitly covers it.
@@ -63,6 +66,7 @@ My disagreeable claim: the container wall matters more than every permission sys
 
 - 2026-08-27 - Created among the four OpenClaw-variant notes, recording the audit-first thesis and the 533-point launch thread.
 - 2026-10-06 - Recorded the move to calendar versioning: v2.4.0 (2026-09-23) is the last 2.x release, 2026.10.0 is in release candidates, and updates now follow published releases instead of the tip of main, with refreshed adoption numbers.
+- 2026-10-07 - Added the nanocoai/nanoclaw star history chart to the Status section.
 
 ## See also
 

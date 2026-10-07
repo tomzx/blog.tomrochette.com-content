@@ -1,7 +1,7 @@
 ---
 title: Engrim
 created: 2026-09-10
-updated: 2026-10-03
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, sqlite, local-first]
 readability: 3
@@ -26,6 +26,9 @@ Every record carries an origin_agent field (antigravity, claude-code, cursor, co
 
 **A fast mover, and one this section's own pass initially rejected.**
 The Show HN thread (2026-09-07) reached 93 points as of 2026-09-22, and the repo grew from 27 stars at launch to 294 as of 2026-10-03, pushed 2026-09-26.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=timgordontg/engrim&type=date&legend=top-left)](https://www.star-history.com/?repos=timgordontg%2Fengrim&type=date&legend=top-left)
+
 I passed on it at launch at 19 points and 27 stars, and the category pass that surfaced it again on 2026-09-10 reversed that call.
 The cadence is unusual: 84-plus commits and 26 PyPI releases since 2026-06-23, with seven releases in the launch week (1.3.0 on 2026-09-07, 1.3.1 through 1.4.1 on 2026-09-10, and 1.4.2 on 2026-09-11) and nine more since (1.4.3 and 1.4.5 on 2026-09-13, 1.4.6 on 2026-09-15 with no 1.4.4, 1.4.7 on 2026-09-17, 1.4.8 on 2026-09-18, and three on 2026-09-22 alone).
 Earlier releases folded in same-day fixes requested in the thread (an uninstall command, Codex auto-detection, stop-hook handling, a multi-store `engrim merge`), v1.4.2 adds native OpenAI Codex hook integration and parity, and v1.4.3 advertises explicit outputSchema declarations across the four core MCP tools so clients can introspect structured payloads, verified by a new schema regression test (234 tests passing).
@@ -73,6 +76,7 @@ My disagreeable claim: the provenance tracking, not the local-first storage, is 
 - 2026-09-20 - Recorded v1.4.8 (the OpenCode minder slice moved off the system prompt so provider prefix caches survive new turns) and refreshed stars to 281, commits to 84, and PyPI releases to 23.
 - 2026-09-22 - Recorded three same-day releases: v1.4.9 added GitHub Copilot CLI as a seventh supported CLI (first outside contribution), v1.4.10 hardened Windows CI, and v1.4.11 added managed Codex guidance plus optional MCP registration with codex provenance; refreshed stars to 283 and PyPI releases to 26.
 - 2026-09-27 - Refreshed the volatile facts: 291 stars, pushed 2026-09-26; no PyPI release since v1.4.11 (2026-09-22), and the 26-release count unchanged.
+- 2026-10-07 - Added the timgordontg/engrim star history chart to the Status section.
 
 ## See also
 

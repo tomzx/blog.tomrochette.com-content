@@ -1,7 +1,7 @@
 ---
 title: Kev
 created: 2026-09-21
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, hybrid-execution, structured-outputs, system-one-models, decision-models, open-weights, fine-tuning]
 readability: 3
@@ -25,6 +25,9 @@ The API tests run TypeSafe's own example requests against the local server, whic
 
 **Active and nineteen days old, with traction on every axis I can measure.**
 The repository was created 2026-09-17 and pushed 2026-10-05, with about 8,500 stars and 561 forks as of 2026-10-06, and three releases (the 0.5B prototype on 2026-09-17, the 0.8B/4B/9B family on 2026-09-20, and kev-1.0 on 2026-10-01, which versions the four checkpoints as one family with `v1.0` tags on every Hub repo and pins cards, eval suites, and serving code for the next generation to be measured against, training nothing new).
+
+[![Star History Chart](https://api.star-history.com/chart?repos=jaredpalmer/kev&type=date&legend=top-left)](https://www.star-history.com/?repos=jaredpalmer%2Fkev&type=date&legend=top-left)
+
 The family grew a flagship in the same window: Kev-9B v2 shipped 2026-09-30 (a refitted temperature, v1 kept at a Hub tag) and Kev-27B v2 joined it, with a 65,536-token validated context against 8,192 for the small family and README-claimed numbers within three points of Jev, or ahead of it, on 9 of 11 new-source categories while matching Jev's 0.90 MMLU, at the cost of needing an 80 GB GPU.
 The Hacker News thread (2026-09-21) exploded from about 30 points when I first checked to 463 points as of 2026-10-06, clearing the bar this note originally recorded it failing, with the substantive use-case discussion (coding-agent verifiers, spam filtering, knowledge-cutoff concerns) now carrying far more weight than drive-by upvotes.
 A browser demo on Hugging Face Spaces (Kev-4B and Kev-0.8B, no install) and an MLX serving path for Apple Silicon landed in the same window, and kev-4b shows about 17,300 downloads as of 2026-10-06.
@@ -69,6 +72,7 @@ The disagreeable claim I will defend: the weights are the second-most valuable a
 - 2026-09-25 - Recorded the continuing traction surge (6,750 stars, 389 forks, kev-4b at about 6,100 downloads) and the JevBench v1.4 sealed-board re-scoring (Kev-4B 36.1 against Jev's 63.3).
 - 2026-09-29 - Refreshed traction (7,732 stars, 480 forks, kev-4b at about 10,800 downloads, thread 462 points).
 - 2026-10-02 - Recorded the family's growth and the Kev 1.0 release (2026-10-01, `v1.0` tags on every Hub repo pinning cards, suites, and serving code): Kev-9B v2 shipped 2026-09-30 and the new Kev-27B v2 flagship (full bf16 weights on Qwen3.8-27B, 65,536-token validated context, README-claimed within three points of Jev or ahead on 9 of 11 new-source categories, MMLU 0.90 matching Jev, an 80 GB GPU requirement); refreshed stars (8,196), forks (523), kev-4b downloads (about 14,100), and the release count to three.
+- 2026-10-07 - Added the jaredpalmer/kev star history chart to the Status section.
 
 ## See also
 

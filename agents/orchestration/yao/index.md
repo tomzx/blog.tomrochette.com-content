@@ -1,7 +1,7 @@
 ---
 title: Yao
 created: 2026-10-06
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, agent-workspaces, self-hosted]
 readability: 3
@@ -24,6 +24,9 @@ The license is a modified Apache-2.0 that GitHub reports as NOASSERTION.
 ## Status
 
 Active on the product side and old on the clock: the repository was created 2021-09-06 and shows 8,079 stars and 721 forks as of 2026-10-06, pushed 2026-10-05.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=YaoApp/yao&type=date&legend=top-left)](https://www.star-history.com/?repos=YaoApp%2Fyao&type=date&legend=top-left)
+
 The release line sits at v1.0.0-rc26 (2026-10-05), moving roughly weekly since summer 2026, which means five years without a stable 1.0.
 The only HN story remains the 2-point, zero-comment 2022 launch of the low-code era, and I found no independent coverage of the agent pivot this run, which is the adoption signal to weigh against the star count.
 
@@ -59,6 +62,7 @@ Not for anyone reading the 8k stars as agent-era adoption, and not for pure open
 ## Changes
 
 - 2026-10-06 - Created.
+- 2026-10-07 - Added the YaoApp/yao star history chart to the Status section.
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: Graphify
 created: 2026-08-30
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, context-engines, knowledge-graphs, code-intelligence, open-source]
 readability: 3
@@ -26,6 +26,9 @@ Made by Graphify Labs, a YC Summer 2026 company of two people in London, Apache-
 ## Status
 
 Growing absurdly fast for its age: 124,118 stars and 2,132 commits in about six months since 2026-04-03, latest release v0.9.77 on 2026-10-05, all as of 2026-10-06, with 294 contributors as of 2026-10-06.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=Graphify-Labs/graphify&type=date&legend=top-left)](https://www.star-history.com/?repos=Graphify-Labs%2Fgraphify&type=date&legend=top-left)
+
 The YC page claims 5M+ downloads and named production users, all self-reported.
 **The Enterprise early-access tier now ships differential formal verification**: a solver ladder (Z3, CrossHair, CBMC, JBMC) that proves a changed function behavior-preserving or returns a concrete input that breaks it, alongside graph-aware PR review, per the vendor's full index (fetched 2026-09-26).
 The ecosystem is growing too: a third-party C# port, graphify-csharp, launched September 11, 2026 with a 46-point Show HN and 21 comments as of 2026-09-16, the largest discussion any Graphify-linked project has drawn.
@@ -86,6 +89,7 @@ Not for small repos where grep and packing are enough, or for buyers who need in
 - 2026-10-04 - Recorded release v0.9.75 (2026-10-04) and refreshed the volatile numbers (123,562 stars, 2,080 commits, 1,503 open issues and PRs); hosted plans re-verified unchanged.
 - 2026-10-05 - Recorded release v0.9.76 (2026-10-04) and refreshed the volatile numbers (123,872 stars, 2,105 commits, 287 contributors, 1,522 open issues and PRs); hosted plans re-verified unchanged against the live pricing page.
 - 2026-10-06 - Recorded release v0.9.77 (2026-10-05) and refreshed the volatile numbers (124,118 stars, 2,132 commits, 294 contributors, 1,506 open issues and PRs); hosted plans re-verified unchanged against the live pricing page and the full plan index.
+- 2026-10-07 - Added the Graphify-Labs/graphify star history chart to the Status section.
 
 ## See also
 

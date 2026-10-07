@@ -1,7 +1,7 @@
 ---
 title: Orca
 created: 2026-09-27
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, llm=glm-5.3-flash, orchestration, agent-ide, worktrees, mobile]
 readability: 3
@@ -25,6 +25,9 @@ MIT licensed, TypeScript and Electron, and the repo's README carries translation
 ## Status
 
 Fast and well-funded: about 86.1k stars and 5,493 forks as of 2026-10-06, created 2026-03-17, more than 11,900 commits, with v1.4.221 (2026-10-05) the latest release.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=stablyai/orca&type=date&legend=top-left)](https://www.star-history.com/?repos=stablyai%2Forca&type=date&legend=top-left)
+
 v1.4.221 is a security fix plus platform repair release: it closes a bug where marking a folder trusted for GitHub Copilot left `~/.copilot/config.json` (which can hold Copilot login tokens) readable by other users on shared SSH hosts, and it points Codex on Windows at the user's own `~/.codex` folder, following v1.4.220's native-chat Stop button and faster workspace creation in large repositories.
 The changelog shows daily shipping through September 2026, including OpenCode 2 support (2026-09-20), a Muse Code harness and Codex goals in native chat (2026-09-25), and a Design Mode and browser stack.
 Stably is a YC W22 company with a separate revenue product (Stably testing), so Orca does not have to monetize itself yet, which is why it can stay free and MIT.
@@ -72,6 +75,7 @@ Not for teams that need a closed, vendor-supported enterprise product today, or 
 - 2026-10-02 - Recorded v1.4.218 (September 30) as the latest release and refreshed star, fork, and tracker counts.
 - 2026-10-02 - Reconciled the Status and Cautions tracker counts, which disagreed (7,014 versus 7,303), to the verified 7,355 open issues and pull requests, and refreshed star and fork counts.
 - 2026-10-05 - Recorded v1.4.220 (October 4, a Stop button for native chat, chat polish, Antigravity quota meters, and a Node-free SSH runtime option) as the latest release and refreshed star and fork counts.
+- 2026-10-07 - Added the stablyai/orca star history chart to the Status section.
 
 ## See also
 

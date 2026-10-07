@@ -1,7 +1,7 @@
 ---
 title: Tokscale
 created: 2026-10-06
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, session-analytics, cost-tracking, cli, open-source]
 readability: 3
@@ -25,6 +25,9 @@ Made by junhoyeo, an independent developer, MIT-licensed.
 ## Status
 
 Young and fast: 5,630 stars, 465 forks, 77 open issues, created 2025-12-01, pushed 2026-10-05, as of 2026-10-06.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=junhoyeo/tokscale&type=date&legend=top-left)](https://www.star-history.com/?repos=junhoyeo%2Ftokscale&type=date&legend=top-left)
+
 npm shows 153,501 downloads in the trailing month (2026-09-05 to 2026-10-04), second in this category only to ccusage, and the release line is v4.18.0 (2026-10-05) after v4.17.0 (2026-09-15).
 Its Show HN reached 2 points and zero comments in December 2025, so the audience arrived without a forum argument.
 **The star and download numbers say adoption, the empty Hacker News footprint says no independent scrutiny yet, and both are true at once.**
@@ -62,6 +65,7 @@ Not for teams needing shared dashboards (agentsview) or spend management (CodeBu
 ## Changes
 
 - 2026-10-06 - Created from the 2026-10-06 entrant scan: the widest declared source table in the category after agentsview, 5.6k stars, and the first opt-in public leaderboard, with seven fetched sources.
+- 2026-10-07 - Added the junhoyeo/tokscale star history chart to the Status section.
 
 ## See also
 

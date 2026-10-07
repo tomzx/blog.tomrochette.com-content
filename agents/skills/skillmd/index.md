@@ -1,7 +1,7 @@
 ---
 title: SkillMD
 created: 2026-10-05
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, skills, registries, skill-verification]
 readability: 3
@@ -25,6 +25,9 @@ The maintainer also publishes the ecosystem's most self-critical data: their dir
 
 **Active and growing, with a thin independent footprint.**
 The toolchain repo was created 2026-08-25 and shows 1 star and 8 open issues, pushed 2026-10-06; the npm CLI has shipped 33 versions since 2026-06-29.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=skillmds/skillmd&type=date&legend=top-left)](https://www.star-history.com/?repos=skillmds%2Fskillmd&type=date&legend=top-left)
+
 The site's own claimed index grew from 860,000 skills (its September 19 directory post) to 1,132,703 as of 2026-10-06, and that post itself warns that directory counts are claims, not measurements, skills.sh included.
 No Hacker News thread surfaced under its name in my searches as of 2026-10-05; the largest near-match is the 48-point "Skill.md: An open standard" story about the format, not this registry.
 The business model is unstated; installing needs no account and the site quotes no price.
@@ -64,6 +67,7 @@ My disagreeable claim: SkillMD's 1,948 reviewed skills matter more than either r
 ## Changes
 
 - 2026-10-05 - Created in the daily refresh's skills entrant scan.
+- 2026-10-07 - Added the skillmds/skillmd star history chart to the Status section.
 
 ## See also
 

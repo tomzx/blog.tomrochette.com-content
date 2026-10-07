@@ -1,7 +1,7 @@
 ---
 title: memU
 created: 2026-10-06
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, agent-memory, file-based, skills]
 readability: 3
@@ -27,6 +27,9 @@ Deployment is a free hosted service (API key from memu.so, cross-device) or a se
 ## Status
 
 **Quietly large: 14.5k stars rank it seventh of the fourteen members profiled here, while its discussion footprint is nearly empty.**
+
+[![Star History Chart](https://api.star-history.com/chart?repos=NevaMind-AI/memU&type=date&legend=top-left)](https://www.star-history.com/?repos=NevaMind-AI%2FmemU&type=date&legend=top-left)
+
 14,499 stars with the repository pushed 2026-10-01, created 2025-07-29, as of 2026-10-06 (GitHub API).
 The Hacker News record is two threads: an 11-point Show HN in January 2026 (4 comments) and a 4-point story in July 2026 (0 comments), so the 14.5k stars rest on trend cycles and word of mouth, not public scrutiny.
 Development is active, with the README's host matrix and skill-extraction flow revised against current releases.
@@ -66,6 +69,7 @@ Not for teams needing multi-user memory APIs, contractual hosting terms, or any 
 ## Changes
 
 - 2026-10-06 - Created from the 2026-10-06 entrant scan, with seven fetched sources and the thin-discussion footprint recorded as the critical signal.
+- 2026-10-07 - Added the NevaMind-AI/memU star history chart to the Status section.
 
 ## See also
 

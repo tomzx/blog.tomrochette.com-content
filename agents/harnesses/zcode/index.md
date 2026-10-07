@@ -1,7 +1,7 @@
 ---
 title: ZCode
 created: 2026-09-21
-updated: 2026-10-04
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agents, harnesses, zai, desktop, open-source, security]
 readability: 3
@@ -29,6 +29,9 @@ The harness launched July 1, 2026 as the official harness for GLM-5.2 and drew a
 On September 18, 2026 a [wire-level analysis](https://blog.ferstar.org/en/posts/zcode-silent-workspace-snapshot-upload/) showed the logged-in client packaging entire workspaces (about 87% .git content) and uploading them encrypted to Aliyun OSS with a server-held key, a behavior no UI toggle stopped and no privacy-policy line disclosed (333- and 261-point threads that day).
 Z.ai admitted the uploads, attributed them to a Repo Wiki indexing feature, shipped client 3.14.0 with the pipeline removed, and open-sourced the workbench on September 20-21 with CAICT and NSFOCUS audits reporting the OSS bucket deleted ([HN](https://hn.algolia.com/api/v1/items/49782440)).
 The repository shows 7,445 stars and 2,273 forks as of 2026-10-06, pushed 2026-09-29 (GitHub API); desktop installers are at v3.14.4.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=zai-org/ZCode&type=date&legend=top-left)](https://www.star-history.com/?repos=zai-org%2FZCode&type=date&legend=top-left)
+
 Independent code review of the dump confirms the snapshot pipeline is gone and checkpoints run on purely local git, but deleting the bucket cannot answer what happened to data that left machines before September 18.
 
 ## Strengths
@@ -74,6 +77,7 @@ I would watch whether the open repository becomes a real project or stays a pres
 - 2026-09-22 - Recorded the star count rising from 4,216 to 6,400 and forks from 1,127 to 1,880 in the day after the dump, and desktop installers moving to v3.14.3.
 - 2026-09-29 - Refreshed repository counters (7,097 stars, 2,147 forks).
 - 2026-10-02 - Recorded desktop installers moving to v3.14.4 and refreshed repository counters; the GLM Coding Plan prices re-verified unchanged.
+- 2026-10-07 - Added the zai-org/ZCode star history chart to the Status section.
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: AX
 created: 2026-09-21
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, kubernetes, multi-agent, open-source, google]
 readability: 3
@@ -24,6 +24,9 @@ It runs on top of Agent Substrate (also Apache-2.0), a compute runtime built for
 
 Active and newly prominent: the repo was created 2026-03-30, but its public arrival was the launch HN thread, 664 points as of 2026-09-26 (662 on 2026-09-24, 657 on 2026-09-22, 414 on launch day 2026-09-20), and v0.3.0 shipped the same day.
 About 13.2k stars as of 2026-10-06 (13,151 per the GitHub API), up from 11,652 on 2026-09-26, about 8,000 on 2026-09-22, and 3,940 on 2026-09-21, with the README carrying an explicit warning that core concepts, protocols, and specifications will see major breaking changes before a stable release.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=google/ax&type=date&legend=top-left)](https://www.star-history.com/?repos=google%2Fax&type=date&legend=top-left)
+
 v0.3.1 (September 25, 2026, a fix that includes runner binaries in the Docker context) is now the latest release.
 The site says it was born at Google from agentic-runtime research, though HN commenters caution that the Google label covers a team project, not a product line.
 
@@ -63,6 +66,7 @@ Not for developers who want a desktop app supervising a handful of sessions; pic
 - 2026-09-22 - Re-verified: stars more than doubled to about 8,000 in one day and the launch thread climbed from 450 to 657 points; v0.3.0 remains the latest release.
 - 2026-09-24 - Re-verified: stars passed 10,000 (10,392) and the launch thread reached 662 points; v0.3.0 remains the latest release.
 - 2026-09-26 - Recorded v0.3.1 (September 25, runner binaries in the Docker context) as the latest release, refreshed stars to 11,652 and the launch thread to 664 points.
+- 2026-10-07 - Added the google/ax star history chart to the Status section.
 
 ## See also
 

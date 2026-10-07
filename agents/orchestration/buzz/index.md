@@ -1,7 +1,7 @@
 ---
 title: Buzz
 created: 2026-10-02
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, communication, nostr, self-hosted]
 readability: 3
@@ -24,6 +24,9 @@ Block positions it as infrastructure, the event store and delivery pipe, not the
 ## Status
 
 Active and heavily starred: about 35,600 stars since 2026-03-06 as of 2026-10-06, pushed 2026-10-05, with desktop releases at v0.5.26 (2026-09-29) on a steady cadence.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=block/buzz&type=date&legend=top-left)](https://www.star-history.com/?repos=block%2Fbuzz&type=date&legend=top-left)
+
 **The caveat is that the star count tracks Block's name and the anti-Platform story, not field deployments: I found no independent HN thread and the public documentation lives in the repo's vision essays rather than operator guides.**
 The single-relay design is upfront about its trade: one event log, no federation, no gossip.
 
@@ -63,6 +66,7 @@ Not for anyone who needs Slack-world integrations, federated availability, or a 
 
 - 2026-10-02 - Created.
 - 2026-10-03 - Reworded banned-term words out of the prose; meaning unchanged.
+- 2026-10-07 - Added the block/buzz star history chart to the Status section.
 
 ## See also
 

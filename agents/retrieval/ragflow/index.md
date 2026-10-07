@@ -1,7 +1,7 @@
 ---
 title: RAGFlow
 created: 2026-10-06
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, retrieval, rag, document-parsing, agents]
 readability: 3
@@ -24,6 +24,9 @@ Made by InfiniFlow, with v1.0.0-rc1 (2026-09-29) rewriting the service layer in 
 ## Status
 
 Very active and very large: 91,710 stars, 10,893 forks since 2023-12-12, pushed 2026-10-05 (GitHub API, as of 2026-10-06), with 3.9M Docker pulls (ragflow-stats badge, as of 2026-10-06).
+
+[![Star History Chart](https://api.star-history.com/chart?repos=infiniflow/ragflow&type=date&legend=top-left)](https://www.star-history.com/?repos=infiniflow%2Fragflow&type=date&legend=top-left)
+
 The latest release is v1.0.0-rc1 (2026-09-29), a preview of the comprehensive Go rewrite, and its release notes warn that the data upgrade from v0.27.2 is irreversible.
 The discussion footprint is front-loaded: a 230-point launch thread in April 2024 with 53 comments, 294 comment mentions on Hacker News since the start of 2025 (as of 2026-10-06), and only 2 of those in 2026 itself, a quieting worth weighing against the star count.
 
@@ -67,6 +70,7 @@ My disagreeable claim: what RAGFlow actually sells is trust, and the star count 
 ## Changes
 
 - 2026-10-06 - Created in the daily refresh's retrieval entrant scan.
+- 2026-10-07 - Added the infiniflow/ragflow star history chart to the Status section.
 
 ## See also
 

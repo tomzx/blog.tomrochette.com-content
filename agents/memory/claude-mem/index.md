@@ -1,7 +1,7 @@
 ---
 title: claude-mem
 created: 2026-08-30
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, session-memory, compression, open-source]
 readability: 3
@@ -25,6 +25,9 @@ Made by Alex Newman (thedotmack), a solo author in the Vercel OSS Program, with 
 ## Status
 
 Very large and fast: about 96.7k stars, 8.5k forks, and 87 open issues and pull requests as of 2026-10-06, with 69,573 npm downloads in the last month (2026-09-05 to 2026-10-04).
+
+[![Star History Chart](https://api.star-history.com/chart?repos=thedotmack/claude-mem&type=date&legend=top-left)](https://www.star-history.com/?repos=thedotmack%2Fclaude-mem&type=date&legend=top-left)
+
 Created 2025-08-31, pushed 2026-10-06, latest tagged release v13.32.0 on 2026-10-06 with npm in sync at 13.32.0 as of 2026-10-06.
 The README now brands the project Grok Mem (the package is still `claude-mem`), and v13.24.0 shipped it as two independent Cursor and Grok Bot marketplace plugins alongside the Claude Code install path.
 **The v13.x version line tells you the churn rate: near-daily releases with major-version jumps, which is velocity and breakage risk in the same number.**
@@ -83,6 +86,7 @@ Not for privacy-strict environments, anyone unwilling to run a local worker serv
 - 2026-10-05 - Recorded the v13.30.0, v13.30.1, and v13.31.0 releases (spooled hooks, cacheable observer prompts, indexed SessionStart) with npm in sync at 13.31.0; refreshed stars to about 96.3k, 105 open issues and PRs, and 68,891 trailing-month downloads.
 - 2026-10-06 - Recorded the v13.31.1 and v13.32.0 releases (the cloud-sync firewall fix, and the File Read Gate restored on by default) with npm in sync at 13.32.0; refreshed stars to about 96.7k, 87 open issues and PRs, and 69,573 trailing-month downloads.
 - 2026-10-06 - The commercial arm restructured its pricing: CMEM Cloud $20/mo and Team $333/seat/mo replaced by CMEM Pro $30/mo, Heavy $70/mo, and CMEM Max $100/mo, with TeamBrain a design-partner pilot without a public price (Price history row); the pricing reference repointed to cmem.ai, which claude-mem.ai now redirects to.
+- 2026-10-07 - Added the thedotmack/claude-mem star history chart to the Status section.
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: Anthropic Agent Skills
 created: 2026-08-24
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, skills, anthropic, agent-extensions]
 readability: 3
@@ -26,6 +26,9 @@ The `anthropics/skills` repository ships the spec, a template, and example skill
 **Active and expanding.**
 Launched 2025-10-16; on 2025-12-18 Anthropic published the format as the open Agent Skills standard (agentskills.io), added organization-wide skill management, and opened a partner directory.
 The example repository shows 179.8k stars and 21.3k forks but only 58 commits as of 2026-10-06, which tells me it is a distribution artifact, not where the product is built.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=anthropics/skills&type=date&legend=top-left)](https://www.star-history.com/?repos=anthropics%2Fskills&type=date&legend=top-left)
+
 Claude Code iterates fast on top: custom commands were merged into skills, and skill behavior changed across v2.1.196 through v2.1.218 (subagent execution, bundled-skill overrides, frontmatter parsing).
 
 ## Strengths
@@ -64,6 +67,7 @@ The claim I will defend: for most teams skills matter more than plugins or MCP s
 
 - 2026-08-24 - Created in the Skills category seed.
 - 2026-09-25 - Refreshed the volatile numbers (177,988 stars, 21,087 forks, 56 commits as of 2026-09-25).
+- 2026-10-07 - Added the anthropics/skills star history chart to the Status section.
 
 ## See also
 

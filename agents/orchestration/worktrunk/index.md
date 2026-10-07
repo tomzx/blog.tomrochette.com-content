@@ -1,7 +1,7 @@
 ---
 title: Worktrunk
 created: 2026-08-30
-updated: 2026-10-05
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, git-worktrees, cli, open-source]
 readability: 3
@@ -24,6 +24,9 @@ Dual MIT or Apache-2.0 license, Homebrew, cargo, winget, and Arch (pacman) distr
 ## Status
 
 The leading worktree manager of the agent wave: about 8.8k stars, 315 forks, 62 open issues and PRs as of 2026-10-05, created 2025-10-17, more than 5,000 commits on main, latest release v0.80.0 on 2026-09-27.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=max-sixty/worktrunk&type=date&legend=top-left)](https://www.star-history.com/?repos=max-sixty%2Fworktrunk&type=date&legend=top-left)
+
 About 150 releases in eleven months; still pre-1.0 with breaking changes per release, and effectively a single-maintainer project.
 
 ## Strengths
@@ -63,6 +66,7 @@ Not for GUI-first workflows, and not for anyone who needs a project to promise s
 - 2026-09-20 - Corrected the release count to about 150 (the earlier 78 was an undercount) and refreshed stars and tracker counts; v0.78.0 remains latest.
 - 2026-09-21 - Recorded v0.79.0 (September 21) and its breaking `--no-cd -x` semantics change, and refreshed stars and tracker counts.
 - 2026-09-29 - Recorded v0.80.0 (September 27), a performance-and-fixes release with breaking changes to squash-time commit hooks and the hook-log JSON `branch` field.
+- 2026-10-07 - Added the max-sixty/worktrunk star history chart to the Status section.
 
 ## See also
 

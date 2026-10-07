@@ -1,7 +1,7 @@
 ---
 title: goose
 created: 2026-08-24
-updated: 2026-10-04
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, coding-agents, harnesses, open-source, linux-foundation]
 readability: 3
@@ -26,6 +26,9 @@ It talks to 15+ providers (Anthropic, OpenAI, Google, Ollama, OpenRouter, Azure,
 
 **Active and foundation-governed.**
 The repository (moved from Block's org to `aaif-goose/goose`) shows about 54.9k stars as of 2026-10-04 and was last pushed within a day of verification.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=aaif-goose/goose&type=date&legend=top-left)](https://www.star-history.com/?repos=aaif-goose%2Fgoose&type=date&legend=top-left)
+
 The January 2025 launch drew a 249-point Hacker News thread, and coverage through 2026 describes adoption scaling to a majority of Block's engineers, though that figure comes from a third-party course site, not a Block primary source.
 Block contributed goose at the AAIF's formation on December 9, 2025, alongside Anthropic's MCP and OpenAI's AGENTS.md, and the project completed its migration to the aaif-goose organization on April 7, 2026.
 
@@ -65,6 +68,7 @@ Not for teams that want a coding-specialized harness or a single vendor's suppor
 - 2026-08-26 - Reconciled the AAIF timeline (contribution at the December 9, 2025 formation, migration completed April 7, 2026).
 - 2026-08-27 - Canonicalized the aaif.io formation-announcement reference.
 - 2026-09-16 - Refreshed repository scale to about 54.3k stars.
+- 2026-10-07 - Added the aaif-goose/goose star history chart to the Status section.
 
 ## See also
 

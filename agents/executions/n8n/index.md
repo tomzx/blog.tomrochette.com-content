@@ -1,7 +1,7 @@
 ---
 title: n8n
 created: 2026-08-24
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, executions, webhooks, workflow-automation]
 readability: 3
@@ -24,6 +24,9 @@ Deployment is self-hosted (free Community Edition) or n8n Cloud; the Webhook nod
 
 **Very active and heavily funded.**
 About 206.7k stars and 61.0k forks on GitHub as of 2026-10-06, with 24,000+ commits.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=n8n-io/n8n&type=date&legend=top-left)](https://www.star-history.com/?repos=n8n-io%2Fn8n&type=date&legend=top-left)
+
 A $180M Series C (October 2025, led by Accel, with NVIDIA's NVentures) brought total funding to $240M at a $2.5B valuation.
 Caveat on maturity: the agents layer is still in preview (self-hosted support arrived with n8n 2.32.3 on all plans, with knowledge bases preview-gated behind a configured sandbox), and queue mode does not work with agents.
 
@@ -73,6 +76,7 @@ My disagreeable claim: for scheduled and webhook-triggered coding-adjacent work,
 - 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
 - 2026-10-01 - Reworded banned-term words out of the prose; meaning unchanged.
 - 2026-10-06 - Corrected the agents-availability caveat (self-hosted agents shipped with n8n 2.32.3 on all plans, knowledge bases still preview-gated), repointed the license reference to the Community license page after the sustainable-use-license path began 404ing, and refreshed the forum size and pricing as-of date.
+- 2026-10-07 - Added the n8n-io/n8n star history chart to the Status section.
 
 ## See also
 

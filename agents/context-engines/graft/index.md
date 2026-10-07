@@ -1,7 +1,7 @@
 ---
 title: Graft
 created: 2026-09-12
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, context-engines, code-graphs, claude-code, open-source]
 readability: 3
@@ -26,6 +26,9 @@ The npm scope and telemetry endpoint are NanoNets-branded, the product site attr
 ## Status
 
 Young and very hot: created 2026-07-03, 9,610 stars and 880 forks by 2026-10-06, last push 2026-10-06, 213 open issues and pull requests, v0.21.1 on npm (published 2026-09-29) with 102,247 downloads in the trailing month (window 2026-09-05 to 2026-10-04), all as of 2026-10-06 (GitHub and npm APIs).
+
+[![Star History Chart](https://api.star-history.com/chart?repos=trailhq/Graft&type=date&legend=top-left)](https://www.star-history.com/?repos=trailhq%2FGraft&type=date&legend=top-left)
+
 The GitHub organization itself has now completed the rename: the repository's canonical home is trailhq/Graft, and the old NanoNets/Graft URLs redirect.
 **The community footprint is thin for the star count: a third-party Show HN drew 3 points and 2 comments, the creator's own follow-up reached 39 points and 44 comments, and its most substantive comments were criticisms.**
 In that thread the creator confirmed the README's marketing register is model-written ("Opus 5 is very paranoid on giving proofs... so I let it keep this one line"), and the only cross-tool numbers anywhere (graft over Graphify, MRR 0.73 vs 0.38) are his own tests, not a published benchmark.
@@ -82,6 +85,7 @@ I would not skip TELEMETRY.md for a compliance-sensitive team, and I would not b
 - 2026-09-29 - Refreshed the growth numbers (9,381 stars, 862 forks, 239 open issues, pushed 2026-09-29, 72,419 trailing-month npm downloads); npm package v0.20.0 and Trail Brain pricing unchanged.
 - 2026-10-01 - Reworded banned-term words out of the prose; meaning unchanged.
 - 2026-10-02 - Recorded the npm package moving to v0.21.1 (published 2026-09-29) and refreshed the growth numbers (9,483 stars, 871 forks, 199 open issues and pull requests, pushed 2026-10-01, 88,838 trailing-month npm downloads); Trail Brain pricing unchanged.
+- 2026-10-07 - Added the trailhq/Graft star history chart to the Status section.
 
 ## See also
 

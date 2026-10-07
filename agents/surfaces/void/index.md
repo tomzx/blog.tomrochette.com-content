@@ -1,7 +1,7 @@
 ---
 title: Void
 created: 2026-08-24
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, surfaces, ai-editors, open-source]
 readability: 3
@@ -24,6 +24,8 @@ A VS Code fork with AI features integrated directly: chat, completion, and agent
 **Dead as a maintained project; the repository is archived.**
 As of 2026-10-06 the GitHub repository carries the archived (read-only) flag, with the last push landing June 2, 2026 and the last tagged release still v1.3.4 from April 2025, over a year before this verification date.
 A December 2025 Show HN appeared titled "after Void slowed down", which is the community recording the same fact independently.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=voideditor/void&type=date&legend=top-left)](https://www.star-history.com/?repos=voideditor%2Fvoid&type=date&legend=top-left)
 
 ## Strengths
 
@@ -57,6 +59,7 @@ Not for anyone who wants the project's best days ahead of it.
 
 - 2026-08-24 - Created in the owner-requested Surfaces expansion, recording proven demand against the stall, with status set to dormant-leaning.
 - 2026-09-27 - Re-confirmed the archive, the June 2, 2026 last push, and the v1.3.4 freeze; counts refreshed.
+- 2026-10-07 - Added the voideditor/void star history chart to the Status section.
 
 ## See also
 

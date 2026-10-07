@@ -1,7 +1,7 @@
 ---
 title: Agent User Interaction Protocol (AG-UI)
 created: 2026-09-16
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, protocols, frontend, event-streaming]
 readability: 3
@@ -26,6 +26,9 @@ Scaffolding an app is one command (`npx create-ag-ui-app`), and the project ship
 
 Very active and already the de facto standard at its layer.
 The repository shows about 16,300 stars, a push on 2026-10-05, and dated releases landing near-daily (latest `release/2026-10-05`).
+
+[![Star History Chart](https://api.star-history.com/chart?repos=ag-ui-protocol/ag-ui&type=date&legend=top-left)](https://www.star-history.com/?repos=ag-ui-protocol%2Fag-ui&type=date&legend=top-left)
+
 **The download signal is the strongest part: `@ag-ui/core` pulled 9.04M and `@ag-ui/client` 5.78M downloads in the month ending 2026-10-04, numbers that beat every editor- or agent-to-agent protocol in this index, and the packages graduated from 0.0.59 to 1.0.0 on 2026-09-17, to 1.0.1 on 2026-09-29, and to 1.0.2 on 2026-10-05.**
 Integration coverage per the docs: partnership integrations with LangChain/LangGraph and CrewAI, first-party integrations with Microsoft Agent Framework, Google ADK, Google ADK for JavaScript, Google Antigravity, AWS Strands Agents, AWS Bedrock AgentCore, Mastra, Pydantic AI, Agno, LlamaIndex, and AG2, community integrations for the Claude Agent SDK, Claude Managed Agents, and Langroid, with the OpenAI Agent SDK, AWS Bedrock Agents, and Cloudflare Agents marked in progress.
 Microsoft adopted the protocol in its Agent Framework (November 2025), Google positioned its A2UI interface project alongside it (December 2025), and Oracle shipped an AG-UI integration for its Agent Specification (December 2025).
@@ -70,6 +73,7 @@ My disagreeable claim: AG-UI is the most adopted protocol in this index that nob
 - 2026-09-29 - Download figures refreshed (core 7,460,416, client 4,861,067 in the month ending 2026-09-27); release/2026-09-23 remains the latest release and the SDKs remain at 1.0.0.
 - 2026-10-03 - SDK packages moved to 1.0.1 (2026-09-29), the release train moved to release/2026-10-02, and download figures refreshed (core 8,877,374, client 5,722,252 in the month ending 2026-10-01); stars refreshed to about 16,300.
 - 2026-10-06 - SDK packages moved to 1.0.2 (2026-10-05), the release train moved to release/2026-10-05, the SDK surface broadened to community Kotlin, Go, Dart, Java, Rust, Ruby, and C++ libraries per the docs, and first-party integrations added Google Antigravity and Google ADK for JavaScript; figures refreshed (core 9,035,484, client 5,779,295 in the month ending 2026-10-04).
+- 2026-10-07 - Added the ag-ui-protocol/ag-ui star history chart to the Status section.
 
 ## See also
 

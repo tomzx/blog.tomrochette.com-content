@@ -1,7 +1,7 @@
 ---
 title: LangGraph
 created: 2026-10-06
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, agent-framework, graph-runtime, durable-execution, python, typescript]
 readability: 3
@@ -24,6 +24,9 @@ LangGraph shows up in eight other section articles (this category's feature matr
 ## Status
 
 Active and enormous: 42,752 stars, 7,268 forks, and 100+ contributors as of 2026-10-05, with the repository created in August 2023.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=langchain-ai/langgraph&type=date&legend=top-left)](https://www.star-history.com/?repos=langchain-ai%2Flanggraph&type=date&legend=top-left)
+
 Release 1.2.13 shipped 2026-10-05 on GitHub and PyPI alike, continuing a 1.2.x line that has run all year.
 npm `@langchain/langgraph` served 4,552,953 downloads in the week ending 2026-10-04.
 **For scale: that is more weekly installs than any other column in this matrix by a wide margin, and probably more than the rest of the table combined.**
@@ -61,6 +64,7 @@ Not for engineers who want a dashboard, worktrees, and a review flow around exis
 ## Changes
 
 - 2026-10-06 - Created.
+- 2026-10-07 - Added the langchain-ai/langgraph star history chart to the Status section.
 
 ## See also
 

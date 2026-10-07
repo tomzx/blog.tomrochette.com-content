@@ -1,7 +1,7 @@
 ---
 title: Agent Manager
 created: 2026-10-06
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, tmux, tui, multi-cli, worktrees]
 readability: 3
@@ -24,6 +24,9 @@ It is distributed as brew, an install script, an AUR package, mise, go install, 
 ## Status
 
 Active and young: 570 stars and 58 forks as of 2026-10-05, created 2026-07-15, with 29 contributors.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=YoanWai/agent-manager&type=date&legend=top-left)](https://www.star-history.com/?repos=YoanWai%2Fagent-manager&type=date&legend=top-left)
+
 Releases run roughly weekly: v0.39.0 shipped 2026-09-26 after five releases in September alone.
 The Show HN thread from 2026-07-30 reached 98 points and about 80 comments, dominated by the genre question: one commenter argued submissions like it should be filtered automatically "since there are dozen of these and they are barely distinguishable except for couple of opinioned choices".
 
@@ -60,6 +63,7 @@ Not for teams that need cost tracking, per-task worktree defaults, or a GUI.
 ## Changes
 
 - 2026-10-06 - Created.
+- 2026-10-07 - Added the YoanWai/agent-manager star history chart to the Status section.
 
 ## See also
 

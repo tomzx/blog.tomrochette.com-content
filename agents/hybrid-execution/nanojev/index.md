@@ -1,7 +1,7 @@
 ---
 title: NanoJev
 created: 2026-09-21
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, hybrid-execution, structured-outputs, system-one-models, decision-models, open-weights, game-agents]
 readability: 3
@@ -24,6 +24,9 @@ The code is MIT, by an individual developer signing as Tianyu (43 GitHub followe
 ## Status
 
 **Active, nineteen days old, mid-pack among the open replicas by stars, with the smallest community footprint.**
+
+[![Star History Chart](https://api.star-history.com/chart?repos=TianyuCodings/NanoJev&type=date&legend=top-left)](https://www.star-history.com/?repos=TianyuCodings%2FNanoJev&type=date&legend=top-left)
+
 The repository was created 2026-09-17, pushed 2026-09-21, and shows about 2,500 stars and 256 forks as of 2026-10-06.
 The weights show about 8,600 downloads and 85 likes, the dataset about 5,200 downloads, as of 2026-10-06.
 The author published a follow-up project, JevHarness, for letting an LLM build task-specific decision harnesses with rewards and execution traces.
@@ -65,6 +68,7 @@ The disagreeable claim I will defend: NanoJev beating hosted Jev at three of fou
 - 2026-09-22 - Refreshed traction counts (about 2,000 stars, about 6,000 weight downloads), recorded the JevHarness follow-up project and the absence of any NanoJev row on the JevBench board, which leaves the benchmark claims unreplicated.
 - 2026-09-25 - Refreshed traction counts (about 2,200 stars, about 6,900 weight downloads, the dataset at about 3,900) and corrected the star-ranking claim as Kev and Laya pulled far ahead.
 - 2026-09-29 - Refreshed traction counts (about 2,400 stars, about 7,700 weight downloads, the dataset at about 4,500).
+- 2026-10-07 - Added the TianyuCodings/NanoJev star history chart to the Status section.
 
 ## See also
 

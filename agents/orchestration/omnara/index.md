@@ -1,7 +1,7 @@
 ---
 title: Omnara
 created: 2026-08-30
-updated: 2026-10-04
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, agent-control-plane, mobile, self-hosted, yc]
 readability: 3
@@ -27,6 +27,9 @@ It sits in the orchestration layer of this section's taxonomy (control plane and
 
 **Active, well-capitalized by YC standards, and shipping daily.**
 2,878 stars and 231 forks as of 2026-10-04 on a repo created July 9, 2025, with pushes landing within a day of verification (GitHub API).
+
+[![Star History Chart](https://api.star-history.com/chart?repos=omnara-ai/omnara&type=date&legend=top-left)](https://www.star-history.com/?repos=omnara-ai%2Fomnara&type=date&legend=top-left)
+
 Two HN threads anchor its traction: a 310-point Show HN on August 12, 2025 ([HN](https://news.ycombinator.com/item?id=44878650)) and a 147-point Launch HN on February 12, 2026 ([HN](https://news.ycombinator.com/item?id=46991591)).
 The product's own framing moved between those dates, from "run Claude Code from anywhere" to "the API for production-grade agents" with managed-agent execution.
 
@@ -74,6 +77,7 @@ I believe every serious agent deployment eventually needs exactly what Omnara is
 - 2026-09-08 - Recorded Omnara Cloud's newly published usage-based pricing and added the pricing page as a source.
 - 2026-09-09 - Added the machine-retention line item, $0.20016 per GiB per 30 days.
 - 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
+- 2026-10-07 - Added the omnara-ai/omnara star history chart to the Status section.
 
 ## See also
 

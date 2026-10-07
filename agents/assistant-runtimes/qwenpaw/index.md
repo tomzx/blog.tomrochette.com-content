@@ -1,7 +1,7 @@
 ---
 title: QwenPaw
 created: 2026-08-30
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, assistant-runtimes, python, self-hosted, open-source]
 readability: 3
@@ -25,6 +25,9 @@ Apache-2.0, by the AgentScope team; Alibaba involvement is visible in the deploy
 ## Status
 
 Rapid and churny: 35,450 stars, 3,154 forks, 1,032 open issues and PRs as of 2026-10-06, created 2026-02-24, pushed 2026-09-30.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=agentscope-ai/QwenPaw&type=date&legend=top-left)](https://www.star-history.com/?repos=agentscope-ai%2FQwenPaw&type=date&legend=top-left)
+
 v2.1.0 shipped 2026-08-13, v2.2.0 went stable on PyPI on 2026-09-03, and v2.2.1 followed on 2026-09-10 (PyPI upload 2026-09-11), with v2.2.2 betas landing on 2026-09-17, 2026-09-18, 2026-09-20 (2.2.2b3), and 2026-09-30 (2.2.2b4), the stable line still at 2.2.1.
 **A ground-up rewrite two minor versions before the current line is the churn signature: adoption is real, stability is not yet the product.**
 
@@ -63,6 +66,7 @@ Not for stability-first adopters mid-rewrite, or users who will not read the tel
 - 2026-08-30 - Created in the Assistant runtimes category, recording the AgentScope team assistant with a telemetry-auto-accept caution.
 - 2026-09-04 - Recorded v2.2.0 going stable on PyPI.
 - 2026-09-21 - Recorded the third v2.2.2 beta (2.2.2b3, PyPI 2026-09-20) and refreshed adoption numbers.
+- 2026-10-07 - Added the agentscope-ai/QwenPaw star history chart to the Status section.
 
 ## See also
 

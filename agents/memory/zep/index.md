@@ -1,7 +1,7 @@
 ---
 title: Zep
 created: 2026-08-24
-updated: 2026-09-26
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, agent-memory, knowledge-graphs]
 readability: 3
@@ -25,6 +25,9 @@ A Memory MCP Server and plugins for Claude Code, Codex, and Cursor push Zep memo
 
 **Active, enterprise-focused, post-open-core.**
 Graphiti shows about 31.4k stars and 998 commits as of 2026-10-02; its Show HN drew 142 points.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=getzep/zep&type=date&legend=top-left)](https://www.star-history.com/?repos=getzep%2Fzep&type=date&legend=top-left)
+
 Zep Community Edition, the self-hostable open-core server, was discontinued in April 2025, with the company saying the two-product split starved the OSS side.
 The site lists Samsung, Zscaler, Quorum, and HoneyBook among customers, and an S&P Global Market Intelligence report (April 2026) covers its temporal context graph.
 I found no announced venture funding, which is itself a signal: it is bootstrapped or undisclosed, unusual among memory startups.
@@ -70,6 +73,7 @@ Not for solo builders or small budgets, and my disagreeable claim is that Mem0's
 
 - 2026-08-24 - Created in the Memory category seed.
 - 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
+- 2026-10-07 - Added the getzep/zep star history chart to the Status section.
 
 ## See also
 

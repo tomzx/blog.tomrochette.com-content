@@ -1,7 +1,7 @@
 ---
 title: Docling
 created: 2026-09-27
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, retrieval, document-parsing, rag]
 readability: 3
@@ -25,6 +25,9 @@ The repository was created 2024-07-09 as IBM's ds4sd/docling and now lives under
 ## Status
 
 Very active and very large: 68,429 stars, 5,003 forks, 1,007 open issues, and a push on 2026-10-06 as of 2026-10-06.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=docling-project/docling&type=date&legend=top-left)](https://www.star-history.com/?repos=docling-project%2Fdocling&type=date&legend=top-left)
+
 PyPI shows version 2.134.0 released 2026-10-06 across 222 releases, with Python 3.9 support dropped at 2.70.0, and the pepy badge reports about 3M downloads in the last month as of 2026-10-06 (pypistats returned 429 this run; its last confirmed figure was 2,834,838 on 2026-10-05).
 The HN footprint is thin for that scale: the largest story thread I found is 13 points from 2024-11-03, which says adoption flows through framework integrations and tutorials rather than launch-driven attention.
 The project's docs now advertise a managed path, Docling for IBM watsonx, exposing the same REST API as the self-hosted server.
@@ -64,6 +67,7 @@ My disagreeable claim: Docling's dominance owes as much to IBM's distribution an
 ## Changes
 
 - 2026-09-27 - Created when the owner's GitHub-stars scan surfaced it.
+- 2026-10-07 - Added the docling-project/docling star history chart to the Status section.
 
 ## See also
 

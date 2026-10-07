@@ -1,7 +1,7 @@
 ---
 title: CrewAI
 created: 2026-09-29
-updated: 2026-10-03
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, multi-agent, python]
 readability: 3
@@ -26,6 +26,8 @@ The repo sits at 59,273 stars with 8,620 forks, MIT licensed, created 2023-10-27
 Active and heavily maintained: last push 2026-10-03, latest release 1.15.23 on 2026-09-28, and `crewai` 1.15.23 on PyPI (GitHub API, PyPI, as of 2026-10-03).
 The company raised $18M across seed and Series A in October 2024, led by Insight Partners and boldstart ventures, with Andrew Ng and HubSpot co-founder Dharmesh Shah as angels (SiliconANGLE).
 Company claims include roughly half the Fortune 500 using the open source and 10 million+ agents executed monthly; I could not independently verify either number.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=crewAIInc/crewAI&type=date&legend=top-left)](https://www.star-history.com/?repos=crewAIInc%2FcrewAI&type=date&legend=top-left)
 
 ## Strengths
 
@@ -67,6 +69,7 @@ Not for coordinating parallel coding agents (that is the rest of this category),
 ## Changes
 
 - 2026-09-29 - Created when the deferred framework-tier pile from the 2026-09-27 triage resolved.
+- 2026-10-07 - Added the crewAIInc/crewAI star history chart to the Status section.
 
 ## See also
 

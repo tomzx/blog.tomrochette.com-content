@@ -1,7 +1,7 @@
 ---
 title: LlamaIndex
 created: 2026-08-24
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, rag, retrieval, frameworks]
 readability: 3
@@ -26,6 +26,9 @@ In February 2026 the same team also open-sourced [LiteParse](https://github.com/
 
 Active and heavily used.
 The `run-llama/llama_index` repository shows 52.4k stars, 8.3k forks, and 262 open issues (895 counting pull requests) as of 2026-10-06, with 7,954 commits as of 2026-10-06.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=run-llama/llama_index&type=date&legend=top-left)](https://www.star-history.com/?repos=run-llama%2Fllama_index&type=date&legend=top-left)
+
 **The strategic signal is the pivot: the repository now describes itself as "the leading document agent and OCR platform", and the docs split between the legacy `docs.llamaindex.ai` site and the new `developers.llamaindex.ai` home, where some legacy API pages (the code splitter reference among them) no longer resolve.**
 
 ## Strengths
@@ -74,6 +77,7 @@ That claim is arguable, which is the point.
 - 2026-09-18 - Refreshed volatile facts for the 2026-09-18 verification: 52.2k stars, 8.2k forks, 216 open issues (802 counting pull requests), 7,938 commits, and LiteParse at 12,325 stars, LlamaParse pricing re-confirmed unchanged.
 - 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
 - 2026-09-25 - Refreshed volatile facts: 231 open issues (858 counting pull requests), 7,943 commits, and LiteParse at 12,611 stars; LlamaParse pricing re-confirmed unchanged.
+- 2026-10-07 - Added the run-llama/llama_index star history chart to the Status section.
 
 ## See also
 

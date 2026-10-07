@@ -1,7 +1,7 @@
 ---
 title: "Clawk"
 created: 2026-09-05
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, sandboxing, vm, security]
 readability: 3
@@ -21,6 +21,9 @@ There is no Dockerfile or devcontainer: the first boot builds a rootfs from any 
 ## Status
 
 Launched July 2026 with real traction and currently paused in a pre-1.0 state: 1,026 stars and 41 forks, last push 2026-08-13 at v0.4.0, with the README carrying its own "pre-1.0, expect breaking changes" banner.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=clawkwork/clawk&type=date&legend=top-left)](https://www.star-history.com/?repos=clawkwork%2Fclawk&type=date&legend=top-left)
+
 **The 226-point Show HN thread is the strongest community signal in the Sandboxing category's tail, and the discussion plus the README agree on the limits rather than hiding them.**
 Fifty-four days without a push after a fast launch cadence is worth watching, but it is not yet a stall at these timescales.
 
@@ -64,6 +67,7 @@ Not for Linux-primary teams (yet), and not for anyone threat-modeling a determin
 - 2026-10-04 - Quiet window extended to fifty-two days (last push still 2026-08-13 at v0.4.0); stars, forks, and the 226-point thread unchanged.
 - 2026-10-05 - Quiet window extended to fifty-three days (last push still 2026-08-13 at v0.4.0); stars refreshed (1,025), forks and the 226-point thread unchanged.
 - 2026-10-06 - Quiet window extended to fifty-four days (last push still 2026-08-13 at v0.4.0); stars refreshed (1,026), forks (41) and the 226-point thread unchanged.
+- 2026-10-07 - Added the clawkwork/clawk star history chart to the Status section.
 
 ## See also
 

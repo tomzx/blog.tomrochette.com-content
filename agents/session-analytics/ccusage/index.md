@@ -1,7 +1,7 @@
 ---
 title: ccusage
 created: 2026-10-05
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, session-analytics, cost-tracking, cli, open-source]
 readability: 3
@@ -25,6 +25,9 @@ The repository is a monorepo created by ryoppippi (the project moved from his pe
 
 **The most-installed tool in this category by an order of magnitude, and until today the only one this section had never profiled.**
 About 18.9k stars and 862 forks as of 2026-10-06, created 2025-05-29, pushed 2026-10-06 (GitHub API).
+
+[![Star History Chart](https://api.star-history.com/chart?repos=ccusage/ccusage&type=date&legend=top-left)](https://www.star-history.com/?repos=ccusage%2Fccusage&type=date&legend=top-left)
+
 The npm package pulled 556,660 downloads in the trailing month (2026-09-05 to 2026-10-04), roughly eight times the claude-mem plugin and far ahead of every session-analytics peer here.
 The release line is v20.x with rapid patches: v20.0.26 (2026-09-27) is the latest tagged release, after v20.0.24 (2026-09-21) and v20.0.23 (2026-09-18).
 Its Show HN launch thread reached 75 points in July 2025, and the README carries an Awesome Claude Code mention badge.
@@ -62,6 +65,7 @@ Not for transcript search or provenance, and not as an authority on what a subsc
 ## Changes
 
 - 2026-10-05 - Created from the 2026-10-05 entrant scan: the category's most-installed tool, previously known here only as the comparator named in agentsview's note, profiled with seven fetched sources.
+- 2026-10-07 - Added the ccusage/ccusage star history chart to the Status section.
 
 ## See also
 

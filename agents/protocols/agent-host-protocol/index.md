@@ -1,7 +1,7 @@
 ---
 title: Agent Host Protocol
 created: 2026-08-30
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.3, protocols, agent-sessions, state-synchronization, microsoft, open-source]
 readability: 3
@@ -25,6 +25,9 @@ MIT licensed, TypeScript, under the `microsoft` GitHub org, created 2026-03-12.
 ## Status
 
 **Active and shipping: 390 stars, 62 open issues as of 2026-10-06, with the latest commits landing 2026-10-03 and v1.0.0 the latest release (spec, clients, and SDK packages all tagged 1.0.0 on 2026-10-02).**
+
+[![Star History Chart](https://api.star-history.com/chart?repos=microsoft/agent-host-protocol&type=date&legend=top-left)](https://www.star-history.com/?repos=microsoft%2Fagent-host-protocol&type=date&legend=top-left)
+
 Adoption is real where it counts: the `ahp` crate records about 274,100 lifetime downloads and the npm package about 549,000 (2026-09-06 to 2026-10-05), both as of 2026-10-06, with npm's trailing-month total still climbing steeply.
 A member of the VS Code team stated publicly in June 2026 that the team is rebuilding its agent infrastructure on AHP, and the reference host lives at `src/vs/platform/agentHost/node` in the `microsoft/vscode` repository.
 1.0 shipped on 2026-10-02: the spec, every client, and the SDK packages tagged v1.0.0 the same day, closing the pre-1.0 caveat this note carried since creation.
@@ -69,6 +72,7 @@ The disagreeable part: I think AHP will matter more to daily coding work than A2
 - 2026-09-27 - Refreshed stars, open issues, and download figures (crate 252,521 lifetime, npm 157,131 for 2026-08-28 to 2026-09-27); spec v0.9.0 remains the latest release.
 - 2026-09-29 - Refreshed stars, open issues, and download figures (crate 257,714 lifetime, npm 175,239 for 2026-08-29 to 2026-09-28); spec v0.9.0 remains the latest release.
 - 2026-10-03 - The spec, clients, and SDK packages reached v1.0.0 on 2026-10-02, closing the pre-1.0 caveat; refreshed repository and download figures (crate 268,768 lifetime, npm 412,350 for 2026-09-03 to 2026-10-02, 384 stars, 64 open issues) and added the releases reference.
+- 2026-10-07 - Added the microsoft/agent-host-protocol star history chart to the Status section.
 
 ## See also
 

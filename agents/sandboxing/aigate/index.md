@@ -1,7 +1,7 @@
 ---
 title: aigate
 created: 2026-08-30
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, sandboxing, isolation, security, cli, open-source]
 readability: 3
@@ -25,6 +25,9 @@ MIT, by a small anonymous GitHub organization.
 ## Status
 
 Tiny and quiet, and the numbers are the story: 14 stars, 1 fork, 0 issues as of 2026-10-06, created 2026-02-12, 20 commits total, 2 apparently related contributors.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=AxeForging/aigate&type=date&legend=top-left)](https://www.star-history.com/?repos=AxeForging%2Faigate&type=date&legend=top-left)
+
 v1.0.0 released 2026-07-19 with a few commits since, and no push since 2026-08-04, sixty-three days of quiet as of this refresh.
 **A missing community footprint is itself a signal worth stating: no audits, no advisories, no external users visible, and no SECURITY.md.**
 
@@ -62,6 +65,7 @@ Not for anyone needing a security boundary they did not audit themselves; use [O
 - 2026-08-30 - Created as the sandboxing note, kept despite a tiny footprint per the missing-footprint-is-a-signal rule.
 - 2026-09-10 - Sandboxing reference canonicalized to learn.chatgpt.com/docs/sandboxing.
 - 2026-10-02 - Added the dormancy evidence: no push since 2026-08-04, fifty-nine days of quiet as of this refresh; counts unchanged (14 stars, 0 issues).
+- 2026-10-07 - Added the AxeForging/aigate star history chart to the Status section.
 
 ## See also
 

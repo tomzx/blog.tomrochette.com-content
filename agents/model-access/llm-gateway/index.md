@@ -1,7 +1,7 @@
 ---
 title: LLM Gateway
 created: 2026-10-04
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, model-access, llm-gateway, coding-subscription]
 readability: 3
@@ -23,6 +23,9 @@ The company reports SOC 2 Type II, a 30-day enterprise pilot with a 99.9% SLA, a
 ## Status
 
 Active and young: the repo was created 2025-04-12 and shows 1,671 stars and 191 forks as of 2026-10-06, pushed the same day.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=theopenco/llmgateway&type=date&legend=top-left)](https://www.star-history.com/?repos=theopenco%2Fllmgateway&type=date&legend=top-left)
+
 DevPass shipped across Q2 2026 with annual billing and integration guides, and the Q2 roundup puts deepseek-v4-pro at the top of its quarterly token table.
 A Hacker News search this run returned no stories about the product, so the footprint is SEO and docs, not community debate.
 On 2026-10-04 the DevPass page announced its first devaluation: from October 15, 2026 the monthly allowance falls from 3x to 2x the plan price.
@@ -72,6 +75,7 @@ My disagreeable claim: DevPass at 3x (soon 2x) buys less leverage than OpenCode 
 - 2026-10-04 - Created when the new-entrant scan surfaced DevPass marketed against this category's members; added with the announced October 15 usage cut already on the price table.
 - 2026-10-06 - Converted the Compared-to cross-references from plain-text paths into working links.
 - 2026-10-06 - DevPass re-check ahead of the October 15 change: the notice now also adds daily caps and tighter premium weekly caps applying inside existing billing cycles, and the cards publish the frontier fair-use share per tier (Lite 12%, Pro 15%, Max 18% of credits); plan prices and the 3x-to-2x cut re-verified unchanged.
+- 2026-10-07 - Added the theopenco/llmgateway star history chart to the Status section.
 
 ## See also
 

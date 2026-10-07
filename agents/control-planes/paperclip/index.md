@@ -1,7 +1,7 @@
 ---
 title: Paperclip
 created: 2026-08-27
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, control-planes, agent-operations, multi-agent, open-source, governance]
 readability: 3
@@ -25,6 +25,9 @@ Any agent that can receive a heartbeat is hirable, OpenClaw, Claude Code, Codex,
 
 Active at extreme velocity.
 As of 2026-10-06: 97,802 stars and 16,525 forks since creation on 2026-03-02, 6,501 open issues, pushed 2026-10-06, latest release v2026.1001.0 on 2026-10-02, date-versioned, cloud deployments in waitlist with multi-tenant isolation already shipped per the roadmap.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=paperclipai/paperclip&type=date&legend=top-left)](https://www.star-history.com/?repos=paperclipai%2Fpaperclip&type=date&legend=top-left)
+
 **Its Hacker News footprint is nearly empty: the April 2026 Show HN got 3 points, so the growth ran through X and Discord instead, which tells you who the audience is.**
 The roadmap is public about what does not exist yet: memory and knowledge, work queues, self-organization, CEO chat, and one item called MAXIMIZER MODE, the joke made explicit.
 
@@ -70,6 +73,7 @@ The disagreeable claim I will defend: "manage business goals, not pull requests"
 - 2026-09-27 - Scale numbers refreshed (87,943 stars, 15,491 forks, 5,776 open issues); v2026.916.1 still the latest release.
 - 2026-09-29 - Scale numbers refreshed (93,464 stars, 15,941 forks, 6,019 open issues) after a two-day jump of more than 5,000 stars; v2026.916.1 still the latest release.
 - 2026-10-02 - Release line moved to v2026.1001.0 (published 2026-10-02) and scale numbers refreshed (95,957 stars, 16,265 forks, 6,232 open issues).
+- 2026-10-07 - Added the paperclipai/paperclip star history chart to the Status section.
 
 ## See also
 

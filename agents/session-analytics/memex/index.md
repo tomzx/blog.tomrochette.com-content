@@ -1,7 +1,7 @@
 ---
 title: Memex
 created: 2026-09-20
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, session-analytics, search, open-source]
 readability: 3
@@ -24,6 +24,9 @@ Made by an independent developer, MIT-licensed, with no cloud service in the def
 ## Status
 
 Active and quietly growing: created 2026-01-01, 243 stars, 33 forks, pushed 2026-10-06, as of 2026-10-06.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=nicosuave/memex&type=date&legend=top-left)](https://www.star-history.com/?repos=nicosuave%2Fmemex&type=date&legend=top-left)
+
 Releases ship in bursts: v0.25.0 (2026-10-02) added the Hermes and KiloCode CLI engines (fifteen to seventeen harnesses), then v0.26.0, v0.26.1, and v0.27.0 all landed 2026-10-03 (OpenAI-compatible remote embeddings plus the full fastembed catalog, Homebrew tap updates, and conversation-search relevance improvements), and v0.27.1 followed on 2026-10-04 without release notes.
 Its Show HN on 2026-09-18 reached 2 points and a single comment, written by the author.
 **The launch footprint is nearly empty, which I read as adoption through word of mouth and through agents rather than through launches, the same reading this category applied to ctx, and as thin independent verification.**
@@ -66,6 +69,7 @@ My disagreeable claim: resume-in-place is the feature every archive tool in this
 - 2026-10-03 - Recorded the v0.25.0 release (2026-10-02), which added Hermes and KiloCode CLI engine support (fifteen to seventeen harnesses) alongside index-statistics and daemon fixes; the push date moved to 2026-10-02 with star and fork counts unchanged (239 stars, 33 forks).
 - 2026-10-04 - Recorded the v0.26.0, v0.26.1, and v0.27.0 releases (all 2026-10-03: opt-in OpenAI-compatible remote embeddings plus the full fastembed catalog, Homebrew tap updates, conversation-search relevance improvements), qualified the local-embeddings claims in What it is, Cautions, and Pricing accordingly, and refreshed repository counts (241 stars, pushed 2026-10-04).
 - 2026-10-05 - Recorded v0.27.1 (2026-10-04, released without notes); refreshed stars to 243 and the push date to 2026-10-05.
+- 2026-10-07 - Added the nicosuave/memex star history chart to the Status section.
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: open-codebase-index
 created: 2026-10-05
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, retrieval, code-retrieval, rag, embeddings, mcp]
 readability: 3
@@ -25,6 +25,9 @@ The docs carry a host-surface matrix spelling out which client gets which tools,
 
 **Active and shipping constantly, with almost no community footprint.**
 215 stars and 34 forks since 2026-01-13, 1,023 commits, pushed 2026-10-06 (GitHub API, as of 2026-10-06).
+
+[![Star History Chart](https://api.star-history.com/chart?repos=Helweg/open-codebase-index&type=date&legend=top-left)](https://www.star-history.com/?repos=Helweg%2Fopen-codebase-index&type=date&legend=top-left)
+
 npm shows 27 versions since 2026-07-30, latest 0.35.2 published 2026-10-05, and 6,674 downloads in the month of 2026-09-05 to 2026-10-04, so installs run well ahead of stars.
 A search for its name on Hacker News returned zero hits as of 2026-10-05, so like graft and Knowhere in this section, adoption is quiet and distribution runs from README to install, not from launches.
 
@@ -62,6 +65,7 @@ My disagreeable claim: a 6,000-installs-a-month npm package with zero discussion
 ## Changes
 
 - 2026-10-05 - Created in the daily refresh's retrieval entrant scan.
+- 2026-10-07 - Added the Helweg/open-codebase-index star history chart to the Status section.
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: "Fluent"
 created: 2026-08-29
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=big-pickle, llm=glm-5.3-flash, software-factory, self-improving, autonomous-agents]
 readability: 3
@@ -21,6 +21,9 @@ Each run of a Work Item is an Attempt that a Writer, parallel Reviewers, a deter
 ## Status
 
 Active but in its first quiet stretch: 111 stars and 6 forks since creation on 2026-07-10, 1,965 commits, and v0.4.0 released 2026-09-08 (still the newest release, with no release or push since) per the GitHub API as of 2026-10-06.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=mrinalwadhwa/fluent&type=date&legend=top-left)](https://www.star-history.com/?repos=mrinalwadhwa%2Ffluent&type=date&legend=top-left)
+
 v0.4.0 clarified which role owns each required action, improved how test evidence is matched, and made long-running work safer to resume and cancel; v0.3.0 (2026-08-31) had added durable Slack collaboration for planning, approvals, and candidate handoff.
 It is a focused single-author project with a Discord community behind it; the roughly four quiet weeks since v0.4.0 are the first test of whether the shipping resumes.
 The governance and self-improvement loop are unusually detailed for the category, which is the design bet the note weighs.
@@ -61,6 +64,7 @@ Not for the one-off feature, which a simpler pipeline or a single agent handles 
 - 2026-08-30 - Reworded a banned-term phrase caught in the section-wide sweep.
 - 2026-09-09 - Status rewritten alongside the v0.4.0 release.
 - 2026-10-06 - Recorded fluent.computer now redirecting to the GitHub repository and the quiet window since v0.4.0 (no release or push since 2026-09-08); counts refreshed.
+- 2026-10-07 - Added the mrinalwadhwa/fluent star history chart to the Status section.
 
 ## See also
 

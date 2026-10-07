@@ -1,7 +1,7 @@
 ---
 title: Kodus
 created: 2026-08-30
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, code-review, ai-review, open-source, developer-tools]
 readability: 3
@@ -22,6 +22,9 @@ BYOK covers OpenAI, Anthropic, Google Gemini, Vertex AI, Novita, and any OpenAI-
 ## Status
 
 **Active and small: commits this week, with 1,449 stars and 167 forks as of 2026-10-06.**
+
+[![Star History Chart](https://api.star-history.com/chart?repos=kodustech/kodus-ai&type=date&legend=top-left)](https://www.star-history.com/?repos=kodustech%2Fkodus-ai&type=date&legend=top-left)
+
 The repo (kodustech/kodus-ai) was created March 28, 2025 and was pushed to on October 5, 2026.
 Funding: I could not verify any funding round from a primary source, so I record none.
 The community footprint is thin, and I state that as a finding: five HN launches between 1 and 5 points, the largest being a 5-point Show HN for the CLI (47248299, March 4, 2026) and a 4-point one for the AGPL/BYOK repositioning (48049508, May 7, 2026).
@@ -73,6 +76,7 @@ My disagreeable take: I trust a reviewer whose business model survives zero toke
 - 2026-09-05 - Added the Teams $8 per developer annual option alongside the $10 monthly rate.
 - 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
 - 2026-09-24 - Refreshed the repo numbers to 1,416 stars and 159 forks with a same-day push; tiers and prices unchanged.
+- 2026-10-07 - Added the kodustech/kodus-ai star history chart to the Status section.
 
 ## See also
 

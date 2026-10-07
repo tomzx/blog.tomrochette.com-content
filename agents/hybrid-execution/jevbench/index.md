@@ -1,7 +1,7 @@
 ---
 title: JevBench
 created: 2026-09-22
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, hybrid-execution, structured-outputs, system-one-models, decision-models, benchmarking, model-evaluation]
 readability: 3
@@ -28,6 +28,9 @@ The v1.2 board holds 48 ranked rows spanning hosted APIs, the open replicas, rer
 
 Active and gaining traction, as of 2026-10-06.
 The repository was created 2026-09-19, pushed 2026-09-29, and shows 227 stars and 23 forks, with five scoring releases since my first check (v1.4.0 through v1.4.2.2, September 23-27).
+
+[![Star History Chart](https://api.star-history.com/chart?repos=fstandhartinger/jevbench&type=date&legend=top-left)](https://www.star-history.com/?repos=fstandhartinger%2Fjevbench&type=date&legend=top-left)
+
 The Show HN thread (2026-09-22) climbed from 92 points when this note was created to 154 as of 2026-10-06, clearing the 100-point bar it originally sat under.
 The author has also opened a second front: an ImageJevBench v0.1.x image-modality track now lives in the repository under results/imagejevbench, with a frozen 228-public plus 456-sealed split, and its v0.1.3 candidate re-measured Imajev-4B first of 49 at 76.39 on a paid fast-serving GPU run, a separate board from the unchanged text ranking.
 A third front is the next text board itself: on 2026-09-29 the author published the frozen v1.5 scoring method with its disclosed addenda (an equal-axis, equal-type headline amendment over the byte-identical frozen method, pricing addenda including a DeepInfra disclosure correction, and a SHA-256 manifest), with the v1.4.2.2 board still current and no v1.5 results published yet.
@@ -80,6 +83,7 @@ The disagreeable claim I will defend: this benchmark's most important number is 
 - 2026-09-29 - The v1.4.2.2 point release added Imajev-4B (mohit67890, priced on a public DeepInfra Qwen3.5-4B rate estimate), which took the top spot at 67.37 and pushed Jev to fourth at 63.29, and recorded that Laya Vision stays off the board under an author-confirmation hold; refreshed stars (175), forks (18), pushed date (2026-09-28), and the thread (151 points); the board holds 95 systems, 91 ranked.
 - 2026-10-02 - Recorded the ImageJevBench v0.1.x image-modality track (frozen 228-public plus 456-sealed split; its v0.1.3 candidate re-measured Imajev-4B first of 49 at 76.39 on a paid fast-serving GPU run, a second board beside the unchanged text ranking); refreshed stars (195), forks (22), pushed date (2026-09-29), and the thread (153 points).
 - 2026-10-02 - Recorded the frozen v1.5 scoring method published 2026-09-29 (equal-axis, equal-type headline amendment, pricing addenda including a DeepInfra disclosure correction, SHA-256 manifest) with the v1.4.2.2 board still current and no v1.5 results out.
+- 2026-10-07 - Added the fstandhartinger/jevbench star history chart to the Status section.
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: rtk
 created: 2026-08-30
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, context-engines, token-efficiency, cli, open-source]
 readability: 3
@@ -26,6 +26,9 @@ Apache-2.0, built by a small French team with a commercial Pro product alongside
 ## Status
 
 Young and hot: 82,470 stars, 5,250 forks, and 1,506 open issues and pull requests combined as of 2026-10-06, created 2026-01-22, pushed 2026-10-05.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=rtk-ai/rtk&type=date&legend=top-left)](https://www.star-history.com/?repos=rtk-ai%2Frtk&type=date&legend=top-left)
+
 v0.50.0 went stable on 2026-09-24 and v0.51.0 followed on 2026-10-02, concluding that candidate train; a 0.51.1 candidate train is already running (rc.506 by 2026-10-05), and the project is pre-1.0.
 The site claims 18,000+ developers, a marketing figure, and the Show HN thread shows users posting their own measured savings.
 
@@ -70,6 +73,7 @@ Not for sessions driven by built-in Read/Grep tools, or anyone whose agents cann
 - 2026-09-26 - Recorded the follow-up 0.51.0 release-candidate train starting (rc.465 as of 2026-09-26) and refreshed the volatile numbers (81,734 stars, 5,179 forks, 1,591 open issues and PRs, pushed 2026-09-26).
 - 2026-09-27 - Refreshed the volatile numbers (81,785 stars, 5,185 forks, 1,543 open issues and PRs); stable remains v0.50.0 with the 0.51.0 candidate train at rc.468.
 - 2026-10-03 - Recorded v0.51.0 going stable (2026-10-02), the candidate train concluded, and refreshed the volatile numbers (82,266 stars, 5,223 forks, 1,579 open issues and PRs, pushed 2026-10-03); a 0.51.1 candidate train is already at rc.497.
+- 2026-10-07 - Added the rtk-ai/rtk star history chart to the Status section.
 
 ## See also
 

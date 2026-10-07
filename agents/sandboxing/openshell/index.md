@@ -1,7 +1,7 @@
 ---
 title: OpenShell
 created: 2026-08-30
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, sandboxing, isolation, security, nvidia, open-source]
 readability: 3
@@ -24,6 +24,9 @@ Linux, macOS (Apple Silicon), and Windows via WSL 2 (experimental); Apache-2.0, 
 ## Status
 
 Fast adoption, newly stable and surging: 15,029 stars, 1,711 forks, 533 open issues and PRs as of 2026-10-06, created 2026-02-24.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=NVIDIA/OpenShell&type=date&legend=top-left)](https://www.star-history.com/?repos=NVIDIA%2FOpenShell&type=date&legend=top-left)
+
 The v0.1.0 pre-release train graduated to stable v0.1.0 on 2026-09-25, with v0.1.1 following on 2026-09-26 and v0.1.2 on 2026-09-28, and the README now advertises a stable release cadence for the 0.1.x line and no longer carries the alpha badge, at about 1,600 commits (1,625) and 128 contributors.
 **Late September 2026 NVIDIA folded OpenShell into a branded Open Agent Safety Platform reference design alongside NVIDIA Sentry and BlueField-4 in-silicon enforcement on a dedicated product page, and stars jumped roughly 4,300 in the following three days, a vendor push rather than a Hacker News wave, whose debut threads drew only 2 or 3 points.**
 NVIDIA's own blog still calls it an early preview, and a stable line three point releases deep plus experimental Kubernetes and GPU features say production use is a bet on the vendor staying in.
@@ -70,6 +73,7 @@ Not for production-critical paths this quarter, or shops that cannot run Docker 
 - 2026-09-27 - The pre-release train graduated to stable: v0.1.0 released 2026-09-25 and v0.1.1 on 2026-09-26, with the README dropping its alpha badge and advertising a stable release cadence; growth refreshed (8,807 stars, 1,280 forks, 438 open issues and PRs, 1,536 commits), and the two NVIDIA docs references moved to the current why-open-shell and architecture paths after the old overview and how-it-works URLs went dead.
 - 2026-09-29 - The stable line advanced to v0.1.2 (2026-09-28) and growth refreshed (9,707 stars, 1,358 forks, 455 open issues and PRs, 1,557 commits, 124 contributors), a roughly 900-star two-day jump with no corresponding front-page thread found.
 - 2026-10-02 - Recorded the NVIDIA Open Agent Safety Platform debut (OpenShell plus Sentry plus BlueField-4 on a dedicated product page) behind a roughly 4,300-star three-day surge, with growth refreshed (14,010 stars, 1,626 forks, 517 open issues and PRs, about 1,600 commits, 126 contributors) and the platform page added to References.
+- 2026-10-07 - Added the NVIDIA/OpenShell star history chart to the Status section.
 
 ## See also
 

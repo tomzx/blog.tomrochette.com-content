@@ -1,7 +1,7 @@
 ---
 title: Jevals
 created: 2026-10-06
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, evaluation, guardrails, jev, decision-models, python]
 readability: 3
@@ -25,6 +25,9 @@ It comes from OpenLayer (the openlayer-ai organization), is alpha, MIT, Python 3
 
 **Sixteen days old and already carrying more independent evidence than most month-old tools ever get.**
 102 stars and 9 forks as of 2026-10-06 (repository created 2026-09-20, last push 2026-10-01), PyPI 0.1.4 published 2026-09-20, and a 47-point Show HN with 6 comments the same day.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=openlayer-ai/jevals&type=date&legend=top-left)](https://www.star-history.com/?repos=openlayer-ai%2Fjevals&type=date&legend=top-left)
+
 The self-run bench (September 2026, v0.1.4) measures one request per trace: $0.03 per 1,000 samples on Jev versus $2.60 for Ragas on gpt-4.1-mini, p50 244ms and p95 371ms.
 The independent checks cut both ways: LangChain's experiment found 92x to 913x lower score variance than GPT and Claude judges at $0.00035 per call, while JevBench's independent run puts Jev at small-model accuracy with calibration that varies by task.
 
@@ -69,6 +72,7 @@ Not for judgments that need multi-step reasoning or a written critique (keep an 
 ## Changes
 
 - 2026-10-06 - Created.
+- 2026-10-07 - Added the openlayer-ai/jevals star history chart to the Status section.
 
 ## See also
 

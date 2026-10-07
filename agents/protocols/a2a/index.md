@@ -1,7 +1,7 @@
 ---
 title: Agent2Agent Protocol (A2A)
 created: 2026-08-24
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, protocols, interoperability, multi-agent]
 readability: 3
@@ -28,6 +28,9 @@ IBM's rival Agent Communication Protocol merged into A2A in August 2025, consoli
 **Active, spec-stable, unevenly adopted.**
 v1.0.0 shipped 2026-03-12 and v1.0.1 on 2026-05-28 (latest as of 2026-10-02), with breaking wire changes from 0.3 but backward-compatible Agent Cards.
 The repository shows about 26k stars as of 2026-10-06, and the launch coalition of 50+ partners passed 100 supporting companies by donation time.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=a2aproject/A2A&type=date&legend=top-left)](https://www.star-history.com/?repos=a2aproject%2FA2A&type=date&legend=top-left)
+
 Support concentrates in enterprise suites (Gemini Enterprise, Agentforce, watsonx Orchestrate, SAP Joule, Azure AI Foundry).
 On 2026-10-01 the project shipped an official A2A CLI (Apache-2.0, 152 stars as of 2026-10-06), a single command surface for discovering, messaging, and streaming from A2A agents, with a companion agent skill that teaches harnesses to drive it.
 No coding harness in this index speaks it natively; the closest touchpoint is [Gemini CLI](../../harnesses/gemini-cli/index.md), where community setups attach remote A2A agents, and the CLI-plus-skill pair is now the official bridge for the rest.
@@ -67,6 +70,7 @@ The disagreeable part: I expect A2A to stay an enterprise convention, and if aut
 - 2026-08-24 - Created in the Protocols category seed.
 - 2026-09-05 - Corrected the v1.0.1 release date to 2026-05-28 per the GitHub API.
 - 2026-10-06 - Recorded the official A2A CLI (2026-10-01) and its harness-facing agent skill as the protocol's official bridge to coding agents, and refreshed stars to as of 2026-10-06.
+- 2026-10-07 - Added the a2aproject/A2A star history chart to the Status section.
 
 ## See also
 

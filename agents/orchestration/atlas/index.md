@@ -1,7 +1,7 @@
 ---
 title: Atlas
 created: 2026-09-29
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, multi-agent, coding-agents, source-control, rust]
 readability: 3
@@ -24,6 +24,9 @@ It surfaced as an entrant from the owner's GitHub stars.
 ## Status
 
 Active and growing fast: 9,154 stars in five months, last push 2026-10-04, latest release alpha-0.3.4 on 2026-09-27 (GitHub API, as of 2026-10-06).
+
+[![Star History Chart](https://api.star-history.com/chart?repos=pacifio/atlas&type=date&legend=top-left)](https://www.star-history.com/?repos=pacifio%2Fatlas&type=date&legend=top-left)
+
 Official installers ship as macOS .app/.dmg and Windows .msi; Linux is build-from-source with GTK and WebKitGTK dependencies.
 The README carries Trendshift badges for Rust, and feature work targets version branches rather than main, a sign of release discipline inside alpha.
 I found no HN launch thread and no third-party coverage: the community footprint so far is GitHub stars alone, which is itself a signal.
@@ -60,6 +63,7 @@ Not for teams needing a stable 1.0, Linux desktop installers, or a tool with ind
 ## Changes
 
 - 2026-09-29 - Created when the owner's GitHub-stars entrant resolved in the carried candidate pile.
+- 2026-10-07 - Added the pacifio/atlas star history chart to the Status section.
 
 ## See also
 

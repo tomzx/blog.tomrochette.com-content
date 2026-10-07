@@ -1,7 +1,7 @@
 ---
 title: Mem0
 created: 2026-08-24
-updated: 2026-10-05
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, agent-memory, developer-tools]
 readability: 3
@@ -26,6 +26,9 @@ The company (YC S24) was founded by Taranjeet Singh and Deshraj Yadav, previousl
 
 **Active and the adoption leader.**
 The repository shows about 66.6k stars and 2,667 commits as of 2026-10-05.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=mem0ai/mem0&type=date&legend=top-left)](https://www.star-history.com/?repos=mem0ai%2Fmem0&type=date&legend=top-left)
+
 TechCrunch reported a $24M round (a $3.9M seed plus a $20M Series A led by Basis Set Ventures, with Peak XV and the GitHub Fund) in October 2025, 186M API calls in Q3 2025, and exclusive-memory-provider status for AWS's Agent SDK.
 The site claims 150,000+ developers.
 The 2024 Show HN drew 201 points and 61 comments, though moderators flagged booster comments in that thread.
@@ -72,6 +75,7 @@ I would not choose any memory vendor on benchmark leaderboards, this field's num
 - 2026-08-24 - Created among the four memory notes of the research index seeding run.
 - 2026-09-05 - Relabeled the free tier as Hobby on the pricing page's rename, quotas identical.
 - 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
+- 2026-10-07 - Added the mem0ai/mem0 star history chart to the Status section.
 
 ## See also
 

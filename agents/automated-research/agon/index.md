@@ -1,7 +1,7 @@
 ---
 title: Agon
 created: 2026-09-27
-updated: 2026-10-03
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, llm=glm-5.3-flash, automated-research, multi-agent, autonomous-research, claude-code]
 readability: 3
@@ -25,6 +25,9 @@ It runs from a separate data workspace (commonly `agon-artifacts`) through the c
 ## Status
 
 Active and small: 54 stars, 5 forks, 1 open issue, 76 commits, created 2026-06-18, last push 2026-09-30, as of 2026-10-03.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=AutoResearch-Factory/Agon&type=date&legend=top-left)](https://www.star-history.com/?repos=AutoResearch-Factory%2FAgon&type=date&legend=top-left)
+
 The companion arXiv paper ([2606.24177](https://arxiv.org/abs/2606.24177)) was submitted 2026-06-23 and reports 444 iterations of Prompt Economy loops across more than ten scientific domains, thousands of scientist-coder-auditor iterations over three months, and a longest uninterrupted run the project page puts at 30 days.
 **That adoption record is self-reported by the authors with no independent replication, and the public community footprint is essentially absent: an HN Algolia search for Agon autonomous research returns zero hits as of 2026-10-02.**
 
@@ -64,6 +67,7 @@ Not for anyone who needs a supported product, formal guarantees, or verified ben
 ## Changes
 
 - 2026-09-27 - Created.
+- 2026-10-07 - Added the AutoResearch-Factory/Agon star history chart to the Status section.
 
 ## See also
 

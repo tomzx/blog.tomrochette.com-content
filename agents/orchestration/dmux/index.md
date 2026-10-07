@@ -1,7 +1,7 @@
 ---
 title: dmux
 created: 2026-08-24
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, orchestration, git-worktrees, terminal, open-source]
 readability: 3
@@ -27,6 +27,9 @@ Extras include lifecycle hooks (worktree create, pre-merge, post-merge), macOS n
 
 Quiet and on the watch list.
 The repository was created 2025-08-20, was last pushed 2026-08-16, fifty-one days before this check, and shows 747 commits, about 1,794 stars, and 138 forks as of 2026-10-06.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=standardagents/dmux&type=date&legend=top-left)](https://www.star-history.com/?repos=standardagents%2Fdmux&type=date&legend=top-left)
+
 npm recorded 1,124 downloads in the month ending 2026-10-04, a slight uptick against the silent repo.
 **Fifty-one days without a push moves dmux from active to the watch list: the npm trickle says people still install it, but its own historical cadence (747 commits in roughly one year) makes a fifty-one-day gap stand out, and the next move to watch is either a release or an abandonment notice.**
 Community discussion is thin: the August 2025 launch thread got 3 points and the February 2026 thread got 9 points with zero comments on Hacker News.
@@ -67,6 +70,7 @@ My disagreeable claim: multi-agent fan-out is mostly a gimmick, and dmux's genui
 
 - 2026-08-24 - Created in the Orchestration category seed.
 - 2026-10-06 - Status moved from active to the watch list: the default branch has been quiet for fifty-one days (last push 2026-08-16), a stand-out gap against the project's own cadence, while npm installs ticked up to 1,124 for the month ending 2026-10-04.
+- 2026-10-07 - Added the standardagents/dmux star history chart to the Status section.
 
 ## See also
 

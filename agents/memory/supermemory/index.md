@@ -1,7 +1,7 @@
 ---
 title: Supermemory
 created: 2026-10-04
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, agent-memory, context-engine, open-source]
 readability: 3
@@ -26,6 +26,9 @@ The company describes itself as a research lab; the repository began under found
 
 **Active and large, with adoption that outruns its discussion footprint.**
 About 31.1k stars, 2,734 forks, and 103 open issues and pull requests as of 2026-10-06, created 2024-02-27, pushed 2026-10-06 (GitHub API).
+
+[![Star History Chart](https://api.star-history.com/chart?repos=supermemoryai/supermemory&type=date&legend=top-left)](https://www.star-history.com/?repos=supermemoryai%2Fsupermemory&type=date&legend=top-left)
+
 The npm SDK pulled 487,187 downloads in the trailing month (2026-09-05 to 2026-10-04) and PyPI shows SDK version 3.62.0.
 The hosted platform claims 1T+ tokens processed per month and tens of millions of end users (vendor figures).
 The community record is thin for the star count: its largest Hacker News story threads sit at 5 points or fewer, and the README's three first-place benchmark claims have not been independently replicated in any source I could verify, though a competing project's preliminary run (below) tested it and published a worse-than-claimed number.
@@ -71,6 +74,7 @@ My disagreeable claim: Supermemory's local binary is strategically more interest
 ## Changes
 
 - 2026-10-04 - Created from the 2026-10-04 entrant scan, after Graphify's own benchmark table surfaced it as the QA-accuracy rival and the citation bar was met with eight fetched sources.
+- 2026-10-07 - Added the supermemoryai/supermemory star history chart to the Status section.
 
 ## See also
 

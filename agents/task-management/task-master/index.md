@@ -1,7 +1,7 @@
 ---
 title: Task Master
 created: 2026-08-27
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, task-management, task-tracking, mcp]
 readability: 3
@@ -24,6 +24,9 @@ Since the commercialization it is also "Taskmaster", a [Hamster](https://tryhams
 
 Open-source repo quiet, commercial product alive, usage still enormous.
 As of 2026-10-06: 28,160 stars and 2,616 forks (the largest raw numbers in this category), but the last push landed 2026-04-28 and the last release (0.43.1) on 2026-03-31, while npm still records 67,732 downloads last month.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=eyaltoledano/claude-task-master&type=date&legend=top-left)](https://www.star-history.com/?repos=eyaltoledano%2Fclaude-task-master&type=date&legend=top-left)
+
 The [LICENSE](https://github.com/eyaltoledano/claude-task-master/blob/main/LICENSE) is now MIT with a Commons Clause Condition v1.0 covering the whole repo and package, which prohibits selling the software and makes it non-OSI.
 Hamster's own [product page](https://tryhamster.com/product/taskmaster) still markets Taskmaster as "MIT licensed" with an invitation to fork, a claim the repository's license file does not support as stated.
 Development energy has visibly moved to Hamster, whose pricing sells the method as a product.
@@ -72,6 +75,7 @@ For new setups, the choice is beads for multi-agent state or Backlog.md for huma
 - 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
 - 2026-09-27 - Re-confirmed the quiet repo (last release 0.43.1, March 2026) and the Hamster tiers; counts refreshed.
 - 2026-10-06 - Recorded the gap between Hamster's product page, which still markets Taskmaster as MIT licensed and forkable, and the repository license carrying the Commons Clause; refreshed counts (28,160 stars).
+- 2026-10-07 - Added the eyaltoledano/claude-task-master star history chart to the Status section.
 
 ## See also
 

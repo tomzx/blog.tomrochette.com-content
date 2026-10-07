@@ -1,7 +1,7 @@
 ---
 title: HarnessTax
 created: 2026-09-18
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, evaluation, benchmark, coding-agents]
 readability: 3
@@ -25,6 +25,9 @@ The authors promise a public release of profiling traces, and the repository car
 
 New and already the most-discussed artifact in this category's week: the study surfaced on Hacker News on 2026-09-16 and drew 233 points and 98 comments as of 2026-10-06.
 The repository was created 2026-09-14 and pushed 2026-10-05 (a dashboard build republication; the profiling traces remain unpublished), with 1 star, because the study page is the artifact and the code is just its vehicle, and its GitHub description now brands it AgentBRANE, a benchmark dashboard for harness-and-model pairs.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=HarnessTax/HarnessTax.github.io&type=date&legend=top-left)](https://www.star-history.com/?repos=HarnessTax%2FHarnessTax.github.io&type=date&legend=top-left)
+
 **The traction here is academic credibility rather than community adoption: Ion Stoica and Matei Zaharia anchor the author list, and the thread argued the findings instead of the provenance.**
 
 ## Strengths
@@ -64,6 +67,7 @@ Not as a harness shopping leaderboard, since three harnesses and two contaminati
 - 2026-09-25 - The launch thread grew to 232 points and 97 comments, the repository pushed 2026-09-22 with its study data regenerated, and its GitHub description now brands it AgentBRANE.
 - 2026-10-06 - Added the Harness-Bench arXiv study (2605.27922) to Compared to and References as a second independent academic harness-variance study.
 - 2026-10-06 - Added the What Does a Harness Buy arXiv study (2610.04433) to Compared to and References as a third academic harness-variance study whose rerun-variance finding stress-tests the tax framing.
+- 2026-10-07 - Added the HarnessTax/HarnessTax.github.io star history chart to the Status section.
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: "Super Simple Software Factory"
 created: 2026-08-29
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=big-pickle, llm=glm-5.3-flash, software-factory, agentic-workflows, sdlc]
 readability: 3
@@ -22,6 +22,9 @@ It is built on the `pi` coding agent plus `uv`, and there is a Vue-and-Bun visua
 ## Status
 
 Young, deliberately small, and quiet since launch: 945 stars and 246 forks since creation on 2026-08-02, with no push since 2026-08-04, two months before 2026-10-06.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=disler/super-simple-software-factory&type=date&legend=top-left)](https://www.star-history.com/?repos=disler%2Fsuper-simple-software-factory&type=date&legend=top-left)
+
 The repository has a single commit on `main`, no releases, and a separate `example` branch that holds a demo repo with the factory already stamped in and real traces.
 This is a one-author starting point ("nothing here is meant to survive contact with your codebase unchanged"), not an actively multiplying ecosystem.
 
@@ -62,6 +65,7 @@ Not for one-off features, which a single agent prompt handles cheaper, and not f
 - 2026-08-29 - Created as the founding member of the new Software factory category.
 - 2026-08-29 - Compared-to rewritten to name Fluent and HAR as peers.
 - 2026-10-02 - Marked the repository quiet since 2026-08-04 (no push in nearly two months as of 2026-10-02) and refreshed counts.
+- 2026-10-07 - Added the disler/super-simple-software-factory star history chart to the Status section.
 
 ## See also
 

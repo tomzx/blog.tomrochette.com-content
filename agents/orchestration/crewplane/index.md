@@ -1,7 +1,7 @@
 ---
 title: Crewplane
 created: 2026-09-27
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, llm=glm-5.3-flash, orchestration, workflows, cli, markdown]
 readability: 3
@@ -25,6 +25,9 @@ Optional features include a tmux dashboard, Git-backed workspace isolation, revi
 ## Status
 
 Very early but shipping: about 41 stars and 6 forks as of 2026-10-06, created 2026-06-24, and active development through v0.3.6 on 2026-10-05 (bug-fix and change-review example workflows, review loops resuming from completed phase checkpoints) with default-branch commits through October 5.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=crewplaneai/crewplane&type=date&legend=top-left)](https://www.star-history.com/?repos=crewplaneai%2Fcrewplane&type=date&legend=top-left)
+
 The repository is Python, passes an OpenSSF Best Practices badge, and documents an install-to-inspect path that runs a mock invoker before any real provider call.
 **At roughly three months old and 41 stars, Crewplane is a cohort-of-one tool from a single vendor; its value depends on whether the Markdown-as-workflow idea outlives the project.**
 
@@ -63,6 +66,7 @@ Not for anyone who wants a visual board, and not for shops that need a mature, m
 ## Changes
 
 - 2026-09-27 - Created.
+- 2026-10-07 - Added the crewplaneai/crewplane star history chart to the Status section.
 
 ## See also
 

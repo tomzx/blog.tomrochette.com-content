@@ -1,7 +1,7 @@
 ---
 title: Ordewell
 created: 2026-09-16
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, task-management, planner, multi-agent, open-source]
 readability: 3
@@ -26,6 +26,9 @@ The planner's permissions are unusually explicit (ADR-0008): commands classify i
 
 Active, young, and small.
 As of 2026-10-06: 184 stars, 14 forks, 29 open issues (most of them a single-day roadmap filing on 2026-09-26), created 2026-07-31, pushed 2026-10-05, latest release v0.7.0 on 2026-10-05, and roughly 6,200 npm downloads last month across the `ordewell` and `@ordewell/cli` package names.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=ordewell/ordewell&type=date&legend=top-left)](https://www.star-history.com/?repos=ordewell%2Fordewell&type=date&legend=top-left)
+
 v0.7.0 moved completion and planning onto Ordewell's own tools: a task reports done with `task_complete` and asks with `checkpoint` instead of printing markers, the planner reads the live runner catalog and submits the plan through tools, and the printed marker stays as the fallback for the terminal transport, plugin runners, and sessions where the server did not attach; it landed a day after the three 0.6.x fix releases of 2026-10-04, which completed a five-release v0.6.x line begun by the 2026-10-02 pair that made the structured transport the default with Codex and OpenCode connectors and added ops tasks and merge gates (ADR-0020), so a task that acts on the world runs once the work it depends on is merged.
 The Show HN launch thread reached 56 points and 30 comments on 2026-09-15.
 
@@ -71,6 +74,7 @@ The disagreeable claim I will defend: the AI-written launch thread is not disqua
 - 2026-10-03 - Recorded the v0.6.0 and v0.6.1 releases (both 2026-10-02: structured transport as the default with Codex and OpenCode connectors, then ops tasks and merge gates per ADR-0020), refreshed counts (32 open issues, pushed 2026-10-02), and updated the launch thread to 30 comments.
 - 2026-10-06 - Recorded the v0.7.0 release (2026-10-05, the MCP server for task and planner tools) and refreshed counts; corrected the launch-thread comment count in References to 30.
 - 2026-10-06 - Corrected the v0.7.0 characterization against the changelog (Ordewell's own task and planner tools over the structured transport, not an MCP server, with the printed marker as the documented fallback for the terminal transport, plugin runners, and unattached sessions) and fixed the release-chain arithmetic (five v0.6.x releases including the three fixes of 2026-10-04); refreshed counts (184 stars) and added the changelog reference.
+- 2026-10-07 - Added the ordewell/ordewell star history chart to the Status section.
 
 ## See also
 

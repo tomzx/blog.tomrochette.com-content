@@ -1,7 +1,7 @@
 ---
 title: Raven
 created: 2026-10-06
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, dag-planning, host-agent, self-hosted, benchmarking]
 readability: 3
@@ -24,6 +24,9 @@ Apache-2.0, self-hosted, by EverMind-AI, with a technical report released as its
 ## Status
 
 Active and very early: 5,213 stars and 149 forks as of 2026-10-05, created 2026-05-21, with 35 contributors and v0.2.4 out on 2026-10-03 after five releases in September.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=EverMind-AI/Raven&type=date&legend=top-left)](https://www.star-history.com/?repos=EverMind-AI%2FRaven&type=date&legend=top-left)
+
 The Show HN thread from 2026-09-29 drew 55 points and about 51 comments, and it is where the launch went wrong: dang, Hacker News's moderator, asked the authors to stop posting AI-generated or AI-edited comments, which site rules prohibit.
 The same thread produced the sharpest one-line critique of the positioning: "it is loops", with no weight updates anywhere in the system.
 
@@ -60,6 +63,7 @@ Not for anyone who needs a clean provenance story today or stable APIs before 1.
 ## Changes
 
 - 2026-10-06 - Created.
+- 2026-10-07 - Added the EverMind-AI/Raven star history chart to the Status section.
 
 ## See also
 

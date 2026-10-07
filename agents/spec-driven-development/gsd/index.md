@@ -1,7 +1,7 @@
 ---
 title: GSD
 created: 2026-09-16
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, spec-driven-development, context-engineering, workflow, open-source]
 readability: 3
@@ -25,6 +25,9 @@ Open GSD has grown an ecosystem around the loop: gsd-pi (a standalone harness), 
 
 Split between a dead root and a live successor.
 The original gsd-build/get-shit-done is archived at 64,370 stars and 5,433 forks, last pushed 2026-05-31, with its README now a redirect notice to open-gsd/gsd-core.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=open-gsd/gsd-core&type=date&legend=top-left)](https://www.star-history.com/?repos=open-gsd%2Fgsd-core&type=date&legend=top-left)
+
 The successor, created 2026-05-22, is actively developed: 10,215 stars, 733 forks, pushed 2026-10-06, release v1.16.0 on 2026-10-05 still the newest, and 43,409 npm downloads last month for @opengsd/gsd-core, while the legacy get-shit-done-cc package records 56,342.
 **The transition was not clean: Blake Watson's widely-linked build story added a 2026-07-31 update telling readers not to install the original, reporting that people say a crypto scam took place around the creator, and naming OpenGSD the consensus successor.**
 Open GSD's own origin page confirms the chapter without specifics, stating trust was damaged, people were hurt, public channels disappeared, and crediting Christopherson with the original idea.
@@ -67,6 +70,7 @@ The disagreeable claim I will defend: 64,370 stars is the strongest evidence the
 - 2026-09-27 - Recorded the successor's v1.15.0 release (2026-09-26) and refreshed counts (archived original at 64,451 stars, successor at 9,885).
 - 2026-10-06 - Recorded the successor's v1.16.0 release (2026-10-05) and refreshed counts.
 - 2026-10-06 - Unified the archived original's star count to one sourced figure (64,370 as of today; Status, Bottom line, and References had drifted to three different values), refreshed the successor's counts, and corrected the stale npm annotation.
+- 2026-10-07 - Added the open-gsd/gsd-core star history chart to the Status section.
 
 ## See also
 

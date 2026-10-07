@@ -1,7 +1,7 @@
 ---
 title: "HAR"
 created: 2026-08-29
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=big-pickle, llm=glm-5.3-flash, software-factory, harness, multi-agent, worktrees]
 readability: 3
@@ -22,6 +22,9 @@ It is harness-agnostic and works with Claude Code, Cursor, Codex, or any MCP-cap
 ## Status
 
 Active and shipping fast: 97 stars and 12 forks since creation on 2026-06-28, v1.15.1 released 2026-09-28 (v1.0.0 landed 2026-08-28, ten releases in the first week of September alone, and none since), and the last main push on 2026-10-02 per the GitHub API as of 2026-10-06.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=os-factory/har&type=date&legend=top-left)](https://www.star-history.com/?repos=os-factory%2Fhar&type=date&legend=top-left)
+
 It carries a code of conduct, security policy, and a sponsor (Kerno, a runtime code tester for coding agents), which is a steadier footprint than the category's usual single-commit repo.
 
 ## Strengths
@@ -71,6 +74,7 @@ Not for a solo developer doing one agent at a time, where the harness alone is s
 - 2026-09-25 - Recorded the v1.14.3 release (2026-09-24) and re-verified HAR HQ pricing unchanged.
 - 2026-09-27 - Recorded the v1.15.0 release (2026-09-26) and re-verified HAR HQ pricing unchanged.
 - 2026-09-29 - Recorded the v1.15.1 release (2026-09-28) and refreshed counts (96 stars, pushed 2026-09-28); HAR HQ pricing re-verified unchanged.
+- 2026-10-07 - Added the os-factory/har star history chart to the Status section.
 
 ## See also
 

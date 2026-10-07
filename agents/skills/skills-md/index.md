@@ -1,7 +1,7 @@
 ---
 title: skills.md
 created: 2026-10-06
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, skills, registries, marketplaces, hosted-execution]
 readability: 3
@@ -24,6 +24,9 @@ Authors publish with `skills push`, where every push is a version, and companies
 
 **Active product, near-zero community footprint.**
 The npm package has shipped 165 versions in roughly eight months, but the GitHub repository showed 0 stars and 0 forks as of 2026-10-06, ten days after it went public.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=hasna/skills&type=date&legend=top-left)](https://www.star-history.com/?repos=hasna%2Fskills&type=date&legend=top-left)
+
 No Hacker News story covers the marketplace (my search returned only 4-point items about the SKILL.md filename in general), and I found no independent review, so the adoption evidence is the release cadence, not a community.
 The site is candid in ways that help evaluation: its marketplace labels every hosting status unverified pending a live check, and its demo session is labeled illustrative.
 
@@ -69,6 +72,7 @@ My disagreeable claim: this is the first skills product that could actually sust
 ## Changes
 
 - 2026-10-06 - Created in the daily refresh's skills entrant scan.
+- 2026-10-07 - Added the hasna/skills star history chart to the Status section.
 
 ## See also
 

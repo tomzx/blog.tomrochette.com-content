@@ -1,7 +1,7 @@
 ---
 title: Foremerge
 created: 2026-09-22
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, parallel-agents, coordination, git-worktrees, open-source]
 readability: 3
@@ -27,6 +27,9 @@ The author is Nick Woodhead, who built it as internal tooling at GPTree, a compa
 
 Active, young, and gaining traction fast.
 The repository was created 2026-08-21 and shows 525 stars and 22 forks as of 2026-10-06 (GitHub API).
+
+[![Star History Chart](https://api.star-history.com/chart?repos=naw103/foremerge&type=date&legend=top-left)](https://www.star-history.com/?repos=naw103%2Fforemerge&type=date&legend=top-left)
+
 Its Show HN on 2026-09-21 drew 45 points and 16 comments, modest by this category's standards but substantive, with real pushback answered in the thread.
 v0.4.3 shipped 2026-09-18, v0.5.0 on 2026-09-23, and v0.5.1 became the latest published release on 2026-10-03, still pre-1.0 with public schemas that may change.
 v0.5.1 is a ledger-compatible patch: it fixes `doctor` on Windows and for setups installed as `fmg`, and keeps `foremerge mcp` answering when the CLI binary is renamed.
@@ -71,6 +74,7 @@ My disagreeable claim: this is the missing layer the whole worktree-manager cate
 - 2026-09-22 - Created from the same-day entrant resolution (45-point Show HN on 2026-09-21, 498 stars, six primary sources fetched this run).
 - 2026-09-24 - Refreshed: 505 stars and 21 forks, and v0.5.0 confirmed as the latest published release (2026-09-23).
 - 2026-10-03 - Recorded v0.5.1 (October 3, a ledger-compatible patch fixing `doctor` on Windows and renamed-binary MCP setups) as the new latest release, and refreshed star and fork counts.
+- 2026-10-07 - Added the naw103/foremerge star history chart to the Status section.
 
 ## See also
 

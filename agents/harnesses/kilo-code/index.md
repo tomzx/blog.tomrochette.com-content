@@ -1,7 +1,7 @@
 ---
 title: Kilo Code
 created: 2026-08-27
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agents, harnesses, open-source, vscode, byok]
 readability: 3
@@ -25,6 +25,9 @@ Any-model BYOK works alongside Kilo's own metered credits, with local models via
 
 **Active under new ownership.**
 The repository shows about 27.5k stars under MIT as of 2026-10-04, most recently pushed within a day of verification; component tags ship on their own clocks (the newest tag is v7.8.3, published October 1, 2026, and it is the latest stable release, following the v7.8.2 prerelease earlier the same day).
+
+[![Star History Chart](https://api.star-history.com/chart?repos=Kilo-Org/kilocode&type=date&legend=top-left)](https://www.star-history.com/?repos=Kilo-Org%2Fkilocode&type=date&legend=top-left)
+
 Anaconda announced the acquisition on July 15, 2026 and already lists Kilo among its products; kilocode.ai redirects to kilo.ai, where the vendor positions it as an all-in-one agentic engineering platform.
 
 ## Strengths
@@ -79,6 +82,7 @@ Not for teams needing a stable multi-year vendor story right now, because owners
 - 2026-09-26 - Recorded releases moving to v7.8.1 (September 25), now the latest stable after the v7.8.0 prerelease, and refreshed repository state; pricing re-verified unchanged.
 - 2026-10-02 - Recorded releases moving to v7.8.3 (October 1), now the latest stable after the v7.8.2 prerelease, and refreshed repository state; pricing re-verified unchanged against the live pricing page.
 - 2026-10-06 - Corrected the stale harness count in the See-also matrix line.
+- 2026-10-07 - Added the Kilo-Org/kilocode star history chart to the Status section.
 
 ## See also
 

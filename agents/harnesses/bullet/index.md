@@ -1,7 +1,7 @@
 ---
 title: Bullet
 created: 2026-08-30
-updated: 2026-10-05
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agents, harnesses, model-routing, benchmarks]
 readability: 3
@@ -28,6 +28,8 @@ v1.4.23 as of 2026-10-05, still the newest build on both the CLI registry and th
 The CLI shipped on npm on August 7, 2026 and did 1,720 downloads in the last month (the API window covering September 4-October 3) and 107 in the week ending October 3 as of 2026-10-05, down from 1,883 and 178 in the prior windows, the first decline this note has recorded.
 Its Launch HN on August 13, 2026 reached 121 points (item 49283063), nine days after a quiet 9-point Show HN.
 Traction is early and now drifting down: thousands of installs, not millions, with YC backing as the deliberately stated signal behind it.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=trybullet/bullet-releases&type=date&legend=top-left)](https://www.star-history.com/?repos=trybullet%2Fbullet-releases&type=date&legend=top-left)
 
 ## Strengths
 
@@ -65,6 +67,7 @@ I think speed is the wrong axis for buying a coding agent, and a 119-second mean
 - 2026-09-20 - Moved the current build to v1.4.21 (published September 19, 2026) and refreshed npm download counts.
 - 2026-09-21 - Moved the current build to v1.4.22 (published September 21, 2026) and refreshed npm download counts.
 - 2026-09-24 - Moved the current build to v1.4.23 (published September 23, 2026); npm download counts are unchanged on the same API windows.
+- 2026-10-07 - Added the trybullet/bullet-releases star history chart to the Status section.
 
 ## See also
 

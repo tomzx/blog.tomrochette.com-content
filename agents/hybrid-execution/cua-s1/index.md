@@ -1,7 +1,7 @@
 ---
 title: CUA-S1
 created: 2026-09-20
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, hybrid-execution, structured-outputs, computer-use, system-one-models, open-weights]
 readability: 3
@@ -26,6 +26,9 @@ It lives inside the trycua/cua monorepo (MIT) as a source component, with weight
 Early research artifact, days old, and unusually candid about it.
 The component README still describes a source-only release whose checkpoint table reads "weights not distributed", while the main README and the checkpoint metadata point at the `cua-ai/cua-s1-forms` weights created on Hugging Face on 2026-09-18, a documentation wrinkle worth knowing before you cite either.
 The launch Show HN thread (2026-09-19) reached 95 points as of 2026-10-06, and the host repository shows 28,292 stars as of 2026-10-06, though nearly all of that is the surrounding Cua computer-use project, created 2025-01-31, not the model.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=trycua/cua&type=date&legend=top-left)](https://www.star-history.com/?repos=trycua%2Fcua&type=date&legend=top-left)
+
 The original headline numbers remain vendor-run and synthetic-only: 99.94% top-1 on a held-out 22,054-example synthetic split, ECE 0.000148, and 2,589 rows per second, all from the checkpoint's own metadata.
 The Hugging Face model card was materially expanded on 2026-09-21: the checkpoint now ships as a safetensors pair (the loader rejects pickled files by design), a first real-world demo eval landed (100% top-1 over 196 decisions on three real forms and three real PDFs, plus a 37% shuffled-context control), and a zero-fine-tuning head-to-head against the hosted Jev API scored 99.7% for this model against 83.6% for Jev, with the card conceding Jev was never trained on this project's no-op labeling convention.
 The family has since grown to four checkpoints: cua-s1-nano-0.1, an 855K-parameter from-scratch option-attention scorer for general element/action decisions, and a 4B line, cua-s1-4b-0.1 and cua-s1-4b-0.2, LoRA adapters on a frozen Qwen3.5-4B covering text and multimodal modalities, each trained with its own supervised stage and its own reinforcement-learning stage against live GUI environments.
@@ -69,6 +72,7 @@ The disagreeable claim I will defend: a 706k-parameter model trained in public o
 - 2026-09-21 - Recorded the expanded Hugging Face model card: safetensors checkpoint format, a first real-world eval (196 decisions, 100% top-1, 37% shuffled-context control), and a head-to-head against hosted Jev (99.7% versus 83.6%); refreshed thread (89 points) and repository (about 25,300 stars) counts.
 - 2026-09-22 - Recorded the first independent artifacts (three community quantizations and a browser-demo Space), and refreshed thread (92 points), repository (about 26,000 stars), and card (107 likes) counts.
 - 2026-10-06 - Recorded the family's growth to four checkpoints (nano-0.1, an 855K from-scratch element/action scorer; the 4B-0.1 and 4B-0.2 LoRA line on Qwen3.5-4B with supervised plus RL stages), the 2026-09-26 pinned licensed weight revisions, and the model card's 29.3 percent out-of-catalogue form disclosure; refreshed the host repository count to about 28,200 stars.
+- 2026-10-07 - Added the trycua/cua star history chart to the Status section.
 
 ## See also
 

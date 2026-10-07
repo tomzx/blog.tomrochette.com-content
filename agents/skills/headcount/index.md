@@ -1,7 +1,7 @@
 ---
 title: Headcount
 created: 2026-09-27
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, skills, claude-code, agent-organization, plugin-marketplace]
 readability: 3
@@ -25,6 +25,9 @@ Each department also ships an agent charter in `.claude/agents/`, so a departmen
 ## Status
 
 Active: 1,992 stars and 313 forks as of 2026-10-06, created 2026-08-28, repo pushed 2026-09-17, no releases or version tags yet.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=cbrock84/headcount&type=date&legend=top-left)](https://www.star-history.com/?repos=cbrock84%2Fheadcount&type=date&legend=top-left)
+
 The skill count keeps moving: a third-party count found 143 skills on August 30, press coverage said 146 on August 31, and the README now claims 172 across the same 16 departments.
 No Hacker News thread surfaced under its name in my searches as of 2026-10-04; traction is GitHub, the org chart page, and third-party writeups.
 One external contribution (ChatGPT and Codex manifests) is credited in the README.
@@ -66,6 +69,7 @@ My disagreeable claim: the sixteen-department metaphor is mostly packaging, the 
 ## Changes
 
 - 2026-09-27 - Created when the owner's GitHub-stars candidates were processed.
+- 2026-10-07 - Added the cbrock84/headcount star history chart to the Status section.
 
 ## See also
 

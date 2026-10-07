@@ -1,7 +1,7 @@
 ---
 title: MiMo Code
 created: 2026-09-27
-updated: 2026-10-04
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, llm=glm-5.3-flash, harnesses, coding-agents, open-source, xiaomi, long-horizon]
 readability: 3
@@ -25,6 +25,9 @@ Provider access follows the OpenCode approach: any of 75+ providers through the 
 
 **Active and pre-1.0.**
 The repository was created 2026-06-10 and lists about 13.6k stars and 1.4k forks under MIT as of 2026-10-04, with 1,369 commits and a push on 2026-10-03.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=XiaomiMiMo/MiMo-Code&type=date&legend=top-left)](https://www.star-history.com/?repos=XiaomiMiMo%2FMiMo-Code&type=date&legend=top-left)
+
 The newest release by publication time is v0.1.14 (published 2026-09-23), published a day after v0.1.15 (2026-09-22), so five months after launch the project is still on a 0.1.x line.
 The launch drew a 557-point Hacker News thread with 315 comments on 2026-06-11, and the tracker carries roughly 800 open issues plus 284 open pull requests, many auto-filed and low-signal.
 
@@ -80,6 +83,7 @@ My disagreeable claim: the co-evolution story is mostly packaging, since the mat
 - 2026-09-27 - Corrected the latest-release fact: the newest release by publication time is v0.1.14 (published 2026-09-23), a day after v0.1.15 (2026-09-22); the 0.1.x status is unchanged.
 - 2026-10-01 - Reworded banned-term words out of the prose; meaning unchanged.
 - 2026-10-04 - Recorded the subscription page's retirement date for the V2.5 models (October 21, 2026), refreshed repository activity, and re-verified the tier prices unchanged.
+- 2026-10-07 - Added the XiaomiMiMo/MiMo-Code star history chart to the Status section.
 
 ## See also
 

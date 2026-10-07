@@ -1,7 +1,7 @@
 ---
 title: AstrBot
 created: 2026-10-06
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, assistant-runtimes, python, chat-channels, plugins, open-source]
 readability: 3
@@ -25,6 +25,9 @@ The agent layer has sub-agents, tool calls, workflow orchestration, context comp
 ## Status
 
 Active and long-lived: 41,466 stars, 3,023 forks, and 1,612 open issues and pull requests as of 2026-10-06, created 2022-12-08, pushed 2026-10-06, AGPL-3.0.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=AstrBotDevs/AstrBot&type=date&legend=top-left)](https://www.star-history.com/?repos=AstrBotDevs%2FAstrBot&type=date&legend=top-left)
+
 The cadence is steady: v4.28.1 (2026-09-14), v4.28.2 (2026-09-27), and a v4.29.0-beta.1 prerelease (2026-10-01).
 The community runs through 15-plus QQ groups, a Discord server, HelloGitHub, and Trendshift, not through HN or the Western blogosphere, and that shows in the record: an Algolia story search for AstrBot returns only astroturfing threads it typo-matches, no AstrBot story at all.
 **The missing independent footprint is the signal to weigh before trusting it: adoption this size with zero English-language technical scrutiny means the vetting has happened in QQ groups you are probably not reading.**
@@ -62,6 +65,7 @@ Not for anyone who needs permissive licensing for a hosted offering, or who cann
 ## Changes
 
 - 2026-10-06 - Created from the entrant scan as the category's fourteenth member.
+- 2026-10-07 - Added the AstrBotDevs/AstrBot star history chart to the Status section.
 
 ## See also
 

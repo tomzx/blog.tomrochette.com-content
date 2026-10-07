@@ -1,7 +1,7 @@
 ---
 title: Squad
 created: 2026-09-29
-updated: 2026-10-05
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, multi-agent, coding-agents, copilot]
 readability: 3
@@ -27,6 +27,8 @@ Active: last push 2026-10-05, latest release v1.0.1 on 2026-10-04, a release-pac
 The 1.0.0 wave caps the alpha period: the README no longer carries the alpha badge that earlier releases warned about, though the project is still a solo-maintainer CLI and the API caveats deserve re-reading before you script against it.
 Traction is real but concentrated: npm recorded 13,452 downloads of `@bradygaster/squad-cli` in the month ending 2026-10-03, up from 9,823 in the window ending 2026-10-01.
 Independent discussion is nearly absent: the largest HN thread I found has 2 points, so the footprint is GitHub plus npm alone, which is itself a signal.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=bradygaster/squad&type=date&legend=top-left)](https://www.star-history.com/?repos=bradygaster%2Fsquad&type=date&legend=top-left)
 
 ## Strengths
 
@@ -63,6 +65,7 @@ Not for teams on other agent runtimes, or anyone who needs a stable, community-v
 - 2026-09-29 - Created when the new-entries list from the Awesome Multi-Agent Orchestrators directory resolved.
 - 2026-10-03 - Status move: v1.0.0 published October 3 (dev line promoted to main), the README no longer badges the project alpha, and star count refreshed to 3,251.
 - 2026-10-05 - Recorded v1.0.1 (October 4, Homebrew and WinGet publish-auth fix) as the latest release and refreshed the npm monthly downloads.
+- 2026-10-07 - Added the bradygaster/squad star history chart to the Status section.
 
 ## See also
 

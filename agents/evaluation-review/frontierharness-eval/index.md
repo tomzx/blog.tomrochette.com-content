@@ -1,7 +1,7 @@
 ---
 title: "FrontierHarness Eval"
 created: 2026-09-05
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, evaluation, benchmark, coding-agents]
 readability: 3
@@ -23,6 +23,8 @@ Task definitions, difficulty metadata, harness versions, and normalized results 
 New and gaining traction: the repository was created 2026-08-31 and pushed 2026-09-08, and the launch drew an 82-point Hacker News thread with substantive methodological discussion.
 **The benchmark is vendor-run: Runta sells an execution layer for AI agents and announced a $20M seed led by a16z, so the neutrality that makes the numbers useful is asserted, not structural.**
 The repository carries no license as of 2026-09-25, which limits reuse of the task definitions themselves.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=frontier-harness-eval/eval&type=date&legend=top-left)](https://www.star-history.com/?repos=frontier-harness-eval%2Feval&type=date&legend=top-left)
 
 ## Strengths
 
@@ -61,6 +63,7 @@ Not as a final ranking, and not for teams whose tasks look nothing like its 30.
 - 2026-09-12 - Quality spread corrected from about 13 to about 17 points, with publisher attribution folded in and Claude Code second on quality.
 - 2026-10-04 - Added the Scaffold Effect arXiv study to Compared to and References as the independent academic counterpart on harness variance.
 - 2026-10-06 - Added the MLE minimal-harness arXiv study (2609.40303) to Compared to and References as the strongest current version of the harness-matters-little objection.
+- 2026-10-07 - Added the frontier-harness-eval/eval star history chart to the Status section.
 
 ## See also
 

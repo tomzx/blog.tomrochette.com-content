@@ -1,7 +1,7 @@
 ---
 title: aider
 created: 2026-08-22
-updated: 2026-10-04
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, coding-agents, harnesses, pair-programming, open-source]
 readability: 3
@@ -26,6 +26,9 @@ It connects to nearly any LLM, including local models.
 
 **Development stalled; the tool itself still works.**
 About 49.3k stars and 5.0k forks as of 2026-10-04, but the default branch has had no commits since May 22, 2026, and the last tagged release (v0.86.0) dates to August 2025.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=Aider-AI/aider&type=date&legend=top-left)](https://www.star-history.com/?repos=Aider-AI%2Faider&type=date&legend=top-left)
+
 The polyglot leaderboard (225 Exercism exercises) is still published, but its headline results date to August 2025, and the site's "works best with" copy still names Claude 3.7 Sonnet-era models.
 
 ## Strengths
@@ -66,6 +69,7 @@ Not for long autonomous tasks, hands-off refactors, or teams that need an active
 - 2026-08-22 - Removed the type field per a section-wide owner rules change.
 - 2026-08-23 - Downgraded status to development stalled on GitHub API evidence and added a maintenance-risk caution.
 - 2026-08-26 - Replaced a mis-cited HN reference with the Wasting Inferences with Aider thread and aligned the header verification date.
+- 2026-10-07 - Added the Aider-AI/aider star history chart to the Status section.
 
 ## See also
 

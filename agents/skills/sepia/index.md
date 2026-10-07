@@ -1,7 +1,7 @@
 ---
 title: Sepia
 created: 2026-09-27
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, skills, writing, humanizer, fiction]
 readability: 3
@@ -26,6 +26,9 @@ Install is `npx skills add Nanako0129/sepia -g` or a native plugin marketplace, 
 ## Status
 
 Active and early: 2,992 stars and 193 forks as of 2026-10-06, repo pushed 2026-09-23, eleven open issues, created 2026-08-28.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=Nanako0129/sepia&type=date&legend=top-left)](https://www.star-history.com/?repos=Nanako0129%2Fsepia&type=date&legend=top-left)
+
 The growth is fast but young: the entrant data had it near 1,444 stars about five days after launch, and it has roughly doubled since.
 There is no Hacker News thread under its name (my searches returned only unrelated sepia stories) and no mainstream coverage as of 2026-09-27, so the audience is GitHub plus the third-party registries that mirror and review it.
 A third-party snapshot service recorded 2,860 stars on 2026-09-26, one day before this note's count, so the trajectory held through the week.
@@ -66,6 +69,7 @@ My disagreeable claim: most humanizer installs, sepia included, are plausibly wa
 ## Changes
 
 - 2026-09-27 - Created when the owner's GitHub-stars candidates were processed.
+- 2026-10-07 - Added the Nanako0129/sepia star history chart to the Status section.
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: SemIf
 created: 2026-09-21
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, hybrid-execution, structured-outputs, system-one-models, decision-models, open-source, webgpu]
 readability: 3
@@ -26,6 +26,9 @@ The rename is part of the artifact: after its launch thread debated trademark ri
 
 Three weeks old and active, as of 2026-10-06.
 Created 2026-09-16, last push 2026-09-23, two contributors, no tags or releases, 341 forks, about 4,700 stars.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=TheoLeeCJ/SemIf-OpenJev&type=date&legend=top-left)](https://www.star-history.com/?repos=TheoLeeCJ%2FSemIf-OpenJev&type=date&legend=top-left)
+
 By 2026-10-03 the repository itself is named TheoLeeCJ/SemIf-OpenJev, with the /SemIf and /openjev URLs redirecting to it, so the OpenJev rename now lives in the repository name as well.
 The community footprint is large but lives under the old name: the "OpenJev" thread linking openjev.com reached 722 points as of 2026-10-06, the third-largest thread in the Jev wave after Jev's own launch and Laya's.
 Three community PRs merged on 2026-09-22: PyTorch/MPS scoring for Apple Silicon, a Qwen3.8-27B EXL3 bridge, and per-workload temperature calibration with calibrated prediction outputs.
@@ -74,6 +77,7 @@ I run the browser demo before I believe any latency claim in this category, and 
 - 2026-09-27 - JevBench's v1.4.2.1 point release moved SemIf from eleventh to twelfth at the same 47.7, with Jev now third behind Plumb-4B (65.84) and decider-4b v2 (64.13).
 - 2026-09-29 - JevBench's v1.4.2.2 point release moved SemIf from twelfth to thirteenth at the same 47.7, with Jev now fourth behind Imajev-4B (67.37); refreshed stars (about 4,500) and forks (315).
 - 2026-10-03 - Recorded the repository's canonical name moving to TheoLeeCJ/SemIf-OpenJev (the /SemIf and /openjev URLs redirect to it); refreshed stars (about 4,660) and forks (333).
+- 2026-10-07 - Added the TheoLeeCJ/SemIf-OpenJev star history chart to the Status section.
 
 ## See also
 

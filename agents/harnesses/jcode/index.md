@@ -1,7 +1,7 @@
 ---
 title: jcode
 created: 2026-08-30
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agents, harnesses, rust, yc, memory, multi-agent]
 readability: 3
@@ -26,6 +26,9 @@ Its three distinctive systems are an embedding-based memory graph with passive r
 
 **Active and rising fast, with a bus factor of one.**
 Created January 5, 2026, it shows 20,319 stars and 2,360 forks with a push on the day of verification (GitHub API, as of 2026-10-06), and a release cadence that ran near-daily until v0.84.0 on September 7, 2026, followed by a twelve-day pause that v0.85.0 ended on September 19, 2026, v0.86.0 a day later on September 20, the v0.87 pair starting September 22 (v0.87.0, which added Claude Opus 5.5 with independent Anthropic model discovery and Claude Code 2.1.280 OAuth compatibility, with v0.87.1 following within hours), and v0.88.0 on September 23, which made Claude Opus 5.5 the default Anthropic model and added multi-browser support and banked resets for exhausted OpenAI usage.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=1jehuang/jcode&type=date&legend=top-left)](https://www.star-history.com/?repos=1jehuang%2Fjcode&type=date&legend=top-left)
+
 v0.89.0 followed on September 28, adding built-in voice input with native microphone capture, interactive agent applets, a pinned session status line, and cross-swarm messaging with unique labels, and v0.90.0 landed October 1, making web search provider-native (Anthropic and OpenAI server-side search by default instead of scraping from your machine, with an opt-out back to local search engines) and keeping mid-session skill installs from busting the prompt cache.
 v0.90.1 shipped October 5, auto-retrying OpenAI-compatible providers that answer 5xx heavy-usage errors, showing real quota windows for Kimi Code, Cursor, and the Z.ai Coding Plan in /usage, and keeping saved API keys in their env files so key edits no longer need a restart.
 v0.91.0 shipped October 6, adding a Google login flow with per-service consent and a built-in calendar tool (view, create, update, delete events), guided Google OAuth app setup that imports existing gcloud credentials, Alt+Up/Down cycling of the speed tier among Standard, Fast, and Ultrafast, a `/desktop` command that opens the current session in Jcode Desktop, MCP tool results and mcp_search output fitted to token budgets, and a batch of coordinator and swarm fixes.
@@ -90,6 +93,7 @@ Not for teams needing IDE integration, HTTP MCP, or independent benchmarking tod
 - 2026-10-04 - Corrected the hosted-inference terms against the live pricing page: post-credit usage bills at provider API prices (the page no longer describes a 10 percent discount), every plan now grants double its price in credit plus 50 Jcode Cloud machine hours per $10 of plan, and the plan ladder runs $10 to $1,000; appended the Price history row and refreshed repository counters.
 - 2026-10-05 - Recorded v0.90.1 (October 5), which auto-retries OpenAI-compatible providers on 5xx heavy-usage errors, shows real quota windows for Kimi Code, Cursor, and the Z.ai Coding Plan in /usage, and stops restarts after key-file edits, and refreshed repository counters.
 - 2026-10-06 - Recorded v0.91.0 (October 6), which added the Google login flow with a built-in calendar tool, guided Google OAuth app setup, Alt+Up/Down speed-tier cycling, a `/desktop` command opening sessions in Jcode Desktop, token-budget-fitted MCP output, and coordinator and swarm fixes, and refreshed repository counters.
+- 2026-10-07 - Added the 1jehuang/jcode star history chart to the Status section.
 
 ## See also
 

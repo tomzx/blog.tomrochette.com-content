@@ -1,7 +1,7 @@
 ---
 title: AI-DLC
 created: 2026-10-06
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, spec-driven-development, sdlc, multi-agent, workflow, open-source]
 readability: 3
@@ -25,6 +25,9 @@ Amazon's own docs position it as the successor to retrofitting AI onto human pro
 
 Large and fast-moving for an eighteen-month-old methodology repo.
 As of 2026-10-06: 5,002 stars, 910 forks, 334 open issues, created 2025-11-13, pushed 2026-10-06, stable release v2.10.0 with near-daily v2.10.1-preview builds, MIT-0 licensed, documented at [awslabs.github.io/aidlc-workflows](https://awslabs.github.io/aidlc-workflows/).
+
+[![Star History Chart](https://api.star-history.com/chart?repos=awslabs/aidlc-workflows&type=date&legend=top-left)](https://www.star-history.com/?repos=awslabs%2Faidlc-workflows&type=date&legend=top-left)
+
 **Its Hacker News footprint is thin (the methodology's threads run 2 to 5 points), so adoption signals rest on the star count and AWS's institutional push rather than independent discussion.**
 
 ## Strengths
@@ -60,6 +63,7 @@ Not for solo work, and not for anyone who wants a process layer with no vendor's
 ## Changes
 
 - 2026-10-06 - Created from the entrant-resolution run, profiling awslabs/aidlc-workflows as the category's first vendor-backed whole-lifecycle column.
+- 2026-10-07 - Added the awslabs/aidlc-workflows star history chart to the Status section.
 
 ## See also
 

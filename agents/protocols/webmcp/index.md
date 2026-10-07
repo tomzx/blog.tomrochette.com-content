@@ -1,7 +1,7 @@
 ---
 title: WebMCP
 created: 2026-10-06
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, protocols, browser, w3c, agent-tools]
 readability: 3
@@ -26,6 +26,9 @@ Chrome ships it behind a public origin trial (Chrome 149 through 156) plus a loc
 
 **Active and past the flag stage, with one browser shipping and one agent consuming.**
 The repository shows 4,469 stars and 120 open issues with a push on 2026-10-02, all as of 2026-10-06 (GitHub API).
+
+[![Star History Chart](https://api.star-history.com/chart?repos=webmachinelearning/webmcp&type=date&legend=top-left)](https://www.star-history.com/?repos=webmachinelearning%2Fwebmcp&type=date&legend=top-left)
+
 The Chrome origin trial opened with Chrome 149 (Intent to Experiment filed 2026-05-15), Puppeteer added native WebMCP support in v24.41.0, and Google's Chrome team presented the API alongside its agent browser work at I/O 2026.
 In August 2026 the supply side jumped: Shopify switched WebMCP on for every Liquid storefront (catalog, cart, checkout, and policy tools) and Cloudflare made it available to any Cloudflare-fronted site with no code change.
 The demand side did not move with it: Gemini in Chrome remains the main agent actually calling the tools, Microsoft co-authored the spec but Edge's 147 release notes list no WebMCP support, and Firefox and Safari have given no public signal.
@@ -64,6 +67,7 @@ My disagreeable claim: the Shopify-and-Cloudflare default-on wave matters less t
 ## Changes
 
 - 2026-10-06 - Created from the 2026-10-06 entrant scan (the browser-native tool-exposure slot), with the one-browser-one-agent adoption split recorded as the central caution.
+- 2026-10-07 - Added the webmachinelearning/webmcp star history chart to the Status section.
 
 ## See also
 

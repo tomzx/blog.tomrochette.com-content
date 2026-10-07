@@ -1,7 +1,7 @@
 ---
 title: Gemini CLI
 created: 2026-08-22
-updated: 2026-10-04
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, coding-agents, harnesses, google, developer-tools]
 readability: 3
@@ -26,6 +26,9 @@ It authenticated three ways: **Google OAuth (the famous free tier of 60 requests
 On May 19, 2026, Google announced it was unifying terminal agent work into Google Antigravity, whose Antigravity CLI (written in Go, multi-agent, sharing a harness with the Antigravity 2.0 desktop app) carries over skills, hooks, subagents, and extensions.
 On June 18, 2026, Gemini CLI and the Gemini Code Assist IDE extensions stopped serving requests for Google AI Pro and Ultra subscribers and free individual users.
 Enterprise Code Assist Standard/Enterprise licenses and paid API keys keep working, and the repository is still active: about 107.2k stars, 6,462 commits, nightly and preview release channels as of 2026-10-04.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=google-gemini/gemini-cli&type=date&legend=top-left)](https://www.star-history.com/?repos=google-gemini%2Fgemini-cli&type=date&legend=top-left)
+
 The README still advertises the free tier, which is stale for individuals; treat the README as the enterprise path's documentation.
 
 ## Strengths
@@ -63,6 +66,7 @@ Not for individuals, whatever the 2025 blog posts (several of which I believed a
 - 2026-08-22 - Created as one of the eight seed notes of the Harnesses category, recording the superseded-for-individuals status.
 - 2026-08-26 - Review-driven pass: strength claim qualified from only to first, the Antigravity sibling note linked, and a first-person admission added.
 - 2026-09-16 - Refreshed repository scale to about 107.0k stars and 6,417 commits.
+- 2026-10-07 - Added the google-gemini/gemini-cli star history chart to the Status section.
 
 ## See also
 

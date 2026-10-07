@@ -1,7 +1,7 @@
 ---
 title: Cognee
 created: 2026-08-26
-updated: 2026-10-05
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, memory, agent-memory, knowledge-graphs, open-source]
 readability: 3
@@ -24,6 +24,9 @@ Cognee Cloud runs the same engine managed, on gpt-oss-120b, OpenAI's open-weight
 
 **Active and fast-moving.**
 About 31.4k GitHub stars as of 2026-10-05, repository pushed 2026-10-05 UTC, and v1.6.2 (September 29, 2026) the latest release per the PyPI JSON API.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=topoteretes/cognee&type=date&legend=top-left)](https://www.star-history.com/?repos=topoteretes%2Fcognee&type=date&legend=top-left)
+
 v1.6.0 is the keyless-first release: many flows now run with no LLM key, pipelines stamp runs at start and recover after crashes, a cognee-mcp client/server package lands for integrations, and the default Docker image drops GLiNER, a breaking change self-hosters must patch around.
 v1.6.1 (September 24) adds Google Drive and Gmail ingestion with the Google connectors bundled into the SDK, chunked graph-visualization streaming for large subgraphs, and a GLiNER installer that defers the CPU Torch download to first use, and it promotes dlt to a core dependency, which breaks source installs that manage dependencies manually.
 v1.6.2 (September 29) makes embedding failures explicit instead of silently truncating, sizes chunks by each model's token limit, adds Slack conversation import and sync, and moves skills storage to a new .agents/skills location.
@@ -77,6 +80,7 @@ Not for solo coding-agent work, where plain files win, or for anyone without the
 - 2026-09-25 - Recorded v1.6.1 (September 24): Google Drive and Gmail sync with bundled connectors, chunked visualization streaming, a deferred-install GLiNER setup, and dlt promoted to a core dependency; refreshed stars to about 31k.
 - 2026-09-27 - Refreshed the volatile facts: about 31k stars, pushed 2026-09-27; v1.6.1 and the $1.00 per 1M token Standard rate unchanged.
 - 2026-10-02 - Recorded v1.6.2 (September 29): explicit embedding failures instead of silent truncation, model-token-limit chunk sizing, Slack import and sync, and the skills move to .agents/skills; refreshed stars to about 31.3k.
+- 2026-10-07 - Added the topoteretes/cognee star history chart to the Status section.
 
 ## See also
 

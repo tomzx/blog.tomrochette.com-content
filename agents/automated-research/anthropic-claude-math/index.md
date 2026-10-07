@@ -1,7 +1,7 @@
 ---
 title: Anthropic Claude mathematical research
 created: 2026-09-13
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, anthropic, mathematics, formal-verification]
 readability: 3
@@ -29,6 +29,9 @@ Anthropic's own zeta post footnote also credits a Claude model with disproving t
 Very active and widening, as of 2026-10-05: September alone brought the nine-loop amplitude in N=4 super Yang-Mills (September 25, guest-posted by the physicist who issued the challenge) and, beyond mathematics, a new life-sciences laboratory whose agents discovered a novel CRISPR-like enzyme system (September 23).
 The models are unreleased research versions, so the loop is not reproducible by outsiders today.
 The artifacts are public and machine-checkable: the formal-math repository (257 stars as of 2026-10-06) is Apache-2.0 with pinned toolchains and CI that builds with no `sorry` outside trusted statement files.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=anthropics/formal-math&type=date&legend=top-left)](https://www.star-history.com/?repos=anthropics%2Fformal-math&type=date&legend=top-left)
+
 Community footprint is strong, with the zeta result drawing a 282-point Hacker News discussion.
 A three-person experiment formalized Vinogradov's three primes theorem in three days on consumer Claude Max plans, and the October 1 Claude-shaped science post documents the loop's most copyable instance yet: 36 manuscripts in 18 fields in three months, driven through Claude Code sessions on cloud VMs and an open-source harness (BootLoops), with human collaborators supplying taste and expert review.
 
@@ -69,6 +72,7 @@ Not for anyone expecting to rerun the exact loops, since the models are unreleas
 
 - 2026-09-13 - Created as the Anthropic member of the new Automated research category.
 - 2026-10-05 - Recorded the September-to-October widening: the nine-loop N=4 super Yang-Mills amplitude (September 25, Fable 5.1 in Claude Science, Dixon-validated), the life-sciences laboratory and its ART enzyme discovery (September 23), and the 36-manuscript BootLoops campaign (October 1); formal-math stars refreshed to 253.
+- 2026-10-07 - Added the anthropics/formal-math star history chart to the Status section.
 
 ## See also
 

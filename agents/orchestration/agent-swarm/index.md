@@ -1,7 +1,7 @@
 ---
 title: Agent Swarm
 created: 2026-10-02
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, lead-worker, docker, slack, multi-agent]
 readability: 3
@@ -24,6 +24,9 @@ Around that core it layers a dashboard UI, DAG workflows with human-in-the-loop 
 ## Status
 
 Active and shipping fast: 859 stars, 108 forks, and 17 open issues and pull requests as of 2026-10-06, created 2025-12-19, with the default branch pushed that day and v1.164.0 published the same day, one day after v1.163.0.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=desplega-ai/agent-swarm&type=date&legend=top-left)](https://www.star-history.com/?repos=desplega-ai%2Fagent-swarm&type=date&legend=top-left)
+
 **The adoption evidence is real but early: a 63-point Show HN thread in February 2026 and a live public demo, with the production claims (a customer with 80% of its team onboarded and over 800 human-initiated tasks weekly) self-reported by the vendor.**
 The README's own tip that the repo "evolves every single day" is the plain read of the risk: this is a high-velocity single-vendor product, not a community project.
 
@@ -64,6 +67,7 @@ Not for solo local parallelism (a worktree manager is lighter) or for anyone who
 - 2026-10-02 - Created.
 - 2026-10-03 - Reworded a banned-term word out of the prose and refreshed the volatile counts; meaning unchanged.
 - 2026-10-05 - Recorded v1.163.0 (October 5) as the latest release and refreshed star, fork, and tracker counts.
+- 2026-10-07 - Added the desplega-ai/agent-swarm star history chart to the Status section.
 
 ## See also
 

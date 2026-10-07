@@ -1,7 +1,7 @@
 ---
 title: Crush
 created: 2026-08-22
-updated: 2026-10-04
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, coding-agents, harnesses, terminal, go]
 readability: 3
@@ -26,6 +26,9 @@ It runs on macOS, Linux, Windows, Android, and the BSDs.
 
 **Active.**
 About 28.5k stars, 2.3k forks, and 4,268 commits as of 2026-10-06, launched July 30, 2025.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=charmbracelet/crush&type=date&legend=top-left)](https://www.star-history.com/?repos=charmbracelet%2Fcrush&type=date&legend=top-left)
+
 It is the continuation of the original opencode-ai repository: creator Kujtim Hoxha joined Charm, and the repo moved with him.
 After the dispute that split the community, Charm renamed it Crush while the other developers kept the OpenCode name.
 Charm's own telling is ["Crush, come home"](https://charm.land/blog/crush-comes-home/); the other side's version lives in [the launch thread](https://news.ycombinator.com/item?id=44736176).
@@ -68,6 +71,7 @@ Not for license-restricted organizations or communities that relitigate 2025.
 - 2026-08-22 - Removed type: post per the section-wide owner rules change.
 - 2026-08-23 - Style conformance pass: sources hyperlinked, per-section insights bolded, sentences split, showy wording replaced.
 - 2026-09-16 - Refreshed repository scale to about 28.1k stars and 4,181 commits.
+- 2026-10-07 - Added the charmbracelet/crush star history chart to the Status section.
 
 ## See also
 

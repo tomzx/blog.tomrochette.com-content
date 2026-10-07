@@ -1,7 +1,7 @@
 ---
 title: ArtifactFS
 created: 2026-08-30
-updated: 2026-10-06
+updated: 2026-10-07
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, sandboxing, workspace-provisioning, git, cloudflare, open-source]
 readability: 3
@@ -25,6 +25,9 @@ Apache-2.0, Go 1.26+, source build only, no packaged releases.
 ## Status
 
 Early beta: 1,171 stars, 52 forks, 6 open issues as of 2026-10-06, created 2026-03-29, last push 2026-09-11.
+
+[![Star History Chart](https://api.star-history.com/chart?repos=cloudflare/artifact-fs&type=date&legend=top-left)](https://www.star-history.com/?repos=cloudflare%2Fartifact-fs&type=date&legend=top-left)
+
 Tags run `1.0.0-rc.1` through `rc.10` with no GitHub Releases; 57 commits concentrated in two Cloudflare engineers, and the repo ships its own AGENTS.md.
 **The launch drew a 217-point Hacker News thread, but "Used by" is empty and the parent Artifacts service is still in closed beta.**
 
@@ -71,6 +74,7 @@ Not for small or medium repos, Windows or locked-down CI environments, or anyone
 - 2026-08-30 - Created as a sandboxing research note on Cloudflare's FUSE provisioning driver, with a vendor-benchmark caveat.
 - 2026-09-20 - Added the Price history section tracking price changes in a table, per the new owner rule.
 - 2026-10-04 - Recorded the dated billing start for Artifacts operations and storage (2026-10-14, prices unchanged) from the pricing page, and refreshed counts (1,164 stars, 51 forks).
+- 2026-10-07 - Added the cloudflare/artifact-fs star history chart to the Status section.
 
 ## See also
 
