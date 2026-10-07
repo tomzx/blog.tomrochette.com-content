@@ -24,7 +24,13 @@ An ingress gateway with per-sandbox egress controls handles network policy, a Cr
 **Very active and exceptionally fast-growing for a nine-month-old repo, with traction that is vendor-driven rather than organic Hacker News adoption.**
 15,687 stars and 1,442 forks as of 2026-10-06, repo created 2025-12-17, pushed 2026-10-01, latest stable release 1.1.0 on 2026-09-21, the first stable release of a unified umbrella version line that covers the server, component images, charts, CLI, and every SDK from one commit and a signed BOM, with a 1.1.1-rc.1 prerelease of 2026-09-28 opening the patch line to fix a broken 1.1.0 opensandbox-server wheel on PyPI.
 
-[![Star History Chart](https://api.star-history.com/chart?repos=opensandbox-group/OpenSandbox&type=date&legend=top-left)](https://www.star-history.com/?repos=opensandbox-group%2FOpenSandbox&type=date&legend=top-left)
+<a href="https://www.star-history.com/?repos=opensandbox-group%2FOpenSandbox&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=opensandbox-group/OpenSandbox&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=opensandbox-group/OpenSandbox&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=opensandbox-group/OpenSandbox&type=date&legend=top-left" />
+ </picture>
+</a>
 
 The current organization was created 2026-06-04 as part of the transfer out of Alibaba.
 Hacker News is conspicuously absent: the threads are a 2-pointer from March 2026 linking the pre-transfer alibaba URL, a 1-pointer to the website, and a 4-pointer whose title borrows OpenSandbox's tagline but whose URL points at a competitor's repo (a submission error), while a 4-point January "Show HN: Open Sandbox" is an unrelated same-name project.

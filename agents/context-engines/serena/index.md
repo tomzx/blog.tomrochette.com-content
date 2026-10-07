@@ -27,7 +27,13 @@ Distributed as `serena-agent` on PyPI; the application is GPL-3.0-or-later and t
 **Active and very large.**
 About 30.0k stars and 2,043 forks as of 2026-10-06, created 2025-03-23, pushed 2026-10-05, latest release v1.7.0 on 2026-08-09 (GitHub API), with the PyPI package at 1.7.0 across 15 releases and 147,731 downloads in the trailing month (as of 2026-10-06).
 
-[![Star History Chart](https://api.star-history.com/chart?repos=oraios/serena&type=date&legend=top-left)](https://www.star-history.com/?repos=oraios%2Fserena&type=date&legend=top-left)
+<a href="https://www.star-history.com/?repos=oraios%2Fserena&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=oraios/serena&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=oraios/serena&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=oraios/serena&type=date&legend=top-left" />
+ </picture>
+</a>
 
 The JetBrains plugin shows about 19.5k installs on the JetBrains marketplace.
 There was no big launch moment: the tool accumulated stars through practitioner word of mouth, and its Hacker News presence is comment-level, not story-level, with users naming it the indexing layer in OpenCode and Cursor-exit setups.

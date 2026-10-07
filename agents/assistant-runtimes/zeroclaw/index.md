@@ -25,7 +25,13 @@ An Android port ([ZeroClaw-Android](https://github.com/Natfii/ZeroClaw-Android),
 Active and large, but quietly so.
 As of 2026-10-06: 32,938 stars and 4,953 forks since creation on 2026-02-13, pushed 2026-10-06, 926 open issues, Apache-2.0/MIT dual licensed.
 
-[![Star History Chart](https://api.star-history.com/chart?repos=zeroclaw-labs/zeroclaw&type=date&legend=top-left)](https://www.star-history.com/?repos=zeroclaw-labs%2Fzeroclaw&type=date&legend=top-left)
+<a href="https://www.star-history.com/?repos=zeroclaw-labs%2Fzeroclaw&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=zeroclaw-labs/zeroclaw&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=zeroclaw-labs/zeroclaw&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=zeroclaw-labs/zeroclaw&type=date&legend=top-left" />
+ </picture>
+</a>
 
 v0.8.5 (2026-09-05) is still the latest release, so the tagged-release train runs slower than the near-daily pushes.
 **Its HN footprint is nearly empty (threads at 2 to 8 points), so the star growth ran through Discord and word of mouth, a missing community discussion record that is itself the signal to verify before relying on it.**

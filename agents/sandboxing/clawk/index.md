@@ -22,7 +22,13 @@ There is no Dockerfile or devcontainer: the first boot builds a rootfs from any 
 
 Launched July 2026 with real traction and currently paused in a pre-1.0 state: 1,026 stars and 41 forks, last push 2026-08-13 at v0.4.0, with the README carrying its own "pre-1.0, expect breaking changes" banner.
 
-[![Star History Chart](https://api.star-history.com/chart?repos=clawkwork/clawk&type=date&legend=top-left)](https://www.star-history.com/?repos=clawkwork%2Fclawk&type=date&legend=top-left)
+<a href="https://www.star-history.com/?repos=clawkwork%2Fclawk&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=clawkwork/clawk&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=clawkwork/clawk&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=clawkwork/clawk&type=date&legend=top-left" />
+ </picture>
+</a>
 
 **The 226-point Show HN thread is the strongest community signal in the Sandboxing category's tail, and the discussion plus the README agree on the limits rather than hiding them.**
 Fifty-four days without a push after a fast launch cadence is worth watching, but it is not yet a stall at these timescales.

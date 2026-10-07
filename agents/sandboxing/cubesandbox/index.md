@@ -23,7 +23,13 @@ Documentation, changelogs, and examples (code execution, browser automation, Ope
 
 **Five months from first release to v0.7.2 with 12,806 stars as of 2026-10-05, while the community discussion never escaped single digits on Hacker News.**
 
-[![Star History Chart](https://api.star-history.com/chart?repos=TencentCloud/CubeSandbox&type=date&legend=top-left)](https://www.star-history.com/?repos=TencentCloud%2FCubeSandbox&type=date&legend=top-left)
+<a href="https://www.star-history.com/?repos=TencentCloud%2FCubeSandbox&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=TencentCloud/CubeSandbox&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=TencentCloud/CubeSandbox&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=TencentCloud/CubeSandbox&type=date&legend=top-left" />
+ </picture>
+</a>
 
 Created 2026-04-10, first release v0.1.0 on 2026-04-20, latest v0.7.2 on 2026-09-24, pushed 2026-09-30, 1,173 forks, 167 open issues and PRs as of 2026-10-06.
 The team launched on HN themselves as "a less than 60ms, open-source alternative to E2B using RustVMM and KVM" (7 points), and the same project drew two more submissions from other accounts within four days at 5 and 3 points.

@@ -25,7 +25,13 @@ Feature surface: native [AGENTS.md](https://fx.sh/docs/configure-fx/project-inst
 **Active and very young.**
 The repository was created August 11, 2026 and shows 3,302 stars and 370 forks as of 2026-10-06, with v0.0.13 the latest release (published October 4, 2026; Ultrafast inference on supported OpenAI models through the AI Gateway at a higher-priced tier, launch up to 23x faster, shell calls up to 8.6x faster, `/mcp add slack` one-step setup, a configurable `auto_compact_percent`, and ACP clients that can steer running turns and host MCP servers over the connection, plus a breaking libfx checkpoint-format change) and pushes landing within a day of verification (GitHub API).
 
-[![Star History Chart](https://api.star-history.com/chart?repos=vercel-labs/fx&type=date&legend=top-left)](https://www.star-history.com/?repos=vercel-labs%2Ffx&type=date&legend=top-left)
+<a href="https://www.star-history.com/?repos=vercel-labs%2Ffx&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=vercel-labs/fx&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=vercel-labs/fx&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=vercel-labs/fx&type=date&legend=top-left" />
+ </picture>
+</a>
 
 The launch thread drew 318 points on August 18, 2026 ([HN](https://news.ycombinator.com/item?id=49353339)).
 The README carries its own banner: "Status: Experimental. Use at your own risk."

@@ -28,7 +28,13 @@ The 1.0.0 wave caps the alpha period: the README no longer carries the alpha bad
 Traction is real but concentrated: npm recorded 13,452 downloads of `@bradygaster/squad-cli` in the month ending 2026-10-03, up from 9,823 in the window ending 2026-10-01.
 Independent discussion is nearly absent: the largest HN thread I found has 2 points, so the footprint is GitHub plus npm alone, which is itself a signal.
 
-[![Star History Chart](https://api.star-history.com/chart?repos=bradygaster/squad&type=date&legend=top-left)](https://www.star-history.com/?repos=bradygaster%2Fsquad&type=date&legend=top-left)
+<a href="https://www.star-history.com/?repos=bradygaster%2Fsquad&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=bradygaster/squad&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=bradygaster/squad&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=bradygaster/squad&type=date&legend=top-left" />
+ </picture>
+</a>
 
 ## Strengths
 

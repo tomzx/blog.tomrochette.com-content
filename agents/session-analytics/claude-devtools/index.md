@@ -26,7 +26,13 @@ Made by matt1398, MIT-licensed, with docs at claude-dev.tools.
 
 Young: 3,960 stars, 305 forks, 53 open issues, created 2026-02-07, pushed 2026-09-26, as of 2026-10-06.
 
-[![Star History Chart](https://api.star-history.com/chart?repos=matt1398/claude-devtools&type=date&legend=top-left)](https://www.star-history.com/?repos=matt1398%2Fclaude-devtools&type=date&legend=top-left)
+<a href="https://www.star-history.com/?repos=matt1398%2Fclaude-devtools&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=matt1398/claude-devtools&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=matt1398/claude-devtools&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=matt1398/claude-devtools&type=date&legend=top-left" />
+ </picture>
+</a>
 
 Its Show HN reached 69 points on 2026-02-13, two days after the 1,085-point "Claude Code is being dumbed down?" thread that motivated it.
 The release line has been quiet since v0.5.0 on 2026-05-13 while the default branch kept receiving commits, so read the commit log rather than the releases page for current state.

@@ -26,7 +26,13 @@ Made by Raindrop, an agent-observability startup; Workshop is the free local tie
 
 Young with a strong launch: 1,103 stars, 69 forks, 8 open issues as of 2026-10-06, created 2026-05-01, latest release v0.1.21 on 2026-08-22.
 
-[![Star History Chart](https://api.star-history.com/chart?repos=raindrop-ai/workshop&type=date&legend=top-left)](https://www.star-history.com/?repos=raindrop-ai%2Fworkshop&type=date&legend=top-left)
+<a href="https://www.star-history.com/?repos=raindrop-ai%2Fworkshop&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=raindrop-ai/workshop&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=raindrop-ai/workshop&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=raindrop-ai/workshop&type=date&legend=top-left" />
+ </picture>
+</a>
 
 Funding: a $50M Series A led by CRV announced September 17, 2026, which the post counts as $50M in total funding, alongside a Simulations early-access product that replays production traffic against proposed agent changes.
 39 commits, 9 contributors, 21 patch releases in four months.

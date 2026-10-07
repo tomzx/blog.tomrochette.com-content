@@ -29,7 +29,13 @@ BYOK covers Anthropic, OpenAI, Google, xAI, OpenRouter, Copilot, and local model
 Junie started as an IDE agent in January 2025 (53.6% on SWE-bench Verified at announcement), went GA in April 2025, and the LLM-agnostic CLI followed into beta and beyond.
 The GitHub repository (installer and release channels: release, EAP, nightly, experimental) shows 468 stars as of 2026-10-04.
 
-[![Star History Chart](https://api.star-history.com/chart?repos=JetBrains/junie&type=date&legend=top-left)](https://www.star-history.com/?repos=JetBrains%2Fjunie&type=date&legend=top-left)
+<a href="https://www.star-history.com/?repos=JetBrains%2Fjunie&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=JetBrains/junie&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=JetBrains/junie&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=JetBrains/junie&type=date&legend=top-left" />
+ </picture>
+</a>
 
 In August 2026 JetBrains launched Junie Local, a free on-device build for M5 Macs that runs a bundled, tuned model entirely locally with no registration, subscription, or credits ([launch post](https://blog.jetbrains.com/junie/2026/08/junie-local-launch/)).
 The client is proprietary under JetBrains AI terms; the repo is distribution, not source.

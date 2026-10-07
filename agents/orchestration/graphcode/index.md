@@ -26,7 +26,13 @@ It bundles no agents and drives five backends (Claude Code, GitHub Copilot CLI, 
 
 New and fast-moving: about 136 stars and 19 forks as of 2026-10-06, created 2026-07-26, with v0.1.78 (2026-10-04) the latest release, promoted from the October 3 beta line, following v0.1.77 (2026-09-29, loops come back after a codespace or remote-host restart) and the first stable v0.1.76 of 2026-09-28, still a pre-1.0 line.
 
-[![Star History Chart](https://api.star-history.com/chart?repos=scgopi/GraphCode&type=date&legend=top-left)](https://www.star-history.com/?repos=scgopi%2FGraphCode&type=date&legend=top-left)
+<a href="https://www.star-history.com/?repos=scgopi%2FGraphCode&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=scgopi/GraphCode&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=scgopi/GraphCode&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=scgopi/GraphCode&type=date&legend=top-left" />
+ </picture>
+</a>
 
 It is maintained by one developer, scgopi, on top of Ghostty's terminal engine and the zmx session daemon.
 **Two months old, one maintainer, and a 0.1.x version mean GraphCode is an idea to try, not infrastructure to depend on, and its FSL-1.1-MIT license is source-available rather than OSI open source until the future license converts.**

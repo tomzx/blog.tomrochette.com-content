@@ -23,7 +23,13 @@ It is harness-agnostic and works with Claude Code, Cursor, Codex, or any MCP-cap
 
 Active and shipping fast: 97 stars and 12 forks since creation on 2026-06-28, v1.15.1 released 2026-09-28 (v1.0.0 landed 2026-08-28, ten releases in the first week of September alone, and none since), and the last main push on 2026-10-02 per the GitHub API as of 2026-10-06.
 
-[![Star History Chart](https://api.star-history.com/chart?repos=os-factory/har&type=date&legend=top-left)](https://www.star-history.com/?repos=os-factory%2Fhar&type=date&legend=top-left)
+<a href="https://www.star-history.com/?repos=os-factory%2Fhar&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=os-factory/har&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=os-factory/har&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=os-factory/har&type=date&legend=top-left" />
+ </picture>
+</a>
 
 It carries a code of conduct, security policy, and a sponsor (Kerno, a runtime code tester for coding agents), which is a steadier footprint than the category's usual single-commit repo.
 

@@ -28,7 +28,13 @@ Dormant since July 2026 and essentially unadopted.
 The SDK is at version 0.7.3 with 11 PyPI releases, and the repository was created 2026-04-09 with its last source push on 2026-07-23, more than two months before this check (as of 2026-10-06).
 The repository has 0 stars, 0 forks, and no description or topics, which is unusual for a project with a polished documentation site and a hosted platform bridge.
 
-[![Star History Chart](https://api.star-history.com/chart?repos=imleopereira/agentic-governance&type=date&legend=top-left)](https://www.star-history.com/?repos=imleopereira%2Fagentic-governance&type=date&legend=top-left)
+<a href="https://www.star-history.com/?repos=imleopereira%2Fagentic-governance&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=imleopereira/agentic-governance&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=imleopereira/agentic-governance&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=imleopereira/agentic-governance&type=date&legend=top-left" />
+ </picture>
+</a>
 
 **The community footprint is absent: a Hacker News search for Code Atelier governance returns nothing, so every claim here rests on the vendor's own pages and the repository.**
 **What earns the note despite the silence is the threat model, which states plainly what the SDK does not protect against instead of implying it is a complete security boundary.**

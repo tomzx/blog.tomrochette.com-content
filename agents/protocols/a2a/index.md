@@ -29,7 +29,13 @@ IBM's rival Agent Communication Protocol merged into A2A in August 2025, consoli
 v1.0.0 shipped 2026-03-12 and v1.0.1 on 2026-05-28 (latest as of 2026-10-02), with breaking wire changes from 0.3 but backward-compatible Agent Cards.
 The repository shows about 26k stars as of 2026-10-06, and the launch coalition of 50+ partners passed 100 supporting companies by donation time.
 
-[![Star History Chart](https://api.star-history.com/chart?repos=a2aproject/A2A&type=date&legend=top-left)](https://www.star-history.com/?repos=a2aproject%2FA2A&type=date&legend=top-left)
+<a href="https://www.star-history.com/?repos=a2aproject%2FA2A&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=a2aproject/A2A&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=a2aproject/A2A&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=a2aproject/A2A&type=date&legend=top-left" />
+ </picture>
+</a>
 
 Support concentrates in enterprise suites (Gemini Enterprise, Agentforce, watsonx Orchestrate, SAP Joule, Azure AI Foundry).
 On 2026-10-01 the project shipped an official A2A CLI (Apache-2.0, 152 stars as of 2026-10-06), a single command surface for discovering, messaging, and streaming from A2A agents, with a companion agent skill that teaches harnesses to drive it.

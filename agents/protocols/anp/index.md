@@ -27,7 +27,13 @@ Working code exists around the spec: the `anp` implementation repository, an ope
 **Active but unanswered by the market.**
 The main repository (created 2024-10-23) shows 1,439 stars, 105 forks, and a push on 2026-10-01, with the companion `anp` repo at 350 stars and the spec hub serving ANP 1.2, all as of 2026-10-06 (GitHub API and the spec site).
 
-[![Star History Chart](https://api.star-history.com/chart?repos=agent-network-protocol/AgentNetworkProtocol&type=date&legend=top-left)](https://www.star-history.com/?repos=agent-network-protocol%2FAgentNetworkProtocol&type=date&legend=top-left)
+<a href="https://www.star-history.com/?repos=agent-network-protocol%2FAgentNetworkProtocol&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=agent-network-protocol/AgentNetworkProtocol&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=agent-network-protocol/AgentNetworkProtocol&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=agent-network-protocol/AgentNetworkProtocol&type=date&legend=top-left" />
+ </picture>
+</a>
 
 The community footprint is the weak signal: the only Hacker News stories are 2 points (2025-08) and 1 point (2025-11), and the only third-party comparative coverage I found is a 2026-02 survey published by the OSSA project, which scores ANP under 1 percent production use while promoting its own contract layer, so even the comparative source is self-interested.
 No enterprise platform ships ANP support; adoption evidence is confined to the project's own examples, SDKs, and bridge tools.

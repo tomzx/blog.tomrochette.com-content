@@ -25,7 +25,13 @@ Deployment is self-hosted (free Community Edition) or n8n Cloud; the Webhook nod
 **Very active and heavily funded.**
 About 206.7k stars and 61.0k forks on GitHub as of 2026-10-06, with 24,000+ commits.
 
-[![Star History Chart](https://api.star-history.com/chart?repos=n8n-io/n8n&type=date&legend=top-left)](https://www.star-history.com/?repos=n8n-io%2Fn8n&type=date&legend=top-left)
+<a href="https://www.star-history.com/?repos=n8n-io%2Fn8n&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=n8n-io/n8n&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=n8n-io/n8n&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=n8n-io/n8n&type=date&legend=top-left" />
+ </picture>
+</a>
 
 A $180M Series C (October 2025, led by Accel, with NVIDIA's NVentures) brought total funding to $240M at a $2.5B valuation.
 Caveat on maturity: the agents layer is still in preview (self-hosted support arrived with n8n 2.32.3 on all plans, with knowledge bases preview-gated behind a configured sandbox), and queue mode does not work with agents.

@@ -26,7 +26,13 @@ Apache-2.0, Python 3.12+, installed via installer, uv, pip, or Homebrew; built b
 **Active, well-resourced, and young, with traction that far outruns its independent discussion.**
 10,601 stars and 1,695 forks as of 2026-10-06 (repository created 2026-06-11), PyPI 0.17.0 published 2026-10-06 after 40+ releases, and the default branch was pushed the same day.
 
-[![Star History Chart](https://api.star-history.com/chart?repos=omnigent-ai/omnigent&type=date&legend=top-left)](https://www.star-history.com/?repos=omnigent-ai%2Fomnigent&type=date&legend=top-left)
+<a href="https://www.star-history.com/?repos=omnigent-ai%2Fomnigent&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=omnigent-ai/omnigent&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=omnigent-ai/omnigent&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=omnigent-ai/omnigent&type=date&legend=top-left" />
+ </picture>
+</a>
 
 The HN footprint is thin: the top thread (the Databricks announcement, June 2026) reached 15 points with 4 comments, and resubmits stayed at 1 to 6 points.
 The 1,814 open issues against 10.6k stars read as heavy use plus heavy traffic, under an alpha badge the README still wears.

@@ -26,7 +26,13 @@ Surfaces now include the CLI, desktop app, chat.letta.com, messaging channels, a
 **Active, research-first, mid-pivot.**
 The `letta-ai/letta` repository (25.0k stars as of 2026-10-02) is now a landing page; the retired V1 API server lives on an unsupported archive branch with no security fixes, which strands self-hosters.
 
-[![Star History Chart](https://api.star-history.com/chart?repos=letta-ai/letta&type=date&legend=top-left)](https://www.star-history.com/?repos=letta-ai%2Fletta&type=date&legend=top-left)
+<a href="https://www.star-history.com/?repos=letta-ai%2Fletta&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=letta-ai/letta&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=letta-ai/letta&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=letta-ai/letta&type=date&legend=top-left" />
+ </picture>
+</a>
 
 Real development moved to `letta-ai/letta-code` (3.5k stars, 3,689 commits as of 2026-10-04).
 The company raised a $10M seed led by Felicis at a $70M post-money valuation in September 2024.

@@ -26,7 +26,13 @@ Apache-2.0, by the AgentScope team; Alibaba involvement is visible in the deploy
 
 Rapid and churny: 35,450 stars, 3,154 forks, 1,032 open issues and PRs as of 2026-10-06, created 2026-02-24, pushed 2026-09-30.
 
-[![Star History Chart](https://api.star-history.com/chart?repos=agentscope-ai/QwenPaw&type=date&legend=top-left)](https://www.star-history.com/?repos=agentscope-ai%2FQwenPaw&type=date&legend=top-left)
+<a href="https://www.star-history.com/?repos=agentscope-ai%2FQwenPaw&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=agentscope-ai/QwenPaw&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=agentscope-ai/QwenPaw&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=agentscope-ai/QwenPaw&type=date&legend=top-left" />
+ </picture>
+</a>
 
 v2.1.0 shipped 2026-08-13, v2.2.0 went stable on PyPI on 2026-09-03, and v2.2.1 followed on 2026-09-10 (PyPI upload 2026-09-11), with v2.2.2 betas landing on 2026-09-17, 2026-09-18, 2026-09-20 (2.2.2b3), and 2026-09-30 (2.2.2b4), the stable line still at 2.2.1.
 **A ground-up rewrite two minor versions before the current line is the churn signature: adoption is real, stability is not yet the product.**

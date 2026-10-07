@@ -27,7 +27,13 @@ Since 2026-10-05 the project has been organized around v1.3: an adapter-first ba
 Eight days old and shipping: the launch Show HN thread (2026-09-28) reached 575 points as of 2026-10-06.
 The repository was created 2026-09-28 and pushed 2026-10-05, with about 1,400 stars and 68 forks; the v1.2 checkpoints on Hugging Face now live under a jeff-legacy org that the README's original links redirect to, with about 2,100 downloads registered for the 0.8B as of 2026-10-06.
 
-[![Star History Chart](https://api.star-history.com/chart?repos=firelex/jeff&type=date&legend=top-left)](https://www.star-history.com/?repos=firelex%2Fjeff&type=date&legend=top-left)
+<a href="https://www.star-history.com/?repos=firelex%2Fjeff&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=firelex/jeff&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=firelex/jeff&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=firelex/jeff&type=date&legend=top-left" />
+ </picture>
+</a>
 
 Latency is the headline: about 22 ms per decision on an RTX PRO 6000, 28 ms on an M4 Max through MLX, 463 ms on a 32-thread CPU, against Jev's published 114-212 ms per API call in its Doom runs (not measured on the same hardware); the v1.3 base and adapters measure 26.6 to 31.8 ms per decision on the same idle GPU as v1.2 (October 5 table).
 The self-run benchmarks cover 4,599 questions from five public suites (BBH, Financial PhraseBank, JudgeBench, RAGTruth, WinoGrande) plus JevBench's public hard tier scored separately: Jeff-2B posts 83.1 overall against Jev's published 83.0 and AutoJev-27B's 84.9, winning Financial PhraseBank (96.3 versus 77.0) and RAGTruth (88.9 versus 77.3) while staying well below Jev on BBH (68.0 versus 94.3), JudgeBench, WinoGrande, and the JevBench hard tier (53.3 versus 73.3).

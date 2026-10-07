@@ -25,7 +25,13 @@ Made by Confident AI, a seed-stage San Francisco company, Apache-2.0.
 
 The volume leader of Python eval frameworks: 18,649 stars, 2,027 forks, 707 open issues and PRs as of 2026-10-06.
 
-[![Star History Chart](https://api.star-history.com/chart?repos=confident-ai/deepeval&type=date&legend=top-left)](https://www.star-history.com/?repos=confident-ai%2Fdeepeval&type=date&legend=top-left)
+<a href="https://www.star-history.com/?repos=confident-ai%2Fdeepeval&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=confident-ai/deepeval&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=confident-ai/deepeval&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=confident-ai/deepeval&type=date&legend=top-left" />
+ </picture>
+</a>
 
 Created 2023-08-10, pushed 2026-10-05, Python 4.2.8 released 2026-10-02 (still the newest), about 2.6 million PyPI downloads a month as of 2026-10-06.
 **Three years old and commercially backed, it is the most mature column in this category, and the 707-item backlog reads as heavy usage rather than neglect.**

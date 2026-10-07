@@ -27,7 +27,13 @@ It began at Normal Computing (Brandon Willard and Remi Louf) and is maintained b
 **Active, with an asterisk on where its own engine still runs.**
 The repository shows about 15.9k stars and 1,325 commits as of 2026-10-06, and the docs claim adoption by the major serving frameworks and by companies from Amazon to Shopify (self-reported where not public).
 
-[![Star History Chart](https://api.star-history.com/chart?repos=dottxt-ai/outlines&type=date&legend=top-left)](https://www.star-history.com/?repos=dottxt-ai%2Foutlines&type=date&legend=top-left)
+<a href="https://www.star-history.com/?repos=dottxt-ai%2Foutlines&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=dottxt-ai/outlines&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=dottxt-ai/outlines&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=dottxt-ai/outlines&type=date&legend=top-left" />
+ </picture>
+</a>
 
 But vLLM's current structured-outputs docs name xgrammar and guidance as its backends, and vLLM removed the old `guided_*` request fields in v0.12.0, so the engine-level default no longer runs Outlines' compiler there.
 XGrammar's November 2024 benchmarks (competitor-run) measured existing solutions, Outlines included, at up to 3.5x slower mask generation on JSON schemas and more than 10x slower on context-free grammars.

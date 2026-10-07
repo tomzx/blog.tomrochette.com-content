@@ -26,7 +26,13 @@ The maintainer also publishes the ecosystem's most self-critical data: their dir
 **Active and growing, with a thin independent footprint.**
 The toolchain repo was created 2026-08-25 and shows 1 star and 8 open issues, pushed 2026-10-06; the npm CLI has shipped 33 versions since 2026-06-29.
 
-[![Star History Chart](https://api.star-history.com/chart?repos=skillmds/skillmd&type=date&legend=top-left)](https://www.star-history.com/?repos=skillmds%2Fskillmd&type=date&legend=top-left)
+<a href="https://www.star-history.com/?repos=skillmds%2Fskillmd&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=skillmds/skillmd&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=skillmds/skillmd&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=skillmds/skillmd&type=date&legend=top-left" />
+ </picture>
+</a>
 
 The site's own claimed index grew from 860,000 skills (its September 19 directory post) to 1,132,703 as of 2026-10-06, and that post itself warns that directory counts are claims, not measurements, skills.sh included.
 No Hacker News thread surfaced under its name in my searches as of 2026-10-05; the largest near-match is the 48-point "Skill.md: An open standard" story about the format, not this registry.

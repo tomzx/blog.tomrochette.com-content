@@ -26,7 +26,13 @@ The README includes a comparison table against SDK and headless approaches, a se
 
 Quiet and tiny: about 1 star and 1 fork as of 2026-09-27, created 2026-06-05, with the last commit on 2026-06-30 and a latest release of v0.2.0 (2026-06-06).
 
-[![Star History Chart](https://api.star-history.com/chart?repos=daman8271/the-perfect-orchestrator&type=date&legend=top-left)](https://www.star-history.com/?repos=daman8271%2Fthe-perfect-orchestrator&type=date&legend=top-left)
+<a href="https://www.star-history.com/?repos=daman8271%2Fthe-perfect-orchestrator&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=daman8271/the-perfect-orchestrator&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=daman8271/the-perfect-orchestrator&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=daman8271/the-perfect-orchestrator&type=date&legend=top-left" />
+ </picture>
+</a>
 
 It is a single-author project with no community footprint on Hacker News or Reddit during this run; the README notes the recorded fleet run and a website that it says were themselves built and QA'd by the tool's own fleet.
 The Awesome Multi-Agent Orchestrators directory removed it on 2026-10-05 (PR 64, among seven low-star players), which a 1-star repository will not feel, but which records the curator's verdict.

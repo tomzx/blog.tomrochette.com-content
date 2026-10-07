@@ -30,7 +30,13 @@ That gap matters because the September-October release wave (GPT-6, Claude Opus 
 Community footprint is thin on HN (the launch thread drew 6 points and 0 comments) even though model cards and release posts cite LiveBench scores routinely.
 The leaderboard site is a client-rendered app, so automated fetchers see only the title; the fetchable surfaces are the repository, the changelog, and the Hugging Face datasets.
 
-[![Star History Chart](https://api.star-history.com/chart?repos=LiveBench/LiveBench&type=date&legend=top-left)](https://www.star-history.com/?repos=LiveBench%2FLiveBench&type=date&legend=top-left)
+<a href="https://www.star-history.com/?repos=LiveBench%2FLiveBench&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=LiveBench/LiveBench&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=LiveBench/LiveBench&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=LiveBench/LiveBench&type=date&legend=top-left" />
+ </picture>
+</a>
 
 ## Strengths
 

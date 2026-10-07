@@ -26,7 +26,13 @@ It currently targets macOS; Windows and Linux builds are documented as planned.
 
 Active but small: about 825 stars and 171 forks as of 2026-10-04, created 2026-03-13, with development through 2026-10-02.
 
-[![Star History Chart](https://api.star-history.com/chart?repos=openswarm-ai/openswarm&type=date&legend=top-left)](https://www.star-history.com/?repos=openswarm-ai%2Fopenswarm&type=date&legend=top-left)
+<a href="https://www.star-history.com/?repos=openswarm-ai%2Fopenswarm&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=openswarm-ai/openswarm&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=openswarm-ai/openswarm&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=openswarm-ai/openswarm&type=date&legend=top-left" />
+ </picture>
+</a>
 
 The current release line is explicitly experimental (v1.8.0-exp.5 on 2026-10-02, after exp.4 on 2026-09-29, exp.3 on 2026-09-28, and exp.2 on 2026-09-23), with a stable v1.7.11 before it.
 **The signal is a license inconsistency: the README and the curated directory call it MIT, but the repository's LICENSE file is AGPL-3.0 and GitHub's API reports AGPL-3.0, so the permissive badge is the one piece of documentation not to trust.**

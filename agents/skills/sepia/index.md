@@ -27,7 +27,13 @@ Install is `npx skills add Nanako0129/sepia -g` or a native plugin marketplace, 
 
 Active and early: 2,992 stars and 193 forks as of 2026-10-06, repo pushed 2026-09-23, eleven open issues, created 2026-08-28.
 
-[![Star History Chart](https://api.star-history.com/chart?repos=Nanako0129/sepia&type=date&legend=top-left)](https://www.star-history.com/?repos=Nanako0129%2Fsepia&type=date&legend=top-left)
+<a href="https://www.star-history.com/?repos=Nanako0129%2Fsepia&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Nanako0129/sepia&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=Nanako0129/sepia&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=Nanako0129/sepia&type=date&legend=top-left" />
+ </picture>
+</a>
 
 The growth is fast but young: the entrant data had it near 1,444 stars about five days after launch, and it has roughly doubled since.
 There is no Hacker News thread under its name (my searches returned only unrelated sepia stories) and no mainstream coverage as of 2026-09-27, so the audience is GitHub plus the third-party registries that mirror and review it.

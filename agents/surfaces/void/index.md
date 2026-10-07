@@ -25,7 +25,13 @@ A VS Code fork with AI features integrated directly: chat, completion, and agent
 As of 2026-10-06 the GitHub repository carries the archived (read-only) flag, with the last push landing June 2, 2026 and the last tagged release still v1.3.4 from April 2025, over a year before this verification date.
 A December 2025 Show HN appeared titled "after Void slowed down", which is the community recording the same fact independently.
 
-[![Star History Chart](https://api.star-history.com/chart?repos=voideditor/void&type=date&legend=top-left)](https://www.star-history.com/?repos=voideditor%2Fvoid&type=date&legend=top-left)
+<a href="https://www.star-history.com/?repos=voideditor%2Fvoid&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=voideditor/void&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=voideditor/void&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=voideditor/void&type=date&legend=top-left" />
+ </picture>
+</a>
 
 ## Strengths
 

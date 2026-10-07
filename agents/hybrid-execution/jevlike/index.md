@@ -27,7 +27,13 @@ A vision variant reuses the same head to score controller buttons from image pat
 Dormant since launch day by every number I can check, as of 2026-10-06.
 Created and last pushed 2026-09-16, 1,346 stars and 118 forks, seven open issues, a single contributor, and no tags or releases to pin.
 
-[![Star History Chart](https://api.star-history.com/chart?repos=vinnylarouge/jevlike&type=date&legend=top-left)](https://www.star-history.com/?repos=vinnylarouge%2Fjevlike&type=date&legend=top-left)
+<a href="https://www.star-history.com/?repos=vinnylarouge%2Fjevlike&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=vinnylarouge/jevlike&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=vinnylarouge/jevlike&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=vinnylarouge/jevlike&type=date&legend=top-left" />
+ </picture>
+</a>
 
 The Show HN thread ("Reverse-engineered Jev-like model", 2026-09-16) reached 169 points as of 2026-10-06.
 The afterlife is elsewhere: Cua's CUA-S1 form-filling checkpoint documents that its option-attention head is lifted from jevlike's `AttentionHead`, so the code's real legacy is inside other projects rather than in this one, and the JevBench board ranks no jevlike checkpoint because the starter ships game demos rather than a served decision model.

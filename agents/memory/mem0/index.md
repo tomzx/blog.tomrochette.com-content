@@ -27,7 +27,13 @@ The company (YC S24) was founded by Taranjeet Singh and Deshraj Yadav, previousl
 **Active and the adoption leader.**
 The repository shows about 66.6k stars and 2,667 commits as of 2026-10-05.
 
-[![Star History Chart](https://api.star-history.com/chart?repos=mem0ai/mem0&type=date&legend=top-left)](https://www.star-history.com/?repos=mem0ai%2Fmem0&type=date&legend=top-left)
+<a href="https://www.star-history.com/?repos=mem0ai%2Fmem0&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=mem0ai/mem0&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=mem0ai/mem0&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=mem0ai/mem0&type=date&legend=top-left" />
+ </picture>
+</a>
 
 TechCrunch reported a $24M round (a $3.9M seed plus a $20M Series A led by Basis Set Ventures, with Peak XV and the GitHub Fund) in October 2025, 186M API calls in Q3 2025, and exclusive-memory-provider status for AWS's Agent SDK.
 The site claims 150,000+ developers.

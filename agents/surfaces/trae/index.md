@@ -27,7 +27,13 @@ Launched January 2025, shipping continuously since, with a free tier plus a thre
 The open-source sidecar went quiet: trae-agent's last commit landed February 5, 2026, with no tagged release ever published, as of 2026-10-06.
 The July 2025 telemetry analysis thread kept it in the discussion, not always favorably.
 
-[![Star History Chart](https://api.star-history.com/chart?repos=bytedance/trae-agent&type=date&legend=top-left)](https://www.star-history.com/?repos=bytedance%2Ftrae-agent&type=date&legend=top-left)
+<a href="https://www.star-history.com/?repos=bytedance%2Ftrae-agent&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=bytedance/trae-agent&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=bytedance/trae-agent&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=bytedance/trae-agent&type=date&legend=top-left" />
+ </picture>
+</a>
 
 ## Strengths
 

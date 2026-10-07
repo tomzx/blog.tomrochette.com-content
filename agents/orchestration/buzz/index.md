@@ -25,7 +25,13 @@ Block positions it as infrastructure, the event store and delivery pipe, not the
 
 Active and heavily starred: about 35,600 stars since 2026-03-06 as of 2026-10-06, pushed 2026-10-05, with desktop releases at v0.5.26 (2026-09-29) on a steady cadence.
 
-[![Star History Chart](https://api.star-history.com/chart?repos=block/buzz&type=date&legend=top-left)](https://www.star-history.com/?repos=block%2Fbuzz&type=date&legend=top-left)
+<a href="https://www.star-history.com/?repos=block%2Fbuzz&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=block/buzz&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=block/buzz&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=block/buzz&type=date&legend=top-left" />
+ </picture>
+</a>
 
 **The caveat is that the star count tracks Block's name and the anti-Platform story, not field deployments: I found no independent HN thread and the public documentation lives in the repo's vision essays rather than operator guides.**
 The single-relay design is upfront about its trade: one event log, no federation, no gossip.

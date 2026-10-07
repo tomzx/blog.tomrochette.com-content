@@ -24,7 +24,13 @@ The registry curates quantizations of each model, and `ollama run <model>` is th
 
 Very active: 182,302 stars as of 2026-10-06, repo pushed the same day, among the largest repositories in the AI ecosystem.
 
-[![Star History Chart](https://api.star-history.com/chart?repos=ollama/ollama&type=date&legend=top-left)](https://www.star-history.com/?repos=ollama%2Follama&type=date&legend=top-left)
+<a href="https://www.star-history.com/?repos=ollama%2Follama&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=ollama/ollama&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=ollama/ollama&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=ollama/ollama&type=date&legend=top-left" />
+ </picture>
+</a>
 
 The surface is expanding fast: MLX acceleration on Apple silicon arrived in preview with 0.19 in March 2026, and NVFP4 quantization is now supported alongside the GGUF classics.
 Cloud models launched as Ollama Turbo in August 2025, and the plans were rebuilt into Free, Pro, Max, and Team tiers by late September 2026.

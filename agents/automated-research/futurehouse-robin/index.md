@@ -28,7 +28,13 @@ The demo: pointed at dry age-related macular degeneration, Robin proposed enhanc
 Nature reports about 268,000 accesses and 117 citations in the five months since publication, as of 2026-10-06.
 The repository carries the loop and example trajectories: 730 stars, 122 forks, Apache-2.0, last push 2026-04-21, as of 2026-10-06.
 
-[![Star History Chart](https://api.star-history.com/chart?repos=Future-House/robin&type=date&legend=top-left)](https://www.star-history.com/?repos=Future-House%2Frobin&type=date&legend=top-left)
+<a href="https://www.star-history.com/?repos=Future-House%2Frobin&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Future-House/robin&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=Future-House/robin&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=Future-House/robin&type=date&legend=top-left" />
+ </picture>
+</a>
 
 A paper-configured workflow run costs about US$11 of API calls (45 Crow and 30 Falcon calls), and Robin read 551 papers in 30 minutes against an estimated 294 human hours.
 **The developer-community footprint is nearly absent: the announcement drew an 18-point Hacker News thread with 4 comments as of 2026-10-06, so adoption runs through academia and Nature readers rather than the harness ecosystem.**

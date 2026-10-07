@@ -25,7 +25,13 @@ It surfaced as an entrant from the owner's GitHub stars.
 
 Active and growing fast: 9,154 stars in five months, last push 2026-10-04, latest release alpha-0.3.4 on 2026-09-27 (GitHub API, as of 2026-10-06).
 
-[![Star History Chart](https://api.star-history.com/chart?repos=pacifio/atlas&type=date&legend=top-left)](https://www.star-history.com/?repos=pacifio%2Fatlas&type=date&legend=top-left)
+<a href="https://www.star-history.com/?repos=pacifio%2Fatlas&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=pacifio/atlas&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=pacifio/atlas&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=pacifio/atlas&type=date&legend=top-left" />
+ </picture>
+</a>
 
 Official installers ship as macOS .app/.dmg and Windows .msi; Linux is build-from-source with GTK and WebKitGTK dependencies.
 The README carries Trendshift badges for Rust, and feature work targets version branches rather than main, a sign of release discipline inside alpha.

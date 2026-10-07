@@ -26,7 +26,13 @@ The authors are Bespoke Labs with Maheswaran Sathiamoorthy, whose earlier Bespok
 **Active and eighteen days old, with a near-zero HN footprint and the strongest verification artifacts of any project in the wave.**
 The repository was created 2026-09-18 and shows about 2,060 stars and 160 forks as of 2026-10-06 (the API reports a push on 2026-10-05, while the default branch's last commit is 2026-09-24); the weights were created 2026-09-18 and show about 5,600 downloads and 231 likes.
 
-[![Star History Chart](https://api.star-history.com/chart?repos=bespokelabsai/nimble&type=date&legend=top-left)](https://www.star-history.com/?repos=bespokelabsai%2Fnimble&type=date&legend=top-left)
+<a href="https://www.star-history.com/?repos=bespokelabsai%2Fnimble&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=bespokelabsai/nimble&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=bespokelabsai/nimble&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=bespokelabsai/nimble&type=date&legend=top-left" />
+ </picture>
+</a>
 
 The Hacker News submission (2026-09-18) sits at 7 points and zero comments, so I state plainly that the community footprint is absent.
 What substitutes is in the repo: a 13-subset, 3,880-record human-labeled suite (VitaminC, MASSIVE in English and German, BoolQ, SQuAD 2.0, PAWS, MultiNLI, Civil Comments, Aegis 2, HelpSteer2, two SummEval slices, PubMedQA) run against Jev 1.13.0, which no vendor and no other replica has done.

@@ -25,7 +25,13 @@ It reached 20k stars in 17 days from a February 2026 start.
 Active, pre-1.0, and explicit about both.
 As of 2026-10-06: 30,011 stars and 4,453 forks since creation on 2026-02-04, pushed 2026-09-24, 51 open issues, v0.3.1 still the latest release (2026-07-03) after the v0.2.x line through May.
 
-[![Star History Chart](https://api.star-history.com/chart?repos=sipeed/picoclaw&type=date&legend=top-left)](https://www.star-history.com/?repos=sipeed%2Fpicoclaw&type=date&legend=top-left)
+<a href="https://www.star-history.com/?repos=sipeed%2Fpicoclaw&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=sipeed/picoclaw&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=sipeed/picoclaw&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=sipeed/picoclaw&type=date&legend=top-left" />
+ </picture>
+</a>
 
 **The README carries two unusual banners: a do-not-deploy-to-production-before-v1.0 warning, and a scam notice that no official PicoClaw cryptocurrency exists and picoclaw.io is the only official domain, both signs of attention arriving faster than governance.**
 The official domain's TLS certificate, expired on 2026-09-10 and still broken as of 2026-09-27, was renewed by 2026-09-29 (valid through 2027-04-14), so picoclaw.io serves normally again and docs.picoclaw.io is no longer the only working entry point.

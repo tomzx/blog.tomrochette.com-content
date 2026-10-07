@@ -26,7 +26,13 @@ MIT, by a small anonymous GitHub organization.
 
 Tiny and quiet, and the numbers are the story: 14 stars, 1 fork, 0 issues as of 2026-10-06, created 2026-02-12, 20 commits total, 2 apparently related contributors.
 
-[![Star History Chart](https://api.star-history.com/chart?repos=AxeForging/aigate&type=date&legend=top-left)](https://www.star-history.com/?repos=AxeForging%2Faigate&type=date&legend=top-left)
+<a href="https://www.star-history.com/?repos=AxeForging%2Faigate&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=AxeForging/aigate&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=AxeForging/aigate&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=AxeForging/aigate&type=date&legend=top-left" />
+ </picture>
+</a>
 
 v1.0.0 released 2026-07-19 with a few commits since, and no push since 2026-08-04, sixty-three days of quiet as of this refresh.
 **A missing community footprint is itself a signal worth stating: no audits, no advisories, no external users visible, and no SECURITY.md.**

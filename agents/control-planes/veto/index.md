@@ -27,7 +27,13 @@ It is made by Plaw, Inc. (US), which lists Veto as an EU AI Pact signatory.
 Active product, dormant open-source repository.
 The repository was created 2026-01-02 and sits at 14 stars, 2 forks, and 1 open issue as of 2026-10-06, with no source push since 2026-06-18 (110 days) and the latest published SDK release `veto-sdk@2.9.3` on 2026-05-07.
 
-[![Star History Chart](https://api.star-history.com/chart?repos=PlawIO/veto&type=date&legend=top-left)](https://www.star-history.com/?repos=PlawIO%2Fveto&type=date&legend=top-left)
+<a href="https://www.star-history.com/?repos=PlawIO%2Fveto&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=PlawIO/veto&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=PlawIO/veto&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=PlawIO/veto&type=date&legend=top-left" />
+ </picture>
+</a>
 
 The website, docs, and pricing pages remain live with prices unchanged (verified 2026-10-06), and the company markets to agent vendors and regulated buyers, so the commercial product is clearly alive while the public source is not.
 **The public footprint is small: a Hacker News search for Veto returns nothing relevant, and the starred count is in the low tens, so adoption evidence comes from the product surfaces rather than the community.**

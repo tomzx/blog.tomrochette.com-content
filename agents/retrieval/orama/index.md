@@ -25,7 +25,13 @@ It is made by OramaSearch Inc., written in TypeScript, and runs in Node, browser
 **Actively installed, slowly maintained: the npm firehose keeps flowing while the repository has gone quiet.**
 10,570 stars and 405 forks as of 2026-10-06; the latest release is v3.1.18, published 2025-12-19, the most recent main-branch commit landed 2026-07-03 (a community CJK plugin fix), and the default branch was last pushed 2026-10-03.
 
-[![Star History Chart](https://api.star-history.com/chart?repos=oramasearch/orama&type=date&legend=top-left)](https://www.star-history.com/?repos=oramasearch%2Forama&type=date&legend=top-left)
+<a href="https://www.star-history.com/?repos=oramasearch%2Forama&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=oramasearch/orama&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=oramasearch/orama&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=oramasearch/orama&type=date&legend=top-left" />
+ </picture>
+</a>
 
 npm reports 1,505,745 downloads/week for `@orama/orama` (window 2026-09-28 to 2026-10-04).
 The discussion footprint is nearly empty for that scale: the only HN story dedicated to Orama is a 1-point 2023 post, with demos and integration posts at 2 to 5 points.

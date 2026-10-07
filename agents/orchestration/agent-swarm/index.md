@@ -25,7 +25,13 @@ Around that core it layers a dashboard UI, DAG workflows with human-in-the-loop 
 
 Active and shipping fast: 859 stars, 108 forks, and 17 open issues and pull requests as of 2026-10-06, created 2025-12-19, with the default branch pushed that day and v1.164.0 published the same day, one day after v1.163.0.
 
-[![Star History Chart](https://api.star-history.com/chart?repos=desplega-ai/agent-swarm&type=date&legend=top-left)](https://www.star-history.com/?repos=desplega-ai%2Fagent-swarm&type=date&legend=top-left)
+<a href="https://www.star-history.com/?repos=desplega-ai%2Fagent-swarm&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=desplega-ai/agent-swarm&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=desplega-ai/agent-swarm&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=desplega-ai/agent-swarm&type=date&legend=top-left" />
+ </picture>
+</a>
 
 **The adoption evidence is real but early: a 63-point Show HN thread in February 2026 and a live public demo, with the production claims (a customer with 80% of its team onboarded and over 800 human-initiated tasks weekly) self-reported by the vendor.**
 The README's own tip that the repo "evolves every single day" is the plain read of the risk: this is a high-velocity single-vendor product, not a community project.

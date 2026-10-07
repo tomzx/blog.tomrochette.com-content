@@ -26,7 +26,13 @@ Made by junhoyeo, an independent developer, MIT-licensed.
 
 Young and fast: 5,630 stars, 465 forks, 77 open issues, created 2025-12-01, pushed 2026-10-05, as of 2026-10-06.
 
-[![Star History Chart](https://api.star-history.com/chart?repos=junhoyeo/tokscale&type=date&legend=top-left)](https://www.star-history.com/?repos=junhoyeo%2Ftokscale&type=date&legend=top-left)
+<a href="https://www.star-history.com/?repos=junhoyeo%2Ftokscale&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=junhoyeo/tokscale&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=junhoyeo/tokscale&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=junhoyeo/tokscale&type=date&legend=top-left" />
+ </picture>
+</a>
 
 npm shows 153,501 downloads in the trailing month (2026-09-05 to 2026-10-04), second in this category only to ccusage, and the release line is v4.18.0 (2026-10-05) after v4.17.0 (2026-09-15).
 Its Show HN reached 2 points and zero comments in December 2025, so the audience arrived without a forum argument.

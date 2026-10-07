@@ -25,7 +25,13 @@ Every action an agent takes is governed and logged, approvals are configurable, 
 
 Early and moving fast: about 18,400 stars in its first twelve weeks as of 2026-10-06 (created 2026-07-20, pushed today), with v0.3.1 released 2026-10-05 and a public beta disclaimer on the README.
 
-[![Star History Chart](https://api.star-history.com/chart?repos=andrewyng/openworker&type=date&legend=top-left)](https://www.star-history.com/?repos=andrewyng%2Fopenworker&type=date&legend=top-left)
+<a href="https://www.star-history.com/?repos=andrewyng%2Fopenworker&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=andrewyng/openworker&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=andrewyng/openworker&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=andrewyng/openworker&type=date&legend=top-left" />
+ </picture>
+</a>
 
 v0.3.1 publishes the CLI as a container image on ghcr.io, so a coworker runs entirely inside an NVIDIA OpenShell sandbox with one command, and pins the desktop app's OpenShell option to OpenShell 0.1.2.
 **The star count is an audience effect as much as an adoption signal: Andrew Ng's announcement drove the attention, while the independent Hacker News footprint is one 5-point thread plus a pair of 2-point follow-ups, so the tool's actual field usage is unproven.**

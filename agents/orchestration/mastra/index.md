@@ -27,7 +27,13 @@ npm recorded 7,250,377 downloads of `@mastra/core` in the month ending 2026-10-0
 Funding: $13M seed announced 2025-10-08 from 120+ investors including YC, Paul Graham, Gradient, and Guillermo Rauch, then a $22M Series A led by Spark Capital on 2026-04-09, totaling $35M (mastra.ai blog).
 On 2026-06-16 Mastra disclosed a supply-chain attack that compromised multiple npm packages, with an incident report and fixes.
 
-[![Star History Chart](https://api.star-history.com/chart?repos=mastra-ai/mastra&type=date&legend=top-left)](https://www.star-history.com/?repos=mastra-ai%2Fmastra&type=date&legend=top-left)
+<a href="https://www.star-history.com/?repos=mastra-ai%2Fmastra&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=mastra-ai/mastra&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=mastra-ai/mastra&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=mastra-ai/mastra&type=date&legend=top-left" />
+ </picture>
+</a>
 
 ## Strengths
 

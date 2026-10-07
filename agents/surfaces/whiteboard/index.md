@@ -27,7 +27,13 @@ The team is four (Sid, Alex, Ketan, and Milan), YC W26-backed, and built the app
 Distribution is free, open source, and local-only in beta; the product site now advertises a hosted Whiteboard as coming soon, though no plans or prices exist yet, so there is no revenue model today.
 The category question is unresolved even in its own launch thread, where commenters reached for orchestrator, control plane, and agent multiplexer before the authors placed it as deliberately not opinionated about where your agent runs.
 
-[![Star History Chart](https://api.star-history.com/chart?repos=devdotfast/whiteboard&type=date&legend=top-left)](https://www.star-history.com/?repos=devdotfast%2Fwhiteboard&type=date&legend=top-left)
+<a href="https://www.star-history.com/?repos=devdotfast%2Fwhiteboard&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=devdotfast/whiteboard&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=devdotfast/whiteboard&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=devdotfast/whiteboard&type=date&legend=top-left" />
+ </picture>
+</a>
 
 ## Strengths
 

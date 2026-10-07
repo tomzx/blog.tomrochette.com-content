@@ -26,7 +26,13 @@ Tooling is minimal: memoryfield-tool, a Python CLI (AGPL-3.0, 42 stars), and mem
 **One high-traction essay, thin tooling adoption, draft spec.**
 The launch essay hit 191 points on Hacker News on 2026-08-31, while all three repositories together hold 102 stars as of 2026-10-06.
 
-[![Star History Chart](https://api.star-history.com/chart?repos=calpaterson/memoryfield-spec&type=date&legend=top-left)](https://www.star-history.com/?repos=calpaterson%2Fmemoryfield-spec&type=date&legend=top-left)
+<a href="https://www.star-history.com/?repos=calpaterson%2Fmemoryfield-spec&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=calpaterson/memoryfield-spec&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=calpaterson/memoryfield-spec&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=calpaterson/memoryfield-spec&type=date&legend=top-left" />
+ </picture>
+</a>
 
 The gap is the record: the format's traction is attention to its argument, not adoption of its artifacts.
 The spec is explicitly a draft soliciting review, and I found no independent implementation of it yet.

@@ -29,7 +29,13 @@ The CLI shipped on npm on August 7, 2026 and did 1,720 downloads in the last mon
 Its Launch HN on August 13, 2026 reached 121 points (item 49283063), nine days after a quiet 9-point Show HN.
 Traction is early and now drifting down: thousands of installs, not millions, with YC backing as the deliberately stated signal behind it.
 
-[![Star History Chart](https://api.star-history.com/chart?repos=trybullet/bullet-releases&type=date&legend=top-left)](https://www.star-history.com/?repos=trybullet%2Fbullet-releases&type=date&legend=top-left)
+<a href="https://www.star-history.com/?repos=trybullet%2Fbullet-releases&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=trybullet/bullet-releases&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=trybullet/bullet-releases&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=trybullet/bullet-releases&type=date&legend=top-left" />
+ </picture>
+</a>
 
 ## Strengths
 

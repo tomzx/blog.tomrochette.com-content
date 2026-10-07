@@ -25,7 +25,13 @@ Apache-2.0, from Alibaba, open-sourced in May 2026 after two years of internal u
 
 High-velocity young: 43,918 stars, 3,168 forks, 278 open issues and PRs as of 2026-10-06, created 2026-05-18.
 
-[![Star History Chart](https://api.star-history.com/chart?repos=alibaba/open-code-review&type=date&legend=top-left)](https://www.star-history.com/?repos=alibaba%2Fopen-code-review&type=date&legend=top-left)
+<a href="https://www.star-history.com/?repos=alibaba%2Fopen-code-review&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=alibaba/open-code-review&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=alibaba/open-code-review&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=alibaba/open-code-review&type=date&legend=top-left" />
+ </picture>
+</a>
 
 That is up from 23,041 stars on 2026-09-13, 29,564 on 2026-09-16, 35,673 on 2026-09-18, 37,926 on 2026-09-20, 38,670 on 2026-09-21, 40,800 on 2026-09-24, 41,702 on 2026-09-27, 42,421 on 2026-09-29, 43,189 on 2026-10-02, 43,411 on 2026-10-03, 43,529 on 2026-10-04, and 43,886 earlier on 2026-10-06, roughly 90 percent in three weeks, still with no new HN catalyst on the launch thread, which sits at the same 284 points.
 At least 136 releases in five months (v1.12.12 on 2026-10-05 is latest, after v1.12.11 on September 29), a 284-point Hacker News front-page thread in June.

@@ -27,7 +27,13 @@ The current stable protocol version is 1, with a v2 draft and a migration guide 
 **Active and compounding.**
 The repository shows about 4.4k stars as of 2026-10-06, with roughly 2,300 commits.
 
-[![Star History Chart](https://api.star-history.com/chart?repos=agentclientprotocol/agent-client-protocol&type=date&legend=top-left)](https://www.star-history.com/?repos=agentclientprotocol%2Fagent-client-protocol&type=date&legend=top-left)
+<a href="https://www.star-history.com/?repos=agentclientprotocol%2Fagent-client-protocol&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=agentclientprotocol/agent-client-protocol&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=agentclientprotocol/agent-client-protocol&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=agentclientprotocol/agent-client-protocol&type=date&legend=top-left" />
+ </picture>
+</a>
 
 The official agents list has grown to 41 entries (re-counted 2026-10-06) and now includes Codex CLI (via the protocol project's adapter), the Claude agent (via Zed's SDK adapter), Gemini CLI, Cursor, OpenCode, Goose, Junie, Kiro CLI, Factory Droid, Cline, Kimi CLI, Qwen Code, and GitHub Copilot in public preview since 2026-01-28.
 Clients include Zed, JetBrains IDEs (beta in the 25.3 release candidates, December 2025), Neovim and Emacs plugins, VS Code extensions, and Devin Desktop.

@@ -25,7 +25,13 @@ It self-describes as supporting 26 agent CLIs (Claude Code, Codex, Cursor, Copil
 
 Actively shipped and unusually high-profile: about 51,967 stars and 6,751 forks as of 2026-10-05, created 2026-01-13, with 1,780 open issues and pull requests and a latest release of v0.6.1 on 2026-10-01.
 
-[![Star History Chart](https://api.star-history.com/chart?repos=multica-ai/multica&type=date&legend=top-left)](https://www.star-history.com/?repos=multica-ai%2Fmultica&type=date&legend=top-left)
+<a href="https://www.star-history.com/?repos=multica-ai%2Fmultica&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=multica-ai/multica&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=multica-ai/multica&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=multica-ai/multica&type=date&legend=top-left" />
+ </picture>
+</a>
 
 Releases land every one to three days, which corroborates real maintenance.
 **Two caveats travel with the headline number: the star count is extraordinary for an eight-month-old repo, and independent reviewers found at least eight near-identical zero-star clones carrying the same marketing description, a pattern associated with star farming, while the license is a custom Apache-2.0-derived "Multica License" that GitHub reports as NOASSERTION.**

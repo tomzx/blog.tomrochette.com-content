@@ -26,7 +26,13 @@ MIT licensed, TypeScript, under the `microsoft` GitHub org, created 2026-03-12.
 
 **Active and shipping: 390 stars, 62 open issues as of 2026-10-06, with the latest commits landing 2026-10-03 and v1.0.0 the latest release (spec, clients, and SDK packages all tagged 1.0.0 on 2026-10-02).**
 
-[![Star History Chart](https://api.star-history.com/chart?repos=microsoft/agent-host-protocol&type=date&legend=top-left)](https://www.star-history.com/?repos=microsoft%2Fagent-host-protocol&type=date&legend=top-left)
+<a href="https://www.star-history.com/?repos=microsoft%2Fagent-host-protocol&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=microsoft/agent-host-protocol&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=microsoft/agent-host-protocol&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=microsoft/agent-host-protocol&type=date&legend=top-left" />
+ </picture>
+</a>
 
 Adoption is real where it counts: the `ahp` crate records about 274,100 lifetime downloads and the npm package about 549,000 (2026-09-06 to 2026-10-05), both as of 2026-10-06, with npm's trailing-month total still climbing steeply.
 A member of the VS Code team stated publicly in June 2026 that the team is rebuilding its agent infrastructure on AHP, and the reference host lives at `src/vs/platform/agentHost/node` in the `microsoft/vscode` repository.

@@ -27,7 +27,13 @@ The README claims MIT, but I could not find a LICENSE file on the default branch
 
 The hosted product has moved faster than the open-source server: the main repository has 17 stars and was created 2026-02-06 and last pushed 2026-05-06, while the CLI is a published npm package and sibling repos in the org were pushed through September 2026, as of 2026-09-27.
 
-[![Star History Chart](https://api.star-history.com/chart?repos=Agent-Analytics/agent-analytics&type=date&legend=top-left)](https://www.star-history.com/?repos=Agent-Analytics%2Fagent-analytics&type=date&legend=top-left)
+<a href="https://www.star-history.com/?repos=Agent-Analytics%2Fagent-analytics&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Agent-Analytics/agent-analytics&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=Agent-Analytics/agent-analytics&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=Agent-Analytics/agent-analytics&type=date&legend=top-left" />
+ </picture>
+</a>
 
 Community signal is thin and concentrated in the org's own plugins, the most prominent being the Hermes dashboard plugin at 27 stars and the Paperclip live analytics plugin at 14 stars, as of 2026-09-27; I found no Hacker News thread for the site.
 The README claims MIT and links a LICENSE file that is absent from the default branch, which returned 404 when I fetched it.

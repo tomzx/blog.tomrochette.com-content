@@ -26,7 +26,13 @@ It comes from OpenLayer (the openlayer-ai organization), is alpha, MIT, Python 3
 **Sixteen days old and already carrying more independent evidence than most month-old tools ever get.**
 102 stars and 9 forks as of 2026-10-06 (repository created 2026-09-20, last push 2026-10-01), PyPI 0.1.4 published 2026-09-20, and a 47-point Show HN with 6 comments the same day.
 
-[![Star History Chart](https://api.star-history.com/chart?repos=openlayer-ai/jevals&type=date&legend=top-left)](https://www.star-history.com/?repos=openlayer-ai%2Fjevals&type=date&legend=top-left)
+<a href="https://www.star-history.com/?repos=openlayer-ai%2Fjevals&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=openlayer-ai/jevals&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=openlayer-ai/jevals&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=openlayer-ai/jevals&type=date&legend=top-left" />
+ </picture>
+</a>
 
 The self-run bench (September 2026, v0.1.4) measures one request per trace: $0.03 per 1,000 samples on Jev versus $2.60 for Ragas on gpt-4.1-mini, p50 244ms and p95 371ms.
 The independent checks cut both ways: LangChain's experiment found 92x to 913x lower score variance than GPT and Claude judges at $0.00035 per call, while JevBench's independent run puts Jev at small-model accuracy with calibration that varies by task.

@@ -27,7 +27,13 @@ Active and heavily maintained: last push 2026-10-03, latest release 1.15.23 on 2
 The company raised $18M across seed and Series A in October 2024, led by Insight Partners and boldstart ventures, with Andrew Ng and HubSpot co-founder Dharmesh Shah as angels (SiliconANGLE).
 Company claims include roughly half the Fortune 500 using the open source and 10 million+ agents executed monthly; I could not independently verify either number.
 
-[![Star History Chart](https://api.star-history.com/chart?repos=crewAIInc/crewAI&type=date&legend=top-left)](https://www.star-history.com/?repos=crewAIInc%2FcrewAI&type=date&legend=top-left)
+<a href="https://www.star-history.com/?repos=crewAIInc%2FcrewAI&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=crewAIInc/crewAI&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=crewAIInc/crewAI&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=crewAIInc/crewAI&type=date&legend=top-left" />
+ </picture>
+</a>
 
 ## Strengths
 

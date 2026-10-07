@@ -27,7 +27,13 @@ Made by Graphify Labs, a YC Summer 2026 company of two people in London, Apache-
 
 Growing absurdly fast for its age: 124,118 stars and 2,132 commits in about six months since 2026-04-03, latest release v0.9.77 on 2026-10-05, all as of 2026-10-06, with 294 contributors as of 2026-10-06.
 
-[![Star History Chart](https://api.star-history.com/chart?repos=Graphify-Labs/graphify&type=date&legend=top-left)](https://www.star-history.com/?repos=Graphify-Labs%2Fgraphify&type=date&legend=top-left)
+<a href="https://www.star-history.com/?repos=Graphify-Labs%2Fgraphify&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Graphify-Labs/graphify&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=Graphify-Labs/graphify&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=Graphify-Labs/graphify&type=date&legend=top-left" />
+ </picture>
+</a>
 
 The YC page claims 5M+ downloads and named production users, all self-reported.
 **The Enterprise early-access tier now ships differential formal verification**: a solver ladder (Z3, CrossHair, CBMC, JBMC) that proves a changed function behavior-preserving or returns a concrete input that breaks it, alongside graph-aware PR review, per the vendor's full index (fetched 2026-09-26).

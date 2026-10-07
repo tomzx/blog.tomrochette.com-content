@@ -26,7 +26,13 @@ Dual Apache-2.0 or MIT, written almost entirely by one developer (1,090 of 1,368
 
 Fast and growing: 9,161 stars, 689 forks, 135 open issues and PRs as of 2026-10-06, created 2025-12-28, pushed 2026-10-06, v0.28.4 released 2026-10-05.
 
-[![Star History Chart](https://api.star-history.com/chart?repos=backnotprop/plannotator&type=date&legend=top-left)](https://www.star-history.com/?repos=backnotprop%2Fplannotator&type=date&legend=top-left)
+<a href="https://www.star-history.com/?repos=backnotprop%2Fplannotator&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=backnotprop/plannotator&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=backnotprop/plannotator&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=backnotprop/plannotator&type=date&legend=top-left" />
+ </picture>
+</a>
 
 **The 0.27.x line gave way to 0.28.x on 2026-10-05 (five releases that day alone), which says pre-1.0 churn, and the growth came through social channels rather than press; its Show HN thread drew 5 points.**
 The author now ships a terminal sibling, Herdr Annotate under the plannotator GitHub org (624 stars as of 2026-10-06), which applies the same annotate-and-send-feedback loop to terminal text.

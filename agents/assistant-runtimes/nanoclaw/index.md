@@ -26,7 +26,13 @@ Each agent group gets its own container, workspace, memory, and mounts; Slack pr
 Active and independently credible.
 As of 2026-10-06: 30,879 stars and 12,777 forks since creation on 2026-01-31, pushed 2026-10-06, 1,035 open issues.
 
-[![Star History Chart](https://api.star-history.com/chart?repos=nanocoai/nanoclaw&type=date&legend=top-left)](https://www.star-history.com/?repos=nanocoai%2Fnanoclaw&type=date&legend=top-left)
+<a href="https://www.star-history.com/?repos=nanocoai%2Fnanoclaw&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=nanocoai/nanoclaw&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=nanocoai/nanoclaw&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=nanocoai/nanoclaw&type=date&legend=top-left" />
+ </picture>
+</a>
 
 The [533-point launch thread](https://news.ycombinator.com/item?id=46850205) pitched it as "Clawdbot in 500 lines of TS with Apple container isolation", followed by a 169-point thread on the move from Apple Containers to Docker and a 112-point thread on adopting the OneCLI Agent Vault.
 The versioning just moved to calendar dates: v2.4.0 (2026-09-23) is the last of the 2.x line, 2026.10.0 is in release candidates (rc.1 on 2026-10-04, rc.2 on 2026-10-05), and `/update-nanoclaw` now follows published releases instead of the tip of main, with the beta channel on candidates and stable holding at 2.4.0 until 2026.10.0 publishes.

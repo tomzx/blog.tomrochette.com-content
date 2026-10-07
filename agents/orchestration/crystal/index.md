@@ -28,7 +28,13 @@ Dead, superseded by design.
 The repository README says "Deprecated: February 2026", and the last push landed 2026-02-26, which matches.
 As of 2026-10-02 the repo shows 3,123 stars, 196 forks, and 672 commits, with 68 open issues that will not be worked on.
 
-[![Star History Chart](https://api.star-history.com/chart?repos=stravu/crystal&type=date&legend=top-left)](https://www.star-history.com/?repos=stravu%2Fcrystal&type=date&legend=top-left)
+<a href="https://www.star-history.com/?repos=stravu%2Fcrystal&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=stravu/crystal&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=stravu/crystal&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=stravu/crystal&type=date&legend=top-left" />
+ </picture>
+</a>
 
 Nimbalyst itself is actively marketed, with team collaboration free during its beta and SOC-2 positioning on its site.
 

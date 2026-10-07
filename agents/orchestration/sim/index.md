@@ -27,7 +27,13 @@ v0.9.11 (October 2) tightened audit rules across console, helper, render-path, p
 Three HN launches mark the trajectory: 196 points for the first Show HN (2025-04-28), 55 points for the YC Launch HN (2025-05-21), and 240 points for "Sim, Apache-2.0 n8n alternative" (2025-12-11).
 Pre-1.0 (v0.9.x) despite the scale, so the API surface is still moving.
 
-[![Star History Chart](https://api.star-history.com/chart?repos=simstudioai/sim&type=date&legend=top-left)](https://www.star-history.com/?repos=simstudioai%2Fsim&type=date&legend=top-left)
+<a href="https://www.star-history.com/?repos=simstudioai%2Fsim&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=simstudioai/sim&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=simstudioai/sim&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=simstudioai/sim&type=date&legend=top-left" />
+ </picture>
+</a>
 
 ## Strengths
 

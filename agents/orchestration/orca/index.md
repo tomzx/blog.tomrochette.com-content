@@ -26,7 +26,13 @@ MIT licensed, TypeScript and Electron, and the repo's README carries translation
 
 Fast and well-funded: about 86.1k stars and 5,493 forks as of 2026-10-06, created 2026-03-17, more than 11,900 commits, with v1.4.221 (2026-10-05) the latest release.
 
-[![Star History Chart](https://api.star-history.com/chart?repos=stablyai/orca&type=date&legend=top-left)](https://www.star-history.com/?repos=stablyai%2Forca&type=date&legend=top-left)
+<a href="https://www.star-history.com/?repos=stablyai%2Forca&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=stablyai/orca&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=stablyai/orca&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=stablyai/orca&type=date&legend=top-left" />
+ </picture>
+</a>
 
 v1.4.221 is a security fix plus platform repair release: it closes a bug where marking a folder trusted for GitHub Copilot left `~/.copilot/config.json` (which can hold Copilot login tokens) readable by other users on shared SSH hosts, and it points Codex on Windows at the user's own `~/.codex` folder, following v1.4.220's native-chat Stop button and faster workspace creation in large repositories.
 The changelog shows daily shipping through September 2026, including OpenCode 2 support (2026-09-20), a Muse Code harness and Codex goals in native chat (2026-09-25), and a Design Mode and browser stack.

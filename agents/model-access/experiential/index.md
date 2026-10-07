@@ -26,7 +26,13 @@ The GitHub repo language reads Python; the Rust data plane claim comes from the 
 
 Very active and compounding fast: 9,303 stars and 231 forks as of 2026-10-06, pushed the same day, created 2026-06-24.
 
-[![Star History Chart](https://api.star-history.com/chart?repos=experientiallabs/experiential&type=date&legend=top-left)](https://www.star-history.com/?repos=experientiallabs%2Fexperiential&type=date&legend=top-left)
+<a href="https://www.star-history.com/?repos=experientiallabs%2Fexperiential&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=experientiallabs/experiential&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=experientiallabs/experiential&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=experientiallabs/experiential&type=date&legend=top-left" />
+ </picture>
+</a>
 
 The Show HN launch ("We built open OpenRouter that turns usage into a better model") reached 222 points on 2026-08-27 with 47 comments, and the star count has since grown roughly an order of magnitude past the ~820 the entrant data recorded around 2026-09-21.
 PyPI shows 166 releases since first upload on 2026-08-20, latest 0.7.157, requiring Python 3.12+ (as of 2026-10-06).

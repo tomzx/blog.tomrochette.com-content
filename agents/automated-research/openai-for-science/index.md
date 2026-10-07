@@ -31,7 +31,13 @@ August 2026: OpenAI announced ten results across mathematics and theoretical com
 September 2026: OpenAI published a claimed proof of forced blow-up in R3 and T3 for the Navier-Stokes equations, a Millennium Prize Problem, attributed to an internal model "with very little human input", and shipped it with a public Lean 4 formalization (about 616,000 lines, no extra axioms per a third-party audit, formalized in 17 hours via GPT-6 Astra per OpenAI); NYU's Tristan Buckmaster and Anthropic's Levent Alpöge, who published their own Lean-verified forced Euler proofs hours earlier, disputed credit, OpenAI's Sébastien Bubeck denied trying to cut Alpöge from authorship and apologized for a remark about his career, Sam Altman backed Bubeck and confirmed OpenAI had started the project after rumors that Anthropic's models had solved Millennium problems, and no independent process has adjudicated either account, while Clay's September 11 statement says the problem "has apparently been settled", now badges it Active on its site, and calls verification "deliberately unhurried", and OpenAI says it will not claim the prize.
 At DevDay on September 29, research lead Tejal Patwardhan said OpenAI's models have already helped solve more than 100 mathematics problems that had been open for decades, and Altman confirmed the September "automated research intern" goal set a year earlier was met.
 
-[![Star History Chart](https://api.star-history.com/chart?repos=openai/ten-proofs&type=date&legend=top-left)](https://www.star-history.com/?repos=openai%2Ften-proofs&type=date&legend=top-left)
+<a href="https://www.star-history.com/?repos=openai%2Ften-proofs&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=openai/ten-proofs&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=openai/ten-proofs&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=openai/ten-proofs&type=date&legend=top-left" />
+ </picture>
+</a>
 
 ## Strengths
 

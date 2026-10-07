@@ -27,7 +27,13 @@ The company describes itself as a research lab; the repository began under found
 **Active and large, with adoption that outruns its discussion footprint.**
 About 31.1k stars, 2,734 forks, and 103 open issues and pull requests as of 2026-10-06, created 2024-02-27, pushed 2026-10-06 (GitHub API).
 
-[![Star History Chart](https://api.star-history.com/chart?repos=supermemoryai/supermemory&type=date&legend=top-left)](https://www.star-history.com/?repos=supermemoryai%2Fsupermemory&type=date&legend=top-left)
+<a href="https://www.star-history.com/?repos=supermemoryai%2Fsupermemory&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=supermemoryai/supermemory&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=supermemoryai/supermemory&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=supermemoryai/supermemory&type=date&legend=top-left" />
+ </picture>
+</a>
 
 The npm SDK pulled 487,187 downloads in the trailing month (2026-09-05 to 2026-10-04) and PyPI shows SDK version 3.62.0.
 The hosted platform claims 1T+ tokens processed per month and tens of millions of end users (vendor figures).

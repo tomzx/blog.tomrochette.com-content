@@ -27,7 +27,13 @@ Made by Earendil Inc., created by Mario Zechner with Armin Ronacher as the secon
 
 Active and ascending: 112,804 stars, 14,315 forks, 280 open issues and PRs as of 2026-10-06.
 
-[![Star History Chart](https://api.star-history.com/chart?repos=earendil-works/pi&type=date&legend=top-left)](https://www.star-history.com/?repos=earendil-works%2Fpi&type=date&legend=top-left)
+<a href="https://www.star-history.com/?repos=earendil-works%2Fpi&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=earendil-works/pi&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=earendil-works/pi&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=earendil-works/pi&type=date&legend=top-left" />
+ </picture>
+</a>
 
 Created 2025-08-09, pushed within a day of verification, releases roughly weekly, reaching v1.0.0 on October 1, 2026, then v1.0.1 (October 3: a Nix flake install, project-level MCP server overrides, MCP OAuth client-ID metadata documents, tool renderers for tools that are not registered yet, and Cloudflare Clef classifiers usable from codemode), v1.0.2 (October 4: sampling parameters configurable per thinking level on OpenAI-compatible APIs), v1.0.3 (October 5: the Azure provider renamed from `azure-openai-responses` to `azure` with Foundry Chat Completions deployments starting at `azure/deepseek-v4-pro`, codemode images saved to files, output files locked to the user), and v1.0.4 (October 5: `*` patterns for `--tools` and `--exclude-tools`, a per-run `--no-mcp` flag, and codemode image read-back); the v0.99 line (September 29-30) shipped the biggest capability change in the project's history, codemode, tool search, and MCP support as built-in extensions, and v1.0.0 made the TUI fullscreen by default, cut codemode prompt tokens by about 40 percent, and hardened MCP OAuth.
 **The ecosystem is the strongest signal: OpenClaw runs on Pi, and oh-my-pi, a batteries-included fork with about 34.4k stars as of 2026-10-06, exists precisely because some users want the features Pi refuses to ship.**

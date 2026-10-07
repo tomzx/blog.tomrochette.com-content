@@ -26,7 +26,13 @@ Made by Kenn Software LLC; install via curl script, Homebrew cask, desktop build
 
 Young and active: 6,056 stars, 677 forks, 137 open issues and PRs as of 2026-10-06, created 2026-02-19.
 
-[![Star History Chart](https://api.star-history.com/chart?repos=kenn-io/agentsview&type=date&legend=top-left)](https://www.star-history.com/?repos=kenn-io%2Fagentsview&type=date&legend=top-left)
+<a href="https://www.star-history.com/?repos=kenn-io%2Fagentsview&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=kenn-io/agentsview&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=kenn-io/agentsview&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=kenn-io/agentsview&type=date&legend=top-left" />
+ </picture>
+</a>
 
 Latest release v0.44.0 on 2026-09-21 with steady releases since July; pre-1.0 with fast feature churn.
 

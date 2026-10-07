@@ -25,7 +25,13 @@ A human approval gate sits before any code is committed, and the README and docs
 
 Active and early: about 160 stars and 14 forks as of 2026-10-06, created 2026-03-03, with commits through 2026-10-01 and a latest release of v0.6.0 (2026-10-01), a major update (80 commits since v0.5.9) that added OpenCode v2 support, traceable skip reasons and decision history, and more than doubled the passing test count to 8,099.
 
-[![Star History Chart](https://api.star-history.com/chart?repos=looptroop-ai/LoopTroop&type=date&legend=top-left)](https://www.star-history.com/?repos=looptroop-ai%2FLoopTroop&type=date&legend=top-left)
+<a href="https://www.star-history.com/?repos=looptroop-ai%2FLoopTroop&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=looptroop-ai/LoopTroop&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=looptroop-ai/LoopTroop&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=looptroop-ai/LoopTroop&type=date&legend=top-left" />
+ </picture>
+</a>
 
 The documentation is unusually complete for an alpha, but the project's own status page calls it "early alpha software" with bugs still likely, and it lists two configured constraints: councils of 2 to 10 models, and one active ticket per project in the execution band.
 **A repo-scale orchestrator that can only run one ticket at a time per project is betting that depth beats throughput, which is the opposite of the parallel-session tools beside it.**

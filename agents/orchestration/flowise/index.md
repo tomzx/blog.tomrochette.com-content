@@ -27,7 +27,13 @@ The README carries the banner "Flowise has been archived. Refer to Future of Flo
 The last release was flowise@3.1.4 on 2026-07-29 and the last push 2026-08-13; the HN thread "Flowise is shutting down" drew 58 points on 2026-08-05.
 npm still recorded 11,150 downloads in the month ending 2026-10-01, residual installs from a user base with nowhere to go.
 
-[![Star History Chart](https://api.star-history.com/chart?repos=FlowiseAI/Flowise&type=date&legend=top-left)](https://www.star-history.com/?repos=FlowiseAI%2FFlowise&type=date&legend=top-left)
+<a href="https://www.star-history.com/?repos=FlowiseAI%2FFlowise&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=FlowiseAI/Flowise&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=FlowiseAI/Flowise&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=FlowiseAI/Flowise&type=date&legend=top-left" />
+ </picture>
+</a>
 
 ## Strengths
 

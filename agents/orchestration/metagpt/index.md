@@ -26,7 +26,13 @@ The framework itself is free software; MGX is the hosted product.
 
 Dormant in everything but stars: the repo shows 70,748 stars, about 9k forks, and a last push of 2026-01-21, roughly eight and a half months before this check (GitHub API, as of 2026-10-05).
 
-[![Star History Chart](https://api.star-history.com/chart?repos=FoundationAgents/MetaGPT&type=date&legend=top-left)](https://www.star-history.com/?repos=FoundationAgents%2FMetaGPT&type=date&legend=top-left)
+<a href="https://www.star-history.com/?repos=FoundationAgents%2FMetaGPT&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=FoundationAgents/MetaGPT&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=FoundationAgents/MetaGPT&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=FoundationAgents/MetaGPT&type=date&legend=top-left" />
+ </picture>
+</a>
 
 The latest release is v0.8.2, published 2025-03-09, eighteen months old at writing.
 The README news section stops at March 2025, when MGX topped Product Hunt, and nothing newer was added since.

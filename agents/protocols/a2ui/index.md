@@ -26,7 +26,13 @@ Google created it and opened it on 2025-12-15, and the repository now lives in i
 **Active and adopted ahead of its spec maturity.**
 The repository shows about 16,600 stars and 1,322 forks with a push on 2026-10-06, roughly ten months after launch, all as of 2026-10-06 (GitHub API).
 
-[![Star History Chart](https://api.star-history.com/chart?repos=a2ui-project/a2ui&type=date&legend=top-left)](https://www.star-history.com/?repos=a2ui-project%2Fa2ui&type=date&legend=top-left)
+<a href="https://www.star-history.com/?repos=a2ui-project%2Fa2ui&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=a2ui-project/a2ui&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=a2ui-project/a2ui&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=a2ui-project/a2ui&type=date&legend=top-left" />
+ </picture>
+</a>
 
 The adoption is product-anchored: Google's Opal team is a core contributor and uses A2UI in its mini-app builder, Gemini Enterprise is integrating it, and Flutter's GenUI SDK (about 1,780 stars) uses A2UI as its declaration format between server-side agents and the app.
 At the protocol layer, AG-UI documents A2UI as a supported generative-UI spec it natively carries, and A2A is a listed transport, so the two protocols above it in this index both move it.

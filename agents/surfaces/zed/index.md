@@ -25,7 +25,13 @@ The AI stack supports Zed-hosted models, BYOK across Anthropic, OpenAI, Google, 
 **Active and fast-moving.**
 About 91k GitHub stars (91,338) as of 2026-10-06, with commits landing daily.
 
-[![Star History Chart](https://api.star-history.com/chart?repos=zed-industries/zed&type=date&legend=top-left)](https://www.star-history.com/?repos=zed-industries%2Fzed&type=date&legend=top-left)
+<a href="https://www.star-history.com/?repos=zed-industries%2Fzed&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=zed-industries/zed&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=zed-industries/zed&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=zed-industries/zed&type=date&legend=top-left" />
+ </picture>
+</a>
 
 The engineering runs deep enough to swap graphics libraries mid-flight (the blade-to-wgpu switch, February 2026) without abandoning the product.
 

@@ -27,7 +27,13 @@ The rename is part of the artifact: after its launch thread debated trademark ri
 Three weeks old and active, as of 2026-10-06.
 Created 2026-09-16, last push 2026-09-23, two contributors, no tags or releases, 341 forks, about 4,700 stars.
 
-[![Star History Chart](https://api.star-history.com/chart?repos=TheoLeeCJ/SemIf-OpenJev&type=date&legend=top-left)](https://www.star-history.com/?repos=TheoLeeCJ%2FSemIf-OpenJev&type=date&legend=top-left)
+<a href="https://www.star-history.com/?repos=TheoLeeCJ%2FSemIf-OpenJev&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=TheoLeeCJ/SemIf-OpenJev&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=TheoLeeCJ/SemIf-OpenJev&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=TheoLeeCJ/SemIf-OpenJev&type=date&legend=top-left" />
+ </picture>
+</a>
 
 By 2026-10-03 the repository itself is named TheoLeeCJ/SemIf-OpenJev, with the /SemIf and /openjev URLs redirecting to it, so the OpenJev rename now lives in the repository name as well.
 The community footprint is large but lives under the old name: the "OpenJev" thread linking openjev.com reached 722 points as of 2026-10-06, the third-largest thread in the Jev wave after Jev's own launch and Laya's.

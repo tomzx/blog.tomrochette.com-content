@@ -27,7 +27,13 @@ The planner's permissions are unusually explicit (ADR-0008): commands classify i
 Active, young, and small.
 As of 2026-10-06: 184 stars, 14 forks, 29 open issues (most of them a single-day roadmap filing on 2026-09-26), created 2026-07-31, pushed 2026-10-05, latest release v0.7.0 on 2026-10-05, and roughly 6,200 npm downloads last month across the `ordewell` and `@ordewell/cli` package names.
 
-[![Star History Chart](https://api.star-history.com/chart?repos=ordewell/ordewell&type=date&legend=top-left)](https://www.star-history.com/?repos=ordewell%2Fordewell&type=date&legend=top-left)
+<a href="https://www.star-history.com/?repos=ordewell%2Fordewell&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=ordewell/ordewell&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=ordewell/ordewell&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=ordewell/ordewell&type=date&legend=top-left" />
+ </picture>
+</a>
 
 v0.7.0 moved completion and planning onto Ordewell's own tools: a task reports done with `task_complete` and asks with `checkpoint` instead of printing markers, the planner reads the live runner catalog and submits the plan through tools, and the printed marker stays as the fallback for the terminal transport, plugin runners, and sessions where the server did not attach; it landed a day after the three 0.6.x fix releases of 2026-10-04, which completed a five-release v0.6.x line begun by the 2026-10-02 pair that made the structured transport the default with Codex and OpenCode connectors and added ops tasks and merge gates (ADR-0020), so a task that acts on the world runs once the work it depends on is merged.
 The Show HN launch thread reached 56 points and 30 comments on 2026-09-15.

@@ -25,7 +25,13 @@ The license is a modified Apache-2.0 that GitHub reports as NOASSERTION.
 
 Active on the product side and old on the clock: the repository was created 2021-09-06 and shows 8,079 stars and 721 forks as of 2026-10-06, pushed 2026-10-05.
 
-[![Star History Chart](https://api.star-history.com/chart?repos=YaoApp/yao&type=date&legend=top-left)](https://www.star-history.com/?repos=YaoApp%2Fyao&type=date&legend=top-left)
+<a href="https://www.star-history.com/?repos=YaoApp%2Fyao&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=YaoApp/yao&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=YaoApp/yao&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=YaoApp/yao&type=date&legend=top-left" />
+ </picture>
+</a>
 
 The release line sits at v1.0.0-rc26 (2026-10-05), moving roughly weekly since summer 2026, which means five years without a stable 1.0.
 The only HN story remains the 2-point, zero-comment 2022 launch of the low-code era, and I found no independent coverage of the agent pivot this run, which is the adoption signal to weigh against the star count.

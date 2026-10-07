@@ -22,7 +22,13 @@ The feature list also carried BYOK model selection, MCP servers and a plugin mar
 
 Dormant: the repository shows 5,582 stars, 611 forks, and 45 open issues, but its last push and its last release (v0.0.84) both landed 2026-03-06, seven months before this check (GitHub API, as of 2026-10-06).
 
-[![Star History Chart](https://api.star-history.com/chart?repos=21st-dev/1code&type=date&legend=top-left)](https://www.star-history.com/?repos=21st-dev%2F1code&type=date&legend=top-left)
+<a href="https://www.star-history.com/?repos=21st-dev%2F1code&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=21st-dev/1code&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=21st-dev/1code&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=21st-dev/1code&type=date&legend=top-left" />
+ </picture>
+</a>
 
 The launch Show HN drew 75 points and 49 comments on 2026-01-15, and the thread's sharpest exchange was about price: commenters called the $20/month hosted web tier expensive for "a web interface and a sandbox", and the founders answered that the paid tier was about signal, not monetization.
 **The product domain now redirects to the GitHub repository, so the hosted surface this note's pricing discussed is gone from the public web, and nothing in the repo records a handoff, an archive notice, or a successor.**

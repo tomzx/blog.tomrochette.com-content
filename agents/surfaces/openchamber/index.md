@@ -26,7 +26,13 @@ It runs on the OpenCode SDK today and is an independent project, not affiliated 
 **Very active.**
 About 11,100 stars (11,183) and 1,235 forks as of 2026-10-06, with v2.1.1 (October 4, 2026, GitLab support end to end with merge requests in the Git panel and sidebar, one composer picker for GitHub issues, pull requests, and Linear items, per-repository git identities, and automatic cleanup of worktrees whose pull request merged) now the latest release after v2.1.0 (October 1, cross-conversation message search over every session with the index kept on-machine, background commands and subagents that stay visible with live logs while they run, and a rebuilt file editor with changed-line markers, folding, multi-cursor, and a symbol outline) after v2.0.4 (September 28, enterprise mode for teams that an administrator turns on with a policy file or `OPENCHAMBER_ENTERPRISE_MODE=1`, keeping conversations with the configured providers, locking provider management to config, and restricting extensions to administrator-approved repositories, plus goal checking, an Excalidraw extension, a Dutch interface, and Jev off by default), the v2.0.3 to v2.0.4 pair of September 28 (per-session permission modes of ask, safety net, or accept all, an In work session section, multi-run from the composer, a token-stats page, and provider cards), the v2.0.0 GA of the app on OpenCode 2 (September 23), the v1.24 line just below it (v1.24.2 of September 18 ending it), and commits landing October 4, 2026.
 
-[![Star History Chart](https://api.star-history.com/chart?repos=openchamber/openchamber&type=date&legend=top-left)](https://www.star-history.com/?repos=openchamber%2Fopenchamber&type=date&legend=top-left)
+<a href="https://www.star-history.com/?repos=openchamber%2Fopenchamber&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=openchamber/openchamber&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=openchamber/openchamber&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=openchamber/openchamber&type=date&legend=top-left" />
+ </picture>
+</a>
 
 A 190-point Hacker News thread in August 2026 marks its arrival in general awareness.
 

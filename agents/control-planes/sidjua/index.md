@@ -27,7 +27,13 @@ It is dual-licensed AGPL-3.0 plus a commercial license, with an enterprise tier 
 Dormant, with the stated restart date missed.
 The repository was created 2026-03-02 and sits at 26 stars, 2 forks, and 4 open issues as of 2026-10-06, with the last push on 2026-04-21 and the last release v1.1.1 on 2026-04-17.
 
-[![Star History Chart](https://api.star-history.com/chart?repos=GoetzKohlberg/sidjua&type=date&legend=top-left)](https://www.star-history.com/?repos=GoetzKohlberg%2Fsidjua&type=date&legend=top-left)
+<a href="https://www.star-history.com/?repos=GoetzKohlberg%2Fsidjua&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=GoetzKohlberg/sidjua&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=GoetzKohlberg/sidjua&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=GoetzKohlberg/sidjua&type=date&legend=top-left" />
+ </picture>
+</a>
 
 The website announces a development freeze and says public downloads are "scheduled to reopen in July 2026", but it is now early October 2026 with no source activity for over five months and the freeze notice still showing the same date (re-checked 2026-10-06).
 **This is the category's second stall record after TinyAGI, and the pattern is the same: a compelling governance pitch and a young codebase that ran out of maintainer momentum.**

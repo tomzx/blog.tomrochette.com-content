@@ -25,7 +25,13 @@ Authors publish with `skills push`, where every push is a version, and companies
 **Active product, near-zero community footprint.**
 The npm package has shipped 165 versions in roughly eight months, but the GitHub repository showed 0 stars and 0 forks as of 2026-10-06, ten days after it went public.
 
-[![Star History Chart](https://api.star-history.com/chart?repos=hasna/skills&type=date&legend=top-left)](https://www.star-history.com/?repos=hasna%2Fskills&type=date&legend=top-left)
+<a href="https://www.star-history.com/?repos=hasna%2Fskills&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=hasna/skills&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=hasna/skills&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=hasna/skills&type=date&legend=top-left" />
+ </picture>
+</a>
 
 No Hacker News story covers the marketplace (my search returned only 4-point items about the SKILL.md filename in general), and I found no independent review, so the adoption evidence is the release cadence, not a community.
 The site is candid in ways that help evaluation: its marketplace labels every hosting status unverified pending a live check, and its demo session is labeled illustrative.

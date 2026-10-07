@@ -26,7 +26,13 @@ Install is `npx @agent-native/skills@latest add`, which writes to the shared `.a
 **Active and fast-moving, with a thin independent footprint.**
 Both repos claim MIT in their READMEs: the skills catalog at 4.5k stars and 228 forks, the framework at 7.1k stars and 642 forks, as of 2026-10-06.
 
-[![Star History Chart](https://api.star-history.com/chart?repos=BuilderIO/agent-native&type=date&legend=top-left)](https://www.star-history.com/?repos=BuilderIO%2Fagent-native&type=date&legend=top-left)
+<a href="https://www.star-history.com/?repos=BuilderIO%2Fagent-native&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=BuilderIO/agent-native&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=BuilderIO/agent-native&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=BuilderIO/agent-native&type=date&legend=top-left" />
+ </picture>
+</a>
 
 The npm package was created 2026-06-10, sits at 0.3.24 with builds shipping several times a day, and pulled 16,552 downloads in the week of 2026-09-28 to 2026-10-04 (fetched 2026-10-06).
 No Hacker News threads and no independent coverage surfaced in this run's searches, so the audience so far is GitHub and npm.

@@ -28,7 +28,13 @@ Prerequisites are just tmux and the GitHub CLI.
 Active but slow-burning.
 The repository was created in March 2025, was last pushed to on 2026-08-20, and shows 222 commits, 8,570 stars, and 627 forks as of 2026-10-05.
 
-[![Star History Chart](https://api.star-history.com/chart?repos=smtg-ai/claude-squad&type=date&legend=top-left)](https://www.star-history.com/?repos=smtg-ai%2Fclaude-squad&type=date&legend=top-left)
+<a href="https://www.star-history.com/?repos=smtg-ai%2Fclaude-squad&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=smtg-ai/claude-squad&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=smtg-ai/claude-squad&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=smtg-ai/claude-squad&type=date&legend=top-left" />
+ </picture>
+</a>
 
 Homebrew reports 5,168 installs over the last 365 days as of 2026-09-26, which is real but modest usage for its star count.
 **Its Hacker News footprint is nearly empty (a 5-point launch thread in April 2025), so adoption spread through GitHub and word of mouth, not press.**

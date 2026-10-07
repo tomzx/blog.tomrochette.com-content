@@ -27,7 +27,13 @@ Commercially, Zylon builds the enterprise platform on top: an on-premise, air-ga
 
 Alive again after a long quiet stretch: 57,556 stars, 7,621 forks, and 15 open issues as of 2026-10-06, created 2023-05-02, pushed 2026-10-06.
 
-[![Star History Chart](https://api.star-history.com/chart?repos=zylon-ai/private-gpt&type=date&legend=top-left)](https://www.star-history.com/?repos=zylon-ai%2Fprivate-gpt&type=date&legend=top-left)
+<a href="https://www.star-history.com/?repos=zylon-ai%2Fprivate-gpt&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=zylon-ai/private-gpt&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=zylon-ai/private-gpt&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=zylon-ai/private-gpt&type=date&legend=top-left" />
+ </picture>
+</a>
 
 The project went viral in May 2023 with a 520-point Hacker News thread as the original offline document chat.
 **Then came the fork gap: the v1.0.0 release notes state the release merges two years of work from a private fork, which is a direct admission that the public repo lagged while Zylon built commercially.**

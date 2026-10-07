@@ -1513,3 +1513,8 @@ Changes to this section that do not appear here were made by a human and must be
 - 241 notes updated with the chart, each also gaining updated: 2026-10-07 and a Changes bullet; the target repository was resolved per note from that note's own repository reference (a repository whose name matches the note slug or title first, then the api.github.com/repos reference, then the note's single repository) [deepseek-v4.1-flash]
 - Excluded 15 of the 256 candidates: the nine people-and-publications notes (subject is a person, not a repository), model-access/minimax-coding-plan and model-access/vercel-ai-gateway (subject is a pricing plan or a hosted service), skills/agent-skills-open-standard, skills/skills-sh and skills/opencode-skills-and-plugins (subject is a standard or a topic, the picked repository is not the note's subject), and hybrid-execution/jev (the referenced MoLeMo-Lab repository is a different project than TypeSafe AI's Jev) [deepseek-v4.1-flash]
 - Verification: all 241 changed files carry the chart inside Status, updated: 2026-10-07, a 2026-10-07 Changes bullet, and parseable front matter; no path outside agents/ touched [deepseek-v4.1-flash]
+
+## 2026-10-07 (owner request, theme-aware star history charts)
+
+- Owner follow-up in chat: replaced the single-line markdown star history image on all 241 notes with the theme-aware picture block (a dark and a light source plus a default image, wrapped in the star-history.com link) so the chart follows the reader's color scheme; the target repository and the Status placement are unchanged [deepseek-v4.1-flash]
+- Verification: all 241 files carry exactly one picture block inside Status, 0 single-line markdown charts remain, front matter parses [deepseek-v4.1-flash]

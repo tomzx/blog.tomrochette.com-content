@@ -25,7 +25,13 @@ It began life as jlia0's TinyClaw, a tiny Claude Code wrapper for a 24/7 persona
 Stalled, kept here as the record.
 Created 2026-02-09, last release v0.0.20 on 2026-03-26, last push 2026-03-30, with 3,619 stars, 505 forks, and 72 open issues accumulating since (stall unchanged when re-checked 2026-10-06).
 
-[![Star History Chart](https://api.star-history.com/chart?repos=TinyAGI/tinyagi&type=date&legend=top-left)](https://www.star-history.com/?repos=TinyAGI%2Ftinyagi&type=date&legend=top-left)
+<a href="https://www.star-history.com/?repos=TinyAGI%2Ftinyagi&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=TinyAGI/tinyagi&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=TinyAGI/tinyagi&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=TinyAGI/tinyagi&type=date&legend=top-left" />
+ </picture>
+</a>
 
 The original TinyClaw launch thread got 1 point on HN, so its growth was pure word of mouth in the one-person-company wave.
 **Five months of silence while Paperclip reached 80k stars in the same window is the whole story: the audience consolidated on the bigger, faster-moving control plane.**

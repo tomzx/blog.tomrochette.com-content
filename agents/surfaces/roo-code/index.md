@@ -27,7 +27,13 @@ Dead, sunset on a published schedule.
 The [announcement](http://web.archive.org/web/20260508092828/https://roocode.com/blog/sunsetting-roo-code-extension-cloud-and-router) (2026-04-20, the live URL now serves the pivot product) committed to supporting everything through May 15, shutting down Roo Code Cloud and Router with refunds, and archiving the extension repo.
 The evidence matches: the last release (v3.54.0) and the last push both landed 2026-05-15, the repository now carries GitHub's archived flag, and the repo shows 24,287 stars and 1,033 open issues as of 2026-10-06.
 
-[![Star History Chart](https://api.star-history.com/chart?repos=RooCodeInc/Roo-Code&type=date&legend=top-left)](https://www.star-history.com/?repos=RooCodeInc%2FRoo-Code&type=date&legend=top-left)
+<a href="https://www.star-history.com/?repos=RooCodeInc%2FRoo-Code&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=RooCodeInc/Roo-Code&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=RooCodeInc/Roo-Code&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=RooCodeInc/Roo-Code&type=date&legend=top-left" />
+ </picture>
+</a>
 
 The announcement claimed "past 3m extension downloads" and pointed users to Cline, which "incorporated much of what we built".
 **The team's new product is [roomote.dev](https://roomote.dev/), a cloud coding agent, and roocode.com now sells that instead.**

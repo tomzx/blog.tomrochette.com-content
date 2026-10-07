@@ -25,7 +25,13 @@ Built by NOFire AI, the team behind urunc, a CNCF Sandbox project; images, boot 
 
 Young but professionally built: 207 stars, 21 forks as of 2026-10-06, created 2026-08-12, pushed 2026-10-06, Apache-2.0.
 
-[![Star History Chart](https://api.star-history.com/chart?repos=brig-sh/brig&type=date&legend=top-left)](https://www.star-history.com/?repos=brig-sh%2Fbrig&type=date&legend=top-left)
+<a href="https://www.star-history.com/?repos=brig-sh%2Fbrig&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=brig-sh/brig&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=brig-sh/brig&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=brig-sh/brig&type=date&legend=top-left" />
+ </picture>
+</a>
 
 v0.2.0 shipped 2026-09-15 and v0.3.0 on 2026-09-26, with channel-main 0.3.1 prereleases cutting almost daily since.
 The Show HN launch on 2026-09-22 drew 9 points, and the maintainer's introduction is most of the thread's substance, so the community footprint is thin and the documentation is where the evidence lives.

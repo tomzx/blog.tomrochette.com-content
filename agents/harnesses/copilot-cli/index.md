@@ -32,7 +32,13 @@ Public preview launched September 25, 2025, and general availability followed on
 The npm package's latest build is 1.0.92 (published October 5, 2026), and it did 7,045,866 downloads in the last month (the API window covering September 5 to October 4, as of 2026-10-06), among the largest npm install bases of any harness in this section.
 The `github/copilot-cli` repository shows 11,243 stars as of 2026-10-06 (GitHub API), and it is a distribution and issues repository, with no open-source license.
 
-[![Star History Chart](https://api.star-history.com/chart?repos=github/copilot-cli&type=date&legend=top-left)](https://www.star-history.com/?repos=github%2Fcopilot-cli&type=date&legend=top-left)
+<a href="https://www.star-history.com/?repos=github%2Fcopilot-cli&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=github/copilot-cli&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=github/copilot-cli&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=github/copilot-cli&type=date&legend=top-left" />
+ </picture>
+</a>
 
 Community discussion is thinner than the install count would suggest: the public-preview launch thread drew 24 points, and the general-availability thread 7, which I read as distribution through Copilot seats rather than terminal-community gravity.
 

@@ -26,7 +26,13 @@ Optional features include a tmux dashboard, Git-backed workspace isolation, revi
 
 Very early but shipping: about 41 stars and 6 forks as of 2026-10-06, created 2026-06-24, and active development through v0.3.6 on 2026-10-05 (bug-fix and change-review example workflows, review loops resuming from completed phase checkpoints) with default-branch commits through October 5.
 
-[![Star History Chart](https://api.star-history.com/chart?repos=crewplaneai/crewplane&type=date&legend=top-left)](https://www.star-history.com/?repos=crewplaneai%2Fcrewplane&type=date&legend=top-left)
+<a href="https://www.star-history.com/?repos=crewplaneai%2Fcrewplane&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=crewplaneai/crewplane&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=crewplaneai/crewplane&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=crewplaneai/crewplane&type=date&legend=top-left" />
+ </picture>
+</a>
 
 The repository is Python, passes an OpenSSF Best Practices badge, and documents an install-to-inspect path that runs a mock invoker before any real provider call.
 **At roughly three months old and 41 stars, Crewplane is a cohort-of-one tool from a single vendor; its value depends on whether the Markdown-as-workflow idea outlives the project.**

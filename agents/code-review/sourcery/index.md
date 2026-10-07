@@ -23,7 +23,13 @@ IDE surfaces cover PyCharm, VS Code, Sublime, and Vim, a wider editor spread tha
 
 **Old by category standards (repo since July 2019), active, and mid-size: 1,870 stars as of 2026-10-06, commits as recent as October 6, 2026.**
 
-[![Star History Chart](https://api.star-history.com/chart?repos=sourcery-ai/sourcery&type=date&legend=top-left)](https://www.star-history.com/?repos=sourcery-ai%2Fsourcery&type=date&legend=top-left)
+<a href="https://www.star-history.com/?repos=sourcery-ai%2Fsourcery&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=sourcery-ai/sourcery&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=sourcery-ai/sourcery&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=sourcery-ai/sourcery&type=date&legend=top-left" />
+ </picture>
+</a>
 
 The PyPI package confirms the refactoring origin ("Magically refactor Python", 23 releases, now at 1.46.0).
 Funding: not verifiable from primary sources, and TechCrunch's only "Sourcery" rounds belong to the unrelated 2014/2016 restaurant startup, so I record none.

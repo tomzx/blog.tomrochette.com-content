@@ -26,7 +26,13 @@ By Eigent AI (EIGENT UK LTD), founded by Guohao Li, who also founded CAMEL-AI; f
 
 Active and maturing: 15,459 stars, 1,842 forks, 247 open issues as of 2026-10-06, created 2025-07-29, pushed 2026-10-06, v1.0.5 still the latest release (2026-09-25).
 
-[![Star History Chart](https://api.star-history.com/chart?repos=eigent-ai/eigent&type=date&legend=top-left)](https://www.star-history.com/?repos=eigent-ai%2Feigent&type=date&legend=top-left)
+<a href="https://www.star-history.com/?repos=eigent-ai%2Feigent&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=eigent-ai/eigent&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=eigent-ai/eigent&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=eigent-ai/eigent&type=date&legend=top-left" />
+ </picture>
+</a>
 
 **The smallest community of the Cowork trio, and the launch thread matters: the "ranked top 1 on GAIA benchmark" claim referred to the predecessor project OWL, the founder acknowledged it, and 1-karma accounts posted praise.**
 

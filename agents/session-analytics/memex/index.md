@@ -25,7 +25,13 @@ Made by an independent developer, MIT-licensed, with no cloud service in the def
 
 Active and quietly growing: created 2026-01-01, 243 stars, 33 forks, pushed 2026-10-06, as of 2026-10-06.
 
-[![Star History Chart](https://api.star-history.com/chart?repos=nicosuave/memex&type=date&legend=top-left)](https://www.star-history.com/?repos=nicosuave%2Fmemex&type=date&legend=top-left)
+<a href="https://www.star-history.com/?repos=nicosuave%2Fmemex&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=nicosuave/memex&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=nicosuave/memex&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=nicosuave/memex&type=date&legend=top-left" />
+ </picture>
+</a>
 
 Releases ship in bursts: v0.25.0 (2026-10-02) added the Hermes and KiloCode CLI engines (fifteen to seventeen harnesses), then v0.26.0, v0.26.1, and v0.27.0 all landed 2026-10-03 (OpenAI-compatible remote embeddings plus the full fastembed catalog, Homebrew tap updates, and conversation-search relevance improvements), and v0.27.1 followed on 2026-10-04 without release notes.
 Its Show HN on 2026-09-18 reached 2 points and a single comment, written by the author.

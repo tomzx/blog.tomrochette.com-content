@@ -27,7 +27,13 @@ The plugin line is the distribution strategy: official OpenClaw plugins (cloud a
 **Active and mid-scale.**
 11,713 stars with the repository pushed 2026-09-29, created 2025-07-06, as of 2026-10-06 (GitHub API).
 
-[![Star History Chart](https://api.star-history.com/chart?repos=MemTensor/MemOS&type=date&legend=top-left)](https://www.star-history.com/?repos=MemTensor%2FMemOS&type=date&legend=top-left)
+<a href="https://www.star-history.com/?repos=MemTensor%2FMemOS&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=MemTensor/MemOS&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=MemTensor/MemOS&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=MemTensor/MemOS&type=date&legend=top-left" />
+ </picture>
+</a>
 
 Latest engine release v2.0.34 (2026-09-23) and local-plugin release v2.0.20 (2026-09-21) per the GitHub releases API; the PyPI package is at 0.37.0, Apache-2.0.
 The benchmark table is the vendor's own: LoCoMo 88.83 and LongMemEval 89.20 via OmniMemEval, the company's self-published evaluation framework spanning 14 commercial memory products.

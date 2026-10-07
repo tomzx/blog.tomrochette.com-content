@@ -26,7 +26,13 @@ The ecosystem is modular: BMad Builder, a Creative Intelligence Suite, an enterp
 Large, active, and quietly adopted.
 As of 2026-10-06: about 53.8k stars and about 6k forks since creation on 2025-04-13, 60 open issues and pull requests, with release v6.12.1 (published 2026-10-04) now the newest.
 
-[![Star History Chart](https://api.star-history.com/chart?repos=bmad-code-org/BMAD-METHOD&type=date&legend=top-left)](https://www.star-history.com/?repos=bmad-code-org%2FBMAD-METHOD&type=date&legend=top-left)
+<a href="https://www.star-history.com/?repos=bmad-code-org%2FBMAD-METHOD&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=bmad-code-org/BMAD-METHOD&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=bmad-code-org/BMAD-METHOD&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=bmad-code-org/BMAD-METHOD&type=date&legend=top-left" />
+ </picture>
+</a>
 
 The derivative community is real (third-party skill packs and hybrids like boss-skill and bmalph, the latter at 406 stars), but its HN threads run 2 to 4 points, so the method spread through the ecosystem rather than the front page.
 

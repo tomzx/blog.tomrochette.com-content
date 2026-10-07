@@ -27,7 +27,13 @@ The vendor is Truthsetter LLC.
 Early and low-traffic but actively maintained.
 The gateway repository was created 2026-03-08 and sits at 1 star, 0 forks, and 1 open issue as of 2026-10-06, with 76 commits and a last push on 2026-09-25; the A2A-SE standard repository has 2 stars.
 
-[![Star History Chart](https://api.star-history.com/chart?repos=a2a-settlement/settlebridge-ai&type=date&legend=top-left)](https://www.star-history.com/?repos=a2a-settlement%2Fsettlebridge-ai&type=date&legend=top-left)
+<a href="https://www.star-history.com/?repos=a2a-settlement%2Fsettlebridge-ai&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=a2a-settlement/settlebridge-ai&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=a2a-settlement/settlebridge-ai&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=a2a-settlement/settlebridge-ai&type=date&legend=top-left" />
+ </picture>
+</a>
 
 The website, pricing page, marketplace, and documentation are live and detailed, so this is a product with a real surface rather than an abandoned experiment.
 **The community footprint is effectively absent: a Hacker News search for SettleBridge returns nothing, and the whole organization is in the low single digits of stars.**

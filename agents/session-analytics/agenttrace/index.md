@@ -27,7 +27,13 @@ Made by an independent developer (luoyuctl) under MIT.
 
 Young and active: 139 stars, 9 forks, 5 open issues, created 2026-05-01, last pushed 2026-10-06, latest release v0.10.1 on 2026-10-05 after v0.10.0 and v0.9.1 on 2026-10-04, as of 2026-10-06.
 
-[![Star History Chart](https://api.star-history.com/chart?repos=luoyuctl/agenttrace&type=date&legend=top-left)](https://www.star-history.com/?repos=luoyuctl%2Fagenttrace&type=date&legend=top-left)
+<a href="https://www.star-history.com/?repos=luoyuctl%2Fagenttrace&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=luoyuctl/agenttrace&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=luoyuctl/agenttrace&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=luoyuctl/agenttrace&type=date&legend=top-left" />
+ </picture>
+</a>
 
 It is effectively a one-person project: the v0.9.0 and v0.10.0 changelists credit every feature pull request to the owner, with the one outside contributor's commit merged in v0.9.0.
 The community footprint is nearly empty: a Hacker News search for the author returns nothing, and I found no Reddit discussion.

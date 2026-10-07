@@ -25,7 +25,13 @@ Started by Xubin Ren as a personal project, now under the HKUDS lab banner (the 
 
 One of the fastest adoption curves in the category: 48,812 stars, 8,610 forks, 832 open issues as of 2026-10-06, created 2026-02-01, pushed the same day.
 
-[![Star History Chart](https://api.star-history.com/chart?repos=HKUDS/nanobot&type=date&legend=top-left)](https://www.star-history.com/?repos=HKUDS%2Fnanobot&type=date&legend=top-left)
+<a href="https://www.star-history.com/?repos=HKUDS%2Fnanobot&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=HKUDS/nanobot&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=HKUDS/nanobot&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=HKUDS/nanobot&type=date&legend=top-left" />
+ </picture>
+</a>
 
 Sixteen PyPI releases since February 2026, with v0.3.0 on 2026-07-25 followed by a seven-week quiet stretch that v0.3.5 ended on 2026-09-15, and the launch HN thread drew 257 points.
 **PyPI still classifies it Alpha, and one listed maintainer carries the release burden, the two facts I would weight against the star count.**

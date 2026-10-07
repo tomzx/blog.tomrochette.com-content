@@ -27,7 +27,13 @@ Install is a curl of a release binary for amd64 or arm64 plus the passt/pasta pa
 
 Young tool, older project, one strong launch: 375 stars, 12 forks, 6 open issues as of 2026-10-06, created 2025-07-25, pushed 2026-10-02, latest release v0.3.0 on 2026-09-29.
 
-[![Star History Chart](https://api.star-history.com/chart?repos=wrr/drop&type=date&legend=top-left)](https://www.star-history.com/?repos=wrr%2Fdrop&type=date&legend=top-left)
+<a href="https://www.star-history.com/?repos=wrr%2Fdrop&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=wrr/drop&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=wrr/drop&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=wrr/drop&type=date&legend=top-left" />
+ </picture>
+</a>
 
 The Show HN thread on 2026-09-22 drew 193 points with substantive comparisons to bubblewrap and proot in the top replies.
 v0.3.0 added a `drop edit` command for the TOML config, a reorganized documentation site at droprun.sh/docs/, and base.toml defaults for uv, pipx, go install, and Cargo that expose host-installed packages read-only while sandbox-only installs stay contained.

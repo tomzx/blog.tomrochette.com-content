@@ -28,7 +28,13 @@ It is built by MinishLab, the two-person team (Stephan and Thomas, per the launc
 **Young, active, and unusually well received for a search tool.**
 6,183 stars and 273 forks since the repo appeared on 2026-04-06, with the last push 2026-10-06 and v0.6.2 released 2026-10-05 (GitHub API, as of 2026-10-06).
 
-[![Star History Chart](https://api.star-history.com/chart?repos=MinishLab/semble&type=date&legend=top-left)](https://www.star-history.com/?repos=MinishLab%2Fsemble&type=date&legend=top-left)
+<a href="https://www.star-history.com/?repos=MinishLab%2Fsemble&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=MinishLab/semble&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=MinishLab/semble&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=MinishLab/semble&type=date&legend=top-left" />
+ </picture>
+</a>
 
 97,003 PyPI downloads in the trailing month (PyPIstats, as of 2026-10-06).
 The launch Show HN (May 17, 2026) drew 445 points and 151 comments, on top of two quiet warm-up threads in April; a third-party VS Code extension appeared in August, which is the usual early-ecosystem signal.

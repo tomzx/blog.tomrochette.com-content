@@ -27,7 +27,13 @@ The [homepage](https://www.continue.dev/) reads "Continue was acquired by Cursor
 The README states the repository "is no longer actively maintained and is read-only for all users", a notice that still stands even though the repo API recorded metadata pushes as recently as October 2026.
 As of 2026-10-06 the repo shows about 36.1k stars and 5.5k forks, the docs remain online, and the marketplace extension still installs at a 3.3 average rating.
 
-[![Star History Chart](https://api.star-history.com/chart?repos=continuedev/continue&type=date&legend=top-left)](https://www.star-history.com/?repos=continuedev%2Fcontinue&type=date&legend=top-left)
+<a href="https://www.star-history.com/?repos=continuedev%2Fcontinue&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=continuedev/continue&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=continuedev/continue&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=continuedev/continue&type=date&legend=top-left" />
+ </picture>
+</a>
 
 **A 2026-08-22 Ask HN titled "Continue coding agent is dead. Alternatives?" ([4 points](https://news.ycombinator.com/item?id=49398366)) is a fittingly quiet funeral for a tool with four million installs.**
 

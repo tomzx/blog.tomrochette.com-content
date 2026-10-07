@@ -25,7 +25,13 @@ LangGraph shows up in eight other section articles (this category's feature matr
 
 Active and enormous: 42,752 stars, 7,268 forks, and 100+ contributors as of 2026-10-05, with the repository created in August 2023.
 
-[![Star History Chart](https://api.star-history.com/chart?repos=langchain-ai/langgraph&type=date&legend=top-left)](https://www.star-history.com/?repos=langchain-ai%2Flanggraph&type=date&legend=top-left)
+<a href="https://www.star-history.com/?repos=langchain-ai%2Flanggraph&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=langchain-ai/langgraph&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=langchain-ai/langgraph&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=langchain-ai/langgraph&type=date&legend=top-left" />
+ </picture>
+</a>
 
 Release 1.2.13 shipped 2026-10-05 on GitHub and PyPI alike, continuing a 1.2.x line that has run all year.
 npm `@langchain/langgraph` served 4,552,953 downloads in the week ending 2026-10-04.

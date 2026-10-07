@@ -25,7 +25,13 @@ One-click connectors target Pi, OpenCode, Hermes, OpenClaw, Codex, Claude Code, 
 
 Active and young: 6,447 stars, 441 forks, 37 open issues, repo pushed 2026-10-06 (as of 2026-10-06).
 
-[![Star History Chart](https://api.star-history.com/chart?repos=magnitudedev/magnitude&type=date&legend=top-left)](https://www.star-history.com/?repos=magnitudedev%2Fmagnitude&type=date&legend=top-left)
+<a href="https://www.star-history.com/?repos=magnitudedev%2Fmagnitude&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=magnitudedev/magnitude&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=magnitudedev/magnitude&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=magnitudedev/magnitude&type=date&legend=top-left" />
+ </picture>
+</a>
 
 The Launch HN post on 2026-09-30 drew 194 points and 99 comments.
 The product pivoted: the same domain hosted "Magnitude: A coding agent that runs on open models" in June 2026 before the team turned the engine underneath it into the product.

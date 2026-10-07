@@ -27,7 +27,13 @@ Active: last push 2026-10-05, latest release 1.17.1 on 2026-09-10 (GitHub API, a
 Its 2024 HN launch drew 185 points, and the community has kept growing since.
 The category context is the risk: Flowise's shutdown discussion argued that capable coding agents are eroding the rigid low-code workflow approach, and that argument applies to every member of the genre, Dify included.
 
-[![Star History Chart](https://api.star-history.com/chart?repos=langgenius/dify&type=date&legend=top-left)](https://www.star-history.com/?repos=langgenius%2Fdify&type=date&legend=top-left)
+<a href="https://www.star-history.com/?repos=langgenius%2Fdify&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=langgenius/dify&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=langgenius/dify&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=langgenius/dify&type=date&legend=top-left" />
+ </picture>
+</a>
 
 ## Strengths
 

@@ -25,7 +25,13 @@ MIT, by Ouro Labs (Q00), solo-maintained with around 80 contributors.
 
 Very young, very active: 6,184 stars, 622 forks, 91 open issues as of 2026-10-06, created 2026-01-14, pushed 2026-10-05.
 
-[![Star History Chart](https://api.star-history.com/chart?repos=Q00/ouroboros&type=date&legend=top-left)](https://www.star-history.com/?repos=Q00%2Fouroboros&type=date&legend=top-left)
+<a href="https://www.star-history.com/?repos=Q00%2Fouroboros&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Q00/ouroboros&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=Q00/ouroboros&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=Q00/ouroboros&type=date&legend=top-left" />
+ </picture>
+</a>
 
 Latest release v0.55.4 on 2026-10-02, three patch bumps past the 0.55.0 minor release of 2026-09-28, with about 26 PyPI releases in the last seven weeks; PyPI self-labels it Beta.
 **Headline results are self-reported, its Hacker News threads are self-submitted with single-digit points, and no independent evaluation exists as of 2026-10-06.**

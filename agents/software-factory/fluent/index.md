@@ -22,7 +22,13 @@ Each run of a Work Item is an Attempt that a Writer, parallel Reviewers, a deter
 
 Active but in its first quiet stretch: 111 stars and 6 forks since creation on 2026-07-10, 1,965 commits, and v0.4.0 released 2026-09-08 (still the newest release, with no release or push since) per the GitHub API as of 2026-10-06.
 
-[![Star History Chart](https://api.star-history.com/chart?repos=mrinalwadhwa/fluent&type=date&legend=top-left)](https://www.star-history.com/?repos=mrinalwadhwa%2Ffluent&type=date&legend=top-left)
+<a href="https://www.star-history.com/?repos=mrinalwadhwa%2Ffluent&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=mrinalwadhwa/fluent&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=mrinalwadhwa/fluent&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=mrinalwadhwa/fluent&type=date&legend=top-left" />
+ </picture>
+</a>
 
 v0.4.0 clarified which role owns each required action, improved how test evidence is matched, and made long-running work safer to resume and cancel; v0.3.0 (2026-08-31) had added durable Slack collaboration for planning, approvals, and candidate handoff.
 It is a focused single-author project with a Discord community behind it; the roughly four quiet weeks since v0.4.0 are the first test of whether the shipping resumes.

@@ -23,7 +23,13 @@ The design philosophy is documented in the repository's RSI.md, "A Systems View 
 
 Active: created 2026-05-20, 1,486 stars and 111 forks, pushed within a day of verification as of 2026-10-06.
 
-[![Star History Chart](https://api.star-history.com/chart?repos=exoharness/exo&type=date&legend=top-left)](https://www.star-history.com/?repos=exoharness%2Fexo&type=date&legend=top-left)
+<a href="https://www.star-history.com/?repos=exoharness%2Fexo&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=exoharness/exo&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=exoharness/exo&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=exoharness/exo&type=date&legend=top-left" />
+ </picture>
+</a>
 
 **The independent FrontierHarness Eval scores it near the bottom of nine harnesses on pass rate but first on cost: 53.3 percent pass at a $1.05 median cost per task, against Claude Code's $18.34 on the same model and tasks.**
 The community footprint is thin, a 3-point and a 2-point Hacker News thread, so the eval and the repository are nearly the whole evidence base as of 2026-10-04.
